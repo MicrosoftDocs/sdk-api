@@ -1,19 +1,17 @@
 ---
 UID: NN:wmp.IWMPControls
 title: IWMPControls (wmp.h)
-
 description: The IWMPControls interface provides a way to manipulate the playback of a media item.
 old-location: wmp\iwmpcontrols.htm
 tech.root: WMP
 ms.assetid: 422ac0d8-8e94-4484-802f-cdf4ae482fa8
-
 ms.date: 12/05/2018
 ms.keywords: IWMPControls, IWMPControls interface [Windows Media Player], IWMPControls interface [Windows Media Player],described, IWMPControlsInterface, wmp.iwmpcontrols, wmp/IWMPControls
 ms.topic: interface
-f1_keywords: 
- - "wmp/IWMPControls"
+f1_keywords:
+- wmp/IWMPControls
 dev_langs:
- - c++
+- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmp.h
+- wmp.h
 api_name:
- - IWMPControls
+- IWMPControls
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:wbemtime.WBEMTimeSpan.WBEMTimeSpan
 title: WBEMTimeSpan::WBEMTimeSpan (wbemtime.h)
-
 description: The WBEMTimeSpan class constructor creates a time span object. The constructor is overloaded.
 old-location: wmi\wbemtimespan_wbemtimespan.htm
 tech.root: WmiSdk
 ms.assetid: 337dc247-9904-457a-a1f3-e1cf29b61126
-
 ms.date: 12/05/2018
 ms.keywords: WBEMTimeSpan, WBEMTimeSpan.WBEMTimeSpan, WBEMTimeSpan::WBEMTimeSpan, WBEMTimeSpan::WBEMTimeSpan constructors [Windows Management Instrumentation], WBEMTimeSpan::WbemTimeSpan, wbemtime/WBEMTimeSpan::WBEMTimeSpan, wmi.wbemtimespan_wbemtimespan
 ms.topic: method
-f1_keywords: 
- - "wbemtime/WBEMTimeSpan::WbemTimeSpan"
+f1_keywords:
+- wbemtime/WBEMTimeSpan::WbemTimeSpan
 dev_langs:
- - c++
+- c++
 req.header: wbemtime.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: FrameDynOS.dll; FrameDyn.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - FrameDynOS.dll
- - FrameDyn.dll
+- FrameDynOS.dll
+- FrameDyn.dll
 api_name:
- - WBEMTimeSpan::WbemTimeSpan
+- WBEMTimeSpan::WbemTimeSpan
 targetos: Windows
 req.typenames: 
 req.redist: 

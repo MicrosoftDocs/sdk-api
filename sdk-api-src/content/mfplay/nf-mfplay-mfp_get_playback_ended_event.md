@@ -1,19 +1,17 @@
 ---
 UID: NF:mfplay.MFP_GET_PLAYBACK_ENDED_EVENT
 title: MFP_GET_PLAYBACK_ENDED_EVENT macro (mfplay.h)
-
 description: Casts an MFP_EVENT_HEADER pointer to an MFP_PLAYBACK_ENDED_EVENT pointer.
 old-location: mf\mfp_get_playback_ended_event.htm
 tech.root: medfound
 ms.assetid: c15a7473-41e5-4d84-aaaa-c547dd38826b
-
 ms.date: 12/05/2018
 ms.keywords: MFP_GET_PLAYBACK_ENDED_EVENT, MFP_GET_PLAYBACK_ENDED_EVENT macro [Media Foundation], mf.mfp_get_playback_ended_event, mfplay/MFP_GET_PLAYBACK_ENDED_EVENT
 ms.topic: macro
-f1_keywords: 
- - "mfplay/MFP_GET_PLAYBACK_ENDED_EVENT"
+f1_keywords:
+- mfplay/MFP_GET_PLAYBACK_ENDED_EVENT
 dev_langs:
- - c++
+- c++
 req.header: mfplay.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - mfplay.h
+- mfplay.h
 api_name:
- - MFP_GET_PLAYBACK_ENDED_EVENT
+- MFP_GET_PLAYBACK_ENDED_EVENT
 targetos: Windows
 req.typenames: 
 req.redist: 

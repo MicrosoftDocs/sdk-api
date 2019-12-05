@@ -1,19 +1,17 @@
 ---
 UID: NF:winuser.AreDpiAwarenessContextsEqual
 title: AreDpiAwarenessContextsEqual function (winuser.h)
-
 description: Determines whether two DPI_AWARENESS_CONTEXT values are identical.
 old-location: hidpi\aredpiawarenesscontextsequal.htm
 tech.root: hidpi
 ms.assetid: 77660CAB-97ED-4DAC-A95E-A149F1A479FD
-
 ms.date: 12/05/2018
 ms.keywords: AreDpiAwarenessContextsEqual, AreDpiAwarenessContextsEqual function [High DPI], hidpi.aredpiawarenesscontextsequal, winuser/AreDpiAwarenessContextsEqual
 ms.topic: function
-f1_keywords: 
- - "winuser/AreDpiAwarenessContextsEqual"
+f1_keywords:
+- winuser/AreDpiAwarenessContextsEqual
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,19 +30,19 @@ req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - User32.dll
- - Ext-MS-Win-NTUser-Window-l1-1-0.dll
- - Ext-MS-Win-NTUser-Window-l1-1-1.dll
- - Ext-MS-Win-NTUser-Window-l1-1-2.dll
- - ext-ms-win-ntuser-window-l1-1-3.dll
- - Ext-MS-Win-NTUser-Window-L1-1-4.dll
+- User32.dll
+- Ext-MS-Win-NTUser-Window-l1-1-0.dll
+- Ext-MS-Win-NTUser-Window-l1-1-1.dll
+- Ext-MS-Win-NTUser-Window-l1-1-2.dll
+- ext-ms-win-ntuser-window-l1-1-3.dll
+- Ext-MS-Win-NTUser-Window-L1-1-4.dll
 api_name:
- - AreDpiAwarenessContextsEqual
+- AreDpiAwarenessContextsEqual
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IAMPluginControl.IsDisabled
 title: IAMPluginControl::IsDisabled (strmif.h)
-
 description: Queries whether a class identifier (CLSID) appears in the blocked list.
 old-location: dshow\iamplugincontrol_isdisabled.htm
 tech.root: DirectShow
 ms.assetid: 2d6bae28-7c26-47c4-8633-9ecc60293dc6
-
 ms.date: 12/05/2018
 ms.keywords: IAMPluginControl interface [DirectShow],IsDisabled method, IAMPluginControl.IsDisabled, IAMPluginControl::IsDisabled, IsDisabled, IsDisabled method [DirectShow], IsDisabled method [DirectShow],IAMPluginControl interface, dshow.iamplugincontrol_isdisabled, strmif/IAMPluginControl::IsDisabled
 ms.topic: method
-f1_keywords: 
- - "strmif/IAMPluginControl.IsDisabled"
+f1_keywords:
+- strmif/IAMPluginControl.IsDisabled
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmif.h
+- Strmif.h
 api_name:
- - IAMPluginControl.IsDisabled
+- IAMPluginControl.IsDisabled
 targetos: Windows
 req.typenames: 
 req.redist: 

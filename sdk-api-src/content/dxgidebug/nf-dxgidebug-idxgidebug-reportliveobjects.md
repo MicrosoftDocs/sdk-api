@@ -1,19 +1,17 @@
 ---
 UID: NF:dxgidebug.IDXGIDebug.ReportLiveObjects
 title: IDXGIDebug::ReportLiveObjects (dxgidebug.h)
-
 description: Reports info about the lifetime of an object or objects.
 old-location: direct3ddxgi\idxgidebug_reportliveobjects.htm
 tech.root: direct3ddxgi
 ms.assetid: 6CA5C335-08E3-4CC6-A9C9-D7BC6B11C0EA
-
 ms.date: 12/05/2018
 ms.keywords: IDXGIDebug interface [DXGI],ReportLiveObjects method, IDXGIDebug.ReportLiveObjects, IDXGIDebug::ReportLiveObjects, ReportLiveObjects, ReportLiveObjects method [DXGI], ReportLiveObjects method [DXGI],IDXGIDebug interface, direct3ddxgi.idxgidebug_reportliveobjects, dxgidebug/IDXGIDebug::ReportLiveObjects
 ms.topic: method
-f1_keywords: 
- - "dxgidebug/IDXGIDebug.ReportLiveObjects"
+f1_keywords:
+- dxgidebug/IDXGIDebug.ReportLiveObjects
 dev_langs:
- - c++
+- c++
 req.header: dxgidebug.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: DXGIDebug.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - DXGIDebug.dll
+- DXGIDebug.dll
 api_name:
- - IDXGIDebug.ReportLiveObjects
+- IDXGIDebug.ReportLiveObjects
 targetos: Windows
 req.typenames: 
 req.redist: 

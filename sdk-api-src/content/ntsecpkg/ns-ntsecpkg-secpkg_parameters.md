@@ -1,19 +1,17 @@
 ---
 UID: NS:ntsecpkg._SECPKG_PARAMETERS
 title: SECPKG_PARAMETERS (ntsecpkg.h)
-
 description: The SECPKG_PARAMETERS structure contains information about the computer system. This structure is used by the SpInitialize function.
 old-location: security\secpkg_parameters.htm
 tech.root: SecAuthN
 ms.assetid: 2e3b7961-e2c4-4011-91b1-0ba9d35e9188
-
 ms.date: 12/05/2018
-ms.keywords: "*PSECPKG_EVENT_DOMAIN_CHANGE, *PSECPKG_PARAMETERS, PSECPKG_EVENT_DOMAIN_CHANGE, PSECPKG_EVENT_DOMAIN_CHANGE structure pointer [Security], PSECPKG_PARAMETERS, PSECPKG_PARAMETERS structure pointer [Security], SECPKG_EVENT_DOMAIN_CHANGE, SECPKG_EVENT_DOMAIN_CHANGE structure [Security], SECPKG_PARAMETERS, SECPKG_PARAMETERS structure [Security], SECPKG_STATE_DOMAIN_CONTROLLER, SECPKG_STATE_ENCRYPTION_PERMITTED, SECPKG_STATE_STANDALONE, SECPKG_STATE_STRONG_ENCRYPTION_PERMITTED, SECPKG_STATE_WORKSTATION, _ssp_secpkg_parameters, ntsecpkg/PSECPKG_EVENT_DOMAIN_CHANGE, ntsecpkg/PSECPKG_PARAMETERS, ntsecpkg/SECPKG_EVENT_DOMAIN_CHANGE, ntsecpkg/SECPKG_PARAMETERS, security.secpkg_parameters"
+ms.keywords: '*PSECPKG_EVENT_DOMAIN_CHANGE, *PSECPKG_PARAMETERS, PSECPKG_EVENT_DOMAIN_CHANGE, PSECPKG_EVENT_DOMAIN_CHANGE structure pointer [Security], PSECPKG_PARAMETERS, PSECPKG_PARAMETERS structure pointer [Security], SECPKG_EVENT_DOMAIN_CHANGE, SECPKG_EVENT_DOMAIN_CHANGE structure [Security], SECPKG_PARAMETERS, SECPKG_PARAMETERS structure [Security], SECPKG_STATE_DOMAIN_CONTROLLER, SECPKG_STATE_ENCRYPTION_PERMITTED, SECPKG_STATE_STANDALONE, SECPKG_STATE_STRONG_ENCRYPTION_PERMITTED, SECPKG_STATE_WORKSTATION, _ssp_secpkg_parameters, ntsecpkg/PSECPKG_EVENT_DOMAIN_CHANGE, ntsecpkg/PSECPKG_PARAMETERS, ntsecpkg/SECPKG_EVENT_DOMAIN_CHANGE, ntsecpkg/SECPKG_PARAMETERS, security.secpkg_parameters'
 ms.topic: struct
-f1_keywords: 
- - "ntsecpkg/SECPKG_PARAMETERS"
+f1_keywords:
+- ntsecpkg/SECPKG_PARAMETERS
 dev_langs:
- - c++
+- c++
 req.header: ntsecpkg.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Ntsecpkg.h
+- Ntsecpkg.h
 api_name:
- - SECPKG_PARAMETERS
+- SECPKG_PARAMETERS
 targetos: Windows
 req.typenames: SECPKG_PARAMETERS, *PSECPKG_PARAMETERS, SECPKG_EVENT_DOMAIN_CHANGE, *PSECPKG_EVENT_DOMAIN_CHANGE
 req.redist: 

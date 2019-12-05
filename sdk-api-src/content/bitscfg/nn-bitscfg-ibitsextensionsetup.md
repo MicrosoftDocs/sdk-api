@@ -1,19 +1,17 @@
 ---
 UID: NN:bitscfg.IBITSExtensionSetup
 title: IBITSExtensionSetup (bitscfg.h)
-
 description: Use the IBITSExtensionSetup interface to enable or disable BITS uploads to a virtual directory.
 old-location: bits\ibitsextensionsetup.htm
 tech.root: Bits
 ms.assetid: 840608ef-9c07-43f7-9cfd-20996a18bb50
-
 ms.date: 12/05/2018
 ms.keywords: IBITSExtensionSetup, IBITSExtensionSetup interface [BITS], IBITSExtensionSetup interface [BITS],described, _drz_ibitsextensionsetup, bits.ibitsextensionsetup, bitscfg/IBITSExtensionSetup
 ms.topic: interface
-f1_keywords: 
- - "bitscfg/IBITSExtensionSetup"
+f1_keywords:
+- bitscfg/IBITSExtensionSetup
 dev_langs:
- - c++
+- c++
 req.header: bitscfg.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: BitsMgr.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - BitsMgr.dll
+- BitsMgr.dll
 api_name:
- - IBITSExtensionSetup
+- IBITSExtensionSetup
 targetos: Windows
 req.typenames: 
 req.redist: BITS 1.5 on Windows XP

@@ -1,19 +1,17 @@
 ---
 UID: NF:ntmsapi.EndNtmsDeviceChangeDetection
 title: EndNtmsDeviceChangeDetection function (ntmsapi.h)
-
 description: The EndNtmsDeviceChangeDetection function ends device change detection for any target devices specified using the SetNtmsDeviceChangeDetection function and closes the change detection handle.
 old-location: fs\endntmsdevicechangedetection.htm
 tech.root: Rsm
 ms.assetid: cb8dc379-30a1-43b0-b5a7-c6bc59b3e9ac
-
 ms.date: 12/05/2018
 ms.keywords: EndNtmsDeviceChangeDetection, EndNtmsDeviceChangeDetection function [Files], _zaw_endntmsdevicechangedetection, base.endntmsdevicechangedetection, fs.endntmsdevicechangedetection, ntmsapi/EndNtmsDeviceChangeDetection
 ms.topic: function
-f1_keywords: 
- - "ntmsapi/EndNtmsDeviceChangeDetection"
+f1_keywords:
+- ntmsapi/EndNtmsDeviceChangeDetection
 dev_langs:
- - c++
+- c++
 req.header: ntmsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Ntmsapi.lib
 req.dll: Ntmsapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ntmsapi.dll
+- Ntmsapi.dll
 api_name:
- - EndNtmsDeviceChangeDetection
+- EndNtmsDeviceChangeDetection
 targetos: Windows
 req.typenames: 
 req.redist: 

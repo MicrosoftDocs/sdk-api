@@ -1,19 +1,17 @@
 ---
 UID: NF:netioapi.GetUnicastIpAddressEntry
 title: GetUnicastIpAddressEntry function (netioapi.h)
-
 description: Retrieves information for an existing unicast IP address entry on the local computer.
 old-location: iphlp\getunicastipaddressentry.htm
 tech.root: IpHlp
 ms.assetid: d5475c09-05dd-41d7-80ff-63c52d78468c
-
 ms.date: 12/05/2018
 ms.keywords: GetUnicastIpAddressEntry, GetUnicastIpAddressEntry function [IP Helper], iphlp.getunicastipaddressentry, netioapi/GetUnicastIpAddressEntry
 ms.topic: function
-f1_keywords: 
- - "netioapi/GetUnicastIpAddressEntry"
+f1_keywords:
+- netioapi/GetUnicastIpAddressEntry
 dev_langs:
- - c++
+- c++
 req.header: netioapi.h
 req.include-header: Iphlpapi.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Iphlpapi.lib
 req.dll: Iphlpapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Iphlpapi.dll
+- Iphlpapi.dll
 api_name:
- - GetUnicastIpAddressEntry
+- GetUnicastIpAddressEntry
 targetos: Windows
 req.typenames: 
 req.redist: 

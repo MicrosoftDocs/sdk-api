@@ -1,19 +1,17 @@
 ---
 UID: NF:wingdi.GetTextCharsetInfo
 title: GetTextCharsetInfo function (wingdi.h)
-
 description: Retrieves information about the character set of the font that is currently selected into a specified device context.
 old-location: intl\gettextcharsetinfo.htm
 tech.root: Intl
 ms.assetid: 1c8c114a-b261-457c-b541-4648a8f38ee8
-
 ms.date: 12/05/2018
 ms.keywords: GetTextCharsetInfo, GetTextCharsetInfo function [Internationalization for Windows Applications], _win32_GetTextCharsetInfo, intl.gettextcharsetinfo, wingdi/GetTextCharsetInfo
 ms.topic: function
-f1_keywords: 
- - "wingdi/GetTextCharsetInfo"
+f1_keywords:
+- wingdi/GetTextCharsetInfo
 dev_langs:
- - c++
+- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Gdi32.dll
- - Ext-MS-Win-GDI-Font-l1-1-1.dll
- - ext-ms-win-gdi-font-l1-1-2.dll
- - Ext-MS-Win-GDI-Font-L1-1-3.dll
- - GDI32Full.dll
+- Gdi32.dll
+- Ext-MS-Win-GDI-Font-l1-1-1.dll
+- ext-ms-win-gdi-font-l1-1-2.dll
+- Ext-MS-Win-GDI-Font-L1-1-3.dll
+- GDI32Full.dll
 api_name:
- - GetTextCharsetInfo
+- GetTextCharsetInfo
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:cscobj.IOfflineFilesEvents.SyncEnd
 title: IOfflineFilesEvents::SyncEnd (cscobj.h)
-
 description: Reports that the Offline Files cache has ended a synchronize operation.
 old-location: of\iofflinefilesevents_syncend.htm
 tech.root: offlinefiles
 ms.assetid: 2b4b32b9-7268-4f79-8eac-640a6c62b0c1
-
 ms.date: 12/05/2018
 ms.keywords: IOfflineFilesEvents interface [Offline Files],SyncEnd method, IOfflineFilesEvents.SyncEnd, IOfflineFilesEvents::SyncEnd, SyncEnd, SyncEnd method [Offline Files], SyncEnd method [Offline Files],IOfflineFilesEvents interface, cscobj/IOfflineFilesEvents::SyncEnd, of.iofflinefilesevents_syncend
 ms.topic: method
-f1_keywords: 
- - "cscobj/IOfflineFilesEvents.SyncEnd"
+f1_keywords:
+- cscobj/IOfflineFilesEvents.SyncEnd
 dev_langs:
- - c++
+- c++
 req.header: cscobj.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: CscSvc.dll; CscObj.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CscSvc.dll
- - CscObj.dll
+- CscSvc.dll
+- CscObj.dll
 api_name:
- - IOfflineFilesEvents.SyncEnd
+- IOfflineFilesEvents.SyncEnd
 targetos: Windows
 req.typenames: 
 req.redist: 

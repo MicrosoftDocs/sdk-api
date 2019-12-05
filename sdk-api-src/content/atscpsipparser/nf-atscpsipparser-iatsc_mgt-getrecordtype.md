@@ -1,19 +1,17 @@
 ---
 UID: NF:atscpsipparser.IATSC_MGT.GetRecordType
 title: IATSC_MGT::GetRecordType (atscpsipparser.h)
-
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\iatsc_mgt_getrecordtype.htm
 tech.root: mstv
 ms.assetid: f3a1ef39-7de4-4979-acb9-805893f41937
-
 ms.date: 12/05/2018
 ms.keywords: GetRecordType, GetRecordType method [Microsoft TV Technologies], GetRecordType method [Microsoft TV Technologies],IATSC_MGT interface, IATSC_MGT interface [Microsoft TV Technologies],GetRecordType method, IATSC_MGT.GetRecordType, IATSC_MGT::GetRecordType, IATSC_MGTGetRecordType, atscpsipparser/IATSC_MGT::GetRecordType, mstv.iatsc_mgt_getrecordtype
 ms.topic: method
-f1_keywords: 
- - "atscpsipparser/IATSC_MGT.GetRecordType"
+f1_keywords:
+- atscpsipparser/IATSC_MGT.GetRecordType
 dev_langs:
- - c++
+- c++
 req.header: atscpsipparser.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - atscpsipparser.h
+- atscpsipparser.h
 api_name:
- - IATSC_MGT.GetRecordType
+- IATSC_MGT.GetRecordType
 targetos: Windows
 req.typenames: 
 req.redist: 

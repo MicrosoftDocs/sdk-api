@@ -1,19 +1,17 @@
 ---
 UID: NF:wmp.IWMPNetwork.put_maxBandwidth
 title: IWMPNetwork::put_maxBandwidth (wmp.h)
-
 description: The put_maxBandwidth method specifies the maximum allowed bandwidth.
 old-location: wmp\iwmpnetwork_put_maxbandwidth.htm
 tech.root: WMP
 ms.assetid: 7259a5e2-dbc6-4ac0-946e-e79d542edb06
-
 ms.date: 12/05/2018
 ms.keywords: IWMPNetwork interface [Windows Media Player],put_maxBandwidth method, IWMPNetwork.put_maxBandwidth, IWMPNetwork::put_maxBandwidth, IWMPNetworkput_maxBandwidth, put_maxBandwidth, put_maxBandwidth method [Windows Media Player], put_maxBandwidth method [Windows Media Player],IWMPNetwork interface, wmp.iwmpnetwork_put_maxbandwidth, wmp/IWMPNetwork::put_maxBandwidth
 ms.topic: method
-f1_keywords: 
- - "wmp/IWMPNetwork.put_maxBandwidth"
+f1_keywords:
+- wmp/IWMPNetwork.put_maxBandwidth
 dev_langs:
- - c++
+- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wmp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmp.dll
+- wmp.dll
 api_name:
- - IWMPNetwork.put_maxBandwidth
+- IWMPNetwork.put_maxBandwidth
 targetos: Windows
 req.typenames: 
 req.redist: 

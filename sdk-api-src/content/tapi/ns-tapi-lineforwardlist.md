@@ -1,19 +1,17 @@
 ---
 UID: NS:tapi.lineforwardlist_tag
 title: LINEFORWARDLIST (tapi.h)
-
 description: The LINEFORWARDLIST structure describes a list of forwarding instructions. This structure can contain an array of LINEFORWARD structures. The lineForward and TSPI_lineForward functions use the LINEFORWARDLIST structure.
 old-location: tapi2\lineforwardlist_str.htm
 tech.root: Tapi
 ms.assetid: 3dec9ab6-43d8-4dda-b0b1-a25407e4d77a
-
 ms.date: 12/05/2018
-ms.keywords: "*LPLINEFORWARDLIST, LINEFORWARDLIST, LINEFORWARDLIST structure [TAPI 2.2], LPLINEFORWARDLIST, LPLINEFORWARDLIST structure pointer [TAPI 2.2], _tapi2_lineforwardlist_str, tapi/LINEFORWARDLIST, tapi/LPLINEFORWARDLIST, tapi2.lineforwardlist_str"
+ms.keywords: '*LPLINEFORWARDLIST, LINEFORWARDLIST, LINEFORWARDLIST structure [TAPI 2.2], LPLINEFORWARDLIST, LPLINEFORWARDLIST structure pointer [TAPI 2.2], _tapi2_lineforwardlist_str, tapi/LINEFORWARDLIST, tapi/LPLINEFORWARDLIST, tapi2.lineforwardlist_str'
 ms.topic: struct
-f1_keywords: 
- - "tapi/LINEFORWARDLIST"
+f1_keywords:
+- tapi/LINEFORWARDLIST
 dev_langs:
- - c++
+- c++
 req.header: tapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Tapi.h
+- Tapi.h
 api_name:
- - LINEFORWARDLIST
+- LINEFORWARDLIST
 targetos: Windows
 req.typenames: LINEFORWARDLIST, *LPLINEFORWARDLIST
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NS:winioctl._TXFS_LIST_TRANSACTION_LOCKED_FILES
 title: TXFS_LIST_TRANSACTION_LOCKED_FILES
-
 description: Contains a list of files locked by a transacted writer.
 old-location: fs\txfs_list_transaction_locked_files.htm
 tech.root: FileIO
 ms.assetid: 55ef34c5-8d99-457d-b670-8c9efaa2eae2
-
 ms.date: 12/05/2018
-ms.keywords: "*PTXFS_LIST_TRANSACTION_LOCKED_FILES, PTXFS_LIST_TRANSACTION_LOCKED_FILES, PTXFS_LIST_TRANSACTION_LOCKED_FILES structure pointer [Files], TXFS_LIST_TRANSACTION_LOCKED_FILES, TXFS_LIST_TRANSACTION_LOCKED_FILES structure [Files], fs.txfs_list_transaction_locked_files, winioctl/PTXFS_LIST_TRANSACTION_LOCKED_FILES, winioctl/TXFS_LIST_TRANSACTION_LOCKED_FILES"
+ms.keywords: '*PTXFS_LIST_TRANSACTION_LOCKED_FILES, PTXFS_LIST_TRANSACTION_LOCKED_FILES, PTXFS_LIST_TRANSACTION_LOCKED_FILES structure pointer [Files], TXFS_LIST_TRANSACTION_LOCKED_FILES, TXFS_LIST_TRANSACTION_LOCKED_FILES structure [Files], fs.txfs_list_transaction_locked_files, winioctl/PTXFS_LIST_TRANSACTION_LOCKED_FILES, winioctl/TXFS_LIST_TRANSACTION_LOCKED_FILES'
 ms.topic: struct
-f1_keywords: 
- - "winioctl/TXFS_LIST_TRANSACTION_LOCKED_FILES"
+f1_keywords:
+- winioctl/TXFS_LIST_TRANSACTION_LOCKED_FILES
 dev_langs:
- - c++
+- c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WinIoCtl.h
+- WinIoCtl.h
 api_name:
- - TXFS_LIST_TRANSACTION_LOCKED_FILES
+- TXFS_LIST_TRANSACTION_LOCKED_FILES
 targetos: Windows
 req.typenames: TXFS_LIST_TRANSACTION_LOCKED_FILES, *PTXFS_LIST_TRANSACTION_LOCKED_FILES
 req.redist: 

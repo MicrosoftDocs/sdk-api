@@ -1,19 +1,17 @@
 ---
 UID: NF:uxtheme.SetWindowTheme
 title: SetWindowTheme function (uxtheme.h)
-
 description: Causes a window to use a different set of visual style information than its class normally uses.
 old-location: controls\SetWindowTheme.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\userex\functions\setwindowtheme.htm
-
 ms.date: 12/05/2018
 ms.keywords: SetWindowTheme, SetWindowTheme function [Windows Controls], controls.SetWindowTheme, controls.inet_SetWindowTheme, inet_SetWindowTheme, inet_SetWindowTheme_cpp, uxtheme/SetWindowTheme
 ms.topic: function
-f1_keywords: 
- - "uxtheme/SetWindowTheme"
+f1_keywords:
+- uxtheme/SetWindowTheme
 dev_langs:
- - c++
+- c++
 req.header: uxtheme.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: UxTheme.lib
 req.dll: UxTheme.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - UxTheme.dll
- - Ext-MS-Win-UXTheme-Themes-l1-1-0.dll
- - xamlpalwp.dll
- - ext-ms-win-uxtheme-themes-l1-1-1.dll
+- UxTheme.dll
+- Ext-MS-Win-UXTheme-Themes-l1-1-0.dll
+- xamlpalwp.dll
+- ext-ms-win-uxtheme-themes-l1-1-1.dll
 api_name:
- - SetWindowTheme
+- SetWindowTheme
 targetos: Windows
 req.typenames: 
 req.redist: 

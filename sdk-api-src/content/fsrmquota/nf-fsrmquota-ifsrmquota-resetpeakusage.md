@@ -1,19 +1,17 @@
 ---
 UID: NF:fsrmquota.IFsrmQuota.ResetPeakUsage
 title: IFsrmQuota::ResetPeakUsage (fsrmquota.h)
-
 description: Resets the peak usage of this quota to the current usage.
 old-location: fsrm\ifsrmquota_resetpeakusage.htm
 tech.root: fsrm
 ms.assetid: 5c2b18a9-912a-49cc-bf4f-07f172a328b1
-
 ms.date: 12/05/2018
 ms.keywords: IFsrmQuota interface [File Server Resource Manager],ResetPeakUsage method, IFsrmQuota.ResetPeakUsage, IFsrmQuota::ResetPeakUsage, ResetPeakUsage, ResetPeakUsage method [File Server Resource Manager], ResetPeakUsage method [File Server Resource Manager],IFsrmQuota interface, fs.ifsrmquota_resetpeakusage, fsrm.ifsrmquota_resetpeakusage, fsrmquota/IFsrmQuota::ResetPeakUsage
 ms.topic: method
-f1_keywords: 
- - "fsrmquota/IFsrmQuota.ResetPeakUsage"
+f1_keywords:
+- fsrmquota/IFsrmQuota.ResetPeakUsage
 dev_langs:
- - c++
+- c++
 req.header: fsrmquota.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: SrmSvc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - SrmSvc.dll
+- SrmSvc.dll
 api_name:
- - IFsrmQuota.ResetPeakUsage
+- IFsrmQuota.ResetPeakUsage
 targetos: Windows
 req.typenames: 
 req.redist: 

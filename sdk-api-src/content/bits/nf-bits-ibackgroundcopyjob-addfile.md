@@ -1,19 +1,17 @@
 ---
 UID: NF:bits.IBackgroundCopyJob.AddFile
 title: IBackgroundCopyJob::AddFile (bits.h)
-
 description: Adds a single file to the job.
 old-location: bits\ibackgroundcopyjob_addfile.htm
 tech.root: Bits
 ms.assetid: 0dada1d3-49b6-41af-b17f-612f27ea4d56
-
 ms.date: 12/05/2018
 ms.keywords: AddFile, AddFile method [BITS], AddFile method [BITS],IBackgroundCopyJob interface, IBackgroundCopyJob interface [BITS],AddFile method, IBackgroundCopyJob.AddFile, IBackgroundCopyJob::AddFile, _drz_ibackgroundcopyjob_addfile, bits.ibackgroundcopyjob_addfile, bits/IBackgroundCopyJob::AddFile
 ms.topic: method
 f1_keywords:
 - bits/IBackgroundCopyJob.AddFile
 dev_langs:
- - c++
+- c++
 req.header: bits.h
 req.include-header: 
 req.target-type: Windows

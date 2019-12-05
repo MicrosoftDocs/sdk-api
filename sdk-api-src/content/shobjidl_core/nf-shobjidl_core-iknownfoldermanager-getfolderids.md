@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IKnownFolderManager.GetFolderIds
 title: IKnownFolderManager::GetFolderIds (shobjidl_core.h)
-
 description: Gets an array of all registered known folder IDs. This can be used in enumerating all known folders.
 old-location: shell\IKnownFolderManager_GetFolderIds.htm
 tech.root: shell
 ms.assetid: 3ac09fc4-15c4-4346-94ad-2a4617c463d1
-
 ms.date: 12/05/2018
 ms.keywords: GetFolderIds, GetFolderIds method [Windows Shell], GetFolderIds method [Windows Shell],IKnownFolderManager interface, IKnownFolderManager interface [Windows Shell],GetFolderIds method, IKnownFolderManager.GetFolderIds, IKnownFolderManager::GetFolderIds, _shell_IKnownFolderManager_GetFolderIds, shell.IKnownFolderManager_GetFolderIds, shobjidl_core/IKnownFolderManager::GetFolderIds
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IKnownFolderManager.GetFolderIds"
+f1_keywords:
+- shobjidl_core/IKnownFolderManager.GetFolderIds
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - IKnownFolderManager.GetFolderIds
+- IKnownFolderManager.GetFolderIds
 targetos: Windows
 req.typenames: 
 req.redist: 

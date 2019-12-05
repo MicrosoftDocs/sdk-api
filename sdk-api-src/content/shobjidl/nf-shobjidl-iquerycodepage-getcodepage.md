@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl.IQueryCodePage.GetCodePage
 title: IQueryCodePage::GetCodePage (shobjidl.h)
-
 description: Retrieves the numeric value (Code Page identifier) of the ANSI code page.
 old-location: shell\IQueryCodePage_GetCodePage.htm
 tech.root: shell
 ms.assetid: 05644051-c64e-443c-bc98-ed296bc0b8d9
-
 ms.date: 12/05/2018
 ms.keywords: GetCodePage, GetCodePage method [Windows Shell], GetCodePage method [Windows Shell],IQueryCodePage interface, IQueryCodePage interface [Windows Shell],GetCodePage method, IQueryCodePage.GetCodePage, IQueryCodePage::GetCodePage, _shell_IQueryCodePage_GetCodePage, shell.IQueryCodePage_GetCodePage, shobjidl/IQueryCodePage::GetCodePage
 ms.topic: method
-f1_keywords: 
- - "shobjidl/IQueryCodePage.GetCodePage"
+f1_keywords:
+- shobjidl/IQueryCodePage.GetCodePage
 dev_langs:
- - c++
+- c++
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shobjidl.h
+- Shobjidl.h
 api_name:
- - IQueryCodePage.GetCodePage
+- IQueryCodePage.GetCodePage
 targetos: Windows
 req.typenames: 
 req.redist: 

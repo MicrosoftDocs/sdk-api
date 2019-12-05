@@ -1,19 +1,17 @@
 ---
 UID: NF:wmsdkidl.IWMWriterFileSink2.Stop
 title: IWMWriterFileSink2::Stop (wmsdkidl.h)
-
 description: The Stop method stops recording at the specified time.
 old-location: wmformat\iwmwriterfilesink2_stop.htm
 tech.root: wmformat
 ms.assetid: 47377c77-f534-4bb0-be57-49bdb109c309
-
 ms.date: 12/05/2018
 ms.keywords: IWMWriterFileSink2 interface [windows Media Format],Stop method, IWMWriterFileSink2.Stop, IWMWriterFileSink2::Stop, IWMWriterFileSink2Stop, Stop, Stop method [windows Media Format], Stop method [windows Media Format],IWMWriterFileSink2 interface, wmformat.iwmwriterfilesink2_stop, wmsdkidl/IWMWriterFileSink2::Stop
 ms.topic: method
-f1_keywords: 
- - "wmsdkidl/IWMWriterFileSink2.Stop"
+f1_keywords:
+- wmsdkidl/IWMWriterFileSink2.Stop
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wmvcore.lib
- - Wmvcore.dll
- - WMStubDRM.lib
- - WMStubDRM.dll
+- Wmvcore.lib
+- Wmvcore.dll
+- WMStubDRM.lib
+- WMStubDRM.dll
 api_name:
- - IWMWriterFileSink2.Stop
+- IWMWriterFileSink2.Stop
 targetos: Windows
 req.typenames: 
 req.redist: 

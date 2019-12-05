@@ -1,19 +1,17 @@
 ---
 UID: NF:taskschd.IRepetitionPattern.put_Interval
 title: IRepetitionPattern::put_Interval (taskschd.h)
-
 description: Gets or sets the amount of time between each restart of the task.
 old-location: taskschd\irepetitionpattern_interval.htm
 tech.root: taskschd
 ms.assetid: 3ba8e4b8-c0f9-4b73-8351-b1c1b32a1e39
-
 ms.date: 12/05/2018
 ms.keywords: IRepetitionPattern interface [Task Scheduler],Interval property, IRepetitionPattern.Interval, IRepetitionPattern.put_Interval, IRepetitionPattern::Interval, IRepetitionPattern::get_Interval, IRepetitionPattern::put_Interval, Interval property [Task Scheduler], Interval property [Task Scheduler],IRepetitionPattern interface, put_Interval, taskschd.irepetitionpattern_interval, taskschd/IRepetitionPattern::Interval, taskschd/IRepetitionPattern::get_Interval, taskschd/IRepetitionPattern::put_Interval
 ms.topic: method
-f1_keywords: 
- - "taskschd/IRepetitionPattern.Interval"
+f1_keywords:
+- taskschd/IRepetitionPattern.Interval
 dev_langs:
- - c++
+- c++
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Taskschd.lib
 req.dll: Taskschd.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - taskschd.dll
+- taskschd.dll
 api_name:
- - IRepetitionPattern.Interval
- - IRepetitionPattern.get_Interval
- - IRepetitionPattern.put_Interval
+- IRepetitionPattern.Interval
+- IRepetitionPattern.get_Interval
+- IRepetitionPattern.put_Interval
 targetos: Windows
 req.typenames: 
 req.redist: 

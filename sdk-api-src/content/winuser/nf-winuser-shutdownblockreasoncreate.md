@@ -1,19 +1,17 @@
 ---
 UID: NF:winuser.ShutdownBlockReasonCreate
 title: ShutdownBlockReasonCreate function (winuser.h)
-
 description: Indicates that the system cannot be shut down and sets a reason string to be displayed to the user if system shutdown is initiated.
 old-location: base\shutdownblockreasoncreate.htm
 tech.root: Shutdown
 ms.assetid: 4c6f9159-fac2-431e-bbdf-c35c4cdb25ac
-
 ms.date: 12/05/2018
 ms.keywords: ShutdownBlockReasonCreate, ShutdownBlockReasonCreate function, base.shutdownblockreasoncreate, winuser/ShutdownBlockReasonCreate
 ms.topic: function
-f1_keywords: 
- - "winuser/ShutdownBlockReasonCreate"
+f1_keywords:
+- winuser/ShutdownBlockReasonCreate
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,21 +30,21 @@ req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - User32.dll
- - Ext-MS-Win-NTUser-Misc-l1-1-0.dll
- - Ext-MS-Win-NTUser-Misc-l1-2-0.dll
- - Ext-MS-Win-NTUser-Misc-l1-3-0.dll
- - ext-ms-win-ntuser-misc-l1-3-1.dll
- - Ext-MS-Win-NTUser-Misc-L1-4-0.dll
- - Ext-Ms-Win-NTUser-Misc-L1-5-0.dll
- - Ext-MS-Win-NTUser-Misc-L1-5-1.dll
+- User32.dll
+- Ext-MS-Win-NTUser-Misc-l1-1-0.dll
+- Ext-MS-Win-NTUser-Misc-l1-2-0.dll
+- Ext-MS-Win-NTUser-Misc-l1-3-0.dll
+- ext-ms-win-ntuser-misc-l1-3-1.dll
+- Ext-MS-Win-NTUser-Misc-L1-4-0.dll
+- Ext-Ms-Win-NTUser-Misc-L1-5-0.dll
+- Ext-MS-Win-NTUser-Misc-L1-5-1.dll
 api_name:
- - ShutdownBlockReasonCreate
+- ShutdownBlockReasonCreate
 targetos: Windows
 req.typenames: 
 req.redist: 

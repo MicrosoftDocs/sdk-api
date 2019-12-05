@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationTogglePattern.Toggle
 title: IUIAutomationTogglePattern::Toggle (uiautomationclient.h)
-
 description: Cycles through the toggle states of the control.
 old-location: winauto\uiauto_IUIAutomationTogglePattern_Toggle.htm
 tech.root: WinAuto
 ms.assetid: 5d1e6474-e8fb-47a2-9130-539d1b9f230e
-
 ms.date: 12/05/2018
 ms.keywords: IUIAutomationTogglePattern interface [Windows Accessibility],Toggle method, IUIAutomationTogglePattern.Toggle, IUIAutomationTogglePattern::Toggle, Toggle, Toggle method [Windows Accessibility], Toggle method [Windows Accessibility],IUIAutomationTogglePattern interface, uiauto.uiauto_IUIAutomationTogglePattern_Toggle, uiauto_IUIAutomationTogglePattern_Toggle, uiautomationclient/IUIAutomationTogglePattern::Toggle, winauto.uiauto_IUIAutomationTogglePattern_Toggle
 ms.topic: method
-f1_keywords: 
- - "uiautomationclient/IUIAutomationTogglePattern.Toggle"
+f1_keywords:
+- uiautomationclient/IUIAutomationTogglePattern.Toggle
 dev_langs:
- - c++
+- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationClient.h
+- UIAutomationClient.h
 api_name:
- - IUIAutomationTogglePattern.Toggle
+- IUIAutomationTogglePattern.Toggle
 targetos: Windows
 req.typenames: 
 req.redist: 

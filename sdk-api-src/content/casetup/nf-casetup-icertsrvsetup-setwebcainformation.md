@@ -1,19 +1,17 @@
 ---
 UID: NF:casetup.ICertSrvSetup.SetWebCAInformation
 title: ICertSrvSetup::SetWebCAInformation (casetup.h)
-
 description: Sets the certification authority (CA) information for the Certification Authority Web Enrollment role.
 old-location: security\icertsrvsetup_setwebcainformation.htm
 tech.root: SecCrypto
 ms.assetid: 6c8d6b06-d36c-496f-8d5a-da20f09a2b0a
-
 ms.date: 12/05/2018
 ms.keywords: ICertSrvSetup interface [Security],SetWebCAInformation method, ICertSrvSetup.SetWebCAInformation, ICertSrvSetup::SetWebCAInformation, SetWebCAInformation, SetWebCAInformation method [Security], SetWebCAInformation method [Security],ICertSrvSetup interface, casetup/ICertSrvSetup::SetWebCAInformation, security.icertsrvsetup_setwebcainformation
 ms.topic: method
-f1_keywords: 
- - "casetup/ICertSrvSetup.SetWebCAInformation"
+f1_keywords:
+- casetup/ICertSrvSetup.SetWebCAInformation
 dev_langs:
- - c++
+- c++
 req.header: casetup.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Certocm.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Certocm.dll
+- Certocm.dll
 api_name:
- - ICertSrvSetup.SetWebCAInformation
+- ICertSrvSetup.SetWebCAInformation
 targetos: Windows
 req.typenames: 
 req.redist: 

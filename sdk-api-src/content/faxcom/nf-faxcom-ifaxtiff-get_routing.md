@@ -1,19 +1,17 @@
 ---
 UID: NF:faxcom.IFaxTiff.get_Routing
 title: IFaxTiff::get_Routing (faxcom.h)
-
 description: Retrieves the Routing property for a FaxTiff object. The Routing property is a null-terminated string that contains the inbound routing string for a specified fax file.
 old-location: fax\_mfax_ifaxtiff_mfax_ifaxtiff_get_routing_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_39lz.htm
-
 ms.date: 12/05/2018
 ms.keywords: IFaxTiff interface [Fax Service],Routing property, IFaxTiff.Routing, IFaxTiff.get_Routing, IFaxTiff::Routing, IFaxTiff::get_Routing, Routing property [Fax Service], Routing property [Fax Service],IFaxTiff interface, _mfax_ifaxtiff_get_routing, fax._mfax_ifaxtiff_get_routing, fax._mfax_ifaxtiff_mfax_ifaxtiff_get_routing_cpp, faxcom/IFaxTiff::Routing, faxcom/IFaxTiff::get_Routing, get_Routing
 ms.topic: method
-f1_keywords: 
- - "faxcom/IFaxTiff.Routing"
+f1_keywords:
+- faxcom/IFaxTiff.Routing
 dev_langs:
- - c++
+- c++
 req.header: faxcom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: Faxcom.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Faxcom.dll
+- Faxcom.dll
 api_name:
- - IFaxTiff.Routing
- - IFaxTiff.get_Routing
+- IFaxTiff.Routing
+- IFaxTiff.get_Routing
 targetos: Windows
 req.typenames: 
 req.redist: 

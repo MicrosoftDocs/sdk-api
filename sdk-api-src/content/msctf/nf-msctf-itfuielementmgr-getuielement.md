@@ -1,19 +1,17 @@
 ---
 UID: NF:msctf.ITfUIElementMgr.GetUIElement
 title: ITfUIElementMgr::GetUIElement (msctf.h)
-
 description: The ITfUIElementMgr::GetUIElement method gets the ITfUIElement interface of the element id.
 old-location: tsf\itfuielementmgr_getuielement.htm
 tech.root: TSF
 ms.assetid: e3a2a7ae-1ca2-4c1e-83af-207821966147
-
 ms.date: 12/05/2018
 ms.keywords: GetUIElement, GetUIElement method [Text Services Framework], GetUIElement method [Text Services Framework],ITfUIElementMgr interface, ITfUIElementMgr interface [Text Services Framework],GetUIElement method, ITfUIElementMgr.GetUIElement, ITfUIElementMgr::GetUIElement, msctf/ITfUIElementMgr::GetUIElement, tsf.itfuielementmgr_getuielement
 ms.topic: method
-f1_keywords: 
- - "msctf/ITfUIElementMgr.GetUIElement"
+f1_keywords:
+- msctf/ITfUIElementMgr.GetUIElement
 dev_langs:
- - c++
+- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msctf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msctf.dll
+- Msctf.dll
 api_name:
- - ITfUIElementMgr.GetUIElement
+- ITfUIElementMgr.GetUIElement
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

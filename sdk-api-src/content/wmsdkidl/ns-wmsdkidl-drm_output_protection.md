@@ -1,19 +1,17 @@
 ---
 UID: NS:wmsdkidl.__tagDRM_OUTPUT_PROTECTION
 title: DRM_OUTPUT_PROTECTION (wmsdkidl.h)
-
 description: The DRM_VIDEO_OUTPUT_PROTECTION structure holds a video output technology identifier and the configuration data required by that technology.
 old-location: wmformat\drm_video_output_protection.htm
 tech.root: wmformat
 ms.assetid: 73c7b2ab-3680-462a-ab7f-d3270ea0127b
-
 ms.date: 12/05/2018
 ms.keywords: DRM_OUTPUT_PROTECTION, DRM_VIDEO_OUTPUT_PROTECTION, DRM_VIDEO_OUTPUT_PROTECTION structure [windows Media Format], structure [windows Media Format], wmformat.drm_video_output_protection, wmsdkidl/DRM_VIDEO_OUTPUT_PROTECTION
 ms.topic: struct
-f1_keywords: 
- - "wmsdkidl/DRM_VIDEO_OUTPUT_PROTECTION"
+f1_keywords:
+- wmsdkidl/DRM_VIDEO_OUTPUT_PROTECTION
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: Drmexternals.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - wmsdkidl.h
+- wmsdkidl.h
 api_name:
- - DRM_VIDEO_OUTPUT_PROTECTION
+- DRM_VIDEO_OUTPUT_PROTECTION
 targetos: Windows
 req.typenames: DRM_OUTPUT_PROTECTION
 req.redist: 

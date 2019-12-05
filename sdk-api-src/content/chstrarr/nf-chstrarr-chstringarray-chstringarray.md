@@ -1,19 +1,17 @@
 ---
 UID: NF:chstrarr.CHStringArray.CHStringArray
 title: CHStringArray::CHStringArray (chstrarr.h)
-
 description: The CHStringArray constructor constructs an empty CHStringArray array.
 old-location: wmi\chstringarray_chstringarray.htm
 tech.root: WmiSdk
 ms.assetid: b20e3476-7caa-4fcf-98cc-44ffafafe94a
-
 ms.date: 12/05/2018
-ms.keywords: "??0CHStringArray@@QAE@XZ, ??0CHStringArray@@QEAA@XZ, CHStringArray, CHStringArray interface [Windows Management Instrumentation],CHStringArray method, CHStringArray method [Windows Management Instrumentation], CHStringArray method [Windows Management Instrumentation],CHStringArray interface, CHStringArray.CHStringArray, CHStringArray::CHStringArray, _hmm_chstringarray_chstringarray, chstrarr/CHStringArray::CHStringArray, wmi.chstringarray_chstringarray"
+ms.keywords: ??0CHStringArray@@QAE@XZ, ??0CHStringArray@@QEAA@XZ, CHStringArray, CHStringArray interface [Windows Management Instrumentation],CHStringArray method, CHStringArray method [Windows Management Instrumentation], CHStringArray method [Windows Management Instrumentation],CHStringArray interface, CHStringArray.CHStringArray, CHStringArray::CHStringArray, _hmm_chstringarray_chstringarray, chstrarr/CHStringArray::CHStringArray, wmi.chstringarray_chstringarray
 ms.topic: method
-f1_keywords: 
- - "chstrarr/CHStringArray.CHStringArray"
+f1_keywords:
+- chstrarr/CHStringArray.CHStringArray
 dev_langs:
- - c++
+- c++
 req.header: chstrarr.h
 req.include-header: FwCommon.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: FrameDyn.lib
 req.dll: FrameDynOS.dll; FrameDyn.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - FrameDynOS.dll
- - FrameDyn.dll
+- FrameDynOS.dll
+- FrameDyn.dll
 api_name:
- - CHStringArray.CHStringArray
- - ??0CHStringArray@@QAE@XZ
- - ??0CHStringArray@@QEAA@XZ
+- CHStringArray.CHStringArray
+- ??0CHStringArray@@QAE@XZ
+- ??0CHStringArray@@QEAA@XZ
 targetos: Windows
 req.typenames: 
 req.redist: 

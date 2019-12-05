@@ -1,19 +1,17 @@
 ---
 UID: NF:oleauto.SysFreeString
 title: SysFreeString function (oleauto.h)
-
 description: Deallocates a string allocated previously by SysAllocString, SysAllocStringByteLen, SysReAllocString, SysAllocStringLen, or SysReAllocStringLen.
 old-location: automat\sysfreestring.htm
 tech.root: automat
 ms.assetid: 8f230ee3-5f6e-4cb9-a910-9c90b754dcd3
-
 ms.date: 12/05/2018
 ms.keywords: SysFreeString, SysFreeString function [Automation], _oa96_SysFreeString, automat.sysfreestring, oleauto/SysFreeString
 ms.topic: function
-f1_keywords: 
- - "oleauto/SysFreeString"
+f1_keywords:
+- oleauto/SysFreeString
 dev_langs:
- - c++
+- c++
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: OleAut32.lib
 req.dll: OleAut32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - OleAut32.dll
+- OleAut32.dll
 api_name:
- - SysFreeString
+- SysFreeString
 targetos: Windows
 req.typenames: 
 req.redist: 

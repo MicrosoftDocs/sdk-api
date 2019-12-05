@@ -1,19 +1,17 @@
 ---
 UID: NF:spellcheck.ISpellChecker.get_OptionIds
 title: ISpellChecker::get_OptionIds (spellcheck.h)
-
 description: Gets all of the declared option identifiers.
 old-location: intl\ispellchecker_optionids.htm
 tech.root: Intl
 ms.assetid: 6770acd9-5dc7-4f86-a780-e724646a3d56
-
 ms.date: 12/05/2018
 ms.keywords: ISpellChecker interface [Internationalization for Windows Applications],OptionIds property, ISpellChecker.OptionIds, ISpellChecker.get_OptionIds, ISpellChecker::OptionIds, ISpellChecker::get_OptionIds, OptionIds property [Internationalization for Windows Applications], OptionIds property [Internationalization for Windows Applications],ISpellChecker interface, get_OptionIds, intl.ispellchecker_optionids, spellcheck/ISpellChecker::OptionIds, spellcheck/ISpellChecker::get_OptionIds
 ms.topic: method
-f1_keywords: 
- - "spellcheck/ISpellChecker.OptionIds"
+f1_keywords:
+- spellcheck/ISpellChecker.OptionIds
 dev_langs:
- - c++
+- c++
 req.header: spellcheck.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Spellcheck.h
+- Spellcheck.h
 api_name:
- - ISpellChecker.OptionIds
- - ISpellChecker.get_OptionIds
+- ISpellChecker.OptionIds
+- ISpellChecker.get_OptionIds
 targetos: Windows
 req.typenames: 
 req.redist: 

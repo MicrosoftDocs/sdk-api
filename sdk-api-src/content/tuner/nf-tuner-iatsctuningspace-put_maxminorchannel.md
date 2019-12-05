@@ -1,19 +1,17 @@
 ---
 UID: NF:tuner.IATSCTuningSpace.put_MaxMinorChannel
 title: IATSCTuningSpace::put_MaxMinorChannel (tuner.h)
-
 description: The put_MaxMinorChannel method gets the highest minor channel number for this tuning space.
 old-location: mstv\iatsctuningspace_put_maxminorchannel.htm
 tech.root: mstv
 ms.assetid: e90b78da-abd5-40bc-8d88-8a257acabe23
-
 ms.date: 12/05/2018
 ms.keywords: IATSCTuningSpace interface [Microsoft TV Technologies],put_MaxMinorChannel method, IATSCTuningSpace.put_MaxMinorChannel, IATSCTuningSpace::put_MaxMinorChannel, IATSCTuningSpaceput_MaxMinorChannel, mstv.iatsctuningspace_put_maxminorchannel, put_MaxMinorChannel, put_MaxMinorChannel method [Microsoft TV Technologies], put_MaxMinorChannel method [Microsoft TV Technologies],IATSCTuningSpace interface, tuner/IATSCTuningSpace::put_MaxMinorChannel
 ms.topic: method
-f1_keywords: 
- - "tuner/IATSCTuningSpace.put_MaxMinorChannel"
+f1_keywords:
+- tuner/IATSCTuningSpace.put_MaxMinorChannel
 dev_langs:
- - c++
+- c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - tuner.h
+- tuner.h
 api_name:
- - IATSCTuningSpace.put_MaxMinorChannel
+- IATSCTuningSpace.put_MaxMinorChannel
 targetos: Windows
 req.typenames: 
 req.redist: 

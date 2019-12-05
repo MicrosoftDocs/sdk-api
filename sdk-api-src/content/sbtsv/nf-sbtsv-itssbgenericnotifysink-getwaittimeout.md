@@ -1,19 +1,17 @@
 ---
 UID: NF:sbtsv.ITsSbGenericNotifySink.GetWaitTimeout
 title: ITsSbGenericNotifySink::GetWaitTimeout (sbtsv.h)
-
 description: Retrieves the wait timeout.
 old-location: termserv\itssbgenericnotifysink_getwaittimeout.htm
 tech.root: TermServ
 ms.assetid: 685471bd-3228-4fdd-a91f-e8da2a6c3b91
-
 ms.date: 12/05/2018
 ms.keywords: GetWaitTimeout, GetWaitTimeout method [Remote Desktop Services], GetWaitTimeout method [Remote Desktop Services],ITsSbGenericNotifySink interface, ITsSbGenericNotifySink interface [Remote Desktop Services],GetWaitTimeout method, ITsSbGenericNotifySink.GetWaitTimeout, ITsSbGenericNotifySink::GetWaitTimeout, sbtsv/ITsSbGenericNotifySink::GetWaitTimeout, termserv.itssbgenericnotifysink_getwaittimeout
 ms.topic: method
-f1_keywords: 
- - "sbtsv/ITsSbGenericNotifySink.GetWaitTimeout"
+f1_keywords:
+- sbtsv/ITsSbGenericNotifySink.GetWaitTimeout
 dev_langs:
- - c++
+- c++
 req.header: sbtsv.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - sbtsv.h
+- sbtsv.h
 api_name:
- - ITsSbGenericNotifySink.GetWaitTimeout
+- ITsSbGenericNotifySink.GetWaitTimeout
 targetos: Windows
 req.typenames: 
 req.redist: 

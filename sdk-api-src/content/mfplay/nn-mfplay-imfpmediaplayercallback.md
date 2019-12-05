@@ -1,19 +1,17 @@
 ---
 UID: NN:mfplay.IMFPMediaPlayerCallback
 title: IMFPMediaPlayerCallback (mfplay.h)
-
 description: Callback interface for the IMFPMediaPlayer interface.
 old-location: mf\imfpmediaplayercallback.htm
 tech.root: medfound
 ms.assetid: 7d9d01bf-861a-4c35-93b1-dbf85cbf0a32
-
 ms.date: 12/05/2018
 ms.keywords: IMFPMediaPlayerCallback, IMFPMediaPlayerCallback interface [Media Foundation], IMFPMediaPlayerCallback interface [Media Foundation],described, mf.imfpmediaplayercallback, mfplay/IMFPMediaPlayerCallback
 ms.topic: interface
-f1_keywords: 
- - "mfplay/IMFPMediaPlayerCallback"
+f1_keywords:
+- mfplay/IMFPMediaPlayerCallback
 dev_langs:
- - c++
+- c++
 req.header: mfplay.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfplay.h
+- mfplay.h
 api_name:
- - IMFPMediaPlayerCallback
+- IMFPMediaPlayerCallback
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:wuapi.IInstallationResult.GetUpdateResult
 title: IInstallationResult::GetUpdateResult (wuapi.h)
-
 description: Returns an IUpdateInstallationResult interface that contains the installation results for a specified update.
 old-location: wua\iinstallationresult_getupdateresult.htm
 tech.root: Wua_Sdk
 ms.assetid: 51d84e9e-9d92-43c9-af13-f833c3f3d631
-
 ms.date: 12/05/2018
 ms.keywords: GetUpdateResult, GetUpdateResult method [Windows Update Agent], GetUpdateResult method [Windows Update Agent],IInstallationResult interface, IInstallationResult interface [Windows Update Agent],GetUpdateResult method, IInstallationResult.GetUpdateResult, IInstallationResult::GetUpdateResult, wua.iinstallationresult_getupdateresult, wuapi/IInstallationResult::GetUpdateResult
 ms.topic: method
-f1_keywords: 
- - "wuapi/IInstallationResult.GetUpdateResult"
+f1_keywords:
+- wuapi/IInstallationResult.GetUpdateResult
 dev_langs:
- - c++
+- c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Wuguid.lib
 req.dll: Wuapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wuapi.dll
+- Wuapi.dll
 api_name:
- - IInstallationResult.GetUpdateResult
+- IInstallationResult.GetUpdateResult
 targetos: Windows
 req.typenames: 
 req.redist: 

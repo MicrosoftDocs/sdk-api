@@ -1,19 +1,17 @@
 ---
 UID: NE:wmcontainer.ASF_SELECTION_STATUS
 title: ASF_SELECTION_STATUS (wmcontainer.h)
-
 description: Defines the selection options for an ASF stream.
 old-location: mf\asf_selection_status.htm
 tech.root: medfound
 ms.assetid: 1571650b-4d5c-49ae-9e6d-77ef4ae7ae59
-
 ms.date: 12/05/2018
 ms.keywords: 1571650b-4d5c-49ae-9e6d-77ef4ae7ae59, ASF_SELECTION_STATUS, ASF_SELECTION_STATUS enumeration [Media Foundation], ASF_STATUS_ALLDATAUNITS, ASF_STATUS_CLEANPOINTSONLY, ASF_STATUS_NOTSELECTED, mf.asf_selection_status, wmcontainer/ASF_SELECTION_STATUS, wmcontainer/ASF_STATUS_ALLDATAUNITS, wmcontainer/ASF_STATUS_CLEANPOINTSONLY, wmcontainer/ASF_STATUS_NOTSELECTED
 ms.topic: enum
-f1_keywords: 
- - "wmcontainer/ASF_SELECTION_STATUS"
+f1_keywords:
+- wmcontainer/ASF_SELECTION_STATUS
 dev_langs:
- - c++
+- c++
 req.header: wmcontainer.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - wmcontainer.h
+- wmcontainer.h
 api_name:
- - ASF_SELECTION_STATUS
+- ASF_SELECTION_STATUS
 targetos: Windows
 req.typenames: ASF_SELECTION_STATUS
 req.redist: 

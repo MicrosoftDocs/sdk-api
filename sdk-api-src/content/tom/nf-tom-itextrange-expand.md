@@ -1,19 +1,17 @@
 ---
 UID: NF:tom.ITextRange.Expand
 title: ITextRange::Expand (tom.h)
-
 description: Expands this range so that any partial units it contains are completely contained.
 old-location: controls\ITextRange_Expand.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\expand.htm
-
 ms.date: 12/05/2018
 ms.keywords: Expand, Expand method [Windows Controls], Expand method [Windows Controls],ITextRange interface, ITextRange interface [Windows Controls],Expand method, ITextRange.Expand, ITextRange::Expand, _win32_ITextRange_Expand, _win32_ITextRange_Expand_cpp, controls.ITextRange_Expand, controls._win32_ITextRange_Expand, tom/ITextRange::Expand
 ms.topic: method
-f1_keywords: 
- - "tom/ITextRange.Expand"
+f1_keywords:
+- tom/ITextRange.Expand
 dev_langs:
- - c++
+- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msftedit.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msftedit.dll
+- Msftedit.dll
 api_name:
- - ITextRange.Expand
+- ITextRange.Expand
 targetos: Windows
 req.typenames: 
 req.redist: 

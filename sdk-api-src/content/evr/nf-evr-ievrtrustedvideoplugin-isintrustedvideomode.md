@@ -1,19 +1,17 @@
 ---
 UID: NF:evr.IEVRTrustedVideoPlugin.IsInTrustedVideoMode
 title: IEVRTrustedVideoPlugin::IsInTrustedVideoMode (evr.h)
-
 description: Queries whether the plug-in has any transient vulnerabilities at this time.
 old-location: mf\ievrtrustedvideoplugin_isintrustedvideomode.htm
 tech.root: medfound
 ms.assetid: 43242898-4812-4faa-8e0a-6e60455c9f3b
-
 ms.date: 12/05/2018
 ms.keywords: 43242898-4812-4faa-8e0a-6e60455c9f3b, IEVRTrustedVideoPlugin interface [Media Foundation],IsInTrustedVideoMode method, IEVRTrustedVideoPlugin.IsInTrustedVideoMode, IEVRTrustedVideoPlugin::IsInTrustedVideoMode, IsInTrustedVideoMode, IsInTrustedVideoMode method [Media Foundation], IsInTrustedVideoMode method [Media Foundation],IEVRTrustedVideoPlugin interface, evr/IEVRTrustedVideoPlugin::IsInTrustedVideoMode, mf.ievrtrustedvideoplugin_isintrustedvideomode
 ms.topic: method
-f1_keywords: 
- - "evr/IEVRTrustedVideoPlugin.IsInTrustedVideoMode"
+f1_keywords:
+- evr/IEVRTrustedVideoPlugin.IsInTrustedVideoMode
 dev_langs:
- - c++
+- c++
 req.header: evr.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IEVRTrustedVideoPlugin.IsInTrustedVideoMode
+- IEVRTrustedVideoPlugin.IsInTrustedVideoMode
 targetos: Windows
 req.typenames: 
 req.redist: 

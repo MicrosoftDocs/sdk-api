@@ -1,19 +1,17 @@
 ---
 UID: NF:structuredquery.IQueryParser.GetSchemaProvider
 title: IQueryParser::GetSchemaProvider (structuredquery.h)
-
 description: Retrieves a schema provider for browsing the currently loaded schema.
 old-location: search\_search_IQueryParser_GetSchemaProvider.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\iqueryparser\getschemaprovider.htm
-
 ms.date: 12/05/2018
 ms.keywords: GetSchemaProvider, GetSchemaProvider method [search], GetSchemaProvider method [search],IQueryParser interface, IQueryParser interface [search],GetSchemaProvider method, IQueryParser.GetSchemaProvider, IQueryParser::GetSchemaProvider, _search_IQueryParser_GetSchemaProvider, search._search_IQueryParser_GetSchemaProvider, structuredquery/IQueryParser::GetSchemaProvider
 ms.topic: method
-f1_keywords: 
- - "structuredquery/IQueryParser.GetSchemaProvider"
+f1_keywords:
+- structuredquery/IQueryParser.GetSchemaProvider
 dev_langs:
- - c++
+- c++
 req.header: structuredquery.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Structuredquery.h
+- Structuredquery.h
 api_name:
- - IQueryParser.GetSchemaProvider
+- IQueryParser.GetSchemaProvider
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0

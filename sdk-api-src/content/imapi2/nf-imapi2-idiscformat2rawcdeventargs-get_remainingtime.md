@@ -1,19 +1,17 @@
 ---
 UID: NF:imapi2.IDiscFormat2RawCDEventArgs.get_RemainingTime
 title: IDiscFormat2RawCDEventArgs::get_RemainingTime (imapi2.h)
-
 description: Retrieves the estimated remaining time of the write operation.
 old-location: imapi\idiscformat2rawcdeventargs_get_remainingtime.htm
 tech.root: imapi
 ms.assetid: 0dad0ca9-2ddb-44ef-ab8b-a0f0efc3634a
-
 ms.date: 12/05/2018
 ms.keywords: IDiscFormat2RawCDEventArgs interface [IMAPI],get_RemainingTime method, IDiscFormat2RawCDEventArgs.get_RemainingTime, IDiscFormat2RawCDEventArgs::get_RemainingTime, get_RemainingTime, get_RemainingTime method [IMAPI], get_RemainingTime method [IMAPI],IDiscFormat2RawCDEventArgs interface, imapi.idiscformat2rawcdeventargs_get_remainingtime, imapi2/IDiscFormat2RawCDEventArgs::get_RemainingTime
 ms.topic: method
-f1_keywords: 
- - "imapi2/IDiscFormat2RawCDEventArgs.get_RemainingTime"
+f1_keywords:
+- imapi2/IDiscFormat2RawCDEventArgs.get_RemainingTime
 dev_langs:
- - c++
+- c++
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - imapi2.h
+- imapi2.h
 api_name:
- - IDiscFormat2RawCDEventArgs.get_RemainingTime
+- IDiscFormat2RawCDEventArgs.get_RemainingTime
 targetos: Windows
 req.typenames: 
 req.redist: 

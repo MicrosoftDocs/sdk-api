@@ -1,19 +1,17 @@
 ---
 UID: NF:videoacc.IAMVideoAccelerator.QueryRenderStatus
 title: IAMVideoAccelerator::QueryRenderStatus (videoacc.h)
-
 description: The QueryRenderStatus method queries the read/write status of a DirectX Video Acceleration (DXVA) decoding surface.
 old-location: dshow\iamvideoaccelerator_queryrenderstatus.htm
 tech.root: DirectShow
 ms.assetid: 29d77bd5-2823-4e67-a69f-2898ad4c467c
-
 ms.date: 12/05/2018
 ms.keywords: AMVA_QUERYRENDERSTATUSF_READ, IAMVideoAccelerator interface [DirectShow],QueryRenderStatus method, IAMVideoAccelerator.QueryRenderStatus, IAMVideoAccelerator::QueryRenderStatus, IAMVideoAcceleratorQueryRenderStatus, QueryRenderStatus, QueryRenderStatus method [DirectShow], QueryRenderStatus method [DirectShow],IAMVideoAccelerator interface, Zero, dshow.iamvideoaccelerator_queryrenderstatus, videoacc/IAMVideoAccelerator::QueryRenderStatus
 ms.topic: method
-f1_keywords: 
- - "videoacc/IAMVideoAccelerator.QueryRenderStatus"
+f1_keywords:
+- videoacc/IAMVideoAccelerator.QueryRenderStatus
 dev_langs:
- - c++
+- c++
 req.header: videoacc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IAMVideoAccelerator.QueryRenderStatus
+- IAMVideoAccelerator.QueryRenderStatus
 targetos: Windows
 req.typenames: 
 req.redist: 

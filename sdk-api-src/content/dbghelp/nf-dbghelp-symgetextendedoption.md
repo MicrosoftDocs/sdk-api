@@ -1,19 +1,17 @@
 ---
 UID: NF:dbghelp.SymGetExtendedOption
 title: SymGetExtendedOption function (dbghelp.h)
-
 description: Gets whether the specified extended symbol option on or off.
 old-location: base\symgetextendedoption.htm
 tech.root: Debug
 ms.assetid: 3D6D5E31-ECCB-48B2-A46B-0BB2D7A2DEC0
-
 ms.date: 12/05/2018
 ms.keywords: SYMOPT_EX_DISABLEACCESSTIMEUPDATE, SymGetExtendedOption, SymGetExtendedOption function, base.symgetextendedoption, dbghelp/SymGetExtendedOption
 ms.topic: function
-f1_keywords: 
- - "dbghelp/SymGetExtendedOption"
+f1_keywords:
+- dbghelp/SymGetExtendedOption
 dev_langs:
- - c++
+- c++
 req.header: dbghelp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: DbgHelp.lib
 req.dll: DbgHelp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - DbgHelp.dll
- - ImageHlp.dll
+- DbgHelp.dll
+- ImageHlp.dll
 api_name:
- - SymGetExtendedOption
+- SymGetExtendedOption
 targetos: Windows
 req.typenames: 
 req.redist: DbgHelp.dll 10.0.16232.1000 or later

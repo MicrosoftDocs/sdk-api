@@ -1,19 +1,17 @@
 ---
 UID: NF:photoacquire.IUserInputString.GetMruCount
 title: IUserInputString::GetMruCount (photoacquire.h)
-
 description: The GetMruCount method retrieves the number of items in the list of most recently used items.
 old-location: picacq\iuserinputstring_getmrucount.htm
 tech.root: acquisition
 ms.assetid: 47f1a916-2d1e-4fe8-837b-3e9bf4e51c0b
-
 ms.date: 12/05/2018
 ms.keywords: GetMruCount, GetMruCount method [Picture Acquisition], GetMruCount method [Picture Acquisition],IUserInputString interface, IUserInputString interface [Picture Acquisition],GetMruCount method, IUserInputString.GetMruCount, IUserInputString::GetMruCount, IUserInputStringGetMruCount, photoacquire/IUserInputString::GetMruCount, picacq.iuserinputstring_getmrucount
 ms.topic: method
-f1_keywords: 
- - "photoacquire/IUserInputString.GetMruCount"
+f1_keywords:
+- photoacquire/IUserInputString.GetMruCount
 dev_langs:
- - c++
+- c++
 req.header: photoacquire.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: PhotoAcquireUID.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - PhotoAcquireUID.lib
- - PhotoAcquireUID.dll
+- PhotoAcquireUID.lib
+- PhotoAcquireUID.dll
 api_name:
- - IUserInputString.GetMruCount
+- IUserInputString.GetMruCount
 targetos: Windows
 req.typenames: 
 req.redist: 

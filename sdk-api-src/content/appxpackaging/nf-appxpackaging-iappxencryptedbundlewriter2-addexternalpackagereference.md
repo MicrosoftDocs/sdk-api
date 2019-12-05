@@ -1,19 +1,17 @@
 ---
 UID: NF:appxpackaging.IAppxEncryptedBundleWriter2.AddExternalPackageReference
 title: IAppxEncryptedBundleWriter2::AddExternalPackageReference (appxpackaging.h)
-
 description: Adds a reference within the encrypted package bundle to an external app package.
 old-location: appxpkg\iappxencryptedbundlewriter2_addexternalpackagereference.htm
 tech.root: appxpkg
 ms.assetid: F1572E99-17C0-4239-9F95-47880CC50C64
-
 ms.date: 12/05/2018
 ms.keywords: AddExternalPackageReference, AddExternalPackageReference method [App packaging and management], AddExternalPackageReference method [App packaging and management],IAppxEncryptedBundleWriter2 interface, IAppxEncryptedBundleWriter2 interface [App packaging and management],AddExternalPackageReference method, IAppxEncryptedBundleWriter2.AddExternalPackageReference, IAppxEncryptedBundleWriter2::AddExternalPackageReference, appxpackaging/IAppxEncryptedBundleWriter2::AddExternalPackageReference, appxpkg.iappxencryptedbundlewriter2_addexternalpackagereference
 ms.topic: method
-f1_keywords: 
- - "appxpackaging/IAppxEncryptedBundleWriter2.AddExternalPackageReference"
+f1_keywords:
+- appxpackaging/IAppxEncryptedBundleWriter2.AddExternalPackageReference
 dev_langs:
- - c++
+- c++
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - AppxPackaging.h
+- AppxPackaging.h
 api_name:
- - IAppxEncryptedBundleWriter2.AddExternalPackageReference
+- IAppxEncryptedBundleWriter2.AddExternalPackageReference
 targetos: Windows
 req.typenames: 
 req.redist: 

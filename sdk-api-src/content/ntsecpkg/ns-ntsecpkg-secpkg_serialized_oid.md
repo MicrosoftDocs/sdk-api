@@ -1,19 +1,17 @@
 ---
 UID: NS:ntsecpkg._SECPKG_SERIALIZED_OID
 title: SECPKG_SERIALIZED_OID (ntsecpkg.h)
-
 description: Contains the security package's object identifier (OID).
 old-location: security\secpkg_serialized_oid.htm
 tech.root: SecAuthN
 ms.assetid: 54CF931B-AD1F-4370-A2AF-5DF4BC9EA007
-
 ms.date: 12/05/2018
-ms.keywords: "*PSECPKG_SERIALIZED_OID, PSECPKG_SERIALIZED_OID, PSECPKG_SERIALIZED_OID structure pointer [Security], SECPKG_SERIALIZED_OID, SECPKG_SERIALIZED_OID structure [Security], ntsecpkg/PSECPKG_SERIALIZED_OID, ntsecpkg/SECPKG_SERIALIZED_OID, security.secpkg_serialized_oid"
+ms.keywords: '*PSECPKG_SERIALIZED_OID, PSECPKG_SERIALIZED_OID, PSECPKG_SERIALIZED_OID structure pointer [Security], SECPKG_SERIALIZED_OID, SECPKG_SERIALIZED_OID structure [Security], ntsecpkg/PSECPKG_SERIALIZED_OID, ntsecpkg/SECPKG_SERIALIZED_OID, security.secpkg_serialized_oid'
 ms.topic: struct
-f1_keywords: 
- - "ntsecpkg/SECPKG_SERIALIZED_OID"
+f1_keywords:
+- ntsecpkg/SECPKG_SERIALIZED_OID
 dev_langs:
- - c++
+- c++
 req.header: ntsecpkg.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Ntsecpkg.h
+- Ntsecpkg.h
 api_name:
- - SECPKG_SERIALIZED_OID
+- SECPKG_SERIALIZED_OID
 targetos: Windows
 req.typenames: SECPKG_SERIALIZED_OID, *PSECPKG_SERIALIZED_OID
 req.redist: 

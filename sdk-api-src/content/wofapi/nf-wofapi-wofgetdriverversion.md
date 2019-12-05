@@ -1,19 +1,17 @@
 ---
 UID: NF:wofapi.WofGetDriverVersion
 title: WofGetDriverVersion function (wofapi.h)
-
 description: Used to query the version of the driver used to support a particular provider.
 old-location: fs\wofgetdriverversion.htm
 tech.root: FileIO
 ms.assetid: F142903A-329D-40E3-A233-F013C26EC1EA
-
 ms.date: 12/05/2018
 ms.keywords: WofGetDriverVersion, WofGetDriverVersion function [Files], fs.wofgetdriverversion, wofapi/WofGetDriverVersion
 ms.topic: function
-f1_keywords: 
- - "wofapi/WofGetDriverVersion"
+f1_keywords:
+- wofapi/WofGetDriverVersion
 dev_langs:
- - c++
+- c++
 req.header: wofapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Wofutil.lib
 req.dll: Wofutil.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - wofutil.dll
+- wofutil.dll
 api_name:
- - WofGetDriverVersion
+- WofGetDriverVersion
 targetos: Windows
 req.typenames: 
 req.redist: 

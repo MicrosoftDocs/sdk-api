@@ -1,19 +1,17 @@
 ---
 UID: NF:vfw.AVIStreamWrite
 title: AVIStreamWrite function (vfw.h)
-
 description: The AVIStreamWrite function writes data to a stream.
 old-location: multimedia\avistreamwrite.htm
 tech.root: Multimedia
 ms.assetid: 9a306939-7b4f-4e0b-8340-270725da74c3
-
 ms.date: 12/05/2018
 ms.keywords: AVIIF_KEYFRAME, AVIStreamWrite, AVIStreamWrite function [Windows Multimedia], _win32_AVIStreamWrite, multimedia.avistreamwrite, vfw/AVIStreamWrite
 ms.topic: function
-f1_keywords: 
- - "vfw/AVIStreamWrite"
+f1_keywords:
+- vfw/AVIStreamWrite
 dev_langs:
- - c++
+- c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Vfw32.lib
 req.dll: Avifil32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Avifil32.dll
+- Avifil32.dll
 api_name:
- - AVIStreamWrite
+- AVIStreamWrite
 targetos: Windows
 req.typenames: 
 req.redist: 

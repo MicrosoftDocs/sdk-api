@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IBrowserFrameOptions.GetFrameOptions
 title: IBrowserFrameOptions::GetFrameOptions (shobjidl_core.h)
-
 description: Retrieves the available browser frame view options.
 old-location: shell\IBrowserFrameOptions_GetFrameOptions.htm
 tech.root: shell
 ms.assetid: 4f0e9f69-92e5-4fec-bdfa-b37d594ff5fe
-
 ms.date: 12/05/2018
 ms.keywords: GetFrameOptions, GetFrameOptions method [Windows Shell], GetFrameOptions method [Windows Shell],IBrowserFrameOptions interface, IBrowserFrameOptions interface [Windows Shell],GetFrameOptions method, IBrowserFrameOptions.GetFrameOptions, IBrowserFrameOptions::GetFrameOptions, _shell_IBrowserFrameOptions_GetFrameOptions, shell.IBrowserFrameOptions_GetFrameOptions, shobjidl_core/IBrowserFrameOptions::GetFrameOptions
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IBrowserFrameOptions.GetFrameOptions"
+f1_keywords:
+- shobjidl_core/IBrowserFrameOptions.GetFrameOptions
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - IBrowserFrameOptions.GetFrameOptions
+- IBrowserFrameOptions.GetFrameOptions
 targetos: Windows
 req.typenames: 
 req.redist: 

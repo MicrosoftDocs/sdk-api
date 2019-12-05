@@ -1,19 +1,17 @@
 ---
 UID: NN:xpsobjectmodel.IXpsOMGeometryFigure
 title: IXpsOMGeometryFigure (xpsobjectmodel.h)
-
 description: Describes one portion of the path or clipping region that is specified by an IXpsOMGeometry interface.
 old-location: xps\ixpsomgeometryfigure.htm
 tech.root: printdocs
 ms.assetid: e76a14ce-cfc3-4a50-855e-f5779b9fc261
-
 ms.date: 12/05/2018
 ms.keywords: IXpsOMGeometryFigure, IXpsOMGeometryFigure interface [XPS Documents and Packaging], IXpsOMGeometryFigure interface [XPS Documents and Packaging],described, xps.ixpsomgeometryfigure, xpsobjectmodel/IXpsOMGeometryFigure
 ms.topic: interface
-f1_keywords: 
- - "xpsobjectmodel/IXpsOMGeometryFigure"
+f1_keywords:
+- xpsobjectmodel/IXpsOMGeometryFigure
 dev_langs:
- - c++
+- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsobjectmodel.h
+- xpsobjectmodel.h
 api_name:
- - IXpsOMGeometryFigure
+- IXpsOMGeometryFigure
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:tuner.IComponents.get__NewEnum
 title: IComponents::get__NewEnum (tuner.h)
-
 description: The get__NewEnum enumeration method supports For...Each loops in Automation clients.
 old-location: mstv\icomponents_get__newenum.htm
 tech.root: mstv
 ms.assetid: fcb965f4-8fd6-415f-8fb6-a80d0c92731d
-
 ms.date: 12/05/2018
 ms.keywords: IComponents interface [Microsoft TV Technologies],get__NewEnum method, IComponents.get__NewEnum, IComponents::get__NewEnum, IComponentsget__NewEnum, get__NewEnum, get__NewEnum method [Microsoft TV Technologies], get__NewEnum method [Microsoft TV Technologies],IComponents interface, mstv.icomponents_get__newenum, tuner/IComponents::get__NewEnum
 ms.topic: method
-f1_keywords: 
- - "tuner/IComponents.get__NewEnum"
+f1_keywords:
+- tuner/IComponents.get__NewEnum
 dev_langs:
- - c++
+- c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - tuner.h
+- tuner.h
 api_name:
- - IComponents.get__NewEnum
+- IComponents.get__NewEnum
 targetos: Windows
 req.typenames: 
 req.redist: 

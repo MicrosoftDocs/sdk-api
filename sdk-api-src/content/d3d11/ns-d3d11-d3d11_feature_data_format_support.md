@@ -1,19 +1,17 @@
 ---
 UID: NS:d3d11.D3D11_FEATURE_DATA_FORMAT_SUPPORT
 title: D3D11_FEATURE_DATA_FORMAT_SUPPORT (d3d11.h)
-
 description: Describes which resources are supported by the current graphics driver for a given format.
 old-location: direct3d11\d3d11_feature_data_format_support.htm
 tech.root: direct3d11
 ms.assetid: 153e246e-9e2f-4557-94c4-a9f1a3b926bd
-
 ms.date: 12/05/2018
 ms.keywords: D3D11_FEATURE_DATA_FORMAT_SUPPORT, D3D11_FEATURE_DATA_FORMAT_SUPPORT structure [Direct3D 11], a30c19a0-2294-7e25-009e-e49d1560486d, d3d11/D3D11_FEATURE_DATA_FORMAT_SUPPORT, direct3d11.d3d11_feature_data_format_support
 ms.topic: struct
-f1_keywords: 
- - "d3d11/D3D11_FEATURE_DATA_FORMAT_SUPPORT"
+f1_keywords:
+- d3d11/D3D11_FEATURE_DATA_FORMAT_SUPPORT
 dev_langs:
- - c++
+- c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - D3D11.h
+- D3D11.h
 api_name:
- - D3D11_FEATURE_DATA_FORMAT_SUPPORT
+- D3D11_FEATURE_DATA_FORMAT_SUPPORT
 targetos: Windows
 req.typenames: D3D11_FEATURE_DATA_FORMAT_SUPPORT
 req.redist: 

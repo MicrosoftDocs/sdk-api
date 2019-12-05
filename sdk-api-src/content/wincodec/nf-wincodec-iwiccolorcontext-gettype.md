@@ -1,19 +1,17 @@
 ---
 UID: NF:wincodec.IWICColorContext.GetType
 title: IWICColorContext::GetType (wincodec.h)
-
 description: Retrieves the color context type.
 old-location: wic\_wic_codec_iwiccolorcontext_gettype.htm
 tech.root: wic
 ms.assetid: 34b23e94-bf6a-4440-825f-3997658e0095
-
 ms.date: 12/05/2018
 ms.keywords: GetType, GetType method [Windows Imaging Component], GetType method [Windows Imaging Component],IWICColorContext interface, IWICColorContext interface [Windows Imaging Component],GetType method, IWICColorContext.GetType, IWICColorContext::GetType, _wic_codec_iwiccolorcontext_gettype, wic._wic_codec_iwiccolorcontext_gettype, wincodec/IWICColorContext::GetType
 ms.topic: method
-f1_keywords: 
- - "wincodec/IWICColorContext.GetType"
+f1_keywords:
+- wincodec/IWICColorContext.GetType
 dev_langs:
- - c++
+- c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Windowscodecs.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Windowscodecs.lib
- - Windowscodecs.dll
+- Windowscodecs.lib
+- Windowscodecs.dll
 api_name:
- - IWICColorContext.GetType
+- IWICColorContext.GetType
 targetos: Windows
 req.typenames: 
 req.redist: 

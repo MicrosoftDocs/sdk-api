@@ -1,19 +1,17 @@
 ---
 UID: NF:windows.media.streaming.IDevicePair.get_Renderer
 title: IDevicePair::streaming (windows.media.streaming.h)
-
 description: Gets the renderer for the active basic device pair.
 old-location: mediastreaming\idevicepair_renderer.htm
 tech.root: mediastreaming
 ms.assetid: A130AB29-285A-4BBB-B02F-8DA515E0E529
-
 ms.date: 12/05/2018
 ms.keywords: IDevicePair interface [Media Streaming API],get_Renderer method, IDevicePair.get_Renderer, IDevicePair.streaming, IDevicePair::get_Renderer, IDevicePair::streaming, get_Renderer, get_Renderer method [Media Streaming API], get_Renderer method [Media Streaming API],IDevicePair interface, mediastreaming.idevicepair_renderer, windows/IDevicePair::get_Renderer
 ms.topic: method
-f1_keywords: 
- - "windows.media.streaming/IDevicePair.get_Renderer"
+f1_keywords:
+- windows.media.streaming/IDevicePair.get_Renderer
 dev_langs:
- - c++
+- c++
 req.header: windows.media.streaming.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: PlayToDevice.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - PlayToDevice.dll
+- PlayToDevice.dll
 api_name:
- - IDevicePair.get_Renderer
+- IDevicePair.get_Renderer
 targetos: Windows
 req.typenames: 
 req.redist: 

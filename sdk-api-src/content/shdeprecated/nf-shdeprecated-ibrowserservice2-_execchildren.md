@@ -1,19 +1,17 @@
 ---
 UID: NF:shdeprecated.IBrowserService2._ExecChildren
 title: IBrowserService2::_ExecChildren (shdeprecated.h)
-
 description: Deprecated. Enables the derived class to issue a command through the IOleCommandTarget::Exec method directly, instead of relying on the base class.
 old-location: shell\IBrowserService2__ExecChildren.htm
 tech.root: shell
 ms.assetid: d66274b5-36ca-474c-b0e2-49b34394b19b
-
 ms.date: 12/05/2018
 ms.keywords: IBrowserService2 interface [Windows Shell],_ExecChildren method, IBrowserService2._ExecChildren, IBrowserService2::_ExecChildren, _ExecChildren, _ExecChildren method [Windows Shell], _ExecChildren method [Windows Shell],IBrowserService2 interface, shdeprecated/IBrowserService2::_ExecChildren, shell.IBrowserService2__ExecChildren, zone_IBrowserService2__ExecChildren
 ms.topic: method
-f1_keywords: 
- - "shdeprecated/IBrowserService2._ExecChildren"
+f1_keywords:
+- shdeprecated/IBrowserService2._ExecChildren
 dev_langs:
- - c++
+- c++
 req.header: shdeprecated.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shdeprecated.h
+- Shdeprecated.h
 api_name:
- - IBrowserService2._ExecChildren
+- IBrowserService2._ExecChildren
 targetos: Windows
 req.typenames: 
 req.redist: 

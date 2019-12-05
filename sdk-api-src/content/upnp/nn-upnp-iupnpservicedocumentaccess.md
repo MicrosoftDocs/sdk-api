@@ -1,19 +1,17 @@
 ---
 UID: NN:upnp.IUPnPServiceDocumentAccess
 title: IUPnPServiceDocumentAccess (upnp.h)
-
 description: Use this interface to retrieve and provide the Service Control Protocol Description (SCPD) document to a UPnP control point application to expose actions supported by the service and provide information about state variables.
 old-location: upnp\iupnpservicedocumentaccess.htm
 tech.root: upnp
 ms.assetid: A4890300-2945-4973-ACFC-F950C5E15A0E
-
 ms.date: 12/05/2018
 ms.keywords: IUPnPServiceDocumentAccess, IUPnPServiceDocumentAccess interface [UPnP APIs], IUPnPServiceDocumentAccess interface [UPnP APIs],described, upnp.iupnpservicedocumentaccess, upnp/IUPnPServiceDocumentAccess
 ms.topic: interface
-f1_keywords: 
- - "upnp/IUPnPServiceDocumentAccess"
+f1_keywords:
+- upnp/IUPnPServiceDocumentAccess
 dev_langs:
- - c++
+- c++
 req.header: upnp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Upnp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Upnp.dll
+- Upnp.dll
 api_name:
- - IUPnPServiceDocumentAccess
+- IUPnPServiceDocumentAccess
 targetos: Windows
 req.typenames: 
 req.redist: 

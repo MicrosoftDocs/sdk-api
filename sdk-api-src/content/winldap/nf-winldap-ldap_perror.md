@@ -1,19 +1,17 @@
 ---
 UID: NF:winldap.ldap_perror
 title: ldap_perror function (winldap.h)
-
 description: Obsolete function. It exists only for compatibility.
 old-location: ldap\ldap_perror.htm
 tech.root: ldap
 ms.assetid: 9f4f1e45-7d0a-49d6-aae8-5ca550e14564
-
 ms.date: 12/05/2018
-ms.keywords: "_ldap_ldap_perror, ldap.ldap__perror, ldap.ldap_perror, ldap_perror, ldap_perror function [LDAP], winldap/ldap_perror"
+ms.keywords: _ldap_ldap_perror, ldap.ldap__perror, ldap.ldap_perror, ldap_perror, ldap_perror function [LDAP], winldap/ldap_perror
 ms.topic: function
-f1_keywords: 
- - "winldap/ldap_perror"
+f1_keywords:
+- winldap/ldap_perror
 dev_langs:
- - c++
+- c++
 req.header: winldap.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Wldap32.lib
 req.dll: Wldap32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Wldap32.dll
+- Wldap32.dll
 api_name:
- - ldap_perror
+- ldap_perror
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:namedpipeapi.DisconnectNamedPipe
 title: DisconnectNamedPipe function (namedpipeapi.h)
-
 description: Disconnects the server end of a named pipe instance from a client process.
 old-location: base\disconnectnamedpipe.htm
 tech.root: ipc
 ms.assetid: 7af2d4fa-5e19-4256-a713-ac5bdaee6023
-
 ms.date: 12/05/2018
 ms.keywords: DisconnectNamedPipe, DisconnectNamedPipe function, _win32_disconnectnamedpipe, base.disconnectnamedpipe, namedpipeapi/DisconnectNamedPipe
 ms.topic: function
-f1_keywords: 
- - "namedpipeapi/DisconnectNamedPipe"
+f1_keywords:
+- namedpipeapi/DisconnectNamedPipe
 dev_langs:
- - c++
+- c++
 req.header: namedpipeapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,21 +30,21 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-NamedPipe-l1-1-0.dll
- - KernelBase.dll
- - API-MS-Win-Core-NamedPipe-l1-2-0.dll
- - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
- - MinKernelBase.dll
- - API-MS-Win-Core-NamedPipe-l1-2-1.dll
- - API-MS-Win-Core-NamedPipe-L1-2-2.dll
+- Kernel32.dll
+- API-MS-Win-Core-NamedPipe-l1-1-0.dll
+- KernelBase.dll
+- API-MS-Win-Core-NamedPipe-l1-2-0.dll
+- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+- MinKernelBase.dll
+- API-MS-Win-Core-NamedPipe-l1-2-1.dll
+- API-MS-Win-Core-NamedPipe-L1-2-2.dll
 api_name:
- - DisconnectNamedPipe
+- DisconnectNamedPipe
 targetos: Windows
 req.typenames: 
 req.redist: 

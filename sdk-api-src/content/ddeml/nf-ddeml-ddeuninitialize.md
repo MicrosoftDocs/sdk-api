@@ -1,19 +1,17 @@
 ---
 UID: NF:ddeml.DdeUninitialize
 title: DdeUninitialize function (ddeml.h)
-
 description: Frees all Dynamic Data Exchange Management Library (DDEML) resources associated with the calling application.
 old-location: dataxchg\ddeuninitialize.htm
 tech.root: dataxchg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\dataexchange\dynamicdataexchangemanagementlibrary\dynamicdataexchangemanagementreference\dynamicdataexchangemanagementfunctions\ddeuninitialize.htm
-
 ms.date: 12/05/2018
 ms.keywords: DdeUninitialize, DdeUninitialize function [Data Exchange], _win32_DdeUninitialize, _win32_ddeuninitialize_cpp, dataxchg.ddeuninitialize, ddeml/DdeUninitialize, winui._win32_ddeuninitialize
 ms.topic: function
-f1_keywords: 
- - "ddeml/DdeUninitialize"
+f1_keywords:
+- ddeml/DdeUninitialize
 dev_langs:
- - c++
+- c++
 req.header: ddeml.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - User32.dll
+- User32.dll
 api_name:
- - DdeUninitialize
+- DdeUninitialize
 targetos: Windows
 req.typenames: 
 req.redist: 

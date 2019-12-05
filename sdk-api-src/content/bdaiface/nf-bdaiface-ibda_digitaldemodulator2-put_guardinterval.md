@@ -1,19 +1,17 @@
 ---
 UID: NF:bdaiface.IBDA_DigitalDemodulator2.put_GuardInterval
 title: IBDA_DigitalDemodulator2::put_GuardInterval (bdaiface.h)
-
 description: Sets the demodulator's guard interval.
 old-location: mstv\ibda_digitaldemodulator2_put_guardinterval.htm
 tech.root: mstv
 ms.assetid: 1183eacb-4846-4b5e-b879-7e557eb5f5dc
-
 ms.date: 12/05/2018
 ms.keywords: IBDA_DigitalDemodulator2 interface [Microsoft TV Technologies],put_GuardInterval method, IBDA_DigitalDemodulator2.put_GuardInterval, IBDA_DigitalDemodulator2::put_GuardInterval, bdaiface/IBDA_DigitalDemodulator2::put_GuardInterval, mstv.ibda_digitaldemodulator2_put_guardinterval, put_GuardInterval, put_GuardInterval method [Microsoft TV Technologies], put_GuardInterval method [Microsoft TV Technologies],IBDA_DigitalDemodulator2 interface
 ms.topic: method
-f1_keywords: 
- - "bdaiface/IBDA_DigitalDemodulator2.put_GuardInterval"
+f1_keywords:
+- bdaiface/IBDA_DigitalDemodulator2.put_GuardInterval
 dev_langs:
- - c++
+- c++
 req.header: bdaiface.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - bdaiface.h
+- bdaiface.h
 api_name:
- - IBDA_DigitalDemodulator2.put_GuardInterval
+- IBDA_DigitalDemodulator2.put_GuardInterval
 targetos: Windows
 req.typenames: 
 req.redist: 

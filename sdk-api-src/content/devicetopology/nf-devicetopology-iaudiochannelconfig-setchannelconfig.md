@@ -1,19 +1,17 @@
 ---
 UID: NF:devicetopology.IAudioChannelConfig.SetChannelConfig
 title: IAudioChannelConfig::SetChannelConfig (devicetopology.h)
-
 description: The SetChannelConfig method sets the channel-configuration mask in a channel-configuration control.
 old-location: coreaudio\iaudiochannelconfig_setchannelconfig.htm
 tech.root: CoreAudio
 ms.assetid: a63b92ab-8abf-4582-b408-6c3e94a6bd3c
-
 ms.date: 12/05/2018
 ms.keywords: IAudioChannelConfig interface [Core Audio],SetChannelConfig method, IAudioChannelConfig.SetChannelConfig, IAudioChannelConfig::SetChannelConfig, IAudioChannelConfigSetChannelConfig, SetChannelConfig, SetChannelConfig method [Core Audio], SetChannelConfig method [Core Audio],IAudioChannelConfig interface, coreaudio.iaudiochannelconfig_setchannelconfig, devicetopology/IAudioChannelConfig::SetChannelConfig
 ms.topic: method
-f1_keywords: 
- - "devicetopology/IAudioChannelConfig.SetChannelConfig"
+f1_keywords:
+- devicetopology/IAudioChannelConfig.SetChannelConfig
 dev_langs:
- - c++
+- c++
 req.header: devicetopology.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Devicetopology.h
+- Devicetopology.h
 api_name:
- - IAudioChannelConfig.SetChannelConfig
+- IAudioChannelConfig.SetChannelConfig
 targetos: Windows
 req.typenames: 
 req.redist: 

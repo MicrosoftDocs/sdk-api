@@ -1,19 +1,17 @@
 ---
 UID: NF:fdi_fci_types.TCOMPfromLZXWindow
 title: TCOMPfromLZXWindow macro (fdi_fci_types.h)
-
 description: The TCOMPfromLZXWindow macro converts window size into an LXZTCOMP value for FCIAddFile.
 old-location: winprog\tcompfromlzxwindow.htm
 tech.root: DevNotes
 ms.assetid: 39b5a1e0-a711-444b-8326-4aba9a98f203
-
 ms.date: 12/05/2018
 ms.keywords: TCOMPfromLZXWindow, TCOMPfromLZXWindow macro [Windows API], fdi_fci_types/TCOMPfromLZXWindow, winprog.tcompfromlzxwindow
 ms.topic: macro
-f1_keywords: 
- - "fdi_fci_types/TCOMPfromLZXWindow"
+f1_keywords:
+- fdi_fci_types/TCOMPfromLZXWindow
 dev_langs:
- - c++
+- c++
 req.header: fdi_fci_types.h
 req.include-header: Fci.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - fdi_fci_types.h
+- fdi_fci_types.h
 api_name:
- - TCOMPfromLZXWindow
+- TCOMPfromLZXWindow
 targetos: Windows
 req.typenames: 
 req.redist: 

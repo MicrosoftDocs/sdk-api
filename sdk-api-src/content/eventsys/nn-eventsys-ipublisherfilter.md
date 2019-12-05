@@ -1,19 +1,17 @@
 ---
 UID: NN:eventsys.IPublisherFilter
 title: IPublisherFilter (eventsys.h)
-
 description: Acts as a callback interface so that event publishers can control which subscribers receive event notifications or the order in which subscribers are notified.
 old-location: cos\ipublisherfilter.htm
 tech.root: cossdk
 ms.assetid: affc0af4-36f8-4479-8685-f91c29111d76
-
 ms.date: 12/05/2018
 ms.keywords: IPublisherFilter, IPublisherFilter interface [COM+], IPublisherFilter interface [COM+],described, _cos_IPublisherFilter, cos.ipublisherfilter, eventsys/IPublisherFilter
 ms.topic: interface
-f1_keywords: 
- - "eventsys/IPublisherFilter"
+f1_keywords:
+- eventsys/IPublisherFilter
 dev_langs:
- - c++
+- c++
 req.header: eventsys.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - EventSys.h
+- EventSys.h
 api_name:
- - IPublisherFilter
+- IPublisherFilter
 targetos: Windows
 req.typenames: 
 req.redist: 

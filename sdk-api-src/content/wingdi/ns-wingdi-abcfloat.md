@@ -1,19 +1,17 @@
 ---
 UID: NS:wingdi._ABCFLOAT
 title: ABCFLOAT (wingdi.h)
-
 description: The ABCFLOAT structure contains the A, B, and C widths of a font character.
 old-location: gdi\abcfloat.htm
 tech.root: gdi
 ms.assetid: 540bb00c-f0e2-4ddd-98d1-cf3ed86b6ce0
-
 ms.date: 12/05/2018
-ms.keywords: "*LPABCFLOAT, *NPABCFLOAT, *PABCFLOAT, ABCFLOAT, ABCFLOAT structure [Windows GDI], PABCFLOAT, PABCFLOAT structure pointer [Windows GDI], _win32_ABCFLOAT_str, gdi.abcfloat, wingdi/ABCFLOAT, wingdi/PABCFLOAT"
+ms.keywords: '*LPABCFLOAT, *NPABCFLOAT, *PABCFLOAT, ABCFLOAT, ABCFLOAT structure [Windows GDI], PABCFLOAT, PABCFLOAT structure pointer [Windows GDI], _win32_ABCFLOAT_str, gdi.abcfloat, wingdi/ABCFLOAT, wingdi/PABCFLOAT'
 ms.topic: struct
-f1_keywords: 
- - "wingdi/ABCFLOAT"
+f1_keywords:
+- wingdi/ABCFLOAT
 dev_langs:
- - c++
+- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wingdi.h
+- Wingdi.h
 api_name:
- - ABCFLOAT
+- ABCFLOAT
 targetos: Windows
 req.typenames: ABCFLOAT, *PABCFLOAT, *NPABCFLOAT, *LPABCFLOAT
 req.redist: 

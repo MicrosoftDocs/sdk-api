@@ -1,19 +1,17 @@
 ---
 UID: NF:winddi.DrvNotify
 title: DrvNotify function (winddi.h)
-
 description: The DrvNotify function allows a display driver to be notified about certain information by GDI.
 old-location: display\drvnotify.htm
 tech.root: display
 ms.assetid: 792d2b17-d5f5-406e-b35c-9f641fa32016
-
 ms.date: 12/05/2018
 ms.keywords: DrvNotify, DrvNotify function [Display Devices], ddifncs_24141fb1-e368-47f8-b123-eb1e1789b568.xml, display.drvnotify, winddi/DrvNotify
 ms.topic: function
 f1_keywords:
 - winddi/DrvNotify
 dev_langs:
- - c++
+- c++
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Desktop

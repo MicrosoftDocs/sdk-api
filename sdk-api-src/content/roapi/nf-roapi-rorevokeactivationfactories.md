@@ -1,19 +1,17 @@
 ---
 UID: NF:roapi.RoRevokeActivationFactories
 title: RoRevokeActivationFactories function (roapi.h)
-
 description: Removes an array of registered activation factories from the Windows Runtime.
 old-location: winrt\rorevokeactivationfactories.htm
 tech.root: WinRT
 ms.assetid: 0311bd92-3b12-46bc-a21d-13bd57a2c545
-
 ms.date: 12/05/2018
 ms.keywords: RoRevokeActivationFactories, RoRevokeActivationFactories function [Windows Runtime], WinRTRevokeActivationFactories, roapi/RoRevokeActivationFactories, roapi/WinRTRevokeActivationFactories, winrt.rorevokeactivationfactories, winrt.winrtrevokeactivationfactories
 ms.topic: function
-f1_keywords: 
- - "roapi/RoRevokeActivationFactories"
+f1_keywords:
+- roapi/RoRevokeActivationFactories
 dev_langs:
- - c++
+- c++
 req.header: roapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: RuntimeObject.lib
 req.dll: ComBase.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - ComBase.dll
- - API-MS-Win-Core-WinRT-l1-1-0.dll
+- ComBase.dll
+- API-MS-Win-Core-WinRT-l1-1-0.dll
 api_name:
- - RoRevokeActivationFactories
- - WinRTRevokeActivationFactories
+- RoRevokeActivationFactories
+- WinRTRevokeActivationFactories
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NN:bits.IBackgroundCopyJob
 title: IBackgroundCopyJob (bits.h)
-
 description: Use the IBackgroundCopyJob interface to add files to the job, set the priority level of the job, determine the state of the job, and to start and stop the job.
 old-location: bits\ibackgroundcopyjob.htm
 tech.root: Bits
 ms.assetid: 91dd1ae1-1740-4d95-a476-fc18aead1dc2
-
 ms.date: 12/05/2018
 ms.keywords: IBackgroundCopyJob, IBackgroundCopyJob interface [BITS], IBackgroundCopyJob interface [BITS],described, _drz_ibackgroundcopyjob, bits.ibackgroundcopyjob, bits/IBackgroundCopyJob
 ms.topic: interface
-f1_keywords: 
- - "bits/IBackgroundCopyJob"
+f1_keywords:
+- bits/IBackgroundCopyJob
 dev_langs:
- - c++
+- c++
 req.header: bits.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Bits.lib
 req.dll: QmgrPrxy.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - QmgrPrxy.dll
+- QmgrPrxy.dll
 api_name:
- - IBackgroundCopyJob
+- IBackgroundCopyJob
 targetos: Windows
 req.typenames: 
 req.redist: 

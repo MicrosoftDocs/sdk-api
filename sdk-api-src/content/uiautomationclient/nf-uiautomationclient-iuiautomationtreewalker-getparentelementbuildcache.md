@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationTreeWalker.GetParentElementBuildCache
 title: IUIAutomationTreeWalker::GetParentElementBuildCache (uiautomationclient.h)
-
 description: Retrieves the parent element of the specified UI Automation element, and caches properties and control patterns.
 old-location: winauto\uiauto_IUIAutomationTreeWalker_GetParentBuildCache.htm
 tech.root: WinAuto
 ms.assetid: 1a1d9805-bcd7-4c5d-ac61-138ac75a523e
-
 ms.date: 12/05/2018
 ms.keywords: GetParentElementBuildCache, GetParentElementBuildCache method [Windows Accessibility], GetParentElementBuildCache method [Windows Accessibility],IUIAutomationTreeWalker interface, IUIAutomationTreeWalker interface [Windows Accessibility],GetParentElementBuildCache method, IUIAutomationTreeWalker.GetParentElementBuildCache, IUIAutomationTreeWalker::GetParentElementBuildCache, uiauto.uiauto_IUIAutomationTreeWalker_GetParentBuildCache, uiauto_IUIAutomationTreeWalker_GetParentBuildCache, uiautomationclient/IUIAutomationTreeWalker::GetParentElementBuildCache, winauto.uiauto_IUIAutomationTreeWalker_GetParentBuildCache
 ms.topic: method
-f1_keywords: 
- - "uiautomationclient/IUIAutomationTreeWalker.GetParentElementBuildCache"
+f1_keywords:
+- uiautomationclient/IUIAutomationTreeWalker.GetParentElementBuildCache
 dev_langs:
- - c++
+- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationClient.h
+- UIAutomationClient.h
 api_name:
- - IUIAutomationTreeWalker.GetParentElementBuildCache
+- IUIAutomationTreeWalker.GetParentElementBuildCache
 targetos: Windows
 req.typenames: 
 req.redist: 

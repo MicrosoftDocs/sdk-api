@@ -1,19 +1,17 @@
 ---
 UID: NF:msacm.acmStreamSize
 title: acmStreamSize function (msacm.h)
-
 description: The acmStreamSize function returns a recommended size for a source or destination buffer on an ACM stream.
 old-location: multimedia\acmstreamsize.htm
 tech.root: Multimedia
 ms.assetid: 44b8c2cb-ae37-4919-83af-4a8ce6f8737c
-
 ms.date: 12/05/2018
-ms.keywords: "_win32_acmStreamSize, acmStreamSize, acmStreamSize function [Windows Multimedia], msacm/acmStreamSize, multimedia.acmstreamsize"
+ms.keywords: _win32_acmStreamSize, acmStreamSize, acmStreamSize function [Windows Multimedia], msacm/acmStreamSize, multimedia.acmstreamsize
 ms.topic: function
-f1_keywords: 
- - "msacm/acmStreamSize"
+f1_keywords:
+- msacm/acmStreamSize
 dev_langs:
- - c++
+- c++
 req.header: msacm.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Msacm32.lib
 req.dll: Msacm32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Msacm32.dll
- - Ext-MS-Win-mm-msacm-l1-1-0.dll
+- Msacm32.dll
+- Ext-MS-Win-mm-msacm-l1-1-0.dll
 api_name:
- - acmStreamSize
+- acmStreamSize
 targetos: Windows
 req.typenames: 
 req.redist: 

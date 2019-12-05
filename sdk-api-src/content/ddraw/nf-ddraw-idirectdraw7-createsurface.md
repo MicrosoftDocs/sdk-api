@@ -1,19 +1,17 @@
 ---
 UID: NF:ddraw.IDirectDraw7.CreateSurface
 title: IDirectDraw7::CreateSurface (ddraw.h)
-
 description: Creates a DirectDrawSurface object for this DirectDraw object.
 old-location: directdraw\idirectdraw7_createsurface.htm
 tech.root: directdraw
 ms.assetid: 4f27e36f-d04f-43ce-9a3d-64c352c8f8d8
-
 ms.date: 12/05/2018
 ms.keywords: CreateSurface, CreateSurface method [DirectDraw], CreateSurface method [DirectDraw],IDirectDraw7 interface, IDirectDraw7 interface [DirectDraw],CreateSurface method, IDirectDraw7.CreateSurface, IDirectDraw7::CreateSurface, ddraw/IDirectDraw7::CreateSurface, directdraw.idirectdraw7_createsurface
 ms.topic: method
-f1_keywords: 
- - "ddraw/IDirectDraw7.CreateSurface"
+f1_keywords:
+- ddraw/IDirectDraw7.CreateSurface
 dev_langs:
- - c++
+- c++
 req.header: ddraw.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Ddraw.lib
 req.dll: Ddraw.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Ddraw.dll
+- Ddraw.dll
 api_name:
- - IDirectDraw7.CreateSurface
+- IDirectDraw7.CreateSurface
 targetos: Windows
 req.typenames: 
 req.redist: 

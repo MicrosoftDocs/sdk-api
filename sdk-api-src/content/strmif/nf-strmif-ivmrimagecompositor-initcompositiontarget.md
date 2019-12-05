@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IVMRImageCompositor.InitCompositionTarget
 title: IVMRImageCompositor::InitCompositionTarget (strmif.h)
-
 description: The InitCompositionTarget method informs the compositor that a new composition target has been created.
 old-location: dshow\ivmrimagecompositor_initcompositiontarget.htm
 tech.root: DirectShow
 ms.assetid: 16d54090-a0fa-480f-ba94-a15aa08d4576
-
 ms.date: 12/05/2018
 ms.keywords: IVMRImageCompositor interface [DirectShow],InitCompositionTarget method, IVMRImageCompositor.InitCompositionTarget, IVMRImageCompositor::InitCompositionTarget, IVMRImageCompositorInitCompositionTarget, InitCompositionTarget, InitCompositionTarget method [DirectShow], InitCompositionTarget method [DirectShow],IVMRImageCompositor interface, dshow.ivmrimagecompositor_initcompositiontarget, strmif/IVMRImageCompositor::InitCompositionTarget
 ms.topic: method
-f1_keywords: 
- - "strmif/IVMRImageCompositor.InitCompositionTarget"
+f1_keywords:
+- strmif/IVMRImageCompositor.InitCompositionTarget
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IVMRImageCompositor.InitCompositionTarget
+- IVMRImageCompositor.InitCompositionTarget
 targetos: Windows
 req.typenames: 
 req.redist: 

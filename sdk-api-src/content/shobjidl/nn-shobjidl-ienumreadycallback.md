@@ -1,19 +1,17 @@
 ---
 UID: NN:shobjidl.IEnumReadyCallback
 title: IEnumReadyCallback (shobjidl.h)
-
 description: Exposes methods that enable the view to notify the implementer when the enumeration has completed.
 old-location: shell\IEnumReadyCallback.htm
 tech.root: shell
 ms.assetid: 6c36e13d-9bd8-4ec1-980a-dc4ebd4dbcd9
-
 ms.date: 12/05/2018
 ms.keywords: IEnumReadyCallback, IEnumReadyCallback interface [Windows Shell], IEnumReadyCallback interface [Windows Shell],described, _shell_IEnumReadyCallback, shell.IEnumReadyCallback, shobjidl/IEnumReadyCallback
 ms.topic: interface
-f1_keywords: 
- - "shobjidl/IEnumReadyCallback"
+f1_keywords:
+- shobjidl/IEnumReadyCallback
 dev_langs:
- - c++
+- c++
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shobjidl.h
+- Shobjidl.h
 api_name:
- - IEnumReadyCallback
+- IEnumReadyCallback
 targetos: Windows
 req.typenames: 
 req.redist: 

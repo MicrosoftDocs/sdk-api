@@ -1,19 +1,17 @@
 ---
 UID: NN:msinkaut15.IInkDivider
 title: IInkDivider (msinkaut15.h)
-
-description: "."
+description: .
 old-location: tablet\iinkdivider.htm
 tech.root: tablet
 ms.assetid: 6DF54C8E-1E0D-4F9D-A6E4-AFE0E8894BE9
-
 ms.date: 12/05/2018
 ms.keywords: IInkDivider, IInkDivider interface [Tablet PC], IInkDivider interface [Tablet PC],described, msinkaut15/IInkDivider, tablet.iinkdivider
 ms.topic: interface
-f1_keywords: 
- - "msinkaut15/IInkDivider"
+f1_keywords:
+- msinkaut15/IInkDivider
 dev_langs:
- - c++
+- c++
 req.header: msinkaut15.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msinkaut15.h
+- msinkaut15.h
 api_name:
- - IInkDivider
+- IInkDivider
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:vfw.ICCompressGetFormat
 title: ICCompressGetFormat macro (vfw.h)
-
 description: The ICCompressGetFormat macro requests the output format of the compressed data from a video compression driver. You can use this macro or explicitly call the ICM_COMPRESS_GET_FORMAT message.
 old-location: multimedia\iccompressgetformat.htm
 tech.root: Multimedia
 ms.assetid: d6552dc0-21fb-475c-9ec4-cb3ef1f3a70e
-
 ms.date: 12/05/2018
 ms.keywords: ICCompressGetFormat, ICCompressGetFormat macro [Windows Multimedia], _win32_ICCompressGetFormat, multimedia.iccompressgetformat, vfw/ICCompressGetFormat
 ms.topic: macro
-f1_keywords: 
- - "vfw/ICCompressGetFormat"
+f1_keywords:
+- vfw/ICCompressGetFormat
 dev_langs:
- - c++
+- c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Vfw.h
+- Vfw.h
 api_name:
- - ICCompressGetFormat
+- ICCompressGetFormat
 targetos: Windows
 req.typenames: 
 req.redist: 

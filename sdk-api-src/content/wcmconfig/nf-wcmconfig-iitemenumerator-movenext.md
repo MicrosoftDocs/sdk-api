@@ -1,19 +1,17 @@
 ---
 UID: NF:wcmconfig.IItemEnumerator.MoveNext
 title: IItemEnumerator::MoveNext (wcmconfig.h)
-
 description: Moves the current position to the next item in the enumerator if available.
 old-location: smi\iitemenumerator_movenext.htm
 tech.root: SMI
 ms.assetid: bdec3ee4-e66a-4e93-9109-c5721d06eb63
-
 ms.date: 12/05/2018
 ms.keywords: IItemEnumerator interface [SMI],MoveNext method, IItemEnumerator.MoveNext, IItemEnumerator::MoveNext, MoveNext, MoveNext method [SMI], MoveNext method [SMI],IItemEnumerator interface, smi.iitemenumerator_movenext, wcmconfig/IItemEnumerator::MoveNext
 ms.topic: method
-f1_keywords: 
- - "wcmconfig/IItemEnumerator.MoveNext"
+f1_keywords:
+- wcmconfig/IItemEnumerator.MoveNext
 dev_langs:
- - c++
+- c++
 req.header: wcmconfig.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: SMIEngine.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - SMIEngine.dll
+- SMIEngine.dll
 api_name:
- - IItemEnumerator.MoveNext
+- IItemEnumerator.MoveNext
 targetos: Windows
 req.typenames: 
 req.redist: 

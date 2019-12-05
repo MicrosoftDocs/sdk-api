@@ -1,19 +1,17 @@
 ---
 UID: NF:peninputpanel.ITextInputPanel.get_CurrentInputArea
 title: ITextInputPanel::get_CurrentInputArea (peninputpanel.h)
-
 description: Gets the current input area as specified by the PanelInputArea Enumeration.
 old-location: tablet\itextinputpanel_currentinputarea.htm
 tech.root: tablet
 ms.assetid: 47ffdda4-bfe2-4ee0-bfda-cad73a346b1e
-
 ms.date: 12/05/2018
 ms.keywords: 47ffdda4-bfe2-4ee0-bfda-cad73a346b1e, CurrentInputArea property [Tablet PC], CurrentInputArea property [Tablet PC],ITextInputPanel interface, ITextInputPanel interface [Tablet PC],CurrentInputArea property, ITextInputPanel.CurrentInputArea, ITextInputPanel.get_CurrentInputArea, ITextInputPanel::CurrentInputArea, ITextInputPanel::get_CurrentInputArea, get_CurrentInputArea, peninputpanel/ITextInputPanel::CurrentInputArea, peninputpanel/ITextInputPanel::get_CurrentInputArea, tablet.itextinputpanel_currentinputarea
 ms.topic: method
-f1_keywords: 
- - "peninputpanel/ITextInputPanel.CurrentInputArea"
+f1_keywords:
+- peninputpanel/ITextInputPanel.CurrentInputArea
 dev_langs:
- - c++
+- c++
 req.header: peninputpanel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: Tiptsf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - tiptsf.dll
+- tiptsf.dll
 api_name:
- - ITextInputPanel.CurrentInputArea
- - ITextInputPanel.get_CurrentInputArea
- - ITextInputPanel.get_CurrentInputArea
+- ITextInputPanel.CurrentInputArea
+- ITextInputPanel.get_CurrentInputArea
+- ITextInputPanel.get_CurrentInputArea
 targetos: Windows
 req.typenames: 
 req.redist: 

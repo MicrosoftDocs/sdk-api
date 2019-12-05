@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IDvdControl.ChapterPlayAutoStop
 title: IDvdControl::ChapterPlayAutoStop (strmif.h)
-
 description: Note  The IDvdControl interface is deprecated. Use IDvdControl2 instread. Instructs the DVD player to start playing at the specified chapter within the specified title and play the number of chapters specified.
 old-location: dshow\idvdcontrol_chapterplayautostop.htm
 tech.root: DirectShow
 ms.assetid: 0c599647-c894-47b9-a62d-3ffd22843f7c
-
 ms.date: 12/05/2018
 ms.keywords: ChapterPlayAutoStop, ChapterPlayAutoStop method [DirectShow], ChapterPlayAutoStop method [DirectShow],IDvdControl interface, IDvdControl interface [DirectShow],ChapterPlayAutoStop method, IDvdControl.ChapterPlayAutoStop, IDvdControl::ChapterPlayAutoStop, IDvdControlChapterPlayAutoStop, dshow.idvdcontrol_chapterplayautostop, strmif/IDvdControl::ChapterPlayAutoStop
 ms.topic: method
-f1_keywords: 
- - "strmif/IDvdControl.ChapterPlayAutoStop"
+f1_keywords:
+- strmif/IDvdControl.ChapterPlayAutoStop
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmif.h
+- Strmif.h
 api_name:
- - IDvdControl.ChapterPlayAutoStop
+- IDvdControl.ChapterPlayAutoStop
 targetos: Windows
 req.typenames: 
 req.redist: 

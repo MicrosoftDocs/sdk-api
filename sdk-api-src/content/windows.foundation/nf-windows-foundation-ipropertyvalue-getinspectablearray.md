@@ -1,19 +1,17 @@
 ---
 UID: NF:windows.foundation.IPropertyValue.GetInspectableArray
 title: IPropertyValue::IPropertyValue (windows.foundation.h)
-
 description: Gets the array of pointers to IInspectable objects that is stored in the current IPropertyValue object.
 old-location: winrt\ipropertyvalue_getinspectablearray.htm
 tech.root: WinRT
 ms.assetid: 0af4f31f-e121-4cb2-8e83-c774bf25cae5
-
 ms.date: 12/05/2018
 ms.keywords: GetInspectableArray, GetInspectableArray method [Windows Runtime], GetInspectableArray method [Windows Runtime],IPropertyValue interface, IPropertyValue interface [Windows Runtime],GetInspectableArray method, IPropertyValue.GetInspectableArray, IPropertyValue.IPropertyValue, IPropertyValue::GetInspectableArray, IPropertyValue::IPropertyValue, windows/IPropertyValue::GetInspectableArray, winrt.ipropertyvalue_getinspectablearray
 ms.topic: method
-f1_keywords: 
- - "windows.foundation/IPropertyValue.GetInspectableArray"
+f1_keywords:
+- windows.foundation/IPropertyValue.GetInspectableArray
 dev_langs:
- - c++
+- c++
 req.header: windows.foundation.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Windows.Foundation.h
+- Windows.Foundation.h
 api_name:
- - IPropertyValue.GetInspectableArray
+- IPropertyValue.GetInspectableArray
 targetos: Windows
 req.typenames: 
 req.redist: 

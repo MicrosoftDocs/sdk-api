@@ -1,19 +1,17 @@
 ---
 UID: NS:netioapi._MIB_IP_NETWORK_CONNECTION_BANDWIDTH_ESTIMATES
 title: MIB_IP_NETWORK_CONNECTION_BANDWIDTH_ESTIMATES (netioapi.h)
-
 description: Contains read-only information for the bandwidth estimates computed by the TCP/IP stack for a network connection.
 old-location: mib\mib_ip_network_connection_bandwidth_estimates.htm
 tech.root: MIB
 ms.assetid: E3109F71-E103-4586-9274-B83C4DC22382
-
 ms.date: 12/05/2018
-ms.keywords: "*PMIB_IP_NETWORK_CONNECTION_BANDWIDTH_ESTIMATES, MIB_IP_NETWORK_CONNECTION_BANDWIDTH_ESTIMATES, MIB_IP_NETWORK_CONNECTION_BANDWIDTH_ESTIMATES structure [MIB], PMIB_IP_NETWORK_CONNECTION_BANDWIDTH_ESTIMATES, PMIB_IP_NETWORK_CONNECTION_BANDWIDTH_ESTIMATES structure pointer [MIB], mib.mib_ip_network_connection_bandwidth_estimates, netioapi/MIB_IP_NETWORK_CONNECTION_BANDWIDTH_ESTIMATES, netioapi/PMIB_IP_NETWORK_CONNECTION_BANDWIDTH_ESTIMATES"
+ms.keywords: '*PMIB_IP_NETWORK_CONNECTION_BANDWIDTH_ESTIMATES, MIB_IP_NETWORK_CONNECTION_BANDWIDTH_ESTIMATES, MIB_IP_NETWORK_CONNECTION_BANDWIDTH_ESTIMATES structure [MIB], PMIB_IP_NETWORK_CONNECTION_BANDWIDTH_ESTIMATES, PMIB_IP_NETWORK_CONNECTION_BANDWIDTH_ESTIMATES structure pointer [MIB], mib.mib_ip_network_connection_bandwidth_estimates, netioapi/MIB_IP_NETWORK_CONNECTION_BANDWIDTH_ESTIMATES, netioapi/PMIB_IP_NETWORK_CONNECTION_BANDWIDTH_ESTIMATES'
 ms.topic: struct
-f1_keywords: 
- - "netioapi/MIB_IP_NETWORK_CONNECTION_BANDWIDTH_ESTIMATES"
+f1_keywords:
+- netioapi/MIB_IP_NETWORK_CONNECTION_BANDWIDTH_ESTIMATES
 dev_langs:
- - c++
+- c++
 req.header: netioapi.h
 req.include-header: Iphlpapi.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Netioapi.h
+- Netioapi.h
 api_name:
- - MIB_IP_NETWORK_CONNECTION_BANDWIDTH_ESTIMATES
+- MIB_IP_NETWORK_CONNECTION_BANDWIDTH_ESTIMATES
 targetos: Windows
 req.typenames: MIB_IP_NETWORK_CONNECTION_BANDWIDTH_ESTIMATES, *PMIB_IP_NETWORK_CONNECTION_BANDWIDTH_ESTIMATES
 req.redist: 

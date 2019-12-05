@@ -1,19 +1,17 @@
 ---
 UID: NF:winuser.PrintWindow
 title: PrintWindow function (winuser.h)
-
 description: The PrintWindow function copies a visual window into the specified device context (DC), typically a printer DC.
 old-location: gdi\printwindow.htm
 tech.root: printdocs
 ms.assetid: 00b38cd8-1cfb-408e-88da-6e61563d9d8e
-
 ms.date: 12/05/2018
 ms.keywords: PW_CLIENTONLY, PrintWindow, PrintWindow function [Windows GDI], _win32_PrintWindow, gdi.printwindow, winuser/PrintWindow
 ms.topic: function
-f1_keywords: 
- - "winuser/PrintWindow"
+f1_keywords:
+- winuser/PrintWindow
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - user32.dll
- - ext-ms-win-ntuser-draw-l1-1-2.dll
+- user32.dll
+- ext-ms-win-ntuser-draw-l1-1-2.dll
 api_name:
- - PrintWindow
+- PrintWindow
 targetos: Windows
 req.typenames: 
 req.redist: 

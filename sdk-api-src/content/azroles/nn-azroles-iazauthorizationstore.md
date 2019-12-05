@@ -1,19 +1,17 @@
 ---
 UID: NN:azroles.IAzAuthorizationStore
 title: IAzAuthorizationStore (azroles.h)
-
 description: Defines the container that is the root of the authorization policy store.
 old-location: security\azauthorizationstore.htm
 tech.root: SecAuthZ
 ms.assetid: f848cca6-3838-46bc-b1f4-d6eab5096046
-
 ms.date: 12/05/2018
 ms.keywords: IAzAuthorizationStore, IAzAuthorizationStore interface [Security], IAzAuthorizationStore interface [Security],described, azroles/IAzAuthorizationStore, security.azauthorizationstore
 ms.topic: interface
-f1_keywords: 
- - "azroles/IAzAuthorizationStore"
+f1_keywords:
+- azroles/IAzAuthorizationStore
 dev_langs:
- - c++
+- c++
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Azroles.lib
 req.dll: Azroles.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Azroles.dll
+- Azroles.dll
 api_name:
- - IAzAuthorizationStore
+- IAzAuthorizationStore
 targetos: Windows
 req.typenames: 
 req.redist: Windows Server 2003 Administration Tools Pack on Windows XP

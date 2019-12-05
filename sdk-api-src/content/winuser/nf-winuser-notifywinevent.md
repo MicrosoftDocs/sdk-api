@@ -1,19 +1,17 @@
 ---
 UID: NF:winuser.NotifyWinEvent
 title: NotifyWinEvent function (winuser.h)
-
 description: Signals the system that a predefined event occurred. If any client applications have registered a hook function for the event, the system calls the client's hook function.
 old-location: winauto\notifywinevent.htm
 tech.root: WinAuto
 ms.assetid: 08e74d45-95b6-44c2-a2e0-5ba6ffdcd56a
-
 ms.date: 12/05/2018
 ms.keywords: NotifyWinEvent, NotifyWinEvent function [Windows Accessibility], _msaa_NotifyWinEvent, msaa.notifywinevent, winauto.notifywinevent, winuser/NotifyWinEvent
 ms.topic: function
-f1_keywords: 
- - "winuser/NotifyWinEvent"
+f1_keywords:
+- winuser/NotifyWinEvent
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - User32.dll
- - API-MS-Win-RTCore-NTUser-Winevent-l1-1-0.dll
- - minuser.dll
- - Ext-MS-Win-NTUser-server-l1-1-0.dll
+- User32.dll
+- API-MS-Win-RTCore-NTUser-Winevent-l1-1-0.dll
+- minuser.dll
+- Ext-MS-Win-NTUser-server-l1-1-0.dll
 api_name:
- - NotifyWinEvent
+- NotifyWinEvent
 targetos: Windows
 req.typenames: 
 req.redist: Active Accessibility 1.3 RDK on Windows NT 4.0 with SP6 and later and Windows 95

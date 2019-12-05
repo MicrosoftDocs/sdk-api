@@ -1,19 +1,17 @@
 ---
 UID: NS:winuser.tagMINMAXINFO
 title: MINMAXINFO (winuser.h)
-
 description: Contains information about a window's maximized size and position and its minimum and maximum tracking size.
 old-location: winmsg\minmaxinfo.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowstructures\minmaxinfo.htm
-
 ms.date: 12/05/2018
-ms.keywords: "*LPMINMAXINFO, *PMINMAXINFO, LPMINMAXINFO, LPMINMAXINFO structure pointer [Windows and Messages], MINMAXINFO, MINMAXINFO structure [Windows and Messages], PMINMAXINFO, PMINMAXINFO structure pointer [Windows and Messages], _win32_MINMAXINFO_str, _win32_minmaxinfo_str_cpp, winmsg.minmaxinfo, winui._win32_minmaxinfo_str, winuser/LPMINMAXINFO, winuser/MINMAXINFO, winuser/PMINMAXINFO"
+ms.keywords: '*LPMINMAXINFO, *PMINMAXINFO, LPMINMAXINFO, LPMINMAXINFO structure pointer [Windows and Messages], MINMAXINFO, MINMAXINFO structure [Windows and Messages], PMINMAXINFO, PMINMAXINFO structure pointer [Windows and Messages], _win32_MINMAXINFO_str, _win32_minmaxinfo_str_cpp, winmsg.minmaxinfo, winui._win32_minmaxinfo_str, winuser/LPMINMAXINFO, winuser/MINMAXINFO, winuser/PMINMAXINFO'
 ms.topic: struct
-f1_keywords: 
- - "winuser/MINMAXINFO"
+f1_keywords:
+- winuser/MINMAXINFO
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Winuser.h
+- Winuser.h
 api_name:
- - MINMAXINFO
+- MINMAXINFO
 targetos: Windows
 req.typenames: MINMAXINFO, *PMINMAXINFO, *LPMINMAXINFO
 req.redist: 

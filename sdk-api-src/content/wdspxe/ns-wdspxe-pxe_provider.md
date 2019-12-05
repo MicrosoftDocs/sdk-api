@@ -1,19 +1,17 @@
 ---
 UID: NS:wdspxe.tagPXE_PROVIDER
 title: PXE_PROVIDER (wdspxe.h)
-
 description: Describes a provider.
 old-location: wds\pxe_provider.htm
 tech.root: wds
 ms.assetid: a07afefd-7a97-42bb-8d70-2bc7c51ddef3
-
 ms.date: 12/05/2018
-ms.keywords: "*PPXE_PROVIDER, PPXE_PROVIDER, PPXE_PROVIDER structure pointer [Windows Deployment Services], PXE_PROVIDER, PXE_PROVIDER structure [Windows Deployment Services], wds.pxe_provider, wdspxe/PPXE_PROVIDER, wdspxe/PXE_PROVIDER"
+ms.keywords: '*PPXE_PROVIDER, PPXE_PROVIDER, PPXE_PROVIDER structure pointer [Windows Deployment Services], PXE_PROVIDER, PXE_PROVIDER structure [Windows Deployment Services], wds.pxe_provider, wdspxe/PPXE_PROVIDER, wdspxe/PXE_PROVIDER'
 ms.topic: struct
-f1_keywords: 
- - "wdspxe/PXE_PROVIDER"
+f1_keywords:
+- wdspxe/PXE_PROVIDER
 dev_langs:
- - c++
+- c++
 req.header: wdspxe.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WdsPxe.h
+- WdsPxe.h
 api_name:
- - PXE_PROVIDER
+- PXE_PROVIDER
 targetos: Windows
 req.typenames: PXE_PROVIDER, *PPXE_PROVIDER
 req.redist: 

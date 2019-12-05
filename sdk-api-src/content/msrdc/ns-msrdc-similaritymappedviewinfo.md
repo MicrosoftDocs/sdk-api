@@ -1,19 +1,17 @@
 ---
 UID: NS:msrdc.__MIDL___MIDL_itf_msrdc_0000_0000_0011
 title: SimilarityMappedViewInfo (msrdc.h)
-
 description: Contains information about a similarity mapped view.
 old-location: rdc\similaritymappedviewinfo.htm
 tech.root: rdc
 ms.assetid: f7bd0ebd-6abd-4d2c-af7d-21a90a633276
-
 ms.date: 12/05/2018
 ms.keywords: SimilarityMappedViewInfo, SimilarityMappedViewInfo structure [Remote Differential Compression], fs.similaritymappedviewinfo, msrdc/SimilarityMappedViewInfo, rdc.similaritymappedviewinfo
 ms.topic: struct
-f1_keywords: 
- - "msrdc/SimilarityMappedViewInfo"
+f1_keywords:
+- msrdc/SimilarityMappedViewInfo
 dev_langs:
- - c++
+- c++
 req.header: msrdc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - MsRdc.h
+- MsRdc.h
 api_name:
- - SimilarityMappedViewInfo
+- SimilarityMappedViewInfo
 targetos: Windows
 req.typenames: SimilarityMappedViewInfo
 req.redist: 

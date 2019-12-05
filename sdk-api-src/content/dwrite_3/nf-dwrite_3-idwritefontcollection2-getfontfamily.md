@@ -1,17 +1,15 @@
 ---
 UID: NF:dwrite_3.IDWriteFontCollection2.GetFontFamily
 title: IDWriteFontCollection2::GetFontFamily
-
 description: Creates a font family object, given a zero-based font family index.
 tech.root: DirectWrite
-
 ms.date: 09/12/2019
 ms.keywords: IDWriteFontCollection2 interface [Direct Write],GetFontFamily method, IDWriteFontCollection2.GetFontFamily, IDWriteFontCollection2::GetFontFamily, GetFontFamily, GetFontFamily method [Direct Write], GetFontFamily method [Direct Write],IDWriteFontCollection2 interface, directwrite.idwritefontcollection2_getfontfamily, dwrite_3/IDWriteFontCollection2::GetFontFamily
 ms.topic: method
-f1_keywords: 
- - "dwrite_3/IDWriteFontCollection2.GetFontFamily"
+f1_keywords:
+- dwrite_3/IDWriteFontCollection2.GetFontFamily
 dev_langs:
- - c++
+- c++
 req.construct-type: function
 req.header: dwrite_3.h
 req.include-header: 
@@ -31,15 +29,15 @@ req.lib: Dwrite.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dwrite.lib
- - Dwrite.dll
+- Dwrite.lib
+- Dwrite.dll
 api_name:
- - IDWriteFontCollection2::GetFontFamily
+- IDWriteFontCollection2::GetFontFamily
 targetos: Windows
 req.typenames: 
 req.redist: 

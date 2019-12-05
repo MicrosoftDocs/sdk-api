@@ -1,19 +1,17 @@
 ---
 UID: NF:wcmconfig.ISettingsContext.RevertSetting
 title: ISettingsContext::RevertSetting (wcmconfig.h)
-
 description: Reverts a setting in the namespace.
 old-location: smi\isettingscontext_revertsetting.htm
 tech.root: SMI
 ms.assetid: 11f541e6-fd97-4756-91c1-44ba2e3d35b1
-
 ms.date: 12/05/2018
 ms.keywords: ISettingsContext interface [SMI],RevertSetting method, ISettingsContext.RevertSetting, ISettingsContext::RevertSetting, RevertSetting, RevertSetting method [SMI], RevertSetting method [SMI],ISettingsContext interface, smi.isettingscontext_revertsetting, wcmconfig/ISettingsContext::RevertSetting
 ms.topic: method
-f1_keywords: 
- - "wcmconfig/ISettingsContext.RevertSetting"
+f1_keywords:
+- wcmconfig/ISettingsContext.RevertSetting
 dev_langs:
- - c++
+- c++
 req.header: wcmconfig.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: SMIEngine.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - SMIEngine.dll
+- SMIEngine.dll
 api_name:
- - ISettingsContext.RevertSetting
+- ISettingsContext.RevertSetting
 targetos: Windows
 req.typenames: 
 req.redist: 

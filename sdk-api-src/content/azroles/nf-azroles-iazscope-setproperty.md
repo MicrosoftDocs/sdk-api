@@ -1,19 +1,17 @@
 ---
 UID: NF:azroles.IAzScope.SetProperty
 title: IAzScope::SetProperty (azroles.h)
-
 description: Sets the specified value to the IAzScope object property with the specified property ID.
 old-location: security\iazscope_setproperty.htm
 tech.root: SecAuthZ
 ms.assetid: 4df2d9ca-a77f-4b32-a4e2-56ecd2059b49
-
 ms.date: 12/05/2018
 ms.keywords: AZ_PROP_APPLICATION_DATA, AZ_PROP_DESCRIPTION, AZ_PROP_NAME, AzScope object [Security],SetProperty method, IAzScope interface [Security],SetProperty method, IAzScope.SetProperty, IAzScope::SetProperty, SetProperty, SetProperty method [Security], SetProperty method [Security],AzScope object, SetProperty method [Security],IAzScope interface, azroles/IAzScope::SetProperty, security.iazscope_setproperty
 ms.topic: method
-f1_keywords: 
- - "azroles/IAzScope.SetProperty"
+f1_keywords:
+- azroles/IAzScope.SetProperty
 dev_langs:
- - c++
+- c++
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Azroles.lib
 req.dll: Azroles.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Azroles.dll
+- Azroles.dll
 api_name:
- - IAzScope.SetProperty
- - AzScope.SetProperty
+- IAzScope.SetProperty
+- AzScope.SetProperty
 targetos: Windows
 req.typenames: 
 req.redist: Windows Server 2003 Administration Tools Pack on Windows XP

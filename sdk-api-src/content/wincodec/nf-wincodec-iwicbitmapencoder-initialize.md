@@ -1,19 +1,17 @@
 ---
 UID: NF:wincodec.IWICBitmapEncoder.Initialize
 title: IWICBitmapEncoder::Initialize (wincodec.h)
-
 description: Initializes the encoder with an IStream which tells the encoder where to encode the bits.
 old-location: wic\_wic_codec_iwicbitmapencoder_initialize.htm
 tech.root: wic
 ms.assetid: 344a9a9d-8557-4ae8-9604-4040c7d7095a
-
 ms.date: 12/05/2018
 ms.keywords: IWICBitmapEncoder interface [Windows Imaging Component],Initialize method, IWICBitmapEncoder.Initialize, IWICBitmapEncoder::Initialize, Initialize, Initialize method [Windows Imaging Component], Initialize method [Windows Imaging Component],IWICBitmapEncoder interface, _wic_codec_iwicbitmapencoder_initialize, wic._wic_codec_iwicbitmapencoder_initialize, wincodec/IWICBitmapEncoder::Initialize
 ms.topic: method
-f1_keywords: 
- - "wincodec/IWICBitmapEncoder.Initialize"
+f1_keywords:
+- wincodec/IWICBitmapEncoder.Initialize
 dev_langs:
- - c++
+- c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Windowscodecs.lib
 req.dll: Windowscodecs.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Windowscodecs.dll
+- Windowscodecs.dll
 api_name:
- - IWICBitmapEncoder.Initialize
+- IWICBitmapEncoder.Initialize
 targetos: Windows
 req.typenames: 
 req.redist: 

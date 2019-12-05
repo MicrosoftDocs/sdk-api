@@ -1,19 +1,17 @@
 ---
 UID: NF:powersetting.PowerSetActiveScheme
 title: PowerSetActiveScheme function (powersetting.h)
-
 description: Sets the active power scheme for the current user.
 old-location: base\powersetactivescheme.htm
 tech.root: power
 ms.assetid: e56bc3f4-2141-4be7-8479-12f8d59971af
-
 ms.date: 12/05/2018
 ms.keywords: PowerSetActiveScheme, PowerSetActiveScheme function, base.powersetactivescheme, powersetting/PowerSetActiveScheme, powrprof/PowerSetActiveScheme
 ms.topic: function
-f1_keywords: 
- - "powersetting/PowerSetActiveScheme"
+f1_keywords:
+- powersetting/PowerSetActiveScheme
 dev_langs:
- - c++
+- c++
 req.header: powersetting.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: PowrProf.lib
 req.dll: PowrProf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - PowrProf.dll
- - API-MS-Win-power-setting-l1-1-0.dll
+- PowrProf.dll
+- API-MS-Win-power-setting-l1-1-0.dll
 api_name:
- - PowerSetActiveScheme
+- PowerSetActiveScheme
 targetos: Windows
 req.typenames: 
 req.redist: 

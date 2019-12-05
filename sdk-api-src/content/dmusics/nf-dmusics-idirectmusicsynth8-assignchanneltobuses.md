@@ -1,19 +1,17 @@
 ---
 UID: NF:dmusics.IDirectMusicSynth8.AssignChannelToBuses
 title: IDirectMusicSynth8::AssignChannelToBuses (dmusics.h)
-
 description: AssignChannelToBuses is unsupported and may be altered or unavailable in the future.
 old-location: audio\idirectmusicsynth8_assignchanneltobuses.htm
 tech.root: audio
 ms.assetid: 311C64D2-2455-4A1D-98F1-13313011CDB3
-
 ms.date: 12/05/2018
 ms.keywords: AssignChannelToBuses, AssignChannelToBuses method [Audio Devices], AssignChannelToBuses method [Audio Devices],IDirectMusicSynth8 interface, IDirectMusicSynth8 interface [Audio Devices],AssignChannelToBuses method, IDirectMusicSynth8.AssignChannelToBuses, IDirectMusicSynth8::AssignChannelToBuses, audio.idirectmusicsynth8_assignchanneltobuses, dmusics/IDirectMusicSynth8::AssignChannelToBuses
 ms.topic: method
-f1_keywords: 
- - "dmusics/IDirectMusicSynth8.AssignChannelToBuses"
+f1_keywords:
+- dmusics/IDirectMusicSynth8.AssignChannelToBuses
 dev_langs:
- - c++
+- c++
 req.header: dmusics.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dmusics.h
+- Dmusics.h
 api_name:
- - IDirectMusicSynth8.AssignChannelToBuses
+- IDirectMusicSynth8.AssignChannelToBuses
 targetos: Windows
 req.typenames: 
 req.redist: 

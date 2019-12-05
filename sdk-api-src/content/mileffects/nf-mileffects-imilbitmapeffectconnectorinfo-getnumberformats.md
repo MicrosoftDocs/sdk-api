@@ -1,19 +1,17 @@
 ---
 UID: NF:mileffects.IMILBitmapEffectConnectorInfo.GetNumberFormats
 title: IMILBitmapEffectConnectorInfo::GetNumberFormats (mileffects.h)
-
 description: Retrieves the number of pixel formats supported by the pin.
 old-location: wibe\_wibe_imilbitmapeffectconnectorinfo_getnumberformats.htm
 tech.root: wibe
 ms.assetid: VS|wibe|~\wibelh\reference\ifaces\imilbitmapeffectconnectorinfo\getnumberformats.htm
-
 ms.date: 12/05/2018
 ms.keywords: GetNumberFormats, GetNumberFormats method [WPF Bitmap Effects], GetNumberFormats method [WPF Bitmap Effects],IMILBitmapEffectConnectorInfo interface, IMILBitmapEffectConnectorInfo interface [WPF Bitmap Effects],GetNumberFormats method, IMILBitmapEffectConnectorInfo.GetNumberFormats, IMILBitmapEffectConnectorInfo::GetNumberFormats, _wibe_imilbitmapeffectconnectorinfo_getnumberformats, mileffects/IMILBitmapEffectConnectorInfo::GetNumberFormats, wibe._wibe_imilbitmapeffectconnectorinfo_getnumberformats
 ms.topic: method
-f1_keywords: 
- - "mileffects/IMILBitmapEffectConnectorInfo.GetNumberFormats"
+f1_keywords:
+- mileffects/IMILBitmapEffectConnectorInfo.GetNumberFormats
 dev_langs:
- - c++
+- c++
 req.header: mileffects.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mileffects.h
+- Mileffects.h
 api_name:
- - IMILBitmapEffectConnectorInfo.GetNumberFormats
+- IMILBitmapEffectConnectorInfo.GetNumberFormats
 targetos: Windows
 req.typenames: 
 req.redist: Microsoft .Net 3.0

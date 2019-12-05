@@ -1,19 +1,17 @@
 ---
 UID: NF:vdshwprv.IVdsLunControllerPorts.QueryActiveControllerPorts
 title: IVdsLunControllerPorts::QueryActiveControllerPorts (vdshwprv.h)
-
 description: Returns an enumeration of currently active controller ports.
 old-location: base\ivdsluncontrollerports_queryactivecontrollerports.htm
 tech.root: VDS
 ms.assetid: 0a6f34c6-f333-4abf-ad37-b7756b125045
-
 ms.date: 12/05/2018
 ms.keywords: IVdsLunControllerPorts interface,QueryActiveControllerPorts method, IVdsLunControllerPorts.QueryActiveControllerPorts, IVdsLunControllerPorts::QueryActiveControllerPorts, QueryActiveControllerPorts, QueryActiveControllerPorts method, QueryActiveControllerPorts method,IVdsLunControllerPorts interface, base.ivdsluncontrollerports_queryactivecontrollerports, vds/IVdsLunControllerPorts::QueryActiveControllerPorts, vdshwprv/IVdsLunControllerPorts::QueryActiveControllerPorts
 ms.topic: method
-f1_keywords: 
- - "vdshwprv/IVdsLunControllerPorts.QueryActiveControllerPorts"
+f1_keywords:
+- vdshwprv/IVdsLunControllerPorts.QueryActiveControllerPorts
 dev_langs:
- - c++
+- c++
 req.header: vdshwprv.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Vds.h
- - VdsHwPrv.h
+- Vds.h
+- VdsHwPrv.h
 api_name:
- - IVdsLunControllerPorts.QueryActiveControllerPorts
+- IVdsLunControllerPorts.QueryActiveControllerPorts
 targetos: Windows
 req.typenames: 
 req.redist: VDS 1.1

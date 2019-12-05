@@ -1,19 +1,17 @@
 ---
 UID: NE:codecapi.eAVEncDDAtoDConverterType
 title: eAVEncDDAtoDConverterType (codecapi.h)
-
 description: Specifies the type of analog-to-digital (A/D) conversion for a Dolby Digital audio stream. This enumeration is used with the AVEncDDAtoDConverterType property.
 old-location: dshow\eavencddatodconvertertype.htm
 tech.root: DirectShow
 ms.assetid: 74f7a54a-dae8-46d0-bc99-c42fa548f4f1
-
 ms.date: 12/05/2018
 ms.keywords: codecapi/eAVEncDDAtoDConverterType, codecapi/eAVEncDDAtoDConverterType_HDCD, codecapi/eAVEncDDAtoDConverterType_Standard, dshow.eavencddatodconvertertype, eAVEncDDAtoDConverterType, eAVEncDDAtoDConverterType enumeration [DirectShow], eAVEncDDAtoDConverterType_HDCD, eAVEncDDAtoDConverterType_Standard
 ms.topic: enum
-f1_keywords: 
- - "codecapi/eAVEncDDAtoDConverterType"
+f1_keywords:
+- codecapi/eAVEncDDAtoDConverterType
 dev_langs:
- - c++
+- c++
 req.header: codecapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - codecapi.h
+- codecapi.h
 api_name:
- - eAVEncDDAtoDConverterType
+- eAVEncDDAtoDConverterType
 targetos: Windows
 req.typenames: 
 req.redist: 

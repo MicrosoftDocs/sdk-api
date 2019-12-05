@@ -1,19 +1,17 @@
 ---
 UID: NF:tom.ITextPara.SetKeepWithNext
 title: ITextPara::SetKeepWithNext (tom.h)
-
 description: Controls whether page breaks are allowed between the paragraphs in a range.
 old-location: controls\ITextPara_SetKeepWithNext.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\setkeepwithnext.htm
-
 ms.date: 12/05/2018
 ms.keywords: ITextPara interface [Windows Controls],SetKeepWithNext method, ITextPara.SetKeepWithNext, ITextPara::SetKeepWithNext, SetKeepWithNext, SetKeepWithNext method [Windows Controls], SetKeepWithNext method [Windows Controls],ITextPara interface, _win32_ITextPara_SetKeepWithNext, _win32_ITextPara_SetKeepWithNext_cpp, controls.ITextPara_SetKeepWithNext, controls._win32_ITextPara_SetKeepWithNext, tom/ITextPara::SetKeepWithNext
 ms.topic: method
-f1_keywords: 
- - "tom/ITextPara.SetKeepWithNext"
+f1_keywords:
+- tom/ITextPara.SetKeepWithNext
 dev_langs:
- - c++
+- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msftedit.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msftedit.dll
+- Msftedit.dll
 api_name:
- - ITextPara.SetKeepWithNext
+- ITextPara.SetKeepWithNext
 targetos: Windows
 req.typenames: 
 req.redist: 

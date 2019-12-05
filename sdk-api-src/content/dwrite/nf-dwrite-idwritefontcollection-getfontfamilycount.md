@@ -1,19 +1,17 @@
 ---
 UID: NF:dwrite.IDWriteFontCollection.GetFontFamilyCount
 title: IDWriteFontCollection::GetFontFamilyCount (dwrite.h)
-
 description: Gets the number of font families in the collection.
 old-location: directwrite\IDWriteFontCollection_GetFontFamilyCount.htm
 tech.root: DirectWrite
 ms.assetid: 82b6409a-6f6c-4b8d-9c48-916f1f7f3750
-
 ms.date: 12/05/2018
 ms.keywords: GetFontFamilyCount, GetFontFamilyCount method [Direct Write], GetFontFamilyCount method [Direct Write],IDWriteFontCollection interface, IDWriteFontCollection interface [Direct Write],GetFontFamilyCount method, IDWriteFontCollection.GetFontFamilyCount, IDWriteFontCollection::GetFontFamilyCount, directwrite.IDWriteFontCollection_GetFontFamilyCount, dwrite/IDWriteFontCollection::GetFontFamilyCount
 ms.topic: method
-f1_keywords: 
- - "dwrite/IDWriteFontCollection.GetFontFamilyCount"
+f1_keywords:
+- dwrite/IDWriteFontCollection.GetFontFamilyCount
 dev_langs:
- - c++
+- c++
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dwrite.lib
 req.dll: Dwrite.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dwrite.dll
+- dwrite.dll
 api_name:
- - IDWriteFontCollection.GetFontFamilyCount
+- IDWriteFontCollection.GetFontFamilyCount
 targetos: Windows
 req.typenames: 
 req.redist: 

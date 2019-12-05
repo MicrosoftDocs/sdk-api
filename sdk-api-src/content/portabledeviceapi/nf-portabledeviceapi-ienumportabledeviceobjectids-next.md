@@ -1,19 +1,17 @@
 ---
 UID: NF:portabledeviceapi.IEnumPortableDeviceObjectIDs.Next
 title: IEnumPortableDeviceObjectIDs::Next (portabledeviceapi.h)
-
 description: The Next method retrieves the next one or more object IDs in the enumeration sequence.
 old-location: wpdsdk\ienumportabledeviceobjectids_next.htm
 tech.root: wpd_sdk
 ms.assetid: 0a850b86-aeba-44b7-a686-9f3652a4c4ba
-
 ms.date: 12/05/2018
 ms.keywords: IEnumPortableDeviceObjectIDs interface [Windows Portable Devices SDK],Next method, IEnumPortableDeviceObjectIDs.Next, IEnumPortableDeviceObjectIDs::Next, IEnumPortableDeviceObjectIDsNext, Next, Next method [Windows Portable Devices SDK], Next method [Windows Portable Devices SDK],IEnumPortableDeviceObjectIDs interface, portabledeviceapi/IEnumPortableDeviceObjectIDs::Next, wpdsdk.ienumportabledeviceobjectids_next
 ms.topic: method
-f1_keywords: 
- - "portabledeviceapi/IEnumPortableDeviceObjectIDs.Next"
+f1_keywords:
+- portabledeviceapi/IEnumPortableDeviceObjectIDs.Next
 dev_langs:
- - c++
+- c++
 req.header: portabledeviceapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: PortableDeviceGUIDs.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - PortableDeviceGUIDs.lib
- - PortableDeviceGUIDs.dll
+- PortableDeviceGUIDs.lib
+- PortableDeviceGUIDs.dll
 api_name:
- - IEnumPortableDeviceObjectIDs.Next
+- IEnumPortableDeviceObjectIDs.Next
 targetos: Windows
 req.typenames: 
 req.redist: 

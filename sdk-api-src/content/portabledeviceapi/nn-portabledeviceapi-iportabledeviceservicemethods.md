@@ -1,19 +1,17 @@
 ---
 UID: NN:portabledeviceapi.IPortableDeviceServiceMethods
 title: IPortableDeviceServiceMethods (portabledeviceapi.h)
-
 description: Invokes, or cancels invocation of, a method on a service.
 old-location: wpdsdk\iportabledeviceservicemethods.htm
 tech.root: wpd_sdk
 ms.assetid: 9d233dea-91b6-4358-830c-6abe466264e5
-
 ms.date: 12/05/2018
 ms.keywords: IPortableDeviceServiceMethods, IPortableDeviceServiceMethods interface [Windows Portable Devices SDK], IPortableDeviceServiceMethods interface [Windows Portable Devices SDK],described, portabledeviceapi/IPortableDeviceServiceMethods, wpdsdk.iportabledeviceservicemethods
 ms.topic: interface
-f1_keywords: 
- - "portabledeviceapi/IPortableDeviceServiceMethods"
+f1_keywords:
+- portabledeviceapi/IPortableDeviceServiceMethods
 dev_langs:
- - c++
+- c++
 req.header: portabledeviceapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - PortableDeviceAPI.h
+- PortableDeviceAPI.h
 api_name:
- - IPortableDeviceServiceMethods
+- IPortableDeviceServiceMethods
 targetos: Windows
 req.typenames: 
 req.redist: 

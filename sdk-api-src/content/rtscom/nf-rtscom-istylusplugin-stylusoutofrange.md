@@ -1,19 +1,17 @@
 ---
 UID: NF:rtscom.IStylusPlugin.StylusOutOfRange
 title: IStylusPlugin::StylusOutOfRange (rtscom.h)
-
 description: Notifies the implementing plug-in that the stylus has left the detection range of the digitizer.
 old-location: tablet\istylusplugin_stylusoutofrange.htm
 tech.root: tablet
 ms.assetid: fd662c32-c226-4dbb-807a-3e560452ef15
-
 ms.date: 12/05/2018
 ms.keywords: IStylusPlugin interface [Tablet PC],StylusOutOfRange method, IStylusPlugin.StylusOutOfRange, IStylusPlugin::StylusOutOfRange, StylusOutOfRange, StylusOutOfRange method [Tablet PC], StylusOutOfRange method [Tablet PC],IStylusPlugin interface, fd662c32-c226-4dbb-807a-3e560452ef15, rtscom/IStylusPlugin::StylusOutOfRange, tablet.istylusplugin_stylusoutofrange
 ms.topic: method
-f1_keywords: 
- - "rtscom/IStylusPlugin.StylusOutOfRange"
+f1_keywords:
+- rtscom/IStylusPlugin.StylusOutOfRange
 dev_langs:
- - c++
+- c++
 req.header: rtscom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: RTSCom.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - RTSCom.dll
+- RTSCom.dll
 api_name:
- - IStylusPlugin.StylusOutOfRange
+- IStylusPlugin.StylusOutOfRange
 targetos: Windows
 req.typenames: 
 req.redist: 

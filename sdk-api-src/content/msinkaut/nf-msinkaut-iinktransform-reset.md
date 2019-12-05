@@ -1,19 +1,17 @@
 ---
 UID: NF:msinkaut.IInkTransform.Reset
 title: IInkTransform::Reset (msinkaut.h)
-
 description: Resets the transform to its default state, the identity transform.
 old-location: tablet\inktransform_reset.htm
 tech.root: tablet
 ms.assetid: ea593b1c-0986-4969-8f6f-726987b7c4a6
-
 ms.date: 12/05/2018
 ms.keywords: IInkTransform interface [Tablet PC],Reset method, IInkTransform.Reset, IInkTransform::Reset, Reset, Reset method [Tablet PC], Reset method [Tablet PC],IInkTransform interface, ea593b1c-0986-4969-8f6f-726987b7c4a6, msinkaut/IInkTransform::Reset, tablet.inktransform_reset
 ms.topic: method
-f1_keywords: 
- - "msinkaut/IInkTransform.Reset"
+f1_keywords:
+- msinkaut/IInkTransform.Reset
 dev_langs:
- - c++
+- c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: InkObj.dll
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - InkObj.dll
- - InkObj.dll.dll
+- InkObj.dll
+- InkObj.dll.dll
 api_name:
- - IInkTransform.Reset
+- IInkTransform.Reset
 targetos: Windows
 req.typenames: 
 req.redist: 

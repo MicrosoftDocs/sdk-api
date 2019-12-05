@@ -1,19 +1,17 @@
 ---
 UID: NF:libloaderapi.AddDllDirectory
 title: AddDllDirectory function (libloaderapi.h)
-
 description: Adds a directory to the process DLL search path.
 old-location: base\adddlldirectory.htm
 tech.root: Dlls
 ms.assetid: 7eb49bdf-58f9-4520-876b-c8b69bf26b8a
-
 ms.date: 12/05/2018
 ms.keywords: AddDllDirectory, AddDllDirectory function, base.adddlldirectory, libloaderapi/AddDllDirectory
 ms.topic: function
-f1_keywords: 
- - "libloaderapi/AddDllDirectory"
+f1_keywords:
+- libloaderapi/AddDllDirectory
 dev_langs:
- - c++
+- c++
 req.header: libloaderapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,21 +30,21 @@ req.lib:
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-LibraryLoader-l1-1-0.dll
- - KernelBase.dll
- - API-MS-Win-Core-LibraryLoader-l1-1-1.dll
- - API-MS-Win-Core-LibraryLoader-l1-2-0.dll
- - MinKernelBase.dll
- - API-MS-Win-Core-Libraryloader-l1-2-1.dll
- - API-MS-Win-Core-LibraryLoader-L1-2-2.dll
+- Kernel32.dll
+- API-MS-Win-Core-LibraryLoader-l1-1-0.dll
+- KernelBase.dll
+- API-MS-Win-Core-LibraryLoader-l1-1-1.dll
+- API-MS-Win-Core-LibraryLoader-l1-2-0.dll
+- MinKernelBase.dll
+- API-MS-Win-Core-Libraryloader-l1-2-1.dll
+- API-MS-Win-Core-LibraryLoader-L1-2-2.dll
 api_name:
- - AddDllDirectory
+- AddDllDirectory
 targetos: Windows
 req.typenames: 
 req.redist: 

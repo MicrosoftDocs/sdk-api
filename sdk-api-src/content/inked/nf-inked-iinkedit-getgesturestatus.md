@@ -1,19 +1,17 @@
 ---
 UID: NF:inked.IInkEdit.GetGestureStatus
 title: IInkEdit::GetGestureStatus (inked.h)
-
 description: Indicates whether the InkEdit control is interested in a particular application gesture.
 old-location: tablet\inkedit_getgesturestatus.htm
 tech.root: tablet
 ms.assetid: 0992dbd2-bd32-4af6-abd1-66027dd2b30f
-
 ms.date: 12/05/2018
 ms.keywords: 0992dbd2-bd32-4af6-abd1-66027dd2b30f, GetGestureStatus, GetGestureStatus method [Tablet PC], GetGestureStatus method [Tablet PC],IInkEdit interface, IInkEdit interface [Tablet PC],GetGestureStatus method, IInkEdit.GetGestureStatus, IInkEdit::GetGestureStatus, inked/IInkEdit::GetGestureStatus, tablet.inkedit_getgesturestatus
 ms.topic: method
-f1_keywords: 
- - "inked/IInkEdit.GetGestureStatus"
+f1_keywords:
+- inked/IInkEdit.GetGestureStatus
 dev_langs:
- - c++
+- c++
 req.header: inked.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: InkEd.dll
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - InkEd.dll
- - InkEd.dll.dll
+- InkEd.dll
+- InkEd.dll.dll
 api_name:
- - IInkEdit.GetGestureStatus
+- IInkEdit.GetGestureStatus
 targetos: Windows
 req.typenames: 
 req.redist: 

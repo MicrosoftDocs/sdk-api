@@ -1,19 +1,17 @@
 ---
 UID: NE:mbnapi.MBN_SIGNAL_CONSTANTS
 title: MBN_SIGNAL_CONSTANTS (mbnapi.h)
-
 description: THE MBN_SIGNAL_CONSTANTS enumerated type contains specific values used by IMbnSignal interface operations.
 old-location: mbn\mbn_signal_constants.htm
 tech.root: mbn
 ms.assetid: 0f790b85-5f01-41a8-940d-b4eda562bf75
-
 ms.date: 12/05/2018
 ms.keywords: MBN_ERROR_RATE_UNKNOWN, MBN_RSSI_DEFAULT, MBN_RSSI_DISABLE, MBN_RSSI_UNKNOWN, MBN_SIGNAL_CONSTANTS, MBN_SIGNAL_CONSTANTS enumeration [Microsoft Broadband Networks], mbn.mbn_signal_constants, mbnapi/MBN_ERROR_RATE_UNKNOWN, mbnapi/MBN_RSSI_DEFAULT, mbnapi/MBN_RSSI_DISABLE, mbnapi/MBN_RSSI_UNKNOWN, mbnapi/MBN_SIGNAL_CONSTANTS
 ms.topic: enum
-f1_keywords: 
- - "mbnapi/MBN_SIGNAL_CONSTANTS"
+f1_keywords:
+- mbnapi/MBN_SIGNAL_CONSTANTS
 dev_langs:
- - c++
+- c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - mbnapi.h
+- mbnapi.h
 api_name:
- - MBN_SIGNAL_CONSTANTS
+- MBN_SIGNAL_CONSTANTS
 targetos: Windows
 req.typenames: MBN_SIGNAL_CONSTANTS
 req.redist: 

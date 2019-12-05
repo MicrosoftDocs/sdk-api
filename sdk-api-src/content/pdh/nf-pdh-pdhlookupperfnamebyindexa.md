@@ -1,19 +1,17 @@
 ---
 UID: NF:pdh.PdhLookupPerfNameByIndexA
 title: PdhLookupPerfNameByIndexA function (pdh.h)
-
 description: Returns the performance object name or counter name corresponding to the specified index.
 old-location: perf\pdhlookupperfnamebyindex.htm
 tech.root: perfctrs
 ms.assetid: 6d5e1465-296b-4d8c-b0cb-aefdffb8539e
-
 ms.date: 12/05/2018
 ms.keywords: PdhLookupPerfNameByIndex, PdhLookupPerfNameByIndex function [Perf], PdhLookupPerfNameByIndexA, PdhLookupPerfNameByIndexW, _win32_pdhlookupperfnamebyindex, base.pdhlookupperfnamebyindex, pdh/PdhLookupPerfNameByIndex, pdh/PdhLookupPerfNameByIndexA, pdh/PdhLookupPerfNameByIndexW, perf.pdhlookupperfnamebyindex
 ms.topic: function
-f1_keywords: 
- - "pdh/PdhLookupPerfNameByIndex"
+f1_keywords:
+- pdh/PdhLookupPerfNameByIndex
 dev_langs:
- - c++
+- c++
 req.header: pdh.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Pdh.lib
 req.dll: Pdh.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Pdh.dll
+- Pdh.dll
 api_name:
- - PdhLookupPerfNameByIndex
- - PdhLookupPerfNameByIndexA
- - PdhLookupPerfNameByIndexW
+- PdhLookupPerfNameByIndex
+- PdhLookupPerfNameByIndexA
+- PdhLookupPerfNameByIndexW
 targetos: Windows
 req.typenames: 
 req.redist: 

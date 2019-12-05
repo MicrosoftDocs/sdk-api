@@ -1,19 +1,17 @@
 ---
 UID: NF:fileapi.LocalFileTimeToFileTime
 title: LocalFileTimeToFileTime function (fileapi.h)
-
 description: Converts a local file time to a file time based on the Coordinated Universal Time (UTC).
 old-location: base\localfiletimetofiletime.htm
 tech.root: SysInfo
 ms.assetid: 491e4724-8e6f-4155-b427-15cd7968e2da
-
 ms.date: 12/05/2018
 ms.keywords: LocalFileTimeToFileTime, LocalFileTimeToFileTime function, _win32_localfiletimetofiletime, base.localfiletimetofiletime, fileapi/LocalFileTimeToFileTime, winbase/LocalFileTimeToFileTime
 ms.topic: function
-f1_keywords: 
- - "fileapi/LocalFileTimeToFileTime"
+f1_keywords:
+- fileapi/LocalFileTimeToFileTime
 dev_langs:
- - c++
+- c++
 req.header: fileapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,21 +30,21 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-File-l1-1-0.dll
- - KernelBase.dll
- - API-MS-Win-Core-File-l1-2-0.dll
- - API-MS-Win-Core-File-l1-2-1.dll
- - API-MS-Win-Core-File-l1-2-2.dll
- - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
- - MinKernelBase.dll
+- Kernel32.dll
+- API-MS-Win-Core-File-l1-1-0.dll
+- KernelBase.dll
+- API-MS-Win-Core-File-l1-2-0.dll
+- API-MS-Win-Core-File-l1-2-1.dll
+- API-MS-Win-Core-File-l1-2-2.dll
+- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+- MinKernelBase.dll
 api_name:
- - LocalFileTimeToFileTime
+- LocalFileTimeToFileTime
 targetos: Windows
 req.typenames: 
 req.redist: 

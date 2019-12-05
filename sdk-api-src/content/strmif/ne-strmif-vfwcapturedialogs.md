@@ -1,19 +1,17 @@
 ---
 UID: NE:strmif.VfwCaptureDialogs
 title: VfwCaptureDialogs (strmif.h)
-
 description: Specifies a dialog box that might exist in a Video for Windows capture driver.
 old-location: dshow\vfwcapturedialogs.htm
 tech.root: DirectShow
 ms.assetid: 0465d887-6452-4a67-9f52-a459620d12d2
-
 ms.date: 12/05/2018
 ms.keywords: VfwCaptureDialog_Display, VfwCaptureDialog_Format, VfwCaptureDialog_Source, VfwCaptureDialogs, VfwCaptureDialogs enumeration [DirectShow], VfwCaptureDialogsEnumeration, dshow.vfwcapturedialogs, strmif/VfwCaptureDialog_Display, strmif/VfwCaptureDialog_Format, strmif/VfwCaptureDialog_Source, strmif/VfwCaptureDialogs
 ms.topic: enum
-f1_keywords: 
- - "strmif/VfwCaptureDialogs"
+f1_keywords:
+- strmif/VfwCaptureDialogs
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - strmif.h
+- strmif.h
 api_name:
- - VfwCaptureDialogs
+- VfwCaptureDialogs
 targetos: Windows
 req.typenames: VfwCaptureDialogs
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:structuredquery.ISchemaProvider.Entities
 title: ISchemaProvider::Entities (structuredquery.h)
-
 description: Retrieves an enumeration of IEntity objects with one entry for each entity in the loaded schema.
 old-location: search\_search_ISchemaProvider_Entities.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\ischemaprovider\entities.htm
-
 ms.date: 12/05/2018
 ms.keywords: Entities, Entities method [search], Entities method [search],ISchemaProvider interface, ISchemaProvider interface [search],Entities method, ISchemaProvider.Entities, ISchemaProvider::Entities, _search_ISchemaProvider_Entities, search._search_ISchemaProvider_Entities, structuredquery/ISchemaProvider::Entities
 ms.topic: method
-f1_keywords: 
- - "structuredquery/ISchemaProvider.Entities"
+f1_keywords:
+- structuredquery/ISchemaProvider.Entities
 dev_langs:
- - c++
+- c++
 req.header: structuredquery.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Structuredquery.h
+- Structuredquery.h
 api_name:
- - ISchemaProvider.Entities
+- ISchemaProvider.Entities
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0

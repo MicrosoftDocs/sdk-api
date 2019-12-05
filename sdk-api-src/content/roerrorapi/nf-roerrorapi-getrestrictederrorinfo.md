@@ -1,19 +1,17 @@
 ---
 UID: NF:roerrorapi.GetRestrictedErrorInfo
 title: GetRestrictedErrorInfo function
-
 description: Gets the restricted error information object set by a previous call to SetRestrictedErrorInfo in the current logical thread.
 old-location: winrt\getrestrictederrorinfo.htm
 tech.root: WinRT
 ms.assetid: CA459E57-90D5-44F6-A896-4E1C2FA0DC57
-
 ms.date: 12/5/2018
 ms.keywords: GetRestrictedErrorInfo, GetRestrictedErrorInfo function [Windows Runtime], roerrorapi/GetRestrictedErrorInfo, winrt.getrestrictederrorinfo
 ms.topic: function
-f1_keywords: 
- - "roerrorapi/GetRestrictedErrorInfo"
+f1_keywords:
+- roerrorapi/GetRestrictedErrorInfo
 dev_langs:
- - c++
+- c++
 req.header: roerrorapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: Combase.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - combase.dll
- - API-MS-Win-Core-Winrt-error-l1-1-0.dll
- - API-MS-Win-Core-Winrt-error-l1-1-1.dll
+- combase.dll
+- API-MS-Win-Core-Winrt-error-l1-1-0.dll
+- API-MS-Win-Core-Winrt-error-l1-1-1.dll
 api_name:
- - GetRestrictedErrorInfo
+- GetRestrictedErrorInfo
 targetos: Windows
 req.typenames: 
 req.redist: 

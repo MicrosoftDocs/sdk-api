@@ -1,19 +1,17 @@
 ---
 UID: NN:mmc.IViewExtensionCallback
 title: IViewExtensionCallback (mmc.h)
-
 description: The IViewExtensionCallback interface is used to add a view to the result pane.
 old-location: mmc\iviewextensioncallback.htm
 tech.root: mmc
 ms.assetid: 1854ab01-e518-4ff4-a1d5-d1e03b348992
-
 ms.date: 12/05/2018
 ms.keywords: IViewExtensionCallback, IViewExtensionCallback interface [MMC], IViewExtensionCallback interface [MMC],described, _slate_iviewextensioncallback, mmc.iviewextensioncallback, mmc/IViewExtensionCallback
 ms.topic: interface
-f1_keywords: 
- - "mmc/IViewExtensionCallback"
+f1_keywords:
+- mmc/IViewExtensionCallback
 dev_langs:
- - c++
+- c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Mmc.lib
 req.dll: Mmcndmgr.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mmcndmgr.dll
+- Mmcndmgr.dll
 api_name:
- - IViewExtensionCallback
+- IViewExtensionCallback
 targetos: Windows
 req.typenames: 
 req.redist: 

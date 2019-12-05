@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d10_1shader.ID3D10ShaderReflection1.IsSampleFrequencyShader
 title: ID3D10ShaderReflection1::IsSampleFrequencyShader (d3d10_1shader.h)
-
 description: Indicates whether a pixel shader is intended to run a pixel frequency or sample frequency.
 old-location: direct3d10\id3d10shaderreflection1_issamplefrequencyshader.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10shaderreflection1_issamplefrequencyshader.htm
-
 ms.date: 12/05/2018
 ms.keywords: 97227f17-7b34-25ea-a5ce-d0eeaad6f201, ID3D10ShaderReflection1 interface [Direct3D 10],IsSampleFrequencyShader method, ID3D10ShaderReflection1.IsSampleFrequencyShader, ID3D10ShaderReflection1::IsSampleFrequencyShader, IsSampleFrequencyShader, IsSampleFrequencyShader method [Direct3D 10], IsSampleFrequencyShader method [Direct3D 10],ID3D10ShaderReflection1 interface, d3d10_1shader/ID3D10ShaderReflection1::IsSampleFrequencyShader, direct3d10.id3d10shaderreflection1_issamplefrequencyshader
 ms.topic: method
-f1_keywords: 
- - "d3d10_1shader/ID3D10ShaderReflection1.IsSampleFrequencyShader"
+f1_keywords:
+- d3d10_1shader/ID3D10ShaderReflection1.IsSampleFrequencyShader
 dev_langs:
- - c++
+- c++
 req.header: d3d10_1shader.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D10_1Shader.h
+- D3D10_1Shader.h
 api_name:
- - ID3D10ShaderReflection1.IsSampleFrequencyShader
+- ID3D10ShaderReflection1.IsSampleFrequencyShader
 targetos: Windows
 req.typenames: 
 req.redist: 

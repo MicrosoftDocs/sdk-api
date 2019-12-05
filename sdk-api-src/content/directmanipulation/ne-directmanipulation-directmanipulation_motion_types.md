@@ -1,19 +1,17 @@
 ---
 UID: NE:directmanipulation.DIRECTMANIPULATION_MOTION_TYPES
 title: DIRECTMANIPULATION_MOTION_TYPES (directmanipulation.h)
-
 description: Defines the Direct Manipulation motion type.
 old-location: directmanipulation\directmanipulation_motion_types.htm
 tech.root: directmanipulation
 ms.assetid: a0b4da55-3ebb-4281-a372-4bc6b91e6789
-
 ms.date: 12/05/2018
 ms.keywords: DIRECTMANIPULATION_MOTION_ALL, DIRECTMANIPULATION_MOTION_CENTERX, DIRECTMANIPULATION_MOTION_CENTERY, DIRECTMANIPULATION_MOTION_NONE, DIRECTMANIPULATION_MOTION_TRANSLATEX, DIRECTMANIPULATION_MOTION_TRANSLATEY, DIRECTMANIPULATION_MOTION_TYPES, DIRECTMANIPULATION_MOTION_TYPES enumeration [Direct Manipulation], DIRECTMANIPULATION_MOTION_ZOOM, directmanipulation.directmanipulation_motion_types, directmanipulation/DIRECTMANIPULATION_MOTION_ALL, directmanipulation/DIRECTMANIPULATION_MOTION_CENTERX, directmanipulation/DIRECTMANIPULATION_MOTION_CENTERY, directmanipulation/DIRECTMANIPULATION_MOTION_NONE, directmanipulation/DIRECTMANIPULATION_MOTION_TRANSLATEX, directmanipulation/DIRECTMANIPULATION_MOTION_TRANSLATEY, directmanipulation/DIRECTMANIPULATION_MOTION_TYPES, directmanipulation/DIRECTMANIPULATION_MOTION_ZOOM
 ms.topic: enum
-f1_keywords: 
- - "directmanipulation/DIRECTMANIPULATION_MOTION_TYPES"
+f1_keywords:
+- directmanipulation/DIRECTMANIPULATION_MOTION_TYPES
 dev_langs:
- - c++
+- c++
 req.header: directmanipulation.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - directmanipulation.h
+- directmanipulation.h
 api_name:
- - DIRECTMANIPULATION_MOTION_TYPES
+- DIRECTMANIPULATION_MOTION_TYPES
 targetos: Windows
 req.typenames: DIRECTMANIPULATION_MOTION_TYPES
 req.redist: 

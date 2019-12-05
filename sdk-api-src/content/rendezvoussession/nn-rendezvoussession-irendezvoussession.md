@@ -1,19 +1,17 @@
 ---
 UID: NN:rendezvoussession.IRendezvousSession
 title: IRendezvousSession (rendezvoussession.h)
-
 description: Exposes methods that send data about the session and that can terminate it.
 old-location: remoteassist\remoteassist_IRendezvousSession.htm
 tech.root: remoteassist
 ms.assetid: VS|remoteassist|~\remoteassist\reference\ifaces\irendezvoussession\iRendezvousSession.htm
-
 ms.date: 12/05/2018
 ms.keywords: IRendezvousSession, IRendezvousSession interface [Remote Assistance], IRendezvousSession interface [Remote Assistance],described, remoteassist.remoteassist_IRendezvousSession, remoteassist_IRendezvousSession, rendezvoussession/IRendezvousSession
 ms.topic: interface
-f1_keywords: 
- - "rendezvoussession/IRendezvousSession"
+f1_keywords:
+- rendezvoussession/IRendezvousSession
 dev_langs:
- - c++
+- c++
 req.header: rendezvoussession.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - RendezvousSession.tlb
+- RendezvousSession.tlb
 api_name:
- - IRendezvousSession
+- IRendezvousSession
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:magnification.MagGetFullscreenTransform
 title: MagGetFullscreenTransform function (magnification.h)
-
 description: Retrieves the magnification settings for the full-screen magnifier.
 old-location: magapi\magapi_maggetfullscreentransform.htm
 tech.root: magapi
 ms.assetid: 6270047A-8823-41D6-AD57-72A7E60F3696
-
 ms.date: 12/05/2018
 ms.keywords: MagGetFullscreenTransform, MagGetFullscreenTransform function [Magnification API], magapi.magapi_maggetfullscreentransform, magnification/MagGetFullscreenTransform
 ms.topic: function
-f1_keywords: 
- - "magnification/MagGetFullscreenTransform"
+f1_keywords:
+- magnification/MagGetFullscreenTransform
 dev_langs:
- - c++
+- c++
 req.header: magnification.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Magnification.lib
 req.dll: Magnification.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Magnification.dll
+- Magnification.dll
 api_name:
- - MagGetFullscreenTransform
+- MagGetFullscreenTransform
 targetos: Windows
 req.typenames: 
 req.redist: 

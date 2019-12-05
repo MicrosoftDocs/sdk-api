@@ -1,19 +1,17 @@
 ---
 UID: NF:wmsdkidl.IWMReaderAdvanced2.SaveFileAs
 title: IWMReaderAdvanced2::SaveFileAs (wmsdkidl.h)
-
 description: The SaveFileAs method saves the current file.
 old-location: wmformat\iwmreaderadvanced2_savefileas.htm
 tech.root: wmformat
 ms.assetid: 97bdac1f-8830-45c0-9229-322ad72b3954
-
 ms.date: 12/05/2018
 ms.keywords: IWMReaderAdvanced2 interface [windows Media Format],SaveFileAs method, IWMReaderAdvanced2.SaveFileAs, IWMReaderAdvanced2::SaveFileAs, IWMReaderAdvanced2SaveFileAs, SaveFileAs, SaveFileAs method [windows Media Format], SaveFileAs method [windows Media Format],IWMReaderAdvanced2 interface, wmformat.iwmreaderadvanced2_savefileas, wmsdkidl/IWMReaderAdvanced2::SaveFileAs
 ms.topic: method
-f1_keywords: 
- - "wmsdkidl/IWMReaderAdvanced2.SaveFileAs"
+f1_keywords:
+- wmsdkidl/IWMReaderAdvanced2.SaveFileAs
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wmvcore.lib
- - Wmvcore.dll
- - WMStubDRM.lib
- - WMStubDRM.dll
+- Wmvcore.lib
+- Wmvcore.dll
+- WMStubDRM.lib
+- WMStubDRM.dll
 api_name:
- - IWMReaderAdvanced2.SaveFileAs
+- IWMReaderAdvanced2.SaveFileAs
 targetos: Windows
 req.typenames: 
 req.redist: 

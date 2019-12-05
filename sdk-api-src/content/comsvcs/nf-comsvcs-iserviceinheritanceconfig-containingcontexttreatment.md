@@ -1,19 +1,17 @@
 ---
 UID: NF:comsvcs.IServiceInheritanceConfig.ContainingContextTreatment
 title: IServiceInheritanceConfig::ContainingContextTreatment (comsvcs.h)
-
 description: Determines whether the containing context is based on the current context.
 old-location: cos\iserviceinheritanceconfig_containingcontexttreatment.htm
 tech.root: cossdk
 ms.assetid: 05009c50-1d39-46f7-b549-281342d07f5b
-
 ms.date: 12/05/2018
 ms.keywords: ContainingContextTreatment, ContainingContextTreatment method [COM+], ContainingContextTreatment method [COM+],IServiceInheritanceConfig interface, IServiceInheritanceConfig interface [COM+],ContainingContextTreatment method, IServiceInheritanceConfig.ContainingContextTreatment, IServiceInheritanceConfig::ContainingContextTreatment, _cos_IServiceInheritanceConfig_ContainingContextTreatment, comsvcs/IServiceInheritanceConfig::ContainingContextTreatment, cos.iserviceinheritanceconfig_containingcontexttreatment
 ms.topic: method
-f1_keywords: 
- - "comsvcs/IServiceInheritanceConfig.ContainingContextTreatment"
+f1_keywords:
+- comsvcs/IServiceInheritanceConfig.ContainingContextTreatment
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - IServiceInheritanceConfig.ContainingContextTreatment
+- IServiceInheritanceConfig.ContainingContextTreatment
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IAMDroppedFrames.GetAverageFrameSize
 title: IAMDroppedFrames::GetAverageFrameSize (strmif.h)
-
 description: The GetAverageFrameSize method retrieves the average size of the frames that the filter has captured.
 old-location: dshow\iamdroppedframes_getaverageframesize.htm
 tech.root: DirectShow
 ms.assetid: 49b63a9f-8192-4fce-8cfe-c92bd39ca2b0
-
 ms.date: 12/05/2018
 ms.keywords: GetAverageFrameSize, GetAverageFrameSize method [DirectShow], GetAverageFrameSize method [DirectShow],IAMDroppedFrames interface, IAMDroppedFrames interface [DirectShow],GetAverageFrameSize method, IAMDroppedFrames.GetAverageFrameSize, IAMDroppedFrames::GetAverageFrameSize, IAMDroppedFramesGetAverageFrameSize, dshow.iamdroppedframes_getaverageframesize, strmif/IAMDroppedFrames::GetAverageFrameSize
 ms.topic: method
-f1_keywords: 
- - "strmif/IAMDroppedFrames.GetAverageFrameSize"
+f1_keywords:
+- strmif/IAMDroppedFrames.GetAverageFrameSize
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IAMDroppedFrames.GetAverageFrameSize
+- IAMDroppedFrames.GetAverageFrameSize
 targetos: Windows
 req.typenames: 
 req.redist: 

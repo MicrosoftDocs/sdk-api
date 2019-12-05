@@ -1,19 +1,17 @@
 ---
 UID: NN:wmsdkidl.IWMReaderAdvanced
 title: IWMReaderAdvanced (wmsdkidl.h)
-
 description: A call to QueryInterface from a reader object exposes the advanced functionality described in this section.
 old-location: wmformat\iwmreaderadvanced.htm
 tech.root: wmformat
 ms.assetid: a7a20f87-6f21-4fe8-8889-1b6689daf833
-
 ms.date: 12/05/2018
 ms.keywords: IWMReaderAdvanced, IWMReaderAdvanced interface [windows Media Format], IWMReaderAdvanced interface [windows Media Format],described, IWMReaderAdvancedInterface, wmformat.iwmreaderadvanced, wmsdkidl/IWMReaderAdvanced
 ms.topic: interface
-f1_keywords: 
- - "wmsdkidl/IWMReaderAdvanced"
+f1_keywords:
+- wmsdkidl/IWMReaderAdvanced
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmsdkidl.h
+- wmsdkidl.h
 api_name:
- - IWMReaderAdvanced
+- IWMReaderAdvanced
 targetos: Windows
 req.typenames: 
 req.redist: 

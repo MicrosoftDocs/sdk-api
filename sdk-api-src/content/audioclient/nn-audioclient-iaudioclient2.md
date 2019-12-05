@@ -1,19 +1,17 @@
 ---
 UID: NN:audioclient.IAudioClient2
 title: IAudioClient2 (audioclient.h)
-
 description: The IAudioClient2 interface is derived from the IAudioClient interface, with a set of additional methods that enable a Windows Audio Session API (WASAPI) audio client to do the following:\_opt in for offloading, query stream properties, and get information from the hardware that handles offloading.The audio client can be successful in creating an offloaded stream if the underlying endpoint supports the hardware audio engine, the endpoint has been enumerated and discovered by the audio system, and there are still offload pin instances available on the endpoint.
 old-location: coreaudio\iaudioclient2.htm
 tech.root: CoreAudio
 ms.assetid: 9CE79CEB-115E-4802-A687-B2CB23E6A0E0
-
 ms.date: 12/05/2018
 ms.keywords: IAudioClient2, IAudioClient2 interface [Core Audio], IAudioClient2 interface [Core Audio],described, audioclient/IAudioClient2, coreaudio.iaudioclient2
 ms.topic: interface
-f1_keywords: 
- - "audioclient/IAudioClient2"
+f1_keywords:
+- audioclient/IAudioClient2
 dev_langs:
- - c++
+- c++
 req.header: audioclient.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Audioclient.h
+- Audioclient.h
 api_name:
- - IAudioClient2
+- IAudioClient2
 targetos: Windows
 req.typenames: 
 req.redist: 

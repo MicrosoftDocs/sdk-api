@@ -1,19 +1,17 @@
 ---
 UID: NN:mfidl.IMFVideoSampleAllocator
 title: IMFVideoSampleAllocator (mfidl.h)
-
 description: Allocates video samples for a video media sink.
 old-location: mf\imfvideosampleallocator.htm
 tech.root: medfound
 ms.assetid: bef92133-ae6c-4013-9210-5e0f0be2002c
-
 ms.date: 12/05/2018
 ms.keywords: IMFVideoSampleAllocator, IMFVideoSampleAllocator interface [Media Foundation], IMFVideoSampleAllocator interface [Media Foundation],described, bef92133-ae6c-4013-9210-5e0f0be2002c, mf.imfvideosampleallocator, mfidl/IMFVideoSampleAllocator
 ms.topic: interface
-f1_keywords: 
- - "mfidl/IMFVideoSampleAllocator"
+f1_keywords:
+- mfidl/IMFVideoSampleAllocator
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFVideoSampleAllocator
+- IMFVideoSampleAllocator
 targetos: Windows
 req.typenames: 
 req.redist: 

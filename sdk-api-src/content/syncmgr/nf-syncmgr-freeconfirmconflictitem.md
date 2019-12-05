@@ -1,19 +1,17 @@
 ---
 UID: NF:syncmgr.FreeConfirmConflictItem
 title: FreeConfirmConflictItem function (syncmgr.h)
-
 description: Frees the resources that have been allocated for a CONFIRM_CONFLICT_ITEM structure.
 old-location: shell\FreeConfirmConflictItem.htm
 tech.root: shell
 ms.assetid: 504a63e0-39e9-4228-ab3d-c34b272f8fd3
-
 ms.date: 12/05/2018
 ms.keywords: FreeConfirmConflictItem, FreeConfirmConflictItem function [Windows Shell], _shell_FreeConfirmConflictItem, shell.FreeConfirmConflictItem, syncmgr/FreeConfirmConflictItem
 ms.topic: function
-f1_keywords: 
- - "syncmgr/FreeConfirmConflictItem"
+f1_keywords:
+- syncmgr/FreeConfirmConflictItem
 dev_langs:
- - c++
+- c++
 req.header: syncmgr.h
 req.include-header: Syncmgr.idl
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: None
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - None
+- None
 api_name:
- - FreeConfirmConflictItem
+- FreeConfirmConflictItem
 targetos: Windows
 req.typenames: 
 req.redist: 

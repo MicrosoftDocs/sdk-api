@@ -2,16 +2,14 @@
 UID: NN:dwrite_3.IDWriteFontResource
 title: IDWriteFontResource
 description: Provides axis information for a font resource, and is used to create specific font face instances.
-
 tech.root: DirectWrite
-
 ms.date: 09/13/2019
 ms.keywords: IDWriteFontResource, IDWriteFontResource interface [Direct Write], IDWriteFontResource interface [Direct Write],described, directwrite.idwritefontresource, dwrite_3/IDWriteFontResource
 ms.topic: interface
 f1_keywords:
- - IDWriteFontResource
+- IDWriteFontResource
 dev_langs:
- - c++
+- c++
 targetos: Windows
 req.assembly: 
 req.construct-type: iface
@@ -28,15 +26,15 @@ req.target-min-winversvr:
 req.target-type: Windows
 req.unicode-ansi: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dwrite.lib
- - Dwrite.dll
+- Dwrite.lib
+- Dwrite.dll
 api_name:
- - IDWriteFontResource
+- IDWriteFontResource
 ---
 
 ## -description

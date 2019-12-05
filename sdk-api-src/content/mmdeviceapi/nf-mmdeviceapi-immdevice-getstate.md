@@ -1,19 +1,17 @@
 ---
 UID: NF:mmdeviceapi.IMMDevice.GetState
 title: IMMDevice::GetState (mmdeviceapi.h)
-
 description: The GetState method retrieves the current device state.
 old-location: coreaudio\immdevice_getstate.htm
 tech.root: CoreAudio
 ms.assetid: 9b50773b-241c-4a32-8ab6-85adb3f885e1
-
 ms.date: 12/05/2018
 ms.keywords: GetState, GetState method [Core Audio], GetState method [Core Audio],IMMDevice interface, IMMDevice interface [Core Audio],GetState method, IMMDevice.GetState, IMMDevice::GetState, IMMDeviceGetState, coreaudio.immdevice_getstate, mmdeviceapi/IMMDevice::GetState
 ms.topic: method
-f1_keywords: 
- - "mmdeviceapi/IMMDevice.GetState"
+f1_keywords:
+- mmdeviceapi/IMMDevice.GetState
 dev_langs:
- - c++
+- c++
 req.header: mmdeviceapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mmdeviceapi.h
+- Mmdeviceapi.h
 api_name:
- - IMMDevice.GetState
+- IMMDevice.GetState
 targetos: Windows
 req.typenames: 
 req.redist: 

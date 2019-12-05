@@ -1,19 +1,17 @@
 ---
 UID: NE:spatialaudiohrtf.SpatialAudioHrtfEnvironmentType
 title: SpatialAudioHrtfEnvironmentType (spatialaudiohrtf.h)
-
 description: Specifies the type of acoustic environment that is simulated when audio is processed for an ISpatialAudioObjectForHrtf.
 old-location: coreaudio\spatialaudiohrtfenvironmenttype.htm
 tech.root: CoreAudio
 ms.assetid: 017FC8D4-2B74-4B13-AF5B-D7FFF97A7E45
-
 ms.date: 12/05/2018
 ms.keywords: SpatialAudioHrtfEnvironmentType, SpatialAudioHrtfEnvironmentType enumeration [Core Audio], SpatialAudioHrtfEnvironment_Average, SpatialAudioHrtfEnvironment_Large, SpatialAudioHrtfEnvironment_Medium, SpatialAudioHrtfEnvironment_Outdoors, SpatialAudioHrtfEnvironment_Small, coreaudio.spatialaudiohrtfenvironmenttype, spatialaudiohrtf/SpatialAudioHrtfEnvironmentType, spatialaudiohrtf/SpatialAudioHrtfEnvironment_Average, spatialaudiohrtf/SpatialAudioHrtfEnvironment_Large, spatialaudiohrtf/SpatialAudioHrtfEnvironment_Medium, spatialaudiohrtf/SpatialAudioHrtfEnvironment_Outdoors, spatialaudiohrtf/SpatialAudioHrtfEnvironment_Small
 ms.topic: enum
-f1_keywords: 
- - "spatialaudiohrtf/SpatialAudioHrtfEnvironmentType"
+f1_keywords:
+- spatialaudiohrtf/SpatialAudioHrtfEnvironmentType
 dev_langs:
- - c++
+- c++
 req.header: spatialaudiohrtf.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - spatialaudiohrtf.h
+- spatialaudiohrtf.h
 api_name:
- - SpatialAudioHrtfEnvironmentType
+- SpatialAudioHrtfEnvironmentType
 targetos: Windows
 req.typenames: SpatialAudioHrtfEnvironmentType
 req.redist: 

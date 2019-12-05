@@ -1,19 +1,17 @@
 ---
 UID: NS:projectedfslib.PRJ_VIRTUALIZATION_INSTANCE_INFO
 title: PRJ_VIRTUALIZATION_INSTANCE_INFO (projectedfslib.h)
-
 description: Information about a virtualization instance.
 old-location: projfs\prj_virtualization_instance_info.htm
 tech.root: ProjFS
 ms.assetid: B6532FDF-F190-4C10-BF5C-96BDF477BB4A
-
 ms.date: 12/05/2018
 ms.keywords: PRJ_VIRTUALIZATION_INSTANCE_INFO, PRJ_VIRTUALIZATION_INSTANCE_INFO structure, ProjFS.prj_virtualization_instance_info, projectedfslib/PRJ_VIRTUALIZATION_INSTANCE_INFO
 ms.topic: struct
-f1_keywords: 
- - "projectedfslib/PRJ_VIRTUALIZATION_INSTANCE_INFO"
+f1_keywords:
+- projectedfslib/PRJ_VIRTUALIZATION_INSTANCE_INFO
 dev_langs:
- - c++
+- c++
 req.header: projectedfslib.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - projectedfslib.h
+- projectedfslib.h
 api_name:
- - PRJ_VIRTUALIZATION_INSTANCE_INFO
+- PRJ_VIRTUALIZATION_INSTANCE_INFO
 targetos: Windows
 req.typenames: PRJ_VIRTUALIZATION_INSTANCE_INFO
 req.redist: 

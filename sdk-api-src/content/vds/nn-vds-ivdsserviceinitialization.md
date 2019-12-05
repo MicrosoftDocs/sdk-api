@@ -1,19 +1,17 @@
 ---
 UID: NN:vds.IVdsServiceInitialization
 title: IVdsServiceInitialization (vds.h)
-
 description: This interface is reserved for system use.
 old-location: base\ivdsserviceinitialization.htm
 tech.root: VDS
 ms.assetid: f5a24acb-2b5e-44ec-a3fa-252a84777ecd
-
 ms.date: 12/05/2018
 ms.keywords: IVdsServiceInitialization, IVdsServiceInitialization interface, IVdsServiceInitialization interface,described, base.ivdsserviceinitialization, vds/IVdsServiceInitialization
 ms.topic: interface
-f1_keywords: 
- - "vds/IVdsServiceInitialization"
+f1_keywords:
+- vds/IVdsServiceInitialization
 dev_langs:
- - c++
+- c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - vds.h
+- vds.h
 api_name:
- - IVdsServiceInitialization
+- IVdsServiceInitialization
 targetos: Windows
 req.typenames: 
 req.redist: 

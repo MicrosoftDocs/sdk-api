@@ -1,19 +1,17 @@
 ---
 UID: NF:textstor.ITextStoreACPSink.OnAttrsChange
 title: ITextStoreACPSink::OnAttrsChange (textstor.h)
-
 description: ITextStoreACPSink::OnAttrsChange method
 old-location: tsf\itextstoreacpsink_onattrschange.htm
 tech.root: TSF
 ms.assetid: ae1e5f92-7462-46b4-b4dd-5032147de688
-
 ms.date: 12/05/2018
 ms.keywords: ITextStoreACPSink interface [Text Services Framework],OnAttrsChange method, ITextStoreACPSink.OnAttrsChange, ITextStoreACPSink::OnAttrsChange, OnAttrsChange, OnAttrsChange method [Text Services Framework], OnAttrsChange method [Text Services Framework],ITextStoreACPSink interface, _tsf_itextstoreacpsink_onattrschange_ref, textstor/ITextStoreACPSink::OnAttrsChange, tsf.itextstoreacpsink_onattrschange
 ms.topic: method
-f1_keywords: 
- - "textstor/ITextStoreACPSink.OnAttrsChange"
+f1_keywords:
+- textstor/ITextStoreACPSink.OnAttrsChange
 dev_langs:
- - c++
+- c++
 req.header: textstor.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msctf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msctf.dll
+- msctf.dll
 api_name:
- - ITextStoreACPSink.OnAttrsChange
+- ITextStoreACPSink.OnAttrsChange
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

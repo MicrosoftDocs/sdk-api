@@ -1,19 +1,17 @@
 ---
 UID: NS:qossp._IN_ADDR_IPV4
 title: IN_ADDR_IPV4 (qossp.h)
-
 description: The IN_ADDR_IPV4 union stores an IPv4 address for use with RSVP FILTERSPECs.
 old-location: qos\in_addr_ipv4.htm
 tech.root: QOS
 ms.assetid: 7e10cc9c-7ed4-449d-aeb9-21e3d75d0224
-
 ms.date: 12/05/2018
 ms.keywords: '*LPIN_ADDR_IPV4, *LPIN_ADDR_IPV4 union [QOS], IN_ADDR_IPV4, IN_ADDR_IPV4 union [QOS], qos.in_addr_ipv4, qossp/*LPIN_ADDR_IPV4, qossp/IN_ADDR_IPV4'
 ms.topic: struct
 f1_keywords:
 - qossp/IN_ADDR_IPV4
 dev_langs:
- - c++
+- c++
 req.header: qossp.h
 req.include-header: 
 req.target-type: Windows

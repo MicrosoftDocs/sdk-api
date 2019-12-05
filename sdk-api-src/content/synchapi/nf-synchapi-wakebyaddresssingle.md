@@ -1,19 +1,17 @@
 ---
 UID: NF:synchapi.WakeByAddressSingle
 title: WakeByAddressSingle function (synchapi.h)
-
 description: Wakes one thread that is waiting for the value of an address to change.
 old-location: base\wakebyaddresssingle.htm
 tech.root: Sync
 ms.assetid: 4ca8f7b9-e78e-4324-9e72-84267746fe53
-
 ms.date: 12/05/2018
 ms.keywords: WakeByAddressSingle, WakeByAddressSingle function, base.wakebyaddresssingle, synchapi/WakeByAddressSingle
 ms.topic: function
-f1_keywords: 
- - "synchapi/WakeByAddressSingle"
+f1_keywords:
+- synchapi/WakeByAddressSingle
 dev_langs:
- - c++
+- c++
 req.header: synchapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib: Synchronization.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-Synch-l1-2-0.dll
- - KernelBase.dll
- - API-MS-Win-Core-Synch-l1-2-1.dll
- - MinKernelBase.dll
+- Kernel32.dll
+- API-MS-Win-Core-Synch-l1-2-0.dll
+- KernelBase.dll
+- API-MS-Win-Core-Synch-l1-2-1.dll
+- MinKernelBase.dll
 api_name:
- - WakeByAddressSingle
+- WakeByAddressSingle
 targetos: Windows
 req.typenames: 
 req.redist: 

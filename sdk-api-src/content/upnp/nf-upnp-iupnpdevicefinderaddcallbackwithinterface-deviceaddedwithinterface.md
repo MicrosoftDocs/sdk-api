@@ -1,19 +1,17 @@
 ---
 UID: NF:upnp.IUPnPDeviceFinderAddCallbackWithInterface.DeviceAddedWithInterface
 title: IUPnPDeviceFinderAddCallbackWithInterface::DeviceAddedWithInterface (upnp.h)
-
 description: The DeviceAddedWithInterface method is invoked by the UPnP framework to notify the application that a device has been added to the network.
 old-location: upnp\iupnpdevicefinderaddcallbackwithinterface_deviceaddedwithinterface.htm
 tech.root: upnp
 ms.assetid: c7cd47e8-264b-4d1a-aed3-daf5801c240c
-
 ms.date: 12/05/2018
 ms.keywords: DeviceAddedWithInterface, DeviceAddedWithInterface method [UPnP APIs], DeviceAddedWithInterface method [UPnP APIs],IUPnPDeviceFinderAddCallbackWithInterface interface, IUPnPDeviceFinderAddCallbackWithInterface interface [UPnP APIs],DeviceAddedWithInterface method, IUPnPDeviceFinderAddCallbackWithInterface.DeviceAddedWithInterface, IUPnPDeviceFinderAddCallbackWithInterface::DeviceAddedWithInterface, upnp.iupnpdevicefinderaddcallbackwithinterface_deviceaddedwithinterface, upnp/IUPnPDeviceFinderAddCallbackWithInterface::DeviceAddedWithInterface
 ms.topic: method
-f1_keywords: 
- - "upnp/IUPnPDeviceFinderAddCallbackWithInterface.DeviceAddedWithInterface"
+f1_keywords:
+- upnp/IUPnPDeviceFinderAddCallbackWithInterface.DeviceAddedWithInterface
 dev_langs:
- - c++
+- c++
 req.header: upnp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Upnp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Upnp.dll
+- Upnp.dll
 api_name:
- - IUPnPDeviceFinderAddCallbackWithInterface.DeviceAddedWithInterface
+- IUPnPDeviceFinderAddCallbackWithInterface.DeviceAddedWithInterface
 targetos: Windows
 req.typenames: 
 req.redist: 

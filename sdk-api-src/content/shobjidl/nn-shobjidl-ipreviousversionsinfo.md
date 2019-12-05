@@ -1,19 +1,17 @@
 ---
 UID: NN:shobjidl.IPreviousVersionsInfo
 title: IPreviousVersionsInfo (shobjidl.h)
-
 description: Exposes a method that checks for previous versions of server files or folders, stored for the purpose of reversion by the shadow copies technology provided with Windows Server 2003.
 old-location: shell\IPreviousVersionsInfo.htm
 tech.root: shell
 ms.assetid: 5d55107e-a07a-4d70-80f6-7ec99578bb48
-
 ms.date: 12/05/2018
 ms.keywords: IPreviousVersionsInfo, IPreviousVersionsInfo interface [Windows Shell], IPreviousVersionsInfo interface [Windows Shell],described, _shell_IPreviousVersionsInfo, shell.IPreviousVersionsInfo, shobjidl/IPreviousVersionsInfo
 ms.topic: interface
-f1_keywords: 
- - "shobjidl/IPreviousVersionsInfo"
+f1_keywords:
+- shobjidl/IPreviousVersionsInfo
 dev_langs:
- - c++
+- c++
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Twext.dll (version 5.2 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Twext.dll
+- Twext.dll
 api_name:
- - IPreviousVersionsInfo
+- IPreviousVersionsInfo
 targetos: Windows
 req.typenames: 
 req.redist: 

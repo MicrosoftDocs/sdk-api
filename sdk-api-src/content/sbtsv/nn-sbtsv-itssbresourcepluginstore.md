@@ -1,19 +1,17 @@
 ---
 UID: NN:sbtsv.ITsSbResourcePluginStore
 title: ITsSbResourcePluginStore (sbtsv.h)
-
 description: Exposes methods that enable resource plug-ins to store objects such as sessions and targets.
 old-location: termserv\itssbresourcepluginstore.htm
 tech.root: TermServ
 ms.assetid: b8b54827-6c6b-4531-8ae3-73baed6125cd
-
 ms.date: 12/05/2018
 ms.keywords: ITsSbResourcePluginStore, ITsSbResourcePluginStore interface [Remote Desktop Services], ITsSbResourcePluginStore interface [Remote Desktop Services],described, sbtsv/ITsSbResourcePluginStore, termserv.itssbresourcepluginstore
 ms.topic: interface
-f1_keywords: 
- - "sbtsv/ITsSbResourcePluginStore"
+f1_keywords:
+- sbtsv/ITsSbResourcePluginStore
 dev_langs:
- - c++
+- c++
 req.header: sbtsv.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - sbtsv.h
+- sbtsv.h
 api_name:
- - ITsSbResourcePluginStore
+- ITsSbResourcePluginStore
 targetos: Windows
 req.typenames: 
 req.redist: 

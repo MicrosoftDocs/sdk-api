@@ -1,19 +1,17 @@
 ---
 UID: NS:rpcproxy.tagProxyFileInfo
 title: ProxyFileInfo (rpcproxy.h)
-
 description: The ProxyFileInfo structure contains information about the interface proxies in the proxy DLL.
 old-location: rpc\proxyfileinfo.htm
 tech.root: Rpc
 ms.assetid: dbe797da-3ec3-4fe0-83bf-30669127a401
-
 ms.date: 12/05/2018
 ms.keywords: ExtendedProxyFileInfo, ProxyFileInfo, ProxyFileInfo structure [RPC], rpc.proxyfileinfo, rpcproxy/ProxyFileInfo
 ms.topic: struct
-f1_keywords: 
- - "rpcproxy/ProxyFileInfo"
+f1_keywords:
+- rpcproxy/ProxyFileInfo
 dev_langs:
- - c++
+- c++
 req.header: rpcproxy.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Rpcproxy.h
+- Rpcproxy.h
 api_name:
- - ProxyFileInfo
+- ProxyFileInfo
 targetos: Windows
 req.typenames: ProxyFileInfo
 req.redist: 

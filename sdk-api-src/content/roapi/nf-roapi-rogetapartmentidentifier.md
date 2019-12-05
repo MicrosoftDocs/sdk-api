@@ -1,19 +1,17 @@
 ---
 UID: NF:roapi.RoGetApartmentIdentifier
 title: RoGetApartmentIdentifier function (roapi.h)
-
 description: Gets a unique identifier for the current apartment.
 old-location: winrt\rogetapartmentidentifier.htm
 tech.root: WinRT
 ms.assetid: C10AE81B-21AB-4B0A-9463-A36C7A1893C7
-
 ms.date: 12/05/2018
 ms.keywords: RoGetApartmentIdentifier, RoGetApartmentIdentifier function [Windows Runtime], roapi/RoGetApartmentIdentifier, winrt.rogetapartmentidentifier
 ms.topic: function
-f1_keywords: 
- - "roapi/RoGetApartmentIdentifier"
+f1_keywords:
+- roapi/RoGetApartmentIdentifier
 dev_langs:
- - c++
+- c++
 req.header: roapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: RuntimeObject.lib
 req.dll: ComBase.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - ComBase.dll
- - API-MS-Win-Core-WinRT-l1-1-0.dll
+- ComBase.dll
+- API-MS-Win-Core-WinRT-l1-1-0.dll
 api_name:
- - RoGetApartmentIdentifier
+- RoGetApartmentIdentifier
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:taskschd.ITrigger.get_EndBoundary
 title: ITrigger::get_EndBoundary (taskschd.h)
-
 description: Gets or sets the date and time when the trigger is deactivated.
 old-location: taskschd\itrigger_endboundary.htm
 tech.root: taskschd
 ms.assetid: 985316de-eaba-478f-a53f-1bea2a0cc9c6
-
 ms.date: 12/05/2018
 ms.keywords: EndBoundary property [Task Scheduler], EndBoundary property [Task Scheduler],ITrigger interface, ITrigger interface [Task Scheduler],EndBoundary property, ITrigger.EndBoundary, ITrigger.get_EndBoundary, ITrigger::EndBoundary, ITrigger::get_EndBoundary, ITrigger::put_EndBoundary, get_EndBoundary, taskschd.itrigger_endboundary, taskschd/ITrigger::EndBoundary, taskschd/ITrigger::get_EndBoundary, taskschd/ITrigger::put_EndBoundary
 ms.topic: method
-f1_keywords: 
- - "taskschd/ITrigger.EndBoundary"
+f1_keywords:
+- taskschd/ITrigger.EndBoundary
 dev_langs:
- - c++
+- c++
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Taskschd.lib
 req.dll: Taskschd.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - taskschd.dll
+- taskschd.dll
 api_name:
- - ITrigger.EndBoundary
- - ITrigger.get_EndBoundary
- - ITrigger.put_EndBoundary
+- ITrigger.EndBoundary
+- ITrigger.get_EndBoundary
+- ITrigger.put_EndBoundary
 targetos: Windows
 req.typenames: 
 req.redist: 

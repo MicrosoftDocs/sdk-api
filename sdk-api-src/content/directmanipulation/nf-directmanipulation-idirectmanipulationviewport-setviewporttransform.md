@@ -1,19 +1,17 @@
 ---
 UID: NF:directmanipulation.IDirectManipulationViewport.SetViewportTransform
 title: IDirectManipulationViewport::SetViewportTransform (directmanipulation.h)
-
 description: Specifies the transform from the viewport coordinate system to the window client coordinate system.
 old-location: directmanipulation\idirectmanipulationviewport_setviewporttransform.htm
 tech.root: directmanipulation
 ms.assetid: a35e0565-2833-45d3-b7dc-cf05bf644e96
-
 ms.date: 12/05/2018
 ms.keywords: IDirectManipulationViewport interface [Direct Manipulation],SetViewportTransform method, IDirectManipulationViewport.SetViewportTransform, IDirectManipulationViewport::SetViewportTransform, SetViewportTransform, SetViewportTransform method [Direct Manipulation], SetViewportTransform method [Direct Manipulation],IDirectManipulationViewport interface, directmanipulation.idirectmanipulationviewport_setviewporttransform, directmanipulation/IDirectManipulationViewport::SetViewportTransform
 ms.topic: method
-f1_keywords: 
- - "directmanipulation/IDirectManipulationViewport.SetViewportTransform"
+f1_keywords:
+- directmanipulation/IDirectManipulationViewport.SetViewportTransform
 dev_langs:
- - c++
+- c++
 req.header: directmanipulation.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - DirectManipulation.h
+- DirectManipulation.h
 api_name:
- - IDirectManipulationViewport.SetViewportTransform
+- IDirectManipulationViewport.SetViewportTransform
 targetos: Windows
 req.typenames: 
 req.redist: 

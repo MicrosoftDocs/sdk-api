@@ -1,19 +1,17 @@
 ---
 UID: NF:mfidl.IMFClockStateSink.OnClockSetRate
 title: IMFClockStateSink::OnClockSetRate (mfidl.h)
-
 description: Called when the rate changes on the presentation clock.
 old-location: mf\imfclockstatesink_onclocksetrate.htm
 tech.root: medfound
 ms.assetid: ba8afdf9-13eb-4e3d-b8a7-c74e0b40e998
-
 ms.date: 12/05/2018
 ms.keywords: IMFClockStateSink interface [Media Foundation],OnClockSetRate method, IMFClockStateSink.OnClockSetRate, IMFClockStateSink::OnClockSetRate, OnClockSetRate, OnClockSetRate method [Media Foundation], OnClockSetRate method [Media Foundation],IMFClockStateSink interface, ba8afdf9-13eb-4e3d-b8a7-c74e0b40e998, mf.imfclockstatesink_onclocksetrate, mfidl/IMFClockStateSink::OnClockSetRate
 ms.topic: method
-f1_keywords: 
- - "mfidl/IMFClockStateSink.OnClockSetRate"
+f1_keywords:
+- mfidl/IMFClockStateSink.OnClockSetRate
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFClockStateSink.OnClockSetRate
+- IMFClockStateSink.OnClockSetRate
 targetos: Windows
 req.typenames: 
 req.redist: 

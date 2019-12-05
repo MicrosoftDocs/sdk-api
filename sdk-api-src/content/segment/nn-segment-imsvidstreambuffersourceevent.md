@@ -1,19 +1,17 @@
 ---
 UID: NN:segment.IMSVidStreamBufferSourceEvent
 title: IMSVidStreamBufferSourceEvent (segment.h)
-
 description: This topic applies to Windows XP Service Pack 1 or later.
 old-location: mstv\imsvidstreambuffersourceevent.htm
 tech.root: mstv
 ms.assetid: 6d8e0cf3-b4c7-4f3e-acff-50f12b8340a8
-
 ms.date: 12/05/2018
 ms.keywords: IMSVidStreamBufferSourceEvent, IMSVidStreamBufferSourceEvent interface [Microsoft TV Technologies], IMSVidStreamBufferSourceEvent interface [Microsoft TV Technologies],described, IMSVidStreamBufferSourceEventInterface, mstv.imsvidstreambuffersourceevent, segment/IMSVidStreamBufferSourceEvent
 ms.topic: interface
-f1_keywords: 
- - "segment/IMSVidStreamBufferSourceEvent"
+f1_keywords:
+- segment/IMSVidStreamBufferSourceEvent
 dev_langs:
- - c++
+- c++
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - segment.h
+- segment.h
 api_name:
- - IMSVidStreamBufferSourceEvent
+- IMSVidStreamBufferSourceEvent
 targetos: Windows
 req.typenames: 
 req.redist: 

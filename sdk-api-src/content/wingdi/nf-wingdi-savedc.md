@@ -1,19 +1,17 @@
 ---
 UID: NF:wingdi.SaveDC
 title: SaveDC function (wingdi.h)
-
 description: The SaveDC function saves the current state of the specified device context (DC) by copying data describing selected objects and graphic modes (such as the bitmap, brush, palette, font, pen, region, drawing mode, and mapping mode) to a context stack.
 old-location: gdi\savedc.htm
 tech.root: gdi
 ms.assetid: f438cd7f-436f-436c-b32e-67f5558740cb
-
 ms.date: 12/05/2018
 ms.keywords: SaveDC, SaveDC function [Windows GDI], _win32_SaveDC, gdi.savedc, wingdi/SaveDC
 ms.topic: function
-f1_keywords: 
- - "wingdi/SaveDC"
+f1_keywords:
+- wingdi/SaveDC
 dev_langs:
- - c++
+- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - gdi32.dll
- - Ext-MS-Win-GDI-DC-l1-2-0.dll
- - ext-ms-win-gdi-dc-l1-1-0.dll
- - ext-ms-win-gdi-dc-l1-2-1.dll
- - GDI32Full.dll
+- gdi32.dll
+- Ext-MS-Win-GDI-DC-l1-2-0.dll
+- ext-ms-win-gdi-dc-l1-1-0.dll
+- ext-ms-win-gdi-dc-l1-2-1.dll
+- GDI32Full.dll
 api_name:
- - SaveDC
+- SaveDC
 targetos: Windows
 req.typenames: 
 req.redist: 

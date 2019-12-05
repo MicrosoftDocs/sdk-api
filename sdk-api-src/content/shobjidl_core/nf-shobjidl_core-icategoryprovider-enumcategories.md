@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.ICategoryProvider.EnumCategories
 title: ICategoryProvider::EnumCategories (shobjidl_core.h)
-
 description: Gets the enumerator for the list of GUIDs that represent categories.
 old-location: shell\ICategoryProvider_EnumCategories.htm
 tech.root: shell
 ms.assetid: 5008ce75-7a90-4f30-84e0-13d00cc1e58e
-
 ms.date: 12/05/2018
 ms.keywords: EnumCategories, EnumCategories method [Windows Shell], EnumCategories method [Windows Shell],ICategoryProvider interface, ICategoryProvider interface [Windows Shell],EnumCategories method, ICategoryProvider.EnumCategories, ICategoryProvider::EnumCategories, inet_ICategoryProvider_EnumCategories, shell.ICategoryProvider_EnumCategories, shobjidl_core/ICategoryProvider::EnumCategories
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/ICategoryProvider.EnumCategories"
+f1_keywords:
+- shobjidl_core/ICategoryProvider.EnumCategories
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Shell32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - ICategoryProvider.EnumCategories
+- ICategoryProvider.EnumCategories
 targetos: Windows
 req.typenames: 
 req.redist: 

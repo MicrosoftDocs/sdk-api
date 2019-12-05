@@ -1,19 +1,17 @@
 ---
 UID: NF:msctf.ITfCandidateListUIElement.SetPageIndex
 title: ITfCandidateListUIElement::SetPageIndex (msctf.h)
-
 description: The ITfCandidateListUIElement::SetPageIndex method sets the page index.
 old-location: tsf\itfcandidatelistuielement_setpageindex.htm
 tech.root: TSF
 ms.assetid: 2e7a5185-2e4b-4f8e-b7c0-d9462d61b113
-
 ms.date: 12/05/2018
 ms.keywords: ITfCandidateListUIElement interface [Text Services Framework],SetPageIndex method, ITfCandidateListUIElement.SetPageIndex, ITfCandidateListUIElement::SetPageIndex, SetPageIndex, SetPageIndex method [Text Services Framework], SetPageIndex method [Text Services Framework],ITfCandidateListUIElement interface, msctf/ITfCandidateListUIElement::SetPageIndex, tsf.itfcandidatelistuielement_setpageindex
 ms.topic: method
-f1_keywords: 
- - "msctf/ITfCandidateListUIElement.SetPageIndex"
+f1_keywords:
+- msctf/ITfCandidateListUIElement.SetPageIndex
 dev_langs:
- - c++
+- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msctf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msctf.dll
+- Msctf.dll
 api_name:
- - ITfCandidateListUIElement.SetPageIndex
+- ITfCandidateListUIElement.SetPageIndex
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

@@ -6,9 +6,9 @@ ms.date: 4/26/2019
 ms.keywords: D3D12_VIDEO_PROCESS_INPUT_STREAM_ARGUMENTS1
 ms.topic: language-reference
 f1_keywords:
- - D3D12_VIDEO_PROCESS_INPUT_STREAM_ARGUMENTS1
+- D3D12_VIDEO_PROCESS_INPUT_STREAM_ARGUMENTS1
 dev_langs:
- - c++
+- c++
 targetos: Windows
 req.construct-type: structure
 req.ddi-compliance: 
@@ -26,13 +26,13 @@ req.typenames: D3D12_VIDEO_PROCESS_INPUT_STREAM_ARGUMENTS1
 req.umdf-ver: 
 req.unicode-ansi: 
 topic_type:
- - apiref
+- apiref
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - d3d12video.h
+- d3d12video.h
 api_name:
- - D3D12_VIDEO_PROCESS_INPUT_STREAM_ARGUMENTS1
+- D3D12_VIDEO_PROCESS_INPUT_STREAM_ARGUMENTS1
 ---
 
 ## -description

@@ -1,19 +1,17 @@
 ---
 UID: NF:gdiplustypes.RectF.RectF(IN const PointF &,IN const SizeF &)
 title: RectF::RectF(IN const PointF &,IN const SizeF &) (gdiplustypes.h)
-
 description: Creates a RectF object and initializes the X, Y, Width, and Height data members to zero. This is the default constructor.
 old-location: gdiplus\_gdiplus_CLASS_RectF_RectF_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\rectfclass\rectfconstructors\rectf_42.htm
-
 ms.date: 12/05/2018
 ms.keywords: RectF, RectF class [GDI+],RectF constructor, RectF constructor [GDI+], RectF constructor [GDI+],RectF class, RectF.RectF, RectF.RectF(), RectF.RectF(IN const PointF &,IN const SizeF &), RectF::RectF, RectF::RectF(IN const PointF &,IN const SizeF &), _gdiplus_CLASS_RectF_RectF_, gdiplus._gdiplus_CLASS_RectF_RectF_
 ms.topic: method
-f1_keywords: 
- - "gdiplustypes/RectF.RectF"
+f1_keywords:
+- gdiplustypes/RectF.RectF
 dev_langs:
- - c++
+- c++
 req.header: gdiplustypes.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - RectF.RectF
+- RectF.RectF
 targetos: Windows
 req.typenames: 
 req.redist: 

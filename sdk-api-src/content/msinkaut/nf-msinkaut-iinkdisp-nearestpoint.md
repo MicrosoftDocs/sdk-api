@@ -1,19 +1,17 @@
 ---
 UID: NF:msinkaut.IInkDisp.NearestPoint
 title: IInkDisp::NearestPoint (msinkaut.h)
-
 description: Retrieves the IInkStrokeDisp within the InkDisp object that is nearest to a known point, optionally providing the index of the nearest point and the distance to the stroke from the specified point.
 old-location: tablet\inkdisp_nearestpoint.htm
 tech.root: tablet
 ms.assetid: e9ccf201-dbc9-484f-8038-6a964d304287
-
 ms.date: 12/05/2018
 ms.keywords: IInkDisp interface [Tablet PC],NearestPoint method, IInkDisp.NearestPoint, IInkDisp::NearestPoint, NearestPoint, NearestPoint method [Tablet PC], NearestPoint method [Tablet PC],IInkDisp interface, e9ccf201-dbc9-484f-8038-6a964d304287, msinkaut/IInkDisp::NearestPoint, tablet.inkdisp_nearestpoint
 ms.topic: method
-f1_keywords: 
- - "msinkaut/IInkDisp.NearestPoint"
+f1_keywords:
+- msinkaut/IInkDisp.NearestPoint
 dev_langs:
- - c++
+- c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: InkObj.dll
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - InkObj.dll
- - InkObj.dll.dll
+- InkObj.dll
+- InkObj.dll.dll
 api_name:
- - IInkDisp.NearestPoint
+- IInkDisp.NearestPoint
 targetos: Windows
 req.typenames: 
 req.redist: 

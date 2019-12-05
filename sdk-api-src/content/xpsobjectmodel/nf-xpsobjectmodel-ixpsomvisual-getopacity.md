@@ -1,19 +1,17 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMVisual.GetOpacity
 title: IXpsOMVisual::GetOpacity (xpsobjectmodel.h)
-
 description: Gets the opacity value of this visual.
 old-location: xps\ixpsomvisual_getopacity.htm
 tech.root: printdocs
 ms.assetid: c513ea28-937a-4594-9a50-0c7999f435ce
-
 ms.date: 12/05/2018
 ms.keywords: GetOpacity, GetOpacity method [XPS Documents and Packaging], GetOpacity method [XPS Documents and Packaging],IXpsOMVisual interface, IXpsOMVisual interface [XPS Documents and Packaging],GetOpacity method, IXpsOMVisual.GetOpacity, IXpsOMVisual::GetOpacity, xps.ixpsomvisual_getopacity, xpsobjectmodel/IXpsOMVisual::GetOpacity
 ms.topic: method
-f1_keywords: 
- - "xpsobjectmodel/IXpsOMVisual.GetOpacity"
+f1_keywords:
+- xpsobjectmodel/IXpsOMVisual.GetOpacity
 dev_langs:
- - c++
+- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsobjectmodel.h
+- xpsobjectmodel.h
 api_name:
- - IXpsOMVisual.GetOpacity
+- IXpsOMVisual.GetOpacity
 targetos: Windows
 req.typenames: 
 req.redist: 

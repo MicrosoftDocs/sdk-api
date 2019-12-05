@@ -1,19 +1,17 @@
 ---
 UID: NF:vswriter.CVssWriter.OnBackupShutdown
 title: CVssWriter::OnBackupShutdown (vswriter.h)
-
 description: The OnBackupShutdown method is called by a writer following a BackupShutdown event. It is used to perform operations considered necessary when a backup application shuts down, particularly in the case of a crash of the backup application.
 old-location: base\cvsswriter_onbackupshutdown.htm
 tech.root: VSS
 ms.assetid: 4b6d5efe-703b-4245-81d8-e2fc7f650d4b
-
 ms.date: 12/05/2018
 ms.keywords: CVssWriter interface [VSS],OnBackupShutdown method, CVssWriter.OnBackupShutdown, CVssWriter::OnBackupShutdown, OnBackupShutdown, OnBackupShutdown method [VSS], OnBackupShutdown method [VSS],CVssWriter interface, _win32_cvsswriter_onbackupshutdown, base.cvsswriter_onbackupshutdown, vswriter/CVssWriter::OnBackupShutdown
 ms.topic: method
-f1_keywords: 
- - "vswriter/CVssWriter.OnBackupShutdown"
+f1_keywords:
+- vswriter/CVssWriter.OnBackupShutdown
 dev_langs:
- - c++
+- c++
 req.header: vswriter.h
 req.include-header: Vss.h, VsWriter.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: VssApi.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - VssApi.lib
- - VssApi.dll
+- VssApi.lib
+- VssApi.dll
 api_name:
- - CVssWriter.OnBackupShutdown
+- CVssWriter.OnBackupShutdown
 targetos: Windows
 req.typenames: 
 req.redist: 

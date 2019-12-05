@@ -1,19 +1,17 @@
 ---
 UID: NF:imapi2fs.IFileSystemImage.get_Root
 title: IFileSystemImage::get_Root (imapi2fs.h)
-
 description: Retrieves the root directory item.
 old-location: imapi\ifilesystemimage_get_root.htm
 tech.root: imapi
 ms.assetid: 4b43468a-f02c-4806-9f65-529dc6d8f20a
-
 ms.date: 12/05/2018
 ms.keywords: IFileSystemImage interface [IMAPI],get_Root method, IFileSystemImage.get_Root, IFileSystemImage::get_Root, get_Root, get_Root method [IMAPI], get_Root method [IMAPI],IFileSystemImage interface, imapi.ifilesystemimage_get_root, imapi2fs/IFileSystemImage::get_Root
 ms.topic: method
-f1_keywords: 
- - "imapi2fs/IFileSystemImage.get_Root"
+f1_keywords:
+- imapi2fs/IFileSystemImage.get_Root
 dev_langs:
- - c++
+- c++
 req.header: imapi2fs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - imapi2fs.h
+- imapi2fs.h
 api_name:
- - IFileSystemImage.get_Root
+- IFileSystemImage.get_Root
 targetos: Windows
 req.typenames: 
 req.redist: 

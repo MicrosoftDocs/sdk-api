@@ -1,19 +1,17 @@
 ---
 UID: NF:fdi.FDITruncateCabinet
 title: FDITruncateCabinet function (fdi.h)
-
 description: The FDITruncateCabinet function truncates a cabinet file starting at the specified folder number.
 old-location: winprog\fditruncatecabinet.htm
 tech.root: DevNotes
 ms.assetid: c923b0a5-1a8d-42aa-bd05-0d318199756d
-
 ms.date: 12/05/2018
 ms.keywords: FDITruncateCabinet, FDITruncateCabinet function [Windows API], fdi/FDITruncateCabinet, winprog.fditruncatecabinet
 ms.topic: function
-f1_keywords: 
- - "fdi/FDITruncateCabinet"
+f1_keywords:
+- fdi/FDITruncateCabinet
 dev_langs:
- - c++
+- c++
 req.header: fdi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Cabinet.lib
 req.dll: Cabinet.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Cabinet.dll
+- Cabinet.dll
 api_name:
- - FDITruncateCabinet
+- FDITruncateCabinet
 targetos: Windows
 req.typenames: 
 req.redist: 

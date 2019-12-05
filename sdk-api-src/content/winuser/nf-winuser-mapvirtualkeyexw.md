@@ -1,19 +1,17 @@
 ---
 UID: NF:winuser.MapVirtualKeyExW
 title: MapVirtualKeyExW function (winuser.h)
-
 description: Translates (maps) a virtual-key code into a scan code or character value, or translates a scan code into a virtual-key code. The function translates the codes using the input language and an input locale identifier.
 old-location: inputdev\mapvirtualkeyex.htm
 tech.root: inputdev
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\keyboardinput\keyboardinputreference\keyboardinputfunctions\mapvirtualkeyex.htm
-
 ms.date: 12/05/2018
 ms.keywords: MAPVK_VK_TO_CHAR, MAPVK_VK_TO_VSC, MAPVK_VK_TO_VSC_EX, MAPVK_VSC_TO_VK, MAPVK_VSC_TO_VK_EX, MapVirtualKeyEx, MapVirtualKeyEx function [Keyboard and Mouse Input], MapVirtualKeyExA, MapVirtualKeyExW, _win32_MapVirtualKeyEx, _win32_mapvirtualkeyex_cpp, inputdev.mapvirtualkeyex, winui._win32_mapvirtualkeyex, winuser/MapVirtualKeyEx, winuser/MapVirtualKeyExA, winuser/MapVirtualKeyExW
 ms.topic: function
-f1_keywords: 
- - "winuser/MapVirtualKeyEx"
+f1_keywords:
+- winuser/MapVirtualKeyEx
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,24 +30,24 @@ req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - User32.dll
- - Ext-MS-Win-NTUser-Keyboard-l1-1-0.dll
- - Ext-MS-Win-NTUser-Keyboard-l1-1-1.dll
- - api-ms-win-ntuser-ie-keyboard-l1-1-0.dll
- - ie_stubs.dll
- - ext-ms-win-ntuser-keyboard-l1-1-2.dll
- - Ext-MS-Win-NTUser-Keyboard-L1-2-0.dll
- - Ext-MS-Win-NTUser-Keyboard-L1-2-1.dll
- - Ext-MS-Win-NTUser-Keyboard-L1-3-0.dll
+- User32.dll
+- Ext-MS-Win-NTUser-Keyboard-l1-1-0.dll
+- Ext-MS-Win-NTUser-Keyboard-l1-1-1.dll
+- api-ms-win-ntuser-ie-keyboard-l1-1-0.dll
+- ie_stubs.dll
+- ext-ms-win-ntuser-keyboard-l1-1-2.dll
+- Ext-MS-Win-NTUser-Keyboard-L1-2-0.dll
+- Ext-MS-Win-NTUser-Keyboard-L1-2-1.dll
+- Ext-MS-Win-NTUser-Keyboard-L1-3-0.dll
 api_name:
- - MapVirtualKeyEx
- - MapVirtualKeyExA
- - MapVirtualKeyExW
+- MapVirtualKeyEx
+- MapVirtualKeyExA
+- MapVirtualKeyExW
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:fsrmreports.IFsrmReport.Delete
 title: IFsrmReport::Delete (fsrmreports.h)
-
 description: Removes this report object from the report job object.
 old-location: fsrm\ifsrmreport_delete.htm
 tech.root: fsrm
 ms.assetid: b50139bc-c584-4bed-bf2e-34f1fef16e6d
-
 ms.date: 12/05/2018
 ms.keywords: Delete, Delete method [File Server Resource Manager], Delete method [File Server Resource Manager],IFsrmReport interface, IFsrmReport interface [File Server Resource Manager],Delete method, IFsrmReport.Delete, IFsrmReport::Delete, fs.ifsrmreport_delete, fsrm.ifsrmreport_delete, fsrmreports/IFsrmReport::Delete
 ms.topic: method
-f1_keywords: 
- - "fsrmreports/IFsrmReport.Delete"
+f1_keywords:
+- fsrmreports/IFsrmReport.Delete
 dev_langs:
- - c++
+- c++
 req.header: fsrmreports.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: SrmSvc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - SrmSvc.dll
+- SrmSvc.dll
 api_name:
- - IFsrmReport.Delete
+- IFsrmReport.Delete
 targetos: Windows
 req.typenames: 
 req.redist: 

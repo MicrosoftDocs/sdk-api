@@ -1,19 +1,17 @@
 ---
 UID: NF:certadm.IOCSPCAConfiguration.get_CACertificate
 title: IOCSPCAConfiguration::get_CACertificate (certadm.h)
-
 description: Gets an X.509 certificate that has been encoded by using Distinguished Encoding Rules (DER) and that is for a certification authority (CA).
 old-location: security\iocspcaconfiguration_cacertificate_method.htm
 tech.root: SecCrypto
 ms.assetid: 73fd56d2-a0d4-4bf8-b818-aadf8cbac9c4
-
 ms.date: 12/05/2018
 ms.keywords: CACertificate property [Security], CACertificate property [Security],IOCSPCAConfiguration interface, IOCSPCAConfiguration interface [Security],CACertificate property, IOCSPCAConfiguration.CACertificate, IOCSPCAConfiguration.get_CACertificate, IOCSPCAConfiguration::CACertificate, IOCSPCAConfiguration::get_CACertificate, certadm/IOCSPCAConfiguration::CACertificate, certadm/IOCSPCAConfiguration::get_CACertificate, get_CACertificate, security.iocspcaconfiguration_cacertificate_method
 ms.topic: method
-f1_keywords: 
- - "certadm/IOCSPCAConfiguration.CACertificate"
+f1_keywords:
+- certadm/IOCSPCAConfiguration.CACertificate
 dev_langs:
- - c++
+- c++
 req.header: certadm.h
 req.include-header: Certserv.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Certadm.lib
 req.dll: Certadm.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Certadm.dll
+- Certadm.dll
 api_name:
- - IOCSPCAConfiguration.CACertificate
- - IOCSPCAConfiguration.get_CACertificate
+- IOCSPCAConfiguration.CACertificate
+- IOCSPCAConfiguration.get_CACertificate
 targetos: Windows
 req.typenames: 
 req.redist: 

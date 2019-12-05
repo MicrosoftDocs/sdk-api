@@ -1,19 +1,17 @@
 ---
 UID: NF:propidlbase.IPropertyStorage.ReadMultiple
 title: IPropertyStorage::ReadMultiple (propidlbase.h)
-
 description: Reads specified properties from the current property set.
 old-location: stg\ipropertystorage_readmultiple.htm
 tech.root: Stg
 ms.assetid: a3d708fe-53af-4f1b-94ac-edc40d59a034
-
 ms.date: 12/05/2018
 ms.keywords: IPropertyStorage [Strctd Stg],ReadMultiple, IPropertyStorage interface [Structured Storage],ReadMultiple method, IPropertyStorage.ReadMultiple, IPropertyStorage::ReadMultiple, ReadMultiple, ReadMultiple method [Structured Storage], ReadMultiple method [Structured Storage],IPropertyStorage interface, _stg_ipropertystorage_readmultiple, propidl/IPropertyStorage::ReadMultiple, stg.ipropertystorage_readmultiple
 ms.topic: method
-f1_keywords: 
- - "propidlbase/IPropertyStorage.ReadMultiple"
+f1_keywords:
+- propidlbase/IPropertyStorage.ReadMultiple
 dev_langs:
- - c++
+- c++
 req.header: propidlbase.h
 req.include-header: Objbase.h, Propidlbase.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Ole32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Ole32.dll
+- Ole32.dll
 api_name:
- - IPropertyStorage.ReadMultiple
+- IPropertyStorage.ReadMultiple
 targetos: Windows
 req.typenames: 
 req.redist: 

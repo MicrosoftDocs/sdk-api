@@ -1,19 +1,17 @@
 ---
 UID: NF:msctf.ITfSourceSingle.AdviseSingleSink
 title: ITfSourceSingle::AdviseSingleSink (msctf.h)
-
 description: ITfSourceSingle::AdviseSingleSink method
 old-location: tsf\itfsourcesingle_advisesinglesink.htm
 tech.root: TSF
 ms.assetid: d9231f36-24c4-4d46-97e7-518f5fcc1ce2
-
 ms.date: 12/05/2018
 ms.keywords: AdviseSingleSink, AdviseSingleSink method [Text Services Framework], AdviseSingleSink method [Text Services Framework],ITfSourceSingle interface, IID_ITfCleanupContextDurationSink, IID_ITfFunctionProvider, ITfSourceSingle interface [Text Services Framework],AdviseSingleSink method, ITfSourceSingle.AdviseSingleSink, ITfSourceSingle::AdviseSingleSink, _tsf_itfsourcesingle_advisesinglesink_ref, msctf/ITfSourceSingle::AdviseSingleSink, tsf.itfsourcesingle_advisesinglesink
 ms.topic: method
-f1_keywords: 
- - "msctf/ITfSourceSingle.AdviseSingleSink"
+f1_keywords:
+- msctf/ITfSourceSingle.AdviseSingleSink
 dev_langs:
- - c++
+- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msctf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msctf.dll
+- msctf.dll
 api_name:
- - ITfSourceSingle.AdviseSingleSink
+- ITfSourceSingle.AdviseSingleSink
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

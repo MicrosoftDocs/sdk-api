@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d11.ID3D11DeviceContext.IAGetIndexBuffer
 title: ID3D11DeviceContext::IAGetIndexBuffer (d3d11.h)
-
 description: Get a pointer to the index buffer that is bound to the input-assembler stage.
 old-location: direct3d11\id3d11devicecontext_iagetindexbuffer.htm
 tech.root: direct3d11
 ms.assetid: 948a5cbd-8413-4aaa-b666-7b9adc4705da
-
 ms.date: 12/05/2018
 ms.keywords: 3fe40bcc-a76c-bfbf-97f0-0ee55d520b2d, IAGetIndexBuffer, IAGetIndexBuffer method [Direct3D 11], IAGetIndexBuffer method [Direct3D 11],ID3D11DeviceContext interface, ID3D11DeviceContext interface [Direct3D 11],IAGetIndexBuffer method, ID3D11DeviceContext.IAGetIndexBuffer, ID3D11DeviceContext::IAGetIndexBuffer, d3d11/ID3D11DeviceContext::IAGetIndexBuffer, direct3d11.id3d11devicecontext_iagetindexbuffer
 ms.topic: method
-f1_keywords: 
- - "d3d11/ID3D11DeviceContext.IAGetIndexBuffer"
+f1_keywords:
+- d3d11/ID3D11DeviceContext.IAGetIndexBuffer
 dev_langs:
- - c++
+- c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: D3D11.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D11.lib
- - D3D11.dll
+- D3D11.lib
+- D3D11.dll
 api_name:
- - ID3D11DeviceContext.IAGetIndexBuffer
+- ID3D11DeviceContext.IAGetIndexBuffer
 targetos: Windows
 req.typenames: 
 req.redist: 

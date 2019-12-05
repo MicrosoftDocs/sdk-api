@@ -1,19 +1,17 @@
 ---
 UID: NC:ntsecpkg.LSA_GET_CALL_INFO
 title: LSA_GET_CALL_INFO (ntsecpkg.h)
-
 description: The GetCallInfo function retrieves information about the most recent function call.
 old-location: security\getcallinfo.htm
 tech.root: SecAuthN
 ms.assetid: 3e59ee6a-f7ba-4886-98f7-74ffbfaadea7
-
 ms.date: 12/05/2018
 ms.keywords: GetCallInfo, GetCallInfo callback function [Security], LSA_GET_CALL_INFO, LSA_GET_CALL_INFO callback, _ssp_getcallinfo, ntsecpkg/GetCallInfo, security.getcallinfo
 ms.topic: callback
 f1_keywords:
 - ntsecpkg/GetCallInfo
 dev_langs:
- - c++
+- c++
 req.header: ntsecpkg.h
 req.include-header: 
 req.target-type: Windows

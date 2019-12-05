@@ -1,19 +1,17 @@
 ---
 UID: NF:winddi.EngFntCacheFault
 title: EngFntCacheFault function (winddi.h)
-
 description: The EngFntCacheFault function reports an error to the font engine if the font driver encountered an error reading from or writing to a font data cache.
 old-location: display\engfntcachefault.htm
 tech.root: display
 ms.assetid: 27a44779-64df-4a3f-b8b8-9e0417010969
-
 ms.date: 12/05/2018
 ms.keywords: EngFntCacheFault, EngFntCacheFault function [Display Devices], display.engfntcachefault, gdifncs_f6395707-6ff6-4396-b280-77d4256db07b.xml, winddi/EngFntCacheFault
 ms.topic: function
-f1_keywords: 
- - "winddi/EngFntCacheFault"
+f1_keywords:
+- winddi/EngFntCacheFault
 dev_langs:
- - c++
+- c++
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Universal
@@ -32,14 +30,14 @@ req.lib: Win32k.lib
 req.dll: Win32k.sys
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Win32k.sys
+- Win32k.sys
 api_name:
- - EngFntCacheFault
+- EngFntCacheFault
 targetos: Windows
 req.typenames: 
 req.redist: 

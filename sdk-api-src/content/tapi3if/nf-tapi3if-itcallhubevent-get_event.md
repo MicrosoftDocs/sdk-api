@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi3if.ITCallHubEvent.get_Event
 title: ITCallHubEvent::get_Event (tapi3if.h)
-
 description: The get_Event method returns a pointer to a CALLHUB_EVENT enum description of the event that occurred.
 old-location: tapi3\itcallhubevent_get_event.htm
 tech.root: Tapi
 ms.assetid: a2515583-e564-413d-b93f-6f2dd7776d7b
-
 ms.date: 12/05/2018
 ms.keywords: ITCallHubEvent interface [TAPI 2.2],get_Event method, ITCallHubEvent.get_Event, ITCallHubEvent::get_Event, _tapi3_itcallhubevent_get_event, get_Event, get_Event method [TAPI 2.2], get_Event method [TAPI 2.2],ITCallHubEvent interface, tapi3.itcallhubevent_get_event, tapi3if/ITCallHubEvent::get_Event
 ms.topic: method
-f1_keywords: 
- - "tapi3if/ITCallHubEvent.get_Event"
+f1_keywords:
+- tapi3if/ITCallHubEvent.get_Event
 dev_langs:
- - c++
+- c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Tapi3.dll
+- Tapi3.dll
 api_name:
- - ITCallHubEvent.get_Event
+- ITCallHubEvent.get_Event
 targetos: Windows
 req.typenames: 
 req.redist: 

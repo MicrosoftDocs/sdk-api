@@ -1,19 +1,17 @@
 ---
 UID: NF:wdsclientapi.WdsCliLog
 title: WdsCliLog function (wdsclientapi.h)
-
 description: Sends a log event to the WDS server.
 old-location: wds\wdsclilog.htm
 tech.root: wds
 ms.assetid: c4b183c7-5118-4752-a3a4-ef594f133288
-
 ms.date: 12/05/2018
 ms.keywords: WDS_LOG_LEVEL_DISABLED, WDS_LOG_LEVEL_ERROR, WDS_LOG_LEVEL_INFO, WDS_LOG_LEVEL_WARNING, WDS_LOG_TYPE_CLIENT_APPLY_FINISHED, WDS_LOG_TYPE_CLIENT_APPLY_STARTED, WDS_LOG_TYPE_CLIENT_ERROR, WDS_LOG_TYPE_CLIENT_FINISHED, WDS_LOG_TYPE_CLIENT_GENERIC_MESSAGE, WDS_LOG_TYPE_CLIENT_IMAGE_SELECTED, WDS_LOG_TYPE_CLIENT_MAX_CODE, WDS_LOG_TYPE_CLIENT_STARTED, WdsCliLog, WdsCliLog function [Windows Deployment Services], wds.wdsclilog, wdsclientapi/WdsCliLog
 ms.topic: function
-f1_keywords: 
- - "wdsclientapi/WdsCliLog"
+f1_keywords:
+- wdsclientapi/WdsCliLog
 dev_langs:
- - c++
+- c++
 req.header: wdsclientapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: WdsClientAPI.lib
 req.dll: WdsClientAPI.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - WdsClientAPI.dll
+- WdsClientAPI.dll
 api_name:
- - WdsCliLog
+- WdsCliLog
 targetos: Windows
 req.typenames: 
 req.redist: 

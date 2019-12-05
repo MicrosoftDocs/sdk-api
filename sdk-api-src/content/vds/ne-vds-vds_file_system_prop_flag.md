@@ -1,19 +1,17 @@
 ---
 UID: NE:vds._VDS_FILE_SYSTEM_PROP_FLAG
 title: VDS_FILE_SYSTEM_PROP_FLAG (vds.h)
-
 description: Defines the details of file-system compression.
 old-location: base\vds_file_system_prop_flag.htm
 tech.root: VDS
 ms.assetid: f2776ee9-4809-4f99-b464-80b5b53f8675
-
 ms.date: 12/05/2018
 ms.keywords: VDS_FILE_SYSTEM_PROP_FLAG, VDS_FILE_SYSTEM_PROP_FLAG enumeration [VDS], VDS_FPF_COMPRESSED, base.vds_file_system_prop_flag, vds/VDS_FILE_SYSTEM_PROP_FLAG, vds/VDS_FPF_COMPRESSED
 ms.topic: enum
 f1_keywords:
 - vds/VDS_FILE_SYSTEM_PROP_FLAG
 dev_langs:
- - c++
+- c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

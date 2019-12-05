@@ -1,19 +1,17 @@
 ---
 UID: NF:casetup.ICertSrvSetupKeyInformationCollection.get_Count
 title: ICertSrvSetupKeyInformationCollection::get_Count (casetup.h)
-
 description: Gets the number of ICertSrvSetupKeyInformation objects in the collection.
 old-location: security\icertsrvsetupkeyinformationcollection_count.htm
 tech.root: SecCrypto
 ms.assetid: 58412a07-7e97-4379-b052-fb7458400be9
-
 ms.date: 12/05/2018
 ms.keywords: Count property [Security], Count property [Security],ICertSrvSetupKeyInformationCollection interface, ICertSrvSetupKeyInformationCollection interface [Security],Count property, ICertSrvSetupKeyInformationCollection.Count, ICertSrvSetupKeyInformationCollection.get_Count, ICertSrvSetupKeyInformationCollection::Count, ICertSrvSetupKeyInformationCollection::get_Count, casetup/ICertSrvSetupKeyInformationCollection::Count, casetup/ICertSrvSetupKeyInformationCollection::get_Count, get_Count, security.icertsrvsetupkeyinformationcollection_count
 ms.topic: method
-f1_keywords: 
- - "casetup/ICertSrvSetupKeyInformationCollection.Count"
+f1_keywords:
+- casetup/ICertSrvSetupKeyInformationCollection.Count
 dev_langs:
- - c++
+- c++
 req.header: casetup.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: Certocm.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Certocm.dll
+- Certocm.dll
 api_name:
- - ICertSrvSetupKeyInformationCollection.Count
- - ICertSrvSetupKeyInformationCollection.get_Count
+- ICertSrvSetupKeyInformationCollection.Count
+- ICertSrvSetupKeyInformationCollection.get_Count
 targetos: Windows
 req.typenames: 
 req.redist: 

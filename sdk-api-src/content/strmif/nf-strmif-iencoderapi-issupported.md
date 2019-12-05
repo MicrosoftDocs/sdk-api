@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IEncoderAPI.IsSupported
 title: IEncoderAPI::IsSupported (strmif.h)
-
 description: The IsSupported method queries whether a given parameter is supported.
 old-location: mstv\iencoderapi_issupported.htm
 tech.root: mstv
 ms.assetid: bbcbde18-2b2d-48b0-9f52-185648f502ce
-
 ms.date: 12/05/2018
 ms.keywords: IEncoderAPI interface [Microsoft TV Technologies],IsSupported method, IEncoderAPI.IsSupported, IEncoderAPI::IsSupported, IEncoderAPIIsSupported, IsSupported, IsSupported method [Microsoft TV Technologies], IsSupported method [Microsoft TV Technologies],IEncoderAPI interface, mstv.iencoderapi_issupported, strmif/IEncoderAPI::IsSupported
 ms.topic: method
-f1_keywords: 
- - "strmif/IEncoderAPI.IsSupported"
+f1_keywords:
+- strmif/IEncoderAPI.IsSupported
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IEncoderAPI.IsSupported
+- IEncoderAPI.IsSupported
 targetos: Windows
 req.typenames: 
 req.redist: 

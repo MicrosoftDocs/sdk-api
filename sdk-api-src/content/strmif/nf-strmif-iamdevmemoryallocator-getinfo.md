@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IAMDevMemoryAllocator.GetInfo
 title: IAMDevMemoryAllocator::GetInfo (strmif.h)
-
 description: Note  The IAMDevMemoryAllocator interface is deprecated. Retrieves information about the memory capabilities.
 old-location: dshow\iamdevmemoryallocator_getinfo.htm
 tech.root: DirectShow
 ms.assetid: ee3070ed-98df-4f20-a91f-bb3c3492f3d8
-
 ms.date: 12/05/2018
 ms.keywords: GetInfo, GetInfo method [DirectShow], GetInfo method [DirectShow],IAMDevMemoryAllocator interface, IAMDevMemoryAllocator interface [DirectShow],GetInfo method, IAMDevMemoryAllocator.GetInfo, IAMDevMemoryAllocator::GetInfo, IAMDevMemoryAllocatorGetInfo, dshow.iamdevmemoryallocator_getinfo, strmif/IAMDevMemoryAllocator::GetInfo
 ms.topic: method
-f1_keywords: 
- - "strmif/IAMDevMemoryAllocator.GetInfo"
+f1_keywords:
+- strmif/IAMDevMemoryAllocator.GetInfo
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmif.h
+- Strmif.h
 api_name:
- - IAMDevMemoryAllocator.GetInfo
+- IAMDevMemoryAllocator.GetInfo
 targetos: Windows
 req.typenames: 
 req.redist: 

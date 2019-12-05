@@ -1,19 +1,17 @@
 ---
 UID: NF:wmcodecdsp.ITocParser.GetTocByIndex
 title: ITocParser::GetTocByIndex (wmcodecdsp.h)
-
 description: The GetTocByIndex method retrieves a table of contents, specified by an index, from the TOC Parser object.
 old-location: mf\itocparser_gettocbyindex.htm
 tech.root: medfound
 ms.assetid: 1386e348-c94f-4343-908c-338352eae494
-
 ms.date: 12/05/2018
 ms.keywords: GetTocByIndex, GetTocByIndex method [Media Foundation], GetTocByIndex method [Media Foundation],ITocParser interface, ITocParser interface [Media Foundation],GetTocByIndex method, ITocParser.GetTocByIndex, ITocParser::GetTocByIndex, codecapi.itocparser_gettocbyindex, mf.itocparser_gettocbyindex, wmcodecdsp/ITocParser::GetTocByIndex
 ms.topic: method
-f1_keywords: 
- - "wmcodecdsp/ITocParser.GetTocByIndex"
+f1_keywords:
+- wmcodecdsp/ITocParser.GetTocByIndex
 dev_langs:
- - c++
+- c++
 req.header: wmcodecdsp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wmvdspa.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmvdspa.dll
+- wmvdspa.dll
 api_name:
- - ITocParser.GetTocByIndex
+- ITocParser.GetTocByIndex
 targetos: Windows
 req.typenames: 
 req.redist: 

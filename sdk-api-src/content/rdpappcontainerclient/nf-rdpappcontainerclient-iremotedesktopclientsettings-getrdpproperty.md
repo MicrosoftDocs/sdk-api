@@ -1,19 +1,17 @@
 ---
 UID: NF:rdpappcontainerclient.IRemoteDesktopClientSettings.GetRdpProperty
 title: IRemoteDesktopClientSettings::GetRdpProperty (rdpappcontainerclient.h)
-
 description: Retrieves a single named RDP property value.
 old-location: termserv\iremotedesktopclientsettings_getrdpproperty.htm
 tech.root: TermServ
 ms.assetid: e172098a-d3c1-46cc-8c46-cdf14c46b43a
-
 ms.date: 12/05/2018
 ms.keywords: GetRdpProperty, GetRdpProperty method [Remote Desktop Services], GetRdpProperty method [Remote Desktop Services],IRemoteDesktopClientSettings interface, IRemoteDesktopClientSettings interface [Remote Desktop Services],GetRdpProperty method, IRemoteDesktopClientSettings.GetRdpProperty, IRemoteDesktopClientSettings::GetRdpProperty, rdpappcontainerclient/IRemoteDesktopClientSettings::GetRdpProperty, termserv.iremotedesktopclientsettings_getrdpproperty
 ms.topic: method
-f1_keywords: 
- - "rdpappcontainerclient/IRemoteDesktopClientSettings.GetRdpProperty"
+f1_keywords:
+- rdpappcontainerclient/IRemoteDesktopClientSettings.GetRdpProperty
 dev_langs:
- - c++
+- c++
 req.header: rdpappcontainerclient.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: MsTscAx.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - MsTscAx.dll
+- MsTscAx.dll
 api_name:
- - IRemoteDesktopClientSettings.GetRdpProperty
+- IRemoteDesktopClientSettings.GetRdpProperty
 targetos: Windows
 req.typenames: 
 req.redist: 

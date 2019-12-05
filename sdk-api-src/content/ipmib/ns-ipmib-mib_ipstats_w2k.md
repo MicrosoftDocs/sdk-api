@@ -1,19 +1,17 @@
 ---
 UID: NS:ipmib._MIB_IPSTATS_W2K
 title: MIB_IPSTATS_W2K (ipmib.h)
-
 description: Stores information about the IP protocol running on a particular computer.
 old-location: mib\mib_ipstats.htm
 tech.root: MIB
 ms.assetid: 920e71b6-247c-4442-9f66-704a6c878feb
-
 ms.date: 12/05/2018
-ms.keywords: "*PMIB_IPSTATS, *PMIB_IPSTATS_W2K, MIB_IPSTATS, MIB_IPSTATS structure [MIB], MIB_IPSTATS_W2K, MIB_IP_FORWARDING, MIB_IP_NOT_FORWARDING, MIB_USE_CURRENT_FORWARDING, PMIB_IPSTATS, PMIB_IPSTATS structure pointer [MIB], _mpr_mib_ipstats, ipmib/MIB_IPSTATS, ipmib/PMIB_IPSTATS, iprtrmib/MIB_IPSTATS, iprtrmib/PMIB_IPSTATS, mib.mib_ipstats, rras.mib_ipstats"
+ms.keywords: '*PMIB_IPSTATS, *PMIB_IPSTATS_W2K, MIB_IPSTATS, MIB_IPSTATS structure [MIB], MIB_IPSTATS_W2K, MIB_IP_FORWARDING, MIB_IP_NOT_FORWARDING, MIB_USE_CURRENT_FORWARDING, PMIB_IPSTATS, PMIB_IPSTATS structure pointer [MIB], _mpr_mib_ipstats, ipmib/MIB_IPSTATS, ipmib/PMIB_IPSTATS, iprtrmib/MIB_IPSTATS, iprtrmib/PMIB_IPSTATS, mib.mib_ipstats, rras.mib_ipstats'
 ms.topic: struct
-f1_keywords: 
- - "ipmib/MIB_IPSTATS"
+f1_keywords:
+- ipmib/MIB_IPSTATS
 dev_langs:
- - c++
+- c++
 req.header: ipmib.h
 req.include-header: Iphlpapi.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Ipmib.h
- - Iprtrmib.h
+- Ipmib.h
+- Iprtrmib.h
 api_name:
- - MIB_IPSTATS
+- MIB_IPSTATS
 targetos: Windows
 req.typenames: MIB_IPSTATS_W2K, *PMIB_IPSTATS_W2K
 req.redist: 

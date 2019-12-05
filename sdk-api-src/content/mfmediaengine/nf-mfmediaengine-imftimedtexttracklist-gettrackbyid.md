@@ -1,19 +1,17 @@
 ---
 UID: NF:mfmediaengine.IMFTimedTextTrackList.GetTrackById
 title: IMFTimedTextTrackList::GetTrackById (mfmediaengine.h)
-
 description: Gets a text track in the list from the identifier of the track.
 old-location: mf\imftimedtexttracklist_gettrackbyid.htm
 tech.root: medfound
 ms.assetid: 5653ED8A-36B1-488C-9D76-50D64BA78BA8
-
 ms.date: 12/05/2018
 ms.keywords: GetTrackById, GetTrackById method [Media Foundation], GetTrackById method [Media Foundation],IMFTimedTextTrackList interface, IMFTimedTextTrackList interface [Media Foundation],GetTrackById method, IMFTimedTextTrackList.GetTrackById, IMFTimedTextTrackList::GetTrackById, mf.imftimedtexttracklist_gettrackbyid, mfmediaengine/IMFTimedTextTrackList::GetTrackById
 ms.topic: method
-f1_keywords: 
- - "mfmediaengine/IMFTimedTextTrackList.GetTrackById"
+f1_keywords:
+- mfmediaengine/IMFTimedTextTrackList.GetTrackById
 dev_langs:
- - c++
+- c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfmediaengine.h
+- mfmediaengine.h
 api_name:
- - IMFTimedTextTrackList.GetTrackById
+- IMFTimedTextTrackList.GetTrackById
 targetos: Windows
 req.typenames: 
 req.redist: 

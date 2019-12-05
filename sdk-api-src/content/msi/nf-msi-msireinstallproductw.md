@@ -1,19 +1,17 @@
 ---
 UID: NF:msi.MsiReinstallProductW
 title: MsiReinstallProductW function (msi.h)
-
 description: Reinstalls products.
 old-location: setup\msireinstallproduct.htm
 tech.root: Msi
 ms.assetid: ad69868e-d653-417d-b902-d0d62e05c985
-
 ms.date: 12/05/2018
 ms.keywords: MsiReinstallProduct, MsiReinstallProduct function, MsiReinstallProductA, MsiReinstallProductW, REINSTALLMODE_FILEEQUALVERSION, REINSTALLMODE_FILEEXACT, REINSTALLMODE_FILEMISSING, REINSTALLMODE_FILEOLDERVERSION, REINSTALLMODE_FILEREPLACE, REINSTALLMODE_FILEVERIFY, REINSTALLMODE_MACHINEDATA, REINSTALLMODE_PACKAGE, REINSTALLMODE_SHORTCUT, REINSTALLMODE_USERDATA, _msi_msireinstallproduct, msi/MsiReinstallProduct, msi/MsiReinstallProductA, msi/MsiReinstallProductW, setup.msireinstallproduct
 ms.topic: function
-f1_keywords: 
- - "msi/MsiReinstallProduct"
+f1_keywords:
+- msi/MsiReinstallProduct
 dev_langs:
- - c++
+- c++
 req.header: msi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Msi.lib
 req.dll: Msi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Msi.dll
+- Msi.dll
 api_name:
- - MsiReinstallProduct
- - MsiReinstallProductA
- - MsiReinstallProductW
+- MsiReinstallProduct
+- MsiReinstallProductA
+- MsiReinstallProductW
 targetos: Windows
 req.typenames: 
 req.redist: 

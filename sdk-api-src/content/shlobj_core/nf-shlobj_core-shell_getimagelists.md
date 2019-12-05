@@ -1,19 +1,17 @@
 ---
 UID: NF:shlobj_core.Shell_GetImageLists
 title: Shell_GetImageLists function (shlobj_core.h)
-
 description: Retrieves system image lists for large and small icons.
 old-location: shell\Shell_GetImageLists.htm
 tech.root: shell
 ms.assetid: c3b73616-849c-4149-b04d-a7d389ebf700
-
 ms.date: 12/05/2018
 ms.keywords: Shell_GetImageLists, Shell_GetImageLists function [Windows Shell], _win32_Shell_GetImageLists, shell.Shell_GetImageLists, shlobj_core/Shell_GetImageLists
 ms.topic: function
-f1_keywords: 
- - "shlobj_core/Shell_GetImageLists"
+f1_keywords:
+- shlobj_core/Shell_GetImageLists
 dev_langs:
- - c++
+- c++
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Shell32.lib
 req.dll: Shell32.dll (version 5.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Shell32.dll
- - ext-ms-win-shell-shell32-l1-2-1.dll
- - Ext-MS-Win-Shell-Shell32-L1-2-2.dll
+- Shell32.dll
+- ext-ms-win-shell-shell32-l1-2-1.dll
+- Ext-MS-Win-Shell-Shell32-L1-2-2.dll
 api_name:
- - Shell_GetImageLists
+- Shell_GetImageLists
 targetos: Windows
 req.typenames: 
 req.redist: 

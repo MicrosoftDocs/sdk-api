@@ -1,19 +1,17 @@
 ---
 UID: NE:prntvpt.__unnamed_enum_0
 title: EPrintTicketScope (prntvpt.h)
-
 description: Specifies the scope of a print ticket.
 old-location: gdi\eprintticketscope.htm
 tech.root: printdocs
 ms.assetid: 7a817f43-c8da-4df1-91c8-6bb1c93c3abc
-
 ms.date: 12/05/2018
 ms.keywords: EPrintTicketScope, EPrintTicketScope enumeration [Windows GDI], _win32_EPrintTicketScope, gdi.eprintticketscope, kPTDocumentScope, kPTJobScope, kPTPageScope, prntvpt/EPrintTicketScope, prntvpt/kPTDocumentScope, prntvpt/kPTJobScope, prntvpt/kPTPageScope
 ms.topic: enum
-f1_keywords: 
- - "prntvpt/EPrintTicketScope"
+f1_keywords:
+- prntvpt/EPrintTicketScope
 dev_langs:
- - c++
+- c++
 req.header: prntvpt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - prntvpt.h
+- prntvpt.h
 api_name:
- - EPrintTicketScope
+- EPrintTicketScope
 targetos: Windows
 req.typenames: EPrintTicketScope
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IFileOperation.NewItem
 title: IFileOperation::NewItem (shobjidl_core.h)
-
 description: Declares a new item that is to be created in a specified location.
 old-location: shell\IFileOperation_NewItem.htm
 tech.root: shell
 ms.assetid: 810a1275-cae2-4487-b517-22aa8e4374a9
-
 ms.date: 12/05/2018
 ms.keywords: IFileOperation interface [Windows Shell],NewItem method, IFileOperation.NewItem, IFileOperation::NewItem, NewItem, NewItem method [Windows Shell], NewItem method [Windows Shell],IFileOperation interface, _shell_IFileOperation_NewItem, shell.IFileOperation_NewItem, shobjidl_core/IFileOperation::NewItem
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IFileOperation.NewItem"
+f1_keywords:
+- shobjidl_core/IFileOperation.NewItem
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - IFileOperation.NewItem
+- IFileOperation.NewItem
 targetos: Windows
 req.typenames: 
 req.redist: 

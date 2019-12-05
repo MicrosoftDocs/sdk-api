@@ -1,19 +1,17 @@
 ---
 UID: NF:wmsdkidl.IWMReaderNetworkConfig.ResetProtocolRollover
 title: IWMReaderNetworkConfig::ResetProtocolRollover (wmsdkidl.h)
-
 description: The ResetProtocolRollover method forces the reader object to use the normal protocol rollover algorithm.
 old-location: wmformat\iwmreadernetworkconfig_resetprotocolrollover.htm
 tech.root: wmformat
 ms.assetid: 10a11131-48bd-49bd-a767-1c6148f84b95
-
 ms.date: 12/05/2018
 ms.keywords: IWMReaderNetworkConfig interface [windows Media Format],ResetProtocolRollover method, IWMReaderNetworkConfig.ResetProtocolRollover, IWMReaderNetworkConfig::ResetProtocolRollover, IWMReaderNetworkConfigResetProtocolRollover, ResetProtocolRollover, ResetProtocolRollover method [windows Media Format], ResetProtocolRollover method [windows Media Format],IWMReaderNetworkConfig interface, wmformat.iwmreadernetworkconfig_resetprotocolrollover, wmsdkidl/IWMReaderNetworkConfig::ResetProtocolRollover
 ms.topic: method
-f1_keywords: 
- - "wmsdkidl/IWMReaderNetworkConfig.ResetProtocolRollover"
+f1_keywords:
+- wmsdkidl/IWMReaderNetworkConfig.ResetProtocolRollover
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wmvcore.lib
- - Wmvcore.dll
- - WMStubDRM.lib
- - WMStubDRM.dll
+- Wmvcore.lib
+- Wmvcore.dll
+- WMStubDRM.lib
+- WMStubDRM.dll
 api_name:
- - IWMReaderNetworkConfig.ResetProtocolRollover
+- IWMReaderNetworkConfig.ResetProtocolRollover
 targetos: Windows
 req.typenames: 
 req.redist: 

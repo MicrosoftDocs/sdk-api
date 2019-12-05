@@ -1,19 +1,17 @@
 ---
 UID: NF:shdeprecated.IBrowserService2._GetToolbarItem
 title: IBrowserService2::_GetToolbarItem (shdeprecated.h)
-
 description: Deprecated. Gets a specific item from a toolbar.
 old-location: shell\IBrowserService2__GetToolbarItem.htm
 tech.root: shell
 ms.assetid: 9bce71ca-189e-4072-9acf-10c8b3a34c5c
-
 ms.date: 12/05/2018
 ms.keywords: IBrowserService2 interface [Windows Shell],_GetToolbarItem method, IBrowserService2._GetToolbarItem, IBrowserService2::_GetToolbarItem, _GetToolbarItem, _GetToolbarItem method [Windows Shell], _GetToolbarItem method [Windows Shell],IBrowserService2 interface, shdeprecated/IBrowserService2::_GetToolbarItem, shell.IBrowserService2__GetToolbarItem, zone_IBrowserService2__GetToolbarItem
 ms.topic: method
-f1_keywords: 
- - "shdeprecated/IBrowserService2._GetToolbarItem"
+f1_keywords:
+- shdeprecated/IBrowserService2._GetToolbarItem
 dev_langs:
- - c++
+- c++
 req.header: shdeprecated.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shdeprecated.h
+- Shdeprecated.h
 api_name:
- - IBrowserService2._GetToolbarItem
+- IBrowserService2._GetToolbarItem
 targetos: Windows
 req.typenames: 
 req.redist: 

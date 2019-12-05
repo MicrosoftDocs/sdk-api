@@ -1,19 +1,17 @@
 ---
 UID: NF:propsys.PSFormatPropertyValue
 title: PSFormatPropertyValue function (propsys.h)
-
 description: Gets a formatted, Unicode string representation of a property value stored in a property store. This function allocates memory for the output string.
 old-location: properties\PSFormatPropertyValue.htm
 tech.root: properties
 ms.assetid: 35c2b424-05bd-4d7d-8365-5900e165e2e2
-
 ms.date: 12/05/2018
 ms.keywords: PSFormatPropertyValue, PSFormatPropertyValue function [Windows Properties], _shell_PSFormatPropertyValue, properties.PSFormatPropertyValue, propsys/PSFormatPropertyValue, shell.PSFormatPropertyValue
 ms.topic: function
-f1_keywords: 
- - "propsys/PSFormatPropertyValue"
+f1_keywords:
+- propsys/PSFormatPropertyValue
 dev_langs:
- - c++
+- c++
 req.header: propsys.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Propsys.lib
 req.dll: Propsys.dll (version 6.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Propsys.dll
+- Propsys.dll
 api_name:
- - PSFormatPropertyValue
+- PSFormatPropertyValue
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0

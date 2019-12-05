@@ -1,19 +1,17 @@
 ---
 UID: NF:winbase.DisableThreadProfiling
 title: DisableThreadProfiling function (winbase.h)
-
 description: Disables thread profiling.
 old-location: hcp\disablethreadprofiling.htm
 tech.root: hcp
 ms.assetid: 650631a6-fd90-46e1-8f2d-84aaaed05bac
-
 ms.date: 12/05/2018
 ms.keywords: DisableThreadProfiling, DisableThreadProfiling function [Hardware Counter Profiling], hcp.disablethreadprofiling, winbase/DisableThreadProfiling
 ms.topic: function
-f1_keywords: 
- - "winbase/DisableThreadProfiling"
+f1_keywords:
+- winbase/DisableThreadProfiling
 dev_langs:
- - c++
+- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
+- Kernel32.dll
 api_name:
- - DisableThreadProfiling
+- DisableThreadProfiling
 targetos: Windows
 req.typenames: 
 req.redist: 

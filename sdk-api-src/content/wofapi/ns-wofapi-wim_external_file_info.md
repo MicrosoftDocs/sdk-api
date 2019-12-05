@@ -1,19 +1,17 @@
 ---
 UID: NS:wofapi._WIM_EXTERNAL_FILE_INFO
 title: WIM_EXTERNAL_FILE_INFO (wofapi.h)
-
 description: Defines metadata specific to files provided by WOF_PROVIDER_WIM.
 old-location: fs\wim_external_file_info.htm
 tech.root: FileIO
 ms.assetid: BB40922B-C9D3-451C-B2D1-1740105C4BAB
-
 ms.date: 12/05/2018
-ms.keywords: "*PWIM_EXTERNAL_FILE_INFO, PWIM_EXTERNAL_FILE_INFO, PWIM_EXTERNAL_FILE_INFO structure pointer [Files], WIM_EXTERNAL_FILE_INFO, WIM_EXTERNAL_FILE_INFO structure [Files], fs.wim_external_file_info, wofapi/PWIM_EXTERNAL_FILE_INFO, wofapi/WIM_EXTERNAL_FILE_INFO"
+ms.keywords: '*PWIM_EXTERNAL_FILE_INFO, PWIM_EXTERNAL_FILE_INFO, PWIM_EXTERNAL_FILE_INFO structure pointer [Files], WIM_EXTERNAL_FILE_INFO, WIM_EXTERNAL_FILE_INFO structure [Files], fs.wim_external_file_info, wofapi/PWIM_EXTERNAL_FILE_INFO, wofapi/WIM_EXTERNAL_FILE_INFO'
 ms.topic: struct
-f1_keywords: 
- - "wofapi/WIM_EXTERNAL_FILE_INFO"
+f1_keywords:
+- wofapi/WIM_EXTERNAL_FILE_INFO
 dev_langs:
- - c++
+- c++
 req.header: wofapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - wofapi.h
+- wofapi.h
 api_name:
- - WIM_EXTERNAL_FILE_INFO
+- WIM_EXTERNAL_FILE_INFO
 targetos: Windows
 req.typenames: WIM_EXTERNAL_FILE_INFO, *PWIM_EXTERNAL_FILE_INFO
 req.redist: 

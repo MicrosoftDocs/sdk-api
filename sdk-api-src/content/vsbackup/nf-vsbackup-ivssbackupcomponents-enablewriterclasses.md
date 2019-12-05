@@ -1,19 +1,17 @@
 ---
 UID: NF:vsbackup.IVssBackupComponents.EnableWriterClasses
 title: IVssBackupComponents::EnableWriterClasses (vsbackup.h)
-
 description: The EnableWriterClasses method enables the specified writers to receive all events.
 old-location: base\ivssbackupcomponents_enablewriterclasses.htm
 tech.root: VSS
 ms.assetid: 27dae374-f3c4-44a5-a0d7-3edb647f0593
-
 ms.date: 12/05/2018
 ms.keywords: EnableWriterClasses, EnableWriterClasses method [VSS], EnableWriterClasses method [VSS],IVssBackupComponents interface, IVssBackupComponents interface [VSS],EnableWriterClasses method, IVssBackupComponents.EnableWriterClasses, IVssBackupComponents::EnableWriterClasses, _win32_ivssbackupcomponents_enablewriterclasses, base.ivssbackupcomponents_enablewriterclasses, vsbackup/IVssBackupComponents::EnableWriterClasses
 ms.topic: method
-f1_keywords: 
- - "vsbackup/IVssBackupComponents.EnableWriterClasses"
+f1_keywords:
+- vsbackup/IVssBackupComponents.EnableWriterClasses
 dev_langs:
- - c++
+- c++
 req.header: vsbackup.h
 req.include-header: VsBackup.h, Vss.h, VsWriter.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: VssApi.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - VssApi.lib
- - VssApi.dll
+- VssApi.lib
+- VssApi.dll
 api_name:
- - IVssBackupComponents.EnableWriterClasses
+- IVssBackupComponents.EnableWriterClasses
 targetos: Windows
 req.typenames: 
 req.redist: 

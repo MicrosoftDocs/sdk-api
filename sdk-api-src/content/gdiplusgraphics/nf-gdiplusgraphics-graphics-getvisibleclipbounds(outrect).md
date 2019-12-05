@@ -1,19 +1,17 @@
 ---
 UID: NF:gdiplusgraphics.Graphics.GetVisibleClipBounds(OUT Rect)
 title: Graphics::GetVisibleClipBounds(OUT Rect) (gdiplusgraphics.h)
-
 description: The Graphics::GetVisibleClipBounds method gets a rectangle that encloses the visible clipping region of this Graphics object.
 old-location: gdiplus\_gdiplus_CLASS_Graphics_GetVisibleClipBounds_Rect_rect_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\graphicsgetvisibleclipboundsmethods\getvisibleclipbounds.htm
-
 ms.date: 12/05/2018
 ms.keywords: GetVisibleClipBounds, GetVisibleClipBounds method [GDI+], GetVisibleClipBounds method [GDI+],Graphics class, Graphics class [GDI+],GetVisibleClipBounds method, Graphics.GetVisibleClipBounds, Graphics.GetVisibleClipBounds(OUT Rect), Graphics.GetVisibleClipBounds(Rect*), Graphics::GetVisibleClipBounds, Graphics::GetVisibleClipBounds(OUT Rect), _gdiplus_CLASS_Graphics_GetVisibleClipBounds_Rect_rect_, gdiplus._gdiplus_CLASS_Graphics_GetVisibleClipBounds_Rect_rect_
 ms.topic: method
-f1_keywords: 
- - "gdiplusgraphics/Graphics.GetVisibleClipBounds"
+f1_keywords:
+- gdiplusgraphics/Graphics.GetVisibleClipBounds
 dev_langs:
- - c++
+- c++
 req.header: gdiplusgraphics.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - Graphics.GetVisibleClipBounds
+- Graphics.GetVisibleClipBounds
 targetos: Windows
 req.typenames: 
 req.redist: 

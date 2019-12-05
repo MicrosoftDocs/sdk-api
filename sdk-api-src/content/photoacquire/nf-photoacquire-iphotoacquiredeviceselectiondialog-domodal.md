@@ -1,19 +1,17 @@
 ---
 UID: NF:photoacquire.IPhotoAcquireDeviceSelectionDialog.DoModal
 title: IPhotoAcquireDeviceSelectionDialog::DoModal (photoacquire.h)
-
 description: The DoModal method displays a device selection dialog box. The function returns when the user selects a device using the modal dialog box.
 old-location: picacq\iphotoacquiredeviceselectiondialog_domodal.htm
 tech.root: acquisition
 ms.assetid: eb79c07b-3b80-4f2b-b1f1-2394e1c7a30b
-
 ms.date: 12/05/2018
 ms.keywords: DoModal, DoModal method [Picture Acquisition], DoModal method [Picture Acquisition],IPhotoAcquireDeviceSelectionDialog interface, IPhotoAcquireDeviceSelectionDialog interface [Picture Acquisition],DoModal method, IPhotoAcquireDeviceSelectionDialog.DoModal, IPhotoAcquireDeviceSelectionDialog::DoModal, IPhotoAcquireDeviceSelectionDialogDoModal, photoacquire/IPhotoAcquireDeviceSelectionDialog::DoModal, picacq.iphotoacquiredeviceselectiondialog_domodal
 ms.topic: method
-f1_keywords: 
- - "photoacquire/IPhotoAcquireDeviceSelectionDialog.DoModal"
+f1_keywords:
+- photoacquire/IPhotoAcquireDeviceSelectionDialog.DoModal
 dev_langs:
- - c++
+- c++
 req.header: photoacquire.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: PhotoAcquireUID.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - PhotoAcquireUID.lib
- - PhotoAcquireUID.dll
+- PhotoAcquireUID.lib
+- PhotoAcquireUID.dll
 api_name:
- - IPhotoAcquireDeviceSelectionDialog.DoModal
+- IPhotoAcquireDeviceSelectionDialog.DoModal
 targetos: Windows
 req.typenames: 
 req.redist: 

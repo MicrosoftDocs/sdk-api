@@ -1,19 +1,17 @@
 ---
 UID: NS:tapi.lineagentinfo_tag
 title: LINEAGENTINFO (tapi.h)
-
 description: The LINEAGENTINFO structure contains information about an ACD agent. The lineGetAgentInfo function returns the LINEAGENTINFO structure.
 old-location: tapi2\lineagentinfo.htm
 tech.root: Tapi
 ms.assetid: 84eedf88-f0ea-4dc8-9840-b94a47fb7ca2
-
 ms.date: 12/05/2018
-ms.keywords: "*LPLINEAGENTINFO, LINEAGENTINFO, LINEAGENTINFO structure [TAPI 2.2], LPLINEAGENTINFO, LPLINEAGENTINFO structure pointer [TAPI 2.2], _tapi2_lineagentinfo, tapi/LINEAGENTINFO, tapi/LPLINEAGENTINFO, tapi2.lineagentinfo"
+ms.keywords: '*LPLINEAGENTINFO, LINEAGENTINFO, LINEAGENTINFO structure [TAPI 2.2], LPLINEAGENTINFO, LPLINEAGENTINFO structure pointer [TAPI 2.2], _tapi2_lineagentinfo, tapi/LINEAGENTINFO, tapi/LPLINEAGENTINFO, tapi2.lineagentinfo'
 ms.topic: struct
-f1_keywords: 
- - "tapi/LINEAGENTINFO"
+f1_keywords:
+- tapi/LINEAGENTINFO
 dev_langs:
- - c++
+- c++
 req.header: tapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Tapi.h
+- Tapi.h
 api_name:
- - LINEAGENTINFO
+- LINEAGENTINFO
 targetos: Windows
 req.typenames: LINEAGENTINFO, *LPLINEAGENTINFO
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:dvbsiparser.IIsdbSIParameterDescriptor.GetParameterVersion
 title: IIsdbSIParameterDescriptor::GetParameterVersion (dvbsiparser.h)
-
 description: Gets the version number of a parameter from a service information (SI) parameter descriptor. This version number is incremented by one each time the parameter is updated.
 old-location: mstv\iisdbsiparameterdescriptor_getparameterversion.htm
 tech.root: mstv
 ms.assetid: 8ca9d5d3-d96f-4437-9d22-0166a3fbc593
-
 ms.date: 12/05/2018
 ms.keywords: GetParameterVersion, GetParameterVersion method [Microsoft TV Technologies], GetParameterVersion method [Microsoft TV Technologies],IIsdbSIParameterDescriptor interface, IIsdbSIParameterDescriptor interface [Microsoft TV Technologies],GetParameterVersion method, IIsdbSIParameterDescriptor.GetParameterVersion, IIsdbSIParameterDescriptor::GetParameterVersion, dvbsiparser/IIsdbSIParameterDescriptor::GetParameterVersion, mstv.iisdbsiparameterdescriptor_getparameterversion
 ms.topic: method
-f1_keywords: 
- - "dvbsiparser/IIsdbSIParameterDescriptor.GetParameterVersion"
+f1_keywords:
+- dvbsiparser/IIsdbSIParameterDescriptor.GetParameterVersion
 dev_langs:
- - c++
+- c++
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dvbsiparser.h
+- dvbsiparser.h
 api_name:
- - IIsdbSIParameterDescriptor.GetParameterVersion
+- IIsdbSIParameterDescriptor.GetParameterVersion
 targetos: Windows
 req.typenames: 
 req.redist: 

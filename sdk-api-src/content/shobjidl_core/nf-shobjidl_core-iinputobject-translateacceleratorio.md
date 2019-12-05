@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IInputObject.TranslateAcceleratorIO
 title: IInputObject::TranslateAcceleratorIO (shobjidl_core.h)
-
 description: Enables the object to process keyboard accelerators.
 old-location: shell\IInputObject_TranslateAcceleratorIO.htm
 tech.root: shell
 ms.assetid: e075556a-2910-41ee-a8f3-3fba1cd55a35
-
 ms.date: 12/05/2018
 ms.keywords: IInputObject interface [Windows Shell],TranslateAcceleratorIO method, IInputObject.TranslateAcceleratorIO, IInputObject::TranslateAcceleratorIO, TranslateAcceleratorIO, TranslateAcceleratorIO method [Windows Shell], TranslateAcceleratorIO method [Windows Shell],IInputObject interface, _win32_IInputObject_TranslateAcceleratorIO, shell.IInputObject_TranslateAcceleratorIO, shobjidl_core/IInputObject::TranslateAcceleratorIO
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IInputObject.TranslateAcceleratorIO"
+f1_keywords:
+- shobjidl_core/IInputObject.TranslateAcceleratorIO
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Shell32.dll (version 4.71 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - IInputObject.TranslateAcceleratorIO
+- IInputObject.TranslateAcceleratorIO
 targetos: Windows
 req.typenames: 
 req.redist: 

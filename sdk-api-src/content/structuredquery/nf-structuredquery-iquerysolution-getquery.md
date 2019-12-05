@@ -1,19 +1,17 @@
 ---
 UID: NF:structuredquery.IQuerySolution.GetQuery
 title: IQuerySolution::GetQuery (structuredquery.h)
-
 description: Retrieves the condition tree and the semantic type of the solution.
 old-location: search\_search_IQuerySolution_GetQuery.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\iquerysolution\getquery.htm
-
 ms.date: 12/05/2018
 ms.keywords: GetQuery, GetQuery method [search], GetQuery method [search],IQuerySolution interface, IQuerySolution interface [search],GetQuery method, IQuerySolution.GetQuery, IQuerySolution::GetQuery, _search_IQuerySolution_GetQuery, search._search_IQuerySolution_GetQuery, structuredquery/IQuerySolution::GetQuery
 ms.topic: method
-f1_keywords: 
- - "structuredquery/IQuerySolution.GetQuery"
+f1_keywords:
+- structuredquery/IQuerySolution.GetQuery
 dev_langs:
- - c++
+- c++
 req.header: structuredquery.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Structuredquery.h
+- Structuredquery.h
 api_name:
- - IQuerySolution.GetQuery
+- IQuerySolution.GetQuery
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0

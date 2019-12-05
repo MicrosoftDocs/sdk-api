@@ -1,19 +1,17 @@
 ---
 UID: NE:tapi3if.PHONE_HOOK_SWITCH_DEVICE
 title: PHONE_HOOK_SWITCH_DEVICE (tapi3if.h)
-
 description: The PHONE_HOOK_SWITCH_DEVICE enum is used to indicate the types of switch hooks on a phone device.
 old-location: tapi3\phone_hook_switch_device.htm
 tech.root: Tapi
 ms.assetid: 20b17e2f-f745-41ef-91ac-d2ab21d43695
-
 ms.date: 12/05/2018
 ms.keywords: PHONE_HOOK_SWITCH_DEVICE, PHONE_HOOK_SWITCH_DEVICE enumeration [TAPI 2.2], PHSD_HANDSET, PHSD_HEADSET, PHSD_SPEAKERPHONE, _tapi3_phone_hook_switch_device, tapi3.phone_hook_switch_device, tapi3if/PHONE_HOOK_SWITCH_DEVICE, tapi3if/PHSD_HANDSET, tapi3if/PHSD_HEADSET, tapi3if/PHSD_SPEAKERPHONE
 ms.topic: enum
-f1_keywords: 
- - "tapi3if/PHONE_HOOK_SWITCH_DEVICE"
+f1_keywords:
+- tapi3if/PHONE_HOOK_SWITCH_DEVICE
 dev_langs:
- - c++
+- c++
 req.header: tapi3if.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Tapi3if.h
+- Tapi3if.h
 api_name:
- - PHONE_HOOK_SWITCH_DEVICE
+- PHONE_HOOK_SWITCH_DEVICE
 targetos: Windows
 req.typenames: PHONE_HOOK_SWITCH_DEVICE
 req.redist: 

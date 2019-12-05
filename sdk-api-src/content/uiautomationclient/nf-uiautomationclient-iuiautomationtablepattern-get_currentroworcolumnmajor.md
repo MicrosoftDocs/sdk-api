@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationTablePattern.get_CurrentRowOrColumnMajor
 title: IUIAutomationTablePattern::get_CurrentRowOrColumnMajor (uiautomationclient.h)
-
 description: Retrieves the primary direction of traversal for the table.
 old-location: winauto\uiauto_IUIAutomationTablePattern_CurrentRowOrColumnMajor.htm
 tech.root: WinAuto
 ms.assetid: abf2bbfd-2052-4ece-bf28-be836af407ff
-
 ms.date: 12/05/2018
 ms.keywords: CurrentRowOrColumnMajor property [Windows Accessibility], CurrentRowOrColumnMajor property [Windows Accessibility],IUIAutomationTablePattern interface, IUIAutomationTablePattern interface [Windows Accessibility],CurrentRowOrColumnMajor property, IUIAutomationTablePattern.CurrentRowOrColumnMajor, IUIAutomationTablePattern.get_CurrentRowOrColumnMajor, IUIAutomationTablePattern::CurrentRowOrColumnMajor, IUIAutomationTablePattern::get_CurrentRowOrColumnMajor, get_CurrentRowOrColumnMajor, uiauto.uiauto_IUIAutomationTablePattern_CurrentRowOrColumnMajor, uiauto_IUIAutomationTablePattern_CurrentRowOrColumnMajor, uiautomationclient/IUIAutomationTablePattern::CurrentRowOrColumnMajor, uiautomationclient/IUIAutomationTablePattern::get_CurrentRowOrColumnMajor, winauto.uiauto_IUIAutomationTablePattern_CurrentRowOrColumnMajor
 ms.topic: method
-f1_keywords: 
- - "uiautomationclient/IUIAutomationTablePattern.CurrentRowOrColumnMajor"
+f1_keywords:
+- uiautomationclient/IUIAutomationTablePattern.CurrentRowOrColumnMajor
 dev_langs:
- - c++
+- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationClient.h
+- UIAutomationClient.h
 api_name:
- - IUIAutomationTablePattern.CurrentRowOrColumnMajor
- - IUIAutomationTablePattern.get_CurrentRowOrColumnMajor
+- IUIAutomationTablePattern.CurrentRowOrColumnMajor
+- IUIAutomationTablePattern.get_CurrentRowOrColumnMajor
 targetos: Windows
 req.typenames: 
 req.redist: 

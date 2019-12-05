@@ -1,19 +1,17 @@
 ---
 UID: NF:propsys.IPropertyDescription.GetDisplayName
 title: IPropertyDescription::GetDisplayName (propsys.h)
-
 description: Gets the display name of the property as it is shown in any UI.
 old-location: properties\IPropertyDescription_GetDisplayName.htm
 tech.root: properties
 ms.assetid: 54ee12a4-15fe-454b-8233-297e98bc8a22
-
 ms.date: 12/05/2018
 ms.keywords: GetDisplayName, GetDisplayName method [Windows Properties], GetDisplayName method [Windows Properties],IPropertyDescription interface, IPropertyDescription interface [Windows Properties],GetDisplayName method, IPropertyDescription.GetDisplayName, IPropertyDescription::GetDisplayName, properties.IPropertyDescription_GetDisplayName, propsys/IPropertyDescription::GetDisplayName, shell.IPropertyDescription_GetDisplayName, shell_IPropertyDescription_GetDisplayName
 ms.topic: method
-f1_keywords: 
- - "propsys/IPropertyDescription.GetDisplayName"
+f1_keywords:
+- propsys/IPropertyDescription.GetDisplayName
 dev_langs:
- - c++
+- c++
 req.header: propsys.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Propsys.h
+- Propsys.h
 api_name:
- - IPropertyDescription.GetDisplayName
+- IPropertyDescription.GetDisplayName
 targetos: Windows
 req.typenames: 
 req.redist: 

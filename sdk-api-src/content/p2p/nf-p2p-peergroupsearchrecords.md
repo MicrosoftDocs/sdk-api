@@ -1,19 +1,17 @@
 ---
 UID: NF:p2p.PeerGroupSearchRecords
 title: PeerGroupSearchRecords function (p2p.h)
-
 description: The PeerGroupSearchRecords function searches the local peer group database for records that match the supplied criteria.
 old-location: p2p\peergroupsearchrecords.htm
 tech.root: P2PSdk
 ms.assetid: 7df13041-e802-47b6-8b44-14837c513936
-
 ms.date: 12/05/2018
 ms.keywords: PeerGroupSearchRecords, PeerGroupSearchRecords function [Peer Networking], p2p.peergroupsearchrecords, p2p/PeerGroupSearchRecords
 ms.topic: function
-f1_keywords: 
- - "p2p/PeerGroupSearchRecords"
+f1_keywords:
+- p2p/PeerGroupSearchRecords
 dev_langs:
- - c++
+- c++
 req.header: p2p.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: P2P.lib
 req.dll: P2P.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - P2P.dll
+- P2P.dll
 api_name:
- - PeerGroupSearchRecords
+- PeerGroupSearchRecords
 targetos: Windows
 req.typenames: 
 req.redist: 

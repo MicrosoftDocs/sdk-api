@@ -1,19 +1,17 @@
 ---
 UID: NS:dde.__unnamed_struct_2
 title: DDEDATA (dde.h)
-
 description: Contains the data, and information about the data, sent as part of a WM_DDE_DATA message.
 old-location: dataxchg\ddedata.htm
 tech.root: dataxchg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\dataexchange\dynamicdataexchange\dynamicdataexchangereference\dynamicdataexchangestructures\ddedata.htm
-
 ms.date: 12/05/2018
 ms.keywords: CF_BITMAP, CF_DIB, CF_DIF, CF_ENHMETAFILE, CF_METAFILEPICT, CF_OEMTEXT, CF_PALETTE, CF_PENDATA, CF_RIFF, CF_SYLK, CF_TEXT, CF_TIFF, CF_UNICODETEXT, CF_WAVE, DDEDATA, DDEDATA structure [Data Exchange], _win32_DDEDATA_str, _win32_ddedata_str_cpp, dataxchg.ddedata, dde/DDEDATA, winui._win32_ddedata_str
 ms.topic: struct
-f1_keywords: 
- - "dde/DDEDATA"
+f1_keywords:
+- dde/DDEDATA
 dev_langs:
- - c++
+- c++
 req.header: dde.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Dde.h
+- Dde.h
 api_name:
- - DDEDATA
+- DDEDATA
 targetos: Windows
 req.typenames: DDEDATA
 req.redist: 

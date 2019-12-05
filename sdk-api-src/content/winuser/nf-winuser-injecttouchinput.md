@@ -1,19 +1,17 @@
 ---
 UID: NF:winuser.InjectTouchInput
 title: InjectTouchInput function (winuser.h)
-
 description: Simulates touch input.
 old-location: input_touchinjection\injecttouchinput.htm
 tech.root: Input_TouchInjection
 ms.assetid: c3c1425e-2af6-4ecb-a0b2-a456654f7a53
-
 ms.date: 12/05/2018
 ms.keywords: InjectTouchInput, InjectTouchInput function [Windows Touch], input_touchinjection.injecttouchinput, touch_injection.injecttouchinput, winuser/InjectTouchInput
 ms.topic: function
-f1_keywords: 
- - "winuser/InjectTouchInput"
+f1_keywords:
+- winuser/InjectTouchInput
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: 
 req.target-type: Windows
@@ -32,19 +30,19 @@ req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - user32.dll
- - API-MS-Win-RTCore-NTUser-WMPointer-l1-1-0.dll
- - MinUser.dll
- - API-MS-Win-RTCore-NTUser-WMPointer-l1-1-1.dll
- - API-Ms-Win-RTCore-NTUser-WMPointer-L1-1-2.dll
- - API-MS-Win-RTCore-NTUser-WMPointer-L1-1-3.dll
+- user32.dll
+- API-MS-Win-RTCore-NTUser-WMPointer-l1-1-0.dll
+- MinUser.dll
+- API-MS-Win-RTCore-NTUser-WMPointer-l1-1-1.dll
+- API-Ms-Win-RTCore-NTUser-WMPointer-L1-1-2.dll
+- API-MS-Win-RTCore-NTUser-WMPointer-L1-1-3.dll
 api_name:
- - InjectTouchInput
+- InjectTouchInput
 targetos: Windows
 req.typenames: 
 req.redist: 

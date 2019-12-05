@@ -1,19 +1,17 @@
 ---
 UID: NF:winuser.InvertRect
 title: InvertRect function (winuser.h)
-
 description: The InvertRect function inverts a rectangle in a window by performing a logical NOT operation on the color values for each pixel in the rectangle's interior.
 old-location: gdi\invertrect.htm
 tech.root: gdi
 ms.assetid: a8c4dbf1-94ec-46e9-b365-7dfc89e4f176
-
 ms.date: 12/05/2018
 ms.keywords: InvertRect, InvertRect function [Windows GDI], _win32_InvertRect, gdi.invertrect, winuser/InvertRect
 ms.topic: function
-f1_keywords: 
- - "winuser/InvertRect"
+f1_keywords:
+- winuser/InvertRect
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - user32.dll
- - Ext-MS-Win-NTUser-GUI-l1-1-1.dll
- - Ext-MS-Win-NTUser-GUI-l1-2-0.dll
- - ext-ms-win-ntuser-gui-l1-2-1.dll
- - Ext-MS-Win-NTUser-Gui-L1-3-0.dll
+- user32.dll
+- Ext-MS-Win-NTUser-GUI-l1-1-1.dll
+- Ext-MS-Win-NTUser-GUI-l1-2-0.dll
+- ext-ms-win-ntuser-gui-l1-2-1.dll
+- Ext-MS-Win-NTUser-Gui-L1-3-0.dll
 api_name:
- - InvertRect
+- InvertRect
 targetos: Windows
 req.typenames: 
 req.redist: 

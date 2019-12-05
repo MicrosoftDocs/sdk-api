@@ -1,19 +1,17 @@
 ---
 UID: NF:mmc.IHeaderCtrl2.GetColumnFilter
 title: IHeaderCtrl2::GetColumnFilter (mmc.h)
-
 description: The IHeaderCtrl2::GetColumnFilter method retrieves the filter value set on the specified column.
 old-location: mmc\iheaderctrl2_getcolumnfilter.htm
 tech.root: mmc
 ms.assetid: 2daf15ac-4de2-422d-9ac0-b592090468ed
-
 ms.date: 12/05/2018
 ms.keywords: GetColumnFilter, GetColumnFilter method [MMC], GetColumnFilter method [MMC],IHeaderCtrl2 interface, IHeaderCtrl2 interface [MMC],GetColumnFilter method, IHeaderCtrl2.GetColumnFilter, IHeaderCtrl2::GetColumnFilter, _slate_iheaderctrl2_getcolumnfilter, mmc.iheaderctrl2_getcolumnfilter, mmc/IHeaderCtrl2::GetColumnFilter
 ms.topic: method
 f1_keywords:
 - mmc/IHeaderCtrl2.GetColumnFilter
 dev_langs:
- - c++
+- c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows

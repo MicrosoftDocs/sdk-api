@@ -1,19 +1,17 @@
 ---
 UID: NF:msinkaut.IInkCustomStrokes.Clear
 title: IInkCustomStrokes::Clear (msinkaut.h)
-
 description: Clears all InkStrokes collections from the IInkCustomStrokes collection.
 old-location: tablet\iinkcustomstrokes_clear.htm
 tech.root: tablet
 ms.assetid: 63ab20ee-f8ab-41ee-b85a-03d9a29dabc0
-
 ms.date: 12/05/2018
 ms.keywords: 63ab20ee-f8ab-41ee-b85a-03d9a29dabc0, Clear, Clear method [Tablet PC], Clear method [Tablet PC],IInkCustomStrokes interface, IInkCustomStrokes interface [Tablet PC],Clear method, IInkCustomStrokes.Clear, IInkCustomStrokes::Clear, msinkaut/IInkCustomStrokes::Clear, tablet.iinkcustomstrokes_clear
 ms.topic: method
-f1_keywords: 
- - "msinkaut/IInkCustomStrokes.Clear"
+f1_keywords:
+- msinkaut/IInkCustomStrokes.Clear
 dev_langs:
- - c++
+- c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: InkObj.dll
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - InkObj.dll
- - InkObj.dll.dll
+- InkObj.dll
+- InkObj.dll.dll
 api_name:
- - IInkCustomStrokes.Clear
+- IInkCustomStrokes.Clear
 targetos: Windows
 req.typenames: 
 req.redist: 

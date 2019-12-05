@@ -1,19 +1,17 @@
 ---
 UID: NF:pla.IDataCollector.put_LogAppend
 title: IDataCollector::put_LogAppend (pla.h)
-
 description: Retrieves or sets a value that indicates if PLA should append the collected data to the current file.
 old-location: pla\idatacollector_logappend.htm
 tech.root: PLA
 ms.assetid: c9843647-2c36-4d08-98d0-4df63b054993
-
 ms.date: 12/05/2018
 ms.keywords: IDataCollector interface [PLA],LogAppend property, IDataCollector.LogAppend, IDataCollector.put_LogAppend, IDataCollector::LogAppend, IDataCollector::get_LogAppend, IDataCollector::put_LogAppend, LogAppend property [PLA], LogAppend property [PLA],IDataCollector interface, base.idatacollector_logappend, pla.idatacollector_logappend, pla/IDataCollector::LogAppend, pla/IDataCollector::get_LogAppend, pla/IDataCollector::put_LogAppend, put_LogAppend
 ms.topic: method
-f1_keywords: 
- - "pla/IDataCollector.LogAppend"
+f1_keywords:
+- pla/IDataCollector.LogAppend
 dev_langs:
- - c++
+- c++
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: Pla.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Pla.dll
+- Pla.dll
 api_name:
- - IDataCollector.LogAppend
- - IDataCollector.get_LogAppend
- - IDataCollector.put_LogAppend
+- IDataCollector.LogAppend
+- IDataCollector.get_LogAppend
+- IDataCollector.put_LogAppend
 targetos: Windows
 req.typenames: 
 req.redist: 

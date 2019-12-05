@@ -1,19 +1,17 @@
 ---
 UID: NF:msinkaut.IInkPicture.get_SupportHighContrastInk
 title: IInkPicture::get_SupportHighContrastInk (msinkaut.h)
-
 description: Gets or sets a value that specifies whether ink is rendered as just one color when the system is in High Contrast mode.
 old-location: tablet\inkpicture_supporthighcontrastink.htm
 tech.root: tablet
 ms.assetid: 9f57e1fe-8224-43ef-bd26-2d15da625725
-
 ms.date: 12/05/2018
 ms.keywords: IInkPicture interface [Tablet PC],SupportHighContrastInk property, IInkPicture.SupportHighContrastInk, IInkPicture.get_SupportHighContrastInk, IInkPicture::SupportHighContrastInk, IInkPicture::get_SupportHighContrastInk, IInkPicture::put_SupportHighContrastInk, InkPicture.get_SupportHighContrastInk, InkPicture.put_SupportHighContrastInk, SupportHighContrastInk property [Tablet PC], SupportHighContrastInk property [Tablet PC],IInkPicture interface, get_SupportHighContrastInk, msinkaut/IInkPicture::SupportHighContrastInk, msinkaut/IInkPicture::get_SupportHighContrastInk, msinkaut/IInkPicture::put_SupportHighContrastInk, putt_SupportHighContrastInk, tablet.inkpicture_supporthighcontrastink
 ms.topic: method
-f1_keywords: 
- - "msinkaut/IInkPicture.SupportHighContrastInk"
+f1_keywords:
+- msinkaut/IInkPicture.SupportHighContrastInk
 dev_langs:
- - c++
+- c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows
@@ -32,19 +30,19 @@ req.lib: InkObj.dll
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - InkObj.dll
- - InkObj.dll.dll
+- InkObj.dll
+- InkObj.dll.dll
 api_name:
- - IInkPicture.SupportHighContrastInk
- - IInkPicture.get_SupportHighContrastInk
- - IInkPicture.put_SupportHighContrastInk
- - InkPicture.get_SupportHighContrastInk
- - InkPicture.put_SupportHighContrastInk
+- IInkPicture.SupportHighContrastInk
+- IInkPicture.get_SupportHighContrastInk
+- IInkPicture.put_SupportHighContrastInk
+- InkPicture.get_SupportHighContrastInk
+- InkPicture.put_SupportHighContrastInk
 targetos: Windows
 req.typenames: 
 req.redist: 

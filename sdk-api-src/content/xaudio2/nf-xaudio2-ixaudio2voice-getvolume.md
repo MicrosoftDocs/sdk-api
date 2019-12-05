@@ -1,19 +1,17 @@
 ---
 UID: NF:xaudio2.IXAudio2Voice.GetVolume
 title: IXAudio2Voice::GetVolume (xaudio2.h)
-
 description: Gets the current overall volume level of the voice.
 old-location: xaudio2\ixaudio2voice_interface_getvolume.htm
 tech.root: xaudio2
 ms.assetid: M:Microsoft.directx_sdk.ixaudio2voice.IXAudio2Voice.GetVolume(float@)
-
 ms.date: 12/05/2018
 ms.keywords: GetVolume, GetVolume method [XAudio2 Audio Mixing APIs], GetVolume method [XAudio2 Audio Mixing APIs],IXAudio2Voice interface, IXAudio2Voice interface [XAudio2 Audio Mixing APIs],GetVolume method, IXAudio2Voice.GetVolume, IXAudio2Voice::GetVolume, xaudio2.ixaudio2voice_interface_getvolume, xaudio2/IXAudio2Voice::GetVolume
 ms.topic: method
-f1_keywords: 
- - "xaudio2/IXAudio2Voice.GetVolume"
+f1_keywords:
+- xaudio2/IXAudio2Voice.GetVolume
 dev_langs:
- - c++
+- c++
 req.header: xaudio2.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xaudio2.h
+- xaudio2.h
 api_name:
- - IXAudio2Voice.GetVolume
+- IXAudio2Voice.GetVolume
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NS:winnt._PROCESS_MITIGATION_SYSTEM_CALL_DISABLE_POLICY
 title: PROCESS_MITIGATION_SYSTEM_CALL_DISABLE_POLICY (winnt.h)
-
 description: Used to impose restrictions on what system calls can be invoked by a process.
 old-location: base\process_mitigation_system_call_disable_policy.htm
 tech.root: ProcThread
 ms.assetid: dfcdf4ae-c779-477c-8df6-de24b8037d62
-
 ms.date: 12/05/2018
-ms.keywords: "*PPROCESS_MITIGATION_SYSTEM_CALL_DISABLE_POLICY, PPROCESS_MITIGATION_SYSTEM_CALL_DISABLE_POLICY, PPROCESS_MITIGATION_SYSTEM_CALL_DISABLE_POLICY structure pointer, PROCESS_MITIGATION_SYSTEM_CALL_DISABLE_POLICY, PROCESS_MITIGATION_SYSTEM_CALL_DISABLE_POLICY structure, _PROCESS_MITIGATION_SYSTEM_CALL_DISABLE_POLICY, base.process_mitigation_system_call_disable_policy, winnt/PPROCESS_MITIGATION_SYSTEM_CALL_DISABLE_POLICY, winnt/PROCESS_MITIGATION_SYSTEM_CALL_DISABLE_POLICY"
+ms.keywords: '*PPROCESS_MITIGATION_SYSTEM_CALL_DISABLE_POLICY, PPROCESS_MITIGATION_SYSTEM_CALL_DISABLE_POLICY, PPROCESS_MITIGATION_SYSTEM_CALL_DISABLE_POLICY structure pointer, PROCESS_MITIGATION_SYSTEM_CALL_DISABLE_POLICY, PROCESS_MITIGATION_SYSTEM_CALL_DISABLE_POLICY structure, _PROCESS_MITIGATION_SYSTEM_CALL_DISABLE_POLICY, base.process_mitigation_system_call_disable_policy, winnt/PPROCESS_MITIGATION_SYSTEM_CALL_DISABLE_POLICY, winnt/PROCESS_MITIGATION_SYSTEM_CALL_DISABLE_POLICY'
 ms.topic: struct
-f1_keywords: 
- - "winnt/PROCESS_MITIGATION_SYSTEM_CALL_DISABLE_POLICY"
+f1_keywords:
+- winnt/PROCESS_MITIGATION_SYSTEM_CALL_DISABLE_POLICY
 dev_langs:
- - c++
+- c++
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WinNT.h
+- WinNT.h
 api_name:
- - PROCESS_MITIGATION_SYSTEM_CALL_DISABLE_POLICY
+- PROCESS_MITIGATION_SYSTEM_CALL_DISABLE_POLICY
 targetos: Windows
 req.typenames: PROCESS_MITIGATION_SYSTEM_CALL_DISABLE_POLICY, *PPROCESS_MITIGATION_SYSTEM_CALL_DISABLE_POLICY
 req.redist: 

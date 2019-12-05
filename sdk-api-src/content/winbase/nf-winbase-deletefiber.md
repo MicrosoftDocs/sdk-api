@@ -1,19 +1,17 @@
 ---
 UID: NF:winbase.DeleteFiber
 title: DeleteFiber function (winbase.h)
-
 description: Deletes an existing fiber.
 old-location: base\deletefiber.htm
 tech.root: ProcThread
 ms.assetid: e1a7453a-6878-49dd-831f-1857a489e97f
-
 ms.date: 12/05/2018
 ms.keywords: DeleteFiber, DeleteFiber function, _win32_deletefiber, base.deletefiber, winbase/DeleteFiber
 ms.topic: function
-f1_keywords: 
- - "winbase/DeleteFiber"
+f1_keywords:
+- winbase/DeleteFiber
 dev_langs:
- - c++
+- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,19 +30,19 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-fibers-l2-1-0.dll
- - kernel32legacy.dll
- - API-MS-Win-Core-fibers-l2-1-1.dll
- - API-MS-Win-DownLevel-Kernel32-l2-1-0.dll
- - KernelBase.dll
+- Kernel32.dll
+- API-MS-Win-Core-fibers-l2-1-0.dll
+- kernel32legacy.dll
+- API-MS-Win-Core-fibers-l2-1-1.dll
+- API-MS-Win-DownLevel-Kernel32-l2-1-0.dll
+- KernelBase.dll
 api_name:
- - DeleteFiber
+- DeleteFiber
 targetos: Windows
 req.typenames: 
 req.redist: 

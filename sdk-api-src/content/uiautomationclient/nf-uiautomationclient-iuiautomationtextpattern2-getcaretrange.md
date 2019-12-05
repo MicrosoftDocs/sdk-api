@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationTextPattern2.GetCaretRange
 title: IUIAutomationTextPattern2::GetCaretRange (uiautomationclient.h)
-
 description: Retrieves a zero-length text range at the location of the caret that belongs to the text-based control.
 old-location: winauto\uiauto_IUIAutomationTextPattern2_GetCaretRange.htm
 tech.root: WinAuto
 ms.assetid: EDB53C04-142E-4DCC-8DD7-F7DD4BC6A67F
-
 ms.date: 12/05/2018
 ms.keywords: GetCaretRange, GetCaretRange method [Windows Accessibility], GetCaretRange method [Windows Accessibility],IUIAutomationTextPattern2 interface, IUIAutomationTextPattern2 interface [Windows Accessibility],GetCaretRange method, IUIAutomationTextPattern2.GetCaretRange, IUIAutomationTextPattern2::GetCaretRange, uiautomationclient/IUIAutomationTextPattern2::GetCaretRange, winauto.uiauto_IUIAutomationTextPattern2_GetCaretRange
 ms.topic: method
-f1_keywords: 
- - "uiautomationclient/IUIAutomationTextPattern2.GetCaretRange"
+f1_keywords:
+- uiautomationclient/IUIAutomationTextPattern2.GetCaretRange
 dev_langs:
- - c++
+- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationClient.h
+- UIAutomationClient.h
 api_name:
- - IUIAutomationTextPattern2.GetCaretRange
+- IUIAutomationTextPattern2.GetCaretRange
 targetos: Windows
 req.typenames: 
 req.redist: 

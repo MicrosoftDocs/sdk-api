@@ -1,19 +1,17 @@
 ---
 UID: NF:gdiplusheaders.Bitmap.UnlockBits
 title: Bitmap::UnlockBits (gdiplusheaders.h)
-
 description: The Bitmap::UnlockBits method unlocks a portion of this bitmap that was previously locked by a call to Bitmap::LockBits.
 old-location: gdiplus\_gdiplus_CLASS_Bitmap_UnlockBits_lockedBitmapData_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\bitmapclass\bitmapmethods\unlockbits.htm
-
 ms.date: 12/05/2018
 ms.keywords: Bitmap class [GDI+],UnlockBits method, Bitmap.UnlockBits, Bitmap::UnlockBits, UnlockBits, UnlockBits method [GDI+], UnlockBits method [GDI+],Bitmap class, _gdiplus_CLASS_Bitmap_UnlockBits_lockedBitmapData_, gdiplus._gdiplus_CLASS_Bitmap_UnlockBits_lockedBitmapData_
 ms.topic: method
-f1_keywords: 
- - "gdiplusheaders/Bitmap.UnlockBits"
+f1_keywords:
+- gdiplusheaders/Bitmap.UnlockBits
 dev_langs:
- - c++
+- c++
 req.header: gdiplusheaders.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - Bitmap.UnlockBits
+- Bitmap.UnlockBits
 targetos: Windows
 req.typenames: 
 req.redist: 

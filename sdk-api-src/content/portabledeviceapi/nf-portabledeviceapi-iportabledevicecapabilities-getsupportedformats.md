@@ -1,19 +1,17 @@
 ---
 UID: NF:portabledeviceapi.IPortableDeviceCapabilities.GetSupportedFormats
 title: IPortableDeviceCapabilities::GetSupportedFormats (portabledeviceapi.h)
-
 description: The GetSupportedFormats method retrieves the supported formats for a specified object type on the device. For example, specifying audio objects might return WPD_OBJECT_FORMAT_WMA, WPD_OBJECT_FORMAT_WAV, and WPD_OBJECT_FORMAT_MP3.
 old-location: wpdsdk\iportabledevicecapabilities_getsupportedformats.htm
 tech.root: wpd_sdk
 ms.assetid: 7568f5cf-2f9e-459c-ae08-d23b9e37ce4e
-
 ms.date: 12/05/2018
 ms.keywords: GetSupportedFormats, GetSupportedFormats method [Windows Portable Devices SDK], GetSupportedFormats method [Windows Portable Devices SDK],IPortableDeviceCapabilities interface, IPortableDeviceCapabilities interface [Windows Portable Devices SDK],GetSupportedFormats method, IPortableDeviceCapabilities.GetSupportedFormats, IPortableDeviceCapabilities::GetSupportedFormats, IPortableDeviceCapabilitiesGetSupportedFormats, portabledeviceapi/IPortableDeviceCapabilities::GetSupportedFormats, wpdsdk.iportabledevicecapabilities_getsupportedformats
 ms.topic: method
-f1_keywords: 
- - "portabledeviceapi/IPortableDeviceCapabilities.GetSupportedFormats"
+f1_keywords:
+- portabledeviceapi/IPortableDeviceCapabilities.GetSupportedFormats
 dev_langs:
- - c++
+- c++
 req.header: portabledeviceapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: PortableDeviceGUIDs.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - PortableDeviceGUIDs.lib
- - PortableDeviceGUIDs.dll
+- PortableDeviceGUIDs.lib
+- PortableDeviceGUIDs.dll
 api_name:
- - IPortableDeviceCapabilities.GetSupportedFormats
+- IPortableDeviceCapabilities.GetSupportedFormats
 targetos: Windows
 req.typenames: 
 req.redist: 

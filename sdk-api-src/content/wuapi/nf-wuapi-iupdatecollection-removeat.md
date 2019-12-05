@@ -1,19 +1,17 @@
 ---
 UID: NF:wuapi.IUpdateCollection.RemoveAt
 title: IUpdateCollection::RemoveAt (wuapi.h)
-
 description: Removes the item at the specified index from the collection.
 old-location: wua\iupdatecollection_removeat.htm
 tech.root: Wua_Sdk
 ms.assetid: b6d32db8-c935-41f8-a8f3-0730719cac7e
-
 ms.date: 12/05/2018
 ms.keywords: IUpdateCollection interface [Windows Update Agent],RemoveAt method, IUpdateCollection.RemoveAt, IUpdateCollection::RemoveAt, RemoveAt, RemoveAt method [Windows Update Agent], RemoveAt method [Windows Update Agent],IUpdateCollection interface, wua.iupdatecollection_removeat, wuapi/IUpdateCollection::RemoveAt
 ms.topic: method
-f1_keywords: 
- - "wuapi/IUpdateCollection.RemoveAt"
+f1_keywords:
+- wuapi/IUpdateCollection.RemoveAt
 dev_langs:
- - c++
+- c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Wuguid.lib
 req.dll: Wuapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wuapi.dll
+- Wuapi.dll
 api_name:
- - IUpdateCollection.RemoveAt
+- IUpdateCollection.RemoveAt
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NN:upnphost.IUPnPRegistrar
 title: IUPnPRegistrar (upnphost.h)
-
 description: The IUPnPRegistrar interface registers the devices that run in the context of the device host.
 old-location: upnp\iupnpregistrar.htm
 tech.root: upnp
 ms.assetid: c851e102-4f03-4a21-9e62-9b5c60a728f3
-
 ms.date: 12/05/2018
 ms.keywords: IUPnPRegistrar, IUPnPRegistrar interface [UPnP APIs], IUPnPRegistrar interface [UPnP APIs],described, _upnp_iupnpregistrar, upnp.iupnpregistrar, upnphost/IUPnPRegistrar
 ms.topic: interface
-f1_keywords: 
- - "upnphost/IUPnPRegistrar"
+f1_keywords:
+- upnphost/IUPnPRegistrar
 dev_langs:
- - c++
+- c++
 req.header: upnphost.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Upnphost.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Upnphost.dll
+- Upnphost.dll
 api_name:
- - IUPnPRegistrar
+- IUPnPRegistrar
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:windows.devices.alljoyn.interop.IWindowsDevicesAllJoynBusAttachmentInterop.get_Win32Handle
 title: IWindowsDevicesAllJoynBusAttachmentInterop::alljoyn (windows.devices.alljoyn.interop.h)
-
 description: Classic COM interface that simply returns a pointer to the underlying alljoyn_busattachment instance, so the app can use it directly with the AllJoyn Core C API.
 old-location: alljoyn\iwindowsdevicesalljoynbusattachmentinterop_get_win32handle.htm
 tech.root: AllJoyn
 ms.assetid: E46C47FC-08D2-4CE6-9205-46A840DFA3F4
-
 ms.date: 12/05/2018
 ms.keywords: IInspectable ::get_Win32Handle, IInspectable interface [AllJoyn API],get_Win32Handle method, IWindowsDevicesAllJoynBusAttachmentInterop interface [AllJoyn API],get_Win32Handle method, IWindowsDevicesAllJoynBusAttachmentInterop.alljoyn, IWindowsDevicesAllJoynBusAttachmentInterop.get_Win32Handle, IWindowsDevicesAllJoynBusAttachmentInterop::alljoyn, IWindowsDevicesAllJoynBusAttachmentInterop::get_Win32Handle, alljoyn.iwindowsdevicesalljoynbusattachmentinterop_get_win32handle, get_Win32Handle, get_Win32Handle method [AllJoyn API], get_Win32Handle method [AllJoyn API],IInspectable interface, get_Win32Handle method [AllJoyn API],IWindowsDevicesAllJoynBusAttachmentInterop interface, windows/IInspectable ::get_Win32Handle, windows/IWindowsDevicesAllJoynBusAttachmentInterop::get_Win32Handle
 ms.topic: method
-f1_keywords: 
- - "windows.devices.alljoyn.interop/IWindowsDevicesAllJoynBusAttachmentInterop.get_Win32Handle"
+f1_keywords:
+- windows.devices.alljoyn.interop/IWindowsDevicesAllJoynBusAttachmentInterop.get_Win32Handle
 dev_langs:
- - c++
+- c++
 req.header: windows.devices.alljoyn.interop.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - windows.devices.alljoyn.interop.h
+- windows.devices.alljoyn.interop.h
 api_name:
- - IWindowsDevicesAllJoynBusAttachmentInterop.get_Win32Handle
- - IInspectable .get_Win32Handle
+- IWindowsDevicesAllJoynBusAttachmentInterop.get_Win32Handle
+- IInspectable .get_Win32Handle
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:netfw.INetFwRule.get_Profiles
 title: INetFwRule::get_Profiles (netfw.h)
-
 description: Specifies the profiles to which the rule belongs.
 old-location: ics\inetfwrule_profiles.htm
 tech.root: ics
 ms.assetid: 98e40140-1df2-439a-9c83-a50f82f65e24
-
 ms.date: 12/05/2018
 ms.keywords: INetFwRule interface [ICS/ICF],Profiles property, INetFwRule.Profiles, INetFwRule.get_Profiles, INetFwRule::Profiles, INetFwRule::get_Profiles, INetFwRule::put_Profiles, Profiles property [ICS/ICF], Profiles property [ICS/ICF],INetFwRule interface, get_Profiles, ics.inetfwrule_profiles, netfw/INetFwRule::Profiles, netfw/INetFwRule::get_Profiles, netfw/INetFwRule::put_Profiles
 ms.topic: method
-f1_keywords: 
- - "netfw/INetFwRule.Profiles"
+f1_keywords:
+- netfw/INetFwRule.Profiles
 dev_langs:
- - c++
+- c++
 req.header: netfw.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: FirewallAPI.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - FirewallAPI.dll
+- FirewallAPI.dll
 api_name:
- - INetFwRule.Profiles
- - INetFwRule.get_Profiles
- - INetFwRule.put_Profiles
+- INetFwRule.Profiles
+- INetFwRule.get_Profiles
+- INetFwRule.put_Profiles
 targetos: Windows
 req.typenames: 
 req.redist: 

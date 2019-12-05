@@ -1,19 +1,17 @@
 ---
 UID: NF:upnp.IUPnPServiceEnumProperty.SetServiceEnumProperty
 title: IUPnPServiceEnumProperty::SetServiceEnumProperty (upnp.h)
-
 description: The SetServiceEnumProperty method is used to indicate opt-in to the delayed Service Control Protocol Description (SCPD) download and event subscription for the IUPnPService objects enumerated from the IUPnPServices object.
 old-location: upnp\iupnpserviceenumproperty_setserviceenumproperty.htm
 tech.root: upnp
 ms.assetid: B138A230-7523-4803-ACE8-4F636DD54D86
-
 ms.date: 12/05/2018
 ms.keywords: IUPnPServiceEnumProperty interface [UPnP APIs],SetServiceEnumProperty method, IUPnPServiceEnumProperty.SetServiceEnumProperty, IUPnPServiceEnumProperty::SetServiceEnumProperty, SetServiceEnumProperty, SetServiceEnumProperty method [UPnP APIs], SetServiceEnumProperty method [UPnP APIs],IUPnPServiceEnumProperty interface, upnp.iupnpserviceenumproperty_setserviceenumproperty, upnp/IUPnPServiceEnumProperty::SetServiceEnumProperty
 ms.topic: method
-f1_keywords: 
- - "upnp/IUPnPServiceEnumProperty.SetServiceEnumProperty"
+f1_keywords:
+- upnp/IUPnPServiceEnumProperty.SetServiceEnumProperty
 dev_langs:
- - c++
+- c++
 req.header: upnp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Upnp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Upnp.dll
+- Upnp.dll
 api_name:
- - IUPnPServiceEnumProperty.SetServiceEnumProperty
+- IUPnPServiceEnumProperty.SetServiceEnumProperty
 targetos: Windows
 req.typenames: 
 req.redist: 

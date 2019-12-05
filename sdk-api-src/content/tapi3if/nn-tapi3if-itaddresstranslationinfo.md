@@ -1,19 +1,17 @@
 ---
 UID: NN:tapi3if.ITAddressTranslationInfo
 title: ITAddressTranslationInfo (tapi3if.h)
-
 description: Used to determine the address translation data.
 old-location: tapi3\itaddresstranslationinfo.htm
 tech.root: Tapi
 ms.assetid: b59454a0-315f-4160-b969-d930c13bb4de
-
 ms.date: 12/05/2018
 ms.keywords: ITAddressTranslationInfo, ITAddressTranslationInfo interface [TAPI 2.2], ITAddressTranslationInfo interface [TAPI 2.2],described, _tapi3_itaddresstranslationinfo, tapi3.itaddresstranslationinfo, tapi3if/ITAddressTranslationInfo
 ms.topic: interface
-f1_keywords: 
- - "tapi3if/ITAddressTranslationInfo"
+f1_keywords:
+- tapi3if/ITAddressTranslationInfo
 dev_langs:
- - c++
+- c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Tapi3.dll
+- Tapi3.dll
 api_name:
- - ITAddressTranslationInfo
+- ITAddressTranslationInfo
 targetos: Windows
 req.typenames: 
 req.redist: 

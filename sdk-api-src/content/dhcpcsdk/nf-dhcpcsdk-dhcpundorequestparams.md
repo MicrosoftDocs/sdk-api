@@ -1,19 +1,17 @@
 ---
 UID: NF:dhcpcsdk.DhcpUndoRequestParams
 title: DhcpUndoRequestParams function (dhcpcsdk.h)
-
 description: The DhcpUndoRequestParams function removes persistent requests previously made with a DhcpRequestParams function call.
 old-location: dhcp\dhcpundorequestparams.htm
 tech.root: DHCP
 ms.assetid: a70fc72e-0fbd-4ee7-ae87-780fdc942384
-
 ms.date: 12/05/2018
 ms.keywords: DhcpUndoRequestParams, DhcpUndoRequestParams function [DHCP], _dhcp_dhcpundorequestparams, dhcp.dhcpundorequestparams, dhcpcsdk/DhcpUndoRequestParams
 ms.topic: function
-f1_keywords: 
- - "dhcpcsdk/DhcpUndoRequestParams"
+f1_keywords:
+- dhcpcsdk/DhcpUndoRequestParams
 dev_langs:
- - c++
+- c++
 req.header: dhcpcsdk.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dhcpcsvc.lib
 req.dll: Dhcpcsvc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Dhcpcsvc.dll
+- Dhcpcsvc.dll
 api_name:
- - DhcpUndoRequestParams
+- DhcpUndoRequestParams
 targetos: Windows
 req.typenames: 
 req.redist: 

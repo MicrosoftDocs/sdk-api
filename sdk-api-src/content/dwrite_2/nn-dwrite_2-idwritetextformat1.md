@@ -1,19 +1,17 @@
 ---
 UID: NN:dwrite_2.IDWriteTextFormat1
 title: IDWriteTextFormat1 (dwrite_2.h)
-
 description: Describes the font and paragraph properties used to format text, and it describes locale information.
 old-location: directwrite\idwritetextformat1.htm
 tech.root: DirectWrite
 ms.assetid: 15295A17-E542-4071-AE38-02014A1235D5
-
 ms.date: 12/05/2018
 ms.keywords: IDWriteTextFormat1, IDWriteTextFormat1 interface [Direct Write], IDWriteTextFormat1 interface [Direct Write],described, directwrite.idwritetextformat1, dwrite_2/IDWriteTextFormat1
 ms.topic: interface
-f1_keywords: 
- - "dwrite_2/IDWriteTextFormat1"
+f1_keywords:
+- dwrite_2/IDWriteTextFormat1
 dev_langs:
- - c++
+- c++
 req.header: dwrite_2.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dwrite.lib
 req.dll: Dwrite.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dwrite.dll
+- dwrite.dll
 api_name:
- - IDWriteTextFormat1
+- IDWriteTextFormat1
 targetos: Windows
 req.typenames: 
 req.redist: 

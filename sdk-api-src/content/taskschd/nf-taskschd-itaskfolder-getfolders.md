@@ -1,19 +1,17 @@
 ---
 UID: NF:taskschd.ITaskFolder.GetFolders
 title: ITaskFolder::GetFolders (taskschd.h)
-
 description: Gets all the subfolders in the folder.
 old-location: taskschd\itaskfolder_getfolders.htm
 tech.root: taskschd
 ms.assetid: ee00a8be-52f5-4399-9a1f-18e06121a3da
-
 ms.date: 12/05/2018
 ms.keywords: GetFolders, GetFolders method [Task Scheduler], GetFolders method [Task Scheduler],ITaskFolder interface, ITaskFolder interface [Task Scheduler],GetFolders method, ITaskFolder.GetFolders, ITaskFolder::GetFolders, taskschd.itaskfolder_getfolders, taskschd/ITaskFolder::GetFolders
 ms.topic: method
-f1_keywords: 
- - "taskschd/ITaskFolder.GetFolders"
+f1_keywords:
+- taskschd/ITaskFolder.GetFolders
 dev_langs:
- - c++
+- c++
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Taskschd.lib
 req.dll: Taskschd.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - taskschd.dll
+- taskschd.dll
 api_name:
- - ITaskFolder.GetFolders
+- ITaskFolder.GetFolders
 targetos: Windows
 req.typenames: 
 req.redist: 

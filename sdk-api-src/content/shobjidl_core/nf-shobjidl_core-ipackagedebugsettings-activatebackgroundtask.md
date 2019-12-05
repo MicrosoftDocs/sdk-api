@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IPackageDebugSettings.ActivateBackgroundTask
 title: IPackageDebugSettings::ActivateBackgroundTask (shobjidl_core.h)
-
 description: Activates the specified background task.
 old-location: shell\IPackageDebugSettings_ActivateBackgroundTask.htm
 tech.root: shell
 ms.assetid: 30ef83f0-cad1-4aee-9b70-0fe7189aff9e
-
 ms.date: 12/05/2018
 ms.keywords: ActivateBackgroundTask, ActivateBackgroundTask method [Windows Shell], ActivateBackgroundTask method [Windows Shell],IPackageDebugSettings interface, IPackageDebugSettings interface [Windows Shell],ActivateBackgroundTask method, IPackageDebugSettings.ActivateBackgroundTask, IPackageDebugSettings::ActivateBackgroundTask, shell.IPackageDebugSettings_ActivateBackgroundTask, shobjidl_core/IPackageDebugSettings::ActivateBackgroundTask
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IPackageDebugSettings.ActivateBackgroundTask"
+f1_keywords:
+- shobjidl_core/IPackageDebugSettings.ActivateBackgroundTask
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shobjidl_core.h
+- Shobjidl_core.h
 api_name:
- - IPackageDebugSettings.ActivateBackgroundTask
+- IPackageDebugSettings.ActivateBackgroundTask
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NE:tcpestats.__unnamed_enum_0
 title: TCP_ESTATS_TYPE (tcpestats.h)
-
 description: Defines the type of extended statistics for a TCP connection that is requested or being set.
 old-location: iphlp\tcp_estats_type.htm
 tech.root: IpHlp
 ms.assetid: 96f55528-e74a-4360-a7a2-54ba19c3a284
-
 ms.date: 12/05/2018
-ms.keywords: "*PTCP_ESTATS_TYPE, TCP_ESTATS_TYPE, TCP_ESTATS_TYPE enumeration [IP Helper], TcpConnectionEstatsBandwidth, TcpConnectionEstatsData, TcpConnectionEstatsFineRtt, TcpConnectionEstatsMaximum, TcpConnectionEstatsObsRec, TcpConnectionEstatsPath, TcpConnectionEstatsRec, TcpConnectionEstatsSendBuff, TcpConnectionEstatsSndCong, TcpConnectionEstatsSynOpts, iphlp.tcp_estats_type, tcpestats/TCP_ESTATS_TYPE, tcpestats/TcpConnectionEstatsBandwidth, tcpestats/TcpConnectionEstatsData, tcpestats/TcpConnectionEstatsFineRtt, tcpestats/TcpConnectionEstatsMaximum, tcpestats/TcpConnectionEstatsObsRec, tcpestats/TcpConnectionEstatsPath, tcpestats/TcpConnectionEstatsRec, tcpestats/TcpConnectionEstatsSendBuff, tcpestats/TcpConnectionEstatsSndCong, tcpestats/TcpConnectionEstatsSynOpts"
+ms.keywords: '*PTCP_ESTATS_TYPE, TCP_ESTATS_TYPE, TCP_ESTATS_TYPE enumeration [IP Helper], TcpConnectionEstatsBandwidth, TcpConnectionEstatsData, TcpConnectionEstatsFineRtt, TcpConnectionEstatsMaximum, TcpConnectionEstatsObsRec, TcpConnectionEstatsPath, TcpConnectionEstatsRec, TcpConnectionEstatsSendBuff, TcpConnectionEstatsSndCong, TcpConnectionEstatsSynOpts, iphlp.tcp_estats_type, tcpestats/TCP_ESTATS_TYPE, tcpestats/TcpConnectionEstatsBandwidth, tcpestats/TcpConnectionEstatsData, tcpestats/TcpConnectionEstatsFineRtt, tcpestats/TcpConnectionEstatsMaximum, tcpestats/TcpConnectionEstatsObsRec, tcpestats/TcpConnectionEstatsPath, tcpestats/TcpConnectionEstatsRec, tcpestats/TcpConnectionEstatsSendBuff, tcpestats/TcpConnectionEstatsSndCong, tcpestats/TcpConnectionEstatsSynOpts'
 ms.topic: enum
-f1_keywords: 
- - "tcpestats/TCP_ESTATS_TYPE"
+f1_keywords:
+- tcpestats/TCP_ESTATS_TYPE
 dev_langs:
- - c++
+- c++
 req.header: tcpestats.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Tcpestats.h
+- Tcpestats.h
 api_name:
- - TCP_ESTATS_TYPE
+- TCP_ESTATS_TYPE
 targetos: Windows
 req.typenames: TCP_ESTATS_TYPE, *PTCP_ESTATS_TYPE
 req.redist: 

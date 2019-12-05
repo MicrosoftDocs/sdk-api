@@ -1,19 +1,17 @@
 ---
 UID: NF:xinput.XInputGetBatteryInformation
 title: XInputGetBatteryInformation function (xinput.h)
-
 description: Retrieves the battery type and charge status of a wireless controller.
 old-location: xinput\xinputgetbatteryinformation.htm
 tech.root: xinput
 ms.assetid: M:Microsoft.directx_sdk.reference.XInputGetBatteryInformation(DWORD,BYTE,XINPUT_BATTERY_INFORMATION@)
-
 ms.date: 12/05/2018
 ms.keywords: XInputGetBatteryInformation, XInputGetBatteryInformation function [XInput Game Controller APIs], xinput.xinputgetbatteryinformation, xinput/XInputGetBatteryInformation
 ms.topic: function
 f1_keywords:
 - xinput/XInputGetBatteryInformation
 dev_langs:
- - c++
+- c++
 req.header: xinput.h
 req.include-header: 
 req.target-type: Windows

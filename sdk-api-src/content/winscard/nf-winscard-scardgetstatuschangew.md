@@ -1,19 +1,17 @@
 ---
 UID: NF:winscard.SCardGetStatusChangeW
 title: SCardGetStatusChangeW function (winscard.h)
-
 description: Blocks execution until the current availability of the cards in a specific set of readers changes.
 old-location: security\scardgetstatuschange.htm
 tech.root: SecAuthN
 ms.assetid: 94776f3d-e8f0-4062-a766-2cf28cbfd050
-
 ms.date: 12/05/2018
 ms.keywords: SCardGetStatusChange, SCardGetStatusChange function [Security], SCardGetStatusChangeA, SCardGetStatusChangeW, _smart_scardgetstatuschange, security.scardgetstatuschange, winscard/SCardGetStatusChange, winscard/SCardGetStatusChangeA, winscard/SCardGetStatusChangeW
 ms.topic: function
-f1_keywords: 
- - "winscard/SCardGetStatusChange"
+f1_keywords:
+- winscard/SCardGetStatusChange
 dev_langs:
- - c++
+- c++
 req.header: winscard.h
 req.include-header: 
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib: Winscard.lib
 req.dll: Winscard.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Winscard.dll
- - Ext-MS-Win-wlan-scard-l1-1-0.dll
- - Ext-MS-Win-Security-WinSCard-L1-1-0.dll
+- Winscard.dll
+- Ext-MS-Win-wlan-scard-l1-1-0.dll
+- Ext-MS-Win-Security-WinSCard-L1-1-0.dll
 api_name:
- - SCardGetStatusChange
- - SCardGetStatusChangeA
- - SCardGetStatusChangeW
+- SCardGetStatusChange
+- SCardGetStatusChangeA
+- SCardGetStatusChangeW
 targetos: Windows
 req.typenames: 
 req.redist: 

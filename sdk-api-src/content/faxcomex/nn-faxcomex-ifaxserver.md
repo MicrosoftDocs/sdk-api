@@ -1,19 +1,17 @@
 ---
 UID: NN:faxcomex.IFaxServer
 title: IFaxServer (faxcomex.h)
-
 description: The IFaxServer interface describes a messaging collection that is used by a fax client application to manage a connection to the fax service.
 old-location: fax\_mfax_faxserver_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_4isy_cpp.htm
-
 ms.date: 12/05/2018
 ms.keywords: IFaxServer, IFaxServer interface [Fax Service], IFaxServer interface [Fax Service],described, _mfax_faxserver_cpp, fax._mfax_faxserver_cpp, faxcomex/IFaxServer
 ms.topic: interface
-f1_keywords: 
- - "faxcomex/IFaxServer"
+f1_keywords:
+- faxcomex/IFaxServer
 dev_langs:
- - c++
+- c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Fxscomex.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Fxscomex.dll
+- Fxscomex.dll
 api_name:
- - IFaxServer
+- IFaxServer
 targetos: Windows
 req.typenames: 
 req.redist: 

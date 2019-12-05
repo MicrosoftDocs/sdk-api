@@ -1,19 +1,17 @@
 ---
 UID: NF:directxmath.XMStoreInt2
 title: XMStoreInt2 function (directxmath.h)
-
 description: Stores an XMVECTOR in a 2-element uint32_t array.
 old-location: dxmath\xmstoreint2.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.storing.XMStoreInt2(VOID@,XMVERTORI)
-
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMStoreInt2, XMStoreInt2, XMStoreInt2 method [DirectX Math Support APIs], dxmath.xmstoreint2
 ms.topic: function
-f1_keywords: 
- - "directxmath/XMStoreInt2"
+f1_keywords:
+- directxmath/XMStoreInt2
 dev_langs:
- - c++
+- c++
 req.header: directxmath.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - DirectXMath.h
+- DirectXMath.h
 api_name:
- - XMStoreInt2
+- XMStoreInt2
 targetos: Windows
 req.typenames: 
 req.redist: 

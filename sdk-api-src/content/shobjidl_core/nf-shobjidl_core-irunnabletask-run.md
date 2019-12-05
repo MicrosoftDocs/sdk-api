@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IRunnableTask.Run
 title: IRunnableTask::Run (shobjidl_core.h)
-
 description: Requests that a task begin.
 old-location: shell\IRunnableTask_Run.htm
 tech.root: shell
 ms.assetid: b929543c-d5b3-4d48-b13f-bbef568287a5
-
 ms.date: 12/05/2018
 ms.keywords: IRunnableTask interface [Windows Shell],Run method, IRunnableTask.Run, IRunnableTask::Run, Run, Run method [Windows Shell], Run method [Windows Shell],IRunnableTask interface, _win32_IRunnableTask_Run, shell.IRunnableTask_Run, shobjidl_core/IRunnableTask::Run
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IRunnableTask.Run"
+f1_keywords:
+- shobjidl_core/IRunnableTask.Run
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Shell32.dll (version 5.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - IRunnableTask.Run
+- IRunnableTask.Run
 targetos: Windows
 req.typenames: 
 req.redist: 

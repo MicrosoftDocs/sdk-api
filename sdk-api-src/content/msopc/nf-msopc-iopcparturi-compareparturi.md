@@ -1,19 +1,17 @@
 ---
 UID: NF:msopc.IOpcPartUri.ComparePartUri
 title: IOpcPartUri::ComparePartUri (msopc.h)
-
 description: Returns an integer that indicates whether the URIs represented by the current part URI object and a specified part URI object are equivalent.
 old-location: opc\iopcparturi_compareparturi.htm
 tech.root: OPC
 ms.assetid: b97890f8-dc9d-494f-82f9-3d32c09f5d67
-
 ms.date: 12/05/2018
 ms.keywords: ComparePartUri, ComparePartUri method [Open Packaging Conventions], ComparePartUri method [Open Packaging Conventions],IOpcPartUri interface, IOpcPartUri interface [Open Packaging Conventions],ComparePartUri method, IOpcPartUri.ComparePartUri, IOpcPartUri::ComparePartUri, msopc/IOpcPartUri::ComparePartUri, opc.iopcparturi_compareparturi
 ms.topic: method
-f1_keywords: 
- - "msopc/IOpcPartUri.ComparePartUri"
+f1_keywords:
+- msopc/IOpcPartUri.ComparePartUri
 dev_langs:
- - c++
+- c++
 req.header: msopc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msopc.h
+- msopc.h
 api_name:
- - IOpcPartUri.ComparePartUri
+- IOpcPartUri.ComparePartUri
 targetos: Windows
 req.typenames: 
 req.redist: 

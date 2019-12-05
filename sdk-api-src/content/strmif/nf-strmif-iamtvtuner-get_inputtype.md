@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IAMTVTuner.get_InputType
 title: IAMTVTuner::get_InputType (strmif.h)
-
 description: The get_InputType method retrieves the input type set in IAMTVTuner::put_InputType.
 old-location: dshow\iamtvtuner_get_inputtype.htm
 tech.root: DirectShow
 ms.assetid: 49763cc3-be8b-4620-b99f-af787844c97c
-
 ms.date: 12/05/2018
 ms.keywords: IAMTVTuner interface [DirectShow],get_InputType method, IAMTVTuner.get_InputType, IAMTVTuner::get_InputType, IAMTVTunerget_InputType, dshow.iamtvtuner_get_inputtype, get_InputType, get_InputType method [DirectShow], get_InputType method [DirectShow],IAMTVTuner interface, strmif/IAMTVTuner::get_InputType
 ms.topic: method
-f1_keywords: 
- - "strmif/IAMTVTuner.get_InputType"
+f1_keywords:
+- strmif/IAMTVTuner.get_InputType
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IAMTVTuner.get_InputType
+- IAMTVTuner.get_InputType
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:wincodec.IWICStream.InitializeFromMemory
 title: IWICStream::InitializeFromMemory (wincodec.h)
-
 description: Initializes a stream to treat a block of memory as a stream. The stream cannot grow beyond the buffer size.
 old-location: wic\_wic_codec_iwicstream_initializefrommemory.htm
 tech.root: wic
 ms.assetid: 7e226759-61aa-4f06-b20f-d5853faf4e4b
-
 ms.date: 12/05/2018
 ms.keywords: IWICStream interface [Windows Imaging Component],InitializeFromMemory method, IWICStream.InitializeFromMemory, IWICStream::InitializeFromMemory, InitializeFromMemory, InitializeFromMemory method [Windows Imaging Component], InitializeFromMemory method [Windows Imaging Component],IWICStream interface, _wic_codec_iwicstream_initializefrommemory, wic._wic_codec_iwicstream_initializefrommemory, wincodec/IWICStream::InitializeFromMemory
 ms.topic: method
-f1_keywords: 
- - "wincodec/IWICStream.InitializeFromMemory"
+f1_keywords:
+- wincodec/IWICStream.InitializeFromMemory
 dev_langs:
- - c++
+- c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Windowscodecs.lib
 req.dll: Windowscodecs.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Windowscodecs.dll
+- Windowscodecs.dll
 api_name:
- - IWICStream.InitializeFromMemory
+- IWICStream.InitializeFromMemory
 targetos: Windows
 req.typenames: 
 req.redist: 

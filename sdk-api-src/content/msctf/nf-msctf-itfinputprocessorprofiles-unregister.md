@@ -1,19 +1,17 @@
 ---
 UID: NF:msctf.ITfInputProcessorProfiles.Unregister
 title: ITfInputProcessorProfiles::Unregister (msctf.h)
-
 description: ITfInputProcessorProfiles::Unregister method
 old-location: tsf\itfinputprocessorprofiles_unregister.htm
 tech.root: TSF
 ms.assetid: 53de09dd-3d99-4968-8861-397b67daf8c5
-
 ms.date: 12/05/2018
 ms.keywords: ITfInputProcessorProfiles interface [Text Services Framework],Unregister method, ITfInputProcessorProfiles.Unregister, ITfInputProcessorProfiles::Unregister, Unregister, Unregister method [Text Services Framework], Unregister method [Text Services Framework],ITfInputProcessorProfiles interface, _tsf_itfinputprocessorprofiles_unregister_ref, msctf/ITfInputProcessorProfiles::Unregister, tsf.itfinputprocessorprofiles_unregister
 ms.topic: method
-f1_keywords: 
- - "msctf/ITfInputProcessorProfiles.Unregister"
+f1_keywords:
+- msctf/ITfInputProcessorProfiles.Unregister
 dev_langs:
- - c++
+- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msctf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msctf.dll
+- Msctf.dll
 api_name:
- - ITfInputProcessorProfiles.Unregister
+- ITfInputProcessorProfiles.Unregister
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

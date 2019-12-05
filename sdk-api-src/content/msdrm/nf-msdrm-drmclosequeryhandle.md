@@ -1,19 +1,17 @@
 ---
 UID: NF:msdrm.DRMCloseQueryHandle
 title: DRMCloseQueryHandle function (msdrm.h)
-
 description: Closes a handle to an unbound license object.
 old-location: rm\drmclosequeryhandle.htm
 tech.root: AdRms_Sdk
 ms.assetid: 4902a6e2-e3b2-4f05-970c-aa4f80895762
-
 ms.date: 12/05/2018
 ms.keywords: DRMCloseQueryHandle, DRMCloseQueryHandle function [Active Directory Rights Management Services SDK 1.0], msdrm/DRMCloseQueryHandle, rm.drmclosequeryhandle
 ms.topic: function
-f1_keywords: 
- - "msdrm/DRMCloseQueryHandle"
+f1_keywords:
+- msdrm/DRMCloseQueryHandle
 dev_langs:
- - c++
+- c++
 req.header: msdrm.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Msdrm.lib
 req.dll: Msdrm.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Msdrm.dll
+- Msdrm.dll
 api_name:
- - DRMCloseQueryHandle
+- DRMCloseQueryHandle
 targetos: Windows
 req.typenames: 
 req.redist: 

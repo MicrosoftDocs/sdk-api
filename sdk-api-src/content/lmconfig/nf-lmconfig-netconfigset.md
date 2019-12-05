@@ -1,19 +1,17 @@
 ---
 UID: NF:lmconfig.NetConfigSet
 title: NetConfigSet function (lmconfig.h)
-
 description: The NetConfigSet function is obsolete. It is included for compatibility with 16-bit versions of Windows. Other applications should use the registry.
 old-location: netmgmt\netconfigset.htm
 tech.root: NetMgmt
 ms.assetid: a3615699-a84b-4be1-85a0-497bf73223e6
-
 ms.date: 12/05/2018
 ms.keywords: NetConfigSet, NetConfigSet function [Network Management], _win32_netconfigset, lmconfig/NetConfigSet, netmgmt.netconfigset
 ms.topic: function
-f1_keywords: 
- - "lmconfig/NetConfigSet"
+f1_keywords:
+- lmconfig/NetConfigSet
 dev_langs:
- - c++
+- c++
 req.header: lmconfig.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - lmconfig.h
+- lmconfig.h
 api_name:
- - NetConfigSet
+- NetConfigSet
 targetos: Windows
 req.typenames: 
 req.redist: 

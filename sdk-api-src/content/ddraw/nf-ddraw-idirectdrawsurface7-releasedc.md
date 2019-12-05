@@ -1,19 +1,17 @@
 ---
 UID: NF:ddraw.IDirectDrawSurface7.ReleaseDC
 title: IDirectDrawSurface7::ReleaseDC (ddraw.h)
-
 description: Releases the handle of a device context that was previously obtained by using the IDirectDrawSurface7::GetDC method.
 old-location: directdraw\idirectdrawsurface7_releasedc.htm
 tech.root: directdraw
 ms.assetid: 170d5194-9327-4632-a87f-39aa8a0ccf74
-
 ms.date: 12/05/2018
 ms.keywords: IDirectDrawSurface7 interface [DirectDraw],ReleaseDC method, IDirectDrawSurface7.ReleaseDC, IDirectDrawSurface7::ReleaseDC, ReleaseDC, ReleaseDC method [DirectDraw], ReleaseDC method [DirectDraw],IDirectDrawSurface7 interface, ddraw/IDirectDrawSurface7::ReleaseDC, directdraw.idirectdrawsurface7_releasedc
 ms.topic: method
-f1_keywords: 
- - "ddraw/IDirectDrawSurface7.ReleaseDC"
+f1_keywords:
+- ddraw/IDirectDrawSurface7.ReleaseDC
 dev_langs:
- - c++
+- c++
 req.header: ddraw.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Ddraw.lib
 req.dll: Ddraw.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Ddraw.dll
+- Ddraw.dll
 api_name:
- - IDirectDrawSurface7.ReleaseDC
+- IDirectDrawSurface7.ReleaseDC
 targetos: Windows
 req.typenames: 
 req.redist: 

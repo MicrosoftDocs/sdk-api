@@ -1,19 +1,17 @@
 ---
 UID: NE:d3d12.D3D12_BUFFER_UAV_FLAGS
 title: D3D12_BUFFER_UAV_FLAGS (d3d12.h)
-
 description: Identifies unordered-access view options for a buffer resource.
 old-location: direct3d12\d3d12_buffer_uav_flags.htm
 tech.root: direct3d12
 ms.assetid: D5350B5B-4E15-4B9F-B3E0-5A3B1592ED5C
-
 ms.date: 12/05/2018
 ms.keywords: D3D12_BUFFER_UAV_FLAGS, D3D12_BUFFER_UAV_FLAGS enumeration, D3D12_BUFFER_UAV_FLAG_NONE, D3D12_BUFFER_UAV_FLAG_RAW, d3d12/D3D12_BUFFER_UAV_FLAGS, d3d12/D3D12_BUFFER_UAV_FLAG_NONE, d3d12/D3D12_BUFFER_UAV_FLAG_RAW, direct3d12.d3d12_buffer_uav_flags
 ms.topic: enum
-f1_keywords: 
- - "d3d12/D3D12_BUFFER_UAV_FLAGS"
+f1_keywords:
+- d3d12/D3D12_BUFFER_UAV_FLAGS
 dev_langs:
- - c++
+- c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - D3D12.h
+- D3D12.h
 api_name:
- - D3D12_BUFFER_UAV_FLAGS
+- D3D12_BUFFER_UAV_FLAGS
 targetos: Windows
 req.typenames: D3D12_BUFFER_UAV_FLAGS
 req.redist: 

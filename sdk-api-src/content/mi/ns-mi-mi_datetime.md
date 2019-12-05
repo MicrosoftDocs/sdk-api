@@ -1,19 +1,17 @@
 ---
 UID: NS:mi._MI_Datetime
 title: MI_Datetime (mi.h)
-
 description: Represents a union of MI_Timestamp and MI_Interval.
 old-location: wmi_v2\mi_datetime.htm
 tech.root: wmi_v2
 ms.assetid: 2f7d857f-5115-40a2-84d9-a4429d935de1
-
 ms.date: 12/05/2018
 ms.keywords: MI_Datetime, MI_Datetime structure [Windows Management Infrastructure (MI)], mi/MI_Datetime, wmi._mi_datetime, wmi_v2.mi_datetime
 ms.topic: struct
 f1_keywords:
 - mi/MI_Datetime
 dev_langs:
- - c++
+- c++
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows

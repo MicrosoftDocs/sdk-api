@@ -1,19 +1,17 @@
 ---
 UID: NF:fsrm.IFsrmActionEmail.put_MailSubject
 title: IFsrmActionEmail::put_MailSubject (fsrm.h)
-
 description: Retrieves or sets the subject of the email that is sent when this action generates email.
 old-location: fsrm\ifsrmactionemail_mailsubject.htm
 tech.root: fsrm
 ms.assetid: 86b606a3-b905-472b-b04a-e5fd74f5afbc
-
 ms.date: 12/05/2018
 ms.keywords: IFsrmActionEmail interface [File Server Resource Manager],MailSubject property, IFsrmActionEmail.MailSubject, IFsrmActionEmail.put_MailSubject, IFsrmActionEmail2 interface [File Server Resource Manager],MailSubject property, IFsrmActionEmail2.MailSubject, IFsrmActionEmail2::MailSubject, IFsrmActionEmail2::get_MailSubject, IFsrmActionEmail2::put_MailSubject, IFsrmActionEmail::get_MailSubject, IFsrmActionEmail::put_MailSubject, MailSubject property [File Server Resource Manager], MailSubject property [File Server Resource Manager],IFsrmActionEmail interface, MailSubject property [File Server Resource Manager],IFsrmActionEmail2 interface, fs.ifsrmactionemail_mailsubject, fsrm.ifsrmactionemail_mailsubject, fsrm/IFsrmActionEmail2::MailSubject, fsrm/IFsrmActionEmail2::get_MailSubject, fsrm/IFsrmActionEmail2::put_MailSubject, fsrm/IFsrmActionEmail::MailSubject, fsrm/IFsrmActionEmail::get_MailSubject, fsrm/IFsrmActionEmail::put_MailSubject, put_MailSubject
 ms.topic: method
-f1_keywords: 
- - "fsrm/IFsrmActionEmail2.MailSubject"
+f1_keywords:
+- fsrm/IFsrmActionEmail2.MailSubject
 dev_langs:
- - c++
+- c++
 req.header: fsrm.h
 req.include-header: FsrmQuota.h, FsrmScreen.h
 req.target-type: Windows
@@ -32,19 +30,19 @@ req.lib:
 req.dll: SrmSvc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - SrmSvc.dll
+- SrmSvc.dll
 api_name:
- - IFsrmActionEmail2.MailSubject
- - IFsrmActionEmail2.get_MailSubject
- - IFsrmActionEmail2.put_MailSubject
- - IFsrmActionEmail.MailSubject
- - IFsrmActionEmail.get_MailSubject
- - IFsrmActionEmail.put_MailSubject
+- IFsrmActionEmail2.MailSubject
+- IFsrmActionEmail2.get_MailSubject
+- IFsrmActionEmail2.put_MailSubject
+- IFsrmActionEmail.MailSubject
+- IFsrmActionEmail.get_MailSubject
+- IFsrmActionEmail.put_MailSubject
 targetos: Windows
 req.typenames: 
 req.redist: 

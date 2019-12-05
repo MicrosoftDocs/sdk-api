@@ -1,19 +1,17 @@
 ---
 UID: NF:peninputpanel.ITextInputPanel.put_AttachedEditWindow
 title: ITextInputPanel::put_AttachedEditWindow (peninputpanel.h)
-
 description: Gets or sets the window handle of the object to which the ITextInputPanel object is attached.
 old-location: tablet\itextinputpanel_attachededitwindow.htm
 tech.root: tablet
 ms.assetid: 92a8510d-c8f2-44b4-8812-789ddbc0e3fd
-
 ms.date: 12/05/2018
 ms.keywords: 92a8510d-c8f2-44b4-8812-789ddbc0e3fd, AttachedEditWindow property [Tablet PC], AttachedEditWindow property [Tablet PC],ITextInputPanel interface, ITextInputPanel interface [Tablet PC],AttachedEditWindow property, ITextInputPanel.AttachedEditWindow, ITextInputPanel.get_AttachedEditWindow, ITextInputPanel.put_AttachedEditWindow, ITextInputPanel::AttachedEditWindow, ITextInputPanel::get_AttachedEditWindow, ITextInputPanel::put_AttachedEditWindow, peninputpanel/ITextInputPanel::AttachedEditWindow, peninputpanel/ITextInputPanel::get_AttachedEditWindow, peninputpanel/ITextInputPanel::put_AttachedEditWindow, put_AttachedEditWindow, tablet.itextinputpanel_attachededitwindow
 ms.topic: method
-f1_keywords: 
- - "peninputpanel/ITextInputPanel.AttachedEditWindow"
+f1_keywords:
+- peninputpanel/ITextInputPanel.AttachedEditWindow
 dev_langs:
- - c++
+- c++
 req.header: peninputpanel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib:
 req.dll: Tiptsf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - tiptsf.dll
+- tiptsf.dll
 api_name:
- - ITextInputPanel.AttachedEditWindow
- - ITextInputPanel.get_AttachedEditWindow
- - ITextInputPanel.put_AttachedEditWindow
- - ITextInputPanel.get_AttachedEditWindow
- - ITextInputPanel.put_AttachedEditWindow
+- ITextInputPanel.AttachedEditWindow
+- ITextInputPanel.get_AttachedEditWindow
+- ITextInputPanel.put_AttachedEditWindow
+- ITextInputPanel.get_AttachedEditWindow
+- ITextInputPanel.put_AttachedEditWindow
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:setupapi.SetupDecompressOrCopyFileA
 title: SetupDecompressOrCopyFileA function (setupapi.h)
-
 description: The SetupDecompressOrCopyFile function copies a file, decompressing it if necessary.
 old-location: setup\setupdecompressorcopyfile.htm
 tech.root: SetupApi
 ms.assetid: 6058567b-fa34-472b-91d8-3c5f9ee741b1
-
 ms.date: 12/05/2018
 ms.keywords: SetupDecompressOrCopyFile, SetupDecompressOrCopyFile function [Setup API], SetupDecompressOrCopyFileA, SetupDecompressOrCopyFileW, _setupapi_setupdecompressorcopyfile, setup.setupdecompressorcopyfile, setupapi/SetupDecompressOrCopyFile, setupapi/SetupDecompressOrCopyFileA, setupapi/SetupDecompressOrCopyFileW
 ms.topic: function
-f1_keywords: 
- - "setupapi/SetupDecompressOrCopyFile"
+f1_keywords:
+- setupapi/SetupDecompressOrCopyFile
 dev_langs:
- - c++
+- c++
 req.header: setupapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Setupapi.lib
 req.dll: Setupapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Setupapi.dll
+- Setupapi.dll
 api_name:
- - SetupDecompressOrCopyFile
- - SetupDecompressOrCopyFileA
- - SetupDecompressOrCopyFileW
+- SetupDecompressOrCopyFile
+- SetupDecompressOrCopyFileA
+- SetupDecompressOrCopyFileW
 targetos: Windows
 req.typenames: 
 req.redist: 

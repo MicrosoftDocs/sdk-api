@@ -1,19 +1,17 @@
 ---
 UID: NF:rpcnsi.RpcNsProfileEltAddW
 title: RpcNsProfileEltAddW function (rpcnsi.h)
-
 description: The RpcNsProfileEltAdd function adds an element to a profile. If necessary, it creates the entry.
 old-location: rpc\rpcnsprofileeltadd.htm
 tech.root: Rpc
 ms.assetid: e0a2d4b9-853c-4578-8a15-e0be7bfc0b9b
-
 ms.date: 12/05/2018
 ms.keywords: RpcNsProfileEltAdd, RpcNsProfileEltAdd function [RPC], RpcNsProfileEltAddA, RpcNsProfileEltAddW, _rpc_rpcnsprofileeltadd, rpc.rpcnsprofileeltadd, rpcnsi/RpcNsProfileEltAdd, rpcnsi/RpcNsProfileEltAddA, rpcnsi/RpcNsProfileEltAddW
 ms.topic: function
-f1_keywords: 
- - "rpcnsi/RpcNsProfileEltAdd"
+f1_keywords:
+- rpcnsi/RpcNsProfileEltAdd
 dev_langs:
- - c++
+- c++
 req.header: rpcnsi.h
 req.include-header: Rpc.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Rpcns4.lib
 req.dll: Rpcns4.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Rpcns4.dll
+- Rpcns4.dll
 api_name:
- - RpcNsProfileEltAdd
- - RpcNsProfileEltAddA
- - RpcNsProfileEltAddW
+- RpcNsProfileEltAdd
+- RpcNsProfileEltAddA
+- RpcNsProfileEltAddW
 targetos: Windows
 req.typenames: 
 req.redist: 

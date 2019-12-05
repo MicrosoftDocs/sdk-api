@@ -1,19 +1,17 @@
 ---
 UID: NF:inputscope.SetInputScope
 title: SetInputScope function (inputscope.h)
-
 description: Sets an input scope for the specified window.
 old-location: tsf\SetInputScope.htm
 tech.root: TSF
 ms.assetid: 4098525c-8d29-419a-9484-9e70420416bc
-
 ms.date: 12/05/2018
 ms.keywords: SetInputScope, SetInputScope function [Text Services Framework], inputscope/SetInputScope, tsf.SetInputScope
 ms.topic: function
-f1_keywords: 
- - "inputscope/SetInputScope"
+f1_keywords:
+- inputscope/SetInputScope
 dev_langs:
- - c++
+- c++
 req.header: inputscope.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: Msctf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - msctf.dll
- - Ext-MS-Win-Tsf-MSctf-l1-1-0.dll
- - Ext-MS-Win-Tsf-MSctf-L1-1-1.dll
+- msctf.dll
+- Ext-MS-Win-Tsf-MSctf-l1-1-0.dll
+- Ext-MS-Win-Tsf-MSctf-L1-1-1.dll
 api_name:
- - SetInputScope
+- SetInputScope
 targetos: Windows
 req.typenames: 
 req.redist: 

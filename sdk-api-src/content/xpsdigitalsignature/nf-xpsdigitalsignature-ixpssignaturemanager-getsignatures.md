@@ -1,19 +1,17 @@
 ---
 UID: NF:xpsdigitalsignature.IXpsSignatureManager.GetSignatures
 title: IXpsSignatureManager::GetSignatures (xpsdigitalsignature.h)
-
 description: Gets a pointer to an IXpsSignatureCollection interface that contains a collection of XPS digital signatures.
 old-location: xps\ixpssignaturemanager_getsignatures.htm
 tech.root: printdocs
 ms.assetid: 3a6a9a10-bc1d-45b8-a1b9-c7b725d9c13b
-
 ms.date: 12/05/2018
 ms.keywords: GetSignatures, GetSignatures method [XPS Documents and Packaging], GetSignatures method [XPS Documents and Packaging],IXpsSignatureManager interface, IXpsSignatureManager interface [XPS Documents and Packaging],GetSignatures method, IXpsSignatureManager.GetSignatures, IXpsSignatureManager::GetSignatures, xps.ixpssignaturemanager_getsignatures, xpsdigitalsignature/IXpsSignatureManager::GetSignatures
 ms.topic: method
-f1_keywords: 
- - "xpsdigitalsignature/IXpsSignatureManager.GetSignatures"
+f1_keywords:
+- xpsdigitalsignature/IXpsSignatureManager.GetSignatures
 dev_langs:
- - c++
+- c++
 req.header: xpsdigitalsignature.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsdigitalsignature.h
+- xpsdigitalsignature.h
 api_name:
- - IXpsSignatureManager.GetSignatures
+- IXpsSignatureManager.GetSignatures
 targetos: Windows
 req.typenames: 
 req.redist: 

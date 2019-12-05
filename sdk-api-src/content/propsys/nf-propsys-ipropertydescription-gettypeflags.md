@@ -1,19 +1,17 @@
 ---
 UID: NF:propsys.IPropertyDescription.GetTypeFlags
 title: IPropertyDescription::GetTypeFlags (propsys.h)
-
 description: Gets a set of flags that describe the uses and capabilities of the property.
 old-location: properties\IPropertyDescription_GetTypeFlags.htm
 tech.root: properties
 ms.assetid: 20ff02c1-72de-479f-afd8-29ec580bbfcb
-
 ms.date: 12/05/2018
 ms.keywords: GetTypeFlags, GetTypeFlags method [Windows Properties], GetTypeFlags method [Windows Properties],IPropertyDescription interface, IPropertyDescription interface [Windows Properties],GetTypeFlags method, IPropertyDescription.GetTypeFlags, IPropertyDescription::GetTypeFlags, properties.IPropertyDescription_GetTypeFlags, propsys/IPropertyDescription::GetTypeFlags, shell.IPropertyDescription_GetTypeFlags, shell_IPropertyDescription_GetTypeFlags
 ms.topic: method
-f1_keywords: 
- - "propsys/IPropertyDescription.GetTypeFlags"
+f1_keywords:
+- propsys/IPropertyDescription.GetTypeFlags
 dev_langs:
- - c++
+- c++
 req.header: propsys.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Propsys.h
+- Propsys.h
 api_name:
- - IPropertyDescription.GetTypeFlags
+- IPropertyDescription.GetTypeFlags
 targetos: Windows
 req.typenames: 
 req.redist: 

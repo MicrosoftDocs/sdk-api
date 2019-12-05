@@ -1,19 +1,17 @@
 ---
 UID: NF:rdpencomapi.IRDPSRAPIAudioStream.Start
 title: IRDPSRAPIAudioStream::Start (rdpencomapi.h)
-
 description: Starts the audio stream.
 old-location: rdp\irdpsrapiaudiostream_start.htm
 tech.root: rdp
 ms.assetid: 23ADA8F5-9F44-45E6-88DC-852D8F62F03F
-
 ms.date: 12/05/2018
 ms.keywords: IRDPSRAPIAudioStream interface [RDP],Start method, IRDPSRAPIAudioStream.Start, IRDPSRAPIAudioStream::Start, Start, Start method [RDP], Start method [RDP],IRDPSRAPIAudioStream interface, rdp.irdpsrapiaudiostream_start, rdpencomapi/IRDPSRAPIAudioStream::Start
 ms.topic: method
-f1_keywords: 
- - "rdpencomapi/IRDPSRAPIAudioStream.Start"
+f1_keywords:
+- rdpencomapi/IRDPSRAPIAudioStream.Start
 dev_langs:
- - c++
+- c++
 req.header: rdpencomapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: RdpEncom.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - RdpEncom.dll
+- RdpEncom.dll
 api_name:
- - IRDPSRAPIAudioStream.Start
+- IRDPSRAPIAudioStream.Start
 targetos: Windows
 req.typenames: 
 req.redist: 

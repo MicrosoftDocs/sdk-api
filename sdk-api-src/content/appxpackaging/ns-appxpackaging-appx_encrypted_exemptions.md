@@ -1,19 +1,17 @@
 ---
 UID: NS:appxpackaging.APPX_ENCRYPTED_EXEMPTIONS
 title: APPX_ENCRYPTED_EXEMPTIONS (appxpackaging.h)
-
 description: Files exempted from Windows app package encryption.
 old-location: appxpkg\appx_encrypted_exemptions.htm
 tech.root: appxpkg
 ms.assetid: EEA57363-3070-4D3E-9F37-4FE0ADF35FED
-
 ms.date: 12/05/2018
 ms.keywords: APPX_ENCRYPTED_EXEMPTIONS, APPX_ENCRYPTED_EXEMPTIONS structure [App packaging and management], PAPPX_ENCRYPTED_EXEMPTIONS, PAPPX_ENCRYPTED_EXEMPTIONS structure pointer [App packaging and management], appxpackaging/APPX_ENCRYPTED_EXEMPTIONS, appxpackaging/PAPPX_ENCRYPTED_EXEMPTIONS, appxpkg.appx_encrypted_exemptions
 ms.topic: struct
-f1_keywords: 
- - "appxpackaging/APPX_ENCRYPTED_EXEMPTIONS"
+f1_keywords:
+- appxpackaging/APPX_ENCRYPTED_EXEMPTIONS
 dev_langs:
- - c++
+- c++
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - AppxPackaging.h
+- AppxPackaging.h
 api_name:
- - APPX_ENCRYPTED_EXEMPTIONS
+- APPX_ENCRYPTED_EXEMPTIONS
 targetos: Windows
 req.typenames: APPX_ENCRYPTED_EXEMPTIONS
 req.redist: 

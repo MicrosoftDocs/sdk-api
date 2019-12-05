@@ -1,19 +1,17 @@
 ---
 UID: NF:perflib.PerfEnumerateCounterSet
 title: PerfEnumerateCounterSet function (perflib.h)
-
 description: Gets the counter set identifiers of the counter sets that are registered on the specified system. Counter set identifiers are globally unique identifiers (GUIDs).
 old-location: perf\perfenumeratecounterset.htm
 tech.root: perfctrs
 ms.assetid: 6C487D11-2DC0-475C-AA0F-4060641C6500
-
 ms.date: 12/05/2018
 ms.keywords: PerfEnumerateCounterSet, PerfEnumerateCounterSet function [Perf], perf.perfenumeratecounterset, perflib/PerfEnumerateCounterSet
 ms.topic: function
-f1_keywords: 
- - "perflib/PerfEnumerateCounterSet"
+f1_keywords:
+- perflib/PerfEnumerateCounterSet
 dev_langs:
- - c++
+- c++
 req.header: perflib.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: AdvAPI32.lib
 req.dll: AdvAPI32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - AdvAPI32.dll
+- AdvAPI32.dll
 api_name:
- - PerfEnumerateCounterSet
+- PerfEnumerateCounterSet
 targetos: Windows
 req.typenames: 
 req.redist: 

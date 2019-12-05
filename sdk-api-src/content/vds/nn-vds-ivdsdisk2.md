@@ -1,19 +1,17 @@
 ---
 UID: NN:vds.IVdsDisk2
 title: IVdsDisk2 (vds.h)
-
 description: Provides a method to set the SAN mode of a disk to offline or online.
 old-location: base\ivdsdisk2.htm
 tech.root: VDS
 ms.assetid: 9fb8a08e-412d-415a-aa27-cc0180599903
-
 ms.date: 12/05/2018
 ms.keywords: IVdsDisk2, IVdsDisk2 interface, IVdsDisk2 interface,described, base.ivdsdisk2, vds/IVdsDisk2
 ms.topic: interface
-f1_keywords: 
- - "vds/IVdsDisk2"
+f1_keywords:
+- vds/IVdsDisk2
 dev_langs:
- - c++
+- c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Uuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Uuid.lib
- - Uuid.dll
+- Uuid.lib
+- Uuid.dll
 api_name:
- - IVdsDisk2
+- IVdsDisk2
 targetos: Windows
 req.typenames: 
 req.redist: 

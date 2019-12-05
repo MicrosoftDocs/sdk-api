@@ -1,19 +1,17 @@
 ---
 UID: NF:infotech.IITWordWheel.Count
 title: IITWordWheel::Count (infotech.h)
-
 description: Returns the number of entries in a word wheel.
 old-location: htmlhelp\iitwordwheel_count.htm
 tech.root: htmlhelp
 ms.assetid: VS|htmlhelp|~\html\refiitwordwheelcount.htm
-
 ms.date: 12/05/2018
 ms.keywords: Count, Count method [HTML Help Workshop], Count method [HTML Help Workshop],IITWordWheel interface, IITWordWheel interface [HTML Help Workshop],Count method, IITWordWheel.Count, IITWordWheel::Count, htmlhelp.iitwordwheel_count, infotech/IITWordWheel::Count, refIITWordWheelCount
 ms.topic: method
-f1_keywords: 
- - "infotech/IITWordWheel.Count"
+f1_keywords:
+- infotech/IITWordWheel.Count
 dev_langs:
- - c++
+- c++
 req.header: infotech.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Infotech.h
+- Infotech.h
 api_name:
- - IITWordWheel.Count
+- IITWordWheel.Count
 targetos: Windows
 req.typenames: 
 req.redist: 

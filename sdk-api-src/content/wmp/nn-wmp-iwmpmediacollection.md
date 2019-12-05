@@ -1,19 +1,17 @@
 ---
 UID: NN:wmp.IWMPMediaCollection
 title: IWMPMediaCollection (wmp.h)
-
 description: The IWMPMediaCollection interface provides methods that can be used to organize a large collection of media items.
 old-location: wmp\iwmpmediacollection.htm
 tech.root: WMP
 ms.assetid: bf975a30-dfb1-4994-9095-510a6b997aff
-
 ms.date: 12/05/2018
 ms.keywords: IWMPMediaCollection, IWMPMediaCollection interface [Windows Media Player], IWMPMediaCollection interface [Windows Media Player],described, IWMPMediaCollectionInterface, wmp.iwmpmediacollection, wmp/IWMPMediaCollection
 ms.topic: interface
-f1_keywords: 
- - "wmp/IWMPMediaCollection"
+f1_keywords:
+- wmp/IWMPMediaCollection
 dev_langs:
- - c++
+- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmp.h
+- wmp.h
 api_name:
- - IWMPMediaCollection
- - IWMPMediaCollection.isDeleted
+- IWMPMediaCollection
+- IWMPMediaCollection.isDeleted
 targetos: Windows
 req.typenames: 
 req.redist: 

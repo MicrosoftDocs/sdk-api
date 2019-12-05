@@ -1,19 +1,17 @@
 ---
 UID: NF:msvidctl.IMSVidCtl.DisableVideo
 title: IMSVidCtl::DisableVideo (msvidctl.h)
-
 description: The DisableVideo method disables the video renderer.
 old-location: mstv\imsvidctl_disablevideo.htm
 tech.root: mstv
 ms.assetid: 5c8f7af1-0416-4860-aa05-d2167452291e
-
 ms.date: 12/05/2018
 ms.keywords: DisableVideo, DisableVideo method [Microsoft TV Technologies], DisableVideo method [Microsoft TV Technologies],IMSVidCtl interface, IMSVidCtl interface [Microsoft TV Technologies],DisableVideo method, IMSVidCtl.DisableVideo, IMSVidCtl::DisableVideo, IMSVidCtlDisableVideo, mstv.imsvidctl_disablevideo, msvidctl/IMSVidCtl::DisableVideo
 ms.topic: method
-f1_keywords: 
- - "msvidctl/IMSVidCtl.DisableVideo"
+f1_keywords:
+- msvidctl/IMSVidCtl.DisableVideo
 dev_langs:
- - c++
+- c++
 req.header: msvidctl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msvidctl.h
+- msvidctl.h
 api_name:
- - IMSVidCtl.DisableVideo
+- IMSVidCtl.DisableVideo
 targetos: Windows
 req.typenames: 
 req.redist: 

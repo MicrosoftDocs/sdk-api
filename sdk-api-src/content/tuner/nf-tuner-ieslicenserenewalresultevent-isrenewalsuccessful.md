@@ -1,19 +1,17 @@
 ---
 UID: NF:tuner.IESLicenseRenewalResultEvent.IsRenewalSuccessful
 title: IESLicenseRenewalResultEvent::IsRenewalSuccessful (tuner.h)
-
 description: Gets a flag from a LicenseRenewalResult event that indicates whether the renewal was successful. In the event of failure, a client can call the GetRenewalResultCode or GetRenewalHResult method to get information about the reason for the failure.
 old-location: mstv\ieslicenserenewalresultevent_isrenewalsuccessful.htm
 tech.root: mstv
 ms.assetid: 0c57e4e4-ee93-4e86-b1f8-eed5dd5aa931
-
 ms.date: 12/05/2018
 ms.keywords: IESLicenseRenewalResultEvent interface [DirectShow],IsRenewalSuccessful method, IESLicenseRenewalResultEvent.IsRenewalSuccessful, IESLicenseRenewalResultEvent::IsRenewalSuccessful, IsRenewalSuccessful, IsRenewalSuccessful method [DirectShow], IsRenewalSuccessful method [DirectShow],IESLicenseRenewalResultEvent interface, mstv.ieslicenserenewalresultevent_isrenewalsuccessful, tuner/IESLicenseRenewalResultEvent::IsRenewalSuccessful
 ms.topic: method
-f1_keywords: 
- - "tuner/IESLicenseRenewalResultEvent.IsRenewalSuccessful"
+f1_keywords:
+- tuner/IESLicenseRenewalResultEvent.IsRenewalSuccessful
 dev_langs:
- - c++
+- c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - tuner.h
+- tuner.h
 api_name:
- - IESLicenseRenewalResultEvent.IsRenewalSuccessful
+- IESLicenseRenewalResultEvent.IsRenewalSuccessful
 targetos: Windows
 req.typenames: 
 req.redist: 

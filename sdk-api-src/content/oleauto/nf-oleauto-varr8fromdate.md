@@ -1,19 +1,17 @@
 ---
 UID: NF:oleauto.VarR8FromDate
 title: VarR8FromDate function (oleauto.h)
-
 description: Converts a date value to a double value.
 old-location: automat\varr8fromdate.htm
 tech.root: automat
 ms.assetid: 20d5e917-e350-43da-8fce-e76ab95b90f7
-
 ms.date: 12/05/2018
 ms.keywords: VarR8FromDate, VarR8FromDate function [Automation], _oa96_VarR8FromDate, automat.varr8fromdate, oleauto/VarR8FromDate
 ms.topic: function
-f1_keywords: 
- - "oleauto/VarR8FromDate"
+f1_keywords:
+- oleauto/VarR8FromDate
 dev_langs:
- - c++
+- c++
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: OleAut32.lib
 req.dll: OleAut32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - OleAut32.dll
+- OleAut32.dll
 api_name:
- - VarR8FromDate
+- VarR8FromDate
 targetos: Windows
 req.typenames: 
 req.redist: 

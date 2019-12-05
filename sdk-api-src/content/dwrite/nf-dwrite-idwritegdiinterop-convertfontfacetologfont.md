@@ -1,19 +1,17 @@
 ---
 UID: NF:dwrite.IDWriteGdiInterop.ConvertFontFaceToLOGFONT
 title: IDWriteGdiInterop::ConvertFontFaceToLOGFONT (dwrite.h)
-
 description: Initializes a LOGFONT structure based on the GDI-compatible properties of the specified font.
 old-location: directwrite\IDWriteGdiInterop_ConvertFontFaceToLOGFONT.htm
 tech.root: DirectWrite
 ms.assetid: 1f863d1b-fdf5-4c2b-97ff-682b22c61a81
-
 ms.date: 12/05/2018
 ms.keywords: ConvertFontFaceToLOGFONT, ConvertFontFaceToLOGFONT method [Direct Write], ConvertFontFaceToLOGFONT method [Direct Write],IDWriteGdiInterop interface, IDWriteGdiInterop interface [Direct Write],ConvertFontFaceToLOGFONT method, IDWriteGdiInterop.ConvertFontFaceToLOGFONT, IDWriteGdiInterop::ConvertFontFaceToLOGFONT, directwrite.IDWriteGdiInterop_ConvertFontFaceToLOGFONT, dwrite/IDWriteGdiInterop::ConvertFontFaceToLOGFONT
 ms.topic: method
-f1_keywords: 
- - "dwrite/IDWriteGdiInterop.ConvertFontFaceToLOGFONT"
+f1_keywords:
+- dwrite/IDWriteGdiInterop.ConvertFontFaceToLOGFONT
 dev_langs:
- - c++
+- c++
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dwrite.lib
 req.dll: Dwrite.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dwrite.dll
+- dwrite.dll
 api_name:
- - IDWriteGdiInterop.ConvertFontFaceToLOGFONT
+- IDWriteGdiInterop.ConvertFontFaceToLOGFONT
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NE:dhcpsapi._QuarantineStatus
 title: QuarantineStatus (dhcpsapi.h)
-
 description: The QuarantineStatus enumeration specifies possible health status values for the DHCPv4 client, as validated at the NAP server.
 old-location: dhcp\quarantinestatus.htm
 tech.root: DHCP
 ms.assetid: 29C165D1-9870-4398-97F9-DA1586797FF0
-
 ms.date: 12/05/2018
 ms.keywords: DEFAULTQUARSETTING, DROPPACKET, EXEMPT, NOQUARANTINE, NOQUARINFO, PROBATION, QuarantineStatus, QuarantineStatus enumeration [DHCP], RESTRICTEDACCESS, dhcp.quarantinestatus, dhcpsapi/DEFAULTQUARSETTING, dhcpsapi/DROPPACKET, dhcpsapi/EXEMPT, dhcpsapi/NOQUARANTINE, dhcpsapi/NOQUARINFO, dhcpsapi/PROBATION, dhcpsapi/QuarantineStatus, dhcpsapi/RESTRICTEDACCESS
 ms.topic: enum
 f1_keywords:
 - dhcpsapi/QuarantineStatus
 dev_langs:
- - c++
+- c++
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows

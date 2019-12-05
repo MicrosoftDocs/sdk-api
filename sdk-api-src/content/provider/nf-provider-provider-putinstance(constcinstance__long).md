@@ -1,19 +1,17 @@
 ---
 UID: NF:provider.Provider.PutInstance(const CInstance &,long)
 title: Provider::PutInstance(const CInstance &,long) (provider.h)
-
 description: The PutInstance method updates an instance.
 old-location: wmi\provider_putinstance.htm
 tech.root: WmiSdk
 ms.assetid: c9921a00-b966-47d0-a2f3-982812ab249c
-
 ms.date: 12/05/2018
 ms.keywords: Provider interface [Windows Management Instrumentation],PutInstance method, Provider.PutInstance, Provider.PutInstance(const CInstance &,long), Provider::PutInstance, Provider::PutInstance(const CInstance &,long), PutInstance, PutInstance method [Windows Management Instrumentation], PutInstance method [Windows Management Instrumentation],Provider interface, _hmm_provider_putinstance, provider/Provider::PutInstance, wmi.provider_putinstance
 ms.topic: method
-f1_keywords: 
- - "provider/Provider.PutInstance"
+f1_keywords:
+- provider/Provider.PutInstance
 dev_langs:
- - c++
+- c++
 req.header: provider.h
 req.include-header: FwCommon.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: FrameDyn.lib
 req.dll: FrameDynOS.dll; FrameDyn.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - FrameDynOS.dll
- - FrameDyn.dll
+- FrameDynOS.dll
+- FrameDyn.dll
 api_name:
- - Provider.PutInstance
+- Provider.PutInstance
 targetos: Windows
 req.typenames: 
 req.redist: 

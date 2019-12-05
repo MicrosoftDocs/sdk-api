@@ -1,19 +1,17 @@
 ---
 UID: NF:oledlg.OleUIPasteSpecialA
 title: OleUIPasteSpecialA function (oledlg.h)
-
 description: Invokes the standard Paste Special dialog box, allowing the user to select the format of the clipboard object to be pasted or paste-linked.
 old-location: com\oleuipastespecial.htm
 tech.root: com
 ms.assetid: fb1335da-a863-4d15-8a8d-289d8cccd13f
-
 ms.date: 12/05/2018
 ms.keywords: OleUIPasteSpecial, OleUIPasteSpecial function [COM], OleUIPasteSpecialA, OleUIPasteSpecialW, _ole_OleUIPasteSpecial, com.oleuipastespecial, oledlg/OleUIPasteSpecial, oledlg/OleUIPasteSpecialA, oledlg/OleUIPasteSpecialW
 ms.topic: function
-f1_keywords: 
- - "oledlg/OleUIPasteSpecial"
+f1_keywords:
+- oledlg/OleUIPasteSpecial
 dev_langs:
- - c++
+- c++
 req.header: oledlg.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: OleDlg.lib
 req.dll: OleDlg.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - OleDlg.dll
+- OleDlg.dll
 api_name:
- - OleUIPasteSpecial
- - OleUIPasteSpecialA
- - OleUIPasteSpecialW
+- OleUIPasteSpecial
+- OleUIPasteSpecialA
+- OleUIPasteSpecialW
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NN:ddraw.IDirectDrawSurface7
 title: IDirectDrawSurface7 (ddraw.h)
-
 description: Applications use the methods of the IDirectDrawSurface7 interface to create DirectDrawSurface objects and work with system-level variables. This section is a reference to the methods of this interface.
 old-location: directdraw\idirectdrawsurface7.htm
 tech.root: directdraw
 ms.assetid: be686d56-c242-4228-ac8e-8f764ad29756
-
 ms.date: 12/05/2018
 ms.keywords: IDirectDrawSurface7, IDirectDrawSurface7 interface [DirectDraw], IDirectDrawSurface7 interface [DirectDraw],described, ddraw/IDirectDrawSurface7, directdraw.idirectdrawsurface7
 ms.topic: interface
-f1_keywords: 
- - "ddraw/IDirectDrawSurface7"
+f1_keywords:
+- ddraw/IDirectDrawSurface7
 dev_langs:
- - c++
+- c++
 req.header: ddraw.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Ddraw.lib
 req.dll: Ddraw.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Ddraw.dll
+- Ddraw.dll
 api_name:
- - IDirectDrawSurface7
+- IDirectDrawSurface7
 targetos: Windows
 req.typenames: 
 req.redist: 

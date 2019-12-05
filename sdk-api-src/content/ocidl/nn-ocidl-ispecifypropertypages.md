@@ -1,19 +1,17 @@
 ---
 UID: NN:ocidl.ISpecifyPropertyPages
 title: ISpecifyPropertyPages (ocidl.h)
-
 description: Indicates that an object supports property pages.
 old-location: com\ispecifypropertypages.htm
 tech.root: com
 ms.assetid: fd986241-aabe-477e-a382-28a1ecfd5410
-
 ms.date: 12/05/2018
 ms.keywords: ISpecifyPropertyPages, ISpecifyPropertyPages interface [COM], ISpecifyPropertyPages interface [COM],described, _ctrl_ispecifypropertypages, com.ispecifypropertypages, ocidl/ISpecifyPropertyPages
 ms.topic: interface
-f1_keywords: 
- - "ocidl/ISpecifyPropertyPages"
+f1_keywords:
+- ocidl/ISpecifyPropertyPages
 dev_langs:
- - c++
+- c++
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - OCIdl.h
+- OCIdl.h
 api_name:
- - ISpecifyPropertyPages
+- ISpecifyPropertyPages
 targetos: Windows
 req.typenames: 
 req.redist: 

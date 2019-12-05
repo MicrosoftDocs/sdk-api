@@ -1,19 +1,17 @@
 ---
 UID: NF:winscard.SCardIntroduceCardTypeW
 title: SCardIntroduceCardTypeW function (winscard.h)
-
 description: Introduces a smart card to the smart card subsystem (for the active user) by adding it to the smart card database.
 old-location: security\scardintroducecardtype.htm
 tech.root: SecAuthN
 ms.assetid: 1ac88466-1277-44d7-a471-b31d6bfce99e
-
 ms.date: 12/05/2018
 ms.keywords: SCardIntroduceCardType, SCardIntroduceCardType function [Security], SCardIntroduceCardTypeA, SCardIntroduceCardTypeW, _smart_scardintroducecardtype, security.scardintroducecardtype, winscard/SCardIntroduceCardType, winscard/SCardIntroduceCardTypeA, winscard/SCardIntroduceCardTypeW
 ms.topic: function
-f1_keywords: 
- - "winscard/SCardIntroduceCardType"
+f1_keywords:
+- winscard/SCardIntroduceCardType
 dev_langs:
- - c++
+- c++
 req.header: winscard.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Winscard.lib
 req.dll: Winscard.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Winscard.dll
+- Winscard.dll
 api_name:
- - SCardIntroduceCardType
- - SCardIntroduceCardTypeA
- - SCardIntroduceCardTypeW
+- SCardIntroduceCardType
+- SCardIntroduceCardTypeA
+- SCardIntroduceCardTypeW
 targetos: Windows
 req.typenames: 
 req.redist: 

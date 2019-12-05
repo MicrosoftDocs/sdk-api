@@ -1,19 +1,17 @@
 ---
 UID: NS:npapi._NOTIFYINFO
 title: NOTIFYINFO (npapi.h)
-
 description: The NOTIFYINFO structure contains status information about a network connect or disconnect operation. It is used by the AddConnectNotify and CancelConnectNotify functions.
 old-location: security\notifyinfo.htm
 tech.root: SecAuthN
 ms.assetid: 43b31128-da9c-470b-b030-0010b250a291
-
 ms.date: 12/05/2018
-ms.keywords: "*LPNOTIFYINFO, LPNOTIFYINFO, LPNOTIFYINFO structure pointer [Security], NOTIFYINFO, NOTIFYINFO structure [Security], _mnp_notifyinfo, npapi/LPNOTIFYINFO, npapi/NOTIFYINFO, security.notifyinfo"
+ms.keywords: '*LPNOTIFYINFO, LPNOTIFYINFO, LPNOTIFYINFO structure pointer [Security], NOTIFYINFO, NOTIFYINFO structure [Security], _mnp_notifyinfo, npapi/LPNOTIFYINFO, npapi/NOTIFYINFO, security.notifyinfo'
 ms.topic: struct
-f1_keywords: 
- - "npapi/NOTIFYINFO"
+f1_keywords:
+- npapi/NOTIFYINFO
 dev_langs:
- - c++
+- c++
 req.header: npapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Npapi.h
+- Npapi.h
 api_name:
- - NOTIFYINFO
+- NOTIFYINFO
 targetos: Windows
 req.typenames: NOTIFYINFO, *LPNOTIFYINFO
 req.redist: 

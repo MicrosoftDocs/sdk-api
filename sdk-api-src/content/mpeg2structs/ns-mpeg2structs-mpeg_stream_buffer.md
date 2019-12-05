@@ -1,19 +1,17 @@
 ---
 UID: NS:mpeg2structs.__MIDL___MIDL_itf_mpeg2structs_0000_0000_0023
 title: MPEG_STREAM_BUFFER (mpeg2structs.h)
-
 description: The MPEG_STREAM_BUFFER structure defines a buffer that receives MPEG-2 data.
 old-location: mstv\mpeg_stream_buffer.htm
 tech.root: mstv
 ms.assetid: d376af4c-4b22-4a2d-917a-6f25d2c38861
-
 ms.date: 12/05/2018
-ms.keywords: "*PMPEG_STREAM_BUFFER, MPEG_STREAM_BUFFER, MPEG_STREAM_BUFFER structure [Microsoft TV Technologies], PMPEG_STREAM_BUFFER, PMPEG_STREAM_BUFFER structure pointer [Microsoft TV Technologies], mpeg2structs/MPEG_STREAM_BUFFER, mpeg2structs/PMPEG_STREAM_BUFFER, mstv.mpeg_stream_buffer"
+ms.keywords: '*PMPEG_STREAM_BUFFER, MPEG_STREAM_BUFFER, MPEG_STREAM_BUFFER structure [Microsoft TV Technologies], PMPEG_STREAM_BUFFER, PMPEG_STREAM_BUFFER structure pointer [Microsoft TV Technologies], mpeg2structs/MPEG_STREAM_BUFFER, mpeg2structs/PMPEG_STREAM_BUFFER, mstv.mpeg_stream_buffer'
 ms.topic: struct
-f1_keywords: 
- - "mpeg2structs/MPEG_STREAM_BUFFER"
+f1_keywords:
+- mpeg2structs/MPEG_STREAM_BUFFER
 dev_langs:
- - c++
+- c++
 req.header: mpeg2structs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Mpeg2Structs.h
+- Mpeg2Structs.h
 api_name:
- - MPEG_STREAM_BUFFER
+- MPEG_STREAM_BUFFER
 targetos: Windows
 req.typenames: MPEG_STREAM_BUFFER, *PMPEG_STREAM_BUFFER
 req.redist: 

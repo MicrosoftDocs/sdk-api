@@ -1,19 +1,17 @@
 ---
 UID: NF:directxmath.XMVectorSplatZ
 title: XMVectorSplatZ function (directxmath.h)
-
 description: Replicates the z component of a vector to all of the components.
 old-location: dxmath\xmvectorsplatz.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.component-wise.XMVectorSplatZ(XMVECTOR)
-
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMVectorSplatZ, XMVectorSplatZ, XMVectorSplatZ method [DirectX Math Support APIs], dxmath.xmvectorsplatz
 ms.topic: function
-f1_keywords: 
- - "directxmath/XMVectorSplatZ"
+f1_keywords:
+- directxmath/XMVectorSplatZ
 dev_langs:
- - c++
+- c++
 req.header: directxmath.h
 req.include-header: DirectXMath.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - directxmathvector.inl
+- directxmathvector.inl
 api_name:
- - XMVectorSplatZ
+- XMVectorSplatZ
 targetos: Windows
 req.typenames: 
 req.redist: 

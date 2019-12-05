@@ -1,19 +1,17 @@
 ---
 UID: NF:roparameterizediid.RoGetParameterizedTypeInstanceIID
 title: RoGetParameterizedTypeInstanceIID function (roparameterizediid.h)
-
 description: Computes the interface identifier (IID) of the interface or delegate type that results when a parameterized interface or delegate is instantiated with the specified type arguments.
 old-location: winrt\rogetparameterizedtypeinstanceiid.htm
 tech.root: WinRT
 ms.assetid: DE908C82-5D7C-415C-B08B-31786589979B
-
 ms.date: 12/05/2018
 ms.keywords: RoGetParameterizedTypeInstanceIID, RoGetParameterizedTypeInstanceIID function [Windows Runtime], roparameterizediid/RoGetParameterizedTypeInstanceIID, winrt.rogetparameterizedtypeinstanceiid
 ms.topic: function
-f1_keywords: 
- - "roparameterizediid/RoGetParameterizedTypeInstanceIID"
+f1_keywords:
+- roparameterizediid/RoGetParameterizedTypeInstanceIID
 dev_langs:
- - c++
+- c++
 req.header: roparameterizediid.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: Api-ms-win-core-winrt-roparameterizediid-l1-1-0.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - api-ms-win-core-winrt-roparameterizediid-l1-1-0.dll
- - ComBase.dll
+- api-ms-win-core-winrt-roparameterizediid-l1-1-0.dll
+- ComBase.dll
 api_name:
- - RoGetParameterizedTypeInstanceIID
+- RoGetParameterizedTypeInstanceIID
 targetos: Windows
 req.typenames: 
 req.redist: 

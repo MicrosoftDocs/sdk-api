@@ -1,19 +1,17 @@
 ---
 UID: NE:interactioncontext.INTERACTION_ID
 title: INTERACTION_ID (interactioncontext.h)
-
 description: Specifies the interaction states used for configuring an Interaction Context object.
 old-location: input_intcontext\interaction_id.htm
 tech.root: Input_IntContext
 ms.assetid: 9c6ac9ce-d7c9-4a92-9631-2f241a762525
-
 ms.date: 12/05/2018
 ms.keywords: INTERACTION_ID, INTERACTION_ID enumeration, INTERACTION_ID_CROSS_SLIDE, INTERACTION_ID_DRAG, INTERACTION_ID_HOLD, INTERACTION_ID_MANIPULATION, INTERACTION_ID_MAX, INTERACTION_ID_NONE, INTERACTION_ID_SECONDARY_TAP, INTERACTION_ID_TAP, input_intcontext.interaction_id, interactioncontext.interaction_id, interactioncontext/INTERACTION_ID, interactioncontext/INTERACTION_ID_CROSS_SLIDE, interactioncontext/INTERACTION_ID_DRAG, interactioncontext/INTERACTION_ID_HOLD, interactioncontext/INTERACTION_ID_MANIPULATION, interactioncontext/INTERACTION_ID_MAX, interactioncontext/INTERACTION_ID_NONE, interactioncontext/INTERACTION_ID_SECONDARY_TAP, interactioncontext/INTERACTION_ID_TAP
 ms.topic: enum
-f1_keywords: 
- - "interactioncontext/INTERACTION_ID"
+f1_keywords:
+- interactioncontext/INTERACTION_ID
 dev_langs:
- - c++
+- c++
 req.header: interactioncontext.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - interactioncontext.h
+- interactioncontext.h
 api_name:
- - INTERACTION_ID
+- INTERACTION_ID
 targetos: Windows
 req.typenames: INTERACTION_ID
 req.redist: 

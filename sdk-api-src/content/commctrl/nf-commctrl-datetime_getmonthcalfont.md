@@ -1,19 +1,17 @@
 ---
 UID: NF:commctrl.DateTime_GetMonthCalFont
 title: DateTime_GetMonthCalFont macro (commctrl.h)
-
 description: Gets the font that the date and time picker (DTP) control's child month calendar control is currently using. You can use this macro or send the DTM_GETMCFONT message explicitly.
 old-location: controls\DateTime_GetMonthCalFont.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\datetime\macros\datetime_getmonthcalfont.htm
-
 ms.date: 12/05/2018
 ms.keywords: DateTime_GetMonthCalFont, DateTime_GetMonthCalFont macro [Windows Controls], _win32_DateTime_GetMonthCalFont, _win32_DateTime_GetMonthCalFont_cpp, commctrl/DateTime_GetMonthCalFont, controls.DateTime_GetMonthCalFont, controls._win32_DateTime_GetMonthCalFont
 ms.topic: macro
-f1_keywords: 
- - "commctrl/DateTime_GetMonthCalFont"
+f1_keywords:
+- commctrl/DateTime_GetMonthCalFont
 dev_langs:
- - c++
+- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Commctrl.h
+- Commctrl.h
 api_name:
- - DateTime_GetMonthCalFont
+- DateTime_GetMonthCalFont
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NC:mswsock.LPFN_RIOREGISTERBUFFER
 title: LPFN_RIOREGISTERBUFFER
-
 description: Registers a RIO\_BUFFERID, a registered buffer descriptor, with a specified buffer for use with the Winsock registered I/O extensions.
 old-location: 
 tech.root: WinSock
 ms.assetid: CAADCC2F-1443-410F-A860-375C9AAE208E
-
 ms.date: 01/30/19
 ms.keywords: LPFN_RIOREGISTERBUFFER
 ms.topic: language-reference
-f1_keywords: 
- - "mswsock/LPFN_RIOREGISTERBUFFER"
+f1_keywords:
+- mswsock/LPFN_RIOREGISTERBUFFER
 dev_langs:
- - c++
+- c++
 targetos: Windows
 req.assembly: 
 req.construct-type: function
@@ -35,13 +33,13 @@ req.type-library:
 req.umdf-ver: 
 req.unicode-ansi: 
 topic_type:
- - apiref
+- apiref
 api_type:
- - LibDef
+- LibDef
 api_location:
- - mswsock.h
+- mswsock.h
 api_name:
- - LPFN_RIOREGISTERBUFFER
+- LPFN_RIOREGISTERBUFFER
 ---
 
 ## -description

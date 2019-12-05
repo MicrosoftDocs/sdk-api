@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationTextRange.GetBoundingRectangles
 title: IUIAutomationTextRange::GetBoundingRectangles (uiautomationclient.h)
-
 description: Retrieves a collection of bounding rectangles for each fully or partially visible line of text in a text range.
 old-location: winauto\uiauto_IUIAutomationTextRange_GetBoundingRectangles.htm
 tech.root: WinAuto
 ms.assetid: a155d143-c5ec-4669-9635-fb8f8012a684
-
 ms.date: 12/05/2018
 ms.keywords: GetBoundingRectangles, GetBoundingRectangles method [Windows Accessibility], GetBoundingRectangles method [Windows Accessibility],IUIAutomationTextRange interface, IUIAutomationTextRange interface [Windows Accessibility],GetBoundingRectangles method, IUIAutomationTextRange.GetBoundingRectangles, IUIAutomationTextRange::GetBoundingRectangles, uiauto.uiauto_IUIAutomationTextRange_GetBoundingRectangles, uiauto_IUIAutomationTextRange_GetBoundingRectangles, uiautomationclient/IUIAutomationTextRange::GetBoundingRectangles, winauto.uiauto_IUIAutomationTextRange_GetBoundingRectangles
 ms.topic: method
-f1_keywords: 
- - "uiautomationclient/IUIAutomationTextRange.GetBoundingRectangles"
+f1_keywords:
+- uiautomationclient/IUIAutomationTextRange.GetBoundingRectangles
 dev_langs:
- - c++
+- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationClient.h
+- UIAutomationClient.h
 api_name:
- - IUIAutomationTextRange.GetBoundingRectangles
+- IUIAutomationTextRange.GetBoundingRectangles
 targetos: Windows
 req.typenames: 
 req.redist: 

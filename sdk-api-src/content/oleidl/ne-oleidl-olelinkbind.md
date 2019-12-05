@@ -1,19 +1,17 @@
 ---
 UID: NE:oleidl.tagOLELINKBIND
 title: OLELINKBIND (oleidl.h)
-
 description: Controls binding operations to a link source.
 old-location: com\olelinkbind.htm
 tech.root: com
 ms.assetid: a5b8bb64-002f-4c85-b6bb-61b2fba88c0f
-
 ms.date: 12/05/2018
 ms.keywords: OLELINKBIND, OLELINKBIND enumeration [COM], OLELINKBIND_EVENIFCLASSDIFF, _ole_OLELINKBIND, com.olelinkbind, oleidl/OLELINKBIND, oleidl/OLELINKBIND_EVENIFCLASSDIFF
 ms.topic: enum
-f1_keywords: 
- - "oleidl/OLELINKBIND"
+f1_keywords:
+- oleidl/OLELINKBIND
 dev_langs:
- - c++
+- c++
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - OleIdl.h
+- OleIdl.h
 api_name:
- - OLELINKBIND
+- OLELINKBIND
 targetos: Windows
 req.typenames: OLELINKBIND
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:commctrl.ListView_FindItem
 title: ListView_FindItem macro (commctrl.h)
-
 description: Searches for a list-view item with the specified characteristics. You can use this macro or send the LVM_FINDITEM message explicitly.
 old-location: controls\ListView_FindItem.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_finditem.htm
-
 ms.date: 12/05/2018
 ms.keywords: ListView_FindItem, ListView_FindItem macro [Windows Controls], _win32_ListView_FindItem, _win32_ListView_FindItem_cpp, commctrl/ListView_FindItem, controls.ListView_FindItem, controls._win32_ListView_FindItem
 ms.topic: macro
-f1_keywords: 
- - "commctrl/ListView_FindItem"
+f1_keywords:
+- commctrl/ListView_FindItem
 dev_langs:
- - c++
+- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Commctrl.h
+- Commctrl.h
 api_name:
- - ListView_FindItem
+- ListView_FindItem
 targetos: Windows
 req.typenames: 
 req.redist: 

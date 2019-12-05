@@ -1,19 +1,17 @@
 ---
 UID: NF:wuapi.IWindowsDriverUpdate.get_DriverClass
 title: IWindowsDriverUpdate::get_DriverClass (wuapi.h)
-
 description: Gets the class of the Windows driver update.
 old-location: wua\iwindowsdriverupdate_driverclass.htm
 tech.root: Wua_Sdk
 ms.assetid: 4d11012c-6ccb-4e4a-91b7-39fefb0efb28
-
 ms.date: 12/05/2018
 ms.keywords: DriverClass property [Windows Update Agent], DriverClass property [Windows Update Agent],IWindowsDriverUpdate interface, IWindowsDriverUpdate interface [Windows Update Agent],DriverClass property, IWindowsDriverUpdate.DriverClass, IWindowsDriverUpdate.get_DriverClass, IWindowsDriverUpdate::DriverClass, IWindowsDriverUpdate::get_DriverClass, get_DriverClass, wua.iwindowsdriverupdate_driverclass, wuapi/IWindowsDriverUpdate::DriverClass, wuapi/IWindowsDriverUpdate::get_DriverClass
 ms.topic: method
-f1_keywords: 
- - "wuapi/IWindowsDriverUpdate.DriverClass"
+f1_keywords:
+- wuapi/IWindowsDriverUpdate.DriverClass
 dev_langs:
- - c++
+- c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Wuguid.lib
 req.dll: Wuapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wuapi.dll
+- Wuapi.dll
 api_name:
- - IWindowsDriverUpdate.DriverClass
- - IWindowsDriverUpdate.get_DriverClass
+- IWindowsDriverUpdate.DriverClass
+- IWindowsDriverUpdate.get_DriverClass
 targetos: Windows
 req.typenames: 
 req.redist: 

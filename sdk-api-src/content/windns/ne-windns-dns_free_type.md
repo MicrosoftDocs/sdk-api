@@ -1,19 +1,17 @@
 ---
 UID: NE:windns.__unnamed_enum_1
 title: DNS_FREE_TYPE (windns.h)
-
 description: The DNS_FREE_TYPE enumeration specifies the type of data to free.
 old-location: dns\dns_free_type.htm
 tech.root: DNS
 ms.assetid: 976982a1-08f1-4c67-b823-1eea34f0c643
-
 ms.date: 12/05/2018
 ms.keywords: DNS_FREE_TYPE, DNS_FREE_TYPE enumeration [DNS], DnsFreeFlat, DnsFreeParsedMessageFields, DnsFreeRecordList, dns.dns_free_type, windns/DNS_FREE_TYPE, windns/DnsFreeFlat, windns/DnsFreeParsedMessageFields, windns/DnsFreeRecordList
 ms.topic: enum
-f1_keywords: 
- - "windns/DNS_FREE_TYPE"
+f1_keywords:
+- windns/DNS_FREE_TYPE
 dev_langs:
- - c++
+- c++
 req.header: windns.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Windns.h
+- Windns.h
 api_name:
- - DNS_FREE_TYPE
+- DNS_FREE_TYPE
 targetos: Windows
 req.typenames: DNS_FREE_TYPE
 req.redist: 

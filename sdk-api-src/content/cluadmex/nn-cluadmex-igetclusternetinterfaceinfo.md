@@ -1,19 +1,17 @@
 ---
 UID: NN:cluadmex.IGetClusterNetInterfaceInfo
 title: IGetClusterNetInterfaceInfo (cluadmex.h)
-
 description: The IGetClusterNetInterfaceInfo interface is called by a Failover Cluster Administrator extension to retrieve information about a network interface.
 old-location: mscs\igetclusternetinterfaceinfo.htm
 tech.root: MsCS
 ms.assetid: c7a0ee81-e263-4a2d-a0e5-18d3a4ad0d79
-
 ms.date: 12/05/2018
 ms.keywords: IGetClusterNetInterfaceInfo, IGetClusterNetInterfaceInfo interface [Failover Cluster], IGetClusterNetInterfaceInfo interface [Failover Cluster],described, _wolf_igetclusternetinterfaceinfo, cluadmex/IGetClusterNetInterfaceInfo, mscs.igetclusternetinterfaceinfo
 ms.topic: interface
-f1_keywords: 
- - "cluadmex/IGetClusterNetInterfaceInfo"
+f1_keywords:
+- cluadmex/IGetClusterNetInterfaceInfo
 dev_langs:
- - c++
+- c++
 req.header: cluadmex.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - cluadmex.h
+- cluadmex.h
 api_name:
- - IGetClusterNetInterfaceInfo
+- IGetClusterNetInterfaceInfo
 targetos: Windows
 req.typenames: 
 req.redist: 

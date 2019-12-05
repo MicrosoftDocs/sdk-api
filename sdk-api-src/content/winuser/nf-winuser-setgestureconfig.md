@@ -1,19 +1,17 @@
 ---
 UID: NF:winuser.SetGestureConfig
 title: SetGestureConfig function (winuser.h)
-
 description: Configures the messages that are sent from a window for Windows Touch gestures.
 old-location: wintouch\setgestureconfig.htm
 tech.root: wintouch
 ms.assetid: 7df5a18e-5e65-4dd5-a59d-853a91ead710
-
 ms.date: 12/05/2018
 ms.keywords: SetGestureConfig, SetGestureConfig function [Windows Touch], wintouch.setgestureconfig, winuser/SetGestureConfig
 ms.topic: function
-f1_keywords: 
- - "winuser/SetGestureConfig"
+f1_keywords:
+- winuser/SetGestureConfig
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - user32.dll
+- user32.dll
 api_name:
- - SetGestureConfig
+- SetGestureConfig
 targetos: Windows
 req.typenames: 
 req.redist: 

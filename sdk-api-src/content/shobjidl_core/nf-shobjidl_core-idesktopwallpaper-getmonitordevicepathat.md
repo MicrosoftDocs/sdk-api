@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IDesktopWallpaper.GetMonitorDevicePathAt
 title: IDesktopWallpaper::GetMonitorDevicePathAt (shobjidl_core.h)
-
 description: Retrieves the unique ID of one of the system's monitors.
 old-location: shell\IDesktopWallpaper_GetMonitorDevicePathAt.htm
 tech.root: shell
 ms.assetid: CE0C6B07-F9D1-4221-9D9D-8D17CF6780E6
-
 ms.date: 12/05/2018
 ms.keywords: GetMonitorDevicePathAt, GetMonitorDevicePathAt method [Windows Shell], GetMonitorDevicePathAt method [Windows Shell],IDesktopWallpaper interface, IDesktopWallpaper interface [Windows Shell],GetMonitorDevicePathAt method, IDesktopWallpaper.GetMonitorDevicePathAt, IDesktopWallpaper::GetMonitorDevicePathAt, shell.IDesktopWallpaper_GetMonitorDevicePathAt, shobjidl_core/IDesktopWallpaper::GetMonitorDevicePathAt
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IDesktopWallpaper.GetMonitorDevicePathAt"
+f1_keywords:
+- shobjidl_core/IDesktopWallpaper.GetMonitorDevicePathAt
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - IDesktopWallpaper.GetMonitorDevicePathAt
+- IDesktopWallpaper.GetMonitorDevicePathAt
 targetos: Windows
 req.typenames: 
 req.redist: 

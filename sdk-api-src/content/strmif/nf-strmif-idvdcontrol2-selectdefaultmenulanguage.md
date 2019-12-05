@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IDvdControl2.SelectDefaultMenuLanguage
 title: IDvdControl2::SelectDefaultMenuLanguage (strmif.h)
-
 description: The SelectDefaultMenuLanguage method sets the default language for all menus and menu buttons.
 old-location: dshow\idvdcontrol2_selectdefaultmenulanguage.htm
 tech.root: DirectShow
 ms.assetid: f45d71e5-d125-477b-8fdf-f719a6c20101
-
 ms.date: 12/05/2018
 ms.keywords: IDvdControl2 interface [DirectShow],SelectDefaultMenuLanguage method, IDvdControl2.SelectDefaultMenuLanguage, IDvdControl2::SelectDefaultMenuLanguage, IDvdControl2SelectDefaultMenuLanguage, SelectDefaultMenuLanguage, SelectDefaultMenuLanguage method [DirectShow], SelectDefaultMenuLanguage method [DirectShow],IDvdControl2 interface, dshow.idvdcontrol2_selectdefaultmenulanguage, strmif/IDvdControl2::SelectDefaultMenuLanguage
 ms.topic: method
-f1_keywords: 
- - "strmif/IDvdControl2.SelectDefaultMenuLanguage"
+f1_keywords:
+- strmif/IDvdControl2.SelectDefaultMenuLanguage
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IDvdControl2.SelectDefaultMenuLanguage
+- IDvdControl2.SelectDefaultMenuLanguage
 targetos: Windows
 req.typenames: 
 req.redist: 

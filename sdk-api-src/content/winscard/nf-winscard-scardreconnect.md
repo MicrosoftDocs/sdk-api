@@ -1,19 +1,17 @@
 ---
 UID: NF:winscard.SCardReconnect
 title: SCardReconnect function (winscard.h)
-
 description: Reestablishes an existing connection between the calling application and a smart card.
 old-location: security\scardreconnect.htm
 tech.root: SecAuthN
 ms.assetid: c79e5810-c2be-4184-8ac7-c058ccb9308e
-
 ms.date: 12/05/2018
 ms.keywords: SCARD_LEAVE_CARD, SCARD_PROTOCOL_T0, SCARD_PROTOCOL_T1, SCARD_RESET_CARD, SCARD_SHARE_EXCLUSIVE, SCARD_SHARE_SHARED, SCARD_UNPOWER_CARD, SCardReconnect, SCardReconnect function [Security], _smart_scardreconnect, security.scardreconnect, winscard/SCardReconnect
 ms.topic: function
-f1_keywords: 
- - "winscard/SCardReconnect"
+f1_keywords:
+- winscard/SCardReconnect
 dev_langs:
- - c++
+- c++
 req.header: winscard.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Winscard.lib
 req.dll: Winscard.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Winscard.dll
- - Ext-MS-Win-Security-WinSCard-L1-1-0.dll
+- Winscard.dll
+- Ext-MS-Win-Security-WinSCard-L1-1-0.dll
 api_name:
- - SCardReconnect
+- SCardReconnect
 targetos: Windows
 req.typenames: 
 req.redist: 

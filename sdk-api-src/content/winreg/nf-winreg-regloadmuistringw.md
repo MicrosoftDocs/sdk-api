@@ -1,19 +1,17 @@
 ---
 UID: NF:winreg.RegLoadMUIStringW
 title: RegLoadMUIStringW function (winreg.h)
-
 description: Loads the specified string from the specified key and subkey.
 old-location: base\regloadmuistring.htm
 tech.root: SysInfo
 ms.assetid: 76ffc77f-a1bc-4e01-858f-4a76563a2bbc
-
 ms.date: 12/05/2018
 ms.keywords: REG_MUI_STRING_TRUNCATE, RegLoadMUIString, RegLoadMUIString function, RegLoadMUIStringA, RegLoadMUIStringW, base.regloadmuistring, winreg/RegLoadMUIString, winreg/RegLoadMUIStringA, winreg/RegLoadMUIStringW
 ms.topic: function
-f1_keywords: 
- - "winreg/RegLoadMUIString"
+f1_keywords:
+- winreg/RegLoadMUIString
 dev_langs:
- - c++
+- c++
 req.header: winreg.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,23 +30,23 @@ req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Advapi32.dll
- - API-MS-Win-Core-Localregistry-l1-1-0.dll
- - KernelBase.dll
- - API-MS-Win-Core-Registry-l1-1-0.dll
- - API-MS-Win-DownLevel-AdvApi32-l1-1-0.dll
- - API-MS-Win-DownLevel-AdvApi32-l1-1-1.dll
- - MinKernelBase.dll
- - api-ms-win-core-registry-l1-1-1.dll
+- Advapi32.dll
+- API-MS-Win-Core-Localregistry-l1-1-0.dll
+- KernelBase.dll
+- API-MS-Win-Core-Registry-l1-1-0.dll
+- API-MS-Win-DownLevel-AdvApi32-l1-1-0.dll
+- API-MS-Win-DownLevel-AdvApi32-l1-1-1.dll
+- MinKernelBase.dll
+- api-ms-win-core-registry-l1-1-1.dll
 api_name:
- - RegLoadMUIString
- - RegLoadMUIStringA
- - RegLoadMUIStringW
+- RegLoadMUIString
+- RegLoadMUIStringA
+- RegLoadMUIStringW
 targetos: Windows
 req.typenames: 
 req.redist: 

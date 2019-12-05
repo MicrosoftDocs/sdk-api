@@ -1,19 +1,17 @@
 ---
 UID: NF:rpcdce.UuidFromStringA
 title: UuidFromStringA function (rpcdce.h)
-
 description: The UuidFromString function converts a string to a UUID.
 old-location: rpc\uuidfromstring.htm
 tech.root: Rpc
 ms.assetid: 90b3cf6b-a15b-4f91-9ba2-0e43fe3374df
-
 ms.date: 12/05/2018
 ms.keywords: UuidFromString, UuidFromString function [RPC], UuidFromStringA, UuidFromStringW, _rpc_uuidfromstring, rpc.uuidfromstring, rpcdce/UuidFromString, rpcdce/UuidFromStringA, rpcdce/UuidFromStringW
 ms.topic: function
-f1_keywords: 
- - "rpcdce/UuidFromString"
+f1_keywords:
+- rpcdce/UuidFromString
 dev_langs:
- - c++
+- c++
 req.header: rpcdce.h
 req.include-header: Rpc.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Rpcrt4.lib
 req.dll: Rpcrt4.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Rpcrt4.dll
+- Rpcrt4.dll
 api_name:
- - UuidFromString
- - UuidFromStringA
- - UuidFromStringW
+- UuidFromString
+- UuidFromStringA
+- UuidFromStringW
 targetos: Windows
 req.typenames: 
 req.redist: 

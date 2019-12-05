@@ -1,19 +1,17 @@
 ---
 UID: NF:commctrl.TreeView_GetNextVisible
 title: TreeView_GetNextVisible macro (commctrl.h)
-
 description: Retrieves the next visible item that follows a specified item in a tree-view control. You can use this macro, or you can explicitly send the TVM_GETNEXTITEM message with the TVGN_NEXTVISIBLE flag.
 old-location: controls\TreeView_GetNextVisible.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\treeview\macros\treeview_getnextvisible.htm
-
 ms.date: 12/05/2018
 ms.keywords: TreeView_GetNextVisible, TreeView_GetNextVisible macro [Windows Controls], _win32_TreeView_GetNextVisible, _win32_TreeView_GetNextVisible_cpp, commctrl/TreeView_GetNextVisible, controls.TreeView_GetNextVisible, controls._win32_TreeView_GetNextVisible
 ms.topic: macro
-f1_keywords: 
- - "commctrl/TreeView_GetNextVisible"
+f1_keywords:
+- commctrl/TreeView_GetNextVisible
 dev_langs:
- - c++
+- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Commctrl.h
+- Commctrl.h
 api_name:
- - TreeView_GetNextVisible
+- TreeView_GetNextVisible
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationRangeValuePattern.get_CurrentMinimum
 title: IUIAutomationRangeValuePattern::get_CurrentMinimum (uiautomationclient.h)
-
 description: Retrieves the minimum value of the control.
 old-location: winauto\uiauto_IUIAutomationRangeValuePattern_CurrentMinimum.htm
 tech.root: WinAuto
 ms.assetid: 1bb98417-750c-4b03-a4a2-d652d0c2fb6e
-
 ms.date: 12/05/2018
 ms.keywords: CurrentMinimum property [Windows Accessibility], CurrentMinimum property [Windows Accessibility],IUIAutomationRangeValuePattern interface, IUIAutomationRangeValuePattern interface [Windows Accessibility],CurrentMinimum property, IUIAutomationRangeValuePattern.CurrentMinimum, IUIAutomationRangeValuePattern.get_CurrentMinimum, IUIAutomationRangeValuePattern::CurrentMinimum, IUIAutomationRangeValuePattern::get_CurrentMinimum, get_CurrentMinimum, uiauto.uiauto_IUIAutomationRangeValuePattern_CurrentMinimum, uiauto_IUIAutomationRangeValuePattern_CurrentMinimum, uiautomationclient/IUIAutomationRangeValuePattern::CurrentMinimum, uiautomationclient/IUIAutomationRangeValuePattern::get_CurrentMinimum, winauto.uiauto_IUIAutomationRangeValuePattern_CurrentMinimum
 ms.topic: method
-f1_keywords: 
- - "uiautomationclient/IUIAutomationRangeValuePattern.CurrentMinimum"
+f1_keywords:
+- uiautomationclient/IUIAutomationRangeValuePattern.CurrentMinimum
 dev_langs:
- - c++
+- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationClient.h
+- UIAutomationClient.h
 api_name:
- - IUIAutomationRangeValuePattern.CurrentMinimum
- - IUIAutomationRangeValuePattern.get_CurrentMinimum
+- IUIAutomationRangeValuePattern.CurrentMinimum
+- IUIAutomationRangeValuePattern.get_CurrentMinimum
 targetos: Windows
 req.typenames: 
 req.redist: 

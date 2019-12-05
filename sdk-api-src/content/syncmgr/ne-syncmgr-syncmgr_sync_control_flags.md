@@ -1,19 +1,17 @@
 ---
 UID: NE:syncmgr.SYNCMGR_SYNC_CONTROL_FLAGS
 title: SYNCMGR_SYNC_CONTROL_FLAGS (syncmgr.h)
-
 description: Indicates flags used by ISyncMgrControl::StartHandlerSync and ISyncMgrControl::StartItemSync.
 old-location: shell\SYNCMGR_SYNC_CONTROL_FLAGS.htm
 tech.root: shell
 ms.assetid: 2191c105-788d-434e-a3c1-4f7b7dc543c4
-
 ms.date: 12/05/2018
 ms.keywords: SYNCMGR_SCF_IGNORE_IF_ALREADY_SYNCING, SYNCMGR_SCF_NONE, SYNCMGR_SCF_VALID, SYNCMGR_SYNC_CONTROL_FLAGS, SYNCMGR_SYNC_CONTROL_FLAGS enumeration [Windows Shell], _shell_SYNCMGR_SYNC_CONTROL_FLAGS, shell.SYNCMGR_SYNC_CONTROL_FLAGS, syncmgr/SYNCMGR_SCF_IGNORE_IF_ALREADY_SYNCING, syncmgr/SYNCMGR_SCF_NONE, syncmgr/SYNCMGR_SCF_VALID, syncmgr/SYNCMGR_SYNC_CONTROL_FLAGS
 ms.topic: enum
-f1_keywords: 
- - "syncmgr/SYNCMGR_SYNC_CONTROL_FLAGS"
+f1_keywords:
+- syncmgr/SYNCMGR_SYNC_CONTROL_FLAGS
 dev_langs:
- - c++
+- c++
 req.header: syncmgr.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Syncmgr.h
+- Syncmgr.h
 api_name:
- - SYNCMGR_SYNC_CONTROL_FLAGS
+- SYNCMGR_SYNC_CONTROL_FLAGS
 targetos: Windows
 req.typenames: SYNCMGR_SYNC_CONTROL_FLAGS
 req.redist: 

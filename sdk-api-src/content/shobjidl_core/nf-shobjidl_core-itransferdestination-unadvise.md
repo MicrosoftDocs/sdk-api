@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.ITransferDestination.Unadvise
 title: ITransferDestination::Unadvise (shobjidl_core.h)
-
 description: Terminates an advisory connection.
 old-location: shell\ITransferDestination_Unadvise.htm
 tech.root: shell
 ms.assetid: ecc3d32b-50cb-48d3-90c2-aba4614f863d
-
 ms.date: 12/05/2018
 ms.keywords: ITransferDestination interface [Windows Shell],Unadvise method, ITransferDestination.Unadvise, ITransferDestination::Unadvise, Unadvise, Unadvise method [Windows Shell], Unadvise method [Windows Shell],ITransferDestination interface, _shell_ITransferDestination_Unadvise, shell.ITransferDestination_Unadvise, shobjidl_core/ITransferDestination::Unadvise
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/ITransferDestination.Unadvise"
+f1_keywords:
+- shobjidl_core/ITransferDestination.Unadvise
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - ITransferDestination.Unadvise
+- ITransferDestination.Unadvise
 targetos: Windows
 req.typenames: 
 req.redist: 

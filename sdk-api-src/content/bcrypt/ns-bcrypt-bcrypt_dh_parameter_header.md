@@ -1,19 +1,17 @@
 ---
 UID: NS:bcrypt._BCRYPT_DH_PARAMETER_HEADER
 title: BCRYPT_DH_PARAMETER_HEADER (bcrypt.h)
-
 description: Used to contain parameter header information for a Diffie-Hellman key.
 old-location: security\bcrypt_dh_parameter_header.htm
 tech.root: SecCNG
 ms.assetid: 5d023653-6197-4f08-8c71-e1d10f6b1860
-
 ms.date: 12/05/2018
 ms.keywords: BCRYPT_DH_PARAMETERS_MAGIC, BCRYPT_DH_PARAMETER_HEADER, BCRYPT_DH_PARAMETER_HEADER structure [Security], bcrypt/BCRYPT_DH_PARAMETER_HEADER, security.bcrypt_dh_parameter_header
 ms.topic: struct
-f1_keywords: 
- - "bcrypt/BCRYPT_DH_PARAMETER_HEADER"
+f1_keywords:
+- bcrypt/BCRYPT_DH_PARAMETER_HEADER
 dev_langs:
- - c++
+- c++
 req.header: bcrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Bcrypt.h
+- Bcrypt.h
 api_name:
- - BCRYPT_DH_PARAMETER_HEADER
+- BCRYPT_DH_PARAMETER_HEADER
 targetos: Windows
 req.typenames: BCRYPT_DH_PARAMETER_HEADER
 req.redist: 

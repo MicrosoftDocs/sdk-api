@@ -1,19 +1,17 @@
 ---
 UID: NF:wsmandisp.IWSManEx.SessionFlagUseNoAuthentication
 title: IWSManEx::SessionFlagUseNoAuthentication (wsmandisp.h)
-
 description: Returns the value of the authentication flag WSManFlagUseNoAuthentication for use in the flags parameter of IWSMan::CreateSession.
 old-location: winrm\iwsmanex_sessionflagusenoauthentication.htm
 tech.root: winrm
 ms.assetid: af3f7512-c1d5-4c4d-b79a-b0bf8b95be6d
-
 ms.date: 12/05/2018
 ms.keywords: IWSManEx interface [Windows Remote Management],SessionFlagUseNoAuthentication method, IWSManEx.SessionFlagUseNoAuthentication, IWSManEx::SessionFlagUseNoAuthentication, SessionFlagUseNoAuthentication, SessionFlagUseNoAuthentication method [Windows Remote Management], SessionFlagUseNoAuthentication method [Windows Remote Management],IWSManEx interface, winrm.iwsmanex_sessionflagusenoauthentication, wsmandisp/IWSManEx::SessionFlagUseNoAuthentication
 ms.topic: method
-f1_keywords: 
- - "wsmandisp/IWSManEx.SessionFlagUseNoAuthentication"
+f1_keywords:
+- wsmandisp/IWSManEx.SessionFlagUseNoAuthentication
 dev_langs:
- - c++
+- c++
 req.header: wsmandisp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: WSManDisp.tlb
 req.dll: WSMAuto.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - WSMAuto.dll
+- WSMAuto.dll
 api_name:
- - IWSManEx.SessionFlagUseNoAuthentication
+- IWSManEx.SessionFlagUseNoAuthentication
 targetos: Windows
 req.typenames: 
 req.redist: 

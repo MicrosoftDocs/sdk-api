@@ -1,19 +1,17 @@
 ---
 UID: NF:objidl.ISurrogateService.ProcessShutdown
 title: ISurrogateService::ProcessShutdown (objidl.h)
-
 description: Shuts down the process.
 old-location: com\isurrogateservice_processshutdown.htm
 tech.root: com
 ms.assetid: b01dc079-647c-4e58-a36b-0a665355afb7
-
 ms.date: 12/05/2018
 ms.keywords: ISurrogateService interface [COM],ProcessShutdown method, ISurrogateService.ProcessShutdown, ISurrogateService::ProcessShutdown, ProcessShutdown, ProcessShutdown method [COM], ProcessShutdown method [COM],ISurrogateService interface, _com_isurrogateservice_processshutdown, com.isurrogateservice_processshutdown, objidl/ISurrogateService::ProcessShutdown
 ms.topic: method
-f1_keywords: 
- - "objidl/ISurrogateService.ProcessShutdown"
+f1_keywords:
+- objidl/ISurrogateService.ProcessShutdown
 dev_langs:
- - c++
+- c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ObjIdl.h
+- ObjIdl.h
 api_name:
- - ISurrogateService.ProcessShutdown
+- ISurrogateService.ProcessShutdown
 targetos: Windows
 req.typenames: 
 req.redist: 

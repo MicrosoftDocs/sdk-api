@@ -1,19 +1,17 @@
 ---
 UID: NF:contentpartner.IWMPContentContainer.GetContentID
 title: IWMPContentContainer::GetContentID (contentpartner.h)
-
 description: Note  This section describes functionality designed for use by online stores.
 old-location: wmp\iwmpcontentcontainer_getcontentid.htm
 tech.root: WMP
 ms.assetid: 95519f7e-aa78-4d66-87ba-71978d404412
-
 ms.date: 12/05/2018
 ms.keywords: GetContentID, GetContentID method [Windows Media Player], GetContentID method [Windows Media Player],IWMPContentContainer interface, IWMPContentContainer interface [Windows Media Player],GetContentID method, IWMPContentContainer.GetContentID, IWMPContentContainer::GetContentID, IWMPContentContainerGetContentID, contentpartner/IWMPContentContainer::GetContentID, wmp.iwmpcontentcontainer_getcontentid
 ms.topic: method
-f1_keywords: 
- - "contentpartner/IWMPContentContainer.GetContentID"
+f1_keywords:
+- contentpartner/IWMPContentContainer.GetContentID
 dev_langs:
- - c++
+- c++
 req.header: contentpartner.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - contentpartner.h
+- contentpartner.h
 api_name:
- - IWMPContentContainer.GetContentID
+- IWMPContentContainer.GetContentID
 targetos: Windows
 req.typenames: 
 req.redist: 

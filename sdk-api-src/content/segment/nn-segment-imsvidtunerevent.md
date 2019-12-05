@@ -1,19 +1,17 @@
 ---
 UID: NN:segment.IMSVidTunerEvent
 title: IMSVidTunerEvent (segment.h)
-
 description: This topic applies to Windows XP or later.
 old-location: mstv\imsvidtunerevent.htm
 tech.root: mstv
 ms.assetid: cdffe6ca-00b0-4230-963d-b4409413e5f5
-
 ms.date: 12/05/2018
 ms.keywords: IMSVidTunerEvent, IMSVidTunerEvent interface [Microsoft TV Technologies], IMSVidTunerEvent interface [Microsoft TV Technologies],described, IMSVidTunerEventInterface, mstv.imsvidtunerevent, segment/IMSVidTunerEvent
 ms.topic: interface
-f1_keywords: 
- - "segment/IMSVidTunerEvent"
+f1_keywords:
+- segment/IMSVidTunerEvent
 dev_langs:
- - c++
+- c++
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - segment.h
+- segment.h
 api_name:
- - IMSVidTunerEvent
+- IMSVidTunerEvent
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:mmc.IExtendPropertySheet.CreatePropertyPages
 title: IExtendPropertySheet::CreatePropertyPages (mmc.h)
-
 description: Adds pages to a property sheet.
 old-location: mmc\iextendpropertysheet_createpropertypages.htm
 tech.root: mmc
 ms.assetid: 8B99EC8D-AFE1-4944-AF61-BFE93C0AF7DE
-
 ms.date: 12/05/2018
 ms.keywords: CreatePropertyPages, CreatePropertyPages method [MMC], CreatePropertyPages method [MMC],IExtendPropertySheet interface, IExtendPropertySheet interface [MMC],CreatePropertyPages method, IExtendPropertySheet.CreatePropertyPages, IExtendPropertySheet::CreatePropertyPages, mmc.iextendpropertysheet_createpropertypages, mmc/IExtendPropertySheet::CreatePropertyPages
 ms.topic: method
-f1_keywords: 
- - "mmc/IExtendPropertySheet.CreatePropertyPages"
+f1_keywords:
+- mmc/IExtendPropertySheet.CreatePropertyPages
 dev_langs:
- - c++
+- c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mmc.h
+- Mmc.h
 api_name:
- - IExtendPropertySheet.CreatePropertyPages
+- IExtendPropertySheet.CreatePropertyPages
 targetos: Windows
 req.typenames: 
 req.redist: 

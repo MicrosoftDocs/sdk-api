@@ -1,19 +1,17 @@
 ---
 UID: NF:mileffects.IMILBitmapEffectConnector.GetBitmapEffect
 title: IMILBitmapEffectConnector::GetBitmapEffect (mileffects.h)
-
 description: Gets the IMILBitmapEffect associated with the connector.
 old-location: wibe\_wibe_imilbitmapeffectconnector_getbitmapeffect.htm
 tech.root: wibe
 ms.assetid: VS|wibe|~\wibelh\reference\ifaces\imilbitmapeffectconnector\getbitmapeffect.htm
-
 ms.date: 12/05/2018
 ms.keywords: GetBitmapEffect, GetBitmapEffect method [WPF Bitmap Effects], GetBitmapEffect method [WPF Bitmap Effects],IMILBitmapEffectConnector interface, IMILBitmapEffectConnector interface [WPF Bitmap Effects],GetBitmapEffect method, IMILBitmapEffectConnector.GetBitmapEffect, IMILBitmapEffectConnector::GetBitmapEffect, _wibe_imilbitmapeffectconnector_getbitmapeffect, mileffects/IMILBitmapEffectConnector::GetBitmapEffect, wibe._wibe_imilbitmapeffectconnector_getbitmapeffect
 ms.topic: method
-f1_keywords: 
- - "mileffects/IMILBitmapEffectConnector.GetBitmapEffect"
+f1_keywords:
+- mileffects/IMILBitmapEffectConnector.GetBitmapEffect
 dev_langs:
- - c++
+- c++
 req.header: mileffects.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mileffects.h
+- Mileffects.h
 api_name:
- - IMILBitmapEffectConnector.GetBitmapEffect
+- IMILBitmapEffectConnector.GetBitmapEffect
 targetos: Windows
 req.typenames: 
 req.redist: Microsoft .Net 3.0

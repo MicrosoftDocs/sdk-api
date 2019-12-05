@@ -1,19 +1,17 @@
 ---
 UID: NF:propsys.IPropertyDescription.GetDefaultColumnWidth
 title: IPropertyDescription::GetDefaultColumnWidth (propsys.h)
-
 description: Gets the default column width of the property in a list view.
 old-location: properties\IPropertyDescription_GetDefaultColumnWidth.htm
 tech.root: properties
 ms.assetid: 3f39cb88-084b-4eca-8168-871dcdc74f98
-
 ms.date: 12/05/2018
 ms.keywords: GetDefaultColumnWidth, GetDefaultColumnWidth method [Windows Properties], GetDefaultColumnWidth method [Windows Properties],IPropertyDescription interface, IPropertyDescription interface [Windows Properties],GetDefaultColumnWidth method, IPropertyDescription.GetDefaultColumnWidth, IPropertyDescription::GetDefaultColumnWidth, properties.IPropertyDescription_GetDefaultColumnWidth, propsys/IPropertyDescription::GetDefaultColumnWidth, shell.IPropertyDescription_GetDefaultColumnWidth, shell_IPropertyDescription_GetDefaultColumnWidth
 ms.topic: method
-f1_keywords: 
- - "propsys/IPropertyDescription.GetDefaultColumnWidth"
+f1_keywords:
+- propsys/IPropertyDescription.GetDefaultColumnWidth
 dev_langs:
- - c++
+- c++
 req.header: propsys.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Propsys.h
+- Propsys.h
 api_name:
- - IPropertyDescription.GetDefaultColumnWidth
+- IPropertyDescription.GetDefaultColumnWidth
 targetos: Windows
 req.typenames: 
 req.redist: 

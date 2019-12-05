@@ -1,19 +1,17 @@
 ---
 UID: NF:winuser.IsWow64Message
 title: IsWow64Message function (winuser.h)
-
 description: Determines whether the last message read from the current thread's queue originated from a WOW64 process.
 old-location: base\iswow64message.htm
 tech.root: ProcThread
 ms.assetid: bc0ac424-3c5b-41bf-9dae-bcb405d5b548
-
 ms.date: 12/05/2018
 ms.keywords: IsWow64Message, IsWow64Message function, base.iswow64message, winuser/IsWow64Message
 ms.topic: function
-f1_keywords: 
- - "winuser/IsWow64Message"
+f1_keywords:
+- winuser/IsWow64Message
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - User32.dll
+- User32.dll
 api_name:
- - IsWow64Message
+- IsWow64Message
 targetos: Windows
 req.typenames: 
 req.redist: 

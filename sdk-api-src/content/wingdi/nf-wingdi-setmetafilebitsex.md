@@ -1,19 +1,17 @@
 ---
 UID: NF:wingdi.SetMetaFileBitsEx
 title: SetMetaFileBitsEx function (wingdi.h)
-
 description: The SetMetaFileBitsEx function creates a memory-based Windows-format metafile from the supplied data.
 old-location: gdi\setmetafilebitsex.htm
 tech.root: gdi
 ms.assetid: 232eeba9-f579-4b5f-a31a-416aeb56a909
-
 ms.date: 12/05/2018
 ms.keywords: SetMetaFileBitsEx, SetMetaFileBitsEx function [Windows GDI], _win32_SetMetaFileBitsEx, gdi.setmetafilebitsex, wingdi/SetMetaFileBitsEx
 ms.topic: function
-f1_keywords: 
- - "wingdi/SetMetaFileBitsEx"
+f1_keywords:
+- wingdi/SetMetaFileBitsEx
 dev_langs:
- - c++
+- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - gdi32.dll
- - Ext-MS-Win-GDI-Metafile-l1-1-0.dll
- - Ext-MS-Win-GDI-Metafile-l1-1-1.dll
- - ext-ms-win-gdi-metafile-l1-1-2.dll
- - GDI32Full.dll
+- gdi32.dll
+- Ext-MS-Win-GDI-Metafile-l1-1-0.dll
+- Ext-MS-Win-GDI-Metafile-l1-1-1.dll
+- ext-ms-win-gdi-metafile-l1-1-2.dll
+- GDI32Full.dll
 api_name:
- - SetMetaFileBitsEx
+- SetMetaFileBitsEx
 targetos: Windows
 req.typenames: 
 req.redist: 

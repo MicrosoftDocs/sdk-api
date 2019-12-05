@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d12.ID3D12Device5.EnumerateMetaCommands
 title: ID3D12Device5::EnumerateMetaCommands (d3d12.h)
-
 description: Queries reflection metadata about available meta commands.
 old-location: direct3d12\id3d12device5_enumeratemetacommands.htm
 tech.root: direct3d12
 ms.assetid: 71A16704-487F-49AA-B229-61CCD15B3037
-
 ms.date: 12/05/2018
 ms.keywords: EnumerateMetaCommands, EnumerateMetaCommands method, EnumerateMetaCommands method,ID3D12Device5 interface, ID3D12Device5 interface,EnumerateMetaCommands method, ID3D12Device5.EnumerateMetaCommands, ID3D12Device5::EnumerateMetaCommands, d3d12/ID3D12Device5::EnumerateMetaCommands, direct3d12.id3d12device5_enumeratemetacommands
 ms.topic: method
-f1_keywords: 
- - "d3d12/ID3D12Device5.EnumerateMetaCommands"
+f1_keywords:
+- d3d12/ID3D12Device5.EnumerateMetaCommands
 dev_langs:
- - c++
+- c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D12.h
+- D3D12.h
 api_name:
- - ID3D12Device5.EnumerateMetaCommands
+- ID3D12Device5.EnumerateMetaCommands
 targetos: Windows
 req.typenames: 
 req.redist: 

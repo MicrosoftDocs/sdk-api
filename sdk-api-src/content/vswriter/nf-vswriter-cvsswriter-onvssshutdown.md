@@ -1,19 +1,17 @@
 ---
 UID: NF:vswriter.CVssWriter.OnVSSShutdown
 title: CVssWriter::OnVSSShutdown (vswriter.h)
-
 description: Not supported.
 old-location: base\cvsswriter_onvssshutdown.htm
 tech.root: VSS
 ms.assetid: 79a2ebb4-300a-4c6e-b42d-8136d85fedbf
-
 ms.date: 12/05/2018
 ms.keywords: CVssWriter interface [VSS],OnVssShutdown method, CVssWriter.OnVSSShutdown, CVssWriter::OnVSSShutdown, CVssWriter::OnVssShutdown, OnVSSShutdown, OnVssShutdown method [VSS], OnVssShutdown method [VSS],CVssWriter interface, _win32_cvsswriter_onvssshutdown, base.cvsswriter_onvssshutdown, vswriter/CVssWriter::OnVssShutdown
 ms.topic: method
-f1_keywords: 
- - "vswriter/CVssWriter.OnVssShutdown"
+f1_keywords:
+- vswriter/CVssWriter.OnVssShutdown
 dev_langs:
- - c++
+- c++
 req.header: vswriter.h
 req.include-header: Vss.h, VsWriter.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: VssApi.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - VssApi.lib
- - VssApi.dll
+- VssApi.lib
+- VssApi.dll
 api_name:
- - CVssWriter.OnVssShutdown
+- CVssWriter.OnVssShutdown
 targetos: Windows
 req.typenames: 
 req.redist: 

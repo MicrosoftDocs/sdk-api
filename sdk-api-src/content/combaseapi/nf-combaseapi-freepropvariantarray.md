@@ -1,19 +1,17 @@
 ---
 UID: NF:combaseapi.FreePropVariantArray
 title: FreePropVariantArray function (combaseapi.h)
-
 description: The FreePropVariantArray function calls PropVariantClear on each of the PROPVARIANT structures in the rgvars array to make the value zero for each of the members of the array.
 old-location: stg\freepropvariantarray.htm
 tech.root: Stg
 ms.assetid: 2eefb57e-9311-46e1-9eed-e25aa3b5afaa
-
 ms.date: 12/05/2018
 ms.keywords: FreePropVariantArray, FreePropVariantArray function [Structured Storage], _stg_freepropvariantarray, combaseapi/FreePropVariantArray, stg.freepropvariantarray
 ms.topic: function
-f1_keywords: 
- - "combaseapi/FreePropVariantArray"
+f1_keywords:
+- combaseapi/FreePropVariantArray
 dev_langs:
- - c++
+- c++
 req.header: combaseapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,19 +30,19 @@ req.lib: Ole32.lib
 req.dll: Ole32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ole32.dll
- - API-MS-Win-Core-Com-l1-1-0.dll
- - ComBase.dll
- - API-MS-Win-Core-Com-l1-1-1.dll
- - API-MS-Win-DownLevel-Ole32-l1-1-0.dll
- - API-MS-Win-DownLevel-Ole32-l1-1-1.dll
+- Ole32.dll
+- API-MS-Win-Core-Com-l1-1-0.dll
+- ComBase.dll
+- API-MS-Win-Core-Com-l1-1-1.dll
+- API-MS-Win-DownLevel-Ole32-l1-1-0.dll
+- API-MS-Win-DownLevel-Ole32-l1-1-1.dll
 api_name:
- - FreePropVariantArray
+- FreePropVariantArray
 targetos: Windows
 req.typenames: 
 req.redist: 

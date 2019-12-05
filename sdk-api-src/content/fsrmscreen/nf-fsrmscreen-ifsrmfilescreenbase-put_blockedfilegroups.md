@@ -1,19 +1,17 @@
 ---
 UID: NF:fsrmscreen.IFsrmFileScreenBase.put_BlockedFileGroups
 title: IFsrmFileScreenBase::put_BlockedFileGroups (fsrmscreen.h)
-
 description: Retrieves or sets the names of the file groups that contain the file name patterns used to specify the files that are blocked by this screen.
 old-location: fsrm\ifsrmfilescreenbase_blockedfilegroups.htm
 tech.root: fsrm
 ms.assetid: 1f75fa45-8de8-42ca-a0f5-5ffe8acea6b8
-
 ms.date: 12/05/2018
 ms.keywords: BlockedFileGroups property [File Server Resource Manager], BlockedFileGroups property [File Server Resource Manager],IFsrmFileScreenBase interface, IFsrmFileScreenBase interface [File Server Resource Manager],BlockedFileGroups property, IFsrmFileScreenBase.BlockedFileGroups, IFsrmFileScreenBase.put_BlockedFileGroups, IFsrmFileScreenBase::BlockedFileGroups, IFsrmFileScreenBase::get_BlockedFileGroups, IFsrmFileScreenBase::put_BlockedFileGroups, fs.ifsrmfilescreenbase_blockedfilegroups, fsrm.ifsrmfilescreenbase_blockedfilegroups, fsrmscreen/IFsrmFileScreenBase::BlockedFileGroups, fsrmscreen/IFsrmFileScreenBase::get_BlockedFileGroups, fsrmscreen/IFsrmFileScreenBase::put_BlockedFileGroups, put_BlockedFileGroups
 ms.topic: method
-f1_keywords: 
- - "fsrmscreen/IFsrmFileScreenBase.BlockedFileGroups"
+f1_keywords:
+- fsrmscreen/IFsrmFileScreenBase.BlockedFileGroups
 dev_langs:
- - c++
+- c++
 req.header: fsrmscreen.h
 req.include-header: FsrmScreen.h, FsrmTlb.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: SrmSvc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - SrmSvc.dll
+- SrmSvc.dll
 api_name:
- - IFsrmFileScreenBase.BlockedFileGroups
- - IFsrmFileScreenBase.get_BlockedFileGroups
- - IFsrmFileScreenBase.put_BlockedFileGroups
+- IFsrmFileScreenBase.BlockedFileGroups
+- IFsrmFileScreenBase.get_BlockedFileGroups
+- IFsrmFileScreenBase.put_BlockedFileGroups
 targetos: Windows
 req.typenames: 
 req.redist: 

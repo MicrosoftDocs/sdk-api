@@ -1,19 +1,17 @@
 ---
 UID: NS:mi._MI_SubscriptionDeliveryOptions
 title: MI_SubscriptionDeliveryOptions (mi.h)
-
 description: The subscription options object stores configuration options used for passing into subscription operations.
 old-location: wmi_v2\mi_subscriptiondeliveryoptions.htm
 tech.root: wmi_v2
 ms.assetid: aaed635c-ee53-4307-a5b4-e9d3bd2e7c21
-
 ms.date: 12/05/2018
 ms.keywords: MI_SubscriptionDeliveryOptions, MI_SubscriptionDeliveryOptions structure [Windows Management Infrastructure (MI)], mi/MI_SubscriptionDeliveryOptions, wmi_v2.mi_subscriptiondeliveryoptions
 ms.topic: struct
-f1_keywords: 
- - "mi/MI_SubscriptionDeliveryOptions"
+f1_keywords:
+- mi/MI_SubscriptionDeliveryOptions
 dev_langs:
- - c++
+- c++
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Mi.h
+- Mi.h
 api_name:
- - MI_SubscriptionDeliveryOptions
+- MI_SubscriptionDeliveryOptions
 targetos: Windows
 req.typenames: MI_SubscriptionDeliveryOptions
 req.redist: Windows Management Framework 3.0 on Windows Server 2008 R2 with SP1, Windows 7 with SP1, and Windows Server 2008 with SP2

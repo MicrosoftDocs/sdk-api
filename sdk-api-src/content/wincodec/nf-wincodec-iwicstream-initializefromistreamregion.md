@@ -1,19 +1,17 @@
 ---
 UID: NF:wincodec.IWICStream.InitializeFromIStreamRegion
 title: IWICStream::InitializeFromIStreamRegion (wincodec.h)
-
 description: Initializes the stream as a substream of another stream.
 old-location: wic\_wic_codec_iwicstream_initializefromistreamregion.htm
 tech.root: wic
 ms.assetid: 508e1972-22ef-4211-adcf-03f8138624c9
-
 ms.date: 12/05/2018
 ms.keywords: IWICStream interface [Windows Imaging Component],InitializeFromIStreamRegion method, IWICStream.InitializeFromIStreamRegion, IWICStream::InitializeFromIStreamRegion, InitializeFromIStreamRegion, InitializeFromIStreamRegion method [Windows Imaging Component], InitializeFromIStreamRegion method [Windows Imaging Component],IWICStream interface, _wic_codec_iwicstream_initializefromistreamregion, wic._wic_codec_iwicstream_initializefromistreamregion, wincodec/IWICStream::InitializeFromIStreamRegion
 ms.topic: method
-f1_keywords: 
- - "wincodec/IWICStream.InitializeFromIStreamRegion"
+f1_keywords:
+- wincodec/IWICStream.InitializeFromIStreamRegion
 dev_langs:
- - c++
+- c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Windowscodecs.lib
 req.dll: Windowscodecs.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Windowscodecs.dll
+- Windowscodecs.dll
 api_name:
- - IWICStream.InitializeFromIStreamRegion
+- IWICStream.InitializeFromIStreamRegion
 targetos: Windows
 req.typenames: 
 req.redist: 

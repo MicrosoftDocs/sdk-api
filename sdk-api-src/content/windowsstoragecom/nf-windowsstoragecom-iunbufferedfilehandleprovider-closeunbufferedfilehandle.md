@@ -1,19 +1,17 @@
 ---
 UID: NF:windowsstoragecom.IUnbufferedFileHandleProvider.CloseUnbufferedFileHandle
 title: IUnbufferedFileHandleProvider::CloseUnbufferedFileHandle (windowsstoragecom.h)
-
 description: Closes the handle from a random-access byte stream that you created by calling IUnbufferedFileHandleProvider::OpenUnbufferedFileHandle.
 old-location: winrt\iunbufferedfilehandleprovider_closeunbufferedfilehandle.htm
 tech.root: WinRT
 ms.assetid: 8D6CD3A2-0CCD-49F4-86B3-99823A6E4EA8
-
 ms.date: 12/05/2018
 ms.keywords: CloseUnbufferedFileHandle, CloseUnbufferedFileHandle method [Windows Runtime], CloseUnbufferedFileHandle method [Windows Runtime],IUnbufferedFileHandleProvider interface, IUnbufferedFileHandleProvider interface [Windows Runtime],CloseUnbufferedFileHandle method, IUnbufferedFileHandleProvider.CloseUnbufferedFileHandle, IUnbufferedFileHandleProvider::CloseUnbufferedFileHandle, windowsstoragecom/IUnbufferedFileHandleProvider::CloseUnbufferedFileHandle, winrt.iunbufferedfilehandleprovider_closeunbufferedfilehandle
 ms.topic: method
-f1_keywords: 
- - "windowsstoragecom/IUnbufferedFileHandleProvider.CloseUnbufferedFileHandle"
+f1_keywords:
+- windowsstoragecom/IUnbufferedFileHandleProvider.CloseUnbufferedFileHandle
 dev_langs:
- - c++
+- c++
 req.header: windowsstoragecom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Windows.storage.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - windows.storage.dll
+- windows.storage.dll
 api_name:
- - IUnbufferedFileHandleProvider.CloseUnbufferedFileHandle
+- IUnbufferedFileHandleProvider.CloseUnbufferedFileHandle
 targetos: Windows
 req.typenames: 
 req.redist: 

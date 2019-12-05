@@ -1,19 +1,17 @@
 ---
 UID: NN:rtscom.IStylusAsyncPlugin
 title: IStylusAsyncPlugin (rtscom.h)
-
 description: Represents an asynchronous plug-in that can be added to the asynchronous plug-in collection of the RealTimeStylus Class object.
 old-location: tablet\istylusasyncplugin.htm
 tech.root: tablet
 ms.assetid: bf961d70-2576-493b-a34d-c7c72b6c0234
-
 ms.date: 12/05/2018
 ms.keywords: IStylusAsyncPlugin, IStylusAsyncPlugin interface [Tablet PC], IStylusAsyncPlugin interface [Tablet PC],described, bf961d70-2576-493b-a34d-c7c72b6c0234, rtscom/IStylusAsyncPlugin, tablet.istylusasyncplugin
 ms.topic: interface
-f1_keywords: 
- - "rtscom/IStylusAsyncPlugin"
+f1_keywords:
+- rtscom/IStylusAsyncPlugin
 dev_langs:
- - c++
+- c++
 req.header: rtscom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: RTSCom.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - RTSCom.dll
+- RTSCom.dll
 api_name:
- - IStylusAsyncPlugin
+- IStylusAsyncPlugin
 targetos: Windows
 req.typenames: 
 req.redist: 

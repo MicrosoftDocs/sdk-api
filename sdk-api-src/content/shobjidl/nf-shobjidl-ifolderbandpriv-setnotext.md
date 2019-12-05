@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl.IFolderBandPriv.SetNoText
 title: IFolderBandPriv::SetNoText (shobjidl.h)
-
 description: Sets whether text is displayed in a folder band.
 old-location: shell\IFolderBandPriv_SetNoText.htm
 tech.root: shell
 ms.assetid: 49a0e5ae-68ce-488c-a1a0-bd9df5458143
-
 ms.date: 12/05/2018
 ms.keywords: IFolderBandPriv interface [Windows Shell],SetNoText method, IFolderBandPriv.SetNoText, IFolderBandPriv::SetNoText, SetNoText, SetNoText method [Windows Shell], SetNoText method [Windows Shell],IFolderBandPriv interface, _win32_IFolderBandPriv_SetNoText, shell.IFolderBandPriv_SetNoText, shobjidl/IFolderBandPriv::SetNoText
 ms.topic: method
-f1_keywords: 
- - "shobjidl/IFolderBandPriv.SetNoText"
+f1_keywords:
+- shobjidl/IFolderBandPriv.SetNoText
 dev_langs:
- - c++
+- c++
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Shell32.dll (version 5.00 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - IFolderBandPriv.SetNoText
+- IFolderBandPriv.SetNoText
 targetos: Windows
 req.typenames: 
 req.redist: 

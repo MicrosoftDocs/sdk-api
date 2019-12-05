@@ -1,19 +1,17 @@
 ---
 UID: NF:dsclient.DsGetIcon
 title: DsGetIcon function (dsclient.h)
-
 description: Obtains the icon for a given object class.
 old-location: ad\dsgeticon.htm
 tech.root: ad
 ms.assetid: eee18c78-aefa-4f09-9361-91893502efec
-
 ms.date: 12/05/2018
 ms.keywords: DSGIF_DEFAULTISCONTAINER, DSGIF_GETDEFAULTICON, DSGIF_ISDISABLED, DSGIF_ISNORMAL, DSGIF_ISOPEN, DsGetIcon, DsGetIcon function [Active Directory], ad.dsgeticon, dsclient/DsGetIcon
 ms.topic: function
-f1_keywords: 
- - "dsclient/DsGetIcon"
+f1_keywords:
+- dsclient/DsGetIcon
 dev_langs:
- - c++
+- c++
 req.header: dsclient.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dsuiext.lib
 req.dll: Dsuiext.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Dsuiext.dll
+- Dsuiext.dll
 api_name:
- - DsGetIcon
+- DsGetIcon
 targetos: Windows
 req.typenames: 
 req.redist: 

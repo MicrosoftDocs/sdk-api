@@ -1,19 +1,17 @@
 ---
 UID: NS:http._HTTP_SERVICE_CONFIG_URLACL_QUERY
 title: HTTP_SERVICE_CONFIG_URLACL_QUERY (http.h)
-
 description: Used to specify a particular reservation record to query in the URL namespace reservation store.
 old-location: http\http_service_config_urlacl_query.htm
 tech.root: http
 ms.assetid: 298edd6c-c036-4e45-88f3-84917c8a76ea
-
 ms.date: 12/05/2018
 ms.keywords: '*PHTTP_SERVICE_CONFIG_URLACL_QUERY, HTTP_SERVICE_CONFIG_URLACL_QUERY, HTTP_SERVICE_CONFIG_URLACL_QUERY structure [HTTP], PHTTP_SERVICE_CONFIG_URLACL_QUERY, PHTTP_SERVICE_CONFIG_URLACL_QUERY structure pointer [HTTP], _http_http_service_config_urlacl_query, http.http_service_config_urlacl_query, http/HTTP_SERVICE_CONFIG_URLACL_QUERY, http/PHTTP_SERVICE_CONFIG_URLACL_QUERY'
 ms.topic: struct
 f1_keywords:
 - http/HTTP_SERVICE_CONFIG_URLACL_QUERY
 dev_langs:
- - c++
+- c++
 req.header: http.h
 req.include-header: 
 req.target-type: Windows

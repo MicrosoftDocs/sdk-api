@@ -1,19 +1,17 @@
 ---
 UID: NF:oleidl.IOleObject.Close
 title: IOleObject::Close (oleidl.h)
-
 description: Changes an embedded object from the running to the loaded state. Disconnects a linked object from its link source.
 old-location: com\ioleobject_close.htm
 tech.root: com
 ms.assetid: 61ecd153-ed6b-4a2c-a862-54742c5769ee
-
 ms.date: 12/05/2018
 ms.keywords: Close, Close method [COM], Close method [COM],IOleObject interface, IOleObject interface [COM],Close method, IOleObject.Close, IOleObject::Close, _ole_ioleobject_close, com.ioleobject_close, oleidl/IOleObject::Close
 ms.topic: method
-f1_keywords: 
- - "oleidl/IOleObject.Close"
+f1_keywords:
+- oleidl/IOleObject.Close
 dev_langs:
- - c++
+- c++
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - OleIdl.h
+- OleIdl.h
 api_name:
- - IOleObject.Close
+- IOleObject.Close
 targetos: Windows
 req.typenames: 
 req.redist: 

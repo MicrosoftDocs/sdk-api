@@ -1,19 +1,17 @@
 ---
 UID: NF:gdipluspath.GraphicsPath.GetBounds(OUT Rect,IN const Matrix,IN const Pen)
 title: GraphicsPath::GetBounds(OUT Rect,IN const Matrix,IN const Pen) (gdipluspath.h)
-
 description: The GraphicsPath::GetBounds method gets a bounding rectangle for this path.
 old-location: gdiplus\_gdiplus_CLASS_GraphicsPath_GetBounds_Rect_bounds_Matrix_matrix_Pen_pen_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicspathclass\graphicspathmethods\graphicspathgetboundsmethods\getbounds.htm
-
 ms.date: 12/05/2018
 ms.keywords: GetBounds, GetBounds method [GDI+], GetBounds method [GDI+],GraphicsPath class, GraphicsPath class [GDI+],GetBounds method, GraphicsPath.GetBounds, GraphicsPath.GetBounds(OUT Rect,IN const Matrix,IN const Pen), GraphicsPath.GetBounds(Rect*,const Matrix*,const Pen*), GraphicsPath::GetBounds, GraphicsPath::GetBounds(OUT Rect,IN const Matrix,IN const Pen), _gdiplus_CLASS_GraphicsPath_GetBounds_Rect_bounds_Matrix_matrix_Pen_pen_, gdiplus._gdiplus_CLASS_GraphicsPath_GetBounds_Rect_bounds_Matrix_matrix_Pen_pen_
 ms.topic: method
-f1_keywords: 
- - "gdipluspath/GraphicsPath.GetBounds"
+f1_keywords:
+- gdipluspath/GraphicsPath.GetBounds
 dev_langs:
- - c++
+- c++
 req.header: gdipluspath.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - GraphicsPath.GetBounds
+- GraphicsPath.GetBounds
 targetos: Windows
 req.typenames: 
 req.redist: 

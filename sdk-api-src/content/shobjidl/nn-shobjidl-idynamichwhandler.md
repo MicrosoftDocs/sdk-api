@@ -1,19 +1,17 @@
 ---
 UID: NN:shobjidl.IDynamicHWHandler
 title: IDynamicHWHandler (shobjidl.h)
-
 description: Called by AutoPlay. Exposes methods that get dynamic information regarding a registered handler prior to displaying it to the user.
 old-location: shell\IDynamicHWHandler.htm
 tech.root: shell
 ms.assetid: 924a765f-76b2-4a45-8dc5-74b5e75b437d
-
 ms.date: 12/05/2018
 ms.keywords: IDynamicHWHandler, IDynamicHWHandler interface [Windows Shell], IDynamicHWHandler interface [Windows Shell],described, _shell_IDynamicHWHandler, shell.IDynamicHWHandler, shobjidl/IDynamicHWHandler
 ms.topic: interface
-f1_keywords: 
- - "shobjidl/IDynamicHWHandler"
+f1_keywords:
+- shobjidl/IDynamicHWHandler
 dev_langs:
- - c++
+- c++
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shobjidl.h
+- Shobjidl.h
 api_name:
- - IDynamicHWHandler
+- IDynamicHWHandler
 targetos: Windows
 req.typenames: 
 req.redist: 

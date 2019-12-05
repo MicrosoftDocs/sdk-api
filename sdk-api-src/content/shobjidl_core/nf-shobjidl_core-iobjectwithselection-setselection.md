@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IObjectWithSelection.SetSelection
 title: IObjectWithSelection::SetSelection (shobjidl_core.h)
-
 description: Provides the Shell item array that specifies the items included in the selection.
 old-location: shell\IObjectWithSelection_SetSelection.htm
 tech.root: shell
 ms.assetid: e561b8f8-36e9-45ec-beb2-62d7f429dec4
-
 ms.date: 12/05/2018
 ms.keywords: IObjectWithSelection interface [Windows Shell],SetSelection method, IObjectWithSelection.SetSelection, IObjectWithSelection::SetSelection, SetSelection, SetSelection method [Windows Shell], SetSelection method [Windows Shell],IObjectWithSelection interface, _shell_IObjectWithSelection_SetSelection, shell.IObjectWithSelection_SetSelection, shobjidl_core/IObjectWithSelection::SetSelection
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IObjectWithSelection.SetSelection"
+f1_keywords:
+- shobjidl_core/IObjectWithSelection.SetSelection
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - IObjectWithSelection.SetSelection
+- IObjectWithSelection.SetSelection
 targetos: Windows
 req.typenames: 
 req.redist: 

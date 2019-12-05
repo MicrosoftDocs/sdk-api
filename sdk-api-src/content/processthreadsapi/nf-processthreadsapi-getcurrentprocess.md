@@ -1,19 +1,17 @@
 ---
 UID: NF:processthreadsapi.GetCurrentProcess
 title: GetCurrentProcess function (processthreadsapi.h)
-
 description: Retrieves a pseudo handle for the current process.
 old-location: base\getcurrentprocess.htm
 tech.root: ProcThread
 ms.assetid: 0471790c-3bb9-4180-8676-941e655b1812
-
 ms.date: 12/05/2018
 ms.keywords: GetCurrentProcess, GetCurrentProcess function, _win32_getcurrentprocess, base.getcurrentprocess, processthreadsapi/GetCurrentProcess, winbase/GetCurrentProcess
 ms.topic: function
-f1_keywords: 
- - "processthreadsapi/GetCurrentProcess"
+f1_keywords:
+- processthreadsapi/GetCurrentProcess
 dev_langs:
- - c++
+- c++
 req.header: processthreadsapi.h
 req.include-header: Windows Server 2003, Windows Vista, Windows 7, Windows Server 2008  Windows Server 2008 R2, Windows.h
 req.target-type: Windows
@@ -32,21 +30,21 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-ProcessThreads-l1-1-0.dll
- - KernelBase.dll
- - MinKernelBase.dll
- - API-MS-Win-Core-ProcessThreads-l1-1-1.dll
- - API-MS-Win-Core-ProcessThreads-l1-1-2.dll
- - api-ms-win-downlevel-kernel32-l1-1-0.dll
- - API-MS-Win-Core-ProcessThreads-L1-1-3.dll
+- Kernel32.dll
+- API-MS-Win-Core-ProcessThreads-l1-1-0.dll
+- KernelBase.dll
+- MinKernelBase.dll
+- API-MS-Win-Core-ProcessThreads-l1-1-1.dll
+- API-MS-Win-Core-ProcessThreads-l1-1-2.dll
+- api-ms-win-downlevel-kernel32-l1-1-0.dll
+- API-MS-Win-Core-ProcessThreads-L1-1-3.dll
 api_name:
- - GetCurrentProcess
+- GetCurrentProcess
 targetos: Windows
 req.typenames: 
 req.redist: 

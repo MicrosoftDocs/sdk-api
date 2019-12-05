@@ -1,19 +1,17 @@
 ---
 UID: NF:msi.MsiProvideComponentA
 title: MsiProvideComponentA function (msi.h)
-
 description: The MsiProvideComponent function returns the full component path, performing any necessary installation. This function prompts for source if necessary and increments the usage count for the feature.
 old-location: setup\msiprovidecomponent.htm
 tech.root: Msi
 ms.assetid: da6fa117-9152-4289-aa92-79903b84bd3e
-
 ms.date: 12/05/2018
 ms.keywords: INSTALLMODE_DEFAULT, INSTALLMODE_EXISTING, INSTALLMODE_NODETECTION, INSTALLMODE_NOSOURCERESOLUTION, MsiProvideComponent, MsiProvideComponent function, MsiProvideComponentA, MsiProvideComponentW, _msi_msiprovidecomponent, combination of the REINSTALLMODE flags, msi/MsiProvideComponent, msi/MsiProvideComponentA, msi/MsiProvideComponentW, setup.msiprovidecomponent
 ms.topic: function
-f1_keywords: 
- - "msi/MsiProvideComponent"
+f1_keywords:
+- msi/MsiProvideComponent
 dev_langs:
- - c++
+- c++
 req.header: msi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Msi.lib
 req.dll: Msi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Msi.dll
+- Msi.dll
 api_name:
- - MsiProvideComponent
- - MsiProvideComponentA
- - MsiProvideComponentW
+- MsiProvideComponent
+- MsiProvideComponentA
+- MsiProvideComponentW
 targetos: Windows
 req.typenames: 
 req.redist: 

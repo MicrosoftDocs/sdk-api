@@ -1,19 +1,17 @@
 ---
 UID: NN:mmc.IEnumTASK
 title: IEnumTASK (mmc.h)
-
 description: The IEnumTASK interface is introduced in MMC 1.1.
 old-location: mmc\ienumtask.htm
 tech.root: mmc
 ms.assetid: 7cf1ff4f-bd45-4ead-a005-e0f38aed9039
-
 ms.date: 12/05/2018
 ms.keywords: IEnumTASK, IEnumTASK interface [MMC], IEnumTASK interface [MMC],described, _slate_ienumtask, mmc.ienumtask, mmc/IEnumTASK
 ms.topic: interface
-f1_keywords: 
- - "mmc/IEnumTASK"
+f1_keywords:
+- mmc/IEnumTASK
 dev_langs:
- - c++
+- c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mmc.h
+- Mmc.h
 api_name:
- - IEnumTASK
+- IEnumTASK
 targetos: Windows
 req.typenames: 
 req.redist: 

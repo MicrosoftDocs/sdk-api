@@ -1,19 +1,17 @@
 ---
 UID: NF:appxpackaging.IAppxManifestPackageId.GetResourceId
 title: IAppxManifestPackageId::GetResourceId (appxpackaging.h)
-
 description: Gets the package resource identifier as defined in the manifest.
 old-location: appxpkg\iappxmanifestpackageid_getresourceid.htm
 tech.root: appxpkg
 ms.assetid: D17BD71A-6418-4229-8829-2C8EB9393285
-
 ms.date: 12/05/2018
 ms.keywords: GetResourceId, GetResourceId method [App packaging and management], GetResourceId method [App packaging and management],IAppxManifestPackageId interface, IAppxManifestPackageId interface [App packaging and management],GetResourceId method, IAppxManifestPackageId.GetResourceId, IAppxManifestPackageId::GetResourceId, appxpackaging/IAppxManifestPackageId::GetResourceId, appxpkg.iappxmanifestpackageid_getresourceid
 ms.topic: method
-f1_keywords: 
- - "appxpackaging/IAppxManifestPackageId.GetResourceId"
+f1_keywords:
+- appxpackaging/IAppxManifestPackageId.GetResourceId
 dev_langs:
- - c++
+- c++
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - AppxPackaging.h
+- AppxPackaging.h
 api_name:
- - IAppxManifestPackageId.GetResourceId
+- IAppxManifestPackageId.GetResourceId
 targetos: Windows
 req.typenames: 
 req.redist: 

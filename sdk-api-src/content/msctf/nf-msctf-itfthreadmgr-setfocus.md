@@ -1,19 +1,17 @@
 ---
 UID: NF:msctf.ITfThreadMgr.SetFocus
 title: ITfThreadMgr::SetFocus (msctf.h)
-
 description: ITfThreadMgr::SetFocus method
 old-location: tsf\itfthreadmgr_setfocus.htm
 tech.root: TSF
 ms.assetid: b437c646-2a15-4ad6-8e7e-3553e7106249
-
 ms.date: 12/05/2018
 ms.keywords: ITfThreadMgr interface [Text Services Framework],SetFocus method, ITfThreadMgr.SetFocus, ITfThreadMgr::SetFocus, SetFocus, SetFocus method [Text Services Framework], SetFocus method [Text Services Framework],ITfThreadMgr interface, _tsf_itfthreadmgr_setfocus_ref, msctf/ITfThreadMgr::SetFocus, tsf.itfthreadmgr_setfocus
 ms.topic: method
-f1_keywords: 
- - "msctf/ITfThreadMgr.SetFocus"
+f1_keywords:
+- msctf/ITfThreadMgr.SetFocus
 dev_langs:
- - c++
+- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msctf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msctf.dll
+- Msctf.dll
 api_name:
- - ITfThreadMgr.SetFocus
+- ITfThreadMgr.SetFocus
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

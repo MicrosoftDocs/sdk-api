@@ -1,19 +1,17 @@
 ---
 UID: NN:d3d11.ID3D11Device
 title: ID3D11Device (d3d11.h)
-
 description: The device interface represents a virtual adapter; it is used to create resources.
 old-location: direct3d11\id3d11device.htm
 tech.root: direct3d11
 ms.assetid: 2f2559d9-1cd6-44f6-90e2-ee0f86e39f78
-
 ms.date: 12/05/2018
 ms.keywords: ID3D11Device, ID3D11Device interface [Direct3D 11], ID3D11Device interface [Direct3D 11],described, b37b606f-bf79-e387-57c4-bebf1cf88722, d3d11/ID3D11Device, direct3d11.id3d11device
 ms.topic: interface
-f1_keywords: 
- - "d3d11/ID3D11Device"
+f1_keywords:
+- d3d11/ID3D11Device
 dev_langs:
- - c++
+- c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: D3D11.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D11.lib
- - D3D11.dll
+- D3D11.lib
+- D3D11.dll
 api_name:
- - ID3D11Device
+- ID3D11Device
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NS:cfgmgr32.MfCard_Des_s
 title: MFCARD_DES (cfgmgr32.h)
-
 description: The MFCARD_DES structure is used for specifying either a resource list or a resource requirements list that describes resource usage by one of the hardware functions provided by an instance of a multifunction device.
 old-location: devinst\mfcard_des.htm
 tech.root: devinst
 ms.assetid: 75a6857c-d5b7-4bb6-8035-e6317d4ea146
-
 ms.date: 12/05/2018
-ms.keywords: "*PMFCARD_DES, MFCARD_DES, MFCARD_DES structure [Device and Driver Installation], PMFCARD_DES, PMFCARD_DES structure pointer [Device and Driver Installation], cfgmgr32/MFCARD_DES, cfgmgr32/PMFCARD_DES, cfgmgrst_aea737e9-53c7-41dd-b4d3-80f29442358c.xml, devinst.mfcard_des"
+ms.keywords: '*PMFCARD_DES, MFCARD_DES, MFCARD_DES structure [Device and Driver Installation], PMFCARD_DES, PMFCARD_DES structure pointer [Device and Driver Installation], cfgmgr32/MFCARD_DES, cfgmgr32/PMFCARD_DES, cfgmgrst_aea737e9-53c7-41dd-b4d3-80f29442358c.xml, devinst.mfcard_des'
 ms.topic: struct
-f1_keywords: 
- - "cfgmgr32/MFCARD_DES"
+f1_keywords:
+- cfgmgr32/MFCARD_DES
 dev_langs:
- - c++
+- c++
 req.header: cfgmgr32.h
 req.include-header: Cfgmgr32.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - cfgmgr32.h
+- cfgmgr32.h
 api_name:
- - MFCARD_DES
+- MFCARD_DES
 targetos: Windows
 req.typenames: MFCARD_DES, *PMFCARD_DES
 req.redist: 

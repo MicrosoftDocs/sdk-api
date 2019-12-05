@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IFileDialogCustomize.MakeProminent
 title: IFileDialogCustomize::MakeProminent (shobjidl_core.h)
-
 description: Places a control in the dialog so that it stands out compared to other added controls.
 old-location: shell\IFileDialogCustomize_MakeProminent.htm
 tech.root: shell
 ms.assetid: 7e7b1573-cbd7-49eb-a26d-e2aba0bb4495
-
 ms.date: 12/05/2018
 ms.keywords: IFileDialogCustomize interface [Windows Shell],MakeProminent method, IFileDialogCustomize.MakeProminent, IFileDialogCustomize::MakeProminent, MakeProminent, MakeProminent method [Windows Shell], MakeProminent method [Windows Shell],IFileDialogCustomize interface, shell.IFileDialogCustomize_MakeProminent, shell_IFileDialogCustomize_MakeProminent, shobjidl_core/IFileDialogCustomize::MakeProminent
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IFileDialogCustomize.MakeProminent"
+f1_keywords:
+- shobjidl_core/IFileDialogCustomize.MakeProminent
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - IFileDialogCustomize.MakeProminent
+- IFileDialogCustomize.MakeProminent
 targetos: Windows
 req.typenames: 
 req.redist: 

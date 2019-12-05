@@ -1,19 +1,17 @@
 ---
 UID: NF:pathcch.PathCchSkipRoot
 title: PathCchSkipRoot function (pathcch.h)
-
 description: Retrieves a pointer to the first character in a path following the drive letter or Universal Naming Convention (UNC) server/share path elements.This function differs from PathSkipRoot in that it accepts paths with &#0034;\\&#0034;, &#0034;\\?\&#0034; and &#0034;\\?\UNC\&#0034; prefixes.
 old-location: shell\PathCchSkipRoot.htm
 tech.root: shell
 ms.assetid: 187bc49e-c5ae-42b8-acbd-a765f871d73b
-
 ms.date: 12/05/2018
 ms.keywords: PathCchSkipRoot, PathCchSkipRoot function [Windows Shell], pathcch/PathCchSkipRoot, shell.PathCchSkipRoot
 ms.topic: function
-f1_keywords: 
- - "pathcch/PathCchSkipRoot"
+f1_keywords:
+- pathcch/PathCchSkipRoot
 dev_langs:
- - c++
+- c++
 req.header: pathcch.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Pathcch.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - pathcch.lib
- - API-MS-Win-Core-Path-l1-1-0.dll
- - KernelBase.dll
+- pathcch.lib
+- API-MS-Win-Core-Path-l1-1-0.dll
+- KernelBase.dll
 api_name:
- - PathCchSkipRoot
+- PathCchSkipRoot
 targetos: Windows
 req.typenames: 
 req.redist: 

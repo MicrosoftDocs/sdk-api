@@ -1,19 +1,17 @@
 ---
 UID: NF:ntmsapi.OpenNtmsNotification
 title: OpenNtmsNotification function (ntmsapi.h)
-
 description: The OpenNtmsNotification function opens a channel to receive RSM object change notifications for objects of the specified type.
 old-location: fs\openntmsnotification.htm
 tech.root: Rsm
 ms.assetid: a5b6ab4a-ab4c-4c84-877f-824dc9ac19a7
-
 ms.date: 12/05/2018
 ms.keywords: OpenNtmsNotification, OpenNtmsNotification function [Files], _zaw_openntmsnotification, base.openntmsnotification, fs.openntmsnotification, ntmsapi/OpenNtmsNotification
 ms.topic: function
-f1_keywords: 
- - "ntmsapi/OpenNtmsNotification"
+f1_keywords:
+- ntmsapi/OpenNtmsNotification
 dev_langs:
- - c++
+- c++
 req.header: ntmsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Ntmsapi.lib
 req.dll: Ntmsapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ntmsapi.dll
+- Ntmsapi.dll
 api_name:
- - OpenNtmsNotification
+- OpenNtmsNotification
 targetos: Windows
 req.typenames: 
 req.redist: 

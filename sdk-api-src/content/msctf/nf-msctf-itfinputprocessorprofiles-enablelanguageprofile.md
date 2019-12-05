@@ -1,19 +1,17 @@
 ---
 UID: NF:msctf.ITfInputProcessorProfiles.EnableLanguageProfile
 title: ITfInputProcessorProfiles::EnableLanguageProfile (msctf.h)
-
 description: ITfInputProcessorProfiles::EnableLanguageProfile method
 old-location: tsf\itfinputprocessorprofiles_enablelanguageprofile.htm
 tech.root: TSF
 ms.assetid: 54aa6668-e577-4d75-9461-b604e1e73a78
-
 ms.date: 12/05/2018
 ms.keywords: EnableLanguageProfile, EnableLanguageProfile method [Text Services Framework], EnableLanguageProfile method [Text Services Framework],ITfInputProcessorProfiles interface, ITfInputProcessorProfiles interface [Text Services Framework],EnableLanguageProfile method, ITfInputProcessorProfiles.EnableLanguageProfile, ITfInputProcessorProfiles::EnableLanguageProfile, _tsf_itfinputprocessorprofiles_enablelanguageprofile_ref, msctf/ITfInputProcessorProfiles::EnableLanguageProfile, tsf.itfinputprocessorprofiles_enablelanguageprofile
 ms.topic: method
-f1_keywords: 
- - "msctf/ITfInputProcessorProfiles.EnableLanguageProfile"
+f1_keywords:
+- msctf/ITfInputProcessorProfiles.EnableLanguageProfile
 dev_langs:
- - c++
+- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msctf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msctf.dll
+- Msctf.dll
 api_name:
- - ITfInputProcessorProfiles.EnableLanguageProfile
+- ITfInputProcessorProfiles.EnableLanguageProfile
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

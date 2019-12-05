@@ -1,19 +1,17 @@
 ---
 UID: NN:strmif.IMediaSample2Config
 title: IMediaSample2Config (strmif.h)
-
 description: The IMediaSample2Config interface returns a pointer to a Direct3D surface representing a VRAM capture buffer.
 old-location: dshow\imediasample2config.htm
 tech.root: DirectShow
 ms.assetid: 99a3d957-b504-4242-87de-54b5468f00b5
-
 ms.date: 12/05/2018
 ms.keywords: IMediaSample2Config, IMediaSample2Config interface [DirectShow], IMediaSample2Config interface [DirectShow],described, IMediaSample2ConfigInterface, dshow.imediasample2config, strmif/IMediaSample2Config
 ms.topic: interface
-f1_keywords: 
- - "strmif/IMediaSample2Config"
+f1_keywords:
+- strmif/IMediaSample2Config
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IMediaSample2Config
+- IMediaSample2Config
 targetos: Windows
 req.typenames: 
 req.redist: 

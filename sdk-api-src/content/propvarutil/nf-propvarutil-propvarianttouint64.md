@@ -1,19 +1,17 @@
 ---
 UID: NF:propvarutil.PropVariantToUInt64
 title: PropVariantToUInt64 function (propvarutil.h)
-
 description: Extracts a UInt64 value from a PROPVARIANT structure. If no value can be extracted, then a default value is assigned.
 old-location: properties\PropVariantToUInt64.htm
 tech.root: properties
 ms.assetid: 3a6bdfb0-eae1-40e7-85c1-234732a4bc3f
-
 ms.date: 12/05/2018
 ms.keywords: PropVariantToUInt64, PropVariantToUInt64 function [Windows Properties], properties.PropVariantToUInt64, propvarutil/PropVariantToUInt64, shell.PropVariantToUInt64, shell_PropVariantToUInt64
 ms.topic: function
-f1_keywords: 
- - "propvarutil/PropVariantToUInt64"
+f1_keywords:
+- propvarutil/PropVariantToUInt64
 dev_langs:
- - c++
+- c++
 req.header: propvarutil.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Propsys.lib
 req.dll: Propsys.dll (version 6.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Propsys.dll
+- Propsys.dll
 api_name:
- - PropVariantToUInt64
+- PropVariantToUInt64
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0

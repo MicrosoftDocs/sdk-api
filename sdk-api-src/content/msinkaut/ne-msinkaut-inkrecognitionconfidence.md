@@ -1,19 +1,17 @@
 ---
 UID: NE:msinkaut.InkRecognitionConfidence
 title: InkRecognitionConfidence (msinkaut.h)
-
 description: Indicates the level of confidence that the recognizer has in the recognition result.
 old-location: tablet\inkrecognitionconfidence.htm
 tech.root: tablet
 ms.assetid: ce99de84-d1c9-420f-8eb5-a8e4f3c04d1d
-
 ms.date: 12/05/2018
 ms.keywords: IRC_Intermediate, IRC_Poor, IRC_Strong, InkRecognitionConfidence, InkRecognitionConfidence enumeration [Tablet PC], ce99de84-d1c9-420f-8eb5-a8e4f3c04d1d, msinkaut/IRC_Intermediate, msinkaut/IRC_Poor, msinkaut/IRC_Strong, msinkaut/InkRecognitionConfidence, tablet.inkrecognitionconfidence
 ms.topic: enum
-f1_keywords: 
- - "msinkaut/InkRecognitionConfidence"
+f1_keywords:
+- msinkaut/InkRecognitionConfidence
 dev_langs:
- - c++
+- c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - msinkaut.h
+- msinkaut.h
 api_name:
- - InkRecognitionConfidence
+- InkRecognitionConfidence
 targetos: Windows
 req.typenames: InkRecognitionConfidence
 req.redist: 

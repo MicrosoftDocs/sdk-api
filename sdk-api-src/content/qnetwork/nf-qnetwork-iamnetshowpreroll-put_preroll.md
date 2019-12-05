@@ -1,19 +1,17 @@
 ---
 UID: NF:qnetwork.IAMNetShowPreroll.put_Preroll
 title: IAMNetShowPreroll::put_Preroll (qnetwork.h)
-
 description: The put_Preroll method specifies whether the filter should start prerolling.
 old-location: dshow\iamnetshowpreroll_put_preroll.htm
 tech.root: DirectShow
 ms.assetid: 3296f0ab-2be8-4693-99bd-5dae0672df26
-
 ms.date: 12/05/2018
 ms.keywords: IAMNetShowPreroll interface [DirectShow],put_Preroll method, IAMNetShowPreroll.put_Preroll, IAMNetShowPreroll::put_Preroll, IAMNetShowPrerollput_Preroll, dshow.iamnetshowpreroll_put_preroll, put_Preroll, put_Preroll method [DirectShow], put_Preroll method [DirectShow],IAMNetShowPreroll interface, qnetwork/IAMNetShowPreroll::put_Preroll
 ms.topic: method
-f1_keywords: 
- - "qnetwork/IAMNetShowPreroll.put_Preroll"
+f1_keywords:
+- qnetwork/IAMNetShowPreroll.put_Preroll
 dev_langs:
- - c++
+- c++
 req.header: qnetwork.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Qnetwork.h
+- Qnetwork.h
 api_name:
- - IAMNetShowPreroll.put_Preroll
+- IAMNetShowPreroll.put_Preroll
 targetos: Windows
 req.typenames: 
 req.redist: 

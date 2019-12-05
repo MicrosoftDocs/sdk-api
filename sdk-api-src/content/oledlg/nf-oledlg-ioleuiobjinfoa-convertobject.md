@@ -1,19 +1,17 @@
 ---
 UID: NF:oledlg.IOleUIObjInfoA.ConvertObject
 title: IOleUIObjInfoA::ConvertObject (oledlg.h)
-
 description: Converts the object to the type of the specified CLSID.
 old-location: com\ioleuiobjinfo_convertobject.htm
 tech.root: com
 ms.assetid: 44611ed3-35de-4b20-adae-d3a28aa11944
-
 ms.date: 12/05/2018
 ms.keywords: ConvertObject, ConvertObject method [COM], ConvertObject method [COM],IOleUIObjInfo interface, ConvertObject method [COM],IOleUIObjInfoA interface, ConvertObject method [COM],IOleUIObjInfoW interface, IOleUIObjInfo interface [COM],ConvertObject method, IOleUIObjInfo::ConvertObject, IOleUIObjInfoA interface [COM],ConvertObject method, IOleUIObjInfoA.ConvertObject, IOleUIObjInfoA::ConvertObject, IOleUIObjInfoW interface [COM],ConvertObject method, IOleUIObjInfoW::ConvertObject, _ole_IOleUIObjInfo_ConvertObject, com.ioleuiobjinfo_convertobject, oledlg/IOleUIObjInfo::ConvertObject, oledlg/IOleUIObjInfoA::ConvertObject, oledlg/IOleUIObjInfoW::ConvertObject
 ms.topic: method
-f1_keywords: 
- - "oledlg/IOleUIObjInfo.ConvertObject"
+f1_keywords:
+- oledlg/IOleUIObjInfo.ConvertObject
 dev_langs:
- - c++
+- c++
 req.header: oledlg.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - OleDlg.h
+- OleDlg.h
 api_name:
- - IOleUIObjInfo.ConvertObject
- - IOleUIObjInfoW.ConvertObject
- - IOleUIObjInfoA.ConvertObject
+- IOleUIObjInfo.ConvertObject
+- IOleUIObjInfoW.ConvertObject
+- IOleUIObjInfoA.ConvertObject
 targetos: Windows
 req.typenames: 
 req.redist: 

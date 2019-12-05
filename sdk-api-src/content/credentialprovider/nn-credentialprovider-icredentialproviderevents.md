@@ -1,19 +1,17 @@
 ---
 UID: NN:credentialprovider.ICredentialProviderEvents
 title: ICredentialProviderEvents (credentialprovider.h)
-
 description: Provides an asynchronous callback mechanism used by a credential provider to notify it of changes in the list of credentials or their fields.
 old-location: shell\ICredentialProviderEvents.htm
 tech.root: shell
 ms.assetid: bf303b9d-2d6c-4de5-9bca-fc71d4f18903
-
 ms.date: 12/05/2018
 ms.keywords: ICredentialProviderEvents, ICredentialProviderEvents interface [Windows Shell], ICredentialProviderEvents interface [Windows Shell],described, credentialprovider/ICredentialProviderEvents, shell.ICredentialProviderEvents, shell_ICredentialProviderEvents
 ms.topic: interface
-f1_keywords: 
- - "credentialprovider/ICredentialProviderEvents"
+f1_keywords:
+- credentialprovider/ICredentialProviderEvents
 dev_langs:
- - c++
+- c++
 req.header: credentialprovider.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Credentialprovider.h
+- Credentialprovider.h
 api_name:
- - ICredentialProviderEvents
+- ICredentialProviderEvents
 targetos: Windows
 req.typenames: 
 req.redist: 

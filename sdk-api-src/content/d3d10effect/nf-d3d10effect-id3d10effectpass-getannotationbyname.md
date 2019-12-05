@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d10effect.ID3D10EffectPass.GetAnnotationByName
 title: ID3D10EffectPass::GetAnnotationByName (d3d10effect.h)
-
 description: Get an annotation by name.
 old-location: direct3d10\id3d10effectpass_getannotationbyname.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10effectpass_getannotationbyname.htm
-
 ms.date: 12/05/2018
 ms.keywords: 59f7484c-cbd4-a88c-8046-100697ca30be, GetAnnotationByName, GetAnnotationByName method [Direct3D 10], GetAnnotationByName method [Direct3D 10],ID3D10EffectPass interface, ID3D10EffectPass interface [Direct3D 10],GetAnnotationByName method, ID3D10EffectPass.GetAnnotationByName, ID3D10EffectPass::GetAnnotationByName, d3d10effect/ID3D10EffectPass::GetAnnotationByName, direct3d10.id3d10effectpass_getannotationbyname
 ms.topic: method
-f1_keywords: 
- - "d3d10effect/ID3D10EffectPass.GetAnnotationByName"
+f1_keywords:
+- d3d10effect/ID3D10EffectPass.GetAnnotationByName
 dev_langs:
- - c++
+- c++
 req.header: d3d10effect.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D10Effect.h
+- D3D10Effect.h
 api_name:
- - ID3D10EffectPass.GetAnnotationByName
+- ID3D10EffectPass.GetAnnotationByName
 targetos: Windows
 req.typenames: 
 req.redist: 

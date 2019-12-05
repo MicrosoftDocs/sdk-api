@@ -1,19 +1,17 @@
 ---
 UID: NF:d2d1effectauthor.ID2D1TransformGraph.SetSingleTransformNode
 title: ID2D1TransformGraph::SetSingleTransformNode (d2d1effectauthor.h)
-
 description: Sets a single transform node as being equivalent to the whole graph.
 old-location: direct2d\id2d1transformgraph_setsingletransformnode.htm
 tech.root: Direct2D
 ms.assetid: 3E1B580C-88A5-4169-8E66-2BF9397C8DE9
-
 ms.date: 12/05/2018
 ms.keywords: ID2D1TransformGraph interface [Direct2D],SetSingleTransformNode method, ID2D1TransformGraph.SetSingleTransformNode, ID2D1TransformGraph::SetSingleTransformNode, SetSingleTransformNode, SetSingleTransformNode method [Direct2D], SetSingleTransformNode method [Direct2D],ID2D1TransformGraph interface, d2d1effectauthor/ID2D1TransformGraph::SetSingleTransformNode, direct2d.id2d1transformgraph_setsingletransformnode
 ms.topic: method
-f1_keywords: 
- - "d2d1effectauthor/ID2D1TransformGraph.SetSingleTransformNode"
+f1_keywords:
+- d2d1effectauthor/ID2D1TransformGraph.SetSingleTransformNode
 dev_langs:
- - c++
+- c++
 req.header: d2d1effectauthor.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: D2d1.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - d2d1.lib
- - d2d1.dll
+- d2d1.lib
+- d2d1.dll
 api_name:
- - ID2D1TransformGraph.SetSingleTransformNode
+- ID2D1TransformGraph.SetSingleTransformNode
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:oleidl.IOleInPlaceActiveObject.EnableModeless
 title: IOleInPlaceActiveObject::EnableModeless (oleidl.h)
-
 description: Enables or disables modeless dialog boxes when the container creates or destroys a modal dialog box.
 old-location: com\ioleinplaceactiveobject_enablemodeless.htm
 tech.root: com
 ms.assetid: 2fc45490-b3fe-48fd-a41c-2b7f35b09edc
-
 ms.date: 12/05/2018
 ms.keywords: EnableModeless, EnableModeless method [COM], EnableModeless method [COM],IOleInPlaceActiveObject interface, IOleInPlaceActiveObject interface [COM],EnableModeless method, IOleInPlaceActiveObject.EnableModeless, IOleInPlaceActiveObject::EnableModeless, _ole_ioleinplaceactiveobject_enablemodeless, com.ioleinplaceactiveobject_enablemodeless, oleidl/IOleInPlaceActiveObject::EnableModeless
 ms.topic: method
-f1_keywords: 
- - "oleidl/IOleInPlaceActiveObject.EnableModeless"
+f1_keywords:
+- oleidl/IOleInPlaceActiveObject.EnableModeless
 dev_langs:
- - c++
+- c++
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - OleIdl.h
+- OleIdl.h
 api_name:
- - IOleInPlaceActiveObject.EnableModeless
+- IOleInPlaceActiveObject.EnableModeless
 targetos: Windows
 req.typenames: 
 req.redist: 

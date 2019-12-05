@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationTextPattern.GetVisibleRanges
 title: IUIAutomationTextPattern::GetVisibleRanges (uiautomationclient.h)
-
 description: Retrieves an array of disjoint text ranges from a text-based control where each text range represents a contiguous span of visible text.
 old-location: winauto\uiauto_IUIAutomationTextPattern_GetVisibleRanges.htm
 tech.root: WinAuto
 ms.assetid: 7cf4e6d4-223c-4222-a181-c16a5a90ef65
-
 ms.date: 12/05/2018
 ms.keywords: GetVisibleRanges, GetVisibleRanges method [Windows Accessibility], GetVisibleRanges method [Windows Accessibility],IUIAutomationTextPattern interface, IUIAutomationTextPattern interface [Windows Accessibility],GetVisibleRanges method, IUIAutomationTextPattern.GetVisibleRanges, IUIAutomationTextPattern::GetVisibleRanges, uiauto.uiauto_IUIAutomationTextPattern_GetVisibleRanges, uiauto_IUIAutomationTextPattern_GetVisibleRanges, uiautomationclient/IUIAutomationTextPattern::GetVisibleRanges, winauto.uiauto_IUIAutomationTextPattern_GetVisibleRanges
 ms.topic: method
-f1_keywords: 
- - "uiautomationclient/IUIAutomationTextPattern.GetVisibleRanges"
+f1_keywords:
+- uiautomationclient/IUIAutomationTextPattern.GetVisibleRanges
 dev_langs:
- - c++
+- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationClient.h
+- UIAutomationClient.h
 api_name:
- - IUIAutomationTextPattern.GetVisibleRanges
+- IUIAutomationTextPattern.GetVisibleRanges
 targetos: Windows
 req.typenames: 
 req.redist: 

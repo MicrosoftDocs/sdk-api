@@ -1,19 +1,17 @@
 ---
 UID: NF:thumbcache.ISharedBitmap.Detach
 title: ISharedBitmap::Detach (thumbcache.h)
-
 description: Retrieves the bitmap contained in an ISharedBitmap object, and returns a copy if the contained bitmap resides in shared memory.
 old-location: shell\ISharedBitmap_Detach.htm
 tech.root: shell
 ms.assetid: 1d68beca-c254-435e-a1cd-04e7aa462c84
-
 ms.date: 12/05/2018
 ms.keywords: Detach, Detach method [Windows Shell], Detach method [Windows Shell],ISharedBitmap interface, ISharedBitmap interface [Windows Shell],Detach method, ISharedBitmap.Detach, ISharedBitmap::Detach, _shell__Detach, shell.ISharedBitmap_Detach, thumbcache/ISharedBitmap::Detach
 ms.topic: method
-f1_keywords: 
- - "thumbcache/ISharedBitmap.Detach"
+f1_keywords:
+- thumbcache/ISharedBitmap.Detach
 dev_langs:
- - c++
+- c++
 req.header: thumbcache.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Thumbcache.h
+- Thumbcache.h
 api_name:
- - ISharedBitmap.Detach
+- ISharedBitmap.Detach
 targetos: Windows
 req.typenames: 
 req.redist: 

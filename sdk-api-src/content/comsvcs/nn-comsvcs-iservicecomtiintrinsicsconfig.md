@@ -1,19 +1,17 @@
 ---
 UID: NN:comsvcs.IServiceComTIIntrinsicsConfig
 title: IServiceComTIIntrinsicsConfig (comsvcs.h)
-
 description: Configures the COM Transaction Integrator (COMTI) intrinsics for the work that is done when calling the CoCreateActivity or CoEnterServiceDomain function.
 old-location: cos\iservicecomtiintrinsicsconfig.htm
 tech.root: cossdk
 ms.assetid: dafa74f9-21fb-4495-911a-60183d36d83c
-
 ms.date: 12/05/2018
 ms.keywords: IServiceComTIIntrinsicsConfig, IServiceComTIIntrinsicsConfig interface [COM+], IServiceComTIIntrinsicsConfig interface [COM+],described, _cos_IServiceComTIIntrinsicsConfig, comsvcs/IServiceComTIIntrinsicsConfig, cos.iservicecomtiintrinsicsconfig
 ms.topic: interface
-f1_keywords: 
- - "comsvcs/IServiceComTIIntrinsicsConfig"
+f1_keywords:
+- comsvcs/IServiceComTIIntrinsicsConfig
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - IServiceComTIIntrinsicsConfig
+- IServiceComTIIntrinsicsConfig
 targetos: Windows
 req.typenames: 
 req.redist: 

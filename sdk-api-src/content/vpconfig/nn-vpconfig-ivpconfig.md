@@ -1,19 +1,17 @@
 ---
 UID: NN:vpconfig.IVPConfig
 title: IVPConfig (vpconfig.h)
-
 description: The IVPConfig interface must be implemented by any filter that wraps a hardware decoder with a video port.
 old-location: dshow\ivpconfig.htm
 tech.root: DirectShow
 ms.assetid: 2c0eb294-7e57-4d8d-98b1-57c3834279a0
-
 ms.date: 12/05/2018
 ms.keywords: IVPConfig, IVPConfig interface [DirectShow], IVPConfig interface [DirectShow],described, IVPConfigInterface, dshow.ivpconfig, vpconfig/IVPConfig
 ms.topic: interface
-f1_keywords: 
- - "vpconfig/IVPConfig"
+f1_keywords:
+- vpconfig/IVPConfig
 dev_langs:
- - c++
+- c++
 req.header: vpconfig.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IVPConfig
+- IVPConfig
 targetos: Windows
 req.typenames: 
 req.redist: 

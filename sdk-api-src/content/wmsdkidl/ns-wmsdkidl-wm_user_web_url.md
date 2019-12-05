@@ -1,19 +1,17 @@
 ---
 UID: NS:wmsdkidl._WMUserWebURL
 title: WM_USER_WEB_URL (wmsdkidl.h)
-
 description: The WM_USER_WEB_URL structure is used as the data item for the WM/UserWebURL complex metadata attribute.
 old-location: wmformat\wm_user_web_url.htm
 tech.root: wmformat
 ms.assetid: 004708cf-9bcd-469a-b770-54fa5ef1aeef
-
 ms.date: 12/05/2018
 ms.keywords: WM_USER_WEB_URL, WM_USER_WEB_URL structure [windows Media Format], wmformat.wm_user_web_url, wmsdkidl/WM_USER_WEB_URL
 ms.topic: struct
-f1_keywords: 
- - "wmsdkidl/WM_USER_WEB_URL"
+f1_keywords:
+- wmsdkidl/WM_USER_WEB_URL
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wmsdkidl.h
+- Wmsdkidl.h
 api_name:
- - WM_USER_WEB_URL
+- WM_USER_WEB_URL
 targetos: Windows
 req.typenames: WM_USER_WEB_URL
 req.redist: 

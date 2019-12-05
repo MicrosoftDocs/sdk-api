@@ -1,19 +1,17 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMPackageWriter.IsClosed
 title: IXpsOMPackageWriter::IsClosed (xpsobjectmodel.h)
-
 description: Gets the status of the IXpsOMPackageWriter interface.
 old-location: xps\ixpsompackagewriter_isclosed.htm
 tech.root: printdocs
 ms.assetid: 7f782432-3d36-466c-b265-9da99d97565e
-
 ms.date: 12/05/2018
 ms.keywords: FALSE, IXpsOMPackageWriter interface [XPS Documents and Packaging],IsClosed method, IXpsOMPackageWriter.IsClosed, IXpsOMPackageWriter3D interface [XPS Documents and Packaging],IsClosed method, IXpsOMPackageWriter3D::IsClosed, IXpsOMPackageWriter::IsClosed, IsClosed, IsClosed method [XPS Documents and Packaging], IsClosed method [XPS Documents and Packaging],IXpsOMPackageWriter interface, IsClosed method [XPS Documents and Packaging],IXpsOMPackageWriter3D interface, TRUE, xps.ixpsompackagewriter_isclosed, xpsobjectmodel/IXpsOMPackageWriter3D::IsClosed, xpsobjectmodel/IXpsOMPackageWriter::IsClosed
 ms.topic: method
-f1_keywords: 
- - "xpsobjectmodel/IXpsOMPackageWriter.IsClosed"
+f1_keywords:
+- xpsobjectmodel/IXpsOMPackageWriter.IsClosed
 dev_langs:
- - c++
+- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsobjectmodel.h
+- xpsobjectmodel.h
 api_name:
- - IXpsOMPackageWriter.IsClosed
- - IXpsOMPackageWriter3D.IsClosed
+- IXpsOMPackageWriter.IsClosed
+- IXpsOMPackageWriter3D.IsClosed
 targetos: Windows
 req.typenames: 
 req.redist: 

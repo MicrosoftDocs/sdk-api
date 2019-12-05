@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d11.ID3D11DeviceContext.VSSetConstantBuffers
 title: ID3D11DeviceContext::VSSetConstantBuffers (d3d11.h)
-
 description: Sets the constant buffers used by the vertex shader pipeline stage.
 old-location: direct3d11\id3d11devicecontext_vssetconstantbuffers.htm
 tech.root: direct3d11
 ms.assetid: c6f9674b-89fe-4e1e-b814-6ddd98a9cb98
-
 ms.date: 12/05/2018
 ms.keywords: 2cf038d8-59ab-1d57-c785-ed14b6a1c06e, ID3D11DeviceContext interface [Direct3D 11],VSSetConstantBuffers method, ID3D11DeviceContext.VSSetConstantBuffers, ID3D11DeviceContext::VSSetConstantBuffers, VSSetConstantBuffers, VSSetConstantBuffers method [Direct3D 11], VSSetConstantBuffers method [Direct3D 11],ID3D11DeviceContext interface, d3d11/ID3D11DeviceContext::VSSetConstantBuffers, direct3d11.id3d11devicecontext_vssetconstantbuffers
 ms.topic: method
-f1_keywords: 
- - "d3d11/ID3D11DeviceContext.VSSetConstantBuffers"
+f1_keywords:
+- d3d11/ID3D11DeviceContext.VSSetConstantBuffers
 dev_langs:
- - c++
+- c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: D3D11.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D11.lib
- - D3D11.dll
+- D3D11.lib
+- D3D11.dll
 api_name:
- - ID3D11DeviceContext.VSSetConstantBuffers
+- ID3D11DeviceContext.VSSetConstantBuffers
 targetos: Windows
 req.typenames: 
 req.redist: 

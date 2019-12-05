@@ -1,19 +1,17 @@
 ---
 UID: NF:fsrmquota.IFsrmQuotaObject.get_UserSid
 title: IFsrmQuotaObject::get_UserSid (fsrmquota.h)
-
 description: Retrieves the string form of the user's security identifier (SID) that is associated with the object.
 old-location: fsrm\ifsrmquotaobject_usersid.htm
 tech.root: fsrm
 ms.assetid: f6eed71b-4d14-471a-a686-f7a2be7bf63b
-
 ms.date: 12/05/2018
 ms.keywords: IFsrmQuotaObject interface [File Server Resource Manager],UserSid property, IFsrmQuotaObject.UserSid, IFsrmQuotaObject.get_UserSid, IFsrmQuotaObject::UserSid, IFsrmQuotaObject::get_UserSid, UserSid property [File Server Resource Manager], UserSid property [File Server Resource Manager],IFsrmQuotaObject interface, fs.ifsrmquotaobject_usersid, fsrm.ifsrmquotaobject_usersid, fsrmquota/IFsrmQuotaObject::UserSid, fsrmquota/IFsrmQuotaObject::get_UserSid, get_UserSid
 ms.topic: method
-f1_keywords: 
- - "fsrmquota/IFsrmQuotaObject.UserSid"
+f1_keywords:
+- fsrmquota/IFsrmQuotaObject.UserSid
 dev_langs:
- - c++
+- c++
 req.header: fsrmquota.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: SrmSvc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - SrmSvc.dll
+- SrmSvc.dll
 api_name:
- - IFsrmQuotaObject.UserSid
- - IFsrmQuotaObject.get_UserSid
+- IFsrmQuotaObject.UserSid
+- IFsrmQuotaObject.get_UserSid
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:wingdi.CreateColorSpaceW
 title: CreateColorSpaceW function (wingdi.h)
-
 description: The CreateColorSpace function creates a logical color space.
 old-location: wcs\createcolorspace.htm
 tech.root: WCS
 ms.assetid: c3fc798c-4bb9-4010-87d4-edc0005b7698
-
 ms.date: 12/05/2018
 ms.keywords: CreateColorSpace, CreateColorSpace function [Windows Color System], CreateColorSpaceA, CreateColorSpaceW, _color_CreateColorSpace, wcs.createcolorspace, wingdi/CreateColorSpace, wingdi/CreateColorSpaceA, wingdi/CreateColorSpaceW
 ms.topic: function
-f1_keywords: 
- - "wingdi/CreateColorSpace"
+f1_keywords:
+- wingdi/CreateColorSpace
 dev_langs:
- - c++
+- c++
 req.header: wingdi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Gdi32.dll
- - Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
- - GDI32Full.dll
+- Gdi32.dll
+- Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
+- GDI32Full.dll
 api_name:
- - CreateColorSpace
- - CreateColorSpaceA
- - CreateColorSpaceW
+- CreateColorSpace
+- CreateColorSpaceA
+- CreateColorSpaceW
 targetos: Windows
 req.typenames: 
 req.redist: 

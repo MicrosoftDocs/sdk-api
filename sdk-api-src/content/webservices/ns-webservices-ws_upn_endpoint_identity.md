@@ -1,19 +1,17 @@
 ---
 UID: NS:webservices._WS_UPN_ENDPOINT_IDENTITY
 title: WS_UPN_ENDPOINT_IDENTITY (webservices.h)
-
 description: Type for specifying an endpoint identity represented by a UPN (user principal name).
 old-location: wsw\ws_upn_endpoint_identity.htm
 tech.root: wsw
 ms.assetid: dc822551-6853-456f-a115-a96f64b0e056
-
 ms.date: 12/05/2018
 ms.keywords: WS_UPN_ENDPOINT_IDENTITY, WS_UPN_ENDPOINT_IDENTITY structure [Web Services for Windows], webservices/WS_UPN_ENDPOINT_IDENTITY, wsw.ws_upn_endpoint_identity
 ms.topic: struct
-f1_keywords: 
- - "webservices/WS_UPN_ENDPOINT_IDENTITY"
+f1_keywords:
+- webservices/WS_UPN_ENDPOINT_IDENTITY
 dev_langs:
- - c++
+- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WebServices.h
+- WebServices.h
 api_name:
- - WS_UPN_ENDPOINT_IDENTITY
+- WS_UPN_ENDPOINT_IDENTITY
 targetos: Windows
 req.typenames: WS_UPN_ENDPOINT_IDENTITY
 req.redist: 

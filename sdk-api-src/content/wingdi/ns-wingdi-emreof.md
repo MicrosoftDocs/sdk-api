@@ -1,19 +1,17 @@
 ---
 UID: NS:wingdi.tagEMREOF
 title: EMREOF (wingdi.h)
-
 description: The EMREOF structure contains data for the enhanced metafile record that indicates the end of the metafile.
 old-location: gdi\emreof.htm
 tech.root: gdi
 ms.assetid: 99a3f97e-cb43-49b3-9972-23f9911b2cd0
-
 ms.date: 12/05/2018
-ms.keywords: "*PEMREOF, EMREOF, EMREOF structure [Windows GDI], PEMREOF, PEMREOF structure pointer [Windows GDI], _win32_EMREOF_str, gdi.emreof, wingdi/EMREOF, wingdi/PEMREOF"
+ms.keywords: '*PEMREOF, EMREOF, EMREOF structure [Windows GDI], PEMREOF, PEMREOF structure pointer [Windows GDI], _win32_EMREOF_str, gdi.emreof, wingdi/EMREOF, wingdi/PEMREOF'
 ms.topic: struct
-f1_keywords: 
- - "wingdi/EMREOF"
+f1_keywords:
+- wingdi/EMREOF
 dev_langs:
- - c++
+- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wingdi.h
+- Wingdi.h
 api_name:
- - EMREOF
+- EMREOF
 targetos: Windows
 req.typenames: EMREOF, *PEMREOF
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:sdoias.ISdoCollection.Reload
 title: ISdoCollection::Reload (sdoias.h)
-
 description: The Reload method reloads all the objects in the collection from the underlying datastore.
 old-location: nps\SDO_isdocollection_reload.htm
 tech.root: Nps
 ms.assetid: 9bf216a0-2d65-4242-97bc-f4b690e92d55
-
 ms.date: 12/05/2018
 ms.keywords: ISdoCollection interface [Network Policy Server],Reload method, ISdoCollection.Reload, ISdoCollection::Reload, Reload, Reload method [Network Policy Server], Reload method [Network Policy Server],ISdoCollection interface, _sdo_isdocollection_reload, nps.SDO_isdocollection_reload, sdo.isdocollection_reload, sdoias/ISdoCollection::Reload
 ms.topic: method
-f1_keywords: 
- - "sdoias/ISdoCollection.Reload"
+f1_keywords:
+- sdoias/ISdoCollection.Reload
 dev_langs:
- - c++
+- c++
 req.header: sdoias.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Iassdo.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Iassdo.dll
+- Iassdo.dll
 api_name:
- - ISdoCollection.Reload
+- ISdoCollection.Reload
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IAMExtTransport.SetBump
 title: IAMExtTransport::SetBump (strmif.h)
-
 description: The SetBump method temporarily changes the playback, for synchronization of multiple external devices.
 old-location: dshow\iamexttransport_setbump.htm
 tech.root: DirectShow
 ms.assetid: c2f2b59f-2522-4f13-8861-fb4e2d9d406c
-
 ms.date: 12/05/2018
 ms.keywords: IAMExtTransport interface [DirectShow],SetBump method, IAMExtTransport.SetBump, IAMExtTransport::SetBump, IAMExtTransportSetBump, SetBump, SetBump method [DirectShow], SetBump method [DirectShow],IAMExtTransport interface, dshow.iamexttransport_setbump, strmif/IAMExtTransport::SetBump
 ms.topic: method
-f1_keywords: 
- - "strmif/IAMExtTransport.SetBump"
+f1_keywords:
+- strmif/IAMExtTransport.SetBump
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IAMExtTransport.SetBump
+- IAMExtTransport.SetBump
 targetos: Windows
 req.typenames: 
 req.redist: 

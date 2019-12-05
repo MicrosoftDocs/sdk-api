@@ -1,19 +1,17 @@
 ---
 UID: NF:comsvcs.ITransactionProperty.GetTransactionResourcePool
 title: ITransactionProperty::GetTransactionResourcePool (comsvcs.h)
-
 description: Retrieves the resource pool that is associated with this context's transaction.
 old-location: cos\itransactionproperty_gettransactionresourcepool.htm
 tech.root: cossdk
 ms.assetid: 497cfbd8-122f-45c8-a34a-7e7df4932ad1
-
 ms.date: 12/05/2018
 ms.keywords: GetTransactionResourcePool, GetTransactionResourcePool method [COM+], GetTransactionResourcePool method [COM+],ITransactionProperty interface, ITransactionProperty interface [COM+],GetTransactionResourcePool method, ITransactionProperty.GetTransactionResourcePool, ITransactionProperty::GetTransactionResourcePool, _cos_ITransactionProperty_GetTransactionResourcePool, comsvcs/ITransactionProperty::GetTransactionResourcePool, cos.itransactionproperty_gettransactionresourcepool
 ms.topic: method
-f1_keywords: 
- - "comsvcs/ITransactionProperty.GetTransactionResourcePool"
+f1_keywords:
+- comsvcs/ITransactionProperty.GetTransactionResourcePool
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - ITransactionProperty.GetTransactionResourcePool
+- ITransactionProperty.GetTransactionResourcePool
 targetos: Windows
 req.typenames: 
 req.redist: 

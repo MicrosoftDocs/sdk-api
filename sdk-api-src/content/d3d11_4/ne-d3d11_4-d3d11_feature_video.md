@@ -7,9 +7,9 @@ ms.date: 4/26/2019
 ms.keywords: D3D11_FEATURE_VIDEO
 ms.topic: language-reference
 f1_keywords:
- - D3D11_FEATURE_VIDEO
+- D3D11_FEATURE_VIDEO
 dev_langs:
- - c++
+- c++
 targetos: Windows
 req.construct-type: enumeration
 req.ddi-compliance: 
@@ -24,13 +24,13 @@ req.target-type:
 req.typenames: 
 req.umdf-ver: 
 topic_type:
- - apiref
+- apiref
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - d3d11_4.h
+- d3d11_4.h
 api_name:
- - D3D11_FEATURE_VIDEO
+- D3D11_FEATURE_VIDEO
 ---
 
 ## -description

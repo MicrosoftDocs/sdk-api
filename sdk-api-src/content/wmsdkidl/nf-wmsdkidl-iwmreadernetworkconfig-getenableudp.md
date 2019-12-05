@@ -1,19 +1,17 @@
 ---
 UID: NF:wmsdkidl.IWMReaderNetworkConfig.GetEnableUDP
 title: IWMReaderNetworkConfig::GetEnableUDP (wmsdkidl.h)
-
 description: The GetEnableUDP method queries whether UDP is enabled for protocol rollover.
 old-location: wmformat\iwmreadernetworkconfig_getenableudp.htm
 tech.root: wmformat
 ms.assetid: 81c6536c-303c-4eac-a75a-54e9df29e299
-
 ms.date: 12/05/2018
 ms.keywords: GetEnableUDP, GetEnableUDP method [windows Media Format], GetEnableUDP method [windows Media Format],IWMReaderNetworkConfig interface, IWMReaderNetworkConfig interface [windows Media Format],GetEnableUDP method, IWMReaderNetworkConfig.GetEnableUDP, IWMReaderNetworkConfig::GetEnableUDP, IWMReaderNetworkConfigGetEnableUDP, wmformat.iwmreadernetworkconfig_getenableudp, wmsdkidl/IWMReaderNetworkConfig::GetEnableUDP
 ms.topic: method
-f1_keywords: 
- - "wmsdkidl/IWMReaderNetworkConfig.GetEnableUDP"
+f1_keywords:
+- wmsdkidl/IWMReaderNetworkConfig.GetEnableUDP
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wmvcore.lib
- - Wmvcore.dll
- - WMStubDRM.lib
- - WMStubDRM.dll
+- Wmvcore.lib
+- Wmvcore.dll
+- WMStubDRM.lib
+- WMStubDRM.dll
 api_name:
- - IWMReaderNetworkConfig.GetEnableUDP
+- IWMReaderNetworkConfig.GetEnableUDP
 targetos: Windows
 req.typenames: 
 req.redist: 

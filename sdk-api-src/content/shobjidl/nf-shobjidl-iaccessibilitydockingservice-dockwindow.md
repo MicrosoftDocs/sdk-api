@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl.IAccessibilityDockingService.DockWindow
 title: IAccessibilityDockingService::DockWindow (shobjidl.h)
-
 description: Docks the specified window handle to the specified monitor handle.
 old-location: com\iaccessibilitydockingservice_dockwindow.htm
 tech.root: com
 ms.assetid: 99C6A82C-A421-4A5E-B23A-167384A7AB90
-
 ms.date: 12/05/2018
 ms.keywords: DockWindow, DockWindow method [COM], DockWindow method [COM],IAccessibilityDockingService interface, IAccessibilityDockingService interface [COM],DockWindow method, IAccessibilityDockingService.DockWindow, IAccessibilityDockingService::DockWindow, com.iaccessibilitydockingservice_dockwindow, shobjidl/IAccessibilityDockingService::DockWindow
 ms.topic: method
-f1_keywords: 
- - "shobjidl/IAccessibilityDockingService.DockWindow"
+f1_keywords:
+- shobjidl/IAccessibilityDockingService.DockWindow
 dev_langs:
- - c++
+- c++
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl.h
+- shobjidl.h
 api_name:
- - IAccessibilityDockingService.DockWindow
+- IAccessibilityDockingService.DockWindow
 targetos: Windows
 req.typenames: 
 req.redist: 

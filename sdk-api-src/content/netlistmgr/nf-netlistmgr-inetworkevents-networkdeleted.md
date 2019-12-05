@@ -1,19 +1,17 @@
 ---
 UID: NF:netlistmgr.INetworkEvents.NetworkDeleted
 title: INetworkEvents::NetworkDeleted (netlistmgr.h)
-
 description: The NetworkDeleted method is called when a network is deleted.
 old-location: nla\inetworkevents_networkdeleted.htm
 tech.root: nla
 ms.assetid: ae54cc29-6da8-405d-92f9-654239150dd0
-
 ms.date: 12/05/2018
 ms.keywords: INetworkEvents interface [Network Awareness],NetworkDeleted method, INetworkEvents.NetworkDeleted, INetworkEvents::NetworkDeleted, NetworkDeleted, NetworkDeleted method [Network Awareness], NetworkDeleted method [Network Awareness],INetworkEvents interface, netlistmgr/INetworkEvents::NetworkDeleted, nla.inetworkevents_networkdeleted
 ms.topic: method
-f1_keywords: 
- - "netlistmgr/INetworkEvents.NetworkDeleted"
+f1_keywords:
+- netlistmgr/INetworkEvents.NetworkDeleted
 dev_langs:
- - c++
+- c++
 req.header: netlistmgr.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Netlistmgr.h
+- Netlistmgr.h
 api_name:
- - INetworkEvents.NetworkDeleted
+- INetworkEvents.NetworkDeleted
 targetos: Windows
 req.typenames: 
 req.redist: 

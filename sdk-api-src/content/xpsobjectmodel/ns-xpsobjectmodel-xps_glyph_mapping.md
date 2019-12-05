@@ -1,19 +1,17 @@
 ---
 UID: NS:xpsobjectmodel.__MIDL___MIDL_itf_xpsobjectmodel_0000_0000_0022
 title: XPS_GLYPH_MAPPING (xpsobjectmodel.h)
-
 description: Describes a glyph-to-index mapping.
 old-location: xps\xps_glyph_mapping.htm
 tech.root: printdocs
 ms.assetid: 5cc76cba-66e4-4853-969b-a99ec7bb22f3
-
 ms.date: 12/05/2018
 ms.keywords: XPS_GLYPH_MAPPING, XPS_GLYPH_MAPPING structure [XPS Documents and Packaging], xps.xps_glyph_mapping, xpsobjectmodel/XPS_GLYPH_MAPPING
 ms.topic: struct
-f1_keywords: 
- - "xpsobjectmodel/XPS_GLYPH_MAPPING"
+f1_keywords:
+- xpsobjectmodel/XPS_GLYPH_MAPPING
 dev_langs:
- - c++
+- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - xpsobjectmodel.h
+- xpsobjectmodel.h
 api_name:
- - XPS_GLYPH_MAPPING
+- XPS_GLYPH_MAPPING
 targetos: Windows
 req.typenames: XPS_GLYPH_MAPPING
 req.redist: 

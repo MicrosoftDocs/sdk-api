@@ -1,19 +1,17 @@
 ---
 UID: NF:upnphost.IUPnPReregistrar.ReregisterRunningDevice
 title: IUPnPReregistrar::ReregisterRunningDevice (upnphost.h)
-
 description: The ReregisterRunningDevice method re-registers a running device with the device host.
 old-location: upnp\iupnpreregistrar_reregisterrunningdevice.htm
 tech.root: upnp
 ms.assetid: e5e9257e-1143-416c-8862-a69b726f5e23
-
 ms.date: 12/05/2018
 ms.keywords: IUPnPReregistrar interface [UPnP APIs],ReregisterRunningDevice method, IUPnPReregistrar.ReregisterRunningDevice, IUPnPReregistrar::ReregisterRunningDevice, ReregisterRunningDevice, ReregisterRunningDevice method [UPnP APIs], ReregisterRunningDevice method [UPnP APIs],IUPnPReregistrar interface, _upnp_iupnpreregistrar_reregisterrunningdevice, upnp.iupnpreregistrar_reregisterrunningdevice, upnphost/IUPnPReregistrar::ReregisterRunningDevice
 ms.topic: method
-f1_keywords: 
- - "upnphost/IUPnPReregistrar.ReregisterRunningDevice"
+f1_keywords:
+- upnphost/IUPnPReregistrar.ReregisterRunningDevice
 dev_langs:
- - c++
+- c++
 req.header: upnphost.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Upnphost.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Upnphost.dll
+- Upnphost.dll
 api_name:
- - IUPnPReregistrar.ReregisterRunningDevice
+- IUPnPReregistrar.ReregisterRunningDevice
 targetos: Windows
 req.typenames: 
 req.redist: 

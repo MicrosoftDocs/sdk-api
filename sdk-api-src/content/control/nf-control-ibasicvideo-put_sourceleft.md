@@ -1,19 +1,17 @@
 ---
 UID: NF:control.IBasicVideo.put_SourceLeft
 title: IBasicVideo::put_SourceLeft (control.h)
-
 description: The put_SourceLeft method sets the x-coordinate of the source rectangle.
 old-location: dshow\ibasicvideo_put_sourceleft.htm
 tech.root: DirectShow
 ms.assetid: 0388d5fe-5434-41b9-b005-c0e4bf36bb27
-
 ms.date: 12/05/2018
 ms.keywords: IBasicVideo interface [DirectShow],put_SourceLeft method, IBasicVideo.put_SourceLeft, IBasicVideo::put_SourceLeft, IBasicVideoput_SourceLeft, control/IBasicVideo::put_SourceLeft, dshow.ibasicvideo_put_sourceleft, put_SourceLeft, put_SourceLeft method [DirectShow], put_SourceLeft method [DirectShow],IBasicVideo interface
 ms.topic: method
-f1_keywords: 
- - "control/IBasicVideo.put_SourceLeft"
+f1_keywords:
+- control/IBasicVideo.put_SourceLeft
 dev_langs:
- - c++
+- c++
 req.header: control.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IBasicVideo.put_SourceLeft
+- IBasicVideo.put_SourceLeft
 targetos: Windows
 req.typenames: 
 req.redist: 

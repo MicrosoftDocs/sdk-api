@@ -1,19 +1,17 @@
 ---
 UID: NF:mdmregistration.SetManagedExternally
 title: SetManagedExternally function (mdmregistration.h)
-
 description: Indicates to the MDM agent that the device is managed externally and is not to be registered with an MDM service.
 old-location: mdmreg\setmanagedexternally.htm
 tech.root: MDMReg
 ms.assetid: 6aac0ffb-3502-42a5-b7a3-e11c401543ce
-
 ms.date: 12/05/2018
 ms.keywords: SetManagedExternally, SetManagedExternally function [MDM Registration], mdmreg.setmanagedexternally, mdmregistration/SetManagedExternally
 ms.topic: function
-f1_keywords: 
- - "mdmregistration/SetManagedExternally"
+f1_keywords:
+- mdmregistration/SetManagedExternally
 dev_langs:
- - c++
+- c++
 req.header: mdmregistration.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: MDMRegistration.lib
 req.dll: MDMRegistration.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - MDMRegistration.dll
+- MDMRegistration.dll
 api_name:
- - SetManagedExternally
+- SetManagedExternally
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:wbemglue.CWbemProviderGlue.GetInstancesByQuery(LPCWSTR,TRefPointerCollection<CInstance>,MethodContext,LPCWSTR)
 title: CWbemProviderGlue::GetInstancesByQuery(LPCWSTR,TRefPointerCollection<CInstance>,MethodContext,LPCWSTR) (wbemglue.h)
-
 description: The GetInstancesByQuery method retrieves a list of instances that match a particular query.
 old-location: wmi\cwbemproviderglue_getinstancesbyquery.htm
 tech.root: WmiSdk
 ms.assetid: cf086577-8964-4b6b-8863-78b53f73397e
-
 ms.date: 12/05/2018
 ms.keywords: CWbemProviderGlue interface [Windows Management Instrumentation],GetInstancesByQuery method, CWbemProviderGlue.GetInstancesByQuery, CWbemProviderGlue.GetInstancesByQuery(LPCWSTR,TRefPointerCollection<CInstance>,MethodContext,LPCWSTR), CWbemProviderGlue::GetInstancesByQuery, CWbemProviderGlue::GetInstancesByQuery(LPCWSTR,TRefPointerCollection<CInstance>,MethodContext,LPCWSTR), GetInstancesByQuery, GetInstancesByQuery method [Windows Management Instrumentation], GetInstancesByQuery method [Windows Management Instrumentation],CWbemProviderGlue interface, _hmm_cwbemproviderglue_getinstancesbyquery, wbemglue/CWbemProviderGlue::GetInstancesByQuery, wmi.cwbemproviderglue_getinstancesbyquery
 ms.topic: method
-f1_keywords: 
- - "wbemglue/CWbemProviderGlue.GetInstancesByQuery"
+f1_keywords:
+- wbemglue/CWbemProviderGlue.GetInstancesByQuery
 dev_langs:
- - c++
+- c++
 req.header: wbemglue.h
 req.include-header: FwCommon.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: FrameDyn.lib
 req.dll: FrameDynOS.dll; FrameDyn.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - FrameDynOS.dll
- - FrameDyn.dll
+- FrameDynOS.dll
+- FrameDyn.dll
 api_name:
- - CWbemProviderGlue.GetInstancesByQuery
+- CWbemProviderGlue.GetInstancesByQuery
 targetos: Windows
 req.typenames: 
 req.redist: 

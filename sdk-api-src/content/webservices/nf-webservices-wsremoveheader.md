@@ -1,19 +1,17 @@
 ---
 UID: NF:webservices.WsRemoveHeader
 title: WsRemoveHeader function (webservices.h)
-
 description: Removes the standard WS_HEADER_TYPE object from a message.
 old-location: wsw\wsremoveheader.htm
 tech.root: wsw
 ms.assetid: b240acbd-2c0e-4e2c-a334-a86440627e72
-
 ms.date: 12/05/2018
 ms.keywords: WsRemoveHeader, WsRemoveHeader function [Web Services for Windows], webservices/WsRemoveHeader, wsw.wsremoveheader
 ms.topic: function
-f1_keywords: 
- - "webservices/WsRemoveHeader"
+f1_keywords:
+- webservices/WsRemoveHeader
 dev_langs:
- - c++
+- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: WebServices.lib
 req.dll: WebServices.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - WebServices.dll
+- WebServices.dll
 api_name:
- - WsRemoveHeader
+- WsRemoveHeader
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NN:syncmgr.IEnumSyncMgrSyncItems
 title: IEnumSyncMgrSyncItems (syncmgr.h)
-
 description: Exposes methods that enumerate the sync item objects managed by the handler.
 old-location: shell\IEnumSyncMgrSyncItems.htm
 tech.root: shell
 ms.assetid: 0d1695e2-6936-4f53-9594-e0e2bc69afd4
-
 ms.date: 12/05/2018
 ms.keywords: IEnumSyncMgrSyncItems, IEnumSyncMgrSyncItems interface [Windows Shell], IEnumSyncMgrSyncItems interface [Windows Shell],described, _shell_IEnumSyncMgrSyncItems, shell.IEnumSyncMgrSyncItems, syncmgr/IEnumSyncMgrSyncItems
 ms.topic: interface
-f1_keywords: 
- - "syncmgr/IEnumSyncMgrSyncItems"
+f1_keywords:
+- syncmgr/IEnumSyncMgrSyncItems
 dev_langs:
- - c++
+- c++
 req.header: syncmgr.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Syncmgr.h
+- Syncmgr.h
 api_name:
- - IEnumSyncMgrSyncItems
+- IEnumSyncMgrSyncItems
 targetos: Windows
 req.typenames: 
 req.redist: 

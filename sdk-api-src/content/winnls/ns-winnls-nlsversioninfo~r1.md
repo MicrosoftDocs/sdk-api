@@ -7,7 +7,7 @@ ms.topic: language-reference
 f1_keywords:
 - winnls/_nlsversioninfo
 dev_langs:
- - c++
+- c++
 targetos: Windows
 req.construct-type: structure
 req.ddi-compliance: 

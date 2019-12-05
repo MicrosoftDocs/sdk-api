@@ -1,19 +1,17 @@
 ---
 UID: NF:pla.IValueMap.get_Count
 title: IValueMap::get_Count (pla.h)
-
 description: Retrieves the number of items in the collection.
 old-location: pla\ivaluemap_count.htm
 tech.root: PLA
 ms.assetid: 990b48d8-357f-4157-a3d2-1ea1c80e1887
-
 ms.date: 12/05/2018
 ms.keywords: Count property [PLA], Count property [PLA],IValueMap interface, IValueMap interface [PLA],Count property, IValueMap.Count, IValueMap.get_Count, IValueMap::Count, IValueMap::get_Count, base.ivaluemap_count, get_Count, pla.ivaluemap_count, pla/IValueMap::Count, pla/IValueMap::get_Count
 ms.topic: method
-f1_keywords: 
- - "pla/IValueMap.Count"
+f1_keywords:
+- pla/IValueMap.Count
 dev_langs:
- - c++
+- c++
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: Pla.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Pla.dll
+- Pla.dll
 api_name:
- - IValueMap.Count
- - IValueMap.get_Count
+- IValueMap.Count
+- IValueMap.get_Count
 targetos: Windows
 req.typenames: 
 req.redist: 

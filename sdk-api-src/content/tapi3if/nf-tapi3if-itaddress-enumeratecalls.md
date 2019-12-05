@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi3if.ITAddress.EnumerateCalls
 title: ITAddress::EnumerateCalls (tapi3if.h)
-
 description: The EnumerateCalls method enumerates calls on the current address. This method is provided for C and C++ applications. Automation client applications, such as those written in Visual Basic, must use the get_Calls method.
 old-location: tapi3\itaddress_enumeratecalls.htm
 tech.root: Tapi
 ms.assetid: 2ffa90bf-3005-4fd0-b52f-b155c8b2194f
-
 ms.date: 12/05/2018
 ms.keywords: EnumerateCalls, EnumerateCalls method [TAPI 2.2], EnumerateCalls method [TAPI 2.2],ITAddress interface, ITAddress interface [TAPI 2.2],EnumerateCalls method, ITAddress.EnumerateCalls, ITAddress::EnumerateCalls, _tapi3_itaddress_enumeratecalls, tapi3.itaddress_enumeratecalls, tapi3if/ITAddress::EnumerateCalls
 ms.topic: method
-f1_keywords: 
- - "tapi3if/ITAddress.EnumerateCalls"
+f1_keywords:
+- tapi3if/ITAddress.EnumerateCalls
 dev_langs:
- - c++
+- c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Tapi3.dll
+- Tapi3.dll
 api_name:
- - ITAddress.EnumerateCalls
+- ITAddress.EnumerateCalls
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:azroles.IAzBizRuleInterfaces.AddInterface
 title: IAzBizRuleInterfaces::AddInterface (azroles.h)
-
 description: Adds the specified interface to the list of IDispatch interfaces that can be called by business rule (BizRule) scripts.
 old-location: security\iazbizruleinterfaces_addinterface.htm
 tech.root: SecAuthZ
 ms.assetid: 063492b9-9970-4605-84f5-d8b80afc719b
-
 ms.date: 12/05/2018
 ms.keywords: AddInterface, AddInterface method [Security], AddInterface method [Security],IAzBizRuleInterfaces interface, IAzBizRuleInterfaces interface [Security],AddInterface method, IAzBizRuleInterfaces.AddInterface, IAzBizRuleInterfaces::AddInterface, azroles/IAzBizRuleInterfaces::AddInterface, security.iazbizruleinterfaces_addinterface
 ms.topic: method
-f1_keywords: 
- - "azroles/IAzBizRuleInterfaces.AddInterface"
+f1_keywords:
+- azroles/IAzBizRuleInterfaces.AddInterface
 dev_langs:
- - c++
+- c++
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Azroles.h
+- Azroles.h
 api_name:
- - IAzBizRuleInterfaces.AddInterface
+- IAzBizRuleInterfaces.AddInterface
 targetos: Windows
 req.typenames: 
 req.redist: 

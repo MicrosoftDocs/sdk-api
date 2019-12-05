@@ -1,19 +1,17 @@
 ---
 UID: NF:rdpencomapi.IRDPSRAPITransportStreamEvents.OnReadCompleted
 title: IRDPSRAPITransportStreamEvents::OnReadCompleted (rdpencomapi.h)
-
 description: Notifies the Remote Desktop Protocol (RDP) stack that a read operation has completed.
 old-location: rdp\irdpsrapitransportstreamevents_onreadcompleted.htm
 tech.root: rdp
 ms.assetid: 27c3a16a-3d78-46b1-b328-1a1b6f059687
-
 ms.date: 12/05/2018
 ms.keywords: IRDPSRAPITransportStreamEvents interface [RDP],OnReadCompleted method, IRDPSRAPITransportStreamEvents.OnReadCompleted, IRDPSRAPITransportStreamEvents::OnReadCompleted, OnReadCompleted, OnReadCompleted method [RDP], OnReadCompleted method [RDP],IRDPSRAPITransportStreamEvents interface, rdp.irdpsrapitransportstreamevents_onreadcompleted, rdpencomapi/IRDPSRAPITransportStreamEvents::OnReadCompleted
 ms.topic: method
-f1_keywords: 
- - "rdpencomapi/IRDPSRAPITransportStreamEvents.OnReadCompleted"
+f1_keywords:
+- rdpencomapi/IRDPSRAPITransportStreamEvents.OnReadCompleted
 dev_langs:
- - c++
+- c++
 req.header: rdpencomapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: RdpEncom.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - RdpEncom.dll
+- RdpEncom.dll
 api_name:
- - IRDPSRAPITransportStreamEvents.OnReadCompleted
+- IRDPSRAPITransportStreamEvents.OnReadCompleted
 targetos: Windows
 req.typenames: 
 req.redist: 

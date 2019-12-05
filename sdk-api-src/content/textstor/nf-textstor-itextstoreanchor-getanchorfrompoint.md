@@ -1,19 +1,17 @@
 ---
 UID: NF:textstor.ITextStoreAnchor.GetAnchorFromPoint
 title: ITextStoreAnchor::GetAnchorFromPoint (textstor.h)
-
 description: The ITextStoreAnchor::GetAnchorFromPoint method converts a point in screen coordinates to an anchor positioned at a corresponding location.
 old-location: tsf\itextstoreanchor_getanchorfrompoint.htm
 tech.root: TSF
 ms.assetid: 5567b53e-540e-41ce-b890-f2e4c5b06c57
-
 ms.date: 12/05/2018
 ms.keywords: GXFPF_NEAREST, GXFPF_ROUND_NEAREST, GetAnchorFromPoint, GetAnchorFromPoint method [Text Services Framework], GetAnchorFromPoint method [Text Services Framework],ITextStoreAnchor interface, ITextStoreAnchor interface [Text Services Framework],GetAnchorFromPoint method, ITextStoreAnchor.GetAnchorFromPoint, ITextStoreAnchor::GetAnchorFromPoint, textstor/ITextStoreAnchor::GetAnchorFromPoint, tsf.itextstoreanchor_getanchorfrompoint
 ms.topic: method
-f1_keywords: 
- - "textstor/ITextStoreAnchor.GetAnchorFromPoint"
+f1_keywords:
+- textstor/ITextStoreAnchor.GetAnchorFromPoint
 dev_langs:
- - c++
+- c++
 req.header: textstor.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msctf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msctf.dll
+- msctf.dll
 api_name:
- - ITextStoreAnchor.GetAnchorFromPoint
+- ITextStoreAnchor.GetAnchorFromPoint
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

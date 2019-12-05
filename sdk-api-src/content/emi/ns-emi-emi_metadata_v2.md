@@ -1,19 +1,17 @@
 ---
 UID: NS:emi.__unnamed_struct_5
 title: EMI_METADATA_V2 (emi.h)
-
 description: The EMI_METADATA_V2 structure provides metadata about a device that supports the EMI_VERSION_V2 interface. This metadata contains information about the hardware device and what EMI channels are exposed by this device.
 old-location: powermeter\emi_metadata_v2.htm
 tech.root: powermeter
 ms.assetid: E76A9253-7061-4412-81EF-D4E531331999
-
 ms.date: 12/05/2018
 ms.keywords: EMI_METADATA_V2, EMI_METADATA_V2 structure [Power Metering and Budgeting Devices], emi/EMI_METADATA_V2, powermeter.emi_metadata_v2
 ms.topic: struct
-f1_keywords: 
- - "emi/EMI_METADATA_V2"
+f1_keywords:
+- emi/EMI_METADATA_V2
 dev_langs:
- - c++
+- c++
 req.header: emi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - emi.h
+- emi.h
 api_name:
- - EMI_METADATA_V2
+- EMI_METADATA_V2
 targetos: Windows
 req.typenames: EMI_METADATA_V2
 req.redist: 

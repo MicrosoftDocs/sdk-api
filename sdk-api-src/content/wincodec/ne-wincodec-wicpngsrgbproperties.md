@@ -1,19 +1,17 @@
 ---
 UID: NE:wincodec.WICPngSrgbProperties
 title: WICPngSrgbProperties (wincodec.h)
-
 description: Specifies the Portable Network Graphics (PNG) sRGB chunk metadata properties.
 old-location: wic\_wic_codec_wicpngsrgbproperties.htm
 tech.root: wic
 ms.assetid: ec9bbdb7-9ce2-44bd-bd84-842394ce4c5f
-
 ms.date: 12/05/2018
 ms.keywords: WICPngSrgbProperties, WICPngSrgbProperties enumeration [Windows Imaging Component], WICPngSrgbRenderingIntent, _wic_codec_wicpngsrgbproperties, wic._wic_codec_wicpngsrgbproperties, wincodec/WICPngSrgbProperties, wincodec/WICPngSrgbRenderingIntent
 ms.topic: enum
-f1_keywords: 
- - "wincodec/WICPngSrgbProperties"
+f1_keywords:
+- wincodec/WICPngSrgbProperties
 dev_langs:
- - c++
+- c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wincodec.h
+- Wincodec.h
 api_name:
- - WICPngSrgbProperties
+- WICPngSrgbProperties
 targetos: Windows
 req.typenames: WICPngSrgbProperties
 req.redist: 

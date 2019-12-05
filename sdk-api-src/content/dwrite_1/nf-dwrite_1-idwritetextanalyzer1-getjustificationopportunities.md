@@ -1,19 +1,17 @@
 ---
 UID: NF:dwrite_1.IDWriteTextAnalyzer1.GetJustificationOpportunities
 title: IDWriteTextAnalyzer1::GetJustificationOpportunities (dwrite_1.h)
-
 description: Retrieves justification opportunity information for each of the glyphs given the text and shaping glyph properties.
 old-location: directwrite\idwritetextanalyzer1_getjustificationopportunities.htm
 tech.root: DirectWrite
 ms.assetid: 85D3841F-FA2B-4636-B786-DCD68C72209A
-
 ms.date: 12/05/2018
 ms.keywords: GetJustificationOpportunities, GetJustificationOpportunities method [Direct Write], GetJustificationOpportunities method [Direct Write],IDWriteTextAnalyzer1 interface, IDWriteTextAnalyzer1 interface [Direct Write],GetJustificationOpportunities method, IDWriteTextAnalyzer1.GetJustificationOpportunities, IDWriteTextAnalyzer1::GetJustificationOpportunities, directwrite.idwritetextanalyzer1_getjustificationopportunities, dwrite_1/IDWriteTextAnalyzer1::GetJustificationOpportunities
 ms.topic: method
-f1_keywords: 
- - "dwrite_1/IDWriteTextAnalyzer1.GetJustificationOpportunities"
+f1_keywords:
+- dwrite_1/IDWriteTextAnalyzer1.GetJustificationOpportunities
 dev_langs:
- - c++
+- c++
 req.header: dwrite_1.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dwrite_1.lib
 req.dll: Dwrite_1.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dwrite_1.dll
+- dwrite_1.dll
 api_name:
- - IDWriteTextAnalyzer1.GetJustificationOpportunities
+- IDWriteTextAnalyzer1.GetJustificationOpportunities
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d11_1.ID3D11VideoDevice1.GetCryptoSessionPrivateDataSize
 title: ID3D11VideoDevice1::GetCryptoSessionPrivateDataSize (d3d11_1.h)
-
 description: Retrieves optional sizes for private driver data.
 old-location: mf\id3d11videodevice1_getcryptosessionprivatedatasize.htm
 tech.root: medfound
 ms.assetid: 3F973DA0-F722-4EC2-A578-F01B6999F16B
-
 ms.date: 12/05/2018
 ms.keywords: GetCryptoSessionPrivateDataSize, GetCryptoSessionPrivateDataSize method [Media Foundation], GetCryptoSessionPrivateDataSize method [Media Foundation],ID3D11VideoDevice1 interface, ID3D11VideoDevice1 interface [Media Foundation],GetCryptoSessionPrivateDataSize method, ID3D11VideoDevice1.GetCryptoSessionPrivateDataSize, ID3D11VideoDevice1::GetCryptoSessionPrivateDataSize, d3d11_1/ID3D11VideoDevice1::GetCryptoSessionPrivateDataSize, mf.id3d11videodevice1_getcryptosessionprivatedatasize
 ms.topic: method
-f1_keywords: 
- - "d3d11_1/ID3D11VideoDevice1.GetCryptoSessionPrivateDataSize"
+f1_keywords:
+- d3d11_1/ID3D11VideoDevice1.GetCryptoSessionPrivateDataSize
 dev_langs:
- - c++
+- c++
 req.header: d3d11_1.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - d3d11_1.h
+- d3d11_1.h
 api_name:
- - ID3D11VideoDevice1.GetCryptoSessionPrivateDataSize
+- ID3D11VideoDevice1.GetCryptoSessionPrivateDataSize
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:locationapi.ILatLongReport.GetAltitude
 title: ILatLongReport::GetAltitude (locationapi.h)
-
 description: Retrieves the altitude, in meters. Altitude is relative to the reference ellipsoid.
 old-location: winlocation_com_ref\ilatlongreport_getaltitude.htm
 tech.root: locationapi
 ms.assetid: 7ab8e3fb-03da-4529-aaf0-3a178474e4a5
-
 ms.date: 12/05/2018
 ms.keywords: GetAltitude, GetAltitude method [WinLocation], GetAltitude method [WinLocation],ILatLongReport interface, ILatLongReport interface [WinLocation],GetAltitude method, ILatLongReport.GetAltitude, ILatLongReport::GetAltitude, WinLocation_COM_Ref.ilatlongreport_getaltitude, locationapi/ILatLongReport::GetAltitude
 ms.topic: method
-f1_keywords: 
- - "locationapi/ILatLongReport.GetAltitude"
+f1_keywords:
+- locationapi/ILatLongReport.GetAltitude
 dev_langs:
- - c++
+- c++
 req.header: locationapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: LocationAPI.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - LocationAPI.dll
+- LocationAPI.dll
 api_name:
- - ILatLongReport.GetAltitude
+- ILatLongReport.GetAltitude
 targetos: Windows
 req.typenames: 
 req.redist: 

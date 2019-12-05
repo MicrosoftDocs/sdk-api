@@ -1,19 +1,17 @@
 ---
 UID: NF:wuapi.IUpdateDownloader.put_IsForced
 title: IUpdateDownloader::put_IsForced (wuapi.h)
-
 description: Gets and sets a Boolean value that indicates whether the Windows Update Agent (WUA) forces the download of updates that are already installed or that cannot be installed.
 old-location: wua\iupdatedownloader_isforced.htm
 tech.root: Wua_Sdk
 ms.assetid: e1ac3da4-341c-4a4e-920f-b84af03e324e
-
 ms.date: 12/05/2018
 ms.keywords: IUpdateDownloader interface [Windows Update Agent],IsForced property, IUpdateDownloader.IsForced, IUpdateDownloader.put_IsForced, IUpdateDownloader::IsForced, IUpdateDownloader::get_IsForced, IUpdateDownloader::put_IsForced, IsForced property [Windows Update Agent], IsForced property [Windows Update Agent],IUpdateDownloader interface, put_IsForced, wua.iupdatedownloader_isforced, wuapi/IUpdateDownloader::IsForced, wuapi/IUpdateDownloader::get_IsForced, wuapi/IUpdateDownloader::put_IsForced
 ms.topic: method
-f1_keywords: 
- - "wuapi/IUpdateDownloader.IsForced"
+f1_keywords:
+- wuapi/IUpdateDownloader.IsForced
 dev_langs:
- - c++
+- c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Wuguid.lib
 req.dll: Wuapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wuapi.dll
+- Wuapi.dll
 api_name:
- - IUpdateDownloader.IsForced
- - IUpdateDownloader.get_IsForced
- - IUpdateDownloader.put_IsForced
+- IUpdateDownloader.IsForced
+- IUpdateDownloader.get_IsForced
+- IUpdateDownloader.put_IsForced
 targetos: Windows
 req.typenames: 
 req.redist: 

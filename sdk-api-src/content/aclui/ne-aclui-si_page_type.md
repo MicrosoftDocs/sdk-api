@@ -1,19 +1,17 @@
 ---
 UID: NE:aclui._SI_PAGE_TYPE
 title: SI_PAGE_TYPE (aclui.h)
-
 description: Contains values that indicate the types of property pages in an access control editor property sheet.
 old-location: security\si_page_type.htm
 tech.root: SecAuthZ
 ms.assetid: 122b2dcb-5557-4692-a0d6-4a0accf71740
-
 ms.date: 12/05/2018
 ms.keywords: SI_PAGE_ADVPERM, SI_PAGE_AUDIT, SI_PAGE_EFFECTIVE, SI_PAGE_OWNER, SI_PAGE_PERM, SI_PAGE_TAKEOWNERSHIP, SI_PAGE_TYPE, SI_PAGE_TYPE enumeration [Security], _win32_si_page_type_str, aclui/SI_PAGE_ADVPERM, aclui/SI_PAGE_AUDIT, aclui/SI_PAGE_EFFECTIVE, aclui/SI_PAGE_OWNER, aclui/SI_PAGE_PERM, aclui/SI_PAGE_TAKEOWNERSHIP, aclui/SI_PAGE_TYPE, security.si_page_type
 ms.topic: enum
-f1_keywords: 
- - "aclui/SI_PAGE_TYPE"
+f1_keywords:
+- aclui/SI_PAGE_TYPE
 dev_langs:
- - c++
+- c++
 req.header: aclui.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Aclui.h
+- Aclui.h
 api_name:
- - SI_PAGE_TYPE
+- SI_PAGE_TYPE
 targetos: Windows
 req.typenames: SI_PAGE_TYPE
 req.redist: 

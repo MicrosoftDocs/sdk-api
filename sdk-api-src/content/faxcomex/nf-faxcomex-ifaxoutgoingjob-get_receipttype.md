@@ -1,19 +1,17 @@
 ---
 UID: NF:faxcomex.IFaxOutgoingJob.get_ReceiptType
 title: IFaxOutgoingJob::get_ReceiptType (faxcomex.h)
-
 description: The IFaxOutgoingJob::get_ReceiptType property is a value that specifies the type of delivery receipt to deliver when the fax message reaches a final state. The receipt type can be Simple Mail Transport Protocol (SMTP) mail, a message box, or no receipt.
 old-location: fax\_mfax_faxoutgoingjob_cpp_mfax_faxoutgoingjob_receipttype_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_7ihx.htm
-
 ms.date: 12/05/2018
 ms.keywords: IFaxOutgoingJob interface [Fax Service],ReceiptType property, IFaxOutgoingJob.ReceiptType, IFaxOutgoingJob.get_ReceiptType, IFaxOutgoingJob::ReceiptType, IFaxOutgoingJob::get_ReceiptType, ReceiptType property [Fax Service], ReceiptType property [Fax Service],IFaxOutgoingJob interface, _mfax_faxoutgoingjob.receipttype, fax._mfax_faxoutgoingjob_cpp_mfax_faxoutgoingjob_receipttype_cpp, fax._mfax_faxoutgoingjob_receipttype, faxcomex/IFaxOutgoingJob::ReceiptType, faxcomex/IFaxOutgoingJob::get_ReceiptType, get_ReceiptType
 ms.topic: method
-f1_keywords: 
- - "faxcomex/IFaxOutgoingJob.ReceiptType"
+f1_keywords:
+- faxcomex/IFaxOutgoingJob.ReceiptType
 dev_langs:
- - c++
+- c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: Fxscomex.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Fxscomex.dll
+- Fxscomex.dll
 api_name:
- - IFaxOutgoingJob.ReceiptType
- - IFaxOutgoingJob.get_ReceiptType
- - IFaxOutgoingJob.get_ReceiptType
+- IFaxOutgoingJob.ReceiptType
+- IFaxOutgoingJob.get_ReceiptType
+- IFaxOutgoingJob.get_ReceiptType
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:dwrite_3.IDWriteRemoteFontFileLoader.CreateFontFileReferenceFromUrl
 title: IDWriteRemoteFontFileLoader::CreateFontFileReferenceFromUrl (dwrite_3.h)
-
 description: Creates a font file reference from a URL if the loader supports this capability.
 old-location: directwrite\idwriteremotefontfileloader_createfontfilereferencefromurl.htm
 tech.root: DirectWrite
 ms.assetid: C8695514-532F-4CAC-9A50-049C81812F15
-
 ms.date: 12/05/2018
 ms.keywords: CreateFontFileReferenceFromUrl, CreateFontFileReferenceFromUrl method [Direct Write], CreateFontFileReferenceFromUrl method [Direct Write],IDWriteRemoteFontFileLoader interface, IDWriteRemoteFontFileLoader interface [Direct Write],CreateFontFileReferenceFromUrl method, IDWriteRemoteFontFileLoader.CreateFontFileReferenceFromUrl, IDWriteRemoteFontFileLoader::CreateFontFileReferenceFromUrl, directwrite.idwriteremotefontfileloader_createfontfilereferencefromurl, dwrite_3/IDWriteRemoteFontFileLoader::CreateFontFileReferenceFromUrl
 ms.topic: method
-f1_keywords: 
- - "dwrite_3/IDWriteRemoteFontFileLoader.CreateFontFileReferenceFromUrl"
+f1_keywords:
+- dwrite_3/IDWriteRemoteFontFileLoader.CreateFontFileReferenceFromUrl
 dev_langs:
- - c++
+- c++
 req.header: dwrite_3.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Dwrite.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dwrite.lib
- - Dwrite.dll
+- Dwrite.lib
+- Dwrite.dll
 api_name:
- - IDWriteRemoteFontFileLoader.CreateFontFileReferenceFromUrl
+- IDWriteRemoteFontFileLoader.CreateFontFileReferenceFromUrl
 targetos: Windows
 req.typenames: 
 req.redist: 

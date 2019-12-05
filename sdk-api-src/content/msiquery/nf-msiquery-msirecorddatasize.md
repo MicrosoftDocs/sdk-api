@@ -1,19 +1,17 @@
 ---
 UID: NF:msiquery.MsiRecordDataSize
 title: MsiRecordDataSize function (msiquery.h)
-
 description: The MsiRecordDataSize function returns the length of a record field. The count does not include the terminating null character.
 old-location: setup\msirecorddatasize.htm
 tech.root: Msi
 ms.assetid: e0e4e842-697f-43fa-8012-dd911bf3eebc
-
 ms.date: 12/05/2018
 ms.keywords: MsiRecordDataSize, MsiRecordDataSize function, _msi_msirecorddatasize, msiquery/MsiRecordDataSize, setup.msirecorddatasize
 ms.topic: function
-f1_keywords: 
- - "msiquery/MsiRecordDataSize"
+f1_keywords:
+- msiquery/MsiRecordDataSize
 dev_langs:
- - c++
+- c++
 req.header: msiquery.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Msi.lib
 req.dll: Msi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Msi.dll
+- Msi.dll
 api_name:
- - MsiRecordDataSize
+- MsiRecordDataSize
 targetos: Windows
 req.typenames: 
 req.redist: 

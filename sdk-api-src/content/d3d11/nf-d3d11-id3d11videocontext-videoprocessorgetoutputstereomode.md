@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d11.ID3D11VideoContext.VideoProcessorGetOutputStereoMode
 title: ID3D11VideoContext::VideoProcessorGetOutputStereoMode (d3d11.h)
-
 description: Queries whether the video processor produces stereo video frames.
 old-location: mf\id3d11videocontext_videoprocessorgetoutputstereomode.htm
 tech.root: medfound
 ms.assetid: E7BDB9DA-2760-416D-BD51-F73A035B790A
-
 ms.date: 12/05/2018
 ms.keywords: ID3D11VideoContext interface [Media Foundation],VideoProcessorGetOutputStereoMode method, ID3D11VideoContext.VideoProcessorGetOutputStereoMode, ID3D11VideoContext::VideoProcessorGetOutputStereoMode, VideoProcessorGetOutputStereoMode, VideoProcessorGetOutputStereoMode method [Media Foundation], VideoProcessorGetOutputStereoMode method [Media Foundation],ID3D11VideoContext interface, d3d11/ID3D11VideoContext::VideoProcessorGetOutputStereoMode, mf.id3d11videocontext_videoprocessorgetoutputstereomode
 ms.topic: method
-f1_keywords: 
- - "d3d11/ID3D11VideoContext.VideoProcessorGetOutputStereoMode"
+f1_keywords:
+- d3d11/ID3D11VideoContext.VideoProcessorGetOutputStereoMode
 dev_langs:
- - c++
+- c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - d3d11.h
+- d3d11.h
 api_name:
- - ID3D11VideoContext.VideoProcessorGetOutputStereoMode
+- ID3D11VideoContext.VideoProcessorGetOutputStereoMode
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:sbtsv.ITsSbResourceNotification.NotifyClientConnectionStateChange
 title: ITsSbResourceNotification::NotifyClientConnectionStateChange (sbtsv.h)
-
 description: Notifies registered plug-ins about state changes in a client connection.
 old-location: termserv\itssbresourcenotification_notifyclientconnectionstatechange.htm
 tech.root: TermServ
 ms.assetid: 8c5d6cf4-f99c-46fa-8b8e-008ff8a4d0d7
-
 ms.date: 12/05/2018
 ms.keywords: CONNECTION_REQUEST_CANCELLED, CONNECTION_REQUEST_FAILED, CONNECTION_REQUEST_PENDING, CONNECTION_REQUEST_SUCCEEDED, CONNECTION_REQUEST_TIMEDOUT, ITsSbResourceNotification interface [Remote Desktop Services],NotifyClientConnectionStateChange method, ITsSbResourceNotification.NotifyClientConnectionStateChange, ITsSbResourceNotification::NotifyClientConnectionStateChange, NotifyClientConnectionStateChange, NotifyClientConnectionStateChange method [Remote Desktop Services], NotifyClientConnectionStateChange method [Remote Desktop Services],ITsSbResourceNotification interface, sbtsv/ITsSbResourceNotification::NotifyClientConnectionStateChange, termserv.itssbresourcenotification_notifyclientconnectionstatechange
 ms.topic: method
-f1_keywords: 
- - "sbtsv/ITsSbResourceNotification.NotifyClientConnectionStateChange"
+f1_keywords:
+- sbtsv/ITsSbResourceNotification.NotifyClientConnectionStateChange
 dev_langs:
- - c++
+- c++
 req.header: sbtsv.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - sbtsv.h
+- sbtsv.h
 api_name:
- - ITsSbResourceNotification.NotifyClientConnectionStateChange
+- ITsSbResourceNotification.NotifyClientConnectionStateChange
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:wmsdkidl.IWMSyncReader.SetOutputSetting
 title: IWMSyncReader::SetOutputSetting (wmsdkidl.h)
-
 description: The SetOutputSetting method specifies a named setting for a particular output.
 old-location: wmformat\iwmsyncreader_setoutputsetting.htm
 tech.root: wmformat
 ms.assetid: 8deb322f-8b52-46cf-9b5c-76fa34b6bde2
-
 ms.date: 12/05/2018
 ms.keywords: IWMSyncReader interface [windows Media Format],SetOutputSetting method, IWMSyncReader.SetOutputSetting, IWMSyncReader::SetOutputSetting, IWMSyncReaderSetOutputSetting, SetOutputSetting, SetOutputSetting method [windows Media Format], SetOutputSetting method [windows Media Format],IWMSyncReader interface, wmformat.iwmsyncreader_setoutputsetting, wmsdkidl/IWMSyncReader::SetOutputSetting
 ms.topic: method
-f1_keywords: 
- - "wmsdkidl/IWMSyncReader.SetOutputSetting"
+f1_keywords:
+- wmsdkidl/IWMSyncReader.SetOutputSetting
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wmvcore.lib
- - Wmvcore.dll
- - WMStubDRM.lib
- - WMStubDRM.dll
+- Wmvcore.lib
+- Wmvcore.dll
+- WMStubDRM.lib
+- WMStubDRM.dll
 api_name:
- - IWMSyncReader.SetOutputSetting
+- IWMSyncReader.SetOutputSetting
 targetos: Windows
 req.typenames: 
 req.redist: 

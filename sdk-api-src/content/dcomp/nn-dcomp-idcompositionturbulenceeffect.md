@@ -1,19 +1,17 @@
 ---
 UID: NN:dcomp.IDCompositionTurbulenceEffect
 title: IDCompositionTurbulenceEffect (dcomp.h)
-
 description: The turbulence effect is used to generate a bitmap based on the Perlin noise function. The turbulence effect has no input image.
 old-location: directcomp\idcompositionturbulenceeffect.htm
 tech.root: directcomp
 ms.assetid: 6A0100DE-DB63-475C-BF7D-3B2D436704A5
-
 ms.date: 12/05/2018
 ms.keywords: IDCompositionTurbulenceEffect, IDCompositionTurbulenceEffect interface [DirectComposition], IDCompositionTurbulenceEffect interface [DirectComposition],described, dcomp/IDCompositionTurbulenceEffect, directcomp.idcompositionturbulenceeffect
 ms.topic: interface
-f1_keywords: 
- - "dcomp/IDCompositionTurbulenceEffect"
+f1_keywords:
+- dcomp/IDCompositionTurbulenceEffect
 dev_langs:
- - c++
+- c++
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dcomp.lib
 req.dll: Dcomp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dcomp.dll
+- Dcomp.dll
 api_name:
- - IDCompositionTurbulenceEffect
+- IDCompositionTurbulenceEffect
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:mileffects.IMILBitmapEffectRenderContext.SetUseSoftwareRenderer
 title: IMILBitmapEffectRenderContext::SetUseSoftwareRenderer (mileffects.h)
-
 description: Sets a value to indicate whether to use software rendering.
 old-location: wibe\_wibe_imilbitmapeffectrendercontext_setusesoftwarerenderer.htm
 tech.root: wibe
 ms.assetid: VS|wibe|~\wibelh\reference\ifaces\imilbitmapeffectrendercontext\setusesoftwarerenderer.htm
-
 ms.date: 12/05/2018
 ms.keywords: IMILBitmapEffectRenderContext interface [WPF Bitmap Effects],SetUseSoftwareRenderer method, IMILBitmapEffectRenderContext.SetUseSoftwareRenderer, IMILBitmapEffectRenderContext::SetUseSoftwareRenderer, SetUseSoftwareRenderer, SetUseSoftwareRenderer method [WPF Bitmap Effects], SetUseSoftwareRenderer method [WPF Bitmap Effects],IMILBitmapEffectRenderContext interface, _wibe_imilbitmapeffectrendercontext_setusesoftwarerenderer, mileffects/IMILBitmapEffectRenderContext::SetUseSoftwareRenderer, wibe._wibe_imilbitmapeffectrendercontext_setusesoftwarerenderer
 ms.topic: method
-f1_keywords: 
- - "mileffects/IMILBitmapEffectRenderContext.SetUseSoftwareRenderer"
+f1_keywords:
+- mileffects/IMILBitmapEffectRenderContext.SetUseSoftwareRenderer
 dev_langs:
- - c++
+- c++
 req.header: mileffects.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Mileffects.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mileffects.dll
+- Mileffects.dll
 api_name:
- - IMILBitmapEffectRenderContext.SetUseSoftwareRenderer
+- IMILBitmapEffectRenderContext.SetUseSoftwareRenderer
 targetos: Windows
 req.typenames: 
 req.redist: Microsoft .Net 3.0

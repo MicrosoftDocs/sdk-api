@@ -1,19 +1,17 @@
 ---
 UID: NF:directxmath.XMQuaternionInverse
 title: XMQuaternionInverse function (directxmath.h)
-
 description: Computes the inverse of a quaternion.
 old-location: dxmath\xmquaternioninverse.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.quaternion.XMQuaternionInverse(XMVECTOR)
-
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMQuaternionInverse, XMQuaternionInverse, XMQuaternionInverse method [DirectX Math Support APIs], dxmath.xmquaternioninverse
 ms.topic: function
-f1_keywords: 
- - "directxmath/XMQuaternionInverse"
+f1_keywords:
+- directxmath/XMQuaternionInverse
 dev_langs:
- - c++
+- c++
 req.header: directxmath.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - DirectXMath.h
+- DirectXMath.h
 api_name:
- - XMQuaternionInverse
+- XMQuaternionInverse
 targetos: Windows
 req.typenames: 
 req.redist: 

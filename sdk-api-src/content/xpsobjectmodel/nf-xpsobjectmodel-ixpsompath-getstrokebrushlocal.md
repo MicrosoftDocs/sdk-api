@@ -1,19 +1,17 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMPath.GetStrokeBrushLocal
 title: IXpsOMPath::GetStrokeBrushLocal (xpsobjectmodel.h)
-
 description: Gets a pointer to the local, unshared IXpsOMBrush interface that contains the stroke brush for the path.
 old-location: xps\ixpsompath_getstrokebrushlocal.htm
 tech.root: printdocs
 ms.assetid: cf816750-8381-4c04-af20-e5ce3f8ad63c
-
 ms.date: 12/05/2018
 ms.keywords: GetStrokeBrushLocal, GetStrokeBrushLocal method [XPS Documents and Packaging], GetStrokeBrushLocal method [XPS Documents and Packaging],IXpsOMPath interface, IXpsOMPath interface [XPS Documents and Packaging],GetStrokeBrushLocal method, IXpsOMPath.GetStrokeBrushLocal, IXpsOMPath::GetStrokeBrushLocal, xps.ixpsompath_getstrokebrushlocal, xpsobjectmodel/IXpsOMPath::GetStrokeBrushLocal
 ms.topic: method
-f1_keywords: 
- - "xpsobjectmodel/IXpsOMPath.GetStrokeBrushLocal"
+f1_keywords:
+- xpsobjectmodel/IXpsOMPath.GetStrokeBrushLocal
 dev_langs:
- - c++
+- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsobjectmodel.h
+- xpsobjectmodel.h
 api_name:
- - IXpsOMPath.GetStrokeBrushLocal
+- IXpsOMPath.GetStrokeBrushLocal
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NE:codecapi.eAVEncVideoOutputFrameRateConversion
 title: eAVEncVideoOutputFrameRateConversion (codecapi.h)
-
 description: Specifies whether the encoder converts the frame rate, if the output frame rate does not match the input frame rate. This enumeration is used with the AVEncVideoOutputFrameRateConversion property.
 old-location: dshow\eavencvideooutputframerateconversion.htm
 tech.root: DirectShow
 ms.assetid: 0303f49c-9651-4781-8a6b-2af0a1b8f1ab
-
 ms.date: 12/05/2018
 ms.keywords: codecapi/eAVEncVideoOutputFrameRateConversion, codecapi/eAVEncVideoOutputFrameRateConversion_Alias, codecapi/eAVEncVideoOutputFrameRateConversion_Disable, codecapi/eAVEncVideoOutputFrameRateConversion_Enable, dshow.eavencvideooutputframerateconversion, eAVEncVideoOutputFrameRateConversion, eAVEncVideoOutputFrameRateConversion enumeration [DirectShow], eAVEncVideoOutputFrameRateConversionEnumeration, eAVEncVideoOutputFrameRateConversion_Alias, eAVEncVideoOutputFrameRateConversion_Disable, eAVEncVideoOutputFrameRateConversion_Enable
 ms.topic: enum
-f1_keywords: 
- - "codecapi/eAVEncVideoOutputFrameRateConversion"
+f1_keywords:
+- codecapi/eAVEncVideoOutputFrameRateConversion
 dev_langs:
- - c++
+- c++
 req.header: codecapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - codecapi.h
+- codecapi.h
 api_name:
- - eAVEncVideoOutputFrameRateConversion
+- eAVEncVideoOutputFrameRateConversion
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NS:winnt._COMPATIBILITY_CONTEXT_ELEMENT
 title: COMPATIBILITY_CONTEXT_ELEMENT (winnt.h)
-
 description: The COMPATIBILITY_CONTEXT_ELEMENT structure is used by the QueryActCtxW function as part of the ACTIVATION_CONTEXT_COMPATIBILITY_INFORMATION structure.
 old-location: setup\compatibility_context_element.htm
 tech.root: SbsCs
 ms.assetid: 3e654f44-43f6-4282-b277-14ed6e25abf2
-
 ms.date: 12/05/2018
 ms.keywords: '*PCOMPATIBILITY_CONTEXT_ELEMENT, COMPATIBILITY_CONTEXT_ELEMENT, COMPATIBILITY_CONTEXT_ELEMENT structure [Setup API], PCOMPATIBILITY_CONTEXT_ELEMENT, PCOMPATIBILITY_CONTEXT_ELEMENT structure pointer [Setup API], _COMPATIBILITY_CONTEXT_ELEMENT, setup.compatibility_context_element, winnt/COMPATIBILITY_CONTEXT_ELEMENT, winnt/PCOMPATIBILITY_CONTEXT_ELEMENT'
 ms.topic: struct
 f1_keywords:
 - winnt/COMPATIBILITY_CONTEXT_ELEMENT
 dev_langs:
- - c++
+- c++
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -1,19 +1,17 @@
 ---
 UID: NE:d3d10.D3D10_BLEND_OP
 title: D3D10_BLEND_OP (d3d10.h)
-
 description: RGB or alpha blending operation.
 old-location: direct3d10\d3d10_blend_op.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\d3d10_blend_op.htm
-
 ms.date: 12/05/2018
 ms.keywords: 9bbf55a2-225d-7084-43ca-8305b06faa0d, D3D10_BLEND_OP, D3D10_BLEND_OP enumeration [Direct3D 10], D3D10_BLEND_OP_ADD, D3D10_BLEND_OP_MAX, D3D10_BLEND_OP_MIN, D3D10_BLEND_OP_REV_SUBTRACT, D3D10_BLEND_OP_SUBTRACT, d3d10/D3D10_BLEND_OP, d3d10/D3D10_BLEND_OP_ADD, d3d10/D3D10_BLEND_OP_MAX, d3d10/D3D10_BLEND_OP_MIN, d3d10/D3D10_BLEND_OP_REV_SUBTRACT, d3d10/D3D10_BLEND_OP_SUBTRACT, direct3d10.d3d10_blend_op
 ms.topic: enum
-f1_keywords: 
- - "d3d10/D3D10_BLEND_OP"
+f1_keywords:
+- d3d10/D3D10_BLEND_OP
 dev_langs:
- - c++
+- c++
 req.header: d3d10.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - D3D10.h
+- D3D10.h
 api_name:
- - D3D10_BLEND_OP
+- D3D10_BLEND_OP
 targetos: Windows
 req.typenames: D3D10_BLEND_OP
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IFolderView.GetFocusedItem
 title: IFolderView::GetFocusedItem (shobjidl_core.h)
-
 description: Gets the index of the item that currently has focus in the folder's view.
 old-location: shell\IFolderView_GetFocusedItem.htm
 tech.root: shell
 ms.assetid: 5bbc0baf-b384-41da-850c-b2cb9570cb69
-
 ms.date: 12/05/2018
 ms.keywords: GetFocusedItem, GetFocusedItem method [Windows Shell], GetFocusedItem method [Windows Shell],IFolderView interface, IFolderView interface [Windows Shell],GetFocusedItem method, IFolderView.GetFocusedItem, IFolderView::GetFocusedItem, _shell_IFolderView_GetFocusedItem, shell.IFolderView_GetFocusedItem, shobjidl_core/IFolderView::GetFocusedItem
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IFolderView.GetFocusedItem"
+f1_keywords:
+- shobjidl_core/IFolderView.GetFocusedItem
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Shell32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - IFolderView.GetFocusedItem
+- IFolderView.GetFocusedItem
 targetos: Windows
 req.typenames: 
 req.redist: 

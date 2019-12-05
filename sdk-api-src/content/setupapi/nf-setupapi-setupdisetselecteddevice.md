@@ -1,19 +1,17 @@
 ---
 UID: NF:setupapi.SetupDiSetSelectedDevice
 title: SetupDiSetSelectedDevice function (setupapi.h)
-
 description: The SetupDiSetSelectedDevice function sets a device information element as the selected member of a device information set. This function is typically used by an installation wizard.
 old-location: devinst\setupdisetselecteddevice.htm
 tech.root: devinst
 ms.assetid: d3ce8a05-d26b-452f-8418-e104ae486a1a
-
 ms.date: 12/05/2018
 ms.keywords: SetupDiSetSelectedDevice, SetupDiSetSelectedDevice function [Device and Driver Installation], devinst.setupdisetselecteddevice, di-rtns_db49eaf1-c6cb-48ef-ae17-f5c578672eca.xml, setupapi/SetupDiSetSelectedDevice
 ms.topic: function
 f1_keywords:
 - setupapi/SetupDiSetSelectedDevice
 dev_langs:
- - c++
+- c++
 req.header: setupapi.h
 req.include-header: Setupapi.h
 req.target-type: Desktop

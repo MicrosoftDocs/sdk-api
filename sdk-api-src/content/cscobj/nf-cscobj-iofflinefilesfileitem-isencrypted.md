@@ -1,19 +1,17 @@
 ---
 UID: NF:cscobj.IOfflineFilesFileItem.IsEncrypted
 title: IOfflineFilesFileItem::IsEncrypted (cscobj.h)
-
 description: Determines whether an item in the Offline Files cache is encrypted.
 old-location: of\iofflinefilesfileitem_isencrypted.htm
 tech.root: offlinefiles
 ms.assetid: f4ef4836-378c-4a9b-a805-e576d4637a2a
-
 ms.date: 12/05/2018
 ms.keywords: IOfflineFilesFileItem interface [Offline Files],IsEncrypted method, IOfflineFilesFileItem.IsEncrypted, IOfflineFilesFileItem::IsEncrypted, IsEncrypted, IsEncrypted method [Offline Files], IsEncrypted method [Offline Files],IOfflineFilesFileItem interface, cscobj/IOfflineFilesFileItem::IsEncrypted, of.iofflinefilesfileitem_isencrypted
 ms.topic: method
-f1_keywords: 
- - "cscobj/IOfflineFilesFileItem.IsEncrypted"
+f1_keywords:
+- cscobj/IOfflineFilesFileItem.IsEncrypted
 dev_langs:
- - c++
+- c++
 req.header: cscobj.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: CscSvc.dll; CscObj.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CscSvc.dll
- - CscObj.dll
+- CscSvc.dll
+- CscObj.dll
 api_name:
- - IOfflineFilesFileItem.IsEncrypted
+- IOfflineFilesFileItem.IsEncrypted
 targetos: Windows
 req.typenames: 
 req.redist: 

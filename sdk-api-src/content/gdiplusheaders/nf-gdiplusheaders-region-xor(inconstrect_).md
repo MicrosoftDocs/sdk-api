@@ -3,14 +3,13 @@ UID: NF:gdiplusheaders.Region.Xor(IN const Rect &)
 title: Region::Xor
 description: The **Region::Xor** method updates a region to the nonintersecting portions with a rectangle's interior.
 ms.assetid: 06a4b045-996c-4f99-8bce-ec42ea09c170
-
 ms.date: 05/20/2019
 ms.keywords: Region::Xor
 ms.topic: language-reference
-f1_keywords: 
- - "gdiplusheaders/Region::Xor"
+f1_keywords:
+- gdiplusheaders/Region::Xor
 dev_langs:
- - c++
+- c++
 targetos: Windows
 req.assembly: 
 req.construct-type: function
@@ -32,13 +31,13 @@ req.type-library:
 req.umdf-ver: 
 req.unicode-ansi: 
 topic_type:
- - apiref
+- apiref
 api_type:
- - COM
+- COM
 api_location:
- - gdiplusheaders.h
+- gdiplusheaders.h
 api_name:
- - Region::Xor
+- Region::Xor
 ---
 
 # Region::Xor(Rect&)

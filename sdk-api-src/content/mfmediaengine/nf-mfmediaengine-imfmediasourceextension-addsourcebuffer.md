@@ -1,19 +1,17 @@
 ---
 UID: NF:mfmediaengine.IMFMediaSourceExtension.AddSourceBuffer
 title: IMFMediaSourceExtension::AddSourceBuffer (mfmediaengine.h)
-
 description: Adds a IMFSourceBuffer to the collection of buffers associated with the IMFMediaSourceExtension.
 old-location: mf\imfmediasourceextension_addsourcebuffer.htm
 tech.root: medfound
 ms.assetid: 1ecb7047-4dc9-4657-8a19-12108de299c0
-
 ms.date: 12/05/2018
 ms.keywords: AddSourceBuffer, AddSourceBuffer method [Media Foundation], AddSourceBuffer method [Media Foundation],IMFMediaSourceExtension interface, IMFMediaSourceExtension interface [Media Foundation],AddSourceBuffer method, IMFMediaSourceExtension.AddSourceBuffer, IMFMediaSourceExtension::AddSourceBuffer, mf.imfmediasourceextension_addsourcebuffer, mfmediaengine/IMFMediaSourceExtension::AddSourceBuffer
 ms.topic: method
-f1_keywords: 
- - "mfmediaengine/IMFMediaSourceExtension.AddSourceBuffer"
+f1_keywords:
+- mfmediaengine/IMFMediaSourceExtension.AddSourceBuffer
 dev_langs:
- - c++
+- c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfmediaengine.h
+- mfmediaengine.h
 api_name:
- - IMFMediaSourceExtension.AddSourceBuffer
+- IMFMediaSourceExtension.AddSourceBuffer
 targetos: Windows
 req.typenames: 
 req.redist: 

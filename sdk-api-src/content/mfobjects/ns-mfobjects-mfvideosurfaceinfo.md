@@ -1,19 +1,17 @@
 ---
 UID: NS:mfobjects._MFVideoSurfaceInfo
 title: MFVideoSurfaceInfo (mfobjects.h)
-
 description: Contains information about an uncompressed video format. This structure is used in the MFVIDEOFORMAT structure.
 old-location: mf\mfvideosurfaceinfo.htm
 tech.root: medfound
 ms.assetid: b48099a2-8427-496c-9a60-ace5b89d81e9
-
 ms.date: 12/05/2018
 ms.keywords: MFVideoSurfaceInfo, MFVideoSurfaceInfo structure [Media Foundation], b48099a2-8427-496c-9a60-ace5b89d81e9, mf.mfvideosurfaceinfo, mfobjects/MFVideoSurfaceInfo
 ms.topic: struct
 f1_keywords:
 - mfobjects/MFVideoSurfaceInfo
 dev_langs:
- - c++
+- c++
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows

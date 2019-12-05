@@ -1,19 +1,17 @@
 ---
 UID: NN:mfidl.IMFSeekInfo
 title: IMFSeekInfo (mfidl.h)
-
 description: For a particular seek position, gets the two nearest key frames.
 old-location: mf\imfseekinfo.htm
 tech.root: medfound
 ms.assetid: 5B1AD3A1-D5ED-4F9D-A895-0312E6EB3072
-
 ms.date: 12/05/2018
 ms.keywords: IMFSeekInfo, IMFSeekInfo interface [Media Foundation], IMFSeekInfo interface [Media Foundation],described, mf.imfseekinfo, mfidl/IMFSeekInfo
 ms.topic: interface
-f1_keywords: 
- - "mfidl/IMFSeekInfo"
+f1_keywords:
+- mfidl/IMFSeekInfo
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfidl.h
+- mfidl.h
 api_name:
- - IMFSeekInfo
+- IMFSeekInfo
 targetos: Windows
 req.typenames: 
 req.redist: 

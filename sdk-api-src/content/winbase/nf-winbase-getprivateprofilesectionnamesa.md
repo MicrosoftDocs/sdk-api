@@ -1,19 +1,17 @@
 ---
 UID: NF:winbase.GetPrivateProfileSectionNamesA
 title: GetPrivateProfileSectionNamesA function (winbase.h)
-
 description: Retrieves the names of all sections in an initialization file.
 old-location: base\getprivateprofilesectionnames.htm
 tech.root: SysInfo
 ms.assetid: f5d8593d-d086-4a28-b067-be3806ba78c3
-
 ms.date: 12/05/2018
 ms.keywords: GetPrivateProfileSectionNames, GetPrivateProfileSectionNames function, GetPrivateProfileSectionNamesA, GetPrivateProfileSectionNamesW, _win32_getprivateprofilesectionnames, base.getprivateprofilesectionnames, winbase/GetPrivateProfileSectionNames, winbase/GetPrivateProfileSectionNamesA, winbase/GetPrivateProfileSectionNamesW
 ms.topic: function
-f1_keywords: 
- - "winbase/GetPrivateProfileSectionNames"
+f1_keywords:
+- winbase/GetPrivateProfileSectionNames
 dev_langs:
- - c++
+- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
+- Kernel32.dll
 api_name:
- - GetPrivateProfileSectionNames
- - GetPrivateProfileSectionNamesA
- - GetPrivateProfileSectionNamesW
+- GetPrivateProfileSectionNames
+- GetPrivateProfileSectionNamesA
+- GetPrivateProfileSectionNamesW
 targetos: Windows
 req.typenames: 
 req.redist: 

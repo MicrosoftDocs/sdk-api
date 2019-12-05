@@ -1,19 +1,17 @@
 ---
 UID: NN:d3d11shader.ID3D11LibraryReflection
 title: ID3D11LibraryReflection (d3d11shader.h)
-
 description: A library-reflection interface accesses library info.
 old-location: direct3d11\id3d11libraryreflection.htm
 tech.root: direct3d11
 ms.assetid: 59792EC6-B739-4D86-84F6-DC03AD3016F1
-
 ms.date: 12/05/2018
 ms.keywords: ID3D11LibraryReflection, ID3D11LibraryReflection interface [Direct3D 11], ID3D11LibraryReflection interface [Direct3D 11],described, d3d11shader/ID3D11LibraryReflection, direct3d11.id3d11libraryreflection
 ms.topic: interface
-f1_keywords: 
- - "d3d11shader/ID3D11LibraryReflection"
+f1_keywords:
+- d3d11shader/ID3D11LibraryReflection
 dev_langs:
- - c++
+- c++
 req.header: d3d11shader.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: D3DCompiler.lib
 req.dll: D3DCompiler_47.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3DCompiler_47.dll
+- D3DCompiler_47.dll
 api_name:
- - ID3D11LibraryReflection
+- ID3D11LibraryReflection
 targetos: Windows
 req.typenames: 
 req.redist: 

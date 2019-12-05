@@ -1,19 +1,17 @@
 ---
 UID: NF:segment.IMSVidStreamBufferSinkEvent3.LicenseChange
 title: IMSVidStreamBufferSinkEvent3::LicenseChange (segment.h)
-
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005.
 old-location: mstv\imsvidstreambuffersinkevent3_licensechange.htm
 tech.root: mstv
 ms.assetid: 2477f082-50a6-4b4b-89ba-ccf4c8894a4b
-
 ms.date: 12/05/2018
 ms.keywords: IMSVidStreamBufferSinkEvent3 interface [Microsoft TV Technologies],LicenseChange method, IMSVidStreamBufferSinkEvent3.LicenseChange, IMSVidStreamBufferSinkEvent3::LicenseChange, IMSVidStreamBufferSinkEvent3LicenseChange, LicenseChange, LicenseChange method [Microsoft TV Technologies], LicenseChange method [Microsoft TV Technologies],IMSVidStreamBufferSinkEvent3 interface, mstv.imsvidstreambuffersinkevent3_licensechange, segment/IMSVidStreamBufferSinkEvent3::LicenseChange
 ms.topic: method
-f1_keywords: 
- - "segment/IMSVidStreamBufferSinkEvent3.LicenseChange"
+f1_keywords:
+- segment/IMSVidStreamBufferSinkEvent3.LicenseChange
 dev_langs:
- - c++
+- c++
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - segment.h
+- segment.h
 api_name:
- - IMSVidStreamBufferSinkEvent3.LicenseChange
+- IMSVidStreamBufferSinkEvent3.LicenseChange
 targetos: Windows
 req.typenames: 
 req.redist: 

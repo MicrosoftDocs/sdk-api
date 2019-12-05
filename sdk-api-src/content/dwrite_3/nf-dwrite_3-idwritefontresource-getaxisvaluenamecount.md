@@ -1,17 +1,15 @@
 ---
 UID: NF:dwrite_3.IDWriteFontResource.GetAxisValueNameCount
 title: IDWriteFontResource::GetAxisValueNameCount
-
 description: Retrieves the number of named values for a specific axis.
 tech.root: DirectWrite
-
 ms.date: 09/15/2019
 ms.keywords: IDWriteFontResource interface [Direct Write],GetAxisValueNameCount method, IDWriteFontResource.GetAxisValueNameCount, IDWriteFontResource::GetAxisValueNameCount, GetAxisValueNameCount, GetAxisValueNameCount method [Direct Write], GetAxisValueNameCount method [Direct Write],IDWriteFontResource interface, directwrite.idwritefontresource_getaxisvaluenamecount, dwrite_3/IDWriteFontResource::GetAxisValueNameCount
 ms.topic: method
-f1_keywords: 
- - "dwrite_3/IDWriteFontResource.GetAxisValueNameCount"
+f1_keywords:
+- dwrite_3/IDWriteFontResource.GetAxisValueNameCount
 dev_langs:
- - c++
+- c++
 req.construct-type: function
 req.header: dwrite_3.h
 req.include-header: 
@@ -31,15 +29,15 @@ req.lib: Dwrite.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dwrite.lib
- - Dwrite.dll
+- Dwrite.lib
+- Dwrite.dll
 api_name:
- - IDWriteFontResource::GetAxisValueNameCount
+- IDWriteFontResource::GetAxisValueNameCount
 targetos: Windows
 req.typenames: 
 req.redist: 

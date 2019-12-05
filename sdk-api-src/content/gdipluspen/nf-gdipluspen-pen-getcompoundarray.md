@@ -1,19 +1,17 @@
 ---
 UID: NF:gdipluspen.Pen.GetCompoundArray
 title: Pen::GetCompoundArray (gdipluspen.h)
-
 description: The Pen::GetCompoundArray method gets the compound array currently set for this Pen object.
 old-location: gdiplus\_gdiplus_CLASS_Pen_GetCompoundArray_compoundArray_count_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\penclass\penmethods\getcompoundarray.htm
-
 ms.date: 12/05/2018
 ms.keywords: GetCompoundArray, GetCompoundArray method [GDI+], GetCompoundArray method [GDI+],Pen class, Pen class [GDI+],GetCompoundArray method, Pen.GetCompoundArray, Pen::GetCompoundArray, _gdiplus_CLASS_Pen_GetCompoundArray_compoundArray_count_, gdiplus._gdiplus_CLASS_Pen_GetCompoundArray_compoundArray_count_
 ms.topic: method
-f1_keywords: 
- - "gdipluspen/Pen.GetCompoundArray"
+f1_keywords:
+- gdipluspen/Pen.GetCompoundArray
 dev_langs:
- - c++
+- c++
 req.header: gdipluspen.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - Pen.GetCompoundArray
+- Pen.GetCompoundArray
 targetos: Windows
 req.typenames: 
 req.redist: 

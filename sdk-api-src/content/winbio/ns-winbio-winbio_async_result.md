@@ -1,19 +1,17 @@
 ---
 UID: NS:winbio._WINBIO_ASYNC_RESULT
 title: WINBIO_ASYNC_RESULT (winbio.h)
-
 description: Contains the results of an asynchronous operation.
 old-location: secbiomet\winbio_async_result.htm
 tech.root: SecBioMet
 ms.assetid: 1C8A4557-3851-4AB2-BB9B-AE199EB9D024
-
 ms.date: 12/05/2018
-ms.keywords: "*PWINBIO_ASYNC_RESULT, PWINBIO_ASYNC_RESULT, PWINBIO_ASYNC_RESULT structure pointer [Windows Biometric Framework API], WINBIO_ASYNC_RESULT, WINBIO_ASYNC_RESULT structure [Windows Biometric Framework API], secbiomet.winbio_async_result, winbio/PWINBIO_ASYNC_RESULT, winbio/WINBIO_ASYNC_RESULT"
+ms.keywords: '*PWINBIO_ASYNC_RESULT, PWINBIO_ASYNC_RESULT, PWINBIO_ASYNC_RESULT structure pointer [Windows Biometric Framework API], WINBIO_ASYNC_RESULT, WINBIO_ASYNC_RESULT structure [Windows Biometric Framework API], secbiomet.winbio_async_result, winbio/PWINBIO_ASYNC_RESULT, winbio/WINBIO_ASYNC_RESULT'
 ms.topic: struct
-f1_keywords: 
- - "winbio/WINBIO_ASYNC_RESULT"
+f1_keywords:
+- winbio/WINBIO_ASYNC_RESULT
 dev_langs:
- - c++
+- c++
 req.header: winbio.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Winbio.h
+- Winbio.h
 api_name:
- - WINBIO_ASYNC_RESULT
+- WINBIO_ASYNC_RESULT
 targetos: Windows
 req.typenames: WINBIO_ASYNC_RESULT, *PWINBIO_ASYNC_RESULT
 req.redist: 

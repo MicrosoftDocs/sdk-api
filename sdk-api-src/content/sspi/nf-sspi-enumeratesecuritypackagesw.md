@@ -1,19 +1,17 @@
 ---
 UID: NF:sspi.EnumerateSecurityPackagesW
 title: EnumerateSecurityPackagesW function (sspi.h)
-
 description: Returns an array of SecPkgInfo structures that provide information about the security packages available to the client.
 old-location: security\enumeratesecuritypackages.htm
 tech.root: SecAuthN
 ms.assetid: 900790a6-111d-43f5-9316-e85aab03a3bc
-
 ms.date: 12/05/2018
 ms.keywords: EnumerateSecurityPackages, EnumerateSecurityPackages function [Security], EnumerateSecurityPackagesA, EnumerateSecurityPackagesW, _ssp_enumeratesecuritypackages, security.enumeratesecuritypackages, sspi/EnumerateSecurityPackages, sspi/EnumerateSecurityPackagesA, sspi/EnumerateSecurityPackagesW
 ms.topic: function
 f1_keywords:
 - sspi/EnumerateSecurityPackages
 dev_langs:
- - c++
+- c++
 req.header: sspi.h
 req.include-header: Security.h
 req.target-type: Windows

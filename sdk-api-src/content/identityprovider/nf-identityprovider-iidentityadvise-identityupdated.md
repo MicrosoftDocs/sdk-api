@@ -1,19 +1,17 @@
 ---
 UID: NF:identityprovider.IIdentityAdvise.IdentityUpdated
 title: IIdentityAdvise::IdentityUpdated (identityprovider.h)
-
 description: Is called by an identity provider to notify a calling application that an identity event occurred.
 old-location: security\iidentityadvise_identityupdated.htm
 tech.root: SecAuthN
 ms.assetid: c41ca389-eac9-4c74-b0e7-950cd21f2199
-
 ms.date: 12/05/2018
 ms.keywords: IDENTITY_ASSOCIATED, IDENTITY_CONNECTED, IDENTITY_CREATED, IDENTITY_DELETED, IDENTITY_DISASSOCIATED, IDENTITY_DISCONNECTED, IDENTITY_IMPORTED, IDENTITY_PROPCHANGE, IIdentityAdvise interface [Security],IdentityUpdated method, IIdentityAdvise.IdentityUpdated, IIdentityAdvise::IdentityUpdated, IdentityUpdated, IdentityUpdated method [Security], IdentityUpdated method [Security],IIdentityAdvise interface, identityprovider/IIdentityAdvise::IdentityUpdated, identitystore/IIdentityAdvise::IdentityUpdated, security.iidentityadvise_identityupdated
 ms.topic: method
-f1_keywords: 
- - "identityprovider/IIdentityAdvise.IdentityUpdated"
+f1_keywords:
+- identityprovider/IIdentityAdvise.IdentityUpdated
 dev_langs:
- - c++
+- c++
 req.header: identityprovider.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - IdentityProvider.h
- - Identitystore.h
+- IdentityProvider.h
+- Identitystore.h
 api_name:
- - IIdentityAdvise.IdentityUpdated
+- IIdentityAdvise.IdentityUpdated
 targetos: Windows
 req.typenames: 
 req.redist: 

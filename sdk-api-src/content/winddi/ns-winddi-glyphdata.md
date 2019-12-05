@@ -1,19 +1,17 @@
 ---
 UID: NS:winddi._GLYPHDATA
 title: GLYPHDATA (winddi.h)
-
 description: The GLYPHDATA structure contains information about an individual glyph.
 old-location: display\glyphdata.htm
 tech.root: display
 ms.assetid: 9153b8c7-e6ad-4297-a0b6-ea495b9b312f
-
 ms.date: 12/05/2018
 ms.keywords: GLYPHDATA, GLYPHDATA structure [Display Devices], display.glyphdata, grstrcts_e96122df-3f9d-4e90-9bf6-25017381e514.xml, winddi/GLYPHDATA
 ms.topic: struct
 f1_keywords:
 - winddi/GLYPHDATA
 dev_langs:
- - c++
+- c++
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Windows

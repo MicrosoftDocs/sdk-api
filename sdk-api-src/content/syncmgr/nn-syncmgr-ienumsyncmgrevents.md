@@ -1,19 +1,17 @@
 ---
 UID: NN:syncmgr.IEnumSyncMgrEvents
 title: IEnumSyncMgrEvents (syncmgr.h)
-
 description: Exposes sync event enumeration methods.
 old-location: shell\IEnumSyncMgrEvents.htm
 tech.root: shell
 ms.assetid: 74d0c373-e9b1-4d9c-bdb6-caa743938e32
-
 ms.date: 12/05/2018
 ms.keywords: IEnumSyncMgrEvents, IEnumSyncMgrEvents interface [Windows Shell], IEnumSyncMgrEvents interface [Windows Shell],described, _shell_IEnumSyncMgrEvents, shell.IEnumSyncMgrEvents, syncmgr/IEnumSyncMgrEvents
 ms.topic: interface
-f1_keywords: 
- - "syncmgr/IEnumSyncMgrEvents"
+f1_keywords:
+- syncmgr/IEnumSyncMgrEvents
 dev_langs:
- - c++
+- c++
 req.header: syncmgr.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Syncmgr.h
+- Syncmgr.h
 api_name:
- - IEnumSyncMgrEvents
+- IEnumSyncMgrEvents
 targetos: Windows
 req.typenames: 
 req.redist: 

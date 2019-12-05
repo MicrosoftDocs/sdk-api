@@ -1,19 +1,17 @@
 ---
 UID: NF:filehc.ProduceDotStuffedContext
 title: ProduceDotStuffedContext function (filehc.h)
-
 description: Retrieves the FIO_CONTEXT structure with the requested state.
 old-location: winprog\_producedotstuffedcontext.htm
 tech.root: DevNotes
 ms.assetid: 6fbac935-339d-4744-9359-7b3b85bfb7c6
-
 ms.date: 12/05/2018
 ms.keywords: ProduceDotStuffedContext, ProduceDotStuffedContext function [Windows API], filehc/ProduceDotStuffedContext, winprog._producedotstuffedcontext
 ms.topic: function
-f1_keywords: 
- - "filehc/ProduceDotStuffedContext"
+f1_keywords:
+- filehc/ProduceDotStuffedContext
 dev_langs:
- - c++
+- c++
 req.header: filehc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Fcachdll.lib
 req.dll: Fcachdll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Fcachdll.dll
+- Fcachdll.dll
 api_name:
- - ProduceDotStuffedContext
+- ProduceDotStuffedContext
 targetos: Windows
 req.typenames: 
 req.redist: 

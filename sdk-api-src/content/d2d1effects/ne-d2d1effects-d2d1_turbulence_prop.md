@@ -1,19 +1,17 @@
 ---
 UID: NE:d2d1effects.D2D1_TURBULENCE_PROP
 title: D2D1_TURBULENCE_PROP (d2d1effects.h)
-
 description: Identifiers for properties of the Turbulence effect.
 old-location: direct2d\d2d1_turbulence_prop.htm
 tech.root: Direct2D
 ms.assetid: C045CA4D-C6B0-47CD-A479-DC3FDFF8D697
-
 ms.date: 12/05/2018
 ms.keywords: D2D1_TURBULENCE_PROP, D2D1_TURBULENCE_PROP enumeration [Direct2D], D2D1_TURBULENCE_PROP_BASE_FREQUENCY, D2D1_TURBULENCE_PROP_NOISE, D2D1_TURBULENCE_PROP_NUM_OCTAVES, D2D1_TURBULENCE_PROP_OFFSET, D2D1_TURBULENCE_PROP_SEED, D2D1_TURBULENCE_PROP_SIZE, D2D1_TURBULENCE_PROP_STITCHABLE, d2d1effects/D2D1_TURBULENCE_PROP, d2d1effects/D2D1_TURBULENCE_PROP_BASE_FREQUENCY, d2d1effects/D2D1_TURBULENCE_PROP_NOISE, d2d1effects/D2D1_TURBULENCE_PROP_NUM_OCTAVES, d2d1effects/D2D1_TURBULENCE_PROP_OFFSET, d2d1effects/D2D1_TURBULENCE_PROP_SEED, d2d1effects/D2D1_TURBULENCE_PROP_SIZE, d2d1effects/D2D1_TURBULENCE_PROP_STITCHABLE, direct2d.d2d1_turbulence_prop
 ms.topic: enum
-f1_keywords: 
- - "d2d1effects/D2D1_TURBULENCE_PROP"
+f1_keywords:
+- d2d1effects/D2D1_TURBULENCE_PROP
 dev_langs:
- - c++
+- c++
 req.header: d2d1effects.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - d2d1effects.h
+- d2d1effects.h
 api_name:
- - D2D1_TURBULENCE_PROP
+- D2D1_TURBULENCE_PROP
 targetos: Windows
 req.typenames: D2D1_TURBULENCE_PROP
 req.redist: 

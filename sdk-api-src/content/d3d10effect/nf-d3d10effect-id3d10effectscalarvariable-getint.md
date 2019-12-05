@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d10effect.ID3D10EffectScalarVariable.GetInt
 title: ID3D10EffectScalarVariable::GetInt (d3d10effect.h)
-
 description: Get an integer variable.
 old-location: direct3d10\id3d10effectscalarvariable_getint.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10effectscalarvariable_getint.htm
-
 ms.date: 12/05/2018
 ms.keywords: 6002611c-c95a-9bf0-071c-c2d577cfdc80, GetInt, GetInt method [Direct3D 10], GetInt method [Direct3D 10],ID3D10EffectScalarVariable interface, ID3D10EffectScalarVariable interface [Direct3D 10],GetInt method, ID3D10EffectScalarVariable.GetInt, ID3D10EffectScalarVariable::GetInt, d3d10effect/ID3D10EffectScalarVariable::GetInt, direct3d10.id3d10effectscalarvariable_getint
 ms.topic: method
-f1_keywords: 
- - "d3d10effect/ID3D10EffectScalarVariable.GetInt"
+f1_keywords:
+- d3d10effect/ID3D10EffectScalarVariable.GetInt
 dev_langs:
- - c++
+- c++
 req.header: d3d10effect.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D10Effect.h
+- D3D10Effect.h
 api_name:
- - ID3D10EffectScalarVariable.GetInt
+- ID3D10EffectScalarVariable.GetInt
 targetos: Windows
 req.typenames: 
 req.redist: 

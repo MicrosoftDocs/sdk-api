@@ -1,19 +1,17 @@
 ---
 UID: NS:mswsockdef._RIORESULT
 title: RIORESULT (mswsockdef.h)
-
 description: Contains data used to indicate request completion results used with the Winsock registered I/O extensions.
 old-location: winsock\rioresult.htm
 tech.root: WinSock
 ms.assetid: D56D67C4-B455-4F59-8996-CF158DDA3AC2
-
 ms.date: 12/05/2018
-ms.keywords: "*PRIORESULT, PRIORESULT, PRIORESULT structure pointer [Winsock], RIORESULT, RIORESULT structure [Winsock], mswsockdef/PRIORESULT, mswsockdef/RIORESULT, winsock.rioresult"
+ms.keywords: '*PRIORESULT, PRIORESULT, PRIORESULT structure pointer [Winsock], RIORESULT, RIORESULT structure [Winsock], mswsockdef/PRIORESULT, mswsockdef/RIORESULT, winsock.rioresult'
 ms.topic: struct
-f1_keywords: 
- - "mswsockdef/RIORESULT"
+f1_keywords:
+- mswsockdef/RIORESULT
 dev_langs:
- - c++
+- c++
 req.header: mswsockdef.h
 req.include-header: Mswsock.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Mswsockdef.h
+- Mswsockdef.h
 api_name:
- - RIORESULT
+- RIORESULT
 targetos: Windows
 req.typenames: RIORESULT, *PRIORESULT
 req.redist: 

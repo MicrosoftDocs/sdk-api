@@ -1,19 +1,17 @@
 ---
 UID: NN:activation.IActivationFactory
 title: IActivationFactory (activation.h)
-
 description: Enables classes to be activated by the Windows Runtime.
 old-location: winrt\iactivationfactory.htm
 tech.root: WinRT
 ms.assetid: C6A2ED6E-9C45-4CF3-A301-72A5DAEB4DFC
-
 ms.date: 12/05/2018
 ms.keywords: IActivationFactory, IActivationFactory interface [Windows Runtime], IActivationFactory interface [Windows Runtime],described, activation/IActivationFactory, winrt.iactivationfactory
 ms.topic: interface
-f1_keywords: 
- - "activation/IActivationFactory"
+f1_keywords:
+- activation/IActivationFactory
 dev_langs:
- - c++
+- c++
 req.header: activation.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Activation.h
+- Activation.h
 api_name:
- - IActivationFactory
+- IActivationFactory
 targetos: Windows
 req.typenames: 
 req.redist: 

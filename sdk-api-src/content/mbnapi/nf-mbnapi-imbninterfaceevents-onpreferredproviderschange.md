@@ -1,19 +1,17 @@
 ---
 UID: NF:mbnapi.IMbnInterfaceEvents.OnPreferredProvidersChange
 title: IMbnInterfaceEvents::OnPreferredProvidersChange (mbnapi.h)
-
 description: This notification method is called by the Mobile Broadband service to indicate a change in a device's preferred provider list.
 old-location: mbn\imbninterfaceevents_onpreferredproviderschange.htm
 tech.root: mbn
 ms.assetid: ccede3de-4dfd-469f-afb4-d1424c56c7bc
-
 ms.date: 12/05/2018
 ms.keywords: IMbnInterfaceEvents interface [Microsoft Broadband Networks],OnPreferredProvidersChange method, IMbnInterfaceEvents.OnPreferredProvidersChange, IMbnInterfaceEvents::OnPreferredProvidersChange, OnPreferredProvidersChange, OnPreferredProvidersChange method [Microsoft Broadband Networks], OnPreferredProvidersChange method [Microsoft Broadband Networks],IMbnInterfaceEvents interface, mbn.imbninterfaceevents_onpreferredproviderschange, mbnapi/IMbnInterfaceEvents::OnPreferredProvidersChange
 ms.topic: method
-f1_keywords: 
- - "mbnapi/IMbnInterfaceEvents.OnPreferredProvidersChange"
+f1_keywords:
+- mbnapi/IMbnInterfaceEvents.OnPreferredProvidersChange
 dev_langs:
- - c++
+- c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mbnapi.h
+- mbnapi.h
 api_name:
- - IMbnInterfaceEvents.OnPreferredProvidersChange
+- IMbnInterfaceEvents.OnPreferredProvidersChange
 targetos: Windows
 req.typenames: 
 req.redist: 

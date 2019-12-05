@@ -1,19 +1,17 @@
 ---
 UID: NF:dvbsiparser.IDVB_RST.GetRecordOriginalNetworkId
 title: IDVB_RST::GetRecordOriginalNetworkId (dvbsiparser.h)
-
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\idvb_rst_getrecordoriginalnetworkid.htm
 tech.root: mstv
 ms.assetid: 949dafeb-f59d-4507-a3eb-4a381f4108ff
-
 ms.date: 12/05/2018
 ms.keywords: GetRecordOriginalNetworkId, GetRecordOriginalNetworkId method [Microsoft TV Technologies], GetRecordOriginalNetworkId method [Microsoft TV Technologies],IDVB_RST interface, IDVB_RST interface [Microsoft TV Technologies],GetRecordOriginalNetworkId method, IDVB_RST.GetRecordOriginalNetworkId, IDVB_RST::GetRecordOriginalNetworkId, IDVB_RSTGetRecordOriginalNetworkId, dvbsiparser/IDVB_RST::GetRecordOriginalNetworkId, mstv.idvb_rst_getrecordoriginalnetworkid
 ms.topic: method
-f1_keywords: 
- - "dvbsiparser/IDVB_RST.GetRecordOriginalNetworkId"
+f1_keywords:
+- dvbsiparser/IDVB_RST.GetRecordOriginalNetworkId
 dev_langs:
- - c++
+- c++
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dvbsiparser.h
+- dvbsiparser.h
 api_name:
- - IDVB_RST.GetRecordOriginalNetworkId
+- IDVB_RST.GetRecordOriginalNetworkId
 targetos: Windows
 req.typenames: 
 req.redist: 

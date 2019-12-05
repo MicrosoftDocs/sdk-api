@@ -1,19 +1,17 @@
 ---
 UID: NN:shobjidl_core.IDragSourceHelper
 title: IDragSourceHelper (shobjidl_core.h)
-
 description: Exposed by the Shell to allow an application to specify the image that will be displayed during a Shell drag-and-drop operation.
 old-location: shell\IDragSourceHelper.htm
 tech.root: shell
 ms.assetid: d68ac8fd-4d9c-47ee-bdff-0c5bae6b5e28
-
 ms.date: 12/05/2018
 ms.keywords: IDragSourceHelper, IDragSourceHelper interface [Windows Shell], IDragSourceHelper interface [Windows Shell],described, _win32_IDragSourceHelper, shell.IDragSourceHelper, shobjidl_core/IDragSourceHelper
 ms.topic: interface
-f1_keywords: 
- - "shobjidl_core/IDragSourceHelper"
+f1_keywords:
+- shobjidl_core/IDragSourceHelper
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Shell32.dll (version 5.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - IDragSourceHelper
+- IDragSourceHelper
 targetos: Windows
 req.typenames: 
 req.redist: 

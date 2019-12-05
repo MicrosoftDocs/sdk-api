@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.ISearchFolderItemFactory.SetDisplayName
 title: ISearchFolderItemFactory::SetDisplayName (shobjidl_core.h)
-
 description: Sets the search folder display name, as specified.
 old-location: shell\ISearchFolderItemFactory_SetDisplayName.htm
 tech.root: shell
 ms.assetid: 2552677b-7907-4a2b-8a2f-6769bca64029
-
 ms.date: 12/05/2018
 ms.keywords: ISearchFolderItemFactory interface [Windows Shell],SetDisplayName method, ISearchFolderItemFactory.SetDisplayName, ISearchFolderItemFactory::SetDisplayName, SetDisplayName, SetDisplayName method [Windows Shell], SetDisplayName method [Windows Shell],ISearchFolderItemFactory interface, _shell_ISearchFolderItemFactory_SetDisplayName, shell.ISearchFolderItemFactory_SetDisplayName, shobjidl_core/ISearchFolderItemFactory::SetDisplayName
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/ISearchFolderItemFactory.SetDisplayName"
+f1_keywords:
+- shobjidl_core/ISearchFolderItemFactory.SetDisplayName
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - ISearchFolderItemFactory.SetDisplayName
+- ISearchFolderItemFactory.SetDisplayName
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:wmsdkidl.IWMSyncReader.SetReadStreamSamples
 title: IWMSyncReader::SetReadStreamSamples (wmsdkidl.h)
-
 description: The SetReadStreamSamples method specifies whether samples from a stream will be delivered compressed or uncompressed.
 old-location: wmformat\iwmsyncreader_setreadstreamsamples.htm
 tech.root: wmformat
 ms.assetid: cf998ecc-e80e-4eb3-9cba-61bd0b665d51
-
 ms.date: 12/05/2018
 ms.keywords: IWMSyncReader interface [windows Media Format],SetReadStreamSamples method, IWMSyncReader.SetReadStreamSamples, IWMSyncReader::SetReadStreamSamples, IWMSyncReaderSetReadStreamSamples, SetReadStreamSamples, SetReadStreamSamples method [windows Media Format], SetReadStreamSamples method [windows Media Format],IWMSyncReader interface, wmformat.iwmsyncreader_setreadstreamsamples, wmsdkidl/IWMSyncReader::SetReadStreamSamples
 ms.topic: method
-f1_keywords: 
- - "wmsdkidl/IWMSyncReader.SetReadStreamSamples"
+f1_keywords:
+- wmsdkidl/IWMSyncReader.SetReadStreamSamples
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wmvcore.lib
- - Wmvcore.dll
- - WMStubDRM.lib
- - WMStubDRM.dll
+- Wmvcore.lib
+- Wmvcore.dll
+- WMStubDRM.lib
+- WMStubDRM.dll
 api_name:
- - IWMSyncReader.SetReadStreamSamples
+- IWMSyncReader.SetReadStreamSamples
 targetos: Windows
 req.typenames: 
 req.redist: 

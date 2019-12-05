@@ -1,19 +1,17 @@
 ---
 UID: NF:uianimation.IUIAnimationManager.SetManagerEventHandler
 title: IUIAnimationManager::SetManagerEventHandler (uianimation.h)
-
 description: Specifies a handler for animation manager status updates.
 old-location: uianimation\iuianimationmanager_setmanagereventhandler.htm
 tech.root: UIAnimation
 ms.assetid: 89c4df40-6faa-4b7c-a255-289d1f8a6254
-
 ms.date: 12/05/2018
 ms.keywords: IUIAnimationManager interface [Windows Animation],SetManagerEventHandler method, IUIAnimationManager.SetManagerEventHandler, IUIAnimationManager::SetManagerEventHandler, SetManagerEventHandler, SetManagerEventHandler method [Windows Animation], SetManagerEventHandler method [Windows Animation],IUIAnimationManager interface, uianimation.iuianimationmanager_setmanagereventhandler, uianimation/IUIAnimationManager::SetManagerEventHandler
 ms.topic: method
-f1_keywords: 
- - "uianimation/IUIAnimationManager.SetManagerEventHandler"
+f1_keywords:
+- uianimation/IUIAnimationManager.SetManagerEventHandler
 dev_langs:
- - c++
+- c++
 req.header: uianimation.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: UIAnimation.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAnimation.dll
+- UIAnimation.dll
 api_name:
- - IUIAnimationManager.SetManagerEventHandler
+- IUIAnimationManager.SetManagerEventHandler
 targetos: Windows
 req.typenames: 
 req.redist: 

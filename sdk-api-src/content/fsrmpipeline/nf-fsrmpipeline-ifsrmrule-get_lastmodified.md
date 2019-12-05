@@ -1,19 +1,17 @@
 ---
 UID: NF:fsrmpipeline.IFsrmRule.get_LastModified
 title: IFsrmRule::get_LastModified (fsrmpipeline.h)
-
 description: The date for the last time the rule was modified.
 old-location: fsrm\ifsrmrule_lastmodified.htm
 tech.root: fsrm
 ms.assetid: 8f087d75-6432-40d3-b9bf-aec3733a7107
-
 ms.date: 12/05/2018
 ms.keywords: IFsrmRule interface [File Server Resource Manager],LastModified property, IFsrmRule.LastModified, IFsrmRule.get_LastModified, IFsrmRule::LastModified, IFsrmRule::get_LastModified, LastModified property [File Server Resource Manager], LastModified property [File Server Resource Manager],IFsrmRule interface, fs.ifsrmrule_lastmodified, fsrm.ifsrmrule_lastmodified, fsrmpipeline/IFsrmRule::LastModified, fsrmpipeline/IFsrmRule::get_LastModified, get_LastModified
 ms.topic: method
-f1_keywords: 
- - "fsrmpipeline/IFsrmRule.LastModified"
+f1_keywords:
+- fsrmpipeline/IFsrmRule.LastModified
 dev_langs:
- - c++
+- c++
 req.header: fsrmpipeline.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: SrmSvc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - SrmSvc.dll
+- SrmSvc.dll
 api_name:
- - IFsrmRule.LastModified
- - IFsrmRule.get_LastModified
+- IFsrmRule.LastModified
+- IFsrmRule.get_LastModified
 targetos: Windows
 req.typenames: 
 req.redist: 

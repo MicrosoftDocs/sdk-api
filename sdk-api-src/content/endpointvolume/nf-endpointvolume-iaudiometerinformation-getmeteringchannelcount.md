@@ -1,19 +1,17 @@
 ---
 UID: NF:endpointvolume.IAudioMeterInformation.GetMeteringChannelCount
 title: IAudioMeterInformation::GetMeteringChannelCount (endpointvolume.h)
-
 description: The GetMeteringChannelCount method gets the number of channels in the audio stream that are monitored by peak meters.
 old-location: coreaudio\iaudiometerinformation_getmeteringchannelcount.htm
 tech.root: CoreAudio
 ms.assetid: 6f1deef6-cc47-4736-b0bb-99afb1966895
-
 ms.date: 12/05/2018
 ms.keywords: GetMeteringChannelCount, GetMeteringChannelCount method [Core Audio], GetMeteringChannelCount method [Core Audio],IAudioMeterInformation interface, IAudioMeterInformation interface [Core Audio],GetMeteringChannelCount method, IAudioMeterInformation.GetMeteringChannelCount, IAudioMeterInformation::GetMeteringChannelCount, IAudioMeterInformationGetMeteringChannelCount, coreaudio.iaudiometerinformation_getmeteringchannelcount, endpointvolume/IAudioMeterInformation::GetMeteringChannelCount
 ms.topic: method
-f1_keywords: 
- - "endpointvolume/IAudioMeterInformation.GetMeteringChannelCount"
+f1_keywords:
+- endpointvolume/IAudioMeterInformation.GetMeteringChannelCount
 dev_langs:
- - c++
+- c++
 req.header: endpointvolume.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Endpointvolume.h
+- Endpointvolume.h
 api_name:
- - IAudioMeterInformation.GetMeteringChannelCount
+- IAudioMeterInformation.GetMeteringChannelCount
 targetos: Windows
 req.typenames: 
 req.redist: 

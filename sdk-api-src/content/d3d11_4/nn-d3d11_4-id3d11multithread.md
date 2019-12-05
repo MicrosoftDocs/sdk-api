@@ -1,19 +1,17 @@
 ---
 UID: NN:d3d11_4.ID3D11Multithread
 title: ID3D11Multithread (d3d11_4.h)
-
 description: Provides threading protection for critical sections of a multi-threaded application.
 old-location: direct3d11\id3d11multithread.htm
 tech.root: direct3d11
 ms.assetid: 1A07694E-7D61-4A59-82E3-048F04C8D57A
-
 ms.date: 12/05/2018
 ms.keywords: ID3D11Multithread, ID3D11Multithread interface [Direct3D 11], ID3D11Multithread interface [Direct3D 11],described, d3d11_4/ID3D11Multithread, direct3d11.id3d11multithread
 ms.topic: interface
-f1_keywords: 
- - "d3d11_4/ID3D11Multithread"
+f1_keywords:
+- d3d11_4/ID3D11Multithread
 dev_langs:
- - c++
+- c++
 req.header: d3d11_4.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: D3d11_4.lib
 req.dll: D3d11_4.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - d3d11_4.dll
+- d3d11_4.dll
 api_name:
- - ID3D11Multithread
+- ID3D11Multithread
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:comsvcs.IComQCEvents.OnQCReceive
 title: IComQCEvents::OnQCReceive (comsvcs.h)
-
 description: Generated when a message is successfully de-queued even though the queued components service might find something wrong with the contents.
 old-location: cos\icomqcevents_onqcreceive.htm
 tech.root: cossdk
 ms.assetid: d4404fad-c656-4cbf-90d1-a09a7162a38f
-
 ms.date: 12/05/2018
 ms.keywords: IComQCEvents interface [COM+],OnQCReceive method, IComQCEvents.OnQCReceive, IComQCEvents::OnQCReceive, OnQCReceive, OnQCReceive method [COM+], OnQCReceive method [COM+],IComQCEvents interface, _dtc_IComQCEvents_OnQCReceive, comsvcs/IComQCEvents::OnQCReceive, cos.icomqcevents_onqcreceive
 ms.topic: method
-f1_keywords: 
- - "comsvcs/IComQCEvents.OnQCReceive"
+f1_keywords:
+- comsvcs/IComQCEvents.OnQCReceive
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - IComQCEvents.OnQCReceive
+- IComQCEvents.OnQCReceive
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NN:wsdclient.IWSDServiceProxyEventing
 title: IWSDServiceProxyEventing (wsdclient.h)
-
 description: Represents a remote WSD service for client applications and middleware. This interface allows for the implementation of multiple asynchronous operations.
 old-location: ncd\iwsdserviceproxyeventing.htm
 tech.root: WsdApi
 ms.assetid: c9454636-6d6a-4344-a954-1bd35195aff9
-
 ms.date: 12/05/2018
 ms.keywords: IWSDServiceProxyEventing, IWSDServiceProxyEventing interface, IWSDServiceProxyEventing interface,described, ncd.iwsdserviceproxyeventing, wsdclient/IWSDServiceProxyEventing
 ms.topic: interface
-f1_keywords: 
- - "wsdclient/IWSDServiceProxyEventing"
+f1_keywords:
+- wsdclient/IWSDServiceProxyEventing
 dev_langs:
- - c++
+- c++
 req.header: wsdclient.h
 req.include-header: Wsdapi.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wsdapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wsdapi.dll
+- wsdapi.dll
 api_name:
- - IWSDServiceProxyEventing
+- IWSDServiceProxyEventing
 targetos: Windows
 req.typenames: 
 req.redist: 

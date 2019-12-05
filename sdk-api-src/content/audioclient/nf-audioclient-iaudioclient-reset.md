@@ -1,19 +1,17 @@
 ---
 UID: NF:audioclient.IAudioClient.Reset
 title: IAudioClient::Reset (audioclient.h)
-
 description: The Reset method resets the audio stream.
 old-location: coreaudio\iaudioclient_reset.htm
 tech.root: CoreAudio
 ms.assetid: c1a4f673-ecbf-4855-b8bb-c0f0807dedd4
-
 ms.date: 12/05/2018
 ms.keywords: IAudioClient interface [Core Audio],Reset method, IAudioClient.Reset, IAudioClient::Reset, IAudioClientReset, Reset, Reset method [Core Audio], Reset method [Core Audio],IAudioClient interface, audioclient/IAudioClient::Reset, coreaudio.iaudioclient_reset
 ms.topic: method
-f1_keywords: 
- - "audioclient/IAudioClient.Reset"
+f1_keywords:
+- audioclient/IAudioClient.Reset
 dev_langs:
- - c++
+- c++
 req.header: audioclient.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Audioclient.h
+- Audioclient.h
 api_name:
- - IAudioClient.Reset
+- IAudioClient.Reset
 targetos: Windows
 req.typenames: 
 req.redist: 

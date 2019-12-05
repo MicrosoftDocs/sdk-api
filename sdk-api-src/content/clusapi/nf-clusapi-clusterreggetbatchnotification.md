@@ -1,19 +1,17 @@
 ---
 UID: NF:clusapi.ClusterRegGetBatchNotification
 title: ClusterRegGetBatchNotification function (clusapi.h)
-
 description: Fetches the batch notification.
 old-location: mscs\clusterreggetbatchnotification.htm
 tech.root: MsCS
 ms.assetid: 4cc6925f-cf91-449b-8f9d-fcf48b4df896
-
 ms.date: 12/05/2018
 ms.keywords: ClusterRegGetBatchNotification, ClusterRegGetBatchNotification function [Failover Cluster], PCLUSTER_REG_GET_BATCH_NOTIFICATION, PCLUSTER_REG_GET_BATCH_NOTIFICATION function [Failover Cluster], clusapi/ClusterRegGetBatchNotification, clusapi/PCLUSTER_REG_GET_BATCH_NOTIFICATION, mscs.clusterreggetbatchnotification
 ms.topic: function
-f1_keywords: 
- - "clusapi/ClusterRegGetBatchNotification"
+f1_keywords:
+- clusapi/ClusterRegGetBatchNotification
 dev_langs:
- - c++
+- c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: ClusAPI.lib
 req.dll: ClusAPI.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - ClusAPI.dll
+- ClusAPI.dll
 api_name:
- - ClusterRegGetBatchNotification
+- ClusterRegGetBatchNotification
 targetos: Windows
 req.typenames: 
 req.redist: 

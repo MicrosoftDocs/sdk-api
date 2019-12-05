@@ -1,19 +1,17 @@
 ---
 UID: NF:wmp.IWMPClosedCaption.get_SAMIStyle
 title: IWMPClosedCaption::get_SAMIStyle (wmp.h)
-
 description: The get_SAMIStyle method retrieves the closed captioning style.
 old-location: wmp\iwmpclosedcaption_get_samistyle.htm
 tech.root: WMP
 ms.assetid: 27040145-af7a-4d09-9c80-e0907df08f01
-
 ms.date: 12/05/2018
 ms.keywords: IWMPClosedCaption interface [Windows Media Player],get_SAMIStyle method, IWMPClosedCaption.get_SAMIStyle, IWMPClosedCaption::get_SAMIStyle, IWMPClosedCaptionget_SAMIStyle, get_SAMIStyle, get_SAMIStyle method [Windows Media Player], get_SAMIStyle method [Windows Media Player],IWMPClosedCaption interface, wmp.iwmpclosedcaption_get_samistyle, wmp/IWMPClosedCaption::get_SAMIStyle
 ms.topic: method
-f1_keywords: 
- - "wmp/IWMPClosedCaption.get_SAMIStyle"
+f1_keywords:
+- wmp/IWMPClosedCaption.get_SAMIStyle
 dev_langs:
- - c++
+- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wmp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmp.dll
+- wmp.dll
 api_name:
- - IWMPClosedCaption.get_SAMIStyle
+- IWMPClosedCaption.get_SAMIStyle
 targetos: Windows
 req.typenames: 
 req.redist: 

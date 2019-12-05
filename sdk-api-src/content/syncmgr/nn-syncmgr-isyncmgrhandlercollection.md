@@ -1,19 +1,17 @@
 ---
 UID: NN:syncmgr.ISyncMgrHandlerCollection
 title: ISyncMgrHandlerCollection (syncmgr.h)
-
 description: Exposes methods that provide an enumerator of sync handler IDs and instantiate those sync handlers.
 old-location: shell\ISyncMgrHandlerCollection.htm
 tech.root: shell
 ms.assetid: 24514602-42c0-41ef-be33-fce03e7f091a
-
 ms.date: 12/05/2018
 ms.keywords: ISyncMgrHandlerCollection, ISyncMgrHandlerCollection interface [Windows Shell], ISyncMgrHandlerCollection interface [Windows Shell],described, _shell_ISyncMgrHandlerCollection, shell.ISyncMgrHandlerCollection, syncmgr/ISyncMgrHandlerCollection
 ms.topic: interface
-f1_keywords: 
- - "syncmgr/ISyncMgrHandlerCollection"
+f1_keywords:
+- syncmgr/ISyncMgrHandlerCollection
 dev_langs:
- - c++
+- c++
 req.header: syncmgr.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Syncmgr.h
+- Syncmgr.h
 api_name:
- - ISyncMgrHandlerCollection
+- ISyncMgrHandlerCollection
 targetos: Windows
 req.typenames: 
 req.redist: 

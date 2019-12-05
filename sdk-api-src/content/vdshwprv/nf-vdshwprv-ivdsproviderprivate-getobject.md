@@ -1,19 +1,17 @@
 ---
 UID: NF:vdshwprv.IVdsProviderPrivate.GetObject
 title: IVdsProviderPrivate::GetObject (vdshwprv.h)
-
 description: Returns the specified object.
 old-location: base\ivdsproviderprivate_getobject.htm
 tech.root: VDS
 ms.assetid: 3f346255-c5c6-4ca3-9718-0347c3f8294a
-
 ms.date: 12/05/2018
 ms.keywords: GetObject, GetObject method [VDS], GetObject method [VDS],IVdsProviderPrivate interface, IVdsProviderPrivate interface [VDS],GetObject method, IVdsProviderPrivate.GetObject, IVdsProviderPrivate::GetObject, base.ivdsproviderprivate_getobject, vdshwprv/IVdsProviderPrivate::GetObject
 ms.topic: method
 f1_keywords:
 - vdshwprv/IVdsProviderPrivate.GetObject
 dev_langs:
- - c++
+- c++
 req.header: vdshwprv.h
 req.include-header: 
 req.target-type: Windows

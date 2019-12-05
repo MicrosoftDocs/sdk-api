@@ -1,19 +1,17 @@
 ---
 UID: NS:wingdi.DISPLAYCONFIG_PATH_INFO
 title: DISPLAYCONFIG_PATH_INFO (wingdi.h)
-
 description: The DISPLAYCONFIG_PATH_INFO structure is used to describe a single path from a target to a source.
 old-location: display\displayconfig_path_info.htm
 tech.root: display
 ms.assetid: e218c36d-60d5-42c8-9443-419a388a2b8d
-
 ms.date: 12/05/2018
 ms.keywords: CCD_Structures_2953f0bc-d985-40e0-894d-9fe2593061ed.xml, DISPLAYCONFIG_PATH_INFO, DISPLAYCONFIG_PATH_INFO structure [Display Devices], display.displayconfig_path_info, wingdi/DISPLAYCONFIG_PATH_INFO
 ms.topic: struct
-f1_keywords: 
- - "wingdi/DISPLAYCONFIG_PATH_INFO"
+f1_keywords:
+- wingdi/DISPLAYCONFIG_PATH_INFO
 dev_langs:
- - c++
+- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - wingdi.h
+- wingdi.h
 api_name:
- - DISPLAYCONFIG_PATH_INFO
+- DISPLAYCONFIG_PATH_INFO
 targetos: Windows
 req.typenames: DISPLAYCONFIG_PATH_INFO
 req.redist: 

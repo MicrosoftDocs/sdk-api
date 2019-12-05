@@ -1,19 +1,17 @@
 ---
 UID: NF:msiquery.MsiGetSourcePathA
 title: MsiGetSourcePathA function (msiquery.h)
-
 description: The MsiGetSourcePath function returns the full source path for a folder in the Directory table.
 old-location: setup\msigetsourcepath.htm
 tech.root: Msi
 ms.assetid: 3cb8c3fa-6f0a-4829-befd-450e58c86962
-
 ms.date: 12/05/2018
 ms.keywords: MsiGetSourcePath, MsiGetSourcePath function, MsiGetSourcePathA, MsiGetSourcePathW, _msi_msigetsourcepath, msiquery/MsiGetSourcePath, msiquery/MsiGetSourcePathA, msiquery/MsiGetSourcePathW, setup.msigetsourcepath
 ms.topic: function
-f1_keywords: 
- - "msiquery/MsiGetSourcePath"
+f1_keywords:
+- msiquery/MsiGetSourcePath
 dev_langs:
- - c++
+- c++
 req.header: msiquery.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Msi.lib
 req.dll: Msi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Msi.dll
+- Msi.dll
 api_name:
- - MsiGetSourcePath
- - MsiGetSourcePathA
- - MsiGetSourcePathW
+- MsiGetSourcePath
+- MsiGetSourcePathA
+- MsiGetSourcePathW
 targetos: Windows
 req.typenames: 
 req.redist: 

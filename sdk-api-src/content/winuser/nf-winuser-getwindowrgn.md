@@ -1,19 +1,17 @@
 ---
 UID: NF:winuser.GetWindowRgn
 title: GetWindowRgn function (winuser.h)
-
 description: The GetWindowRgn function obtains a copy of the window region of a window.
 old-location: gdi\getwindowrgn.htm
 tech.root: gdi
 ms.assetid: c8a8fa46-354b-489e-b016-fd2e728958ce
-
 ms.date: 12/05/2018
 ms.keywords: GetWindowRgn, GetWindowRgn function [Windows GDI], _win32_GetWindowRgn, gdi.getwindowrgn, winuser/GetWindowRgn
 ms.topic: function
-f1_keywords: 
- - "winuser/GetWindowRgn"
+f1_keywords:
+- winuser/GetWindowRgn
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - user32.dll
- - Ext-MS-Win-NTUser-Draw-L1-1-2.dll
+- user32.dll
+- Ext-MS-Win-NTUser-Draw-L1-1-2.dll
 api_name:
- - GetWindowRgn
+- GetWindowRgn
 targetos: Windows
 req.typenames: 
 req.redist: 

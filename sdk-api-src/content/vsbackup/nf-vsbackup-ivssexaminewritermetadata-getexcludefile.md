@@ -1,19 +1,17 @@
 ---
 UID: NF:vsbackup.IVssExamineWriterMetadata.GetExcludeFile
 title: IVssExamineWriterMetadata::GetExcludeFile (vsbackup.h)
-
 description: The GetExcludeFile method obtains information about files that have been explicitly excluded from backup for a given writer.
 old-location: base\ivssexaminewritermetadata_getexcludefile.htm
 tech.root: VSS
 ms.assetid: 886d526f-c477-4c1c-80b0-65e3ea227142
-
 ms.date: 12/05/2018
 ms.keywords: GetExcludeFile, GetExcludeFile method [VSS], GetExcludeFile method [VSS],IVssExamineWriterMetadata interface, IVssExamineWriterMetadata interface [VSS],GetExcludeFile method, IVssExamineWriterMetadata.GetExcludeFile, IVssExamineWriterMetadata::GetExcludeFile, _win32_ivssexaminewritermetadata_getexcludefile, base.ivssexaminewritermetadata_getexcludefile, vsbackup/IVssExamineWriterMetadata::GetExcludeFile
 ms.topic: method
-f1_keywords: 
- - "vsbackup/IVssExamineWriterMetadata.GetExcludeFile"
+f1_keywords:
+- vsbackup/IVssExamineWriterMetadata.GetExcludeFile
 dev_langs:
- - c++
+- c++
 req.header: vsbackup.h
 req.include-header: VsBackup.h, Vss.h, VsWriter.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: VssApi.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - VssApi.lib
- - VssApi.dll
+- VssApi.lib
+- VssApi.dll
 api_name:
- - IVssExamineWriterMetadata.GetExcludeFile
+- IVssExamineWriterMetadata.GetExcludeFile
 targetos: Windows
 req.typenames: 
 req.redist: 

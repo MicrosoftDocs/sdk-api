@@ -1,19 +1,17 @@
 ---
 UID: NF:bits.IBackgroundCopyJob.GetNotifyInterface
 title: IBackgroundCopyJob::GetNotifyInterface (bits.h)
-
 description: Retrieves the interface pointer to your implementation of the IBackgroundCopyCallback interface.
 old-location: bits\ibackgroundcopyjob_getnotifyinterface.htm
 tech.root: Bits
 ms.assetid: 6a954fbc-baf6-4efa-bec0-dd86b4b7a916
-
 ms.date: 12/05/2018
 ms.keywords: GetNotifyInterface, GetNotifyInterface method [BITS], GetNotifyInterface method [BITS],IBackgroundCopyJob interface, IBackgroundCopyJob interface [BITS],GetNotifyInterface method, IBackgroundCopyJob.GetNotifyInterface, IBackgroundCopyJob::GetNotifyInterface, _drz_ibackgroundcopyjob_getnotifyinterface, bits.ibackgroundcopyjob_getnotifyinterface, bits/IBackgroundCopyJob::GetNotifyInterface
 ms.topic: method
-f1_keywords: 
- - "bits/IBackgroundCopyJob.GetNotifyInterface"
+f1_keywords:
+- bits/IBackgroundCopyJob.GetNotifyInterface
 dev_langs:
- - c++
+- c++
 req.header: bits.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Bits.lib
 req.dll: QmgrPrxy.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - QmgrPrxy.dll
+- QmgrPrxy.dll
 api_name:
- - IBackgroundCopyJob.GetNotifyInterface
+- IBackgroundCopyJob.GetNotifyInterface
 targetos: Windows
 req.typenames: 
 req.redist: 

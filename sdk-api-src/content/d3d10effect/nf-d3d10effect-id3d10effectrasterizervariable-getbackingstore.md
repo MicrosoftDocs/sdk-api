@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d10effect.ID3D10EffectRasterizerVariable.GetBackingStore
 title: ID3D10EffectRasterizerVariable::GetBackingStore (d3d10effect.h)
-
 description: Get a pointer to a variable that contains rasteriser state.
 old-location: direct3d10\id3d10effectrasterizervariable_getbackingstore.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10effectrasterizervariable_getbackingstore.htm
-
 ms.date: 12/05/2018
 ms.keywords: GetBackingStore, GetBackingStore method [Direct3D 10], GetBackingStore method [Direct3D 10],ID3D10EffectRasterizerVariable interface, ID3D10EffectRasterizerVariable interface [Direct3D 10],GetBackingStore method, ID3D10EffectRasterizerVariable.GetBackingStore, ID3D10EffectRasterizerVariable::GetBackingStore, cf2a79ce-7906-f134-2fb4-112e8a4d0de6, d3d10effect/ID3D10EffectRasterizerVariable::GetBackingStore, direct3d10.id3d10effectrasterizervariable_getbackingstore
 ms.topic: method
-f1_keywords: 
- - "d3d10effect/ID3D10EffectRasterizerVariable.GetBackingStore"
+f1_keywords:
+- d3d10effect/ID3D10EffectRasterizerVariable.GetBackingStore
 dev_langs:
- - c++
+- c++
 req.header: d3d10effect.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D10Effect.h
+- D3D10Effect.h
 api_name:
- - ID3D10EffectRasterizerVariable.GetBackingStore
+- ID3D10EffectRasterizerVariable.GetBackingStore
 targetos: Windows
 req.typenames: 
 req.redist: 

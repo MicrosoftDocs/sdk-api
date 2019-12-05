@@ -1,19 +1,17 @@
 ---
 UID: NF:winsnmp.SnmpSetRetry
 title: SnmpSetRetry function (winsnmp.h)
-
 description: The WinSNMP SnmpSetRetry function enables a WinSNMP application to change the retry count value for the retransmission of SNMP message requests.
 old-location: snmp\snmpsetretry.htm
 tech.root: SNMP
 ms.assetid: 6a28ccc6-1d06-41d7-8d76-14e594102832
-
 ms.date: 12/05/2018
 ms.keywords: SnmpSetRetry, SnmpSetRetry function [SNMP], _snmp_snmpsetretry, snmp.snmpsetretry, winsnmp/SnmpSetRetry
 ms.topic: function
-f1_keywords: 
- - "winsnmp/SnmpSetRetry"
+f1_keywords:
+- winsnmp/SnmpSetRetry
 dev_langs:
- - c++
+- c++
 req.header: winsnmp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Wsnmp32.lib
 req.dll: Wsnmp32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Wsnmp32.dll
+- Wsnmp32.dll
 api_name:
- - SnmpSetRetry
+- SnmpSetRetry
 targetos: Windows
 req.typenames: 
 req.redist: 

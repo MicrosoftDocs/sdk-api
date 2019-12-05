@@ -1,19 +1,17 @@
 ---
 UID: NF:austream.IMemoryData.GetInfo
 title: IMemoryData::GetInfo (austream.h)
-
 description: Note  This interface is deprecated. New applications should not use it. Retrieves information describing an audio data object.
 old-location: dshow\imemorydata_getinfo.htm
 tech.root: DirectShow
 ms.assetid: 9e9538c4-2f11-401e-a3c1-f8aa6c24f725
-
 ms.date: 12/05/2018
 ms.keywords: GetInfo, GetInfo method [DirectShow], GetInfo method [DirectShow],IMemoryData interface, IMemoryData interface [DirectShow],GetInfo method, IMemoryData.GetInfo, IMemoryData::GetInfo, IMemoryDataGetInfo, austream/IMemoryData::GetInfo, dshow.imemorydata_getinfo
 ms.topic: method
-f1_keywords: 
- - "austream/IMemoryData.GetInfo"
+f1_keywords:
+- austream/IMemoryData.GetInfo
 dev_langs:
- - c++
+- c++
 req.header: austream.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - austream.h
+- austream.h
 api_name:
- - IMemoryData.GetInfo
+- IMemoryData.GetInfo
 targetos: Windows
 req.typenames: 
 req.redist: 

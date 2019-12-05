@@ -1,19 +1,17 @@
 ---
 UID: NF:gpmgmt.IGPMGPO.SetSecurityInfo
 title: IGPMGPO::SetSecurityInfo (gpmgmt.h)
-
 description: Sets the list of permissions for the group policy object (GPO), such as who is granted permission to edit it. The method replaces the existing list of permissions.
 old-location: gpmc\igpmgpo_setsecurityinfo.htm
 tech.root: gpmc
 ms.assetid: 52b55e05-6107-4fa7-9991-55550393fee5
-
 ms.date: 12/05/2018
 ms.keywords: GPMGPO class [GPMC],SetSecurityInfo method, IGPMGPO interface [GPMC],SetSecurityInfo method, IGPMGPO.SetSecurityInfo, IGPMGPO::SetSecurityInfo, SetSecurityInfo, SetSecurityInfo method [GPMC], SetSecurityInfo method [GPMC],GPMGPO class, SetSecurityInfo method [GPMC],IGPMGPO interface, _win32_igpmgpo_setsecurityinfo, gpmc.igpmgpo_setsecurityinfo, gpmgmt/IGPMGPO::SetSecurityInfo
 ms.topic: method
-f1_keywords: 
- - "gpmgmt/IGPMGPO.SetSecurityInfo"
+f1_keywords:
+- gpmgmt/IGPMGPO.SetSecurityInfo
 dev_langs:
- - c++
+- c++
 req.header: gpmgmt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: Gpmgmt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gpmgmt.dll
+- Gpmgmt.dll
 api_name:
- - IGPMGPO.SetSecurityInfo
- - GPMGPO.SetSecurityInfo
+- IGPMGPO.SetSecurityInfo
+- GPMGPO.SetSecurityInfo
 targetos: Windows
 req.typenames: 
 req.redist: 

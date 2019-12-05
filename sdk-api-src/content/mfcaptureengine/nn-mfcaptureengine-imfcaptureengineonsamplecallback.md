@@ -1,19 +1,17 @@
 ---
 UID: NN:mfcaptureengine.IMFCaptureEngineOnSampleCallback
 title: IMFCaptureEngineOnSampleCallback (mfcaptureengine.h)
-
 description: Callback interface to receive data from the capture engine.
 old-location: mf\imfcaptureengineonsamplecallback.htm
 tech.root: medfound
 ms.assetid: 7C621525-CCD2-45EC-9E7A-3A774B96EA6F
-
 ms.date: 12/05/2018
 ms.keywords: IMFCaptureEngineOnSampleCallback, IMFCaptureEngineOnSampleCallback interface [Media Foundation], IMFCaptureEngineOnSampleCallback interface [Media Foundation],described, mf.imfcaptureengineonsamplecallback, mfcaptureengine/IMFCaptureEngineOnSampleCallback
 ms.topic: interface
-f1_keywords: 
- - "mfcaptureengine/IMFCaptureEngineOnSampleCallback"
+f1_keywords:
+- mfcaptureengine/IMFCaptureEngineOnSampleCallback
 dev_langs:
- - c++
+- c++
 req.header: mfcaptureengine.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfcaptureengine.h
+- mfcaptureengine.h
 api_name:
- - IMFCaptureEngineOnSampleCallback
+- IMFCaptureEngineOnSampleCallback
 targetos: Windows
 req.typenames: 
 req.redist: 

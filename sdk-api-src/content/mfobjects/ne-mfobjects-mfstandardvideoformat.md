@@ -1,19 +1,17 @@
 ---
 UID: NE:mfobjects._MFStandardVideoFormat
 title: MFStandardVideoFormat (mfobjects.h)
-
 description: Contains values that specify common video formats.
 old-location: mf\mfstandardvideoformat.htm
 tech.root: medfound
 ms.assetid: 559ea2e9-308b-428a-ae24-bf3fdc27e24e
-
 ms.date: 12/05/2018
 ms.keywords: 559ea2e9-308b-428a-ae24-bf3fdc27e24e, MFStandardVideoFormat, MFStandardVideoFormat enumeration [Media Foundation], MFStdVideoFormat_ATSC_HD1080i, MFStdVideoFormat_ATSC_HD720p, MFStdVideoFormat_ATSC_SD480i, MFStdVideoFormat_DVD_NTSC, MFStdVideoFormat_DVD_PAL, MFStdVideoFormat_DV_NTSC, MFStdVideoFormat_DV_PAL, MFStdVideoFormat_NTSC, MFStdVideoFormat_PAL, MFStdVideoFormat_reserved, mf.mfstandardvideoformat, mfobjects/MFStandardVideoFormat, mfobjects/MFStdVideoFormat_ATSC_HD1080i, mfobjects/MFStdVideoFormat_ATSC_HD720p, mfobjects/MFStdVideoFormat_ATSC_SD480i, mfobjects/MFStdVideoFormat_DVD_NTSC, mfobjects/MFStdVideoFormat_DVD_PAL, mfobjects/MFStdVideoFormat_DV_NTSC, mfobjects/MFStdVideoFormat_DV_PAL, mfobjects/MFStdVideoFormat_NTSC, mfobjects/MFStdVideoFormat_PAL, mfobjects/MFStdVideoFormat_reserved
 ms.topic: enum
-f1_keywords: 
- - "mfobjects/MFStandardVideoFormat"
+f1_keywords:
+- mfobjects/MFStandardVideoFormat
 dev_langs:
- - c++
+- c++
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - mfobjects.h
+- mfobjects.h
 api_name:
- - MFStandardVideoFormat
+- MFStandardVideoFormat
 targetos: Windows
 req.typenames: MFStandardVideoFormat
 req.redist: 

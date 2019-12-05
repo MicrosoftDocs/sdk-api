@@ -1,19 +1,17 @@
 ---
 UID: NF:winsock.gethostbyaddr
 title: gethostbyaddr function (winsock.h)
-
 description: gethostbyaddr is no longer recommended for use as of Windows Sockets 2.
 old-location: winsock\gethostbyaddr_2.htm
 tech.root: WinSock
 ms.assetid: 303023e1-a486-4457-80f6-8aa80f6b2c79
-
 ms.date: 12/05/2018
 ms.keywords: AF_INET, AF_INET6, AF_NETBIOS, _win32_gethostbyaddr_2, gethostbyaddr, gethostbyaddr function [Winsock], winsock.gethostbyaddr_2, wsipv6ok/gethostbyaddr
 ms.topic: function
-f1_keywords: 
- - "winsock/gethostbyaddr"
+f1_keywords:
+- winsock/gethostbyaddr
 dev_langs:
- - c++
+- c++
 req.header: winsock.h
 req.include-header: Winsock2.h, Winsock.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Ws2_32.lib
 req.dll: Ws2_32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ws2_32.dll
+- Ws2_32.dll
 api_name:
- - gethostbyaddr
+- gethostbyaddr
 targetos: Windows
 req.typenames: 
 req.redist: 

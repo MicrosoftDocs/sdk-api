@@ -1,19 +1,17 @@
 ---
 UID: NS:objsel._DS_SELECTION_LIST
 title: DS_SELECTION_LIST (objsel.h)
-
 description: The DS_SELECTION_LIST structure contains data about the objects the user selected from an object picker dialog box.
 old-location: ad\ds_selection_list.htm
 tech.root: ad
 ms.assetid: 15493b8c-014e-4e69-9e67-40b24d44606d
-
 ms.date: 12/05/2018
 ms.keywords: '*PDS_SELECTION_LIST, DS_SELECTION_LIST, DS_SELECTION_LIST structure [Active Directory], PDS_SELECTION_LIST, PDS_SELECTION_LIST structure pointer [Active Directory], _glines_ds_selection_list, ad.ds__selection__list, ad.ds_selection_list, objsel/DS_SELECTION_LIST, objsel/PDS_SELECTION_LIST'
 ms.topic: struct
 f1_keywords:
 - objsel/DS_SELECTION_LIST
 dev_langs:
- - c++
+- c++
 req.header: objsel.h
 req.include-header: 
 req.target-type: Windows

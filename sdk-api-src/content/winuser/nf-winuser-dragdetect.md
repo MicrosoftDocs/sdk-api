@@ -1,19 +1,17 @@
 ---
 UID: NF:winuser.DragDetect
 title: DragDetect function (winuser.h)
-
 description: Captures the mouse and tracks its movement until the user releases the left button, presses the ESC key, or moves the mouse outside the drag rectangle around the specified point.
 old-location: inputdev\dragdetect.htm
 tech.root: inputdev
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\mouseinput\mouseinputreference\mouseinputfunctions\dragdetect.htm
-
 ms.date: 12/05/2018
 ms.keywords: DragDetect, DragDetect function [Keyboard and Mouse Input], _win32_DragDetect, _win32_dragdetect_cpp, inputdev.dragdetect, winui._win32_dragdetect, winuser/DragDetect
 ms.topic: function
-f1_keywords: 
- - "winuser/DragDetect"
+f1_keywords:
+- winuser/DragDetect
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - User32.dll
+- User32.dll
 api_name:
- - DragDetect
+- DragDetect
 targetos: Windows
 req.typenames: 
 req.redist: 

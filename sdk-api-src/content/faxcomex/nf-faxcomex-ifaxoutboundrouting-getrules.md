@@ -1,19 +1,17 @@
 ---
 UID: NF:faxcomex.IFaxOutboundRouting.GetRules
 title: IFaxOutboundRouting::GetRules (faxcomex.h)
-
 description: The IFaxOutboundRouting::GetRules method retrieves an interface that represents a collection of outbound routing groups.
 old-location: fax\_mfax_faxoutboundrouting_getrules_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_2v1v_cpp.htm
-
 ms.date: 12/05/2018
 ms.keywords: GetRules, GetRules method [Fax Service], GetRules method [Fax Service],IFaxOutboundRouting interface, IFaxOutboundRouting interface [Fax Service],GetRules method, IFaxOutboundRouting.GetRules, IFaxOutboundRouting::GetRules, _mfax_faxoutboundrouting.getrules_cpp, fax._mfax_faxoutboundrouting_getrules_cpp, faxcomex/IFaxOutboundRouting::GetRules
 ms.topic: method
-f1_keywords: 
- - "faxcomex/IFaxOutboundRouting.GetRules"
+f1_keywords:
+- faxcomex/IFaxOutboundRouting.GetRules
 dev_langs:
- - c++
+- c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Fxscomex.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Fxscomex.dll
+- Fxscomex.dll
 api_name:
- - IFaxOutboundRouting.GetRules
+- IFaxOutboundRouting.GetRules
 targetos: Windows
 req.typenames: 
 req.redist: 

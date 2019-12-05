@@ -1,19 +1,17 @@
 ---
 UID: NS:cryptuiapi._CRYPTUI_CERT_MGR_STRUCT
 title: CRYPTUI_CERT_MGR_STRUCT (cryptuiapi.h)
-
 description: Contains information about a certificate manager dialog box.
 old-location: security\cryptui_cert_mgr_struct.htm
 tech.root: SecCrypto
 ms.assetid: e6c24d16-0ae2-443c-8971-2d7da3aae963
-
 ms.date: 12/05/2018
-ms.keywords: "*PCRYPTUI_CERT_MGR_STRUCT, CRYPTUI_CERT_MGR_STRUCT, CRYPTUI_CERT_MGR_STRUCT structure [Security], PCRYPTUI_CERT_MGR_STRUCT, PCRYPTUI_CERT_MGR_STRUCT structure pointer [Security], cryptuiapi/CRYPTUI_CERT_MGR_STRUCT, cryptuiapi/PCRYPTUI_CERT_MGR_STRUCT, security.cryptui_cert_mgr_struct"
+ms.keywords: '*PCRYPTUI_CERT_MGR_STRUCT, CRYPTUI_CERT_MGR_STRUCT, CRYPTUI_CERT_MGR_STRUCT structure [Security], PCRYPTUI_CERT_MGR_STRUCT, PCRYPTUI_CERT_MGR_STRUCT structure pointer [Security], cryptuiapi/CRYPTUI_CERT_MGR_STRUCT, cryptuiapi/PCRYPTUI_CERT_MGR_STRUCT, security.cryptui_cert_mgr_struct'
 ms.topic: struct
-f1_keywords: 
- - "cryptuiapi/CRYPTUI_CERT_MGR_STRUCT"
+f1_keywords:
+- cryptuiapi/CRYPTUI_CERT_MGR_STRUCT
 dev_langs:
- - c++
+- c++
 req.header: cryptuiapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Cryptuiapi.h
+- Cryptuiapi.h
 api_name:
- - CRYPTUI_CERT_MGR_STRUCT
+- CRYPTUI_CERT_MGR_STRUCT
 targetos: Windows
 req.typenames: CRYPTUI_CERT_MGR_STRUCT, *PCRYPTUI_CERT_MGR_STRUCT
 req.redist: 

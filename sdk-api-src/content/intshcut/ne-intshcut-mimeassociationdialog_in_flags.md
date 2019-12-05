@@ -1,19 +1,17 @@
 ---
 UID: NE:intshcut.mimeassociationdialog_in_flags
 title: MIMEASSOCIATIONDIALOG_IN_FLAGS (intshcut.h)
-
 description: Used with the MIMEAssociationDialog function to determine how it executes.
 old-location: shell\MIMEASSOCIATIONDIALOG_IN_FLAGS.htm
 tech.root: shell
 ms.assetid: 916712a7-08ec-496d-aa83-42bf1e4bdbd8
-
 ms.date: 12/05/2018
 ms.keywords: MIMEASSOCDLG_FL_REGISTER_ASSOC, MIMEASSOCIATIONDIALOG_IN_FLAGS, MIMEASSOCIATIONDIALOG_IN_FLAGS enumeration [Windows Shell], _win32_MIMEASSOCIATIONDIALOG_IN_FLAGS, intshcut/MIMEASSOCDLG_FL_REGISTER_ASSOC, intshcut/MIMEASSOCIATIONDIALOG_IN_FLAGS, shell.MIMEASSOCIATIONDIALOG_IN_FLAGS
 ms.topic: enum
-f1_keywords: 
- - "intshcut/MIMEASSOCIATIONDIALOG_IN_FLAGS"
+f1_keywords:
+- intshcut/MIMEASSOCIATIONDIALOG_IN_FLAGS
 dev_langs:
- - c++
+- c++
 req.header: intshcut.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Intshcut.h
+- Intshcut.h
 api_name:
- - MIMEASSOCIATIONDIALOG_IN_FLAGS
+- MIMEASSOCIATIONDIALOG_IN_FLAGS
 targetos: Windows
 req.typenames: MIMEASSOCIATIONDIALOG_IN_FLAGS
 req.redist: 

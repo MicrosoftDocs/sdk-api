@@ -1,19 +1,17 @@
 ---
 UID: NF:fileapi.GetLogicalDrives
 title: GetLogicalDrives function (fileapi.h)
-
 description: Retrieves a bitmask representing the currently available disk drives.
 old-location: fs\getlogicaldrives.htm
 tech.root: FileIO
 ms.assetid: 21a66050-3bab-4c70-9003-3b52e8c72b00
-
 ms.date: 12/05/2018
 ms.keywords: GetLogicalDrives, GetLogicalDrives function [Files], _win32_getlogicaldrives, base.getlogicaldrives, fileapi/GetLogicalDrives, fs.getlogicaldrives, winbase/GetLogicalDrives
 ms.topic: function
-f1_keywords: 
- - "fileapi/GetLogicalDrives"
+f1_keywords:
+- fileapi/GetLogicalDrives
 dev_langs:
- - c++
+- c++
 req.header: fileapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,21 +30,21 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-File-l1-1-0.dll
- - KernelBase.dll
- - API-MS-Win-Core-File-l1-2-0.dll
- - API-MS-Win-Core-File-l1-2-1.dll
- - API-MS-Win-Core-File-l1-2-2.dll
- - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
- - MinKernelBase.dll
+- Kernel32.dll
+- API-MS-Win-Core-File-l1-1-0.dll
+- KernelBase.dll
+- API-MS-Win-Core-File-l1-2-0.dll
+- API-MS-Win-Core-File-l1-2-1.dll
+- API-MS-Win-Core-File-l1-2-2.dll
+- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+- MinKernelBase.dll
 api_name:
- - GetLogicalDrives
+- GetLogicalDrives
 targetos: Windows
 req.typenames: 
 req.redist: 

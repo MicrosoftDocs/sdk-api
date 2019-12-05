@@ -1,19 +1,17 @@
 ---
 UID: NE:strmif.tagAMTunerModeType
 title: AMTunerModeType (strmif.h)
-
 description: Specifies the frequency of a TV tuner (cable or antenna).
 old-location: dshow\amtunermodetype.htm
 tech.root: DirectShow
 ms.assetid: ce5e6f6d-da79-4a86-abd4-bb28e66d5947
-
 ms.date: 12/05/2018
 ms.keywords: AMTUNER_MODE_AM_RADIO, AMTUNER_MODE_DEFAULT, AMTUNER_MODE_DSS, AMTUNER_MODE_FM_RADIO, AMTUNER_MODE_TV, AMTunerModeType, AMTunerModeType enumeration [DirectShow], AMTunerModeTypeEnumeration, dshow.amtunermodetype, strmif/AMTUNER_MODE_AM_RADIO, strmif/AMTUNER_MODE_DEFAULT, strmif/AMTUNER_MODE_DSS, strmif/AMTUNER_MODE_FM_RADIO, strmif/AMTUNER_MODE_TV, strmif/AMTunerModeType
 ms.topic: enum
-f1_keywords: 
- - "strmif/AMTunerModeType"
+f1_keywords:
+- strmif/AMTunerModeType
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - strmif.h
+- strmif.h
 api_name:
- - AMTunerModeType
+- AMTunerModeType
 targetos: Windows
 req.typenames: AMTunerModeType
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:identityprovider.IIdentityProvider.Import
 title: IIdentityProvider::Import (identityprovider.h)
-
 description: Imports an identity to the system.
 old-location: security\iidentityprovider_import.htm
 tech.root: SecAuthN
 ms.assetid: 16cf4e84-1a68-4794-a456-1a9f5ce4896d
-
 ms.date: 12/05/2018
 ms.keywords: IIdentityProvider interface [Security],Import method, IIdentityProvider.Import, IIdentityProvider::Import, Import, Import method [Security], Import method [Security],IIdentityProvider interface, identityprovider/IIdentityProvider::Import, security.iidentityprovider_import
 ms.topic: method
-f1_keywords: 
- - "identityprovider/IIdentityProvider.Import"
+f1_keywords:
+- identityprovider/IIdentityProvider.Import
 dev_langs:
- - c++
+- c++
 req.header: identityprovider.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Identityprovider.h
+- Identityprovider.h
 api_name:
- - IIdentityProvider.Import
+- IIdentityProvider.Import
 targetos: Windows
 req.typenames: 
 req.redist: 

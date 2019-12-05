@@ -1,19 +1,17 @@
 ---
 UID: NF:memoryapi.VirtualAlloc2FromApp
 title: VirtualAlloc2FromApp function (memoryapi.h)
-
 description: Reserves, commits, or changes the state of a region of pages in the virtual address space of the calling process.
 old-location: base\virtualalloc2fromapp.htm
 tech.root: Memory
 ms.assetid: 84896A75-A917-4CA1-A417-650428E1FBFD
-
 ms.date: 12/05/2018
 ms.keywords: MEM_COMMIT, MEM_LARGE_PAGES, MEM_PHYSICAL, MEM_REPLACE_PLACEHOLDER, MEM_RESERVE, MEM_RESERVE_PLACEHOLDER, MEM_RESET, MEM_RESET_UNDO, MEM_TOP_DOWN, MEM_WRITE_WATCH, VirtualAlloc2FromApp, VirtualAlloc2FromApp function, base.virtualalloc2fromapp, memoryapi/VirtualAlloc2FromApp
 ms.topic: function
-f1_keywords: 
- - "memoryapi/VirtualAlloc2FromApp"
+f1_keywords:
+- memoryapi/VirtualAlloc2FromApp
 dev_langs:
- - c++
+- c++
 req.header: memoryapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - onecore.lib
+- Kernel32.dll
+- onecore.lib
 api_name:
- - VirtualAlloc2FromApp
+- VirtualAlloc2FromApp
 targetos: Windows
 req.typenames: 
 req.redist: 

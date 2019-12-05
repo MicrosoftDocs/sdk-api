@@ -1,19 +1,17 @@
 ---
 UID: NF:portabledeviceapi.IPortableDevicePropertiesBulk.QueueSetValuesByObjectList
 title: IPortableDevicePropertiesBulk::QueueSetValuesByObjectList (portabledeviceapi.h)
-
 description: The QueueSetValuesByObjectList method queues a request to set one or more specified values on one or more specified objects on the device.
 old-location: wpdsdk\iportabledevicepropertiesbulk_queuesetvaluesbyobjectlist.htm
 tech.root: wpd_sdk
 ms.assetid: cfb03354-e395-4fb7-aa76-a1f786ccd71c
-
 ms.date: 12/05/2018
 ms.keywords: IPortableDevicePropertiesBulk interface [Windows Portable Devices SDK],QueueSetValuesByObjectList method, IPortableDevicePropertiesBulk.QueueSetValuesByObjectList, IPortableDevicePropertiesBulk::QueueSetValuesByObjectList, IPortableDevicePropertiesBulkQueueSetValuesByObjectList, QueueSetValuesByObjectList, QueueSetValuesByObjectList method [Windows Portable Devices SDK], QueueSetValuesByObjectList method [Windows Portable Devices SDK],IPortableDevicePropertiesBulk interface, portabledeviceapi/IPortableDevicePropertiesBulk::QueueSetValuesByObjectList, wpdsdk.iportabledevicepropertiesbulk_queuesetvaluesbyobjectlist
 ms.topic: method
-f1_keywords: 
- - "portabledeviceapi/IPortableDevicePropertiesBulk.QueueSetValuesByObjectList"
+f1_keywords:
+- portabledeviceapi/IPortableDevicePropertiesBulk.QueueSetValuesByObjectList
 dev_langs:
- - c++
+- c++
 req.header: portabledeviceapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: PortableDeviceGUIDs.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - PortableDeviceGUIDs.lib
- - PortableDeviceGUIDs.dll
+- PortableDeviceGUIDs.lib
+- PortableDeviceGUIDs.dll
 api_name:
- - IPortableDevicePropertiesBulk.QueueSetValuesByObjectList
+- IPortableDevicePropertiesBulk.QueueSetValuesByObjectList
 targetos: Windows
 req.typenames: 
 req.redist: 

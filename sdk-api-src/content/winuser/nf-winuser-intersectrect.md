@@ -1,19 +1,17 @@
 ---
 UID: NF:winuser.IntersectRect
 title: IntersectRect function (winuser.h)
-
 description: The IntersectRect function calculates the intersection of two source rectangles and places the coordinates of the intersection rectangle into the destination rectangle.
 old-location: gdi\intersectrect.htm
 tech.root: gdi
 ms.assetid: da686f78-e557-4ff2-9f24-b229f0c01563
-
 ms.date: 12/05/2018
 ms.keywords: IntersectRect, IntersectRect function [Windows GDI], _win32_IntersectRect, gdi.intersectrect, winuser/IntersectRect
 ms.topic: function
-f1_keywords: 
- - "winuser/IntersectRect"
+f1_keywords:
+- winuser/IntersectRect
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - user32.dll
- - API-MS-Win-NTUser-Rectangle-l1-1-0.dll
- - minuser.dll
- - Ext-MS-Win-NTUser-Rectangle-Ext-l1-1-0.dll
+- user32.dll
+- API-MS-Win-NTUser-Rectangle-l1-1-0.dll
+- minuser.dll
+- Ext-MS-Win-NTUser-Rectangle-Ext-l1-1-0.dll
 api_name:
- - IntersectRect
+- IntersectRect
 targetos: Windows
 req.typenames: 
 req.redist: 

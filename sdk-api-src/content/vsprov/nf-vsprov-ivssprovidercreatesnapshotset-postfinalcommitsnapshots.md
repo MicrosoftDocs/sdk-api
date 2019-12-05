@@ -1,19 +1,17 @@
 ---
 UID: NF:vsprov.IVssProviderCreateSnapshotSet.PostFinalCommitSnapshots
 title: IVssProviderCreateSnapshotSet::PostFinalCommitSnapshots (vsprov.h)
-
 description: Supports auto-recover shadow copies.
 old-location: base\ivssprovidercreatesnapshotset_postfinalcommitsnapshots.htm
 tech.root: VSS
 ms.assetid: 3b6f7e6e-f1ea-4c90-9d26-fcbe5e104e2c
-
 ms.date: 12/05/2018
 ms.keywords: IVssProviderCreateSnapshotSet interface [VSS],PostFinalCommitSnapshots method, IVssProviderCreateSnapshotSet.PostFinalCommitSnapshots, IVssProviderCreateSnapshotSet::PostFinalCommitSnapshots, PostFinalCommitSnapshots, PostFinalCommitSnapshots method [VSS], PostFinalCommitSnapshots method [VSS],IVssProviderCreateSnapshotSet interface, base.ivssprovidercreatesnapshotset_postfinalcommitsnapshots, vsprov/IVssProviderCreateSnapshotSet::PostFinalCommitSnapshots
 ms.topic: method
-f1_keywords: 
- - "vsprov/IVssProviderCreateSnapshotSet.PostFinalCommitSnapshots"
+f1_keywords:
+- vsprov/IVssProviderCreateSnapshotSet.PostFinalCommitSnapshots
 dev_langs:
- - c++
+- c++
 req.header: vsprov.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - VsProv.h
+- VsProv.h
 api_name:
- - IVssProviderCreateSnapshotSet.PostFinalCommitSnapshots
+- IVssProviderCreateSnapshotSet.PostFinalCommitSnapshots
 targetos: Windows
 req.typenames: 
 req.redist: 

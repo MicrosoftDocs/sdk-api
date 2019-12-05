@@ -1,19 +1,17 @@
 ---
 UID: NE:d3d12.D3D12_LOGIC_OP
 title: D3D12_LOGIC_OP (d3d12.h)
-
 description: Specifies logical operations to configure for a render target.
 old-location: direct3d12\d3d12_logic_op.htm
 tech.root: direct3d12
 ms.assetid: 4F6BBCA8-6CF1-42BD-8B05-CD6D285CDFBF
-
 ms.date: 12/05/2018
 ms.keywords: D3D12_LOGIC_OP, D3D12_LOGIC_OP enumeration, D3D12_LOGIC_OP_AND, D3D12_LOGIC_OP_AND_INVERTED, D3D12_LOGIC_OP_AND_REVERSE, D3D12_LOGIC_OP_CLEAR, D3D12_LOGIC_OP_COPY, D3D12_LOGIC_OP_COPY_INVERTED, D3D12_LOGIC_OP_EQUIV, D3D12_LOGIC_OP_INVERT, D3D12_LOGIC_OP_NAND, D3D12_LOGIC_OP_NOOP, D3D12_LOGIC_OP_NOR, D3D12_LOGIC_OP_OR, D3D12_LOGIC_OP_OR_INVERTED, D3D12_LOGIC_OP_OR_REVERSE, D3D12_LOGIC_OP_SET, D3D12_LOGIC_OP_XOR, d3d12/D3D12_LOGIC_OP, d3d12/D3D12_LOGIC_OP_AND, d3d12/D3D12_LOGIC_OP_AND_INVERTED, d3d12/D3D12_LOGIC_OP_AND_REVERSE, d3d12/D3D12_LOGIC_OP_CLEAR, d3d12/D3D12_LOGIC_OP_COPY, d3d12/D3D12_LOGIC_OP_COPY_INVERTED, d3d12/D3D12_LOGIC_OP_EQUIV, d3d12/D3D12_LOGIC_OP_INVERT, d3d12/D3D12_LOGIC_OP_NAND, d3d12/D3D12_LOGIC_OP_NOOP, d3d12/D3D12_LOGIC_OP_NOR, d3d12/D3D12_LOGIC_OP_OR, d3d12/D3D12_LOGIC_OP_OR_INVERTED, d3d12/D3D12_LOGIC_OP_OR_REVERSE, d3d12/D3D12_LOGIC_OP_SET, d3d12/D3D12_LOGIC_OP_XOR, direct3d12.d3d12_logic_op
 ms.topic: enum
-f1_keywords: 
- - "d3d12/D3D12_LOGIC_OP"
+f1_keywords:
+- d3d12/D3D12_LOGIC_OP
 dev_langs:
- - c++
+- c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - D3D12.h
+- D3D12.h
 api_name:
- - D3D12_LOGIC_OP
+- D3D12_LOGIC_OP
 targetos: Windows
 req.typenames: D3D12_LOGIC_OP
 req.redist: 

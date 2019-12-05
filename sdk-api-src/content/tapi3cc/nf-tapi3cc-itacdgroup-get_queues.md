@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi3cc.ITACDGroup.get_Queues
 title: ITACDGroup::get_Queues (tapi3cc.h)
-
 description: The get_Queues method creates a collection of queues associated with the current ACD group. This method is provided for Automation client applications, such as those written in Visual Basic. C and C++ applications must use the EnumerateQueues method.
 old-location: tapi3\itacdgroup_get_queues.htm
 tech.root: Tapi
 ms.assetid: f285fea5-4c08-4d30-8378-0b0aeeea8226
-
 ms.date: 12/05/2018
 ms.keywords: ITACDGroup interface [TAPI 2.2],get_Queues method, ITACDGroup.get_Queues, ITACDGroup::get_Queues, _tapi3_itacdgroup_get_queues, get_Queues, get_Queues method [TAPI 2.2], get_Queues method [TAPI 2.2],ITACDGroup interface, tapi3.itacdgroup_get_queues, tapi3cc/ITACDGroup::get_Queues
 ms.topic: method
-f1_keywords: 
- - "tapi3cc/ITACDGroup.get_Queues"
+f1_keywords:
+- tapi3cc/ITACDGroup.get_Queues
 dev_langs:
- - c++
+- c++
 req.header: tapi3cc.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Tapi3.dll
+- Tapi3.dll
 api_name:
- - ITACDGroup.get_Queues
+- ITACDGroup.get_Queues
 targetos: Windows
 req.typenames: 
 req.redist: 

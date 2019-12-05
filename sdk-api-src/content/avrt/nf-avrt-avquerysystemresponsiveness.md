@@ -1,19 +1,17 @@
 ---
 UID: NF:avrt.AvQuerySystemResponsiveness
 title: AvQuerySystemResponsiveness function (avrt.h)
-
 description: Retrieves the system responsiveness setting used by the multimedia class scheduler service.
 old-location: base\avquerysystemresponsiveness.htm
 tech.root: ProcThread
 ms.assetid: 87184232-9f58-4a59-87e9-fdd081a7dc5c
-
 ms.date: 12/05/2018
 ms.keywords: AvQuerySystemResponsiveness, AvQuerySystemResponsiveness function, avrt/AvQuerySystemResponsiveness, base.avquerysystemresponsiveness
 ms.topic: function
-f1_keywords: 
- - "avrt/AvQuerySystemResponsiveness"
+f1_keywords:
+- avrt/AvQuerySystemResponsiveness
 dev_langs:
- - c++
+- c++
 req.header: avrt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Avrt.lib
 req.dll: Avrt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Avrt.dll
+- Avrt.dll
 api_name:
- - AvQuerySystemResponsiveness
+- AvQuerySystemResponsiveness
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:dwrite_2.IDWriteTextRenderer1.DrawInlineObject
 title: IDWriteTextRenderer1::DrawInlineObject (dwrite_2.h)
-
 description: IDWriteTextLayout::Draw calls this application callback when it needs to draw an inline object.
 old-location: directwrite\idwritetextrenderer1_drawinlineobject.htm
 tech.root: DirectWrite
 ms.assetid: 1115e215-d04e-28db-c196-7d693ca91044
-
 ms.date: 12/05/2018
 ms.keywords: DrawInlineObject, DrawInlineObject method [Direct Write], DrawInlineObject method [Direct Write],IDWriteTextRenderer1 interface, IDWriteTextRenderer1 interface [Direct Write],DrawInlineObject method, IDWriteTextRenderer1.DrawInlineObject, IDWriteTextRenderer1::DrawInlineObject, directwrite.idwritetextrenderer1_drawinlineobject, dwrite_2/IDWriteTextRenderer1::DrawInlineObject
 ms.topic: method
-f1_keywords: 
- - "dwrite_2/IDWriteTextRenderer1.DrawInlineObject"
+f1_keywords:
+- dwrite_2/IDWriteTextRenderer1.DrawInlineObject
 dev_langs:
- - c++
+- c++
 req.header: dwrite_2.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dwrite.lib
 req.dll: Dwrite.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dwrite.dll
+- dwrite.dll
 api_name:
- - IDWriteTextRenderer1.DrawInlineObject
+- IDWriteTextRenderer1.DrawInlineObject
 targetos: Windows
 req.typenames: 
 req.redist: 

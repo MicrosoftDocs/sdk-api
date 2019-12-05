@@ -1,19 +1,17 @@
 ---
 UID: NN:devicetopology.IAudioOutputSelector
 title: IAudioOutputSelector (devicetopology.h)
-
 description: The IAudioOutputSelector interface provides access to a hardware demultiplexer control (output selector).
 old-location: coreaudio\iaudiooutputselector.htm
 tech.root: CoreAudio
 ms.assetid: 571a44b6-972f-4d75-a31f-0e02cf728764
-
 ms.date: 12/05/2018
 ms.keywords: IAudioOutputSelector, IAudioOutputSelector interface [Core Audio], IAudioOutputSelector interface [Core Audio],described, coreaudio.iaudiooutputselector, devicetopology/IAudioOutputSelector
 ms.topic: interface
-f1_keywords: 
- - "devicetopology/IAudioOutputSelector"
+f1_keywords:
+- devicetopology/IAudioOutputSelector
 dev_langs:
- - c++
+- c++
 req.header: devicetopology.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Devicetopology.h
+- Devicetopology.h
 api_name:
- - IAudioOutputSelector
+- IAudioOutputSelector
 targetos: Windows
 req.typenames: 
 req.redist: 

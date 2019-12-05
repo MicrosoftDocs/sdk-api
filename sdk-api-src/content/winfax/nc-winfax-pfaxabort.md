@@ -1,19 +1,17 @@
 ---
 UID: NC:winfax.PFAXABORT
 title: PFAXABORT (winfax.h)
-
 description: A fax client application calls the FaxAbort function to terminate a fax job.
 old-location: fax\_mfax_faxabort.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_03jo.htm
-
 ms.date: 12/05/2018
 ms.keywords: FaxAbortA, FaxAbortW, PFAXABORT, PFAXABORT callback, PFAXABORT callback function [Fax Service], _mfax_faxabort, fax._mfax_faxabort, winfax/FaxAbortA, winfax/FaxAbortW, winfax/PFAXABORT
 ms.topic: callback
-f1_keywords: 
- - "winfax/PFAXABORT"
+f1_keywords:
+- winfax/PFAXABORT
 dev_langs:
- - c++
+- c++
 req.header: winfax.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Winfax.h
+- Winfax.h
 api_name:
- - PFAXABORT
- - FaxAbortA
- - FaxAbortW
+- PFAXABORT
+- FaxAbortA
+- FaxAbortW
 targetos: Windows
 req.typenames: 
 req.redist: 

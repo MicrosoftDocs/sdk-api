@@ -1,19 +1,17 @@
 ---
 UID: NF:comsvcs.ICrmMonitorClerks.Description
 title: ICrmMonitorClerks::Description (comsvcs.h)
-
 description: Retrieves the description of the CRM Compensator for the specified index.
 old-location: cos\icrmmonitorclerks_description.htm
 tech.root: cossdk
 ms.assetid: 3603d898-1601-419b-b3f8-3ad49f2070a0
-
 ms.date: 12/05/2018
 ms.keywords: Description, Description method [COM+], Description method [COM+],ICrmMonitorClerks interface, ICrmMonitorClerks interface [COM+],Description method, ICrmMonitorClerks.Description, ICrmMonitorClerks::Description, _dtc_ICrmMonitorClerks_Description, comsvcs/ICrmMonitorClerks::Description, cos.icrmmonitorclerks_description
 ms.topic: method
-f1_keywords: 
- - "comsvcs/ICrmMonitorClerks.Description"
+f1_keywords:
+- comsvcs/ICrmMonitorClerks.Description
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - ICrmMonitorClerks.Description
+- ICrmMonitorClerks.Description
 targetos: Windows
 req.typenames: 
 req.redist: 

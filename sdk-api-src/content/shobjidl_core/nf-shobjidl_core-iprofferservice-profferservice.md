@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IProfferService.ProfferService
 title: IProfferService::ProfferService (shobjidl_core.h)
-
 description: Makes a service available to other objects on the same host.
 old-location: shell\IProfferService_ProfferService.htm
 tech.root: shell
 ms.assetid: ebd6003d-ac8f-4e5e-9d90-c7e5688bedaa
-
 ms.date: 12/05/2018
 ms.keywords: IProfferService interface [Windows Shell],ProfferService method, IProfferService.ProfferService, IProfferService::ProfferService, ProfferService, ProfferService method [Windows Shell], ProfferService method [Windows Shell],IProfferService interface, inet_IProfferService_ProfferService, shell.IProfferService_ProfferService, shobjidl_core/IProfferService::ProfferService
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IProfferService.ProfferService"
+f1_keywords:
+- shobjidl_core/IProfferService.ProfferService
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - IProfferService.ProfferService
+- IProfferService.ProfferService
 targetos: Windows
 req.typenames: 
 req.redist: 

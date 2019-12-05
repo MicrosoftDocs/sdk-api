@@ -1,19 +1,17 @@
 ---
 UID: NF:gdiplusheaders.FontFamily.FontFamily(GpFontFamily,Status)
 title: FontFamily::FontFamily(GpFontFamily,Status) (gdiplusheaders.h)
-
 description: This topic lists the constructors of the FontFamily class. For a complete class listing, see FontFamilyClass.
 old-location: gdiplus\_gdiplus_CLASS_FontFamily_Constructors.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\fontfamilyclass\fontfamilyconstructors.htm
-
 ms.date: 12/05/2018
 ms.keywords: FontFamily, FontFamily constructors [GDI+], FontFamily.FontFamily, FontFamily.FontFamily(GpFontFamily,Status), FontFamily::FontFamily, FontFamily::FontFamily(GpFontFamily,Status), _gdiplus_CLASS_FontFamily_Constructors, gdiplus._gdiplus_CLASS_FontFamily_Constructors, gdiplusheaders/FontFamily
 ms.topic: method
-f1_keywords: 
- - "gdiplusheaders/FontFamily.FontFamily"
+f1_keywords:
+- gdiplusheaders/FontFamily.FontFamily
 dev_langs:
- - c++
+- c++
 req.header: gdiplusheaders.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - gdiplusheaders.h
+- gdiplusheaders.h
 api_name:
- - FontFamily.FontFamily
+- FontFamily.FontFamily
 targetos: Windows
 req.typenames: 
 req.redist: 

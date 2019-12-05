@@ -1,19 +1,17 @@
 ---
 UID: NF:p2p.PeerPnrpUnregister
 title: PeerPnrpUnregister function (p2p.h)
-
 description: Deregisters a peer from a PNRP cloud.
 old-location: p2p\peerpnrpunregister.htm
 tech.root: P2PSdk
 ms.assetid: ac032cfb-b1d4-4fe0-8d27-7d378aaa6aff
-
 ms.date: 12/05/2018
 ms.keywords: PeerPnrpUnregister, PeerPnrpUnregister function [Peer Networking], p2p.peerpnrpunregister, p2p/PeerPnrpUnregister
 ms.topic: function
-f1_keywords: 
- - "p2p/PeerPnrpUnregister"
+f1_keywords:
+- p2p/PeerPnrpUnregister
 dev_langs:
- - c++
+- c++
 req.header: p2p.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: P2P.lib
 req.dll: P2P.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - P2P.dll
+- P2P.dll
 api_name:
- - PeerPnrpUnregister
+- PeerPnrpUnregister
 targetos: Windows
 req.typenames: 
 req.redist: 

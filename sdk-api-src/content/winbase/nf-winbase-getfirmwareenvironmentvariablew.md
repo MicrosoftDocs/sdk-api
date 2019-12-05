@@ -1,19 +1,17 @@
 ---
 UID: NF:winbase.GetFirmwareEnvironmentVariableW
 title: GetFirmwareEnvironmentVariableW function (winbase.h)
-
 description: Retrieves the value of the specified firmware environment variable.
 old-location: base\getfirmwareenvironmentvariable.htm
 tech.root: SysInfo
 ms.assetid: 18e74e54-ecfe-46bf-8c9d-9eb16d22f3ba
-
 ms.date: 12/05/2018
 ms.keywords: GetFirmwareEnvironmentVariable, GetFirmwareEnvironmentVariable function, GetFirmwareEnvironmentVariableA, GetFirmwareEnvironmentVariableW, base.getfirmwareenvironmentvariable, winbase/GetFirmwareEnvironmentVariable, winbase/GetFirmwareEnvironmentVariableA, winbase/GetFirmwareEnvironmentVariableW
 ms.topic: function
-f1_keywords: 
- - "winbase/GetFirmwareEnvironmentVariable"
+f1_keywords:
+- winbase/GetFirmwareEnvironmentVariable
 dev_langs:
- - c++
+- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,19 +30,19 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-firmware-l1-1-0.dll
- - kernel32legacy.dll
- - API-MS-Win-DownLevel-Kernel32-l2-1-0.dll
+- Kernel32.dll
+- API-MS-Win-Core-firmware-l1-1-0.dll
+- kernel32legacy.dll
+- API-MS-Win-DownLevel-Kernel32-l2-1-0.dll
 api_name:
- - GetFirmwareEnvironmentVariable
- - GetFirmwareEnvironmentVariableA
- - GetFirmwareEnvironmentVariableW
+- GetFirmwareEnvironmentVariable
+- GetFirmwareEnvironmentVariableA
+- GetFirmwareEnvironmentVariableW
 targetos: Windows
 req.typenames: 
 req.redist: 

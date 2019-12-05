@@ -1,19 +1,17 @@
 ---
 UID: NF:vsmgmt.IVssDifferentialSoftwareSnapshotMgmt.QueryDiffAreasForVolume
 title: IVssDifferentialSoftwareSnapshotMgmt::QueryDiffAreasForVolume (vsmgmt.h)
-
 description: Queries shadow copy storage areas in use by the volume.
 old-location: base\ivssdifferentialsoftwaresnapshotmgmt_querydiffareasforvolume.htm
 tech.root: VSS
 ms.assetid: 381f8a4a-c88f-4bd3-bff1-6828fe034e66
-
 ms.date: 12/05/2018
 ms.keywords: IVssDifferentialSoftwareSnapshotMgmt interface [VSS],QueryDiffAreasForVolume method, IVssDifferentialSoftwareSnapshotMgmt.QueryDiffAreasForVolume, IVssDifferentialSoftwareSnapshotMgmt::QueryDiffAreasForVolume, QueryDiffAreasForVolume, QueryDiffAreasForVolume method [VSS], QueryDiffAreasForVolume method [VSS],IVssDifferentialSoftwareSnapshotMgmt interface, base.ivssdifferentialsoftwaresnapshotmgmt_querydiffareasforvolume, vsmgmt/IVssDifferentialSoftwareSnapshotMgmt::QueryDiffAreasForVolume
 ms.topic: method
 f1_keywords:
 - vsmgmt/IVssDifferentialSoftwareSnapshotMgmt.QueryDiffAreasForVolume
 dev_langs:
- - c++
+- c++
 req.header: vsmgmt.h
 req.include-header: 
 req.target-type: Windows

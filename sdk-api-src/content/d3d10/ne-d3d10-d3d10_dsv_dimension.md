@@ -1,19 +1,17 @@
 ---
 UID: NE:d3d10.D3D10_DSV_DIMENSION
 title: D3D10_DSV_DIMENSION (d3d10.h)
-
 description: Specifies how to access a resource used in a depth-stencil view.
 old-location: direct3d10\d3d10_dsv_dimension.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\d3d10_dsv_dimension.htm
-
 ms.date: 12/05/2018
 ms.keywords: 88cc34ba-f05f-2845-c538-a290a7b141ee, D3D10_DSV_DIMENSION, D3D10_DSV_DIMENSION enumeration [Direct3D 10], D3D10_DSV_DIMENSION_TEXTURE1D, D3D10_DSV_DIMENSION_TEXTURE1DARRAY, D3D10_DSV_DIMENSION_TEXTURE2D, D3D10_DSV_DIMENSION_TEXTURE2DARRAY, D3D10_DSV_DIMENSION_TEXTURE2DMS, D3D10_DSV_DIMENSION_TEXTURE2DMSARRAY, D3D10_DSV_DIMENSION_UNKNOWN, d3d10/D3D10_DSV_DIMENSION, d3d10/D3D10_DSV_DIMENSION_TEXTURE1D, d3d10/D3D10_DSV_DIMENSION_TEXTURE1DARRAY, d3d10/D3D10_DSV_DIMENSION_TEXTURE2D, d3d10/D3D10_DSV_DIMENSION_TEXTURE2DARRAY, d3d10/D3D10_DSV_DIMENSION_TEXTURE2DMS, d3d10/D3D10_DSV_DIMENSION_TEXTURE2DMSARRAY, d3d10/D3D10_DSV_DIMENSION_UNKNOWN, direct3d10.d3d10_dsv_dimension
 ms.topic: enum
-f1_keywords: 
- - "d3d10/D3D10_DSV_DIMENSION"
+f1_keywords:
+- d3d10/D3D10_DSV_DIMENSION
 dev_langs:
- - c++
+- c++
 req.header: d3d10.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - D3D10.h
+- D3D10.h
 api_name:
- - D3D10_DSV_DIMENSION
+- D3D10_DSV_DIMENSION
 targetos: Windows
 req.typenames: D3D10_DSV_DIMENSION
 req.redist: 

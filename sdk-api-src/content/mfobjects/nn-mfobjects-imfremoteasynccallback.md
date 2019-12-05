@@ -1,19 +1,17 @@
 ---
 UID: NN:mfobjects.IMFRemoteAsyncCallback
 title: IMFRemoteAsyncCallback (mfobjects.h)
-
 description: Used by the Microsoft Media Foundation proxy/stub DLL to marshal certain asynchronous method calls across process boundaries.Applications do not use or implement this interface.
 old-location: mf\imfremoteasynccallback.htm
 tech.root: medfound
 ms.assetid: 57be21cf-b381-436a-bc7e-3fdc01cc2515
-
 ms.date: 12/05/2018
 ms.keywords: 57be21cf-b381-436a-bc7e-3fdc01cc2515, IMFRemoteAsyncCallback, IMFRemoteAsyncCallback interface [Media Foundation], IMFRemoteAsyncCallback interface [Media Foundation],described, mf.imfremoteasynccallback, mfobjects/IMFRemoteAsyncCallback
 ms.topic: interface
-f1_keywords: 
- - "mfobjects/IMFRemoteAsyncCallback"
+f1_keywords:
+- mfobjects/IMFRemoteAsyncCallback
 dev_langs:
- - c++
+- c++
 req.header: mfobjects.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfobjects.h
+- mfobjects.h
 api_name:
- - IMFRemoteAsyncCallback
- - IMFRemoteAsyncCallback.Invoke
+- IMFRemoteAsyncCallback
+- IMFRemoteAsyncCallback.Invoke
 targetos: Windows
 req.typenames: 
 req.redist: 

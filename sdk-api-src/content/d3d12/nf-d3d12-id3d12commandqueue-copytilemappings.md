@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d12.ID3D12CommandQueue.CopyTileMappings
 title: ID3D12CommandQueue::CopyTileMappings (d3d12.h)
-
 description: Copies mappings from a source reserved resource to a destination reserved resource.
 old-location: direct3d12\id3d12commandqueue_copytilemappings.htm
 tech.root: direct3d12
 ms.assetid: FAFA4B5C-EA3C-4209-AB8E-75F3B90F3745
-
 ms.date: 12/05/2018
 ms.keywords: CopyTileMappings, CopyTileMappings method, CopyTileMappings method,ID3D12CommandQueue interface, ID3D12CommandQueue interface,CopyTileMappings method, ID3D12CommandQueue.CopyTileMappings, ID3D12CommandQueue::CopyTileMappings, d3d12/ID3D12CommandQueue::CopyTileMappings, direct3d12.id3d12commandqueue_copytilemappings
 ms.topic: method
-f1_keywords: 
- - "d3d12/ID3D12CommandQueue.CopyTileMappings"
+f1_keywords:
+- d3d12/ID3D12CommandQueue.CopyTileMappings
 dev_langs:
- - c++
+- c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - d3d12.h
+- d3d12.h
 api_name:
- - ID3D12CommandQueue.CopyTileMappings
+- ID3D12CommandQueue.CopyTileMappings
 targetos: Windows
 req.typenames: 
 req.redist: 

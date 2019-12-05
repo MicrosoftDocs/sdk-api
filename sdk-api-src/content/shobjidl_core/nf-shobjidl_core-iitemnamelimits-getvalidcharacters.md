@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IItemNameLimits.GetValidCharacters
 title: IItemNameLimits::GetValidCharacters (shobjidl_core.h)
-
 description: Loads a string that contains each of the characters that are valid or invalid in the namespace under which it is called.
 old-location: shell\IItemNameLimits_GetValidCharacters.htm
 tech.root: shell
 ms.assetid: a6328be9-accd-4f11-82ee-49d3b18f9fd6
-
 ms.date: 12/05/2018
 ms.keywords: GetValidCharacters, GetValidCharacters method [Windows Shell], GetValidCharacters method [Windows Shell],IItemNameLimits interface, IItemNameLimits interface [Windows Shell],GetValidCharacters method, IItemNameLimits.GetValidCharacters, IItemNameLimits::GetValidCharacters, _shell_IItemNameLimits_GetValidCharacters, shell.IItemNameLimits_GetValidCharacters, shobjidl_core/IItemNameLimits::GetValidCharacters
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IItemNameLimits.GetValidCharacters"
+f1_keywords:
+- shobjidl_core/IItemNameLimits.GetValidCharacters
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Shell32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - IItemNameLimits.GetValidCharacters
+- IItemNameLimits.GetValidCharacters
 targetos: Windows
 req.typenames: 
 req.redist: 

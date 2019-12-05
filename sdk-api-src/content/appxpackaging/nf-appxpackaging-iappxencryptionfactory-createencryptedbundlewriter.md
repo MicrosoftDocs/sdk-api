@@ -1,19 +1,17 @@
 ---
 UID: NF:appxpackaging.IAppxEncryptionFactory.CreateEncryptedBundleWriter
 title: IAppxEncryptionFactory::CreateEncryptedBundleWriter (appxpackaging.h)
-
 description: Creates a write-only bundle object to which encrypted Windows app packages can be added.
 old-location: appxpkg\iappxencryptionfactory_createencryptedbundlewriter.htm
 tech.root: appxpkg
 ms.assetid: 01FF3DF1-CCA8-49BF-9876-57A4DDA658D0
-
 ms.date: 12/05/2018
 ms.keywords: CreateEncryptedBundleWriter, CreateEncryptedBundleWriter method [App packaging and management], CreateEncryptedBundleWriter method [App packaging and management],IAppxEncryptionFactory interface, IAppxEncryptionFactory interface [App packaging and management],CreateEncryptedBundleWriter method, IAppxEncryptionFactory.CreateEncryptedBundleWriter, IAppxEncryptionFactory::CreateEncryptedBundleWriter, appxpackaging/IAppxEncryptionFactory::CreateEncryptedBundleWriter, appxpkg.iappxencryptionfactory_createencryptedbundlewriter
 ms.topic: method
-f1_keywords: 
- - "appxpackaging/IAppxEncryptionFactory.CreateEncryptedBundleWriter"
+f1_keywords:
+- appxpackaging/IAppxEncryptionFactory.CreateEncryptedBundleWriter
 dev_langs:
- - c++
+- c++
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - AppxPackaging.h
+- AppxPackaging.h
 api_name:
- - IAppxEncryptionFactory.CreateEncryptedBundleWriter
+- IAppxEncryptionFactory.CreateEncryptedBundleWriter
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:dsgetdc.DsGetSiteNameW
 title: DsGetSiteNameW function (dsgetdc.h)
-
 description: The DsGetSiteName function returns the name of the site where a computer resides.
 old-location: ad\dsgetsitename.htm
 tech.root: ad
 ms.assetid: 2dfffd9a-af4f-4a93-8b3c-966e4f7c455f
-
 ms.date: 12/05/2018
 ms.keywords: DsGetSiteName, DsGetSiteName function [Active Directory], DsGetSiteNameA, DsGetSiteNameW, _glines_dsgetsitename, ad.dsgetsitename, dsgetdc/DsGetSiteName, dsgetdc/DsGetSiteNameA, dsgetdc/DsGetSiteNameW
 ms.topic: function
-f1_keywords: 
- - "dsgetdc/DsGetSiteName"
+f1_keywords:
+- dsgetdc/DsGetSiteName
 dev_langs:
- - c++
+- c++
 req.header: dsgetdc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Netapi32.lib
 req.dll: Netapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Netapi32.dll
+- Netapi32.dll
 api_name:
- - DsGetSiteName
- - DsGetSiteNameA
- - DsGetSiteNameW
+- DsGetSiteName
+- DsGetSiteNameA
+- DsGetSiteNameW
 targetos: Windows
 req.typenames: 
 req.redist: 

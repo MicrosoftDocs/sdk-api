@@ -1,19 +1,17 @@
 ---
 UID: NF:rasdlg.RasPhonebookDlgW
 title: RasPhonebookDlgW function (rasdlg.h)
-
 description: The RasPhonebookDlg function displays the main Dial-Up Networking dialog box.
 old-location: rras\rasphonebookdlg.htm
 tech.root: RRAS
 ms.assetid: 64603090-ec03-4eac-9da6-cb631c97dfb5
-
 ms.date: 12/05/2018
 ms.keywords: RasPhonebookDlg, RasPhonebookDlg function [RAS], RasPhonebookDlgA, RasPhonebookDlgW, _ras_rasphonebookdlg, rasdlg/RasPhonebookDlg, rasdlg/RasPhonebookDlgA, rasdlg/RasPhonebookDlgW, rras.rasphonebookdlg
 ms.topic: function
-f1_keywords: 
- - "rasdlg/RasPhonebookDlg"
+f1_keywords:
+- rasdlg/RasPhonebookDlg
 dev_langs:
- - c++
+- c++
 req.header: rasdlg.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Rasdlg.lib
 req.dll: Rasdlg.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Rasdlg.dll
+- Rasdlg.dll
 api_name:
- - RasPhonebookDlg
- - RasPhonebookDlgA
- - RasPhonebookDlgW
+- RasPhonebookDlg
+- RasPhonebookDlgA
+- RasPhonebookDlgW
 targetos: Windows
 req.typenames: 
 req.redist: 

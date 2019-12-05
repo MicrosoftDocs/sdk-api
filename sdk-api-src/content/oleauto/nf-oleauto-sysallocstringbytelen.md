@@ -1,19 +1,17 @@
 ---
 UID: NF:oleauto.SysAllocStringByteLen
 title: SysAllocStringByteLen function (oleauto.h)
-
 description: Takes an ANSI string as input, and returns a BSTR that contains an ANSI string. Does not perform any ANSI-to-Unicode translation.
 old-location: automat\sysallocstringbytelen.htm
 tech.root: automat
 ms.assetid: e7f49441-eff1-4c00-b61f-8522c4e250ef
-
 ms.date: 12/05/2018
 ms.keywords: SysAllocStringByteLen, SysAllocStringByteLen function [Automation], _oa96_SysAllocStringByteLen, automat.sysallocstringbytelen, oleauto/SysAllocStringByteLen
 ms.topic: function
-f1_keywords: 
- - "oleauto/SysAllocStringByteLen"
+f1_keywords:
+- oleauto/SysAllocStringByteLen
 dev_langs:
- - c++
+- c++
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: OleAut32.lib
 req.dll: OleAut32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - OleAut32.dll
+- OleAut32.dll
 api_name:
- - SysAllocStringByteLen
+- SysAllocStringByteLen
 targetos: Windows
 req.typenames: 
 req.redist: 

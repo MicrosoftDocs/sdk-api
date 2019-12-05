@@ -1,19 +1,17 @@
 ---
 UID: NF:commctrl.ListView_MoveItemToGroup
 title: ListView_MoveItemToGroup macro (commctrl.h)
-
 description: This macro is not implemented.
 old-location: controls\ListView_MoveItemToGroup.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_moveitemtogroup.htm
-
 ms.date: 12/05/2018
 ms.keywords: ListView_MoveItemToGroup, ListView_MoveItemToGroup macro [Windows Controls], _win32_ListView_MoveItemToGroup, _win32_ListView_MoveItemToGroup_cpp, commctrl/ListView_MoveItemToGroup, controls.ListView_MoveItemToGroup, controls._win32_ListView_MoveItemToGroup
 ms.topic: macro
-f1_keywords: 
- - "commctrl/ListView_MoveItemToGroup"
+f1_keywords:
+- commctrl/ListView_MoveItemToGroup
 dev_langs:
- - c++
+- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Commctrl.h
+- Commctrl.h
 api_name:
- - ListView_MoveItemToGroup
+- ListView_MoveItemToGroup
 targetos: Windows
 req.typenames: 
 req.redist: 

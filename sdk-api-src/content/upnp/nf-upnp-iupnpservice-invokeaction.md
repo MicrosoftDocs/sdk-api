@@ -1,19 +1,17 @@
 ---
 UID: NF:upnp.IUPnPService.InvokeAction
 title: IUPnPService::InvokeAction (upnp.h)
-
 description: Invokes a method on the device.
 old-location: upnp\iupnpservice_invokeaction.htm
 tech.root: upnp
 ms.assetid: fe8b4761-63cb-46a9-a7d0-5603cc1a5a58
-
 ms.date: 12/05/2018
 ms.keywords: IUPnPService interface [UPnP APIs],InvokeAction method, IUPnPService.InvokeAction, IUPnPService::InvokeAction, InvokeAction, InvokeAction method [UPnP APIs], InvokeAction method [UPnP APIs],IUPnPService interface, _upnp_iupnpservice_invokeaction, upnp.iupnpservice_invokeaction, upnp/IUPnPService::InvokeAction
 ms.topic: method
-f1_keywords: 
- - "upnp/IUPnPService.InvokeAction"
+f1_keywords:
+- upnp/IUPnPService.InvokeAction
 dev_langs:
- - c++
+- c++
 req.header: upnp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Upnp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Upnp.dll
+- Upnp.dll
 api_name:
- - IUPnPService.InvokeAction
+- IUPnPService.InvokeAction
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:dwrite_3.IDWriteTextLayout3.InvalidateLayout
 title: IDWriteTextLayout3::InvalidateLayout (dwrite_3.h)
-
 description: Invalidates the layout, forcing layout to remeasure before calling the metrics or drawing functions. This is useful if the locality of a font changes, and layout should be redrawn, or if the size of a client implemented IDWriteInlineObject changes.
 old-location: directwrite\idwritetextlayout3_invalidatelayout.htm
 tech.root: DirectWrite
 ms.assetid: 65b42ee1-5b67-1f6d-0e4b-ee60b192e7b7
-
 ms.date: 12/05/2018
 ms.keywords: IDWriteTextLayout3 interface [Direct Write],InvalidateLayout method, IDWriteTextLayout3.InvalidateLayout, IDWriteTextLayout3::InvalidateLayout, InvalidateLayout, InvalidateLayout method [Direct Write], InvalidateLayout method [Direct Write],IDWriteTextLayout3 interface, directwrite.idwritetextlayout3_invalidatelayout, dwrite_3/IDWriteTextLayout3::InvalidateLayout
 ms.topic: method
-f1_keywords: 
- - "dwrite_3/IDWriteTextLayout3.InvalidateLayout"
+f1_keywords:
+- dwrite_3/IDWriteTextLayout3.InvalidateLayout
 dev_langs:
- - c++
+- c++
 req.header: dwrite_3.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dwrite.lib
 req.dll: Dwrite.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dwrite.dll
+- dwrite.dll
 api_name:
- - IDWriteTextLayout3.InvalidateLayout
+- IDWriteTextLayout3.InvalidateLayout
 targetos: Windows
 req.typenames: 
 req.redist: 

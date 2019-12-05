@@ -1,19 +1,17 @@
 ---
 UID: NF:amvideo.IFullScreenVideoEx.GetClipFactor
 title: IFullScreenVideoEx::GetClipFactor (amvideo.h)
-
 description: The GetClipFactor method retrieves the clip factor, which determines how much of the video the Full Screen Renderer is allowed to clip. For example, if the clip factor is 25, the Full Screen Renderer can clip up to 25% of the video.
 old-location: dshow\ifullscreenvideoex_getclipfactor.htm
 tech.root: DirectShow
 ms.assetid: f45e1736-8130-483b-9f90-614c4b6970db
-
 ms.date: 12/05/2018
 ms.keywords: GetClipFactor, GetClipFactor method [DirectShow], GetClipFactor method [DirectShow],IFullScreenVideoEx interface, IFullScreenVideoEx interface [DirectShow],GetClipFactor method, IFullScreenVideoEx.GetClipFactor, IFullScreenVideoEx::GetClipFactor, IFullScreenVideoGetClipFactor, amvideo/IFullScreenVideoEx::GetClipFactor, dshow.ifullscreenvideoex_getclipfactor
 ms.topic: method
-f1_keywords: 
- - "amvideo/IFullScreenVideoEx.GetClipFactor"
+f1_keywords:
+- amvideo/IFullScreenVideoEx.GetClipFactor
 dev_langs:
- - c++
+- c++
 req.header: amvideo.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IFullScreenVideoEx.GetClipFactor
+- IFullScreenVideoEx.GetClipFactor
 targetos: Windows
 req.typenames: 
 req.redist: 

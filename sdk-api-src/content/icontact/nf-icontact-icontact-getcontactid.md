@@ -1,19 +1,17 @@
 ---
 UID: NF:icontact.IContact.GetContactID
 title: IContact::GetContactID (icontact.h)
-
 description: Retrieves the local computer unique contact ID.
 old-location: wincontacts\_wincontacts_IContact_GetContactID.htm
 tech.root: wincontacts
 ms.assetid: 25daa44f-2042-4116-b0dd-4f16857cbb0b
-
 ms.date: 12/05/2018
 ms.keywords: GetContactID, GetContactID method [Windows Contacts], GetContactID method [Windows Contacts],IContact interface, IContact interface [Windows Contacts],GetContactID method, IContact.GetContactID, IContact::GetContactID, _wincontacts_IContact_GetContactID, icontact/IContact::GetContactID, wincontacts._wincontacts_IContact_GetContactID
 ms.topic: method
-f1_keywords: 
- - "icontact/IContact.GetContactID"
+f1_keywords:
+- icontact/IContact.GetContactID
 dev_langs:
- - c++
+- c++
 req.header: icontact.h
 req.include-header: Contact.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wab32.dll (Version 6.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wab32.dll
+- Wab32.dll
 api_name:
- - IContact.GetContactID
+- IContact.GetContactID
 targetos: Windows
 req.typenames: 
 req.redist: 

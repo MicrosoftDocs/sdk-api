@@ -1,19 +1,17 @@
 ---
 UID: NF:wmsdkidl.IWMProfile3.RemoveStreamPrioritization
 title: IWMProfile3::RemoveStreamPrioritization (wmsdkidl.h)
-
 description: The RemoveStreamPrioritization method removes the stream prioritization object from the profile.
 old-location: wmformat\iwmprofile3_removestreamprioritization.htm
 tech.root: wmformat
 ms.assetid: 1522cb9f-ce3f-4183-8779-3ee112efb40b
-
 ms.date: 12/05/2018
 ms.keywords: IWMProfile3 interface [windows Media Format],RemoveStreamPrioritization method, IWMProfile3.RemoveStreamPrioritization, IWMProfile3::RemoveStreamPrioritization, IWMProfile3RemoveStreamPrioritization, RemoveStreamPrioritization, RemoveStreamPrioritization method [windows Media Format], RemoveStreamPrioritization method [windows Media Format],IWMProfile3 interface, wmformat.iwmprofile3_removestreamprioritization, wmsdkidl/IWMProfile3::RemoveStreamPrioritization
 ms.topic: method
-f1_keywords: 
- - "wmsdkidl/IWMProfile3.RemoveStreamPrioritization"
+f1_keywords:
+- wmsdkidl/IWMProfile3.RemoveStreamPrioritization
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wmvcore.lib
- - Wmvcore.dll
- - WMStubDRM.lib
- - WMStubDRM.dll
+- Wmvcore.lib
+- Wmvcore.dll
+- WMStubDRM.lib
+- WMStubDRM.dll
 api_name:
- - IWMProfile3.RemoveStreamPrioritization
+- IWMProfile3.RemoveStreamPrioritization
 targetos: Windows
 req.typenames: 
 req.redist: 

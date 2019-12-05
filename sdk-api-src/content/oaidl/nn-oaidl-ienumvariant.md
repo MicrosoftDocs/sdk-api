@@ -1,19 +1,17 @@
 ---
 UID: NN:oaidl.IEnumVARIANT
 title: IEnumVARIANT (oaidl.h)
-
 description: Provides a method for enumerating a collection of variants, including heterogeneous collections of objects and intrinsic types.
 old-location: automat\ienumvariant.htm
 tech.root: automat
 ms.assetid: 139e3c93-faef-4003-9079-e0e94494db3e
-
 ms.date: 12/05/2018
 ms.keywords: IEnumVARIANT, IEnumVARIANT interface [Automation], IEnumVARIANT interface [Automation],described, _oa96_IEnumVARIANT_Interface, automat.ienumvariant, oaidl/IEnumVARIANT
 ms.topic: interface
-f1_keywords: 
- - "oaidl/IEnumVARIANT"
+f1_keywords:
+- oaidl/IEnumVARIANT
 dev_langs:
- - c++
+- c++
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - oaidl.h
+- oaidl.h
 api_name:
- - IEnumVARIANT
+- IEnumVARIANT
 targetos: Windows
 req.typenames: 
 req.redist: 

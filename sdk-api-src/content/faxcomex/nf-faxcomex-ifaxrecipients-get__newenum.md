@@ -1,19 +1,17 @@
 ---
 UID: NF:faxcomex.IFaxRecipients.get__NewEnum
 title: IFaxRecipients::get__NewEnum (faxcomex.h)
-
 description: The IFaxRecipients::get__NewEnum method returns a reference to an enumerator object that you can use to iterate through the FaxRecipients collection.
 old-location: fax\_mfax_ifaxrecipients_get__newenum.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_22p9.htm
-
 ms.date: 12/05/2018
 ms.keywords: IFaxRecipients interface [Fax Service],get__NewEnum method, IFaxRecipients.get__NewEnum, IFaxRecipients::get__NewEnum, _mfax_ifaxrecipients_get__newenum, fax._mfax_ifaxrecipients_get__newenum, faxcomex/IFaxRecipients::get__NewEnum, get__NewEnum, get__NewEnum method [Fax Service], get__NewEnum method [Fax Service],IFaxRecipients interface
 ms.topic: method
-f1_keywords: 
- - "faxcomex/IFaxRecipients.get__NewEnum"
+f1_keywords:
+- faxcomex/IFaxRecipients.get__NewEnum
 dev_langs:
- - c++
+- c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Fxscomex.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Fxscomex.dll
+- Fxscomex.dll
 api_name:
- - IFaxRecipients.get__NewEnum
+- IFaxRecipients.get__NewEnum
 targetos: Windows
 req.typenames: 
 req.redist: 

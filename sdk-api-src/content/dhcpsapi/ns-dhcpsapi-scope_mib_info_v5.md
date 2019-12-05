@@ -1,19 +1,17 @@
 ---
 UID: NS:dhcpsapi._SCOPE_MIB_INFO_V5
 title: SCOPE_MIB_INFO_V5 (dhcpsapi.h)
-
 description: Contains information about a specific DHCP scope.
 old-location: dhcp\scope_mib_info_v5.htm
 tech.root: DHCP
 ms.assetid: 5144d83e-f21e-4f68-bf33-c7245b31da01
-
 ms.date: 12/05/2018
 ms.keywords: '*LPSCOPE_MIB_INFO_V5, LPSCOPE_MIB_INFO_V5, LPSCOPE_MIB_INFO_V5 structure pointer [DHCP], SCOPE_MIB_INFO_V5, SCOPE_MIB_INFO_V5 structure [DHCP], dhcp.scope_mib_info_v5, dhcpsapi/LPSCOPE_MIB_INFO_V5, dhcpsapi/SCOPE_MIB_INFO_V5'
 ms.topic: struct
 f1_keywords:
 - dhcpsapi/SCOPE_MIB_INFO_V5
 dev_langs:
- - c++
+- c++
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows

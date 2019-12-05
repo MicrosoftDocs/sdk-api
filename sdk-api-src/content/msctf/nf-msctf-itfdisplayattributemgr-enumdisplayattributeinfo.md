@@ -1,19 +1,17 @@
 ---
 UID: NF:msctf.ITfDisplayAttributeMgr.EnumDisplayAttributeInfo
 title: ITfDisplayAttributeMgr::EnumDisplayAttributeInfo (msctf.h)
-
 description: ITfDisplayAttributeMgr::EnumDisplayAttributeInfo method
 old-location: tsf\itfdisplayattributemgr_enumdisplayattributeinfo.htm
 tech.root: TSF
 ms.assetid: ea0cb5b1-46a3-43c6-a109-1972d3fcbc18
-
 ms.date: 12/05/2018
 ms.keywords: EnumDisplayAttributeInfo, EnumDisplayAttributeInfo method [Text Services Framework], EnumDisplayAttributeInfo method [Text Services Framework],ITfDisplayAttributeMgr interface, ITfDisplayAttributeMgr interface [Text Services Framework],EnumDisplayAttributeInfo method, ITfDisplayAttributeMgr.EnumDisplayAttributeInfo, ITfDisplayAttributeMgr::EnumDisplayAttributeInfo, _tsf_itfdisplayattributemgr_enumdisplayattributeinfo_ref, msctf/ITfDisplayAttributeMgr::EnumDisplayAttributeInfo, tsf.itfdisplayattributemgr_enumdisplayattributeinfo
 ms.topic: method
-f1_keywords: 
- - "msctf/ITfDisplayAttributeMgr.EnumDisplayAttributeInfo"
+f1_keywords:
+- msctf/ITfDisplayAttributeMgr.EnumDisplayAttributeInfo
 dev_langs:
- - c++
+- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msctf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msctf.dll
+- msctf.dll
 api_name:
- - ITfDisplayAttributeMgr.EnumDisplayAttributeInfo
+- ITfDisplayAttributeMgr.EnumDisplayAttributeInfo
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

@@ -1,19 +1,17 @@
 ---
 UID: NF:msi.MsiOpenProductW
 title: MsiOpenProductW function (msi.h)
-
 description: The MsiOpenProduct function opens a product for use with the functions that access the product database. The MsiCloseHandle function must be called with the handle when the handle is no longer needed.
 old-location: setup\msiopenproduct.htm
 tech.root: Msi
 ms.assetid: fdc5a2f5-c44a-4cb3-b206-a598bd60024b
-
 ms.date: 12/05/2018
 ms.keywords: MsiOpenProduct, MsiOpenProduct function, MsiOpenProductA, MsiOpenProductW, _msi_msiopenproduct, msi/MsiOpenProduct, msi/MsiOpenProductA, msi/MsiOpenProductW, setup.msiopenproduct
 ms.topic: function
-f1_keywords: 
- - "msi/MsiOpenProduct"
+f1_keywords:
+- msi/MsiOpenProduct
 dev_langs:
- - c++
+- c++
 req.header: msi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Msi.lib
 req.dll: Msi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Msi.dll
+- Msi.dll
 api_name:
- - MsiOpenProduct
- - MsiOpenProductA
- - MsiOpenProductW
+- MsiOpenProduct
+- MsiOpenProductA
+- MsiOpenProductW
 targetos: Windows
 req.typenames: 
 req.redist: 

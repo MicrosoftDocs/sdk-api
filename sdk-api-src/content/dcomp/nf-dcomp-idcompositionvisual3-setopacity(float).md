@@ -1,19 +1,17 @@
 ---
 UID: NF:dcomp.IDCompositionVisual3.SetOpacity(float)
 title: IDCompositionVisual3::SetOpacity (dcomp.h)
-
 description: Sets the value of the visual's opacity property.
 old-location: directcomp\idcompositionvisual3_setopacity.htm
 tech.root: directcomp
 ms.assetid: 7641B989-6D0F-4648-8C29-FF3B331CDF97
-
 ms.date: 12/05/2018
 ms.keywords: IDCompositionVisual3 interface [DirectComposition],SetOpacity method, IDCompositionVisual3.SetOpacity, IDCompositionVisual3::SetOpacity, IDCompositionVisual3::SetOpacity(float), SetOpacity, SetOpacity method [DirectComposition], SetOpacity method [DirectComposition],IDCompositionVisual3 interface, dcomp/IDCompositionVisual3::SetOpacity, directcomp.idcompositionvisual3_setopacity
 ms.topic: method
-f1_keywords: 
- - "dcomp/IDCompositionVisual3.SetOpacity"
+f1_keywords:
+- dcomp/IDCompositionVisual3.SetOpacity
 dev_langs:
- - c++
+- c++
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dcomp.lib
 req.dll: Dcomp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dcomp.dll
+- Dcomp.dll
 api_name:
- - IDCompositionVisual3.SetOpacity
+- IDCompositionVisual3.SetOpacity
 targetos: Windows
 req.typenames: 
 req.redist: 

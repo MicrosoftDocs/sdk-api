@@ -1,19 +1,17 @@
 ---
 UID: NF:wdstptmgmt.IWdsTransportConfigurationManager.EnableWdsTransportServices
 title: IWdsTransportConfigurationManager::EnableWdsTransportServices (wdstptmgmt.h)
-
 description: Sets all WDS transport services to Auto-Start mode.
 old-location: wds\iwdstransportconfigurationmanager_enablewdstransportservices.htm
 tech.root: wds
 ms.assetid: 30f4ff61-8e92-4d1b-8243-e5cc9d64da40
-
 ms.date: 12/05/2018
 ms.keywords: EnableWdsTransportServices, EnableWdsTransportServices method [Windows Deployment Services], EnableWdsTransportServices method [Windows Deployment Services],IWdsTransportConfigurationManager interface, IWdsTransportConfigurationManager interface [Windows Deployment Services],EnableWdsTransportServices method, IWdsTransportConfigurationManager.EnableWdsTransportServices, IWdsTransportConfigurationManager::EnableWdsTransportServices, wds.iwdstransportconfigurationmanager_enablewdstransportservices, wdstptmgmt/IWdsTransportConfigurationManager::EnableWdsTransportServices
 ms.topic: method
-f1_keywords: 
- - "wdstptmgmt/IWdsTransportConfigurationManager.EnableWdsTransportServices"
+f1_keywords:
+- wdstptmgmt/IWdsTransportConfigurationManager.EnableWdsTransportServices
 dev_langs:
- - c++
+- c++
 req.header: wdstptmgmt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wdstptmgmt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wdstptmgmt.dll
+- Wdstptmgmt.dll
 api_name:
- - IWdsTransportConfigurationManager.EnableWdsTransportServices
+- IWdsTransportConfigurationManager.EnableWdsTransportServices
 targetos: Windows
 req.typenames: 
 req.redist: 

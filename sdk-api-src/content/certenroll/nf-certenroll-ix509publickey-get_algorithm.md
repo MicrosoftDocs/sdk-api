@@ -1,19 +1,17 @@
 ---
 UID: NF:certenroll.IX509PublicKey.get_Algorithm
 title: IX509PublicKey::get_Algorithm (certenroll.h)
-
 description: Retrieves an object identifier (OID) for the public key algorithm.
 old-location: security\ix509publickey_algorithm_property.htm
 tech.root: seccertenroll
 ms.assetid: 6c34323e-669e-434c-946f-65fe53456a11
-
 ms.date: 12/05/2018
 ms.keywords: Algorithm property [Security], Algorithm property [Security],IX509PublicKey interface, IX509PublicKey interface [Security],Algorithm property, IX509PublicKey.Algorithm, IX509PublicKey.get_Algorithm, IX509PublicKey::Algorithm, IX509PublicKey::get_Algorithm, certenroll/IX509PublicKey::Algorithm, certenroll/IX509PublicKey::get_Algorithm, get_Algorithm, security.ix509publickey_algorithm_property
 ms.topic: method
-f1_keywords: 
- - "certenroll/IX509PublicKey.Algorithm"
+f1_keywords:
+- certenroll/IX509PublicKey.Algorithm
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: CertEnroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CertEnroll.dll
+- CertEnroll.dll
 api_name:
- - IX509PublicKey.Algorithm
- - IX509PublicKey.get_Algorithm
+- IX509PublicKey.Algorithm
+- IX509PublicKey.get_Algorithm
 targetos: Windows
 req.typenames: 
 req.redist: 

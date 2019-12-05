@@ -1,19 +1,17 @@
 ---
 UID: NF:directml.IDMLDevice.CreateOperator
 title: IDMLDevice::CreateOperator
-
 description: Creates a DirectML operator.
 old-location: direct3d12\idmldevice_createoperator.htm
 tech.root: direct3d12
 ms.assetid: BAD28B3F-6F7C-45A0-9604-0660FF367878
-
 ms.date: 12/5/2018
 ms.keywords: CreateOperator, CreateOperator method, CreateOperator method,IDMLDevice interface, IDMLDevice interface,CreateOperator method, IDMLDevice.CreateOperator, IDMLDevice::CreateOperator, direct3d12.idmldevice_createoperator, directml/IDMLDevice::CreateOperator
 ms.topic: method
-f1_keywords: 
- - "directml/IDMLDevice.CreateOperator"
+f1_keywords:
+- directml/IDMLDevice.CreateOperator
 dev_langs:
- - c++
+- c++
 req.header: directml.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: DirectML.lib
 req.dll: DirectML.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - DirectML.dll
+- DirectML.dll
 api_name:
- - IDMLDevice.CreateOperator
+- IDMLDevice.CreateOperator
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:combaseapi.CoSwitchCallContext
 title: CoSwitchCallContext function (combaseapi.h)
-
 description: Switches the call context object used by CoGetCallContext.
 old-location: com\coswitchcallcontext.htm
 tech.root: com
 ms.assetid: 146855a2-97ec-4e71-88dc-316eaa1a24a0
-
 ms.date: 12/05/2018
 ms.keywords: CoSwitchCallContext, CoSwitchCallContext function [COM], _com_CoSwitchCallContext, com.coswitchcallcontext, combaseapi/CoSwitchCallContext
 ms.topic: function
-f1_keywords: 
- - "combaseapi/CoSwitchCallContext"
+f1_keywords:
+- combaseapi/CoSwitchCallContext
 dev_langs:
- - c++
+- c++
 req.header: combaseapi.h
 req.include-header: Objbase.h
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib: Ole32.lib
 req.dll: Ole32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ole32.dll
- - API-MS-Win-Core-Com-l1-1-0.dll
- - ComBase.dll
- - API-MS-Win-Core-Com-l1-1-1.dll
- - API-MS-Win-DownLevel-Ole32-l1-1-1.dll
+- Ole32.dll
+- API-MS-Win-Core-Com-l1-1-0.dll
+- ComBase.dll
+- API-MS-Win-Core-Com-l1-1-1.dll
+- API-MS-Win-DownLevel-Ole32-l1-1-1.dll
 api_name:
- - CoSwitchCallContext
+- CoSwitchCallContext
 targetos: Windows
 req.typenames: 
 req.redist: 

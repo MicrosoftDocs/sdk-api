@@ -1,19 +1,17 @@
 ---
 UID: NS:iads._ads_object_info
 title: ADS_OBJECT_INFO (iads.h)
-
 description: The ADS_OBJECT_INFO structure specifies the data, including the identity and location, of a directory service object.
 old-location: adsi\ads_object_info.htm
 tech.root: adsi
 ms.assetid: f072b2f8-8c03-4f90-8edf-cf5fed97a222
-
 ms.date: 12/05/2018
-ms.keywords: "*PADS_OBJECT_INFO, ADS_OBJECT_INFO, ADS_OBJECT_INFO structure [ADSI], PADS_OBJECT_INFO, PADS_OBJECT_INFO structure pointer [ADSI], _ds_ads_object_info, adsi.ads__object__info, adsi.ads_object_info, iads/ADS_OBJECT_INFO, iads/PADS_OBJECT_INFO"
+ms.keywords: '*PADS_OBJECT_INFO, ADS_OBJECT_INFO, ADS_OBJECT_INFO structure [ADSI], PADS_OBJECT_INFO, PADS_OBJECT_INFO structure pointer [ADSI], _ds_ads_object_info, adsi.ads__object__info, adsi.ads_object_info, iads/ADS_OBJECT_INFO, iads/PADS_OBJECT_INFO'
 ms.topic: struct
-f1_keywords: 
- - "iads/ADS_OBJECT_INFO"
+f1_keywords:
+- iads/ADS_OBJECT_INFO
 dev_langs:
- - c++
+- c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Iads.h
+- Iads.h
 api_name:
- - ADS_OBJECT_INFO
+- ADS_OBJECT_INFO
 targetos: Windows
 req.typenames: ADS_OBJECT_INFO, *PADS_OBJECT_INFO
 req.redist: 

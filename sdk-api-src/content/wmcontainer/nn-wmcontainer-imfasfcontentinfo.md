@@ -1,19 +1,17 @@
 ---
 UID: NN:wmcontainer.IMFASFContentInfo
 title: IMFASFContentInfo (wmcontainer.h)
-
 description: Provides methods to work with the header section of files conforming to the Advanced Systems Format (ASF) specification.
 old-location: mf\imfasfcontentinfo.htm
 tech.root: medfound
 ms.assetid: 9f490e6a-f378-45c1-a69d-985c6e884358
-
 ms.date: 12/05/2018
 ms.keywords: 9f490e6a-f378-45c1-a69d-985c6e884358, IMFASFContentInfo, IMFASFContentInfo interface [Media Foundation], IMFASFContentInfo interface [Media Foundation],described, mf.imfasfcontentinfo, wmcontainer/IMFASFContentInfo
 ms.topic: interface
-f1_keywords: 
- - "wmcontainer/IMFASFContentInfo"
+f1_keywords:
+- wmcontainer/IMFASFContentInfo
 dev_langs:
- - c++
+- c++
 req.header: wmcontainer.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFASFContentInfo
+- IMFASFContentInfo
 targetos: Windows
 req.typenames: 
 req.redist: 

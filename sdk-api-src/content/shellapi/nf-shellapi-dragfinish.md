@@ -1,19 +1,17 @@
 ---
 UID: NF:shellapi.DragFinish
 title: DragFinish function (shellapi.h)
-
 description: Releases memory that the system allocated for use in transferring file names to the application.
 old-location: shell\DragFinish.htm
 tech.root: shell
 ms.assetid: 9b15e8a5-de68-4dcb-8e1a-0ee0393aa9db
-
 ms.date: 12/05/2018
 ms.keywords: DragFinish, DragFinish function [Windows Shell], _win32_DragFinish, shell.DragFinish, shellapi/DragFinish
 ms.topic: function
-f1_keywords: 
- - "shellapi/DragFinish"
+f1_keywords:
+- shellapi/DragFinish
 dev_langs:
- - c++
+- c++
 req.header: shellapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Shell32.lib
 req.dll: Shell32.dll (version 4.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - DragFinish
+- DragFinish
 targetos: Windows
 req.typenames: 
 req.redist: 

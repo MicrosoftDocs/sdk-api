@@ -1,19 +1,17 @@
 ---
 UID: NF:msimeapi.IImePlugInDictDictionaryList.DeleteDictionary
 title: IImePlugInDictDictionaryList::DeleteDictionary (msimeapi.h)
-
 description: Deletes a dictionary from the IME's plug-in dictionary list.
 old-location: intl\iimeplugindictdictionarylist_deletedictionary.htm
 tech.root: Intl
 ms.assetid: 38A17092-E545-4018-9D16-2C0406234D62
-
 ms.date: 12/05/2018
 ms.keywords: DeleteDictionary, DeleteDictionary method [Internationalization for Windows Applications], DeleteDictionary method [Internationalization for Windows Applications],IImePlugInDictDictionaryList interface, IImePlugInDictDictionaryList interface [Internationalization for Windows Applications],DeleteDictionary method, IImePlugInDictDictionaryList.DeleteDictionary, IImePlugInDictDictionaryList::DeleteDictionary, intl.iimeplugindictdictionarylist_deletedictionary, msimeapi/IImePlugInDictDictionaryList::DeleteDictionary
 ms.topic: method
-f1_keywords: 
- - "msimeapi/IImePlugInDictDictionaryList.DeleteDictionary"
+f1_keywords:
+- msimeapi/IImePlugInDictDictionaryList.DeleteDictionary
 dev_langs:
- - c++
+- c++
 req.header: msimeapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msimeapi.h
+- Msimeapi.h
 api_name:
- - IImePlugInDictDictionaryList.DeleteDictionary
+- IImePlugInDictDictionaryList.DeleteDictionary
 targetos: Windows
 req.typenames: 
 req.redist: 

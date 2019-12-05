@@ -1,19 +1,17 @@
 ---
 UID: NF:mbnapi.IMbnMultiCarrier.GetVisibleProviders
 title: IMbnMultiCarrier::GetVisibleProviders (mbnapi.h)
-
 description: Gets the list of visible providers in the current area for a multi-carrier device minus preferred and registered providers.
 old-location: mbn\imbnmulticarrier_getvisibleproviders.htm
 tech.root: mbn
 ms.assetid: AC11D275-C6E3-48EE-B3DA-C9BC8648D49D
-
 ms.date: 12/05/2018
 ms.keywords: GetVisibleProviders, GetVisibleProviders method [Microsoft Broadband Networks], GetVisibleProviders method [Microsoft Broadband Networks],IMbnMultiCarrier interface, IMbnMultiCarrier interface [Microsoft Broadband Networks],GetVisibleProviders method, IMbnMultiCarrier.GetVisibleProviders, IMbnMultiCarrier::GetVisibleProviders, mbn.imbnmulticarrier_getvisibleproviders, mbnapi/IMbnMultiCarrier::GetVisibleProviders
 ms.topic: method
-f1_keywords: 
- - "mbnapi/IMbnMultiCarrier.GetVisibleProviders"
+f1_keywords:
+- mbnapi/IMbnMultiCarrier.GetVisibleProviders
 dev_langs:
- - c++
+- c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mbnapi.h
+- mbnapi.h
 api_name:
- - IMbnMultiCarrier.GetVisibleProviders
+- IMbnMultiCarrier.GetVisibleProviders
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:certenroll.IBinaryConverter.StringToVariantByteArray
 title: IBinaryConverter::StringToVariantByteArray (certenroll.h)
-
 description: Creates a byte array from a Unicode encoded string.
 old-location: security\ibinaryconverter_stringtovariantbytearray_method.htm
 tech.root: seccertenroll
 ms.assetid: b0d649f7-79a1-452c-a790-b6c05ccb84b0
-
 ms.date: 12/05/2018
 ms.keywords: IBinaryConverter interface [Security],StringToVariantByteArray method, IBinaryConverter.StringToVariantByteArray, IBinaryConverter::StringToVariantByteArray, StringToVariantByteArray, StringToVariantByteArray method [Security], StringToVariantByteArray method [Security],IBinaryConverter interface, certenroll/IBinaryConverter::StringToVariantByteArray, security.ibinaryconverter_stringtovariantbytearray_method
 ms.topic: method
-f1_keywords: 
- - "certenroll/IBinaryConverter.StringToVariantByteArray"
+f1_keywords:
+- certenroll/IBinaryConverter.StringToVariantByteArray
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: CertEnroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CertEnroll.dll
+- CertEnroll.dll
 api_name:
- - IBinaryConverter.StringToVariantByteArray
+- IBinaryConverter.StringToVariantByteArray
 targetos: Windows
 req.typenames: 
 req.redist: 

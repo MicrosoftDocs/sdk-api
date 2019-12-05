@@ -1,19 +1,17 @@
 ---
 UID: NS:wtsapi32._WTS_PROCESS_INFOW
 title: WTS_PROCESS_INFOW (wtsapi32.h)
-
 description: Contains information about a process running on a Remote Desktop Session Host (RD Session Host) server.
 old-location: termserv\wts_process_info_str.htm
 tech.root: TermServ
 ms.assetid: 5df01ad8-71fd-4831-8eba-1d6cabd61348
-
 ms.date: 12/05/2018
-ms.keywords: "*PWTS_PROCESS_INFOW, PWTS_PROCESS_INFO, PWTS_PROCESS_INFO structure pointer [Remote Desktop Services], WTS_PROCESS_INFO, WTS_PROCESS_INFO structure [Remote Desktop Services], WTS_PROCESS_INFOA, WTS_PROCESS_INFOW, _win32_wts_process_info_str, termserv.wts_process_info_str, wtsapi32/PWTS_PROCESS_INFO, wtsapi32/WTS_PROCESS_INFO, wtsapi32/WTS_PROCESS_INFOA, wtsapi32/WTS_PROCESS_INFOW"
+ms.keywords: '*PWTS_PROCESS_INFOW, PWTS_PROCESS_INFO, PWTS_PROCESS_INFO structure pointer [Remote Desktop Services], WTS_PROCESS_INFO, WTS_PROCESS_INFO structure [Remote Desktop Services], WTS_PROCESS_INFOA, WTS_PROCESS_INFOW, _win32_wts_process_info_str, termserv.wts_process_info_str, wtsapi32/PWTS_PROCESS_INFO, wtsapi32/WTS_PROCESS_INFO, wtsapi32/WTS_PROCESS_INFOA, wtsapi32/WTS_PROCESS_INFOW'
 ms.topic: struct
-f1_keywords: 
- - "wtsapi32/WTS_PROCESS_INFO"
+f1_keywords:
+- wtsapi32/WTS_PROCESS_INFO
 dev_langs:
- - c++
+- c++
 req.header: wtsapi32.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wtsapi32.h
+- Wtsapi32.h
 api_name:
- - WTS_PROCESS_INFO
- - WTS_PROCESS_INFOA
- - WTS_PROCESS_INFOW
+- WTS_PROCESS_INFO
+- WTS_PROCESS_INFOA
+- WTS_PROCESS_INFOW
 targetos: Windows
 req.typenames: WTS_PROCESS_INFOW, *PWTS_PROCESS_INFOW
 req.redist: 

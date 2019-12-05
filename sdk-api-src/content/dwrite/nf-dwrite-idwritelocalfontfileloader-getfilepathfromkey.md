@@ -1,19 +1,17 @@
 ---
 UID: NF:dwrite.IDWriteLocalFontFileLoader.GetFilePathFromKey
 title: IDWriteLocalFontFileLoader::GetFilePathFromKey (dwrite.h)
-
 description: Obtains the absolute font file path from the font file reference key.
 old-location: directwrite\idwritelocalfontfileloader_getfilepathfromkey.htm
 tech.root: DirectWrite
 ms.assetid: a61cfe80-100d-4813-b04f-a39f626893dd
-
 ms.date: 12/05/2018
 ms.keywords: GetFilePathFromKey, GetFilePathFromKey method [Direct Write], GetFilePathFromKey method [Direct Write],IDWriteLocalFontFileLoader interface, IDWriteLocalFontFileLoader interface [Direct Write],GetFilePathFromKey method, IDWriteLocalFontFileLoader.GetFilePathFromKey, IDWriteLocalFontFileLoader::GetFilePathFromKey, directwrite.idwritelocalfontfileloader_getfilepathfromkey, dwrite/IDWriteLocalFontFileLoader::GetFilePathFromKey
 ms.topic: method
-f1_keywords: 
- - "dwrite/IDWriteLocalFontFileLoader.GetFilePathFromKey"
+f1_keywords:
+- dwrite/IDWriteLocalFontFileLoader.GetFilePathFromKey
 dev_langs:
- - c++
+- c++
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dwrite.lib
 req.dll: Dwrite.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dwrite.dll
+- dwrite.dll
 api_name:
- - IDWriteLocalFontFileLoader.GetFilePathFromKey
+- IDWriteLocalFontFileLoader.GetFilePathFromKey
 targetos: Windows
 req.typenames: 
 req.redist: 

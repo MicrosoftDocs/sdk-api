@@ -1,19 +1,17 @@
 ---
 UID: NE:faxcomex.FAX_JOB_STATUS_ENUM
 title: FAX_JOB_STATUS_ENUM (faxcomex.h)
-
 description: The FAX_JOB_STATUS_ENUM enumeration defines the status values for a fax job.Note  The members fjsPAUSED and fjsNOLINE are modifiers; they can be used in combination with any other member of this enumeration.
 old-location: fax\_mfax_fax_job_status_enum.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_7zcd.htm
-
 ms.date: 12/05/2018
 ms.keywords: FAX_JOB_STATUS_ENUM, FAX_JOB_STATUS_ENUM enumeration [Fax Service], _mfax_fax_job_status_enum, fax._mfax_fax_job_status_enum, faxcomex/FAX_JOB_STATUS_ENUM, faxcomex/fjsCANCELED, faxcomex/fjsCANCELING, faxcomex/fjsCOMPLETED, faxcomex/fjsFAILED, faxcomex/fjsINPROGRESS, faxcomex/fjsNOLINE, faxcomex/fjsPAUSED, faxcomex/fjsPENDING, faxcomex/fjsRETRIES_EXCEEDED, faxcomex/fjsRETRYING, faxcomex/fjsROUTING, fjsCANCELED, fjsCANCELING, fjsCOMPLETED, fjsFAILED, fjsINPROGRESS, fjsNOLINE, fjsPAUSED, fjsPENDING, fjsRETRIES_EXCEEDED, fjsRETRYING, fjsROUTING
 ms.topic: enum
-f1_keywords: 
- - "faxcomex/FAX_JOB_STATUS_ENUM"
+f1_keywords:
+- faxcomex/FAX_JOB_STATUS_ENUM
 dev_langs:
- - c++
+- c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - FaxComex.h
+- FaxComex.h
 api_name:
- - FAX_JOB_STATUS_ENUM
+- FAX_JOB_STATUS_ENUM
 targetos: Windows
 req.typenames: FAX_JOB_STATUS_ENUM
 req.redist: 

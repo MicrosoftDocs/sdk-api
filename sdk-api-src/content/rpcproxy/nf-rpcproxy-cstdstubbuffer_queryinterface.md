@@ -1,19 +1,17 @@
 ---
 UID: NF:rpcproxy.CStdStubBuffer_QueryInterface
 title: CStdStubBuffer_QueryInterface function (rpcproxy.h)
-
 description: The CStdStubBuffer_QueryInterface function implements the IRpcStubBuffer::QueryInterface method.
 old-location: rpc\cstdstubbuffer_queryinterface.htm
 tech.root: Rpc
 ms.assetid: 7afb828d-7de9-4fa7-a869-fad694328206
-
 ms.date: 12/05/2018
 ms.keywords: CStdStubBuffer_QueryInterface, CStdStubBuffer_QueryInterface, CStdStubBuffer_QueryInterface function [RPC], rpc.cstdstubbuffer_queryinterface, rpcproxy/CStdStubBuffer_QueryInterface
 ms.topic: function
-f1_keywords: 
- - "rpcproxy/CStdStubBuffer_QueryInterface"
+f1_keywords:
+- rpcproxy/CStdStubBuffer_QueryInterface
 dev_langs:
- - c++
+- c++
 req.header: rpcproxy.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: RpcRT4.lib
 req.dll: RpcRT4.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - RpcRT4.dll
+- RpcRT4.dll
 api_name:
- - CStdStubBuffer_QueryInterface
+- CStdStubBuffer_QueryInterface
 targetos: Windows
 req.typenames: 
 req.redist: 

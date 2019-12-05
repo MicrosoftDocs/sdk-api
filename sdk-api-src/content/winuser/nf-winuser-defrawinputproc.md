@@ -1,19 +1,17 @@
 ---
 UID: NF:winuser.DefRawInputProc
 title: DefRawInputProc function (winuser.h)
-
 description: Calls the default raw input procedure to provide default processing for any raw input messages that an application does not process.
 old-location: inputdev\defrawinputproc.htm
 tech.root: inputdev
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\rawinput\rawinputreference\rawinputfunctions\defrawinputproc.htm
-
 ms.date: 12/05/2018
 ms.keywords: DefRawInputProc, DefRawInputProc function [Keyboard and Mouse Input], _win32_DefRawInputProc, _win32_defrawinputproc_cpp, inputdev.defrawinputproc, winui._win32_defrawinputproc, winuser/DefRawInputProc
 ms.topic: function
-f1_keywords: 
- - "winuser/DefRawInputProc"
+f1_keywords:
+- winuser/DefRawInputProc
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - User32.dll
+- User32.dll
 api_name:
- - DefRawInputProc
+- DefRawInputProc
 targetos: Windows
 req.typenames: 
 req.redist: 

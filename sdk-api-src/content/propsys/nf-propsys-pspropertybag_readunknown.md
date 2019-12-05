@@ -1,19 +1,17 @@
 ---
 UID: NF:propsys.PSPropertyBag_ReadUnknown
 title: PSPropertyBag_ReadUnknown function (propsys.h)
-
 description: Reads a given property of an unknown data value in a property bag.
 old-location: properties\PSPropertyBag_ReadUnknown.htm
 tech.root: properties
 ms.assetid: 87921F52-308F-4ed7-8390-A3C0217ACEFD
-
 ms.date: 12/05/2018
 ms.keywords: PSPropertyBag_ReadUnknown, PSPropertyBag_ReadUnknown function [Windows Properties], properties.PSPropertyBag_ReadUnknown, propsys/PSPropertyBag_ReadUnknown, shell.PSPropertyBag_ReadUnknown, shell_PSPropertyBag_ReadUnknown
 ms.topic: function
-f1_keywords: 
- - "propsys/PSPropertyBag_ReadUnknown"
+f1_keywords:
+- propsys/PSPropertyBag_ReadUnknown
 dev_langs:
- - c++
+- c++
 req.header: propsys.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Propsys.lib
 req.dll: Propsys.dll (version 6.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Propsys.dll
+- Propsys.dll
 api_name:
- - PSPropertyBag_ReadUnknown
+- PSPropertyBag_ReadUnknown
 targetos: Windows
 req.typenames: 
 req.redist: 

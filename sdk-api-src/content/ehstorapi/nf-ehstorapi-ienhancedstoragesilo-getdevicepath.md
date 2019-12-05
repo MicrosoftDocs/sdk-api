@@ -1,19 +1,17 @@
 ---
 UID: NF:ehstorapi.IEnhancedStorageSilo.GetDevicePath
 title: IEnhancedStorageSilo::GetDevicePath (ehstorapi.h)
-
 description: Retrieves the path to the silo device node. The returned string is suitable for passing to Windows System APIs such as CreateFile or SetupDiOpenDeviceInterface.
 old-location: enstor\ienhancedstoragesilo_getdevicepath.htm
 tech.root: enstor
 ms.assetid: 98ef04a1-d14d-4de3-b24a-0f044335d75b
-
 ms.date: 12/05/2018
 ms.keywords: GetDevicePath, GetDevicePath method [Enhanced Storage], GetDevicePath method [Enhanced Storage],IEnhancedStorageSilo interface, IEnhancedStorageSilo interface [Enhanced Storage],GetDevicePath method, IEnhancedStorageSilo.GetDevicePath, IEnhancedStorageSilo::GetDevicePath, ehstorapi/IEnhancedStorageSilo::GetDevicePath, enstor.ienhancedstoragesilo_getdevicepath
 ms.topic: method
-f1_keywords: 
- - "ehstorapi/IEnhancedStorageSilo.GetDevicePath"
+f1_keywords:
+- ehstorapi/IEnhancedStorageSilo.GetDevicePath
 dev_langs:
- - c++
+- c++
 req.header: ehstorapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - EhStorAPI.h
+- EhStorAPI.h
 api_name:
- - IEnhancedStorageSilo.GetDevicePath
+- IEnhancedStorageSilo.GetDevicePath
 targetos: Windows
 req.typenames: 
 req.redist: 

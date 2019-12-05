@@ -1,19 +1,17 @@
 ---
 UID: NF:callobj.ICallUnmarshal.Unmarshal
 title: ICallUnmarshal::Unmarshal (callobj.h)
-
 description: Turns a marshaled packet of data back into an activation record that can then be invoked or manipulated in some other way.
 old-location: com\icallunmarshal_unmarshal.htm
 tech.root: com
 ms.assetid: 15d04287-285d-43d9-ad55-3dc9c7ae192e
-
 ms.date: 12/05/2018
 ms.keywords: ICallUnmarshal interface [COM],Unmarshal method, ICallUnmarshal.Unmarshal, ICallUnmarshal::Unmarshal, Unmarshal, Unmarshal method [COM], Unmarshal method [COM],ICallUnmarshal interface, _com_icallunmarshal_unmarshal, callobj/ICallUnmarshal::Unmarshal, com.icallunmarshal_unmarshal
 ms.topic: method
-f1_keywords: 
- - "callobj/ICallUnmarshal.Unmarshal"
+f1_keywords:
+- callobj/ICallUnmarshal.Unmarshal
 dev_langs:
- - c++
+- c++
 req.header: callobj.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Callobj.h
+- Callobj.h
 api_name:
- - ICallUnmarshal.Unmarshal
+- ICallUnmarshal.Unmarshal
 targetos: Windows
 req.typenames: 
 req.redist: 

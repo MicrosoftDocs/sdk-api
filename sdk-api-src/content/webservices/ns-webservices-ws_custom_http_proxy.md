@@ -1,19 +1,17 @@
 ---
 UID: NS:webservices._WS_CUSTOM_HTTP_PROXY
 title: WS_CUSTOM_HTTP_PROXY (webservices.h)
-
 description: A structure that is used to specify the custom proxy for the channel, using the WS_CHANNEL_PROPERTY_CUSTOM_HTTP_PROXY.
 old-location: wsw\ws_custom_http_proxy.htm
 tech.root: wsw
 ms.assetid: cb666185-6a33-4e4c-a0b2-290f2f0bce4b
-
 ms.date: 12/05/2018
 ms.keywords: WS_CUSTOM_HTTP_PROXY, WS_CUSTOM_HTTP_PROXY structure [Web Services for Windows], webservices/WS_CUSTOM_HTTP_PROXY, wsw.ws_custom_http_proxy
 ms.topic: struct
-f1_keywords: 
- - "webservices/WS_CUSTOM_HTTP_PROXY"
+f1_keywords:
+- webservices/WS_CUSTOM_HTTP_PROXY
 dev_langs:
- - c++
+- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WebServices.h
+- WebServices.h
 api_name:
- - WS_CUSTOM_HTTP_PROXY
+- WS_CUSTOM_HTTP_PROXY
 targetos: Windows
 req.typenames: WS_CUSTOM_HTTP_PROXY
 req.redist: 

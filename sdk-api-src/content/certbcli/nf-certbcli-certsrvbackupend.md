@@ -1,19 +1,17 @@
 ---
 UID: NF:certbcli.CertSrvBackupEnd
 title: CertSrvBackupEnd function (certbcli.h)
-
 description: Ends a Certificate Services backup session.
 old-location: security\certsrvbackupend.htm
 tech.root: SecCrypto
 ms.assetid: ebf87af3-df45-4440-9881-e2926b0c4f08
-
 ms.date: 12/05/2018
 ms.keywords: CertSrvBackupEnd, CertSrvBackupEnd function [Security], _certsrv_certsrvbackupend, certbcli/CertSrvBackupEnd, security.certsrvbackupend
 ms.topic: function
-f1_keywords: 
- - "certbcli/CertSrvBackupEnd"
+f1_keywords:
+- certbcli/CertSrvBackupEnd
 dev_langs:
- - c++
+- c++
 req.header: certbcli.h
 req.include-header: Certsrv.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Certadm.lib
 req.dll: Certadm.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Certadm.dll
+- Certadm.dll
 api_name:
- - CertSrvBackupEnd
+- CertSrvBackupEnd
 targetos: Windows
 req.typenames: 
 req.redist: 

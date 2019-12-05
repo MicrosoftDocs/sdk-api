@@ -1,19 +1,17 @@
 ---
 UID: NS:objidl.tagRemSNB
 title: RemSNB (objidl.h)
-
 description: The RemSNB structure is used for marshaling the SNB data type.Defined in the IStorage interface (Storag.idl).
 old-location: stg\remsnb.htm
 tech.root: Stg
 ms.assetid: 09a50518-2889-49ca-9d81-3035777ac2ac
-
 ms.date: 12/05/2018
-ms.keywords: "*wireSNB, RemSNB, RemSNB structure [Structured Storage], SNB, SNB structure pointer [Structured Storage], _stg_remsnb, objidl/RemSNB, objidl/SNB, stg.remsnb"
+ms.keywords: '*wireSNB, RemSNB, RemSNB structure [Structured Storage], SNB, SNB structure pointer [Structured Storage], _stg_remsnb, objidl/RemSNB, objidl/SNB, stg.remsnb'
 ms.topic: struct
-f1_keywords: 
- - "objidl/RemSNB"
+f1_keywords:
+- objidl/RemSNB
 dev_langs:
- - c++
+- c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Objidl.h
+- Objidl.h
 api_name:
- - RemSNB
+- RemSNB
 targetos: Windows
 req.typenames: RemSNB
 req.redist: 

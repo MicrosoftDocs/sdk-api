@@ -1,19 +1,17 @@
 ---
 UID: NF:cscobj.IOfflineFilesEventsFilter.GetExcludedEvents
 title: IOfflineFilesEventsFilter::GetExcludedEvents (cscobj.h)
-
 description: Retrieves an array of OFFLINEFILES_EVENTS enumeration values describing which events should not be received by the event sink.
 old-location: of\iofflinefileseventsfilter_getexcludedevents.htm
 tech.root: offlinefiles
 ms.assetid: 40e388b2-b051-4b0a-b96e-7a73b521758e
-
 ms.date: 12/05/2018
 ms.keywords: GetExcludedEvents, GetExcludedEvents method [Offline Files], GetExcludedEvents method [Offline Files],IOfflineFilesEventsFilter interface, IOfflineFilesEventsFilter interface [Offline Files],GetExcludedEvents method, IOfflineFilesEventsFilter.GetExcludedEvents, IOfflineFilesEventsFilter::GetExcludedEvents, cscobj/IOfflineFilesEventsFilter::GetExcludedEvents, of.iofflinefileseventsfilter_getexcludedevents
 ms.topic: method
-f1_keywords: 
- - "cscobj/IOfflineFilesEventsFilter.GetExcludedEvents"
+f1_keywords:
+- cscobj/IOfflineFilesEventsFilter.GetExcludedEvents
 dev_langs:
- - c++
+- c++
 req.header: cscobj.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: CscSvc.dll; CscObj.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CscSvc.dll
- - CscObj.dll
+- CscSvc.dll
+- CscObj.dll
 api_name:
- - IOfflineFilesEventsFilter.GetExcludedEvents
+- IOfflineFilesEventsFilter.GetExcludedEvents
 targetos: Windows
 req.typenames: 
 req.redist: 

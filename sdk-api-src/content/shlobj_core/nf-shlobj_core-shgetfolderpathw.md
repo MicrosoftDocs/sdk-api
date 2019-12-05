@@ -1,19 +1,17 @@
 ---
 UID: NF:shlobj_core.SHGetFolderPathW
 title: SHGetFolderPathW function (shlobj_core.h)
-
 description: Deprecated.
 old-location: shell\SHGetFolderPath.htm
 tech.root: shell
 ms.assetid: a240abc0-e0a6-4f95-8e74-7dc410970212
-
 ms.date: 12/05/2018
 ms.keywords: SHGFP_TYPE_CURRENT, SHGFP_TYPE_DEFAULT, SHGetFolderPath, SHGetFolderPath function [Windows Shell], SHGetFolderPathA, SHGetFolderPathW, _win32_SHGetFolderPath, _win32_SHGetFolderPath_cpp, shell.SHGetFolderPath, shlobj_core/SHGetFolderPath, shlobj_core/SHGetFolderPathA, shlobj_core/SHGetFolderPathW
 ms.topic: function
-f1_keywords: 
- - "shlobj_core/SHGetFolderPath"
+f1_keywords:
+- shlobj_core/SHGetFolderPath
 dev_langs:
- - c++
+- c++
 req.header: shlobj_core.h
 req.include-header: Shlobj.h, Shlobj_core.h
 req.target-type: Windows
@@ -32,23 +30,23 @@ req.lib: Shell32.lib
 req.dll: Shell32.dll (version 5.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Shell32.dll
- - API-MS-Win-shell-shellfolders-l1-1-0.dll
- - KernelBase.dll
- - Ext-MS-Win-Shell32-Shellfolders-L1-1-0.dll
- - Ext-MS-Win-Shell32-Shellfolders-L1-1-1.dll
- - ext-ms-win-shell32-shellfolders-l1-2-0.dll
- - Windows.Storage.dll
- - bcrypt.dll
+- Shell32.dll
+- API-MS-Win-shell-shellfolders-l1-1-0.dll
+- KernelBase.dll
+- Ext-MS-Win-Shell32-Shellfolders-L1-1-0.dll
+- Ext-MS-Win-Shell32-Shellfolders-L1-1-1.dll
+- ext-ms-win-shell32-shellfolders-l1-2-0.dll
+- Windows.Storage.dll
+- bcrypt.dll
 api_name:
- - SHGetFolderPath
- - SHGetFolderPathA
- - SHGetFolderPathW
+- SHGetFolderPath
+- SHGetFolderPathA
+- SHGetFolderPathW
 targetos: Windows
 req.typenames: 
 req.redist: 

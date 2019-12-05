@@ -1,19 +1,17 @@
 ---
 UID: NE:ndattrib.__MIDL___MIDL_itf_ndattrib_0000_0000_0002
 title: REPAIR_RISK (ndattrib.h)
-
 description: The REPAIR_RISK enumeration specifies whether repair changes are persistent and whether they can be undone.
 old-location: ndf\repair_risk.htm
 tech.root: NDF
 ms.assetid: 016e047e-9962-4b27-bd5d-8dd6b826ae03
-
 ms.date: 12/05/2018
 ms.keywords: REPAIR_RISK, REPAIR_RISK enumeration [NDF], RR_NORISK, RR_NOROLLBACK, RR_ROLLBACK, ndattrib/REPAIR_RISK, ndattrib/RR_NORISK, ndattrib/RR_NOROLLBACK, ndattrib/RR_ROLLBACK, ndf.repair_risk
 ms.topic: enum
-f1_keywords: 
- - "ndattrib/REPAIR_RISK"
+f1_keywords:
+- ndattrib/REPAIR_RISK
 dev_langs:
- - c++
+- c++
 req.header: ndattrib.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Ndattrib.h
+- Ndattrib.h
 api_name:
- - REPAIR_RISK
+- REPAIR_RISK
 targetos: Windows
 req.typenames: REPAIR_RISK
 req.redist: 

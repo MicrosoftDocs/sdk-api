@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d9.IDirect3DDevice9Ex.CreateRenderTargetEx
 title: IDirect3DDevice9Ex::CreateRenderTargetEx (d3d9.h)
-
 description: Creates a render-target surface.
 old-location: direct3d9\idirect3ddevice9ex_createrendertargetex.htm
 tech.root: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3ddevice9ex_createrendertargetex.htm
-
 ms.date: 12/05/2018
 ms.keywords: 78a5ebad-c705-e895-65b2-37612b0e204e, CreateRenderTargetEx, CreateRenderTargetEx method [Direct3D 9], CreateRenderTargetEx method [Direct3D 9],IDirect3DDevice9Ex interface, IDirect3DDevice9Ex interface [Direct3D 9],CreateRenderTargetEx method, IDirect3DDevice9Ex.CreateRenderTargetEx, IDirect3DDevice9Ex::CreateRenderTargetEx, d3d9/IDirect3DDevice9Ex::CreateRenderTargetEx, direct3d9.idirect3ddevice9ex_createrendertargetex
 ms.topic: method
-f1_keywords: 
- - "d3d9/IDirect3DDevice9Ex.CreateRenderTargetEx"
+f1_keywords:
+- d3d9/IDirect3DDevice9Ex.CreateRenderTargetEx
 dev_langs:
- - c++
+- c++
 req.header: d3d9.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: D3D9.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D9.lib
- - D3D9.dll
+- D3D9.lib
+- D3D9.dll
 api_name:
- - IDirect3DDevice9Ex.CreateRenderTargetEx
+- IDirect3DDevice9Ex.CreateRenderTargetEx
 targetos: Windows
 req.typenames: 
 req.redist: 

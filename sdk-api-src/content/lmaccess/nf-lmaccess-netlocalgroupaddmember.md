@@ -1,19 +1,17 @@
 ---
 UID: NF:lmaccess.NetLocalGroupAddMember
 title: NetLocalGroupAddMember function (lmaccess.h)
-
 description: The NetLocalGroupAddMember function is obsolete. You should use the NetLocalGroupAddMembers function instead.
 old-location: netmgmt\netlocalgroupaddmember.htm
 tech.root: NetMgmt
 ms.assetid: df249dfd-2509-4e67-af4d-b152b95d0eae
-
 ms.date: 12/05/2018
 ms.keywords: NetLocalGroupAddMember, NetLocalGroupAddMember function [Network Management], _win32_netlocalgroupaddmember, lmaccess/NetLocalGroupAddMember, netmgmt.netlocalgroupaddmember
 ms.topic: function
-f1_keywords: 
- - "lmaccess/NetLocalGroupAddMember"
+f1_keywords:
+- lmaccess/NetLocalGroupAddMember
 dev_langs:
- - c++
+- c++
 req.header: lmaccess.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - lmaccess.h
+- lmaccess.h
 api_name:
- - NetLocalGroupAddMember
+- NetLocalGroupAddMember
 targetos: Windows
 req.typenames: 
 req.redist: 

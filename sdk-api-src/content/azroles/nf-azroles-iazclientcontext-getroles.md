@@ -1,19 +1,17 @@
 ---
 UID: NF:azroles.IAzClientContext.GetRoles
 title: IAzClientContext::GetRoles (azroles.h)
-
 description: Returns the roles for the client context.
 old-location: security\iazclientcontext_getroles.htm
 tech.root: SecAuthZ
 ms.assetid: 753506cc-ed44-4795-90e5-c76010181d8a
-
 ms.date: 12/05/2018
 ms.keywords: AzClientContext object [Security],GetRoles method, GetRoles, GetRoles method [Security], GetRoles method [Security],AzClientContext object, GetRoles method [Security],IAzClientContext interface, IAzClientContext interface [Security],GetRoles method, IAzClientContext.GetRoles, IAzClientContext::GetRoles, azroles/IAzClientContext::GetRoles, security.iazclientcontext_getroles
 ms.topic: method
-f1_keywords: 
- - "azroles/IAzClientContext.GetRoles"
+f1_keywords:
+- azroles/IAzClientContext.GetRoles
 dev_langs:
- - c++
+- c++
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Azroles.lib
 req.dll: Azroles.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Azroles.dll
+- Azroles.dll
 api_name:
- - IAzClientContext.GetRoles
- - AzClientContext.GetRoles
+- IAzClientContext.GetRoles
+- AzClientContext.GetRoles
 targetos: Windows
 req.typenames: 
 req.redist: Windows Server 2003 Administration Tools Pack on Windows XP

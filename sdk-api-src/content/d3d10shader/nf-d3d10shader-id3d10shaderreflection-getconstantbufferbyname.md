@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d10shader.ID3D10ShaderReflection.GetConstantBufferByName
 title: ID3D10ShaderReflection::GetConstantBufferByName (d3d10shader.h)
-
 description: Get a constant buffer by name.
 old-location: direct3d10\id3d10shaderreflection_getconstantbufferbyname.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10shaderreflection_getconstantbufferbyname.htm
-
 ms.date: 12/05/2018
 ms.keywords: GetConstantBufferByName, GetConstantBufferByName method [Direct3D 10], GetConstantBufferByName method [Direct3D 10],ID3D10ShaderReflection interface, ID3D10ShaderReflection interface [Direct3D 10],GetConstantBufferByName method, ID3D10ShaderReflection.GetConstantBufferByName, ID3D10ShaderReflection::GetConstantBufferByName, c597f147-5514-438b-1e81-09771d342a5f, d3d10shader/ID3D10ShaderReflection::GetConstantBufferByName, direct3d10.id3d10shaderreflection_getconstantbufferbyname
 ms.topic: method
-f1_keywords: 
- - "d3d10shader/ID3D10ShaderReflection.GetConstantBufferByName"
+f1_keywords:
+- d3d10shader/ID3D10ShaderReflection.GetConstantBufferByName
 dev_langs:
- - c++
+- c++
 req.header: d3d10shader.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D10Shader.h
+- D3D10Shader.h
 api_name:
- - ID3D10ShaderReflection.GetConstantBufferByName
+- ID3D10ShaderReflection.GetConstantBufferByName
 targetos: Windows
 req.typenames: 
 req.redist: 

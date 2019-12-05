@@ -1,19 +1,17 @@
 ---
 UID: NF:winldap.ldap_create_sort_controlW
 title: ldap_create_sort_controlW function (winldap.h)
-
 description: The ldap_create_sort_control function is used to format a list of sort keys into a search control. Support for controls is available effective with LDAP 3, but whether the sort control is supported or not is dependent on the particular server.
 old-location: ldap\ldap_create_sort_control.htm
 tech.root: ldap
 ms.assetid: bbf8f860-ead8-4b22-8efa-0697076267ad
-
 ms.date: 12/05/2018
-ms.keywords: "_ldap_ldap_create_sort_control, ldap.ldap__create__sort__control, ldap.ldap_create_sort_control, ldap_create_sort_control, ldap_create_sort_control function [LDAP], ldap_create_sort_controlA, ldap_create_sort_controlW, winldap/ldap_create_sort_control, winldap/ldap_create_sort_controlA, winldap/ldap_create_sort_controlW"
+ms.keywords: _ldap_ldap_create_sort_control, ldap.ldap__create__sort__control, ldap.ldap_create_sort_control, ldap_create_sort_control, ldap_create_sort_control function [LDAP], ldap_create_sort_controlA, ldap_create_sort_controlW, winldap/ldap_create_sort_control, winldap/ldap_create_sort_controlA, winldap/ldap_create_sort_controlW
 ms.topic: function
-f1_keywords: 
- - "winldap/ldap_create_sort_control"
+f1_keywords:
+- winldap/ldap_create_sort_control
 dev_langs:
- - c++
+- c++
 req.header: winldap.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Wldap32.lib
 req.dll: Wldap32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Wldap32.dll
+- Wldap32.dll
 api_name:
- - ldap_create_sort_control
- - ldap_create_sort_controlA
- - ldap_create_sort_controlW
+- ldap_create_sort_control
+- ldap_create_sort_controlA
+- ldap_create_sort_controlW
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:clusapi.AddClusterGroupDependency
 title: AddClusterGroupDependency function (clusapi.h)
-
 description: Adds a dependency between two cluster groups.
 old-location: mscs\addclustergroupdependency.htm
 tech.root: MsCS
 ms.assetid: 595921d5-cca0-49fc-b1f5-55af2c73ed74
-
 ms.date: 12/05/2018
 ms.keywords: AddClusterGroupDependency, AddClusterGroupDependency function [Failover Cluster], PCLUSAPI_ADD_CLUSTER_GROUP_DEPENDENCY, PCLUSAPI_ADD_CLUSTER_GROUP_DEPENDENCY function [Failover Cluster], clusapi/AddClusterGroupDependency, clusapi/PCLUSAPI_ADD_CLUSTER_GROUP_DEPENDENCY, mscs.addclustergroupdependency
 ms.topic: function
-f1_keywords: 
- - "clusapi/AddClusterGroupDependency"
+f1_keywords:
+- clusapi/AddClusterGroupDependency
 dev_langs:
- - c++
+- c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: ClusAPI.lib
 req.dll: ClusAPI.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - ClusAPI.dll
+- ClusAPI.dll
 api_name:
- - AddClusterGroupDependency
+- AddClusterGroupDependency
 targetos: Windows
 req.typenames: 
 req.redist: 

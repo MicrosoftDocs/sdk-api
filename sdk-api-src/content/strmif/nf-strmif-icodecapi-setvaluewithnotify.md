@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.ICodecAPI.SetValueWithNotify
 title: ICodecAPI::SetValueWithNotify (strmif.h)
-
 description: The SetValueWithNotify method sets a property on a codec and returns a list of other properties that changed as a result.
 old-location: dshow\icodecapi_setvaluewithnotify.htm
 tech.root: DirectShow
 ms.assetid: b2899e30-4dfb-47e7-88dd-adba49368a4f
-
 ms.date: 12/05/2018
 ms.keywords: ICodecAPI interface [DirectShow],SetValueWithNotify method, ICodecAPI.SetValueWithNotify, ICodecAPI::SetValueWithNotify, ICodecAPISetValueWithNotify, SetValueWithNotify, SetValueWithNotify method [DirectShow], SetValueWithNotify method [DirectShow],ICodecAPI interface, dshow.icodecapi_setvaluewithnotify, strmif/ICodecAPI::SetValueWithNotify
 ms.topic: method
-f1_keywords: 
- - "strmif/ICodecAPI.SetValueWithNotify"
+f1_keywords:
+- strmif/ICodecAPI.SetValueWithNotify
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - ICodecAPI.SetValueWithNotify
+- ICodecAPI.SetValueWithNotify
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:propsys.PSPropertyBag_ReadSHORT
 title: PSPropertyBag_ReadSHORT function (propsys.h)
-
 description: Reads the SHORT data value of a property in a property bag.
 old-location: properties\PSPropertyBag_ReadSHORT.htm
 tech.root: properties
 ms.assetid: F6E71602-86D0-41be-854F-83C5D5B64BF8
-
 ms.date: 12/05/2018
 ms.keywords: PSPropertyBag_ReadSHORT, PSPropertyBag_ReadSHORT function [Windows Properties], properties.PSPropertyBag_ReadSHORT, propsys/PSPropertyBag_ReadSHORT, shell.PSPropertyBag_ReadSHORT, shell_PSPropertyBag_ReadSHORT
 ms.topic: function
-f1_keywords: 
- - "propsys/PSPropertyBag_ReadSHORT"
+f1_keywords:
+- propsys/PSPropertyBag_ReadSHORT
 dev_langs:
- - c++
+- c++
 req.header: propsys.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Propsys.lib
 req.dll: Propsys.dll (version 6.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Propsys.dll
+- Propsys.dll
 api_name:
- - PSPropertyBag_ReadSHORT
+- PSPropertyBag_ReadSHORT
 targetos: Windows
 req.typenames: 
 req.redist: 

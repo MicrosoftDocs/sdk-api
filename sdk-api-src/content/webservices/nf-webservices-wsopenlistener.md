@@ -1,19 +1,17 @@
 ---
 UID: NF:webservices.WsOpenListener
 title: WsOpenListener function (webservices.h)
-
 description: Initiates &#0034;listening&#0034; on a specified address. Once a listener is opened channels can be accepted from it. If the open is successful the Listener must be closed using the WsCloseListener function before Listener resources can be released.
 old-location: wsw\wsopenlistener.htm
 tech.root: wsw
 ms.assetid: 36226881-3fe7-4510-b147-7ee30146482c
-
 ms.date: 12/05/2018
 ms.keywords: WsOpenListener, WsOpenListener function [Web Services for Windows], webservices/WsOpenListener, wsw.wsopenlistener
 ms.topic: function
-f1_keywords: 
- - "webservices/WsOpenListener"
+f1_keywords:
+- webservices/WsOpenListener
 dev_langs:
- - c++
+- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: WebServices.lib
 req.dll: WebServices.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - WebServices.dll
+- WebServices.dll
 api_name:
- - WsOpenListener
+- WsOpenListener
 targetos: Windows
 req.typenames: 
 req.redist: 

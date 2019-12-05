@@ -1,19 +1,17 @@
 ---
 UID: NF:wingdi.SetRectRgn
 title: SetRectRgn function (wingdi.h)
-
 description: The SetRectRgn function converts a region into a rectangular region with the specified coordinates.
 old-location: gdi\setrectrgn.htm
 tech.root: gdi
 ms.assetid: 9a024d61-f397-43d8-a48e-edb8102a6f55
-
 ms.date: 12/05/2018
 ms.keywords: SetRectRgn, SetRectRgn function [Windows GDI], _win32_SetRectRgn, gdi.setrectrgn, wingdi/SetRectRgn
 ms.topic: function
-f1_keywords: 
- - "wingdi/SetRectRgn"
+f1_keywords:
+- wingdi/SetRectRgn
 dev_langs:
- - c++
+- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - gdi32.dll
- - Ext-MS-Win-RTCore-GDI-rgn-l1-1-0.dll
- - api-ms-win-gdi-ie-rgn-l1-1-0.dll
- - ie_shims.dll
- - ext-ms-win-rtcore-gdi-rgn-l1-1-1.dll
+- gdi32.dll
+- Ext-MS-Win-RTCore-GDI-rgn-l1-1-0.dll
+- api-ms-win-gdi-ie-rgn-l1-1-0.dll
+- ie_shims.dll
+- ext-ms-win-rtcore-gdi-rgn-l1-1-1.dll
 api_name:
- - SetRectRgn
+- SetRectRgn
 targetos: Windows
 req.typenames: 
 req.redist: 

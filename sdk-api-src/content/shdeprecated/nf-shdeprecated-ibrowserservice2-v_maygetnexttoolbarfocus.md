@@ -1,19 +1,17 @@
 ---
 UID: NF:shdeprecated.IBrowserService2.v_MayGetNextToolbarFocus
 title: IBrowserService2::v_MayGetNextToolbarFocus (shdeprecated.h)
-
 description: Deprecated. Used when translating accelerators through TranslateAcceleratorSB and in checking the cycle of focus between the view and the browser's toolbars.
 old-location: shell\IBrowserService2_v_MayGetNextToolbarFocus.htm
 tech.root: shell
 ms.assetid: a1c271b2-d567-43b4-966e-0eea597f004b
-
 ms.date: 12/05/2018
 ms.keywords: IBrowserService2 interface [Windows Shell],v_MayGetNextToolbarFocus method, IBrowserService2.v_MayGetNextToolbarFocus, IBrowserService2::v_MayGetNextToolbarFocus, shdeprecated/IBrowserService2::v_MayGetNextToolbarFocus, shell.IBrowserService2_v_MayGetNextToolbarFocus, v_MayGetNextToolbarFocus, v_MayGetNextToolbarFocus method [Windows Shell], v_MayGetNextToolbarFocus method [Windows Shell],IBrowserService2 interface, zone_IBrowserService2_v_MayGetNextToolbarFocus
 ms.topic: method
-f1_keywords: 
- - "shdeprecated/IBrowserService2.v_MayGetNextToolbarFocus"
+f1_keywords:
+- shdeprecated/IBrowserService2.v_MayGetNextToolbarFocus
 dev_langs:
- - c++
+- c++
 req.header: shdeprecated.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shdeprecated.h
+- Shdeprecated.h
 api_name:
- - IBrowserService2.v_MayGetNextToolbarFocus
+- IBrowserService2.v_MayGetNextToolbarFocus
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NN:docobj.IOleDocumentView
 title: IOleDocumentView (docobj.h)
-
 description: The IOleDocumentView interface enables a container to communicate with each view supported by a document object.
 old-location: com\ioledocumentview.htm
 tech.root: com
 ms.assetid: 07948c08-f047-4ae0-a41b-5410b4bbf4d6
-
 ms.date: 12/05/2018
 ms.keywords: IOleDocumentView, IOleDocumentView interface [COM], IOleDocumentView interface [COM],described, _ole_ioledocumentview, com.ioledocumentview, docobj/IOleDocumentView
 ms.topic: interface
-f1_keywords: 
- - "docobj/IOleDocumentView"
+f1_keywords:
+- docobj/IOleDocumentView
 dev_langs:
- - c++
+- c++
 req.header: docobj.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - DocObj.h
+- DocObj.h
 api_name:
- - IOleDocumentView
+- IOleDocumentView
 targetos: Windows
 req.typenames: 
 req.redist: 

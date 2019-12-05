@@ -1,19 +1,17 @@
 ---
 UID: NN:wmcodecdsp.IWMCodecOutputTimestamp
 title: IWMCodecOutputTimestamp (wmcodecdsp.h)
-
 description: Gets the time stamp of the next video frame to be decoded.
 old-location: mf\iwmcodecoutputtimestampinterface.htm
 tech.root: medfound
 ms.assetid: 0dbac3fa-7521-434d-aa0a-2e8422c3da59
-
 ms.date: 12/05/2018
 ms.keywords: IWMCodecOutputTimestamp, IWMCodecOutputTimestamp interface [Media Foundation], IWMCodecOutputTimestamp interface [Media Foundation],described, codecapi.iwmcodecoutputtimestampinterface, mf.iwmcodecoutputtimestampinterface, wmcodecdsp/IWMCodecOutputTimestamp
 ms.topic: interface
-f1_keywords: 
- - "wmcodecdsp/IWMCodecOutputTimestamp"
+f1_keywords:
+- wmcodecdsp/IWMCodecOutputTimestamp
 dev_langs:
- - c++
+- c++
 req.header: wmcodecdsp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmcodecdsp.h
+- wmcodecdsp.h
 api_name:
- - IWMCodecOutputTimestamp
+- IWMCodecOutputTimestamp
 targetos: Windows
 req.typenames: 
 req.redist: 

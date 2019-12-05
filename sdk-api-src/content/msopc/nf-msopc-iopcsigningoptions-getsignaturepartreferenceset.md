@@ -1,19 +1,17 @@
 ---
 UID: NF:msopc.IOpcSigningOptions.GetSignaturePartReferenceSet
 title: IOpcSigningOptions::GetSignaturePartReferenceSet (msopc.h)
-
 description: Gets an IOpcSignaturePartReferenceSet interface.
 old-location: opc\iopcsigningoptions_getsignaturepartreferenceset.htm
 tech.root: OPC
 ms.assetid: 60e657c3-41a3-4a05-a084-111429b1add9
-
 ms.date: 12/05/2018
 ms.keywords: GetSignaturePartReferenceSet, GetSignaturePartReferenceSet method [Open Packaging Conventions], GetSignaturePartReferenceSet method [Open Packaging Conventions],IOpcSigningOptions interface, IOpcSigningOptions interface [Open Packaging Conventions],GetSignaturePartReferenceSet method, IOpcSigningOptions.GetSignaturePartReferenceSet, IOpcSigningOptions::GetSignaturePartReferenceSet, msopc/IOpcSigningOptions::GetSignaturePartReferenceSet, opc.iopcsigningoptions_getsignaturepartreferenceset
 ms.topic: method
-f1_keywords: 
- - "msopc/IOpcSigningOptions.GetSignaturePartReferenceSet"
+f1_keywords:
+- msopc/IOpcSigningOptions.GetSignaturePartReferenceSet
 dev_langs:
- - c++
+- c++
 req.header: msopc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msopc.h
+- msopc.h
 api_name:
- - IOpcSigningOptions.GetSignaturePartReferenceSet
+- IOpcSigningOptions.GetSignaturePartReferenceSet
 targetos: Windows
 req.typenames: 
 req.redist: 

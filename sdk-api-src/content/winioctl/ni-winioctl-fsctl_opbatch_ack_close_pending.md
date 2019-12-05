@@ -1,19 +1,17 @@
 ---
 UID: NI:winioctl.FSCTL_OPBATCH_ACK_CLOSE_PENDING
 title: FSCTL_OPBATCH_ACK_CLOSE_PENDING
-
 description: Notifies a server that a client application is ready to close a file.
 old-location: fs\fsctl_opbatch_ack_close_pending.htm
 tech.root: FileIO
 ms.assetid: 09014adb-e65e-4e9c-9f29-4bdbe61ea695
-
 ms.date: 12/05/2018
 ms.keywords: FSCTL_OPBATCH_ACK_CLOSE_PENDING, FSCTL_OPBATCH_ACK_CLOSE_PENDING control, FSCTL_OPBATCH_ACK_CLOSE_PENDING control code [Files], _win32_fsctl_opbatch_ack_close_pending, base.fsctl_opbatch_ack_close_pending, fs.fsctl_opbatch_ack_close_pending, winioctl/FSCTL_OPBATCH_ACK_CLOSE_PENDING
 ms.topic: ioctl
 f1_keywords:
 - winioctl/FSCTL_OPBATCH_ACK_CLOSE_PENDING
 dev_langs:
- - c++
+- c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

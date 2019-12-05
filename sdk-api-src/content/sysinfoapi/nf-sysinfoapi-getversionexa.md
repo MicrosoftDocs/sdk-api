@@ -1,19 +1,17 @@
 ---
 UID: NF:sysinfoapi.GetVersionExA
 title: GetVersionExA function (sysinfoapi.h)
-
 description: With the release of Windows 8.1, the behavior of the GetVersionEx API has changed in the value it will return for the operating system version. The value returned by the GetVersionEx function now depends on how the application is manifested.
 old-location: base\getversionex.htm
 tech.root: SysInfo
 ms.assetid: 8e3ab4d6-bacd-4bc5-b8f6-dd49289354de
-
 ms.date: 12/05/2018
 ms.keywords: GetVersionEx, GetVersionEx function, GetVersionExA, GetVersionExW, _win32_getversionex, base.getversionex, sysinfoapi/GetVersionEx, sysinfoapi/GetVersionExA, sysinfoapi/GetVersionExW
 ms.topic: function
 f1_keywords:
 - sysinfoapi/GetVersionEx
 dev_langs:
- - c++
+- c++
 req.header: sysinfoapi.h
 req.include-header: Windows.h
 req.target-type: Windows

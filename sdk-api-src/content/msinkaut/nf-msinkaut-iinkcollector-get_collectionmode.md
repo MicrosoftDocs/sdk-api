@@ -1,19 +1,17 @@
 ---
 UID: NF:msinkaut.IInkCollector.get_CollectionMode
 title: IInkCollector::get_CollectionMode (msinkaut.h)
-
 description: Gets or sets the collection mode that determines whether ink, gesture, or both are recognized as the user writes.
 old-location: tablet\inkcollector_collectionmode.htm
 tech.root: tablet
 ms.assetid: 390fa1a1-254a-4070-806c-c8c478f69254
-
 ms.date: 12/05/2018
 ms.keywords: 390fa1a1-254a-4070-806c-c8c478f69254, CollectionMode property [Tablet PC], CollectionMode property [Tablet PC],IInkCollector interface, IInkCollector interface [Tablet PC],CollectionMode property, IInkCollector.CollectionMode, IInkCollector.get_CollectionMode, IInkCollector.put_CollectionMode, IInkCollector::CollectionMode, IInkCollector::get_CollectionMode, IInkCollector::put_CollectionMode, InkCollector.get_CollectionMode, InkCollector.put_CollectionMode, get_CollectionMode, msinkaut/IInkCollector::CollectionMode, msinkaut/IInkCollector::get_CollectionMode, msinkaut/IInkCollector::put_CollectionMode, put_CollectionMode, tablet.inkcollector_collectionmode
 ms.topic: method
-f1_keywords: 
- - "msinkaut/IInkCollector.CollectionMode"
+f1_keywords:
+- msinkaut/IInkCollector.CollectionMode
 dev_langs:
- - c++
+- c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows
@@ -32,21 +30,21 @@ req.lib: InkObj.dll
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - InkObj.dll
- - InkObj.dll.dll
+- InkObj.dll
+- InkObj.dll.dll
 api_name:
- - IInkCollector.CollectionMode
- - IInkCollector.get_CollectionMode
- - IInkCollector.put_CollectionMode
- - put_CollectionMode
- - IInkCollector.put_CollectionMode
- - InkCollector.get_CollectionMode
- - InkCollector.put_CollectionMode
+- IInkCollector.CollectionMode
+- IInkCollector.get_CollectionMode
+- IInkCollector.put_CollectionMode
+- put_CollectionMode
+- IInkCollector.put_CollectionMode
+- InkCollector.get_CollectionMode
+- InkCollector.put_CollectionMode
 targetos: Windows
 req.typenames: 
 req.redist: 

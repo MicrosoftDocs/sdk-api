@@ -1,19 +1,17 @@
 ---
 UID: NF:winuser.GetSystemDpiForProcess
 title: GetSystemDpiForProcess function (winuser.h)
-
 description: Retrieves the system DPI associated with a given process. This is useful for avoiding compatibility issues that arise from sharing DPI-sensitive information between multiple system-aware processes with different system DPI values.
 old-location: hidpi\getsystemdpiforprocess.htm
 tech.root: hidpi
 ms.assetid: 94236ECF-E69A-4D77-AABA-D43FE8DF8203
-
 ms.date: 12/05/2018
 ms.keywords: GetSystemDpiForProcess, GetSystemDpiForProcess function [High DPI], hidpi.getsystemdpiforprocess, winuser/GetSystemDpiForProcess
 ms.topic: function
-f1_keywords: 
- - "winuser/GetSystemDpiForProcess"
+f1_keywords:
+- winuser/GetSystemDpiForProcess
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - User32.dll
+- User32.dll
 api_name:
- - GetSystemDpiForProcess
+- GetSystemDpiForProcess
 targetos: Windows
 req.typenames: 
 req.redist: 

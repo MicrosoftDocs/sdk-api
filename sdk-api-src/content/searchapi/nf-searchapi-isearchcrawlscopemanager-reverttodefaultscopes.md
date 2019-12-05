@@ -1,19 +1,17 @@
 ---
 UID: NF:searchapi.ISearchCrawlScopeManager.RevertToDefaultScopes
 title: ISearchCrawlScopeManager::RevertToDefaultScopes (searchapi.h)
-
 description: Reverts to the default scopes.
 old-location: search\_search_ISearchCrawlScopeManager_RevertToDefaultScopes.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\crawlscope\isearchcrawlscopemanager\reverttodefaultscopes.htm
-
 ms.date: 12/05/2018
 ms.keywords: ISearchCrawlScopeManager interface [search],RevertToDefaultScopes method, ISearchCrawlScopeManager.RevertToDefaultScopes, ISearchCrawlScopeManager::RevertToDefaultScopes, RevertToDefaultScopes, RevertToDefaultScopes method [search], RevertToDefaultScopes method [search],ISearchCrawlScopeManager interface, _search_ISearchCrawlScopeManager_RevertToDefaultScopes, search._search_ISearchCrawlScopeManager_RevertToDefaultScopes, searchapi/ISearchCrawlScopeManager::RevertToDefaultScopes
 ms.topic: method
-f1_keywords: 
- - "searchapi/ISearchCrawlScopeManager.RevertToDefaultScopes"
+f1_keywords:
+- searchapi/ISearchCrawlScopeManager.RevertToDefaultScopes
 dev_langs:
- - c++
+- c++
 req.header: searchapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Searchapi.h
+- Searchapi.h
 api_name:
- - ISearchCrawlScopeManager.RevertToDefaultScopes
+- ISearchCrawlScopeManager.RevertToDefaultScopes
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0

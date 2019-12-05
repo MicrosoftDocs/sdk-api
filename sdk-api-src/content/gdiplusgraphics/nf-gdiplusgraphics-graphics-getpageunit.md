@@ -1,19 +1,17 @@
 ---
 UID: NF:gdiplusgraphics.Graphics.GetPageUnit
 title: Graphics::GetPageUnit (gdiplusgraphics.h)
-
 description: The Graphics::GetPageUnit method gets the unit of measure currently set for this Graphics object.
 old-location: gdiplus\_gdiplus_CLASS_Graphics_GetPageUnit_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\getpageunit.htm
-
 ms.date: 12/05/2018
 ms.keywords: GetPageUnit, GetPageUnit method [GDI+], GetPageUnit method [GDI+],Graphics class, Graphics class [GDI+],GetPageUnit method, Graphics.GetPageUnit, Graphics::GetPageUnit, _gdiplus_CLASS_Graphics_GetPageUnit_, gdiplus._gdiplus_CLASS_Graphics_GetPageUnit_
 ms.topic: method
-f1_keywords: 
- - "gdiplusgraphics/Graphics.GetPageUnit"
+f1_keywords:
+- gdiplusgraphics/Graphics.GetPageUnit
 dev_langs:
- - c++
+- c++
 req.header: gdiplusgraphics.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - Graphics.GetPageUnit
+- Graphics.GetPageUnit
 targetos: Windows
 req.typenames: 
 req.redist: 

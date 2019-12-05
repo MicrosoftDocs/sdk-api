@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IShellLinkDataList.RemoveDataBlock
 title: IShellLinkDataList::RemoveDataBlock (shobjidl_core.h)
-
 description: Removes a data block from a link.
 old-location: shell\IShellLinkDataList_RemoveDataBlock.htm
 tech.root: shell
 ms.assetid: 32660c95-4b09-4ede-b02d-bf3a335a9097
-
 ms.date: 12/05/2018
 ms.keywords: IShellLinkDataList interface [Windows Shell],RemoveDataBlock method, IShellLinkDataList.RemoveDataBlock, IShellLinkDataList::RemoveDataBlock, RemoveDataBlock, RemoveDataBlock method [Windows Shell], RemoveDataBlock method [Windows Shell],IShellLinkDataList interface, _win32_IShellLinkDataList_RemoveDataBlock, shell.IShellLinkDataList_RemoveDataBlock, shobjidl_core/IShellLinkDataList::RemoveDataBlock
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IShellLinkDataList.RemoveDataBlock"
+f1_keywords:
+- shobjidl_core/IShellLinkDataList.RemoveDataBlock
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Shell32.dll (version 5.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - IShellLinkDataList.RemoveDataBlock
+- IShellLinkDataList.RemoveDataBlock
 targetos: Windows
 req.typenames: 
 req.redist: 

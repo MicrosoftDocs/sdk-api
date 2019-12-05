@@ -1,19 +1,17 @@
 ---
 UID: NF:dbghelp.SymFromIndexW
 title: SymFromIndexW function (dbghelp.h)
-
 description: Retrieves symbol information for the specified index.
 old-location: base\symfromindex.htm
 tech.root: Debug
 ms.assetid: 84e94edd-2874-4b57-89eb-18b01dac91f4
-
 ms.date: 12/05/2018
 ms.keywords: SymFromIndex, SymFromIndex function, SymFromIndexW, base.symfromindex, dbghelp/SymFromIndex, dbghelp/SymFromIndexW
 ms.topic: function
 f1_keywords:
 - dbghelp/SymFromIndex
 dev_langs:
- - c++
+- c++
 req.header: dbghelp.h
 req.include-header: 
 req.target-type: Windows

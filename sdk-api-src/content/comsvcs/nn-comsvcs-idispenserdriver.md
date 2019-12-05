@@ -1,19 +1,17 @@
 ---
 UID: NN:comsvcs.IDispenserDriver
 title: IDispenserDriver (comsvcs.h)
-
 description: Is called by the holder of the COM+ Resource Dispenser to create, enlist, evaluate, prepare, and destroy a resource.
 old-location: cos\idispenserdriver.htm
 tech.root: cossdk
 ms.assetid: dba9c616-031d-48a7-b3e3-eb28b95a573a
-
 ms.date: 12/05/2018
 ms.keywords: IDispenserDriver, IDispenserDriver interface [COM+], IDispenserDriver interface [COM+],described, _dtc_IDispenserDriver_Interface, comsvcs/IDispenserDriver, cos.idispenserdriver
 ms.topic: interface
-f1_keywords: 
- - "comsvcs/IDispenserDriver"
+f1_keywords:
+- comsvcs/IDispenserDriver
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - IDispenserDriver
+- IDispenserDriver
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:p2p.PeerGroupConnect
 title: PeerGroupConnect function (p2p.h)
-
 description: The PeerGroupConnect function initiates a PNRP search for a peer group and attempts to connect to it. After this function is called successfully, a peer can communicate with other members of the peer group.
 old-location: p2p\peergroupconnect.htm
 tech.root: P2PSdk
 ms.assetid: 240bcba7-29f9-4043-8203-e71175bee69a
-
 ms.date: 12/05/2018
 ms.keywords: PeerGroupConnect, PeerGroupConnect function [Peer Networking], p2p.peergroupconnect, p2p/PeerGroupConnect
 ms.topic: function
-f1_keywords: 
- - "p2p/PeerGroupConnect"
+f1_keywords:
+- p2p/PeerGroupConnect
 dev_langs:
- - c++
+- c++
 req.header: p2p.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: P2P.lib
 req.dll: P2P.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - P2P.dll
+- P2P.dll
 api_name:
- - PeerGroupConnect
+- PeerGroupConnect
 targetos: Windows
 req.typenames: 
 req.redist: 

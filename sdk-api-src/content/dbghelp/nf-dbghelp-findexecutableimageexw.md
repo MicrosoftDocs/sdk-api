@@ -1,19 +1,17 @@
 ---
 UID: NF:dbghelp.FindExecutableImageExW
 title: FindExecutableImageExW function (dbghelp.h)
-
 description: Locates the specified executable file.
 old-location: base\findexecutableimageex.htm
 tech.root: Debug
 ms.assetid: 7571e168-2e91-4c97-9139-8225d28cc399
-
 ms.date: 12/05/2018
 ms.keywords: FindExecutableImageEx, FindExecutableImageEx function, FindExecutableImageExW, _win32_findexecutableimageex, base.findexecutableimageex, dbghelp/FindExecutableImageEx, dbghelp/FindExecutableImageExW
 ms.topic: function
-f1_keywords: 
- - "dbghelp/FindExecutableImageEx"
+f1_keywords:
+- dbghelp/FindExecutableImageEx
 dev_langs:
- - c++
+- c++
 req.header: dbghelp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Dbghelp.lib
 req.dll: Dbghelp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Dbghelp.dll
+- Dbghelp.dll
 api_name:
- - FindExecutableImageEx
- - FindExecutableImageEx
- - FindExecutableImageExW
+- FindExecutableImageEx
+- FindExecutableImageEx
+- FindExecutableImageExW
 targetos: Windows
 req.typenames: 
 req.redist: DbgHelp.dll 5.1 or later

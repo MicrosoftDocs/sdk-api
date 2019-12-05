@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationcore.ISelectionItemProvider.get_SelectionContainer
 title: ISelectionItemProvider::get_SelectionContainer (uiautomationcore.h)
-
 description: Specifies the provider that implements ISelectionProvider and acts as the container for the calling object.
 old-location: winauto\uiauto_ISelectionItemProvider_SelectionContainer.htm
 tech.root: WinAuto
 ms.assetid: c1bfdb40-f30c-4f33-a947-875077000029
-
 ms.date: 12/05/2018
 ms.keywords: ISelectionItemProvider interface [Windows Accessibility],SelectionContainer property, ISelectionItemProvider.SelectionContainer, ISelectionItemProvider.get_SelectionContainer, ISelectionItemProvider::SelectionContainer, ISelectionItemProvider::get_SelectionContainer, SelectionContainer property [Windows Accessibility], SelectionContainer property [Windows Accessibility],ISelectionItemProvider interface, get_SelectionContainer, uiauto.uiauto_ISelectionItemProvider_SelectionContainer, uiauto_ISelectionItemProvider_SelectionContainer, uiautomationcore/ISelectionItemProvider::SelectionContainer, uiautomationcore/ISelectionItemProvider::get_SelectionContainer, winauto.uiauto_ISelectionItemProvider_SelectionContainer
 ms.topic: method
-f1_keywords: 
- - "uiautomationcore/ISelectionItemProvider.SelectionContainer"
+f1_keywords:
+- uiautomationcore/ISelectionItemProvider.SelectionContainer
 dev_langs:
- - c++
+- c++
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationCore.h
+- UIAutomationCore.h
 api_name:
- - ISelectionItemProvider.SelectionContainer
- - ISelectionItemProvider.get_SelectionContainer
+- ISelectionItemProvider.SelectionContainer
+- ISelectionItemProvider.get_SelectionContainer
 targetos: Windows
 req.typenames: 
 req.redist: 

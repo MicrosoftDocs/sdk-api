@@ -1,19 +1,17 @@
 ---
 UID: NF:winuser.SetKeyboardState
 title: SetKeyboardState function (winuser.h)
-
 description: Copies an array of keyboard key states into the calling thread's keyboard input-state table. This is the same table accessed by the GetKeyboardState and GetKeyState functions. Changes made to this table do not affect keyboard input to any other thread.
 old-location: inputdev\setkeyboardstate.htm
 tech.root: inputdev
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\keyboardinput\keyboardinputreference\keyboardinputfunctions\setkeyboardstate.htm
-
 ms.date: 12/05/2018
 ms.keywords: SetKeyboardState, SetKeyboardState function [Keyboard and Mouse Input], _win32_SetKeyboardState, _win32_setkeyboardstate_cpp, inputdev.setkeyboardstate, winui._win32_setkeyboardstate, winuser/SetKeyboardState
 ms.topic: function
-f1_keywords: 
- - "winuser/SetKeyboardState"
+f1_keywords:
+- winuser/SetKeyboardState
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - User32.dll
- - ext-ms-win-ntuser-keyboard-l1-1-2.dll
- - Ext-MS-Win-NTUser-Keyboard-L1-2-0.dll
- - Ext-MS-Win-NTUser-Keyboard-L1-2-1.dll
- - Ext-MS-Win-NTUser-Keyboard-L1-3-0.dll
+- User32.dll
+- ext-ms-win-ntuser-keyboard-l1-1-2.dll
+- Ext-MS-Win-NTUser-Keyboard-L1-2-0.dll
+- Ext-MS-Win-NTUser-Keyboard-L1-2-1.dll
+- Ext-MS-Win-NTUser-Keyboard-L1-3-0.dll
 api_name:
- - SetKeyboardState
+- SetKeyboardState
 targetos: Windows
 req.typenames: 
 req.redist: 

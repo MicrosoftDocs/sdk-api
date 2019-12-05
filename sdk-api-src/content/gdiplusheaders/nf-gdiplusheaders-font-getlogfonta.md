@@ -1,19 +1,17 @@
 ---
 UID: NF:gdiplusheaders.Font.GetLogFontA
 title: Font::GetLogFontA (gdiplusheaders.h)
-
 description: The Font::GetLogFontA method uses a LOGFONTA structure to get the attributes of this Font object.
 old-location: gdiplus\_gdiplus_CLASS_Font_GetLogFontA_g_logfontA_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\fontclass\fontmethods\getlogfonta.htm
-
 ms.date: 12/05/2018
 ms.keywords: Font class [GDI+],GetLogFontA method, Font.GetLogFontA, Font::GetLogFontA, GetLogFontA, GetLogFontA method [GDI+], GetLogFontA method [GDI+],Font class, _gdiplus_CLASS_Font_GetLogFontA_g_logfontA_, gdiplus._gdiplus_CLASS_Font_GetLogFontA_g_logfontA_
 ms.topic: method
-f1_keywords: 
- - "gdiplusheaders/Font.GetLogFontA"
+f1_keywords:
+- gdiplusheaders/Font.GetLogFontA
 dev_langs:
- - c++
+- c++
 req.header: gdiplusheaders.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - Font.GetLogFontA
- - getlogfonta
+- Font.GetLogFontA
+- getlogfonta
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:roerrorapi.SetRestrictedErrorInfo
 title: SetRestrictedErrorInfo function
-
 description: Sets the restricted error information object for the current thread.
 old-location: winrt\setrestrictederrorinfo.htm
 tech.root: WinRT
 ms.assetid: 3F4A62EF-ECD3-45FA-836D-77C510C43C5E
-
 ms.date: 12/5/2018
 ms.keywords: SetRestrictedErrorInfo, SetRestrictedErrorInfo function [Windows Runtime], roerrorapi/SetRestrictedErrorInfo, winrt.setrestrictederrorinfo
 ms.topic: function
-f1_keywords: 
- - "roerrorapi/SetRestrictedErrorInfo"
+f1_keywords:
+- roerrorapi/SetRestrictedErrorInfo
 dev_langs:
- - c++
+- c++
 req.header: roerrorapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: RuntimeObject.lib
 req.dll: ComBase.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - ComBase.dll
- - API-MS-Win-Core-WinRT-error-l1-1-0.dll
- - API-MS-Win-Core-WinRT-error-l1-1-1.dll
+- ComBase.dll
+- API-MS-Win-Core-WinRT-error-l1-1-0.dll
+- API-MS-Win-Core-WinRT-error-l1-1-1.dll
 api_name:
- - SetRestrictedErrorInfo
+- SetRestrictedErrorInfo
 targetos: Windows
 req.typenames: 
 req.redist: 

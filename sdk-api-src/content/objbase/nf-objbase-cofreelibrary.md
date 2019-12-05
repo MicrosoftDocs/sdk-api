@@ -1,19 +1,17 @@
 ---
 UID: NF:objbase.CoFreeLibrary
 title: CoFreeLibrary function (objbase.h)
-
 description: Frees a library that, when loaded, was specified to be freed explicitly.
 old-location: com\cofreelibrary.htm
 tech.root: com
 ms.assetid: 3959e7d9-6220-474e-8f85-76f7f935727f
-
 ms.date: 12/05/2018
 ms.keywords: CoFreeLibrary, CoFreeLibrary function [COM], _com_CoFreeLibrary, com.cofreelibrary, objbase/CoFreeLibrary
 ms.topic: function
-f1_keywords: 
- - "objbase/CoFreeLibrary"
+f1_keywords:
+- objbase/CoFreeLibrary
 dev_langs:
- - c++
+- c++
 req.header: objbase.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Ole32.lib
 req.dll: Ole32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ole32.dll
+- Ole32.dll
 api_name:
- - CoFreeLibrary
+- CoFreeLibrary
 targetos: Windows
 req.typenames: 
 req.redist: 

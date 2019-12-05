@@ -1,19 +1,17 @@
 ---
 UID: NN:xpsobjectmodel.IXpsOMGeometryFigureCollection
 title: IXpsOMGeometryFigureCollection (xpsobjectmodel.h)
-
 description: A collection of IXpsOMGeometryFigure interface pointers.
 old-location: xps\ixpsomgeometryfigurecollection.htm
 tech.root: printdocs
 ms.assetid: 24ed79ff-9160-4e9b-b322-c538b30f113b
-
 ms.date: 12/05/2018
 ms.keywords: IXpsOMGeometryFigureCollection, IXpsOMGeometryFigureCollection interface [XPS Documents and Packaging], IXpsOMGeometryFigureCollection interface [XPS Documents and Packaging],described, xps.ixpsomgeometryfigurecollection, xpsobjectmodel/IXpsOMGeometryFigureCollection
 ms.topic: interface
-f1_keywords: 
- - "xpsobjectmodel/IXpsOMGeometryFigureCollection"
+f1_keywords:
+- xpsobjectmodel/IXpsOMGeometryFigureCollection
 dev_langs:
- - c++
+- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsobjectmodel.h
+- xpsobjectmodel.h
 api_name:
- - IXpsOMGeometryFigureCollection
+- IXpsOMGeometryFigureCollection
 targetos: Windows
 req.typenames: 
 req.redist: 

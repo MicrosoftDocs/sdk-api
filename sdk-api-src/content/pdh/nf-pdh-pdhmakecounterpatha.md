@@ -1,19 +1,17 @@
 ---
 UID: NF:pdh.PdhMakeCounterPathA
 title: PdhMakeCounterPathA function (pdh.h)
-
 description: Creates a full counter path using the members specified in the PDH_COUNTER_PATH_ELEMENTS structure.
 old-location: perf\pdhmakecounterpath.htm
 tech.root: perfctrs
 ms.assetid: f2dc5f77-9f9e-4290-95fa-ce2f1e81fc69
-
 ms.date: 12/05/2018
 ms.keywords: 0, PDH_PATH_WBEM_INPUT, PDH_PATH_WBEM_RESULT, PdhMakeCounterPath, PdhMakeCounterPath function [Perf], PdhMakeCounterPathA, PdhMakeCounterPathW, _win32_pdhmakecounterpath, base.pdhmakecounterpath, pdh/PdhMakeCounterPath, pdh/PdhMakeCounterPathA, pdh/PdhMakeCounterPathW, perf.pdhmakecounterpath
 ms.topic: function
 f1_keywords:
 - pdh/PdhMakeCounterPath
 dev_langs:
- - c++
+- c++
 req.header: pdh.h
 req.include-header: 
 req.target-type: Windows

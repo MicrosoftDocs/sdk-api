@@ -1,19 +1,17 @@
 ---
 UID: NF:mfreadwrite.IMFSinkWriterCallback2.OnTransformChange
 title: IMFSinkWriterCallback2::OnTransformChange (mfreadwrite.h)
-
 description: Called when the transform chain in the IMFSourceReader is built or modified.
 old-location: mf\imfsinkwritercallback2_ontransformchange.htm
 tech.root: medfound
 ms.assetid: A0D93B37-1A74-486E-8A7C-6D909E2F25FD
-
 ms.date: 12/05/2018
 ms.keywords: IMFSinkWriterCallback2 interface [Media Foundation],OnTransformChange method, IMFSinkWriterCallback2.OnTransformChange, IMFSinkWriterCallback2::OnTransformChange, OnTransformChange, OnTransformChange method [Media Foundation], OnTransformChange method [Media Foundation],IMFSinkWriterCallback2 interface, mf.imfsinkwritercallback2_ontransformchange, mfreadwrite/IMFSinkWriterCallback2::OnTransformChange
 ms.topic: method
-f1_keywords: 
- - "mfreadwrite/IMFSinkWriterCallback2.OnTransformChange"
+f1_keywords:
+- mfreadwrite/IMFSinkWriterCallback2.OnTransformChange
 dev_langs:
- - c++
+- c++
 req.header: mfreadwrite.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfreadwrite.h
+- mfreadwrite.h
 api_name:
- - IMFSinkWriterCallback2.OnTransformChange
+- IMFSinkWriterCallback2.OnTransformChange
 targetos: Windows
 req.typenames: 
 req.redist: 

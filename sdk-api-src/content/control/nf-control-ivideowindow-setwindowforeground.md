@@ -1,19 +1,17 @@
 ---
 UID: NF:control.IVideoWindow.SetWindowForeground
 title: IVideoWindow::SetWindowForeground (control.h)
-
 description: The SetWindowForeground method places the video window at the top of the Z order.
 old-location: dshow\ivideowindow_setwindowforeground.htm
 tech.root: DirectShow
 ms.assetid: ff4f3707-1f2e-499b-8108-81616fe4ae9b
-
 ms.date: 12/05/2018
 ms.keywords: IVideoWindow interface [DirectShow],SetWindowForeground method, IVideoWindow.SetWindowForeground, IVideoWindow::SetWindowForeground, IVideoWindowSetWindowForeground, SetWindowForeground, SetWindowForeground method [DirectShow], SetWindowForeground method [DirectShow],IVideoWindow interface, control/IVideoWindow::SetWindowForeground, dshow.ivideowindow_setwindowforeground
 ms.topic: method
-f1_keywords: 
- - "control/IVideoWindow.SetWindowForeground"
+f1_keywords:
+- control/IVideoWindow.SetWindowForeground
 dev_langs:
- - c++
+- c++
 req.header: control.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IVideoWindow.SetWindowForeground
+- IVideoWindow.SetWindowForeground
 targetos: Windows
 req.typenames: 
 req.redist: 

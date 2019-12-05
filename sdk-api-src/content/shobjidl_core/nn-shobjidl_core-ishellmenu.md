@@ -1,19 +1,17 @@
 ---
 UID: NN:shobjidl_core.IShellMenu
 title: IShellMenu (shobjidl_core.h)
-
 description: Exposes methods that interact with Shell menus such as the Start menu, and the Favorites menu.
 old-location: shell\IShellMenu.htm
 tech.root: shell
 ms.assetid: 46793ae9-936e-4a58-bc34-84396151b4a3
-
 ms.date: 12/05/2018
 ms.keywords: IShellMenu, IShellMenu interface [Windows Shell], IShellMenu interface [Windows Shell],described, _shell_IShellMenu, shell.IShellMenu, shobjidl_core/IShellMenu
 ms.topic: interface
-f1_keywords: 
- - "shobjidl_core/IShellMenu"
+f1_keywords:
+- shobjidl_core/IShellMenu
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Shell32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - IShellMenu
+- IShellMenu
 targetos: Windows
 req.typenames: 
 req.redist: 

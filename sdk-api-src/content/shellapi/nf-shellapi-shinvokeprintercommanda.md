@@ -1,19 +1,17 @@
 ---
 UID: NF:shellapi.SHInvokePrinterCommandA
 title: SHInvokePrinterCommandA function (shellapi.h)
-
 description: Executes a command on a printer object.
 old-location: shell\SHInvokePrinterCommand.htm
 tech.root: shell
 ms.assetid: 32a5802f-cef7-4dbd-affd-82285fe97a8c
-
 ms.date: 12/05/2018
 ms.keywords: PRINTACTION_DOCUMENTDEFAULTS, PRINTACTION_NETINSTALL, PRINTACTION_NETINSTALLLINK, PRINTACTION_OPEN, PRINTACTION_OPENNETPRN, PRINTACTION_PROPERTIES, PRINTACTION_SERVERPROPERTIES, PRINTACTION_TESTPAGE, SHInvokePrinterCommand, SHInvokePrinterCommand function [Windows Shell], SHInvokePrinterCommandA, SHInvokePrinterCommandW, _win32_SHInvokePrinterCommand, shell.SHInvokePrinterCommand, shellapi/SHInvokePrinterCommand, shellapi/SHInvokePrinterCommandA, shellapi/SHInvokePrinterCommandW
 ms.topic: function
-f1_keywords: 
- - "shellapi/SHInvokePrinterCommand"
+f1_keywords:
+- shellapi/SHInvokePrinterCommand
 dev_langs:
- - c++
+- c++
 req.header: shellapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Shell32.lib
 req.dll: Shell32.dll (version 4.71 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - SHInvokePrinterCommand
- - SHInvokePrinterCommandA
- - SHInvokePrinterCommandW
+- SHInvokePrinterCommand
+- SHInvokePrinterCommandA
+- SHInvokePrinterCommandW
 targetos: Windows
 req.typenames: 
 req.redist: 

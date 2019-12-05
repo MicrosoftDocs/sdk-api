@@ -1,19 +1,17 @@
 ---
 UID: NC:commctrl.SUBCLASSPROC
 title: SUBCLASSPROC (commctrl.h)
-
 description: Defines the prototype for the callback function used by RemoveWindowSubclass and SetWindowSubclass.
 old-location: shell\SUBCLASSPROC_Function.htm
 tech.root: shell
 ms.assetid: 44e4cbe0-8252-4bcc-885e-d8af856e8ad7
-
 ms.date: 12/05/2018
 ms.keywords: SUBCLASSPROC, SUBCLASSPROC callback, SUBCLASSPROC callback function [Windows Shell], commctrl/SUBCLASSPROC, inet_SUBCLASSPROC_Function, shell.SUBCLASSPROC_Function
 ms.topic: callback
-f1_keywords: 
- - "commctrl/SUBCLASSPROC"
+f1_keywords:
+- commctrl/SUBCLASSPROC
 dev_langs:
- - c++
+- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Commctrl.h
+- Commctrl.h
 api_name:
- - SUBCLASSPROC
+- SUBCLASSPROC
 targetos: Windows
 req.typenames: 
 req.redist: 

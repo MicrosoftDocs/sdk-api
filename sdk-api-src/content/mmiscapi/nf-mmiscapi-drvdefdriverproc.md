@@ -1,19 +1,17 @@
 ---
 UID: NF:mmiscapi.DrvDefDriverProc
 title: DrvDefDriverProc function (mmiscapi.h)
-
 description: Provides default processing for any messages not processed by an installable driver. This function is intended to be used only within the DriverProc function of an installable driver.
 old-location: multimedia\defdriverproc.htm
 tech.root: Multimedia
 ms.assetid: 8401925b-d286-41bd-b57e-838b2f5b250d
-
 ms.date: 12/05/2018
 ms.keywords: DefDriverProc, DefDriverProc function [Windows Multimedia], DrvDefDriverProc, _win32_DefDriverProc, mmsystem/DefDriverProc, multimedia.defdriverproc
 ms.topic: function
-f1_keywords: 
- - "mmiscapi/DefDriverProc"
+f1_keywords:
+- mmiscapi/DefDriverProc
 dev_langs:
- - c++
+- c++
 req.header: mmiscapi.h
 req.include-header: Mmiscapi.h, Windows.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Winmm.lib
 req.dll: Winmm.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Winmm.dll
- - API-MS-Win-mm-misc-l1-1-0.dll
- - winmmbase.dll
- - API-MS-Win-mm-misc-l1-1-1.dll
+- Winmm.dll
+- API-MS-Win-mm-misc-l1-1-0.dll
+- winmmbase.dll
+- API-MS-Win-mm-misc-l1-1-1.dll
 api_name:
- - DefDriverProc
+- DefDriverProc
 targetos: Windows
 req.typenames: 
 req.redist: 

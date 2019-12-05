@@ -1,19 +1,17 @@
 ---
 UID: NF:snmp.SnmpExtensionQuery
 title: SnmpExtensionQuery function (snmp.h)
-
 description: The Microsoft SNMP service calls the SnmpExtensionQuery function to resolve SNMP requests that contain variables within one or more of the SNMP extension agent's registered MIB subtrees. This function is an element of the SNMP Extension Agent API.
 old-location: snmp\snmpextensionquery.htm
 tech.root: SNMP
 ms.assetid: 5ca25e1d-d0aa-490e-a591-57b25a77b1da
-
 ms.date: 12/05/2018
 ms.keywords: SNMP_ERRORSTATUS_BADVALUE, SNMP_ERRORSTATUS_GENERR, SNMP_ERRORSTATUS_NOERROR, SNMP_ERRORSTATUS_NOSUCHNAME, SNMP_ERRORSTATUS_READONLY, SNMP_ERRORSTATUS_TOOBIG, SNMP_PDU_GET, SNMP_PDU_GETNEXT, SNMP_PDU_SET, SnmpExtensionQuery, SnmpExtensionQuery callback, SnmpExtensionQuery callback function [SNMP], _snmp_snmpextensionquery, snmp.snmpextensionquery, snmp/SnmpExtensionQuery
 ms.topic: function
-f1_keywords: 
- - "snmp/SnmpExtensionQuery"
+f1_keywords:
+- snmp/SnmpExtensionQuery
 dev_langs:
- - c++
+- c++
 req.header: snmp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Snmp.h
+- Snmp.h
 api_name:
- - SnmpExtensionQuery
+- SnmpExtensionQuery
 targetos: Windows
 req.typenames: 
 req.redist: 

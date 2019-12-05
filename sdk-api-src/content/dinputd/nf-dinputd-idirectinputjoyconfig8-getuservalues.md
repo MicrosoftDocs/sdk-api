@@ -1,19 +1,17 @@
 ---
 UID: NF:dinputd.IDirectInputJoyConfig8.GetUserValues
 title: IDirectInputJoyConfig8::GetUserValues (dinputd.h)
-
 description: The IDirectInputJoyConfig8::GetUserValues method obtains information about user settings for the joystick.
 old-location: hid\idirectinputjoyconfig8_getuservalues.htm
 tech.root: hid
 ms.assetid: b0de6a60-4dab-41a4-a8f7-629dc2795bfe
-
 ms.date: 12/05/2018
 ms.keywords: GetUserValues, GetUserValues method [Human Input Devices], GetUserValues method [Human Input Devices],IDirectInputJoyConfig8 interface, IDirectInputJoyConfig8 interface [Human Input Devices],GetUserValues method, IDirectInputJoyConfig8.GetUserValues, IDirectInputJoyConfig8::GetUserValues, di_ref_91a06462-3eaf-4c52-b6e3-c8598719f048.xml, dinputd/IDirectInputJoyConfig8::GetUserValues, hid.idirectinputjoyconfig8_getuservalues
 ms.topic: method
-f1_keywords: 
- - "dinputd/IDirectInputJoyConfig8.GetUserValues"
+f1_keywords:
+- dinputd/IDirectInputJoyConfig8.GetUserValues
 dev_langs:
- - c++
+- c++
 req.header: dinputd.h
 req.include-header: Dinputd.h
 req.target-type: Desktop
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dinputd.h
+- dinputd.h
 api_name:
- - IDirectInputJoyConfig8.GetUserValues
+- IDirectInputJoyConfig8.GetUserValues
 targetos: Windows
 req.typenames: 
 req.redist: 

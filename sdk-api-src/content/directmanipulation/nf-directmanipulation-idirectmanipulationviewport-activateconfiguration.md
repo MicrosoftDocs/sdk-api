@@ -1,19 +1,17 @@
 ---
 UID: NF:directmanipulation.IDirectManipulationViewport.ActivateConfiguration
 title: IDirectManipulationViewport::ActivateConfiguration (directmanipulation.h)
-
 description: Sets the configuration for input interaction.
 old-location: directmanipulation\idirectmanipulationviewport_activateconfiguration.htm
 tech.root: directmanipulation
 ms.assetid: 16c5902d-dddd-4c40-b1f9-cb432940aa3d
-
 ms.date: 12/05/2018
 ms.keywords: ActivateConfiguration, ActivateConfiguration method [Direct Manipulation], ActivateConfiguration method [Direct Manipulation],IDirectManipulationViewport interface, IDirectManipulationViewport interface [Direct Manipulation],ActivateConfiguration method, IDirectManipulationViewport.ActivateConfiguration, IDirectManipulationViewport::ActivateConfiguration, directmanipulation.idirectmanipulationviewport_activateconfiguration, directmanipulation/IDirectManipulationViewport::ActivateConfiguration
 ms.topic: method
-f1_keywords: 
- - "directmanipulation/IDirectManipulationViewport.ActivateConfiguration"
+f1_keywords:
+- directmanipulation/IDirectManipulationViewport.ActivateConfiguration
 dev_langs:
- - c++
+- c++
 req.header: directmanipulation.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - DirectManipulation.h
+- DirectManipulation.h
 api_name:
- - IDirectManipulationViewport.ActivateConfiguration
+- IDirectManipulationViewport.ActivateConfiguration
 targetos: Windows
 req.typenames: 
 req.redist: 

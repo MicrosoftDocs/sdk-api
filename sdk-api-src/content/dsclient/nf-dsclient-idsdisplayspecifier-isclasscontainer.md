@@ -1,19 +1,17 @@
 ---
 UID: NF:dsclient.IDsDisplaySpecifier.IsClassContainer
 title: IDsDisplaySpecifier::IsClassContainer (dsclient.h)
-
 description: Determines if a given object class is a container.
 old-location: ad\idsdisplayspecifier_isclasscontainer.htm
 tech.root: ad
 ms.assetid: 1717200a-353b-413e-97a2-0742a95056d8
-
 ms.date: 12/05/2018
 ms.keywords: DSICCF_IGNORETREATASLEAF, IDsDisplaySpecifier interface [Active Directory],IsClassContainer method, IDsDisplaySpecifier.IsClassContainer, IDsDisplaySpecifier::IsClassContainer, IsClassContainer, IsClassContainer method [Active Directory], IsClassContainer method [Active Directory],IDsDisplaySpecifier interface, _glines_idsdisplayspecifier_isclasscontainer, ad.idsdisplayspecifier__isclasscontainer, ad.idsdisplayspecifier_isclasscontainer, dsclient/IDsDisplaySpecifier::IsClassContainer
 ms.topic: method
-f1_keywords: 
- - "dsclient/IDsDisplaySpecifier.IsClassContainer"
+f1_keywords:
+- dsclient/IDsDisplaySpecifier.IsClassContainer
 dev_langs:
- - c++
+- c++
 req.header: dsclient.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Dsadmin.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dsadmin.dll
+- Dsadmin.dll
 api_name:
- - IDsDisplaySpecifier.IsClassContainer
+- IDsDisplaySpecifier.IsClassContainer
 targetos: Windows
 req.typenames: 
 req.redist: 

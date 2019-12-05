@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IMenuBand.TranslateMenuMessage
 title: IMenuBand::TranslateMenuMessage (shobjidl_core.h)
-
 description: Translates a message for a Component Object Model (COM) object.
 old-location: shell\IMenuBand_TranslateMenuMessage.htm
 tech.root: shell
 ms.assetid: 5ee1f64f-ca8b-4f50-bbab-24ff1216708c
-
 ms.date: 12/05/2018
 ms.keywords: IMenuBand interface [Windows Shell],TranslateMenuMessage method, IMenuBand.TranslateMenuMessage, IMenuBand::TranslateMenuMessage, TranslateMenuMessage, TranslateMenuMessage method [Windows Shell], TranslateMenuMessage method [Windows Shell],IMenuBand interface, _shell_IMenuBand_TranslateMenuMessage, shell.IMenuBand_TranslateMenuMessage, shobjidl_core/IMenuBand::TranslateMenuMessage
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IMenuBand.TranslateMenuMessage"
+f1_keywords:
+- shobjidl_core/IMenuBand.TranslateMenuMessage
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Shell32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - IMenuBand.TranslateMenuMessage
+- IMenuBand.TranslateMenuMessage
 targetos: Windows
 req.typenames: 
 req.redist: 

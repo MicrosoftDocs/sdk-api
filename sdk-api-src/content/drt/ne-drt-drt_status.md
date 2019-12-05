@@ -1,19 +1,17 @@
 ---
 UID: NE:drt.drt_status_tag
 title: DRT_STATUS (drt.h)
-
 description: The DRT_STATUS enumeration defines the status of a local DRT instance.
 old-location: p2p\drt_status.htm
 tech.root: P2PSdk
 ms.assetid: 4bd81191-862c-4537-9c90-4b9fec270a16
-
 ms.date: 12/05/2018
 ms.keywords: DRT_ACTIVE, DRT_ALONE, DRT_FAULTED, DRT_NO_NETWORK, DRT_STATUS, DRT_STATUS enumeration [Peer Networking], drt/DRT_ACTIVE, drt/DRT_ALONE, drt/DRT_FAULTED, drt/DRT_NO_NETWORK, drt/DRT_STATUS, p2p.drt_status
 ms.topic: enum
-f1_keywords: 
- - "drt/DRT_STATUS"
+f1_keywords:
+- drt/DRT_STATUS
 dev_langs:
- - c++
+- c++
 req.header: drt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - drt.h
+- drt.h
 api_name:
- - DRT_STATUS
+- DRT_STATUS
 targetos: Windows
 req.typenames: DRT_STATUS
 req.redist: 

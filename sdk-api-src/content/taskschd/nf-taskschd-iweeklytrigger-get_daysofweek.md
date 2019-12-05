@@ -1,19 +1,17 @@
 ---
 UID: NF:taskschd.IWeeklyTrigger.get_DaysOfWeek
 title: IWeeklyTrigger::get_DaysOfWeek (taskschd.h)
-
 description: Gets or sets the days of the week in which the task runs.
 old-location: taskschd\iweeklytrigger_daysofweek.htm
 tech.root: taskschd
 ms.assetid: 3d4bb891-8620-401e-b1ce-39d593c1038a
-
 ms.date: 12/05/2018
 ms.keywords: DaysOfWeek property [Task Scheduler], DaysOfWeek property [Task Scheduler],IWeeklyTrigger interface, IWeeklyTrigger interface [Task Scheduler],DaysOfWeek property, IWeeklyTrigger.DaysOfWeek, IWeeklyTrigger.get_DaysOfWeek, IWeeklyTrigger::DaysOfWeek, IWeeklyTrigger::get_DaysOfWeek, IWeeklyTrigger::put_DaysOfWeek, get_DaysOfWeek, taskschd.iweeklytrigger_daysofweek, taskschd/IWeeklyTrigger::DaysOfWeek, taskschd/IWeeklyTrigger::get_DaysOfWeek, taskschd/IWeeklyTrigger::put_DaysOfWeek
 ms.topic: method
-f1_keywords: 
- - "taskschd/IWeeklyTrigger.DaysOfWeek"
+f1_keywords:
+- taskschd/IWeeklyTrigger.DaysOfWeek
 dev_langs:
- - c++
+- c++
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Taskschd.lib
 req.dll: Taskschd.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - taskschd.dll
+- taskschd.dll
 api_name:
- - IWeeklyTrigger.DaysOfWeek
- - IWeeklyTrigger.get_DaysOfWeek
- - IWeeklyTrigger.put_DaysOfWeek
+- IWeeklyTrigger.DaysOfWeek
+- IWeeklyTrigger.get_DaysOfWeek
+- IWeeklyTrigger.put_DaysOfWeek
 targetos: Windows
 req.typenames: 
 req.redist: 

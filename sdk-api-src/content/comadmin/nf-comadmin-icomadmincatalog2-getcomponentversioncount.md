@@ -1,19 +1,17 @@
 ---
 UID: NF:comadmin.ICOMAdminCatalog2.GetComponentVersionCount
 title: ICOMAdminCatalog2::GetComponentVersionCount (comadmin.h)
-
 description: Retrieves the number of partitions in which a specified component is installed.
 old-location: cos\icomadmincatalog2_getcomponentversioncount.htm
 tech.root: cossdk
 ms.assetid: 5bbae408-3dbe-4f8f-92db-9ea1b8abd9ce
-
 ms.date: 12/05/2018
 ms.keywords: GetComponentVersionCount, GetComponentVersionCount method [COM+], GetComponentVersionCount method [COM+],ICOMAdminCatalog2 interface, ICOMAdminCatalog2 interface [COM+],GetComponentVersionCount method, ICOMAdminCatalog2.GetComponentVersionCount, ICOMAdminCatalog2::GetComponentVersionCount, _cos_icomadmincatalog2_GetComponentVersionCount, comadmin/ICOMAdminCatalog2::GetComponentVersionCount, cos.icomadmincatalog2_getcomponentversioncount
 ms.topic: method
-f1_keywords: 
- - "comadmin/ICOMAdminCatalog2.GetComponentVersionCount"
+f1_keywords:
+- comadmin/ICOMAdminCatalog2.GetComponentVersionCount
 dev_langs:
- - c++
+- c++
 req.header: comadmin.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComAdmin.h
+- ComAdmin.h
 api_name:
- - ICOMAdminCatalog2.GetComponentVersionCount
+- ICOMAdminCatalog2.GetComponentVersionCount
 targetos: Windows
 req.typenames: 
 req.redist: 

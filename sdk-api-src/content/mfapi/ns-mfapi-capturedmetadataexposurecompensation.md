@@ -1,19 +1,17 @@
 ---
 UID: NS:mfapi.tagCapturedMetadataExposureCompensation
 title: CapturedMetadataExposureCompensation (mfapi.h)
-
 description: This structure contains blob information for the EV compensation feedback for the photo captured.
 old-location: stream\capturedmetadataexposurecompensation.htm
 tech.root: stream
 ms.assetid: B7C32495-F9A1-4206-81D2-DCA247F83901
-
 ms.date: 12/05/2018
 ms.keywords: CapturedMetadataExposureCompensation, CapturedMetadataExposureCompensation structure [Streaming Media Devices], mfapi/CapturedMetadataExposureCompensation, stream.capturedmetadataexposurecompensation
 ms.topic: struct
-f1_keywords: 
- - "mfapi/CapturedMetadataExposureCompensation"
+f1_keywords:
+- mfapi/CapturedMetadataExposureCompensation
 dev_langs:
- - c++
+- c++
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Mfapi.h
+- Mfapi.h
 api_name:
- - CapturedMetadataExposureCompensation
+- CapturedMetadataExposureCompensation
 targetos: Windows
 req.typenames: CapturedMetadataExposureCompensation
 req.redist: 

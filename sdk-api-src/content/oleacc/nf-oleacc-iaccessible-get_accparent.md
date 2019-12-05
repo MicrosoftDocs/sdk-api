@@ -1,19 +1,17 @@
 ---
 UID: NF:oleacc.IAccessible.get_accParent
 title: IAccessible::get_accParent (oleacc.h)
-
 description: The IAccessible::get_accParent method retrieves the IDispatch of the object's parent. All objects support this property.
 old-location: winauto\iaccessible_iaccessible__get_accparent.htm
 tech.root: WinAuto
 ms.assetid: 7c8c5208-ea77-47b2-913d-314ade0313f5
-
 ms.date: 12/05/2018
 ms.keywords: IAccessible interface [Windows Accessibility],get_accParent method, IAccessible.get_accParent, IAccessible::get_accParent, _msaa_IAccessible_get_accParent, get_accParent, get_accParent method [Windows Accessibility], get_accParent method [Windows Accessibility],IAccessible interface, msaa.iaccessible_iaccessible__get_accparent, oleacc/IAccessible::get_accParent, winauto.iaccessible_iaccessible__get_accparent
 ms.topic: method
-f1_keywords: 
- - "oleacc/IAccessible.get_accParent"
+f1_keywords:
+- oleacc/IAccessible.get_accParent
 dev_langs:
- - c++
+- c++
 req.header: oleacc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Oleacc.lib
 req.dll: Oleacc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Oleacc.dll
+- Oleacc.dll
 api_name:
- - IAccessible.get_accParent
+- IAccessible.get_accParent
 targetos: Windows
 req.typenames: 
 req.redist: Active Accessibility 1.3 RDK on Windows NT 4.0 with SP6 and later and Windows 95

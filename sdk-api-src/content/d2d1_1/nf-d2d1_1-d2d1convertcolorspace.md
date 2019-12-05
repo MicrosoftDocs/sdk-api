@@ -1,19 +1,17 @@
 ---
 UID: NF:d2d1_1.D2D1ConvertColorSpace
 title: D2D1ConvertColorSpace function (d2d1_1.h)
-
 description: Converts the given color from one colorspace to another.
 old-location: direct2d\d2d1convertcolorspace.htm
 tech.root: Direct2D
 ms.assetid: ECFE9F50-290D-4E6C-90AB-A46B9E413A48
-
 ms.date: 12/05/2018
 ms.keywords: D2D1ConvertColorSpace, D2D1ConvertColorSpace function [Direct2D], d2d1_1/D2D1ConvertColorSpace, direct2d.d2d1convertcolorspace
 ms.topic: function
-f1_keywords: 
- - "d2d1_1/D2D1ConvertColorSpace"
+f1_keywords:
+- d2d1_1/D2D1ConvertColorSpace
 dev_langs:
- - c++
+- c++
 req.header: d2d1_1.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: D2D1.lib
 req.dll: D2D1.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - D2D1.dll
+- D2D1.dll
 api_name:
- - D2D1ConvertColorSpace
+- D2D1ConvertColorSpace
 targetos: Windows
 req.typenames: 
 req.redist: 

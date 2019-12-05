@@ -1,19 +1,17 @@
 ---
 UID: NE:wincodec.WICGifLogicalScreenDescriptorProperties
 title: WICGifLogicalScreenDescriptorProperties (wincodec.h)
-
 description: Specifies the logical screen descriptor properties for Graphics Interchange Format (GIF) metadata.
 old-location: wic\_wic_codec_wicgiflogicalscreendescriptorproperties.htm
 tech.root: wic
 ms.assetid: edeaae2d-ba4a-4d03-b1ce-37bb5cd67e03
-
 ms.date: 12/05/2018
 ms.keywords: WICGifLogicalScreenDescriptorBackgroundColorIndex, WICGifLogicalScreenDescriptorColorResolution, WICGifLogicalScreenDescriptorGlobalColorTableFlag, WICGifLogicalScreenDescriptorGlobalColorTableSize, WICGifLogicalScreenDescriptorHeight, WICGifLogicalScreenDescriptorPixelAspectRatio, WICGifLogicalScreenDescriptorProperties, WICGifLogicalScreenDescriptorProperties enumeration [Windows Imaging Component], WICGifLogicalScreenDescriptorSortFlag, WICGifLogicalScreenDescriptorWidth, WICGifLogicalScreenSignature, _wic_codec_wicgiflogicalscreendescriptorproperties, wic._wic_codec_wicgiflogicalscreendescriptorproperties, wincodec/WICGifLogicalScreenDescriptorBackgroundColorIndex, wincodec/WICGifLogicalScreenDescriptorColorResolution, wincodec/WICGifLogicalScreenDescriptorGlobalColorTableFlag, wincodec/WICGifLogicalScreenDescriptorGlobalColorTableSize, wincodec/WICGifLogicalScreenDescriptorHeight, wincodec/WICGifLogicalScreenDescriptorPixelAspectRatio, wincodec/WICGifLogicalScreenDescriptorProperties, wincodec/WICGifLogicalScreenDescriptorSortFlag, wincodec/WICGifLogicalScreenDescriptorWidth, wincodec/WICGifLogicalScreenSignature
 ms.topic: enum
-f1_keywords: 
- - "wincodec/WICGifLogicalScreenDescriptorProperties"
+f1_keywords:
+- wincodec/WICGifLogicalScreenDescriptorProperties
 dev_langs:
- - c++
+- c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wincodec.h
+- Wincodec.h
 api_name:
- - WICGifLogicalScreenDescriptorProperties
+- WICGifLogicalScreenDescriptorProperties
 targetos: Windows
 req.typenames: WICGifLogicalScreenDescriptorProperties
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:oleauto.VarR4FromDate
 title: VarR4FromDate function (oleauto.h)
-
 description: Converts a date value to a float value.
 old-location: automat\varr4fromdate.htm
 tech.root: automat
 ms.assetid: 574bae15-62ad-4258-aa98-46e2ae940084
-
 ms.date: 12/05/2018
 ms.keywords: VarR4FromDate, VarR4FromDate function [Automation], _oa96_VarR4FromDate, automat.varr4fromdate, oleauto/VarR4FromDate
 ms.topic: function
-f1_keywords: 
- - "oleauto/VarR4FromDate"
+f1_keywords:
+- oleauto/VarR4FromDate
 dev_langs:
- - c++
+- c++
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: OleAut32.lib
 req.dll: OleAut32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - OleAut32.dll
+- OleAut32.dll
 api_name:
- - VarR4FromDate
+- VarR4FromDate
 targetos: Windows
 req.typenames: 
 req.redist: 

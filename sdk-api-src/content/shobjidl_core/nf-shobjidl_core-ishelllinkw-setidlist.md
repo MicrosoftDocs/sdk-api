@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IShellLinkW.SetIDList
 title: IShellLinkW::SetIDList (shobjidl_core.h)
-
 description: Sets the pointer to an item identifier list (PIDL) for a Shell link object.
 old-location: shell\IShellLink_SetIDList.htm
 tech.root: shell
 ms.assetid: 4c0571a5-1615-4c3f-b9a6-0667df07165b
-
 ms.date: 12/05/2018
 ms.keywords: IShellLink interface [Windows Shell],SetIDList method, IShellLink::SetIDList, IShellLinkA interface [Windows Shell],SetIDList method, IShellLinkA::SetIDList, IShellLinkW interface [Windows Shell],SetIDList method, IShellLinkW.SetIDList, IShellLinkW::SetIDList, SetIDList, SetIDList method [Windows Shell], SetIDList method [Windows Shell],IShellLink interface, SetIDList method [Windows Shell],IShellLinkA interface, SetIDList method [Windows Shell],IShellLinkW interface, _win32_IShellLink_SetIDList, shell.IShellLink_SetIDList, shobjidl_core/IShellLink::SetIDList, shobjidl_core/IShellLinkA::SetIDList, shobjidl_core/IShellLinkW::SetIDList
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IShellLink.SetIDList"
+f1_keywords:
+- shobjidl_core/IShellLink.SetIDList
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: Shell32.dll (version 4.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - IShellLink.SetIDList
- - IShellLinkA.SetIDList
- - IShellLinkW.SetIDList
+- IShellLink.SetIDList
+- IShellLinkA.SetIDList
+- IShellLinkW.SetIDList
 targetos: Windows
 req.typenames: 
 req.redist: 

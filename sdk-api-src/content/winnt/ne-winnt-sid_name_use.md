@@ -1,19 +1,17 @@
 ---
 UID: NE:winnt._SID_NAME_USE
 title: SID_NAME_USE (winnt.h)
-
 description: Contains values that specify the type of a security identifier (SID).
 old-location: security\sid_name_use.htm
 tech.root: SecAuthZ
 ms.assetid: 4e6af6bd-056b-4f5a-b223-57a673c3fcfa
-
 ms.date: 12/05/2018
-ms.keywords: "*PSID_NAME_USE, PSID_NAME_USE, PSID_NAME_USE enumeration pointer [Security], SID_NAME_USE, SID_NAME_USE enumeration [Security], SidTypeAlias, SidTypeComputer, SidTypeDeletedAccount, SidTypeDomain, SidTypeGroup, SidTypeInvalid, SidTypeLabel, SidTypeUnknown, SidTypeUser, SidTypeWellKnownGroup, _win32_sid_name_use_str, security.sid_name_use, winnt/PSID_NAME_USE, winnt/SID_NAME_USE, winnt/SidTypeAlias, winnt/SidTypeComputer, winnt/SidTypeDeletedAccount, winnt/SidTypeDomain, winnt/SidTypeGroup, winnt/SidTypeInvalid, winnt/SidTypeLabel, winnt/SidTypeUnknown, winnt/SidTypeUser, winnt/SidTypeWellKnownGroup"
+ms.keywords: '*PSID_NAME_USE, PSID_NAME_USE, PSID_NAME_USE enumeration pointer [Security], SID_NAME_USE, SID_NAME_USE enumeration [Security], SidTypeAlias, SidTypeComputer, SidTypeDeletedAccount, SidTypeDomain, SidTypeGroup, SidTypeInvalid, SidTypeLabel, SidTypeUnknown, SidTypeUser, SidTypeWellKnownGroup, _win32_sid_name_use_str, security.sid_name_use, winnt/PSID_NAME_USE, winnt/SID_NAME_USE, winnt/SidTypeAlias, winnt/SidTypeComputer, winnt/SidTypeDeletedAccount, winnt/SidTypeDomain, winnt/SidTypeGroup, winnt/SidTypeInvalid, winnt/SidTypeLabel, winnt/SidTypeUnknown, winnt/SidTypeUser, winnt/SidTypeWellKnownGroup'
 ms.topic: enum
-f1_keywords: 
- - "winnt/SID_NAME_USE"
+f1_keywords:
+- winnt/SID_NAME_USE
 dev_langs:
- - c++
+- c++
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Winnt.h
+- Winnt.h
 api_name:
- - SID_NAME_USE
+- SID_NAME_USE
 targetos: Windows
 req.typenames: SID_NAME_USE, *PSID_NAME_USE
 req.redist: 

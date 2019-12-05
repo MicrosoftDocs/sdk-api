@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d10.ID3D10Device.CreateDepthStencilState
 title: ID3D10Device::CreateDepthStencilState (d3d10.h)
-
 description: Create a depth-stencil state object that encapsulates depth-stencil test information for the output-merger stage.
 old-location: direct3d10\id3d10device_createdepthstencilstate.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10device_createdepthstencilstate.htm
-
 ms.date: 12/05/2018
 ms.keywords: CreateDepthStencilState, CreateDepthStencilState method [Direct3D 10], CreateDepthStencilState method [Direct3D 10],ID3D10Device interface, ID3D10Device interface [Direct3D 10],CreateDepthStencilState method, ID3D10Device.CreateDepthStencilState, ID3D10Device::CreateDepthStencilState, a3a47d35-efaa-1c5f-3cb4-492e0e20a0b0, d3d10/ID3D10Device::CreateDepthStencilState, direct3d10.id3d10device_createdepthstencilstate
 ms.topic: method
-f1_keywords: 
- - "d3d10/ID3D10Device.CreateDepthStencilState"
+f1_keywords:
+- d3d10/ID3D10Device.CreateDepthStencilState
 dev_langs:
- - c++
+- c++
 req.header: d3d10.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: D3D10.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D10.lib
- - D3D10.dll
+- D3D10.lib
+- D3D10.dll
 api_name:
- - ID3D10Device.CreateDepthStencilState
+- ID3D10Device.CreateDepthStencilState
 targetos: Windows
 req.typenames: 
 req.redist: 

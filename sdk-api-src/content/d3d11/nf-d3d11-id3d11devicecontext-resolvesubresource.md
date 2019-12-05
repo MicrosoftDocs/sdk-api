@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d11.ID3D11DeviceContext.ResolveSubresource
 title: ID3D11DeviceContext::ResolveSubresource (d3d11.h)
-
 description: Copy a multisampled resource into a non-multisampled resource.
 old-location: direct3d11\id3d11devicecontext_resolvesubresource.htm
 tech.root: direct3d11
 ms.assetid: 7b4d6180-e3bf-475a-9865-592cda6e9f4a
-
 ms.date: 12/05/2018
 ms.keywords: 9790b3fd-189f-fe3d-b1be-96c2ba68f3f3, ID3D11DeviceContext interface [Direct3D 11],ResolveSubresource method, ID3D11DeviceContext.ResolveSubresource, ID3D11DeviceContext::ResolveSubresource, ResolveSubresource, ResolveSubresource method [Direct3D 11], ResolveSubresource method [Direct3D 11],ID3D11DeviceContext interface, d3d11/ID3D11DeviceContext::ResolveSubresource, direct3d11.id3d11devicecontext_resolvesubresource
 ms.topic: method
-f1_keywords: 
- - "d3d11/ID3D11DeviceContext.ResolveSubresource"
+f1_keywords:
+- d3d11/ID3D11DeviceContext.ResolveSubresource
 dev_langs:
- - c++
+- c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: D3D11.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D11.lib
- - D3D11.dll
+- D3D11.lib
+- D3D11.dll
 api_name:
- - ID3D11DeviceContext.ResolveSubresource
+- ID3D11DeviceContext.ResolveSubresource
 targetos: Windows
 req.typenames: 
 req.redist: 

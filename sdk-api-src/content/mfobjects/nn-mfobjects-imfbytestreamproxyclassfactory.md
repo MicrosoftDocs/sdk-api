@@ -1,19 +1,17 @@
 ---
 UID: NN:mfobjects.IMFByteStreamProxyClassFactory
 title: IMFByteStreamProxyClassFactory (mfobjects.h)
-
 description: Creates a proxy to a byte stream.
 old-location: mf\imfbytestreamproxyclassfactory.htm
 tech.root: medfound
 ms.assetid: DF29B5FC-864F-4400-8EDB-3A2CD797E37A
-
 ms.date: 12/05/2018
 ms.keywords: IMFByteStreamProxyClassFactory, IMFByteStreamProxyClassFactory interface [Media Foundation], IMFByteStreamProxyClassFactory interface [Media Foundation],described, mf.imfbytestreamproxyclassfactory, mfobjects/IMFByteStreamProxyClassFactory
 ms.topic: interface
-f1_keywords: 
- - "mfobjects/IMFByteStreamProxyClassFactory"
+f1_keywords:
+- mfobjects/IMFByteStreamProxyClassFactory
 dev_langs:
- - c++
+- c++
 req.header: mfobjects.h
 req.include-header: Mfidl.idl
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfobjects.h
+- mfobjects.h
 api_name:
- - IMFByteStreamProxyClassFactory
+- IMFByteStreamProxyClassFactory
 targetos: Windows
 req.typenames: 
 req.redist: 

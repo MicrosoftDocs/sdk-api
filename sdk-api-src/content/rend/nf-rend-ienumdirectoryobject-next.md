@@ -1,19 +1,17 @@
 ---
 UID: NF:rend.IEnumDirectoryObject.Next
 title: IEnumDirectoryObject::Next (rend.h)
-
 description: The Next method gets the next specified number of elements in the enumeration sequence.
 old-location: tapi3\ienumdirectoryobject_next.htm
 tech.root: Tapi
 ms.assetid: 034a704a-f5c7-46bf-a8fa-9bb6298dd4d2
-
 ms.date: 12/05/2018
 ms.keywords: IEnumDirectoryObject interface [TAPI 2.2],Next method, IEnumDirectoryObject.Next, IEnumDirectoryObject::Next, Next, Next method [TAPI 2.2], Next method [TAPI 2.2],IEnumDirectoryObject interface, _tapi3_ienumdirectoryobject_next, rend/IEnumDirectoryObject::Next, tapi3.ienumdirectoryobject_next
 ms.topic: method
-f1_keywords: 
- - "rend/IEnumDirectoryObject.Next"
+f1_keywords:
+- rend/IEnumDirectoryObject.Next
 dev_langs:
- - c++
+- c++
 req.header: rend.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Rend.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Rend.dll
+- Rend.dll
 api_name:
- - IEnumDirectoryObject.Next
+- IEnumDirectoryObject.Next
 targetos: Windows
 req.typenames: 
 req.redist: 

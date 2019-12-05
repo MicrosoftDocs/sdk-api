@@ -1,19 +1,17 @@
 ---
 UID: NE:d2d1_3.D2D1_COLOR_BITMAP_GLYPH_SNAP_OPTION
 title: D2D1_COLOR_BITMAP_GLYPH_SNAP_OPTION (d2d1_3.h)
-
 description: Specifies the pixel snapping policy when rendering color bitmap glyphs.
 old-location: direct2d\d2d1_color_bitmap_glyph_snap_option.htm
 tech.root: Direct2D
 ms.assetid: 14D99AFE-8072-4EAC-8932-6BD8D6EACB48
-
 ms.date: 12/05/2018
 ms.keywords: D2D1_COLOR_BITMAP_GLYPH_SNAP_OPTION, D2D1_COLOR_BITMAP_GLYPH_SNAP_OPTION enumeration [Direct2D], D2D1_COLOR_BITMAP_GLYPH_SNAP_OPTION_DEFAULT, D2D1_COLOR_BITMAP_GLYPH_SNAP_OPTION_DISABLE, d2d1_3/D2D1_COLOR_BITMAP_GLYPH_SNAP_OPTION, d2d1_3/D2D1_COLOR_BITMAP_GLYPH_SNAP_OPTION_DEFAULT, d2d1_3/D2D1_COLOR_BITMAP_GLYPH_SNAP_OPTION_DISABLE, direct2d.d2d1_color_bitmap_glyph_snap_option
 ms.topic: enum
-f1_keywords: 
- - "d2d1_3/D2D1_COLOR_BITMAP_GLYPH_SNAP_OPTION"
+f1_keywords:
+- d2d1_3/D2D1_COLOR_BITMAP_GLYPH_SNAP_OPTION
 dev_langs:
- - c++
+- c++
 req.header: d2d1_3.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - d2d1_3.h
+- d2d1_3.h
 api_name:
- - D2D1_COLOR_BITMAP_GLYPH_SNAP_OPTION
+- D2D1_COLOR_BITMAP_GLYPH_SNAP_OPTION
 targetos: Windows
 req.typenames: D2D1_COLOR_BITMAP_GLYPH_SNAP_OPTION
 req.redist: 

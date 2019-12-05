@@ -1,19 +1,17 @@
 ---
 UID: NF:d2d1_1.ID2D1Properties.GetPropertyIndex
 title: ID2D1Properties::GetPropertyIndex
-
 description: Gets the index corresponding to the given property name.
 old-location: direct2d\id2d1properties_getpropertyindex.htm
 tech.root: Direct2D
 ms.assetid: b1c7003f-b7c2-464c-8e8e-a641068b9393
-
 ms.date: 09/19/2019
 ms.keywords: GetPropertyIndex, GetPropertyIndex method [Direct2D], GetPropertyIndex method [Direct2D],ID2D1Properties interface, ID2D1Properties interface [Direct2D],GetPropertyIndex method, ID2D1Properties.GetPropertyIndex, ID2D1Properties::GetPropertyIndex, d2d1_1/ID2D1Properties::GetPropertyIndex, direct2d.id2d1properties_getpropertyindex
 ms.topic: method
-f1_keywords: 
- - "d2d1_1/ID2D1Properties.GetPropertyIndex"
+f1_keywords:
+- d2d1_1/ID2D1Properties.GetPropertyIndex
 dev_langs:
- - c++
+- c++
 req.header: d2d1_1.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: D2d1.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D2d1.dll
+- D2d1.dll
 api_name:
- - ID2D1Properties.GetPropertyIndex
+- ID2D1Properties.GetPropertyIndex
 targetos: Windows
 req.typenames: 
 req.redist: 

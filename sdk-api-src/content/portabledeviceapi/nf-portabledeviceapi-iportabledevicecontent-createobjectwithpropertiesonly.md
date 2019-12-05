@@ -1,19 +1,17 @@
 ---
 UID: NF:portabledeviceapi.IPortableDeviceContent.CreateObjectWithPropertiesOnly
 title: IPortableDeviceContent::CreateObjectWithPropertiesOnly (portabledeviceapi.h)
-
 description: The CreateObjectWithPropertiesOnly method creates an object with only properties on the device.
 old-location: wpdsdk\iportabledevicecontent_createobjectwithpropertiesonly.htm
 tech.root: wpd_sdk
 ms.assetid: 0695d3d6-1f0d-45b4-8461-a76d759b6c09
-
 ms.date: 12/05/2018
 ms.keywords: CreateObjectWithPropertiesOnly, CreateObjectWithPropertiesOnly method [Windows Portable Devices SDK], CreateObjectWithPropertiesOnly method [Windows Portable Devices SDK],IPortableDeviceContent interface, IPortableDeviceContent interface [Windows Portable Devices SDK],CreateObjectWithPropertiesOnly method, IPortableDeviceContent.CreateObjectWithPropertiesOnly, IPortableDeviceContent::CreateObjectWithPropertiesOnly, IPortableDeviceContentCreateObjectWithPropertiesOnly, portabledeviceapi/IPortableDeviceContent::CreateObjectWithPropertiesOnly, wpdsdk.iportabledevicecontent_createobjectwithpropertiesonly
 ms.topic: method
-f1_keywords: 
- - "portabledeviceapi/IPortableDeviceContent.CreateObjectWithPropertiesOnly"
+f1_keywords:
+- portabledeviceapi/IPortableDeviceContent.CreateObjectWithPropertiesOnly
 dev_langs:
- - c++
+- c++
 req.header: portabledeviceapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: PortableDeviceGUIDs.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - PortableDeviceGUIDs.lib
- - PortableDeviceGUIDs.dll
+- PortableDeviceGUIDs.lib
+- PortableDeviceGUIDs.dll
 api_name:
- - IPortableDeviceContent.CreateObjectWithPropertiesOnly
+- IPortableDeviceContent.CreateObjectWithPropertiesOnly
 targetos: Windows
 req.typenames: 
 req.redist: 

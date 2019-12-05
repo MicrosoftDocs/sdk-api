@@ -1,19 +1,17 @@
 ---
 UID: NE:mmc._MMC_FILTER_TYPE
 title: MMC_FILTER_TYPE (mmc.h)
-
 description: The MMC_FILTER_TYPE enumeration is introduced in MMC 1.2.
 old-location: mmc\mmc_filter_type.htm
 tech.root: mmc
 ms.assetid: 69e6952c-baea-42ac-9700-1f9a4b8d5e67
-
 ms.date: 12/05/2018
 ms.keywords: MMC_FILTER_NOVALUE, MMC_FILTER_TYPE, MMC_FILTER_TYPE enumeration [MMC], MMC_INT_FILTER, MMC_STRING_FILTER, _slate_mmc_filter_type, mmc.mmc_filter_type, mmc/MMC_FILTER_NOVALUE, mmc/MMC_FILTER_TYPE, mmc/MMC_INT_FILTER, mmc/MMC_STRING_FILTER
 ms.topic: enum
-f1_keywords: 
- - "mmc/MMC_FILTER_TYPE"
+f1_keywords:
+- mmc/MMC_FILTER_TYPE
 dev_langs:
- - c++
+- c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Mmc.h
+- Mmc.h
 api_name:
- - MMC_FILTER_TYPE
+- MMC_FILTER_TYPE
 targetos: Windows
 req.typenames: MMC_FILTER_TYPE
 req.redist: 

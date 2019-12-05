@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IFileDialog.GetOptions
 title: IFileDialog::GetOptions (shobjidl_core.h)
-
 description: Gets the current flags that are set to control dialog behavior.
 old-location: shell\IFileDialog_GetOptions.htm
 tech.root: shell
 ms.assetid: 8a01b64d-b58e-4470-a5ed-8cf821b26c6b
-
 ms.date: 12/05/2018
 ms.keywords: GetOptions, GetOptions method [Windows Shell], GetOptions method [Windows Shell],IFileDialog interface, IFileDialog interface [Windows Shell],GetOptions method, IFileDialog.GetOptions, IFileDialog::GetOptions, shell.IFileDialog_GetOptions, shell_IFileDialog_GetOptions, shobjidl_core/IFileDialog::GetOptions
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IFileDialog.GetOptions"
+f1_keywords:
+- shobjidl_core/IFileDialog.GetOptions
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - IFileDialog.GetOptions
+- IFileDialog.GetOptions
 targetos: Windows
 req.typenames: 
 req.redist: 

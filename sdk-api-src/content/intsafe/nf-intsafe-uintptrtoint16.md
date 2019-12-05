@@ -1,19 +1,17 @@
 ---
 UID: NF:intsafe.UIntPtrToInt16
 title: UIntPtrToInt16 function (intsafe.h)
-
 description: Converts a value of type UINT_PTR to a value of type INT16.
 old-location: shell\UIntPtrToInt16.htm
 tech.root: shell
 ms.assetid: cce027f0-34e9-4c13-89de-102c98ab7a14
-
 ms.date: 12/05/2018
 ms.keywords: UIntPtrToInt16, UIntPtrToInt16 function [Windows Shell], intsafe/UIntPtrToInt16, shell.UIntPtrToInt16
 ms.topic: function
-f1_keywords: 
- - "intsafe/UIntPtrToInt16"
+f1_keywords:
+- intsafe/UIntPtrToInt16
 dev_langs:
- - c++
+- c++
 req.header: intsafe.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - intsafe.h
+- intsafe.h
 api_name:
- - UIntPtrToInt16
+- UIntPtrToInt16
 targetos: Windows
 req.typenames: 
 req.redist: 

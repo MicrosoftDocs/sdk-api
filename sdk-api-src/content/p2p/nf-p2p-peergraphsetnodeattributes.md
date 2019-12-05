@@ -1,19 +1,17 @@
 ---
 UID: NF:p2p.PeerGraphSetNodeAttributes
 title: PeerGraphSetNodeAttributes function (p2p.h)
-
 description: The PeerGraphSetNodeAttributes function sets the attributes of the PEER_NODE_INFO structure for the local node.
 old-location: p2p\peergraphsetnodeattributes.htm
 tech.root: P2PSdk
 ms.assetid: 334b6c88-4d5d-4e73-843f-2be07b9de9c9
-
 ms.date: 12/05/2018
 ms.keywords: PeerGraphSetNodeAttributes, PeerGraphSetNodeAttributes function [Peer Networking], p2p.peergraphsetnodeattributes, p2p/PeerGraphSetNodeAttributes
 ms.topic: function
-f1_keywords: 
- - "p2p/PeerGraphSetNodeAttributes"
+f1_keywords:
+- p2p/PeerGraphSetNodeAttributes
 dev_langs:
- - c++
+- c++
 req.header: p2p.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: P2PGraph.lib
 req.dll: P2PGraph.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - P2PGraph.dll
+- P2PGraph.dll
 api_name:
- - PeerGraphSetNodeAttributes
+- PeerGraphSetNodeAttributes
 targetos: Windows
 req.typenames: 
 req.redist: 

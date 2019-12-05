@@ -1,19 +1,17 @@
 ---
 UID: NF:xenroll.ICEnroll4.addCertTypeToRequestEx
 title: ICEnroll4::addCertTypeToRequestEx (xenroll.h)
-
 description: Adds a certificate template (or &#0034;certificate type&#0034;) to a request.
 old-location: security\icenroll4_addcerttypetorequestex.htm
 tech.root: SecCrypto
 ms.assetid: bde35e01-8b26-44f7-828e-e8313a2b5a12
-
 ms.date: 12/05/2018
 ms.keywords: CEnroll object [Security],addCertTypeToRequestEx method, ICEnroll4 interface [Security],addCertTypeToRequestEx method, ICEnroll4.addCertTypeToRequestEx, ICEnroll4::addCertTypeToRequestEx, XECT_EXTENSION_V1, XECT_EXTENSION_V2, _xen_icenroll4_addcerttypetorequestex, addCertTypeToRequestEx, addCertTypeToRequestEx method [Security], addCertTypeToRequestEx method [Security],CEnroll object, addCertTypeToRequestEx method [Security],ICEnroll4 interface, security.icenroll4_addcerttypetorequestex, xenroll/ICEnroll4::addCertTypeToRequestEx
 ms.topic: method
-f1_keywords: 
- - "xenroll/ICEnroll4.addCertTypeToRequestEx"
+f1_keywords:
+- xenroll/ICEnroll4.addCertTypeToRequestEx
 dev_langs:
- - c++
+- c++
 req.header: xenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Uuid.lib
 req.dll: Xenroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Xenroll.dll
+- Xenroll.dll
 api_name:
- - ICEnroll4.addCertTypeToRequestEx
- - CEnroll.addCertTypeToRequestEx
+- ICEnroll4.addCertTypeToRequestEx
+- CEnroll.addCertTypeToRequestEx
 targetos: Windows
 req.typenames: 
 req.redist: 

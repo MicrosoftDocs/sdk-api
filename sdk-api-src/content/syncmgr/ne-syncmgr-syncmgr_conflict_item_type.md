@@ -1,19 +1,17 @@
 ---
 UID: NE:syncmgr.SYNCMGR_CONFLICT_ITEM_TYPE
 title: SYNCMGR_CONFLICT_ITEM_TYPE (syncmgr.h)
-
 description: Describes conflict item type.
 old-location: shell\SYNCMGR_CONFLICT_ITEM_TYPE.htm
 tech.root: shell
 ms.assetid: b0bc2285-b3a3-43a9-b169-611f587bb086
-
 ms.date: 12/05/2018
 ms.keywords: SYNCMGR_CIT_DELETED, SYNCMGR_CIT_UPDATED, SYNCMGR_CONFLICT_ITEM_TYPE, SYNCMGR_CONFLICT_ITEM_TYPE enumeration [Windows Shell], _shell_SYNCMGR_CONFLICT_ITEM_TYPE, shell.SYNCMGR_CONFLICT_ITEM_TYPE, syncmgr/SYNCMGR_CIT_DELETED, syncmgr/SYNCMGR_CIT_UPDATED, syncmgr/SYNCMGR_CONFLICT_ITEM_TYPE
 ms.topic: enum
-f1_keywords: 
- - "syncmgr/SYNCMGR_CONFLICT_ITEM_TYPE"
+f1_keywords:
+- syncmgr/SYNCMGR_CONFLICT_ITEM_TYPE
 dev_langs:
- - c++
+- c++
 req.header: syncmgr.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Syncmgr.h
+- Syncmgr.h
 api_name:
- - SYNCMGR_CONFLICT_ITEM_TYPE
+- SYNCMGR_CONFLICT_ITEM_TYPE
 targetos: Windows
 req.typenames: SYNCMGR_CONFLICT_ITEM_TYPE
 req.redist: 

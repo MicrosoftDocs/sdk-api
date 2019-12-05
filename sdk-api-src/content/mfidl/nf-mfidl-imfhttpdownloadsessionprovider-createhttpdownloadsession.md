@@ -1,19 +1,17 @@
 ---
 UID: NF:mfidl.IMFHttpDownloadSessionProvider.CreateHttpDownloadSession
 title: IMFHttpDownloadSessionProvider::CreateHttpDownloadSession (mfidl.h)
-
 description: Called by the Microsoft Media Foundation to open HTTP or HTTPS URLs instead of using the default implementation.
 old-location: mf\imfhttpdownloadsessionprovider_createhttpdownloadsession.htm
 tech.root: medfound
 ms.assetid: D9DAE789-1C0E-42B4-87B6-593D3B67FE1F
-
 ms.date: 12/05/2018
 ms.keywords: CreateHttpDownloadSession, CreateHttpDownloadSession method [Media Foundation], CreateHttpDownloadSession method [Media Foundation],IMFHttpDownloadSessionProvider interface, IMFHttpDownloadSessionProvider interface [Media Foundation],CreateHttpDownloadSession method, IMFHttpDownloadSessionProvider.CreateHttpDownloadSession, IMFHttpDownloadSessionProvider::CreateHttpDownloadSession, mf.imfhttpdownloadsessionprovider_createhttpdownloadsession, mfidl/IMFHttpDownloadSessionProvider::CreateHttpDownloadSession
 ms.topic: method
-f1_keywords: 
- - "mfidl/IMFHttpDownloadSessionProvider.CreateHttpDownloadSession"
+f1_keywords:
+- mfidl/IMFHttpDownloadSessionProvider.CreateHttpDownloadSession
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Mfplat.lib; Mfplat.dll
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfplat.lib
- - mfplat.dll
- - mfplat.dll
- - mfplat.dll.dll
+- mfplat.lib
+- mfplat.dll
+- mfplat.dll
+- mfplat.dll.dll
 api_name:
- - IMFHttpDownloadSessionProvider.CreateHttpDownloadSession
+- IMFHttpDownloadSessionProvider.CreateHttpDownloadSession
 targetos: Windows
 req.typenames: 
 req.redist: 

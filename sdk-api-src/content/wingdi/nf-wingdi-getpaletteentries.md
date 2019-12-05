@@ -1,19 +1,17 @@
 ---
 UID: NF:wingdi.GetPaletteEntries
 title: GetPaletteEntries function (wingdi.h)
-
 description: The GetPaletteEntries function retrieves a specified range of palette entries from the given logical palette.
 old-location: gdi\getpaletteentries.htm
 tech.root: gdi
 ms.assetid: 5e72e881-32e1-458e-a09e-91fa13abe178
-
 ms.date: 12/05/2018
 ms.keywords: GetPaletteEntries, GetPaletteEntries function [Windows GDI], _win32_GetPaletteEntries, gdi.getpaletteentries, wingdi/GetPaletteEntries
 ms.topic: function
-f1_keywords: 
- - "wingdi/GetPaletteEntries"
+f1_keywords:
+- wingdi/GetPaletteEntries
 dev_langs:
- - c++
+- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - gdi32.dll
- - Ext-MS-Win-GDI-DC-l1-2-0.dll
- - ext-ms-win-gdi-dc-l1-1-0.dll
- - ext-ms-win-gdi-dc-l1-2-1.dll
- - GDI32Full.dll
+- gdi32.dll
+- Ext-MS-Win-GDI-DC-l1-2-0.dll
+- ext-ms-win-gdi-dc-l1-1-0.dll
+- ext-ms-win-gdi-dc-l1-2-1.dll
+- GDI32Full.dll
 api_name:
- - GetPaletteEntries
+- GetPaletteEntries
 targetos: Windows
 req.typenames: 
 req.redist: 

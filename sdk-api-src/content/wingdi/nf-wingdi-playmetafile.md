@@ -1,19 +1,17 @@
 ---
 UID: NF:wingdi.PlayMetaFile
 title: PlayMetaFile function (wingdi.h)
-
 description: The PlayMetaFile function displays the picture stored in the given Windows-format metafile on the specified device.
 old-location: gdi\playmetafile.htm
 tech.root: gdi
 ms.assetid: 044894df-dc8a-41b2-8810-e0a1b8bc19d8
-
 ms.date: 12/05/2018
 ms.keywords: PlayMetaFile, PlayMetaFile function [Windows GDI], _win32_PlayMetaFile, gdi.playmetafile, wingdi/PlayMetaFile
 ms.topic: function
-f1_keywords: 
- - "wingdi/PlayMetaFile"
+f1_keywords:
+- wingdi/PlayMetaFile
 dev_langs:
- - c++
+- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - gdi32.dll
- - Ext-MS-Win-GDI-Metafile-L1-1-2.dll
- - GDI32Full.dll
+- gdi32.dll
+- Ext-MS-Win-GDI-Metafile-L1-1-2.dll
+- GDI32Full.dll
 api_name:
- - PlayMetaFile
+- PlayMetaFile
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:certenroll.IX509AttributeCspProvider.InitializeDecode
 title: IX509AttributeCspProvider::InitializeDecode (certenroll.h)
-
 description: Initializes the object from a Distinguished Encoding Rules (DER) encoded byte array that contains information about the provider.
 old-location: security\ix509attributecspprovider_initializedecode_method.htm
 tech.root: seccertenroll
 ms.assetid: 7098ee8d-39e9-4463-97fe-309265c6baa7
-
 ms.date: 12/05/2018
 ms.keywords: IX509AttributeCspProvider interface [Security],InitializeDecode method, IX509AttributeCspProvider.InitializeDecode, IX509AttributeCspProvider::InitializeDecode, InitializeDecode, InitializeDecode method [Security], InitializeDecode method [Security],IX509AttributeCspProvider interface, certenroll/IX509AttributeCspProvider::InitializeDecode, security.ix509attributecspprovider_initializedecode_method
 ms.topic: method
-f1_keywords: 
- - "certenroll/IX509AttributeCspProvider.InitializeDecode"
+f1_keywords:
+- certenroll/IX509AttributeCspProvider.InitializeDecode
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: CertEnroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CertEnroll.dll
+- CertEnroll.dll
 api_name:
- - IX509AttributeCspProvider.InitializeDecode
+- IX509AttributeCspProvider.InitializeDecode
 targetos: Windows
 req.typenames: 
 req.redist: 

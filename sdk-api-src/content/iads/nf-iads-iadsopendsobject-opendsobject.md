@@ -1,19 +1,17 @@
 ---
 UID: NF:iads.IADsOpenDSObject.OpenDSObject
 title: IADsOpenDSObject::OpenDSObject (iads.h)
-
 description: Binds to an ADSI object, using the given credentials, and retrieves an IDispatch pointer to the specified object.
 old-location: adsi\iadsopendsobject_opendsobject.htm
 tech.root: adsi
 ms.assetid: 9984ddb4-58bb-4264-930b-07e6534dc69f
-
 ms.date: 12/05/2018
 ms.keywords: IADsOpenDSObject interface [ADSI],OpenDSObject method, IADsOpenDSObject.OpenDSObject, IADsOpenDSObject::OpenDSObject, OpenDSObject, OpenDSObject method [ADSI], OpenDSObject method [ADSI],IADsOpenDSObject interface, _ds_iadsopendsobject_opendsobject, adsi.iadsopendsobject__opendsobject, adsi.iadsopendsobject_opendsobject, iads/IADsOpenDSObject::OpenDSObject
 ms.topic: method
-f1_keywords: 
- - "iads/IADsOpenDSObject.OpenDSObject"
+f1_keywords:
+- iads/IADsOpenDSObject.OpenDSObject
 dev_langs:
- - c++
+- c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Activeds.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Activeds.dll
+- Activeds.dll
 api_name:
- - IADsOpenDSObject.OpenDSObject
+- IADsOpenDSObject.OpenDSObject
 targetos: Windows
 req.typenames: 
 req.redist: 

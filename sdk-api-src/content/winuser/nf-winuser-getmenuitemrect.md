@@ -1,19 +1,17 @@
 ---
 UID: NF:winuser.GetMenuItemRect
 title: GetMenuItemRect function (winuser.h)
-
 description: Retrieves the bounding rectangle for the specified menu item.
 old-location: menurc\getmenuitemrect.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\menus\menureference\menufunctions\getmenuitemrect.htm
-
 ms.date: 12/05/2018
 ms.keywords: GetMenuItemRect, GetMenuItemRect function [Menus and Other Resources], _win32_GetMenuItemRect, _win32_getmenuitemrect_cpp, menurc.getmenuitemrect, winui._win32_getmenuitemrect, winuser/GetMenuItemRect
 ms.topic: function
-f1_keywords: 
- - "winuser/GetMenuItemRect"
+f1_keywords:
+- winuser/GetMenuItemRect
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - User32.dll
+- User32.dll
 api_name:
- - GetMenuItemRect
+- GetMenuItemRect
 targetos: Windows
 req.typenames: 
 req.redist: 

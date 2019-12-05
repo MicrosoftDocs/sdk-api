@@ -1,19 +1,17 @@
 ---
 UID: NF:mswmdm.IWMDMDeviceSession.EndSession
 title: IWMDMDeviceSession::EndSession (mswmdm.h)
-
 description: The EndSession method ends a device session.
 old-location: wmdm\iwmdmdevicesession_endsession.htm
 tech.root: WMDM
 ms.assetid: f587a20a-936f-49a4-8e56-2e05b3d295f6
-
 ms.date: 12/05/2018
 ms.keywords: EndSession, EndSession method [windows Media Device Manager], EndSession method [windows Media Device Manager],IWMDMDeviceSession interface, IWMDMDeviceSession interface [windows Media Device Manager],EndSession method, IWMDMDeviceSession.EndSession, IWMDMDeviceSession::EndSession, IWMDMDeviceSessionEndSession, mswmdm/IWMDMDeviceSession::EndSession, wmdm.iwmdmdevicesession_endsession
 ms.topic: method
-f1_keywords: 
- - "mswmdm/IWMDMDeviceSession.EndSession"
+f1_keywords:
+- mswmdm/IWMDMDeviceSession.EndSession
 dev_langs:
- - c++
+- c++
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mssachlp.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mssachlp.lib
- - mssachlp.dll
+- mssachlp.lib
+- mssachlp.dll
 api_name:
- - IWMDMDeviceSession.EndSession
+- IWMDMDeviceSession.EndSession
 targetos: Windows
 req.typenames: 
 req.redist: 

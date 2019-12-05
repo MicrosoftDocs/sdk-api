@@ -1,19 +1,17 @@
 ---
 UID: NF:wsdbase.IWSDHttpAddress.SetSecure
 title: IWSDHttpAddress::SetSecure (wsdbase.h)
-
 description: Enables or disables TLS secure sessions for this address.
 old-location: ncd\iwsdhttpaddress_setsecure.htm
 tech.root: WsdApi
 ms.assetid: f2b66d0d-51b2-437e-8ceb-a4c95f2f9d6d
-
 ms.date: 12/05/2018
 ms.keywords: IWSDHttpAddress interface,SetSecure method, IWSDHttpAddress.SetSecure, IWSDHttpAddress::SetSecure, SetSecure, SetSecure method, SetSecure method,IWSDHttpAddress interface, ncd.iwsdhttpaddress_setsecure, wsdbase/IWSDHttpAddress::SetSecure
 ms.topic: method
-f1_keywords: 
- - "wsdbase/IWSDHttpAddress.SetSecure"
+f1_keywords:
+- wsdbase/IWSDHttpAddress.SetSecure
 dev_langs:
- - c++
+- c++
 req.header: wsdbase.h
 req.include-header: Wsdapi.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wsdapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wsdapi.dll
+- Wsdapi.dll
 api_name:
- - IWSDHttpAddress.SetSecure
+- IWSDHttpAddress.SetSecure
 targetos: Windows
 req.typenames: 
 req.redist: 

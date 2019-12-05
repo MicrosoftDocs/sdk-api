@@ -1,19 +1,17 @@
 ---
 UID: NS:windows.foundation.Point
 title: Point (windows.foundation.h)
-
 description: Represents an ordered pair of floating-point x- and y-coordinates that defines a point in a two-dimensional plane.
 old-location: winrt\point.htm
 tech.root: WinRT
 ms.assetid: 0cdd5b17-2f7e-4e17-896c-7d7784c8643d
-
 ms.date: 12/05/2018
 ms.keywords: Point, Point structure [Windows Runtime], windows/Point, winrt.point
 ms.topic: struct
-f1_keywords: 
- - "windows.foundation/Point"
+f1_keywords:
+- windows.foundation/Point
 dev_langs:
- - c++
+- c++
 req.header: windows.foundation.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Windows.Foundation.h
+- Windows.Foundation.h
 api_name:
- - Point
+- Point
 targetos: Windows
 req.typenames: Point
 req.redist: 

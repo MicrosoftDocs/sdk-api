@@ -1,19 +1,17 @@
 ---
 UID: NF:wmiutils.IWbemQuery.GetAnalysis
 title: IWbemQuery::GetAnalysis (wmiutils.h)
-
 description: Gets the results of a successful query parse.
 old-location: wmi\iwbemquery_getanalysis.htm
 tech.root: WmiSdk
 ms.assetid: 06cd2593-58f5-46b9-9100-debad0280d90
-
 ms.date: 12/05/2018
 ms.keywords: GetAnalysis, GetAnalysis method [Windows Management Instrumentation], GetAnalysis method [Windows Management Instrumentation],IWbemQuery interface, IWbemQuery interface [Windows Management Instrumentation],GetAnalysis method, IWbemQuery.GetAnalysis, IWbemQuery::GetAnalysis, WMIQ_ANALYSIS_ASSOC_QUERY, WMIQ_ANALYSIS_PROP_ANALYSIS_MATRIX, WMIQ_ANALYSIS_QUERY_TEXT, WMIQ_ANALYSIS_RPN_SEQUENCE, _hmm_iwbemquery_getanalysis, wmi.iwbemquery_getanalysis, wmiutils/IWbemQuery::GetAnalysis
 ms.topic: method
-f1_keywords: 
- - "wmiutils/IWbemQuery.GetAnalysis"
+f1_keywords:
+- wmiutils/IWbemQuery.GetAnalysis
 dev_langs:
- - c++
+- c++
 req.header: wmiutils.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Wbemuuid.lib
 req.dll: Wmiutils.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wmiutils.dll
+- Wmiutils.dll
 api_name:
- - IWbemQuery.GetAnalysis
+- IWbemQuery.GetAnalysis
 targetos: Windows
 req.typenames: 
 req.redist: 

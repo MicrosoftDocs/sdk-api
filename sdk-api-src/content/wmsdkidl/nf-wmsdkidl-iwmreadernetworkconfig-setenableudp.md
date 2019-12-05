@@ -1,19 +1,17 @@
 ---
 UID: NF:wmsdkidl.IWMReaderNetworkConfig.SetEnableUDP
 title: IWMReaderNetworkConfig::SetEnableUDP (wmsdkidl.h)
-
 description: The SetEnableUDP method enables or disables UDP.
 old-location: wmformat\iwmreadernetworkconfig_setenableudp.htm
 tech.root: wmformat
 ms.assetid: 03afdef3-2aa8-4826-8dce-6d501fa42bcd
-
 ms.date: 12/05/2018
 ms.keywords: IWMReaderNetworkConfig interface [windows Media Format],SetEnableUDP method, IWMReaderNetworkConfig.SetEnableUDP, IWMReaderNetworkConfig::SetEnableUDP, IWMReaderNetworkConfigSetEnableUDP, SetEnableUDP, SetEnableUDP method [windows Media Format], SetEnableUDP method [windows Media Format],IWMReaderNetworkConfig interface, wmformat.iwmreadernetworkconfig_setenableudp, wmsdkidl/IWMReaderNetworkConfig::SetEnableUDP
 ms.topic: method
-f1_keywords: 
- - "wmsdkidl/IWMReaderNetworkConfig.SetEnableUDP"
+f1_keywords:
+- wmsdkidl/IWMReaderNetworkConfig.SetEnableUDP
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wmvcore.lib
- - Wmvcore.dll
- - WMStubDRM.lib
- - WMStubDRM.dll
+- Wmvcore.lib
+- Wmvcore.dll
+- WMStubDRM.lib
+- WMStubDRM.dll
 api_name:
- - IWMReaderNetworkConfig.SetEnableUDP
+- IWMReaderNetworkConfig.SetEnableUDP
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:wmp.IWMPCore.get_mediaCollection
 title: IWMPCore::get_mediaCollection (wmp.h)
-
 description: The get_mediaCollection method retrieves a pointer to an IWMPMediaCollection interface.
 old-location: wmp\iwmpcore_get_mediacollection.htm
 tech.root: WMP
 ms.assetid: 41b090ca-edf0-440e-b578-26c5ad064657
-
 ms.date: 12/05/2018
 ms.keywords: IWMPCore interface [Windows Media Player],get_mediaCollection method, IWMPCore.get_mediaCollection, IWMPCore::get_mediaCollection, IWMPCoreget_mediaCollection, get_mediaCollection, get_mediaCollection method [Windows Media Player], get_mediaCollection method [Windows Media Player],IWMPCore interface, wmp.iwmpcore_get_mediacollection, wmp/IWMPCore::get_mediaCollection
 ms.topic: method
-f1_keywords: 
- - "wmp/IWMPCore.get_mediaCollection"
+f1_keywords:
+- wmp/IWMPCore.get_mediaCollection
 dev_langs:
- - c++
+- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wmp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmp.dll
+- wmp.dll
 api_name:
- - IWMPCore.get_mediaCollection
+- IWMPCore.get_mediaCollection
 targetos: Windows
 req.typenames: 
 req.redist: 

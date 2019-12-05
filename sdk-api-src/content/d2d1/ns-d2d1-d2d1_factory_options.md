@@ -1,19 +1,17 @@
 ---
 UID: NS:d2d1.D2D1_FACTORY_OPTIONS
 title: D2D1_FACTORY_OPTIONS (d2d1.h)
-
 description: Contains the debugging level of an ID2D1Factory object.
 old-location: direct2d\D2D1_FACTORY_OPTIONS.htm
 tech.root: Direct2D
 ms.assetid: 2765d34e-978c-4121-82c9-2780d54e2850
-
 ms.date: 12/05/2018
 ms.keywords: D2D1_FACTORY_OPTIONS, D2D1_FACTORY_OPTIONS structure [Direct2D], d2d1/D2D1_FACTORY_OPTIONS, direct2d.D2D1_FACTORY_OPTIONS
 ms.topic: struct
-f1_keywords: 
- - "d2d1/D2D1_FACTORY_OPTIONS"
+f1_keywords:
+- d2d1/D2D1_FACTORY_OPTIONS
 dev_langs:
- - c++
+- c++
 req.header: d2d1.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - d2d1.h
+- d2d1.h
 api_name:
- - D2D1_FACTORY_OPTIONS
+- D2D1_FACTORY_OPTIONS
 targetos: Windows
 req.typenames: D2D1_FACTORY_OPTIONS
 req.redist: 

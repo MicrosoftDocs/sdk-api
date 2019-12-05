@@ -1,19 +1,17 @@
 ---
 UID: NF:mfapi.MFCreateDXSurfaceBuffer
 title: MFCreateDXSurfaceBuffer function (mfapi.h)
-
 description: Creates a media buffer object that manages a Direct3D 9 surface.
 old-location: mf\mfcreatedxsurfacebuffer.htm
 tech.root: medfound
 ms.assetid: d1ee158e-5d70-41a4-b746-2ecaea2db92c
-
 ms.date: 12/05/2018
 ms.keywords: MFCreateDXSurfaceBuffer, MFCreateDXSurfaceBuffer function [Media Foundation], d1ee158e-5d70-41a4-b746-2ecaea2db92c, mf.mfcreatedxsurfacebuffer, mfapi/MFCreateDXSurfaceBuffer
 ms.topic: function
-f1_keywords: 
- - "mfapi/MFCreateDXSurfaceBuffer"
+f1_keywords:
+- mfapi/MFCreateDXSurfaceBuffer
 dev_langs:
- - c++
+- c++
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Evr.lib
 req.dll: Evr.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - evr.dll
+- evr.dll
 api_name:
- - MFCreateDXSurfaceBuffer
+- MFCreateDXSurfaceBuffer
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NS:dbghelp._OMAP
 title: OMAP (dbghelp.h)
-
 description: Describes an entry in an address map.
 old-location: base\omap.htm
 tech.root: Debug
 ms.assetid: 47f1dc1d-9305-4514-83b8-6d32bd9914f2
-
 ms.date: 12/05/2018
-ms.keywords: "*POMAP, OMAP, OMAP structure, POMAP, POMAP structure pointer, _OMAP, base.omap, dbghelp/OMAP, dbghelp/POMAP"
+ms.keywords: '*POMAP, OMAP, OMAP structure, POMAP, POMAP structure pointer, _OMAP, base.omap, dbghelp/OMAP, dbghelp/POMAP'
 ms.topic: struct
-f1_keywords: 
- - "dbghelp/OMAP"
+f1_keywords:
+- dbghelp/OMAP
 dev_langs:
- - c++
+- c++
 req.header: dbghelp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Dbghelp.h
+- Dbghelp.h
 api_name:
- - OMAP
+- OMAP
 targetos: Windows
 req.typenames: OMAP, *POMAP
 req.redist: DbgHelp.dll 6.8 or later

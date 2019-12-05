@@ -1,19 +1,17 @@
 ---
 UID: NF:commctrl.TreeView_SelectDropTarget
 title: TreeView_SelectDropTarget macro (commctrl.h)
-
 description: Redraws a specified tree-view control item in the style used to indicate the target of a drag-and-drop operation. You can use this macro or the TreeView_Select macro, or you can send the TVM_SELECTITEM message explicitly.
 old-location: controls\TreeView_SelectDropTarget.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\treeview\macros\treeview_selectdroptarget.htm
-
 ms.date: 12/05/2018
 ms.keywords: TreeView_SelectDropTarget, TreeView_SelectDropTarget macro [Windows Controls], _win32_TreeView_SelectDropTarget, _win32_TreeView_SelectDropTarget_cpp, commctrl/TreeView_SelectDropTarget, controls.TreeView_SelectDropTarget, controls._win32_TreeView_SelectDropTarget
 ms.topic: macro
-f1_keywords: 
- - "commctrl/TreeView_SelectDropTarget"
+f1_keywords:
+- commctrl/TreeView_SelectDropTarget
 dev_langs:
- - c++
+- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Commctrl.h
+- Commctrl.h
 api_name:
- - TreeView_SelectDropTarget
+- TreeView_SelectDropTarget
 targetos: Windows
 req.typenames: 
 req.redist: 

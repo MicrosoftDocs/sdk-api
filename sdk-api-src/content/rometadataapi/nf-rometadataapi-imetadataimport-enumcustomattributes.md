@@ -1,19 +1,17 @@
 ---
 UID: NF:rometadataapi.IMetaDataImport.EnumCustomAttributes
 title: IMetaDataImport::EnumCustomAttributes (rometadataapi.h)
-
 description: Enumerates custom attribute-definition tokens associated with the specified type or member.
 old-location: winrt\imetadataimport_enumcustomattributes.htm
 tech.root: WinRT
 ms.assetid: d5ecb71e-a52f-421b-aab9-48efcc77ec2f
-
 ms.date: 12/05/2018
 ms.keywords: EnumCustomAttributes, EnumCustomAttributes method [Windows Runtime], EnumCustomAttributes method [Windows Runtime],IMetaDataImport interface, IMetaDataImport interface [Windows Runtime],EnumCustomAttributes method, IMetaDataImport.EnumCustomAttributes, IMetaDataImport::EnumCustomAttributes, rometadataapi/IMetaDataImport::EnumCustomAttributes, winrt.imetadataimport_enumcustomattributes
 ms.topic: method
-f1_keywords: 
- - "rometadataapi/IMetaDataImport.EnumCustomAttributes"
+f1_keywords:
+- rometadataapi/IMetaDataImport.EnumCustomAttributes
 dev_langs:
- - c++
+- c++
 req.header: rometadataapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - rometadataapi.h
+- rometadataapi.h
 api_name:
- - IMetaDataImport.EnumCustomAttributes
+- IMetaDataImport.EnumCustomAttributes
 targetos: Windows
 req.typenames: 
 req.redist: 

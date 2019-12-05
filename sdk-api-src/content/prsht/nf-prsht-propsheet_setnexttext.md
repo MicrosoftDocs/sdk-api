@@ -1,19 +1,17 @@
 ---
 UID: NF:prsht.PropSheet_SetNextText
 title: PropSheet_SetNextText macro (prsht.h)
-
 description: Sets the text of the Next button in a wizard. You can use this macro or send the PSM_SETNEXTTEXT message explicitly.
 old-location: controls\PropSheet_SetNextText.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\propsheet\macros\propsheet_setnexttext.htm
-
 ms.date: 12/05/2018
 ms.keywords: PropSheet_SetNextText, PropSheet_SetNextText macro [Windows Controls], _shell_PropSheet_SetNextText, _shell_PropSheet_SetNextText_cpp, controls.PropSheet_SetNextText, controls._shell_PropSheet_SetNextText, prsht/PropSheet_SetNextText
 ms.topic: macro
-f1_keywords: 
- - "prsht/PropSheet_SetNextText"
+f1_keywords:
+- prsht/PropSheet_SetNextText
 dev_langs:
- - c++
+- c++
 req.header: prsht.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Prsht.h
+- Prsht.h
 api_name:
- - PropSheet_SetNextText
+- PropSheet_SetNextText
 targetos: Windows
 req.typenames: 
 req.redist: 

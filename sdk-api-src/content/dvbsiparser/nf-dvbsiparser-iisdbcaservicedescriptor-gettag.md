@@ -1,19 +1,17 @@
 ---
 UID: NF:dvbsiparser.IIsdbCAServiceDescriptor.GetTag
 title: IIsdbCAServiceDescriptor::GetTag (dvbsiparser.h)
-
 description: Gets the tag that identifies a conditional access (CA) service descriptor.
 old-location: mstv\iisdbcaservicedescriptor_gettag.htm
 tech.root: mstv
 ms.assetid: 55f7b955-03f6-4c40-bd73-175bf3453ed0
-
 ms.date: 12/05/2018
 ms.keywords: GetTag, GetTag method [Microsoft TV Technologies], GetTag method [Microsoft TV Technologies],IIsdbCAServiceDescriptor interface, IIsdbCAServiceDescriptor interface [Microsoft TV Technologies],GetTag method, IIsdbCAServiceDescriptor.GetTag, IIsdbCAServiceDescriptor::GetTag, dvbsiparser/IIsdbCAServiceDescriptor::GetTag, mstv.iisdbcaservicedescriptor_gettag
 ms.topic: method
-f1_keywords: 
- - "dvbsiparser/IIsdbCAServiceDescriptor.GetTag"
+f1_keywords:
+- dvbsiparser/IIsdbCAServiceDescriptor.GetTag
 dev_langs:
- - c++
+- c++
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dvbsiparser.h
+- dvbsiparser.h
 api_name:
- - IIsdbCAServiceDescriptor.GetTag
+- IIsdbCAServiceDescriptor.GetTag
 targetos: Windows
 req.typenames: 
 req.redist: 

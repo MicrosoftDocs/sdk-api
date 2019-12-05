@@ -1,19 +1,17 @@
 ---
 UID: NF:mfidl.IMFSensorActivitiesReport.GetActivityReport
 title: IMFSensorActivitiesReport::GetActivityReport (mfidl.h)
-
 description: Retrieves an IMFSensorActivityReport based on the specified index.
 old-location: mf\imfsensoractivityreport_getactivityreport.htm
 tech.root: medfound
 ms.assetid: 6E8D7039-9CBF-45A0-8CAE-48F79091D40B
-
 ms.date: 12/05/2018
 ms.keywords: GetActivityReport, GetActivityReport method [Media Foundation], GetActivityReport method [Media Foundation],IMFSensorActivitiesReport interface, IMFSensorActivitiesReport interface [Media Foundation],GetActivityReport method, IMFSensorActivitiesReport.GetActivityReport, IMFSensorActivitiesReport::GetActivityReport, mf.imfsensoractivityreport_getactivityreport, mfidl/IMFSensorActivitiesReport::GetActivityReport
 ms.topic: method
-f1_keywords: 
- - "mfidl/IMFSensorActivitiesReport.GetActivityReport"
+f1_keywords:
+- mfidl/IMFSensorActivitiesReport.GetActivityReport
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Mfplat.lib; Mfplat.dll
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfplat.lib
- - mfplat.dll
- - mfplat.dll
- - mfplat.dll.dll
+- mfplat.lib
+- mfplat.dll
+- mfplat.dll
+- mfplat.dll.dll
 api_name:
- - IMFSensorActivitiesReport.GetActivityReport
+- IMFSensorActivitiesReport.GetActivityReport
 targetos: Windows
 req.typenames: 
 req.redist: 

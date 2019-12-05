@@ -1,19 +1,17 @@
 ---
 UID: NF:wtsapi32.WTSOpenServerA
 title: WTSOpenServerA function (wtsapi32.h)
-
 description: Opens a handle to the specified Remote Desktop Session Host (RD Session Host) server.
 old-location: termserv\wtsopenserver.htm
 tech.root: TermServ
 ms.assetid: f0b7dce7-59eb-41b8-9a61-65a69d1cc1f3
-
 ms.date: 12/05/2018
 ms.keywords: WTSOpenServer, WTSOpenServer function [Remote Desktop Services], WTSOpenServerA, WTSOpenServerW, _win32_wtsopenserver, termserv.wtsopenserver, wtsapi32/WTSOpenServer, wtsapi32/WTSOpenServerA, wtsapi32/WTSOpenServerW
 ms.topic: function
-f1_keywords: 
- - "wtsapi32/WTSOpenServer"
+f1_keywords:
+- wtsapi32/WTSOpenServer
 dev_langs:
- - c++
+- c++
 req.header: wtsapi32.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Wtsapi32.lib
 req.dll: Wtsapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Wtsapi32.dll
+- Wtsapi32.dll
 api_name:
- - WTSOpenServer
- - WTSOpenServerA
- - WTSOpenServerW
+- WTSOpenServer
+- WTSOpenServerA
+- WTSOpenServerW
 targetos: Windows
 req.typenames: 
 req.redist: 

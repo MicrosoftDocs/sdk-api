@@ -1,19 +1,17 @@
 ---
 UID: NF:rtmv2.RtmGetExactMatchRoute
 title: RtmGetExactMatchRoute function (rtmv2.h)
-
 description: The RtmGetExactMatchRoute function searches the routing table for a route that exactly matches the specified route.
 old-location: rras\rtmgetexactmatchroute.htm
 tech.root: RRAS
 ms.assetid: 5fc9cde7-9912-409f-85ee-c775b4d6ddc0
-
 ms.date: 12/05/2018
 ms.keywords: RTM_MATCH_FULL, RTM_MATCH_INTERFACE, RTM_MATCH_NEIGHBOUR, RTM_MATCH_NEXTHOP, RTM_MATCH_NONE, RTM_MATCH_OWNER, RTM_MATCH_PREF, RtmGetExactMatchRoute, RtmGetExactMatchRoute function [RAS], _rtmv2ref_rtmgetexactmatchroute, rras.rtmgetexactmatchroute, rtmv2/RtmGetExactMatchRoute
 ms.topic: function
 f1_keywords:
 - rtmv2/RtmGetExactMatchRoute
 dev_langs:
- - c++
+- c++
 req.header: rtmv2.h
 req.include-header: 
 req.target-type: Windows

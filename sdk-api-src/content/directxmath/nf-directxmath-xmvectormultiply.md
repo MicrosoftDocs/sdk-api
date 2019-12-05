@@ -1,19 +1,17 @@
 ---
 UID: NF:directxmath.XMVectorMultiply
 title: XMVectorMultiply function (directxmath.h)
-
 description: Computes the per-component product of two vectors.
 old-location: dxmath\xmvectormultiply.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.arithmetic.XMVectorMultiply(XMVECTOR,XMVECTOR)
-
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMVectorMultiply, XMVectorMultiply, XMVectorMultiply method [DirectX Math Support APIs], dxmath.xmvectormultiply
 ms.topic: function
-f1_keywords: 
- - "directxmath/XMVectorMultiply"
+f1_keywords:
+- directxmath/XMVectorMultiply
 dev_langs:
- - c++
+- c++
 req.header: directxmath.h
 req.include-header: DirectXMath.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - directxmathvector.inl
+- directxmathvector.inl
 api_name:
- - XMVectorMultiply
+- XMVectorMultiply
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NE:winsync.__MIDL___MIDL_itf_winsync_0000_0000_0001
 title: SYNC_PROVIDER_ROLE (winsync.h)
-
 description: Represents the role of a provider, relative to the other provider in the synchronization session.
 old-location: winsync\sync_provider_role.htm
 tech.root: winsync
 ms.assetid: 2409c8bf-c4fc-4986-8dde-cc11f0d52ed4
-
 ms.date: 12/05/2018
 ms.keywords: SPR_DESTINATION, SPR_SOURCE, SYNC_PROVIDER_ROLE, SYNC_PROVIDER_ROLE enumeration [Windows Sync], winsync.sync_provider_role, winsync/SPR_DESTINATION, winsync/SPR_SOURCE, winsync/SYNC_PROVIDER_ROLE
 ms.topic: enum
-f1_keywords: 
- - "winsync/SYNC_PROVIDER_ROLE"
+f1_keywords:
+- winsync/SYNC_PROVIDER_ROLE
 dev_langs:
- - c++
+- c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - winsync.h
+- winsync.h
 api_name:
- - SYNC_PROVIDER_ROLE
+- SYNC_PROVIDER_ROLE
 targetos: Windows
 req.typenames: SYNC_PROVIDER_ROLE
 req.redist: 

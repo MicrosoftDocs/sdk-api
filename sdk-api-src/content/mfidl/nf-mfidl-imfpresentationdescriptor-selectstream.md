@@ -1,19 +1,17 @@
 ---
 UID: NF:mfidl.IMFPresentationDescriptor.SelectStream
 title: IMFPresentationDescriptor::SelectStream (mfidl.h)
-
 description: Selects a stream in the presentation.
 old-location: mf\imfpresentationdescriptor_selectstream.htm
 tech.root: medfound
 ms.assetid: 3f0eaace-9d85-4999-bb3f-34c268dfea2c
-
 ms.date: 12/05/2018
 ms.keywords: 3f0eaace-9d85-4999-bb3f-34c268dfea2c, IMFPresentationDescriptor interface [Media Foundation],SelectStream method, IMFPresentationDescriptor.SelectStream, IMFPresentationDescriptor::SelectStream, SelectStream, SelectStream method [Media Foundation], SelectStream method [Media Foundation],IMFPresentationDescriptor interface, mf.imfpresentationdescriptor_selectstream, mfidl/IMFPresentationDescriptor::SelectStream
 ms.topic: method
-f1_keywords: 
- - "mfidl/IMFPresentationDescriptor.SelectStream"
+f1_keywords:
+- mfidl/IMFPresentationDescriptor.SelectStream
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFPresentationDescriptor.SelectStream
+- IMFPresentationDescriptor.SelectStream
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:wmcodecdsp.IToc.GetDescription
 title: IToc::GetDescription (wmcodecdsp.h)
-
 description: The GetDescription method retrieves the description, set by a previous call to SetDescription, of the table of contents.
 old-location: mf\itoc_getdescription.htm
 tech.root: medfound
 ms.assetid: 660d4da9-ddbc-466c-ab1a-7e60ecf61473
-
 ms.date: 12/05/2018
 ms.keywords: GetDescription, GetDescription method [Media Foundation], GetDescription method [Media Foundation],IToc interface, IToc interface [Media Foundation],GetDescription method, IToc.GetDescription, IToc::GetDescription, codecapi.itoc_getdescription, mf.itoc_getdescription, wmcodecdsp/IToc::GetDescription
 ms.topic: method
-f1_keywords: 
- - "wmcodecdsp/IToc.GetDescription"
+f1_keywords:
+- wmcodecdsp/IToc.GetDescription
 dev_langs:
- - c++
+- c++
 req.header: wmcodecdsp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wmvdspa.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmvdspa.dll
+- wmvdspa.dll
 api_name:
- - IToc.GetDescription
+- IToc.GetDescription
 targetos: Windows
 req.typenames: 
 req.redist: 

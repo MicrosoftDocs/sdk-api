@@ -1,19 +1,17 @@
 ---
 UID: NF:msctf.ITfFunctionProvider.GetFunction
 title: ITfFunctionProvider::GetFunction (msctf.h)
-
 description: ITfFunctionProvider::GetFunction method
 old-location: tsf\itffunctionprovider_getfunction.htm
 tech.root: TSF
 ms.assetid: a8ec629a-9ac6-4f25-82f2-42af6ce52ddc
-
 ms.date: 12/05/2018
 ms.keywords: GetFunction, GetFunction method [Text Services Framework], GetFunction method [Text Services Framework],ITfFunctionProvider interface, ITfFunctionProvider interface [Text Services Framework],GetFunction method, ITfFunctionProvider.GetFunction, ITfFunctionProvider::GetFunction, _tsf_itffunctionprovider_getfunction_ref, msctf/ITfFunctionProvider::GetFunction, tsf.itffunctionprovider_getfunction
 ms.topic: method
-f1_keywords: 
- - "msctf/ITfFunctionProvider.GetFunction"
+f1_keywords:
+- msctf/ITfFunctionProvider.GetFunction
 dev_langs:
- - c++
+- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msctf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msctf.dll
+- msctf.dll
 api_name:
- - ITfFunctionProvider.GetFunction
+- ITfFunctionProvider.GetFunction
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

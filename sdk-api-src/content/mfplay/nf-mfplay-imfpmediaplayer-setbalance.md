@@ -1,19 +1,17 @@
 ---
 UID: NF:mfplay.IMFPMediaPlayer.SetBalance
 title: IMFPMediaPlayer::SetBalance (mfplay.h)
-
 description: Sets the audio balance.
 old-location: mf\imfpmediaplayer_setbalance.htm
 tech.root: medfound
 ms.assetid: cb95d037-54b4-4686-b8e6-5b960998d361
-
 ms.date: 12/05/2018
 ms.keywords: IMFPMediaPlayer interface [Media Foundation],SetBalance method, IMFPMediaPlayer.SetBalance, IMFPMediaPlayer::SetBalance, SetBalance, SetBalance method [Media Foundation], SetBalance method [Media Foundation],IMFPMediaPlayer interface, mf.imfpmediaplayer_setbalance, mfplay/IMFPMediaPlayer::SetBalance
 ms.topic: method
-f1_keywords: 
- - "mfplay/IMFPMediaPlayer.SetBalance"
+f1_keywords:
+- mfplay/IMFPMediaPlayer.SetBalance
 dev_langs:
- - c++
+- c++
 req.header: mfplay.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfplay.h
+- mfplay.h
 api_name:
- - IMFPMediaPlayer.SetBalance
+- IMFPMediaPlayer.SetBalance
 targetos: Windows
 req.typenames: 
 req.redist: 

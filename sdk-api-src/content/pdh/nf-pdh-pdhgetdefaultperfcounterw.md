@@ -1,19 +1,17 @@
 ---
 UID: NF:pdh.PdhGetDefaultPerfCounterW
 title: PdhGetDefaultPerfCounterW function (pdh.h)
-
 description: Retrieves the name of the default counter for the specified object. This name can be used to set the initial counter selection in the Browse Counter dialog box. To use handles to data sources, use the PdhGetDefaultPerfCounterH function.
 old-location: perf\pdhgetdefaultperfcounter.htm
 tech.root: perfctrs
 ms.assetid: 0eb78071-3496-40e9-91b0-3c06547c88d5
-
 ms.date: 12/05/2018
 ms.keywords: PdhGetDefaultPerfCounter, PdhGetDefaultPerfCounter function [Perf], PdhGetDefaultPerfCounterA, PdhGetDefaultPerfCounterW, _win32_pdhgetdefaultperfcounter, base.pdhgetdefaultperfcounter, pdh/PdhGetDefaultPerfCounter, pdh/PdhGetDefaultPerfCounterA, pdh/PdhGetDefaultPerfCounterW, perf.pdhgetdefaultperfcounter
 ms.topic: function
-f1_keywords: 
- - "pdh/PdhGetDefaultPerfCounter"
+f1_keywords:
+- pdh/PdhGetDefaultPerfCounter
 dev_langs:
- - c++
+- c++
 req.header: pdh.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Pdh.lib
 req.dll: Pdh.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Pdh.dll
+- Pdh.dll
 api_name:
- - PdhGetDefaultPerfCounter
- - PdhGetDefaultPerfCounterA
- - PdhGetDefaultPerfCounterW
+- PdhGetDefaultPerfCounter
+- PdhGetDefaultPerfCounterA
+- PdhGetDefaultPerfCounterW
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:certenroll.IX509Enrollment.put_Silent
 title: IX509Enrollment::put_Silent (certenroll.h)
-
 description: Specifies or retrieves a Boolean value that indicates whether a user interface is displayed during the certificate enrollment process.
 old-location: security\ix509enrollment_silent_property.htm
 tech.root: seccertenroll
 ms.assetid: bd1f1e73-0c49-4a2f-9b29-8520da8e1d4b
-
 ms.date: 12/05/2018
 ms.keywords: IX509Enrollment interface [Security],Silent property, IX509Enrollment.Silent, IX509Enrollment.put_Silent, IX509Enrollment::Silent, IX509Enrollment::get_Silent, IX509Enrollment::put_Silent, Silent property [Security], Silent property [Security],IX509Enrollment interface, certenroll/IX509Enrollment::Silent, certenroll/IX509Enrollment::get_Silent, certenroll/IX509Enrollment::put_Silent, put_Silent, security.ix509enrollment_silent_property
 ms.topic: method
-f1_keywords: 
- - "certenroll/IX509Enrollment.Silent"
+f1_keywords:
+- certenroll/IX509Enrollment.Silent
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: CertEnroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CertEnroll.dll
+- CertEnroll.dll
 api_name:
- - IX509Enrollment.Silent
- - IX509Enrollment.get_Silent
- - IX509Enrollment.put_Silent
+- IX509Enrollment.Silent
+- IX509Enrollment.get_Silent
+- IX509Enrollment.put_Silent
 targetos: Windows
 req.typenames: 
 req.redist: 

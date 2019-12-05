@@ -1,19 +1,17 @@
 ---
 UID: NS:wingdi._GLYPHMETRICS
 title: GLYPHMETRICS (wingdi.h)
-
 description: The GLYPHMETRICS structure contains information about the placement and orientation of a glyph in a character cell.
 old-location: gdi\glyphmetrics.htm
 tech.root: gdi
 ms.assetid: a6fa3813-56f7-4b54-b21d-8aabc2309a34
-
 ms.date: 12/05/2018
-ms.keywords: "*LPGLYPHMETRICS, GLYPHMETRICS, GLYPHMETRICS structure [Windows GDI], LPGLYPHMETRICS, LPGLYPHMETRICS structure pointer [Windows GDI], _win32_GLYPHMETRICS_str, gdi.glyphmetrics, wingdi/GLYPHMETRICS, wingdi/LPGLYPHMETRICS"
+ms.keywords: '*LPGLYPHMETRICS, GLYPHMETRICS, GLYPHMETRICS structure [Windows GDI], LPGLYPHMETRICS, LPGLYPHMETRICS structure pointer [Windows GDI], _win32_GLYPHMETRICS_str, gdi.glyphmetrics, wingdi/GLYPHMETRICS, wingdi/LPGLYPHMETRICS'
 ms.topic: struct
-f1_keywords: 
- - "wingdi/GLYPHMETRICS"
+f1_keywords:
+- wingdi/GLYPHMETRICS
 dev_langs:
- - c++
+- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wingdi.h
+- Wingdi.h
 api_name:
- - GLYPHMETRICS
+- GLYPHMETRICS
 targetos: Windows
 req.typenames: GLYPHMETRICS, *LPGLYPHMETRICS
 req.redist: 

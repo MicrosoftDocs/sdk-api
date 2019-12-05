@@ -1,19 +1,17 @@
 ---
 UID: NF:winddi.DrvResetDevice
 title: DrvResetDevice function (winddi.h)
-
 description: The DrvResetDevice function resets a device that is inoperable or unresponsive.
 old-location: display\drvresetdevice.htm
 tech.root: display
 ms.assetid: 2078cefe-3b66-455b-a4cc-144d643f74e7
-
 ms.date: 12/05/2018
 ms.keywords: DrvResetDevice, DrvResetDevice function [Display Devices], ddifncs_ba6f8e5e-bd3a-4666-ab2c-d9bb56495712.xml, display.drvresetdevice, winddi/DrvResetDevice
 ms.topic: function
-f1_keywords: 
- - "winddi/DrvResetDevice"
+f1_keywords:
+- winddi/DrvResetDevice
 dev_langs:
- - c++
+- c++
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Desktop
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - winddi.h
+- winddi.h
 api_name:
- - DrvResetDevice
+- DrvResetDevice
 targetos: Windows
 req.typenames: 
 req.redist: 

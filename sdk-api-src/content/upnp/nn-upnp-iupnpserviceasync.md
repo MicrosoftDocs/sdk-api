@@ -1,19 +1,17 @@
 ---
 UID: NN:upnp.IUPnPServiceAsync
 title: IUPnPServiceAsync (upnp.h)
-
 description: Use this interface to asynchronously query state variables and invoke actions on an instance of a service .
 old-location: upnp\iupnpserviceasync.htm
 tech.root: upnp
 ms.assetid: B77025D6-26C7-46C9-84FE-69685C61735D
-
 ms.date: 12/05/2018
 ms.keywords: IUPnPServiceAsync, IUPnPServiceAsync interface [UPnP APIs], IUPnPServiceAsync interface [UPnP APIs],described, upnp.iupnpserviceasync, upnp/IUPnPServiceAsync
 ms.topic: interface
-f1_keywords: 
- - "upnp/IUPnPServiceAsync"
+f1_keywords:
+- upnp/IUPnPServiceAsync
 dev_langs:
- - c++
+- c++
 req.header: upnp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Upnp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Upnp.dll
+- Upnp.dll
 api_name:
- - IUPnPServiceAsync
+- IUPnPServiceAsync
 targetos: Windows
 req.typenames: 
 req.redist: 

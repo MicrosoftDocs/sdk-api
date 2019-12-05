@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationcore.IStylesProvider.get_FillPatternColor
 title: IStylesProvider::get_FillPatternColor (uiautomationcore.h)
-
 description: Specifies the color of the pattern used to fill an element in a document.
 old-location: winauto\uiauto_istylesprovider_fillpatterncolor.htm
 tech.root: WinAuto
 ms.assetid: F1448296-1E4E-4127-B415-C921A52A9B72
-
 ms.date: 12/05/2018
 ms.keywords: FillPatternColor property [Windows Accessibility], FillPatternColor property [Windows Accessibility],IStylesProvider interface, IStylesProvider interface [Windows Accessibility],FillPatternColor property, IStylesProvider.FillPatternColor, IStylesProvider.get_FillPatternColor, IStylesProvider::FillPatternColor, IStylesProvider::get_FillPatternColor, get_FillPatternColor, uiautomationcore/IStylesProvider::FillPatternColor, uiautomationcore/IStylesProvider::get_FillPatternColor, winauto.uiauto_istylesprovider_fillpatterncolor
 ms.topic: method
-f1_keywords: 
- - "uiautomationcore/IStylesProvider.FillPatternColor"
+f1_keywords:
+- uiautomationcore/IStylesProvider.FillPatternColor
 dev_langs:
- - c++
+- c++
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationCore.h
+- UIAutomationCore.h
 api_name:
- - IStylesProvider.FillPatternColor
- - IStylesProvider.get_FillPatternColor
+- IStylesProvider.FillPatternColor
+- IStylesProvider.get_FillPatternColor
 targetos: Windows
 req.typenames: 
 req.redist: 

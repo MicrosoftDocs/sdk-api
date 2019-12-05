@@ -1,19 +1,17 @@
 ---
 UID: NF:dskquota.IDiskQuotaControl.SetDefaultQuotaLimit
 title: IDiskQuotaControl::SetDefaultQuotaLimit (dskquota.h)
-
 description: Modifies the default quota limit.
 old-location: fs\idiskquotacontrol_setdefaultquotalimit.htm
 tech.root: FileIO
 ms.assetid: 2e4d8d04-dff2-477f-a5b2-8c8415cb3b52
-
 ms.date: 12/05/2018
 ms.keywords: IDiskQuotaControl interface [Files],SetDefaultQuotaLimit method, IDiskQuotaControl.SetDefaultQuotaLimit, IDiskQuotaControl::SetDefaultQuotaLimit, SetDefaultQuotaLimit, SetDefaultQuotaLimit method [Files], SetDefaultQuotaLimit method [Files],IDiskQuotaControl interface, _win32_idiskquotacontrol_setdefaultquotalimit, base.idiskquotacontrol_setdefaultquotalimit, dskquota/IDiskQuotaControl::SetDefaultQuotaLimit, fs.idiskquotacontrol_setdefaultquotalimit
 ms.topic: method
-f1_keywords: 
- - "dskquota/IDiskQuotaControl.SetDefaultQuotaLimit"
+f1_keywords:
+- dskquota/IDiskQuotaControl.SetDefaultQuotaLimit
 dev_langs:
- - c++
+- c++
 req.header: dskquota.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Dskquota.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dskquota.dll
+- Dskquota.dll
 api_name:
- - IDiskQuotaControl.SetDefaultQuotaLimit
+- IDiskQuotaControl.SetDefaultQuotaLimit
 targetos: Windows
 req.typenames: 
 req.redist: 

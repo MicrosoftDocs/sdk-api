@@ -1,19 +1,17 @@
 ---
 UID: NE:dxva9typ._COPP_CGMSA_Protection_Level
 title: COPP_CGMSA_Protection_Level (dxva9typ.h)
-
 description: Specifies the CGMS-A protection level.
 old-location: dshow\copp_cgmsa_protection_level.htm
 tech.root: DirectShow
 ms.assetid: 37b453fa-c976-4b13-b94a-1eebd8ecd44b
-
 ms.date: 12/05/2018
 ms.keywords: COPP_CGMSA_CopyFreely, COPP_CGMSA_CopyNever, COPP_CGMSA_CopyNoMore, COPP_CGMSA_CopyOneGeneration, COPP_CGMSA_Disabled, COPP_CGMSA_ForceDWORD, COPP_CGMSA_LevelMax, COPP_CGMSA_LevelMin, COPP_CGMSA_Protection_Level, COPP_CGMSA_Protection_Level , COPP_CGMSA_Protection_Level enumeration [DirectShow], COPP_CGMSA_Protection_LevelEnumeration, COPP_CGMSA_RedistributionControlRequired, dshow.copp_cgmsa_protection_level, dxva9typ/COPP_CGMSA_CopyFreely, dxva9typ/COPP_CGMSA_CopyNever, dxva9typ/COPP_CGMSA_CopyNoMore, dxva9typ/COPP_CGMSA_CopyOneGeneration, dxva9typ/COPP_CGMSA_Disabled, dxva9typ/COPP_CGMSA_ForceDWORD, dxva9typ/COPP_CGMSA_LevelMax, dxva9typ/COPP_CGMSA_LevelMin, dxva9typ/COPP_CGMSA_Protection_Level, dxva9typ/COPP_CGMSA_RedistributionControlRequired
 ms.topic: enum
-f1_keywords: 
- - "dxva9typ/COPP_CGMSA_Protection_Level"
+f1_keywords:
+- dxva9typ/COPP_CGMSA_Protection_Level
 dev_langs:
- - c++
+- c++
 req.header: dxva9typ.h
 req.include-header: Dxva.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - dxva9typ.h
+- dxva9typ.h
 api_name:
- - COPP_CGMSA_Protection_Level
+- COPP_CGMSA_Protection_Level
 targetos: Windows
 req.typenames: COPP_CGMSA_Protection_Level
 req.redist: 

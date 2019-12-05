@@ -1,19 +1,17 @@
 ---
 UID: NF:commctrl.ImageList_SetOverlayImage
 title: ImageList_SetOverlayImage function (commctrl.h)
-
 description: Adds a specified image to the list of images to be used as overlay masks. An image list can have up to four overlay masks in version 4.70 and earlier and up to 15 in version 4.71. The function assigns an overlay mask index to the specified image.
 old-location: controls\ImageList_SetOverlayImage.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\imagelist\functions\imagelist_setoverlayimage.htm
-
 ms.date: 12/05/2018
 ms.keywords: ImageList_SetOverlayImage, ImageList_SetOverlayImage function [Windows Controls], _win32_ImageList_SetOverlayImage, _win32_ImageList_SetOverlayImage_cpp, commctrl/ImageList_SetOverlayImage, controls.ImageList_SetOverlayImage, controls._win32_ImageList_SetOverlayImage
 ms.topic: function
-f1_keywords: 
- - "commctrl/ImageList_SetOverlayImage"
+f1_keywords:
+- commctrl/ImageList_SetOverlayImage
 dev_langs:
- - c++
+- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Comctl32.lib
 req.dll: Comctl32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Comctl32.dll
+- Comctl32.dll
 api_name:
- - ImageList_SetOverlayImage
+- ImageList_SetOverlayImage
 targetos: Windows
 req.typenames: 
 req.redist: 

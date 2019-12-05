@@ -1,19 +1,17 @@
 ---
 UID: NF:wdsclientapi.WdsCliGetImageSize
 title: WdsCliGetImageSize function (wdsclientapi.h)
-
 description: Returns the size of the current image.
 old-location: wds\wdscligetimagesize.htm
 tech.root: wds
 ms.assetid: 35d04426-dfb4-48db-bb81-734d2d2ecdcb
-
 ms.date: 12/05/2018
 ms.keywords: WdsCliGetImageSize, WdsCliGetImageSize function [Windows Deployment Services], wds.wdscligetimagesize, wdsclientapi/WdsCliGetImageSize
 ms.topic: function
-f1_keywords: 
- - "wdsclientapi/WdsCliGetImageSize"
+f1_keywords:
+- wdsclientapi/WdsCliGetImageSize
 dev_langs:
- - c++
+- c++
 req.header: wdsclientapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: WdsClientAPI.lib
 req.dll: WdsClientAPI.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - WdsClientAPI.dll
+- WdsClientAPI.dll
 api_name:
- - WdsCliGetImageSize
+- WdsCliGetImageSize
 targetos: Windows
 req.typenames: 
 req.redist: 

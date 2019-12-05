@@ -1,19 +1,17 @@
 ---
 UID: NF:dvbsiparser.IIsdbComponentGroupDescriptor.GetRecordNumberOfCAUnit
 title: IIsdbComponentGroupDescriptor::GetRecordNumberOfCAUnit (dvbsiparser.h)
-
 description: Gets the number of conditional access unit records in a component group from an Integrated Services Digital Broadcasting (ISDB) component group descriptor.
 old-location: mstv\iisdbcomponentgroupdescriptor_getrecordnumberofcaunit.htm
 tech.root: mstv
 ms.assetid: 239d952f-908d-4aa9-86c0-f58f7616987f
-
 ms.date: 12/05/2018
 ms.keywords: GetRecordNumberOfCAUnit, GetRecordNumberOfCAUnit method [Microsoft TV Technologies], GetRecordNumberOfCAUnit method [Microsoft TV Technologies],IIsdbComponentGroupDescriptor interface, IIsdbComponentGroupDescriptor interface [Microsoft TV Technologies],GetRecordNumberOfCAUnit method, IIsdbComponentGroupDescriptor.GetRecordNumberOfCAUnit, IIsdbComponentGroupDescriptor::GetRecordNumberOfCAUnit, dvbsiparser/IIsdbComponentGroupDescriptor::GetRecordNumberOfCAUnit, mstv.iisdbcomponentgroupdescriptor_getrecordnumberofcaunit
 ms.topic: method
-f1_keywords: 
- - "dvbsiparser/IIsdbComponentGroupDescriptor.GetRecordNumberOfCAUnit"
+f1_keywords:
+- dvbsiparser/IIsdbComponentGroupDescriptor.GetRecordNumberOfCAUnit
 dev_langs:
- - c++
+- c++
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dvbsiparser.h
+- dvbsiparser.h
 api_name:
- - IIsdbComponentGroupDescriptor.GetRecordNumberOfCAUnit
+- IIsdbComponentGroupDescriptor.GetRecordNumberOfCAUnit
 targetos: Windows
 req.typenames: 
 req.redist: 

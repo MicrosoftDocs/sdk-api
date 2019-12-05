@@ -1,19 +1,17 @@
 ---
 UID: NF:wmlss.IWindowsMediaLibrarySharingServices.showShareMediaCPL
 title: IWindowsMediaLibrarySharingServices::showShareMediaCPL (wmlss.h)
-
 description: The showShareMediaCPL method displays the media sharing page in the Control Panel and highlights a specified device.
 old-location: wmlss\IWMLSSshowShareMediaCPL.htm
 tech.root: WMLSS
 ms.assetid: 38d185f3-f5d7-44e8-a36d-673594e3f80c
-
 ms.date: 12/05/2018
 ms.keywords: IWindowsMediaLibrarySharingServices interface [Windows Media Library Sharing Services],showShareMediaCPL method, IWindowsMediaLibrarySharingServices.showShareMediaCPL, IWindowsMediaLibrarySharingServices::showShareMediaCPL, showShareMediaCPL, showShareMediaCPL method [Windows Media Library Sharing Services], showShareMediaCPL method [Windows Media Library Sharing Services],IWindowsMediaLibrarySharingServices interface, wmlss.IWMLSSshowShareMediaCPL, wmlss/IWindowsMediaLibrarySharingServices::showShareMediaCPL
 ms.topic: method
-f1_keywords: 
- - "wmlss/IWindowsMediaLibrarySharingServices.showShareMediaCPL"
+f1_keywords:
+- wmlss/IWindowsMediaLibrarySharingServices.showShareMediaCPL
 dev_langs:
- - c++
+- c++
 req.header: wmlss.h
 req.include-header: Wmlss.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: WMPMediaSharing.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - WMPMediaSharing.dll
+- WMPMediaSharing.dll
 api_name:
- - IWindowsMediaLibrarySharingServices.showShareMediaCPL
+- IWindowsMediaLibrarySharingServices.showShareMediaCPL
 targetos: Windows
 req.typenames: 
 req.redist: 

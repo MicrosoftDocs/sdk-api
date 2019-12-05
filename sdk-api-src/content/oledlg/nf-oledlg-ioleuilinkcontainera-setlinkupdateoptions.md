@@ -1,19 +1,17 @@
 ---
 UID: NF:oledlg.IOleUILinkContainerA.SetLinkUpdateOptions
 title: IOleUILinkContainerA::SetLinkUpdateOptions (oledlg.h)
-
 description: Sets a link's update options to automatic or manual.
 old-location: com\ioleuilinkcontainer_setlinkupdateoptions.htm
 tech.root: com
 ms.assetid: d2a7758d-9692-4e3c-8186-b74530299a6a
-
 ms.date: 12/05/2018
 ms.keywords: IOleUILinkContainer interface [COM],SetLinkUpdateOptions method, IOleUILinkContainer::SetLinkUpdateOptions, IOleUILinkContainerA interface [COM],SetLinkUpdateOptions method, IOleUILinkContainerA.SetLinkUpdateOptions, IOleUILinkContainerA::SetLinkUpdateOptions, IOleUILinkContainerW interface [COM],SetLinkUpdateOptions method, IOleUILinkContainerW::SetLinkUpdateOptions, SetLinkUpdateOptions, SetLinkUpdateOptions method [COM], SetLinkUpdateOptions method [COM],IOleUILinkContainer interface, SetLinkUpdateOptions method [COM],IOleUILinkContainerA interface, SetLinkUpdateOptions method [COM],IOleUILinkContainerW interface, _ole_IOleUILinkContainer_SetLinkUpdateOptions, com.ioleuilinkcontainer_setlinkupdateoptions, oledlg/IOleUILinkContainer::SetLinkUpdateOptions, oledlg/IOleUILinkContainerA::SetLinkUpdateOptions, oledlg/IOleUILinkContainerW::SetLinkUpdateOptions
 ms.topic: method
-f1_keywords: 
- - "oledlg/IOleUILinkContainer.SetLinkUpdateOptions"
+f1_keywords:
+- oledlg/IOleUILinkContainer.SetLinkUpdateOptions
 dev_langs:
- - c++
+- c++
 req.header: oledlg.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - OleDlg.h
+- OleDlg.h
 api_name:
- - IOleUILinkContainer.SetLinkUpdateOptions
- - IOleUILinkContainerA.SetLinkUpdateOptions
- - IOleUILinkContainerW.SetLinkUpdateOptions
+- IOleUILinkContainer.SetLinkUpdateOptions
+- IOleUILinkContainerA.SetLinkUpdateOptions
+- IOleUILinkContainerW.SetLinkUpdateOptions
 targetos: Windows
 req.typenames: 
 req.redist: 

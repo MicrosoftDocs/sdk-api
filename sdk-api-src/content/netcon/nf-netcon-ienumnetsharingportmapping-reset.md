@@ -1,19 +1,17 @@
 ---
 UID: NF:netcon.IEnumNetSharingPortMapping.Reset
 title: IEnumNetSharingPortMapping::Reset (netcon.h)
-
 description: The Reset method causes subsequent enumeration calls to operate from the beginning of the enumeration.
 old-location: ics\ienumnetsharingportmapping_reset.htm
 tech.root: ics
 ms.assetid: 1d5045b9-a551-4ae5-bd8e-c80e88def237
-
 ms.date: 12/05/2018
 ms.keywords: IEnumNetSharingPortMapping interface [ICS/ICF],Reset method, IEnumNetSharingPortMapping.Reset, IEnumNetSharingPortMapping::Reset, Reset, Reset method [ICS/ICF], Reset method [ICS/ICF],IEnumNetSharingPortMapping interface, _ics_ienumnetsharingportmapping_reset, ics.ienumnetsharingportmapping_reset, netcon/IEnumNetSharingPortMapping::Reset
 ms.topic: method
-f1_keywords: 
- - "netcon/IEnumNetSharingPortMapping.Reset"
+f1_keywords:
+- netcon/IEnumNetSharingPortMapping.Reset
 dev_langs:
- - c++
+- c++
 req.header: netcon.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Hnetcfg.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Hnetcfg.dll
+- Hnetcfg.dll
 api_name:
- - IEnumNetSharingPortMapping.Reset
+- IEnumNetSharingPortMapping.Reset
 targetos: Windows
 req.typenames: 
 req.redist: 

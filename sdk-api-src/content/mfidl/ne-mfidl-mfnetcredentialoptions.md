@@ -1,19 +1,17 @@
 ---
 UID: NE:mfidl._MFNetCredentialOptions
 title: MFNetCredentialOptions (mfidl.h)
-
 description: Describes options for the caching network credentials.
 old-location: mf\mfnetcredentialoptions.htm
 tech.root: medfound
 ms.assetid: 5ee4f46c-762c-4acf-86ff-da7a93b5de05
-
 ms.date: 12/05/2018
 ms.keywords: 5ee4f46c-762c-4acf-86ff-da7a93b5de05, MFNET_CREDENTIAL_ALLOW_CLEAR_TEXT, MFNET_CREDENTIAL_DONT_CACHE, MFNET_CREDENTIAL_SAVE, MFNetCredentialOptions, MFNetCredentialOptions enumeration [Media Foundation], mf.mfnetcredentialoptions, mfidl/MFNET_CREDENTIAL_ALLOW_CLEAR_TEXT, mfidl/MFNET_CREDENTIAL_DONT_CACHE, mfidl/MFNET_CREDENTIAL_SAVE, mfidl/MFNetCredentialOptions
 ms.topic: enum
-f1_keywords: 
- - "mfidl/MFNetCredentialOptions"
+f1_keywords:
+- mfidl/MFNetCredentialOptions
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - mfidl.h
+- mfidl.h
 api_name:
- - MFNetCredentialOptions
+- MFNetCredentialOptions
 targetos: Windows
 req.typenames: MFNetCredentialOptions
 req.redist: 

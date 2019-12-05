@@ -1,19 +1,17 @@
 ---
 UID: NS:ipsectypes.IPSEC_STATISTICS0_
 title: IPSEC_STATISTICS0 (ipsectypes.h)
-
 description: Is the top-level of the IPsec statistics structures.
 old-location: fwp\ipsec_statistics0_struct.htm
 tech.root: fwp
 ms.assetid: 05873d6d-9e0c-4d3e-9b4d-7831e29e2942
-
 ms.date: 12/05/2018
 ms.keywords: IPSEC_STATISTICS0, IPSEC_STATISTICS0 structure [Filtering], fwp.ipsec_statistics0_struct, ipsectypes/IPSEC_STATISTICS0
 ms.topic: struct
-f1_keywords: 
- - "ipsectypes/IPSEC_STATISTICS0"
+f1_keywords:
+- ipsectypes/IPSEC_STATISTICS0
 dev_langs:
- - c++
+- c++
 req.header: ipsectypes.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Ipsectypes.h
+- Ipsectypes.h
 api_name:
- - IPSEC_STATISTICS0
+- IPSEC_STATISTICS0
 targetos: Windows
 req.typenames: IPSEC_STATISTICS0
 req.redist: 

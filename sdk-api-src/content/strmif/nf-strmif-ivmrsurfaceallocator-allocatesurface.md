@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IVMRSurfaceAllocator.AllocateSurface
 title: IVMRSurfaceAllocator::AllocateSurface (strmif.h)
-
 description: The AllocateSurface method allocates a DirectDraw surface.
 old-location: dshow\ivmrsurfaceallocator_allocatesurface.htm
 tech.root: DirectShow
 ms.assetid: 6783df91-c92f-45d0-b299-16cdbc4bb630
-
 ms.date: 12/05/2018
 ms.keywords: AllocateSurface, AllocateSurface method [DirectShow], AllocateSurface method [DirectShow],IVMRSurfaceAllocator interface, IVMRSurfaceAllocator interface [DirectShow],AllocateSurface method, IVMRSurfaceAllocator.AllocateSurface, IVMRSurfaceAllocator::AllocateSurface, IVMRSurfaceAllocatorAllocateSurface, dshow.ivmrsurfaceallocator_allocatesurface, strmif/IVMRSurfaceAllocator::AllocateSurface
 ms.topic: method
-f1_keywords: 
- - "strmif/IVMRSurfaceAllocator.AllocateSurface"
+f1_keywords:
+- strmif/IVMRSurfaceAllocator.AllocateSurface
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IVMRSurfaceAllocator.AllocateSurface
+- IVMRSurfaceAllocator.AllocateSurface
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:sensorsapi.ISensorEvents.OnLeave
 title: ISensorEvents::OnLeave (sensorsapi.h)
-
 description: Provides notification that a sensor device is no longer connected.
 old-location: winsensors_com_ref\isensorevents_onleave.htm
 tech.root: SensorsAPI
 ms.assetid: 541ef7a4-c238-4fc5-9b2d-1fadb1472b2d
-
 ms.date: 12/05/2018
 ms.keywords: ISensorEvents interface,OnLeave method, ISensorEvents.OnLeave, ISensorEvents::OnLeave, OnLeave, OnLeave method, OnLeave method,ISensorEvents interface, sensorsapi/ISensorEvents::OnLeave, winsensors_com_ref.isensorevents_onleave
 ms.topic: method
-f1_keywords: 
- - "sensorsapi/ISensorEvents.OnLeave"
+f1_keywords:
+- sensorsapi/ISensorEvents.OnLeave
 dev_langs:
- - c++
+- c++
 req.header: sensorsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Sensorsapi.lib
 req.dll: Sensorsapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - sensorsapi.dll
+- sensorsapi.dll
 api_name:
- - ISensorEvents.OnLeave
+- ISensorEvents.OnLeave
 targetos: Windows
 req.typenames: 
 req.redist: 

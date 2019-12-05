@@ -1,19 +1,17 @@
 ---
 UID: NF:securitybaseapi.IsValidSecurityDescriptor
 title: IsValidSecurityDescriptor function (securitybaseapi.h)
-
 description: Determines whether the components of a security descriptor are valid.
 old-location: security\isvalidsecuritydescriptor.htm
 tech.root: SecAuthZ
 ms.assetid: 24a98229-11e4-45ef-988b-c2cf831275e7
-
 ms.date: 12/05/2018
 ms.keywords: IsValidSecurityDescriptor, IsValidSecurityDescriptor function [Security], _win32_isvalidsecuritydescriptor, security.isvalidsecuritydescriptor, securitybaseapi/IsValidSecurityDescriptor
 ms.topic: function
 f1_keywords:
 - securitybaseapi/IsValidSecurityDescriptor
 dev_langs:
- - c++
+- c++
 req.header: securitybaseapi.h
 req.include-header: Windows.h
 req.target-type: Windows

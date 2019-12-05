@@ -5,11 +5,9 @@ ms.date: 4/26/2019
 ms.keywords: CWbemGlueFactory::~CWbemGlueFactory
 ms.topic: language-reference
 f1_keywords:
- - CWbemGlueFactory::~CWbemGlueFactory
+- wbemglue/CWbemGlueFactory::~CWbemGlueFactory
 dev_langs:
- - c++
-f1_keywords:
- - "wbemglue/CWbemGlueFactory::~CWbemGlueFactory"
+- c++
 targetos: Windows
 req.assembly: 
 req.construct-type: function
@@ -31,15 +29,15 @@ req.type-library:
 req.umdf-ver: 
 req.unicode-ansi: 
 topic_type:
- - apiref
+- apiref
 api_type:
- - COM
+- COM
 api_location:
- - FrameDynOS.dll
- - FrameDyn.dll
- - sqlmgmprovider.dll
+- FrameDynOS.dll
+- FrameDyn.dll
+- sqlmgmprovider.dll
 api_name:
- - CWbemGlueFactory::~CWbemGlueFactory
+- CWbemGlueFactory::~CWbemGlueFactory
 ---
 
 ## -description

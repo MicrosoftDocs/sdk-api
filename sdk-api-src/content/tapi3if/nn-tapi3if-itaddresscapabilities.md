@@ -1,19 +1,17 @@
 ---
 UID: NN:tapi3if.ITAddressCapabilities
 title: ITAddressCapabilities (tapi3if.h)
-
 description: The ITAddressCapabilities interface is used to obtain information about an address's capabilities. It is on the Address object, and an application can access it by calling QueryInterface on the Address object.
 old-location: tapi3\itaddresscapabilities.htm
 tech.root: Tapi
 ms.assetid: 36f452ce-9171-41da-b003-4c7df17790da
-
 ms.date: 12/05/2018
 ms.keywords: ITAddressCapabilities, ITAddressCapabilities interface [TAPI 2.2], ITAddressCapabilities interface [TAPI 2.2],described, _tapi3_itaddresscapabilities, tapi3.itaddresscapabilities, tapi3if/ITAddressCapabilities
 ms.topic: interface
-f1_keywords: 
- - "tapi3if/ITAddressCapabilities"
+f1_keywords:
+- tapi3if/ITAddressCapabilities
 dev_langs:
- - c++
+- c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Tapi3.dll
+- Tapi3.dll
 api_name:
- - ITAddressCapabilities
+- ITAddressCapabilities
 targetos: Windows
 req.typenames: 
 req.redist: 

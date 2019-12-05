@@ -1,19 +1,17 @@
 ---
 UID: NF:winddi.EngQuerySystemAttribute
 title: EngQuerySystemAttribute function (winddi.h)
-
 description: The EngQuerySystemAttribute function queries processor-specific or system-specific capabilities.
 old-location: display\engquerysystemattribute.htm
 tech.root: display
 ms.assetid: 7559075d-f2df-4c71-9523-22417d5cfd5a
-
 ms.date: 12/05/2018
 ms.keywords: EngQuerySystemAttribute, EngQuerySystemAttribute function [Display Devices], display.engquerysystemattribute, gdifncs_8d196296-10a2-4118-9318-fe0267df4e60.xml, winddi/EngQuerySystemAttribute
 ms.topic: function
-f1_keywords: 
- - "winddi/EngQuerySystemAttribute"
+f1_keywords:
+- winddi/EngQuerySystemAttribute
 dev_langs:
- - c++
+- c++
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Universal
@@ -32,14 +30,14 @@ req.lib: Win32k.lib
 req.dll: Win32k.sys
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Win32k.sys
+- Win32k.sys
 api_name:
- - EngQuerySystemAttribute
+- EngQuerySystemAttribute
 targetos: Windows
 req.typenames: 
 req.redist: 

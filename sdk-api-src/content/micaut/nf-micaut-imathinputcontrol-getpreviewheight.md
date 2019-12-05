@@ -1,19 +1,17 @@
 ---
 UID: NF:micaut.IMathInputControl.GetPreviewHeight
 title: IMathInputControl::GetPreviewHeight (micaut.h)
-
 description: Retrieves the height in pixels of the preview area.
 old-location: tablet\imathinputcontrol_getpreviewheight.htm
 tech.root: tablet
 ms.assetid: 3b3404f5-b775-483f-b3a9-9467c937226b
-
 ms.date: 12/05/2018
 ms.keywords: GetPreviewHeight, GetPreviewHeight method [Tablet PC], GetPreviewHeight method [Tablet PC],IMathInputControl interface, IMathInputControl interface [Tablet PC],GetPreviewHeight method, IMathInputControl.GetPreviewHeight, IMathInputControl::GetPreviewHeight, micaut/IMathInputControl::GetPreviewHeight, tablet.imathinputcontrol_getpreviewheight
 ms.topic: method
-f1_keywords: 
- - "micaut/IMathInputControl.GetPreviewHeight"
+f1_keywords:
+- micaut/IMathInputControl.GetPreviewHeight
 dev_langs:
- - c++
+- c++
 req.header: micaut.h
 req.include-header: Micaut.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - micaut.h
+- micaut.h
 api_name:
- - IMathInputControl.GetPreviewHeight
+- IMathInputControl.GetPreviewHeight
 targetos: Windows
 req.typenames: 
 req.redist: 

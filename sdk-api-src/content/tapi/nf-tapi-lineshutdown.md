@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi.lineShutdown
 title: lineShutdown function (tapi.h)
-
 description: The lineShutdown function shuts down the application's usage of the line abstraction of the API.
 old-location: tapi2\lineshutdown.htm
 tech.root: Tapi
 ms.assetid: d512508a-fb6a-41ec-a80d-f625abfdd184
-
 ms.date: 12/05/2018
-ms.keywords: "_tapi2_lineshutdown, lineShutdown, lineShutdown function [TAPI 2.2], tapi/lineShutdown, tapi2.lineshutdown"
+ms.keywords: _tapi2_lineshutdown, lineShutdown, lineShutdown function [TAPI 2.2], tapi/lineShutdown, tapi2.lineshutdown
 ms.topic: function
-f1_keywords: 
- - "tapi/lineShutdown"
+f1_keywords:
+- tapi/lineShutdown
 dev_langs:
- - c++
+- c++
 req.header: tapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Tapi32.lib
 req.dll: Tapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Tapi32.dll
+- Tapi32.dll
 api_name:
- - lineShutdown
+- lineShutdown
 targetos: Windows
 req.typenames: 
 req.redist: 

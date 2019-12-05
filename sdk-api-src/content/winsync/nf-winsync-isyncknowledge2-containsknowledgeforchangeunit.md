@@ -1,19 +1,17 @@
 ---
 UID: NF:winsync.ISyncKnowledge2.ContainsKnowledgeForChangeUnit
 title: ISyncKnowledge2::ContainsKnowledgeForChangeUnit (winsync.h)
-
 description: Indicates whether the specified knowledge of the specified change unit is known by this knowledge.
 old-location: winsync\isyncknowledge2_containsknowledgeforchangeunit.htm
 tech.root: winsync
 ms.assetid: ecaefb24-eca0-408c-a98d-f7e6bbfefade
-
 ms.date: 12/05/2018
 ms.keywords: ContainsKnowledgeForChangeUnit, ContainsKnowledgeForChangeUnit method [Windows Sync], ContainsKnowledgeForChangeUnit method [Windows Sync],ISyncKnowledge2 interface, ISyncKnowledge2 interface [Windows Sync],ContainsKnowledgeForChangeUnit method, ISyncKnowledge2.ContainsKnowledgeForChangeUnit, ISyncKnowledge2::ContainsKnowledgeForChangeUnit, winsync.isyncknowledge2_containsknowledgeforchangeunit, winsync/ISyncKnowledge2::ContainsKnowledgeForChangeUnit
 ms.topic: method
-f1_keywords: 
- - "winsync/ISyncKnowledge2.ContainsKnowledgeForChangeUnit"
+f1_keywords:
+- winsync/ISyncKnowledge2.ContainsKnowledgeForChangeUnit
 dev_langs:
- - c++
+- c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - winsync.h
+- winsync.h
 api_name:
- - ISyncKnowledge2.ContainsKnowledgeForChangeUnit
+- ISyncKnowledge2.ContainsKnowledgeForChangeUnit
 targetos: Windows
 req.typenames: 
 req.redist: 

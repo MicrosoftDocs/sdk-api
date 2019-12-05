@@ -1,7 +1,6 @@
 ---
 UID: NA:mgm
 ms.assetid: d047a683-0ea2-316a-8def-c5549c7bc855
-
 ms.date: 01/11/2019
 ms.keywords: 
 ms.topic: portal

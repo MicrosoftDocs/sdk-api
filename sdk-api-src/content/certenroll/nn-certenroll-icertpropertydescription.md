@@ -1,19 +1,17 @@
 ---
 UID: NN:certenroll.ICertPropertyDescription
 title: ICertPropertyDescription (certenroll.h)
-
 description: Enables you to specify and retrieve a string that contains descriptive information for a certificate.
 old-location: security\icertpropertydescription.htm
 tech.root: seccertenroll
 ms.assetid: 229e8ce9-fe18-45f4-8f91-cd741052a134
-
 ms.date: 12/05/2018
 ms.keywords: ICertPropertyDescription, ICertPropertyDescription interface [Security], ICertPropertyDescription interface [Security],described, certenroll/ICertPropertyDescription, security.icertpropertydescription
 ms.topic: interface
-f1_keywords: 
- - "certenroll/ICertPropertyDescription"
+f1_keywords:
+- certenroll/ICertPropertyDescription
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: CertEnroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CertEnroll.dll
+- CertEnroll.dll
 api_name:
- - ICertPropertyDescription
+- ICertPropertyDescription
 targetos: Windows
 req.typenames: 
 req.redist: 

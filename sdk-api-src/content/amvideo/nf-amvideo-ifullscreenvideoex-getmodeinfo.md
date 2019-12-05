@@ -1,19 +1,17 @@
 ---
 UID: NF:amvideo.IFullScreenVideoEx.GetModeInfo
 title: IFullScreenVideoEx::GetModeInfo (amvideo.h)
-
 description: The GetModeInfo method retrieves information about a specified display mode supported by the Full Screen Renderer filter.
 old-location: dshow\ifullscreenvideoex_getmodeinfo.htm
 tech.root: DirectShow
 ms.assetid: c1a4aea8-8c48-4073-80ed-060db5adb514
-
 ms.date: 12/05/2018
 ms.keywords: GetModeInfo, GetModeInfo method [DirectShow], GetModeInfo method [DirectShow],IFullScreenVideoEx interface, IFullScreenVideoEx interface [DirectShow],GetModeInfo method, IFullScreenVideoEx.GetModeInfo, IFullScreenVideoEx::GetModeInfo, IFullScreenVideoGetModeInfo, amvideo/IFullScreenVideoEx::GetModeInfo, dshow.ifullscreenvideoex_getmodeinfo
 ms.topic: method
-f1_keywords: 
- - "amvideo/IFullScreenVideoEx.GetModeInfo"
+f1_keywords:
+- amvideo/IFullScreenVideoEx.GetModeInfo
 dev_langs:
- - c++
+- c++
 req.header: amvideo.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IFullScreenVideoEx.GetModeInfo
+- IFullScreenVideoEx.GetModeInfo
 targetos: Windows
 req.typenames: 
 req.redist: 

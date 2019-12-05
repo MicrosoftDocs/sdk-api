@@ -1,19 +1,17 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMObjectFactory.CreateColorProfileResource
 title: IXpsOMObjectFactory::CreateColorProfileResource (xpsobjectmodel.h)
-
 description: Creates an IXpsOMColorProfileResource interface, which is used to access a color profile resource stream.
 old-location: xps\ixpsomobjectfactory_createcolorprofileresource.htm
 tech.root: printdocs
 ms.assetid: cb4d1b49-fda6-46c3-a72a-21affdb7e82e
-
 ms.date: 12/05/2018
 ms.keywords: CreateColorProfileResource, CreateColorProfileResource method [XPS Documents and Packaging], CreateColorProfileResource method [XPS Documents and Packaging],IXpsOMObjectFactory interface, IXpsOMObjectFactory interface [XPS Documents and Packaging],CreateColorProfileResource method, IXpsOMObjectFactory.CreateColorProfileResource, IXpsOMObjectFactory::CreateColorProfileResource, xps.ixpsomobjectfactory_createcolorprofileresource, xpsobjectmodel/IXpsOMObjectFactory::CreateColorProfileResource
 ms.topic: method
-f1_keywords: 
- - "xpsobjectmodel/IXpsOMObjectFactory.CreateColorProfileResource"
+f1_keywords:
+- xpsobjectmodel/IXpsOMObjectFactory.CreateColorProfileResource
 dev_langs:
- - c++
+- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsobjectmodel.h
+- xpsobjectmodel.h
 api_name:
- - IXpsOMObjectFactory.CreateColorProfileResource
+- IXpsOMObjectFactory.CreateColorProfileResource
 targetos: Windows
 req.typenames: 
 req.redist: 

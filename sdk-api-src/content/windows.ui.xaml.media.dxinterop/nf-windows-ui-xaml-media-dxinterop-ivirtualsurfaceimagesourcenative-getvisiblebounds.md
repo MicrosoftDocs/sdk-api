@@ -1,19 +1,17 @@
 ---
 UID: NF:windows.ui.xaml.media.dxinterop.IVirtualSurfaceImageSourceNative.GetVisibleBounds
 title: IVirtualSurfaceImageSourceNative::xaml (windows.ui.xaml.media.dxinterop.h)
-
 description: Gets the boundaries of the visible region of the shared surface.
 old-location: winrt\ivirtualsurfaceimagesourcenative_getvisiblebounds.htm
 tech.root: WinRT
 ms.assetid: C296DD29-97C8-4C4E-A424-33DDC37538A9
-
 ms.date: 12/05/2018
 ms.keywords: GetVisibleBounds, GetVisibleBounds method [Windows Runtime], GetVisibleBounds method [Windows Runtime],IVirtualSurfaceImageSourceNative interface, IVirtualSurfaceImageSourceNative interface [Windows Runtime],GetVisibleBounds method, IVirtualSurfaceImageSourceNative.GetVisibleBounds, IVirtualSurfaceImageSourceNative.xaml, IVirtualSurfaceImageSourceNative::GetVisibleBounds, IVirtualSurfaceImageSourceNative::xaml, windows/IVirtualSurfaceImageSourceNative::GetVisibleBounds, winrt.ivirtualsurfaceimagesourcenative_getvisiblebounds
 ms.topic: method
-f1_keywords: 
- - "windows.ui.xaml.media.dxinterop/IVirtualSurfaceImageSourceNative.GetVisibleBounds"
+f1_keywords:
+- windows.ui.xaml.media.dxinterop/IVirtualSurfaceImageSourceNative.GetVisibleBounds
 dev_langs:
- - c++
+- c++
 req.header: windows.ui.xaml.media.dxinterop.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Windows.UI.Xaml.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Windows.UI.Xaml.dll
+- Windows.UI.Xaml.dll
 api_name:
- - IVirtualSurfaceImageSourceNative.GetVisibleBounds
+- IVirtualSurfaceImageSourceNative.GetVisibleBounds
 targetos: Windows
 req.typenames: 
 req.redist: 

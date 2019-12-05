@@ -1,19 +1,17 @@
 ---
 UID: NS:fwptypes.FWP_V4_ADDR_AND_MASK_
 title: FWP_V4_ADDR_AND_MASK (fwptypes.h)
-
 description: Specifies IPv4 address and mask in host order.
 old-location: fwp\fwp_v4_addr_and_mask_struct.htm
 tech.root: fwp
 ms.assetid: da6315af-264e-4dcb-b5eb-ac308128a511
-
 ms.date: 12/05/2018
 ms.keywords: FWP_V4_ADDR_AND_MASK, FWP_V4_ADDR_AND_MASK structure [Filtering], fwp.fwp_v4_addr_and_mask_struct, fwptypes/FWP_V4_ADDR_AND_MASK
 ms.topic: struct
-f1_keywords: 
- - "fwptypes/FWP_V4_ADDR_AND_MASK"
+f1_keywords:
+- fwptypes/FWP_V4_ADDR_AND_MASK
 dev_langs:
- - c++
+- c++
 req.header: fwptypes.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Fwptypes.h
+- Fwptypes.h
 api_name:
- - FWP_V4_ADDR_AND_MASK
+- FWP_V4_ADDR_AND_MASK
 targetos: Windows
 req.typenames: FWP_V4_ADDR_AND_MASK
 req.redist: 

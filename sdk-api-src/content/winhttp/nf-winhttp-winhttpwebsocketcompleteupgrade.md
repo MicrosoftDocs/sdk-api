@@ -1,19 +1,17 @@
 ---
 UID: NF:winhttp.WinHttpWebSocketCompleteUpgrade
 title: WinHttpWebSocketCompleteUpgrade function (winhttp.h)
-
 description: Completes a WebSocket handshake started by WinHttpSendRequest.
 old-location: http\winhttpwebsocketcompleteupgrade.htm
 tech.root: WinHttp
 ms.assetid: a5d5971b-ac76-4be5-b884-a0e5ef9a495a
-
 ms.date: 12/05/2018
 ms.keywords: WinHttpWebSocketCompleteUpgrade, WinHttpWebSocketCompleteUpgrade function [WinHTTP], http.winhttpwebsocketcompleteupgrade, winhttp/WinHttpWebSocketCompleteUpgrade
 ms.topic: function
-f1_keywords: 
- - "winhttp/WinHttpWebSocketCompleteUpgrade"
+f1_keywords:
+- winhttp/WinHttpWebSocketCompleteUpgrade
 dev_langs:
- - c++
+- c++
 req.header: winhttp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Winhttp.lib
 req.dll: Winhttp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Winhttp.dll
+- Winhttp.dll
 api_name:
- - WinHttpWebSocketCompleteUpgrade
+- WinHttpWebSocketCompleteUpgrade
 targetos: Windows
 req.typenames: 
 req.redist: 

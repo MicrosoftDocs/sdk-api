@@ -1,19 +1,17 @@
 ---
 UID: NS:uxtheme._WTA_OPTIONS
 title: WTA_OPTIONS (uxtheme.h)
-
 description: Defines options that are used to set window visual style attributes.
 old-location: controls\WTA_OPTIONS.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\userex\structures\wta_options.htm
-
 ms.date: 12/05/2018
-ms.keywords: "*PWTA_OPTIONS, PWTA_OPTIONS, PWTA_OPTIONS structure pointer [Windows Controls], WTA_OPTIONS, WTA_OPTIONS structure [Windows Controls], controls.WTA_OPTIONS, controls.inet_WTA_OPTIONS, inet_WTA_OPTIONS, inet_WTA_OPTIONS_cpp, uxtheme/PWTA_OPTIONS, uxtheme/WTA_OPTIONS"
+ms.keywords: '*PWTA_OPTIONS, PWTA_OPTIONS, PWTA_OPTIONS structure pointer [Windows Controls], WTA_OPTIONS, WTA_OPTIONS structure [Windows Controls], controls.WTA_OPTIONS, controls.inet_WTA_OPTIONS, inet_WTA_OPTIONS, inet_WTA_OPTIONS_cpp, uxtheme/PWTA_OPTIONS, uxtheme/WTA_OPTIONS'
 ms.topic: struct
-f1_keywords: 
- - "uxtheme/WTA_OPTIONS"
+f1_keywords:
+- uxtheme/WTA_OPTIONS
 dev_langs:
- - c++
+- c++
 req.header: uxtheme.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Uxtheme.h
+- Uxtheme.h
 api_name:
- - WTA_OPTIONS
+- WTA_OPTIONS
 targetos: Windows
 req.typenames: WTA_OPTIONS, *PWTA_OPTIONS
 req.redist: 

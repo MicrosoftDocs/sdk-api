@@ -1,19 +1,17 @@
 ---
 UID: NF:winuser.CreateCaret
 title: CreateCaret function (winuser.h)
-
 description: Creates a new shape for the system caret and assigns ownership of the caret to the specified window. The caret shape can be a line, a block, or a bitmap.
 old-location: menurc\createcaret.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\carets\caretreference\caretfunctions\createcaret.htm
-
 ms.date: 12/05/2018
 ms.keywords: CreateCaret, CreateCaret function [Menus and Other Resources], _win32_CreateCaret, _win32_createcaret_cpp, menurc.createcaret, winui._win32_createcaret, winuser/CreateCaret
 ms.topic: function
-f1_keywords: 
- - "winuser/CreateCaret"
+f1_keywords:
+- winuser/CreateCaret
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - User32.dll
- - Ext-MS-Win-NTUser-caret-l1-1-0.dll
- - api-ms-win-ntuser-ie-caret-l1-1-0.dll
- - ie_stubs.dll
+- User32.dll
+- Ext-MS-Win-NTUser-caret-l1-1-0.dll
+- api-ms-win-ntuser-ie-caret-l1-1-0.dll
+- ie_stubs.dll
 api_name:
- - CreateCaret
+- CreateCaret
 targetos: Windows
 req.typenames: 
 req.redist: 

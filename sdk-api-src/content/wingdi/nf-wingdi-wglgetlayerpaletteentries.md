@@ -1,19 +1,17 @@
 ---
 UID: NF:wingdi.wglGetLayerPaletteEntries
 title: wglGetLayerPaletteEntries function (wingdi.h)
-
 description: Retrieves the palette entries from a given color-index layer plane for a specified device context.
 old-location: opengl\wglgetlayerpaletteentries.htm
 tech.root: OpenGL
 ms.assetid: 9f2d6f59-f1c6-44a5-8741-1ea4d84f5b2c
-
 ms.date: 12/05/2018
-ms.keywords: "_ogl_wglGetLayerPaletteEntries, opengl.wglgetlayerpaletteentries, wglGetLayerPaletteEntries, wglGetLayerPaletteEntries function [OpenGL], wingdi/wglGetLayerPaletteEntries"
+ms.keywords: _ogl_wglGetLayerPaletteEntries, opengl.wglgetlayerpaletteentries, wglGetLayerPaletteEntries, wglGetLayerPaletteEntries function [OpenGL], wingdi/wglGetLayerPaletteEntries
 ms.topic: function
-f1_keywords: 
- - "wingdi/wglGetLayerPaletteEntries"
+f1_keywords:
+- wingdi/wglGetLayerPaletteEntries
 dev_langs:
- - c++
+- c++
 req.header: wingdi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Opengl32.lib
 req.dll: Opengl32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - opengl32.dll
+- opengl32.dll
 api_name:
- - wglGetLayerPaletteEntries
+- wglGetLayerPaletteEntries
 targetos: Windows
 req.typenames: 
 req.redist: 

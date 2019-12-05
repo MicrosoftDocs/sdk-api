@@ -1,19 +1,17 @@
 ---
 UID: NF:wsipv6ok.gethostbyname
 title: gethostbyname macro (wsipv6ok.h)
-
 description: The gethostbyname function retrieves host information corresponding to a host name from a host database.
 old-location: winsock\gethostbyname_2.htm
 tech.root: WinSock
 ms.assetid: 2526ecb5-927b-40c8-8d8f-919e7986ff05
-
 ms.date: 12/05/2018
-ms.keywords: "_win32_gethostbyname_2, gethostbyname, gethostbyname function [Winsock], winsock.gethostbyname_2, wsipv6ok/gethostbyname"
+ms.keywords: _win32_gethostbyname_2, gethostbyname, gethostbyname function [Winsock], winsock.gethostbyname_2, wsipv6ok/gethostbyname
 ms.topic: macro
-f1_keywords: 
- - "wsipv6ok/gethostbyname"
+f1_keywords:
+- wsipv6ok/gethostbyname
 dev_langs:
- - c++
+- c++
 req.header: wsipv6ok.h
 req.include-header: Winsock2.h, Winsock.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Ws2_32.lib
 req.dll: Ws2_32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ws2_32.dll
+- Ws2_32.dll
 api_name:
- - gethostbyname
+- gethostbyname
 targetos: Windows
 req.typenames: 
 req.redist: 

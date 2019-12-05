@@ -1,19 +1,17 @@
 ---
 UID: NF:azroles.IAzScope.AddPolicyReader
 title: IAzScope::AddPolicyReader (azroles.h)
-
 description: The AddPolicyReader method of IAzScope adds the specified security identifier in text form to the list of principals that act as policy readers.
 old-location: security\iazscope_addpolicyreader.htm
 tech.root: SecAuthZ
 ms.assetid: dd4d3254-8bcf-46b5-8e7b-d3f076988a7c
-
 ms.date: 12/05/2018
 ms.keywords: AddPolicyReader, AddPolicyReader method [Security], AddPolicyReader method [Security],AzScope object, AddPolicyReader method [Security],IAzScope interface, AzScope object [Security],AddPolicyReader method, IAzScope interface [Security],AddPolicyReader method, IAzScope.AddPolicyReader, IAzScope::AddPolicyReader, azroles/IAzScope::AddPolicyReader, security.iazscope_addpolicyreader
 ms.topic: method
-f1_keywords: 
- - "azroles/IAzScope.AddPolicyReader"
+f1_keywords:
+- azroles/IAzScope.AddPolicyReader
 dev_langs:
- - c++
+- c++
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Azroles.lib
 req.dll: Azroles.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Azroles.dll
+- Azroles.dll
 api_name:
- - IAzScope.AddPolicyReader
- - AzScope.AddPolicyReader
+- IAzScope.AddPolicyReader
+- AzScope.AddPolicyReader
 targetos: Windows
 req.typenames: 
 req.redist: Windows Server 2003 Administration Tools Pack on Windows XP

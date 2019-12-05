@@ -1,19 +1,17 @@
 ---
 UID: NE:casetup.__MIDL___MIDL_itf_casetup_0000_0002_0001
 title: CASetupProperty (casetup.h)
-
 description: Specifies a property type for setup and configuration of a certification authority (CA) role when using the ICertSrvSetup interface.
 old-location: security\icertsrvsetup_casetupproperty.htm
 tech.root: SecCrypto
 ms.assetid: 2245ad2f-89ca-4478-91d0-cbd7a0648479
-
 ms.date: 12/05/2018
 ms.keywords: CASetupProperty, CASetupProperty enumeration [Security], ENUM_SETUPPROP_CADSSUFFIX, ENUM_SETUPPROP_CAKEYINFORMATION, ENUM_SETUPPROP_CANAME, ENUM_SETUPPROP_CATYPE, ENUM_SETUPPROP_DATABASEDIRECTORY, ENUM_SETUPPROP_EXPIRATIONDATE, ENUM_SETUPPROP_INTERACTIVE, ENUM_SETUPPROP_INVALID, ENUM_SETUPPROP_LOGDIRECTORY, ENUM_SETUPPROP_PARENTCAMACHINE, ENUM_SETUPPROP_PARENTCANAME, ENUM_SETUPPROP_PRESERVEDATABASE, ENUM_SETUPPROP_REQUESTFILE, ENUM_SETUPPROP_SHAREDFOLDER, ENUM_SETUPPROP_VALIDITYPERIOD, ENUM_SETUPPROP_VALIDITYPERIODUNIT, ENUM_SETUPPROP_WEBCAMACHINE, ENUM_SETUPPROP_WEBCANAME, casetup/CASetupProperty, casetup/ENUM_SETUPPROP_CADSSUFFIX, casetup/ENUM_SETUPPROP_CAKEYINFORMATION, casetup/ENUM_SETUPPROP_CANAME, casetup/ENUM_SETUPPROP_CATYPE, casetup/ENUM_SETUPPROP_DATABASEDIRECTORY, casetup/ENUM_SETUPPROP_EXPIRATIONDATE, casetup/ENUM_SETUPPROP_INTERACTIVE, casetup/ENUM_SETUPPROP_INVALID, casetup/ENUM_SETUPPROP_LOGDIRECTORY, casetup/ENUM_SETUPPROP_PARENTCAMACHINE, casetup/ENUM_SETUPPROP_PARENTCANAME, casetup/ENUM_SETUPPROP_PRESERVEDATABASE, casetup/ENUM_SETUPPROP_REQUESTFILE, casetup/ENUM_SETUPPROP_SHAREDFOLDER, casetup/ENUM_SETUPPROP_VALIDITYPERIOD, casetup/ENUM_SETUPPROP_VALIDITYPERIODUNIT, casetup/ENUM_SETUPPROP_WEBCAMACHINE, casetup/ENUM_SETUPPROP_WEBCANAME, security.icertsrvsetup_casetupproperty
 ms.topic: enum
-f1_keywords: 
- - "casetup/CASetupProperty"
+f1_keywords:
+- casetup/CASetupProperty
 dev_langs:
- - c++
+- c++
 req.header: casetup.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Casetup.h
+- Casetup.h
 api_name:
- - CASetupProperty
+- CASetupProperty
 targetos: Windows
 req.typenames: CASetupProperty
 req.redist: 

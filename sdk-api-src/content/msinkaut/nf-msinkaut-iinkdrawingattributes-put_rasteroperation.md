@@ -1,19 +1,17 @@
 ---
 UID: NF:msinkaut.IInkDrawingAttributes.put_RasterOperation
 title: IInkDrawingAttributes::put_RasterOperation (msinkaut.h)
-
 description: Gets or sets a value that defines how the colors of the pen and background interact.
 old-location: tablet\inkdrawingattributes_rasteroperation.htm
 tech.root: tablet
 ms.assetid: 8e3681a7-c5be-4104-b740-9f23d141f6cb
-
 ms.date: 12/05/2018
 ms.keywords: 8e3681a7-c5be-4104-b740-9f23d141f6cb, IInkDrawingAttributes interface [Tablet PC],RasterOperation property, IInkDrawingAttributes.RasterOperation, IInkDrawingAttributes.put_RasterOperation, IInkDrawingAttributes::RasterOperation, IInkDrawingAttributes::get_RasterOperation, IInkDrawingAttributes::put_RasterOperation, InkDrawingAttributes.get_RasterOperation, InkDrawingAttributes.put_RasterOperation, RasterOperation property [Tablet PC], RasterOperation property [Tablet PC],IInkDrawingAttributes interface, get_RasterOperation, msinkaut/IInkDrawingAttributes::RasterOperation, msinkaut/IInkDrawingAttributes::get_RasterOperation, msinkaut/IInkDrawingAttributes::put_RasterOperation, put_RasterOperation, tablet.inkdrawingattributes_rasteroperation
 ms.topic: method
-f1_keywords: 
- - "msinkaut/IInkDrawingAttributes.RasterOperation"
+f1_keywords:
+- msinkaut/IInkDrawingAttributes.RasterOperation
 dev_langs:
- - c++
+- c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows
@@ -32,19 +30,19 @@ req.lib: InkObj.dll
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - InkObj.dll
- - InkObj.dll.dll
+- InkObj.dll
+- InkObj.dll.dll
 api_name:
- - IInkDrawingAttributes.RasterOperation
- - IInkDrawingAttributes.get_RasterOperation
- - IInkDrawingAttributes.put_RasterOperation
- - InkDrawingAttributes.get_RasterOperation
- - InkDrawingAttributes.put_RasterOperation
+- IInkDrawingAttributes.RasterOperation
+- IInkDrawingAttributes.get_RasterOperation
+- IInkDrawingAttributes.put_RasterOperation
+- InkDrawingAttributes.get_RasterOperation
+- InkDrawingAttributes.put_RasterOperation
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:tuner.ITuner.TriggerSignalEvents
 title: ITuner::TriggerSignalEvents (tuner.h)
-
 description: The TriggerSignalEvents method enables the tuner to raise an event when the status of the signal changes.
 old-location: mstv\ituner_triggersignalevents.htm
 tech.root: mstv
 ms.assetid: 9cff8ee2-d474-4ea5-a284-608eb0288c9f
-
 ms.date: 12/05/2018
 ms.keywords: ITuner interface [Microsoft TV Technologies],TriggerSignalEvents method, ITuner.TriggerSignalEvents, ITuner::TriggerSignalEvents, ITunerTriggerSignalEvents, TriggerSignalEvents, TriggerSignalEvents method [Microsoft TV Technologies], TriggerSignalEvents method [Microsoft TV Technologies],ITuner interface, mstv.ituner_triggersignalevents, tuner/ITuner::TriggerSignalEvents
 ms.topic: method
-f1_keywords: 
- - "tuner/ITuner.TriggerSignalEvents"
+f1_keywords:
+- tuner/ITuner.TriggerSignalEvents
 dev_langs:
- - c++
+- c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - tuner.h
+- tuner.h
 api_name:
- - ITuner.TriggerSignalEvents
+- ITuner.TriggerSignalEvents
 targetos: Windows
 req.typenames: 
 req.redist: 

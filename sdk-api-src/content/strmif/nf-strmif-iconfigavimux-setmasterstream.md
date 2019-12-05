@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IConfigAviMux.SetMasterStream
 title: IConfigAviMux::SetMasterStream (strmif.h)
-
 description: The SetMasterStream method specifies a stream that will be used to synchronize the other streams in the file.
 old-location: dshow\iconfigavimux_setmasterstream.htm
 tech.root: DirectShow
 ms.assetid: 1f255498-8bbb-48a0-ae97-0cf2698e609b
-
 ms.date: 12/05/2018
 ms.keywords: IConfigAviMux interface [DirectShow],SetMasterStream method, IConfigAviMux.SetMasterStream, IConfigAviMux::SetMasterStream, IConfigAviMuxSetMasterStream, SetMasterStream, SetMasterStream method [DirectShow], SetMasterStream method [DirectShow],IConfigAviMux interface, dshow.iconfigavimux_setmasterstream, strmif/IConfigAviMux::SetMasterStream
 ms.topic: method
-f1_keywords: 
- - "strmif/IConfigAviMux.SetMasterStream"
+f1_keywords:
+- strmif/IConfigAviMux.SetMasterStream
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IConfigAviMux.SetMasterStream
+- IConfigAviMux.SetMasterStream
 targetos: Windows
 req.typenames: 
 req.redist: 

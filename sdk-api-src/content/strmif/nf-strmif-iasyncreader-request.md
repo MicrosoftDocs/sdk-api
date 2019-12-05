@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IAsyncReader.Request
 title: IAsyncReader::Request (strmif.h)
-
 description: The Request method queues an asynchronous request for data.
 old-location: dshow\iasyncreader_request.htm
 tech.root: DirectShow
 ms.assetid: d0eab370-bb17-48fa-9926-6a6eeaba5603
-
 ms.date: 12/05/2018
 ms.keywords: IAsyncReader interface [DirectShow],Request method, IAsyncReader.Request, IAsyncReader::Request, IAsyncReaderRequest, Request, Request method [DirectShow], Request method [DirectShow],IAsyncReader interface, dshow.iasyncreader_request, strmif/IAsyncReader::Request
 ms.topic: method
-f1_keywords: 
- - "strmif/IAsyncReader.Request"
+f1_keywords:
+- strmif/IAsyncReader.Request
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IAsyncReader.Request
+- IAsyncReader.Request
 targetos: Windows
 req.typenames: 
 req.redist: 

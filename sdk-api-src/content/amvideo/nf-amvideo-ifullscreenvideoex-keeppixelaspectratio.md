@@ -1,19 +1,17 @@
 ---
 UID: NF:amvideo.IFullScreenVideoEx.KeepPixelAspectRatio
 title: IFullScreenVideoEx::KeepPixelAspectRatio (amvideo.h)
-
 description: The KeepPixelAspectRatio method specifies whether to maintain the pixel aspect ratio. The Full Screen Renderer filter does not support this method; it always maintains the pixel aspect ratio.
 old-location: dshow\ifullscreenvideoex_keeppixelaspectratio.htm
 tech.root: DirectShow
 ms.assetid: f2c57560-7ffa-4bd4-8d0c-a048dafa35bc
-
 ms.date: 12/05/2018
 ms.keywords: IFullScreenVideoEx interface [DirectShow],KeepPixelAspectRatio method, IFullScreenVideoEx.KeepPixelAspectRatio, IFullScreenVideoEx::KeepPixelAspectRatio, IFullScreenVideoExKeepPixelAspectRatio, KeepPixelAspectRatio, KeepPixelAspectRatio method [DirectShow], KeepPixelAspectRatio method [DirectShow],IFullScreenVideoEx interface, amvideo/IFullScreenVideoEx::KeepPixelAspectRatio, dshow.ifullscreenvideoex_keeppixelaspectratio
 ms.topic: method
-f1_keywords: 
- - "amvideo/IFullScreenVideoEx.KeepPixelAspectRatio"
+f1_keywords:
+- amvideo/IFullScreenVideoEx.KeepPixelAspectRatio
 dev_langs:
- - c++
+- c++
 req.header: amvideo.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IFullScreenVideoEx.KeepPixelAspectRatio
+- IFullScreenVideoEx.KeepPixelAspectRatio
 targetos: Windows
 req.typenames: 
 req.redist: 

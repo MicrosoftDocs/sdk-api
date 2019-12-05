@@ -1,19 +1,17 @@
 ---
 UID: NF:wmsdkidl.IWMWriterFileSink3.SetAutoIndexing
 title: IWMWriterFileSink3::SetAutoIndexing (wmsdkidl.h)
-
 description: The SetAutoIndexing method enables or disables automatic indexing of the file.
 old-location: wmformat\iwmwriterfilesink3_setautoindexing.htm
 tech.root: wmformat
 ms.assetid: 6c8f1c25-d752-42b6-87b7-9d6a6e38642f
-
 ms.date: 12/05/2018
 ms.keywords: IWMWriterFileSink3 interface [windows Media Format],SetAutoIndexing method, IWMWriterFileSink3.SetAutoIndexing, IWMWriterFileSink3::SetAutoIndexing, IWMWriterFileSink3SetAutoIndexing, SetAutoIndexing, SetAutoIndexing method [windows Media Format], SetAutoIndexing method [windows Media Format],IWMWriterFileSink3 interface, wmformat.iwmwriterfilesink3_setautoindexing, wmsdkidl/IWMWriterFileSink3::SetAutoIndexing
 ms.topic: method
-f1_keywords: 
- - "wmsdkidl/IWMWriterFileSink3.SetAutoIndexing"
+f1_keywords:
+- wmsdkidl/IWMWriterFileSink3.SetAutoIndexing
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wmvcore.lib
- - Wmvcore.dll
- - WMStubDRM.lib
- - WMStubDRM.dll
+- Wmvcore.lib
+- Wmvcore.dll
+- WMStubDRM.lib
+- WMStubDRM.dll
 api_name:
- - IWMWriterFileSink3.SetAutoIndexing
+- IWMWriterFileSink3.SetAutoIndexing
 targetos: Windows
 req.typenames: 
 req.redist: 

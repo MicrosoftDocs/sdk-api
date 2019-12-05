@@ -1,19 +1,17 @@
 ---
 UID: NF:filehc.FindSyncContextFromName
 title: FindSyncContextFromName function (filehc.h)
-
 description: Retrieves the FIO_CONTEXT structure that is associated with the specified user name.
 old-location: winprog\_findsynccontextfromname.htm
 tech.root: DevNotes
 ms.assetid: 1528b545-6d04-4315-a0ca-cebef6144fe9
-
 ms.date: 12/05/2018
 ms.keywords: FindSyncContextFromName, FindSyncContextFromName function [Windows API], filehc/FindSyncContextFromName, winprog._findsynccontextfromname
 ms.topic: function
-f1_keywords: 
- - "filehc/FindSyncContextFromName"
+f1_keywords:
+- filehc/FindSyncContextFromName
 dev_langs:
- - c++
+- c++
 req.header: filehc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Fcachdll.lib
 req.dll: Fcachdll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Fcachdll.dll
+- Fcachdll.dll
 api_name:
- - FindSyncContextFromName
+- FindSyncContextFromName
 targetos: Windows
 req.typenames: 
 req.redist: 

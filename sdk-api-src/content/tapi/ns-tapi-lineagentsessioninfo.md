@@ -1,19 +1,17 @@
 ---
 UID: NS:tapi.lineagentsessioninfo_tag
 title: LINEAGENTSESSIONINFO (tapi.h)
-
 description: The LINEAGENTSESSIONINFO structure contains information about the ACD agent session. The lineGetAgentSessionInfo function returns the LINEAGENTSESSIONINFO structure.
 old-location: tapi2\lineagentsessioninfo_str.htm
 tech.root: Tapi
 ms.assetid: 567e21b4-c79c-4a54-b9f4-6c8c949bf4ee
-
 ms.date: 12/05/2018
-ms.keywords: "*LPLINEAGENTSESSIONINFO, LINEAGENTSESSIONINFO, LINEAGENTSESSIONINFO structure [TAPI 2.2], LPLINEAGENTSESSIONINFO, LPLINEAGENTSESSIONINFO structure pointer [TAPI 2.2], _tapi2_lineagentsessioninfo_str, tapi/LINEAGENTSESSIONINFO, tapi/LPLINEAGENTSESSIONINFO, tapi2.lineagentsessioninfo_str"
+ms.keywords: '*LPLINEAGENTSESSIONINFO, LINEAGENTSESSIONINFO, LINEAGENTSESSIONINFO structure [TAPI 2.2], LPLINEAGENTSESSIONINFO, LPLINEAGENTSESSIONINFO structure pointer [TAPI 2.2], _tapi2_lineagentsessioninfo_str, tapi/LINEAGENTSESSIONINFO, tapi/LPLINEAGENTSESSIONINFO, tapi2.lineagentsessioninfo_str'
 ms.topic: struct
-f1_keywords: 
- - "tapi/LINEAGENTSESSIONINFO"
+f1_keywords:
+- tapi/LINEAGENTSESSIONINFO
 dev_langs:
- - c++
+- c++
 req.header: tapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Tapi.h
+- Tapi.h
 api_name:
- - LINEAGENTSESSIONINFO
+- LINEAGENTSESSIONINFO
 targetos: Windows
 req.typenames: LINEAGENTSESSIONINFO, *LPLINEAGENTSESSIONINFO
 req.redist: 

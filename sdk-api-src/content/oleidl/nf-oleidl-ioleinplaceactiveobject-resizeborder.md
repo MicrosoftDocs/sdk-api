@@ -1,19 +1,17 @@
 ---
 UID: NF:oleidl.IOleInPlaceActiveObject.ResizeBorder
 title: IOleInPlaceActiveObject::ResizeBorder (oleidl.h)
-
 description: Alerts the object that it needs to resize its border space.
 old-location: com\ioleinplaceactiveobject_resizeborder.htm
 tech.root: com
 ms.assetid: 240d2ae5-abce-4bea-969e-f47780908bbb
-
 ms.date: 12/05/2018
 ms.keywords: IOleInPlaceActiveObject interface [COM],ResizeBorder method, IOleInPlaceActiveObject.ResizeBorder, IOleInPlaceActiveObject::ResizeBorder, ResizeBorder, ResizeBorder method [COM], ResizeBorder method [COM],IOleInPlaceActiveObject interface, _ole_ioleinplaceactiveobject_resizeborder, com.ioleinplaceactiveobject_resizeborder, oleidl/IOleInPlaceActiveObject::ResizeBorder
 ms.topic: method
-f1_keywords: 
- - "oleidl/IOleInPlaceActiveObject.ResizeBorder"
+f1_keywords:
+- oleidl/IOleInPlaceActiveObject.ResizeBorder
 dev_langs:
- - c++
+- c++
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - OleIdl.h
+- OleIdl.h
 api_name:
- - IOleInPlaceActiveObject.ResizeBorder
+- IOleInPlaceActiveObject.ResizeBorder
 targetos: Windows
 req.typenames: 
 req.redist: 

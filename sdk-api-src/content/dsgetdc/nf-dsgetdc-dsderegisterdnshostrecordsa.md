@@ -1,19 +1,17 @@
 ---
 UID: NF:dsgetdc.DsDeregisterDnsHostRecordsA
 title: DsDeregisterDnsHostRecordsA function (dsgetdc.h)
-
 description: The DsDeregisterDnsHostRecords function deletes DNS entries, except for type A records registered by a domain controller. Only an administrator, account operator, or server operator may call this function.
 old-location: ad\dsderegisterdnshostrecords.htm
 tech.root: ad
 ms.assetid: 18ab6455-dab2-42d9-b68e-a8f0ad2d8091
-
 ms.date: 12/05/2018
 ms.keywords: DsDeregisterDnsHostRecords, DsDeregisterDnsHostRecords function [Active Directory], DsDeregisterDnsHostRecordsA, DsDeregisterDnsHostRecordsW, _glines_dsderegisterdnshostrecords, ad.dsderegisterdnshostrecords, dsgetdc/DsDeregisterDnsHostRecords, dsgetdc/DsDeregisterDnsHostRecordsA, dsgetdc/DsDeregisterDnsHostRecordsW
 ms.topic: function
-f1_keywords: 
- - "dsgetdc/DsDeregisterDnsHostRecords"
+f1_keywords:
+- dsgetdc/DsDeregisterDnsHostRecords
 dev_langs:
- - c++
+- c++
 req.header: dsgetdc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Netapi32.lib
 req.dll: Netapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Netapi32.dll
+- Netapi32.dll
 api_name:
- - DsDeregisterDnsHostRecords
- - DsDeregisterDnsHostRecordsA
- - DsDeregisterDnsHostRecordsW
+- DsDeregisterDnsHostRecords
+- DsDeregisterDnsHostRecordsA
+- DsDeregisterDnsHostRecordsW
 targetos: Windows
 req.typenames: 
 req.redist: 

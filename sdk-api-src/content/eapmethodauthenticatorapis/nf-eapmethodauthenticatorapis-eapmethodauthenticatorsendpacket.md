@@ -1,19 +1,17 @@
 ---
 UID: NF:eapmethodauthenticatorapis.EapMethodAuthenticatorSendPacket
 title: EapMethodAuthenticatorSendPacket function (eapmethodauthenticatorapis.h)
-
 description: Obtains an authentication packet from the EAP authenticator method to send to the supplicant.
 old-location: eaphost\eapmethodauthenticatorsendpacket.htm
 tech.root: eaphost
 ms.assetid: 5227ff56-8ac3-4fd7-b6c0-c2d3ef6b906e
-
 ms.date: 12/05/2018
 ms.keywords: EapMethodAuthenticatorSendPacket, EapMethodAuthenticatorSendPacket function [EAPHost], eaphost.eapmethodauthenticatorsendpacket, eapmethodauthenticatorapis/EapMethodAuthenticatorSendPacket
 ms.topic: function
 f1_keywords:
 - eapmethodauthenticatorapis/EapMethodAuthenticatorSendPacket
 dev_langs:
- - c++
+- c++
 req.header: eapmethodauthenticatorapis.h
 req.include-header: 
 req.target-type: Windows

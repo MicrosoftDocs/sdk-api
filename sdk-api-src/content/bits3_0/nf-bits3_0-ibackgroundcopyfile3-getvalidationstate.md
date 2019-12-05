@@ -1,19 +1,17 @@
 ---
 UID: NF:bits3_0.IBackgroundCopyFile3.GetValidationState
 title: IBackgroundCopyFile3::GetValidationState (bits3_0.h)
-
 description: Gets the current validation state of this file.
 old-location: bits\ibackgroundcopyfile3_getvalidationstate.htm
 tech.root: Bits
 ms.assetid: 705644e2-fd15-4225-b26a-e75c2dd2f6e3
-
 ms.date: 12/05/2018
 ms.keywords: GetValidationState, GetValidationState method [BITS], GetValidationState method [BITS],IBackgroundCopyFile3 interface, IBackgroundCopyFile3 interface [BITS],GetValidationState method, IBackgroundCopyFile3.GetValidationState, IBackgroundCopyFile3::GetValidationState, bits.ibackgroundcopyfile3_getvalidationstate, bits3_0/IBackgroundCopyFile3::GetValidationState
 ms.topic: method
-f1_keywords: 
- - "bits3_0/IBackgroundCopyFile3.GetValidationState"
+f1_keywords:
+- bits3_0/IBackgroundCopyFile3.GetValidationState
 dev_langs:
- - c++
+- c++
 req.header: bits3_0.h
 req.include-header: Bits.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Bits.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Bits.lib
- - Bits.dll
+- Bits.lib
+- Bits.dll
 api_name:
- - IBackgroundCopyFile3.GetValidationState
+- IBackgroundCopyFile3.GetValidationState
 targetos: Windows
 req.typenames: 
 req.redist: 

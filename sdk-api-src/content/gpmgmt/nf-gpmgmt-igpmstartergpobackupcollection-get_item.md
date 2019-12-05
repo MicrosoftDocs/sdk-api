@@ -1,19 +1,17 @@
 ---
 UID: NF:gpmgmt.IGPMStarterGPOBackupCollection.get_Item
 title: IGPMStarterGPOBackupCollection::get_Item (gpmgmt.h)
-
 description: Given an index, returns an GPMStarterGPOBackup object from the collection.
 old-location: gpmc\igpmstartergpobackupcollection_get_item.htm
 tech.root: gpmc
 ms.assetid: 295b00ed-856e-4199-8b93-7c676a5ab8bb
-
 ms.date: 12/05/2018
 ms.keywords: IGPMStarterGPOBackupCollection interface [GPMC],Item property, IGPMStarterGPOBackupCollection.Item, IGPMStarterGPOBackupCollection.get_Item, IGPMStarterGPOBackupCollection::Item, IGPMStarterGPOBackupCollection::get_Item, Item property [GPMC], Item property [GPMC],IGPMStarterGPOBackupCollection interface, get_Item, gpmc.igpmstartergpobackupcollection_get_item, gpmgmt/IGPMStarterGPOBackupCollection::Item, gpmgmt/IGPMStarterGPOBackupCollection::get_Item
 ms.topic: method
-f1_keywords: 
- - "gpmgmt/IGPMStarterGPOBackupCollection.Item"
+f1_keywords:
+- gpmgmt/IGPMStarterGPOBackupCollection.Item
 dev_langs:
- - c++
+- c++
 req.header: gpmgmt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: Gpmgmt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gpmgmt.dll
+- Gpmgmt.dll
 api_name:
- - IGPMStarterGPOBackupCollection.Item
- - IGPMStarterGPOBackupCollection.get_Item
+- IGPMStarterGPOBackupCollection.Item
+- IGPMStarterGPOBackupCollection.get_Item
 targetos: Windows
 req.typenames: 
 req.redist: GPMC on Windows Server 2008 or Windows Vista

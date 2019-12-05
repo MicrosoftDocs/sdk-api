@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.ICaptureGraphBuilder2.SetOutputFileName
 title: ICaptureGraphBuilder2::SetOutputFileName (strmif.h)
-
 description: The SetOutputFileName method creates the file writing section of the filter graph.
 old-location: dshow\icapturegraphbuilder2_setoutputfilename.htm
 tech.root: DirectShow
 ms.assetid: b81a79c1-a6f2-4c80-ae86-095fb9f78673
-
 ms.date: 12/05/2018
 ms.keywords: ICaptureGraphBuilder2 interface [DirectShow],SetOutputFileName method, ICaptureGraphBuilder2.SetOutputFileName, ICaptureGraphBuilder2::SetOutputFileName, ICaptureGraphBuilder2SetOutputFileName, SetOutputFileName, SetOutputFileName method [DirectShow], SetOutputFileName method [DirectShow],ICaptureGraphBuilder2 interface, dshow.icapturegraphbuilder2_setoutputfilename, strmif/ICaptureGraphBuilder2::SetOutputFileName
 ms.topic: method
-f1_keywords: 
- - "strmif/ICaptureGraphBuilder2.SetOutputFileName"
+f1_keywords:
+- strmif/ICaptureGraphBuilder2.SetOutputFileName
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - ICaptureGraphBuilder2.SetOutputFileName
+- ICaptureGraphBuilder2.SetOutputFileName
 targetos: Windows
 req.typenames: 
 req.redist: 

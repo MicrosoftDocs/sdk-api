@@ -1,19 +1,17 @@
 ---
 UID: NF:ktmw32.CommitTransaction
 title: CommitTransaction function (ktmw32.h)
-
 description: Requests that the specified transaction be committed.
 old-location: fs\committransaction.htm
 tech.root: ktm
 ms.assetid: 17db5e1f-685b-46f0-bac6-dff4c18bb515
-
 ms.date: 12/05/2018
 ms.keywords: CommitTransaction, CommitTransaction function [Files], fs.committransaction, ktmw32/CommitTransaction
 ms.topic: function
-f1_keywords: 
- - "ktmw32/CommitTransaction"
+f1_keywords:
+- ktmw32/CommitTransaction
 dev_langs:
- - c++
+- c++
 req.header: ktmw32.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Ktmw32.lib
 req.dll: Ktmw32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ktmw32.dll
+- Ktmw32.dll
 api_name:
- - CommitTransaction
+- CommitTransaction
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NN:dwrite.IDWriteTypography
 title: IDWriteTypography (dwrite.h)
-
 description: Represents a font typography setting.
 old-location: directwrite\IDWriteTypography.htm
 tech.root: DirectWrite
 ms.assetid: 061f42db-e9df-4d8c-981f-68d440dfc4c2
-
 ms.date: 12/05/2018
 ms.keywords: IDWriteTypography, IDWriteTypography interface [Direct Write], IDWriteTypography interface [Direct Write],described, directwrite.IDWriteTypography, dwrite/IDWriteTypography
 ms.topic: interface
-f1_keywords: 
- - "dwrite/IDWriteTypography"
+f1_keywords:
+- dwrite/IDWriteTypography
 dev_langs:
- - c++
+- c++
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dwrite.lib
 req.dll: Dwrite.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dwrite.dll
+- dwrite.dll
 api_name:
- - IDWriteTypography
+- IDWriteTypography
 targetos: Windows
 req.typenames: 
 req.redist: 

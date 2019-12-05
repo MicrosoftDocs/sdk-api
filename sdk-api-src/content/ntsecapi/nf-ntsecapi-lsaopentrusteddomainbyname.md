@@ -1,19 +1,17 @@
 ---
 UID: NF:ntsecapi.LsaOpenTrustedDomainByName
 title: LsaOpenTrustedDomainByName function (ntsecapi.h)
-
 description: The LsaOpenTrustedDomainByName function opens the LSA policy handle of a remote trusted domain. You can pass this handle into LSA function calls in order to set or query the LSA policy of the remote machine.
 old-location: security\lsaopentrusteddomainbyname.htm
 tech.root: SecMgmt
 ms.assetid: 6c55f8b4-d8a2-48e3-8074-b3ca22ce487a
-
 ms.date: 12/05/2018
 ms.keywords: LsaOpenTrustedDomainByName, LsaOpenTrustedDomainByName function [Security], _lsa_lsaopentrusteddomainbyname, ntsecapi/LsaOpenTrustedDomainByName, security.lsaopentrusteddomainbyname
 ms.topic: function
-f1_keywords: 
- - "ntsecapi/LsaOpenTrustedDomainByName"
+f1_keywords:
+- ntsecapi/LsaOpenTrustedDomainByName
 dev_langs:
- - c++
+- c++
 req.header: ntsecapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Advapi32.dll
+- Advapi32.dll
 api_name:
- - LsaOpenTrustedDomainByName
+- LsaOpenTrustedDomainByName
 targetos: Windows
 req.typenames: 
 req.redist: 

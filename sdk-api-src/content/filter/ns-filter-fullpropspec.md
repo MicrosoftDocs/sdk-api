@@ -1,19 +1,17 @@
 ---
 UID: NS:filter.tagFULLPROPSPEC
 title: FULLPROPSPEC (filter.h)
-
 description: Specifies a property set and a property within the property set.
 old-location: indexsrv\fullpropspec.htm
 tech.root: IndexSrv
 ms.assetid: VS|indexsrv|~\html\ixrefint_599f.htm
-
 ms.date: 12/05/2018
 ms.keywords: FULLPROPSPEC, FULLPROPSPEC structure [Indexing Service], _idxs_FULLPROPSPEC, filter/FULLPROPSPEC, indexsrv.fullpropspec, tagFULLPROPSPEC
 ms.topic: struct
-f1_keywords: 
- - "filter/FULLPROPSPEC"
+f1_keywords:
+- filter/FULLPROPSPEC
 dev_langs:
- - c++
+- c++
 req.header: filter.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Filter.h
+- Filter.h
 api_name:
- - FULLPROPSPEC
+- FULLPROPSPEC
 targetos: Windows
 req.typenames: FULLPROPSPEC
 req.redist: 

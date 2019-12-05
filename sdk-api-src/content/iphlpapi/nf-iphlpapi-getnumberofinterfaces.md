@@ -1,19 +1,17 @@
 ---
 UID: NF:iphlpapi.GetNumberOfInterfaces
 title: GetNumberOfInterfaces function (iphlpapi.h)
-
 description: The GetNumberOfInterfaces functions retrieves the number of interfaces on the local computer.
 old-location: iphlp\getnumberofinterfaces.htm
 tech.root: IpHlp
 ms.assetid: 655d63eb-455a-4a5e-97e2-7b7588eee4d9
-
 ms.date: 12/05/2018
 ms.keywords: GetNumberOfInterfaces, GetNumberOfInterfaces function [IP Helper], _iphlp_getnumberofinterfaces, iphlp.getnumberofinterfaces, iphlpapi/GetNumberOfInterfaces
 ms.topic: function
-f1_keywords: 
- - "iphlpapi/GetNumberOfInterfaces"
+f1_keywords:
+- iphlpapi/GetNumberOfInterfaces
 dev_langs:
- - c++
+- c++
 req.header: iphlpapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Iphlpapi.lib
 req.dll: Iphlpapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Iphlpapi.dll
+- Iphlpapi.dll
 api_name:
- - GetNumberOfInterfaces
+- GetNumberOfInterfaces
 targetos: Windows
 req.typenames: 
 req.redist: 

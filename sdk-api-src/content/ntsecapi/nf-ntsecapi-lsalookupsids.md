@@ -1,19 +1,17 @@
 ---
 UID: NF:ntsecapi.LsaLookupSids
 title: LsaLookupSids function (ntsecapi.h)
-
 description: Looks up the names that correspond to an array of security identifiers (SIDs). If LsaLookupSids cannot find a name that corresponds to a SID, the function returns the SID in character form.
 old-location: security\lsalookupsids.htm
 tech.root: SecMgmt
 ms.assetid: 69051bad-91e7-469d-9010-48ac3d20f8af
-
 ms.date: 12/05/2018
 ms.keywords: LsaLookupSids, LsaLookupSids function [Security], _lsa_lsalookupsids, ntsecapi/LsaLookupSids, security.lsalookupsids
 ms.topic: function
 f1_keywords:
 - ntsecapi/LsaLookupSids
 dev_langs:
- - c++
+- c++
 req.header: ntsecapi.h
 req.include-header: 
 req.target-type: Windows

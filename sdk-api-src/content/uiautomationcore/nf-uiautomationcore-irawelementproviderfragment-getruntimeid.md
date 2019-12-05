@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationcore.IRawElementProviderFragment.GetRuntimeId
 title: IRawElementProviderFragment::GetRuntimeId (uiautomationcore.h)
-
 description: Retrieves the runtime identifier of an element.
 old-location: winauto\uiauto_IRawElementProviderFragment_GetRuntimeId.htm
 tech.root: WinAuto
 ms.assetid: e1252353-235e-489e-8eb9-be80d4850ca4
-
 ms.date: 12/05/2018
 ms.keywords: GetRuntimeId, GetRuntimeId method [Windows Accessibility], GetRuntimeId method [Windows Accessibility],IRawElementProviderFragment interface, IRawElementProviderFragment interface [Windows Accessibility],GetRuntimeId method, IRawElementProviderFragment.GetRuntimeId, IRawElementProviderFragment::GetRuntimeId, uiauto.uiauto_IRawElementProviderFragment_GetRuntimeId, uiauto_IRawElementProviderFragment_GetRuntimeId, uiautomationcore/IRawElementProviderFragment::GetRuntimeId, winauto.uiauto_IRawElementProviderFragment_GetRuntimeId
 ms.topic: method
-f1_keywords: 
- - "uiautomationcore/IRawElementProviderFragment.GetRuntimeId"
+f1_keywords:
+- uiautomationcore/IRawElementProviderFragment.GetRuntimeId
 dev_langs:
- - c++
+- c++
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationCore.h
+- UIAutomationCore.h
 api_name:
- - IRawElementProviderFragment.GetRuntimeId
+- IRawElementProviderFragment.GetRuntimeId
 targetos: Windows
 req.typenames: 
 req.redist: 

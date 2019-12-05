@@ -1,19 +1,17 @@
 ---
 UID: NF:intsafe.ByteToChar
 title: ByteToChar function (intsafe.h)
-
 description: Converts a value of type BYTE to a value of type CHAR.
 old-location: shell\ByteToChar.htm
 tech.root: shell
 ms.assetid: d10b3450-3dfc-4acf-9853-f7c191041b33
-
 ms.date: 12/05/2018
 ms.keywords: ByteToChar, ByteToChar function [Windows Shell], intsafe/ByteToChar, shell.ByteToChar
 ms.topic: function
-f1_keywords: 
- - "intsafe/ByteToChar"
+f1_keywords:
+- intsafe/ByteToChar
 dev_langs:
- - c++
+- c++
 req.header: intsafe.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - intsafe.h
+- intsafe.h
 api_name:
- - ByteToChar
+- ByteToChar
 targetos: Windows
 req.typenames: 
 req.redist: 

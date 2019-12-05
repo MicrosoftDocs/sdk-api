@@ -1,19 +1,17 @@
 ---
 UID: NF:textstor.ITextStoreAnchor.GetTextExt
 title: ITextStoreAnchor::GetTextExt (textstor.h)
-
 description: The ITextStoreAnchor::GetTextExt method returns the bounding box, in screen coordinates, of a range of text. The caller must have a read-only lock on the document before calling this method.
 old-location: tsf\itextstoreanchor_gettextext.htm
 tech.root: TSF
 ms.assetid: b8e21544-e5d2-4048-93aa-82a87562a70a
-
 ms.date: 12/05/2018
 ms.keywords: GetTextExt, GetTextExt method [Text Services Framework], GetTextExt method [Text Services Framework],ITextStoreAnchor interface, ITextStoreAnchor interface [Text Services Framework],GetTextExt method, ITextStoreAnchor.GetTextExt, ITextStoreAnchor::GetTextExt, textstor/ITextStoreAnchor::GetTextExt, tsf.itextstoreanchor_gettextext
 ms.topic: method
-f1_keywords: 
- - "textstor/ITextStoreAnchor.GetTextExt"
+f1_keywords:
+- textstor/ITextStoreAnchor.GetTextExt
 dev_langs:
- - c++
+- c++
 req.header: textstor.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msctf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msctf.dll
+- msctf.dll
 api_name:
- - ITextStoreAnchor.GetTextExt
+- ITextStoreAnchor.GetTextExt
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

@@ -1,19 +1,17 @@
 ---
 UID: NF:wingdi.GetMetaFileBitsEx
 title: GetMetaFileBitsEx function (wingdi.h)
-
 description: The GetMetaFileBitsEx function retrieves the contents of a Windows-format metafile and copies them into the specified buffer.
 old-location: gdi\getmetafilebitsex.htm
 tech.root: gdi
 ms.assetid: 6ca6de2e-79cb-4503-a0d7-f616b8e383eb
-
 ms.date: 12/05/2018
 ms.keywords: GetMetaFileBitsEx, GetMetaFileBitsEx function [Windows GDI], _win32_GetMetaFileBitsEx, gdi.getmetafilebitsex, wingdi/GetMetaFileBitsEx
 ms.topic: function
-f1_keywords: 
- - "wingdi/GetMetaFileBitsEx"
+f1_keywords:
+- wingdi/GetMetaFileBitsEx
 dev_langs:
- - c++
+- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - gdi32.dll
- - Ext-MS-Win-GDI-Metafile-l1-1-0.dll
- - Ext-MS-Win-GDI-Metafile-l1-1-1.dll
- - ext-ms-win-gdi-metafile-l1-1-2.dll
- - GDI32Full.dll
+- gdi32.dll
+- Ext-MS-Win-GDI-Metafile-l1-1-0.dll
+- Ext-MS-Win-GDI-Metafile-l1-1-1.dll
+- ext-ms-win-gdi-metafile-l1-1-2.dll
+- GDI32Full.dll
 api_name:
- - GetMetaFileBitsEx
+- GetMetaFileBitsEx
 targetos: Windows
 req.typenames: 
 req.redist: 

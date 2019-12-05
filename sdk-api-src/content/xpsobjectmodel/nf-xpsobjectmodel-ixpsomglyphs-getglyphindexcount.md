@@ -1,19 +1,17 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMGlyphs.GetGlyphIndexCount
 title: IXpsOMGlyphs::GetGlyphIndexCount (xpsobjectmodel.h)
-
 description: Gets the number of Glyph indices.
 old-location: xps\ixpsomglyphs_getglyphindexcount.htm
 tech.root: printdocs
 ms.assetid: ae37e602-4a47-4234-a8d7-c757f3498308
-
 ms.date: 12/05/2018
 ms.keywords: GetGlyphIndexCount, GetGlyphIndexCount method [XPS Documents and Packaging], GetGlyphIndexCount method [XPS Documents and Packaging],IXpsOMGlyphs interface, IXpsOMGlyphs interface [XPS Documents and Packaging],GetGlyphIndexCount method, IXpsOMGlyphs.GetGlyphIndexCount, IXpsOMGlyphs::GetGlyphIndexCount, xps.ixpsomglyphs_getglyphindexcount, xpsobjectmodel/IXpsOMGlyphs::GetGlyphIndexCount
 ms.topic: method
-f1_keywords: 
- - "xpsobjectmodel/IXpsOMGlyphs.GetGlyphIndexCount"
+f1_keywords:
+- xpsobjectmodel/IXpsOMGlyphs.GetGlyphIndexCount
 dev_langs:
- - c++
+- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsobjectmodel.h
+- xpsobjectmodel.h
 api_name:
- - IXpsOMGlyphs.GetGlyphIndexCount
+- IXpsOMGlyphs.GetGlyphIndexCount
 targetos: Windows
 req.typenames: 
 req.redist: 

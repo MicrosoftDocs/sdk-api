@@ -1,19 +1,17 @@
 ---
 UID: NF:recapis.GetLatticePtr
 title: GetLatticePtr function (recapis.h)
-
 description: Retrieves a pointer to the lattice for the current results.
 old-location: tablet\getlatticeptr.htm
 tech.root: tablet
 ms.assetid: 5c483500-c58f-4fd0-903a-a3011727bab8
-
 ms.date: 12/05/2018
 ms.keywords: 5c483500-c58f-4fd0-903a-a3011727bab8, GetLatticePtr, GetLatticePtr function [Tablet PC], recapis/GetLatticePtr, tablet.getlatticeptr
 ms.topic: function
-f1_keywords: 
- - "recapis/GetLatticePtr"
+f1_keywords:
+- recapis/GetLatticePtr
 dev_langs:
- - c++
+- c++
 req.header: recapis.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - recapis.h
+- recapis.h
 api_name:
- - GetLatticePtr
+- GetLatticePtr
 targetos: Windows
 req.typenames: 
 req.redist: 

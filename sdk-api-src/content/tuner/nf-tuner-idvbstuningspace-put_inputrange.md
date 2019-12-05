@@ -1,19 +1,17 @@
 ---
 UID: NF:tuner.IDVBSTuningSpace.put_InputRange
 title: IDVBSTuningSpace::put_InputRange (tuner.h)
-
 description: The put_InputRange method sets a value indicating which option or switch contains the requested signal source.
 old-location: mstv\idvbstuningspace_put_inputrange.htm
 tech.root: mstv
 ms.assetid: fa7c065e-91c7-4780-a33a-c5f6bf77a2c4
-
 ms.date: 12/05/2018
 ms.keywords: IDVBSTuningSpace interface [Microsoft TV Technologies],put_InputRange method, IDVBSTuningSpace.put_InputRange, IDVBSTuningSpace::put_InputRange, IDVBSTuningSpaceput_InputRange, mstv.idvbstuningspace_put_inputrange, put_InputRange, put_InputRange method [Microsoft TV Technologies], put_InputRange method [Microsoft TV Technologies],IDVBSTuningSpace interface, tuner/IDVBSTuningSpace::put_InputRange
 ms.topic: method
-f1_keywords: 
- - "tuner/IDVBSTuningSpace.put_InputRange"
+f1_keywords:
+- tuner/IDVBSTuningSpace.put_InputRange
 dev_langs:
- - c++
+- c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - tuner.h
+- tuner.h
 api_name:
- - IDVBSTuningSpace.put_InputRange
+- IDVBSTuningSpace.put_InputRange
 targetos: Windows
 req.typenames: 
 req.redist: 

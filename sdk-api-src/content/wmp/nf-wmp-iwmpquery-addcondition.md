@@ -1,19 +1,17 @@
 ---
 UID: NF:wmp.IWMPQuery.addCondition
 title: IWMPQuery::addCondition (wmp.h)
-
 description: The addCondition method adds a condition to the compound query using AND logic.
 old-location: wmp\iwmpquery_addcondition.htm
 tech.root: WMP
 ms.assetid: d60474ce-a785-40b1-a4fb-80dc22fddedb
-
 ms.date: 12/05/2018
 ms.keywords: IWMPQuery interface [Windows Media Player],addCondition method, IWMPQuery.addCondition, IWMPQuery::addCondition, IWMPQueryaddCondition, addCondition, addCondition method [Windows Media Player], addCondition method [Windows Media Player],IWMPQuery interface, wmp.iwmpquery_addcondition, wmp/IWMPQuery::addCondition
 ms.topic: method
-f1_keywords: 
- - "wmp/IWMPQuery.addCondition"
+f1_keywords:
+- wmp/IWMPQuery.addCondition
 dev_langs:
- - c++
+- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wmp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmp.dll
+- wmp.dll
 api_name:
- - IWMPQuery.addCondition
+- IWMPQuery.addCondition
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NS:ipsectypes.IPSEC_SA_TRANSFORM0_
 title: IPSEC_SA_TRANSFORM0 (ipsectypes.h)
-
 description: Is used to store an IPsec security association (SA) transform in an IPsec quick mode policy.
 old-location: fwp\ipsec_sa_transform0_struct.htm
 tech.root: fwp
 ms.assetid: 1cf64805-e79d-4599-addf-0ad24d7d900e
-
 ms.date: 12/05/2018
 ms.keywords: IPSEC_SA_TRANSFORM0, IPSEC_SA_TRANSFORM0 structure [Filtering], fwp.ipsec_sa_transform0_struct, ipsectypes/IPSEC_SA_TRANSFORM0
 ms.topic: struct
-f1_keywords: 
- - "ipsectypes/IPSEC_SA_TRANSFORM0"
+f1_keywords:
+- ipsectypes/IPSEC_SA_TRANSFORM0
 dev_langs:
- - c++
+- c++
 req.header: ipsectypes.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Ipsectypes.h
+- Ipsectypes.h
 api_name:
- - IPSEC_SA_TRANSFORM0
+- IPSEC_SA_TRANSFORM0
 targetos: Windows
 req.typenames: IPSEC_SA_TRANSFORM0
 req.redist: 

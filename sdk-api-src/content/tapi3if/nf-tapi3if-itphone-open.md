@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi3if.ITPhone.Open
 title: ITPhone::Open (tapi3if.h)
-
 description: The Open method opens this phone device. The phone device remains open until the application calls ITPhone::Close or until TAPI is shut down.
 old-location: tapi3\itphone_open.htm
 tech.root: Tapi
 ms.assetid: d9efe2f7-3628-4e1f-b554-a6889d82a973
-
 ms.date: 12/05/2018
 ms.keywords: ITPhone interface [TAPI 2.2],Open method, ITPhone.Open, ITPhone::Open, Open, Open method [TAPI 2.2], Open method [TAPI 2.2],ITPhone interface, _tapi3_itphone_open, tapi3.itphone_open, tapi3if/ITPhone::Open
 ms.topic: method
-f1_keywords: 
- - "tapi3if/ITPhone.Open"
+f1_keywords:
+- tapi3if/ITPhone.Open
 dev_langs:
- - c++
+- c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Tapi3.dll
+- Tapi3.dll
 api_name:
- - ITPhone.Open
+- ITPhone.Open
 targetos: Windows
 req.typenames: 
 req.redist: 

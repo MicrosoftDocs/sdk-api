@@ -1,19 +1,17 @@
 ---
 UID: NS:mfplay.MFP_ERROR_EVENT
 title: MFP_ERROR_EVENT (mfplay.h)
-
 description: Event structure for the MFP_EVENT_TYPE_ERROR event.
 old-location: mf\mfp_error_event.htm
 tech.root: medfound
 ms.assetid: 0ccfdefa-4913-4a02-bb91-14df1c185ddf
-
 ms.date: 12/05/2018
 ms.keywords: MFP_ERROR_EVENT, MFP_ERROR_EVENT structure [Media Foundation], mf.mfp_error_event, mfplay/MFP_ERROR_EVENT
 ms.topic: struct
-f1_keywords: 
- - "mfplay/MFP_ERROR_EVENT"
+f1_keywords:
+- mfplay/MFP_ERROR_EVENT
 dev_langs:
- - c++
+- c++
 req.header: mfplay.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - mfplay.h
+- mfplay.h
 api_name:
- - MFP_ERROR_EVENT
+- MFP_ERROR_EVENT
 targetos: Windows
 req.typenames: MFP_ERROR_EVENT
 req.redist: 

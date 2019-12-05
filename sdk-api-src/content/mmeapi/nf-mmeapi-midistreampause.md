@@ -1,19 +1,17 @@
 ---
 UID: NF:mmeapi.midiStreamPause
 title: midiStreamPause function (mmeapi.h)
-
 description: The midiStreamPause function pauses playback of a specified MIDI stream.
 old-location: multimedia\midistreampause.htm
 tech.root: Multimedia
 ms.assetid: d5e09d45-cfd2-4639-b539-0c6ff03ab3b7
-
 ms.date: 12/05/2018
-ms.keywords: "_win32_midiStreamPause, midiStreamPause, midiStreamPause function [Windows Multimedia], mmeapi/midiStreamPause, multimedia.midistreampause"
+ms.keywords: _win32_midiStreamPause, midiStreamPause, midiStreamPause function [Windows Multimedia], mmeapi/midiStreamPause, multimedia.midistreampause
 ms.topic: function
-f1_keywords: 
- - "mmeapi/midiStreamPause"
+f1_keywords:
+- mmeapi/midiStreamPause
 dev_langs:
- - c++
+- c++
 req.header: mmeapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Winmm.lib
 req.dll: Winmm.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Winmm.dll
- - API-MS-Win-mm-mme-l1-1-0.dll
- - winmmbase.dll
+- Winmm.dll
+- API-MS-Win-mm-mme-l1-1-0.dll
+- winmmbase.dll
 api_name:
- - midiStreamPause
+- midiStreamPause
 targetos: Windows
 req.typenames: 
 req.redist: 

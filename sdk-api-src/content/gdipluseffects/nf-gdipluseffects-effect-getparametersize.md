@@ -1,19 +1,17 @@
 ---
 UID: NF:gdipluseffects.Effect.GetParameterSize
 title: Effect::GetParameterSize (gdipluseffects.h)
-
 description: The Effect::GetParameterSize method gets the total size, in bytes, of the parameters currently set for this Effect. The Effect::GetParameterSize method is usually called on an object that is an instance of a descendant of the Effect class.
 old-location: gdiplus\_gdiplus_CLASS_Effect_GetParameterSize_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\effectclass\effectmethods\getparametersize.htm
-
 ms.date: 12/05/2018
 ms.keywords: Effect class [GDI+],GetParameterSize method, Effect.GetParameterSize, Effect::GetParameterSize, GetParameterSize, GetParameterSize method [GDI+], GetParameterSize method [GDI+],Effect class, _gdiplus_CLASS_Effect_GetParameterSize_, gdiplus._gdiplus_CLASS_Effect_GetParameterSize_
 ms.topic: method
-f1_keywords: 
- - "gdipluseffects/Effect.GetParameterSize"
+f1_keywords:
+- gdipluseffects/Effect.GetParameterSize
 dev_langs:
- - c++
+- c++
 req.header: gdipluseffects.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - Effect.GetParameterSize
+- Effect.GetParameterSize
 targetos: Windows
 req.typenames: 
 req.redist: 

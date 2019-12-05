@@ -1,19 +1,17 @@
 ---
 UID: NF:casetup.ICertSrvSetupKeyInformation.get_ProviderName
 title: ICertSrvSetupKeyInformation::get_ProviderName (casetup.h)
-
 description: Gets or sets the name of the cryptographic service provider (CSP) or key storage provider (KSP) that is used to generate or store the private key.
 old-location: security\icertsrvsetupkeyinformation_providername.htm
 tech.root: SecCrypto
 ms.assetid: a8f50b34-0403-40c0-9ecb-f663ccbd622a
-
 ms.date: 12/05/2018
 ms.keywords: ICertSrvSetupKeyInformation interface [Security],ProviderName property, ICertSrvSetupKeyInformation.ProviderName, ICertSrvSetupKeyInformation.get_ProviderName, ICertSrvSetupKeyInformation::ProviderName, ICertSrvSetupKeyInformation::get_ProviderName, ICertSrvSetupKeyInformation::put_ProviderName, ProviderName property [Security], ProviderName property [Security],ICertSrvSetupKeyInformation interface, casetup/ICertSrvSetupKeyInformation::ProviderName, casetup/ICertSrvSetupKeyInformation::get_ProviderName, casetup/ICertSrvSetupKeyInformation::put_ProviderName, get_ProviderName, security.icertsrvsetupkeyinformation_providername
 ms.topic: method
-f1_keywords: 
- - "casetup/ICertSrvSetupKeyInformation.ProviderName"
+f1_keywords:
+- casetup/ICertSrvSetupKeyInformation.ProviderName
 dev_langs:
- - c++
+- c++
 req.header: casetup.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: Certocm.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Certocm.dll
+- Certocm.dll
 api_name:
- - ICertSrvSetupKeyInformation.ProviderName
- - ICertSrvSetupKeyInformation.get_ProviderName
- - ICertSrvSetupKeyInformation.put_ProviderName
+- ICertSrvSetupKeyInformation.ProviderName
+- ICertSrvSetupKeyInformation.get_ProviderName
+- ICertSrvSetupKeyInformation.put_ProviderName
 targetos: Windows
 req.typenames: 
 req.redist: 

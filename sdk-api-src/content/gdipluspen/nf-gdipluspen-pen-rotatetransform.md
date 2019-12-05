@@ -1,19 +1,17 @@
 ---
 UID: NF:gdipluspen.Pen.RotateTransform
 title: Pen::RotateTransform (gdipluspen.h)
-
 description: The Pen::RotateTransform method updates the world transformation matrix of this Pen object with the product of itself and a rotation matrix.
 old-location: gdiplus\_gdiplus_CLASS_Pen_RotateTransform_angle_order_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\penclass\penmethods\rotatetransform_45angle_order.htm
-
 ms.date: 12/05/2018
 ms.keywords: Pen class [GDI+],RotateTransform method, Pen.RotateTransform, Pen::RotateTransform, RotateTransform, RotateTransform method [GDI+], RotateTransform method [GDI+],Pen class, _gdiplus_CLASS_Pen_RotateTransform_angle_order_, gdiplus._gdiplus_CLASS_Pen_RotateTransform_angle_order_
 ms.topic: method
-f1_keywords: 
- - "gdipluspen/Pen.RotateTransform"
+f1_keywords:
+- gdipluspen/Pen.RotateTransform
 dev_langs:
- - c++
+- c++
 req.header: gdipluspen.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - Pen.RotateTransform
+- Pen.RotateTransform
 targetos: Windows
 req.typenames: 
 req.redist: 

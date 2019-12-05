@@ -1,19 +1,17 @@
 ---
 UID: NF:msinkaut.IInkStrokeDisp.GetPacketValuesByProperty
 title: IInkStrokeDisp::GetPacketValuesByProperty (msinkaut.h)
-
 description: Retrieves the data for a known packet property from one or more packets in the stroke.
 old-location: tablet\iinkstrokedisp_getpacketvaluesbyproperty.htm
 tech.root: tablet
 ms.assetid: 135dcd06-f533-4470-b5b0-ea559c20e3c4
-
 ms.date: 12/05/2018
 ms.keywords: 135dcd06-f533-4470-b5b0-ea559c20e3c4, GetPacketValuesByProperty, GetPacketValuesByProperty method [Tablet PC], GetPacketValuesByProperty method [Tablet PC],IInkStrokeDisp interface, IInkStrokeDisp interface [Tablet PC],GetPacketValuesByProperty method, IInkStrokeDisp.GetPacketValuesByProperty, IInkStrokeDisp::GetPacketValuesByProperty, msinkaut/IInkStrokeDisp::GetPacketValuesByProperty, tablet.iinkstrokedisp_getpacketvaluesbyproperty
 ms.topic: method
-f1_keywords: 
- - "msinkaut/IInkStrokeDisp.GetPacketValuesByProperty"
+f1_keywords:
+- msinkaut/IInkStrokeDisp.GetPacketValuesByProperty
 dev_langs:
- - c++
+- c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: InkObj.dll
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - InkObj.dll
- - InkObj.dll.dll
+- InkObj.dll
+- InkObj.dll.dll
 api_name:
- - IInkStrokeDisp.GetPacketValuesByProperty
+- IInkStrokeDisp.GetPacketValuesByProperty
 targetos: Windows
 req.typenames: 
 req.redist: 

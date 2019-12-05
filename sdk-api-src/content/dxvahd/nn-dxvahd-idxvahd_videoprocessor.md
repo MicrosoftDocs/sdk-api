@@ -1,19 +1,17 @@
 ---
 UID: NN:dxvahd.IDXVAHD_VideoProcessor
 title: IDXVAHD_VideoProcessor (dxvahd.h)
-
 description: Represents a Microsoft DirectX Video Acceleration High Definition (DXVA-HD) video processor.
 old-location: mf\idxvahd_videoprocessor.htm
 tech.root: medfound
 ms.assetid: cbfacff5-1cbb-4296-8242-c06b43fc95af
-
 ms.date: 12/05/2018
 ms.keywords: IDXVAHD_VideoProcessor, IDXVAHD_VideoProcessor interface [Media Foundation], IDXVAHD_VideoProcessor interface [Media Foundation],described, dxvahd/IDXVAHD_VideoProcessor, mf.idxvahd_videoprocessor
 ms.topic: interface
-f1_keywords: 
- - "dxvahd/IDXVAHD_VideoProcessor"
+f1_keywords:
+- dxvahd/IDXVAHD_VideoProcessor
 dev_langs:
- - c++
+- c++
 req.header: dxvahd.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dxvahd.h
+- dxvahd.h
 api_name:
- - IDXVAHD_VideoProcessor
+- IDXVAHD_VideoProcessor
 targetos: Windows
 req.typenames: 
 req.redist: 

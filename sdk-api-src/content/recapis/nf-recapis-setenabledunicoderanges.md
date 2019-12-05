@@ -1,19 +1,17 @@
 ---
 UID: NF:recapis.SetEnabledUnicodeRanges
 title: SetEnabledUnicodeRanges function (recapis.h)
-
 description: Enables one or more Unicode point ranges on the context.
 old-location: tablet\setenabledunicoderanges.htm
 tech.root: tablet
 ms.assetid: 68c7c06b-eab1-419d-ad58-22cbd4c3065e
-
 ms.date: 12/05/2018
 ms.keywords: 68c7c06b-eab1-419d-ad58-22cbd4c3065e, SetEnabledUnicodeRanges, SetEnabledUnicodeRanges function [Tablet PC], recapis/SetEnabledUnicodeRanges, tablet.setenabledunicoderanges
 ms.topic: function
-f1_keywords: 
- - "recapis/SetEnabledUnicodeRanges"
+f1_keywords:
+- recapis/SetEnabledUnicodeRanges
 dev_langs:
- - c++
+- c++
 req.header: recapis.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - recapis.h
+- recapis.h
 api_name:
- - SetEnabledUnicodeRanges
+- SetEnabledUnicodeRanges
 targetos: Windows
 req.typenames: 
 req.redist: 

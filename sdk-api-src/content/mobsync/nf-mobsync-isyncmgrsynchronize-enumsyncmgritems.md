@@ -1,19 +1,17 @@
 ---
 UID: NF:mobsync.ISyncMgrSynchronize.EnumSyncMgrItems
 title: ISyncMgrSynchronize::EnumSyncMgrItems (mobsync.h)
-
 description: Obtains the ISyncMgrEnumItems interface for the items that are handled by a registered application.
 old-location: shell\syncmgr_isyncmgrsynchronize_enumsyncmgritems.htm
 tech.root: shell
 ms.assetid: 75f6ce68-237f-4228-adcf-f5ec929f49a7
-
 ms.date: 12/05/2018
 ms.keywords: EnumSyncMgrItems, EnumSyncMgrItems method [Windows Shell], EnumSyncMgrItems method [Windows Shell],ISyncMgrSynchronize interface, ISyncMgrSynchronize interface [Windows Shell],EnumSyncMgrItems method, ISyncMgrSynchronize.EnumSyncMgrItems, ISyncMgrSynchronize::EnumSyncMgrItems, mobsync/ISyncMgrSynchronize::EnumSyncMgrItems, shell.syncmgr_isyncmgrsynchronize_enumsyncmgritems, syncmgr.isyncmgrsynchronize_enumsyncmgritems
 ms.topic: method
-f1_keywords: 
- - "mobsync/ISyncMgrSynchronize.EnumSyncMgrItems"
+f1_keywords:
+- mobsync/ISyncMgrSynchronize.EnumSyncMgrItems
 dev_langs:
- - c++
+- c++
 req.header: mobsync.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Mobsync.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mobsync.dll
+- Mobsync.dll
 api_name:
- - ISyncMgrSynchronize.EnumSyncMgrItems
+- ISyncMgrSynchronize.EnumSyncMgrItems
 targetos: Windows
 req.typenames: 
 req.redist: 

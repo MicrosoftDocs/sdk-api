@@ -1,19 +1,17 @@
 ---
 UID: NF:directxmath.XMVectorMin
 title: XMVectorMin function (directxmath.h)
-
 description: Makes a per-component comparison between two vectors, and returns a vector containing the smallest components.
 old-location: dxmath\xmvectormin.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.arithmetic.XMVectorMin(XMVECTOR,XMVECTOR)
-
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMVectorMin, XMVectorMin, XMVectorMin method [DirectX Math Support APIs], dxmath.xmvectormin
 ms.topic: function
-f1_keywords: 
- - "directxmath/XMVectorMin"
+f1_keywords:
+- directxmath/XMVectorMin
 dev_langs:
- - c++
+- c++
 req.header: directxmath.h
 req.include-header: DirectXMath.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - directxmathvector.inl
+- directxmathvector.inl
 api_name:
- - XMVectorMin
+- XMVectorMin
 targetos: Windows
 req.typenames: 
 req.redist: 

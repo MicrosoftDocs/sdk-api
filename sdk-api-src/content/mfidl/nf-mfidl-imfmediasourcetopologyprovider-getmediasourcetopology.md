@@ -1,19 +1,17 @@
 ---
 UID: NF:mfidl.IMFMediaSourceTopologyProvider.GetMediaSourceTopology
 title: IMFMediaSourceTopologyProvider::GetMediaSourceTopology (mfidl.h)
-
 description: Returns a topology for a media source that builds an internal topology.
 old-location: mf\imfmediasourcetopologyprovider_getmediasourcetopology.htm
 tech.root: medfound
 ms.assetid: 3889768a-27bb-422e-912b-80546b6017fb
-
 ms.date: 12/05/2018
 ms.keywords: 3889768a-27bb-422e-912b-80546b6017fb, GetMediaSourceTopology, GetMediaSourceTopology method [Media Foundation], GetMediaSourceTopology method [Media Foundation],IMFMediaSourceTopologyProvider interface, IMFMediaSourceTopologyProvider interface [Media Foundation],GetMediaSourceTopology method, IMFMediaSourceTopologyProvider.GetMediaSourceTopology, IMFMediaSourceTopologyProvider::GetMediaSourceTopology, mf.imfmediasourcetopologyprovider_getmediasourcetopology, mfidl/IMFMediaSourceTopologyProvider::GetMediaSourceTopology
 ms.topic: method
-f1_keywords: 
- - "mfidl/IMFMediaSourceTopologyProvider.GetMediaSourceTopology"
+f1_keywords:
+- mfidl/IMFMediaSourceTopologyProvider.GetMediaSourceTopology
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFMediaSourceTopologyProvider.GetMediaSourceTopology
+- IMFMediaSourceTopologyProvider.GetMediaSourceTopology
 targetos: Windows
 req.typenames: 
 req.redist: 

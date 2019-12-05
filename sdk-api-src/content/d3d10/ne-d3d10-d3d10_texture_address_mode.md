@@ -1,19 +1,17 @@
 ---
 UID: NE:d3d10.D3D10_TEXTURE_ADDRESS_MODE
 title: D3D10_TEXTURE_ADDRESS_MODE (d3d10.h)
-
 description: Identify a technique for resolving texture coordinates that are outside of the boundaries of a texture.
 old-location: direct3d10\d3d10_texture_address_mode.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\d3d10_texture_address_mode.htm
-
 ms.date: 12/05/2018
 ms.keywords: D3D10_TEXTURE_ADDRESS_BORDER, D3D10_TEXTURE_ADDRESS_CLAMP, D3D10_TEXTURE_ADDRESS_MIRROR, D3D10_TEXTURE_ADDRESS_MIRROR_ONCE, D3D10_TEXTURE_ADDRESS_MODE, D3D10_TEXTURE_ADDRESS_MODE enumeration [Direct3D 10], D3D10_TEXTURE_ADDRESS_WRAP, d3d10/D3D10_TEXTURE_ADDRESS_BORDER, d3d10/D3D10_TEXTURE_ADDRESS_CLAMP, d3d10/D3D10_TEXTURE_ADDRESS_MIRROR, d3d10/D3D10_TEXTURE_ADDRESS_MIRROR_ONCE, d3d10/D3D10_TEXTURE_ADDRESS_MODE, d3d10/D3D10_TEXTURE_ADDRESS_WRAP, d54f3184-32a0-80ea-d0db-214c902889c1, direct3d10.d3d10_texture_address_mode
 ms.topic: enum
-f1_keywords: 
- - "d3d10/D3D10_TEXTURE_ADDRESS_MODE"
+f1_keywords:
+- d3d10/D3D10_TEXTURE_ADDRESS_MODE
 dev_langs:
- - c++
+- c++
 req.header: d3d10.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - D3D10.h
+- D3D10.h
 api_name:
- - D3D10_TEXTURE_ADDRESS_MODE
+- D3D10_TEXTURE_ADDRESS_MODE
 targetos: Windows
 req.typenames: D3D10_TEXTURE_ADDRESS_MODE
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:adhoc.IDot11AdHocManager.GetNetwork
 title: IDot11AdHocManager::GetNetwork (adhoc.h)
-
 description: Returns the network associated with a signature.
 old-location: nwifi\idot11adhocmanager_getnetwork.htm
 tech.root: NativeWiFi
 ms.assetid: 971703dc-1a3c-4c9a-a9e2-c547c96beacd
-
 ms.date: 12/05/2018
 ms.keywords: GetNetwork, GetNetwork method [NativeWIFI], GetNetwork method [NativeWIFI],IDot11AdHocManager interface, IDot11AdHocManager interface [NativeWIFI],GetNetwork method, IDot11AdHocManager.GetNetwork, IDot11AdHocManager::GetNetwork, adhoc/IDot11AdHocManager::GetNetwork, nwifi.idot11adhocmanager_getnetwork
 ms.topic: method
-f1_keywords: 
- - "adhoc/IDot11AdHocManager.GetNetwork"
+f1_keywords:
+- adhoc/IDot11AdHocManager.GetNetwork
 dev_langs:
- - c++
+- c++
 req.header: adhoc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - adhoc.h
+- adhoc.h
 api_name:
- - IDot11AdHocManager.GetNetwork
+- IDot11AdHocManager.GetNetwork
 targetos: Windows
 req.typenames: 
 req.redist: 

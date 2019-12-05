@@ -1,19 +1,17 @@
 ---
 UID: NF:wtsprotocol.IWRdsProtocolConnection.ConnectNotify
 title: IWRdsProtocolConnection::ConnectNotify (wtsprotocol.h)
-
 description: Signals the protocol that the session has been initialized.
 old-location: termserv\iwrdsprotocolconnection_connectnotify.htm
 tech.root: TermServ
 ms.assetid: 057a093b-9b2d-4a2e-9593-fe0251427be0
-
 ms.date: 12/05/2018
 ms.keywords: ConnectNotify, ConnectNotify method [Remote Desktop Services], ConnectNotify method [Remote Desktop Services],IWRdsProtocolConnection interface, IWRdsProtocolConnection interface [Remote Desktop Services],ConnectNotify method, IWRdsProtocolConnection.ConnectNotify, IWRdsProtocolConnection::ConnectNotify, termserv.iwrdsprotocolconnection_connectnotify, wtsprotocol/IWRdsProtocolConnection::ConnectNotify
 ms.topic: method
-f1_keywords: 
- - "wtsprotocol/IWRdsProtocolConnection.ConnectNotify"
+f1_keywords:
+- wtsprotocol/IWRdsProtocolConnection.ConnectNotify
 dev_langs:
- - c++
+- c++
 req.header: wtsprotocol.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wtsprotocol.h
+- wtsprotocol.h
 api_name:
- - IWRdsProtocolConnection.ConnectNotify
+- IWRdsProtocolConnection.ConnectNotify
 targetos: Windows
 req.typenames: 
 req.redist: 

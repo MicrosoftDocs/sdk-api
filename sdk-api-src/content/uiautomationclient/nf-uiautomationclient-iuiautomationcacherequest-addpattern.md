@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationCacheRequest.AddPattern
 title: IUIAutomationCacheRequest::AddPattern (uiautomationclient.h)
-
 description: Adds a control pattern to the cache request.
 old-location: winauto\uiauto_IUIAutomationCacheRequest_AddPattern.htm
 tech.root: WinAuto
 ms.assetid: f081d4da-2fba-4846-813c-33e11c09315b
-
 ms.date: 12/05/2018
 ms.keywords: AddPattern, AddPattern method [Windows Accessibility], AddPattern method [Windows Accessibility],IUIAutomationCacheRequest interface, IUIAutomationCacheRequest interface [Windows Accessibility],AddPattern method, IUIAutomationCacheRequest.AddPattern, IUIAutomationCacheRequest::AddPattern, uiauto.uiauto_IUIAutomationCacheRequest_AddPattern, uiauto_IUIAutomationCacheRequest_AddPattern, uiautomationclient/IUIAutomationCacheRequest::AddPattern, winauto.uiauto_IUIAutomationCacheRequest_AddPattern
 ms.topic: method
-f1_keywords: 
- - "uiautomationclient/IUIAutomationCacheRequest.AddPattern"
+f1_keywords:
+- uiautomationclient/IUIAutomationCacheRequest.AddPattern
 dev_langs:
- - c++
+- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationClient.h
+- UIAutomationClient.h
 api_name:
- - IUIAutomationCacheRequest.AddPattern
+- IUIAutomationCacheRequest.AddPattern
 targetos: Windows
 req.typenames: 
 req.redist: 

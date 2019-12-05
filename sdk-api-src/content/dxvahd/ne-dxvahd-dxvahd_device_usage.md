@@ -1,19 +1,17 @@
 ---
 UID: NE:dxvahd._DXVAHD_DEVICE_USAGE
 title: DXVAHD_DEVICE_USAGE (dxvahd.h)
-
 description: Specifies the intended use for a Microsoft DirectX Video Acceleration High Definition (DXVA-HD) device.
 old-location: mf\dxvahd_device_usage.htm
 tech.root: medfound
 ms.assetid: d071dea8-2bab-4768-bdbe-86af08a65dc5
-
 ms.date: 12/05/2018
 ms.keywords: DXVAHD_DEVICE_USAGE, DXVAHD_DEVICE_USAGE enumeration [Media Foundation], DXVAHD_DEVICE_USAGE_OPTIMAL_QUALITY, DXVAHD_DEVICE_USAGE_OPTIMAL_SPEED, DXVAHD_DEVICE_USAGE_PLAYBACK_NORMAL, dxvahd/DXVAHD_DEVICE_USAGE, dxvahd/DXVAHD_DEVICE_USAGE_OPTIMAL_QUALITY, dxvahd/DXVAHD_DEVICE_USAGE_OPTIMAL_SPEED, dxvahd/DXVAHD_DEVICE_USAGE_PLAYBACK_NORMAL, mf.dxvahd_device_usage
 ms.topic: enum
-f1_keywords: 
- - "dxvahd/DXVAHD_DEVICE_USAGE"
+f1_keywords:
+- dxvahd/DXVAHD_DEVICE_USAGE
 dev_langs:
- - c++
+- c++
 req.header: dxvahd.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - dxvahd.h
+- dxvahd.h
 api_name:
- - DXVAHD_DEVICE_USAGE
+- DXVAHD_DEVICE_USAGE
 targetos: Windows
 req.typenames: DXVAHD_DEVICE_USAGE
 req.redist: 

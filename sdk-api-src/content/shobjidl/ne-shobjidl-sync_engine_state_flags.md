@@ -1,19 +1,17 @@
 ---
 UID: NE:shobjidl.SYNC_ENGINE_STATE_FLAGS
 title: SYNC_ENGINE_STATE_FLAGS (shobjidl.h)
-
 description: Specifies values used by any sync engine to expose their internal engine states to the Property Store's PKEY_StorageProviderStatus value in the File Indexer To update the property, first call IShellItem2::GetPropertyStore with the GPS_EXTRINSICPROPERTIES flag. Next, call the IPropertyStore::SetValue method of the returned object, specifying the PKEY_StorageProviderStatus key, to set the property's bitmask value using these SYNC_ENGINE_STATE_FLAGS.
 old-location: properties\SYNC_ENGINE_STATE_FLAGS.htm
 tech.root: properties
 ms.assetid: BD81EE89-AAB3-4270-8F62-B26708740EE1
-
 ms.date: 12/05/2018
 ms.keywords: PLACEHOLDER_STATES, PLACEHOLDER_STATES enumeration [Windows Properties], SESF_ALL_FLAGS, SESF_AUTHENTICATION_ERROR, SESF_NONE, SESF_PAUSED_DUE_TO_CLIENT_POLICY, SESF_PAUSED_DUE_TO_DISK_SPACE_FULL, SESF_PAUSED_DUE_TO_METERED_NETWORK, SESF_PAUSED_DUE_TO_SERVICE_POLICY, SESF_SERVICE_QUOTA_EXCEEDED_LIMIT, SESF_SERVICE_QUOTA_NEARING_LIMIT, SESF_SERVICE_UNAVAILABLE, SYNC_ENGINE_STATE_FLAGS, properties.SYNC_ENGINE_STATE_FLAGS, shobjidl/PLACEHOLDER_STATES, shobjidl/SESF_ALL_FLAGS, shobjidl/SESF_AUTHENTICATION_ERROR, shobjidl/SESF_NONE, shobjidl/SESF_PAUSED_DUE_TO_CLIENT_POLICY, shobjidl/SESF_PAUSED_DUE_TO_DISK_SPACE_FULL, shobjidl/SESF_PAUSED_DUE_TO_METERED_NETWORK, shobjidl/SESF_PAUSED_DUE_TO_SERVICE_POLICY, shobjidl/SESF_SERVICE_QUOTA_EXCEEDED_LIMIT, shobjidl/SESF_SERVICE_QUOTA_NEARING_LIMIT, shobjidl/SESF_SERVICE_UNAVAILABLE
 ms.topic: enum
-f1_keywords: 
- - "shobjidl/SYNC_ENGINE_STATE_FLAGS"
+f1_keywords:
+- shobjidl/SYNC_ENGINE_STATE_FLAGS
 dev_langs:
- - c++
+- c++
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Shobjidl.h
+- Shobjidl.h
 api_name:
- - SYNC_ENGINE_STATE_FLAGS
+- SYNC_ENGINE_STATE_FLAGS
 targetos: Windows
 req.typenames: SYNC_ENGINE_STATE_FLAGS
 req.redist: 

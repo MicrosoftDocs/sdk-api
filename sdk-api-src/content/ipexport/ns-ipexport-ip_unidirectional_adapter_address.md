@@ -1,19 +1,17 @@
 ---
 UID: NS:ipexport._IP_UNIDIRECTIONAL_ADAPTER_ADDRESS
 title: IP_UNIDIRECTIONAL_ADAPTER_ADDRESS (ipexport.h)
-
 description: The IP_UNIDIRECTIONAL_ADAPTER_ADDRESS structure stores the IPv4 addresses associated with a unidirectional adapter.
 old-location: iphlp\ip_unidirectional_adapter_address.htm
 tech.root: IpHlp
 ms.assetid: 225b93ae-e34f-4e5b-a699-1fdd342265c6
-
 ms.date: 12/05/2018
-ms.keywords: "*PIP_UNIDIRECTIONAL_ADAPTER_ADDRESS, IP_UNIDIRECTIONAL_ADAPTER_ADDRESS, IP_UNIDIRECTIONAL_ADAPTER_ADDRESS structure [IP Helper], PIP_UNIDIRECTIONAL_ADAPTER_ADDRESS, PIP_UNIDIRECTIONAL_ADAPTER_ADDRESS structure pointer [IP Helper], _iphlp_ip_unidirectional_adapter_address, ipexport/IP_UNIDIRECTIONAL_ADAPTER_ADDRESS, ipexport/PIP_UNIDIRECTIONAL_ADAPTER_ADDRESS, iphlp.ip_unidirectional_adapter_address"
+ms.keywords: '*PIP_UNIDIRECTIONAL_ADAPTER_ADDRESS, IP_UNIDIRECTIONAL_ADAPTER_ADDRESS, IP_UNIDIRECTIONAL_ADAPTER_ADDRESS structure [IP Helper], PIP_UNIDIRECTIONAL_ADAPTER_ADDRESS, PIP_UNIDIRECTIONAL_ADAPTER_ADDRESS structure pointer [IP Helper], _iphlp_ip_unidirectional_adapter_address, ipexport/IP_UNIDIRECTIONAL_ADAPTER_ADDRESS, ipexport/PIP_UNIDIRECTIONAL_ADAPTER_ADDRESS, iphlp.ip_unidirectional_adapter_address'
 ms.topic: struct
-f1_keywords: 
- - "ipexport/IP_UNIDIRECTIONAL_ADAPTER_ADDRESS"
+f1_keywords:
+- ipexport/IP_UNIDIRECTIONAL_ADAPTER_ADDRESS
 dev_langs:
- - c++
+- c++
 req.header: ipexport.h
 req.include-header: Iphlpapi.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Ipexport.h
+- Ipexport.h
 api_name:
- - IP_UNIDIRECTIONAL_ADAPTER_ADDRESS
+- IP_UNIDIRECTIONAL_ADAPTER_ADDRESS
 targetos: Windows
 req.typenames: IP_UNIDIRECTIONAL_ADAPTER_ADDRESS, *PIP_UNIDIRECTIONAL_ADAPTER_ADDRESS
 req.redist: 

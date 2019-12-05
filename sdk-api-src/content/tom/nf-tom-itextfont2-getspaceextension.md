@@ -1,19 +1,17 @@
 ---
 UID: NF:tom.ITextFont2.GetSpaceExtension
 title: ITextFont2::GetSpaceExtension (tom.h)
-
 description: Gets the East Asian space extension value.
 old-location: controls\itextfont2_getspaceextension.htm
 tech.root: Controls
 ms.assetid: 36623ab5-3584-49c7-aeba-c34cfc8053e6
-
 ms.date: 12/05/2018
 ms.keywords: GetSpaceExtension, GetSpaceExtension method [Windows Controls], GetSpaceExtension method [Windows Controls],ITextFont2 interface, ITextFont2 interface [Windows Controls],GetSpaceExtension method, ITextFont2.GetSpaceExtension, ITextFont2::GetSpaceExtension, controls.itextfont2_getspaceextension, tom/ITextFont2::GetSpaceExtension
 ms.topic: method
-f1_keywords: 
- - "tom/ITextFont2.GetSpaceExtension"
+f1_keywords:
+- tom/ITextFont2.GetSpaceExtension
 dev_langs:
- - c++
+- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msftedit.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msftedit.dll
+- Msftedit.dll
 api_name:
- - ITextFont2.GetSpaceExtension
+- ITextFont2.GetSpaceExtension
 targetos: Windows
 req.typenames: 
 req.redist: 

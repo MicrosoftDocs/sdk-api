@@ -1,19 +1,17 @@
 ---
 UID: NF:mfidl.IMFWorkQueueServices.BeginRegisterTopologyWorkQueuesWithMMCSS
 title: IMFWorkQueueServices::BeginRegisterTopologyWorkQueuesWithMMCSS (mfidl.h)
-
 description: Registers the topology work queues with the Multimedia Class Scheduler Service (MMCSS).
 old-location: mf\imfworkqueueservices_beginregistertopologyworkqueueswithmmcss.htm
 tech.root: medfound
 ms.assetid: 62256ae8-a18a-4160-9f3f-a08ab3e93d6b
-
 ms.date: 12/05/2018
 ms.keywords: 62256ae8-a18a-4160-9f3f-a08ab3e93d6b, BeginRegisterTopologyWorkQueuesWithMMCSS, BeginRegisterTopologyWorkQueuesWithMMCSS method [Media Foundation], BeginRegisterTopologyWorkQueuesWithMMCSS method [Media Foundation],IMFWorkQueueServices interface, IMFWorkQueueServices interface [Media Foundation],BeginRegisterTopologyWorkQueuesWithMMCSS method, IMFWorkQueueServices.BeginRegisterTopologyWorkQueuesWithMMCSS, IMFWorkQueueServices::BeginRegisterTopologyWorkQueuesWithMMCSS, mf.imfworkqueueservices_beginregistertopologyworkqueueswithmmcss, mfidl/IMFWorkQueueServices::BeginRegisterTopologyWorkQueuesWithMMCSS
 ms.topic: method
-f1_keywords: 
- - "mfidl/IMFWorkQueueServices.BeginRegisterTopologyWorkQueuesWithMMCSS"
+f1_keywords:
+- mfidl/IMFWorkQueueServices.BeginRegisterTopologyWorkQueuesWithMMCSS
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFWorkQueueServices.BeginRegisterTopologyWorkQueuesWithMMCSS
+- IMFWorkQueueServices.BeginRegisterTopologyWorkQueuesWithMMCSS
 targetos: Windows
 req.typenames: 
 req.redist: 

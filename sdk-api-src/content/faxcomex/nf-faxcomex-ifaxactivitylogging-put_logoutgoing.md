@@ -1,19 +1,17 @@
 ---
 UID: NF:faxcomex.IFaxActivityLogging.put_LogOutgoing
 title: IFaxActivityLogging::put_LogOutgoing (faxcomex.h)
-
 description: The IFaxActivityLogging::get_LogOutgoing property is a Boolean value that indicates whether the fax service logs entries for outgoing faxes in the activity log database.
 old-location: fax\_mfax_faxactivitylogging_cpp_mfax_faxactivitylogging_logoutgoing_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_5xt3.htm
-
 ms.date: 12/05/2018
 ms.keywords: IFaxActivityLogging interface [Fax Service],LogOutgoing property, IFaxActivityLogging.LogOutgoing, IFaxActivityLogging.get_LogOutgoing, IFaxActivityLogging.put_LogOutgoing, IFaxActivityLogging::LogOutgoing, IFaxActivityLogging::get_LogOutgoing, IFaxActivityLogging::put_LogOutgoing, LogOutgoing property [Fax Service], LogOutgoing property [Fax Service],IFaxActivityLogging interface, _mfax_faxactivitylogging.logoutgoing, fax._mfax_faxactivitylogging_cpp_mfax_faxactivitylogging_logoutgoing_cpp, fax._mfax_faxactivitylogging_logoutgoing, faxcomex/IFaxActivityLogging::LogOutgoing, faxcomex/IFaxActivityLogging::get_LogOutgoing, faxcomex/IFaxActivityLogging::put_LogOutgoing, put_LogOutgoing
 ms.topic: method
-f1_keywords: 
- - "faxcomex/IFaxActivityLogging.LogOutgoing"
+f1_keywords:
+- faxcomex/IFaxActivityLogging.LogOutgoing
 dev_langs:
- - c++
+- c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib:
 req.dll: Fxscomex.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Fxscomex.dll
+- Fxscomex.dll
 api_name:
- - IFaxActivityLogging.LogOutgoing
- - IFaxActivityLogging.get_LogOutgoing
- - IFaxActivityLogging.put_LogOutgoing
- - IFaxActivityLogging.get_LogOutgoing
- - IFaxActivityLogging.put_LogOutgoing
+- IFaxActivityLogging.LogOutgoing
+- IFaxActivityLogging.get_LogOutgoing
+- IFaxActivityLogging.put_LogOutgoing
+- IFaxActivityLogging.get_LogOutgoing
+- IFaxActivityLogging.put_LogOutgoing
 targetos: Windows
 req.typenames: 
 req.redist: 

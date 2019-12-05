@@ -1,19 +1,17 @@
 ---
 UID: NF:mfidl.IMFSSLCertificateManager.GetClientCertificate
 title: IMFSSLCertificateManager::GetClientCertificate (mfidl.h)
-
 description: Gets the client SSL certificate synchronously.
 old-location: mf\imfsslcertificatemanager_getclientcertificate.htm
 tech.root: medfound
 ms.assetid: 11a575e8-5eb2-4cbb-a460-f1ea5d54d324
-
 ms.date: 12/05/2018
 ms.keywords: GetClientCertificate, GetClientCertificate method [Media Foundation], GetClientCertificate method [Media Foundation],IMFSSLCertificateManager interface, IMFSSLCertificateManager interface [Media Foundation],GetClientCertificate method, IMFSSLCertificateManager.GetClientCertificate, IMFSSLCertificateManager::GetClientCertificate, mf.imfsslcertificatemanager_getclientcertificate, mfidl/IMFSSLCertificateManager::GetClientCertificate
 ms.topic: method
-f1_keywords: 
- - "mfidl/IMFSSLCertificateManager.GetClientCertificate"
+f1_keywords:
+- mfidl/IMFSSLCertificateManager.GetClientCertificate
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfidl.h
+- mfidl.h
 api_name:
- - IMFSSLCertificateManager.GetClientCertificate
+- IMFSSLCertificateManager.GetClientCertificate
 targetos: Windows
 req.typenames: 
 req.redist: 

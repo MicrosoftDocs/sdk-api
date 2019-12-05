@@ -1,19 +1,17 @@
 ---
 UID: NF:objidl.IMallocSpy.PreHeapMinimize
 title: IMallocSpy::PreHeapMinimize (objidl.h)
-
 description: Performs operations required before calling IMalloc::HeapMinimize.
 old-location: com\imallocspy_preheapminimize.htm
 tech.root: com
 ms.assetid: 9e80f555-5382-4bd9-ab56-a67f42b13cae
-
 ms.date: 12/05/2018
 ms.keywords: IMallocSpy interface [COM],PreHeapMinimize method, IMallocSpy.PreHeapMinimize, IMallocSpy::PreHeapMinimize, PreHeapMinimize, PreHeapMinimize method [COM], PreHeapMinimize method [COM],IMallocSpy interface, _com_imallocspy_preheapminimize, com.imallocspy_preheapminimize, objidl/IMallocSpy::PreHeapMinimize
 ms.topic: method
-f1_keywords: 
- - "objidl/IMallocSpy.PreHeapMinimize"
+f1_keywords:
+- objidl/IMallocSpy.PreHeapMinimize
 dev_langs:
- - c++
+- c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ObjIdl.h
+- ObjIdl.h
 api_name:
- - IMallocSpy.PreHeapMinimize
+- IMallocSpy.PreHeapMinimize
 targetos: Windows
 req.typenames: 
 req.redist: 

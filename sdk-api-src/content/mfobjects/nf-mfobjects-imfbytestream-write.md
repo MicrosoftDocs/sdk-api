@@ -1,19 +1,17 @@
 ---
 UID: NF:mfobjects.IMFByteStream.Write
 title: IMFByteStream::Write (mfobjects.h)
-
 description: Writes data to the stream.
 old-location: mf\imfbytestream_write.htm
 tech.root: medfound
 ms.assetid: d1f1195a-b6ee-441c-af8b-fce3dc163e95
-
 ms.date: 12/05/2018
 ms.keywords: IMFByteStream interface [Media Foundation],Write method, IMFByteStream.Write, IMFByteStream::Write, Write, Write method [Media Foundation], Write method [Media Foundation],IMFByteStream interface, d1f1195a-b6ee-441c-af8b-fce3dc163e95, mf.imfbytestream_write, mfobjects/IMFByteStream::Write
 ms.topic: method
-f1_keywords: 
- - "mfobjects/IMFByteStream.Write"
+f1_keywords:
+- mfobjects/IMFByteStream.Write
 dev_langs:
- - c++
+- c++
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFByteStream.Write
+- IMFByteStream.Write
 targetos: Windows
 req.typenames: 
 req.redist: 

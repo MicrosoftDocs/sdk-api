@@ -1,19 +1,17 @@
 ---
 UID: NN:d3d10effect.ID3D10EffectBlendVariable
 title: ID3D10EffectBlendVariable (d3d10effect.h)
-
 description: The blend-variable interface accesses blend state.
 old-location: direct3d10\id3d10effectblendvariable.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10effectblendvariable.htm
-
 ms.date: 12/05/2018
 ms.keywords: 5dc3aa3a-6996-e7d4-76dc-917fe69d9260, ID3D10EffectBlendVariable, ID3D10EffectBlendVariable interface [Direct3D 10], ID3D10EffectBlendVariable interface [Direct3D 10],described, d3d10effect/ID3D10EffectBlendVariable, direct3d10.id3d10effectblendvariable
 ms.topic: interface
-f1_keywords: 
- - "d3d10effect/ID3D10EffectBlendVariable"
+f1_keywords:
+- d3d10effect/ID3D10EffectBlendVariable
 dev_langs:
- - c++
+- c++
 req.header: d3d10effect.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: D3D10.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D10.lib
- - D3D10.dll
+- D3D10.lib
+- D3D10.dll
 api_name:
- - ID3D10EffectBlendVariable
+- ID3D10EffectBlendVariable
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:vds.IVdsService.CleanupObsoleteMountPoints
 title: IVdsService::CleanupObsoleteMountPoints (vds.h)
-
 description: Removes user-mode paths and mounted folders for volumes that no longer exist.
 old-location: base\ivdsservice_cleanupobsoletemountpoints.htm
 tech.root: VDS
 ms.assetid: 93ed7789-be60-422c-be4f-e70e16d26fce
-
 ms.date: 12/05/2018
 ms.keywords: CleanupObsoleteMountPoints, CleanupObsoleteMountPoints method [VDS], CleanupObsoleteMountPoints method [VDS],IVdsService interface, IVdsService interface [VDS],CleanupObsoleteMountPoints method, IVdsService.CleanupObsoleteMountPoints, IVdsService::CleanupObsoleteMountPoints, base.ivdsservice_cleanupobsoletemountpoints, vds/IVdsService::CleanupObsoleteMountPoints
 ms.topic: method
-f1_keywords: 
- - "vds/IVdsService.CleanupObsoleteMountPoints"
+f1_keywords:
+- vds/IVdsService.CleanupObsoleteMountPoints
 dev_langs:
- - c++
+- c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Uuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Uuid.lib
- - Uuid.dll
+- Uuid.lib
+- Uuid.dll
 api_name:
- - IVdsService.CleanupObsoleteMountPoints
+- IVdsService.CleanupObsoleteMountPoints
 targetos: Windows
 req.typenames: 
 req.redist: 

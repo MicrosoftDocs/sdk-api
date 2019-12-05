@@ -1,19 +1,17 @@
 ---
 UID: NN:certenroll.ICertPropertyAutoEnroll
 title: ICertPropertyAutoEnroll (certenroll.h)
-
 description: Represents a certificate property that identifies a template that has been configured to enable autoenrollment of the certificate.
 old-location: security\icertpropertyautoenroll.htm
 tech.root: seccertenroll
 ms.assetid: 25eab0e9-4980-49ad-9d3b-35ad47c20bcb
-
 ms.date: 12/05/2018
 ms.keywords: ICertPropertyAutoEnroll, ICertPropertyAutoEnroll interface [Security], ICertPropertyAutoEnroll interface [Security],described, certenroll/ICertPropertyAutoEnroll, security.icertpropertyautoenroll
 ms.topic: interface
-f1_keywords: 
- - "certenroll/ICertPropertyAutoEnroll"
+f1_keywords:
+- certenroll/ICertPropertyAutoEnroll
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: CertEnroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CertEnroll.dll
+- CertEnroll.dll
 api_name:
- - ICertPropertyAutoEnroll
+- ICertPropertyAutoEnroll
 targetos: Windows
 req.typenames: 
 req.redist: 

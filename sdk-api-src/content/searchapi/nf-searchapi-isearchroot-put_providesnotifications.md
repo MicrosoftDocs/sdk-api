@@ -1,19 +1,17 @@
 ---
 UID: NF:searchapi.ISearchRoot.put_ProvidesNotifications
 title: ISearchRoot::put_ProvidesNotifications (searchapi.h)
-
 description: Sets a value that indicates whether the search engine is notified (by protocol handlers or other applications) about changes to the URLs under the search root.
 old-location: search\_search_ISearchRoot_put_ProvidesNotifications.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\crawlscope\isearchroot\put_providesnotifications.htm
-
 ms.date: 12/05/2018
 ms.keywords: ISearchRoot interface [search],put_ProvidesNotifications method, ISearchRoot.put_ProvidesNotifications, ISearchRoot::put_ProvidesNotifications, _search_ISearchRoot_put_ProvidesNotifications, put_ProvidesNotifications, put_ProvidesNotifications method [search], put_ProvidesNotifications method [search],ISearchRoot interface, search._search_ISearchRoot_put_ProvidesNotifications, searchapi/ISearchRoot::put_ProvidesNotifications
 ms.topic: method
-f1_keywords: 
- - "searchapi/ISearchRoot.put_ProvidesNotifications"
+f1_keywords:
+- searchapi/ISearchRoot.put_ProvidesNotifications
 dev_langs:
- - c++
+- c++
 req.header: searchapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Searchapi.h
+- Searchapi.h
 api_name:
- - ISearchRoot.put_ProvidesNotifications
+- ISearchRoot.put_ProvidesNotifications
 targetos: Windows
 req.typenames: 
 req.redist: 

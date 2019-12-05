@@ -1,19 +1,17 @@
 ---
 UID: NF:atscpsipparser.ISCTE_EAS.GetExceptionCount
 title: ISCTE_EAS::GetExceptionCount (atscpsipparser.h)
-
 description: The GetExceptionCount method returns the number of exception services.
 old-location: mstv\iscte_eas_getexceptioncount.htm
 tech.root: mstv
 ms.assetid: da98cf2f-a302-41d0-8226-18d6bb89be82
-
 ms.date: 12/05/2018
 ms.keywords: GetExceptionCount, GetExceptionCount method [Microsoft TV Technologies], GetExceptionCount method [Microsoft TV Technologies],ISCTE_EAS interface, ISCTE_EAS interface [Microsoft TV Technologies],GetExceptionCount method, ISCTE_EAS.GetExceptionCount, ISCTE_EAS::GetExceptionCount, ISCTE_EASGetExceptionCount, atscpsipparser/ISCTE_EAS::GetExceptionCount, mstv.iscte_eas_getexceptioncount
 ms.topic: method
-f1_keywords: 
- - "atscpsipparser/ISCTE_EAS.GetExceptionCount"
+f1_keywords:
+- atscpsipparser/ISCTE_EAS.GetExceptionCount
 dev_langs:
- - c++
+- c++
 req.header: atscpsipparser.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - atscpsipparser.h
+- atscpsipparser.h
 api_name:
- - ISCTE_EAS.GetExceptionCount
+- ISCTE_EAS.GetExceptionCount
 targetos: Windows
 req.typenames: 
 req.redist: 

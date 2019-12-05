@@ -1,19 +1,17 @@
 ---
 UID: NF:d2d1_1.ID2D1Effect.GetInputCount
 title: ID2D1Effect::GetInputCount (d2d1_1.h)
-
 description: Gets the number of inputs to the effect.
 old-location: direct2d\id2d1effect_getinputcount.htm
 tech.root: Direct2D
 ms.assetid: 44c719d4-29dd-4389-bdc9-63f6d533f162
-
 ms.date: 12/05/2018
 ms.keywords: GetInputCount, GetInputCount method [Direct2D], GetInputCount method [Direct2D],ID2D1Effect interface, ID2D1Effect interface [Direct2D],GetInputCount method, ID2D1Effect.GetInputCount, ID2D1Effect::GetInputCount, d2d1_1/ID2D1Effect::GetInputCount, direct2d.id2d1effect_getinputcount
 ms.topic: method
-f1_keywords: 
- - "d2d1_1/ID2D1Effect.GetInputCount"
+f1_keywords:
+- d2d1_1/ID2D1Effect.GetInputCount
 dev_langs:
- - c++
+- c++
 req.header: d2d1_1.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: D2d1.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D2d1.dll
+- D2d1.dll
 api_name:
- - ID2D1Effect.GetInputCount
+- ID2D1Effect.GetInputCount
 targetos: Windows
 req.typenames: 
 req.redist: 

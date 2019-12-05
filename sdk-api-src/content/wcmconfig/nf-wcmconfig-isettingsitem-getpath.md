@@ -1,19 +1,17 @@
 ---
 UID: NF:wcmconfig.ISettingsItem.GetPath
 title: ISettingsItem::GetPath (wcmconfig.h)
-
 description: Gets the path for the item.
 old-location: smi\isettingsitem_getpath.htm
 tech.root: SMI
 ms.assetid: 221b5929-7300-4d01-b93e-7c82c446f52b
-
 ms.date: 12/05/2018
 ms.keywords: GetPath, GetPath method [SMI], GetPath method [SMI],ISettingsItem interface, ISettingsItem interface [SMI],GetPath method, ISettingsItem.GetPath, ISettingsItem::GetPath, smi.isettingsitem_getpath, wcmconfig/ISettingsItem::GetPath
 ms.topic: method
-f1_keywords: 
- - "wcmconfig/ISettingsItem.GetPath"
+f1_keywords:
+- wcmconfig/ISettingsItem.GetPath
 dev_langs:
- - c++
+- c++
 req.header: wcmconfig.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: SMIEngine.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - SMIEngine.dll
+- SMIEngine.dll
 api_name:
- - ISettingsItem.GetPath
+- ISettingsItem.GetPath
 targetos: Windows
 req.typenames: 
 req.redist: 

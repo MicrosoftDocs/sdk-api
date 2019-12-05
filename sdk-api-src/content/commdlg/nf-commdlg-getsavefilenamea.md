@@ -1,19 +1,17 @@
 ---
 UID: NF:commdlg.GetSaveFileNameA
 title: GetSaveFileNameA function (commdlg.h)
-
 description: Creates a Save dialog box that lets the user specify the drive, directory, and name of a file to save.
 old-location: dlgbox\getsavefilename.htm
 tech.root: dlgbox
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\commondialogboxlibrary\commondialogboxreference\commondialogboxfunctions\getsavefilename.htm
-
 ms.date: 12/05/2018
 ms.keywords: GetSaveFileName, GetSaveFileName function [Dialog Boxes], GetSaveFileNameA, GetSaveFileNameW, _win32_GetSaveFileName, _win32_getsavefilename_cpp, commdlg/GetSaveFileName, commdlg/GetSaveFileNameA, commdlg/GetSaveFileNameW, dlgbox.getsavefilename, winui._win32_getsavefilename
 ms.topic: function
-f1_keywords: 
- - "commdlg/GetSaveFileName"
+f1_keywords:
+- commdlg/GetSaveFileName
 dev_langs:
- - c++
+- c++
 req.header: commdlg.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib: Comdlg32.lib
 req.dll: Comdlg32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Comdlg32.dll
- - ext-ms-win-shell-comdlg32-l1-1-0.dll
- - ext-ms-win-shell-comdlg32-l1-1-1.dll
+- Comdlg32.dll
+- ext-ms-win-shell-comdlg32-l1-1-0.dll
+- ext-ms-win-shell-comdlg32-l1-1-1.dll
 api_name:
- - GetSaveFileName
- - GetSaveFileNameA
- - GetSaveFileNameW
+- GetSaveFileName
+- GetSaveFileNameA
+- GetSaveFileNameW
 targetos: Windows
 req.typenames: 
 req.redist: 

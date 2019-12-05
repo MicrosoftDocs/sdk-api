@@ -1,19 +1,17 @@
 ---
 UID: NF:cscobj.IOfflineFilesEvents3.PrefetchFileBegin
 title: IOfflineFilesEvents3::PrefetchFileBegin (cscobj.h)
-
 description: Reports that a file prefetch operation has begun.
 old-location: of\iofflinefilesevents3_prefetchfilebegin.htm
 tech.root: offlinefiles
 ms.assetid: b65354ed-dc4b-491c-9672-2f5fa91093bd
-
 ms.date: 12/05/2018
 ms.keywords: IOfflineFilesEvents3 interface [Offline Files],PrefetchFileBegin method, IOfflineFilesEvents3.PrefetchFileBegin, IOfflineFilesEvents3::PrefetchFileBegin, PrefetchFileBegin, PrefetchFileBegin method [Offline Files], PrefetchFileBegin method [Offline Files],IOfflineFilesEvents3 interface, cscobj/IOfflineFilesEvents3::PrefetchFileBegin, of.iofflinefilesevents3_prefetchfilebegin
 ms.topic: method
-f1_keywords: 
- - "cscobj/IOfflineFilesEvents3.PrefetchFileBegin"
+f1_keywords:
+- cscobj/IOfflineFilesEvents3.PrefetchFileBegin
 dev_langs:
- - c++
+- c++
 req.header: cscobj.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: CscSvc.dll; CscObj.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CscSvc.dll
- - CscObj.dll
+- CscSvc.dll
+- CscObj.dll
 api_name:
- - IOfflineFilesEvents3.PrefetchFileBegin
+- IOfflineFilesEvents3.PrefetchFileBegin
 targetos: Windows
 req.typenames: 
 req.redist: 

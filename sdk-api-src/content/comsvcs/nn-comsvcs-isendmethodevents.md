@@ -1,19 +1,17 @@
 ---
 UID: NN:comsvcs.ISendMethodEvents
 title: ISendMethodEvents (comsvcs.h)
-
 description: Describes an event class that notifies subscribers whenever a method on the object that implements it either is called or returns from a call.
 old-location: cos\isendmethodevents.htm
 tech.root: cossdk
 ms.assetid: d1437581-8a2b-4e88-aa12-a16eb9f40125
-
 ms.date: 12/05/2018
 ms.keywords: ISendMethodEvents, ISendMethodEvents interface [COM+], ISendMethodEvents interface [COM+],described, _cos_ISendMethodEvents, comsvcs/ISendMethodEvents, cos.isendmethodevents
 ms.topic: interface
-f1_keywords: 
- - "comsvcs/ISendMethodEvents"
+f1_keywords:
+- comsvcs/ISendMethodEvents
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - ISendMethodEvents
+- ISendMethodEvents
 targetos: Windows
 req.typenames: 
 req.redist: 

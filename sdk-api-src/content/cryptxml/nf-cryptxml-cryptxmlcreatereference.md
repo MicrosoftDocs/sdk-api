@@ -1,19 +1,17 @@
 ---
 UID: NF:cryptxml.CryptXmlCreateReference
 title: CryptXmlCreateReference function (cryptxml.h)
-
 description: Creates a reference to an XML signature.
 old-location: security\cryptxmlcreatereference.htm
 tech.root: SecCrypto
 ms.assetid: 1078d483-a017-486b-8967-a3efe9d3a29a
-
 ms.date: 12/05/2018
 ms.keywords: CRYPT_XML_FLAG_CREATE_REFERENCE_AS_OBJECT, CryptXmlCreateReference, CryptXmlCreateReference function [Security], cryptxml/CryptXmlCreateReference, security.cryptxmlcreatereference
 ms.topic: function
 f1_keywords:
 - cryptxml/CryptXmlCreateReference
 dev_langs:
- - c++
+- c++
 req.header: cryptxml.h
 req.include-header: 
 req.target-type: Windows

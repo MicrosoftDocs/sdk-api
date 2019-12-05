@@ -1,19 +1,17 @@
 ---
 UID: NN:ocidl.IOleInPlaceSiteEx
 title: IOleInPlaceSiteEx (ocidl.h)
-
 description: Provides an additional set of activation and deactivation notification methods that enable an object to avoid unnecessary flashing on the screen when the object is activated and deactivated.
 old-location: com\ioleinplacesiteex.htm
 tech.root: com
 ms.assetid: d93e6d23-7867-43e4-8ab9-efe609362c18
-
 ms.date: 12/05/2018
 ms.keywords: IOleInPlaceSiteEx, IOleInPlaceSiteEx interface [COM], IOleInPlaceSiteEx interface [COM],described, _ole_ioleinplacesiteex, com.ioleinplacesiteex, ocidl/IOleInPlaceSiteEx
 ms.topic: interface
-f1_keywords: 
- - "ocidl/IOleInPlaceSiteEx"
+f1_keywords:
+- ocidl/IOleInPlaceSiteEx
 dev_langs:
- - c++
+- c++
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - OCIdl.h
+- OCIdl.h
 api_name:
- - IOleInPlaceSiteEx
+- IOleInPlaceSiteEx
 targetos: Windows
 req.typenames: 
 req.redist: 

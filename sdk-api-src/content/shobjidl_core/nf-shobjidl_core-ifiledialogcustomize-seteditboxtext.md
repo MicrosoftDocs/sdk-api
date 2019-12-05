@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IFileDialogCustomize.SetEditBoxText
 title: IFileDialogCustomize::SetEditBoxText (shobjidl_core.h)
-
 description: Sets the text in an edit box control found in the dialog.
 old-location: shell\IFileDialogCustomize_SetEditBoxText.htm
 tech.root: shell
 ms.assetid: e235e82e-65db-4919-bf71-c454673d07fb
-
 ms.date: 12/05/2018
 ms.keywords: IFileDialogCustomize interface [Windows Shell],SetEditBoxText method, IFileDialogCustomize.SetEditBoxText, IFileDialogCustomize::SetEditBoxText, SetEditBoxText, SetEditBoxText method [Windows Shell], SetEditBoxText method [Windows Shell],IFileDialogCustomize interface, shell.IFileDialogCustomize_SetEditBoxText, shell_IFileDialogCustomize_SetEditBoxText, shobjidl_core/IFileDialogCustomize::SetEditBoxText
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IFileDialogCustomize.SetEditBoxText"
+f1_keywords:
+- shobjidl_core/IFileDialogCustomize.SetEditBoxText
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - IFileDialogCustomize.SetEditBoxText
+- IFileDialogCustomize.SetEditBoxText
 targetos: Windows
 req.typenames: 
 req.redist: 

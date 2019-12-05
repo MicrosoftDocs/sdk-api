@@ -1,19 +1,17 @@
 ---
 UID: NF:certenroll.IX509AttributeCspProvider.InitializeEncode
 title: IX509AttributeCspProvider::InitializeEncode (certenroll.h)
-
 description: Initializes the attribute from information about the provider.
 old-location: security\ix509attributecspprovider_initializeencode_method.htm
 tech.root: seccertenroll
 ms.assetid: b0b45ea2-b682-4065-8624-08c34581b5ea
-
 ms.date: 12/05/2018
 ms.keywords: IX509AttributeCspProvider interface [Security],InitializeEncode method, IX509AttributeCspProvider.InitializeEncode, IX509AttributeCspProvider::InitializeEncode, InitializeEncode, InitializeEncode method [Security], InitializeEncode method [Security],IX509AttributeCspProvider interface, certenroll/IX509AttributeCspProvider::InitializeEncode, security.ix509attributecspprovider_initializeencode_method
 ms.topic: method
-f1_keywords: 
- - "certenroll/IX509AttributeCspProvider.InitializeEncode"
+f1_keywords:
+- certenroll/IX509AttributeCspProvider.InitializeEncode
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: CertEnroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CertEnroll.dll
+- CertEnroll.dll
 api_name:
- - IX509AttributeCspProvider.InitializeEncode
+- IX509AttributeCspProvider.InitializeEncode
 targetos: Windows
 req.typenames: 
 req.redist: 

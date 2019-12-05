@@ -1,19 +1,17 @@
 ---
 UID: NF:p2p.PeerGroupSetProperties
 title: PeerGroupSetProperties function (p2p.h)
-
 description: The PeerGroupSetProperties function sets the current peer group properties. In version 1.0 of this API, only the creator of the peer group can perform this operation.
 old-location: p2p\peergroupsetproperties.htm
 tech.root: P2PSdk
 ms.assetid: 20acf963-de8f-4bcd-a9d6-a513d516b108
-
 ms.date: 12/05/2018
 ms.keywords: PeerGroupSetProperties, PeerGroupSetProperties function [Peer Networking], p2p.peergroupsetproperties, p2p/PeerGroupSetProperties
 ms.topic: function
-f1_keywords: 
- - "p2p/PeerGroupSetProperties"
+f1_keywords:
+- p2p/PeerGroupSetProperties
 dev_langs:
- - c++
+- c++
 req.header: p2p.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: P2P.lib
 req.dll: P2P.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - P2P.dll
+- P2P.dll
 api_name:
- - PeerGroupSetProperties
+- PeerGroupSetProperties
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:propvarutil.PropVariantToFileTimeVectorAlloc
 title: PropVariantToFileTimeVectorAlloc function (propvarutil.h)
-
 description: Extracts data from a PROPVARIANT structure into a newly-allocated FILETIME vector.
 old-location: properties\PropVariantToFileTimeVectorAlloc.htm
 tech.root: properties
 ms.assetid: 2d0125fe-f4af-451b-8dc7-d29a35cc927e
-
 ms.date: 12/05/2018
 ms.keywords: PropVariantToFileTimeVectorAlloc, PropVariantToFileTimeVectorAlloc function [Windows Properties], _shell_PropVariantToFileTimeVectorAlloc, properties.PropVariantToFileTimeVectorAlloc, propvarutil/PropVariantToFileTimeVectorAlloc, shell.PropVariantToFileTimeVectorAlloc
 ms.topic: function
-f1_keywords: 
- - "propvarutil/PropVariantToFileTimeVectorAlloc"
+f1_keywords:
+- propvarutil/PropVariantToFileTimeVectorAlloc
 dev_langs:
- - c++
+- c++
 req.header: propvarutil.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Propsys.lib
 req.dll: Propsys.dll (version 6.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Propsys.dll
+- Propsys.dll
 api_name:
- - PropVariantToFileTimeVectorAlloc
+- PropVariantToFileTimeVectorAlloc
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0

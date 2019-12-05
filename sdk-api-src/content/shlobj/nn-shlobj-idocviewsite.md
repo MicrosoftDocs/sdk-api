@@ -1,19 +1,17 @@
 ---
 UID: NN:shlobj.IDocViewSite
 title: IDocViewSite (shlobj.h)
-
 description: Used as a site object by the IShellView interface.
 old-location: shell\IDocViewSite.htm
 tech.root: shell
 ms.assetid: 031e0079-842e-4357-acb2-5d1160094e18
-
 ms.date: 12/05/2018
 ms.keywords: IDocViewSite, IDocViewSite interface [Windows Shell], IDocViewSite interface [Windows Shell],described, _win32_IDocViewSite, shell.IDocViewSite, shlobj/IDocViewSite
 ms.topic: interface
-f1_keywords: 
- - "shlobj/IDocViewSite"
+f1_keywords:
+- shlobj/IDocViewSite
 dev_langs:
- - c++
+- c++
 req.header: shlobj.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Shell32.dll (version 5.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - IDocViewSite
+- IDocViewSite
 targetos: Windows
 req.typenames: 
 req.redist: 

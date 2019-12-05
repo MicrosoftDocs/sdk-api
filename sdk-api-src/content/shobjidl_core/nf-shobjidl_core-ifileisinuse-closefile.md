@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IFileIsInUse.CloseFile
 title: IFileIsInUse::CloseFile (shobjidl_core.h)
-
 description: Closes the file currently in use.
 old-location: shell\IFileIsInUse_CloseFile.htm
 tech.root: shell
 ms.assetid: 27338e5a-b303-4b72-b316-3059ec6f1698
-
 ms.date: 12/05/2018
 ms.keywords: CloseFile, CloseFile method [Windows Shell], CloseFile method [Windows Shell],IFileIsInUse interface, IFileIsInUse interface [Windows Shell],CloseFile method, IFileIsInUse.CloseFile, IFileIsInUse::CloseFile, _shell_IFileIsInUse_CloseFile, shell.IFileIsInUse_CloseFile, shobjidl_core/IFileIsInUse::CloseFile
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IFileIsInUse.CloseFile"
+f1_keywords:
+- shobjidl_core/IFileIsInUse.CloseFile
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - IFileIsInUse.CloseFile
+- IFileIsInUse.CloseFile
 targetos: Windows
 req.typenames: 
 req.redist: 

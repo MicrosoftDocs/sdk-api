@@ -1,19 +1,17 @@
 ---
 UID: NE:d2d1effects_2.D2D1_VIGNETTE_PROP
 title: D2D1_VIGNETTE_PROP (d2d1effects_2.h)
-
 description: Identifiers for properties of the Vignette effect.
 old-location: direct2d\d2d1_vignette_prop.htm
 tech.root: Direct2D
 ms.assetid: B45EFED7-97CA-41AF-9C36-4ECDCC153183
-
 ms.date: 12/05/2018
 ms.keywords: D2D1_VIGNETTE_PROP, D2D1_VIGNETTE_PROP enumeration [Direct2D], D2D1_VIGNETTE_PROP_COLOR, D2D1_VIGNETTE_PROP_STRENGTH, D2D1_VIGNETTE_PROP_TRANSITION_SIZE, d2d1effects_2/D2D1_VIGNETTE_PROP, d2d1effects_2/D2D1_VIGNETTE_PROP_COLOR, d2d1effects_2/D2D1_VIGNETTE_PROP_STRENGTH, d2d1effects_2/D2D1_VIGNETTE_PROP_TRANSITION_SIZE, direct2d.d2d1_vignette_prop
 ms.topic: enum
-f1_keywords: 
- - "d2d1effects_2/D2D1_VIGNETTE_PROP"
+f1_keywords:
+- d2d1effects_2/D2D1_VIGNETTE_PROP
 dev_langs:
- - c++
+- c++
 req.header: d2d1effects_2.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - d2d1effects_2.h
+- d2d1effects_2.h
 api_name:
- - D2D1_VIGNETTE_PROP
+- D2D1_VIGNETTE_PROP
 targetos: Windows
 req.typenames: D2D1_VIGNETTE_PROP
 req.redist: 

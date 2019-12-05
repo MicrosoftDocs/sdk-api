@@ -1,19 +1,17 @@
 ---
 UID: NN:iads.IADsDNWithString
 title: IADsDNWithString (iads.h)
-
 description: The IADsDNWithString interface provides methods for an ADSI client to associate a distinguished name (DN) to a string value.
 old-location: adsi\iadsdnwithstring.htm
 tech.root: adsi
 ms.assetid: 112985e7-6e96-42fb-a4cb-916296d4a524
-
 ms.date: 12/05/2018
 ms.keywords: DNWithString, IADsDNWithString, IADsDNWithString interface [ADSI], IADsDNWithString interface [ADSI],described, _ds_iadsdnwithstring, adsi.iadsdnwithstring, iads/IADsDNWithString
 ms.topic: interface
-f1_keywords: 
- - "iads/IADsDNWithString"
+f1_keywords:
+- iads/IADsDNWithString
 dev_langs:
- - c++
+- c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: Activeds.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Activeds.dll
+- Activeds.dll
 api_name:
- - IADsDNWithString
- - DNWithString
+- IADsDNWithString
+- DNWithString
 targetos: Windows
 req.typenames: 
 req.redist: 

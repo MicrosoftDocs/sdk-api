@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationclient.IUIAutomation.RectToVariant
 title: IUIAutomation::RectToVariant (uiautomationclient.h)
-
 description: Creates a VARIANT that contains the coordinates of a rectangle.
 old-location: winauto\uiauto_IUIAutomation_RectToVariant.htm
 tech.root: WinAuto
 ms.assetid: abfb2bb1-7594-4f32-9188-05745006ae18
-
 ms.date: 12/05/2018
 ms.keywords: IUIAutomation interface [Windows Accessibility],RectToVariant method, IUIAutomation.RectToVariant, IUIAutomation::RectToVariant, RectToVariant, RectToVariant method [Windows Accessibility], RectToVariant method [Windows Accessibility],IUIAutomation interface, uiauto.uiauto_IUIAutomation_RectToVariant, uiauto_IUIAutomation_RectToVariant, uiautomationclient/IUIAutomation::RectToVariant, winauto.uiauto_IUIAutomation_RectToVariant
 ms.topic: method
-f1_keywords: 
- - "uiautomationclient/IUIAutomation.RectToVariant"
+f1_keywords:
+- uiautomationclient/IUIAutomation.RectToVariant
 dev_langs:
- - c++
+- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationClient.h
+- UIAutomationClient.h
 api_name:
- - IUIAutomation.RectToVariant
+- IUIAutomation.RectToVariant
 targetos: Windows
 req.typenames: 
 req.redist: 

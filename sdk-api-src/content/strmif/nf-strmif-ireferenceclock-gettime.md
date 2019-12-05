@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IReferenceClock.GetTime
 title: IReferenceClock::GetTime (strmif.h)
-
 description: The GetTime method retrieves the current reference time.
 old-location: dshow\ireferenceclock_gettime.htm
 tech.root: DirectShow
 ms.assetid: 1fcf8b8a-f449-4f42-8061-cc4116867d9d
-
 ms.date: 12/05/2018
 ms.keywords: GetTime, GetTime method [DirectShow], GetTime method [DirectShow],IReferenceClock interface, IReferenceClock interface [DirectShow],GetTime method, IReferenceClock.GetTime, IReferenceClock::GetTime, IReferenceClockGetTime, dshow.ireferenceclock_gettime, strmif/IReferenceClock::GetTime
 ms.topic: method
-f1_keywords: 
- - "strmif/IReferenceClock.GetTime"
+f1_keywords:
+- strmif/IReferenceClock.GetTime
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IReferenceClock.GetTime
+- IReferenceClock.GetTime
 targetos: Windows
 req.typenames: 
 req.redist: 

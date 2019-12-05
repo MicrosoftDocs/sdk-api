@@ -1,19 +1,17 @@
 ---
 UID: NF:mbnapi.IMbnMultiCarrierEvents.OnInterfaceCapabilityChange
 title: IMbnMultiCarrierEvents::OnInterfaceCapabilityChange (mbnapi.h)
-
 description: This notification method is called by the Mobile Broadband service to indicate the completion of a SetHomeProvider operation that updates the interface capabilities.
 old-location: mbn\imbnmulticarrierevents_oninterfacecapabilitychange.htm
 tech.root: mbn
 ms.assetid: 5701E0EB-FBDC-4791-97AA-B31F87763854
-
 ms.date: 12/05/2018
 ms.keywords: IMbnMultiCarrierEvents interface [Microsoft Broadband Networks],OnInterfaceCapabilityChange method, IMbnMultiCarrierEvents.OnInterfaceCapabilityChange, IMbnMultiCarrierEvents::OnInterfaceCapabilityChange, OnInterfaceCapabilityChange, OnInterfaceCapabilityChange method [Microsoft Broadband Networks], OnInterfaceCapabilityChange method [Microsoft Broadband Networks],IMbnMultiCarrierEvents interface, mbn.imbnmulticarrierevents_oninterfacecapabilitychange, mbnapi/IMbnMultiCarrierEvents::OnInterfaceCapabilityChange
 ms.topic: method
-f1_keywords: 
- - "mbnapi/IMbnMultiCarrierEvents.OnInterfaceCapabilityChange"
+f1_keywords:
+- mbnapi/IMbnMultiCarrierEvents.OnInterfaceCapabilityChange
 dev_langs:
- - c++
+- c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mbnapi.h
+- mbnapi.h
 api_name:
- - IMbnMultiCarrierEvents.OnInterfaceCapabilityChange
+- IMbnMultiCarrierEvents.OnInterfaceCapabilityChange
 targetos: Windows
 req.typenames: 
 req.redist: 

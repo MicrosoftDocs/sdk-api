@@ -1,19 +1,17 @@
 ---
 UID: NS:msctf.TF_INPUTPROCESSORPROFILE
 title: TF_INPUTPROCESSORPROFILE (msctf.h)
-
 description: This structure contains data for the input processor profile.
 old-location: tsf\tf_inputprocessorprofile.htm
 tech.root: TSF
 ms.assetid: fecaf8f5-1323-4a2e-94ee-26b5712ed643
-
 ms.date: 12/05/2018
 ms.keywords: TF_INPUTPROCESSORPROFILE, TF_INPUTPROCESSORPROFILE structure [Text Services Framework], _tsf_tf_inputprocessorprofile_ref, msctf/TF_INPUTPROCESSORPROFILE, tsf.tf_inputprocessorprofile
 ms.topic: struct
-f1_keywords: 
- - "msctf/TF_INPUTPROCESSORPROFILE"
+f1_keywords:
+- msctf/TF_INPUTPROCESSORPROFILE
 dev_langs:
- - c++
+- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Msctf.h
+- Msctf.h
 api_name:
- - TF_INPUTPROCESSORPROFILE
+- TF_INPUTPROCESSORPROFILE
 targetos: Windows
 req.typenames: TF_INPUTPROCESSORPROFILE
 req.redist: TSF 1.0 on Windows 2000 Professional

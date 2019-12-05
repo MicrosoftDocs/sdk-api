@@ -1,19 +1,17 @@
 ---
 UID: NF:spellcheck.ISpellingError.get_Length
 title: ISpellingError::get_Length (spellcheck.h)
-
 description: Gets the length of the erroneous text.
 old-location: intl\ispellingerror_length.htm
 tech.root: Intl
 ms.assetid: 641f8dbc-2cb2-448a-9382-9512cb91edb0
-
 ms.date: 12/05/2018
 ms.keywords: ISpellingError interface [Internationalization for Windows Applications],Length property, ISpellingError.Length, ISpellingError.get_Length, ISpellingError::Length, ISpellingError::get_Length, Length property [Internationalization for Windows Applications], Length property [Internationalization for Windows Applications],ISpellingError interface, get_Length, intl.ispellingerror_length, spellcheck/ISpellingError::Length, spellcheck/ISpellingError::get_Length
 ms.topic: method
-f1_keywords: 
- - "spellcheck/ISpellingError.Length"
+f1_keywords:
+- spellcheck/ISpellingError.Length
 dev_langs:
- - c++
+- c++
 req.header: spellcheck.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Spellcheck.h
+- Spellcheck.h
 api_name:
- - ISpellingError.Length
- - ISpellingError.get_Length
+- ISpellingError.Length
+- ISpellingError.get_Length
 targetos: Windows
 req.typenames: 
 req.redist: 

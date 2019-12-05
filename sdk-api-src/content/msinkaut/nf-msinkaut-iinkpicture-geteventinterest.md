@@ -1,19 +1,17 @@
 ---
 UID: NF:msinkaut.IInkPicture.GetEventInterest
 title: IInkPicture::GetEventInterest (msinkaut.h)
-
 description: Retrieves the interest an object has in a particular event for the InkCollector class, InkOverlay class, or InkPicture class.
 old-location: tablet\inkpicture_geteventinterest.htm
 tech.root: tablet
 ms.assetid: e025a118-acf1-4b52-ace9-85a3a5a558fa
-
 ms.date: 12/05/2018
 ms.keywords: 532a798e-b434-4730-8c20-7ec60255f170, GetEventInterest, GetEventInterest method [Tablet PC], GetEventInterest method [Tablet PC],IInkPicture interface, IInkPicture interface [Tablet PC],GetEventInterest method, IInkPicture.GetEventInterest, IInkPicture::GetEventInterest, msinkaut/IInkPicture::GetEventInterest, tablet.inkpicture_geteventinterest
 ms.topic: method
-f1_keywords: 
- - "msinkaut/IInkPicture.GetEventInterest"
+f1_keywords:
+- msinkaut/IInkPicture.GetEventInterest
 dev_langs:
- - c++
+- c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: InkObj.dll
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - InkObj.dll
- - InkObj.dll.dll
+- InkObj.dll
+- InkObj.dll.dll
 api_name:
- - IInkPicture.GetEventInterest
+- IInkPicture.GetEventInterest
 targetos: Windows
 req.typenames: 
 req.redist: 

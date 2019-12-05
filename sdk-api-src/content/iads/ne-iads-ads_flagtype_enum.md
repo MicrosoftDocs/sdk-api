@@ -1,19 +1,17 @@
 ---
 UID: NE:iads.__MIDL___MIDL_itf_ads_0001_0048_0004
 title: ADS_FLAGTYPE_ENUM (iads.h)
-
 description: The ADS_FLAGTYPE_ENUM enumeration specifies values that can be used to indicate the presence of the ObjectType or InheritedObjectType fields in the access-control entry (ACE).
 old-location: adsi\ads_flagtype_enum.htm
 tech.root: adsi
 ms.assetid: 6c3354d8-8df7-476d-af21-63725e5ed778
-
 ms.date: 12/05/2018
 ms.keywords: ADS_FLAGTYPE_ENUM, ADS_FLAGTYPE_ENUM enumeration [ADSI], ADS_FLAG_INHERITED_OBJECT_TYPE_PRESENT, ADS_FLAG_OBJECT_TYPE_PRESENT, _ds_ads_flagtype_enum, adsi.ads__flagtype__enum, adsi.ads_flagtype_enum, iads/ADS_FLAGTYPE_ENUM, iads/ADS_FLAG_INHERITED_OBJECT_TYPE_PRESENT, iads/ADS_FLAG_OBJECT_TYPE_PRESENT
 ms.topic: enum
-f1_keywords: 
- - "iads/ADS_FLAGTYPE_ENUM"
+f1_keywords:
+- iads/ADS_FLAGTYPE_ENUM
 dev_langs:
- - c++
+- c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Iads.h
+- Iads.h
 api_name:
- - ADS_FLAGTYPE_ENUM
+- ADS_FLAGTYPE_ENUM
 targetos: Windows
 req.typenames: ADS_FLAGTYPE_ENUM
 req.redist: 

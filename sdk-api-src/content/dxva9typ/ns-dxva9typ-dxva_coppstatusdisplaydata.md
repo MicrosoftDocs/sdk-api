@@ -1,19 +1,17 @@
 ---
 UID: NS:dxva9typ._DXVA_COPPStatusDisplayData
 title: DXVA_COPPStatusDisplayData (dxva9typ.h)
-
 description: Contains the result of a Display Data query in Certified Output Protection Protocol (COPP).
 old-location: dshow\dxva_coppstatusdisplaydata.htm
 tech.root: DirectShow
 ms.assetid: 51a119a0-d5de-4df0-9c2b-c776e9af8c60
-
 ms.date: 12/05/2018
 ms.keywords: DXVA_COPPStatusDisplayData, DXVA_COPPStatusDisplayData structure [DirectShow], DXVA_COPPStatusDisplayDataStructure, _DXVA_COPPStatusDisplayData, dshow.dxva_coppstatusdisplaydata, dxva9typ/DXVA_COPPStatusDisplayData
 ms.topic: struct
 f1_keywords:
 - dxva9typ/DXVA_COPPStatusDisplayData
 dev_langs:
- - c++
+- c++
 req.header: dxva9typ.h
 req.include-header: Dxva.h
 req.target-type: Windows

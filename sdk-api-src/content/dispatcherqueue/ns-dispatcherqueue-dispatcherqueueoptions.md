@@ -1,19 +1,17 @@
 ---
 UID: NS:dispatcherqueue.DispatcherQueueOptions
 title: DispatcherQueueOptions (dispatcherqueue.h)
-
 description: Specifies the threading and apartment type for a new DispatcherQueueController.
 old-location: base\dispatcherqueueoptions.htm
 tech.root: ProcThread
 ms.assetid: F9AF7DDE-13EB-43DB-BAD5-61A6ABD9307D
-
 ms.date: 12/05/2018
 ms.keywords: DispatcherQueueOptions, DispatcherQueueOptions structure, base.dispatcherqueueoptions, dispatcherqueue/DispatcherQueueOptions
 ms.topic: struct
-f1_keywords: 
- - "dispatcherqueue/DispatcherQueueOptions"
+f1_keywords:
+- dispatcherqueue/DispatcherQueueOptions
 dev_langs:
- - c++
+- c++
 req.header: dispatcherqueue.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - DispatcherQueue.h
+- DispatcherQueue.h
 api_name:
- - DispatcherQueueOptions
+- DispatcherQueueOptions
 targetos: Windows
 req.typenames: 
 req.redist: 

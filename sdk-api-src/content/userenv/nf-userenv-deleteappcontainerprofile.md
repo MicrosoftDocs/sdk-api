@@ -1,19 +1,17 @@
 ---
 UID: NF:userenv.DeleteAppContainerProfile
 title: DeleteAppContainerProfile function (userenv.h)
-
 description: Deletes the specified per-user, per-app profile.
 old-location: shell\deleteappcontainerprofile.htm
 tech.root: shell
 ms.assetid: ED79D661-D087-4E44-8C32-14705ACA9D40
-
 ms.date: 12/05/2018
 ms.keywords: DeleteAppContainerProfile, DeleteAppContainerProfile function [Windows Shell], shell.deleteappcontainerprofile, userenv/DeleteAppContainerProfile
 ms.topic: function
-f1_keywords: 
- - "userenv/DeleteAppContainerProfile"
+f1_keywords:
+- userenv/DeleteAppContainerProfile
 dev_langs:
- - c++
+- c++
 req.header: userenv.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Userenv.lib
 req.dll: Userenv.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Userenv.dll
+- Userenv.dll
 api_name:
- - DeleteAppContainerProfile
+- DeleteAppContainerProfile
 targetos: Windows
 req.typenames: 
 req.redist: 

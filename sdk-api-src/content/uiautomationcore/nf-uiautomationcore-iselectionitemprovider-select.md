@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationcore.ISelectionItemProvider.Select
 title: ISelectionItemProvider::Select (uiautomationcore.h)
-
 description: Deselects any selected items and then selects the current element.
 old-location: winauto\uiauto_ISelectionItemProvider_Select.htm
 tech.root: WinAuto
 ms.assetid: b11e3472-e7dc-462d-93f4-e02f07ebd45f
-
 ms.date: 12/05/2018
 ms.keywords: ISelectionItemProvider interface [Windows Accessibility],Select method, ISelectionItemProvider.Select, ISelectionItemProvider::Select, Select, Select method [Windows Accessibility], Select method [Windows Accessibility],ISelectionItemProvider interface, uiauto.uiauto_ISelectionItemProvider_Select, uiauto_ISelectionItemProvider_Select, uiautomationcore/ISelectionItemProvider::Select, winauto.uiauto_ISelectionItemProvider_Select
 ms.topic: method
-f1_keywords: 
- - "uiautomationcore/ISelectionItemProvider.Select"
+f1_keywords:
+- uiautomationcore/ISelectionItemProvider.Select
 dev_langs:
- - c++
+- c++
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationCore.h
+- UIAutomationCore.h
 api_name:
- - ISelectionItemProvider.Select
+- ISelectionItemProvider.Select
 targetos: Windows
 req.typenames: 
 req.redist: 

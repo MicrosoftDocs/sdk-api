@@ -1,19 +1,17 @@
 ---
 UID: NF:wmcontainer.IMFASFMultiplexer.ProcessSample
 title: IMFASFMultiplexer::ProcessSample (wmcontainer.h)
-
 description: Delivers input samples to the multiplexer.
 old-location: mf\imfasfmultiplexer_processsample.htm
 tech.root: medfound
 ms.assetid: 30a693bb-255c-47a4-8102-1543872b0a5e
-
 ms.date: 12/05/2018
 ms.keywords: 30a693bb-255c-47a4-8102-1543872b0a5e, IMFASFMultiplexer interface [Media Foundation],ProcessSample method, IMFASFMultiplexer.ProcessSample, IMFASFMultiplexer::ProcessSample, ProcessSample, ProcessSample method [Media Foundation], ProcessSample method [Media Foundation],IMFASFMultiplexer interface, mf.imfasfmultiplexer_processsample, wmcontainer/IMFASFMultiplexer::ProcessSample
 ms.topic: method
-f1_keywords: 
- - "wmcontainer/IMFASFMultiplexer.ProcessSample"
+f1_keywords:
+- wmcontainer/IMFASFMultiplexer.ProcessSample
 dev_langs:
- - c++
+- c++
 req.header: wmcontainer.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFASFMultiplexer.ProcessSample
+- IMFASFMultiplexer.ProcessSample
 targetos: Windows
 req.typenames: 
 req.redist: 

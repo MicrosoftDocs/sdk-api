@@ -1,19 +1,17 @@
 ---
 UID: NS:lmuse._USE_INFO_1
 title: USE_INFO_1 (lmuse.h)
-
 description: Contains information about the connection between a local device and a shared resource.
 old-location: netmgmt\use_info_1_str.htm
 tech.root: NetMgmt
 ms.assetid: b9f680b8-b56a-42be-9af1-d7b18328ded4
-
 ms.date: 12/05/2018
-ms.keywords: "*LPUSE_INFO_1, *PUSE_INFO_1, LPUSE_INFO_1, LPUSE_INFO_1 structure pointer [Network Management], PUSE_INFO_1, PUSE_INFO_1 structure pointer [Network Management], USE_CONN, USE_DISCONN, USE_DISKDEV, USE_INFO_1, USE_INFO_1 structure [Network Management], USE_IPC, USE_NETERR, USE_OK, USE_PAUSED, USE_RECONN, USE_SESSLOST, USE_SPOOLDEV, USE_WILDCARD, _win32_use_info_1_str, lmuse/LPUSE_INFO_1, lmuse/PUSE_INFO_1, lmuse/USE_INFO_1, netmgmt.use_info_1_str"
+ms.keywords: '*LPUSE_INFO_1, *PUSE_INFO_1, LPUSE_INFO_1, LPUSE_INFO_1 structure pointer [Network Management], PUSE_INFO_1, PUSE_INFO_1 structure pointer [Network Management], USE_CONN, USE_DISCONN, USE_DISKDEV, USE_INFO_1, USE_INFO_1 structure [Network Management], USE_IPC, USE_NETERR, USE_OK, USE_PAUSED, USE_RECONN, USE_SESSLOST, USE_SPOOLDEV, USE_WILDCARD, _win32_use_info_1_str, lmuse/LPUSE_INFO_1, lmuse/PUSE_INFO_1, lmuse/USE_INFO_1, netmgmt.use_info_1_str'
 ms.topic: struct
-f1_keywords: 
- - "lmuse/USE_INFO_1"
+f1_keywords:
+- lmuse/USE_INFO_1
 dev_langs:
- - c++
+- c++
 req.header: lmuse.h
 req.include-header: Lm.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Lmuse.h
+- Lmuse.h
 api_name:
- - USE_INFO_1
+- USE_INFO_1
 targetos: Windows
 req.typenames: USE_INFO_1, *PUSE_INFO_1, *LPUSE_INFO_1
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NN:mmc.IMenuButton
 title: IMenuButton (mmc.h)
-
 description: The IMenuButton interface enables the user to add and manage menu buttons for a snap-in.
 old-location: mmc\imenubutton.htm
 tech.root: mmc
 ms.assetid: 51bbd98a-7017-497a-858a-dd63cefc679a
-
 ms.date: 12/05/2018
 ms.keywords: IMenuButton, IMenuButton interface [MMC], IMenuButton interface [MMC],described, _slate_imenubutton, mmc.imenubutton, mmc/IMenuButton
 ms.topic: interface
-f1_keywords: 
- - "mmc/IMenuButton"
+f1_keywords:
+- mmc/IMenuButton
 dev_langs:
- - c++
+- c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Mmcndmgr.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mmcndmgr.dll
+- Mmcndmgr.dll
 api_name:
- - IMenuButton
+- IMenuButton
 targetos: Windows
 req.typenames: 
 req.redist: 

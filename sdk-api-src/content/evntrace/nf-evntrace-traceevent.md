@@ -1,19 +1,17 @@
 ---
 UID: NF:evntrace.TraceEvent
 title: TraceEvent function (evntrace.h)
-
 description: The TraceEvent function sends an event to an event tracing session.
 old-location: etw\traceevent.htm
 tech.root: ETW
 ms.assetid: 9b21f6f0-dd9b-4f9c-a879-846901a3bab7
-
 ms.date: 12/05/2018
 ms.keywords: TraceEvent, TraceEvent function [ETW], _evt_traceevent, base.traceevent, etw.traceevent, evntrace/TraceEvent
 ms.topic: function
-f1_keywords: 
- - "evntrace/TraceEvent"
+f1_keywords:
+- evntrace/TraceEvent
 dev_langs:
- - c++
+- c++
 req.header: evntrace.h
 req.include-header: 
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Advapi32.dll
- - API-MS-Win-DownLevel-AdvApi32-l1-1-0.dll
- - KernelBase.dll
- - API-MS-Win-DownLevel-AdvApi32-l1-1-1.dll
- - API-MS-Win-eventing-classicprovider-l1-1-0.dll
+- Advapi32.dll
+- API-MS-Win-DownLevel-AdvApi32-l1-1-0.dll
+- KernelBase.dll
+- API-MS-Win-DownLevel-AdvApi32-l1-1-1.dll
+- API-MS-Win-eventing-classicprovider-l1-1-0.dll
 api_name:
- - TraceEvent
+- TraceEvent
 targetos: Windows
 req.typenames: 
 req.redist: 

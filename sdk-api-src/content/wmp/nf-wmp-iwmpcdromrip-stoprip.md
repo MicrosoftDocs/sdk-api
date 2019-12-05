@@ -1,19 +1,17 @@
 ---
 UID: NF:wmp.IWMPCdromRip.stopRip
 title: IWMPCdromRip::stopRip (wmp.h)
-
 description: The stopRip method stops the CD ripping process.
 old-location: wmp\iwmpcdromrip_stoprip.htm
 tech.root: WMP
 ms.assetid: 2a6c5a25-f69c-4258-a92f-7f693b201a01
-
 ms.date: 12/05/2018
 ms.keywords: IWMPCdromRip interface [Windows Media Player],stopRip method, IWMPCdromRip.stopRip, IWMPCdromRip::stopRip, IWMPCdromRipstopRip, stopRip, stopRip method [Windows Media Player], stopRip method [Windows Media Player],IWMPCdromRip interface, wmp.iwmpcdromrip_stoprip, wmp/IWMPCdromRip::stopRip
 ms.topic: method
-f1_keywords: 
- - "wmp/IWMPCdromRip.stopRip"
+f1_keywords:
+- wmp/IWMPCdromRip.stopRip
 dev_langs:
- - c++
+- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wmp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmp.dll
+- wmp.dll
 api_name:
- - IWMPCdromRip.stopRip
+- IWMPCdromRip.stopRip
 targetos: Windows
 req.typenames: 
 req.redist: 

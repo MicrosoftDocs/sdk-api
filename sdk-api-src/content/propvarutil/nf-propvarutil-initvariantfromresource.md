@@ -1,19 +1,17 @@
 ---
 UID: NF:propvarutil.InitVariantFromResource
 title: InitVariantFromResource function (propvarutil.h)
-
 description: Initializes a VARIANT structure based on a string resource imbedded in an executable file.
 old-location: properties\InitVariantFromResource.htm
 tech.root: properties
 ms.assetid: ae309a04-7b21-46ef-b481-2593dc162e19
-
 ms.date: 12/05/2018
 ms.keywords: InitVariantFromResource, InitVariantFromResource function [Windows Properties], _shell_InitVariantFromResource, properties.InitVariantFromResource, propvarutil/InitVariantFromResource, shell.InitVariantFromResource
 ms.topic: function
-f1_keywords: 
- - "propvarutil/InitVariantFromResource"
+f1_keywords:
+- propvarutil/InitVariantFromResource
 dev_langs:
- - c++
+- c++
 req.header: propvarutil.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Propsys.lib
 req.dll: Propsys.dll (version 6.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Propsys.dll
+- Propsys.dll
 api_name:
- - InitVariantFromResource
+- InitVariantFromResource
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0

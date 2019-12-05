@@ -1,19 +1,17 @@
 ---
 UID: NF:spatialaudiometadata.ISpatialAudioMetadataReader.ReadNextItemCommand
 title: ISpatialAudioMetadataReader::ReadNextItemCommand (spatialaudiometadata.h)
-
 description: Reads metadata commands and value data for the current item.
 old-location: coreaudio\ispatialaudiometadatareader_readnextitemcommand.htm
 tech.root: CoreAudio
 ms.assetid: 9B58546A-FBE3-47CD-8E5F-63D0C5608F00
-
 ms.date: 12/05/2018
 ms.keywords: ISpatialAudioMetadataReader interface [Core Audio],ReadNextItemCommand method, ISpatialAudioMetadataReader.ReadNextItemCommand, ISpatialAudioMetadataReader::ReadNextItemCommand, ReadNextItemCommand, ReadNextItemCommand method [Core Audio], ReadNextItemCommand method [Core Audio],ISpatialAudioMetadataReader interface, coreaudio.ispatialaudiometadatareader_readnextitemcommand, spatialaudiometadata/ISpatialAudioMetadataReader::ReadNextItemCommand
 ms.topic: method
-f1_keywords: 
- - "spatialaudiometadata/ISpatialAudioMetadataReader.ReadNextItemCommand"
+f1_keywords:
+- spatialaudiometadata/ISpatialAudioMetadataReader.ReadNextItemCommand
 dev_langs:
- - c++
+- c++
 req.header: spatialaudiometadata.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - SpatialAudioMetadata.h
+- SpatialAudioMetadata.h
 api_name:
- - ISpatialAudioMetadataReader.ReadNextItemCommand
+- ISpatialAudioMetadataReader.ReadNextItemCommand
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d12.ID3D12GraphicsCommandList1.AtomicCopyBufferUINT64
 title: ID3D12GraphicsCommandList1::AtomicCopyBufferUINT64 (d3d12.h)
-
 description: Atomically copies a primary data element of type UINT64 from one resource to another, along with optional dependent resources.
 old-location: direct3d12\id3d12graphicscommandlist1_atomiccopybufferuint64.htm
 tech.root: direct3d12
 ms.assetid: F83870E9-5256-4A3E-BAF7-05C4CCB28442
-
 ms.date: 12/05/2018
 ms.keywords: AtomicCopyBufferUINT64, AtomicCopyBufferUINT64 method, AtomicCopyBufferUINT64 method,ID3D12GraphicsCommandList1 interface, ID3D12GraphicsCommandList1 interface,AtomicCopyBufferUINT64 method, ID3D12GraphicsCommandList1.AtomicCopyBufferUINT64, ID3D12GraphicsCommandList1::AtomicCopyBufferUINT64, d3d12/ID3D12GraphicsCommandList1::AtomicCopyBufferUINT64, direct3d12.id3d12graphicscommandlist1_atomiccopybufferuint64
 ms.topic: method
-f1_keywords: 
- - "d3d12/ID3D12GraphicsCommandList1.AtomicCopyBufferUINT64"
+f1_keywords:
+- d3d12/ID3D12GraphicsCommandList1.AtomicCopyBufferUINT64
 dev_langs:
- - c++
+- c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: D3d12.lib
 req.dll: D3d12.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - d3d12.dll
+- d3d12.dll
 api_name:
- - ID3D12GraphicsCommandList1.AtomicCopyBufferUINT64
+- ID3D12GraphicsCommandList1.AtomicCopyBufferUINT64
 targetos: Windows
 req.typenames: 
 req.redist: 

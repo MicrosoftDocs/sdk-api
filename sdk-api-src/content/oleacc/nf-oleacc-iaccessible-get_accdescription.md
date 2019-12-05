@@ -1,19 +1,17 @@
 ---
 UID: NF:oleacc.IAccessible.get_accDescription
 title: IAccessible::get_accDescription (oleacc.h)
-
 description: The IAccessible::get_accDescription method retrieves a string that describes the visual appearance of the specified object. Not all objects have a description.
 old-location: winauto\iaccessible_iaccessible__get_accdescription.htm
 tech.root: WinAuto
 ms.assetid: ca70c5bc-ac20-41fe-a9fe-f4a7209c5958
-
 ms.date: 12/05/2018
 ms.keywords: IAccessible interface [Windows Accessibility],get_accDescription method, IAccessible.get_accDescription, IAccessible::get_accDescription, _msaa_IAccessible_get_accDescription, get_accDescription, get_accDescription method [Windows Accessibility], get_accDescription method [Windows Accessibility],IAccessible interface, msaa.iaccessible_iaccessible__get_accdescription, oleacc/IAccessible::get_accDescription, winauto.iaccessible_iaccessible__get_accdescription
 ms.topic: method
-f1_keywords: 
- - "oleacc/IAccessible.get_accDescription"
+f1_keywords:
+- oleacc/IAccessible.get_accDescription
 dev_langs:
- - c++
+- c++
 req.header: oleacc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Oleacc.lib
 req.dll: Oleacc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Oleacc.dll
+- Oleacc.dll
 api_name:
- - IAccessible.get_accDescription
+- IAccessible.get_accDescription
 targetos: Windows
 req.typenames: 
 req.redist: Active Accessibility 1.3 RDK on Windows NT 4.0 with SP6 and later and Windows 95

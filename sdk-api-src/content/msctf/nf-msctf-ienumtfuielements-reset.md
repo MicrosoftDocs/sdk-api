@@ -1,19 +1,17 @@
 ---
 UID: NF:msctf.IEnumTfUIElements.Reset
 title: IEnumTfUIElements::Reset (msctf.h)
-
 description: The IEnumTfUIElements::Reset method resets the enumerator object by moving the current position to the beginning of the enumeration sequence.
 old-location: tsf\ienumtfuielements_reset.htm
 tech.root: TSF
 ms.assetid: a87b067f-251c-47d1-b57a-32e6524adc57
-
 ms.date: 12/05/2018
 ms.keywords: IEnumTfUIElements interface [Text Services Framework],Reset method, IEnumTfUIElements.Reset, IEnumTfUIElements::Reset, Reset, Reset method [Text Services Framework], Reset method [Text Services Framework],IEnumTfUIElements interface, msctf/IEnumTfUIElements::Reset, tsf.ienumtfuielements_reset
 ms.topic: method
-f1_keywords: 
- - "msctf/IEnumTfUIElements.Reset"
+f1_keywords:
+- msctf/IEnumTfUIElements.Reset
 dev_langs:
- - c++
+- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msctf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msctf.dll
+- Msctf.dll
 api_name:
- - IEnumTfUIElements.Reset
+- IEnumTfUIElements.Reset
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

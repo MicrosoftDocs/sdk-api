@@ -1,19 +1,17 @@
 ---
 UID: NN:syncregistration.ISyncProviderInfo
 title: ISyncProviderInfo (syncregistration.h)
-
 description: Represents the information and properties needed to create an instance of a synchronization provider.
 old-location: winsync\isyncproviderinfo.htm
 tech.root: winsync
 ms.assetid: fe50e34c-6499-4c1e-b891-7b4f797510f2
-
 ms.date: 12/05/2018
 ms.keywords: ISyncProviderInfo, ISyncProviderInfo interface [Windows Sync], ISyncProviderInfo interface [Windows Sync],described, syncregistration/ISyncProviderInfo, winsync.isyncproviderinfo
 ms.topic: interface
-f1_keywords: 
- - "syncregistration/ISyncProviderInfo"
+f1_keywords:
+- syncregistration/ISyncProviderInfo
 dev_langs:
- - c++
+- c++
 req.header: syncregistration.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Syncregistration.h
+- Syncregistration.h
 api_name:
- - ISyncProviderInfo
+- ISyncProviderInfo
 targetos: Windows
 req.typenames: 
 req.redist: 

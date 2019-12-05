@@ -1,19 +1,17 @@
 ---
 UID: NE:uiautomationcoreapi.ConditionType
 title: ConditionType (uiautomationcoreapi.h)
-
 description: Contains values that specify a type of UiaCondition.
 old-location: winauto\uiauto_ConditionTypeEnum.htm
 tech.root: WinAuto
 ms.assetid: de69f8cd-bdbf-4636-ab14-b744a411acc5
-
 ms.date: 12/05/2018
 ms.keywords: ConditionType, ConditionType enumeration [Windows Accessibility], ConditionType_And, ConditionType_False, ConditionType_Not, ConditionType_Or, ConditionType_Property, ConditionType_True, uiauto.uiauto_ConditionTypeEnum, uiauto_ConditionTypeEnum, uiautomationcoreapi/ConditionType, uiautomationcoreapi/ConditionType_And, uiautomationcoreapi/ConditionType_False, uiautomationcoreapi/ConditionType_Not, uiautomationcoreapi/ConditionType_Or, uiautomationcoreapi/ConditionType_Property, uiautomationcoreapi/ConditionType_True, winauto.uiauto_ConditionTypeEnum
 ms.topic: enum
-f1_keywords: 
- - "uiautomationcoreapi/ConditionType"
+f1_keywords:
+- uiautomationcoreapi/ConditionType
 dev_langs:
- - c++
+- c++
 req.header: uiautomationcoreapi.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - UIAutomationCoreApi.h
+- UIAutomationCoreApi.h
 api_name:
- - ConditionType
+- ConditionType
 targetos: Windows
 req.typenames: 
 req.redist: 

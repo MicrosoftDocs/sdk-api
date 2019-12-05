@@ -1,19 +1,17 @@
 ---
 UID: NS:ntdsapi._DS_REPL_OPW
 title: DS_REPL_OPW (ntdsapi.h)
-
 description: The DS_REPL_OP structure describes a replication task currently executing or pending execution, as returned by the DsReplicaGetInfo or DsReplicaGetInfo2 function.
 old-location: ad\ds_repl_op.htm
 tech.root: ad
 ms.assetid: 9ea783b3-1529-4424-a582-f46f2a239a60
-
 ms.date: 12/05/2018
 ms.keywords: DS_REPL_OP, DS_REPL_OP structure [Active Directory], DS_REPL_OPW, DS_REPL_OP_TYPE_ADD, DS_REPL_OP_TYPE_DELETE, DS_REPL_OP_TYPE_MODIFY, DS_REPL_OP_TYPE_SYNC, DS_REPL_OP_TYPE_UPDATE_REFS, _DS_REPL_OPW, _glines_ds_repl_op, ad.ds__repl__op, ad.ds_repl_op, ntdsapi/DS_REPL_OP
 ms.topic: struct
 f1_keywords:
 - ntdsapi/DS_REPL_OP
 dev_langs:
- - c++
+- c++
 req.header: ntdsapi.h
 req.include-header: 
 req.target-type: Windows

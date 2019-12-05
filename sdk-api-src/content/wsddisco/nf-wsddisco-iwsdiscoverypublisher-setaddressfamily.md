@@ -1,19 +1,17 @@
 ---
 UID: NF:wsddisco.IWSDiscoveryPublisher.SetAddressFamily
 title: IWSDiscoveryPublisher::SetAddressFamily (wsddisco.h)
-
 description: Specifies the IP address family (IPv4, IPv6, or both) over which the host will be published.
 old-location: ncd\iwsdiscoverypublisher_setaddressfamily.htm
 tech.root: WsdApi
 ms.assetid: 01d16205-ca4c-44bb-865c-7fc9fb1db2e1
-
 ms.date: 12/05/2018
 ms.keywords: IWSDiscoveryPublisher interface,SetAddressFamily method, IWSDiscoveryPublisher.SetAddressFamily, IWSDiscoveryPublisher::SetAddressFamily, SetAddressFamily, SetAddressFamily method, SetAddressFamily method,IWSDiscoveryPublisher interface, WSDAPI_ADDRESSFAMILY_IPV4, WSDAPI_ADDRESSFAMILY_IPV4 | WSDAPI_ADDRESSFAMILY_IPV6, WSDAPI_ADDRESSFAMILY_IPV6, ncd.iwsdiscoverypublisher_setaddressfamily, wsddisco/IWSDiscoveryPublisher::SetAddressFamily
 ms.topic: method
-f1_keywords: 
- - "wsddisco/IWSDiscoveryPublisher.SetAddressFamily"
+f1_keywords:
+- wsddisco/IWSDiscoveryPublisher.SetAddressFamily
 dev_langs:
- - c++
+- c++
 req.header: wsddisco.h
 req.include-header: Wsdapi.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wsdapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wsdapi.dll
+- wsdapi.dll
 api_name:
- - IWSDiscoveryPublisher.SetAddressFamily
+- IWSDiscoveryPublisher.SetAddressFamily
 targetos: Windows
 req.typenames: 
 req.redist: 

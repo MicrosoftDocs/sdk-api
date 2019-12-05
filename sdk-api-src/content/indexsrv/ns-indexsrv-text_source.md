@@ -1,19 +1,17 @@
 ---
 UID: NS:indexsrv.tagTEXT_SOURCE
 title: TEXT_SOURCE (indexsrv.h)
-
 description: Contains information about text that the word breaker will process.
 old-location: search\_search_TEXT_SOURCE.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\structures\text_source.htm
-
 ms.date: 12/05/2018
 ms.keywords: TEXT_SOURCE, TEXT_SOURCE structure [search], _search_TEXT_SOURCE, indexsrv/TEXT_SOURCE, search._search_TEXT_SOURCE, tagTEXT_SOURCE
 ms.topic: struct
-f1_keywords: 
- - "indexsrv/TEXT_SOURCE"
+f1_keywords:
+- indexsrv/TEXT_SOURCE
 dev_langs:
- - c++
+- c++
 req.header: indexsrv.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Indexsrv.h
+- Indexsrv.h
 api_name:
- - TEXT_SOURCE
+- TEXT_SOURCE
 targetos: Windows
 req.typenames: TEXT_SOURCE
 req.redist: the Windows NT 4.0 Option Pack

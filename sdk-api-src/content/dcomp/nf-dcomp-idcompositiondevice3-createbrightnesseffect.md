@@ -1,19 +1,17 @@
 ---
 UID: NF:dcomp.IDCompositionDevice3.CreateBrightnessEffect
 title: IDCompositionDevice3::CreateBrightnessEffect (dcomp.h)
-
 description: Creates an instance of IDCompositionBrightnessEffect.
 old-location: directcomp\idcompositiondevice3_createbrightnesseffect.htm
 tech.root: directcomp
 ms.assetid: 4BD16F01-6CF1-4634-9D68-A153C7AABFFD
-
 ms.date: 12/05/2018
 ms.keywords: CreateBrightnessEffect, CreateBrightnessEffect method [DirectComposition], CreateBrightnessEffect method [DirectComposition],IDCompositionDevice3 interface, IDCompositionDevice3 interface [DirectComposition],CreateBrightnessEffect method, IDCompositionDevice3.CreateBrightnessEffect, IDCompositionDevice3::CreateBrightnessEffect, dcomp/IDCompositionDevice3::CreateBrightnessEffect, directcomp.idcompositiondevice3_createbrightnesseffect
 ms.topic: method
-f1_keywords: 
- - "dcomp/IDCompositionDevice3.CreateBrightnessEffect"
+f1_keywords:
+- dcomp/IDCompositionDevice3.CreateBrightnessEffect
 dev_langs:
- - c++
+- c++
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dcomp.lib
 req.dll: Dcomp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dcomp.dll
+- dcomp.dll
 api_name:
- - IDCompositionDevice3.CreateBrightnessEffect
+- IDCompositionDevice3.CreateBrightnessEffect
 targetos: Windows
 req.typenames: 
 req.redist: 

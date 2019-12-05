@@ -1,19 +1,17 @@
 ---
 UID: NS:msdrmdefs._DRM_ACTSERV_INFO
 title: DRM_ACTSERV_INFO (msdrmdefs.h)
-
 description: The DRM_ACTSERV_INFO structure stores information about the activation server.
 old-location: rm\drm_actserv_info.htm
 tech.root: AdRms_Sdk
 ms.assetid: 2ea83a08-ab86-4635-8684-519808430ce9
-
 ms.date: 12/05/2018
 ms.keywords: DRM_ACTSERV_INFO, DRM_ACTSERV_INFO structure [Active Directory Rights Management Services SDK 1.0], msdrmdefs/DRM_ACTSERV_INFO, rm.drm_actserv_info
 ms.topic: struct
-f1_keywords: 
- - "msdrmdefs/DRM_ACTSERV_INFO"
+f1_keywords:
+- msdrmdefs/DRM_ACTSERV_INFO
 dev_langs:
- - c++
+- c++
 req.header: msdrmdefs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Msdrmdefs.h
+- Msdrmdefs.h
 api_name:
- - DRM_ACTSERV_INFO
+- DRM_ACTSERV_INFO
 targetos: Windows
 req.typenames: DRM_ACTSERV_INFO
 req.redist: 

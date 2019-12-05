@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationclient.IUIAutomation.RemoveAutomationEventHandler
 title: IUIAutomation::RemoveAutomationEventHandler (uiautomationclient.h)
-
 description: Removes the specified UI Automation event handler.
 old-location: winauto\uiauto_IUIAutomation_RemoveAutomationEventHandler.htm
 tech.root: WinAuto
 ms.assetid: c4ebf7d3-c3c4-424b-af69-b8c13dd7a4dd
-
 ms.date: 12/05/2018
 ms.keywords: IUIAutomation interface [Windows Accessibility],RemoveAutomationEventHandler method, IUIAutomation.RemoveAutomationEventHandler, IUIAutomation::RemoveAutomationEventHandler, RemoveAutomationEventHandler, RemoveAutomationEventHandler method [Windows Accessibility], RemoveAutomationEventHandler method [Windows Accessibility],IUIAutomation interface, uiauto.uiauto_IUIAutomation_RemoveAutomationEventHandler, uiauto_IUIAutomation_RemoveAutomationEventHandler, uiautomationclient/IUIAutomation::RemoveAutomationEventHandler, winauto.uiauto_IUIAutomation_RemoveAutomationEventHandler
 ms.topic: method
-f1_keywords: 
- - "uiautomationclient/IUIAutomation.RemoveAutomationEventHandler"
+f1_keywords:
+- uiautomationclient/IUIAutomation.RemoveAutomationEventHandler
 dev_langs:
- - c++
+- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationClient.h
+- UIAutomationClient.h
 api_name:
- - IUIAutomation.RemoveAutomationEventHandler
+- IUIAutomation.RemoveAutomationEventHandler
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NS:amva._tag_AMVACompBufferInfo
 title: AMVACompBufferInfo (amva.h)
-
 description: The AMVACompBufferInfo structure describes the allocated surfaces and compressed buffer information.
 old-location: dshow\amvacompbufferinfo.htm
 tech.root: DirectShow
 ms.assetid: 74ef5dfb-1062-40c6-a2dd-76f46ca8db92
-
 ms.date: 12/05/2018
-ms.keywords: "*LPAMVACompBufferInfo, AMVACompBufferInfo, AMVACompBufferInfo structure [DirectShow], AMVACompBufferInfoStructure, LPAMVACompBufferInfo, LPAMVACompBufferInfo structure pointer [DirectShow], amva/AMVACompBufferInfo, amva/LPAMVACompBufferInfo, dshow.amvacompbufferinfo"
+ms.keywords: '*LPAMVACompBufferInfo, AMVACompBufferInfo, AMVACompBufferInfo structure [DirectShow], AMVACompBufferInfoStructure, LPAMVACompBufferInfo, LPAMVACompBufferInfo structure pointer [DirectShow], amva/AMVACompBufferInfo, amva/LPAMVACompBufferInfo, dshow.amvacompbufferinfo'
 ms.topic: struct
-f1_keywords: 
- - "amva/AMVACompBufferInfo"
+f1_keywords:
+- amva/AMVACompBufferInfo
 dev_langs:
- - c++
+- c++
 req.header: amva.h
 req.include-header: Videoacc.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - amva.h
+- amva.h
 api_name:
- - AMVACompBufferInfo
+- AMVACompBufferInfo
 targetos: Windows
 req.typenames: AMVACompBufferInfo, *LPAMVACompBufferInfo
 req.redist: 

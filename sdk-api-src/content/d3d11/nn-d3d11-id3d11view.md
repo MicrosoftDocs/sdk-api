@@ -1,19 +1,17 @@
 ---
 UID: NN:d3d11.ID3D11View
 title: ID3D11View (d3d11.h)
-
 description: A view interface specifies the parts of a resource the pipeline can access during rendering.
 old-location: direct3d11\id3d11view.htm
 tech.root: direct3d11
 ms.assetid: 060973b4-bf7d-4be2-b087-85a5b1bca905
-
 ms.date: 12/05/2018
 ms.keywords: 0332b528-6d94-2603-1e1b-65d4d541f94f, ID3D11View, ID3D11View interface [Direct3D 11], ID3D11View interface [Direct3D 11],described, d3d11/ID3D11View, direct3d11.id3d11view
 ms.topic: interface
-f1_keywords: 
- - "d3d11/ID3D11View"
+f1_keywords:
+- d3d11/ID3D11View
 dev_langs:
- - c++
+- c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: D3D11.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D11.lib
- - D3D11.dll
+- D3D11.lib
+- D3D11.dll
 api_name:
- - ID3D11View
+- ID3D11View
 targetos: Windows
 req.typenames: 
 req.redist: 

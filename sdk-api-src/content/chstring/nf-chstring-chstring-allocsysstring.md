@@ -1,19 +1,17 @@
 ---
 UID: NF:chstring.CHString.AllocSysString
 title: CHString::AllocSysString (chstring.h)
-
 description: The AllocSysString method allocates a new BSTR string that is Automation compatible. It then copies the contents of the CHStringstring into it, including the terminating NULL character.
 old-location: wmi\chstring_allocsysstring.htm
 tech.root: WmiSdk
 ms.assetid: 21eb9990-a07f-4d6c-b674-dc35f395e603
-
 ms.date: 12/05/2018
 ms.keywords: AllocSysString, AllocSysString method [Windows Management Instrumentation], AllocSysString method [Windows Management Instrumentation],CHString interface, CHString interface [Windows Management Instrumentation],AllocSysString method, CHString.AllocSysString, CHString::AllocSysString, _hmm_chstring_allocsysstring, chstring/CHString::AllocSysString, wmi.chstring_allocsysstring
 ms.topic: method
-f1_keywords: 
- - "chstring/CHString.AllocSysString"
+f1_keywords:
+- chstring/CHString.AllocSysString
 dev_langs:
- - c++
+- c++
 req.header: chstring.h
 req.include-header: FwCommon.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: FrameDyn.lib
 req.dll: FrameDynOS.dll; FrameDyn.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - FrameDynOS.dll
- - FrameDyn.dll
+- FrameDynOS.dll
+- FrameDyn.dll
 api_name:
- - CHString.AllocSysString
+- CHString.AllocSysString
 targetos: Windows
 req.typenames: 
 req.redist: 

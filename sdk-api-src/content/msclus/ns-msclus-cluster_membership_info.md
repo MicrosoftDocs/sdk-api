@@ -1,19 +1,17 @@
 ---
 UID: NS:msclus._CLUSTER_MEMBERSHIP_INFO
 title: CLUSTER_MEMBERSHIP_INFO (msclus.h)
-
 description: Represents membership information for a cluster.
 old-location: mscs\cluster_membership_info.htm
 tech.root: MsCS
 ms.assetid: 4E3F8DFF-6F32-4729-9AAC-56B3E2592393
-
 ms.date: 12/05/2018
-ms.keywords: "*PCLUSTER_MEMBERSHIP_INFO, CLUSTER_MEMBERSHIP_INFO, CLUSTER_MEMBERSHIP_INFO structure [Failover Cluster], PCLUSTER_MEMBERSHIP_INFO, PCLUSTER_MEMBERSHIP_INFO structure pointer [Failover Cluster], _CLUSTER_MEMBERSHIP_INFO, _CLUSTER_MEMBERSHIP_INFO structure [Failover Cluster], clusapi/CLUSTER_MEMBERSHIP_INFO, clusapi/PCLUSTER_MEMBERSHIP_INFO, clusapi/_CLUSTER_MEMBERSHIP_INFO, msclus/CLUSTER_MEMBERSHIP_INFO, msclus/PCLUSTER_MEMBERSHIP_INFO, msclus/_CLUSTER_MEMBERSHIP_INFO, mscs.cluster_membership_info"
+ms.keywords: '*PCLUSTER_MEMBERSHIP_INFO, CLUSTER_MEMBERSHIP_INFO, CLUSTER_MEMBERSHIP_INFO structure [Failover Cluster], PCLUSTER_MEMBERSHIP_INFO, PCLUSTER_MEMBERSHIP_INFO structure pointer [Failover Cluster], _CLUSTER_MEMBERSHIP_INFO, _CLUSTER_MEMBERSHIP_INFO structure [Failover Cluster], clusapi/CLUSTER_MEMBERSHIP_INFO, clusapi/PCLUSTER_MEMBERSHIP_INFO, clusapi/_CLUSTER_MEMBERSHIP_INFO, msclus/CLUSTER_MEMBERSHIP_INFO, msclus/PCLUSTER_MEMBERSHIP_INFO, msclus/_CLUSTER_MEMBERSHIP_INFO, mscs.cluster_membership_info'
 ms.topic: struct
-f1_keywords: 
- - "msclus/CLUSTER_MEMBERSHIP_INFO"
+f1_keywords:
+- msclus/CLUSTER_MEMBERSHIP_INFO
 dev_langs:
- - c++
+- c++
 req.header: msclus.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - ClusApi.h
- - MsClus.h
+- ClusApi.h
+- MsClus.h
 api_name:
- - CLUSTER_MEMBERSHIP_INFO
+- CLUSTER_MEMBERSHIP_INFO
 targetos: Windows
 req.typenames: CLUSTER_MEMBERSHIP_INFO, *PCLUSTER_MEMBERSHIP_INFO
 req.redist: 

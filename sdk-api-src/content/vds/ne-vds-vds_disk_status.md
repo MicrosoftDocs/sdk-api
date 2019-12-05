@@ -1,19 +1,17 @@
 ---
 UID: NE:vds._VDS_DISK_STATUS
 title: VDS_DISK_STATUS (vds.h)
-
 description: Defines the set of object status values for a disk.
 old-location: base\vds_disk_status.htm
 tech.root: VDS
 ms.assetid: 7691347d-49a6-4078-9c6c-af59a48af692
-
 ms.date: 12/05/2018
 ms.keywords: VDS_DISK_STATUS, VDS_DISK_STATUS enumeration [VDS], VDS_DS_FAILED, VDS_DS_MISSING, VDS_DS_NOT_READY, VDS_DS_NO_MEDIA, VDS_DS_OFFLINE, VDS_DS_ONLINE, VDS_DS_UNKNOWN, base.vds_disk_status, vds/VDS_DISK_STATUS, vds/VDS_DS_FAILED, vds/VDS_DS_MISSING, vds/VDS_DS_NOT_READY, vds/VDS_DS_NO_MEDIA, vds/VDS_DS_OFFLINE, vds/VDS_DS_ONLINE, vds/VDS_DS_UNKNOWN
 ms.topic: enum
 f1_keywords:
 - vds/VDS_DISK_STATUS
 dev_langs:
- - c++
+- c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

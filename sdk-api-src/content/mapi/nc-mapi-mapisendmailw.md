@@ -1,19 +1,17 @@
 ---
 UID: NC:mapi.MAPISENDMAILW
 title: MAPISENDMAILW (mapi.h)
-
 description: Sends a Unicode message. This function replaces the ANSI function MAPISendMail.
 old-location: mapi\mapisendmailw.htm
 tech.root: WindowsMAPI
 ms.assetid: FA6FB49A-FA13-4F2F-8B89-5FD38B18B41B
-
 ms.date: 12/05/2018
 ms.keywords: MAPISendMailW, MAPISendMailW callback, MAPISendMailW callback function, MAPI_DIALOG, MAPI_DIALOG_MODELESS, MAPI_FORCE_UNICODE, MAPI_LOGON_UI, MAPI_NEW_SESSION, mapi.mapisendmailw, mapi/MAPISendMailW
 ms.topic: callback
-f1_keywords: 
- - "mapi/MAPISendMailW"
+f1_keywords:
+- mapi/MAPISendMailW
 dev_langs:
- - c++
+- c++
 req.header: mapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Mapi.h
+- Mapi.h
 api_name:
- - MAPISendMailW
+- MAPISendMailW
 targetos: Windows
 req.typenames: 
 req.redist: 

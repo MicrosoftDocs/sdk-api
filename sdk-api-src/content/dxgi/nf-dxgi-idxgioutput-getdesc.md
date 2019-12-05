@@ -1,19 +1,17 @@
 ---
 UID: NF:dxgi.IDXGIOutput.GetDesc
 title: IDXGIOutput::GetDesc (dxgi.h)
-
 description: Get a description of the output.
 old-location: direct3ddxgi\idxgioutput_getdesc.htm
 tech.root: direct3ddxgi
 ms.assetid: VS|directx_sdk|~\idxgioutput_getdesc.htm
-
 ms.date: 12/05/2018
 ms.keywords: 895d1ca4-22a2-332a-34a7-b0c55200b423, GetDesc, GetDesc method [DXGI], GetDesc method [DXGI],IDXGIOutput interface, IDXGIOutput interface [DXGI],GetDesc method, IDXGIOutput.GetDesc, IDXGIOutput::GetDesc, direct3ddxgi.idxgioutput_getdesc, dxgi/IDXGIOutput::GetDesc
 ms.topic: method
-f1_keywords: 
- - "dxgi/IDXGIOutput.GetDesc"
+f1_keywords:
+- dxgi/IDXGIOutput.GetDesc
 dev_langs:
- - c++
+- c++
 req.header: dxgi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: DXGI.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - DXGI.lib
- - DXGI.dll
+- DXGI.lib
+- DXGI.dll
 api_name:
- - IDXGIOutput.GetDesc
+- IDXGIOutput.GetDesc
 targetos: Windows
 req.typenames: 
 req.redist: 

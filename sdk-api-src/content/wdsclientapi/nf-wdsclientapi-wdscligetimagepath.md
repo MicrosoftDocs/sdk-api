@@ -1,19 +1,17 @@
 ---
 UID: NF:wdsclientapi.WdsCliGetImagePath
 title: WdsCliGetImagePath function (wdsclientapi.h)
-
 description: Returns the path to the file that contains the current image.
 old-location: wds\wdscligetimagepath.htm
 tech.root: wds
 ms.assetid: 1ad28066-dcec-4dd4-896d-e009e6827ea3
-
 ms.date: 12/05/2018
 ms.keywords: WdsCliGetImagePath, WdsCliGetImagePath function [Windows Deployment Services], wds.wdscligetimagepath, wdsclientapi/WdsCliGetImagePath
 ms.topic: function
-f1_keywords: 
- - "wdsclientapi/WdsCliGetImagePath"
+f1_keywords:
+- wdsclientapi/WdsCliGetImagePath
 dev_langs:
- - c++
+- c++
 req.header: wdsclientapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: WdsClientAPI.lib
 req.dll: WdsClientAPI.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - WdsClientAPI.dll
+- WdsClientAPI.dll
 api_name:
- - WdsCliGetImagePath
+- WdsCliGetImagePath
 targetos: Windows
 req.typenames: 
 req.redist: 

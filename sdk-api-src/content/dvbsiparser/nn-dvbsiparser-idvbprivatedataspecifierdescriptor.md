@@ -1,19 +1,17 @@
 ---
 UID: NN:dvbsiparser.IDvbPrivateDataSpecifierDescriptor
 title: IDvbPrivateDataSpecifierDescriptor (dvbsiparser.h)
-
 description: Implements methods that get data from a Digital Video Broadcast (DVB) private data descriptor. The private data descriptor describes broadcaster-specific data that is not part of the official MPEG-2 standard for broadcast streams.
 old-location: mstv\idvbprivatedataspecifierdescriptor.htm
 tech.root: mstv
 ms.assetid: 0d5a78a3-0d56-47e8-939f-006d5f4db5c4
-
 ms.date: 12/05/2018
 ms.keywords: IDvbPrivateDataSpecifierDescriptor, IDvbPrivateDataSpecifierDescriptor interface [Microsoft TV Technologies], IDvbPrivateDataSpecifierDescriptor interface [Microsoft TV Technologies],described, dvbsiparser/IDvbPrivateDataSpecifierDescriptor, mstv.idvbprivatedataspecifierdescriptor
 ms.topic: interface
-f1_keywords: 
- - "dvbsiparser/IDvbPrivateDataSpecifierDescriptor"
+f1_keywords:
+- dvbsiparser/IDvbPrivateDataSpecifierDescriptor
 dev_langs:
- - c++
+- c++
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dvbsiparser.h
+- dvbsiparser.h
 api_name:
- - IDvbPrivateDataSpecifierDescriptor
+- IDvbPrivateDataSpecifierDescriptor
 targetos: Windows
 req.typenames: 
 req.redist: 

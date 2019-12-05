@@ -1,19 +1,17 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMCoreProperties.SetModified
 title: IXpsOMCoreProperties::SetModified (xpsobjectmodel.h)
-
 description: Sets the modified property.
 old-location: xps\ixpsomcoreproperties_setmodified.htm
 tech.root: printdocs
 ms.assetid: 172f49b9-850d-46f0-bed1-678a070a7ae8
-
 ms.date: 12/05/2018
 ms.keywords: IXpsOMCoreProperties interface [XPS Documents and Packaging],SetModified method, IXpsOMCoreProperties.SetModified, IXpsOMCoreProperties::SetModified, SetModified, SetModified method [XPS Documents and Packaging], SetModified method [XPS Documents and Packaging],IXpsOMCoreProperties interface, xps.ixpsomcoreproperties_setmodified, xpsobjectmodel/IXpsOMCoreProperties::SetModified
 ms.topic: method
-f1_keywords: 
- - "xpsobjectmodel/IXpsOMCoreProperties.SetModified"
+f1_keywords:
+- xpsobjectmodel/IXpsOMCoreProperties.SetModified
 dev_langs:
- - c++
+- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsobjectmodel.h
+- xpsobjectmodel.h
 api_name:
- - IXpsOMCoreProperties.SetModified
+- IXpsOMCoreProperties.SetModified
 targetos: Windows
 req.typenames: 
 req.redist: 

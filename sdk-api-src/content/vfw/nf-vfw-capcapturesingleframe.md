@@ -1,19 +1,17 @@
 ---
 UID: NF:vfw.capCaptureSingleFrame
 title: capCaptureSingleFrame macro (vfw.h)
-
 description: The capCaptureSingleFrame macro appends a single frame to a capture file that was opened using the capCaptureSingleFrameOpen macro. You can use this macro or explicitly send the WM_CAP_SINGLE_FRAME message.
 old-location: multimedia\capcapturesingleframe.htm
 tech.root: Multimedia
 ms.assetid: 1204cd8f-a439-4dcc-8bba-f8fbc2184ca4
-
 ms.date: 12/05/2018
-ms.keywords: "_win32_capCaptureSingleFrame, capCaptureSingleFrame, capCaptureSingleFrame macro [Windows Multimedia], multimedia.capcapturesingleframe, vfw/capCaptureSingleFrame"
+ms.keywords: _win32_capCaptureSingleFrame, capCaptureSingleFrame, capCaptureSingleFrame macro [Windows Multimedia], multimedia.capcapturesingleframe, vfw/capCaptureSingleFrame
 ms.topic: macro
-f1_keywords: 
- - "vfw/capCaptureSingleFrame"
+f1_keywords:
+- vfw/capCaptureSingleFrame
 dev_langs:
- - c++
+- c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Vfw.h
+- Vfw.h
 api_name:
- - capCaptureSingleFrame
+- capCaptureSingleFrame
 targetos: Windows
 req.typenames: 
 req.redist: 

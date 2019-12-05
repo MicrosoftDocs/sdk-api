@@ -1,19 +1,17 @@
 ---
 UID: NF:vmr9.IVMRMixerControl9.GetAlpha
 title: IVMRMixerControl9::GetAlpha (vmr9.h)
-
 description: The GetAlpha method retrieves the constant alpha value that is applied to this video stream.
 old-location: dshow\ivmrmixercontrol9_getalpha.htm
 tech.root: DirectShow
 ms.assetid: 0806f27c-4728-4492-a2ac-26067b7c0aaa
-
 ms.date: 12/05/2018
 ms.keywords: GetAlpha, GetAlpha method [DirectShow], GetAlpha method [DirectShow],IVMRMixerControl9 interface, IVMRMixerControl9 interface [DirectShow],GetAlpha method, IVMRMixerControl9.GetAlpha, IVMRMixerControl9::GetAlpha, IVMRMixerControl9GetAlpha, dshow.ivmrmixercontrol9_getalpha, vmr9/IVMRMixerControl9::GetAlpha
 ms.topic: method
-f1_keywords: 
- - "vmr9/IVMRMixerControl9.GetAlpha"
+f1_keywords:
+- vmr9/IVMRMixerControl9.GetAlpha
 dev_langs:
- - c++
+- c++
 req.header: vmr9.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IVMRMixerControl9.GetAlpha
+- IVMRMixerControl9.GetAlpha
 targetos: Windows
 req.typenames: 
 req.redist: 

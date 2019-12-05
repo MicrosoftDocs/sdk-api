@@ -1,19 +1,17 @@
 ---
 UID: NF:tom.ITextPara.GetAlignment
 title: ITextPara::GetAlignment (tom.h)
-
 description: Retrieves the current paragraph alignment value.
 old-location: controls\ITextPara_GetAlignment.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\getalignment.htm
-
 ms.date: 12/05/2018
 ms.keywords: GetAlignment, GetAlignment method [Windows Controls], GetAlignment method [Windows Controls],ITextPara interface, ITextPara interface [Windows Controls],GetAlignment method, ITextPara.GetAlignment, ITextPara::GetAlignment, _win32_ITextPara_GetAlignment, _win32_ITextPara_GetAlignment_cpp, controls.ITextPara_GetAlignment, controls._win32_ITextPara_GetAlignment, tom/ITextPara::GetAlignment, tomAlignCenter, tomAlignInterLetter, tomAlignInterWord, tomAlignJustify, tomAlignLeft, tomAlignNewspaper, tomAlignRight, tomAlignScaled
 ms.topic: method
-f1_keywords: 
- - "tom/ITextPara.GetAlignment"
+f1_keywords:
+- tom/ITextPara.GetAlignment
 dev_langs:
- - c++
+- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msftedit.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msftedit.dll
+- Msftedit.dll
 api_name:
- - ITextPara.GetAlignment
+- ITextPara.GetAlignment
 targetos: Windows
 req.typenames: 
 req.redist: 

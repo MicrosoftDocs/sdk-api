@@ -1,19 +1,17 @@
 ---
 UID: NF:memoryapi.SetProcessWorkingSetSizeEx
 title: SetProcessWorkingSetSizeEx function (memoryapi.h)
-
 description: Sets the minimum and maximum working set sizes for the specified process.
 old-location: base\setprocessworkingsetsizeex.htm
 tech.root: ProcThread
 ms.assetid: 04332239-dfc2-4d32-987a-af187e725b71
-
 ms.date: 12/05/2018
 ms.keywords: QUOTA_LIMITS_HARDWS_MAX_DISABLE, QUOTA_LIMITS_HARDWS_MAX_ENABLE, QUOTA_LIMITS_HARDWS_MIN_DISABLE, QUOTA_LIMITS_HARDWS_MIN_ENABLE, SetProcessWorkingSetSizeEx, SetProcessWorkingSetSizeEx function, base.setprocessworkingsetsizeex, memoryapi/SetProcessWorkingSetSizeEx, winbase/SetProcessWorkingSetSizeEx
 ms.topic: function
-f1_keywords: 
- - "memoryapi/SetProcessWorkingSetSizeEx"
+f1_keywords:
+- memoryapi/SetProcessWorkingSetSizeEx
 dev_langs:
- - c++
+- c++
 req.header: memoryapi.h
 req.include-header: Windows Vista, Windows 7, Windows Server 2008  Windows Server 2008 R2, Windows.h
 req.target-type: Windows
@@ -32,21 +30,21 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-Memory-l1-1-1.dll
- - API-MS-Win-Core-Memory-l1-1-2.dll
- - API-MS-Win-Core-Memory-l1-1-3.dll
- - API-MS-Win-Core-Memory-L1-1-4.dll
- - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
- - KernelBase.dll
- - MinKernelBase.dll
+- Kernel32.dll
+- API-MS-Win-Core-Memory-l1-1-1.dll
+- API-MS-Win-Core-Memory-l1-1-2.dll
+- API-MS-Win-Core-Memory-l1-1-3.dll
+- API-MS-Win-Core-Memory-L1-1-4.dll
+- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+- KernelBase.dll
+- MinKernelBase.dll
 api_name:
- - SetProcessWorkingSetSizeEx
+- SetProcessWorkingSetSizeEx
 targetos: Windows
 req.typenames: 
 req.redist: 

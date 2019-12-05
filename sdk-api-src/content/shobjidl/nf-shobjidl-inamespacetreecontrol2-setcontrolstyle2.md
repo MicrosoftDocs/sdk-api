@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl.INameSpaceTreeControl2.SetControlStyle2
 title: INameSpaceTreeControl2::SetControlStyle2 (shobjidl.h)
-
 description: Sets the extended display styles for the namespace object's treeview controls.
 old-location: shell\INameSpaceTreeControl2_SetControlStyle2.htm
 tech.root: shell
 ms.assetid: 17d54fa9-ff5c-4fca-a7a6-7ecd4a58c7b9
-
 ms.date: 12/05/2018
 ms.keywords: INameSpaceTreeControl2 interface [Windows Shell],SetControlStyle2 method, INameSpaceTreeControl2.SetControlStyle2, INameSpaceTreeControl2::SetControlStyle2, SetControlStyle2, SetControlStyle2 method [Windows Shell], SetControlStyle2 method [Windows Shell],INameSpaceTreeControl2 interface, _shell_INameSpaceTreeControl2_SetControlStyle2, shell.INameSpaceTreeControl2_SetControlStyle2, shobjidl/INameSpaceTreeControl2::SetControlStyle2
 ms.topic: method
-f1_keywords: 
- - "shobjidl/INameSpaceTreeControl2.SetControlStyle2"
+f1_keywords:
+- shobjidl/INameSpaceTreeControl2.SetControlStyle2
 dev_langs:
- - c++
+- c++
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shobjidl.h
+- Shobjidl.h
 api_name:
- - INameSpaceTreeControl2.SetControlStyle2
+- INameSpaceTreeControl2.SetControlStyle2
 targetos: Windows
 req.typenames: 
 req.redist: 

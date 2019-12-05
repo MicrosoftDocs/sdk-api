@@ -1,19 +1,17 @@
 ---
 UID: NF:mfapi.MFAddPeriodicCallback
 title: MFAddPeriodicCallback function (mfapi.h)
-
 description: Sets a callback function to be called at a fixed interval.
 old-location: mf\mfaddperiodiccallback.htm
 tech.root: medfound
 ms.assetid: e5898fc8-72e9-45cc-8e85-4410ed7cc512
-
 ms.date: 12/05/2018
 ms.keywords: MFAddPeriodicCallback, MFAddPeriodicCallback function [Media Foundation], e5898fc8-72e9-45cc-8e85-4410ed7cc512, mf.mfaddperiodiccallback, mfapi/MFAddPeriodicCallback
 ms.topic: function
-f1_keywords: 
- - "mfapi/MFAddPeriodicCallback"
+f1_keywords:
+- mfapi/MFAddPeriodicCallback
 dev_langs:
- - c++
+- c++
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Mfplat.lib
 req.dll: Mfplat.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - mfplat.dll
+- mfplat.dll
 api_name:
- - MFAddPeriodicCallback
+- MFAddPeriodicCallback
 targetos: Windows
 req.typenames: 
 req.redist: 

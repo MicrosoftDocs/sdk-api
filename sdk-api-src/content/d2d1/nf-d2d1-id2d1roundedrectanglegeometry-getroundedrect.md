@@ -1,19 +1,17 @@
 ---
 UID: NF:d2d1.ID2D1RoundedRectangleGeometry.GetRoundedRect
 title: ID2D1RoundedRectangleGeometry::GetRoundedRect (d2d1.h)
-
 description: Retrieves a rounded rectangle that describes this rounded rectangle geometry.
 old-location: direct2d\ID2D1RoundedRectangleGeometry_GetRoundedRect.htm
 tech.root: Direct2D
 ms.assetid: 6f9abc57-bb0b-4e90-8478-eef05456f9d8
-
 ms.date: 12/05/2018
 ms.keywords: GetRoundedRect, GetRoundedRect method [Direct2D], GetRoundedRect method [Direct2D],ID2D1RoundedRectangleGeometry interface, ID2D1RoundedRectangleGeometry interface [Direct2D],GetRoundedRect method, ID2D1RoundedRectangleGeometry.GetRoundedRect, ID2D1RoundedRectangleGeometry::GetRoundedRect, d2d1/ID2D1RoundedRectangleGeometry::GetRoundedRect, direct2d.ID2D1RoundedRectangleGeometry_GetRoundedRect
 ms.topic: method
-f1_keywords: 
- - "d2d1/ID2D1RoundedRectangleGeometry.GetRoundedRect"
+f1_keywords:
+- d2d1/ID2D1RoundedRectangleGeometry.GetRoundedRect
 dev_langs:
- - c++
+- c++
 req.header: d2d1.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: D2d1.lib
 req.dll: D2d1.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D2d1.dll
+- D2d1.dll
 api_name:
- - ID2D1RoundedRectangleGeometry.GetRoundedRect
+- ID2D1RoundedRectangleGeometry.GetRoundedRect
 targetos: Windows
 req.typenames: 
 req.redist: 

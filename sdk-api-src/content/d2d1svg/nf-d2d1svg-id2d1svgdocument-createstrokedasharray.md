@@ -1,19 +1,17 @@
 ---
 UID: NF:d2d1svg.ID2D1SvgDocument.CreateStrokeDashArray
 title: ID2D1SvgDocument::CreateStrokeDashArray (d2d1svg.h)
-
 description: Creates a dash array object which can be used to set the stroke-dasharray property.
 old-location: direct2d\id2d1svgdocument_createstrokedasharray.htm
 tech.root: Direct2D
 ms.assetid: 559330E4-A0B9-437A-AD83-02C9409B5BE2
-
 ms.date: 12/05/2018
 ms.keywords: CreateStrokeDashArray, CreateStrokeDashArray method [Direct2D], CreateStrokeDashArray method [Direct2D],ID2D1SvgDocument interface, ID2D1SvgDocument interface [Direct2D],CreateStrokeDashArray method, ID2D1SvgDocument.CreateStrokeDashArray, ID2D1SvgDocument::CreateStrokeDashArray, d2d1svg/ID2D1SvgDocument::CreateStrokeDashArray, direct2d.id2d1svgdocument_createstrokedasharray
 ms.topic: method
-f1_keywords: 
- - "d2d1svg/ID2D1SvgDocument.CreateStrokeDashArray"
+f1_keywords:
+- d2d1svg/ID2D1SvgDocument.CreateStrokeDashArray
 dev_langs:
- - c++
+- c++
 req.header: d2d1svg.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Direct2d.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - direct2d.dll
+- direct2d.dll
 api_name:
- - ID2D1SvgDocument.CreateStrokeDashArray
+- ID2D1SvgDocument.CreateStrokeDashArray
 targetos: Windows
 req.typenames: 
 req.redist: 

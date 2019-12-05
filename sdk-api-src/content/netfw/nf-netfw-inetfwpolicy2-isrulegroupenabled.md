@@ -1,19 +1,17 @@
 ---
 UID: NF:netfw.INetFwPolicy2.IsRuleGroupEnabled
 title: INetFwPolicy2::IsRuleGroupEnabled (netfw.h)
-
 description: Determines whether a specified group of firewall rules are enabled or disabled.
 old-location: ics\inetfwpolicy2_isrulegroupenabled.htm
 tech.root: ics
 ms.assetid: b6f27763-6ceb-4bc3-be6f-f02908dc0387
-
 ms.date: 12/05/2018
 ms.keywords: INetFwPolicy2 interface [ICS/ICF],IsRuleGroupEnabled method, INetFwPolicy2.IsRuleGroupEnabled, INetFwPolicy2::IsRuleGroupEnabled, IsRuleGroupEnabled, IsRuleGroupEnabled method [ICS/ICF], IsRuleGroupEnabled method [ICS/ICF],INetFwPolicy2 interface, ics.inetfwpolicy2_isrulegroupenabled, netfw/INetFwPolicy2::IsRuleGroupEnabled
 ms.topic: method
-f1_keywords: 
- - "netfw/INetFwPolicy2.IsRuleGroupEnabled"
+f1_keywords:
+- netfw/INetFwPolicy2.IsRuleGroupEnabled
 dev_langs:
- - c++
+- c++
 req.header: netfw.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: FirewallAPI.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - FirewallAPI.dll
+- FirewallAPI.dll
 api_name:
- - INetFwPolicy2.IsRuleGroupEnabled
+- INetFwPolicy2.IsRuleGroupEnabled
 targetos: Windows
 req.typenames: 
 req.redist: 

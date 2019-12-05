@@ -1,19 +1,17 @@
 ---
 UID: NE:faxcomex.FAX_GROUP_STATUS_ENUM
 title: FAX_GROUP_STATUS_ENUM (faxcomex.h)
-
 description: The FAX_GROUP_STATUS_ENUM enumeration defines the status types for outbound routing groups.
 old-location: fax\_mfax_fax_group_status_enum.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_0tyl.htm
-
 ms.date: 12/05/2018
 ms.keywords: FAX_GROUP_STATUS_ENUM, FAX_GROUP_STATUS_ENUM enumeration [Fax Service], _mfax_fax_group_status_enum, fax._mfax_fax_group_status_enum, faxcomex/FAX_GROUP_STATUS_ENUM, faxcomex/fgsALL_DEV_NOT_VALID, faxcomex/fgsALL_DEV_VALID, faxcomex/fgsEMPTY, faxcomex/fgsSOME_DEV_NOT_VALID, fgsALL_DEV_NOT_VALID, fgsALL_DEV_VALID, fgsEMPTY, fgsSOME_DEV_NOT_VALID
 ms.topic: enum
-f1_keywords: 
- - "faxcomex/FAX_GROUP_STATUS_ENUM"
+f1_keywords:
+- faxcomex/FAX_GROUP_STATUS_ENUM
 dev_langs:
- - c++
+- c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - FaxComex.h
+- FaxComex.h
 api_name:
- - FAX_GROUP_STATUS_ENUM
+- FAX_GROUP_STATUS_ENUM
 targetos: Windows
 req.typenames: FAX_GROUP_STATUS_ENUM
 req.redist: 

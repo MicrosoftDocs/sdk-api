@@ -1,19 +1,17 @@
 ---
 UID: NF:searchapi.ISearchManager.get_PortNumber
 title: ISearchManager::get_PortNumber (searchapi.h)
-
 description: Retrieves the port number used to communicate with the proxy server. This port number is stored in the indexer and is set by the ISearchManager::SetProxy method.
 old-location: search\_search_ISearchManager_get_PortNumber.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\indexmanagement\isearchmanager\get_portnumber.htm
-
 ms.date: 12/05/2018
 ms.keywords: ISearchManager interface [search],get_PortNumber method, ISearchManager.get_PortNumber, ISearchManager::get_PortNumber, _search_ISearchManager_get_PortNumber, get_PortNumber, get_PortNumber method [search], get_PortNumber method [search],ISearchManager interface, search._search_ISearchManager_get_PortNumber, searchapi/ISearchManager::get_PortNumber
 ms.topic: method
-f1_keywords: 
- - "searchapi/ISearchManager.get_PortNumber"
+f1_keywords:
+- searchapi/ISearchManager.get_PortNumber
 dev_langs:
- - c++
+- c++
 req.header: searchapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Searchapi.h
+- Searchapi.h
 api_name:
- - ISearchManager.get_PortNumber
+- ISearchManager.get_PortNumber
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0

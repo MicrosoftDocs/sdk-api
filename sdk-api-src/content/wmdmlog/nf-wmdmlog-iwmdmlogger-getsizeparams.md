@@ -1,19 +1,17 @@
 ---
 UID: NF:wmdmlog.IWMDMLogger.GetSizeParams
 title: IWMDMLogger::GetSizeParams (wmdmlog.h)
-
 description: The GetSizeParams method retrieves the current size parameters of the current log file.
 old-location: wmdm\iwmdmlogger_getsizeparams.htm
 tech.root: WMDM
 ms.assetid: c8775cea-3764-44cf-a977-c4c529e2133e
-
 ms.date: 12/05/2018
 ms.keywords: GetSizeParams, GetSizeParams method [windows Media Device Manager], GetSizeParams method [windows Media Device Manager],IWMDMLogger interface, IWMDMLogger interface [windows Media Device Manager],GetSizeParams method, IWMDMLogger.GetSizeParams, IWMDMLogger::GetSizeParams, IWMDMLoggerGetSizeParams, wmdm.iwmdmlogger_getsizeparams, wmdmlog/IWMDMLogger::GetSizeParams
 ms.topic: method
-f1_keywords: 
- - "wmdmlog/IWMDMLogger.GetSizeParams"
+f1_keywords:
+- wmdmlog/IWMDMLogger.GetSizeParams
 dev_langs:
- - c++
+- c++
 req.header: wmdmlog.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mssachlp.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mssachlp.lib
- - mssachlp.dll
+- mssachlp.lib
+- mssachlp.dll
 api_name:
- - IWMDMLogger.GetSizeParams
+- IWMDMLogger.GetSizeParams
 targetos: Windows
 req.typenames: 
 req.redist: 

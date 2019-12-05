@@ -1,19 +1,17 @@
 ---
 UID: NF:wingdi.wglDescribeLayerPlane
 title: wglDescribeLayerPlane function (wingdi.h)
-
 description: The wglDescribeLayerPlane function obtains information about the layer planes of a given pixel format.
 old-location: opengl\wgldescribelayerplane.htm
 tech.root: OpenGL
 ms.assetid: a80d257e-7053-4328-8298-80ed72513837
-
 ms.date: 12/05/2018
-ms.keywords: "_ogl_wglDescribeLayerPlane, opengl.wgldescribelayerplane, wglDescribeLayerPlane, wglDescribeLayerPlane function [OpenGL], wingdi/wglDescribeLayerPlane"
+ms.keywords: _ogl_wglDescribeLayerPlane, opengl.wgldescribelayerplane, wglDescribeLayerPlane, wglDescribeLayerPlane function [OpenGL], wingdi/wglDescribeLayerPlane
 ms.topic: function
-f1_keywords: 
- - "wingdi/wglDescribeLayerPlane"
+f1_keywords:
+- wingdi/wglDescribeLayerPlane
 dev_langs:
- - c++
+- c++
 req.header: wingdi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Opengl32.lib
 req.dll: Opengl32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - opengl32.dll
+- opengl32.dll
 api_name:
- - wglDescribeLayerPlane
+- wglDescribeLayerPlane
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:d3dcsx.D3DX11CreateFFT1DComplex
 title: D3DX11CreateFFT1DComplex function (d3dcsx.h)
-
 description: Creates an ID3DX11FFT COM interface object.
 old-location: direct3d11\d3dx11createfft1dcomplex.htm
 tech.root: direct3d11
 ms.assetid: 3a7879fa-69d0-4c35-b5a8-ffb80665a22f
-
 ms.date: 12/05/2018
 ms.keywords: 198d836f-e656-5c8d-ac4c-cd5c594a32bd, D3DX11CreateFFT1DComplex, D3DX11CreateFFT1DComplex function [Direct3D 11], d3dcsx/D3DX11CreateFFT1DComplex, direct3d11.d3dx11createfft1dcomplex
 ms.topic: function
-f1_keywords: 
- - "d3dcsx/D3DX11CreateFFT1DComplex"
+f1_keywords:
+- d3dcsx/D3DX11CreateFFT1DComplex
 dev_langs:
- - c++
+- c++
 req.header: d3dcsx.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: D3dcsx.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - LibDef
+- LibDef
 api_location:
- - d3dcsx.lib
- - d3dcsx.dll
+- d3dcsx.lib
+- d3dcsx.dll
 api_name:
- - D3DX11CreateFFT1DComplex
+- D3DX11CreateFFT1DComplex
 targetos: Windows
 req.typenames: 
 req.redist: 

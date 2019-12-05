@@ -1,19 +1,17 @@
 ---
 UID: NN:upnp.IUPnPHttpHeaderControl
 title: IUPnPHttpHeaderControl (upnp.h)
-
 description: Enables the caller to specify additional HTTP headers sent in HTTP requests to a device.
 old-location: upnp\iupnphttpheadercontrol.htm
 tech.root: upnp
 ms.assetid: aed33117-9bfd-4a23-998f-4b8d040d6e3b
-
 ms.date: 12/05/2018
 ms.keywords: IUPnPHttpHeaderControl, IUPnPHttpHeaderControl interface [UPnP APIs], IUPnPHttpHeaderControl interface [UPnP APIs],described, upnp.iupnphttpheadercontrol, upnp/IUPnPHttpHeaderControl
 ms.topic: interface
-f1_keywords: 
- - "upnp/IUPnPHttpHeaderControl"
+f1_keywords:
+- upnp/IUPnPHttpHeaderControl
 dev_langs:
- - c++
+- c++
 req.header: upnp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Upnp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Upnp.dll
+- Upnp.dll
 api_name:
- - IUPnPHttpHeaderControl
+- IUPnPHttpHeaderControl
 targetos: Windows
 req.typenames: 
 req.redist: 

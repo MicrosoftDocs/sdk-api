@@ -1,19 +1,17 @@
 ---
 UID: NF:bcrypt.BCryptDeriveKey
 title: BCryptDeriveKey function (bcrypt.h)
-
 description: Derives a key from a secret agreement value.
 old-location: security\bcryptderivekey.htm
 tech.root: SecCNG
 ms.assetid: 33c3cbf7-6c08-42ed-ac3f-feb71f3a9cbf
-
 ms.date: 12/05/2018
 ms.keywords: BCRYPT_KDF_HASH, BCRYPT_KDF_HMAC, BCRYPT_KDF_SP80056A_CONCAT, BCRYPT_KDF_TLS_PRF, BCryptDeriveKey, BCryptDeriveKey function [Security], KDF_USE_SECRET_AS_HMAC_KEY_FLAG, bcrypt/BCryptDeriveKey, security.bcryptderivekey
 ms.topic: function
-f1_keywords: 
- - "bcrypt/BCryptDeriveKey"
+f1_keywords:
+- bcrypt/BCryptDeriveKey
 dev_langs:
- - c++
+- c++
 req.header: bcrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Bcrypt.lib
 req.dll: Bcrypt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Bcrypt.dll
- - Ksecdd.sys
+- Bcrypt.dll
+- Ksecdd.sys
 api_name:
- - BCryptDeriveKey
+- BCryptDeriveKey
 targetos: Windows
 req.typenames: 
 req.redist: 

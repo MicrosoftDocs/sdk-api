@@ -1,19 +1,17 @@
 ---
 UID: NN:wmp.IWMPSyncServices
 title: IWMPSyncServices (wmp.h)
-
 description: The IWMPSyncServices interface provides methods to enumerate available devices that can synchronize digital media files with Windows Media Player 10 or later.To use this interface, you must create a remoted instance of the Windows Media Player control.
 old-location: wmp\iwmpsyncservices.htm
 tech.root: WMP
 ms.assetid: 57db3646-2f79-4087-98b2-2bc9d2f3c866
-
 ms.date: 12/05/2018
 ms.keywords: IWMPSyncServices, IWMPSyncServices interface [Windows Media Player], IWMPSyncServices interface [Windows Media Player],described, IWMPSyncServicesInterface, wmp.iwmpsyncservices, wmp/IWMPSyncServices
 ms.topic: interface
-f1_keywords: 
- - "wmp/IWMPSyncServices"
+f1_keywords:
+- wmp/IWMPSyncServices
 dev_langs:
- - c++
+- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmp.h
+- wmp.h
 api_name:
- - IWMPSyncServices
+- IWMPSyncServices
 targetos: Windows
 req.typenames: 
 req.redist: 

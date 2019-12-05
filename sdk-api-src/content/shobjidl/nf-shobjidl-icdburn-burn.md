@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl.ICDBurn.Burn
 title: ICDBurn::Burn (shobjidl.h)
-
 description: Instructs data to be copied from the staging area to a writable CD.
 old-location: shell\ICDBurn_Burn.htm
 tech.root: shell
 ms.assetid: e081973a-e923-45de-93ba-3281be73cc93
-
 ms.date: 12/05/2018
 ms.keywords: Burn, Burn method [Windows Shell], Burn method [Windows Shell],ICDBurn interface, ICDBurn interface [Windows Shell],Burn method, ICDBurn.Burn, ICDBurn::Burn, _shell_ICDBurn_Burn, shell.ICDBurn_Burn, shobjidl/ICDBurn::Burn
 ms.topic: method
-f1_keywords: 
- - "shobjidl/ICDBurn.Burn"
+f1_keywords:
+- shobjidl/ICDBurn.Burn
 dev_langs:
- - c++
+- c++
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Shell32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - ICDBurn.Burn
+- ICDBurn.Burn
 targetos: Windows
 req.typenames: 
 req.redist: 

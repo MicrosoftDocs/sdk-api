@@ -1,19 +1,17 @@
 ---
 UID: NF:bdaiface.IBDA_FDC.GetTableSection
 title: IBDA_FDC::GetTableSection (bdaiface.h)
-
 description: Gets the latest table section.
 old-location: mstv\ibda_fdc_gettablesection.htm
 tech.root: mstv
 ms.assetid: 77c83234-c752-4f94-a3f1-cc62a5da894a
-
 ms.date: 12/05/2018
 ms.keywords: GetTableSection, GetTableSection method [Microsoft TV Technologies], GetTableSection method [Microsoft TV Technologies],IBDA_FDC interface, IBDA_FDC interface [Microsoft TV Technologies],GetTableSection method, IBDA_FDC.GetTableSection, IBDA_FDC::GetTableSection, bdaiface/IBDA_FDC::GetTableSection, mstv.ibda_fdc_gettablesection
 ms.topic: method
-f1_keywords: 
- - "bdaiface/IBDA_FDC.GetTableSection"
+f1_keywords:
+- bdaiface/IBDA_FDC.GetTableSection
 dev_langs:
- - c++
+- c++
 req.header: bdaiface.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - bdaiface.h
+- bdaiface.h
 api_name:
- - IBDA_FDC.GetTableSection
+- IBDA_FDC.GetTableSection
 targetos: Windows
 req.typenames: 
 req.redist: 

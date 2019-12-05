@@ -1,19 +1,17 @@
 ---
 UID: NF:shlwapi.StrTrimA
 title: StrTrimA function (shlwapi.h)
-
 description: Removes specified leading and trailing characters from a string.
 old-location: shell\StrTrim.htm
 tech.root: shell
 ms.assetid: aea422b9-326e-4b12-b2a9-7c220677a467
-
 ms.date: 12/05/2018
 ms.keywords: StrTrim, StrTrim function [Windows Shell], StrTrimA, StrTrimW, _win32_StrTrim, shell.StrTrim, shlwapi/StrTrim, shlwapi/StrTrimA, shlwapi/StrTrimW
 ms.topic: function
-f1_keywords: 
- - "shlwapi/StrTrim"
+f1_keywords:
+- shlwapi/StrTrim
 dev_langs:
- - c++
+- c++
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,21 +30,21 @@ req.lib: Shlwapi.lib
 req.dll: Shlwapi.dll (version 4.71 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Shlwapi.dll
- - API-MS-Win-Core-shlwapi-Obsolete-l1-1-0.dll
- - KernelBase.dll
- - API-MS-Win-Core-shlwapi-Obsolete-l1-2-0.dll
- - API-MS-Win-DownLevel-shlwapi-l1-1-0.dll
- - API-MS-Win-DownLevel-shlwapi-l1-1-1.dll
+- Shlwapi.dll
+- API-MS-Win-Core-shlwapi-Obsolete-l1-1-0.dll
+- KernelBase.dll
+- API-MS-Win-Core-shlwapi-Obsolete-l1-2-0.dll
+- API-MS-Win-DownLevel-shlwapi-l1-1-0.dll
+- API-MS-Win-DownLevel-shlwapi-l1-1-1.dll
 api_name:
- - StrTrim
- - StrTrimA
- - StrTrimW
+- StrTrim
+- StrTrimA
+- StrTrimW
 targetos: Windows
 req.typenames: 
 req.redist: 

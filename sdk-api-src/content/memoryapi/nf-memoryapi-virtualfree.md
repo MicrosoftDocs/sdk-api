@@ -1,19 +1,17 @@
 ---
 UID: NF:memoryapi.VirtualFree
 title: VirtualFree function (memoryapi.h)
-
 description: Releases, decommits, or releases and decommits a region of pages within the virtual address space of the calling process.
 old-location: base\virtualfree.htm
 tech.root: Memory
 ms.assetid: d6f27be8-8929-4a4d-b52c-fa99044ca243
-
 ms.date: 12/05/2018
 ms.keywords: MEM_COALESCE_PLACEHOLDERS, MEM_DECOMMIT, MEM_PRESERVE_PLACEHOLDER, MEM_RELEASE, VirtualFree, VirtualFree function, _win32_virtualfree, base.virtualfree, winbase/VirtualFree
 ms.topic: function
-f1_keywords: 
- - "memoryapi/VirtualFree"
+f1_keywords:
+- memoryapi/VirtualFree
 dev_langs:
- - c++
+- c++
 req.header: memoryapi.h
 req.include-header: Windows.h, Memoryapi.h
 req.target-type: Windows
@@ -32,22 +30,22 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-memory-l1-1-0.dll
- - KernelBase.dll
- - API-MS-Win-Core-memory-l1-1-1.dll
- - API-MS-Win-Core-memory-l1-1-2.dll
- - API-MS-Win-Core-memory-l1-1-3.dll
- - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
- - MinKernelBase.dll
- - API-MS-Win-Core-Memory-L1-1-4.dll
+- Kernel32.dll
+- API-MS-Win-Core-memory-l1-1-0.dll
+- KernelBase.dll
+- API-MS-Win-Core-memory-l1-1-1.dll
+- API-MS-Win-Core-memory-l1-1-2.dll
+- API-MS-Win-Core-memory-l1-1-3.dll
+- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+- MinKernelBase.dll
+- API-MS-Win-Core-Memory-L1-1-4.dll
 api_name:
- - VirtualFree
+- VirtualFree
 targetos: Windows
 req.typenames: 
 req.redist: 

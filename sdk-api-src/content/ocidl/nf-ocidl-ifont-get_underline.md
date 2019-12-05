@@ -1,19 +1,17 @@
 ---
 UID: NF:ocidl.IFont.get_Underline
 title: IFont::get_Underline (ocidl.h)
-
 description: Gets the font's current Underline property.
 old-location: com\ifont_get_underline.htm
 tech.root: com
 ms.assetid: 714a2678-6e3d-4b8d-8632-20eb41618fff
-
 ms.date: 12/05/2018
 ms.keywords: IFont interface [COM],get_Underline method, IFont.get_Underline, IFont::get_Underline, _ctrl_ifont_get_underline, com.ifont_get_underline, get_Underline, get_Underline method [COM], get_Underline method [COM],IFont interface, ocidl/IFont::get_Underline
 ms.topic: method
-f1_keywords: 
- - "ocidl/IFont.get_Underline"
+f1_keywords:
+- ocidl/IFont.get_Underline
 dev_langs:
- - c++
+- c++
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - OCIdl.h
+- OCIdl.h
 api_name:
- - IFont.get_Underline
+- IFont.get_Underline
 targetos: Windows
 req.typenames: 
 req.redist: 

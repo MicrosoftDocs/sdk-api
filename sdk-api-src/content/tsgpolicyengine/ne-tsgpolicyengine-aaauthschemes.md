@@ -1,19 +1,17 @@
 ---
 UID: NE:tsgpolicyengine.__MIDL___MIDL_itf_tsgpolicyengine_0000_0000_0001
 title: AAAuthSchemes (tsgpolicyengine.h)
-
 description: Specifies the type of authentication used to connect to Remote Desktop Gateway (RD Gateway).
 old-location: termserv\aaauthschemes.htm
 tech.root: TermServ
 ms.assetid: ff80f8ac-8378-4087-aa95-a081d2dd710a
-
 ms.date: 12/05/2018
 ms.keywords: AAAuthSchemes, AAAuthSchemes enumeration [Remote Desktop Services], AA_AUTH_ANY, AA_AUTH_BASIC, AA_AUTH_CONID, AA_AUTH_COOKIE, AA_AUTH_DIGEST, AA_AUTH_LOGGEDONCREDENTIALS, AA_AUTH_MAX, AA_AUTH_MIN, AA_AUTH_NEGOTIATE, AA_AUTH_NTLM, AA_AUTH_ORGID, AA_AUTH_SC, termserv.aaauthschemes, tsgpolicyengine/AAAuthSchemes, tsgpolicyengine/AA_AUTH_ANY, tsgpolicyengine/AA_AUTH_BASIC, tsgpolicyengine/AA_AUTH_CONID, tsgpolicyengine/AA_AUTH_COOKIE, tsgpolicyengine/AA_AUTH_DIGEST, tsgpolicyengine/AA_AUTH_LOGGEDONCREDENTIALS, tsgpolicyengine/AA_AUTH_MAX, tsgpolicyengine/AA_AUTH_MIN, tsgpolicyengine/AA_AUTH_NEGOTIATE, tsgpolicyengine/AA_AUTH_NTLM, tsgpolicyengine/AA_AUTH_ORGID, tsgpolicyengine/AA_AUTH_SC
 ms.topic: enum
-f1_keywords: 
- - "tsgpolicyengine/AAAuthSchemes"
+f1_keywords:
+- tsgpolicyengine/AAAuthSchemes
 dev_langs:
- - c++
+- c++
 req.header: tsgpolicyengine.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Tsgpolicyengine.h
- - TSGPolicyEngine.h
+- Tsgpolicyengine.h
+- TSGPolicyEngine.h
 api_name:
- - AAAuthSchemes
+- AAAuthSchemes
 targetos: Windows
 req.typenames: AAAuthSchemes
 req.redist: 

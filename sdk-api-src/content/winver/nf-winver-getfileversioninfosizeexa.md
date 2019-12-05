@@ -1,19 +1,17 @@
 ---
 UID: NF:winver.GetFileVersionInfoSizeExA
 title: GetFileVersionInfoSizeExA function (winver.h)
-
 description: Determines whether the operating system can retrieve version information for a specified file. If version information is available, GetFileVersionInfoSizeEx returns the size, in bytes, of that information.
 old-location: menurc\getfileversioninfosizeex.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\versioninformation\versioninformationreference\versioninformationfunctions\getfileversioninfosizeex.htm
-
 ms.date: 12/05/2018
 ms.keywords: FILE_VER_GET_LOCALISED, FILE_VER_GET_NEUTRAL, GetFileVersionInfoSizeEx, GetFileVersionInfoSizeEx function [Menus and Other Resources], GetFileVersionInfoSizeExA, GetFileVersionInfoSizeExW, _win32_GetFileVersionInfoSizeEx, _win32_getfileversioninfosizeex_cpp, menurc.getfileversioninfosizeex, winui._win32_getfileversioninfosizeex, winver/GetFileVersionInfoSizeEx, winver/GetFileVersionInfoSizeExA, winver/GetFileVersionInfoSizeExW
 ms.topic: function
-f1_keywords: 
- - "winver/GetFileVersionInfoSizeEx"
+f1_keywords:
+- winver/GetFileVersionInfoSizeEx
 dev_langs:
- - c++
+- c++
 req.header: winver.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,23 +30,23 @@ req.lib: Version.lib
 req.dll: Api-ms-win-core-version-l1-1-0.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - api-ms-win-core-version-l1-1-0.dll
- - API-MS-Win-Core-version-l1-1-0.dll
- - KernelBase.dll
- - API-MS-Win-Core-versionansi-l1-1-0.dll
- - API-MS-Win-DownLevel-version-l1-1-0.dll
- - API-MS-Win-Core-Versionansi-L1-1-1.dll
- - API-MS-Win-Core-Version-L1-1-1.dll
- - version.dll
+- api-ms-win-core-version-l1-1-0.dll
+- API-MS-Win-Core-version-l1-1-0.dll
+- KernelBase.dll
+- API-MS-Win-Core-versionansi-l1-1-0.dll
+- API-MS-Win-DownLevel-version-l1-1-0.dll
+- API-MS-Win-Core-Versionansi-L1-1-1.dll
+- API-MS-Win-Core-Version-L1-1-1.dll
+- version.dll
 api_name:
- - GetFileVersionInfoSizeEx
- - GetFileVersionInfoSizeExA
- - GetFileVersionInfoSizeExW
+- GetFileVersionInfoSizeEx
+- GetFileVersionInfoSizeExA
+- GetFileVersionInfoSizeExW
 targetos: Windows
 req.typenames: 
 req.redist: 

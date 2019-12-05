@@ -1,19 +1,17 @@
 ---
 UID: NS:wingdi.tagEMRCREATEMONOBRUSH
 title: EMRCREATEMONOBRUSH (wingdi.h)
-
 description: The EMRCREATEMONOBRUSH structure contains members for the CreatePatternBrush (when passed a monochrome bitmap) or CreateDIBPatternBrush (when passed a monochrome DIB) enhanced metafile records.
 old-location: gdi\emrcreatemonobrush.htm
 tech.root: gdi
 ms.assetid: 6f581ad4-0449-40b1-bcc6-737bfcdc33c4
-
 ms.date: 12/05/2018
-ms.keywords: "*PEMRCREATEMONOBRUSH, EMRCREATEMONOBRUSH, EMRCREATEMONOBRUSH structure [Windows GDI], PEMRCREATEMONOBRUSH, PEMRCREATEMONOBRUSH structure pointer [Windows GDI], _win32_EMRCREATEMONOBRUSH_str, gdi.emrcreatemonobrush, wingdi/EMRCREATEMONOBRUSH, wingdi/PEMRCREATEMONOBRUSH"
+ms.keywords: '*PEMRCREATEMONOBRUSH, EMRCREATEMONOBRUSH, EMRCREATEMONOBRUSH structure [Windows GDI], PEMRCREATEMONOBRUSH, PEMRCREATEMONOBRUSH structure pointer [Windows GDI], _win32_EMRCREATEMONOBRUSH_str, gdi.emrcreatemonobrush, wingdi/EMRCREATEMONOBRUSH, wingdi/PEMRCREATEMONOBRUSH'
 ms.topic: struct
-f1_keywords: 
- - "wingdi/EMRCREATEMONOBRUSH"
+f1_keywords:
+- wingdi/EMRCREATEMONOBRUSH
 dev_langs:
- - c++
+- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wingdi.h
+- Wingdi.h
 api_name:
- - EMRCREATEMONOBRUSH
+- EMRCREATEMONOBRUSH
 targetos: Windows
 req.typenames: EMRCREATEMONOBRUSH, *PEMRCREATEMONOBRUSH
 req.redist: 

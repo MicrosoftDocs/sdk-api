@@ -1,19 +1,17 @@
 ---
 UID: NF:msctf.ITfKeystrokeMgr.SetPreservedKeyDescription
 title: ITfKeystrokeMgr::SetPreservedKeyDescription (msctf.h)
-
 description: ITfKeystrokeMgr::SetPreservedKeyDescription method
 old-location: tsf\itfkeystrokemgr_setpreservedkeydescription.htm
 tech.root: TSF
 ms.assetid: feb83f22-652c-4fec-b35d-a0cc41eab533
-
 ms.date: 12/05/2018
 ms.keywords: ITfKeystrokeMgr interface [Text Services Framework],SetPreservedKeyDescription method, ITfKeystrokeMgr.SetPreservedKeyDescription, ITfKeystrokeMgr::SetPreservedKeyDescription, SetPreservedKeyDescription, SetPreservedKeyDescription method [Text Services Framework], SetPreservedKeyDescription method [Text Services Framework],ITfKeystrokeMgr interface, _tsf_itfkeystrokemgr_setpreservedkeydescription_ref, msctf/ITfKeystrokeMgr::SetPreservedKeyDescription, tsf.itfkeystrokemgr_setpreservedkeydescription
 ms.topic: method
-f1_keywords: 
- - "msctf/ITfKeystrokeMgr.SetPreservedKeyDescription"
+f1_keywords:
+- msctf/ITfKeystrokeMgr.SetPreservedKeyDescription
 dev_langs:
- - c++
+- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msctf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msctf.dll
+- Msctf.dll
 api_name:
- - ITfKeystrokeMgr.SetPreservedKeyDescription
+- ITfKeystrokeMgr.SetPreservedKeyDescription
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

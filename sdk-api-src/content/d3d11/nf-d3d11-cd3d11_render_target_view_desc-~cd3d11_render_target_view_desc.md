@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d11.CD3D11_RENDER_TARGET_VIEW_DESC.~CD3D11_RENDER_TARGET_VIEW_DESC
 title: CD3D11_RENDER_TARGET_VIEW_DESC::~CD3D11_RENDER_TARGET_VIEW_DESC (d3d11.h)
-
 description: Destroys an instance of a CD3D11_RENDER_TARGET_VIEW_DESC structure.
 old-location: direct3d11\cd3d11_render_target_view_desc__cd3d11_render_target_view_desc__.htm
 tech.root: direct3d11
 ms.assetid: 84E61B19-EAE1-423F-A76E-E1853A8D0008
-
 ms.date: 12/05/2018
 ms.keywords: CD3D11_RENDER_TARGET_VIEW_DESC interface [Direct3D 11],~CD3D11_RENDER_TARGET_VIEW_DESC destructor, CD3D11_RENDER_TARGET_VIEW_DESC.~CD3D11_RENDER_TARGET_VIEW_DESC, CD3D11_RENDER_TARGET_VIEW_DESC::~CD3D11_RENDER_TARGET_VIEW_DESC, CD3D11_RENDER_TARGET_VIEW_DESC::~CD3D11_RENDER_TARGET_VIEW_DESC(), d3d11/CD3D11_RENDER_TARGET_VIEW_DESC::~CD3D11_RENDER_TARGET_VIEW_DESC, direct3d11.cd3d11_render_target_view_desc__cd3d11_render_target_view_desc__, ~CD3D11_RENDER_TARGET_VIEW_DESC, ~CD3D11_RENDER_TARGET_VIEW_DESC destructor [Direct3D 11], ~CD3D11_RENDER_TARGET_VIEW_DESC destructor [Direct3D 11],CD3D11_RENDER_TARGET_VIEW_DESC interface
 ms.topic: method
-f1_keywords: 
- - "d3d11/CD3D11_RENDER_TARGET_VIEW_DESC.~CD3D11_RENDER_TARGET_VIEW_DESC"
+f1_keywords:
+- d3d11/CD3D11_RENDER_TARGET_VIEW_DESC.~CD3D11_RENDER_TARGET_VIEW_DESC
 dev_langs:
- - c++
+- c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: D3D11.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D11.lib
- - D3D11.dll
+- D3D11.lib
+- D3D11.dll
 api_name:
- - CD3D11_RENDER_TARGET_VIEW_DESC.~CD3D11_RENDER_TARGET_VIEW_DESC
+- CD3D11_RENDER_TARGET_VIEW_DESC.~CD3D11_RENDER_TARGET_VIEW_DESC
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:networkisolation.NetworkIsolationUnregisterForAppContainerChanges
 title: NetworkIsolationUnregisterForAppContainerChanges function (networkisolation.h)
-
 description: Is used to cancel an app container change registration and stop receiving notifications.
 old-location: ics\networkisolationunregisterforappcontainerchanges.htm
 tech.root: ics
 ms.assetid: 589f416d-058a-4711-863f-74b0dacc63eb
-
 ms.date: 12/05/2018
 ms.keywords: NetworkIsolationUnregisterForAppContainerChanges, NetworkIsolationUnregisterForAppContainerChanges function [ICS/ICF], ics.networkisolationunregisterforappcontainerchanges, networkisolation/NetworkIsolationUnregisterForAppContainerChanges
 ms.topic: function
-f1_keywords: 
- - "networkisolation/NetworkIsolationUnregisterForAppContainerChanges"
+f1_keywords:
+- networkisolation/NetworkIsolationUnregisterForAppContainerChanges
 dev_langs:
- - c++
+- c++
 req.header: networkisolation.h
 req.include-header: Netfw.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib:
 req.dll: Firewallapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - firewallapi.dll
- - API-MS-Win-Net-Isolation-l1-1-0.dll
- - API-MS-Win-Net-Isolation-l1-1-1.dll
- - wfapihost.dll
+- firewallapi.dll
+- API-MS-Win-Net-Isolation-l1-1-0.dll
+- API-MS-Win-Net-Isolation-l1-1-1.dll
+- wfapihost.dll
 api_name:
- - NetworkIsolationUnregisterForAppContainerChanges
+- NetworkIsolationUnregisterForAppContainerChanges
 targetos: Windows
 req.typenames: 
 req.redist: 

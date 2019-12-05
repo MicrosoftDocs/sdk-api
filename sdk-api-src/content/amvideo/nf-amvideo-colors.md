@@ -1,19 +1,17 @@
 ---
 UID: NF:amvideo.COLORS
 title: COLORS macro (amvideo.h)
-
 description: The COLORS macro retrieves the palette entries from a VIDEOINFO structure.
 old-location: dshow\colors.htm
 tech.root: DirectShow
 ms.assetid: 32541ee4-53ef-4f0a-b823-bb475a93a195
-
 ms.date: 12/05/2018
 ms.keywords: COLORS, COLORS function [DirectShow], amvideo/COLORS, dshow.colors
 ms.topic: macro
-f1_keywords: 
- - "amvideo/COLORS"
+f1_keywords:
+- amvideo/COLORS
 dev_langs:
- - c++
+- c++
 req.header: amvideo.h
 req.include-header: Streams.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Strmbase.lib (retail builds); Strmbasd.lib (debug builds)
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - LibDef
+- LibDef
 api_location:
- - Strmbase.lib
- - Strmbase.dll
- - Strmbasd.lib
- - Strmbasd.dll
+- Strmbase.lib
+- Strmbase.dll
+- Strmbasd.lib
+- Strmbasd.dll
 api_name:
- - COLORS
+- COLORS
 targetos: Windows
 req.typenames: 
 req.redist: 

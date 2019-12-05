@@ -1,19 +1,17 @@
 ---
 UID: NF:chstring.CHString.TrimRight
 title: CHString::TrimRight (chstring.h)
-
 description: The TrimRight method trims trailing whitespace characters from the string by removing trailing newline, space, and tab characters.
 old-location: wmi\chstring_trimright.htm
 tech.root: WmiSdk
 ms.assetid: e87ad3c4-d27a-403c-b59e-391d8021e87b
-
 ms.date: 12/05/2018
-ms.keywords: "?TrimRight@CHString@@QAEXXZ, ?TrimRight@CHString@@QEAAXXZ, CHString interface [Windows Management Instrumentation],TrimRight method, CHString.TrimRight, CHString::TrimRight, TrimRight, TrimRight method [Windows Management Instrumentation], TrimRight method [Windows Management Instrumentation],CHString interface, _hmm_chstring_trimright, chstring/CHString::TrimRight, wmi.chstring_trimright"
+ms.keywords: ?TrimRight@CHString@@QAEXXZ, ?TrimRight@CHString@@QEAAXXZ, CHString interface [Windows Management Instrumentation],TrimRight method, CHString.TrimRight, CHString::TrimRight, TrimRight, TrimRight method [Windows Management Instrumentation], TrimRight method [Windows Management Instrumentation],CHString interface, _hmm_chstring_trimright, chstring/CHString::TrimRight, wmi.chstring_trimright
 ms.topic: method
-f1_keywords: 
- - "chstring/CHString.TrimRight"
+f1_keywords:
+- chstring/CHString.TrimRight
 dev_langs:
- - c++
+- c++
 req.header: chstring.h
 req.include-header: FwCommon.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: FrameDyn.lib
 req.dll: FrameDynOS.dll; FrameDyn.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - FrameDynOS.dll
- - FrameDyn.dll
+- FrameDynOS.dll
+- FrameDyn.dll
 api_name:
- - CHString.TrimRight
- - ?TrimRight@CHString@@QAEXXZ
- - ?TrimRight@CHString@@QEAAXXZ
+- CHString.TrimRight
+- ?TrimRight@CHString@@QAEXXZ
+- ?TrimRight@CHString@@QEAAXXZ
 targetos: Windows
 req.typenames: 
 req.redist: 

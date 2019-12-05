@@ -1,19 +1,17 @@
 ---
 UID: NS:tapi3if.TAPI_CUSTOMTONE
 title: TAPI_CUSTOMTONE (tapi3if.h)
-
 description: The TAPI_CUSTOMTONE structure contains the parameters that define a custom tone.
 old-location: tapi3\tapi_customtone_str.htm
 tech.root: Tapi
 ms.assetid: 1d3c7b25-92a8-41f5-8186-f6425cc6be74
-
 ms.date: 12/05/2018
-ms.keywords: "*LPTAPI_CUSTOMTONE, TAPI_CUSTOMTONE, TAPI_CUSTOMTONE structure [TAPI 2.2], _tapi3_tapi_customtone_str, tapi3.tapi_customtone_str, tapi3if/TAPI_CUSTOMTONE"
+ms.keywords: '*LPTAPI_CUSTOMTONE, TAPI_CUSTOMTONE, TAPI_CUSTOMTONE structure [TAPI 2.2], _tapi3_tapi_customtone_str, tapi3.tapi_customtone_str, tapi3if/TAPI_CUSTOMTONE'
 ms.topic: struct
-f1_keywords: 
- - "tapi3if/TAPI_CUSTOMTONE"
+f1_keywords:
+- tapi3if/TAPI_CUSTOMTONE
 dev_langs:
- - c++
+- c++
 req.header: tapi3if.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Tapi3if.h
+- Tapi3if.h
 api_name:
- - TAPI_CUSTOMTONE
+- TAPI_CUSTOMTONE
 targetos: Windows
 req.typenames: TAPI_CUSTOMTONE, *LPTAPI_CUSTOMTONE
 req.redist: 

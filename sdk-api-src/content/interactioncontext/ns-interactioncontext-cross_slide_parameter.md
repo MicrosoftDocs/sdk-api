@@ -1,19 +1,17 @@
 ---
 UID: NS:interactioncontext.CROSS_SLIDE_PARAMETER
 title: CROSS_SLIDE_PARAMETER (interactioncontext.h)
-
 description: Defines the cross-slide threshold and its distance threshold.
 old-location: input_intcontext\cross_slide_parameter.htm
 tech.root: Input_IntContext
 ms.assetid: 3871f24e-34a4-4524-801d-4d60cf6165d9
-
 ms.date: 12/05/2018
 ms.keywords: CROSS_SLIDE_PARAMETER, CROSS_SLIDE_PARAMETER structure, input_intcontext.cross_slide_parameter, interactioncontext.cross_slide_parameter, interactioncontext/CROSS_SLIDE_PARAMETER
 ms.topic: struct
-f1_keywords: 
- - "interactioncontext/CROSS_SLIDE_PARAMETER"
+f1_keywords:
+- interactioncontext/CROSS_SLIDE_PARAMETER
 dev_langs:
- - c++
+- c++
 req.header: interactioncontext.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - interactioncontext.h
+- interactioncontext.h
 api_name:
- - CROSS_SLIDE_PARAMETER
+- CROSS_SLIDE_PARAMETER
 targetos: Windows
 req.typenames: CROSS_SLIDE_PARAMETER
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NN:mmc.IComponentData2
 title: IComponentData2 (mmc.h)
-
 description: The IComponentData2 interface supersedes the IComponentData interface.
 old-location: mmc\icomponentdata2.htm
 tech.root: mmc
 ms.assetid: 75510d73-3d5e-4d4c-a38c-c560a41a0baa
-
 ms.date: 12/05/2018
 ms.keywords: IComponentData2, IComponentData2 interface [MMC], IComponentData2 interface [MMC],described, _slate_icomponentdata2, mmc.icomponentdata2, mmc/IComponentData2
 ms.topic: interface
-f1_keywords: 
- - "mmc/IComponentData2"
+f1_keywords:
+- mmc/IComponentData2
 dev_langs:
- - c++
+- c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mmc.h
+- Mmc.h
 api_name:
- - IComponentData2
+- IComponentData2
 targetos: Windows
 req.typenames: 
 req.redist: 

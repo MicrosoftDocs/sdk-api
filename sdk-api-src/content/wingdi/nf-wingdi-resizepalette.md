@@ -1,19 +1,17 @@
 ---
 UID: NF:wingdi.ResizePalette
 title: ResizePalette function (wingdi.h)
-
 description: The ResizePalette function increases or decreases the size of a logical palette based on the specified value.
 old-location: gdi\resizepalette.htm
 tech.root: gdi
 ms.assetid: 77178869-cbfb-4b91-a5b0-7d0404e7534f
-
 ms.date: 12/05/2018
 ms.keywords: ResizePalette, ResizePalette function [Windows GDI], _win32_ResizePalette, gdi.resizepalette, wingdi/ResizePalette
 ms.topic: function
-f1_keywords: 
- - "wingdi/ResizePalette"
+f1_keywords:
+- wingdi/ResizePalette
 dev_langs:
- - c++
+- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - gdi32.dll
- - Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
- - GDI32Full.dll
+- gdi32.dll
+- Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
+- GDI32Full.dll
 api_name:
- - ResizePalette
+- ResizePalette
 targetos: Windows
 req.typenames: 
 req.redist: 

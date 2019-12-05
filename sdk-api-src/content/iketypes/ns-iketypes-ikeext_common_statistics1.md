@@ -1,19 +1,17 @@
 ---
 UID: NS:iketypes.IKEEXT_COMMON_STATISTICS1_
 title: IKEEXT_COMMON_STATISTICS1 (iketypes.h)
-
 description: Various statistics common to IKE, Authip, and IKEv2.
 old-location: fwp\ikeext_common_statistics1.htm
 tech.root: fwp
 ms.assetid: d2c473d7-921f-4175-8406-8ab24d7f74f4
-
 ms.date: 12/05/2018
 ms.keywords: IKEEXT_COMMON_STATISTICS1, IKEEXT_COMMON_STATISTICS1 structure [Filtering], fwp.ikeext_common_statistics1, iketypes/IKEEXT_COMMON_STATISTICS0
 ms.topic: struct
-f1_keywords: 
- - "iketypes/IKEEXT_COMMON_STATISTICS1"
+f1_keywords:
+- iketypes/IKEEXT_COMMON_STATISTICS1
 dev_langs:
- - c++
+- c++
 req.header: iketypes.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Iketypes.h
+- Iketypes.h
 api_name:
- - IKEEXT_COMMON_STATISTICS1
+- IKEEXT_COMMON_STATISTICS1
 targetos: Windows
 req.typenames: IKEEXT_COMMON_STATISTICS1
 req.redist: 

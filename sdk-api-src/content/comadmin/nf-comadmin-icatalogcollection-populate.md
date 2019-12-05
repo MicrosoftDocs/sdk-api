@@ -1,19 +1,17 @@
 ---
 UID: NF:comadmin.ICatalogCollection.Populate
 title: ICatalogCollection::Populate (comadmin.h)
-
 description: Populates the collection with data for all items contained in the collection.
 old-location: cos\icatalogcollection_populate.htm
 tech.root: cossdk
 ms.assetid: 817f203c-ddc6-47bd-a946-2393067eca44
-
 ms.date: 12/05/2018
 ms.keywords: ICatalogCollection interface [COM+],Populate method, ICatalogCollection.Populate, ICatalogCollection::Populate, Populate, Populate method [COM+], Populate method [COM+],ICatalogCollection interface, _cos_ICatalogCollection_Populate, comadmin/ICatalogCollection::Populate, cos.icatalogcollection_populate
 ms.topic: method
-f1_keywords: 
- - "comadmin/ICatalogCollection.Populate"
+f1_keywords:
+- comadmin/ICatalogCollection.Populate
 dev_langs:
- - c++
+- c++
 req.header: comadmin.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComAdmin.h
+- ComAdmin.h
 api_name:
- - ICatalogCollection.Populate
+- ICatalogCollection.Populate
 targetos: Windows
 req.typenames: 
 req.redist: 

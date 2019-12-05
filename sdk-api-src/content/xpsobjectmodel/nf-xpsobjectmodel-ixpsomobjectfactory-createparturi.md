@@ -1,19 +1,17 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMObjectFactory.CreatePartUri
 title: IXpsOMObjectFactory::CreatePartUri (xpsobjectmodel.h)
-
 description: Creates an IOpcPartUri interface that uses the specified URI.
 old-location: xps\ixpsomobjectfactory_createparturi.htm
 tech.root: printdocs
 ms.assetid: 0ed86fd1-ebc0-4eb6-a332-0dea3a21c100
-
 ms.date: 12/05/2018
 ms.keywords: CreatePartUri, CreatePartUri method [XPS Documents and Packaging], CreatePartUri method [XPS Documents and Packaging],IXpsOMObjectFactory interface, IXpsOMObjectFactory interface [XPS Documents and Packaging],CreatePartUri method, IXpsOMObjectFactory.CreatePartUri, IXpsOMObjectFactory::CreatePartUri, xps.ixpsomobjectfactory_createparturi, xpsobjectmodel/IXpsOMObjectFactory::CreatePartUri
 ms.topic: method
-f1_keywords: 
- - "xpsobjectmodel/IXpsOMObjectFactory.CreatePartUri"
+f1_keywords:
+- xpsobjectmodel/IXpsOMObjectFactory.CreatePartUri
 dev_langs:
- - c++
+- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsobjectmodel.h
+- xpsobjectmodel.h
 api_name:
- - IXpsOMObjectFactory.CreatePartUri
+- IXpsOMObjectFactory.CreatePartUri
 targetos: Windows
 req.typenames: 
 req.redist: 

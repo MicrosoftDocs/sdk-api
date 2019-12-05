@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationLegacyIAccessiblePattern.get_CurrentChildId
 title: IUIAutomationLegacyIAccessiblePattern::get_CurrentChildId (uiautomationclient.h)
-
 description: Retrieves the Microsoft Active Accessibility child identifier for the element.
 old-location: winauto\uiauto_IUIAutomationLegacyIAccessiblePattern_CurrentChildId.htm
 tech.root: WinAuto
 ms.assetid: 63277b76-bd3f-4255-82be-24797cafd175
-
 ms.date: 12/05/2018
 ms.keywords: CurrentChildId property [Windows Accessibility], CurrentChildId property [Windows Accessibility],IUIAutomationLegacyIAccessiblePattern interface, IUIAutomationLegacyIAccessiblePattern interface [Windows Accessibility],CurrentChildId property, IUIAutomationLegacyIAccessiblePattern.CurrentChildId, IUIAutomationLegacyIAccessiblePattern.get_CurrentChildId, IUIAutomationLegacyIAccessiblePattern::CurrentChildId, IUIAutomationLegacyIAccessiblePattern::get_CurrentChildId, get_CurrentChildId, uiauto.uiauto_IUIAutomationLegacyIAccessiblePattern_CurrentChildId, uiauto_IUIAutomationLegacyIAccessiblePattern_CurrentChildId, uiautomationclient/IUIAutomationLegacyIAccessiblePattern::CurrentChildId, uiautomationclient/IUIAutomationLegacyIAccessiblePattern::get_CurrentChildId, winauto.uiauto_IUIAutomationLegacyIAccessiblePattern_CurrentChildId
 ms.topic: method
-f1_keywords: 
- - "uiautomationclient/IUIAutomationLegacyIAccessiblePattern.CurrentChildId"
+f1_keywords:
+- uiautomationclient/IUIAutomationLegacyIAccessiblePattern.CurrentChildId
 dev_langs:
- - c++
+- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationClient.h
+- UIAutomationClient.h
 api_name:
- - IUIAutomationLegacyIAccessiblePattern.CurrentChildId
- - IUIAutomationLegacyIAccessiblePattern.get_CurrentChildId
+- IUIAutomationLegacyIAccessiblePattern.CurrentChildId
+- IUIAutomationLegacyIAccessiblePattern.get_CurrentChildId
 targetos: Windows
 req.typenames: 
 req.redist: 

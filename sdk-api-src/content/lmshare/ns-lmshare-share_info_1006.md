@@ -1,19 +1,17 @@
 ---
 UID: NS:lmshare._SHARE_INFO_1006
 title: SHARE_INFO_1006 (lmshare.h)
-
 description: Specifies the maximum number of concurrent connections that the shared resource can accommodate.
 old-location: fs\share_info_1006_str.htm
 tech.root: NetShare
 ms.assetid: 645a8670-5661-4d6c-8d9e-67c1bbb0f1d7
-
 ms.date: 12/05/2018
-ms.keywords: "*LPSHARE_INFO_1006, *PSHARE_INFO_1006, LPSHARE_INFO_1006, LPSHARE_INFO_1006 structure pointer [Files], PSHARE_INFO_1006, PSHARE_INFO_1006 structure pointer [Files], SHARE_INFO_1006, SHARE_INFO_1006 structure [Files], _win32_share_info_1006_str, fs.share_info_1006_str, lmshare/LPSHARE_INFO_1006, lmshare/PSHARE_INFO_1006, lmshare/SHARE_INFO_1006, netmgmt.share_info_1006_str"
+ms.keywords: '*LPSHARE_INFO_1006, *PSHARE_INFO_1006, LPSHARE_INFO_1006, LPSHARE_INFO_1006 structure pointer [Files], PSHARE_INFO_1006, PSHARE_INFO_1006 structure pointer [Files], SHARE_INFO_1006, SHARE_INFO_1006 structure [Files], _win32_share_info_1006_str, fs.share_info_1006_str, lmshare/LPSHARE_INFO_1006, lmshare/PSHARE_INFO_1006, lmshare/SHARE_INFO_1006, netmgmt.share_info_1006_str'
 ms.topic: struct
-f1_keywords: 
- - "lmshare/SHARE_INFO_1006"
+f1_keywords:
+- lmshare/SHARE_INFO_1006
 dev_langs:
- - c++
+- c++
 req.header: lmshare.h
 req.include-header: Lm.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Lmshare.h
+- Lmshare.h
 api_name:
- - SHARE_INFO_1006
+- SHARE_INFO_1006
 targetos: Windows
 req.typenames: SHARE_INFO_1006, *PSHARE_INFO_1006, *LPSHARE_INFO_1006
 req.redist: 

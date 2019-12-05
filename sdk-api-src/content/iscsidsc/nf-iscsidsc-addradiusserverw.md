@@ -1,19 +1,17 @@
 ---
 UID: NF:iscsidsc.AddRadiusServerW
 title: AddRadiusServerW function (iscsidsc.h)
-
 description: AddRadiusServer.
 old-location: iscsidisc\addradiusserver.htm
 tech.root: iSCSIDisc
 ms.assetid: ed89b329-f1ea-4606-b305-a245d29b119c
-
 ms.date: 12/05/2018
 ms.keywords: AddRadiusServer, AddRadiusServer function [iSCSI Discovery Library API], AddRadiusServerA, AddRadiusServerW, iscsidisc.addradiusserver, iscsidsc/AddRadiusServer, iscsidsc/AddRadiusServerA, iscsidsc/AddRadiusServerW
 ms.topic: function
-f1_keywords: 
- - "iscsidsc/AddRadiusServer"
+f1_keywords:
+- iscsidsc/AddRadiusServer
 dev_langs:
- - c++
+- c++
 req.header: iscsidsc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Iscsidsc.lib
 req.dll: Iscsidsc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Iscsidsc.dll
+- Iscsidsc.dll
 api_name:
- - AddRadiusServer
- - AddRadiusServerA
- - AddRadiusServerW
+- AddRadiusServer
+- AddRadiusServerA
+- AddRadiusServerW
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NN:msinkaut.IInkTablet
 title: IInkTablet (msinkaut.h)
-
 description: Represents the digitizer device of Tablet PC that receives tablet device messages or events.
 old-location: tablet\iinktablet.htm
 tech.root: tablet
 ms.assetid: 9a945740-b191-41f5-8b3d-49b7e2d1e463
-
 ms.date: 12/05/2018
 ms.keywords: 9a945740-b191-41f5-8b3d-49b7e2d1e463, IInkTablet, IInkTablet interface [Tablet PC], IInkTablet interface [Tablet PC],described, msinkaut/IInkTablet, tablet.iinktablet
 ms.topic: interface
-f1_keywords: 
- - "msinkaut/IInkTablet"
+f1_keywords:
+- msinkaut/IInkTablet
 dev_langs:
- - c++
+- c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: InkObj.dll
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - InkObj.dll
- - InkObj.dll.dll
+- InkObj.dll
+- InkObj.dll.dll
 api_name:
- - IInkTablet
+- IInkTablet
 targetos: Windows
 req.typenames: 
 req.redist: 

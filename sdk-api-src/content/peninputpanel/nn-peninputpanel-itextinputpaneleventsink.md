@@ -1,19 +1,17 @@
 ---
 UID: NN:peninputpanel.ITextInputPanelEventSink
 title: ITextInputPanelEventSink (peninputpanel.h)
-
 description: Defines methods that handle the ITextInputPanel Interface events.
 old-location: tablet\itextinputpaneleventsink.htm
 tech.root: tablet
 ms.assetid: e3ef6d65-ca6b-4587-bb21-3d3803a3432a
-
 ms.date: 12/05/2018
 ms.keywords: ITextInputPanelEventSink, ITextInputPanelEventSink interface [Tablet PC], ITextInputPanelEventSink interface [Tablet PC],described, e3ef6d65-ca6b-4587-bb21-3d3803a3432a, peninputpanel/ITextInputPanelEventSink, tablet.itextinputpaneleventsink
 ms.topic: interface
-f1_keywords: 
- - "peninputpanel/ITextInputPanelEventSink"
+f1_keywords:
+- peninputpanel/ITextInputPanelEventSink
 dev_langs:
- - c++
+- c++
 req.header: peninputpanel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Tiptsf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - tiptsf.dll
+- tiptsf.dll
 api_name:
- - ITextInputPanelEventSink
+- ITextInputPanelEventSink
 targetos: Windows
 req.typenames: 
 req.redist: 

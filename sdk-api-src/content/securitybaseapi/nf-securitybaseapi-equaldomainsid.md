@@ -1,19 +1,17 @@
 ---
 UID: NF:securitybaseapi.EqualDomainSid
 title: EqualDomainSid function (securitybaseapi.h)
-
 description: Determines whether two SIDs are from the same domain.
 old-location: security\equaldomainsid.htm
 tech.root: SecAuthZ
 ms.assetid: a7eea3bd-33e0-427c-b023-07851c192eb2
-
 ms.date: 12/05/2018
 ms.keywords: EqualDomainSid, EqualDomainSid function [Security], _win32_equaldomainsid, security.equaldomainsid, securitybaseapi/EqualDomainSid
 ms.topic: function
-f1_keywords: 
- - "securitybaseapi/EqualDomainSid"
+f1_keywords:
+- securitybaseapi/EqualDomainSid
 dev_langs:
- - c++
+- c++
 req.header: securitybaseapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,21 +30,21 @@ req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Advapi32.dll
- - API-MS-Win-DownLevel-AdvApi32-l1-1-0.dll
- - KernelBase.dll
- - API-MS-Win-DownLevel-AdvApi32-l1-1-1.dll
- - API-MS-Win-Security-base-l1-1-0.dll
- - API-MS-Win-Security-base-l1-2-0.dll
- - MinKernelBase.dll
- - API-MS-Win-Security-Base-L1-2-1.dll
+- Advapi32.dll
+- API-MS-Win-DownLevel-AdvApi32-l1-1-0.dll
+- KernelBase.dll
+- API-MS-Win-DownLevel-AdvApi32-l1-1-1.dll
+- API-MS-Win-Security-base-l1-1-0.dll
+- API-MS-Win-Security-base-l1-2-0.dll
+- MinKernelBase.dll
+- API-MS-Win-Security-Base-L1-2-1.dll
 api_name:
- - EqualDomainSid
+- EqualDomainSid
 targetos: Windows
 req.typenames: 
 req.redist: 

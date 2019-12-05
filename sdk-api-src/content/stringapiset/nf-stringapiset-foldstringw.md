@@ -1,19 +1,17 @@
 ---
 UID: NF:stringapiset.FoldStringW
 title: FoldStringW function (stringapiset.h)
-
 description: Maps one Unicode string to another, performing the specified transformation.
 old-location: intl\foldstring.htm
 tech.root: Intl
 ms.assetid: 986b9a72-04c0-49e2-8424-8948dc64de0c
-
 ms.date: 12/05/2018
 ms.keywords: FoldString, FoldString function [Internationalization for Windows Applications], FoldStringA, FoldStringW, MAP_COMPOSITE, MAP_EXPAND_LIGATURES, MAP_FOLDCZONE, MAP_FOLDDIGITS, MAP_PRECOMPOSED, _win32_FoldString, _win32_FoldString_cpp, intl.foldstring, stringapiset/FoldString, stringapiset/FoldStringA, stringapiset/FoldStringW, winnls/FoldString, winnls/FoldStringA, winnls/FoldStringW, winui._win32_FoldString
 ms.topic: function
-f1_keywords: 
- - "stringapiset/FoldString"
+f1_keywords:
+- stringapiset/FoldString
 dev_langs:
- - c++
+- c++
 req.header: stringapiset.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,22 +30,22 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-String-l1-1-0.dll
- - KernelBase.dll
- - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
- - MinKernelBase.dll
- - API-MS-Win-Core-Localization-Ansi-L1-1-0.dll
- - Kernel32Legacy.dll
+- Kernel32.dll
+- API-MS-Win-Core-String-l1-1-0.dll
+- KernelBase.dll
+- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+- MinKernelBase.dll
+- API-MS-Win-Core-Localization-Ansi-L1-1-0.dll
+- Kernel32Legacy.dll
 api_name:
- - FoldString
- - FoldStringA
- - FoldStringW
+- FoldString
+- FoldStringA
+- FoldStringW
 targetos: Windows
 req.typenames: 
 req.redist: 

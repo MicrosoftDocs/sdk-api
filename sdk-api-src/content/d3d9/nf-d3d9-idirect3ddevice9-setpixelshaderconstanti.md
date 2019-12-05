@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d9.IDirect3DDevice9.SetPixelShaderConstantI
 title: IDirect3DDevice9::SetPixelShaderConstantI (d3d9.h)
-
 description: Sets an integer shader constant.
 old-location: direct3d9\idirect3ddevice9__setpixelshaderconstanti.htm
 tech.root: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3ddevice9__setpixelshaderconstanti.htm
-
 ms.date: 12/05/2018
 ms.keywords: IDirect3DDevice9 interface [Direct3D 9],SetPixelShaderConstantI method, IDirect3DDevice9.SetPixelShaderConstantI, IDirect3DDevice9::SetPixelShaderConstantI, SetPixelShaderConstantI, SetPixelShaderConstantI method [Direct3D 9], SetPixelShaderConstantI method [Direct3D 9],IDirect3DDevice9 interface, c9149cc8-7c91-43d6-390a-f416b94deaea, d3d9helper/IDirect3DDevice9::SetPixelShaderConstantI, direct3d9.idirect3ddevice9__setpixelshaderconstanti
 ms.topic: method
-f1_keywords: 
- - "d3d9/IDirect3DDevice9.SetPixelShaderConstantI"
+f1_keywords:
+- d3d9/IDirect3DDevice9.SetPixelShaderConstantI
 dev_langs:
- - c++
+- c++
 req.header: d3d9.h
 req.include-header: D3D9.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: D3D9.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D9.lib
- - D3D9.dll
+- D3D9.lib
+- D3D9.dll
 api_name:
- - IDirect3DDevice9.SetPixelShaderConstantI
+- IDirect3DDevice9.SetPixelShaderConstantI
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:segment.IMSVidStreamBufferV2SourceEvent.BroadcastEventEx
 title: IMSVidStreamBufferV2SourceEvent::BroadcastEventEx (segment.h)
-
 description: Fired when an SBE2 source filter receives any event fired by a call to IBroadcastEventEx::FireEx.
 old-location: mstv\imsvidstreambufferv2sourceevent_broadcasteventex.htm
 tech.root: mstv
 ms.assetid: 731baecc-72f9-4ecd-bc01-40ad31c67051
-
 ms.date: 12/05/2018
 ms.keywords: BroadcastEventEx, BroadcastEventEx method [Microsoft TV Technologies], BroadcastEventEx method [Microsoft TV Technologies],IMSVidStreamBufferV2SourceEvent interface, IMSVidStreamBufferV2SourceEvent interface [Microsoft TV Technologies],BroadcastEventEx method, IMSVidStreamBufferV2SourceEvent.BroadcastEventEx, IMSVidStreamBufferV2SourceEvent::BroadcastEventEx, mstv.imsvidstreambufferv2sourceevent_broadcasteventex, segment/IMSVidStreamBufferV2SourceEvent::BroadcastEventEx
 ms.topic: method
-f1_keywords: 
- - "segment/IMSVidStreamBufferV2SourceEvent.BroadcastEventEx"
+f1_keywords:
+- segment/IMSVidStreamBufferV2SourceEvent.BroadcastEventEx
 dev_langs:
- - c++
+- c++
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - segment.h
+- segment.h
 api_name:
- - IMSVidStreamBufferV2SourceEvent.BroadcastEventEx
+- IMSVidStreamBufferV2SourceEvent.BroadcastEventEx
 targetos: Windows
 req.typenames: 
 req.redist: 

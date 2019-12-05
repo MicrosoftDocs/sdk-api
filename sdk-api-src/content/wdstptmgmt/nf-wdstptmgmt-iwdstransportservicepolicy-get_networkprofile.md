@@ -1,19 +1,17 @@
 ---
 UID: NF:wdstptmgmt.IWdsTransportServicePolicy.get_NetworkProfile
 title: IWdsTransportServicePolicy::get_NetworkProfile (wdstptmgmt.h)
-
 description: Enables a client computer to configure the network profile that is used by the WDS Transport Server.
 old-location: wds\iwdstransportservicepolicy_networkprofile.htm
 tech.root: wds
 ms.assetid: f4eee4b3-915e-4d47-8464-306f890a5a2e
-
 ms.date: 12/05/2018
 ms.keywords: IWdsTransportServicePolicy interface [Windows Deployment Services],NetworkProfile property, IWdsTransportServicePolicy.NetworkProfile, IWdsTransportServicePolicy.get_NetworkProfile, IWdsTransportServicePolicy::NetworkProfile, IWdsTransportServicePolicy::get_NetworkProfile, IWdsTransportServicePolicy::put_NetworkProfile, NetworkProfile property [Windows Deployment Services], NetworkProfile property [Windows Deployment Services],IWdsTransportServicePolicy interface, get_NetworkProfile, wds.iwdstransportservicepolicy_networkprofile, wdstptmgmt/IWdsTransportServicePolicy::NetworkProfile, wdstptmgmt/IWdsTransportServicePolicy::get_NetworkProfile, wdstptmgmt/IWdsTransportServicePolicy::put_NetworkProfile
 ms.topic: method
-f1_keywords: 
- - "wdstptmgmt/IWdsTransportServicePolicy.NetworkProfile"
+f1_keywords:
+- wdstptmgmt/IWdsTransportServicePolicy.NetworkProfile
 dev_langs:
- - c++
+- c++
 req.header: wdstptmgmt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: Wdstptmgmt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wdstptmgmt.dll
+- Wdstptmgmt.dll
 api_name:
- - IWdsTransportServicePolicy.NetworkProfile
- - IWdsTransportServicePolicy.get_NetworkProfile
- - IWdsTransportServicePolicy.put_NetworkProfile
+- IWdsTransportServicePolicy.NetworkProfile
+- IWdsTransportServicePolicy.get_NetworkProfile
+- IWdsTransportServicePolicy.put_NetworkProfile
 targetos: Windows
 req.typenames: 
 req.redist: 

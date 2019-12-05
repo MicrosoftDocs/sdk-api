@@ -1,19 +1,17 @@
 ---
 UID: NF:wsdbase.IWSDHttpAddress.GetPath
 title: IWSDHttpAddress::GetPath (wsdbase.h)
-
 description: Gets the URI path for this address.
 old-location: ncd\iwsdhttpaddress_getpath.htm
 tech.root: WsdApi
 ms.assetid: 5bf666d3-6f13-4607-a83a-ec71f40f00e6
-
 ms.date: 12/05/2018
 ms.keywords: GetPath, GetPath method, GetPath method,IWSDHttpAddress interface, IWSDHttpAddress interface,GetPath method, IWSDHttpAddress.GetPath, IWSDHttpAddress::GetPath, ncd.iwsdhttpaddress_getpath, wsdbase/IWSDHttpAddress::GetPath
 ms.topic: method
-f1_keywords: 
- - "wsdbase/IWSDHttpAddress.GetPath"
+f1_keywords:
+- wsdbase/IWSDHttpAddress.GetPath
 dev_langs:
- - c++
+- c++
 req.header: wsdbase.h
 req.include-header: Wsdapi.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wsdapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wsdapi.dll
+- Wsdapi.dll
 api_name:
- - IWSDHttpAddress.GetPath
+- IWSDHttpAddress.GetPath
 targetos: Windows
 req.typenames: 
 req.redist: 

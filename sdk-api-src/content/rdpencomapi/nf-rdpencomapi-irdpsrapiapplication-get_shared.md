@@ -1,19 +1,17 @@
 ---
 UID: NF:rdpencomapi.IRDPSRAPIApplication.get_Shared
 title: IRDPSRAPIApplication::get_Shared (rdpencomapi.h)
-
 description: The sharing state.
 old-location: rdp\irdpsrapiapplication_shared.htm
 tech.root: rdp
 ms.assetid: 13ca4f77-b50b-410e-a2b2-257056e9ad1b
-
 ms.date: 12/05/2018
 ms.keywords: IRDPSRAPIApplication interface [RDP],Shared property, IRDPSRAPIApplication.Shared, IRDPSRAPIApplication.get_Shared, IRDPSRAPIApplication::Shared, IRDPSRAPIApplication::get_Shared, IRDPSRAPIApplication::put_Shared, RDPSRAPIApplication object [RDP],Shared property, Shared property [RDP], Shared property [RDP],IRDPSRAPIApplication interface, Shared property [RDP],RDPSRAPIApplication object, get_Shared, rdp.irdpsrapiapplication_shared, rdpencomapi/IRDPSRAPIApplication::Shared, rdpencomapi/IRDPSRAPIApplication::get_Shared, rdpencomapi/IRDPSRAPIApplication::put_Shared
 ms.topic: method
-f1_keywords: 
- - "rdpencomapi/IRDPSRAPIApplication.Shared"
+f1_keywords:
+- rdpencomapi/IRDPSRAPIApplication.Shared
 dev_langs:
- - c++
+- c++
 req.header: rdpencomapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib:
 req.dll: RdpEncom.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - RdpEncom.dll
+- RdpEncom.dll
 api_name:
- - IRDPSRAPIApplication.Shared
- - IRDPSRAPIApplication.get_Shared
- - IRDPSRAPIApplication.put_Shared
- - RDPSRAPIApplication.Shared
+- IRDPSRAPIApplication.Shared
+- IRDPSRAPIApplication.get_Shared
+- IRDPSRAPIApplication.put_Shared
+- RDPSRAPIApplication.Shared
 targetos: Windows
 req.typenames: 
 req.redist: 

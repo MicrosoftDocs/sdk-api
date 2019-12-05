@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IGraphConfig.PushThroughData
 title: IGraphConfig::PushThroughData (strmif.h)
-
 description: The PushThroughData method pushes data through the filter graph to the specified pin.
 old-location: dshow\igraphconfig_pushthroughdata.htm
 tech.root: DirectShow
 ms.assetid: f3d72a32-f43a-4a61-b25e-6d472aa629de
-
 ms.date: 12/05/2018
 ms.keywords: IGraphConfig interface [DirectShow],PushThroughData method, IGraphConfig.PushThroughData, IGraphConfig::PushThroughData, IGraphConfigPushThroughData, PushThroughData, PushThroughData method [DirectShow], PushThroughData method [DirectShow],IGraphConfig interface, dshow.igraphconfig_pushthroughdata, strmif/IGraphConfig::PushThroughData
 ms.topic: method
-f1_keywords: 
- - "strmif/IGraphConfig.PushThroughData"
+f1_keywords:
+- strmif/IGraphConfig.PushThroughData
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IGraphConfig.PushThroughData
+- IGraphConfig.PushThroughData
 targetos: Windows
 req.typenames: 
 req.redist: 

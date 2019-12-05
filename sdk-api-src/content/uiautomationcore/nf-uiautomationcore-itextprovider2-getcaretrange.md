@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationcore.ITextProvider2.GetCaretRange
 title: ITextProvider2::GetCaretRange (uiautomationcore.h)
-
 description: Provides a zero-length text range at the location of the caret that belongs to the text-based control.
 old-location: winauto\uiauto_ITextProvider2_GetCaretRange.htm
 tech.root: WinAuto
 ms.assetid: 9DD77361-25E8-40A3-BDF4-AFE06F9D36F4
-
 ms.date: 12/05/2018
 ms.keywords: GetCaretRange, GetCaretRange method [Windows Accessibility], GetCaretRange method [Windows Accessibility],ITextProvider2 interface, ITextProvider2 interface [Windows Accessibility],GetCaretRange method, ITextProvider2.GetCaretRange, ITextProvider2::GetCaretRange, uiautomationcore/ITextProvider2::GetCaretRange, winauto.uiauto_ITextProvider2_GetCaretRange
 ms.topic: method
-f1_keywords: 
- - "uiautomationcore/ITextProvider2.GetCaretRange"
+f1_keywords:
+- uiautomationcore/ITextProvider2.GetCaretRange
 dev_langs:
- - c++
+- c++
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationCore.h
+- UIAutomationCore.h
 api_name:
- - ITextProvider2.GetCaretRange
+- ITextProvider2.GetCaretRange
 targetos: Windows
 req.typenames: 
 req.redist: 

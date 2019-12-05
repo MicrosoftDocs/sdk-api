@@ -1,19 +1,17 @@
 ---
 UID: NF:bdaiface.ICCSubStreamFiltering.get_SubstreamTypes
 title: ICCSubStreamFiltering::get_SubstreamTypes (bdaiface.h)
-
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\iccsubstreamfiltering_get_substreamtypes.htm
 tech.root: mstv
 ms.assetid: da622981-d2a6-4e91-9e59-b084932b5ff2
-
 ms.date: 12/05/2018
 ms.keywords: ICCSubStreamFiltering interface [Microsoft TV Technologies],get_SubstreamTypes method, ICCSubStreamFiltering.get_SubstreamTypes, ICCSubStreamFiltering::get_SubstreamTypes, ICCSubStreamFilteringget_SubstreamTypes, bdaiface/ICCSubStreamFiltering::get_SubstreamTypes, get_SubstreamTypes, get_SubstreamTypes method [Microsoft TV Technologies], get_SubstreamTypes method [Microsoft TV Technologies],ICCSubStreamFiltering interface, mstv.iccsubstreamfiltering_get_substreamtypes
 ms.topic: method
-f1_keywords: 
- - "bdaiface/ICCSubStreamFiltering.get_SubstreamTypes"
+f1_keywords:
+- bdaiface/ICCSubStreamFiltering.get_SubstreamTypes
 dev_langs:
- - c++
+- c++
 req.header: bdaiface.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - bdaiface.h
+- bdaiface.h
 api_name:
- - ICCSubStreamFiltering.get_SubstreamTypes
+- ICCSubStreamFiltering.get_SubstreamTypes
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:windows.foundation.IPropertyValueStatics.CreatePoint
 title: IPropertyValueStatics::IPropertyValueStatics (windows.foundation.h)
-
 description: Creates a new IPropertyValue object that contains the specified Point value.
 old-location: winrt\ipropertyvaluestatics_createpoint.htm
 tech.root: WinRT
 ms.assetid: b4cf8b1b-1673-4ac0-a66d-d83b98eec741
-
 ms.date: 12/05/2018
 ms.keywords: CreatePoint, CreatePoint method [Windows Runtime], CreatePoint method [Windows Runtime],IPropertyValueStatics interface, IPropertyValueStatics interface [Windows Runtime],CreatePoint method, IPropertyValueStatics.CreatePoint, IPropertyValueStatics.IPropertyValueStatics, IPropertyValueStatics::CreatePoint, IPropertyValueStatics::IPropertyValueStatics, windows/IPropertyValueStatics::CreatePoint, winrt.ipropertyvaluefactory_createpoint, winrt.ipropertyvaluestatics_createpoint
 ms.topic: method
-f1_keywords: 
- - "windows.foundation/IPropertyValueStatics.CreatePoint"
+f1_keywords:
+- windows.foundation/IPropertyValueStatics.CreatePoint
 dev_langs:
- - c++
+- c++
 req.header: windows.foundation.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Windows.Foundation.h
+- Windows.Foundation.h
 api_name:
- - IPropertyValueStatics.CreatePoint
+- IPropertyValueStatics.CreatePoint
 targetos: Windows
 req.typenames: 
 req.redist: 

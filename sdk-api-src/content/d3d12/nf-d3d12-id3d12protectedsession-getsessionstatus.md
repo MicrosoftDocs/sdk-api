@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d12.ID3D12ProtectedSession.GetSessionStatus
 title: ID3D12ProtectedSession::GetSessionStatus (d3d12.h)
-
 description: Gets the status of the protected session.
 old-location: direct3d12\id3d12protectedsession_getsessionstatus.htm
 tech.root: direct3d12
 ms.assetid: 9069D567-80BB-469D-A079-917D619F4F46
-
 ms.date: 12/05/2018
 ms.keywords: GetSessionStatus, GetSessionStatus method, GetSessionStatus method,ID3D12ProtectedSession interface, ID3D12ProtectedSession interface,GetSessionStatus method, ID3D12ProtectedSession.GetSessionStatus, ID3D12ProtectedSession::GetSessionStatus, d3d12/ID3D12ProtectedSession::GetSessionStatus, direct3d12.id3d12protectedsession_getsessionstatus
 ms.topic: method
-f1_keywords: 
- - "d3d12/ID3D12ProtectedSession.GetSessionStatus"
+f1_keywords:
+- d3d12/ID3D12ProtectedSession.GetSessionStatus
 dev_langs:
- - c++
+- c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: D3D12.lib
 req.dll: D3D12.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D12.dll
+- D3D12.dll
 api_name:
- - ID3D12ProtectedSession.GetSessionStatus
+- ID3D12ProtectedSession.GetSessionStatus
 targetos: Windows
 req.typenames: 
 req.redist: 

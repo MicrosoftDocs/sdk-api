@@ -1,19 +1,17 @@
 ---
 UID: NN:comsvcs.IObjPool
 title: IObjPool (comsvcs.h)
-
 description: Represents the key to each object in the transaction resource pool.
 old-location: cos\iobjpool.htm
 tech.root: cossdk
 ms.assetid: d3730a37-933b-4705-b787-4b8bb728a278
-
 ms.date: 12/05/2018
 ms.keywords: IObjPool, IObjPool interface [COM+], IObjPool interface [COM+],described, _cos_IObjPool, comsvcs/IObjPool, cos.iobjpool
 ms.topic: interface
-f1_keywords: 
- - "comsvcs/IObjPool"
+f1_keywords:
+- comsvcs/IObjPool
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - IObjPool
+- IObjPool
 targetos: Windows
 req.typenames: 
 req.redist: 

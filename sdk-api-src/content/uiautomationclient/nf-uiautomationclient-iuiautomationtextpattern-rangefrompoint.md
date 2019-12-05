@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationTextPattern.RangeFromPoint
 title: IUIAutomationTextPattern::RangeFromPoint (uiautomationclient.h)
-
 description: Retrieves the degenerate (empty) text range nearest to the specified screen coordinates.
 old-location: winauto\uiauto_IUIAutomationTextPattern_RangeFromPoint.htm
 tech.root: WinAuto
 ms.assetid: aa80b1d8-c50e-45be-8769-8b937c8e714a
-
 ms.date: 12/05/2018
 ms.keywords: IUIAutomationTextPattern interface [Windows Accessibility],RangeFromPoint method, IUIAutomationTextPattern.RangeFromPoint, IUIAutomationTextPattern::RangeFromPoint, RangeFromPoint, RangeFromPoint method [Windows Accessibility], RangeFromPoint method [Windows Accessibility],IUIAutomationTextPattern interface, uiauto.uiauto_IUIAutomationTextPattern_RangeFromPoint, uiauto_IUIAutomationTextPattern_RangeFromPoint, uiautomationclient/IUIAutomationTextPattern::RangeFromPoint, winauto.uiauto_IUIAutomationTextPattern_RangeFromPoint
 ms.topic: method
-f1_keywords: 
- - "uiautomationclient/IUIAutomationTextPattern.RangeFromPoint"
+f1_keywords:
+- uiautomationclient/IUIAutomationTextPattern.RangeFromPoint
 dev_langs:
- - c++
+- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationClient.h
+- UIAutomationClient.h
 api_name:
- - IUIAutomationTextPattern.RangeFromPoint
+- IUIAutomationTextPattern.RangeFromPoint
 targetos: Windows
 req.typenames: 
 req.redist: 

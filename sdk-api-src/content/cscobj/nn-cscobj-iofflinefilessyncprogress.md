@@ -1,19 +1,17 @@
 ---
 UID: NN:cscobj.IOfflineFilesSyncProgress
 title: IOfflineFilesSyncProgress (cscobj.h)
-
 description: Used to report progress back to the caller during synchronization and synchronization-related operations.
 old-location: of\iofflinefilessyncprogress.htm
 tech.root: offlinefiles
 ms.assetid: 7fc5ff29-be9d-4fad-96a8-94058bb708fa
-
 ms.date: 12/05/2018
 ms.keywords: IOfflineFilesSyncProgress, IOfflineFilesSyncProgress interface [Offline Files], IOfflineFilesSyncProgress interface [Offline Files],described, cscobj/IOfflineFilesSyncProgress, of.iofflinefilessyncprogress
 ms.topic: interface
-f1_keywords: 
- - "cscobj/IOfflineFilesSyncProgress"
+f1_keywords:
+- cscobj/IOfflineFilesSyncProgress
 dev_langs:
- - c++
+- c++
 req.header: cscobj.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: CscSvc.dll; CscObj.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CscSvc.dll
- - CscObj.dll
+- CscSvc.dll
+- CscObj.dll
 api_name:
- - IOfflineFilesSyncProgress
+- IOfflineFilesSyncProgress
 targetos: Windows
 req.typenames: 
 req.redist: 

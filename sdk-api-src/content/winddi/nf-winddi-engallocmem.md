@@ -1,19 +1,17 @@
 ---
 UID: NF:winddi.EngAllocMem
 title: EngAllocMem macro (winddi.h)
-
 description: The EngAllocMem function allocates a block of memory and inserts a caller-supplied tag before the allocation.
 old-location: display\engallocmem.htm
 tech.root: display
 ms.assetid: 61bef5a1-bf68-4d37-ae5d-13ff045a2344
-
 ms.date: 12/05/2018
 ms.keywords: EngAllocMem, EngAllocMem function [Display Devices], display.engallocmem, gdifncs_c8084f74-b624-4f79-be0a-cf1fc144afaa.xml, winddi/EngAllocMem
 ms.topic: macro
-f1_keywords: 
- - "winddi/EngAllocMem"
+f1_keywords:
+- winddi/EngAllocMem
 dev_langs:
- - c++
+- c++
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Universal
@@ -32,14 +30,14 @@ req.lib: Win32k.lib
 req.dll: Win32k.sys
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Win32k.sys
+- Win32k.sys
 api_name:
- - EngAllocMem
+- EngAllocMem
 targetos: Windows
 req.typenames: 
 req.redist: 

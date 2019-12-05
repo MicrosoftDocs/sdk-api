@@ -1,19 +1,17 @@
 ---
 UID: NS:ndattrib.tagUiInfo
 title: UiInfo (ndattrib.h)
-
 description: The UiInfo structure is used to display repair messages to the user.
 old-location: ndf\uiinfo.htm
 tech.root: NDF
 ms.assetid: 62d3c908-8fc4-4bd9-94ac-94dfcf8db395
-
 ms.date: 12/05/2018
-ms.keywords: "*PUiInfo, UiInfo, UiInfo structure [NDF], UiInfo,*PUiInfo, UiInfo,*PUiInfo structure [NDF], ndattrib/UiInfo, ndf.uiinfo"
+ms.keywords: '*PUiInfo, UiInfo, UiInfo structure [NDF], UiInfo,*PUiInfo, UiInfo,*PUiInfo structure [NDF], ndattrib/UiInfo, ndf.uiinfo'
 ms.topic: struct
-f1_keywords: 
- - "ndattrib/UiInfo, *PUiInfo"
+f1_keywords:
+- ndattrib/UiInfo, *PUiInfo
 dev_langs:
- - c++
+- c++
 req.header: ndattrib.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - ndattrib.h
+- ndattrib.h
 api_name:
- - UiInfo, *PUiInfo
+- UiInfo, *PUiInfo
 targetos: Windows
 req.typenames: UiInfo, *PUiInfo
 req.redist: 

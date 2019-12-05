@@ -1,19 +1,17 @@
 ---
 UID: NF:xamlom.IVisualTreeServiceCallback2.OnElementStateChanged
 title: IVisualTreeServiceCallback2::OnElementStateChanged (xamlom.h)
-
 description: Communicates the state of an element in the visual tree when it changes.
 old-location: xaml_diagnostics\ivisualtreeservicecallback2_onelementstatechanged.htm
 tech.root: xaml_diagnostics
 ms.assetid: A832FDC6-1485-432C-9A87-A3C94D0AF8CA
-
 ms.date: 12/05/2018
 ms.keywords: IVisualTreeServiceCallback2 interface,OnElementStateChanged method, IVisualTreeServiceCallback2.OnElementStateChanged, IVisualTreeServiceCallback2::OnElementStateChanged, OnElementStateChanged, OnElementStateChanged method, OnElementStateChanged method,IVisualTreeServiceCallback2 interface, xaml_diagnostics.ivisualtreeservicecallback2_onelementstatechanged, xamlom/IVisualTreeServiceCallback2::OnElementStateChanged
 ms.topic: method
-f1_keywords: 
- - "xamlom/IVisualTreeServiceCallback2.OnElementStateChanged"
+f1_keywords:
+- xamlom/IVisualTreeServiceCallback2.OnElementStateChanged
 dev_langs:
- - c++
+- c++
 req.header: xamlom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xamlom.h
+- xamlom.h
 api_name:
- - IVisualTreeServiceCallback2.OnElementStateChanged
+- IVisualTreeServiceCallback2.OnElementStateChanged
 targetos: Windows
 req.typenames: 
 req.redist: 

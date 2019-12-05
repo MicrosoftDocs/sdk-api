@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IDesktopWallpaper.GetWallpaper
 title: IDesktopWallpaper::GetWallpaper (shobjidl_core.h)
-
 description: Gets the current desktop wallpaper.
 old-location: shell\IDesktopWallpaper_GetWallpaper.htm
 tech.root: shell
 ms.assetid: A5AC5EB3-2091-4547-8B6A-C60C4E90DFBC
-
 ms.date: 12/05/2018
 ms.keywords: GetWallpaper, GetWallpaper method [Windows Shell], GetWallpaper method [Windows Shell],IDesktopWallpaper interface, IDesktopWallpaper interface [Windows Shell],GetWallpaper method, IDesktopWallpaper.GetWallpaper, IDesktopWallpaper::GetWallpaper, shell.IDesktopWallpaper_GetWallpaper, shobjidl_core/IDesktopWallpaper::GetWallpaper
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IDesktopWallpaper.GetWallpaper"
+f1_keywords:
+- shobjidl_core/IDesktopWallpaper.GetWallpaper
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - IDesktopWallpaper.GetWallpaper
+- IDesktopWallpaper.GetWallpaper
 targetos: Windows
 req.typenames: 
 req.redist: 

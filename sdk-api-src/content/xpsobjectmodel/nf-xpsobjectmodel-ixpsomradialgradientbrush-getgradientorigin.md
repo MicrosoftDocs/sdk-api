@@ -1,19 +1,17 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMRadialGradientBrush.GetGradientOrigin
 title: IXpsOMRadialGradientBrush::GetGradientOrigin (xpsobjectmodel.h)
-
 description: Gets the origin point of the radial gradient.
 old-location: xps\ixpsomradialgradientbrush_getgradientorigin.htm
 tech.root: printdocs
 ms.assetid: 44e55c42-a18b-45dd-aa92-b9336eedd9ad
-
 ms.date: 12/05/2018
 ms.keywords: GetGradientOrigin, GetGradientOrigin method [XPS Documents and Packaging], GetGradientOrigin method [XPS Documents and Packaging],IXpsOMRadialGradientBrush interface, IXpsOMRadialGradientBrush interface [XPS Documents and Packaging],GetGradientOrigin method, IXpsOMRadialGradientBrush.GetGradientOrigin, IXpsOMRadialGradientBrush::GetGradientOrigin, xps.ixpsomradialgradientbrush_getgradientorigin, xpsobjectmodel/IXpsOMRadialGradientBrush::GetGradientOrigin
 ms.topic: method
-f1_keywords: 
- - "xpsobjectmodel/IXpsOMRadialGradientBrush.GetGradientOrigin"
+f1_keywords:
+- xpsobjectmodel/IXpsOMRadialGradientBrush.GetGradientOrigin
 dev_langs:
- - c++
+- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsobjectmodel.h
+- xpsobjectmodel.h
 api_name:
- - IXpsOMRadialGradientBrush.GetGradientOrigin
+- IXpsOMRadialGradientBrush.GetGradientOrigin
 targetos: Windows
 req.typenames: 
 req.redist: 

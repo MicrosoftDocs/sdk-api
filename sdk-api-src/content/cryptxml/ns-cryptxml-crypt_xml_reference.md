@@ -1,19 +1,17 @@
 ---
 UID: NS:cryptxml._CRYPT_XML_REFERENCE
 title: CRYPT_XML_REFERENCE (cryptxml.h)
-
 description: Contains information used to populate the Reference element.
 old-location: security\crypt_xml_reference.htm
 tech.root: SecCrypto
 ms.assetid: af16af5a-b1e5-4250-bdb1-f3fceb1830b9
-
 ms.date: 12/05/2018
 ms.keywords: '*PCRYPT_XML_REFERENCE, CRYPT_XML_REFERENCE, CRYPT_XML_REFERENCE structure [Security], PCRYPT_XML_REFERENCE, PCRYPT_XML_REFERENCE structure pointer [Security], cryptxml/CRYPT_XML_REFERENCE, cryptxml/PCRYPT_XML_REFERENCE, security.crypt_xml_reference'
 ms.topic: struct
 f1_keywords:
 - cryptxml/CRYPT_XML_REFERENCE
 dev_langs:
- - c++
+- c++
 req.header: cryptxml.h
 req.include-header: 
 req.target-type: Windows

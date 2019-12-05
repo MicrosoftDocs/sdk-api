@@ -1,19 +1,17 @@
 ---
 UID: NS:vmr9._VMR9Frequency
 title: VMR9Frequency (vmr9.h)
-
 description: The VMR9Frequency structure describes the frequency of a video stream. Frequencies are described as ratios. For example, the NTSC frame rate of 29.97 fps is expressed as 30,000:1001.
 old-location: dshow\vmr9frequency.htm
 tech.root: DirectShow
 ms.assetid: a2d19dcf-521e-4df0-8e28-5561f2617411
-
 ms.date: 12/05/2018
 ms.keywords: VMR9Frequency, VMR9Frequency structure [DirectShow], VMR9FrequencyStructure, dshow.vmr9frequency, vmr9/VMR9Frequency
 ms.topic: struct
-f1_keywords: 
- - "vmr9/VMR9Frequency"
+f1_keywords:
+- vmr9/VMR9Frequency
 dev_langs:
- - c++
+- c++
 req.header: vmr9.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Vmr9.h
+- Vmr9.h
 api_name:
- - VMR9Frequency
+- VMR9Frequency
 targetos: Windows
 req.typenames: VMR9Frequency
 req.redist: 

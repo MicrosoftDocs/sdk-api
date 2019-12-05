@@ -1,19 +1,17 @@
 ---
 UID: NF:wbemglue.CWbemGlueFactory.CWbemGlueFactory
 title: CWbemGlueFactory::CWbemGlueFactory (wbemglue.h)
-
 description: The CWbemGlueFactory::CWbemGlueFactory constructor initializes a new instance of CWbemGlueFactory. This class is part of the WMI Provider Framework.
 old-location: wmi\cwbemgluefactory_cwbemgluefactory.htm
 tech.root: WmiSdk
 ms.assetid: 62cc28a8-6b0e-4ded-94e9-2ef3956cfd27
-
 ms.date: 12/05/2018
-ms.keywords: "??0CWbemGlueFactory@@QAE@XZ, ??0CWbemGlueFactory@@QEAA@XZ, CWbemGlueFactory, CWbemGlueFactory constructor [Windows Management Instrumentation], CWbemGlueFactory constructor [Windows Management Instrumentation],CWbemGlueFactory interface, CWbemGlueFactory interface [Windows Management Instrumentation],CWbemGlueFactory constructor, CWbemGlueFactory.CWbemGlueFactory, CWbemGlueFactory::CWbemGlueFactory, wbemglue/CWbemGlueFactory::CWbemGlueFactory, wmi.cwbemgluefactory_cwbemgluefactory"
+ms.keywords: ??0CWbemGlueFactory@@QAE@XZ, ??0CWbemGlueFactory@@QEAA@XZ, CWbemGlueFactory, CWbemGlueFactory constructor [Windows Management Instrumentation], CWbemGlueFactory constructor [Windows Management Instrumentation],CWbemGlueFactory interface, CWbemGlueFactory interface [Windows Management Instrumentation],CWbemGlueFactory constructor, CWbemGlueFactory.CWbemGlueFactory, CWbemGlueFactory::CWbemGlueFactory, wbemglue/CWbemGlueFactory::CWbemGlueFactory, wmi.cwbemgluefactory_cwbemgluefactory
 ms.topic: method
-f1_keywords: 
- - "wbemglue/CWbemGlueFactory.CWbemGlueFactory"
+f1_keywords:
+- wbemglue/CWbemGlueFactory.CWbemGlueFactory
 dev_langs:
- - c++
+- c++
 req.header: wbemglue.h
 req.include-header: FwCommon.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: FrameDyn.lib
 req.dll: FrameDynOS.dll; FrameDyn.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - FrameDynOS.dll
- - FrameDyn.dll
+- FrameDynOS.dll
+- FrameDyn.dll
 api_name:
- - CWbemGlueFactory.CWbemGlueFactory
- - ??0CWbemGlueFactory@@QAE@XZ
- - ??0CWbemGlueFactory@@QEAA@XZ
+- CWbemGlueFactory.CWbemGlueFactory
+- ??0CWbemGlueFactory@@QAE@XZ
+- ??0CWbemGlueFactory@@QEAA@XZ
 targetos: Windows
 req.typenames: 
 req.redist: 

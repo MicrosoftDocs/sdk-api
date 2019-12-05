@@ -1,19 +1,17 @@
 ---
 UID: NS:ws2atm.sockaddr_atm
 title: sockaddr_atm (ws2atm.h)
-
 description: The Windows Sockets sockaddr_atm structure stores socket address information for ATM sockets.
 old-location: winsock\sockaddr_atm_2.htm
 tech.root: WinSock
 ms.assetid: 6cbeb19f-0aa8-48a1-a46a-691edc542d5a
-
 ms.date: 12/05/2018
-ms.keywords: "*LPSOCKADDR_ATM, *PSOCKADDR_ATM, LPSOCKADDR_ATM, LPSOCKADDR_ATM structure pointer [Winsock], PSOCKADDR_ATM, PSOCKADDR_ATM structure pointer [Winsock], SOCKADDR_ATM, SOCKADDR_ATM structure [Winsock], _win32_sockaddr_atm_2, sockaddr_atm, sockaddr_atm structure [Winsock], winsock.sockaddr_atm_2, ws2atm/LPSOCKADDR_ATM, ws2atm/PSOCKADDR_ATM, ws2atm/SOCKADDR_ATM, ws2atm/sockaddr_atm"
+ms.keywords: '*LPSOCKADDR_ATM, *PSOCKADDR_ATM, LPSOCKADDR_ATM, LPSOCKADDR_ATM structure pointer [Winsock], PSOCKADDR_ATM, PSOCKADDR_ATM structure pointer [Winsock], SOCKADDR_ATM, SOCKADDR_ATM structure [Winsock], _win32_sockaddr_atm_2, sockaddr_atm, sockaddr_atm structure [Winsock], winsock.sockaddr_atm_2, ws2atm/LPSOCKADDR_ATM, ws2atm/PSOCKADDR_ATM, ws2atm/SOCKADDR_ATM, ws2atm/sockaddr_atm'
 ms.topic: struct
-f1_keywords: 
- - "ws2atm/sockaddr_atm"
+f1_keywords:
+- ws2atm/sockaddr_atm
 dev_langs:
- - c++
+- c++
 req.header: ws2atm.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Ws2atm.h
+- Ws2atm.h
 api_name:
- - sockaddr_atm
+- sockaddr_atm
 targetos: Windows
 req.typenames: sockaddr_atm, SOCKADDR_ATM, *PSOCKADDR_ATM, *LPSOCKADDR_ATM
 req.redist: 

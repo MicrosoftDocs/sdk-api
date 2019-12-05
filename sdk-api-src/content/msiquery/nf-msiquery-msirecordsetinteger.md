@@ -1,19 +1,17 @@
 ---
 UID: NF:msiquery.MsiRecordSetInteger
 title: MsiRecordSetInteger function (msiquery.h)
-
 description: Sets a record field to an integer field.
 old-location: setup\msirecordsetinteger.htm
 tech.root: Msi
 ms.assetid: d95105f0-afd6-4f56-94bd-ac8f49cb8f52
-
 ms.date: 12/05/2018
 ms.keywords: MsiRecordSetInteger, MsiRecordSetInteger function, _msi_msirecordsetinteger, msiquery/MsiRecordSetInteger, setup.msirecordsetinteger
 ms.topic: function
-f1_keywords: 
- - "msiquery/MsiRecordSetInteger"
+f1_keywords:
+- msiquery/MsiRecordSetInteger
 dev_langs:
- - c++
+- c++
 req.header: msiquery.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Msi.lib
 req.dll: Msi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Msi.dll
- - Ext-MS-Win-MSi-Misc-L1-1-0.dll
+- Msi.dll
+- Ext-MS-Win-MSi-Misc-L1-1-0.dll
 api_name:
- - MsiRecordSetInteger
+- MsiRecordSetInteger
 targetos: Windows
 req.typenames: 
 req.redist: 

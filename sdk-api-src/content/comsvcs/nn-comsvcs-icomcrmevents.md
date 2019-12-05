@@ -1,19 +1,17 @@
 ---
 UID: NN:comsvcs.IComCRMEvents
 title: IComCRMEvents (comsvcs.h)
-
 description: Notifies the subscriber about activities of the Compensating Resource Manager (CRM) feature of Component Services.
 old-location: cos\icomcrmevents.htm
 tech.root: cossdk
 ms.assetid: 720beffb-8fb5-4c87-9bcf-6db214543b01
-
 ms.date: 12/05/2018
 ms.keywords: IComCRMEvents, IComCRMEvents interface [COM+], IComCRMEvents interface [COM+],described, _dtc_icomcrmevents, comsvcs/IComCRMEvents, cos.icomcrmevents
 ms.topic: interface
-f1_keywords: 
- - "comsvcs/IComCRMEvents"
+f1_keywords:
+- comsvcs/IComCRMEvents
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - IComCRMEvents
+- IComCRMEvents
 targetos: Windows
 req.typenames: 
 req.redist: 

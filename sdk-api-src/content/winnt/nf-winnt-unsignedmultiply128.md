@@ -1,19 +1,17 @@
 ---
 UID: NF:winnt.UnsignedMultiply128
 title: UnsignedMultiply128 function (winnt.h)
-
 description: Multiplies two unsigned 64-bit integers to produce an unsigned 128-bit integer.
 old-location: winprog\unsignedmultiply128.htm
 tech.root: WinProg
 ms.assetid: C9F8D594-3E25-4494-835F-A873045FE83F
-
 ms.date: 12/05/2018
 ms.keywords: UnsignedMultiply128, UnsignedMultiply128 function [Windows API], winnt/UnsignedMultiply128, winprog.unsignedmultiply128
 ms.topic: function
-f1_keywords: 
- - "winnt/UnsignedMultiply128"
+f1_keywords:
+- winnt/UnsignedMultiply128
 dev_langs:
- - c++
+- c++
 req.header: winnt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Winnt.h
+- Winnt.h
 api_name:
- - UnsignedMultiply128
+- UnsignedMultiply128
 targetos: Windows
 req.typenames: 
 req.redist: 

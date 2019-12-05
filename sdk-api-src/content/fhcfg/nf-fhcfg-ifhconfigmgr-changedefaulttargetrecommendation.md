@@ -1,19 +1,17 @@
 ---
 UID: NF:fhcfg.IFhConfigMgr.ChangeDefaultTargetRecommendation
 title: IFhConfigMgr::ChangeDefaultTargetRecommendation (fhcfg.h)
-
 description: Causes the currently assigned backup target to be recommended or not recommended to other members of the home group that the computer belongs to.
 old-location: winprog\ifhconfigmgr_changedefaulttargetrecommendation.htm
 tech.root: DevNotes
 ms.assetid: 40F22464-FE28-40A0-85C6-74C5BD819E83
-
 ms.date: 12/05/2018
 ms.keywords: ChangeDefaultTargetRecommendation, ChangeDefaultTargetRecommendation method [Windows API], ChangeDefaultTargetRecommendation method [Windows API],FhConfigMgr class, ChangeDefaultTargetRecommendation method [Windows API],IFhConfigMgr interface, FhConfigMgr class [Windows API],ChangeDefaultTargetRecommendation method, IFhConfigMgr interface [Windows API],ChangeDefaultTargetRecommendation method, IFhConfigMgr.ChangeDefaultTargetRecommendation, IFhConfigMgr::ChangeDefaultTargetRecommendation, fhcfg/IFhConfigMgr::ChangeDefaultTargetRecommendation, winprog.ifhconfigmgr_changedefaulttargetrecommendation
 ms.topic: method
-f1_keywords: 
- - "fhcfg/IFhConfigMgr.ChangeDefaultTargetRecommendation"
+f1_keywords:
+- fhcfg/IFhConfigMgr.ChangeDefaultTargetRecommendation
 dev_langs:
- - c++
+- c++
 req.header: fhcfg.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Fhcfg.h
+- Fhcfg.h
 api_name:
- - IFhConfigMgr.ChangeDefaultTargetRecommendation
- - FhConfigMgr.ChangeDefaultTargetRecommendation
+- IFhConfigMgr.ChangeDefaultTargetRecommendation
+- FhConfigMgr.ChangeDefaultTargetRecommendation
 targetos: Windows
 req.typenames: 
 req.redist: 

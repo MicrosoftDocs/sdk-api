@@ -1,19 +1,17 @@
 ---
 UID: NF:azroles.IAzApplication2.InitializeClientContextFromToken2
 title: IAzApplication2::InitializeClientContextFromToken2 (azroles.h)
-
 description: Retrieves an IAzClientContext2 object pointer from the specified client token.
 old-location: security\iazapplication2_initializeclientcontextfromtoken2.htm
 tech.root: SecAuthZ
 ms.assetid: f77b5eb1-c121-4392-a317-7021059268ed
-
 ms.date: 12/05/2018
 ms.keywords: IAzApplication2 interface [Security],InitializeClientContextFromToken2 method, IAzApplication2.InitializeClientContextFromToken2, IAzApplication2::InitializeClientContextFromToken2, InitializeClientContextFromToken2, InitializeClientContextFromToken2 method [Security], InitializeClientContextFromToken2 method [Security],IAzApplication2 interface, azroles/IAzApplication2::InitializeClientContextFromToken2, security.iazapplication2_initializeclientcontextfromtoken2
 ms.topic: method
-f1_keywords: 
- - "azroles/IAzApplication2.InitializeClientContextFromToken2"
+f1_keywords:
+- azroles/IAzApplication2.InitializeClientContextFromToken2
 dev_langs:
- - c++
+- c++
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Azroles.lib
 req.dll: Azroles.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Azroles.dll
+- Azroles.dll
 api_name:
- - IAzApplication2.InitializeClientContextFromToken2
+- IAzApplication2.InitializeClientContextFromToken2
 targetos: Windows
 req.typenames: 
 req.redist: Windows Server 2003 Administration Tools Pack on Windows XP

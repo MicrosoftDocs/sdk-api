@@ -1,19 +1,17 @@
 ---
 UID: NF:msinkaut.IInkRectangle.put_Left
 title: IInkRectangle::put_Left (msinkaut.h)
-
 description: Gets or sets the left position of the InkRectangle object.
 old-location: tablet\inkrectangle_left.htm
 tech.root: tablet
 ms.assetid: 88f0d919-43d0-408f-97f8-1410b2833269
-
 ms.date: 12/05/2018
 ms.keywords: 88f0d919-43d0-408f-97f8-1410b2833269, IInkRectangle interface [Tablet PC],Left property, IInkRectangle.Left, IInkRectangle.put_Left, IInkRectangle::Left, IInkRectangle::get_Left, IInkRectangle::put_Left, InkRectangle.get_Left, InkRectangle.put_Left, Left property [Tablet PC], Left property [Tablet PC],IInkRectangle interface, get_Left, msinkaut/IInkRectangle::Left, msinkaut/IInkRectangle::get_Left, msinkaut/IInkRectangle::put_Left, put_Left, tablet.inkrectangle_left
 ms.topic: method
-f1_keywords: 
- - "msinkaut/IInkRectangle.Left"
+f1_keywords:
+- msinkaut/IInkRectangle.Left
 dev_langs:
- - c++
+- c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows
@@ -32,19 +30,19 @@ req.lib: InkObj.dll
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - InkObj.dll
- - InkObj.dll.dll
+- InkObj.dll
+- InkObj.dll.dll
 api_name:
- - IInkRectangle.Left
- - IInkRectangle.get_Left
- - IInkRectangle.put_Left
- - InkRectangle.get_Left
- - InkRectangle.put_Left
+- IInkRectangle.Left
+- IInkRectangle.get_Left
+- IInkRectangle.put_Left
+- InkRectangle.get_Left
+- InkRectangle.put_Left
 targetos: Windows
 req.typenames: 
 req.redist: 

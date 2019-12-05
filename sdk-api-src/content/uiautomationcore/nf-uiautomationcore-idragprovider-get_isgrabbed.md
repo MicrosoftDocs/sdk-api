@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationcore.IDragProvider.get_IsGrabbed
 title: IDragProvider::get_IsGrabbed (uiautomationcore.h)
-
 description: Indicates whether the element has been grabbed as part of a drag-and-drop operation.
 old-location: winauto\uiauto_idragprovider_isgrabbed.htm
 tech.root: WinAuto
 ms.assetid: E2A472A0-F9CE-4778-96DD-60B00D53EEA6
-
 ms.date: 12/05/2018
 ms.keywords: IDragProvider interface [Windows Accessibility],IsGrabbed property, IDragProvider.IsGrabbed, IDragProvider.get_IsGrabbed, IDragProvider::IsGrabbed, IDragProvider::get_IsGrabbed, IsGrabbed property [Windows Accessibility], IsGrabbed property [Windows Accessibility],IDragProvider interface, get_IsGrabbed, uiautomationcore/IDragProvider::IsGrabbed, uiautomationcore/IDragProvider::get_IsGrabbed, winauto.uiauto_idragprovider_isgrabbed
 ms.topic: method
-f1_keywords: 
- - "uiautomationcore/IDragProvider.IsGrabbed"
+f1_keywords:
+- uiautomationcore/IDragProvider.IsGrabbed
 dev_langs:
- - c++
+- c++
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationCore.h
+- UIAutomationCore.h
 api_name:
- - IDragProvider.IsGrabbed
- - IDragProvider.get_IsGrabbed
+- IDragProvider.IsGrabbed
+- IDragProvider.get_IsGrabbed
 targetos: Windows
 req.typenames: 
 req.redist: 

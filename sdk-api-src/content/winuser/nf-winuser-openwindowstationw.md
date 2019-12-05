@@ -1,19 +1,17 @@
 ---
 UID: NF:winuser.OpenWindowStationW
 title: OpenWindowStationW function (winuser.h)
-
 description: Opens the specified window station.
 old-location: winstation\openwindowstation.htm
 tech.root: winstation
 ms.assetid: 78ee7100-1bad-4c2d-b923-c5e67191bd41
-
 ms.date: 12/05/2018
 ms.keywords: OpenWindowStation, OpenWindowStation function [Windows Stations and Desktops], OpenWindowStationA, OpenWindowStationW, _win32_openwindowstation, base.openwindowstation, winstation.openwindowstation, winuser/OpenWindowStation, winuser/OpenWindowStationA, winuser/OpenWindowStationW
 ms.topic: function
-f1_keywords: 
- - "winuser/OpenWindowStation"
+f1_keywords:
+- winuser/OpenWindowStation
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,21 +30,21 @@ req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - User32.dll
- - API-MS-Win-RTCore-NTUser-WindowStation-l1-1-0.dll
- - Ext-MS-Win-NTUser-WindowStation-Ansi-L1-1-1.dll
- - Ext-MS-Win-NTUser-Windowstation-L1-1-0.dll
- - Ext-MS-Win-NTUser-Windowstation-L1-1-1.dll
- - Ext-MS-Win-NTUser-WindowStation-L1-1-2.dll
+- User32.dll
+- API-MS-Win-RTCore-NTUser-WindowStation-l1-1-0.dll
+- Ext-MS-Win-NTUser-WindowStation-Ansi-L1-1-1.dll
+- Ext-MS-Win-NTUser-Windowstation-L1-1-0.dll
+- Ext-MS-Win-NTUser-Windowstation-L1-1-1.dll
+- Ext-MS-Win-NTUser-WindowStation-L1-1-2.dll
 api_name:
- - OpenWindowStation
- - OpenWindowStationA
- - OpenWindowStationW
+- OpenWindowStation
+- OpenWindowStationA
+- OpenWindowStationW
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:uiribbon.IUIImageFromBitmap.CreateImage
 title: IUIImageFromBitmap::CreateImage (uiribbon.h)
-
 description: Creates an IUIImage object from a bitmap image.
 old-location: windowsribbon\windowsribbon_iuiimagefrombitmap_createimage.htm
 tech.root: windowsribbon
 ms.assetid: VS|scenicintent|~\scenicintent\reference\ifaces\iuiimagefrombitmap\createimage.htm
-
 ms.date: 12/05/2018
 ms.keywords: CreateImage, CreateImage method [Windows Ribbon], CreateImage method [Windows Ribbon],IUIImageFromBitmap interface, IUIImageFromBitmap interface [Windows Ribbon],CreateImage method, IUIImageFromBitmap.CreateImage, IUIImageFromBitmap::CreateImage, scenicintent_IUIImageFromBitmap_CreateImage, uiribbon/IUIImageFromBitmap::CreateImage, windowsribbon.windowsribbon_iuiimagefrombitmap_createimage
 ms.topic: method
-f1_keywords: 
- - "uiribbon/IUIImageFromBitmap.CreateImage"
+f1_keywords:
+- uiribbon/IUIImageFromBitmap.CreateImage
 dev_langs:
- - c++
+- c++
 req.header: uiribbon.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Mshtml.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mshtml.dll
+- Mshtml.dll
 api_name:
- - IUIImageFromBitmap.CreateImage
+- IUIImageFromBitmap.CreateImage
 targetos: Windows
 req.typenames: 
 req.redist: 

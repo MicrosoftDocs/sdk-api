@@ -1,19 +1,17 @@
 ---
 UID: NE:winbio._WINBIO_ASYNC_NOTIFICATION_METHOD
 title: WINBIO_ASYNC_NOTIFICATION_METHOD (winbio.h)
-
 description: Defines constants that specify how completion notifications for asynchronous operations are to be delivered to the client application.
 old-location: secbiomet\winbio_async_notification_method.htm
 tech.root: SecBioMet
 ms.assetid: 3256B178-DF12-4448-B775-CE419F793597
-
 ms.date: 12/05/2018
-ms.keywords: "*PWINBIO_ASYNC_NOTIFICATION_METHOD, WINBIO_ASYNC_NOTIFICATION_METHOD, WINBIO_ASYNC_NOTIFICATION_METHOD enumeration [Windows Biometric Framework API], WINBIO_ASYNC_NOTIFY_CALLBACK, WINBIO_ASYNC_NOTIFY_MAXIMUM_VALUE, WINBIO_ASYNC_NOTIFY_MESSAGE, WINBIO_ASYNC_NOTIFY_NONE, secbiomet.winbio_async_notification_method, winbio/WINBIO_ASYNC_NOTIFICATION_METHOD, winbio/WINBIO_ASYNC_NOTIFY_CALLBACK, winbio/WINBIO_ASYNC_NOTIFY_MAXIMUM_VALUE, winbio/WINBIO_ASYNC_NOTIFY_MESSAGE, winbio/WINBIO_ASYNC_NOTIFY_NONE"
+ms.keywords: '*PWINBIO_ASYNC_NOTIFICATION_METHOD, WINBIO_ASYNC_NOTIFICATION_METHOD, WINBIO_ASYNC_NOTIFICATION_METHOD enumeration [Windows Biometric Framework API], WINBIO_ASYNC_NOTIFY_CALLBACK, WINBIO_ASYNC_NOTIFY_MAXIMUM_VALUE, WINBIO_ASYNC_NOTIFY_MESSAGE, WINBIO_ASYNC_NOTIFY_NONE, secbiomet.winbio_async_notification_method, winbio/WINBIO_ASYNC_NOTIFICATION_METHOD, winbio/WINBIO_ASYNC_NOTIFY_CALLBACK, winbio/WINBIO_ASYNC_NOTIFY_MAXIMUM_VALUE, winbio/WINBIO_ASYNC_NOTIFY_MESSAGE, winbio/WINBIO_ASYNC_NOTIFY_NONE'
 ms.topic: enum
-f1_keywords: 
- - "winbio/WINBIO_ASYNC_NOTIFICATION_METHOD"
+f1_keywords:
+- winbio/WINBIO_ASYNC_NOTIFICATION_METHOD
 dev_langs:
- - c++
+- c++
 req.header: winbio.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Winbio.h
+- Winbio.h
 api_name:
- - WINBIO_ASYNC_NOTIFICATION_METHOD
+- WINBIO_ASYNC_NOTIFICATION_METHOD
 targetos: Windows
 req.typenames: WINBIO_ASYNC_NOTIFICATION_METHOD, *PWINBIO_ASYNC_NOTIFICATION_METHOD
 req.redist: 

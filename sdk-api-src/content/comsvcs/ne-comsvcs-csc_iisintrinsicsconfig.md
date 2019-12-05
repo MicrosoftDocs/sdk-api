@@ -1,19 +1,17 @@
 ---
 UID: NE:comsvcs.tagCSC_IISIntrinsicsConfig
 title: CSC_IISIntrinsicsConfig (comsvcs.h)
-
 description: Indicates whether the current IIS intrinsics are propagated into the new context.
 old-location: cos\csc_iisintrinsicsconfig.htm
 tech.root: cossdk
 ms.assetid: 69a3989b-724c-4e32-8a6a-4892610b0118
-
 ms.date: 12/05/2018
 ms.keywords: CSC_IISIntrinsicsConfig, CSC_IISIntrinsicsConfig enumeration [COM+], CSC_InheritIISIntrinsics, CSC_NoIISIntrinsics, _cos_CSC_IISIntrinsicsConfig, comsvcs/CSC_IISIntrinsicsConfig, comsvcs/CSC_InheritIISIntrinsics, comsvcs/CSC_NoIISIntrinsics, cos.csc_iisintrinsicsconfig
 ms.topic: enum
-f1_keywords: 
- - "comsvcs/CSC_IISIntrinsicsConfig"
+f1_keywords:
+- comsvcs/CSC_IISIntrinsicsConfig
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - CSC_IISIntrinsicsConfig
+- CSC_IISIntrinsicsConfig
 targetos: Windows
 req.typenames: CSC_IISIntrinsicsConfig
 req.redist: 

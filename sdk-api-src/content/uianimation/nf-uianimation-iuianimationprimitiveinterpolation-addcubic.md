@@ -1,19 +1,17 @@
 ---
 UID: NF:uianimation.IUIAnimationPrimitiveInterpolation.AddCubic
 title: IUIAnimationPrimitiveInterpolation::AddCubic (uianimation.h)
-
 description: Adds a cubic polynomial segment that describes the shape of a transition curve to the animation function.
 old-location: uianimation\iuianimationprimitiveinterpolation_addcubic.htm
 tech.root: UIAnimation
 ms.assetid: 98738F6A-364E-491F-BCA3-F8B74B036D89
-
 ms.date: 12/05/2018
 ms.keywords: AddCubic, AddCubic method [Windows Animation], AddCubic method [Windows Animation],IUIAnimationPrimitiveInterpolation interface, IUIAnimationPrimitiveInterpolation interface [Windows Animation],AddCubic method, IUIAnimationPrimitiveInterpolation.AddCubic, IUIAnimationPrimitiveInterpolation::AddCubic, uianimation.iuianimationprimitiveinterpolation_addcubic, uianimation/IUIAnimationPrimitiveInterpolation::AddCubic
 ms.topic: method
-f1_keywords: 
- - "uianimation/IUIAnimationPrimitiveInterpolation.AddCubic"
+f1_keywords:
+- uianimation/IUIAnimationPrimitiveInterpolation.AddCubic
 dev_langs:
- - c++
+- c++
 req.header: uianimation.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: UIAnimation.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAnimation.dll
+- UIAnimation.dll
 api_name:
- - IUIAnimationPrimitiveInterpolation.AddCubic
+- IUIAnimationPrimitiveInterpolation.AddCubic
 targetos: Windows
 req.typenames: 
 req.redist: 

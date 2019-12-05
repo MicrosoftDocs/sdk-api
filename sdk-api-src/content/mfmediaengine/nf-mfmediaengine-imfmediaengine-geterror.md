@@ -1,19 +1,17 @@
 ---
 UID: NF:mfmediaengine.IMFMediaEngine.GetError
 title: IMFMediaEngine::GetError (mfmediaengine.h)
-
 description: Gets the most recent error status.
 old-location: mf\imfmediaengine_geterror.htm
 tech.root: medfound
 ms.assetid: F8A51AF8-8D73-47BC-ADA2-7F5108587873
-
 ms.date: 12/05/2018
 ms.keywords: GetError, GetError method [Media Foundation], GetError method [Media Foundation],IMFMediaEngine interface, IMFMediaEngine interface [Media Foundation],GetError method, IMFMediaEngine.GetError, IMFMediaEngine::GetError, mf.imfmediaengine_geterror, mfmediaengine/IMFMediaEngine::GetError
 ms.topic: method
-f1_keywords: 
- - "mfmediaengine/IMFMediaEngine.GetError"
+f1_keywords:
+- mfmediaengine/IMFMediaEngine.GetError
 dev_langs:
- - c++
+- c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfmediaengine.h
+- mfmediaengine.h
 api_name:
- - IMFMediaEngine.GetError
+- IMFMediaEngine.GetError
 targetos: Windows
 req.typenames: 
 req.redist: 

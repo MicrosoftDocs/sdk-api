@@ -1,19 +1,17 @@
 ---
 UID: NN:mileffects.IMILBitmapEffectInteriorOutputConnector
 title: IMILBitmapEffectInteriorOutputConnector (mileffects.h)
-
 description: Exposes methods that define an interior output connector.
 old-location: wibe\_wibe_imilbitmapeffectinterioroutputconnector.htm
 tech.root: wibe
 ms.assetid: VS|wibe|~\wibelh\reference\ifaces\imilbitmapeffectinterioroutputconnector\imilbitmapeffectinterioroutputconnector.htm
-
 ms.date: 12/05/2018
 ms.keywords: IMILBitmapEffectInteriorOutputConnector, IMILBitmapEffectInteriorOutputConnector interface [WPF Bitmap Effects], IMILBitmapEffectInteriorOutputConnector interface [WPF Bitmap Effects],described, _wibe_imilbitmapeffectinterioroutputconnector, mileffects/IMILBitmapEffectInteriorOutputConnector, wibe._wibe_imilbitmapeffectinterioroutputconnector
 ms.topic: interface
-f1_keywords: 
- - "mileffects/IMILBitmapEffectInteriorOutputConnector"
+f1_keywords:
+- mileffects/IMILBitmapEffectInteriorOutputConnector
 dev_langs:
- - c++
+- c++
 req.header: mileffects.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Mileffects.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mileffects.dll
+- Mileffects.dll
 api_name:
- - IMILBitmapEffectInteriorOutputConnector
+- IMILBitmapEffectInteriorOutputConnector
 targetos: Windows
 req.typenames: 
 req.redist: Microsoft .Net 3.0

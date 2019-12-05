@@ -1,19 +1,17 @@
 ---
 UID: NF:mfmediaengine.IMFSourceBuffer.GetAppendWindowEnd
 title: IMFSourceBuffer::GetAppendWindowEnd (mfmediaengine.h)
-
 description: Gets the timestamp for the end of the append window.
 old-location: mf\imfsourcebuffer_getappendwindowend.htm
 tech.root: medfound
 ms.assetid: ac9806ca-8529-48be-8b5a-ae0126d8554d
-
 ms.date: 12/05/2018
 ms.keywords: GetAppendWindowEnd, GetAppendWindowEnd method [Media Foundation], GetAppendWindowEnd method [Media Foundation],IMFSourceBuffer interface, IMFSourceBuffer interface [Media Foundation],GetAppendWindowEnd method, IMFSourceBuffer.GetAppendWindowEnd, IMFSourceBuffer::GetAppendWindowEnd, mf.imfsourcebuffer_getappendwindowend, mfmediaengine/IMFSourceBuffer::GetAppendWindowEnd
 ms.topic: method
-f1_keywords: 
- - "mfmediaengine/IMFSourceBuffer.GetAppendWindowEnd"
+f1_keywords:
+- mfmediaengine/IMFSourceBuffer.GetAppendWindowEnd
 dev_langs:
- - c++
+- c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfmediaengine.h
+- mfmediaengine.h
 api_name:
- - IMFSourceBuffer.GetAppendWindowEnd
+- IMFSourceBuffer.GetAppendWindowEnd
 targetos: Windows
 req.typenames: 
 req.redist: 

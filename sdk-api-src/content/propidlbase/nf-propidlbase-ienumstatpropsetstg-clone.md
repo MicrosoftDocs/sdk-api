@@ -1,19 +1,17 @@
 ---
 UID: NF:propidlbase.IEnumSTATPROPSETSTG.Clone
 title: IEnumSTATPROPSETSTG::Clone (propidlbase.h)
-
 description: Creates an enumerator that contains the same enumeration state as the current STATPROPSETSTG structure enumerator.
 old-location: stg\ienumstatpropsetstg_clone.htm
 tech.root: Stg
 ms.assetid: f875d5e9-fac0-4961-9570-342f55cf307e
-
 ms.date: 12/05/2018
 ms.keywords: Clone, Clone method [Structured Storage], Clone method [Structured Storage],IEnumSTATPROPSETSTG interface, IEnumSTATPROPSETSTG interface [Structured Storage],Clone method, IEnumSTATPROPSETSTG.Clone, IEnumSTATPROPSETSTG::Clone, propidlbase/IEnumSTATPROPSETSTG::Clone, stg.ienumstatpropsetstg_clone
 ms.topic: method
-f1_keywords: 
- - "propidlbase/IEnumSTATPROPSETSTG.Clone"
+f1_keywords:
+- propidlbase/IEnumSTATPROPSETSTG.Clone
 dev_langs:
- - c++
+- c++
 req.header: propidlbase.h
 req.include-header: Propidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Ole32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Ole32.dll
+- Ole32.dll
 api_name:
- - IEnumSTATPROPSETSTG.Clone
+- IEnumSTATPROPSETSTG.Clone
 targetos: Windows
 req.typenames: 
 req.redist: 

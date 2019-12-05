@@ -1,19 +1,17 @@
 ---
 UID: NF:oaidl.IDispatch.GetTypeInfo
 title: IDispatch::GetTypeInfo (oaidl.h)
-
 description: Retrieves the type information for an object, which can then be used to get the type information for an interface.
 old-location: automat\idispatch_gettypeinfo.htm
 tech.root: automat
 ms.assetid: cc1ec9aa-6c40-4e70-819c-a7c6dd6b8c99
-
 ms.date: 12/05/2018
 ms.keywords: GetTypeInfo, GetTypeInfo method [Automation], GetTypeInfo method [Automation],IDispatch interface, GetTypeInfo method [Automation],IWebBrowser2 interface, IDispatch interface [Automation],GetTypeInfo method, IDispatch.GetTypeInfo, IDispatch::GetTypeInfo, IWebBrowser2 interface [Automation],GetTypeInfo method, IWebBrowser2::GetTypeInfo, _oa96_IDispatch::GetTypeInfo, automat.idispatch_gettypeinfo, oaidl/IDispatch::GetTypeInfo, oaidl/IWebBrowser2::GetTypeInfo
 ms.topic: method
-f1_keywords: 
- - "oaidl/IDispatch.GetTypeInfo"
+f1_keywords:
+- oaidl/IDispatch.GetTypeInfo
 dev_langs:
- - c++
+- c++
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - oaidl.h
- - Shdocvw.dll
+- oaidl.h
+- Shdocvw.dll
 api_name:
- - IDispatch.GetTypeInfo
- - IWebBrowser2.GetTypeInfo
+- IDispatch.GetTypeInfo
+- IWebBrowser2.GetTypeInfo
 targetos: Windows
 req.typenames: 
 req.redist: 

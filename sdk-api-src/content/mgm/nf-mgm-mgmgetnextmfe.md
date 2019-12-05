@@ -1,19 +1,17 @@
 ---
 UID: NF:mgm.MgmGetNextMfe
 title: MgmGetNextMfe function (mgm.h)
-
 description: The MgmGetNextMfe function retrieves one or more MFEs.
 old-location: rras\mgmgetnextmfe.htm
 tech.root: RRAS
 ms.assetid: 067003ef-bb92-48cc-bc13-5b90066c9123
-
 ms.date: 12/05/2018
 ms.keywords: MgmGetNextMfe, MgmGetNextMfe function [RAS], _mpr_mgmgetnextmfe, mgm/MgmGetNextMfe, rras.mgmgetnextmfe
 ms.topic: function
 f1_keywords:
 - mgm/MgmGetNextMfe
 dev_langs:
- - c++
+- c++
 req.header: mgm.h
 req.include-header: 
 req.target-type: Windows

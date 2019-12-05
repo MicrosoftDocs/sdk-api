@@ -1,19 +1,17 @@
 ---
 UID: NF:tom.ITextRange.MoveWhile
 title: ITextRange::MoveWhile (tom.h)
-
 description: Starts at a specified end of a range and searches while the characters belong to the set specified by Cset and while the number of characters is less than or equal to Count.
 old-location: controls\ITextRange_MoveWhile.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\movewhile.htm
-
 ms.date: 12/05/2018
 ms.keywords: ITextRange interface [Windows Controls],MoveWhile method, ITextRange.MoveWhile, ITextRange::MoveWhile, MoveWhile, MoveWhile method [Windows Controls], MoveWhile method [Windows Controls],ITextRange interface, _win32_ITextRange_MoveWhile, _win32_ITextRange_MoveWhile_cpp, controls.ITextRange_MoveWhile, controls._win32_ITextRange_MoveWhile, tom/ITextRange::MoveWhile
 ms.topic: method
-f1_keywords: 
- - "tom/ITextRange.MoveWhile"
+f1_keywords:
+- tom/ITextRange.MoveWhile
 dev_langs:
- - c++
+- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msftedit.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msftedit.dll
+- Msftedit.dll
 api_name:
- - ITextRange.MoveWhile
+- ITextRange.MoveWhile
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NE:dxva2api._DXVA2_VideoTransferFunction
 title: DXVA2_VideoTransferFunction (dxva2api.h)
-
 description: Specifies the conversion function from linear RGB to non-linear RGB (R'G'B').
 old-location: mf\dxva2_videotransferfunction.htm
 tech.root: medfound
 ms.assetid: 43b99d5f-ea28-4de2-b118-e2277f283dee
-
 ms.date: 12/05/2018
 ms.keywords: 43b99d5f-ea28-4de2-b118-e2277f283dee, DXVA2_VideoTransFuncMask, DXVA2_VideoTransFunc_10, DXVA2_VideoTransFunc_18, DXVA2_VideoTransFunc_20, DXVA2_VideoTransFunc_22, DXVA2_VideoTransFunc_240M, DXVA2_VideoTransFunc_28, DXVA2_VideoTransFunc_709, DXVA2_VideoTransFunc_Unknown, DXVA2_VideoTransFunc_sRGB, DXVA2_VideoTransferFunction, DXVA2_VideoTransferFunction enumeration [Media Foundation], dxva2api/DXVA2_VideoTransFuncMask, dxva2api/DXVA2_VideoTransFunc_10, dxva2api/DXVA2_VideoTransFunc_18, dxva2api/DXVA2_VideoTransFunc_20, dxva2api/DXVA2_VideoTransFunc_22, dxva2api/DXVA2_VideoTransFunc_240M, dxva2api/DXVA2_VideoTransFunc_28, dxva2api/DXVA2_VideoTransFunc_709, dxva2api/DXVA2_VideoTransFunc_Unknown, dxva2api/DXVA2_VideoTransFunc_sRGB, dxva2api/DXVA2_VideoTransferFunction, mf.dxva2_videotransferfunction
 ms.topic: enum
-f1_keywords: 
- - "dxva2api/DXVA2_VideoTransferFunction"
+f1_keywords:
+- dxva2api/DXVA2_VideoTransferFunction
 dev_langs:
- - c++
+- c++
 req.header: dxva2api.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - dxva2api.h
+- dxva2api.h
 api_name:
- - DXVA2_VideoTransferFunction
+- DXVA2_VideoTransferFunction
 targetos: Windows
 req.typenames: DXVA2_VideoTransferFunction
 req.redist: 

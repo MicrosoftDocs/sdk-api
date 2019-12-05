@@ -1,19 +1,17 @@
 ---
 UID: NF:msi.MsiGetProductInfoFromScriptW
 title: MsiGetProductInfoFromScriptW function (msi.h)
-
 description: The MsiGetProductInfoFromScript function returns product information for a Windows Installer script file.
 old-location: setup\msigetproductinfofromscript.htm
 tech.root: Msi
 ms.assetid: fe0bc709-b410-4a61-bea3-d11fc8f71883
-
 ms.date: 12/05/2018
 ms.keywords: MsiGetProductInfoFromScript, MsiGetProductInfoFromScript function, MsiGetProductInfoFromScriptA, MsiGetProductInfoFromScriptW, _msi_msigetproductinfofromscript, msi/MsiGetProductInfoFromScript, msi/MsiGetProductInfoFromScriptA, msi/MsiGetProductInfoFromScriptW, setup.msigetproductinfofromscript
 ms.topic: function
-f1_keywords: 
- - "msi/MsiGetProductInfoFromScript"
+f1_keywords:
+- msi/MsiGetProductInfoFromScript
 dev_langs:
- - c++
+- c++
 req.header: msi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Msi.lib
 req.dll: Msi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Msi.dll
+- Msi.dll
 api_name:
- - MsiGetProductInfoFromScript
- - MsiGetProductInfoFromScriptA
- - MsiGetProductInfoFromScriptW
+- MsiGetProductInfoFromScript
+- MsiGetProductInfoFromScriptA
+- MsiGetProductInfoFromScriptW
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:sbtsv.ITsSbResourcePluginStore.SaveTarget
 title: ITsSbResourcePluginStore::SaveTarget (sbtsv.h)
-
 description: Saves a target.
 old-location: termserv\itssbresourcepluginstore_savetarget.htm
 tech.root: TermServ
 ms.assetid: 323ac6ee-6a50-433b-85b3-a4409be08226
-
 ms.date: 12/05/2018
 ms.keywords: ITsSbResourcePluginStore interface [Remote Desktop Services],SaveTarget method, ITsSbResourcePluginStore.SaveTarget, ITsSbResourcePluginStore::SaveTarget, ITsSbResourcePluginStoreEx interface [Remote Desktop Services],SaveTarget method, ITsSbResourcePluginStoreEx::SaveTarget, SaveTarget, SaveTarget method [Remote Desktop Services], SaveTarget method [Remote Desktop Services],ITsSbResourcePluginStore interface, SaveTarget method [Remote Desktop Services],ITsSbResourcePluginStoreEx interface, sbtsv/ITsSbResourcePluginStore::SaveTarget, sbtsv/ITsSbResourcePluginStoreEx::SaveTarget, termserv.itssbresourcepluginstore_savetarget
 ms.topic: method
-f1_keywords: 
- - "sbtsv/ITsSbResourcePluginStore.SaveTarget"
+f1_keywords:
+- sbtsv/ITsSbResourcePluginStore.SaveTarget
 dev_langs:
- - c++
+- c++
 req.header: sbtsv.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - sbtsv.h
+- sbtsv.h
 api_name:
- - ITsSbResourcePluginStore.SaveTarget
- - ITsSbResourcePluginStoreEx.SaveTarget
+- ITsSbResourcePluginStore.SaveTarget
+- ITsSbResourcePluginStoreEx.SaveTarget
 targetos: Windows
 req.typenames: 
 req.redist: 

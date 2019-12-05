@@ -1,19 +1,17 @@
 ---
 UID: NF:sysinfoapi.GetWindowsDirectoryA
 title: GetWindowsDirectoryA function (sysinfoapi.h)
-
 description: Retrieves the path of the Windows directory.
 old-location: base\getwindowsdirectory.htm
 tech.root: SysInfo
 ms.assetid: 8c9b55e1-121a-4405-9f83-043752dd48ed
-
 ms.date: 12/05/2018
 ms.keywords: GetWindowsDirectory, GetWindowsDirectory function, GetWindowsDirectoryA, GetWindowsDirectoryW, _win32_getwindowsdirectory, base.getwindowsdirectory, sysinfoapi/GetWindowsDirectory, sysinfoapi/GetWindowsDirectoryA, sysinfoapi/GetWindowsDirectoryW
 ms.topic: function
-f1_keywords: 
- - "sysinfoapi/GetWindowsDirectory"
+f1_keywords:
+- sysinfoapi/GetWindowsDirectory
 dev_langs:
- - c++
+- c++
 req.header: sysinfoapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,24 +30,24 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-SysInfo-l1-1-0.dll
- - KernelBase.dll
- - API-MS-Win-Core-SysInfo-l1-2-0.dll
- - API-MS-Win-Core-SysInfo-l1-2-1.dll
- - API-MS-Win-Core-SysInfo-l1-2-2.dll
- - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
- - MinKernelBase.dll
- - API-MS-Win-Core-SysInfo-l1-2-3.dll
+- Kernel32.dll
+- API-MS-Win-Core-SysInfo-l1-1-0.dll
+- KernelBase.dll
+- API-MS-Win-Core-SysInfo-l1-2-0.dll
+- API-MS-Win-Core-SysInfo-l1-2-1.dll
+- API-MS-Win-Core-SysInfo-l1-2-2.dll
+- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+- MinKernelBase.dll
+- API-MS-Win-Core-SysInfo-l1-2-3.dll
 api_name:
- - GetWindowsDirectory
- - GetWindowsDirectoryA
- - GetWindowsDirectoryW
+- GetWindowsDirectory
+- GetWindowsDirectoryA
+- GetWindowsDirectoryW
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:peerdist.PeerDistServerUnpublish
 title: PeerDistServerUnpublish function (peerdist.h)
-
 description: PeerDistServerUnpublish function removes a publication created via PeerDistServerPublishStream.
 old-location: p2p\peerdistserverunpublish.htm
 tech.root: P2PSdk
 ms.assetid: 880927c4-f7d7-4c75-b371-2fe401a50b20
-
 ms.date: 12/05/2018
 ms.keywords: PeerDistServerUnpublish, PeerDistServerUnpublish function [Peer Networking], p2p.peerdistserverunpublish, peerdist/PeerDistServerUnpublish
 ms.topic: function
-f1_keywords: 
- - "peerdist/PeerDistServerUnpublish"
+f1_keywords:
+- peerdist/PeerDistServerUnpublish
 dev_langs:
- - c++
+- c++
 req.header: peerdist.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: PeerDist.lib
 req.dll: PeerDist.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - PeerDist.dll
+- PeerDist.dll
 api_name:
- - PeerDistServerUnpublish
+- PeerDistServerUnpublish
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NN:certpol.INDESPolicy
 title: INDESPolicy (certpol.h)
-
 description: The NDES Policy Module Interface. When installed against an enterprise CA, NDES generates a password after checking that the user has enrollment permission on the configured NDES templates, both user and machine templates.
 old-location: security\indespolicy.htm
 tech.root: SecCrypto
 ms.assetid: 9ed31493-832a-4f66-bb95-02ef1ad7ca15
-
 ms.date: 12/05/2018
 ms.keywords: INDESPolicy, INDESPolicy interface [Security], INDESPolicy interface [Security],described, certpol/INDESPolicy, security.indespolicy
 ms.topic: interface
-f1_keywords: 
- - "certpol/INDESPolicy"
+f1_keywords:
+- certpol/INDESPolicy
 dev_langs:
- - c++
+- c++
 req.header: certpol.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - certpol.h
+- certpol.h
 api_name:
- - INDESPolicy
+- INDESPolicy
 targetos: Windows
 req.typenames: 
 req.redist: 

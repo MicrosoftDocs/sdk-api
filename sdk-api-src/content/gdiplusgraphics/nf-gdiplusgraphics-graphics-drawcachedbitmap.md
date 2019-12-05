@@ -1,19 +1,17 @@
 ---
 UID: NF:gdiplusgraphics.Graphics.DrawCachedBitmap
 title: Graphics::DrawCachedBitmap (gdiplusgraphics.h)
-
 description: The Graphics::DrawCachedBitmap method draws the image stored in a CachedBitmap object.
 old-location: gdiplus\_gdiplus_CLASS_Graphics_DrawCachedBitmap_cb_x_y_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\drawcachedbitmap.htm
-
 ms.date: 12/05/2018
 ms.keywords: DrawCachedBitmap, DrawCachedBitmap method [GDI+], DrawCachedBitmap method [GDI+],Graphics class, Graphics class [GDI+],DrawCachedBitmap method, Graphics.DrawCachedBitmap, Graphics::DrawCachedBitmap, _gdiplus_CLASS_Graphics_DrawCachedBitmap_cb_x_y_, gdiplus._gdiplus_CLASS_Graphics_DrawCachedBitmap_cb_x_y_
 ms.topic: method
-f1_keywords: 
- - "gdiplusgraphics/Graphics.DrawCachedBitmap"
+f1_keywords:
+- gdiplusgraphics/Graphics.DrawCachedBitmap
 dev_langs:
- - c++
+- c++
 req.header: gdiplusgraphics.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - Graphics.DrawCachedBitmap
+- Graphics.DrawCachedBitmap
 targetos: Windows
 req.typenames: 
 req.redist: 

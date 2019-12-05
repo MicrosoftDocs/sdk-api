@@ -1,19 +1,17 @@
 ---
 UID: NF:winnt.TpSetCallbackLongFunction
 title: TpSetCallbackLongFunction function (winnt.h)
-
 description: Indicates that callbacks associated with this callback environment may not return quickly.
 old-location: base\tpsetcallbacklongfunction.htm
 tech.root: ProcThread
 ms.assetid: 27E7F647-1005-4499-9787-F2CE6E8B6AFF
-
 ms.date: 12/05/2018
 ms.keywords: TpSetCallbackLongFunction, TpSetCallbackLongFunction function, base.tpsetcallbacklongfunction, winnt/TpSetCallbackLongFunction
 ms.topic: function
-f1_keywords: 
- - "winnt/TpSetCallbackLongFunction"
+f1_keywords:
+- winnt/TpSetCallbackLongFunction
 dev_langs:
- - c++
+- c++
 req.header: winnt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - winnt.h
+- winnt.h
 api_name:
- - TpSetCallbackLongFunction
+- TpSetCallbackLongFunction
 targetos: Windows
 req.typenames: 
 req.redist: 

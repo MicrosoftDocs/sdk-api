@@ -1,19 +1,17 @@
 ---
 UID: NF:credentialprovider.ICredentialProviderCredential.ReportResult
 title: ICredentialProviderCredential::ReportResult (credentialprovider.h)
-
 description: Translates a received error status code into the appropriate user-readable message.
 old-location: shell\ICredentialProviderCredential_ReportResult.htm
 tech.root: shell
 ms.assetid: 13d6dda7-4a4f-45bf-af91-72f80497b9f7
-
 ms.date: 12/05/2018
 ms.keywords: ICredentialProviderCredential interface [Windows Shell],ReportResult method, ICredentialProviderCredential.ReportResult, ICredentialProviderCredential::ReportResult, ReportResult, ReportResult method [Windows Shell], ReportResult method [Windows Shell],ICredentialProviderCredential interface, credentialprovider/ICredentialProviderCredential::ReportResult, shell.ICredentialProviderCredential_ReportResult, shell_ICredentialProviderCredential_ReportResult
 ms.topic: method
-f1_keywords: 
- - "credentialprovider/ICredentialProviderCredential.ReportResult"
+f1_keywords:
+- credentialprovider/ICredentialProviderCredential.ReportResult
 dev_langs:
- - c++
+- c++
 req.header: credentialprovider.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Credentialprovider.h
+- Credentialprovider.h
 api_name:
- - ICredentialProviderCredential.ReportResult
+- ICredentialProviderCredential.ReportResult
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:iads.IADsContainer.GetObject
 title: IADsContainer::GetObject (iads.h)
-
 description: Retrieves an interface for a directory object in the container.
 old-location: adsi\iadscontainer_getobject.htm
 tech.root: adsi
 ms.assetid: df8b1eae-1138-4e55-af6e-17c6105ca9c1
-
 ms.date: 12/05/2018
 ms.keywords: GetObject, GetObject method [ADSI], GetObject method [ADSI],IADsContainer interface, IADsContainer interface [ADSI],GetObject method, IADsContainer.GetObject, IADsContainer::GetObject, _ds_iadscontainer_getobject, adsi.iadscontainer__getobject, adsi.iadscontainer_getobject, iads/IADsContainer::GetObject
 ms.topic: method
-f1_keywords: 
- - "iads/IADsContainer.GetObject"
+f1_keywords:
+- iads/IADsContainer.GetObject
 dev_langs:
- - c++
+- c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Activeds.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Activeds.dll
+- Activeds.dll
 api_name:
- - IADsContainer.GetObject
+- IADsContainer.GetObject
 targetos: Windows
 req.typenames: 
 req.redist: 

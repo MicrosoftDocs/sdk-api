@@ -1,19 +1,17 @@
 ---
 UID: NF:wsmandisp.IWSManEx.CreateResourceLocator
 title: IWSManEx::CreateResourceLocator (wsmandisp.h)
-
 description: Creates a ResourceLocator object that can be used instead of a resource URI in Session object operations such as IWSManSession.Get, IWSManSession.Put, or Session.Enumerate.
 old-location: winrm\iwsmanex_createresourcelocator.htm
 tech.root: winrm
 ms.assetid: b670865d-96d6-4b06-a9a5-ed74574a0108
-
 ms.date: 12/05/2018
 ms.keywords: CreateResourceLocator, CreateResourceLocator method [Windows Remote Management], CreateResourceLocator method [Windows Remote Management],IWSManEx interface, IWSManEx interface [Windows Remote Management],CreateResourceLocator method, IWSManEx.CreateResourceLocator, IWSManEx::CreateResourceLocator, winrm.iwsmanex_createresourcelocator, wsmandisp/IWSManEx::CreateResourceLocator
 ms.topic: method
-f1_keywords: 
- - "wsmandisp/IWSManEx.CreateResourceLocator"
+f1_keywords:
+- wsmandisp/IWSManEx.CreateResourceLocator
 dev_langs:
- - c++
+- c++
 req.header: wsmandisp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: WSManDisp.tlb
 req.dll: WSMAuto.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - WSMAuto.dll
+- WSMAuto.dll
 api_name:
- - IWSManEx.CreateResourceLocator
+- IWSManEx.CreateResourceLocator
 targetos: Windows
 req.typenames: 
 req.redist: 

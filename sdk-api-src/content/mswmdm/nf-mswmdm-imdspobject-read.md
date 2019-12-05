@@ -1,19 +1,17 @@
 ---
 UID: NF:mswmdm.IMDSPObject.Read
 title: IMDSPObject::Read (mswmdm.h)
-
 description: The Read method reads data from the object at the current position. This operation is valid only if the storage object represents a file.
 old-location: wmdm\imdspobject_read.htm
 tech.root: WMDM
 ms.assetid: 1acf4112-0cb8-47e4-b8dc-3e820c0ef72f
-
 ms.date: 12/05/2018
 ms.keywords: IMDSPObject interface [windows Media Device Manager],Read method, IMDSPObject.Read, IMDSPObject::Read, IMDSPObjectRead, Read, Read method [windows Media Device Manager], Read method [windows Media Device Manager],IMDSPObject interface, mswmdm/IMDSPObject::Read, wmdm.imdspobject_read
 ms.topic: method
-f1_keywords: 
- - "mswmdm/IMDSPObject.Read"
+f1_keywords:
+- mswmdm/IMDSPObject.Read
 dev_langs:
- - c++
+- c++
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mssachlp.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mssachlp.lib
- - mssachlp.dll
+- mssachlp.lib
+- mssachlp.dll
 api_name:
- - IMDSPObject.Read
+- IMDSPObject.Read
 targetos: Windows
 req.typenames: 
 req.redist: 

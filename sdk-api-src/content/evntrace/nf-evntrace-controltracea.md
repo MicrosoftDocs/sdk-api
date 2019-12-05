@@ -1,19 +1,17 @@
 ---
 UID: NF:evntrace.ControlTraceA
 title: ControlTraceA function (evntrace.h)
-
 description: The ControlTrace function flushes, queries, updates, or stops the specified event tracing session.
 old-location: etw\controltrace.htm
 tech.root: ETW
 ms.assetid: c39f669c-ff40-40ed-ba47-798474ec2de4
-
 ms.date: 12/05/2018
 ms.keywords: ControlTrace, ControlTrace function [ETW], ControlTraceA, ControlTraceW, EVENT_TRACE_CONTROL_FLUSH, EVENT_TRACE_CONTROL_QUERY, EVENT_TRACE_CONTROL_STOP, EVENT_TRACE_CONTROL_UPDATE, _evt_controltrace, base.controltrace, etw.controltrace, evntrace/ControlTrace, evntrace/ControlTraceA, evntrace/ControlTraceW
 ms.topic: function
-f1_keywords: 
- - "evntrace/ControlTrace"
+f1_keywords:
+- evntrace/ControlTrace
 dev_langs:
- - c++
+- c++
 req.header: evntrace.h
 req.include-header: 
 req.target-type: Windows
@@ -32,22 +30,22 @@ req.lib: Sechost.lib on Windows 8.1 and Windows Server 2012 R2; Advapi32.lib 
 req.dll: Sechost.dll on Windows 8.1 and Windows Server 2012; Advapi32.dll on Windows 8, Windows Server 2012, Windows 7, Windows Server 2008 R2, Windows Server 2008, Windows Vista and Windows XP
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Sechost.dll
- - Advapi32.dll
- - API-MS-Win-DownLevel-AdvAPI32-l2-1-1.dll
- - API-MS-Win-Eventing-Controller-l1-1-0.dll
- - API-MS-Win-Eventing-Legacy-l1-1-0.dll
- - AdvApi32Legacy.dll
- - KernelBase.dll
+- Sechost.dll
+- Advapi32.dll
+- API-MS-Win-DownLevel-AdvAPI32-l2-1-1.dll
+- API-MS-Win-Eventing-Controller-l1-1-0.dll
+- API-MS-Win-Eventing-Legacy-l1-1-0.dll
+- AdvApi32Legacy.dll
+- KernelBase.dll
 api_name:
- - ControlTrace
- - ControlTraceA
- - ControlTraceW
+- ControlTrace
+- ControlTraceA
+- ControlTraceW
 targetos: Windows
 req.typenames: 
 req.redist: 

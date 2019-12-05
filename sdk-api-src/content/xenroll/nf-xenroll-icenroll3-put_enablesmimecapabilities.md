@@ -1,19 +1,17 @@
 ---
 UID: NF:xenroll.ICEnroll3.put_EnableSMIMECapabilities
 title: ICEnroll3::put_EnableSMIMECapabilities (xenroll.h)
-
-description: The ICEnroll4::EnableSMIMECapabilities property controls whether the PKCS #10 will contain a signed attribute for Secure/Multipurpose Internet Mail Extensions (S/MIME) capabilities.
+description: The ICEnroll4::EnableSMIMECapabilities property controls whether the PKCS
 old-location: security\icenroll4_enablesmimecapabilities.htm
 tech.root: SecCrypto
 ms.assetid: 057033ab-f2e0-4d60-b47f-73973f82f806
-
 ms.date: 12/05/2018
 ms.keywords: CEnroll object [Security],EnableSMIMECapabilities property, EnableSMIMECapabilities property [Security], EnableSMIMECapabilities property [Security],CEnroll object, EnableSMIMECapabilities property [Security],ICEnroll3 interface, EnableSMIMECapabilities property [Security],ICEnroll4 interface, ICEnroll3 interface [Security],EnableSMIMECapabilities property, ICEnroll3.EnableSMIMECapabilities, ICEnroll3.put_EnableSMIMECapabilities, ICEnroll3::get_EnableSMIMECapabilities, ICEnroll3::put_EnableSMIMECapabilities, ICEnroll4 interface [Security],EnableSMIMECapabilities property, ICEnroll4.EnableSMIMECapabilities, ICEnroll4::EnableSMIMECapabilities, ICEnroll4::get_EnableSMIMECapabilities, ICEnroll4::put_EnableSMIMECapabilities, put_EnableSMIMECapabilities, security.icenroll4_enablesmimecapabilities, xenroll/ICEnroll3::EnableSMIMECapabilities, xenroll/ICEnroll3::get_EnableSMIMECapabilities, xenroll/ICEnroll3::put_EnableSMIMECapabilities, xenroll/ICEnroll4::EnableSMIMECapabilities, xenroll/ICEnroll4::get_EnableSMIMECapabilities, xenroll/ICEnroll4::put_EnableSMIMECapabilities
 ms.topic: method
-f1_keywords: 
- - "xenroll/ICEnroll4.EnableSMIMECapabilities"
+f1_keywords:
+- xenroll/ICEnroll4.EnableSMIMECapabilities
 dev_langs:
- - c++
+- c++
 req.header: xenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,20 +30,20 @@ req.lib: Uuid.lib
 req.dll: Xenroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Xenroll.dll
+- Xenroll.dll
 api_name:
- - ICEnroll4.EnableSMIMECapabilities
- - ICEnroll4.get_EnableSMIMECapabilities
- - ICEnroll4.put_EnableSMIMECapabilities
- - ICEnroll3.EnableSMIMECapabilities
- - ICEnroll3.get_EnableSMIMECapabilities
- - ICEnroll3.put_EnableSMIMECapabilities
- - CEnroll.EnableSMIMECapabilities
+- ICEnroll4.EnableSMIMECapabilities
+- ICEnroll4.get_EnableSMIMECapabilities
+- ICEnroll4.put_EnableSMIMECapabilities
+- ICEnroll3.EnableSMIMECapabilities
+- ICEnroll3.get_EnableSMIMECapabilities
+- ICEnroll3.put_EnableSMIMECapabilities
+- CEnroll.EnableSMIMECapabilities
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:mssip.CryptSIPVerifyIndirectData
 title: CryptSIPVerifyIndirectData function (mssip.h)
-
 description: Validates the indirect hashed data against the supplied subject.
 old-location: security\cryptsipverifyindirectdata.htm
 tech.root: SecCrypto
 ms.assetid: 137b8858-a31f-4ef6-96bd-c5e26ae7b3e8
-
 ms.date: 12/05/2018
 ms.keywords: CryptSIPVerifyIndirectData, CryptSIPVerifyIndirectData function [Security], mssip/CryptSIPVerifyIndirectData, security.cryptsipverifyindirectdata
 ms.topic: function
-f1_keywords: 
- - "mssip/CryptSIPVerifyIndirectData"
+f1_keywords:
+- mssip/CryptSIPVerifyIndirectData
 dev_langs:
- - c++
+- c++
 req.header: mssip.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Crypt32.lib
 req.dll: Crypt32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Crypt32.dll
+- Crypt32.dll
 api_name:
- - CryptSIPVerifyIndirectData
+- CryptSIPVerifyIndirectData
 targetos: Windows
 req.typenames: 
 req.redist: 

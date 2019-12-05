@@ -1,19 +1,17 @@
 ---
 UID: NF:comadmin.ICOMAdminCatalog.ExportApplication
 title: ICOMAdminCatalog::ExportApplication (comadmin.h)
-
 description: Exports a COM+ application or application proxy to a file, ready for installation on different computers.
 old-location: cos\icomadmincatalog_exportapplication.htm
 tech.root: cossdk
 ms.assetid: 431c0299-56c2-4ec3-8ecc-ee1cbec3eff6
-
 ms.date: 12/05/2018
 ms.keywords: COMAdminExportApplicationProxy, COMAdminExportForceOverwriteOfFile, COMAdminExportIn10Format, COMAdminExportNoUsers, COMAdminExportUsers, ExportApplication, ExportApplication method [COM+], ExportApplication method [COM+],ICOMAdminCatalog interface, ICOMAdminCatalog interface [COM+],ExportApplication method, ICOMAdminCatalog.ExportApplication, ICOMAdminCatalog::ExportApplication, _cos_ICOMAdminCatalog_ExportApplication, comadmin/ICOMAdminCatalog::ExportApplication, cos.icomadmincatalog_exportapplication
 ms.topic: method
-f1_keywords: 
- - "comadmin/ICOMAdminCatalog.ExportApplication"
+f1_keywords:
+- comadmin/ICOMAdminCatalog.ExportApplication
 dev_langs:
- - c++
+- c++
 req.header: comadmin.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComAdmin.h
+- ComAdmin.h
 api_name:
- - ICOMAdminCatalog.ExportApplication
+- ICOMAdminCatalog.ExportApplication
 targetos: Windows
 req.typenames: 
 req.redist: 

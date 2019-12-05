@@ -1,19 +1,17 @@
 ---
 UID: NF:fsrmreports.IFsrmFileManagementJob.put_DaysSinceFileLastModified
 title: IFsrmFileManagementJob::put_DaysSinceFileLastModified (fsrmreports.h)
-
 description: The number of days that have elapsed since a file was last modified.
 old-location: fsrm\ifsrmfilemanagementjob_dayssincefilelastmodified.htm
 tech.root: fsrm
 ms.assetid: 3ee02d60-50c7-4643-9604-b72ca1da01f6
-
 ms.date: 12/05/2018
 ms.keywords: DaysSinceFileLastModified property [File Server Resource Manager], DaysSinceFileLastModified property [File Server Resource Manager],IFsrmFileManagementJob interface, IFsrmFileManagementJob interface [File Server Resource Manager],DaysSinceFileLastModified property, IFsrmFileManagementJob.DaysSinceFileLastModified, IFsrmFileManagementJob.put_DaysSinceFileLastModified, IFsrmFileManagementJob::DaysSinceFileLastModified, IFsrmFileManagementJob::get_DaysSinceFileLastModified, IFsrmFileManagementJob::put_DaysSinceFileLastModified, fs.ifsrmfilemanagementjob_dayssincefilelastmodified, fsrm.ifsrmfilemanagementjob_dayssincefilelastmodified, fsrmreports/IFsrmFileManagementJob::DaysSinceFileLastModified, fsrmreports/IFsrmFileManagementJob::get_DaysSinceFileLastModified, fsrmreports/IFsrmFileManagementJob::put_DaysSinceFileLastModified, put_DaysSinceFileLastModified
 ms.topic: method
-f1_keywords: 
- - "fsrmreports/IFsrmFileManagementJob.DaysSinceFileLastModified"
+f1_keywords:
+- fsrmreports/IFsrmFileManagementJob.DaysSinceFileLastModified
 dev_langs:
- - c++
+- c++
 req.header: fsrmreports.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: SrmSvc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - SrmSvc.dll
+- SrmSvc.dll
 api_name:
- - IFsrmFileManagementJob.DaysSinceFileLastModified
- - IFsrmFileManagementJob.get_DaysSinceFileLastModified
- - IFsrmFileManagementJob.put_DaysSinceFileLastModified
+- IFsrmFileManagementJob.DaysSinceFileLastModified
+- IFsrmFileManagementJob.get_DaysSinceFileLastModified
+- IFsrmFileManagementJob.put_DaysSinceFileLastModified
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:msinkaut.IInkLineInfo.GetFormat
 title: IInkLineInfo::GetFormat (msinkaut.h)
-
 description: Returns the display properties currently set on the text ink object (tInk).
 old-location: tablet\iinklineinfo_getformat.htm
 tech.root: tablet
 ms.assetid: 8f894963-7075-46f4-8809-82d1aa7e13e7
-
 ms.date: 12/05/2018
 ms.keywords: 8f894963-7075-46f4-8809-82d1aa7e13e7, GetFormat, GetFormat method [Tablet PC], GetFormat method [Tablet PC],IInkLineInfo interface, IInkLineInfo interface [Tablet PC],GetFormat method, IInkLineInfo.GetFormat, IInkLineInfo::GetFormat, msinkaut/IInkLineInfo::GetFormat, tablet.iinklineinfo_getformat
 ms.topic: method
-f1_keywords: 
- - "msinkaut/IInkLineInfo.GetFormat"
+f1_keywords:
+- msinkaut/IInkLineInfo.GetFormat
 dev_langs:
- - c++
+- c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: InkObj.dll
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - InkObj.dll
- - InkObj.dll.dll
+- InkObj.dll
+- InkObj.dll.dll
 api_name:
- - IInkLineInfo.GetFormat
+- IInkLineInfo.GetFormat
 targetos: Windows
 req.typenames: 
 req.redist: 

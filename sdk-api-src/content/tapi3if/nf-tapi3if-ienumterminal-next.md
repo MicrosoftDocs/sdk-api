@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi3if.IEnumTerminal.Next
 title: IEnumTerminal::Next (tapi3if.h)
-
 description: The Next method gets the next specified number of elements in the enumeration sequence. This method is hidden from Visual Basic and scripting languages.
 old-location: tapi3\ienumterminal_next.htm
 tech.root: Tapi
 ms.assetid: d419fd5e-2e08-4d41-93c2-062cd86973f4
-
 ms.date: 12/05/2018
 ms.keywords: IEnumTerminal interface [TAPI 2.2],Next method, IEnumTerminal.Next, IEnumTerminal::Next, Next, Next method [TAPI 2.2], Next method [TAPI 2.2],IEnumTerminal interface, _tapi3_ienumterminal_next, tapi3.ienumterminal_next, tapi3if/IEnumTerminal::Next
 ms.topic: method
-f1_keywords: 
- - "tapi3if/IEnumTerminal.Next"
+f1_keywords:
+- tapi3if/IEnumTerminal.Next
 dev_langs:
- - c++
+- c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Tapi3.dll
+- Tapi3.dll
 api_name:
- - IEnumTerminal.Next
+- IEnumTerminal.Next
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:eaphostpeerconfigapis.EapHostPeerFreeMemory
 title: EapHostPeerFreeMemory function (eaphostpeerconfigapis.h)
-
 description: Frees memory returned by the configuration APIs.
 old-location: eaphost\eaphostpeerfreememory.htm
 tech.root: eaphost
 ms.assetid: 162c796c-b9dc-465a-a1bc-f11d740f3fa0
-
 ms.date: 12/05/2018
 ms.keywords: EapHostPeerFreeMemory, EapHostPeerFreeMemory function [EAPHost], eaphost.eaphostpeerfreememory, eaphostpeerconfigapis/EapHostPeerFreeMemory
 ms.topic: function
 f1_keywords:
 - eaphostpeerconfigapis/EapHostPeerFreeMemory
 dev_langs:
- - c++
+- c++
 req.header: eaphostpeerconfigapis.h
 req.include-header: 
 req.target-type: Windows

@@ -1,19 +1,17 @@
 ---
 UID: NS:uxtheme._DTTOPTS
 title: DTTOPTS (uxtheme.h)
-
 description: Defines the options for the DrawThemeTextEx function.
 old-location: controls\DTTOPTS.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\userex\structures\dttopts.htm
-
 ms.date: 12/05/2018
-ms.keywords: "*PDTTOPTS, DTTOPTS, DTTOPTS structure [Windows Controls], DTT_APPLYOVERLAY, DTT_BORDERCOLOR, DTT_BORDERSIZE, DTT_CALCRECT, DTT_CALLBACK, DTT_COLORPROP, DTT_COMPOSITED, DTT_FONTPROP, DTT_GLOWSIZE, DTT_SHADOWCOLOR, DTT_SHADOWOFFSET, DTT_SHADOWTYPE, DTT_STATEID, DTT_TEXTCOLOR, DTT_VALIDBITS, PDTTOPTS, PDTTOPTS structure pointer [Windows Controls], TST_CONTINUOUS, TST_NONE, TST_SINGLE, controls.DTTOPTS, controls.inet_DTTOPTS, inet_DTTOPTS, inet_DTTOPTS_cpp, uxtheme/DTTOPTS, uxtheme/PDTTOPTS"
+ms.keywords: '*PDTTOPTS, DTTOPTS, DTTOPTS structure [Windows Controls], DTT_APPLYOVERLAY, DTT_BORDERCOLOR, DTT_BORDERSIZE, DTT_CALCRECT, DTT_CALLBACK, DTT_COLORPROP, DTT_COMPOSITED, DTT_FONTPROP, DTT_GLOWSIZE, DTT_SHADOWCOLOR, DTT_SHADOWOFFSET, DTT_SHADOWTYPE, DTT_STATEID, DTT_TEXTCOLOR, DTT_VALIDBITS, PDTTOPTS, PDTTOPTS structure pointer [Windows Controls], TST_CONTINUOUS, TST_NONE, TST_SINGLE, controls.DTTOPTS, controls.inet_DTTOPTS, inet_DTTOPTS, inet_DTTOPTS_cpp, uxtheme/DTTOPTS, uxtheme/PDTTOPTS'
 ms.topic: struct
-f1_keywords: 
- - "uxtheme/DTTOPTS"
+f1_keywords:
+- uxtheme/DTTOPTS
 dev_langs:
- - c++
+- c++
 req.header: uxtheme.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Uxtheme.h
+- Uxtheme.h
 api_name:
- - DTTOPTS
+- DTTOPTS
 targetos: Windows
 req.typenames: DTTOPTS, *PDTTOPTS
 req.redist: 

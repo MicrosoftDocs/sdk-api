@@ -1,19 +1,17 @@
 ---
 UID: NN:xpsobjectmodel.IXpsOMGradientStopCollection
 title: IXpsOMGradientStopCollection (xpsobjectmodel.h)
-
 description: A collection of IXpsOMGradientStop interface pointers.
 old-location: xps\ixpsomgradientstopcollection.htm
 tech.root: printdocs
 ms.assetid: 1f51f818-e9bb-4d88-9795-4e6890d24b8c
-
 ms.date: 12/05/2018
 ms.keywords: IXpsOMGradientStopCollection, IXpsOMGradientStopCollection interface [XPS Documents and Packaging], IXpsOMGradientStopCollection interface [XPS Documents and Packaging],described, xps.ixpsomgradientstopcollection, xpsobjectmodel/IXpsOMGradientStopCollection
 ms.topic: interface
-f1_keywords: 
- - "xpsobjectmodel/IXpsOMGradientStopCollection"
+f1_keywords:
+- xpsobjectmodel/IXpsOMGradientStopCollection
 dev_langs:
- - c++
+- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsobjectmodel.h
+- xpsobjectmodel.h
 api_name:
- - IXpsOMGradientStopCollection
+- IXpsOMGradientStopCollection
 targetos: Windows
 req.typenames: 
 req.redist: 

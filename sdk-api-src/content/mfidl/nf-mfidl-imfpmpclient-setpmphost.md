@@ -1,19 +1,17 @@
 ---
 UID: NF:mfidl.IMFPMPClient.SetPMPHost
 title: IMFPMPClient::SetPMPHost (mfidl.h)
-
 description: Provides a pointer to the IMFPMPHost interface.
 old-location: mf\imfpmpclient_setpmphost.htm
 tech.root: medfound
 ms.assetid: d6e48f36-7896-4e6d-ba10-d8c0288ccffc
-
 ms.date: 12/05/2018
 ms.keywords: IMFPMPClient interface [Media Foundation],SetPMPHost method, IMFPMPClient.SetPMPHost, IMFPMPClient::SetPMPHost, SetPMPHost, SetPMPHost method [Media Foundation], SetPMPHost method [Media Foundation],IMFPMPClient interface, d6e48f36-7896-4e6d-ba10-d8c0288ccffc, mf.imfpmpclient_setpmphost, mfidl/IMFPMPClient::SetPMPHost
 ms.topic: method
-f1_keywords: 
- - "mfidl/IMFPMPClient.SetPMPHost"
+f1_keywords:
+- mfidl/IMFPMPClient.SetPMPHost
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFPMPClient.SetPMPHost
+- IMFPMPClient.SetPMPHost
 targetos: Windows
 req.typenames: 
 req.redist: 

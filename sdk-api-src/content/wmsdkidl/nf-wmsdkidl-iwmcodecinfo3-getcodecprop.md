@@ -1,19 +1,17 @@
 ---
 UID: NF:wmsdkidl.IWMCodecInfo3.GetCodecProp
 title: IWMCodecInfo3::GetCodecProp (wmsdkidl.h)
-
 description: The GetCodecProp method retrieves a codec property.
 old-location: wmformat\iwmcodecinfo3_getcodecprop.htm
 tech.root: wmformat
 ms.assetid: 444f5789-c5e5-4eeb-a2b4-11f959641206
-
 ms.date: 12/05/2018
 ms.keywords: GetCodecProp, GetCodecProp method [windows Media Format], GetCodecProp method [windows Media Format],IWMCodecInfo3 interface, IWMCodecInfo3 interface [windows Media Format],GetCodecProp method, IWMCodecInfo3.GetCodecProp, IWMCodecInfo3::GetCodecProp, IWMCodecInfo3GetCodecProp, wmformat.iwmcodecinfo3_getcodecprop, wmsdkidl/IWMCodecInfo3::GetCodecProp
 ms.topic: method
-f1_keywords: 
- - "wmsdkidl/IWMCodecInfo3.GetCodecProp"
+f1_keywords:
+- wmsdkidl/IWMCodecInfo3.GetCodecProp
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wmvcore.lib
- - Wmvcore.dll
- - WMStubDRM.lib
- - WMStubDRM.dll
+- Wmvcore.lib
+- Wmvcore.dll
+- WMStubDRM.lib
+- WMStubDRM.dll
 api_name:
- - IWMCodecInfo3.GetCodecProp
+- IWMCodecInfo3.GetCodecProp
 targetos: Windows
 req.typenames: 
 req.redist: 

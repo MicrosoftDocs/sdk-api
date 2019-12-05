@@ -1,19 +1,17 @@
 ---
 UID: NF:winldap.ldap_value_free_len
 title: ldap_value_free_len function (winldap.h)
-
 description: The ldap_value_free_len frees berval structures that were returned by ldap_get_values_len.
 old-location: ldap\ldap_value_free_len.htm
 tech.root: ldap
 ms.assetid: bae95e09-bb3b-4fb3-887f-3cff0a0e6c22
-
 ms.date: 12/05/2018
-ms.keywords: "_ldap_ldap_value_free_len, ldap.ldap__value__free__len, ldap.ldap_value_free_len, ldap_value_free_len, ldap_value_free_len function [LDAP], winldap/ldap_value_free_len"
+ms.keywords: _ldap_ldap_value_free_len, ldap.ldap__value__free__len, ldap.ldap_value_free_len, ldap_value_free_len, ldap_value_free_len function [LDAP], winldap/ldap_value_free_len
 ms.topic: function
-f1_keywords: 
- - "winldap/ldap_value_free_len"
+f1_keywords:
+- winldap/ldap_value_free_len
 dev_langs:
- - c++
+- c++
 req.header: winldap.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Wldap32.lib
 req.dll: Wldap32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Wldap32.dll
+- Wldap32.dll
 api_name:
- - ldap_value_free_len
+- ldap_value_free_len
 targetos: Windows
 req.typenames: 
 req.redist: 

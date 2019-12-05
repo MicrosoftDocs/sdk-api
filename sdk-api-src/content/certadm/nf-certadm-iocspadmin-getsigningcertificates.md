@@ -1,19 +1,17 @@
 ---
 UID: NF:certadm.IOCSPAdmin.GetSigningCertificates
 title: IOCSPAdmin::GetSigningCertificates (certadm.h)
-
 description: Gets the signing certificates that are available on a responder server for a given certification authority (CA) certificate.
 old-location: security\iocspadmin_getsigningcertificates.htm
 tech.root: SecCrypto
 ms.assetid: 762dc32f-90d4-4e88-a3cc-e77e729f0a98
-
 ms.date: 12/05/2018
 ms.keywords: GetSigningCertificates, GetSigningCertificates method [Security], GetSigningCertificates method [Security],IOCSPAdmin interface, IOCSPAdmin interface [Security],GetSigningCertificates method, IOCSPAdmin.GetSigningCertificates, IOCSPAdmin::GetSigningCertificates, certadm/IOCSPAdmin::GetSigningCertificates, security.iocspadmin_getsigningcertificates
 ms.topic: method
-f1_keywords: 
- - "certadm/IOCSPAdmin.GetSigningCertificates"
+f1_keywords:
+- certadm/IOCSPAdmin.GetSigningCertificates
 dev_langs:
- - c++
+- c++
 req.header: certadm.h
 req.include-header: Certsrv.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Certadm.lib
 req.dll: Certadm.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Certadm.dll
+- Certadm.dll
 api_name:
- - IOCSPAdmin.GetSigningCertificates
+- IOCSPAdmin.GetSigningCertificates
 targetos: Windows
 req.typenames: 
 req.redist: 

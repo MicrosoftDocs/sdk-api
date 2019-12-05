@@ -1,19 +1,17 @@
 ---
 UID: NF:netcon.INetSharingManager.get_SharingInstalled
 title: INetSharingManager::get_SharingInstalled (netcon.h)
-
 description: Reports whether the currently-installed version of Windows XP supports connection sharing.
 old-location: ics\inetsharingmanager_get_sharinginstalled.htm
 tech.root: ics
 ms.assetid: 7cf705dd-41c3-4ac7-a75f-5677a7b49645
-
 ms.date: 12/05/2018
 ms.keywords: INetSharingManager interface [ICS/ICF],get_SharingInstalled method, INetSharingManager.get_SharingInstalled, INetSharingManager::get_SharingInstalled, _ics_inetsharingmanager_get_sharinginstalled, get_SharingInstalled, get_SharingInstalled method [ICS/ICF], get_SharingInstalled method [ICS/ICF],INetSharingManager interface, ics.inetsharingmanager_get_sharinginstalled, netcon/INetSharingManager::get_SharingInstalled
 ms.topic: method
-f1_keywords: 
- - "netcon/INetSharingManager.get_SharingInstalled"
+f1_keywords:
+- netcon/INetSharingManager.get_SharingInstalled
 dev_langs:
- - c++
+- c++
 req.header: netcon.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Hnetcfg.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Hnetcfg.dll
+- Hnetcfg.dll
 api_name:
- - INetSharingManager.get_SharingInstalled
+- INetSharingManager.get_SharingInstalled
 targetos: Windows
 req.typenames: 
 req.redist: 

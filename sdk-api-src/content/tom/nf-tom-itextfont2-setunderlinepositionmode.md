@@ -1,19 +1,17 @@
 ---
 UID: NF:tom.ITextFont2.SetUnderlinePositionMode
 title: ITextFont2::SetUnderlinePositionMode (tom.h)
-
 description: Sets the underline position mode.
 old-location: controls\itextfont2_setunderlinepositionmode.htm
 tech.root: Controls
 ms.assetid: 31dff2d0-7165-42f0-b3d0-9cb679c738c3
-
 ms.date: 12/05/2018
 ms.keywords: ITextFont2 interface [Windows Controls],SetUnderlinePositionMode method, ITextFont2.SetUnderlinePositionMode, ITextFont2::SetUnderlinePositionMode, SetUnderlinePositionMode, SetUnderlinePositionMode method [Windows Controls], SetUnderlinePositionMode method [Windows Controls],ITextFont2 interface, controls.itextfont2_setunderlinepositionmode, tom/ITextFont2::SetUnderlinePositionMode
 ms.topic: method
-f1_keywords: 
- - "tom/ITextFont2.SetUnderlinePositionMode"
+f1_keywords:
+- tom/ITextFont2.SetUnderlinePositionMode
 dev_langs:
- - c++
+- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msftedit.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msftedit.dll
+- Msftedit.dll
 api_name:
- - ITextFont2.SetUnderlinePositionMode
+- ITextFont2.SetUnderlinePositionMode
 targetos: Windows
 req.typenames: 
 req.redist: 

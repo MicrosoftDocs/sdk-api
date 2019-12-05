@@ -1,19 +1,17 @@
 ---
 UID: NF:tokenbinding.TokenBindingGetKeyTypesClient
 title: TokenBindingGetKeyTypesClient function (tokenbinding.h)
-
 description: Retrieves a list of the key types that the client device supports.
 old-location: security\tokenbindinggetkeytypesclient.htm
 tech.root: SecCNG
 ms.assetid: 583687B6-5A87-4616-A5EE-4FECFF06749E
-
 ms.date: 12/05/2018
 ms.keywords: TokenBindingGetKeyTypesClient, TokenBindingGetKeyTypesClient function [Security], security.tokenbindinggetkeytypesclient, tokenbinding/TokenBindingGetKeyTypesClient
 ms.topic: function
-f1_keywords: 
- - "tokenbinding/TokenBindingGetKeyTypesClient"
+f1_keywords:
+- tokenbinding/TokenBindingGetKeyTypesClient
 dev_langs:
- - c++
+- c++
 req.header: tokenbinding.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Tokenbinding.lib
 req.dll: Tokenbinding.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - tokenbinding.dll
+- tokenbinding.dll
 api_name:
- - TokenBindingGetKeyTypesClient
+- TokenBindingGetKeyTypesClient
 targetos: Windows
 req.typenames: 
 req.redist: 

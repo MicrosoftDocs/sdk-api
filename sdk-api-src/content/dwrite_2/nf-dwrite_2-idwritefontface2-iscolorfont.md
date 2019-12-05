@@ -1,19 +1,17 @@
 ---
 UID: NF:dwrite_2.IDWriteFontFace2.IsColorFont
 title: IDWriteFontFace2::IsColorFont (dwrite_2.h)
-
 description: Allows you to determine if a color rendering path is potentially necessary.
 old-location: directwrite\idwritefontface2_iscolorfont.htm
 tech.root: DirectWrite
 ms.assetid: 77D509D4-355F-4D2F-B71B-D9DF75E19362
-
 ms.date: 12/05/2018
 ms.keywords: IDWriteFontFace2 interface [Direct Write],IsColorFont method, IDWriteFontFace2.IsColorFont, IDWriteFontFace2::IsColorFont, IsColorFont, IsColorFont method [Direct Write], IsColorFont method [Direct Write],IDWriteFontFace2 interface, directwrite.idwritefontface2_iscolorfont, dwrite_2/IDWriteFontFace2::IsColorFont
 ms.topic: method
-f1_keywords: 
- - "dwrite_2/IDWriteFontFace2.IsColorFont"
+f1_keywords:
+- dwrite_2/IDWriteFontFace2.IsColorFont
 dev_langs:
- - c++
+- c++
 req.header: dwrite_2.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dwrite.lib
 req.dll: Dwrite.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dwrite.dll
+- dwrite.dll
 api_name:
- - IDWriteFontFace2.IsColorFont
+- IDWriteFontFace2.IsColorFont
 targetos: Windows
 req.typenames: 
 req.redist: 

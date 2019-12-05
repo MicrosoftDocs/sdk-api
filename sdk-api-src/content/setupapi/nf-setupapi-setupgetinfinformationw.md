@@ -1,19 +1,17 @@
 ---
 UID: NF:setupapi.SetupGetInfInformationW
 title: SetupGetInfInformationW function (setupapi.h)
-
 description: The SetUpGetInfInformation function returns the SP_INF_INFORMATION structure for the specified INF file to a buffer.
 old-location: setup\setupgetinfinformation.htm
 tech.root: SetupApi
 ms.assetid: 367eb374-1295-41f6-a1b3-cfc04e94b816
-
 ms.date: 12/05/2018
 ms.keywords: SetupGetInfInformation, SetupGetInfInformation function [Setup API], SetupGetInfInformationA, SetupGetInfInformationW, _setupapi_setupgetinfinformation, setup.setupgetinfinformation, setupapi/SetupGetInfInformation, setupapi/SetupGetInfInformationA, setupapi/SetupGetInfInformationW
 ms.topic: function
 f1_keywords:
 - setupapi/SetupGetInfInformation
 dev_langs:
- - c++
+- c++
 req.header: setupapi.h
 req.include-header: 
 req.target-type: Windows

@@ -1,19 +1,17 @@
 ---
 UID: NF:projectedfslib.PrjUpdateFileIfNeeded
 title: PrjUpdateFileIfNeeded function (projectedfslib.h)
-
 description: Enables a provider to update an item that has been cached on the local file system.
 old-location: projfs\prjupdatefileifneeded.htm
 tech.root: ProjFS
 ms.assetid: 182C9C5E-ABBC-4A7C-99E4-D019B7E237CE
-
 ms.date: 12/05/2018
 ms.keywords: PrjUpdateFileIfNeeded, PrjUpdateFileIfNeeded function, ProjFS.prjupdatefileifneeded, projectedfslib/PrjUpdateFileIfNeeded
 ms.topic: function
-f1_keywords: 
- - "projectedfslib/PrjUpdateFileIfNeeded"
+f1_keywords:
+- projectedfslib/PrjUpdateFileIfNeeded
 dev_langs:
- - c++
+- c++
 req.header: projectedfslib.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - projectedfslib.h
+- projectedfslib.h
 api_name:
- - PrjUpdateFileIfNeeded
+- PrjUpdateFileIfNeeded
 targetos: Windows
 req.typenames: 
 req.redist: 

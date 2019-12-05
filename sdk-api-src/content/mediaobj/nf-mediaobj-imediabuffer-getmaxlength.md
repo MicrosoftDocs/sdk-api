@@ -1,19 +1,17 @@
 ---
 UID: NF:mediaobj.IMediaBuffer.GetMaxLength
 title: IMediaBuffer::GetMaxLength (mediaobj.h)
-
 description: The GetMaxLength method retrieves the maximum number of bytes this buffer can hold.
 old-location: dshow\imediabuffer_getmaxlength.htm
 tech.root: DirectShow
 ms.assetid: 9e312d3b-4994-4493-861c-cc0f6f112362
-
 ms.date: 12/05/2018
 ms.keywords: GetMaxLength, GetMaxLength method [DirectShow], GetMaxLength method [DirectShow],IMediaBuffer interface, IMediaBuffer interface [DirectShow],GetMaxLength method, IMediaBuffer.GetMaxLength, IMediaBuffer::GetMaxLength, IMediaBufferGetMaxLength, dshow.imediabuffer_getmaxlength, mediaobj/IMediaBuffer::GetMaxLength
 ms.topic: method
-f1_keywords: 
- - "mediaobj/IMediaBuffer.GetMaxLength"
+f1_keywords:
+- mediaobj/IMediaBuffer.GetMaxLength
 dev_langs:
- - c++
+- c++
 req.header: mediaobj.h
 req.include-header: Dmo.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Dmoguids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dmoguids.lib
- - Dmoguids.dll
+- Dmoguids.lib
+- Dmoguids.dll
 api_name:
- - IMediaBuffer.GetMaxLength
+- IMediaBuffer.GetMaxLength
 targetos: Windows
 req.typenames: 
 req.redist: 

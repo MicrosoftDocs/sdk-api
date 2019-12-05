@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationTransformPattern2.get_CurrentZoomMinimum
 title: IUIAutomationTransformPattern2::get_CurrentZoomMinimum (uiautomationclient.h)
-
 description: Retrieves the minimum zoom level of the control's viewport.
 old-location: winauto\iuiautomationtransformpattern2_currentzoomminimum.htm
 tech.root: WinAuto
 ms.assetid: 9393D635-016D-4A31-BCB2-DC4100D7D1CB
-
 ms.date: 12/05/2018
 ms.keywords: CurrentZoomMinimum property [Windows Accessibility], CurrentZoomMinimum property [Windows Accessibility],IUIAutomationTransformPattern2 interface, IUIAutomationTransformPattern2 interface [Windows Accessibility],CurrentZoomMinimum property, IUIAutomationTransformPattern2.CurrentZoomMinimum, IUIAutomationTransformPattern2.get_CurrentZoomMinimum, IUIAutomationTransformPattern2::CurrentZoomMinimum, IUIAutomationTransformPattern2::get_CurrentZoomMinimum, get_CurrentZoomMinimum, uiautomationclient/IUIAutomationTransformPattern2::CurrentZoomMinimum, uiautomationclient/IUIAutomationTransformPattern2::get_CurrentZoomMinimum, winauto.iuiautomationtransformpattern2_currentzoomminimum
 ms.topic: method
-f1_keywords: 
- - "uiautomationclient/IUIAutomationTransformPattern2.CurrentZoomMinimum"
+f1_keywords:
+- uiautomationclient/IUIAutomationTransformPattern2.CurrentZoomMinimum
 dev_langs:
- - c++
+- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationClient.h
+- UIAutomationClient.h
 api_name:
- - IUIAutomationTransformPattern2.CurrentZoomMinimum
- - IUIAutomationTransformPattern2.get_CurrentZoomMinimum
+- IUIAutomationTransformPattern2.CurrentZoomMinimum
+- IUIAutomationTransformPattern2.get_CurrentZoomMinimum
 targetos: Windows
 req.typenames: 
 req.redist: 

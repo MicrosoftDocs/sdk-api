@@ -1,19 +1,17 @@
 ---
 UID: NF:certenroll.ISignerCertificates.Remove
 title: ISignerCertificates::Remove (certenroll.h)
-
 description: Removes an ISignerCertificate object from the collection by index number.
 old-location: security\isignercertificates_remove_method.htm
 tech.root: seccertenroll
 ms.assetid: 3f0a3d9b-590f-4fa2-904c-26593bf977c8
-
 ms.date: 12/05/2018
 ms.keywords: ISignerCertificates interface [Security],Remove method, ISignerCertificates.Remove, ISignerCertificates::Remove, Remove, Remove method [Security], Remove method [Security],ISignerCertificates interface, certenroll/ISignerCertificates::Remove, security.isignercertificates_remove_method
 ms.topic: method
-f1_keywords: 
- - "certenroll/ISignerCertificates.Remove"
+f1_keywords:
+- certenroll/ISignerCertificates.Remove
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: CertEnroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CertEnroll.dll
+- CertEnroll.dll
 api_name:
- - ISignerCertificates.Remove
+- ISignerCertificates.Remove
 targetos: Windows
 req.typenames: 
 req.redist: 

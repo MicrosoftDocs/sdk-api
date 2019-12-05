@@ -1,19 +1,17 @@
 ---
 UID: NF:winuser.UnregisterPointerInputTargetEx
 title: UnregisterPointerInputTargetEx function (winuser.h)
-
 description: UnregisterPointerInputTargetEx may be altered or unavailable. Instead, use UnregisterPointerInputTarget.
 old-location: winauto\unregisterpointerinputtargetex.htm
 tech.root: WinAuto
 ms.assetid: 5C62E73A-65D1-4B4D-9165-08B6C844FF3D
-
 ms.date: 12/05/2018
 ms.keywords: UnregisterPointerInputTargetEx, UnregisterPointerInputTargetEx function [Windows Accessibility], winauto.unregisterpointerinputtargetex, winuser/UnregisterPointerInputTargetEx
 ms.topic: function
-f1_keywords: 
- - "winuser/UnregisterPointerInputTargetEx"
+f1_keywords:
+- winuser/UnregisterPointerInputTargetEx
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - User32.dll
- - API-MS-Win-RTCore-NTUser-WMPointer-L1-1-2.dll
- - MinUser.dll
- - API-MS-Win-RTCore-NTUser-WMPointer-L1-1-3.dll
+- User32.dll
+- API-MS-Win-RTCore-NTUser-WMPointer-L1-1-2.dll
+- MinUser.dll
+- API-MS-Win-RTCore-NTUser-WMPointer-L1-1-3.dll
 api_name:
- - UnregisterPointerInputTargetEx
+- UnregisterPointerInputTargetEx
 targetos: Windows
 req.typenames: 
 req.redist: 

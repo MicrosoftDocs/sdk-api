@@ -1,19 +1,17 @@
 ---
 UID: NF:msctf.ITfMessagePump.GetMessageW
 title: ITfMessagePump::GetMessageW (msctf.h)
-
 description: ITfMessagePump::GetMessageW method
 old-location: tsf\itfmessagepump_getmessagew.htm
 tech.root: TSF
 ms.assetid: e2283d04-f5b8-4b86-9fa5-517e46417b07
-
 ms.date: 12/05/2018
 ms.keywords: GetMessageW, GetMessageW method [Text Services Framework], GetMessageW method [Text Services Framework],ITfMessagePump interface, ITfMessagePump interface [Text Services Framework],GetMessageW method, ITfMessagePump.GetMessageW, ITfMessagePump::GetMessageW, _tsf_itfmessagepump_getmessagew_ref, msctf/ITfMessagePump::GetMessageW, tsf.itfmessagepump_getmessagew
 ms.topic: method
-f1_keywords: 
- - "msctf/ITfMessagePump.GetMessageW"
+f1_keywords:
+- msctf/ITfMessagePump.GetMessageW
 dev_langs:
- - c++
+- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: Msctf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msctf.dll
+- Msctf.dll
 api_name:
- - ITfMessagePump.GetMessageW
- - getmessagew
+- ITfMessagePump.GetMessageW
+- getmessagew
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

@@ -1,19 +1,17 @@
 ---
 UID: NS:uiautomationcore.UIAutomationParameter
 title: UIAutomationParameter (uiautomationcore.h)
-
 description: Contains information about a parameter of a custom control pattern.
 old-location: winauto\uiauto_UIAutomationParameterStruct.htm
 tech.root: WinAuto
 ms.assetid: 8287867d-5aaf-4c52-8a8b-d98de6a2ad4b
-
 ms.date: 12/05/2018
 ms.keywords: UIAutomationParameter, UIAutomationParameter structure [Windows Accessibility], uiauto.uiauto_UIAutomationParameterStruct, uiauto_UIAutomationParameterStruct, uiautomationcore/UIAutomationParameter, winauto.uiauto_UIAutomationParameterStruct
 ms.topic: struct
-f1_keywords: 
- - "uiautomationcore/UIAutomationParameter"
+f1_keywords:
+- uiautomationcore/UIAutomationParameter
 dev_langs:
- - c++
+- c++
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - UIAutomationCore.h
+- UIAutomationCore.h
 api_name:
- - UIAutomationParameter
+- UIAutomationParameter
 targetos: Windows
 req.typenames: 
 req.redist: 

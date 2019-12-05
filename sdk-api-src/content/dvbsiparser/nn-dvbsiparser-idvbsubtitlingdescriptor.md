@@ -1,19 +1,17 @@
 ---
 UID: NN:dvbsiparser.IDvbSubtitlingDescriptor
 title: IDvbSubtitlingDescriptor (dvbsiparser.h)
-
 description: Implements methods that get data from a Digital Video Broadcast (DVB) subtitling descriptor.
 old-location: mstv\idvbsubtitlingdescriptor.htm
 tech.root: mstv
 ms.assetid: 7308e8a9-6e16-4719-b87e-9445499f499c
-
 ms.date: 12/05/2018
 ms.keywords: IDvbSubtitlingDescriptor, IDvbSubtitlingDescriptor interface [Microsoft TV Technologies], IDvbSubtitlingDescriptor interface [Microsoft TV Technologies],described, dvbsiparser/IDvbSubtitlingDescriptor, mstv.idvbsubtitlingdescriptor
 ms.topic: interface
-f1_keywords: 
- - "dvbsiparser/IDvbSubtitlingDescriptor"
+f1_keywords:
+- dvbsiparser/IDvbSubtitlingDescriptor
 dev_langs:
- - c++
+- c++
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dvbsiparser.h
+- dvbsiparser.h
 api_name:
- - IDvbSubtitlingDescriptor
+- IDvbSubtitlingDescriptor
 targetos: Windows
 req.typenames: 
 req.redist: 

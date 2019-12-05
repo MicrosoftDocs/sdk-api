@@ -1,19 +1,17 @@
 ---
 UID: NN:mbnapi.IMbnMultiCarrierEvents
 title: IMbnMultiCarrierEvents (mbnapi.h)
-
 description: This interface is a notification interface used to handle asynchronous IMbnMultiCarrier method calls.
 old-location: mbn\imbnmulticarrierevents.htm
 tech.root: mbn
 ms.assetid: F7CAF21B-F487-4F35-806B-312B5246C1B2
-
 ms.date: 12/05/2018
 ms.keywords: IMbnMultiCarrierEvents, IMbnMultiCarrierEvents interface [Microsoft Broadband Networks], IMbnMultiCarrierEvents interface [Microsoft Broadband Networks],described, mbn.imbnmulticarrierevents, mbnapi/IMbnMultiCarrierEvents
 ms.topic: interface
-f1_keywords: 
- - "mbnapi/IMbnMultiCarrierEvents"
+f1_keywords:
+- mbnapi/IMbnMultiCarrierEvents
 dev_langs:
- - c++
+- c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mbnapi.h
+- mbnapi.h
 api_name:
- - IMbnMultiCarrierEvents
+- IMbnMultiCarrierEvents
 targetos: Windows
 req.typenames: 
 req.redist: 

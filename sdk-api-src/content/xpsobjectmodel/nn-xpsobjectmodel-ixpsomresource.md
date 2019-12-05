@@ -1,19 +1,17 @@
 ---
 UID: NN:xpsobjectmodel.IXpsOMResource
 title: IXpsOMResource (xpsobjectmodel.h)
-
 description: Used as the base interface for the resource interfaces of the XPS object model.
 old-location: xps\ixpsomresource.htm
 tech.root: printdocs
 ms.assetid: ed3d6ea0-efe5-4917-85fa-bd9ad1978b4e
-
 ms.date: 12/05/2018
 ms.keywords: IXpsOMResource, IXpsOMResource interface [XPS Documents and Packaging], IXpsOMResource interface [XPS Documents and Packaging],described, xps.ixpsomresource, xpsobjectmodel/IXpsOMResource
 ms.topic: interface
-f1_keywords: 
- - "xpsobjectmodel/IXpsOMResource"
+f1_keywords:
+- xpsobjectmodel/IXpsOMResource
 dev_langs:
- - c++
+- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsobjectmodel.h
+- xpsobjectmodel.h
 api_name:
- - IXpsOMResource
+- IXpsOMResource
 targetos: Windows
 req.typenames: 
 req.redist: 

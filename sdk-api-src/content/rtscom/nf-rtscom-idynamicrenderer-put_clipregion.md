@@ -1,19 +1,17 @@
 ---
 UID: NF:rtscom.IDynamicRenderer.put_ClipRegion
 title: IDynamicRenderer::put_ClipRegion (rtscom.h)
-
 description: Gets or sets the clipping region for the DynamicRenderer Class object.
 old-location: tablet\idynamicrenderer_clipregion.htm
 tech.root: tablet
 ms.assetid: cf11d03d-8f60-44aa-a296-cc44ddc3930a
-
 ms.date: 12/05/2018
 ms.keywords: ClipRegion property [Tablet PC], ClipRegion property [Tablet PC],IDynamicRenderer interface, IDynamicRenderer interface [Tablet PC],ClipRegion property, IDynamicRenderer.ClipRegion, IDynamicRenderer.get_ClipRegion, IDynamicRenderer.put_ClipRegion, IDynamicRenderer::ClipRegion, IDynamicRenderer::get_ClipRegion, IDynamicRenderer::put_ClipRegion, cf11d03d-8f60-44aa-a296-cc44ddc3930a, put_ClipRegion, rtscom/IDynamicRenderer::ClipRegion, rtscom/IDynamicRenderer::get_ClipRegion, rtscom/IDynamicRenderer::put_ClipRegion, tablet.idynamicrenderer_clipregion
 ms.topic: method
-f1_keywords: 
- - "rtscom/IDynamicRenderer.ClipRegion"
+f1_keywords:
+- rtscom/IDynamicRenderer.ClipRegion
 dev_langs:
- - c++
+- c++
 req.header: rtscom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib:
 req.dll: RTSCom.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - RTSCom.dll
+- RTSCom.dll
 api_name:
- - IDynamicRenderer.ClipRegion
- - IDynamicRenderer.get_ClipRegion
- - IDynamicRenderer.put_ClipRegion
- - IDynamicRenderer.get_ClipRegion
- - IDynamicRenderer.put_ClipRegion
+- IDynamicRenderer.ClipRegion
+- IDynamicRenderer.get_ClipRegion
+- IDynamicRenderer.put_ClipRegion
+- IDynamicRenderer.get_ClipRegion
+- IDynamicRenderer.put_ClipRegion
 targetos: Windows
 req.typenames: 
 req.redist: 

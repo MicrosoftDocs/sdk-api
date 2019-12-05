@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d11shader.ID3D11ShaderReflection.GetRequiresFlags
 title: ID3D11ShaderReflection::GetRequiresFlags (d3d11shader.h)
-
 description: Gets a group of flags that indicates the requirements of a shader.
 old-location: direct3d11\id3d11shaderreflection_getrequiresflags.htm
 tech.root: direct3d11
 ms.assetid: BC70E68A-8909-42F9-9AEE-017BA682D635
-
 ms.date: 12/05/2018
 ms.keywords: GetRequiresFlags, GetRequiresFlags method [Direct3D 11], GetRequiresFlags method [Direct3D 11],ID3D11ShaderReflection interface, ID3D11ShaderReflection interface [Direct3D 11],GetRequiresFlags method, ID3D11ShaderReflection.GetRequiresFlags, ID3D11ShaderReflection::GetRequiresFlags, d3d11shader/ID3D11ShaderReflection::GetRequiresFlags, direct3d11.id3d11shaderreflection_getrequiresflags
 ms.topic: method
-f1_keywords: 
- - "d3d11shader/ID3D11ShaderReflection.GetRequiresFlags"
+f1_keywords:
+- d3d11shader/ID3D11ShaderReflection.GetRequiresFlags
 dev_langs:
- - c++
+- c++
 req.header: d3d11shader.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: D3DCompiler_47.lib
 req.dll: D3DCompiler_47.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3DCompiler_47.dll
+- D3DCompiler_47.dll
 api_name:
- - ID3D11ShaderReflection.GetRequiresFlags
+- ID3D11ShaderReflection.GetRequiresFlags
 targetos: Windows
 req.typenames: 
 req.redist: 

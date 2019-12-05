@@ -1,19 +1,17 @@
 ---
 UID: NF:vfw.ICDecompressGetFormatSize
 title: ICDecompressGetFormatSize macro (vfw.h)
-
 description: The ICDecompressGetFormatSize macro requests the size of the output format of the decompressed data from a video decompression driver. You can use this macro or explicitly call the ICM_DECOMPRESS_GET_FORMAT message.
 old-location: multimedia\icdecompressgetformatsize.htm
 tech.root: Multimedia
 ms.assetid: 249a9d02-a51e-46f2-aea4-71460392705f
-
 ms.date: 12/05/2018
 ms.keywords: ICDecompressGetFormatSize, ICDecompressGetFormatSize macro [Windows Multimedia], _win32_ICDecompressGetFormatSize, multimedia.icdecompressgetformatsize, vfw/ICDecompressGetFormatSize
 ms.topic: macro
-f1_keywords: 
- - "vfw/ICDecompressGetFormatSize"
+f1_keywords:
+- vfw/ICDecompressGetFormatSize
 dev_langs:
- - c++
+- c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Vfw.h
+- Vfw.h
 api_name:
- - ICDecompressGetFormatSize
+- ICDecompressGetFormatSize
 targetos: Windows
 req.typenames: 
 req.redist: 

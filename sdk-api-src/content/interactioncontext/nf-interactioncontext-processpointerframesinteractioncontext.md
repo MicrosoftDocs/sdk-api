@@ -1,19 +1,17 @@
 ---
 UID: NF:interactioncontext.ProcessPointerFramesInteractionContext
 title: ProcessPointerFramesInteractionContext function (interactioncontext.h)
-
 description: Processes a set of pointer input frames.
 old-location: input_intcontext\processpointerframesinteractioncontext.htm
 tech.root: Input_IntContext
 ms.assetid: 87e70ebf-ff54-4a90-8b28-1cfe6dc33e94
-
 ms.date: 12/05/2018
 ms.keywords: ProcessPointerFramesInteractionContext, ProcessPointerFramesInteractionContext function, input_intcontext.processpointerframesinteractioncontext, interactioncontext.processpointerframesinteractioncontext, interactioncontext/ProcessPointerFramesInteractionContext
 ms.topic: function
-f1_keywords: 
- - "interactioncontext/ProcessPointerFramesInteractionContext"
+f1_keywords:
+- interactioncontext/ProcessPointerFramesInteractionContext
 dev_langs:
- - c++
+- c++
 req.header: interactioncontext.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Ninput.lib
 req.dll: Ninput.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - ninput.dll
- - API-MS-Win-Input-IE-InteractionContext-l1-1-0.dll
- - IE_Shims.dll
+- ninput.dll
+- API-MS-Win-Input-IE-InteractionContext-l1-1-0.dll
+- IE_Shims.dll
 api_name:
- - ProcessPointerFramesInteractionContext
+- ProcessPointerFramesInteractionContext
 targetos: Windows
 req.typenames: 
 req.redist: 

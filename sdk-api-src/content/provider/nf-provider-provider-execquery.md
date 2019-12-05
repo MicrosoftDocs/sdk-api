@@ -1,19 +1,17 @@
 ---
 UID: NF:provider.Provider.ExecQuery
 title: Provider::ExecQuery (provider.h)
-
 description: The ExecQuery method is called by WMI to process a WMI Query Language (WQL) query.
 old-location: wmi\provider_execquery.htm
 tech.root: WmiSdk
 ms.assetid: 94d5c8ee-2d61-42af-9a22-cc0df423b245
-
 ms.date: 12/05/2018
 ms.keywords: ExecQuery, ExecQuery method [Windows Management Instrumentation], ExecQuery method [Windows Management Instrumentation],Provider interface, Provider interface [Windows Management Instrumentation],ExecQuery method, Provider.ExecQuery, Provider::ExecQuery, _hmm_provider_execquery, provider/Provider::ExecQuery, wmi.provider_execquery
 ms.topic: method
-f1_keywords: 
- - "provider/Provider.ExecQuery"
+f1_keywords:
+- provider/Provider.ExecQuery
 dev_langs:
- - c++
+- c++
 req.header: provider.h
 req.include-header: FwCommon.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: FrameDyn.lib
 req.dll: FrameDynOS.dll; FrameDyn.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - FrameDynOS.dll
- - FrameDyn.dll
+- FrameDynOS.dll
+- FrameDyn.dll
 api_name:
- - Provider.ExecQuery
+- Provider.ExecQuery
 targetos: Windows
 req.typenames: 
 req.redist: 

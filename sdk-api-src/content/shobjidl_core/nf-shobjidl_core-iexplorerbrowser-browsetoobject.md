@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IExplorerBrowser.BrowseToObject
 title: IExplorerBrowser::BrowseToObject (shobjidl_core.h)
-
 description: Browses to an object.
 old-location: shell\IExplorerBrowser_BrowseToObject.htm
 tech.root: shell
 ms.assetid: cbfe2348-9fdc-4839-bf8b-b2a65caefa4c
-
 ms.date: 12/05/2018
 ms.keywords: BrowseToObject, BrowseToObject method [Windows Shell], BrowseToObject method [Windows Shell],IExplorerBrowser interface, IExplorerBrowser interface [Windows Shell],BrowseToObject method, IExplorerBrowser.BrowseToObject, IExplorerBrowser::BrowseToObject, SBSP_ABSOLUTE, SBSP_KEEPWORDWHEELTEXT, SBSP_NAVIGATEBACK, SBSP_NAVIGATEFORWARD, SBSP_PARENT, SBSP_RELATIVE, _shell_IExplorerBrowser_BrowseToObject, shell.IExplorerBrowser_BrowseToObject, shobjidl_core/IExplorerBrowser::BrowseToObject
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IExplorerBrowser.BrowseToObject"
+f1_keywords:
+- shobjidl_core/IExplorerBrowser.BrowseToObject
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - IExplorerBrowser.BrowseToObject
+- IExplorerBrowser.BrowseToObject
 targetos: Windows
 req.typenames: 
 req.redist: 

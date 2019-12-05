@@ -1,19 +1,17 @@
 ---
 UID: NF:dcomp.IDCompositionDevice.CreateScaleTransform3D
 title: IDCompositionDevice::CreateScaleTransform3D (dcomp.h)
-
 description: Creates a 3D scale transform object.
 old-location: directcomp\idcompositiondevice_createscaletransform3d.htm
 tech.root: directcomp
 ms.assetid: 6B9AEEB9-559A-4B7B-A4B5-1C976B92BE7B
-
 ms.date: 12/05/2018
 ms.keywords: CreateScaleTransform3D, CreateScaleTransform3D method [DirectComposition], CreateScaleTransform3D method [DirectComposition],IDCompositionDevice interface, IDCompositionDevice interface [DirectComposition],CreateScaleTransform3D method, IDCompositionDevice.CreateScaleTransform3D, IDCompositionDevice::CreateScaleTransform3D, dcomp/IDCompositionDevice::CreateScaleTransform3D, directcomp.idcompositiondevice_createscaletransform3d
 ms.topic: method
-f1_keywords: 
- - "dcomp/IDCompositionDevice.CreateScaleTransform3D"
+f1_keywords:
+- dcomp/IDCompositionDevice.CreateScaleTransform3D
 dev_langs:
- - c++
+- c++
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dcomp.lib
 req.dll: Dcomp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dcomp.dll
+- Dcomp.dll
 api_name:
- - IDCompositionDevice.CreateScaleTransform3D
+- IDCompositionDevice.CreateScaleTransform3D
 targetos: Windows
 req.typenames: 
 req.redist: 

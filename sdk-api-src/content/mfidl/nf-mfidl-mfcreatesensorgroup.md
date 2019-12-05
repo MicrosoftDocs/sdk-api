@@ -1,19 +1,17 @@
 ---
 UID: NF:mfidl.MFCreateSensorGroup
 title: MFCreateSensorGroup function (mfidl.h)
-
 description: Creates an instance of the IMFSensorGroup interface based on the provided symbolic link name.
 old-location: mf\mfcreatesensorgroup.htm
 tech.root: medfound
 ms.assetid: A1DDA62D-D668-4292-9DFF-09B17A78A54E
-
 ms.date: 12/05/2018
 ms.keywords: MFCreateSensorGroup, MFCreateSensorGroup function [Media Foundation], mf.mfcreatesensorgroup, mfidl/MFCreateSensorGroup
 ms.topic: function
-f1_keywords: 
- - "mfidl/MFCreateSensorGroup"
+f1_keywords:
+- mfidl/MFCreateSensorGroup
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - mfidl.h
+- mfidl.h
 api_name:
- - MFCreateSensorGroup
+- MFCreateSensorGroup
 targetos: Windows
 req.typenames: 
 req.redist: 

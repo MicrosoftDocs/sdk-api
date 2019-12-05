@@ -1,19 +1,17 @@
 ---
 UID: NF:winusb.WinUsb_Free
 title: WinUsb_Free function (winusb.h)
-
 description: The WinUsb_Free function releases all of the resources that WinUsb_Initialize allocated. This is a synchronous operation.
 old-location: buses\winusb_free.htm
 tech.root: usbref
 ms.assetid: 0f453364-fb2b-4b29-a96d-37c1d0d22608
-
 ms.date: 12/05/2018
 ms.keywords: WinUsb_Free, WinUsb_Free function [Buses], buses.winusb_free, winusb/WinUsb_Free, winusbfunc_5364f078-34b5-4844-ab20-60e601f036b9.xml
 ms.topic: function
-f1_keywords: 
- - "winusb/WinUsb_Free"
+f1_keywords:
+- winusb/WinUsb_Free
 dev_langs:
- - c++
+- c++
 req.header: winusb.h
 req.include-header: Winusb.h
 req.target-type: Universal
@@ -32,14 +30,14 @@ req.lib: Winusb.lib
 req.dll: Winusb.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Winusb.dll
+- Winusb.dll
 api_name:
- - WinUsb_Free
+- WinUsb_Free
 targetos: Windows
 req.typenames: 
 req.redist: 

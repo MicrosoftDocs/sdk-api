@@ -1,19 +1,17 @@
 ---
 UID: NF:ncrypt.NCryptImportKey
 title: NCryptImportKey function (ncrypt.h)
-
 description: Imports a Cryptography API:\_Next Generation (CNG) key from a memory BLOB.
 old-location: security\ncryptimportkey_func.htm
 tech.root: SecCNG
 ms.assetid: ede0e7e0-cb2c-44c0-b724-58db3480b781
-
 ms.date: 12/05/2018
 ms.keywords: NCRYPT_SILENT_FLAG, NCryptImportKey, NCryptImportKey function [Security], ncrypt/NCryptImportKey, security.ncryptimportkey_func
 ms.topic: function
-f1_keywords: 
- - "ncrypt/NCryptImportKey"
+f1_keywords:
+- ncrypt/NCryptImportKey
 dev_langs:
- - c++
+- c++
 req.header: ncrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Ncrypt.lib
 req.dll: Ncrypt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ncrypt.dll
+- Ncrypt.dll
 api_name:
- - NCryptImportKey
+- NCryptImportKey
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:faxcomex._IFaxServerNotify2.OnOutboundRoutingRulesConfigChange
 title: _IFaxServerNotify2::OnOutboundRoutingRulesConfigChange (faxcomex.h)
-
 description: The fax service calls the IFaxServerNotify2::OnOutboundRoutingRulesConfigChange method when there is a configuration change related to outbound fax routing rules.
 old-location: fax\_mfax_ifaxservernotify2_onoutboundroutingrulesconfigchange.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_onoutboundroutingrulesconfigchange.htm
-
 ms.date: 12/05/2018
 ms.keywords: IFaxServerNotify2 interface [Fax Service],OnOutboundRoutingRulesConfigChange method, IFaxServerNotify2.OnOutboundRoutingRulesConfigChange, IFaxServerNotify2::OnOutboundRoutingRulesConfigChange, OnOutboundRoutingRulesConfigChange, OnOutboundRoutingRulesConfigChange method [Fax Service], OnOutboundRoutingRulesConfigChange method [Fax Service],IFaxServerNotify2 interface, _IFaxServerNotify2.OnOutboundRoutingRulesConfigChange, _IFaxServerNotify2::OnOutboundRoutingRulesConfigChange, _mfax_ifaxservernotify2_onoutboundroutingrulesconfigchange, fax._mfax_ifaxservernotify2_onoutboundroutingrulesconfigchange, faxcomex/IFaxServerNotify2::OnOutboundRoutingRulesConfigChange
 ms.topic: method
-f1_keywords: 
- - "faxcomex/IFaxServerNotify2.OnOutboundRoutingRulesConfigChange"
+f1_keywords:
+- faxcomex/IFaxServerNotify2.OnOutboundRoutingRulesConfigChange
 dev_langs:
- - c++
+- c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: Fxscomex.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Fxscomex.dll
+- Fxscomex.dll
 api_name:
- - IFaxServerNotify2.OnOutboundRoutingRulesConfigChange
- - IFaxServerNotify2.OnOutboundRoutingRulesConfigChange
+- IFaxServerNotify2.OnOutboundRoutingRulesConfigChange
+- IFaxServerNotify2.OnOutboundRoutingRulesConfigChange
 targetos: Windows
 req.typenames: 
 req.redist: 

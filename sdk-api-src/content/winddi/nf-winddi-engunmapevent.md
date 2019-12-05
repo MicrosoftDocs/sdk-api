@@ -1,19 +1,17 @@
 ---
 UID: NF:winddi.EngUnmapEvent
 title: EngUnmapEvent function (winddi.h)
-
 description: The EngUnmapEvent function cleans up the kernel-mode resources allocated for a mapped user-mode event.
 old-location: display\engunmapevent.htm
 tech.root: display
 ms.assetid: 3be72e38-e7ea-407b-87e4-c6293d6160f6
-
 ms.date: 12/05/2018
 ms.keywords: EngUnmapEvent, EngUnmapEvent function [Display Devices], display.engunmapevent, gdifncs_0f5f2320-13d2-471a-93b6-739f9ecbd620.xml, winddi/EngUnmapEvent
 ms.topic: function
-f1_keywords: 
- - "winddi/EngUnmapEvent"
+f1_keywords:
+- winddi/EngUnmapEvent
 dev_langs:
- - c++
+- c++
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Universal
@@ -32,14 +30,14 @@ req.lib: Win32k.lib
 req.dll: Win32k.sys
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Win32k.sys
+- Win32k.sys
 api_name:
- - EngUnmapEvent
+- EngUnmapEvent
 targetos: Windows
 req.typenames: 
 req.redist: 

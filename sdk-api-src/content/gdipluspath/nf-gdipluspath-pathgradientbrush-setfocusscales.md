@@ -1,19 +1,17 @@
 ---
 UID: NF:gdipluspath.PathGradientBrush.SetFocusScales
 title: PathGradientBrush::SetFocusScales (gdipluspath.h)
-
 description: The PathGradientBrush::SetFocusScales method sets the focus scales of this path gradient brush.
 old-location: gdiplus\_gdiplus_CLASS_PathGradientBrush_SetFocusScales_xScale_yScale_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\pathgradientbrushclass\pathgradientbrushmethods\setfocusscales.htm
-
 ms.date: 12/05/2018
 ms.keywords: PathGradientBrush class [GDI+],SetFocusScales method, PathGradientBrush.SetFocusScales, PathGradientBrush::SetFocusScales, SetFocusScales, SetFocusScales method [GDI+], SetFocusScales method [GDI+],PathGradientBrush class, _gdiplus_CLASS_PathGradientBrush_SetFocusScales_xScale_yScale_, gdiplus._gdiplus_CLASS_PathGradientBrush_SetFocusScales_xScale_yScale_
 ms.topic: method
-f1_keywords: 
- - "gdipluspath/PathGradientBrush.SetFocusScales"
+f1_keywords:
+- gdipluspath/PathGradientBrush.SetFocusScales
 dev_langs:
- - c++
+- c++
 req.header: gdipluspath.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - PathGradientBrush.SetFocusScales
+- PathGradientBrush.SetFocusScales
 targetos: Windows
 req.typenames: 
 req.redist: 

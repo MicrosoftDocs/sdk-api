@@ -1,19 +1,17 @@
 ---
 UID: NF:p2p.PeerGroupCloseDirectConnection
 title: PeerGroupCloseDirectConnection function (p2p.h)
-
 description: The PeerGroupCloseDirectConnection function closes a specific direct connection between two peers.
 old-location: p2p\peergroupclosedirectconnection.htm
 tech.root: P2PSdk
 ms.assetid: 56b47743-f205-407b-80f2-03e3c9b78be1
-
 ms.date: 12/05/2018
 ms.keywords: PeerGroupCloseDirectConnection, PeerGroupCloseDirectConnection function [Peer Networking], p2p.peergroupclosedirectconnection, p2p/PeerGroupCloseDirectConnection
 ms.topic: function
-f1_keywords: 
- - "p2p/PeerGroupCloseDirectConnection"
+f1_keywords:
+- p2p/PeerGroupCloseDirectConnection
 dev_langs:
- - c++
+- c++
 req.header: p2p.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: P2P.lib
 req.dll: P2P.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - P2P.dll
+- P2P.dll
 api_name:
- - PeerGroupCloseDirectConnection
+- PeerGroupCloseDirectConnection
 targetos: Windows
 req.typenames: 
 req.redist: 

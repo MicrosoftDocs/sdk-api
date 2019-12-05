@@ -1,19 +1,17 @@
 ---
 UID: NF:gdiplusheaders.Font.GetStyle
 title: Font::GetStyle (gdiplusheaders.h)
-
 description: The Font::GetStyle method gets the style of this font's typeface.
 old-location: gdiplus\_gdiplus_CLASS_Font_GetStyle_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\fontclass\fontmethods\getstyle.htm
-
 ms.date: 12/05/2018
 ms.keywords: Font class [GDI+],GetStyle method, Font.GetStyle, Font::GetStyle, GetStyle, GetStyle method [GDI+], GetStyle method [GDI+],Font class, _gdiplus_CLASS_Font_GetStyle_, gdiplus._gdiplus_CLASS_Font_GetStyle_
 ms.topic: method
-f1_keywords: 
- - "gdiplusheaders/Font.GetStyle"
+f1_keywords:
+- gdiplusheaders/Font.GetStyle
 dev_langs:
- - c++
+- c++
 req.header: gdiplusheaders.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - Font.GetStyle
+- Font.GetStyle
 targetos: Windows
 req.typenames: 
 req.redist: 

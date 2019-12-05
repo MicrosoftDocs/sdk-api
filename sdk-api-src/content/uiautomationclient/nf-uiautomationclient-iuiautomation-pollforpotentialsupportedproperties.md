@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationclient.IUIAutomation.PollForPotentialSupportedProperties
 title: IUIAutomation::PollForPotentialSupportedProperties (uiautomationclient.h)
-
 description: Retrieves the properties that might be supported on a UI Automation element.
 old-location: winauto\uiauto_IUIAutomation_PollForPotentialSupportedProperties.htm
 tech.root: WinAuto
 ms.assetid: 2cb78604-3c61-4362-9d8a-e40d5ddb4047
-
 ms.date: 12/05/2018
 ms.keywords: IUIAutomation interface [Windows Accessibility],PollForPotentialSupportedProperties method, IUIAutomation.PollForPotentialSupportedProperties, IUIAutomation::PollForPotentialSupportedProperties, PollForPotentialSupportedProperties, PollForPotentialSupportedProperties method [Windows Accessibility], PollForPotentialSupportedProperties method [Windows Accessibility],IUIAutomation interface, uiauto.uiauto_IUIAutomation_PollForPotentialSupportedProperties, uiauto_IUIAutomation_PollForPotentialSupportedProperties, uiautomationclient/IUIAutomation::PollForPotentialSupportedProperties, winauto.uiauto_IUIAutomation_PollForPotentialSupportedProperties
 ms.topic: method
-f1_keywords: 
- - "uiautomationclient/IUIAutomation.PollForPotentialSupportedProperties"
+f1_keywords:
+- uiautomationclient/IUIAutomation.PollForPotentialSupportedProperties
 dev_langs:
- - c++
+- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationClient.h
+- UIAutomationClient.h
 api_name:
- - IUIAutomation.PollForPotentialSupportedProperties
+- IUIAutomation.PollForPotentialSupportedProperties
 targetos: Windows
 req.typenames: 
 req.redist: 

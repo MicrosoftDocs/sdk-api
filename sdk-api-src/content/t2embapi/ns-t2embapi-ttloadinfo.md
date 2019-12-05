@@ -1,19 +1,17 @@
 ---
 UID: NS:t2embapi.__unnamed_struct_0
 title: TTLOADINFO (t2embapi.h)
-
 description: The TTLOADINFO structure contains the URL from which the embedded font object has been obtained.
 old-location: gdi\ttloadinfo.htm
 tech.root: gdi
 ms.assetid: 7a4beae7-cd30-47e3-b310-d0a79c3c8c36
-
 ms.date: 12/05/2018
 ms.keywords: TTLOADINFO, TTLOADINFO structure [Windows GDI], _win32_TTLOADINFO, gdi.ttloadinfo, t2embapi/TTLOADINFO
 ms.topic: struct
-f1_keywords: 
- - "t2embapi/TTLOADINFO"
+f1_keywords:
+- t2embapi/TTLOADINFO
 dev_langs:
- - c++
+- c++
 req.header: t2embapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - T2embapi.h
+- T2embapi.h
 api_name:
- - TTLOADINFO
+- TTLOADINFO
 targetos: Windows
 req.typenames: TTLOADINFO
 req.redist: 

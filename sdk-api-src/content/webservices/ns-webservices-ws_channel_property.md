@@ -1,19 +1,17 @@
 ---
 UID: NS:webservices._WS_CHANNEL_PROPERTY
 title: WS_CHANNEL_PROPERTY (webservices.h)
-
 description: Specifies a channel specific setting.
 old-location: wsw\ws_channel_property.htm
 tech.root: wsw
 ms.assetid: 0298e8ae-67ad-4881-885f-2ed713316e76
-
 ms.date: 12/05/2018
 ms.keywords: WS_CHANNEL_PROPERTY, WS_CHANNEL_PROPERTY structure [Web Services for Windows], webservices/WS_CHANNEL_PROPERTY, wsw.ws_channel_property
 ms.topic: struct
-f1_keywords: 
- - "webservices/WS_CHANNEL_PROPERTY"
+f1_keywords:
+- webservices/WS_CHANNEL_PROPERTY
 dev_langs:
- - c++
+- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WebServices.h
+- WebServices.h
 api_name:
- - WS_CHANNEL_PROPERTY
+- WS_CHANNEL_PROPERTY
 targetos: Windows
 req.typenames: WS_CHANNEL_PROPERTY
 req.redist: 

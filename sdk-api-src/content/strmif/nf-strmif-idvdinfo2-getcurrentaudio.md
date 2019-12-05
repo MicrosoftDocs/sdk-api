@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IDvdInfo2.GetCurrentAudio
 title: IDvdInfo2::GetCurrentAudio (strmif.h)
-
 description: The GetCurrentAudio method retrieves the number of available audio streams and the number of the currently selected audio stream.
 old-location: dshow\idvdinfo2_getcurrentaudio.htm
 tech.root: DirectShow
 ms.assetid: 0f2ff79f-cefa-43e5-ab91-348a5341a171
-
 ms.date: 12/05/2018
 ms.keywords: GetCurrentAudio, GetCurrentAudio method [DirectShow], GetCurrentAudio method [DirectShow],IDvdInfo2 interface, IDvdInfo2 interface [DirectShow],GetCurrentAudio method, IDvdInfo2.GetCurrentAudio, IDvdInfo2::GetCurrentAudio, IDvdInfo2GetCurrentAudio, dshow.idvdinfo2_getcurrentaudio, strmif/IDvdInfo2::GetCurrentAudio
 ms.topic: method
-f1_keywords: 
- - "strmif/IDvdInfo2.GetCurrentAudio"
+f1_keywords:
+- strmif/IDvdInfo2.GetCurrentAudio
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IDvdInfo2.GetCurrentAudio
+- IDvdInfo2.GetCurrentAudio
 targetos: Windows
 req.typenames: 
 req.redist: 

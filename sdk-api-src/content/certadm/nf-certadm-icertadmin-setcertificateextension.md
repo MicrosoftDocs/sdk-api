@@ -1,19 +1,17 @@
 ---
 UID: NF:certadm.ICertAdmin.SetCertificateExtension
 title: ICertAdmin::SetCertificateExtension (certadm.h)
-
 description: Adds a new extension to the certificate issued in response to a certificate request. This method was first defined by the ICertAdmin interface.
 old-location: security\icertadmin2_setcertificateextension.htm
 tech.root: SecCrypto
 ms.assetid: d26061da-acc3-45d8-93de-f2d431d350a6
-
 ms.date: 12/05/2018
 ms.keywords: CCertAdmin interface [Security],SetCertificateExtension method, EXTENSION_CRITICAL_FLAG, EXTENSION_DISABLE_FLAG, ICertAdmin interface [Security],SetCertificateExtension method, ICertAdmin.SetCertificateExtension, ICertAdmin2 interface [Security],SetCertificateExtension method, ICertAdmin2::SetCertificateExtension, ICertAdmin::SetCertificateExtension, PROPTYPE_BINARY, PROPTYPE_DATE, PROPTYPE_LONG, PROPTYPE_STRING, SetCertificateExtension, SetCertificateExtension method [Security], SetCertificateExtension method [Security],CCertAdmin interface, SetCertificateExtension method [Security],ICertAdmin interface, SetCertificateExtension method [Security],ICertAdmin2 interface, certadm/ICertAdmin2::SetCertificateExtension, certadm/ICertAdmin::SetCertificateExtension, security.icertadmin2_setcertificateextension
 ms.topic: method
-f1_keywords: 
- - "certadm/ICertAdmin2.SetCertificateExtension"
+f1_keywords:
+- certadm/ICertAdmin2.SetCertificateExtension
 dev_langs:
- - c++
+- c++
 req.header: certadm.h
 req.include-header: Certsrv.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Certidl.lib
 req.dll: Certadm.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Certadm.dll
+- Certadm.dll
 api_name:
- - ICertAdmin2.SetCertificateExtension
- - ICertAdmin.SetCertificateExtension
- - CCertAdmin.SetCertificateExtension
+- ICertAdmin2.SetCertificateExtension
+- ICertAdmin.SetCertificateExtension
+- CCertAdmin.SetCertificateExtension
 targetos: Windows
 req.typenames: 
 req.redist: 

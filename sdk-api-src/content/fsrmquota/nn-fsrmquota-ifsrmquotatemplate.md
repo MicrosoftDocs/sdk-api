@@ -1,19 +1,17 @@
 ---
 UID: NN:fsrmquota.IFsrmQuotaTemplate
 title: IFsrmQuotaTemplate (fsrmquota.h)
-
 description: Used to configure templates from which new quota objects can be derived.
 old-location: fsrm\ifsrmquotatemplate.htm
 tech.root: fsrm
 ms.assetid: de8ac383-f309-4320-bc77-c859ba27e1ca
-
 ms.date: 12/05/2018
 ms.keywords: IFsrmQuotaTemplate, IFsrmQuotaTemplate interface [File Server Resource Manager], IFsrmQuotaTemplate interface [File Server Resource Manager],described, fs.ifsrmquotatemplate, fsrm.ifsrmquotatemplate, fsrm/IFsrmQuotaTemplate
 ms.topic: interface
-f1_keywords: 
- - "fsrmquota/IFsrmQuotaTemplate"
+f1_keywords:
+- fsrmquota/IFsrmQuotaTemplate
 dev_langs:
- - c++
+- c++
 req.header: fsrmquota.h
 req.include-header: FsrmPipeline.h, FsrmQuota.h, FsrmReports.h, FsrmScreen.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: SrmSvc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - SrmSvc.dll
+- SrmSvc.dll
 api_name:
- - IFsrmQuotaTemplate
+- IFsrmQuotaTemplate
 targetos: Windows
 req.typenames: 
 req.redist: 

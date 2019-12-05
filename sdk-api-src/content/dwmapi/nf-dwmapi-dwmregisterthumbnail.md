@@ -1,19 +1,17 @@
 ---
 UID: NF:dwmapi.DwmRegisterThumbnail
 title: DwmRegisterThumbnail function (dwmapi.h)
-
 description: Creates a Desktop Window Manager (DWM) thumbnail relationship between the destination and source windows.
 old-location: dwm\dwmregisterthumbnail.htm
 tech.root: dwm
 ms.assetid: VS|winui|~\winui\desktopwindowmanager\reference\functions\dwmregisterthumbnail.htm
-
 ms.date: 12/05/2018
 ms.keywords: DwmRegisterThumbnail, DwmRegisterThumbnail function [Desktop Window Manager], _udwm_dwmregisterthumbnail, _udwm_dwmregisterthumbnail_cpp, dwm.dwmregisterthumbnail, dwmapi/DwmRegisterThumbnail, winui._udwm_dwmregisterthumbnail
 ms.topic: function
-f1_keywords: 
- - "dwmapi/DwmRegisterThumbnail"
+f1_keywords:
+- dwmapi/DwmRegisterThumbnail
 dev_langs:
- - c++
+- c++
 req.header: dwmapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dwmapi.lib
 req.dll: Dwmapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Dwmapi.dll
+- Dwmapi.dll
 api_name:
- - DwmRegisterThumbnail
+- DwmRegisterThumbnail
 targetos: Windows
 req.typenames: 
 req.redist: 

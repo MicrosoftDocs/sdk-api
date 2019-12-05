@@ -1,19 +1,17 @@
 ---
 UID: NF:mbnapi.IMbnInterfaceManagerEvents.OnInterfaceRemoval
 title: IMbnInterfaceManagerEvents::OnInterfaceRemoval (mbnapi.h)
-
 description: Notification method that signals that a device has been removed from the system.
 old-location: mbn\imbninterfacemanagerevents_oninterfaceremoval.htm
 tech.root: mbn
 ms.assetid: d7c96d35-20e1-46e2-82db-4b1fc03cdd22
-
 ms.date: 12/05/2018
 ms.keywords: IMbnInterfaceManagerEvents interface [Microsoft Broadband Networks],OnInterfaceRemoval method, IMbnInterfaceManagerEvents.OnInterfaceRemoval, IMbnInterfaceManagerEvents::OnInterfaceRemoval, OnInterfaceRemoval, OnInterfaceRemoval method [Microsoft Broadband Networks], OnInterfaceRemoval method [Microsoft Broadband Networks],IMbnInterfaceManagerEvents interface, mbn.imbninterfacemanagerevents_oninterfaceremoval, mbnapi/IMbnInterfaceManagerEvents::OnInterfaceRemoval
 ms.topic: method
-f1_keywords: 
- - "mbnapi/IMbnInterfaceManagerEvents.OnInterfaceRemoval"
+f1_keywords:
+- mbnapi/IMbnInterfaceManagerEvents.OnInterfaceRemoval
 dev_langs:
- - c++
+- c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mbnapi.h
+- mbnapi.h
 api_name:
- - IMbnInterfaceManagerEvents.OnInterfaceRemoval
+- IMbnInterfaceManagerEvents.OnInterfaceRemoval
 targetos: Windows
 req.typenames: 
 req.redist: 

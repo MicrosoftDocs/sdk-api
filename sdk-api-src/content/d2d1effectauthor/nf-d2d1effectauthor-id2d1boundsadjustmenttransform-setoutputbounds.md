@@ -1,19 +1,17 @@
 ---
 UID: NF:d2d1effectauthor.ID2D1BoundsAdjustmentTransform.SetOutputBounds
 title: ID2D1BoundsAdjustmentTransform::SetOutputBounds (d2d1effectauthor.h)
-
 description: This sets the output bounds for the support transform.
 old-location: direct2d\id2d1boundsadjustmenttransform_setoutputbounds.htm
 tech.root: Direct2D
 ms.assetid: AC0E392A-0410-44BC-8B52-FAD97D45970F
-
 ms.date: 12/05/2018
 ms.keywords: ID2D1BoundsAdjustmentTransform interface [Direct2D],SetOutputBounds method, ID2D1BoundsAdjustmentTransform.SetOutputBounds, ID2D1BoundsAdjustmentTransform::SetOutputBounds, SetOutputBounds, SetOutputBounds method [Direct2D], SetOutputBounds method [Direct2D],ID2D1BoundsAdjustmentTransform interface, d2d1effectauthor/ID2D1BoundsAdjustmentTransform::SetOutputBounds, direct2d.id2d1boundsadjustmenttransform_setoutputbounds
 ms.topic: method
-f1_keywords: 
- - "d2d1effectauthor/ID2D1BoundsAdjustmentTransform.SetOutputBounds"
+f1_keywords:
+- d2d1effectauthor/ID2D1BoundsAdjustmentTransform.SetOutputBounds
 dev_langs:
- - c++
+- c++
 req.header: d2d1effectauthor.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: D2d1.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - d2d1.lib
- - d2d1.dll
+- d2d1.lib
+- d2d1.dll
 api_name:
- - ID2D1BoundsAdjustmentTransform.SetOutputBounds
+- ID2D1BoundsAdjustmentTransform.SetOutputBounds
 targetos: Windows
 req.typenames: 
 req.redist: 

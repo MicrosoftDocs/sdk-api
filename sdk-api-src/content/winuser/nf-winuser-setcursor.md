@@ -1,19 +1,17 @@
 ---
 UID: NF:winuser.SetCursor
 title: SetCursor function (winuser.h)
-
 description: Sets the cursor shape.
 old-location: menurc\setcursor.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\cursors\cursorreference\cursorfunctions\setcursor.htm
-
 ms.date: 12/05/2018
 ms.keywords: SetCursor, SetCursor function [Menus and Other Resources], _win32_SetCursor, _win32_setcursor_cpp, menurc.setcursor, winui._win32_setcursor, winuser/SetCursor
 ms.topic: function
-f1_keywords: 
- - "winuser/SetCursor"
+f1_keywords:
+- winuser/SetCursor
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,22 +30,22 @@ req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - User32.dll
- - Ext-MS-Win-NTUser-GUI-l1-1-0.dll
- - Ext-MS-Win-NTUser-GUI-l1-1-1.dll
- - Ext-MS-Win-NTUser-GUI-l1-2-0.dll
- - api-ms-win-ntuser-ie-gui-l1-1-0.dll
- - ie_stubs.dll
- - ext-ms-win-ntuser-gui-l1-2-1.dll
- - Ext-MS-Win-RTCore-NTUser-Cursor-L1-1-0.dll
- - MinUser.dll
+- User32.dll
+- Ext-MS-Win-NTUser-GUI-l1-1-0.dll
+- Ext-MS-Win-NTUser-GUI-l1-1-1.dll
+- Ext-MS-Win-NTUser-GUI-l1-2-0.dll
+- api-ms-win-ntuser-ie-gui-l1-1-0.dll
+- ie_stubs.dll
+- ext-ms-win-ntuser-gui-l1-2-1.dll
+- Ext-MS-Win-RTCore-NTUser-Cursor-L1-1-0.dll
+- MinUser.dll
 api_name:
- - SetCursor
+- SetCursor
 targetos: Windows
 req.typenames: 
 req.redist: 

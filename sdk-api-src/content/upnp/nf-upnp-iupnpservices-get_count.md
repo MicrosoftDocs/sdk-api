@@ -1,19 +1,17 @@
 ---
 UID: NF:upnp.IUPnPServices.get_Count
 title: IUPnPServices::get_Count (upnp.h)
-
 description: The Count property specifies the number of services in the collection.
 old-location: upnp\iupnpservices_count.htm
 tech.root: upnp
 ms.assetid: 33d90664-825a-4562-82ae-249b329743ac
-
 ms.date: 12/05/2018
 ms.keywords: IUPnPServices interface [UPnP APIs],get_Count method, IUPnPServices.get_Count, IUPnPServices::get_Count, _upnp_iupnpservices_count, get_Count, get_Count method [UPnP APIs], get_Count method [UPnP APIs],IUPnPServices interface, upnp.iupnpservices_count, upnp/IUPnPServices::get_Count
 ms.topic: method
-f1_keywords: 
- - "upnp/IUPnPServices.get_Count"
+f1_keywords:
+- upnp/IUPnPServices.get_Count
 dev_langs:
- - c++
+- c++
 req.header: upnp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Upnp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Upnp.dll
+- Upnp.dll
 api_name:
- - IUPnPServices.get_Count
+- IUPnPServices.get_Count
 targetos: Windows
 req.typenames: 
 req.redist: 

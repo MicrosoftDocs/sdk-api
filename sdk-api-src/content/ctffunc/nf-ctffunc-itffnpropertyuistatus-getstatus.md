@@ -1,19 +1,17 @@
 ---
 UID: NF:ctffunc.ITfFnPropertyUIStatus.GetStatus
 title: ITfFnPropertyUIStatus::GetStatus (ctffunc.h)
-
 description: ITfFnPropertyUIStatus::GetStatus method
 old-location: tsf\itffnpropertyuistatus_getstatus.htm
 tech.root: TSF
 ms.assetid: aef8c1b4-3cda-4fa3-ae8c-a8f8da4840b5
-
 ms.date: 12/05/2018
 ms.keywords: GetStatus, GetStatus method [Text Services Framework], GetStatus method [Text Services Framework],ITfFnPropertyUIStatus interface, ITfFnPropertyUIStatus interface [Text Services Framework],GetStatus method, ITfFnPropertyUIStatus.GetStatus, ITfFnPropertyUIStatus::GetStatus, TF_PROPUI_STATUS_SAVETOFILE, _tsf_itffnpropertyuistatus_getstatus_ref, ctffunc/ITfFnPropertyUIStatus::GetStatus, tsf.itffnpropertyuistatus_getstatus
 ms.topic: method
-f1_keywords: 
- - "ctffunc/ITfFnPropertyUIStatus.GetStatus"
+f1_keywords:
+- ctffunc/ITfFnPropertyUIStatus.GetStatus
 dev_langs:
- - c++
+- c++
 req.header: ctffunc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msctf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msctf.dll
+- Msctf.dll
 api_name:
- - ITfFnPropertyUIStatus.GetStatus
+- ITfFnPropertyUIStatus.GetStatus
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

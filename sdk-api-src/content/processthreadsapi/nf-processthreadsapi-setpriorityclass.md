@@ -1,19 +1,17 @@
 ---
 UID: NF:processthreadsapi.SetPriorityClass
 title: SetPriorityClass function (processthreadsapi.h)
-
 description: Sets the priority class for the specified process. This value together with the priority value of each thread of the process determines each thread's base priority level.
 old-location: base\setpriorityclass.htm
 tech.root: ProcThread
 ms.assetid: 02686637-427a-4cf1-a4e5-60c707af3084
-
 ms.date: 12/05/2018
 ms.keywords: ABOVE_NORMAL_PRIORITY_CLASS, BELOW_NORMAL_PRIORITY_CLASS, HIGH_PRIORITY_CLASS, IDLE_PRIORITY_CLASS, NORMAL_PRIORITY_CLASS, PROCESS_MODE_BACKGROUND_BEGIN, PROCESS_MODE_BACKGROUND_END, REALTIME_PRIORITY_CLASS, SetPriorityClass, SetPriorityClass function, _win32_setpriorityclass, base.setpriorityclass, processthreadsapi/SetPriorityClass, winbase/SetPriorityClass
 ms.topic: function
-f1_keywords: 
- - "processthreadsapi/SetPriorityClass"
+f1_keywords:
+- processthreadsapi/SetPriorityClass
 dev_langs:
- - c++
+- c++
 req.header: processthreadsapi.h
 req.include-header: Windows Server 2003, Windows Vista, Windows 7, Windows Server 2008  Windows Server 2008 R2, Windows.h
 req.target-type: Windows
@@ -32,21 +30,21 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-ProcessThreads-l1-1-0.dll
- - KernelBase.dll
- - MinKernelBase.dll
- - API-MS-Win-Core-ProcessThreads-l1-1-1.dll
- - API-MS-Win-Core-ProcessThreads-l1-1-2.dll
- - api-ms-win-downlevel-kernel32-l1-1-0.dll
- - API-MS-Win-Core-ProcessThreads-L1-1-3.dll
+- Kernel32.dll
+- API-MS-Win-Core-ProcessThreads-l1-1-0.dll
+- KernelBase.dll
+- MinKernelBase.dll
+- API-MS-Win-Core-ProcessThreads-l1-1-1.dll
+- API-MS-Win-Core-ProcessThreads-l1-1-2.dll
+- api-ms-win-downlevel-kernel32-l1-1-0.dll
+- API-MS-Win-Core-ProcessThreads-L1-1-3.dll
 api_name:
- - SetPriorityClass
+- SetPriorityClass
 targetos: Windows
 req.typenames: 
 req.redist: 

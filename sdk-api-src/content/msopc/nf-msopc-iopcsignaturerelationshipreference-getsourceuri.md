@@ -1,19 +1,17 @@
 ---
 UID: NF:msopc.IOpcSignatureRelationshipReference.GetSourceUri
 title: IOpcSignatureRelationshipReference::GetSourceUri (msopc.h)
-
 description: Gets the source URI of the relationships that are stored in the referenced&#160;Relationships part.
 old-location: opc\iopcsignaturerelationshipreference_getsourceuri.htm
 tech.root: OPC
 ms.assetid: d08cfbf0-0917-4ca4-85be-5ca62d7029d0
-
 ms.date: 12/05/2018
 ms.keywords: GetSourceUri, GetSourceUri method [Open Packaging Conventions], GetSourceUri method [Open Packaging Conventions],IOpcSignatureRelationshipReference interface, IOpcSignatureRelationshipReference interface [Open Packaging Conventions],GetSourceUri method, IOpcSignatureRelationshipReference.GetSourceUri, IOpcSignatureRelationshipReference::GetSourceUri, msopc/IOpcSignatureRelationshipReference::GetSourceUri, opc.iopcsignaturerelationshipreference_getsourceuri
 ms.topic: method
-f1_keywords: 
- - "msopc/IOpcSignatureRelationshipReference.GetSourceUri"
+f1_keywords:
+- msopc/IOpcSignatureRelationshipReference.GetSourceUri
 dev_langs:
- - c++
+- c++
 req.header: msopc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msopc.h
+- msopc.h
 api_name:
- - IOpcSignatureRelationshipReference.GetSourceUri
+- IOpcSignatureRelationshipReference.GetSourceUri
 targetos: Windows
 req.typenames: 
 req.redist: 

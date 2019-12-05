@@ -1,19 +1,17 @@
 ---
 UID: NF:propsys.IPropertyDescriptionSearchInfo.GetProjectionString
 title: IPropertyDescriptionSearchInfo::GetProjectionString (propsys.h)
-
 description: Returns a pointer to a string containing the canonical name of the item.
 old-location: properties\IPropertyDescriptionSearchInfo_GetProjectionString.htm
 tech.root: properties
 ms.assetid: 06881c29-fafb-47be-abdb-906e289ee5fc
-
 ms.date: 12/05/2018
 ms.keywords: GetProjectionString, GetProjectionString method [Windows Properties], GetProjectionString method [Windows Properties],IPropertyDescriptionSearchInfo interface, IPropertyDescriptionSearchInfo interface [Windows Properties],GetProjectionString method, IPropertyDescriptionSearchInfo.GetProjectionString, IPropertyDescriptionSearchInfo::GetProjectionString, _shell_IPropertyDescriptionSearchInfo_GetProjectionString, properties.IPropertyDescriptionSearchInfo_GetProjectionString, propsys/IPropertyDescriptionSearchInfo::GetProjectionString, shell.IPropertyDescriptionSearchInfo_GetProjectionString
 ms.topic: method
-f1_keywords: 
- - "propsys/IPropertyDescriptionSearchInfo.GetProjectionString"
+f1_keywords:
+- propsys/IPropertyDescriptionSearchInfo.GetProjectionString
 dev_langs:
- - c++
+- c++
 req.header: propsys.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Propsys.h
+- Propsys.h
 api_name:
- - IPropertyDescriptionSearchInfo.GetProjectionString
+- IPropertyDescriptionSearchInfo.GetProjectionString
 targetos: Windows
 req.typenames: 
 req.redist: 

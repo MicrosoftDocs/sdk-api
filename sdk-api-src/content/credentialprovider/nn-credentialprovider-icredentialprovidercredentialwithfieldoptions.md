@@ -1,19 +1,17 @@
 ---
 UID: NN:credentialprovider.ICredentialProviderCredentialWithFieldOptions
 title: ICredentialProviderCredentialWithFieldOptions (credentialprovider.h)
-
 description: Provides a method that enables the credential provider framework to determine whether you've made a customization to a field's option in a logon or credential UI.
 old-location: shell\ICredentialProviderCredentialWithFieldOptions.htm
 tech.root: shell
 ms.assetid: 37C391D7-23C2-4053-BC7F-62F8AFD50DA3
-
 ms.date: 12/05/2018
 ms.keywords: ICredentialProviderCredentialWithFieldOptions, ICredentialProviderCredentialWithFieldOptions interface [Windows Shell], ICredentialProviderCredentialWithFieldOptions interface [Windows Shell],described, credentialprovider/ICredentialProviderCredentialWithFieldOptions, shell.ICredentialProviderCredentialWithFieldOptions
 ms.topic: interface
-f1_keywords: 
- - "credentialprovider/ICredentialProviderCredentialWithFieldOptions"
+f1_keywords:
+- credentialprovider/ICredentialProviderCredentialWithFieldOptions
 dev_langs:
- - c++
+- c++
 req.header: credentialprovider.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CredentialProvider.h
+- CredentialProvider.h
 api_name:
- - ICredentialProviderCredentialWithFieldOptions
+- ICredentialProviderCredentialWithFieldOptions
 targetos: Windows
 req.typenames: 
 req.redist: 

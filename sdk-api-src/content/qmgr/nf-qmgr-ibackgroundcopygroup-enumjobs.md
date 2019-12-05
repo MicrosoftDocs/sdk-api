@@ -1,19 +1,17 @@
 ---
 UID: NF:qmgr.IBackgroundCopyGroup.EnumJobs
 title: IBackgroundCopyGroup::EnumJobs (qmgr.h)
-
 description: Use the EnumJobs method to retrieve a list of jobs in the group. The list contains only one job.
 old-location: bits\ibackgroundcopygroup_enumjobs.htm
 tech.root: Bits
 ms.assetid: 40e4412e-60d5-4e08-85b9-1e92f5222e71
-
 ms.date: 12/05/2018
 ms.keywords: EnumJobs, EnumJobs method [BITS], EnumJobs method [BITS],IBackgroundCopyGroup interface, IBackgroundCopyGroup interface [BITS],EnumJobs method, IBackgroundCopyGroup.EnumJobs, IBackgroundCopyGroup::EnumJobs, bits.ibackgroundcopygroup_enumjobs, qmgr/IBackgroundCopyGroup::EnumJobs
 ms.topic: method
-f1_keywords: 
- - "qmgr/IBackgroundCopyGroup.EnumJobs"
+f1_keywords:
+- qmgr/IBackgroundCopyGroup.EnumJobs
 dev_langs:
- - c++
+- c++
 req.header: qmgr.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: QmgrPrxy.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - QmgrPrxy.dll
+- QmgrPrxy.dll
 api_name:
- - IBackgroundCopyGroup.EnumJobs
+- IBackgroundCopyGroup.EnumJobs
 targetos: Windows
 req.typenames: 
 req.redist: 

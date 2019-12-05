@@ -1,19 +1,17 @@
 ---
 UID: NF:wcmconfig.ITargetInfo.LoadModule
 title: ITargetInfo::LoadModule (wcmconfig.h)
-
 description: Loads the module from the offline installation location.
 old-location: smi\itargetinfo_loadmodule.htm
 tech.root: SMI
 ms.assetid: 863aefc6-d777-4af9-b310-adadef993bcd
-
 ms.date: 12/05/2018
 ms.keywords: ITargetInfo interface [SMI],LoadModule method, ITargetInfo.LoadModule, ITargetInfo::LoadModule, LoadModule, LoadModule method [SMI], LoadModule method [SMI],ITargetInfo interface, smi.itargetinfo_loadmodule, wcmconfig/ITargetInfo::LoadModule
 ms.topic: method
-f1_keywords: 
- - "wcmconfig/ITargetInfo.LoadModule"
+f1_keywords:
+- wcmconfig/ITargetInfo.LoadModule
 dev_langs:
- - c++
+- c++
 req.header: wcmconfig.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: SMIEngine.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - SMIEngine.dll
+- SMIEngine.dll
 api_name:
- - ITargetInfo.LoadModule
+- ITargetInfo.LoadModule
 targetos: Windows
 req.typenames: 
 req.redist: 

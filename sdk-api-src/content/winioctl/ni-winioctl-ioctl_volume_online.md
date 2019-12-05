@@ -1,19 +1,17 @@
 ---
 UID: NI:winioctl.IOCTL_VOLUME_ONLINE
 title: IOCTL_VOLUME_ONLINE
-
 description: Brings a volume online.
 old-location: fs\ioctl_volume_online.htm
 tech.root: FileIO
 ms.assetid: fa857959-c10e-4c64-8249-4bbf44e15eb9
-
 ms.date: 12/05/2018
 ms.keywords: IOCTL_VOLUME_ONLINE, IOCTL_VOLUME_ONLINE control, IOCTL_VOLUME_ONLINE control code [Files], fs.ioctl_volume_online, winioctl/IOCTL_VOLUME_ONLINE
 ms.topic: ioctl
-f1_keywords: 
- - "winioctl/IOCTL_VOLUME_ONLINE"
+f1_keywords:
+- winioctl/IOCTL_VOLUME_ONLINE
 dev_langs:
- - c++
+- c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WinIoCtl.h
+- WinIoCtl.h
 api_name:
- - IOCTL_VOLUME_ONLINE
+- IOCTL_VOLUME_ONLINE
 targetos: Windows
 req.typenames: 
 req.redist: 

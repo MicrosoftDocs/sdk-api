@@ -1,19 +1,17 @@
 ---
 UID: NF:windows.media.streaming.IActiveBasicDevice.SetCachedSinkProtocolInfo
 title: IActiveBasicDevice::streaming (windows.media.streaming.h)
-
 description: Gets the cached sink protocol info for the device.
 old-location: mediastreaming\iactivebasicdevice_setcachedsinkprotocolinfo.htm
 tech.root: mediastreaming
 ms.assetid: 210AEE22-0AFD-43B1-8380-8A67D17AB7CB
-
 ms.date: 12/05/2018
 ms.keywords: IActiveBasicDevice interface [Media Streaming API],SetCachedSinkProtocolInfo method, IActiveBasicDevice.SetCachedSinkProtocolInfo, IActiveBasicDevice.streaming, IActiveBasicDevice::SetCachedSinkProtocolInfo, IActiveBasicDevice::streaming, SetCachedSinkProtocolInfo, SetCachedSinkProtocolInfo method [Media Streaming API], SetCachedSinkProtocolInfo method [Media Streaming API],IActiveBasicDevice interface, mediastreaming.iactivebasicdevice_setcachedsinkprotocolinfo, windows/IActiveBasicDevice::SetCachedSinkProtocolInfo
 ms.topic: method
-f1_keywords: 
- - "windows.media.streaming/IActiveBasicDevice.SetCachedSinkProtocolInfo"
+f1_keywords:
+- windows.media.streaming/IActiveBasicDevice.SetCachedSinkProtocolInfo
 dev_langs:
- - c++
+- c++
 req.header: windows.media.streaming.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: PlayToDevice.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - PlayToDevice.dll
+- PlayToDevice.dll
 api_name:
- - IActiveBasicDevice.SetCachedSinkProtocolInfo
+- IActiveBasicDevice.SetCachedSinkProtocolInfo
 targetos: Windows
 req.typenames: 
 req.redist: 

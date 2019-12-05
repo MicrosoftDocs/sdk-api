@@ -1,19 +1,17 @@
 ---
 UID: NF:slpublic.SLSetCurrentProductKey
 title: SLSetCurrentProductKey function (slpublic.h)
-
 description: Sets the current product key to the previously installed product key.
 old-location: security\slsetcurrentproductkey.htm
 tech.root: SecSLApi
 ms.assetid: a6490a89-9280-4b7d-8ea0-afa80c0a03f8
-
 ms.date: 12/05/2018
 ms.keywords: SLSetCurrentProductKey, SLSetCurrentProductKey function [Security], security.slsetcurrentproductkey, slpublic/SLSetCurrentProductKey
 ms.topic: function
-f1_keywords: 
- - "slpublic/SLSetCurrentProductKey"
+f1_keywords:
+- slpublic/SLSetCurrentProductKey
 dev_langs:
- - c++
+- c++
 req.header: slpublic.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Slc.lib
 req.dll: Slc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Slc.dll
+- Slc.dll
 api_name:
- - SLSetCurrentProductKey
+- SLSetCurrentProductKey
 targetos: Windows
 req.typenames: 
 req.redist: 

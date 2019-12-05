@@ -1,19 +1,17 @@
 ---
 UID: NS:clusapi.CLUSPROP_ULARGE_INTEGER
 title: CLUSPROP_ULARGE_INTEGER (clusapi.h)
-
 description: Describes an unsigned large integer.
 old-location: mscs\clusprop_ularge_integer.htm
 tech.root: MsCS
 ms.assetid: 1db28e46-e5e0-4d99-b9a8-80c3f1534ca6
-
 ms.date: 12/05/2018
-ms.keywords: "*PCLUSPROP_ULARGE_INTEGER, CLUSPROP_ULARGE_INTEGER, CLUSPROP_ULARGE_INTEGER structure [Failover Cluster], PCLUSPROP_ULARGE_INTEGER, PCLUSPROP_ULARGE_INTEGER structure pointer [Failover Cluster], _wolf_clusprop_ularge_integer, clusapi/CLUSPROP_ULARGE_INTEGER, clusapi/PCLUSPROP_ULARGE_INTEGER, mscs.clusprop_ularge_integer"
+ms.keywords: '*PCLUSPROP_ULARGE_INTEGER, CLUSPROP_ULARGE_INTEGER, CLUSPROP_ULARGE_INTEGER structure [Failover Cluster], PCLUSPROP_ULARGE_INTEGER, PCLUSPROP_ULARGE_INTEGER structure pointer [Failover Cluster], _wolf_clusprop_ularge_integer, clusapi/CLUSPROP_ULARGE_INTEGER, clusapi/PCLUSPROP_ULARGE_INTEGER, mscs.clusprop_ularge_integer'
 ms.topic: struct
-f1_keywords: 
- - "clusapi/CLUSPROP_ULARGE_INTEGER"
+f1_keywords:
+- clusapi/CLUSPROP_ULARGE_INTEGER
 dev_langs:
- - c++
+- c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - ClusAPI.h
+- ClusAPI.h
 api_name:
- - CLUSPROP_ULARGE_INTEGER
+- CLUSPROP_ULARGE_INTEGER
 targetos: Windows
 req.typenames: CLUSPROP_ULARGE_INTEGER
 req.redist: 

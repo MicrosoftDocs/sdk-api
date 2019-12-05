@@ -1,19 +1,17 @@
 ---
 UID: NF:audioengineendpoint.IAudioEndpoint.GetFramesPerPacket
 title: IAudioEndpoint::GetFramesPerPacket (audioengineendpoint.h)
-
 description: Gets the maximum number of frames per packet that the audio endpoint can support, based on the endpoint's period and the sample rate.
 old-location: termserv\iaudioendpoint_getframesperpacket.htm
 tech.root: TermServ
 ms.assetid: b9e47262-9e6f-4ddf-a74a-b7fa63983a5a
-
 ms.date: 12/05/2018
 ms.keywords: GetFramesPerPacket, GetFramesPerPacket method [Remote Desktop Services], GetFramesPerPacket method [Remote Desktop Services],IAudioEndpoint interface, IAudioEndpoint interface [Remote Desktop Services],GetFramesPerPacket method, IAudioEndpoint.GetFramesPerPacket, IAudioEndpoint::GetFramesPerPacket, audioengineendpoint/IAudioEndpoint::GetFramesPerPacket, termserv.iaudioendpoint_getframesperpacket
 ms.topic: method
-f1_keywords: 
- - "audioengineendpoint/IAudioEndpoint.GetFramesPerPacket"
+f1_keywords:
+- audioengineendpoint/IAudioEndpoint.GetFramesPerPacket
 dev_langs:
- - c++
+- c++
 req.header: audioengineendpoint.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Audioengineendpoint.h
+- Audioengineendpoint.h
 api_name:
- - IAudioEndpoint.GetFramesPerPacket
+- IAudioEndpoint.GetFramesPerPacket
 targetos: Windows
 req.typenames: 
 req.redist: 

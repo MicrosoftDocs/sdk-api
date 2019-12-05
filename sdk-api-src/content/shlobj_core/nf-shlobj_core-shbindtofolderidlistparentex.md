@@ -1,19 +1,17 @@
 ---
 UID: NF:shlobj_core.SHBindToFolderIDListParentEx
 title: SHBindToFolderIDListParentEx function (shlobj_core.h)
-
 description: Extends the SHBindToFolderIDListParent function by allowing the caller to specify a bind context.
 old-location: shell\SHBindToFolderIDListParentEx.htm
 tech.root: shell
 ms.assetid: 4f9b68cb-d0ae-45f7-90f5-2db1da3ab599
-
 ms.date: 12/05/2018
 ms.keywords: SHBindToFolderIDListParentEx, SHBindToFolderIDListParentEx function [Windows Shell], _shell_SHBindToFolderIDListParentEx, shell.SHBindToFolderIDListParentEx, shlobj_core/SHBindToFolderIDListParentEx
 ms.topic: function
-f1_keywords: 
- - "shlobj_core/SHBindToFolderIDListParentEx"
+f1_keywords:
+- shlobj_core/SHBindToFolderIDListParentEx
 dev_langs:
- - c++
+- c++
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: Shell32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Shell32.dll
- - API-MS-Win-Shell-Namespace-L1-1-0.dll
- - Windows.Storage.dll
+- Shell32.dll
+- API-MS-Win-Shell-Namespace-L1-1-0.dll
+- Windows.Storage.dll
 api_name:
- - SHBindToFolderIDListParentEx
+- SHBindToFolderIDListParentEx
 targetos: Windows
 req.typenames: 
 req.redist: 

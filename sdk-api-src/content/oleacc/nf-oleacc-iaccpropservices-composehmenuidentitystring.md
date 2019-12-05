@@ -1,19 +1,17 @@
 ---
 UID: NF:oleacc.IAccPropServices.ComposeHmenuIdentityString
 title: IAccPropServices::ComposeHmenuIdentityString (oleacc.h)
-
 description: Callers use ComposeHmenuIdentityString to retrieve an identity string for an HMENU-based accessible element.
 old-location: winauto\iaccpropservices_iaccpropservices__composehmenuidentitystring.htm
 tech.root: WinAuto
 ms.assetid: b0eb54e0-d903-46d8-a9f5-47f2c055c059
-
 ms.date: 12/05/2018
 ms.keywords: ComposeHmenuIdentityString, ComposeHmenuIdentityString method [Windows Accessibility], ComposeHmenuIdentityString method [Windows Accessibility],IAccPropServices interface, IAccPropServices interface [Windows Accessibility],ComposeHmenuIdentityString method, IAccPropServices.ComposeHmenuIdentityString, IAccPropServices::ComposeHmenuIdentityString, oleacc/IAccPropServices::ComposeHmenuIdentityString, winauto.iaccpropservices_iaccpropservices__composehmenuidentitystring
 ms.topic: method
-f1_keywords: 
- - "oleacc/IAccPropServices.ComposeHmenuIdentityString"
+f1_keywords:
+- oleacc/IAccPropServices.ComposeHmenuIdentityString
 dev_langs:
- - c++
+- c++
 req.header: oleacc.h
 req.include-header: OleAcc.h Include Initguid.h first.
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Oleacc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Oleacc.dll
+- Oleacc.dll
 api_name:
- - IAccPropServices.ComposeHmenuIdentityString
+- IAccPropServices.ComposeHmenuIdentityString
 targetos: Windows
 req.typenames: 
 req.redist: Active Accessibility 2.0 RDK on Windows NT 4.0 with SP6 and later and Windows 98

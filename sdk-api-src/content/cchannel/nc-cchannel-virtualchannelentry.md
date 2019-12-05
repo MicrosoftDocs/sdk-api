@@ -1,19 +1,17 @@
 ---
 UID: NC:cchannel.VIRTUALCHANNELENTRY
 title: VIRTUALCHANNELENTRY (cchannel.h)
-
 description: An application-defined entry point for the client-side DLL of an application that uses Remote Desktop Services virtual channels.
 old-location: termserv\virtualchannelentry.htm
 tech.root: TermServ
 ms.assetid: 1fd185fb-6dc9-4b32-9fa7-15ef76776305
-
 ms.date: 12/05/2018
 ms.keywords: VirtualChannelEntry, VirtualChannelEntry callback, VirtualChannelEntry callback function [Remote Desktop Services], _win32_virtualchannelentry, cchannel/VirtualChannelEntry, termserv.virtualchannelentry
 ms.topic: callback
-f1_keywords: 
- - "cchannel/VirtualChannelEntry"
+f1_keywords:
+- cchannel/VirtualChannelEntry
 dev_langs:
- - c++
+- c++
 req.header: cchannel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Cchannel.h
+- Cchannel.h
 api_name:
- - VirtualChannelEntry
+- VirtualChannelEntry
 targetos: Windows
 req.typenames: 
 req.redist: 

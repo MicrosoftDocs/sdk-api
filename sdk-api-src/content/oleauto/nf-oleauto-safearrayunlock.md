@@ -1,19 +1,17 @@
 ---
 UID: NF:oleauto.SafeArrayUnlock
 title: SafeArrayUnlock function (oleauto.h)
-
 description: Decrements the lock count of an array so it can be freed or resized.
 old-location: automat\safearrayunlock.htm
 tech.root: automat
 ms.assetid: 654995ab-1959-44dc-9e26-11c34e489c14
-
 ms.date: 12/05/2018
 ms.keywords: SafeArrayUnlock, SafeArrayUnlock function [Automation], _oa96_SafeArrayUnlock, automat.safearrayunlock, oleauto/SafeArrayUnlock
 ms.topic: function
-f1_keywords: 
- - "oleauto/SafeArrayUnlock"
+f1_keywords:
+- oleauto/SafeArrayUnlock
 dev_langs:
- - c++
+- c++
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: OleAut32.lib
 req.dll: OleAut32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - OleAut32.dll
+- OleAut32.dll
 api_name:
- - SafeArrayUnlock
+- SafeArrayUnlock
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NS:mssip.SIP_DISPATCH_INFO_
 title: SIP_DISPATCH_INFO (mssip.h)
-
 description: Contains a set of function pointers assigned by the CryptSIPLoad function that your application uses to perform subject interface package (SIP) operations.
 old-location: security\sip_dispatch_info.htm
 tech.root: SecCrypto
 ms.assetid: d34b5081-0af8-4dcc-8133-a91d0603d419
-
 ms.date: 12/05/2018
-ms.keywords: "*LPSIP_DISPATCH_INFO, PSIP_DISPATCH_INFO, PSIP_DISPATCH_INFO structure pointer [Security], SIP_DISPATCH_INFO, SIP_DISPATCH_INFO structure [Security], mssip/PSIP_DISPATCH_INFO, mssip/SIP_DISPATCH_INFO, security.sip_dispatch_info"
+ms.keywords: '*LPSIP_DISPATCH_INFO, PSIP_DISPATCH_INFO, PSIP_DISPATCH_INFO structure pointer [Security], SIP_DISPATCH_INFO, SIP_DISPATCH_INFO structure [Security], mssip/PSIP_DISPATCH_INFO, mssip/SIP_DISPATCH_INFO, security.sip_dispatch_info'
 ms.topic: struct
-f1_keywords: 
- - "mssip/SIP_DISPATCH_INFO"
+f1_keywords:
+- mssip/SIP_DISPATCH_INFO
 dev_langs:
- - c++
+- c++
 req.header: mssip.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Mssip.h
+- Mssip.h
 api_name:
- - SIP_DISPATCH_INFO
+- SIP_DISPATCH_INFO
 targetos: Windows
 req.typenames: SIP_DISPATCH_INFO, *LPSIP_DISPATCH_INFO
 req.redist: 

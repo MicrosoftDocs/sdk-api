@@ -1,19 +1,17 @@
 ---
 UID: NF:faxcomex.IFaxJobStatus.get_Size
 title: IFaxJobStatus::get_Size (faxcomex.h)
-
 description: The Size property is a value that indicates the number of bytes of the Tagged Image File Format Class F (TIFF Class F) file received so far for the fax job.
 old-location: fax\_mfax_faxjobstatus_cpp_mfax_faxjobstatus_size_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_4ew5.htm
-
 ms.date: 12/05/2018
 ms.keywords: IFaxJobStatus interface [Fax Service],Size property, IFaxJobStatus.Size, IFaxJobStatus.get_Size, IFaxJobStatus::Size, IFaxJobStatus::get_Size, Size property [Fax Service], Size property [Fax Service],IFaxJobStatus interface, _mfax_faxjobstatus.size, fax._mfax_faxjobstatus_cpp_mfax_faxjobstatus_size_cpp, fax._mfax_faxjobstatus_size, faxcomex/IFaxJobStatus::Size, faxcomex/IFaxJobStatus::get_Size, get_Size
 ms.topic: method
-f1_keywords: 
- - "faxcomex/IFaxJobStatus.Size"
+f1_keywords:
+- faxcomex/IFaxJobStatus.Size
 dev_langs:
- - c++
+- c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: Fxscomex.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Fxscomex.dll
+- Fxscomex.dll
 api_name:
- - IFaxJobStatus.Size
- - IFaxJobStatus.get_Size
- - IFaxJobStatus.get_Size
+- IFaxJobStatus.Size
+- IFaxJobStatus.get_Size
+- IFaxJobStatus.get_Size
 targetos: Windows
 req.typenames: 
 req.redist: 

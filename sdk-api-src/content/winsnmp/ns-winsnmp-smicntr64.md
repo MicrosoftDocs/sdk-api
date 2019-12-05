@@ -1,19 +1,17 @@
 ---
 UID: NS:winsnmp.__unnamed_struct_2
 title: smiCNTR64 (winsnmp.h)
-
 description: The WinSNMP smiCNTR64 structure contains a 64-bit unsigned integer value. The structure represents a 64-bit counter.
 old-location: snmp\smicntr64_str.htm
 tech.root: SNMP
 ms.assetid: 224b162c-a9b3-4b71-a9ed-b15a51934498
-
 ms.date: 12/05/2018
-ms.keywords: "*smiLPCNTR64, _snmp_smicntr64_str, smiCNTR64, smiCNTR64 structure [SNMP], smiLPCNTR64, smiLPCNTR64 structure pointer [SNMP], snmp.smicntr64_str, winsnmp/smiCNTR64, winsnmp/smiLPCNTR64"
+ms.keywords: '*smiLPCNTR64, _snmp_smicntr64_str, smiCNTR64, smiCNTR64 structure [SNMP], smiLPCNTR64, smiLPCNTR64 structure pointer [SNMP], snmp.smicntr64_str, winsnmp/smiCNTR64, winsnmp/smiLPCNTR64'
 ms.topic: struct
-f1_keywords: 
- - "winsnmp/smiCNTR64"
+f1_keywords:
+- winsnmp/smiCNTR64
 dev_langs:
- - c++
+- c++
 req.header: winsnmp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Winsnmp.h
+- Winsnmp.h
 api_name:
- - smiCNTR64
+- smiCNTR64
 targetos: Windows
 req.typenames: smiCNTR64, *smiLPCNTR64
 req.redist: 

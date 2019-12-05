@@ -1,19 +1,17 @@
 ---
 UID: NS:wlanapi._WLAN_MSM_NOTIFICATION_DATA
 title: WLAN_MSM_NOTIFICATION_DATA (wlanapi.h)
-
 description: Contains information about media specific module (MSM) connection related notifications.
 old-location: nwifi\wlan_msm_notification_data.htm
 tech.root: NativeWiFi
 ms.assetid: 76693a8e-7df8-45f0-a3c1-7960de27250c
-
 ms.date: 12/05/2018
 ms.keywords: '*PWLAN_MSM_NOTIFICATION_DATA, PWLAN_MSM_NOTIFICATION_DATA, PWLAN_MSM_NOTIFICATION_DATA structure pointer [NativeWIFI], WLAN_MSM_NOTIFICATION_DATA, WLAN_MSM_NOTIFICATION_DATA structure [NativeWIFI], nwifi.wlan_msm_notification_data, wlanapi/PWLAN_MSM_NOTIFICATION_DATA, wlanapi/WLAN_MSM_NOTIFICATION_DATA'
 ms.topic: struct
 f1_keywords:
 - wlanapi/WLAN_MSM_NOTIFICATION_DATA
 dev_langs:
- - c++
+- c++
 req.header: wlanapi.h
 req.include-header: 
 req.target-type: Windows

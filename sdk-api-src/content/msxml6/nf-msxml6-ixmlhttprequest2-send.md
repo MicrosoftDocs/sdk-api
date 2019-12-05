@@ -1,19 +1,17 @@
 ---
 UID: NF:msxml6.IXMLHTTPRequest2.Send
 title: IXMLHTTPRequest2::Send (msxml6.h)
-
 description: Sends an HTTP request to the server asynchronously. On success, methods on the IXMLHTTPRequest2Callback interface implemented by the app are called to process the response.
 old-location: ixhr2\ixmlhttprequest2_send.htm
 tech.root: ixhr2
 ms.assetid: E46DB550-8346-41F2-9B35-4DFD9732B0D8
-
 ms.date: 12/05/2018
 ms.keywords: IXMLHTTPRequest2 interface [XMLHttpRequest2],Send method, IXMLHTTPRequest2.Send, IXMLHTTPRequest2::Send, Send, Send method [XMLHttpRequest2], Send method [XMLHttpRequest2],IXMLHTTPRequest2 interface, ixhr2.ixmlhttprequest2_send, msxml6/IXMLHTTPRequest2::Send
 ms.topic: method
-f1_keywords: 
- - "msxml6/IXMLHTTPRequest2.Send"
+f1_keywords:
+- msxml6/IXMLHTTPRequest2.Send
 dev_langs:
- - c++
+- c++
 req.header: msxml6.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msxml6.h
+- msxml6.h
 api_name:
- - IXMLHTTPRequest2.Send
+- IXMLHTTPRequest2.Send
 targetos: Windows
 req.typenames: 
 req.redist: 

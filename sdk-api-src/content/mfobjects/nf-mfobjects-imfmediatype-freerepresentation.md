@@ -1,19 +1,17 @@
 ---
 UID: NF:mfobjects.IMFMediaType.FreeRepresentation
 title: IMFMediaType::FreeRepresentation (mfobjects.h)
-
 description: Frees memory that was allocated by the IMFMediaType::GetRepresentation method.
 old-location: mf\imfmediatype_freerepresentation.htm
 tech.root: medfound
 ms.assetid: d2007f16-543f-4f05-a44d-b4b4ae8019fb
-
 ms.date: 12/05/2018
 ms.keywords: FreeRepresentation, FreeRepresentation method [Media Foundation], FreeRepresentation method [Media Foundation],IMFMediaType interface, IMFMediaType interface [Media Foundation],FreeRepresentation method, IMFMediaType.FreeRepresentation, IMFMediaType::FreeRepresentation, d2007f16-543f-4f05-a44d-b4b4ae8019fb, mf.imfmediatype_freerepresentation, mfobjects/IMFMediaType::FreeRepresentation
 ms.topic: method
-f1_keywords: 
- - "mfobjects/IMFMediaType.FreeRepresentation"
+f1_keywords:
+- mfobjects/IMFMediaType.FreeRepresentation
 dev_langs:
- - c++
+- c++
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFMediaType.FreeRepresentation
+- IMFMediaType.FreeRepresentation
 targetos: Windows
 req.typenames: 
 req.redist: 

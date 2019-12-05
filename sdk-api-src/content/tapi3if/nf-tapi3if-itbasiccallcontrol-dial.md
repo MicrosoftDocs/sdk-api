@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi3if.ITBasicCallControl.Dial
 title: ITBasicCallControl::Dial (tapi3if.h)
-
 description: The Dial method dials the specified address.
 old-location: tapi3\itbasiccallcontrol_dial.htm
 tech.root: Tapi
 ms.assetid: 31fea4d8-9028-48d5-9f5d-53f1451103c7
-
 ms.date: 12/05/2018
 ms.keywords: Dial, Dial method [TAPI 2.2], Dial method [TAPI 2.2],ITBasicCallControl interface, ITBasicCallControl interface [TAPI 2.2],Dial method, ITBasicCallControl.Dial, ITBasicCallControl::Dial, _tapi3_itbasiccallcontrol_dial, tapi3.itbasiccallcontrol_dial, tapi3if/ITBasicCallControl::Dial
 ms.topic: method
-f1_keywords: 
- - "tapi3if/ITBasicCallControl.Dial"
+f1_keywords:
+- tapi3if/ITBasicCallControl.Dial
 dev_langs:
- - c++
+- c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Tapi3.dll
+- Tapi3.dll
 api_name:
- - ITBasicCallControl.Dial
+- ITBasicCallControl.Dial
 targetos: Windows
 req.typenames: 
 req.redist: 

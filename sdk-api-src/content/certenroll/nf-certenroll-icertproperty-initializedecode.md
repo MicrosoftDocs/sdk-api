@@ -1,19 +1,17 @@
 ---
 UID: NF:certenroll.ICertProperty.InitializeDecode
 title: ICertProperty::InitializeDecode (certenroll.h)
-
 description: Initializes the object from a byte array that contains the property value.
 old-location: security\icertproperty_initializedecode_method.htm
 tech.root: seccertenroll
 ms.assetid: 38b51242-cd4a-402e-b7ff-286f7bf66953
-
 ms.date: 12/05/2018
 ms.keywords: ICertProperty interface [Security],InitializeDecode method, ICertProperty.InitializeDecode, ICertProperty::InitializeDecode, InitializeDecode, InitializeDecode method [Security], InitializeDecode method [Security],ICertProperty interface, certenroll/ICertProperty::InitializeDecode, security.icertproperty_initializedecode_method
 ms.topic: method
-f1_keywords: 
- - "certenroll/ICertProperty.InitializeDecode"
+f1_keywords:
+- certenroll/ICertProperty.InitializeDecode
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: CertEnroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CertEnroll.dll
+- CertEnroll.dll
 api_name:
- - ICertProperty.InitializeDecode
+- ICertProperty.InitializeDecode
 targetos: Windows
 req.typenames: 
 req.redist: 

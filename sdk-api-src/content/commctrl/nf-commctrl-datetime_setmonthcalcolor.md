@@ -1,19 +1,17 @@
 ---
 UID: NF:commctrl.DateTime_SetMonthCalColor
 title: DateTime_SetMonthCalColor macro (commctrl.h)
-
 description: Sets the color for a given portion of the month calendar within a date and time picker (DTP) control. You can use this macro or send the DTM_SETMCCOLOR message explicitly.
 old-location: controls\DateTime_SetMonthCalColor.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\datetime\macros\datetime_setmonthcalcolor.htm
-
 ms.date: 12/05/2018
 ms.keywords: DateTime_SetMonthCalColor, DateTime_SetMonthCalColor macro [Windows Controls], MCSC_BACKGROUND, MCSC_MONTHBK, MCSC_TEXT, MCSC_TITLEBK, MCSC_TITLETEXT, MCSC_TRAILINGTEXT, _win32_DateTime_SetMonthCalColor, _win32_DateTime_SetMonthCalColor_cpp, commctrl/DateTime_SetMonthCalColor, controls.DateTime_SetMonthCalColor, controls._win32_DateTime_SetMonthCalColor
 ms.topic: macro
-f1_keywords: 
- - "commctrl/DateTime_SetMonthCalColor"
+f1_keywords:
+- commctrl/DateTime_SetMonthCalColor
 dev_langs:
- - c++
+- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Commctrl.h
+- Commctrl.h
 api_name:
- - DateTime_SetMonthCalColor
+- DateTime_SetMonthCalColor
 targetos: Windows
 req.typenames: 
 req.redist: 

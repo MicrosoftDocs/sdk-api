@@ -1,19 +1,17 @@
 ---
 UID: NF:tspi.TSPI_phoneGetExtensionID
 title: TSPI_phoneGetExtensionID function (tspi.h)
-
 description: The TSPI_phoneGetExtensionID function retrieves the extension identifier that the service provider supports for the indicated phone device.
 old-location: tspi\tspi_phonegetextensionid.htm
 tech.root: Tapi
 ms.assetid: c4c1c68f-0a48-40f2-8eb9-f54c3572578c
-
 ms.date: 12/05/2018
 ms.keywords: TSPI_phoneGetExtensionID, TSPI_phoneGetExtensionID function [TAPI 2.2], _tspi_tspi_phonegetextensionid, tspi.tspi_phonegetextensionid, tspi/TSPI_phoneGetExtensionID
 ms.topic: function
-f1_keywords: 
- - "tspi/TSPI_phoneGetExtensionID"
+f1_keywords:
+- tspi/TSPI_phoneGetExtensionID
 dev_langs:
- - c++
+- c++
 req.header: tspi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Tspi.h
+- Tspi.h
 api_name:
- - TSPI_phoneGetExtensionID
+- TSPI_phoneGetExtensionID
 targetos: Windows
 req.typenames: 
 req.redist: 

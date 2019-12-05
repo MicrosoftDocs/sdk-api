@@ -1,19 +1,17 @@
 ---
 UID: NE:wbemcli.tag_WBEM_CHANGE_FLAG_TYPE
 title: WBEM_CHANGE_FLAG_TYPE (wbemcli.h)
-
 description: Contains method parameter flags.
 old-location: wmi\wbem_change_flag_type.htm
 tech.root: WmiSdk
 ms.assetid: B36B7D62-13C9-401F-A6C0-7C498A139AEC
-
 ms.date: 12/05/2018
 ms.keywords: WBEM_CHANGE_FLAG_TYPE, WBEM_CHANGE_FLAG_TYPE enumeration [Windows Management Instrumentation], WBEM_FLAG_ADVISORY, WBEM_FLAG_CREATE_ONLY, WBEM_FLAG_CREATE_OR_UPDATE, WBEM_FLAG_UPDATE_COMPATIBLE, WBEM_FLAG_UPDATE_FORCE_MODE, WBEM_FLAG_UPDATE_ONLY, WBEM_FLAG_UPDATE_SAFE_MODE, WBEM_MASK_UPDATE_MODE, wbemcli/WBEM_CHANGE_FLAG_TYPE, wbemcli/WBEM_FLAG_ADVISORY, wbemcli/WBEM_FLAG_CREATE_ONLY, wbemcli/WBEM_FLAG_CREATE_OR_UPDATE, wbemcli/WBEM_FLAG_UPDATE_COMPATIBLE, wbemcli/WBEM_FLAG_UPDATE_FORCE_MODE, wbemcli/WBEM_FLAG_UPDATE_ONLY, wbemcli/WBEM_FLAG_UPDATE_SAFE_MODE, wbemcli/WBEM_MASK_UPDATE_MODE, wmi.wbem_change_flag_type
 ms.topic: enum
-f1_keywords: 
- - "wbemcli/WBEM_CHANGE_FLAG_TYPE"
+f1_keywords:
+- wbemcli/WBEM_CHANGE_FLAG_TYPE
 dev_langs:
- - c++
+- c++
 req.header: wbemcli.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wbemcli.h
+- Wbemcli.h
 api_name:
- - WBEM_CHANGE_FLAG_TYPE
+- WBEM_CHANGE_FLAG_TYPE
 targetos: Windows
 req.typenames: WBEM_CHANGE_FLAG_TYPE
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NS:wmsdkidl.WMDRM_IMPORT_INIT_STRUCT
 title: WMDRM_IMPORT_INIT_STRUCT (wmsdkidl.h)
-
 description: The WMDRM_IMPORT_INIT_STRUCT structure holds the encrypted session key and content key used in importing protected content.
 old-location: wmformat\wmdrm_import_init_struct.htm
 tech.root: wmformat
 ms.assetid: 191b844e-5760-44d7-9b27-9fa87fead90f
-
 ms.date: 12/05/2018
 ms.keywords: WMDRM_IMPORT_INIT_STRUCT, WMDRM_IMPORT_INIT_STRUCT structure [windows Media Format], structure [windows Media Format], wmformat.wmdrm_import_init_struct, wmsdkidl/WMDRM_IMPORT_INIT_STRUCT
 ms.topic: struct
-f1_keywords: 
- - "wmsdkidl/WMDRM_IMPORT_INIT_STRUCT"
+f1_keywords:
+- wmsdkidl/WMDRM_IMPORT_INIT_STRUCT
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: Drmexternals.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - wmsdkidl.h
+- wmsdkidl.h
 api_name:
- - WMDRM_IMPORT_INIT_STRUCT
+- WMDRM_IMPORT_INIT_STRUCT
 targetos: Windows
 req.typenames: WMDRM_IMPORT_INIT_STRUCT
 req.redist: 

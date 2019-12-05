@@ -1,19 +1,17 @@
 ---
 UID: NF:mstask.IScheduledWorkItem.GetNextRunTime
 title: IScheduledWorkItem::GetNextRunTime (mstask.h)
-
 description: Retrieves the next time the work item will run.
 old-location: taskschd\ischeduledworkitem_getnextruntime.htm
 tech.root: taskschd
 ms.assetid: a53700f7-0e2c-413f-b7b3-64aa2e970f11
-
 ms.date: 12/05/2018
 ms.keywords: GetNextRunTime, GetNextRunTime method [Task Scheduler], GetNextRunTime method [Task Scheduler],IScheduledWorkItem interface, IScheduledWorkItem interface [Task Scheduler],GetNextRunTime method, IScheduledWorkItem.GetNextRunTime, IScheduledWorkItem::GetNextRunTime, _msb_ischeduledworkitem_getnextruntime, mstask/IScheduledWorkItem::GetNextRunTime, taskschd.ischeduledworkitem_getnextruntime
 ms.topic: method
-f1_keywords: 
- - "mstask/IScheduledWorkItem.GetNextRunTime"
+f1_keywords:
+- mstask/IScheduledWorkItem.GetNextRunTime
 dev_langs:
- - c++
+- c++
 req.header: mstask.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Mstask.lib
 req.dll: Mstask.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mstask.dll
+- Mstask.dll
 api_name:
- - IScheduledWorkItem.GetNextRunTime
+- IScheduledWorkItem.GetNextRunTime
 targetos: Windows
 req.typenames: 
 req.redist: Internet Explorer 4.0 or later on Windows NT 4.0 and Windows 95

@@ -1,19 +1,17 @@
 ---
 UID: NF:uianimation.IUIAnimationVariable.SetRoundingMode
 title: IUIAnimationVariable::SetRoundingMode (uianimation.h)
-
 description: Specifies the rounding mode for the animation variable.
 old-location: uianimation\iuianimationvariable_setroundingmode.htm
 tech.root: UIAnimation
 ms.assetid: e8c86195-14a1-4535-9fc2-4992c8090e79
-
 ms.date: 12/05/2018
 ms.keywords: IUIAnimationVariable interface [Windows Animation],SetRoundingMode method, IUIAnimationVariable.SetRoundingMode, IUIAnimationVariable::SetRoundingMode, SetRoundingMode, SetRoundingMode method [Windows Animation], SetRoundingMode method [Windows Animation],IUIAnimationVariable interface, uianimation.iuianimationvariable_setroundingmode, uianimation/IUIAnimationVariable::SetRoundingMode
 ms.topic: method
-f1_keywords: 
- - "uianimation/IUIAnimationVariable.SetRoundingMode"
+f1_keywords:
+- uianimation/IUIAnimationVariable.SetRoundingMode
 dev_langs:
- - c++
+- c++
 req.header: uianimation.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: UIAnimation.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAnimation.dll
+- UIAnimation.dll
 api_name:
- - IUIAnimationVariable.SetRoundingMode
+- IUIAnimationVariable.SetRoundingMode
 targetos: Windows
 req.typenames: 
 req.redist: 

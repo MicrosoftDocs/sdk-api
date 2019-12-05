@@ -1,19 +1,17 @@
 ---
 UID: NF:threadpoolapiset.SetThreadpoolThreadMaximum
 title: SetThreadpoolThreadMaximum function (threadpoolapiset.h)
-
 description: Sets the maximum number of threads that the specified thread pool can allocate to process callbacks.
 old-location: base\setthreadpoolthreadmaximum.htm
 tech.root: ProcThread
 ms.assetid: 381849cf-6835-40f2-be68-0522b16e4822
-
 ms.date: 12/05/2018
 ms.keywords: SetThreadpoolThreadMaximum, SetThreadpoolThreadMaximum function, base.setthreadpoolthreadmaximum, threadpoolapiset/SetThreadpoolThreadMaximum
 ms.topic: function
-f1_keywords: 
- - "threadpoolapiset/SetThreadpoolThreadMaximum"
+f1_keywords:
+- threadpoolapiset/SetThreadpoolThreadMaximum
 dev_langs:
- - c++
+- c++
 req.header: threadpoolapiset.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,19 +30,19 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-threadpool-l1-1-0.dll
- - KernelBase.dll
- - API-MS-Win-Core-threadpool-l1-2-0.dll
- - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
- - MinKernelBase.dll
+- Kernel32.dll
+- API-MS-Win-Core-threadpool-l1-1-0.dll
+- KernelBase.dll
+- API-MS-Win-Core-threadpool-l1-2-0.dll
+- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+- MinKernelBase.dll
 api_name:
- - SetThreadpoolThreadMaximum
+- SetThreadpoolThreadMaximum
 targetos: Windows
 req.typenames: 
 req.redist: 

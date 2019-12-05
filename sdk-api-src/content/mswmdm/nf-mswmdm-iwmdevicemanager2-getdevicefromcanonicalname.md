@@ -1,19 +1,17 @@
 ---
 UID: NF:mswmdm.IWMDeviceManager2.GetDeviceFromCanonicalName
 title: IWMDeviceManager2::GetDeviceFromCanonicalName (mswmdm.h)
-
 description: The GetDeviceFromCanonicalName method retrieves an IWMDMDevice interface for a device with a specified canonical name. You can retrieve a device's canonical name by calling IWMDMDevice2::GetCanonicalName.
 old-location: wmdm\iwmdevicemanager2__getdevicefromcanonicalname.htm
 tech.root: WMDM
 ms.assetid: cfa0fe8d-668a-443b-be50-cf1f83362a14
-
 ms.date: 12/05/2018
 ms.keywords: GetDeviceFromCanonicalName, GetDeviceFromCanonicalName method [windows Media Device Manager], GetDeviceFromCanonicalName method [windows Media Device Manager],IWMDeviceManager2 interface, IWMDeviceManager2 interface [windows Media Device Manager],GetDeviceFromCanonicalName method, IWMDeviceManager2.GetDeviceFromCanonicalName, IWMDeviceManager2::GetDeviceFromCanonicalName, IWMDeviceManager2GetDevicesFromCanonicalName, mswmdm/IWMDeviceManager2::GetDeviceFromCanonicalName, wmdm.iwmdevicemanager2__getdevicefromcanonicalname
 ms.topic: method
-f1_keywords: 
- - "mswmdm/IWMDeviceManager2.GetDeviceFromCanonicalName"
+f1_keywords:
+- mswmdm/IWMDeviceManager2.GetDeviceFromCanonicalName
 dev_langs:
- - c++
+- c++
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mssachlp.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mssachlp.lib
- - mssachlp.dll
+- mssachlp.lib
+- mssachlp.dll
 api_name:
- - IWMDeviceManager2.GetDeviceFromCanonicalName
+- IWMDeviceManager2.GetDeviceFromCanonicalName
 targetos: Windows
 req.typenames: 
 req.redist: 

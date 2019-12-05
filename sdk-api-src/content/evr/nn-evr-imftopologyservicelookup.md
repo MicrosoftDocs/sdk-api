@@ -1,19 +1,17 @@
 ---
 UID: NN:evr.IMFTopologyServiceLookup
 title: IMFTopologyServiceLookup (evr.h)
-
 description: Enables a custom video mixer or video presenter to get interface pointers from the Enhanced Video Renderer (EVR).
 old-location: mf\imftopologyservicelookup.htm
 tech.root: medfound
 ms.assetid: a912c17a-40ef-441c-bfc9-7ef49d22070f
-
 ms.date: 12/05/2018
 ms.keywords: IMFTopologyServiceLookup, IMFTopologyServiceLookup interface [Media Foundation], IMFTopologyServiceLookup interface [Media Foundation],described, a912c17a-40ef-441c-bfc9-7ef49d22070f, evr/IMFTopologyServiceLookup, mf.imftopologyservicelookup
 ms.topic: interface
-f1_keywords: 
- - "evr/IMFTopologyServiceLookup"
+f1_keywords:
+- evr/IMFTopologyServiceLookup
 dev_langs:
- - c++
+- c++
 req.header: evr.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - strmiids.lib
- - strmiids.dll
+- strmiids.lib
+- strmiids.dll
 api_name:
- - IMFTopologyServiceLookup
+- IMFTopologyServiceLookup
 targetos: Windows
 req.typenames: 
 req.redist: 

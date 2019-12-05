@@ -1,19 +1,17 @@
 ---
 UID: NF:sbtsv.ITsSbPlugin.Terminate
 title: ITsSbPlugin::Terminate (sbtsv.h)
-
 description: Performs clean-up and unloads the plug-in.
 old-location: termserv\itssbplugin_terminate.htm
 tech.root: TermServ
 ms.assetid: c47c6231-f967-4239-afd4-a87e9d8f49c2
-
 ms.date: 12/05/2018
 ms.keywords: ITsSbLoadBalancing interface [Remote Desktop Services],Terminate method, ITsSbLoadBalancing::Terminate, ITsSbOrchestration interface [Remote Desktop Services],Terminate method, ITsSbOrchestration::Terminate, ITsSbPlacement interface [Remote Desktop Services],Terminate method, ITsSbPlacement::Terminate, ITsSbPlugin interface [Remote Desktop Services],Terminate method, ITsSbPlugin.Terminate, ITsSbPlugin::Terminate, ITsSbProvisioning interface [Remote Desktop Services],Terminate method, ITsSbProvisioning::Terminate, ITsSbResourcePlugin interface [Remote Desktop Services],Terminate method, ITsSbResourcePlugin::Terminate, ITsSbTaskPlugin interface [Remote Desktop Services],Terminate method, ITsSbTaskPlugin::Terminate, Terminate, Terminate method [Remote Desktop Services], Terminate method [Remote Desktop Services],ITsSbLoadBalancing interface, Terminate method [Remote Desktop Services],ITsSbOrchestration interface, Terminate method [Remote Desktop Services],ITsSbPlacement interface, Terminate method [Remote Desktop Services],ITsSbPlugin interface, Terminate method [Remote Desktop Services],ITsSbProvisioning interface, Terminate method [Remote Desktop Services],ITsSbResourcePlugin interface, Terminate method [Remote Desktop Services],ITsSbTaskPlugin interface, sbtsv/ITsSbLoadBalancing::Terminate, sbtsv/ITsSbOrchestration::Terminate, sbtsv/ITsSbPlacement::Terminate, sbtsv/ITsSbPlugin::Terminate, sbtsv/ITsSbProvisioning::Terminate, sbtsv/ITsSbResourcePlugin::Terminate, sbtsv/ITsSbTaskPlugin::Terminate, termserv.itssbplugin_terminate
 ms.topic: method
-f1_keywords: 
- - "sbtsv/ITsSbPlugin.Terminate"
+f1_keywords:
+- sbtsv/ITsSbPlugin.Terminate
 dev_langs:
- - c++
+- c++
 req.header: sbtsv.h
 req.include-header: 
 req.target-type: Windows
@@ -32,20 +30,20 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - sbtsv.h
+- sbtsv.h
 api_name:
- - ITsSbPlugin.Terminate
- - ITsSbLoadBalancing.Terminate
- - ITsSbOrchestration.Terminate
- - ITsSbPlacement.Terminate
- - ITsSbProvisioning.Terminate
- - ITsSbResourcePlugin.Terminate
- - ITsSbTaskPlugin.Terminate
+- ITsSbPlugin.Terminate
+- ITsSbLoadBalancing.Terminate
+- ITsSbOrchestration.Terminate
+- ITsSbPlacement.Terminate
+- ITsSbProvisioning.Terminate
+- ITsSbResourcePlugin.Terminate
+- ITsSbTaskPlugin.Terminate
 targetos: Windows
 req.typenames: 
 req.redist: 

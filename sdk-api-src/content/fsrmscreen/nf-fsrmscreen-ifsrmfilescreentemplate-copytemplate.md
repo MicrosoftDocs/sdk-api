@@ -1,19 +1,17 @@
 ---
 UID: NF:fsrmscreen.IFsrmFileScreenTemplate.CopyTemplate
 title: IFsrmFileScreenTemplate::CopyTemplate (fsrmscreen.h)
-
 description: Copies the property values of the specified template to this template.
 old-location: fsrm\ifsrmfilescreentemplate_copytemplate.htm
 tech.root: fsrm
 ms.assetid: c6c69f15-9a7c-43f4-9d68-a54c333453f5
-
 ms.date: 12/05/2018
 ms.keywords: CopyTemplate, CopyTemplate method [File Server Resource Manager], CopyTemplate method [File Server Resource Manager],IFsrmFileScreenTemplate interface, IFsrmFileScreenTemplate interface [File Server Resource Manager],CopyTemplate method, IFsrmFileScreenTemplate.CopyTemplate, IFsrmFileScreenTemplate::CopyTemplate, fs.ifsrmfilescreentemplate_copytemplate, fsrm.ifsrmfilescreentemplate_copytemplate, fsrmscreen/IFsrmFileScreenTemplate::CopyTemplate
 ms.topic: method
-f1_keywords: 
- - "fsrmscreen/IFsrmFileScreenTemplate.CopyTemplate"
+f1_keywords:
+- fsrmscreen/IFsrmFileScreenTemplate.CopyTemplate
 dev_langs:
- - c++
+- c++
 req.header: fsrmscreen.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: SrmSvc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - SrmSvc.dll
+- SrmSvc.dll
 api_name:
- - IFsrmFileScreenTemplate.CopyTemplate
+- IFsrmFileScreenTemplate.CopyTemplate
 targetos: Windows
 req.typenames: 
 req.redist: 

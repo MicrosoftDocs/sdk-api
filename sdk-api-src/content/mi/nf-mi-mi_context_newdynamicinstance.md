@@ -1,19 +1,17 @@
 ---
 UID: NF:mi.MI_Context_NewDynamicInstance
 title: MI_Context_NewDynamicInstance function (mi.h)
-
 description: Creates a new dynamic instance (weakly typed instance without a class declaration) of a class.
 old-location: wmi_v2\mi_context_newdynamicinstance.htm
 tech.root: wmi_v2
 ms.assetid: 05415945-c804-4056-b4bf-673995c1d6e4
-
 ms.date: 12/05/2018
 ms.keywords: MI_Context_NewDynamicInstance, MI_Context_NewDynamicInstance function [Windows Management Infrastructure (MI)], mi/MI_Context_NewDynamicInstance, wmi.mi_newdynamicinstance, wmi_v2.mi_context_newdynamicinstance
 ms.topic: function
-f1_keywords: 
- - "mi/MI_Context_NewDynamicInstance"
+f1_keywords:
+- mi/MI_Context_NewDynamicInstance
 dev_langs:
- - c++
+- c++
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Mi.h
+- Mi.h
 api_name:
- - MI_Context_NewDynamicInstance
+- MI_Context_NewDynamicInstance
 targetos: Windows
 req.typenames: 
 req.redist: Windows Management Framework 3.0 on Windows Server 2008 R2 with SP1, Windows 7 with SP1, and Windows Server 2008 with SP2

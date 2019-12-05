@@ -1,19 +1,17 @@
 ---
 UID: NF:webservices.WsOpenServiceProxy
 title: WsOpenServiceProxy function (webservices.h)
-
 description: Opens a Service Proxy to a Service endpoint.
 old-location: wsw\wsopenserviceproxy.htm
 tech.root: wsw
 ms.assetid: b8a0afc7-2004-419d-8ab2-ce197c7e396d
-
 ms.date: 12/05/2018
 ms.keywords: WsOpenServiceProxy, WsOpenServiceProxy function [Web Services for Windows], webservices/WsOpenServiceProxy, wsw.wsopenserviceproxy
 ms.topic: function
-f1_keywords: 
- - "webservices/WsOpenServiceProxy"
+f1_keywords:
+- webservices/WsOpenServiceProxy
 dev_langs:
- - c++
+- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: WebServices.lib
 req.dll: WebServices.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - WebServices.dll
+- WebServices.dll
 api_name:
- - WsOpenServiceProxy
+- WsOpenServiceProxy
 targetos: Windows
 req.typenames: 
 req.redist: 

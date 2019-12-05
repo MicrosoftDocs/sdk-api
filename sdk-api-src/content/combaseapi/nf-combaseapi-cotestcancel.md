@@ -1,19 +1,17 @@
 ---
 UID: NF:combaseapi.CoTestCancel
 title: CoTestCancel function (combaseapi.h)
-
 description: Determines whether the call being executed on the server has been canceled by the client.
 old-location: com\cotestcancel.htm
 tech.root: com
 ms.assetid: 9432621a-be31-4b8b-83b6-069539ba06b4
-
 ms.date: 12/05/2018
 ms.keywords: CoTestCancel, CoTestCancel function [COM], _com_CoTestCancel, com.cotestcancel, combaseapi/CoTestCancel
 ms.topic: function
-f1_keywords: 
- - "combaseapi/CoTestCancel"
+f1_keywords:
+- combaseapi/CoTestCancel
 dev_langs:
- - c++
+- c++
 req.header: combaseapi.h
 req.include-header: Objbase.h
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib: Ole32.lib
 req.dll: Ole32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ole32.dll
- - API-MS-Win-Core-Com-l1-1-0.dll
- - ComBase.dll
- - API-MS-Win-Core-Com-l1-1-1.dll
- - API-MS-Win-DownLevel-Ole32-l1-1-1.dll
+- Ole32.dll
+- API-MS-Win-Core-Com-l1-1-0.dll
+- ComBase.dll
+- API-MS-Win-Core-Com-l1-1-1.dll
+- API-MS-Win-DownLevel-Ole32-l1-1-1.dll
 api_name:
- - CoTestCancel
+- CoTestCancel
 targetos: Windows
 req.typenames: 
 req.redist: 

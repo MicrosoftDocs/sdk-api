@@ -1,19 +1,17 @@
 ---
 UID: NF:msinkaut.IInkCollector.SetSingleTabletIntegratedMode
 title: IInkCollector::SetSingleTabletIntegratedMode (msinkaut.h)
-
 description: Allows the ink collector (InkCollector, InkOverlay, or InkPicture) to collect ink from only one tablet. Ink from other tablets is ignored by the ink collector.
 old-location: tablet\inkcollector_setsingletabletintegratedmode.htm
 tech.root: tablet
 ms.assetid: 96787996-c0fd-455f-952e-90ddc8640253
-
 ms.date: 12/05/2018
 ms.keywords: 96787996-c0fd-455f-952e-90ddc8640253, IInkCollector interface [Tablet PC],SetSingleTabletIntegratedMode method, IInkCollector.SetSingleTabletIntegratedMode, IInkCollector::SetSingleTabletIntegratedMode, SetSingleTabletIntegratedMode, SetSingleTabletIntegratedMode method [Tablet PC], SetSingleTabletIntegratedMode method [Tablet PC],IInkCollector interface, msinkaut/IInkCollector::SetSingleTabletIntegratedMode, tablet.inkcollector_setsingletabletintegratedmode
 ms.topic: method
-f1_keywords: 
- - "msinkaut/IInkCollector.SetSingleTabletIntegratedMode"
+f1_keywords:
+- msinkaut/IInkCollector.SetSingleTabletIntegratedMode
 dev_langs:
- - c++
+- c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: InkObj.dll
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - InkObj.dll
- - InkObj.dll.dll
+- InkObj.dll
+- InkObj.dll.dll
 api_name:
- - IInkCollector.SetSingleTabletIntegratedMode
+- IInkCollector.SetSingleTabletIntegratedMode
 targetos: Windows
 req.typenames: 
 req.redist: 

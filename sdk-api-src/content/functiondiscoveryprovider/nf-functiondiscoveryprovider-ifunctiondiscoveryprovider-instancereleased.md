@@ -1,19 +1,17 @@
 ---
 UID: NF:functiondiscoveryprovider.IFunctionDiscoveryProvider.InstanceReleased
 title: IFunctionDiscoveryProvider::InstanceReleased (functiondiscoveryprovider.h)
-
 description: Releases the specified function instance and frees the memory previously allocated.
 old-location: ncd\ifunctiondiscoveryprovider_instancereleased.htm
 tech.root: FunDisc
 ms.assetid: fa348767-8a83-4a45-9411-1e9eb545d97d
-
 ms.date: 12/05/2018
 ms.keywords: IFunctionDiscoveryProvider interface,InstanceReleased method, IFunctionDiscoveryProvider.InstanceReleased, IFunctionDiscoveryProvider::InstanceReleased, InstanceReleased, InstanceReleased method, InstanceReleased method,IFunctionDiscoveryProvider interface, functiondiscoveryprovider/IFunctionDiscoveryProvider::InstanceReleased, ncd.ifunctiondiscoveryprovider_instancereleased
 ms.topic: method
-f1_keywords: 
- - "functiondiscoveryprovider/IFunctionDiscoveryProvider.InstanceReleased"
+f1_keywords:
+- functiondiscoveryprovider/IFunctionDiscoveryProvider.InstanceReleased
 dev_langs:
- - c++
+- c++
 req.header: functiondiscoveryprovider.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - FunctionDiscoveryProvider.h
+- FunctionDiscoveryProvider.h
 api_name:
- - IFunctionDiscoveryProvider.InstanceReleased
+- IFunctionDiscoveryProvider.InstanceReleased
 targetos: Windows
 req.typenames: 
 req.redist: 

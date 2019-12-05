@@ -1,19 +1,17 @@
 ---
 UID: NF:msinkaut.IInkRecognitionAlternate.GetTextRangeFromStrokes
 title: IInkRecognitionAlternate::GetTextRangeFromStrokes (msinkaut.h)
-
 description: Retrieves the smallest range of recognized text for which the recognizer can return an alternate that contains a known InkStrokes collection.
 old-location: tablet\iinkrecognitionalternate_gettextrangefromstrokes.htm
 tech.root: tablet
 ms.assetid: b481e356-0a3c-4437-9700-6d8badcb0b0b
-
 ms.date: 12/05/2018
 ms.keywords: GetTextRangeFromStrokes, GetTextRangeFromStrokes method [Tablet PC], GetTextRangeFromStrokes method [Tablet PC],IInkRecognitionAlternate interface, IInkRecognitionAlternate interface [Tablet PC],GetTextRangeFromStrokes method, IInkRecognitionAlternate.GetTextRangeFromStrokes, IInkRecognitionAlternate::GetTextRangeFromStrokes, b481e356-0a3c-4437-9700-6d8badcb0b0b, msinkaut/IInkRecognitionAlternate::GetTextRangeFromStrokes, tablet.iinkrecognitionalternate_gettextrangefromstrokes
 ms.topic: method
-f1_keywords: 
- - "msinkaut/IInkRecognitionAlternate.GetTextRangeFromStrokes"
+f1_keywords:
+- msinkaut/IInkRecognitionAlternate.GetTextRangeFromStrokes
 dev_langs:
- - c++
+- c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: InkObj.dll
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - InkObj.dll
- - InkObj.dll.dll
+- InkObj.dll
+- InkObj.dll.dll
 api_name:
- - IInkRecognitionAlternate.GetTextRangeFromStrokes
+- IInkRecognitionAlternate.GetTextRangeFromStrokes
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:appmodel.FormatApplicationUserModelId
 title: FormatApplicationUserModelId function (appmodel.h)
-
 description: Constructs an application user model ID from the package family name and the package relative application ID (PRAID).
 old-location: appxpkg\formatapplicationusermodelid.htm
 tech.root: appxpkg
 ms.assetid: F48D19C2-6373-41FC-A99D-E3CCB68D6C6C
-
 ms.date: 12/05/2018
 ms.keywords: FormatApplicationUserModelId, FormatApplicationUserModelId function [App packaging and management], appmodel/FormatApplicationUserModelId, appxpkg.formatapplicationusermodelid
 ms.topic: function
-f1_keywords: 
- - "appmodel/FormatApplicationUserModelId"
+f1_keywords:
+- appmodel/FormatApplicationUserModelId
 dev_langs:
- - c++
+- c++
 req.header: appmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,19 +30,19 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-AppModel-RunTime-l1-1-1.dll
- - Kernel.AppCore.dll
- - Ext-MS-Win-Kernel32-package-l1-1-2.dll
- - ext-ms-win-kernel32-package-l1-1-1.dll
- - API-MS-Win-AppModel-Runtime-L1-1-2.dll
+- Kernel32.dll
+- API-MS-Win-AppModel-RunTime-l1-1-1.dll
+- Kernel.AppCore.dll
+- Ext-MS-Win-Kernel32-package-l1-1-2.dll
+- ext-ms-win-kernel32-package-l1-1-1.dll
+- API-MS-Win-AppModel-Runtime-L1-1-2.dll
 api_name:
- - FormatApplicationUserModelId
+- FormatApplicationUserModelId
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:oleauto.VarFormatPercent
 title: VarFormatPercent function (oleauto.h)
-
 description: Formats a variant containing percentages into a string form.
 old-location: automat\varformatpercent.htm
 tech.root: automat
 ms.assetid: 3b0e4f05-6ca4-4685-bdaa-dd44a6a7d89e
-
 ms.date: 12/05/2018
 ms.keywords: VarFormatPercent, VarFormatPercent function [Automation], _oa96_VarFormatPercent, automat.varformatpercent, oleauto/VarFormatPercent
 ms.topic: function
-f1_keywords: 
- - "oleauto/VarFormatPercent"
+f1_keywords:
+- oleauto/VarFormatPercent
 dev_langs:
- - c++
+- c++
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: OleAut32.lib
 req.dll: OleAut32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - OleAut32.dll
+- OleAut32.dll
 api_name:
- - VarFormatPercent
+- VarFormatPercent
 targetos: Windows
 req.typenames: 
 req.redist: 

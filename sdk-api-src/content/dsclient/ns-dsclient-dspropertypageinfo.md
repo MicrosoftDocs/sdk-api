@@ -1,19 +1,17 @@
 ---
 UID: NS:dsclient.__unnamed_struct_2
 title: DSPROPERTYPAGEINFO (dsclient.h)
-
 description: The DSPROPERTYPAGEINFO structure is used by an Active Directory property sheet extension to obtain static registration data for the extension. This structure is supplied by the CFSTR_DSPROPERTYPAGEINFO clipboard format.
 old-location: ad\dspropertypageinfo.htm
 tech.root: ad
 ms.assetid: 1f8313cd-5cbe-440b-bcf9-de835f2b4f4a
-
 ms.date: 12/05/2018
-ms.keywords: "*LPDSPROPERTYPAGEINFO, DSPROPERTYPAGEINFO, DSPROPERTYPAGEINFO structure [Active Directory], LPDSPROPERTYPAGEINFO, LPDSPROPERTYPAGEINFO structure pointer [Active Directory], _glines_dspropertypageinfo, ad.dspropertypageinfo, dsclient/DSPROPERTYPAGEINFO, dsclient/LPDSPROPERTYPAGEINFO"
+ms.keywords: '*LPDSPROPERTYPAGEINFO, DSPROPERTYPAGEINFO, DSPROPERTYPAGEINFO structure [Active Directory], LPDSPROPERTYPAGEINFO, LPDSPROPERTYPAGEINFO structure pointer [Active Directory], _glines_dspropertypageinfo, ad.dspropertypageinfo, dsclient/DSPROPERTYPAGEINFO, dsclient/LPDSPROPERTYPAGEINFO'
 ms.topic: struct
-f1_keywords: 
- - "dsclient/DSPROPERTYPAGEINFO"
+f1_keywords:
+- dsclient/DSPROPERTYPAGEINFO
 dev_langs:
- - c++
+- c++
 req.header: dsclient.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Dsclient.h
+- Dsclient.h
 api_name:
- - DSPROPERTYPAGEINFO
+- DSPROPERTYPAGEINFO
 targetos: Windows
 req.typenames: DSPROPERTYPAGEINFO, *LPDSPROPERTYPAGEINFO
 req.redist: 

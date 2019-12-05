@@ -1,19 +1,17 @@
 ---
 UID: NS:vfw.__unnamed_struct_2
 title: ICCOMPRESS (vfw.h)
-
 description: The ICCOMPRESS structure contains compression parameters used with the ICM_COMPRESS message.
 old-location: multimedia\iccompress_struct.htm
 tech.root: Multimedia
 ms.assetid: ba6aec9c-b622-484b-88ce-ff5c659bd6d7
-
 ms.date: 12/05/2018
 ms.keywords: ICCOMPRESS, ICCOMPRESS structure [Windows Multimedia], ICCOMPRESS_KEYFRAME, multimedia.iccompress_COLLISION455, multimedia.iccompress_struct, vfw/ICCOMPRESS
 ms.topic: struct
-f1_keywords: 
- - "vfw/ICCOMPRESS"
+f1_keywords:
+- vfw/ICCOMPRESS
 dev_langs:
- - c++
+- c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Vfw.h
+- Vfw.h
 api_name:
- - ICCOMPRESS
+- ICCOMPRESS
 targetos: Windows
 req.typenames: ICCOMPRESS
 req.redist: 

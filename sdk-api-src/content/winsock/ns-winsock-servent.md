@@ -1,19 +1,17 @@
 ---
 UID: NS:winsock.servent
 title: SERVENT (winsock.h)
-
 description: The servent structure is used to store or return the name and service number for a given service name.
 old-location: winsock\servent_2.htm
 tech.root: WinSock
 ms.assetid: 8696b854-4d37-4d1b-8383-169b5dc7a2ae
-
 ms.date: 12/05/2018
-ms.keywords: "*LPSERVENT, *PSERVENT, FAR *LPSERVENT, FAR *LPSERVENT structure [Winsock], PSERVENT, PSERVENT structure pointer [Winsock], SERVENT, SERVENT structure [Winsock], _win32_servent_2, servent, servent structure [Winsock], winsock.servent_2, winsock/FAR *LPSERVENT, winsock/PSERVENT, winsock/servent"
+ms.keywords: '*LPSERVENT, *PSERVENT, FAR *LPSERVENT, FAR *LPSERVENT structure [Winsock], PSERVENT, PSERVENT structure pointer [Winsock], SERVENT, SERVENT structure [Winsock], _win32_servent_2, servent, servent structure [Winsock], winsock.servent_2, winsock/FAR *LPSERVENT, winsock/PSERVENT, winsock/servent'
 ms.topic: struct
-f1_keywords: 
- - "winsock/SERVENT"
+f1_keywords:
+- winsock/SERVENT
 dev_langs:
- - c++
+- c++
 req.header: winsock.h
 req.include-header: Winsock2.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - winsock.h
+- winsock.h
 api_name:
- - SERVENT
+- SERVENT
 targetos: Windows
 req.typenames: SERVENT, *PSERVENT, *LPSERVENT
 req.redist: 

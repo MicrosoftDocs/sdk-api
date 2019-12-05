@@ -1,19 +1,17 @@
 ---
 UID: NE:wuapi.tagUpdateOperation
 title: UpdateOperation (wuapi.h)
-
 description: Defines operations that can be attempted on an update.
 old-location: wua\updateoperation.htm
 tech.root: Wua_Sdk
 ms.assetid: 93f38d77-fb8c-4d2e-acc2-f4c06cbc04f8
-
 ms.date: 12/05/2018
 ms.keywords: UpdateOperation, UpdateOperation enumeration [Windows Update Agent], uoInstallation, uoUninstallation, wua.updateoperation, wuapi/UpdateOperation, wuapi/uoInstallation, wuapi/uoUninstallation
 ms.topic: enum
-f1_keywords: 
- - "wuapi/UpdateOperation"
+f1_keywords:
+- wuapi/UpdateOperation
 dev_langs:
- - c++
+- c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wuapi.h
+- Wuapi.h
 api_name:
- - UpdateOperation
+- UpdateOperation
 targetos: Windows
 req.typenames: UpdateOperation
 req.redist: 

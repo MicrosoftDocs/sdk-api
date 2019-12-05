@@ -1,19 +1,17 @@
 ---
 UID: NS:aviriff._avistdindex_entry
 title: AVISTDINDEX_ENTRY (aviriff.h)
-
 description: Contains one index entry for an AVI 2.0 standard index.
 old-location: dshow\avistdindex_entry.htm
 tech.root: DirectShow
 ms.assetid: 4e408858-b0cb-45dc-a299-a2e35aa6a000
-
 ms.date: 12/05/2018
 ms.keywords: AVISTDINDEX_ENTRY, AVISTDINDEX_ENTRY structure [DirectShow], aviriff/AVISTDINDEX_ENTRY, dshow.avistdindex_entry
 ms.topic: struct
-f1_keywords: 
- - "aviriff/AVISTDINDEX_ENTRY"
+f1_keywords:
+- aviriff/AVISTDINDEX_ENTRY
 dev_langs:
- - c++
+- c++
 req.header: aviriff.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - aviriff.h
+- aviriff.h
 api_name:
- - AVISTDINDEX_ENTRY
+- AVISTDINDEX_ENTRY
 targetos: Windows
 req.typenames: AVISTDINDEX_ENTRY
 req.redist: 

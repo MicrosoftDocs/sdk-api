@@ -1,19 +1,17 @@
 ---
 UID: NC:wincrypt.PFN_CRYPT_OBJECT_LOCATOR_PROVIDER_GET
 title: PFN_CRYPT_OBJECT_LOCATOR_PROVIDER_GET (wincrypt.h)
-
 description: Retrieves an object.
 old-location: security\pfn_crypt_object_locator_provider_get.htm
 tech.root: SecCrypto
 ms.assetid: 2073915D-F23B-41BD-8376-4493FE9D62C6
-
 ms.date: 12/05/2018
 ms.keywords: CRYPT_OBJECT_LOCATOR_FIRST_RESERVED_USER_NAME_TYPE, CRYPT_OBJECT_LOCATOR_LAST_RESERVED_NAME_TYPE, CRYPT_OBJECT_LOCATOR_LAST_RESERVED_USER_NAME_TYPE, CRYPT_OBJECT_LOCATOR_SPN_NAME_TYPE, PFN_CRYPT_OBJECT_LOCATOR_PROVIDER_GET, PFN_CRYPT_OBJECT_LOCATOR_PROVIDER_GET callback, PFN_CRYPT_OBJECT_LOCATOR_PROVIDER_GET callback function [Security], security.pfn_crypt_object_locator_provider_get, wincrypt/PFN_CRYPT_OBJECT_LOCATOR_PROVIDER_GET
 ms.topic: callback
-f1_keywords: 
- - "wincrypt/PFN_CRYPT_OBJECT_LOCATOR_PROVIDER_GET"
+f1_keywords:
+- wincrypt/PFN_CRYPT_OBJECT_LOCATOR_PROVIDER_GET
 dev_langs:
- - c++
+- c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Wincrypt.h
+- Wincrypt.h
 api_name:
- - PFN_CRYPT_OBJECT_LOCATOR_PROVIDER_GET
+- PFN_CRYPT_OBJECT_LOCATOR_PROVIDER_GET
 targetos: Windows
 req.typenames: 
 req.redist: 

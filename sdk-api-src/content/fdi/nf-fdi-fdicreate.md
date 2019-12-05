@@ -1,19 +1,17 @@
 ---
 UID: NF:fdi.FDICreate
 title: FDICreate function (fdi.h)
-
 description: The FDICreate function creates an FDI context.
 old-location: winprog\fdicreate.htm
 tech.root: DevNotes
 ms.assetid: 90634725-b7a8-4369-8a91-684debee9548
-
 ms.date: 12/05/2018
 ms.keywords: FDICreate, FDICreate function [Windows API], cpu80286, cpu80386, cpuUNKNOWN, fdi/FDICreate, winprog.fdicreate
 ms.topic: function
-f1_keywords: 
- - "fdi/FDICreate"
+f1_keywords:
+- fdi/FDICreate
 dev_langs:
- - c++
+- c++
 req.header: fdi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Cabinet.lib
 req.dll: Cabinet.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Cabinet.dll
+- Cabinet.dll
 api_name:
- - FDICreate
+- FDICreate
 targetos: Windows
 req.typenames: 
 req.redist: 

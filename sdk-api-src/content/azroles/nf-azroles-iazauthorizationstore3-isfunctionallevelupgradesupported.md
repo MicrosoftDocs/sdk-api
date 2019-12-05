@@ -1,19 +1,17 @@
 ---
 UID: NF:azroles.IAzAuthorizationStore3.IsFunctionalLevelUpgradeSupported
 title: IAzAuthorizationStore3::IsFunctionalLevelUpgradeSupported (azroles.h)
-
 description: Gets a Boolean value that indicates whether the version of this authorization store can be upgraded.
 old-location: security\iazauthorizationstore3_isfunctionallevelupgradesupported.htm
 tech.root: SecAuthZ
 ms.assetid: 344fbbb7-72e7-46ec-a924-79fece3e1eb0
-
 ms.date: 12/05/2018
 ms.keywords: IAzAuthorizationStore3 interface [Security],IsFunctionalLevelUpgradeSupported method, IAzAuthorizationStore3.IsFunctionalLevelUpgradeSupported, IAzAuthorizationStore3::IsFunctionalLevelUpgradeSupported, IsFunctionalLevelUpgradeSupported, IsFunctionalLevelUpgradeSupported method [Security], IsFunctionalLevelUpgradeSupported method [Security],IAzAuthorizationStore3 interface, azroles/IAzAuthorizationStore3::IsFunctionalLevelUpgradeSupported, security.iazauthorizationstore3_isfunctionallevelupgradesupported
 ms.topic: method
-f1_keywords: 
- - "azroles/IAzAuthorizationStore3.IsFunctionalLevelUpgradeSupported"
+f1_keywords:
+- azroles/IAzAuthorizationStore3.IsFunctionalLevelUpgradeSupported
 dev_langs:
- - c++
+- c++
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Azroles.h
+- Azroles.h
 api_name:
- - IAzAuthorizationStore3.IsFunctionalLevelUpgradeSupported
+- IAzAuthorizationStore3.IsFunctionalLevelUpgradeSupported
 targetos: Windows
 req.typenames: 
 req.redist: 

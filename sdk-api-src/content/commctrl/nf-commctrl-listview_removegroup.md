@@ -1,19 +1,17 @@
 ---
 UID: NF:commctrl.ListView_RemoveGroup
 title: ListView_RemoveGroup macro (commctrl.h)
-
 description: Removes a group from a list-view control. You can use this macro or send the LVM_REMOVEGROUP message explicitly.
 old-location: controls\ListView_RemoveGroup.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_removegroup.htm
-
 ms.date: 12/05/2018
 ms.keywords: ListView_RemoveGroup, ListView_RemoveGroup macro [Windows Controls], _win32_ListView_RemoveGroup, _win32_ListView_RemoveGroup_cpp, commctrl/ListView_RemoveGroup, controls.ListView_RemoveGroup, controls._win32_ListView_RemoveGroup
 ms.topic: macro
-f1_keywords: 
- - "commctrl/ListView_RemoveGroup"
+f1_keywords:
+- commctrl/ListView_RemoveGroup
 dev_langs:
- - c++
+- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Commctrl.h
+- Commctrl.h
 api_name:
- - ListView_RemoveGroup
+- ListView_RemoveGroup
 targetos: Windows
 req.typenames: 
 req.redist: 

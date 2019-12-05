@@ -1,19 +1,17 @@
 ---
 UID: NF:wdstptmgmt.IWdsTransportSession.get_MasterClientId
 title: IWdsTransportSession::get_MasterClientId (wdstptmgmt.h)
-
 description: Receives a unique client ID assigned by the WDS server that identifies the master client for this session.
 old-location: wds\iwdstransportsession_masterclientid.htm
 tech.root: wds
 ms.assetid: 6259ee20-b5ed-47c0-853a-2d3cad19b387
-
 ms.date: 12/05/2018
 ms.keywords: IWdsTransportSession interface [Windows Deployment Services],MasterClientId property, IWdsTransportSession.MasterClientId, IWdsTransportSession.get_MasterClientId, IWdsTransportSession::MasterClientId, IWdsTransportSession::get_MasterClientId, MasterClientId property [Windows Deployment Services], MasterClientId property [Windows Deployment Services],IWdsTransportSession interface, get_MasterClientId, wds.iwdstransportsession_masterclientid, wdstptmgmt/IWdsTransportSession::MasterClientId, wdstptmgmt/IWdsTransportSession::get_MasterClientId
 ms.topic: method
-f1_keywords: 
- - "wdstptmgmt/IWdsTransportSession.MasterClientId"
+f1_keywords:
+- wdstptmgmt/IWdsTransportSession.MasterClientId
 dev_langs:
- - c++
+- c++
 req.header: wdstptmgmt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: Wdstptmgmt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wdstptmgmt.dll
+- Wdstptmgmt.dll
 api_name:
- - IWdsTransportSession.MasterClientId
- - IWdsTransportSession.get_MasterClientId
+- IWdsTransportSession.MasterClientId
+- IWdsTransportSession.get_MasterClientId
 targetos: Windows
 req.typenames: 
 req.redist: 

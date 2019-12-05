@@ -1,19 +1,17 @@
 ---
 UID: NF:msctf.ITfThreadMgr.Deactivate
 title: ITfThreadMgr::Deactivate (msctf.h)
-
 description: ITfThreadMgr::Deactivate method
 old-location: tsf\itfthreadmgr_deactivate.htm
 tech.root: TSF
 ms.assetid: 7293fbfa-c385-4713-80b2-760e54dbf4c1
-
 ms.date: 12/05/2018
 ms.keywords: Deactivate, Deactivate method [Text Services Framework], Deactivate method [Text Services Framework],ITfThreadMgr interface, ITfThreadMgr interface [Text Services Framework],Deactivate method, ITfThreadMgr.Deactivate, ITfThreadMgr::Deactivate, _tsf_itfthreadmgr_deactivate_ref, msctf/ITfThreadMgr::Deactivate, tsf.itfthreadmgr_deactivate
 ms.topic: method
-f1_keywords: 
- - "msctf/ITfThreadMgr.Deactivate"
+f1_keywords:
+- msctf/ITfThreadMgr.Deactivate
 dev_langs:
- - c++
+- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msctf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msctf.dll
+- Msctf.dll
 api_name:
- - ITfThreadMgr.Deactivate
+- ITfThreadMgr.Deactivate
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

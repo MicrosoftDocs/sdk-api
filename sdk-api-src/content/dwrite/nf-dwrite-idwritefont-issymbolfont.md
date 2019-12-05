@@ -1,19 +1,17 @@
 ---
 UID: NF:dwrite.IDWriteFont.IsSymbolFont
 title: IDWriteFont::IsSymbolFont (dwrite.h)
-
 description: Determines whether the font is a symbol font.
 old-location: directwrite\IDWriteFont_IsSymbolFont.htm
 tech.root: DirectWrite
 ms.assetid: 08fcbf51-6a88-4d92-848e-dc159d94d1d1
-
 ms.date: 12/05/2018
 ms.keywords: IDWriteFont interface [Direct Write],IsSymbolFont method, IDWriteFont.IsSymbolFont, IDWriteFont::IsSymbolFont, IsSymbolFont, IsSymbolFont method [Direct Write], IsSymbolFont method [Direct Write],IDWriteFont interface, directwrite.IDWriteFont_IsSymbolFont, dwrite/IDWriteFont::IsSymbolFont
 ms.topic: method
-f1_keywords: 
- - "dwrite/IDWriteFont.IsSymbolFont"
+f1_keywords:
+- dwrite/IDWriteFont.IsSymbolFont
 dev_langs:
- - c++
+- c++
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dwrite.lib
 req.dll: Dwrite.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dwrite.dll
+- dwrite.dll
 api_name:
- - IDWriteFont.IsSymbolFont
+- IDWriteFont.IsSymbolFont
 targetos: Windows
 req.typenames: 
 req.redist: 

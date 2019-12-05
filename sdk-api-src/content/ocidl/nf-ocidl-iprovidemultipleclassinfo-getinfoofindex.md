@@ -1,19 +1,17 @@
 ---
 UID: NF:ocidl.IProvideMultipleClassInfo.GetInfoOfIndex
 title: IProvideMultipleClassInfo::GetInfoOfIndex (ocidl.h)
-
 description: Retrieves the type information from the specified index.
 old-location: com\iprovidemultipleclassinfo_getinfoofindex.htm
 tech.root: com
 ms.assetid: 084dfb9d-5545-4845-9959-1b054566adca
-
 ms.date: 12/05/2018
 ms.keywords: GetInfoOfIndex, GetInfoOfIndex method [COM], GetInfoOfIndex method [COM],IProvideMultipleClassInfo interface, IProvideMultipleClassInfo interface [COM],GetInfoOfIndex method, IProvideMultipleClassInfo.GetInfoOfIndex, IProvideMultipleClassInfo::GetInfoOfIndex, MULTICLASSINFO_GETIIDPRIMARY, MULTICLASSINFO_GETIIDSOURCE, MULTICLASSINFO_GETNUMRESERVEDDISPIDS, MULTICLASSINFO_GETTYPEINFO, _com_iprovidemultipleclassinfo_getinfoofindex, com.iprovidemultipleclassinfo_getinfoofindex, ocidl/IProvideMultipleClassInfo::GetInfoOfIndex
 ms.topic: method
-f1_keywords: 
- - "ocidl/IProvideMultipleClassInfo.GetInfoOfIndex"
+f1_keywords:
+- ocidl/IProvideMultipleClassInfo.GetInfoOfIndex
 dev_langs:
- - c++
+- c++
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - OCIdl.h
+- OCIdl.h
 api_name:
- - IProvideMultipleClassInfo.GetInfoOfIndex
+- IProvideMultipleClassInfo.GetInfoOfIndex
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NS:dinputd.DIFFOBJECTATTRIBUTES
 title: DIFFOBJECTATTRIBUTES (dinputd.h)
-
 description: The DIFFOBJECTATTRIBUTES structure describes the information contained in the &#0034;FFAttributes&#0034; value of the registry key for each &#0034;object&#0034; on a force-feedback device.
 old-location: hid\diffobjectattributes.htm
 tech.root: hid
 ms.assetid: b5006cf1-619d-4521-b902-ab89a3f079a4
-
 ms.date: 12/05/2018
-ms.keywords: "*LPDIFFOBJECTATTRIBUTES, DIFFOBJECTATTRIBUTES, DIFFOBJECTATTRIBUTES structure [Human Input Devices], di_ref_d710ceb3-0885-4f22-a4f3-326f24a1e29f.xml, dinputd/DIFFOBJECTATTRIBUTES, hid.diffobjectattributes"
+ms.keywords: '*LPDIFFOBJECTATTRIBUTES, DIFFOBJECTATTRIBUTES, DIFFOBJECTATTRIBUTES structure [Human Input Devices], di_ref_d710ceb3-0885-4f22-a4f3-326f24a1e29f.xml, dinputd/DIFFOBJECTATTRIBUTES, hid.diffobjectattributes'
 ms.topic: struct
-f1_keywords: 
- - "dinputd/DIFFOBJECTATTRIBUTES"
+f1_keywords:
+- dinputd/DIFFOBJECTATTRIBUTES
 dev_langs:
- - c++
+- c++
 req.header: dinputd.h
 req.include-header: Dinputd.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Dinputd.h
+- Dinputd.h
 api_name:
- - DIFFOBJECTATTRIBUTES
+- DIFFOBJECTATTRIBUTES
 targetos: Windows
 req.typenames: DIFFOBJECTATTRIBUTES, *LPDIFFOBJECTATTRIBUTES
 req.redist: 

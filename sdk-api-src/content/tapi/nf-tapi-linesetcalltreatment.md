@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi.lineSetCallTreatment
 title: lineSetCallTreatment function (tapi.h)
-
 description: The lineSetCallTreatment function sets the sounds a party on a call that is unanswered or on hold hears. Except for basic parameter validation, it is a straight pass-through by TAPI to the service provider.
 old-location: tapi2\linesetcalltreatment.htm
 tech.root: Tapi
 ms.assetid: 0f1a3303-f6c3-4a5f-99bd-35e107c9b0b0
-
 ms.date: 12/05/2018
-ms.keywords: "_tapi2_linesetcalltreatment, lineSetCallTreatment, lineSetCallTreatment function [TAPI 2.2], tapi/lineSetCallTreatment, tapi2.linesetcalltreatment"
+ms.keywords: _tapi2_linesetcalltreatment, lineSetCallTreatment, lineSetCallTreatment function [TAPI 2.2], tapi/lineSetCallTreatment, tapi2.linesetcalltreatment
 ms.topic: function
-f1_keywords: 
- - "tapi/lineSetCallTreatment"
+f1_keywords:
+- tapi/lineSetCallTreatment
 dev_langs:
- - c++
+- c++
 req.header: tapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Tapi32.lib
 req.dll: Tapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Tapi32.dll
+- Tapi32.dll
 api_name:
- - lineSetCallTreatment
+- lineSetCallTreatment
 targetos: Windows
 req.typenames: 
 req.redist: 

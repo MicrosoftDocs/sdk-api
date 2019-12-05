@@ -1,19 +1,17 @@
 ---
 UID: NF:mbnapi.IMbnInterfaceEvents.OnInterfaceCapabilityAvailable
 title: IMbnInterfaceEvents::OnInterfaceCapabilityAvailable (mbnapi.h)
-
 description: This notification method is called by the Mobile Broadband service to indicate that interface capability information is available.
 old-location: mbn\imbninterfaceevents_oninterfacecapabilityavailable.htm
 tech.root: mbn
 ms.assetid: eeeffe13-307b-45f3-aa24-c33c621aa18e
-
 ms.date: 12/05/2018
 ms.keywords: IMbnInterfaceEvents interface [Microsoft Broadband Networks],OnInterfaceCapabilityAvailable method, IMbnInterfaceEvents.OnInterfaceCapabilityAvailable, IMbnInterfaceEvents::OnInterfaceCapabilityAvailable, OnInterfaceCapabilityAvailable, OnInterfaceCapabilityAvailable method [Microsoft Broadband Networks], OnInterfaceCapabilityAvailable method [Microsoft Broadband Networks],IMbnInterfaceEvents interface, mbn.imbninterfaceevents_oninterfacecapabilityavailable, mbnapi/IMbnInterfaceEvents::OnInterfaceCapabilityAvailable
 ms.topic: method
-f1_keywords: 
- - "mbnapi/IMbnInterfaceEvents.OnInterfaceCapabilityAvailable"
+f1_keywords:
+- mbnapi/IMbnInterfaceEvents.OnInterfaceCapabilityAvailable
 dev_langs:
- - c++
+- c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mbnapi.h
+- mbnapi.h
 api_name:
- - IMbnInterfaceEvents.OnInterfaceCapabilityAvailable
+- IMbnInterfaceEvents.OnInterfaceCapabilityAvailable
 targetos: Windows
 req.typenames: 
 req.redist: 

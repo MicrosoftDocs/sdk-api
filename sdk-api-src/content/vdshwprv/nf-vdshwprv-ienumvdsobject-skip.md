@@ -1,19 +1,17 @@
 ---
 UID: NF:vdshwprv.IEnumVdsObject.Skip
 title: IEnumVdsObject::Skip (vdshwprv.h)
-
 description: Skips a specified number of objects in the enumeration.
 old-location: base\ienumvdsobject_skip.htm
 tech.root: VDS
 ms.assetid: 8c0a856e-831e-489d-9e2a-bf2829bf59b6
-
 ms.date: 12/05/2018
 ms.keywords: IEnumVdsObject interface [VDS],Skip method, IEnumVdsObject.Skip, IEnumVdsObject::Skip, Skip, Skip method [VDS], Skip method [VDS],IEnumVdsObject interface, base.ienumvdsobject_skip, vds/IEnumVdsObject::Skip, vdshwprv/IEnumVdsObject::Skip
 ms.topic: method
-f1_keywords: 
- - "vdshwprv/IEnumVdsObject.Skip"
+f1_keywords:
+- vdshwprv/IEnumVdsObject.Skip
 dev_langs:
- - c++
+- c++
 req.header: vdshwprv.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Uuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Uuid.lib
- - Uuid.dll
+- Uuid.lib
+- Uuid.dll
 api_name:
- - IEnumVdsObject.Skip
+- IEnumVdsObject.Skip
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:dvbsiparser.IIsdbEmergencyInformationDescriptor.GetStartEndFlag
 title: IIsdbEmergencyInformationDescriptor::GetStartEndFlag (dvbsiparser.h)
-
 description: Gets the value of the start_end_flag field from an emergency information descriptor. This field indicates whether the emergency alarm signal has started or finished broadcasting.
 old-location: mstv\iisdbemergencyinformationdescriptor_getstartendflag.htm
 tech.root: mstv
 ms.assetid: 13593be1-073c-41df-b389-f0920d192c92
-
 ms.date: 12/05/2018
 ms.keywords: GetStartEndFlag, GetStartEndFlag method [Microsoft TV Technologies], GetStartEndFlag method [Microsoft TV Technologies],IIsdbEmergencyInformationDescriptor interface, IIsdbEmergencyInformationDescriptor interface [Microsoft TV Technologies],GetStartEndFlag method, IIsdbEmergencyInformationDescriptor.GetStartEndFlag, IIsdbEmergencyInformationDescriptor::GetStartEndFlag, dvbsiparser/IIsdbEmergencyInformationDescriptor::GetStartEndFlag, mstv.iisdbemergencyinformationdescriptor_getstartendflag
 ms.topic: method
-f1_keywords: 
- - "dvbsiparser/IIsdbEmergencyInformationDescriptor.GetStartEndFlag"
+f1_keywords:
+- dvbsiparser/IIsdbEmergencyInformationDescriptor.GetStartEndFlag
 dev_langs:
- - c++
+- c++
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dvbsiparser.h
+- dvbsiparser.h
 api_name:
- - IIsdbEmergencyInformationDescriptor.GetStartEndFlag
+- IIsdbEmergencyInformationDescriptor.GetStartEndFlag
 targetos: Windows
 req.typenames: 
 req.redist: 

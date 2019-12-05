@@ -1,19 +1,17 @@
 ---
 UID: NF:mediaobj.IMediaObject.GetInputStatus
 title: IMediaObject::GetInputStatus (mediaobj.h)
-
 description: The GetInputStatus method queries whether an input stream can accept more input data.
 old-location: dshow\imediaobject_getinputstatus.htm
 tech.root: DirectShow
 ms.assetid: 4581307f-cea2-4e88-81a1-972e1998c7a8
-
 ms.date: 12/05/2018
 ms.keywords: GetInputStatus, GetInputStatus method [DirectShow], GetInputStatus method [DirectShow],IMediaObject interface, IMediaObject interface [DirectShow],GetInputStatus method, IMediaObject.GetInputStatus, IMediaObject::GetInputStatus, IMediaObjectGetInputStatus, dshow.imediaobject_getinputstatus, mediaobj/IMediaObject::GetInputStatus
 ms.topic: method
-f1_keywords: 
- - "mediaobj/IMediaObject.GetInputStatus"
+f1_keywords:
+- mediaobj/IMediaObject.GetInputStatus
 dev_langs:
- - c++
+- c++
 req.header: mediaobj.h
 req.include-header: Dmo.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Dmoguids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dmoguids.lib
- - Dmoguids.dll
+- Dmoguids.lib
+- Dmoguids.dll
 api_name:
- - IMediaObject.GetInputStatus
+- IMediaObject.GetInputStatus
 targetos: Windows
 req.typenames: 
 req.redist: 

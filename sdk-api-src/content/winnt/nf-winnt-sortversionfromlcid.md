@@ -1,19 +1,17 @@
 ---
 UID: NF:winnt.SORTVERSIONFROMLCID
 title: SORTVERSIONFROMLCID macro (winnt.h)
-
 description: Retrieves the sort version from a locale identifier.
 old-location: intl\sortversionfromlcid.htm
 tech.root: Intl
 ms.assetid: 2a851ec1-ccb9-42d3-bbb5-70cb9cf02cc7
-
 ms.date: 12/05/2018
 ms.keywords: SORTVERSIONFROMLCID, SORTVERSIONFROMLCID macro [Internationalization for Windows Applications], _win32_SORTVERSIONFROMLCID, intl.sortversionfromlcid, winnt/SORTVERSIONFROMLCID
 ms.topic: macro
-f1_keywords: 
- - "winnt/SORTVERSIONFROMLCID"
+f1_keywords:
+- winnt/SORTVERSIONFROMLCID
 dev_langs:
- - c++
+- c++
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Winnt.h
+- Winnt.h
 api_name:
- - SORTVERSIONFROMLCID
+- SORTVERSIONFROMLCID
 targetos: Windows
 req.typenames: 
 req.redist: 

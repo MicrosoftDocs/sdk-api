@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationWindowPattern.Close
 title: IUIAutomationWindowPattern::Close (uiautomationclient.h)
-
 description: Closes the window.
 old-location: winauto\uiauto_IUIAutomationWindowPattern_Close.htm
 tech.root: WinAuto
 ms.assetid: 925484e2-6ad1-49ca-b2d4-a6436e7a3ddd
-
 ms.date: 12/05/2018
 ms.keywords: Close, Close method [Windows Accessibility], Close method [Windows Accessibility],IUIAutomationWindowPattern interface, IUIAutomationWindowPattern interface [Windows Accessibility],Close method, IUIAutomationWindowPattern.Close, IUIAutomationWindowPattern::Close, uiauto.uiauto_IUIAutomationWindowPattern_Close, uiauto_IUIAutomationWindowPattern_Close, uiautomationclient/IUIAutomationWindowPattern::Close, winauto.uiauto_IUIAutomationWindowPattern_Close
 ms.topic: method
-f1_keywords: 
- - "uiautomationclient/IUIAutomationWindowPattern.Close"
+f1_keywords:
+- uiautomationclient/IUIAutomationWindowPattern.Close
 dev_langs:
- - c++
+- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationClient.h
+- UIAutomationClient.h
 api_name:
- - IUIAutomationWindowPattern.Close
+- IUIAutomationWindowPattern.Close
 targetos: Windows
 req.typenames: 
 req.redist: 

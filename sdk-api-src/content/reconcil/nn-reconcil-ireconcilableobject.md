@@ -1,19 +1,17 @@
 ---
 UID: NN:reconcil.IReconcilableObject
 title: IReconcilableObject (reconcil.h)
-
 description: Exposes methods that reconcile a given document. The briefcase reconciler is responsible for implementing this interface.
 old-location: lwef\ireconcilableobject.htm
 tech.root: lwef
 ms.assetid: 2a0ec2c0-0bec-4aeb-bbd5-0db18f0d5f8c
-
 ms.date: 12/05/2018
 ms.keywords: IReconcilableObject, IReconcilableObject interface [Legacy Windows Environment Features], IReconcilableObject interface [Legacy Windows Environment Features],described, _win32_IReconcilableObject, lwef.ireconcilableobject, reconcil/IReconcilableObject, shell.ireconcilableobject
 ms.topic: interface
-f1_keywords: 
- - "reconcil/IReconcilableObject"
+f1_keywords:
+- reconcil/IReconcilableObject
 dev_langs:
- - c++
+- c++
 req.header: reconcil.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Shell32.dll (version 4.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - IReconcilableObject
+- IReconcilableObject
 targetos: Windows
 req.typenames: 
 req.redist: 

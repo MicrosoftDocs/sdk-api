@@ -1,19 +1,17 @@
 ---
 UID: NF:tom.ITextFont.SetSmallCaps
 title: ITextFont::SetSmallCaps (tom.h)
-
 description: Sets whether characters are in small capital letters.
 old-location: controls\ITextFont_SetSmallCaps.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\setsmallcaps.htm
-
 ms.date: 12/05/2018
 ms.keywords: ITextFont interface [Windows Controls],SetSmallCaps method, ITextFont.SetSmallCaps, ITextFont::SetSmallCaps, SetSmallCaps, SetSmallCaps method [Windows Controls], SetSmallCaps method [Windows Controls],ITextFont interface, _win32_ITextFont_SetSmallCaps, _win32_ITextFont_SetSmallCaps_cpp, controls.ITextFont_SetSmallCaps, controls._win32_ITextFont_SetSmallCaps, tom/ITextFont::SetSmallCaps
 ms.topic: method
-f1_keywords: 
- - "tom/ITextFont.SetSmallCaps"
+f1_keywords:
+- tom/ITextFont.SetSmallCaps
 dev_langs:
- - c++
+- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msftedit.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msftedit.dll
+- Msftedit.dll
 api_name:
- - ITextFont.SetSmallCaps
+- ITextFont.SetSmallCaps
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:certenroll.ICertPropertyEnrollment.get_CAName
 title: ICertPropertyEnrollment::get_CAName (certenroll.h)
-
 description: Retrieves the common name (CN) of the certification authority (CA).
 old-location: security\icertpropertyenrollment_caname_property.htm
 tech.root: seccertenroll
 ms.assetid: ea490e37-e1b9-4887-8051-c3447136875c
-
 ms.date: 12/05/2018
 ms.keywords: CAName property [Security], CAName property [Security],ICertPropertyEnrollment interface, ICertPropertyEnrollment interface [Security],CAName property, ICertPropertyEnrollment.CAName, ICertPropertyEnrollment.get_CAName, ICertPropertyEnrollment::CAName, ICertPropertyEnrollment::get_CAName, certenroll/ICertPropertyEnrollment::CAName, certenroll/ICertPropertyEnrollment::get_CAName, get_CAName, security.icertpropertyenrollment_caname_property
 ms.topic: method
-f1_keywords: 
- - "certenroll/ICertPropertyEnrollment.CAName"
+f1_keywords:
+- certenroll/ICertPropertyEnrollment.CAName
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: CertEnroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CertEnroll.dll
+- CertEnroll.dll
 api_name:
- - ICertPropertyEnrollment.CAName
- - ICertPropertyEnrollment.get_CAName
+- ICertPropertyEnrollment.CAName
+- ICertPropertyEnrollment.get_CAName
 targetos: Windows
 req.typenames: 
 req.redist: 

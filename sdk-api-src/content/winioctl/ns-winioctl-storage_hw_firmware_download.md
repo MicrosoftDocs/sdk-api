@@ -1,19 +1,17 @@
 ---
 UID: NS:winioctl._STORAGE_HW_FIRMWARE_DOWNLOAD
 title: STORAGE_HW_FIRMWARE_DOWNLOAD
-
 description: This structure contains a firmware image payload to be downloaded to the target.
 old-location: fs\storage_hw_firmware_download.htm
 tech.root: FileIO
 ms.assetid: BD1D39C7-9624-400C-BF4D-5F7583AA82FB
-
 ms.date: 12/05/2018
 ms.keywords: '*PSTORAGE_HW_FIRMWARE_DOWNLOAD, PSTORAGE_HW_FIRMWARE_DOWNLOAD, PSTORAGE_HW_FIRMWARE_DOWNLOAD structure pointer [Files], STORAGE_HW_FIRMWARE_DOWNLOAD, STORAGE_HW_FIRMWARE_DOWNLOAD structure [Files], fs.storage_hw_firmware_download, winioctl/PSTORAGE_HW_FIRMWARE_DOWNLOAD, winioctl/STORAGE_HW_FIRMWARE_DOWNLOAD'
 ms.topic: struct
 f1_keywords:
 - winioctl/STORAGE_HW_FIRMWARE_DOWNLOAD
 dev_langs:
- - c++
+- c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

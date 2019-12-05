@@ -1,19 +1,17 @@
 ---
 UID: NF:ctffunc.IEnumTfCandidates.Reset
 title: IEnumTfCandidates::Reset (ctffunc.h)
-
 description: IEnumTfCandidates::Reset method
 old-location: tsf\ienumtfcandidates_reset.htm
 tech.root: TSF
 ms.assetid: 2c5527ff-5f26-4e94-93ea-15273ec5a315
-
 ms.date: 12/05/2018
 ms.keywords: IEnumTfCandidates interface [Text Services Framework],Reset method, IEnumTfCandidates.Reset, IEnumTfCandidates::Reset, Reset, Reset method [Text Services Framework], Reset method [Text Services Framework],IEnumTfCandidates interface, _tsf_ienumtfcandidates_reset_ref, ctffunc/IEnumTfCandidates::Reset, tsf.ienumtfcandidates_reset
 ms.topic: method
-f1_keywords: 
- - "ctffunc/IEnumTfCandidates.Reset"
+f1_keywords:
+- ctffunc/IEnumTfCandidates.Reset
 dev_langs:
- - c++
+- c++
 req.header: ctffunc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msctf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msctf.dll
+- Msctf.dll
 api_name:
- - IEnumTfCandidates.Reset
+- IEnumTfCandidates.Reset
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

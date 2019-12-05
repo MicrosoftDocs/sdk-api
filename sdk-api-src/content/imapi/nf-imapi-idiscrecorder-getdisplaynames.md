@@ -1,19 +1,17 @@
 ---
 UID: NF:imapi.IDiscRecorder.GetDisplayNames
 title: IDiscRecorder::GetDisplayNames (imapi.h)
-
 description: Retrieves a formatted name for the recorder that can be displayed. The name consists of the manufacturer and product identifier of the device.
 old-location: imapi\idiscrecorder_getdisplaynames.htm
 tech.root: imapi
 ms.assetid: 0f20cae4-3f9c-49bb-9b82-13351b889a31
-
 ms.date: 12/05/2018
 ms.keywords: GetDisplayNames, GetDisplayNames method [IMAPI], GetDisplayNames method [IMAPI],IDiscRecorder interface, IDiscRecorder interface [IMAPI],GetDisplayNames method, IDiscRecorder.GetDisplayNames, IDiscRecorder::GetDisplayNames, _win32_idiscrecorder_getdisplaynames, base.idiscrecorder_getdisplaynames, imapi.idiscrecorder_getdisplaynames, imapi/IDiscRecorder::GetDisplayNames
 ms.topic: method
-f1_keywords: 
- - "imapi/IDiscRecorder.GetDisplayNames"
+f1_keywords:
+- imapi/IDiscRecorder.GetDisplayNames
 dev_langs:
- - c++
+- c++
 req.header: imapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Actxprxy.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Actxprxy.dll
+- Actxprxy.dll
 api_name:
- - IDiscRecorder.GetDisplayNames
+- IDiscRecorder.GetDisplayNames
 targetos: Windows
 req.typenames: 
 req.redist: 

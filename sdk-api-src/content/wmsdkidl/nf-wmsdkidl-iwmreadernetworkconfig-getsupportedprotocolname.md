@@ -1,19 +1,17 @@
 ---
 UID: NF:wmsdkidl.IWMReaderNetworkConfig.GetSupportedProtocolName
 title: IWMReaderNetworkConfig::GetSupportedProtocolName (wmsdkidl.h)
-
 description: The GetSupportedProtocolName method retrieves a protocol name by index.
 old-location: wmformat\iwmreadernetworkconfig_getsupportedprotocolname.htm
 tech.root: wmformat
 ms.assetid: c1047752-c3a2-4555-9dae-ddd91365cd10
-
 ms.date: 12/05/2018
 ms.keywords: GetSupportedProtocolName, GetSupportedProtocolName method [windows Media Format], GetSupportedProtocolName method [windows Media Format],IWMReaderNetworkConfig interface, IWMReaderNetworkConfig interface [windows Media Format],GetSupportedProtocolName method, IWMReaderNetworkConfig.GetSupportedProtocolName, IWMReaderNetworkConfig::GetSupportedProtocolName, IWMReaderNetworkConfigGetSupportedProtocolName, wmformat.iwmreadernetworkconfig_getsupportedprotocolname, wmsdkidl/IWMReaderNetworkConfig::GetSupportedProtocolName
 ms.topic: method
-f1_keywords: 
- - "wmsdkidl/IWMReaderNetworkConfig.GetSupportedProtocolName"
+f1_keywords:
+- wmsdkidl/IWMReaderNetworkConfig.GetSupportedProtocolName
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wmvcore.lib
- - Wmvcore.dll
- - WMStubDRM.lib
- - WMStubDRM.dll
+- Wmvcore.lib
+- Wmvcore.dll
+- WMStubDRM.lib
+- WMStubDRM.dll
 api_name:
- - IWMReaderNetworkConfig.GetSupportedProtocolName
+- IWMReaderNetworkConfig.GetSupportedProtocolName
 targetos: Windows
 req.typenames: 
 req.redist: 

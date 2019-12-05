@@ -1,19 +1,17 @@
 ---
 UID: NF:wmlss.IWindowsMediaLibrarySharingServices.setAuthorizationState
 title: IWindowsMediaLibrarySharingServices::setAuthorizationState (wmlss.h)
-
 description: The setAuthorizationState method enables or disables access to the current user's media library by a specified device.
 old-location: wmlss\IWMLSSsetAuthorizationState.htm
 tech.root: WMLSS
 ms.assetid: bd67b81c-9810-4f35-b0b2-c471b4747216
-
 ms.date: 12/05/2018
 ms.keywords: IWindowsMediaLibrarySharingServices interface [Windows Media Library Sharing Services],setAuthorizationState method, IWindowsMediaLibrarySharingServices.setAuthorizationState, IWindowsMediaLibrarySharingServices::setAuthorizationState, setAuthorizationState, setAuthorizationState method [Windows Media Library Sharing Services], setAuthorizationState method [Windows Media Library Sharing Services],IWindowsMediaLibrarySharingServices interface, wmlss.IWMLSSsetAuthorizationState, wmlss/IWindowsMediaLibrarySharingServices::setAuthorizationState
 ms.topic: method
-f1_keywords: 
- - "wmlss/IWindowsMediaLibrarySharingServices.setAuthorizationState"
+f1_keywords:
+- wmlss/IWindowsMediaLibrarySharingServices.setAuthorizationState
 dev_langs:
- - c++
+- c++
 req.header: wmlss.h
 req.include-header: Wmlss.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: WMPMediaSharing.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - WMPMediaSharing.dll
+- WMPMediaSharing.dll
 api_name:
- - IWindowsMediaLibrarySharingServices.setAuthorizationState
+- IWindowsMediaLibrarySharingServices.setAuthorizationState
 targetos: Windows
 req.typenames: 
 req.redist: 

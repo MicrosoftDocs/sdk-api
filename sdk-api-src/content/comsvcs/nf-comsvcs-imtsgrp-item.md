@@ -1,19 +1,17 @@
 ---
 UID: NF:comsvcs.IMtsGrp.Item
 title: IMtsGrp::Item (comsvcs.h)
-
 description: Retrieves the IUnknown pointer for the specified package.
 old-location: cos\imtsgrp_item.htm
 tech.root: cossdk
 ms.assetid: 6360f38d-43e2-4b78-a9f5-9a525d4c596a
-
 ms.date: 12/05/2018
 ms.keywords: IMtsGrp interface [COM+],Item method, IMtsGrp.Item, IMtsGrp::Item, Item, Item method [COM+], Item method [COM+],IMtsGrp interface, _dtc_IMtsGrp_Item, comsvcs/IMtsGrp::Item, cos.imtsgrp_item
 ms.topic: method
-f1_keywords: 
- - "comsvcs/IMtsGrp.Item"
+f1_keywords:
+- comsvcs/IMtsGrp.Item
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - IMtsGrp.Item
+- IMtsGrp.Item
 targetos: Windows
 req.typenames: 
 req.redist: 

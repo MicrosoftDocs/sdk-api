@@ -1,19 +1,17 @@
 ---
 UID: NC:cchannel.VIRTUALCHANNELOPEN
 title: VIRTUALCHANNELOPEN (cchannel.h)
-
 description: Opens the client end of a virtual channel.
 old-location: termserv\virtualchannelopen.htm
 tech.root: TermServ
 ms.assetid: 4ec75f9d-dbdf-499d-80a9-25fc6e9c5cb9
-
 ms.date: 12/05/2018
 ms.keywords: VirtualChannelOpen, VirtualChannelOpen callback, VirtualChannelOpen callback function [Remote Desktop Services], _win32_virtualchannelopen, cchannel/VirtualChannelOpen, termserv.virtualchannelopen
 ms.topic: callback
-f1_keywords: 
- - "cchannel/VirtualChannelOpen"
+f1_keywords:
+- cchannel/VirtualChannelOpen
 dev_langs:
- - c++
+- c++
 req.header: cchannel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Cchannel.h
+- Cchannel.h
 api_name:
- - VirtualChannelOpen
+- VirtualChannelOpen
 targetos: Windows
 req.typenames: 
 req.redist: 

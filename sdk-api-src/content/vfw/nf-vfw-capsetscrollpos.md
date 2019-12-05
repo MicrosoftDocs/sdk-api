@@ -1,19 +1,17 @@
 ---
 UID: NF:vfw.capSetScrollPos
 title: capSetScrollPos macro (vfw.h)
-
 description: The capSetScrollPos macro defines the portion of the video frame to display in the capture window.
 old-location: multimedia\capsetscrollpos.htm
 tech.root: Multimedia
 ms.assetid: a5af0d75-ae9f-41f2-90cb-8ede7c2f454a
-
 ms.date: 12/05/2018
-ms.keywords: "_win32_capSetScrollPos, capSetScrollPos, capSetScrollPos macro [Windows Multimedia], multimedia.capsetscrollpos, vfw/capSetScrollPos"
+ms.keywords: _win32_capSetScrollPos, capSetScrollPos, capSetScrollPos macro [Windows Multimedia], multimedia.capsetscrollpos, vfw/capSetScrollPos
 ms.topic: macro
-f1_keywords: 
- - "vfw/capSetScrollPos"
+f1_keywords:
+- vfw/capSetScrollPos
 dev_langs:
- - c++
+- c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Vfw.h
+- Vfw.h
 api_name:
- - capSetScrollPos
+- capSetScrollPos
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:lmat.NetScheduleJobDel
 title: NetScheduleJobDel function (lmat.h)
-
 description: The NetScheduleJobDel function deletes a range of jobs queued to run at a computer. This function requires that the schedule service be started at the computer to which the job deletion request is being sent.
 old-location: netmgmt\netschedulejobdel.htm
 tech.root: NetMgmt
 ms.assetid: 5ae668ab-f51d-457e-a239-2ec16a0e5a55
-
 ms.date: 12/05/2018
 ms.keywords: NetScheduleJobDel, NetScheduleJobDel function [Network Management], _win32_netschedulejobdel, lmat/NetScheduleJobDel, netmgmt.netschedulejobdel
 ms.topic: function
-f1_keywords: 
- - "lmat/NetScheduleJobDel"
+f1_keywords:
+- lmat/NetScheduleJobDel
 dev_langs:
- - c++
+- c++
 req.header: lmat.h
 req.include-header: Lmat.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Netapi32.lib
 req.dll: Netapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Netapi32.dll
+- Netapi32.dll
 api_name:
- - NetScheduleJobDel
+- NetScheduleJobDel
 targetos: Windows
 req.typenames: 
 req.redist: 

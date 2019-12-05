@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi3if.ITTAPIObjectEvent.get_Address
 title: ITTAPIObjectEvent::get_Address (tapi3if.h)
-
 description: The get_Address method gets a pointer to the Address object on which the event occurred.
 old-location: tapi3\ittapiobjectevent_get_address.htm
 tech.root: Tapi
 ms.assetid: dfe4ec23-42ae-4bb7-86cc-4d45d36b8817
-
 ms.date: 12/05/2018
 ms.keywords: ITTAPIObjectEvent interface [TAPI 2.2],get_Address method, ITTAPIObjectEvent.get_Address, ITTAPIObjectEvent::get_Address, _tapi3_ittapiobjectevent_get_address, get_Address, get_Address method [TAPI 2.2], get_Address method [TAPI 2.2],ITTAPIObjectEvent interface, tapi3.ittapiobjectevent_get_address, tapi3if/ITTAPIObjectEvent::get_Address
 ms.topic: method
-f1_keywords: 
- - "tapi3if/ITTAPIObjectEvent.get_Address"
+f1_keywords:
+- tapi3if/ITTAPIObjectEvent.get_Address
 dev_langs:
- - c++
+- c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Tapi3.dll
+- Tapi3.dll
 api_name:
- - ITTAPIObjectEvent.get_Address
+- ITTAPIObjectEvent.get_Address
 targetos: Windows
 req.typenames: 
 req.redist: 

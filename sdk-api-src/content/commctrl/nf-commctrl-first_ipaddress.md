@@ -1,19 +1,17 @@
 ---
 UID: NF:commctrl.FIRST_IPADDRESS
 title: FIRST_IPADDRESS macro (commctrl.h)
-
 description: Extracts the field 0 value from a packed IP address retrieved with the IPM_GETADDRESS message.
 old-location: controls\FIRST_IPADDRESS.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\ipaddress\macros\first_ipaddress.htm
-
 ms.date: 12/05/2018
 ms.keywords: FIRST_IPADDRESS, FIRST_IPADDRESS macro [Windows Controls], _win32_FIRST_IPADDRESS, _win32_FIRST_IPADDRESS_cpp, commctrl/FIRST_IPADDRESS, controls.FIRST_IPADDRESS, controls._win32_FIRST_IPADDRESS
 ms.topic: macro
-f1_keywords: 
- - "commctrl/FIRST_IPADDRESS"
+f1_keywords:
+- commctrl/FIRST_IPADDRESS
 dev_langs:
- - c++
+- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Commctrl.h
+- Commctrl.h
 api_name:
- - FIRST_IPADDRESS
+- FIRST_IPADDRESS
 targetos: Windows
 req.typenames: 
 req.redist: 

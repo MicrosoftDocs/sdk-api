@@ -1,19 +1,17 @@
 ---
 UID: NN:wmsdkidl.IWMDRMTranscryptor
 title: IWMDRMTranscryptor (wmsdkidl.h)
-
 description: The IWMDRMTranscryptor interface transforms a DRM-protected ASF file into a secure data stream conforming to the Windows Media DRM 10 for Network Devices protocol.
 old-location: wmformat\iwmdrmtranscryptor.htm
 tech.root: wmformat
 ms.assetid: cd154077-eebe-4a0f-ae70-5268d5af4898
-
 ms.date: 12/05/2018
 ms.keywords: IWMDRMTranscryptor, IWMDRMTranscryptor interface [windows Media Format], IWMDRMTranscryptor interface [windows Media Format],described, IWMDRMTranscryptorInterface, wmformat.iwmdrmtranscryptor, wmsdkidl/IWMDRMTranscryptor
 ms.topic: interface
-f1_keywords: 
- - "wmsdkidl/IWMDRMTranscryptor"
+f1_keywords:
+- wmsdkidl/IWMDRMTranscryptor
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmsdkidl.h
+- wmsdkidl.h
 api_name:
- - IWMDRMTranscryptor
+- IWMDRMTranscryptor
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NE:mfapi.__unnamed_enum_0
 title: MFASYNC_WORKQUEUE_TYPE (mfapi.h)
-
 description: Specifies the type of work queue for the MFAllocateWorkQueueEx function to create.
 old-location: mf\mfasync_workqueue_type.htm
 tech.root: medfound
 ms.assetid: a3627dbc-1794-4e2e-b7ed-869ed50ca893
-
 ms.date: 12/05/2018
 ms.keywords: MFASYNC_WORKQUEUE_TYPE, MFASYNC_WORKQUEUE_TYPE enumeration [Media Foundation], MF_MULTITHREADED_WORKQUEUE, MF_STANDARD_WORKQUEUE, MF_WINDOW_WORKQUEUE, mf.mfasync_workqueue_type, mfapi/MFASYNC_WORKQUEUE_TYPE, mfapi/MF_MULTITHREADED_WORKQUEUE, mfapi/MF_STANDARD_WORKQUEUE, mfapi/MF_WINDOW_WORKQUEUE
 ms.topic: enum
-f1_keywords: 
- - "mfapi/MFASYNC_WORKQUEUE_TYPE"
+f1_keywords:
+- mfapi/MFASYNC_WORKQUEUE_TYPE
 dev_langs:
- - c++
+- c++
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - mfapi.h
+- mfapi.h
 api_name:
- - MFASYNC_WORKQUEUE_TYPE
+- MFASYNC_WORKQUEUE_TYPE
 targetos: Windows
 req.typenames: MFASYNC_WORKQUEUE_TYPE
 req.redist: 

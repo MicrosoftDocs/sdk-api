@@ -1,19 +1,17 @@
 ---
 UID: NF:ocidl.IPropertyPage.Help
 title: IPropertyPage::Help (ocidl.h)
-
 description: Invokes the property page help in response to an end-user request.
 old-location: com\ipropertypage_help.htm
 tech.root: com
 ms.assetid: ba715518-1aa0-42de-bad7-f2d0d0f00460
-
 ms.date: 12/05/2018
 ms.keywords: Help, Help method [COM], Help method [COM],IPropertyPage interface, IPropertyPage interface [COM],Help method, IPropertyPage.Help, IPropertyPage::Help, _ctrl_ipropertypage_help, com.ipropertypage_help, ocidl/IPropertyPage::Help
 ms.topic: method
-f1_keywords: 
- - "ocidl/IPropertyPage.Help"
+f1_keywords:
+- ocidl/IPropertyPage.Help
 dev_langs:
- - c++
+- c++
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - OCIdl.h
+- OCIdl.h
 api_name:
- - IPropertyPage.Help
+- IPropertyPage.Help
 targetos: Windows
 req.typenames: 
 req.redist: 

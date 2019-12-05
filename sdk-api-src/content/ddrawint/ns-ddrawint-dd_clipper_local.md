@@ -1,19 +1,17 @@
 ---
 UID: NS:ddrawint._DD_CLIPPER_LOCAL
 title: DD_CLIPPER_LOCAL (ddrawint.h)
-
 description: The DD_CLIPPER_LOCAL structure contains local data for each individual DirectDrawClipper object.
 old-location: display\dd_clipper_local.htm
 tech.root: display
 ms.assetid: 5b2a5b8a-87f9-4bb6-a68e-5e74442da192
-
 ms.date: 12/05/2018
-ms.keywords: "*PDD_CLIPPER_LOCAL, DD_CLIPPER_LOCAL, DD_CLIPPER_LOCAL structure [Display Devices], ddrawint/DD_CLIPPER_LOCAL, ddstrcts_ab07bdb1-e063-4c9b-bb22-87fc5064382e.xml, display.dd_clipper_local"
+ms.keywords: '*PDD_CLIPPER_LOCAL, DD_CLIPPER_LOCAL, DD_CLIPPER_LOCAL structure [Display Devices], ddrawint/DD_CLIPPER_LOCAL, ddstrcts_ab07bdb1-e063-4c9b-bb22-87fc5064382e.xml, display.dd_clipper_local'
 ms.topic: struct
-f1_keywords: 
- - "ddrawint/DD_CLIPPER_LOCAL"
+f1_keywords:
+- ddrawint/DD_CLIPPER_LOCAL
 dev_langs:
- - c++
+- c++
 req.header: ddrawint.h
 req.include-header: Winddi.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - ddrawint.h
+- ddrawint.h
 api_name:
- - DD_CLIPPER_LOCAL
+- DD_CLIPPER_LOCAL
 targetos: Windows
-req.typenames: "*PDD_CLIPPER_LOCAL, DD_CLIPPER_LOCAL"
+req.typenames: '*PDD_CLIPPER_LOCAL, DD_CLIPPER_LOCAL'
 req.redist: 
 ms.custom: 19H1
 ---

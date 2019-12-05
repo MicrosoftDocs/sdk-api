@@ -1,19 +1,17 @@
 ---
 UID: NF:dhcpsapi.DhcpServerRestoreDatabase
 title: DhcpServerRestoreDatabase function (dhcpsapi.h)
-
 description: Restores the settings, configuration, and records for a client lease database from a specific backup location (path).
 old-location: dhcp\dhcpserverrestoredatabase.htm
 tech.root: DHCP
 ms.assetid: b7003fcc-bff1-449d-8849-c02932880114
-
 ms.date: 12/05/2018
 ms.keywords: DhcpServerRestoreDatabase, DhcpServerRestoreDatabase function [DHCP], dhcp.dhcpserverrestoredatabase, dhcpsapi/DhcpServerRestoreDatabase
 ms.topic: function
-f1_keywords: 
- - "dhcpsapi/DhcpServerRestoreDatabase"
+f1_keywords:
+- dhcpsapi/DhcpServerRestoreDatabase
 dev_langs:
- - c++
+- c++
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dhcpsapi.lib
 req.dll: Dhcpsapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Dhcpsapi.dll
+- Dhcpsapi.dll
 api_name:
- - DhcpServerRestoreDatabase
+- DhcpServerRestoreDatabase
 targetos: Windows
 req.typenames: 
 req.redist: 

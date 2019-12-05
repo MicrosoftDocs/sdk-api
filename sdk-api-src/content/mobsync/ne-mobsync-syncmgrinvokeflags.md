@@ -1,19 +1,17 @@
 ---
 UID: NE:mobsync._tagSYNCMGRINVOKEFLAGS
 title: SYNCMGRINVOKEFLAGS (mobsync.h)
-
 description: The SYNCMGRINVOKEFLAGS enumeration value specifies how the Sync Manager is to be invoked in the ISyncMgrSynchronizeInvoke::UpdateItems method.
 old-location: shell\syncmgr_syncmgrinvokeflags.htm
 tech.root: shell
 ms.assetid: 6526e048-b7a8-4822-afd7-30f04a3039eb
-
 ms.date: 12/05/2018
 ms.keywords: SYNCMGRINVOKEFLAGS, SYNCMGRINVOKEFLAGS enumeration [Windows Shell], SYNCMGRINVOKE_MINIMIZED, SYNCMGRINVOKE_STARTSYNC, mobsync/SYNCMGRINVOKEFLAGS, mobsync/SYNCMGRINVOKE_MINIMIZED, mobsync/SYNCMGRINVOKE_STARTSYNC, shell.syncmgr_syncmgrinvokeflags, syncmgr.syncmgrinvokeflags
 ms.topic: enum
-f1_keywords: 
- - "mobsync/SYNCMGRINVOKEFLAGS"
+f1_keywords:
+- mobsync/SYNCMGRINVOKEFLAGS
 dev_langs:
- - c++
+- c++
 req.header: mobsync.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Mobsync.h
+- Mobsync.h
 api_name:
- - SYNCMGRINVOKEFLAGS
+- SYNCMGRINVOKEFLAGS
 targetos: Windows
 req.typenames: SYNCMGRINVOKEFLAGS
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:d3dcsx.ID3DX11SegmentedScan.SetScanDirection
 title: ID3DX11SegmentedScan::SetScanDirection (d3dcsx.h)
-
 description: Sets which direction to perform scans in.
 old-location: direct3d11\id3dx11segmentedscan_setscandirection.htm
 tech.root: direct3d11
 ms.assetid: 84eca342-33a3-4595-adb2-0a39e6060e49
-
 ms.date: 12/05/2018
 ms.keywords: ID3DX11SegmentedScan interface [Direct3D 11],SetScanDirection method, ID3DX11SegmentedScan.SetScanDirection, ID3DX11SegmentedScan::SetScanDirection, SetScanDirection, SetScanDirection method [Direct3D 11], SetScanDirection method [Direct3D 11],ID3DX11SegmentedScan interface, a63add8c-ff04-6737-e439-b59bf93546a1, d3dcsx/ID3DX11SegmentedScan::SetScanDirection, direct3d11.id3dx11segmentedscan_setscandirection
 ms.topic: method
-f1_keywords: 
- - "d3dcsx/ID3DX11SegmentedScan.SetScanDirection"
+f1_keywords:
+- d3dcsx/ID3DX11SegmentedScan.SetScanDirection
 dev_langs:
- - c++
+- c++
 req.header: d3dcsx.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: D3dcsx.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - d3dcsx.lib
- - d3dcsx.dll
+- d3dcsx.lib
+- d3dcsx.dll
 api_name:
- - ID3DX11SegmentedScan.SetScanDirection
+- ID3DX11SegmentedScan.SetScanDirection
 targetos: Windows
 req.typenames: 
 req.redist: 

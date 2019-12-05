@@ -1,19 +1,17 @@
 ---
 UID: NF:credentialprovider.ICredentialProviderCredentialEvents2.SetFieldOptions
 title: ICredentialProviderCredentialEvents2::SetFieldOptions (credentialprovider.h)
-
 description: Specifies whether a specified field in the logon or credential UI should display a &#0034;password reveal&#0034; glyph or is expected to receive an e-mail address.
 old-location: shell\ICredentialProviderCredentialEvents2_SetFieldOptions.htm
 tech.root: shell
 ms.assetid: 5507E8DE-5746-4031-900B-3EF5C97BC2EE
-
 ms.date: 12/05/2018
 ms.keywords: ICredentialProviderCredentialEvents2 interface [Windows Shell],SetFieldOptions method, ICredentialProviderCredentialEvents2.SetFieldOptions, ICredentialProviderCredentialEvents2::SetFieldOptions, SetFieldOptions, SetFieldOptions method [Windows Shell], SetFieldOptions method [Windows Shell],ICredentialProviderCredentialEvents2 interface, credentialprovider/ICredentialProviderCredentialEvents2::SetFieldOptions, shell.ICredentialProviderCredentialEvents2_SetFieldOptions
 ms.topic: method
-f1_keywords: 
- - "credentialprovider/ICredentialProviderCredentialEvents2.SetFieldOptions"
+f1_keywords:
+- credentialprovider/ICredentialProviderCredentialEvents2.SetFieldOptions
 dev_langs:
- - c++
+- c++
 req.header: credentialprovider.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CredentialProvider.h
+- CredentialProvider.h
 api_name:
- - ICredentialProviderCredentialEvents2.SetFieldOptions
+- ICredentialProviderCredentialEvents2.SetFieldOptions
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NE:icftypes.NET_FW_IP_VERSION_
 title: NET_FW_IP_VERSION (icftypes.h)
-
 description: Specifies the IP version for a port.
 old-location: ics\net_fw_ip_version.htm
 tech.root: ics
 ms.assetid: f322c914-e84f-4c13-8200-06e5fe2bdab7
-
 ms.date: 12/05/2018
 ms.keywords: NET_FW_IP_VERSION, NET_FW_IP_VERSION enumeration [ICS/ICF], NET_FW_IP_VERSION_ANY, NET_FW_IP_VERSION_MAX, NET_FW_IP_VERSION_V4, NET_FW_IP_VERSION_V6, icftypes/NET_FW_IP_VERSION, icftypes/NET_FW_IP_VERSION_ANY, icftypes/NET_FW_IP_VERSION_MAX, icftypes/NET_FW_IP_VERSION_V4, icftypes/NET_FW_IP_VERSION_V6, ics.net_fw_ip_version
 ms.topic: enum
-f1_keywords: 
- - "icftypes/NET_FW_IP_VERSION"
+f1_keywords:
+- icftypes/NET_FW_IP_VERSION
 dev_langs:
- - c++
+- c++
 req.header: icftypes.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Icftypes.h
+- Icftypes.h
 api_name:
- - NET_FW_IP_VERSION
+- NET_FW_IP_VERSION
 targetos: Windows
 req.typenames: NET_FW_IP_VERSION
 req.redist: 

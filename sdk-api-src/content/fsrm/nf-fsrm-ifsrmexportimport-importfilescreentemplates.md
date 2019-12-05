@@ -1,19 +1,17 @@
 ---
 UID: NF:fsrm.IFsrmExportImport.ImportFileScreenTemplates
 title: IFsrmExportImport::ImportFileScreenTemplates (fsrm.h)
-
 description: Imports one or more file screen templates from the specified file.
 old-location: fsrm\ifsrmexportimport_importfilescreentemplates.htm
 tech.root: fsrm
 ms.assetid: ea2fbd88-777e-454c-8d32-0d704c219558
-
 ms.date: 12/05/2018
 ms.keywords: FsrmExportImport class [File Server Resource Manager],ImportFileScreenTemplates method, IFsrmExportImport interface [File Server Resource Manager],ImportFileScreenTemplates method, IFsrmExportImport.ImportFileScreenTemplates, IFsrmExportImport::ImportFileScreenTemplates, ImportFileScreenTemplates, ImportFileScreenTemplates method [File Server Resource Manager], ImportFileScreenTemplates method [File Server Resource Manager],FsrmExportImport class, ImportFileScreenTemplates method [File Server Resource Manager],IFsrmExportImport interface, fs.ifsrmexportimport_importfilescreentemplates, fsrm.ifsrmexportimport_importfilescreentemplates, fsrm/IFsrmExportImport::ImportFileScreenTemplates
 ms.topic: method
-f1_keywords: 
- - "fsrm/IFsrmExportImport.ImportFileScreenTemplates"
+f1_keywords:
+- fsrm/IFsrmExportImport.ImportFileScreenTemplates
 dev_langs:
- - c++
+- c++
 req.header: fsrm.h
 req.include-header: FsrmPipeline.h, FsrmQuota.h, FsrmReports.h, FsrmScreen.h, FsrmTlb.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: SrmSvc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - SrmSvc.dll
+- SrmSvc.dll
 api_name:
- - IFsrmExportImport.ImportFileScreenTemplates
- - FsrmExportImport.ImportFileScreenTemplates
+- IFsrmExportImport.ImportFileScreenTemplates
+- FsrmExportImport.ImportFileScreenTemplates
 targetos: Windows
 req.typenames: 
 req.redist: 

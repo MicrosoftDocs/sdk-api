@@ -1,19 +1,17 @@
 ---
 UID: NF:msi.MsiCloseHandle
 title: MsiCloseHandle function (msi.h)
-
 description: The MsiCloseHandle function closes an open installation handle.
 old-location: setup\msiclosehandle.htm
 tech.root: Msi
 ms.assetid: b9e90ed4-fda8-4628-a713-67c651e1b572
-
 ms.date: 12/05/2018
 ms.keywords: MsiCloseHandle, MsiCloseHandle function, _msi_msiclosehandle, msi/MsiCloseHandle, setup.msiclosehandle
 ms.topic: function
-f1_keywords: 
- - "msi/MsiCloseHandle"
+f1_keywords:
+- msi/MsiCloseHandle
 dev_langs:
- - c++
+- c++
 req.header: msi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Msi.lib
 req.dll: Msi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Msi.dll
- - Ext-MS-Win-MSI-Misc-l1-1-0.dll
+- Msi.dll
+- Ext-MS-Win-MSI-Misc-l1-1-0.dll
 api_name:
- - MsiCloseHandle
+- MsiCloseHandle
 targetos: Windows
 req.typenames: 
 req.redist: 

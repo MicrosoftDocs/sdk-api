@@ -1,19 +1,17 @@
 ---
 UID: NS:docobj.tagPAGERANGE
 title: PAGERANGE (docobj.h)
-
 description: Specifies a range of pages.
 old-location: com\pagerange.htm
 tech.root: com
 ms.assetid: b37d57e6-1634-4676-9f31-e3db2835983f
-
 ms.date: 12/05/2018
 ms.keywords: PAGERANGE, PAGERANGE structure [COM], _ctrl_PAGERANGE, com.pagerange, docobj/PAGERANGE
 ms.topic: struct
-f1_keywords: 
- - "docobj/PAGERANGE"
+f1_keywords:
+- docobj/PAGERANGE
 dev_langs:
- - c++
+- c++
 req.header: docobj.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Docobj.h
+- Docobj.h
 api_name:
- - PAGERANGE
+- PAGERANGE
 targetos: Windows
 req.typenames: PAGERANGE
 req.redist: 

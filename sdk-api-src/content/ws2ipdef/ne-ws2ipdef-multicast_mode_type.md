@@ -1,19 +1,17 @@
 ---
 UID: NE:ws2ipdef.__unnamed_enum_0
 title: MULTICAST_MODE_TYPE (ws2ipdef.h)
-
 description: Specifies the filter mode for multicast group addresses.
 old-location: winsock\multicast_mode_type.htm
 tech.root: WinSock
 ms.assetid: 7ca9cb9b-618a-4e73-9e2a-18e55e5c00c0
-
 ms.date: 12/05/2018
 ms.keywords: MCAST_EXCLUDE, MCAST_INCLUDE, MULTICAST_MODE_TYPE, MULTICAST_MODE_TYPE enumeration [Winsock], winsock.multicast_mode_type, ws2ipdef/MCAST_EXCLUDE, ws2ipdef/MCAST_INCLUDE, ws2ipdef/MULTICAST_MODE_TYPE
 ms.topic: enum
-f1_keywords: 
- - "ws2ipdef/MULTICAST_MODE_TYPE"
+f1_keywords:
+- ws2ipdef/MULTICAST_MODE_TYPE
 dev_langs:
- - c++
+- c++
 req.header: ws2ipdef.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Ws2ipdef.h
+- Ws2ipdef.h
 api_name:
- - MULTICAST_MODE_TYPE
+- MULTICAST_MODE_TYPE
 targetos: Windows
 req.typenames: MULTICAST_MODE_TYPE
 req.redist: 

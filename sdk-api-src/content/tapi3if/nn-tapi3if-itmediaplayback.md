@@ -1,19 +1,17 @@
 ---
 UID: NN:tapi3if.ITMediaPlayback
 title: ITMediaPlayback (tapi3if.h)
-
 description: The ITMediaPlayback interface provides playback-specific methods that allow an application to set and get the list of files to play. This interface is created by calling QueryInterface on ITTerminal.
 old-location: tapi3\itmediaplayback.htm
 tech.root: Tapi
 ms.assetid: 66b43721-f902-4a0e-8cbb-418438617f47
-
 ms.date: 12/05/2018
 ms.keywords: ITMediaPlayback, ITMediaPlayback interface [TAPI 2.2], ITMediaPlayback interface [TAPI 2.2],described, _tapi3_itmediaplayback, tapi3.itmediaplayback, tapi3if/ITMediaPlayback
 ms.topic: interface
-f1_keywords: 
- - "tapi3if/ITMediaPlayback"
+f1_keywords:
+- tapi3if/ITMediaPlayback
 dev_langs:
- - c++
+- c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Tapi3.dll
+- Tapi3.dll
 api_name:
- - ITMediaPlayback
+- ITMediaPlayback
 targetos: Windows
 req.typenames: 
 req.redist: 

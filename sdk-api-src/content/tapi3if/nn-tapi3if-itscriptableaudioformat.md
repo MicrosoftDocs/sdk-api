@@ -1,19 +1,17 @@
 ---
 UID: NN:tapi3if.ITScriptableAudioFormat
 title: ITScriptableAudioFormat (tapi3if.h)
-
 description: The ITScriptableAudioFormat interface is used by scriptable clients to get the audio format from, or set the audio format for, the track. The interface provides properties for each member from the WAVEFORMATEX structure.
 old-location: tapi3\itscriptableaudioformat.htm
 tech.root: Tapi
 ms.assetid: 6b5d069a-044f-4bd4-b661-6100a2607107
-
 ms.date: 12/05/2018
 ms.keywords: ITScriptableAudioFormat, ITScriptableAudioFormat interface [TAPI 2.2], ITScriptableAudioFormat interface [TAPI 2.2],described, _tapi3_itscriptableaudioformat, tapi3.itscriptableaudioformat, tapi3if/ITScriptableAudioFormat
 ms.topic: interface
-f1_keywords: 
- - "tapi3if/ITScriptableAudioFormat"
+f1_keywords:
+- tapi3if/ITScriptableAudioFormat
 dev_langs:
- - c++
+- c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Tapi3.dll
+- Tapi3.dll
 api_name:
- - ITScriptableAudioFormat
+- ITScriptableAudioFormat
 targetos: Windows
 req.typenames: 
 req.redist: 

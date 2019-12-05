@@ -1,19 +1,17 @@
 ---
 UID: NF:rpcproxy.CStdStubBuffer_IsIIDSupported
 title: CStdStubBuffer_IsIIDSupported function (rpcproxy.h)
-
 description: The CStdStubBuffer_IsIIDSupported function implements the IRpcStubBuffer::IsIIDSupported method.
 old-location: rpc\cstdstubbuffer_isiidsupported.htm
 tech.root: Rpc
 ms.assetid: a0f47424-7286-493b-815f-96e27e645824
-
 ms.date: 12/05/2018
 ms.keywords: CStdStubBuffer_IsIIDSupported, CStdStubBuffer_IsIIDSupported, CStdStubBuffer_IsIIDSupported function [RPC], rpc.cstdstubbuffer_isiidsupported, rpcproxy/CStdStubBuffer_IsIIDSupported
 ms.topic: function
-f1_keywords: 
- - "rpcproxy/CStdStubBuffer_IsIIDSupported"
+f1_keywords:
+- rpcproxy/CStdStubBuffer_IsIIDSupported
 dev_langs:
- - c++
+- c++
 req.header: rpcproxy.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: RpcRT4.lib
 req.dll: RpcRT4.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - RpcRT4.dll
+- RpcRT4.dll
 api_name:
- - CStdStubBuffer_IsIIDSupported
+- CStdStubBuffer_IsIIDSupported
 targetos: Windows
 req.typenames: 
 req.redist: 

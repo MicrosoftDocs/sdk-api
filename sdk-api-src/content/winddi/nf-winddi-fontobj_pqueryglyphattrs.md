@@ -1,19 +1,17 @@
 ---
 UID: NF:winddi.FONTOBJ_pQueryGlyphAttrs
 title: FONTOBJ_pQueryGlyphAttrs function (winddi.h)
-
 description: The FONTOBJ_pQueryGlyphAttrs function returns information about a font's glyphs.
 old-location: display\fontobj_pqueryglyphattrs.htm
 tech.root: display
 ms.assetid: 6a619922-5ab6-4169-8b41-e645e9d7fe93
-
 ms.date: 12/05/2018
 ms.keywords: FONTOBJ_pQueryGlyphAttrs, FONTOBJ_pQueryGlyphAttrs function [Display Devices], display.fontobj_pqueryglyphattrs, gdifncs_d646608d-3765-4cc7-aeff-bf5dc050d6b5.xml, winddi/FONTOBJ_pQueryGlyphAttrs
 ms.topic: function
 f1_keywords:
 - winddi/FONTOBJ_pQueryGlyphAttrs
 dev_langs:
- - c++
+- c++
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Universal

@@ -1,19 +1,17 @@
 ---
 UID: NF:rdpencomapi.IRDPSRAPIAudioStream.GetBuffer
 title: IRDPSRAPIAudioStream::GetBuffer (rdpencomapi.h)
-
 description: Gets audio data from the buffer.
 old-location: rdp\irdpsrapiaudiostream_getbuffer.htm
 tech.root: rdp
 ms.assetid: 9A155107-1C43-49C2-BA92-4CBF37AEF4DB
-
 ms.date: 12/05/2018
 ms.keywords: GetBuffer, GetBuffer method [RDP], GetBuffer method [RDP],IRDPSRAPIAudioStream interface, IRDPSRAPIAudioStream interface [RDP],GetBuffer method, IRDPSRAPIAudioStream.GetBuffer, IRDPSRAPIAudioStream::GetBuffer, rdp.irdpsrapiaudiostream_getbuffer, rdpencomapi/IRDPSRAPIAudioStream::GetBuffer
 ms.topic: method
-f1_keywords: 
- - "rdpencomapi/IRDPSRAPIAudioStream.GetBuffer"
+f1_keywords:
+- rdpencomapi/IRDPSRAPIAudioStream.GetBuffer
 dev_langs:
- - c++
+- c++
 req.header: rdpencomapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: RdpEncom.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - RdpEncom.dll
+- RdpEncom.dll
 api_name:
- - IRDPSRAPIAudioStream.GetBuffer
+- IRDPSRAPIAudioStream.GetBuffer
 targetos: Windows
 req.typenames: 
 req.redist: 

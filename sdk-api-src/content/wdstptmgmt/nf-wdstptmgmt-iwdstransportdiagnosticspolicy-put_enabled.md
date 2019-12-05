@@ -1,19 +1,17 @@
 ---
 UID: NF:wdstptmgmt.IWdsTransportDiagnosticsPolicy.put_Enabled
 title: IWdsTransportDiagnosticsPolicy::put_Enabled (wdstptmgmt.h)
-
 description: Receives or sets a value that enables a WDS client to configure diagnostic logging on the server.
 old-location: wds\iwdstransportdiagnosticspolicy_enabled.htm
 tech.root: wds
 ms.assetid: 82932331-7e4c-4729-a6df-0d1abdb1861d
-
 ms.date: 12/05/2018
 ms.keywords: Enabled property [Windows Deployment Services], Enabled property [Windows Deployment Services],IWdsTransportDiagnosticsPolicy interface, IWdsTransportDiagnosticsPolicy interface [Windows Deployment Services],Enabled property, IWdsTransportDiagnosticsPolicy.Enabled, IWdsTransportDiagnosticsPolicy.put_Enabled, IWdsTransportDiagnosticsPolicy::Enabled, IWdsTransportDiagnosticsPolicy::get_Enabled, IWdsTransportDiagnosticsPolicy::put_Enabled, put_Enabled, wds.iwdstransportdiagnosticspolicy_enabled, wdstptmgmt/IWdsTransportDiagnosticsPolicy::Enabled, wdstptmgmt/IWdsTransportDiagnosticsPolicy::get_Enabled, wdstptmgmt/IWdsTransportDiagnosticsPolicy::put_Enabled
 ms.topic: method
-f1_keywords: 
- - "wdstptmgmt/IWdsTransportDiagnosticsPolicy.Enabled"
+f1_keywords:
+- wdstptmgmt/IWdsTransportDiagnosticsPolicy.Enabled
 dev_langs:
- - c++
+- c++
 req.header: wdstptmgmt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: Wdstptmgmt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wdstptmgmt.dll
+- Wdstptmgmt.dll
 api_name:
- - IWdsTransportDiagnosticsPolicy.Enabled
- - IWdsTransportDiagnosticsPolicy.get_Enabled
- - IWdsTransportDiagnosticsPolicy.put_Enabled
+- IWdsTransportDiagnosticsPolicy.Enabled
+- IWdsTransportDiagnosticsPolicy.get_Enabled
+- IWdsTransportDiagnosticsPolicy.put_Enabled
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:inkpresenterdesktop.IInkPresenterDesktop.GetSize
 title: IInkPresenterDesktop::GetSize (inkpresenterdesktop.h)
-
 description: Gets the size of the InkPresenter object.
 old-location: input_ink\iinkpresenterdesktop_getsize.htm
 tech.root: input_ink
 ms.assetid: d4ce0503-72dc-4a25-a48d-58fa50c5047f
-
 ms.date: 12/05/2018
 ms.keywords: GetSize, GetSize method, GetSize method,IInkPresenterDesktop interface, IInkPresenterDesktop interface,GetSize method, IInkPresenterDesktop.GetSize, IInkPresenterDesktop::GetSize, InkPresenterDesktop.iinkpresenterdesktop_getsize, inkpresenterdesktop/IInkPresenterDesktop::GetSize, input_ink.iinkpresenterdesktop_getsize
 ms.topic: method
-f1_keywords: 
- - "inkpresenterdesktop/IInkPresenterDesktop.GetSize"
+f1_keywords:
+- inkpresenterdesktop/IInkPresenterDesktop.GetSize
 dev_langs:
- - c++
+- c++
 req.header: inkpresenterdesktop.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - InkPresenterDesktop.h
+- InkPresenterDesktop.h
 api_name:
- - IInkPresenterDesktop.GetSize
+- IInkPresenterDesktop.GetSize
 targetos: Windows
 req.typenames: 
 req.redist: 

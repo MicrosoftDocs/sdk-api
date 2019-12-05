@@ -1,19 +1,17 @@
 ---
 UID: NF:uxtheme.HitTestThemeBackground
 title: HitTestThemeBackground function (uxtheme.h)
-
 description: Retrieves a hit test code for a point in the background specified by a visual style.
 old-location: controls\HitTestThemeBackground.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\userex\functions\hittestthemebackground.htm
-
 ms.date: 12/05/2018
 ms.keywords: HitTestThemeBackground, HitTestThemeBackground function [Windows Controls], controls.HitTestThemeBackground, controls.inet_HitTestThemeBackground, inet_HitTestThemeBackground, inet_HitTestThemeBackground_cpp, uxtheme/HitTestThemeBackground
 ms.topic: function
-f1_keywords: 
- - "uxtheme/HitTestThemeBackground"
+f1_keywords:
+- uxtheme/HitTestThemeBackground
 dev_langs:
- - c++
+- c++
 req.header: uxtheme.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: UxTheme.lib
 req.dll: UxTheme.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - UxTheme.dll
+- UxTheme.dll
 api_name:
- - HitTestThemeBackground
+- HitTestThemeBackground
 targetos: Windows
 req.typenames: 
 req.redist: 

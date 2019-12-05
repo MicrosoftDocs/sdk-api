@@ -1,19 +1,17 @@
 ---
 UID: NF:powersetting.PowerUnregisterFromEffectivePowerModeNotifications
 title: PowerUnregisterFromEffectivePowerModeNotifications function (powersetting.h)
-
 description: Unregisters from effective power mode change notifications. This function is intended to be called from cleanup code and will wait for all callbacks to complete before unregistering.
 old-location: base\powerunregisterfromeffectivepowermodenotifications.htm
 tech.root: power
 ms.assetid: 6E9AB09B-B082-406C-8F2D-43BEA04C19E0
-
 ms.date: 12/05/2018
 ms.keywords: PowerUnregisterFromEffectivePowerModeNotifications, PowerUnregisterFromEffectivePowerModeNotifications function, base.powerunregisterfromeffectivepowermodenotifications, powersetting/PowerUnregisterFromEffectivePowerModeNotifications
 ms.topic: function
-f1_keywords: 
- - "powersetting/PowerUnregisterFromEffectivePowerModeNotifications"
+f1_keywords:
+- powersetting/PowerUnregisterFromEffectivePowerModeNotifications
 dev_langs:
- - c++
+- c++
 req.header: powersetting.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Powrprof.lib
 req.dll: Powrprof.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Powrprof.dll
+- Powrprof.dll
 api_name:
- - PowerUnregisterFromEffectivePowerModeNotifications
+- PowerUnregisterFromEffectivePowerModeNotifications
 targetos: Windows
 req.typenames: 
 req.redist: 

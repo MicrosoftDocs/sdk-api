@@ -1,19 +1,17 @@
 ---
 UID: NE:wincodec.WICJpegIndexingOptions
 title: WICJpegIndexingOptions (wincodec.h)
-
 description: Specifies the options for indexing a JPEG image.
 old-location: wic\wicjpegindexingoptions.htm
 tech.root: wic
 ms.assetid: AFA9CC1B-847A-4237-9942-EC721FA86E4E
-
 ms.date: 12/05/2018
 ms.keywords: WICJpegIndexingOptions, WICJpegIndexingOptions enumeration [Windows Imaging Component], WICJpegIndexingOptionsGenerateOnDemand, WICJpegIndexingOptionsGenerateOnLoad, WICJpegIndexingOptions_FORCE_DWORD, wic.wicjpegindexingoptions, wincodec/WICJpegIndexingOptions, wincodec/WICJpegIndexingOptionsGenerateOnDemand, wincodec/WICJpegIndexingOptionsGenerateOnLoad, wincodec/WICJpegIndexingOptions_FORCE_DWORD
 ms.topic: enum
-f1_keywords: 
- - "wincodec/WICJpegIndexingOptions"
+f1_keywords:
+- wincodec/WICJpegIndexingOptions
 dev_langs:
- - c++
+- c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - wincodec.h
+- wincodec.h
 api_name:
- - WICJpegIndexingOptions
+- WICJpegIndexingOptions
 targetos: Windows
 req.typenames: WICJpegIndexingOptions
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:winsock.sendto
 title: sendto function (winsock.h)
-
 description: The sendto function sends data to a specific destination.
 old-location: winsock\sendto_2.htm
 tech.root: WinSock
 ms.assetid: a1c89c6b-d11d-4d3e-a664-af2beed0cd09
-
 ms.date: 12/05/2018
-ms.keywords: "_win32_sendto_2, sendto, sendto function [Winsock], winsock.sendto_2, winsock/sendto"
+ms.keywords: _win32_sendto_2, sendto, sendto function [Winsock], winsock.sendto_2, winsock/sendto
 ms.topic: function
-f1_keywords: 
- - "winsock/sendto"
+f1_keywords:
+- winsock/sendto
 dev_langs:
- - c++
+- c++
 req.header: winsock.h
 req.include-header: Winsock2.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Ws2_32.lib
 req.dll: Ws2_32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ws2_32.dll
+- Ws2_32.dll
 api_name:
- - sendto
+- sendto
 targetos: Windows
 req.typenames: 
 req.redist: 

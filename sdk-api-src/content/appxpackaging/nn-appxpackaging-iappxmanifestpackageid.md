@@ -1,19 +1,17 @@
 ---
 UID: NN:appxpackaging.IAppxManifestPackageId
 title: IAppxManifestPackageId (appxpackaging.h)
-
 description: Provides access to the package identity.
 old-location: appxpkg\iappxmanifestpackageid.htm
 tech.root: appxpkg
 ms.assetid: 8665AC2B-4D06-4684-99B1-E22533CA04AA
-
 ms.date: 12/05/2018
 ms.keywords: IAppxManifestPackageId, IAppxManifestPackageId interface [App packaging and management], IAppxManifestPackageId interface [App packaging and management],described, appxpackaging/IAppxManifestPackageId, appxpkg.iappxmanifestpackageid
 ms.topic: interface
-f1_keywords: 
- - "appxpackaging/IAppxManifestPackageId"
+f1_keywords:
+- appxpackaging/IAppxManifestPackageId
 dev_langs:
- - c++
+- c++
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - AppxPackaging.h
+- AppxPackaging.h
 api_name:
- - IAppxManifestPackageId
+- IAppxManifestPackageId
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:imapi.IDiscRecorder.GetPath
 title: IDiscRecorder::GetPath (imapi.h)
-
 description: Retrieves a path to the device within the operating system. This path should be used in conjunction with the display name to completely identify an available disc recorder.
 old-location: imapi\idiscrecorder_getpath.htm
 tech.root: imapi
 ms.assetid: bceb7302-e5e6-4ee5-9adb-1736ab62e819
-
 ms.date: 12/05/2018
 ms.keywords: GetPath, GetPath method [IMAPI], GetPath method [IMAPI],IDiscRecorder interface, IDiscRecorder interface [IMAPI],GetPath method, IDiscRecorder.GetPath, IDiscRecorder::GetPath, _win32_idiscrecorder_getpath, base.idiscrecorder_getpath, imapi.idiscrecorder_getpath, imapi/IDiscRecorder::GetPath
 ms.topic: method
-f1_keywords: 
- - "imapi/IDiscRecorder.GetPath"
+f1_keywords:
+- imapi/IDiscRecorder.GetPath
 dev_langs:
- - c++
+- c++
 req.header: imapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Actxprxy.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Actxprxy.dll
+- Actxprxy.dll
 api_name:
- - IDiscRecorder.GetPath
+- IDiscRecorder.GetPath
 targetos: Windows
 req.typenames: 
 req.redist: 

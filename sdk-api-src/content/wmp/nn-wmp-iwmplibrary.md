@@ -1,19 +1,17 @@
 ---
 UID: NN:wmp.IWMPLibrary
 title: IWMPLibrary (wmp.h)
-
 description: The IWMPLibrary interface represents a library.
 old-location: wmp\iwmplibrary.htm
 tech.root: WMP
 ms.assetid: add0ed43-d83f-4793-b1f6-ccad0f01854c
-
 ms.date: 12/05/2018
 ms.keywords: IWMPLibrary, IWMPLibrary interface [Windows Media Player], IWMPLibrary interface [Windows Media Player],described, IWMPLibraryInterface, wmp.iwmplibrary, wmp/IWMPLibrary
 ms.topic: interface
-f1_keywords: 
- - "wmp/IWMPLibrary"
+f1_keywords:
+- wmp/IWMPLibrary
 dev_langs:
- - c++
+- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmp.h
+- wmp.h
 api_name:
- - IWMPLibrary
+- IWMPLibrary
 targetos: Windows
 req.typenames: 
 req.redist: 

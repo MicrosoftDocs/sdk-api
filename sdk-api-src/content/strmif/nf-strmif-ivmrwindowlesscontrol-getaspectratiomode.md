@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IVMRWindowlessControl.GetAspectRatioMode
 title: IVMRWindowlessControl::GetAspectRatioMode (strmif.h)
-
 description: The GetAspectRatioMode method queries whether the VMR will preserve the aspect ratio of the source video.
 old-location: dshow\ivmrwindowlesscontrol_getaspectratiomode.htm
 tech.root: DirectShow
 ms.assetid: 452837f9-e910-4e6b-8552-9da29a6b63f1
-
 ms.date: 12/05/2018
 ms.keywords: GetAspectRatioMode, GetAspectRatioMode method [DirectShow], GetAspectRatioMode method [DirectShow],IVMRWindowlessControl interface, IVMRWindowlessControl interface [DirectShow],GetAspectRatioMode method, IVMRWindowlessControl.GetAspectRatioMode, IVMRWindowlessControl::GetAspectRatioMode, IVMRWindowlessControlGetAspectRatioMode, dshow.ivmrwindowlesscontrol_getaspectratiomode, strmif/IVMRWindowlessControl::GetAspectRatioMode
 ms.topic: method
-f1_keywords: 
- - "strmif/IVMRWindowlessControl.GetAspectRatioMode"
+f1_keywords:
+- strmif/IVMRWindowlessControl.GetAspectRatioMode
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IVMRWindowlessControl.GetAspectRatioMode
+- IVMRWindowlessControl.GetAspectRatioMode
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:locationapi.ILatLongReport.GetAltitudeError
 title: ILatLongReport::GetAltitudeError (locationapi.h)
-
 description: Retrieves the altitude error, in meters.
 old-location: winlocation_com_ref\ilatlongreport_getaltitudeerror.htm
 tech.root: locationapi
 ms.assetid: 313aefda-785c-43ce-a71c-cacfd929e27e
-
 ms.date: 12/05/2018
 ms.keywords: GetAltitudeError, GetAltitudeError method [WinLocation], GetAltitudeError method [WinLocation],ILatLongReport interface, ILatLongReport interface [WinLocation],GetAltitudeError method, ILatLongReport.GetAltitudeError, ILatLongReport::GetAltitudeError, WinLocation_COM_Ref.ilatlongreport_getaltitudeerror, locationapi/ILatLongReport::GetAltitudeError
 ms.topic: method
-f1_keywords: 
- - "locationapi/ILatLongReport.GetAltitudeError"
+f1_keywords:
+- locationapi/ILatLongReport.GetAltitudeError
 dev_langs:
- - c++
+- c++
 req.header: locationapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: LocationAPI.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - LocationAPI.dll
+- LocationAPI.dll
 api_name:
- - ILatLongReport.GetAltitudeError
+- ILatLongReport.GetAltitudeError
 targetos: Windows
 req.typenames: 
 req.redist: 

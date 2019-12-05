@@ -1,19 +1,17 @@
 ---
 UID: NF:objidl.IBindCtx.RevokeObjectBound
 title: IBindCtx::RevokeObjectBound (objidl.h)
-
 description: Removes the object from the bind context, undoing a previous call to RegisterObjectBound.
 old-location: com\ibindctx_revokeobjectbound.htm
 tech.root: com
 ms.assetid: c49421a3-1733-4f54-8e30-d23641f13c38
-
 ms.date: 12/05/2018
 ms.keywords: IBindCtx interface [COM],RevokeObjectBound method, IBindCtx.RevokeObjectBound, IBindCtx::RevokeObjectBound, RevokeObjectBound, RevokeObjectBound method [COM], RevokeObjectBound method [COM],IBindCtx interface, _com_ibindctx_revokeobjectbound, com.ibindctx_revokeobjectbound, objidl/IBindCtx::RevokeObjectBound
 ms.topic: method
-f1_keywords: 
- - "objidl/IBindCtx.RevokeObjectBound"
+f1_keywords:
+- objidl/IBindCtx.RevokeObjectBound
 dev_langs:
- - c++
+- c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ObjIdl.h
+- ObjIdl.h
 api_name:
- - IBindCtx.RevokeObjectBound
+- IBindCtx.RevokeObjectBound
 targetos: Windows
 req.typenames: 
 req.redist: 

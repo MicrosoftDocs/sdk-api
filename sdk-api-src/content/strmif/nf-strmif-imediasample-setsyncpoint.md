@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IMediaSample.SetSyncPoint
 title: IMediaSample::SetSyncPoint (strmif.h)
-
 description: The SetSyncPoint method specifies whether the beginning of this sample is a synchronization point.
 old-location: dshow\imediasample_setsyncpoint.htm
 tech.root: DirectShow
 ms.assetid: b2770045-c18b-4dbc-b104-873e07c0b5aa
-
 ms.date: 12/05/2018
 ms.keywords: IMediaSample interface [DirectShow],SetSyncPoint method, IMediaSample.SetSyncPoint, IMediaSample::SetSyncPoint, IMediaSampleSetSyncPoint, SetSyncPoint, SetSyncPoint method [DirectShow], SetSyncPoint method [DirectShow],IMediaSample interface, dshow.imediasample_setsyncpoint, strmif/IMediaSample::SetSyncPoint
 ms.topic: method
-f1_keywords: 
- - "strmif/IMediaSample.SetSyncPoint"
+f1_keywords:
+- strmif/IMediaSample.SetSyncPoint
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IMediaSample.SetSyncPoint
+- IMediaSample.SetSyncPoint
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NS:vdshwprv._VDS_HINTS
 title: VDS_HINTS (vdshwprv.h)
-
 description: Defines the automagic hints for a LUN or LUN plex.
 old-location: base\vds_hints.htm
 tech.root: VDS
 ms.assetid: 2c9f04bb-a014-401e-9656-affbac11f810
-
 ms.date: 12/05/2018
-ms.keywords: "*PVDS_HINTS, PVDS_HINTS, PVDS_HINTS structure pointer [VDS], VDS_HINTS, VDS_HINTS structure [VDS], VDS_HINT_FASTCRASHRECOVERYREQUIRED, VDS_HINT_HARDWARECHECKSUMENABLED, VDS_HINT_ISYANKABLE, VDS_HINT_MOSTLYREADS, VDS_HINT_OPTIMIZEFORSEQUENTIALREADS, VDS_HINT_OPTIMIZEFORSEQUENTIALWRITES, VDS_HINT_READBACKVERIFYENABLED, VDS_HINT_REMAPENABLED, VDS_HINT_WRITETHROUGHCACHINGENABLED, base.vds_hints, vds/PVDS_HINTS, vds/_VDS_HINTS, vdshwprv/PVDS_HINTS, vdshwprv/_VDS_HINTS"
+ms.keywords: '*PVDS_HINTS, PVDS_HINTS, PVDS_HINTS structure pointer [VDS], VDS_HINTS, VDS_HINTS structure [VDS], VDS_HINT_FASTCRASHRECOVERYREQUIRED, VDS_HINT_HARDWARECHECKSUMENABLED, VDS_HINT_ISYANKABLE, VDS_HINT_MOSTLYREADS, VDS_HINT_OPTIMIZEFORSEQUENTIALREADS, VDS_HINT_OPTIMIZEFORSEQUENTIALWRITES, VDS_HINT_READBACKVERIFYENABLED, VDS_HINT_REMAPENABLED, VDS_HINT_WRITETHROUGHCACHINGENABLED, base.vds_hints, vds/PVDS_HINTS, vds/_VDS_HINTS, vdshwprv/PVDS_HINTS, vdshwprv/_VDS_HINTS'
 ms.topic: struct
-f1_keywords: 
- - "vdshwprv/VDS_HINTS"
+f1_keywords:
+- vdshwprv/VDS_HINTS
 dev_langs:
- - c++
+- c++
 req.header: vdshwprv.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Vds.h
- - VdsHwPrv.h
+- Vds.h
+- VdsHwPrv.h
 api_name:
- - VDS_HINTS
+- VDS_HINTS
 targetos: Windows
 req.typenames: VDS_HINTS, *PVDS_HINTS
 req.redist: 

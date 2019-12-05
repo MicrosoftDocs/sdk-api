@@ -1,19 +1,17 @@
 ---
 UID: NF:wmsdkidl.IWMWriterPostView.GetAllocateForPostView
 title: IWMWriterPostView::GetAllocateForPostView (wmsdkidl.h)
-
 description: The GetAllocateForPostView method ascertains whether the application, and not the writer, must supply the buffers.
 old-location: wmformat\iwmwriterpostview_getallocateforpostview.htm
 tech.root: wmformat
 ms.assetid: bd17eeec-a1ce-42db-a807-008ca2c4194f
-
 ms.date: 12/05/2018
 ms.keywords: GetAllocateForPostView, GetAllocateForPostView method [windows Media Format], GetAllocateForPostView method [windows Media Format],IWMWriterPostView interface, IWMWriterPostView interface [windows Media Format],GetAllocateForPostView method, IWMWriterPostView.GetAllocateForPostView, IWMWriterPostView::GetAllocateForPostView, IWMWriterPostViewGetAllocateForPostView, wmformat.iwmwriterpostview_getallocateforpostview, wmsdkidl/IWMWriterPostView::GetAllocateForPostView
 ms.topic: method
-f1_keywords: 
- - "wmsdkidl/IWMWriterPostView.GetAllocateForPostView"
+f1_keywords:
+- wmsdkidl/IWMWriterPostView.GetAllocateForPostView
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wmvcore.lib
- - Wmvcore.dll
- - WMStubDRM.lib
- - WMStubDRM.dll
+- Wmvcore.lib
+- Wmvcore.dll
+- WMStubDRM.lib
+- WMStubDRM.dll
 api_name:
- - IWMWriterPostView.GetAllocateForPostView
+- IWMWriterPostView.GetAllocateForPostView
 targetos: Windows
 req.typenames: 
 req.redist: 

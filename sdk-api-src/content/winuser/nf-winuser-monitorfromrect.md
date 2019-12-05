@@ -1,19 +1,17 @@
 ---
 UID: NF:winuser.MonitorFromRect
 title: MonitorFromRect function (winuser.h)
-
 description: The MonitorFromRect function retrieves a handle to the display monitor that has the largest area of intersection with a specified rectangle.
 old-location: gdi\monitorfromrect.htm
 tech.root: gdi
 ms.assetid: 81c3fffb-bbc9-4adb-bb6b-edd59f7a77b4
-
 ms.date: 12/05/2018
 ms.keywords: MONITOR_DEFAULTTONEAREST, MONITOR_DEFAULTTONULL, MONITOR_DEFAULTTOPRIMARY, MonitorFromRect, MonitorFromRect function [Windows GDI], _win32_MonitorFromRect, gdi.monitorfromrect, winuser/MonitorFromRect
 ms.topic: function
-f1_keywords: 
- - "winuser/MonitorFromRect"
+f1_keywords:
+- winuser/MonitorFromRect
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - user32.dll
- - Ext-MS-Win-NTUser-Misc-l1-1-0.dll
- - Ext-MS-Win-RTCore-NTUser-sysparams-l1-1-0.dll
- - minuser.dll
+- user32.dll
+- Ext-MS-Win-NTUser-Misc-l1-1-0.dll
+- Ext-MS-Win-RTCore-NTUser-sysparams-l1-1-0.dll
+- minuser.dll
 api_name:
- - MonitorFromRect
+- MonitorFromRect
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NS:winuser.tagCURSORINFO
 title: CURSORINFO (winuser.h)
-
 description: Contains global cursor information.
 old-location: menurc\cursorinfo.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\cursors\cursorreference\cursorstructures\cursorinfo.htm
-
 ms.date: 12/05/2018
-ms.keywords: "*LPCURSORINFO, *PCURSORINFO, CURSORINFO, CURSORINFO structure [Menus and Other Resources], CURSOR_SHOWING, CURSOR_SUPPRESSED, LPCURSORINFO, LPCURSORINFO structure pointer [Menus and Other Resources], PCURSORINFO, PCURSORINFO structure pointer [Menus and Other Resources], _win32_CURSORINFO_str, _win32_cursorinfo_str_cpp, menurc.cursorinfo, winui._win32_cursorinfo_str, winuser/CURSORINFO, winuser/LPCURSORINFO, winuser/PCURSORINFO"
+ms.keywords: '*LPCURSORINFO, *PCURSORINFO, CURSORINFO, CURSORINFO structure [Menus and Other Resources], CURSOR_SHOWING, CURSOR_SUPPRESSED, LPCURSORINFO, LPCURSORINFO structure pointer [Menus and Other Resources], PCURSORINFO, PCURSORINFO structure pointer [Menus and Other Resources], _win32_CURSORINFO_str, _win32_cursorinfo_str_cpp, menurc.cursorinfo, winui._win32_cursorinfo_str, winuser/CURSORINFO, winuser/LPCURSORINFO, winuser/PCURSORINFO'
 ms.topic: struct
-f1_keywords: 
- - "winuser/CURSORINFO"
+f1_keywords:
+- winuser/CURSORINFO
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Winuser.h
+- Winuser.h
 api_name:
- - CURSORINFO
+- CURSORINFO
 targetos: Windows
 req.typenames: CURSORINFO, *PCURSORINFO, *LPCURSORINFO
 req.redist: 

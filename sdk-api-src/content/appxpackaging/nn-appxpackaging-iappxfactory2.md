@@ -1,19 +1,17 @@
 ---
 UID: NN:appxpackaging.IAppxFactory2
 title: IAppxFactory2 (appxpackaging.h)
-
 description: Creates objects for reading and writing app packages.
 old-location: appxpkg\iappxfactory2.htm
 tech.root: appxpkg
 ms.assetid: 01B11591-F854-4A39-8EDD-A5140235CA0B
-
 ms.date: 12/05/2018
 ms.keywords: IAppxFactory2, IAppxFactory2 interface [App packaging and management], IAppxFactory2 interface [App packaging and management],described, appxpackaging/IAppxFactory2, appxpkg.iappxfactory2
 ms.topic: interface
-f1_keywords: 
- - "appxpackaging/IAppxFactory2"
+f1_keywords:
+- appxpackaging/IAppxFactory2
 dev_langs:
- - c++
+- c++
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - AppxPackaging.h
+- AppxPackaging.h
 api_name:
- - IAppxFactory2
+- IAppxFactory2
 targetos: Windows
 req.typenames: 
 req.redist: 

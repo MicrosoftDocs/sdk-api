@@ -1,19 +1,17 @@
 ---
 UID: NN:mfmediacapture.IAdvancedMediaCaptureInitializationSettings
 title: IAdvancedMediaCaptureInitializationSettings (mfmediacapture.h)
-
 description: Provides initialization settings for advanced media capture.
 old-location: mf\iadvancedmediacaptureInitializationsettings.htm
 tech.root: medfound
 ms.assetid: 8a7978c1-1919-4b49-9848-6d972e3e94f5
-
 ms.date: 12/05/2018
 ms.keywords: IAdvancedMediaCaptureInitializationSettings, IAdvancedMediaCaptureInitializationSettings interface [Media Foundation], IAdvancedMediaCaptureInitializationSettings interface [Media Foundation],described, mf.iadvancedmediacaptureInitializationsettings, mfmediacapture/IAdvancedMediaCaptureInitializationSettings
 ms.topic: interface
-f1_keywords: 
- - "mfmediacapture/IAdvancedMediaCaptureInitializationSettings"
+f1_keywords:
+- mfmediacapture/IAdvancedMediaCaptureInitializationSettings
 dev_langs:
- - c++
+- c++
 req.header: mfmediacapture.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mfmediacapture.h
+- Mfmediacapture.h
 api_name:
- - IAdvancedMediaCaptureInitializationSettings
+- IAdvancedMediaCaptureInitializationSettings
 targetos: Windows
 req.typenames: 
 req.redist: 

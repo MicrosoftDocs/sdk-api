@@ -1,19 +1,17 @@
 ---
 UID: NF:psapi.GetMappedFileNameW
 title: GetMappedFileNameW function (psapi.h)
-
 description: Checks whether the specified address is within a memory-mapped file in the address space of the specified process. If so, the function returns the name of the memory-mapped file.
 old-location: psapi\getmappedfilename.htm
 tech.root: psapi
 ms.assetid: 10a2e5ab-f495-486d-8ef7-ef763716afd1
-
 ms.date: 12/05/2018
 ms.keywords: GetMappedFileName, GetMappedFileName function [PSAPI], GetMappedFileNameA, GetMappedFileNameW, K32GetMappedFileName, K32GetMappedFileNameA, K32GetMappedFileNameW, _win32_getmappedfilename, base.getmappedfilename, psapi.getmappedfilename, psapi/GetMappedFileName, psapi/GetMappedFileNameA, psapi/GetMappedFileNameW, psapi/K32GetMappedFileName, psapi/K32GetMappedFileNameA, psapi/K32GetMappedFileNameW
 ms.topic: function
-f1_keywords: 
- - "psapi/GetMappedFileName"
+f1_keywords:
+- psapi/GetMappedFileName
 dev_langs:
- - c++
+- c++
 req.header: psapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,24 +30,24 @@ req.lib: Kernel32.lib on Windows 7 and Windows Server 2008 R2; Psapi.lib (if 
 req.dll: Kernel32.dll on Windows 7 and Windows Server 2008 R2; Psapi.dll (if PSAPI_VERSION=1) on Windows 7 and Windows Server 2008 R2; Psapi.dll on Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - Psapi.dll
- - Psapi.dll
- - API-MS-Win-Core-PsAPI-Ansi-L1-1-0.dll
- - API-MS-Win-Core-PsAPI-L1-1-0.dll
- - KernelBase.dll
+- Kernel32.dll
+- Psapi.dll
+- Psapi.dll
+- API-MS-Win-Core-PsAPI-Ansi-L1-1-0.dll
+- API-MS-Win-Core-PsAPI-L1-1-0.dll
+- KernelBase.dll
 api_name:
- - GetMappedFileName
- - GetMappedFileNameA
- - GetMappedFileNameW
- - K32GetMappedFileName
- - K32GetMappedFileNameW
- - K32GetMappedFileNameA
+- GetMappedFileName
+- GetMappedFileNameA
+- GetMappedFileNameW
+- K32GetMappedFileName
+- K32GetMappedFileNameW
+- K32GetMappedFileNameA
 targetos: Windows
 req.typenames: 
 req.redist: 

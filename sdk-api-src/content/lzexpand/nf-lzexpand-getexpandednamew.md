@@ -1,19 +1,17 @@
 ---
 UID: NF:lzexpand.GetExpandedNameW
 title: GetExpandedNameW function (lzexpand.h)
-
 description: Retrieves the original name of a compressed file, if the file was compressed by the Lempel-Ziv algorithm.
 old-location: fs\getexpandedname.htm
 tech.root: FileIO
 ms.assetid: 173344bc-59ba-46ba-901a-f8a8929bc4ee
-
 ms.date: 12/05/2018
 ms.keywords: GetExpandedName, GetExpandedName function [Files], GetExpandedNameA, GetExpandedNameW, _win32_getexpandedname, base.getexpandedname, fs.getexpandedname, lzexpand/GetExpandedName, lzexpand/GetExpandedNameA, lzexpand/GetExpandedNameW
 ms.topic: function
-f1_keywords: 
- - "lzexpand/GetExpandedName"
+f1_keywords:
+- lzexpand/GetExpandedName
 dev_langs:
- - c++
+- c++
 req.header: lzexpand.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Lz32.lib
 req.dll: Lz32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Lz32.dll
+- Lz32.dll
 api_name:
- - GetExpandedName
- - GetExpandedNameA
- - GetExpandedNameW
+- GetExpandedName
+- GetExpandedNameA
+- GetExpandedNameW
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:mfapi.MFGetMFTMerit
 title: MFGetMFTMerit function (mfapi.h)
-
 description: Gets the merit value of a hardware codec.
 old-location: mf\mfgetmftmerit.htm
 tech.root: medfound
 ms.assetid: 69029cf3-7f34-4bb1-8dfd-fa9a8d1a63c9
-
 ms.date: 12/05/2018
 ms.keywords: MFGetMFTMerit, MFGetMFTMerit function [Media Foundation], mf.mfgetmftmerit, mfapi/MFGetMFTMerit
 ms.topic: function
-f1_keywords: 
- - "mfapi/MFGetMFTMerit"
+f1_keywords:
+- mfapi/MFGetMFTMerit
 dev_langs:
- - c++
+- c++
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Mfplat.lib
 req.dll: Mfplat.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - mfplat.dll
+- mfplat.dll
 api_name:
- - MFGetMFTMerit
+- MFGetMFTMerit
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:ndfapi.NdfCreateDNSIncident
 title: NdfCreateDNSIncident function (ndfapi.h)
-
 description: Diagnoses name resolution issues in resolving a specific host name.
 old-location: ndf\ndfcreatednsincident.htm
 tech.root: NDF
 ms.assetid: e852b3e5-c5b8-45e2-af72-f7e89fb2c310
-
 ms.date: 12/05/2018
 ms.keywords: NdfCreateDNSIncident, NdfCreateDNSIncident function [NDF], ndf.ndfcreatednsincident, ndfapi/NdfCreateDNSIncident
 ms.topic: function
-f1_keywords: 
- - "ndfapi/NdfCreateDNSIncident"
+f1_keywords:
+- ndfapi/NdfCreateDNSIncident
 dev_langs:
- - c++
+- c++
 req.header: ndfapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Ndfapi.lib
 req.dll: Ndfapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ndfapi.dll
+- Ndfapi.dll
 api_name:
- - NdfCreateDNSIncident
+- NdfCreateDNSIncident
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:faxcomex.IFaxIncomingQueue.GetJobs
 title: IFaxIncomingQueue::GetJobs (faxcomex.h)
-
 description: The GetJobs method returns the collection of inbound fax jobs in the queue.
 old-location: fax\_mfax_faxincomingqueue_cpp_mfax_faxincomingqueue_getjobs_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_6p6b.htm
-
 ms.date: 12/05/2018
 ms.keywords: GetJobs, GetJobs method [Fax Service], GetJobs method [Fax Service],IFaxIncomingQueue interface, IFaxIncomingQueue interface [Fax Service],GetJobs method, IFaxIncomingQueue.GetJobs, IFaxIncomingQueue::GetJobs, _mfax_faxincomingqueue.getjobs, fax._mfax_faxincomingqueue_cpp_mfax_faxincomingqueue_getjobs_cpp, fax._mfax_faxincomingqueue_getjobs, faxcomex/IFaxIncomingQueue::GetJobs
 ms.topic: method
-f1_keywords: 
- - "faxcomex/IFaxIncomingQueue.GetJobs"
+f1_keywords:
+- faxcomex/IFaxIncomingQueue.GetJobs
 dev_langs:
- - c++
+- c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: Fxscomex.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Fxscomex.dll
+- Fxscomex.dll
 api_name:
- - IFaxIncomingQueue.GetJobs
- - IFaxIncomingQueue.GetJobs
+- IFaxIncomingQueue.GetJobs
+- IFaxIncomingQueue.GetJobs
 targetos: Windows
 req.typenames: 
 req.redist: 

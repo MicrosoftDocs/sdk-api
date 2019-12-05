@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IMediaSeeking.GetCurrentPosition
 title: IMediaSeeking::GetCurrentPosition (strmif.h)
-
 description: The GetCurrentPosition method retrieves the current position, relative to the total duration of the stream.
 old-location: dshow\imediaseeking_getcurrentposition.htm
 tech.root: DirectShow
 ms.assetid: 4dca0c9e-ce95-4716-8e4d-ce8bf83628d6
-
 ms.date: 12/05/2018
 ms.keywords: GetCurrentPosition, GetCurrentPosition method [DirectShow], GetCurrentPosition method [DirectShow],IMediaSeeking interface, IMediaSeeking interface [DirectShow],GetCurrentPosition method, IMediaSeeking.GetCurrentPosition, IMediaSeeking::GetCurrentPosition, IMediaSeekingGetCurrentPosition, dshow.imediaseeking_getcurrentposition, strmif/IMediaSeeking::GetCurrentPosition
 ms.topic: method
-f1_keywords: 
- - "strmif/IMediaSeeking.GetCurrentPosition"
+f1_keywords:
+- strmif/IMediaSeeking.GetCurrentPosition
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IMediaSeeking.GetCurrentPosition
+- IMediaSeeking.GetCurrentPosition
 targetos: Windows
 req.typenames: 
 req.redist: 

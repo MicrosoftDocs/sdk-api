@@ -1,19 +1,17 @@
 ---
 UID: NF:mswmdm.IMDSPStorageGlobals.GetTotalBad
 title: IMDSPStorageGlobals::GetTotalBad (mswmdm.h)
-
 description: The GetTotalBad method retrieves the total amount of unusable space on the storage medium, in bytes.
 old-location: wmdm\imdspstorageglobals_gettotalbad.htm
 tech.root: WMDM
 ms.assetid: b0cbf636-e2c4-4a30-9b6d-5833090330a4
-
 ms.date: 12/05/2018
 ms.keywords: GetTotalBad, GetTotalBad method [windows Media Device Manager], GetTotalBad method [windows Media Device Manager],IMDSPStorageGlobals interface, IMDSPStorageGlobals interface [windows Media Device Manager],GetTotalBad method, IMDSPStorageGlobals.GetTotalBad, IMDSPStorageGlobals::GetTotalBad, IMDSPStorageGlobalsGetTotalBad, mswmdm/IMDSPStorageGlobals::GetTotalBad, wmdm.imdspstorageglobals_gettotalbad
 ms.topic: method
-f1_keywords: 
- - "mswmdm/IMDSPStorageGlobals.GetTotalBad"
+f1_keywords:
+- mswmdm/IMDSPStorageGlobals.GetTotalBad
 dev_langs:
- - c++
+- c++
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mssachlp.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mssachlp.lib
- - mssachlp.dll
+- mssachlp.lib
+- mssachlp.dll
 api_name:
- - IMDSPStorageGlobals.GetTotalBad
+- IMDSPStorageGlobals.GetTotalBad
 targetos: Windows
 req.typenames: 
 req.redist: 

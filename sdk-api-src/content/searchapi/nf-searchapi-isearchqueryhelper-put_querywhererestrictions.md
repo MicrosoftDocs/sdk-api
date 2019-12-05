@@ -1,19 +1,17 @@
 ---
 UID: NF:searchapi.ISearchQueryHelper.put_QueryWhereRestrictions
 title: ISearchQueryHelper::put_QueryWhereRestrictions (searchapi.h)
-
 description: Sets the restrictions appended to a query in WHERE clauses.
 old-location: search\_search_ISearchQueryHelper_put_QueryWhereRestrictions.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\isearchqueryhelper\put_querywhererestrictions.htm
-
 ms.date: 12/05/2018
 ms.keywords: ISearchQueryHelper interface [search],put_QueryWhereRestrictions method, ISearchQueryHelper.put_QueryWhereRestrictions, ISearchQueryHelper::put_QueryWhereRestrictions, _search_ISearchQueryHelper_put_QueryWhereRestrictions, put_QueryWhereRestrictions, put_QueryWhereRestrictions method [search], put_QueryWhereRestrictions method [search],ISearchQueryHelper interface, search._search_ISearchQueryHelper_put_QueryWhereRestrictions, searchapi/ISearchQueryHelper::put_QueryWhereRestrictions
 ms.topic: method
-f1_keywords: 
- - "searchapi/ISearchQueryHelper.put_QueryWhereRestrictions"
+f1_keywords:
+- searchapi/ISearchQueryHelper.put_QueryWhereRestrictions
 dev_langs:
- - c++
+- c++
 req.header: searchapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Searchapi.h
+- Searchapi.h
 api_name:
- - ISearchQueryHelper.put_QueryWhereRestrictions
+- ISearchQueryHelper.put_QueryWhereRestrictions
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0

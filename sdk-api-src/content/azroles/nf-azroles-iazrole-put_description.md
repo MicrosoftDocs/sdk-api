@@ -1,19 +1,17 @@
 ---
 UID: NF:azroles.IAzRole.put_Description
 title: IAzRole::put_Description (azroles.h)
-
 description: Sets or retrieves a comment that describes the role.
 old-location: security\iazrole_description.htm
 tech.root: SecAuthZ
 ms.assetid: 2909c2ea-8308-49c3-9456-d035c1c242f0
-
 ms.date: 12/05/2018
 ms.keywords: AzRole object [Security],Description property, Description property [Security], Description property [Security],AzRole object, Description property [Security],IAzRole interface, IAzRole interface [Security],Description property, IAzRole.Description, IAzRole.put_Description, IAzRole::Description, IAzRole::get_Description, IAzRole::put_Description, azroles/IAzRole::Description, azroles/IAzRole::get_Description, azroles/IAzRole::put_Description, put_Description, security.iazrole_description
 ms.topic: method
-f1_keywords: 
- - "azroles/IAzRole.Description"
+f1_keywords:
+- azroles/IAzRole.Description
 dev_langs:
- - c++
+- c++
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Azroles.lib
 req.dll: Azroles.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Azroles.dll
+- Azroles.dll
 api_name:
- - IAzRole.Description
- - IAzRole.get_Description
- - IAzRole.put_Description
- - AzRole.Description
+- IAzRole.Description
+- IAzRole.get_Description
+- IAzRole.put_Description
+- AzRole.Description
 targetos: Windows
 req.typenames: 
 req.redist: Windows Server 2003 Administration Tools Pack on Windows XP

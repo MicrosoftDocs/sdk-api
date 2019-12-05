@@ -1,19 +1,17 @@
 ---
 UID: NF:gdipluspath.PathGradientBrush.GetPointCount
 title: PathGradientBrush::GetPointCount (gdipluspath.h)
-
 description: The PathGradientBrush::GetPointCount method gets the number of points in the array of points that defines this brush's boundary path.
 old-location: gdiplus\_gdiplus_CLASS_PathGradientBrush_GetPointCount_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\pathgradientbrushclass\pathgradientbrushmethods\getpointcount_35.htm
-
 ms.date: 12/05/2018
 ms.keywords: GetPointCount, GetPointCount method [GDI+], GetPointCount method [GDI+],PathGradientBrush class, PathGradientBrush class [GDI+],GetPointCount method, PathGradientBrush.GetPointCount, PathGradientBrush::GetPointCount, _gdiplus_CLASS_PathGradientBrush_GetPointCount_, gdiplus._gdiplus_CLASS_PathGradientBrush_GetPointCount_
 ms.topic: method
-f1_keywords: 
- - "gdipluspath/PathGradientBrush.GetPointCount"
+f1_keywords:
+- gdipluspath/PathGradientBrush.GetPointCount
 dev_langs:
- - c++
+- c++
 req.header: gdipluspath.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - PathGradientBrush.GetPointCount
+- PathGradientBrush.GetPointCount
 targetos: Windows
 req.typenames: 
 req.redist: 

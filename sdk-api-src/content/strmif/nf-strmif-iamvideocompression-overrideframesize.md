@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IAMVideoCompression.OverrideFrameSize
 title: IAMVideoCompression::OverrideFrameSize (strmif.h)
-
 description: The OverrideFrameSize method overrides the frame size of a specified frame.
 old-location: dshow\iamvideocompression_overrideframesize.htm
 tech.root: DirectShow
 ms.assetid: 19f5d231-965e-4b0a-bd0b-e85b03d79c71
-
 ms.date: 12/05/2018
 ms.keywords: IAMVideoCompression interface [DirectShow],OverrideFrameSize method, IAMVideoCompression.OverrideFrameSize, IAMVideoCompression::OverrideFrameSize, IAMVideoCompressionOverrideFrameSize, OverrideFrameSize, OverrideFrameSize method [DirectShow], OverrideFrameSize method [DirectShow],IAMVideoCompression interface, dshow.iamvideocompression_overrideframesize, strmif/IAMVideoCompression::OverrideFrameSize
 ms.topic: method
-f1_keywords: 
- - "strmif/IAMVideoCompression.OverrideFrameSize"
+f1_keywords:
+- strmif/IAMVideoCompression.OverrideFrameSize
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IAMVideoCompression.OverrideFrameSize
+- IAMVideoCompression.OverrideFrameSize
 targetos: Windows
 req.typenames: 
 req.redist: 

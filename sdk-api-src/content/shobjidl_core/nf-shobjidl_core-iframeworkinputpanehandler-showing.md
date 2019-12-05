@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IFrameworkInputPaneHandler.Showing
 title: IFrameworkInputPaneHandler::Showing (shobjidl_core.h)
-
 description: Called before the input pane is shown, to allow the app window to make any necessary adjustments to its UI in response to the reduced screen space available to it.
 old-location: shell\IFrameworkInputPaneHandler_Showing.htm
 tech.root: shell
 ms.assetid: E7CE2808-0146-4704-B1DA-1DDE691E946E
-
 ms.date: 12/05/2018
 ms.keywords: IFrameworkInputPaneHandler interface [Windows Shell],Showing method, IFrameworkInputPaneHandler.Showing, IFrameworkInputPaneHandler::Showing, Showing, Showing method [Windows Shell], Showing method [Windows Shell],IFrameworkInputPaneHandler interface, shell.IFrameworkInputPaneHandler_Showing, shobjidl_core/IFrameworkInputPaneHandler::Showing
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IFrameworkInputPaneHandler.Showing"
+f1_keywords:
+- shobjidl_core/IFrameworkInputPaneHandler.Showing
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - IFrameworkInputPaneHandler.Showing
+- IFrameworkInputPaneHandler.Showing
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NN:encdec.IDTFilter3
 title: IDTFilter3 (encdec.h)
-
 description: The IDTFilter3 interface extends the IDTFilter2 interface and is exposed by the Decrypter/Detagger filter.
 old-location: mstv\idtfilter3.htm
 tech.root: mstv
 ms.assetid: 88e42006-c387-41b5-a013-e968da0d918b
-
 ms.date: 12/05/2018
 ms.keywords: IDTFilter3, IDTFilter3 interface [Microsoft TV Technologies], IDTFilter3 interface [Microsoft TV Technologies],described, IDTFilter3Interface, encdec/IDTFilter3, mstv.idtfilter3
 ms.topic: interface
-f1_keywords: 
- - "encdec/IDTFilter3"
+f1_keywords:
+- encdec/IDTFilter3
 dev_langs:
- - c++
+- c++
 req.header: encdec.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - encdec.h
+- encdec.h
 api_name:
- - IDTFilter3
+- IDTFilter3
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:atscpsipparser.IServiceLocationDescriptor.GetElementStreamType
 title: IServiceLocationDescriptor::GetElementStreamType (atscpsipparser.h)
-
 description: Gets a code identifying the type of an elementary stream from an Advanced Television Systems Committee (ATSC) Service Location Descriptor.
 old-location: mstv\iservicelocationdescriptor_getelementstreamtype.htm
 tech.root: mstv
 ms.assetid: d95a9af9-2e09-4a94-ac13-1b17698cfff3
-
 ms.date: 12/05/2018
 ms.keywords: GetElementStreamType, GetElementStreamType method [Microsoft TV Technologies], GetElementStreamType method [Microsoft TV Technologies],IServiceLocationDescriptor interface, IServiceLocationDescriptor interface [Microsoft TV Technologies],GetElementStreamType method, IServiceLocationDescriptor.GetElementStreamType, IServiceLocationDescriptor::GetElementStreamType, atscpsipparser/IServiceLocationDescriptor::GetElementStreamType, mstv.iservicelocationdescriptor_getelementstreamtype
 ms.topic: method
-f1_keywords: 
- - "atscpsipparser/IServiceLocationDescriptor.GetElementStreamType"
+f1_keywords:
+- atscpsipparser/IServiceLocationDescriptor.GetElementStreamType
 dev_langs:
- - c++
+- c++
 req.header: atscpsipparser.h
 req.include-header: Atscpsipparser.idl
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - atscpsipparser.h
+- atscpsipparser.h
 api_name:
- - IServiceLocationDescriptor.GetElementStreamType
+- IServiceLocationDescriptor.GetElementStreamType
 targetos: Windows
 req.typenames: 
 req.redist: 

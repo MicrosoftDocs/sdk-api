@@ -1,19 +1,17 @@
 ---
 UID: NF:wuapi.IUpdate.AcceptEula
 title: IUpdate::AcceptEula (wuapi.h)
-
 description: Accepts the Microsoft Software License Terms that are associated with Windows Update.
 old-location: wua\iupdate_accepteula.htm
 tech.root: Wua_Sdk
 ms.assetid: b3a25994-eace-45ec-8e6b-40d69796f168
-
 ms.date: 12/05/2018
 ms.keywords: AcceptEula, AcceptEula method [Windows Update Agent], AcceptEula method [Windows Update Agent],IUpdate interface, IUpdate interface [Windows Update Agent],AcceptEula method, IUpdate.AcceptEula, IUpdate::AcceptEula, wua.iupdate_accepteula, wuapi/IUpdate::AcceptEula
 ms.topic: method
-f1_keywords: 
- - "wuapi/IUpdate.AcceptEula"
+f1_keywords:
+- wuapi/IUpdate.AcceptEula
 dev_langs:
- - c++
+- c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Wuguid.lib
 req.dll: Wuapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wuapi.dll
+- Wuapi.dll
 api_name:
- - IUpdate.AcceptEula
+- IUpdate.AcceptEula
 targetos: Windows
 req.typenames: 
 req.redist: 

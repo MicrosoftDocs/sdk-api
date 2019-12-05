@@ -1,19 +1,17 @@
 ---
 UID: NF:structuredquerycondition.IRichChunk.GetData
 title: IRichChunk::GetData (structuredquerycondition.h)
-
 description: Retrieves the PROPVARIANT and input string that represents a chunk of data.
 old-location: search\_search_IRichChunk_GetData.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\irichchunk\getdata.htm
-
 ms.date: 12/05/2018
 ms.keywords: GetData, GetData method [search], GetData method [search],IRichChunk interface, IRichChunk interface [search],GetData method, IRichChunk.GetData, IRichChunk::GetData, _search_IRichChunk_GetData, search._search_IRichChunk_GetData, structuredquerycondition/IRichChunk::GetData
 ms.topic: method
-f1_keywords: 
- - "structuredquerycondition/IRichChunk.GetData"
+f1_keywords:
+- structuredquerycondition/IRichChunk.GetData
 dev_langs:
- - c++
+- c++
 req.header: structuredquerycondition.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - StructuredQueryCondition.h
+- StructuredQueryCondition.h
 api_name:
- - IRichChunk.GetData
+- IRichChunk.GetData
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0

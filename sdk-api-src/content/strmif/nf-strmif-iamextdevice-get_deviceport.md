@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IAMExtDevice.get_DevicePort
 title: IAMExtDevice::get_DevicePort (strmif.h)
-
 description: The get_DevicePort method retrieves the communication port to which the external device is connected.
 old-location: dshow\iamextdevice_get_deviceport.htm
 tech.root: DirectShow
 ms.assetid: 307ad6ee-1084-4a83-bb19-f766f2328a0d
-
 ms.date: 12/05/2018
 ms.keywords: IAMExtDevice interface [DirectShow],get_DevicePort method, IAMExtDevice.get_DevicePort, IAMExtDevice::get_DevicePort, IAMExtDeviceget_DevicePort, dshow.iamextdevice_get_deviceport, get_DevicePort, get_DevicePort method [DirectShow], get_DevicePort method [DirectShow],IAMExtDevice interface, strmif/IAMExtDevice::get_DevicePort
 ms.topic: method
-f1_keywords: 
- - "strmif/IAMExtDevice.get_DevicePort"
+f1_keywords:
+- strmif/IAMExtDevice.get_DevicePort
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IAMExtDevice.get_DevicePort
+- IAMExtDevice.get_DevicePort
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:filehc.InitializeCache
 title: InitializeCache function (filehc.h)
-
 description: Provides the initializing values of the file handle cache.
 old-location: winprog\_initializecache.htm
 tech.root: DevNotes
 ms.assetid: 756235f6-293b-4535-9b0e-4294fafe9e5a
-
 ms.date: 12/05/2018
 ms.keywords: InitializeCache, InitializeCache function [Windows API], filehc/InitializeCache, winprog._initializecache
 ms.topic: function
-f1_keywords: 
- - "filehc/InitializeCache"
+f1_keywords:
+- filehc/InitializeCache
 dev_langs:
- - c++
+- c++
 req.header: filehc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Fcachdll.lib
 req.dll: Fcachdll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Fcachdll.dll
+- Fcachdll.dll
 api_name:
- - InitializeCache
+- InitializeCache
 targetos: Windows
 req.typenames: 
 req.redist: 

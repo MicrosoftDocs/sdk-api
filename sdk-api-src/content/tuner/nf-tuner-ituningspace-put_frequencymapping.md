@@ -1,19 +1,17 @@
 ---
 UID: NF:tuner.ITuningSpace.put_FrequencyMapping
 title: ITuningSpace::put_FrequencyMapping (tuner.h)
-
 description: The put_FrequencyMapping method creates a frequency/channel map, frequency/transponder map, or whatever other mapping from carrier frequencies to frequency identifiers is appropriate for the tuning space.
 old-location: mstv\ituningspace_put_frequencymapping.htm
 tech.root: mstv
 ms.assetid: 665ab139-773c-4e02-896f-2f97063a786f
-
 ms.date: 12/05/2018
 ms.keywords: ITuningSpace interface [Microsoft TV Technologies],put_FrequencyMapping method, ITuningSpace.put_FrequencyMapping, ITuningSpace::put_FrequencyMapping, ITuningSpaceput_FrequencyMapping, mstv.ituningspace_put_frequencymapping, put_FrequencyMapping, put_FrequencyMapping method [Microsoft TV Technologies], put_FrequencyMapping method [Microsoft TV Technologies],ITuningSpace interface, tuner/ITuningSpace::put_FrequencyMapping
 ms.topic: method
-f1_keywords: 
- - "tuner/ITuningSpace.put_FrequencyMapping"
+f1_keywords:
+- tuner/ITuningSpace.put_FrequencyMapping
 dev_langs:
- - c++
+- c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - tuner.h
+- tuner.h
 api_name:
- - ITuningSpace.put_FrequencyMapping
+- ITuningSpace.put_FrequencyMapping
 targetos: Windows
 req.typenames: 
 req.redist: 

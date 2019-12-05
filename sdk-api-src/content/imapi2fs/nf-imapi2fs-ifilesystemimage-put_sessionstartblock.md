@@ -1,19 +1,17 @@
 ---
 UID: NF:imapi2fs.IFileSystemImage.put_SessionStartBlock
 title: IFileSystemImage::put_SessionStartBlock (imapi2fs.h)
-
 description: Sets the starting block address for the recording session.
 old-location: imapi\ifilesystemimage_put_sessionstartblock.htm
 tech.root: imapi
 ms.assetid: 0018d614-c936-41f1-8700-477aa259da2a
-
 ms.date: 12/05/2018
 ms.keywords: IFileSystemImage interface [IMAPI],put_SessionStartBlock method, IFileSystemImage.put_SessionStartBlock, IFileSystemImage::put_SessionStartBlock, imapi.ifilesystemimage_put_sessionstartblock, imapi2fs/IFileSystemImage::put_SessionStartBlock, put_SessionStartBlock, put_SessionStartBlock method [IMAPI], put_SessionStartBlock method [IMAPI],IFileSystemImage interface
 ms.topic: method
-f1_keywords: 
- - "imapi2fs/IFileSystemImage.put_SessionStartBlock"
+f1_keywords:
+- imapi2fs/IFileSystemImage.put_SessionStartBlock
 dev_langs:
- - c++
+- c++
 req.header: imapi2fs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - imapi2fs.h
+- imapi2fs.h
 api_name:
- - IFileSystemImage.put_SessionStartBlock
+- IFileSystemImage.put_SessionStartBlock
 targetos: Windows
 req.typenames: 
 req.redist: 

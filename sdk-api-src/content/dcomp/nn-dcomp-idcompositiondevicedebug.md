@@ -1,19 +1,17 @@
 ---
 UID: NN:dcomp.IDCompositionDeviceDebug
 title: IDCompositionDeviceDebug (dcomp.h)
-
 description: Provides access to rendering features that help with application debugging and performance tuning. This interface can be queried from the DirectComposition device interface.
 old-location: directcomp\idcompositiondevicedebug.htm
 tech.root: directcomp
 ms.assetid: B8D17570-9729-45DB-99E1-A2EBBDAA5996
-
 ms.date: 12/05/2018
 ms.keywords: IDCompositionDeviceDebug, IDCompositionDeviceDebug interface [DirectComposition], IDCompositionDeviceDebug interface [DirectComposition],described, dcomp/IDCompositionDeviceDebug, directcomp.idcompositiondevicedebug
 ms.topic: interface
-f1_keywords: 
- - "dcomp/IDCompositionDeviceDebug"
+f1_keywords:
+- dcomp/IDCompositionDeviceDebug
 dev_langs:
- - c++
+- c++
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dcomp.h
+- dcomp.h
 api_name:
- - IDCompositionDeviceDebug
+- IDCompositionDeviceDebug
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:winsync.ISyncSessionState.OnProgress
 title: ISyncSessionState::OnProgress (winsync.h)
-
 description: Reports synchronization progress to the application.
 old-location: winsync\isyncsessionstate_onprogress.htm
 tech.root: winsync
 ms.assetid: a2983f9c-ed2d-47b4-bec7-b00dc4d75f3f
-
 ms.date: 12/05/2018
 ms.keywords: ISyncSessionState interface [Windows Sync],OnProgress method, ISyncSessionState.OnProgress, ISyncSessionState::OnProgress, OnProgress, OnProgress method [Windows Sync], OnProgress method [Windows Sync],ISyncSessionState interface, winsync.isyncsessionstate_onprogress, winsync/ISyncSessionState::OnProgress
 ms.topic: method
-f1_keywords: 
- - "winsync/ISyncSessionState.OnProgress"
+f1_keywords:
+- winsync/ISyncSessionState.OnProgress
 dev_langs:
- - c++
+- c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - winsync.h
+- winsync.h
 api_name:
- - ISyncSessionState.OnProgress
+- ISyncSessionState.OnProgress
 targetos: Windows
 req.typenames: 
 req.redist: 

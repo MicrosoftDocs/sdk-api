@@ -1,19 +1,17 @@
 ---
 UID: NF:p2p.PeerGraphGetRecord
 title: PeerGraphGetRecord function (p2p.h)
-
 description: The PeerGraphGetRecord function retrieves a specific record based on the specified record ID. The returned record should be freed by calling PeerGraphFreeData.
 old-location: p2p\peergraphgetrecord.htm
 tech.root: P2PSdk
 ms.assetid: 5e777c02-980c-42f9-add7-9568c86c2efe
-
 ms.date: 12/05/2018
 ms.keywords: PeerGraphGetRecord, PeerGraphGetRecord function [Peer Networking], p2p.peergraphgetrecord, p2p/PeerGraphGetRecord
 ms.topic: function
-f1_keywords: 
- - "p2p/PeerGraphGetRecord"
+f1_keywords:
+- p2p/PeerGraphGetRecord
 dev_langs:
- - c++
+- c++
 req.header: p2p.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: P2PGraph.lib
 req.dll: P2PGraph.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - P2PGraph.dll
+- P2PGraph.dll
 api_name:
- - PeerGraphGetRecord
+- PeerGraphGetRecord
 targetos: Windows
 req.typenames: 
 req.redist: 

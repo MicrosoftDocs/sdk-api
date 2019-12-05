@@ -1,19 +1,17 @@
 ---
 UID: NF:wmlss.IWindowsMediaLibrarySharingServices.put_allowSharingToAllDevices
 title: IWindowsMediaLibrarySharingServices::put_allowSharingToAllDevices (wmlss.h)
-
 description: The put_allowSharingToAllDevices method allows or disallows sharing of the current user's media library with all devices on the home network.
 old-location: wmlss\IWMLSSput_allowSharingToAllDevices.htm
 tech.root: WMLSS
 ms.assetid: c0dbc9ce-de09-4f60-a975-f09367ba9145
-
 ms.date: 12/05/2018
 ms.keywords: IWindowsMediaLibrarySharingServices interface [Windows Media Library Sharing Services],put_allowSharingToAllDevices method, IWindowsMediaLibrarySharingServices.put_allowSharingToAllDevices, IWindowsMediaLibrarySharingServices::put_allowSharingToAllDevices, put_allowSharingToAllDevices, put_allowSharingToAllDevices method [Windows Media Library Sharing Services], put_allowSharingToAllDevices method [Windows Media Library Sharing Services],IWindowsMediaLibrarySharingServices interface, wmlss.IWMLSSput_allowSharingToAllDevices, wmlss/IWindowsMediaLibrarySharingServices::put_allowSharingToAllDevices
 ms.topic: method
-f1_keywords: 
- - "wmlss/IWindowsMediaLibrarySharingServices.put_allowSharingToAllDevices"
+f1_keywords:
+- wmlss/IWindowsMediaLibrarySharingServices.put_allowSharingToAllDevices
 dev_langs:
- - c++
+- c++
 req.header: wmlss.h
 req.include-header: Wmlss.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: WMPMediaSharing.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - WMPMediaSharing.dll
+- WMPMediaSharing.dll
 api_name:
- - IWindowsMediaLibrarySharingServices.put_allowSharingToAllDevices
+- IWindowsMediaLibrarySharingServices.put_allowSharingToAllDevices
 targetos: Windows
 req.typenames: 
 req.redist: 

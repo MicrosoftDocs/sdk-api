@@ -1,19 +1,17 @@
 ---
 UID: NF:winnls.SetThreadUILanguage
 title: SetThreadUILanguage function (winnls.h)
-
 description: Sets the user interface language for the current thread.
 old-location: intl\setthreaduilanguage.htm
 tech.root: Intl
 ms.assetid: 30a0cecf-0ed1-4c03-bd5e-da07b1828c75
-
 ms.date: 12/05/2018
 ms.keywords: SetThreadUILanguage, SetThreadUILanguage function [Internationalization for Windows Applications], _win32_SetThreadUILanguage, intl.setthreaduilanguage, winnls/SetThreadUILanguage
 ms.topic: function
-f1_keywords: 
- - "winnls/SetThreadUILanguage"
+f1_keywords:
+- winnls/SetThreadUILanguage
 dev_langs:
- - c++
+- c++
 req.header: winnls.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,20 +30,20 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-Localization-l1-2-0.dll
- - KernelBase.dll
- - API-MS-Win-Core-Localization-l1-2-1.dll
- - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
- - MinKernelBase.dll
- - API-MS-Win-Core-Localization-L1-2-2.dll
+- Kernel32.dll
+- API-MS-Win-Core-Localization-l1-2-0.dll
+- KernelBase.dll
+- API-MS-Win-Core-Localization-l1-2-1.dll
+- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+- MinKernelBase.dll
+- API-MS-Win-Core-Localization-L1-2-2.dll
 api_name:
- - SetThreadUILanguage
+- SetThreadUILanguage
 targetos: Windows
 req.typenames: 
 req.redist: 

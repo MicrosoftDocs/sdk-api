@@ -1,19 +1,17 @@
 ---
 UID: NF:objidl.IStream.Stat
 title: IStream::Stat (objidl.h)
-
 description: The Stat method retrieves the STATSTG structure for this stream.
 old-location: stg\istream_stat.htm
 tech.root: Stg
 ms.assetid: c22ab396-dbc5-43a0-8448-35a2c094464f
-
 ms.date: 12/05/2018
 ms.keywords: IStream interface [Structured Storage],Stat method, IStream.Stat, IStream::Stat, Stat, Stat method [Structured Storage], Stat method [Structured Storage],IStream interface, _stg_istream_stat, objidl/IStream::Stat, stg.istream_stat
 ms.topic: method
-f1_keywords: 
- - "objidl/IStream.Stat"
+f1_keywords:
+- objidl/IStream.Stat
 dev_langs:
- - c++
+- c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Ole32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Ole32.dll
+- Ole32.dll
 api_name:
- - IStream.Stat
+- IStream.Stat
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:peerdist.PeerDistServerCloseStreamHandle
 title: PeerDistServerCloseStreamHandle function (peerdist.h)
-
 description: PeerDistServerCloseStreamHandle function closes a handle returned by PeerDistServerPublishStream.
 old-location: p2p\peerdistserverclosestreamhandle.htm
 tech.root: P2PSdk
 ms.assetid: 599b4694-3d03-4d25-9d02-313599aaaf0b
-
 ms.date: 12/05/2018
 ms.keywords: PeerDistServerCloseStreamHandle, PeerDistServerCloseStreamHandle function [Peer Networking], p2p.peerdistserverclosestreamhandle, peerdist/PeerDistServerCloseStreamHandle
 ms.topic: function
-f1_keywords: 
- - "peerdist/PeerDistServerCloseStreamHandle"
+f1_keywords:
+- peerdist/PeerDistServerCloseStreamHandle
 dev_langs:
- - c++
+- c++
 req.header: peerdist.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: PeerDist.lib
 req.dll: PeerDist.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - PeerDist.dll
+- PeerDist.dll
 api_name:
- - PeerDistServerCloseStreamHandle
+- PeerDistServerCloseStreamHandle
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NS:dhcpsapi._DHCP_IP_RANGE_V6
 title: DHCP_IP_RANGE_V6 (dhcpsapi.h)
-
 description: Specifies a range of IPv6 addresses for use with a DHCPv6 server.
 old-location: dhcp\dhcp_ip_range_v6.htm
 tech.root: DHCP
 ms.assetid: 3a918a2b-beff-4562-9c7f-acee2cc8f2da
-
 ms.date: 12/05/2018
 ms.keywords: '*LPDHCP_IP_RANGE_V6, DHCP_IP_RANGE_V6, DHCP_IP_RANGE_V6 structure [DHCP], PDHCP_IP_RANGE_V6, PDHCP_IP_RANGE_V6 structure pointer [DHCP], dhcp.dhcp_ip_range_v6, dhcpsapi/DHCP_IP_RANGE_V6, dhcpsapi/PDHCP_IP_RANGE_V6'
 ms.topic: struct
 f1_keywords:
 - dhcpsapi/DHCP_IP_RANGE_V6
 dev_langs:
- - c++
+- c++
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows

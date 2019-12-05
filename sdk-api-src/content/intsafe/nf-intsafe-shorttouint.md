@@ -1,19 +1,17 @@
 ---
 UID: NF:intsafe.ShortToUInt
 title: ShortToUInt function (intsafe.h)
-
 description: Converts a value of type SHORT to a value of type UINT.
 old-location: shell\ShortToUInt.htm
 tech.root: shell
 ms.assetid: e00b9dd2-fa40-401b-9002-e65c91d2b6ef
-
 ms.date: 12/05/2018
 ms.keywords: ShortToUInt, ShortToUInt function [Windows Shell], intsafe/ShortToUInt, shell.ShortToUInt
 ms.topic: function
-f1_keywords: 
- - "intsafe/ShortToUInt"
+f1_keywords:
+- intsafe/ShortToUInt
 dev_langs:
- - c++
+- c++
 req.header: intsafe.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - intsafe.h
+- intsafe.h
 api_name:
- - ShortToUInt
+- ShortToUInt
 targetos: Windows
 req.typenames: 
 req.redist: 

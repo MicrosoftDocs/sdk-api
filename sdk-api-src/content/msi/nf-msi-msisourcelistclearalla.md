@@ -1,19 +1,17 @@
 ---
 UID: NF:msi.MsiSourceListClearAllA
 title: MsiSourceListClearAllA function (msi.h)
-
 description: The MsiSourceListClearAll function removes all network sources from the source list of a patch or product in a specified context. For more information, see Source Resiliency.
 old-location: setup\msisourcelistclearall.htm
 tech.root: Msi
 ms.assetid: e46d222d-f788-4b68-b7ff-a72261e1066b
-
 ms.date: 12/05/2018
 ms.keywords: MsiSourceListClearAll, MsiSourceListClearAll function, MsiSourceListClearAllA, MsiSourceListClearAllW, _msi_msisourcelistclearall, msi/MsiSourceListClearAll, msi/MsiSourceListClearAllA, msi/MsiSourceListClearAllW, setup.msisourcelistclearall
 ms.topic: function
-f1_keywords: 
- - "msi/MsiSourceListClearAll"
+f1_keywords:
+- msi/MsiSourceListClearAll
 dev_langs:
- - c++
+- c++
 req.header: msi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Msi.lib
 req.dll: Msi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Msi.dll
+- Msi.dll
 api_name:
- - MsiSourceListClearAll
- - MsiSourceListClearAllA
- - MsiSourceListClearAllW
+- MsiSourceListClearAll
+- MsiSourceListClearAllA
+- MsiSourceListClearAllW
 targetos: Windows
 req.typenames: 
 req.redist: 

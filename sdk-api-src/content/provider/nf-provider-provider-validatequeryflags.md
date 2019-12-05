@@ -1,19 +1,17 @@
 ---
 UID: NF:provider.Provider.ValidateQueryFlags
 title: Provider::ValidateQueryFlags (provider.h)
-
 description: The ValidateQueryFlags method determines whether a set of flags is valid for a query operation.
 old-location: wmi\provider_validatequeryflags.htm
 tech.root: WmiSdk
 ms.assetid: b35e6f2f-7d40-4b9b-833d-63efafd06a20
-
 ms.date: 12/05/2018
-ms.keywords: "?ValidateQueryFlags@Provider@@MAEJJ@Z, ?ValidateQueryFlags@Provider@@MEAAJJ@Z, Provider interface [Windows Management Instrumentation],ValidateQueryFlags method, Provider.ValidateQueryFlags, Provider::ValidateQueryFlags, ValidateQueryFlags, ValidateQueryFlags method [Windows Management Instrumentation], ValidateQueryFlags method [Windows Management Instrumentation],Provider interface, _hmm_provider_validatequeryflags, provider/Provider::ValidateQueryFlags, wmi.provider_validatequeryflags"
+ms.keywords: ?ValidateQueryFlags@Provider@@MAEJJ@Z, ?ValidateQueryFlags@Provider@@MEAAJJ@Z, Provider interface [Windows Management Instrumentation],ValidateQueryFlags method, Provider.ValidateQueryFlags, Provider::ValidateQueryFlags, ValidateQueryFlags, ValidateQueryFlags method [Windows Management Instrumentation], ValidateQueryFlags method [Windows Management Instrumentation],Provider interface, _hmm_provider_validatequeryflags, provider/Provider::ValidateQueryFlags, wmi.provider_validatequeryflags
 ms.topic: method
-f1_keywords: 
- - "provider/Provider.ValidateQueryFlags"
+f1_keywords:
+- provider/Provider.ValidateQueryFlags
 dev_langs:
- - c++
+- c++
 req.header: provider.h
 req.include-header: FwCommon.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: FrameDyn.lib
 req.dll: FrameDynOS.dll; FrameDyn.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - FrameDynOS.dll
- - FrameDyn.dll
+- FrameDynOS.dll
+- FrameDyn.dll
 api_name:
- - Provider.ValidateQueryFlags
- - ?ValidateQueryFlags@Provider@@MAEJJ@Z
- - ?ValidateQueryFlags@Provider@@MEAAJJ@Z
+- Provider.ValidateQueryFlags
+- ?ValidateQueryFlags@Provider@@MAEJJ@Z
+- ?ValidateQueryFlags@Provider@@MEAAJJ@Z
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:inked.IInkEdit.put_InkInsertMode
 title: IInkEdit::put_InkInsertMode (inked.h)
-
 description: Gets or sets a value that specifies how ink is inserted onto the InkEdit control, either as text or as ink.
 old-location: tablet\inkedit_inkinsertmode.htm
 tech.root: tablet
 ms.assetid: 6fcc119d-45b1-47d3-98eb-4eb04fccfb61
-
 ms.date: 12/05/2018
 ms.keywords: 6fcc119d-45b1-47d3-98eb-4eb04fccfb61, IInkEdit interface [Tablet PC],InkInsertMode property, IInkEdit.InkInsertMode, IInkEdit.put_InkInsertMode, IInkEdit::InkInsertMode, IInkEdit::get_InkInsertMode, IInkEdit::put_InkInsertMode, InkEdit.get_InkInsertMode, InkEdit.put_InkInsertMode, InkInsertMode property [Tablet PC], InkInsertMode property [Tablet PC],IInkEdit interface, InsertAsInk, InsertAsText, get_InkInsertMode, inked/IInkEdit::InkInsertMode, inked/IInkEdit::get_InkInsertMode, inked/IInkEdit::put_InkInsertMode, put_InkInsertMode, tablet.inkedit_inkinsertmode
 ms.topic: method
-f1_keywords: 
- - "inked/IInkEdit.InkInsertMode"
+f1_keywords:
+- inked/IInkEdit.InkInsertMode
 dev_langs:
- - c++
+- c++
 req.header: inked.h
 req.include-header: 
 req.target-type: Windows
@@ -32,19 +30,19 @@ req.lib: InkEd.dll
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - InkEd.dll
- - InkEd.dll.dll
+- InkEd.dll
+- InkEd.dll.dll
 api_name:
- - IInkEdit.InkInsertMode
- - IInkEdit.get_InkInsertMode
- - IInkEdit.put_InkInsertMode
- - InkEdit.get_InkInsertMode
- - InkEdit.put_InkInsertMode
+- IInkEdit.InkInsertMode
+- IInkEdit.get_InkInsertMode
+- IInkEdit.put_InkInsertMode
+- InkEdit.get_InkInsertMode
+- InkEdit.put_InkInsertMode
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:ntmsapi.GetNtmsRequestOrder
 title: GetNtmsRequestOrder function (ntmsapi.h)
-
 description: The GetNtmsRequestOrder function gets the order that the specified request will be processed in the library queue.
 old-location: fs\getntmsrequestorder.htm
 tech.root: Rsm
 ms.assetid: 68617846-63c7-4a47-887a-ee49705753ce
-
 ms.date: 12/05/2018
 ms.keywords: GetNtmsRequestOrder, GetNtmsRequestOrder function [Files], _zaw_getntmsrequestorder, base.getntmsrequestorder, fs.getntmsrequestorder, ntmsapi/GetNtmsRequestOrder
 ms.topic: function
-f1_keywords: 
- - "ntmsapi/GetNtmsRequestOrder"
+f1_keywords:
+- ntmsapi/GetNtmsRequestOrder
 dev_langs:
- - c++
+- c++
 req.header: ntmsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Ntmsapi.lib
 req.dll: Ntmsapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ntmsapi.dll
+- Ntmsapi.dll
 api_name:
- - GetNtmsRequestOrder
+- GetNtmsRequestOrder
 targetos: Windows
 req.typenames: 
 req.redist: 

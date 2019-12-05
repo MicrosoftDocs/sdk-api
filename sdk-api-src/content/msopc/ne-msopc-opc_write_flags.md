@@ -1,19 +1,17 @@
 ---
 UID: NE:msopc.__MIDL___MIDL_itf_msopc_0000_0002_0005
 title: OPC_WRITE_FLAGS (msopc.h)
-
 description: Describes the encoding method that is used by the serialization object to produce the package.
 old-location: opc\opc_write_flags.htm
 tech.root: OPC
 ms.assetid: 12006b4a-98e1-4761-bce3-32b83b54a2cb
-
 ms.date: 12/05/2018
 ms.keywords: OPC_WRITE_DEFAULT, OPC_WRITE_FLAGS, OPC_WRITE_FLAGS enumeration [Open Packaging Conventions], OPC_WRITE_FORCE_ZIP32, msopc/OPC_WRITE_DEFAULT, msopc/OPC_WRITE_FLAGS, msopc/OPC_WRITE_FORCE_ZIP32, opc.opc_write_flags
 ms.topic: enum
-f1_keywords: 
- - "msopc/OPC_WRITE_FLAGS"
+f1_keywords:
+- msopc/OPC_WRITE_FLAGS
 dev_langs:
- - c++
+- c++
 req.header: msopc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - msopc.h
+- msopc.h
 api_name:
- - OPC_WRITE_FLAGS
+- OPC_WRITE_FLAGS
 targetos: Windows
 req.typenames: OPC_WRITE_FLAGS
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NS:cryptxml._CRYPT_XML_DATA_BLOB
 title: CRYPT_XML_DATA_BLOB (cryptxml.h)
-
 description: Contains XML encoded data.
 old-location: security\crypt_xml_data_blob.htm
 tech.root: SecCrypto
 ms.assetid: dc7e23d6-923c-40d2-9cf7-9a529c0634ce
-
 ms.date: 12/05/2018
-ms.keywords: "*PCRYPT_XML_DATA_BLOB, CRYPT_XML_DATA_BLOB, CRYPT_XML_DATA_BLOB structure [Security], PCRYPT_XML_DATA_BLOB, PCRYPT_XML_DATA_BLOB structure pointer [Security], cryptxml/CRYPT_XML_DATA_BLOB, cryptxml/PCRYPT_XML_DATA_BLOB, security.crypt_xml_data_blob"
+ms.keywords: '*PCRYPT_XML_DATA_BLOB, CRYPT_XML_DATA_BLOB, CRYPT_XML_DATA_BLOB structure [Security], PCRYPT_XML_DATA_BLOB, PCRYPT_XML_DATA_BLOB structure pointer [Security], cryptxml/CRYPT_XML_DATA_BLOB, cryptxml/PCRYPT_XML_DATA_BLOB, security.crypt_xml_data_blob'
 ms.topic: struct
-f1_keywords: 
- - "cryptxml/CRYPT_XML_DATA_BLOB"
+f1_keywords:
+- cryptxml/CRYPT_XML_DATA_BLOB
 dev_langs:
- - c++
+- c++
 req.header: cryptxml.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Cryptxml.h
+- Cryptxml.h
 api_name:
- - CRYPT_XML_DATA_BLOB
+- CRYPT_XML_DATA_BLOB
 targetos: Windows
 req.typenames: CRYPT_XML_DATA_BLOB, *PCRYPT_XML_DATA_BLOB
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:winscard.SCardReadCacheW
 title: SCardReadCacheW function (winscard.h)
-
 description: Retrieves the value portion of a name-value pair from the global cache maintained by the Smart Card Resource Manager.
 old-location: security\scardreadcache.htm
 tech.root: SecAuthN
 ms.assetid: ffa15036-b6d6-4c0a-8f04-e1900484eb8d
-
 ms.date: 12/05/2018
 ms.keywords: SCardReadCache, SCardReadCache function [Security], SCardReadCacheA, SCardReadCacheW, security.scardreadcache, winscard/SCardReadCache, winscard/SCardReadCacheA, winscard/SCardReadCacheW
 ms.topic: function
-f1_keywords: 
- - "winscard/SCardReadCache"
+f1_keywords:
+- winscard/SCardReadCache
 dev_langs:
- - c++
+- c++
 req.header: winscard.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Winscard.lib
 req.dll: Winscard.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Winscard.dll
+- Winscard.dll
 api_name:
- - SCardReadCache
- - SCardReadCacheA
- - SCardReadCacheW
+- SCardReadCache
+- SCardReadCacheA
+- SCardReadCacheW
 targetos: Windows
 req.typenames: 
 req.redist: 

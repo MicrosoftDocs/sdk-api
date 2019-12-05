@@ -1,19 +1,17 @@
 ---
 UID: NF:objidl.IROTData.GetComparisonData
 title: IROTData::GetComparisonData (objidl.h)
-
 description: Retrieves data from a moniker that can be used to test the moniker for equality against another moniker.
 old-location: com\irotdata_getcomparisondata.htm
 tech.root: com
 ms.assetid: e7f2d3a6-2517-47bc-aa6a-509d72881a0b
-
 ms.date: 12/05/2018
 ms.keywords: GetComparisonData, GetComparisonData method [COM], GetComparisonData method [COM],IROTData interface, IROTData interface [COM],GetComparisonData method, IROTData.GetComparisonData, IROTData::GetComparisonData, _com_irotdata_getcomparisondata, com.irotdata_getcomparisondata, objidl/IROTData::GetComparisonData
 ms.topic: method
-f1_keywords: 
- - "objidl/IROTData.GetComparisonData"
+f1_keywords:
+- objidl/IROTData.GetComparisonData
 dev_langs:
- - c++
+- c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ObjIdl.h
+- ObjIdl.h
 api_name:
- - IROTData.GetComparisonData
+- IROTData.GetComparisonData
 targetos: Windows
 req.typenames: 
 req.redist: 

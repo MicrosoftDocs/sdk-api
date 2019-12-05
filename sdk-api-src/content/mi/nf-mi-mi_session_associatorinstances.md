@@ -1,19 +1,17 @@
 ---
 UID: NF:mi.MI_Session_AssociatorInstances
 title: MI_Session_AssociatorInstances function (mi.h)
-
 description: Finds instances that are associated with the specific key instance.
 old-location: wmi_v2\mi_session_associatorinstances.htm
 tech.root: wmi_v2
 ms.assetid: 4e517289-a30e-4ba3-8cbf-dfc4f9744b1a
-
 ms.date: 12/05/2018
 ms.keywords: MI_Session_AssociatorInstances, MI_Session_AssociatorInstances function [Windows Management Infrastructure (MI)], mi/MI_Session_AssociatorInstances, wmi_v2.mi_session_associatorinstances
 ms.topic: function
 f1_keywords:
 - mi/MI_Session_AssociatorInstances
 dev_langs:
- - c++
+- c++
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows

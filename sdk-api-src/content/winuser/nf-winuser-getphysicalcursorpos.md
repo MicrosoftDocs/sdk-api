@@ -1,19 +1,17 @@
 ---
 UID: NF:winuser.GetPhysicalCursorPos
 title: GetPhysicalCursorPos function (winuser.h)
-
 description: Retrieves the position of the cursor in physical coordinates.
 old-location: menurc\getphysicalcursorpos.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\cursors\cursorreference\cursorfunctions\getphysicalcursorpos.htm
-
 ms.date: 12/05/2018
 ms.keywords: GetPhysicalCursorPos, GetPhysicalCursorPos function [Menus and Other Resources], _win32_GetPhysicalCursorPos, _win32_getphysicalcursorpos_cpp, menurc.getphysicalcursorpos, winui._win32_getphysicalcursorpos, winuser/GetPhysicalCursorPos
 ms.topic: function
-f1_keywords: 
- - "winuser/GetPhysicalCursorPos"
+f1_keywords:
+- winuser/GetPhysicalCursorPos
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - User32.dll
- - Ext-MS-Win-NTUser-GUI-l1-1-1.dll
- - Ext-MS-Win-NTUser-GUI-l1-2-0.dll
- - ext-ms-win-ntuser-gui-l1-2-1.dll
- - Ext-MS-Win-NTUser-Gui-L1-3-0.dll
+- User32.dll
+- Ext-MS-Win-NTUser-GUI-l1-1-1.dll
+- Ext-MS-Win-NTUser-GUI-l1-2-0.dll
+- ext-ms-win-ntuser-gui-l1-2-1.dll
+- Ext-MS-Win-NTUser-Gui-L1-3-0.dll
 api_name:
- - GetPhysicalCursorPos
+- GetPhysicalCursorPos
 targetos: Windows
 req.typenames: 
 req.redist: 

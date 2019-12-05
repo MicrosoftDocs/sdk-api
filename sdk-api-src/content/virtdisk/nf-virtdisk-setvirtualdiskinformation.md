@@ -1,19 +1,17 @@
 ---
 UID: NF:virtdisk.SetVirtualDiskInformation
 title: SetVirtualDiskInformation function (virtdisk.h)
-
 description: Sets information about a virtual hard disk (VHD).
 old-location: vhd\setvirtualdiskinformation.htm
 tech.root: VStor
 ms.assetid: bd4bee14-6812-4a28-8c44-2b8e8d42e697
-
 ms.date: 12/05/2018
 ms.keywords: SetVirtualDiskInformation, SetVirtualDiskInformation function [VHD], vdssys/SetVirtualDiskInformation, vhd.setvirtualdiskinformation, virtdisk/SetVirtualDiskInformation
 ms.topic: function
-f1_keywords: 
- - "virtdisk/SetVirtualDiskInformation"
+f1_keywords:
+- virtdisk/SetVirtualDiskInformation
 dev_langs:
- - c++
+- c++
 req.header: virtdisk.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: VirtDisk.lib
 req.dll: VirtDisk.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - VirtDisk.dll
+- VirtDisk.dll
 api_name:
- - SetVirtualDiskInformation
+- SetVirtualDiskInformation
 targetos: Windows
 req.typenames: 
 req.redist: 

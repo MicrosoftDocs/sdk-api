@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IVMRSurfaceAllocatorNotify.SetDDrawDevice
 title: IVMRSurfaceAllocatorNotify::SetDDrawDevice (strmif.h)
-
 description: The SetDDrawDevice method sets the initial DirectDraw device and monitor to be used for video playback.
 old-location: dshow\ivmrsurfaceallocatornotify_setddrawdevice.htm
 tech.root: DirectShow
 ms.assetid: 3e6bd77e-8b2d-4cd8-9bd3-40a3fe9373f3
-
 ms.date: 12/05/2018
 ms.keywords: IVMRSurfaceAllocatorNotify interface [DirectShow],SetDDrawDevice method, IVMRSurfaceAllocatorNotify.SetDDrawDevice, IVMRSurfaceAllocatorNotify::SetDDrawDevice, IVMRSurfaceAllocatorNotifySetDDrawDevice, SetDDrawDevice, SetDDrawDevice method [DirectShow], SetDDrawDevice method [DirectShow],IVMRSurfaceAllocatorNotify interface, dshow.ivmrsurfaceallocatornotify_setddrawdevice, strmif/IVMRSurfaceAllocatorNotify::SetDDrawDevice
 ms.topic: method
-f1_keywords: 
- - "strmif/IVMRSurfaceAllocatorNotify.SetDDrawDevice"
+f1_keywords:
+- strmif/IVMRSurfaceAllocatorNotify.SetDDrawDevice
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IVMRSurfaceAllocatorNotify.SetDDrawDevice
+- IVMRSurfaceAllocatorNotify.SetDDrawDevice
 targetos: Windows
 req.typenames: 
 req.redist: 

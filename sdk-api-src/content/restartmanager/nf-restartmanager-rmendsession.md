@@ -1,19 +1,17 @@
 ---
 UID: NF:restartmanager.RmEndSession
 title: RmEndSession function (restartmanager.h)
-
 description: Ends the Restart Manager session.
 old-location: rstmgr\rmendsession.htm
 tech.root: rstmgr
 ms.assetid: 2681cb69-a66f-4aec-a164-98d2d28f9908
-
 ms.date: 12/05/2018
 ms.keywords: RmEndSession, RmEndSession function [Restart Mgr], restartmanager/RmEndSession, rstmgr.rmendsession
 ms.topic: function
-f1_keywords: 
- - "restartmanager/RmEndSession"
+f1_keywords:
+- restartmanager/RmEndSession
 dev_langs:
- - c++
+- c++
 req.header: restartmanager.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Rstrtmgr.lib
 req.dll: Rstrtmgr.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Rstrtmgr.dll
+- Rstrtmgr.dll
 api_name:
- - RmEndSession
+- RmEndSession
 targetos: Windows
 req.typenames: 
 req.redist: 

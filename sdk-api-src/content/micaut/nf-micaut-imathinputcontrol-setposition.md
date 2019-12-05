@@ -1,19 +1,17 @@
 ---
 UID: NF:micaut.IMathInputControl.SetPosition
 title: IMathInputControl::SetPosition (micaut.h)
-
 description: Modifies the location and size of the control.
 old-location: tablet\imathinputcontrol_setposition.htm
 tech.root: tablet
 ms.assetid: 9b5fc988-7c93-47d4-8661-4cef56cab0d0
-
 ms.date: 12/05/2018
 ms.keywords: IMathInputControl interface [Tablet PC],SetPosition method, IMathInputControl.SetPosition, IMathInputControl::SetPosition, SetPosition, SetPosition method [Tablet PC], SetPosition method [Tablet PC],IMathInputControl interface, micaut/IMathInputControl::SetPosition, tablet.imathinputcontrol_setposition
 ms.topic: method
-f1_keywords: 
- - "micaut/IMathInputControl.SetPosition"
+f1_keywords:
+- micaut/IMathInputControl.SetPosition
 dev_langs:
- - c++
+- c++
 req.header: micaut.h
 req.include-header: Micaut.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - micaut.h
+- micaut.h
 api_name:
- - IMathInputControl.SetPosition
+- IMathInputControl.SetPosition
 targetos: Windows
 req.typenames: 
 req.redist: 

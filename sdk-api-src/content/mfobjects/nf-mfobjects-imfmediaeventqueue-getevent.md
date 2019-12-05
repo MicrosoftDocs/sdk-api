@@ -1,19 +1,17 @@
 ---
 UID: NF:mfobjects.IMFMediaEventQueue.GetEvent
 title: IMFMediaEventQueue::GetEvent (mfobjects.h)
-
 description: Retrieves the next event in the queue. This method is synchronous.Call this method inside your implementation of IMFMediaEventGenerator::GetEvent. Pass the parameters from that method directly to this method.
 old-location: mf\imfmediaeventqueue_getevent.htm
 tech.root: medfound
 ms.assetid: b7c48607-f410-47ee-8cc6-38123919da55
-
 ms.date: 12/05/2018
 ms.keywords: GetEvent, GetEvent method [Media Foundation], GetEvent method [Media Foundation],IMFMediaEventQueue interface, IMFMediaEventQueue interface [Media Foundation],GetEvent method, IMFMediaEventQueue.GetEvent, IMFMediaEventQueue::GetEvent, b7c48607-f410-47ee-8cc6-38123919da55, mf.imfmediaeventqueue_getevent, mfobjects/IMFMediaEventQueue::GetEvent
 ms.topic: method
-f1_keywords: 
- - "mfobjects/IMFMediaEventQueue.GetEvent"
+f1_keywords:
+- mfobjects/IMFMediaEventQueue.GetEvent
 dev_langs:
- - c++
+- c++
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFMediaEventQueue.GetEvent
+- IMFMediaEventQueue.GetEvent
 targetos: Windows
 req.typenames: 
 req.redist: 

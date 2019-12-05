@@ -1,19 +1,17 @@
 ---
 UID: NF:vswriter.IVssComponent.IsSelectedForRestore
 title: IVssComponent::IsSelectedForRestore (vswriter.h)
-
 description: The IsSelectedForRestore method determines whether the current component has been selected to be restored.
 old-location: base\ivsscomponent_isselectedforrestore.htm
 tech.root: VSS
 ms.assetid: 76d0461d-a0ac-49c7-84b1-16f21114b72d
-
 ms.date: 12/05/2018
 ms.keywords: IVssComponent interface [VSS],IsSelectedForRestore method, IVssComponent.IsSelectedForRestore, IVssComponent::IsSelectedForRestore, IsSelectedForRestore, IsSelectedForRestore method [VSS], IsSelectedForRestore method [VSS],IVssComponent interface, _win32_ivsscomponent_isselectedforrestore, base.ivsscomponent_isselectedforrestore, vswriter/IVssComponent::IsSelectedForRestore
 ms.topic: method
-f1_keywords: 
- - "vswriter/IVssComponent.IsSelectedForRestore"
+f1_keywords:
+- vswriter/IVssComponent.IsSelectedForRestore
 dev_langs:
- - c++
+- c++
 req.header: vswriter.h
 req.include-header: Vss.h, VsWriter.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: VssApi.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - VssApi.lib
- - VssApi.dll
+- VssApi.lib
+- VssApi.dll
 api_name:
- - IVssComponent.IsSelectedForRestore
+- IVssComponent.IsSelectedForRestore
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:sysinfoapi.GetTickCount64
 title: GetTickCount64 function (sysinfoapi.h)
-
 description: Retrieves the number of milliseconds that have elapsed since the system was started.
 old-location: base\gettickcount64.htm
 tech.root: SysInfo
 ms.assetid: 3ebf05b9-cc53-43ae-bbcb-7841793a9d84
-
 ms.date: 12/05/2018
 ms.keywords: GetTickCount64, GetTickCount64 function, base.gettickcount64, sysinfoapi/GetTickCount64
 ms.topic: function
-f1_keywords: 
- - "sysinfoapi/GetTickCount64"
+f1_keywords:
+- sysinfoapi/GetTickCount64
 dev_langs:
- - c++
+- c++
 req.header: sysinfoapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,22 +30,22 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-SysInfo-l1-1-0.dll
- - KernelBase.dll
- - API-MS-Win-Core-SysInfo-l1-2-0.dll
- - API-MS-Win-Core-SysInfo-l1-2-1.dll
- - API-MS-Win-Core-SysInfo-l1-2-2.dll
- - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
- - MinKernelBase.dll
- - API-MS-Win-Core-SysInfo-l1-2-3.dll
+- Kernel32.dll
+- API-MS-Win-Core-SysInfo-l1-1-0.dll
+- KernelBase.dll
+- API-MS-Win-Core-SysInfo-l1-2-0.dll
+- API-MS-Win-Core-SysInfo-l1-2-1.dll
+- API-MS-Win-Core-SysInfo-l1-2-2.dll
+- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+- MinKernelBase.dll
+- API-MS-Win-Core-SysInfo-l1-2-3.dll
 api_name:
- - GetTickCount64
+- GetTickCount64
 targetos: Windows
 req.typenames: 
 req.redist: 

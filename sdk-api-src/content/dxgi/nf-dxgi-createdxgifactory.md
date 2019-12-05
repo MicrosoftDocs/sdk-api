@@ -1,19 +1,17 @@
 ---
 UID: NF:dxgi.CreateDXGIFactory
 title: CreateDXGIFactory function (dxgi.h)
-
 description: Creates a DXGI 1.0 factory that you can use to generate other DXGI objects.
 old-location: direct3ddxgi\createdxgifactory.htm
 tech.root: direct3ddxgi
 ms.assetid: VS|directx_sdk|~\createdxgifactory.htm
-
 ms.date: 12/05/2018
 ms.keywords: CreateDXGIFactory, CreateDXGIFactory function [DXGI], direct3ddxgi.createdxgifactory, dxgi/CreateDXGIFactory, f8906daa-c399-a76f-d487-e1f2ee03b8a8
 ms.topic: function
-f1_keywords: 
- - "dxgi/CreateDXGIFactory"
+f1_keywords:
+- dxgi/CreateDXGIFactory
 dev_langs:
- - c++
+- c++
 req.header: dxgi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: DXGI.lib
 req.dll: DXGI.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - DXGI.dll
+- DXGI.dll
 api_name:
- - CreateDXGIFactory
+- CreateDXGIFactory
 targetos: Windows
 req.typenames: 
 req.redist: 

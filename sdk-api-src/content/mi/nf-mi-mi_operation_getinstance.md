@@ -1,19 +1,17 @@
 ---
 UID: NF:mi.MI_Operation_GetInstance
 title: MI_Operation_GetInstance function (mi.h)
-
 description: Gets a synchronous result for an instance operation.
 old-location: wmi_v2\mi_operation_getinstance.htm
 tech.root: wmi_v2
 ms.assetid: 25c2d3fa-276d-4506-a044-4057c8cdc863
-
 ms.date: 12/05/2018
 ms.keywords: MI_Operation_GetInstance, MI_Operation_GetInstance function [Windows Management Infrastructure (MI)], mi/MI_Operation_GetInstance, wmi_v2.mi_operation_getinstance
 ms.topic: function
-f1_keywords: 
- - "mi/MI_Operation_GetInstance"
+f1_keywords:
+- mi/MI_Operation_GetInstance
 dev_langs:
- - c++
+- c++
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Mi.h
+- Mi.h
 api_name:
- - MI_Operation_GetInstance
+- MI_Operation_GetInstance
 targetos: Windows
 req.typenames: 
 req.redist: Windows Management Framework 3.0 on Windows Server 2008 R2 with SP1,     Windows 7 with SP1, and Windows Server 2008 with SP2

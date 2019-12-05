@@ -1,7 +1,6 @@
 ---
 UID: NA:rometadataresolution
 ms.assetid: 74150d70-82ee-3cc3-a9ef-9095d8220554
-
 ms.date: 01/11/2019
 ms.keywords: 
 ms.topic: portal

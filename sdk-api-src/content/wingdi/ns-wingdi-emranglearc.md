@@ -1,19 +1,17 @@
 ---
 UID: NS:wingdi.tagEMRANGLEARC
 title: EMRANGLEARC (wingdi.h)
-
 description: The EMRANGLEARC structure contains members for the AngleArc enhanced metafile record.
 old-location: gdi\emranglearc.htm
 tech.root: gdi
 ms.assetid: 054b84ba-bb5e-4dca-8482-6b958151aedf
-
 ms.date: 12/05/2018
-ms.keywords: "*PEMRANGLEARC, EMRANGLEARC, EMRANGLEARC structure [Windows GDI], PEMRANGLEARC, PEMRANGLEARC structure pointer [Windows GDI], _win32_EMRANGLEARC_str, gdi.emranglearc, wingdi/EMRANGLEARC, wingdi/PEMRANGLEARC"
+ms.keywords: '*PEMRANGLEARC, EMRANGLEARC, EMRANGLEARC structure [Windows GDI], PEMRANGLEARC, PEMRANGLEARC structure pointer [Windows GDI], _win32_EMRANGLEARC_str, gdi.emranglearc, wingdi/EMRANGLEARC, wingdi/PEMRANGLEARC'
 ms.topic: struct
-f1_keywords: 
- - "wingdi/EMRANGLEARC"
+f1_keywords:
+- wingdi/EMRANGLEARC
 dev_langs:
- - c++
+- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wingdi.h
+- Wingdi.h
 api_name:
- - EMRANGLEARC
+- EMRANGLEARC
 targetos: Windows
 req.typenames: EMRANGLEARC, *PEMRANGLEARC
 req.redist: 

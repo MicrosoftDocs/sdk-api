@@ -1,19 +1,17 @@
 ---
 UID: NF:msinkaut.IInkOverlay.SetAllTabletsMode
 title: IInkOverlay::SetAllTabletsMode (msinkaut.h)
-
 description: Allows an ink collector (InkCollector, InkOverlay, or InkPicture) to collect ink from any tablet attached to the Tablet PC.
 old-location: tablet\inkoverlay_setalltabletsmode.htm
 tech.root: tablet
 ms.assetid: 33c659af-ffa1-4fd8-8f85-feb22a6e58fe
-
 ms.date: 12/05/2018
 ms.keywords: IInkOverlay interface [Tablet PC],SetAllTabletsMode method, IInkOverlay.SetAllTabletsMode, IInkOverlay::SetAllTabletsMode, SetAllTabletsMode, SetAllTabletsMode method [Tablet PC], SetAllTabletsMode method [Tablet PC],IInkOverlay interface, cb41bc4c-c8fe-4cd6-8049-8cb44a2716a8, msinkaut/IInkOverlay::SetAllTabletsMode, tablet.inkoverlay_setalltabletsmode
 ms.topic: method
-f1_keywords: 
- - "msinkaut/IInkOverlay.SetAllTabletsMode"
+f1_keywords:
+- msinkaut/IInkOverlay.SetAllTabletsMode
 dev_langs:
- - c++
+- c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: InkObj.dll
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - InkObj.dll
- - InkObj.dll.dll
+- InkObj.dll
+- InkObj.dll.dll
 api_name:
- - IInkOverlay.SetAllTabletsMode
+- IInkOverlay.SetAllTabletsMode
 targetos: Windows
 req.typenames: 
 req.redist: 

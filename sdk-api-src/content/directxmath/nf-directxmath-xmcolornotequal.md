@@ -1,19 +1,17 @@
 ---
 UID: NF:directxmath.XMColorNotEqual
 title: XMColorNotEqual function (directxmath.h)
-
 description: Tests to see whether two colors are unequal.
 old-location: dxmath\xmcolornotequal.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.color.XMColorNotEqual(XMVECTOR,XMVECTOR)
-
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMColorNotEqual, XMColorNotEqual, XMColorNotEqual method [DirectX Math Support APIs], dxmath.xmcolornotequal
 ms.topic: function
-f1_keywords: 
- - "directxmath/XMColorNotEqual"
+f1_keywords:
+- directxmath/XMColorNotEqual
 dev_langs:
- - c++
+- c++
 req.header: directxmath.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - DirectXMath.h
+- DirectXMath.h
 api_name:
- - XMColorNotEqual
+- XMColorNotEqual
 targetos: Windows
 req.typenames: 
 req.redist: 

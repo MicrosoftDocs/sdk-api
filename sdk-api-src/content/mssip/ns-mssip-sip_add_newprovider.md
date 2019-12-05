@@ -1,19 +1,17 @@
 ---
 UID: NS:mssip.SIP_ADD_NEWPROVIDER_
 title: SIP_ADD_NEWPROVIDER (mssip.h)
-
 description: Defines a subject interface package (SIP). This structure is used by the CryptSIPAddProvider function.
 old-location: security\sip_add_newprovider.htm
 tech.root: SecCrypto
 ms.assetid: 5ca88c0c-a7c9-4517-a874-49d38c1bc7c3
-
 ms.date: 12/05/2018
-ms.keywords: "*PSIP_ADD_NEWPROVIDER, PSIP_ADD_NEWPROVIDER, PSIP_ADD_NEWPROVIDER structure pointer [Security], SIP_ADD_NEWPROVIDER, SIP_ADD_NEWPROVIDER structure [Security], mssip/PSIP_ADD_NEWPROVIDER, mssip/SIP_ADD_NEWPROVIDER, security.sip_add_newprovider"
+ms.keywords: '*PSIP_ADD_NEWPROVIDER, PSIP_ADD_NEWPROVIDER, PSIP_ADD_NEWPROVIDER structure pointer [Security], SIP_ADD_NEWPROVIDER, SIP_ADD_NEWPROVIDER structure [Security], mssip/PSIP_ADD_NEWPROVIDER, mssip/SIP_ADD_NEWPROVIDER, security.sip_add_newprovider'
 ms.topic: struct
-f1_keywords: 
- - "mssip/SIP_ADD_NEWPROVIDER"
+f1_keywords:
+- mssip/SIP_ADD_NEWPROVIDER
 dev_langs:
- - c++
+- c++
 req.header: mssip.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Mssip.h
+- Mssip.h
 api_name:
- - SIP_ADD_NEWPROVIDER
+- SIP_ADD_NEWPROVIDER
 targetos: Windows
 req.typenames: SIP_ADD_NEWPROVIDER, *PSIP_ADD_NEWPROVIDER
 req.redist: 

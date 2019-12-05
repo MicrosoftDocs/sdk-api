@@ -1,19 +1,17 @@
 ---
 UID: NF:remotesystemadditionalinfo.HSTRING_UserUnmarshal64
 title: HSTRING_UserUnmarshal64 function (remotesystemadditionalinfo.h)
-
 description: Unmarshals an HSTRING object from the RPC buffer.
 old-location: winrt\hstring_userunmarshal64.htm
 tech.root: WinRT
 ms.assetid: CD6F7DCD-23D8-4485-9803-142EE9730458
-
 ms.date: 12/05/2018
 ms.keywords: HSTRING_UserUnmarshal64, HSTRING_UserUnmarshal64 function [Windows Runtime], remotesystemadditionalinfo/HSTRING_UserUnmarshal64, winrt.hstring_userunmarshal64
 ms.topic: function
-f1_keywords: 
- - "remotesystemadditionalinfo/HSTRING_UserUnmarshal64"
+f1_keywords:
+- remotesystemadditionalinfo/HSTRING_UserUnmarshal64
 dev_langs:
- - c++
+- c++
 req.header: remotesystemadditionalinfo.h
 req.include-header: Winstring.h, Inspectable.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: RuntimeObject.lib
 req.dll: ComBase.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - ComBase.dll
- - API-MS-Win-Core-WinRT-String-l1-1-0.dll
- - API-MS-Win-Core-WinRT-String-L1-1-1.dll
+- ComBase.dll
+- API-MS-Win-Core-WinRT-String-l1-1-0.dll
+- API-MS-Win-Core-WinRT-String-L1-1-1.dll
 api_name:
- - HSTRING_UserUnmarshal64
+- HSTRING_UserUnmarshal64
 targetos: Windows
 req.typenames: 
 req.redist: 

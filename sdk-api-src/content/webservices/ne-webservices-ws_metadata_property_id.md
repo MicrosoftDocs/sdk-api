@@ -1,19 +1,17 @@
 ---
 UID: NE:webservices.__unnamed_enum_104
 title: WS_METADATA_PROPERTY_ID (webservices.h)
-
 description: Each metadata property is of type WS_METADATA_PROPERTY, is identified by an ID, and has an associated value. If a property is not specified when the metadata is created, then its default value is used.
 old-location: wsw\ws_metadata_property_id.htm
 tech.root: wsw
 ms.assetid: d3baa961-4701-4f2f-9263-5ac0266f6056
-
 ms.date: 12/05/2018
 ms.keywords: WS_METADATA_PROPERTY_HEAP_PROPERTIES, WS_METADATA_PROPERTY_HEAP_REQUESTED_SIZE, WS_METADATA_PROPERTY_HOST_NAMES, WS_METADATA_PROPERTY_ID, WS_METADATA_PROPERTY_ID enumeration [Web Services for Windows], WS_METADATA_PROPERTY_MAX_DOCUMENTS, WS_METADATA_PROPERTY_POLICY_PROPERTIES, WS_METADATA_PROPERTY_STATE, WS_METADATA_PROPERTY_VERIFY_HOST_NAMES, webservices/WS_METADATA_PROPERTY_HEAP_PROPERTIES, webservices/WS_METADATA_PROPERTY_HEAP_REQUESTED_SIZE, webservices/WS_METADATA_PROPERTY_HOST_NAMES, webservices/WS_METADATA_PROPERTY_ID, webservices/WS_METADATA_PROPERTY_MAX_DOCUMENTS, webservices/WS_METADATA_PROPERTY_POLICY_PROPERTIES, webservices/WS_METADATA_PROPERTY_STATE, webservices/WS_METADATA_PROPERTY_VERIFY_HOST_NAMES, wsw.ws_metadata_property_id
 ms.topic: enum
 f1_keywords:
 - webservices/WS_METADATA_PROPERTY_ID
 dev_langs:
- - c++
+- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

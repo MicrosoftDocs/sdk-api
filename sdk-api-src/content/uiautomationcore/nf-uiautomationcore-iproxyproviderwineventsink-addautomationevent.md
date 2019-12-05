@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationcore.IProxyProviderWinEventSink.AddAutomationEvent
 title: IProxyProviderWinEventSink::AddAutomationEvent (uiautomationcore.h)
-
 description: Raises a Microsoft UI Automation event.
 old-location: winauto\uiauto_IProxyProviderWinEventSink_AddAutomationEvent.htm
 tech.root: WinAuto
 ms.assetid: c1730b6b-f399-4e1f-91d4-5d5e40835a74
-
 ms.date: 12/05/2018
 ms.keywords: AddAutomationEvent, AddAutomationEvent method [Windows Accessibility], AddAutomationEvent method [Windows Accessibility],IProxyProviderWinEventSink interface, IProxyProviderWinEventSink interface [Windows Accessibility],AddAutomationEvent method, IProxyProviderWinEventSink.AddAutomationEvent, IProxyProviderWinEventSink::AddAutomationEvent, uiauto.uiauto_IProxyProviderWinEventSink_AddAutomationEvent, uiauto_IProxyProviderWinEventSink_AddAutomationEvent, uiautomationcore/IProxyProviderWinEventSink::AddAutomationEvent, winauto.uiauto_IProxyProviderWinEventSink_AddAutomationEvent
 ms.topic: method
-f1_keywords: 
- - "uiautomationcore/IProxyProviderWinEventSink.AddAutomationEvent"
+f1_keywords:
+- uiautomationcore/IProxyProviderWinEventSink.AddAutomationEvent
 dev_langs:
- - c++
+- c++
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationCore.h
+- UIAutomationCore.h
 api_name:
- - IProxyProviderWinEventSink.AddAutomationEvent
+- IProxyProviderWinEventSink.AddAutomationEvent
 targetos: Windows
 req.typenames: 
 req.redist: 

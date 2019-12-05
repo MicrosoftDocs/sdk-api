@@ -1,19 +1,17 @@
 ---
 UID: NF:winbase.DeleteUmsThreadContext
 title: DeleteUmsThreadContext function (winbase.h)
-
 description: Deletes the specified user-mode scheduling (UMS) thread context. The thread must be terminated.
 old-location: base\deleteumsthreadcontext.htm
 tech.root: ProcThread
 ms.assetid: cdd118fc-f664-44ce-958d-857216ceb9a7
-
 ms.date: 12/05/2018
 ms.keywords: DeleteUmsThreadContext, DeleteUmsThreadContext function, base.deleteumsthreadcontext, winbase/DeleteUmsThreadContext
 ms.topic: function
-f1_keywords: 
- - "winbase/DeleteUmsThreadContext"
+f1_keywords:
+- winbase/DeleteUmsThreadContext
 dev_langs:
- - c++
+- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - kernel32.dll
- - API-MS-Win-Core-ums-l1-1-0.dll
+- kernel32.dll
+- API-MS-Win-Core-ums-l1-1-0.dll
 api_name:
- - DeleteUmsThreadContext
+- DeleteUmsThreadContext
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:dvbsiparser.IDvbSiParser.GetNIT
 title: IDvbSiParser::GetNIT (dvbsiparser.h)
-
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\idvbsiparser_getnit.htm
 tech.root: mstv
 ms.assetid: a7c802ad-908f-4778-b8db-02fff4f3a13e
-
 ms.date: 12/05/2018
 ms.keywords: GetNIT, GetNIT method [Microsoft TV Technologies], GetNIT method [Microsoft TV Technologies],IDvbSiParser interface, IDvbSiParser interface [Microsoft TV Technologies],GetNIT method, IDvbSiParser.GetNIT, IDvbSiParser::GetNIT, IDvbSiParserGetNIT, dvbsiparser/IDvbSiParser::GetNIT, mstv.idvbsiparser_getnit
 ms.topic: method
-f1_keywords: 
- - "dvbsiparser/IDvbSiParser.GetNIT"
+f1_keywords:
+- dvbsiparser/IDvbSiParser.GetNIT
 dev_langs:
- - c++
+- c++
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dvbsiparser.h
+- dvbsiparser.h
 api_name:
- - IDvbSiParser.GetNIT
+- IDvbSiParser.GetNIT
 targetos: Windows
 req.typenames: 
 req.redist: 

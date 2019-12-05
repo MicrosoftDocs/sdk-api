@@ -1,19 +1,17 @@
 ---
 UID: NF:ktmw32.ReadOnlyEnlistment
 title: ReadOnlyEnlistment function (ktmw32.h)
-
 description: Requests that the specified enlistment be converted to a read-only enlistment. A read-only enlistment cannot participate in the outcome of the transaction and is not durably recorded for recovery.
 old-location: fs\readonlyenlistment.htm
 tech.root: ktm
 ms.assetid: a6411fad-8ad0-4a31-9e09-0c18dd384634
-
 ms.date: 12/05/2018
 ms.keywords: ReadOnlyEnlistment, ReadOnlyEnlistment function [Files], fs.readonlyenlistment, ktmw32/ReadOnlyEnlistment
 ms.topic: function
-f1_keywords: 
- - "ktmw32/ReadOnlyEnlistment"
+f1_keywords:
+- ktmw32/ReadOnlyEnlistment
 dev_langs:
- - c++
+- c++
 req.header: ktmw32.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Ktmw32.lib
 req.dll: Ktmw32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ktmw32.dll
+- Ktmw32.dll
 api_name:
- - ReadOnlyEnlistment
+- ReadOnlyEnlistment
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:vswriter.IVssWMFiledesc.GetAlternateLocation
 title: IVssWMFiledesc::GetAlternateLocation (vswriter.h)
-
 description: The GetAlternateLocation method obtains an alternate location for a file set.
 old-location: base\ivsswmfiledesc_getalternatelocation.htm
 tech.root: VSS
 ms.assetid: 3bb787eb-ac15-40d0-9901-b869442399c5
-
 ms.date: 12/05/2018
 ms.keywords: GetAlternateLocation, GetAlternateLocation method [VSS], GetAlternateLocation method [VSS],IVssWMFiledesc interface, IVssWMFiledesc interface [VSS],GetAlternateLocation method, IVssWMFiledesc.GetAlternateLocation, IVssWMFiledesc::GetAlternateLocation, _win32_ivsswmfiledesc_getalternatelocation, base.ivsswmfiledesc_getalternatelocation, vswriter/IVssWMFiledesc::GetAlternateLocation
 ms.topic: method
-f1_keywords: 
- - "vswriter/IVssWMFiledesc.GetAlternateLocation"
+f1_keywords:
+- vswriter/IVssWMFiledesc.GetAlternateLocation
 dev_langs:
- - c++
+- c++
 req.header: vswriter.h
 req.include-header: Vss.h, VsWriter.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: VssApi.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - VssApi.lib
- - VssApi.dll
+- VssApi.lib
+- VssApi.dll
 api_name:
- - IVssWMFiledesc.GetAlternateLocation
+- IVssWMFiledesc.GetAlternateLocation
 targetos: Windows
 req.typenames: 
 req.redist: 

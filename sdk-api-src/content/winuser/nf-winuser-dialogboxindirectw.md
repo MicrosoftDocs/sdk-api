@@ -1,19 +1,17 @@
 ---
 UID: NF:winuser.DialogBoxIndirectW
 title: DialogBoxIndirectW macro (winuser.h)
-
 description: Creates a modal dialog box from a dialog box template in memory. DialogBoxIndirect does not return control until the specified callback function terminates the modal dialog box by calling the EndDialog function.
 old-location: dlgbox\dialogboxindirect.htm
 tech.root: dlgbox
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\dialogboxes\dialogboxreference\dialogboxfunctions\dialogboxindirect.htm
-
 ms.date: 12/05/2018
 ms.keywords: DialogBoxIndirect, DialogBoxIndirect function [Dialog Boxes], DialogBoxIndirectA, DialogBoxIndirectW, _win32_DialogBoxIndirect, _win32_dialogboxindirect_cpp, dlgbox.dialogboxindirect, winui._win32_dialogboxindirect, winuser/DialogBoxIndirect, winuser/DialogBoxIndirectA, winuser/DialogBoxIndirectW
 ms.topic: macro
-f1_keywords: 
- - "winuser/DialogBoxIndirect"
+f1_keywords:
+- winuser/DialogBoxIndirect
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - User32.dll
+- User32.dll
 api_name:
- - DialogBoxIndirect
- - DialogBoxIndirectA
- - DialogBoxIndirectW
+- DialogBoxIndirect
+- DialogBoxIndirectA
+- DialogBoxIndirectW
 targetos: Windows
 req.typenames: 
 req.redist: 

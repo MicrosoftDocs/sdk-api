@@ -1,19 +1,17 @@
 ---
 UID: NF:dbghelp.SymQueryInlineTrace
 title: SymQueryInlineTrace function (dbghelp.h)
-
 description: Queries an inline trace.
 old-location: base\symqueryinlinetrace.htm
 tech.root: Debug
 ms.assetid: e65cf979-f482-4019-ab67-5e908d23bcfa
-
 ms.date: 12/05/2018
 ms.keywords: SymQueryInlineTrace, SymQueryInlineTrace function, base.symqueryinlinetrace, dbghelp/SymQueryInlineTrace
 ms.topic: function
-f1_keywords: 
- - "dbghelp/SymQueryInlineTrace"
+f1_keywords:
+- dbghelp/SymQueryInlineTrace
 dev_langs:
- - c++
+- c++
 req.header: dbghelp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: DbgHelp.lib
 req.dll: DbgHelp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - DbgHelp.dll
+- DbgHelp.dll
 api_name:
- - SymQueryInlineTrace
+- SymQueryInlineTrace
 targetos: Windows
 req.typenames: 
 req.redist: DbgHelp.dll 6.2 or later

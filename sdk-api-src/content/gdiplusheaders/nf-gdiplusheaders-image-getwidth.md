@@ -1,19 +1,17 @@
 ---
 UID: NF:gdiplusheaders.Image.GetWidth
 title: Image::GetWidth (gdiplusheaders.h)
-
 description: The Image::GetWidth method gets the width, in pixels, of this image.
 old-location: gdiplus\_gdiplus_CLASS_Image_GetWidth_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\imageclass\imagemethods\getwidth_81.htm
-
 ms.date: 12/05/2018
 ms.keywords: GetWidth, GetWidth method [GDI+], GetWidth method [GDI+],Image class, Image class [GDI+],GetWidth method, Image.GetWidth, Image::GetWidth, _gdiplus_CLASS_Image_GetWidth_, gdiplus._gdiplus_CLASS_Image_GetWidth_
 ms.topic: method
-f1_keywords: 
- - "gdiplusheaders/Image.GetWidth"
+f1_keywords:
+- gdiplusheaders/Image.GetWidth
 dev_langs:
- - c++
+- c++
 req.header: gdiplusheaders.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - Image.GetWidth
+- Image.GetWidth
 targetos: Windows
 req.typenames: 
 req.redist: 

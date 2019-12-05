@@ -1,19 +1,17 @@
 ---
 UID: NN:comsvcs.IServicePartitionConfig
 title: IServicePartitionConfig (comsvcs.h)
-
 description: Configures how partitions are used for the work that is done when calling either CoCreateActivity or CoEnterServiceDomain.
 old-location: cos\iservicepartitionconfig.htm
 tech.root: cossdk
 ms.assetid: 63dcc64b-edd5-4188-a87b-46452c3b624f
-
 ms.date: 12/05/2018
 ms.keywords: IServicePartitionConfig, IServicePartitionConfig interface [COM+], IServicePartitionConfig interface [COM+],described, _cos_IServicePartitionConfi, comsvcs/IServicePartitionConfig, cos.iservicepartitionconfig
 ms.topic: interface
-f1_keywords: 
- - "comsvcs/IServicePartitionConfig"
+f1_keywords:
+- comsvcs/IServicePartitionConfig
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - IServicePartitionConfig
+- IServicePartitionConfig
 targetos: Windows
 req.typenames: 
 req.redist: 

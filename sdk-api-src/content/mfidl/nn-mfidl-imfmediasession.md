@@ -1,19 +1,17 @@
 ---
 UID: NN:mfidl.IMFMediaSession
 title: IMFMediaSession (mfidl.h)
-
 description: Provides playback controls for protected and unprotected content.
 old-location: mf\imfmediasession.htm
 tech.root: medfound
 ms.assetid: feebf891-73fa-4fe6-94ca-3594986fc92d
-
 ms.date: 12/05/2018
 ms.keywords: IMFMediaSession, IMFMediaSession interface [Media Foundation], IMFMediaSession interface [Media Foundation],described, feebf891-73fa-4fe6-94ca-3594986fc92d, mf.imfmediasession, mfidl/IMFMediaSession
 ms.topic: interface
-f1_keywords: 
- - "mfidl/IMFMediaSession"
+f1_keywords:
+- mfidl/IMFMediaSession
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFMediaSession
+- IMFMediaSession
 targetos: Windows
 req.typenames: 
 req.redist: 

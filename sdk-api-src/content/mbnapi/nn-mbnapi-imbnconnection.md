@@ -1,19 +1,17 @@
 ---
 UID: NN:mbnapi.IMbnConnection
 title: IMbnConnection (mbnapi.h)
-
 description: Represents the network connectivity of a device.
 old-location: mbn\imbnconnection.htm
 tech.root: mbn
 ms.assetid: dae6ce6f-2534-4799-8ed3-53cd1f2eca13
-
 ms.date: 12/05/2018
 ms.keywords: IMbnConnection, IMbnConnection interface [Microsoft Broadband Networks], IMbnConnection interface [Microsoft Broadband Networks],described, mbn.imbnconnection, mbnapi/IMbnConnection
 ms.topic: interface
-f1_keywords: 
- - "mbnapi/IMbnConnection"
+f1_keywords:
+- mbnapi/IMbnConnection
 dev_langs:
- - c++
+- c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mbnapi.h
+- mbnapi.h
 api_name:
- - IMbnConnection
+- IMbnConnection
 targetos: Windows
 req.typenames: 
 req.redist: 

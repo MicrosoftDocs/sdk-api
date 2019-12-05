@@ -1,19 +1,17 @@
 ---
 UID: NF:ddeml.DdePostAdvise
 title: DdePostAdvise function (ddeml.h)
-
 description: Causes the system to send an XTYP_ADVREQ transaction to the calling (server) application's Dynamic Data Exchange (DDE) callback function for each client with an active advise loop on the specified topic and item.
 old-location: dataxchg\ddepostadvise.htm
 tech.root: dataxchg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\dataexchange\dynamicdataexchangemanagementlibrary\dynamicdataexchangemanagementreference\dynamicdataexchangemanagementfunctions\ddepostadvise.htm
-
 ms.date: 12/05/2018
 ms.keywords: DdePostAdvise, DdePostAdvise function [Data Exchange], _win32_DdePostAdvise, _win32_ddepostadvise_cpp, dataxchg.ddepostadvise, ddeml/DdePostAdvise, winui._win32_ddepostadvise
 ms.topic: function
-f1_keywords: 
- - "ddeml/DdePostAdvise"
+f1_keywords:
+- ddeml/DdePostAdvise
 dev_langs:
- - c++
+- c++
 req.header: ddeml.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - User32.dll
+- User32.dll
 api_name:
- - DdePostAdvise
+- DdePostAdvise
 targetos: Windows
 req.typenames: 
 req.redist: 

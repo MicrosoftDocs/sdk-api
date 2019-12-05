@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationcoreapi.WindowPattern_WaitForInputIdle
 title: WindowPattern_WaitForInputIdle function (uiautomationcoreapi.h)
-
 description: Causes the calling code to block for the specified time or until the associated process enters an idle state, whichever completes first.
 old-location: winauto\uiauto_WindowPattern_WaitForInputIdleConPat.htm
 tech.root: WinAuto
 ms.assetid: c2a319bd-9698-4671-b3d9-bcfd07c15aef
-
 ms.date: 12/05/2018
 ms.keywords: WindowPattern_WaitForInputIdle, WindowPattern_WaitForInputIdle function [Windows Accessibility], uiauto.uiauto_WindowPattern_WaitForInputIdleConPat, uiauto_WindowPattern_WaitForInputIdleConPat, uiautomationcoreapi/WindowPattern_WaitForInputIdle, winauto.uiauto_WindowPattern_WaitForInputIdleConPat
 ms.topic: function
-f1_keywords: 
- - "uiautomationcoreapi/WindowPattern_WaitForInputIdle"
+f1_keywords:
+- uiautomationcoreapi/WindowPattern_WaitForInputIdle
 dev_langs:
- - c++
+- c++
 req.header: uiautomationcoreapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uiautomationcore.lib
 req.dll: Uiautomationcore.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Uiautomationcore.dll
+- Uiautomationcore.dll
 api_name:
- - WindowPattern_WaitForInputIdle
+- WindowPattern_WaitForInputIdle
 targetos: Windows
 req.typenames: 
 req.redist: 

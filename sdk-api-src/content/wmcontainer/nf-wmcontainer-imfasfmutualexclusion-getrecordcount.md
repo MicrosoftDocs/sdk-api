@@ -1,19 +1,17 @@
 ---
 UID: NF:wmcontainer.IMFASFMutualExclusion.GetRecordCount
 title: IMFASFMutualExclusion::GetRecordCount (wmcontainer.h)
-
 description: Retrieves the number of records in the Advanced Systems Format mutual exclusion object.
 old-location: mf\imfasfmutualexclusion_getrecordcount.htm
 tech.root: medfound
 ms.assetid: 8dbd883e-4ae3-422d-bb2e-087a9e311558
-
 ms.date: 12/05/2018
 ms.keywords: 8dbd883e-4ae3-422d-bb2e-087a9e311558, GetRecordCount, GetRecordCount method [Media Foundation], GetRecordCount method [Media Foundation],IMFASFMutualExclusion interface, IMFASFMutualExclusion interface [Media Foundation],GetRecordCount method, IMFASFMutualExclusion.GetRecordCount, IMFASFMutualExclusion::GetRecordCount, mf.imfasfmutualexclusion_getrecordcount, wmcontainer/IMFASFMutualExclusion::GetRecordCount
 ms.topic: method
-f1_keywords: 
- - "wmcontainer/IMFASFMutualExclusion.GetRecordCount"
+f1_keywords:
+- wmcontainer/IMFASFMutualExclusion.GetRecordCount
 dev_langs:
- - c++
+- c++
 req.header: wmcontainer.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFASFMutualExclusion.GetRecordCount
+- IMFASFMutualExclusion.GetRecordCount
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NE:certenroll.X509CertificateTemplatePrivateKeyFlag
 title: X509CertificateTemplatePrivateKeyFlag (certenroll.h)
-
 description: Contains values that specify client actions regarding a private key.
 old-location: security\x509certificatetemplateprivatekeyflag.htm
 tech.root: seccertenroll
 ms.assetid: b908b5fb-9089-493d-9ef4-1fe429ec43d4
-
 ms.date: 12/05/2018
 ms.keywords: PrivateKeyExportable, PrivateKeyRequireAlternateSignatureAlgorithm, PrivateKeyRequireArchival, PrivateKeyRequireStrongKeyProtection, X509CertificateTemplatePrivateKeyFlag, X509CertificateTemplatePrivateKeyFlag enumeration [Security], certenroll/PrivateKeyExportable, certenroll/PrivateKeyRequireAlternateSignatureAlgorithm, certenroll/PrivateKeyRequireArchival, certenroll/PrivateKeyRequireStrongKeyProtection, certenroll/X509CertificateTemplatePrivateKeyFlag, security.x509certificatetemplateprivatekeyflag
 ms.topic: enum
-f1_keywords: 
- - "certenroll/X509CertificateTemplatePrivateKeyFlag"
+f1_keywords:
+- certenroll/X509CertificateTemplatePrivateKeyFlag
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - CertEnroll.h
+- CertEnroll.h
 api_name:
- - X509CertificateTemplatePrivateKeyFlag
+- X509CertificateTemplatePrivateKeyFlag
 targetos: Windows
 req.typenames: X509CertificateTemplatePrivateKeyFlag
 req.redist: 

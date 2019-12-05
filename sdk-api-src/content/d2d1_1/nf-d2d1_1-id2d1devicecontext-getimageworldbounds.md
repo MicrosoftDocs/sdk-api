@@ -1,19 +1,17 @@
 ---
 UID: NF:d2d1_1.ID2D1DeviceContext.GetImageWorldBounds
 title: ID2D1DeviceContext::GetImageWorldBounds (d2d1_1.h)
-
 description: Gets the bounds of an image with the world transform of the context applied.
 old-location: direct2d\id2d1devicecontext_getimageworldbounds.htm
 tech.root: Direct2D
 ms.assetid: 939531E1-B641-48EF-B129-AC3AA5226919
-
 ms.date: 12/05/2018
 ms.keywords: GetImageWorldBounds, GetImageWorldBounds method [Direct2D], GetImageWorldBounds method [Direct2D],ID2D1DeviceContext interface, ID2D1DeviceContext interface [Direct2D],GetImageWorldBounds method, ID2D1DeviceContext.GetImageWorldBounds, ID2D1DeviceContext::GetImageWorldBounds, d2d1_1/ID2D1DeviceContext::GetImageWorldBounds, direct2d.id2d1devicecontext_getimageworldbounds
 ms.topic: method
-f1_keywords: 
- - "d2d1_1/ID2D1DeviceContext.GetImageWorldBounds"
+f1_keywords:
+- d2d1_1/ID2D1DeviceContext.GetImageWorldBounds
 dev_langs:
- - c++
+- c++
 req.header: d2d1_1.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: D2d1.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D2d1.dll
+- D2d1.dll
 api_name:
- - ID2D1DeviceContext.GetImageWorldBounds
+- ID2D1DeviceContext.GetImageWorldBounds
 targetos: Windows
 req.typenames: 
 req.redist: 

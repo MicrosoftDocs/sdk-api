@@ -1,19 +1,17 @@
 ---
 UID: NF:mspcall.CMSPCallMultiGraph.RegisterWaitEvent
 title: CMSPCallMultiGraph::RegisterWaitEvent (mspcall.h)
-
 description: The RegisterWaitEvent method should be called only within a critical section on the call object.
 old-location: tapi3\cmspcallmultigraph_registerwaitevent.htm
 tech.root: Tapi
 ms.assetid: 3c75ed75-a0b2-435b-aa49-c1e7dadf260f
-
 ms.date: 12/05/2018
 ms.keywords: CMSPCallMultiGraph interface [TAPI 2.2],RegisterWaitEvent method, CMSPCallMultiGraph.RegisterWaitEvent, CMSPCallMultiGraph::RegisterWaitEvent, RegisterWaitEvent, RegisterWaitEvent method [TAPI 2.2], RegisterWaitEvent method [TAPI 2.2],CMSPCallMultiGraph interface, _tapi3_cmspcallmultigraph_registerwaitevent, mspcall/CMSPCallMultiGraph::RegisterWaitEvent, tapi3.cmspcallmultigraph_registerwaitevent
 ms.topic: method
-f1_keywords: 
- - "mspcall/CMSPCallMultiGraph.RegisterWaitEvent"
+f1_keywords:
+- mspcall/CMSPCallMultiGraph.RegisterWaitEvent
 dev_langs:
- - c++
+- c++
 req.header: mspcall.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mspcall.h
+- Mspcall.h
 api_name:
- - CMSPCallMultiGraph.RegisterWaitEvent
+- CMSPCallMultiGraph.RegisterWaitEvent
 targetos: Windows
 req.typenames: 
 req.redist: 

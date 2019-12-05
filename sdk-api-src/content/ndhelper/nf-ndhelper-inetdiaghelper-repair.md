@@ -1,19 +1,17 @@
 ---
 UID: NF:ndhelper.INetDiagHelper.Repair
 title: INetDiagHelper::Repair (ndhelper.h)
-
 description: Performs a repair specified by the input parameter.
 old-location: ndf\inetdiaghelpe_repair.htm
 tech.root: NDF
 ms.assetid: 1892cbc8-01fd-4536-b29e-de733b0f6732
-
 ms.date: 12/05/2018
 ms.keywords: INetDiagHelper interface [NDF],Repair method, INetDiagHelper.Repair, INetDiagHelper::Repair, Repair, Repair method [NDF], Repair method [NDF],INetDiagHelper interface, ndf.inetdiaghelpe_repair, ndhelper/INetDiagHelper::Repair
 ms.topic: method
-f1_keywords: 
- - "ndhelper/INetDiagHelper.Repair"
+f1_keywords:
+- ndhelper/INetDiagHelper.Repair
 dev_langs:
- - c++
+- c++
 req.header: ndhelper.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ndhelper.h
+- ndhelper.h
 api_name:
- - INetDiagHelper.Repair
+- INetDiagHelper.Repair
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NN:uiautomationcore.IDragProvider
 title: IDragProvider (uiautomationcore.h)
-
 description: Enables a Microsoft UI Automation element to describe itself as an element that can be dragged as part of a drag-and-drop operation.
 old-location: winauto\uiauto_idragprovider.htm
 tech.root: WinAuto
 ms.assetid: FAC4A56D-17BC-42E6-A03E-EE45D717DE37
-
 ms.date: 12/05/2018
 ms.keywords: IDragProvider, IDragProvider interface [Windows Accessibility], IDragProvider interface [Windows Accessibility],described, uiautomationcore/IDragProvider, winauto.uiauto_idragprovider
 ms.topic: interface
-f1_keywords: 
- - "uiautomationcore/IDragProvider"
+f1_keywords:
+- uiautomationcore/IDragProvider
 dev_langs:
- - c++
+- c++
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: UIAutomationCore.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationCore.dll
+- UIAutomationCore.dll
 api_name:
- - IDragProvider
+- IDragProvider
 targetos: Windows
 req.typenames: 
 req.redist: 

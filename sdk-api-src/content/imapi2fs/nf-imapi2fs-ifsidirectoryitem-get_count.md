@@ -1,19 +1,17 @@
 ---
 UID: NF:imapi2fs.IFsiDirectoryItem.get_Count
 title: IFsiDirectoryItem::get_Count (imapi2fs.h)
-
 description: Number of child items in the enumeration.
 old-location: imapi\ifsidirectoryitem_get_count.htm
 tech.root: imapi
 ms.assetid: 66553025-35c9-4902-a184-01c07a478977
-
 ms.date: 12/05/2018
 ms.keywords: IFsiDirectoryItem interface [IMAPI],get_Count method, IFsiDirectoryItem.get_Count, IFsiDirectoryItem::get_Count, get_Count, get_Count method [IMAPI], get_Count method [IMAPI],IFsiDirectoryItem interface, imapi.ifsidirectoryitem_get_count, imapi2fs/IFsiDirectoryItem::get_Count
 ms.topic: method
-f1_keywords: 
- - "imapi2fs/IFsiDirectoryItem.get_Count"
+f1_keywords:
+- imapi2fs/IFsiDirectoryItem.get_Count
 dev_langs:
- - c++
+- c++
 req.header: imapi2fs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - imapi2fs.h
+- imapi2fs.h
 api_name:
- - IFsiDirectoryItem.get_Count
+- IFsiDirectoryItem.get_Count
 targetos: Windows
 req.typenames: 
 req.redist: 

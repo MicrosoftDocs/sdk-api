@@ -1,19 +1,17 @@
 ---
 UID: NF:msinkaut.IInkRecognizer.get_Capabilities
 title: IInkRecognizer::get_Capabilities (msinkaut.h)
-
 description: Gets the capabilities of the IInkRecognizer object.
 old-location: tablet\iinkrecognizer_capabilities.htm
 tech.root: tablet
 ms.assetid: c8662817-0a33-4828-8de7-c4ce259738a7
-
 ms.date: 12/05/2018
 ms.keywords: Capabilities property [Tablet PC], Capabilities property [Tablet PC],IInkRecognizer interface, IInkRecognizer interface [Tablet PC],Capabilities property, IInkRecognizer.Capabilities, IInkRecognizer.get_Capabilities, IInkRecognizer::Capabilities, IInkRecognizer::get_Capabilities, c8662817-0a33-4828-8de7-c4ce259738a7, get_Capabilities, msinkaut/IInkRecognizer::Capabilities, msinkaut/IInkRecognizer::get_Capabilities, tablet.iinkrecognizer_capabilities
 ms.topic: method
-f1_keywords: 
- - "msinkaut/IInkRecognizer.Capabilities"
+f1_keywords:
+- msinkaut/IInkRecognizer.Capabilities
 dev_langs:
- - c++
+- c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: InkObj.dll
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - InkObj.dll
- - InkObj.dll.dll
+- InkObj.dll
+- InkObj.dll.dll
 api_name:
- - IInkRecognizer.Capabilities
- - IInkRecognizer.get_Capabilities
- - IInkRecognizer.get_Capabilities
+- IInkRecognizer.Capabilities
+- IInkRecognizer.get_Capabilities
+- IInkRecognizer.get_Capabilities
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:ocidl.IFont.IsEqual
 title: IFont::IsEqual (ocidl.h)
-
 description: Compares this font object to another for equivalence.
 old-location: com\ifont_isequal.htm
 tech.root: com
 ms.assetid: becef75d-8342-4b4f-82e2-f1cca4eb619e
-
 ms.date: 12/05/2018
 ms.keywords: IFont interface [COM],IsEqual method, IFont.IsEqual, IFont::IsEqual, IsEqual, IsEqual method [COM], IsEqual method [COM],IFont interface, _ctrl_ifont_isequal, com.ifont_isequal, ocidl/IFont::IsEqual
 ms.topic: method
-f1_keywords: 
- - "ocidl/IFont.IsEqual"
+f1_keywords:
+- ocidl/IFont.IsEqual
 dev_langs:
- - c++
+- c++
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - OCIdl.h
+- OCIdl.h
 api_name:
- - IFont.IsEqual
+- IFont.IsEqual
 targetos: Windows
 req.typenames: 
 req.redist: 

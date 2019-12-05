@@ -1,19 +1,17 @@
 ---
 UID: NF:winbase.CallNamedPipeA
 title: CallNamedPipeA function (winbase.h)
-
 description: Connects to a message-type pipe (and waits if an instance of the pipe is not available), writes to and reads from the pipe, and then closes the pipe.
 old-location: base\callnamedpipe.htm
 tech.root: ipc
 ms.assetid: 9cfcb608-a539-4eb6-866c-81dafdabbcdb
-
 ms.date: 12/05/2018
 ms.keywords: CallNamedPipe, CallNamedPipe function, CallNamedPipeA, CallNamedPipeW, NMPWAIT_NOWAIT, NMPWAIT_USE_DEFAULT_WAIT, NMPWAIT_WAIT_FOREVER, _win32_callnamedpipe, base.callnamedpipe, winbase/CallNamedPipe, winbase/CallNamedPipeA, winbase/CallNamedPipeW
 ms.topic: function
-f1_keywords: 
- - "winbase/CallNamedPipe"
+f1_keywords:
+- winbase/CallNamedPipe
 dev_langs:
- - c++
+- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,20 +30,20 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-NamedPipe-Ansi-L1-1-1.dll
- - API-MS-Win-Core-NamedPipe-L1-2-2.dll
- - Kernel32Legacy.dll
- - KernelBase.dll
+- Kernel32.dll
+- API-MS-Win-Core-NamedPipe-Ansi-L1-1-1.dll
+- API-MS-Win-Core-NamedPipe-L1-2-2.dll
+- Kernel32Legacy.dll
+- KernelBase.dll
 api_name:
- - CallNamedPipe
- - CallNamedPipeA
- - CallNamedPipeW
+- CallNamedPipe
+- CallNamedPipeA
+- CallNamedPipeW
 targetos: Windows
 req.typenames: 
 req.redist: 

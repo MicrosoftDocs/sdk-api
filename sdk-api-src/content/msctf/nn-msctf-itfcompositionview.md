@@ -1,19 +1,17 @@
 ---
 UID: NN:msctf.ITfCompositionView
 title: ITfCompositionView (msctf.h)
-
 description: The ITfCompositionView interface is implemented by the TSF manager and used by an application to obtain data about a composition view. An instance of this interface is provided by one of the ITfContextOwnerCompositionSink methods.
 old-location: tsf\itfcompositionview.htm
 tech.root: TSF
 ms.assetid: 1c8aac3e-384e-402e-aae8-11e240083603
-
 ms.date: 12/05/2018
 ms.keywords: ITfCompositionView, ITfCompositionView interface [Text Services Framework], ITfCompositionView interface [Text Services Framework],described, _tsf_itfcompositionview_ref, msctf/ITfCompositionView, tsf.itfcompositionview
 ms.topic: interface
-f1_keywords: 
- - "msctf/ITfCompositionView"
+f1_keywords:
+- msctf/ITfCompositionView
 dev_langs:
- - c++
+- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msctf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msctf.dll
+- msctf.dll
 api_name:
- - ITfCompositionView
+- ITfCompositionView
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

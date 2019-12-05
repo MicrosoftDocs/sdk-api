@@ -1,19 +1,17 @@
 ---
 UID: NF:wmp.IWMPEvents.KeyPress
 title: IWMPEvents::KeyPress (wmp.h)
-
 description: The KeyPress event occurs when a key is pressed and then released.
 old-location: wmp\iwmpevents_iwmpevents__keypress.htm
 tech.root: WMP
 ms.assetid: 72d97c04-6978-4275-9adf-2deeebb34224
-
 ms.date: 12/05/2018
 ms.keywords: IWMPEvents interface [Windows Media Player],KeyPress method, IWMPEvents.KeyPress, IWMPEvents::KeyPress, IWMPEventsKeyPress, KeyPress, KeyPress method [Windows Media Player], KeyPress method [Windows Media Player],IWMPEvents interface, wmp.iwmpevents_iwmpevents__keypress, wmp/IWMPEvents::KeyPress
 ms.topic: method
-f1_keywords: 
- - "wmp/IWMPEvents.KeyPress"
+f1_keywords:
+- wmp/IWMPEvents.KeyPress
 dev_langs:
- - c++
+- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wmp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmp.dll
+- wmp.dll
 api_name:
- - IWMPEvents.KeyPress
+- IWMPEvents.KeyPress
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NN:certenroll.ICertPropertyArchivedKeyHash
 title: ICertPropertyArchivedKeyHash (certenroll.h)
-
 description: Represents a SHA-1 hash of an encrypted private key submitted to a certification authority for archival.
 old-location: security\icertpropertyarchivedkeyhash.htm
 tech.root: seccertenroll
 ms.assetid: 06696346-b9d1-4229-991e-539862cff3c9
-
 ms.date: 12/05/2018
 ms.keywords: ICertPropertyArchivedKeyHash, ICertPropertyArchivedKeyHash interface [Security], ICertPropertyArchivedKeyHash interface [Security],described, certenroll/ICertPropertyArchivedKeyHash, security.icertpropertyarchivedkeyhash
 ms.topic: interface
-f1_keywords: 
- - "certenroll/ICertPropertyArchivedKeyHash"
+f1_keywords:
+- certenroll/ICertPropertyArchivedKeyHash
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: CertEnroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CertEnroll.dll
+- CertEnroll.dll
 api_name:
- - ICertPropertyArchivedKeyHash
+- ICertPropertyArchivedKeyHash
 targetos: Windows
 req.typenames: 
 req.redist: 

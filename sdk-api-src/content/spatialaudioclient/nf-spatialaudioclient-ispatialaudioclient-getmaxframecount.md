@@ -1,19 +1,17 @@
 ---
 UID: NF:spatialaudioclient.ISpatialAudioClient.GetMaxFrameCount
 title: ISpatialAudioClient::GetMaxFrameCount (spatialaudioclient.h)
-
 description: Gets the maximum possible frame count per processing pass. This method can be used to determine the size of the source buffer that should be allocated to convey audio data for each processing pass.
 old-location: coreaudio\ispatialaudioclient_getmaxframecount.htm
 tech.root: CoreAudio
 ms.assetid: CA28103B-6C9C-46C8-9C21-73573B42DDC4
-
 ms.date: 12/05/2018
 ms.keywords: GetMaxFrameCount, GetMaxFrameCount method [Core Audio], GetMaxFrameCount method [Core Audio],ISpatialAudioClient interface, ISpatialAudioClient interface [Core Audio],GetMaxFrameCount method, ISpatialAudioClient.GetMaxFrameCount, ISpatialAudioClient::GetMaxFrameCount, coreaudio.ispatialaudioclient_getmaxframecount, spatialaudioclient/ISpatialAudioClient::GetMaxFrameCount
 ms.topic: method
-f1_keywords: 
- - "spatialaudioclient/ISpatialAudioClient.GetMaxFrameCount"
+f1_keywords:
+- spatialaudioclient/ISpatialAudioClient.GetMaxFrameCount
 dev_langs:
- - c++
+- c++
 req.header: spatialaudioclient.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - spatialaudioclient.h
+- spatialaudioclient.h
 api_name:
- - ISpatialAudioClient.GetMaxFrameCount
+- ISpatialAudioClient.GetMaxFrameCount
 targetos: Windows
 req.typenames: 
 req.redist: 

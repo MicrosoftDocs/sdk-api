@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi.phoneSetDisplay
 title: phoneSetDisplay function (tapi.h)
-
 description: The phoneSetDisplay function causes the specified string to be displayed on the specified open phone device.
 old-location: tapi2\phonesetdisplay.htm
 tech.root: Tapi
 ms.assetid: 154efb07-7c4e-47f0-8a14-e2fe404efcb7
-
 ms.date: 12/05/2018
-ms.keywords: "_tapi2_phonesetdisplay, phoneSetDisplay, phoneSetDisplay function [TAPI 2.2], tapi/phoneSetDisplay, tapi2.phonesetdisplay"
+ms.keywords: _tapi2_phonesetdisplay, phoneSetDisplay, phoneSetDisplay function [TAPI 2.2], tapi/phoneSetDisplay, tapi2.phonesetdisplay
 ms.topic: function
-f1_keywords: 
- - "tapi/phoneSetDisplay"
+f1_keywords:
+- tapi/phoneSetDisplay
 dev_langs:
- - c++
+- c++
 req.header: tapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Tapi32.lib
 req.dll: Tapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Tapi32.dll
+- Tapi32.dll
 api_name:
- - phoneSetDisplay
+- phoneSetDisplay
 targetos: Windows
 req.typenames: 
 req.redist: 

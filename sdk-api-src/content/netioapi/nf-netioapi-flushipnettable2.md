@@ -1,19 +1,17 @@
 ---
 UID: NF:netioapi.FlushIpNetTable2
 title: FlushIpNetTable2 function (netioapi.h)
-
 description: The FlushIpNetTable2 function flushes the IP neighbor table on the local computer.
 old-location: iphlp\flushipnettable2.htm
 tech.root: IpHlp
 ms.assetid: 6ebfca41-acc3-450c-a3c5-881b8c3fca5e
-
 ms.date: 12/05/2018
 ms.keywords: AF_INET, AF_INET6, AF_UNSPEC, FlushIpNetTable2, FlushIpNetTable2 function [IP Helper], iphlp.flushipnettable2, netioapi/FlushIpNetTable2
 ms.topic: function
-f1_keywords: 
- - "netioapi/FlushIpNetTable2"
+f1_keywords:
+- netioapi/FlushIpNetTable2
 dev_langs:
- - c++
+- c++
 req.header: netioapi.h
 req.include-header: Iphlpapi.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Iphlpapi.lib
 req.dll: Iphlpapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Iphlpapi.dll
+- Iphlpapi.dll
 api_name:
- - FlushIpNetTable2
+- FlushIpNetTable2
 targetos: Windows
 req.typenames: 
 req.redist: 

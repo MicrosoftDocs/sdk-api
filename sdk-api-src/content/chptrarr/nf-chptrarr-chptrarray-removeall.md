@@ -1,19 +1,17 @@
 ---
 UID: NF:chptrarr.CHPtrArray.RemoveAll
 title: CHPtrArray::RemoveAll (chptrarr.h)
-
 description: The RemoveAll method removes all the CHPtrArray members from this array.
 old-location: wmi\chptrarray_removeall.htm
 tech.root: WmiSdk
 ms.assetid: 51de0ff1-e8e9-4484-80d6-51179ef82a51
-
 ms.date: 12/05/2018
-ms.keywords: "?RemoveAll@CHPtrArray@@QAEXXZ, CHPtrArray interface [Windows Management Instrumentation],RemoveAll method, CHPtrArray.RemoveAll, CHPtrArray::RemoveAll, RemoveAll, RemoveAll method [Windows Management Instrumentation], RemoveAll method [Windows Management Instrumentation],CHPtrArray interface, chptrarr/CHPtrArray::RemoveAll, wmi.chptrarray_removeall"
+ms.keywords: ?RemoveAll@CHPtrArray@@QAEXXZ, CHPtrArray interface [Windows Management Instrumentation],RemoveAll method, CHPtrArray.RemoveAll, CHPtrArray::RemoveAll, RemoveAll, RemoveAll method [Windows Management Instrumentation], RemoveAll method [Windows Management Instrumentation],CHPtrArray interface, chptrarr/CHPtrArray::RemoveAll, wmi.chptrarray_removeall
 ms.topic: method
-f1_keywords: 
- - "chptrarr/CHPtrArray.RemoveAll"
+f1_keywords:
+- chptrarr/CHPtrArray.RemoveAll
 dev_langs:
- - c++
+- c++
 req.header: chptrarr.h
 req.include-header: FwCommon.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: FrameDyn.lib
 req.dll: FrameDynOS.dll; FrameDyn.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - FrameDynOS.dll
- - FrameDyn.dll
+- FrameDynOS.dll
+- FrameDyn.dll
 api_name:
- - CHPtrArray.RemoveAll
- - ?RemoveAll@CHPtrArray@@QAEXXZ
+- CHPtrArray.RemoveAll
+- ?RemoveAll@CHPtrArray@@QAEXXZ
 targetos: Windows
 req.typenames: 
 req.redist: 

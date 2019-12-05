@@ -1,19 +1,17 @@
 ---
 UID: NF:wuapi.IUpdate2.get_CveIDs
 title: IUpdate2::get_CveIDs (wuapi.h)
-
 description: Gets a collection of common vulnerabilities and exposures (CVE) IDs that are associated with the update.
 old-location: wua\iupdate2_cveids.htm
 tech.root: Wua_Sdk
 ms.assetid: 536a3dea-708d-4885-bf07-4088cb83d9da
-
 ms.date: 12/05/2018
 ms.keywords: CveIDs property [Windows Update Agent], CveIDs property [Windows Update Agent],IUpdate2 interface, IUpdate2 interface [Windows Update Agent],CveIDs property, IUpdate2.CveIDs, IUpdate2.get_CveIDs, IUpdate2::CveIDs, IUpdate2::get_CveIDs, get_CveIDs, wua.iupdate2_cveids, wuapi/IUpdate2::CveIDs, wuapi/IUpdate2::get_CveIDs
 ms.topic: method
-f1_keywords: 
- - "wuapi/IUpdate2.CveIDs"
+f1_keywords:
+- wuapi/IUpdate2.CveIDs
 dev_langs:
- - c++
+- c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Wuguid.lib
 req.dll: Wuapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wuapi.dll
+- Wuapi.dll
 api_name:
- - IUpdate2.CveIDs
- - IUpdate2.get_CveIDs
+- IUpdate2.CveIDs
+- IUpdate2.get_CveIDs
 targetos: Windows
 req.typenames: 
 req.redist: 

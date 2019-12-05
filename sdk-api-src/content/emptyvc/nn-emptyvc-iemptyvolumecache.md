@@ -1,19 +1,17 @@
 ---
 UID: NN:emptyvc.IEmptyVolumeCache
 title: IEmptyVolumeCache (emptyvc.h)
-
 description: Used by the disk cleanup manager to communicate with a disk cleanup handler. Exposes methods that enable the manager to request information from a handler, and notify it of events such as the start of a scan or purge.
 old-location: lwef\iemptyvolumecache.htm
 tech.root: lwef
 ms.assetid: ba3797c2-f82c-4721-b72d-8552683a10d2
-
 ms.date: 12/05/2018
 ms.keywords: IEmptyVolumeCache, IEmptyVolumeCache interface [Legacy Windows Environment Features], IEmptyVolumeCache interface [Legacy Windows Environment Features],described, _win32_IEmptyVolumeCache, emptyvc/IEmptyVolumeCache, lwef.iemptyvolumecache, shell.iemptyvolumecache
 ms.topic: interface
-f1_keywords: 
- - "emptyvc/IEmptyVolumeCache"
+f1_keywords:
+- emptyvc/IEmptyVolumeCache
 dev_langs:
- - c++
+- c++
 req.header: emptyvc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Shell32.dll (version 5.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - IEmptyVolumeCache
+- IEmptyVolumeCache
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NN:deviceaccess.IDeviceIoControl
 title: IDeviceIoControl (deviceaccess.h)
-
 description: Sends a control code to a device driver.This action causes the device to perform the corresponding operation.
 old-location: deviceaccess\ideviceiocontrol.htm
 tech.root: deviceaccess
 ms.assetid: d285e04e-04d0-4c2a-b9f0-72eebebf4f4b
-
 ms.date: 12/05/2018
 ms.keywords: IDeviceIoControl, IDeviceIoControl interface [Device Access Broker API], IDeviceIoControl interface [Device Access Broker API],described, deviceaccess.ideviceiocontrol, deviceaccess/IDeviceIoControl
 ms.topic: interface
-f1_keywords: 
- - "deviceaccess/IDeviceIoControl"
+f1_keywords:
+- deviceaccess/IDeviceIoControl
 dev_langs:
- - c++
+- c++
 req.header: deviceaccess.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Deviceaccess.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Deviceaccess.lib
- - Deviceaccess.dll
+- Deviceaccess.lib
+- Deviceaccess.dll
 api_name:
- - IDeviceIoControl
+- IDeviceIoControl
 targetos: Windows
 req.typenames: 
 req.redist: 

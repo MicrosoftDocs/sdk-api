@@ -1,19 +1,17 @@
 ---
 UID: NN:xamlom.IVisualTreeService3
 title: IVisualTreeService3 (xamlom.h)
-
 description: Represents additional capabilities of an IVisualTreeService2 object.
 old-location: xaml_diagnostics\ivisualtreeservice3.htm
 tech.root: xaml_diagnostics
 ms.assetid: 20AD2DC4-388E-458E-AA44-8B2F3464FD6C
-
 ms.date: 12/05/2018
 ms.keywords: IVisualTreeService3, IVisualTreeService3 interface, IVisualTreeService3 interface,described, xaml_diagnostics.ivisualtreeservice3, xamlom/IVisualTreeService3
 ms.topic: interface
-f1_keywords: 
- - "xamlom/IVisualTreeService3"
+f1_keywords:
+- xamlom/IVisualTreeService3
 dev_langs:
- - c++
+- c++
 req.header: xamlom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xamlom.h
+- xamlom.h
 api_name:
- - IVisualTreeService3
+- IVisualTreeService3
 targetos: Windows
 req.typenames: 
 req.redist: 

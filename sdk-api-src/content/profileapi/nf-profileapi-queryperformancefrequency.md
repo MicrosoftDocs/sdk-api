@@ -1,19 +1,17 @@
 ---
 UID: NF:profileapi.QueryPerformanceFrequency
 title: QueryPerformanceFrequency function
-
 description: Retrieves the frequency of the performance counter.
 old-location: base\queryperformancefrequency.htm
 tech.root: SysInfo
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\timers\timerreference\timerfunctions\queryperformancefrequency.htm
-
 ms.date: 12/05/2018
 ms.keywords: QueryPerformanceFrequency, QueryPerformanceFrequency function [Windows and Messages], _win32_QueryPerformanceFrequency, _win32_queryperformancefrequency_cpp, base.queryperformancefrequency, profileapi/QueryPerformanceFrequency, winmsg.queryperformancefrequency, winui._win32_queryperformancefrequency
 ms.topic: function
-f1_keywords: 
- - "profileapi/QueryPerformanceFrequency"
+f1_keywords:
+- profileapi/QueryPerformanceFrequency
 dev_langs:
- - c++
+- c++
 req.header: profileapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-profile-l1-1-0.dll
- - KernelBase.dll
- - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
- - MinKernelBase.dll
+- Kernel32.dll
+- API-MS-Win-Core-profile-l1-1-0.dll
+- KernelBase.dll
+- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+- MinKernelBase.dll
 api_name:
- - QueryPerformanceFrequency
+- QueryPerformanceFrequency
 targetos: Windows
 req.typenames: 
 req.redist: 

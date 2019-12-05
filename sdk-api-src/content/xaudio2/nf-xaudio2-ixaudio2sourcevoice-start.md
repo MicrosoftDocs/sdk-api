@@ -1,19 +1,17 @@
 ---
 UID: NF:xaudio2.IXAudio2SourceVoice.Start
 title: IXAudio2SourceVoice::Start (xaudio2.h)
-
 description: Starts consumption and processing of audio by the voice. Delivers the result to any connected submix or mastering voices, or to the output device.
 old-location: xaudio2\ixaudio2sourcevoice_interface_start.htm
 tech.root: xaudio2
 ms.assetid: M:Microsoft.directx_sdk.ixaudio2sourcevoice.IXAudio2SourceVoice.Start(UINT32,UINT32)
-
 ms.date: 12/05/2018
 ms.keywords: IXAudio2SourceVoice interface [XAudio2 Audio Mixing APIs],Start method, IXAudio2SourceVoice.Start, IXAudio2SourceVoice::Start, Start, Start method [XAudio2 Audio Mixing APIs], Start method [XAudio2 Audio Mixing APIs],IXAudio2SourceVoice interface, xaudio2.ixaudio2sourcevoice_interface_start, xaudio2/IXAudio2SourceVoice::Start
 ms.topic: method
-f1_keywords: 
- - "xaudio2/IXAudio2SourceVoice.Start"
+f1_keywords:
+- xaudio2/IXAudio2SourceVoice.Start
 dev_langs:
- - c++
+- c++
 req.header: xaudio2.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xaudio2.h
+- xaudio2.h
 api_name:
- - IXAudio2SourceVoice.Start
+- IXAudio2SourceVoice.Start
 targetos: Windows
 req.typenames: 
 req.redist: 

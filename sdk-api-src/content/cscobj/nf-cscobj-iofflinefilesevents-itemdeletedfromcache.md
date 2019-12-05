@@ -1,19 +1,17 @@
 ---
 UID: NF:cscobj.IOfflineFilesEvents.ItemDeletedFromCache
 title: IOfflineFilesEvents::ItemDeletedFromCache (cscobj.h)
-
 description: Reports that an item has been removed from the Offline Files cache.
 old-location: of\iofflinefilesevents_itemdeletedfromcache.htm
 tech.root: offlinefiles
 ms.assetid: 358b358a-65cc-4f37-8beb-be492b83c222
-
 ms.date: 12/05/2018
 ms.keywords: IOfflineFilesEvents interface [Offline Files],ItemDeletedFromCache method, IOfflineFilesEvents.ItemDeletedFromCache, IOfflineFilesEvents::ItemDeletedFromCache, ItemDeletedFromCache, ItemDeletedFromCache method [Offline Files], ItemDeletedFromCache method [Offline Files],IOfflineFilesEvents interface, cscobj/IOfflineFilesEvents::ItemDeletedFromCache, of.iofflinefilesevents_itemdeletedfromcache
 ms.topic: method
-f1_keywords: 
- - "cscobj/IOfflineFilesEvents.ItemDeletedFromCache"
+f1_keywords:
+- cscobj/IOfflineFilesEvents.ItemDeletedFromCache
 dev_langs:
- - c++
+- c++
 req.header: cscobj.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: CscSvc.dll; CscObj.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CscSvc.dll
- - CscObj.dll
+- CscSvc.dll
+- CscObj.dll
 api_name:
- - IOfflineFilesEvents.ItemDeletedFromCache
+- IOfflineFilesEvents.ItemDeletedFromCache
 targetos: Windows
 req.typenames: 
 req.redist: 

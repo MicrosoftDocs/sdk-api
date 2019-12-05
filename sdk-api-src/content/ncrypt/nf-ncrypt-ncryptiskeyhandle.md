@@ -1,19 +1,17 @@
 ---
 UID: NF:ncrypt.NCryptIsKeyHandle
 title: NCryptIsKeyHandle function (ncrypt.h)
-
 description: Determines if the specified handle is a CNG key handle.
 old-location: security\ncryptiskeyhandle.htm
 tech.root: SecCNG
 ms.assetid: ad841c2e-8097-4b07-914e-8e7240d55585
-
 ms.date: 12/05/2018
 ms.keywords: NCryptIsKeyHandle, NCryptIsKeyHandle function [Security], ncrypt/NCryptIsKeyHandle, security.ncryptiskeyhandle
 ms.topic: function
-f1_keywords: 
- - "ncrypt/NCryptIsKeyHandle"
+f1_keywords:
+- ncrypt/NCryptIsKeyHandle
 dev_langs:
- - c++
+- c++
 req.header: ncrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Ncrypt.lib
 req.dll: Ncrypt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ncrypt.dll
+- Ncrypt.dll
 api_name:
- - NCryptIsKeyHandle
+- NCryptIsKeyHandle
 targetos: Windows
 req.typenames: 
 req.redist: 

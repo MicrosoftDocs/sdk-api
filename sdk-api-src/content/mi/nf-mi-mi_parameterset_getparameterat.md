@@ -1,19 +1,17 @@
 ---
 UID: NF:mi.MI_ParameterSet_GetParameterAt
 title: MI_ParameterSet_GetParameterAt function (mi.h)
-
 description: Gets a method's parameter information at the specified index.
 old-location: wmi_v2\mi_parameterset_getparameterat.htm
 tech.root: wmi_v2
 ms.assetid: fcfd7104-dd63-4a48-9a20-dcec0dc33242
-
 ms.date: 12/05/2018
 ms.keywords: MI_ParameterSet_GetParameterAt, MI_ParameterSet_GetParameterAt function [Windows Management Infrastructure (MI)], mi/MI_ParameterSet_GetParameterAt, wmi_v2.mi_parameterset_getparameterat
 ms.topic: function
 f1_keywords:
 - mi/MI_ParameterSet_GetParameterAt
 dev_langs:
- - c++
+- c++
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows

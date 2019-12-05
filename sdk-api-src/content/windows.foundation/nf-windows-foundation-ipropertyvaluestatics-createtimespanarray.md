@@ -1,19 +1,17 @@
 ---
 UID: NF:windows.foundation.IPropertyValueStatics.CreateTimeSpanArray
 title: IPropertyValueStatics::IPropertyValueStatics (windows.foundation.h)
-
 description: Creates a new IPropertyValue object that contains the specified array of TimeSpan values.
 old-location: winrt\ipropertyvaluestatics_createtimespanarray.htm
 tech.root: WinRT
 ms.assetid: 3f663acc-5ced-4fd2-a0d5-3e462fe60251
-
 ms.date: 12/05/2018
 ms.keywords: CreateTimeSpanArray, CreateTimeSpanArray method [Windows Runtime], CreateTimeSpanArray method [Windows Runtime],IPropertyValueStatics interface, IPropertyValueStatics interface [Windows Runtime],CreateTimeSpanArray method, IPropertyValueStatics.CreateTimeSpanArray, IPropertyValueStatics.IPropertyValueStatics, IPropertyValueStatics::CreateTimeSpanArray, IPropertyValueStatics::IPropertyValueStatics, windows/IPropertyValueStatics::CreateTimeSpanArray, winrt.ipropertyvaluefactory_createtimespanarray, winrt.ipropertyvaluestatics_createtimespanarray
 ms.topic: method
-f1_keywords: 
- - "windows.foundation/IPropertyValueStatics.CreateTimeSpanArray"
+f1_keywords:
+- windows.foundation/IPropertyValueStatics.CreateTimeSpanArray
 dev_langs:
- - c++
+- c++
 req.header: windows.foundation.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Windows.Foundation.h
+- Windows.Foundation.h
 api_name:
- - IPropertyValueStatics.CreateTimeSpanArray
+- IPropertyValueStatics.CreateTimeSpanArray
 targetos: Windows
 req.typenames: 
 req.redist: 

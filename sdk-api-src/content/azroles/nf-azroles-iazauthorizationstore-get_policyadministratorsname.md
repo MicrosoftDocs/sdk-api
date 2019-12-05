@@ -1,19 +1,17 @@
 ---
 UID: NF:azroles.IAzAuthorizationStore.get_PolicyAdministratorsName
 title: IAzAuthorizationStore::get_PolicyAdministratorsName (azroles.h)
-
 description: Retrieves the account names of principals that act as policy administrators.
 old-location: security\azauthorizationstore_policyadministratorsname.htm
 tech.root: SecAuthZ
 ms.assetid: 20f84f75-ad27-4329-90a8-46e7d817863f
-
 ms.date: 12/05/2018
 ms.keywords: AzAuthorizationStore object [Security],PolicyAdministratorsName property, IAzAuthorizationStore interface [Security],PolicyAdministratorsName property, IAzAuthorizationStore.PolicyAdministratorsName, IAzAuthorizationStore.get_PolicyAdministratorsName, IAzAuthorizationStore::PolicyAdministratorsName, IAzAuthorizationStore::get_PolicyAdministratorsName, PolicyAdministratorsName property [Security], PolicyAdministratorsName property [Security],AzAuthorizationStore object, PolicyAdministratorsName property [Security],IAzAuthorizationStore interface, azroles/IAzAuthorizationStore::PolicyAdministratorsName, azroles/IAzAuthorizationStore::get_PolicyAdministratorsName, get_PolicyAdministratorsName, security.azauthorizationstore_policyadministratorsname
 ms.topic: method
-f1_keywords: 
- - "azroles/IAzAuthorizationStore.PolicyAdministratorsName"
+f1_keywords:
+- azroles/IAzAuthorizationStore.PolicyAdministratorsName
 dev_langs:
- - c++
+- c++
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Azroles.lib
 req.dll: Azroles.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Azroles.dll
+- Azroles.dll
 api_name:
- - IAzAuthorizationStore.PolicyAdministratorsName
- - IAzAuthorizationStore.get_PolicyAdministratorsName
- - AzAuthorizationStore.PolicyAdministratorsName
+- IAzAuthorizationStore.PolicyAdministratorsName
+- IAzAuthorizationStore.get_PolicyAdministratorsName
+- AzAuthorizationStore.PolicyAdministratorsName
 targetos: Windows
 req.typenames: 
 req.redist: Windows Server 2003 Administration Tools Pack on Windows XP

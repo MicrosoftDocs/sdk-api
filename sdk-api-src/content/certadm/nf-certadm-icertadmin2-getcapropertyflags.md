@@ -1,19 +1,17 @@
 ---
 UID: NF:certadm.ICertAdmin2.GetCAPropertyFlags
 title: ICertAdmin2::GetCAPropertyFlags (certadm.h)
-
 description: The ICertAdmin2::GetCAPropertyFlags method retrieves the property flags for a certification authority (CA) property.
 old-location: security\icertadmin2_getcapropertyflags.htm
 tech.root: SecCrypto
 ms.assetid: 6f38bea1-e278-4085-b321-05f6765cc676
-
 ms.date: 12/05/2018
 ms.keywords: CCertAdmin2 object [Security],GetCAPropertyFlags method, GetCAPropertyFlags, GetCAPropertyFlags method [Security], GetCAPropertyFlags method [Security],CCertAdmin2 object, GetCAPropertyFlags method [Security],ICertAdmin2 interface, ICertAdmin2 interface [Security],GetCAPropertyFlags method, ICertAdmin2.GetCAPropertyFlags, ICertAdmin2::GetCAPropertyFlags, _certsrv_icertadmin2_getcapropertyflags, certadm/ICertAdmin2::GetCAPropertyFlags, security.icertadmin2_getcapropertyflags
 ms.topic: method
-f1_keywords: 
- - "certadm/ICertAdmin2.GetCAPropertyFlags"
+f1_keywords:
+- certadm/ICertAdmin2.GetCAPropertyFlags
 dev_langs:
- - c++
+- c++
 req.header: certadm.h
 req.include-header: Certsrv.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Certidl.lib
 req.dll: Certadm.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Certadm.dll
+- Certadm.dll
 api_name:
- - ICertAdmin2.GetCAPropertyFlags
- - CCertAdmin2.GetCAPropertyFlags
+- ICertAdmin2.GetCAPropertyFlags
+- CCertAdmin2.GetCAPropertyFlags
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:shellapi.ShellMessageBoxW
 title: ShellMessageBoxW function (shellapi.h)
-
 description: ShellMessageBox may be altered or unavailable.
 old-location: shell\ShellMessageBox.htm
 tech.root: shell
 ms.assetid: 7cbaeae3-3473-4568-90ab-63efef049af3
-
 ms.date: 12/05/2018
 ms.keywords: ShellMessageBox, ShellMessageBox function [Windows Shell], ShellMessageBoxA, ShellMessageBoxW, _win32_ShellMessageBox, shell.ShellMessageBox, shellapi/ShellMessageBox, shellapi/ShellMessageBoxA, shellapi/ShellMessageBoxW
 ms.topic: function
-f1_keywords: 
- - "shellapi/ShellMessageBox"
+f1_keywords:
+- shellapi/ShellMessageBox
 dev_langs:
- - c++
+- c++
 req.header: shellapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,21 +30,21 @@ req.lib: Shlwapi.lib
 req.dll: Shlwapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Shlwapi.dll
- - API-MS-Win-shlwapi-Winrt-storage-l1-1-0.dll
- - Ext-MS-Win-shell-shlwapi-l1-1-0.dll
- - api-ms-win-shlwapi-winrt-storage-l1-1-1.dll
- - Ext-MS-Win-Shell-ShlwApi-l1-1-1.dll
- - Ext-MS-Win-Shell-ShlwAPI-L1-1-2.dll
+- Shlwapi.dll
+- API-MS-Win-shlwapi-Winrt-storage-l1-1-0.dll
+- Ext-MS-Win-shell-shlwapi-l1-1-0.dll
+- api-ms-win-shlwapi-winrt-storage-l1-1-1.dll
+- Ext-MS-Win-Shell-ShlwApi-l1-1-1.dll
+- Ext-MS-Win-Shell-ShlwAPI-L1-1-2.dll
 api_name:
- - ShellMessageBox
- - ShellMessageBoxA
- - ShellMessageBoxW
+- ShellMessageBox
+- ShellMessageBoxA
+- ShellMessageBoxW
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NS:wtypes.tagQUERYCONTEXT
 title: QUERYCONTEXT (wtypes.h)
-
 description: Contains a list of attributes used to look up a class implementation.
 old-location: com\querycontext.htm
 tech.root: com
 ms.assetid: 5d6a17e1-dcdd-4691-aec2-f63dbcb26027
-
 ms.date: 12/05/2018
 ms.keywords: QUERYCONTEXT, QUERYCONTEXT structure [COM], _com_QUERYCONTEXT, com.querycontext, wtypes/tagQUERYCONTEXT
 ms.topic: struct
-f1_keywords: 
- - "wtypes/QUERYCONTEXT"
+f1_keywords:
+- wtypes/QUERYCONTEXT
 dev_langs:
- - c++
+- c++
 req.header: wtypes.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WTypes.h
+- WTypes.h
 api_name:
- - QUERYCONTEXT
+- QUERYCONTEXT
 targetos: Windows
 req.typenames: QUERYCONTEXT
 req.redist: 

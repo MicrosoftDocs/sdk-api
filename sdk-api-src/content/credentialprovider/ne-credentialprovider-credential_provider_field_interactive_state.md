@@ -1,19 +1,17 @@
 ---
 UID: NE:credentialprovider._CREDENTIAL_PROVIDER_FIELD_INTERACTIVE_STATE
 title: CREDENTIAL_PROVIDER_FIELD_INTERACTIVE_STATE (credentialprovider.h)
-
 description: Describes the state of a field and how it a user can interact with it. Fields can be displayed by a credential provider in a variety of different interactive states.
 old-location: shell\CREDENTIAL_PROVIDER_FIELD_INTERACTIVE_STATE.htm
 tech.root: shell
 ms.assetid: 745ac5f0-fcfe-4f42-ab4c-c933f1d3870b
-
 ms.date: 12/05/2018
 ms.keywords: CPFIS_DISABLED, CPFIS_FOCUSED, CPFIS_NONE, CPFIS_READONLY, CREDENTIAL_PROVIDER_FIELD_INTERACTIVE_STATE, CREDENTIAL_PROVIDER_FIELD_INTERACTIVE_STATE enumeration [Windows Shell], _shell_CREDENTIAL_PROVIDER_FIELD_INTERACTIVE_STATE, credentialprovider/CPFIS_DISABLED, credentialprovider/CPFIS_FOCUSED, credentialprovider/CPFIS_NONE, credentialprovider/CPFIS_READONLY, credentialprovider/CREDENTIAL_PROVIDER_FIELD_INTERACTIVE_STATE, shell.CREDENTIAL_PROVIDER_FIELD_INTERACTIVE_STATE
 ms.topic: enum
-f1_keywords: 
- - "credentialprovider/CREDENTIAL_PROVIDER_FIELD_INTERACTIVE_STATE"
+f1_keywords:
+- credentialprovider/CREDENTIAL_PROVIDER_FIELD_INTERACTIVE_STATE
 dev_langs:
- - c++
+- c++
 req.header: credentialprovider.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Credentialprovider.h
+- Credentialprovider.h
 api_name:
- - CREDENTIAL_PROVIDER_FIELD_INTERACTIVE_STATE
+- CREDENTIAL_PROVIDER_FIELD_INTERACTIVE_STATE
 targetos: Windows
 req.typenames: CREDENTIAL_PROVIDER_FIELD_INTERACTIVE_STATE
 req.redist: 

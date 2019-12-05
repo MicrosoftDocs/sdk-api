@@ -1,19 +1,17 @@
 ---
 UID: NF:fsrmquota.IFsrmQuotaManager.GetQuota
 title: IFsrmQuotaManager::GetQuota (fsrmquota.h)
-
 description: Retrieves the quota for the specified directory.
 old-location: fsrm\ifsrmquotamanager_getquota.htm
 tech.root: fsrm
 ms.assetid: 1c595714-20c9-4ca5-96a2-64b7a7c6f84e
-
 ms.date: 12/05/2018
 ms.keywords: FsrmQuotaManager class [File Server Resource Manager],GetQuota method, GetQuota, GetQuota method [File Server Resource Manager], GetQuota method [File Server Resource Manager],FsrmQuotaManager class, GetQuota method [File Server Resource Manager],IFsrmQuotaManager interface, GetQuota method [File Server Resource Manager],IFsrmQuotaManagerEx interface, IFsrmQuotaManager interface [File Server Resource Manager],GetQuota method, IFsrmQuotaManager.GetQuota, IFsrmQuotaManager::GetQuota, IFsrmQuotaManagerEx interface [File Server Resource Manager],GetQuota method, IFsrmQuotaManagerEx::GetQuota, fs.ifsrmquotamanager_getquota, fsrm.ifsrmquotamanager_getquota, fsrmquota/IFsrmQuotaManager::GetQuota, fsrmquota/IFsrmQuotaManagerEx::GetQuota
 ms.topic: method
-f1_keywords: 
- - "fsrmquota/IFsrmQuotaManager.GetQuota"
+f1_keywords:
+- fsrmquota/IFsrmQuotaManager.GetQuota
 dev_langs:
- - c++
+- c++
 req.header: fsrmquota.h
 req.include-header: FsrmQuota.h, FsrmTlb.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: SrmSvc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - SrmSvc.dll
+- SrmSvc.dll
 api_name:
- - IFsrmQuotaManager.GetQuota
- - IFsrmQuotaManagerEx.GetQuota
- - FsrmQuotaManager.GetQuota
+- IFsrmQuotaManager.GetQuota
+- IFsrmQuotaManagerEx.GetQuota
+- FsrmQuotaManager.GetQuota
 targetos: Windows
 req.typenames: 
 req.redist: 

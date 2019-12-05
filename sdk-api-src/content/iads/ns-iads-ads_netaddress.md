@@ -1,19 +1,17 @@
 ---
 UID: NS:iads.__MIDL___MIDL_itf_ads_0000_0000_0011
 title: ADS_NETADDRESS (iads.h)
-
 description: The ADS_NETADDRESS structure is an ADSI representation of the Net Address attribute syntax.
 old-location: adsi\ads_netaddress.htm
 tech.root: adsi
 ms.assetid: 108c5e24-c52b-472a-b5c6-f7d534cab892
-
 ms.date: 12/05/2018
-ms.keywords: "*PADS_NETADDRESS, ADS_NETADDRESS, ADS_NETADDRESS structure [ADSI], PADS_NETADDRESS, PADS_NETADDRESS structure pointer [ADSI], _ds_ads_netaddress, adsi.ads__netaddress, adsi.ads_netaddress, iads/ADS_NETADDRESS, iads/PADS_NETADDRESS"
+ms.keywords: '*PADS_NETADDRESS, ADS_NETADDRESS, ADS_NETADDRESS structure [ADSI], PADS_NETADDRESS, PADS_NETADDRESS structure pointer [ADSI], _ds_ads_netaddress, adsi.ads__netaddress, adsi.ads_netaddress, iads/ADS_NETADDRESS, iads/PADS_NETADDRESS'
 ms.topic: struct
-f1_keywords: 
- - "iads/ADS_NETADDRESS"
+f1_keywords:
+- iads/ADS_NETADDRESS
 dev_langs:
- - c++
+- c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Iads.h
+- Iads.h
 api_name:
- - ADS_NETADDRESS
+- ADS_NETADDRESS
 targetos: Windows
 req.typenames: ADS_NETADDRESS, *PADS_NETADDRESS
 req.redist: 

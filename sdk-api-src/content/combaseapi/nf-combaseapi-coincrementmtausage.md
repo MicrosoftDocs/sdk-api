@@ -1,19 +1,17 @@
 ---
 UID: NF:combaseapi.CoIncrementMTAUsage
 title: CoIncrementMTAUsage function (combaseapi.h)
-
 description: Keeps MTA support active when no MTA threads are running.
 old-location: com\coincrementmtausage.htm
 tech.root: com
 ms.assetid: EFE6E66A-96A3-4B51-92DD-1CE84B1F0185
-
 ms.date: 12/05/2018
 ms.keywords: CoIncrementMTAUsage, CoIncrementMTAUsage function [COM], com.coincrementmtausage, combaseapi/CoIncrementMTAUsage
 ms.topic: function
-f1_keywords: 
- - "combaseapi/CoIncrementMTAUsage"
+f1_keywords:
+- combaseapi/CoIncrementMTAUsage
 dev_langs:
- - c++
+- c++
 req.header: combaseapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Ole32.lib
 req.dll: Ole32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ole32.dll
- - API-MS-Win-Core-Com-l1-1-0.dll
- - ComBase.dll
- - API-MS-Win-Core-Com-l1-1-1.dll
+- Ole32.dll
+- API-MS-Win-Core-Com-l1-1-0.dll
+- ComBase.dll
+- API-MS-Win-Core-Com-l1-1-1.dll
 api_name:
- - CoIncrementMTAUsage
+- CoIncrementMTAUsage
 targetos: Windows
 req.typenames: 
 req.redist: 

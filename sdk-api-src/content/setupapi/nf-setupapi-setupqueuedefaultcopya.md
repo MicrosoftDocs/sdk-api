@@ -1,19 +1,17 @@
 ---
 UID: NF:setupapi.SetupQueueDefaultCopyA
 title: SetupQueueDefaultCopyA function (setupapi.h)
-
 description: The SetupQueueDefaultCopy function adds a single file to a setup file queue for copying, using the default source media and destination as specified in an INF file.
 old-location: setup\setupqueuedefaultcopy.htm
 tech.root: SetupApi
 ms.assetid: 57e8dc72-5b0e-486c-9819-fa44085580eb
-
 ms.date: 12/05/2018
 ms.keywords: SetupQueueDefaultCopy, SetupQueueDefaultCopy function [Setup API], SetupQueueDefaultCopyA, SetupQueueDefaultCopyW, _setupapi_setupqueuedefaultcopy, setup.setupqueuedefaultcopy, setupapi/SetupQueueDefaultCopy, setupapi/SetupQueueDefaultCopyA, setupapi/SetupQueueDefaultCopyW
 ms.topic: function
-f1_keywords: 
- - "setupapi/SetupQueueDefaultCopy"
+f1_keywords:
+- setupapi/SetupQueueDefaultCopy
 dev_langs:
- - c++
+- c++
 req.header: setupapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Setupapi.lib
 req.dll: Setupapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Setupapi.dll
+- Setupapi.dll
 api_name:
- - SetupQueueDefaultCopy
- - SetupQueueDefaultCopyA
- - SetupQueueDefaultCopyW
+- SetupQueueDefaultCopy
+- SetupQueueDefaultCopyA
+- SetupQueueDefaultCopyW
 targetos: Windows
 req.typenames: 
 req.redist: 

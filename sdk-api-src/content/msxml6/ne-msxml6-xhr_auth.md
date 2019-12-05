@@ -1,19 +1,17 @@
 ---
 UID: NE:msxml6._XHR_AUTH
 title: XHR_AUTH (msxml6.h)
-
 description: Specifies whether to allow authentication to be used to connect to a proxy or to connect to the HTTP server.
 old-location: ixhr2\xhr_auth.htm
 tech.root: ixhr2
 ms.assetid: 82cc5e27-c669-424d-887d-ba7f5a5c9f02
-
 ms.date: 12/05/2018
 ms.keywords: XHR_AUTH, XHR_AUTH enumeration [XMLHttpRequest2], XHR_AUTH_ALL, XHR_AUTH_NONE, XHR_AUTH_PROXY, ixhr2.xhr_auth, msxml6/XHR_AUTH, msxml6/XHR_AUTH_ALL, msxml6/XHR_AUTH_NONE, msxml6/XHR_AUTH_PROXY
 ms.topic: enum
-f1_keywords: 
- - "msxml6/XHR_AUTH"
+f1_keywords:
+- msxml6/XHR_AUTH
 dev_langs:
- - c++
+- c++
 req.header: msxml6.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - msxml6.h
+- msxml6.h
 api_name:
- - XHR_AUTH
+- XHR_AUTH
 targetos: Windows
 req.typenames: XHR_AUTH
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:uxtheme.BufferedPaintStopAllAnimations
 title: BufferedPaintStopAllAnimations function (uxtheme.h)
-
 description: Stops all buffered animations for the given window.
 old-location: controls\BufferedPaintStopAllAnimations.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\userex\functions\bufferedpaintstopallanimations.htm
-
 ms.date: 12/05/2018
 ms.keywords: BufferedPaintStopAllAnimations, BufferedPaintStopAllAnimations function [Windows Controls], _shell_BufferedPaintStopAllAnimations, _shell_BufferedPaintStopAllAnimations_cpp, controls.BufferedPaintStopAllAnimations, controls._shell_BufferedPaintStopAllAnimations, uxtheme/BufferedPaintStopAllAnimations
 ms.topic: function
-f1_keywords: 
- - "uxtheme/BufferedPaintStopAllAnimations"
+f1_keywords:
+- uxtheme/BufferedPaintStopAllAnimations
 dev_langs:
- - c++
+- c++
 req.header: uxtheme.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: UxTheme.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - UxTheme.dll
- - ext-ms-win-uxtheme-themes-l1-1-1.dll
- - xamlpalwp.dll
+- UxTheme.dll
+- ext-ms-win-uxtheme-themes-l1-1-1.dll
+- xamlpalwp.dll
 api_name:
- - BufferedPaintStopAllAnimations
+- BufferedPaintStopAllAnimations
 targetos: Windows
 req.typenames: 
 req.redist: 

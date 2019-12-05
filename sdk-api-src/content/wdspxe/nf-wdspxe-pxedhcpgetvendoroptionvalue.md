@@ -1,19 +1,17 @@
 ---
 UID: NF:wdspxe.PxeDhcpGetVendorOptionValue
 title: PxeDhcpGetVendorOptionValue function (wdspxe.h)
-
 description: Retrieves an option value from the Vendor Specific Information field (43) of a DHCP packet.
 old-location: wds\pxedhcpgetvendoroptionvalue.htm
 tech.root: wds
 ms.assetid: 0cf14db2-b2e6-4e5e-a715-429bc0af7714
-
 ms.date: 12/05/2018
 ms.keywords: PxeDhcpGetVendorOptionValue, PxeDhcpGetVendorOptionValue function [Windows Deployment Services], wds.pxedhcpgetvendoroptionvalue, wdspxe/PxeDhcpGetVendorOptionValue
 ms.topic: function
-f1_keywords: 
- - "wdspxe/PxeDhcpGetVendorOptionValue"
+f1_keywords:
+- wdspxe/PxeDhcpGetVendorOptionValue
 dev_langs:
- - c++
+- c++
 req.header: wdspxe.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: WdsPxe.lib
 req.dll: WdsPxe.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - WdsPxe.dll
+- WdsPxe.dll
 api_name:
- - PxeDhcpGetVendorOptionValue
+- PxeDhcpGetVendorOptionValue
 targetos: Windows
 req.typenames: 
 req.redist: 

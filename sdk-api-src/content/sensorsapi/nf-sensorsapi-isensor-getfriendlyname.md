@@ -1,19 +1,17 @@
 ---
 UID: NF:sensorsapi.ISensor.GetFriendlyName
 title: ISensor::GetFriendlyName (sensorsapi.h)
-
 description: Retrieves the sensor name that is intended to be seen by the user.
 old-location: winsensors_com_ref\isensor_getfriendlyname.htm
 tech.root: SensorsAPI
 ms.assetid: 380a1a93-01f7-4d5b-9916-156728fd94ed
-
 ms.date: 12/05/2018
 ms.keywords: GetFriendlyName, GetFriendlyName method, GetFriendlyName method,ISensor interface, ISensor interface,GetFriendlyName method, ISensor.GetFriendlyName, ISensor::GetFriendlyName, sensorsapi/ISensor::GetFriendlyName, winsensors_com_ref.isensor_getfriendlyname
 ms.topic: method
-f1_keywords: 
- - "sensorsapi/ISensor.GetFriendlyName"
+f1_keywords:
+- sensorsapi/ISensor.GetFriendlyName
 dev_langs:
- - c++
+- c++
 req.header: sensorsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Sensorsapi.lib
 req.dll: Sensorsapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - sensorsapi.dll
+- sensorsapi.dll
 api_name:
- - ISensor.GetFriendlyName
+- ISensor.GetFriendlyName
 targetos: Windows
 req.typenames: 
 req.redist: 

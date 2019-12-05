@@ -1,19 +1,17 @@
 ---
 UID: NF:dvbsiparser.IDvbLogicalChannelDescriptor.GetLength
 title: IDvbLogicalChannelDescriptor::GetLength (dvbsiparser.h)
-
 description: Note  This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later. .
 old-location: mstv\idvblogicalchanneldescriptor_getlength.htm
 tech.root: mstv
 ms.assetid: 20c0f2a8-e4f5-4516-8c19-30cd19f0816e
-
 ms.date: 12/05/2018
 ms.keywords: GetLength, GetLength method [DirectShow], GetLength method [DirectShow],IDvbLogicalChannelDescriptor interface, IDvbLogicalChannelDescriptor interface [DirectShow],GetLength method, IDvbLogicalChannelDescriptor.GetLength, IDvbLogicalChannelDescriptor::GetLength, IDvbLogicalChannelDescriptorGetLength, dvbsiparser/IDvbLogicalChannelDescriptor::GetLength, mstv.idvblogicalchanneldescriptor_getlength
 ms.topic: method
-f1_keywords: 
- - "dvbsiparser/IDvbLogicalChannelDescriptor.GetLength"
+f1_keywords:
+- dvbsiparser/IDvbLogicalChannelDescriptor.GetLength
 dev_langs:
- - c++
+- c++
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dvbsiparser.h
+- dvbsiparser.h
 api_name:
- - IDvbLogicalChannelDescriptor.GetLength
+- IDvbLogicalChannelDescriptor.GetLength
 targetos: Windows
 req.typenames: 
 req.redist: 

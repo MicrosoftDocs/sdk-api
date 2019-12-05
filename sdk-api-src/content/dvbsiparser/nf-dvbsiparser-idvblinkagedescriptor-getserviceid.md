@@ -1,19 +1,17 @@
 ---
 UID: NF:dvbsiparser.IDvbLinkageDescriptor.GetServiceId
 title: IDvbLinkageDescriptor::GetServiceId (dvbsiparser.h)
-
 description: Gets the identifier that identifies an information service in a Digital Video Broadcast (DVB) linkage descriptor.
 old-location: mstv\idvblinkagedescriptor_getserviceid.htm
 tech.root: mstv
 ms.assetid: 977c284d-b995-4879-b90a-2bc42b60d1a3
-
 ms.date: 12/05/2018
 ms.keywords: GetServiceId, GetServiceId method [Microsoft TV Technologies], GetServiceId method [Microsoft TV Technologies],IDvbLinkageDescriptor interface, IDvbLinkageDescriptor interface [Microsoft TV Technologies],GetServiceId method, IDvbLinkageDescriptor.GetServiceId, IDvbLinkageDescriptor::GetServiceId, dvbsiparser/IDvbLinkageDescriptor::GetServiceId, mstv.idvblinkagedescriptor_getserviceid
 ms.topic: method
-f1_keywords: 
- - "dvbsiparser/IDvbLinkageDescriptor.GetServiceId"
+f1_keywords:
+- dvbsiparser/IDvbLinkageDescriptor.GetServiceId
 dev_langs:
- - c++
+- c++
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dvbsiparser.h
+- dvbsiparser.h
 api_name:
- - IDvbLinkageDescriptor.GetServiceId
+- IDvbLinkageDescriptor.GetServiceId
 targetos: Windows
 req.typenames: 
 req.redist: 

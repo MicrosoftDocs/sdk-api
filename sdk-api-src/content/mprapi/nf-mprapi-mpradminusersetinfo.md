@@ -1,19 +1,17 @@
 ---
 UID: NF:mprapi.MprAdminUserSetInfo
 title: MprAdminUserSetInfo function (mprapi.h)
-
 description: The MprAdminUserSetInfo function sets RAS information for the specified user.
 old-location: rras\mpradminusersetinfo.htm
 tech.root: RRAS
 ms.assetid: 7f4d5213-56b4-43d2-93c8-ee5ca50b2a19
-
 ms.date: 12/05/2018
 ms.keywords: MprAdminUserSetInfo, MprAdminUserSetInfo function [RAS], _mpr_mpradminusersetinfo, mprapi/MprAdminUserSetInfo, rras.mpradminusersetinfo
 ms.topic: function
 f1_keywords:
 - mprapi/MprAdminUserSetInfo
 dev_langs:
- - c++
+- c++
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows

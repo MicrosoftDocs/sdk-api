@@ -1,19 +1,17 @@
 ---
 UID: NF:qnetwork.IAMNetShowExProps.GetCodecDescription
 title: IAMNetShowExProps::GetCodecDescription (qnetwork.h)
-
 description: The GetCodecDescription method retrieves a user-friendly description of a specified codec.
 old-location: dshow\iamnetshowexprops_getcodecdescription.htm
 tech.root: DirectShow
 ms.assetid: 5a26e576-df4a-462d-8fab-0a133469e77b
-
 ms.date: 12/05/2018
 ms.keywords: GetCodecDescription, GetCodecDescription method [DirectShow], GetCodecDescription method [DirectShow],IAMNetShowExProps interface, IAMNetShowExProps interface [DirectShow],GetCodecDescription method, IAMNetShowExProps.GetCodecDescription, IAMNetShowExProps::GetCodecDescription, IAMNetShowExPropsGetCodecDescription, dshow.iamnetshowexprops_getcodecdescription, qnetwork/IAMNetShowExProps::GetCodecDescription
 ms.topic: method
-f1_keywords: 
- - "qnetwork/IAMNetShowExProps.GetCodecDescription"
+f1_keywords:
+- qnetwork/IAMNetShowExProps.GetCodecDescription
 dev_langs:
- - c++
+- c++
 req.header: qnetwork.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Qnetwork.h
+- Qnetwork.h
 api_name:
- - IAMNetShowExProps.GetCodecDescription
+- IAMNetShowExProps.GetCodecDescription
 targetos: Windows
 req.typenames: 
 req.redist: 

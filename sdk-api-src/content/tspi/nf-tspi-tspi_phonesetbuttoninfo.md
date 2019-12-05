@@ -1,19 +1,17 @@
 ---
 UID: NF:tspi.TSPI_phoneSetButtonInfo
 title: TSPI_phoneSetButtonInfo function (tspi.h)
-
 description: The TSPI_phoneSetButtonInfo function sets information about the specified button on the specified phone.
 old-location: tspi\tspi_phonesetbuttoninfo.htm
 tech.root: Tapi
 ms.assetid: 33b01ac2-cbfd-4697-b242-a7a8f5d1b256
-
 ms.date: 12/05/2018
 ms.keywords: TSPI_phoneSetButtonInfo, TSPI_phoneSetButtonInfo function [TAPI 2.2], _tspi_tspi_phonesetbuttoninfo, tspi.tspi_phonesetbuttoninfo, tspi/TSPI_phoneSetButtonInfo
 ms.topic: function
-f1_keywords: 
- - "tspi/TSPI_phoneSetButtonInfo"
+f1_keywords:
+- tspi/TSPI_phoneSetButtonInfo
 dev_langs:
- - c++
+- c++
 req.header: tspi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Tspi.h
+- Tspi.h
 api_name:
- - TSPI_phoneSetButtonInfo
+- TSPI_phoneSetButtonInfo
 targetos: Windows
 req.typenames: 
 req.redist: 

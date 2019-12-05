@@ -1,19 +1,17 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMDocumentCollection.SetAt
 title: IXpsOMDocumentCollection::SetAt (xpsobjectmodel.h)
-
 description: Replaces an IXpsOMDocument interface pointer at a specified location in the collection.
 old-location: xps\ixpsomdocumentcollection_setat.htm
 tech.root: printdocs
 ms.assetid: 71279337-33ec-4ed3-8c87-9c9b6844d26b
-
 ms.date: 12/05/2018
 ms.keywords: IXpsOMDocumentCollection interface [XPS Documents and Packaging],SetAt method, IXpsOMDocumentCollection.SetAt, IXpsOMDocumentCollection::SetAt, SetAt, SetAt method [XPS Documents and Packaging], SetAt method [XPS Documents and Packaging],IXpsOMDocumentCollection interface, xps.ixpsomdocumentcollection_setat, xpsobjectmodel/IXpsOMDocumentCollection::SetAt
 ms.topic: method
-f1_keywords: 
- - "xpsobjectmodel/IXpsOMDocumentCollection.SetAt"
+f1_keywords:
+- xpsobjectmodel/IXpsOMDocumentCollection.SetAt
 dev_langs:
- - c++
+- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsobjectmodel.h
+- xpsobjectmodel.h
 api_name:
- - IXpsOMDocumentCollection.SetAt
+- IXpsOMDocumentCollection.SetAt
 targetos: Windows
 req.typenames: 
 req.redist: 

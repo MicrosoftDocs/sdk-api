@@ -1,19 +1,17 @@
 ---
 UID: NF:d2d1_1helper.RectL
 title: RectL function (d2d1_1helper.h)
-
 description: Returns a filled D2D1_RECT_L structure.
 old-location: direct2d\rectl.htm
 tech.root: Direct2D
 ms.assetid: CE2B4034-24BC-49AE-88C6-C60BDCEA38B5
-
 ms.date: 12/05/2018
 ms.keywords: RectL, RectL function [Direct2D], dciddi/RectL, direct2d.rectl
 ms.topic: function
-f1_keywords: 
- - "d2d1_1helper/RectL"
+f1_keywords:
+- d2d1_1helper/RectL
 dev_langs:
- - c++
+- c++
 req.header: d2d1_1helper.h
 req.include-header: D2d1_1helper.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: D2d1.lib
 req.dll: D2d1.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - D2d1.dll
+- D2d1.dll
 api_name:
- - RectL
+- RectL
 targetos: Windows
 req.typenames: 
 req.redist: 

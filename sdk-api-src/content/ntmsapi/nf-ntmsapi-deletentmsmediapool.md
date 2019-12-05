@@ -1,19 +1,17 @@
 ---
 UID: NF:ntmsapi.DeleteNtmsMediaPool
 title: DeleteNtmsMediaPool function (ntmsapi.h)
-
 description: The DeleteNtmsMediaPool function deletes the specified application media pool.
 old-location: fs\deletentmsmediapool.htm
 tech.root: Rsm
 ms.assetid: 79885083-beb6-4c66-8271-23082994a258
-
 ms.date: 12/05/2018
 ms.keywords: DeleteNtmsMediaPool, DeleteNtmsMediaPool function [Files], _zaw_deletentmsmediapool, base.deletentmsmediapool, fs.deletentmsmediapool, ntmsapi/DeleteNtmsMediaPool
 ms.topic: function
-f1_keywords: 
- - "ntmsapi/DeleteNtmsMediaPool"
+f1_keywords:
+- ntmsapi/DeleteNtmsMediaPool
 dev_langs:
- - c++
+- c++
 req.header: ntmsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Ntmsapi.lib
 req.dll: Ntmsapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ntmsapi.dll
+- Ntmsapi.dll
 api_name:
- - DeleteNtmsMediaPool
+- DeleteNtmsMediaPool
 targetos: Windows
 req.typenames: 
 req.redist: 

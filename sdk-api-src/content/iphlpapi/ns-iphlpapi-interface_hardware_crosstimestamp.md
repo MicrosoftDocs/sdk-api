@@ -1,19 +1,17 @@
 ---
 UID: NS:iphlpapi._INTERFACE_HARDWARE_CROSSTIMESTAMP
 title: INTERFACE_HARDWARE_CROSSTIMESTAMP (iphlpapi.h)
-
 description: This structure is reserved for system use, and you should not use it in your code.
 old-location: iphlp\interface_hardware_crosstimestamp.htm
 tech.root: IpHlp
 ms.assetid: DAEA7430-85C1-4FF5-8F85-C58EDF27BF3D
-
 ms.date: 12/05/2018
-ms.keywords: "*PINTERFACE_HARDWARE_CROSSTIMESTAMP, INTERFACE_HARDWARE_CROSSTIMESTAMP, INTERFACE_HARDWARE_CROSSTIMESTAMP structure [IP Helper], PINTERFACE_HARDWARE_CROSSTIMESTAMP, PINTERFACE_HARDWARE_CROSSTIMESTAMP structure pointer [IP Helper], iphlp.interface_hardware_crosstimestamp, iphlpapi/INTERFACE_HARDWARE_CROSSTIMESTAMP, iphlpapi/PINTERFACE_HARDWARE_CROSSTIMESTAMP"
+ms.keywords: '*PINTERFACE_HARDWARE_CROSSTIMESTAMP, INTERFACE_HARDWARE_CROSSTIMESTAMP, INTERFACE_HARDWARE_CROSSTIMESTAMP structure [IP Helper], PINTERFACE_HARDWARE_CROSSTIMESTAMP, PINTERFACE_HARDWARE_CROSSTIMESTAMP structure pointer [IP Helper], iphlp.interface_hardware_crosstimestamp, iphlpapi/INTERFACE_HARDWARE_CROSSTIMESTAMP, iphlpapi/PINTERFACE_HARDWARE_CROSSTIMESTAMP'
 ms.topic: struct
-f1_keywords: 
- - "iphlpapi/INTERFACE_HARDWARE_CROSSTIMESTAMP"
+f1_keywords:
+- iphlpapi/INTERFACE_HARDWARE_CROSSTIMESTAMP
 dev_langs:
- - c++
+- c++
 req.header: iphlpapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - iphlpapi.h
+- iphlpapi.h
 api_name:
- - INTERFACE_HARDWARE_CROSSTIMESTAMP
+- INTERFACE_HARDWARE_CROSSTIMESTAMP
 targetos: Windows
 req.typenames: INTERFACE_HARDWARE_CROSSTIMESTAMP, *PINTERFACE_HARDWARE_CROSSTIMESTAMP
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:bdaiface.IBDA_FrequencyFilter.get_Polarity
 title: IBDA_FrequencyFilter::get_Polarity (bdaiface.h)
-
 description: The get_Polarity method retrieves the polarity.
 old-location: mstv\ibda_frequencyfilter_get_polarity.htm
 tech.root: mstv
 ms.assetid: c1f787f6-5d52-44a0-90d7-c905b7e8b8b1
-
 ms.date: 12/05/2018
 ms.keywords: IBDA_FrequencyFilter interface [Microsoft TV Technologies],get_Polarity method, IBDA_FrequencyFilter.get_Polarity, IBDA_FrequencyFilter::get_Polarity, IBDA_FrequencyFilterget_Polarity, bdaiface/IBDA_FrequencyFilter::get_Polarity, get_Polarity, get_Polarity method [Microsoft TV Technologies], get_Polarity method [Microsoft TV Technologies],IBDA_FrequencyFilter interface, mstv.ibda_frequencyfilter_get_polarity
 ms.topic: method
-f1_keywords: 
- - "bdaiface/IBDA_FrequencyFilter.get_Polarity"
+f1_keywords:
+- bdaiface/IBDA_FrequencyFilter.get_Polarity
 dev_langs:
- - c++
+- c++
 req.header: bdaiface.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - bdaiface.h
+- bdaiface.h
 api_name:
- - IBDA_FrequencyFilter.get_Polarity
+- IBDA_FrequencyFilter.get_Polarity
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:d2d1effectauthor.ID2D1EffectContext.GetMaximumSupportedFeatureLevel
 title: ID2D1EffectContext::GetMaximumSupportedFeatureLevel (d2d1effectauthor.h)
-
 description: This indicates the maximum feature level from the provided list which is supported by the device.
 old-location: direct2d\id2d1contextinternal_getfeaturelevel.htm
 tech.root: Direct2D
 ms.assetid: BDB553F8-C19D-46FC-A3CF-7E525DA81CE2
-
 ms.date: 12/05/2018
 ms.keywords: GetMaximumSupportedFeatureLevel, GetMaximumSupportedFeatureLevel method [Direct2D], GetMaximumSupportedFeatureLevel method [Direct2D],ID2D1EffectContext interface, ID2D1EffectContext interface [Direct2D],GetMaximumSupportedFeatureLevel method, ID2D1EffectContext.GetMaximumSupportedFeatureLevel, ID2D1EffectContext::GetMaximumSupportedFeatureLevel, d2d1effectauthor/ID2D1EffectContext::GetMaximumSupportedFeatureLevel, direct2d.id2d1contextinternal_getfeaturelevel
 ms.topic: method
-f1_keywords: 
- - "d2d1effectauthor/ID2D1EffectContext.GetMaximumSupportedFeatureLevel"
+f1_keywords:
+- d2d1effectauthor/ID2D1EffectContext.GetMaximumSupportedFeatureLevel
 dev_langs:
- - c++
+- c++
 req.header: d2d1effectauthor.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: D2D1.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D2D1.lib
- - D2D1.dll
+- D2D1.lib
+- D2D1.dll
 api_name:
- - ID2D1EffectContext.GetMaximumSupportedFeatureLevel
+- ID2D1EffectContext.GetMaximumSupportedFeatureLevel
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:windows.foundation.IPropertyValue.GetSingle
 title: IPropertyValue::IPropertyValue (windows.foundation.h)
-
 description: Gets the 32-bit floating point value that is stored in the current IPropertyValue object.
 old-location: winrt\ipropertyvalue_getsingle.htm
 tech.root: WinRT
 ms.assetid: FA04F9A2-C222-451B-A6CE-8324BB51DA23
-
 ms.date: 12/05/2018
 ms.keywords: GetSingle, GetSingle method [Windows Runtime], GetSingle method [Windows Runtime],IPropertyValue interface, IPropertyValue interface [Windows Runtime],GetSingle method, IPropertyValue.GetSingle, IPropertyValue.IPropertyValue, IPropertyValue::GetSingle, IPropertyValue::IPropertyValue, windows/IPropertyValue::GetSingle, winrt.ipropertyvalue_getsingle
 ms.topic: method
-f1_keywords: 
- - "windows.foundation/IPropertyValue.GetSingle"
+f1_keywords:
+- windows.foundation/IPropertyValue.GetSingle
 dev_langs:
- - c++
+- c++
 req.header: windows.foundation.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Windows.Foundation.h
+- Windows.Foundation.h
 api_name:
- - IPropertyValue.GetSingle
+- IPropertyValue.GetSingle
 targetos: Windows
 req.typenames: 
 req.redist: 

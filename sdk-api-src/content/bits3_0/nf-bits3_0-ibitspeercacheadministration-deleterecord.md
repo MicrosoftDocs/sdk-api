@@ -1,19 +1,17 @@
 ---
 UID: NF:bits3_0.IBitsPeerCacheAdministration.DeleteRecord
 title: IBitsPeerCacheAdministration::DeleteRecord (bits3_0.h)
-
 description: Deletes a record and file from the cache. This method uses the record's identifier to identify the record to delete.
 old-location: bits\ibitspeercacheadministration_deleterecord.htm
 tech.root: Bits
 ms.assetid: c86199c3-9fe7-4d8f-8b33-b12b65b94e54
-
 ms.date: 12/05/2018
 ms.keywords: DeleteRecord, DeleteRecord method [BITS], DeleteRecord method [BITS],IBitsPeerCacheAdministration interface, IBitsPeerCacheAdministration interface [BITS],DeleteRecord method, IBitsPeerCacheAdministration.DeleteRecord, IBitsPeerCacheAdministration::DeleteRecord, bits.ibitspeercacheadministration_deleterecord, bits3_0/IBitsPeerCacheAdministration::DeleteRecord
 ms.topic: method
-f1_keywords: 
- - "bits3_0/IBitsPeerCacheAdministration.DeleteRecord"
+f1_keywords:
+- bits3_0/IBitsPeerCacheAdministration.DeleteRecord
 dev_langs:
- - c++
+- c++
 req.header: bits3_0.h
 req.include-header: Bits.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Bits.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Bits.lib
- - Bits.dll
+- Bits.lib
+- Bits.dll
 api_name:
- - IBitsPeerCacheAdministration.DeleteRecord
+- IBitsPeerCacheAdministration.DeleteRecord
 targetos: Windows
 req.typenames: 
 req.redist: 

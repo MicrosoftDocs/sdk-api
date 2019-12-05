@@ -1,19 +1,17 @@
 ---
 UID: NF:imapi2fs.IFileSystemImage.IdentifyFileSystemsOnDisc
 title: IFileSystemImage::IdentifyFileSystemsOnDisc (imapi2fs.h)
-
 description: Retrieves a list of the different types of file systems on the optical media.
 old-location: imapi\ifilesystemimage_identifyfilesystemsondisc.htm
 tech.root: imapi
 ms.assetid: 381be283-c877-44f0-9d96-b9e80a6aeec8
-
 ms.date: 12/05/2018
 ms.keywords: IFileSystemImage interface [IMAPI],IdentifyFileSystemsOnDisc method, IFileSystemImage.IdentifyFileSystemsOnDisc, IFileSystemImage::IdentifyFileSystemsOnDisc, IdentifyFileSystemsOnDisc, IdentifyFileSystemsOnDisc method [IMAPI], IdentifyFileSystemsOnDisc method [IMAPI],IFileSystemImage interface, imapi.ifilesystemimage_identifyfilesystemsondisc, imapi2fs/IFileSystemImage::IdentifyFileSystemsOnDisc
 ms.topic: method
-f1_keywords: 
- - "imapi2fs/IFileSystemImage.IdentifyFileSystemsOnDisc"
+f1_keywords:
+- imapi2fs/IFileSystemImage.IdentifyFileSystemsOnDisc
 dev_langs:
- - c++
+- c++
 req.header: imapi2fs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - imapi2fs.h
+- imapi2fs.h
 api_name:
- - IFileSystemImage.IdentifyFileSystemsOnDisc
+- IFileSystemImage.IdentifyFileSystemsOnDisc
 targetos: Windows
 req.typenames: 
 req.redist: 

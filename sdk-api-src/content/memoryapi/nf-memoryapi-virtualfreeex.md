@@ -1,19 +1,17 @@
 ---
 UID: NF:memoryapi.VirtualFreeEx
 title: VirtualFreeEx function (memoryapi.h)
-
 description: Releases, decommits, or releases and decommits a region of memory within the virtual address space of a specified process.
 old-location: base\virtualfreeex.htm
 tech.root: Memory
 ms.assetid: 2e5c862c-1251-49da-9c3a-90b09e488d89
-
 ms.date: 12/05/2018
 ms.keywords: MEM_COALESCE_PLACEHOLDERS, MEM_DECOMMIT, MEM_PRESERVE_PLACEHOLDER, MEM_RELEASE, VirtualFreeEx, VirtualFreeEx function, _win32_virtualfreeex, base.virtualfreeex, winbase/VirtualFreeEx
 ms.topic: function
-f1_keywords: 
- - "memoryapi/VirtualFreeEx"
+f1_keywords:
+- memoryapi/VirtualFreeEx
 dev_langs:
- - c++
+- c++
 req.header: memoryapi.h
 req.include-header: Windows.h, Memoryapi.h
 req.target-type: Windows
@@ -32,22 +30,22 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-memory-l1-1-0.dll
- - KernelBase.dll
- - API-MS-Win-Core-memory-l1-1-1.dll
- - API-MS-Win-Core-memory-l1-1-2.dll
- - API-MS-Win-Core-memory-l1-1-3.dll
- - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
- - MinKernelBase.dll
- - API-MS-Win-Core-Memory-L1-1-4.dll
+- Kernel32.dll
+- API-MS-Win-Core-memory-l1-1-0.dll
+- KernelBase.dll
+- API-MS-Win-Core-memory-l1-1-1.dll
+- API-MS-Win-Core-memory-l1-1-2.dll
+- API-MS-Win-Core-memory-l1-1-3.dll
+- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+- MinKernelBase.dll
+- API-MS-Win-Core-Memory-L1-1-4.dll
 api_name:
- - VirtualFreeEx
+- VirtualFreeEx
 targetos: Windows
 req.typenames: 
 req.redist: 

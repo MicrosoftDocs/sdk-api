@@ -1,19 +1,17 @@
 ---
 UID: NF:shlwapi.SHDeleteKeyA
 title: SHDeleteKeyA function (shlwapi.h)
-
 description: Deletes a subkey and all its descendants. This function removes the key and all the key's values from the registry.
 old-location: shell\SHDeleteKey.htm
 tech.root: shell
 ms.assetid: 3c46db08-52d8-48fa-bda5-3c087908a1d3
-
 ms.date: 12/05/2018
 ms.keywords: HKEY_CLASSES_ROOT, HKEY_CURRENT_CONFIG, HKEY_CURRENT_USER, HKEY_LOCAL_MACHINE, HKEY_PERFORMANCE_DATA, HKEY_USERS, SHDeleteKey, SHDeleteKey function [Windows Shell], SHDeleteKeyA, SHDeleteKeyW, _win32_SHDeleteKey, _win32_SHDeleteKey_cpp, shell.SHDeleteKey, shlwapi/SHDeleteKey, shlwapi/SHDeleteKeyA, shlwapi/SHDeleteKeyW
 ms.topic: function
-f1_keywords: 
- - "shlwapi/SHDeleteKey"
+f1_keywords:
+- shlwapi/SHDeleteKey
 dev_langs:
- - c++
+- c++
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,21 +30,21 @@ req.lib: Shlwapi.lib
 req.dll: Shlwapi.dll (version 4.71 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Shlwapi.dll
- - API-MS-Win-DownLevel-shlwapi-l2-1-0.dll
- - ShCore.dll
- - API-MS-Win-DownLevel-shlwapi-l2-1-1.dll
- - API-MS-Win-ShCore-Registry-l1-1-0.dll
- - API-MS-Win-ShCore-Registry-l1-1-1.dll
+- Shlwapi.dll
+- API-MS-Win-DownLevel-shlwapi-l2-1-0.dll
+- ShCore.dll
+- API-MS-Win-DownLevel-shlwapi-l2-1-1.dll
+- API-MS-Win-ShCore-Registry-l1-1-0.dll
+- API-MS-Win-ShCore-Registry-l1-1-1.dll
 api_name:
- - SHDeleteKey
- - SHDeleteKeyA
- - SHDeleteKeyW
+- SHDeleteKey
+- SHDeleteKeyA
+- SHDeleteKeyW
 targetos: Windows
 req.typenames: 
 req.redist: 

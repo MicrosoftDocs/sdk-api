@@ -1,19 +1,17 @@
 ---
 UID: NS:webservices._WS_FAULT_CODE
 title: WS_FAULT_CODE (webservices.h)
-
 description: Represents a fault code.
 old-location: wsw\ws_fault_code.htm
 tech.root: wsw
 ms.assetid: 31fb8432-6bf6-475b-81ae-e4b1a797b189
-
 ms.date: 12/05/2018
 ms.keywords: WS_FAULT_CODE, WS_FAULT_CODE structure [Web Services for Windows], webservices/WS_FAULT_CODE, wsw.ws_fault_code
 ms.topic: struct
-f1_keywords: 
- - "webservices/WS_FAULT_CODE"
+f1_keywords:
+- webservices/WS_FAULT_CODE
 dev_langs:
- - c++
+- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WebServices.h
+- WebServices.h
 api_name:
- - WS_FAULT_CODE
+- WS_FAULT_CODE
 targetos: Windows
 req.typenames: WS_FAULT_CODE
 req.redist: 

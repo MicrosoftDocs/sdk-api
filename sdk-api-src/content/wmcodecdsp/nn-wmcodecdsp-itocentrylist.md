@@ -1,19 +1,17 @@
 ---
 UID: NN:wmcodecdsp.ITocEntryList
 title: ITocEntryList (wmcodecdsp.h)
-
 description: The ITocEntryList interface represents a list of entries in a table of contents. It provides methods for adding entries to, and removing entries from the list.
 old-location: mf\itocentrylist.htm
 tech.root: medfound
 ms.assetid: 98052f26-7956-4973-ab86-428e7a355937
-
 ms.date: 12/05/2018
 ms.keywords: ITocEntryList, ITocEntryList interface [Media Foundation], ITocEntryList interface [Media Foundation],described, codecapi.itocentrylist, mf.itocentrylist, wmcodecdsp/ITocEntryList
 ms.topic: interface
-f1_keywords: 
- - "wmcodecdsp/ITocEntryList"
+f1_keywords:
+- wmcodecdsp/ITocEntryList
 dev_langs:
- - c++
+- c++
 req.header: wmcodecdsp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wmvdspa.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmvdspa.dll
+- wmvdspa.dll
 api_name:
- - ITocEntryList
+- ITocEntryList
 targetos: Windows
 req.typenames: 
 req.redist: 

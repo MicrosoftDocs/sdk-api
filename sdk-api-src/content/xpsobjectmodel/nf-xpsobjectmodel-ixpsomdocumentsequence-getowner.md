@@ -1,19 +1,17 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMDocumentSequence.GetOwner
 title: IXpsOMDocumentSequence::GetOwner (xpsobjectmodel.h)
-
 description: Gets a pointer to the IXpsOMPackage interface that contains the document sequence.
 old-location: xps\ixpsomdocumentsequence_getowner.htm
 tech.root: printdocs
 ms.assetid: c5c59e70-d7b5-42cf-a979-6da4899203ba
-
 ms.date: 12/05/2018
 ms.keywords: GetOwner, GetOwner method [XPS Documents and Packaging], GetOwner method [XPS Documents and Packaging],IXpsOMDocumentSequence interface, IXpsOMDocumentSequence interface [XPS Documents and Packaging],GetOwner method, IXpsOMDocumentSequence.GetOwner, IXpsOMDocumentSequence::GetOwner, xps.ixpsomdocumentsequence_getowner, xpsobjectmodel/IXpsOMDocumentSequence::GetOwner
 ms.topic: method
-f1_keywords: 
- - "xpsobjectmodel/IXpsOMDocumentSequence.GetOwner"
+f1_keywords:
+- xpsobjectmodel/IXpsOMDocumentSequence.GetOwner
 dev_langs:
- - c++
+- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsobjectmodel.h
+- xpsobjectmodel.h
 api_name:
- - IXpsOMDocumentSequence.GetOwner
+- IXpsOMDocumentSequence.GetOwner
 targetos: Windows
 req.typenames: 
 req.redist: 

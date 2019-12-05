@@ -1,19 +1,17 @@
 ---
 UID: NF:docobj.IOleDocumentView.SetRectComplex
 title: IOleDocumentView::SetRectComplex (docobj.h)
-
 description: Sets the rectangular coordinates of the viewport, scroll bars, and size box.
 old-location: com\ioledocumentview_setrectcomplex.htm
 tech.root: com
 ms.assetid: d220b200-85cb-43ff-a59d-147c14eef544
-
 ms.date: 12/05/2018
 ms.keywords: IOleDocumentView interface [COM],SetRectComplex method, IOleDocumentView.SetRectComplex, IOleDocumentView::SetRectComplex, SetRectComplex, SetRectComplex method [COM], SetRectComplex method [COM],IOleDocumentView interface, _ole_ioledocumentview_setrectcomplex, com.ioledocumentview_setrectcomplex, docobj/IOleDocumentView::SetRectComplex
 ms.topic: method
-f1_keywords: 
- - "docobj/IOleDocumentView.SetRectComplex"
+f1_keywords:
+- docobj/IOleDocumentView.SetRectComplex
 dev_langs:
- - c++
+- c++
 req.header: docobj.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - DocObj.h
+- DocObj.h
 api_name:
- - IOleDocumentView.SetRectComplex
+- IOleDocumentView.SetRectComplex
 targetos: Windows
 req.typenames: 
 req.redist: 

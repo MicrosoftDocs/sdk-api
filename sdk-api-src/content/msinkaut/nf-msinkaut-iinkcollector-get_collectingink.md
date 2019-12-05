@@ -1,19 +1,17 @@
 ---
 UID: NF:msinkaut.IInkCollector.get_CollectingInk
 title: IInkCollector::get_CollectingInk (msinkaut.h)
-
 description: Gets a value that specifies whether ink is currently being drawn on an ink collector (InkCollector, InkOverlay, or InkPicture).
 old-location: tablet\inkcollector_collectingink.htm
 tech.root: tablet
 ms.assetid: c0ac36a8-e36e-45a7-b047-14d7f7c8ce14
-
 ms.date: 12/05/2018
 ms.keywords: CollectingInk property [Tablet PC], CollectingInk property [Tablet PC],IInkCollector interface, IInkCollector interface [Tablet PC],CollectingInk property, IInkCollector.CollectingInk, IInkCollector.get_CollectingInk, IInkCollector::CollectingInk, IInkCollector::get_CollectingInk, InkCollector.get_CollectingInk, c0ac36a8-e36e-45a7-b047-14d7f7c8ce14, get_CollectingInk, msinkaut/IInkCollector::CollectingInk, msinkaut/IInkCollector::get_CollectingInk, tablet.inkcollector_collectingink
 ms.topic: method
-f1_keywords: 
- - "msinkaut/IInkCollector.CollectingInk"
+f1_keywords:
+- msinkaut/IInkCollector.CollectingInk
 dev_langs:
- - c++
+- c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows
@@ -32,19 +30,19 @@ req.lib: InkObj.dll
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - InkObj.dll
- - InkObj.dll.dll
+- InkObj.dll
+- InkObj.dll.dll
 api_name:
- - IInkCollector.CollectingInk
- - IInkCollector.get_CollectingInk
- - get_CollectingInk
- - IInkCollector.get_CollectingInk
- - InkCollector.get_CollectingInk
+- IInkCollector.CollectingInk
+- IInkCollector.get_CollectingInk
+- get_CollectingInk
+- IInkCollector.get_CollectingInk
+- InkCollector.get_CollectingInk
 targetos: Windows
 req.typenames: 
 req.redist: 

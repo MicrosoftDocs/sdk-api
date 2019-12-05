@@ -1,19 +1,17 @@
 ---
 UID: NF:wcmconfig.ISettingsContext.Serialize
 title: ISettingsContext::Serialize (wcmconfig.h)
-
 description: Serializes the data in this context into the provided stream.
 old-location: smi\isettingscontext_serialize.htm
 tech.root: SMI
 ms.assetid: 13b29096-8572-4539-abd4-de22a9594f38
-
 ms.date: 12/05/2018
 ms.keywords: ISettingsContext interface [SMI],Serialize method, ISettingsContext.Serialize, ISettingsContext::Serialize, Serialize, Serialize method [SMI], Serialize method [SMI],ISettingsContext interface, smi.isettingscontext_serialize, wcmconfig/ISettingsContext::Serialize
 ms.topic: method
-f1_keywords: 
- - "wcmconfig/ISettingsContext.Serialize"
+f1_keywords:
+- wcmconfig/ISettingsContext.Serialize
 dev_langs:
- - c++
+- c++
 req.header: wcmconfig.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: SMIEngine.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - SMIEngine.dll
+- SMIEngine.dll
 api_name:
- - ISettingsContext.Serialize
+- ISettingsContext.Serialize
 targetos: Windows
 req.typenames: 
 req.redist: 

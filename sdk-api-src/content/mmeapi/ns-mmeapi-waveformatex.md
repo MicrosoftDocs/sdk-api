@@ -1,19 +1,17 @@
 ---
 UID: NS:mmeapi.tWAVEFORMATEX
 title: WAVEFORMATEX (mmeapi.h)
-
 description: The WAVEFORMATEX structure defines the format of waveform-audio data.
 old-location: multimedia\waveformatex.htm
 tech.root: Multimedia
 ms.assetid: bd0f96ec-d26a-4e6f-8802-50e8ff207f54
-
 ms.date: 12/05/2018
-ms.keywords: "*LPWAVEFORMATEX, *NPWAVEFORMATEX, *PWAVEFORMATEX, WAVEFORMATEX, WAVEFORMATEX structure [Windows Multimedia], _win32_WAVEFORMATEX_str, mmeapi/WAVEFORMATEX, multimedia.waveformatex, tWAVEFORMATEX, tWAVEFORMATEX structure [Windows Multimedia]"
+ms.keywords: '*LPWAVEFORMATEX, *NPWAVEFORMATEX, *PWAVEFORMATEX, WAVEFORMATEX, WAVEFORMATEX structure [Windows Multimedia], _win32_WAVEFORMATEX_str, mmeapi/WAVEFORMATEX, multimedia.waveformatex, tWAVEFORMATEX, tWAVEFORMATEX structure [Windows Multimedia]'
 ms.topic: struct
-f1_keywords: 
- - "mmeapi/WAVEFORMATEX"
+f1_keywords:
+- mmeapi/WAVEFORMATEX
 dev_langs:
- - c++
+- c++
 req.header: mmeapi.h
 req.include-header: Mmreg.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - mmeapi.h
+- mmeapi.h
 api_name:
- - WAVEFORMATEX
+- WAVEFORMATEX
 targetos: Windows
 req.typenames: WAVEFORMATEX, *PWAVEFORMATEX, *NPWAVEFORMATEX, *LPWAVEFORMATEX
 req.redist: 

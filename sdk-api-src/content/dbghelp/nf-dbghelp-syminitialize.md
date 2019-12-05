@@ -1,19 +1,17 @@
 ---
 UID: NF:dbghelp.SymInitialize
 title: SymInitialize function (dbghelp.h)
-
 description: Initializes the symbol handler for a process.
 old-location: base\syminitialize.htm
 tech.root: Debug
 ms.assetid: fb1c98cb-6cd0-4218-aea4-384c24c66395
-
 ms.date: 12/05/2018
 ms.keywords: SymInitialize, SymInitialize function, SymInitializeW, _win32_syminitialize, base.syminitialize, dbghelp/SymInitialize, dbghelp/SymInitializeW
 ms.topic: function
-f1_keywords: 
- - "dbghelp/SymInitialize"
+f1_keywords:
+- dbghelp/SymInitialize
 dev_langs:
- - c++
+- c++
 req.header: dbghelp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Dbghelp.lib
 req.dll: Dbghelp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Dbghelp.dll
+- Dbghelp.dll
 api_name:
- - SymInitialize
- - SymInitialize
- - SymInitializeW
+- SymInitialize
+- SymInitialize
+- SymInitializeW
 targetos: Windows
 req.typenames: 
 req.redist: DbgHelp.dll 5.1 or later

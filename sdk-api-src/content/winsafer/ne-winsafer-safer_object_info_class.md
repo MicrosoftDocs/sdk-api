@@ -1,19 +1,17 @@
 ---
 UID: NE:winsafer._SAFER_OBJECT_INFO_CLASS
 title: SAFER_OBJECT_INFO_CLASS (winsafer.h)
-
 description: Defines the type of information requested about a Safer object.
 old-location: security\safer_object_info_class.htm
 tech.root: SecMgmt
 ms.assetid: 31de9e42-6795-433a-937f-c4243e4961df
-
 ms.date: 12/05/2018
 ms.keywords: SAFER_OBJECT_INFO_CLASS, SAFER_OBJECT_INFO_CLASS enumeration [Security], SaferObjectAllIdentificationGuids, SaferObjectDescription, SaferObjectExtendedError, SaferObjectFriendlyName, SaferObjectLevelId, SaferObjectScopeId, SaferObjectSingleIdentification, security.safer_object_info_class, winsafer/SAFER_OBJECT_INFO_CLASS, winsafer/SaferObjectAllIdentificationGuids, winsafer/SaferObjectDescription, winsafer/SaferObjectExtendedError, winsafer/SaferObjectFriendlyName, winsafer/SaferObjectLevelId, winsafer/SaferObjectScopeId, winsafer/SaferObjectSingleIdentification
 ms.topic: enum
-f1_keywords: 
- - "winsafer/SAFER_OBJECT_INFO_CLASS"
+f1_keywords:
+- winsafer/SAFER_OBJECT_INFO_CLASS
 dev_langs:
- - c++
+- c++
 req.header: winsafer.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WinSafer.h
+- WinSafer.h
 api_name:
- - SAFER_OBJECT_INFO_CLASS
+- SAFER_OBJECT_INFO_CLASS
 targetos: Windows
 req.typenames: SAFER_OBJECT_INFO_CLASS
 req.redist: 

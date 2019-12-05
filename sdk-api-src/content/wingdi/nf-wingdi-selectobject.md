@@ -1,19 +1,17 @@
 ---
 UID: NF:wingdi.SelectObject
 title: SelectObject function (wingdi.h)
-
 description: The SelectObject function selects an object into the specified device context (DC). The new object replaces the previous object of the same type.
 old-location: gdi\selectobject.htm
 tech.root: gdi
 ms.assetid: a89b875e-923d-4048-bc61-8dea132cc56d
-
 ms.date: 12/05/2018
 ms.keywords: Bitmap, Brush, Font, Pen, Region, SelectObject, SelectObject function [Windows GDI], _win32_SelectObject, gdi.selectobject, wingdi/SelectObject
 ms.topic: function
-f1_keywords: 
- - "wingdi/SelectObject"
+f1_keywords:
+- wingdi/SelectObject
 dev_langs:
- - c++
+- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - gdi32.dll
- - Ext-MS-Win-GDI-DC-l1-2-0.dll
- - ext-ms-win-gdi-dc-l1-1-0.dll
- - ext-ms-win-gdi-dc-l1-2-1.dll
- - GDI32Full.dll
+- gdi32.dll
+- Ext-MS-Win-GDI-DC-l1-2-0.dll
+- ext-ms-win-gdi-dc-l1-1-0.dll
+- ext-ms-win-gdi-dc-l1-2-1.dll
+- GDI32Full.dll
 api_name:
- - SelectObject
+- SelectObject
 targetos: Windows
 req.typenames: 
 req.redist: 

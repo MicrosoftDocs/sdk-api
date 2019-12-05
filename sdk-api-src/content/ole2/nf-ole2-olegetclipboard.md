@@ -1,19 +1,17 @@
 ---
 UID: NF:ole2.OleGetClipboard
 title: OleGetClipboard function (ole2.h)
-
 description: Retrieves a data object that you can use to access the contents of the clipboard.
 old-location: com\olegetclipboard.htm
 tech.root: com
 ms.assetid: c5e7badb-339b-48d5-8c9a-3950e2ffe6bf
-
 ms.date: 12/05/2018
 ms.keywords: OleGetClipboard, OleGetClipboard function [COM], _ole_OleGetClipboard, com.olegetclipboard, ole2/OleGetClipboard
 ms.topic: function
-f1_keywords: 
- - "ole2/OleGetClipboard"
+f1_keywords:
+- ole2/OleGetClipboard
 dev_langs:
- - c++
+- c++
 req.header: ole2.h
 req.include-header: 
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib: Ole32.lib
 req.dll: Ole32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ole32.dll
- - API-MS-Win-RTCore-OLE32-clipboard-l1-1-0.dll
- - ie_shims.dll
- - ext-ms-win-ole32-clipboard-ie-l1-1-0.dll
- - API-MS-Win-RTCore-Ole32-Clipboard-L1-1-1.dll
+- Ole32.dll
+- API-MS-Win-RTCore-OLE32-clipboard-l1-1-0.dll
+- ie_shims.dll
+- ext-ms-win-ole32-clipboard-ie-l1-1-0.dll
+- API-MS-Win-RTCore-Ole32-Clipboard-L1-1-1.dll
 api_name:
- - OleGetClipboard
+- OleGetClipboard
 targetos: Windows
 req.typenames: 
 req.redist: 

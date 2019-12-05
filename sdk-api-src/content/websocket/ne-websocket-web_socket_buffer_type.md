@@ -1,19 +1,17 @@
 ---
 UID: NE:websocket._WEB_SOCKET_BUFFER_TYPE
 title: WEB_SOCKET_BUFFER_TYPE (websocket.h)
-
 description: Specifies the bit values used to construct the WebSocket frame header.
 old-location: websock\web_socket_buffer_type.htm
 tech.root: WebSock
 ms.assetid: a6657b51-ac16-4637-8dfd-e3dade951385
-
 ms.date: 12/05/2018
 ms.keywords: WEB_SOCKET_BINARY_FRAGMENT_BUFFER_TYPE, WEB_SOCKET_BINARY_MESSAGE_BUFFER_TYPE, WEB_SOCKET_BUFFER_TYPE, WEB_SOCKET_BUFFER_TYPE enumeration [Websocket Protocol Component API], WEB_SOCKET_CLOSE_BUFFER_TYPE, WEB_SOCKET_PING_PONG_BUFFER_TYPE, WEB_SOCKET_UNSOLICITED_PONG_BUFFER_TYPE, WEB_SOCKET_UTF8_FRAGMENT_BUFFER_TYPE, WEB_SOCKET_UTF8_MESSAGE_BUFFER_TYPE, websock.web_socket_buffer_type, websocket/WEB_SOCKET_BINARY_FRAGMENT_BUFFER_TYPE, websocket/WEB_SOCKET_BINARY_MESSAGE_BUFFER_TYPE, websocket/WEB_SOCKET_BUFFER_TYPE, websocket/WEB_SOCKET_CLOSE_BUFFER_TYPE, websocket/WEB_SOCKET_PING_PONG_BUFFER_TYPE, websocket/WEB_SOCKET_UNSOLICITED_PONG_BUFFER_TYPE, websocket/WEB_SOCKET_UTF8_FRAGMENT_BUFFER_TYPE, websocket/WEB_SOCKET_UTF8_MESSAGE_BUFFER_TYPE
 ms.topic: enum
-f1_keywords: 
- - "websocket/WEB_SOCKET_BUFFER_TYPE"
+f1_keywords:
+- websocket/WEB_SOCKET_BUFFER_TYPE
 dev_langs:
- - c++
+- c++
 req.header: websocket.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Websocket.h
+- Websocket.h
 api_name:
- - WEB_SOCKET_BUFFER_TYPE
+- WEB_SOCKET_BUFFER_TYPE
 targetos: Windows
 req.typenames: WEB_SOCKET_BUFFER_TYPE
 req.redist: 

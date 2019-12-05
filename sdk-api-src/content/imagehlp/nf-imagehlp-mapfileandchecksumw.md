@@ -1,19 +1,17 @@
 ---
 UID: NF:imagehlp.MapFileAndCheckSumW
 title: MapFileAndCheckSumW function (imagehlp.h)
-
 description: Computes the checksum of the specified file.
 old-location: base\mapfileandchecksum.htm
 tech.root: Debug
 ms.assetid: e8fac3cc-bddf-419d-a245-d7af84d2c7f7
-
 ms.date: 12/05/2018
 ms.keywords: MapFileAndCheckSum, MapFileAndCheckSum function, MapFileAndCheckSumA, MapFileAndCheckSumW, _win32_mapfileandchecksum, base.mapfileandchecksum, imagehlp/MapFileAndCheckSum, imagehlp/MapFileAndCheckSumA, imagehlp/MapFileAndCheckSumW
 ms.topic: function
-f1_keywords: 
- - "imagehlp/MapFileAndCheckSum"
+f1_keywords:
+- imagehlp/MapFileAndCheckSum
 dev_langs:
- - c++
+- c++
 req.header: imagehlp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Imagehlp.lib
 req.dll: Imagehlp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Imagehlp.dll
+- Imagehlp.dll
 api_name:
- - MapFileAndCheckSum
- - MapFileAndCheckSumA
- - MapFileAndCheckSumW
+- MapFileAndCheckSum
+- MapFileAndCheckSumA
+- MapFileAndCheckSumW
 targetos: Windows
 req.typenames: 
 req.redist: 

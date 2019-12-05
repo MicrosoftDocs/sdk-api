@@ -1,19 +1,17 @@
 ---
 UID: NF:iads.IADsCollection.get__NewEnum
 title: IADsCollection::get__NewEnum (iads.h)
-
 description: The IADsCollection::get__NewEnum method gets a dependent enumerator object that implements IEnumVARIANT for this ADSI collection object. Be aware that there are two underscore characters in the function name (get__NewEnum).
 old-location: adsi\iadscollection_get__newenum.htm
 tech.root: adsi
 ms.assetid: db2630d0-26be-4cf1-811e-fc1d2007dda5
-
 ms.date: 12/05/2018
 ms.keywords: IADsCollection interface [ADSI],get__NewEnum method, IADsCollection.get__NewEnum, IADsCollection::get__NewEnum, _ds_iadscollection_get__newenum, adsi.iadscollection__get____newenum, adsi.iadscollection_get__newenum, get__NewEnum, get__NewEnum method [ADSI], get__NewEnum method [ADSI],IADsCollection interface, iads/IADsCollection::get__NewEnum
 ms.topic: method
-f1_keywords: 
- - "iads/IADsCollection.get__NewEnum"
+f1_keywords:
+- iads/IADsCollection.get__NewEnum
 dev_langs:
- - c++
+- c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Activeds.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Activeds.dll
+- Activeds.dll
 api_name:
- - IADsCollection.get__NewEnum
+- IADsCollection.get__NewEnum
 targetos: Windows
 req.typenames: 
 req.redist: 

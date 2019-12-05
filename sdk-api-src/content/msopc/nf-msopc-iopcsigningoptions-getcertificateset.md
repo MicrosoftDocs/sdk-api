@@ -1,19 +1,17 @@
 ---
 UID: NF:msopc.IOpcSigningOptions.GetCertificateSet
 title: IOpcSigningOptions::GetCertificateSet (msopc.h)
-
 description: Gets an IOpcCertificateSet interface pointer.
 old-location: opc\iopcsigningoptions_getcertificateset.htm
 tech.root: OPC
 ms.assetid: df212397-7ec9-4a42-bebb-61799b7ca78e
-
 ms.date: 12/05/2018
 ms.keywords: GetCertificateSet, GetCertificateSet method [Open Packaging Conventions], GetCertificateSet method [Open Packaging Conventions],IOpcSigningOptions interface, IOpcSigningOptions interface [Open Packaging Conventions],GetCertificateSet method, IOpcSigningOptions.GetCertificateSet, IOpcSigningOptions::GetCertificateSet, msopc/IOpcSigningOptions::GetCertificateSet, opc.iopcsigningoptions_getcertificateset
 ms.topic: method
-f1_keywords: 
- - "msopc/IOpcSigningOptions.GetCertificateSet"
+f1_keywords:
+- msopc/IOpcSigningOptions.GetCertificateSet
 dev_langs:
- - c++
+- c++
 req.header: msopc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msopc.h
+- msopc.h
 api_name:
- - IOpcSigningOptions.GetCertificateSet
+- IOpcSigningOptions.GetCertificateSet
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NN:mfidl.IMFObjectReferenceStream
 title: IMFObjectReferenceStream (mfidl.h)
-
 description: Marshals an interface pointer to and from a stream.Stream objects that support IStream can expose this interface to provide custom marshaling for interface pointers.
 old-location: mf\imfobjectreferencestream.htm
 tech.root: medfound
 ms.assetid: 9d29befd-b0ae-4610-a0b7-17face03c45e
-
 ms.date: 12/05/2018
 ms.keywords: 9d29befd-b0ae-4610-a0b7-17face03c45e, IMFObjectReferenceStream, IMFObjectReferenceStream interface [Media Foundation], IMFObjectReferenceStream interface [Media Foundation],described, mf.imfobjectreferencestream, mfidl/IMFObjectReferenceStream
 ms.topic: interface
-f1_keywords: 
- - "mfidl/IMFObjectReferenceStream"
+f1_keywords:
+- mfidl/IMFObjectReferenceStream
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFObjectReferenceStream
+- IMFObjectReferenceStream
 targetos: Windows
 req.typenames: 
 req.redist: 

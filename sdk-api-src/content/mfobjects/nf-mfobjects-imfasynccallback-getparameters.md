@@ -1,19 +1,17 @@
 ---
 UID: NF:mfobjects.IMFAsyncCallback.GetParameters
 title: IMFAsyncCallback::GetParameters (mfobjects.h)
-
 description: Provides configuration information to the dispatching thread for a callback.
 old-location: mf\imfasynccallback_getparameters.htm
 tech.root: medfound
 ms.assetid: 374dd139-d3e7-45d0-a7d3-1187b928ef57
-
 ms.date: 12/05/2018
 ms.keywords: 374dd139-d3e7-45d0-a7d3-1187b928ef57, GetParameters, GetParameters method [Media Foundation], GetParameters method [Media Foundation],IMFAsyncCallback interface, IMFAsyncCallback interface [Media Foundation],GetParameters method, IMFAsyncCallback.GetParameters, IMFAsyncCallback::GetParameters, MFASYNC_BLOCKING_CALLBACK, MFASYNC_FAST_IO_PROCESSING_CALLBACK, MFASYNC_REPLY_CALLBACK, MFASYNC_SIGNAL_CALLBACK, Zero, mf.imfasynccallback_getparameters, mfobjects/IMFAsyncCallback::GetParameters
 ms.topic: method
-f1_keywords: 
- - "mfobjects/IMFAsyncCallback.GetParameters"
+f1_keywords:
+- mfobjects/IMFAsyncCallback.GetParameters
 dev_langs:
- - c++
+- c++
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFAsyncCallback.GetParameters
+- IMFAsyncCallback.GetParameters
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NS:d3d12.D3D12_SERIALIZED_RAYTRACING_ACCELERATION_STRUCTURE_HEADER
 title: D3D12_SERIALIZED_RAYTRACING_ACCELERATION_STRUCTURE_HEADER (d3d12.h)
-
 description: Defines the header for a serialized raytracing acceleration structure.
 old-location: direct3d12\d3d12_serialized_raytracing_acceleration_structure_header.htm
 tech.root: direct3d12
 ms.assetid: 229AF9C0-DB24-4C11-A87D-15746B1544E7
-
 ms.date: 12/05/2018
 ms.keywords: D3D12_SERIALIZED_RAYTRACING_ACCELERATION_STRUCTURE_HEADER, D3D12_SERIALIZED_RAYTRACING_ACCELERATION_STRUCTURE_HEADER structure, PD3D12_SERIALIZED_RAYTRACING_ACCELERATION_STRUCTURE_HEADER, PD3D12_SERIALIZED_RAYTRACING_ACCELERATION_STRUCTURE_HEADER structure pointer, d3d12/D3D12_SERIALIZED_RAYTRACING_ACCELERATION_STRUCTURE_HEADER, d3d12/PD3D12_SERIALIZED_RAYTRACING_ACCELERATION_STRUCTURE_HEADER, direct3d12.d3d12_serialized_raytracing_acceleration_structure_header
 ms.topic: struct
-f1_keywords: 
- - "d3d12/D3D12_SERIALIZED_RAYTRACING_ACCELERATION_STRUCTURE_HEADER"
+f1_keywords:
+- d3d12/D3D12_SERIALIZED_RAYTRACING_ACCELERATION_STRUCTURE_HEADER
 dev_langs:
- - c++
+- c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - D3D12.h
+- D3D12.h
 api_name:
- - D3D12_SERIALIZED_RAYTRACING_ACCELERATION_STRUCTURE_HEADER
+- D3D12_SERIALIZED_RAYTRACING_ACCELERATION_STRUCTURE_HEADER
 targetos: Windows
 req.typenames: D3D12_SERIALIZED_RAYTRACING_ACCELERATION_STRUCTURE_HEADER
 req.redist: 

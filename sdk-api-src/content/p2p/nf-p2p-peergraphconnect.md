@@ -1,19 +1,17 @@
 ---
 UID: NF:p2p.PeerGraphConnect
 title: PeerGraphConnect function (p2p.h)
-
 description: The PeerGraphConnect function attempts to make a connection to a specified node in a peer graph.
 old-location: p2p\peergraphconnect.htm
 tech.root: P2PSdk
 ms.assetid: 76a2c54d-4424-4aa3-9b62-3ebe88b63c9f
-
 ms.date: 12/05/2018
 ms.keywords: PeerGraphConnect, PeerGraphConnect function [Peer Networking], p2p.peergraphconnect, p2p/PeerGraphConnect
 ms.topic: function
-f1_keywords: 
- - "p2p/PeerGraphConnect"
+f1_keywords:
+- p2p/PeerGraphConnect
 dev_langs:
- - c++
+- c++
 req.header: p2p.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: P2PGraph.lib
 req.dll: P2PGraph.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - P2PGraph.dll
+- P2PGraph.dll
 api_name:
- - PeerGraphConnect
+- PeerGraphConnect
 targetos: Windows
 req.typenames: 
 req.redist: 

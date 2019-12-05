@@ -1,19 +1,17 @@
 ---
 UID: NE:fsrmenums._FsrmCollectionState
 title: FsrmCollectionState (fsrmenums.h)
-
 description: Defines the possible states of a collection object.
 old-location: fsrm\fsrmcollectionstate.htm
 tech.root: fsrm
 ms.assetid: 94d7cf83-7fa4-4fec-956d-f5b2e2c0bf68
-
 ms.date: 12/05/2018
 ms.keywords: FsrmCollectionState, FsrmCollectionState enumeration [File Server Resource Manager], FsrmCollectionState_Cancelled, FsrmCollectionState_Committing, FsrmCollectionState_Complete, FsrmCollectionState_Fetching, fs.fsrmcollectionstate, fsrm.fsrmcollectionstate, fsrmenums/FsrmCollectionState, fsrmenums/FsrmCollectionState_Cancelled, fsrmenums/FsrmCollectionState_Committing, fsrmenums/FsrmCollectionState_Complete, fsrmenums/FsrmCollectionState_Fetching
 ms.topic: enum
-f1_keywords: 
- - "fsrmenums/FsrmCollectionState"
+f1_keywords:
+- fsrmenums/FsrmCollectionState
 dev_langs:
- - c++
+- c++
 req.header: fsrmenums.h
 req.include-header: FsrmPipeline.h, FsrmQuota.h, FsrmReports.h, FsrmScreen.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - FsrmEnums.h
+- FsrmEnums.h
 api_name:
- - FsrmCollectionState
+- FsrmCollectionState
 targetos: Windows
 req.typenames: FsrmCollectionState
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NN:wmp.IWMPError
 title: IWMPError (wmp.h)
-
 description: The IWMPError interface provides methods for accessing a collection of IWMPErrorItem pointers.
 old-location: wmp\iwmperror.htm
 tech.root: WMP
 ms.assetid: f22759cd-0ca7-4992-bb17-0272b35d6d75
-
 ms.date: 12/05/2018
 ms.keywords: IWMPError, IWMPError interface [Windows Media Player], IWMPError interface [Windows Media Player],described, IWMPErrorInterface, wmp.iwmperror, wmp/IWMPError
 ms.topic: interface
-f1_keywords: 
- - "wmp/IWMPError"
+f1_keywords:
+- wmp/IWMPError
 dev_langs:
- - c++
+- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmp.h
+- wmp.h
 api_name:
- - IWMPError
+- IWMPError
 targetos: Windows
 req.typenames: 
 req.redist: 

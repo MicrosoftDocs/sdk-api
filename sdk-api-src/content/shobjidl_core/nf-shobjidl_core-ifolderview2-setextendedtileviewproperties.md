@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IFolderView2.SetExtendedTileViewProperties
 title: IFolderView2::SetExtendedTileViewProperties (shobjidl_core.h)
-
 description: Sets the list of extended tile properties for an item.
 old-location: shell\IFolderView2_SetExtendedTileViewProperties.htm
 tech.root: shell
 ms.assetid: efb2eb1a-47fa-45b2-8d8d-fc75bbe46c80
-
 ms.date: 12/05/2018
 ms.keywords: IFolderView2 interface [Windows Shell],SetExtendedTileViewProperties method, IFolderView2.SetExtendedTileViewProperties, IFolderView2::SetExtendedTileViewProperties, SetExtendedTileViewProperties, SetExtendedTileViewProperties method [Windows Shell], SetExtendedTileViewProperties method [Windows Shell],IFolderView2 interface, _shell_IFolderView2_SetExtendedTileViewProperties, shell.IFolderView2_SetExtendedTileViewProperties, shobjidl_core/IFolderView2::SetExtendedTileViewProperties
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IFolderView2.SetExtendedTileViewProperties"
+f1_keywords:
+- shobjidl_core/IFolderView2.SetExtendedTileViewProperties
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - IFolderView2.SetExtendedTileViewProperties
+- IFolderView2.SetExtendedTileViewProperties
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NN:wbemcli.IWbemContext
 title: IWbemContext (wbemcli.h)
-
 description: The IWbemContext interface is optionally used to communicate additional context information to providers when submitting IWbemServices calls to WMI. All primary calls in IWbemServices take an optional parameter pointing to an object of this type.
 old-location: wmi\iwbemcontext.htm
 tech.root: WmiSdk
 ms.assetid: 458bd455-6984-414b-a0b7-62887d9dad7c
-
 ms.date: 12/05/2018
 ms.keywords: IWbemContext, IWbemContext interface [Windows Management Instrumentation], IWbemContext interface [Windows Management Instrumentation],described, WbemContext, _hmm_iwbemcontext, wbemcli/IWbemContext, wmi.iwbemcontext
 ms.topic: interface
-f1_keywords: 
- - "wbemcli/IWbemContext"
+f1_keywords:
+- wbemcli/IWbemContext
 dev_langs:
- - c++
+- c++
 req.header: wbemcli.h
 req.include-header: Wbemidl.h
 req.target-type: Windows
@@ -32,22 +30,22 @@ req.lib: Wbemuuid.lib
 req.dll: Esscli.dll; Fastprox.dll; FrameDyn.dll; FrameDynOS.dll; Wbemcomn.dll; Wbemcore.dll; Wbemess.dll; Wmipjobj.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Esscli.dll
- - Fastprox.dll
- - FrameDyn.dll
- - FrameDynOS.dll
- - Wbemcomn.dll
- - Wbemcore.dll
- - Wbemess.dll
- - Wmipjobj.dll
+- Esscli.dll
+- Fastprox.dll
+- FrameDyn.dll
+- FrameDynOS.dll
+- Wbemcomn.dll
+- Wbemcore.dll
+- Wbemess.dll
+- Wmipjobj.dll
 api_name:
- - IWbemContext
- - WbemContext
+- IWbemContext
+- WbemContext
 targetos: Windows
 req.typenames: 
 req.redist: 

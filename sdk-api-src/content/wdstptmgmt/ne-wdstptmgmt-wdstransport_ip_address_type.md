@@ -1,19 +1,17 @@
 ---
 UID: NE:wdstptmgmt.__MIDL___MIDL_itf_wdstptmgmt_0000_0000_0006
 title: WDSTRANSPORT_IP_ADDRESS_TYPE (wdstptmgmt.h)
-
 description: Indicates the type of IP address.
 old-location: wds\wdstransport_ip_address_type.htm
 tech.root: wds
 ms.assetid: 11ed1cff-eeb6-41ab-86a1-af2db5b8e155
-
 ms.date: 12/05/2018
-ms.keywords: "*PWDSTRANSPORT_IP_ADDRESS_TYPE, WDSTRANSPORT_IP_ADDRESS_TYPE, WDSTRANSPORT_IP_ADDRESS_TYPE enumeration [Windows Deployment Services], WdsTptIpAddressIpv4, WdsTptIpAddressIpv6, WdsTptIpAddressUnknown, wds.wdstransport_ip_address_type, wdstptmgmt/WDSTRANSPORT_IP_ADDRESS_TYPE, wdstptmgmt/WdsTptIpAddressIpv4, wdstptmgmt/WdsTptIpAddressIpv6, wdstptmgmt/WdsTptIpAddressUnknown"
+ms.keywords: '*PWDSTRANSPORT_IP_ADDRESS_TYPE, WDSTRANSPORT_IP_ADDRESS_TYPE, WDSTRANSPORT_IP_ADDRESS_TYPE enumeration [Windows Deployment Services], WdsTptIpAddressIpv4, WdsTptIpAddressIpv6, WdsTptIpAddressUnknown, wds.wdstransport_ip_address_type, wdstptmgmt/WDSTRANSPORT_IP_ADDRESS_TYPE, wdstptmgmt/WdsTptIpAddressIpv4, wdstptmgmt/WdsTptIpAddressIpv6, wdstptmgmt/WdsTptIpAddressUnknown'
 ms.topic: enum
-f1_keywords: 
- - "wdstptmgmt/WDSTRANSPORT_IP_ADDRESS_TYPE"
+f1_keywords:
+- wdstptmgmt/WDSTRANSPORT_IP_ADDRESS_TYPE
 dev_langs:
- - c++
+- c++
 req.header: wdstptmgmt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wdstptmgmt.h
+- Wdstptmgmt.h
 api_name:
- - WDSTRANSPORT_IP_ADDRESS_TYPE
+- WDSTRANSPORT_IP_ADDRESS_TYPE
 targetos: Windows
 req.typenames: WDSTRANSPORT_IP_ADDRESS_TYPE, *PWDSTRANSPORT_IP_ADDRESS_TYPE
 req.redist: 

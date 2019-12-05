@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d12.ID3D12GraphicsCommandList.Reset
 title: ID3D12GraphicsCommandList::Reset (d3d12.h)
-
 description: Resets a command list back to its initial state as if a new command list was just created.
 old-location: direct3d12\id3d12graphicscommandlist_reset.htm
 tech.root: direct3d12
 ms.assetid: 36726FB6-09DE-4723-A60E-75FCE55F2E35
-
 ms.date: 12/05/2018
 ms.keywords: ID3D12GraphicsCommandList interface,Reset method, ID3D12GraphicsCommandList.Reset, ID3D12GraphicsCommandList::Reset, Reset, Reset method, Reset method,ID3D12GraphicsCommandList interface, d3d12/ID3D12GraphicsCommandList::Reset, direct3d12.id3d12graphicscommandlist_reset
 ms.topic: method
-f1_keywords: 
- - "d3d12/ID3D12GraphicsCommandList.Reset"
+f1_keywords:
+- d3d12/ID3D12GraphicsCommandList.Reset
 dev_langs:
- - c++
+- c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: D3d12.lib
 req.dll: D3d12.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - d3d12.dll
+- d3d12.dll
 api_name:
- - ID3D12GraphicsCommandList.Reset
+- ID3D12GraphicsCommandList.Reset
 targetos: Windows
 req.typenames: 
 req.redist: 

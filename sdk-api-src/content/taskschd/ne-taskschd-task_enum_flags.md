@@ -1,19 +1,17 @@
 ---
 UID: NE:taskschd._TASK_ENUM_FLAGS
 title: TASK_ENUM_FLAGS (taskschd.h)
-
 description: Defines how the Task Scheduler enumerates through registered tasks.
 old-location: taskschd\task_enum_flags.htm
 tech.root: taskschd
 ms.assetid: c77e597b-c8d9-426c-aa9d-7bb8536b349a
-
 ms.date: 12/05/2018
 ms.keywords: TASK_ENUM_FLAGS, TASK_ENUM_FLAGS enumeration [Task Scheduler], TASK_ENUM_HIDDEN, taskschd.task_enum_flags, taskschd/TASK_ENUM_FLAGS, taskschd/TASK_ENUM_HIDDEN
 ms.topic: enum
-f1_keywords: 
- - "taskschd/TASK_ENUM_FLAGS"
+f1_keywords:
+- taskschd/TASK_ENUM_FLAGS
 dev_langs:
- - c++
+- c++
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - taskschd.h
+- taskschd.h
 api_name:
- - TASK_ENUM_FLAGS
+- TASK_ENUM_FLAGS
 targetos: Windows
 req.typenames: TASK_ENUM_FLAGS
 req.redist: 

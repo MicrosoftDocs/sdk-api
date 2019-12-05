@@ -1,19 +1,17 @@
 ---
 UID: NF:wmsdkidl.IWMProfile3.GetBandwidthSharingCount
 title: IWMProfile3::GetBandwidthSharingCount (wmsdkidl.h)
-
 description: The GetBandwidthSharingCount method retrieves the total number of bandwidth sharing objects that have been added to the profile.
 old-location: wmformat\iwmprofile3_getbandwidthsharingcount.htm
 tech.root: wmformat
 ms.assetid: 7f5a11a7-d81a-4ca1-8b0f-1d561f736523
-
 ms.date: 12/05/2018
 ms.keywords: GetBandwidthSharingCount, GetBandwidthSharingCount method [windows Media Format], GetBandwidthSharingCount method [windows Media Format],IWMProfile3 interface, IWMProfile3 interface [windows Media Format],GetBandwidthSharingCount method, IWMProfile3.GetBandwidthSharingCount, IWMProfile3::GetBandwidthSharingCount, IWMProfile3GetBandwidthSharingCount, wmformat.iwmprofile3_getbandwidthsharingcount, wmsdkidl/IWMProfile3::GetBandwidthSharingCount
 ms.topic: method
-f1_keywords: 
- - "wmsdkidl/IWMProfile3.GetBandwidthSharingCount"
+f1_keywords:
+- wmsdkidl/IWMProfile3.GetBandwidthSharingCount
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wmvcore.lib
- - Wmvcore.dll
- - WMStubDRM.lib
- - WMStubDRM.dll
+- Wmvcore.lib
+- Wmvcore.dll
+- WMStubDRM.lib
+- WMStubDRM.dll
 api_name:
- - IWMProfile3.GetBandwidthSharingCount
+- IWMProfile3.GetBandwidthSharingCount
 targetos: Windows
 req.typenames: 
 req.redist: 

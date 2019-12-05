@@ -1,19 +1,17 @@
 ---
 UID: NF:wdstpdi.WdsTransportServerTrace
 title: WdsTransportServerTrace function (wdstpdi.h)
-
 description: Sends a debugging message.
 old-location: wds\wdstransportservertrace.htm
 tech.root: wds
 ms.assetid: 6b0d6b1a-4a77-43f8-affd-6489f9a65050
-
 ms.date: 12/05/2018
 ms.keywords: WDS_MC_TRACE_ERROR, WDS_MC_TRACE_FATAL, WDS_MC_TRACE_INFO, WDS_MC_TRACE_VERBOSE, WDS_MC_TRACE_WARNING, WdsTransportServerTrace, WdsTransportServerTrace function [Windows Deployment Services], wds.wdstransportservertrace, wdstpdi/WdsTransportServerTrace
 ms.topic: function
-f1_keywords: 
- - "wdstpdi/WdsTransportServerTrace"
+f1_keywords:
+- wdstpdi/WdsTransportServerTrace
 dev_langs:
- - c++
+- c++
 req.header: wdstpdi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Wdsmc.lib
 req.dll: Wdsmc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Wdsmc.dll
+- Wdsmc.dll
 api_name:
- - WdsTransportServerTrace
+- WdsTransportServerTrace
 targetos: Windows
 req.typenames: 
 req.redist: 

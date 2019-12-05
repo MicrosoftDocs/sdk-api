@@ -1,19 +1,17 @@
 ---
 UID: NF:wingdi.SelectClipPath
 title: SelectClipPath function (wingdi.h)
-
 description: The SelectClipPath function selects the current path as a clipping region for a device context, combining the new region with any existing clipping region using the specified mode.
 old-location: gdi\selectclippath.htm
 tech.root: gdi
 ms.assetid: c5102e1b-ba33-4cce-a4e5-93cf10c1c0bb
-
 ms.date: 12/05/2018
 ms.keywords: RGN_AND, RGN_COPY, RGN_DIFF, RGN_OR, RGN_XOR, SelectClipPath, SelectClipPath function [Windows GDI], _win32_SelectClipPath, gdi.selectclippath, wingdi/SelectClipPath
 ms.topic: function
-f1_keywords: 
- - "wingdi/SelectClipPath"
+f1_keywords:
+- wingdi/SelectClipPath
 dev_langs:
- - c++
+- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - gdi32.dll
- - Ext-MS-Win-GDI-DC-l1-2-0.dll
- - ext-ms-win-gdi-dc-l1-2-1.dll
- - GDI32Full.dll
+- gdi32.dll
+- Ext-MS-Win-GDI-DC-l1-2-0.dll
+- ext-ms-win-gdi-dc-l1-2-1.dll
+- GDI32Full.dll
 api_name:
- - SelectClipPath
+- SelectClipPath
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:d2d1_3.ID2D1Device2.CreateDeviceContext
 title: ID2D1Device2::CreateDeviceContext (d2d1_3.h)
-
 description: Creates a new ID2D1DeviceContext2 from a Direct2D device.
 old-location: direct2d\id2d1device2_createdevicecontext.htm
 tech.root: Direct2D
 ms.assetid: 92BC91A0-CD67-4F7B-9B8A-1301DD14C35C
-
 ms.date: 12/05/2018
 ms.keywords: CreateDeviceContext, CreateDeviceContext method [Direct2D], CreateDeviceContext method [Direct2D],ID2D1Device2 interface, ID2D1Device2 interface [Direct2D],CreateDeviceContext method, ID2D1Device2.CreateDeviceContext, ID2D1Device2::CreateDeviceContext, d2d1_3/ID2D1Device2::CreateDeviceContext, direct2d.id2d1device2_createdevicecontext
 ms.topic: method
-f1_keywords: 
- - "d2d1_3/ID2D1Device2.CreateDeviceContext"
+f1_keywords:
+- d2d1_3/ID2D1Device2.CreateDeviceContext
 dev_langs:
- - c++
+- c++
 req.header: d2d1_3.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: D2d1_3.lib
 req.dll: D2d1_3.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - d2d1_3.dll
+- d2d1_3.dll
 api_name:
- - ID2D1Device2.CreateDeviceContext
+- ID2D1Device2.CreateDeviceContext
 targetos: Windows
 req.typenames: 
 req.redist: 

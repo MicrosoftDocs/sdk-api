@@ -1,19 +1,17 @@
 ---
 UID: NF:handleapi.CompareObjectHandles
 title: CompareObjectHandles function (handleapi.h)
-
 description: Compares two object handles to determine if they refer to the same underlying kernel object.
 old-location: base\compareobjecthandles.htm
 tech.root: SysInfo
 ms.assetid: 06F22A46-0999-4622-8D62-23465C92A997
-
 ms.date: 12/05/2018
 ms.keywords: CompareObjectHandles, CompareObjectHandles function, base.compareobjecthandles, handleapi/CompareObjectHandles
 ms.topic: function
-f1_keywords: 
- - "handleapi/CompareObjectHandles"
+f1_keywords:
+- handleapi/CompareObjectHandles
 dev_langs:
- - c++
+- c++
 req.header: handleapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Kernelbase.lib
 req.dll: Kernelbase.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernelbase.dll
- - api-ms-win-core-handle-l1-1-0.lib
- - api-ms-win-core-handle-l1-1-0.dll
- - Kernel32.dll
+- Kernelbase.dll
+- api-ms-win-core-handle-l1-1-0.lib
+- api-ms-win-core-handle-l1-1-0.dll
+- Kernel32.dll
 api_name:
- - CompareObjectHandles
+- CompareObjectHandles
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:comsvcs.IMTSCall.OnCall
 title: IMTSCall::OnCall (comsvcs.h)
-
 description: Triggers the execution of the batch work implemented in this method.
 old-location: cos\imtscall_oncall.htm
 tech.root: cossdk
 ms.assetid: 410ed66e-db55-41e6-8f09-df4fe3aad3f2
-
 ms.date: 12/05/2018
 ms.keywords: IMTSCall interface [COM+],OnCall method, IMTSCall.OnCall, IMTSCall::OnCall, OnCall, OnCall method [COM+], OnCall method [COM+],IMTSCall interface, _cos_IMTSCall_OnCall, comsvcs/IMTSCall::OnCall, cos.imtscall_oncall
 ms.topic: method
-f1_keywords: 
- - "comsvcs/IMTSCall.OnCall"
+f1_keywords:
+- comsvcs/IMTSCall.OnCall
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - IMTSCall.OnCall
+- IMTSCall.OnCall
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:d2d1effectauthor.ID2D1EffectContext.CheckFeatureSupport
 title: ID2D1EffectContext::CheckFeatureSupport (d2d1effectauthor.h)
-
 description: This indicates whether an optional capability is supported by the D3D device.
 old-location: direct2d\id2d1effectcontext_checkfeaturesupport.htm
 tech.root: Direct2D
 ms.assetid: 1A97B928-7715-4D4E-AD38-7D01EE243494
-
 ms.date: 12/05/2018
 ms.keywords: CheckFeatureSupport, CheckFeatureSupport method [Direct2D], CheckFeatureSupport method [Direct2D],ID2D1EffectContext interface, ID2D1EffectContext interface [Direct2D],CheckFeatureSupport method, ID2D1EffectContext.CheckFeatureSupport, ID2D1EffectContext::CheckFeatureSupport, d2d1effectauthor/ID2D1EffectContext::CheckFeatureSupport, direct2d.id2d1effectcontext_checkfeaturesupport
 ms.topic: method
-f1_keywords: 
- - "d2d1effectauthor/ID2D1EffectContext.CheckFeatureSupport"
+f1_keywords:
+- d2d1effectauthor/ID2D1EffectContext.CheckFeatureSupport
 dev_langs:
- - c++
+- c++
 req.header: d2d1effectauthor.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: D2d1.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - d2d1.lib
- - d2d1.dll
+- d2d1.lib
+- d2d1.dll
 api_name:
- - ID2D1EffectContext.CheckFeatureSupport
+- ID2D1EffectContext.CheckFeatureSupport
 targetos: Windows
 req.typenames: 
 req.redist: 

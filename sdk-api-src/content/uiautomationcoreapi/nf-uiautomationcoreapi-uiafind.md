@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationcoreapi.UiaFind
 title: UiaFind function (uiautomationcoreapi.h)
-
 description: Retrieves one or more UI Automation nodes that match the search criteria.
 old-location: winauto\uiauto_UiaFindAutoMeth.htm
 tech.root: WinAuto
 ms.assetid: fe86b393-9c8d-46f1-85dc-5ac37f423ce0
-
 ms.date: 12/05/2018
 ms.keywords: UiaFind, UiaFind function [Windows Accessibility], uiauto.uiauto_UiaFindAutoMeth, uiauto_UiaFindAutoMeth, uiautomationcoreapi/UiaFind, winauto.uiauto_UiaFindAutoMeth
 ms.topic: function
-f1_keywords: 
- - "uiautomationcoreapi/UiaFind"
+f1_keywords:
+- uiautomationcoreapi/UiaFind
 dev_langs:
- - c++
+- c++
 req.header: uiautomationcoreapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uiautomationcore.lib
 req.dll: Uiautomationcore.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Uiautomationcore.dll
+- Uiautomationcore.dll
 api_name:
- - UiaFind
+- UiaFind
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:mfidl.IMFSystemId.GetData
 title: IMFSystemId::GetData (mfidl.h)
-
 description: Retrieves system id data.
 old-location: mf\imfsystemid_getdata.htm
 tech.root: medfound
 ms.assetid: 5b345a8d-65d1-4780-a7b9-b1025f9fa773
-
 ms.date: 12/05/2018
 ms.keywords: GetData, GetData method [Media Foundation], GetData method [Media Foundation],IMFSystemId interface, IMFSystemId interface [Media Foundation],GetData method, IMFSystemId.GetData, IMFSystemId::GetData, mf.imfsystemid_getdata, mfidl/IMFSystemId::GetData
 ms.topic: method
-f1_keywords: 
- - "mfidl/IMFSystemId.GetData"
+f1_keywords:
+- mfidl/IMFSystemId.GetData
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfidl.h
+- mfidl.h
 api_name:
- - IMFSystemId.GetData
+- IMFSystemId.GetData
 targetos: Windows
 req.typenames: 
 req.redist: 

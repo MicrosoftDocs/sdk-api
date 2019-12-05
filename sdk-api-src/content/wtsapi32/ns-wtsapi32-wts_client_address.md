@@ -1,19 +1,17 @@
 ---
 UID: NS:wtsapi32._WTS_CLIENT_ADDRESS
 title: WTS_CLIENT_ADDRESS (wtsapi32.h)
-
 description: Contains the client network address of a Remote Desktop Services session.
 old-location: termserv\wts_client_address_str.htm
 tech.root: TermServ
 ms.assetid: 29034986-f8d1-4cf0-9f53-e4b195d450a6
-
 ms.date: 12/05/2018
-ms.keywords: "*PWTS_CLIENT_ADDRESS, PWTS_CLIENT_ADDRESS, PWTS_CLIENT_ADDRESS structure pointer [Remote Desktop Services], WTS_CLIENT_ADDRESS, WTS_CLIENT_ADDRESS structure [Remote Desktop Services], _win32_wts_client_address_str, termserv.wts_client_address_str, wtsapi32/PWTS_CLIENT_ADDRESS, wtsapi32/WTS_CLIENT_ADDRESS"
+ms.keywords: '*PWTS_CLIENT_ADDRESS, PWTS_CLIENT_ADDRESS, PWTS_CLIENT_ADDRESS structure pointer [Remote Desktop Services], WTS_CLIENT_ADDRESS, WTS_CLIENT_ADDRESS structure [Remote Desktop Services], _win32_wts_client_address_str, termserv.wts_client_address_str, wtsapi32/PWTS_CLIENT_ADDRESS, wtsapi32/WTS_CLIENT_ADDRESS'
 ms.topic: struct
-f1_keywords: 
- - "wtsapi32/WTS_CLIENT_ADDRESS"
+f1_keywords:
+- wtsapi32/WTS_CLIENT_ADDRESS
 dev_langs:
- - c++
+- c++
 req.header: wtsapi32.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wtsapi32.h
+- Wtsapi32.h
 api_name:
- - WTS_CLIENT_ADDRESS
+- WTS_CLIENT_ADDRESS
 targetos: Windows
 req.typenames: WTS_CLIENT_ADDRESS, *PWTS_CLIENT_ADDRESS
 req.redist: 

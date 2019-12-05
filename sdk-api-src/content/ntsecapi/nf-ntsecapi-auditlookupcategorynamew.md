@@ -1,19 +1,17 @@
 ---
 UID: NF:ntsecapi.AuditLookupCategoryNameW
 title: AuditLookupCategoryNameW function (ntsecapi.h)
-
 description: Retrieves the display name of the specified audit-policy category.
 old-location: security\auditlookupcategoryname_func.htm
 tech.root: SecAuthZ
 ms.assetid: 8b30d864-8eb5-42d8-bc9a-a9eae1de5187
-
 ms.date: 12/05/2018
 ms.keywords: AuditLookupCategoryName, AuditLookupCategoryName function [Security], AuditLookupCategoryNameA, AuditLookupCategoryNameW, ntsecapi/AuditLookupCategoryName, ntsecapi/AuditLookupCategoryNameA, ntsecapi/AuditLookupCategoryNameW, security.auditlookupcategoryname_func
 ms.topic: function
-f1_keywords: 
- - "ntsecapi/AuditLookupCategoryName"
+f1_keywords:
+- ntsecapi/AuditLookupCategoryName
 dev_langs:
- - c++
+- c++
 req.header: ntsecapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Advapi32.dll
- - API-MS-Win-Security-audit-l1-1-1.dll
- - sechost.dll
+- Advapi32.dll
+- API-MS-Win-Security-audit-l1-1-1.dll
+- sechost.dll
 api_name:
- - AuditLookupCategoryName
- - AuditLookupCategoryNameA
- - AuditLookupCategoryNameW
+- AuditLookupCategoryName
+- AuditLookupCategoryNameA
+- AuditLookupCategoryNameW
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NS:ddkmapi._DDOPENVIDEOPORTIN
 title: DDOPENVIDEOPORTIN (ddkmapi.h)
-
 description: The DDOPENVIDEOPORTIN structure contains the video port extensions (VPE) object information.
 old-location: display\ddopenvideoportin.htm
 tech.root: display
 ms.assetid: 53a0fdb3-583d-4da2-939c-6640ca9e6c31
-
 ms.date: 12/05/2018
-ms.keywords: "*LPDDOPENVIDEOPORTIN, DDOPENVIDEOPORTIN, DDOPENVIDEOPORTIN structure [Display Devices], LPDDOPENVIDEOPORTIN, LPDDOPENVIDEOPORTIN structure pointer [Display Devices], ddkmapi/DDOPENVIDEOPORTIN, ddkmapi/LPDDOPENVIDEOPORTIN, ddstrcts_946323a4-8ead-46d5-aa18-2a3e1eaef2f1.xml, display.ddopenvideoportin"
+ms.keywords: '*LPDDOPENVIDEOPORTIN, DDOPENVIDEOPORTIN, DDOPENVIDEOPORTIN structure [Display Devices], LPDDOPENVIDEOPORTIN, LPDDOPENVIDEOPORTIN structure pointer [Display Devices], ddkmapi/DDOPENVIDEOPORTIN, ddkmapi/LPDDOPENVIDEOPORTIN, ddstrcts_946323a4-8ead-46d5-aa18-2a3e1eaef2f1.xml, display.ddopenvideoportin'
 ms.topic: struct
-f1_keywords: 
- - "ddkmapi/DDOPENVIDEOPORTIN"
+f1_keywords:
+- ddkmapi/DDOPENVIDEOPORTIN
 dev_langs:
- - c++
+- c++
 req.header: ddkmapi.h
 req.include-header: Ddkmapi.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - ddkmapi.h
+- ddkmapi.h
 api_name:
- - DDOPENVIDEOPORTIN
+- DDOPENVIDEOPORTIN
 targetos: Windows
 req.typenames: DDOPENVIDEOPORTIN, *LPDDOPENVIDEOPORTIN
 req.redist: 

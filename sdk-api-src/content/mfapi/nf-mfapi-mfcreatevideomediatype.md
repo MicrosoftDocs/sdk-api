@@ -1,19 +1,17 @@
 ---
 UID: NF:mfapi.MFCreateVideoMediaType
 title: MFCreateVideoMediaType function (mfapi.h)
-
 description: Creates a video media type from an MFVIDEOFORMAT structure.
 old-location: mf\mfcreatevideomediatype.htm
 tech.root: medfound
 ms.assetid: 143aedec-d1ce-434a-8a1c-62a2c9d55e88
-
 ms.date: 12/05/2018
 ms.keywords: 143aedec-d1ce-434a-8a1c-62a2c9d55e88, MFCreateVideoMediaType, MFCreateVideoMediaType function [Media Foundation], mf.mfcreatevideomediatype, mfapi/MFCreateVideoMediaType
 ms.topic: function
 f1_keywords:
 - mfapi/MFCreateVideoMediaType
 dev_langs:
- - c++
+- c++
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows

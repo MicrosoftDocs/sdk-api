@@ -1,19 +1,17 @@
 ---
 UID: NF:winuser.CharToOemW
 title: CharToOemW function (winuser.h)
-
 description: Translates a string into the OEM-defined character set.Warning  Do not use.
 old-location: menurc\chartooem.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\strings\stringreference\stringfunctions\chartooem.htm
-
 ms.date: 12/05/2018
 ms.keywords: CharToOem, CharToOem function [Menus and Other Resources], CharToOemA, CharToOemW, _win32_CharToOem, _win32_chartooem_cpp, menurc.chartooem, winui._win32_chartooem, winuser/CharToOem, winuser/CharToOemA, winuser/CharToOemW
 ms.topic: function
-f1_keywords: 
- - "winuser/CharToOem"
+f1_keywords:
+- winuser/CharToOem
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - User32.dll
- - Ext-MS-Win-NTUser-chartranslation-l1-1-0.dll
+- User32.dll
+- Ext-MS-Win-NTUser-chartranslation-l1-1-0.dll
 api_name:
- - CharToOem
- - CharToOemA
- - CharToOemW
+- CharToOem
+- CharToOemA
+- CharToOemW
 targetos: Windows
 req.typenames: 
 req.redist: 

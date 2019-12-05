@@ -1,19 +1,17 @@
 ---
 UID: NN:sbtsv.ITsSbEnvironment
 title: ITsSbEnvironment (sbtsv.h)
-
 description: Exposes methods and properties that contain information about the environment that hosts the target computer. This interface can be used to store information about a physical server that hosts virtual machines.
 old-location: termserv\itssbenvironment.htm
 tech.root: TermServ
 ms.assetid: 287cea18-c13c-4396-8970-39dd7f9b960e
-
 ms.date: 12/05/2018
 ms.keywords: ITsSbEnvironment, ITsSbEnvironment interface [Remote Desktop Services], ITsSbEnvironment interface [Remote Desktop Services],described, sbtsv/ITsSbEnvironment, termserv.itssbenvironment
 ms.topic: interface
-f1_keywords: 
- - "sbtsv/ITsSbEnvironment"
+f1_keywords:
+- sbtsv/ITsSbEnvironment
 dev_langs:
- - c++
+- c++
 req.header: sbtsv.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - sbtsv.h
+- sbtsv.h
 api_name:
- - ITsSbEnvironment
+- ITsSbEnvironment
 targetos: Windows
 req.typenames: 
 req.redist: 

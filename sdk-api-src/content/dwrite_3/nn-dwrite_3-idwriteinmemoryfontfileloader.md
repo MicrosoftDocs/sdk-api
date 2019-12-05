@@ -1,19 +1,17 @@
 ---
 UID: NN:dwrite_3.IDWriteInMemoryFontFileLoader
 title: IDWriteInMemoryFontFileLoader (dwrite_3.h)
-
 description: Represents a font file loader that can access in-memory fonts.
 old-location: directwrite\idwriteinmemoryfontfileloader.htm
 tech.root: DirectWrite
 ms.assetid: E4B2ADAD-E4B8-4655-BABD-F3FC6A3D4F58
-
 ms.date: 12/05/2018
 ms.keywords: IDWriteInMemoryFontFileLoader, IDWriteInMemoryFontFileLoader interface [Direct Write], IDWriteInMemoryFontFileLoader interface [Direct Write],described, directwrite.idwriteinmemoryfontfileloader, dwrite_3/IDWriteInMemoryFontFileLoader
 ms.topic: interface
-f1_keywords: 
- - "dwrite_3/IDWriteInMemoryFontFileLoader"
+f1_keywords:
+- dwrite_3/IDWriteInMemoryFontFileLoader
 dev_langs:
- - c++
+- c++
 req.header: dwrite_3.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Dwrite.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dwrite.lib
- - Dwrite.dll
+- Dwrite.lib
+- Dwrite.dll
 api_name:
- - IDWriteInMemoryFontFileLoader
+- IDWriteInMemoryFontFileLoader
 targetos: Windows
 req.typenames: 
 req.redist: 

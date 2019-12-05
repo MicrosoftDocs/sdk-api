@@ -1,19 +1,17 @@
 ---
 UID: NF:objidl.ICallFactory.CreateCall
 title: ICallFactory::CreateCall (objidl.h)
-
 description: Creates an instance of the call object that corresponds to a specified asynchronous interface.
 old-location: com\icallfactory_createcall.htm
 tech.root: com
 ms.assetid: 8df51aeb-4852-4dab-b1e9-e149ee115ea8
-
 ms.date: 12/05/2018
 ms.keywords: CreateCall, CreateCall method [COM], CreateCall method [COM],ICallFactory interface, ICallFactory interface [COM],CreateCall method, ICallFactory.CreateCall, ICallFactory::CreateCall, _com_icallfactory_createcall, com.icallfactory_createcall, objidlbase/ICallFactory::CreateCall
 ms.topic: method
-f1_keywords: 
- - "objidl/ICallFactory.CreateCall"
+f1_keywords:
+- objidl/ICallFactory.CreateCall
 dev_langs:
- - c++
+- c++
 req.header: objidl.h
 req.include-header: ObjIdl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - objidlbase.h
+- objidlbase.h
 api_name:
- - ICallFactory.CreateCall
+- ICallFactory.CreateCall
 targetos: Windows
 req.typenames: 
 req.redist: 

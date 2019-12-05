@@ -1,19 +1,17 @@
 ---
 UID: NF:winuser.CopyRect
 title: CopyRect function (winuser.h)
-
 description: The CopyRect function copies the coordinates of one rectangle to another.
 old-location: gdi\copyrect.htm
 tech.root: gdi
 ms.assetid: 9349ba83-59d6-49d0-ac9d-a4d9589748dd
-
 ms.date: 12/05/2018
 ms.keywords: CopyRect, CopyRect function [Windows GDI], _win32_CopyRect, gdi.copyrect, winuser/CopyRect
 ms.topic: function
-f1_keywords: 
- - "winuser/CopyRect"
+f1_keywords:
+- winuser/CopyRect
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - user32.dll
- - API-MS-Win-NTUser-Rectangle-l1-1-0.dll
- - minuser.dll
- - Ext-MS-Win-NTUser-Rectangle-Ext-l1-1-0.dll
+- user32.dll
+- API-MS-Win-NTUser-Rectangle-l1-1-0.dll
+- minuser.dll
+- Ext-MS-Win-NTUser-Rectangle-Ext-l1-1-0.dll
 api_name:
- - CopyRect
+- CopyRect
 targetos: Windows
 req.typenames: 
 req.redist: 

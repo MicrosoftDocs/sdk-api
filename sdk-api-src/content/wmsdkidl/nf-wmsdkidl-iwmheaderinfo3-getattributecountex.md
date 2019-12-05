@@ -1,19 +1,17 @@
 ---
 UID: NF:wmsdkidl.IWMHeaderInfo3.GetAttributeCountEx
 title: IWMHeaderInfo3::GetAttributeCountEx (wmsdkidl.h)
-
 description: The GetAttributeCountEx method retrieves the total number of attributes associated with a specified stream number.
 old-location: wmformat\iwmheaderinfo3_getattributecountex.htm
 tech.root: wmformat
 ms.assetid: 8c56d7b6-4f59-450e-938c-b7d0bd37ea08
-
 ms.date: 12/05/2018
 ms.keywords: GetAttributeCountEx, GetAttributeCountEx method [windows Media Format], GetAttributeCountEx method [windows Media Format],IWMHeaderInfo3 interface, IWMHeaderInfo3 interface [windows Media Format],GetAttributeCountEx method, IWMHeaderInfo3.GetAttributeCountEx, IWMHeaderInfo3::GetAttributeCountEx, IWMHeaderInfo3GetAttributeCountEx, wmformat.iwmheaderinfo3_getattributecountex, wmsdkidl/IWMHeaderInfo3::GetAttributeCountEx
 ms.topic: method
-f1_keywords: 
- - "wmsdkidl/IWMHeaderInfo3.GetAttributeCountEx"
+f1_keywords:
+- wmsdkidl/IWMHeaderInfo3.GetAttributeCountEx
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wmvcore.lib
- - Wmvcore.dll
- - WMStubDRM.lib
- - WMStubDRM.dll
+- Wmvcore.lib
+- Wmvcore.dll
+- WMStubDRM.lib
+- WMStubDRM.dll
 api_name:
- - IWMHeaderInfo3.GetAttributeCountEx
+- IWMHeaderInfo3.GetAttributeCountEx
 targetos: Windows
 req.typenames: 
 req.redist: 

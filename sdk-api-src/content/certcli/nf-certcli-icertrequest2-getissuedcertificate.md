@@ -1,19 +1,17 @@
 ---
 UID: NF:certcli.ICertRequest2.GetIssuedCertificate
 title: ICertRequest2::GetIssuedCertificate (certcli.h)
-
 description: Retrieves a certificate's disposition by specifying either the request ID or the certificate serial number.
 old-location: security\icertrequest2_getissuedcertificate.htm
 tech.root: SecCrypto
 ms.assetid: ea7f6013-a55d-4a76-9c9e-df180ba9bb79
-
 ms.date: 12/05/2018
 ms.keywords: CCertRequest object [Security],GetIssuedCertificate method, CR_DISP_DENIED, CR_DISP_ERROR, CR_DISP_INCOMPLETE, CR_DISP_ISSUED, CR_DISP_ISSUED_OUT_OF_BAND, CR_DISP_UNDER_SUBMISSION, GetIssuedCertificate, GetIssuedCertificate method [Security], GetIssuedCertificate method [Security],CCertRequest object, GetIssuedCertificate method [Security],ICertRequest interface, GetIssuedCertificate method [Security],ICertRequest2 interface, GetIssuedCertificate method [Security],ICertRequest3 interface, ICertRequest interface [Security],GetIssuedCertificate method, ICertRequest2 interface [Security],GetIssuedCertificate method, ICertRequest2.GetIssuedCertificate, ICertRequest2::GetIssuedCertificate, ICertRequest3 interface [Security],GetIssuedCertificate method, ICertRequest3::GetIssuedCertificate, ICertRequest::GetIssuedCertificate, _certsrv_icertrequest2_getissuedcertificate, certcli/ICertRequest2::GetIssuedCertificate, certcli/ICertRequest3::GetIssuedCertificate, certcli/ICertRequest::GetIssuedCertificate, security.icertrequest2_getissuedcertificate
 ms.topic: method
-f1_keywords: 
- - "certcli/ICertRequest3.GetIssuedCertificate"
+f1_keywords:
+- certcli/ICertRequest3.GetIssuedCertificate
 dev_langs:
- - c++
+- c++
 req.header: certcli.h
 req.include-header: Certsrv.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Certidl.lib
 req.dll: Certcli.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Certcli.dll
+- Certcli.dll
 api_name:
- - ICertRequest3.GetIssuedCertificate
- - ICertRequest2.GetIssuedCertificate
- - ICertRequest.GetIssuedCertificate
- - CCertRequest.GetIssuedCertificate
+- ICertRequest3.GetIssuedCertificate
+- ICertRequest2.GetIssuedCertificate
+- ICertRequest.GetIssuedCertificate
+- CCertRequest.GetIssuedCertificate
 targetos: Windows
 req.typenames: 
 req.redist: 

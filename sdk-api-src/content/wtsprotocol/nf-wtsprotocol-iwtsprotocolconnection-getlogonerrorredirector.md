@@ -1,19 +1,17 @@
 ---
 UID: NF:wtsprotocol.IWTSProtocolConnection.GetLogonErrorRedirector
 title: IWTSProtocolConnection::GetLogonErrorRedirector (wtsprotocol.h)
-
 description: IWTSProtocolConnection::GetLogonErrorRedirector is no longer available. Instead, use IWRdsProtocolConnection::GetLogonErrorRedirector.
 old-location: termserv\iwtsprotocolconnection_getlogonerrorredirector.htm
 tech.root: TermServ
 ms.assetid: 59bd7d50-2903-42b7-b556-4da7b50d8e7a
-
 ms.date: 12/05/2018
 ms.keywords: GetLogonErrorRedirector, GetLogonErrorRedirector method [Remote Desktop Services], GetLogonErrorRedirector method [Remote Desktop Services],IWTSProtocolConnection interface, IWTSProtocolConnection interface [Remote Desktop Services],GetLogonErrorRedirector method, IWTSProtocolConnection.GetLogonErrorRedirector, IWTSProtocolConnection::GetLogonErrorRedirector, termserv.iwtsprotocolconnection_getlogonerrorredirector, wtsprotocol/IWTSProtocolConnection::GetLogonErrorRedirector
 ms.topic: method
-f1_keywords: 
- - "wtsprotocol/IWTSProtocolConnection.GetLogonErrorRedirector"
+f1_keywords:
+- wtsprotocol/IWTSProtocolConnection.GetLogonErrorRedirector
 dev_langs:
- - c++
+- c++
 req.header: wtsprotocol.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wtsprotocol.h
+- Wtsprotocol.h
 api_name:
- - IWTSProtocolConnection.GetLogonErrorRedirector
+- IWTSProtocolConnection.GetLogonErrorRedirector
 targetos: Windows
 req.typenames: 
 req.redist: 

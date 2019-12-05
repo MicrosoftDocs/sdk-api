@@ -1,19 +1,17 @@
 ---
 UID: NF:icmpapi.Icmp6SendEcho2
 title: Icmp6SendEcho2 function (icmpapi.h)
-
 description: The Icmp6SendEcho2 function sends an IPv6 ICMPv6 echo request and returns either immediately (if Event or ApcRoutine is non-NULL) or returns after the specified time-out. The ReplyBuffer contains the IPv6 ICMPv6 echo response, if any.
 old-location: iphlp\icmp6sendecho2.htm
 tech.root: IpHlp
 ms.assetid: 622c769b-ede8-4bc2-ac54-98de47ae1fed
-
 ms.date: 12/05/2018
 ms.keywords: Icmp6SendEcho2, Icmp6SendEcho2 function [IP Helper], icmpapi/Icmp6SendEcho2, iphlp.icmp6sendecho2
 ms.topic: function
-f1_keywords: 
- - "icmpapi/Icmp6SendEcho2"
+f1_keywords:
+- icmpapi/Icmp6SendEcho2
 dev_langs:
- - c++
+- c++
 req.header: icmpapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Iphlpapi.lib
 req.dll: Iphlpapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Iphlpapi.dll
+- Iphlpapi.dll
 api_name:
- - Icmp6SendEcho2
+- Icmp6SendEcho2
 targetos: Windows
 req.typenames: 
 req.redist: 

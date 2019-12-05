@@ -1,19 +1,17 @@
 ---
 UID: NF:hrtfapoapi.IXAPOHrtfParameters.SetEnvironment
 title: IXAPOHrtfParameters::SetEnvironment (hrtfapoapi.h)
-
 description: Selects the acoustic environment to simulate.
 old-location: xaudio2\ixapohrtfparameters_setenvironment.htm
 tech.root: xaudio2
 ms.assetid: 1AB999FB-E24C-4CC6-A3B9-D4F61FF31760
-
 ms.date: 12/05/2018
 ms.keywords: IXAPOHrtfParameters interface [XAudio2 Audio Mixing APIs],SetEnvironment method, IXAPOHrtfParameters.SetEnvironment, IXAPOHrtfParameters::SetEnvironment, SetEnvironment, SetEnvironment method [XAudio2 Audio Mixing APIs], SetEnvironment method [XAudio2 Audio Mixing APIs],IXAPOHrtfParameters interface, hrtfapoapi/IXAPOHrtfParameters::SetEnvironment, xaudio2.ixapohrtfparameters_setenvironment
 ms.topic: method
-f1_keywords: 
- - "hrtfapoapi/IXAPOHrtfParameters.SetEnvironment"
+f1_keywords:
+- hrtfapoapi/IXAPOHrtfParameters.SetEnvironment
 dev_langs:
- - c++
+- c++
 req.header: hrtfapoapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: HrtfApo.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - HrtfApo.dll
+- HrtfApo.dll
 api_name:
- - IXAPOHrtfParameters.SetEnvironment
+- IXAPOHrtfParameters.SetEnvironment
 targetos: Windows
 req.typenames: 
 req.redist: 

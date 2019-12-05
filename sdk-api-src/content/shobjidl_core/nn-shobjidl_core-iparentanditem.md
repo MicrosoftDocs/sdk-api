@@ -1,19 +1,17 @@
 ---
 UID: NN:shobjidl_core.IParentAndItem
 title: IParentAndItem (shobjidl_core.h)
-
 description: Exposes methods that get and set the parent and the parent's child ID. While IParentAndItem is typically implemented on IShellItems, it is not specific to IShellItem.
 old-location: shell\IParentAndItem.htm
 tech.root: shell
 ms.assetid: 5cca426f-73fb-4b39-8eb0-16c01673c311
-
 ms.date: 12/05/2018
 ms.keywords: IParentAndItem, IParentAndItem interface [Windows Shell], IParentAndItem interface [Windows Shell],described, _shell_IParentAndItem, shell.IParentAndItem, shobjidl_core/IParentAndItem
 ms.topic: interface
-f1_keywords: 
- - "shobjidl_core/IParentAndItem"
+f1_keywords:
+- shobjidl_core/IParentAndItem
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - IParentAndItem
+- IParentAndItem
 targetos: Windows
 req.typenames: 
 req.redist: 

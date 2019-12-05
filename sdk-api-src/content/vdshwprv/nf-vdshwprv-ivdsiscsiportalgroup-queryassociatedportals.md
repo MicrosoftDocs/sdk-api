@@ -1,19 +1,17 @@
 ---
 UID: NF:vdshwprv.IVdsIscsiPortalGroup.QueryAssociatedPortals
 title: IVdsIscsiPortalGroup::QueryAssociatedPortals (vdshwprv.h)
-
 description: Returns an enumeration of the portals with which the portal group is associated.
 old-location: base\ivdsiscsiportalgroup_queryassociatedportals.htm
 tech.root: VDS
 ms.assetid: c9d120bb-f195-413d-bc82-007523041d58
-
 ms.date: 12/05/2018
 ms.keywords: IVdsIscsiPortalGroup interface [VDS],QueryAssociatedPortals method, IVdsIscsiPortalGroup.QueryAssociatedPortals, IVdsIscsiPortalGroup::QueryAssociatedPortals, QueryAssociatedPortals, QueryAssociatedPortals method [VDS], QueryAssociatedPortals method [VDS],IVdsIscsiPortalGroup interface, base.ivdsiscsiportalgroup_queryassociatedportals, vds/IVdsIscsiPortalGroup::QueryAssociatedPortals, vdshwprv/IVdsIscsiPortalGroup::QueryAssociatedPortals
 ms.topic: method
-f1_keywords: 
- - "vdshwprv/IVdsIscsiPortalGroup.QueryAssociatedPortals"
+f1_keywords:
+- vdshwprv/IVdsIscsiPortalGroup.QueryAssociatedPortals
 dev_langs:
- - c++
+- c++
 req.header: vdshwprv.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Uuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Uuid.lib
- - Uuid.dll
+- Uuid.lib
+- Uuid.dll
 api_name:
- - IVdsIscsiPortalGroup.QueryAssociatedPortals
+- IVdsIscsiPortalGroup.QueryAssociatedPortals
 targetos: Windows
 req.typenames: 
 req.redist: VDS 1.1

@@ -1,19 +1,17 @@
 ---
 UID: NF:winuser.SetWindowPlacement
 title: SetWindowPlacement function (winuser.h)
-
 description: Sets the show state and the restored, minimized, and maximized positions of the specified window.
 old-location: winmsg\setwindowplacement.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowfunctions\setwindowplacement.htm
-
 ms.date: 12/05/2018
 ms.keywords: SetWindowPlacement, SetWindowPlacement function [Windows and Messages], _win32_SetWindowPlacement, _win32_setwindowplacement_cpp, winmsg.setwindowplacement, winui._win32_setwindowplacement, winuser/SetWindowPlacement
 ms.topic: function
-f1_keywords: 
- - "winuser/SetWindowPlacement"
+f1_keywords:
+- winuser/SetWindowPlacement
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - User32.dll
- - ext-ms-win-ntuser-window-l1-1-3.dll
- - Ext-MS-Win-NTUser-Window-L1-1-4.dll
+- User32.dll
+- ext-ms-win-ntuser-window-l1-1-3.dll
+- Ext-MS-Win-NTUser-Window-L1-1-4.dll
 api_name:
- - SetWindowPlacement
+- SetWindowPlacement
 targetos: Windows
 req.typenames: 
 req.redist: 

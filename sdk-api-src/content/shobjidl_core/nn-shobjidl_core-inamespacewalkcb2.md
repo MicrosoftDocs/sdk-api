@@ -1,19 +1,17 @@
 ---
 UID: NN:shobjidl_core.INamespaceWalkCB2
 title: INamespaceWalkCB2 (shobjidl_core.h)
-
 description: Extends INamespaceWalkCB with a method that is required in order to complete a namespace walk. This method removes data collected during the walk.
 old-location: shell\INamespaceWalkCB2.htm
 tech.root: shell
 ms.assetid: a748083b-a99e-4015-93da-112d2950f623
-
 ms.date: 12/05/2018
 ms.keywords: INamespaceWalkCB2, INamespaceWalkCB2 interface [Windows Shell], INamespaceWalkCB2 interface [Windows Shell],described, _shell_INamespaceWalkCB2, shell.INamespaceWalkCB2, shobjidl_core/INamespaceWalkCB2
 ms.topic: interface
-f1_keywords: 
- - "shobjidl_core/INamespaceWalkCB2"
+f1_keywords:
+- shobjidl_core/INamespaceWalkCB2
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - INamespaceWalkCB2
+- INamespaceWalkCB2
 targetos: Windows
 req.typenames: 
 req.redist: 

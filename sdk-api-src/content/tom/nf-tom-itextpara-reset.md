@@ -1,19 +1,17 @@
 ---
 UID: NF:tom.ITextPara.Reset
 title: ITextPara::Reset (tom.h)
-
 description: Resets the paragraph formatting to a choice of default values.
 old-location: controls\ITextPara_Reset.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\itextpara\itextparareset.htm
-
 ms.date: 12/05/2018
 ms.keywords: ITextPara interface [Windows Controls],Reset method, ITextPara.Reset, ITextPara::Reset, Reset, Reset method [Windows Controls], Reset method [Windows Controls],ITextPara interface, _win32_ITextPara_Reset, _win32_ITextPara_Reset_cpp, controls.ITextPara_Reset, controls._win32_ITextPara_Reset, tom/ITextPara::Reset
 ms.topic: method
-f1_keywords: 
- - "tom/ITextPara.Reset"
+f1_keywords:
+- tom/ITextPara.Reset
 dev_langs:
- - c++
+- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msftedit.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msftedit.dll
+- Msftedit.dll
 api_name:
- - ITextPara.Reset
+- ITextPara.Reset
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:mmc.IConsoleNameSpace.DeleteItem
 title: IConsoleNameSpace::DeleteItem (mmc.h)
-
 description: The IConsoleNameSpace2::DeleteItem method IConsoleNameSpaceenables the snap-in to delete a single item from the scope pane.
 old-location: mmc\iconsolenamespace2_deleteitem.htm
 tech.root: mmc
 ms.assetid: 488a6c26-e064-44a1-9842-6f41ec25887c
-
 ms.date: 12/05/2018
 ms.keywords: DeleteItem, DeleteItem method [MMC], DeleteItem method [MMC],IConsoleNameSpace interface, DeleteItem method [MMC],IConsoleNameSpace2 interface, IConsoleNameSpace interface [MMC],DeleteItem method, IConsoleNameSpace.DeleteItem, IConsoleNameSpace2 interface [MMC],DeleteItem method, IConsoleNameSpace2::DeleteItem, IConsoleNameSpace::DeleteItem, _slate_iconsolenamespace2_deleteitem, mmc.iconsolenamespace2_deleteitem, mmc/IConsoleNameSpace2::DeleteItem, mmc/IConsoleNameSpace::DeleteItem
 ms.topic: method
-f1_keywords: 
- - "mmc/IConsoleNameSpace.DeleteItem"
+f1_keywords:
+- mmc/IConsoleNameSpace.DeleteItem
 dev_langs:
- - c++
+- c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: Mmcndmgr.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mmcndmgr.dll
+- Mmcndmgr.dll
 api_name:
- - IConsoleNameSpace.DeleteItem
- - IConsoleNameSpace2.DeleteItem
+- IConsoleNameSpace.DeleteItem
+- IConsoleNameSpace2.DeleteItem
 targetos: Windows
 req.typenames: 
 req.redist: 

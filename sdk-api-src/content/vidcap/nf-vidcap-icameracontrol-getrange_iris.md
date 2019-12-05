@@ -1,19 +1,17 @@
 ---
 UID: NF:vidcap.ICameraControl.getRange_Iris
 title: ICameraControl::getRange_Iris (vidcap.h)
-
 description: The getRange_Iris method returns the range of aperture settings supported by the camera.
 old-location: dshow\icameracontrol_getrange_iris.htm
 tech.root: DirectShow
 ms.assetid: 3f3bc5b0-18eb-470c-9922-1d401f43e269
-
 ms.date: 12/05/2018
 ms.keywords: ICameraControl interface [DirectShow],getRange_Iris method, ICameraControl.getRange_Iris, ICameraControl::getRange_Iris, ICameraControlgetRange_Iris, dshow.icameracontrol_getrange_iris, getRange_Iris, getRange_Iris method [DirectShow], getRange_Iris method [DirectShow],ICameraControl interface, vidcap/ICameraControl::getRange_Iris
 ms.topic: method
-f1_keywords: 
- - "vidcap/ICameraControl.getRange_Iris"
+f1_keywords:
+- vidcap/ICameraControl.getRange_Iris
 dev_langs:
- - c++
+- c++
 req.header: vidcap.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - ICameraControl.getRange_Iris
+- ICameraControl.getRange_Iris
 targetos: Windows
 req.typenames: 
 req.redist: 

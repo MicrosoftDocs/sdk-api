@@ -1,19 +1,17 @@
 ---
 UID: NF:newdev.DiInstallDriverW
 title: DiInstallDriverW function (newdev.h)
-
 description: The DiInstallDriver function preinstalls a driver in the driver store and then installs the driver on devices present in the system that the driver supports.
 old-location: devinst\diinstalldriver.htm
 tech.root: devinst
 ms.assetid: 7015d05f-235e-42d1-b4e1-9919bbebf185
-
 ms.date: 12/05/2018
 ms.keywords: DiInstallDriver, DiInstallDriver function [Device and Driver Installation], DiInstallDriverA, DiInstallDriverW, devinst.diinstalldriver, di-rtns_acf16c10-0aba-472a-8e3d-9c7dcc136449.xml, newdev/DiInstallDriver
 ms.topic: function
-f1_keywords: 
- - "newdev/DiInstallDriver"
+f1_keywords:
+- newdev/DiInstallDriver
 dev_langs:
- - c++
+- c++
 req.header: newdev.h
 req.include-header: Newdev.h
 req.target-type: Desktop
@@ -32,16 +30,16 @@ req.lib: Newdev.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - LibDef
+- LibDef
 api_location:
- - Newdev.lib
- - Newdev.dll
+- Newdev.lib
+- Newdev.dll
 api_name:
- - DiInstallDriver
- - DiInstallDriverW
+- DiInstallDriver
+- DiInstallDriverW
 targetos: Windows
 req.typenames: 
 req.redist: 

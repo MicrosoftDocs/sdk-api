@@ -1,19 +1,17 @@
 ---
 UID: NS:directml.DML_TOP_K_OPERATOR_DESC
 title: DML_TOP_K_OPERATOR_DESC
-
 description: Describes a DirectML reduction operator that retrieves the top K elements along a specified axis.
 old-location: direct3d12\dml_top_k_operator_desc.htm
 tech.root: direct3d12
 ms.assetid: BB0FD5F7-BCD8-42E0-A037-4411AFF386C2
-
 ms.date: 12/5/2018
 ms.keywords: DML_TOP_K_OPERATOR_DESC, DML_TOP_K_OPERATOR_DESC structure, direct3d12.dml_top_k_operator_desc, directml/DML_TOP_K_OPERATOR_DESC
 ms.topic: struct
-f1_keywords: 
- - "directml/DML_TOP_K_OPERATOR_DESC"
+f1_keywords:
+- directml/DML_TOP_K_OPERATOR_DESC
 dev_langs:
- - c++
+- c++
 req.header: directml.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - DirectML.h
+- DirectML.h
 api_name:
- - DML_TOP_K_OPERATOR_DESC
+- DML_TOP_K_OPERATOR_DESC
 targetos: Windows
 req.typenames: 
 req.redist: 

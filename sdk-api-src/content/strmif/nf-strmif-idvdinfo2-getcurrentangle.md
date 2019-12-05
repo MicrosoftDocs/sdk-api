@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IDvdInfo2.GetCurrentAngle
 title: IDvdInfo2::GetCurrentAngle (strmif.h)
-
 description: The GetCurrentAngle method retrieves the number of available angles in the current angle block and the currently selected angle number.
 old-location: dshow\idvdinfo2_getcurrentangle.htm
 tech.root: DirectShow
 ms.assetid: 9347cad1-f061-45e9-ab4a-66e87a2b0c86
-
 ms.date: 12/05/2018
 ms.keywords: GetCurrentAngle, GetCurrentAngle method [DirectShow], GetCurrentAngle method [DirectShow],IDvdInfo2 interface, IDvdInfo2 interface [DirectShow],GetCurrentAngle method, IDvdInfo2.GetCurrentAngle, IDvdInfo2::GetCurrentAngle, IDvdInfo2GetCurrentAngle, dshow.idvdinfo2_getcurrentangle, strmif/IDvdInfo2::GetCurrentAngle
 ms.topic: method
-f1_keywords: 
- - "strmif/IDvdInfo2.GetCurrentAngle"
+f1_keywords:
+- strmif/IDvdInfo2.GetCurrentAngle
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IDvdInfo2.GetCurrentAngle
+- IDvdInfo2.GetCurrentAngle
 targetos: Windows
 req.typenames: 
 req.redist: 

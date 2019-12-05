@@ -1,19 +1,17 @@
 ---
 UID: NF:winsock2.ntohd
 title: ntohd function (winsock2.h)
-
 description: Converts an unsigned __int64 from TCP/IP network order to host byte order (which is little-endian on Intel processors) and returns a double.
 old-location: winsock\ntohd.htm
 tech.root: WinSock
 ms.assetid: 00176446-517B-40B8-AF9A-D61B5B033AE1
-
 ms.date: 12/05/2018
 ms.keywords: ntohd, ntohd function [Winsock], winsock.ntohd, winsock2/ntohd
 ms.topic: function
-f1_keywords: 
- - "winsock2/ntohd"
+f1_keywords:
+- winsock2/ntohd
 dev_langs:
- - c++
+- c++
 req.header: winsock2.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Winsock2.h
+- Winsock2.h
 api_name:
- - ntohd
+- ntohd
 targetos: Windows
 req.typenames: 
 req.redist: 

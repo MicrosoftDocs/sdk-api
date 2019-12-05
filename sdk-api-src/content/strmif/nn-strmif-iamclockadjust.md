@@ -1,19 +1,17 @@
 ---
 UID: NN:strmif.IAMClockAdjust
 title: IAMClockAdjust (strmif.h)
-
 description: The IAMClockAdjust interface adjusts the reference clock. The System Reference Clock exposes this interface.
 old-location: dshow\iamclockadjust.htm
 tech.root: DirectShow
 ms.assetid: e24105a5-711a-498a-a07c-842307602613
-
 ms.date: 12/05/2018
 ms.keywords: IAMClockAdjust, IAMClockAdjust interface [DirectShow], IAMClockAdjust interface [DirectShow],described, IAMClockAdjustInterface, dshow.iamclockadjust, strmif/IAMClockAdjust
 ms.topic: interface
-f1_keywords: 
- - "strmif/IAMClockAdjust"
+f1_keywords:
+- strmif/IAMClockAdjust
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IAMClockAdjust
+- IAMClockAdjust
 targetos: Windows
 req.typenames: 
 req.redist: 

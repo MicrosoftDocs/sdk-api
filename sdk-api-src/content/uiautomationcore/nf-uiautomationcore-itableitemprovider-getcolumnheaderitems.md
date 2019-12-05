@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationcore.ITableItemProvider.GetColumnHeaderItems
 title: ITableItemProvider::GetColumnHeaderItems (uiautomationcore.h)
-
 description: Retrieves a collection of Microsoft UI Automation provider representing all the column headers associated with a table item or cell.
 old-location: winauto\uiauto_ITableItemProvider_GetColumnHeaderItems.htm
 tech.root: WinAuto
 ms.assetid: b08e20e8-142c-4f83-8422-c0e6ae2b7ebf
-
 ms.date: 12/05/2018
 ms.keywords: GetColumnHeaderItems, GetColumnHeaderItems method [Windows Accessibility], GetColumnHeaderItems method [Windows Accessibility],ITableItemProvider interface, ITableItemProvider interface [Windows Accessibility],GetColumnHeaderItems method, ITableItemProvider.GetColumnHeaderItems, ITableItemProvider::GetColumnHeaderItems, uiauto.uiauto_ITableItemProvider_GetColumnHeaderItems, uiauto_ITableItemProvider_GetColumnHeaderItems, uiautomationcore/ITableItemProvider::GetColumnHeaderItems, winauto.uiauto_ITableItemProvider_GetColumnHeaderItems
 ms.topic: method
-f1_keywords: 
- - "uiautomationcore/ITableItemProvider.GetColumnHeaderItems"
+f1_keywords:
+- uiautomationcore/ITableItemProvider.GetColumnHeaderItems
 dev_langs:
- - c++
+- c++
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationCore.h
+- UIAutomationCore.h
 api_name:
- - ITableItemProvider.GetColumnHeaderItems
+- ITableItemProvider.GetColumnHeaderItems
 targetos: Windows
 req.typenames: 
 req.redist: 

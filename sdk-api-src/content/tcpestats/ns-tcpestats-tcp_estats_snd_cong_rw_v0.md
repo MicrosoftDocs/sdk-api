@@ -1,19 +1,17 @@
 ---
 UID: NS:tcpestats._TCP_ESTATS_SND_CONG_RW_v0
 title: TCP_ESTATS_SND_CONG_RW_v0 (tcpestats.h)
-
 description: Contains read/write configuration information for extended TCP statistics on sender congestion for a TCP connection.
 old-location: iphlp\tcp_estats_snd_cong_rw_v0.htm
 tech.root: IpHlp
 ms.assetid: 7fc7fb6a-4486-450f-b60e-8cf07b33c79a
-
 ms.date: 12/05/2018
-ms.keywords: "*PTCP_ESTATS_SND_CONG_RW_v0, PTCP_ESTATS_SND_CONG_RW_v0, PTCP_ESTATS_SND_CONG_RW_v0 structure pointer [IP Helper], TCP_ESTATS_SND_CONG_RW_v0, TCP_ESTATS_SND_CONG_RW_v0 structure [IP Helper], iphlp.tcp_estats_snd_cong_rw_v0, tcpestats/PTCP_ESTATS_SND_CONG_RW_v0, tcpestats/TCP_ESTATS_SND_CONG_RW_v0"
+ms.keywords: '*PTCP_ESTATS_SND_CONG_RW_v0, PTCP_ESTATS_SND_CONG_RW_v0, PTCP_ESTATS_SND_CONG_RW_v0 structure pointer [IP Helper], TCP_ESTATS_SND_CONG_RW_v0, TCP_ESTATS_SND_CONG_RW_v0 structure [IP Helper], iphlp.tcp_estats_snd_cong_rw_v0, tcpestats/PTCP_ESTATS_SND_CONG_RW_v0, tcpestats/TCP_ESTATS_SND_CONG_RW_v0'
 ms.topic: struct
-f1_keywords: 
- - "tcpestats/TCP_ESTATS_SND_CONG_RW_v0"
+f1_keywords:
+- tcpestats/TCP_ESTATS_SND_CONG_RW_v0
 dev_langs:
- - c++
+- c++
 req.header: tcpestats.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Tcpestats.h
+- Tcpestats.h
 api_name:
- - TCP_ESTATS_SND_CONG_RW_v0
+- TCP_ESTATS_SND_CONG_RW_v0
 targetos: Windows
 req.typenames: TCP_ESTATS_SND_CONG_RW_v0, *PTCP_ESTATS_SND_CONG_RW_v0
 req.redist: 

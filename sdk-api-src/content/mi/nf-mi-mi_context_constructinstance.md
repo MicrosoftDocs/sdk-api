@@ -1,19 +1,17 @@
 ---
 UID: NF:mi.MI_Context_ConstructInstance
 title: MI_Context_ConstructInstance function (mi.h)
-
 description: Initializes an MI class instance on the stack or as a member of a structure.
 old-location: wmi_v2\mi_context_constructinstance.htm
 tech.root: wmi_v2
 ms.assetid: c1b90938-401a-4fae-99de-9954d02b892e
-
 ms.date: 12/05/2018
 ms.keywords: MI_Context_ConstructInstance, MI_Context_ConstructInstance function [Windows Management Infrastructure (MI)], mi/MI_Context_ConstructInstance, wmi.mi_constructinstance, wmi_v2.mi_context_constructinstance
 ms.topic: function
-f1_keywords: 
- - "mi/MI_Context_ConstructInstance"
+f1_keywords:
+- mi/MI_Context_ConstructInstance
 dev_langs:
- - c++
+- c++
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Mi.h
+- Mi.h
 api_name:
- - MI_Context_ConstructInstance
+- MI_Context_ConstructInstance
 targetos: Windows
 req.typenames: 
 req.redist: Windows Management Framework 3.0 on Windows Server 2008 R2 with SP1, Windows 7 with SP1, and Windows Server 2008 with SP2

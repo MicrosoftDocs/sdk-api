@@ -1,19 +1,17 @@
 ---
 UID: NF:tokenbinding.TokenBindingGenerateBinding
 title: TokenBindingGenerateBinding function (tokenbinding.h)
-
 description: Constructs one token binding that contains the exported public key and signature by using the specified key type for the token binding, a target identifier string for creating and retrieving the token binding key, and the unique data.
 old-location: security\tokenbindinggeneratebinding.htm
 tech.root: SecCNG
 ms.assetid: 4289E3F0-17AC-485B-A326-2C8BECD5CABB
-
 ms.date: 12/05/2018
 ms.keywords: TokenBindingGenerateBinding, TokenBindingGenerateBinding function [Security], security.tokenbindinggeneratebinding, tokenbinding/TokenBindingGenerateBinding
 ms.topic: function
-f1_keywords: 
- - "tokenbinding/TokenBindingGenerateBinding"
+f1_keywords:
+- tokenbinding/TokenBindingGenerateBinding
 dev_langs:
- - c++
+- c++
 req.header: tokenbinding.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Tokenbinding.lib
 req.dll: Tokenbinding.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - tokenbinding.dll
+- tokenbinding.dll
 api_name:
- - TokenBindingGenerateBinding
+- TokenBindingGenerateBinding
 targetos: Windows
 req.typenames: 
 req.redist: 

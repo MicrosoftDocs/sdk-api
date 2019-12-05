@@ -1,19 +1,17 @@
 ---
 UID: NE:callobj.__MIDL_ICallFrame_0003
 title: CALLFRAME_COPY (callobj.h)
-
 description: Determines whether the copied call frame data can be shared with data in the parent frame by determining its lifetime dependency on the parent frame.
 old-location: com\callframe_copy.htm
 tech.root: com
 ms.assetid: 06c926ab-8e82-4291-b1ea-f4bfcd734b16
-
 ms.date: 12/05/2018
 ms.keywords: CALLFRAME_COPY, CALLFRAME_COPY enumeration [COM], CALLFRAME_COPY_INDEPENDENT, CALLFRAME_COPY_NESTED, _com_CALLFRAME_COPY, callobj/CALLFRAME_COPY, callobj/CALLFRAME_COPY_INDEPENDENT, callobj/CALLFRAME_COPY_NESTED, com.callframe_copy
 ms.topic: enum
-f1_keywords: 
- - "callobj/CALLFRAME_COPY"
+f1_keywords:
+- callobj/CALLFRAME_COPY
 dev_langs:
- - c++
+- c++
 req.header: callobj.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - CallObj.h
+- CallObj.h
 api_name:
- - CALLFRAME_COPY
+- CALLFRAME_COPY
 targetos: Windows
 req.typenames: CALLFRAME_COPY
 req.redist: 

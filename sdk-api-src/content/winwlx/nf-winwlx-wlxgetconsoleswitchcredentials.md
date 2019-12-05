@@ -1,19 +1,17 @@
 ---
 UID: NF:winwlx.WlxGetConsoleSwitchCredentials
 title: WlxGetConsoleSwitchCredentials function (winwlx.h)
-
 description: Winlogon calls this function to read the currently logged on user's credentials to transparently transfer them to a target session.
 old-location: security\wlxgetconsoleswitchcredentials.htm
 tech.root: SecAuthN
 ms.assetid: ee6b3d03-11c9-4eb3-8c76-7041dddc755d
-
 ms.date: 12/05/2018
 ms.keywords: WlxGetConsoleSwitchCredentials, WlxGetConsoleSwitchCredentials function [Security], _gina_wlxgetconsoleswitchcredentials, security.wlxgetconsoleswitchcredentials, winwlx/WlxGetConsoleSwitchCredentials
 ms.topic: function
-f1_keywords: 
- - "winwlx/WlxGetConsoleSwitchCredentials"
+f1_keywords:
+- winwlx/WlxGetConsoleSwitchCredentials
 dev_langs:
- - c++
+- c++
 req.header: winwlx.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Winwlx.h
+- Winwlx.h
 api_name:
- - WlxGetConsoleSwitchCredentials
+- WlxGetConsoleSwitchCredentials
 targetos: Windows
 req.typenames: 
 req.redist: 

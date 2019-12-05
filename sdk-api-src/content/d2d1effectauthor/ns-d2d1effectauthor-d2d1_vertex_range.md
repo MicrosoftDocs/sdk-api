@@ -1,19 +1,17 @@
 ---
 UID: NS:d2d1effectauthor.D2D1_VERTEX_RANGE
 title: D2D1_VERTEX_RANGE (d2d1effectauthor.h)
-
 description: Defines a range of vertices that are used when rendering less than the full contents of a vertex buffer.
 old-location: direct2d\d2d1_vertex_range.htm
 tech.root: Direct2D
 ms.assetid: a5c93541-86dd-48d3-b731-50e9f66f401d
-
 ms.date: 12/05/2018
 ms.keywords: D2D1_VERTEX_RANGE, D2D1_VERTEX_RANGE structure [Direct2D], d2d1effectauthor/D2D1_VERTEX_RANGE, direct2d.d2d1_vertex_range
 ms.topic: struct
-f1_keywords: 
- - "d2d1effectauthor/D2D1_VERTEX_RANGE"
+f1_keywords:
+- d2d1effectauthor/D2D1_VERTEX_RANGE
 dev_langs:
- - c++
+- c++
 req.header: d2d1effectauthor.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - LibDef
+- LibDef
 api_location:
- - D2d1.lib
- - D2d1.dll
+- D2d1.lib
+- D2d1.dll
 api_name:
- - D2D1_VERTEX_RANGE
+- D2D1_VERTEX_RANGE
 targetos: Windows
 req.typenames: D2D1_VERTEX_RANGE
 req.redist: 

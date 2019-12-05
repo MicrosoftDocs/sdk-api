@@ -1,19 +1,17 @@
 ---
 UID: NF:winusb.WinUsb_GetPowerPolicy
 title: WinUsb_GetPowerPolicy function (winusb.h)
-
 description: The WinUsb_GetPowerPolicy function retrieves the power policy for a device. This is a synchronous operation.
 old-location: buses\winusb_getpowerpolicy.htm
 tech.root: usbref
 ms.assetid: 515a4548-d89f-458d-89ed-1cc4d25561ef
-
 ms.date: 12/05/2018
 ms.keywords: WinUsb_GetPowerPolicy, WinUsb_GetPowerPolicy function [Buses], buses.winusb_getpowerpolicy, winusb/WinUsb_GetPowerPolicy, winusbfunc_85084f46-4707-4fd1-8246-61cd4a18eec0.xml
 ms.topic: function
-f1_keywords: 
- - "winusb/WinUsb_GetPowerPolicy"
+f1_keywords:
+- winusb/WinUsb_GetPowerPolicy
 dev_langs:
- - c++
+- c++
 req.header: winusb.h
 req.include-header: Winusb.h
 req.target-type: Universal
@@ -32,14 +30,14 @@ req.lib: Winusb.lib
 req.dll: Winusb.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Winusb.dll
+- Winusb.dll
 api_name:
- - WinUsb_GetPowerPolicy
+- WinUsb_GetPowerPolicy
 targetos: Windows
 req.typenames: 
 req.redist: 

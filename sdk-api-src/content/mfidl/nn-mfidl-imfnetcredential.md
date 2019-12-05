@@ -1,19 +1,17 @@
 ---
 UID: NN:mfidl.IMFNetCredential
 title: IMFNetCredential (mfidl.h)
-
 description: Sets and retrieves user-name and password information for authentication purposes.
 old-location: mf\imfnetcredential.htm
 tech.root: medfound
 ms.assetid: d202e7bc-9ce0-4861-8552-5a4d599b1661
-
 ms.date: 12/05/2018
 ms.keywords: IMFNetCredential, IMFNetCredential interface [Media Foundation], IMFNetCredential interface [Media Foundation],described, d202e7bc-9ce0-4861-8552-5a4d599b1661, mf.imfnetcredential, mfidl/IMFNetCredential
 ms.topic: interface
-f1_keywords: 
- - "mfidl/IMFNetCredential"
+f1_keywords:
+- mfidl/IMFNetCredential
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFNetCredential
+- IMFNetCredential
 targetos: Windows
 req.typenames: 
 req.redist: 

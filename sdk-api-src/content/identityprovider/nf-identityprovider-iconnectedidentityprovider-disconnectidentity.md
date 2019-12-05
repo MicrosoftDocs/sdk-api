@@ -1,19 +1,17 @@
 ---
 UID: NF:identityprovider.IConnectedIdentityProvider.DisconnectIdentity
 title: IConnectedIdentityProvider::DisconnectIdentity (identityprovider.h)
-
 description: Disconnects an online identity from the current domain user.
 old-location: security\iconnectedidentityprovider_disconnectidentity.htm
 tech.root: SecAuthN
 ms.assetid: D7869001-5412-48C9-9C31-0181A9366965
-
 ms.date: 12/05/2018
 ms.keywords: DisconnectIdentity, DisconnectIdentity method [Security], DisconnectIdentity method [Security],IConnectedIdentityProvider interface, IConnectedIdentityProvider interface [Security],DisconnectIdentity method, IConnectedIdentityProvider.DisconnectIdentity, IConnectedIdentityProvider::DisconnectIdentity, identityprovider/IConnectedIdentityProvider::DisconnectIdentity, security.iconnectedidentityprovider_disconnectidentity
 ms.topic: method
-f1_keywords: 
- - "identityprovider/IConnectedIdentityProvider.DisconnectIdentity"
+f1_keywords:
+- identityprovider/IConnectedIdentityProvider.DisconnectIdentity
 dev_langs:
- - c++
+- c++
 req.header: identityprovider.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Identityprovider.h
+- Identityprovider.h
 api_name:
- - IConnectedIdentityProvider.DisconnectIdentity
+- IConnectedIdentityProvider.DisconnectIdentity
 targetos: Windows
 req.typenames: 
 req.redist: 

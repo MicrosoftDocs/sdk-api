@@ -1,19 +1,17 @@
 ---
 UID: NF:winuser.EndDialog
 title: EndDialog function (winuser.h)
-
 description: Destroys a modal dialog box, causing the system to end any processing for the dialog box.
 old-location: dlgbox\enddialog.htm
 tech.root: dlgbox
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\dialogboxes\dialogboxreference\dialogboxfunctions\enddialog.htm
-
 ms.date: 12/05/2018
 ms.keywords: EndDialog, EndDialog function [Dialog Boxes], _win32_EndDialog, _win32_enddialog_cpp, dlgbox.enddialog, winui._win32_enddialog, winuser/EndDialog
 ms.topic: function
-f1_keywords: 
- - "winuser/EndDialog"
+f1_keywords:
+- winuser/EndDialog
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - User32.dll
- - Ext-MS-Win-NTUser-DialogBox-l1-1-0.dll
- - Ext-MS-Win-NTUser-DialogBox-l1-1-1.dll
- - ext-ms-win-ntuser-dialogbox-l1-1-2.dll
+- User32.dll
+- Ext-MS-Win-NTUser-DialogBox-l1-1-0.dll
+- Ext-MS-Win-NTUser-DialogBox-l1-1-1.dll
+- ext-ms-win-ntuser-dialogbox-l1-1-2.dll
 api_name:
- - EndDialog
+- EndDialog
 targetos: Windows
 req.typenames: 
 req.redist: 

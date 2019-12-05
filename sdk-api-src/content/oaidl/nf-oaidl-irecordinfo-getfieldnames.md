@@ -1,19 +1,17 @@
 ---
 UID: NF:oaidl.IRecordInfo.GetFieldNames
 title: IRecordInfo::GetFieldNames (oaidl.h)
-
 description: Gets the names of the fields of the record.
 old-location: automat\irecordinfo_getfieldnames.htm
 tech.root: automat
 ms.assetid: 1cf4f149-1cdc-4884-887a-0eb44eeab8ff
-
 ms.date: 12/05/2018
 ms.keywords: GetFieldNames, GetFieldNames method [Automation], GetFieldNames method [Automation],IRecordInfo interface, IRecordInfo interface [Automation],GetFieldNames method, IRecordInfo.GetFieldNames, IRecordInfo::GetFieldNames, _oa96_IRecordInfo_GetFieldNames, automat.irecordinfo_getfieldnames, oaidl/IRecordInfo::GetFieldNames
 ms.topic: method
-f1_keywords: 
- - "oaidl/IRecordInfo.GetFieldNames"
+f1_keywords:
+- oaidl/IRecordInfo.GetFieldNames
 dev_langs:
- - c++
+- c++
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - oaidl.h
+- oaidl.h
 api_name:
- - IRecordInfo.GetFieldNames
+- IRecordInfo.GetFieldNames
 targetos: Windows
 req.typenames: 
 req.redist: 

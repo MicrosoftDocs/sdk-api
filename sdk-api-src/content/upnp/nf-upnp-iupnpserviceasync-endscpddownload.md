@@ -1,19 +1,17 @@
 ---
 UID: NF:upnp.IUPnPServiceAsync.EndSCPDDownload
 title: IUPnPServiceAsync::EndSCPDDownload (upnp.h)
-
 description: EndSCPDDownload method retrieves the results of a previous asynchronous download of an Service Control Protocol Description (SCPD) document.
 old-location: upnp\iupnpserviceasync_endscpddownload.htm
 tech.root: upnp
 ms.assetid: 1C4F7986-9282-4775-B9B2-338AC44F2243
-
 ms.date: 12/05/2018
 ms.keywords: EndSCPDDownload, EndSCPDDownload method [UPnP APIs], EndSCPDDownload method [UPnP APIs],IUPnPServiceAsync interface, IUPnPServiceAsync interface [UPnP APIs],EndSCPDDownload method, IUPnPServiceAsync.EndSCPDDownload, IUPnPServiceAsync::EndSCPDDownload, upnp.iupnpserviceasync_endscpddownload, upnp/IUPnPServiceAsync::EndSCPDDownload
 ms.topic: method
-f1_keywords: 
- - "upnp/IUPnPServiceAsync.EndSCPDDownload"
+f1_keywords:
+- upnp/IUPnPServiceAsync.EndSCPDDownload
 dev_langs:
- - c++
+- c++
 req.header: upnp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Upnp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Upnp.dll
+- Upnp.dll
 api_name:
- - IUPnPServiceAsync.EndSCPDDownload
+- IUPnPServiceAsync.EndSCPDDownload
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:cscobj.IOfflineFilesSetting.GetPreferenceScope
 title: IOfflineFilesSetting::GetPreferenceScope (cscobj.h)
-
 description: Indicates the scope of the preference associated with this setting.
 old-location: of\iofflinefilessetting_getpreferencescope.htm
 tech.root: offlinefiles
 ms.assetid: 618a83b7-a86d-4356-8312-7aba8923e8a4
-
 ms.date: 12/05/2018
 ms.keywords: GetPreferenceScope, GetPreferenceScope method [Offline Files], GetPreferenceScope method [Offline Files],IOfflineFilesSetting interface, IOfflineFilesSetting interface [Offline Files],GetPreferenceScope method, IOfflineFilesSetting.GetPreferenceScope, IOfflineFilesSetting::GetPreferenceScope, OFFLINEFILES_SETTING_SCOPE_COMPUTER, OFFLINEFILES_SETTING_SCOPE_USER, cscobj/IOfflineFilesSetting::GetPreferenceScope, of.iofflinefilessetting_getpreferencescope
 ms.topic: method
-f1_keywords: 
- - "cscobj/IOfflineFilesSetting.GetPreferenceScope"
+f1_keywords:
+- cscobj/IOfflineFilesSetting.GetPreferenceScope
 dev_langs:
- - c++
+- c++
 req.header: cscobj.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: CscSvc.dll; CscObj.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CscSvc.dll
- - CscObj.dll
+- CscSvc.dll
+- CscObj.dll
 api_name:
- - IOfflineFilesSetting.GetPreferenceScope
+- IOfflineFilesSetting.GetPreferenceScope
 targetos: Windows
 req.typenames: 
 req.redist: 

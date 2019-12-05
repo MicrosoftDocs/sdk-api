@@ -1,19 +1,17 @@
 ---
 UID: NS:dwrite.DWRITE_UNDERLINE
 title: DWRITE_UNDERLINE (dwrite.h)
-
 description: Contains information about the width, thickness, offset, run height, reading direction, and flow direction of an underline.
 old-location: directwrite\dwrite_underline.htm
 tech.root: DirectWrite
 ms.assetid: 01f6c48e-6986-4a6e-9dd8-9f4b098db7fd
-
 ms.date: 12/05/2018
 ms.keywords: DWRITE_UNDERLINE, DWRITE_UNDERLINE structure [Direct Write], directwrite.dwrite_underline, dwrite/DWRITE_UNDERLINE
 ms.topic: struct
-f1_keywords: 
- - "dwrite/DWRITE_UNDERLINE"
+f1_keywords:
+- dwrite/DWRITE_UNDERLINE
 dev_langs:
- - c++
+- c++
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - dwrite.h
+- dwrite.h
 api_name:
- - DWRITE_UNDERLINE
+- DWRITE_UNDERLINE
 targetos: Windows
 req.typenames: 
 req.redist: 

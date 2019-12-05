@@ -1,19 +1,17 @@
 ---
 UID: NF:wmdmlog.IWMDMLogger.SetLogFileName
 title: IWMDMLogger::SetLogFileName (wmdmlog.h)
-
 description: The SetLogFileName method sets the full path to the current log file. All subsequent log entries will be placed in this file.
 old-location: wmdm\iwmdmlogger_setlogfilename.htm
 tech.root: WMDM
 ms.assetid: 9ceecf17-01b4-4461-9ca7-229704c5916c
-
 ms.date: 12/05/2018
 ms.keywords: IWMDMLogger interface [windows Media Device Manager],SetLogFileName method, IWMDMLogger.SetLogFileName, IWMDMLogger::SetLogFileName, IWMDMLoggerSetLogFileName, SetLogFileName, SetLogFileName method [windows Media Device Manager], SetLogFileName method [windows Media Device Manager],IWMDMLogger interface, wmdm.iwmdmlogger_setlogfilename, wmdmlog/IWMDMLogger::SetLogFileName
 ms.topic: method
-f1_keywords: 
- - "wmdmlog/IWMDMLogger.SetLogFileName"
+f1_keywords:
+- wmdmlog/IWMDMLogger.SetLogFileName
 dev_langs:
- - c++
+- c++
 req.header: wmdmlog.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mssachlp.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mssachlp.lib
- - mssachlp.dll
+- mssachlp.lib
+- mssachlp.dll
 api_name:
- - IWMDMLogger.SetLogFileName
+- IWMDMLogger.SetLogFileName
 targetos: Windows
 req.typenames: 
 req.redist: 

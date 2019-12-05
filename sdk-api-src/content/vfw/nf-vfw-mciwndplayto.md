@@ -1,19 +1,17 @@
 ---
 UID: NF:vfw.MCIWndPlayTo
 title: MCIWndPlayTo macro (vfw.h)
-
 description: The MCIWndPlayTo macro plays the content of an MCI device from the current position to the specified ending location or until another command stops playback.
 old-location: multimedia\mciwndplayto.htm
 tech.root: Multimedia
 ms.assetid: 49048776-85bd-43ac-a5a0-414a26a6a533
-
 ms.date: 12/05/2018
 ms.keywords: MCIWndPlayTo, MCIWndPlayTo macro [Windows Multimedia], _win32_MCIWndPlayTo, multimedia.mciwndplayto, vfw/MCIWndPlayTo
 ms.topic: macro
-f1_keywords: 
- - "vfw/MCIWndPlayTo"
+f1_keywords:
+- vfw/MCIWndPlayTo
 dev_langs:
- - c++
+- c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Vfw.h
+- Vfw.h
 api_name:
- - MCIWndPlayTo
+- MCIWndPlayTo
 targetos: Windows
 req.typenames: 
 req.redist: 

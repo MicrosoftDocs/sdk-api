@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi.lineRedirectA
 title: lineRedirectA function (tapi.h)
-
 description: The lineRedirect function redirects the specified offering call to the specified destination address.
 old-location: tapi2\lineredirect.htm
 tech.root: Tapi
 ms.assetid: 014465af-26a7-451e-9d32-2e020d1043b0
-
 ms.date: 12/05/2018
-ms.keywords: "_tapi2_lineredirect, lineRedirect, lineRedirect function [TAPI 2.2], lineRedirectA, lineRedirectW, tapi/lineRedirect, tapi/lineRedirectA, tapi/lineRedirectW, tapi2.lineredirect"
+ms.keywords: _tapi2_lineredirect, lineRedirect, lineRedirect function [TAPI 2.2], lineRedirectA, lineRedirectW, tapi/lineRedirect, tapi/lineRedirectA, tapi/lineRedirectW, tapi2.lineredirect
 ms.topic: function
-f1_keywords: 
- - "tapi/lineRedirect"
+f1_keywords:
+- tapi/lineRedirect
 dev_langs:
- - c++
+- c++
 req.header: tapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Tapi32.lib
 req.dll: Tapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Tapi32.dll
+- Tapi32.dll
 api_name:
- - lineRedirect
- - lineRedirectA
- - lineRedirectW
+- lineRedirect
+- lineRedirectA
+- lineRedirectW
 targetos: Windows
 req.typenames: 
 req.redist: 

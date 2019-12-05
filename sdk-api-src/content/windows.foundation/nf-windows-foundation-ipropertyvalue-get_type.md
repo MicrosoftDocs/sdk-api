@@ -1,19 +1,17 @@
 ---
 UID: NF:windows.foundation.IPropertyValue.get_Type
 title: IPropertyValue::IPropertyValue (windows.foundation.h)
-
 description: Gets the data type of the value that is stored in the current IPropertyValue object.
 old-location: winrt\ipropertyvalue_type.htm
 tech.root: WinRT
 ms.assetid: 8C6C042A-53AA-439B-8D8D-F67DB45CC3C6
-
 ms.date: 12/05/2018
 ms.keywords: IPropertyValue interface [Windows Runtime],Type property, IPropertyValue.IPropertyValue, IPropertyValue.Type, IPropertyValue.get_Type, IPropertyValue::IPropertyValue, IPropertyValue::Type, IPropertyValue::get_Type, Type property [Windows Runtime], Type property [Windows Runtime],IPropertyValue interface, get_Type, windows/IPropertyValue::Type, windows/IPropertyValue::get_Type, winrt.ipropertyvalue_type
 ms.topic: method
-f1_keywords: 
- - "windows.foundation/IPropertyValue.Type"
+f1_keywords:
+- windows.foundation/IPropertyValue.Type
 dev_langs:
- - c++
+- c++
 req.header: windows.foundation.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Windows.Foundation.h
+- Windows.Foundation.h
 api_name:
- - IPropertyValue.Type
- - IPropertyValue.get_Type
+- IPropertyValue.Type
+- IPropertyValue.get_Type
 targetos: Windows
 req.typenames: 
 req.redist: 

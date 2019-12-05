@@ -1,19 +1,17 @@
 ---
 UID: NS:ipmib._MIBICMPINFO
 title: MIBICMPINFO (ipmib.h)
-
 description: Contains Internet Control Message Protocol (ICMP) statistics for a particular computer.
 old-location: mib\mibicmpinfo.htm
 tech.root: MIB
 ms.assetid: 547da10e-3490-44d2-9142-0caed041503b
-
 ms.date: 12/05/2018
 ms.keywords: MIBICMPINFO, MIBICMPINFO structure [MIB], _mpr_mibicmpinfo, ipmib/MIBICMPINFO, iprtrmib/MIBICMPINFO, mib.mibicmpinfo, rras.mibicmpinfo
 ms.topic: struct
 f1_keywords:
 - ipmib/MIBICMPINFO
 dev_langs:
- - c++
+- c++
 req.header: ipmib.h
 req.include-header: Iphlpapi.h
 req.target-type: Windows

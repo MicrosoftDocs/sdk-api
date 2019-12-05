@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d10effect.ID3D10EffectVariable.AsScalar
 title: ID3D10EffectVariable::AsScalar (d3d10effect.h)
-
 description: Get a scalar variable.
 old-location: direct3d10\id3d10effectvariable_asscalar.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10effectvariable_asscalar.htm
-
 ms.date: 12/05/2018
 ms.keywords: 12ddda89-a649-ce2c-648b-278f711c1808, AsScalar, AsScalar method [Direct3D 10], AsScalar method [Direct3D 10],ID3D10EffectVariable interface, ID3D10EffectVariable interface [Direct3D 10],AsScalar method, ID3D10EffectVariable.AsScalar, ID3D10EffectVariable::AsScalar, d3d10effect/ID3D10EffectVariable::AsScalar, direct3d10.id3d10effectvariable_asscalar
 ms.topic: method
-f1_keywords: 
- - "d3d10effect/ID3D10EffectVariable.AsScalar"
+f1_keywords:
+- d3d10effect/ID3D10EffectVariable.AsScalar
 dev_langs:
- - c++
+- c++
 req.header: d3d10effect.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D10Effect.h
+- D3D10Effect.h
 api_name:
- - ID3D10EffectVariable.AsScalar
+- ID3D10EffectVariable.AsScalar
 targetos: Windows
 req.typenames: 
 req.redist: 

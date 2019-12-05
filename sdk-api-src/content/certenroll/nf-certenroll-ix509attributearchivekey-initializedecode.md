@@ -1,19 +1,17 @@
 ---
 UID: NF:certenroll.IX509AttributeArchiveKey.InitializeDecode
 title: IX509AttributeArchiveKey::InitializeDecode (certenroll.h)
-
 description: Initializes the object from a Distinguished Encoding Rules (DER) encoded byte array that contains the encrypted private key.
 old-location: security\ix509attributearchivekey_initializedecode_method.htm
 tech.root: seccertenroll
 ms.assetid: d6c39eaa-53d1-4cc4-bed3-34c9ef62e9d0
-
 ms.date: 12/05/2018
 ms.keywords: IX509AttributeArchiveKey interface [Security],InitializeDecode method, IX509AttributeArchiveKey.InitializeDecode, IX509AttributeArchiveKey::InitializeDecode, InitializeDecode, InitializeDecode method [Security], InitializeDecode method [Security],IX509AttributeArchiveKey interface, certenroll/IX509AttributeArchiveKey::InitializeDecode, security.ix509attributearchivekey_initializedecode_method
 ms.topic: method
-f1_keywords: 
- - "certenroll/IX509AttributeArchiveKey.InitializeDecode"
+f1_keywords:
+- certenroll/IX509AttributeArchiveKey.InitializeDecode
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: CertEnroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CertEnroll.dll
+- CertEnroll.dll
 api_name:
- - IX509AttributeArchiveKey.InitializeDecode
+- IX509AttributeArchiveKey.InitializeDecode
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:objidlbase.IMultiQI.QueryMultipleInterfaces
 title: IMultiQI::QueryMultipleInterfaces (objidlbase.h)
-
 description: Retrieves pointers to multiple supported interfaces on an object.
 old-location: com\imultiqi_querymultipleinterfaces.htm
 tech.root: com
 ms.assetid: 412f1d03-f40c-4451-9c99-1134c69c9989
-
 ms.date: 12/05/2018
 ms.keywords: IMultiQI interface [COM],QueryMultipleInterfaces method, IMultiQI.QueryMultipleInterfaces, IMultiQI::QueryMultipleInterfaces, QueryMultipleInterfaces, QueryMultipleInterfaces method [COM], QueryMultipleInterfaces method [COM],IMultiQI interface, _com_imultiqi_querymultipleinterfaces, com.imultiqi_querymultipleinterfaces, objidlbase/IMultiQI::QueryMultipleInterfaces
 ms.topic: method
-f1_keywords: 
- - "objidlbase/IMultiQI.QueryMultipleInterfaces"
+f1_keywords:
+- objidlbase/IMultiQI.QueryMultipleInterfaces
 dev_langs:
- - c++
+- c++
 req.header: objidlbase.h
 req.include-header: ObjIdl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - objidlbase.h
+- objidlbase.h
 api_name:
- - IMultiQI.QueryMultipleInterfaces
+- IMultiQI.QueryMultipleInterfaces
 targetos: Windows
 req.typenames: 
 req.redist: 

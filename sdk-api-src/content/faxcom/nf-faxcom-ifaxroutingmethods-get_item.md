@@ -1,19 +1,17 @@
 ---
 UID: NF:faxcom.IFaxRoutingMethods.get_Item
 title: IFaxRoutingMethods::get_Item (faxcom.h)
-
 description: The IFaxRoutingMethods::get_Item method creates a FaxRoutingMethod object for a specified fax routing method. The object allows enumeration of fax routing information for a specified FaxPort object.
 old-location: fax\_mfax_ifaxroutingmethods_get_item.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_7kq5.htm
-
 ms.date: 12/05/2018
 ms.keywords: IFaxRoutingMethods interface [Fax Service],get_Item method, IFaxRoutingMethods.get_Item, IFaxRoutingMethods::get_Item, _mfax_ifaxroutingmethods_get_item, fax._mfax_ifaxroutingmethods_get_item, faxcom/IFaxRoutingMethods::get_Item, get_Item, get_Item method [Fax Service], get_Item method [Fax Service],IFaxRoutingMethods interface
 ms.topic: method
-f1_keywords: 
- - "faxcom/IFaxRoutingMethods.get_Item"
+f1_keywords:
+- faxcom/IFaxRoutingMethods.get_Item
 dev_langs:
- - c++
+- c++
 req.header: faxcom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Faxcom.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Faxcom.dll
+- Faxcom.dll
 api_name:
- - IFaxRoutingMethods.get_Item
+- IFaxRoutingMethods.get_Item
 targetos: Windows
 req.typenames: 
 req.redist: 

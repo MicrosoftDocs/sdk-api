@@ -1,19 +1,17 @@
 ---
 UID: NF:mfreadwrite.IMFSinkWriter.PlaceMarker
 title: IMFSinkWriter::PlaceMarker (mfreadwrite.h)
-
 description: Places a marker in the specified stream.
 old-location: mf\imfsinkwriter_placemarker.htm
 tech.root: medfound
 ms.assetid: 93140993-a926-437e-bc40-9b011c4c6832
-
 ms.date: 12/05/2018
 ms.keywords: IMFSinkWriter interface [Media Foundation],PlaceMarker method, IMFSinkWriter.PlaceMarker, IMFSinkWriter::PlaceMarker, PlaceMarker, PlaceMarker method [Media Foundation], PlaceMarker method [Media Foundation],IMFSinkWriter interface, mf.imfsinkwriter_placemarker, mfreadwrite/IMFSinkWriter::PlaceMarker
 ms.topic: method
-f1_keywords: 
- - "mfreadwrite/IMFSinkWriter.PlaceMarker"
+f1_keywords:
+- mfreadwrite/IMFSinkWriter.PlaceMarker
 dev_langs:
- - c++
+- c++
 req.header: mfreadwrite.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfreadwrite.h
+- mfreadwrite.h
 api_name:
- - IMFSinkWriter.PlaceMarker
+- IMFSinkWriter.PlaceMarker
 targetos: Windows
 req.typenames: 
 req.redist: 

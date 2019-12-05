@@ -1,19 +1,17 @@
 ---
 UID: NS:webservices._WS_DEFAULT_WINDOWS_INTEGRATED_AUTH_CREDENTIAL
 title: WS_DEFAULT_WINDOWS_INTEGRATED_AUTH_CREDENTIAL (webservices.h)
-
 description: Type for supplying a Windows Integrated Authentication credential based on the current Windows identity.
 old-location: wsw\ws_default_windows_integrated_auth_credential.htm
 tech.root: wsw
 ms.assetid: 14753a2d-6054-4041-a72b-4cd7a9576f3b
-
 ms.date: 12/05/2018
 ms.keywords: WS_DEFAULT_WINDOWS_INTEGRATED_AUTH_CREDENTIAL, WS_DEFAULT_WINDOWS_INTEGRATED_AUTH_CREDENTIAL structure [Web Services for Windows], webservices/WS_DEFAULT_WINDOWS_INTEGRATED_AUTH_CREDENTIAL, wsw.ws_default_windows_integrated_auth_credential
 ms.topic: struct
-f1_keywords: 
- - "webservices/WS_DEFAULT_WINDOWS_INTEGRATED_AUTH_CREDENTIAL"
+f1_keywords:
+- webservices/WS_DEFAULT_WINDOWS_INTEGRATED_AUTH_CREDENTIAL
 dev_langs:
- - c++
+- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WebServices.h
+- WebServices.h
 api_name:
- - WS_DEFAULT_WINDOWS_INTEGRATED_AUTH_CREDENTIAL
+- WS_DEFAULT_WINDOWS_INTEGRATED_AUTH_CREDENTIAL
 targetos: Windows
 req.typenames: WS_DEFAULT_WINDOWS_INTEGRATED_AUTH_CREDENTIAL
 req.redist: 

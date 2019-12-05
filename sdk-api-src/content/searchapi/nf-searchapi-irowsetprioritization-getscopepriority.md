@@ -1,19 +1,17 @@
 ---
 UID: NF:searchapi.IRowsetPrioritization.GetScopePriority
 title: IRowsetPrioritization::GetScopePriority (searchapi.h)
-
 description: Retrieves the current indexer prioritization level for the scope specified by this query.
 old-location: search\_search_IRowsetPrioritization_GetScopePriority.htm
 tech.root: search
 ms.assetid: VS|SEARCH|~\search\wds3x\reference\ifaces\querying\irowsetprioritization\getscopepriority.htm
-
 ms.date: 12/05/2018
 ms.keywords: GetScopePriority, GetScopePriority method [search], GetScopePriority method [search],IRowsetPrioritization interface, IRowsetPrioritization interface [search],GetScopePriority method, IRowsetPrioritization.GetScopePriority, IRowsetPrioritization::GetScopePriority, _search_IRowsetPrioritization_GetScopePriority, search._search_IRowsetPrioritization_GetScopePriority, searchapi/IRowsetPrioritization::GetScopePriority
 ms.topic: method
-f1_keywords: 
- - "searchapi/IRowsetPrioritization.GetScopePriority"
+f1_keywords:
+- searchapi/IRowsetPrioritization.GetScopePriority
 dev_langs:
- - c++
+- c++
 req.header: searchapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Searchapi.h
+- Searchapi.h
 api_name:
- - IRowsetPrioritization.GetScopePriority
+- IRowsetPrioritization.GetScopePriority
 targetos: Windows
 req.typenames: 
 req.redist: 

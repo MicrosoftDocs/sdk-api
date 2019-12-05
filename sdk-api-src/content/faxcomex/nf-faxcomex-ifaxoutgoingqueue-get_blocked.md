@@ -1,19 +1,17 @@
 ---
 UID: NF:faxcomex.IFaxOutgoingQueue.get_Blocked
 title: IFaxOutgoingQueue::get_Blocked (faxcomex.h)
-
 description: The IFaxOutgoingQueue::get_Blocked property is a Boolean value that indicates whether the job queue for outgoing faxes is blocked.
 old-location: fax\_mfax_faxoutgoingqueue_cpp_mfax_faxoutgoingqueue_blocked_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_59d0.htm
-
 ms.date: 12/05/2018
 ms.keywords: Blocked property [Fax Service], Blocked property [Fax Service],IFaxOutgoingQueue interface, IFaxOutgoingQueue interface [Fax Service],Blocked property, IFaxOutgoingQueue.Blocked, IFaxOutgoingQueue.get_Blocked, IFaxOutgoingQueue::Blocked, IFaxOutgoingQueue::get_Blocked, IFaxOutgoingQueue::put_Blocked, _mfax_faxoutgoingqueue.blocked, fax._mfax_faxoutgoingqueue_blocked, fax._mfax_faxoutgoingqueue_cpp_mfax_faxoutgoingqueue_blocked_cpp, faxcomex/IFaxOutgoingQueue::Blocked, faxcomex/IFaxOutgoingQueue::get_Blocked, faxcomex/IFaxOutgoingQueue::put_Blocked, get_Blocked
 ms.topic: method
-f1_keywords: 
- - "faxcomex/IFaxOutgoingQueue.Blocked"
+f1_keywords:
+- faxcomex/IFaxOutgoingQueue.Blocked
 dev_langs:
- - c++
+- c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: Fxscomex.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Fxscomex.dll
+- Fxscomex.dll
 api_name:
- - IFaxOutgoingQueue.Blocked
- - IFaxOutgoingQueue.get_Blocked
- - IFaxOutgoingQueue.put_Blocked
+- IFaxOutgoingQueue.Blocked
+- IFaxOutgoingQueue.get_Blocked
+- IFaxOutgoingQueue.put_Blocked
 targetos: Windows
 req.typenames: 
 req.redist: 

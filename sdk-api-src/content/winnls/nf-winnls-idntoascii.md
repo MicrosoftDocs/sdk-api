@@ -1,19 +1,17 @@
 ---
 UID: NF:winnls.IdnToAscii
 title: IdnToAscii function (winnls.h)
-
 description: Converts an internationalized domain name (IDN) or another internationalized label to a Unicode (wide character) representation of the ASCII string that represents the name in the Punycode transfer encoding syntax.
 old-location: intl\idntoascii.htm
 tech.root: Intl
 ms.assetid: e39aa5c2-3f76-40b2-9948-bbd795c6c525
-
 ms.date: 12/05/2018
 ms.keywords: IDN_ALLOW_UNASSIGNED, IDN_EMAIL_ADDRESS, IDN_RAW_PUNYCODE, IDN_USE_STD3_ASCII_RULES, IdnToAscii, IdnToAscii function [Internationalization for Windows Applications], intl.idntoascii, winnls/IdnToAscii
 ms.topic: function
-f1_keywords: 
- - "winnls/IdnToAscii"
+f1_keywords:
+- winnls/IdnToAscii
 dev_langs:
- - c++
+- c++
 req.header: winnls.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,20 +30,20 @@ req.lib: Normaliz.lib
 req.dll: Normaliz.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Normaliz.dll
- - API-MS-Win-Core-Localization-l1-2-0.dll
- - KernelBase.dll
- - API-MS-Win-Core-Localization-l1-2-1.dll
- - API-MS-Win-DownLevel-normaliz-l1-1-0.dll
- - MinKernelBase.dll
- - API-MS-Win-Core-Localization-L1-2-2.dll
+- Normaliz.dll
+- API-MS-Win-Core-Localization-l1-2-0.dll
+- KernelBase.dll
+- API-MS-Win-Core-Localization-l1-2-1.dll
+- API-MS-Win-DownLevel-normaliz-l1-1-0.dll
+- MinKernelBase.dll
+- API-MS-Win-Core-Localization-L1-2-2.dll
 api_name:
- - IdnToAscii
+- IdnToAscii
 targetos: Windows
 req.typenames: 
 req.redist: Microsoft Internationalized Domain Name (IDN) Mitigation APIs onWindows XP with SP2 and later,Windows Server 2003 with SP1

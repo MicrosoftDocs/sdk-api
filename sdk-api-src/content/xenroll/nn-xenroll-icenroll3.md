@@ -1,19 +1,17 @@
 ---
 UID: NN:xenroll.ICEnroll3
 title: ICEnroll3 (xenroll.h)
-
 description: One of several interfaces that represent the Certificate Enrollment Control.
 old-location: security\icenroll3.htm
 tech.root: SecCrypto
 ms.assetid: 4caa7e75-0116-4891-8bf2-ede09a05a440
-
 ms.date: 12/05/2018
 ms.keywords: ICEnroll3, ICEnroll3 interface [Security], ICEnroll3 interface [Security],described, _xen_icenroll3, security.icenroll3, xenroll/ICEnroll3
 ms.topic: interface
-f1_keywords: 
- - "xenroll/ICEnroll3"
+f1_keywords:
+- xenroll/ICEnroll3
 dev_langs:
- - c++
+- c++
 req.header: xenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Xenroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Xenroll.dll
+- Xenroll.dll
 api_name:
- - ICEnroll3
+- ICEnroll3
 targetos: Windows
 req.typenames: 
 req.redist: 

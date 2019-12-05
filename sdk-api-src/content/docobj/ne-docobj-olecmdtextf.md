@@ -1,19 +1,17 @@
 ---
 UID: NE:docobj.OLECMDTEXTF
 title: OLECMDTEXTF (docobj.h)
-
 description: Specifies the type of information that an object should store in the OLECMDTEXT structure passed in IOleCommandTarget::QueryStatus.
 old-location: com\olecmdtextf.htm
 tech.root: com
 ms.assetid: 8978331a-33b6-4f57-b5a3-aae305c1d872
-
 ms.date: 12/05/2018
 ms.keywords: OLECMDTEXTF, OLECMDTEXTF enumeration [COM], OLECMDTEXTF_NAME, OLECMDTEXTF_NONE, OLECMDTEXTF_STATUS, _ole_OLECMDTEXTF, com.olecmdtextf, docobj/OLECMDTEXTF, docobj/OLECMDTEXTF_NAME, docobj/OLECMDTEXTF_NONE, docobj/OLECMDTEXTF_STATUS
 ms.topic: enum
 f1_keywords:
 - docobj/OLECMDTEXTF
 dev_langs:
- - c++
+- c++
 req.header: docobj.h
 req.include-header: 
 req.target-type: Windows

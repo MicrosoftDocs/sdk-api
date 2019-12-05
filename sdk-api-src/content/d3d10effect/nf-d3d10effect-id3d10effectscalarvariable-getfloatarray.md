@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d10effect.ID3D10EffectScalarVariable.GetFloatArray
 title: ID3D10EffectScalarVariable::GetFloatArray (d3d10effect.h)
-
 description: Get an array of floating-point variables.
 old-location: direct3d10\id3d10effectscalarvariable_getfloatarray.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10effectscalarvariable_getfloatarray.htm
-
 ms.date: 12/05/2018
 ms.keywords: GetFloatArray, GetFloatArray method [Direct3D 10], GetFloatArray method [Direct3D 10],ID3D10EffectScalarVariable interface, ID3D10EffectScalarVariable interface [Direct3D 10],GetFloatArray method, ID3D10EffectScalarVariable.GetFloatArray, ID3D10EffectScalarVariable::GetFloatArray, d3d10effect/ID3D10EffectScalarVariable::GetFloatArray, direct3d10.id3d10effectscalarvariable_getfloatarray, e8606cb9-74af-2b45-f488-1115ae3ccba4
 ms.topic: method
-f1_keywords: 
- - "d3d10effect/ID3D10EffectScalarVariable.GetFloatArray"
+f1_keywords:
+- d3d10effect/ID3D10EffectScalarVariable.GetFloatArray
 dev_langs:
- - c++
+- c++
 req.header: d3d10effect.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D10Effect.h
+- D3D10Effect.h
 api_name:
- - ID3D10EffectScalarVariable.GetFloatArray
+- ID3D10EffectScalarVariable.GetFloatArray
 targetos: Windows
 req.typenames: 
 req.redist: 

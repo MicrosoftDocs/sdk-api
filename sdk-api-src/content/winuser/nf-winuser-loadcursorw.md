@@ -1,19 +1,17 @@
 ---
 UID: NF:winuser.LoadCursorW
 title: LoadCursorW function (winuser.h)
-
 description: Loads the specified cursor resource from the executable (.EXE) file associated with an application instance.
 old-location: menurc\loadcursor.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\cursors\cursorreference\cursorfunctions\loadcursor.htm
-
 ms.date: 12/05/2018
 ms.keywords: IDC_APPSTARTING, IDC_ARROW, IDC_CROSS, IDC_HAND, IDC_HELP, IDC_IBEAM, IDC_ICON, IDC_NO, IDC_SIZE, IDC_SIZEALL, IDC_SIZENESW, IDC_SIZENS, IDC_SIZENWSE, IDC_SIZEWE, IDC_UPARROW, IDC_WAIT, LoadCursor, LoadCursor function [Menus and Other Resources], LoadCursorA, LoadCursorW, _win32_LoadCursor, _win32_loadcursor_cpp, menurc.loadcursor, winui._win32_loadcursor, winuser/LoadCursor, winuser/LoadCursorA, winuser/LoadCursorW
 ms.topic: function
-f1_keywords: 
- - "winuser/LoadCursor"
+f1_keywords:
+- winuser/LoadCursor
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,24 +30,24 @@ req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - User32.dll
- - Ext-MS-Win-NTUser-GUI-l1-1-0.dll
- - Ext-MS-Win-NTUser-GUI-l1-1-1.dll
- - Ext-MS-Win-NTUser-GUI-l1-2-0.dll
- - api-ms-win-ntuser-ie-gui-l1-1-0.dll
- - ie_stubs.dll
- - ext-ms-win-ntuser-gui-l1-2-1.dll
- - Ext-MS-Win-RTCore-NTUser-Cursor-L1-1-0.dll
- - MinUser.dll
+- User32.dll
+- Ext-MS-Win-NTUser-GUI-l1-1-0.dll
+- Ext-MS-Win-NTUser-GUI-l1-1-1.dll
+- Ext-MS-Win-NTUser-GUI-l1-2-0.dll
+- api-ms-win-ntuser-ie-gui-l1-1-0.dll
+- ie_stubs.dll
+- ext-ms-win-ntuser-gui-l1-2-1.dll
+- Ext-MS-Win-RTCore-NTUser-Cursor-L1-1-0.dll
+- MinUser.dll
 api_name:
- - LoadCursor
- - LoadCursorA
- - LoadCursorW
+- LoadCursor
+- LoadCursorA
+- LoadCursorW
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:wmsdkidl.IWMWriterNetworkSink.GetMaximumClients
 title: IWMWriterNetworkSink::GetMaximumClients (wmsdkidl.h)
-
 description: The GetMaximumClients method retrieves the maximum number of clients that can connect to this sink.
 old-location: wmformat\iwmwriternetworksink_getmaximumclients.htm
 tech.root: wmformat
 ms.assetid: c0ef3fd6-aed7-40ec-96e6-7962e77bdd46
-
 ms.date: 12/05/2018
 ms.keywords: GetMaximumClients, GetMaximumClients method [windows Media Format], GetMaximumClients method [windows Media Format],IWMWriterNetworkSink interface, IWMWriterNetworkSink interface [windows Media Format],GetMaximumClients method, IWMWriterNetworkSink.GetMaximumClients, IWMWriterNetworkSink::GetMaximumClients, IWMWriterNetworkSinkGetMaximumClients, wmformat.iwmwriternetworksink_getmaximumclients, wmsdkidl/IWMWriterNetworkSink::GetMaximumClients
 ms.topic: method
-f1_keywords: 
- - "wmsdkidl/IWMWriterNetworkSink.GetMaximumClients"
+f1_keywords:
+- wmsdkidl/IWMWriterNetworkSink.GetMaximumClients
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wmvcore.lib
- - Wmvcore.dll
- - WMStubDRM.lib
- - WMStubDRM.dll
+- Wmvcore.lib
+- Wmvcore.dll
+- WMStubDRM.lib
+- WMStubDRM.dll
 api_name:
- - IWMWriterNetworkSink.GetMaximumClients
+- IWMWriterNetworkSink.GetMaximumClients
 targetos: Windows
 req.typenames: 
 req.redist: 

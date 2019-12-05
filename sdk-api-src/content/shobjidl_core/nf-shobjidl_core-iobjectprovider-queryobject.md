@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IObjectProvider.QueryObject
 title: IObjectProvider::QueryObject (shobjidl_core.h)
-
 description: Queries for a specified object.
 old-location: shell\IObjectProvider_QueryObject.htm
 tech.root: shell
 ms.assetid: 7bd76e54-bc1d-481d-90cb-fcfe519b8bfb
-
 ms.date: 12/05/2018
 ms.keywords: IObjectProvider interface [Windows Shell],QueryObject method, IObjectProvider.QueryObject, IObjectProvider::QueryObject, QueryObject, QueryObject method [Windows Shell], QueryObject method [Windows Shell],IObjectProvider interface, _shell_IObjectProvider_QueryObject, shell.IObjectProvider_QueryObject, shobjidl_core/IObjectProvider::QueryObject
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IObjectProvider.QueryObject"
+f1_keywords:
+- shobjidl_core/IObjectProvider.QueryObject
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - IObjectProvider.QueryObject
+- IObjectProvider.QueryObject
 targetos: Windows
 req.typenames: 
 req.redist: 

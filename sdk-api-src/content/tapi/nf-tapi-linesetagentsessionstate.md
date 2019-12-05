@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi.lineSetAgentSessionState
 title: lineSetAgentSessionState function (tapi.h)
-
 description: The lineSetAgentSessionState function sets the agent session state associated with a particular agent session handle.
 old-location: tapi2\linesetagentsessionstate.htm
 tech.root: Tapi
 ms.assetid: 284d8411-6ac7-4496-893b-0349057523e8
-
 ms.date: 12/05/2018
-ms.keywords: "_tapi2_linesetagentsessionstate, lineSetAgentSessionState, lineSetAgentSessionState function [TAPI 2.2], tapi/lineSetAgentSessionState, tapi2.linesetagentsessionstate"
+ms.keywords: _tapi2_linesetagentsessionstate, lineSetAgentSessionState, lineSetAgentSessionState function [TAPI 2.2], tapi/lineSetAgentSessionState, tapi2.linesetagentsessionstate
 ms.topic: function
-f1_keywords: 
- - "tapi/lineSetAgentSessionState"
+f1_keywords:
+- tapi/lineSetAgentSessionState
 dev_langs:
- - c++
+- c++
 req.header: tapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Tapi32.lib
 req.dll: Tapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Tapi32.dll
+- Tapi32.dll
 api_name:
- - lineSetAgentSessionState
+- lineSetAgentSessionState
 targetos: Windows
 req.typenames: 
 req.redist: 

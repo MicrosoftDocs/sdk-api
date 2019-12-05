@@ -1,19 +1,17 @@
 ---
 UID: NF:control.IVideoWindow.get_Width
 title: IVideoWindow::get_Width (control.h)
-
 description: The get_Width method retrieves the width of the video window.
 old-location: dshow\ivideowindow_get_width.htm
 tech.root: DirectShow
 ms.assetid: 179b065a-7269-40fa-8772-b336f27d69de
-
 ms.date: 12/05/2018
 ms.keywords: IVideoWindow interface [DirectShow],get_Width method, IVideoWindow.get_Width, IVideoWindow::get_Width, IVideoWindowget_Width, control/IVideoWindow::get_Width, dshow.ivideowindow_get_width, get_Width, get_Width method [DirectShow], get_Width method [DirectShow],IVideoWindow interface
 ms.topic: method
-f1_keywords: 
- - "control/IVideoWindow.get_Width"
+f1_keywords:
+- control/IVideoWindow.get_Width
 dev_langs:
- - c++
+- c++
 req.header: control.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IVideoWindow.get_Width
+- IVideoWindow.get_Width
 targetos: Windows
 req.typenames: 
 req.redist: 

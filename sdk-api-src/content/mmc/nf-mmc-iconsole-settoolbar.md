@@ -1,19 +1,17 @@
 ---
 UID: NF:mmc.IConsole.SetToolbar
 title: IConsole::SetToolbar (mmc.h)
-
 description: Sets the toolbar interface to be used for this instance of IComponent. Be aware that this is used only by instances of IComponent.
 old-location: mmc\iconsole_settoolbar.htm
 tech.root: mmc
 ms.assetid: 242F3143-A6C1-49A1-A51B-735EE5D5D353
-
 ms.date: 12/05/2018
 ms.keywords: IConsole interface [MMC],SetToolbar method, IConsole.SetToolbar, IConsole::SetToolbar, SetToolbar, SetToolbar method [MMC], SetToolbar method [MMC],IConsole interface, mmc.iconsole_settoolbar, mmc/IConsole::SetToolbar
 ms.topic: method
-f1_keywords: 
- - "mmc/IConsole.SetToolbar"
+f1_keywords:
+- mmc/IConsole.SetToolbar
 dev_langs:
- - c++
+- c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Mmcndmgr.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mmcndmgr.dll
+- Mmcndmgr.dll
 api_name:
- - IConsole.SetToolbar
+- IConsole.SetToolbar
 targetos: Windows
 req.typenames: 
 req.redist: 

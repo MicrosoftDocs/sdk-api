@@ -1,19 +1,17 @@
 ---
 UID: NF:syncmgr.ISyncMgrConflictResolveInfo.GetPresenterNextStep
 title: ISyncMgrConflictResolveInfo::GetPresenterNextStep (syncmgr.h)
-
 description: Gets what the presenter wants to do as the next step in the sync manager conflict resolution.
 old-location: shell\ISyncMgrConflictResolveInfo_GetPresenterNextStep.htm
 tech.root: shell
 ms.assetid: 7f263f83-1d7c-40c6-a57c-1334a52cd712
-
 ms.date: 12/05/2018
 ms.keywords: GetPresenterNextStep, GetPresenterNextStep method [Windows Shell], GetPresenterNextStep method [Windows Shell],ISyncMgrConflictResolveInfo interface, ISyncMgrConflictResolveInfo interface [Windows Shell],GetPresenterNextStep method, ISyncMgrConflictResolveInfo.GetPresenterNextStep, ISyncMgrConflictResolveInfo::GetPresenterNextStep, _shell_ISyncMgrConflictResolveInfo_GetPresenterNextStep, shell.ISyncMgrConflictResolveInfo_GetPresenterNextStep, syncmgr/ISyncMgrConflictResolveInfo::GetPresenterNextStep
 ms.topic: method
-f1_keywords: 
- - "syncmgr/ISyncMgrConflictResolveInfo.GetPresenterNextStep"
+f1_keywords:
+- syncmgr/ISyncMgrConflictResolveInfo.GetPresenterNextStep
 dev_langs:
- - c++
+- c++
 req.header: syncmgr.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Syncmgr.h
+- Syncmgr.h
 api_name:
- - ISyncMgrConflictResolveInfo.GetPresenterNextStep
+- ISyncMgrConflictResolveInfo.GetPresenterNextStep
 targetos: Windows
 req.typenames: 
 req.redist: 

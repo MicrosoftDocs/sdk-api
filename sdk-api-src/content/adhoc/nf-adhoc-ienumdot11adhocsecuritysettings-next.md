@@ -1,19 +1,17 @@
 ---
 UID: NF:adhoc.IEnumDot11AdHocSecuritySettings.Next
 title: IEnumDot11AdHocSecuritySettings::Next (adhoc.h)
-
 description: Gets the specified number of elements from the sequence and advances the current position by the number of items retrieved.
 old-location: nwifi\ienumdot11adhocsecuritysettings_next.htm
 tech.root: NativeWiFi
 ms.assetid: 77101f70-de5d-4db9-a59d-5b07f386c0b7
-
 ms.date: 12/05/2018
 ms.keywords: IEnumDot11AdHocSecuritySettings interface [NativeWIFI],Next method, IEnumDot11AdHocSecuritySettings.Next, IEnumDot11AdHocSecuritySettings::Next, Next, Next method [NativeWIFI], Next method [NativeWIFI],IEnumDot11AdHocSecuritySettings interface, adhoc/IEnumDot11AdHocSecuritySettings::Next, nwifi.ienumdot11adhocsecuritysettings_next
 ms.topic: method
-f1_keywords: 
- - "adhoc/IEnumDot11AdHocSecuritySettings.Next"
+f1_keywords:
+- adhoc/IEnumDot11AdHocSecuritySettings.Next
 dev_langs:
- - c++
+- c++
 req.header: adhoc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - adhoc.h
+- adhoc.h
 api_name:
- - IEnumDot11AdHocSecuritySettings.Next
+- IEnumDot11AdHocSecuritySettings.Next
 targetos: Windows
 req.typenames: 
 req.redist: 

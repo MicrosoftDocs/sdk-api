@@ -1,19 +1,17 @@
 ---
 UID: NN:vds.IVdsAdviseSink
 title: IVdsAdviseSink (vds.h)
-
 description: Receives VDS notifications.
 old-location: base\ivdsadvisesink.htm
 tech.root: VDS
 ms.assetid: 8e9b7c95-0b59-4268-a274-5d16812075a6
-
 ms.date: 12/05/2018
 ms.keywords: IVdsAdviseSink, IVdsAdviseSink interface [VDS], IVdsAdviseSink interface [VDS],described, base.ivdsadvisesink, vds/IVdsAdviseSink, vdshwprv/IVdsAdviseSink
 ms.topic: interface
-f1_keywords: 
- - "vds/IVdsAdviseSink"
+f1_keywords:
+- vds/IVdsAdviseSink
 dev_langs:
- - c++
+- c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Uuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Uuid.lib
- - Uuid.dll
+- Uuid.lib
+- Uuid.dll
 api_name:
- - IVdsAdviseSink
+- IVdsAdviseSink
 targetos: Windows
 req.typenames: 
 req.redist: 

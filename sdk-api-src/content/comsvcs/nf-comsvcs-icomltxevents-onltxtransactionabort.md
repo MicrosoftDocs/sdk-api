@@ -1,19 +1,17 @@
 ---
 UID: NF:comsvcs.IComLTxEvents.OnLtxTransactionAbort
 title: IComLTxEvents::OnLtxTransactionAbort (comsvcs.h)
-
 description: Generated when a transaction is aborted.
 old-location: cos\icomltxevents_onltxtransactionabort.htm
 tech.root: cossdk
 ms.assetid: 49117b74-e84b-497c-ae13-6037e8243e79
-
 ms.date: 12/05/2018
 ms.keywords: IComLTxEvents interface [COM+],OnLtxTransactionAbort method, IComLTxEvents.OnLtxTransactionAbort, IComLTxEvents::OnLtxTransactionAbort, OnLtxTransactionAbort, OnLtxTransactionAbort method [COM+], OnLtxTransactionAbort method [COM+],IComLTxEvents interface, comsvcs/IComLTxEvents::OnLtxTransactionAbort, cos.icomltxevents_onltxtransactionabort
 ms.topic: method
-f1_keywords: 
- - "comsvcs/IComLTxEvents.OnLtxTransactionAbort"
+f1_keywords:
+- comsvcs/IComLTxEvents.OnLtxTransactionAbort
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - IComLTxEvents.OnLtxTransactionAbort
+- IComLTxEvents.OnLtxTransactionAbort
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NE:intshcut.translateurl_in_flags
 title: TRANSLATEURL_IN_FLAGS (intshcut.h)
-
 description: The TRANSLATEURL_IN_FLAGS enumerated values are used with the TranslateURL function to determine how it will execute.
 old-location: shell\TRANSLATEURL_IN_FLAGS.htm
 tech.root: shell
 ms.assetid: b04d5c7d-6d3f-4904-8de5-7586437320e9
-
 ms.date: 12/05/2018
 ms.keywords: TRANSLATEURL_FL_GUESS_PROTOCOL, TRANSLATEURL_FL_USE_DEFAULT_PROTOCOL, TRANSLATEURL_IN_FLAGS, TRANSLATEURL_IN_FLAGS enumeration [Windows Shell], _win32_TRANSLATEURL_IN_FLAGS, intshcut/TRANSLATEURL_FL_GUESS_PROTOCOL, intshcut/TRANSLATEURL_FL_USE_DEFAULT_PROTOCOL, intshcut/TRANSLATEURL_IN_FLAGS, shell.TRANSLATEURL_IN_FLAGS
 ms.topic: enum
-f1_keywords: 
- - "intshcut/TRANSLATEURL_IN_FLAGS"
+f1_keywords:
+- intshcut/TRANSLATEURL_IN_FLAGS
 dev_langs:
- - c++
+- c++
 req.header: intshcut.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Intshcut.h
+- Intshcut.h
 api_name:
- - TRANSLATEURL_IN_FLAGS
+- TRANSLATEURL_IN_FLAGS
 targetos: Windows
 req.typenames: TRANSLATEURL_IN_FLAGS
 req.redist: 

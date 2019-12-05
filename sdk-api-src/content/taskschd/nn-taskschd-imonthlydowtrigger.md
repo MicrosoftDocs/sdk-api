@@ -1,19 +1,17 @@
 ---
 UID: NN:taskschd.IMonthlyDOWTrigger
 title: IMonthlyDOWTrigger (taskschd.h)
-
 description: Represents a trigger that starts a task on a monthly day-of-week schedule.
 old-location: taskschd\imonthlydowtrigger.htm
 tech.root: taskschd
 ms.assetid: a950e4a0-1fcc-4213-bdb7-d1e1cf28fe91
-
 ms.date: 12/05/2018
 ms.keywords: IMonthlyDOWTrigger, IMonthlyDOWTrigger interface [Task Scheduler], IMonthlyDOWTrigger interface [Task Scheduler],described, monthly DOW trigger [Task Scheduler], taskschd.imonthlydowtrigger, taskschd/IMonthlyDOWTrigger, triggers [Task Scheduler],types,monthly DOW
 ms.topic: interface
-f1_keywords: 
- - "taskschd/IMonthlyDOWTrigger"
+f1_keywords:
+- taskschd/IMonthlyDOWTrigger
 dev_langs:
- - c++
+- c++
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Taskschd.lib
 req.dll: Taskschd.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - taskschd.dll
+- taskschd.dll
 api_name:
- - IMonthlyDOWTrigger
+- IMonthlyDOWTrigger
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:securitybaseapi.ImpersonateSelf
 title: ImpersonateSelf function (securitybaseapi.h)
-
 description: Obtains an access token that impersonates the security context of the calling process. The token is assigned to the calling thread.
 old-location: security\impersonateself.htm
 tech.root: SecAuthZ
 ms.assetid: f909e3a7-6c7f-4c05-aa2e-e637113804c9
-
 ms.date: 12/05/2018
 ms.keywords: ImpersonateSelf, ImpersonateSelf function [Security], _win32_impersonateself, security.impersonateself, securitybaseapi/ImpersonateSelf
 ms.topic: function
 f1_keywords:
 - securitybaseapi/ImpersonateSelf
 dev_langs:
- - c++
+- c++
 req.header: securitybaseapi.h
 req.include-header: Windows.h
 req.target-type: Windows

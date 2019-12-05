@@ -1,19 +1,17 @@
 ---
 UID: NF:setupapi.SetupDiBuildClassInfoList
 title: SetupDiBuildClassInfoList function (setupapi.h)
-
 description: The SetupDiBuildClassInfoList function returns a list of setup class GUIDs that identify the classes that are installed on a local computer.
 old-location: devinst\setupdibuildclassinfolist.htm
 tech.root: devinst
 ms.assetid: a01b1f8f-55af-4053-8c31-9329ef36f2ce
-
 ms.date: 12/05/2018
 ms.keywords: SetupDiBuildClassInfoList, SetupDiBuildClassInfoList function [Device and Driver Installation], devinst.setupdibuildclassinfolist, di-rtns_25e014d5-5a99-42c3-8032-a24acd1856df.xml, setupapi/SetupDiBuildClassInfoList
 ms.topic: function
-f1_keywords: 
- - "setupapi/SetupDiBuildClassInfoList"
+f1_keywords:
+- setupapi/SetupDiBuildClassInfoList
 dev_langs:
- - c++
+- c++
 req.header: setupapi.h
 req.include-header: Setupapi.h
 req.target-type: Desktop
@@ -32,14 +30,14 @@ req.lib: Setupapi.lib
 req.dll: Setupapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Setupapi.dll
+- Setupapi.dll
 api_name:
- - SetupDiBuildClassInfoList
+- SetupDiBuildClassInfoList
 targetos: Windows
 req.typenames: 
 req.redist: 

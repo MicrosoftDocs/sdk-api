@@ -1,19 +1,17 @@
 ---
 UID: NF:clusapi.OpenClusterNodeEx
 title: OpenClusterNodeEx function (clusapi.h)
-
 description: Opens a node and returns a handle to it.
 old-location: mscs\openclusternodeex.htm
 tech.root: MsCS
 ms.assetid: 2db24a30-0e4e-4647-8975-c9f584c3a9da
-
 ms.date: 12/05/2018
 ms.keywords: OpenClusterNodeEx, OpenClusterNodeEx function [Failover Cluster], PCLUSAPI_OPEN_CLUSTER_NODE_EX, PCLUSAPI_OPEN_CLUSTER_NODE_EX function [Failover Cluster], clusapi/OpenClusterNodeEx, clusapi/PCLUSAPI_OPEN_CLUSTER_NODE_EX, mscs.openclusternodeex
 ms.topic: function
-f1_keywords: 
- - "clusapi/OpenClusterNodeEx"
+f1_keywords:
+- clusapi/OpenClusterNodeEx
 dev_langs:
- - c++
+- c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: ClusAPI.lib
 req.dll: ClusAPI.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - ClusAPI.dll
+- ClusAPI.dll
 api_name:
- - OpenClusterNodeEx
+- OpenClusterNodeEx
 targetos: Windows
 req.typenames: 
 req.redist: 

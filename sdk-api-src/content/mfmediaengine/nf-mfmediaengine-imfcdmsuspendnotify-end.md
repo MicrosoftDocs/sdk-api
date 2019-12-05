@@ -1,19 +1,17 @@
 ---
 UID: NF:mfmediaengine.IMFCdmSuspendNotify.End
 title: IMFCdmSuspendNotify::End (mfmediaengine.h)
-
 description: The actual suspend is about to occur and no more calls will be made into the Content Decryption Module (CDM).
 old-location: mf\imfcdmsuspendnotify_end.htm
 tech.root: medfound
 ms.assetid: 7a319fbb-9757-45da-8a8b-51dd48f08464
-
 ms.date: 12/05/2018
 ms.keywords: End, End method [Media Foundation], End method [Media Foundation],IMFCdmSuspendNotify interface, IMFCdmSuspendNotify interface [Media Foundation],End method, IMFCdmSuspendNotify.End, IMFCdmSuspendNotify::End, mf.imfcdmsuspendnotify_end, mfmediaengine/IMFCdmSuspendNotify::End
 ms.topic: method
-f1_keywords: 
- - "mfmediaengine/IMFCdmSuspendNotify.End"
+f1_keywords:
+- mfmediaengine/IMFCdmSuspendNotify.End
 dev_langs:
- - c++
+- c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfmediaengine.h
+- mfmediaengine.h
 api_name:
- - IMFCdmSuspendNotify.End
+- IMFCdmSuspendNotify.End
 targetos: Windows
 req.typenames: 
 req.redist: 

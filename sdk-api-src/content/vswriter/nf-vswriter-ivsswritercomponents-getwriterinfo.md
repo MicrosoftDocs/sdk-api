@@ -1,19 +1,17 @@
 ---
 UID: NF:vswriter.IVssWriterComponents.GetWriterInfo
 title: IVssWriterComponents::GetWriterInfo (vswriter.h)
-
 description: The GetWriterInfo method gets the instance and class identifier of the writer responsible for the components.
 old-location: base\ivsswritercomponents_getwriterinfo.htm
 tech.root: VSS
 ms.assetid: 22a539ac-1440-4fe9-b68e-feec97cab6c8
-
 ms.date: 12/05/2018
 ms.keywords: GetWriterInfo, GetWriterInfo method [VSS], GetWriterInfo method [VSS],IVssWriterComponents interface, IVssWriterComponents interface [VSS],GetWriterInfo method, IVssWriterComponents.GetWriterInfo, IVssWriterComponents::GetWriterInfo, _win32_ivsswritercomponents_getwriterinfo, base.ivsswritercomponents_getwriterinfo, vswriter/IVssWriterComponents::GetWriterInfo
 ms.topic: method
-f1_keywords: 
- - "vswriter/IVssWriterComponents.GetWriterInfo"
+f1_keywords:
+- vswriter/IVssWriterComponents.GetWriterInfo
 dev_langs:
- - c++
+- c++
 req.header: vswriter.h
 req.include-header: Vss.h, VsWriter.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: VssApi.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - VssApi.lib
- - VssApi.dll
+- VssApi.lib
+- VssApi.dll
 api_name:
- - IVssWriterComponents.GetWriterInfo
+- IVssWriterComponents.GetWriterInfo
 targetos: Windows
 req.typenames: 
 req.redist: 

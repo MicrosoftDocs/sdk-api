@@ -1,19 +1,17 @@
 ---
 UID: NF:ras.RasValidateEntryNameA
 title: RasValidateEntryNameA function (ras.h)
-
 description: The RasValidateEntryName function validates the format of a connection entry name. The name must contain at least one non-white-space alphanumeric character.
 old-location: rras\rasvalidateentryname.htm
 tech.root: RRAS
 ms.assetid: c70ad0d4-6bc1-4716-9a8e-0fbeb55b7560
-
 ms.date: 12/05/2018
 ms.keywords: RasValidateEntryName, RasValidateEntryName function [RAS], RasValidateEntryNameA, RasValidateEntryNameW, _ras_rasvalidateentryname, ras/RasValidateEntryName, ras/RasValidateEntryNameA, ras/RasValidateEntryNameW, rras.rasvalidateentryname
 ms.topic: function
-f1_keywords: 
- - "ras/RasValidateEntryName"
+f1_keywords:
+- ras/RasValidateEntryName
 dev_langs:
- - c++
+- c++
 req.header: ras.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Rasapi32.lib
 req.dll: Rasapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Rasapi32.dll
+- Rasapi32.dll
 api_name:
- - RasValidateEntryName
- - RasValidateEntryNameA
- - RasValidateEntryNameW
+- RasValidateEntryName
+- RasValidateEntryNameA
+- RasValidateEntryNameW
 targetos: Windows
 req.typenames: 
 req.redist: 

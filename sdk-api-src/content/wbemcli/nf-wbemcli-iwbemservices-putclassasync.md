@@ -1,19 +1,17 @@
 ---
 UID: NF:wbemcli.IWbemServices.PutClassAsync
 title: IWbemServices::PutClassAsync (wbemcli.h)
-
 description: The IWbemServices::PutClassAsync method creates a new class, or updates an existing one.
 old-location: wmi\iwbemservices_putclassasync.htm
 tech.root: WmiSdk
 ms.assetid: 957f5646-86e7-4632-9012-b1fb281b65fb
-
 ms.date: 12/05/2018
 ms.keywords: IWbemServices interface [Windows Management Instrumentation],PutClassAsync method, IWbemServices.PutClassAsync, IWbemServices::PutClassAsync, PutClassAsync, PutClassAsync method [Windows Management Instrumentation], PutClassAsync method [Windows Management Instrumentation],IWbemServices interface, WBEM_FLAG_CREATE_ONLY, WBEM_FLAG_CREATE_OR_UPDATE, WBEM_FLAG_OWNER_UPDATE, WBEM_FLAG_SEND_STATUS, WBEM_FLAG_UPDATE_COMPATIBLE, WBEM_FLAG_UPDATE_FORCE_MODE, WBEM_FLAG_UPDATE_ONLY, WBEM_FLAG_UPDATE_SAFE_MODE, WBEM_FLAG_USE_AMENDED_QUALIFIERS, _hmm_iwbemservices_putclassasync, wbemcli/IWbemServices::PutClassAsync, wmi.iwbemservices_putclassasync
 ms.topic: method
-f1_keywords: 
- - "wbemcli/IWbemServices.PutClassAsync"
+f1_keywords:
+- wbemcli/IWbemServices.PutClassAsync
 dev_langs:
- - c++
+- c++
 req.header: wbemcli.h
 req.include-header: Wbemidl.h
 req.target-type: Windows
@@ -32,28 +30,28 @@ req.lib: Wbemuuid.lib
 req.dll: Fastprox.dll; Esscli.dll; FrameDyn.dll; FrameDynOS.dll; Ntevt.dll; Stdprov.dll; Viewprov.dll; Wbemcomn.dll; Wbemcore.dll; Wbemess.dll; Wbemsvc.dll; Wmipicmp.dll; Wmidcprv.dll; Wmipjobj.dll; Wmiprvsd.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Fastprox.dll
- - Esscli.dll
- - FrameDyn.dll
- - FrameDynOS.dll
- - Ntevt.dll
- - Stdprov.dll
- - Viewprov.dll
- - Wbemcomn.dll
- - Wbemcore.dll
- - Wbemess.dll
- - Wbemsvc.dll
- - Wmipicmp.dll
- - Wmidcprv.dll
- - Wmipjobj.dll
- - Wmiprvsd.dll
+- Fastprox.dll
+- Esscli.dll
+- FrameDyn.dll
+- FrameDynOS.dll
+- Ntevt.dll
+- Stdprov.dll
+- Viewprov.dll
+- Wbemcomn.dll
+- Wbemcore.dll
+- Wbemess.dll
+- Wbemsvc.dll
+- Wmipicmp.dll
+- Wmidcprv.dll
+- Wmipjobj.dll
+- Wmiprvsd.dll
 api_name:
- - IWbemServices.PutClassAsync
+- IWbemServices.PutClassAsync
 targetos: Windows
 req.typenames: 
 req.redist: 

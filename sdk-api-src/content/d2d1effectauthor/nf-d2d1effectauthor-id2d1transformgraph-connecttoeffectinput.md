@@ -1,19 +1,17 @@
 ---
 UID: NF:d2d1effectauthor.ID2D1TransformGraph.ConnectToEffectInput
 title: ID2D1TransformGraph::ConnectToEffectInput (d2d1effectauthor.h)
-
 description: Connects a transform node inside the graph to the corresponding effect input of the encapsulating effect.
 old-location: direct2d\id2d1transformgraph_connecttoeffectinput.htm
 tech.root: Direct2D
 ms.assetid: 5190B887-4F3C-4304-A582-77585B438317
-
 ms.date: 12/05/2018
 ms.keywords: ConnectToEffectInput, ConnectToEffectInput method [Direct2D], ConnectToEffectInput method [Direct2D],ID2D1TransformGraph interface, ID2D1TransformGraph interface [Direct2D],ConnectToEffectInput method, ID2D1TransformGraph.ConnectToEffectInput, ID2D1TransformGraph::ConnectToEffectInput, d2d1effectauthor/ID2D1TransformGraph::ConnectToEffectInput, direct2d.id2d1transformgraph_connecttoeffectinput
 ms.topic: method
-f1_keywords: 
- - "d2d1effectauthor/ID2D1TransformGraph.ConnectToEffectInput"
+f1_keywords:
+- d2d1effectauthor/ID2D1TransformGraph.ConnectToEffectInput
 dev_langs:
- - c++
+- c++
 req.header: d2d1effectauthor.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: D2d1.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - d2d1.lib
- - d2d1.dll
+- d2d1.lib
+- d2d1.dll
 api_name:
- - ID2D1TransformGraph.ConnectToEffectInput
+- ID2D1TransformGraph.ConnectToEffectInput
 targetos: Windows
 req.typenames: 
 req.redist: 

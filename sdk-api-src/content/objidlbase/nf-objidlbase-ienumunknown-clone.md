@@ -1,19 +1,17 @@
 ---
 UID: NF:objidlbase.IEnumUnknown.Clone
 title: IEnumUnknown::Clone (objidlbase.h)
-
 description: Creates a new enumerator that contains the same enumeration state as the current one.
 old-location: com\ienumunknown_clone.htm
 tech.root: com
 ms.assetid: 278d2947-efa5-43c4-a950-cf39876423ba
-
 ms.date: 12/05/2018
 ms.keywords: Clone, Clone method [COM], Clone method [COM],IEnumUnknown interface, IEnumUnknown interface [COM],Clone method, IEnumUnknown.Clone, IEnumUnknown::Clone, _com_ienumunknown_clone, com.ienumunknown_clone, objidlbase/IEnumUnknown::Clone
 ms.topic: method
-f1_keywords: 
- - "objidlbase/IEnumUnknown.Clone"
+f1_keywords:
+- objidlbase/IEnumUnknown.Clone
 dev_langs:
- - c++
+- c++
 req.header: objidlbase.h
 req.include-header: ObjIdl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - objidlbase.h
+- objidlbase.h
 api_name:
- - IEnumUnknown.Clone
+- IEnumUnknown.Clone
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:evntrace.QueryTrace
 title: QueryTrace macro (evntrace.h)
-
 description: The QueryTrace function retrieves the property settings and session statistics for the specified event tracing session. The ControlTrace function supersedes this function.
 old-location: etw\querytrace.htm
 tech.root: ETW
 ms.assetid: 8ad0f4f6-902c-490e-b26e-7499dd99fc95
-
 ms.date: 12/05/2018
 ms.keywords: QueryTrace, QueryTrace function [ETW], QueryTraceA, QueryTraceW, _evt_querytrace, base.querytrace, etw.querytrace, evntrace/QueryTrace, evntrace/QueryTraceA, evntrace/QueryTraceW
 ms.topic: macro
-f1_keywords: 
- - "evntrace/QueryTrace"
+f1_keywords:
+- evntrace/QueryTrace
 dev_langs:
- - c++
+- c++
 req.header: evntrace.h
 req.include-header: 
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Advapi32.dll
- - API-MS-Win-eventing-Legacy-l1-1-0.dll
- - advapi32legacy.dll
+- Advapi32.dll
+- API-MS-Win-eventing-Legacy-l1-1-0.dll
+- advapi32legacy.dll
 api_name:
- - QueryTrace
- - QueryTraceA
- - QueryTraceW
+- QueryTrace
+- QueryTraceA
+- QueryTraceW
 targetos: Windows
 req.typenames: 
 req.redist: 

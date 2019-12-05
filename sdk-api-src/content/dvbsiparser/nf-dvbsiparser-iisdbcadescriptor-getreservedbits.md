@@ -1,19 +1,17 @@
 ---
 UID: NF:dvbsiparser.IIsdbCADescriptor.GetReservedBits
 title: IIsdbCADescriptor::GetReservedBits (dvbsiparser.h)
-
 description: Gets the reserved bits from a conditional access (CA) descriptor.
 old-location: mstv\iisdbcadescriptor_getreservedbits.htm
 tech.root: mstv
 ms.assetid: c45295f9-df77-4a23-b6c2-65d5b2c9c360
-
 ms.date: 12/05/2018
 ms.keywords: GetReservedBits, GetReservedBits method [Microsoft TV Technologies], GetReservedBits method [Microsoft TV Technologies],IIsdbCADescriptor interface, IIsdbCADescriptor interface [Microsoft TV Technologies],GetReservedBits method, IIsdbCADescriptor.GetReservedBits, IIsdbCADescriptor::GetReservedBits, dvbsiparser/IIsdbCADescriptor::GetReservedBits, mstv.iisdbcadescriptor_getreservedbits
 ms.topic: method
-f1_keywords: 
- - "dvbsiparser/IIsdbCADescriptor.GetReservedBits"
+f1_keywords:
+- dvbsiparser/IIsdbCADescriptor.GetReservedBits
 dev_langs:
- - c++
+- c++
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dvbsiparser.h
+- dvbsiparser.h
 api_name:
- - IIsdbCADescriptor.GetReservedBits
+- IIsdbCADescriptor.GetReservedBits
 targetos: Windows
 req.typenames: 
 req.redist: 

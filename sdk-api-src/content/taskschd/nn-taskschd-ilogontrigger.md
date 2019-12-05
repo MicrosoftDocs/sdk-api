@@ -1,19 +1,17 @@
 ---
 UID: NN:taskschd.ILogonTrigger
 title: ILogonTrigger (taskschd.h)
-
 description: Represents a trigger that starts a task when a user logs on.
 old-location: taskschd\ilogontrigger.htm
 tech.root: taskschd
 ms.assetid: c0206a18-53f2-4def-8f54-2b175a0579f4
-
 ms.date: 12/05/2018
 ms.keywords: ILogonTrigger, ILogonTrigger interface [Task Scheduler], ILogonTrigger interface [Task Scheduler],described, logon trigger [Task Scheduler],interface, taskschd.ilogontrigger, taskschd/ILogonTrigger
 ms.topic: interface
-f1_keywords: 
- - "taskschd/ILogonTrigger"
+f1_keywords:
+- taskschd/ILogonTrigger
 dev_langs:
- - c++
+- c++
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Taskschd.lib
 req.dll: Taskschd.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - taskschd.dll
+- taskschd.dll
 api_name:
- - ILogonTrigger
+- ILogonTrigger
 targetos: Windows
 req.typenames: 
 req.redist: 

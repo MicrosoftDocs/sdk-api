@@ -1,19 +1,17 @@
 ---
 UID: NF:comsvcs.CoEnterServiceDomain
 title: CoEnterServiceDomain function (comsvcs.h)
-
 description: Used to enter code that can then use COM+ services.
 old-location: cos\coenterservicedomain.htm
 tech.root: cossdk
 ms.assetid: 84640b3b-1f43-4bec-abf6-c295cfb3da8b
-
 ms.date: 12/05/2018
 ms.keywords: CoEnterServiceDomain, CoEnterServiceDomain function [COM+], _cos_CoEnterServiceDomain, comsvcs/CoEnterServiceDomain, cos.coenterservicedomain
 ms.topic: function
-f1_keywords: 
- - "comsvcs/CoEnterServiceDomain"
+f1_keywords:
+- comsvcs/CoEnterServiceDomain
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: ComSvcs.lib
 req.dll: ComSvcs.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - ComSvcs.dll
+- ComSvcs.dll
 api_name:
- - CoEnterServiceDomain
+- CoEnterServiceDomain
 targetos: Windows
 req.typenames: 
 req.redist: 

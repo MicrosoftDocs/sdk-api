@@ -1,19 +1,17 @@
 ---
 UID: NF:tlhelp32.Process32First
 title: Process32First function (tlhelp32.h)
-
 description: Retrieves information about the first process encountered in a system snapshot.
 old-location: toolhelp\process32first.htm
 tech.root: ToolHelp
 ms.assetid: 097790e8-30c2-4b00-9256-fa26e2ceb893
-
 ms.date: 12/05/2018
 ms.keywords: Process32First, Process32First function [ToolHelp], Process32FirstW, _win32_process32first, base.process32first, tlhelp32/Process32First, tlhelp32/Process32FirstW, toolhelp.process32first
 ms.topic: function
-f1_keywords: 
- - "tlhelp32/Process32First"
+f1_keywords:
+- tlhelp32/Process32First
 dev_langs:
- - c++
+- c++
 req.header: tlhelp32.h
 req.include-header: 
 req.target-type: Windows
@@ -32,23 +30,23 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-Kernel32-Legacy-l1-1-2.dll
- - kernel32legacy.dll
- - API-MS-Win-Core-toolhelp-l1-1-0.dll
- - API-MS-Win-Core-Kernel32-Legacy-L1-1-3.dll
- - API-MS-Win-Core-Kernel32-Legacy-L1-1-4.dll
- - API-MS-Win-Core-Kernel32-Legacy-L1-1-5.dll
- - API-MS-Win-Core-ToolHelp-L1-1-1.dll
+- Kernel32.dll
+- API-MS-Win-Core-Kernel32-Legacy-l1-1-2.dll
+- kernel32legacy.dll
+- API-MS-Win-Core-toolhelp-l1-1-0.dll
+- API-MS-Win-Core-Kernel32-Legacy-L1-1-3.dll
+- API-MS-Win-Core-Kernel32-Legacy-L1-1-4.dll
+- API-MS-Win-Core-Kernel32-Legacy-L1-1-5.dll
+- API-MS-Win-Core-ToolHelp-L1-1-1.dll
 api_name:
- - Process32First
- - Process32First
- - Process32FirstW
+- Process32First
+- Process32First
+- Process32FirstW
 targetos: Windows
 req.typenames: 
 req.redist: 

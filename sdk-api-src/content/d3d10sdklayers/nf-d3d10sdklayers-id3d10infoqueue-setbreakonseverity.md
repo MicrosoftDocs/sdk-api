@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d10sdklayers.ID3D10InfoQueue.SetBreakOnSeverity
 title: ID3D10InfoQueue::SetBreakOnSeverity (d3d10sdklayers.h)
-
 description: Set a message severity level to break on when a message with that severity level passes through the storage filter.
 old-location: direct3d10\id3d10infoqueue_setbreakonseverity.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10infoqueue_setbreakonseverity.htm
-
 ms.date: 12/05/2018
 ms.keywords: ID3D10InfoQueue interface [Direct3D 10],SetBreakOnSeverity method, ID3D10InfoQueue.SetBreakOnSeverity, ID3D10InfoQueue::SetBreakOnSeverity, SetBreakOnSeverity, SetBreakOnSeverity method [Direct3D 10], SetBreakOnSeverity method [Direct3D 10],ID3D10InfoQueue interface, a333f38c-3dea-80fe-c7bb-b11dfec7e140, d3d10sdklayers/ID3D10InfoQueue::SetBreakOnSeverity, direct3d10.id3d10infoqueue_setbreakonseverity
 ms.topic: method
-f1_keywords: 
- - "d3d10sdklayers/ID3D10InfoQueue.SetBreakOnSeverity"
+f1_keywords:
+- d3d10sdklayers/ID3D10InfoQueue.SetBreakOnSeverity
 dev_langs:
- - c++
+- c++
 req.header: d3d10sdklayers.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D10SDKLayers.h
+- D3D10SDKLayers.h
 api_name:
- - ID3D10InfoQueue.SetBreakOnSeverity
+- ID3D10InfoQueue.SetBreakOnSeverity
 targetos: Windows
 req.typenames: 
 req.redist: 

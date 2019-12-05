@@ -1,19 +1,17 @@
 ---
 UID: NS:d2d1.D2D1_ARC_SEGMENT
 title: D2D1_ARC_SEGMENT (d2d1.h)
-
 description: Describes an elliptical arc between two points.
 old-location: direct2d\D2D1_ARC_SEGMENT.htm
 tech.root: Direct2D
 ms.assetid: 3f391265-20b4-4897-aa0b-d14b71cd5f0a
-
 ms.date: 12/05/2018
 ms.keywords: D2D1_ARC_SEGMENT, D2D1_ARC_SEGMENT structure [Direct2D], d2d1/D2D1_ARC_SEGMENT, direct2d.D2D1_ARC_SEGMENT
 ms.topic: struct
-f1_keywords: 
- - "d2d1/D2D1_ARC_SEGMENT"
+f1_keywords:
+- d2d1/D2D1_ARC_SEGMENT
 dev_langs:
- - c++
+- c++
 req.header: d2d1.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - d2d1.h
+- d2d1.h
 api_name:
- - D2D1_ARC_SEGMENT
+- D2D1_ARC_SEGMENT
 targetos: Windows
 req.typenames: D2D1_ARC_SEGMENT
 req.redist: 

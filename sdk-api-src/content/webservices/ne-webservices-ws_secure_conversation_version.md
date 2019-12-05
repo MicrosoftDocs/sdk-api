@@ -1,19 +1,17 @@
 ---
 UID: NE:webservices.__unnamed_enum_54
 title: WS_SECURE_CONVERSATION_VERSION (webservices.h)
-
 description: Defines the WS-SecureConversation specification version to be used with message security and mixed-mode security.
 old-location: wsw\ws_secure_conversation_version.htm
 tech.root: wsw
 ms.assetid: 17c21a3a-1cb5-4174-8300-a5c3d87e3e0f
-
 ms.date: 12/05/2018
 ms.keywords: WS_SECURE_CONVERSATION_VERSION, WS_SECURE_CONVERSATION_VERSION enumeration [Web Services for Windows], WS_SECURE_CONVERSATION_VERSION_1_3, WS_SECURE_CONVERSATION_VERSION_FEBRUARY_2005, webservices/WS_SECURE_CONVERSATION_VERSION, webservices/WS_SECURE_CONVERSATION_VERSION_1_3, webservices/WS_SECURE_CONVERSATION_VERSION_FEBRUARY_2005, wsw.ws_secure_conversation_version
 ms.topic: enum
-f1_keywords: 
- - "webservices/WS_SECURE_CONVERSATION_VERSION"
+f1_keywords:
+- webservices/WS_SECURE_CONVERSATION_VERSION
 dev_langs:
- - c++
+- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WebServices.h
+- WebServices.h
 api_name:
- - WS_SECURE_CONVERSATION_VERSION
+- WS_SECURE_CONVERSATION_VERSION
 targetos: Windows
 req.typenames: WS_SECURE_CONVERSATION_VERSION
 req.redist: 

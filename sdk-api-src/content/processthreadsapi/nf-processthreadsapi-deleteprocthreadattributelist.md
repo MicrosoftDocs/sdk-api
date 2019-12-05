@@ -1,19 +1,17 @@
 ---
 UID: NF:processthreadsapi.DeleteProcThreadAttributeList
 title: DeleteProcThreadAttributeList function (processthreadsapi.h)
-
 description: Deletes the specified list of attributes for process and thread creation.
 old-location: base\deleteprocthreadattributelist.htm
 tech.root: ProcThread
 ms.assetid: 806326c8-2f1e-4ab8-a6f6-f84763ddc31f
-
 ms.date: 12/05/2018
 ms.keywords: DeleteProcThreadAttributeList, DeleteProcThreadAttributeList function, base.deleteprocthreadattributelist, processthreadsapi/DeleteProcThreadAttributeList, winbase/DeleteProcThreadAttributeList
 ms.topic: function
-f1_keywords: 
- - "processthreadsapi/DeleteProcThreadAttributeList"
+f1_keywords:
+- processthreadsapi/DeleteProcThreadAttributeList
 dev_langs:
- - c++
+- c++
 req.header: processthreadsapi.h
 req.include-header: Windows 7, Windows Server 2008  Windows Server 2008 R2, Windows.h
 req.target-type: Windows
@@ -32,21 +30,21 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-ProcessThreads-l1-1-0.dll
- - KernelBase.dll
- - MinKernelBase.dll
- - API-MS-Win-Core-ProcessThreads-l1-1-1.dll
- - API-MS-Win-Core-ProcessThreads-l1-1-2.dll
- - api-ms-win-downlevel-kernel32-l1-1-0.dll
- - API-MS-Win-Core-ProcessThreads-L1-1-3.dll
+- Kernel32.dll
+- API-MS-Win-Core-ProcessThreads-l1-1-0.dll
+- KernelBase.dll
+- MinKernelBase.dll
+- API-MS-Win-Core-ProcessThreads-l1-1-1.dll
+- API-MS-Win-Core-ProcessThreads-l1-1-2.dll
+- api-ms-win-downlevel-kernel32-l1-1-0.dll
+- API-MS-Win-Core-ProcessThreads-L1-1-3.dll
 api_name:
- - DeleteProcThreadAttributeList
+- DeleteProcThreadAttributeList
 targetos: Windows
 req.typenames: 
 req.redist: 

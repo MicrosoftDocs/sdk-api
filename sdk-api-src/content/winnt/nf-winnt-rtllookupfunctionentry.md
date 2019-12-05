@@ -1,19 +1,17 @@
 ---
 UID: NF:winnt.RtlLookupFunctionEntry
 title: RtlLookupFunctionEntry function (winnt.h)
-
 description: Searches the active function tables for an entry that corresponds to the specified PC value.
 old-location: base\rtllookupfunctionentry.htm
 tech.root: Debug
 ms.assetid: 624b97fb-0453-4f47-b6bd-92aa14705e78
-
 ms.date: 12/05/2018
 ms.keywords: RtlLookupFunctionEntry, RtlLookupFunctionEntry function, base.rtllookupfunctionentry, winnt/RtlLookupFunctionEntry
 ms.topic: function
-f1_keywords: 
- - "winnt/RtlLookupFunctionEntry"
+f1_keywords:
+- winnt/RtlLookupFunctionEntry
 dev_langs:
- - c++
+- c++
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-rtlsupport-l1-1-0.dll
- - ntdll.dll
- - API-MS-Win-Core-rtlsupport-l1-2-0.dll
+- Kernel32.dll
+- API-MS-Win-Core-rtlsupport-l1-1-0.dll
+- ntdll.dll
+- API-MS-Win-Core-rtlsupport-l1-2-0.dll
 api_name:
- - RtlLookupFunctionEntry
+- RtlLookupFunctionEntry
 targetos: Windows
 req.typenames: 
 req.redist: 

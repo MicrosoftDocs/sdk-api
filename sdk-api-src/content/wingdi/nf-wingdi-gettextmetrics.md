@@ -1,19 +1,17 @@
 ---
 UID: NF:wingdi.GetTextMetrics
 title: GetTextMetrics function (wingdi.h)
-
 description: The GetTextMetrics function fills the specified buffer with the metrics for the currently selected font.
 old-location: gdi\gettextmetrics.htm
 tech.root: gdi
 ms.assetid: 92d45a3b-12df-42ff-8d87-5c27b44dc481
-
 ms.date: 12/05/2018
 ms.keywords: GetTextMetrics, GetTextMetrics function [Windows GDI], GetTextMetricsA, GetTextMetricsW, _win32_GetTextMetrics, gdi.gettextmetrics, wingdi/GetTextMetrics, wingdi/GetTextMetricsA, wingdi/GetTextMetricsW
 ms.topic: function
-f1_keywords: 
- - "wingdi/GetTextMetrics"
+f1_keywords:
+- wingdi/GetTextMetrics
 dev_langs:
- - c++
+- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,22 +30,22 @@ req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - gdi32.dll
- - Ext-MS-Win-GDI-Font-l1-1-0.dll
- - Ext-MS-Win-GDI-Font-l1-1-1.dll
- - ext-ms-win-gdi-font-l1-1-2.dll
- - Ext-MS-Win-GDI-Font-L1-1-3.dll
- - Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
- - GDI32Full.dll
+- gdi32.dll
+- Ext-MS-Win-GDI-Font-l1-1-0.dll
+- Ext-MS-Win-GDI-Font-l1-1-1.dll
+- ext-ms-win-gdi-font-l1-1-2.dll
+- Ext-MS-Win-GDI-Font-L1-1-3.dll
+- Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
+- GDI32Full.dll
 api_name:
- - GetTextMetrics
- - GetTextMetricsA
- - GetTextMetricsW
+- GetTextMetrics
+- GetTextMetricsA
+- GetTextMetricsW
 targetos: Windows
 req.typenames: 
 req.redist: 

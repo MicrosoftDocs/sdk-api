@@ -1,19 +1,17 @@
 ---
 UID: NF:dcomp.IDCompositionScaleTransform3D.SetScaleY(float)
 title: IDCompositionScaleTransform3D::SetScaleY (dcomp.h)
-
 description: Changes the value of the ScaleY property of a 3D scale transform.
 old-location: directcomp\idcompositionscaletransform3d_setscaley_float.htm
 tech.root: directcomp
 ms.assetid: F4BC7859-DD50-4AD0-8B6C-4E353B0AE334
-
 ms.date: 12/05/2018
 ms.keywords: IDCompositionScaleTransform3D interface [DirectComposition],SetScaleY method, IDCompositionScaleTransform3D.SetScaleY, IDCompositionScaleTransform3D::SetScaleY, IDCompositionScaleTransform3D::SetScaleY(float), SetScaleY, SetScaleY method [DirectComposition], SetScaleY method [DirectComposition],IDCompositionScaleTransform3D interface, dcomp/IDCompositionScaleTransform3D::SetScaleY, directcomp.idcompositionscaletransform3d_setscaley_float
 ms.topic: method
-f1_keywords: 
- - "dcomp/IDCompositionScaleTransform3D.SetScaleY"
+f1_keywords:
+- dcomp/IDCompositionScaleTransform3D.SetScaleY
 dev_langs:
- - c++
+- c++
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dcomp.lib
 req.dll: Dcomp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dcomp.dll
+- Dcomp.dll
 api_name:
- - IDCompositionScaleTransform3D.SetScaleY
+- IDCompositionScaleTransform3D.SetScaleY
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:recapis.GetLeftSeparator
 title: GetLeftSeparator function (recapis.h)
-
 description: Gets the left separator for the recognizer context.
 old-location: tablet\getleftseparator.htm
 tech.root: tablet
 ms.assetid: 5528d31e-580f-4da7-b683-e9ea2931989b
-
 ms.date: 12/05/2018
 ms.keywords: GetLeftSeparator, GetLeftSeparator function [Tablet PC], recapis/GetLeftSeparator, tablet.getleftseparator
 ms.topic: function
-f1_keywords: 
- - "recapis/GetLeftSeparator"
+f1_keywords:
+- recapis/GetLeftSeparator
 dev_langs:
- - c++
+- c++
 req.header: recapis.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - recapis.h
+- recapis.h
 api_name:
- - GetLeftSeparator
+- GetLeftSeparator
 targetos: Windows
 req.typenames: 
 req.redist: 

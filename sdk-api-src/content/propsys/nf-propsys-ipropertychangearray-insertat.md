@@ -1,19 +1,17 @@
 ---
 UID: NF:propsys.IPropertyChangeArray.InsertAt
 title: IPropertyChangeArray::InsertAt (propsys.h)
-
 description: Inserts a change operation into an array at the specified position.
 old-location: properties\IPropertyChangeArray_InsertAt.htm
 tech.root: properties
 ms.assetid: e50a0642-ff01-4cf7-940e-0241b3dc8604
-
 ms.date: 12/05/2018
 ms.keywords: IPropertyChangeArray interface [Windows Properties],InsertAt method, IPropertyChangeArray.InsertAt, IPropertyChangeArray::InsertAt, InsertAt, InsertAt method [Windows Properties], InsertAt method [Windows Properties],IPropertyChangeArray interface, _shell_IPropertyChangeArray_InsertAt, properties.IPropertyChangeArray_InsertAt, propsys/IPropertyChangeArray::InsertAt, shell.IPropertyChangeArray_InsertAt
 ms.topic: method
-f1_keywords: 
- - "propsys/IPropertyChangeArray.InsertAt"
+f1_keywords:
+- propsys/IPropertyChangeArray.InsertAt
 dev_langs:
- - c++
+- c++
 req.header: propsys.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Propsys.h
+- Propsys.h
 api_name:
- - IPropertyChangeArray.InsertAt
+- IPropertyChangeArray.InsertAt
 targetos: Windows
 req.typenames: 
 req.redist: 

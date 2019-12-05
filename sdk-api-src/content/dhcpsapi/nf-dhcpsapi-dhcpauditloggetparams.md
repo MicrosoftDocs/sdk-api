@@ -1,19 +1,17 @@
 ---
 UID: NF:dhcpsapi.DhcpAuditLogGetParams
 title: DhcpAuditLogGetParams function (dhcpsapi.h)
-
 description: Returns the audit log configuration settings from the DHCP server.
 old-location: dhcp\dhcpauditloggetparams.htm
 tech.root: DHCP
 ms.assetid: 3d0f8f06-d6a6-40b0-a3e8-0e155caee883
-
 ms.date: 12/05/2018
 ms.keywords: DhcpAuditLogGetParams, DhcpAuditLogGetParams function [DHCP], dhcp.dhcpauditloggetparams, dhcpsapi/DhcpAuditLogGetParams
 ms.topic: function
-f1_keywords: 
- - "dhcpsapi/DhcpAuditLogGetParams"
+f1_keywords:
+- dhcpsapi/DhcpAuditLogGetParams
 dev_langs:
- - c++
+- c++
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dhcpsapi.lib
 req.dll: Dhcpsapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Dhcpsapi.dll
+- Dhcpsapi.dll
 api_name:
- - DhcpAuditLogGetParams
+- DhcpAuditLogGetParams
 targetos: Windows
 req.typenames: 
 req.redist: 

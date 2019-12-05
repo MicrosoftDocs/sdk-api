@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationDragPattern.GetCurrentGrabbedItems
 title: IUIAutomationDragPattern::GetCurrentGrabbedItems (uiautomationclient.h)
-
 description: Retrieves a collection of elements that represent the full set of items that the user is dragging as part of a drag operation.
 old-location: winauto\uiauto_iuiautomationdragpattern_getcurrentgrabbeditems.htm
 tech.root: WinAuto
 ms.assetid: 9311E1E3-FE4E-428F-9DAD-32AE347477EF
-
 ms.date: 12/05/2018
 ms.keywords: GetCurrentGrabbedItems, GetCurrentGrabbedItems method [Windows Accessibility], GetCurrentGrabbedItems method [Windows Accessibility],IUIAutomationDragPattern interface, IUIAutomationDragPattern interface [Windows Accessibility],GetCurrentGrabbedItems method, IUIAutomationDragPattern.GetCurrentGrabbedItems, IUIAutomationDragPattern::GetCurrentGrabbedItems, uiautomationclient/IUIAutomationDragPattern::GetCurrentGrabbedItems, winauto.uiauto_iuiautomationdragpattern_getcurrentgrabbeditems
 ms.topic: method
-f1_keywords: 
- - "uiautomationclient/IUIAutomationDragPattern.GetCurrentGrabbedItems"
+f1_keywords:
+- uiautomationclient/IUIAutomationDragPattern.GetCurrentGrabbedItems
 dev_langs:
- - c++
+- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationClient.h
+- UIAutomationClient.h
 api_name:
- - IUIAutomationDragPattern.GetCurrentGrabbedItems
+- IUIAutomationDragPattern.GetCurrentGrabbedItems
 targetos: Windows
 req.typenames: 
 req.redist: 

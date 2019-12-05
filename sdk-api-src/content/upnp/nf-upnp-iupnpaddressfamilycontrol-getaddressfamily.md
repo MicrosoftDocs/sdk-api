@@ -1,19 +1,17 @@
 ---
 UID: NF:upnp.IUPnPAddressFamilyControl.GetAddressFamily
 title: IUPnPAddressFamilyControl::GetAddressFamily (upnp.h)
-
 description: The GetAddressFamily method retrieves the current value of the address family flag of the Device Finder object.
 old-location: upnp\iupnpaddressfamilycontrol_getaddressfamily.htm
 tech.root: upnp
 ms.assetid: 3ad0897e-e128-4b49-92c1-eaf2ac516c3b
-
 ms.date: 12/05/2018
 ms.keywords: GetAddressFamily, GetAddressFamily method [UPnP APIs], GetAddressFamily method [UPnP APIs],IUPnPAddressFamilyControl interface, IUPnPAddressFamilyControl interface [UPnP APIs],GetAddressFamily method, IUPnPAddressFamilyControl.GetAddressFamily, IUPnPAddressFamilyControl::GetAddressFamily, UPNP_ADDRESSFAMILY_BOTH, UPNP_ADDRESSFAMILY_IPv4, UPNP_ADDRESSFAMILY_IPv6, upnp.iupnpaddressfamilycontrol_getaddressfamily, upnp/IUPnPAddressFamilyControl::GetAddressFamily
 ms.topic: method
-f1_keywords: 
- - "upnp/IUPnPAddressFamilyControl.GetAddressFamily"
+f1_keywords:
+- upnp/IUPnPAddressFamilyControl.GetAddressFamily
 dev_langs:
- - c++
+- c++
 req.header: upnp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Upnp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Upnp.dll
+- Upnp.dll
 api_name:
- - IUPnPAddressFamilyControl.GetAddressFamily
+- IUPnPAddressFamilyControl.GetAddressFamily
 targetos: Windows
 req.typenames: 
 req.redist: 

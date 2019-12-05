@@ -1,19 +1,17 @@
 ---
 UID: NF:mstask.ITask.SetApplicationName
 title: ITask::SetApplicationName (mstask.h)
-
 description: This method assigns a specific application to the current task.
 old-location: taskschd\itask_setapplicationname.htm
 tech.root: taskschd
 ms.assetid: 0bec25a9-e653-48b5-be41-8f513169fc8c
-
 ms.date: 12/05/2018
 ms.keywords: ITask interface [Task Scheduler],SetApplicationName method, ITask.SetApplicationName, ITask::SetApplicationName, SetApplicationName, SetApplicationName method [Task Scheduler], SetApplicationName method [Task Scheduler],ITask interface, _msb_itask_setapplicationname, mstask/ITask::SetApplicationName, taskschd.itask_setapplicationname
 ms.topic: method
-f1_keywords: 
- - "mstask/ITask.SetApplicationName"
+f1_keywords:
+- mstask/ITask.SetApplicationName
 dev_langs:
- - c++
+- c++
 req.header: mstask.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Mstask.lib
 req.dll: Mstask.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mstask.dll
+- Mstask.dll
 api_name:
- - ITask.SetApplicationName
+- ITask.SetApplicationName
 targetos: Windows
 req.typenames: 
 req.redist: Internet Explorer 4.0 or later on Windows NT 4.0 and Windows 95

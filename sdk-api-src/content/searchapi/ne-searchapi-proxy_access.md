@@ -1,19 +1,17 @@
 ---
 UID: NE:searchapi._PROXY_ACCESS
 title: PROXY_ACCESS (searchapi.h)
-
 description: Used by ISearchManager to state proxy use.
 old-location: search\_search_PROXY_ACCESS.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\enums\proxy_access.htm
-
 ms.date: 12/05/2018
 ms.keywords: PROXY_ACCESS, PROXY_ACCESS enumeration [search], PROXY_ACCESS_DIRECT, PROXY_ACCESS_PRECONFIG, PROXY_ACCESS_PROXY, _search_PROXY_ACCESS, search._search_PROXY_ACCESS, searchapi/PROXY_ACCESS, searchapi/PROXY_ACCESS_DIRECT, searchapi/PROXY_ACCESS_PRECONFIG, searchapi/PROXY_ACCESS_PROXY
 ms.topic: enum
-f1_keywords: 
- - "searchapi/PROXY_ACCESS"
+f1_keywords:
+- searchapi/PROXY_ACCESS
 dev_langs:
- - c++
+- c++
 req.header: searchapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Searchapi.h
+- Searchapi.h
 api_name:
- - PROXY_ACCESS
+- PROXY_ACCESS
 targetos: Windows
 req.typenames: PROXY_ACCESS
 req.redist: 

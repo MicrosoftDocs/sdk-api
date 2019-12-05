@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IAsyncReader.Length
 title: IAsyncReader::Length (strmif.h)
-
 description: The Length method retrieves the total length of the stream.
 old-location: dshow\iasyncreader_length.htm
 tech.root: DirectShow
 ms.assetid: 4e583ade-92a9-4853-96fb-c46cd24dd7ac
-
 ms.date: 12/05/2018
 ms.keywords: IAsyncReader interface [DirectShow],Length method, IAsyncReader.Length, IAsyncReader::Length, IAsyncReaderLength, Length, Length method [DirectShow], Length method [DirectShow],IAsyncReader interface, dshow.iasyncreader_length, strmif/IAsyncReader::Length
 ms.topic: method
-f1_keywords: 
- - "strmif/IAsyncReader.Length"
+f1_keywords:
+- strmif/IAsyncReader.Length
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IAsyncReader.Length
+- IAsyncReader.Length
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:searchapi.ISearchCrawlScopeManager.RemoveRoot
 title: ISearchCrawlScopeManager::RemoveRoot (searchapi.h)
-
 description: Removes a search root from the search engine.
 old-location: search\_search_ISearchCrawlScopeManager_RemoveRoot.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\crawlscope\isearchcrawlscopemanager\removeroot.htm
-
 ms.date: 12/05/2018
 ms.keywords: ISearchCrawlScopeManager interface [search],RemoveRoot method, ISearchCrawlScopeManager.RemoveRoot, ISearchCrawlScopeManager::RemoveRoot, RemoveRoot, RemoveRoot method [search], RemoveRoot method [search],ISearchCrawlScopeManager interface, _search_ISearchCrawlScopeManager_RemoveRoot, search._search_ISearchCrawlScopeManager_RemoveRoot, searchapi/ISearchCrawlScopeManager::RemoveRoot
 ms.topic: method
-f1_keywords: 
- - "searchapi/ISearchCrawlScopeManager.RemoveRoot"
+f1_keywords:
+- searchapi/ISearchCrawlScopeManager.RemoveRoot
 dev_langs:
- - c++
+- c++
 req.header: searchapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Searchapi.h
+- Searchapi.h
 api_name:
- - ISearchCrawlScopeManager.RemoveRoot
+- ISearchCrawlScopeManager.RemoveRoot
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0

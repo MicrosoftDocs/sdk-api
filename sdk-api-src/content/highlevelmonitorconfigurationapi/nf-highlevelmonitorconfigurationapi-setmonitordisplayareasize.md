@@ -1,19 +1,17 @@
 ---
 UID: NF:highlevelmonitorconfigurationapi.SetMonitorDisplayAreaSize
 title: SetMonitorDisplayAreaSize function (highlevelmonitorconfigurationapi.h)
-
 description: Sets the width or height of a monitor's display area.
 old-location: monitor\setmonitordisplayareasize.htm
 tech.root: Monitor
 ms.assetid: 0c3acb13-c5db-44ce-937d-b0b001a08062
-
 ms.date: 12/05/2018
 ms.keywords: SetMonitorDisplayAreaSize, SetMonitorDisplayAreaSize function [Monitor Configuration], highlevelmonitorconfigurationapi/SetMonitorDisplayAreaSize, monitor.setmonitordisplayareasize
 ms.topic: function
-f1_keywords: 
- - "highlevelmonitorconfigurationapi/SetMonitorDisplayAreaSize"
+f1_keywords:
+- highlevelmonitorconfigurationapi/SetMonitorDisplayAreaSize
 dev_langs:
- - c++
+- c++
 req.header: highlevelmonitorconfigurationapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dxva2.lib
 req.dll: Dxva2.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - dxva2.dll
+- dxva2.dll
 api_name:
- - SetMonitorDisplayAreaSize
+- SetMonitorDisplayAreaSize
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:vmr9.IVMRMixerControl9.GetZOrder
 title: IVMRMixerControl9::GetZOrder (vmr9.h)
-
 description: The GetZOrder method retrieves this video stream's position in the Z-order.
 old-location: dshow\ivmrmixercontrol9_getzorder.htm
 tech.root: DirectShow
 ms.assetid: eccc72cc-9ae5-45e9-a47a-5dddc901d1b5
-
 ms.date: 12/05/2018
 ms.keywords: GetZOrder, GetZOrder method [DirectShow], GetZOrder method [DirectShow],IVMRMixerControl9 interface, IVMRMixerControl9 interface [DirectShow],GetZOrder method, IVMRMixerControl9.GetZOrder, IVMRMixerControl9::GetZOrder, IVMRMixerControl9GetZOrder, dshow.ivmrmixercontrol9_getzorder, vmr9/IVMRMixerControl9::GetZOrder
 ms.topic: method
-f1_keywords: 
- - "vmr9/IVMRMixerControl9.GetZOrder"
+f1_keywords:
+- vmr9/IVMRMixerControl9.GetZOrder
 dev_langs:
- - c++
+- c++
 req.header: vmr9.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IVMRMixerControl9.GetZOrder
+- IVMRMixerControl9.GetZOrder
 targetos: Windows
 req.typenames: 
 req.redist: 

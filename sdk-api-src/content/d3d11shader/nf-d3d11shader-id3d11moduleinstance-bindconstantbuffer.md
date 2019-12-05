@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d11shader.ID3D11ModuleInstance.BindConstantBuffer
 title: ID3D11ModuleInstance::BindConstantBuffer (d3d11shader.h)
-
 description: Rebinds a constant buffer from a source slot to a destination slot.
 old-location: direct3d11\id3d11moduleinstance_bindconstantbuffer.htm
 tech.root: direct3d11
 ms.assetid: F12B8580-6D47-4C73-8281-287A0B183D7F
-
 ms.date: 12/05/2018
 ms.keywords: BindConstantBuffer, BindConstantBuffer method [Direct3D 11], BindConstantBuffer method [Direct3D 11],ID3D11ModuleInstance interface, ID3D11ModuleInstance interface [Direct3D 11],BindConstantBuffer method, ID3D11ModuleInstance.BindConstantBuffer, ID3D11ModuleInstance::BindConstantBuffer, d3d11shader/ID3D11ModuleInstance::BindConstantBuffer, direct3d11.id3d11moduleinstance_bindconstantbuffer
 ms.topic: method
-f1_keywords: 
- - "d3d11shader/ID3D11ModuleInstance.BindConstantBuffer"
+f1_keywords:
+- d3d11shader/ID3D11ModuleInstance.BindConstantBuffer
 dev_langs:
- - c++
+- c++
 req.header: d3d11shader.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: D3DCompiler.lib
 req.dll: D3DCompiler_47.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3DCompiler_47.dll
+- D3DCompiler_47.dll
 api_name:
- - ID3D11ModuleInstance.BindConstantBuffer
+- ID3D11ModuleInstance.BindConstantBuffer
 targetos: Windows
 req.typenames: 
 req.redist: 

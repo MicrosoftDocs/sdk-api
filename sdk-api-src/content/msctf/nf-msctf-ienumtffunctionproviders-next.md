@@ -1,19 +1,17 @@
 ---
 UID: NF:msctf.IEnumTfFunctionProviders.Next
 title: IEnumTfFunctionProviders::Next (msctf.h)
-
 description: IEnumTfFunctionProviders::Next method
 old-location: tsf\ienumtffunctionproviders_next.htm
 tech.root: TSF
 ms.assetid: c9938eb0-c084-4663-9aef-584c987a08a7
-
 ms.date: 12/05/2018
 ms.keywords: IEnumTfFunctionProviders interface [Text Services Framework],Next method, IEnumTfFunctionProviders.Next, IEnumTfFunctionProviders::Next, Next, Next method [Text Services Framework], Next method [Text Services Framework],IEnumTfFunctionProviders interface, _tsf_ienumtffunctionproviders_next_ref, msctf/IEnumTfFunctionProviders::Next, tsf.ienumtffunctionproviders_next
 ms.topic: method
-f1_keywords: 
- - "msctf/IEnumTfFunctionProviders.Next"
+f1_keywords:
+- msctf/IEnumTfFunctionProviders.Next
 dev_langs:
- - c++
+- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msctf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msctf.dll
+- msctf.dll
 api_name:
- - IEnumTfFunctionProviders.Next
+- IEnumTfFunctionProviders.Next
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

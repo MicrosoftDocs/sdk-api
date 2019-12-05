@@ -1,19 +1,17 @@
 ---
 UID: NE:objidl.tagSTGTY
 title: STGTY (objidl.h)
-
 description: The STGTY enumeration values are used in the type member of the STATSTG structure to indicate the type of the storage element. A storage element is a storage object, a stream object, or a byte-array object (LOCKBYTES).
 old-location: stg\stgty.htm
 tech.root: Stg
 ms.assetid: 67189e7a-b089-4a29-adf8-ad7c459c7974
-
 ms.date: 12/05/2018
 ms.keywords: STGTY, STGTY enumeration [Structured Storage], STGTY_LOCKBYTES, STGTY_PROPERTY, STGTY_STORAGE, STGTY_STREAM, _stg_stgty, objidl/STGTY, objidl/STGTY_LOCKBYTES, objidl/STGTY_PROPERTY, objidl/STGTY_STORAGE, objidl/STGTY_STREAM, stg.stgty
 ms.topic: enum
-f1_keywords: 
- - "objidl/STGTY"
+f1_keywords:
+- objidl/STGTY
 dev_langs:
- - c++
+- c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Objidl.h
+- Objidl.h
 api_name:
- - STGTY
+- STGTY
 targetos: Windows
 req.typenames: STGTY
 req.redist: 

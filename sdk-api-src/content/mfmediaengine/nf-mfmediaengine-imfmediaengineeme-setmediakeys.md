@@ -1,19 +1,17 @@
 ---
 UID: NF:mfmediaengine.IMFMediaEngineEME.SetMediaKeys
 title: IMFMediaEngineEME::SetMediaKeys (mfmediaengine.h)
-
 description: Sets the media keys object to use with the media engine.
 old-location: mf\imfmediaengineeme_setmediakeys.htm
 tech.root: medfound
 ms.assetid: 659b566e-d488-489d-9a12-bfe9695c5f94
-
 ms.date: 12/05/2018
 ms.keywords: IMFMediaEngineEME interface [Media Foundation],SetMediaKeys method, IMFMediaEngineEME.SetMediaKeys, IMFMediaEngineEME::SetMediaKeys, SetMediaKeys, SetMediaKeys method [Media Foundation], SetMediaKeys method [Media Foundation],IMFMediaEngineEME interface, mf.imfmediaengineeme_setmediakeys, mfmediaengine/IMFMediaEngineEME::SetMediaKeys
 ms.topic: method
-f1_keywords: 
- - "mfmediaengine/IMFMediaEngineEME.SetMediaKeys"
+f1_keywords:
+- mfmediaengine/IMFMediaEngineEME.SetMediaKeys
 dev_langs:
- - c++
+- c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfmediaengine.h
+- mfmediaengine.h
 api_name:
- - IMFMediaEngineEME.SetMediaKeys
+- IMFMediaEngineEME.SetMediaKeys
 targetos: Windows
 req.typenames: 
 req.redist: 

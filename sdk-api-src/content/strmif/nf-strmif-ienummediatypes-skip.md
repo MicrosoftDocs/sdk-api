@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IEnumMediaTypes.Skip
 title: IEnumMediaTypes::Skip (strmif.h)
-
 description: The Skip method skips over a specified number of media types.
 old-location: dshow\ienummediatypes_skip.htm
 tech.root: DirectShow
 ms.assetid: 313628d0-256c-4142-bba5-7cd0c910610c
-
 ms.date: 12/05/2018
 ms.keywords: IEnumMediaTypes interface [DirectShow],Skip method, IEnumMediaTypes.Skip, IEnumMediaTypes::Skip, IEnumMediaTypesSkip, Skip, Skip method [DirectShow], Skip method [DirectShow],IEnumMediaTypes interface, dshow.ienummediatypes_skip, strmif/IEnumMediaTypes::Skip
 ms.topic: method
-f1_keywords: 
- - "strmif/IEnumMediaTypes.Skip"
+f1_keywords:
+- strmif/IEnumMediaTypes.Skip
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IEnumMediaTypes.Skip
+- IEnumMediaTypes.Skip
 targetos: Windows
 req.typenames: 
 req.redist: 

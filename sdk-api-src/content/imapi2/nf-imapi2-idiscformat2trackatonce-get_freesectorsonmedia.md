@@ -1,19 +1,17 @@
 ---
 UID: NF:imapi2.IDiscFormat2TrackAtOnce.get_FreeSectorsOnMedia
 title: IDiscFormat2TrackAtOnce::get_FreeSectorsOnMedia (imapi2.h)
-
 description: Retrieves the number of sectors available for adding a new track to the media.
 old-location: imapi\idiscformat2trackatonce_get_freesectorsonmedia.htm
 tech.root: imapi
 ms.assetid: a36dd3de-ca08-4783-beca-95813402692b
-
 ms.date: 12/05/2018
 ms.keywords: IDiscFormat2TrackAtOnce interface [IMAPI],get_FreeSectorsOnMedia method, IDiscFormat2TrackAtOnce.get_FreeSectorsOnMedia, IDiscFormat2TrackAtOnce::get_FreeSectorsOnMedia, get_FreeSectorsOnMedia, get_FreeSectorsOnMedia method [IMAPI], get_FreeSectorsOnMedia method [IMAPI],IDiscFormat2TrackAtOnce interface, imapi.idiscformat2trackatonce_get_freesectorsonmedia, imapi2/IDiscFormat2TrackAtOnce::get_FreeSectorsOnMedia
 ms.topic: method
-f1_keywords: 
- - "imapi2/IDiscFormat2TrackAtOnce.get_FreeSectorsOnMedia"
+f1_keywords:
+- imapi2/IDiscFormat2TrackAtOnce.get_FreeSectorsOnMedia
 dev_langs:
- - c++
+- c++
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - imapi2.h
+- imapi2.h
 api_name:
- - IDiscFormat2TrackAtOnce.get_FreeSectorsOnMedia
+- IDiscFormat2TrackAtOnce.get_FreeSectorsOnMedia
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.INameSpaceTreeControl.GetItemCustomState
 title: INameSpaceTreeControl::GetItemCustomState (shobjidl_core.h)
-
 description: Gets the state of the checkbox associated with a given Shell item.
 old-location: shell\INameSpaceTreeControl_GetItemCustomState.htm
 tech.root: shell
 ms.assetid: 16fb3e3a-1686-4bdf-9112-564bb85fb601
-
 ms.date: 12/05/2018
 ms.keywords: GetItemCustomState, GetItemCustomState method [Windows Shell], GetItemCustomState method [Windows Shell],INameSpaceTreeControl interface, INameSpaceTreeControl interface [Windows Shell],GetItemCustomState method, INameSpaceTreeControl.GetItemCustomState, INameSpaceTreeControl::GetItemCustomState, _shell_INameSpaceTreeControl_GetItemCustomState, shell.INameSpaceTreeControl_GetItemCustomState, shobjidl_core/INameSpaceTreeControl::GetItemCustomState
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/INameSpaceTreeControl.GetItemCustomState"
+f1_keywords:
+- shobjidl_core/INameSpaceTreeControl.GetItemCustomState
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - INameSpaceTreeControl.GetItemCustomState
+- INameSpaceTreeControl.GetItemCustomState
 targetos: Windows
 req.typenames: 
 req.redist: 

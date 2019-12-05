@@ -1,19 +1,17 @@
 ---
 UID: NF:vmr9.IVMRImagePresenter9.PresentImage
 title: IVMRImagePresenter9::PresentImage (vmr9.h)
-
 description: The PresentImage method is called at precisely the moment this video frame should be presented.
 old-location: dshow\ivmrimagepresenter9_presentimage.htm
 tech.root: DirectShow
 ms.assetid: 1c642958-88df-48b2-8eb1-0d032af71f71
-
 ms.date: 12/05/2018
 ms.keywords: IVMRImagePresenter9 interface [DirectShow],PresentImage method, IVMRImagePresenter9.PresentImage, IVMRImagePresenter9::PresentImage, IVMRImagePresenter9PresentImage, PresentImage, PresentImage method [DirectShow], PresentImage method [DirectShow],IVMRImagePresenter9 interface, dshow.ivmrimagepresenter9_presentimage, vmr9/IVMRImagePresenter9::PresentImage
 ms.topic: method
 f1_keywords:
 - vmr9/IVMRImagePresenter9.PresentImage
 dev_langs:
- - c++
+- c++
 req.header: vmr9.h
 req.include-header: 
 req.target-type: Windows

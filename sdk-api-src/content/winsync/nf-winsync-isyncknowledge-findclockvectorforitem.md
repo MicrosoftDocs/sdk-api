@@ -1,19 +1,17 @@
 ---
 UID: NF:winsync.ISyncKnowledge.FindClockVectorForItem
 title: ISyncKnowledge::FindClockVectorForItem (winsync.h)
-
 description: Gets the clock vector that is associated with the specified item ID.
 old-location: winsync\isyncknowledge_findclockvectorforitem.htm
 tech.root: winsync
 ms.assetid: d0df840c-c0ca-4fd8-b4bd-d4558e21b083
-
 ms.date: 12/05/2018
 ms.keywords: FindClockVectorForItem, FindClockVectorForItem method [Windows Sync], FindClockVectorForItem method [Windows Sync],ISyncKnowledge interface, ISyncKnowledge interface [Windows Sync],FindClockVectorForItem method, ISyncKnowledge.FindClockVectorForItem, ISyncKnowledge::FindClockVectorForItem, winsync.isyncknowledge_findclockvectorforitem, winsync/ISyncKnowledge::FindClockVectorForItem
 ms.topic: method
-f1_keywords: 
- - "winsync/ISyncKnowledge.FindClockVectorForItem"
+f1_keywords:
+- winsync/ISyncKnowledge.FindClockVectorForItem
 dev_langs:
- - c++
+- c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - winsync.h
+- winsync.h
 api_name:
- - ISyncKnowledge.FindClockVectorForItem
+- ISyncKnowledge.FindClockVectorForItem
 targetos: Windows
 req.typenames: 
 req.redist: 

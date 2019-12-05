@@ -1,19 +1,17 @@
 ---
 UID: NF:searchapi.ISearchCrawlScopeManager.IncludedInCrawlScope
 title: ISearchCrawlScopeManager::IncludedInCrawlScope (searchapi.h)
-
 description: Retrieves an indicator of whether the specified URL is included in the crawl scope.
 old-location: search\_search_ISearchCrawlScopeManager_IncludedInCrawlScope.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\crawlscope\isearchcrawlscopemanager\includedincrawlscope.htm
-
 ms.date: 12/05/2018
 ms.keywords: ISearchCrawlScopeManager interface [search],IncludedInCrawlScope method, ISearchCrawlScopeManager.IncludedInCrawlScope, ISearchCrawlScopeManager::IncludedInCrawlScope, IncludedInCrawlScope, IncludedInCrawlScope method [search], IncludedInCrawlScope method [search],ISearchCrawlScopeManager interface, _search_ISearchCrawlScopeManager_IncludedInCrawlScope, search._search_ISearchCrawlScopeManager_IncludedInCrawlScope, searchapi/ISearchCrawlScopeManager::IncludedInCrawlScope
 ms.topic: method
-f1_keywords: 
- - "searchapi/ISearchCrawlScopeManager.IncludedInCrawlScope"
+f1_keywords:
+- searchapi/ISearchCrawlScopeManager.IncludedInCrawlScope
 dev_langs:
- - c++
+- c++
 req.header: searchapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Searchapi.h
+- Searchapi.h
 api_name:
- - ISearchCrawlScopeManager.IncludedInCrawlScope
+- ISearchCrawlScopeManager.IncludedInCrawlScope
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0

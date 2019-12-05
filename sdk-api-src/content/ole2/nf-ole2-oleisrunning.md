@@ -1,19 +1,17 @@
 ---
 UID: NF:ole2.OleIsRunning
 title: OleIsRunning function (ole2.h)
-
 description: Determines whether a compound document object is currently in the running state.
 old-location: com\oleisrunning.htm
 tech.root: com
 ms.assetid: 9392666f-c269-4667-aeac-67c68bcc5f06
-
 ms.date: 12/05/2018
 ms.keywords: OleIsRunning, OleIsRunning function [COM], _ole_OleIsRunning, com.oleisrunning, ole2/OleIsRunning
 ms.topic: function
-f1_keywords: 
- - "ole2/OleIsRunning"
+f1_keywords:
+- ole2/OleIsRunning
 dev_langs:
- - c++
+- c++
 req.header: ole2.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Ole32.lib
 req.dll: Ole32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ole32.dll
+- Ole32.dll
 api_name:
- - OleIsRunning
+- OleIsRunning
 targetos: Windows
 req.typenames: 
 req.redist: 

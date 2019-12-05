@@ -1,19 +1,17 @@
 ---
 UID: NS:mprapi._SSTP_CERT_INFO
 title: SSTP_CERT_INFO (mprapi.h)
-
 description: Contains information about a Secure Socket Tunneling Protocool (SSTP) based certificate.
 old-location: rras\sstp_cert_info.htm
 tech.root: RRAS
 ms.assetid: 004fce6d-c617-4356-9a8f-f7b4fbb3d4c2
-
 ms.date: 12/05/2018
 ms.keywords: '*PSSTP_CERT_INFO, SSTP_CERT_INFO, SSTP_CERT_INFO structure [RAS], mprapi/SSTP_CERT_INFO, rras.sstp_cert_info'
 ms.topic: struct
 f1_keywords:
 - mprapi/SSTP_CERT_INFO
 dev_langs:
- - c++
+- c++
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows

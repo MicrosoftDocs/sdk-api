@@ -1,19 +1,17 @@
 ---
 UID: NF:msiquery.MsiGetFeatureValidStatesW
 title: MsiGetFeatureValidStatesW function (msiquery.h)
-
 description: The MsiGetFeatureValidStates function returns a valid installation state.
 old-location: setup\msigetfeaturevalidstates.htm
 tech.root: Msi
 ms.assetid: c4c3f484-6854-4019-9dc0-e4c99162c339
-
 ms.date: 12/05/2018
 ms.keywords: 16, 2, 32, 4, 8, MsiGetFeatureValidStates, MsiGetFeatureValidStates function, MsiGetFeatureValidStatesA, MsiGetFeatureValidStatesW, _msi_msigetfeaturevalidstates, msiquery/MsiGetFeatureValidStates, msiquery/MsiGetFeatureValidStatesA, msiquery/MsiGetFeatureValidStatesW, setup.msigetfeaturevalidstates
 ms.topic: function
-f1_keywords: 
- - "msiquery/MsiGetFeatureValidStates"
+f1_keywords:
+- msiquery/MsiGetFeatureValidStates
 dev_langs:
- - c++
+- c++
 req.header: msiquery.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Msi.lib
 req.dll: Msi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Msi.dll
+- Msi.dll
 api_name:
- - MsiGetFeatureValidStates
- - MsiGetFeatureValidStatesA
- - MsiGetFeatureValidStatesW
+- MsiGetFeatureValidStates
+- MsiGetFeatureValidStatesA
+- MsiGetFeatureValidStatesW
 targetos: Windows
 req.typenames: 
 req.redist: 

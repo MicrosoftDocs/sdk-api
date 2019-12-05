@@ -1,19 +1,17 @@
 ---
 UID: NN:dwrite.IDWriteFontFile
 title: IDWriteFontFile (dwrite.h)
-
 description: Represents a font file. Applications such as font managers or font viewers can call IDWriteFontFile::Analyze to find out if a particular file is a font file, and whether it is a font type that is supported by the font system.
 old-location: directwrite\IDWriteFontFile.htm
 tech.root: DirectWrite
 ms.assetid: d4be5466-0b6c-4cc5-9f16-aa00c6037eb9
-
 ms.date: 12/05/2018
 ms.keywords: IDWriteFontFile, IDWriteFontFile interface [Direct Write], IDWriteFontFile interface [Direct Write],described, directwrite.IDWriteFontFile, dwrite/IDWriteFontFile
 ms.topic: interface
-f1_keywords: 
- - "dwrite/IDWriteFontFile"
+f1_keywords:
+- dwrite/IDWriteFontFile
 dev_langs:
- - c++
+- c++
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dwrite.lib
 req.dll: Dwrite.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dwrite.dll
+- dwrite.dll
 api_name:
- - IDWriteFontFile
+- IDWriteFontFile
 targetos: Windows
 req.typenames: 
 req.redist: 

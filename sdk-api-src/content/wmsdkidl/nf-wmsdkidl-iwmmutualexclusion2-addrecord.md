@@ -1,19 +1,17 @@
 ---
 UID: NF:wmsdkidl.IWMMutualExclusion2.AddRecord
 title: IWMMutualExclusion2::AddRecord (wmsdkidl.h)
-
 description: The AddRecord method adds a record to the mutual exclusion object.
 old-location: wmformat\iwmmutualexclusion2_addrecord.htm
 tech.root: wmformat
 ms.assetid: 58eaa4b2-65d3-44b1-8e3d-1aac01057d0f
-
 ms.date: 12/05/2018
 ms.keywords: AddRecord, AddRecord method [windows Media Format], AddRecord method [windows Media Format],IWMMutualExclusion2 interface, IWMMutualExclusion2 interface [windows Media Format],AddRecord method, IWMMutualExclusion2.AddRecord, IWMMutualExclusion2::AddRecord, IWMMutualExclusion2AddRecord, wmformat.iwmmutualexclusion2_addrecord, wmsdkidl/IWMMutualExclusion2::AddRecord
 ms.topic: method
-f1_keywords: 
- - "wmsdkidl/IWMMutualExclusion2.AddRecord"
+f1_keywords:
+- wmsdkidl/IWMMutualExclusion2.AddRecord
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wmvcore.lib
- - Wmvcore.dll
- - WMStubDRM.lib
- - WMStubDRM.dll
+- Wmvcore.lib
+- Wmvcore.dll
+- WMStubDRM.lib
+- WMStubDRM.dll
 api_name:
- - IWMMutualExclusion2.AddRecord
+- IWMMutualExclusion2.AddRecord
 targetos: Windows
 req.typenames: 
 req.redist: 

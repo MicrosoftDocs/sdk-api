@@ -1,19 +1,17 @@
 ---
 UID: NF:netcon.INetSharingPortMapping.Disable
 title: INetSharingPortMapping::Disable (netcon.h)
-
 description: The Disable method disables a port mapping for a particular connection.
 old-location: ics\inetsharingportmapping_disable.htm
 tech.root: ics
 ms.assetid: 110d9c9b-189c-4529-b960-2722d9037c7c
-
 ms.date: 12/05/2018
 ms.keywords: Disable, Disable method [ICS/ICF], Disable method [ICS/ICF],INetSharingPortMapping interface, INetSharingPortMapping interface [ICS/ICF],Disable method, INetSharingPortMapping.Disable, INetSharingPortMapping::Disable, _ics_inetsharingportmapping_disable, ics.inetsharingportmapping_disable, netcon/INetSharingPortMapping::Disable
 ms.topic: method
-f1_keywords: 
- - "netcon/INetSharingPortMapping.Disable"
+f1_keywords:
+- netcon/INetSharingPortMapping.Disable
 dev_langs:
- - c++
+- c++
 req.header: netcon.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Hnetcfg.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Hnetcfg.dll
+- Hnetcfg.dll
 api_name:
- - INetSharingPortMapping.Disable
+- INetSharingPortMapping.Disable
 targetos: Windows
 req.typenames: 
 req.redist: 

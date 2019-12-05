@@ -1,19 +1,17 @@
 ---
 UID: NF:syncmgr.ISyncMgrSyncItemInfo.IsConnected
 title: ISyncMgrSyncItemInfo::IsConnected (syncmgr.h)
-
 description: Generates a value that indicates whether the item&#8212;typically some type of external device&#8212;is connected.
 old-location: shell\ISyncMgrSyncItemInfo_IsConnected.htm
 tech.root: shell
 ms.assetid: 12ecfdba-87fb-4b73-8dac-0279f3f140fc
-
 ms.date: 12/05/2018
 ms.keywords: ISyncMgrSyncItemInfo interface [Windows Shell],IsConnected method, ISyncMgrSyncItemInfo.IsConnected, ISyncMgrSyncItemInfo::IsConnected, IsConnected, IsConnected method [Windows Shell], IsConnected method [Windows Shell],ISyncMgrSyncItemInfo interface, _shell_ISyncMgrSyncItemInfo_IsConnected, shell.ISyncMgrSyncItemInfo_IsConnected, syncmgr/ISyncMgrSyncItemInfo::IsConnected
 ms.topic: method
-f1_keywords: 
- - "syncmgr/ISyncMgrSyncItemInfo.IsConnected"
+f1_keywords:
+- syncmgr/ISyncMgrSyncItemInfo.IsConnected
 dev_langs:
- - c++
+- c++
 req.header: syncmgr.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Syncmgr.h
+- Syncmgr.h
 api_name:
- - ISyncMgrSyncItemInfo.IsConnected
+- ISyncMgrSyncItemInfo.IsConnected
 targetos: Windows
 req.typenames: 
 req.redist: 

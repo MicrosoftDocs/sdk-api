@@ -1,19 +1,17 @@
 ---
 UID: NF:vfw.AVIStreamGetFrame
 title: AVIStreamGetFrame function (vfw.h)
-
 description: The AVIStreamGetFrame function returns the address of a decompressed video frame.
 old-location: multimedia\avistreamgetframe.htm
 tech.root: Multimedia
 ms.assetid: 9677efee-4c40-4acd-8911-eedcbee67d6b
-
 ms.date: 12/05/2018
 ms.keywords: AVIStreamGetFrame, AVIStreamGetFrame function [Windows Multimedia], _win32_AVIStreamGetFrame, multimedia.avistreamgetframe, vfw/AVIStreamGetFrame
 ms.topic: function
-f1_keywords: 
- - "vfw/AVIStreamGetFrame"
+f1_keywords:
+- vfw/AVIStreamGetFrame
 dev_langs:
- - c++
+- c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Vfw32.lib
 req.dll: Avifil32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Avifil32.dll
- - Ext-MS-Win-Media-Avi-L1-1-0.dll
+- Avifil32.dll
+- Ext-MS-Win-Media-Avi-L1-1-0.dll
 api_name:
- - AVIStreamGetFrame
+- AVIStreamGetFrame
 targetos: Windows
 req.typenames: 
 req.redist: 

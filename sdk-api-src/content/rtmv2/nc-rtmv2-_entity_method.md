@@ -1,19 +1,17 @@
 ---
 UID: NC:rtmv2._ENTITY_METHOD
 title: _ENTITY_METHOD (rtmv2.h)
-
 description: The RTM_ENTITY_EXPORT_METHOD callback is the prototype for any method exported by a client.
 old-location: rras\rtm_entity_export_method.htm
 tech.root: RRAS
 ms.assetid: bf564898-e540-458b-861c-0f57082d40a1
-
 ms.date: 12/05/2018
 ms.keywords: RTM_ENTITY_EXPORT_METHOD, RTM_ENTITY_EXPORT_METHOD callback function [RAS], RTM_ENTITY_EXPORT_METHOD callback function pointer [RAS], _ENTITY_METHOD, _ENTITY_METHOD callback, _rtmv2ref_rtm_entity_export_method, rras.rtm_entity_export_method, rtmv2/RTM_ENTITY_EXPORT_METHOD
 ms.topic: callback
 f1_keywords:
 - rtmv2/RTM_ENTITY_EXPORT_METHOD
 dev_langs:
- - c++
+- c++
 req.header: rtmv2.h
 req.include-header: 
 req.target-type: Windows

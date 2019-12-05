@@ -1,19 +1,17 @@
 ---
 UID: NF:refptrco.TRefPointerCollection.BeginEnum
 title: TRefPointerCollection::BeginEnum (refptrco.h)
-
 description: The BeginEnum method starts enumerating the collection.
 old-location: wmi\trefpointercollection_beginenum.htm
 tech.root: WmiSdk
 ms.assetid: 5f7879e8-0eeb-4768-a478-8effd4e355d3
-
 ms.date: 12/05/2018
 ms.keywords: BeginEnum, BeginEnum method [Windows Management Instrumentation], BeginEnum method [Windows Management Instrumentation],TRefPointerCollection interface, TRefPointerCollection interface [Windows Management Instrumentation],BeginEnum method, TRefPointerCollection.BeginEnum, TRefPointerCollection::BeginEnum, _hmm_trefpointercollection_beginenum, refptrco/TRefPointerCollection::BeginEnum, wmi.trefpointercollection_beginenum
 ms.topic: method
-f1_keywords: 
- - "refptrco/TRefPointerCollection.BeginEnum"
+f1_keywords:
+- refptrco/TRefPointerCollection.BeginEnum
 dev_langs:
- - c++
+- c++
 req.header: refptrco.h
 req.include-header: FwCommon.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: FrameDyn.lib
 req.dll: FrameDynOS.dll; FrameDyn.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - FrameDynOS.dll
- - FrameDyn.dll
+- FrameDynOS.dll
+- FrameDyn.dll
 api_name:
- - TRefPointerCollection.BeginEnum
+- TRefPointerCollection.BeginEnum
 targetos: Windows
 req.typenames: 
 req.redist: 

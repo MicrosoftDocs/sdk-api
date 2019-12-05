@@ -1,19 +1,17 @@
 ---
 UID: NF:relogger.ITraceRelogger.CreateEventInstance
 title: ITraceRelogger::CreateEventInstance (relogger.h)
-
 description: Generates a new event.
 old-location: etw\itracerelogger_createeventinstance.htm
 tech.root: ETW
 ms.assetid: 1a000e38-018d-4077-bf4c-0bfec6cdb676
-
 ms.date: 12/05/2018
 ms.keywords: CreateEventInstance, CreateEventInstance method [ETW], CreateEventInstance method [ETW],ITraceRelogger interface, ITraceRelogger interface [ETW],CreateEventInstance method, ITraceRelogger.CreateEventInstance, ITraceRelogger::CreateEventInstance, etw.itracerelogger_createeventinstance, relogger/ITraceRelogger::CreateEventInstance
 ms.topic: method
-f1_keywords: 
- - "relogger/ITraceRelogger.CreateEventInstance"
+f1_keywords:
+- relogger/ITraceRelogger.CreateEventInstance
 dev_langs:
- - c++
+- c++
 req.header: relogger.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Relogger.h
+- Relogger.h
 api_name:
- - ITraceRelogger.CreateEventInstance
+- ITraceRelogger.CreateEventInstance
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,7 +1,6 @@
 ---
 UID: NA:spatialaudiohrtf
 ms.assetid: ddbf89fe-c8b2-3dcf-85f9-b8f875fd37e7
-
 ms.date: 01/11/2019
 ms.keywords: 
 ms.topic: portal

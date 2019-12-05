@@ -1,19 +1,17 @@
 ---
 UID: NF:vfw.ICImageCompress
 title: ICImageCompress function (vfw.h)
-
 description: The ICImageCompress function compresses an image to a given size. This function does not require initialization functions.
 old-location: multimedia\icimagecompress.htm
 tech.root: Multimedia
 ms.assetid: 111d3b97-527b-4cca-ba4e-3d8310a5c72b
-
 ms.date: 12/05/2018
 ms.keywords: ICImageCompress, ICImageCompress function [Windows Multimedia], _win32_ICImageCompress, multimedia.icimagecompress, vfw/ICImageCompress
 ms.topic: function
-f1_keywords: 
- - "vfw/ICImageCompress"
+f1_keywords:
+- vfw/ICImageCompress
 dev_langs:
- - c++
+- c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Vfw32.lib
 req.dll: Msvfw32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Msvfw32.dll
+- Msvfw32.dll
 api_name:
- - ICImageCompress
+- ICImageCompress
 targetos: Windows
 req.typenames: 
 req.redist: 

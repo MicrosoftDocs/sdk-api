@@ -1,19 +1,17 @@
 ---
 UID: NF:fhcfg.IFhReassociation.SelectConfiguration
 title: IFhReassociation::SelectConfiguration (fhcfg.h)
-
 description: Selects one of the File History configurations discovered on a storage device or network share by the IFhReassociation::ScanTargetForConfigurations method for subsequent reassociation.
 old-location: winprog\ifhreassociation_selectconfiguration.htm
 tech.root: DevNotes
 ms.assetid: 5501F87D-2998-4CB7-B9C8-9EC04F42B22D
-
 ms.date: 12/05/2018
 ms.keywords: FhReassociation class [Windows API],SelectConfiguration method, IFhReassociation interface [Windows API],SelectConfiguration method, IFhReassociation.SelectConfiguration, IFhReassociation::SelectConfiguration, SelectConfiguration, SelectConfiguration method [Windows API], SelectConfiguration method [Windows API],FhReassociation class, SelectConfiguration method [Windows API],IFhReassociation interface, fhcfg/IFhReassociation::SelectConfiguration, winprog.ifhreassociation_selectconfiguration
 ms.topic: method
-f1_keywords: 
- - "fhcfg/IFhReassociation.SelectConfiguration"
+f1_keywords:
+- fhcfg/IFhReassociation.SelectConfiguration
 dev_langs:
- - c++
+- c++
 req.header: fhcfg.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Fhcfg.h
+- Fhcfg.h
 api_name:
- - IFhReassociation.SelectConfiguration
- - FhReassociation.SelectConfiguration
+- IFhReassociation.SelectConfiguration
+- FhReassociation.SelectConfiguration
 targetos: Windows
 req.typenames: 
 req.redist: 

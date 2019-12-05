@@ -1,19 +1,17 @@
 ---
 UID: NF:certenroll.IX509AttributeRenewalCertificate.InitializeEncode
 title: IX509AttributeRenewalCertificate::InitializeEncode (certenroll.h)
-
 description: Initializes the attribute by using the certificate to be renewed.
 old-location: security\ix509attributerenewalcertificate_initializeencode_method.htm
 tech.root: seccertenroll
 ms.assetid: a234755e-5b90-43f1-81f2-c2ebec9b55a4
-
 ms.date: 12/05/2018
 ms.keywords: IX509AttributeRenewalCertificate interface [Security],InitializeEncode method, IX509AttributeRenewalCertificate.InitializeEncode, IX509AttributeRenewalCertificate::InitializeEncode, InitializeEncode, InitializeEncode method [Security], InitializeEncode method [Security],IX509AttributeRenewalCertificate interface, certenroll/IX509AttributeRenewalCertificate::InitializeEncode, security.ix509attributerenewalcertificate_initializeencode_method
 ms.topic: method
-f1_keywords: 
- - "certenroll/IX509AttributeRenewalCertificate.InitializeEncode"
+f1_keywords:
+- certenroll/IX509AttributeRenewalCertificate.InitializeEncode
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: CertEnroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CertEnroll.dll
+- CertEnroll.dll
 api_name:
- - IX509AttributeRenewalCertificate.InitializeEncode
+- IX509AttributeRenewalCertificate.InitializeEncode
 targetos: Windows
 req.typenames: 
 req.redist: 

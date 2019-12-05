@@ -1,19 +1,17 @@
 ---
 UID: NN:imapi2.IDiscFormat2
 title: IDiscFormat2 (imapi2.h)
-
 description: This is a base interface. Use the following interfaces which inherit this interface IDiscFormat2Data, IDiscFormat2Erase, IDiscFormat2TrackAtOnce, IDiscFormat2RawCD
 old-location: imapi\idiscformat2.htm
 tech.root: imapi
 ms.assetid: c0bc2e8b-bd60-4c97-bd86-41963b20b1a3
-
 ms.date: 12/05/2018
 ms.keywords: IDiscFormat2, IDiscFormat2 interface [IMAPI], IDiscFormat2 interface [IMAPI],described, imapi.idiscformat2, imapi2/IDiscFormat2
 ms.topic: interface
-f1_keywords: 
- - "imapi2/IDiscFormat2"
+f1_keywords:
+- imapi2/IDiscFormat2
 dev_langs:
- - c++
+- c++
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - imapi2.h
+- imapi2.h
 api_name:
- - IDiscFormat2
+- IDiscFormat2
 targetos: Windows
 req.typenames: 
 req.redist: 

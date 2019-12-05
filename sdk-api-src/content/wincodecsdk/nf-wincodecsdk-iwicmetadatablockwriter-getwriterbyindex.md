@@ -1,19 +1,17 @@
 ---
 UID: NF:wincodecsdk.IWICMetadataBlockWriter.GetWriterByIndex
 title: IWICMetadataBlockWriter::GetWriterByIndex (wincodecsdk.h)
-
 description: Retrieves the IWICMetadataWriter that resides at the specified index.
 old-location: wic\_wic_codec_iwicmetadatablockwriter_getwriterbyindex.htm
 tech.root: wic
 ms.assetid: 14c8acb1-484a-46ad-8a38-79a4b1cfe0d1
-
 ms.date: 12/05/2018
 ms.keywords: GetWriterByIndex, GetWriterByIndex method [Windows Imaging Component], GetWriterByIndex method [Windows Imaging Component],IWICMetadataBlockWriter interface, IWICMetadataBlockWriter interface [Windows Imaging Component],GetWriterByIndex method, IWICMetadataBlockWriter.GetWriterByIndex, IWICMetadataBlockWriter::GetWriterByIndex, _wic_codec_iwicmetadatablockwriter_getwriterbyindex, wic._wic_codec_iwicmetadatablockwriter_getwriterbyindex, wincodecsdk/IWICMetadataBlockWriter::GetWriterByIndex
 ms.topic: method
-f1_keywords: 
- - "wincodecsdk/IWICMetadataBlockWriter.GetWriterByIndex"
+f1_keywords:
+- wincodecsdk/IWICMetadataBlockWriter.GetWriterByIndex
 dev_langs:
- - c++
+- c++
 req.header: wincodecsdk.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Windowscodecs.lib
 req.dll: Windowscodecs.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Windowscodecs.dll
+- Windowscodecs.dll
 api_name:
- - IWICMetadataBlockWriter.GetWriterByIndex
+- IWICMetadataBlockWriter.GetWriterByIndex
 targetos: Windows
 req.typenames: 
 req.redist: 

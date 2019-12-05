@@ -1,19 +1,17 @@
 ---
 UID: NF:d2d1.D2D1MakeSkewMatrix
 title: D2D1MakeSkewMatrix function (d2d1.h)
-
 description: Creates a skew transformation that has the specified x-axis angle, y-axis angle, and center point.
 old-location: direct2d\d2d1makeskewmatrix.htm
 tech.root: Direct2D
 ms.assetid: 9f29488c-37f0-4d53-9e3b-3b27e841c8b4
-
 ms.date: 12/05/2018
 ms.keywords: D2D1MakeSkewMatrix, D2D1MakeSkewMatrix function [Direct2D], d2d1/D2D1MakeSkewMatrix, direct2d.d2d1makeskewmatrix
 ms.topic: function
-f1_keywords: 
- - "d2d1/D2D1MakeSkewMatrix"
+f1_keywords:
+- d2d1/D2D1MakeSkewMatrix
 dev_langs:
- - c++
+- c++
 req.header: d2d1.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: D2d1.lib
 req.dll: D2d1.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - D2d1.dll
+- D2d1.dll
 api_name:
- - D2D1MakeSkewMatrix
+- D2D1MakeSkewMatrix
 targetos: Windows
 req.typenames: 
 req.redist: 

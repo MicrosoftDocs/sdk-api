@@ -1,19 +1,17 @@
 ---
 UID: NF:propvarutil.InitPropVariantFromGUIDAsString
 title: InitPropVariantFromGUIDAsString function (propvarutil.h)
-
 description: Initializes a PROPVARIANT structure based on a GUID. The structure is initialized as VT_LPWSTR.
 old-location: properties\InitPropVariantFromGUIDAsString.htm
 tech.root: properties
 ms.assetid: bcc343f7-741f-4cdd-bd2f-ae4786faab0e
-
 ms.date: 12/05/2018
 ms.keywords: InitPropVariantFromGUIDAsString, InitPropVariantFromGUIDAsString function [Windows Properties], properties.InitPropVariantFromGUIDAsString, propvarutil/InitPropVariantFromGUIDAsString, shell.InitPropVariantFromGUIDAsString, shell_InitPropVariantFromGUIDAsString
 ms.topic: function
-f1_keywords: 
- - "propvarutil/InitPropVariantFromGUIDAsString"
+f1_keywords:
+- propvarutil/InitPropVariantFromGUIDAsString
 dev_langs:
- - c++
+- c++
 req.header: propvarutil.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Propsys.lib
 req.dll: Propsys.dll (version 6.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Propsys.dll
+- Propsys.dll
 api_name:
- - InitPropVariantFromGUIDAsString
+- InitPropVariantFromGUIDAsString
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0

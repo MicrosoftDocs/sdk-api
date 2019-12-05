@@ -1,19 +1,17 @@
 ---
 UID: NF:msi.MsiGetFeatureInfoW
 title: MsiGetFeatureInfoW function (msi.h)
-
 description: Returns descriptive information for a feature.
 old-location: setup\msigetfeatureinfo.htm
 tech.root: Msi
 ms.assetid: 2553fddf-3349-4b48-86a9-be63f2d23684
-
 ms.date: 12/05/2018
 ms.keywords: INSTALLFEATUREATTRIBUTE_DISALLOWADVERTISE, INSTALLFEATUREATTRIBUTE_FAVORADVERTISE, INSTALLFEATUREATTRIBUTE_FAVORLOCAL, INSTALLFEATUREATTRIBUTE_FAVORSOURCE, INSTALLFEATUREATTRIBUTE_FOLLOWPARENT, INSTALLFEATUREATTRIBUTE_NOUNSUPPORTEDADVERTISE, MsiGetFeatureInfo, MsiGetFeatureInfo function, MsiGetFeatureInfoA, MsiGetFeatureInfoW, _msi_msigetfeatureinfo, msi/MsiGetFeatureInfo, msi/MsiGetFeatureInfoA, msi/MsiGetFeatureInfoW, setup.msigetfeatureinfo
 ms.topic: function
-f1_keywords: 
- - "msi/MsiGetFeatureInfo"
+f1_keywords:
+- msi/MsiGetFeatureInfo
 dev_langs:
- - c++
+- c++
 req.header: msi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Msi.lib
 req.dll: Msi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Msi.dll
+- Msi.dll
 api_name:
- - MsiGetFeatureInfo
- - MsiGetFeatureInfoA
- - MsiGetFeatureInfoW
+- MsiGetFeatureInfo
+- MsiGetFeatureInfoA
+- MsiGetFeatureInfoW
 targetos: Windows
 req.typenames: 
 req.redist: 

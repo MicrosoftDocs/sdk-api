@@ -1,19 +1,17 @@
 ---
 UID: NF:winstring.WindowsStringHasEmbeddedNull
 title: WindowsStringHasEmbeddedNull function (winstring.h)
-
 description: Indicates whether the specified string has embedded null characters.
 old-location: winrt\windowsstringhasembeddednull.htm
 tech.root: WinRT
 ms.assetid: BE3B0198-C6D1-4F3C-A9E2-F186FB025DCE
-
 ms.date: 12/05/2018
 ms.keywords: WindowsStringHasEmbeddedNull, WindowsStringHasEmbeddedNull function [Windows Runtime], winrt.windowsstringhasembeddednull, winstring/WindowsStringHasEmbeddedNull
 ms.topic: function
-f1_keywords: 
- - "winstring/WindowsStringHasEmbeddedNull"
+f1_keywords:
+- winstring/WindowsStringHasEmbeddedNull
 dev_langs:
- - c++
+- c++
 req.header: winstring.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - winstring.h
- - API-MS-Win-Core-WinRT-String-l1-1-0.dll
- - ComBase.dll
- - API-MS-Win-Core-WinRT-String-L1-1-1.dll
+- winstring.h
+- API-MS-Win-Core-WinRT-String-l1-1-0.dll
+- ComBase.dll
+- API-MS-Win-Core-WinRT-String-L1-1-1.dll
 api_name:
- - WindowsStringHasEmbeddedNull
+- WindowsStringHasEmbeddedNull
 targetos: Windows
 req.typenames: 
 req.redist: 

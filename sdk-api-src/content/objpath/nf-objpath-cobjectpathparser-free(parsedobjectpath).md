@@ -1,19 +1,17 @@
 ---
 UID: NF:objpath.CObjectPathParser.Free(ParsedObjectPath)
 title: CObjectPathParser::Free(ParsedObjectPath) (objpath.h)
-
 description: Releases the memory that contains the unparsed path. Use of this object is not recommended. Instead, use the IWbemPath COM interface.
 old-location: wmi\cobjectpathparser_free_lpwstr_.htm
 tech.root: WmiSdk
 ms.assetid: 3a18a29a-269a-490c-8ede-6ec6b77f99f7
-
 ms.date: 12/05/2018
 ms.keywords: CObjectPathParser interface [Windows Management Instrumentation],Free method, CObjectPathParser.Free, CObjectPathParser.Free(ParsedObjectPath), CObjectPathParser::Free, CObjectPathParser::Free(LPWSTR), CObjectPathParser::Free(ParsedObjectPath), Free, Free method [Windows Management Instrumentation], Free method [Windows Management Instrumentation],CObjectPathParser interface, objpath/CObjectPathParser::Free, wmi.cobjectpathparser_free_lpwstr_
 ms.topic: method
-f1_keywords: 
- - "objpath/CObjectPathParser.Free"
+f1_keywords:
+- objpath/CObjectPathParser.Free
 dev_langs:
- - c++
+- c++
 req.header: objpath.h
 req.include-header: ObjPath.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: FrameDyn.lib
 req.dll: FrameDynOS.dll; FrameDyn.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - FrameDynOS.dll
- - FrameDyn.dll
+- FrameDynOS.dll
+- FrameDyn.dll
 api_name:
- - CObjectPathParser.Free
+- CObjectPathParser.Free
 targetos: Windows
 req.typenames: 
 req.redist: 

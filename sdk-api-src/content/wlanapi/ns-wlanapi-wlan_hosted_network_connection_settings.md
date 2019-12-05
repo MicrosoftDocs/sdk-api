@@ -1,19 +1,17 @@
 ---
 UID: NS:wlanapi._WLAN_HOSTED_NETWORK_CONNECTION_SETTINGS
 title: WLAN_HOSTED_NETWORK_CONNECTION_SETTINGS (wlanapi.h)
-
 description: Contains information about the connection settings on the wireless Hosted Network.
 old-location: nwifi\wlan_hosted_network_connection_settings.htm
 tech.root: NativeWiFi
 ms.assetid: 845eaef2-7ce0-4d7a-8273-8b843b5c95fd
-
 ms.date: 12/05/2018
-ms.keywords: "*PWLAN_HOSTED_NETWORK_CONNECTION_SETTINGS, PWLAN_HOSTED_NETWORK_CONNECTION_SETTINGS, PWLAN_HOSTED_NETWORK_CONNECTION_SETTINGS structure pointer [NativeWIFI], WLAN_HOSTED_NETWORK_CONNECTION_SETTINGS, WLAN_HOSTED_NETWORK_CONNECTION_SETTINGS structure [NativeWIFI], nwifi.wlan_hosted_network_connection_settings, wlanapi/PWLAN_HOSTED_NETWORK_CONNECTION_SETTINGS, wlanapi/WLAN_HOSTED_NETWORK_CONNECTION_SETTINGS"
+ms.keywords: '*PWLAN_HOSTED_NETWORK_CONNECTION_SETTINGS, PWLAN_HOSTED_NETWORK_CONNECTION_SETTINGS, PWLAN_HOSTED_NETWORK_CONNECTION_SETTINGS structure pointer [NativeWIFI], WLAN_HOSTED_NETWORK_CONNECTION_SETTINGS, WLAN_HOSTED_NETWORK_CONNECTION_SETTINGS structure [NativeWIFI], nwifi.wlan_hosted_network_connection_settings, wlanapi/PWLAN_HOSTED_NETWORK_CONNECTION_SETTINGS, wlanapi/WLAN_HOSTED_NETWORK_CONNECTION_SETTINGS'
 ms.topic: struct
-f1_keywords: 
- - "wlanapi/WLAN_HOSTED_NETWORK_CONNECTION_SETTINGS"
+f1_keywords:
+- wlanapi/WLAN_HOSTED_NETWORK_CONNECTION_SETTINGS
 dev_langs:
- - c++
+- c++
 req.header: wlanapi.h
 req.include-header: Wlanapi.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wlanapi.h
+- Wlanapi.h
 api_name:
- - WLAN_HOSTED_NETWORK_CONNECTION_SETTINGS
+- WLAN_HOSTED_NETWORK_CONNECTION_SETTINGS
 targetos: Windows
 req.typenames: WLAN_HOSTED_NETWORK_CONNECTION_SETTINGS, *PWLAN_HOSTED_NETWORK_CONNECTION_SETTINGS
 req.redist: 

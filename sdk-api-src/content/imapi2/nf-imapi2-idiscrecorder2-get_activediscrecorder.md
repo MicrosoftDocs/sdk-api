@@ -1,19 +1,17 @@
 ---
 UID: NF:imapi2.IDiscRecorder2.get_ActiveDiscRecorder
 title: IDiscRecorder2::get_ActiveDiscRecorder (imapi2.h)
-
 description: Retrieves the unique identifier used to initialize the disc device.
 old-location: imapi\idiscrecorder2_get_activediscrecorder.htm
 tech.root: imapi
 ms.assetid: 7fd3e13c-2853-417e-8478-46fa667c9f97
-
 ms.date: 12/05/2018
 ms.keywords: IDiscRecorder2 interface [IMAPI],get_ActiveDiscRecorder method, IDiscRecorder2.get_ActiveDiscRecorder, IDiscRecorder2::get_ActiveDiscRecorder, get_ActiveDiscRecorder, get_ActiveDiscRecorder method [IMAPI], get_ActiveDiscRecorder method [IMAPI],IDiscRecorder2 interface, imapi.idiscrecorder2_get_activediscrecorder, imapi2/IDiscRecorder2::get_ActiveDiscRecorder
 ms.topic: method
-f1_keywords: 
- - "imapi2/IDiscRecorder2.get_ActiveDiscRecorder"
+f1_keywords:
+- imapi2/IDiscRecorder2.get_ActiveDiscRecorder
 dev_langs:
- - c++
+- c++
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - imapi2.h
+- imapi2.h
 api_name:
- - IDiscRecorder2.get_ActiveDiscRecorder
+- IDiscRecorder2.get_ActiveDiscRecorder
 targetos: Windows
 req.typenames: 
 req.redist: 

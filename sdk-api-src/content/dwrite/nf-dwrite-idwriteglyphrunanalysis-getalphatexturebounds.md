@@ -1,19 +1,17 @@
 ---
 UID: NF:dwrite.IDWriteGlyphRunAnalysis.GetAlphaTextureBounds
 title: IDWriteGlyphRunAnalysis::GetAlphaTextureBounds (dwrite.h)
-
 description: Gets the bounding rectangle of the physical pixels affected by the glyph run.
 old-location: directwrite\IDWriteGlyphRunAnalysis_GetAlphaTextureBounds.htm
 tech.root: DirectWrite
 ms.assetid: 9058edb7-23b2-418a-abcc-3ee827a79144
-
 ms.date: 12/05/2018
 ms.keywords: GetAlphaTextureBounds, GetAlphaTextureBounds method [Direct Write], GetAlphaTextureBounds method [Direct Write],IDWriteGlyphRunAnalysis interface, IDWriteGlyphRunAnalysis interface [Direct Write],GetAlphaTextureBounds method, IDWriteGlyphRunAnalysis.GetAlphaTextureBounds, IDWriteGlyphRunAnalysis::GetAlphaTextureBounds, directwrite.IDWriteGlyphRunAnalysis_GetAlphaTextureBounds, dwrite/IDWriteGlyphRunAnalysis::GetAlphaTextureBounds
 ms.topic: method
-f1_keywords: 
- - "dwrite/IDWriteGlyphRunAnalysis.GetAlphaTextureBounds"
+f1_keywords:
+- dwrite/IDWriteGlyphRunAnalysis.GetAlphaTextureBounds
 dev_langs:
- - c++
+- c++
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dwrite.lib
 req.dll: Dwrite.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dwrite.dll
+- dwrite.dll
 api_name:
- - IDWriteGlyphRunAnalysis.GetAlphaTextureBounds
+- IDWriteGlyphRunAnalysis.GetAlphaTextureBounds
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NE:rectypes.enumALT_BREAKS
 title: ALT_BREAKS (rectypes.h)
-
 description: Specifiers how to create alternates from a best result string.
 old-location: tablet\alt_breaks.htm
 tech.root: tablet
 ms.assetid: bca0466c-4262-41b9-b3bc-cec25df6e654
-
 ms.date: 12/05/2018
 ms.keywords: ALT_BREAKS, ALT_BREAKS enumeration [Tablet PC], ALT_BREAKS_FULL, ALT_BREAKS_SAME, ALT_BREAKS_UNIQUE, bca0466c-4262-41b9-b3bc-cec25df6e654, rectypes/ALT_BREAKS, rectypes/ALT_BREAKS_FULL, rectypes/ALT_BREAKS_SAME, rectypes/ALT_BREAKS_UNIQUE, tablet.alt_breaks
 ms.topic: enum
-f1_keywords: 
- - "rectypes/ALT_BREAKS"
+f1_keywords:
+- rectypes/ALT_BREAKS
 dev_langs:
- - c++
+- c++
 req.header: rectypes.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - rectypes.h
+- rectypes.h
 api_name:
- - ALT_BREAKS
+- ALT_BREAKS
 targetos: Windows
 req.typenames: ALT_BREAKS
 req.redist: 

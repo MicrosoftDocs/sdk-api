@@ -1,19 +1,17 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMGeometryFigure.GetSegmentStrokePattern
 title: IXpsOMGeometryFigure::GetSegmentStrokePattern (xpsobjectmodel.h)
-
 description: Gets the XPS_SEGMENT_STROKE_PATTERN value that indicates whether the segments in the figure are stroked.
 old-location: xps\ixpsomgeometryfigure_getsegmentstrokepattern.htm
 tech.root: printdocs
 ms.assetid: 497701aa-8738-43d1-830f-7a6c00cfa2cc
-
 ms.date: 12/05/2018
 ms.keywords: GetSegmentStrokePattern, GetSegmentStrokePattern method [XPS Documents and Packaging], GetSegmentStrokePattern method [XPS Documents and Packaging],IXpsOMGeometryFigure interface, IXpsOMGeometryFigure interface [XPS Documents and Packaging],GetSegmentStrokePattern method, IXpsOMGeometryFigure.GetSegmentStrokePattern, IXpsOMGeometryFigure::GetSegmentStrokePattern, xps.ixpsomgeometryfigure_getsegmentstrokepattern, xpsobjectmodel/IXpsOMGeometryFigure::GetSegmentStrokePattern
 ms.topic: method
-f1_keywords: 
- - "xpsobjectmodel/IXpsOMGeometryFigure.GetSegmentStrokePattern"
+f1_keywords:
+- xpsobjectmodel/IXpsOMGeometryFigure.GetSegmentStrokePattern
 dev_langs:
- - c++
+- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsobjectmodel.h
+- xpsobjectmodel.h
 api_name:
- - IXpsOMGeometryFigure.GetSegmentStrokePattern
+- IXpsOMGeometryFigure.GetSegmentStrokePattern
 targetos: Windows
 req.typenames: 
 req.redist: 

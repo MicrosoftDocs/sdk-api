@@ -1,19 +1,17 @@
 ---
 UID: NF:wingdi.StrokePath
 title: StrokePath function (wingdi.h)
-
 description: The StrokePath function renders the specified path by using the current pen.
 old-location: gdi\strokepath.htm
 tech.root: gdi
 ms.assetid: 5a9f1509-0a69-4db8-8d74-9bf360aca64d
-
 ms.date: 12/05/2018
 ms.keywords: StrokePath, StrokePath function [Windows GDI], _win32_StrokePath, gdi.strokepath, wingdi/StrokePath
 ms.topic: function
-f1_keywords: 
- - "wingdi/StrokePath"
+f1_keywords:
+- wingdi/StrokePath
 dev_langs:
- - c++
+- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - gdi32.dll
- - Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
+- gdi32.dll
+- Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
 api_name:
- - StrokePath
+- StrokePath
 targetos: Windows
 req.typenames: 
 req.redist: 

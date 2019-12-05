@@ -1,19 +1,17 @@
 ---
 UID: NS:dhcpsapi._DHCP_HOST_INFO
 title: DHCP_HOST_INFO (dhcpsapi.h)
-
 description: The DHCP_HOST_INFO structure defines information on a DHCP server (host).
 old-location: dhcp\dhcp_host_info.htm
 tech.root: DHCP
 ms.assetid: 3d38f69d-2808-4e52-a3da-b6142578c981
-
 ms.date: 12/05/2018
 ms.keywords: '*LPDHCP_HOST_INFO, DHCP_HOST_INFO, DHCP_HOST_INFO structure [DHCP], LPDHCP_HOST_INFO, LPDHCP_HOST_INFO structure pointer [DHCP], dhcp.dhcp_host_info, dhcpsapi/LPDHCP_HOST_INFO, dhcpsapi/_DHCP_HOST_INFO'
 ms.topic: struct
 f1_keywords:
 - dhcpsapi/DHCP_HOST_INFO
 dev_langs:
- - c++
+- c++
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows

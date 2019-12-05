@@ -1,19 +1,17 @@
 ---
 UID: NS:udpmib._MIB_UDPROW_OWNER_MODULE
 title: MIB_UDPROW_OWNER_MODULE (udpmib.h)
-
 description: Contains an entry from the IPv4 User Datagram Protocol (UDP) listener table on the local computer. This entry also also includes any available ownership data and the process ID (PID) that issued the call to the bind function for the UDP endpoint.
 old-location: mib\mib_udprow_owner_module.htm
 tech.root: MIB
 ms.assetid: 9ae304e0-4653-4757-a823-d4ccf68627bf
-
 ms.date: 12/05/2018
 ms.keywords: '*PMIB_UDPROW_OWNER_MODULE, MIB_UDPROW_OWNER_MODULE, MIB_UDPROW_OWNER_MODULE structure [MIB], PMIB_UDPROW_OWNER_MODULE, PMIB_UDPROW_OWNER_MODULE structure pointer [MIB], iprtrmib/MIB_UDPROW_OWNER_MODULE, iprtrmib/PMIB_UDPROW_OWNER_MODULE, mib.mib_udprow_owner_module, udpmib/MIB_UDPROW_OWNER_MODULE, udpmib/PMIB_UDPROW_OWNER_MODULE'
 ms.topic: struct
 f1_keywords:
 - udpmib/MIB_UDPROW_OWNER_MODULE
 dev_langs:
- - c++
+- c++
 req.header: udpmib.h
 req.include-header: Iphlpapi.h
 req.target-type: Windows

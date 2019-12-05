@@ -1,19 +1,17 @@
 ---
 UID: NF:pla.IDataCollectorSet.get_SegmentMaxSize
 title: IDataCollectorSet::get_SegmentMaxSize (pla.h)
-
 description: Retrieves or sets the maximum size of any log file in the data collector set.
 old-location: pla\idatacollectorset_get_segmentmaxsize.htm
 tech.root: PLA
 ms.assetid: 7dd96822-a398-42c3-94f1-b9cd7a647575
-
 ms.date: 12/05/2018
 ms.keywords: IDataCollectorSet interface [PLA],SegmentMaxSize property, IDataCollectorSet.SegmentMaxSize, IDataCollectorSet.get_SegmentMaxSize, IDataCollectorSet::SegmentMaxSize, IDataCollectorSet::get_SegmentMaxSize, IDataCollectorSet::put_SegmentMaxSize, SegmentMaxSize property [PLA], SegmentMaxSize property [PLA],IDataCollectorSet interface, base.idatacollectorset_get_segmentmaxsize, get_SegmentMaxSize, pla.idatacollectorset_get_segmentmaxsize, pla/IDataCollectorSet::SegmentMaxSize, pla/IDataCollectorSet::get_SegmentMaxSize, pla/IDataCollectorSet::put_SegmentMaxSize
 ms.topic: method
-f1_keywords: 
- - "pla/IDataCollectorSet.SegmentMaxSize"
+f1_keywords:
+- pla/IDataCollectorSet.SegmentMaxSize
 dev_langs:
- - c++
+- c++
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: Pla.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Pla.dll
+- Pla.dll
 api_name:
- - IDataCollectorSet.SegmentMaxSize
- - IDataCollectorSet.get_SegmentMaxSize
- - IDataCollectorSet.put_SegmentMaxSize
+- IDataCollectorSet.SegmentMaxSize
+- IDataCollectorSet.get_SegmentMaxSize
+- IDataCollectorSet.put_SegmentMaxSize
 targetos: Windows
 req.typenames: 
 req.redist: 

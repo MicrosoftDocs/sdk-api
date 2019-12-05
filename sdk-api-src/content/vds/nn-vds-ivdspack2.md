@@ -1,19 +1,17 @@
 ---
 UID: NN:vds.IVdsPack2
 title: IVdsPack2 (vds.h)
-
 description: Provides a method to create aligned volumes on a pack.
 old-location: base\ivdspack2.htm
 tech.root: VDS
 ms.assetid: b0124293-693d-412a-a97f-d0dae05a3bfc
-
 ms.date: 12/05/2018
 ms.keywords: IVdsPack2, IVdsPack2 interface, IVdsPack2 interface,described, base.ivdspack2, vds/IVdsPack2
 ms.topic: interface
-f1_keywords: 
- - "vds/IVdsPack2"
+f1_keywords:
+- vds/IVdsPack2
 dev_langs:
- - c++
+- c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Uuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Uuid.lib
- - Uuid.dll
+- Uuid.lib
+- Uuid.dll
 api_name:
- - IVdsPack2
+- IVdsPack2
 targetos: Windows
 req.typenames: 
 req.redist: 

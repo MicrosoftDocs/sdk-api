@@ -1,19 +1,17 @@
 ---
 UID: NF:commctrl.Edit_SetCaretIndex
 title: Edit_SetCaretIndex macro (commctrl.h)
-
 description: Sets the character index at which to locate the caret. You can use this macro or send the EM_SETCARETINDEX message explicitly.
 old-location: controls\edit_setcaretindex.htm
 tech.root: Controls
 ms.assetid: 62D60717-4FE6-4738-8504-791CDE7C15E3
-
 ms.date: 12/05/2018
 ms.keywords: Edit_SetCaretIndex, Edit_SetCaretIndex macro [Windows Controls], commctrl/Edit_SetCaretIndex, controls.edit_setcaretindex
 ms.topic: macro
-f1_keywords: 
- - "commctrl/Edit_SetCaretIndex"
+f1_keywords:
+- commctrl/Edit_SetCaretIndex
 dev_langs:
- - c++
+- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Commctrl.h
+- Commctrl.h
 api_name:
- - Edit_SetCaretIndex
+- Edit_SetCaretIndex
 targetos: Windows
 req.typenames: 
 req.redist: 

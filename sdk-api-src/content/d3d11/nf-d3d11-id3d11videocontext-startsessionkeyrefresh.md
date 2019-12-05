@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d11.ID3D11VideoContext.StartSessionKeyRefresh
 title: ID3D11VideoContext::StartSessionKeyRefresh (d3d11.h)
-
 description: Gets a random number that can be used to refresh the session key.
 old-location: mf\id3d11videocontext_startsessionkeyrefresh.htm
 tech.root: medfound
 ms.assetid: 63376BFE-BA84-4268-8AA8-128BEB83AE78
-
 ms.date: 12/05/2018
 ms.keywords: ID3D11VideoContext interface [Media Foundation],StartSessionKeyRefresh method, ID3D11VideoContext.StartSessionKeyRefresh, ID3D11VideoContext::StartSessionKeyRefresh, StartSessionKeyRefresh, StartSessionKeyRefresh method [Media Foundation], StartSessionKeyRefresh method [Media Foundation],ID3D11VideoContext interface, d3d11/ID3D11VideoContext::StartSessionKeyRefresh, mf.id3d11videocontext_startsessionkeyrefresh
 ms.topic: method
-f1_keywords: 
- - "d3d11/ID3D11VideoContext.StartSessionKeyRefresh"
+f1_keywords:
+- d3d11/ID3D11VideoContext.StartSessionKeyRefresh
 dev_langs:
- - c++
+- c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - d3d11.h
+- d3d11.h
 api_name:
- - ID3D11VideoContext.StartSessionKeyRefresh
+- ID3D11VideoContext.StartSessionKeyRefresh
 targetos: Windows
 req.typenames: 
 req.redist: 

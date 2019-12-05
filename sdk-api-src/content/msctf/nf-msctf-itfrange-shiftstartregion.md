@@ -1,19 +1,17 @@
 ---
 UID: NF:msctf.ITfRange.ShiftStartRegion
 title: ITfRange::ShiftStartRegion (msctf.h)
-
 description: ITfRange::ShiftStartRegion method
 old-location: tsf\itfrange_shiftstartregion.htm
 tech.root: TSF
 ms.assetid: 6e16112a-0cfe-41be-9d9c-4cbcde898c3f
-
 ms.date: 12/05/2018
 ms.keywords: ITfRange interface [Text Services Framework],ShiftStartRegion method, ITfRange.ShiftStartRegion, ITfRange::ShiftStartRegion, ShiftStartRegion, ShiftStartRegion method [Text Services Framework], ShiftStartRegion method [Text Services Framework],ITfRange interface, _tsf_itfrange_shiftstartregion_ref, msctf/ITfRange::ShiftStartRegion, tsf.itfrange_shiftstartregion
 ms.topic: method
-f1_keywords: 
- - "msctf/ITfRange.ShiftStartRegion"
+f1_keywords:
+- msctf/ITfRange.ShiftStartRegion
 dev_langs:
- - c++
+- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msctf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msctf.dll
+- Msctf.dll
 api_name:
- - ITfRange.ShiftStartRegion
+- ITfRange.ShiftStartRegion
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

@@ -1,19 +1,17 @@
 ---
 UID: NC:dbghelp.PENUMDIRTREE_CALLBACK
 title: PENUMDIRTREE_CALLBACK (dbghelp.h)
-
 description: An application-defined callback function used with the EnumDirTree function. It is called every time a match is found.
 old-location: base\enumdirtreeproc.htm
 tech.root: Debug
 ms.assetid: eae41b83-bba5-4656-9a5c-b6ef56845954
-
 ms.date: 12/05/2018
 ms.keywords: EnumDirTreeProc, EnumDirTreeProc callback, EnumDirTreeProc callback function, PENUMDIRTREE_CALLBACK, PENUMDIRTREE_CALLBACKW, _win32_enumdirtreeproc, base.enumdirtreeproc, dbghelp/EnumDirTreeProc
 ms.topic: callback
-f1_keywords: 
- - "dbghelp/EnumDirTreeProc"
+f1_keywords:
+- dbghelp/EnumDirTreeProc
 dev_langs:
- - c++
+- c++
 req.header: dbghelp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - DbgHelp.h
+- DbgHelp.h
 api_name:
- - EnumDirTreeProc
+- EnumDirTreeProc
 targetos: Windows
 req.typenames: 
 req.redist: DbgHelp.dll 6.0 or later

@@ -1,19 +1,17 @@
 ---
 UID: NF:msinkaut.IInkPicture.get_Cursors
 title: IInkPicture::get_Cursors (msinkaut.h)
-
 description: Gets the collection of cursors that are available for use in the inking region. Each cursor corresponds to the tip of a pen or other ink input device.
 old-location: tablet\inkpicture_cursors.htm
 tech.root: tablet
 ms.assetid: 815f4895-d418-4336-9420-2405bcd5cfb3
-
 ms.date: 12/05/2018
 ms.keywords: Cursors property [Tablet PC], Cursors property [Tablet PC],IInkPicture interface, IInkPicture interface [Tablet PC],Cursors property, IInkPicture.Cursors, IInkPicture.get_Cursors, IInkPicture::Cursors, IInkPicture::get_Cursors, InkPicture.get_Cursors, get_Cursors, msinkaut/IInkPicture::Cursors, msinkaut/IInkPicture::get_Cursors, tablet.inkpicture_cursors
 ms.topic: method
-f1_keywords: 
- - "msinkaut/IInkPicture.Cursors"
+f1_keywords:
+- msinkaut/IInkPicture.Cursors
 dev_langs:
- - c++
+- c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: InkObj.dll
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - InkObj.dll
- - InkObj.dll.dll
+- InkObj.dll
+- InkObj.dll.dll
 api_name:
- - IInkPicture.Cursors
- - IInkPicture.get_Cursors
- - InkPicture.get_Cursors
+- IInkPicture.Cursors
+- IInkPicture.get_Cursors
+- InkPicture.get_Cursors
 targetos: Windows
 req.typenames: 
 req.redist: 

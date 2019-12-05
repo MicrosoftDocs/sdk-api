@@ -1,19 +1,17 @@
 ---
 UID: NS:directxpackedvector.XMSHORT4
 title: XMSHORT4 (directxpackedvector.h)
-
 description: A 4D vector consisting of 16-bit signed integer components.
 old-location: dxmath\xmshort4.htm
 tech.root: dxmath
 ms.assetid: T:Microsoft.directx_sdk.reference.XMSHORT4
-
 ms.date: 12/05/2018
 ms.keywords: XMSHORT4, XMSHORT4 structure [DirectX Math Support APIs], directxpackedvector/XMSHORT4, dxmath.xmshort4
 ms.topic: struct
-f1_keywords: 
- - "directxpackedvector/XMSHORT4"
+f1_keywords:
+- directxpackedvector/XMSHORT4
 dev_langs:
- - c++
+- c++
 req.header: directxpackedvector.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - DirectXPackedVector.h
+- DirectXPackedVector.h
 api_name:
- - XMSHORT4
+- XMSHORT4
 targetos: Windows
 req.typenames: 
 req.redist: 

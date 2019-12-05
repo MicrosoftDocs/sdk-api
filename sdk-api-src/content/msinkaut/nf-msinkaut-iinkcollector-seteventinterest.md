@@ -1,19 +1,17 @@
 ---
 UID: NF:msinkaut.IInkCollector.SetEventInterest
 title: IInkCollector::SetEventInterest (msinkaut.h)
-
 description: Modifies a value that indicates whether an object or control has interest in a specified event.
 old-location: tablet\inkcollector_seteventinterest.htm
 tech.root: tablet
 ms.assetid: df25efbb-5229-4211-948f-3a213154a967
-
 ms.date: 12/05/2018
 ms.keywords: IInkCollector interface [Tablet PC],SetEventInterest method, IInkCollector.SetEventInterest, IInkCollector::SetEventInterest, SetEventInterest, SetEventInterest method [Tablet PC], SetEventInterest method [Tablet PC],IInkCollector interface, df25efbb-5229-4211-948f-3a213154a967, msinkaut/IInkCollector::SetEventInterest, tablet.inkcollector_seteventinterest
 ms.topic: method
-f1_keywords: 
- - "msinkaut/IInkCollector.SetEventInterest"
+f1_keywords:
+- msinkaut/IInkCollector.SetEventInterest
 dev_langs:
- - c++
+- c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: InkObj.dll
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - InkObj.dll
- - InkObj.dll.dll
+- InkObj.dll
+- InkObj.dll.dll
 api_name:
- - IInkCollector.SetEventInterest
+- IInkCollector.SetEventInterest
 targetos: Windows
 req.typenames: 
 req.redist: 

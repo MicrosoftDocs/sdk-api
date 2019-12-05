@@ -1,19 +1,17 @@
 ---
 UID: NN:indexsrv.IStemmer
 title: IStemmer (indexsrv.h)
-
 description: Provides methods for creating a language-specific stemmer. The stemmer generates inflected forms of a specified word.
 old-location: search\_search_IStemmer.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\dataaddins\istemmer\istemmer.htm
-
 ms.date: 12/05/2018
 ms.keywords: IStemmer, IStemmer interface [search], IStemmer interface [search],described, _search_IStemmer, indexsrv/IStemmer, search._search_IStemmer
 ms.topic: interface
-f1_keywords: 
- - "indexsrv/IStemmer"
+f1_keywords:
+- indexsrv/IStemmer
 dev_langs:
- - c++
+- c++
 req.header: indexsrv.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Indexsrv.h
+- Indexsrv.h
 api_name:
- - IStemmer
+- IStemmer
 targetos: Windows
 req.typenames: 
 req.redist: Windows NT 4.0 Option Pack

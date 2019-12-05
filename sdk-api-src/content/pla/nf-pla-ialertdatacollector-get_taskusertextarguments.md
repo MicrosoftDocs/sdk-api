@@ -1,19 +1,17 @@
 ---
 UID: NF:pla.IAlertDataCollector.get_TaskUserTextArguments
 title: IAlertDataCollector::get_TaskUserTextArguments (pla.h)
-
 description: Retrieves or sets the command-line arguments to pass to the Task Scheduler job specified in the IAlertDataCollector::Task property.
 old-location: pla\ialertdatacollector_taskusertextarguments.htm
 tech.root: PLA
 ms.assetid: d432652a-3dea-43f0-a698-bb7ccb1cb79a
-
 ms.date: 12/05/2018
 ms.keywords: IAlertDataCollector interface [PLA],TaskUserTextArguments property, IAlertDataCollector.TaskUserTextArguments, IAlertDataCollector.get_TaskUserTextArguments, IAlertDataCollector::TaskUserTextArguments, IAlertDataCollector::get_TaskUserTextArguments, IAlertDataCollector::put_TaskUserTextArguments, TaskUserTextArguments property [PLA], TaskUserTextArguments property [PLA],IAlertDataCollector interface, get_TaskUserTextArguments, pla.ialertdatacollector_taskusertextarguments, pla/IAlertDataCollector::TaskUserTextArguments, pla/IAlertDataCollector::get_TaskUserTextArguments, pla/IAlertDataCollector::put_TaskUserTextArguments
 ms.topic: method
-f1_keywords: 
- - "pla/IAlertDataCollector.TaskUserTextArguments"
+f1_keywords:
+- pla/IAlertDataCollector.TaskUserTextArguments
 dev_langs:
- - c++
+- c++
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: Pla.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Pla.dll
+- Pla.dll
 api_name:
- - IAlertDataCollector.TaskUserTextArguments
- - IAlertDataCollector.get_TaskUserTextArguments
- - IAlertDataCollector.put_TaskUserTextArguments
+- IAlertDataCollector.TaskUserTextArguments
+- IAlertDataCollector.get_TaskUserTextArguments
+- IAlertDataCollector.put_TaskUserTextArguments
 targetos: Windows
 req.typenames: 
 req.redist: 

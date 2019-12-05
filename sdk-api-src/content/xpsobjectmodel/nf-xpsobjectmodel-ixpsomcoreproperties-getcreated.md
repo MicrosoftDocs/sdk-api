@@ -1,19 +1,17 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMCoreProperties.GetCreated
 title: IXpsOMCoreProperties::GetCreated (xpsobjectmodel.h)
-
 description: Gets the created property.
 old-location: xps\ixpsomcoreproperties_getcreated.htm
 tech.root: printdocs
 ms.assetid: 8ee96d96-bd66-4738-bfae-fbbc98ba8621
-
 ms.date: 12/05/2018
 ms.keywords: GetCreated, GetCreated method [XPS Documents and Packaging], GetCreated method [XPS Documents and Packaging],IXpsOMCoreProperties interface, IXpsOMCoreProperties interface [XPS Documents and Packaging],GetCreated method, IXpsOMCoreProperties.GetCreated, IXpsOMCoreProperties::GetCreated, xps.ixpsomcoreproperties_getcreated, xpsobjectmodel/IXpsOMCoreProperties::GetCreated
 ms.topic: method
-f1_keywords: 
- - "xpsobjectmodel/IXpsOMCoreProperties.GetCreated"
+f1_keywords:
+- xpsobjectmodel/IXpsOMCoreProperties.GetCreated
 dev_langs:
- - c++
+- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsobjectmodel.h
+- xpsobjectmodel.h
 api_name:
- - IXpsOMCoreProperties.GetCreated
+- IXpsOMCoreProperties.GetCreated
 targetos: Windows
 req.typenames: 
 req.redist: 

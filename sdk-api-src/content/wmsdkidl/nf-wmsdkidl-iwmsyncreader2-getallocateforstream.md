@@ -1,19 +1,17 @@
 ---
 UID: NF:wmsdkidl.IWMSyncReader2.GetAllocateForStream
 title: IWMSyncReader2::GetAllocateForStream (wmsdkidl.h)
-
 description: The GetAllocateForStream method retrieves an interface for allocating stream samples.
 old-location: wmformat\iwmsyncreader2_getallocateforstream.htm
 tech.root: wmformat
 ms.assetid: 88f02e2d-2585-4668-869b-d42739c02a5c
-
 ms.date: 12/05/2018
 ms.keywords: GetAllocateForStream, GetAllocateForStream method [windows Media Format], GetAllocateForStream method [windows Media Format],IWMSyncReader2 interface, IWMSyncReader2 interface [windows Media Format],GetAllocateForStream method, IWMSyncReader2.GetAllocateForStream, IWMSyncReader2::GetAllocateForStream, IWMSyncReader2GetAllocateForStream, wmformat.iwmsyncreader2_getallocateforstream, wmsdkidl/IWMSyncReader2::GetAllocateForStream
 ms.topic: method
-f1_keywords: 
- - "wmsdkidl/IWMSyncReader2.GetAllocateForStream"
+f1_keywords:
+- wmsdkidl/IWMSyncReader2.GetAllocateForStream
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wmvcore.lib
- - Wmvcore.dll
- - WMStubDRM.lib
- - WMStubDRM.dll
+- Wmvcore.lib
+- Wmvcore.dll
+- WMStubDRM.lib
+- WMStubDRM.dll
 api_name:
- - IWMSyncReader2.GetAllocateForStream
+- IWMSyncReader2.GetAllocateForStream
 targetos: Windows
 req.typenames: 
 req.redist: 

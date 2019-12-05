@@ -1,19 +1,17 @@
 ---
 UID: NE:certenroll.WebEnrollmentFlags
 title: WebEnrollmentFlags (certenroll.h)
-
 description: Specifies web enrollment behavior.
 old-location: security\webenrollmentflags.htm
 tech.root: seccertenroll
 ms.assetid: 3b5940c4-f262-498e-82ab-c56af13afd06
-
 ms.date: 12/05/2018
 ms.keywords: EnrollPrompt, WebEnrollmentFlags, WebEnrollmentFlags enumeration [Security], certenroll/EnrollPrompt, certenroll/WebEnrollmentFlags, security.webenrollmentflags
 ms.topic: enum
-f1_keywords: 
- - "certenroll/WebEnrollmentFlags"
+f1_keywords:
+- certenroll/WebEnrollmentFlags
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Certenroll.h
+- Certenroll.h
 api_name:
- - WebEnrollmentFlags
+- WebEnrollmentFlags
 targetos: Windows
 req.typenames: WebEnrollmentFlags
 req.redist: 

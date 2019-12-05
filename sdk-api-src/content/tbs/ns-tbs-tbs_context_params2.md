@@ -1,19 +1,17 @@
 ---
 UID: NS:tbs.tdTBS_CONTEXT_PARAMS2
 title: TBS_CONTEXT_PARAMS2 (tbs.h)
-
 description: Specifies the version of the TBS context implementation. You must use this structure if your application works with both versions of TPM.
 old-location: tbs\tbs_context_params2.htm
 tech.root: TBS
 ms.assetid: B113B422-A66E-4498-99DA-65D4ED0B84B1
-
 ms.date: 12/05/2018
-ms.keywords: "*PTBS_CONTEXT_PARAMS2, PTBS_CONTEXT_PARAMS2, PTBS_CONTEXT_PARAMS2 structure pointer [TBS], TBS_CONTEXT_PARAMS2, TBS_CONTEXT_PARAMS2 structure [TBS], tbs.tbs_context_params2, tbs/PTBS_CONTEXT_PARAMS2, tbs/TBS_CONTEXT_PARAMS2"
+ms.keywords: '*PTBS_CONTEXT_PARAMS2, PTBS_CONTEXT_PARAMS2, PTBS_CONTEXT_PARAMS2 structure pointer [TBS], TBS_CONTEXT_PARAMS2, TBS_CONTEXT_PARAMS2 structure [TBS], tbs.tbs_context_params2, tbs/PTBS_CONTEXT_PARAMS2, tbs/TBS_CONTEXT_PARAMS2'
 ms.topic: struct
-f1_keywords: 
- - "tbs/TBS_CONTEXT_PARAMS2"
+f1_keywords:
+- tbs/TBS_CONTEXT_PARAMS2
 dev_langs:
- - c++
+- c++
 req.header: tbs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Tbs.h
+- Tbs.h
 api_name:
- - TBS_CONTEXT_PARAMS2
+- TBS_CONTEXT_PARAMS2
 targetos: Windows
 req.typenames: TBS_CONTEXT_PARAMS2, *PTBS_CONTEXT_PARAMS2
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:structuredquery.ISchemaProvider.Localize
 title: ISchemaProvider::Localize (structuredquery.h)
-
 description: Localizes the currently loaded schema for a specified locale.
 old-location: search\_search_ISchemaProvider_Localize.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\ischemaprovider\localize.htm
-
 ms.date: 12/05/2018
 ms.keywords: ISchemaProvider interface [search],Localize method, ISchemaProvider.Localize, ISchemaProvider::Localize, Localize, Localize method [search], Localize method [search],ISchemaProvider interface, _search_ISchemaProvider_Localize, search._search_ISchemaProvider_Localize, structuredquery/ISchemaProvider::Localize
 ms.topic: method
-f1_keywords: 
- - "structuredquery/ISchemaProvider.Localize"
+f1_keywords:
+- structuredquery/ISchemaProvider.Localize
 dev_langs:
- - c++
+- c++
 req.header: structuredquery.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Structuredquery.h
+- Structuredquery.h
 api_name:
- - ISchemaProvider.Localize
+- ISchemaProvider.Localize
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0

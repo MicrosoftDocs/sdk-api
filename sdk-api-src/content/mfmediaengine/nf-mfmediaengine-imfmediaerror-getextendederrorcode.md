@@ -1,19 +1,17 @@
 ---
 UID: NF:mfmediaengine.IMFMediaError.GetExtendedErrorCode
 title: IMFMediaError::GetExtendedErrorCode (mfmediaengine.h)
-
 description: Gets the extended error code.
 old-location: mf\imfmediaerror_getextendederrorcode.htm
 tech.root: medfound
 ms.assetid: 73B414F2-F17E-418E-9F8B-A7C378F80090
-
 ms.date: 12/05/2018
 ms.keywords: GetExtendedErrorCode, GetExtendedErrorCode method [Media Foundation], GetExtendedErrorCode method [Media Foundation],IMFMediaError interface, IMFMediaError interface [Media Foundation],GetExtendedErrorCode method, IMFMediaError.GetExtendedErrorCode, IMFMediaError::GetExtendedErrorCode, mf.imfmediaerror_getextendederrorcode, mfmediaengine/IMFMediaError::GetExtendedErrorCode
 ms.topic: method
-f1_keywords: 
- - "mfmediaengine/IMFMediaError.GetExtendedErrorCode"
+f1_keywords:
+- mfmediaengine/IMFMediaError.GetExtendedErrorCode
 dev_langs:
- - c++
+- c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfmediaengine.h
+- mfmediaengine.h
 api_name:
- - IMFMediaError.GetExtendedErrorCode
+- IMFMediaError.GetExtendedErrorCode
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NE:iads.__MIDL___MIDL_itf_ads_0001_0077_0002
 title: ADS_SECURITY_INFO_ENUM (iads.h)
-
 description: Specifies the available options for examining security data of an object.
 old-location: adsi\ads_security_info_enum.htm
 tech.root: adsi
 ms.assetid: 9cd1bb86-313d-4499-97ae-0b53a13a804b
-
 ms.date: 12/05/2018
 ms.keywords: ADS_SECURITY_INFO_DACL, ADS_SECURITY_INFO_ENUM, ADS_SECURITY_INFO_ENUM enumeration [ADSI], ADS_SECURITY_INFO_GROUP, ADS_SECURITY_INFO_OWNER, ADS_SECURITY_INFO_SACL, _ds_ads_security_info_enum, adsi.ads__security__info__enum, adsi.ads_security_info_enum, iads/ADS_SECURITY_INFO_DACL, iads/ADS_SECURITY_INFO_ENUM, iads/ADS_SECURITY_INFO_GROUP, iads/ADS_SECURITY_INFO_OWNER, iads/ADS_SECURITY_INFO_SACL
 ms.topic: enum
-f1_keywords: 
- - "iads/ADS_SECURITY_INFO_ENUM"
+f1_keywords:
+- iads/ADS_SECURITY_INFO_ENUM
 dev_langs:
- - c++
+- c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Iads.h
+- Iads.h
 api_name:
- - ADS_SECURITY_INFO_ENUM
+- ADS_SECURITY_INFO_ENUM
 targetos: Windows
 req.typenames: ADS_SECURITY_INFO_ENUM
 req.redist: 

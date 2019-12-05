@@ -1,19 +1,17 @@
 ---
 UID: NF:intsafe.ULongPtrMult
 title: ULongPtrMult function (intsafe.h)
-
 description: Multiplies one value of type ULONG_PTR by another.
 old-location: shell\ULongPtrMult.htm
 tech.root: shell
 ms.assetid: e3ee5794-b872-4286-b4f3-1c5cab0e42a8
-
 ms.date: 12/05/2018
 ms.keywords: ULongPtrMult, ULongPtrMult function [Windows Shell], _shell_ULongPtrMult, intsafe/ULongPtrMult, shell.ULongPtrMult
 ms.topic: function
-f1_keywords: 
- - "intsafe/ULongPtrMult"
+f1_keywords:
+- intsafe/ULongPtrMult
 dev_langs:
- - c++
+- c++
 req.header: intsafe.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Intsafe.h
+- Intsafe.h
 api_name:
- - ULongPtrMult
+- ULongPtrMult
 targetos: Windows
 req.typenames: 
 req.redist: 

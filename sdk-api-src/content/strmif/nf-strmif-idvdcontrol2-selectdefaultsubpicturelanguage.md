@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IDvdControl2.SelectDefaultSubpictureLanguage
 title: IDvdControl2::SelectDefaultSubpictureLanguage (strmif.h)
-
 description: The SelectDefaultSubpictureLanguage method sets the default language for subpicture text.
 old-location: dshow\idvdcontrol2_selectdefaultsubpicturelanguage.htm
 tech.root: DirectShow
 ms.assetid: f49698cd-cc83-4f05-991d-2b3bba77c33a
-
 ms.date: 12/05/2018
 ms.keywords: IDvdControl2 interface [DirectShow],SelectDefaultSubpictureLanguage method, IDvdControl2.SelectDefaultSubpictureLanguage, IDvdControl2::SelectDefaultSubpictureLanguage, IDvdControl2SelectDefaultSubpictureLanguage, SelectDefaultSubpictureLanguage, SelectDefaultSubpictureLanguage method [DirectShow], SelectDefaultSubpictureLanguage method [DirectShow],IDvdControl2 interface, dshow.idvdcontrol2_selectdefaultsubpicturelanguage, strmif/IDvdControl2::SelectDefaultSubpictureLanguage
 ms.topic: method
-f1_keywords: 
- - "strmif/IDvdControl2.SelectDefaultSubpictureLanguage"
+f1_keywords:
+- strmif/IDvdControl2.SelectDefaultSubpictureLanguage
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IDvdControl2.SelectDefaultSubpictureLanguage
+- IDvdControl2.SelectDefaultSubpictureLanguage
 targetos: Windows
 req.typenames: 
 req.redist: 

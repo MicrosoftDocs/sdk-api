@@ -1,19 +1,17 @@
 ---
 UID: NF:wsdbase.IWSDHttpAddress.SetPath
 title: IWSDHttpAddress::SetPath (wsdbase.h)
-
 description: Sets the URI path for this address.
 old-location: ncd\iwsdhttpaddress_setpath.htm
 tech.root: WsdApi
 ms.assetid: 4bad84a6-f321-4275-9787-f6bae83c807e
-
 ms.date: 12/05/2018
 ms.keywords: IWSDHttpAddress interface,SetPath method, IWSDHttpAddress.SetPath, IWSDHttpAddress::SetPath, SetPath, SetPath method, SetPath method,IWSDHttpAddress interface, ncd.iwsdhttpaddress_setpath, wsdbase/IWSDHttpAddress::SetPath
 ms.topic: method
-f1_keywords: 
- - "wsdbase/IWSDHttpAddress.SetPath"
+f1_keywords:
+- wsdbase/IWSDHttpAddress.SetPath
 dev_langs:
- - c++
+- c++
 req.header: wsdbase.h
 req.include-header: Wsdapi.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wsdapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wsdapi.dll
+- Wsdapi.dll
 api_name:
- - IWSDHttpAddress.SetPath
+- IWSDHttpAddress.SetPath
 targetos: Windows
 req.typenames: 
 req.redist: 

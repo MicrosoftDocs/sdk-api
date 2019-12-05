@@ -1,19 +1,17 @@
 ---
 UID: NF:winuser.SetCapture
 title: SetCapture function (winuser.h)
-
 description: Sets the mouse capture to the specified window belonging to the current thread.
 old-location: inputdev\setcapture.htm
 tech.root: inputdev
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\mouseinput\mouseinputreference\mouseinputfunctions\setcapture.htm
-
 ms.date: 12/05/2018
 ms.keywords: SetCapture, SetCapture function [Keyboard and Mouse Input], _win32_SetCapture, _win32_setcapture_cpp, inputdev.setcapture, winui._win32_setcapture, winuser/SetCapture
 ms.topic: function
-f1_keywords: 
- - "winuser/SetCapture"
+f1_keywords:
+- winuser/SetCapture
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - User32.dll
- - Ext-MS-Win-NTUser-mouse-l1-1-0.dll
- - api-ms-win-ntuser-ie-mouse-l1-1-0.dll
- - ie_stubs.dll
+- User32.dll
+- Ext-MS-Win-NTUser-mouse-l1-1-0.dll
+- api-ms-win-ntuser-ie-mouse-l1-1-0.dll
+- ie_stubs.dll
 api_name:
- - SetCapture
+- SetCapture
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:oleauto.VarI2FromI8
 title: VarI2FromI8 function (oleauto.h)
-
 description: Converts an 8-byte integer value to a short value.
 old-location: automat\vari2fromi8.htm
 tech.root: automat
 ms.assetid: 759dbab4-b99c-4e9b-a44b-f2ca0c187719
-
 ms.date: 12/05/2018
 ms.keywords: VarI2FromI8, VarI2FromI8 function [Automation], _oa96_VarI2FromI8, automat.vari2fromi8, oleauto/VarI2FromI8
 ms.topic: function
-f1_keywords: 
- - "oleauto/VarI2FromI8"
+f1_keywords:
+- oleauto/VarI2FromI8
 dev_langs:
- - c++
+- c++
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: OleAut32.lib
 req.dll: OleAut32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - OleAut32.dll
+- OleAut32.dll
 api_name:
- - VarI2FromI8
+- VarI2FromI8
 targetos: Windows
 req.typenames: 
 req.redist: 

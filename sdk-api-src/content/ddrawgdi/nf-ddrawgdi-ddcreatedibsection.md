@@ -1,19 +1,17 @@
 ---
 UID: NF:ddrawgdi.DdCreateDIBSection
 title: DdCreateDIBSection function (ddrawgdi.h)
-
 description: Creates a DIBSECTION structure that shares its color table with the device. GdiEntry9 is defined as an alias for this function.
 old-location: winprog\_dxgkernel_ddcreatedibsection.htm
 tech.root: DevNotes
 ms.assetid: VS|winui|~\winui\windowsuserinterface\lowlevelclientsupport\graphics\ddcreatedibsection.htm
-
 ms.date: 12/05/2018
 ms.keywords: DdCreateDIBSection, DdCreateDIBSection function [Windows API], GdiEntry9, _dxgkernel_ddcreatedibsection, ddrawgdi/DdCreateDIBSection, ddrawgdi/GdiEntry9, winprog._dxgkernel_ddcreatedibsection, winui._dxgkernel_ddcreatedibsection
 ms.topic: function
-f1_keywords: 
- - "ddrawgdi/DdCreateDIBSection"
+f1_keywords:
+- ddrawgdi/DdCreateDIBSection
 dev_langs:
- - c++
+- c++
 req.header: ddrawgdi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ddrawgdi.h
- - Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
- - GDI32.dll
- - GDI32Full.dll
+- Ddrawgdi.h
+- Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
+- GDI32.dll
+- GDI32Full.dll
 api_name:
- - DdCreateDIBSection
- - GdiEntry9
+- DdCreateDIBSection
+- GdiEntry9
 targetos: Windows
 req.typenames: 
 req.redist: 

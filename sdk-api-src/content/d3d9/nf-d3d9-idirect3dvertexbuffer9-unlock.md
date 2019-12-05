@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d9.IDirect3DVertexBuffer9.Unlock
 title: IDirect3DVertexBuffer9::Unlock (d3d9.h)
-
 description: Unlocks vertex data.
 old-location: direct3d9\idirect3dvertexbuffer9__unlock.htm
 tech.root: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3dvertexbuffer9__unlock.htm
-
 ms.date: 12/05/2018
 ms.keywords: 5a3902da-98ea-e009-1f97-f26c26aa9113, IDirect3DVertexBuffer9 interface [Direct3D 9],Unlock method, IDirect3DVertexBuffer9.Unlock, IDirect3DVertexBuffer9::Unlock, Unlock, Unlock method [Direct3D 9], Unlock method [Direct3D 9],IDirect3DVertexBuffer9 interface, d3d9helper/IDirect3DVertexBuffer9::Unlock, direct3d9.idirect3dvertexbuffer9__unlock
 ms.topic: method
-f1_keywords: 
- - "d3d9/IDirect3DVertexBuffer9.Unlock"
+f1_keywords:
+- d3d9/IDirect3DVertexBuffer9.Unlock
 dev_langs:
- - c++
+- c++
 req.header: d3d9.h
 req.include-header: D3D9.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: D3D9.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D9.lib
- - D3D9.dll
+- D3D9.lib
+- D3D9.dll
 api_name:
- - IDirect3DVertexBuffer9.Unlock
+- IDirect3DVertexBuffer9.Unlock
 targetos: Windows
 req.typenames: 
 req.redist: 

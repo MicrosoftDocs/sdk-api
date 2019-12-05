@@ -1,19 +1,17 @@
 ---
 UID: NS:uiautomationcore.UIAutomationPatternInfo
 title: UIAutomationPatternInfo (uiautomationcore.h)
-
 description: Contains information about a custom control pattern.
 old-location: winauto\uiauto_UIAutomationPatternInfoStruct.htm
 tech.root: WinAuto
 ms.assetid: f45c5736-75f3-4e44-b92a-3b0a51b41849
-
 ms.date: 12/05/2018
 ms.keywords: UIAutomationPatternInfo, UIAutomationPatternInfo structure [Windows Accessibility], uiauto.uiauto_UIAutomationPatternInfoStruct, uiauto_UIAutomationPatternInfoStruct, uiautomationcore/UIAutomationPatternInfo, winauto.uiauto_UIAutomationPatternInfoStruct
 ms.topic: struct
-f1_keywords: 
- - "uiautomationcore/UIAutomationPatternInfo"
+f1_keywords:
+- uiautomationcore/UIAutomationPatternInfo
 dev_langs:
- - c++
+- c++
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - UIAutomationCore.h
+- UIAutomationCore.h
 api_name:
- - UIAutomationPatternInfo
+- UIAutomationPatternInfo
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NE:sysinfoapi._COMPUTER_NAME_FORMAT
 title: COMPUTER_NAME_FORMAT (sysinfoapi.h)
-
 description: Specifies a type of computer name.
 old-location: base\computer_name_format_str.htm
 tech.root: SysInfo
 ms.assetid: 249830be-acd7-4417-ac33-c0fb2d87c4af
-
 ms.date: 12/05/2018
 ms.keywords: COMPUTER_NAME_FORMAT, COMPUTER_NAME_FORMAT enumeration, ComputerNameDnsDomain, ComputerNameDnsFullyQualified, ComputerNameDnsHostname, ComputerNameMax, ComputerNameNetBIOS, ComputerNamePhysicalDnsDomain, ComputerNamePhysicalDnsFullyQualified, ComputerNamePhysicalDnsHostname, ComputerNamePhysicalNetBIOS, _COMPUTER_NAME_FORMAT, _win32_computer_name_format_str, base.computer_name_format_str, sysinfoapi/COMPUTER_NAME_FORMAT, sysinfoapi/ComputerNameDnsDomain, sysinfoapi/ComputerNameDnsFullyQualified, sysinfoapi/ComputerNameDnsHostname, sysinfoapi/ComputerNameMax, sysinfoapi/ComputerNameNetBIOS, sysinfoapi/ComputerNamePhysicalDnsDomain, sysinfoapi/ComputerNamePhysicalDnsFullyQualified, sysinfoapi/ComputerNamePhysicalDnsHostname, sysinfoapi/ComputerNamePhysicalNetBIOS
 ms.topic: enum
-f1_keywords: 
- - "sysinfoapi/COMPUTER_NAME_FORMAT"
+f1_keywords:
+- sysinfoapi/COMPUTER_NAME_FORMAT
 dev_langs:
- - c++
+- c++
 req.header: sysinfoapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - sysinfoapi.h
+- sysinfoapi.h
 api_name:
- - COMPUTER_NAME_FORMAT
+- COMPUTER_NAME_FORMAT
 targetos: Windows
 req.typenames: COMPUTER_NAME_FORMAT
 req.redist: 

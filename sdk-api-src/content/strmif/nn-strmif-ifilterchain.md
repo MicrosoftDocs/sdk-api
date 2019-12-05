@@ -1,19 +1,17 @@
 ---
 UID: NN:strmif.IFilterChain
 title: IFilterChain (strmif.h)
-
 description: The IFilterChain interface provides methods for starting, stopping, or removing chains of filters in a filter graph.
 old-location: dshow\ifilterchain.htm
 tech.root: DirectShow
 ms.assetid: 04fa1e89-19cd-488e-9df2-8a5fd2c3f445
-
 ms.date: 12/05/2018
 ms.keywords: IFilterChain, IFilterChain interface [DirectShow], IFilterChain interface [DirectShow],described, IFilterChainInterface, dshow.ifilterchain, strmif/IFilterChain
 ms.topic: interface
-f1_keywords: 
- - "strmif/IFilterChain"
+f1_keywords:
+- strmif/IFilterChain
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IFilterChain
+- IFilterChain
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:comsvcs.IServicePool.GetObject
 title: IServicePool::GetObject (comsvcs.h)
-
 description: Retrieves an object from the object pool.
 old-location: cos\iservicepool_getobject.htm
 tech.root: cossdk
 ms.assetid: f1b9487a-156c-4c2c-ab18-edfd66d96315
-
 ms.date: 12/05/2018
 ms.keywords: GetObject, GetObject method [COM+], GetObject method [COM+],IServicePool interface, IServicePool interface [COM+],GetObject method, IServicePool.GetObject, IServicePool::GetObject, _cos_IServicePool_GetObject, comsvcs/IServicePool::GetObject, cos.iservicepool_getobject
 ms.topic: method
-f1_keywords: 
- - "comsvcs/IServicePool.GetObject"
+f1_keywords:
+- comsvcs/IServicePool.GetObject
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - IServicePool.GetObject
+- IServicePool.GetObject
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:dskquota.IDiskQuotaControl.AddUserSid
 title: IDiskQuotaControl::AddUserSid (dskquota.h)
-
 description: Adds a new quota entry on the volume for the specified user. The user is identified by security identifier (SID).
 old-location: fs\idiskquotacontrol_addusersid.htm
 tech.root: FileIO
 ms.assetid: a82b36a9-7270-4b4a-b850-67916864c052
-
 ms.date: 12/05/2018
 ms.keywords: AddUserSid, AddUserSid method [Files], AddUserSid method [Files],IDiskQuotaControl interface, DISKQUOTA_USERNAME_RESOLVE_ASYNC, DISKQUOTA_USERNAME_RESOLVE_NONE, DISKQUOTA_USERNAME_RESOLVE_SYNC, IDiskQuotaControl interface [Files],AddUserSid method, IDiskQuotaControl.AddUserSid, IDiskQuotaControl::AddUserSid, _win32_idiskquotacontrol_addusersid, base.idiskquotacontrol_addusersid, dskquota/IDiskQuotaControl::AddUserSid, fs.idiskquotacontrol_addusersid
 ms.topic: method
-f1_keywords: 
- - "dskquota/IDiskQuotaControl.AddUserSid"
+f1_keywords:
+- dskquota/IDiskQuotaControl.AddUserSid
 dev_langs:
- - c++
+- c++
 req.header: dskquota.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Dskquota.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dskquota.dll
+- Dskquota.dll
 api_name:
- - IDiskQuotaControl.AddUserSid
+- IDiskQuotaControl.AddUserSid
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:winbase.InterlockedExchangeSubtract
 title: InterlockedExchangeSubtract function (winbase.h)
-
 description: Performs an atomic subtraction of two values.
 old-location: base\interlockedexchangesubtract.htm
 tech.root: Sync
 ms.assetid: 9917323D-38C4-446E-B59A-52493A6020ED
-
 ms.date: 12/05/2018
 ms.keywords: InterlockedExchangeSubtract, InterlockedExchangeSubtract function, base.interlockedexchangesubtract, winbase/InterlockedExchangeSubtract
 ms.topic: function
-f1_keywords: 
- - "winbase/InterlockedExchangeSubtract"
+f1_keywords:
+- winbase/InterlockedExchangeSubtract
 dev_langs:
- - c++
+- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WinBase.h
+- WinBase.h
 api_name:
- - InterlockedExchangeSubtract
+- InterlockedExchangeSubtract
 targetos: Windows
 req.typenames: 
 req.redist: 

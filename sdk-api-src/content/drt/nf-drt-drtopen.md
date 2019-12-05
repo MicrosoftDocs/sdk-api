@@ -1,19 +1,17 @@
 ---
 UID: NF:drt.DrtOpen
 title: DrtOpen function (drt.h)
-
 description: DrtOpen function creates a local Distributed Routing Table instance against criteria specified by the DRT_SETTINGS structure.
 old-location: p2p\drtopen.htm
 tech.root: P2PSdk
 ms.assetid: 67320767-f622-478a-a886-bbea1650ac1a
-
 ms.date: 12/05/2018
 ms.keywords: DrtOpen, DrtOpen function [Peer Networking], drt/DrtOpen, p2p.drtopen
 ms.topic: function
-f1_keywords: 
- - "drt/DrtOpen"
+f1_keywords:
+- drt/DrtOpen
 dev_langs:
- - c++
+- c++
 req.header: drt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Drt.lib
 req.dll: Drt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - drt.dll
+- drt.dll
 api_name:
- - DrtOpen
+- DrtOpen
 targetos: Windows
 req.typenames: 
 req.redist: 

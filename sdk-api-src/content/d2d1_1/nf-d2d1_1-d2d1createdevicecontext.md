@@ -1,19 +1,17 @@
 ---
 UID: NF:d2d1_1.D2D1CreateDeviceContext
 title: D2D1CreateDeviceContext function (d2d1_1.h)
-
 description: Creates a new Direct2D device context associated with a DXGI surface.
 old-location: direct2d\d2d1createdevicecontext.htm
 tech.root: Direct2D
 ms.assetid: 0e56d057-20a5-47b7-aec9-63c8e31f349b
-
 ms.date: 12/05/2018
 ms.keywords: D2D1CreateDeviceContext, D2D1CreateDeviceContext function [Direct2D], d2d1_1/D2D1CreateDeviceContext, direct2d.d2d1createdevicecontext
 ms.topic: function
-f1_keywords: 
- - "d2d1_1/D2D1CreateDeviceContext"
+f1_keywords:
+- d2d1_1/D2D1CreateDeviceContext
 dev_langs:
- - c++
+- c++
 req.header: d2d1_1.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: D2d1.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - d2d1.dll
+- d2d1.dll
 api_name:
- - D2D1CreateDeviceContext
+- D2D1CreateDeviceContext
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationElement4.get_CachedAnnotationTypes
 title: IUIAutomationElement4::get_CachedAnnotationTypes (uiautomationclient.h)
-
 description: Returns the cached list of annotation types associated with this element, such as comment, header, footer, and so on.
 old-location: winauto\uiauto_IUIAutomationElement4_CachedAnnotationTypes.htm
 tech.root: WinAuto
 ms.assetid: 1F3E9CD4-8E4A-47B0-BDEA-A869735B2538
-
 ms.date: 12/05/2018
 ms.keywords: CachedAnnotationTypes property [Windows Accessibility], CachedAnnotationTypes property [Windows Accessibility],IUIAutomationElement4 interface, IUIAutomationElement4 interface [Windows Accessibility],CachedAnnotationTypes property, IUIAutomationElement4.CachedAnnotationTypes, IUIAutomationElement4.get_CachedAnnotationTypes, IUIAutomationElement4::CachedAnnotationTypes, IUIAutomationElement4::get_CachedAnnotationTypes, get_CachedAnnotationTypes, uiautomationclient/IUIAutomationElement4::CachedAnnotationTypes, uiautomationclient/IUIAutomationElement4::get_CachedAnnotationTypes, winauto.uiauto_IUIAutomationElement4_CachedAnnotationTypes
 ms.topic: method
-f1_keywords: 
- - "uiautomationclient/IUIAutomationElement4.CachedAnnotationTypes"
+f1_keywords:
+- uiautomationclient/IUIAutomationElement4.CachedAnnotationTypes
 dev_langs:
- - c++
+- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: UIAutomationCore.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationCore.dll
+- UIAutomationCore.dll
 api_name:
- - IUIAutomationElement4.CachedAnnotationTypes
- - IUIAutomationElement4.get_CachedAnnotationTypes
+- IUIAutomationElement4.CachedAnnotationTypes
+- IUIAutomationElement4.get_CachedAnnotationTypes
 targetos: Windows
 req.typenames: 
 req.redist: 

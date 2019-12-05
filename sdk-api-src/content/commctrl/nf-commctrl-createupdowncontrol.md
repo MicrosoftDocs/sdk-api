@@ -1,19 +1,17 @@
 ---
 UID: NF:commctrl.CreateUpDownControl
 title: CreateUpDownControl function (commctrl.h)
-
 description: Creates an up-down control. Note:\_This function is obsolete. It is a 16 bit function and cannot handle 32 bit values for range and position.
 old-location: controls\CreateUpDownControl.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\updown\functions\createupdowncontrol.htm
-
 ms.date: 12/05/2018
 ms.keywords: CreateUpDownControl, CreateUpDownControl function [Windows Controls], _win32_CreateUpDownControl, _win32_CreateUpDownControl_cpp, commctrl/CreateUpDownControl, controls.CreateUpDownControl, controls._win32_CreateUpDownControl
 ms.topic: function
-f1_keywords: 
- - "commctrl/CreateUpDownControl"
+f1_keywords:
+- commctrl/CreateUpDownControl
 dev_langs:
- - c++
+- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Comctl32.lib
 req.dll: Comctl32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Comctl32.dll
+- Comctl32.dll
 api_name:
- - CreateUpDownControl
+- CreateUpDownControl
 targetos: Windows
 req.typenames: 
 req.redist: 

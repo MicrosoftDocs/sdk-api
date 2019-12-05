@@ -1,19 +1,17 @@
 ---
 UID: NF:usp10.ScriptJustify
 title: ScriptJustify function (usp10.h)
-
 description: Creates an advance widths table to allow text justification when passed to the ScriptTextOut function.
 old-location: intl\scriptjustify.htm
 tech.root: Intl
 ms.assetid: 9419eb80-cd33-4974-a1f1-d43276cb7a91
-
 ms.date: 12/05/2018
 ms.keywords: ScriptJustify, ScriptJustify function [Internationalization for Windows Applications], _win32_ScriptJustify, intl.scriptjustify, usp10/ScriptJustify
 ms.topic: function
-f1_keywords: 
- - "usp10/ScriptJustify"
+f1_keywords:
+- usp10/ScriptJustify
 dev_langs:
- - c++
+- c++
 req.header: usp10.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Usp10.lib
 req.dll: Usp10.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Usp10.dll
- - Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
- - GDI32.dll
- - GDI32Full.dll
+- Usp10.dll
+- Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
+- GDI32.dll
+- GDI32Full.dll
 api_name:
- - ScriptJustify
+- ScriptJustify
 targetos: Windows
 req.typenames: 
 req.redist: Internet Explorer 5 or later on Windows Me/98/95

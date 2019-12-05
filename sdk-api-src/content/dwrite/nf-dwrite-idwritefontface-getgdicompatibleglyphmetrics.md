@@ -1,19 +1,17 @@
 ---
 UID: NF:dwrite.IDWriteFontFace.GetGdiCompatibleGlyphMetrics
 title: IDWriteFontFace::GetGdiCompatibleGlyphMetrics (dwrite.h)
-
 description: Obtains glyph metrics in font design units with the return values compatible with what GDI would produce.
 old-location: directwrite\idwritefontface_getgdicompatibleglyphmetrics.htm
 tech.root: DirectWrite
 ms.assetid: 7bda3916-6db3-4f56-b18c-288506c0b646
-
 ms.date: 12/05/2018
 ms.keywords: GetGdiCompatibleGlyphMetrics, GetGdiCompatibleGlyphMetrics method [Direct Write], GetGdiCompatibleGlyphMetrics method [Direct Write],IDWriteFontFace interface, IDWriteFontFace interface [Direct Write],GetGdiCompatibleGlyphMetrics method, IDWriteFontFace.GetGdiCompatibleGlyphMetrics, IDWriteFontFace::GetGdiCompatibleGlyphMetrics, directwrite.idwritefontface_getgdicompatibleglyphmetrics, dwrite/IDWriteFontFace::GetGdiCompatibleGlyphMetrics
 ms.topic: method
-f1_keywords: 
- - "dwrite/IDWriteFontFace.GetGdiCompatibleGlyphMetrics"
+f1_keywords:
+- dwrite/IDWriteFontFace.GetGdiCompatibleGlyphMetrics
 dev_langs:
- - c++
+- c++
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dwrite.lib
 req.dll: Dwrite.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dwrite.dll
+- dwrite.dll
 api_name:
- - IDWriteFontFace.GetGdiCompatibleGlyphMetrics
+- IDWriteFontFace.GetGdiCompatibleGlyphMetrics
 targetos: Windows
 req.typenames: 
 req.redist: 

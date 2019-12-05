@@ -1,19 +1,17 @@
 ---
 UID: NF:textserv.ITextHost.TxGetSysColor
 title: ITextHost::TxGetSysColor (textserv.h)
-
 description: Retrieves the text host's color for a specified display element.
 old-location: controls\ITextHost_TxGetSysColor.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\windowlessricheditcontrols\windowlessricheditcontrolsreference\windowlessricheditcontrolinterfaces\itexthost\itexthosttxgetsyscolor.htm
-
 ms.date: 12/05/2018
 ms.keywords: ITextHost interface [Windows Controls],TxGetSysColor method, ITextHost.TxGetSysColor, ITextHost::TxGetSysColor, TxGetSysColor, TxGetSysColor method [Windows Controls], TxGetSysColor method [Windows Controls],ITextHost interface, _win32_ITextHost_TxGetSysColor, _win32_ITextHost_TxGetSysColor_cpp, controls.ITextHost_TxGetSysColor, controls._win32_ITextHost_TxGetSysColor, textserv/ITextHost::TxGetSysColor
 ms.topic: method
-f1_keywords: 
- - "textserv/ITextHost.TxGetSysColor"
+f1_keywords:
+- textserv/ITextHost.TxGetSysColor
 dev_langs:
- - c++
+- c++
 req.header: textserv.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msftedit.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msftedit.dll
+- Msftedit.dll
 api_name:
- - ITextHost.TxGetSysColor
+- ITextHost.TxGetSysColor
 targetos: Windows
 req.typenames: 
 req.redist: 

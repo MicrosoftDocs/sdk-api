@@ -1,19 +1,17 @@
 ---
 UID: NF:gpmgmt.IGPMStarterGPOCollection.get_Item
 title: IGPMStarterGPOCollection::get_Item (gpmgmt.h)
-
 description: Given an index, returns a pointer to an IGPMGPO interface from the collection.
 old-location: gpmc\igpmstartergpocollection_get_item.htm
 tech.root: gpmc
 ms.assetid: e8385fe5-8a65-48be-b997-dbddd638ddbc
-
 ms.date: 12/05/2018
 ms.keywords: IGPMStarterGPOCollection interface [GPMC],Item property, IGPMStarterGPOCollection.Item, IGPMStarterGPOCollection.get_Item, IGPMStarterGPOCollection::Item, IGPMStarterGPOCollection::get_Item, Item property [GPMC], Item property [GPMC],IGPMStarterGPOCollection interface, get_Item, gpmc.igpmstartergpocollection_get_item, gpmgmt/IGPMStarterGPOCollection::Item, gpmgmt/IGPMStarterGPOCollection::get_Item
 ms.topic: method
-f1_keywords: 
- - "gpmgmt/IGPMStarterGPOCollection.Item"
+f1_keywords:
+- gpmgmt/IGPMStarterGPOCollection.Item
 dev_langs:
- - c++
+- c++
 req.header: gpmgmt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: Gpmgmt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gpmgmt.dll
+- Gpmgmt.dll
 api_name:
- - IGPMStarterGPOCollection.Item
- - IGPMStarterGPOCollection.get_Item
+- IGPMStarterGPOCollection.Item
+- IGPMStarterGPOCollection.get_Item
 targetos: Windows
 req.typenames: 
 req.redist: 

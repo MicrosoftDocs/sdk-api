@@ -1,19 +1,17 @@
 ---
 UID: NF:imapi2.IDiscFormat2TrackAtOnce.get_DoNotFinalizeMedia
 title: IDiscFormat2TrackAtOnce::get_DoNotFinalizeMedia (imapi2.h)
-
 description: Determines if the media is left open for writing after writing the audio track.
 old-location: imapi\idiscformat2trackatonce_get_donotfinalizemedia.htm
 tech.root: imapi
 ms.assetid: 7f33bbc2-531a-472a-8e2a-b7e9fb4d6bba
-
 ms.date: 12/05/2018
 ms.keywords: IDiscFormat2TrackAtOnce interface [IMAPI],get_DoNotFinalizeMedia method, IDiscFormat2TrackAtOnce.get_DoNotFinalizeMedia, IDiscFormat2TrackAtOnce::get_DoNotFinalizeMedia, get_DoNotFinalizeMedia, get_DoNotFinalizeMedia method [IMAPI], get_DoNotFinalizeMedia method [IMAPI],IDiscFormat2TrackAtOnce interface, imapi.idiscformat2trackatonce_get_donotfinalizemedia, imapi2/IDiscFormat2TrackAtOnce::get_DoNotFinalizeMedia
 ms.topic: method
-f1_keywords: 
- - "imapi2/IDiscFormat2TrackAtOnce.get_DoNotFinalizeMedia"
+f1_keywords:
+- imapi2/IDiscFormat2TrackAtOnce.get_DoNotFinalizeMedia
 dev_langs:
- - c++
+- c++
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - imapi2.h
+- imapi2.h
 api_name:
- - IDiscFormat2TrackAtOnce.get_DoNotFinalizeMedia
+- IDiscFormat2TrackAtOnce.get_DoNotFinalizeMedia
 targetos: Windows
 req.typenames: 
 req.redist: 

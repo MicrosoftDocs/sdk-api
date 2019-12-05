@@ -1,19 +1,17 @@
 ---
 UID: NF:netlistmgr.INetworkListManager.GetConnectivity
 title: INetworkListManager::GetConnectivity (netlistmgr.h)
-
 description: The GetConnectivity method returns the overall connectivity state of the machine.
 old-location: nla\inetworklistmanager_getconnectivity.htm
 tech.root: nla
 ms.assetid: 4695554a-2f8b-4d2e-b3ff-ec22c43387d6
-
 ms.date: 12/05/2018
 ms.keywords: GetConnectivity, GetConnectivity method [Network Awareness], GetConnectivity method [Network Awareness],INetworkListManager interface, INetworkListManager interface [Network Awareness],GetConnectivity method, INetworkListManager.GetConnectivity, INetworkListManager::GetConnectivity, netlistmgr/INetworkListManager::GetConnectivity, nla.inetworklistmanager_getconnectivity
 ms.topic: method
-f1_keywords: 
- - "netlistmgr/INetworkListManager.GetConnectivity"
+f1_keywords:
+- netlistmgr/INetworkListManager.GetConnectivity
 dev_langs:
- - c++
+- c++
 req.header: netlistmgr.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Netlistmgr.h
+- Netlistmgr.h
 api_name:
- - INetworkListManager.GetConnectivity
+- INetworkListManager.GetConnectivity
 targetos: Windows
 req.typenames: 
 req.redist: 

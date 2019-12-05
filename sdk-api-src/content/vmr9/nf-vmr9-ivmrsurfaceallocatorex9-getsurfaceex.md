@@ -1,19 +1,17 @@
 ---
 UID: NF:vmr9.IVMRSurfaceAllocatorEx9.GetSurfaceEx
 title: IVMRSurfaceAllocatorEx9::GetSurfaceEx (vmr9.h)
-
 description: The GetSurfaceEx method retrieves a Direct3D surface and a destination rectangle.
 old-location: dshow\ivmrsurfaceallocatorex9_getsurfaceex.htm
 tech.root: DirectShow
 ms.assetid: 828f1ea6-4093-4a33-bc41-0f6fff752bcf
-
 ms.date: 12/05/2018
 ms.keywords: GetSurfaceEx, GetSurfaceEx method [DirectShow], GetSurfaceEx method [DirectShow],IVMRSurfaceAllocatorEx9 interface, IVMRSurfaceAllocatorEx9 interface [DirectShow],GetSurfaceEx method, IVMRSurfaceAllocatorEx9.GetSurfaceEx, IVMRSurfaceAllocatorEx9::GetSurfaceEx, IVMRSurfaceAllocatorEx9GetSurfaceEx, dshow.ivmrsurfaceallocatorex9_getsurfaceex, vmr9/IVMRSurfaceAllocatorEx9::GetSurfaceEx
 ms.topic: method
-f1_keywords: 
- - "vmr9/IVMRSurfaceAllocatorEx9.GetSurfaceEx"
+f1_keywords:
+- vmr9/IVMRSurfaceAllocatorEx9.GetSurfaceEx
 dev_langs:
- - c++
+- c++
 req.header: vmr9.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IVMRSurfaceAllocatorEx9.GetSurfaceEx
+- IVMRSurfaceAllocatorEx9.GetSurfaceEx
 targetos: Windows
 req.typenames: 
 req.redist: 

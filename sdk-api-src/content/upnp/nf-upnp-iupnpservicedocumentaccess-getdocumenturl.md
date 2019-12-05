@@ -1,19 +1,17 @@
 ---
 UID: NF:upnp.IUPnPServiceDocumentAccess.GetDocumentURL
 title: IUPnPServiceDocumentAccess::GetDocumentURL (upnp.h)
-
 description: GetDocumentURL method retrieves the Service Control Protocol Description (SCPD) URL for a service object. Using this URL, the UPnP control point can download the complete SCPD document.
 old-location: upnp\iupnpservicedocumentaccess_getdocumenturl.htm
 tech.root: upnp
 ms.assetid: 57AF4510-89D6-4DD5-B164-1478A5C27E20
-
 ms.date: 12/05/2018
 ms.keywords: GetDocumentURL, GetDocumentURL method [UPnP APIs], GetDocumentURL method [UPnP APIs],IUPnPServiceDocumentAccess interface, IUPnPServiceDocumentAccess interface [UPnP APIs],GetDocumentURL method, IUPnPServiceDocumentAccess.GetDocumentURL, IUPnPServiceDocumentAccess::GetDocumentURL, upnp.iupnpservicedocumentaccess_getdocumenturl, upnp/IUPnPServiceDocumentAccess::GetDocumentURL
 ms.topic: method
-f1_keywords: 
- - "upnp/IUPnPServiceDocumentAccess.GetDocumentURL"
+f1_keywords:
+- upnp/IUPnPServiceDocumentAccess.GetDocumentURL
 dev_langs:
- - c++
+- c++
 req.header: upnp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Upnp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Upnp.dll
+- Upnp.dll
 api_name:
- - IUPnPServiceDocumentAccess.GetDocumentURL
+- IUPnPServiceDocumentAccess.GetDocumentURL
 targetos: Windows
 req.typenames: 
 req.redist: 

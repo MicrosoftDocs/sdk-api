@@ -1,19 +1,17 @@
 ---
 UID: NF:tuner.IDigitalCableTuningSpace.put_MaxSourceID
 title: IDigitalCableTuningSpace::put_MaxSourceID (tuner.h)
-
 description: The put_MaxSourceID method sets the highest source identifier for this tuning space.
 old-location: mstv\idigitalcabletuningspace_put_maxsourceid.htm
 tech.root: mstv
 ms.assetid: e81caac5-8494-43af-bdca-9894efb90765
-
 ms.date: 12/05/2018
 ms.keywords: IDigitalCableTuningSpace interface [Microsoft TV Technologies],put_MaxSourceID method, IDigitalCableTuningSpace.put_MaxSourceID, IDigitalCableTuningSpace::put_MaxSourceID, IDigitalCableTuningSpaceput_MaxSourceID, mstv.idigitalcabletuningspace_put_maxsourceid, put_MaxSourceID, put_MaxSourceID method [Microsoft TV Technologies], put_MaxSourceID method [Microsoft TV Technologies],IDigitalCableTuningSpace interface, tuner/IDigitalCableTuningSpace::put_MaxSourceID
 ms.topic: method
-f1_keywords: 
- - "tuner/IDigitalCableTuningSpace.put_MaxSourceID"
+f1_keywords:
+- tuner/IDigitalCableTuningSpace.put_MaxSourceID
 dev_langs:
- - c++
+- c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - tuner.h
+- tuner.h
 api_name:
- - IDigitalCableTuningSpace.put_MaxSourceID
+- IDigitalCableTuningSpace.put_MaxSourceID
 targetos: Windows
 req.typenames: 
 req.redist: 

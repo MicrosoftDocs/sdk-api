@@ -1,19 +1,17 @@
 ---
 UID: NF:msinkaut.IInkDrawingAttributes.put_PenTip
 title: IInkDrawingAttributes::put_PenTip (msinkaut.h)
-
 description: Gets or sets a value that indicates which pen tip to use when drawing ink that is associated with this InkDrawingAttributes object.
 old-location: tablet\inkdrawingattributes_pentip.htm
 tech.root: tablet
 ms.assetid: 13e3c2dc-99a4-4643-b8b2-48586b0eb2f0
-
 ms.date: 12/05/2018
 ms.keywords: 13e3c2dc-99a4-4643-b8b2-48586b0eb2f0, IInkDrawingAttributes interface [Tablet PC],PenTip property, IInkDrawingAttributes.PenTip, IInkDrawingAttributes.put_PenTip, IInkDrawingAttributes::PenTip, IInkDrawingAttributes::get_PenTip, IInkDrawingAttributes::put_PenTip, InkDrawingAttributes.get_PenTip, InkDrawingAttributes.put_PenTip, PenTip property [Tablet PC], PenTip property [Tablet PC],IInkDrawingAttributes interface, get_PenTip, msinkaut/IInkDrawingAttributes::PenTip, msinkaut/IInkDrawingAttributes::get_PenTip, msinkaut/IInkDrawingAttributes::put_PenTip, put_PenTip, tablet.inkdrawingattributes_pentip
 ms.topic: method
-f1_keywords: 
- - "msinkaut/IInkDrawingAttributes.PenTip"
+f1_keywords:
+- msinkaut/IInkDrawingAttributes.PenTip
 dev_langs:
- - c++
+- c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows
@@ -32,19 +30,19 @@ req.lib: InkObj.dll
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - InkObj.dll
- - InkObj.dll.dll
+- InkObj.dll
+- InkObj.dll.dll
 api_name:
- - IInkDrawingAttributes.PenTip
- - IInkDrawingAttributes.get_PenTip
- - IInkDrawingAttributes.put_PenTip
- - InkDrawingAttributes.get_PenTip
- - InkDrawingAttributes.put_PenTip
+- IInkDrawingAttributes.PenTip
+- IInkDrawingAttributes.get_PenTip
+- IInkDrawingAttributes.put_PenTip
+- InkDrawingAttributes.get_PenTip
+- InkDrawingAttributes.put_PenTip
 targetos: Windows
 req.typenames: 
 req.redist: 

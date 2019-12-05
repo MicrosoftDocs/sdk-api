@@ -1,19 +1,17 @@
 ---
 UID: NF:fwpmu.FwpmFilterUnsubscribeChanges0
 title: FwpmFilterUnsubscribeChanges0 function (fwpmu.h)
-
 description: Is used to cancel a filter change subscription and stop receiving change notifications.
 old-location: fwp\fwpmfilterunsubscribechanges0_func.htm
 tech.root: fwp
 ms.assetid: a7e78b38-9d24-4883-83a7-f4ecdf7ffb4c
-
 ms.date: 12/05/2018
 ms.keywords: FwpmFilterUnsubscribeChanges0, FwpmFilterUnsubscribeChanges0 function [Filtering], fwp.fwpmfilterunsubscribechanges0_func, fwpmu/FwpmFilterUnsubscribeChanges0
 ms.topic: function
-f1_keywords: 
- - "fwpmu/FwpmFilterUnsubscribeChanges0"
+f1_keywords:
+- fwpmu/FwpmFilterUnsubscribeChanges0
 dev_langs:
- - c++
+- c++
 req.header: fwpmu.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Fwpuclnt.lib
 req.dll: Fwpuclnt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Fwpuclnt.dll
+- Fwpuclnt.dll
 api_name:
- - FwpmFilterUnsubscribeChanges0
+- FwpmFilterUnsubscribeChanges0
 targetos: Windows
 req.typenames: 
 req.redist: 

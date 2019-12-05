@@ -1,19 +1,17 @@
 ---
 UID: NF:rtworkq.IRtwqAsyncResult.GetState
 title: IRtwqAsyncResult::GetState (rtworkq.h)
-
 description: Returns the state object specified by the caller in the asynchronous Begin method.
 old-location: base\irtwqasyncresult_getstate.htm
 tech.root: ProcThread
 ms.assetid: 26940ECA-BE6A-42E4-8D9E-E002A6D5DD23
-
 ms.date: 12/05/2018
 ms.keywords: GetState, GetState method, GetState method,IRtwqAsyncResult interface, IRtwqAsyncResult interface,GetState method, IRtwqAsyncResult.GetState, IRtwqAsyncResult::GetState, base.irtwqasyncresult_getstate, rtworkq/IRtwqAsyncResult::GetState
 ms.topic: method
-f1_keywords: 
- - "rtworkq/IRtwqAsyncResult.GetState"
+f1_keywords:
+- rtworkq/IRtwqAsyncResult.GetState
 dev_langs:
- - c++
+- c++
 req.header: rtworkq.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Rtworkq.lib
 req.dll: RTWorkQ.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - RTWorkQ.dll
+- RTWorkQ.dll
 api_name:
- - IRtwqAsyncResult.GetState
+- IRtwqAsyncResult.GetState
 targetos: Windows
 req.typenames: 
 req.redist: 

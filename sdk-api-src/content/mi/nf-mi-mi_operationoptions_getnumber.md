@@ -1,19 +1,17 @@
 ---
 UID: NF:mi.MI_OperationOptions_GetNumber
 title: MI_OperationOptions_GetNumber function (mi.h)
-
 description: Gets a previously added custom number option.
 old-location: wmi_v2\mi_operationoptions_getnumber.htm
 tech.root: wmi_v2
 ms.assetid: 5c22c18d-9e1f-4cf7-84c1-e4e8863d0dc1
-
 ms.date: 12/05/2018
 ms.keywords: MI_OperationOptions_GetNumber, MI_OperationOptions_GetNumber function [Windows Management Infrastructure (MI)], mi/MI_OperationOptions_GetNumber, wmi_v2.mi_operationoptions_getnumber
 ms.topic: function
 f1_keywords:
 - mi/MI_OperationOptions_GetNumber
 dev_langs:
- - c++
+- c++
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows

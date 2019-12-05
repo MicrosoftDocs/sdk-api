@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IMediaSeeking.GetDuration
 title: IMediaSeeking::GetDuration (strmif.h)
-
 description: The GetDuration method gets the duration of the stream.
 old-location: dshow\imediaseeking_getduration.htm
 tech.root: DirectShow
 ms.assetid: 15b98fb0-a0dd-47fc-8046-fa336afa970c
-
 ms.date: 12/05/2018
 ms.keywords: GetDuration, GetDuration method [DirectShow], GetDuration method [DirectShow],IMediaSeeking interface, IMediaSeeking interface [DirectShow],GetDuration method, IMediaSeeking.GetDuration, IMediaSeeking::GetDuration, IMediaSeekingGetDuration, dshow.imediaseeking_getduration, strmif/IMediaSeeking::GetDuration
 ms.topic: method
-f1_keywords: 
- - "strmif/IMediaSeeking.GetDuration"
+f1_keywords:
+- strmif/IMediaSeeking.GetDuration
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IMediaSeeking.GetDuration
+- IMediaSeeking.GetDuration
 targetos: Windows
 req.typenames: 
 req.redist: 

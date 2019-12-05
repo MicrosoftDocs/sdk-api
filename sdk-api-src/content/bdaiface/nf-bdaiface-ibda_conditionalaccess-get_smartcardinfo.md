@@ -1,19 +1,17 @@
 ---
 UID: NF:bdaiface.IBDA_ConditionalAccess.get_SmartCardInfo
 title: IBDA_ConditionalAccess::get_SmartCardInfo (bdaiface.h)
-
 description: The get_SmartCardInfo method retrieves information about the smart card.
 old-location: mstv\ibda_conditionalaccess_get_smartcardinfo.htm
 tech.root: mstv
 ms.assetid: 0c9143e7-1e59-4f64-84b8-2bbac18cf787
-
 ms.date: 12/05/2018
 ms.keywords: IBDA_ConditionalAccess interface [Microsoft TV Technologies],get_SmartCardInfo method, IBDA_ConditionalAccess.get_SmartCardInfo, IBDA_ConditionalAccess::get_SmartCardInfo, IBDA_ConditionalAccessget_SmartCardInfo, bdaiface/IBDA_ConditionalAccess::get_SmartCardInfo, get_SmartCardInfo, get_SmartCardInfo method [Microsoft TV Technologies], get_SmartCardInfo method [Microsoft TV Technologies],IBDA_ConditionalAccess interface, mstv.ibda_conditionalaccess_get_smartcardinfo
 ms.topic: method
-f1_keywords: 
- - "bdaiface/IBDA_ConditionalAccess.get_SmartCardInfo"
+f1_keywords:
+- bdaiface/IBDA_ConditionalAccess.get_SmartCardInfo
 dev_langs:
- - c++
+- c++
 req.header: bdaiface.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Bdaiface.h
+- Bdaiface.h
 api_name:
- - IBDA_ConditionalAccess.get_SmartCardInfo
+- IBDA_ConditionalAccess.get_SmartCardInfo
 targetos: Windows
 req.typenames: 
 req.redist: 

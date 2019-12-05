@@ -1,19 +1,17 @@
 ---
 UID: NF:dcomp.IDCompositionDeviceDebug.DisableDebugCounters
 title: IDCompositionDeviceDebug::DisableDebugCounters (dcomp.h)
-
 description: Disables display of performance debugging counters.
 old-location: directcomp\idcompositiondevicedebug_disabledebugcounters.htm
 tech.root: directcomp
 ms.assetid: 7B1E35D4-8CB3-4AAC-91D9-E1191A6DC169
-
 ms.date: 12/05/2018
 ms.keywords: DisableDebugCounters, DisableDebugCounters method [DirectComposition], DisableDebugCounters method [DirectComposition],IDCompositionDeviceDebug interface, IDCompositionDeviceDebug interface [DirectComposition],DisableDebugCounters method, IDCompositionDeviceDebug.DisableDebugCounters, IDCompositionDeviceDebug::DisableDebugCounters, dcomp/IDCompositionDeviceDebug::DisableDebugCounters, directcomp.idcompositiondevicedebug_disabledebugcounters
 ms.topic: method
-f1_keywords: 
- - "dcomp/IDCompositionDeviceDebug.DisableDebugCounters"
+f1_keywords:
+- dcomp/IDCompositionDeviceDebug.DisableDebugCounters
 dev_langs:
- - c++
+- c++
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dcomp.lib
 req.dll: Dcomp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dcomp.dll
+- Dcomp.dll
 api_name:
- - IDCompositionDeviceDebug.DisableDebugCounters
+- IDCompositionDeviceDebug.DisableDebugCounters
 targetos: Windows
 req.typenames: 
 req.redist: 

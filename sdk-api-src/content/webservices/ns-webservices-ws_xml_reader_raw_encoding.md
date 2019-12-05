@@ -1,19 +1,17 @@
 ---
 UID: NS:webservices._WS_XML_READER_RAW_ENCODING
 title: WS_XML_READER_RAW_ENCODING (webservices.h)
-
 description: Used to indicate that the reader should surface the bytes of the document as base64 encoded characters.
 old-location: wsw\ws_xml_reader_raw_encoding.htm
 tech.root: wsw
 ms.assetid: 5f3004e7-347f-46a5-8d8f-743a76e1fa71
-
 ms.date: 12/05/2018
 ms.keywords: WS_XML_READER_RAW_ENCODING, WS_XML_READER_RAW_ENCODING structure [Web Services for Windows], webservices/WS_XML_READER_RAW_ENCODING, wsw.ws_xml_reader_raw_encoding
 ms.topic: struct
 f1_keywords:
 - webservices/WS_XML_READER_RAW_ENCODING
 dev_langs:
- - c++
+- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

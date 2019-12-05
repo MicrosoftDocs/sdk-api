@@ -1,19 +1,17 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMCanvas.GetDictionary
 title: IXpsOMCanvas::GetDictionary (xpsobjectmodel.h)
-
 description: Gets a pointer to the resolved IXpsOMDictionary interface of the dictionary associated with the canvas.
 old-location: xps\ixpsomcanvas_getdictionary.htm
 tech.root: printdocs
 ms.assetid: f32b534e-92bf-4e80-9ac1-b2577e076bed
-
 ms.date: 12/05/2018
 ms.keywords: GetDictionary, GetDictionary method [XPS Documents and Packaging], GetDictionary method [XPS Documents and Packaging],IXpsOMCanvas interface, IXpsOMCanvas interface [XPS Documents and Packaging],GetDictionary method, IXpsOMCanvas.GetDictionary, IXpsOMCanvas::GetDictionary, xps.ixpsomcanvas_getdictionary, xpsobjectmodel/IXpsOMCanvas::GetDictionary
 ms.topic: method
-f1_keywords: 
- - "xpsobjectmodel/IXpsOMCanvas.GetDictionary"
+f1_keywords:
+- xpsobjectmodel/IXpsOMCanvas.GetDictionary
 dev_langs:
- - c++
+- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsobjectmodel.h
+- xpsobjectmodel.h
 api_name:
- - IXpsOMCanvas.GetDictionary
+- IXpsOMCanvas.GetDictionary
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:msdrm.DRMGetUserRights
 title: DRMGetUserRights function (msdrm.h)
-
 description: Retrieves user/right pairs from an issuance license.
 old-location: rm\drmgetuserrights.htm
 tech.root: AdRms_Sdk
 ms.assetid: 46191a8e-66e1-44a5-8052-a21fda88625a
-
 ms.date: 12/05/2018
 ms.keywords: DRMGetUserRights, DRMGetUserRights function [Active Directory Rights Management Services SDK 1.0], msdrm/DRMGetUserRights, rm.drmgetuserrights
 ms.topic: function
-f1_keywords: 
- - "msdrm/DRMGetUserRights"
+f1_keywords:
+- msdrm/DRMGetUserRights
 dev_langs:
- - c++
+- c++
 req.header: msdrm.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Msdrm.lib
 req.dll: Msdrm.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Msdrm.dll
+- Msdrm.dll
 api_name:
- - DRMGetUserRights
+- DRMGetUserRights
 targetos: Windows
 req.typenames: 
 req.redist: 

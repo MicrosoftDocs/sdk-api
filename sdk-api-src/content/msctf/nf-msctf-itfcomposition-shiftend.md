@@ -1,19 +1,17 @@
 ---
 UID: NF:msctf.ITfComposition.ShiftEnd
 title: ITfComposition::ShiftEnd (msctf.h)
-
 description: ITfComposition::ShiftEnd method
 old-location: tsf\itfcomposition_shiftend.htm
 tech.root: TSF
 ms.assetid: 40472318-85de-4cff-ac60-adfcbacc1537
-
 ms.date: 12/05/2018
 ms.keywords: ITfComposition interface [Text Services Framework],ShiftEnd method, ITfComposition.ShiftEnd, ITfComposition::ShiftEnd, ShiftEnd, ShiftEnd method [Text Services Framework], ShiftEnd method [Text Services Framework],ITfComposition interface, _tsf_itfcomposition_shiftend_ref, msctf/ITfComposition::ShiftEnd, tsf.itfcomposition_shiftend
 ms.topic: method
-f1_keywords: 
- - "msctf/ITfComposition.ShiftEnd"
+f1_keywords:
+- msctf/ITfComposition.ShiftEnd
 dev_langs:
- - c++
+- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msctf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msctf.dll
+- msctf.dll
 api_name:
- - ITfComposition.ShiftEnd
+- ITfComposition.ShiftEnd
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

@@ -1,19 +1,17 @@
 ---
 UID: NS:wingdi.tagEMRSTRETCHDIBITS
 title: EMRSTRETCHDIBITS (wingdi.h)
-
 description: The EMRSTRETCHDIBITS structure contains members for the StretchDIBits enhanced metafile record.
 old-location: gdi\emrstretchdibits.htm
 tech.root: gdi
 ms.assetid: aa104ffa-44ed-41f6-a1a7-23bbab68e16c
-
 ms.date: 12/05/2018
-ms.keywords: "*PEMRSTRETCHDIBITS, EMRSTRETCHDIBITS, EMRSTRETCHDIBITS structure [Windows GDI], PEMRSTRETCHDIBITS, PEMRSTRETCHDIBITS structure pointer [Windows GDI], _win32_EMRSTRETCHDIBITS_str, gdi.emrstretchdibits, wingdi/EMRSTRETCHDIBITS, wingdi/PEMRSTRETCHDIBITS"
+ms.keywords: '*PEMRSTRETCHDIBITS, EMRSTRETCHDIBITS, EMRSTRETCHDIBITS structure [Windows GDI], PEMRSTRETCHDIBITS, PEMRSTRETCHDIBITS structure pointer [Windows GDI], _win32_EMRSTRETCHDIBITS_str, gdi.emrstretchdibits, wingdi/EMRSTRETCHDIBITS, wingdi/PEMRSTRETCHDIBITS'
 ms.topic: struct
-f1_keywords: 
- - "wingdi/EMRSTRETCHDIBITS"
+f1_keywords:
+- wingdi/EMRSTRETCHDIBITS
 dev_langs:
- - c++
+- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wingdi.h
+- Wingdi.h
 api_name:
- - EMRSTRETCHDIBITS
+- EMRSTRETCHDIBITS
 targetos: Windows
 req.typenames: EMRSTRETCHDIBITS, *PEMRSTRETCHDIBITS
 req.redist: 

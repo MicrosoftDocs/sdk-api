@@ -1,19 +1,17 @@
 ---
 UID: NF:credentialprovider.ICredentialProviderCredential.GetComboBoxValueAt
 title: ICredentialProviderCredential::GetComboBoxValueAt (credentialprovider.h)
-
 description: Gets the string label for a combo box entry at the given index.
 old-location: shell\ICredentialProviderCredential_GetComboBoxValueAt.htm
 tech.root: shell
 ms.assetid: e64c6b80-03c9-46a3-91bd-6cd67d666540
-
 ms.date: 12/05/2018
 ms.keywords: GetComboBoxValueAt, GetComboBoxValueAt method [Windows Shell], GetComboBoxValueAt method [Windows Shell],ICredentialProviderCredential interface, ICredentialProviderCredential interface [Windows Shell],GetComboBoxValueAt method, ICredentialProviderCredential.GetComboBoxValueAt, ICredentialProviderCredential::GetComboBoxValueAt, _shell_ICredentialProviderCredential_GetComboBoxValueAt, credentialprovider/ICredentialProviderCredential::GetComboBoxValueAt, shell.ICredentialProviderCredential_GetComboBoxValueAt
 ms.topic: method
-f1_keywords: 
- - "credentialprovider/ICredentialProviderCredential.GetComboBoxValueAt"
+f1_keywords:
+- credentialprovider/ICredentialProviderCredential.GetComboBoxValueAt
 dev_langs:
- - c++
+- c++
 req.header: credentialprovider.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Credentialprovider.h
+- Credentialprovider.h
 api_name:
- - ICredentialProviderCredential.GetComboBoxValueAt
+- ICredentialProviderCredential.GetComboBoxValueAt
 targetos: Windows
 req.typenames: 
 req.redist: 

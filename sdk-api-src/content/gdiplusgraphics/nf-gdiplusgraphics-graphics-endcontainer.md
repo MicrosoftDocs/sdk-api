@@ -1,19 +1,17 @@
 ---
 UID: NF:gdiplusgraphics.Graphics.EndContainer
 title: Graphics::EndContainer (gdiplusgraphics.h)
-
 description: The Graphics::EndContainer method closes a graphics container that was previously opened by the Graphics::BeginContainer method.
 old-location: gdiplus\_gdiplus_CLASS_Graphics_EndContainer_state_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\endcontainer.htm
-
 ms.date: 12/05/2018
 ms.keywords: EndContainer, EndContainer method [GDI+], EndContainer method [GDI+],Graphics class, Graphics class [GDI+],EndContainer method, Graphics.EndContainer, Graphics::EndContainer, _gdiplus_CLASS_Graphics_EndContainer_state_, gdiplus._gdiplus_CLASS_Graphics_EndContainer_state_
 ms.topic: method
-f1_keywords: 
- - "gdiplusgraphics/Graphics.EndContainer"
+f1_keywords:
+- gdiplusgraphics/Graphics.EndContainer
 dev_langs:
- - c++
+- c++
 req.header: gdiplusgraphics.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - Graphics.EndContainer
+- Graphics.EndContainer
 targetos: Windows
 req.typenames: 
 req.redist: 

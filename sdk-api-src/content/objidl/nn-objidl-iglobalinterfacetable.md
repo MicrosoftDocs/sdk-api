@@ -1,19 +1,17 @@
 ---
 UID: NN:objidl.IGlobalInterfaceTable
 title: IGlobalInterfaceTable (objidl.h)
-
 description: Enables any apartment in a process to get access to an interface implemented on an object in any other apartment in the process.
 old-location: com\iglobalinterfacetable.htm
 tech.root: com
 ms.assetid: 0c1feee7-e33b-4b5d-8e35-4de6895e3947
-
 ms.date: 12/05/2018
 ms.keywords: IGlobalInterfaceTable, IGlobalInterfaceTable interface [COM], IGlobalInterfaceTable interface [COM],described, _com_iglobalinterfacetable, com.iglobalinterfacetable, objidl/IGlobalInterfaceTable
 ms.topic: interface
-f1_keywords: 
- - "objidl/IGlobalInterfaceTable"
+f1_keywords:
+- objidl/IGlobalInterfaceTable
 dev_langs:
- - c++
+- c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ObjIdl.h
+- ObjIdl.h
 api_name:
- - IGlobalInterfaceTable
+- IGlobalInterfaceTable
 targetos: Windows
 req.typenames: 
 req.redist: 

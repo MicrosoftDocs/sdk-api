@@ -1,19 +1,17 @@
 ---
 UID: NN:certenroll.ICertPropertyFriendlyName
 title: ICertPropertyFriendlyName (certenroll.h)
-
 description: Enables you to specify and retrieve a string that contains the display name of a certificate.
 old-location: security\icertpropertyfriendlyname.htm
 tech.root: seccertenroll
 ms.assetid: d2bfe2f2-423e-4620-8933-bbae4f98c62a
-
 ms.date: 12/05/2018
 ms.keywords: ICertPropertyFriendlyName, ICertPropertyFriendlyName interface [Security], ICertPropertyFriendlyName interface [Security],described, certenroll/ICertPropertyFriendlyName, security.icertpropertyfriendlyname
 ms.topic: interface
-f1_keywords: 
- - "certenroll/ICertPropertyFriendlyName"
+f1_keywords:
+- certenroll/ICertPropertyFriendlyName
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: CertEnroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CertEnroll.dll
+- CertEnroll.dll
 api_name:
- - ICertPropertyFriendlyName
+- ICertPropertyFriendlyName
 targetos: Windows
 req.typenames: 
 req.redist: 

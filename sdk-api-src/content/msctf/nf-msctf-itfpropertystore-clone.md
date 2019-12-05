@@ -1,19 +1,17 @@
 ---
 UID: NF:msctf.ITfPropertyStore.Clone
 title: ITfPropertyStore::Clone (msctf.h)
-
 description: ITfPropertyStore::Clone method
 old-location: tsf\itfpropertystore_clone.htm
 tech.root: TSF
 ms.assetid: 0f51a37f-e340-441e-a1f1-e67791b9c008
-
 ms.date: 12/05/2018
 ms.keywords: Clone, Clone method [Text Services Framework], Clone method [Text Services Framework],ITfPropertyStore interface, ITfPropertyStore interface [Text Services Framework],Clone method, ITfPropertyStore.Clone, ITfPropertyStore::Clone, _tsf_itfpropertystore_clone_ref, msctf/ITfPropertyStore::Clone, tsf.itfpropertystore_clone
 ms.topic: method
-f1_keywords: 
- - "msctf/ITfPropertyStore.Clone"
+f1_keywords:
+- msctf/ITfPropertyStore.Clone
 dev_langs:
- - c++
+- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msctf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msctf.dll
+- msctf.dll
 api_name:
- - ITfPropertyStore.Clone
+- ITfPropertyStore.Clone
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

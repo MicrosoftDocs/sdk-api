@@ -1,19 +1,17 @@
 ---
 UID: NF:mftransform.IMFDeviceTransform.GetOutputStreamState
 title: IMFDeviceTransform::GetOutputStreamState (mftransform.h)
-
 description: The GetOutputStreamState method gets the Device MFT’s output stream state.
 old-location: stream\imfdevicetransform_getoutputstreamstate.htm
 tech.root: stream
 ms.assetid: A79FC296-7D18-4C74-97E0-F37475AB90D5
-
 ms.date: 12/05/2018
 ms.keywords: GetOutputStreamState, GetOutputStreamState method [Streaming Media Devices], GetOutputStreamState method [Streaming Media Devices],IMFDeviceTransform interface, IMFDeviceTransform interface [Streaming Media Devices],GetOutputStreamState method, IMFDeviceTransform.GetOutputStreamState, IMFDeviceTransform::GetOutputStreamState, mftransform/IMFDeviceTransform::GetOutputStreamState, stream.imfdevicetransform_getoutputstreamstate
 ms.topic: method
-f1_keywords: 
- - "mftransform/IMFDeviceTransform.GetOutputStreamState"
+f1_keywords:
+- mftransform/IMFDeviceTransform.GetOutputStreamState
 dev_langs:
- - c++
+- c++
 req.header: mftransform.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mftransform.h
+- mftransform.h
 api_name:
- - IMFDeviceTransform.GetOutputStreamState
+- IMFDeviceTransform.GetOutputStreamState
 targetos: Windows
 req.typenames: 
 req.redist: 

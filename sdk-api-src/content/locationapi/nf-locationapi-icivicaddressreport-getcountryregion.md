@@ -1,19 +1,17 @@
 ---
 UID: NF:locationapi.ICivicAddressReport.GetCountryRegion
 title: ICivicAddressReport::GetCountryRegion (locationapi.h)
-
 description: Retrieves the two-letter country or region code.
 old-location: winlocation_com_ref\icivicaddressreport_getcountryregion.htm
 tech.root: locationapi
 ms.assetid: 1bcf7939-e047-412f-874d-18bb5e93e5ec
-
 ms.date: 12/05/2018
 ms.keywords: GetCountryRegion, GetCountryRegion method [WinLocation], GetCountryRegion method [WinLocation],ICivicAddressReport interface, ICivicAddressReport interface [WinLocation],GetCountryRegion method, ICivicAddressReport.GetCountryRegion, ICivicAddressReport::GetCountryRegion, WinLocation_COM_Ref.icivicaddressreport_getcountryregion, locationapi/ICivicAddressReport::GetCountryRegion, winlocation.icivicaddressreport_getcountry
 ms.topic: method
-f1_keywords: 
- - "locationapi/ICivicAddressReport.GetCountryRegion"
+f1_keywords:
+- locationapi/ICivicAddressReport.GetCountryRegion
 dev_langs:
- - c++
+- c++
 req.header: locationapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: LocationAPI.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - LocationAPI.dll
+- LocationAPI.dll
 api_name:
- - ICivicAddressReport.GetCountryRegion
+- ICivicAddressReport.GetCountryRegion
 targetos: Windows
 req.typenames: 
 req.redist: 

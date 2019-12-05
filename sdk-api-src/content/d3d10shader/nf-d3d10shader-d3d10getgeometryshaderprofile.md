@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d10shader.D3D10GetGeometryShaderProfile
 title: D3D10GetGeometryShaderProfile function (d3d10shader.h)
-
 description: Get the geometry shader profile best suited to a given device.
 old-location: direct3d10\d3d10getgeometryshaderprofile.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\d3d10getgeometryshaderprofile.htm
-
 ms.date: 12/05/2018
 ms.keywords: D3D10GetGeometryShaderProfile, D3D10GetGeometryShaderProfile function [Direct3D 10], ba175c86-099a-e747-2120-b83c9b421a82, d3d10shader/D3D10GetGeometryShaderProfile, direct3d10.d3d10getgeometryshaderprofile
 ms.topic: function
-f1_keywords: 
- - "d3d10shader/D3D10GetGeometryShaderProfile"
+f1_keywords:
+- d3d10shader/D3D10GetGeometryShaderProfile
 dev_langs:
- - c++
+- c++
 req.header: d3d10shader.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: D3D10.lib
 req.dll: D3D10.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - D3D10.dll
+- D3D10.dll
 api_name:
- - D3D10GetGeometryShaderProfile
+- D3D10GetGeometryShaderProfile
 targetos: Windows
 req.typenames: 
 req.redist: 

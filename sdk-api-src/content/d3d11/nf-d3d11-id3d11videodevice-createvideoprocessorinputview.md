@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d11.ID3D11VideoDevice.CreateVideoProcessorInputView
 title: ID3D11VideoDevice::CreateVideoProcessorInputView (d3d11.h)
-
 description: Creates a resource view for a video processor, describing the input sample for the video processing operation.
 old-location: mf\id3d11videodevice_createvideoprocessorinputview.htm
 tech.root: medfound
 ms.assetid: 3245D2AF-74A1-4068-A0BC-577FD42B353E
-
 ms.date: 12/05/2018
 ms.keywords: CreateVideoProcessorInputView, CreateVideoProcessorInputView method [Media Foundation], CreateVideoProcessorInputView method [Media Foundation],ID3D11VideoDevice interface, ID3D11VideoDevice interface [Media Foundation],CreateVideoProcessorInputView method, ID3D11VideoDevice.CreateVideoProcessorInputView, ID3D11VideoDevice::CreateVideoProcessorInputView, d3d11/ID3D11VideoDevice::CreateVideoProcessorInputView, mf.id3d11videodevice_createvideoprocessorinputview
 ms.topic: method
-f1_keywords: 
- - "d3d11/ID3D11VideoDevice.CreateVideoProcessorInputView"
+f1_keywords:
+- d3d11/ID3D11VideoDevice.CreateVideoProcessorInputView
 dev_langs:
- - c++
+- c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - d3d11.h
+- d3d11.h
 api_name:
- - ID3D11VideoDevice.CreateVideoProcessorInputView
+- ID3D11VideoDevice.CreateVideoProcessorInputView
 targetos: Windows
 req.typenames: 
 req.redist: 

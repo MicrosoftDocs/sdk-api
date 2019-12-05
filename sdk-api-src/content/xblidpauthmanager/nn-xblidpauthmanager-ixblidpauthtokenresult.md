@@ -1,19 +1,17 @@
 ---
 UID: NN:xblidpauthmanager.IXblIdpAuthTokenResult
 title: IXblIdpAuthTokenResult (xblidpauthmanager.h)
-
 description: Reserved for Microsoft use.
 old-location: xblidp\ixblidpauthtokenresult.htm
 tech.root: xblidp
 ms.assetid: F3E2F3FD-0258-4AB9-B86E-5B12AD8ECA52
-
 ms.date: 12/05/2018
 ms.keywords: IXblIdpAuthTokenResult, IXblIdpAuthTokenResult interface, IXblIdpAuthTokenResult interface,described, xblidp.ixblidpauthtokenresult, xblidpauthmanager/IXblIdpAuthTokenResult
 ms.topic: interface
-f1_keywords: 
- - "xblidpauthmanager/IXblIdpAuthTokenResult"
+f1_keywords:
+- xblidpauthmanager/IXblIdpAuthTokenResult
 dev_langs:
- - c++
+- c++
 req.header: xblidpauthmanager.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - XblIdpAuthManager.h
+- XblIdpAuthManager.h
 api_name:
- - IXblIdpAuthTokenResult
+- IXblIdpAuthTokenResult
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:wbemglue.CWbemProviderGlue.GetInstanceByPath(LPCWSTR,CInstance,MethodContext)
 title: CWbemProviderGlue::GetInstanceByPath(LPCWSTR,CInstance,MethodContext) (wbemglue.h)
-
 description: The GetInstanceByPath method retrieves the instance identified by a particular object path by calling the provider GetObject method.
 old-location: wmi\cwbemproviderglue_getinstancebypath.htm
 tech.root: WmiSdk
 ms.assetid: 788b5f5f-b300-4c86-afbd-416b938f21c1
-
 ms.date: 12/05/2018
-ms.keywords: "?GetInstanceByPath@CWbemProviderGlue@@SAJPEBGPEAPEAVCInstance@@PEAVMethodContext@@@Z, ?GetInstanceByPath@CWbemProviderGlue@@SGJPBGPAPAVCInstance@@PAVMethodContext@@@Z, CWbemProviderGlue interface [Windows Management Instrumentation],GetInstanceByPath method, CWbemProviderGlue.GetInstanceByPath, CWbemProviderGlue.GetInstanceByPath(LPCWSTR,CInstance,MethodContext), CWbemProviderGlue::GetInstanceByPath, CWbemProviderGlue::GetInstanceByPath(LPCWSTR,CInstance,MethodContext), GetInstanceByPath, GetInstanceByPath method [Windows Management Instrumentation], GetInstanceByPath method [Windows Management Instrumentation],CWbemProviderGlue interface, _hmm_cwbemproviderglue_getinstancebypath, wbemglue/CWbemProviderGlue::GetInstanceByPath, wmi.cwbemproviderglue_getinstancebypath"
+ms.keywords: ?GetInstanceByPath@CWbemProviderGlue@@SAJPEBGPEAPEAVCInstance@@PEAVMethodContext@@@Z, ?GetInstanceByPath@CWbemProviderGlue@@SGJPBGPAPAVCInstance@@PAVMethodContext@@@Z, CWbemProviderGlue interface [Windows Management Instrumentation],GetInstanceByPath method, CWbemProviderGlue.GetInstanceByPath, CWbemProviderGlue.GetInstanceByPath(LPCWSTR,CInstance,MethodContext), CWbemProviderGlue::GetInstanceByPath, CWbemProviderGlue::GetInstanceByPath(LPCWSTR,CInstance,MethodContext), GetInstanceByPath, GetInstanceByPath method [Windows Management Instrumentation], GetInstanceByPath method [Windows Management Instrumentation],CWbemProviderGlue interface, _hmm_cwbemproviderglue_getinstancebypath, wbemglue/CWbemProviderGlue::GetInstanceByPath, wmi.cwbemproviderglue_getinstancebypath
 ms.topic: method
-f1_keywords: 
- - "wbemglue/CWbemProviderGlue.GetInstanceByPath"
+f1_keywords:
+- wbemglue/CWbemProviderGlue.GetInstanceByPath
 dev_langs:
- - c++
+- c++
 req.header: wbemglue.h
 req.include-header: FwCommon.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: FrameDyn.lib
 req.dll: FrameDynOS.dll; FrameDyn.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - FrameDynOS.dll
- - FrameDyn.dll
+- FrameDynOS.dll
+- FrameDyn.dll
 api_name:
- - CWbemProviderGlue.GetInstanceByPath
- - ?GetInstanceByPath@CWbemProviderGlue@@SAJPEBGPEAPEAVCInstance@@PEAVMethodContext@@@Z
- - ?GetInstanceByPath@CWbemProviderGlue@@SGJPBGPAPAVCInstance@@PAVMethodContext@@@Z
+- CWbemProviderGlue.GetInstanceByPath
+- ?GetInstanceByPath@CWbemProviderGlue@@SAJPEBGPEAPEAVCInstance@@PEAVMethodContext@@@Z
+- ?GetInstanceByPath@CWbemProviderGlue@@SGJPBGPAPAVCInstance@@PAVMethodContext@@@Z
 targetos: Windows
 req.typenames: 
 req.redist: 

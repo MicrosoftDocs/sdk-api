@@ -1,19 +1,17 @@
 ---
 UID: NF:dvbsiparser.IIsdbComponentGroupDescriptor.GetRecordGroupId
 title: IIsdbComponentGroupDescriptor::GetRecordGroupId (dvbsiparser.h)
-
 description: Gets the component group identifier from an Integrated Services Digital Broadcasting (ISDB) component group descriptor.
 old-location: mstv\iisdbcomponentgroupdescriptor_getrecordgroupid.htm
 tech.root: mstv
 ms.assetid: 159c496c-675e-458a-b9f9-5c9622fd1848
-
 ms.date: 12/05/2018
 ms.keywords: GetRecordGroupId, GetRecordGroupId method [Microsoft TV Technologies], GetRecordGroupId method [Microsoft TV Technologies],IIsdbComponentGroupDescriptor interface, IIsdbComponentGroupDescriptor interface [Microsoft TV Technologies],GetRecordGroupId method, IIsdbComponentGroupDescriptor.GetRecordGroupId, IIsdbComponentGroupDescriptor::GetRecordGroupId, dvbsiparser/IIsdbComponentGroupDescriptor::GetRecordGroupId, mstv.iisdbcomponentgroupdescriptor_getrecordgroupid
 ms.topic: method
-f1_keywords: 
- - "dvbsiparser/IIsdbComponentGroupDescriptor.GetRecordGroupId"
+f1_keywords:
+- dvbsiparser/IIsdbComponentGroupDescriptor.GetRecordGroupId
 dev_langs:
- - c++
+- c++
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dvbsiparser.h
+- dvbsiparser.h
 api_name:
- - IIsdbComponentGroupDescriptor.GetRecordGroupId
+- IIsdbComponentGroupDescriptor.GetRecordGroupId
 targetos: Windows
 req.typenames: 
 req.redist: 

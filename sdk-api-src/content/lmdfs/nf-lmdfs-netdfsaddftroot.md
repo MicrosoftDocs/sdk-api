@@ -1,19 +1,17 @@
 ---
 UID: NF:lmdfs.NetDfsAddFtRoot
 title: NetDfsAddFtRoot function (lmdfs.h)
-
 description: Creates a new domain-based Distributed File System (DFS) namespace. If the namespace already exists, the function adds the specified root target to it.
 old-location: dfs\netdfsaddftroot.htm
 tech.root: Dfs
 ms.assetid: df3192f8-f8fc-40ad-a5ff-fb991befff09
-
 ms.date: 12/05/2018
 ms.keywords: NetDfsAddFtRoot, NetDfsAddFtRoot function [Distributed File System], _win32_netdfsaddftroot, dfs.netdfsaddftroot, fs.netdfsaddftroot, lmdfs/NetDfsAddFtRoot, netmgmt.netdfsaddftroot
 ms.topic: function
-f1_keywords: 
- - "lmdfs/NetDfsAddFtRoot"
+f1_keywords:
+- lmdfs/NetDfsAddFtRoot
 dev_langs:
- - c++
+- c++
 req.header: lmdfs.h
 req.include-header: LmDfs.h, Lm.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Netapi32.lib
 req.dll: Netapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Netapi32.dll
+- Netapi32.dll
 api_name:
- - NetDfsAddFtRoot
+- NetDfsAddFtRoot
 targetos: Windows
 req.typenames: 
 req.redist: 

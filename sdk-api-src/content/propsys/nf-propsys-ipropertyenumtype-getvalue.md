@@ -1,19 +1,17 @@
 ---
 UID: NF:propsys.IPropertyEnumType.GetValue
 title: IPropertyEnumType::GetValue (propsys.h)
-
 description: Gets a value from an enumeration information structure.
 old-location: properties\IPropertyEnumType_GetValue.htm
 tech.root: properties
 ms.assetid: e820087b-95fb-4352-9bb0-cf34216d37a6
-
 ms.date: 12/05/2018
 ms.keywords: GetValue, GetValue method [Windows Properties], GetValue method [Windows Properties],IPropertyEnumType interface, IPropertyEnumType interface [Windows Properties],GetValue method, IPropertyEnumType.GetValue, IPropertyEnumType::GetValue, _shell_IPropertyEnumType_GetValue, properties.IPropertyEnumType_GetValue, propsys/IPropertyEnumType::GetValue, shell.IPropertyEnumType_GetValue
 ms.topic: method
-f1_keywords: 
- - "propsys/IPropertyEnumType.GetValue"
+f1_keywords:
+- propsys/IPropertyEnumType.GetValue
 dev_langs:
- - c++
+- c++
 req.header: propsys.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Propsys.h
+- Propsys.h
 api_name:
- - IPropertyEnumType.GetValue
+- IPropertyEnumType.GetValue
 targetos: Windows
 req.typenames: 
 req.redist: 

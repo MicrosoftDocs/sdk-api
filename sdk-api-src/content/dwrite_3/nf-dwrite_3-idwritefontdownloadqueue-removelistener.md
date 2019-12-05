@@ -1,19 +1,17 @@
 ---
 UID: NF:dwrite_3.IDWriteFontDownloadQueue.RemoveListener
 title: IDWriteFontDownloadQueue::RemoveListener (dwrite_3.h)
-
 description: Unregisters a notification handler that was previously registered using AddListener.
 old-location: directwrite\idwritefontdownloadqueue_removelistener.htm
 tech.root: DirectWrite
 ms.assetid: e3470f17-9630-de53-d1ae-ab2a2508a069
-
 ms.date: 12/05/2018
 ms.keywords: IDWriteFontDownloadQueue interface [Direct Write],RemoveListener method, IDWriteFontDownloadQueue.RemoveListener, IDWriteFontDownloadQueue::RemoveListener, RemoveListener, RemoveListener method [Direct Write], RemoveListener method [Direct Write],IDWriteFontDownloadQueue interface, directwrite.idwritefontdownloadqueue_removelistener, dwrite_3/IDWriteFontDownloadQueue::RemoveListener
 ms.topic: method
-f1_keywords: 
- - "dwrite_3/IDWriteFontDownloadQueue.RemoveListener"
+f1_keywords:
+- dwrite_3/IDWriteFontDownloadQueue.RemoveListener
 dev_langs:
- - c++
+- c++
 req.header: dwrite_3.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dwrite.lib
 req.dll: Dwrite.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dwrite.dll
+- dwrite.dll
 api_name:
- - IDWriteFontDownloadQueue.RemoveListener
+- IDWriteFontDownloadQueue.RemoveListener
 targetos: Windows
 req.typenames: 
 req.redist: 

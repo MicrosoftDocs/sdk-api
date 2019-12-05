@@ -1,19 +1,17 @@
 ---
 UID: NF:wmcodecdsp.IWMColorConvProps.SetMode
 title: IWMColorConvProps::SetMode (wmcodecdsp.h)
-
 description: Specifies whether the input video stream is interlaced.
 old-location: mf\iwmcolorconvpropssetmode.htm
 tech.root: medfound
 ms.assetid: b0be2965-36cf-4d14-8df6-c5296135a8e5
-
 ms.date: 12/05/2018
 ms.keywords: IWMColorConvProps interface [Media Foundation],SetMode method, IWMColorConvProps.SetMode, IWMColorConvProps::SetMode, SetMode, SetMode method [Media Foundation], SetMode method [Media Foundation],IWMColorConvProps interface, codecapi.iwmcolorconvpropssetmode, mf.iwmcolorconvpropssetmode, wmcodecdsp/IWMColorConvProps::SetMode
 ms.topic: method
-f1_keywords: 
- - "wmcodecdsp/IWMColorConvProps.SetMode"
+f1_keywords:
+- wmcodecdsp/IWMColorConvProps.SetMode
 dev_langs:
- - c++
+- c++
 req.header: wmcodecdsp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmcodecdsp.h
+- wmcodecdsp.h
 api_name:
- - IWMColorConvProps.SetMode
+- IWMColorConvProps.SetMode
 targetos: Windows
 req.typenames: 
 req.redist: 

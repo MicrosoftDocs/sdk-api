@@ -1,19 +1,17 @@
 ---
 UID: NF:dxgidebug.IDXGIInfoQueue.PushCopyOfStorageFilter
 title: IDXGIInfoQueue::PushCopyOfStorageFilter (dxgidebug.h)
-
 description: Pushes a copy of the storage filter that is currently on the top of the storage-filter stack onto the storage-filter stack.
 old-location: direct3ddxgi\idxgiinfoqueue_pushcopyofstoragefilter.htm
 tech.root: direct3ddxgi
 ms.assetid: 1CD32898-90B1-4523-8C97-985CA9F7D92B
-
 ms.date: 12/05/2018
 ms.keywords: IDXGIInfoQueue interface [DXGI],PushCopyOfStorageFilter method, IDXGIInfoQueue.PushCopyOfStorageFilter, IDXGIInfoQueue::PushCopyOfStorageFilter, PushCopyOfStorageFilter, PushCopyOfStorageFilter method [DXGI], PushCopyOfStorageFilter method [DXGI],IDXGIInfoQueue interface, direct3ddxgi.idxgiinfoqueue_pushcopyofstoragefilter, dxgidebug/IDXGIInfoQueue::PushCopyOfStorageFilter
 ms.topic: method
-f1_keywords: 
- - "dxgidebug/IDXGIInfoQueue.PushCopyOfStorageFilter"
+f1_keywords:
+- dxgidebug/IDXGIInfoQueue.PushCopyOfStorageFilter
 dev_langs:
- - c++
+- c++
 req.header: dxgidebug.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: DXGIDebug.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - DXGIDebug.dll
+- DXGIDebug.dll
 api_name:
- - IDXGIInfoQueue.PushCopyOfStorageFilter
+- IDXGIInfoQueue.PushCopyOfStorageFilter
 targetos: Windows
 req.typenames: 
 req.redist: 

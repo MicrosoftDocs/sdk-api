@@ -1,19 +1,17 @@
 ---
 UID: NC:mapi.MAPISENDDOCUMENTS
 title: MAPISENDDOCUMENTS (mapi.h)
-
 description: The MAPISendDocuments function sends a standard message with one or more attached files and a cover note.
 old-location: mapi\mapisenddocuments.htm
 tech.root: WindowsMAPI
 ms.assetid: 79a2f17e-fb07-4f3b-b8f6-0448399ffa50
-
 ms.date: 12/05/2018
 ms.keywords: MAPISendDocuments, MAPISendDocuments callback, MAPISendDocuments callback function, mapi.mapisenddocuments, mapi/MAPISendDocuments
 ms.topic: callback
-f1_keywords: 
- - "mapi/MAPISendDocuments"
+f1_keywords:
+- mapi/MAPISendDocuments
 dev_langs:
- - c++
+- c++
 req.header: mapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Mapi.h
+- Mapi.h
 api_name:
- - MAPISendDocuments
+- MAPISendDocuments
 targetos: Windows
 req.typenames: 
 req.redist: 

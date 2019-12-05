@@ -1,19 +1,17 @@
 ---
 UID: NN:vds.IVdsVolumeMF
 title: IVdsVolumeMF (vds.h)
-
 description: Provides methods to perform access-path and file-system activities on the volume object.
 old-location: base\ivdsvolumemf.htm
 tech.root: VDS
 ms.assetid: 4c8a63bd-ae2f-4157-92f9-aefc592c7d4f
-
 ms.date: 12/05/2018
 ms.keywords: IVdsVolumeMF, IVdsVolumeMF interface [VDS], IVdsVolumeMF interface [VDS],described, base.ivdsvolumemf, vds/IVdsVolumeMF
 ms.topic: interface
-f1_keywords: 
- - "vds/IVdsVolumeMF"
+f1_keywords:
+- vds/IVdsVolumeMF
 dev_langs:
- - c++
+- c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Uuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Uuid.lib
- - Uuid.dll
+- Uuid.lib
+- Uuid.dll
 api_name:
- - IVdsVolumeMF
+- IVdsVolumeMF
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NN:msinkaut.IInkLineInfo
 title: IInkLineInfo (msinkaut.h)
-
 description: The IInkLineInfo interface provides access to the display properties and recognition result list of a text ink object (tInk).
 old-location: tablet\iinklineinfo.htm
 tech.root: tablet
 ms.assetid: 58774f49-6af2-4b81-bbd5-709eb694af2d
-
 ms.date: 12/05/2018
 ms.keywords: 58774f49-6af2-4b81-bbd5-709eb694af2d, IInkLineInfo, IInkLineInfo interface [Tablet PC], IInkLineInfo interface [Tablet PC],described, msinkaut/IInkLineInfo, tablet.iinklineinfo
 ms.topic: interface
-f1_keywords: 
- - "msinkaut/IInkLineInfo"
+f1_keywords:
+- msinkaut/IInkLineInfo
 dev_langs:
- - c++
+- c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: InkObj.dll
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - InkObj.dll
- - InkObj.dll.dll
+- InkObj.dll
+- InkObj.dll.dll
 api_name:
- - IInkLineInfo
+- IInkLineInfo
 targetos: Windows
 req.typenames: 
 req.redist: 

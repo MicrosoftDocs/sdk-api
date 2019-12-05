@@ -1,19 +1,17 @@
 ---
 UID: NF:winsync.ISyncChangeBatch.EndUnorderedGroup
 title: ISyncChangeBatch::EndUnorderedGroup (winsync.h)
-
 description: Closes a previously opened unordered group in the change batch.
 old-location: winsync\isyncchangebatch_endunorderedgroup.htm
 tech.root: winsync
 ms.assetid: ca9c37ca-6aa0-437d-b933-ca7d943e4ef2
-
 ms.date: 12/05/2018
 ms.keywords: EndUnorderedGroup, EndUnorderedGroup method [Windows Sync], EndUnorderedGroup method [Windows Sync],ISyncChangeBatch interface, ISyncChangeBatch interface [Windows Sync],EndUnorderedGroup method, ISyncChangeBatch.EndUnorderedGroup, ISyncChangeBatch::EndUnorderedGroup, winsync.isyncchangebatch_endunorderedgroup, winsync/ISyncChangeBatch::EndUnorderedGroup
 ms.topic: method
-f1_keywords: 
- - "winsync/ISyncChangeBatch.EndUnorderedGroup"
+f1_keywords:
+- winsync/ISyncChangeBatch.EndUnorderedGroup
 dev_langs:
- - c++
+- c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - winsync.h
+- winsync.h
 api_name:
- - ISyncChangeBatch.EndUnorderedGroup
+- ISyncChangeBatch.EndUnorderedGroup
 targetos: Windows
 req.typenames: 
 req.redist: 

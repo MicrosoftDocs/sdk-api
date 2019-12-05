@@ -1,19 +1,17 @@
 ---
 UID: NF:mmdeviceapi.IMMDevice.Activate
 title: IMMDevice::Activate (mmdeviceapi.h)
-
 description: The Activate method creates a COM object with the specified interface.
 old-location: coreaudio\immdevice_activate.htm
 tech.root: CoreAudio
 ms.assetid: 12e4a117-1fa3-49c8-949b-8973edf7e12e
-
 ms.date: 12/05/2018
 ms.keywords: Activate, Activate method [Core Audio], Activate method [Core Audio],IMMDevice interface, IMMDevice interface [Core Audio],Activate method, IMMDevice.Activate, IMMDevice::Activate, IMMDeviceActivate, coreaudio.immdevice_activate, mmdeviceapi/IMMDevice::Activate
 ms.topic: method
-f1_keywords: 
- - "mmdeviceapi/IMMDevice.Activate"
+f1_keywords:
+- mmdeviceapi/IMMDevice.Activate
 dev_langs:
- - c++
+- c++
 req.header: mmdeviceapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mmdeviceapi.h
+- Mmdeviceapi.h
 api_name:
- - IMMDevice.Activate
+- IMMDevice.Activate
 targetos: Windows
 req.typenames: 
 req.redist: 

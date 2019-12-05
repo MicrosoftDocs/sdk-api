@@ -1,19 +1,17 @@
 ---
 UID: NF:winddi.DrvEnableSurface
 title: DrvEnableSurface function (winddi.h)
-
 description: The DrvEnableSurface function sets up a surface to be drawn on and associates it with a given physical device.
 old-location: display\drvenablesurface.htm
 tech.root: display
 ms.assetid: a838a44a-243c-4d0d-bda3-eec9a626cb53
-
 ms.date: 12/05/2018
 ms.keywords: DrvEnableSurface, DrvEnableSurface function [Display Devices], ddifncs_c0044970-ac75-4dae-af55-f6fd87079dbb.xml, display.drvenablesurface, winddi/DrvEnableSurface
 ms.topic: function
-f1_keywords: 
- - "winddi/DrvEnableSurface"
+f1_keywords:
+- winddi/DrvEnableSurface
 dev_langs:
- - c++
+- c++
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Desktop
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - winddi.h
+- winddi.h
 api_name:
- - DrvEnableSurface
+- DrvEnableSurface
 targetos: Windows
 req.typenames: 
 req.redist: 

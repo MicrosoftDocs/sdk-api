@@ -1,19 +1,17 @@
 ---
 UID: NF:syncmgr.ISyncMgrEventStore.RemoveEvent
 title: ISyncMgrEventStore::RemoveEvent (syncmgr.h)
-
 description: Removes events, as specified.
 old-location: shell\ISyncMgrEventStore_RemoveEvent.htm
 tech.root: shell
 ms.assetid: 08d01b6f-1e1f-4f03-9595-f374805ae734
-
 ms.date: 12/05/2018
 ms.keywords: ISyncMgrEventStore interface [Windows Shell],RemoveEvent method, ISyncMgrEventStore.RemoveEvent, ISyncMgrEventStore::RemoveEvent, RemoveEvent, RemoveEvent method [Windows Shell], RemoveEvent method [Windows Shell],ISyncMgrEventStore interface, _shell_ISyncMgrEventStore_RemoveEvent, shell.ISyncMgrEventStore_RemoveEvent, syncmgr/ISyncMgrEventStore::RemoveEvent
 ms.topic: method
-f1_keywords: 
- - "syncmgr/ISyncMgrEventStore.RemoveEvent"
+f1_keywords:
+- syncmgr/ISyncMgrEventStore.RemoveEvent
 dev_langs:
- - c++
+- c++
 req.header: syncmgr.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Syncmgr.h
+- Syncmgr.h
 api_name:
- - ISyncMgrEventStore.RemoveEvent
+- ISyncMgrEventStore.RemoveEvent
 targetos: Windows
 req.typenames: 
 req.redist: 

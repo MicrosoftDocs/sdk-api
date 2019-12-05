@@ -1,19 +1,17 @@
 ---
 UID: NF:ntmsapi.SetNtmsObjectSecurity
 title: SetNtmsObjectSecurity function (ntmsapi.h)
-
 description: The SetNtmsObjectSecurity function writes the security descriptor for the specified RSM object.
 old-location: fs\setntmsobjectsecurity.htm
 tech.root: Rsm
 ms.assetid: ea6be316-6188-46a2-b12a-fe8426bc5fac
-
 ms.date: 12/05/2018
 ms.keywords: SetNtmsObjectSecurity, SetNtmsObjectSecurity function [Files], _zaw_setntmsobjectsecurity, base.setntmsobjectsecurity, fs.setntmsobjectsecurity, ntmsapi/SetNtmsObjectSecurity
 ms.topic: function
 f1_keywords:
 - ntmsapi/SetNtmsObjectSecurity
 dev_langs:
- - c++
+- c++
 req.header: ntmsapi.h
 req.include-header: 
 req.target-type: Windows

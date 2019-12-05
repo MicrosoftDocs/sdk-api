@@ -1,19 +1,17 @@
 ---
 UID: NF:wmsdkidl.IWMReaderNetworkConfig.SetProxyHostName
 title: IWMReaderNetworkConfig::SetProxyHostName (wmsdkidl.h)
-
 description: The SetProxyHostName method specifies the proxy host name.
 old-location: wmformat\iwmreadernetworkconfig_setproxyhostname.htm
 tech.root: wmformat
 ms.assetid: 5638a5d6-30f3-43eb-b054-cab85948796c
-
 ms.date: 12/05/2018
 ms.keywords: IWMReaderNetworkConfig interface [windows Media Format],SetProxyHostName method, IWMReaderNetworkConfig.SetProxyHostName, IWMReaderNetworkConfig::SetProxyHostName, IWMReaderNetworkConfigSetProxyHostName, SetProxyHostName, SetProxyHostName method [windows Media Format], SetProxyHostName method [windows Media Format],IWMReaderNetworkConfig interface, wmformat.iwmreadernetworkconfig_setproxyhostname, wmsdkidl/IWMReaderNetworkConfig::SetProxyHostName
 ms.topic: method
-f1_keywords: 
- - "wmsdkidl/IWMReaderNetworkConfig.SetProxyHostName"
+f1_keywords:
+- wmsdkidl/IWMReaderNetworkConfig.SetProxyHostName
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wmvcore.lib
- - Wmvcore.dll
- - WMStubDRM.lib
- - WMStubDRM.dll
+- Wmvcore.lib
+- Wmvcore.dll
+- WMStubDRM.lib
+- WMStubDRM.dll
 api_name:
- - IWMReaderNetworkConfig.SetProxyHostName
+- IWMReaderNetworkConfig.SetProxyHostName
 targetos: Windows
 req.typenames: 
 req.redist: 

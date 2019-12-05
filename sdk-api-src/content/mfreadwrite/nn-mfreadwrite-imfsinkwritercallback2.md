@@ -1,19 +1,17 @@
 ---
 UID: NN:mfreadwrite.IMFSinkWriterCallback2
 title: IMFSinkWriterCallback2 (mfreadwrite.h)
-
 description: Extends the IMFSinkWriterCallback interface.
 old-location: mf\imfsinkwritercallback2.htm
 tech.root: medfound
 ms.assetid: 92885A3C-137D-42DD-A65D-D2CE56A69A68
-
 ms.date: 12/05/2018
 ms.keywords: IMFSinkWriterCallback2, IMFSinkWriterCallback2 interface [Media Foundation], IMFSinkWriterCallback2 interface [Media Foundation],described, mf.imfsinkwritercallback2, mfreadwrite/IMFSinkWriterCallback2
 ms.topic: interface
-f1_keywords: 
- - "mfreadwrite/IMFSinkWriterCallback2"
+f1_keywords:
+- mfreadwrite/IMFSinkWriterCallback2
 dev_langs:
- - c++
+- c++
 req.header: mfreadwrite.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfreadwrite.h
+- mfreadwrite.h
 api_name:
- - IMFSinkWriterCallback2
+- IMFSinkWriterCallback2
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d11.ID3D11VideoDecoderOutputView.GetDesc
 title: ID3D11VideoDecoderOutputView::GetDesc (d3d11.h)
-
 description: Gets the properties of the video decoder output view.
 old-location: mf\id3d11videodecoderoutputview_getdesc.htm
 tech.root: medfound
 ms.assetid: 002BE600-2B4C-4337-BAA4-EC132FD3BC8A
-
 ms.date: 12/05/2018
 ms.keywords: GetDesc, GetDesc method [Media Foundation], GetDesc method [Media Foundation],ID3D11VideoDecoderOutputView interface, ID3D11VideoDecoderOutputView interface [Media Foundation],GetDesc method, ID3D11VideoDecoderOutputView.GetDesc, ID3D11VideoDecoderOutputView::GetDesc, d3d11/ID3D11VideoDecoderOutputView::GetDesc, mf.id3d11videodecoderoutputview_getdesc
 ms.topic: method
-f1_keywords: 
- - "d3d11/ID3D11VideoDecoderOutputView.GetDesc"
+f1_keywords:
+- d3d11/ID3D11VideoDecoderOutputView.GetDesc
 dev_langs:
- - c++
+- c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - d3d11.h
+- d3d11.h
 api_name:
- - ID3D11VideoDecoderOutputView.GetDesc
+- ID3D11VideoDecoderOutputView.GetDesc
 targetos: Windows
 req.typenames: 
 req.redist: 

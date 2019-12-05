@@ -1,19 +1,17 @@
 ---
 UID: NS:msacm.tACMDRIVERDETAILS
 title: ACMDRIVERDETAILS (msacm.h)
-
 description: The ACMDRIVERDETAILS structure describes the features of an ACM driver.
 old-location: multimedia\acmdriverdetails_struct.htm
 tech.root: Multimedia
 ms.assetid: b45b26e2-a9c0-4d01-9989-a071d9c73993
-
 ms.date: 12/05/2018
-ms.keywords: "*LPACMDRIVERDETAILS, *PACMDRIVERDETAILS, ACMDRIVERDETAILS, ACMDRIVERDETAILS structure [Windows Multimedia], ACMDRIVERDETAILS_SUPPORTF_ASYNC, ACMDRIVERDETAILS_SUPPORTF_CODEC, ACMDRIVERDETAILS_SUPPORTF_CONVERTER, ACMDRIVERDETAILS_SUPPORTF_DISABLED, ACMDRIVERDETAILS_SUPPORTF_FILTER, ACMDRIVERDETAILS_SUPPORTF_HARDWARE, ACMDRIVERDETAILS_SUPPORTF_LOCAL, msacm/ACMDRIVERDETAILS, multimedia.acmdriverdetails_COLLISION566, multimedia.acmdriverdetails_struct"
+ms.keywords: '*LPACMDRIVERDETAILS, *PACMDRIVERDETAILS, ACMDRIVERDETAILS, ACMDRIVERDETAILS structure [Windows Multimedia], ACMDRIVERDETAILS_SUPPORTF_ASYNC, ACMDRIVERDETAILS_SUPPORTF_CODEC, ACMDRIVERDETAILS_SUPPORTF_CONVERTER, ACMDRIVERDETAILS_SUPPORTF_DISABLED, ACMDRIVERDETAILS_SUPPORTF_FILTER, ACMDRIVERDETAILS_SUPPORTF_HARDWARE, ACMDRIVERDETAILS_SUPPORTF_LOCAL, msacm/ACMDRIVERDETAILS, multimedia.acmdriverdetails_COLLISION566, multimedia.acmdriverdetails_struct'
 ms.topic: struct
-f1_keywords: 
- - "msacm/ACMDRIVERDETAILS"
+f1_keywords:
+- msacm/ACMDRIVERDETAILS
 dev_langs:
- - c++
+- c++
 req.header: msacm.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Msacm.h
+- Msacm.h
 api_name:
- - ACMDRIVERDETAILS
+- ACMDRIVERDETAILS
 targetos: Windows
 req.typenames: ACMDRIVERDETAILS, *PACMDRIVERDETAILS, *LPACMDRIVERDETAILS
 req.redist: 

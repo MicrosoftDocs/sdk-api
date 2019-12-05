@@ -1,19 +1,17 @@
 ---
 UID: NF:wmcodecdsp.IWMCodecPrivateData.SetPartialOutputType
 title: IWMCodecPrivateData::SetPartialOutputType (wmcodecdsp.h)
-
 description: Gives the codec the output media type without the codec data. This enables the codec to generate the private data.
 old-location: mf\iwmcodecprivatedatasetpartialoutputtype.htm
 tech.root: medfound
 ms.assetid: c906ac2d-b3e0-4ecd-8f0e-3fa1a2a0beea
-
 ms.date: 12/05/2018
 ms.keywords: IWMCodecPrivateData interface [Media Foundation],SetPartialOutputType method, IWMCodecPrivateData.SetPartialOutputType, IWMCodecPrivateData::SetPartialOutputType, SetPartialOutputType, SetPartialOutputType method [Media Foundation], SetPartialOutputType method [Media Foundation],IWMCodecPrivateData interface, codecapi.iwmcodecprivatedatasetpartialoutputtype, mf.iwmcodecprivatedatasetpartialoutputtype, wmcodecdsp/IWMCodecPrivateData::SetPartialOutputType
 ms.topic: method
-f1_keywords: 
- - "wmcodecdsp/IWMCodecPrivateData.SetPartialOutputType"
+f1_keywords:
+- wmcodecdsp/IWMCodecPrivateData.SetPartialOutputType
 dev_langs:
- - c++
+- c++
 req.header: wmcodecdsp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmcodecdsp.h
+- wmcodecdsp.h
 api_name:
- - IWMCodecPrivateData.SetPartialOutputType
+- IWMCodecPrivateData.SetPartialOutputType
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:synchapi.CreateWaitableTimerW
 title: CreateWaitableTimerW function (synchapi.h)
-
 description: Creates or opens a waitable timer object.
 old-location: base\createwaitabletimer.htm
 tech.root: Sync
 ms.assetid: 41c915c4-424d-43dd-89d9-a6b4fbee701c
-
 ms.date: 12/05/2018
 ms.keywords: CreateWaitableTimer, CreateWaitableTimer function, CreateWaitableTimerA, CreateWaitableTimerW, _win32_createwaitabletimer, base.createwaitabletimer, synchapi/CreateWaitableTimer, synchapi/CreateWaitableTimerA, synchapi/CreateWaitableTimerW
 ms.topic: function
-f1_keywords: 
- - "synchapi/CreateWaitableTimer"
+f1_keywords:
+- synchapi/CreateWaitableTimer
 dev_langs:
- - c++
+- c++
 req.header: synchapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,20 +30,20 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-Synch-Ansi-L1-1-0.dll
- - API-MS-Win-Core-Synch-L1-2-1.dll
- - Kernel32Legacy.dll
- - KernelBase.dll
+- Kernel32.dll
+- API-MS-Win-Core-Synch-Ansi-L1-1-0.dll
+- API-MS-Win-Core-Synch-L1-2-1.dll
+- Kernel32Legacy.dll
+- KernelBase.dll
 api_name:
- - CreateWaitableTimer
- - CreateWaitableTimerA
- - CreateWaitableTimerW
+- CreateWaitableTimer
+- CreateWaitableTimerA
+- CreateWaitableTimerW
 targetos: Windows
 req.typenames: 
 req.redist: 

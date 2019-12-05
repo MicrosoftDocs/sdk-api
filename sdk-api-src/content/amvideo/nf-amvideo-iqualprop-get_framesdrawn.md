@@ -1,19 +1,17 @@
 ---
 UID: NF:amvideo.IQualProp.get_FramesDrawn
 title: IQualProp::get_FramesDrawn (amvideo.h)
-
 description: The get_FramesDrawn method retrieves the number of frames actually drawn since streaming started.
 old-location: dshow\iqualprop_get_framesdrawn.htm
 tech.root: DirectShow
 ms.assetid: 5a5d4aee-dd35-432f-b6a6-4b1b59ad9b78
-
 ms.date: 12/05/2018
 ms.keywords: IQualProp interface [DirectShow],get_FramesDrawn method, IQualProp.get_FramesDrawn, IQualProp::get_FramesDrawn, IQualPropget_FramesDrawn, amvideo/IQualProp::get_FramesDrawn, dshow.iqualprop_get_framesdrawn, get_FramesDrawn, get_FramesDrawn method [DirectShow], get_FramesDrawn method [DirectShow],IQualProp interface
 ms.topic: method
-f1_keywords: 
- - "amvideo/IQualProp.get_FramesDrawn"
+f1_keywords:
+- amvideo/IQualProp.get_FramesDrawn
 dev_langs:
- - c++
+- c++
 req.header: amvideo.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IQualProp.get_FramesDrawn
+- IQualProp.get_FramesDrawn
 targetos: Windows
 req.typenames: 
 req.redist: 

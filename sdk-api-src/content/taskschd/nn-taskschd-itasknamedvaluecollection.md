@@ -1,19 +1,17 @@
 ---
 UID: NN:taskschd.ITaskNamedValueCollection
 title: ITaskNamedValueCollection (taskschd.h)
-
 description: Contains a collection of ITaskNamedValuePair interface name-value pairs.
 old-location: taskschd\itasknamedvaluecollection.htm
 tech.root: taskschd
 ms.assetid: 440dc70b-02de-4974-ad2a-462491d12775
-
 ms.date: 12/05/2018
 ms.keywords: ITaskNamedValueCollection, ITaskNamedValueCollection interface [Task Scheduler], ITaskNamedValueCollection interface [Task Scheduler],described, taskschd.itasknamedvaluecollection, taskschd/ITaskNamedValueCollection
 ms.topic: interface
-f1_keywords: 
- - "taskschd/ITaskNamedValueCollection"
+f1_keywords:
+- taskschd/ITaskNamedValueCollection
 dev_langs:
- - c++
+- c++
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Taskschd.lib
 req.dll: Taskschd.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - taskschd.dll
+- taskschd.dll
 api_name:
- - ITaskNamedValueCollection
+- ITaskNamedValueCollection
 targetos: Windows
 req.typenames: 
 req.redist: 

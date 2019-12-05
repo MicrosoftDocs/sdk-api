@@ -1,19 +1,17 @@
 ---
 UID: NF:dhcpsapi.DhcpV4FailoverDeleteRelationship
 title: DhcpV4FailoverDeleteRelationship function (dhcpsapi.h)
-
 description: Deletes a DHCPv4 failover relationship between two servers.
 old-location: dhcp\dhcpv4failoverdeleterelationship.htm
 tech.root: DHCP
 ms.assetid: c7b894a4-4def-41fe-98b6-f56d6ff0c715
-
 ms.date: 12/05/2018
 ms.keywords: DhcpV4FailoverDeleteRelationship, DhcpV4FailoverDeleteRelationship function [DHCP], dhcp.dhcpv4failoverdeleterelationship, dhcpsapi/DhcpV4FailoverDeleteRelationship
 ms.topic: function
-f1_keywords: 
- - "dhcpsapi/DhcpV4FailoverDeleteRelationship"
+f1_keywords:
+- dhcpsapi/DhcpV4FailoverDeleteRelationship
 dev_langs:
- - c++
+- c++
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dhcpsapi.lib
 req.dll: Dhcpsapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Dhcpsapi.dll
+- Dhcpsapi.dll
 api_name:
- - DhcpV4FailoverDeleteRelationship
+- DhcpV4FailoverDeleteRelationship
 targetos: Windows
 req.typenames: 
 req.redist: 

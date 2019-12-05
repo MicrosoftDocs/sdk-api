@@ -1,19 +1,17 @@
 ---
 UID: NF:synchapi.WakeAllConditionVariable
 title: WakeAllConditionVariable function (synchapi.h)
-
 description: Wake all threads waiting on the specified condition variable.
 old-location: base\wakeallconditionvariable.htm
 tech.root: Sync
 ms.assetid: 1a57562a-fbbc-4a5f-910c-7a52a8dccbe3
-
 ms.date: 12/05/2018
 ms.keywords: WakeAllConditionVariable, WakeAllConditionVariable function, base.wakeallconditionvariable, synchapi/WakeAllConditionVariable, winbase/WakeAllConditionVariable
 ms.topic: function
-f1_keywords: 
- - "synchapi/WakeAllConditionVariable"
+f1_keywords:
+- synchapi/WakeAllConditionVariable
 dev_langs:
- - c++
+- c++
 req.header: synchapi.h
 req.include-header: Windows 7, Windows Server 2008  Windows Server 2008 R2, Windows.h
 req.target-type: Windows
@@ -32,20 +30,20 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-Synch-l1-2-0.dll
- - KernelBase.dll
- - API-MS-Win-Core-Synch-l1-2-1.dll
- - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
- - MinKernelBase.dll
- - vertdll.dll
+- Kernel32.dll
+- API-MS-Win-Core-Synch-l1-2-0.dll
+- KernelBase.dll
+- API-MS-Win-Core-Synch-l1-2-1.dll
+- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+- MinKernelBase.dll
+- vertdll.dll
 api_name:
- - WakeAllConditionVariable
+- WakeAllConditionVariable
 targetos: Windows
 req.typenames: 
 req.redist: 

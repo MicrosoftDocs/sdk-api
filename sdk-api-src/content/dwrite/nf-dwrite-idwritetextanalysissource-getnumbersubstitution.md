@@ -1,19 +1,17 @@
 ---
 UID: NF:dwrite.IDWriteTextAnalysisSource.GetNumberSubstitution
 title: IDWriteTextAnalysisSource::GetNumberSubstitution (dwrite.h)
-
 description: Gets the number substitution from the text range affected by the text analysis.
 old-location: directwrite\idwritetextanalysissource_getnumbersubstitution.htm
 tech.root: DirectWrite
 ms.assetid: 23e1539c-a58e-4123-82da-2f9d94309b05
-
 ms.date: 12/05/2018
 ms.keywords: GetNumberSubstitution, GetNumberSubstitution method [Direct Write], GetNumberSubstitution method [Direct Write],IDWriteTextAnalysisSource interface, IDWriteTextAnalysisSource interface [Direct Write],GetNumberSubstitution method, IDWriteTextAnalysisSource.GetNumberSubstitution, IDWriteTextAnalysisSource::GetNumberSubstitution, directwrite.idwritetextanalysissource_getnumbersubstitution, dwrite/IDWriteTextAnalysisSource::GetNumberSubstitution
 ms.topic: method
-f1_keywords: 
- - "dwrite/IDWriteTextAnalysisSource.GetNumberSubstitution"
+f1_keywords:
+- dwrite/IDWriteTextAnalysisSource.GetNumberSubstitution
 dev_langs:
- - c++
+- c++
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dwrite.lib
 req.dll: Dwrite.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dwrite.dll
+- dwrite.dll
 api_name:
- - IDWriteTextAnalysisSource.GetNumberSubstitution
+- IDWriteTextAnalysisSource.GetNumberSubstitution
 targetos: Windows
 req.typenames: 
 req.redist: 

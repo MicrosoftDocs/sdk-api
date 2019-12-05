@@ -1,19 +1,17 @@
 ---
 UID: NF:winscard.SCardReleaseStartedEvent
 title: SCardReleaseStartedEvent function (winscard.h)
-
 description: Decrements the reference count for a handle acquired by a previous call to the SCardAccessStartedEvent function.
 old-location: security\scardreleasestartedevent.htm
 tech.root: SecAuthN
 ms.assetid: 2c08500f-3ebf-4267-8436-b67543e1c13c
-
 ms.date: 12/05/2018
 ms.keywords: SCardReleaseStartedEvent, SCardReleaseStartedEvent function [Security], _smart_scardreleasestartedevent, security.scardreleasestartedevent, winscard/SCardReleaseStartedEvent
 ms.topic: function
-f1_keywords: 
- - "winscard/SCardReleaseStartedEvent"
+f1_keywords:
+- winscard/SCardReleaseStartedEvent
 dev_langs:
- - c++
+- c++
 req.header: winscard.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Winscard.lib
 req.dll: Winscard.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Winscard.dll
- - Ext-MS-Win-Security-WinSCard-L1-1-0.dll
+- Winscard.dll
+- Ext-MS-Win-Security-WinSCard-L1-1-0.dll
 api_name:
- - SCardReleaseStartedEvent
+- SCardReleaseStartedEvent
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:qmgr.IBackgroundCopyGroup.get_GroupID
 title: IBackgroundCopyGroup::get_GroupID (qmgr.h)
-
 description: Use the get_GroupID method to retrieve the group's identifier.
 old-location: bits\ibackgroundcopygroup_get_groupid.htm
 tech.root: Bits
 ms.assetid: fde4dfb9-002b-436e-96c1-a893a95dcacc
-
 ms.date: 12/05/2018
 ms.keywords: IBackgroundCopyGroup interface [BITS],get_GroupID method, IBackgroundCopyGroup.get_GroupID, IBackgroundCopyGroup::get_GroupID, bits.ibackgroundcopygroup_get_groupid, get_GroupID, get_GroupID method [BITS], get_GroupID method [BITS],IBackgroundCopyGroup interface, qmgr/IBackgroundCopyGroup::get_GroupID
 ms.topic: method
-f1_keywords: 
- - "qmgr/IBackgroundCopyGroup.get_GroupID"
+f1_keywords:
+- qmgr/IBackgroundCopyGroup.get_GroupID
 dev_langs:
- - c++
+- c++
 req.header: qmgr.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: QmgrPrxy.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - QmgrPrxy.dll
+- QmgrPrxy.dll
 api_name:
- - IBackgroundCopyGroup.get_GroupID
+- IBackgroundCopyGroup.get_GroupID
 targetos: Windows
 req.typenames: 
 req.redist: 

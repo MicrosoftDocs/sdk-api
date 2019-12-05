@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationcoreapi.UiaGetReservedMixedAttributeValue
 title: UiaGetReservedMixedAttributeValue function (uiautomationcoreapi.h)
-
 description: Retrieves a reserved value indicating that the value of a Microsoft UI Automation text attribute varies within a text range.
 old-location: winauto\uiauto_UiaGetReservedMixedAttributeValueAutoMeth.htm
 tech.root: WinAuto
 ms.assetid: 597ace91-197a-4cda-9386-78c6e429871b
-
 ms.date: 12/05/2018
 ms.keywords: UiaGetReservedMixedAttributeValue, UiaGetReservedMixedAttributeValue function [Windows Accessibility], uiauto.uiauto_UiaGetReservedMixedAttributeValueAutoMeth, uiauto_UiaGetReservedMixedAttributeValueAutoMeth, uiautomationcoreapi/UiaGetReservedMixedAttributeValue, winauto.uiauto_UiaGetReservedMixedAttributeValueAutoMeth
 ms.topic: function
-f1_keywords: 
- - "uiautomationcoreapi/UiaGetReservedMixedAttributeValue"
+f1_keywords:
+- uiautomationcoreapi/UiaGetReservedMixedAttributeValue
 dev_langs:
- - c++
+- c++
 req.header: uiautomationcoreapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib: Uiautomationcore.lib
 req.dll: Uiautomationcore.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Uiautomationcore.dll
- - Ext-MS-Win-uiacore-l1-1-0.dll
- - Ext-MS-Win-UIaCore-l1-1-1.dll
- - Ext-MS-Win-UIaCore-l1-1-2.dll
- - Ext-MS-Win-UiaCore-L1-1-3.dll
+- Uiautomationcore.dll
+- Ext-MS-Win-uiacore-l1-1-0.dll
+- Ext-MS-Win-UIaCore-l1-1-1.dll
+- Ext-MS-Win-UIaCore-l1-1-2.dll
+- Ext-MS-Win-UiaCore-L1-1-3.dll
 api_name:
- - UiaGetReservedMixedAttributeValue
+- UiaGetReservedMixedAttributeValue
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:mi.MI_DestinationOptions_SetCertRevocationCheck
 title: MI_DestinationOptions_SetCertRevocationCheck function (mi.h)
-
 description: Enables or disables the certificate revocation when communicating over SSL.
 old-location: wmi_v2\mi_destinationoptions_setcertrevocationcheck.htm
 tech.root: wmi_v2
 ms.assetid: 941d1649-a4b1-4160-9917-a94afe0b8cd6
-
 ms.date: 12/05/2018
 ms.keywords: MI_DestinationOptions_SetCertRevocationCheck, MI_DestinationOptions_SetCertRevocationCheck function [Windows Management Infrastructure (MI)], mi/MI_DestinationOptions_SetCertRevocationCheck, wmi_v2.mi_destinationoptions_setcertrevocationcheck
 ms.topic: function
 f1_keywords:
 - mi/MI_DestinationOptions_SetCertRevocationCheck
 dev_langs:
- - c++
+- c++
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows

@@ -1,19 +1,17 @@
 ---
 UID: NS:d3d10shader._D3D10_SHADER_DESC
 title: D3D10_SHADER_DESC (d3d10shader.h)
-
 description: Describes a shader.
 old-location: direct3d10\d3d10_shader_desc.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\d3d10_shader_desc.htm
-
 ms.date: 12/05/2018
 ms.keywords: 4f0bd653-5cd1-26ff-b805-ecf9070b3990, D3D10_SHADER_DESC, D3D10_SHADER_DESC structure [Direct3D 10], d3d10shader/D3D10_SHADER_DESC, direct3d10.d3d10_shader_desc
 ms.topic: struct
-f1_keywords: 
- - "d3d10shader/D3D10_SHADER_DESC"
+f1_keywords:
+- d3d10shader/D3D10_SHADER_DESC
 dev_langs:
- - c++
+- c++
 req.header: d3d10shader.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - D3D10Shader.h
+- D3D10Shader.h
 api_name:
- - D3D10_SHADER_DESC
+- D3D10_SHADER_DESC
 targetos: Windows
 req.typenames: D3D10_SHADER_DESC
 req.redist: 

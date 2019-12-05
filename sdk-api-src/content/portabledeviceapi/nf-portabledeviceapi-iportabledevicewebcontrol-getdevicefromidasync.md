@@ -1,19 +1,17 @@
 ---
 UID: NF:portabledeviceapi.IPortableDeviceWebControl.GetDeviceFromIdAsync
 title: IPortableDeviceWebControl::GetDeviceFromIdAsync (portabledeviceapi.h)
-
 description: Instantiates a WPD Automation Device object asynchronously for a given WPD device identifier.
 old-location: wpdauto\iportabledevicewebcontrol_getdevicefromidasync.htm
 tech.root: wpdauto
 ms.assetid: a53e4a15-4f51-43e7-84c7-4c75be87e3d9
-
 ms.date: 12/05/2018
 ms.keywords: GetDeviceFromIdAsync, GetDeviceFromIdAsync method [WPD Automation], GetDeviceFromIdAsync method [WPD Automation],IPortableDeviceWebControl interface, IPortableDeviceWebControl interface [WPD Automation],GetDeviceFromIdAsync method, IPortableDeviceWebControl.GetDeviceFromIdAsync, IPortableDeviceWebControl::GetDeviceFromIdAsync, portabledeviceapi/IPortableDeviceWebControl::GetDeviceFromIdAsync, wpdauto.iportabledevicewebcontrol_getdevicefromidasync
 ms.topic: method
-f1_keywords: 
- - "portabledeviceapi/IPortableDeviceWebControl.GetDeviceFromIdAsync"
+f1_keywords:
+- portabledeviceapi/IPortableDeviceWebControl.GetDeviceFromIdAsync
 dev_langs:
- - c++
+- c++
 req.header: portabledeviceapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - portabledeviceapi.h
+- portabledeviceapi.h
 api_name:
- - IPortableDeviceWebControl.GetDeviceFromIdAsync
+- IPortableDeviceWebControl.GetDeviceFromIdAsync
 targetos: Windows
 req.typenames: 
 req.redist: 

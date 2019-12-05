@@ -1,19 +1,17 @@
 ---
 UID: NE:mfobjects._MFBYTESTREAM_SEEK_ORIGIN
 title: MFBYTESTREAM_SEEK_ORIGIN (mfobjects.h)
-
 description: Specifies the origin for a seek request.
 old-location: mf\mfbytestream_seek_origin.htm
 tech.root: medfound
 ms.assetid: ad7ad61a-0c02-4a8f-96c3-33f7d1f0ce51
-
 ms.date: 12/05/2018
 ms.keywords: MFBYTESTREAM_SEEK_ORIGIN, MFBYTESTREAM_SEEK_ORIGIN enumeration [Media Foundation], _MFBYTESTREAM_SEEK_ORIGIN, ad7ad61a-0c02-4a8f-96c3-33f7d1f0ce51, mf.mfbytestream_seek_origin, mfobjects/MFBYTESTREAM_SEEK_ORIGIN, mfobjects/msoBegin, mfobjects/msoCurrent, msoBegin, msoCurrent
 ms.topic: enum
-f1_keywords: 
- - "mfobjects/MFBYTESTREAM_SEEK_ORIGIN"
+f1_keywords:
+- mfobjects/MFBYTESTREAM_SEEK_ORIGIN
 dev_langs:
- - c++
+- c++
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - mfobjects.h
+- mfobjects.h
 api_name:
- - MFBYTESTREAM_SEEK_ORIGIN
+- MFBYTESTREAM_SEEK_ORIGIN
 targetos: Windows
 req.typenames: MFBYTESTREAM_SEEK_ORIGIN
 req.redist: 

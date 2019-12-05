@@ -1,19 +1,17 @@
 ---
 UID: NS:msacm.tACMFILTERCHOOSE
 title: ACMFILTERCHOOSE (msacm.h)
-
 description: The ACMFILTERCHOOSE structure contains information the ACM uses to initialize the system-defined waveform-audio filter selection dialog box.
 old-location: multimedia\acmfilterchoose_struct.htm
 tech.root: Multimedia
 ms.assetid: 92ec2a41-e853-4533-b831-43c9d52dc27f
-
 ms.date: 12/05/2018
-ms.keywords: "*LPACMFILTERCHOOSE, *PACMFILTERCHOOSE, ACMFILTERCHOOSE, ACMFILTERCHOOSE structure [Windows Multimedia], ACMFILTERCHOOSE_STYLEF_CONTEXTHELP, ACMFILTERCHOOSE_STYLEF_ENABLEHOOK, ACMFILTERCHOOSE_STYLEF_ENABLETEMPLATE, ACMFILTERCHOOSE_STYLEF_ENABLETEMPLATEHANDLE, ACMFILTERCHOOSE_STYLEF_INITTOFILTERSTRUCT, ACMFILTERCHOOSE_STYLEF_SHOWHELP, ACM_FILTERENUMF_DWFILTERTAG, msacm/ACMFILTERCHOOSE, multimedia.acmfilterchoose_COLLISION925, multimedia.acmfilterchoose_struct"
+ms.keywords: '*LPACMFILTERCHOOSE, *PACMFILTERCHOOSE, ACMFILTERCHOOSE, ACMFILTERCHOOSE structure [Windows Multimedia], ACMFILTERCHOOSE_STYLEF_CONTEXTHELP, ACMFILTERCHOOSE_STYLEF_ENABLEHOOK, ACMFILTERCHOOSE_STYLEF_ENABLETEMPLATE, ACMFILTERCHOOSE_STYLEF_ENABLETEMPLATEHANDLE, ACMFILTERCHOOSE_STYLEF_INITTOFILTERSTRUCT, ACMFILTERCHOOSE_STYLEF_SHOWHELP, ACM_FILTERENUMF_DWFILTERTAG, msacm/ACMFILTERCHOOSE, multimedia.acmfilterchoose_COLLISION925, multimedia.acmfilterchoose_struct'
 ms.topic: struct
-f1_keywords: 
- - "msacm/ACMFILTERCHOOSE"
+f1_keywords:
+- msacm/ACMFILTERCHOOSE
 dev_langs:
- - c++
+- c++
 req.header: msacm.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Msacm.h
+- Msacm.h
 api_name:
- - ACMFILTERCHOOSE
+- ACMFILTERCHOOSE
 targetos: Windows
 req.typenames: ACMFILTERCHOOSE, *PACMFILTERCHOOSE, *LPACMFILTERCHOOSE
 req.redist: 

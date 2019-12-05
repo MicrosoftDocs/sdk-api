@@ -1,19 +1,17 @@
 ---
 UID: NF:mfmediaengine.IMFTimedText.GetCueTimeOffset
 title: IMFTimedText::GetCueTimeOffset (mfmediaengine.h)
-
 description: Gets the offset to the cue time.
 old-location: mf\imftimedtext_getcuetimeoffset.htm
 tech.root: medfound
 ms.assetid: E7619B18-6253-41CF-9D4D-F7944A8E5DDE
-
 ms.date: 12/05/2018
 ms.keywords: GetCueTimeOffset, GetCueTimeOffset method [Media Foundation], GetCueTimeOffset method [Media Foundation],IMFTimedText interface, IMFTimedText interface [Media Foundation],GetCueTimeOffset method, IMFTimedText.GetCueTimeOffset, IMFTimedText::GetCueTimeOffset, mf.imftimedtext_getcuetimeoffset, mfmediaengine/IMFTimedText::GetCueTimeOffset
 ms.topic: method
-f1_keywords: 
- - "mfmediaengine/IMFTimedText.GetCueTimeOffset"
+f1_keywords:
+- mfmediaengine/IMFTimedText.GetCueTimeOffset
 dev_langs:
- - c++
+- c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfmediaengine.h
+- mfmediaengine.h
 api_name:
- - IMFTimedText.GetCueTimeOffset
+- IMFTimedText.GetCueTimeOffset
 targetos: Windows
 req.typenames: 
 req.redist: 

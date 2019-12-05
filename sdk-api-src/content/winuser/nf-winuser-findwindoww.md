@@ -1,19 +1,17 @@
 ---
 UID: NF:winuser.FindWindowW
 title: FindWindowW function (winuser.h)
-
 description: Retrieves a handle to the top-level window whose class name and window name match the specified strings. This function does not search child windows. This function does not perform a case-sensitive search.
 old-location: winmsg\findwindow.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowfunctions\findwindow.htm
-
 ms.date: 12/05/2018
 ms.keywords: FindWindow, FindWindow function [Windows and Messages], FindWindowA, FindWindowW, _win32_FindWindow, _win32_findwindow_cpp, winmsg.findwindow, winui._win32_findwindow, winuser/FindWindow, winuser/FindWindowA, winuser/FindWindowW
 ms.topic: function
-f1_keywords: 
- - "winuser/FindWindow"
+f1_keywords:
+- winuser/FindWindow
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,26 +30,26 @@ req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - User32.dll
- - API-MS-Win-NTUser-IE-Window-l1-1-0.dll
- - ie_shims.dll
- - API-MS-Win-RTCore-NTUser-Window-l1-1-0.dll
- - minuser.dll
- - Ext-MS-Win-NTUser-Window-l1-1-0.dll
- - Ext-MS-Win-NTUser-Window-l1-1-1.dll
- - Ext-MS-Win-NTUser-Window-l1-1-2.dll
- - Ext-MS-Win-RTCore-NTUser-Window-Ext-l1-1-0.dll
- - ext-ms-win-ntuser-window-l1-1-3.dll
- - Ext-MS-Win-NTUser-Window-L1-1-4.dll
+- User32.dll
+- API-MS-Win-NTUser-IE-Window-l1-1-0.dll
+- ie_shims.dll
+- API-MS-Win-RTCore-NTUser-Window-l1-1-0.dll
+- minuser.dll
+- Ext-MS-Win-NTUser-Window-l1-1-0.dll
+- Ext-MS-Win-NTUser-Window-l1-1-1.dll
+- Ext-MS-Win-NTUser-Window-l1-1-2.dll
+- Ext-MS-Win-RTCore-NTUser-Window-Ext-l1-1-0.dll
+- ext-ms-win-ntuser-window-l1-1-3.dll
+- Ext-MS-Win-NTUser-Window-L1-1-4.dll
 api_name:
- - FindWindow
- - FindWindowA
- - FindWindowW
+- FindWindow
+- FindWindowA
+- FindWindowW
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:msctf.ITfRange.GetFormattedText
 title: ITfRange::GetFormattedText (msctf.h)
-
 description: The ITfRange::GetFormattedText method obtains formatted content contained within a range of text. The content is packaged in an object that supports the IDataObject interface.
 old-location: tsf\itfrange_getformattedtext.htm
 tech.root: TSF
 ms.assetid: 8da4cb21-7097-4ba9-a63b-3699ef267776
-
 ms.date: 12/05/2018
 ms.keywords: GetFormattedText, GetFormattedText method [Text Services Framework], GetFormattedText method [Text Services Framework],ITfRange interface, ITfRange interface [Text Services Framework],GetFormattedText method, ITfRange.GetFormattedText, ITfRange::GetFormattedText, _tsf_itfrange_getformattedtext_ref, msctf/ITfRange::GetFormattedText, tsf.itfrange_getformattedtext
 ms.topic: method
-f1_keywords: 
- - "msctf/ITfRange.GetFormattedText"
+f1_keywords:
+- msctf/ITfRange.GetFormattedText
 dev_langs:
- - c++
+- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msctf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msctf.dll
+- Msctf.dll
 api_name:
- - ITfRange.GetFormattedText
+- ITfRange.GetFormattedText
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

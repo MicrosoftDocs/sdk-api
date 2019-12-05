@@ -1,19 +1,17 @@
 ---
 UID: NF:uianimation.IUIAnimationTransition2.GetDuration
 title: IUIAnimationTransition2::GetDuration (uianimation.h)
-
 description: Gets the duration of the transition.
 old-location: uianimation\iuianimationtransition2_getduration.htm
 tech.root: UIAnimation
 ms.assetid: 07B5C7D7-80B1-4458-93A7-39F61121B618
-
 ms.date: 12/05/2018
 ms.keywords: GetDuration, GetDuration method [Windows Animation], GetDuration method [Windows Animation],IUIAnimationTransition2 interface, IUIAnimationTransition2 interface [Windows Animation],GetDuration method, IUIAnimationTransition2.GetDuration, IUIAnimationTransition2::GetDuration, uianimation.iuianimationtransition2_getduration, uianimation/IUIAnimationTransition2::GetDuration
 ms.topic: method
-f1_keywords: 
- - "uianimation/IUIAnimationTransition2.GetDuration"
+f1_keywords:
+- uianimation/IUIAnimationTransition2.GetDuration
 dev_langs:
- - c++
+- c++
 req.header: uianimation.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: UIAnimation.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAnimation.dll
+- UIAnimation.dll
 api_name:
- - IUIAnimationTransition2.GetDuration
+- IUIAnimationTransition2.GetDuration
 targetos: Windows
 req.typenames: 
 req.redist: 

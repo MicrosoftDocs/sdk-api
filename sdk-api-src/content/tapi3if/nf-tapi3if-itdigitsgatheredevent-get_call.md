@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi3if.ITDigitsGatheredEvent.get_Call
 title: ITDigitsGatheredEvent::get_Call (tapi3if.h)
-
 description: The get_Call method gets a pointer to the call information interface for the call object on which the event occurred.
 old-location: tapi3\itdigitsgatheredevent_get_call.htm
 tech.root: Tapi
 ms.assetid: 43625f93-4ab2-4aeb-83da-70310f118e34
-
 ms.date: 12/05/2018
 ms.keywords: ITDigitsGatheredEvent interface [TAPI 2.2],get_Call method, ITDigitsGatheredEvent.get_Call, ITDigitsGatheredEvent::get_Call, _tapi3_itdigitsgatheredevent_get_call, get_Call, get_Call method [TAPI 2.2], get_Call method [TAPI 2.2],ITDigitsGatheredEvent interface, tapi3.itdigitsgatheredevent_get_call, tapi3if/ITDigitsGatheredEvent::get_Call
 ms.topic: method
-f1_keywords: 
- - "tapi3if/ITDigitsGatheredEvent.get_Call"
+f1_keywords:
+- tapi3if/ITDigitsGatheredEvent.get_Call
 dev_langs:
- - c++
+- c++
 req.header: tapi3if.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Tapi3.dll
+- Tapi3.dll
 api_name:
- - ITDigitsGatheredEvent.get_Call
+- ITDigitsGatheredEvent.get_Call
 targetos: Windows
 req.typenames: 
 req.redist: 

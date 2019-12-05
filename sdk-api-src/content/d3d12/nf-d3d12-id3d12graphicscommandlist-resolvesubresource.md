@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d12.ID3D12GraphicsCommandList.ResolveSubresource
 title: ID3D12GraphicsCommandList::ResolveSubresource (d3d12.h)
-
 description: Copy a multi-sampled resource into a non-multi-sampled resource.
 old-location: direct3d12\id3d12graphicscommandlist_resolvesubresource.htm
 tech.root: direct3d12
 ms.assetid: F1D4BAD1-B08E-47D0-9D2B-41873D6B4456
-
 ms.date: 12/05/2018
 ms.keywords: ID3D12GraphicsCommandList interface,ResolveSubresource method, ID3D12GraphicsCommandList.ResolveSubresource, ID3D12GraphicsCommandList::ResolveSubresource, ResolveSubresource, ResolveSubresource method, ResolveSubresource method,ID3D12GraphicsCommandList interface, d3d12/ID3D12GraphicsCommandList::ResolveSubresource, direct3d12.id3d12graphicscommandlist_resolvesubresource
 ms.topic: method
-f1_keywords: 
- - "d3d12/ID3D12GraphicsCommandList.ResolveSubresource"
+f1_keywords:
+- d3d12/ID3D12GraphicsCommandList.ResolveSubresource
 dev_langs:
- - c++
+- c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: D3d12.lib
 req.dll: D3d12.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - d3d12.dll
+- d3d12.dll
 api_name:
- - ID3D12GraphicsCommandList.ResolveSubresource
+- ID3D12GraphicsCommandList.ResolveSubresource
 targetos: Windows
 req.typenames: 
 req.redist: 

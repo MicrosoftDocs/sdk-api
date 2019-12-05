@@ -1,19 +1,17 @@
 ---
 UID: NF:oleauto.SysReleaseString
 title: SysReleaseString function (oleauto.h)
-
 description: Decreases the pinning reference count for the specified string by one. When that count reaches 0, the memory for that string is no longer prevented from being freed.
 old-location: automat\sysreleasestring.htm
 tech.root: automat
 ms.assetid: D4905794-A4EA-4925-A4B2-92C8BF6EDFD0
-
 ms.date: 12/05/2018
 ms.keywords: SysReleaseString, SysReleaseString function [Automation], automat.sysreleasestring, oleauto/SysReleaseString
 ms.topic: function
-f1_keywords: 
- - "oleauto/SysReleaseString"
+f1_keywords:
+- oleauto/SysReleaseString
 dev_langs:
- - c++
+- c++
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Mincore.lib
 req.dll: Oleaut32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Oleaut32.dll
+- Oleaut32.dll
 api_name:
- - SysReleaseString
+- SysReleaseString
 targetos: Windows
 req.typenames: 
 req.redist: 

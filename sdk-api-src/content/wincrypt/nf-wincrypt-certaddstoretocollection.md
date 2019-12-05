@@ -1,19 +1,17 @@
 ---
 UID: NF:wincrypt.CertAddStoreToCollection
 title: CertAddStoreToCollection function (wincrypt.h)
-
 description: The CertAddStoreToCollection function adds a sibling certificate store to a collection certificate store.
 old-location: security\certaddstoretocollection.htm
 tech.root: SecCrypto
 ms.assetid: ea848d74-c3ec-4166-90ea-121b33f7f318
-
 ms.date: 12/05/2018
 ms.keywords: CertAddStoreToCollection, CertAddStoreToCollection function [Security], _crypto2_certaddstoretocollection, security.certaddstoretocollection, wincrypt/CertAddStoreToCollection
 ms.topic: function
-f1_keywords: 
- - "wincrypt/CertAddStoreToCollection"
+f1_keywords:
+- wincrypt/CertAddStoreToCollection
 dev_langs:
- - c++
+- c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Crypt32.lib
 req.dll: Crypt32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Crypt32.dll
+- Crypt32.dll
 api_name:
- - CertAddStoreToCollection
+- CertAddStoreToCollection
 targetos: Windows
 req.typenames: 
 req.redist: 

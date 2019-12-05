@@ -1,19 +1,17 @@
 ---
 UID: NN:tapi3if.ITTAPI
 title: ITTAPI (tapi3if.h)
-
 description: The ITTAPI interface is the base interface for the TAPI object. The TAPI object is created by CoCreateInstance. For information on CoCreateInstance, see documentation on COM. All other TAPI 3 objects are created by TAPI 3 itself.
 old-location: tapi3\ittapi.htm
 tech.root: Tapi
 ms.assetid: 75d641c7-dbf8-4ae2-b16b-2757e890d32b
-
 ms.date: 12/05/2018
 ms.keywords: ITTAPI, ITTAPI interface [TAPI 2.2], ITTAPI interface [TAPI 2.2],described, _tapi3_ittapi, tapi3.ittapi, tapi3if/ITTAPI
 ms.topic: interface
-f1_keywords: 
- - "tapi3if/ITTAPI"
+f1_keywords:
+- tapi3if/ITTAPI
 dev_langs:
- - c++
+- c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Tapi3.dll
+- Tapi3.dll
 api_name:
- - ITTAPI
+- ITTAPI
 targetos: Windows
 req.typenames: 
 req.redist: 

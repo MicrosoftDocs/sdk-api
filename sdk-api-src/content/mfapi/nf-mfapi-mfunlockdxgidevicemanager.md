@@ -1,19 +1,17 @@
 ---
 UID: NF:mfapi.MFUnlockDXGIDeviceManager
 title: MFUnlockDXGIDeviceManager function (mfapi.h)
-
 description: Unlocks the shared Microsoft DirectX Graphics Infrastructure (DXGI) Device Manager.
 old-location: mf\mfunlockdxgidevicemanager.htm
 tech.root: medfound
 ms.assetid: 89121716-4F30-4ACD-AA48-F563550B94A1
-
 ms.date: 12/05/2018
 ms.keywords: MFUnlockDXGIDeviceManager, MFUnlockDXGIDeviceManager function [Media Foundation], mf.mfunlockdxgidevicemanager, mfapi/MFUnlockDXGIDeviceManager
 ms.topic: function
-f1_keywords: 
- - "mfapi/MFUnlockDXGIDeviceManager"
+f1_keywords:
+- mfapi/MFUnlockDXGIDeviceManager
 dev_langs:
- - c++
+- c++
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Mfplat.lib
 req.dll: Mfplat.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - mfplat.dll
+- mfplat.dll
 api_name:
- - MFUnlockDXGIDeviceManager
+- MFUnlockDXGIDeviceManager
 targetos: Windows
 req.typenames: 
 req.redist: 

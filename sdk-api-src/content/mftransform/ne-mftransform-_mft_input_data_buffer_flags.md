@@ -1,19 +1,17 @@
 ---
 UID: NE:mftransform._MFT_INPUT_DATA_BUFFER_FLAGS
 title: _MFT_INPUT_DATA_BUFFER_FLAGS (mftransform.h)
-
 description: Defines flags for the IMFTransform::ProcessInput method. Currently no flags are defined.
 old-location: mf\_mft_input_data_buffer_flags.htm
 tech.root: medfound
 ms.assetid: 17405ee2-6513-4308-b29f-060211301918
-
 ms.date: 12/05/2018
 ms.keywords: 17405ee2-6513-4308-b29f-060211301918, MFT_INPUT_DATA_BUFFER_PLACEHOLDER, _MFT_INPUT_DATA_BUFFER_FLAGS, _MFT_INPUT_DATA_BUFFER_FLAGS enumeration [Media Foundation], mf._mft_input_data_buffer_flags, mftransform/MFT_INPUT_DATA_BUFFER_PLACEHOLDER, mftransform/_MFT_INPUT_DATA_BUFFER_FLAGS
 ms.topic: enum
-f1_keywords: 
- - "mftransform/_MFT_INPUT_DATA_BUFFER_FLAGS"
+f1_keywords:
+- mftransform/_MFT_INPUT_DATA_BUFFER_FLAGS
 dev_langs:
- - c++
+- c++
 req.header: mftransform.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - mftransform.h
+- mftransform.h
 api_name:
- - _MFT_INPUT_DATA_BUFFER_FLAGS
+- _MFT_INPUT_DATA_BUFFER_FLAGS
 targetos: Windows
 req.typenames: 
 req.redist: 

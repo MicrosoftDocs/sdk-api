@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d11sdklayers.ID3D11Debug.ValidateContextForDispatch
 title: ID3D11Debug::ValidateContextForDispatch (d3d11sdklayers.h)
-
 description: Verifies whether the dispatch pipeline state is valid.
 old-location: direct3d11\id3d11debug_validatecontextfordispatch.htm
 tech.root: direct3d11
 ms.assetid: 0ddabb4f-eeed-46d4-a1d2-501180edffe0
-
 ms.date: 12/05/2018
 ms.keywords: ID3D11Debug interface [Direct3D 11],ValidateContextForDispatch method, ID3D11Debug.ValidateContextForDispatch, ID3D11Debug::ValidateContextForDispatch, ValidateContextForDispatch, ValidateContextForDispatch method [Direct3D 11], ValidateContextForDispatch method [Direct3D 11],ID3D11Debug interface, d3d11sdklayers/ID3D11Debug::ValidateContextForDispatch, direct3d11.id3d11debug_validatecontextfordispatch
 ms.topic: method
-f1_keywords: 
- - "d3d11sdklayers/ID3D11Debug.ValidateContextForDispatch"
+f1_keywords:
+- d3d11sdklayers/ID3D11Debug.ValidateContextForDispatch
 dev_langs:
- - c++
+- c++
 req.header: d3d11sdklayers.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: D3D11.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D11.lib
- - D3D11.dll
+- D3D11.lib
+- D3D11.dll
 api_name:
- - ID3D11Debug.ValidateContextForDispatch
+- ID3D11Debug.ValidateContextForDispatch
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NS:fwptypes.FWP_RANGE0_
 title: FWP_RANGE0 (fwptypes.h)
-
 description: Specifies a range of values.
 old-location: fwp\fwp_range0.htm
 tech.root: fwp
 ms.assetid: 191ec0e4-2489-4f6f-80c5-8feec83d69c2
-
 ms.date: 12/05/2018
 ms.keywords: FWP_RANGE0, FWP_RANGE0 structure [Filtering], fwp.fwp_range0, fwptypes/FWP_RANGE0
 ms.topic: struct
-f1_keywords: 
- - "fwptypes/FWP_RANGE0"
+f1_keywords:
+- fwptypes/FWP_RANGE0
 dev_langs:
- - c++
+- c++
 req.header: fwptypes.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Fwptypes.h
+- Fwptypes.h
 api_name:
- - FWP_RANGE0
+- FWP_RANGE0
 targetos: Windows
 req.typenames: FWP_RANGE0
 req.redist: 

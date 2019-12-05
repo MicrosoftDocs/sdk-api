@@ -1,19 +1,17 @@
 ---
 UID: NF:vfw.MCIWndSetZoom
 title: MCIWndSetZoom macro (vfw.h)
-
 description: The MCIWndSetZoom macro resizes a video image according to a zoom factor. This marco adjusts the size of an MCIWnd window while maintaining a constant aspect ratio. You can use this macro or explicitly send the MCIWNDM_SETZOOM message.
 old-location: multimedia\mciwndsetzoom.htm
 tech.root: Multimedia
 ms.assetid: a9912c5c-2336-48a3-aca0-d0d434b9db08
-
 ms.date: 12/05/2018
 ms.keywords: MCIWndSetZoom, MCIWndSetZoom macro [Windows Multimedia], _win32_MCIWndSetZoom, multimedia.mciwndsetzoom, vfw/MCIWndSetZoom
 ms.topic: macro
-f1_keywords: 
- - "vfw/MCIWndSetZoom"
+f1_keywords:
+- vfw/MCIWndSetZoom
 dev_langs:
- - c++
+- c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Vfw.h
+- Vfw.h
 api_name:
- - MCIWndSetZoom
+- MCIWndSetZoom
 targetos: Windows
 req.typenames: 
 req.redist: 

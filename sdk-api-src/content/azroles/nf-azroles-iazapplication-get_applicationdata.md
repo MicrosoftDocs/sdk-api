@@ -1,19 +1,17 @@
 ---
 UID: NF:azroles.IAzApplication.get_ApplicationData
 title: IAzApplication::get_ApplicationData (azroles.h)
-
 description: Sets or retrieves an opaque field that can be used by the application to store information.
 old-location: security\iazapplication_applicationdata.htm
 tech.root: SecAuthZ
 ms.assetid: 7d7ec5c8-8032-437a-92b5-5c578deda6f9
-
 ms.date: 12/05/2018
 ms.keywords: ApplicationData property [Security], ApplicationData property [Security],AzApplication object, ApplicationData property [Security],IAzApplication interface, AzApplication object [Security],ApplicationData property, IAzApplication interface [Security],ApplicationData property, IAzApplication.ApplicationData, IAzApplication.get_ApplicationData, IAzApplication::ApplicationData, IAzApplication::get_ApplicationData, IAzApplication::put_ApplicationData, azroles/IAzApplication::ApplicationData, azroles/IAzApplication::get_ApplicationData, azroles/IAzApplication::put_ApplicationData, get_ApplicationData, security.iazapplication_applicationdata
 ms.topic: method
-f1_keywords: 
- - "azroles/IAzApplication.ApplicationData"
+f1_keywords:
+- azroles/IAzApplication.ApplicationData
 dev_langs:
- - c++
+- c++
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Azroles.lib
 req.dll: Azroles.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Azroles.dll
+- Azroles.dll
 api_name:
- - IAzApplication.ApplicationData
- - IAzApplication.get_ApplicationData
- - IAzApplication.put_ApplicationData
- - AzApplication.ApplicationData
+- IAzApplication.ApplicationData
+- IAzApplication.get_ApplicationData
+- IAzApplication.put_ApplicationData
+- AzApplication.ApplicationData
 targetos: Windows
 req.typenames: 
 req.redist: Windows Server 2003 Administration Tools Pack on Windows XP

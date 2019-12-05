@@ -1,19 +1,17 @@
 ---
 UID: NF:vds.IVdsSwProvider.QueryPacks
 title: IVdsSwProvider::QueryPacks (vds.h)
-
 description: Returns an enumeration object that contains all packs managed by the software provider.
 old-location: base\ivdsswprovider_querypacks.htm
 tech.root: VDS
 ms.assetid: f30494d8-ae82-479d-a47a-7087129e7e6a
-
 ms.date: 12/05/2018
 ms.keywords: IVdsSwProvider interface [VDS],QueryPacks method, IVdsSwProvider.QueryPacks, IVdsSwProvider::QueryPacks, QueryPacks, QueryPacks method [VDS], QueryPacks method [VDS],IVdsSwProvider interface, base.ivdsswprovider_querypacks, vds/IVdsSwProvider::QueryPacks
 ms.topic: method
-f1_keywords: 
- - "vds/IVdsSwProvider.QueryPacks"
+f1_keywords:
+- vds/IVdsSwProvider.QueryPacks
 dev_langs:
- - c++
+- c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Uuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Uuid.lib
- - Uuid.dll
+- Uuid.lib
+- Uuid.dll
 api_name:
- - IVdsSwProvider.QueryPacks
+- IVdsSwProvider.QueryPacks
 targetos: Windows
 req.typenames: 
 req.redist: 

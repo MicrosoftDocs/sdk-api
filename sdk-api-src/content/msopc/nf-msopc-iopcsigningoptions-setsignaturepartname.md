@@ -1,19 +1,17 @@
 ---
 UID: NF:msopc.IOpcSigningOptions.SetSignaturePartName
 title: IOpcSigningOptions::SetSignaturePartName (msopc.h)
-
 description: Sets the part name of the signature part where the signature markup will be stored.
 old-location: opc\iopcsigningoptions_setsignaturepartname.htm
 tech.root: OPC
 ms.assetid: 36d69a11-bfc3-4f0a-a681-4e138751990d
-
 ms.date: 12/05/2018
 ms.keywords: IOpcSigningOptions interface [Open Packaging Conventions],SetSignaturePartName method, IOpcSigningOptions.SetSignaturePartName, IOpcSigningOptions::SetSignaturePartName, SetSignaturePartName, SetSignaturePartName method [Open Packaging Conventions], SetSignaturePartName method [Open Packaging Conventions],IOpcSigningOptions interface, msopc/IOpcSigningOptions::SetSignaturePartName, opc.iopcsigningoptions_setsignaturepartname
 ms.topic: method
-f1_keywords: 
- - "msopc/IOpcSigningOptions.SetSignaturePartName"
+f1_keywords:
+- msopc/IOpcSigningOptions.SetSignaturePartName
 dev_langs:
- - c++
+- c++
 req.header: msopc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msopc.h
+- msopc.h
 api_name:
- - IOpcSigningOptions.SetSignaturePartName
+- IOpcSigningOptions.SetSignaturePartName
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:certenroll.IX509AttributeClientId.InitializeEncode
 title: IX509AttributeClientId::InitializeEncode (certenroll.h)
-
 description: Initializes the attribute from information about the user, client computer, and application that submitted the certificate request.
 old-location: security\ix509attributeclientid_initializeencode_method.htm
 tech.root: seccertenroll
 ms.assetid: 6a0e5b6f-0522-4c60-9ea1-7a5c2722cebd
-
 ms.date: 12/05/2018
 ms.keywords: IX509AttributeClientId interface [Security],InitializeEncode method, IX509AttributeClientId.InitializeEncode, IX509AttributeClientId::InitializeEncode, InitializeEncode, InitializeEncode method [Security], InitializeEncode method [Security],IX509AttributeClientId interface, certenroll/IX509AttributeClientId::InitializeEncode, security.ix509attributeclientid_initializeencode_method
 ms.topic: method
-f1_keywords: 
- - "certenroll/IX509AttributeClientId.InitializeEncode"
+f1_keywords:
+- certenroll/IX509AttributeClientId.InitializeEncode
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: CertEnroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CertEnroll.dll
+- CertEnroll.dll
 api_name:
- - IX509AttributeClientId.InitializeEncode
+- IX509AttributeClientId.InitializeEncode
 targetos: Windows
 req.typenames: 
 req.redist: 

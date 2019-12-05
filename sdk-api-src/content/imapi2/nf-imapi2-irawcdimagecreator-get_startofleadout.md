@@ -1,19 +1,17 @@
 ---
 UID: NF:imapi2.IRawCDImageCreator.get_StartOfLeadout
 title: IRawCDImageCreator::get_StartOfLeadout (imapi2.h)
-
 description: Retrieves the value that defines the LBA for the start of the Leadout. This method can be utilized to determine if the image can be written to a piece of media by comparing it against the LastPossibleStartOfLeadout for the media.
 old-location: imapi\irawcdimagecreator_get_startofleadout.htm
 tech.root: imapi
 ms.assetid: 5bf40179-31f5-453f-a989-4bcd116a45aa
-
 ms.date: 12/05/2018
 ms.keywords: IRawCDImageCreator interface [IMAPI],get_StartOfLeadout method, IRawCDImageCreator.get_StartOfLeadout, IRawCDImageCreator::get_StartOfLeadout, get_StartOfLeadout, get_StartOfLeadout method [IMAPI], get_StartOfLeadout method [IMAPI],IRawCDImageCreator interface, imapi.irawcdimagecreator_get_startofleadout, imapi2/IRawCDImageCreator::get_StartOfLeadout
 ms.topic: method
-f1_keywords: 
- - "imapi2/IRawCDImageCreator.get_StartOfLeadout"
+f1_keywords:
+- imapi2/IRawCDImageCreator.get_StartOfLeadout
 dev_langs:
- - c++
+- c++
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - imapi2.h
+- imapi2.h
 api_name:
- - IRawCDImageCreator.get_StartOfLeadout
+- IRawCDImageCreator.get_StartOfLeadout
 targetos: Windows
 req.typenames: 
 req.redist: 

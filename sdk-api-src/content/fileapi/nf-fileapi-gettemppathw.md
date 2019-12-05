@@ -1,19 +1,17 @@
 ---
 UID: NF:fileapi.GetTempPathW
 title: GetTempPathW function (fileapi.h)
-
 description: Retrieves the path of the directory designated for temporary files.
 old-location: fs\gettemppath.htm
 tech.root: FileIO
 ms.assetid: fb366f0d-df6b-44c2-92c9-b7a8e2583054
-
 ms.date: 12/05/2018
 ms.keywords: GetTempPath, GetTempPath function [Files], GetTempPathA, GetTempPathW, _win32_gettemppath, base.gettemppath, fileapi/GetTempPath, fileapi/GetTempPathA, fileapi/GetTempPathW, fs.gettemppath, winbase/GetTempPath, winbase/GetTempPathA, winbase/GetTempPathW
 ms.topic: function
-f1_keywords: 
- - "fileapi/GetTempPath"
+f1_keywords:
+- fileapi/GetTempPath
 dev_langs:
- - c++
+- c++
 req.header: fileapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,30 +30,30 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-Kernel32-Legacy-l1-1-0.dll
- - kernel32legacy.dll
- - API-MS-Win-Core-Kernel32-Legacy-l1-1-1.dll
- - API-MS-Win-Core-Kernel32-Legacy-l1-1-2.dll
- - API-MS-Win-DownLevel-Kernel32-l2-1-0.dll
- - API-MS-Win-Core-File-l1-2-0.dll
- - KernelBase.dll
- - API-MS-Win-Core-File-l1-2-1.dll
- - API-MS-Win-Core-File-l1-2-2.dll
- - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
- - MinKernelBase.dll
- - API-MS-Win-Core-Kernel32-Legacy-L1-1-3.dll
- - API-MS-Win-Core-Kernel32-Legacy-L1-1-4.dll
- - API-MS-Win-Core-Kernel32-Legacy-L1-1-5.dll
+- Kernel32.dll
+- API-MS-Win-Core-Kernel32-Legacy-l1-1-0.dll
+- kernel32legacy.dll
+- API-MS-Win-Core-Kernel32-Legacy-l1-1-1.dll
+- API-MS-Win-Core-Kernel32-Legacy-l1-1-2.dll
+- API-MS-Win-DownLevel-Kernel32-l2-1-0.dll
+- API-MS-Win-Core-File-l1-2-0.dll
+- KernelBase.dll
+- API-MS-Win-Core-File-l1-2-1.dll
+- API-MS-Win-Core-File-l1-2-2.dll
+- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+- MinKernelBase.dll
+- API-MS-Win-Core-Kernel32-Legacy-L1-1-3.dll
+- API-MS-Win-Core-Kernel32-Legacy-L1-1-4.dll
+- API-MS-Win-Core-Kernel32-Legacy-L1-1-5.dll
 api_name:
- - GetTempPath
- - GetTempPathA
- - GetTempPathW
+- GetTempPath
+- GetTempPathA
+- GetTempPathW
 targetos: Windows
 req.typenames: 
 req.redist: 

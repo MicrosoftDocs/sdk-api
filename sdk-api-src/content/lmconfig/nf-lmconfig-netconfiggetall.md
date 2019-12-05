@@ -1,19 +1,17 @@
 ---
 UID: NF:lmconfig.NetConfigGetAll
 title: NetConfigGetAll function (lmconfig.h)
-
 description: The NetConfigGetAll function is obsolete. It is included for compatibility with 16-bit versions of Windows. Other applications should use the registry.
 old-location: netmgmt\netconfiggetall.htm
 tech.root: NetMgmt
 ms.assetid: 1819f3d0-5e85-454b-947a-ae5e3db30987
-
 ms.date: 12/05/2018
 ms.keywords: NetConfigGetAll, NetConfigGetAll function [Network Management], _win32_netconfiggetall, lmconfig/NetConfigGetAll, netmgmt.netconfiggetall
 ms.topic: function
-f1_keywords: 
- - "lmconfig/NetConfigGetAll"
+f1_keywords:
+- lmconfig/NetConfigGetAll
 dev_langs:
- - c++
+- c++
 req.header: lmconfig.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - lmconfig.h
+- lmconfig.h
 api_name:
- - NetConfigGetAll
+- NetConfigGetAll
 targetos: Windows
 req.typenames: 
 req.redist: 

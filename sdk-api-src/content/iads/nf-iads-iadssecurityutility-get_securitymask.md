@@ -1,19 +1,17 @@
 ---
 UID: NF:iads.IADsSecurityUtility.get_SecurityMask
 title: IADsSecurityUtility::get_SecurityMask (iads.h)
-
 description: Determines which elements of the security descriptor to retrieve or set.
 old-location: adsi\iadssecurityutility_securitymask.htm
 tech.root: adsi
 ms.assetid: b54ebe68-f7ce-484e-9378-04662b7a1051
-
 ms.date: 12/05/2018
 ms.keywords: IADsSecurityUtility interface [ADSI],SecurityMask property, IADsSecurityUtility.SecurityMask, IADsSecurityUtility.get_SecurityMask, IADsSecurityUtility::SecurityMask, IADsSecurityUtility::get_SecurityMask, IADsSecurityUtility::put_SecurityMask, SecurityMask property [ADSI], SecurityMask property [ADSI],IADsSecurityUtility interface, adsi.iadssecurityutility_securitymask, get_SecurityMask, iads/IADsSecurityUtility::SecurityMask, iads/IADsSecurityUtility::get_SecurityMask, iads/IADsSecurityUtility::put_SecurityMask
 ms.topic: method
-f1_keywords: 
- - "iads/IADsSecurityUtility.SecurityMask"
+f1_keywords:
+- iads/IADsSecurityUtility.SecurityMask
 dev_langs:
- - c++
+- c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: Activeds.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Activeds.dll
+- Activeds.dll
 api_name:
- - IADsSecurityUtility.SecurityMask
- - IADsSecurityUtility.get_SecurityMask
- - IADsSecurityUtility.put_SecurityMask
+- IADsSecurityUtility.SecurityMask
+- IADsSecurityUtility.get_SecurityMask
+- IADsSecurityUtility.put_SecurityMask
 targetos: Windows
 req.typenames: 
 req.redist: 

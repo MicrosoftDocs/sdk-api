@@ -1,19 +1,17 @@
 ---
 UID: NN:d3d11.ID3D11SamplerState
 title: ID3D11SamplerState (d3d11.h)
-
 description: The sampler-state interface holds a description for sampler state that you can bind to any shader stage of the pipeline for reference by texture sample operations.
 old-location: direct3d11\id3d11samplerstate.htm
 tech.root: direct3d11
 ms.assetid: 8dc2facc-4f51-4064-aab4-028a06b9d7e6
-
 ms.date: 12/05/2018
 ms.keywords: 10df1118-2f5f-fe2c-97bb-9adf4d72bc25, ID3D11SamplerState, ID3D11SamplerState interface [Direct3D 11], ID3D11SamplerState interface [Direct3D 11],described, d3d11/ID3D11SamplerState, direct3d11.id3d11samplerstate
 ms.topic: interface
-f1_keywords: 
- - "d3d11/ID3D11SamplerState"
+f1_keywords:
+- d3d11/ID3D11SamplerState
 dev_langs:
- - c++
+- c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: D3D11.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D11.lib
- - D3D11.dll
+- D3D11.lib
+- D3D11.dll
 api_name:
- - ID3D11SamplerState
+- ID3D11SamplerState
 targetos: Windows
 req.typenames: 
 req.redist: 

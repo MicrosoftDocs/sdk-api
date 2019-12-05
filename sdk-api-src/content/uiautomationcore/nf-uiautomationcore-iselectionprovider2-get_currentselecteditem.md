@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationcore.ISelectionProvider2.get_CurrentSelectedItem
 title: ISelectionProvider2::get_CurrentSelectedItem (uiautomationcore.h)
-
 description: Gets the currently selected item.
 old-location: winauto\uiauto_ISelectionProvider2_CurrentSelectedItem.htm
 tech.root: WinAuto
 ms.assetid: 57742C23-0A71-4199-B4B7-E4D841D9AAEB
-
 ms.date: 12/05/2018
 ms.keywords: CurrentSelectedItem property [Windows Accessibility], CurrentSelectedItem property [Windows Accessibility],ISelectionProvider2 interface, ISelectionProvider2 interface [Windows Accessibility],CurrentSelectedItem property, ISelectionProvider2.CurrentSelectedItem, ISelectionProvider2.get_CurrentSelectedItem, ISelectionProvider2::CurrentSelectedItem, ISelectionProvider2::get_CurrentSelectedItem, get_CurrentSelectedItem, uiautomationcore/ISelectionProvider2::CurrentSelectedItem, uiautomationcore/ISelectionProvider2::get_CurrentSelectedItem, winauto.uiauto_ISelectionProvider2_CurrentSelectedItem
 ms.topic: method
-f1_keywords: 
- - "uiautomationcore/ISelectionProvider2.CurrentSelectedItem"
+f1_keywords:
+- uiautomationcore/ISelectionProvider2.CurrentSelectedItem
 dev_langs:
- - c++
+- c++
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationCore.h
+- UIAutomationCore.h
 api_name:
- - ISelectionProvider2.CurrentSelectedItem
- - ISelectionProvider2.get_CurrentSelectedItem
+- ISelectionProvider2.CurrentSelectedItem
+- ISelectionProvider2.get_CurrentSelectedItem
 targetos: Windows
 req.typenames: 
 req.redist: 

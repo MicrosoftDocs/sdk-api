@@ -1,19 +1,17 @@
 ---
 UID: NE:dxvahd._DXVAHD_FRAME_FORMAT
 title: DXVAHD_FRAME_FORMAT (dxvahd.h)
-
 description: Describes how a video stream is interlaced.
 old-location: mf\dxvahd_frame_format.htm
 tech.root: medfound
 ms.assetid: fc720dd3-e9c1-4b92-ac09-8e53cff44bec
-
 ms.date: 12/05/2018
 ms.keywords: DXVAHD_FRAME_FORMAT, DXVAHD_FRAME_FORMAT enumeration [Media Foundation], DXVAHD_FRAME_FORMAT_INTERLACED_BOTTOM_FIELD_FIRST, DXVAHD_FRAME_FORMAT_INTERLACED_TOP_FIELD_FIRST, DXVAHD_FRAME_FORMAT_PROGRESSIVE, dxvahd/DXVAHD_FRAME_FORMAT, dxvahd/DXVAHD_FRAME_FORMAT_INTERLACED_BOTTOM_FIELD_FIRST, dxvahd/DXVAHD_FRAME_FORMAT_INTERLACED_TOP_FIELD_FIRST, dxvahd/DXVAHD_FRAME_FORMAT_PROGRESSIVE, mf.dxvahd_frame_format
 ms.topic: enum
 f1_keywords:
 - dxvahd/DXVAHD_FRAME_FORMAT
 dev_langs:
- - c++
+- c++
 req.header: dxvahd.h
 req.include-header: 
 req.target-type: Windows

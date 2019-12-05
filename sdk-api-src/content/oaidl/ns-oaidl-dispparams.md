@@ -1,19 +1,17 @@
 ---
 UID: NS:oaidl.tagDISPPARAMS
 title: DISPPARAMS (oaidl.h)
-
 description: Contains the arguments passed to a method or property.
 old-location: automat\dispparams.htm
 tech.root: automat
 ms.assetid: a16e5a21-766e-4287-b039-13429aa78f8b
-
 ms.date: 12/05/2018
 ms.keywords: DISPPARAMS, DISPPARAMS structure [Automation], _oa96_DISPPARAMS, automat.dispparams, oaidl/DISPPARAMS
 ms.topic: struct
-f1_keywords: 
- - "oaidl/DISPPARAMS"
+f1_keywords:
+- oaidl/DISPPARAMS
 dev_langs:
- - c++
+- c++
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - OaIdl.h
+- OaIdl.h
 api_name:
- - DISPPARAMS
+- DISPPARAMS
 targetos: Windows
 req.typenames: DISPPARAMS
 req.redist: 

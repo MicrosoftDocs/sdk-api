@@ -1,19 +1,17 @@
 ---
 UID: NF:evr.IMFVideoDisplayControl.GetFullscreen
 title: IMFVideoDisplayControl::GetFullscreen (evr.h)
-
 description: Queries whether the enhanced video renderer (EVR) is currently in full-screen mode.
 old-location: mf\imfvideodisplaycontrol_getfullscreen.htm
 tech.root: medfound
 ms.assetid: ee564655-be8a-46f7-9682-acf3b38d056a
-
 ms.date: 12/05/2018
 ms.keywords: GetFullscreen, GetFullscreen method [Media Foundation], GetFullscreen method [Media Foundation],IMFVideoDisplayControl interface, IMFVideoDisplayControl interface [Media Foundation],GetFullscreen method, IMFVideoDisplayControl.GetFullscreen, IMFVideoDisplayControl::GetFullscreen, ee564655-be8a-46f7-9682-acf3b38d056a, evr/IMFVideoDisplayControl::GetFullscreen, mf.imfvideodisplaycontrol_getfullscreen
 ms.topic: method
-f1_keywords: 
- - "evr/IMFVideoDisplayControl.GetFullscreen"
+f1_keywords:
+- evr/IMFVideoDisplayControl.GetFullscreen
 dev_langs:
- - c++
+- c++
 req.header: evr.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - strmiids.lib
- - strmiids.dll
+- strmiids.lib
+- strmiids.dll
 api_name:
- - IMFVideoDisplayControl.GetFullscreen
+- IMFVideoDisplayControl.GetFullscreen
 targetos: Windows
 req.typenames: 
 req.redist: 

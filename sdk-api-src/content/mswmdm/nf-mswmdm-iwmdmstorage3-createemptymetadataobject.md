@@ -1,19 +1,17 @@
 ---
 UID: NF:mswmdm.IWMDMStorage3.CreateEmptyMetadataObject
 title: IWMDMStorage3::CreateEmptyMetadataObject (mswmdm.h)
-
 description: The CreateEmptyMetadataObject method creates a new IWMDMMetaData interface. This interface is used to set or retrieve metadata properties of a storage.
 old-location: wmdm\iwmdmstorage3_createemptymetadataobject.htm
 tech.root: WMDM
 ms.assetid: e46b5f30-3dd9-4e5a-bd75-c7716a1d8a2a
-
 ms.date: 12/05/2018
 ms.keywords: CreateEmptyMetadataObject, CreateEmptyMetadataObject method [windows Media Device Manager], CreateEmptyMetadataObject method [windows Media Device Manager],IWMDMStorage3 interface, IWMDMStorage3 interface [windows Media Device Manager],CreateEmptyMetadataObject method, IWMDMStorage3.CreateEmptyMetadataObject, IWMDMStorage3::CreateEmptyMetadataObject, IWMDMStorage3CreateEmptyMetadataObject, mswmdm/IWMDMStorage3::CreateEmptyMetadataObject, wmdm.iwmdmstorage3_createemptymetadataobject
 ms.topic: method
-f1_keywords: 
- - "mswmdm/IWMDMStorage3.CreateEmptyMetadataObject"
+f1_keywords:
+- mswmdm/IWMDMStorage3.CreateEmptyMetadataObject
 dev_langs:
- - c++
+- c++
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mssachlp.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mssachlp.lib
- - mssachlp.dll
+- mssachlp.lib
+- mssachlp.dll
 api_name:
- - IWMDMStorage3.CreateEmptyMetadataObject
+- IWMDMStorage3.CreateEmptyMetadataObject
 targetos: Windows
 req.typenames: 
 req.redist: 

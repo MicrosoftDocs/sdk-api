@@ -6,9 +6,9 @@ ms.date: 6/24/2019
 ms.keywords: IGraphicsCaptureItemInterop::CreateForMonitor
 ms.topic: language-reference
 f1_keywords:
- - IGraphicsCaptureItemInterop::CreateForMonitor
+- IGraphicsCaptureItemInterop::CreateForMonitor
 dev_langs:
- - c++
+- c++
 targetos: Windows
 req.assembly: 
 req.construct-type: function
@@ -30,13 +30,13 @@ req.type-library:
 req.umdf-ver: 
 req.unicode-ansi: 
 topic_type:
- - apiref
+- apiref
 api_type:
- - COM
+- COM
 api_location:
- - windows.h
+- windows.h
 api_name:
- - IGraphicsCaptureItemInterop::CreateForMonitor
+- IGraphicsCaptureItemInterop::CreateForMonitor
 tech.root: winrt
 ---
 

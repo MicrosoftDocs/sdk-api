@@ -1,19 +1,17 @@
 ---
 UID: NF:vds.IVdsIscsiPortalGroup.Delete
 title: IVdsIscsiPortalGroup::Delete (vds.h)
-
 description: Deletes the portal group.
 old-location: base\ivdsiscsiportalgroup_delete.htm
 tech.root: VDS
 ms.assetid: 903f89b8-4712-4832-ba70-41a5362cbf28
-
 ms.date: 12/05/2018
 ms.keywords: Delete, Delete method [VDS], Delete method [VDS],IVdsIscsiPortalGroup interface, IVdsIscsiPortalGroup interface [VDS],Delete method, IVdsIscsiPortalGroup.Delete, IVdsIscsiPortalGroup::Delete, base.ivdsiscsiportalgroup_delete, vds/IVdsIscsiPortalGroup::Delete, vdshwprv/IVdsIscsiPortalGroup::Delete
 ms.topic: method
 f1_keywords:
 - vds/IVdsIscsiPortalGroup.Delete
 dev_langs:
- - c++
+- c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

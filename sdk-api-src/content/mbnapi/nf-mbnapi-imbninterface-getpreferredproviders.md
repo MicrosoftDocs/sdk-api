@@ -1,19 +1,17 @@
 ---
 UID: NF:mbnapi.IMbnInterface.GetPreferredProviders
 title: IMbnInterface::GetPreferredProviders (mbnapi.h)
-
 description: Gets the list of preferred providers.
 old-location: mbn\imbninterface_getpreferredproviders.htm
 tech.root: mbn
 ms.assetid: cbd37f0a-4245-415d-bd74-501aa4c7ade7
-
 ms.date: 12/05/2018
 ms.keywords: GetPreferredProviders, GetPreferredProviders method [Microsoft Broadband Networks], GetPreferredProviders method [Microsoft Broadband Networks],IMbnInterface interface, IMbnInterface interface [Microsoft Broadband Networks],GetPreferredProviders method, IMbnInterface.GetPreferredProviders, IMbnInterface::GetPreferredProviders, mbn.imbninterface_getpreferredproviders, mbnapi/IMbnInterface::GetPreferredProviders
 ms.topic: method
-f1_keywords: 
- - "mbnapi/IMbnInterface.GetPreferredProviders"
+f1_keywords:
+- mbnapi/IMbnInterface.GetPreferredProviders
 dev_langs:
- - c++
+- c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mbnapi.h
+- mbnapi.h
 api_name:
- - IMbnInterface.GetPreferredProviders
+- IMbnInterface.GetPreferredProviders
 targetos: Windows
 req.typenames: 
 req.redist: 

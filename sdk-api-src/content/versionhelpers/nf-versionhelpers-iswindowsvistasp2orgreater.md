@@ -1,19 +1,17 @@
 ---
 UID: NF:versionhelpers.IsWindowsVistaSP2OrGreater
 title: IsWindowsVistaSP2OrGreater function (versionhelpers.h)
-
 description: Indicates if the current OS version matches, or is greater than, the Windows Vista with Service Pack 2 (SP2) version.
 old-location: base\iswindowsvistasp2orgreater.htm
 tech.root: SysInfo
 ms.assetid: 8D7F5DA2-8927-4453-A5E3-35A345B099EC
-
 ms.date: 12/05/2018
 ms.keywords: IsWindowsVistaSP2OrGreater, IsWindowsVistaSP2OrGreater function, base.iswindowsvistasp2orgreater, versionhelpers/IsWindowsVistaSP2OrGreater
 ms.topic: function
-f1_keywords: 
- - "versionhelpers/IsWindowsVistaSP2OrGreater"
+f1_keywords:
+- versionhelpers/IsWindowsVistaSP2OrGreater
 dev_langs:
- - c++
+- c++
 req.header: versionhelpers.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Kernel32.lib; Ntdll.lib
 req.dll: Kernel32.dll; Ntdll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - ntdll.dll
+- Kernel32.dll
+- ntdll.dll
 api_name:
- - IsWindowsVistaSP2OrGreater
+- IsWindowsVistaSP2OrGreater
 targetos: Windows
 req.typenames: 
 req.redist: 

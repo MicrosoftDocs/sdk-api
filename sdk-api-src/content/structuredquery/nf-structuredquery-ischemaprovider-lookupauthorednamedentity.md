@@ -1,19 +1,17 @@
 ---
 UID: NF:structuredquery.ISchemaProvider.LookupAuthoredNamedEntity
 title: ISchemaProvider::LookupAuthoredNamedEntity (structuredquery.h)
-
 description: Finds named entities of a specified type in a tokenized string, and returns the value of the entity and the number of tokens the entity value occupies.
 old-location: search\_search_ISchemaProvider_LookupAuthoredNamedEntity.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\ischemaprovider\lookupauthorednamedentity.htm
-
 ms.date: 12/05/2018
 ms.keywords: ISchemaProvider interface [search],LookupAuthoredNamedEntity method, ISchemaProvider.LookupAuthoredNamedEntity, ISchemaProvider::LookupAuthoredNamedEntity, LookupAuthoredNamedEntity, LookupAuthoredNamedEntity method [search], LookupAuthoredNamedEntity method [search],ISchemaProvider interface, _search_ISchemaProvider_LookupAuthoredNamedEntity, search._search_ISchemaProvider_LookupAuthoredNamedEntity, structuredquery/ISchemaProvider::LookupAuthoredNamedEntity
 ms.topic: method
-f1_keywords: 
- - "structuredquery/ISchemaProvider.LookupAuthoredNamedEntity"
+f1_keywords:
+- structuredquery/ISchemaProvider.LookupAuthoredNamedEntity
 dev_langs:
- - c++
+- c++
 req.header: structuredquery.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Structuredquery.h
+- Structuredquery.h
 api_name:
- - ISchemaProvider.LookupAuthoredNamedEntity
+- ISchemaProvider.LookupAuthoredNamedEntity
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0

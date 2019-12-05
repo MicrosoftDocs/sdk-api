@@ -1,19 +1,17 @@
 ---
 UID: NE:bcrypt.__unnamed_enum_5
 title: BCRYPT_MULTI_OPERATION_TYPE (bcrypt.h)
-
 description: The BCRYPT_MULTI_OPERATION_TYPE enumeration specifies type of multi-operation that is passed to the BCryptProcessMultiOperations function.
 old-location: security\bcrypt_multi_operation_type.htm
 tech.root: SecCNG
 ms.assetid: C87714F6-CB25-4215-B1BA-C09AAA875D00
-
 ms.date: 12/05/2018
 ms.keywords: BCRYPT_MULTI_OPERATION_TYPE, BCRYPT_MULTI_OPERATION_TYPE enumeration [Security], BCRYPT_OPERATION_TYPE_HASH, bcrypt/BCRYPT_MULTI_OPERATION_TYPE, bcrypt/BCRYPT_OPERATION_TYPE_HASH, security.bcrypt_multi_operation_type
 ms.topic: enum
-f1_keywords: 
- - "bcrypt/BCRYPT_MULTI_OPERATION_TYPE"
+f1_keywords:
+- bcrypt/BCRYPT_MULTI_OPERATION_TYPE
 dev_langs:
- - c++
+- c++
 req.header: bcrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Bcrypt.h
+- Bcrypt.h
 api_name:
- - BCRYPT_MULTI_OPERATION_TYPE
+- BCRYPT_MULTI_OPERATION_TYPE
 targetos: Windows
 req.typenames: BCRYPT_MULTI_OPERATION_TYPE
 req.redist: 

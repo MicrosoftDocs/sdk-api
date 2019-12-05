@@ -1,19 +1,17 @@
 ---
 UID: NN:uiautomationcore.ISpreadsheetItemProvider
 title: ISpreadsheetItemProvider (uiautomationcore.h)
-
 description: Provides access to information about an item (cell) in a spreadsheet.
 old-location: winauto\uiauto_ISpreadsheetItemProvider.htm
 tech.root: WinAuto
 ms.assetid: E6428FED-2BCC-4AD5-B612-A22899624538
-
 ms.date: 12/05/2018
 ms.keywords: ISpreadsheetItemProvider, ISpreadsheetItemProvider interface [Windows Accessibility], ISpreadsheetItemProvider interface [Windows Accessibility],described, uiautomationcore/ISpreadsheetItemProvider, winauto.uiauto_ISpreadsheetItemProvider
 ms.topic: interface
-f1_keywords: 
- - "uiautomationcore/ISpreadsheetItemProvider"
+f1_keywords:
+- uiautomationcore/ISpreadsheetItemProvider
 dev_langs:
- - c++
+- c++
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: UIAutomationCore.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationCore.dll
+- UIAutomationCore.dll
 api_name:
- - ISpreadsheetItemProvider
+- ISpreadsheetItemProvider
 targetos: Windows
 req.typenames: 
 req.redist: 

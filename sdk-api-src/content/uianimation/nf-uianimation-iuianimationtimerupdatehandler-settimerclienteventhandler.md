@@ -1,19 +1,17 @@
 ---
 UID: NF:uianimation.IUIAnimationTimerUpdateHandler.SetTimerClientEventHandler
 title: IUIAnimationTimerUpdateHandler::SetTimerClientEventHandler (uianimation.h)
-
 description: Specifies a handler for timer client status change events.
 old-location: uianimation\iuianimationtimerupdatehandler_settimerclienteventhandler.htm
 tech.root: UIAnimation
 ms.assetid: ce213fc5-1329-413f-abf1-a4ab7c78818e
-
 ms.date: 12/05/2018
 ms.keywords: IUIAnimationTimerUpdateHandler interface [Windows Animation],SetTimerClientEventHandler method, IUIAnimationTimerUpdateHandler.SetTimerClientEventHandler, IUIAnimationTimerUpdateHandler::SetTimerClientEventHandler, SetTimerClientEventHandler, SetTimerClientEventHandler method [Windows Animation], SetTimerClientEventHandler method [Windows Animation],IUIAnimationTimerUpdateHandler interface, uianimation.iuianimationtimerupdatehandler_settimerclienteventhandler, uianimation/IUIAnimationTimerUpdateHandler::SetTimerClientEventHandler
 ms.topic: method
-f1_keywords: 
- - "uianimation/IUIAnimationTimerUpdateHandler.SetTimerClientEventHandler"
+f1_keywords:
+- uianimation/IUIAnimationTimerUpdateHandler.SetTimerClientEventHandler
 dev_langs:
- - c++
+- c++
 req.header: uianimation.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: UIAnimation.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAnimation.dll
+- UIAnimation.dll
 api_name:
- - IUIAnimationTimerUpdateHandler.SetTimerClientEventHandler
+- IUIAnimationTimerUpdateHandler.SetTimerClientEventHandler
 targetos: Windows
 req.typenames: 
 req.redist: 

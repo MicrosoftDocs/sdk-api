@@ -1,19 +1,17 @@
 ---
 UID: NF:msctf.ITfCategoryMgr.FindClosestCategory
 title: ITfCategoryMgr::FindClosestCategory (msctf.h)
-
 description: ITfCategoryMgr::FindClosestCategory method
 old-location: tsf\itfcategorymgr_findclosestcategory.htm
 tech.root: TSF
 ms.assetid: 16a78457-b89c-43ef-8604-fd6c2f93f928
-
 ms.date: 12/05/2018
 ms.keywords: FindClosestCategory, FindClosestCategory method [Text Services Framework], FindClosestCategory method [Text Services Framework],ITfCategoryMgr interface, ITfCategoryMgr interface [Text Services Framework],FindClosestCategory method, ITfCategoryMgr.FindClosestCategory, ITfCategoryMgr::FindClosestCategory, _tsf_itfcategorymgr_findclosestcategory_ref, msctf/ITfCategoryMgr::FindClosestCategory, tsf.itfcategorymgr_findclosestcategory
 ms.topic: method
-f1_keywords: 
- - "msctf/ITfCategoryMgr.FindClosestCategory"
+f1_keywords:
+- msctf/ITfCategoryMgr.FindClosestCategory
 dev_langs:
- - c++
+- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msctf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msctf.dll
+- msctf.dll
 api_name:
- - ITfCategoryMgr.FindClosestCategory
+- ITfCategoryMgr.FindClosestCategory
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

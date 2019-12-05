@@ -1,19 +1,17 @@
 ---
 UID: NN:uiribbon.IUICommandHandler
 title: IUICommandHandler (uiribbon.h)
-
 description: The IUICommandHandler interface is implemented by the application and defines the methods for gathering Command information and handling Command events from the Windows Ribbon framework.
 old-location: windowsribbon\windowsribbon_iuicommandhandler.htm
 tech.root: windowsribbon
 ms.assetid: VS|scenicintent|~\scenicintent\reference\ifaces\iuicommandhandler\iuicommandhandler.htm
-
 ms.date: 12/05/2018
 ms.keywords: IUICommandHandler, IUICommandHandler interface [Windows Ribbon], IUICommandHandler interface [Windows Ribbon],described, scenicintent_IUICommandHandler, uiribbon/IUICommandHandler, windowsribbon.windowsribbon_iuicommandhandler
 ms.topic: interface
-f1_keywords: 
- - "uiribbon/IUICommandHandler"
+f1_keywords:
+- uiribbon/IUICommandHandler
 dev_langs:
- - c++
+- c++
 req.header: uiribbon.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Uiribbon.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Uiribbon.dll
+- Uiribbon.dll
 api_name:
- - IUICommandHandler
+- IUICommandHandler
 targetos: Windows
 req.typenames: 
 req.redist: 

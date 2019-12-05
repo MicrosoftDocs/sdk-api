@@ -1,19 +1,17 @@
 ---
 UID: NF:sspi.SspiDecryptAuthIdentityEx
 title: SspiDecryptAuthIdentityEx function (sspi.h)
-
 description: Decrypts a SEC_WINNT_AUTH_IDENTITY_OPAQUE structure.
 old-location: security\sspidecryptauthidentityex.htm
 tech.root: SecAuthN
 ms.assetid: 86598BAA-0E87-46A9-AA1A-BF04BF0CDAFA
-
 ms.date: 12/05/2018
 ms.keywords: SspiDecryptAuthIdentityEx, SspiDecryptAuthIdentityEx function [Security], security.sspidecryptauthidentityex, sspi/SspiDecryptAuthIdentityEx
 ms.topic: function
-f1_keywords: 
- - "sspi/SspiDecryptAuthIdentityEx"
+f1_keywords:
+- sspi/SspiDecryptAuthIdentityEx
 dev_langs:
- - c++
+- c++
 req.header: sspi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Sspi.h
+- Sspi.h
 api_name:
- - SspiDecryptAuthIdentityEx
+- SspiDecryptAuthIdentityEx
 targetos: Windows
 req.typenames: 
 req.redist: 

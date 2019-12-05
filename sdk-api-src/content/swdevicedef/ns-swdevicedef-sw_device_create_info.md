@@ -1,19 +1,17 @@
 ---
 UID: NS:swdevicedef._SW_DEVICE_CREATE_INFO
 title: SW_DEVICE_CREATE_INFO (swdevicedef.h)
-
 description: Describes info that PnP uses to create the software device.
 old-location: swdevice\sw_device_create_info.htm
 tech.root: swdevice
 ms.assetid: 9519FD17-AB43-4C9E-BE77-9DFAC3263447
-
 ms.date: 12/05/2018
 ms.keywords: '*PSW_DEVICE_CREATE_INFO, PSW_DEVICE_CREATE_INFO, PSW_DEVICE_CREATE_INFO structure pointer, SWDeviceCapabilitiesDriverRequired, SWDeviceCapabilitiesNoDisplayInUI, SWDeviceCapabilitiesNone, SWDeviceCapabilitiesRemovable, SWDeviceCapabilitiesSilentInstall, SW_DEVICE_CREATE_INFO, SW_DEVICE_CREATE_INFO structure, swdevice.sw_device_create_info, swdevicedef/PSW_DEVICE_CREATE_INFO, swdevicedef/SW_DEVICE_CREATE_INFO'
 ms.topic: struct
 f1_keywords:
 - swdevicedef/SW_DEVICE_CREATE_INFO
 dev_langs:
- - c++
+- c++
 req.header: swdevicedef.h
 req.include-header: Swdevice.h
 req.target-type: Windows

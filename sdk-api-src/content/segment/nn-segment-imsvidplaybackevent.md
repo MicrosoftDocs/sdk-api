@@ -1,19 +1,17 @@
 ---
 UID: NN:segment.IMSVidPlaybackEvent
 title: IMSVidPlaybackEvent (segment.h)
-
 description: This topic applies to Windows XP or later.
 old-location: mstv\imsvidplaybackevent.htm
 tech.root: mstv
 ms.assetid: 7347601e-e889-4a45-8b94-081678df68d9
-
 ms.date: 12/05/2018
 ms.keywords: IMSVidPlaybackEvent, IMSVidPlaybackEvent interface [Microsoft TV Technologies], IMSVidPlaybackEvent interface [Microsoft TV Technologies],described, IMSVidPlaybackEventInterface, mstv.imsvidplaybackevent, segment/IMSVidPlaybackEvent
 ms.topic: interface
-f1_keywords: 
- - "segment/IMSVidPlaybackEvent"
+f1_keywords:
+- segment/IMSVidPlaybackEvent
 dev_langs:
- - c++
+- c++
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - segment.h
+- segment.h
 api_name:
- - IMSVidPlaybackEvent
+- IMSVidPlaybackEvent
 targetos: Windows
 req.typenames: 
 req.redist: 

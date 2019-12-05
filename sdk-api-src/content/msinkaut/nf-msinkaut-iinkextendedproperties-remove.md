@@ -1,19 +1,17 @@
 ---
 UID: NF:msinkaut.IInkExtendedProperties.Remove
 title: IInkExtendedProperties::Remove (msinkaut.h)
-
 description: Removes the IInkExtendedProperty object from the IInkExtendedProperties collection.
 old-location: tablet\iinkextendedproperties_remove.htm
 tech.root: tablet
 ms.assetid: 2211a462-df26-4168-b89c-9607683defdb
-
 ms.date: 12/05/2018
 ms.keywords: 2211a462-df26-4168-b89c-9607683defdb, IInkExtendedProperties interface [Tablet PC],Remove method, IInkExtendedProperties.Remove, IInkExtendedProperties::Remove, Remove, Remove method [Tablet PC], Remove method [Tablet PC],IInkExtendedProperties interface, msinkaut/IInkExtendedProperties::Remove, tablet.iinkextendedproperties_remove
 ms.topic: method
-f1_keywords: 
- - "msinkaut/IInkExtendedProperties.Remove"
+f1_keywords:
+- msinkaut/IInkExtendedProperties.Remove
 dev_langs:
- - c++
+- c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: InkObj.dll
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - InkObj.dll
- - InkObj.dll.dll
+- InkObj.dll
+- InkObj.dll.dll
 api_name:
- - IInkExtendedProperties.Remove
+- IInkExtendedProperties.Remove
 targetos: Windows
 req.typenames: 
 req.redist: 

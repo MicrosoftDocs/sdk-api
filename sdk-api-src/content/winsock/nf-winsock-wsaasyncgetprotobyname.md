@@ -1,19 +1,17 @@
 ---
 UID: NF:winsock.WSAAsyncGetProtoByName
 title: WSAAsyncGetProtoByName function (winsock.h)
-
 description: The WSAAsyncGetProtoByName function asynchronously retrieves protocol information that corresponds to a protocol name.
 old-location: winsock\wsaasyncgetprotobyname_2.htm
 tech.root: WinSock
 ms.assetid: 747c40fd-5dc1-4533-896e-bc1c4368d7bd
-
 ms.date: 12/05/2018
 ms.keywords: WSAAsyncGetProtoByName, WSAAsyncGetProtoByName function [Winsock], _win32_wsaasyncgetprotobyname_2, winsock.wsaasyncgetprotobyname_2, winsock/WSAAsyncGetProtoByName
 ms.topic: function
-f1_keywords: 
- - "winsock/WSAAsyncGetProtoByName"
+f1_keywords:
+- winsock/WSAAsyncGetProtoByName
 dev_langs:
- - c++
+- c++
 req.header: winsock.h
 req.include-header: Winsock2.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Ws2_32.lib
 req.dll: Ws2_32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ws2_32.dll
+- Ws2_32.dll
 api_name:
- - WSAAsyncGetProtoByName
+- WSAAsyncGetProtoByName
 targetos: Windows
 req.typenames: 
 req.redist: 

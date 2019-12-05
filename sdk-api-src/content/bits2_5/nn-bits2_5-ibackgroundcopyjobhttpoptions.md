@@ -1,19 +1,17 @@
 ---
 UID: NN:bits2_5.IBackgroundCopyJobHttpOptions
 title: IBackgroundCopyJobHttpOptions (bits2_5.h)
-
 description: Use this interface to specify client certificates for certificate-based client authentication and custom headers for HTTP requests.
 old-location: bits\ibackgroundcopyjobhttpoptions.htm
 tech.root: Bits
 ms.assetid: d8ccf65d-a4f1-44d9-9903-43e5529f1f29
-
 ms.date: 12/05/2018
 ms.keywords: IBackgroundCopyJobHttpOptions, IBackgroundCopyJobHttpOptions interface [BITS], IBackgroundCopyJobHttpOptions interface [BITS],described, bits.ibackgroundcopyjobhttpoptions, bits2_5/IBackgroundCopyJobHttpOptions
 ms.topic: interface
-f1_keywords: 
- - "bits2_5/IBackgroundCopyJobHttpOptions"
+f1_keywords:
+- bits2_5/IBackgroundCopyJobHttpOptions
 dev_langs:
- - c++
+- c++
 req.header: bits2_5.h
 req.include-header: Bits.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Bits.lib
 req.dll: BitsPrx4.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - BitsPrx4.dll
+- BitsPrx4.dll
 api_name:
- - IBackgroundCopyJobHttpOptions
+- IBackgroundCopyJobHttpOptions
 targetos: Windows
 req.typenames: 
 req.redist: 

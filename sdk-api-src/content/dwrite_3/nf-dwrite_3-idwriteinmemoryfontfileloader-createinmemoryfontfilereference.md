@@ -1,19 +1,17 @@
 ---
 UID: NF:dwrite_3.IDWriteInMemoryFontFileLoader.CreateInMemoryFontFileReference
 title: IDWriteInMemoryFontFileLoader::CreateInMemoryFontFileReference (dwrite_3.h)
-
 description: Creates a font file reference (IDWriteFontFile object) from an array of bytes.
 old-location: directwrite\idwriteinmemoryfontfileloader_createinmemoryfontfilereference.htm
 tech.root: DirectWrite
 ms.assetid: 16570F56-5894-475B-A6AF-6C4BA2C82784
-
 ms.date: 12/05/2018
 ms.keywords: CreateInMemoryFontFileReference, CreateInMemoryFontFileReference method [Direct Write], CreateInMemoryFontFileReference method [Direct Write],IDWriteInMemoryFontFileLoader interface, IDWriteInMemoryFontFileLoader interface [Direct Write],CreateInMemoryFontFileReference method, IDWriteInMemoryFontFileLoader.CreateInMemoryFontFileReference, IDWriteInMemoryFontFileLoader::CreateInMemoryFontFileReference, directwrite.idwriteinmemoryfontfileloader_createinmemoryfontfilereference, dwrite_3/IDWriteInMemoryFontFileLoader::CreateInMemoryFontFileReference
 ms.topic: method
-f1_keywords: 
- - "dwrite_3/IDWriteInMemoryFontFileLoader.CreateInMemoryFontFileReference"
+f1_keywords:
+- dwrite_3/IDWriteInMemoryFontFileLoader.CreateInMemoryFontFileReference
 dev_langs:
- - c++
+- c++
 req.header: dwrite_3.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Dwrite.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dwrite.lib
- - Dwrite.dll
+- Dwrite.lib
+- Dwrite.dll
 api_name:
- - IDWriteInMemoryFontFileLoader.CreateInMemoryFontFileReference
+- IDWriteInMemoryFontFileLoader.CreateInMemoryFontFileReference
 targetos: Windows
 req.typenames: 
 req.redist: 

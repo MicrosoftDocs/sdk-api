@@ -1,19 +1,17 @@
 ---
 UID: NL:gdipluspath.PathGradientBrush
 title: PathGradientBrush (gdipluspath.h)
-
 description: A PathGradientBrush object stores the attributes of a color gradient that you can use to fill the interior of a path with a gradually changing color.
 old-location: gdiplus\_gdiplus_CLASS_PathGradientBrush_Class.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\pathgradientbrush.htm
-
 ms.date: 12/05/2018
 ms.keywords: PathGradientBrush, PathGradientBrush class [GDI+], PathGradientBrush class [GDI+],described, _gdiplus_CLASS_PathGradientBrush_Class, gdiplus._gdiplus_CLASS_PathGradientBrush_Class, gdipluspath/PathGradientBrush
 ms.topic: class
-f1_keywords: 
- - "gdipluspath/PathGradientBrush"
+f1_keywords:
+- gdipluspath/PathGradientBrush
 dev_langs:
- - c++
+- c++
 req.header: gdipluspath.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - gdipluspath.h
+- gdipluspath.h
 api_name:
- - PathGradientBrush
+- PathGradientBrush
 targetos: Windows
 req.typenames: 
 req.redist: 

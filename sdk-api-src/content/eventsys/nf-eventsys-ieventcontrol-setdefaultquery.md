@@ -1,19 +1,17 @@
 ---
 UID: NF:eventsys.IEventControl.SetDefaultQuery
 title: IEventControl::SetDefaultQuery (eventsys.h)
-
 description: Sets the default query to determine subscribers.
 old-location: cos\ieventcontrol_setdefaultquery.htm
 tech.root: cossdk
 ms.assetid: ea0cc4b8-e345-44bc-969e-f35f25b641f9
-
 ms.date: 12/05/2018
 ms.keywords: IEventControl interface [COM+],SetDefaultQuery method, IEventControl.SetDefaultQuery, IEventControl::SetDefaultQuery, SetDefaultQuery, SetDefaultQuery method [COM+], SetDefaultQuery method [COM+],IEventControl interface, _cos_IEventControl_SetDefaultQuery, cos.ieventcontrol_setdefaultquery, eventsys/IEventControl::SetDefaultQuery
 ms.topic: method
-f1_keywords: 
- - "eventsys/IEventControl.SetDefaultQuery"
+f1_keywords:
+- eventsys/IEventControl.SetDefaultQuery
 dev_langs:
- - c++
+- c++
 req.header: eventsys.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Eventsys.h
+- Eventsys.h
 api_name:
- - IEventControl.SetDefaultQuery
+- IEventControl.SetDefaultQuery
 targetos: Windows
 req.typenames: 
 req.redist: 

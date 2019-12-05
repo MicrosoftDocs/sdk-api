@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationcore.IRawElementProviderAdviseEvents.AdviseEventRemoved
 title: IRawElementProviderAdviseEvents::AdviseEventRemoved (uiautomationcore.h)
-
 description: Notifies the Microsoft UI Automation provider when a UI Automation client stops listening for a specific event, including a property-changed event.
 old-location: winauto\uiauto_IRawElementProviderAdviseEvents_AdviseEventRemoved.htm
 tech.root: WinAuto
 ms.assetid: 42c9aeeb-dc08-4c13-ae86-2c0fb93e5c17
-
 ms.date: 12/05/2018
 ms.keywords: AdviseEventRemoved, AdviseEventRemoved method [Windows Accessibility], AdviseEventRemoved method [Windows Accessibility],IRawElementProviderAdviseEvents interface, IRawElementProviderAdviseEvents interface [Windows Accessibility],AdviseEventRemoved method, IRawElementProviderAdviseEvents.AdviseEventRemoved, IRawElementProviderAdviseEvents::AdviseEventRemoved, uiauto.uiauto_IRawElementProviderAdviseEvents_AdviseEventRemoved, uiauto_IRawElementProviderAdviseEvents_AdviseEventRemoved, uiautomationcore/IRawElementProviderAdviseEvents::AdviseEventRemoved, winauto.uiauto_IRawElementProviderAdviseEvents_AdviseEventRemoved
 ms.topic: method
-f1_keywords: 
- - "uiautomationcore/IRawElementProviderAdviseEvents.AdviseEventRemoved"
+f1_keywords:
+- uiautomationcore/IRawElementProviderAdviseEvents.AdviseEventRemoved
 dev_langs:
- - c++
+- c++
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationCore.h
+- UIAutomationCore.h
 api_name:
- - IRawElementProviderAdviseEvents.AdviseEventRemoved
+- IRawElementProviderAdviseEvents.AdviseEventRemoved
 targetos: Windows
 req.typenames: 
 req.redist: 

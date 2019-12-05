@@ -1,19 +1,17 @@
 ---
 UID: NF:objidl.IMalloc.GetSize
 title: IMalloc::GetSize (objidl.h)
-
 description: Retrieves the size of a previously allocated block of memory.
 old-location: com\imalloc_getsize.htm
 tech.root: com
 ms.assetid: abf8cb53-7c1b-4dde-9745-30a45ad030b7
-
 ms.date: 12/05/2018
 ms.keywords: GetSize, GetSize method [COM], GetSize method [COM],IMalloc interface, IMalloc interface [COM],GetSize method, IMalloc.GetSize, IMalloc::GetSize, _com_imalloc_getsize, com.imalloc_getsize, objidlbase/IMalloc::GetSize
 ms.topic: method
-f1_keywords: 
- - "objidl/IMalloc.GetSize"
+f1_keywords:
+- objidl/IMalloc.GetSize
 dev_langs:
- - c++
+- c++
 req.header: objidl.h
 req.include-header: ObjIdl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - objidlbase.h
+- objidlbase.h
 api_name:
- - IMalloc.GetSize
+- IMalloc.GetSize
 targetos: Windows
 req.typenames: 
 req.redist: 

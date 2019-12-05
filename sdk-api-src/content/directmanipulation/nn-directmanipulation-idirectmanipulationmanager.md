@@ -1,19 +1,17 @@
 ---
 UID: NN:directmanipulation.IDirectManipulationManager
 title: IDirectManipulationManager (directmanipulation.h)
-
 description: Provides access to all the Direct Manipulation features and APIs available to the client application.
 old-location: directmanipulation\idirectmanipulationmanager.htm
 tech.root: directmanipulation
 ms.assetid: d730a446-984e-4be0-aa7f-6d3dc93b2e34
-
 ms.date: 12/05/2018
 ms.keywords: IDirectManipulationManager, IDirectManipulationManager interface [Direct Manipulation], IDirectManipulationManager interface [Direct Manipulation],described, directmanipulation.idirectmanipulationmanager, directmanipulation/IDirectManipulationManager
 ms.topic: interface
-f1_keywords: 
- - "directmanipulation/IDirectManipulationManager"
+f1_keywords:
+- directmanipulation/IDirectManipulationManager
 dev_langs:
- - c++
+- c++
 req.header: directmanipulation.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - DirectManipulation.h
+- DirectManipulation.h
 api_name:
- - IDirectManipulationManager
+- IDirectManipulationManager
 targetos: Windows
 req.typenames: 
 req.redist: 

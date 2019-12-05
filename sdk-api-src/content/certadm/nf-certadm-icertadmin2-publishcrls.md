@@ -1,19 +1,17 @@
 ---
 UID: NF:certadm.ICertAdmin2.PublishCRLs
 title: ICertAdmin2::PublishCRLs (certadm.h)
-
 description: Publishes certificate revocation lists (CRLs) for a certification authority (CA).
 old-location: security\icertadmin2_publishcrls.htm
 tech.root: SecCrypto
 ms.assetid: 27f9e991-bf2a-47f3-8f95-b56092fed7d0
-
 ms.date: 12/05/2018
 ms.keywords: CA_CRL_BASE, CA_CRL_DELTA, CA_CRL_REPUBLISH, CCertAdmin2 object [Security],PublishCRLs method, ICertAdmin2 interface [Security],PublishCRLs method, ICertAdmin2.PublishCRLs, ICertAdmin2::PublishCRLs, PublishCRLs, PublishCRLs method [Security], PublishCRLs method [Security],CCertAdmin2 object, PublishCRLs method [Security],ICertAdmin2 interface, _certsrv_icertadmin2_publishcrls, certadm/ICertAdmin2::PublishCRLs, security.icertadmin2_publishcrls
 ms.topic: method
-f1_keywords: 
- - "certadm/ICertAdmin2.PublishCRLs"
+f1_keywords:
+- certadm/ICertAdmin2.PublishCRLs
 dev_langs:
- - c++
+- c++
 req.header: certadm.h
 req.include-header: Certsrv.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Certidl.lib
 req.dll: Certadm.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Certadm.dll
+- Certadm.dll
 api_name:
- - ICertAdmin2.PublishCRLs
- - CCertAdmin2.PublishCRLs
+- ICertAdmin2.PublishCRLs
+- CCertAdmin2.PublishCRLs
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMThumbnailGenerator.GenerateThumbnail
 title: IXpsOMThumbnailGenerator::GenerateThumbnail (xpsobjectmodel.h)
-
 description: Generates a thumbnail image of a page.
 old-location: xps\ixpsomthumbnailgenerator_generatethumbnail.htm
 tech.root: printdocs
 ms.assetid: 8a2431f0-50e5-43a9-8940-62d9babad297
-
 ms.date: 12/05/2018
 ms.keywords: GenerateThumbnail, GenerateThumbnail method [XPS Documents and Packaging], GenerateThumbnail method [XPS Documents and Packaging],IXpsOMThumbnailGenerator interface, IXpsOMThumbnailGenerator interface [XPS Documents and Packaging],GenerateThumbnail method, IXpsOMThumbnailGenerator.GenerateThumbnail, IXpsOMThumbnailGenerator::GenerateThumbnail, xps.ixpsomthumbnailgenerator_generatethumbnail, xpsobjectmodel/IXpsOMThumbnailGenerator::GenerateThumbnail
 ms.topic: method
-f1_keywords: 
- - "xpsobjectmodel/IXpsOMThumbnailGenerator.GenerateThumbnail"
+f1_keywords:
+- xpsobjectmodel/IXpsOMThumbnailGenerator.GenerateThumbnail
 dev_langs:
- - c++
+- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsobjectmodel.h
+- xpsobjectmodel.h
 api_name:
- - IXpsOMThumbnailGenerator.GenerateThumbnail
+- IXpsOMThumbnailGenerator.GenerateThumbnail
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NN:adhoc.IEnumDot11AdHocSecuritySettings
 title: IEnumDot11AdHocSecuritySettings (adhoc.h)
-
 description: Represents the collection of security settings associated with each visible wireless ad hoc network.
 old-location: nwifi\ienumdot11adhocsecuritysettings.htm
 tech.root: NativeWiFi
 ms.assetid: 137abd1b-997d-4003-9fef-8db56b273149
-
 ms.date: 12/05/2018
 ms.keywords: IEnumDot11AdHocSecuritySettings, IEnumDot11AdHocSecuritySettings interface [NativeWIFI], IEnumDot11AdHocSecuritySettings interface [NativeWIFI],described, adhoc/IEnumDot11AdHocSecuritySettings, nwifi.ienumdot11adhocsecuritysettings
 ms.topic: interface
-f1_keywords: 
- - "adhoc/IEnumDot11AdHocSecuritySettings"
+f1_keywords:
+- adhoc/IEnumDot11AdHocSecuritySettings
 dev_langs:
- - c++
+- c++
 req.header: adhoc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - adhoc.h
+- adhoc.h
 api_name:
- - IEnumDot11AdHocSecuritySettings
+- IEnumDot11AdHocSecuritySettings
 targetos: Windows
 req.typenames: 
 req.redist: 

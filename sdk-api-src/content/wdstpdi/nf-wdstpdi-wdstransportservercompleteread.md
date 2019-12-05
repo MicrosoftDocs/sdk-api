@@ -1,19 +1,17 @@
 ---
 UID: NF:wdstpdi.WdsTransportServerCompleteRead
 title: WdsTransportServerCompleteRead function (wdstpdi.h)
-
 description: Provides status of read operation.
 old-location: wds\wdstransportservercompleteread.htm
 tech.root: wds
 ms.assetid: 0f98305d-4173-4d6f-9132-f1fcc12364ed
-
 ms.date: 12/05/2018
 ms.keywords: WdsTransportServerCompleteRead, WdsTransportServerCompleteRead function [Windows Deployment Services], wds.wdstransportservercompleteread, wdstpdi/WdsTransportServerCompleteRead
 ms.topic: function
-f1_keywords: 
- - "wdstpdi/WdsTransportServerCompleteRead"
+f1_keywords:
+- wdstpdi/WdsTransportServerCompleteRead
 dev_langs:
- - c++
+- c++
 req.header: wdstpdi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Wdsmc.lib
 req.dll: Wdsmc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Wdsmc.dll
+- Wdsmc.dll
 api_name:
- - WdsTransportServerCompleteRead
+- WdsTransportServerCompleteRead
 targetos: Windows
 req.typenames: 
 req.redist: 

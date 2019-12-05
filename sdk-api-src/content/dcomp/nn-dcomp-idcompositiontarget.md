@@ -1,19 +1,17 @@
 ---
 UID: NN:dcomp.IDCompositionTarget
 title: IDCompositionTarget (dcomp.h)
-
 description: Represents a binding between a Microsoft DirectComposition visual tree and a destination on top of which the visual tree should be composed.
 old-location: directcomp\idcompositiontarget.htm
 tech.root: directcomp
 ms.assetid: 86dbfe68-e360-42cf-b572-960398ef06ba
-
 ms.date: 12/05/2018
 ms.keywords: IDCompositionTarget, IDCompositionTarget interface [DirectComposition], IDCompositionTarget interface [DirectComposition],described, dcomp/IDCompositionTarget, directcomp.idcompositiontarget
 ms.topic: interface
-f1_keywords: 
- - "dcomp/IDCompositionTarget"
+f1_keywords:
+- dcomp/IDCompositionTarget
 dev_langs:
- - c++
+- c++
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dcomp.lib
 req.dll: Dcomp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dcomp.dll
+- Dcomp.dll
 api_name:
- - IDCompositionTarget
+- IDCompositionTarget
 targetos: Windows
 req.typenames: 
 req.redist: 

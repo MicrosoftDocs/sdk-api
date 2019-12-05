@@ -1,19 +1,17 @@
 ---
 UID: NF:gdiplusheaders.Bitmap.Bitmap(IN HICON)
 title: Bitmap::Bitmap(IN HICON) (gdiplusheaders.h)
-
 description: Creates a Bitmap object based on an icon.
 old-location: gdiplus\_gdiplus_CLASS_Bitmap_Bitmap_hicon_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\bitmapclass\bitmapconstructors\bitmap_86hicon.htm
-
 ms.date: 12/05/2018
 ms.keywords: Bitmap, Bitmap class [GDI+],Bitmap constructor, Bitmap constructor [GDI+], Bitmap constructor [GDI+],Bitmap class, Bitmap.Bitmap, Bitmap.Bitmap(HICON), Bitmap.Bitmap(IN HICON), Bitmap::Bitmap, Bitmap::Bitmap(IN HICON), _gdiplus_CLASS_Bitmap_Bitmap_hicon_, gdiplus._gdiplus_CLASS_Bitmap_Bitmap_hicon_
 ms.topic: method
-f1_keywords: 
- - "gdiplusheaders/Bitmap.Bitmap"
+f1_keywords:
+- gdiplusheaders/Bitmap.Bitmap
 dev_langs:
- - c++
+- c++
 req.header: gdiplusheaders.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - Bitmap.Bitmap
+- Bitmap.Bitmap
 targetos: Windows
 req.typenames: 
 req.redist: 

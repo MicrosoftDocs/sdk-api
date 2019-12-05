@@ -1,19 +1,17 @@
 ---
 UID: NF:mfidl.MFCreatePresentationDescriptor
 title: MFCreatePresentationDescriptor function (mfidl.h)
-
 description: Creates a presentation descriptor.
 old-location: mf\mfcreatepresentationdescriptor.htm
 tech.root: medfound
 ms.assetid: 288ab078-5490-41a2-a3b5-87a97aa57739
-
 ms.date: 12/05/2018
 ms.keywords: 288ab078-5490-41a2-a3b5-87a97aa57739, MFCreatePresentationDescriptor, MFCreatePresentationDescriptor function [Media Foundation], mf.mfcreatepresentationdescriptor, mfidl/MFCreatePresentationDescriptor
 ms.topic: function
-f1_keywords: 
- - "mfidl/MFCreatePresentationDescriptor"
+f1_keywords:
+- mfidl/MFCreatePresentationDescriptor
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Mfplat.lib
 req.dll: Mfplat.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - mfplat.dll
+- mfplat.dll
 api_name:
- - MFCreatePresentationDescriptor
+- MFCreatePresentationDescriptor
 targetos: Windows
 req.typenames: 
 req.redist: 

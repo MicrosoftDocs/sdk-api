@@ -1,19 +1,17 @@
 ---
 UID: NC:scesvc.PFSCE_FREE_INFO
 title: PFSCE_FREE_INFO (scesvc.h)
-
 description: Frees the memory for buffers allocated by the Security Configuration tool set when it calls PFSCE_QUERY_INFO.
 old-location: security\pfsce_free_info.htm
 tech.root: SecMgmt
 ms.assetid: e7cafdbc-9ca2-4bb1-b8ed-d5553acaf7bc
-
 ms.date: 12/05/2018
 ms.keywords: PFSCE_FREE_INFO, PFSCE_FREE_INFO callback, PFSCE_FREE_INFO callback function [Security], _config_pfsce_free_info, scesvc/PFSCE_FREE_INFO, security.pfsce_free_info
 ms.topic: callback
-f1_keywords: 
- - "scesvc/PFSCE_FREE_INFO"
+f1_keywords:
+- scesvc/PFSCE_FREE_INFO
 dev_langs:
- - c++
+- c++
 req.header: scesvc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Scesvc.h
+- Scesvc.h
 api_name:
- - PFSCE_FREE_INFO
+- PFSCE_FREE_INFO
 targetos: Windows
 req.typenames: 
 req.redist: 

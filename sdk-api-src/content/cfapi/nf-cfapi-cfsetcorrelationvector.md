@@ -1,19 +1,17 @@
 ---
 UID: NF:cfapi.CfSetCorrelationVector
 title: CfSetCorrelationVector function (cfapi.h)
-
 description: Allows a sync provider to instruct the platform to use a specific correlation vector for telemetry purposes on a placeholder file. This is optional.
 old-location: cloudapi\cfsetcorrelationvector.htm
 tech.root: cfApi
 ms.assetid: B9B05D24-BEE5-4BE6-95D5-C28466D69543
-
 ms.date: 12/05/2018
 ms.keywords: CfSetCorrelationVector, CfSetCorrelationVector function, cfapi/CfSetCorrelationVector, cloudApi.cfsetcorrelationvector
 ms.topic: function
-f1_keywords: 
- - "cfapi/CfSetCorrelationVector"
+f1_keywords:
+- cfapi/CfSetCorrelationVector
 dev_langs:
- - c++
+- c++
 req.header: cfapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: CldApi.lib
 req.dll: CldApi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - CldApi.dll
+- CldApi.dll
 api_name:
- - CfSetCorrelationVector
+- CfSetCorrelationVector
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:wuapi.IUpdateServiceManager.RemoveService
 title: IUpdateServiceManager::RemoveService (wuapi.h)
-
 description: Removes a service registration from Windows Update Agent (WUA).
 old-location: wua\iupdateservicemanager_removeservice.htm
 tech.root: Wua_Sdk
 ms.assetid: fedd0979-1cc1-40c7-93d1-ade2f069ee76
-
 ms.date: 12/05/2018
 ms.keywords: IUpdateServiceManager interface [Windows Update Agent],RemoveService method, IUpdateServiceManager.RemoveService, IUpdateServiceManager::RemoveService, RemoveService, RemoveService method [Windows Update Agent], RemoveService method [Windows Update Agent],IUpdateServiceManager interface, wua.iupdateservicemanager_removeservice, wuapi/IUpdateServiceManager::RemoveService
 ms.topic: method
-f1_keywords: 
- - "wuapi/IUpdateServiceManager.RemoveService"
+f1_keywords:
+- wuapi/IUpdateServiceManager.RemoveService
 dev_langs:
- - c++
+- c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Wuguid.lib
 req.dll: Wuapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wuapi.dll
+- Wuapi.dll
 api_name:
- - IUpdateServiceManager.RemoveService
+- IUpdateServiceManager.RemoveService
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:winldap.ldap_modrdn_sW
 title: ldap_modrdn_sW function (winldap.h)
-
 description: Changes the relative distinguished name of an LDAP entry.
 old-location: ldap\ldap_modrdn_s.htm
 tech.root: ldap
 ms.assetid: 0ea0c52d-5056-4ccf-bc64-87a2f0ebd0c5
-
 ms.date: 12/05/2018
-ms.keywords: "_ldap_ldap_modrdn_s, ldap.ldap__modrdn__s, ldap.ldap_modrdn_s, ldap_modrdn_s, ldap_modrdn_s function [LDAP], ldap_modrdn_sA, ldap_modrdn_sW, winldap/ldap_modrdn_s, winldap/ldap_modrdn_sA, winldap/ldap_modrdn_sW"
+ms.keywords: _ldap_ldap_modrdn_s, ldap.ldap__modrdn__s, ldap.ldap_modrdn_s, ldap_modrdn_s, ldap_modrdn_s function [LDAP], ldap_modrdn_sA, ldap_modrdn_sW, winldap/ldap_modrdn_s, winldap/ldap_modrdn_sA, winldap/ldap_modrdn_sW
 ms.topic: function
-f1_keywords: 
- - "winldap/ldap_modrdn_s"
+f1_keywords:
+- winldap/ldap_modrdn_s
 dev_langs:
- - c++
+- c++
 req.header: winldap.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Wldap32.lib
 req.dll: Wldap32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Wldap32.dll
+- Wldap32.dll
 api_name:
- - ldap_modrdn_s
- - ldap_modrdn_sA
- - ldap_modrdn_sW
+- ldap_modrdn_s
+- ldap_modrdn_sA
+- ldap_modrdn_sW
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationcoreapi.UiaGetReservedNotSupportedValue
 title: UiaGetReservedNotSupportedValue function (uiautomationcoreapi.h)
-
 description: Retrieves a reserved value indicating that a Microsoft UI Automation property or a text attribute is not supported.
 old-location: winauto\uiauto_UiaGetReservedNotSupportedValueAutoMeth.htm
 tech.root: WinAuto
 ms.assetid: ba789ed0-fa34-492c-90b4-acee0adb634c
-
 ms.date: 12/05/2018
 ms.keywords: UiaGetReservedNotSupportedValue, UiaGetReservedNotSupportedValue function [Windows Accessibility], uiauto.uiauto_UiaGetReservedNotSupportedValueAutoMeth, uiauto_UiaGetReservedNotSupportedValueAutoMeth, uiautomationcoreapi/UiaGetReservedNotSupportedValue, winauto.uiauto_UiaGetReservedNotSupportedValueAutoMeth
 ms.topic: function
-f1_keywords: 
- - "uiautomationcoreapi/UiaGetReservedNotSupportedValue"
+f1_keywords:
+- uiautomationcoreapi/UiaGetReservedNotSupportedValue
 dev_langs:
- - c++
+- c++
 req.header: uiautomationcoreapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib: Uiautomationcore.lib
 req.dll: Uiautomationcore.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Uiautomationcore.dll
- - Ext-MS-Win-uiacore-l1-1-0.dll
- - Ext-MS-Win-UIaCore-l1-1-1.dll
- - Ext-MS-Win-UIaCore-l1-1-2.dll
- - Ext-MS-Win-UiaCore-L1-1-3.dll
+- Uiautomationcore.dll
+- Ext-MS-Win-uiacore-l1-1-0.dll
+- Ext-MS-Win-UIaCore-l1-1-1.dll
+- Ext-MS-Win-UIaCore-l1-1-2.dll
+- Ext-MS-Win-UiaCore-L1-1-3.dll
 api_name:
- - UiaGetReservedNotSupportedValue
+- UiaGetReservedNotSupportedValue
 targetos: Windows
 req.typenames: 
 req.redist: 

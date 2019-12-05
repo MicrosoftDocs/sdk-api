@@ -1,19 +1,17 @@
 ---
 UID: NF:ddeml.DdeNameService
 title: DdeNameService function (ddeml.h)
-
 description: Registers or unregisters the service names a Dynamic Data Exchange (DDE) server supports.
 old-location: dataxchg\ddenameservice.htm
 tech.root: dataxchg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\dataexchange\dynamicdataexchangemanagementlibrary\dynamicdataexchangemanagementreference\dynamicdataexchangemanagementfunctions\ddenameservice.htm
-
 ms.date: 12/05/2018
 ms.keywords: DNS_FILTEROFF, DNS_FILTERON, DNS_REGISTER, DNS_UNREGISTER, DdeNameService, DdeNameService function [Data Exchange], _win32_DdeNameService, _win32_ddenameservice_cpp, dataxchg.ddenameservice, ddeml/DdeNameService, winui._win32_ddenameservice
 ms.topic: function
-f1_keywords: 
- - "ddeml/DdeNameService"
+f1_keywords:
+- ddeml/DdeNameService
 dev_langs:
- - c++
+- c++
 req.header: ddeml.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - User32.dll
+- User32.dll
 api_name:
- - DdeNameService
+- DdeNameService
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:oleidl.IEnterpriseDropTarget.SetDropSourceEnterpriseId
 title: IEnterpriseDropTarget::SetDropSourceEnterpriseId (oleidl.h)
-
 description: Provides the drop target with the enterprise ID of the drop source.
 old-location: com\setdropsourceenterpriseid_setdropsourceenterpriseId.htm
 tech.root: com
 ms.assetid: FFC64D7F-CBEA-4913-93B2-F19F4D0EA81E
-
 ms.date: 12/05/2018
 ms.keywords: IEnterpriseDropTarget interface [COM],SetDropSourceEnterpriseId method, IEnterpriseDropTarget.SetDropSourceEnterpriseId, IEnterpriseDropTarget::SetDropSourceEnterpriseId, SetDropSourceEnterpriseId, SetDropSourceEnterpriseId method [COM], SetDropSourceEnterpriseId method [COM],IEnterpriseDropTarget interface, com.setdropsourceenterpriseid_requestaccessforappwithmessageforwindowasync, com.setdropsourceenterpriseid_setdropsourceenterpriseId, oleidl/IEnterpriseDropTarget::SetDropSourceEnterpriseId
 ms.topic: method
-f1_keywords: 
- - "oleidl/IEnterpriseDropTarget.SetDropSourceEnterpriseId"
+f1_keywords:
+- oleidl/IEnterpriseDropTarget.SetDropSourceEnterpriseId
 dev_langs:
- - c++
+- c++
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - OleIdl.h
+- OleIdl.h
 api_name:
- - IEnterpriseDropTarget.SetDropSourceEnterpriseId
+- IEnterpriseDropTarget.SetDropSourceEnterpriseId
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:rpcdce.RpcBindingSetObject
 title: RpcBindingSetObject function (rpcdce.h)
-
 description: The RpcBindingSetObject function sets the object UUID value in a binding handle.
 old-location: rpc\rpcbindingsetobject.htm
 tech.root: Rpc
 ms.assetid: 5dcf341f-e392-4608-b741-8fa07cabd50b
-
 ms.date: 12/05/2018
 ms.keywords: RpcBindingSetObject, RpcBindingSetObject function [RPC], _rpc_rpcbindingsetobject, rpc.rpcbindingsetobject, rpcdce/RpcBindingSetObject
 ms.topic: function
-f1_keywords: 
- - "rpcdce/RpcBindingSetObject"
+f1_keywords:
+- rpcdce/RpcBindingSetObject
 dev_langs:
- - c++
+- c++
 req.header: rpcdce.h
 req.include-header: Rpc.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Rpcrt4.lib
 req.dll: Rpcrt4.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Rpcrt4.dll
+- Rpcrt4.dll
 api_name:
- - RpcBindingSetObject
+- RpcBindingSetObject
 targetos: Windows
 req.typenames: 
 req.redist: 

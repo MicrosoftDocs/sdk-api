@@ -1,19 +1,17 @@
 ---
 UID: NF:winddi.EngCreateBitmap
 title: EngCreateBitmap function (winddi.h)
-
 description: The EngCreateBitmap function requests that GDI create and manage a bitmap.
 old-location: display\engcreatebitmap.htm
 tech.root: display
 ms.assetid: 51da3fbc-bf6e-47a9-8ee8-ebf34c23b66c
-
 ms.date: 12/05/2018
 ms.keywords: EngCreateBitmap, EngCreateBitmap function [Display Devices], display.engcreatebitmap, gdifncs_fde5f304-b931-449c-bba5-3a9f3d814687.xml, winddi/EngCreateBitmap
 ms.topic: function
-f1_keywords: 
- - "winddi/EngCreateBitmap"
+f1_keywords:
+- winddi/EngCreateBitmap
 dev_langs:
- - c++
+- c++
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Universal
@@ -32,14 +30,14 @@ req.lib: Win32k.lib
 req.dll: Win32k.sys
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Win32k.sys
+- Win32k.sys
 api_name:
- - EngCreateBitmap
+- EngCreateBitmap
 targetos: Windows
 req.typenames: 
 req.redist: 

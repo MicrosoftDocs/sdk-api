@@ -1,19 +1,17 @@
 ---
 UID: NF:rdpencomapi.IRDPSRAPIInvitation.get_GroupName
 title: IRDPSRAPIInvitation::get_GroupName (rdpencomapi.h)
-
 description: The group name.
 old-location: rdp\irdpsrapiinvitation_groupname.htm
 tech.root: rdp
 ms.assetid: 7ac76417-bb5c-40ae-a22a-b322b42b0d2c
-
 ms.date: 12/05/2018
 ms.keywords: GroupName property [RDP], GroupName property [RDP],IRDPSRAPIInvitation interface, GroupName property [RDP],RDPSRAPIInvitation object, IRDPSRAPIInvitation interface [RDP],GroupName property, IRDPSRAPIInvitation.GroupName, IRDPSRAPIInvitation.get_GroupName, IRDPSRAPIInvitation::GroupName, IRDPSRAPIInvitation::get_GroupName, RDPSRAPIInvitation object [RDP],GroupName property, get_GroupName, rdp.irdpsrapiinvitation_groupname, rdpencomapi/IRDPSRAPIInvitation::GroupName, rdpencomapi/IRDPSRAPIInvitation::get_GroupName
 ms.topic: method
-f1_keywords: 
- - "rdpencomapi/IRDPSRAPIInvitation.GroupName"
+f1_keywords:
+- rdpencomapi/IRDPSRAPIInvitation.GroupName
 dev_langs:
- - c++
+- c++
 req.header: rdpencomapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: RdpEncom.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - RdpEncom.dll
+- RdpEncom.dll
 api_name:
- - IRDPSRAPIInvitation.GroupName
- - IRDPSRAPIInvitation.get_GroupName
- - RDPSRAPIInvitation.GroupName
+- IRDPSRAPIInvitation.GroupName
+- IRDPSRAPIInvitation.get_GroupName
+- RDPSRAPIInvitation.GroupName
 targetos: Windows
 req.typenames: 
 req.redist: 

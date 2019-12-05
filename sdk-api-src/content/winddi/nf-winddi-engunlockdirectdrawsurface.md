@@ -1,19 +1,17 @@
 ---
 UID: NF:winddi.EngUnlockDirectDrawSurface
 title: EngUnlockDirectDrawSurface function (winddi.h)
-
 description: The EngUnlockDirectDrawSurface function releases the lock on the specified surface.
 old-location: display\engunlockdirectdrawsurface.htm
 tech.root: display
 ms.assetid: 61d1ff1a-d5e3-4542-953c-8b1771622a63
-
 ms.date: 12/05/2018
 ms.keywords: EngUnlockDirectDrawSurface, EngUnlockDirectDrawSurface function [Display Devices], display.engunlockdirectdrawsurface, gdifncs_6582e033-3e56-4a8d-904d-2978c63ddd4b.xml, winddi/EngUnlockDirectDrawSurface
 ms.topic: function
 f1_keywords:
 - winddi/EngUnlockDirectDrawSurface
 dev_langs:
- - c++
+- c++
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Universal

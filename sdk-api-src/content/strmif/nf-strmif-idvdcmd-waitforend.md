@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IDvdCmd.WaitForEnd
 title: IDvdCmd::WaitForEnd (strmif.h)
-
 description: The WaitForEnd method blocks the DVD Navigator until the command associated with this object completes or is canceled.
 old-location: dshow\idvdcmd_waitforend.htm
 tech.root: DirectShow
 ms.assetid: e7dc3113-616a-49d5-bcab-7ed5aa520b18
-
 ms.date: 12/05/2018
 ms.keywords: IDvdCmd interface [DirectShow],WaitForEnd method, IDvdCmd.WaitForEnd, IDvdCmd::WaitForEnd, IDvdCmdWaitForEnd, WaitForEnd, WaitForEnd method [DirectShow], WaitForEnd method [DirectShow],IDvdCmd interface, dshow.idvdcmd_waitforend, strmif/IDvdCmd::WaitForEnd
 ms.topic: method
-f1_keywords: 
- - "strmif/IDvdCmd.WaitForEnd"
+f1_keywords:
+- strmif/IDvdCmd.WaitForEnd
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IDvdCmd.WaitForEnd
+- IDvdCmd.WaitForEnd
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:winsnmp.SnmpDuplicatePdu
 title: SnmpDuplicatePdu function (winsnmp.h)
-
 description: The WinSNMP SnmpDuplicatePdu function duplicates the SNMP protocol data unit (PDU) that the PDU parameter identifies, allocating any necessary memory for the duplicate PDU.
 old-location: snmp\snmpduplicatepdu.htm
 tech.root: SNMP
 ms.assetid: 4507cc9b-36a5-45bf-916d-9dc82ac381a5
-
 ms.date: 12/05/2018
 ms.keywords: SnmpDuplicatePdu, SnmpDuplicatePdu function [SNMP], _snmp_snmpduplicatepdu, snmp.snmpduplicatepdu, winsnmp/SnmpDuplicatePdu
 ms.topic: function
-f1_keywords: 
- - "winsnmp/SnmpDuplicatePdu"
+f1_keywords:
+- winsnmp/SnmpDuplicatePdu
 dev_langs:
- - c++
+- c++
 req.header: winsnmp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Wsnmp32.lib
 req.dll: Wsnmp32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Wsnmp32.dll
+- Wsnmp32.dll
 api_name:
- - SnmpDuplicatePdu
+- SnmpDuplicatePdu
 targetos: Windows
 req.typenames: 
 req.redist: 

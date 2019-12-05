@@ -1,19 +1,17 @@
 ---
 UID: NF:gdiplusheaders.Metafile.EmfToWmfBits
 title: Metafile::EmfToWmfBits (gdiplusheaders.h)
-
 description: Converts an enhanced-format metafile to a Windows Metafile Format (WMF) metafile and stores the converted records in a specified buffer.
 old-location: gdiplus\_gdiplus_CLASS_Metafile_EmfToWmfBits_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\metafileclass\metafilemethods\emftowmfbits.htm
-
 ms.date: 12/05/2018
 ms.keywords: EmfToWmfBits, EmfToWmfBits method [GDI+], EmfToWmfBits method [GDI+],Metafile class, Metafile class [GDI+],EmfToWmfBits method, Metafile.EmfToWmfBits, Metafile::EmfToWmfBits, _gdiplus_CLASS_Metafile_EmfToWmfBits_, gdiplus._gdiplus_CLASS_Metafile_EmfToWmfBits_
 ms.topic: method
-f1_keywords: 
- - "gdiplusheaders/Metafile.EmfToWmfBits"
+f1_keywords:
+- gdiplusheaders/Metafile.EmfToWmfBits
 dev_langs:
- - c++
+- c++
 req.header: gdiplusheaders.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - Metafile.EmfToWmfBits
+- Metafile.EmfToWmfBits
 targetos: Windows
 req.typenames: 
 req.redist: 

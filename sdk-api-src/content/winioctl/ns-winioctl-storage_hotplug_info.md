@@ -1,19 +1,17 @@
 ---
 UID: NS:winioctl._STORAGE_HOTPLUG_INFO
 title: STORAGE_HOTPLUG_INFO
-
 description: Provides information about the hotplug information of a device.
 old-location: base\storage_hotplug_info_str.htm
 tech.root: devio
 ms.assetid: 861e6067-9f37-427a-8d3b-8cb9d0f95c40
-
 ms.date: 12/05/2018
-ms.keywords: "*PSTORAGE_HOTPLUG_INFO, PSTORAGE_HOTPLUG_INFO, PSTORAGE_HOTPLUG_INFO structure pointer, STORAGE_HOTPLUG_INFO, STORAGE_HOTPLUG_INFO structure, _win32_storage_hotplug_info_str, base.storage_hotplug_info_str, winioctl/PSTORAGE_HOTPLUG_INFO, winioctl/STORAGE_HOTPLUG_INFO"
+ms.keywords: '*PSTORAGE_HOTPLUG_INFO, PSTORAGE_HOTPLUG_INFO, PSTORAGE_HOTPLUG_INFO structure pointer, STORAGE_HOTPLUG_INFO, STORAGE_HOTPLUG_INFO structure, _win32_storage_hotplug_info_str, base.storage_hotplug_info_str, winioctl/PSTORAGE_HOTPLUG_INFO, winioctl/STORAGE_HOTPLUG_INFO'
 ms.topic: struct
-f1_keywords: 
- - "winioctl/STORAGE_HOTPLUG_INFO"
+f1_keywords:
+- winioctl/STORAGE_HOTPLUG_INFO
 dev_langs:
- - c++
+- c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WinIoCtl.h
+- WinIoCtl.h
 api_name:
- - STORAGE_HOTPLUG_INFO
+- STORAGE_HOTPLUG_INFO
 targetos: Windows
 req.typenames: STORAGE_HOTPLUG_INFO, *PSTORAGE_HOTPLUG_INFO
 req.redist: 

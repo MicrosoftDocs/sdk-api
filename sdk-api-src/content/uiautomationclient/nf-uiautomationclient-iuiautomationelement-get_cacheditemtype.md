@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationElement.get_CachedItemType
 title: IUIAutomationElement::get_CachedItemType (uiautomationclient.h)
-
 description: Retrieves a cached string that describes the type of item represented by the element.
 old-location: winauto\uiauto_IUIAutomationElement_CachedItemType.htm
 tech.root: WinAuto
 ms.assetid: 66b9180c-ebde-4e5a-b431-f81a094a0ee4
-
 ms.date: 12/05/2018
 ms.keywords: CachedItemType property [Windows Accessibility], CachedItemType property [Windows Accessibility],IUIAutomationElement interface, IUIAutomationElement interface [Windows Accessibility],CachedItemType property, IUIAutomationElement.CachedItemType, IUIAutomationElement.get_CachedItemType, IUIAutomationElement::CachedItemType, IUIAutomationElement::get_CachedItemType, get_CachedItemType, uiauto.uiauto_IUIAutomationElement_CachedItemType, uiauto_IUIAutomationElement_CachedItemType, uiautomationclient/IUIAutomationElement::CachedItemType, uiautomationclient/IUIAutomationElement::get_CachedItemType, winauto.uiauto_IUIAutomationElement_CachedItemType
 ms.topic: method
-f1_keywords: 
- - "uiautomationclient/IUIAutomationElement.CachedItemType"
+f1_keywords:
+- uiautomationclient/IUIAutomationElement.CachedItemType
 dev_langs:
- - c++
+- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationClient.h
+- UIAutomationClient.h
 api_name:
- - IUIAutomationElement.CachedItemType
- - IUIAutomationElement.get_CachedItemType
+- IUIAutomationElement.CachedItemType
+- IUIAutomationElement.get_CachedItemType
 targetos: Windows
 req.typenames: 
 req.redist: 

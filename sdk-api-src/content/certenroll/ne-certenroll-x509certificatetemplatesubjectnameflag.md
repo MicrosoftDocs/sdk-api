@@ -1,19 +1,17 @@
 ---
 UID: NE:certenroll.X509CertificateTemplateSubjectNameFlag
 title: X509CertificateTemplateSubjectNameFlag (certenroll.h)
-
 description: Contains values that specify server and client actions concerning subject names.
 old-location: security\x509certificatetemplatesubjectnameflag.htm
 tech.root: seccertenroll
 ms.assetid: 0880bb94-d26f-49a7-9749-f8be272fa4f6
-
 ms.date: 12/05/2018
 ms.keywords: SubjectAlternativeNameEnrolleeSupplies, SubjectAlternativeNameRequireDNS, SubjectAlternativeNameRequireDirectoryGUID, SubjectAlternativeNameRequireDomainDNS, SubjectAlternativeNameRequireEmail, SubjectAlternativeNameRequireSPN, SubjectAlternativeNameRequireUPN, SubjectNameAndAlternativeNameOldCertSupplies, SubjectNameEnrolleeSupplies, SubjectNameRequireCommonName, SubjectNameRequireDNS, SubjectNameRequireDirectoryPath, SubjectNameRequireEmail, X509CertificateTemplateSubjectNameFlag, X509CertificateTemplateSubjectNameFlag enumeration [Security], certenroll/SubjectAlternativeNameEnrolleeSupplies, certenroll/SubjectAlternativeNameRequireDNS, certenroll/SubjectAlternativeNameRequireDirectoryGUID, certenroll/SubjectAlternativeNameRequireDomainDNS, certenroll/SubjectAlternativeNameRequireEmail, certenroll/SubjectAlternativeNameRequireSPN, certenroll/SubjectAlternativeNameRequireUPN, certenroll/SubjectNameAndAlternativeNameOldCertSupplies, certenroll/SubjectNameEnrolleeSupplies, certenroll/SubjectNameRequireCommonName, certenroll/SubjectNameRequireDNS, certenroll/SubjectNameRequireDirectoryPath, certenroll/SubjectNameRequireEmail, certenroll/X509CertificateTemplateSubjectNameFlag, security.x509certificatetemplatesubjectnameflag
 ms.topic: enum
-f1_keywords: 
- - "certenroll/X509CertificateTemplateSubjectNameFlag"
+f1_keywords:
+- certenroll/X509CertificateTemplateSubjectNameFlag
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - CertEnroll.h
+- CertEnroll.h
 api_name:
- - X509CertificateTemplateSubjectNameFlag
+- X509CertificateTemplateSubjectNameFlag
 targetos: Windows
 req.typenames: X509CertificateTemplateSubjectNameFlag
 req.redist: 

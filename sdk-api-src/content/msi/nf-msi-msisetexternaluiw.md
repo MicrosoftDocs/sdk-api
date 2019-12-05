@@ -1,19 +1,17 @@
 ---
 UID: NF:msi.MsiSetExternalUIW
 title: MsiSetExternalUIW function (msi.h)
-
 description: The MsiSetExternalUI function enables an external user-interface handler.
 old-location: setup\msisetexternalui.htm
 tech.root: Msi
 ms.assetid: fcbf0607-d048-486f-bec2-f6e9d03e4194
-
 ms.date: 12/05/2018
 ms.keywords: INSTALLLOGMODE_ACTIONDATA, INSTALLLOGMODE_ACTIONSTART, INSTALLLOGMODE_COMMONDATA, INSTALLLOGMODE_ERROR, INSTALLLOGMODE_FATALEXIT, INSTALLLOGMODE_FILESINUSE, INSTALLLOGMODE_INFO, INSTALLLOGMODE_INITIALIZE, INSTALLLOGMODE_INSTALLEND, INSTALLLOGMODE_INSTALLSTART, INSTALLLOGMODE_OUTOFDISKSPACE, INSTALLLOGMODE_PROGRESS, INSTALLLOGMODE_RESOLVESOURCE, INSTALLLOGMODE_RMFILESINUSE, INSTALLLOGMODE_SHOWDIALOG, INSTALLLOGMODE_TERMINATE, INSTALLLOGMODE_USER, INSTALLLOGMODE_WARNING, MsiSetExternalUI, MsiSetExternalUI function, MsiSetExternalUIA, MsiSetExternalUIW, _msi_msisetexternalui, msi/MsiSetExternalUI, msi/MsiSetExternalUIA, msi/MsiSetExternalUIW, setup.msisetexternalui
 ms.topic: function
-f1_keywords: 
- - "msi/MsiSetExternalUI"
+f1_keywords:
+- msi/MsiSetExternalUI
 dev_langs:
- - c++
+- c++
 req.header: msi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Msi.lib
 req.dll: Msi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Msi.dll
+- Msi.dll
 api_name:
- - MsiSetExternalUI
- - MsiSetExternalUIA
- - MsiSetExternalUIW
+- MsiSetExternalUI
+- MsiSetExternalUIA
+- MsiSetExternalUIW
 targetos: Windows
 req.typenames: 
 req.redist: 

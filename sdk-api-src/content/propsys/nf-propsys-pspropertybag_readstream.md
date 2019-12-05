@@ -1,19 +1,17 @@
 ---
 UID: NF:propsys.PSPropertyBag_ReadStream
 title: PSPropertyBag_ReadStream function (propsys.h)
-
 description: Reads the data stream stored in a given property contained in a specified property bag.
 old-location: properties\PSPropertyBag_ReadStream.htm
 tech.root: properties
 ms.assetid: 3D1D8B3E-DD16-4b34-918C-C8478EBF0930
-
 ms.date: 12/05/2018
 ms.keywords: PSPropertyBag_ReadStream, PSPropertyBag_ReadStream function [Windows Properties], properties.PSPropertyBag_ReadStream, propsys/PSPropertyBag_ReadStream, shell.PSPropertyBag_ReadStream, shell_PSPropertyBag_ReadStream
 ms.topic: function
-f1_keywords: 
- - "propsys/PSPropertyBag_ReadStream"
+f1_keywords:
+- propsys/PSPropertyBag_ReadStream
 dev_langs:
- - c++
+- c++
 req.header: propsys.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Propsys.lib
 req.dll: Propsys.dll (version 6.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Propsys.dll
+- Propsys.dll
 api_name:
- - PSPropertyBag_ReadStream
+- PSPropertyBag_ReadStream
 targetos: Windows
 req.typenames: 
 req.redist: 

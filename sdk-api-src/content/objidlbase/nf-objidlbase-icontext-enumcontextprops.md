@@ -1,19 +1,17 @@
 ---
 UID: NF:objidlbase.IContext.EnumContextProps
 title: IContext::EnumContextProps (objidlbase.h)
-
 description: Returns an IEnumContextProps interface pointer that can be used to enumerate the context properties in this context.
 old-location: com\icontext_enumcontextprops.htm
 tech.root: com
 ms.assetid: 7cae291e-dcf3-43b1-8306-9e5c7a5d3be0
-
 ms.date: 12/05/2018
 ms.keywords: EnumContextProps, EnumContextProps method [COM], EnumContextProps method [COM],IContext interface, IContext interface [COM],EnumContextProps method, IContext.EnumContextProps, IContext::EnumContextProps, _com_icontext_enumcontextprops, com.icontext_enumcontextprops, objidlbase/IContext::EnumContextProps
 ms.topic: method
-f1_keywords: 
- - "objidlbase/IContext.EnumContextProps"
+f1_keywords:
+- objidlbase/IContext.EnumContextProps
 dev_langs:
- - c++
+- c++
 req.header: objidlbase.h
 req.include-header: ObjIdl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - objidlbase.h
+- objidlbase.h
 api_name:
- - IContext.EnumContextProps
+- IContext.EnumContextProps
 targetos: Windows
 req.typenames: 
 req.redist: 

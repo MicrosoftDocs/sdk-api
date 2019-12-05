@@ -1,19 +1,17 @@
 ---
 UID: NS:shlobj_core._browseinfoA
 title: BROWSEINFOA (shlobj_core.h)
-
 description: Contains parameters for the SHBrowseForFolder function and receives information about the folder selected by the user.
 old-location: shell\BROWSEINFO.htm
 tech.root: shell
 ms.assetid: 7c8df03a-93bb-42b2-b4a0-9c2ae917c0d1
-
 ms.date: 12/05/2018
-ms.keywords: "*LPBROWSEINFOA, *PBROWSEINFOA, BIF_BROWSEFILEJUNCTIONS, BIF_BROWSEFORCOMPUTER, BIF_BROWSEFORPRINTER, BIF_BROWSEINCLUDEFILES, BIF_BROWSEINCLUDEURLS, BIF_DONTGOBELOWDOMAIN, BIF_EDITBOX, BIF_NEWDIALOGSTYLE, BIF_NONEWFOLDERBUTTON, BIF_NOTRANSLATETARGETS, BIF_RETURNFSANCESTORS, BIF_RETURNONLYFSDIRS, BIF_SHAREABLE, BIF_STATUSTEXT, BIF_UAHINT, BIF_USENEWUI, BIF_VALIDATE, BROWSEINFO, BROWSEINFO structure [Windows Shell], BROWSEINFOA, BROWSEINFOW, LPBROWSEINFO, LPBROWSEINFO structure pointer [Windows Shell], PBROWSEINFO, PBROWSEINFO structure pointer [Windows Shell], _win32_BROWSEINFO, shell.BROWSEINFO, shlobj_core/BROWSEINFO, shlobj_core/BROWSEINFOA, shlobj_core/BROWSEINFOW, shlobj_core/LPBROWSEINFO, shlobj_core/PBROWSEINFO"
+ms.keywords: '*LPBROWSEINFOA, *PBROWSEINFOA, BIF_BROWSEFILEJUNCTIONS, BIF_BROWSEFORCOMPUTER, BIF_BROWSEFORPRINTER, BIF_BROWSEINCLUDEFILES, BIF_BROWSEINCLUDEURLS, BIF_DONTGOBELOWDOMAIN, BIF_EDITBOX, BIF_NEWDIALOGSTYLE, BIF_NONEWFOLDERBUTTON, BIF_NOTRANSLATETARGETS, BIF_RETURNFSANCESTORS, BIF_RETURNONLYFSDIRS, BIF_SHAREABLE, BIF_STATUSTEXT, BIF_UAHINT, BIF_USENEWUI, BIF_VALIDATE, BROWSEINFO, BROWSEINFO structure [Windows Shell], BROWSEINFOA, BROWSEINFOW, LPBROWSEINFO, LPBROWSEINFO structure pointer [Windows Shell], PBROWSEINFO, PBROWSEINFO structure pointer [Windows Shell], _win32_BROWSEINFO, shell.BROWSEINFO, shlobj_core/BROWSEINFO, shlobj_core/BROWSEINFOA, shlobj_core/BROWSEINFOW, shlobj_core/LPBROWSEINFO, shlobj_core/PBROWSEINFO'
 ms.topic: struct
-f1_keywords: 
- - "shlobj_core/BROWSEINFO"
+f1_keywords:
+- shlobj_core/BROWSEINFO
 dev_langs:
- - c++
+- c++
 req.header: shlobj_core.h
 req.include-header: Shlobj.h, Shlobj_core.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - shlobj_core.h
+- shlobj_core.h
 api_name:
- - BROWSEINFO
- - BROWSEINFOA
- - BROWSEINFOW
+- BROWSEINFO
+- BROWSEINFOA
+- BROWSEINFOW
 targetos: Windows
 req.typenames: BROWSEINFOA, *PBROWSEINFOA, *LPBROWSEINFOA
 req.redist: 

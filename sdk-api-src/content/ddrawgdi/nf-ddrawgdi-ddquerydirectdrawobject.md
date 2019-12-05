@@ -1,19 +1,17 @@
 ---
 UID: NF:ddrawgdi.DdQueryDirectDrawObject
 title: DdQueryDirectDrawObject function (ddrawgdi.h)
-
 description: Wrapper for the NtGdiDdQueryDirectDrawObject function and queries a previously created kernel-mode representation for capabilities. GdiEntry2 is defined as an alias for this function.
 old-location: winprog\_dxgkernel_ddquerydirectdrawobject.htm
 tech.root: DevNotes
 ms.assetid: VS|winui|~\winui\windowsuserinterface\lowlevelclientsupport\graphics\ddquerydirectdrawobject.htm
-
 ms.date: 12/05/2018
 ms.keywords: DdQueryDirectDrawObject, DdQueryDirectDrawObject function [Windows API], GdiEntry2, _dxgkernel_ddquerydirectdrawobject, ddrawgdi/DdQueryDirectDrawObject, ddrawgdi/GdiEntry2, winprog._dxgkernel_ddquerydirectdrawobject, winui._dxgkernel_ddquerydirectdrawobject
 ms.topic: function
 f1_keywords:
 - ddrawgdi/DdQueryDirectDrawObject
 dev_langs:
- - c++
+- c++
 req.header: ddrawgdi.h
 req.include-header: 
 req.target-type: Windows

@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d11_1.ID3D11VideoContext1.VideoProcessorGetStreamColorSpace1
 title: ID3D11VideoContext1::VideoProcessorGetStreamColorSpace1 (d3d11_1.h)
-
 description: Gets the color space information for the video processor input stream.
 old-location: mf\id3d11videocontext1_videoprocessorgetstreamcolorspace1.htm
 tech.root: medfound
 ms.assetid: C9A53D81-C3E4-4B6F-9189-A58E40F8B7E7
-
 ms.date: 12/05/2018
 ms.keywords: ID3D11VideoContext1 interface [Media Foundation],VideoProcessorGetStreamColorSpace1 method, ID3D11VideoContext1.VideoProcessorGetStreamColorSpace1, ID3D11VideoContext1::VideoProcessorGetStreamColorSpace1, VideoProcessorGetStreamColorSpace1, VideoProcessorGetStreamColorSpace1 method [Media Foundation], VideoProcessorGetStreamColorSpace1 method [Media Foundation],ID3D11VideoContext1 interface, d3d11_1/ID3D11VideoContext1::VideoProcessorGetStreamColorSpace1, mf.id3d11videocontext1_videoprocessorgetstreamcolorspace1
 ms.topic: method
-f1_keywords: 
- - "d3d11_1/ID3D11VideoContext1.VideoProcessorGetStreamColorSpace1"
+f1_keywords:
+- d3d11_1/ID3D11VideoContext1.VideoProcessorGetStreamColorSpace1
 dev_langs:
- - c++
+- c++
 req.header: d3d11_1.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - d3d11_1.h
+- d3d11_1.h
 api_name:
- - ID3D11VideoContext1.VideoProcessorGetStreamColorSpace1
+- ID3D11VideoContext1.VideoProcessorGetStreamColorSpace1
 targetos: Windows
 req.typenames: 
 req.redist: 

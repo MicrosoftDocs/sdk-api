@@ -1,19 +1,17 @@
 ---
 UID: NF:wingdi.PathToRegion
 title: PathToRegion function (wingdi.h)
-
 description: The PathToRegion function creates a region from the path that is selected into the specified device context. The resulting region uses device coordinates.
 old-location: gdi\pathtoregion.htm
 tech.root: gdi
 ms.assetid: 9fe31925-3d5d-42e5-aa9b-405610f13de4
-
 ms.date: 12/05/2018
 ms.keywords: PathToRegion, PathToRegion function [Windows GDI], _win32_PathToRegion, gdi.pathtoregion, wingdi/PathToRegion
 ms.topic: function
-f1_keywords: 
- - "wingdi/PathToRegion"
+f1_keywords:
+- wingdi/PathToRegion
 dev_langs:
- - c++
+- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - gdi32.dll
- - Ext-MS-Win-GDI-Path-l1-1-0.dll
- - GDI32Full.dll
+- gdi32.dll
+- Ext-MS-Win-GDI-Path-l1-1-0.dll
+- GDI32Full.dll
 api_name:
- - PathToRegion
+- PathToRegion
 targetos: Windows
 req.typenames: 
 req.redist: 

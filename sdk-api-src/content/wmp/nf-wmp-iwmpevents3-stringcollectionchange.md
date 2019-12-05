@@ -1,19 +1,17 @@
 ---
 UID: NF:wmp.IWMPEvents3.StringCollectionChange
 title: IWMPEvents3::StringCollectionChange (wmp.h)
-
 description: The StringCollectionChange event occurs when a string collection changes.
 old-location: wmp\iwmpevents3_iwmpevents3__stringcollectionchange.htm
 tech.root: WMP
 ms.assetid: 93880116-e354-49d0-ba02-391fbb4d3f8c
-
 ms.date: 12/05/2018
 ms.keywords: IWMPEvents3 interface [Windows Media Player],StringCollectionChange method, IWMPEvents3.StringCollectionChange, IWMPEvents3::StringCollectionChange, IWMPEvents3StringCollectionChange, StringCollectionChange, StringCollectionChange method [Windows Media Player], StringCollectionChange method [Windows Media Player],IWMPEvents3 interface, wmp.iwmpevents3_iwmpevents3__stringcollectionchange, wmp/IWMPEvents3::StringCollectionChange
 ms.topic: method
-f1_keywords: 
- - "wmp/IWMPEvents3.StringCollectionChange"
+f1_keywords:
+- wmp/IWMPEvents3.StringCollectionChange
 dev_langs:
- - c++
+- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wmp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmp.dll
+- wmp.dll
 api_name:
- - IWMPEvents3.StringCollectionChange
+- IWMPEvents3.StringCollectionChange
 targetos: Windows
 req.typenames: 
 req.redist: 

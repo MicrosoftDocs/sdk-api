@@ -1,19 +1,17 @@
 ---
 UID: NF:syncmgr.ISyncMgrConflictFolder.GetConflictIDList
 title: ISyncMgrConflictFolder::GetConflictIDList (syncmgr.h)
-
 description: Maps a conflict to its IShellItem.
 old-location: shell\ISyncMgrConflictFolder_GetConflictIDList.htm
 tech.root: shell
 ms.assetid: 2a0794dd-ffa6-4a7b-af1a-1605092ead07
-
 ms.date: 12/05/2018
 ms.keywords: GetConflictIDList, GetConflictIDList method [Windows Shell], GetConflictIDList method [Windows Shell],ISyncMgrConflictFolder interface, ISyncMgrConflictFolder interface [Windows Shell],GetConflictIDList method, ISyncMgrConflictFolder.GetConflictIDList, ISyncMgrConflictFolder::GetConflictIDList, _shell_ISyncMgrConflictFolder_GetConflictIDList, shell.ISyncMgrConflictFolder_GetConflictIDList, syncmgr/ISyncMgrConflictFolder::GetConflictIDList
 ms.topic: method
-f1_keywords: 
- - "syncmgr/ISyncMgrConflictFolder.GetConflictIDList"
+f1_keywords:
+- syncmgr/ISyncMgrConflictFolder.GetConflictIDList
 dev_langs:
- - c++
+- c++
 req.header: syncmgr.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Syncmgr.h
+- Syncmgr.h
 api_name:
- - ISyncMgrConflictFolder.GetConflictIDList
+- ISyncMgrConflictFolder.GetConflictIDList
 targetos: Windows
 req.typenames: 
 req.redist: 

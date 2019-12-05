@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d10effect.ID3D10Effect.GetVariableByName
 title: ID3D10Effect::GetVariableByName (d3d10effect.h)
-
 description: Get a variable by name.
 old-location: direct3d10\id3d10effect_getvariablebyname.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10effect_getvariablebyname.htm
-
 ms.date: 12/05/2018
 ms.keywords: GetVariableByName, GetVariableByName method [Direct3D 10], GetVariableByName method [Direct3D 10],ID3D10Effect interface, ID3D10Effect interface [Direct3D 10],GetVariableByName method, ID3D10Effect.GetVariableByName, ID3D10Effect::GetVariableByName, c08eacd5-3abc-89d5-a465-058f2f195794, d3d10effect/ID3D10Effect::GetVariableByName, direct3d10.id3d10effect_getvariablebyname
 ms.topic: method
-f1_keywords: 
- - "d3d10effect/ID3D10Effect.GetVariableByName"
+f1_keywords:
+- d3d10effect/ID3D10Effect.GetVariableByName
 dev_langs:
- - c++
+- c++
 req.header: d3d10effect.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D10Effect.h
+- D3D10Effect.h
 api_name:
- - ID3D10Effect.GetVariableByName
+- ID3D10Effect.GetVariableByName
 targetos: Windows
 req.typenames: 
 req.redist: 

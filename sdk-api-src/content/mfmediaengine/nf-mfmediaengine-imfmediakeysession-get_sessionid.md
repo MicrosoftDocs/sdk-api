@@ -1,19 +1,17 @@
 ---
 UID: NF:mfmediaengine.IMFMediaKeySession.get_SessionId
 title: IMFMediaKeySession::get_SessionId (mfmediaengine.h)
-
 description: Gets a unique session id created for this session.
 old-location: mf\imfmediakeysession_get_sessionid.htm
 tech.root: medfound
 ms.assetid: 779ebea9-69ff-469a-8ee0-06d570ede6cb
-
 ms.date: 12/05/2018
 ms.keywords: IMFMediaKeySession interface [Media Foundation],get_SessionId method, IMFMediaKeySession.get_SessionId, IMFMediaKeySession::get_SessionId, get_SessionId, get_SessionId method [Media Foundation], get_SessionId method [Media Foundation],IMFMediaKeySession interface, mf.imfmediakeysession_get_sessionid, mfmediaengine/IMFMediaKeySession::get_SessionId
 ms.topic: method
-f1_keywords: 
- - "mfmediaengine/IMFMediaKeySession.get_SessionId"
+f1_keywords:
+- mfmediaengine/IMFMediaKeySession.get_SessionId
 dev_langs:
- - c++
+- c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfmediaengine.h
+- mfmediaengine.h
 api_name:
- - IMFMediaKeySession.get_SessionId
+- IMFMediaKeySession.get_SessionId
 targetos: Windows
 req.typenames: 
 req.redist: 

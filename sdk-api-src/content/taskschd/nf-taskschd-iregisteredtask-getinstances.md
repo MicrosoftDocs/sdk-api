@@ -1,19 +1,17 @@
 ---
 UID: NF:taskschd.IRegisteredTask.GetInstances
 title: IRegisteredTask::GetInstances (taskschd.h)
-
 description: Returns all instances of the currently running registered task.
 old-location: taskschd\iregisteredtask_getinstances.htm
 tech.root: taskschd
 ms.assetid: 4634851e-e868-4915-a7da-32a39f405974
-
 ms.date: 12/05/2018
 ms.keywords: GetInstances, GetInstances method [Task Scheduler], GetInstances method [Task Scheduler],IRegisteredTask interface, IRegisteredTask interface [Task Scheduler],GetInstances method, IRegisteredTask.GetInstances, IRegisteredTask::GetInstances, taskschd.iregisteredtask_getinstances, taskschd/IRegisteredTask::GetInstances
 ms.topic: method
-f1_keywords: 
- - "taskschd/IRegisteredTask.GetInstances"
+f1_keywords:
+- taskschd/IRegisteredTask.GetInstances
 dev_langs:
- - c++
+- c++
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Taskschd.lib
 req.dll: Taskschd.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - taskschd.dll
+- taskschd.dll
 api_name:
- - IRegisteredTask.GetInstances
+- IRegisteredTask.GetInstances
 targetos: Windows
 req.typenames: 
 req.redist: 

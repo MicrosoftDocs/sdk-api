@@ -1,19 +1,17 @@
 ---
 UID: NF:wmsdkidl.IWMProfile3.CreateNewBandwidthSharing
 title: IWMProfile3::CreateNewBandwidthSharing (wmsdkidl.h)
-
 description: The CreateNewBandwidthSharing method creates a new bandwidth sharing object.
 old-location: wmformat\iwmprofile3_createnewbandwidthsharing.htm
 tech.root: wmformat
 ms.assetid: ab6c9903-95ea-499b-be75-ff57328336f0
-
 ms.date: 12/05/2018
 ms.keywords: CreateNewBandwidthSharing, CreateNewBandwidthSharing method [windows Media Format], CreateNewBandwidthSharing method [windows Media Format],IWMProfile3 interface, IWMProfile3 interface [windows Media Format],CreateNewBandwidthSharing method, IWMProfile3.CreateNewBandwidthSharing, IWMProfile3::CreateNewBandwidthSharing, IWMProfile3CreateNewBandwidthSharing, wmformat.iwmprofile3_createnewbandwidthsharing, wmsdkidl/IWMProfile3::CreateNewBandwidthSharing
 ms.topic: method
-f1_keywords: 
- - "wmsdkidl/IWMProfile3.CreateNewBandwidthSharing"
+f1_keywords:
+- wmsdkidl/IWMProfile3.CreateNewBandwidthSharing
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wmvcore.lib
- - Wmvcore.dll
- - WMStubDRM.lib
- - WMStubDRM.dll
+- Wmvcore.lib
+- Wmvcore.dll
+- WMStubDRM.lib
+- WMStubDRM.dll
 api_name:
- - IWMProfile3.CreateNewBandwidthSharing
+- IWMProfile3.CreateNewBandwidthSharing
 targetos: Windows
 req.typenames: 
 req.redist: 

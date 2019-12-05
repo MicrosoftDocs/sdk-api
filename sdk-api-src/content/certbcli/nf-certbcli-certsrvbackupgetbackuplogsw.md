@@ -1,19 +1,17 @@
 ---
 UID: NF:certbcli.CertSrvBackupGetBackupLogsW
 title: CertSrvBackupGetBackupLogsW function (certbcli.h)
-
 description: Retrieves the list of Certificate Services log file names that need to be backed up for the given backup context.
 old-location: security\certsrvbackupgetbackuplogs.htm
 tech.root: SecCrypto
 ms.assetid: bbc6e6c2-bb2c-4b0e-b1ba-6acf26a48f45
-
 ms.date: 12/05/2018
 ms.keywords: CSBFT_LOG, CSBFT_PATCH_FILE, CertSrvBackupGetBackupLogs, CertSrvBackupGetBackupLogs function [Security], CertSrvBackupGetBackupLogsW, _certsrv_certsrvbackupgetbackuplogs, certbcli/CertSrvBackupGetBackupLogs, certbcli/CertSrvBackupGetBackupLogsW, security.certsrvbackupgetbackuplogs
 ms.topic: function
-f1_keywords: 
- - "certbcli/CertSrvBackupGetBackupLogs"
+f1_keywords:
+- certbcli/CertSrvBackupGetBackupLogs
 dev_langs:
- - c++
+- c++
 req.header: certbcli.h
 req.include-header: Certsrv.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Certadm.lib
 req.dll: Certadm.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Certadm.dll
+- Certadm.dll
 api_name:
- - CertSrvBackupGetBackupLogs
- - CertSrvBackupGetBackupLogsW
+- CertSrvBackupGetBackupLogs
+- CertSrvBackupGetBackupLogsW
 targetos: Windows
 req.typenames: 
 req.redist: 

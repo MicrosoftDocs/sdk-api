@@ -1,19 +1,17 @@
 ---
 UID: NF:upnp.IUPnPDeviceFinderCallback.SearchComplete
 title: IUPnPDeviceFinderCallback::SearchComplete (upnp.h)
-
 description: The SearchComplete method is invoked by the UPnP framework to notify the application that the initial search for network devices has been completed.
 old-location: upnp\iupnpdevicefindercallback_searchcomplete.htm
 tech.root: upnp
 ms.assetid: 6fcce487-1cfb-47ec-9ea1-7df04985d506
-
 ms.date: 12/05/2018
 ms.keywords: IUPnPDeviceFinderCallback interface [UPnP APIs],SearchComplete method, IUPnPDeviceFinderCallback.SearchComplete, IUPnPDeviceFinderCallback::SearchComplete, SearchComplete, SearchComplete method [UPnP APIs], SearchComplete method [UPnP APIs],IUPnPDeviceFinderCallback interface, _upnp_iupnpdevicefindercallback_searchcomplete, upnp.iupnpdevicefindercallback_searchcomplete, upnp/IUPnPDeviceFinderCallback::SearchComplete
 ms.topic: method
-f1_keywords: 
- - "upnp/IUPnPDeviceFinderCallback.SearchComplete"
+f1_keywords:
+- upnp/IUPnPDeviceFinderCallback.SearchComplete
 dev_langs:
- - c++
+- c++
 req.header: upnp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Upnp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Upnp.dll
+- Upnp.dll
 api_name:
- - IUPnPDeviceFinderCallback.SearchComplete
+- IUPnPDeviceFinderCallback.SearchComplete
 targetos: Windows
 req.typenames: 
 req.redist: 

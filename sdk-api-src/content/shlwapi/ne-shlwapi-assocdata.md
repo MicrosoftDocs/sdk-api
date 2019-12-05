@@ -1,19 +1,17 @@
 ---
 UID: NE:shlwapi.__unnamed_enum_8
 title: ASSOCDATA (shlwapi.h)
-
 description: Used by IQueryAssociations::GetData to define the type of data that is to be returned.
 old-location: shell\ASSOCDATA_str.htm
 tech.root: shell
 ms.assetid: 0ae5c8db-81fd-4d00-8e54-0c474f1bfd06
-
 ms.date: 12/05/2018
 ms.keywords: ASSOCDATA, ASSOCDATA enumeration [Windows Shell], ASSOCDATA_EDITFLAGS, ASSOCDATA_HASPERUSERASSOC, ASSOCDATA_MSIDESCRIPTOR, ASSOCDATA_NOACTIVATEHANDLER, ASSOCDATA_QUERYCLASSSTORE, ASSOCDATA_VALUE, _win32_ASSOCDATA_str, shell.ASSOCDATA_str, shlwapi/ASSOCDATA, shlwapi/ASSOCDATA_EDITFLAGS, shlwapi/ASSOCDATA_HASPERUSERASSOC, shlwapi/ASSOCDATA_MSIDESCRIPTOR, shlwapi/ASSOCDATA_NOACTIVATEHANDLER, shlwapi/ASSOCDATA_QUERYCLASSSTORE, shlwapi/ASSOCDATA_VALUE
 ms.topic: enum
-f1_keywords: 
- - "shlwapi/ASSOCDATA"
+f1_keywords:
+- shlwapi/ASSOCDATA
 dev_langs:
- - c++
+- c++
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Shlwapi.h
+- Shlwapi.h
 api_name:
- - ASSOCDATA
+- ASSOCDATA
 targetos: Windows
 req.typenames: ASSOCDATA
 req.redist: 

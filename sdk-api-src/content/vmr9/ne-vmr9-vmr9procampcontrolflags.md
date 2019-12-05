@@ -1,19 +1,17 @@
 ---
 UID: NE:vmr9.__MIDL___MIDL_itf_vmr9_0000_0005_0002
 title: VMR9ProcAmpControlFlags (vmr9.h)
-
 description: The VMR9ProcAmpControlFlags enumeration type specifies image adjustment properties, for use with the Video Mixing Render Filter 9 (VMR-9).
 old-location: dshow\vmr9procampcontrolflags.htm
 tech.root: DirectShow
 ms.assetid: 5dfba718-4c89-46e7-89b6-e4b133b0ce04
-
 ms.date: 12/05/2018
 ms.keywords: ProcAmpControl9_Brightness, ProcAmpControl9_Contrast, ProcAmpControl9_Hue, ProcAmpControl9_Mask, ProcAmpControl9_Saturation, VMR9ProcAmpControlFlags, VMR9ProcAmpControlFlags , VMR9ProcAmpControlFlags enumeration [DirectShow], dshow.vmr9procampcontrolflags, vmr9/ProcAmpControl9_Brightness, vmr9/ProcAmpControl9_Contrast, vmr9/ProcAmpControl9_Hue, vmr9/ProcAmpControl9_Mask, vmr9/ProcAmpControl9_Saturation, vmr9/VMR9ProcAmpControlFlags
 ms.topic: enum
 f1_keywords:
 - vmr9/VMR9ProcAmpControlFlags
 dev_langs:
- - c++
+- c++
 req.header: vmr9.h
 req.include-header: 
 req.target-type: Windows

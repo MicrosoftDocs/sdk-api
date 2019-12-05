@@ -3,14 +3,13 @@ UID: NF:gdiplusgraphics.Graphics.DrawRectangles(IN const Pen,IN const RectF,IN I
 title: Graphics::DrawRectangles
 description: The Graphics::DrawRectangles method draws a sequence of rectangles.
 ms.assetid: d8a6725b-6382-48a4-b83b-0a61614af6c9
-
 ms.date: 05/13/2019
 ms.keywords: Graphics::DrawRectangles
 ms.topic: language-reference
-f1_keywords: 
- - "gdiplusgraphics/Graphics::DrawRectangles"
+f1_keywords:
+- gdiplusgraphics/Graphics::DrawRectangles
 dev_langs:
- - c++
+- c++
 targetos: Windows
 req.assembly: 
 req.construct-type: function
@@ -32,13 +31,13 @@ req.type-library:
 req.umdf-ver: 
 req.unicode-ansi: 
 topic_type:
- - apiref
+- apiref
 api_type:
- - COM
+- COM
 api_location:
- - gdiplusgraphics.h
+- gdiplusgraphics.h
 api_name:
- - Graphics::DrawRectangles
+- Graphics::DrawRectangles
 ---
 
 # DrawRectangles(Pen*,RectF*,INT)

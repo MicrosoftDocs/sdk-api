@@ -1,19 +1,17 @@
 ---
 UID: NF:wmsdkidl.IWMProfile.AddMutualExclusion
 title: IWMProfile::AddMutualExclusion (wmsdkidl.h)
-
 description: The AddMutualExclusion method adds a mutual exclusion object to the profile. Mutual exclusion objects are used to specify a set of streams, only one of which can be output at a time.
 old-location: wmformat\iwmprofile_addmutualexclusion.htm
 tech.root: wmformat
 ms.assetid: efd751cf-d34d-4e74-9a00-444ec31ebef0
-
 ms.date: 12/05/2018
 ms.keywords: AddMutualExclusion, AddMutualExclusion method [windows Media Format], AddMutualExclusion method [windows Media Format],IWMProfile interface, AddMutualExclusion method [windows Media Format],IWMProfile2 interface, AddMutualExclusion method [windows Media Format],IWMProfile3 interface, IWMProfile interface [windows Media Format],AddMutualExclusion method, IWMProfile.AddMutualExclusion, IWMProfile2 interface [windows Media Format],AddMutualExclusion method, IWMProfile2::AddMutualExclusion, IWMProfile3 interface [windows Media Format],AddMutualExclusion method, IWMProfile3::AddMutualExclusion, IWMProfile::AddMutualExclusion, IWMProfileAddMutualExclusion, wmformat.iwmprofile_addmutualexclusion, wmsdkidl/IWMProfile2::AddMutualExclusion, wmsdkidl/IWMProfile3::AddMutualExclusion, wmsdkidl/IWMProfile::AddMutualExclusion
 ms.topic: method
-f1_keywords: 
- - "wmsdkidl/IWMProfile.AddMutualExclusion"
+f1_keywords:
+- wmsdkidl/IWMProfile.AddMutualExclusion
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -32,20 +30,20 @@ req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wmvcore.lib
- - Wmvcore.dll
- - WMStubDRM.lib
- - WMStubDRM.dll
- - qasf.dll
+- Wmvcore.lib
+- Wmvcore.dll
+- WMStubDRM.lib
+- WMStubDRM.dll
+- qasf.dll
 api_name:
- - IWMProfile.AddMutualExclusion
- - IWMProfile2.AddMutualExclusion
- - IWMProfile3.AddMutualExclusion
+- IWMProfile.AddMutualExclusion
+- IWMProfile2.AddMutualExclusion
+- IWMProfile3.AddMutualExclusion
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:devicetopology.IKsJackSinkInformation.GetJackSinkInformation
 title: IKsJackSinkInformation::GetJackSinkInformation (devicetopology.h)
-
 description: The GetJackSinkInformation method retrieves the sink information for the specified jack.
 old-location: coreaudio\iksjacksinkinformation_getjacksinkinformation.htm
 tech.root: CoreAudio
 ms.assetid: ca4165ce-433a-4a8f-9853-bbe812de90ca
-
 ms.date: 12/05/2018
 ms.keywords: GetJackSinkInformation, GetJackSinkInformation method [Core Audio], GetJackSinkInformation method [Core Audio],IKsJackSinkInformation interface, IKsJackSinkInformation interface [Core Audio],GetJackSinkInformation method, IKsJackSinkInformation.GetJackSinkInformation, IKsJackSinkInformation::GetJackSinkInformation, coreaudio.iksjacksinkinformation_getjacksinkinformation, devicetopology/IKsJackSinkInformation::GetJackSinkInformation
 ms.topic: method
-f1_keywords: 
- - "devicetopology/IKsJackSinkInformation.GetJackSinkInformation"
+f1_keywords:
+- devicetopology/IKsJackSinkInformation.GetJackSinkInformation
 dev_langs:
- - c++
+- c++
 req.header: devicetopology.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Devicetopology.h
+- Devicetopology.h
 api_name:
- - IKsJackSinkInformation.GetJackSinkInformation
+- IKsJackSinkInformation.GetJackSinkInformation
 targetos: Windows
 req.typenames: 
 req.redist: 

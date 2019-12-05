@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IGetCapabilitiesKey.GetCapabilitiesKey
 title: IGetCapabilitiesKey::GetCapabilitiesKey (strmif.h)
-
 description: The GetCapabilitiesKey method gets a registry key that contains capability information for the codec.
 old-location: dshow\igetcapabilitieskey_getcapabilitieskey.htm
 tech.root: DirectShow
 ms.assetid: 02c3edfe-9ce1-4d9f-bdd1-79e818b43800
-
 ms.date: 12/05/2018
 ms.keywords: GetCapabilitiesKey, GetCapabilitiesKey method [DirectShow], GetCapabilitiesKey method [DirectShow],IGetCapabilitiesKey interface, IGetCapabilitiesKey interface [DirectShow],GetCapabilitiesKey method, IGetCapabilitiesKey.GetCapabilitiesKey, IGetCapabilitiesKey::GetCapabilitiesKey, IGetCapabilitiesKeyGetCapabiltitiesKey, dshow.igetcapabilitieskey_getcapabilitieskey, strmif/IGetCapabilitiesKey::GetCapabilitiesKey
 ms.topic: method
-f1_keywords: 
- - "strmif/IGetCapabilitiesKey.GetCapabilitiesKey"
+f1_keywords:
+- strmif/IGetCapabilitiesKey.GetCapabilitiesKey
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IGetCapabilitiesKey.GetCapabilitiesKey
+- IGetCapabilitiesKey.GetCapabilitiesKey
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:networkisolation.NetworkIsolationRegisterForAppContainerChanges
 title: NetworkIsolationRegisterForAppContainerChanges function (networkisolation.h)
-
 description: Is used to register for the delivery of notifications regarding changes to an app container.
 old-location: ics\networkisolationregisterforappcontainerchanges.htm
 tech.root: ics
 ms.assetid: 2affb2a8-224c-4d2d-86e2-f194d3990dbe
-
 ms.date: 12/05/2018
 ms.keywords: INET_FIREWALL_AC_BINARY, INET_FIREWALL_AC_MAX, INET_FIREWALL_AC_NONE, INET_FIREWALL_AC_PACKAGE_ID_ONLY, NetworkIsolationRegisterForAppContainerChanges, NetworkIsolationRegisterForAppContainerChanges function [ICS/ICF], ics.networkisolationregisterforappcontainerchanges, networkisolation/NetworkIsolationRegisterForAppContainerChanges
 ms.topic: function
-f1_keywords: 
- - "networkisolation/NetworkIsolationRegisterForAppContainerChanges"
+f1_keywords:
+- networkisolation/NetworkIsolationRegisterForAppContainerChanges
 dev_langs:
- - c++
+- c++
 req.header: networkisolation.h
 req.include-header: Netfw.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib:
 req.dll: Firewallapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - firewallapi.dll
- - API-MS-Win-Net-Isolation-l1-1-0.dll
- - API-MS-Win-Net-Isolation-l1-1-1.dll
- - wfapihost.dll
+- firewallapi.dll
+- API-MS-Win-Net-Isolation-l1-1-0.dll
+- API-MS-Win-Net-Isolation-l1-1-1.dll
+- wfapihost.dll
 api_name:
- - NetworkIsolationRegisterForAppContainerChanges
+- NetworkIsolationRegisterForAppContainerChanges
 targetos: Windows
 req.typenames: 
 req.redist: 

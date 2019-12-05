@@ -1,19 +1,17 @@
 ---
 UID: NC:evr.MFCreateVideoMixer
 title: MFCreateVideoMixer (evr.h)
-
 description: Creates the default video mixer for the enhanced video renderer (EVR).
 old-location: mf\mfcreatevideomixer.htm
 tech.root: medfound
 ms.assetid: fd817e1b-6f11-4cdc-aa21-e4ecda16bf1e
-
 ms.date: 12/05/2018
 ms.keywords: MFCreateVideoMixer, MFCreateVideoMixer callback, MFCreateVideoMixer callback function [Media Foundation], evr/MFCreateVideoMixer, fd817e1b-6f11-4cdc-aa21-e4ecda16bf1e, mf.mfcreatevideomixer
 ms.topic: callback
-f1_keywords: 
- - "evr/MFCreateVideoMixer"
+f1_keywords:
+- evr/MFCreateVideoMixer
 dev_langs:
- - c++
+- c++
 req.header: evr.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - evr.h
+- evr.h
 api_name:
- - MFCreateVideoMixer
+- MFCreateVideoMixer
 targetos: Windows
 req.typenames: 
 req.redist: 

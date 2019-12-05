@@ -1,19 +1,17 @@
 ---
 UID: NF:mileffects.IMILBitmapEffect.GetOutput
 title: IMILBitmapEffect::GetOutput (mileffects.h)
-
 description: Gets the output of the effect.
 old-location: wibe\_wibe_imilbitmapeffect_getoutput.htm
 tech.root: wibe
 ms.assetid: VS|wibe|~\wibelh\reference\ifaces\imilbitmapeffect\getoutput.htm
-
 ms.date: 12/05/2018
 ms.keywords: GetOutput, GetOutput method [WPF Bitmap Effects], GetOutput method [WPF Bitmap Effects],IMILBitmapEffect interface, IMILBitmapEffect interface [WPF Bitmap Effects],GetOutput method, IMILBitmapEffect.GetOutput, IMILBitmapEffect::GetOutput, _wibe_imilbitmapeffect_getoutput, mileffects/IMILBitmapEffect::GetOutput, wibe._wibe_imilbitmapeffect_getoutput
 ms.topic: method
-f1_keywords: 
- - "mileffects/IMILBitmapEffect.GetOutput"
+f1_keywords:
+- mileffects/IMILBitmapEffect.GetOutput
 dev_langs:
- - c++
+- c++
 req.header: mileffects.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mileffects.h
+- Mileffects.h
 api_name:
- - IMILBitmapEffect.GetOutput
+- IMILBitmapEffect.GetOutput
 targetos: Windows
 req.typenames: 
 req.redist: Microsoft .Net 3.0

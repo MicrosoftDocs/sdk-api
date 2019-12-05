@@ -1,19 +1,17 @@
 ---
 UID: NF:certenroll.IX509PolicyServerListManager.Add
 title: IX509PolicyServerListManager::Add (certenroll.h)
-
 description: Adds an IX509PolicyServerUrl object to the collection.
 old-location: security\ix509policyserverlistmanager_add.htm
 tech.root: seccertenroll
 ms.assetid: f1f22d27-96bf-47f7-8572-5f3842797c18
-
 ms.date: 12/05/2018
 ms.keywords: Add, Add method [Security], Add method [Security],IX509PolicyServerListManager interface, IX509PolicyServerListManager interface [Security],Add method, IX509PolicyServerListManager.Add, IX509PolicyServerListManager::Add, certenroll/IX509PolicyServerListManager::Add, security.ix509policyserverlistmanager_add
 ms.topic: method
-f1_keywords: 
- - "certenroll/IX509PolicyServerListManager.Add"
+f1_keywords:
+- certenroll/IX509PolicyServerListManager.Add
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: CertEnroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CertEnroll.dll
+- CertEnroll.dll
 api_name:
- - IX509PolicyServerListManager.Add
+- IX509PolicyServerListManager.Add
 targetos: Windows
 req.typenames: 
 req.redist: 

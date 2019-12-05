@@ -1,19 +1,17 @@
 ---
 UID: NS:mstcpip._ASSOCIATE_NAMERES_CONTEXT_INPUT
 title: ASSOCIATE_NAMERES_CONTEXT_INPUT (mstcpip.h)
-
 description: Contains the transport setting ID and handle to a fully qualified domain name.
 old-location: winsock\associate_nameres_context_input.htm
 tech.root: WinSock
 ms.assetid: 8B6EB9A4-47B9-40C3-B647-BB05B657B7CE
-
 ms.date: 12/05/2018
-ms.keywords: "*PASSOCIATE_NAMERES_CONTEXT_INPUT, ASSOCIATE_NAMERES_CONTEXT_INPUT, ASSOCIATE_NAMERES_CONTEXT_INPUT structure [Winsock], PASSOCIATE_NAMERES_CONTEXT_INPUT, PASSOCIATE_NAMERES_CONTEXT_INPUT structure pointer [Winsock], mstcpip/ASSOCIATE_NAMERES_CONTEXT_INPUT, mstcpip/PASSOCIATE_NAMERES_CONTEXT_INPUT, winsock.associate_nameres_context_input"
+ms.keywords: '*PASSOCIATE_NAMERES_CONTEXT_INPUT, ASSOCIATE_NAMERES_CONTEXT_INPUT, ASSOCIATE_NAMERES_CONTEXT_INPUT structure [Winsock], PASSOCIATE_NAMERES_CONTEXT_INPUT, PASSOCIATE_NAMERES_CONTEXT_INPUT structure pointer [Winsock], mstcpip/ASSOCIATE_NAMERES_CONTEXT_INPUT, mstcpip/PASSOCIATE_NAMERES_CONTEXT_INPUT, winsock.associate_nameres_context_input'
 ms.topic: struct
-f1_keywords: 
- - "mstcpip/ASSOCIATE_NAMERES_CONTEXT_INPUT"
+f1_keywords:
+- mstcpip/ASSOCIATE_NAMERES_CONTEXT_INPUT
 dev_langs:
- - c++
+- c++
 req.header: mstcpip.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Mstcpip.h
+- Mstcpip.h
 api_name:
- - ASSOCIATE_NAMERES_CONTEXT_INPUT
+- ASSOCIATE_NAMERES_CONTEXT_INPUT
 targetos: Windows
 req.typenames: ASSOCIATE_NAMERES_CONTEXT_INPUT, *PASSOCIATE_NAMERES_CONTEXT_INPUT
 req.redist: 

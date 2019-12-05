@@ -1,19 +1,17 @@
 ---
 UID: NF:faxcomex.IFaxOutboundRoutingRule.put_UseDevice
 title: IFaxOutboundRoutingRule::put_UseDevice (faxcomex.h)
-
 description: The IFaxOutboundRoutingRule::get_UseDevice property is a Boolean value that indicates whether the outbound routing rule points to a single fax device.
 old-location: fax\_mfax_faxoutboundroutingrule_cpp_mfax_faxoutboundroutingrule_usedevice_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_3cmd.htm
-
 ms.date: 12/05/2018
 ms.keywords: IFaxOutboundRoutingRule interface [Fax Service],UseDevice property, IFaxOutboundRoutingRule.UseDevice, IFaxOutboundRoutingRule.get_UseDevice, IFaxOutboundRoutingRule.put_UseDevice, IFaxOutboundRoutingRule::UseDevice, IFaxOutboundRoutingRule::get_UseDevice, IFaxOutboundRoutingRule::put_UseDevice, UseDevice property [Fax Service], UseDevice property [Fax Service],IFaxOutboundRoutingRule interface, _mfax_faxoutboundroutingrule.usedevice, fax._mfax_faxoutboundroutingrule_cpp_mfax_faxoutboundroutingrule_usedevice_cpp, fax._mfax_faxoutboundroutingrule_usedevice, faxcomex/IFaxOutboundRoutingRule::UseDevice, faxcomex/IFaxOutboundRoutingRule::get_UseDevice, faxcomex/IFaxOutboundRoutingRule::put_UseDevice, put_UseDevice
 ms.topic: method
-f1_keywords: 
- - "faxcomex/IFaxOutboundRoutingRule.UseDevice"
+f1_keywords:
+- faxcomex/IFaxOutboundRoutingRule.UseDevice
 dev_langs:
- - c++
+- c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib:
 req.dll: Fxscomex.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Fxscomex.dll
+- Fxscomex.dll
 api_name:
- - IFaxOutboundRoutingRule.UseDevice
- - IFaxOutboundRoutingRule.get_UseDevice
- - IFaxOutboundRoutingRule.put_UseDevice
- - IFaxOutboundRoutingRule.get_UseDevice
- - IFaxOutboundRoutingRule.put_UseDevice
+- IFaxOutboundRoutingRule.UseDevice
+- IFaxOutboundRoutingRule.get_UseDevice
+- IFaxOutboundRoutingRule.put_UseDevice
+- IFaxOutboundRoutingRule.get_UseDevice
+- IFaxOutboundRoutingRule.put_UseDevice
 targetos: Windows
 req.typenames: 
 req.redist: 

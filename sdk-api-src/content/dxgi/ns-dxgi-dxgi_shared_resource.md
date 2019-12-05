@@ -1,19 +1,17 @@
 ---
 UID: NS:dxgi.DXGI_SHARED_RESOURCE
 title: DXGI_SHARED_RESOURCE (dxgi.h)
-
 description: Represents a handle to a shared resource.
 old-location: direct3ddxgi\dxgi_shared_resource.htm
 tech.root: direct3ddxgi
 ms.assetid: VS|directx_sdk|~\dxgi_shared_resource.htm
-
 ms.date: 12/05/2018
 ms.keywords: DXGI_SHARED_RESOURCE, DXGI_SHARED_RESOURCE structure [DXGI], aa3179a5-6a16-4e5d-df66-783c4edeb8f4, direct3ddxgi.dxgi_shared_resource, dxgi/DXGI_SHARED_RESOURCE
 ms.topic: struct
-f1_keywords: 
- - "dxgi/DXGI_SHARED_RESOURCE"
+f1_keywords:
+- dxgi/DXGI_SHARED_RESOURCE
 dev_langs:
- - c++
+- c++
 req.header: dxgi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - DXGI.h
+- DXGI.h
 api_name:
- - DXGI_SHARED_RESOURCE
+- DXGI_SHARED_RESOURCE
 targetos: Windows
 req.typenames: DXGI_SHARED_RESOURCE
 req.redist: 

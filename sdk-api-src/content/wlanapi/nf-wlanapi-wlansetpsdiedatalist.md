@@ -1,19 +1,17 @@
 ---
 UID: NF:wlanapi.WlanSetPsdIEDataList
 title: WlanSetPsdIEDataList function (wlanapi.h)
-
 description: Sets the proximity service discovery (PSD) information element (IE) data list.
 old-location: nwifi\wlansetpsdiedatalist.htm
 tech.root: NativeWiFi
 ms.assetid: eea402d3-9a5f-4446-bf6c-9ab8430f9c60
-
 ms.date: 12/05/2018
 ms.keywords: WlanSetPsdIEDataList, WlanSetPsdIEDataList function [NativeWIFI], nwifi.wlansetpsdiedatalist, wlanapi/WlanSetPsdIEDataList
 ms.topic: function
 f1_keywords:
 - wlanapi/WlanSetPsdIEDataList
 dev_langs:
- - c++
+- c++
 req.header: wlanapi.h
 req.include-header: Wlanapi.h
 req.target-type: Windows

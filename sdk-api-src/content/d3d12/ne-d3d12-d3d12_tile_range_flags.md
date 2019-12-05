@@ -1,19 +1,17 @@
 ---
 UID: NE:d3d12.D3D12_TILE_RANGE_FLAGS
 title: D3D12_TILE_RANGE_FLAGS (d3d12.h)
-
 description: Specifies a range of tile mappings.
 old-location: direct3d12\d3d12_tile_range_flags.htm
 tech.root: direct3d12
 ms.assetid: D6C35804-4F83-4F33-A4A3-06C5D73174FB
-
 ms.date: 12/05/2018
 ms.keywords: D3D12_TILE_RANGE_FLAGS, D3D12_TILE_RANGE_FLAGS enumeration, D3D12_TILE_RANGE_FLAG_NONE, D3D12_TILE_RANGE_FLAG_NULL, D3D12_TILE_RANGE_FLAG_REUSE_SINGLE_TILE, D3D12_TILE_RANGE_FLAG_SKIP, d3d12/D3D12_TILE_RANGE_FLAGS, d3d12/D3D12_TILE_RANGE_FLAG_NONE, d3d12/D3D12_TILE_RANGE_FLAG_NULL, d3d12/D3D12_TILE_RANGE_FLAG_REUSE_SINGLE_TILE, d3d12/D3D12_TILE_RANGE_FLAG_SKIP, direct3d12.d3d12_tile_range_flags
 ms.topic: enum
-f1_keywords: 
- - "d3d12/D3D12_TILE_RANGE_FLAGS"
+f1_keywords:
+- d3d12/D3D12_TILE_RANGE_FLAGS
 dev_langs:
- - c++
+- c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - D3D12.h
+- D3D12.h
 api_name:
- - D3D12_TILE_RANGE_FLAGS
+- D3D12_TILE_RANGE_FLAGS
 targetos: Windows
 req.typenames: D3D12_TILE_RANGE_FLAGS
 req.redist: 

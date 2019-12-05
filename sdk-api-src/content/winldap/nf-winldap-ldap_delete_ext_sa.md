@@ -1,19 +1,17 @@
 ---
 UID: NF:winldap.ldap_delete_ext_sA
 title: ldap_delete_ext_sA function (winldap.h)
-
 description: The ldap_delete_ext_s function is an extended routine that performs a synchronous operation to remove a leaf entry from the directory tree.
 old-location: ldap\ldap_delete_ext_s.htm
 tech.root: ldap
 ms.assetid: eb00a5c1-b7b8-4b68-9d91-d52235f5e1ff
-
 ms.date: 12/05/2018
-ms.keywords: "_ldap_ldap_delete_ext_s, ldap.ldap__delete__ext__s, ldap.ldap_delete_ext_s, ldap_delete_ext_s, ldap_delete_ext_s function [LDAP], ldap_delete_ext_sA, ldap_delete_ext_sW, winldap/ldap_delete_ext_s, winldap/ldap_delete_ext_sA, winldap/ldap_delete_ext_sW"
+ms.keywords: _ldap_ldap_delete_ext_s, ldap.ldap__delete__ext__s, ldap.ldap_delete_ext_s, ldap_delete_ext_s, ldap_delete_ext_s function [LDAP], ldap_delete_ext_sA, ldap_delete_ext_sW, winldap/ldap_delete_ext_s, winldap/ldap_delete_ext_sA, winldap/ldap_delete_ext_sW
 ms.topic: function
-f1_keywords: 
- - "winldap/ldap_delete_ext_s"
+f1_keywords:
+- winldap/ldap_delete_ext_s
 dev_langs:
- - c++
+- c++
 req.header: winldap.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Wldap32.lib
 req.dll: Wldap32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Wldap32.dll
+- Wldap32.dll
 api_name:
- - ldap_delete_ext_s
- - ldap_delete_ext_sA
- - ldap_delete_ext_sW
+- ldap_delete_ext_s
+- ldap_delete_ext_sA
+- ldap_delete_ext_sW
 targetos: Windows
 req.typenames: 
 req.redist: 

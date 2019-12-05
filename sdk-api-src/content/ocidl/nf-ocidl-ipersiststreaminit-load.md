@@ -1,19 +1,17 @@
 ---
 UID: NF:ocidl.IPersistStreamInit.Load
 title: IPersistStreamInit::Load (ocidl.h)
-
 description: Initializes an object from the stream where it was saved previously.
 old-location: com\ipersiststreaminit_load.htm
 tech.root: com
 ms.assetid: 3e995e07-e088-40de-ba28-c30caea45786
-
 ms.date: 12/05/2018
 ms.keywords: IPersistStreamInit interface [COM],Load method, IPersistStreamInit.Load, IPersistStreamInit::Load, Load, Load method [COM], Load method [COM],IPersistStreamInit interface, _com_ipersiststreaminit_load, com.ipersiststreaminit_load, ocidl/IPersistStreamInit::Load
 ms.topic: method
-f1_keywords: 
- - "ocidl/IPersistStreamInit.Load"
+f1_keywords:
+- ocidl/IPersistStreamInit.Load
 dev_langs:
- - c++
+- c++
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - OCIdl.h
+- OCIdl.h
 api_name:
- - IPersistStreamInit.Load
+- IPersistStreamInit.Load
 targetos: Windows
 req.typenames: 
 req.redist: 

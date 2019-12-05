@@ -1,19 +1,17 @@
 ---
 UID: NF:mmiscapi.mmioAscend
 title: mmioAscend function (mmiscapi.h)
-
 description: The mmioAscend function ascends out of a chunk in a RIFF file descended into with the mmioDescend function or created with the mmioCreateChunk function.
 old-location: multimedia\mmioascend.htm
 tech.root: Multimedia
 ms.assetid: 33da4c65-8ce1-44cf-9d5f-f5626620b420
-
 ms.date: 12/05/2018
-ms.keywords: "_win32_mmioAscend, mmioAscend, mmioAscend function [Windows Multimedia], mmsystem/mmioAscend, multimedia.mmioascend"
+ms.keywords: _win32_mmioAscend, mmioAscend, mmioAscend function [Windows Multimedia], mmsystem/mmioAscend, multimedia.mmioascend
 ms.topic: function
-f1_keywords: 
- - "mmiscapi/mmioAscend"
+f1_keywords:
+- mmiscapi/mmioAscend
 dev_langs:
- - c++
+- c++
 req.header: mmiscapi.h
 req.include-header: Mmiscapi.h, Windows.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Winmm.lib
 req.dll: Winmm.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Winmm.dll
- - API-MS-Win-mm-misc-l1-1-0.dll
- - winmmbase.dll
- - API-MS-Win-mm-misc-l1-1-1.dll
+- Winmm.dll
+- API-MS-Win-mm-misc-l1-1-0.dll
+- winmmbase.dll
+- API-MS-Win-mm-misc-l1-1-1.dll
 api_name:
- - mmioAscend
+- mmioAscend
 targetos: Windows
 req.typenames: 
 req.redist: 

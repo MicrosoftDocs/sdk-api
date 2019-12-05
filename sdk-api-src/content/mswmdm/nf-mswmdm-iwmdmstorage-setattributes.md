@@ -1,19 +1,17 @@
 ---
 UID: NF:mswmdm.IWMDMStorage.SetAttributes
 title: IWMDMStorage::SetAttributes (mswmdm.h)
-
 description: The SetAttributes method sets the attributes of the storage.
 old-location: wmdm\iwmdmstorage_setattributes.htm
 tech.root: WMDM
 ms.assetid: 7484e29a-5faf-4a11-9fc1-75aa5c9d72ef
-
 ms.date: 12/05/2018
 ms.keywords: IWMDMStorage interface [windows Media Device Manager],SetAttributes method, IWMDMStorage.SetAttributes, IWMDMStorage::SetAttributes, IWMDMStorageSetAttributes, SetAttributes, SetAttributes method [windows Media Device Manager], SetAttributes method [windows Media Device Manager],IWMDMStorage interface, mswmdm/IWMDMStorage::SetAttributes, wmdm.iwmdmstorage_setattributes
 ms.topic: method
-f1_keywords: 
- - "mswmdm/IWMDMStorage.SetAttributes"
+f1_keywords:
+- mswmdm/IWMDMStorage.SetAttributes
 dev_langs:
- - c++
+- c++
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mssachlp.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mssachlp.lib
- - mssachlp.dll
+- mssachlp.lib
+- mssachlp.dll
 api_name:
- - IWMDMStorage.SetAttributes
+- IWMDMStorage.SetAttributes
 targetos: Windows
 req.typenames: 
 req.redist: 

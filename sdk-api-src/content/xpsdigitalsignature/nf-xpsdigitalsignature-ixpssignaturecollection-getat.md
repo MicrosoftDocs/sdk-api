@@ -1,19 +1,17 @@
 ---
 UID: NF:xpsdigitalsignature.IXpsSignatureCollection.GetAt
 title: IXpsSignatureCollection::GetAt (xpsdigitalsignature.h)
-
 description: Gets an IXpsSignature interface pointer from a specified location in the collection.
 old-location: xps\ixpssignaturecollection_getat.htm
 tech.root: printdocs
 ms.assetid: 90e9f68b-2f26-481d-8e5e-1ce0409451cd
-
 ms.date: 12/05/2018
 ms.keywords: GetAt, GetAt method [XPS Documents and Packaging], GetAt method [XPS Documents and Packaging],IXpsSignatureCollection interface, IXpsSignatureCollection interface [XPS Documents and Packaging],GetAt method, IXpsSignatureCollection.GetAt, IXpsSignatureCollection::GetAt, xps.ixpssignaturecollection_getat, xpsdigitalsignature/IXpsSignatureCollection::GetAt
 ms.topic: method
-f1_keywords: 
- - "xpsdigitalsignature/IXpsSignatureCollection.GetAt"
+f1_keywords:
+- xpsdigitalsignature/IXpsSignatureCollection.GetAt
 dev_langs:
- - c++
+- c++
 req.header: xpsdigitalsignature.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsdigitalsignature.h
+- xpsdigitalsignature.h
 api_name:
- - IXpsSignatureCollection.GetAt
+- IXpsSignatureCollection.GetAt
 targetos: Windows
 req.typenames: 
 req.redist: 

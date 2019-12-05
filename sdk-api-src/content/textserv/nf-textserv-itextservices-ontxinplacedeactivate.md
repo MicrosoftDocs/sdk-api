@@ -1,19 +1,17 @@
 ---
 UID: NF:textserv.ITextServices.OnTxInPlaceDeactivate
 title: ITextServices::OnTxInPlaceDeactivate (textserv.h)
-
 description: Notifies the text services object that this control is no longer in-place active.
 old-location: controls\ITextServices_OnTxInPlaceDeactivate.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\windowlessricheditcontrols\windowlessricheditcontrolsreference\windowlessricheditcontrolinterfaces\ontxinplacedeactivate.htm
-
 ms.date: 12/05/2018
 ms.keywords: ITextServices interface [Windows Controls],OnTxInPlaceDeactivate method, ITextServices.OnTxInPlaceDeactivate, ITextServices::OnTxInPlaceDeactivate, OnTxInPlaceDeactivate, OnTxInPlaceDeactivate method [Windows Controls], OnTxInPlaceDeactivate method [Windows Controls],ITextServices interface, _win32_ITextServices_OnTxInPlaceDeactivate, _win32_ITextServices_OnTxInPlaceDeactivate_cpp, controls.ITextServices_OnTxInPlaceDeactivate, controls._win32_ITextServices_OnTxInPlaceDeactivate, textserv/ITextServices::OnTxInPlaceDeactivate
 ms.topic: method
-f1_keywords: 
- - "textserv/ITextServices.OnTxInPlaceDeactivate"
+f1_keywords:
+- textserv/ITextServices.OnTxInPlaceDeactivate
 dev_langs:
- - c++
+- c++
 req.header: textserv.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msftedit.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msftedit.dll
+- Msftedit.dll
 api_name:
- - ITextServices.OnTxInPlaceDeactivate
+- ITextServices.OnTxInPlaceDeactivate
 targetos: Windows
 req.typenames: 
 req.redist: 

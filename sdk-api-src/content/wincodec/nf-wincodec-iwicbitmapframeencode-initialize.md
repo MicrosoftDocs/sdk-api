@@ -1,19 +1,17 @@
 ---
 UID: NF:wincodec.IWICBitmapFrameEncode.Initialize
 title: IWICBitmapFrameEncode::Initialize (wincodec.h)
-
 description: Initializes the frame encoder using the given properties.
 old-location: wic\_wic_codec_iwicbitmapframeencode_initialize.htm
 tech.root: wic
 ms.assetid: ec215e32-b4bd-469a-903d-f5b546185183
-
 ms.date: 12/05/2018
 ms.keywords: IWICBitmapFrameEncode interface [Windows Imaging Component],Initialize method, IWICBitmapFrameEncode.Initialize, IWICBitmapFrameEncode::Initialize, Initialize, Initialize method [Windows Imaging Component], Initialize method [Windows Imaging Component],IWICBitmapFrameEncode interface, _wic_codec_iwicbitmapframeencode_initialize, wic._wic_codec_iwicbitmapframeencode_initialize, wincodec/IWICBitmapFrameEncode::Initialize
 ms.topic: method
-f1_keywords: 
- - "wincodec/IWICBitmapFrameEncode.Initialize"
+f1_keywords:
+- wincodec/IWICBitmapFrameEncode.Initialize
 dev_langs:
- - c++
+- c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Windowscodecs.lib
 req.dll: Windowscodecs.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Windowscodecs.dll
+- Windowscodecs.dll
 api_name:
- - IWICBitmapFrameEncode.Initialize
+- IWICBitmapFrameEncode.Initialize
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:oleauto.VarUI4FromI4
 title: VarUI4FromI4 function (oleauto.h)
-
 description: Converts a long value to an unsigned long value.
 old-location: automat\varui4fromi4.htm
 tech.root: automat
 ms.assetid: 4a77c589-f7a2-475e-a087-f638f85ff00d
-
 ms.date: 12/05/2018
 ms.keywords: VarUI4FromI4, VarUI4FromI4 function [Automation], _oa96_VarUI4FromI4, automat.varui4fromi4, oleauto/VarUI4FromI4
 ms.topic: function
-f1_keywords: 
- - "oleauto/VarUI4FromI4"
+f1_keywords:
+- oleauto/VarUI4FromI4
 dev_langs:
- - c++
+- c++
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: OleAut32.lib
 req.dll: OleAut32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - OleAut32.dll
+- OleAut32.dll
 api_name:
- - VarUI4FromI4
+- VarUI4FromI4
 targetos: Windows
 req.typenames: 
 req.redist: 

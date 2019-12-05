@@ -1,19 +1,17 @@
 ---
 UID: NF:winevt.EvtOpenEventMetadataEnum
 title: EvtOpenEventMetadataEnum function (winevt.h)
-
 description: Gets a handle that you use to enumerate the list of events that the provider defines.
 old-location: wes\evtopeneventmetadataenum.htm
 tech.root: wes
 ms.assetid: e1d2e5d5-89db-4bda-9803-37f26d1fe30f
-
 ms.date: 12/05/2018
 ms.keywords: EvtOpenEventMetadataEnum, EvtOpenEventMetadataEnum function [EventLog], wes.evtopeneventmetadataenum, winevt/EvtOpenEventMetadataEnum
 ms.topic: function
-f1_keywords: 
- - "winevt/EvtOpenEventMetadataEnum"
+f1_keywords:
+- winevt/EvtOpenEventMetadataEnum
 dev_langs:
- - c++
+- c++
 req.header: winevt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Wevtapi.lib
 req.dll: Wevtapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Wevtapi.dll
+- Wevtapi.dll
 api_name:
- - EvtOpenEventMetadataEnum
+- EvtOpenEventMetadataEnum
 targetos: Windows
 req.typenames: 
 req.redist: 

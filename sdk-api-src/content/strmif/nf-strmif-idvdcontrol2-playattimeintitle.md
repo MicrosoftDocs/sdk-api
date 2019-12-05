@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IDvdControl2.PlayAtTimeInTitle
 title: IDvdControl2::PlayAtTimeInTitle (strmif.h)
-
 description: The PlayAtTimeInTitle method starts playback from the specified time in the specified title.
 old-location: dshow\idvdcontrol2_playattimeintitle.htm
 tech.root: DirectShow
 ms.assetid: 034fa82f-38d2-4031-8d7f-dcf97aa699aa
-
 ms.date: 12/05/2018
 ms.keywords: IDvdControl2 interface [DirectShow],PlayAtTimeInTitle method, IDvdControl2.PlayAtTimeInTitle, IDvdControl2::PlayAtTimeInTitle, IDvdControl2PlayAtTimeInTitle, PlayAtTimeInTitle, PlayAtTimeInTitle method [DirectShow], PlayAtTimeInTitle method [DirectShow],IDvdControl2 interface, dshow.idvdcontrol2_playattimeintitle, strmif/IDvdControl2::PlayAtTimeInTitle
 ms.topic: method
-f1_keywords: 
- - "strmif/IDvdControl2.PlayAtTimeInTitle"
+f1_keywords:
+- strmif/IDvdControl2.PlayAtTimeInTitle
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IDvdControl2.PlayAtTimeInTitle
+- IDvdControl2.PlayAtTimeInTitle
 targetos: Windows
 req.typenames: 
 req.redist: 

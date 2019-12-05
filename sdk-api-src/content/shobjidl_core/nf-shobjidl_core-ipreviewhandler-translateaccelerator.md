@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IPreviewHandler.TranslateAccelerator
 title: IPreviewHandler::TranslateAccelerator (shobjidl_core.h)
-
 description: Directs the preview handler to handle a keystroke passed up from the message pump of the process in which the preview handler is running.
 old-location: shell\IPreviewHandler_TranslateAccelerator.htm
 tech.root: shell
 ms.assetid: 5e7e71f2-c728-44cb-820b-9a0b28b7266c
-
 ms.date: 12/05/2018
 ms.keywords: IPreviewHandler interface [Windows Shell],TranslateAccelerator method, IPreviewHandler.TranslateAccelerator, IPreviewHandler::TranslateAccelerator, TranslateAccelerator, TranslateAccelerator method [Windows Shell], TranslateAccelerator method [Windows Shell],IPreviewHandler interface, _shell_IPreviewHandler_TranslateAccelerator, shell.IPreviewHandler_TranslateAccelerator, shobjidl_core/IPreviewHandler::TranslateAccelerator
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IPreviewHandler.TranslateAccelerator"
+f1_keywords:
+- shobjidl_core/IPreviewHandler.TranslateAccelerator
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - IPreviewHandler.TranslateAccelerator
+- IPreviewHandler.TranslateAccelerator
 targetos: Windows
 req.typenames: 
 req.redist: Windows Search 4 or later

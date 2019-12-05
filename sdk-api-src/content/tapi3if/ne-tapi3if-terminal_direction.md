@@ -1,19 +1,17 @@
 ---
 UID: NE:tapi3if.TERMINAL_DIRECTION
 title: TERMINAL_DIRECTION (tapi3if.h)
-
 description: The TERMINAL_DIRECTION enumeration is used to describe the direction of the media stream with respect to the local computer or the directional capabilities of a terminal.
 old-location: tapi3\terminal_direction.htm
 tech.root: Tapi
 ms.assetid: 55ef9df3-1b85-439b-8ecb-28e5069390b9
-
 ms.date: 12/05/2018
 ms.keywords: TD_BIDIRECTIONAL, TD_CAPTURE, TD_MULTITRACK_MIXED, TD_NONE, TD_RENDER, TERMINAL_DIRECTION, TERMINAL_DIRECTION enumeration [TAPI 2.2], _tapi3_terminal_direction, tapi3.terminal_direction, tapi3if/TD_BIDIRECTIONAL, tapi3if/TD_CAPTURE, tapi3if/TD_MULTITRACK_MIXED, tapi3if/TD_NONE, tapi3if/TD_RENDER, tapi3if/TERMINAL_DIRECTION
 ms.topic: enum
-f1_keywords: 
- - "tapi3if/TERMINAL_DIRECTION"
+f1_keywords:
+- tapi3if/TERMINAL_DIRECTION
 dev_langs:
- - c++
+- c++
 req.header: tapi3if.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Tapi3if.h
+- Tapi3if.h
 api_name:
- - TERMINAL_DIRECTION
+- TERMINAL_DIRECTION
 targetos: Windows
 req.typenames: TERMINAL_DIRECTION
 req.redist: 

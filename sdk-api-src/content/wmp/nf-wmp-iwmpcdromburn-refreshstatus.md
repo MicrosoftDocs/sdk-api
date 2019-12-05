@@ -1,19 +1,17 @@
 ---
 UID: NF:wmp.IWMPCdromBurn.refreshStatus
 title: IWMPCdromBurn::refreshStatus (wmp.h)
-
 description: The refreshStatus method updates the status information for the current burn playlist.
 old-location: wmp\iwmpcdromburn_refreshstatus.htm
 tech.root: WMP
 ms.assetid: 7a1ca071-0a61-4ef5-b8c1-18336cf5b1b0
-
 ms.date: 12/05/2018
 ms.keywords: IWMPCdromBurn interface [Windows Media Player],refreshStatus method, IWMPCdromBurn.refreshStatus, IWMPCdromBurn::refreshStatus, IWMPCdromBurnrefreshStatus, refreshStatus, refreshStatus method [Windows Media Player], refreshStatus method [Windows Media Player],IWMPCdromBurn interface, wmp.iwmpcdromburn_refreshstatus, wmp/IWMPCdromBurn::refreshStatus
 ms.topic: method
-f1_keywords: 
- - "wmp/IWMPCdromBurn.refreshStatus"
+f1_keywords:
+- wmp/IWMPCdromBurn.refreshStatus
 dev_langs:
- - c++
+- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wmp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmp.dll
+- wmp.dll
 api_name:
- - IWMPCdromBurn.refreshStatus
+- IWMPCdromBurn.refreshStatus
 targetos: Windows
 req.typenames: 
 req.redist: 

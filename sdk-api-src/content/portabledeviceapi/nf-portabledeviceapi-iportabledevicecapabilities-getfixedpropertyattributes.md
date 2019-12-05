@@ -1,19 +1,17 @@
 ---
 UID: NF:portabledeviceapi.IPortableDeviceCapabilities.GetFixedPropertyAttributes
 title: IPortableDeviceCapabilities::GetFixedPropertyAttributes (portabledeviceapi.h)
-
 description: The GetFixedPropertyAttributes method retrieves the standard property attributes for a specified property and format.
 old-location: wpdsdk\iportabledevicecapabilities_getfixedpropertyattributes.htm
 tech.root: wpd_sdk
 ms.assetid: 94e4e9f4-5858-4e12-bcd7-561fb3636fc8
-
 ms.date: 12/05/2018
 ms.keywords: GetFixedPropertyAttributes, GetFixedPropertyAttributes method [Windows Portable Devices SDK], GetFixedPropertyAttributes method [Windows Portable Devices SDK],IPortableDeviceCapabilities interface, IPortableDeviceCapabilities interface [Windows Portable Devices SDK],GetFixedPropertyAttributes method, IPortableDeviceCapabilities.GetFixedPropertyAttributes, IPortableDeviceCapabilities::GetFixedPropertyAttributes, IPortableDeviceCapabilitiesGetFixedPropertyAttributes, portabledeviceapi/IPortableDeviceCapabilities::GetFixedPropertyAttributes, wpdsdk.iportabledevicecapabilities_getfixedpropertyattributes
 ms.topic: method
-f1_keywords: 
- - "portabledeviceapi/IPortableDeviceCapabilities.GetFixedPropertyAttributes"
+f1_keywords:
+- portabledeviceapi/IPortableDeviceCapabilities.GetFixedPropertyAttributes
 dev_langs:
- - c++
+- c++
 req.header: portabledeviceapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: PortableDeviceGUIDs.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - PortableDeviceGUIDs.lib
- - PortableDeviceGUIDs.dll
+- PortableDeviceGUIDs.lib
+- PortableDeviceGUIDs.dll
 api_name:
- - IPortableDeviceCapabilities.GetFixedPropertyAttributes
+- IPortableDeviceCapabilities.GetFixedPropertyAttributes
 targetos: Windows
 req.typenames: 
 req.redist: 

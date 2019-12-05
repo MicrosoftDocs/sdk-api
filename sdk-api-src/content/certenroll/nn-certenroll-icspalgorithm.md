@@ -1,19 +1,17 @@
 ---
 UID: NN:certenroll.ICspAlgorithm
 title: ICspAlgorithm (certenroll.h)
-
 description: Represents an algorithm implemented by a cryptographic provider.
 old-location: security\icspalgorithm.htm
 tech.root: seccertenroll
 ms.assetid: 08eba616-2e96-40cd-9fda-8549de98c138
-
 ms.date: 12/05/2018
 ms.keywords: ICspAlgorithm, ICspAlgorithm interface [Security], ICspAlgorithm interface [Security],described, certenroll/ICspAlgorithm, security.icspalgorithm
 ms.topic: interface
-f1_keywords: 
- - "certenroll/ICspAlgorithm"
+f1_keywords:
+- certenroll/ICspAlgorithm
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: CertEnroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CertEnroll.dll
+- CertEnroll.dll
 api_name:
- - ICspAlgorithm
+- ICspAlgorithm
 targetos: Windows
 req.typenames: 
 req.redist: 

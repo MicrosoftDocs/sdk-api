@@ -1,19 +1,17 @@
 ---
 UID: NF:processthreadsapi.GetProcessPriorityBoost
 title: GetProcessPriorityBoost function (processthreadsapi.h)
-
 description: Retrieves the priority boost control state of the specified process.
 old-location: base\getprocesspriorityboost.htm
 tech.root: ProcThread
 ms.assetid: b47944f2-b724-4eec-9dcf-2d14a7b77456
-
 ms.date: 12/05/2018
 ms.keywords: GetProcessPriorityBoost, GetProcessPriorityBoost function, _win32_getprocesspriorityboost, base.getprocesspriorityboost, processthreadsapi/GetProcessPriorityBoost
 ms.topic: function
-f1_keywords: 
- - "processthreadsapi/GetProcessPriorityBoost"
+f1_keywords:
+- processthreadsapi/GetProcessPriorityBoost
 dev_langs:
- - c++
+- c++
 req.header: processthreadsapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,19 +30,19 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-ProcessThreads-l1-1-2.dll
- - KernelBase.dll
- - MinKernelBase.dll
- - api-ms-win-downlevel-kernel32-l1-1-0.dll
- - API-MS-Win-Core-ProcessThreads-L1-1-3.dll
+- Kernel32.dll
+- API-MS-Win-Core-ProcessThreads-l1-1-2.dll
+- KernelBase.dll
+- MinKernelBase.dll
+- api-ms-win-downlevel-kernel32-l1-1-0.dll
+- API-MS-Win-Core-ProcessThreads-L1-1-3.dll
 api_name:
- - GetProcessPriorityBoost
+- GetProcessPriorityBoost
 targetos: Windows
 req.typenames: 
 req.redist: 

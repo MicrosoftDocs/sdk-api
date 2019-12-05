@@ -1,19 +1,17 @@
 ---
 UID: NN:mbnapi.IMbnConnectionContextEvents
 title: IMbnConnectionContextEvents (mbnapi.h)
-
 description: This notification interface is used to handle asynchronous provisioned context events.
 old-location: mbn\imbnconnectioncontextevents.htm
 tech.root: mbn
 ms.assetid: 1f73260b-04db-410a-ade0-a835805b2b0a
-
 ms.date: 12/05/2018
 ms.keywords: IMbnConnectionContextEvents, IMbnConnectionContextEvents interface [Microsoft Broadband Networks], IMbnConnectionContextEvents interface [Microsoft Broadband Networks],described, mbn.imbnconnectioncontextevents, mbnapi/IMbnConnectionContextEvents
 ms.topic: interface
-f1_keywords: 
- - "mbnapi/IMbnConnectionContextEvents"
+f1_keywords:
+- mbnapi/IMbnConnectionContextEvents
 dev_langs:
- - c++
+- c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mbnapi.h
+- mbnapi.h
 api_name:
- - IMbnConnectionContextEvents
+- IMbnConnectionContextEvents
 targetos: Windows
 req.typenames: 
 req.redist: 

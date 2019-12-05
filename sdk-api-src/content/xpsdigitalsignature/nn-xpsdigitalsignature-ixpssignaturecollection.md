@@ -1,19 +1,17 @@
 ---
 UID: NN:xpsdigitalsignature.IXpsSignatureCollection
 title: IXpsSignatureCollection (xpsdigitalsignature.h)
-
 description: A collection of IXpsSignature interface pointers.
 old-location: xps\ixpssignaturecollection.htm
 tech.root: printdocs
 ms.assetid: b8c46cc0-e071-4016-b658-1a5cd554a4c9
-
 ms.date: 12/05/2018
 ms.keywords: IXpsSignatureCollection, IXpsSignatureCollection interface [XPS Documents and Packaging], IXpsSignatureCollection interface [XPS Documents and Packaging],described, xps.ixpssignaturecollection, xpsdigitalsignature/IXpsSignatureCollection
 ms.topic: interface
-f1_keywords: 
- - "xpsdigitalsignature/IXpsSignatureCollection"
+f1_keywords:
+- xpsdigitalsignature/IXpsSignatureCollection
 dev_langs:
- - c++
+- c++
 req.header: xpsdigitalsignature.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsdigitalsignature.h
+- xpsdigitalsignature.h
 api_name:
- - IXpsSignatureCollection
+- IXpsSignatureCollection
 targetos: Windows
 req.typenames: 
 req.redist: 

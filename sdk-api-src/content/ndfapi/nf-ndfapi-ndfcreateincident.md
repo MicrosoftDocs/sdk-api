@@ -1,19 +1,17 @@
 ---
 UID: NF:ndfapi.NdfCreateIncident
 title: NdfCreateIncident function (ndfapi.h)
-
 description: To test the NDF functionality incorporated into their application.
 old-location: ndf\ndfcreateincident.htm
 tech.root: NDF
 ms.assetid: 8570a0e2-f02f-4812-a5c8-13b6e5feee6f
-
 ms.date: 12/05/2018
 ms.keywords: NdfCreateIncident, NdfCreateIncident function [NDF], ndf.ndfcreateincident, ndfapi/NdfCreateIncident
 ms.topic: function
-f1_keywords: 
- - "ndfapi/NdfCreateIncident"
+f1_keywords:
+- ndfapi/NdfCreateIncident
 dev_langs:
- - c++
+- c++
 req.header: ndfapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Ndfapi.lib
 req.dll: Ndfapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ndfapi.dll
+- Ndfapi.dll
 api_name:
- - NdfCreateIncident
+- NdfCreateIncident
 targetos: Windows
 req.typenames: 
 req.redist: 

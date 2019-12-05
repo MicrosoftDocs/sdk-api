@@ -1,19 +1,17 @@
 ---
 UID: NS:tapi.phoneinitializeexparams_tag
 title: PHONEINITIALIZEEXPARAMS (tapi.h)
-
 description: The PHONEINITIALIZEEXPARAMS structure contains parameters used to establish the association between an application and TAPI; for example, the application's selected event notification mechanism. The phoneInitializeEx function uses this structure.
 old-location: tapi2\phoneinitializeexparams_str.htm
 tech.root: Tapi
 ms.assetid: 465653e4-b88a-42a0-99b0-ce26eeaf99fd
-
 ms.date: 12/05/2018
-ms.keywords: "*LPPHONEINITIALIZEEXPARAMS, LPPHONEINITIALIZEEXPARAMS, LPPHONEINITIALIZEEXPARAMS structure pointer [TAPI 2.2], PHONEINITIALIZEEXPARAMS, PHONEINITIALIZEEXPARAMS structure [TAPI 2.2], _tapi2_phoneinitializeexparams_str, tapi/LPPHONEINITIALIZEEXPARAMS, tapi/PHONEINITIALIZEEXPARAMS, tapi2.phoneinitializeexparams_str"
+ms.keywords: '*LPPHONEINITIALIZEEXPARAMS, LPPHONEINITIALIZEEXPARAMS, LPPHONEINITIALIZEEXPARAMS structure pointer [TAPI 2.2], PHONEINITIALIZEEXPARAMS, PHONEINITIALIZEEXPARAMS structure [TAPI 2.2], _tapi2_phoneinitializeexparams_str, tapi/LPPHONEINITIALIZEEXPARAMS, tapi/PHONEINITIALIZEEXPARAMS, tapi2.phoneinitializeexparams_str'
 ms.topic: struct
-f1_keywords: 
- - "tapi/PHONEINITIALIZEEXPARAMS"
+f1_keywords:
+- tapi/PHONEINITIALIZEEXPARAMS
 dev_langs:
- - c++
+- c++
 req.header: tapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Tapi.h
+- Tapi.h
 api_name:
- - PHONEINITIALIZEEXPARAMS
+- PHONEINITIALIZEEXPARAMS
 targetos: Windows
 req.typenames: PHONEINITIALIZEEXPARAMS, *LPPHONEINITIALIZEEXPARAMS
 req.redist: 

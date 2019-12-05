@@ -1,17 +1,15 @@
 ---
 UID: NF:dwrite_3.IDWriteFontSet1.CreateFontResource
 title: IDWriteFontSet1::CreateFontResource
-
 description: Creates the font resource of a single item.
 tech.root: DirectWrite
-
 ms.date: 09/16/2019
 ms.keywords: IDWriteFontSet1 interface [Direct Write],CreateFontResource method, IDWriteFontSet1.CreateFontResource, IDWriteFontSet1::CreateFontResource, CreateFontResource, CreateFontResource method [Direct Write], CreateFontResource method [Direct Write],IDWriteFontSet1 interface, directwrite.idwritefontset1_createfontresource, dwrite_3/IDWriteFontSet1::CreateFontResource
 ms.topic: method
-f1_keywords: 
- - "dwrite_3/IDWriteFontSet1.CreateFontResource"
+f1_keywords:
+- dwrite_3/IDWriteFontSet1.CreateFontResource
 dev_langs:
- - c++
+- c++
 req.construct-type: function
 req.header: dwrite_3.h
 req.include-header: 
@@ -31,15 +29,15 @@ req.lib: Dwrite.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dwrite.lib
- - Dwrite.dll
+- Dwrite.lib
+- Dwrite.dll
 api_name:
- - IDWriteFontSet1::CreateFontResource
+- IDWriteFontSet1::CreateFontResource
 targetos: Windows
 req.typenames: 
 req.redist: 

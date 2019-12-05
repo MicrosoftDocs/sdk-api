@@ -1,19 +1,17 @@
 ---
 UID: NE:uiribbon.UI_EVENTTYPE
 title: UI_EVENTTYPE (uiribbon.h)
-
 description: Identifies the types of events associated with a Ribbon.
 old-location: windowsribbon\ui_eventtype.htm
 tech.root: windowsribbon
 ms.assetid: 424C833C-E6D6-4532-8CF1-A294B429CC21
-
 ms.date: 12/05/2018
 ms.keywords: UI_EVENTTYPE, UI_EVENTTYPE enumeration [Windows Ribbon], UI_EVENTTYPE_ApplicationMenuOpened, UI_EVENTTYPE_ApplicationModeSwitched, UI_EVENTTYPE_CommandExecuted, UI_EVENTTYPE_MenuOpened, UI_EVENTTYPE_RibbonExpanded, UI_EVENTTYPE_RibbonMinimized, UI_EVENTTYPE_TabActivated, UI_EVENTTYPE_TooltipShown, uiribbon/UI_EVENTTYPE, uiribbon/UI_EVENTTYPE_ApplicationMenuOpened, uiribbon/UI_EVENTTYPE_ApplicationModeSwitched, uiribbon/UI_EVENTTYPE_CommandExecuted, uiribbon/UI_EVENTTYPE_MenuOpened, uiribbon/UI_EVENTTYPE_RibbonExpanded, uiribbon/UI_EVENTTYPE_RibbonMinimized, uiribbon/UI_EVENTTYPE_TabActivated, uiribbon/UI_EVENTTYPE_TooltipShown, windowsribbon.ui_eventtype
 ms.topic: enum
-f1_keywords: 
- - "uiribbon/UI_EVENTTYPE"
+f1_keywords:
+- uiribbon/UI_EVENTTYPE
 dev_langs:
- - c++
+- c++
 req.header: uiribbon.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Uiribbon.h
+- Uiribbon.h
 api_name:
- - UI_EVENTTYPE
+- UI_EVENTTYPE
 targetos: Windows
 req.typenames: UI_EVENTTYPE
 req.redist: 

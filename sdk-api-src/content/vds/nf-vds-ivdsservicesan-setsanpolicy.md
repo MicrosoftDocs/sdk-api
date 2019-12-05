@@ -1,19 +1,17 @@
 ---
 UID: NF:vds.IVdsServiceSAN.SetSANPolicy
 title: IVdsServiceSAN::SetSANPolicy (vds.h)
-
 description: Sets the disk SAN policy for the operating system.
 old-location: base\ivdsservicesan_setsanpolicy.htm
 tech.root: VDS
 ms.assetid: e5cb0b5e-d181-44a7-8416-e9f8fb575423
-
 ms.date: 12/05/2018
 ms.keywords: IVdsServiceSAN interface,SetSANPolicy method, IVdsServiceSAN.SetSANPolicy, IVdsServiceSAN::SetSANPolicy, SetSANPolicy, SetSANPolicy method, SetSANPolicy method,IVdsServiceSAN interface, base.ivdsservicesan_setsanpolicy, vds/IVdsServiceSAN::SetSANPolicy
 ms.topic: method
 f1_keywords:
 - vds/IVdsServiceSAN.SetSANPolicy
 dev_langs:
- - c++
+- c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

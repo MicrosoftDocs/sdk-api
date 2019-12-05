@@ -1,19 +1,17 @@
 ---
 UID: NF:msopc.IOpcSignatureCustomObjectEnumerator.MovePrevious
 title: IOpcSignatureCustomObjectEnumerator::MovePrevious (msopc.h)
-
 description: Moves the current position of the enumerator to the previous IOpcSignatureCustomObjectinterface pointer.
 old-location: opc\iopcsignaturecustomobjectenumerator_moveprevious.htm
 tech.root: OPC
 ms.assetid: 1143280b-4c92-44cf-8e2d-acd26527f264
-
 ms.date: 12/05/2018
 ms.keywords: IOpcSignatureCustomObjectEnumerator interface [Open Packaging Conventions],MovePrevious method, IOpcSignatureCustomObjectEnumerator.MovePrevious, IOpcSignatureCustomObjectEnumerator::MovePrevious, MovePrevious, MovePrevious method [Open Packaging Conventions], MovePrevious method [Open Packaging Conventions],IOpcSignatureCustomObjectEnumerator interface, msopc/IOpcSignatureCustomObjectEnumerator::MovePrevious, opc.iopcsignaturecustomobjectenumerator_moveprevious
 ms.topic: method
-f1_keywords: 
- - "msopc/IOpcSignatureCustomObjectEnumerator.MovePrevious"
+f1_keywords:
+- msopc/IOpcSignatureCustomObjectEnumerator.MovePrevious
 dev_langs:
- - c++
+- c++
 req.header: msopc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msopc.h
+- msopc.h
 api_name:
- - IOpcSignatureCustomObjectEnumerator.MovePrevious
+- IOpcSignatureCustomObjectEnumerator.MovePrevious
 targetos: Windows
 req.typenames: 
 req.redist: 

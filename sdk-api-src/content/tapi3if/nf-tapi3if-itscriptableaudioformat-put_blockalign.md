@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi3if.ITScriptableAudioFormat.put_BlockAlign
 title: ITScriptableAudioFormat::put_BlockAlign (tapi3if.h)
-
 description: The put_BlockAlign method sets the nBlockAlign member in the WAVEFORMATEX structure.
 old-location: tapi3\itscriptableaudioformat_put_blockalign.htm
 tech.root: Tapi
 ms.assetid: bc037229-4c5f-4778-af59-02e07d03a180
-
 ms.date: 12/05/2018
 ms.keywords: ITScriptableAudioFormat interface [TAPI 2.2],put_BlockAlign method, ITScriptableAudioFormat.put_BlockAlign, ITScriptableAudioFormat::put_BlockAlign, _tapi3_itscriptableaudioformat_put_blockalign, put_BlockAlign, put_BlockAlign method [TAPI 2.2], put_BlockAlign method [TAPI 2.2],ITScriptableAudioFormat interface, tapi3.itscriptableaudioformat_put_blockalign, tapi3if/ITScriptableAudioFormat::put_BlockAlign
 ms.topic: method
-f1_keywords: 
- - "tapi3if/ITScriptableAudioFormat.put_BlockAlign"
+f1_keywords:
+- tapi3if/ITScriptableAudioFormat.put_BlockAlign
 dev_langs:
- - c++
+- c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Tapi3.dll
+- Tapi3.dll
 api_name:
- - ITScriptableAudioFormat.put_BlockAlign
+- ITScriptableAudioFormat.put_BlockAlign
 targetos: Windows
 req.typenames: 
 req.redist: 

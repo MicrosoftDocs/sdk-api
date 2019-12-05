@@ -1,19 +1,17 @@
 ---
 UID: NF:gdipluspath.GraphicsPathIterator.NextMarker(OUT const GraphicsPath)
 title: GraphicsPathIterator::NextMarker(OUT const GraphicsPath) (gdipluspath.h)
-
 description: The GraphicsPathIterator::NextMarker method gets the next marker-delimited section of this iterator's associated path.
 old-location: gdiplus\_gdiplus_CLASS_GraphicsPathIterator_NextMarker_path_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicspathiteratorclass\graphicspathiteratormethods\graphicspathiteratornextmarkermethods\nextmarker.htm
-
 ms.date: 12/05/2018
 ms.keywords: GraphicsPathIterator class [GDI+],NextMarker method, GraphicsPathIterator.NextMarker, GraphicsPathIterator.NextMarker(GraphicsPath*), GraphicsPathIterator.NextMarker(OUT const GraphicsPath), GraphicsPathIterator::NextMarker, GraphicsPathIterator::NextMarker(OUT const GraphicsPath), NextMarker, NextMarker method [GDI+], NextMarker method [GDI+],GraphicsPathIterator class, _gdiplus_CLASS_GraphicsPathIterator_NextMarker_path_, gdiplus._gdiplus_CLASS_GraphicsPathIterator_NextMarker_path_
 ms.topic: method
-f1_keywords: 
- - "gdipluspath/GraphicsPathIterator.NextMarker"
+f1_keywords:
+- gdipluspath/GraphicsPathIterator.NextMarker
 dev_langs:
- - c++
+- c++
 req.header: gdipluspath.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - GraphicsPathIterator.NextMarker
+- GraphicsPathIterator.NextMarker
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:fwpmu.FwpmSessionCreateEnumHandle0
 title: FwpmSessionCreateEnumHandle0 function (fwpmu.h)
-
 description: Creates a handle used to enumerate a set of session objects.
 old-location: fwp\fwpmsessioncreateenumhandle0_func.htm
 tech.root: fwp
 ms.assetid: 018944eb-698b-4d3e-a9ba-253b8bbebea7
-
 ms.date: 12/05/2018
 ms.keywords: FwpmSessionCreateEnumHandle0, FwpmSessionCreateEnumHandle0 function [Filtering], fwp.fwpmsessioncreateenumhandle0_func, fwpmu/FwpmSessionCreateEnumHandle0
 ms.topic: function
-f1_keywords: 
- - "fwpmu/FwpmSessionCreateEnumHandle0"
+f1_keywords:
+- fwpmu/FwpmSessionCreateEnumHandle0
 dev_langs:
- - c++
+- c++
 req.header: fwpmu.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Fwpuclnt.lib
 req.dll: Fwpuclnt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Fwpuclnt.dll
+- Fwpuclnt.dll
 api_name:
- - FwpmSessionCreateEnumHandle0
+- FwpmSessionCreateEnumHandle0
 targetos: Windows
 req.typenames: 
 req.redist: 

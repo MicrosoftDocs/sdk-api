@@ -1,19 +1,17 @@
 ---
 UID: NE:d3d12.D3D12_SHADER_CACHE_SUPPORT_FLAGS
 title: D3D12_SHADER_CACHE_SUPPORT_FLAGS (d3d12.h)
-
 description: Describes the level of support for shader caching in the current graphics driver.
 old-location: direct3d12\d3d12_shader_cache_support_flags.htm
 tech.root: direct3d12
 ms.assetid: E270E04A-769F-4B08-AC17-5A87430CB3DA
-
 ms.date: 12/05/2018
 ms.keywords: D3D12_SHADER_CACHE_SUPPORT_AUTOMATIC_DISK_CACHE, D3D12_SHADER_CACHE_SUPPORT_AUTOMATIC_INPROC_CACHE, D3D12_SHADER_CACHE_SUPPORT_FLAGS, D3D12_SHADER_CACHE_SUPPORT_FLAGS enumeration, D3D12_SHADER_CACHE_SUPPORT_LIBRARY, D3D12_SHADER_CACHE_SUPPORT_NONE, D3D12_SHADER_CACHE_SUPPORT_SINGLE_PSO, d3d12/D3D12_SHADER_CACHE_SUPPORT_AUTOMATIC_DISK_CACHE, d3d12/D3D12_SHADER_CACHE_SUPPORT_AUTOMATIC_INPROC_CACHE, d3d12/D3D12_SHADER_CACHE_SUPPORT_FLAGS, d3d12/D3D12_SHADER_CACHE_SUPPORT_LIBRARY, d3d12/D3D12_SHADER_CACHE_SUPPORT_NONE, d3d12/D3D12_SHADER_CACHE_SUPPORT_SINGLE_PSO, direct3d12.d3d12_shader_cache_support_flags
 ms.topic: enum
-f1_keywords: 
- - "d3d12/D3D12_SHADER_CACHE_SUPPORT_FLAGS"
+f1_keywords:
+- d3d12/D3D12_SHADER_CACHE_SUPPORT_FLAGS
 dev_langs:
- - c++
+- c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - d3d12.h
+- d3d12.h
 api_name:
- - D3D12_SHADER_CACHE_SUPPORT_FLAGS
+- D3D12_SHADER_CACHE_SUPPORT_FLAGS
 targetos: Windows
 req.typenames: D3D12_SHADER_CACHE_SUPPORT_FLAGS
 req.redist: 

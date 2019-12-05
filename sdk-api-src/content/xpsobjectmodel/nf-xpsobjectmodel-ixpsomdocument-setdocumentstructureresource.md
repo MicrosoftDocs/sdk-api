@@ -1,19 +1,17 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMDocument.SetDocumentStructureResource
 title: IXpsOMDocument::SetDocumentStructureResource (xpsobjectmodel.h)
-
 description: Sets the IXpsOMDocumentStructureResource interface for the document.
 old-location: xps\ixpsomdocument_setdocumentstructureresource.htm
 tech.root: printdocs
 ms.assetid: 86d62b73-b7a7-4470-9e55-f4eab50531d0
-
 ms.date: 12/05/2018
 ms.keywords: IXpsOMDocument interface [XPS Documents and Packaging],SetDocumentStructureResource method, IXpsOMDocument.SetDocumentStructureResource, IXpsOMDocument::SetDocumentStructureResource, SetDocumentStructureResource, SetDocumentStructureResource method [XPS Documents and Packaging], SetDocumentStructureResource method [XPS Documents and Packaging],IXpsOMDocument interface, xps.ixpsomdocument_setdocumentstructureresource, xpsobjectmodel/IXpsOMDocument::SetDocumentStructureResource
 ms.topic: method
-f1_keywords: 
- - "xpsobjectmodel/IXpsOMDocument.SetDocumentStructureResource"
+f1_keywords:
+- xpsobjectmodel/IXpsOMDocument.SetDocumentStructureResource
 dev_langs:
- - c++
+- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsobjectmodel.h
+- xpsobjectmodel.h
 api_name:
- - IXpsOMDocument.SetDocumentStructureResource
+- IXpsOMDocument.SetDocumentStructureResource
 targetos: Windows
 req.typenames: 
 req.redist: 

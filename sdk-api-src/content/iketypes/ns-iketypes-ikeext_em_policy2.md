@@ -1,19 +1,17 @@
 ---
 UID: NS:iketypes.IKEEXT_EM_POLICY2_
 title: IKEEXT_EM_POLICY2 (iketypes.h)
-
 description: Is used to store AuthIP's extended mode negotiation policy.
 old-location: fwp\ikeext_em_policy2.htm
 tech.root: fwp
 ms.assetid: 01e3122b-812f-4c01-a514-dc0d513de822
-
 ms.date: 12/05/2018
 ms.keywords: IKEEXT_EM_POLICY2, IKEEXT_EM_POLICY2 structure [Filtering], fwp.ikeext_em_policy2, iketypes/IKEEXT_EM_POLICY2
 ms.topic: struct
-f1_keywords: 
- - "iketypes/IKEEXT_EM_POLICY2"
+f1_keywords:
+- iketypes/IKEEXT_EM_POLICY2
 dev_langs:
- - c++
+- c++
 req.header: iketypes.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - iketypes.h
+- iketypes.h
 api_name:
- - IKEEXT_EM_POLICY2
+- IKEEXT_EM_POLICY2
 targetos: Windows
 req.typenames: IKEEXT_EM_POLICY2
 req.redist: 

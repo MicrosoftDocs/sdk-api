@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d12.ID3D12Device.CreateDescriptorHeap
 title: ID3D12Device::CreateDescriptorHeap (d3d12.h)
-
 description: Creates a descriptor heap object.
 old-location: direct3d12\id3d12device_createdescriptorheap.htm
 tech.root: direct3d12
 ms.assetid: 69EE75CB-7B3D-403D-9798-279A47754ADC
-
 ms.date: 12/05/2018
 ms.keywords: CreateDescriptorHeap, CreateDescriptorHeap method, CreateDescriptorHeap method,ID3D12Device interface, ID3D12Device interface,CreateDescriptorHeap method, ID3D12Device.CreateDescriptorHeap, ID3D12Device::CreateDescriptorHeap, d3d12/ID3D12Device::CreateDescriptorHeap, direct3d12.id3d12device_createdescriptorheap
 ms.topic: method
-f1_keywords: 
- - "d3d12/ID3D12Device.CreateDescriptorHeap"
+f1_keywords:
+- d3d12/ID3D12Device.CreateDescriptorHeap
 dev_langs:
- - c++
+- c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: D3D12.lib
 req.dll: D3D12.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D12.dll
+- D3D12.dll
 api_name:
- - ID3D12Device.CreateDescriptorHeap
+- ID3D12Device.CreateDescriptorHeap
 targetos: Windows
 req.typenames: 
 req.redist: 

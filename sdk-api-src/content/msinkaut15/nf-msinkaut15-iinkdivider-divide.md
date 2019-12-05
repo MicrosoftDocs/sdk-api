@@ -1,19 +1,17 @@
 ---
 UID: NF:msinkaut15.IInkDivider.Divide
 title: IInkDivider::Divide (msinkaut15.h)
-
 description: Returns a IInkDivisionResult object that contains the results of the layout analysis of strokes in the InkDivider object.
 old-location: tablet\inkdivider_divide.htm
 tech.root: tablet
 ms.assetid: be42ac65-2bde-4439-a82b-3453c0737717
-
 ms.date: 12/05/2018
 ms.keywords: Divide, Divide method [Tablet PC], Divide method [Tablet PC],IInkDivider interface, IInkDivider, IInkDivider interface [Tablet PC],Divide method, IInkDivider.Divide, IInkDivider::Divide, be42ac65-2bde-4439-a82b-3453c0737717, msinkaut15/IInkDivider::Divide, tablet.inkdivider_divide
 ms.topic: method
-f1_keywords: 
- - "msinkaut15/IInkDivider.Divide"
+f1_keywords:
+- msinkaut15/IInkDivider.Divide
 dev_langs:
- - c++
+- c++
 req.header: msinkaut15.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Inkdiv.dll
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Inkdiv.dll
- - Inkdiv.dll.dll
+- Inkdiv.dll
+- Inkdiv.dll.dll
 api_name:
- - IInkDivider.Divide
+- IInkDivider.Divide
 targetos: Windows
 req.typenames: 
 req.redist: 

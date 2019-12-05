@@ -1,19 +1,17 @@
 ---
 UID: NS:d2d1effectauthor.D2D1_BLEND_DESCRIPTION
 title: D2D1_BLEND_DESCRIPTION (d2d1effectauthor.h)
-
 description: Defines a blend description to be used in a particular blend transform.
 old-location: direct2d\d2d1_blend_description.htm
 tech.root: Direct2D
 ms.assetid: 5f4c7248-9303-4451-92f1-4b230efd627a
-
 ms.date: 12/05/2018
 ms.keywords: D2D1_BLEND_DESCRIPTION, D2D1_BLEND_DESCRIPTION structure [Direct2D], d2d1effectauthor/D2D1_BLEND_DESCRIPTION, direct2d.d2d1_blend_description
 ms.topic: struct
-f1_keywords: 
- - "d2d1effectauthor/D2D1_BLEND_DESCRIPTION"
+f1_keywords:
+- d2d1effectauthor/D2D1_BLEND_DESCRIPTION
 dev_langs:
- - c++
+- c++
 req.header: d2d1effectauthor.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - LibDef
+- LibDef
 api_location:
- - D2d1.lib
- - D2d1.dll
+- D2d1.lib
+- D2d1.dll
 api_name:
- - D2D1_BLEND_DESCRIPTION
+- D2D1_BLEND_DESCRIPTION
 targetos: Windows
 req.typenames: D2D1_BLEND_DESCRIPTION
 req.redist: 

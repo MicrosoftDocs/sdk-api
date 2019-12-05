@@ -1,19 +1,17 @@
 ---
 UID: NF:objidl.IStorage.EnumElements
 title: IStorage::EnumElements (objidl.h)
-
 description: The EnumElements method retrieves a pointer to an enumerator object that can be used to enumerate the storage and stream objects contained within this storage object.
 old-location: stg\istorage_enumelements.htm
 tech.root: Stg
 ms.assetid: 29ca157e-40e2-4e9a-95fb-a31bb45570f2
-
 ms.date: 12/05/2018
 ms.keywords: EnumElements, EnumElements method [Structured Storage], EnumElements method [Structured Storage],IStorage interface, IStorage interface [Structured Storage],EnumElements method, IStorage.EnumElements, IStorage::EnumElements, _stg_istorage_enumelements, objidl/IStorage::EnumElements, stg.istorage_enumelements
 ms.topic: method
-f1_keywords: 
- - "objidl/IStorage.EnumElements"
+f1_keywords:
+- objidl/IStorage.EnumElements
 dev_langs:
- - c++
+- c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Ole32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Ole32.dll
+- Ole32.dll
 api_name:
- - IStorage.EnumElements
+- IStorage.EnumElements
 targetos: Windows
 req.typenames: 
 req.redist: 

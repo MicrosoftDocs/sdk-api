@@ -1,19 +1,17 @@
 ---
 UID: NS:iscsidsc.__unnamed_struct_13
 title: ISCSI_TARGET_PORTAL_GROUPA (iscsidsc.h)
-
 description: ISCSI_TARGET_PORTAL_GROUP.
 old-location: iscsidisc\iscsi_target_portal_group.htm
 tech.root: iSCSIDisc
 ms.assetid: 8b7e874b-5d2b-4948-98f2-1bcd6d4f8ca6
-
 ms.date: 12/05/2018
-ms.keywords: "*PISCSI_TARGET_PORTAL_GROUPA, ISCSI_TARGET_PORTAL_GROUP, ISCSI_TARGET_PORTAL_GROUP structure [iSCSI Discovery Library API], ISCSI_TARGET_PORTAL_GROUPA, ISCSI_TARGET_PORTAL_GROUPW, PISCSI_TARGET_PORTAL_GROUP, PISCSI_TARGET_PORTAL_GROUP structure pointer [iSCSI Discovery Library API], iscsidisc.iscsi_target_portal_group, iscsidsc/ISCSI_TARGET_PORTAL_GROUP, iscsidsc/ISCSI_TARGET_PORTAL_GROUPA, iscsidsc/ISCSI_TARGET_PORTAL_GROUPW, iscsidsc/PISCSI_TARGET_PORTAL_GROUP"
+ms.keywords: '*PISCSI_TARGET_PORTAL_GROUPA, ISCSI_TARGET_PORTAL_GROUP, ISCSI_TARGET_PORTAL_GROUP structure [iSCSI Discovery Library API], ISCSI_TARGET_PORTAL_GROUPA, ISCSI_TARGET_PORTAL_GROUPW, PISCSI_TARGET_PORTAL_GROUP, PISCSI_TARGET_PORTAL_GROUP structure pointer [iSCSI Discovery Library API], iscsidisc.iscsi_target_portal_group, iscsidsc/ISCSI_TARGET_PORTAL_GROUP, iscsidsc/ISCSI_TARGET_PORTAL_GROUPA, iscsidsc/ISCSI_TARGET_PORTAL_GROUPW, iscsidsc/PISCSI_TARGET_PORTAL_GROUP'
 ms.topic: struct
-f1_keywords: 
- - "iscsidsc/ISCSI_TARGET_PORTAL_GROUP"
+f1_keywords:
+- iscsidsc/ISCSI_TARGET_PORTAL_GROUP
 dev_langs:
- - c++
+- c++
 req.header: iscsidsc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Iscsidsc.h
+- Iscsidsc.h
 api_name:
- - ISCSI_TARGET_PORTAL_GROUP
- - ISCSI_TARGET_PORTAL_GROUPA
- - ISCSI_TARGET_PORTAL_GROUPW
+- ISCSI_TARGET_PORTAL_GROUP
+- ISCSI_TARGET_PORTAL_GROUPA
+- ISCSI_TARGET_PORTAL_GROUPW
 targetos: Windows
 req.typenames: ISCSI_TARGET_PORTAL_GROUPA, *PISCSI_TARGET_PORTAL_GROUPA
 req.redist: 

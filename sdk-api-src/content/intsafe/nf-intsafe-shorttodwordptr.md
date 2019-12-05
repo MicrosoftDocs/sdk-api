@@ -1,19 +1,17 @@
 ---
 UID: NF:intsafe.ShortToDWordPtr
 title: ShortToDWordPtr function (intsafe.h)
-
 description: Converts a value of type SHORT to a value of type DWORD_PTR.
 old-location: shell\ShortToDWordPtr.htm
 tech.root: shell
 ms.assetid: e5d0bb74-adde-48c7-b2df-1ba86d528db1
-
 ms.date: 12/05/2018
 ms.keywords: ShortToDWordPtr, ShortToDWordPtr function [Windows Shell], intsafe/ShortToDWordPtr, shell.ShortToDWordPtr
 ms.topic: function
-f1_keywords: 
- - "intsafe/ShortToDWordPtr"
+f1_keywords:
+- intsafe/ShortToDWordPtr
 dev_langs:
- - c++
+- c++
 req.header: intsafe.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - intsafe.h
+- intsafe.h
 api_name:
- - ShortToDWordPtr
+- ShortToDWordPtr
 targetos: Windows
 req.typenames: 
 req.redist: 

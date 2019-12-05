@@ -1,19 +1,17 @@
 ---
 UID: NS:wintrust._CRYPT_PROVIDER_SIGSTATE
 title: CRYPT_PROVIDER_SIGSTATE (wintrust.h)
-
 description: Is used to communicate between policy providers and Wintrust.
 old-location: security\crypt_provider_sigstate.htm
 tech.root: SecCrypto
 ms.assetid: B362A161-6B92-41B0-AE81-337EB42502D8
-
 ms.date: 12/05/2018
-ms.keywords: "*PCRYPT_PROVIDER_SIGSTATE, CRYPT_PROVIDER_SIGSTATE, CRYPT_PROVIDER_SIGSTATE structure [Security], PCRYPT_PROVIDER_SIGSTATE, PCRYPT_PROVIDER_SIGSTATE structure pointer [Security], security.crypt_provider_sigstate, wintrust/CRYPT_PROVIDER_SIGSTATE, wintrust/PCRYPT_PROVIDER_SIGSTATE"
+ms.keywords: '*PCRYPT_PROVIDER_SIGSTATE, CRYPT_PROVIDER_SIGSTATE, CRYPT_PROVIDER_SIGSTATE structure [Security], PCRYPT_PROVIDER_SIGSTATE, PCRYPT_PROVIDER_SIGSTATE structure pointer [Security], security.crypt_provider_sigstate, wintrust/CRYPT_PROVIDER_SIGSTATE, wintrust/PCRYPT_PROVIDER_SIGSTATE'
 ms.topic: struct
-f1_keywords: 
- - "wintrust/CRYPT_PROVIDER_SIGSTATE"
+f1_keywords:
+- wintrust/CRYPT_PROVIDER_SIGSTATE
 dev_langs:
- - c++
+- c++
 req.header: wintrust.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wintrust.h
+- Wintrust.h
 api_name:
- - CRYPT_PROVIDER_SIGSTATE
+- CRYPT_PROVIDER_SIGSTATE
 targetos: Windows
 req.typenames: CRYPT_PROVIDER_SIGSTATE, *PCRYPT_PROVIDER_SIGSTATE
 req.redist: 

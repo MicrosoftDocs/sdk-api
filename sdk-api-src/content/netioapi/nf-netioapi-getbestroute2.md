@@ -1,19 +1,17 @@
 ---
 UID: NF:netioapi.GetBestRoute2
 title: GetBestRoute2 function (netioapi.h)
-
 description: Retrieves the IP route entry on the local computer for the best route to the specified destination IP address.
 old-location: iphlp\getbestroute2.htm
 tech.root: IpHlp
 ms.assetid: 7bc16824-c98f-4cd5-a589-e198b48b637c
-
 ms.date: 12/05/2018
 ms.keywords: GetBestRoute2, GetBestRoute2 function [IP Helper], iphlp.getbestroute2, netioapi/GetBestRoute2
 ms.topic: function
-f1_keywords: 
- - "netioapi/GetBestRoute2"
+f1_keywords:
+- netioapi/GetBestRoute2
 dev_langs:
- - c++
+- c++
 req.header: netioapi.h
 req.include-header: Iphlpapi.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Iphlpapi.lib
 req.dll: Iphlpapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Iphlpapi.dll
+- Iphlpapi.dll
 api_name:
- - GetBestRoute2
+- GetBestRoute2
 targetos: Windows
 req.typenames: 
 req.redist: 

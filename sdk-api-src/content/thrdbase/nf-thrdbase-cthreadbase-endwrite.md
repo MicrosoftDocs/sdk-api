@@ -1,19 +1,17 @@
 ---
 UID: NF:thrdbase.CThreadBase.EndWrite
 title: CThreadBase::EndWrite (thrdbase.h)
-
 description: The EndWrite method provides thread safety by indicating the end of a data write operation when the provider is built on the WMI Provider Framework. CThreadBase is called internally.
 old-location: wmi\cthreadbase_endwrite.htm
 tech.root: WmiSdk
 ms.assetid: 8b57bcc0-f8ca-412a-87d9-9afeb5ac8446
-
 ms.date: 12/05/2018
-ms.keywords: "?Empty@CHString@@QEAAXXZ, CThreadBase interface [Windows Management Instrumentation],EndWrite method, CThreadBase.EndWrite, CThreadBase::EndWrite, EndWrite, EndWrite method [Windows Management Instrumentation], EndWrite method [Windows Management Instrumentation],CThreadBase interface, thrdbase/CThreadBase::EndWrite, wmi.cthreadbase_endwrite"
+ms.keywords: ?Empty@CHString@@QEAAXXZ, CThreadBase interface [Windows Management Instrumentation],EndWrite method, CThreadBase.EndWrite, CThreadBase::EndWrite, EndWrite, EndWrite method [Windows Management Instrumentation], EndWrite method [Windows Management Instrumentation],CThreadBase interface, thrdbase/CThreadBase::EndWrite, wmi.cthreadbase_endwrite
 ms.topic: method
-f1_keywords: 
- - "thrdbase/CThreadBase.EndWrite"
+f1_keywords:
+- thrdbase/CThreadBase.EndWrite
 dev_langs:
- - c++
+- c++
 req.header: thrdbase.h
 req.include-header: FwCommon.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: FrameDyn.lib
 req.dll: FrameDynOS.dll; FrameDyn.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - FrameDynOS.dll
- - FrameDyn.dll
+- FrameDynOS.dll
+- FrameDyn.dll
 api_name:
- - CThreadBase.EndWrite
- - ?Empty@CHString@@QEAAXXZ
+- CThreadBase.EndWrite
+- ?Empty@CHString@@QEAAXXZ
 targetos: Windows
 req.typenames: 
 req.redist: 

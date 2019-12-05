@@ -1,19 +1,17 @@
 ---
 UID: NF:dcomp.IDCompositionVisual.SetEffect
 title: IDCompositionVisual::SetEffect (dcomp.h)
-
 description: Sets the Effect property of this visual.
 old-location: directcomp\idcompositionvisual_seteffect.htm
 tech.root: directcomp
 ms.assetid: CCA785F6-869C-460A-AF54-573BDE798685
-
 ms.date: 12/05/2018
 ms.keywords: IDCompositionVisual interface [DirectComposition],SetEffect method, IDCompositionVisual.SetEffect, IDCompositionVisual::SetEffect, SetEffect, SetEffect method [DirectComposition], SetEffect method [DirectComposition],IDCompositionVisual interface, dcomp/IDCompositionVisual::SetEffect, directcomp.idcompositionvisual_seteffect
 ms.topic: method
-f1_keywords: 
- - "dcomp/IDCompositionVisual.SetEffect"
+f1_keywords:
+- dcomp/IDCompositionVisual.SetEffect
 dev_langs:
- - c++
+- c++
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dcomp.lib
 req.dll: Dcomp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dcomp.dll
+- Dcomp.dll
 api_name:
- - IDCompositionVisual.SetEffect
+- IDCompositionVisual.SetEffect
 targetos: Windows
 req.typenames: 
 req.redist: 

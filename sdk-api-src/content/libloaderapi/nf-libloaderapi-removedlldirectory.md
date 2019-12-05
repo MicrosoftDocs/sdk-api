@@ -1,19 +1,17 @@
 ---
 UID: NF:libloaderapi.RemoveDllDirectory
 title: RemoveDllDirectory function (libloaderapi.h)
-
 description: Removes a directory that was added to the process DLL search path by using AddDllDirectory.
 old-location: base\removedlldirectory.htm
 tech.root: Dlls
 ms.assetid: 89ab63be-f0db-4f0f-9792-6976d867524e
-
 ms.date: 12/05/2018
 ms.keywords: RemoveDllDirectory, RemoveDllDirectory function, base.removedlldirectory, libloaderapi/RemoveDllDirectory
 ms.topic: function
-f1_keywords: 
- - "libloaderapi/RemoveDllDirectory"
+f1_keywords:
+- libloaderapi/RemoveDllDirectory
 dev_langs:
- - c++
+- c++
 req.header: libloaderapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,21 +30,21 @@ req.lib:
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-LibraryLoader-l1-1-0.dll
- - KernelBase.dll
- - API-MS-Win-Core-LibraryLoader-l1-1-1.dll
- - API-MS-Win-Core-LibraryLoader-l1-2-0.dll
- - MinKernelBase.dll
- - API-MS-Win-Core-Libraryloader-l1-2-1.dll
- - API-MS-Win-Core-LibraryLoader-L1-2-2.dll
+- Kernel32.dll
+- API-MS-Win-Core-LibraryLoader-l1-1-0.dll
+- KernelBase.dll
+- API-MS-Win-Core-LibraryLoader-l1-1-1.dll
+- API-MS-Win-Core-LibraryLoader-l1-2-0.dll
+- MinKernelBase.dll
+- API-MS-Win-Core-Libraryloader-l1-2-1.dll
+- API-MS-Win-Core-LibraryLoader-L1-2-2.dll
 api_name:
- - RemoveDllDirectory
+- RemoveDllDirectory
 targetos: Windows
 req.typenames: 
 req.redist: 

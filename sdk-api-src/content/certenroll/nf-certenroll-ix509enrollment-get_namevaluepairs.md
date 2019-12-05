@@ -1,19 +1,17 @@
 ---
 UID: NF:certenroll.IX509Enrollment.get_NameValuePairs
 title: IX509Enrollment::get_NameValuePairs (certenroll.h)
-
 description: Retrieves a collection of name-value pairs associated with the enrollment object.
 old-location: security\ix509enrollment_namevaluepairs_property.htm
 tech.root: seccertenroll
 ms.assetid: d682fb7c-de80-4285-baa2-f86c997f0987
-
 ms.date: 12/05/2018
 ms.keywords: IX509Enrollment interface [Security],NameValuePairs property, IX509Enrollment.NameValuePairs, IX509Enrollment.get_NameValuePairs, IX509Enrollment::NameValuePairs, IX509Enrollment::get_NameValuePairs, NameValuePairs property [Security], NameValuePairs property [Security],IX509Enrollment interface, certenroll/IX509Enrollment::NameValuePairs, certenroll/IX509Enrollment::get_NameValuePairs, get_NameValuePairs, security.ix509enrollment_namevaluepairs_property
 ms.topic: method
-f1_keywords: 
- - "certenroll/IX509Enrollment.NameValuePairs"
+f1_keywords:
+- certenroll/IX509Enrollment.NameValuePairs
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: CertEnroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CertEnroll.dll
+- CertEnroll.dll
 api_name:
- - IX509Enrollment.NameValuePairs
- - IX509Enrollment.get_NameValuePairs
+- IX509Enrollment.NameValuePairs
+- IX509Enrollment.get_NameValuePairs
 targetos: Windows
 req.typenames: 
 req.redist: 

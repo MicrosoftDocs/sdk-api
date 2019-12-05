@@ -1,19 +1,17 @@
 ---
 UID: NF:gdipluspath.PathGradientBrush.SetBlendBellShape
 title: PathGradientBrush::SetBlendBellShape (gdipluspath.h)
-
 description: The PathGradientBrush::SetBlendBellShape method sets the blend shape of this path gradient brush.
 old-location: gdiplus\_gdiplus_CLASS_PathGradientBrush_SetBlendBellShape_focus_scale_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\pathgradientbrushclass\pathgradientbrushmethods\setblendbellshape_37focus_scale.htm
-
 ms.date: 12/05/2018
 ms.keywords: PathGradientBrush class [GDI+],SetBlendBellShape method, PathGradientBrush.SetBlendBellShape, PathGradientBrush::SetBlendBellShape, SetBlendBellShape, SetBlendBellShape method [GDI+], SetBlendBellShape method [GDI+],PathGradientBrush class, _gdiplus_CLASS_PathGradientBrush_SetBlendBellShape_focus_scale_, gdiplus._gdiplus_CLASS_PathGradientBrush_SetBlendBellShape_focus_scale_
 ms.topic: method
-f1_keywords: 
- - "gdipluspath/PathGradientBrush.SetBlendBellShape"
+f1_keywords:
+- gdipluspath/PathGradientBrush.SetBlendBellShape
 dev_langs:
- - c++
+- c++
 req.header: gdipluspath.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - PathGradientBrush.SetBlendBellShape
+- PathGradientBrush.SetBlendBellShape
 targetos: Windows
 req.typenames: 
 req.redist: 

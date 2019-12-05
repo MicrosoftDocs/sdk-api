@@ -1,19 +1,17 @@
 ---
 UID: NS:lmaccess._NET_VALIDATE_PASSWORD_CHANGE_INPUT_ARG
 title: NET_VALIDATE_PASSWORD_CHANGE_INPUT_ARG (lmaccess.h)
-
 description: A client application passes the NET_VALIDATE_PASSWORD_CHANGE_INPUT_ARG structure to the NetValidatePasswordPolicy function when the application requests a password change validation.
 old-location: netmgmt\net_validate_password_change_input_arg.htm
 tech.root: NetMgmt
 ms.assetid: 09404998-81c5-400c-9d99-a0a4bb4095bf
-
 ms.date: 12/05/2018
 ms.keywords: '*PNET_VALIDATE_PASSWORD_CHANGE_INPUT_ARG, NET_VALIDATE_PASSWORD_CHANGE_INPUT_ARG, NET_VALIDATE_PASSWORD_CHANGE_INPUT_ARG structure [Network Management], PNET_VALIDATE_PASSWORD_CHANGE_INPUT_ARG, PNET_VALIDATE_PASSWORD_CHANGE_INPUT_ARG structure pointer [Network Management], lmaccess/NET_VALIDATE_PASSWORD_CHANGE_INPUT_ARG, lmaccess/PNET_VALIDATE_PASSWORD_CHANGE_INPUT_ARG, netmgmt.net_validate_password_change_input_arg'
 ms.topic: struct
 f1_keywords:
 - lmaccess/NET_VALIDATE_PASSWORD_CHANGE_INPUT_ARG
 dev_langs:
- - c++
+- c++
 req.header: lmaccess.h
 req.include-header: Lm.h
 req.target-type: Windows

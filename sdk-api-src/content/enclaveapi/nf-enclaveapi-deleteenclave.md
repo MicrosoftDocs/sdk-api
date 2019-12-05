@@ -1,19 +1,17 @@
 ---
 UID: NF:enclaveapi.DeleteEnclave
 title: DeleteEnclave function (enclaveapi.h)
-
 description: Deletes the specified enclave.
 old-location: base\deleteenclave.htm
 tech.root: Memory
 ms.assetid: 04FCD129-3A3B-40EA-AD62-01C674CF2E61
-
 ms.date: 12/05/2018
 ms.keywords: DeleteEnclave, DeleteEnclave function, base.deleteenclave, enclaveapi/DeleteEnclave
 ms.topic: function
-f1_keywords: 
- - "enclaveapi/DeleteEnclave"
+f1_keywords:
+- enclaveapi/DeleteEnclave
 dev_langs:
- - c++
+- c++
 req.header: enclaveapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Vertdll.lib
 req.dll: Vertdll.dll; Api-ms-win-core-enclave-l1-1-0.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Vertdll.dll
- - api-ms-win-core-enclave-l1-1-0.dll
+- Vertdll.dll
+- api-ms-win-core-enclave-l1-1-0.dll
 api_name:
- - DeleteEnclave
+- DeleteEnclave
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NN:faxcomex.IFaxAccountFolders
 title: IFaxAccountFolders (faxcomex.h)
-
 description: Provides access to the incoming and outgoing fax queues and fax archives.
 old-location: fax\_mfax_faxaccountfolders_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\reference\serviceextendedcom\i\ifaxaccountfolders\faxint_ifaxaccountfolders.htm
-
 ms.date: 12/05/2018
 ms.keywords: IFaxAccountFolders, IFaxAccountFolders interface [Fax Service], IFaxAccountFolders interface [Fax Service],described, _mfax_faxaccountfolders_cpp, fax._mfax_faxaccountfolders_cpp, faxcomex/IFaxAccountFolders
 ms.topic: interface
-f1_keywords: 
- - "faxcomex/IFaxAccountFolders"
+f1_keywords:
+- faxcomex/IFaxAccountFolders
 dev_langs:
- - c++
+- c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Fxscomex.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Fxscomex.dll
+- Fxscomex.dll
 api_name:
- - IFaxAccountFolders
+- IFaxAccountFolders
 targetos: Windows
 req.typenames: 
 req.redist: 

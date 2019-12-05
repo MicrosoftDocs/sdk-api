@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationcore.IScrollProvider.get_VerticalScrollPercent
 title: IScrollProvider::get_VerticalScrollPercent (uiautomationcore.h)
-
 description: Specifies the vertical scroll position.
 old-location: winauto\uiauto_IScrollProvider_VerticalScrollPercent.htm
 tech.root: WinAuto
 ms.assetid: 1bc153bf-1d8f-4ca6-88e0-882e063fe6a0
-
 ms.date: 12/05/2018
 ms.keywords: IScrollProvider interface [Windows Accessibility],VerticalScrollPercent property, IScrollProvider.VerticalScrollPercent, IScrollProvider.get_VerticalScrollPercent, IScrollProvider::VerticalScrollPercent, IScrollProvider::get_VerticalScrollPercent, VerticalScrollPercent property [Windows Accessibility], VerticalScrollPercent property [Windows Accessibility],IScrollProvider interface, get_VerticalScrollPercent, uiauto.uiauto_IScrollProvider_VerticalScrollPercent, uiauto_IScrollProvider_VerticalScrollPercent, uiautomationcore/IScrollProvider::VerticalScrollPercent, uiautomationcore/IScrollProvider::get_VerticalScrollPercent, winauto.uiauto_IScrollProvider_VerticalScrollPercent
 ms.topic: method
-f1_keywords: 
- - "uiautomationcore/IScrollProvider.VerticalScrollPercent"
+f1_keywords:
+- uiautomationcore/IScrollProvider.VerticalScrollPercent
 dev_langs:
- - c++
+- c++
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationCore.h
+- UIAutomationCore.h
 api_name:
- - IScrollProvider.VerticalScrollPercent
- - IScrollProvider.get_VerticalScrollPercent
+- IScrollProvider.VerticalScrollPercent
+- IScrollProvider.get_VerticalScrollPercent
 targetos: Windows
 req.typenames: 
 req.redist: 

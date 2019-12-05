@@ -1,19 +1,17 @@
 ---
 UID: NF:msctf.ITfThreadMgrEventSink.OnUninitDocumentMgr
 title: ITfThreadMgrEventSink::OnUninitDocumentMgr (msctf.h)
-
 description: ITfThreadMgrEventSink::OnUninitDocumentMgr method
 old-location: tsf\itfthreadmgreventsink_onuninitdocumentmgr.htm
 tech.root: TSF
 ms.assetid: da4532e4-aa00-41af-8dfc-1880dc5b3b22
-
 ms.date: 12/05/2018
 ms.keywords: ITfThreadMgrEventSink interface [Text Services Framework],OnUninitDocumentMgr method, ITfThreadMgrEventSink.OnUninitDocumentMgr, ITfThreadMgrEventSink::OnUninitDocumentMgr, OnUninitDocumentMgr, OnUninitDocumentMgr method [Text Services Framework], OnUninitDocumentMgr method [Text Services Framework],ITfThreadMgrEventSink interface, _tsf_itfthreadmgreventsink_onuninitdocumentmgr_ref, msctf/ITfThreadMgrEventSink::OnUninitDocumentMgr, tsf.itfthreadmgreventsink_onuninitdocumentmgr
 ms.topic: method
-f1_keywords: 
- - "msctf/ITfThreadMgrEventSink.OnUninitDocumentMgr"
+f1_keywords:
+- msctf/ITfThreadMgrEventSink.OnUninitDocumentMgr
 dev_langs:
- - c++
+- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msctf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msctf.dll
+- Msctf.dll
 api_name:
- - ITfThreadMgrEventSink.OnUninitDocumentMgr
+- ITfThreadMgrEventSink.OnUninitDocumentMgr
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

@@ -1,19 +1,17 @@
 ---
 UID: NF:mbnapi.IMbnRadioEvents.OnRadioStateChange
 title: IMbnRadioEvents::OnRadioStateChange (mbnapi.h)
-
 description: A notification signaling that the radio state of the device has changed.
 old-location: mbn\imbnradioevents_onradiostatechange.htm
 tech.root: mbn
 ms.assetid: ae7bf0d0-333b-429d-9dd1-9580745aad35
-
 ms.date: 12/05/2018
 ms.keywords: IMbnRadioEvents interface [Microsoft Broadband Networks],OnRadioStateChange method, IMbnRadioEvents.OnRadioStateChange, IMbnRadioEvents::OnRadioStateChange, OnRadioStateChange, OnRadioStateChange method [Microsoft Broadband Networks], OnRadioStateChange method [Microsoft Broadband Networks],IMbnRadioEvents interface, mbn.imbnradioevents_onradiostatechange, mbnapi/IMbnRadioEvents::OnRadioStateChange
 ms.topic: method
-f1_keywords: 
- - "mbnapi/IMbnRadioEvents.OnRadioStateChange"
+f1_keywords:
+- mbnapi/IMbnRadioEvents.OnRadioStateChange
 dev_langs:
- - c++
+- c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mbnapi.h
+- mbnapi.h
 api_name:
- - IMbnRadioEvents.OnRadioStateChange
+- IMbnRadioEvents.OnRadioStateChange
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:wmsdkidl.IWMLanguageList.GetLanguageCount
 title: IWMLanguageList::GetLanguageCount (wmsdkidl.h)
-
 description: The GetLanguageCount method retrieves the total number of supported languages in the language list.
 old-location: wmformat\iwmlanguagelist_getlanguagecount.htm
 tech.root: wmformat
 ms.assetid: 81c2edae-a793-421b-9aa2-39e280c43aeb
-
 ms.date: 12/05/2018
 ms.keywords: GetLanguageCount, GetLanguageCount method [windows Media Format], GetLanguageCount method [windows Media Format],IWMLanguageList interface, IWMLanguageList interface [windows Media Format],GetLanguageCount method, IWMLanguageList.GetLanguageCount, IWMLanguageList::GetLanguageCount, IWMLanguageListGetLanguageCount, wmformat.iwmlanguagelist_getlanguagecount, wmsdkidl/IWMLanguageList::GetLanguageCount
 ms.topic: method
-f1_keywords: 
- - "wmsdkidl/IWMLanguageList.GetLanguageCount"
+f1_keywords:
+- wmsdkidl/IWMLanguageList.GetLanguageCount
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wmvcore.lib
- - Wmvcore.dll
- - WMStubDRM.lib
- - WMStubDRM.dll
+- Wmvcore.lib
+- Wmvcore.dll
+- WMStubDRM.lib
+- WMStubDRM.dll
 api_name:
- - IWMLanguageList.GetLanguageCount
+- IWMLanguageList.GetLanguageCount
 targetos: Windows
 req.typenames: 
 req.redist: 

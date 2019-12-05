@@ -1,19 +1,17 @@
 ---
 UID: NF:faxcomex.IFaxOutboundRoutingGroup.get_DeviceIds
 title: IFaxOutboundRoutingGroup::get_DeviceIds (faxcomex.h)
-
 description: The DeviceIds property retrieves an interface that represents the ordered collection of device IDs that participate in the outbound routing group.
 old-location: fax\_mfax_faxoutboundroutinggroup_deviceids_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_4var_cpp.htm
-
 ms.date: 12/05/2018
 ms.keywords: DeviceIds property [Fax Service], DeviceIds property [Fax Service],IFaxOutboundRoutingGroup interface, IFaxOutboundRoutingGroup interface [Fax Service],DeviceIds property, IFaxOutboundRoutingGroup.DeviceIds, IFaxOutboundRoutingGroup.get_DeviceIds, IFaxOutboundRoutingGroup::DeviceIds, IFaxOutboundRoutingGroup::get_DeviceIds, _mfax_faxoutboundroutinggroup.deviceids_cpp, fax._mfax_faxoutboundroutinggroup_deviceids_cpp, faxcomex/IFaxOutboundRoutingGroup::DeviceIds, faxcomex/IFaxOutboundRoutingGroup::get_DeviceIds, get_DeviceIds
 ms.topic: method
-f1_keywords: 
- - "faxcomex/IFaxOutboundRoutingGroup.DeviceIds"
+f1_keywords:
+- faxcomex/IFaxOutboundRoutingGroup.DeviceIds
 dev_langs:
- - c++
+- c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: Fxscomex.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Fxscomex.dll
+- Fxscomex.dll
 api_name:
- - IFaxOutboundRoutingGroup.DeviceIds
- - IFaxOutboundRoutingGroup.get_DeviceIds
+- IFaxOutboundRoutingGroup.DeviceIds
+- IFaxOutboundRoutingGroup.get_DeviceIds
 targetos: Windows
 req.typenames: 
 req.redist: 

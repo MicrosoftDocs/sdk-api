@@ -1,19 +1,17 @@
 ---
 UID: NF:winerror.HRESULT_FROM_NT
 title: HRESULT_FROM_NT macro (winerror.h)
-
 description: Maps an NT status value to an HRESULT value.
 old-location: com\hresult_from_nt_macro.htm
 tech.root: com
 ms.assetid: e8bf07b8-6bc4-4a6a-b982-03b6436ca6b0
-
 ms.date: 12/05/2018
 ms.keywords: HRESULT_FROM_NT, HRESULT_FROM_NT macro [COM], _com_HRESULT_FROM_NT, com.hresult_from_nt, com.hresult_from_nt_macro, winerror/HRESULT_FROM_NT
 ms.topic: macro
-f1_keywords: 
- - "winerror/HRESULT_FROM_NT"
+f1_keywords:
+- winerror/HRESULT_FROM_NT
 dev_langs:
- - c++
+- c++
 req.header: winerror.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Winerror.h
+- Winerror.h
 api_name:
- - HRESULT_FROM_NT
+- HRESULT_FROM_NT
 targetos: Windows
 req.typenames: 
 req.redist: 

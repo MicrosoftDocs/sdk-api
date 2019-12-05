@@ -1,19 +1,17 @@
 ---
 UID: NN:shobjidl.ICDBurn
 title: ICDBurn (shobjidl.h)
-
 description: Exposes methods that determine whether a system has hardware for writing to CD, the drive letter of a CD writer device, and programmatically initiate a CD writing session.
 old-location: shell\ICDBurn.htm
 tech.root: shell
 ms.assetid: 8867ae52-2109-4967-b9b9-a4fe89cf4622
-
 ms.date: 12/05/2018
 ms.keywords: ICDBurn, ICDBurn interface [Windows Shell], ICDBurn interface [Windows Shell],described, _shell_ICDBurn, shell.ICDBurn, shobjidl/ICDBurn
 ms.topic: interface
-f1_keywords: 
- - "shobjidl/ICDBurn"
+f1_keywords:
+- shobjidl/ICDBurn
 dev_langs:
- - c++
+- c++
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Shell32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - ICDBurn
+- ICDBurn
 targetos: Windows
 req.typenames: 
 req.redist: 

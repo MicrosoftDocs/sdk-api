@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi3if.ITAddressTranslation.EnumerateCallingCards
 title: ITAddressTranslation::EnumerateCallingCards (tapi3if.h)
-
 description: The EnumerateCallingCards method enumerates calling cards associated with the address. This method is provided for C and C++ applications. Automation client applications, such as those written in Visual Basic, must use the get_CallingCards method.
 old-location: tapi3\itaddresstranslation_enumeratecallingcards.htm
 tech.root: Tapi
 ms.assetid: 93f3cea1-70da-41f0-a8d5-692468a21695
-
 ms.date: 12/05/2018
 ms.keywords: EnumerateCallingCards, EnumerateCallingCards method [TAPI 2.2], EnumerateCallingCards method [TAPI 2.2],ITAddressTranslation interface, ITAddressTranslation interface [TAPI 2.2],EnumerateCallingCards method, ITAddressTranslation.EnumerateCallingCards, ITAddressTranslation::EnumerateCallingCards, _tapi3_itaddresstranslation_enumeratecallingcards, tapi3.itaddresstranslation_enumeratecallingcards, tapi3if/ITAddressTranslation::EnumerateCallingCards
 ms.topic: method
-f1_keywords: 
- - "tapi3if/ITAddressTranslation.EnumerateCallingCards"
+f1_keywords:
+- tapi3if/ITAddressTranslation.EnumerateCallingCards
 dev_langs:
- - c++
+- c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Tapi3.dll
+- Tapi3.dll
 api_name:
- - ITAddressTranslation.EnumerateCallingCards
+- ITAddressTranslation.EnumerateCallingCards
 targetos: Windows
 req.typenames: 
 req.redist: 

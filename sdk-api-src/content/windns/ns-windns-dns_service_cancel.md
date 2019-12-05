@@ -5,10 +5,10 @@ description: Used to cancel an asynchronous DNS-SD operation.
 ms.date: 02/19/2019
 ms.keywords: _DNS_SERVICE_CANCEL, DNS_SERVICE_CANCEL
 ms.topic: language-reference
-f1_keywords: 
- - "windns/_DNS_SERVICE_CANCEL"
+f1_keywords:
+- windns/_DNS_SERVICE_CANCEL
 dev_langs:
- - c++
+- c++
 targetos: Windows
 req.assembly: 
 req.construct-type: structure
@@ -31,14 +31,14 @@ req.typenames: DNS_SERVICE_CANCEL, *PDNS_SERVICE_CANCEL
 req.umdf-ver: 
 req.unicode-ansi: 
 topic_type:
- - apiref
+- apiref
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - windns.h
+- windns.h
 api_name:
- - _DNS_SERVICE_CANCEL
- - DNS_SERVICE_CANCEL
+- _DNS_SERVICE_CANCEL
+- DNS_SERVICE_CANCEL
 ms.custom: 19H1
 ---
 

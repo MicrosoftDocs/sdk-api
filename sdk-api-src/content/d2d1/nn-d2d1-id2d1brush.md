@@ -1,19 +1,17 @@
 ---
 UID: NN:d2d1.ID2D1Brush
 title: ID2D1Brush (d2d1.h)
-
 description: Defines an object that paints an area. Interfaces that derive from ID2D1Brush describe how the area is painted.
 old-location: direct2d\ID2D1Brush.htm
 tech.root: Direct2D
 ms.assetid: 5b8f6ff8-ba52-4d30-9bea-3de89793c868
-
 ms.date: 12/05/2018
 ms.keywords: ID2D1Brush, ID2D1Brush interface [Direct2D], ID2D1Brush interface [Direct2D],described, d2d1/ID2D1Brush, direct2d.ID2D1Brush
 ms.topic: interface
-f1_keywords: 
- - "d2d1/ID2D1Brush"
+f1_keywords:
+- d2d1/ID2D1Brush
 dev_langs:
- - c++
+- c++
 req.header: d2d1.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: D2d1.lib
 req.dll: D2d1.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - d2d1.dll
+- d2d1.dll
 api_name:
- - ID2D1Brush
+- ID2D1Brush
 targetos: Windows
 req.typenames: 
 req.redist: 

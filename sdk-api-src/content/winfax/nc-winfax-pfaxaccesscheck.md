@@ -1,19 +1,17 @@
 ---
 UID: NC:winfax.PFAXACCESSCHECK
 title: PFAXACCESSCHECK (winfax.h)
-
 description: A fax client application calls the FaxAccessCheck function to query the fax access privileges of a user.
 old-location: fax\_mfax_faxaccesscheck.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_76i3.htm
-
 ms.date: 12/05/2018
 ms.keywords: FaxAccessCheckA, FaxAccessCheckW, PFAXACCESSCHECK, PFAXACCESSCHECK callback, PFAXACCESSCHECK callback function [Fax Service], _mfax_faxaccesscheck, fax._mfax_faxaccesscheck, winfax/FaxAccessCheckA, winfax/FaxAccessCheckW, winfax/PFAXACCESSCHECK
 ms.topic: callback
-f1_keywords: 
- - "winfax/PFAXACCESSCHECK"
+f1_keywords:
+- winfax/PFAXACCESSCHECK
 dev_langs:
- - c++
+- c++
 req.header: winfax.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Winfax.h
+- Winfax.h
 api_name:
- - PFAXACCESSCHECK
- - FaxAccessCheckA
- - FaxAccessCheckW
+- PFAXACCESSCHECK
+- FaxAccessCheckA
+- FaxAccessCheckW
 targetos: Windows
 req.typenames: 
 req.redist: 

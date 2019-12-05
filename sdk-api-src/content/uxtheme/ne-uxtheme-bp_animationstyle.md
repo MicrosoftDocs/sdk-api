@@ -1,19 +1,17 @@
 ---
 UID: NE:uxtheme._BP_ANIMATIONSTYLE
 title: BP_ANIMATIONSTYLE (uxtheme.h)
-
 description: Used in the BP_ANIMATIONPARAMS structure to declare animation options.
 old-location: controls\BP_ANIMATIONSTYLE.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\userex\enums\bp_animationstyle.htm
-
 ms.date: 12/05/2018
 ms.keywords: BPAS_CUBIC, BPAS_LINEAR, BPAS_NONE, BPAS_SINE, BP_ANIMATIONSTYLE, BP_ANIMATIONSTYLE enumeration [Windows Controls], _shell_BP_ANIMATIONSTYLE, _shell_BP_ANIMATIONSTYLE_cpp, controls.BP_ANIMATIONSTYLE, controls._shell_BP_ANIMATIONSTYLE, uxtheme/BPAS_CUBIC, uxtheme/BPAS_LINEAR, uxtheme/BPAS_NONE, uxtheme/BPAS_SINE, uxtheme/BP_ANIMATIONSTYLE
 ms.topic: enum
 f1_keywords:
 - uxtheme/BP_ANIMATIONSTYLE
 dev_langs:
- - c++
+- c++
 req.header: uxtheme.h
 req.include-header: 
 req.target-type: Windows

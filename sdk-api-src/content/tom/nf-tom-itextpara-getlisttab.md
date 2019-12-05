@@ -1,19 +1,17 @@
 ---
 UID: NF:tom.ITextPara.GetListTab
 title: ITextPara::GetListTab (tom.h)
-
 description: Retrieves the list tab setting, which is the distance between the first-line indent and the text on the first line. The numbered or bulleted text is left-justified, centered, or right-justified at the first-line indent value.
 old-location: controls\ITextPara_GetListTab.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\getlisttab.htm
-
 ms.date: 12/05/2018
 ms.keywords: GetListTab, GetListTab method [Windows Controls], GetListTab method [Windows Controls],ITextPara interface, ITextPara interface [Windows Controls],GetListTab method, ITextPara.GetListTab, ITextPara::GetListTab, _win32_ITextPara_GetListTab, _win32_ITextPara_GetListTab_cpp, controls.ITextPara_GetListTab, controls._win32_ITextPara_GetListTab, tom/ITextPara::GetListTab
 ms.topic: method
-f1_keywords: 
- - "tom/ITextPara.GetListTab"
+f1_keywords:
+- tom/ITextPara.GetListTab
 dev_langs:
- - c++
+- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msftedit.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msftedit.dll
+- Msftedit.dll
 api_name:
- - ITextPara.GetListTab
+- ITextPara.GetListTab
 targetos: Windows
 req.typenames: 
 req.redist: 

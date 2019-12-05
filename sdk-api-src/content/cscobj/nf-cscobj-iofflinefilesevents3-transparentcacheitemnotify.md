@@ -1,19 +1,17 @@
 ---
 UID: NF:cscobj.IOfflineFilesEvents3.TransparentCacheItemNotify
 title: IOfflineFilesEvents3::TransparentCacheItemNotify (cscobj.h)
-
 description: Reports that an action has been performed on a transparently cached item.
 old-location: of\iofflinefilesevents3_transparentcacheitemnotify.htm
 tech.root: offlinefiles
 ms.assetid: 59bd7a71-0189-4c4d-a737-e6a3f09a533d
-
 ms.date: 12/05/2018
 ms.keywords: IOfflineFilesEvents3 interface [Offline Files],TransparentCacheItemNotify method, IOfflineFilesEvents3.TransparentCacheItemNotify, IOfflineFilesEvents3::TransparentCacheItemNotify, TransparentCacheItemNotify, TransparentCacheItemNotify method [Offline Files], TransparentCacheItemNotify method [Offline Files],IOfflineFilesEvents3 interface, cscobj/IOfflineFilesEvents3::TransparentCacheItemNotify, of.iofflinefilesevents3_transparentcacheitemnotify
 ms.topic: method
-f1_keywords: 
- - "cscobj/IOfflineFilesEvents3.TransparentCacheItemNotify"
+f1_keywords:
+- cscobj/IOfflineFilesEvents3.TransparentCacheItemNotify
 dev_langs:
- - c++
+- c++
 req.header: cscobj.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: CscSvc.dll; CscObj.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CscSvc.dll
- - CscObj.dll
+- CscSvc.dll
+- CscObj.dll
 api_name:
- - IOfflineFilesEvents3.TransparentCacheItemNotify
+- IOfflineFilesEvents3.TransparentCacheItemNotify
 targetos: Windows
 req.typenames: 
 req.redist: 

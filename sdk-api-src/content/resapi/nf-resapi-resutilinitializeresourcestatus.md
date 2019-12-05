@@ -1,19 +1,17 @@
 ---
 UID: NF:resapi.ResUtilInitializeResourceStatus
 title: ResUtilInitializeResourceStatus macro (resapi.h)
-
 description: Initializes a RESOURCE_STATUS structure.
 old-location: mscs\resutilinitializeresourcestatus.htm
 tech.root: MsCS
 ms.assetid: e4a887b0-619d-42e0-a828-6a8c8d8c6f47
-
 ms.date: 12/05/2018
 ms.keywords: ResUtilInitializeResourceStatus, ResUtilInitializeResourceStatus macro [Failover Cluster], _wolf_resutilinitializeresourcestatus, mscs.resutilinitializeresourcestatus, resapi/ResUtilInitializeResourceStatus
 ms.topic: macro
-f1_keywords: 
- - "resapi/ResUtilInitializeResourceStatus"
+f1_keywords:
+- resapi/ResUtilInitializeResourceStatus
 dev_langs:
- - c++
+- c++
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - ResApi.h
+- ResApi.h
 api_name:
- - ResUtilInitializeResourceStatus
+- ResUtilInitializeResourceStatus
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NN:wbemprov.IWbemEventSink
 title: IWbemEventSink (wbemprov.h)
-
 description: Initiates communication with an event provider using a restricted set of queries.
 old-location: wmi\iwbemeventsink.htm
 tech.root: WmiSdk
 ms.assetid: dd076dd0-ed39-47a2-86fb-a595baf3f464
-
 ms.date: 12/05/2018
 ms.keywords: IWbemEventSink, IWbemEventSink interface [Windows Management Instrumentation], IWbemEventSink interface [Windows Management Instrumentation],described, _hmm_iwbemeventsink, wbemprov/IWbemEventSink, wmi.iwbemeventsink
 ms.topic: interface
-f1_keywords: 
- - "wbemprov/IWbemEventSink"
+f1_keywords:
+- wbemprov/IWbemEventSink
 dev_langs:
- - c++
+- c++
 req.header: wbemprov.h
 req.include-header: Wbemidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Wbemuuid.lib
 req.dll: Wbemsvc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wbemsvc.dll
+- Wbemsvc.dll
 api_name:
- - IWbemEventSink
+- IWbemEventSink
 targetos: Windows
 req.typenames: 
 req.redist: 

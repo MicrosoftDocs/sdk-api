@@ -1,19 +1,17 @@
 ---
 UID: NF:imapi2fs.IFileSystemImage.get_BootImageOptions
 title: IFileSystemImage::get_BootImageOptions (imapi2fs.h)
-
 description: Retrieves the boot image that you want to add to the file system image.
 old-location: imapi\ifilesystemimage_get_bootimageoptions.htm
 tech.root: imapi
 ms.assetid: b9721313-a2b0-4d91-af10-7932bd2d01be
-
 ms.date: 12/05/2018
 ms.keywords: IFileSystemImage interface [IMAPI],get_BootImageOptions method, IFileSystemImage.get_BootImageOptions, IFileSystemImage::get_BootImageOptions, get_BootImageOptions, get_BootImageOptions method [IMAPI], get_BootImageOptions method [IMAPI],IFileSystemImage interface, imapi.ifilesystemimage_get_bootimageoptions, imapi2fs/IFileSystemImage::get_BootImageOptions
 ms.topic: method
-f1_keywords: 
- - "imapi2fs/IFileSystemImage.get_BootImageOptions"
+f1_keywords:
+- imapi2fs/IFileSystemImage.get_BootImageOptions
 dev_langs:
- - c++
+- c++
 req.header: imapi2fs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - imapi2fs.h
+- imapi2fs.h
 api_name:
- - IFileSystemImage.get_BootImageOptions
+- IFileSystemImage.get_BootImageOptions
 targetos: Windows
 req.typenames: 
 req.redist: 

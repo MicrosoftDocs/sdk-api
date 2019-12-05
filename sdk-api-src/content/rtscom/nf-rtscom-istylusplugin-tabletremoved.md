@@ -1,19 +1,17 @@
 ---
 UID: NF:rtscom.IStylusPlugin.TabletRemoved
 title: IStylusPlugin::TabletRemoved (rtscom.h)
-
 description: Notifies an implementing plug-in when an ITablet object is removed from the system.
 old-location: tablet\istylusplugin_tabletremoved.htm
 tech.root: tablet
 ms.assetid: b953c2f8-3f49-4b7a-af4a-528c8815b066
-
 ms.date: 12/05/2018
 ms.keywords: IStylusPlugin interface [Tablet PC],TabletRemoved method, IStylusPlugin.TabletRemoved, IStylusPlugin::TabletRemoved, TabletRemoved, TabletRemoved method [Tablet PC], TabletRemoved method [Tablet PC],IStylusPlugin interface, b953c2f8-3f49-4b7a-af4a-528c8815b066, rtscom/IStylusPlugin::TabletRemoved, tablet.istylusplugin_tabletremoved
 ms.topic: method
-f1_keywords: 
- - "rtscom/IStylusPlugin.TabletRemoved"
+f1_keywords:
+- rtscom/IStylusPlugin.TabletRemoved
 dev_langs:
- - c++
+- c++
 req.header: rtscom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: RTSCom.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - RTSCom.dll
+- RTSCom.dll
 api_name:
- - IStylusPlugin.TabletRemoved
+- IStylusPlugin.TabletRemoved
 targetos: Windows
 req.typenames: 
 req.redist: 

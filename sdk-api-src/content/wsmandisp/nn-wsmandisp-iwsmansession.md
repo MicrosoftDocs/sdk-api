@@ -1,19 +1,17 @@
 ---
 UID: NN:wsmandisp.IWSManSession
 title: IWSManSession (wsmandisp.h)
-
 description: Defines operations and session settings.
 old-location: winrm\iwsmansession.htm
 tech.root: winrm
 ms.assetid: 3e016080-339f-4bda-bfd2-f912e090981f
-
 ms.date: 12/05/2018
 ms.keywords: IWSManSession, IWSManSession interface [Windows Remote Management], IWSManSession interface [Windows Remote Management],described, winrm.iwsmansession, wsmandisp/IWSManSession
 ms.topic: interface
-f1_keywords: 
- - "wsmandisp/IWSManSession"
+f1_keywords:
+- wsmandisp/IWSManSession
 dev_langs:
- - c++
+- c++
 req.header: wsmandisp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: WSManDisp.tlb
 req.dll: WSMAuto.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - WSMAuto.dll
+- WSMAuto.dll
 api_name:
- - IWSManSession
+- IWSManSession
 targetos: Windows
 req.typenames: 
 req.redist: 

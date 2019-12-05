@@ -1,19 +1,17 @@
 ---
 UID: NN:wmp.IWMPCdromCollection
 title: IWMPCdromCollection (wmp.h)
-
 description: The IWMPCdromCollection interface provides a way to organize and access a collection of CD or DVD drives.
 old-location: wmp\iwmpcdromcollection.htm
 tech.root: WMP
 ms.assetid: ba55ac32-149d-4f7b-a2bb-1fdb0be806cd
-
 ms.date: 12/05/2018
 ms.keywords: IWMPCdromCollection, IWMPCdromCollection interface [Windows Media Player], IWMPCdromCollection interface [Windows Media Player],described, IWMPCdromCollectionInterface, wmp.iwmpcdromcollection, wmp/IWMPCdromCollection
 ms.topic: interface
-f1_keywords: 
- - "wmp/IWMPCdromCollection"
+f1_keywords:
+- wmp/IWMPCdromCollection
 dev_langs:
- - c++
+- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmp.h
+- wmp.h
 api_name:
- - IWMPCdromCollection
+- IWMPCdromCollection
 targetos: Windows
 req.typenames: 
 req.redist: 

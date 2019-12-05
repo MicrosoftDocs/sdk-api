@@ -1,19 +1,17 @@
 ---
 UID: NF:comsvcs.ISelectCOMLBServer.Init
 title: ISelectCOMLBServer::Init (comsvcs.h)
-
 description: Initializes the load balancing server object.
 old-location: cos\iselectcomlbserver_init.htm
 tech.root: cossdk
 ms.assetid: 1b435b7f-9ddc-40c9-afb5-f5e46e782bd7
-
 ms.date: 12/05/2018
 ms.keywords: ISelectCOMLBServer interface [COM+],Init method, ISelectCOMLBServer.Init, ISelectCOMLBServer::Init, Init, Init method [COM+], Init method [COM+],ISelectCOMLBServer interface, _cos_ISelectCOMLBServer_Init, comsvcs/ISelectCOMLBServer::Init, cos.iselectcomlbserver_init
 ms.topic: method
-f1_keywords: 
- - "comsvcs/ISelectCOMLBServer.Init"
+f1_keywords:
+- comsvcs/ISelectCOMLBServer.Init
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - ISelectCOMLBServer.Init
+- ISelectCOMLBServer.Init
 targetos: Windows
 req.typenames: 
 req.redist: 

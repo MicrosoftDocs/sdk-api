@@ -1,19 +1,17 @@
 ---
 UID: NF:thumbcache.IThumbnailCachePrimer.PageInThumbnail
 title: IThumbnailCachePrimer::PageInThumbnail (thumbcache.h)
-
-description: "."
+description: .
 old-location: shell\IThumbnailCachePrimer_PageInThumbnail.htm
 tech.root: shell
 ms.assetid: 395C1158-84CC-4400-AA8C-A2B3008AFECF
-
 ms.date: 12/05/2018
 ms.keywords: IThumbnailCachePrimer interface [Windows Shell],PageInThumbnail method, IThumbnailCachePrimer.PageInThumbnail, IThumbnailCachePrimer::PageInThumbnail, PageInThumbnail, PageInThumbnail method [Windows Shell], PageInThumbnail method [Windows Shell],IThumbnailCachePrimer interface, shell.IThumbnailCachePrimer_PageInThumbnail, thumbcache/IThumbnailCachePrimer::PageInThumbnail
 ms.topic: method
-f1_keywords: 
- - "thumbcache/IThumbnailCachePrimer.PageInThumbnail"
+f1_keywords:
+- thumbcache/IThumbnailCachePrimer.PageInThumbnail
 dev_langs:
- - c++
+- c++
 req.header: thumbcache.h
 req.include-header: Thumbcache.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - thumbcache.h
+- thumbcache.h
 api_name:
- - IThumbnailCachePrimer.PageInThumbnail
+- IThumbnailCachePrimer.PageInThumbnail
 targetos: Windows
 req.typenames: 
 req.redist: 

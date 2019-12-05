@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IMediaSample.SetDiscontinuity
 title: IMediaSample::SetDiscontinuity (strmif.h)
-
 description: The SetDiscontinuity method specifies whether this sample represents a break in the data stream.
 old-location: dshow\imediasample_setdiscontinuity.htm
 tech.root: DirectShow
 ms.assetid: 57041c71-4c7e-463a-92f5-c77a76aa545a
-
 ms.date: 12/05/2018
 ms.keywords: IMediaSample interface [DirectShow],SetDiscontinuity method, IMediaSample.SetDiscontinuity, IMediaSample::SetDiscontinuity, IMediaSampleSetDiscontinuity, SetDiscontinuity, SetDiscontinuity method [DirectShow], SetDiscontinuity method [DirectShow],IMediaSample interface, dshow.imediasample_setdiscontinuity, strmif/IMediaSample::SetDiscontinuity
 ms.topic: method
-f1_keywords: 
- - "strmif/IMediaSample.SetDiscontinuity"
+f1_keywords:
+- strmif/IMediaSample.SetDiscontinuity
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IMediaSample.SetDiscontinuity
+- IMediaSample.SetDiscontinuity
 targetos: Windows
 req.typenames: 
 req.redist: 

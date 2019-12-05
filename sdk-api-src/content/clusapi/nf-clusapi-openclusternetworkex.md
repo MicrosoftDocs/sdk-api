@@ -1,19 +1,17 @@
 ---
 UID: NF:clusapi.OpenClusterNetworkEx
 title: OpenClusterNetworkEx function (clusapi.h)
-
 description: Opens a connection to a network and returns a handle to it.
 old-location: mscs\openclusternetworkex.htm
 tech.root: MsCS
 ms.assetid: e21dcfd6-adb6-40a7-9518-5b49988e2901
-
 ms.date: 12/05/2018
 ms.keywords: OpenClusterNetworkEx, OpenClusterNetworkEx function [Failover Cluster], PCLUSAPI_OPEN_CLUSTER_NETWORK_EX, PCLUSAPI_OPEN_CLUSTER_NETWORK_EX function [Failover Cluster], clusapi/OpenClusterNetworkEx, clusapi/PCLUSAPI_OPEN_CLUSTER_NETWORK_EX, mscs.openclusternetworkex
 ms.topic: function
-f1_keywords: 
- - "clusapi/OpenClusterNetworkEx"
+f1_keywords:
+- clusapi/OpenClusterNetworkEx
 dev_langs:
- - c++
+- c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: ClusAPI.lib
 req.dll: ClusAPI.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - ClusAPI.dll
+- ClusAPI.dll
 api_name:
- - OpenClusterNetworkEx
+- OpenClusterNetworkEx
 targetos: Windows
 req.typenames: 
 req.redist: 

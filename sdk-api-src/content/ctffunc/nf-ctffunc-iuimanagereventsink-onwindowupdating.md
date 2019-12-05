@@ -1,19 +1,17 @@
 ---
 UID: NF:ctffunc.IUIManagerEventSink.OnWindowUpdating
 title: IUIManagerEventSink::OnWindowUpdating (ctffunc.h)
-
 description: Called by the TSF before resizing and/or relocating the opened IME UI.
 old-location: tsf\iuimanagereventsink_onwindowupdating.htm
 tech.root: TSF
 ms.assetid: BCCE292C-8A74-4DBA-965D-15249E2EA547
-
 ms.date: 12/05/2018
 ms.keywords: IUIManagerEventSink interface [Text Services Framework],OnWindowUpdating method, IUIManagerEventSink.OnWindowUpdating, IUIManagerEventSink::OnWindowUpdating, OnWindowUpdating, OnWindowUpdating method [Text Services Framework], OnWindowUpdating method [Text Services Framework],IUIManagerEventSink interface, ctffunc/IUIManagerEventSink::OnWindowUpdating, tsf.iuimanagereventsink_onwindowupdating
 ms.topic: method
-f1_keywords: 
- - "ctffunc/IUIManagerEventSink.OnWindowUpdating"
+f1_keywords:
+- ctffunc/IUIManagerEventSink.OnWindowUpdating
 dev_langs:
- - c++
+- c++
 req.header: ctffunc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Ctffunc.h
+- Ctffunc.h
 api_name:
- - IUIManagerEventSink.OnWindowUpdating
+- IUIManagerEventSink.OnWindowUpdating
 targetos: Windows
 req.typenames: 
 req.redist: 

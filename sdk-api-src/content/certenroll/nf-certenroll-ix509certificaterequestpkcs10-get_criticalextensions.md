@@ -1,19 +1,17 @@
 ---
 UID: NF:certenroll.IX509CertificateRequestPkcs10.get_CriticalExtensions
 title: IX509CertificateRequestPkcs10::get_CriticalExtensions (certenroll.h)
-
 description: Retrieves an IObjectIds collection that identifies the version 3 certificate extensions marked as critical.
 old-location: security\ix509certificaterequestpkcs10_criticalextensions_property.htm
 tech.root: seccertenroll
 ms.assetid: 7ecde7cb-1a73-4fee-a949-c4bb36e61547
-
 ms.date: 12/05/2018
 ms.keywords: CriticalExtensions property [Security], CriticalExtensions property [Security],IX509CertificateRequestPkcs10 interface, IX509CertificateRequestPkcs10 interface [Security],CriticalExtensions property, IX509CertificateRequestPkcs10.CriticalExtensions, IX509CertificateRequestPkcs10.get_CriticalExtensions, IX509CertificateRequestPkcs10::CriticalExtensions, IX509CertificateRequestPkcs10::get_CriticalExtensions, certenroll/IX509CertificateRequestPkcs10::CriticalExtensions, certenroll/IX509CertificateRequestPkcs10::get_CriticalExtensions, get_CriticalExtensions, security.ix509certificaterequestpkcs10_criticalextensions_property
 ms.topic: method
-f1_keywords: 
- - "certenroll/IX509CertificateRequestPkcs10.CriticalExtensions"
+f1_keywords:
+- certenroll/IX509CertificateRequestPkcs10.CriticalExtensions
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: CertEnroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CertEnroll.dll
+- CertEnroll.dll
 api_name:
- - IX509CertificateRequestPkcs10.CriticalExtensions
- - IX509CertificateRequestPkcs10.get_CriticalExtensions
+- IX509CertificateRequestPkcs10.CriticalExtensions
+- IX509CertificateRequestPkcs10.get_CriticalExtensions
 targetos: Windows
 req.typenames: 
 req.redist: 

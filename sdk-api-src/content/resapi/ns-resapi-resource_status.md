@@ -1,19 +1,17 @@
 ---
 UID: NS:resapi.RESOURCE_STATUS
 title: RESOURCE_STATUS (resapi.h)
-
 description: Contains information about a resource that is being brought online or taken offline. This structure is used as a parameter to the callback function SetResourceStatus.
 old-location: mscs\resource_status.htm
 tech.root: MsCS
 ms.assetid: a5acd51f-714f-481b-85e2-ac82b76d21bb
-
 ms.date: 12/05/2018
-ms.keywords: "*PRESOURCE_STATUS, ClusterResourceFailed, ClusterResourceOffline, ClusterResourceOfflinePending, ClusterResourceOnline, ClusterResourceOnlinePending, ClusterResourceStateUnknown, PRESOURCE_STATUS, PRESOURCE_STATUS structure pointer [Failover Cluster], RESOURCE_STATUS, RESOURCE_STATUS structure [Failover Cluster], _wolf_resource_status, mscs.resource_status, resapi/PRESOURCE_STATUS, resapi/RESOURCE_STATUS"
+ms.keywords: '*PRESOURCE_STATUS, ClusterResourceFailed, ClusterResourceOffline, ClusterResourceOfflinePending, ClusterResourceOnline, ClusterResourceOnlinePending, ClusterResourceStateUnknown, PRESOURCE_STATUS, PRESOURCE_STATUS structure pointer [Failover Cluster], RESOURCE_STATUS, RESOURCE_STATUS structure [Failover Cluster], _wolf_resource_status, mscs.resource_status, resapi/PRESOURCE_STATUS, resapi/RESOURCE_STATUS'
 ms.topic: struct
-f1_keywords: 
- - "resapi/RESOURCE_STATUS"
+f1_keywords:
+- resapi/RESOURCE_STATUS
 dev_langs:
- - c++
+- c++
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - ResApi.h
+- ResApi.h
 api_name:
- - RESOURCE_STATUS
+- RESOURCE_STATUS
 targetos: Windows
 req.typenames: RESOURCE_STATUS, *PRESOURCE_STATUS
 req.redist: 

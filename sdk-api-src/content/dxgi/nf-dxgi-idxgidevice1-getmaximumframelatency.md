@@ -1,19 +1,17 @@
 ---
 UID: NF:dxgi.IDXGIDevice1.GetMaximumFrameLatency
 title: IDXGIDevice1::GetMaximumFrameLatency (dxgi.h)
-
 description: Gets the number of frames that the system is allowed to queue for rendering.
 old-location: direct3ddxgi\idxgidevice1_getmaximumframelatency.htm
 tech.root: direct3ddxgi
 ms.assetid: 87b98c47-3556-4588-97b2-c935d7052286
-
 ms.date: 12/05/2018
 ms.keywords: 65e01dd1-b488-81d7-8806-77a7e4bb8f02, GetMaximumFrameLatency, GetMaximumFrameLatency method [DXGI], GetMaximumFrameLatency method [DXGI],IDXGIDevice1 interface, IDXGIDevice1 interface [DXGI],GetMaximumFrameLatency method, IDXGIDevice1.GetMaximumFrameLatency, IDXGIDevice1::GetMaximumFrameLatency, direct3ddxgi.idxgidevice1_getmaximumframelatency, dxgi/IDXGIDevice1::GetMaximumFrameLatency
 ms.topic: method
-f1_keywords: 
- - "dxgi/IDXGIDevice1.GetMaximumFrameLatency"
+f1_keywords:
+- dxgi/IDXGIDevice1.GetMaximumFrameLatency
 dev_langs:
- - c++
+- c++
 req.header: dxgi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: DXGI.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - DXGI.lib
- - DXGI.dll
+- DXGI.lib
+- DXGI.dll
 api_name:
- - IDXGIDevice1.GetMaximumFrameLatency
+- IDXGIDevice1.GetMaximumFrameLatency
 targetos: Windows
 req.typenames: 
 req.redist: 

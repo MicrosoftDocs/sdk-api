@@ -1,19 +1,17 @@
 ---
 UID: NF:cscobj.IOfflineFilesCache.SetDiskSpaceLimits
 title: IOfflineFilesCache::SetDiskSpaceLimits (cscobj.h)
-
 description: Sets disk space usage limits on the Offline Files cache.
 old-location: of\iofflinefilescache_setdiskspacelimits.htm
 tech.root: offlinefiles
 ms.assetid: cdbfd5af-000a-4724-8a44-5641b2f75896
-
 ms.date: 12/05/2018
 ms.keywords: IOfflineFilesCache interface [Offline Files],SetDiskSpaceLimits method, IOfflineFilesCache.SetDiskSpaceLimits, IOfflineFilesCache::SetDiskSpaceLimits, SetDiskSpaceLimits, SetDiskSpaceLimits method [Offline Files], SetDiskSpaceLimits method [Offline Files],IOfflineFilesCache interface, cscobj/IOfflineFilesCache::SetDiskSpaceLimits, of.iofflinefilescache_setdiskspacelimits
 ms.topic: method
-f1_keywords: 
- - "cscobj/IOfflineFilesCache.SetDiskSpaceLimits"
+f1_keywords:
+- cscobj/IOfflineFilesCache.SetDiskSpaceLimits
 dev_langs:
- - c++
+- c++
 req.header: cscobj.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: CscSvc.dll; CscObj.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CscSvc.dll
- - CscObj.dll
+- CscSvc.dll
+- CscObj.dll
 api_name:
- - IOfflineFilesCache.SetDiskSpaceLimits
+- IOfflineFilesCache.SetDiskSpaceLimits
 targetos: Windows
 req.typenames: 
 req.redist: 

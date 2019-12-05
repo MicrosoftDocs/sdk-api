@@ -1,19 +1,17 @@
 ---
 UID: NE:ocidl.tagOLEDCFLAGS
 title: OLEDCFLAGS (ocidl.h)
-
 description: Specifies additional information to the container about the device context that the object has requested.
 old-location: com\oledcflags.htm
 tech.root: com
 ms.assetid: f8953376-2cbb-4f03-8216-2727d6a9f128
-
 ms.date: 12/05/2018
 ms.keywords: OLEDCFLAGS, OLEDCFLAGS enumeration [COM], OLEDC_NODRAW, OLEDC_OFFSCREEN, OLEDC_PAINTBKGND, _ole_OLEDCFLAGS, com.oledcflags, ocidl/OLEDCFLAGS, ocidl/OLEDC_NODRAW, ocidl/OLEDC_OFFSCREEN, ocidl/OLEDC_PAINTBKGND
 ms.topic: enum
-f1_keywords: 
- - "ocidl/OLEDCFLAGS"
+f1_keywords:
+- ocidl/OLEDCFLAGS
 dev_langs:
- - c++
+- c++
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - OCIdl.h
+- OCIdl.h
 api_name:
- - OLEDCFLAGS
+- OLEDCFLAGS
 targetos: Windows
 req.typenames: OLEDCFLAGS
 req.redist: 

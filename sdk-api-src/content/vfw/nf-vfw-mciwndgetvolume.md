@@ -1,19 +1,17 @@
 ---
 UID: NF:vfw.MCIWndGetVolume
 title: MCIWndGetVolume macro (vfw.h)
-
 description: The MCIWndGetVolume macro retrieves the current volume setting of an MCI device. You can use this macro or explicitly send the MCIWNDM_GETVOLUME message.
 old-location: multimedia\mciwndgetvolume.htm
 tech.root: Multimedia
 ms.assetid: e5fba475-d7d8-40de-aac7-0188954da180
-
 ms.date: 12/05/2018
 ms.keywords: MCIWndGetVolume, MCIWndGetVolume macro [Windows Multimedia], _win32_MCIWndGetVolume, multimedia.mciwndgetvolume, vfw/MCIWndGetVolume
 ms.topic: macro
-f1_keywords: 
- - "vfw/MCIWndGetVolume"
+f1_keywords:
+- vfw/MCIWndGetVolume
 dev_langs:
- - c++
+- c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Vfw.h
+- Vfw.h
 api_name:
- - MCIWndGetVolume
+- MCIWndGetVolume
 targetos: Windows
 req.typenames: 
 req.redist: 

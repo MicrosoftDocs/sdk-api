@@ -1,19 +1,17 @@
 ---
 UID: NF:certenroll.ICertProperties.Remove
 title: ICertProperties::Remove (certenroll.h)
-
 description: Removes a property from the collection by index value.
 old-location: security\icertproperties_remove_method.htm
 tech.root: seccertenroll
 ms.assetid: 7ee9e624-6f27-4177-9711-7062cb10f77b
-
 ms.date: 12/05/2018
 ms.keywords: ICertProperties interface [Security],Remove method, ICertProperties.Remove, ICertProperties::Remove, Remove, Remove method [Security], Remove method [Security],ICertProperties interface, certenroll/ICertProperties::Remove, security.icertproperties_remove_method
 ms.topic: method
-f1_keywords: 
- - "certenroll/ICertProperties.Remove"
+f1_keywords:
+- certenroll/ICertProperties.Remove
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: CertEnroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CertEnroll.dll
+- CertEnroll.dll
 api_name:
- - ICertProperties.Remove
+- ICertProperties.Remove
 targetos: Windows
 req.typenames: 
 req.redist: 

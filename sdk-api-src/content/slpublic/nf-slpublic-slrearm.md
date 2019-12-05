@@ -1,19 +1,17 @@
 ---
 UID: NF:slpublic.SLReArm
 title: SLReArm function (slpublic.h)
-
 description: This function is rearm application activation.
 old-location: security\slrearm.htm
 tech.root: SecSLApi
 ms.assetid: d1b47613-1e1d-4873-93ed-8ef2bc836c30
-
 ms.date: 12/05/2018
 ms.keywords: SLReArm, SLReArm function [Security], security.slrearm, slpublic/SLReArm
 ms.topic: function
-f1_keywords: 
- - "slpublic/SLReArm"
+f1_keywords:
+- slpublic/SLReArm
 dev_langs:
- - c++
+- c++
 req.header: slpublic.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Slc.lib
 req.dll: Slc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Slc.dll
+- Slc.dll
 api_name:
- - SLReArm
+- SLReArm
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:wininet.InternetSetCookieExA
 title: InternetSetCookieExA function (wininet.h)
-
 description: The InternetSetCookieEx function creates a cookie with a specified name that is associated with a specified URL. This function differs from the InternetSetCookie function by being able to create third-party cookies.
 old-location: wininet\internetsetcookieex.htm
 tech.root: wininet
 ms.assetid: 5044761f-152d-4606-87d2-c56a11db18c4
-
 ms.date: 12/05/2018
 ms.keywords: INTERNET_COOKIE_EVALUATE_P3P, INTERNET_COOKIE_HTTPONLY, INTERNET_COOKIE_THIRD_PARTY, INTERNET_FLAG_RESTRICTED_ZONE, InternetSetCookieEx, InternetSetCookieEx function [WinINet], InternetSetCookieExA, InternetSetCookieExW, wininet.internetsetcookieex, wininet/InternetSetCookieEx, wininet/InternetSetCookieExA, wininet/InternetSetCookieExW
 ms.topic: function
-f1_keywords: 
- - "wininet/InternetSetCookieEx"
+f1_keywords:
+- wininet/InternetSetCookieEx
 dev_langs:
- - c++
+- c++
 req.header: wininet.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Wininet.lib
 req.dll: Wininet.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Wininet.dll
+- Wininet.dll
 api_name:
- - InternetSetCookieEx
- - InternetSetCookieExA
- - InternetSetCookieExW
+- InternetSetCookieEx
+- InternetSetCookieExA
+- InternetSetCookieExW
 targetos: Windows
 req.typenames: 
 req.redist: 

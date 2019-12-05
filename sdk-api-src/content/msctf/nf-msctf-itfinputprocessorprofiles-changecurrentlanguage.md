@@ -1,19 +1,17 @@
 ---
 UID: NF:msctf.ITfInputProcessorProfiles.ChangeCurrentLanguage
 title: ITfInputProcessorProfiles::ChangeCurrentLanguage (msctf.h)
-
 description: ITfInputProcessorProfiles::ChangeCurrentLanguage method
 old-location: tsf\itfinputprocessorprofiles_changecurrentlanguage.htm
 tech.root: TSF
 ms.assetid: 2a0a6aa2-9015-4150-bbcf-e3f7218d53e8
-
 ms.date: 12/05/2018
 ms.keywords: ChangeCurrentLanguage, ChangeCurrentLanguage method [Text Services Framework], ChangeCurrentLanguage method [Text Services Framework],ITfInputProcessorProfiles interface, ITfInputProcessorProfiles interface [Text Services Framework],ChangeCurrentLanguage method, ITfInputProcessorProfiles.ChangeCurrentLanguage, ITfInputProcessorProfiles::ChangeCurrentLanguage, _tsf_itfinputprocessorprofiles_changecurrentlanguage_ref, msctf/ITfInputProcessorProfiles::ChangeCurrentLanguage, tsf.itfinputprocessorprofiles_changecurrentlanguage
 ms.topic: method
-f1_keywords: 
- - "msctf/ITfInputProcessorProfiles.ChangeCurrentLanguage"
+f1_keywords:
+- msctf/ITfInputProcessorProfiles.ChangeCurrentLanguage
 dev_langs:
- - c++
+- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msctf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msctf.dll
+- Msctf.dll
 api_name:
- - ITfInputProcessorProfiles.ChangeCurrentLanguage
+- ITfInputProcessorProfiles.ChangeCurrentLanguage
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

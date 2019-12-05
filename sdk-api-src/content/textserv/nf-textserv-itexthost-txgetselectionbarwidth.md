@@ -1,19 +1,17 @@
 ---
 UID: NF:textserv.ITextHost.TxGetSelectionBarWidth
 title: ITextHost::TxGetSelectionBarWidth (textserv.h)
-
 description: Returns the size of selection bar in HIMETRIC.
 old-location: controls\ITextHost_TxGetSelectionBarWidth.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\windowlessricheditcontrols\windowlessricheditcontrolsreference\windowlessricheditcontrolinterfaces\itexthost\itexthosttxgetselectionbarwidth.htm
-
 ms.date: 12/05/2018
 ms.keywords: ITextHost interface [Windows Controls],TxGetSelectionBarWidth method, ITextHost.TxGetSelectionBarWidth, ITextHost::TxGetSelectionBarWidth, TxGetSelectionBarWidth, TxGetSelectionBarWidth method [Windows Controls], TxGetSelectionBarWidth method [Windows Controls],ITextHost interface, _win32_ITextHost_TxGetSelectionBarWidth, _win32_ITextHost_TxGetSelectionBarWidth_cpp, controls.ITextHost_TxGetSelectionBarWidth, controls._win32_ITextHost_TxGetSelectionBarWidth, textserv/ITextHost::TxGetSelectionBarWidth
 ms.topic: method
-f1_keywords: 
- - "textserv/ITextHost.TxGetSelectionBarWidth"
+f1_keywords:
+- textserv/ITextHost.TxGetSelectionBarWidth
 dev_langs:
- - c++
+- c++
 req.header: textserv.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msftedit.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msftedit.dll
+- Msftedit.dll
 api_name:
- - ITextHost.TxGetSelectionBarWidth
+- ITextHost.TxGetSelectionBarWidth
 targetos: Windows
 req.typenames: 
 req.redist: 

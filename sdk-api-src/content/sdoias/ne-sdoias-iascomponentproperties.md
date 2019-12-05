@@ -1,19 +1,17 @@
 ---
 UID: NE:sdoias._IASCOMPONENTPROPERTIES
 title: IASCOMPONENTPROPERTIES (sdoias.h)
-
 description: The values of the IASCOMPONENTPROPERTIES enumeration type enumerate identifiers for an SDO object.
 old-location: nps\SDO_iascomponentproperties.htm
 tech.root: Nps
 ms.assetid: 5b2ab351-88b8-4a9d-9954-883d9e251b4c
-
 ms.date: 12/05/2018
 ms.keywords: IASCOMPONENTPROPERTIES, IASCOMPONENTPROPERTIES enumeration [Network Policy Server], PROPERTY_COMPONENT_ID, PROPERTY_COMPONENT_PROG_ID, PROPERTY_COMPONENT_START, _sdo_iascomponentproperties, nps.SDO_iascomponentproperties, sdo.iascomponentproperties, sdoias/IASCOMPONENTPROPERTIES, sdoias/PROPERTY_COMPONENT_ID, sdoias/PROPERTY_COMPONENT_PROG_ID, sdoias/PROPERTY_COMPONENT_START
 ms.topic: enum
-f1_keywords: 
- - "sdoias/IASCOMPONENTPROPERTIES"
+f1_keywords:
+- sdoias/IASCOMPONENTPROPERTIES
 dev_langs:
- - c++
+- c++
 req.header: sdoias.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - SdoIas.h
+- SdoIas.h
 api_name:
- - IASCOMPONENTPROPERTIES
+- IASCOMPONENTPROPERTIES
 targetos: Windows
 req.typenames: IASCOMPONENTPROPERTIES
 req.redist: 

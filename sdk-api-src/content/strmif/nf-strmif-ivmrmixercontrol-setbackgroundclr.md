@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IVMRMixerControl.SetBackgroundClr
 title: IVMRMixerControl::SetBackgroundClr (strmif.h)
-
 description: Sets the background color on the output rectangle.
 old-location: dshow\ivmrmixercontrol_setbackgroundclr.htm
 tech.root: DirectShow
 ms.assetid: f163f62a-8d2b-43af-bec1-cae67a9747b7
-
 ms.date: 12/05/2018
 ms.keywords: IVMRMixerControl interface [DirectShow],SetBackgroundClr method, IVMRMixerControl.SetBackgroundClr, IVMRMixerControl::SetBackgroundClr, IVMRMixerControlSetBackgroundClr, SetBackgroundClr, SetBackgroundClr method [DirectShow], SetBackgroundClr method [DirectShow],IVMRMixerControl interface, dshow.ivmrmixercontrol_setbackgroundclr, strmif/IVMRMixerControl::SetBackgroundClr
 ms.topic: method
-f1_keywords: 
- - "strmif/IVMRMixerControl.SetBackgroundClr"
+f1_keywords:
+- strmif/IVMRMixerControl.SetBackgroundClr
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IVMRMixerControl.SetBackgroundClr
+- IVMRMixerControl.SetBackgroundClr
 targetos: Windows
 req.typenames: 
 req.redist: 

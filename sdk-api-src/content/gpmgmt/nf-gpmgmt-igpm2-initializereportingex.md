@@ -1,19 +1,17 @@
 ---
 UID: NF:gpmgmt.IGPM2.InitializeReportingEx
 title: IGPM2::InitializeReportingEx (gpmgmt.h)
-
 description: Sets the location to search for .adm files and the reporting option to determine whether to include comments in the report. This method initializes reporting in an asynchronous manner.
 old-location: gpmc\igpm2_initializereportingex.htm
 tech.root: gpmc
 ms.assetid: 3de74745-d9b3-47a7-8ba7-08b4e57d2ab7
-
 ms.date: 12/05/2018
 ms.keywords: IGPM2 interface [GPMC],InitializeReportingEx method, IGPM2.InitializeReportingEx, IGPM2::InitializeReportingEx, InitializeReportingEx, InitializeReportingEx method [GPMC], InitializeReportingEx method [GPMC],IGPM2 interface, gpmc.igpm2_initializereportingex, gpmgmt/IGPM2::InitializeReportingEx
 ms.topic: method
-f1_keywords: 
- - "gpmgmt/IGPM2.InitializeReportingEx"
+f1_keywords:
+- gpmgmt/IGPM2.InitializeReportingEx
 dev_langs:
- - c++
+- c++
 req.header: gpmgmt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Gpmgmt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - gpmgmt.dll
+- gpmgmt.dll
 api_name:
- - IGPM2.InitializeReportingEx
+- IGPM2.InitializeReportingEx
 targetos: Windows
 req.typenames: 
 req.redist: 

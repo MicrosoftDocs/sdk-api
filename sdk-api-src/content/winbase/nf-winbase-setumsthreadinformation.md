@@ -1,19 +1,17 @@
 ---
 UID: NF:winbase.SetUmsThreadInformation
 title: SetUmsThreadInformation function (winbase.h)
-
 description: Sets application-specific context information for the specified user-mode scheduling (UMS) worker thread.
 old-location: base\setumsthreadinformation.htm
 tech.root: ProcThread
 ms.assetid: 19f190fd-1f78-4bb6-93eb-73a5c522b44d
-
 ms.date: 12/05/2018
 ms.keywords: SetUmsThreadInformation, SetUmsThreadInformation function, base.setumsthreadinformation, winbase/SetUmsThreadInformation
 ms.topic: function
 f1_keywords:
 - winbase/SetUmsThreadInformation
 dev_langs:
- - c++
+- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -1,19 +1,17 @@
 ---
 UID: NF:oleauto.VarI4FromI1
 title: VarI4FromI1 function (oleauto.h)
-
 description: Converts a char value to a long value.
 old-location: automat\vari4fromi1.htm
 tech.root: automat
 ms.assetid: 15bf9ed3-acb6-4cd1-bbcb-184fdd21ddfd
-
 ms.date: 12/05/2018
 ms.keywords: VarI4FromI1, VarI4FromI1 function [Automation], _oa96_VarI4FromI1, automat.vari4fromi1, oleauto/VarI4FromI1
 ms.topic: function
-f1_keywords: 
- - "oleauto/VarI4FromI1"
+f1_keywords:
+- oleauto/VarI4FromI1
 dev_langs:
- - c++
+- c++
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: OleAut32.lib
 req.dll: OleAut32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - OleAut32.dll
+- OleAut32.dll
 api_name:
- - VarI4FromI1
+- VarI4FromI1
 targetos: Windows
 req.typenames: 
 req.redist: 

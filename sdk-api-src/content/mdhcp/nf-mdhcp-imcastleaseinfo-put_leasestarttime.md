@@ -1,19 +1,17 @@
 ---
 UID: NF:mdhcp.IMcastLeaseInfo.put_LeaseStartTime
 title: IMcastLeaseInfo::put_LeaseStartTime (mdhcp.h)
-
 description: The put_LeaseStartTime method sets the start time of the lease. This method, along with put_LeaseStopTime, allows renewal of a lease without calling IMcastAddressAllocation::CreateLeaseInfo.
 old-location: tapi3\imcastleaseinfo_put_leasestarttime.htm
 tech.root: Tapi
 ms.assetid: f101a92a-bcbb-4d96-befd-c6ee83b68481
-
 ms.date: 12/05/2018
 ms.keywords: IMcastLeaseInfo interface [TAPI 2.2],put_LeaseStartTime method, IMcastLeaseInfo.put_LeaseStartTime, IMcastLeaseInfo::put_LeaseStartTime, _tapi3_imcastleaseinfo_put_leasestarttime, mdhcp/IMcastLeaseInfo::put_LeaseStartTime, put_LeaseStartTime, put_LeaseStartTime method [TAPI 2.2], put_LeaseStartTime method [TAPI 2.2],IMcastLeaseInfo interface, tapi3.imcastleaseinfo_put_leasestarttime
 ms.topic: method
-f1_keywords: 
- - "mdhcp/IMcastLeaseInfo.put_LeaseStartTime"
+f1_keywords:
+- mdhcp/IMcastLeaseInfo.put_LeaseStartTime
 dev_langs:
- - c++
+- c++
 req.header: mdhcp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Mdhcp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mdhcp.dll
+- Mdhcp.dll
 api_name:
- - IMcastLeaseInfo.put_LeaseStartTime
+- IMcastLeaseInfo.put_LeaseStartTime
 targetos: Windows
 req.typenames: 
 req.redist: 

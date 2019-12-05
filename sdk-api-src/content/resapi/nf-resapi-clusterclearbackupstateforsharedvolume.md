@@ -1,19 +1,17 @@
 ---
 UID: NF:resapi.ClusterClearBackupStateForSharedVolume
 title: ClusterClearBackupStateForSharedVolume function (resapi.h)
-
 description: Clears the backup state for the cluster shared volume.
 old-location: mscs\clusterclearbackupstateforsharedvolume.htm
 tech.root: MsCS
 ms.assetid: 54ebfff4-8898-49ed-9a45-07286cda5fb4
-
 ms.date: 12/05/2018
 ms.keywords: ClusterClearBackupStateForSharedVolume, ClusterClearBackupStateForSharedVolume function [Failover Cluster], PCLUSTER_CLEAR_BACKUP_STATE_FOR_SHARED_VOLUME, PCLUSTER_CLEAR_BACKUP_STATE_FOR_SHARED_VOLUME function [Failover Cluster], mscs.clusterclearbackupstateforsharedvolume, resapi/ClusterClearBackupStateForSharedVolume, resapi/PCLUSTER_CLEAR_BACKUP_STATE_FOR_SHARED_VOLUME
 ms.topic: function
-f1_keywords: 
- - "resapi/ClusterClearBackupStateForSharedVolume"
+f1_keywords:
+- resapi/ClusterClearBackupStateForSharedVolume
 dev_langs:
- - c++
+- c++
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: ResUtils.Lib
 req.dll: ResUtils.Dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - ResUtils.Dll
+- ResUtils.Dll
 api_name:
- - ClusterClearBackupStateForSharedVolume
+- ClusterClearBackupStateForSharedVolume
 targetos: Windows
 req.typenames: 
 req.redist: 

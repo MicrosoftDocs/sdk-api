@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IResourceManager.CancelRequest
 title: IResourceManager::CancelRequest (strmif.h)
-
 description: The CancelRequest method cancels the request for a resource.
 old-location: dshow\iresourcemanager_cancelrequest.htm
 tech.root: DirectShow
 ms.assetid: 49372654-8e69-4a7a-915e-16e791c63fb2
-
 ms.date: 12/05/2018
 ms.keywords: CancelRequest, CancelRequest method [DirectShow], CancelRequest method [DirectShow],IResourceManager interface, IResourceManager interface [DirectShow],CancelRequest method, IResourceManager.CancelRequest, IResourceManager::CancelRequest, IResourceManagerCancelRequest, dshow.iresourcemanager_cancelrequest, strmif/IResourceManager::CancelRequest
 ms.topic: method
-f1_keywords: 
- - "strmif/IResourceManager.CancelRequest"
+f1_keywords:
+- strmif/IResourceManager.CancelRequest
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IResourceManager.CancelRequest
+- IResourceManager.CancelRequest
 targetos: Windows
 req.typenames: 
 req.redist: 

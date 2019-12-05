@@ -1,19 +1,17 @@
 ---
 UID: NF:gdiplusbrush.LinearGradientBrush.SetTransform
 title: LinearGradientBrush::SetTransform (gdiplusbrush.h)
-
 description: The LinearGradientBrush::SetTransform method sets the transformation matrix of this linear gradient brush.
 old-location: gdiplus\_gdiplus_CLASS_LinearGradientBrush_SetTransform_matrix_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\lineargradientbrushclass\lineargradientbrushmethods\settransform_65matrix.htm
-
 ms.date: 12/05/2018
 ms.keywords: LinearGradientBrush class [GDI+],SetTransform method, LinearGradientBrush.SetTransform, LinearGradientBrush::SetTransform, SetTransform, SetTransform method [GDI+], SetTransform method [GDI+],LinearGradientBrush class, _gdiplus_CLASS_LinearGradientBrush_SetTransform_matrix_, gdiplus._gdiplus_CLASS_LinearGradientBrush_SetTransform_matrix_
 ms.topic: method
-f1_keywords: 
- - "gdiplusbrush/LinearGradientBrush.SetTransform"
+f1_keywords:
+- gdiplusbrush/LinearGradientBrush.SetTransform
 dev_langs:
- - c++
+- c++
 req.header: gdiplusbrush.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - LinearGradientBrush.SetTransform
+- LinearGradientBrush.SetTransform
 targetos: Windows
 req.typenames: 
 req.redist: 

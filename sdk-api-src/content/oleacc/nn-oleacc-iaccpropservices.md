@@ -1,19 +1,17 @@
 ---
 UID: NN:oleacc.IAccPropServices
 title: IAccPropServices (oleacc.h)
-
 description: Exposes methods for annotating accessible elements and for manipulating identity strings.
 old-location: winauto\iaccpropservices.htm
 tech.root: WinAuto
 ms.assetid: 0474dacf-7aa1-4d12-bac2-1091676a1ced
-
 ms.date: 12/05/2018
 ms.keywords: IAccPropServices, IAccPropServices interface [Windows Accessibility], IAccPropServices interface [Windows Accessibility],described, msaa.iaccpropservices, oleacc/IAccPropServices, winauto.iaccpropservices
 ms.topic: interface
-f1_keywords: 
- - "oleacc/IAccPropServices"
+f1_keywords:
+- oleacc/IAccPropServices
 dev_langs:
- - c++
+- c++
 req.header: oleacc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - oleacc.h
+- oleacc.h
 api_name:
- - IAccPropServices
+- IAccPropServices
 targetos: Windows
 req.typenames: 
 req.redist: 

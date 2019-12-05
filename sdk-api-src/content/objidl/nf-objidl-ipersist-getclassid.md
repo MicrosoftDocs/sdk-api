@@ -1,19 +1,17 @@
 ---
 UID: NF:objidl.IPersist.GetClassID
 title: IPersist::GetClassID (objidl.h)
-
 description: Retrieves the class identifier (CLSID) of the object.
 old-location: com\ipersist_getclassid.htm
 tech.root: com
 ms.assetid: 921a3b86-a240-454e-9411-8d653e02b90e
-
 ms.date: 12/05/2018
 ms.keywords: GetClassID, GetClassID method [COM], GetClassID method [COM],IBaseFilter interface, GetClassID method [COM],IPersist interface, GetClassID method [COM],IPersistFolder interface, IBaseFilter interface [COM],GetClassID method, IBaseFilter::GetClassID, IPersist interface [COM],GetClassID method, IPersist.GetClassID, IPersist::GetClassID, IPersistFolder interface [COM],GetClassID method, IPersistFolder::GetClassID, _com_ipersist_getclassid, com.ipersist_getclassid, objidl/IBaseFilter::GetClassID, objidl/IPersist::GetClassID, objidl/IPersistFolder::GetClassID
 ms.topic: method
-f1_keywords: 
- - "objidl/IPersist.GetClassID"
+f1_keywords:
+- objidl/IPersist.GetClassID
 dev_langs:
- - c++
+- c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ObjIdl.h
+- ObjIdl.h
 api_name:
- - IPersist.GetClassID
- - IPersistFolder.GetClassID
- - IBaseFilter.GetClassID
+- IPersist.GetClassID
+- IPersistFolder.GetClassID
+- IBaseFilter.GetClassID
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:drt.DrtCreateIpv6UdpTransport
 title: DrtCreateIpv6UdpTransport function (drt.h)
-
 description: DrtCreateIpv6UdpTransport function creates a transport based on the IPv6 UDP protocol.
 old-location: p2p\drtcreateipv6udptransport.htm
 tech.root: P2PSdk
 ms.assetid: def3120b-98b6-4e31-8166-822cea7fea69
-
 ms.date: 12/05/2018
 ms.keywords: DrtCreateIpv6UdpTransport, DrtCreateIpv6UdpTransport function [Peer Networking], drt/DrtCreateIpv6UdpTransport, p2p.drtcreateipv6udptransport
 ms.topic: function
-f1_keywords: 
- - "drt/DrtCreateIpv6UdpTransport"
+f1_keywords:
+- drt/DrtCreateIpv6UdpTransport
 dev_langs:
- - c++
+- c++
 req.header: drt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Drttransport.lib
 req.dll: Drt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - drt.dll
+- drt.dll
 api_name:
- - DrtCreateIpv6UdpTransport
+- DrtCreateIpv6UdpTransport
 targetos: Windows
 req.typenames: 
 req.redist: 

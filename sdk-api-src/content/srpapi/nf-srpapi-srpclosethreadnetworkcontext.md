@@ -1,19 +1,17 @@
 ---
 UID: NF:srpapi.SrpCloseThreadNetworkContext
 title: SrpCloseThreadNetworkContext function (srpapi.h)
-
 description: Restores a thread back to the original context, which may have been optionally returned from SrpCreateThreadNetworkContext.
 old-location: edp\srpclosethreadnetworkcontext.htm
 tech.root: EDP
 ms.assetid: AB8DD527-BABA-40D0-A423-2BEAAA544B2B
-
 ms.date: 12/05/2018
 ms.keywords: EDP.srpclosethreadnetworkcontext, SrpCloseThreadNetworkContext, SrpCloseThreadNetworkContext function, srpapi/SrpCloseThreadNetworkContext
 ms.topic: function
-f1_keywords: 
- - "srpapi/SrpCloseThreadNetworkContext"
+f1_keywords:
+- srpapi/SrpCloseThreadNetworkContext
 dev_langs:
- - c++
+- c++
 req.header: srpapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Srpapi.lib
 req.dll: Srpapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - srpapi.dll
- - Ext-MS-Win-Security-Srp-L1-1-0.dll
- - Ext-MS-Win-Security-Srp-L1-1-1.dll
+- srpapi.dll
+- Ext-MS-Win-Security-Srp-L1-1-0.dll
+- Ext-MS-Win-Security-Srp-L1-1-1.dll
 api_name:
- - SrpCloseThreadNetworkContext
+- SrpCloseThreadNetworkContext
 targetos: Windows
 req.typenames: 
 req.redist: 

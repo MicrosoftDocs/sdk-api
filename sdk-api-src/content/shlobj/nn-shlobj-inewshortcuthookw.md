@@ -1,19 +1,17 @@
 ---
 UID: NN:shlobj.INewShortcutHookW
 title: INewShortcutHookW (shlobj.h)
-
 description: Exposes methods to create a new Internet shortcut.
 old-location: shell\INewShortcutHook.htm
 tech.root: shell
 ms.assetid: 5a097e96-178a-44bd-9d3d-ed53338b97d5
-
 ms.date: 12/05/2018
 ms.keywords: INewShortcutHook, INewShortcutHook interface [Windows Shell], INewShortcutHook interface [Windows Shell],described, INewShortcutHookA, INewShortcutHookW, _win32_INewShortcutHook, shell.INewShortcutHook, shlobj/INewShortcutHook
 ms.topic: interface
-f1_keywords: 
- - "shlobj/INewShortcutHook"
+f1_keywords:
+- shlobj/INewShortcutHook
 dev_langs:
- - c++
+- c++
 req.header: shlobj.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Shell32.dll (version 4.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - INewShortcutHook
+- INewShortcutHook
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:aclui.ISecurityInformation3.OpenElevatedEditor
 title: ISecurityInformation3::OpenElevatedEditor (aclui.h)
-
 description: Opens an access control editor when a user clicks the Edit button on an access control editor page that displays an image of a shield on that Edit button.
 old-location: security\isecurityinformation3_openelevatededitor.htm
 tech.root: SecAuthZ
 ms.assetid: 4ed50e6b-4c4a-48bf-ad7c-133064a4be47
-
 ms.date: 12/05/2018
 ms.keywords: ISecurityInformation3 interface [Security],OpenElevatedEditor method, ISecurityInformation3.OpenElevatedEditor, ISecurityInformation3::OpenElevatedEditor, OpenElevatedEditor, OpenElevatedEditor method [Security], OpenElevatedEditor method [Security],ISecurityInformation3 interface, aclui/ISecurityInformation3::OpenElevatedEditor, security.isecurityinformation3_openelevatededitor
 ms.topic: method
 f1_keywords:
 - aclui/ISecurityInformation3.OpenElevatedEditor
 dev_langs:
- - c++
+- c++
 req.header: aclui.h
 req.include-header: 
 req.target-type: Windows

@@ -1,19 +1,17 @@
 ---
 UID: NN:docobj.IOleCommandTarget
 title: IOleCommandTarget (docobj.h)
-
 description: Enables objects and their containers to dispatch commands to each other. For example, an object's toolbars may contain buttons for commands such as Print, Print Preview, Save, New, and Zoom.
 old-location: com\iolecommandtarget.htm
 tech.root: com
 ms.assetid: 5c8b455e-7740-4f71-aef6-27390a11a1a3
-
 ms.date: 12/05/2018
 ms.keywords: IOleCommandTarget, IOleCommandTarget interface [COM], IOleCommandTarget interface [COM],described, _ole_iolecommandtarget, com.iolecommandtarget, docobj/IOleCommandTarget
 ms.topic: interface
-f1_keywords: 
- - "docobj/IOleCommandTarget"
+f1_keywords:
+- docobj/IOleCommandTarget
 dev_langs:
- - c++
+- c++
 req.header: docobj.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - DocObj.h
+- DocObj.h
 api_name:
- - IOleCommandTarget
+- IOleCommandTarget
 targetos: Windows
 req.typenames: 
 req.redist: 

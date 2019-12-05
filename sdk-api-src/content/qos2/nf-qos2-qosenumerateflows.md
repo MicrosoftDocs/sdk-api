@@ -1,19 +1,17 @@
 ---
 UID: NF:qos2.QOSEnumerateFlows
 title: QOSEnumerateFlows function (qos2.h)
-
 description: Enumerates all existing flows.
 old-location: qos\qosenumerateflows.htm
 tech.root: QOS
 ms.assetid: 62027f7b-9ecc-4631-b755-2302e0bb49c0
-
 ms.date: 12/05/2018
 ms.keywords: QOSEnumerateFlows, QOSEnumerateFlows function [QOS], qos.qosenumerateflows, qos2/QOSEnumerateFlows
 ms.topic: function
-f1_keywords: 
- - "qos2/QOSEnumerateFlows"
+f1_keywords:
+- qos2/QOSEnumerateFlows
 dev_langs:
- - c++
+- c++
 req.header: qos2.h
 req.include-header: Qos2.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Qwave.lib
 req.dll: Qwave.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - qwave.dll
+- qwave.dll
 api_name:
- - QOSEnumerateFlows
+- QOSEnumerateFlows
 targetos: Windows
 req.typenames: 
 req.redist: 

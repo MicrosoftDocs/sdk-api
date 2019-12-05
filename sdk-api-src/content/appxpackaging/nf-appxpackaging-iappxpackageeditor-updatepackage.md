@@ -1,19 +1,17 @@
 ---
 UID: NF:appxpackaging.IAppxPackageEditor.UpdatePackage
 title: IAppxPackageEditor::UpdatePackage (appxpackaging.h)
-
 description: Updates an app package.
 old-location: appxpkg\iappxpackageeditor_updatepackage.htm
 tech.root: appxpkg
 ms.assetid: 768D2997-A374-46FF-BA0D-14B266D3C83D
-
 ms.date: 12/05/2018
 ms.keywords: IAppxPackageEditor interface [App packaging and management],UpdatePackage method, IAppxPackageEditor.UpdatePackage, IAppxPackageEditor::UpdatePackage, UpdatePackage, UpdatePackage method [App packaging and management], UpdatePackage method [App packaging and management],IAppxPackageEditor interface, appxpackaging/IAppxPackageEditor::UpdatePackage, appxpkg.iappxpackageeditor_updatepackage
 ms.topic: method
-f1_keywords: 
- - "appxpackaging/IAppxPackageEditor.UpdatePackage"
+f1_keywords:
+- appxpackaging/IAppxPackageEditor.UpdatePackage
 dev_langs:
- - c++
+- c++
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - AppxPackaging.h
+- AppxPackaging.h
 api_name:
- - IAppxPackageEditor.UpdatePackage
+- IAppxPackageEditor.UpdatePackage
 targetos: Windows
 req.typenames: 
 req.redist: 

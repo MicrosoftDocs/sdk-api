@@ -1,19 +1,17 @@
 ---
 UID: NN:mfmediaengine.IMFMediaEngineSrcElements
 title: IMFMediaEngineSrcElements (mfmediaengine.h)
-
 description: Provides the Media Engine with a list of media resources.
 old-location: mf\imfmediaenginesrcelements.htm
 tech.root: medfound
 ms.assetid: 37A3EAC0-639C-47F3-AAB9-588EBEC8E1E3
-
 ms.date: 12/05/2018
 ms.keywords: IMFMediaEngineSrcElements, IMFMediaEngineSrcElements interface [Media Foundation], IMFMediaEngineSrcElements interface [Media Foundation],described, mf.imfmediaenginesrcelements, mfmediaengine/IMFMediaEngineSrcElements
 ms.topic: interface
-f1_keywords: 
- - "mfmediaengine/IMFMediaEngineSrcElements"
+f1_keywords:
+- mfmediaengine/IMFMediaEngineSrcElements
 dev_langs:
- - c++
+- c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfmediaengine.h
+- mfmediaengine.h
 api_name:
- - IMFMediaEngineSrcElements
+- IMFMediaEngineSrcElements
 targetos: Windows
 req.typenames: 
 req.redist: 

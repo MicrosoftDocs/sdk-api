@@ -1,19 +1,17 @@
 ---
 UID: NF:cryptuiapi.CryptUIDlgViewCertificateA
 title: CryptUIDlgViewCertificateA function (cryptuiapi.h)
-
 description: Presents a dialog box that displays a specified certificate.
 old-location: security\cryptuidlgviewcertificate.htm
 tech.root: SecCrypto
 ms.assetid: 5107ff22-78c4-4005-80af-ff45781da6c7
-
 ms.date: 12/05/2018
 ms.keywords: CryptUIDlgViewCertificate, CryptUIDlgViewCertificate function [Security], CryptUIDlgViewCertificateA, CryptUIDlgViewCertificateW, cryptuiapi/CryptUIDlgViewCertificate, cryptuiapi/CryptUIDlgViewCertificateA, cryptuiapi/CryptUIDlgViewCertificateW, security.cryptuidlgviewcertificate
 ms.topic: function
-f1_keywords: 
- - "cryptuiapi/CryptUIDlgViewCertificate"
+f1_keywords:
+- cryptuiapi/CryptUIDlgViewCertificate
 dev_langs:
- - c++
+- c++
 req.header: cryptuiapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,19 +30,19 @@ req.lib: Cryptui.lib
 req.dll: Cryptui.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Cryptui.dll
- - Ext-MS-Win-security-cryptui-l1-1-0.dll
- - ext-ms-win-security-cryptui-l1-1-1.dll
- - CertCredProviderOneCore.dll
+- Cryptui.dll
+- Ext-MS-Win-security-cryptui-l1-1-0.dll
+- ext-ms-win-security-cryptui-l1-1-1.dll
+- CertCredProviderOneCore.dll
 api_name:
- - CryptUIDlgViewCertificate
- - CryptUIDlgViewCertificateA
- - CryptUIDlgViewCertificateW
+- CryptUIDlgViewCertificate
+- CryptUIDlgViewCertificateA
+- CryptUIDlgViewCertificateW
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:bitscfg.IBITSExtensionSetup.GetCleanupTaskName
 title: IBITSExtensionSetup::GetCleanupTaskName (bitscfg.h)
-
 description: Use the GetCleanupTaskName method to retrieve the name of the cleanup task associated with the virtual directory.
 old-location: bits\ibitsextensionsetup_getcleanuptaskname.htm
 tech.root: Bits
 ms.assetid: edca833f-16ec-40c7-a3d8-f893a635b8e2
-
 ms.date: 12/05/2018
 ms.keywords: GetCleanupTaskName, GetCleanupTaskName method [BITS], GetCleanupTaskName method [BITS],IBITSExtensionSetup interface, IBITSExtensionSetup interface [BITS],GetCleanupTaskName method, IBITSExtensionSetup.GetCleanupTaskName, IBITSExtensionSetup::GetCleanupTaskName, _drz_ibitsextensionsetup_getcleanuptaskname, bits.ibitsextensionsetup_getcleanuptaskname, bitscfg/IBITSExtensionSetup::GetCleanupTaskName
 ms.topic: method
-f1_keywords: 
- - "bitscfg/IBITSExtensionSetup.GetCleanupTaskName"
+f1_keywords:
+- bitscfg/IBITSExtensionSetup.GetCleanupTaskName
 dev_langs:
- - c++
+- c++
 req.header: bitscfg.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: BitsMgr.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - BitsMgr.dll
+- BitsMgr.dll
 api_name:
- - IBITSExtensionSetup.GetCleanupTaskName
+- IBITSExtensionSetup.GetCleanupTaskName
 targetos: Windows
 req.typenames: 
 req.redist: BITS 1.5 on Windows XP

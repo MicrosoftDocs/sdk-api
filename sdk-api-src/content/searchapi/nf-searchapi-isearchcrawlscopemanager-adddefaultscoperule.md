@@ -1,19 +1,17 @@
 ---
 UID: NF:searchapi.ISearchCrawlScopeManager.AddDefaultScopeRule
 title: ISearchCrawlScopeManager::AddDefaultScopeRule (searchapi.h)
-
 description: Adds a URL as the default scope for this rule.
 old-location: search\_search_ISearchCrawlScopeManager_AddDefaultScopeRule.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\crawlscope\isearchcrawlscopemanager\adddefaultscoperule.htm
-
 ms.date: 12/05/2018
 ms.keywords: AddDefaultScopeRule, AddDefaultScopeRule method [search], AddDefaultScopeRule method [search],ISearchCrawlScopeManager interface, ISearchCrawlScopeManager interface [search],AddDefaultScopeRule method, ISearchCrawlScopeManager.AddDefaultScopeRule, ISearchCrawlScopeManager::AddDefaultScopeRule, _search_ISearchCrawlScopeManager_AddDefaultScopeRule, search._search_ISearchCrawlScopeManager_AddDefaultScopeRule, searchapi/ISearchCrawlScopeManager::AddDefaultScopeRule
 ms.topic: method
 f1_keywords:
 - searchapi/ISearchCrawlScopeManager.AddDefaultScopeRule
 dev_langs:
- - c++
+- c++
 req.header: searchapi.h
 req.include-header: 
 req.target-type: Windows

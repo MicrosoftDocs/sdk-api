@@ -1,19 +1,17 @@
 ---
 UID: NF:mmdeviceapi.IMMDeviceEnumerator.EnumAudioEndpoints
 title: IMMDeviceEnumerator::EnumAudioEndpoints (mmdeviceapi.h)
-
 description: The EnumAudioEndpoints method generates a collection of audio endpoint devices that meet the specified criteria.
 old-location: coreaudio\immdeviceenumerator_enumaudioendpoints.htm
 tech.root: CoreAudio
 ms.assetid: ebdd2dcd-82c5-423f-a85d-04388f5078ec
-
 ms.date: 12/05/2018
 ms.keywords: EnumAudioEndpoints, EnumAudioEndpoints method [Core Audio], EnumAudioEndpoints method [Core Audio],IMMDeviceEnumerator interface, IMMDeviceEnumerator interface [Core Audio],EnumAudioEndpoints method, IMMDeviceEnumerator.EnumAudioEndpoints, IMMDeviceEnumerator::EnumAudioEndpoints, IMMDeviceEnumeratorEnumAudioEndpoints, coreaudio.immdeviceenumerator_enumaudioendpoints, mmdeviceapi/IMMDeviceEnumerator::EnumAudioEndpoints
 ms.topic: method
-f1_keywords: 
- - "mmdeviceapi/IMMDeviceEnumerator.EnumAudioEndpoints"
+f1_keywords:
+- mmdeviceapi/IMMDeviceEnumerator.EnumAudioEndpoints
 dev_langs:
- - c++
+- c++
 req.header: mmdeviceapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mmdeviceapi.h
+- Mmdeviceapi.h
 api_name:
- - IMMDeviceEnumerator.EnumAudioEndpoints
+- IMMDeviceEnumerator.EnumAudioEndpoints
 targetos: Windows
 req.typenames: 
 req.redist: 

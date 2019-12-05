@@ -1,19 +1,17 @@
 ---
 UID: NF:winsync.IAsynchronousDataRetriever.RevokeCallback
 title: IAsynchronousDataRetriever::RevokeCallback (winsync.h)
-
 description: Indicates that the IAsynchronousDataRetriever object must no longer use the specified callback interface and must release any references to it.
 old-location: winsync\iasynchronousdataretriever_revokecallback.htm
 tech.root: winsync
 ms.assetid: bb7b1457-03aa-47e0-9e61-6195706a0fcd
-
 ms.date: 12/05/2018
 ms.keywords: IAsynchronousDataRetriever interface [Windows Sync],RevokeCallback method, IAsynchronousDataRetriever.RevokeCallback, IAsynchronousDataRetriever::RevokeCallback, RevokeCallback, RevokeCallback method [Windows Sync], RevokeCallback method [Windows Sync],IAsynchronousDataRetriever interface, winsync.iasynchronousdataretriever_revokecallback, winsync/IAsynchronousDataRetriever::RevokeCallback
 ms.topic: method
-f1_keywords: 
- - "winsync/IAsynchronousDataRetriever.RevokeCallback"
+f1_keywords:
+- winsync/IAsynchronousDataRetriever.RevokeCallback
 dev_langs:
- - c++
+- c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - winsync.h
+- winsync.h
 api_name:
- - IAsynchronousDataRetriever.RevokeCallback
+- IAsynchronousDataRetriever.RevokeCallback
 targetos: Windows
 req.typenames: 
 req.redist: 

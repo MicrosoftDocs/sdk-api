@@ -1,19 +1,17 @@
 ---
 UID: NE:wincodec.WICPixelFormatNumericRepresentation
 title: WICPixelFormatNumericRepresentation (wincodec.h)
-
 description: WICPixelFormatNumericRepresentation enumeration
 old-location: wic\_wic_codec_wicpixelformatnumericrepresentation.htm
 tech.root: wic
 ms.assetid: 10f32ac9-4b0d-4d21-b54a-657513fbd142
-
 ms.date: 12/05/2018
 ms.keywords: WICPixelFormatNumericRepresentation, WICPixelFormatNumericRepresentation enumeration [Windows Imaging Component], WICPixelFormatNumericRepresentationFixed, WICPixelFormatNumericRepresentationFloat, WICPixelFormatNumericRepresentationIndexed, WICPixelFormatNumericRepresentationSignedInteger, WICPixelFormatNumericRepresentationUnsignedInteger, WICPixelFormatNumericRepresentationUnspecified, _wic_codec_wicpixelformatnumericrepresentation, wic._wic_codec_wicpixelformatnumericrepresentation, wincodec/WICPixelFormatNumericRepresentation, wincodec/WICPixelFormatNumericRepresentationFixed, wincodec/WICPixelFormatNumericRepresentationFloat, wincodec/WICPixelFormatNumericRepresentationIndexed, wincodec/WICPixelFormatNumericRepresentationSignedInteger, wincodec/WICPixelFormatNumericRepresentationUnsignedInteger, wincodec/WICPixelFormatNumericRepresentationUnspecified
 ms.topic: enum
-f1_keywords: 
- - "wincodec/WICPixelFormatNumericRepresentation"
+f1_keywords:
+- wincodec/WICPixelFormatNumericRepresentation
 dev_langs:
- - c++
+- c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wincodec.h
+- Wincodec.h
 api_name:
- - WICPixelFormatNumericRepresentation
+- WICPixelFormatNumericRepresentation
 targetos: Windows
 req.typenames: WICPixelFormatNumericRepresentation
 req.redist: 

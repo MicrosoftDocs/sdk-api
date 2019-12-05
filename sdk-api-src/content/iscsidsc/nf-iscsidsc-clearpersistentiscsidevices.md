@@ -1,19 +1,17 @@
 ---
 UID: NF:iscsidsc.ClearPersistentIScsiDevices
 title: ClearPersistentIScsiDevices function (iscsidsc.h)
-
 description: ClearPersistentIscsiDevices function removes all volumes and devices from the list of persistently bound iSCSI volumes.
 old-location: iscsidisc\clearpersistentiscsidevices.htm
 tech.root: iSCSIDisc
 ms.assetid: 9e21dde6-face-40ae-803b-2aa7861e6f4f
-
 ms.date: 12/05/2018
 ms.keywords: ClearPersistentIScsiDevices, ClearPersistentiScsiDevices, ClearPersistentiScsiDevices function [iSCSI Discovery Library API], iscsidisc.clearpersistentiscsidevices, iscsidsc/ClearPersistentiScsiDevices
 ms.topic: function
-f1_keywords: 
- - "iscsidsc/ClearPersistentiScsiDevices"
+f1_keywords:
+- iscsidsc/ClearPersistentiScsiDevices
 dev_langs:
- - c++
+- c++
 req.header: iscsidsc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Iscsidsc.lib
 req.dll: Iscsidsc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Iscsidsc.dll
+- Iscsidsc.dll
 api_name:
- - ClearPersistentiScsiDevices
+- ClearPersistentiScsiDevices
 targetos: Windows
 req.typenames: 
 req.redist: 

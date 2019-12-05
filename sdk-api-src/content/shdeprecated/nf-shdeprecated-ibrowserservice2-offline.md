@@ -1,19 +1,17 @@
 ---
 UID: NF:shdeprecated.IBrowserService2.Offline
 title: IBrowserService2::Offline (shdeprecated.h)
-
 description: Deprecated. Checks for and updates the browser's offline status, synchronzing the state between the base class and any derived classes.
 old-location: shell\IBrowserService2_Offline.htm
 tech.root: shell
 ms.assetid: c1f4a4bd-2fd8-424f-b84a-d68b7e2e019c
-
 ms.date: 12/05/2018
 ms.keywords: IBrowserService2 interface [Windows Shell],Offline method, IBrowserService2.Offline, IBrowserService2::Offline, Offline, Offline method [Windows Shell], Offline method [Windows Shell],IBrowserService2 interface, SBSC_QUERY, SBSC_TOGGLE, shdeprecated/IBrowserService2::Offline, shell.IBrowserService2_Offline, zone_IBrowserService2_Offline
 ms.topic: method
-f1_keywords: 
- - "shdeprecated/IBrowserService2.Offline"
+f1_keywords:
+- shdeprecated/IBrowserService2.Offline
 dev_langs:
- - c++
+- c++
 req.header: shdeprecated.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shdeprecated.h
+- Shdeprecated.h
 api_name:
- - IBrowserService2.Offline
+- IBrowserService2.Offline
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:secext.GetUserNameExA
 title: GetUserNameExA function (secext.h)
-
 description: Retrieves the name of the user or other security principal associated with the calling thread. You can specify the format of the returned name.
 old-location: base\getusernameex.htm
 tech.root: SysInfo
 ms.assetid: 7e7d618b-2e64-4b0b-aed3-f3221b0443ca
-
 ms.date: 12/05/2018
 ms.keywords: GetUserNameEx, GetUserNameEx function, GetUserNameExA, GetUserNameExW, _win32_getusernameex, base.getusernameex, secext/GetUserNameEx, secext/GetUserNameExA, secext/GetUserNameExW
 ms.topic: function
-f1_keywords: 
- - "secext/GetUserNameEx"
+f1_keywords:
+- secext/GetUserNameEx
 dev_langs:
- - c++
+- c++
 req.header: secext.h
 req.include-header: Security.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Secur32.lib
 req.dll: Secur32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Secur32.dll
- - sspicli.dll
+- Secur32.dll
+- sspicli.dll
 api_name:
- - GetUserNameEx
- - GetUserNameExA
- - GetUserNameExW
+- GetUserNameEx
+- GetUserNameExA
+- GetUserNameExW
 targetos: Windows
 req.typenames: 
 req.redist: 

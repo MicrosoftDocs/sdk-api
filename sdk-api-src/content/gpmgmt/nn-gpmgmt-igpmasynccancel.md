@@ -1,19 +1,17 @@
 ---
 UID: NN:gpmgmt.IGPMAsyncCancel
 title: IGPMAsyncCancel (gpmgmt.h)
-
 description: A pointer to the IGPMAsyncCancel interface is returned to the client by the Group Policy Management Console (GPMC) method that the client calls asynchronously.
 old-location: gpmc\igpmasynccancel.htm
 tech.root: gpmc
 ms.assetid: 74b2bb04-6118-4fd1-83c0-3549db3f35f3
-
 ms.date: 12/05/2018
 ms.keywords: GPMAsyncCancel, IGPMAsyncCancel, IGPMAsyncCancel interface [GPMC], IGPMAsyncCancel interface [GPMC],described, _win32_igpmasynccancel, gpmc.igpmasynccancel, gpmgmt/IGPMAsyncCancel
 ms.topic: interface
-f1_keywords: 
- - "gpmgmt/IGPMAsyncCancel"
+f1_keywords:
+- gpmgmt/IGPMAsyncCancel
 dev_langs:
- - c++
+- c++
 req.header: gpmgmt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: Gpmgmt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gpmgmt.dll
+- Gpmgmt.dll
 api_name:
- - IGPMAsyncCancel
- - GPMAsyncCancel
+- IGPMAsyncCancel
+- GPMAsyncCancel
 targetos: Windows
 req.typenames: 
 req.redist: 

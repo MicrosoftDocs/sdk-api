@@ -1,19 +1,17 @@
 ---
 UID: NF:realtimeapiset.QueryInterruptTimePrecise
 title: QueryInterruptTimePrecise function (realtimeapiset.h)
-
 description: Gets the current interrupt-time count, in a more precise form than QueryInterruptTime does.
 old-location: base\queryinterrupttimeprecise.htm
 tech.root: SysInfo
 ms.assetid: 0F65A707-0899-4F79-B7CD-16C9143C4173
-
 ms.date: 12/05/2018
 ms.keywords: QueryInterruptTimePrecise, QueryInterruptTimePrecise function, base.queryinterrupttimeprecise, realtimeapiset/QueryInterruptTimePrecise
 ms.topic: function
-f1_keywords: 
- - "realtimeapiset/QueryInterruptTimePrecise"
+f1_keywords:
+- realtimeapiset/QueryInterruptTimePrecise
 dev_langs:
- - c++
+- c++
 req.header: realtimeapiset.h
 req.include-header: 
 req.target-type: Windows
@@ -32,19 +30,19 @@ req.lib: Mincore.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - kernel32.dll
- - API-MS-Win-Core-realtime-l1-1-0.dll
- - KernelBase.dll
- - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
- - MinKernelBase.dll
- - API-MS-Win-Core-RealTime-l1-1-1.dll
+- kernel32.dll
+- API-MS-Win-Core-realtime-l1-1-0.dll
+- KernelBase.dll
+- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+- MinKernelBase.dll
+- API-MS-Win-Core-RealTime-l1-1-1.dll
 api_name:
- - QueryInterruptTimePrecise
+- QueryInterruptTimePrecise
 targetos: Windows
 req.typenames: 
 req.redist: 

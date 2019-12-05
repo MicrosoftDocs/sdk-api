@@ -1,19 +1,17 @@
 ---
 UID: NN:wincodec.IWICStream
 title: IWICStream (wincodec.h)
-
 description: Represents a Windows Imaging Component (WIC) stream for referencing imaging and metadata content.
 old-location: wic\_wic_codec_iwicstream.htm
 tech.root: wic
 ms.assetid: bc398732-037d-4f48-940f-c70975447972
-
 ms.date: 12/05/2018
 ms.keywords: IWICStream, IWICStream interface [Windows Imaging Component], IWICStream interface [Windows Imaging Component],described, _wic_codec_iwicstream, wic._wic_codec_iwicstream, wincodec/IWICStream
 ms.topic: interface
-f1_keywords: 
- - "wincodec/IWICStream"
+f1_keywords:
+- wincodec/IWICStream
 dev_langs:
- - c++
+- c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Windowscodecs.lib
 req.dll: Windowscodecs.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Windowscodecs.dll
+- Windowscodecs.dll
 api_name:
- - IWICStream
+- IWICStream
 targetos: Windows
 req.typenames: 
 req.redist: 

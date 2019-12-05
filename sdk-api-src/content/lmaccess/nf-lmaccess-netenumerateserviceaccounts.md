@@ -1,19 +1,17 @@
 ---
 UID: NF:lmaccess.NetEnumerateServiceAccounts
 title: NetEnumerateServiceAccounts function (lmaccess.h)
-
 description: Enumerates the standalone managed service accounts (sMSA) on the specified server.
 old-location: security\netenumerateserviceaccounts.htm
 tech.root: SecMgmt
 ms.assetid: 048116b6-1bae-4dcc-9bd0-a466c395e5d8
-
 ms.date: 12/05/2018
 ms.keywords: NetEnumerateServiceAccounts, NetEnumerateServiceAccounts function [Security], lmaccess/NetEnumerateServiceAccounts, security.netenumerateserviceaccounts
 ms.topic: function
-f1_keywords: 
- - "lmaccess/NetEnumerateServiceAccounts"
+f1_keywords:
+- lmaccess/NetEnumerateServiceAccounts
 dev_langs:
- - c++
+- c++
 req.header: lmaccess.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Netapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Netapi32.dll
+- Netapi32.dll
 api_name:
- - NetEnumerateServiceAccounts
+- NetEnumerateServiceAccounts
 targetos: Windows
 req.typenames: 
 req.redist: 

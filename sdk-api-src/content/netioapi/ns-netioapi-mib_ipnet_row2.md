@@ -1,19 +1,17 @@
 ---
 UID: NS:netioapi._MIB_IPNET_ROW2
 title: MIB_IPNET_ROW2 (netioapi.h)
-
 description: Stores information about a neighbor IP address.
 old-location: mib\mib_ipnet_row2.htm
 tech.root: MIB
 ms.assetid: 164dbd93-4464-40f9-989a-17597102b1d8
-
 ms.date: 12/05/2018
-ms.keywords: "*PMIB_IPNET_ROW2, MIB_IPNET_ROW2, MIB_IPNET_ROW2 structure [MIB], NlnsDelay, NlnsIncomplete, NlnsMaximum, NlnsPermanent, NlnsProbe, NlnsReachable, NlnsStale, NlnsUnreachable, PMIB_IPNET_ROW2, PMIB_IPNET_ROW2 structure pointer [MIB], _MIB_IPNET_ROW2, mib.mib_ipnet_row2, netioapi/MIB_IPNET_ROW2, netioapi/PMIB_IPNET_ROW2"
+ms.keywords: '*PMIB_IPNET_ROW2, MIB_IPNET_ROW2, MIB_IPNET_ROW2 structure [MIB], NlnsDelay, NlnsIncomplete, NlnsMaximum, NlnsPermanent, NlnsProbe, NlnsReachable, NlnsStale, NlnsUnreachable, PMIB_IPNET_ROW2, PMIB_IPNET_ROW2 structure pointer [MIB], _MIB_IPNET_ROW2, mib.mib_ipnet_row2, netioapi/MIB_IPNET_ROW2, netioapi/PMIB_IPNET_ROW2'
 ms.topic: struct
-f1_keywords: 
- - "netioapi/MIB_IPNET_ROW2"
+f1_keywords:
+- netioapi/MIB_IPNET_ROW2
 dev_langs:
- - c++
+- c++
 req.header: netioapi.h
 req.include-header: Iphlpapi.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Netioapi.h
+- Netioapi.h
 api_name:
- - MIB_IPNET_ROW2
+- MIB_IPNET_ROW2
 targetos: Windows
 req.typenames: MIB_IPNET_ROW2, *PMIB_IPNET_ROW2
 req.redist: 

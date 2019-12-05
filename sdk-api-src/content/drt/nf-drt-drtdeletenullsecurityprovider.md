@@ -1,19 +1,17 @@
 ---
 UID: NF:drt.DrtDeleteNullSecurityProvider
 title: DrtDeleteNullSecurityProvider function (drt.h)
-
 description: DrtDeleteNullSecurityProvider function deletes a null security provider for a Distributed Routing Table.
 old-location: p2p\drtdeletenullsecurityprovider.htm
 tech.root: P2PSdk
 ms.assetid: 950a43f3-1c1d-4fb3-988b-d58ac9eff2f8
-
 ms.date: 12/05/2018
 ms.keywords: DrtDeleteNullSecurityProvider, DrtDeleteNullSecurityProvider function [Distributed Routing Tables], drt/DrtDeleteNullSecurityProvider, p2p.drtdeletenullsecurityprovider
 ms.topic: function
-f1_keywords: 
- - "drt/DrtDeleteNullSecurityProvider"
+f1_keywords:
+- drt/DrtDeleteNullSecurityProvider
 dev_langs:
- - c++
+- c++
 req.header: drt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Drtprov.lib
 req.dll: Drt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - drt.dll
+- drt.dll
 api_name:
- - DrtDeleteNullSecurityProvider
+- DrtDeleteNullSecurityProvider
 targetos: Windows
 req.typenames: 
 req.redist: 

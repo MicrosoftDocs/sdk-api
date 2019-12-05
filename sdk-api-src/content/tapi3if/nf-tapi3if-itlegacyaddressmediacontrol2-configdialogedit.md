@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi3if.ITLegacyAddressMediaControl2.ConfigDialogEdit
 title: ITLegacyAddressMediaControl2::ConfigDialogEdit (tapi3if.h)
-
 description: The ConfigDialogEdit method causes the provider of the specified line device to display a dialog box to allow the user to configure parameters related to the line device.
 old-location: tapi3\itlegacyaddressmediacontrol2_configdialogedit.htm
 tech.root: Tapi
 ms.assetid: ff3e1cd4-bbd6-43c1-ad55-4787269821da
-
 ms.date: 12/05/2018
 ms.keywords: ConfigDialogEdit, ConfigDialogEdit method [TAPI 2.2], ConfigDialogEdit method [TAPI 2.2],ITLegacyAddressMediaControl2 interface, ITLegacyAddressMediaControl2 interface [TAPI 2.2],ConfigDialogEdit method, ITLegacyAddressMediaControl2.ConfigDialogEdit, ITLegacyAddressMediaControl2::ConfigDialogEdit, _tapi3_itlegacyaddressmediacontrol2_configdialogedit, tapi3.itlegacyaddressmediacontrol2_configdialogedit, tapi3if/ITLegacyAddressMediaControl2::ConfigDialogEdit
 ms.topic: method
-f1_keywords: 
- - "tapi3if/ITLegacyAddressMediaControl2.ConfigDialogEdit"
+f1_keywords:
+- tapi3if/ITLegacyAddressMediaControl2.ConfigDialogEdit
 dev_langs:
- - c++
+- c++
 req.header: tapi3if.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Tapi3.dll
+- Tapi3.dll
 api_name:
- - ITLegacyAddressMediaControl2.ConfigDialogEdit
+- ITLegacyAddressMediaControl2.ConfigDialogEdit
 targetos: Windows
 req.typenames: 
 req.redist: 

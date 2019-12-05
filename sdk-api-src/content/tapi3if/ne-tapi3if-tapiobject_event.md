@@ -1,19 +1,17 @@
 ---
 UID: NE:tapi3if.TAPIOBJECT_EVENT
 title: TAPIOBJECT_EVENT (tapi3if.h)
-
 description: The TAPIOBJECT_EVENT enum describes TAPI object events. The ITTAPIObjectEvent::get_Event method returns a member of this enum to indicate the type of TAPI object event that occurred.
 old-location: tapi3\tapiobject_event.htm
 tech.root: Tapi
 ms.assetid: 606e9f99-d90c-4d4a-8dd5-2734c9bd2e7e
-
 ms.date: 12/05/2018
 ms.keywords: TAPIOBJECT_EVENT, TAPIOBJECT_EVENT enumeration [TAPI 2.2], TE_ADDRESSCLOSE, TE_ADDRESSCREATE, TE_ADDRESSREMOVE, TE_REINIT, TE_TRANSLATECHANGE, _tapi3_tapiobject_event, tapi3.tapiobject_event, tapi3if/TAPIOBJECT_EVENT, tapi3if/TE_ADDRESSCLOSE, tapi3if/TE_ADDRESSCREATE, tapi3if/TE_ADDRESSREMOVE, tapi3if/TE_REINIT, tapi3if/TE_TRANSLATECHANGE
 ms.topic: enum
-f1_keywords: 
- - "tapi3if/TAPIOBJECT_EVENT"
+f1_keywords:
+- tapi3if/TAPIOBJECT_EVENT
 dev_langs:
- - c++
+- c++
 req.header: tapi3if.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Tapi3if.h
+- Tapi3if.h
 api_name:
- - TAPIOBJECT_EVENT
+- TAPIOBJECT_EVENT
 targetos: Windows
 req.typenames: TAPIOBJECT_EVENT
 req.redist: 

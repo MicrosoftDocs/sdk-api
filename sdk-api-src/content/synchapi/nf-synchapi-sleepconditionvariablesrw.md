@@ -1,19 +1,17 @@
 ---
 UID: NF:synchapi.SleepConditionVariableSRW
 title: SleepConditionVariableSRW function (synchapi.h)
-
 description: Sleeps on the specified condition variable and releases the specified lock as an atomic operation.
 old-location: base\sleepconditionvariablesrw.htm
 tech.root: Sync
 ms.assetid: 133f710f-5304-4b92-bec4-d9e8863bfa6d
-
 ms.date: 12/05/2018
 ms.keywords: SleepConditionVariableSRW, SleepConditionVariableSRW function, base.sleepconditionvariablesrw, synchapi/SleepConditionVariableSRW, winbase/SleepConditionVariableSRW
 ms.topic: function
-f1_keywords: 
- - "synchapi/SleepConditionVariableSRW"
+f1_keywords:
+- synchapi/SleepConditionVariableSRW
 dev_langs:
- - c++
+- c++
 req.header: synchapi.h
 req.include-header: Windows 7, Windows Server 2008  Windows Server 2008 R2, Windows.h
 req.target-type: Windows
@@ -32,19 +30,19 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-Synch-l1-2-0.dll
- - KernelBase.dll
- - API-MS-Win-Core-Synch-l1-2-1.dll
- - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
- - MinKernelBase.dll
+- Kernel32.dll
+- API-MS-Win-Core-Synch-l1-2-0.dll
+- KernelBase.dll
+- API-MS-Win-Core-Synch-l1-2-1.dll
+- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+- MinKernelBase.dll
 api_name:
- - SleepConditionVariableSRW
+- SleepConditionVariableSRW
 targetos: Windows
 req.typenames: 
 req.redist: 

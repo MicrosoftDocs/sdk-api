@@ -1,19 +1,17 @@
 ---
 UID: NN:netcon.INetSharingConfiguration
 title: INetSharingConfiguration (netcon.h)
-
 description: The INetSharingConfiguration interface provides methods to manage connection sharing, port mapping, and Internet Connection Firewall.
 old-location: ics\inetsharingconfiguration.htm
 tech.root: ics
 ms.assetid: 3ed1a3ae-87af-4415-b149-c66ae65cd053
-
 ms.date: 12/05/2018
 ms.keywords: INetSharingConfiguration, INetSharingConfiguration interface [ICS/ICF], INetSharingConfiguration interface [ICS/ICF],described, _ics_inetsharingconfiguration, ics.inetsharingconfiguration, netcon/INetSharingConfiguration
 ms.topic: interface
-f1_keywords: 
- - "netcon/INetSharingConfiguration"
+f1_keywords:
+- netcon/INetSharingConfiguration
 dev_langs:
- - c++
+- c++
 req.header: netcon.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Hnetcfg.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Hnetcfg.dll
+- Hnetcfg.dll
 api_name:
- - INetSharingConfiguration
+- INetSharingConfiguration
 targetos: Windows
 req.typenames: 
 req.redist: 

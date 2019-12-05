@@ -1,19 +1,17 @@
 ---
 UID: NF:photoacquire.IPhotoProgressDialog.IsCheckboxChecked
 title: IPhotoProgressDialog::IsCheckboxChecked (photoacquire.h)
-
 description: The IsCheckboxChecked method indicates whether the check box in the progress dialog box (typically indicating whether to delete files after transfer) is selected.
 old-location: picacq\iphotoprogressdialog_ischeckboxchecked.htm
 tech.root: acquisition
 ms.assetid: 05810577-c23a-4f75-9cd5-0b5b6be7d181
-
 ms.date: 12/05/2018
 ms.keywords: IPhotoProgressDialog interface [Picture Acquisition],IsCheckboxChecked method, IPhotoProgressDialog.IsCheckboxChecked, IPhotoProgressDialog::IsCheckboxChecked, IPhotoProgressDialogIsCheckboxChecked, IsCheckboxChecked, IsCheckboxChecked method [Picture Acquisition], IsCheckboxChecked method [Picture Acquisition],IPhotoProgressDialog interface, photoacquire/IPhotoProgressDialog::IsCheckboxChecked, picacq.iphotoprogressdialog_ischeckboxchecked
 ms.topic: method
-f1_keywords: 
- - "photoacquire/IPhotoProgressDialog.IsCheckboxChecked"
+f1_keywords:
+- photoacquire/IPhotoProgressDialog.IsCheckboxChecked
 dev_langs:
- - c++
+- c++
 req.header: photoacquire.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: PhotoAcquireUID.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - PhotoAcquireUID.lib
- - PhotoAcquireUID.dll
+- PhotoAcquireUID.lib
+- PhotoAcquireUID.dll
 api_name:
- - IPhotoProgressDialog.IsCheckboxChecked
+- IPhotoProgressDialog.IsCheckboxChecked
 targetos: Windows
 req.typenames: 
 req.redist: 

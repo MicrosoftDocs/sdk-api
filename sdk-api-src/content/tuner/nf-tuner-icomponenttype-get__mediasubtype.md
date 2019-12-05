@@ -1,19 +1,17 @@
 ---
 UID: NF:tuner.IComponentType.get__MediaSubType
 title: IComponentType::get__MediaSubType (tuner.h)
-
 description: The get__MediaSubType method retrieves the DirectShow media subtype as a GUID.
 old-location: mstv\icomponenttype_get__mediasubtype.htm
 tech.root: mstv
 ms.assetid: 92c49f9a-2102-424d-b04c-68aae8a37ada
-
 ms.date: 12/05/2018
 ms.keywords: IComponentType interface [Microsoft TV Technologies],get__MediaSubType method, IComponentType.get__MediaSubType, IComponentType::get__MediaSubType, IComponentTypeget__MediaSubType, get__MediaSubType, get__MediaSubType method [Microsoft TV Technologies], get__MediaSubType method [Microsoft TV Technologies],IComponentType interface, mstv.icomponenttype_get__mediasubtype, tuner/IComponentType::get__MediaSubType
 ms.topic: method
-f1_keywords: 
- - "tuner/IComponentType.get__MediaSubType"
+f1_keywords:
+- tuner/IComponentType.get__MediaSubType
 dev_langs:
- - c++
+- c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - tuner.h
+- tuner.h
 api_name:
- - IComponentType.get__MediaSubType
+- IComponentType.get__MediaSubType
 targetos: Windows
 req.typenames: 
 req.redist: 

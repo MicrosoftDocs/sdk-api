@@ -1,19 +1,17 @@
 ---
 UID: NF:shimgdata.IShellImageData.IsMultipage
 title: IShellImageData::IsMultipage (shimgdata.h)
-
 description: Determines whether the image is a multipage Tagged Image File Format (TIFF) image.
 old-location: shell\IShellImageData_IsMultipage.htm
 tech.root: shell
 ms.assetid: a9c86f0e-5237-432c-a2bb-4054a23d707e
-
 ms.date: 12/05/2018
 ms.keywords: IShellImageData interface [Windows Shell],IsMultipage method, IShellImageData.IsMultipage, IShellImageData::IsMultipage, IsMultipage, IsMultipage method [Windows Shell], IsMultipage method [Windows Shell],IShellImageData interface, _shell_IShellImageData_IsMultipage, shell.IShellImageData_IsMultipage, shimgdata/IShellImageData::IsMultipage
 ms.topic: method
-f1_keywords: 
- - "shimgdata/IShellImageData.IsMultipage"
+f1_keywords:
+- shimgdata/IShellImageData.IsMultipage
 dev_langs:
- - c++
+- c++
 req.header: shimgdata.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Shell32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - IShellImageData.IsMultipage
+- IShellImageData.IsMultipage
 targetos: Windows
 req.typenames: 
 req.redist: 

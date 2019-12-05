@@ -1,19 +1,17 @@
 ---
 UID: NF:comsvcs.GetManagedExtensions
 title: GetManagedExtensions function (comsvcs.h)
-
 description: Determines whether the installed version of COM+ supports special features provided to manage serviced components (managed objects).
 old-location: cos\getmanagedextensions.htm
 tech.root: cossdk
 ms.assetid: cffd18c4-6e37-447b-b749-64793711ea56
-
 ms.date: 12/05/2018
 ms.keywords: GetManagedExtensions, GetManagedExtensions function [COM+], _cos_GetManagedExtensions, comsvcs/GetManagedExtensions, cos.getmanagedextensions
 ms.topic: function
-f1_keywords: 
- - "comsvcs/GetManagedExtensions"
+f1_keywords:
+- comsvcs/GetManagedExtensions
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: ComSvcs.lib
 req.dll: ComSvcs.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - ComSvcs.dll
+- ComSvcs.dll
 api_name:
- - GetManagedExtensions
+- GetManagedExtensions
 targetos: Windows
 req.typenames: 
 req.redist: 

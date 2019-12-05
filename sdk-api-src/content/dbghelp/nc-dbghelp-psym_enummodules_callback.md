@@ -1,19 +1,17 @@
 ---
 UID: NC:dbghelp.PSYM_ENUMMODULES_CALLBACK
 title: PSYM_ENUMMODULES_CALLBACK (dbghelp.h)
-
 description: An application-defined callback function used with the SymEnumerateModules64 function. It is called once for each enumerated module, and receives the module information.
 old-location: base\symenumeratemodulesproc64.htm
 tech.root: Debug
 ms.assetid: 97a82134-7e1b-4c7e-aa55-8347fea4e739
-
 ms.date: 12/05/2018
 ms.keywords: PSYM_ENUMMODULES_CALLBACK, PSYM_ENUMMODULES_CALLBACK64, PSYM_ENUMMODULES_CALLBACKW64, SymEnumerateModulesProc64, SymEnumerateModulesProc64 callback, SymEnumerateModulesProc64 callback function, _win32_symenumeratemodulesproc64, base.symenumeratemodulesproc64, dbghelp/SymEnumerateModulesProc64
 ms.topic: callback
-f1_keywords: 
- - "dbghelp/SymEnumerateModulesProc64"
+f1_keywords:
+- dbghelp/SymEnumerateModulesProc64
 dev_langs:
- - c++
+- c++
 req.header: dbghelp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - DbgHelp.h
+- DbgHelp.h
 api_name:
- - SymEnumerateModulesProc64
+- SymEnumerateModulesProc64
 targetos: Windows
 req.typenames: 
 req.redist: DbgHelp.dll 5.1 or later

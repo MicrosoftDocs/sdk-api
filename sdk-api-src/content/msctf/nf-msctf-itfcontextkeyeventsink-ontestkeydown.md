@@ -1,19 +1,17 @@
 ---
 UID: NF:msctf.ITfContextKeyEventSink.OnTestKeyDown
 title: ITfContextKeyEventSink::OnTestKeyDown (msctf.h)
-
 description: ITfContextKeyEventSink::OnTestKeyDown method
 old-location: tsf\itfcontextkeyeventsink_ontestkeydown.htm
 tech.root: TSF
 ms.assetid: 26f22721-6d64-4637-92cd-8c18caa2d95f
-
 ms.date: 12/05/2018
 ms.keywords: ITfContextKeyEventSink interface [Text Services Framework],OnTestKeyDown method, ITfContextKeyEventSink.OnTestKeyDown, ITfContextKeyEventSink::OnTestKeyDown, OnTestKeyDown, OnTestKeyDown method [Text Services Framework], OnTestKeyDown method [Text Services Framework],ITfContextKeyEventSink interface, _tsf_itfcontextkeyeventsink_ontestkeydown_ref, msctf/ITfContextKeyEventSink::OnTestKeyDown, tsf.itfcontextkeyeventsink_ontestkeydown
 ms.topic: method
-f1_keywords: 
- - "msctf/ITfContextKeyEventSink.OnTestKeyDown"
+f1_keywords:
+- msctf/ITfContextKeyEventSink.OnTestKeyDown
 dev_langs:
- - c++
+- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Mscandui.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mscandui.dll
+- mscandui.dll
 api_name:
- - ITfContextKeyEventSink.OnTestKeyDown
+- ITfContextKeyEventSink.OnTestKeyDown
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

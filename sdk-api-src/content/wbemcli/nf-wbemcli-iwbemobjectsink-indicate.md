@@ -1,19 +1,17 @@
 ---
 UID: NF:wbemcli.IWbemObjectSink.Indicate
 title: IWbemObjectSink::Indicate (wbemcli.h)
-
 description: Called by a source to provide a notification.
 old-location: wmi\iwbemobjectsink_indicate.htm
 tech.root: WmiSdk
 ms.assetid: 96756b27-cbcf-47ce-a8c8-88795a81edde
-
 ms.date: 12/05/2018
 ms.keywords: IWbemObjectSink interface [Windows Management Instrumentation],Indicate method, IWbemObjectSink.Indicate, IWbemObjectSink::Indicate, IWbemObjectSinkEx interface [Windows Management Instrumentation],Indicate method, IWbemObjectSinkEx::Indicate, Indicate, Indicate method [Windows Management Instrumentation], Indicate method [Windows Management Instrumentation],IWbemObjectSink interface, Indicate method [Windows Management Instrumentation],IWbemObjectSinkEx interface, _hmm_iwbemobjectsink_indicate, wbemcli/IWbemObjectSink::Indicate, wbemcli/IWbemObjectSinkEx::Indicate, wmi.iwbemobjectsink_indicate
 ms.topic: method
-f1_keywords: 
- - "wbemcli/IWbemObjectSink.Indicate"
+f1_keywords:
+- wbemcli/IWbemObjectSink.Indicate
 dev_langs:
- - c++
+- c++
 req.header: wbemcli.h
 req.include-header: Wbemidl.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Wbemuuid.lib
 req.dll: Fastprox.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Fastprox.dll
+- Fastprox.dll
 api_name:
- - IWbemObjectSink.Indicate
- - IWbemObjectSinkEx.Indicate
+- IWbemObjectSink.Indicate
+- IWbemObjectSinkEx.Indicate
 targetos: Windows
 req.typenames: 
 req.redist: 

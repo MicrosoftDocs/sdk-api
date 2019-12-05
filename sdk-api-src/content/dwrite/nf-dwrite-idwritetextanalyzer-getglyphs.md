@@ -1,19 +1,17 @@
 ---
 UID: NF:dwrite.IDWriteTextAnalyzer.GetGlyphs
 title: IDWriteTextAnalyzer::GetGlyphs (dwrite.h)
-
 description: Parses the input text string and maps it to the set of glyphs and associated glyph data according to the font and the writing system's rendering rules.
 old-location: directwrite\IDWriteTextAnalyzer_GetGlyphs.htm
 tech.root: DirectWrite
 ms.assetid: 9bc373b6-9161-4ffc-a942-50d97d6509c3
-
 ms.date: 12/05/2018
 ms.keywords: GetGlyphs, GetGlyphs method [Direct Write], GetGlyphs method [Direct Write],IDWriteTextAnalyzer interface, IDWriteTextAnalyzer interface [Direct Write],GetGlyphs method, IDWriteTextAnalyzer.GetGlyphs, IDWriteTextAnalyzer::GetGlyphs, directwrite.IDWriteTextAnalyzer_GetGlyphs, dwrite/IDWriteTextAnalyzer::GetGlyphs
 ms.topic: method
-f1_keywords: 
- - "dwrite/IDWriteTextAnalyzer.GetGlyphs"
+f1_keywords:
+- dwrite/IDWriteTextAnalyzer.GetGlyphs
 dev_langs:
- - c++
+- c++
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dwrite.lib
 req.dll: Dwrite.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dwrite.dll
+- dwrite.dll
 api_name:
- - IDWriteTextAnalyzer.GetGlyphs
+- IDWriteTextAnalyzer.GetGlyphs
 targetos: Windows
 req.typenames: 
 req.redist: 

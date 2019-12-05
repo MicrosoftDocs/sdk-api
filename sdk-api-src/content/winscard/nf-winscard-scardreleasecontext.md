@@ -1,19 +1,17 @@
 ---
 UID: NF:winscard.SCardReleaseContext
 title: SCardReleaseContext function (winscard.h)
-
 description: Closes an established resource manager context, freeing any resources allocated under that context, including SCARDHANDLE objects and memory allocated using the SCARD_AUTOALLOCATE length designator.
 old-location: security\scardreleasecontext.htm
 tech.root: SecAuthN
 ms.assetid: aa17cf94-ca66-4b5e-b1cd-00319f496b09
-
 ms.date: 12/05/2018
 ms.keywords: SCardReleaseContext, SCardReleaseContext function [Security], _smart_scardreleasecontext, security.scardreleasecontext, winscard/SCardReleaseContext
 ms.topic: function
-f1_keywords: 
- - "winscard/SCardReleaseContext"
+f1_keywords:
+- winscard/SCardReleaseContext
 dev_langs:
- - c++
+- c++
 req.header: winscard.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Winscard.lib
 req.dll: Winscard.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Winscard.dll
- - Ext-MS-Win-wlan-scard-l1-1-0.dll
- - Ext-MS-Win-Security-WinSCard-L1-1-0.dll
+- Winscard.dll
+- Ext-MS-Win-wlan-scard-l1-1-0.dll
+- Ext-MS-Win-Security-WinSCard-L1-1-0.dll
 api_name:
- - SCardReleaseContext
+- SCardReleaseContext
 targetos: Windows
 req.typenames: 
 req.redist: 

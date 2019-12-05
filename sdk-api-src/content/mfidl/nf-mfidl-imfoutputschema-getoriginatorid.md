@@ -1,19 +1,17 @@
 ---
 UID: NF:mfidl.IMFOutputSchema.GetOriginatorID
 title: IMFOutputSchema::GetOriginatorID (mfidl.h)
-
 description: Retrieves a GUID identifying the input trust authority (ITA) that generated this output schema object.
 old-location: mf\imfoutputschema_getoriginatorid.htm
 tech.root: medfound
 ms.assetid: a8e7ccbe-8fcf-418e-b3e8-263f6296ff36
-
 ms.date: 12/05/2018
 ms.keywords: GetOriginatorID, GetOriginatorID method [Media Foundation], GetOriginatorID method [Media Foundation],IMFOutputSchema interface, IMFOutputSchema interface [Media Foundation],GetOriginatorID method, IMFOutputSchema.GetOriginatorID, IMFOutputSchema::GetOriginatorID, a8e7ccbe-8fcf-418e-b3e8-263f6296ff36, mf.imfoutputschema_getoriginatorid, mfidl/IMFOutputSchema::GetOriginatorID
 ms.topic: method
-f1_keywords: 
- - "mfidl/IMFOutputSchema.GetOriginatorID"
+f1_keywords:
+- mfidl/IMFOutputSchema.GetOriginatorID
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFOutputSchema.GetOriginatorID
+- IMFOutputSchema.GetOriginatorID
 targetos: Windows
 req.typenames: 
 req.redist: 

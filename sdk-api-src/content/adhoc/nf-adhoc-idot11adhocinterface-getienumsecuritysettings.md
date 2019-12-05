@@ -1,19 +1,17 @@
 ---
 UID: NF:adhoc.IDot11AdHocInterface.GetIEnumSecuritySettings
 title: IDot11AdHocInterface::GetIEnumSecuritySettings (adhoc.h)
-
 description: Gets the collection of security settings associated with this NIC.
 old-location: nwifi\idot11adhocinterface_getienumsecuritysettings.htm
 tech.root: NativeWiFi
 ms.assetid: e5f98222-83aa-4ba9-adc7-e7b67eb5dc0d
-
 ms.date: 12/05/2018
 ms.keywords: GetIEnumSecuritySettings, GetIEnumSecuritySettings method [NativeWIFI], GetIEnumSecuritySettings method [NativeWIFI],IDot11AdHocInterface interface, IDot11AdHocInterface interface [NativeWIFI],GetIEnumSecuritySettings method, IDot11AdHocInterface.GetIEnumSecuritySettings, IDot11AdHocInterface::GetIEnumSecuritySettings, adhoc/IDot11AdHocInterface::GetIEnumSecuritySettings, nwifi.idot11adhocinterface_getienumsecuritysettings
 ms.topic: method
-f1_keywords: 
- - "adhoc/IDot11AdHocInterface.GetIEnumSecuritySettings"
+f1_keywords:
+- adhoc/IDot11AdHocInterface.GetIEnumSecuritySettings
 dev_langs:
- - c++
+- c++
 req.header: adhoc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - adhoc.h
+- adhoc.h
 api_name:
- - IDot11AdHocInterface.GetIEnumSecuritySettings
+- IDot11AdHocInterface.GetIEnumSecuritySettings
 targetos: Windows
 req.typenames: 
 req.redist: 

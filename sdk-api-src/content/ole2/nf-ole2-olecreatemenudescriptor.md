@@ -1,19 +1,17 @@
 ---
 UID: NF:ole2.OleCreateMenuDescriptor
 title: OleCreateMenuDescriptor function (ole2.h)
-
 description: Creates and returns an OLE menu descriptor (that is, an OLE-provided data structure that describes the menus) for OLE to use when dispatching menu messages and commands.
 old-location: com\olecreatemenudescriptor.htm
 tech.root: com
 ms.assetid: b4a6b3f1-aee9-4b68-8ffe-24bd497db0a0
-
 ms.date: 12/05/2018
 ms.keywords: OleCreateMenuDescriptor, OleCreateMenuDescriptor function [COM], _ole_OleCreateMenuDescriptor, com.olecreatemenudescriptor, ole2/OleCreateMenuDescriptor
 ms.topic: function
-f1_keywords: 
- - "ole2/OleCreateMenuDescriptor"
+f1_keywords:
+- ole2/OleCreateMenuDescriptor
 dev_langs:
- - c++
+- c++
 req.header: ole2.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Ole32.lib
 req.dll: Ole32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ole32.dll
- - Ext-MS-Win-Com-OLE32-l1-1-3.dll
- - Ext-MS-Win-Com-Ole32-L1-1-4.dll
+- Ole32.dll
+- Ext-MS-Win-Com-OLE32-l1-1-3.dll
+- Ext-MS-Win-Com-Ole32-L1-1-4.dll
 api_name:
- - OleCreateMenuDescriptor
+- OleCreateMenuDescriptor
 targetos: Windows
 req.typenames: 
 req.redist: 

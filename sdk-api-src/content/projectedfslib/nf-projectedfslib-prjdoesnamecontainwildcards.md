@@ -1,19 +1,17 @@
 ---
 UID: NF:projectedfslib.PrjDoesNameContainWildCards
 title: PrjDoesNameContainWildCards function (projectedfslib.h)
-
 description: Determines whether a name contains wildcard characters.
 old-location: projfs\prjdoesnamecontainwildcards.htm
 tech.root: ProjFS
 ms.assetid: AE1896D4-0DFB-477F-ADD8-C6C14DAD27CD
-
 ms.date: 12/05/2018
 ms.keywords: PrjDoesNameContainWildCards, PrjDoesNameContainWildCards function, ProjFS.prjdoesnamecontainwildcards, projectedfslib/PrjDoesNameContainWildCards
 ms.topic: function
-f1_keywords: 
- - "projectedfslib/PrjDoesNameContainWildCards"
+f1_keywords:
+- projectedfslib/PrjDoesNameContainWildCards
 dev_langs:
- - c++
+- c++
 req.header: projectedfslib.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - projectedfslib.h
+- projectedfslib.h
 api_name:
- - PrjDoesNameContainWildCards
+- PrjDoesNameContainWildCards
 targetos: Windows
 req.typenames: 
 req.redist: 

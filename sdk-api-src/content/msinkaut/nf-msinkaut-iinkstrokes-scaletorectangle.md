@@ -1,19 +1,17 @@
 ---
 UID: NF:msinkaut.IInkStrokes.ScaleToRectangle
 title: IInkStrokes::ScaleToRectangle (msinkaut.h)
-
 description: Scales the IInkStrokeDisp object or InkStrokes collection to fit in the specified InkRectangle object.
 old-location: tablet\inkstrokes_scaletorectangle.htm
 tech.root: tablet
 ms.assetid: 592b28e7-2bde-497d-8a15-2a1b4cc509b1
-
 ms.date: 12/05/2018
 ms.keywords: 8bc22004-3781-4018-9a92-88958039248c, IInkStrokes interface [Tablet PC],ScaleToRectangle method, IInkStrokes.ScaleToRectangle, IInkStrokes::ScaleToRectangle, ScaleToRectangle, ScaleToRectangle method [Tablet PC], ScaleToRectangle method [Tablet PC],IInkStrokes interface, msinkaut/IInkStrokes::ScaleToRectangle, tablet.inkstrokes_scaletorectangle
 ms.topic: method
-f1_keywords: 
- - "msinkaut/IInkStrokes.ScaleToRectangle"
+f1_keywords:
+- msinkaut/IInkStrokes.ScaleToRectangle
 dev_langs:
- - c++
+- c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: InkObj.dll
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - InkObj.dll
- - InkObj.dll.dll
+- InkObj.dll
+- InkObj.dll.dll
 api_name:
- - IInkStrokes.ScaleToRectangle
+- IInkStrokes.ScaleToRectangle
 targetos: Windows
 req.typenames: 
 req.redist: 

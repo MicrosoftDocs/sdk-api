@@ -1,19 +1,17 @@
 ---
 UID: NF:rpcproxy.CStdAsyncStubBuffer2_Release
 title: CStdAsyncStubBuffer2_Release function (rpcproxy.h)
-
 description: Implements the IRpcStubBuffer::Release method.
 old-location: rpc\cstdasyncstubbuffer2_release.htm
 tech.root: Rpc
 ms.assetid: EFA170DE-1EE2-453D-BB0D-EEEEB7E1837B
-
 ms.date: 12/05/2018
 ms.keywords: CStdAsyncStubBuffer2_Release, CStdAsyncStubBuffer2_Release function [RPC], rpc.cstdasyncstubbuffer2_release, rpcproxy/CStdAsyncStubBuffer2_Release
 ms.topic: function
-f1_keywords: 
- - "rpcproxy/CStdAsyncStubBuffer2_Release"
+f1_keywords:
+- rpcproxy/CStdAsyncStubBuffer2_Release
 dev_langs:
- - c++
+- c++
 req.header: rpcproxy.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Ole32.lib
 req.dll: Ole32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - ole32.dll
- - API-MS-Win-Core-Com-MidlProxyStub-L1-1-0.dll
- - COMBase.dll
+- ole32.dll
+- API-MS-Win-Core-Com-MidlProxyStub-L1-1-0.dll
+- COMBase.dll
 api_name:
- - CStdAsyncStubBuffer2_Release
+- CStdAsyncStubBuffer2_Release
 targetos: Windows
 req.typenames: 
 req.redist: 

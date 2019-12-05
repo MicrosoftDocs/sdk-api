@@ -1,19 +1,17 @@
 ---
 UID: NS:strmif._AMCOPPStatusOutput
 title: AMCOPPStatusOutput (strmif.h)
-
 description: The AMCOPPStatusOutput structure contains the result of a Certified Output Protection Protocol (COPP) status request.
 old-location: dshow\amcoppstatusoutput.htm
 tech.root: DirectShow
 ms.assetid: 136ce182-24c3-489d-a9c2-0121593e4b1e
-
 ms.date: 12/05/2018
-ms.keywords: "*LPAMCOPPStatusOutput, AMCOPPStatusOutput, AMCOPPStatusOutput structure [DirectShow], AMCOPPStatusOutputStructure, LPAMCOPPStatusOutput, LPAMCOPPStatusOutput structure pointer [DirectShow], dshow.amcoppstatusoutput, strmif/AMCOPPStatusOutput, strmif/LPAMCOPPStatusOutput"
+ms.keywords: '*LPAMCOPPStatusOutput, AMCOPPStatusOutput, AMCOPPStatusOutput structure [DirectShow], AMCOPPStatusOutputStructure, LPAMCOPPStatusOutput, LPAMCOPPStatusOutput structure pointer [DirectShow], dshow.amcoppstatusoutput, strmif/AMCOPPStatusOutput, strmif/LPAMCOPPStatusOutput'
 ms.topic: struct
-f1_keywords: 
- - "strmif/AMCOPPStatusOutput"
+f1_keywords:
+- strmif/AMCOPPStatusOutput
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - strmif.h
+- strmif.h
 api_name:
- - AMCOPPStatusOutput
+- AMCOPPStatusOutput
 targetos: Windows
 req.typenames: AMCOPPStatusOutput, *LPAMCOPPStatusOutput
 req.redist: 

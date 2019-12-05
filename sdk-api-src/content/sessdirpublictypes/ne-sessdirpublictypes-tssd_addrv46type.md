@@ -1,19 +1,17 @@
 ---
 UID: NE:sessdirpublictypes._TSSD_AddrV46Type
 title: TSSD_AddrV46Type (sessdirpublictypes.h)
-
 description: Indicates the IP address type.
 old-location: termserv\tssd_addrv46type.htm
 tech.root: TermServ
 ms.assetid: 3c79234e-3ded-4911-8a83-2e69d3a6294a
-
 ms.date: 12/05/2018
 ms.keywords: TSSD_ADDR_IPv4, TSSD_ADDR_IPv6, TSSD_ADDR_UNDEFINED, TSSD_AddrV46Type, TSSD_AddrV46Type enumeration [Remote Desktop Services], sessdirpublictypes/TSSD_ADDR_IPv4, sessdirpublictypes/TSSD_ADDR_IPv6, sessdirpublictypes/TSSD_ADDR_UNDEFINED, sessdirpublictypes/TSSD_AddrV46Type, termserv.tssd_addrv46type
 ms.topic: enum
-f1_keywords: 
- - "sessdirpublictypes/TSSD_AddrV46Type"
+f1_keywords:
+- sessdirpublictypes/TSSD_AddrV46Type
 dev_langs:
- - c++
+- c++
 req.header: sessdirpublictypes.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - SessDirPublicTypes.h
+- SessDirPublicTypes.h
 api_name:
- - TSSD_AddrV46Type
+- TSSD_AddrV46Type
 targetos: Windows
 req.typenames: TSSD_AddrV46Type
 req.redist: 

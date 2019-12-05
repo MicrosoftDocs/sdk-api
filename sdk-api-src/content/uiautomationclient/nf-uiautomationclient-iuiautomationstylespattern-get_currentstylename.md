@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationStylesPattern.get_CurrentStyleName
 title: IUIAutomationStylesPattern::get_CurrentStyleName (uiautomationclient.h)
-
 description: Retrieves the name of the visual style associated with an element in a document.
 old-location: winauto\uiauto_IUIAutomationStylesPattern_CurrentStyleName.htm
 tech.root: WinAuto
 ms.assetid: 008044D6-9B7B-4E1B-B22D-7518C830E4D2
-
 ms.date: 12/05/2018
 ms.keywords: CurrentStyleName property [Windows Accessibility], CurrentStyleName property [Windows Accessibility],IUIAutomationStylesPattern interface, IUIAutomationStylesPattern interface [Windows Accessibility],CurrentStyleName property, IUIAutomationStylesPattern.CurrentStyleName, IUIAutomationStylesPattern.get_CurrentStyleName, IUIAutomationStylesPattern::CurrentStyleName, IUIAutomationStylesPattern::get_CurrentStyleName, get_CurrentStyleName, uiautomationclient/IUIAutomationStylesPattern::CurrentStyleName, uiautomationclient/IUIAutomationStylesPattern::get_CurrentStyleName, winauto.uiauto_IUIAutomationStylesPattern_CurrentStyleName
 ms.topic: method
-f1_keywords: 
- - "uiautomationclient/IUIAutomationStylesPattern.CurrentStyleName"
+f1_keywords:
+- uiautomationclient/IUIAutomationStylesPattern.CurrentStyleName
 dev_langs:
- - c++
+- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationClient.h
+- UIAutomationClient.h
 api_name:
- - IUIAutomationStylesPattern.CurrentStyleName
- - IUIAutomationStylesPattern.get_CurrentStyleName
+- IUIAutomationStylesPattern.CurrentStyleName
+- IUIAutomationStylesPattern.get_CurrentStyleName
 targetos: Windows
 req.typenames: 
 req.redist: 

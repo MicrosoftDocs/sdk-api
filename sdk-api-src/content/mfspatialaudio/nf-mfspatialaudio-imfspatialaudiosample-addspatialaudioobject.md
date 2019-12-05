@@ -1,19 +1,17 @@
 ---
 UID: NF:mfspatialaudio.IMFSpatialAudioSample.AddSpatialAudioObject
 title: IMFSpatialAudioSample::AddSpatialAudioObject (mfspatialaudio.h)
-
 description: Adds a new spatial audio object, represented by an IMFSpatialAudioObjectBuffer object, to the sample.
 old-location: mf\imfspatialaudiosample_addspatialaudioobject.htm
 tech.root: medfound
 ms.assetid: D967B4FE-8E11-4520-BF9E-725ACC7AA99A
-
 ms.date: 12/05/2018
 ms.keywords: AddSpatialAudioObject, AddSpatialAudioObject method [Media Foundation], AddSpatialAudioObject method [Media Foundation],IMFSpatialAudioSample interface, IMFSpatialAudioSample interface [Media Foundation],AddSpatialAudioObject method, IMFSpatialAudioSample.AddSpatialAudioObject, IMFSpatialAudioSample::AddSpatialAudioObject, mf.imfspatialaudiosample_addspatialaudioobject, mfspatialaudio/IMFSpatialAudioSample::AddSpatialAudioObject
 ms.topic: method
-f1_keywords: 
- - "mfspatialaudio/IMFSpatialAudioSample.AddSpatialAudioObject"
+f1_keywords:
+- mfspatialaudio/IMFSpatialAudioSample.AddSpatialAudioObject
 dev_langs:
- - c++
+- c++
 req.header: mfspatialaudio.h
 req.include-header: Mfobjects.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfobjects.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfobjects.lib
- - mfobjects.dll
+- mfobjects.lib
+- mfobjects.dll
 api_name:
- - IMFSpatialAudioSample.AddSpatialAudioObject
+- IMFSpatialAudioSample.AddSpatialAudioObject
 targetos: Windows
 req.typenames: 
 req.redist: 

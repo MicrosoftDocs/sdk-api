@@ -1,19 +1,17 @@
 ---
 UID: NF:winldap.ldap_first_reference
 title: ldap_first_reference function (winldap.h)
-
 description: Returns the first reference from a message.
 old-location: ldap\ldap_first_reference.htm
 tech.root: ldap
 ms.assetid: b9ee4da3-9309-4e2b-95a9-6e0f1625fc79
-
 ms.date: 12/05/2018
-ms.keywords: "_ldap_ldap_first_reference, ldap.ldap__first__reference, ldap.ldap_first_reference, ldap_first_reference, ldap_first_reference function [LDAP], winldap/ldap_first_reference"
+ms.keywords: _ldap_ldap_first_reference, ldap.ldap__first__reference, ldap.ldap_first_reference, ldap_first_reference, ldap_first_reference function [LDAP], winldap/ldap_first_reference
 ms.topic: function
-f1_keywords: 
- - "winldap/ldap_first_reference"
+f1_keywords:
+- winldap/ldap_first_reference
 dev_langs:
- - c++
+- c++
 req.header: winldap.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Wldap32.lib
 req.dll: Wldap32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Wldap32.dll
+- Wldap32.dll
 api_name:
- - ldap_first_reference
+- ldap_first_reference
 targetos: Windows
 req.typenames: 
 req.redist: 

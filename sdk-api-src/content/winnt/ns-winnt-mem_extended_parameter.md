@@ -1,19 +1,17 @@
 ---
 UID: NS:winnt.MEM_EXTENDED_PARAMETER
 title: MEM_EXTENDED_PARAMETER (winnt.h)
-
 description: Represents an extended parameter for a function that manages virtual memory.
 old-location: base\mem_extended_parameter.htm
 tech.root: Memory
 ms.assetid: 8D189F7E-83E7-4AF3-9E25-928C66666887
-
 ms.date: 12/05/2018
-ms.keywords: "*PMEM_EXTENDED_PARAMETER, MEM_EXTENDED_PARAMETER, MEM_EXTENDED_PARAMETER structure, PMEM_EXTENDED_PARAMETER, PMEM_EXTENDED_PARAMETER structure pointer, base.mem_extended_parameter, winnt/MEM_EXTENDED_PARAMETER, winnt/PMEM_EXTENDED_PARAMETER"
+ms.keywords: '*PMEM_EXTENDED_PARAMETER, MEM_EXTENDED_PARAMETER, MEM_EXTENDED_PARAMETER structure, PMEM_EXTENDED_PARAMETER, PMEM_EXTENDED_PARAMETER structure pointer, base.mem_extended_parameter, winnt/MEM_EXTENDED_PARAMETER, winnt/PMEM_EXTENDED_PARAMETER'
 ms.topic: struct
-f1_keywords: 
- - "winnt/MEM_EXTENDED_PARAMETER"
+f1_keywords:
+- winnt/MEM_EXTENDED_PARAMETER
 dev_langs:
- - c++
+- c++
 req.header: winnt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - winnt.h
+- winnt.h
 api_name:
- - MEM_EXTENDED_PARAMETER
+- MEM_EXTENDED_PARAMETER
 targetos: Windows
 req.typenames: MEM_EXTENDED_PARAMETER, *PMEM_EXTENDED_PARAMETER
 req.redist: 

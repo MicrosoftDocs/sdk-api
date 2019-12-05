@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IInputObject.UIActivateIO
 title: IInputObject::UIActivateIO (shobjidl_core.h)
-
 description: UI-activates or deactivates the object.
 old-location: shell\IInputObject_UIActivateIO.htm
 tech.root: shell
 ms.assetid: a725863e-4814-4aa7-99c6-7e7141db214d
-
 ms.date: 12/05/2018
 ms.keywords: IInputObject interface [Windows Shell],UIActivateIO method, IInputObject.UIActivateIO, IInputObject::UIActivateIO, UIActivateIO, UIActivateIO method [Windows Shell], UIActivateIO method [Windows Shell],IInputObject interface, _win32_IInputObject_UIActivateIO, shell.IInputObject_UIActivateIO, shobjidl_core/IInputObject::UIActivateIO
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IInputObject.UIActivateIO"
+f1_keywords:
+- shobjidl_core/IInputObject.UIActivateIO
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Shell32.dll (version 4.71 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - IInputObject.UIActivateIO
+- IInputObject.UIActivateIO
 targetos: Windows
 req.typenames: 
 req.redist: 

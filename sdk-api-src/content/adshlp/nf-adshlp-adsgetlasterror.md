@@ -1,19 +1,17 @@
 ---
 UID: NF:adshlp.ADsGetLastError
 title: ADsGetLastError function (adshlp.h)
-
 description: The ADsGetLastError function retrieves the calling thread's last-error code value.
 old-location: adsi\adsgetlasterror.htm
 tech.root: adsi
 ms.assetid: 5e9899e9-e51e-4785-812a-f86eac6e2006
-
 ms.date: 12/05/2018
 ms.keywords: ADsGetLastError, ADsGetLastError function [ADSI], _ds_adsgetlasterror, adshlp/ADsGetLastError, adsi.adsgetlasterror
 ms.topic: function
-f1_keywords: 
- - "adshlp/ADsGetLastError"
+f1_keywords:
+- adshlp/ADsGetLastError
 dev_langs:
- - c++
+- c++
 req.header: adshlp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Activeds.lib
 req.dll: Activeds.dll; AdsLdpc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Activeds.dll
- - AdsLdpc.dll
+- Activeds.dll
+- AdsLdpc.dll
 api_name:
- - ADsGetLastError
+- ADsGetLastError
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:mpeg2psiparser.IPMT.GetTableDescriptorByTag
 title: IPMT::GetTableDescriptorByTag (mpeg2psiparser.h)
-
 description: The GetTableDescriptorByTag method searches the PMT for a table-wide descriptor with the specified descriptor tag.
 old-location: mstv\ipmt_gettabledescriptorbytag.htm
 tech.root: mstv
 ms.assetid: e70bcffb-41ea-4f25-bb93-dc43339ae6ba
-
 ms.date: 12/05/2018
 ms.keywords: GetTableDescriptorByTag, GetTableDescriptorByTag method [Microsoft TV Technologies], GetTableDescriptorByTag method [Microsoft TV Technologies],IPMT interface, IPMT interface [Microsoft TV Technologies],GetTableDescriptorByTag method, IPMT.GetTableDescriptorByTag, IPMT::GetTableDescriptorByTag, IPMTGetTableDescriptorByTag, mpeg2psiparser/IPMT::GetTableDescriptorByTag, mstv.ipmt_gettabledescriptorbytag
 ms.topic: method
-f1_keywords: 
- - "mpeg2psiparser/IPMT.GetTableDescriptorByTag"
+f1_keywords:
+- mpeg2psiparser/IPMT.GetTableDescriptorByTag
 dev_langs:
- - c++
+- c++
 req.header: mpeg2psiparser.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mpeg2PsiParser.h
+- Mpeg2PsiParser.h
 api_name:
- - IPMT.GetTableDescriptorByTag
+- IPMT.GetTableDescriptorByTag
 targetos: Windows
 req.typenames: 
 req.redist: 

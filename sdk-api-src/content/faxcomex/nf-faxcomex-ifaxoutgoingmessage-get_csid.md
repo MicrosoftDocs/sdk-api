@@ -1,19 +1,17 @@
 ---
 UID: NF:faxcomex.IFaxOutgoingMessage.get_CSID
 title: IFaxOutgoingMessage::get_CSID (faxcomex.h)
-
 description: The IFaxOutgoingMessage::get_CSID property is a null-terminated string that contains the called station identifier (CSID) for the fax message.
 old-location: fax\_mfax_faxoutgoingmessage_cpp_mfax_faxoutgoingmessage_csid_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_8vc4.htm
-
 ms.date: 12/05/2018
 ms.keywords: CSID property [Fax Service], CSID property [Fax Service],IFaxOutgoingMessage interface, IFaxOutgoingMessage interface [Fax Service],CSID property, IFaxOutgoingMessage.CSID, IFaxOutgoingMessage.get_CSID, IFaxOutgoingMessage::CSID, IFaxOutgoingMessage::get_CSID, _mfax_faxoutgoingmessage.csid, fax._mfax_faxoutgoingmessage_cpp_mfax_faxoutgoingmessage_csid_cpp, fax._mfax_faxoutgoingmessage_csid, faxcomex/IFaxOutgoingMessage::CSID, faxcomex/IFaxOutgoingMessage::get_CSID, get_CSID
 ms.topic: method
-f1_keywords: 
- - "faxcomex/IFaxOutgoingMessage.CSID"
+f1_keywords:
+- faxcomex/IFaxOutgoingMessage.CSID
 dev_langs:
- - c++
+- c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: Fxscomex.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Fxscomex.dll
+- Fxscomex.dll
 api_name:
- - IFaxOutgoingMessage.CSID
- - IFaxOutgoingMessage.get_CSID
- - IFaxOutgoingMessage.get_CSID
+- IFaxOutgoingMessage.CSID
+- IFaxOutgoingMessage.get_CSID
+- IFaxOutgoingMessage.get_CSID
 targetos: Windows
 req.typenames: 
 req.redist: 

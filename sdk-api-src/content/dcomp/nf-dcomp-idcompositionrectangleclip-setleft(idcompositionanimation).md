@@ -1,19 +1,17 @@
 ---
 UID: NF:dcomp.IDCompositionRectangleClip.SetLeft(IDCompositionAnimation)
 title: IDCompositionRectangleClip::SetLeft(IDCompositionAnimation) (dcomp.h)
-
 description: Animates the value of the Left property of a clip rectangle.
 old-location: directcomp\idcompositionrectangleclip_setleft_idcompositionanimation.htm
 tech.root: directcomp
 ms.assetid: 72AF8017-646D-4DD2-B350-FE9B64E30CC0
-
 ms.date: 12/05/2018
 ms.keywords: IDCompositionRectangleClip interface [DirectComposition],SetLeft method, IDCompositionRectangleClip.SetLeft, IDCompositionRectangleClip.SetLeft(IDCompositionAnimation), IDCompositionRectangleClip::SetLeft, IDCompositionRectangleClip::SetLeft(IDCompositionAnimation), IDCompositionRectangleClip::SetLeft(IDCompositionAnimation*), SetLeft, SetLeft method [DirectComposition], SetLeft method [DirectComposition],IDCompositionRectangleClip interface, dcomp/IDCompositionRectangleClip::SetLeft, directcomp.idcompositionrectangleclip_setleft_idcompositionanimation
 ms.topic: method
-f1_keywords: 
- - "dcomp/IDCompositionRectangleClip.SetLeft"
+f1_keywords:
+- dcomp/IDCompositionRectangleClip.SetLeft
 dev_langs:
- - c++
+- c++
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dcomp.lib
 req.dll: Dcomp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dcomp.dll
+- Dcomp.dll
 api_name:
- - IDCompositionRectangleClip.SetLeft
+- IDCompositionRectangleClip.SetLeft
 targetos: Windows
 req.typenames: 
 req.redist: 

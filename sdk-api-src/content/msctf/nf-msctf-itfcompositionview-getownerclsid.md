@@ -1,19 +1,17 @@
 ---
 UID: NF:msctf.ITfCompositionView.GetOwnerClsid
 title: ITfCompositionView::GetOwnerClsid (msctf.h)
-
 description: ITfCompositionView::GetOwnerClsid method
 old-location: tsf\itfcompositionview_getownerclsid.htm
 tech.root: TSF
 ms.assetid: 1435e083-c6a1-491c-a7c2-7d2cb1d54508
-
 ms.date: 12/05/2018
 ms.keywords: GetOwnerClsid, GetOwnerClsid method [Text Services Framework], GetOwnerClsid method [Text Services Framework],ITfCompositionView interface, ITfCompositionView interface [Text Services Framework],GetOwnerClsid method, ITfCompositionView.GetOwnerClsid, ITfCompositionView::GetOwnerClsid, _tsf_itfcompositionview_getownerclsid_ref, msctf/ITfCompositionView::GetOwnerClsid, tsf.itfcompositionview_getownerclsid
 ms.topic: method
-f1_keywords: 
- - "msctf/ITfCompositionView.GetOwnerClsid"
+f1_keywords:
+- msctf/ITfCompositionView.GetOwnerClsid
 dev_langs:
- - c++
+- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msctf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msctf.dll
+- msctf.dll
 api_name:
- - ITfCompositionView.GetOwnerClsid
+- ITfCompositionView.GetOwnerClsid
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

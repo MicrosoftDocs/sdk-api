@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IApplicationDesignModeSettings.IsApplicationViewStateSupported
 title: IApplicationDesignModeSettings::IsApplicationViewStateSupported (shobjidl_core.h)
-
 description: Determines whether a particular application view state is supported for specific spoofed display size and scale factor settings.
 old-location: shell\IApplicationDesignModeSettings_IsApplicationViewStateSupported.htm
 tech.root: shell
 ms.assetid: 49661f00-15bc-48c0-a302-b81bee61180a
-
 ms.date: 12/05/2018
 ms.keywords: IApplicationDesignModeSettings interface [Windows Shell],IsApplicationViewStateSupported method, IApplicationDesignModeSettings.IsApplicationViewStateSupported, IApplicationDesignModeSettings::IsApplicationViewStateSupported, IsApplicationViewStateSupported, IsApplicationViewStateSupported method [Windows Shell], IsApplicationViewStateSupported method [Windows Shell],IApplicationDesignModeSettings interface, shell.IApplicationDesignModeSettings_IsApplicationViewStateSupported, shobjidl_core/IApplicationDesignModeSettings::IsApplicationViewStateSupported
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IApplicationDesignModeSettings.IsApplicationViewStateSupported"
+f1_keywords:
+- shobjidl_core/IApplicationDesignModeSettings.IsApplicationViewStateSupported
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Twinapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Twinapi.dll
+- Twinapi.dll
 api_name:
- - IApplicationDesignModeSettings.IsApplicationViewStateSupported
+- IApplicationDesignModeSettings.IsApplicationViewStateSupported
 targetos: Windows
 req.typenames: 
 req.redist: 

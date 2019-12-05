@@ -3,14 +3,13 @@ UID: NF:gdiplusheaders.Region.IsVisible(IN INT,IN INT,IN const Graphics)
 title: Region::IsVisible
 description: The Region::IsVisible method determines whether a point is inside this region.
 ms.assetid: 6e7059c0-2029-4178-961a-88738894ee83
-
 ms.date: 05/20/2019
 ms.keywords: Region::IsVisible
 ms.topic: language-reference
-f1_keywords: 
- - "gdiplusheaders/Region::IsVisible"
+f1_keywords:
+- gdiplusheaders/Region::IsVisible
 dev_langs:
- - c++
+- c++
 targetos: Windows
 req.assembly: 
 req.construct-type: function
@@ -32,13 +31,13 @@ req.type-library:
 req.umdf-ver: 
 req.unicode-ansi: 
 topic_type:
- - apiref
+- apiref
 api_type:
- - COM
+- COM
 api_location:
- - gdiplusheaders.h
+- gdiplusheaders.h
 api_name:
- - Region::IsVisible
+- Region::IsVisible
 ---
 
 # Region::IsVisible(INT,INT,Graphics*)

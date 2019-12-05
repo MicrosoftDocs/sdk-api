@@ -1,19 +1,17 @@
 ---
 UID: NF:virtdisk.ModifyVhdSet
 title: ModifyVhdSet function (virtdisk.h)
-
 description: Modifies the internal contents of a virtual disk file. Can be used to set the active leaf, or to fix up snapshot entries.
 old-location: vhd\modifyvhdset.htm
 tech.root: VStor
 ms.assetid: C0BDAF45-8F87-4EF5-81F3-F15E7E575EA1
-
 ms.date: 12/05/2018
 ms.keywords: ModifyVhdSet, ModifyVhdSet function [VHD], vdssys/ModifyVhdSet, vhd.modifyvhdset, virtdisk/ModifyVhdSet
 ms.topic: function
-f1_keywords: 
- - "virtdisk/ModifyVhdSet"
+f1_keywords:
+- virtdisk/ModifyVhdSet
 dev_langs:
- - c++
+- c++
 req.header: virtdisk.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: VirtDisk.lib
 req.dll: VirtDisk.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - VirtDisk.dll
+- VirtDisk.dll
 api_name:
- - ModifyVhdSet
+- ModifyVhdSet
 targetos: Windows
 req.typenames: 
 req.redist: 

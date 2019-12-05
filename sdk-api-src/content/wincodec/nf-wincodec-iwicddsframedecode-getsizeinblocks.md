@@ -1,19 +1,17 @@
 ---
 UID: NF:wincodec.IWICDdsFrameDecode.GetSizeInBlocks
 title: IWICDdsFrameDecode::GetSizeInBlocks (wincodec.h)
-
 description: Gets the width and height, in blocks, of the DDS image.
 old-location: wic\iwicddsframedecode_getsizeinblocks.htm
 tech.root: wic
 ms.assetid: 34F3A19C-4B68-4E6A-AE08-71DE9A0687BF
-
 ms.date: 12/05/2018
 ms.keywords: GetSizeInBlocks, GetSizeInBlocks method [Windows Imaging Component], GetSizeInBlocks method [Windows Imaging Component],IWICDdsFrameDecode interface, IWICDdsFrameDecode interface [Windows Imaging Component],GetSizeInBlocks method, IWICDdsFrameDecode.GetSizeInBlocks, IWICDdsFrameDecode::GetSizeInBlocks, wic.iwicddsframedecode_getsizeinblocks, wincodec/IWICDdsFrameDecode::GetSizeInBlocks
 ms.topic: method
-f1_keywords: 
- - "wincodec/IWICDdsFrameDecode.GetSizeInBlocks"
+f1_keywords:
+- wincodec/IWICDdsFrameDecode.GetSizeInBlocks
 dev_langs:
- - c++
+- c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Windowscodecs.lib
 req.dll: Windowscodecs.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Windowscodecs.dll
+- Windowscodecs.dll
 api_name:
- - IWICDdsFrameDecode.GetSizeInBlocks
+- IWICDdsFrameDecode.GetSizeInBlocks
 targetos: Windows
 req.typenames: 
 req.redist: 

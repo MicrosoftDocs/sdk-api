@@ -1,19 +1,17 @@
 ---
 UID: NF:securitybaseapi.AccessCheckByTypeResultList
 title: AccessCheckByTypeResultList function (securitybaseapi.h)
-
 description: Determines whether a security descriptor grants a specified set of access rights to the client identified by an access token.
 old-location: security\accesscheckbytyperesultlist.htm
 tech.root: SecAuthZ
 ms.assetid: ce713421-d4ff-48ed-b751-5e5c5397d820
-
 ms.date: 12/05/2018
 ms.keywords: AccessCheckByTypeResultList, AccessCheckByTypeResultList function [Security], _win32_accesscheckbytyperesultlist, security.accesscheckbytyperesultlist, securitybaseapi/AccessCheckByTypeResultList
 ms.topic: function
 f1_keywords:
 - securitybaseapi/AccessCheckByTypeResultList
 dev_langs:
- - c++
+- c++
 req.header: securitybaseapi.h
 req.include-header: Windows.h
 req.target-type: Windows

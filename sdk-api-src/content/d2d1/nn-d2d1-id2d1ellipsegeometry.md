@@ -1,19 +1,17 @@
 ---
 UID: NN:d2d1.ID2D1EllipseGeometry
 title: ID2D1EllipseGeometry (d2d1.h)
-
 description: Represents an ellipse.
 old-location: direct2d\ID2D1EllipseGeometry.htm
 tech.root: Direct2D
 ms.assetid: 4ab6452c-6df8-46c0-9e0d-0cebc19d84ba
-
 ms.date: 12/05/2018
 ms.keywords: ID2D1EllipseGeometry, ID2D1EllipseGeometry interface [Direct2D], ID2D1EllipseGeometry interface [Direct2D],described, d2d1/ID2D1EllipseGeometry, direct2d.ID2D1EllipseGeometry
 ms.topic: interface
-f1_keywords: 
- - "d2d1/ID2D1EllipseGeometry"
+f1_keywords:
+- d2d1/ID2D1EllipseGeometry
 dev_langs:
- - c++
+- c++
 req.header: d2d1.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: D2d1.lib
 req.dll: D2d1.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D2d1.dll
+- D2d1.dll
 api_name:
- - ID2D1EllipseGeometry
+- ID2D1EllipseGeometry
 targetos: Windows
 req.typenames: 
 req.redist: 

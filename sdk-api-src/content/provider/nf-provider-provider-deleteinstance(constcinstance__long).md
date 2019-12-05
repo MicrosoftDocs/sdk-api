@@ -1,19 +1,17 @@
 ---
 UID: NF:provider.Provider.DeleteInstance(const CInstance &,long)
 title: Provider::DeleteInstance (provider.h)
-
 description: The DeleteInstance method is called by WMI to delete an instance.
 old-location: wmi\provider_deleteinstance.htm
 tech.root: WmiSdk
 ms.assetid: 469d2481-95ea-4d17-b0ef-095ced9c8319
-
 ms.date: 12/05/2018
 ms.keywords: DeleteInstance, DeleteInstance method [Windows Management Instrumentation], DeleteInstance method [Windows Management Instrumentation],Provider interface, Provider interface [Windows Management Instrumentation],DeleteInstance method, Provider.DeleteInstance, Provider::DeleteInstance, _hmm_provider_deleteinstance, provider/Provider::DeleteInstance, wmi.provider_deleteinstance
 ms.topic: method
-f1_keywords: 
- - "provider/Provider.DeleteInstance"
+f1_keywords:
+- provider/Provider.DeleteInstance
 dev_langs:
- - c++
+- c++
 req.header: provider.h
 req.include-header: FwCommon.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: FrameDyn.lib
 req.dll: FrameDynOS.dll; FrameDyn.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - FrameDynOS.dll
- - FrameDyn.dll
+- FrameDynOS.dll
+- FrameDyn.dll
 api_name:
- - Provider.DeleteInstance
+- Provider.DeleteInstance
 targetos: Windows
 req.typenames: 
 req.redist: 

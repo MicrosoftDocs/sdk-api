@@ -1,19 +1,17 @@
 ---
 UID: NF:ocidl.IObjectWithSite.GetSite
 title: IObjectWithSite::GetSite (ocidl.h)
-
 description: Retrieves the latest site passed using SetSite.
 old-location: com\iobjectwithsite_getsite.htm
 tech.root: com
 ms.assetid: f88ef2b1-63c3-4307-a5e1-b9104c8aef29
-
 ms.date: 12/05/2018
 ms.keywords: GetSite, GetSite method [COM], GetSite method [COM],IObjectWithSite interface, IObjectWithSite interface [COM],GetSite method, IObjectWithSite.GetSite, IObjectWithSite::GetSite, _ole_iobjectwithsite_getsite, com.iobjectwithsite_getsite, ocidl/IObjectWithSite::GetSite
 ms.topic: method
-f1_keywords: 
- - "ocidl/IObjectWithSite.GetSite"
+f1_keywords:
+- ocidl/IObjectWithSite.GetSite
 dev_langs:
- - c++
+- c++
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - OCIdl.h
+- OCIdl.h
 api_name:
- - IObjectWithSite.GetSite
+- IObjectWithSite.GetSite
 targetos: Windows
 req.typenames: 
 req.redist: 

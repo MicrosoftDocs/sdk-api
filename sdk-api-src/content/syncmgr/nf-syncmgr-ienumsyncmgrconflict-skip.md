@@ -1,19 +1,17 @@
 ---
 UID: NF:syncmgr.IEnumSyncMgrConflict.Skip
 title: IEnumSyncMgrConflict::Skip (syncmgr.h)
-
 description: Skips forward the specified number of conflicts in the enumeration.
 old-location: shell\IEnumSyncMgrConflict_Skip.htm
 tech.root: shell
 ms.assetid: d636dd60-835f-40a8-b2e6-7d7ebf87e897
-
 ms.date: 12/05/2018
 ms.keywords: IEnumSyncMgrConflict interface [Windows Shell],Skip method, IEnumSyncMgrConflict.Skip, IEnumSyncMgrConflict::Skip, Skip, Skip method [Windows Shell], Skip method [Windows Shell],IEnumSyncMgrConflict interface, _shell_IEnumSyncMgrConflict_Skip, shell.IEnumSyncMgrConflict_Skip, syncmgr/IEnumSyncMgrConflict::Skip
 ms.topic: method
-f1_keywords: 
- - "syncmgr/IEnumSyncMgrConflict.Skip"
+f1_keywords:
+- syncmgr/IEnumSyncMgrConflict.Skip
 dev_langs:
- - c++
+- c++
 req.header: syncmgr.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Syncmgr.h
+- Syncmgr.h
 api_name:
- - IEnumSyncMgrConflict.Skip
+- IEnumSyncMgrConflict.Skip
 targetos: Windows
 req.typenames: 
 req.redist: 

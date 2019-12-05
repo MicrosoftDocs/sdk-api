@@ -4,10 +4,10 @@ title: VIRTUAL_DISK_ACCESS_MASK
 ms.date: 01/30/19
 ms.keywords: _VIRTUAL_DISK_ACCESS_MASK, VIRTUAL_DISK_ACCESS_MASK
 ms.topic: language-reference
-f1_keywords: 
- - "virtdisk/_VIRTUAL_DISK_ACCESS_MASK"
+f1_keywords:
+- virtdisk/_VIRTUAL_DISK_ACCESS_MASK
 dev_langs:
- - c++
+- c++
 targetos: Windows
 req.construct-type: enumeration
 req.ddi-compliance: 
@@ -21,14 +21,14 @@ req.target-type:
 req.typenames: 
 req.umdf-ver: 
 topic_type:
- - apiref
+- apiref
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - virtdisk.h
+- virtdisk.h
 api_name:
- - _VIRTUAL_DISK_ACCESS_MASK
- - VIRTUAL_DISK_ACCESS_MASK
+- _VIRTUAL_DISK_ACCESS_MASK
+- VIRTUAL_DISK_ACCESS_MASK
 ---
 
 # VIRTUAL_DISK_ACCESS_MASK enumeration

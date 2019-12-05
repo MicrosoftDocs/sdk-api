@@ -1,19 +1,17 @@
 ---
 UID: NF:wincrypt.CryptMsgVerifyCountersignatureEncoded
 title: CryptMsgVerifyCountersignatureEncoded function (wincrypt.h)
-
 description: Verifies a countersignature in terms of the SignerInfo structure (as defined by PKCS
 old-location: security\cryptmsgverifycountersignatureencoded.htm
 tech.root: SecCrypto
 ms.assetid: b0332360-a737-4b48-b592-0c55d493a02d
-
 ms.date: 12/05/2018
 ms.keywords: CryptMsgVerifyCountersignatureEncoded, CryptMsgVerifyCountersignatureEncoded function [Security], _crypto2_cryptmsgverifycountersignatureencoded, security.cryptmsgverifycountersignatureencoded, wincrypt/CryptMsgVerifyCountersignatureEncoded
 ms.topic: function
 f1_keywords:
 - wincrypt/CryptMsgVerifyCountersignatureEncoded
 dev_langs:
- - c++
+- c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

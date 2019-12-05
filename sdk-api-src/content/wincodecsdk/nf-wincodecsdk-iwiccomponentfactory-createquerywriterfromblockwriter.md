@@ -1,19 +1,17 @@
 ---
 UID: NF:wincodecsdk.IWICComponentFactory.CreateQueryWriterFromBlockWriter
 title: IWICComponentFactory::CreateQueryWriterFromBlockWriter (wincodecsdk.h)
-
 description: Creates a IWICMetadataQueryWriter from the given IWICMetadataBlockWriter.
 old-location: wic\_wic_codec_iwiccomponentfactory_createquerywriterfromblockwriter.htm
 tech.root: wic
 ms.assetid: 1ad15754-c180-43e0-a307-6ff84f7eebd6
-
 ms.date: 12/05/2018
 ms.keywords: CreateQueryWriterFromBlockWriter, CreateQueryWriterFromBlockWriter method [Windows Imaging Component], CreateQueryWriterFromBlockWriter method [Windows Imaging Component],IWICComponentFactory interface, IWICComponentFactory interface [Windows Imaging Component],CreateQueryWriterFromBlockWriter method, IWICComponentFactory.CreateQueryWriterFromBlockWriter, IWICComponentFactory::CreateQueryWriterFromBlockWriter, _wic_codec_iwiccomponentfactory_createquerywriterfromblockwriter, wic._wic_codec_iwiccomponentfactory_createquerywriterfromblockwriter, wincodecsdk/IWICComponentFactory::CreateQueryWriterFromBlockWriter
 ms.topic: method
-f1_keywords: 
- - "wincodecsdk/IWICComponentFactory.CreateQueryWriterFromBlockWriter"
+f1_keywords:
+- wincodecsdk/IWICComponentFactory.CreateQueryWriterFromBlockWriter
 dev_langs:
- - c++
+- c++
 req.header: wincodecsdk.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Windowscodecs.lib
 req.dll: Windowscodecs.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Windowscodecs.dll
+- Windowscodecs.dll
 api_name:
- - IWICComponentFactory.CreateQueryWriterFromBlockWriter
+- IWICComponentFactory.CreateQueryWriterFromBlockWriter
 targetos: Windows
 req.typenames: 
 req.redist: 

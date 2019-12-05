@@ -1,19 +1,17 @@
 ---
 UID: NF:netcon.INetConnectionProps.get_Guid
 title: INetConnectionProps::get_Guid (netcon.h)
-
 description: The get_Guid method retrieves the globally-unique identifier (GUID) for the connection.
 old-location: ics\inetconnectionprops_get_guid.htm
 tech.root: ics
 ms.assetid: df094bda-2e0f-4ff4-aff5-77d1703f8dee
-
 ms.date: 12/05/2018
 ms.keywords: INetConnectionProps interface [ICS/ICF],get_Guid method, INetConnectionProps.get_Guid, INetConnectionProps::get_Guid, _ics_inetconnectionprops_get_guid, get_Guid, get_Guid method [ICS/ICF], get_Guid method [ICS/ICF],INetConnectionProps interface, ics.inetconnectionprops_get_guid, netcon/INetConnectionProps::get_Guid
 ms.topic: method
-f1_keywords: 
- - "netcon/INetConnectionProps.get_Guid"
+f1_keywords:
+- netcon/INetConnectionProps.get_Guid
 dev_langs:
- - c++
+- c++
 req.header: netcon.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Hnetcfg.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Hnetcfg.dll
+- Hnetcfg.dll
 api_name:
- - INetConnectionProps.get_Guid
+- INetConnectionProps.get_Guid
 targetos: Windows
 req.typenames: 
 req.redist: 

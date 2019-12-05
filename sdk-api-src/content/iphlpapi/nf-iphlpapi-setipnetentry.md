@@ -1,19 +1,17 @@
 ---
 UID: NF:iphlpapi.SetIpNetEntry
 title: SetIpNetEntry function (iphlpapi.h)
-
 description: The SetIpNetEntry function modifies an existing ARP entry in the ARP table on the local computer.
 old-location: iphlp\setipnetentry.htm
 tech.root: IpHlp
 ms.assetid: d985b749-5aa3-4b4a-ba8f-bc8edcf1b1f3
-
 ms.date: 12/05/2018
 ms.keywords: SetIpNetEntry, SetIpNetEntry function [IP Helper], _iphlp_setipnetentry, iphlp.setipnetentry, iphlpapi/SetIpNetEntry
 ms.topic: function
 f1_keywords:
 - iphlpapi/SetIpNetEntry
 dev_langs:
- - c++
+- c++
 req.header: iphlpapi.h
 req.include-header: 
 req.target-type: Windows

@@ -1,19 +1,17 @@
 ---
 UID: NN:segment.IMSVidStreamBufferSinkEvent4
 title: IMSVidStreamBufferSinkEvent4 (segment.h)
-
 description: The IMSVidStreamBufferSinkEvent4 interface receives events from the MSVidStreamBufferSink object.
 old-location: mstv\imsvidstreambuffersinkevent4.htm
 tech.root: mstv
 ms.assetid: afec7f7a-0c5b-47ca-b442-5dbdba54a7af
-
 ms.date: 12/05/2018
 ms.keywords: IMSVidStreamBufferSinkEvent4, IMSVidStreamBufferSinkEvent4 interface [Microsoft TV Technologies], IMSVidStreamBufferSinkEvent4 interface [Microsoft TV Technologies],described, mstv.imsvidstreambuffersinkevent4, segment/IMSVidStreamBufferSinkEvent4
 ms.topic: interface
-f1_keywords: 
- - "segment/IMSVidStreamBufferSinkEvent4"
+f1_keywords:
+- segment/IMSVidStreamBufferSinkEvent4
 dev_langs:
- - c++
+- c++
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - segment.h
+- segment.h
 api_name:
- - IMSVidStreamBufferSinkEvent4
+- IMSVidStreamBufferSinkEvent4
 targetos: Windows
 req.typenames: 
 req.redist: 

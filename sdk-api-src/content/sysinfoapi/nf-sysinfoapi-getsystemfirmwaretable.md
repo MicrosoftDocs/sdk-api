@@ -1,19 +1,17 @@
 ---
 UID: NF:sysinfoapi.GetSystemFirmwareTable
 title: GetSystemFirmwareTable function (sysinfoapi.h)
-
 description: Retrieves the specified firmware table from the firmware table provider.
 old-location: base\getsystemfirmwaretable.htm
 tech.root: SysInfo
 ms.assetid: 3bfe81ca-6d04-4da1-9579-6b0b48faa4a2
-
 ms.date: 12/05/2018
 ms.keywords: GetSystemFirmwareTable, GetSystemFirmwareTable function, base.getsystemfirmwaretable, sysinfoapi/GetSystemFirmwareTable
 ms.topic: function
-f1_keywords: 
- - "sysinfoapi/GetSystemFirmwareTable"
+f1_keywords:
+- sysinfoapi/GetSystemFirmwareTable
 dev_langs:
- - c++
+- c++
 req.header: sysinfoapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,21 +30,21 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-SysInfo-l1-2-0.dll
- - KernelBase.dll
- - API-MS-Win-Core-SysInfo-l1-2-1.dll
- - API-MS-Win-Core-SysInfo-l1-2-2.dll
- - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
- - MinKernelBase.dll
- - API-MS-Win-Core-SysInfo-l1-2-3.dll
+- Kernel32.dll
+- API-MS-Win-Core-SysInfo-l1-2-0.dll
+- KernelBase.dll
+- API-MS-Win-Core-SysInfo-l1-2-1.dll
+- API-MS-Win-Core-SysInfo-l1-2-2.dll
+- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+- MinKernelBase.dll
+- API-MS-Win-Core-SysInfo-l1-2-3.dll
 api_name:
- - GetSystemFirmwareTable
+- GetSystemFirmwareTable
 targetos: Windows
 req.typenames: 
 req.redist: 

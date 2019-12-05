@@ -1,19 +1,17 @@
 ---
 UID: NS:dskquota.DiskQuotaUserInformation
 title: DISKQUOTA_USER_INFORMATION (dskquota.h)
-
 description: Represents the per-user quota information.
 old-location: fs\diskquota_user_information_str.htm
 tech.root: FileIO
 ms.assetid: 8929faab-e15e-47a0-af9e-b64684272cb7
-
 ms.date: 12/05/2018
-ms.keywords: "*PDISKQUOTA_USER_INFORMATION, DISKQUOTA_USER_INFORMATION, DISKQUOTA_USER_INFORMATION structure [Files], PDISKQUOTA_USER_INFORMATION, PDISKQUOTA_USER_INFORMATION structure pointer [Files], _win32_diskquota_user_information_str, base.diskquota_user_information_str, dskquota/DISKQUOTA_USER_INFORMATION, dskquota/PDISKQUOTA_USER_INFORMATION, fs.diskquota_user_information_str"
+ms.keywords: '*PDISKQUOTA_USER_INFORMATION, DISKQUOTA_USER_INFORMATION, DISKQUOTA_USER_INFORMATION structure [Files], PDISKQUOTA_USER_INFORMATION, PDISKQUOTA_USER_INFORMATION structure pointer [Files], _win32_diskquota_user_information_str, base.diskquota_user_information_str, dskquota/DISKQUOTA_USER_INFORMATION, dskquota/PDISKQUOTA_USER_INFORMATION, fs.diskquota_user_information_str'
 ms.topic: struct
-f1_keywords: 
- - "dskquota/DISKQUOTA_USER_INFORMATION"
+f1_keywords:
+- dskquota/DISKQUOTA_USER_INFORMATION
 dev_langs:
- - c++
+- c++
 req.header: dskquota.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Dskquota.h
+- Dskquota.h
 api_name:
- - DISKQUOTA_USER_INFORMATION
+- DISKQUOTA_USER_INFORMATION
 targetos: Windows
 req.typenames: DISKQUOTA_USER_INFORMATION, *PDISKQUOTA_USER_INFORMATION
 req.redist: 

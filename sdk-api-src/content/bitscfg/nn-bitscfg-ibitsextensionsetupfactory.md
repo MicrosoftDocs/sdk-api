@@ -1,19 +1,17 @@
 ---
 UID: NN:bitscfg.IBITSExtensionSetupFactory
 title: IBITSExtensionSetupFactory (bitscfg.h)
-
 description: Use the IBITSExtensionSetupFactory interface to get a pointer to the IBITSExtensionSetup interface.
 old-location: bits\ibitsextensionsetupfactory.htm
 tech.root: Bits
 ms.assetid: 0105d525-c841-4e0e-bd4a-2a1bcdb0dc4a
-
 ms.date: 12/05/2018
 ms.keywords: IBITSExtensionSetupFactory, IBITSExtensionSetupFactory interface [BITS], IBITSExtensionSetupFactory interface [BITS],described, _drz_ibitsextensionsetupfactory, bits.ibitsextensionsetupfactory, bitscfg/IBITSExtensionSetupFactory
 ms.topic: interface
-f1_keywords: 
- - "bitscfg/IBITSExtensionSetupFactory"
+f1_keywords:
+- bitscfg/IBITSExtensionSetupFactory
 dev_langs:
- - c++
+- c++
 req.header: bitscfg.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: BitsMgr.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - BitsMgr.dll
+- BitsMgr.dll
 api_name:
- - IBITSExtensionSetupFactory
+- IBITSExtensionSetupFactory
 targetos: Windows
 req.typenames: 
 req.redist: BITS 1.5 on  Windows XP

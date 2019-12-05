@@ -1,19 +1,17 @@
 ---
 UID: NN:d3d10.ID3D10PixelShader
 title: ID3D10PixelShader (d3d10.h)
-
 description: A pixel-shader interface manages an executable program (a pixel shader) that controls the pixel-shader stage.
 old-location: direct3d10\id3d10pixelshader.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10pixelshader.htm
-
 ms.date: 12/05/2018
 ms.keywords: ID3D10PixelShader, ID3D10PixelShader interface [Direct3D 10], ID3D10PixelShader interface [Direct3D 10],described, af8a1f54-5d9a-91f5-ed3f-377a9ad029d2, d3d10/ID3D10PixelShader, direct3d10.id3d10pixelshader
 ms.topic: interface
-f1_keywords: 
- - "d3d10/ID3D10PixelShader"
+f1_keywords:
+- d3d10/ID3D10PixelShader
 dev_langs:
- - c++
+- c++
 req.header: d3d10.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: D3D10.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D10.lib
- - D3D10.dll
+- D3D10.lib
+- D3D10.dll
 api_name:
- - ID3D10PixelShader
+- ID3D10PixelShader
 targetos: Windows
 req.typenames: 
 req.redist: 

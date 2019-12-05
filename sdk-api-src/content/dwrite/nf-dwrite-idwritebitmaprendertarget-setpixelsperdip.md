@@ -1,19 +1,17 @@
 ---
 UID: NF:dwrite.IDWriteBitmapRenderTarget.SetPixelsPerDip
 title: IDWriteBitmapRenderTarget::SetPixelsPerDip (dwrite.h)
-
 description: Sets the number of bitmap pixels per DIP (device-independent pixel). A DIP is 1/96 inch, so this value is the number if pixels per inch divided by 96.
 old-location: directwrite\IDWriteBitmapRenderTarget_SetPixelsPerDip.htm
 tech.root: DirectWrite
 ms.assetid: da582190-4a6d-451a-9d42-831e8786570f
-
 ms.date: 12/05/2018
 ms.keywords: IDWriteBitmapRenderTarget interface [Direct Write],SetPixelsPerDip method, IDWriteBitmapRenderTarget.SetPixelsPerDip, IDWriteBitmapRenderTarget::SetPixelsPerDip, SetPixelsPerDip, SetPixelsPerDip method [Direct Write], SetPixelsPerDip method [Direct Write],IDWriteBitmapRenderTarget interface, directwrite.IDWriteBitmapRenderTarget_SetPixelsPerDip, dwrite/IDWriteBitmapRenderTarget::SetPixelsPerDip
 ms.topic: method
-f1_keywords: 
- - "dwrite/IDWriteBitmapRenderTarget.SetPixelsPerDip"
+f1_keywords:
+- dwrite/IDWriteBitmapRenderTarget.SetPixelsPerDip
 dev_langs:
- - c++
+- c++
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dwrite.lib
 req.dll: Dwrite.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dwrite.dll
+- dwrite.dll
 api_name:
- - IDWriteBitmapRenderTarget.SetPixelsPerDip
+- IDWriteBitmapRenderTarget.SetPixelsPerDip
 targetos: Windows
 req.typenames: 
 req.redist: 

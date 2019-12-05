@@ -1,19 +1,17 @@
 ---
 UID: NF:amparse.IAMParse.Flush
 title: IAMParse::Flush (amparse.h)
-
 description: The Flush method clears the current file data to allow for a more rapid switch to a new file.
 old-location: dshow\iamparse_flush.htm
 tech.root: DirectShow
 ms.assetid: 8ff33099-3dc4-4f43-8852-4bd6a8877f29
-
 ms.date: 12/05/2018
 ms.keywords: Flush, Flush method [DirectShow], Flush method [DirectShow],IAMParse interface, IAMParse interface [DirectShow],Flush method, IAMParse.Flush, IAMParse::Flush, IAMParseFlush, amparse/IAMParse::Flush, dshow.iamparse_flush
 ms.topic: method
-f1_keywords: 
- - "amparse/IAMParse.Flush"
+f1_keywords:
+- amparse/IAMParse.Flush
 dev_langs:
- - c++
+- c++
 req.header: amparse.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IAMParse.Flush
+- IAMParse.Flush
 targetos: Windows
 req.typenames: 
 req.redist: 

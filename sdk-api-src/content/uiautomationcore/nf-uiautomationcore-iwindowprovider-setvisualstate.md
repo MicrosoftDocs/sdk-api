@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationcore.IWindowProvider.SetVisualState
 title: IWindowProvider::SetVisualState (uiautomationcore.h)
-
 description: Changes the visual state of the window. For example, minimizes or maximizes it.
 old-location: winauto\uiauto_IWindowProvider_SetVisualState.htm
 tech.root: WinAuto
 ms.assetid: 89239900-5ee4-4f3a-a398-6ceb4846caf9
-
 ms.date: 12/05/2018
 ms.keywords: IWindowProvider interface [Windows Accessibility],SetVisualState method, IWindowProvider.SetVisualState, IWindowProvider::SetVisualState, SetVisualState, SetVisualState method [Windows Accessibility], SetVisualState method [Windows Accessibility],IWindowProvider interface, uiauto.uiauto_IWindowProvider_SetVisualState, uiauto_IWindowProvider_SetVisualState, uiautomationcore/IWindowProvider::SetVisualState, winauto.uiauto_IWindowProvider_SetVisualState
 ms.topic: method
-f1_keywords: 
- - "uiautomationcore/IWindowProvider.SetVisualState"
+f1_keywords:
+- uiautomationcore/IWindowProvider.SetVisualState
 dev_langs:
- - c++
+- c++
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationCore.h
+- UIAutomationCore.h
 api_name:
- - IWindowProvider.SetVisualState
+- IWindowProvider.SetVisualState
 targetos: Windows
 req.typenames: 
 req.redist: 

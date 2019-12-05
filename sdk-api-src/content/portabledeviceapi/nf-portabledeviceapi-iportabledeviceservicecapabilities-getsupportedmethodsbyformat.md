@@ -1,19 +1,17 @@
 ---
 UID: NF:portabledeviceapi.IPortableDeviceServiceCapabilities.GetSupportedMethodsByFormat
 title: IPortableDeviceServiceCapabilities::GetSupportedMethodsByFormat (portabledeviceapi.h)
-
 description: Retrieves the methods supported by the service for the specified format.
 old-location: wpdsdk\iportabledeviceservicecapabilities_getsupportedmethodsbyformat.htm
 tech.root: wpd_sdk
 ms.assetid: f1950aa5-2316-4409-a7bd-1b87c6449187
-
 ms.date: 12/05/2018
 ms.keywords: GetSupportedMethodsByFormat, GetSupportedMethodsByFormat method [Windows Portable Devices SDK], GetSupportedMethodsByFormat method [Windows Portable Devices SDK],IPortableDeviceServiceCapabilities interface, IPortableDeviceServiceCapabilities interface [Windows Portable Devices SDK],GetSupportedMethodsByFormat method, IPortableDeviceServiceCapabilities.GetSupportedMethodsByFormat, IPortableDeviceServiceCapabilities::GetSupportedMethodsByFormat, portabledeviceapi/IPortableDeviceServiceCapabilities::GetSupportedMethodsByFormat, wpdsdk.iportabledeviceservicecapabilities_getsupportedmethodsbyformat
 ms.topic: method
-f1_keywords: 
- - "portabledeviceapi/IPortableDeviceServiceCapabilities.GetSupportedMethodsByFormat"
+f1_keywords:
+- portabledeviceapi/IPortableDeviceServiceCapabilities.GetSupportedMethodsByFormat
 dev_langs:
- - c++
+- c++
 req.header: portabledeviceapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - PortableDeviceAPI.h
+- PortableDeviceAPI.h
 api_name:
- - IPortableDeviceServiceCapabilities.GetSupportedMethodsByFormat
+- IPortableDeviceServiceCapabilities.GetSupportedMethodsByFormat
 targetos: Windows
 req.typenames: 
 req.redist: 

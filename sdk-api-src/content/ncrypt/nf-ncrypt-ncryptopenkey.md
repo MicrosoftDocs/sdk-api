@@ -1,19 +1,17 @@
 ---
 UID: NF:ncrypt.NCryptOpenKey
 title: NCryptOpenKey function (ncrypt.h)
-
 description: Opens a key that exists in the specified CNG key storage provider.
 old-location: security\ncryptopenkey_func.htm
 tech.root: SecCNG
 ms.assetid: 581c5d89-730d-4d8c-b3bb-a28edec25910
-
 ms.date: 12/05/2018
 ms.keywords: AT_KEYEXCHANGE, AT_SIGNATURE, NCRYPT_MACHINE_KEY_FLAG, NCRYPT_SILENT_FLAG, NCryptOpenKey, NCryptOpenKey function [Security], ncrypt/NCryptOpenKey, security.ncryptopenkey_func
 ms.topic: function
-f1_keywords: 
- - "ncrypt/NCryptOpenKey"
+f1_keywords:
+- ncrypt/NCryptOpenKey
 dev_langs:
- - c++
+- c++
 req.header: ncrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Ncrypt.lib
 req.dll: Ncrypt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ncrypt.dll
+- Ncrypt.dll
 api_name:
- - NCryptOpenKey
+- NCryptOpenKey
 targetos: Windows
 req.typenames: 
 req.redist: 

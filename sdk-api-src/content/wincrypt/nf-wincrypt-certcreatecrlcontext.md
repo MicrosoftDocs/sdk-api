@@ -1,19 +1,17 @@
 ---
 UID: NF:wincrypt.CertCreateCRLContext
 title: CertCreateCRLContext function (wincrypt.h)
-
 description: The CertCreateCRLContext function creates a certificate revocation list (CRL) context from an encoded CRL. The created context is not persisted to a certificate store. It makes a copy of the encoded CRL within the created context.
 old-location: security\certcreatecrlcontext.htm
 tech.root: SecCrypto
 ms.assetid: 23d9dfb0-926d-443e-b960-a03338f1cc1b
-
 ms.date: 12/05/2018
 ms.keywords: CertCreateCRLContext, CertCreateCRLContext function [Security], _crypto2_certcreatecrlcontext, security.certcreatecrlcontext, wincrypt/CertCreateCRLContext
 ms.topic: function
 f1_keywords:
 - wincrypt/CertCreateCRLContext
 dev_langs:
- - c++
+- c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

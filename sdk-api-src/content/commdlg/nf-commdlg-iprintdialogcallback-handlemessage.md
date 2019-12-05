@@ -1,19 +1,17 @@
 ---
 UID: NF:commdlg.IPrintDialogCallback.HandleMessage
 title: IPrintDialogCallback::HandleMessage (commdlg.h)
-
 description: Called by PrintDlgEx to give your application an opportunity to handle messages sent to the child dialog box in the lower portion of the General page of the Print Property Sheet.
 old-location: dlgbox\iprintdialogcallback_handlemessage.htm
 tech.root: dlgbox
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\commondialogboxlibrary\commondialogboxreference\commondialogboxinterfaces\iprintdialogcallback\iprintdialogcallbackhandlemessage.htm
-
 ms.date: 12/05/2018
 ms.keywords: HandleMessage, HandleMessage method [Dialog Boxes], HandleMessage method [Dialog Boxes],IPrintDialogCallback interface, IPrintDialogCallback interface [Dialog Boxes],HandleMessage method, IPrintDialogCallback.HandleMessage, IPrintDialogCallback::HandleMessage, _win32_IPrintDialogCallback_HandleMessage, _win32_iprintdialogcallback_handlemessage_cpp, commdlg/IPrintDialogCallback::HandleMessage, dlgbox.iprintdialogcallback_handlemessage, winui._win32_iprintdialogcallback_handlemessage
 ms.topic: method
-f1_keywords: 
- - "commdlg/IPrintDialogCallback.HandleMessage"
+f1_keywords:
+- commdlg/IPrintDialogCallback.HandleMessage
 dev_langs:
- - c++
+- c++
 req.header: commdlg.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Comdlg32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Comdlg32.dll
+- Comdlg32.dll
 api_name:
- - IPrintDialogCallback.HandleMessage
+- IPrintDialogCallback.HandleMessage
 targetos: Windows
 req.typenames: 
 req.redist: 

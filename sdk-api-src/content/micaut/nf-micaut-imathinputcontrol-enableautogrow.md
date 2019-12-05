@@ -1,19 +1,17 @@
 ---
 UID: NF:micaut.IMathInputControl.EnableAutoGrow
 title: IMathInputControl::EnableAutoGrow (micaut.h)
-
 description: Determines whether the control automatically grows when input is entered beyond the control's current range.
 old-location: tablet\imathinputcontrol_enableautogrow.htm
 tech.root: tablet
 ms.assetid: 23eae5ee-8f3d-4f54-9c30-b29f0c14ba7f
-
 ms.date: 12/05/2018
 ms.keywords: EnableAutoGrow, EnableAutoGrow method [Tablet PC], EnableAutoGrow method [Tablet PC],IMathInputControl interface, IMathInputControl interface [Tablet PC],EnableAutoGrow method, IMathInputControl.EnableAutoGrow, IMathInputControl::EnableAutoGrow, micaut/IMathInputControl::EnableAutoGrow, tablet.imathinputcontrol_enableautogrow
 ms.topic: method
-f1_keywords: 
- - "micaut/IMathInputControl.EnableAutoGrow"
+f1_keywords:
+- micaut/IMathInputControl.EnableAutoGrow
 dev_langs:
- - c++
+- c++
 req.header: micaut.h
 req.include-header: Micaut.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - micaut.h
+- micaut.h
 api_name:
- - IMathInputControl.EnableAutoGrow
+- IMathInputControl.EnableAutoGrow
 targetos: Windows
 req.typenames: 
 req.redist: 

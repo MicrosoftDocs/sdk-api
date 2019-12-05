@@ -1,19 +1,17 @@
 ---
 UID: NF:pla.IConfigurationDataCollector.put_RegistryKeys
 title: IConfigurationDataCollector::put_RegistryKeys (pla.h)
-
 description: Retrieves or sets a list of registry keys to collect.
 old-location: pla\iconfigurationdatacollector_registrykeys.htm
 tech.root: PLA
 ms.assetid: 990a5f92-2285-4461-8020-25028d2cab90
-
 ms.date: 12/05/2018
 ms.keywords: IConfigurationDataCollector interface [PLA],RegistryKeys property, IConfigurationDataCollector.RegistryKeys, IConfigurationDataCollector.put_RegistryKeys, IConfigurationDataCollector::RegistryKeys, IConfigurationDataCollector::get_RegistryKeys, IConfigurationDataCollector::put_RegistryKeys, RegistryKeys property [PLA], RegistryKeys property [PLA],IConfigurationDataCollector interface, base.iconfigurationdatacollector_registrykeys, pla.iconfigurationdatacollector_registrykeys, pla/IConfigurationDataCollector::RegistryKeys, pla/IConfigurationDataCollector::get_RegistryKeys, pla/IConfigurationDataCollector::put_RegistryKeys, put_RegistryKeys
 ms.topic: method
-f1_keywords: 
- - "pla/IConfigurationDataCollector.RegistryKeys"
+f1_keywords:
+- pla/IConfigurationDataCollector.RegistryKeys
 dev_langs:
- - c++
+- c++
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: Pla.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Pla.dll
+- Pla.dll
 api_name:
- - IConfigurationDataCollector.RegistryKeys
- - IConfigurationDataCollector.get_RegistryKeys
- - IConfigurationDataCollector.put_RegistryKeys
+- IConfigurationDataCollector.RegistryKeys
+- IConfigurationDataCollector.get_RegistryKeys
+- IConfigurationDataCollector.put_RegistryKeys
 targetos: Windows
 req.typenames: 
 req.redist: 

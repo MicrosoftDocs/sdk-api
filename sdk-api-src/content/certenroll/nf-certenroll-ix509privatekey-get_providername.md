@@ -1,19 +1,17 @@
 ---
 UID: NF:certenroll.IX509PrivateKey.get_ProviderName
 title: IX509PrivateKey::get_ProviderName (certenroll.h)
-
 description: Specifies or retrieves the name of the cryptographic provider.
 old-location: security\ix509privatekey_providername.htm
 tech.root: seccertenroll
 ms.assetid: 42a348ae-9946-4d76-a035-14990d823449
-
 ms.date: 12/05/2018
 ms.keywords: IX509PrivateKey interface [Security],ProviderName property, IX509PrivateKey.ProviderName, IX509PrivateKey.get_ProviderName, IX509PrivateKey::ProviderName, IX509PrivateKey::get_ProviderName, IX509PrivateKey::put_ProviderName, ProviderName property [Security], ProviderName property [Security],IX509PrivateKey interface, certenroll/IX509PrivateKey::ProviderName, certenroll/IX509PrivateKey::get_ProviderName, certenroll/IX509PrivateKey::put_ProviderName, get_ProviderName, security.ix509privatekey_providername
 ms.topic: method
-f1_keywords: 
- - "certenroll/IX509PrivateKey.ProviderName"
+f1_keywords:
+- certenroll/IX509PrivateKey.ProviderName
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: CertEnroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CertEnroll.dll
+- CertEnroll.dll
 api_name:
- - IX509PrivateKey.ProviderName
- - IX509PrivateKey.get_ProviderName
- - IX509PrivateKey.put_ProviderName
+- IX509PrivateKey.ProviderName
+- IX509PrivateKey.get_ProviderName
+- IX509PrivateKey.put_ProviderName
 targetos: Windows
 req.typenames: 
 req.redist: 

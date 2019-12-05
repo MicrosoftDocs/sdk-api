@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.ISuspensionDependencyManager.RegisterAsChild
 title: ISuspensionDependencyManager::RegisterAsChild (shobjidl_core.h)
-
 description: ISuspensionDependencyManager::RegisterAsChild method
 old-location: shell\ISuspensionDependencyManager_RegisterAsChild.htm
 tech.root: shell
 ms.assetid: DB9DDDA7-34AA-43D7-813B-C9A065383682
-
 ms.date: 12/05/2018
 ms.keywords: ISuspensionDependencyManager interface [Windows Shell],RegisterAsChild method, ISuspensionDependencyManager.RegisterAsChild, ISuspensionDependencyManager::RegisterAsChild, RegisterAsChild, RegisterAsChild method [Windows Shell], RegisterAsChild method [Windows Shell],ISuspensionDependencyManager interface, shell.ISuspensionDependencyManager_RegisterAsChild, shobjidl_core/ISuspensionDependencyManager::RegisterAsChild
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/ISuspensionDependencyManager.RegisterAsChild"
+f1_keywords:
+- shobjidl_core/ISuspensionDependencyManager.RegisterAsChild
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - ISuspensionDependencyManager.RegisterAsChild
+- ISuspensionDependencyManager.RegisterAsChild
 targetos: Windows
 req.typenames: 
 req.redist: 

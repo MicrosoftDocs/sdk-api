@@ -1,19 +1,17 @@
 ---
 UID: NF:cfgmgr32.CM_Add_ID_ExW
 title: CM_Add_ID_ExW function (cfgmgr32.h)
-
 description: The CM_Add_ID_Ex function appends a device ID (if not already present) to a device instance's hardware ID list or compatible ID list, on either the local or a remote machine.
 old-location: devinst\cm_add_id_ex.htm
 tech.root: devinst
 ms.assetid: 978d650b-cbd5-4dff-bd51-7419774b8a7f
-
 ms.date: 12/05/2018
 ms.keywords: CM_Add_ID_Ex, CM_Add_ID_Ex function [Device and Driver Installation], CM_Add_ID_ExW, cfgmgr32/CM_Add_ID_Ex, cfgmgr32/CM_Add_ID_ExW, cfgmgrfn_0c8f48d0-09e5-46f9-b638-aff20af6abd5.xml, devinst.cm_add_id_ex
 ms.topic: function
-f1_keywords: 
- - "cfgmgr32/CM_Add_ID_Ex"
+f1_keywords:
+- cfgmgr32/CM_Add_ID_Ex
 dev_langs:
- - c++
+- c++
 req.header: cfgmgr32.h
 req.include-header: Cfgmgr32.h
 req.target-type: Desktop
@@ -32,16 +30,16 @@ req.lib: Cfgmgr32.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - LibDef
+- LibDef
 api_location:
- - Cfgmgr32.lib
- - Cfgmgr32.dll
+- Cfgmgr32.lib
+- Cfgmgr32.dll
 api_name:
- - CM_Add_ID_Ex
- - CM_Add_ID_ExW
+- CM_Add_ID_Ex
+- CM_Add_ID_ExW
 targetos: Windows
 req.typenames: 
 req.redist: 

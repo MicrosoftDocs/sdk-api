@@ -1,19 +1,17 @@
 ---
 UID: NF:rpcdce.RpcTestCancel
 title: RpcTestCancel function (rpcdce.h)
-
 description: The RpcTestCancel function checks for a cancel indication.
 old-location: rpc\rpctestcancel.htm
 tech.root: Rpc
 ms.assetid: 1fd3b84d-ea45-4267-ac30-e4e2cf037c92
-
 ms.date: 12/05/2018
 ms.keywords: RpcTestCancel, RpcTestCancel function [RPC], _rpc_rpctestcancel, rpc.rpctestcancel, rpcdce/RpcTestCancel
 ms.topic: function
-f1_keywords: 
- - "rpcdce/RpcTestCancel"
+f1_keywords:
+- rpcdce/RpcTestCancel
 dev_langs:
- - c++
+- c++
 req.header: rpcdce.h
 req.include-header: Rpc.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Rpcrt4.lib
 req.dll: Rpcrt4.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Rpcrt4.dll
+- Rpcrt4.dll
 api_name:
- - RpcTestCancel
+- RpcTestCancel
 targetos: Windows
 req.typenames: 
 req.redist: 

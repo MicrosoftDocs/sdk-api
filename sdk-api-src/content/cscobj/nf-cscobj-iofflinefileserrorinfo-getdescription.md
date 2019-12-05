@@ -1,19 +1,17 @@
 ---
 UID: NF:cscobj.IOfflineFilesErrorInfo.GetDescription
 title: IOfflineFilesErrorInfo::GetDescription (cscobj.h)
-
 description: Retrieves a text string describing the error.
 old-location: of\iofflinefileserrorinfo_getdescription.htm
 tech.root: offlinefiles
 ms.assetid: 04ec70c6-84e0-4543-b49f-1fe058d4d31d
-
 ms.date: 12/05/2018
 ms.keywords: GetDescription, GetDescription method [Offline Files], GetDescription method [Offline Files],IOfflineFilesErrorInfo interface, IOfflineFilesErrorInfo interface [Offline Files],GetDescription method, IOfflineFilesErrorInfo.GetDescription, IOfflineFilesErrorInfo::GetDescription, cscobj/IOfflineFilesErrorInfo::GetDescription, of.iofflinefileserrorinfo_getdescription
 ms.topic: method
-f1_keywords: 
- - "cscobj/IOfflineFilesErrorInfo.GetDescription"
+f1_keywords:
+- cscobj/IOfflineFilesErrorInfo.GetDescription
 dev_langs:
- - c++
+- c++
 req.header: cscobj.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: CscSvc.dll; CscObj.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CscSvc.dll
- - CscObj.dll
+- CscSvc.dll
+- CscObj.dll
 api_name:
- - IOfflineFilesErrorInfo.GetDescription
+- IOfflineFilesErrorInfo.GetDescription
 targetos: Windows
 req.typenames: 
 req.redist: 

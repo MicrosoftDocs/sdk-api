@@ -1,19 +1,17 @@
 ---
 UID: NS:rpcdce.__unnamed_struct_1
 title: RPC_IF_ID_VECTOR (rpcdce.h)
-
 description: The RPC_IF_ID_VECTOR structure contains a list of interfaces offered by a server.
 old-location: rpc\rpc_if_id_vector.htm
 tech.root: Rpc
 ms.assetid: 0bbef807-9eba-496b-be1c-4e48be7cc713
-
 ms.date: 12/05/2018
 ms.keywords: RPC_IF_ID_VECTOR, RPC_IF_ID_VECTOR structure [RPC], _rpc_rpc_if_id_vector, rpc.rpc_if_id_vector, rpcdce/RPC_IF_ID_VECTOR
 ms.topic: struct
 f1_keywords:
 - rpcdce/RPC_IF_ID_VECTOR
 dev_langs:
- - c++
+- c++
 req.header: rpcdce.h
 req.include-header: Rpc.h
 req.target-type: Windows

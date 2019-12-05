@@ -1,19 +1,17 @@
 ---
 UID: NF:wmcontainer.IMFASFStreamSelector.SetOutputMutexSelection
 title: IMFASFStreamSelector::SetOutputMutexSelection (wmcontainer.h)
-
 description: Selects a mutual exclusion record to use for a mutual exclusion object associated with an output.
 old-location: mf\imfasfstreamselector_setoutputmutexselection.htm
 tech.root: medfound
 ms.assetid: eebaf4a4-fcd5-4438-82ec-e9da2de6b0fd
-
 ms.date: 12/05/2018
 ms.keywords: IMFASFStreamSelector interface [Media Foundation],SetOutputMutexSelection method, IMFASFStreamSelector.SetOutputMutexSelection, IMFASFStreamSelector::SetOutputMutexSelection, SetOutputMutexSelection, SetOutputMutexSelection method [Media Foundation], SetOutputMutexSelection method [Media Foundation],IMFASFStreamSelector interface, eebaf4a4-fcd5-4438-82ec-e9da2de6b0fd, mf.imfasfstreamselector_setoutputmutexselection, wmcontainer/IMFASFStreamSelector::SetOutputMutexSelection
 ms.topic: method
-f1_keywords: 
- - "wmcontainer/IMFASFStreamSelector.SetOutputMutexSelection"
+f1_keywords:
+- wmcontainer/IMFASFStreamSelector.SetOutputMutexSelection
 dev_langs:
- - c++
+- c++
 req.header: wmcontainer.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFASFStreamSelector.SetOutputMutexSelection
+- IMFASFStreamSelector.SetOutputMutexSelection
 targetos: Windows
 req.typenames: 
 req.redist: 

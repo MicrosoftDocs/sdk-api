@@ -1,19 +1,17 @@
 ---
 UID: NF:peninputpanel.IPenInputPanel.get_Height
 title: IPenInputPanel::get_Height (peninputpanel.h)
-
 description: Deprecated. The PenInputPanel has been replaced by the Text Input Panel (TIP).Gets the height of the pen input panel in client coordinates.
 old-location: tablet\peninputpanel_height.htm
 tech.root: tablet
 ms.assetid: 5815f184-1ae4-4617-9aa6-acf727aff202
-
 ms.date: 12/05/2018
 ms.keywords: 5815f184-1ae4-4617-9aa6-acf727aff202, Height property [Tablet PC], Height property [Tablet PC],IPenInputPanel interface, IPenInputPanel interface [Tablet PC],Height property, IPenInputPanel.Height, IPenInputPanel.get_Height, IPenInputPanel::Height, IPenInputPanel::get_Height, PenInputPanel.get_Height, get_Height, peninputpanel/IPenInputPanel::Height, peninputpanel/IPenInputPanel::get_Height, tablet.peninputpanel_height
 ms.topic: method
-f1_keywords: 
- - "peninputpanel/IPenInputPanel.Height"
+f1_keywords:
+- peninputpanel/IPenInputPanel.Height
 dev_langs:
- - c++
+- c++
 req.header: peninputpanel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: InkObj.dll
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - InkObj.dll
- - InkObj.dll.dll
+- InkObj.dll
+- InkObj.dll.dll
 api_name:
- - IPenInputPanel.Height
- - IPenInputPanel.get_Height
- - PenInputPanel.get_Height
+- IPenInputPanel.Height
+- IPenInputPanel.get_Height
+- PenInputPanel.get_Height
 targetos: Windows
 req.typenames: 
 req.redist: 

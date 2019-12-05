@@ -1,19 +1,17 @@
 ---
 UID: NN:strmif.IVPManager
 title: IVPManager (strmif.h)
-
 description: The IVPManager interface is implemented on the Video Port Manager (VPM).
 old-location: dshow\ivpmanager.htm
 tech.root: DirectShow
 ms.assetid: 9064daa7-5868-49a5-9fd6-9a332ab3b470
-
 ms.date: 12/05/2018
 ms.keywords: IVPManager, IVPManager interface [DirectShow], IVPManager interface [DirectShow],described, IVPManagerInterface, dshow.ivpmanager, strmif/IVPManager
 ms.topic: interface
-f1_keywords: 
- - "strmif/IVPManager"
+f1_keywords:
+- strmif/IVPManager
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IVPManager
+- IVPManager
 targetos: Windows
 req.typenames: 
 req.redist: 

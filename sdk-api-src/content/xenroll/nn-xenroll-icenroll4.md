@@ -1,19 +1,17 @@
 ---
 UID: NN:xenroll.ICEnroll4
 title: ICEnroll4 (xenroll.h)
-
 description: The ICEnroll4 interface is one of several interfaces that represent the Certificate Enrollment Control.
 old-location: security\icenroll4.htm
 tech.root: SecCrypto
 ms.assetid: 4e3e3792-aa41-46fe-bf75-26c2b8959f7a
-
 ms.date: 12/05/2018
 ms.keywords: ICEnroll4, ICEnroll4 interface [Security], ICEnroll4 interface [Security],described, _xen_icenroll4, security.icenroll4, xenroll/ICEnroll4
 ms.topic: interface
-f1_keywords: 
- - "xenroll/ICEnroll4"
+f1_keywords:
+- xenroll/ICEnroll4
 dev_langs:
- - c++
+- c++
 req.header: xenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Xenroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Xenroll.dll
+- Xenroll.dll
 api_name:
- - ICEnroll4
+- ICEnroll4
 targetos: Windows
 req.typenames: 
 req.redist: 

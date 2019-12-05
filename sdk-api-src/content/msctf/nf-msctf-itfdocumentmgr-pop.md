@@ -1,19 +1,17 @@
 ---
 UID: NF:msctf.ITfDocumentMgr.Pop
 title: ITfDocumentMgr::Pop (msctf.h)
-
 description: ITfDocumentMgr::Pop method
 old-location: tsf\itfdocumentmgr_pop.htm
 tech.root: TSF
 ms.assetid: bbf65d8d-5a59-4c4b-a132-fa28babcd70b
-
 ms.date: 12/05/2018
 ms.keywords: ITfDocumentMgr interface [Text Services Framework],Pop method, ITfDocumentMgr.Pop, ITfDocumentMgr::Pop, Pop, Pop method [Text Services Framework], Pop method [Text Services Framework],ITfDocumentMgr interface, _tsf_itfdocumentmgr_pop_ref, msctf/ITfDocumentMgr::Pop, tsf.itfdocumentmgr_pop
 ms.topic: method
-f1_keywords: 
- - "msctf/ITfDocumentMgr.Pop"
+f1_keywords:
+- msctf/ITfDocumentMgr.Pop
 dev_langs:
- - c++
+- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msctf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msctf.dll
+- msctf.dll
 api_name:
- - ITfDocumentMgr.Pop
+- ITfDocumentMgr.Pop
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

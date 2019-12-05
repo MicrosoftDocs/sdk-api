@@ -1,19 +1,17 @@
 ---
 UID: NF:tuner.IESLicenseRenewalResultEvent.GetDescrambledStatus
 title: IESLicenseRenewalResultEvent::GetDescrambledStatus (tuner.h)
-
 description: Gets a code from a LicenseRenewalResult event that indicates the result of an attempt to descramble protected content.
 old-location: mstv\ieslicenserenewalresultevent_getdescrambledstatus.htm
 tech.root: mstv
 ms.assetid: ed09aea2-e000-40ce-bd94-a174e75a5001
-
 ms.date: 12/05/2018
 ms.keywords: GetDescrambledStatus, GetDescrambledStatus method [DirectShow], GetDescrambledStatus method [DirectShow],IESLicenseRenewalResultEvent interface, IESLicenseRenewalResultEvent interface [DirectShow],GetDescrambledStatus method, IESLicenseRenewalResultEvent.GetDescrambledStatus, IESLicenseRenewalResultEvent::GetDescrambledStatus, mstv.ieslicenserenewalresultevent_getdescrambledstatus, tuner/IESLicenseRenewalResultEvent::GetDescrambledStatus
 ms.topic: method
-f1_keywords: 
- - "tuner/IESLicenseRenewalResultEvent.GetDescrambledStatus"
+f1_keywords:
+- tuner/IESLicenseRenewalResultEvent.GetDescrambledStatus
 dev_langs:
- - c++
+- c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - tuner.h
+- tuner.h
 api_name:
- - IESLicenseRenewalResultEvent.GetDescrambledStatus
+- IESLicenseRenewalResultEvent.GetDescrambledStatus
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:dwrite_3.IDWriteFontFace4.ReleaseGlyphImageData
 title: IDWriteFontFace4::ReleaseGlyphImageData (dwrite_3.h)
-
 description: Releases the table data obtained from ReadGlyphData.
 old-location: directwrite\idwritefontface4_releaseglyphimagedata.htm
 tech.root: DirectWrite
 ms.assetid: 2A3211C1-90EB-42AE-BCE7-BDDA1D1E6312
-
 ms.date: 12/05/2018
 ms.keywords: IDWriteFontFace4 interface [Direct Write],ReleaseGlyphImageData method, IDWriteFontFace4.ReleaseGlyphImageData, IDWriteFontFace4::ReleaseGlyphImageData, ReleaseGlyphImageData, ReleaseGlyphImageData method [Direct Write], ReleaseGlyphImageData method [Direct Write],IDWriteFontFace4 interface, directwrite.idwritefontface4_releaseglyphimagedata, dwrite_3/IDWriteFontFace4::ReleaseGlyphImageData
 ms.topic: method
-f1_keywords: 
- - "dwrite_3/IDWriteFontFace4.ReleaseGlyphImageData"
+f1_keywords:
+- dwrite_3/IDWriteFontFace4.ReleaseGlyphImageData
 dev_langs:
- - c++
+- c++
 req.header: dwrite_3.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Dwrite.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dwrite.lib
- - Dwrite.dll
+- Dwrite.lib
+- Dwrite.dll
 api_name:
- - IDWriteFontFace4.ReleaseGlyphImageData
+- IDWriteFontFace4.ReleaseGlyphImageData
 targetos: Windows
 req.typenames: 
 req.redist: 

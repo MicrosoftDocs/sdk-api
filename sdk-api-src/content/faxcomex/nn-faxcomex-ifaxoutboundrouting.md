@@ -1,19 +1,17 @@
 ---
 UID: NN:faxcomex.IFaxOutboundRouting
 title: IFaxOutboundRouting (faxcomex.h)
-
 description: The IFaxOutboundRouting interface defines a configuration object that is used by a fax client application to configure the outbound routing groups (IFaxOutboundRoutingGroups interfaces) and outbound routing rules (IFaxOutboundRoutingRules interfaces).
 old-location: fax\_mfax_faxoutboundrouting_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_8nhj_cpp.htm
-
 ms.date: 12/05/2018
 ms.keywords: IFaxOutboundRouting, IFaxOutboundRouting interface [Fax Service], IFaxOutboundRouting interface [Fax Service],described, _mfax_faxoutboundrouting_cpp, fax._mfax_faxoutboundrouting_cpp, faxcomex/IFaxOutboundRouting
 ms.topic: interface
-f1_keywords: 
- - "faxcomex/IFaxOutboundRouting"
+f1_keywords:
+- faxcomex/IFaxOutboundRouting
 dev_langs:
- - c++
+- c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Fxscomex.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Fxscomex.dll
+- Fxscomex.dll
 api_name:
- - IFaxOutboundRouting
+- IFaxOutboundRouting
 targetos: Windows
 req.typenames: 
 req.redist: 

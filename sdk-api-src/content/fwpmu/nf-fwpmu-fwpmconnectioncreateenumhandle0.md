@@ -1,19 +1,17 @@
 ---
 UID: NF:fwpmu.FwpmConnectionCreateEnumHandle0
 title: FwpmConnectionCreateEnumHandle0 function (fwpmu.h)
-
 description: Creates a handle used to enumerate a set of connection objects.
 old-location: fwp\fwpmconnectioncreateenumhandle0.htm
 tech.root: fwp
 ms.assetid: b33878d5-437d-4625-b488-28fbe95eb69f
-
 ms.date: 12/05/2018
 ms.keywords: FwpmConnectionCreateEnumHandle0, FwpmConnectionCreateEnumHandle0 function [Filtering], fwp.fwpmconnectioncreateenumhandle0, fwpmu/FwpmConnectionCreateEnumHandle0
 ms.topic: function
-f1_keywords: 
- - "fwpmu/FwpmConnectionCreateEnumHandle0"
+f1_keywords:
+- fwpmu/FwpmConnectionCreateEnumHandle0
 dev_langs:
- - c++
+- c++
 req.header: fwpmu.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Fwpuclnt.lib
 req.dll: Fwpuclnt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Fwpuclnt.dll
+- Fwpuclnt.dll
 api_name:
- - FwpmConnectionCreateEnumHandle0
+- FwpmConnectionCreateEnumHandle0
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:xpsobjectmodel_2.IXpsDocumentPackageTarget3D.GetXpsOMPackageWriter3D
 title: IXpsDocumentPackageTarget3D::GetXpsOMPackageWriter3D (xpsobjectmodel_2.h)
-
 description: Gets a new IXpsOMPackageWriter3D object for the document package.
 old-location: xps\ixpsdocumentpackagetarget3d_getxpsompackagewriter3d.htm
 tech.root: printdocs
 ms.assetid: 2F3A6997-B325-4406-A731-5C2EAD875125
-
 ms.date: 12/05/2018
 ms.keywords: GetXpsOMPackageWriter3D, GetXpsOMPackageWriter3D method [XPS Documents and Packaging], GetXpsOMPackageWriter3D method [XPS Documents and Packaging],IXpsDocumentPackageTarget3D interface, IXpsDocumentPackageTarget3D interface [XPS Documents and Packaging],GetXpsOMPackageWriter3D method, IXpsDocumentPackageTarget3D.GetXpsOMPackageWriter3D, IXpsDocumentPackageTarget3D::GetXpsOMPackageWriter3D, xps.ixpsdocumentpackagetarget3d_getxpsompackagewriter3d, xpsobjectmodel_2/IXpsDocumentPackageTarget3D::GetXpsOMPackageWriter3D
 ms.topic: method
-f1_keywords: 
- - "xpsobjectmodel_2/IXpsDocumentPackageTarget3D.GetXpsOMPackageWriter3D"
+f1_keywords:
+- xpsobjectmodel_2/IXpsDocumentPackageTarget3D.GetXpsOMPackageWriter3D
 dev_langs:
- - c++
+- c++
 req.header: xpsobjectmodel_2.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - XpsObjectModel_2.h
+- XpsObjectModel_2.h
 api_name:
- - IXpsDocumentPackageTarget3D.GetXpsOMPackageWriter3D
+- IXpsDocumentPackageTarget3D.GetXpsOMPackageWriter3D
 targetos: Windows
 req.typenames: 
 req.redist: 

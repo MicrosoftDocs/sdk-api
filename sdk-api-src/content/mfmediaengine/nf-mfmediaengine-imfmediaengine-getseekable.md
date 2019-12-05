@@ -1,19 +1,17 @@
 ---
 UID: NF:mfmediaengine.IMFMediaEngine.GetSeekable
 title: IMFMediaEngine::GetSeekable (mfmediaengine.h)
-
 description: Gets the time ranges to which the Media Engine can currently seek.
 old-location: mf\imfmediaengine_getseekable.htm
 tech.root: medfound
 ms.assetid: FB238892-B172-4E31-B4E5-68C96E135345
-
 ms.date: 12/05/2018
 ms.keywords: GetSeekable, GetSeekable method [Media Foundation], GetSeekable method [Media Foundation],IMFMediaEngine interface, IMFMediaEngine interface [Media Foundation],GetSeekable method, IMFMediaEngine.GetSeekable, IMFMediaEngine::GetSeekable, mf.imfmediaengine_getseekable, mfmediaengine/IMFMediaEngine::GetSeekable
 ms.topic: method
-f1_keywords: 
- - "mfmediaengine/IMFMediaEngine.GetSeekable"
+f1_keywords:
+- mfmediaengine/IMFMediaEngine.GetSeekable
 dev_langs:
- - c++
+- c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfmediaengine.h
+- mfmediaengine.h
 api_name:
- - IMFMediaEngine.GetSeekable
+- IMFMediaEngine.GetSeekable
 targetos: Windows
 req.typenames: 
 req.redist: 

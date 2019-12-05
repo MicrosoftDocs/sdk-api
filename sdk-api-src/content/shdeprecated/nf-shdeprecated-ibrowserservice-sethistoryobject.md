@@ -1,19 +1,17 @@
 ---
 UID: NF:shdeprecated.IBrowserService.SetHistoryObject
 title: IBrowserService::SetHistoryObject (shdeprecated.h)
-
 description: Deprecated. Sets the browser's history object.
 old-location: shell\IBrowserService_SetHistoryObject.htm
 tech.root: shell
 ms.assetid: 1a0b55b0-a6b6-4b0c-be09-cfb573a5420c
-
 ms.date: 12/05/2018
 ms.keywords: IBrowserService interface [Windows Shell],SetHistoryObject method, IBrowserService.SetHistoryObject, IBrowserService::SetHistoryObject, SetHistoryObject, SetHistoryObject method [Windows Shell], SetHistoryObject method [Windows Shell],IBrowserService interface, shdeprecated/IBrowserService::SetHistoryObject, shell.IBrowserService_SetHistoryObject, zone_IBrowserService_SetHistoryObject
 ms.topic: method
-f1_keywords: 
- - "shdeprecated/IBrowserService.SetHistoryObject"
+f1_keywords:
+- shdeprecated/IBrowserService.SetHistoryObject
 dev_langs:
- - c++
+- c++
 req.header: shdeprecated.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shdeprecated.h
+- Shdeprecated.h
 api_name:
- - IBrowserService.SetHistoryObject
+- IBrowserService.SetHistoryObject
 targetos: Windows
 req.typenames: 
 req.redist: 

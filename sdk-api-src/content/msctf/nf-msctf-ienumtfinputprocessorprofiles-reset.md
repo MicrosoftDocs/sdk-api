@@ -1,19 +1,17 @@
 ---
 UID: NF:msctf.IEnumTfInputProcessorProfiles.Reset
 title: IEnumTfInputProcessorProfiles::Reset (msctf.h)
-
 description: The IEnumTfInputProcessorProfiles::Reset method resets the enumerator object by moving the current position to the beginning of the enumeration sequence.
 old-location: tsf\ienumtfinputprocessorprofiles_reset.htm
 tech.root: TSF
 ms.assetid: ffb78b29-8d05-4622-a026-69af0d86c9c2
-
 ms.date: 12/05/2018
 ms.keywords: IEnumTfInputProcessorProfiles interface [Text Services Framework],Reset method, IEnumTfInputProcessorProfiles.Reset, IEnumTfInputProcessorProfiles::Reset, Reset, Reset method [Text Services Framework], Reset method [Text Services Framework],IEnumTfInputProcessorProfiles interface, msctf/IEnumTfInputProcessorProfiles::Reset, tsf.ienumtfinputprocessorprofiles_reset
 ms.topic: method
-f1_keywords: 
- - "msctf/IEnumTfInputProcessorProfiles.Reset"
+f1_keywords:
+- msctf/IEnumTfInputProcessorProfiles.Reset
 dev_langs:
- - c++
+- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msctf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msctf.dll
+- Msctf.dll
 api_name:
- - IEnumTfInputProcessorProfiles.Reset
+- IEnumTfInputProcessorProfiles.Reset
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

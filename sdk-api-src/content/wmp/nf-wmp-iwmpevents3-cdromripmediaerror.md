@@ -1,19 +1,17 @@
 ---
 UID: NF:wmp.IWMPEvents3.CdromRipMediaError
 title: IWMPEvents3::CdromRipMediaError (wmp.h)
-
 description: The CdromRipMediaError event occurs when an error happens while ripping an individual track from a CD.
 old-location: wmp\iwmpevents3_iwmpevents3__cdromripmediaerror.htm
 tech.root: WMP
 ms.assetid: 103f6d52-5b59-422d-918d-5004cbdfc75a
-
 ms.date: 12/05/2018
 ms.keywords: CdromRipMediaError, CdromRipMediaError method [Windows Media Player], CdromRipMediaError method [Windows Media Player],IWMPEvents3 interface, IWMPEvents3 interface [Windows Media Player],CdromRipMediaError method, IWMPEvents3.CdromRipMediaError, IWMPEvents3::CdromRipMediaError, IWMPEvents3CdromRipMediaError, wmp.iwmpevents3_iwmpevents3__cdromripmediaerror, wmp/IWMPEvents3::CdromRipMediaError
 ms.topic: method
-f1_keywords: 
- - "wmp/IWMPEvents3.CdromRipMediaError"
+f1_keywords:
+- wmp/IWMPEvents3.CdromRipMediaError
 dev_langs:
- - c++
+- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wmp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmp.dll
+- wmp.dll
 api_name:
- - IWMPEvents3.CdromRipMediaError
+- IWMPEvents3.CdromRipMediaError
 targetos: Windows
 req.typenames: 
 req.redist: 

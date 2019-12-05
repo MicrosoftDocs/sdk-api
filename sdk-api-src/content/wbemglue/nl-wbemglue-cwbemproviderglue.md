@@ -1,19 +1,17 @@
 ---
 UID: NL:wbemglue.CWbemProviderGlue
 title: CWbemProviderGlue (wbemglue.h)
-
 description: CWbemProviderGlue ties the Component Object Model (COM) interfaces of the Windows Management Instrumentation (WMI) API to the classes derived from the Provider class, and supplies methods for providers to use to query each other.
 old-location: wmi\cwbemproviderglue.htm
 tech.root: WmiSdk
 ms.assetid: 493027c2-e54d-4fad-9e33-98d1ceab8860
-
 ms.date: 12/05/2018
 ms.keywords: CWbemProviderGlue, CWbemProviderGlue class [Windows Management Instrumentation], CWbemProviderGlue class [Windows Management Instrumentation],described, _hmm_cwbemproviderglue, wbemglue/CWbemProviderGlue, wmi.cwbemproviderglue
 ms.topic: class
-f1_keywords: 
- - "wbemglue/CWbemProviderGlue"
+f1_keywords:
+- wbemglue/CWbemProviderGlue
 dev_langs:
- - c++
+- c++
 req.header: wbemglue.h
 req.include-header: FwCommon.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: FrameDyn.lib
 req.dll: FrameDynOS.dll; FrameDyn.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - FrameDynOS.dll
- - FrameDyn.dll
+- FrameDynOS.dll
+- FrameDyn.dll
 api_name:
- - CWbemProviderGlue
+- CWbemProviderGlue
 targetos: Windows
 req.typenames: 
 req.redist: 

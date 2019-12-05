@@ -1,19 +1,17 @@
 ---
 UID: NF:wmpservices.IWMPServices.GetStreamTime
 title: IWMPServices::GetStreamTime (wmpservices.h)
-
 description: The IWMPServices::GetStreamTime method retrieves a structure indicating the current stream time.
 old-location: wmp\iwmpservices_getstreamtime.htm
 tech.root: WMP
 ms.assetid: 4e6c8181-3ff9-4ce1-aad5-9d7821771f69
-
 ms.date: 12/05/2018
 ms.keywords: GetStreamTime, GetStreamTime method [Windows Media Player], GetStreamTime method [Windows Media Player],IWMPServices interface, IWMPServices interface [Windows Media Player],GetStreamTime method, IWMPServices.GetStreamTime, IWMPServices::GetStreamTime, IWMPServicesGetStreamTimeDSP, wmp.iwmpservices_getstreamtime, wmpservices/IWMPServices::GetStreamTime
 ms.topic: method
-f1_keywords: 
- - "wmpservices/IWMPServices.GetStreamTime"
+f1_keywords:
+- wmpservices/IWMPServices.GetStreamTime
 dev_langs:
- - c++
+- c++
 req.header: wmpservices.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wmp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmp.dll
+- wmp.dll
 api_name:
- - IWMPServices.GetStreamTime
+- IWMPServices.GetStreamTime
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NS:directxmath.XMFLOAT3
 title: XMFLOAT3 (directxmath.h)
-
 description: Describes a 3D vector consisting of three single-precision floating-point values.
 old-location: dxmath\xmfloat3.htm
 tech.root: dxmath
 ms.assetid: T:Microsoft.directx_sdk.reference.XMFLOAT3
-
 ms.date: 12/05/2018
 ms.keywords: XMFLOAT3, XMFLOAT3 structure [DirectX Math Support APIs], directxmath/XMFLOAT3, dxmath.xmfloat3
 ms.topic: struct
-f1_keywords: 
- - "directxmath/XMFLOAT3"
+f1_keywords:
+- directxmath/XMFLOAT3
 dev_langs:
- - c++
+- c++
 req.header: directxmath.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - DirectXMath.h
+- DirectXMath.h
 api_name:
- - XMFLOAT3
+- XMFLOAT3
 targetos: Windows
 req.typenames: 
 req.redist: 

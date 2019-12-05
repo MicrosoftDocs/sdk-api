@@ -1,19 +1,17 @@
 ---
 UID: NF:objidl.ILockBytes.Stat
 title: ILockBytes::Stat (objidl.h)
-
 description: The Stat method retrieves a STATSTG structure containing information for this byte array object.
 old-location: stg\ilockbytes_stat.htm
 tech.root: Stg
 ms.assetid: e7953f21-ac34-44e3-9b6f-b93ac89e2e32
-
 ms.date: 12/05/2018
 ms.keywords: ILockBytes interface [Structured Storage],Stat method, ILockBytes.Stat, ILockBytes::Stat, Stat, Stat method [Structured Storage], Stat method [Structured Storage],ILockBytes interface, _stg_ilockbytes_stat, objidl/ILockBytes::Stat, stg.ilockbytes_stat
 ms.topic: method
-f1_keywords: 
- - "objidl/ILockBytes.Stat"
+f1_keywords:
+- objidl/ILockBytes.Stat
 dev_langs:
- - c++
+- c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Ole32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Ole32.dll
+- Ole32.dll
 api_name:
- - ILockBytes.Stat
+- ILockBytes.Stat
 targetos: Windows
 req.typenames: 
 req.redist: 

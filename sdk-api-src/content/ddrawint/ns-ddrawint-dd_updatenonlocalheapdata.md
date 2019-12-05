@@ -1,19 +1,17 @@
 ---
 UID: NS:ddrawint._DD_UPDATENONLOCALHEAPDATA
 title: DD_UPDATENONLOCALHEAPDATA (ddrawint.h)
-
 description: The DD_UPDATENONLOCALHEAPDATA structure contains the required heap information.
 old-location: display\dd_updatenonlocalheapdata.htm
 tech.root: display
 ms.assetid: ef16df6f-dbc6-40ee-9c86-be9c3d132b28
-
 ms.date: 12/05/2018
 ms.keywords: '*PDD_UPDATENONLOCALHEAPDATA, DD_UPDATENONLOCALHEAPDATA, DD_UPDATENONLOCALHEAPDATA structure [Display Devices], ddrawint/DD_UPDATENONLOCALHEAPDATA, ddstrcts_e53429c7-6fc5-4528-ab0e-c9768fdf75ae.xml, display.dd_updatenonlocalheapdata'
 ms.topic: struct
 f1_keywords:
 - ddrawint/DD_UPDATENONLOCALHEAPDATA
 dev_langs:
- - c++
+- c++
 req.header: ddrawint.h
 req.include-header: Winddi.h
 req.target-type: Windows

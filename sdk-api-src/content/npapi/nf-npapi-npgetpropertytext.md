@@ -1,19 +1,17 @@
 ---
 UID: NF:npapi.NPGetPropertyText
 title: NPGetPropertyText function (npapi.h)
-
 description: Retrieves the names of buttons to add to a property dialog box for a network resource.
 old-location: security\npgetpropertytext.htm
 tech.root: SecAuthN
 ms.assetid: 5c4583f5-81e9-4723-8fd0-6909b0107446
-
 ms.date: 12/05/2018
 ms.keywords: NPGetPropertyText, NPGetPropertyText function [Security], WNPS_DIR, WNPS_FILE, WNPS_MULT, _mnp_npgetpropertytext, npapi/NPGetPropertyText, security.npgetpropertytext
 ms.topic: function
-f1_keywords: 
- - "npapi/NPGetPropertyText"
+f1_keywords:
+- npapi/NPGetPropertyText
 dev_langs:
- - c++
+- c++
 req.header: npapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Npapi.h
+- Npapi.h
 api_name:
- - NPGetPropertyText
+- NPGetPropertyText
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NN:objidlbase.IGlobalOptions
 title: IGlobalOptions (objidlbase.h)
-
 description: Sets and queries global properties of the Component Object Model (COM) runtime.
 old-location: com\iglobaloptions.htm
 tech.root: com
 ms.assetid: c5e823be-521d-4eb4-8836-fdd2cac6f15d
-
 ms.date: 12/05/2018
 ms.keywords: IGlobalOptions, IGlobalOptions interface [COM], IGlobalOptions interface [COM],described, _com_iglobaloptions, com.iglobaloptions, objidlbase/IGlobalOptions
 ms.topic: interface
-f1_keywords: 
- - "objidlbase/IGlobalOptions"
+f1_keywords:
+- objidlbase/IGlobalOptions
 dev_langs:
- - c++
+- c++
 req.header: objidlbase.h
 req.include-header: ObjIdl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - objidlbase.h
+- objidlbase.h
 api_name:
- - IGlobalOptions
+- IGlobalOptions
 targetos: Windows
 req.typenames: 
 req.redist: 

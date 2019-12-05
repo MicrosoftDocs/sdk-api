@@ -1,19 +1,17 @@
 ---
 UID: NF:bdatif.IGuideDataEvent.ScheduleEntryChanged
 title: IGuideDataEvent::ScheduleEntryChanged (bdatif.h)
-
 description: The ScheduleEntryChanged method is called by the TIF when information about one or more schedule entries has changed.
 old-location: mstv\iguidedataevent_scheduleentrychanged.htm
 tech.root: mstv
 ms.assetid: 04c278a0-8a92-4801-9463-696beb22819e
-
 ms.date: 12/05/2018
 ms.keywords: IGuideDataEvent interface [Microsoft TV Technologies],ScheduleEntryChanged method, IGuideDataEvent.ScheduleEntryChanged, IGuideDataEvent::ScheduleEntryChanged, IGuideDataEventScheduleEntryChanged, ScheduleEntryChanged, ScheduleEntryChanged method [Microsoft TV Technologies], ScheduleEntryChanged method [Microsoft TV Technologies],IGuideDataEvent interface, bdatif/IGuideDataEvent::ScheduleEntryChanged, mstv.iguidedataevent_scheduleentrychanged
 ms.topic: method
-f1_keywords: 
- - "bdatif/IGuideDataEvent.ScheduleEntryChanged"
+f1_keywords:
+- bdatif/IGuideDataEvent.ScheduleEntryChanged
 dev_langs:
- - c++
+- c++
 req.header: bdatif.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - bdatif.h
+- bdatif.h
 api_name:
- - IGuideDataEvent.ScheduleEntryChanged
+- IGuideDataEvent.ScheduleEntryChanged
 targetos: Windows
 req.typenames: 
 req.redist: 

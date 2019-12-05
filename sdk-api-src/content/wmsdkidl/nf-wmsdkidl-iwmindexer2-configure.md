@@ -1,19 +1,17 @@
 ---
 UID: NF:wmsdkidl.IWMIndexer2.Configure
 title: IWMIndexer2::Configure (wmsdkidl.h)
-
 description: The Configure method changes the internal settings of the indexer object.
 old-location: wmformat\iwmindexer2_configure.htm
 tech.root: wmformat
 ms.assetid: b4ab9ad8-5fc7-43ce-ba2f-f32135a44a86
-
 ms.date: 12/05/2018
 ms.keywords: Configure, Configure method [windows Media Format], Configure method [windows Media Format],IWMIndexer2 interface, IWMIndexer2 interface [windows Media Format],Configure method, IWMIndexer2.Configure, IWMIndexer2::Configure, IWMIndexer2Configure, wmformat.iwmindexer2_configure, wmsdkidl/IWMIndexer2::Configure
 ms.topic: method
-f1_keywords: 
- - "wmsdkidl/IWMIndexer2.Configure"
+f1_keywords:
+- wmsdkidl/IWMIndexer2.Configure
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wmvcore.lib
- - Wmvcore.dll
- - WMStubDRM.lib
- - WMStubDRM.dll
+- Wmvcore.lib
+- Wmvcore.dll
+- WMStubDRM.lib
+- WMStubDRM.dll
 api_name:
- - IWMIndexer2.Configure
+- IWMIndexer2.Configure
 targetos: Windows
 req.typenames: 
 req.redist: 

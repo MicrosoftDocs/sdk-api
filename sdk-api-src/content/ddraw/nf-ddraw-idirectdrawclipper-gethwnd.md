@@ -1,19 +1,17 @@
 ---
 UID: NF:ddraw.IDirectDrawClipper.GetHWnd
 title: IDirectDrawClipper::GetHWnd (ddraw.h)
-
 description: Retrieves the window handle that was previously associated with this DirectDrawClipper object by the IDirectDrawClipper::SetHWnd method.
 old-location: directdraw\idirectdrawclipper_gethwnd.htm
 tech.root: directdraw
 ms.assetid: 025e898f-e160-4485-87cf-f5fbc014e9f1
-
 ms.date: 12/05/2018
 ms.keywords: GetHWnd, GetHWnd method [DirectDraw], GetHWnd method [DirectDraw],IDirectDrawClipper interface, IDirectDrawClipper interface [DirectDraw],GetHWnd method, IDirectDrawClipper.GetHWnd, IDirectDrawClipper::GetHWnd, ddraw/IDirectDrawClipper::GetHWnd, directdraw.idirectdrawclipper_gethwnd
 ms.topic: method
-f1_keywords: 
- - "ddraw/IDirectDrawClipper.GetHWnd"
+f1_keywords:
+- ddraw/IDirectDrawClipper.GetHWnd
 dev_langs:
- - c++
+- c++
 req.header: ddraw.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Ddraw.lib
 req.dll: Ddraw.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Ddraw.dll
+- Ddraw.dll
 api_name:
- - IDirectDrawClipper.GetHWnd
+- IDirectDrawClipper.GetHWnd
 targetos: Windows
 req.typenames: 
 req.redist: 

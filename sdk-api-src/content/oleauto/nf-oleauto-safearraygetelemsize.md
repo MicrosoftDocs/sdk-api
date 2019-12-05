@@ -1,19 +1,17 @@
 ---
 UID: NF:oleauto.SafeArrayGetElemsize
 title: SafeArrayGetElemsize function (oleauto.h)
-
 description: Gets the size of an element.
 old-location: automat\safearraygetelemsize.htm
 tech.root: automat
 ms.assetid: 27bd4a3f-0e9d-45f7-ad7c-0c0b59579dd0
-
 ms.date: 12/05/2018
 ms.keywords: SafeArrayGetElemsize, SafeArrayGetElemsize function [Automation], _oa96_SafeArrayGetElemsize, automat.safearraygetelemsize, oleauto/SafeArrayGetElemsize
 ms.topic: function
-f1_keywords: 
- - "oleauto/SafeArrayGetElemsize"
+f1_keywords:
+- oleauto/SafeArrayGetElemsize
 dev_langs:
- - c++
+- c++
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: OleAut32.lib
 req.dll: OleAut32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - OleAut32.dll
+- OleAut32.dll
 api_name:
- - SafeArrayGetElemsize
+- SafeArrayGetElemsize
 targetos: Windows
 req.typenames: 
 req.redist: 

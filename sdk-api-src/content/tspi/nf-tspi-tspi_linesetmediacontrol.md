@@ -1,19 +1,17 @@
 ---
 UID: NF:tspi.TSPI_lineSetMediaControl
 title: TSPI_lineSetMediaControl function (tspi.h)
-
 description: The TSPI_lineSetMediaControl function enables and disables control actions on the media stream associated with the specified line, address, or call.
 old-location: tspi\tspi_linesetmediacontrol.htm
 tech.root: Tapi
 ms.assetid: e9273bd6-8dc3-4b45-bf0e-a1a10d78a604
-
 ms.date: 12/05/2018
 ms.keywords: TSPI_lineSetMediaControl, TSPI_lineSetMediaControl function [TAPI 2.2], _tspi_tspi_linesetmediacontrol, tspi.tspi_linesetmediacontrol, tspi/TSPI_lineSetMediaControl
 ms.topic: function
-f1_keywords: 
- - "tspi/TSPI_lineSetMediaControl"
+f1_keywords:
+- tspi/TSPI_lineSetMediaControl
 dev_langs:
- - c++
+- c++
 req.header: tspi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Tspi.h
+- Tspi.h
 api_name:
- - TSPI_lineSetMediaControl
+- TSPI_lineSetMediaControl
 targetos: Windows
 req.typenames: 
 req.redist: 

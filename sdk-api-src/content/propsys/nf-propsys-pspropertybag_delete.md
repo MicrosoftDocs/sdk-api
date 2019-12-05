@@ -1,19 +1,17 @@
 ---
 UID: NF:propsys.PSPropertyBag_Delete
 title: PSPropertyBag_Delete function (propsys.h)
-
 description: Deletes a property from a property bag.
 old-location: properties\PSPropertyBag_Delete.htm
 tech.root: properties
 ms.assetid: 53ED1C87-5141-4925-B70E-C0304817A871
-
 ms.date: 12/05/2018
 ms.keywords: PSPropertyBag_Delete, PSPropertyBag_Delete function [Windows Properties], properties.PSPropertyBag_Delete, propsys/PSPropertyBag_Delete, shell.PSPropertyBag_Delete, shell_PSPropertyBag_Delete
 ms.topic: function
-f1_keywords: 
- - "propsys/PSPropertyBag_Delete"
+f1_keywords:
+- propsys/PSPropertyBag_Delete
 dev_langs:
- - c++
+- c++
 req.header: propsys.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Propsys.lib
 req.dll: Propsys.dll (version 6.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Propsys.dll
+- Propsys.dll
 api_name:
- - PSPropertyBag_Delete
+- PSPropertyBag_Delete
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:mfidl.IMFVideoProcessorControl2.EnableHardwareEffects
 title: IMFVideoProcessorControl2::EnableHardwareEffects (mfidl.h)
-
 description: Enables effects that were implemented with IDirectXVideoProcessor::VideoProcessorBlt.
 old-location: mf\imfvideoprocessorcontrol2_enablehardwareeffects.htm
 tech.root: medfound
 ms.assetid: 682B1FAA-05D5-40E3-98BD-DDEFB0C5B4AF
-
 ms.date: 12/05/2018
 ms.keywords: EnableHardwareEffects, EnableHardwareEffects method [Media Foundation], EnableHardwareEffects method [Media Foundation],IMFVideoProcessorControl2 interface, IMFVideoProcessorControl2 interface [Media Foundation],EnableHardwareEffects method, IMFVideoProcessorControl2.EnableHardwareEffects, IMFVideoProcessorControl2::EnableHardwareEffects, mf.imfvideoprocessorcontrol2_enablehardwareeffects, mfidl/IMFVideoProcessorControl2::EnableHardwareEffects
 ms.topic: method
-f1_keywords: 
- - "mfidl/IMFVideoProcessorControl2.EnableHardwareEffects"
+f1_keywords:
+- mfidl/IMFVideoProcessorControl2.EnableHardwareEffects
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfidl.h
+- mfidl.h
 api_name:
- - IMFVideoProcessorControl2.EnableHardwareEffects
+- IMFVideoProcessorControl2.EnableHardwareEffects
 targetos: Windows
 req.typenames: 
 req.redist: 

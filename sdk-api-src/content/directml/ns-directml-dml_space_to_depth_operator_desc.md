@@ -1,19 +1,17 @@
 ---
 UID: NS:directml.DML_SPACE_TO_DEPTH_OPERATOR_DESC
 title: DML_SPACE_TO_DEPTH_OPERATOR_DESC
-
 description: Describes a DirectML data reorganization operator that rearranges blocks of spatial data into depth. The operator outputs a copy of the input tensor where values from the height and width dimensions are moved to the depth dimension.
 old-location: direct3d12\dml_space_to_depth_operator_desc.htm
 tech.root: direct3d12
 ms.assetid: 759769E2-A379-4790-82AD-1B9D3B35D616
-
 ms.date: 12/5/2018
 ms.keywords: DML_SPACE_TO_DEPTH_OPERATOR_DESC, DML_SPACE_TO_DEPTH_OPERATOR_DESC structure, direct3d12.dml_space_to_depth_operator_desc, directml/DML_SPACE_TO_DEPTH_OPERATOR_DESC
 ms.topic: struct
-f1_keywords: 
- - "directml/DML_SPACE_TO_DEPTH_OPERATOR_DESC"
+f1_keywords:
+- directml/DML_SPACE_TO_DEPTH_OPERATOR_DESC
 dev_langs:
- - c++
+- c++
 req.header: directml.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - DirectML.h
+- DirectML.h
 api_name:
- - DML_SPACE_TO_DEPTH_OPERATOR_DESC
+- DML_SPACE_TO_DEPTH_OPERATOR_DESC
 targetos: Windows
 req.typenames: 
 req.redist: 

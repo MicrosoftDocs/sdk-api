@@ -1,19 +1,17 @@
 ---
 UID: NN:wbemcli.IWbemHiPerfEnum
 title: IWbemHiPerfEnum (wbemcli.h)
-
 description: Used in refresher operations to provide rapid access to enumerations of instance objects.
 old-location: wmi\iwbemhiperfenum.htm
 tech.root: WmiSdk
 ms.assetid: 71ce1c89-446e-4137-9857-9d3c5921e0b7
-
 ms.date: 12/05/2018
 ms.keywords: IWbemHiPerfEnum, IWbemHiPerfEnum interface [Windows Management Instrumentation], IWbemHiPerfEnum interface [Windows Management Instrumentation],described, _hmm_iwbemhiperfenum, wbemcli/IWbemHiPerfEnum, wmi.iwbemhiperfenum
 ms.topic: interface
-f1_keywords: 
- - "wbemcli/IWbemHiPerfEnum"
+f1_keywords:
+- wbemcli/IWbemHiPerfEnum
 dev_langs:
- - c++
+- c++
 req.header: wbemcli.h
 req.include-header: Wbemidl.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Wbemuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wbemuuid.lib
- - Wbemuuid.dll
+- Wbemuuid.lib
+- Wbemuuid.dll
 api_name:
- - IWbemHiPerfEnum
+- IWbemHiPerfEnum
 targetos: Windows
 req.typenames: 
 req.redist: 

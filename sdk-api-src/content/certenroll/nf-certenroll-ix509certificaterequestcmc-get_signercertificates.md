@@ -1,19 +1,17 @@
 ---
 UID: NF:certenroll.IX509CertificateRequestCmc.get_SignerCertificates
 title: IX509CertificateRequestCmc::get_SignerCertificates (certenroll.h)
-
 description: Retrieves a collection of certificates used to sign the request.
 old-location: security\ix509certificaterequestcmc_signercertificates_property.htm
 tech.root: seccertenroll
 ms.assetid: 0b963fe2-32bd-4f99-9d4f-b17cb2d65909
-
 ms.date: 12/05/2018
 ms.keywords: IX509CertificateRequestCmc interface [Security],SignerCertificates property, IX509CertificateRequestCmc.SignerCertificates, IX509CertificateRequestCmc.get_SignerCertificates, IX509CertificateRequestCmc::SignerCertificates, IX509CertificateRequestCmc::get_SignerCertificates, SignerCertificates property [Security], SignerCertificates property [Security],IX509CertificateRequestCmc interface, certenroll/IX509CertificateRequestCmc::SignerCertificates, certenroll/IX509CertificateRequestCmc::get_SignerCertificates, get_SignerCertificates, security.ix509certificaterequestcmc_signercertificates_property
 ms.topic: method
-f1_keywords: 
- - "certenroll/IX509CertificateRequestCmc.SignerCertificates"
+f1_keywords:
+- certenroll/IX509CertificateRequestCmc.SignerCertificates
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: CertEnroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CertEnroll.dll
+- CertEnroll.dll
 api_name:
- - IX509CertificateRequestCmc.SignerCertificates
- - IX509CertificateRequestCmc.get_SignerCertificates
+- IX509CertificateRequestCmc.SignerCertificates
+- IX509CertificateRequestCmc.get_SignerCertificates
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:gdiplusheaders.Region.GetData
 title: Region::GetData (gdiplusheaders.h)
-
 description: The Region::GetData method gets data that describes this region.
 old-location: gdiplus\_gdiplus_CLASS_Region_GetData_buffer_bufferSize_sizeFilled_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\regionclass\regionmethods\getdata.htm
-
 ms.date: 12/05/2018
 ms.keywords: GetData, GetData method [GDI+], GetData method [GDI+],Region class, Region class [GDI+],GetData method, Region.GetData, Region::GetData, _gdiplus_CLASS_Region_GetData_buffer_bufferSize_sizeFilled_, gdiplus._gdiplus_CLASS_Region_GetData_buffer_bufferSize_sizeFilled_
 ms.topic: method
-f1_keywords: 
- - "gdiplusheaders/Region.GetData"
+f1_keywords:
+- gdiplusheaders/Region.GetData
 dev_langs:
- - c++
+- c++
 req.header: gdiplusheaders.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - Region.GetData
+- Region.GetData
 targetos: Windows
 req.typenames: 
 req.redist: 

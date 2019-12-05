@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IAMExtTransport.GetTransportBasicParameters
 title: IAMExtTransport::GetTransportBasicParameters (strmif.h)
-
 description: The GetTransportBasicParameters method retrieves general properties of the external transport.
 old-location: dshow\iamexttransport_gettransportbasicparameters.htm
 tech.root: DirectShow
 ms.assetid: 7f670efe-4433-496d-b789-925c02b69f58
-
 ms.date: 12/05/2018
 ms.keywords: GetTransportBasicParameters, GetTransportBasicParameters method [DirectShow], GetTransportBasicParameters method [DirectShow],IAMExtTransport interface, IAMExtTransport interface [DirectShow],GetTransportBasicParameters method, IAMExtTransport.GetTransportBasicParameters, IAMExtTransport::GetTransportBasicParameters, IAMExtTransportGetTransportBasicParameters, dshow.iamexttransport_gettransportbasicparameters, strmif/IAMExtTransport::GetTransportBasicParameters
 ms.topic: method
-f1_keywords: 
- - "strmif/IAMExtTransport.GetTransportBasicParameters"
+f1_keywords:
+- strmif/IAMExtTransport.GetTransportBasicParameters
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IAMExtTransport.GetTransportBasicParameters
+- IAMExtTransport.GetTransportBasicParameters
 targetos: Windows
 req.typenames: 
 req.redist: 

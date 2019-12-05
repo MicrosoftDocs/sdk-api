@@ -1,19 +1,17 @@
 ---
 UID: NF:winscard.SCardForgetCardTypeW
 title: SCardForgetCardTypeW function (winscard.h)
-
 description: Removes an introduced smart card from the smart card subsystem.
 old-location: security\scardforgetcardtype.htm
 tech.root: SecAuthN
 ms.assetid: 4f2d4791-d517-43e4-bff9-f88e12983dea
-
 ms.date: 12/05/2018
 ms.keywords: SCardForgetCardType, SCardForgetCardType function [Security], SCardForgetCardTypeA, SCardForgetCardTypeW, _smart_scardforgetcardtype, security.scardforgetcardtype, winscard/SCardForgetCardType, winscard/SCardForgetCardTypeA, winscard/SCardForgetCardTypeW
 ms.topic: function
-f1_keywords: 
- - "winscard/SCardForgetCardType"
+f1_keywords:
+- winscard/SCardForgetCardType
 dev_langs:
- - c++
+- c++
 req.header: winscard.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Winscard.lib
 req.dll: Winscard.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Winscard.dll
+- Winscard.dll
 api_name:
- - SCardForgetCardType
- - SCardForgetCardTypeA
- - SCardForgetCardTypeW
+- SCardForgetCardType
+- SCardForgetCardTypeA
+- SCardForgetCardTypeW
 targetos: Windows
 req.typenames: 
 req.redist: 

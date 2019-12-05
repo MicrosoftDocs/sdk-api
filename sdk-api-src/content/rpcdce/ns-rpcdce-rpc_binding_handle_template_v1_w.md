@@ -1,19 +1,17 @@
 ---
 UID: NS:rpcdce._RPC_BINDING_HANDLE_TEMPLATE_V1_W
 title: RPC_BINDING_HANDLE_TEMPLATE_V1_W (rpcdce.h)
-
 description: Contains the basic options with which to create an RPC binding handle.
 old-location: rpc\rpc_binding_handle_template_v1.htm
 tech.root: Rpc
 ms.assetid: b5712e0b-1751-4e5f-8000-da2a330da202
-
 ms.date: 12/05/2018
-ms.keywords: "*PRPC_BINDING_HANDLE_TEMPLATE_V1_W, RPC_BHT_OBJECT_UUID_VALID, RPC_BINDING_HANDLE_TEMPLATE, RPC_BINDING_HANDLE_TEMPLATE structure [RPC], RPC_BINDING_HANDLE_TEMPLATE_V1, RPC_BINDING_HANDLE_TEMPLATE_V1 structure [RPC], RPC_BINDING_HANDLE_TEMPLATE_V1_A, RPC_BINDING_HANDLE_TEMPLATE_V1_W, _RPC_BINDING_HANDLE_TEMPLATE_V1_A, _RPC_BINDING_HANDLE_TEMPLATE_V1_W, ncacn_http, ncacn_ip_tcp, ncacn_np, ncalrpc, rpc.rpc_binding_handle_template_v1, rpcdce/RPC_BINDING_HANDLE_TEMPLATE, rpcdce/RPC_BINDING_HANDLE_TEMPLATE_V1"
+ms.keywords: '*PRPC_BINDING_HANDLE_TEMPLATE_V1_W, RPC_BHT_OBJECT_UUID_VALID, RPC_BINDING_HANDLE_TEMPLATE, RPC_BINDING_HANDLE_TEMPLATE structure [RPC], RPC_BINDING_HANDLE_TEMPLATE_V1, RPC_BINDING_HANDLE_TEMPLATE_V1 structure [RPC], RPC_BINDING_HANDLE_TEMPLATE_V1_A, RPC_BINDING_HANDLE_TEMPLATE_V1_W, _RPC_BINDING_HANDLE_TEMPLATE_V1_A, _RPC_BINDING_HANDLE_TEMPLATE_V1_W, ncacn_http, ncacn_ip_tcp, ncacn_np, ncalrpc, rpc.rpc_binding_handle_template_v1, rpcdce/RPC_BINDING_HANDLE_TEMPLATE, rpcdce/RPC_BINDING_HANDLE_TEMPLATE_V1'
 ms.topic: struct
-f1_keywords: 
- - "rpcdce/RPC_BINDING_HANDLE_TEMPLATE_V1"
+f1_keywords:
+- rpcdce/RPC_BINDING_HANDLE_TEMPLATE_V1
 dev_langs:
- - c++
+- c++
 req.header: rpcdce.h
 req.include-header: Rpc.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Rpcdce.h
+- Rpcdce.h
 api_name:
- - RPC_BINDING_HANDLE_TEMPLATE_V1
- - RPC_BINDING_HANDLE_TEMPLATE_V1_A
- - RPC_BINDING_HANDLE_TEMPLATE_V1_W
+- RPC_BINDING_HANDLE_TEMPLATE_V1
+- RPC_BINDING_HANDLE_TEMPLATE_V1_A
+- RPC_BINDING_HANDLE_TEMPLATE_V1_W
 targetos: Windows
 req.typenames: RPC_BINDING_HANDLE_TEMPLATE_V1_W, *PRPC_BINDING_HANDLE_TEMPLATE_V1_W
 req.redist: 

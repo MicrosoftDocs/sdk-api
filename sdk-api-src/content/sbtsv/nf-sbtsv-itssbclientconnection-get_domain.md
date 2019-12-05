@@ -1,19 +1,17 @@
 ---
 UID: NF:sbtsv.ITsSbClientConnection.get_Domain
 title: ITsSbClientConnection::get_Domain (sbtsv.h)
-
 description: Retrieves a value that indicates the domain name of the Remote Desktop Connection (RDC) client.
 old-location: termserv\itssbclientconnection_domain.htm
 tech.root: TermServ
 ms.assetid: 628f450d-10f4-4405-8d7c-ae58c72c2755
-
 ms.date: 12/05/2018
 ms.keywords: Domain property [Remote Desktop Services], Domain property [Remote Desktop Services],ITsSbClientConnection interface, ITsSbClientConnection interface [Remote Desktop Services],Domain property, ITsSbClientConnection.Domain, ITsSbClientConnection.get_Domain, ITsSbClientConnection::Domain, ITsSbClientConnection::get_Domain, get_Domain, sbtsv/ITsSbClientConnection::Domain, sbtsv/ITsSbClientConnection::get_Domain, termserv.itssbclientconnection_domain
 ms.topic: method
-f1_keywords: 
- - "sbtsv/ITsSbClientConnection.Domain"
+f1_keywords:
+- sbtsv/ITsSbClientConnection.Domain
 dev_langs:
- - c++
+- c++
 req.header: sbtsv.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - sbtsv.h
+- sbtsv.h
 api_name:
- - ITsSbClientConnection.Domain
- - ITsSbClientConnection.get_Domain
+- ITsSbClientConnection.Domain
+- ITsSbClientConnection.get_Domain
 targetos: Windows
 req.typenames: 
 req.redist: 

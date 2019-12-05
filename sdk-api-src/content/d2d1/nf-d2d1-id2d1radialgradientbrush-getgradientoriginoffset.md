@@ -1,19 +1,17 @@
 ---
 UID: NF:d2d1.ID2D1RadialGradientBrush.GetGradientOriginOffset
 title: ID2D1RadialGradientBrush::GetGradientOriginOffset (d2d1.h)
-
 description: Retrieves the offset of the gradient origin relative to the gradient ellipse's center.
 old-location: direct2d\ID2D1RadialGradientBrush_GetGradientOriginOffset.htm
 tech.root: Direct2D
 ms.assetid: 535041d0-bb68-41cc-ab43-cb03fb1907a7
-
 ms.date: 12/05/2018
 ms.keywords: GetGradientOriginOffset, GetGradientOriginOffset method [Direct2D], GetGradientOriginOffset method [Direct2D],ID2D1RadialGradientBrush interface, ID2D1RadialGradientBrush interface [Direct2D],GetGradientOriginOffset method, ID2D1RadialGradientBrush.GetGradientOriginOffset, ID2D1RadialGradientBrush::GetGradientOriginOffset, d2d1/ID2D1RadialGradientBrush::GetGradientOriginOffset, direct2d.ID2D1RadialGradientBrush_GetGradientOriginOffset
 ms.topic: method
-f1_keywords: 
- - "d2d1/ID2D1RadialGradientBrush.GetGradientOriginOffset"
+f1_keywords:
+- d2d1/ID2D1RadialGradientBrush.GetGradientOriginOffset
 dev_langs:
- - c++
+- c++
 req.header: d2d1.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: D2d1.lib
 req.dll: D2d1.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D2d1.dll
+- D2d1.dll
 api_name:
- - ID2D1RadialGradientBrush.GetGradientOriginOffset
+- ID2D1RadialGradientBrush.GetGradientOriginOffset
 targetos: Windows
 req.typenames: 
 req.redist: 

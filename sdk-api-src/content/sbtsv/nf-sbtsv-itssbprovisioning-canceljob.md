@@ -1,19 +1,17 @@
 ---
 UID: NF:sbtsv.ITsSbProvisioning.CancelJob
 title: ITsSbProvisioning::CancelJob (sbtsv.h)
-
 description: Cancels a provisioning job.
 old-location: termserv\itssbprovisioning_canceljob.htm
 tech.root: TermServ
 ms.assetid: c0496a8c-00ec-43a4-a7c2-071acb6b068a
-
 ms.date: 12/05/2018
 ms.keywords: CancelJob, CancelJob method [Remote Desktop Services], CancelJob method [Remote Desktop Services],ITsSbProvisioning interface, ITsSbProvisioning interface [Remote Desktop Services],CancelJob method, ITsSbProvisioning.CancelJob, ITsSbProvisioning::CancelJob, sbtsv/ITsSbProvisioning::CancelJob, termserv.itssbprovisioning_canceljob
 ms.topic: method
-f1_keywords: 
- - "sbtsv/ITsSbProvisioning.CancelJob"
+f1_keywords:
+- sbtsv/ITsSbProvisioning.CancelJob
 dev_langs:
- - c++
+- c++
 req.header: sbtsv.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - sbtsv.h
+- sbtsv.h
 api_name:
- - ITsSbProvisioning.CancelJob
+- ITsSbProvisioning.CancelJob
 targetos: Windows
 req.typenames: 
 req.redist: 

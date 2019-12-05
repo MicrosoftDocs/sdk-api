@@ -1,19 +1,17 @@
 ---
 UID: NF:winusb.WinUsb_SetPipePolicy
 title: WinUsb_SetPipePolicy function (winusb.h)
-
 description: The WinUsb_SetPipePolicy function sets the policy for a specific pipe associated with an endpoint on the device. This is a synchronous operation.
 old-location: buses\winusb_setpipepolicy.htm
 tech.root: usbref
 ms.assetid: 34bd7798-4c5f-48c9-bcd1-1492693b0639
-
 ms.date: 12/05/2018
 ms.keywords: WinUsb_SetPipePolicy, WinUsb_SetPipePolicy function [Buses], buses.winusb_setpipepolicy, winusb/WinUsb_SetPipePolicy, winusbfunc_8a973602-4564-42df-9adf-b7ea6a0339e9.xml
 ms.topic: function
-f1_keywords: 
- - "winusb/WinUsb_SetPipePolicy"
+f1_keywords:
+- winusb/WinUsb_SetPipePolicy
 dev_langs:
- - c++
+- c++
 req.header: winusb.h
 req.include-header: Winusb.h
 req.target-type: Universal
@@ -32,14 +30,14 @@ req.lib: Winusb.lib
 req.dll: Winusb.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - winusb.dll
+- winusb.dll
 api_name:
- - WinUsb_SetPipePolicy
+- WinUsb_SetPipePolicy
 targetos: Windows
 req.typenames: 
 req.redist: 

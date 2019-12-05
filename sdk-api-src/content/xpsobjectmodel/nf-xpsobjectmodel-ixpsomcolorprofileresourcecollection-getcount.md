@@ -1,19 +1,17 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMColorProfileResourceCollection.GetCount
 title: IXpsOMColorProfileResourceCollection::GetCount (xpsobjectmodel.h)
-
 description: Gets the number of IXpsOMColorProfileResource interface pointers in the collection.
 old-location: xps\ixpsomcolorprofileresourcecollection_getcount.htm
 tech.root: printdocs
 ms.assetid: 798ac7ed-1221-4985-b325-d588133ad59c
-
 ms.date: 12/05/2018
 ms.keywords: GetCount, GetCount method [XPS Documents and Packaging], GetCount method [XPS Documents and Packaging],IXpsOMColorProfileResourceCollection interface, IXpsOMColorProfileResourceCollection interface [XPS Documents and Packaging],GetCount method, IXpsOMColorProfileResourceCollection.GetCount, IXpsOMColorProfileResourceCollection::GetCount, xps.ixpsomcolorprofileresourcecollection_getcount, xpsobjectmodel/IXpsOMColorProfileResourceCollection::GetCount
 ms.topic: method
-f1_keywords: 
- - "xpsobjectmodel/IXpsOMColorProfileResourceCollection.GetCount"
+f1_keywords:
+- xpsobjectmodel/IXpsOMColorProfileResourceCollection.GetCount
 dev_langs:
- - c++
+- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsobjectmodel.h
+- xpsobjectmodel.h
 api_name:
- - IXpsOMColorProfileResourceCollection.GetCount
+- IXpsOMColorProfileResourceCollection.GetCount
 targetos: Windows
 req.typenames: 
 req.redist: 

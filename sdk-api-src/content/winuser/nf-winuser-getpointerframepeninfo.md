@@ -1,19 +1,17 @@
 ---
 UID: NF:winuser.GetPointerFramePenInfo
 title: GetPointerFramePenInfo function (winuser.h)
-
 description: Gets the entire frame of pen-based information for the specified pointers (of type PT_PEN) associated with the current message.
 old-location: inputmsg\getpointerframepeninfo.htm
 tech.root: InputMsg
 ms.assetid: 52db9b96-7f9e-41d7-88f7-b9c7691a6511
-
 ms.date: 12/05/2018
 ms.keywords: GetPointerFramePenInfo, GetPointerFramePenInfo function [Input Messages and Notifications], inputmsg.getpointerframepeninfo, winuser/GetPointerFramePenInfo
 ms.topic: function
-f1_keywords: 
- - "winuser/GetPointerFramePenInfo"
+f1_keywords:
+- winuser/GetPointerFramePenInfo
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,19 +30,19 @@ req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - User32.dll
- - API-MS-Win-RTCore-NTUser-WMPointer-l1-1-0.dll
- - MinUser.dll
- - API-MS-Win-RTCore-NTUser-WMPointer-l1-1-1.dll
- - API-Ms-Win-RTCore-NTUser-WMPointer-L1-1-2.dll
- - API-MS-Win-RTCore-NTUser-WMPointer-L1-1-3.dll
+- User32.dll
+- API-MS-Win-RTCore-NTUser-WMPointer-l1-1-0.dll
+- MinUser.dll
+- API-MS-Win-RTCore-NTUser-WMPointer-l1-1-1.dll
+- API-Ms-Win-RTCore-NTUser-WMPointer-L1-1-2.dll
+- API-MS-Win-RTCore-NTUser-WMPointer-L1-1-3.dll
 api_name:
- - GetPointerFramePenInfo
+- GetPointerFramePenInfo
 targetos: Windows
 req.typenames: 
 req.redist: 

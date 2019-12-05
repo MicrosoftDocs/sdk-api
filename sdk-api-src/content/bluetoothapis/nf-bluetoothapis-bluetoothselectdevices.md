@@ -1,19 +1,17 @@
 ---
 UID: NF:bluetoothapis.BluetoothSelectDevices
 title: BluetoothSelectDevices function (bluetoothapis.h)
-
 description: Enables Bluetooth device selection.
 old-location: bluetooth\bluetoothselectdevices.htm
 tech.root: bluetooth
 ms.assetid: 97fcbd72-99d5-4c5b-bf16-75eea97cbc77
-
 ms.date: 12/05/2018
 ms.keywords: BluetoothSelectDevices, BluetoothSelectDevices function [Bluetooth], _bth_bluetoothselectdevices, bluetooth.bluetoothselectdevices, bluetoothapis/BluetoothSelectDevices
 ms.topic: function
-f1_keywords: 
- - "bluetoothapis/BluetoothSelectDevices"
+f1_keywords:
+- bluetoothapis/BluetoothSelectDevices
 dev_langs:
- - c++
+- c++
 req.header: bluetoothapis.h
 req.include-header: Bthsdpdef.h, BluetoothAPIs.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Bthprops.lib
 req.dll: Bthprops.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Bthprops.dll
+- Bthprops.dll
 api_name:
- - BluetoothSelectDevices
+- BluetoothSelectDevices
 targetos: Windows
 req.typenames: 
 req.redist: 

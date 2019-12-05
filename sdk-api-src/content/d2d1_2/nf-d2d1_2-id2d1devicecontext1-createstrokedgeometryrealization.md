@@ -1,19 +1,17 @@
 ---
 UID: NF:d2d1_2.ID2D1DeviceContext1.CreateStrokedGeometryRealization
 title: ID2D1DeviceContext1::CreateStrokedGeometryRealization (d2d1_2.h)
-
 description: Creates a device-dependent representation of the stroke of a geometry that can be subsequently rendered.
 old-location: direct2d\id2d1devicecontext1_createstrokedgeometryrealization.htm
 tech.root: Direct2D
 ms.assetid: 455EE223-4CEA-4FBA-8885-B0BA6B465C05
-
 ms.date: 12/05/2018
 ms.keywords: CreateStrokedGeometryRealization, CreateStrokedGeometryRealization method [Direct2D], CreateStrokedGeometryRealization method [Direct2D],ID2D1DeviceContext1 interface, ID2D1DeviceContext1 interface [Direct2D],CreateStrokedGeometryRealization method, ID2D1DeviceContext1.CreateStrokedGeometryRealization, ID2D1DeviceContext1::CreateStrokedGeometryRealization, d2d1_2/ID2D1DeviceContext1::CreateStrokedGeometryRealization, direct2d.id2d1devicecontext1_createstrokedgeometryrealization
 ms.topic: method
-f1_keywords: 
- - "d2d1_2/ID2D1DeviceContext1.CreateStrokedGeometryRealization"
+f1_keywords:
+- d2d1_2/ID2D1DeviceContext1.CreateStrokedGeometryRealization
 dev_langs:
- - c++
+- c++
 req.header: d2d1_2.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: D2d1.lib
 req.dll: D2d1.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D2d1.dll
+- D2d1.dll
 api_name:
- - ID2D1DeviceContext1.CreateStrokedGeometryRealization
+- ID2D1DeviceContext1.CreateStrokedGeometryRealization
 targetos: Windows
 req.typenames: 
 req.redist: 

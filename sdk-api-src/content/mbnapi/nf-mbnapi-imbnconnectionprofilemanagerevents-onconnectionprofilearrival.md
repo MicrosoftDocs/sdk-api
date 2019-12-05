@@ -1,19 +1,17 @@
 ---
 UID: NF:mbnapi.IMbnConnectionProfileManagerEvents.OnConnectionProfileArrival
 title: IMbnConnectionProfileManagerEvents::OnConnectionProfileArrival (mbnapi.h)
-
 description: Notification method that indicates a new connection profile has been added to the system.
 old-location: mbn\imbnconnectionprofilemanagerevents_onconnectionprofilearrival.htm
 tech.root: mbn
 ms.assetid: 94338c8c-2a89-412f-811e-5c50ecd9be70
-
 ms.date: 12/05/2018
 ms.keywords: IMbnConnectionProfileManagerEvents interface [Microsoft Broadband Networks],OnConnectionProfileArrival method, IMbnConnectionProfileManagerEvents.OnConnectionProfileArrival, IMbnConnectionProfileManagerEvents::OnConnectionProfileArrival, OnConnectionProfileArrival, OnConnectionProfileArrival method [Microsoft Broadband Networks], OnConnectionProfileArrival method [Microsoft Broadband Networks],IMbnConnectionProfileManagerEvents interface, mbn.imbnconnectionprofilemanagerevents_onconnectionprofilearrival, mbnapi/IMbnConnectionProfileManagerEvents::OnConnectionProfileArrival
 ms.topic: method
-f1_keywords: 
- - "mbnapi/IMbnConnectionProfileManagerEvents.OnConnectionProfileArrival"
+f1_keywords:
+- mbnapi/IMbnConnectionProfileManagerEvents.OnConnectionProfileArrival
 dev_langs:
- - c++
+- c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mbnapi.h
+- mbnapi.h
 api_name:
- - IMbnConnectionProfileManagerEvents.OnConnectionProfileArrival
+- IMbnConnectionProfileManagerEvents.OnConnectionProfileArrival
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NN:rometadataapi.IMetaDataImport2
 title: IMetaDataImport2 (rometadataapi.h)
-
 description: Extends the IMetaDataImport interface to provide the capability of working with generic types.
 old-location: winrt\imetadataimport2.htm
 tech.root: WinRT
 ms.assetid: 32c462e0-d4b8-44db-b24b-c86b46be85bf
-
 ms.date: 12/05/2018
 ms.keywords: IMetaDataImport2, IMetaDataImport2 interface [Windows Runtime], IMetaDataImport2 interface [Windows Runtime],described, rometadataapi/IMetaDataImport2, winrt.imetadataimport2
 ms.topic: interface
-f1_keywords: 
- - "rometadataapi/IMetaDataImport2"
+f1_keywords:
+- rometadataapi/IMetaDataImport2
 dev_langs:
- - c++
+- c++
 req.header: rometadataapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - rometadataapi.h
+- rometadataapi.h
 api_name:
- - IMetaDataImport2
+- IMetaDataImport2
 targetos: Windows
 req.typenames: 
 req.redist: 

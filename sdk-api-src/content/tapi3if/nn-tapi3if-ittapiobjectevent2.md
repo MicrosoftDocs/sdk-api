@@ -1,19 +1,17 @@
 ---
 UID: NN:tapi3if.ITTAPIObjectEvent2
 title: ITTAPIObjectEvent2 (tapi3if.h)
-
 description: The ITTAPIObjectEvent2 interface is an extension of the ITTAPIObjectEvent interface. ITTAPIObjectEvent2 exposes an additional method that returns a pointer to an ITPhone interface on the phone object that caused the TAPI object event.
 old-location: tapi3\ittapiobjectevent2.htm
 tech.root: Tapi
 ms.assetid: ad4fc838-5a6c-4942-b5a0-ed00cea11ba8
-
 ms.date: 12/05/2018
 ms.keywords: ITTAPIObjectEvent2, ITTAPIObjectEvent2 interface [TAPI 2.2], ITTAPIObjectEvent2 interface [TAPI 2.2],described, _tapi3_ittapiobjectevent2, tapi3.ittapiobjectevent2, tapi3if/ITTAPIObjectEvent2
 ms.topic: interface
-f1_keywords: 
- - "tapi3if/ITTAPIObjectEvent2"
+f1_keywords:
+- tapi3if/ITTAPIObjectEvent2
 dev_langs:
- - c++
+- c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Tapi3.dll
+- Tapi3.dll
 api_name:
- - ITTAPIObjectEvent2
+- ITTAPIObjectEvent2
 targetos: Windows
 req.typenames: 
 req.redist: 

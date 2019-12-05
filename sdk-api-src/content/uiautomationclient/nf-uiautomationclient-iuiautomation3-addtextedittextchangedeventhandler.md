@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationclient.IUIAutomation3.AddTextEditTextChangedEventHandler
 title: IUIAutomation3::AddTextEditTextChangedEventHandler (uiautomationclient.h)
-
 description: Registers a method that handles programmatic text-edit events.Note  Before implementing an event handler, you should be familiar with the threading issues described in Understanding Threading Issues.
 old-location: winauto\uiauto_IUIAutomation3_AddTextEditTextChangedEventHandler.htm
 tech.root: WinAuto
 ms.assetid: E4FBD04E-2E0B-6B87-F589-C3214EF54E5F
-
 ms.date: 12/05/2018
 ms.keywords: AddTextEditTextChangedEventHandler, AddTextEditTextChangedEventHandler method [Windows Accessibility], AddTextEditTextChangedEventHandler method [Windows Accessibility],IUIAutomation3 interface, IUIAutomation3 interface [Windows Accessibility],AddTextEditTextChangedEventHandler method, IUIAutomation3.AddTextEditTextChangedEventHandler, IUIAutomation3::AddTextEditTextChangedEventHandler, uiautomationclient/IUIAutomation3::AddTextEditTextChangedEventHandler, winauto.uiauto_IUIAutomation3_AddTextEditTextChangedEventHandler
 ms.topic: method
-f1_keywords: 
- - "uiautomationclient/IUIAutomation3.AddTextEditTextChangedEventHandler"
+f1_keywords:
+- uiautomationclient/IUIAutomation3.AddTextEditTextChangedEventHandler
 dev_langs:
- - c++
+- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationClient.h
+- UIAutomationClient.h
 api_name:
- - IUIAutomation3.AddTextEditTextChangedEventHandler
+- IUIAutomation3.AddTextEditTextChangedEventHandler
 targetos: Windows
 req.typenames: 
 req.redist: 

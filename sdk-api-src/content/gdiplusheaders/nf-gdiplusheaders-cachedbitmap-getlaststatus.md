@@ -1,19 +1,17 @@
 ---
 UID: NF:gdiplusheaders.CachedBitmap.GetLastStatus
 title: CachedBitmap::GetLastStatus (gdiplusheaders.h)
-
 description: The CachedBitmap::GetLastStatus method returns a value that indicates whether this CachedBitmap object was constructed successfully.
 old-location: gdiplus\_gdiplus_CLASS_CachedBitmap_GetLastStatus_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\cachedbitmapclass\getlaststatus_27.htm
-
 ms.date: 12/05/2018
 ms.keywords: CachedBitmap class [GDI+],GetLastStatus method, CachedBitmap.GetLastStatus, CachedBitmap::GetLastStatus, GetLastStatus, GetLastStatus method [GDI+], GetLastStatus method [GDI+],CachedBitmap class, _gdiplus_CLASS_CachedBitmap_GetLastStatus_, gdiplus._gdiplus_CLASS_CachedBitmap_GetLastStatus_
 ms.topic: method
-f1_keywords: 
- - "gdiplusheaders/CachedBitmap.GetLastStatus"
+f1_keywords:
+- gdiplusheaders/CachedBitmap.GetLastStatus
 dev_langs:
- - c++
+- c++
 req.header: gdiplusheaders.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - CachedBitmap.GetLastStatus
+- CachedBitmap.GetLastStatus
 targetos: Windows
 req.typenames: 
 req.redist: 

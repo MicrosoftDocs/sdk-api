@@ -1,19 +1,17 @@
 ---
 UID: NF:msctf.ITfCandidateListUIElementBehavior.Finalize
 title: ITfCandidateListUIElementBehavior::Finalize (msctf.h)
-
 description: The ITfCandidateListUIElementBehavior::Finalize method finalizes the current selection and close the candidate list.
 old-location: tsf\itfcandidatelistuielementbehavior_finalize.htm
 tech.root: TSF
 ms.assetid: 3602c094-4e8c-456b-9b6d-b0fc10110cff
-
 ms.date: 12/05/2018
 ms.keywords: Finalize, Finalize method [Text Services Framework], Finalize method [Text Services Framework],ITfCandidateListUIElementBehavior interface, ITfCandidateListUIElementBehavior interface [Text Services Framework],Finalize method, ITfCandidateListUIElementBehavior.Finalize, ITfCandidateListUIElementBehavior::Finalize, msctf/ITfCandidateListUIElementBehavior::Finalize, tsf.itfcandidatelistuielementbehavior_finalize
 ms.topic: method
-f1_keywords: 
- - "msctf/ITfCandidateListUIElementBehavior.Finalize"
+f1_keywords:
+- msctf/ITfCandidateListUIElementBehavior.Finalize
 dev_langs:
- - c++
+- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msctf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msctf.dll
+- Msctf.dll
 api_name:
- - ITfCandidateListUIElementBehavior.Finalize
+- ITfCandidateListUIElementBehavior.Finalize
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

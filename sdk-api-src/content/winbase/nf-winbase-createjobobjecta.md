@@ -1,19 +1,17 @@
 ---
 UID: NF:winbase.CreateJobObjectA
 title: CreateJobObjectA function (winbase.h)
-
 description: Creates or opens a job object.
 old-location: base\createjobobject.htm
 tech.root: ProcThread
 ms.assetid: ca6a044f-67ed-4a9c-9aeb-69dd77652854
-
 ms.date: 12/05/2018
 ms.keywords: CreateJobObject, CreateJobObject function, CreateJobObjectA, CreateJobObjectW, _win32_createjobobject, base.createjobobject, winbase/CreateJobObject, winbase/CreateJobObjectA, winbase/CreateJobObjectW
 ms.topic: function
-f1_keywords: 
- - "winbase/CreateJobObject"
+f1_keywords:
+- winbase/CreateJobObject
 dev_langs:
- - c++
+- c++
 req.header: winbase.h
 req.include-header: Windows.h, Jobapi2.h
 req.target-type: Windows
@@ -32,20 +30,20 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-job-l2-1-0.dll
- - kernel32legacy.dll
- - API-Ms-Win-Core-Kernel32-Legacy-Ansi-L1-1-0.dll
- - API-MS-Win-Core-Job-L2-1-1.dll
+- Kernel32.dll
+- API-MS-Win-Core-job-l2-1-0.dll
+- kernel32legacy.dll
+- API-Ms-Win-Core-Kernel32-Legacy-Ansi-L1-1-0.dll
+- API-MS-Win-Core-Job-L2-1-1.dll
 api_name:
- - CreateJobObject
- - CreateJobObjectA
- - CreateJobObjectW
+- CreateJobObject
+- CreateJobObjectA
+- CreateJobObjectW
 targetos: Windows
 req.typenames: 
 req.redist: 

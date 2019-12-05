@@ -1,19 +1,17 @@
 ---
 UID: NF:mfcaptureengine.IMFCaptureSource.AddEffect
 title: IMFCaptureSource::AddEffect (mfcaptureengine.h)
-
 description: Adds an effect to a capture stream.
 old-location: mf\imfcapturesource_addeffect.htm
 tech.root: medfound
 ms.assetid: C108360D-0B8C-4539-9D78-A5559100086E
-
 ms.date: 12/05/2018
 ms.keywords: AddEffect, AddEffect method [Media Foundation], AddEffect method [Media Foundation],IMFCaptureSource interface, IMFCaptureSource interface [Media Foundation],AddEffect method, IMFCaptureSource.AddEffect, IMFCaptureSource::AddEffect, MF_CAPTURE_ENGINE_FIRST_SOURCE_AUDIO_STREAM, MF_CAPTURE_ENGINE_FIRST_SOURCE_PHOTO_STREAM, MF_CAPTURE_ENGINE_FIRST_SOURCE_VIDEO_STREAM, mf.imfcapturesource_addeffect, mfcaptureengine/IMFCaptureSource::AddEffect
 ms.topic: method
-f1_keywords: 
- - "mfcaptureengine/IMFCaptureSource.AddEffect"
+f1_keywords:
+- mfcaptureengine/IMFCaptureSource.AddEffect
 dev_langs:
- - c++
+- c++
 req.header: mfcaptureengine.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfcaptureengine.h
+- mfcaptureengine.h
 api_name:
- - IMFCaptureSource.AddEffect
+- IMFCaptureSource.AddEffect
 targetos: Windows
 req.typenames: 
 req.redist: 

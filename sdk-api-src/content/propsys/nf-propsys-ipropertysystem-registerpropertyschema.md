@@ -1,19 +1,17 @@
 ---
 UID: NF:propsys.IPropertySystem.RegisterPropertySchema
 title: IPropertySystem::RegisterPropertySchema (propsys.h)
-
 description: Informs the schema subsystem of the addition of a property description schema file.
 old-location: properties\IPropertySystem_RegisterPropertySchema.htm
 tech.root: properties
 ms.assetid: 752cc873-3fa8-4e05-97e7-41e90f059e4f
-
 ms.date: 12/05/2018
 ms.keywords: IPropertySystem interface [Windows Properties],RegisterPropertySchema method, IPropertySystem.RegisterPropertySchema, IPropertySystem::RegisterPropertySchema, RegisterPropertySchema, RegisterPropertySchema method [Windows Properties], RegisterPropertySchema method [Windows Properties],IPropertySystem interface, properties.IPropertySystem_RegisterPropertySchema, propsys/IPropertySystem::RegisterPropertySchema, shell.IPropertySystem_RegisterPropertySchema, shell_IPropertySystem_RegisterPropertySchema
 ms.topic: method
-f1_keywords: 
- - "propsys/IPropertySystem.RegisterPropertySchema"
+f1_keywords:
+- propsys/IPropertySystem.RegisterPropertySchema
 dev_langs:
- - c++
+- c++
 req.header: propsys.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Propsys.dll (version 5.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Propsys.dll
+- Propsys.dll
 api_name:
- - IPropertySystem.RegisterPropertySchema
+- IPropertySystem.RegisterPropertySchema
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0

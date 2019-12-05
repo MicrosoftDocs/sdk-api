@@ -1,19 +1,17 @@
 ---
 UID: NF:mfapi.MFCreateFile
 title: MFCreateFile function (mfapi.h)
-
 description: Creates a byte stream from a file.
 old-location: mf\mfcreatefile.htm
 tech.root: medfound
 ms.assetid: 29269ea4-151f-4819-ae49-9f1c13a901e5
-
 ms.date: 12/05/2018
 ms.keywords: 29269ea4-151f-4819-ae49-9f1c13a901e5, MFCreateFile, MFCreateFile function [Media Foundation], mf.mfcreatefile, mfapi/MFCreateFile
 ms.topic: function
-f1_keywords: 
- - "mfapi/MFCreateFile"
+f1_keywords:
+- mfapi/MFCreateFile
 dev_langs:
- - c++
+- c++
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Mfplat.lib
 req.dll: Mfplat.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - mfplat.dll
+- mfplat.dll
 api_name:
- - MFCreateFile
+- MFCreateFile
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:shlwapi.IStream_ReadPidl
 title: IStream_ReadPidl function (shlwapi.h)
-
 description: Reads a pointer to an item identifier list (PIDL) from an IStream object into a PIDLIST_RELATIVE object.
 old-location: shell\IStream_ReadPidl.htm
 tech.root: shell
 ms.assetid: 63b1f842-139b-4558-8105-4986ce592b56
-
 ms.date: 12/05/2018
 ms.keywords: IStream_ReadPidl, IStream_ReadPidl function [Windows Shell], _shell_IStream_ReadPidl, shell.IStream_ReadPidl, shlwapi/IStream_ReadPidl
 ms.topic: function
-f1_keywords: 
- - "shlwapi/IStream_ReadPidl"
+f1_keywords:
+- shlwapi/IStream_ReadPidl
 dev_langs:
- - c++
+- c++
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: Shlwapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Shlwapi.dll
- - API-MS-Win-shlwapi-Winrt-storage-l1-1-0.dll
- - api-ms-win-shlwapi-winrt-storage-l1-1-1.dll
+- Shlwapi.dll
+- API-MS-Win-shlwapi-Winrt-storage-l1-1-0.dll
+- api-ms-win-shlwapi-winrt-storage-l1-1-1.dll
 api_name:
- - IStream_ReadPidl
+- IStream_ReadPidl
 targetos: Windows
 req.typenames: 
 req.redist: 

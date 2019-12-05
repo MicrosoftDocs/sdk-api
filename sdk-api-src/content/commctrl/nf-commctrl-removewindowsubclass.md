@@ -1,19 +1,17 @@
 ---
 UID: NF:commctrl.RemoveWindowSubclass
 title: RemoveWindowSubclass function (commctrl.h)
-
 description: Removes a subclass callback from a window.
 old-location: shell\RemoveWindowSubclass.htm
 tech.root: shell
 ms.assetid: 09f27240-f3af-4791-afcb-a82bda79712a
-
 ms.date: 12/05/2018
 ms.keywords: RemoveWindowSubclass, RemoveWindowSubclass function [Windows Shell], commctrl/RemoveWindowSubclass, inet_RemoveWindowSubclass, shell.RemoveWindowSubclass
 ms.topic: function
-f1_keywords: 
- - "commctrl/RemoveWindowSubclass"
+f1_keywords:
+- commctrl/RemoveWindowSubclass
 dev_langs:
- - c++
+- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Comctl32.lib
 req.dll: Comctl32.dll (version 5.8 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Comctl32.dll
+- Comctl32.dll
 api_name:
- - RemoveWindowSubclass
+- RemoveWindowSubclass
 targetos: Windows
 req.typenames: 
 req.redist: 

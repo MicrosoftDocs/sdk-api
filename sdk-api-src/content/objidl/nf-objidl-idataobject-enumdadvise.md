@@ -1,19 +1,17 @@
 ---
 UID: NF:objidl.IDataObject.EnumDAdvise
 title: IDataObject::EnumDAdvise (objidl.h)
-
 description: Creates an object that can be used to enumerate the current advisory connections.
 old-location: com\idataobject_enumdadvise.htm
 tech.root: com
 ms.assetid: 319637fd-d9b5-4da0-ac92-4c52fa9f5231
-
 ms.date: 12/05/2018
 ms.keywords: EnumDAdvise, EnumDAdvise method [COM], EnumDAdvise method [COM],IDataObject interface, IDataObject interface [COM],EnumDAdvise method, IDataObject.EnumDAdvise, IDataObject::EnumDAdvise, _ole_idataobject_enumdadvise, com.idataobject_enumdadvise, objidl/IDataObject::EnumDAdvise
 ms.topic: method
-f1_keywords: 
- - "objidl/IDataObject.EnumDAdvise"
+f1_keywords:
+- objidl/IDataObject.EnumDAdvise
 dev_langs:
- - c++
+- c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ObjIdl.h
+- ObjIdl.h
 api_name:
- - IDataObject.EnumDAdvise
+- IDataObject.EnumDAdvise
 targetos: Windows
 req.typenames: 
 req.redist: 

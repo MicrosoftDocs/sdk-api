@@ -1,19 +1,17 @@
 ---
 UID: NF:combaseapi.CoCancelCall
 title: CoCancelCall function (combaseapi.h)
-
 description: Requests cancellation of an outbound DCOM method call pending on a specified thread.
 old-location: com\cocancelcall.htm
 tech.root: com
 ms.assetid: 1707261c-2d8d-4f35-865d-61c8870c0624
-
 ms.date: 12/05/2018
 ms.keywords: CoCancelCall, CoCancelCall function [COM], _com_CoCancelCall, com.cocancelcall, combaseapi/CoCancelCall
 ms.topic: function
-f1_keywords: 
- - "combaseapi/CoCancelCall"
+f1_keywords:
+- combaseapi/CoCancelCall
 dev_langs:
- - c++
+- c++
 req.header: combaseapi.h
 req.include-header: Objbase.h
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib: Ole32.lib
 req.dll: Ole32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ole32.dll
- - API-MS-Win-Core-Com-l1-1-0.dll
- - ComBase.dll
- - API-MS-Win-Core-Com-l1-1-1.dll
- - API-MS-Win-DownLevel-Ole32-l1-1-1.dll
+- Ole32.dll
+- API-MS-Win-Core-Com-l1-1-0.dll
+- ComBase.dll
+- API-MS-Win-Core-Com-l1-1-1.dll
+- API-MS-Win-DownLevel-Ole32-l1-1-1.dll
 api_name:
- - CoCancelCall
+- CoCancelCall
 targetos: Windows
 req.typenames: 
 req.redist: 

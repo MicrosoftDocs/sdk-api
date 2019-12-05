@@ -1,19 +1,17 @@
 ---
 UID: NN:spatialaudiohrtf.ISpatialAudioObjectRenderStreamForHrtf
 title: ISpatialAudioObjectRenderStreamForHrtf (spatialaudiohrtf.h)
-
 description: Provides methods for controlling an Hrtf spatial audio object render stream, including starting, stopping, and resetting the stream.
 old-location: coreaudio\ispatialaudiorenderstreamforhrtf.htm
 tech.root: CoreAudio
 ms.assetid: 9DFEF82A-1571-47AB-BE0E-059BCCC8289A
-
 ms.date: 12/05/2018
 ms.keywords: ISpatialAudioObjectRenderStreamForHrtf, ISpatialAudioObjectRenderStreamForHrtf interface [Core Audio], ISpatialAudioObjectRenderStreamForHrtf interface [Core Audio],described, coreaudio.ispatialaudiorenderstreamforhrtf, spatialaudiohrtf/ISpatialAudioObjectRenderStreamForHrtf
 ms.topic: interface
-f1_keywords: 
- - "spatialaudiohrtf/ISpatialAudioObjectRenderStreamForHrtf"
+f1_keywords:
+- spatialaudiohrtf/ISpatialAudioObjectRenderStreamForHrtf
 dev_langs:
- - c++
+- c++
 req.header: spatialaudiohrtf.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - spatialaudiohrtf.h
+- spatialaudiohrtf.h
 api_name:
- - ISpatialAudioObjectRenderStreamForHrtf
+- ISpatialAudioObjectRenderStreamForHrtf
 targetos: Windows
 req.typenames: 
 req.redist: 

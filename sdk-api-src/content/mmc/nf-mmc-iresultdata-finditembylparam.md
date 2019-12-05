@@ -1,19 +1,17 @@
 ---
 UID: NF:mmc.IResultData.FindItemByLParam
 title: IResultData::FindItemByLParam (mmc.h)
-
 description: The IResultData::FindItemByLParam method enables the snap-in to find an item or subitem based on its user-inserted lParam value.
 old-location: mmc\iresultdata_finditembylparam.htm
 tech.root: mmc
 ms.assetid: f26be5d5-9b7d-4cbd-b70c-431799c68e5e
-
 ms.date: 12/05/2018
 ms.keywords: FindItemByLParam, FindItemByLParam method [MMC], FindItemByLParam method [MMC],IResultData interface, FindItemByLParam method [MMC],IResultData2 interface, IResultData interface [MMC],FindItemByLParam method, IResultData.FindItemByLParam, IResultData2 interface [MMC],FindItemByLParam method, IResultData2::FindItemByLParam, IResultData::FindItemByLParam, _slate_iresultdata_finditembylparam, mmc.iresultdata_finditembylparam, mmc/IResultData2::FindItemByLParam, mmc/IResultData::FindItemByLParam
 ms.topic: method
-f1_keywords: 
- - "mmc/IResultData.FindItemByLParam"
+f1_keywords:
+- mmc/IResultData.FindItemByLParam
 dev_langs:
- - c++
+- c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: Mmcndmgr.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mmcndmgr.dll
+- Mmcndmgr.dll
 api_name:
- - IResultData.FindItemByLParam
- - IResultData2.FindItemByLParam
+- IResultData.FindItemByLParam
+- IResultData2.FindItemByLParam
 targetos: Windows
 req.typenames: 
 req.redist: 

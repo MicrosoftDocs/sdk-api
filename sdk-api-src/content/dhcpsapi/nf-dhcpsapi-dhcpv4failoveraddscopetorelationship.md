@@ -1,19 +1,17 @@
 ---
 UID: NF:dhcpsapi.DhcpV4FailoverAddScopeToRelationship
 title: DhcpV4FailoverAddScopeToRelationship function (dhcpsapi.h)
-
 description: Adds a DHCPv4 scope to the specified failover relationship.
 old-location: dhcp\dhcpv4failoveraddscopetorelationship.htm
 tech.root: DHCP
 ms.assetid: fc54b3dc-86b3-4a18-b05f-7152097f8d5b
-
 ms.date: 12/05/2018
 ms.keywords: DhcpV4FailoverAddScopeToRelationship, DhcpV4FailoverAddScopeToRelationship function [DHCP], dhcp.dhcpv4failoveraddscopetorelationship, dhcpsapi/DhcpV4FailoverAddScopeToRelationship
 ms.topic: function
 f1_keywords:
 - dhcpsapi/DhcpV4FailoverAddScopeToRelationship
 dev_langs:
- - c++
+- c++
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows

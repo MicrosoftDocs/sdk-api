@@ -1,19 +1,17 @@
 ---
 UID: NS:wmsdkidl.tagWMSCRIPTFORMAT
 title: WMSCRIPTFORMAT (wmsdkidl.h)
-
 description: The WMSCRIPTFORMAT structure describes the type of script data used in a script stream.
 old-location: wmformat\wmscriptformat.htm
 tech.root: wmformat
 ms.assetid: b7c513ac-9c28-4556-a0c8-f3e0d6efc735
-
 ms.date: 12/05/2018
 ms.keywords: WMSCRIPTFORMAT, WMSCRIPTFORMAT structure [windows Media Format], wmformat.wmscriptformat, wmsdkidl/WMSCRIPTFORMAT
 ms.topic: struct
-f1_keywords: 
- - "wmsdkidl/WMSCRIPTFORMAT"
+f1_keywords:
+- wmsdkidl/WMSCRIPTFORMAT
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wmsdkidl.h
+- Wmsdkidl.h
 api_name:
- - WMSCRIPTFORMAT
+- WMSCRIPTFORMAT
 targetos: Windows
 req.typenames: WMSCRIPTFORMAT
 req.redist: 

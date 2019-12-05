@@ -1,19 +1,17 @@
 ---
 UID: NF:mprapi.MprAdminBufferFree
 title: MprAdminBufferFree function (mprapi.h)
-
 description: The MprAdminBufferFree function frees memory buffers returned by _MprAdminDeviceEnum, MprAdminInterfaceGetInfo, MprAdminInterfaceDeviceGetInfo, MprAdminInterfaceEnum, MprAdminServerGetInfo, MprAdminInterfaceTransportGetInfo, and MprAdminTransportGetInfo.
 old-location: rras\mpradminbufferfree.htm
 tech.root: RRAS
 ms.assetid: 60cae055-841a-4435-bf0e-4198b1ccdd4e
-
 ms.date: 12/05/2018
 ms.keywords: MprAdminBufferFree, MprAdminBufferFree function [RAS], _mpr_mpradminbufferfree, mprapi/MprAdminBufferFree, rras.mpradminbufferfree
 ms.topic: function
-f1_keywords: 
- - "mprapi/MprAdminBufferFree"
+f1_keywords:
+- mprapi/MprAdminBufferFree
 dev_langs:
- - c++
+- c++
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Mprapi.lib
 req.dll: Mprapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Mprapi.dll
+- Mprapi.dll
 api_name:
- - MprAdminBufferFree
+- MprAdminBufferFree
 targetos: Windows
 req.typenames: 
 req.redist: 

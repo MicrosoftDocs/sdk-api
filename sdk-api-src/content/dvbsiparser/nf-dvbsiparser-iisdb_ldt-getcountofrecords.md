@@ -1,19 +1,17 @@
 ---
 UID: NF:dvbsiparser.IISDB_LDT.GetCountOfRecords
 title: IISDB_LDT::GetCountOfRecords (dvbsiparser.h)
-
 description: Gets the number of records in an Integrated Services Digital Broadcasting (ISDB) linked description table (LDT). An LDT contains data used to collect reference information from other tables.
 old-location: mstv\iisdb_ldt_getcountofrecords.htm
 tech.root: mstv
 ms.assetid: da91deea-527c-4458-9db5-ae500cee19bb
-
 ms.date: 12/05/2018
 ms.keywords: GetCountOfRecords, GetCountOfRecords method [Microsoft TV Technologies], GetCountOfRecords method [Microsoft TV Technologies],IISDB_LDT interface, IISDB_LDT interface [Microsoft TV Technologies],GetCountOfRecords method, IISDB_LDT.GetCountOfRecords, IISDB_LDT::GetCountOfRecords, dvbsiparser/IISDB_LDT::GetCountOfRecords, mstv.iisdb_ldt_getcountofrecords
 ms.topic: method
-f1_keywords: 
- - "dvbsiparser/IISDB_LDT.GetCountOfRecords"
+f1_keywords:
+- dvbsiparser/IISDB_LDT.GetCountOfRecords
 dev_langs:
- - c++
+- c++
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dvbsiparser.h
+- dvbsiparser.h
 api_name:
- - IISDB_LDT.GetCountOfRecords
+- IISDB_LDT.GetCountOfRecords
 targetos: Windows
 req.typenames: 
 req.redist: 

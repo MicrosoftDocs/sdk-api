@@ -1,19 +1,17 @@
 ---
 UID: NF:msinkaut.IInkOverlay.put_AttachMode
 title: IInkOverlay::put_AttachMode (msinkaut.h)
-
 description: Gets or sets the value that specifies whether the InkOverlay object is attached behind or in front of the known window.
 old-location: tablet\inkoverlay_attachmode.htm
 tech.root: tablet
 ms.assetid: 638da0e4-10cc-47e7-91ad-807be3ff8c2d
-
 ms.date: 12/05/2018
 ms.keywords: 638da0e4-10cc-47e7-91ad-807be3ff8c2d, AttachMode property [Tablet PC], AttachMode property [Tablet PC],IInkOverlay interface, Behind, IInkOverlay interface [Tablet PC],AttachMode property, IInkOverlay.AttachMode, IInkOverlay.put_AttachMode, IInkOverlay::AttachMode, IInkOverlay::get_AttachMode, IInkOverlay::put_AttachMode, InFront, InkOverlay.get_AttachMode, InkOverlay.put_AttachMode, get_AttachMode, msinkaut/IInkOverlay::AttachMode, msinkaut/IInkOverlay::get_AttachMode, msinkaut/IInkOverlay::put_AttachMode, put_AttachMode, tablet.inkoverlay_attachmode
 ms.topic: method
-f1_keywords: 
- - "msinkaut/IInkOverlay.AttachMode"
+f1_keywords:
+- msinkaut/IInkOverlay.AttachMode
 dev_langs:
- - c++
+- c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows
@@ -32,19 +30,19 @@ req.lib: InkObj.dll
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - InkObj.dll
- - InkObj.dll.dll
+- InkObj.dll
+- InkObj.dll.dll
 api_name:
- - IInkOverlay.AttachMode
- - IInkOverlay.get_AttachMode
- - IInkOverlay.put_AttachMode
- - InkOverlay.get_AttachMode
- - InkOverlay.put_AttachMode
+- IInkOverlay.AttachMode
+- IInkOverlay.get_AttachMode
+- IInkOverlay.put_AttachMode
+- InkOverlay.get_AttachMode
+- InkOverlay.put_AttachMode
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:intsafe.LongSub
 title: LongSub function (intsafe.h)
-
 description: Subtracts one value of type LONG from another.
 old-location: shell\LongSub.htm
 tech.root: shell
 ms.assetid: 8691044c-0706-4fff-a8fe-3ac9ad22de64
-
 ms.date: 12/05/2018
 ms.keywords: LongSub, LongSub function [Windows Shell], intsafe/LongSub, shell.LongSub
 ms.topic: function
-f1_keywords: 
- - "intsafe/LongSub"
+f1_keywords:
+- intsafe/LongSub
 dev_langs:
- - c++
+- c++
 req.header: intsafe.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - intsafe.h
+- intsafe.h
 api_name:
- - LongSub
+- LongSub
 targetos: Windows
 req.typenames: 
 req.redist: 

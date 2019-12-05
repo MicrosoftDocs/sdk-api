@@ -1,19 +1,17 @@
 ---
 UID: NN:shobjidl_core.IExtractImage
 title: IExtractImage (shobjidl_core.h)
-
 description: Exposes methods that request a thumbnail image from a Shell folder.
 old-location: shell\IExtractImage.htm
 tech.root: shell
 ms.assetid: 28a13749-89e7-407e-89cb-95464859ce3e
-
 ms.date: 12/05/2018
 ms.keywords: IExtractImage, IExtractImage interface [Windows Shell], IExtractImage interface [Windows Shell],described, _win32_IExtractImage, shell.IExtractImage, shobjidl_core/IExtractImage
 ms.topic: interface
-f1_keywords: 
- - "shobjidl_core/IExtractImage"
+f1_keywords:
+- shobjidl_core/IExtractImage
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Shell32.dll (version 4.70 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - IExtractImage
+- IExtractImage
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NN:uiautomationcore.IRawElementProviderWindowlessSite
 title: IRawElementProviderWindowlessSite (uiautomationcore.h)
-
 description: A Microsoft ActiveX control site implements this interface to enable a Microsoft UI Automation-enabled ActiveX control to express its accessibility.
 old-location: winauto\uiauto_IRawElementProviderWindowlessSite.htm
 tech.root: WinAuto
 ms.assetid: E6BE069B-C639-4578-9E5F-8CFE1267A847
-
 ms.date: 12/05/2018
 ms.keywords: IRawElementProviderWindowlessSite, IRawElementProviderWindowlessSite interface [Windows Accessibility], IRawElementProviderWindowlessSite interface [Windows Accessibility],described, uiautomationcore/IRawElementProviderWindowlessSite, winauto.uiauto_IRawElementProviderWindowlessSite
 ms.topic: interface
-f1_keywords: 
- - "uiautomationcore/IRawElementProviderWindowlessSite"
+f1_keywords:
+- uiautomationcore/IRawElementProviderWindowlessSite
 dev_langs:
- - c++
+- c++
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: UIAutomationCore.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationCore.dll
+- UIAutomationCore.dll
 api_name:
- - IRawElementProviderWindowlessSite
+- IRawElementProviderWindowlessSite
 targetos: Windows
 req.typenames: 
 req.redist: 

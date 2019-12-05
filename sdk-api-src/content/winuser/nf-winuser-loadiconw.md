@@ -1,19 +1,17 @@
 ---
 UID: NF:winuser.LoadIconW
 title: LoadIconW function (winuser.h)
-
 description: Loads the specified icon resource from the executable (.exe) file associated with an application instance.
 old-location: menurc\loadicon.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\icons\iconreference\iconfunctions\loadicon.htm
-
 ms.date: 12/05/2018
 ms.keywords: IDI_APPLICATION, IDI_ASTERISK, IDI_ERROR, IDI_EXCLAMATION, IDI_HAND, IDI_INFORMATION, IDI_QUESTION, IDI_SHIELD, IDI_WARNING, IDI_WINLOGO, LoadIcon, LoadIcon function [Menus and Other Resources], LoadIconA, LoadIconW, _win32_LoadIcon, _win32_loadicon_cpp, menurc.loadicon, winui._win32_loadicon, winuser/LoadIcon, winuser/LoadIconA, winuser/LoadIconW
 ms.topic: function
-f1_keywords: 
- - "winuser/LoadIcon"
+f1_keywords:
+- winuser/LoadIcon
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,23 +30,23 @@ req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - User32.dll
- - Ext-MS-Win-NTUser-GUI-l1-1-0.dll
- - Ext-MS-Win-NTUser-GUI-l1-1-1.dll
- - Ext-MS-Win-NTUser-GUI-l1-2-0.dll
- - api-ms-win-ntuser-ie-gui-l1-1-0.dll
- - ie_stubs.dll
- - ext-ms-win-ntuser-gui-l1-2-1.dll
- - Ext-MS-Win-NTUser-Gui-L1-3-0.dll
+- User32.dll
+- Ext-MS-Win-NTUser-GUI-l1-1-0.dll
+- Ext-MS-Win-NTUser-GUI-l1-1-1.dll
+- Ext-MS-Win-NTUser-GUI-l1-2-0.dll
+- api-ms-win-ntuser-ie-gui-l1-1-0.dll
+- ie_stubs.dll
+- ext-ms-win-ntuser-gui-l1-2-1.dll
+- Ext-MS-Win-NTUser-Gui-L1-3-0.dll
 api_name:
- - LoadIcon
- - LoadIconA
- - LoadIconW
+- LoadIcon
+- LoadIconA
+- LoadIconW
 targetos: Windows
 req.typenames: 
 req.redist: 

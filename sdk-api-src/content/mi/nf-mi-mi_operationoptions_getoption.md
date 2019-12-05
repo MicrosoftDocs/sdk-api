@@ -1,19 +1,17 @@
 ---
 UID: NF:mi.MI_OperationOptions_GetOption
 title: MI_OperationOptions_GetOption function (mi.h)
-
 description: Gets a previously added option value based on the option name.
 old-location: wmi_v2\mi_operationoptions_getoption.htm
 tech.root: wmi_v2
 ms.assetid: bff6d5ee-9f13-4b54-8f33-4f73ce553c25
-
 ms.date: 12/05/2018
 ms.keywords: MI_OperationOptions_GetOption, MI_OperationOptions_GetOption function [Windows Management Infrastructure (MI)], mi/MI_OperationOptions_GetOption, wmi_v2.mi_operationoptions_getoption
 ms.topic: function
 f1_keywords:
 - mi/MI_OperationOptions_GetOption
 dev_langs:
- - c++
+- c++
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows

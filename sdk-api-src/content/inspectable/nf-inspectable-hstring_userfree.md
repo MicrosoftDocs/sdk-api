@@ -1,19 +1,17 @@
 ---
 UID: NF:inspectable.HSTRING_UserFree
 title: HSTRING_UserFree function (inspectable.h)
-
 description: Frees resources on the server side when called by RPC stub files.
 old-location: winrt\hstring_userfree.htm
 tech.root: WinRT
 ms.assetid: E398921B-3759-47A6-A4F4-9A6CCA7ED686
-
 ms.date: 12/05/2018
 ms.keywords: HSTRING_UserFree, HSTRING_UserFree function [Windows Runtime], remotesystemadditionalinfo/HSTRING_UserFree, winrt.hstring_userfree
 ms.topic: function
-f1_keywords: 
- - "inspectable/HSTRING_UserFree"
+f1_keywords:
+- inspectable/HSTRING_UserFree
 dev_langs:
- - c++
+- c++
 req.header: inspectable.h
 req.include-header: Winstring.h, Inspectable.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: RuntimeObject.lib
 req.dll: ComBase.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - ComBase.dll
- - API-MS-Win-Core-WinRT-String-l1-1-0.dll
- - API-MS-Win-Core-WinRT-String-L1-1-1.dll
+- ComBase.dll
+- API-MS-Win-Core-WinRT-String-l1-1-0.dll
+- API-MS-Win-Core-WinRT-String-L1-1-1.dll
 api_name:
- - HSTRING_UserFree
+- HSTRING_UserFree
 targetos: Windows
 req.typenames: 
 req.redist: 

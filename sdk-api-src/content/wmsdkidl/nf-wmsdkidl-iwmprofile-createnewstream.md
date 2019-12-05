@@ -1,19 +1,17 @@
 ---
 UID: NF:wmsdkidl.IWMProfile.CreateNewStream
 title: IWMProfile::CreateNewStream (wmsdkidl.h)
-
 description: The CreateNewStream method creates a stream configuration object. You can use a stream configuration object to define the characteristics of a media stream.
 old-location: wmformat\iwmprofile_createnewstream.htm
 tech.root: wmformat
 ms.assetid: 4a1478ff-00fb-46e2-97a3-e00e9c1b819a
-
 ms.date: 12/05/2018
 ms.keywords: CreateNewStream, CreateNewStream method [windows Media Format], CreateNewStream method [windows Media Format],IWMProfile interface, CreateNewStream method [windows Media Format],IWMProfile2 interface, CreateNewStream method [windows Media Format],IWMProfile3 interface, IWMProfile interface [windows Media Format],CreateNewStream method, IWMProfile.CreateNewStream, IWMProfile2 interface [windows Media Format],CreateNewStream method, IWMProfile2::CreateNewStream, IWMProfile3 interface [windows Media Format],CreateNewStream method, IWMProfile3::CreateNewStream, IWMProfile::CreateNewStream, IWMProfileCreateNewStream, wmformat.iwmprofile_createnewstream, wmsdkidl/IWMProfile2::CreateNewStream, wmsdkidl/IWMProfile3::CreateNewStream, wmsdkidl/IWMProfile::CreateNewStream
 ms.topic: method
-f1_keywords: 
- - "wmsdkidl/IWMProfile.CreateNewStream"
+f1_keywords:
+- wmsdkidl/IWMProfile.CreateNewStream
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -32,20 +30,20 @@ req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wmvcore.lib
- - Wmvcore.dll
- - WMStubDRM.lib
- - WMStubDRM.dll
- - qasf.dll
+- Wmvcore.lib
+- Wmvcore.dll
+- WMStubDRM.lib
+- WMStubDRM.dll
+- qasf.dll
 api_name:
- - IWMProfile.CreateNewStream
- - IWMProfile2.CreateNewStream
- - IWMProfile3.CreateNewStream
+- IWMProfile.CreateNewStream
+- IWMProfile2.CreateNewStream
+- IWMProfile3.CreateNewStream
 targetos: Windows
 req.typenames: 
 req.redist: 

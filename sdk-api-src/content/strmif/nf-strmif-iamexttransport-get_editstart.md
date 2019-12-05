@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IAMExtTransport.get_EditStart
 title: IAMExtTransport::get_EditStart (strmif.h)
-
 description: The get_EditStart method determines whether the external transport's edit control is active.
 old-location: dshow\iamexttransport_get_editstart.htm
 tech.root: DirectShow
 ms.assetid: 83eb6f22-646c-400a-8adb-5545914656c9
-
 ms.date: 12/05/2018
 ms.keywords: IAMExtTransport interface [DirectShow],get_EditStart method, IAMExtTransport.get_EditStart, IAMExtTransport::get_EditStart, IAMExtTransportget_EditStart, dshow.iamexttransport_get_editstart, get_EditStart, get_EditStart method [DirectShow], get_EditStart method [DirectShow],IAMExtTransport interface, strmif/IAMExtTransport::get_EditStart
 ms.topic: method
-f1_keywords: 
- - "strmif/IAMExtTransport.get_EditStart"
+f1_keywords:
+- strmif/IAMExtTransport.get_EditStart
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IAMExtTransport.get_EditStart
+- IAMExtTransport.get_EditStart
 targetos: Windows
 req.typenames: 
 req.redist: 

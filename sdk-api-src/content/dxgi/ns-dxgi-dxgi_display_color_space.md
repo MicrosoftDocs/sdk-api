@@ -1,19 +1,17 @@
 ---
 UID: NS:dxgi.DXGI_DISPLAY_COLOR_SPACE
 title: DXGI_DISPLAY_COLOR_SPACE (dxgi.h)
-
 description: Don't use this structure; it is not supported and it will be removed from the header in a future release.
 old-location: direct3ddxgi\dxgi_display_color_space.htm
 tech.root: direct3ddxgi
 ms.assetid: AE549DD8-240C-41F9-9223-728BFCA19DD7
-
 ms.date: 12/05/2018
 ms.keywords: DXGI_DISPLAY_COLOR_SPACE, DXGI_DISPLAY_COLOR_SPACE structure [DXGI], direct3ddxgi.dxgi_display_color_space, dxgi/DXGI_DISPLAY_COLOR_SPACE
 ms.topic: struct
-f1_keywords: 
- - "dxgi/DXGI_DISPLAY_COLOR_SPACE"
+f1_keywords:
+- dxgi/DXGI_DISPLAY_COLOR_SPACE
 dev_langs:
- - c++
+- c++
 req.header: dxgi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - dxgi.h
+- dxgi.h
 api_name:
- - DXGI_DISPLAY_COLOR_SPACE
+- DXGI_DISPLAY_COLOR_SPACE
 targetos: Windows
 req.typenames: DXGI_DISPLAY_COLOR_SPACE
 req.redist: 

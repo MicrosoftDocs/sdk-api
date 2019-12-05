@@ -1,19 +1,17 @@
 ---
 UID: NF:comsvcs.ICrmCompensator.EndCommit
 title: ICrmCompensator::EndCommit (comsvcs.h)
-
 description: Notifies the CRM Compensator that it has delivered all the log records available during the commit phase.
 old-location: cos\icrmcompensator_endcommit.htm
 tech.root: cossdk
 ms.assetid: 83701797-c386-4471-91ed-cbe936b1988e
-
 ms.date: 12/05/2018
 ms.keywords: EndCommit, EndCommit method [COM+], EndCommit method [COM+],ICrmCompensator interface, ICrmCompensator interface [COM+],EndCommit method, ICrmCompensator.EndCommit, ICrmCompensator::EndCommit, _dtc_ICrmCompensator_EndCommit, comsvcs/ICrmCompensator::EndCommit, cos.icrmcompensator_endcommit
 ms.topic: method
-f1_keywords: 
- - "comsvcs/ICrmCompensator.EndCommit"
+f1_keywords:
+- comsvcs/ICrmCompensator.EndCommit
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - ICrmCompensator.EndCommit
+- ICrmCompensator.EndCommit
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:dwrite.IDWriteTextFormat.GetFontCollection
 title: IDWriteTextFormat::GetFontCollection (dwrite.h)
-
 description: Gets the current font collection.
 old-location: directwrite\IDWriteTextFormat_GetFontCollection.htm
 tech.root: DirectWrite
 ms.assetid: a94cfca5-3a03-4912-9a33-df705a2265cf
-
 ms.date: 12/05/2018
 ms.keywords: GetFontCollection, GetFontCollection method [Direct Write], GetFontCollection method [Direct Write],IDWriteTextFormat interface, IDWriteTextFormat interface [Direct Write],GetFontCollection method, IDWriteTextFormat.GetFontCollection, IDWriteTextFormat::GetFontCollection, directwrite.IDWriteTextFormat_GetFontCollection, dwrite/IDWriteTextFormat::GetFontCollection
 ms.topic: method
-f1_keywords: 
- - "dwrite/IDWriteTextFormat.GetFontCollection"
+f1_keywords:
+- dwrite/IDWriteTextFormat.GetFontCollection
 dev_langs:
- - c++
+- c++
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dwrite.lib
 req.dll: Dwrite.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dwrite.dll
+- dwrite.dll
 api_name:
- - IDWriteTextFormat.GetFontCollection
+- IDWriteTextFormat.GetFontCollection
 targetos: Windows
 req.typenames: 
 req.redist: 

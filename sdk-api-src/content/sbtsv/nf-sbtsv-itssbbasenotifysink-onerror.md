@@ -1,19 +1,17 @@
 ---
 UID: NF:sbtsv.ITsSbBaseNotifySink.OnError
 title: ITsSbBaseNotifySink::OnError (sbtsv.h)
-
 description: Reports an error condition to Remote Desktop Connection Broker (RD Connection Broker).
 old-location: termserv\itssbbasenotifysink_onerror.htm
 tech.root: TermServ
 ms.assetid: d8101644-51b4-45a8-8696-7dbb28aaaf0b
-
 ms.date: 12/05/2018
 ms.keywords: ITsSbBaseNotifySink interface [Remote Desktop Services],OnError method, ITsSbBaseNotifySink.OnError, ITsSbBaseNotifySink::OnError, OnError, OnError method [Remote Desktop Services], OnError method [Remote Desktop Services],ITsSbBaseNotifySink interface, sbtsv/ITsSbBaseNotifySink::OnError, termserv.itssbbasenotifysink_onerror
 ms.topic: method
-f1_keywords: 
- - "sbtsv/ITsSbBaseNotifySink.OnError"
+f1_keywords:
+- sbtsv/ITsSbBaseNotifySink.OnError
 dev_langs:
- - c++
+- c++
 req.header: sbtsv.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - sbtsv.h
+- sbtsv.h
 api_name:
- - ITsSbBaseNotifySink.OnError
+- ITsSbBaseNotifySink.OnError
 targetos: Windows
 req.typenames: 
 req.redist: 

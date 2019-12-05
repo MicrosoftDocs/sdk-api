@@ -1,19 +1,17 @@
 ---
 UID: NF:imepad.IImePadApplet.Initialize
 title: IImePadApplet::Initialize (imepad.h)
-
 description: Called from IImePad interface to initialize IImePadApplet.
 old-location: intl\iimepadapplet_initialize.htm
 tech.root: Intl
 ms.assetid: E76FF3FC-717F-42B8-AC5E-45D5527882A7
-
 ms.date: 12/05/2018
 ms.keywords: IImePadApplet interface [Internationalization for Windows Applications],Initialize method, IImePadApplet.Initialize, IImePadApplet::Initialize, Initialize, Initialize method [Internationalization for Windows Applications], Initialize method [Internationalization for Windows Applications],IImePadApplet interface, imepad/IImePadApplet::Initialize, intl.iimepadapplet_initialize
 ms.topic: method
-f1_keywords: 
- - "imepad/IImePadApplet.Initialize"
+f1_keywords:
+- imepad/IImePadApplet.Initialize
 dev_langs:
- - c++
+- c++
 req.header: imepad.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Imepad.h
+- Imepad.h
 api_name:
- - IImePadApplet.Initialize
+- IImePadApplet.Initialize
 targetos: Windows
 req.typenames: 
 req.redist: 

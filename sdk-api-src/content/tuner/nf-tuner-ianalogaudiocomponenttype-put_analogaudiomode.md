@@ -1,19 +1,17 @@
 ---
 UID: NF:tuner.IAnalogAudioComponentType.put_AnalogAudioMode
 title: IAnalogAudioComponentType::put_AnalogAudioMode (tuner.h)
-
 description: The put_AnalogAudioMode method specifies the analog audio mode.
 old-location: mstv\ianalogaudiocomponenttype_put_analogaudiomode.htm
 tech.root: mstv
 ms.assetid: cb3c4db6-8364-4c95-82d5-62276f26c7bb
-
 ms.date: 12/05/2018
 ms.keywords: IAnalogAudioComponentType interface [Microsoft TV Technologies],put_AnalogAudioMode method, IAnalogAudioComponentType.put_AnalogAudioMode, IAnalogAudioComponentType::put_AnalogAudioMode, IAnalogAudioComponentTypeput_AnalogAudioMode, mstv.ianalogaudiocomponenttype_put_analogaudiomode, put_AnalogAudioMode, put_AnalogAudioMode method [Microsoft TV Technologies], put_AnalogAudioMode method [Microsoft TV Technologies],IAnalogAudioComponentType interface, tuner/IAnalogAudioComponentType::put_AnalogAudioMode
 ms.topic: method
-f1_keywords: 
- - "tuner/IAnalogAudioComponentType.put_AnalogAudioMode"
+f1_keywords:
+- tuner/IAnalogAudioComponentType.put_AnalogAudioMode
 dev_langs:
- - c++
+- c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - tuner.h
+- tuner.h
 api_name:
- - IAnalogAudioComponentType.put_AnalogAudioMode
+- IAnalogAudioComponentType.put_AnalogAudioMode
 targetos: Windows
 req.typenames: 
 req.redist: 

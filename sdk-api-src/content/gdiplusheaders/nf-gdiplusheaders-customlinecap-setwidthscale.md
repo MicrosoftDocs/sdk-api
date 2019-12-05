@@ -1,19 +1,17 @@
 ---
 UID: NF:gdiplusheaders.CustomLineCap.SetWidthScale
 title: CustomLineCap::SetWidthScale (gdiplusheaders.h)
-
 description: The CustomLineCap::SetWidthScale method sets the value of the scale width. This is the amount to scale the custom line cap relative to the width of the Pen used to draw lines. The default value of 1.0 does not scale the line cap.
 old-location: gdiplus\_gdiplus_CLASS_CustomLineCap_SetWidthScale_widthScale_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\customlinecapclass\customlinecapmethods\setwidthscale.htm
-
 ms.date: 12/05/2018
 ms.keywords: CustomLineCap class [GDI+],SetWidthScale method, CustomLineCap.SetWidthScale, CustomLineCap::SetWidthScale, SetWidthScale, SetWidthScale method [GDI+], SetWidthScale method [GDI+],CustomLineCap class, _gdiplus_CLASS_CustomLineCap_SetWidthScale_widthScale_, gdiplus._gdiplus_CLASS_CustomLineCap_SetWidthScale_widthScale_
 ms.topic: method
-f1_keywords: 
- - "gdiplusheaders/CustomLineCap.SetWidthScale"
+f1_keywords:
+- gdiplusheaders/CustomLineCap.SetWidthScale
 dev_langs:
- - c++
+- c++
 req.header: gdiplusheaders.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - CustomLineCap.SetWidthScale
+- CustomLineCap.SetWidthScale
 targetos: Windows
 req.typenames: 
 req.redist: 

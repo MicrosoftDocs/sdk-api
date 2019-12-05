@@ -1,19 +1,17 @@
 ---
 UID: NF:ktmw32.GetCurrentClockTransactionManager
 title: GetCurrentClockTransactionManager function (ktmw32.h)
-
 description: Obtains a virtual clock value from a transaction manager.
 old-location: fs\getcurrentclocktransactionmanager_func.htm
 tech.root: ktm
 ms.assetid: 21d7c0fa-3a49-43b3-9325-d3dfdabbcb98
-
 ms.date: 12/05/2018
 ms.keywords: GetCurrentClockTransactionManager, GetCurrentClockTransactionManager function [Files], fs.getcurrentclocktransactionmanager_func, ktmw32/GetCurrentClockTransactionManager
 ms.topic: function
-f1_keywords: 
- - "ktmw32/GetCurrentClockTransactionManager"
+f1_keywords:
+- ktmw32/GetCurrentClockTransactionManager
 dev_langs:
- - c++
+- c++
 req.header: ktmw32.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Ktmw32.lib
 req.dll: Ktmw32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ktmw32.dll
+- Ktmw32.dll
 api_name:
- - GetCurrentClockTransactionManager
+- GetCurrentClockTransactionManager
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:faxcom.IFaxJob.get_PageCount
 title: IFaxJob::get_PageCount (faxcom.h)
-
 description: The IFaxJob::get_PageCount property is a number that represents the total number of pages in a fax transmission. The IFaxJob::get_PageCount property applies only to outgoing fax transmissions.
 old-location: fax\_mfax_ifaxjob_mfax_ifaxjob_get_pagecount_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_0nlg.htm
-
 ms.date: 12/05/2018
 ms.keywords: IFaxJob interface [Fax Service],PageCount property, IFaxJob.PageCount, IFaxJob.get_PageCount, IFaxJob::PageCount, IFaxJob::get_PageCount, PageCount property [Fax Service], PageCount property [Fax Service],IFaxJob interface, _mfax_ifaxjob_get_pagecount, fax._mfax_ifaxjob_get_pagecount, fax._mfax_ifaxjob_mfax_ifaxjob_get_pagecount_cpp, faxcom/IFaxJob::PageCount, faxcom/IFaxJob::get_PageCount, get_PageCount
 ms.topic: method
-f1_keywords: 
- - "faxcom/IFaxJob.PageCount"
+f1_keywords:
+- faxcom/IFaxJob.PageCount
 dev_langs:
- - c++
+- c++
 req.header: faxcom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: Faxcom.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Faxcom.dll
+- Faxcom.dll
 api_name:
- - IFaxJob.PageCount
- - IFaxJob.get_PageCount
+- IFaxJob.PageCount
+- IFaxJob.get_PageCount
 targetos: Windows
 req.typenames: 
 req.redist: 

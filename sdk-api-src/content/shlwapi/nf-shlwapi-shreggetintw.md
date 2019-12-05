@@ -1,19 +1,17 @@
 ---
 UID: NF:shlwapi.SHRegGetIntW
 title: SHRegGetIntW function (shlwapi.h)
-
 description: Reads a numeric string value from the registry and converts it to an integer.
 old-location: shell\SHRegGetInt.htm
 tech.root: shell
 ms.assetid: 027e3470-46be-4d37-b815-e1fd550d0c60
-
 ms.date: 12/05/2018
 ms.keywords: SHRegGetIntW, SHRegGetIntW function [Windows Shell], _shell_SHRegGetInt, shell.SHRegGetInt, shlwapi/SHRegGetIntW
 ms.topic: function
-f1_keywords: 
- - "shlwapi/SHRegGetIntW"
+f1_keywords:
+- shlwapi/SHRegGetIntW
 dev_langs:
- - c++
+- c++
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,19 +30,19 @@ req.lib: Shlwapi.lib
 req.dll: Shlwapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Shlwapi.dll
- - API-MS-Win-DownLevel-shlwapi-l2-1-1.dll
- - ShCore.dll
- - API-MS-Win-ShCore-Registry-l1-1-0.dll
- - API-MS-Win-ShCore-Registry-l1-1-1.dll
+- Shlwapi.dll
+- API-MS-Win-DownLevel-shlwapi-l2-1-1.dll
+- ShCore.dll
+- API-MS-Win-ShCore-Registry-l1-1-0.dll
+- API-MS-Win-ShCore-Registry-l1-1-1.dll
 api_name:
- - SHRegGetIntW
- - SHRegGetIntW
+- SHRegGetIntW
+- SHRegGetIntW
 targetos: Windows
 req.typenames: 
 req.redist: 

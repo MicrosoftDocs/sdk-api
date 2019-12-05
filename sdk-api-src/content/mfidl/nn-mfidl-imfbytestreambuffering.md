@@ -1,19 +1,17 @@
 ---
 UID: NN:mfidl.IMFByteStreamBuffering
 title: IMFByteStreamBuffering (mfidl.h)
-
 description: Controls how a byte stream buffers data from a network.
 old-location: mf\imfbytestreambuffering.htm
 tech.root: medfound
 ms.assetid: bbf9cdb1-5ec7-498a-aa59-85c24779547e
-
 ms.date: 12/05/2018
 ms.keywords: IMFByteStreamBuffering, IMFByteStreamBuffering interface [Media Foundation], IMFByteStreamBuffering interface [Media Foundation],described, bbf9cdb1-5ec7-498a-aa59-85c24779547e, mf.imfbytestreambuffering, mfidl/IMFByteStreamBuffering
 ms.topic: interface
-f1_keywords: 
- - "mfidl/IMFByteStreamBuffering"
+f1_keywords:
+- mfidl/IMFByteStreamBuffering
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFByteStreamBuffering
+- IMFByteStreamBuffering
 targetos: Windows
 req.typenames: 
 req.redist: 

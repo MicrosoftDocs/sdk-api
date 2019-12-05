@@ -1,19 +1,17 @@
 ---
 UID: NF:comsvcs.IThreadPoolKnobs.SetMinThreads
 title: IThreadPoolKnobs::SetMinThreads (comsvcs.h)
-
 description: Sets the minimum number of threads to be maintained in the pool.
 old-location: cos\ithreadpoolknobs_setminthreads.htm
 tech.root: cossdk
 ms.assetid: 17852fb8-7e8e-44bb-99f2-b7b7a5053f49
-
 ms.date: 12/05/2018
 ms.keywords: IThreadPoolKnobs interface [COM+],SetMinThreads method, IThreadPoolKnobs.SetMinThreads, IThreadPoolKnobs::SetMinThreads, SetMinThreads, SetMinThreads method [COM+], SetMinThreads method [COM+],IThreadPoolKnobs interface, _cos_IThreadPoolKnobs_SetMinThreads, comsvcs/IThreadPoolKnobs::SetMinThreads, cos.ithreadpoolknobs_setminthreads
 ms.topic: method
-f1_keywords: 
- - "comsvcs/IThreadPoolKnobs.SetMinThreads"
+f1_keywords:
+- comsvcs/IThreadPoolKnobs.SetMinThreads
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - IThreadPoolKnobs.SetMinThreads
+- IThreadPoolKnobs.SetMinThreads
 targetos: Windows
 req.typenames: 
 req.redist: 

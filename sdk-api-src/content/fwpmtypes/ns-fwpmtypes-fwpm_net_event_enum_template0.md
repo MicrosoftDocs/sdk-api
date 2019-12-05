@@ -1,19 +1,17 @@
 ---
 UID: NS:fwpmtypes.FWPM_NET_EVENT_ENUM_TEMPLATE0_
 title: FWPM_NET_EVENT_ENUM_TEMPLATE0 (fwpmtypes.h)
-
 description: Used for enumerating net events.
 old-location: fwp\fwpm_net_event_enum_template0.htm
 tech.root: fwp
 ms.assetid: 79711b24-e092-4a36-810a-6acad279eb90
-
 ms.date: 12/05/2018
 ms.keywords: FWPM_CONDITION_ALE_APP_ID, FWPM_CONDITION_ALE_USER_ID, FWPM_CONDITION_IP_LOCAL_ADDRESS, FWPM_CONDITION_IP_LOCAL_PORT, FWPM_CONDITION_IP_PROTOCOL, FWPM_CONDITION_IP_REMOTE_ADDRESS, FWPM_CONDITION_IP_REMOTE_PORT, FWPM_CONDITION_SCOPE_ID, FWPM_NET_EVENT_ENUM_TEMPLATE0, FWPM_NET_EVENT_ENUM_TEMPLATE0 structure [Filtering], fwp.fwpm_net_event_enum_template0, fwpmtypes/FWPM_NET_EVENT_ENUM_TEMPLATE0
 ms.topic: struct
-f1_keywords: 
- - "fwpmtypes/FWPM_NET_EVENT_ENUM_TEMPLATE0"
+f1_keywords:
+- fwpmtypes/FWPM_NET_EVENT_ENUM_TEMPLATE0
 dev_langs:
- - c++
+- c++
 req.header: fwpmtypes.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Fwpmtypes.h
+- Fwpmtypes.h
 api_name:
- - FWPM_NET_EVENT_ENUM_TEMPLATE0
+- FWPM_NET_EVENT_ENUM_TEMPLATE0
 targetos: Windows
 req.typenames: FWPM_NET_EVENT_ENUM_TEMPLATE0
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:netioapi.GetIpNetTable2
 title: GetIpNetTable2 function (netioapi.h)
-
 description: The GetIpNetTable2 function retrieves the IP neighbor table on the local computer.
 old-location: iphlp\getipnettable2.htm
 tech.root: IpHlp
 ms.assetid: 6c45d735-9a07-41ca-8d8a-919f32c98a3c
-
 ms.date: 12/05/2018
 ms.keywords: AF_INET, AF_INET6, AF_UNSPEC, GetIpNetTable2, GetIpNetTable2 function [IP Helper], iphlp.getipnettable2, netioapi/GetIpNetTable2
 ms.topic: function
-f1_keywords: 
- - "netioapi/GetIpNetTable2"
+f1_keywords:
+- netioapi/GetIpNetTable2
 dev_langs:
- - c++
+- c++
 req.header: netioapi.h
 req.include-header: Iphlpapi.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Iphlpapi.lib
 req.dll: Iphlpapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Iphlpapi.dll
+- Iphlpapi.dll
 api_name:
- - GetIpNetTable2
+- GetIpNetTable2
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:certadm.IOCSPCAConfiguration.put_SigningCertificate
 title: IOCSPCAConfiguration::put_SigningCertificate (certadm.h)
-
 description: Gets or sets a signing certificate that has been encoded by using Distinguished Encoding Rules (DER). An Online Certificate Status Protocol (OCSP) responder service uses this certificate to sign its responses to certificate status requests.
 old-location: security\iocspcaconfiguration_signingcertificate_method.htm
 tech.root: SecCrypto
 ms.assetid: 8635c9f0-3c70-4037-8633-7a3440aff6c8
-
 ms.date: 12/05/2018
 ms.keywords: IOCSPCAConfiguration interface [Security],SigningCertificate property, IOCSPCAConfiguration.SigningCertificate, IOCSPCAConfiguration.put_SigningCertificate, IOCSPCAConfiguration::SigningCertificate, IOCSPCAConfiguration::get_SigningCertificate, IOCSPCAConfiguration::put_SigningCertificate, SigningCertificate property [Security], SigningCertificate property [Security],IOCSPCAConfiguration interface, certadm/IOCSPCAConfiguration::SigningCertificate, certadm/IOCSPCAConfiguration::get_SigningCertificate, certadm/IOCSPCAConfiguration::put_SigningCertificate, put_SigningCertificate, security.iocspcaconfiguration_signingcertificate_method
 ms.topic: method
-f1_keywords: 
- - "certadm/IOCSPCAConfiguration.SigningCertificate"
+f1_keywords:
+- certadm/IOCSPCAConfiguration.SigningCertificate
 dev_langs:
- - c++
+- c++
 req.header: certadm.h
 req.include-header: Certserv.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Certadm.lib
 req.dll: Certadm.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Certadm.dll
+- Certadm.dll
 api_name:
- - IOCSPCAConfiguration.SigningCertificate
- - IOCSPCAConfiguration.get_SigningCertificate
- - IOCSPCAConfiguration.put_SigningCertificate
+- IOCSPCAConfiguration.SigningCertificate
+- IOCSPCAConfiguration.get_SigningCertificate
+- IOCSPCAConfiguration.put_SigningCertificate
 targetos: Windows
 req.typenames: 
 req.redist: 

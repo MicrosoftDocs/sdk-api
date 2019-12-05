@@ -1,19 +1,17 @@
 ---
 UID: NF:shlwapi.PathCompactPathExA
 title: PathCompactPathExA function (shlwapi.h)
-
 description: Truncates a path to fit within a certain number of characters by replacing path components with ellipses.
 old-location: shell\PathCompactPathEx.htm
 tech.root: shell
 ms.assetid: ff108ee6-3d71-4ab2-a04a-d4bcce408f88
-
 ms.date: 12/05/2018
 ms.keywords: PathCompactPathEx, PathCompactPathEx function [Windows Shell], PathCompactPathExA, PathCompactPathExW, _win32_PathCompactPathEx, shell.PathCompactPathEx, shlwapi/PathCompactPathEx, shlwapi/PathCompactPathExA, shlwapi/PathCompactPathExW
 ms.topic: function
-f1_keywords: 
- - "shlwapi/PathCompactPathEx"
+f1_keywords:
+- shlwapi/PathCompactPathEx
 dev_langs:
- - c++
+- c++
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib: Shlwapi.lib
 req.dll: Shlwapi.dll (version 4.71 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Shlwapi.dll
- - API-MS-Win-shlwapi-Winrt-storage-l1-1-0.dll
- - api-ms-win-shlwapi-winrt-storage-l1-1-1.dll
+- Shlwapi.dll
+- API-MS-Win-shlwapi-Winrt-storage-l1-1-0.dll
+- api-ms-win-shlwapi-winrt-storage-l1-1-1.dll
 api_name:
- - PathCompactPathEx
- - PathCompactPathExA
- - PathCompactPathExW
+- PathCompactPathEx
+- PathCompactPathExA
+- PathCompactPathExW
 targetos: Windows
 req.typenames: 
 req.redist: 

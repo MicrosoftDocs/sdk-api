@@ -1,19 +1,17 @@
 ---
 UID: NN:appxpackaging.IAppxManifestMainPackageDependenciesEnumerator
 title: IAppxManifestMainPackageDependenciesEnumerator (appxpackaging.h)
-
 description: Enumerates &lt;MainPackageDependency&gt; elements from an app manifest.
 old-location: appxpkg\iappxmanifestmainpackagedependenciesenumerator.htm
 tech.root: appxpkg
 ms.assetid: EB511040-5011-4B79-AFEE-DFF42E11025B
-
 ms.date: 12/05/2018
 ms.keywords: IAppxManifestMainPackageDependenciesEnumerator, IAppxManifestMainPackageDependenciesEnumerator interface [App packaging and management], IAppxManifestMainPackageDependenciesEnumerator interface [App packaging and management],described, appxpackaging/IAppxManifestMainPackageDependenciesEnumerator, appxpkg.iappxmanifestmainpackagedependenciesenumerator
 ms.topic: interface
-f1_keywords: 
- - "appxpackaging/IAppxManifestMainPackageDependenciesEnumerator"
+f1_keywords:
+- appxpackaging/IAppxManifestMainPackageDependenciesEnumerator
 dev_langs:
- - c++
+- c++
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - AppxPackaging.h
+- AppxPackaging.h
 api_name:
- - IAppxManifestMainPackageDependenciesEnumerator
+- IAppxManifestMainPackageDependenciesEnumerator
 targetos: Windows
 req.typenames: 
 req.redist: 

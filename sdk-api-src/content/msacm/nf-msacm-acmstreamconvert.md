@@ -1,19 +1,17 @@
 ---
 UID: NF:msacm.acmStreamConvert
 title: acmStreamConvert function (msacm.h)
-
 description: The acmStreamConvert function requests the ACM to perform a conversion on the specified conversion stream. A conversion may be synchronous or asynchronous, depending on how the stream was opened.
 old-location: multimedia\acmstreamconvert.htm
 tech.root: Multimedia
 ms.assetid: 97537dcc-acf4-4fea-b17f-2301a72a6a78
-
 ms.date: 12/05/2018
-ms.keywords: "_win32_acmStreamConvert, acmStreamConvert, acmStreamConvert function [Windows Multimedia], msacm/acmStreamConvert, multimedia.acmstreamconvert"
+ms.keywords: _win32_acmStreamConvert, acmStreamConvert, acmStreamConvert function [Windows Multimedia], msacm/acmStreamConvert, multimedia.acmstreamconvert
 ms.topic: function
-f1_keywords: 
- - "msacm/acmStreamConvert"
+f1_keywords:
+- msacm/acmStreamConvert
 dev_langs:
- - c++
+- c++
 req.header: msacm.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Msacm32.lib
 req.dll: Msacm32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Msacm32.dll
- - Ext-MS-Win-mm-msacm-l1-1-0.dll
+- Msacm32.dll
+- Ext-MS-Win-mm-msacm-l1-1-0.dll
 api_name:
- - acmStreamConvert
+- acmStreamConvert
 targetos: Windows
 req.typenames: 
 req.redist: 

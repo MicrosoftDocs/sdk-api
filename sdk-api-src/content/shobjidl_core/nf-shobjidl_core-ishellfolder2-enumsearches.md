@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IShellFolder2.EnumSearches
 title: IShellFolder2::EnumSearches (shobjidl_core.h)
-
 description: Requests a pointer to an interface that allows a client to enumerate the available search objects.
 old-location: shell\IShellFolder2_EnumSearches.htm
 tech.root: shell
 ms.assetid: ed7b0e3c-f679-491b-98a2-542fcf5d2077
-
 ms.date: 12/05/2018
 ms.keywords: EnumSearches, EnumSearches method [Windows Shell], EnumSearches method [Windows Shell],IShellFolder2 interface, IShellFolder2 interface [Windows Shell],EnumSearches method, IShellFolder2.EnumSearches, IShellFolder2::EnumSearches, _win32_IShellFolder2_EnumSearches, shell.IShellFolder2_EnumSearches, shobjidl_core/IShellFolder2::EnumSearches
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IShellFolder2.EnumSearches"
+f1_keywords:
+- shobjidl_core/IShellFolder2.EnumSearches
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Shell32.dll (version 5.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - IShellFolder2.EnumSearches
+- IShellFolder2.EnumSearches
 targetos: Windows
 req.typenames: 
 req.redist: 

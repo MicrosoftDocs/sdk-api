@@ -1,19 +1,17 @@
 ---
 UID: NF:mfmediaengine.IMFTimedTextTrack.GetExtendedErrorCode
 title: IMFTimedTextTrack::GetExtendedErrorCode (mfmediaengine.h)
-
 description: Gets the extended error code for the latest error associated with the track.
 old-location: mf\imftimedtexttrack_getextendederrorcode.htm
 tech.root: medfound
 ms.assetid: 61119103-B6F6-414B-AA7E-55DC889A5C28
-
 ms.date: 12/05/2018
 ms.keywords: GetExtendedErrorCode, GetExtendedErrorCode method [Media Foundation], GetExtendedErrorCode method [Media Foundation],IMFTimedTextTrack interface, IMFTimedTextTrack interface [Media Foundation],GetExtendedErrorCode method, IMFTimedTextTrack.GetExtendedErrorCode, IMFTimedTextTrack::GetExtendedErrorCode, mf.imftimedtexttrack_getextendederrorcode, mfmediaengine/IMFTimedTextTrack::GetExtendedErrorCode
 ms.topic: method
-f1_keywords: 
- - "mfmediaengine/IMFTimedTextTrack.GetExtendedErrorCode"
+f1_keywords:
+- mfmediaengine/IMFTimedTextTrack.GetExtendedErrorCode
 dev_langs:
- - c++
+- c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Mfmediaengine.lib
 req.dll: Mfmediaengine.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfmediaengine.dll
+- mfmediaengine.dll
 api_name:
- - IMFTimedTextTrack.GetExtendedErrorCode
+- IMFTimedTextTrack.GetExtendedErrorCode
 targetos: Windows
 req.typenames: 
 req.redist: 

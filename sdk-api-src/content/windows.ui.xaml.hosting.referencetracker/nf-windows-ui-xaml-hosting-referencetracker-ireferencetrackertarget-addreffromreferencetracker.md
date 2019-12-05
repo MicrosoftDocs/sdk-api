@@ -1,19 +1,17 @@
 ---
 UID: NF:windows.ui.xaml.hosting.referencetracker.IReferenceTrackerTarget.AddRefFromReferenceTracker
 title: IReferenceTrackerTarget::xaml (windows.ui.xaml.hosting.referencetracker.h)
-
 description: Indicates that the reference tracker is returning the target XAML object(s) from previous calls to FindTrackerTargets. Note that the reference is held by the reference tracker object in lieu of IUnknown::AddRef.
 old-location: winrt\ireferencetrackertarget_addreffromreferencetracker.htm
 tech.root: WinRT
 ms.assetid: 91c02fd8-a210-4e6a-ab60-43ea7c1312be
-
 ms.date: 12/05/2018
 ms.keywords: AddRefFromReferenceTracker, AddRefFromReferenceTracker method [Windows Runtime], AddRefFromReferenceTracker method [Windows Runtime],IReferenceTrackerTarget interface, IReferenceTrackerTarget interface [Windows Runtime],AddRefFromReferenceTracker method, IReferenceTrackerTarget.AddRefFromReferenceTracker, IReferenceTrackerTarget.xaml, IReferenceTrackerTarget::AddRefFromReferenceTracker, IReferenceTrackerTarget::xaml, windows/IReferenceTrackerTarget::AddRefFromReferenceTracker, winrt.ireferencetrackertarget_addreffromreferencetracker
 ms.topic: method
-f1_keywords: 
- - "windows.ui.xaml.hosting.referencetracker/IReferenceTrackerTarget.AddRefFromReferenceTracker"
+f1_keywords:
+- windows.ui.xaml.hosting.referencetracker/IReferenceTrackerTarget.AddRefFromReferenceTracker
 dev_langs:
- - c++
+- c++
 req.header: windows.ui.xaml.hosting.referencetracker.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Windows.ui.xaml.hosting.referencetracker.h
+- Windows.ui.xaml.hosting.referencetracker.h
 api_name:
- - IReferenceTrackerTarget.AddRefFromReferenceTracker
+- IReferenceTrackerTarget.AddRefFromReferenceTracker
 targetos: Windows
 req.typenames: 
 req.redist: 

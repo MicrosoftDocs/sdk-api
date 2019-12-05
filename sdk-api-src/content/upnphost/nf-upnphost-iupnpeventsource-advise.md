@@ -1,19 +1,17 @@
 ---
 UID: NF:upnphost.IUPnPEventSource.Advise
 title: IUPnPEventSource::Advise (upnphost.h)
-
 description: The Advise method is invoked by the device host to begin receiving events from the hosted service.
 old-location: upnp\iupnpeventsource_advise.htm
 tech.root: upnp
 ms.assetid: ec68f4ff-7549-4d48-b347-0320bc55329c
-
 ms.date: 12/05/2018
 ms.keywords: Advise, Advise method [UPnP APIs], Advise method [UPnP APIs],IUPnPEventSource interface, IUPnPEventSource interface [UPnP APIs],Advise method, IUPnPEventSource.Advise, IUPnPEventSource::Advise, _upnp_iupnpeventsource_advise, upnp.iupnpeventsource_advise, upnphost/IUPnPEventSource::Advise
 ms.topic: method
-f1_keywords: 
- - "upnphost/IUPnPEventSource.Advise"
+f1_keywords:
+- upnphost/IUPnPEventSource.Advise
 dev_langs:
- - c++
+- c++
 req.header: upnphost.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Upnphost.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Upnphost.dll
+- Upnphost.dll
 api_name:
- - IUPnPEventSource.Advise
+- IUPnPEventSource.Advise
 targetos: Windows
 req.typenames: 
 req.redist: 

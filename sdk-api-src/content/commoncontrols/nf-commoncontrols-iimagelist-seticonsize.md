@@ -1,19 +1,17 @@
 ---
 UID: NF:commoncontrols.IImageList.SetIconSize
 title: IImageList::SetIconSize (commoncontrols.h)
-
 description: Sets the dimensions of images in an image list and removes all images from the list.
 old-location: controls\IImageList_SetIconSize.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\imagelist\ifaces\iimagelist\seticonsize.htm
-
 ms.date: 12/05/2018
 ms.keywords: IImageList interface [Windows Controls],SetIconSize method, IImageList.SetIconSize, IImageList::SetIconSize, SetIconSize, SetIconSize method [Windows Controls], SetIconSize method [Windows Controls],IImageList interface, comctl_IImageList_SetIconSize, comctl_IImageList_SetIconSize_cpp, commoncontrols/IImageList::SetIconSize, controls.IImageList_SetIconSize, controls.comctl_IImageList_SetIconSize
 ms.topic: method
-f1_keywords: 
- - "commoncontrols/IImageList.SetIconSize"
+f1_keywords:
+- commoncontrols/IImageList.SetIconSize
 dev_langs:
- - c++
+- c++
 req.header: commoncontrols.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Comctl32.dll (version 6.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Comctl32.dll
+- Comctl32.dll
 api_name:
- - IImageList.SetIconSize
+- IImageList.SetIconSize
 targetos: Windows
 req.typenames: 
 req.redist: 

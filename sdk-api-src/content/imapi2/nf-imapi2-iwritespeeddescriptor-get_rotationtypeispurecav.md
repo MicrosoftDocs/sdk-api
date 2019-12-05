@@ -1,19 +1,17 @@
 ---
 UID: NF:imapi2.IWriteSpeedDescriptor.get_RotationTypeIsPureCAV
 title: IWriteSpeedDescriptor::get_RotationTypeIsPureCAV (imapi2.h)
-
 description: Retrieves the supported rotational-speed control used by the recorder for the current media.
 old-location: imapi\iwritespeeddescriptor_get_rotationtypeispurecav.htm
 tech.root: imapi
 ms.assetid: 36c509a2-6592-4fa0-8e4a-4b21f4cf7a13
-
 ms.date: 12/05/2018
 ms.keywords: IWriteSpeedDescriptor interface [IMAPI],get_RotationTypeIsPureCAV method, IWriteSpeedDescriptor.get_RotationTypeIsPureCAV, IWriteSpeedDescriptor::get_RotationTypeIsPureCAV, get_RotationTypeIsPureCAV, get_RotationTypeIsPureCAV method [IMAPI], get_RotationTypeIsPureCAV method [IMAPI],IWriteSpeedDescriptor interface, imapi.iwritespeeddescriptor_get_rotationtypeispurecav, imapi2/IWriteSpeedDescriptor::get_RotationTypeIsPureCAV
 ms.topic: method
-f1_keywords: 
- - "imapi2/IWriteSpeedDescriptor.get_RotationTypeIsPureCAV"
+f1_keywords:
+- imapi2/IWriteSpeedDescriptor.get_RotationTypeIsPureCAV
 dev_langs:
- - c++
+- c++
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - imapi2.h
+- imapi2.h
 api_name:
- - IWriteSpeedDescriptor.get_RotationTypeIsPureCAV
+- IWriteSpeedDescriptor.get_RotationTypeIsPureCAV
 targetos: Windows
 req.typenames: 
 req.redist: 

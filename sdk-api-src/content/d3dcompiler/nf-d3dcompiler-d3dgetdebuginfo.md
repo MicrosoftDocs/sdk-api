@@ -1,19 +1,17 @@
 ---
 UID: NF:d3dcompiler.D3DGetDebugInfo
 title: D3DGetDebugInfo function (d3dcompiler.h)
-
 description: Note  You can use this API to develop your Windows Store apps, but you can't use it in apps that you submit to the Windows Store. Gets shader debug information.
 old-location: direct3dhlsl\d3dgetdebuginfo.htm
 tech.root: direct3dhlsl
 ms.assetid: VS|directx_sdk|~\d3dgetdebuginfo.htm
-
 ms.date: 12/05/2018
 ms.keywords: D3DGetDebugInfo, D3DGetDebugInfo function [HLSL], d3dcompiler/D3DGetDebugInfo, direct3dhlsl.d3dgetdebuginfo, f21b6ffa-9910-4ce4-b2dc-07e7ad540fac
 ms.topic: function
-f1_keywords: 
- - "d3dcompiler/D3DGetDebugInfo"
+f1_keywords:
+- d3dcompiler/D3DGetDebugInfo
 dev_langs:
- - c++
+- c++
 req.header: d3dcompiler.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: D3dcompiler_47.lib
 req.dll: D3dcompiler_47.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - d3dcompiler_47.dll
+- d3dcompiler_47.dll
 api_name:
- - D3DGetDebugInfo
+- D3DGetDebugInfo
 targetos: Windows
 req.typenames: 
 req.redist: 

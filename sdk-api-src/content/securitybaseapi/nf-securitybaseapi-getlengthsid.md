@@ -1,19 +1,17 @@
 ---
 UID: NF:securitybaseapi.GetLengthSid
 title: GetLengthSid function (securitybaseapi.h)
-
 description: Returns the length, in bytes, of a valid security identifier (SID).
 old-location: security\getlengthsid.htm
 tech.root: SecAuthZ
 ms.assetid: 0acaa804-494c-4d69-b1f7-8d167b494761
-
 ms.date: 12/05/2018
 ms.keywords: GetLengthSid, GetLengthSid function [Security], _win32_getlengthsid, security.getlengthsid, securitybaseapi/GetLengthSid
 ms.topic: function
 f1_keywords:
 - securitybaseapi/GetLengthSid
 dev_langs:
- - c++
+- c++
 req.header: securitybaseapi.h
 req.include-header: Windows.h
 req.target-type: Windows

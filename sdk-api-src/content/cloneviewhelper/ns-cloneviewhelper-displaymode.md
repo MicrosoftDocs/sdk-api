@@ -1,19 +1,17 @@
 ---
 UID: NS:cloneviewhelper.tagDisplayMode
 title: DisplayMode (cloneviewhelper.h)
-
 description: The DisplayMode structure describes a display device.
 old-location: display\displaymode.htm
 tech.root: display
 ms.assetid: dc189bb6-e2c4-422c-8350-4c1632439478
-
 ms.date: 12/05/2018
 ms.keywords: DisplayMode, DisplayMode structure [Display Devices], TMM_Ref_37fe6fb5-e095-4bc7-8d92-a4d305bbadcb.xml, cloneviewhelper/DisplayMode, display.displaymode
 ms.topic: struct
-f1_keywords: 
- - "cloneviewhelper/DisplayMode"
+f1_keywords:
+- cloneviewhelper/DisplayMode
 dev_langs:
- - c++
+- c++
 req.header: cloneviewhelper.h
 req.include-header: Cloneviewhelper.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - cloneviewhelper.h
+- cloneviewhelper.h
 api_name:
- - DisplayMode
+- DisplayMode
 targetos: Windows
 req.typenames: DisplayMode
 req.redist: 

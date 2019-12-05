@@ -1,19 +1,17 @@
 ---
 UID: NF:winuser.CloseWindow
 title: CloseWindow function (winuser.h)
-
 description: Minimizes (but does not destroy) the specified window.
 old-location: winmsg\closewindow.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowfunctions\closewindow.htm
-
 ms.date: 12/05/2018
 ms.keywords: CloseWindow, CloseWindow function [Windows and Messages], _win32_CloseWindow, _win32_closewindow_cpp, winmsg.closewindow, winui._win32_closewindow, winuser/CloseWindow
 ms.topic: function
-f1_keywords: 
- - "winuser/CloseWindow"
+f1_keywords:
+- winuser/CloseWindow
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - User32.dll
+- User32.dll
 api_name:
- - CloseWindow
+- CloseWindow
 targetos: Windows
 req.typenames: 
 req.redist: 

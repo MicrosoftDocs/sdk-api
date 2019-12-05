@@ -1,19 +1,17 @@
 ---
 UID: NF:wmp.IWMPPlayer.get_uiMode
 title: IWMPPlayer::get_uiMode (wmp.h)
-
 description: The get_uiMode method retrieves a value indicating which controls are shown in the user interface.
 old-location: wmp\iwmpplayer_get_uimode.htm
 tech.root: WMP
 ms.assetid: 8e05342f-812a-4dca-a491-b237f9a9f1bd
-
 ms.date: 12/05/2018
 ms.keywords: IWMPPlayer interface [Windows Media Player],get_uiMode method, IWMPPlayer.get_uiMode, IWMPPlayer::get_uiMode, IWMPPlayerget_uiMode, get_uiMode, get_uiMode method [Windows Media Player], get_uiMode method [Windows Media Player],IWMPPlayer interface, wmp.iwmpplayer_get_uimode, wmp/IWMPPlayer::get_uiMode
 ms.topic: method
-f1_keywords: 
- - "wmp/IWMPPlayer.get_uiMode"
+f1_keywords:
+- wmp/IWMPPlayer.get_uiMode
 dev_langs:
- - c++
+- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wmp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmp.dll
+- wmp.dll
 api_name:
- - IWMPPlayer.get_uiMode
+- IWMPPlayer.get_uiMode
 targetos: Windows
 req.typenames: 
 req.redist: 

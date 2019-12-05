@@ -1,19 +1,17 @@
 ---
 UID: NF:vdshwprv.IVdsIscsiTarget.QueryPortalGroups
 title: IVdsIscsiTarget::QueryPortalGroups (vdshwprv.h)
-
 description: Returns an enumeration of the iSCSI portal groups within the target.
 old-location: base\ivdsiscsitarget_queryportalgroups.htm
 tech.root: VDS
 ms.assetid: bcddd435-a422-4ba3-8978-24388346ab27
-
 ms.date: 12/05/2018
 ms.keywords: IVdsIscsiTarget interface [VDS],QueryPortalGroups method, IVdsIscsiTarget.QueryPortalGroups, IVdsIscsiTarget::QueryPortalGroups, QueryPortalGroups, QueryPortalGroups method [VDS], QueryPortalGroups method [VDS],IVdsIscsiTarget interface, base.ivdsiscsitarget_queryportalgroups, vds/IVdsIscsiTarget::QueryPortalGroups, vdshwprv/IVdsIscsiTarget::QueryPortalGroups
 ms.topic: method
-f1_keywords: 
- - "vdshwprv/IVdsIscsiTarget.QueryPortalGroups"
+f1_keywords:
+- vdshwprv/IVdsIscsiTarget.QueryPortalGroups
 dev_langs:
- - c++
+- c++
 req.header: vdshwprv.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Uuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Uuid.lib
- - Uuid.dll
+- Uuid.lib
+- Uuid.dll
 api_name:
- - IVdsIscsiTarget.QueryPortalGroups
+- IVdsIscsiTarget.QueryPortalGroups
 targetos: Windows
 req.typenames: 
 req.redist: VDS 1.1

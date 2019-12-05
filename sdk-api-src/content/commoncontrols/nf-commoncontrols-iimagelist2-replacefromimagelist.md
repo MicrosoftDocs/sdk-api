@@ -1,19 +1,17 @@
 ---
 UID: NF:commoncontrols.IImageList2.ReplaceFromImageList
 title: IImageList2::ReplaceFromImageList (commoncontrols.h)
-
 description: Replaces an image in one image list with an image from another image list.
 old-location: controls\IImageList2_ReplaceFromImageList.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\imagelist\ifaces\iimagelist2\replacefromimagelist.htm
-
 ms.date: 12/05/2018
 ms.keywords: IImageList2 interface [Windows Controls],ReplaceFromImageList method, IImageList2.ReplaceFromImageList, IImageList2::ReplaceFromImageList, ReplaceFromImageList, ReplaceFromImageList method [Windows Controls], ReplaceFromImageList method [Windows Controls],IImageList2 interface, _shell_IImageList2_ReplaceFromImageList, _shell_IImageList2_ReplaceFromImageList_cpp, commoncontrols/IImageList2::ReplaceFromImageList, controls.IImageList2_ReplaceFromImageList, controls._shell_IImageList2_ReplaceFromImageList
 ms.topic: method
-f1_keywords: 
- - "commoncontrols/IImageList2.ReplaceFromImageList"
+f1_keywords:
+- commoncontrols/IImageList2.ReplaceFromImageList
 dev_langs:
- - c++
+- c++
 req.header: commoncontrols.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Comctl32.dll (version 6.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Comctl32.dll
+- Comctl32.dll
 api_name:
- - IImageList2.ReplaceFromImageList
+- IImageList2.ReplaceFromImageList
 targetos: Windows
 req.typenames: 
 req.redist: 

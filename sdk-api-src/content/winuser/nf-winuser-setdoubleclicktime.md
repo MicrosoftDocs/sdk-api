@@ -1,19 +1,17 @@
 ---
 UID: NF:winuser.SetDoubleClickTime
 title: SetDoubleClickTime function (winuser.h)
-
 description: Sets the double-click time for the mouse.
 old-location: inputdev\setdoubleclicktime.htm
 tech.root: inputdev
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\mouseinput\mouseinputreference\mouseinputfunctions\setdoubleclicktime.htm
-
 ms.date: 12/05/2018
 ms.keywords: SetDoubleClickTime, SetDoubleClickTime function [Keyboard and Mouse Input], _win32_SetDoubleClickTime, _win32_setdoubleclicktime_cpp, inputdev.setdoubleclicktime, winui._win32_setdoubleclicktime, winuser/SetDoubleClickTime
 ms.topic: function
-f1_keywords: 
- - "winuser/SetDoubleClickTime"
+f1_keywords:
+- winuser/SetDoubleClickTime
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - User32.dll
+- User32.dll
 api_name:
- - SetDoubleClickTime
+- SetDoubleClickTime
 targetos: Windows
 req.typenames: 
 req.redist: 

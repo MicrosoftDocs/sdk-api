@@ -1,19 +1,17 @@
 ---
 UID: NF:gdiplusgraphics.Graphics.DrawLine(IN const Pen,IN const PointF &,IN const PointF &)
 title: Graphics::DrawLine(IN const Pen,IN const PointF &,IN const PointF &) (gdiplusgraphics.h)
-
 description: The Graphics::DrawLine method draws a line that connects two points.
 old-location: gdiplus\_gdiplus_CLASS_Graphics_DrawLine_Pen_pen_PointF_pt1_PointF_pt2_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\graphicsdrawlinemethods\drawline_18penpen_pointfamppt1_pointfamppt2.htm
-
 ms.date: 12/05/2018
 ms.keywords: DrawLine, DrawLine method [GDI+], DrawLine method [GDI+],Graphics class, Graphics class [GDI+],DrawLine method, Graphics.DrawLine, Graphics.DrawLine(IN const Pen,IN const PointF &,IN const PointF &), Graphics.DrawLine(const Pen*,const PointF&,const PointF&), Graphics::DrawLine, Graphics::DrawLine(IN const Pen,IN const PointF &,IN const PointF &), _gdiplus_CLASS_Graphics_DrawLine_Pen_pen_PointF_pt1_PointF_pt2_, gdiplus._gdiplus_CLASS_Graphics_DrawLine_Pen_pen_PointF_pt1_PointF_pt2_
 ms.topic: method
-f1_keywords: 
- - "gdiplusgraphics/Graphics.DrawLine"
+f1_keywords:
+- gdiplusgraphics/Graphics.DrawLine
 dev_langs:
- - c++
+- c++
 req.header: gdiplusgraphics.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - Graphics.DrawLine
+- Graphics.DrawLine
 targetos: Windows
 req.typenames: 
 req.redist: 

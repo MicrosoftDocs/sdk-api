@@ -1,19 +1,17 @@
 ---
 UID: NF:commoncontrols.IImageList.GetImageInfo
 title: IImageList::GetImageInfo (commoncontrols.h)
-
 description: Gets information about an image.
 old-location: controls\IImageList_GetImageInfo.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\imagelist\ifaces\iimagelist\getimageinfo.htm
-
 ms.date: 12/05/2018
 ms.keywords: GetImageInfo, GetImageInfo method [Windows Controls], GetImageInfo method [Windows Controls],IImageList interface, IImageList interface [Windows Controls],GetImageInfo method, IImageList.GetImageInfo, IImageList::GetImageInfo, comctl_IImageList_GetImageInfo, comctl_IImageList_GetImageInfo_cpp, commoncontrols/IImageList::GetImageInfo, controls.IImageList_GetImageInfo, controls.comctl_IImageList_GetImageInfo
 ms.topic: method
-f1_keywords: 
- - "commoncontrols/IImageList.GetImageInfo"
+f1_keywords:
+- commoncontrols/IImageList.GetImageInfo
 dev_langs:
- - c++
+- c++
 req.header: commoncontrols.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Comctl32.dll (version 6.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Comctl32.dll
+- Comctl32.dll
 api_name:
- - IImageList.GetImageInfo
+- IImageList.GetImageInfo
 targetos: Windows
 req.typenames: 
 req.redist: 

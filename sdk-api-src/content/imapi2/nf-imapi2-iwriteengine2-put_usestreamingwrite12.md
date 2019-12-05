@@ -1,19 +1,17 @@
 ---
 UID: NF:imapi2.IWriteEngine2.put_UseStreamingWrite12
 title: IWriteEngine2::put_UseStreamingWrite12 (imapi2.h)
-
 description: Sets a value that indicates if the write operations use the WRITE12 or WRITE10 command.
 old-location: imapi\iwriteengine2_put_usestreamingwrite12.htm
 tech.root: imapi
 ms.assetid: c0fa6248-c582-423d-8983-81cd56d9abdd
-
 ms.date: 12/05/2018
 ms.keywords: IWriteEngine2 interface [IMAPI],put_UseStreamingWrite12 method, IWriteEngine2.put_UseStreamingWrite12, IWriteEngine2::put_UseStreamingWrite12, imapi.iwriteengine2_put_usestreamingwrite12, imapi2/IWriteEngine2::put_UseStreamingWrite12, put_UseStreamingWrite12, put_UseStreamingWrite12 method [IMAPI], put_UseStreamingWrite12 method [IMAPI],IWriteEngine2 interface
 ms.topic: method
-f1_keywords: 
- - "imapi2/IWriteEngine2.put_UseStreamingWrite12"
+f1_keywords:
+- imapi2/IWriteEngine2.put_UseStreamingWrite12
 dev_langs:
- - c++
+- c++
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - imapi2.h
+- imapi2.h
 api_name:
- - IWriteEngine2.put_UseStreamingWrite12
+- IWriteEngine2.put_UseStreamingWrite12
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:mfidl.IMFHttpDownloadSession.CreateRequest
 title: IMFHttpDownloadSession::CreateRequest (mfidl.h)
-
 description: Invoked by Microsoft Media Foundation to create an object that implements the IMFHttpDownloadRequest interface, which is used to send a single HTTP, or HTTPS request.
 old-location: mf\imfhttpdownloadsession_createrequest.htm
 tech.root: medfound
 ms.assetid: 111A075A-82A7-4607-9359-37B2DA97AFC5
-
 ms.date: 12/05/2018
 ms.keywords: CreateRequest, CreateRequest method [Media Foundation], CreateRequest method [Media Foundation],IMFHttpDownloadSession interface, IMFHttpDownloadSession interface [Media Foundation],CreateRequest method, IMFHttpDownloadSession.CreateRequest, IMFHttpDownloadSession::CreateRequest, mf.imfhttpdownloadsession_createrequest, mfidl/IMFHttpDownloadSession::CreateRequest
 ms.topic: method
-f1_keywords: 
- - "mfidl/IMFHttpDownloadSession.CreateRequest"
+f1_keywords:
+- mfidl/IMFHttpDownloadSession.CreateRequest
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Mfplat.lib; Mfplat.dll
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfplat.lib
- - mfplat.dll
- - mfplat.dll
- - mfplat.dll.dll
+- mfplat.lib
+- mfplat.dll
+- mfplat.dll
+- mfplat.dll.dll
 api_name:
- - IMFHttpDownloadSession.CreateRequest
+- IMFHttpDownloadSession.CreateRequest
 targetos: Windows
 req.typenames: 
 req.redist: 

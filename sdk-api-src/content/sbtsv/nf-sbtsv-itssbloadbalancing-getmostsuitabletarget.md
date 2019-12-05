@@ -1,19 +1,17 @@
 ---
 UID: NF:sbtsv.ITsSbLoadBalancing.GetMostSuitableTarget
 title: ITsSbLoadBalancing::GetMostSuitableTarget (sbtsv.h)
-
 description: Determines the most suitable target to which to direct an incoming client connection.
 old-location: termserv\itssbloadbalancing_getmostsuitabletarget.htm
 tech.root: TermServ
 ms.assetid: 4f625f64-3909-4003-938c-7807ec24e59e
-
 ms.date: 12/05/2018
 ms.keywords: GetMostSuitableTarget, GetMostSuitableTarget method [Remote Desktop Services], GetMostSuitableTarget method [Remote Desktop Services],ITsSbLoadBalancing interface, ITsSbLoadBalancing interface [Remote Desktop Services],GetMostSuitableTarget method, ITsSbLoadBalancing.GetMostSuitableTarget, ITsSbLoadBalancing::GetMostSuitableTarget, sbtsv/ITsSbLoadBalancing::GetMostSuitableTarget, termserv.itssbloadbalancing_getmostsuitabletarget
 ms.topic: method
-f1_keywords: 
- - "sbtsv/ITsSbLoadBalancing.GetMostSuitableTarget"
+f1_keywords:
+- sbtsv/ITsSbLoadBalancing.GetMostSuitableTarget
 dev_langs:
- - c++
+- c++
 req.header: sbtsv.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - sbtsv.h
+- sbtsv.h
 api_name:
- - ITsSbLoadBalancing.GetMostSuitableTarget
+- ITsSbLoadBalancing.GetMostSuitableTarget
 targetos: Windows
 req.typenames: 
 req.redist: 

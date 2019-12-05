@@ -1,19 +1,17 @@
 ---
 UID: NN:msrdc.IRdcGeneratorFilterMaxParameters
 title: IRdcGeneratorFilterMaxParameters (msrdc.h)
-
 description: Sets and retrieves parameters used by the FilterMax generator.
 old-location: rdc\irdcgeneratorfiltermaxparameters.htm
 tech.root: rdc
 ms.assetid: 6767ab24-2bb6-48bf-8f12-794d8b22e2b7
-
 ms.date: 12/05/2018
 ms.keywords: IRdcGeneratorFilterMaxParameters, IRdcGeneratorFilterMaxParameters interface [Remote Differential Compression], IRdcGeneratorFilterMaxParameters interface [Remote Differential Compression],described, fs.irdcgeneratorfiltermaxparameters, msrdc/IRdcGeneratorFilterMaxParameters, rdc.irdcgeneratorfiltermaxparameters
 ms.topic: interface
-f1_keywords: 
- - "msrdc/IRdcGeneratorFilterMaxParameters"
+f1_keywords:
+- msrdc/IRdcGeneratorFilterMaxParameters
 dev_langs:
- - c++
+- c++
 req.header: msrdc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: MsRdc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - MsRdc.dll
+- MsRdc.dll
 api_name:
- - IRdcGeneratorFilterMaxParameters
+- IRdcGeneratorFilterMaxParameters
 targetos: Windows
 req.typenames: 
 req.redist: 

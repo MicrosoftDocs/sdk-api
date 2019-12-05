@@ -1,19 +1,17 @@
 ---
 UID: NF:audioengineendpoint.IAudioOutputEndpointRT.ReleaseOutputDataPointer
 title: IAudioOutputEndpointRT::ReleaseOutputDataPointer (audioengineendpoint.h)
-
 description: Releases the pointer to the output buffer.
 old-location: termserv\iaudiooutputendpointrt_releaseoutputdatapointer.htm
 tech.root: TermServ
 ms.assetid: 55b7d55e-b684-4c6e-a937-e8922732857d
-
 ms.date: 12/05/2018
 ms.keywords: IAudioOutputEndpointRT interface [Remote Desktop Services],ReleaseOutputDataPointer method, IAudioOutputEndpointRT.ReleaseOutputDataPointer, IAudioOutputEndpointRT::ReleaseOutputDataPointer, ReleaseOutputDataPointer, ReleaseOutputDataPointer method [Remote Desktop Services], ReleaseOutputDataPointer method [Remote Desktop Services],IAudioOutputEndpointRT interface, audioengineendpoint/IAudioOutputEndpointRT::ReleaseOutputDataPointer, termserv.iaudiooutputendpointrt_releaseoutputdatapointer
 ms.topic: method
-f1_keywords: 
- - "audioengineendpoint/IAudioOutputEndpointRT.ReleaseOutputDataPointer"
+f1_keywords:
+- audioengineendpoint/IAudioOutputEndpointRT.ReleaseOutputDataPointer
 dev_langs:
- - c++
+- c++
 req.header: audioengineendpoint.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Audioengineendpoint.h
+- Audioengineendpoint.h
 api_name:
- - IAudioOutputEndpointRT.ReleaseOutputDataPointer
+- IAudioOutputEndpointRT.ReleaseOutputDataPointer
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:tspi.TSPI_lineUnpark
 title: TSPI_lineUnpark function (tspi.h)
-
 description: The TSPI_lineUnpark function retrieves the call parked at the specified address and returns a call handle for it.
 old-location: tspi\tspi_lineunpark.htm
 tech.root: Tapi
 ms.assetid: 941a9715-533e-489c-87b0-27a04be1d80e
-
 ms.date: 12/05/2018
 ms.keywords: TSPI_lineUnpark, TSPI_lineUnpark function [TAPI 2.2], _tspi_tspi_lineunpark, tspi.tspi_lineunpark, tspi/TSPI_lineUnpark
 ms.topic: function
-f1_keywords: 
- - "tspi/TSPI_lineUnpark"
+f1_keywords:
+- tspi/TSPI_lineUnpark
 dev_langs:
- - c++
+- c++
 req.header: tspi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Tspi.h
+- Tspi.h
 api_name:
- - TSPI_lineUnpark
+- TSPI_lineUnpark
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:traceloggingactivity.TraceLoggingWriteStart
 title: TraceLoggingWriteStart macro (traceloggingactivity.h)
-
 description: Starts an activity and logs the start event.
 old-location: tracelogging\traceloggingwritestart.htm
 tech.root: tracelogging
 ms.assetid: E5B9347E-50A7-49BE-BDD5-DCED39371234
-
 ms.date: 12/05/2018
 ms.keywords: TraceLoggingWriteStart, TraceLoggingWriteStart macro, tracelogging.traceloggingwritestart, traceloggingactivity/TraceLoggingWriteStart
 ms.topic: macro
-f1_keywords: 
- - "traceloggingactivity/TraceLoggingWriteStart"
+f1_keywords:
+- traceloggingactivity/TraceLoggingWriteStart
 dev_langs:
- - c++
+- c++
 req.header: traceloggingactivity.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - traceloggingactivity.h
+- traceloggingactivity.h
 api_name:
- - TraceLoggingWriteStart
+- TraceLoggingWriteStart
 targetos: Windows
 req.typenames: 
 req.redist: 

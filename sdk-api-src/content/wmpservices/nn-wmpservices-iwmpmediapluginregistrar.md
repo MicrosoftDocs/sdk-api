@@ -1,19 +1,17 @@
 ---
 UID: NN:wmpservices.IWMPMediaPluginRegistrar
 title: IWMPMediaPluginRegistrar (wmpservices.h)
-
 description: The IWMPMediaPluginRegistrar interface manages plug-in registration.
 old-location: wmp\iwmpmediapluginregistrar.htm
 tech.root: WMP
 ms.assetid: 4b99d227-39e8-4986-93ed-6df73a3a3e08
-
 ms.date: 12/05/2018
 ms.keywords: IWMPMediaPluginRegistrar, IWMPMediaPluginRegistrar interface [Windows Media Player], IWMPMediaPluginRegistrar interface [Windows Media Player],described, wmp.iwmpmediapluginregistrar, wmpservices/IWMPMediaPluginRegistrar
 ms.topic: interface
-f1_keywords: 
- - "wmpservices/IWMPMediaPluginRegistrar"
+f1_keywords:
+- wmpservices/IWMPMediaPluginRegistrar
 dev_langs:
- - c++
+- c++
 req.header: wmpservices.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmpservices.h
+- wmpservices.h
 api_name:
- - IWMPMediaPluginRegistrar
+- IWMPMediaPluginRegistrar
 targetos: Windows
 req.typenames: 
 req.redist: 

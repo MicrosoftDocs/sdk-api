@@ -1,17 +1,15 @@
 ---
 UID: NF:dwrite_3.IDWriteFactory6.CreateFontResource
 title: IDWriteFactory6::CreateFontResource
-
 description: Creates a font resource, given a font file and a face index.
 tech.root: DirectWrite
-
 ms.date: 09/10/2019
 ms.keywords: IDWriteFactory6 interface [Direct Write],CreateFontResource method, IDWriteFactory6.CreateFontResource, IDWriteFactory6::CreateFontResource, CreateFontResource, CreateFontResource method [Direct Write], CreateFontResource method [Direct Write],IDWriteFactory6 interface, directwrite.idwritefactory6_createfontresource, dwrite_3/IDWriteFactory6::CreateFontResource
 ms.topic: method
-f1_keywords: 
- - "dwrite_3/IDWriteFactory6.CreateFontResource"
+f1_keywords:
+- dwrite_3/IDWriteFactory6.CreateFontResource
 dev_langs:
- - c++
+- c++
 req.construct-type: function
 req.header: dwrite_3.h
 req.include-header: 
@@ -31,15 +29,15 @@ req.lib: Dwrite.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dwrite.lib
- - Dwrite.dll
+- Dwrite.lib
+- Dwrite.dll
 api_name:
- - IDWriteFactory6::CreateFontResource
+- IDWriteFactory6::CreateFontResource
 targetos: Windows
 req.typenames: 
 req.redist: 

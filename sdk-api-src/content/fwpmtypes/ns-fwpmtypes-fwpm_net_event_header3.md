@@ -1,19 +1,17 @@
 ---
 UID: NS:fwpmtypes.FWPM_NET_EVENT_HEADER3_
 title: FWPM_NET_EVENT_HEADER3 (fwpmtypes.h)
-
 description: Contains information common to all events.
 old-location: fwp\fwpm_net_event_header3.htm
 tech.root: fwp
 ms.assetid: 1AAC1649-B9F2-40E6-956B-6179A3E1C112
-
 ms.date: 12/05/2018
 ms.keywords: FWPM_NET_EVENT_FLAG_APP_ID_SET, FWPM_NET_EVENT_FLAG_IP_PROTOCOL_SET, FWPM_NET_EVENT_FLAG_IP_VERSION_SET, FWPM_NET_EVENT_FLAG_LOCAL_ADDR_SET, FWPM_NET_EVENT_FLAG_LOCAL_PORT_SET, FWPM_NET_EVENT_FLAG_PACKAGE_ID_SET, FWPM_NET_EVENT_FLAG_REAUTH_REASON_SET, FWPM_NET_EVENT_FLAG_REMOTE_ADDR_SET, FWPM_NET_EVENT_FLAG_REMOTE_PORT_SET, FWPM_NET_EVENT_FLAG_SCOPE_ID_SET, FWPM_NET_EVENT_FLAG_USER_ID_SET, FWPM_NET_EVENT_HEADER3, FWPM_NET_EVENT_HEADER3 structure [Filtering], fwp.fwpm_net_event_header3, fwpmtypes/FWPM_NET_EVENT_HEADER3
 ms.topic: struct
-f1_keywords: 
- - "fwpmtypes/FWPM_NET_EVENT_HEADER3"
+f1_keywords:
+- fwpmtypes/FWPM_NET_EVENT_HEADER3
 dev_langs:
- - c++
+- c++
 req.header: fwpmtypes.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Fwpmtypes.h
+- Fwpmtypes.h
 api_name:
- - FWPM_NET_EVENT_HEADER3
+- FWPM_NET_EVENT_HEADER3
 targetos: Windows
 req.typenames: FWPM_NET_EVENT_HEADER3
 req.redist: 

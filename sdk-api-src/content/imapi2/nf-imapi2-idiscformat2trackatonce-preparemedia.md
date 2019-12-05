@@ -1,19 +1,17 @@
 ---
 UID: NF:imapi2.IDiscFormat2TrackAtOnce.PrepareMedia
 title: IDiscFormat2TrackAtOnce::PrepareMedia (imapi2.h)
-
 description: Locks the current media for exclusive access.
 old-location: imapi\idiscformat2trackatonce_preparemedia.htm
 tech.root: imapi
 ms.assetid: 29a0a857-c515-4265-b0b6-6e2048f3de18
-
 ms.date: 12/05/2018
 ms.keywords: IDiscFormat2TrackAtOnce interface [IMAPI],PrepareMedia method, IDiscFormat2TrackAtOnce.PrepareMedia, IDiscFormat2TrackAtOnce::PrepareMedia, PrepareMedia, PrepareMedia method [IMAPI], PrepareMedia method [IMAPI],IDiscFormat2TrackAtOnce interface, imapi.idiscformat2trackatonce_preparemedia, imapi2/IDiscFormat2TrackAtOnce::PrepareMedia
 ms.topic: method
-f1_keywords: 
- - "imapi2/IDiscFormat2TrackAtOnce.PrepareMedia"
+f1_keywords:
+- imapi2/IDiscFormat2TrackAtOnce.PrepareMedia
 dev_langs:
- - c++
+- c++
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - imapi2.h
+- imapi2.h
 api_name:
- - IDiscFormat2TrackAtOnce.PrepareMedia
+- IDiscFormat2TrackAtOnce.PrepareMedia
 targetos: Windows
 req.typenames: 
 req.redist: 

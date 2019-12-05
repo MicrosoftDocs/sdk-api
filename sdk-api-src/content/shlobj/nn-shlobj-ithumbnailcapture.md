@@ -1,19 +1,17 @@
 ---
 UID: NN:shlobj.IThumbnailCapture
 title: IThumbnailCapture (shlobj.h)
-
 description: Exposes a method that obtains a thumbnail representation of an HTML wallpaper.
 old-location: shell\IThumbnailCapture.htm
 tech.root: shell
 ms.assetid: fecf1f8f-ea76-4a3d-a6cf-faa3e400f5e4
-
 ms.date: 12/05/2018
 ms.keywords: IThumbnailCapture, IThumbnailCapture interface [Windows Shell], IThumbnailCapture interface [Windows Shell],described, _shell_IThumbnailCapture, shell.IThumbnailCapture, shlobj/IThumbnailCapture
 ms.topic: interface
-f1_keywords: 
- - "shlobj/IThumbnailCapture"
+f1_keywords:
+- shlobj/IThumbnailCapture
 dev_langs:
- - c++
+- c++
 req.header: shlobj.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Shell32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - IThumbnailCapture
+- IThumbnailCapture
 targetos: Windows
 req.typenames: 
 req.redist: 

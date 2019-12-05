@@ -1,19 +1,17 @@
 ---
 UID: NS:wsman._WSMAN_PROXY_INFO
 title: WSMAN_PROXY_INFO (wsman.h)
-
 description: Specifies proxy information.
 old-location: winrm\wsman_proxy_info.htm
 tech.root: winrm
 ms.assetid: 0542fa39-c574-4a5e-b8eb-6ddf8a58600a
-
 ms.date: 12/05/2018
 ms.keywords: WSMAN_PROXY_INFO, WSMAN_PROXY_INFO structure [Windows Remote Management], winrm.wsman_proxy_info, wsman/WSMAN_PROXY_INFO
 ms.topic: struct
 f1_keywords:
 - wsman/WSMAN_PROXY_INFO
 dev_langs:
- - c++
+- c++
 req.header: wsman.h
 req.include-header: 
 req.target-type: Windows

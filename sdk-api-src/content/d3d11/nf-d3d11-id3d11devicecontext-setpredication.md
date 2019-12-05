@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d11.ID3D11DeviceContext.SetPredication
 title: ID3D11DeviceContext::SetPredication (d3d11.h)
-
 description: Set a rendering predicate.
 old-location: direct3d11\id3d11devicecontext_setpredication.htm
 tech.root: direct3d11
 ms.assetid: ceac248a-31c9-4e14-892f-f047e288daae
-
 ms.date: 12/05/2018
 ms.keywords: 98e79ffd-cbd6-1ca3-db07-4eea5d48cf38, ID3D11DeviceContext interface [Direct3D 11],SetPredication method, ID3D11DeviceContext.SetPredication, ID3D11DeviceContext::SetPredication, SetPredication, SetPredication method [Direct3D 11], SetPredication method [Direct3D 11],ID3D11DeviceContext interface, d3d11/ID3D11DeviceContext::SetPredication, direct3d11.id3d11devicecontext_setpredication
 ms.topic: method
-f1_keywords: 
- - "d3d11/ID3D11DeviceContext.SetPredication"
+f1_keywords:
+- d3d11/ID3D11DeviceContext.SetPredication
 dev_langs:
- - c++
+- c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: D3D11.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D11.lib
- - D3D11.dll
+- D3D11.lib
+- D3D11.dll
 api_name:
- - ID3D11DeviceContext.SetPredication
+- ID3D11DeviceContext.SetPredication
 targetos: Windows
 req.typenames: 
 req.redist: 

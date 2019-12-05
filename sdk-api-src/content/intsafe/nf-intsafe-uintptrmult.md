@@ -1,19 +1,17 @@
 ---
 UID: NF:intsafe.UIntPtrMult
 title: UIntPtrMult function (intsafe.h)
-
 description: Multiplies one value of type UINT_PTR by another.
 old-location: shell\UIntPtrMult.htm
 tech.root: shell
 ms.assetid: c34708d1-50e8-47dd-ac79-cfef24ce6060
-
 ms.date: 12/05/2018
 ms.keywords: UIntPtrMult, UIntPtrMult function [Windows Shell], _shell_UIntPtrMult, intsafe/UIntPtrMult, shell.UIntPtrMult
 ms.topic: function
-f1_keywords: 
- - "intsafe/UIntPtrMult"
+f1_keywords:
+- intsafe/UIntPtrMult
 dev_langs:
- - c++
+- c++
 req.header: intsafe.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Intsafe.h
+- Intsafe.h
 api_name:
- - UIntPtrMult
+- UIntPtrMult
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NS:usp10.tag_SCRIPT_LOGATTR
 title: SCRIPT_LOGATTR (usp10.h)
-
 description: Contains attributes of logical characters that are useful when editing and formatting text.
 old-location: intl\script_logattr.htm
 tech.root: Intl
 ms.assetid: 24131b04-870a-4841-b9cd-7a09497bd2e6
-
 ms.date: 12/05/2018
 ms.keywords: FALSE, SCRIPT_LOGATTR, SCRIPT_LOGATTR structure [Internationalization for Windows Applications], TRUE, _win32_SCRIPT_LOGATTR_str, intl.script_logattr, usp10/SCRIPT_LOGATTR
 ms.topic: struct
-f1_keywords: 
- - "usp10/SCRIPT_LOGATTR"
+f1_keywords:
+- usp10/SCRIPT_LOGATTR
 dev_langs:
- - c++
+- c++
 req.header: usp10.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Usp10.h
+- Usp10.h
 api_name:
- - SCRIPT_LOGATTR
+- SCRIPT_LOGATTR
 targetos: Windows
 req.typenames: SCRIPT_LOGATTR
 req.redist: Internet Explorer 5 or later onWindows Me/98/95

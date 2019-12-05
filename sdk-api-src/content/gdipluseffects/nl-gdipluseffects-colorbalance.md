@@ -1,19 +1,17 @@
 ---
 UID: NL:gdipluseffects.ColorBalance
 title: ColorBalance (gdipluseffects.h)
-
 description: The ColorBalance class enables you to change the color balance (relative amounts of red, green, and blue) of a bitmap.
 old-location: gdiplus\_gdiplus_CLASS_ColorBalance_Class.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\colorbalance.htm
-
 ms.date: 12/05/2018
 ms.keywords: ColorBalance, ColorBalance class [GDI+], ColorBalance class [GDI+],described, _gdiplus_CLASS_ColorBalance_Class, gdiplus._gdiplus_CLASS_ColorBalance_Class, gdipluseffects/ColorBalance
 ms.topic: class
-f1_keywords: 
- - "gdipluseffects/ColorBalance"
+f1_keywords:
+- gdipluseffects/ColorBalance
 dev_langs:
- - c++
+- c++
 req.header: gdipluseffects.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - gdipluseffects.h
+- gdipluseffects.h
 api_name:
- - ColorBalance
+- ColorBalance
 targetos: Windows
 req.typenames: 
 req.redist: 

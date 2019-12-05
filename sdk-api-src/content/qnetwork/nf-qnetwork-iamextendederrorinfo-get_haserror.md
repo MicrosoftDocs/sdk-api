@@ -1,19 +1,17 @@
 ---
 UID: NF:qnetwork.IAMExtendedErrorInfo.get_HasError
 title: IAMExtendedErrorInfo::get_HasError (qnetwork.h)
-
 description: The get_HasError method queries whether an error occurred.
 old-location: dshow\iamextendederrorinfo_get_haserror.htm
 tech.root: DirectShow
 ms.assetid: 8aad2849-5a99-484a-8830-e014672e62fb
-
 ms.date: 12/05/2018
 ms.keywords: IAMExtendedErrorInfo interface [DirectShow],get_HasError method, IAMExtendedErrorInfo.get_HasError, IAMExtendedErrorInfo::get_HasError, IAMExtendedErrorInfoget_HasError, dshow.iamextendederrorinfo_get_haserror, get_HasError, get_HasError method [DirectShow], get_HasError method [DirectShow],IAMExtendedErrorInfo interface, qnetwork/IAMExtendedErrorInfo::get_HasError
 ms.topic: method
-f1_keywords: 
- - "qnetwork/IAMExtendedErrorInfo.get_HasError"
+f1_keywords:
+- qnetwork/IAMExtendedErrorInfo.get_HasError
 dev_langs:
- - c++
+- c++
 req.header: qnetwork.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Qnetwork.h
+- Qnetwork.h
 api_name:
- - IAMExtendedErrorInfo.get_HasError
+- IAMExtendedErrorInfo.get_HasError
 targetos: Windows
 req.typenames: 
 req.redist: 

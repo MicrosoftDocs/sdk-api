@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d10effect.ID3D10EffectMatrixVariable.GetMatrixTranspose
 title: ID3D10EffectMatrixVariable::GetMatrixTranspose (d3d10effect.h)
-
 description: Transpose and get a floating-point matrix.
 old-location: direct3d10\id3d10effectmatrixvariable_getmatrixtranspose.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10effectmatrixvariable_getmatrixtranspose.htm
-
 ms.date: 12/05/2018
 ms.keywords: 417baa18-036a-1c79-9d4f-9e61637c5308, GetMatrixTranspose, GetMatrixTranspose method [Direct3D 10], GetMatrixTranspose method [Direct3D 10],ID3D10EffectMatrixVariable interface, ID3D10EffectMatrixVariable interface [Direct3D 10],GetMatrixTranspose method, ID3D10EffectMatrixVariable.GetMatrixTranspose, ID3D10EffectMatrixVariable::GetMatrixTranspose, d3d10effect/ID3D10EffectMatrixVariable::GetMatrixTranspose, direct3d10.id3d10effectmatrixvariable_getmatrixtranspose
 ms.topic: method
-f1_keywords: 
- - "d3d10effect/ID3D10EffectMatrixVariable.GetMatrixTranspose"
+f1_keywords:
+- d3d10effect/ID3D10EffectMatrixVariable.GetMatrixTranspose
 dev_langs:
- - c++
+- c++
 req.header: d3d10effect.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D10Effect.h
+- D3D10Effect.h
 api_name:
- - ID3D10EffectMatrixVariable.GetMatrixTranspose
+- ID3D10EffectMatrixVariable.GetMatrixTranspose
 targetos: Windows
 req.typenames: 
 req.redist: 

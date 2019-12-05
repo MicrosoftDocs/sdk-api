@@ -1,19 +1,17 @@
 ---
 UID: NF:fsrmreports.IFsrmReport.GetFilter
 title: IFsrmReport::GetFilter (fsrmreports.h)
-
 description: Retrieves the value of the specified report filter.
 old-location: fsrm\ifsrmreport_getfilter.htm
 tech.root: fsrm
 ms.assetid: 991b0009-7ed9-4d75-af03-1b76aa8be70c
-
 ms.date: 12/05/2018
 ms.keywords: GetFilter, GetFilter method [File Server Resource Manager], GetFilter method [File Server Resource Manager],IFsrmReport interface, IFsrmReport interface [File Server Resource Manager],GetFilter method, IFsrmReport.GetFilter, IFsrmReport::GetFilter, fs.ifsrmreport_getfilter, fsrm.ifsrmreport_getfilter, fsrmreports/IFsrmReport::GetFilter
 ms.topic: method
 f1_keywords:
 - fsrmreports/IFsrmReport.GetFilter
 dev_langs:
- - c++
+- c++
 req.header: fsrmreports.h
 req.include-header: 
 req.target-type: Windows

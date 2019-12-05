@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi3if.ITAutomatedPhoneControl.put_PhoneHandlingEnabled
 title: ITAutomatedPhoneControl::put_PhoneHandlingEnabled (tapi3if.h)
-
 description: The put_PhoneHandlingEnabled method sets the PhoneHandlingEnabled property.
 old-location: tapi3\itautomatedphonecontrol_put_phonehandlingenabled.htm
 tech.root: Tapi
 ms.assetid: 6759b811-2fc1-4827-a03e-d19335520829
-
 ms.date: 12/05/2018
 ms.keywords: ITAutomatedPhoneControl interface [TAPI 2.2],put_PhoneHandlingEnabled method, ITAutomatedPhoneControl.put_PhoneHandlingEnabled, ITAutomatedPhoneControl::put_PhoneHandlingEnabled, _tapi3_itautomatedphonecontrol_put_phonehandlingenabled, put_PhoneHandlingEnabled, put_PhoneHandlingEnabled method [TAPI 2.2], put_PhoneHandlingEnabled method [TAPI 2.2],ITAutomatedPhoneControl interface, tapi3.itautomatedphonecontrol_put_phonehandlingenabled, tapi3if/ITAutomatedPhoneControl::put_PhoneHandlingEnabled
 ms.topic: method
-f1_keywords: 
- - "tapi3if/ITAutomatedPhoneControl.put_PhoneHandlingEnabled"
+f1_keywords:
+- tapi3if/ITAutomatedPhoneControl.put_PhoneHandlingEnabled
 dev_langs:
- - c++
+- c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Tapi3.dll
+- Tapi3.dll
 api_name:
- - ITAutomatedPhoneControl.put_PhoneHandlingEnabled
+- ITAutomatedPhoneControl.put_PhoneHandlingEnabled
 targetos: Windows
 req.typenames: 
 req.redist: 

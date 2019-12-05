@@ -1,19 +1,17 @@
 ---
 UID: NN:mfidl.IMFWorkQueueServicesEx
 title: IMFWorkQueueServicesEx (mfidl.h)
-
 description: Extends the IMFWorkQueueServices interface.
 old-location: mf\imfworkqueueservicesex.htm
 tech.root: medfound
 ms.assetid: 12d4f0f4-9a6d-4782-b5ae-4add6608782a
-
 ms.date: 12/05/2018
 ms.keywords: IMFWorkQueueServicesEx, IMFWorkQueueServicesEx interface [Media Foundation], IMFWorkQueueServicesEx interface [Media Foundation],described, mf.imfworkqueueservicesex, mfidl/IMFWorkQueueServicesEx
 ms.topic: interface
-f1_keywords: 
- - "mfidl/IMFWorkQueueServicesEx"
+f1_keywords:
+- mfidl/IMFWorkQueueServicesEx
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfidl.h
+- mfidl.h
 api_name:
- - IMFWorkQueueServicesEx
+- IMFWorkQueueServicesEx
 targetos: Windows
 req.typenames: 
 req.redist: 

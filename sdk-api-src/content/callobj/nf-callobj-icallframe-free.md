@@ -1,19 +1,17 @@
 ---
 UID: NF:callobj.ICallFrame.Free
 title: ICallFrame::Free (callobj.h)
-
 description: Frees the frame copy to avoid a memory leak.
 old-location: com\icallframe_free.htm
 tech.root: com
 ms.assetid: 97261d93-40cf-4a27-9bee-677600c04699
-
 ms.date: 12/05/2018
 ms.keywords: Free, Free method [COM], Free method [COM],ICallFrame interface, ICallFrame interface [COM],Free method, ICallFrame.Free, ICallFrame::Free, _com_icallframe_free, callobj/ICallFrame::Free, com.icallframe_free
 ms.topic: method
-f1_keywords: 
- - "callobj/ICallFrame.Free"
+f1_keywords:
+- callobj/ICallFrame.Free
 dev_langs:
- - c++
+- c++
 req.header: callobj.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Callobj.h
+- Callobj.h
 api_name:
- - ICallFrame.Free
+- ICallFrame.Free
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IMediaPropertyBag.EnumProperty
 title: IMediaPropertyBag::EnumProperty (strmif.h)
-
 description: The EnumProperty method retrieves a property/value pair.
 old-location: dshow\imediapropertybag_enumproperty.htm
 tech.root: DirectShow
 ms.assetid: 88cd9016-ef6f-467a-9e84-10b2ac578211
-
 ms.date: 12/05/2018
 ms.keywords: EnumProperty, EnumProperty method [DirectShow], EnumProperty method [DirectShow],IMediaPropertyBag interface, IMediaPropertyBag interface [DirectShow],EnumProperty method, IMediaPropertyBag.EnumProperty, IMediaPropertyBag::EnumProperty, IMediaPropertyBagEnumProperty, dshow.imediapropertybag_enumproperty, strmif/IMediaPropertyBag::EnumProperty
 ms.topic: method
-f1_keywords: 
- - "strmif/IMediaPropertyBag.EnumProperty"
+f1_keywords:
+- strmif/IMediaPropertyBag.EnumProperty
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IMediaPropertyBag.EnumProperty
+- IMediaPropertyBag.EnumProperty
 targetos: Windows
 req.typenames: 
 req.redist: 

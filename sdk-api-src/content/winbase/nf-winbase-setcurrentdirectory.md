@@ -1,19 +1,17 @@
 ---
 UID: NF:winbase.SetCurrentDirectory
 title: SetCurrentDirectory function (winbase.h)
-
 description: Changes the current directory for the current process.
 old-location: fs\setcurrentdirectory.htm
 tech.root: FileIO
 ms.assetid: 02dd0a2b-8072-4ce5-99b4-ffa6dcbd46cd
-
 ms.date: 12/05/2018
 ms.keywords: SetCurrentDirectory, SetCurrentDirectory function [Files], SetCurrentDirectoryA, SetCurrentDirectoryW, _win32_setcurrentdirectory, base.setcurrentdirectory, fs.setcurrentdirectory, winbase/SetCurrentDirectory, winbase/SetCurrentDirectoryA, winbase/SetCurrentDirectoryW
 ms.topic: function
-f1_keywords: 
- - "winbase/SetCurrentDirectory"
+f1_keywords:
+- winbase/SetCurrentDirectory
 dev_langs:
- - c++
+- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,21 +30,21 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-ProcessEnvironment-l1-1-0.dll
- - KernelBase.dll
- - API-MS-Win-Core-ProcessEnvironment-l1-2-0.dll
- - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
- - MinKernelBase.dll
+- Kernel32.dll
+- API-MS-Win-Core-ProcessEnvironment-l1-1-0.dll
+- KernelBase.dll
+- API-MS-Win-Core-ProcessEnvironment-l1-2-0.dll
+- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+- MinKernelBase.dll
 api_name:
- - SetCurrentDirectory
- - SetCurrentDirectoryA
- - SetCurrentDirectoryW
+- SetCurrentDirectory
+- SetCurrentDirectoryA
+- SetCurrentDirectoryW
 targetos: Windows
 req.typenames: 
 req.redist: 

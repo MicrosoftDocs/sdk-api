@@ -1,19 +1,17 @@
 ---
 UID: NN:ctffunc.ITfLMLattice
 title: ITfLMLattice (ctffunc.h)
-
 description: The ITfLMLattice interface is implemented by the speech text service to provide information about lattice element properties and is used by a client (application or other text service).
 old-location: tsf\itflmlattice.htm
 tech.root: TSF
 ms.assetid: 25ad6ef2-1d42-498a-852f-163a0efbc26a
-
 ms.date: 12/05/2018
 ms.keywords: ITfLMLattice, ITfLMLattice interface [Text Services Framework], ITfLMLattice interface [Text Services Framework],described, _tsf_itflmlattice_ref, ctffunc/ITfLMLattice, tsf.itflmlattice
 ms.topic: interface
-f1_keywords: 
- - "ctffunc/ITfLMLattice"
+f1_keywords:
+- ctffunc/ITfLMLattice
 dev_langs:
- - c++
+- c++
 req.header: ctffunc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msctf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msctf.dll
+- Msctf.dll
 api_name:
- - ITfLMLattice
+- ITfLMLattice
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

@@ -1,19 +1,17 @@
 ---
 UID: NF:segment.IMSVidStreamBufferV2SourceEvent.TimeHole
 title: IMSVidStreamBufferV2SourceEvent::TimeHole (segment.h)
-
 description: Fired when the SBE2 source filter receives a STREAMBUFFER_EC_TIMEHOLE event, which indicates playback has reached a gap in recorded content.
 old-location: mstv\imsvidstreambufferv2sourceevent_timehole.htm
 tech.root: mstv
 ms.assetid: 2eceda3b-b3d6-4714-85c5-ec8bb0986b6f
-
 ms.date: 12/05/2018
 ms.keywords: IMSVidStreamBufferV2SourceEvent interface [Microsoft TV Technologies],TimeHole method, IMSVidStreamBufferV2SourceEvent.TimeHole, IMSVidStreamBufferV2SourceEvent::TimeHole, TimeHole, TimeHole method [Microsoft TV Technologies], TimeHole method [Microsoft TV Technologies],IMSVidStreamBufferV2SourceEvent interface, mstv.imsvidstreambufferv2sourceevent_timehole, segment/IMSVidStreamBufferV2SourceEvent::TimeHole
 ms.topic: method
-f1_keywords: 
- - "segment/IMSVidStreamBufferV2SourceEvent.TimeHole"
+f1_keywords:
+- segment/IMSVidStreamBufferV2SourceEvent.TimeHole
 dev_langs:
- - c++
+- c++
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - segment.h
+- segment.h
 api_name:
- - IMSVidStreamBufferV2SourceEvent.TimeHole
+- IMSVidStreamBufferV2SourceEvent.TimeHole
 targetos: Windows
 req.typenames: 
 req.redist: 

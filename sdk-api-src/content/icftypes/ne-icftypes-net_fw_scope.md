@@ -1,19 +1,17 @@
 ---
 UID: NE:icftypes.NET_FW_SCOPE_
 title: NET_FW_SCOPE (icftypes.h)
-
 description: Specifies the scope of addresses from which a port can listen.
 old-location: ics\net_fw_scope.htm
 tech.root: ics
 ms.assetid: 71f52d88-efd3-4037-86bc-7ec1cfa9642f
-
 ms.date: 12/05/2018
 ms.keywords: NET_FW_SCOPE, NET_FW_SCOPE enumeration [ICS/ICF], NET_FW_SCOPE_ALL, NET_FW_SCOPE_CUSTOM, NET_FW_SCOPE_LOCAL_SUBNET, NET_FW_SCOPE_MAX, icftypes/NET_FW_SCOPE, icftypes/NET_FW_SCOPE_ALL, icftypes/NET_FW_SCOPE_CUSTOM, icftypes/NET_FW_SCOPE_LOCAL_SUBNET, icftypes/NET_FW_SCOPE_MAX, ics.net_fw_scope
 ms.topic: enum
-f1_keywords: 
- - "icftypes/NET_FW_SCOPE"
+f1_keywords:
+- icftypes/NET_FW_SCOPE
 dev_langs:
- - c++
+- c++
 req.header: icftypes.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Icftypes.h
+- Icftypes.h
 api_name:
- - NET_FW_SCOPE
+- NET_FW_SCOPE
 targetos: Windows
 req.typenames: NET_FW_SCOPE
 req.redist: 

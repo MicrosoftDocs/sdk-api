@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IDvdInfo2.GetDVDTextStringAsNative
 title: IDvdInfo2::GetDVDTextStringAsNative (strmif.h)
-
 description: The GetDVDTextStringAsNative method retrieves a DVD text string for a specified language, and returns the text string as an array of bytes.
 old-location: dshow\idvdinfo2_getdvdtextstringasnative.htm
 tech.root: DirectShow
 ms.assetid: a162b4ad-28f2-49fc-9b32-72538be9ddd5
-
 ms.date: 12/05/2018
 ms.keywords: GetDVDTextStringAsNative, GetDVDTextStringAsNative method [DirectShow], GetDVDTextStringAsNative method [DirectShow],IDvdInfo2 interface, IDvdInfo2 interface [DirectShow],GetDVDTextStringAsNative method, IDvdInfo2.GetDVDTextStringAsNative, IDvdInfo2::GetDVDTextStringAsNative, IDvdInfo2GetDVDTextStringAsNative, dshow.idvdinfo2_getdvdtextstringasnative, strmif/IDvdInfo2::GetDVDTextStringAsNative
 ms.topic: method
-f1_keywords: 
- - "strmif/IDvdInfo2.GetDVDTextStringAsNative"
+f1_keywords:
+- strmif/IDvdInfo2.GetDVDTextStringAsNative
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IDvdInfo2.GetDVDTextStringAsNative
+- IDvdInfo2.GetDVDTextStringAsNative
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,17 +1,15 @@
 ---
 UID: NS:d3d12.D3D12_DEVICE_REMOVED_EXTENDED_DATA1
 title: D3D12_DEVICE_REMOVED_EXTENDED_DATA1
-
 description: Represents Device Removed Extended Data (DRED) version 1.1 data.
 tech.root: direct3d12
-
 ms.date: 02/06/2019
 ms.keywords: D3D12_DEVICE_REMOVED_EXTENDED_DATA1, D3D12_DEVICE_REMOVED_EXTENDED_DATA1 structure, d3d12/D3D12_DEVICE_REMOVED_EXTENDED_DATA1, direct3d12.d3d12_device_removed_extended_data1
 ms.topic: struct
-f1_keywords: 
- - "d3d12/D3D12_DEVICE_REMOVED_EXTENDED_DATA1"
+f1_keywords:
+- d3d12/D3D12_DEVICE_REMOVED_EXTENDED_DATA1
 dev_langs:
- - c++
+- c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +28,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - d3d12.h
+- d3d12.h
 api_name:
- - D3D12_DEVICE_REMOVED_EXTENDED_DATA1
+- D3D12_DEVICE_REMOVED_EXTENDED_DATA1
 targetos: Windows
 req.typenames: D3D12_DEVICE_REMOVED_EXTENDED_DATA1
 req.redist: 

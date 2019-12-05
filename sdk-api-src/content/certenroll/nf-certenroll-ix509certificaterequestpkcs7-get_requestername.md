@@ -1,19 +1,17 @@
 ---
 UID: NF:certenroll.IX509CertificateRequestPkcs7.get_RequesterName
 title: IX509CertificateRequestPkcs7::get_RequesterName (certenroll.h)
-
 description: Specifies or retrieves a string that contains the Security Account Manager (SAM) name of the end-entity requesting the certificate.
 old-location: security\ix509certificaterequestpkcs7_requestername_property.htm
 tech.root: seccertenroll
 ms.assetid: af85e976-cc79-4285-b553-a8001e84ec68
-
 ms.date: 12/05/2018
 ms.keywords: IX509CertificateRequestPkcs7 interface [Security],RequesterName property, IX509CertificateRequestPkcs7.RequesterName, IX509CertificateRequestPkcs7.get_RequesterName, IX509CertificateRequestPkcs7::RequesterName, IX509CertificateRequestPkcs7::get_RequesterName, IX509CertificateRequestPkcs7::put_RequesterName, RequesterName property [Security], RequesterName property [Security],IX509CertificateRequestPkcs7 interface, certenroll/IX509CertificateRequestPkcs7::RequesterName, certenroll/IX509CertificateRequestPkcs7::get_RequesterName, certenroll/IX509CertificateRequestPkcs7::put_RequesterName, get_RequesterName, security.ix509certificaterequestpkcs7_requestername_property
 ms.topic: method
-f1_keywords: 
- - "certenroll/IX509CertificateRequestPkcs7.RequesterName"
+f1_keywords:
+- certenroll/IX509CertificateRequestPkcs7.RequesterName
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: CertEnroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CertEnroll.dll
+- CertEnroll.dll
 api_name:
- - IX509CertificateRequestPkcs7.RequesterName
- - IX509CertificateRequestPkcs7.get_RequesterName
- - IX509CertificateRequestPkcs7.put_RequesterName
+- IX509CertificateRequestPkcs7.RequesterName
+- IX509CertificateRequestPkcs7.get_RequesterName
+- IX509CertificateRequestPkcs7.put_RequesterName
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:mfidl.IMFTopoLoader.Load
 title: IMFTopoLoader::Load (mfidl.h)
-
 description: Creates a fully loaded topology from the input partial topology.
 old-location: mf\imftopoloader_load.htm
 tech.root: medfound
 ms.assetid: 02ce47db-54a1-456a-a763-c62039aea2c9
-
 ms.date: 12/05/2018
 ms.keywords: 02ce47db-54a1-456a-a763-c62039aea2c9, IMFTopoLoader interface [Media Foundation],Load method, IMFTopoLoader.Load, IMFTopoLoader::Load, Load, Load method [Media Foundation], Load method [Media Foundation],IMFTopoLoader interface, mf.imftopoloader_load, mfidl/IMFTopoLoader::Load
 ms.topic: method
-f1_keywords: 
- - "mfidl/IMFTopoLoader.Load"
+f1_keywords:
+- mfidl/IMFTopoLoader.Load
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFTopoLoader.Load
+- IMFTopoLoader.Load
 targetos: Windows
 req.typenames: 
 req.redist: 

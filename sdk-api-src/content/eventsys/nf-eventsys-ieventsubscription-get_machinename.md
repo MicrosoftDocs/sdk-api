@@ -1,19 +1,17 @@
 ---
 UID: NF:eventsys.IEventSubscription.get_MachineName
 title: IEventSubscription::get_MachineName (eventsys.h)
-
 description: The name of the computer on which the subscriber should be activated (for a persistent subscription).
 old-location: cos\ieventsubscription_machinename.htm
 tech.root: cossdk
 ms.assetid: b56027ac-abe6-4d13-ad3a-254a2f92ab6d
-
 ms.date: 12/05/2018
 ms.keywords: IEventSubscription interface [COM+],MachineName property, IEventSubscription.MachineName, IEventSubscription.get_MachineName, IEventSubscription::MachineName, IEventSubscription::get_MachineName, IEventSubscription::put_MachineName, MachineName property [COM+], MachineName property [COM+],IEventSubscription interface, cos.ieventsubscription_machinename, eventsys/IEventSubscription::MachineName, eventsys/IEventSubscription::get_MachineName, eventsys/IEventSubscription::put_MachineName, get_MachineName
 ms.topic: method
-f1_keywords: 
- - "eventsys/IEventSubscription.MachineName"
+f1_keywords:
+- eventsys/IEventSubscription.MachineName
 dev_langs:
- - c++
+- c++
 req.header: eventsys.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - EventSys.h
+- EventSys.h
 api_name:
- - IEventSubscription.MachineName
- - IEventSubscription.get_MachineName
- - IEventSubscription.put_MachineName
+- IEventSubscription.MachineName
+- IEventSubscription.get_MachineName
+- IEventSubscription.put_MachineName
 targetos: Windows
 req.typenames: 
 req.redist: 

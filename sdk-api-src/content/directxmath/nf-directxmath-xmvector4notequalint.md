@@ -1,19 +1,17 @@
 ---
 UID: NF:directxmath.XMVector4NotEqualInt
 title: XMVector4NotEqualInt function (directxmath.h)
-
 description: Test whether two 4D vectors are not equal, treating each component as an unsigned integer.
 old-location: dxmath\xmvector4notequalint.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.comparison.XMVector4NotEqualInt(XMVECTOR,XMVECTOR)
-
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMVector4NotEqualInt, XMVector4NotEqualInt, XMVector4NotEqualInt method [DirectX Math Support APIs], dxmath.xmvector4notequalint
 ms.topic: function
-f1_keywords: 
- - "directxmath/XMVector4NotEqualInt"
+f1_keywords:
+- directxmath/XMVector4NotEqualInt
 dev_langs:
- - c++
+- c++
 req.header: directxmath.h
 req.include-header: DirectXMath.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - directxmathvector.inl
+- directxmathvector.inl
 api_name:
- - XMVector4NotEqualInt
+- XMVector4NotEqualInt
 targetos: Windows
 req.typenames: 
 req.redist: 

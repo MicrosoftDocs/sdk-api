@@ -1,19 +1,17 @@
 ---
 UID: NE:codecapi.eAVEncVideoColorTransferMatrix
 title: eAVEncVideoColorTransferMatrix (codecapi.h)
-
 description: Specifies the conversion matrix from the Y'Cb'Cr' color space to the R'G'B' color space. This enumeration is used with the AVEncVideoInputColorTransferMatrix and AVEncVideoOutputColorTransferMatrix properties.
 old-location: dshow\eavencvideocolortransfermatrix.htm
 tech.root: DirectShow
 ms.assetid: 6912cc24-9c67-4c52-9cb7-3decbb4ba8ac
-
 ms.date: 12/05/2018
 ms.keywords: codecapi/eAVEncVideoColorTransferMatrix, codecapi/eAVEncVideoColorTransferMatrix_BT601, codecapi/eAVEncVideoColorTransferMatrix_BT709, codecapi/eAVEncVideoColorTransferMatrix_SMPTE240M, codecapi/eAVEncVideoColorTransferMatrix_SameAsSource, dshow.eavencvideocolortransfermatrix, eAVEncVideoColorTransferMatrix, eAVEncVideoColorTransferMatrix enumeration [DirectShow], eAVEncVideoColorTransferMatrixEnumeration, eAVEncVideoColorTransferMatrix_BT601, eAVEncVideoColorTransferMatrix_BT709, eAVEncVideoColorTransferMatrix_SMPTE240M, eAVEncVideoColorTransferMatrix_SameAsSource
 ms.topic: enum
-f1_keywords: 
- - "codecapi/eAVEncVideoColorTransferMatrix"
+f1_keywords:
+- codecapi/eAVEncVideoColorTransferMatrix
 dev_langs:
- - c++
+- c++
 req.header: codecapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - codecapi.h
+- codecapi.h
 api_name:
- - eAVEncVideoColorTransferMatrix
+- eAVEncVideoColorTransferMatrix
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:wmp.IWMPEvents3.CdromBurnStateChange
 title: IWMPEvents3::CdromBurnStateChange (wmp.h)
-
 description: The CdromBurnStateChange event occurs when a CD burning operation changes state.
 old-location: wmp\iwmpevents3_iwmpevents3__cdromburnstatechange.htm
 tech.root: WMP
 ms.assetid: 8328f1bf-c928-4504-859f-f1b62e77e9e0
-
 ms.date: 12/05/2018
 ms.keywords: CdromBurnStateChange, CdromBurnStateChange method [Windows Media Player], CdromBurnStateChange method [Windows Media Player],IWMPEvents3 interface, IWMPEvents3 interface [Windows Media Player],CdromBurnStateChange method, IWMPEvents3.CdromBurnStateChange, IWMPEvents3::CdromBurnStateChange, IWMPEvents3CdromBurnStateChange, wmp.iwmpevents3_iwmpevents3__cdromburnstatechange, wmp/IWMPEvents3::CdromBurnStateChange
 ms.topic: method
-f1_keywords: 
- - "wmp/IWMPEvents3.CdromBurnStateChange"
+f1_keywords:
+- wmp/IWMPEvents3.CdromBurnStateChange
 dev_langs:
- - c++
+- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wmp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmp.dll
+- wmp.dll
 api_name:
- - IWMPEvents3.CdromBurnStateChange
+- IWMPEvents3.CdromBurnStateChange
 targetos: Windows
 req.typenames: 
 req.redist: 

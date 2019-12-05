@@ -1,19 +1,17 @@
 ---
 UID: NF:processsnapshot.PssWalkMarkerFree
 title: PssWalkMarkerFree function (processsnapshot.h)
-
 description: Frees a walk marker created by PssWalkMarkerCreate.
 old-location: proc_snap\psswalkmarkerfree.htm
 tech.root: proc_snap
 ms.assetid: 74158846-6A5F-4F81-B4D7-46DED1EE017C
-
 ms.date: 12/05/2018
 ms.keywords: PssWalkMarkerFree, PssWalkMarkerFree function, proc_snap.psswalkmarkerfree, processsnapshot/PssWalkMarkerFree
 ms.topic: function
-f1_keywords: 
- - "processsnapshot/PssWalkMarkerFree"
+f1_keywords:
+- processsnapshot/PssWalkMarkerFree
 dev_langs:
- - c++
+- c++
 req.header: processsnapshot.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - kernel32.dll
- - API-MS-Win-Core-Processsnapshot-l1-1-0.dll
- - KernelBase.dll
+- kernel32.dll
+- API-MS-Win-Core-Processsnapshot-l1-1-0.dll
+- KernelBase.dll
 api_name:
- - PssWalkMarkerFree
+- PssWalkMarkerFree
 targetos: Windows
 req.typenames: 
 req.redist: 

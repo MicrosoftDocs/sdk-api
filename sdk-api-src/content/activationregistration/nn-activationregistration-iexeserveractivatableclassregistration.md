@@ -1,19 +1,17 @@
 ---
 UID: NN:activationregistration.IExeServerActivatableClassRegistration
 title: IExeServerActivatableClassRegistration (activationregistration.h)
-
 description: Enables getting the registration info for an out-of-process server.
 old-location: winrt\iexeserveractivatableclassregistration.htm
 tech.root: WinRT
 ms.assetid: 1D8F7B12-2883-478D-B83D-84AC47D512E4
-
 ms.date: 12/05/2018
 ms.keywords: IExeServerActivatableClassRegistration, IExeServerActivatableClassRegistration interface [Windows Runtime], IExeServerActivatableClassRegistration interface [Windows Runtime],described, activationregistration/IExeServerActivatableClassRegistration, winrt.iexeserveractivatableclassregistration
 ms.topic: interface
-f1_keywords: 
- - "activationregistration/IExeServerActivatableClassRegistration"
+f1_keywords:
+- activationregistration/IExeServerActivatableClassRegistration
 dev_langs:
- - c++
+- c++
 req.header: activationregistration.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - activationregistration.h
+- activationregistration.h
 api_name:
- - IExeServerActivatableClassRegistration
+- IExeServerActivatableClassRegistration
 targetos: Windows
 req.typenames: 
 req.redist: 

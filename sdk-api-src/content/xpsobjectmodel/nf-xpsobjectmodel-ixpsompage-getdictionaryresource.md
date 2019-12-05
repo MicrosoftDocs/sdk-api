@@ -1,19 +1,17 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMPage.GetDictionaryResource
 title: IXpsOMPage::GetDictionaryResource (xpsobjectmodel.h)
-
 description: Gets a pointer to the IXpsOMRemoteDictionaryResource interface of the shared dictionary resource that is used by this page.
 old-location: xps\ixpsompage_getdictionaryresource.htm
 tech.root: printdocs
 ms.assetid: 12313d19-e6f1-4ec3-9702-2a403087763a
-
 ms.date: 12/05/2018
 ms.keywords: GetDictionaryResource, GetDictionaryResource method [XPS Documents and Packaging], GetDictionaryResource method [XPS Documents and Packaging],IXpsOMPage interface, IXpsOMPage interface [XPS Documents and Packaging],GetDictionaryResource method, IXpsOMPage.GetDictionaryResource, IXpsOMPage::GetDictionaryResource, xps.ixpsompage_getdictionaryresource, xpsobjectmodel/IXpsOMPage::GetDictionaryResource
 ms.topic: method
-f1_keywords: 
- - "xpsobjectmodel/IXpsOMPage.GetDictionaryResource"
+f1_keywords:
+- xpsobjectmodel/IXpsOMPage.GetDictionaryResource
 dev_langs:
- - c++
+- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsobjectmodel.h
+- xpsobjectmodel.h
 api_name:
- - IXpsOMPage.GetDictionaryResource
+- IXpsOMPage.GetDictionaryResource
 targetos: Windows
 req.typenames: 
 req.redist: 

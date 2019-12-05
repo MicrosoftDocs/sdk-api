@@ -1,19 +1,17 @@
 ---
 UID: NC:projectedfslib.PRJ_GET_PLACEHOLDER_INFO_CB
 title: PRJ_GET_PLACEHOLDER_INFO_CB (projectedfslib.h)
-
 description: Requests information for a file or directory from the provider.
 old-location: projfs\prj_get_placeholder_info_cb.htm
 tech.root: ProjFS
 ms.assetid: 1BC7C1FA-1BAB-48FB-85C2-34EC3B1B4167
-
 ms.date: 12/05/2018
 ms.keywords: PRJ_GET_PLACEHOLDER_INFO_CB, PRJ_GET_PLACEHOLDER_INFO_CB callback, PRJ_GET_PLACEHOLDER_INFO_CB callback function, ProjFS.prj_get_placeholder_info_cb, projectedfslib/PRJ_GET_PLACEHOLDER_INFO_CB
 ms.topic: callback
-f1_keywords: 
- - "projectedfslib/PRJ_GET_PLACEHOLDER_INFO_CB"
+f1_keywords:
+- projectedfslib/PRJ_GET_PLACEHOLDER_INFO_CB
 dev_langs:
- - c++
+- c++
 req.header: projectedfslib.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - projectedfslib.h
+- projectedfslib.h
 api_name:
- - PRJ_GET_PLACEHOLDER_INFO_CB
+- PRJ_GET_PLACEHOLDER_INFO_CB
 targetos: Windows
 req.typenames: 
 req.redist: 

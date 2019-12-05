@@ -1,19 +1,17 @@
 ---
 UID: NF:intsafe.UShortAdd
 title: UShortAdd function (intsafe.h)
-
 description: Adds two values of type USHORT.
 old-location: shell\UShortAdd.htm
 tech.root: shell
 ms.assetid: 3aea6f4b-280f-43a1-8104-222d8f9d92cc
-
 ms.date: 12/05/2018
 ms.keywords: UShortAdd, UShortAdd function [Windows Shell], WordAdd, _shell_UShortAdd, intsafe/UShortAdd, shell.UShortAdd
 ms.topic: function
-f1_keywords: 
- - "intsafe/UShortAdd"
+f1_keywords:
+- intsafe/UShortAdd
 dev_langs:
- - c++
+- c++
 req.header: intsafe.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Intsafe.h
+- Intsafe.h
 api_name:
- - UShortAdd
+- UShortAdd
 targetos: Windows
 req.typenames: 
 req.redist: 

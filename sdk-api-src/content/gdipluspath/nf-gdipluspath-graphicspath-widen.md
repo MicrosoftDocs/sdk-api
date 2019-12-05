@@ -1,19 +1,17 @@
 ---
 UID: NF:gdipluspath.GraphicsPath.Widen
 title: GraphicsPath::Widen (gdipluspath.h)
-
 description: The GraphicsPath::Widen method replaces this path with curves that enclose the area that is filled when this path is drawn by a specified pen. The GraphicsPath::Widen method also flattens the path.
 old-location: gdiplus\_gdiplus_CLASS_GraphicsPath_Widen_pen_matrix_flatness_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicspathclass\graphicspathmethods\widen.htm
-
 ms.date: 12/05/2018
 ms.keywords: GraphicsPath class [GDI+],Widen method, GraphicsPath.Widen, GraphicsPath::Widen, Widen, Widen method [GDI+], Widen method [GDI+],GraphicsPath class, _gdiplus_CLASS_GraphicsPath_Widen_pen_matrix_flatness_, gdiplus._gdiplus_CLASS_GraphicsPath_Widen_pen_matrix_flatness_
 ms.topic: method
-f1_keywords: 
- - "gdipluspath/GraphicsPath.Widen"
+f1_keywords:
+- gdipluspath/GraphicsPath.Widen
 dev_langs:
- - c++
+- c++
 req.header: gdipluspath.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - GraphicsPath.Widen
+- GraphicsPath.Widen
 targetos: Windows
 req.typenames: 
 req.redist: 

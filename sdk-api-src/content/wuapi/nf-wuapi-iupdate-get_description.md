@@ -1,19 +1,17 @@
 ---
 UID: NF:wuapi.IUpdate.get_Description
 title: IUpdate::get_Description (wuapi.h)
-
 description: Gets the localized description of the update.
 old-location: wua\iupdate_description.htm
 tech.root: Wua_Sdk
 ms.assetid: 2448c9aa-0e90-4454-b168-c31b36f569af
-
 ms.date: 12/05/2018
 ms.keywords: Description property [Windows Update Agent], Description property [Windows Update Agent],IUpdate interface, IUpdate interface [Windows Update Agent],Description property, IUpdate.Description, IUpdate.get_Description, IUpdate::Description, IUpdate::get_Description, get_Description, wua.iupdate_description, wuapi/IUpdate::Description, wuapi/IUpdate::get_Description
 ms.topic: method
-f1_keywords: 
- - "wuapi/IUpdate.Description"
+f1_keywords:
+- wuapi/IUpdate.Description
 dev_langs:
- - c++
+- c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Wuguid.lib
 req.dll: Wuapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wuapi.dll
+- Wuapi.dll
 api_name:
- - IUpdate.Description
- - IUpdate.get_Description
+- IUpdate.Description
+- IUpdate.get_Description
 targetos: Windows
 req.typenames: 
 req.redist: 

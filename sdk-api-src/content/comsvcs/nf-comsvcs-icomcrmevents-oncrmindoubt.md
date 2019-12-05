@@ -1,19 +1,17 @@
 ---
 UID: NF:comsvcs.IComCRMEvents.OnCRMIndoubt
 title: IComCRMEvents::OnCRMIndoubt (comsvcs.h)
-
 description: Generated when CRM clerk receives an in-doubt notification to pass on to the CRM compensator.
 old-location: cos\icomcrmevents_oncrmindoubt.htm
 tech.root: cossdk
 ms.assetid: b1144b7c-097f-4a1c-b7d7-d71b8108625b
-
 ms.date: 12/05/2018
 ms.keywords: IComCRMEvents interface [COM+],OnCRMIndoubt method, IComCRMEvents.OnCRMIndoubt, IComCRMEvents::OnCRMIndoubt, OnCRMIndoubt, OnCRMIndoubt method [COM+], OnCRMIndoubt method [COM+],IComCRMEvents interface, _dtc_IComCRMEvents_OnCRMIndoubt, comsvcs/IComCRMEvents::OnCRMIndoubt, cos.icomcrmevents_oncrmindoubt
 ms.topic: method
-f1_keywords: 
- - "comsvcs/IComCRMEvents.OnCRMIndoubt"
+f1_keywords:
+- comsvcs/IComCRMEvents.OnCRMIndoubt
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - IComCRMEvents.OnCRMIndoubt
+- IComCRMEvents.OnCRMIndoubt
 targetos: Windows
 req.typenames: 
 req.redist: 

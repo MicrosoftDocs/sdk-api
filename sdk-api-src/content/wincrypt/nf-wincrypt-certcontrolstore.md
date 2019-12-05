@@ -1,19 +1,17 @@
 ---
 UID: NF:wincrypt.CertControlStore
 title: CertControlStore function (wincrypt.h)
-
 description: Allows an application to be notified when there is a difference between the contents of a cached store in use and the contents of that store as it is persisted to storage.
 old-location: security\certcontrolstore.htm
 tech.root: SecCrypto
 ms.assetid: 04cd9349-50c1-44b4-b080-631a24a80d70
-
 ms.date: 12/05/2018
 ms.keywords: CERT_STORE_CTRL_AUTO_RESYNC, CERT_STORE_CTRL_CANCEL_NOTIFY, CERT_STORE_CTRL_COMMIT, CERT_STORE_CTRL_COMMIT_CLEAR_FLAG, CERT_STORE_CTRL_COMMIT_FORCE_FLAG, CERT_STORE_CTRL_INHIBIT_DUPLICATE_HANDLE_FLAG, CERT_STORE_CTRL_NOTIFY_CHANGE, CERT_STORE_CTRL_RESYNC, CertControlStore, CertControlStore function [Security], _crypto2_certcontrolstore, security.certcontrolstore, wincrypt/CertControlStore
 ms.topic: function
-f1_keywords: 
- - "wincrypt/CertControlStore"
+f1_keywords:
+- wincrypt/CertControlStore
 dev_langs:
- - c++
+- c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Crypt32.lib
 req.dll: Crypt32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Crypt32.dll
+- Crypt32.dll
 api_name:
- - CertControlStore
+- CertControlStore
 targetos: Windows
 req.typenames: 
 req.redist: 

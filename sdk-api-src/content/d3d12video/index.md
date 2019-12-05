@@ -1,7 +1,6 @@
 ---
 UID: NA:d3d12video
 ms.assetid: 
-
 ms.date: 05/28/2019 03/19/2019
 ms.keywords: 
 ms.topic: portal

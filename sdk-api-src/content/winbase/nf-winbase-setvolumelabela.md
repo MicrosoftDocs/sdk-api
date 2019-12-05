@@ -1,19 +1,17 @@
 ---
 UID: NF:winbase.SetVolumeLabelA
 title: SetVolumeLabelA function (winbase.h)
-
 description: Sets the label of a file system volume.
 old-location: fs\setvolumelabel.htm
 tech.root: FileIO
 ms.assetid: 1851ed79-7a29-4731-8b67-75d6e9220705
-
 ms.date: 12/05/2018
 ms.keywords: SetVolumeLabel, SetVolumeLabel function [Files], SetVolumeLabelA, SetVolumeLabelW, _win32_setvolumelabel, base.setvolumelabel, fs.setvolumelabel, winbase/SetVolumeLabel, winbase/SetVolumeLabelA, winbase/SetVolumeLabelW
 ms.topic: function
-f1_keywords: 
- - "winbase/SetVolumeLabel"
+f1_keywords:
+- winbase/SetVolumeLabel
 dev_langs:
- - c++
+- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,25 +30,25 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-Kernel32-Legacy-l1-1-0.dll
- - kernel32legacy.dll
- - API-MS-Win-Core-Kernel32-Legacy-l1-1-1.dll
- - API-MS-Win-Core-Kernel32-Legacy-l1-1-2.dll
- - API-MS-Win-DownLevel-Kernel32-l2-1-0.dll
- - API-MS-Win-Core-Kernel32-Legacy-L1-1-3.dll
- - API-Ms-Win-Core-Kernel32-Legacy-Ansi-L1-1-0.dll
- - API-MS-Win-Core-Kernel32-Legacy-L1-1-4.dll
- - API-MS-Win-Core-Kernel32-Legacy-L1-1-5.dll
+- Kernel32.dll
+- API-MS-Win-Core-Kernel32-Legacy-l1-1-0.dll
+- kernel32legacy.dll
+- API-MS-Win-Core-Kernel32-Legacy-l1-1-1.dll
+- API-MS-Win-Core-Kernel32-Legacy-l1-1-2.dll
+- API-MS-Win-DownLevel-Kernel32-l2-1-0.dll
+- API-MS-Win-Core-Kernel32-Legacy-L1-1-3.dll
+- API-Ms-Win-Core-Kernel32-Legacy-Ansi-L1-1-0.dll
+- API-MS-Win-Core-Kernel32-Legacy-L1-1-4.dll
+- API-MS-Win-Core-Kernel32-Legacy-L1-1-5.dll
 api_name:
- - SetVolumeLabel
- - SetVolumeLabelA
- - SetVolumeLabelW
+- SetVolumeLabel
+- SetVolumeLabelA
+- SetVolumeLabelW
 targetos: Windows
 req.typenames: 
 req.redist: 

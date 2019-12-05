@@ -1,19 +1,17 @@
 ---
 UID: NF:dxgi.IDXGIResource.GetUsage
 title: IDXGIResource::GetUsage (dxgi.h)
-
 description: Get the expected resource usage.
 old-location: direct3ddxgi\idxgiresource_getusage.htm
 tech.root: direct3ddxgi
 ms.assetid: VS|directx_sdk|~\idxgiresource_getusage.htm
-
 ms.date: 12/05/2018
 ms.keywords: 1fc82eef-f409-1d78-ab65-dd0124809d16, GetUsage, GetUsage method [DXGI], GetUsage method [DXGI],IDXGIResource interface, IDXGIResource interface [DXGI],GetUsage method, IDXGIResource.GetUsage, IDXGIResource::GetUsage, direct3ddxgi.idxgiresource_getusage, dxgi/IDXGIResource::GetUsage
 ms.topic: method
-f1_keywords: 
- - "dxgi/IDXGIResource.GetUsage"
+f1_keywords:
+- dxgi/IDXGIResource.GetUsage
 dev_langs:
- - c++
+- c++
 req.header: dxgi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: DXGI.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - DXGI.lib
- - DXGI.dll
+- DXGI.lib
+- DXGI.dll
 api_name:
- - IDXGIResource.GetUsage
+- IDXGIResource.GetUsage
 targetos: Windows
 req.typenames: 
 req.redist: 

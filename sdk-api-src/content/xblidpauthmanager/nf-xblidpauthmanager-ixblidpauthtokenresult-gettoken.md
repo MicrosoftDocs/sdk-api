@@ -1,19 +1,17 @@
 ---
 UID: NF:xblidpauthmanager.IXblIdpAuthTokenResult.GetToken
 title: IXblIdpAuthTokenResult::GetToken (xblidpauthmanager.h)
-
 description: Reserved for Microsoft use.
 old-location: xblidp\ixblidpauthtokenresult_gettoken.htm
 tech.root: xblidp
 ms.assetid: 2E90B1FA-1381-45D7-A700-A3627C56E282
-
 ms.date: 12/05/2018
 ms.keywords: GetToken, GetToken method, GetToken method,IXblIdpAuthTokenResult interface, IXblIdpAuthTokenResult interface,GetToken method, IXblIdpAuthTokenResult.GetToken, IXblIdpAuthTokenResult::GetToken, xblidp.ixblidpauthtokenresult_gettoken, xblidpauthmanager/IXblIdpAuthTokenResult::GetToken
 ms.topic: method
-f1_keywords: 
- - "xblidpauthmanager/IXblIdpAuthTokenResult.GetToken"
+f1_keywords:
+- xblidpauthmanager/IXblIdpAuthTokenResult.GetToken
 dev_langs:
- - c++
+- c++
 req.header: xblidpauthmanager.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - XblIdpAuthManager.h
+- XblIdpAuthManager.h
 api_name:
- - IXblIdpAuthTokenResult.GetToken
+- IXblIdpAuthTokenResult.GetToken
 targetos: Windows
 req.typenames: 
 req.redist: 

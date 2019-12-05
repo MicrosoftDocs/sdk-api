@@ -1,19 +1,17 @@
 ---
 UID: NS:tapi.linetranslateoutput_tag
 title: LINETRANSLATEOUTPUT (tapi.h)
-
 description: The LINETRANSLATEOUTPUT structure describes the result of an address translation. The lineTranslateAddress function uses this structure.
 old-location: tapi2\linetranslateoutput_str.htm
 tech.root: Tapi
 ms.assetid: bcf094ad-8098-4e45-9131-25dbdb7e4093
-
 ms.date: 12/05/2018
-ms.keywords: "*LPLINETRANSLATEOUTPUT, LINETRANSLATEOUTPUT, LINETRANSLATEOUTPUT structure [TAPI 2.2], LPLINETRANSLATEOUTPUT, LPLINETRANSLATEOUTPUT structure pointer [TAPI 2.2], _tapi2_linetranslateoutput_str, tapi/LINETRANSLATEOUTPUT, tapi/LPLINETRANSLATEOUTPUT, tapi2.linetranslateoutput_str"
+ms.keywords: '*LPLINETRANSLATEOUTPUT, LINETRANSLATEOUTPUT, LINETRANSLATEOUTPUT structure [TAPI 2.2], LPLINETRANSLATEOUTPUT, LPLINETRANSLATEOUTPUT structure pointer [TAPI 2.2], _tapi2_linetranslateoutput_str, tapi/LINETRANSLATEOUTPUT, tapi/LPLINETRANSLATEOUTPUT, tapi2.linetranslateoutput_str'
 ms.topic: struct
-f1_keywords: 
- - "tapi/LINETRANSLATEOUTPUT"
+f1_keywords:
+- tapi/LINETRANSLATEOUTPUT
 dev_langs:
- - c++
+- c++
 req.header: tapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Tapi.h
+- Tapi.h
 api_name:
- - LINETRANSLATEOUTPUT
+- LINETRANSLATEOUTPUT
 targetos: Windows
 req.typenames: LINETRANSLATEOUTPUT, *LPLINETRANSLATEOUTPUT
 req.redist: 

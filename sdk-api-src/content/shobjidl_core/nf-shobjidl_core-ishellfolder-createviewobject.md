@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IShellFolder.CreateViewObject
 title: IShellFolder::CreateViewObject (shobjidl_core.h)
-
 description: Requests an object that can be used to obtain information from or interact with a folder object.
 old-location: shell\IShellFolder_CreateViewObject.htm
 tech.root: shell
 ms.assetid: 8a1b73ad-6719-403a-a8aa-27bef537b7a9
-
 ms.date: 12/05/2018
 ms.keywords: CreateViewObject, CreateViewObject method [Windows Shell], CreateViewObject method [Windows Shell],IShellFolder interface, CreateViewObject method [Windows Shell],IShellFolder2 interface, IShellFolder interface [Windows Shell],CreateViewObject method, IShellFolder.CreateViewObject, IShellFolder2 interface [Windows Shell],CreateViewObject method, IShellFolder2::CreateViewObject, IShellFolder::CreateViewObject, _win32_IShellFolder_CreateViewObject, shell.IShellFolder_CreateViewObject, shobjidl_core/IShellFolder2::CreateViewObject, shobjidl_core/IShellFolder::CreateViewObject
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IShellFolder.CreateViewObject"
+f1_keywords:
+- shobjidl_core/IShellFolder.CreateViewObject
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: Shell32.dll (version 4.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - IShellFolder.CreateViewObject
- - IShellFolder2.CreateViewObject
+- IShellFolder.CreateViewObject
+- IShellFolder2.CreateViewObject
 targetos: Windows
 req.typenames: 
 req.redist: 

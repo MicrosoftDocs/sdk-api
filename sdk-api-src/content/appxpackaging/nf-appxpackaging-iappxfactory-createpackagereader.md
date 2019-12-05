@@ -1,19 +1,17 @@
 ---
 UID: NF:appxpackaging.IAppxFactory.CreatePackageReader
 title: IAppxFactory::CreatePackageReader (appxpackaging.h)
-
 description: Creates a read-only package reader from the contents provided by an IStream. This method does not validate the digital signature.
 old-location: appxpkg\iappxfactory_createpackagereader.htm
 tech.root: appxpkg
 ms.assetid: 60C9781F-A1EE-4EAA-9CD5-32692F3E063D
-
 ms.date: 12/05/2018
 ms.keywords: CreatePackageReader, CreatePackageReader method [App packaging and management], CreatePackageReader method [App packaging and management],IAppxFactory interface, IAppxFactory interface [App packaging and management],CreatePackageReader method, IAppxFactory.CreatePackageReader, IAppxFactory::CreatePackageReader, appxpackaging/IAppxFactory::CreatePackageReader, appxpkg.iappxfactory_createpackagereader
 ms.topic: method
-f1_keywords: 
- - "appxpackaging/IAppxFactory.CreatePackageReader"
+f1_keywords:
+- appxpackaging/IAppxFactory.CreatePackageReader
 dev_langs:
- - c++
+- c++
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - AppxPackaging.h
+- AppxPackaging.h
 api_name:
- - IAppxFactory.CreatePackageReader
+- IAppxFactory.CreatePackageReader
 targetos: Windows
 req.typenames: 
 req.redist: 

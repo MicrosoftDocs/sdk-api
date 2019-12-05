@@ -1,19 +1,17 @@
 ---
 UID: NF:segment.IMSVidStreamBufferSinkEvent4.WriteFailureClear
 title: IMSVidStreamBufferSinkEvent4::WriteFailureClear (segment.h)
-
 description: The WriteFailureClear method is called when a write error from the Stream Buffer Sink filter has been cleared.
 old-location: mstv\imsvidstreambuffersinkevent4_writefailureclear.htm
 tech.root: mstv
 ms.assetid: c5968d45-5fd2-460a-bbd8-38671bb98a14
-
 ms.date: 12/05/2018
 ms.keywords: IMSVidStreamBufferSinkEvent4.WriteFailureClear, IMSVidStreamBufferSinkEvent4::WriteFailureClear, IMSVidstreamBufferSinkEvent4 interface [Microsoft TV Technologies],WriteFailureClear method, IMSVidstreamBufferSinkEvent4::WriteFailureClear, WriteFailureClear, WriteFailureClear method [Microsoft TV Technologies], WriteFailureClear method [Microsoft TV Technologies],IMSVidstreamBufferSinkEvent4 interface, mstv.imsvidstreambuffersinkevent4_writefailureclear, segment/IMSVidstreamBufferSinkEvent4::WriteFailureClear
 ms.topic: method
-f1_keywords: 
- - "segment/IMSVidstreamBufferSinkEvent4.WriteFailureClear"
+f1_keywords:
+- segment/IMSVidstreamBufferSinkEvent4.WriteFailureClear
 dev_langs:
- - c++
+- c++
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - segment.h
+- segment.h
 api_name:
- - IMSVidstreamBufferSinkEvent4.WriteFailureClear
+- IMSVidstreamBufferSinkEvent4.WriteFailureClear
 targetos: Windows
 req.typenames: 
 req.redist: 

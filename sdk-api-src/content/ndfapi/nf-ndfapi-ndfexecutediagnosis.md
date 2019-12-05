@@ -1,19 +1,17 @@
 ---
 UID: NF:ndfapi.NdfExecuteDiagnosis
 title: NdfExecuteDiagnosis function (ndfapi.h)
-
 description: The NdfExecuteDiagnosis function is used to diagnose the root cause of the incident that has occurred.
 old-location: ndf\ndfexecutediagnosis.htm
 tech.root: NDF
 ms.assetid: b65f30c3-53d5-4282-8d38-5723772f15fc
-
 ms.date: 12/05/2018
 ms.keywords: NdfExecuteDiagnosis, NdfExecuteDiagnosis function [NDF], ndf.ndfexecutediagnosis, ndfapi/NdfExecuteDiagnosis
 ms.topic: function
-f1_keywords: 
- - "ndfapi/NdfExecuteDiagnosis"
+f1_keywords:
+- ndfapi/NdfExecuteDiagnosis
 dev_langs:
- - c++
+- c++
 req.header: ndfapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Ndfapi.lib
 req.dll: Ndfapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ndfapi.dll
+- Ndfapi.dll
 api_name:
- - NdfExecuteDiagnosis
+- NdfExecuteDiagnosis
 targetos: Windows
 req.typenames: 
 req.redist: 

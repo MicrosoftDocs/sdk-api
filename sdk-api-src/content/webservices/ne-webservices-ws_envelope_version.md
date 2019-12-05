@@ -1,19 +1,17 @@
 ---
 UID: NE:webservices.__unnamed_enum_45
 title: WS_ENVELOPE_VERSION (webservices.h)
-
 description: The version of the specification used for the envelope structure.
 old-location: wsw\ws_envelope_version.htm
 tech.root: wsw
 ms.assetid: 2a6f6148-d37d-4ac2-8fd0-409eae71a3d8
-
 ms.date: 12/05/2018
 ms.keywords: WS_ENVELOPE_VERSION, WS_ENVELOPE_VERSION enumeration [Web Services for Windows], WS_ENVELOPE_VERSION_SOAP_1_1, WS_ENVELOPE_VERSION_SOAP_1_2, webservices/WS_ENVELOPE_VERSION, webservices/WS_ENVELOPE_VERSION_SOAP_1_1, webservices/WS_ENVELOPE_VERSION_SOAP_1_2, wsw.ws_envelope_version
 ms.topic: enum
-f1_keywords: 
- - "webservices/WS_ENVELOPE_VERSION"
+f1_keywords:
+- webservices/WS_ENVELOPE_VERSION
 dev_langs:
- - c++
+- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WebServices.h
+- WebServices.h
 api_name:
- - WS_ENVELOPE_VERSION
+- WS_ENVELOPE_VERSION
 targetos: Windows
 req.typenames: WS_ENVELOPE_VERSION
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NS:searchapi._TIMEOUT_INFO
 title: TIMEOUT_INFO (searchapi.h)
-
 description: Stores time-out values for connections and data.
 old-location: search\_search_TIMEOUT_INFO.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\structures\timeout_info.htm
-
 ms.date: 12/05/2018
 ms.keywords: TIMEOUT_INFO, TIMEOUT_INFO structure [search], _search_TIMEOUT_INFO, search._search_TIMEOUT_INFO, searchapi/TIMEOUT_INFO
 ms.topic: struct
-f1_keywords: 
- - "searchapi/TIMEOUT_INFO"
+f1_keywords:
+- searchapi/TIMEOUT_INFO
 dev_langs:
- - c++
+- c++
 req.header: searchapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Searchapi.h
+- Searchapi.h
 api_name:
- - TIMEOUT_INFO
+- TIMEOUT_INFO
 targetos: Windows
 req.typenames: TIMEOUT_INFO
 req.redist: Windows Desktop Search (WDS) 3.0

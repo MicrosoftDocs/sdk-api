@@ -1,19 +1,17 @@
 ---
 UID: NF:winddi.EngUnlockSurface
 title: EngUnlockSurface function (winddi.h)
-
 description: The EngUnlockSurface function causes GDI to unlock the surface.
 old-location: display\engunlocksurface.htm
 tech.root: display
 ms.assetid: 49d089e3-c900-4f81-a6ee-420a5558a4ff
-
 ms.date: 12/05/2018
 ms.keywords: EngUnlockSurface, EngUnlockSurface function [Display Devices], display.engunlocksurface, gdifncs_a7050a36-0beb-4f7e-857c-5d1e13d5f530.xml, winddi/EngUnlockSurface
 ms.topic: function
 f1_keywords:
 - winddi/EngUnlockSurface
 dev_langs:
- - c++
+- c++
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Universal

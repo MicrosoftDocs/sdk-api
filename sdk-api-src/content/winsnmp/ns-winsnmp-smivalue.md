@@ -1,19 +1,17 @@
 ---
 UID: NS:winsnmp.__unnamed_struct_3
 title: smiVALUE (winsnmp.h)
-
 description: The WinSNMP smiVALUE structure describes the value associated with a variable name in a variable binding entry.
 old-location: snmp\smivalue_str.htm
 tech.root: SNMP
 ms.assetid: e5e8f321-54b2-469d-bdd3-9867fd85b447
-
 ms.date: 12/05/2018
-ms.keywords: "*smiLPVALUE, SNMP_SYNTAX_CNTR32, SNMP_SYNTAX_CNTR64, SNMP_SYNTAX_ENDOFMIBVIEW, SNMP_SYNTAX_GAUGE32, SNMP_SYNTAX_INT, SNMP_SYNTAX_INT32, SNMP_SYNTAX_IPADDR, SNMP_SYNTAX_NOSUCHINSTANCE, SNMP_SYNTAX_NOSUCHOBJECT, SNMP_SYNTAX_NULL, SNMP_SYNTAX_OCTETS, SNMP_SYNTAX_OID, SNMP_SYNTAX_OPAQUE, SNMP_SYNTAX_TIMETICKS, SNMP_SYNTAX_UINT32, _snmp_smivalue_str, smiLPVALUE, smiLPVALUE structure pointer [SNMP], smiVALUE, smiVALUE structure [SNMP], snmp.smivalue_str, winsnmp/smiLPVALUE, winsnmp/smiVALUE"
+ms.keywords: '*smiLPVALUE, SNMP_SYNTAX_CNTR32, SNMP_SYNTAX_CNTR64, SNMP_SYNTAX_ENDOFMIBVIEW, SNMP_SYNTAX_GAUGE32, SNMP_SYNTAX_INT, SNMP_SYNTAX_INT32, SNMP_SYNTAX_IPADDR, SNMP_SYNTAX_NOSUCHINSTANCE, SNMP_SYNTAX_NOSUCHOBJECT, SNMP_SYNTAX_NULL, SNMP_SYNTAX_OCTETS, SNMP_SYNTAX_OID, SNMP_SYNTAX_OPAQUE, SNMP_SYNTAX_TIMETICKS, SNMP_SYNTAX_UINT32, _snmp_smivalue_str, smiLPVALUE, smiLPVALUE structure pointer [SNMP], smiVALUE, smiVALUE structure [SNMP], snmp.smivalue_str, winsnmp/smiLPVALUE, winsnmp/smiVALUE'
 ms.topic: struct
-f1_keywords: 
- - "winsnmp/smiVALUE"
+f1_keywords:
+- winsnmp/smiVALUE
 dev_langs:
- - c++
+- c++
 req.header: winsnmp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Winsnmp.h
+- Winsnmp.h
 api_name:
- - smiVALUE
+- smiVALUE
 targetos: Windows
 req.typenames: smiVALUE, *smiLPVALUE
 req.redist: 

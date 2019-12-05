@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IVMRImageCompositor.CompositeImage
 title: IVMRImageCompositor::CompositeImage (strmif.h)
-
 description: The CompositeImage method composites the current frames available in each input stream.
 old-location: dshow\ivmrimagecompositor_compositeimage.htm
 tech.root: DirectShow
 ms.assetid: 5af73543-d391-404a-9797-8fbb3f24879c
-
 ms.date: 12/05/2018
 ms.keywords: CompositeImage, CompositeImage method [DirectShow], CompositeImage method [DirectShow],IVMRImageCompositor interface, IVMRImageCompositor interface [DirectShow],CompositeImage method, IVMRImageCompositor.CompositeImage, IVMRImageCompositor::CompositeImage, IVMRImageCompositorCompositeImage, dshow.ivmrimagecompositor_compositeimage, strmif/IVMRImageCompositor::CompositeImage
 ms.topic: method
-f1_keywords: 
- - "strmif/IVMRImageCompositor.CompositeImage"
+f1_keywords:
+- strmif/IVMRImageCompositor.CompositeImage
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IVMRImageCompositor.CompositeImage
+- IVMRImageCompositor.CompositeImage
 targetos: Windows
 req.typenames: 
 req.redist: 

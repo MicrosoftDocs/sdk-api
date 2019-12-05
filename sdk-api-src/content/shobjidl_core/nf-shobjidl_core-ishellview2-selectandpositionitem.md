@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IShellView2.SelectAndPositionItem
 title: IShellView2::SelectAndPositionItem (shobjidl_core.h)
-
 description: Selects and positions an item in a Shell View.
 old-location: shell\IShellView2_SelectAndPositionItem.htm
 tech.root: shell
 ms.assetid: d78f152b-2dcb-410d-821a-56601a3c57f2
-
 ms.date: 12/05/2018
 ms.keywords: IShellView2 interface [Windows Shell],SelectAndPositionItem method, IShellView2.SelectAndPositionItem, IShellView2::SelectAndPositionItem, SelectAndPositionItem, SelectAndPositionItem method [Windows Shell], SelectAndPositionItem method [Windows Shell],IShellView2 interface, _win32_IShellView2_SelectAndPositionItem, shell.IShellView2_SelectAndPositionItem, shobjidl_core/IShellView2::SelectAndPositionItem
 ms.topic: method
 f1_keywords:
 - shobjidl_core/IShellView2.SelectAndPositionItem
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

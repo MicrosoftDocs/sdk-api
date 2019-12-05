@@ -1,19 +1,17 @@
 ---
 UID: NS:virtdisk._OPEN_VIRTUAL_DISK_PARAMETERS
 title: OPEN_VIRTUAL_DISK_PARAMETERS (virtdisk.h)
-
 description: Contains virtual disk open request parameters.
 old-location: vhd\open_virtual_disk_parameters.htm
 tech.root: VStor
 ms.assetid: ad67bc3e-a0fe-4198-9307-819577abef7f
-
 ms.date: 12/05/2018
-ms.keywords: "*POPEN_VIRTUAL_DISK_PARAMETERS, OPEN_VIRTUAL_DISK_PARAMETERS, OPEN_VIRTUAL_DISK_PARAMETERS structure [VHD], OPEN_VIRTUAL_DISK_RW_DEPTH_DEFAULT, OPEN_VIRTUAL_DISK_VERSION_1, OPEN_VIRTUAL_DISK_VERSION_2, POPEN_VIRTUAL_DISK_PARAMETERS, POPEN_VIRTUAL_DISK_PARAMETERS structure pointer [VHD], _OPEN_VIRTUAL_DISK_PARAMETERS, vdssys/OPEN_VIRTUAL_DISK_PARAMETERS, vdssys/POPEN_VIRTUAL_DISK_PARAMETERS, vhd.open_virtual_disk_parameters, virtdisk/OPEN_VIRTUAL_DISK_PARAMETERS, virtdisk/POPEN_VIRTUAL_DISK_PARAMETERS"
+ms.keywords: '*POPEN_VIRTUAL_DISK_PARAMETERS, OPEN_VIRTUAL_DISK_PARAMETERS, OPEN_VIRTUAL_DISK_PARAMETERS structure [VHD], OPEN_VIRTUAL_DISK_RW_DEPTH_DEFAULT, OPEN_VIRTUAL_DISK_VERSION_1, OPEN_VIRTUAL_DISK_VERSION_2, POPEN_VIRTUAL_DISK_PARAMETERS, POPEN_VIRTUAL_DISK_PARAMETERS structure pointer [VHD], _OPEN_VIRTUAL_DISK_PARAMETERS, vdssys/OPEN_VIRTUAL_DISK_PARAMETERS, vdssys/POPEN_VIRTUAL_DISK_PARAMETERS, vhd.open_virtual_disk_parameters, virtdisk/OPEN_VIRTUAL_DISK_PARAMETERS, virtdisk/POPEN_VIRTUAL_DISK_PARAMETERS'
 ms.topic: struct
-f1_keywords: 
- - "virtdisk/OPEN_VIRTUAL_DISK_PARAMETERS"
+f1_keywords:
+- virtdisk/OPEN_VIRTUAL_DISK_PARAMETERS
 dev_langs:
- - c++
+- c++
 req.header: virtdisk.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - VirtDisk.h
- - vdssys.h
+- VirtDisk.h
+- vdssys.h
 api_name:
- - OPEN_VIRTUAL_DISK_PARAMETERS
+- OPEN_VIRTUAL_DISK_PARAMETERS
 targetos: Windows
 req.typenames: OPEN_VIRTUAL_DISK_PARAMETERS, *POPEN_VIRTUAL_DISK_PARAMETERS
 req.redist: 

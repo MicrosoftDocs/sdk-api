@@ -1,19 +1,17 @@
 ---
 UID: NF:msctf.ITfCompartmentMgr.ClearCompartment
 title: ITfCompartmentMgr::ClearCompartment (msctf.h)
-
 description: ITfCompartmentMgr::ClearCompartment method
 old-location: tsf\itfcompartmentmgr_clearcompartment.htm
 tech.root: TSF
 ms.assetid: 862ec077-b192-412a-b80c-6105f503ed21
-
 ms.date: 12/05/2018
 ms.keywords: ClearCompartment, ClearCompartment method [Text Services Framework], ClearCompartment method [Text Services Framework],ITfCompartmentMgr interface, ITfCompartmentMgr interface [Text Services Framework],ClearCompartment method, ITfCompartmentMgr.ClearCompartment, ITfCompartmentMgr::ClearCompartment, _tsf_itfcompartmentmgr_clearcompartment_ref, msctf/ITfCompartmentMgr::ClearCompartment, tsf.itfcompartmentmgr_clearcompartment
 ms.topic: method
-f1_keywords: 
- - "msctf/ITfCompartmentMgr.ClearCompartment"
+f1_keywords:
+- msctf/ITfCompartmentMgr.ClearCompartment
 dev_langs:
- - c++
+- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msctf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msctf.dll
+- Msctf.dll
 api_name:
- - ITfCompartmentMgr.ClearCompartment
+- ITfCompartmentMgr.ClearCompartment
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

@@ -1,19 +1,17 @@
 ---
 UID: NF:vds.IVdsAdvancedDisk.Clean
 title: IVdsAdvancedDisk::Clean (vds.h)
-
 description: Removes partition information and uninitializes basic or dynamic disks.Windows Server 2003:  The Clean method is not supported for removable devices.
 old-location: base\ivdsadvanceddisk_clean.htm
 tech.root: VDS
 ms.assetid: 4052f294-d911-44c6-a57f-0a0a6f24df70
-
 ms.date: 12/05/2018
 ms.keywords: Clean, Clean method [VDS], Clean method [VDS],IVdsAdvancedDisk interface, IVdsAdvancedDisk interface [VDS],Clean method, IVdsAdvancedDisk.Clean, IVdsAdvancedDisk::Clean, base.ivdsadvanceddisk_clean, vds/IVdsAdvancedDisk::Clean
 ms.topic: method
-f1_keywords: 
- - "vds/IVdsAdvancedDisk.Clean"
+f1_keywords:
+- vds/IVdsAdvancedDisk.Clean
 dev_langs:
- - c++
+- c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Uuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Uuid.lib
- - Uuid.dll
+- Uuid.lib
+- Uuid.dll
 api_name:
- - IVdsAdvancedDisk.Clean
+- IVdsAdvancedDisk.Clean
 targetos: Windows
 req.typenames: 
 req.redist: 

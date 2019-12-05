@@ -1,19 +1,17 @@
 ---
 UID: NN:netcon.INetSharingEveryConnectionCollection
 title: INetSharingEveryConnectionCollection (netcon.h)
-
 description: The INetSharingEveryConnectionCollection interface makes it possible for scripting languages such as VBScript and JScript to enumerate all the connections in the connections folder.
 old-location: ics\inetsharingeveryconnectioncollection.htm
 tech.root: ics
 ms.assetid: a53c15f0-c7f3-49ea-a85d-663ad4b12f6e
-
 ms.date: 12/05/2018
 ms.keywords: INetSharingEveryConnectionCollection, INetSharingEveryConnectionCollection interface [ICS/ICF], INetSharingEveryConnectionCollection interface [ICS/ICF],described, _ics_inetsharingeveryconnectioncollection, ics.inetsharingeveryconnectioncollection, netcon/INetSharingEveryConnectionCollection
 ms.topic: interface
-f1_keywords: 
- - "netcon/INetSharingEveryConnectionCollection"
+f1_keywords:
+- netcon/INetSharingEveryConnectionCollection
 dev_langs:
- - c++
+- c++
 req.header: netcon.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Hnetcfg.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Hnetcfg.dll
+- Hnetcfg.dll
 api_name:
- - INetSharingEveryConnectionCollection
+- INetSharingEveryConnectionCollection
 targetos: Windows
 req.typenames: 
 req.redist: 

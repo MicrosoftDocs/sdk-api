@@ -1,19 +1,17 @@
 ---
 UID: NF:wsdbase.IWSDUdpAddress.GetTTL
 title: IWSDUdpAddress::GetTTL (wsdbase.h)
-
 description: Gets the time-to-live (TTL) for all outbound packets using this address.
 old-location: ncd\iwsdudpaddress_getttl.htm
 tech.root: WsdApi
 ms.assetid: 8bc2a973-a776-45c6-b6bf-cf268badab30
-
 ms.date: 12/05/2018
 ms.keywords: GetTTL, GetTTL method, GetTTL method,IWSDUdpAddress interface, IWSDUdpAddress interface,GetTTL method, IWSDUdpAddress.GetTTL, IWSDUdpAddress::GetTTL, ncd.iwsdudpaddress_getttl, wsdbase/IWSDUdpAddress::GetTTL
 ms.topic: method
-f1_keywords: 
- - "wsdbase/IWSDUdpAddress.GetTTL"
+f1_keywords:
+- wsdbase/IWSDUdpAddress.GetTTL
 dev_langs:
- - c++
+- c++
 req.header: wsdbase.h
 req.include-header: Wsdapi.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wsdapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wsdapi.dll
+- Wsdapi.dll
 api_name:
- - IWSDUdpAddress.GetTTL
+- IWSDUdpAddress.GetTTL
 targetos: Windows
 req.typenames: 
 req.redist: 

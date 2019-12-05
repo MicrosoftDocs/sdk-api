@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationcore.IUIAutomationPatternHandler.Dispatch
 title: IUIAutomationPatternHandler::Dispatch (uiautomationcore.h)
-
 description: Dispatches a method or property getter to a custom control pattern provider.
 old-location: winauto\uiauto_IUIAutomationPatternHandler_Dispatch.htm
 tech.root: WinAuto
 ms.assetid: c94d650e-74a8-4d4f-92bf-5402576f8773
-
 ms.date: 12/05/2018
 ms.keywords: Dispatch, Dispatch method [Windows Accessibility], Dispatch method [Windows Accessibility],IUIAutomationPatternHandler interface, IUIAutomationPatternHandler interface [Windows Accessibility],Dispatch method, IUIAutomationPatternHandler.Dispatch, IUIAutomationPatternHandler::Dispatch, uiauto.uiauto_IUIAutomationPatternHandler_Dispatch, uiauto_IUIAutomationPatternHandler_Dispatch, uiautomationcore/IUIAutomationPatternHandler::Dispatch, winauto.uiauto_IUIAutomationPatternHandler_Dispatch
 ms.topic: method
-f1_keywords: 
- - "uiautomationcore/IUIAutomationPatternHandler.Dispatch"
+f1_keywords:
+- uiautomationcore/IUIAutomationPatternHandler.Dispatch
 dev_langs:
- - c++
+- c++
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationCore.h
+- UIAutomationCore.h
 api_name:
- - IUIAutomationPatternHandler.Dispatch
+- IUIAutomationPatternHandler.Dispatch
 targetos: Windows
 req.typenames: 
 req.redist: 

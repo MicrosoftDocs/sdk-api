@@ -1,19 +1,17 @@
 ---
 UID: NF:imagehlp.UpdateDebugInfoFileEx
 title: UpdateDebugInfoFileEx function (imagehlp.h)
-
 description: Uses the specified extended information to update the corresponding fields in the symbol file.
 old-location: base\updatedebuginfofileex.htm
 tech.root: Debug
 ms.assetid: 67da28db-1566-4d12-8090-9f38fdfd246e
-
 ms.date: 12/05/2018
 ms.keywords: UpdateDebugInfoFileEx, UpdateDebugInfoFileEx function, _win32_updatedebuginfofileex, base.updatedebuginfofileex, imagehlp/UpdateDebugInfoFileEx
 ms.topic: function
-f1_keywords: 
- - "imagehlp/UpdateDebugInfoFileEx"
+f1_keywords:
+- imagehlp/UpdateDebugInfoFileEx
 dev_langs:
- - c++
+- c++
 req.header: imagehlp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Imagehlp.lib
 req.dll: Imagehlp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Imagehlp.dll
+- Imagehlp.dll
 api_name:
- - UpdateDebugInfoFileEx
+- UpdateDebugInfoFileEx
 targetos: Windows
 req.typenames: 
 req.redist: 

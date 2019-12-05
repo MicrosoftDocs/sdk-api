@@ -1,19 +1,17 @@
 ---
 UID: NF:structuredquery.IRelationship.DefaultPhrase
 title: IRelationship::DefaultPhrase (structuredquery.h)
-
 description: Retrieves the default phrase to use for this relationship in restatements.
 old-location: search\_search_IRelationship_DefaultPhrase.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\irelationship\defaultphrase.htm
-
 ms.date: 12/05/2018
 ms.keywords: DefaultPhrase, DefaultPhrase method [search], DefaultPhrase method [search],IRelationship interface, IRelationship interface [search],DefaultPhrase method, IRelationship.DefaultPhrase, IRelationship::DefaultPhrase, _search_IRelationship_DefaultPhrase, search._search_IRelationship_DefaultPhrase, structuredquery/IRelationship::DefaultPhrase
 ms.topic: method
-f1_keywords: 
- - "structuredquery/IRelationship.DefaultPhrase"
+f1_keywords:
+- structuredquery/IRelationship.DefaultPhrase
 dev_langs:
- - c++
+- c++
 req.header: structuredquery.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Structuredquery.h
+- Structuredquery.h
 api_name:
- - IRelationship.DefaultPhrase
+- IRelationship.DefaultPhrase
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0

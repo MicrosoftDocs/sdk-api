@@ -1,19 +1,17 @@
 ---
 UID: NF:xpsdigitalsignature.IXpsSignatureBlock.GetPartName
 title: IXpsSignatureBlock::GetPartName (xpsdigitalsignature.h)
-
 description: Gets a pointer to the IOpcPartUri interface that contains the URI of the SignatureDefinitions part.
 old-location: xps\ixpssignatureblock_getpartname.htm
 tech.root: printdocs
 ms.assetid: 43dbb5f5-d69b-435e-8ace-54615796871d
-
 ms.date: 12/05/2018
 ms.keywords: GetPartName, GetPartName method [XPS Documents and Packaging], GetPartName method [XPS Documents and Packaging],IXpsSignatureBlock interface, IXpsSignatureBlock interface [XPS Documents and Packaging],GetPartName method, IXpsSignatureBlock.GetPartName, IXpsSignatureBlock::GetPartName, xps.ixpssignatureblock_getpartname, xpsdigitalsignature/IXpsSignatureBlock::GetPartName
 ms.topic: method
-f1_keywords: 
- - "xpsdigitalsignature/IXpsSignatureBlock.GetPartName"
+f1_keywords:
+- xpsdigitalsignature/IXpsSignatureBlock.GetPartName
 dev_langs:
- - c++
+- c++
 req.header: xpsdigitalsignature.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsdigitalsignature.h
+- xpsdigitalsignature.h
 api_name:
- - IXpsSignatureBlock.GetPartName
+- IXpsSignatureBlock.GetPartName
 targetos: Windows
 req.typenames: 
 req.redist: 

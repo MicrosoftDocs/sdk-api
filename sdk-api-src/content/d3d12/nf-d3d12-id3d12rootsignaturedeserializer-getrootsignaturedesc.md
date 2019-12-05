@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d12.ID3D12RootSignatureDeserializer.GetRootSignatureDesc
 title: ID3D12RootSignatureDeserializer::GetRootSignatureDesc (d3d12.h)
-
 description: Gets the layout of the root signature.
 old-location: direct3d12\id3d12rootsignaturedeserializer_getrootsignaturedesc.htm
 tech.root: direct3d12
 ms.assetid: A13FB848-A5C1-4B9B-9009-B0166A3A1C8D
-
 ms.date: 12/05/2018
 ms.keywords: GetRootSignatureDesc, GetRootSignatureDesc method, GetRootSignatureDesc method,ID3D12RootSignatureDeserializer interface, ID3D12RootSignatureDeserializer interface,GetRootSignatureDesc method, ID3D12RootSignatureDeserializer.GetRootSignatureDesc, ID3D12RootSignatureDeserializer::GetRootSignatureDesc, d3d12/ID3D12RootSignatureDeserializer::GetRootSignatureDesc, direct3d12.id3d12rootsignaturedeserializer_getrootsignaturedesc
 ms.topic: method
-f1_keywords: 
- - "d3d12/ID3D12RootSignatureDeserializer.GetRootSignatureDesc"
+f1_keywords:
+- d3d12/ID3D12RootSignatureDeserializer.GetRootSignatureDesc
 dev_langs:
- - c++
+- c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: D3D12.lib
 req.dll: D3D12.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D12.dll
+- D3D12.dll
 api_name:
- - ID3D12RootSignatureDeserializer.GetRootSignatureDesc
+- ID3D12RootSignatureDeserializer.GetRootSignatureDesc
 targetos: Windows
 req.typenames: 
 req.redist: 

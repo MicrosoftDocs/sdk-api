@@ -1,19 +1,17 @@
 ---
 UID: NF:windows.foundation.IPropertyValueStatics.CreateGuid
 title: IPropertyValueStatics::IPropertyValueStatics (windows.foundation.h)
-
 description: Creates a new IPropertyValue object that contains the specified GUID value.
 old-location: winrt\ipropertyvaluestatics_createguid.htm
 tech.root: WinRT
 ms.assetid: fb895839-953f-41e2-963a-26156c490df0
-
 ms.date: 12/05/2018
 ms.keywords: CreateGuid, CreateGuid method [Windows Runtime], CreateGuid method [Windows Runtime],IPropertyValueStatics interface, IPropertyValueStatics interface [Windows Runtime],CreateGuid method, IPropertyValueStatics.CreateGuid, IPropertyValueStatics.IPropertyValueStatics, IPropertyValueStatics::CreateGuid, IPropertyValueStatics::IPropertyValueStatics, windows/IPropertyValueStatics::CreateGuid, winrt.ipropertyvaluefactory_createguid, winrt.ipropertyvaluestatics_createguid
 ms.topic: method
-f1_keywords: 
- - "windows.foundation/IPropertyValueStatics.CreateGuid"
+f1_keywords:
+- windows.foundation/IPropertyValueStatics.CreateGuid
 dev_langs:
- - c++
+- c++
 req.header: windows.foundation.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Windows.Foundation.h
+- Windows.Foundation.h
 api_name:
- - IPropertyValueStatics.CreateGuid
+- IPropertyValueStatics.CreateGuid
 targetos: Windows
 req.typenames: 
 req.redist: 

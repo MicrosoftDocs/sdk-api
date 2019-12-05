@@ -1,19 +1,17 @@
 ---
 UID: NS:comsvcs._ComponentSummary
 title: ComponentSummary (comsvcs.h)
-
 description: Represents summary information about a COM+ component hosted in a particular process. It can also represent a Services Without Components (SWC) context.
 old-location: cos\componentsummary.htm
 tech.root: cossdk
 ms.assetid: df752c4a-6a8d-4eac-b3dc-1647bf8a8e5a
-
 ms.date: 12/05/2018
 ms.keywords: ComponentSummary, ComponentSummary structure [COM+], comsvcs/ComponentSummary, cos.componentsummary
 ms.topic: struct
-f1_keywords: 
- - "comsvcs/ComponentSummary"
+f1_keywords:
+- comsvcs/ComponentSummary
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - ComponentSummary
+- ComponentSummary
 targetos: Windows
 req.typenames: ComponentSummary
 req.redist: 

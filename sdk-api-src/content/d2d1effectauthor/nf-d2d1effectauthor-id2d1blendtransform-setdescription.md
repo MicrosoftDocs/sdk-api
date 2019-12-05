@@ -1,19 +1,17 @@
 ---
 UID: NF:d2d1effectauthor.ID2D1BlendTransform.SetDescription
 title: ID2D1BlendTransform::SetDescription (d2d1effectauthor.h)
-
 description: Changes the blend description of the corresponding blend transform object.
 old-location: direct2d\id2d1blendtransform_setdescription.htm
 tech.root: Direct2D
 ms.assetid: 37E52B64-D998-4D85-858D-04A7751D7E0A
-
 ms.date: 12/05/2018
 ms.keywords: ID2D1BlendTransform interface [Direct2D],SetDescription method, ID2D1BlendTransform.SetDescription, ID2D1BlendTransform::SetDescription, SetDescription, SetDescription method [Direct2D], SetDescription method [Direct2D],ID2D1BlendTransform interface, d2d1effectauthor/ID2D1BlendTransform::SetDescription, direct2d.id2d1blendtransform_setdescription
 ms.topic: method
-f1_keywords: 
- - "d2d1effectauthor/ID2D1BlendTransform.SetDescription"
+f1_keywords:
+- d2d1effectauthor/ID2D1BlendTransform.SetDescription
 dev_langs:
- - c++
+- c++
 req.header: d2d1effectauthor.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: D2d1.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - d2d1.lib
- - d2d1.dll
+- d2d1.lib
+- d2d1.dll
 api_name:
- - ID2D1BlendTransform.SetDescription
+- ID2D1BlendTransform.SetDescription
 targetos: Windows
 req.typenames: 
 req.redist: 

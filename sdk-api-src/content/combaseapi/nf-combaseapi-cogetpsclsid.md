@@ -1,19 +1,17 @@
 ---
 UID: NF:combaseapi.CoGetPSClsid
 title: CoGetPSClsid function (combaseapi.h)
-
 description: Returns the CLSID of the DLL that implements the proxy and stub for the specified interface.
 old-location: com\cogetpsclsid.htm
 tech.root: com
 ms.assetid: dfe6b514-a80a-4adb-bf43-d9a7d0e5f4a3
-
 ms.date: 12/05/2018
 ms.keywords: CoGetPSClsid, CoGetPSClsid function [COM], _com_CoGetPSClsid, com.cogetpsclsid, combaseapi/CoGetPSClsid
 ms.topic: function
-f1_keywords: 
- - "combaseapi/CoGetPSClsid"
+f1_keywords:
+- combaseapi/CoGetPSClsid
 dev_langs:
- - c++
+- c++
 req.header: combaseapi.h
 req.include-header: Objbase.h
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib: Ole32.lib
 req.dll: Ole32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ole32.dll
- - API-MS-Win-Core-Com-l1-1-0.dll
- - ComBase.dll
- - API-MS-Win-Core-Com-l1-1-1.dll
- - API-MS-Win-DownLevel-Ole32-l1-1-1.dll
+- Ole32.dll
+- API-MS-Win-Core-Com-l1-1-0.dll
+- ComBase.dll
+- API-MS-Win-Core-Com-l1-1-1.dll
+- API-MS-Win-DownLevel-Ole32-l1-1-1.dll
 api_name:
- - CoGetPSClsid
+- CoGetPSClsid
 targetos: Windows
 req.typenames: 
 req.redist: 

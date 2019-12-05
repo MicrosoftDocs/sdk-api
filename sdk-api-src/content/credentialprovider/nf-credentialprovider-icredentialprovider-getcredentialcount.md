@@ -1,19 +1,17 @@
 ---
 UID: NF:credentialprovider.ICredentialProvider.GetCredentialCount
 title: ICredentialProvider::GetCredentialCount (credentialprovider.h)
-
 description: Gets the number of available credentials under this credential provider.
 old-location: shell\ICredentialProvider_GetCredentialCount.htm
 tech.root: shell
 ms.assetid: 7d940d46-d4c2-4ab5-8559-416d78d3579e
-
 ms.date: 12/05/2018
 ms.keywords: GetCredentialCount, GetCredentialCount method [Windows Shell], GetCredentialCount method [Windows Shell],ICredentialProvider interface, ICredentialProvider interface [Windows Shell],GetCredentialCount method, ICredentialProvider.GetCredentialCount, ICredentialProvider::GetCredentialCount, credentialprovider/ICredentialProvider::GetCredentialCount, shell.ICredentialProvider_GetCredentialCount, shell_ICredentialProvider_GetCredentialCount
 ms.topic: method
-f1_keywords: 
- - "credentialprovider/ICredentialProvider.GetCredentialCount"
+f1_keywords:
+- credentialprovider/ICredentialProvider.GetCredentialCount
 dev_langs:
- - c++
+- c++
 req.header: credentialprovider.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Credentialprovider.h
+- Credentialprovider.h
 api_name:
- - ICredentialProvider.GetCredentialCount
+- ICredentialProvider.GetCredentialCount
 targetos: Windows
 req.typenames: 
 req.redist: 

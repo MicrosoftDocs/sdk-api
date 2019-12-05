@@ -1,19 +1,17 @@
 ---
 UID: NF:mfplay.MFP_GET_PAUSE_EVENT
 title: MFP_GET_PAUSE_EVENT macro (mfplay.h)
-
 description: Casts an MFP_EVENT_HEADER pointer to an MFP_PAUSE_EVENT pointer.
 old-location: mf\mfp_get_pause_event.htm
 tech.root: medfound
 ms.assetid: 492b8c37-eae0-42ea-9a62-3c2e3ee0233f
-
 ms.date: 12/05/2018
 ms.keywords: MFP_GET_PAUSE_EVENT, MFP_GET_PAUSE_EVENT macro [Media Foundation], mf.mfp_get_pause_event, mfplay/MFP_GET_PAUSE_EVENT
 ms.topic: macro
-f1_keywords: 
- - "mfplay/MFP_GET_PAUSE_EVENT"
+f1_keywords:
+- mfplay/MFP_GET_PAUSE_EVENT
 dev_langs:
- - c++
+- c++
 req.header: mfplay.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - mfplay.h
+- mfplay.h
 api_name:
- - MFP_GET_PAUSE_EVENT
+- MFP_GET_PAUSE_EVENT
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:rpcproxy.NdrCStdStubBuffer2_Release
 title: NdrCStdStubBuffer2_Release function (rpcproxy.h)
-
 description: The NdrCStdStubBuffer2_Release function implements the IRpcStubBuffer::Release method.
 old-location: rpc\ndrcstdstubbuffer2_release.htm
 tech.root: Rpc
 ms.assetid: 7709da21-26a4-4ba7-a81f-fbe993fc0c08
-
 ms.date: 12/05/2018
 ms.keywords: NdrCStdStubBuffer2_Release, NdrCStdStubBuffer2_Release function [RPC], rpc.ndrcstdstubbuffer2_release, rpcproxy/NdrCStdStubBuffer2_Release
 ms.topic: function
-f1_keywords: 
- - "rpcproxy/NdrCStdStubBuffer2_Release"
+f1_keywords:
+- rpcproxy/NdrCStdStubBuffer2_Release
 dev_langs:
- - c++
+- c++
 req.header: rpcproxy.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: RpcRT4.lib
 req.dll: RpcRT4.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - RpcRT4.dll
+- RpcRT4.dll
 api_name:
- - NdrCStdStubBuffer2_Release
+- NdrCStdStubBuffer2_Release
 targetos: Windows
 req.typenames: 
 req.redist: 

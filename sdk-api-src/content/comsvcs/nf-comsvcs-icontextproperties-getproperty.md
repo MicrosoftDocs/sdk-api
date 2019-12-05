@@ -1,19 +1,17 @@
 ---
 UID: NF:comsvcs.IContextProperties.GetProperty
 title: IContextProperties::GetProperty (comsvcs.h)
-
 description: Retrieves a context object property.
 old-location: cos\icontextproperties_getproperty.htm
 tech.root: cossdk
 ms.assetid: dc7748b4-5cf4-41c6-af7d-82b2478b084c
-
 ms.date: 12/05/2018
 ms.keywords: GetProperty, GetProperty method [COM+], GetProperty method [COM+],IContextProperties interface, IContextProperties interface [COM+],GetProperty method, IContextProperties.GetProperty, IContextProperties::GetProperty, _cos_IContextProperties_GetProperty, comsvcs/IContextProperties::GetProperty, cos.icontextproperties_getproperty
 ms.topic: method
-f1_keywords: 
- - "comsvcs/IContextProperties.GetProperty"
+f1_keywords:
+- comsvcs/IContextProperties.GetProperty
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - IContextProperties.GetProperty
+- IContextProperties.GetProperty
 targetos: Windows
 req.typenames: 
 req.redist: 

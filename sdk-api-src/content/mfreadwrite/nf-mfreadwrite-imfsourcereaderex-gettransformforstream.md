@@ -1,19 +1,17 @@
 ---
 UID: NF:mfreadwrite.IMFSourceReaderEx.GetTransformForStream
 title: IMFSourceReaderEx::GetTransformForStream (mfreadwrite.h)
-
 description: Gets a pointer to a Media Foundation transform (MFT) for a specified stream.
 old-location: mf\imfsourcereaderex_gettransformforstream.htm
 tech.root: medfound
 ms.assetid: 39F2D132-5D2B-4389-AB30-FE2942EC3965
-
 ms.date: 12/05/2018
 ms.keywords: GetTransformForStream, GetTransformForStream method [Media Foundation], GetTransformForStream method [Media Foundation],IMFSourceReaderEx interface, IMFSourceReaderEx interface [Media Foundation],GetTransformForStream method, IMFSourceReaderEx.GetTransformForStream, IMFSourceReaderEx::GetTransformForStream, MF_SOURCE_READER_FIRST_AUDIO_STREAM, MF_SOURCE_READER_FIRST_VIDEO_STREAM, mf.imfsourcereaderex_gettransformforstream, mfreadwrite/IMFSourceReaderEx::GetTransformForStream
 ms.topic: method
-f1_keywords: 
- - "mfreadwrite/IMFSourceReaderEx.GetTransformForStream"
+f1_keywords:
+- mfreadwrite/IMFSourceReaderEx.GetTransformForStream
 dev_langs:
- - c++
+- c++
 req.header: mfreadwrite.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfreadwrite.h
+- mfreadwrite.h
 api_name:
- - IMFSourceReaderEx.GetTransformForStream
+- IMFSourceReaderEx.GetTransformForStream
 targetos: Windows
 req.typenames: 
 req.redist: 

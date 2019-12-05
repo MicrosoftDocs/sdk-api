@@ -1,19 +1,17 @@
 ---
 UID: NF:fsrmreports.IFsrmFileManagementJob.get_LastError
 title: IFsrmFileManagementJob::get_LastError (fsrmreports.h)
-
 description: The error message from the last time the job was run.
 old-location: fsrm\ifsrmfilemanagementjob_lasterror.htm
 tech.root: fsrm
 ms.assetid: f7a7d5fd-b060-41f6-be1f-038ab252259a
-
 ms.date: 12/05/2018
 ms.keywords: IFsrmFileManagementJob interface [File Server Resource Manager],LastError property, IFsrmFileManagementJob.LastError, IFsrmFileManagementJob.get_LastError, IFsrmFileManagementJob::LastError, IFsrmFileManagementJob::get_LastError, LastError property [File Server Resource Manager], LastError property [File Server Resource Manager],IFsrmFileManagementJob interface, fs.ifsrmfilemanagementjob_lasterror, fsrm.ifsrmfilemanagementjob_lasterror, fsrmreports/IFsrmFileManagementJob::LastError, fsrmreports/IFsrmFileManagementJob::get_LastError, get_LastError
 ms.topic: method
-f1_keywords: 
- - "fsrmreports/IFsrmFileManagementJob.LastError"
+f1_keywords:
+- fsrmreports/IFsrmFileManagementJob.LastError
 dev_langs:
- - c++
+- c++
 req.header: fsrmreports.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: SrmSvc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - SrmSvc.dll
+- SrmSvc.dll
 api_name:
- - IFsrmFileManagementJob.LastError
- - IFsrmFileManagementJob.get_LastError
+- IFsrmFileManagementJob.LastError
+- IFsrmFileManagementJob.get_LastError
 targetos: Windows
 req.typenames: 
 req.redist: 

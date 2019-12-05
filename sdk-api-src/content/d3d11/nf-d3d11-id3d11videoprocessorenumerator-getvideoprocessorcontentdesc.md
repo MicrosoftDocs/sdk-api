@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d11.ID3D11VideoProcessorEnumerator.GetVideoProcessorContentDesc
 title: ID3D11VideoProcessorEnumerator::GetVideoProcessorContentDesc (d3d11.h)
-
 description: Gets the content description that was used to create this enumerator.
 old-location: mf\id3d11videoprocessorenumerator_getvideoprocessorcontentdesc.htm
 tech.root: medfound
 ms.assetid: BDB52B2E-1D76-4867-AD58-2A77BC5B6ABD
-
 ms.date: 12/05/2018
 ms.keywords: GetVideoProcessorContentDesc, GetVideoProcessorContentDesc method [Media Foundation], GetVideoProcessorContentDesc method [Media Foundation],ID3D11VideoProcessorEnumerator interface, ID3D11VideoProcessorEnumerator interface [Media Foundation],GetVideoProcessorContentDesc method, ID3D11VideoProcessorEnumerator.GetVideoProcessorContentDesc, ID3D11VideoProcessorEnumerator::GetVideoProcessorContentDesc, d3d11/ID3D11VideoProcessorEnumerator::GetVideoProcessorContentDesc, mf.id3d11videoprocessorenumerator_getvideoprocessorcontentdesc
 ms.topic: method
-f1_keywords: 
- - "d3d11/ID3D11VideoProcessorEnumerator.GetVideoProcessorContentDesc"
+f1_keywords:
+- d3d11/ID3D11VideoProcessorEnumerator.GetVideoProcessorContentDesc
 dev_langs:
- - c++
+- c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - d3d11.h
+- d3d11.h
 api_name:
- - ID3D11VideoProcessorEnumerator.GetVideoProcessorContentDesc
+- ID3D11VideoProcessorEnumerator.GetVideoProcessorContentDesc
 targetos: Windows
 req.typenames: 
 req.redist: 

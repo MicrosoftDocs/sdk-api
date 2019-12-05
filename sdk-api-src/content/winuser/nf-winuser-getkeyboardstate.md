@@ -1,19 +1,17 @@
 ---
 UID: NF:winuser.GetKeyboardState
 title: GetKeyboardState function (winuser.h)
-
 description: Copies the status of the 256 virtual keys to the specified buffer.
 old-location: inputdev\getkeyboardstate.htm
 tech.root: inputdev
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\keyboardinput\keyboardinputreference\keyboardinputfunctions\getkeyboardstate.htm
-
 ms.date: 12/05/2018
 ms.keywords: GetKeyboardState, GetKeyboardState function [Keyboard and Mouse Input], _win32_GetKeyboardState, _win32_getkeyboardstate_cpp, inputdev.getkeyboardstate, winui._win32_getkeyboardstate, winuser/GetKeyboardState
 ms.topic: function
-f1_keywords: 
- - "winuser/GetKeyboardState"
+f1_keywords:
+- winuser/GetKeyboardState
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,21 +30,21 @@ req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - User32.dll
- - Ext-MS-Win-NTUser-Keyboard-l1-1-0.dll
- - Ext-MS-Win-NTUser-Keyboard-l1-1-1.dll
- - api-ms-win-ntuser-ie-keyboard-l1-1-0.dll
- - ie_stubs.dll
- - ext-ms-win-ntuser-keyboard-l1-1-2.dll
- - Ext-MS-Win-RTCore-NTUser-Rawinput-L1-1-0.dll
- - MinUser.dll
+- User32.dll
+- Ext-MS-Win-NTUser-Keyboard-l1-1-0.dll
+- Ext-MS-Win-NTUser-Keyboard-l1-1-1.dll
+- api-ms-win-ntuser-ie-keyboard-l1-1-0.dll
+- ie_stubs.dll
+- ext-ms-win-ntuser-keyboard-l1-1-2.dll
+- Ext-MS-Win-RTCore-NTUser-Rawinput-L1-1-0.dll
+- MinUser.dll
 api_name:
- - GetKeyboardState
+- GetKeyboardState
 targetos: Windows
 req.typenames: 
 req.redist: 

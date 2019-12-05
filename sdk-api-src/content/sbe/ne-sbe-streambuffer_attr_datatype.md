@@ -1,19 +1,17 @@
 ---
 UID: NE:sbe.STREAMBUFFER_ATTR_DATATYPE
 title: STREAMBUFFER_ATTR_DATATYPE (sbe.h)
-
 description: This topic applies only to Windows XP Service Pack 1 or later.
 old-location: mstv\streambuffer_attr_datatype.htm
 tech.root: mstv
 ms.assetid: be478769-d9ac-4e42-b5f6-94b5656e2596
-
 ms.date: 12/05/2018
 ms.keywords: STREAMBUFFER_ATTR_DATATYPE, STREAMBUFFER_ATTR_DATATYPE , STREAMBUFFER_ATTR_DATATYPE enumeration [Microsoft TV Technologies], STREAMBUFFER_ATTR_DATATYPEEnumeration, STREAMBUFFER_TYPE_BINARY, STREAMBUFFER_TYPE_BOOL, STREAMBUFFER_TYPE_DWORD, STREAMBUFFER_TYPE_GUID, STREAMBUFFER_TYPE_QWORD, STREAMBUFFER_TYPE_STRING, STREAMBUFFER_TYPE_WORD, mstv.streambuffer_attr_datatype, sbe/STREAMBUFFER_ATTR_DATATYPE, sbe/STREAMBUFFER_TYPE_BINARY, sbe/STREAMBUFFER_TYPE_BOOL, sbe/STREAMBUFFER_TYPE_DWORD, sbe/STREAMBUFFER_TYPE_GUID, sbe/STREAMBUFFER_TYPE_QWORD, sbe/STREAMBUFFER_TYPE_STRING, sbe/STREAMBUFFER_TYPE_WORD
 ms.topic: enum
-f1_keywords: 
- - "sbe/STREAMBUFFER_ATTR_DATATYPE"
+f1_keywords:
+- sbe/STREAMBUFFER_ATTR_DATATYPE
 dev_langs:
- - c++
+- c++
 req.header: sbe.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Sbe.h
+- Sbe.h
 api_name:
- - STREAMBUFFER_ATTR_DATATYPE
+- STREAMBUFFER_ATTR_DATATYPE
 targetos: Windows
 req.typenames: STREAMBUFFER_ATTR_DATATYPE
 req.redist: 

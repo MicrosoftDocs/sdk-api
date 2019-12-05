@@ -1,19 +1,17 @@
 ---
 UID: NN:cscobj.IOfflineFilesDirtyInfo
 title: IOfflineFilesDirtyInfo (cscobj.h)
-
 description: Represents information about an unsynchronized (&#0034;dirty&#0034;) file in the Offline Files cache.
 old-location: of\iofflinefilesdirtyinfo.htm
 tech.root: offlinefiles
 ms.assetid: 10414443-9e7f-4520-80dd-d2ad098c1d44
-
 ms.date: 12/05/2018
 ms.keywords: IOfflineFilesDirtyInfo, IOfflineFilesDirtyInfo interface [Offline Files], IOfflineFilesDirtyInfo interface [Offline Files],described, cscobj/IOfflineFilesDirtyInfo, of.iofflinefilesdirtyinfo
 ms.topic: interface
-f1_keywords: 
- - "cscobj/IOfflineFilesDirtyInfo"
+f1_keywords:
+- cscobj/IOfflineFilesDirtyInfo
 dev_langs:
- - c++
+- c++
 req.header: cscobj.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: CscSvc.dll; CscObj.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CscSvc.dll
- - CscObj.dll
+- CscSvc.dll
+- CscObj.dll
 api_name:
- - IOfflineFilesDirtyInfo
+- IOfflineFilesDirtyInfo
 targetos: Windows
 req.typenames: 
 req.redist: 

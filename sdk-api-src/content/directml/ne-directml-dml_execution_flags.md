@@ -1,19 +1,17 @@
 ---
 UID: NE:directml.DML_EXECUTION_FLAGS
 title: DML_EXECUTION_FLAGS
-
 description: Supplies options to DirectML to control execution of operators. These flags can be bitwise OR'd together to specify multiple flags at once.
 old-location: direct3d12\dml_execution_flags.htm
 tech.root: direct3d12
 ms.assetid: 753E51EE-8739-4263-8257-FBC13718B71F
-
 ms.date: 12/5/2018
 ms.keywords: DML_EXECUTION_FLAGS, DML_EXECUTION_FLAGS enumeration, DML_EXECUTION_FLAG_ALLOW_HALF_PRECISION_COMPUTATION, DML_EXECUTION_FLAG_DESCRIPTORS_VOLATILE, DML_EXECUTION_FLAG_DISABLE_META_COMMANDS, DML_EXECUTION_FLAG_NONE, direct3d12.dml_execution_flags, directml/DML_EXECUTION_FLAGS, directml/DML_EXECUTION_FLAG_ALLOW_HALF_PRECISION_COMPUTATION, directml/DML_EXECUTION_FLAG_DESCRIPTORS_VOLATILE, directml/DML_EXECUTION_FLAG_DISABLE_META_COMMANDS, directml/DML_EXECUTION_FLAG_NONE
 ms.topic: enum
-f1_keywords: 
- - "directml/DML_EXECUTION_FLAGS"
+f1_keywords:
+- directml/DML_EXECUTION_FLAGS
 dev_langs:
- - c++
+- c++
 req.header: directml.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - DirectML.h
+- DirectML.h
 api_name:
- - DML_EXECUTION_FLAGS
+- DML_EXECUTION_FLAGS
 targetos: Windows
 req.typenames: 
 req.redist: 

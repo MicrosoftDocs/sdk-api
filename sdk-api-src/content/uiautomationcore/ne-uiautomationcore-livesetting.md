@@ -1,19 +1,17 @@
 ---
 UID: NE:uiautomationcore.LiveSetting
 title: LiveSetting (uiautomationcore.h)
-
 description: Contains possible values for the LiveSetting property. This property is implemented by provider elements that are part of a live region.
 old-location: winauto\uiauto_LiveSetting.htm
 tech.root: WinAuto
 ms.assetid: 40DD1F00-A9BC-4C84-B2A3-940E37EE9C19
-
 ms.date: 12/05/2018
 ms.keywords: LiveSetting, LiveSetting enumeration [Windows Accessibility], LiveSetting_Assertive, LiveSetting_Off, LiveSetting_Polite, uiautomationcore/LiveSetting, uiautomationcore/LiveSetting_Assertive, uiautomationcore/LiveSetting_Off, uiautomationcore/LiveSetting_Polite, winauto.uiauto_LiveSetting
 ms.topic: enum
-f1_keywords: 
- - "uiautomationcore/LiveSetting"
+f1_keywords:
+- uiautomationcore/LiveSetting
 dev_langs:
- - c++
+- c++
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - UIAutomationCore.h
+- UIAutomationCore.h
 api_name:
- - LiveSetting
+- LiveSetting
 targetos: Windows
 req.typenames: 
 req.redist: 

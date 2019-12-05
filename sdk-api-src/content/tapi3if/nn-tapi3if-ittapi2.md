@@ -1,19 +1,17 @@
 ---
 UID: NN:tapi3if.ITTAPI2
 title: ITTAPI2 (tapi3if.h)
-
 description: The ITTAPI2 interface derives from the ITTAPI interface. It adds additional methods on the TAPI object to support phone devices.
 old-location: tapi3\ittapi2.htm
 tech.root: Tapi
 ms.assetid: 8c67f31e-783e-4371-9f17-063f8ecfc069
-
 ms.date: 12/05/2018
 ms.keywords: ITTAPI2, ITTAPI2 interface [TAPI 2.2], ITTAPI2 interface [TAPI 2.2],described, _tapi3_ittapi2, tapi3.ittapi2, tapi3if/ITTAPI2
 ms.topic: interface
-f1_keywords: 
- - "tapi3if/ITTAPI2"
+f1_keywords:
+- tapi3if/ITTAPI2
 dev_langs:
- - c++
+- c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Tapi3.dll
+- Tapi3.dll
 api_name:
- - ITTAPI2
+- ITTAPI2
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:propsys.PSPropertyBag_WritePOINTS
 title: PSPropertyBag_WritePOINTS function (propsys.h)
-
 description: Stores the property coordinates in aPOINTS structure of a specified property bag.
 old-location: properties\PSPropertyBag_WritePOINTS.htm
 tech.root: properties
 ms.assetid: B1E3E061-042A-4ba0-98F2-EA8A022882CC
-
 ms.date: 12/05/2018
 ms.keywords: PSPropertyBag_WritePOINTS, PSPropertyBag_WritePOINTS function [Windows Properties], properties.PSPropertyBag_WritePOINTS, propsys/PSPropertyBag_WritePOINTS, shell.PSPropertyBag_WritePOINTS, shell_PSPropertyBag_WritePOINTS
 ms.topic: function
-f1_keywords: 
- - "propsys/PSPropertyBag_WritePOINTS"
+f1_keywords:
+- propsys/PSPropertyBag_WritePOINTS
 dev_langs:
- - c++
+- c++
 req.header: propsys.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Propsys.lib
 req.dll: Propsys.dll (version 6.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Propsys.dll
+- Propsys.dll
 api_name:
- - PSPropertyBag_WritePOINTS
+- PSPropertyBag_WritePOINTS
 targetos: Windows
 req.typenames: 
 req.redist: 

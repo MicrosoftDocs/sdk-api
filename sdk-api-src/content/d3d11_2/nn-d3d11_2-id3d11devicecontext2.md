@@ -1,19 +1,17 @@
 ---
 UID: NN:d3d11_2.ID3D11DeviceContext2
 title: ID3D11DeviceContext2 (d3d11_2.h)
-
 description: The device context interface represents a device context; it is used to render commands. ID3D11DeviceContext2 adds new methods to those in ID3D11DeviceContext1.
 old-location: direct3d11\id3d11devicecontext2.htm
 tech.root: direct3d11
 ms.assetid: 8B6B6F6E-9236-4DEE-A1BA-5FE45736DFAA
-
 ms.date: 12/05/2018
 ms.keywords: ID3D11DeviceContext2, ID3D11DeviceContext2 interface [Direct3D 11], ID3D11DeviceContext2 interface [Direct3D 11],described, d3d11_2/ID3D11DeviceContext2, direct3d11.id3d11devicecontext2
 ms.topic: interface
-f1_keywords: 
- - "d3d11_2/ID3D11DeviceContext2"
+f1_keywords:
+- d3d11_2/ID3D11DeviceContext2
 dev_langs:
- - c++
+- c++
 req.header: d3d11_2.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: D3D11.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D11.lib
- - D3D11.dll
+- D3D11.lib
+- D3D11.dll
 api_name:
- - ID3D11DeviceContext2
+- ID3D11DeviceContext2
 targetos: Windows
 req.typenames: 
 req.redist: 

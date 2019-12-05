@@ -1,19 +1,17 @@
 ---
 UID: NF:qmgr.IBackgroundCopyQMgr.EnumGroups
 title: IBackgroundCopyQMgr::EnumGroups (qmgr.h)
-
 description: Use the EnumGroups method to retrieve a list of groups that the current user owns. If the current user has Administrator privileges, the method returns all groups in the queue.
 old-location: bits\ibackgroundcopyqmgr_enumgroups.htm
 tech.root: Bits
 ms.assetid: 27cf17e3-b35a-4453-ae0a-8b080fd120dc
-
 ms.date: 12/05/2018
 ms.keywords: EnumGroups, EnumGroups method [BITS], EnumGroups method [BITS],IBackgroundCopyQMgr interface, IBackgroundCopyQMgr interface [BITS],EnumGroups method, IBackgroundCopyQMgr.EnumGroups, IBackgroundCopyQMgr::EnumGroups, bits.ibackgroundcopyqmgr_enumgroups, qmgr/IBackgroundCopyQMgr::EnumGroups
 ms.topic: method
-f1_keywords: 
- - "qmgr/IBackgroundCopyQMgr.EnumGroups"
+f1_keywords:
+- qmgr/IBackgroundCopyQMgr.EnumGroups
 dev_langs:
- - c++
+- c++
 req.header: qmgr.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: QmgrPrxy.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - QmgrPrxy.dll
+- QmgrPrxy.dll
 api_name:
- - IBackgroundCopyQMgr.EnumGroups
+- IBackgroundCopyQMgr.EnumGroups
 targetos: Windows
 req.typenames: 
 req.redist: 

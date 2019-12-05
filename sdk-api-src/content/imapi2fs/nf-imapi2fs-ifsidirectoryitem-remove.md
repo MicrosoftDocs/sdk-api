@@ -1,19 +1,17 @@
 ---
 UID: NF:imapi2fs.IFsiDirectoryItem.Remove
 title: IFsiDirectoryItem::Remove (imapi2fs.h)
-
 description: Removes the specified item from the file system image.
 old-location: imapi\ifsidirectoryitem_remove.htm
 tech.root: imapi
 ms.assetid: bbd45185-439a-4847-8481-7139e81b34fd
-
 ms.date: 12/05/2018
 ms.keywords: IFsiDirectoryItem interface [IMAPI],Remove method, IFsiDirectoryItem.Remove, IFsiDirectoryItem::Remove, Remove, Remove method [IMAPI], Remove method [IMAPI],IFsiDirectoryItem interface, imapi.ifsidirectoryitem_remove, imapi2fs/IFsiDirectoryItem::Remove
 ms.topic: method
-f1_keywords: 
- - "imapi2fs/IFsiDirectoryItem.Remove"
+f1_keywords:
+- imapi2fs/IFsiDirectoryItem.Remove
 dev_langs:
- - c++
+- c++
 req.header: imapi2fs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - imapi2fs.h
+- imapi2fs.h
 api_name:
- - IFsiDirectoryItem.Remove
+- IFsiDirectoryItem.Remove
 targetos: Windows
 req.typenames: 
 req.redist: 

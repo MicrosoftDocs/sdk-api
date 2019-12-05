@@ -1,19 +1,17 @@
 ---
 UID: NF:wtsprotocol.IWTSProtocolManager.CreateListener
 title: IWTSProtocolManager::CreateListener (wtsprotocol.h)
-
 description: IWTSProtocolManager::CreateListener is no longer available. Instead, use IWRdsProtocolManager::CreateListener.
 old-location: termserv\iwtsprotocolmanager_createlistener.htm
 tech.root: TermServ
 ms.assetid: 2c947181-5cac-40c1-b993-537b580efafe
-
 ms.date: 12/05/2018
 ms.keywords: CreateListener, CreateListener method [Remote Desktop Services], CreateListener method [Remote Desktop Services],IWTSProtocolManager interface, IWTSProtocolManager interface [Remote Desktop Services],CreateListener method, IWTSProtocolManager.CreateListener, IWTSProtocolManager::CreateListener, termserv.iwtsprotocolmanager_createlistener, wtsprotocol/IWTSProtocolManager::CreateListener
 ms.topic: method
-f1_keywords: 
- - "wtsprotocol/IWTSProtocolManager.CreateListener"
+f1_keywords:
+- wtsprotocol/IWTSProtocolManager.CreateListener
 dev_langs:
- - c++
+- c++
 req.header: wtsprotocol.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wtsprotocol.h
+- Wtsprotocol.h
 api_name:
- - IWTSProtocolManager.CreateListener
+- IWTSProtocolManager.CreateListener
 targetos: Windows
 req.typenames: 
 req.redist: 

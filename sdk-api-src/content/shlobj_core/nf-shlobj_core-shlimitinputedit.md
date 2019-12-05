@@ -1,19 +1,17 @@
 ---
 UID: NF:shlobj_core.SHLimitInputEdit
 title: SHLimitInputEdit function (shlobj_core.h)
-
 description: Sets limits on valid characters for an edit control.
 old-location: shell\SHLimitInputEdit.htm
 tech.root: shell
 ms.assetid: 3f03374f-8dfe-4b80-9ecc-12c6548f2865
-
 ms.date: 12/05/2018
 ms.keywords: SHLimitInputEdit, SHLimitInputEdit function [Windows Shell], _shell_SHLimitInputEdit, shell.SHLimitInputEdit, shlobj_core/SHLimitInputEdit
 ms.topic: function
-f1_keywords: 
- - "shlobj_core/SHLimitInputEdit"
+f1_keywords:
+- shlobj_core/SHLimitInputEdit
 dev_langs:
- - c++
+- c++
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Shell32.lib
 req.dll: Shell32.dll (version 5.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Shell32.dll
- - ext-ms-win-shell-shell32-l1-2-1.dll
- - Ext-MS-Win-Shell-Shell32-L1-2-2.dll
+- Shell32.dll
+- ext-ms-win-shell-shell32-l1-2-1.dll
+- Ext-MS-Win-Shell-Shell32-L1-2-2.dll
 api_name:
- - SHLimitInputEdit
+- SHLimitInputEdit
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:directxmath.XMColorRGBToHSV
 title: XMColorRGBToHSV function (directxmath.h)
-
 description: Converts RGB color values to HSV color values.
 old-location: dxmath\xmcolorrgbtohsv.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.color.XMColorRGBToHSV(XMVECTOR)
-
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMColorRGBToHSV, XMColorRGBToHSV, XMColorRGBToHSV method [DirectX Math Support APIs], dxmath.xmcolorrgbtohsv
 ms.topic: function
-f1_keywords: 
- - "directxmath/XMColorRGBToHSV"
+f1_keywords:
+- directxmath/XMColorRGBToHSV
 dev_langs:
- - c++
+- c++
 req.header: directxmath.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - DirectXMath.h
+- DirectXMath.h
 api_name:
- - XMColorRGBToHSV
+- XMColorRGBToHSV
 targetos: Windows
 req.typenames: 
 req.redist: 

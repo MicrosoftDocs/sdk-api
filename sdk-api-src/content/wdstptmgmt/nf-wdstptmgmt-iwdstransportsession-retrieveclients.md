@@ -1,19 +1,17 @@
 ---
 UID: NF:wdstptmgmt.IWdsTransportSession.RetrieveClients
 title: IWdsTransportSession::RetrieveClients (wdstptmgmt.h)
-
 description: Retrieves a collection of WDS clients joined to the transport session.
 old-location: wds\iwdstransportsession_retrieveclients.htm
 tech.root: wds
 ms.assetid: c6e41658-8d91-4c15-8a5f-a9f43490890a
-
 ms.date: 12/05/2018
 ms.keywords: IWdsTransportSession interface [Windows Deployment Services],RetrieveClients method, IWdsTransportSession.RetrieveClients, IWdsTransportSession::RetrieveClients, RetrieveClients, RetrieveClients method [Windows Deployment Services], RetrieveClients method [Windows Deployment Services],IWdsTransportSession interface, wds.iwdstransportsession_retrieveclients, wdstptmgmt/IWdsTransportSession::RetrieveClients
 ms.topic: method
-f1_keywords: 
- - "wdstptmgmt/IWdsTransportSession.RetrieveClients"
+f1_keywords:
+- wdstptmgmt/IWdsTransportSession.RetrieveClients
 dev_langs:
- - c++
+- c++
 req.header: wdstptmgmt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wdstptmgmt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wdstptmgmt.dll
+- Wdstptmgmt.dll
 api_name:
- - IWdsTransportSession.RetrieveClients
+- IWdsTransportSession.RetrieveClients
 targetos: Windows
 req.typenames: 
 req.redist: 

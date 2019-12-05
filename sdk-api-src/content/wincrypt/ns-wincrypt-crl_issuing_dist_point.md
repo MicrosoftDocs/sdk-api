@@ -1,19 +1,17 @@
 ---
 UID: NS:wincrypt._CRL_ISSUING_DIST_POINT
 title: CRL_ISSUING_DIST_POINT (wincrypt.h)
-
 description: Contains information about the kinds of certificates listed in a certificate revocation list (CRL).
 old-location: security\crl_issuing_dist_point.htm
 tech.root: SecCrypto
 ms.assetid: cdac9e96-5b26-4398-8863-16ea2c43f11e
-
 ms.date: 12/05/2018
 ms.keywords: '*PCRL_ISSUING_DIST_POINT, CRL_ISSUING_DIST_POINT, CRL_ISSUING_DIST_POINT structure [Security], PCRL_ISSUING_DIST_POINT, PCRL_ISSUING_DIST_POINT structure pointer [Security], _crypto2_crl_issuing_dist_point, security.crl_issuing_dist_point, wincrypt/CRL_ISSUING_DIST_POINT, wincrypt/PCRL_ISSUING_DIST_POINT'
 ms.topic: struct
 f1_keywords:
 - wincrypt/CRL_ISSUING_DIST_POINT
 dev_langs:
- - c++
+- c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

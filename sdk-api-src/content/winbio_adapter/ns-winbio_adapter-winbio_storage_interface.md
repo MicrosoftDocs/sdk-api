@@ -1,19 +1,17 @@
 ---
 UID: NS:winbio_adapter._WINBIO_STORAGE_INTERFACE
 title: WINBIO_STORAGE_INTERFACE (winbio_adapter.h)
-
 description: Contains pointers to your custom storage adapter functions.
 old-location: secbiomet\winbio_storage_interface.htm
 tech.root: SecBioMet
 ms.assetid: 1cc7ce07-66df-43d9-9db2-50558a0f5f47
-
 ms.date: 12/05/2018
-ms.keywords: "*PWINBIO_STORAGE_INTERFACE, PWINBIO_STORAGE_INTERFACE, PWINBIO_STORAGE_INTERFACE structure pointer [Windows Biometric Framework API], WINBIO_STORAGE_INTERFACE, WINBIO_STORAGE_INTERFACE structure [Windows Biometric Framework API], secbiomet.winbio_storage_interface, winbio_adapter/PWINBIO_STORAGE_INTERFACE, winbio_adapter/WINBIO_STORAGE_INTERFACE"
+ms.keywords: '*PWINBIO_STORAGE_INTERFACE, PWINBIO_STORAGE_INTERFACE, PWINBIO_STORAGE_INTERFACE structure pointer [Windows Biometric Framework API], WINBIO_STORAGE_INTERFACE, WINBIO_STORAGE_INTERFACE structure [Windows Biometric Framework API], secbiomet.winbio_storage_interface, winbio_adapter/PWINBIO_STORAGE_INTERFACE, winbio_adapter/WINBIO_STORAGE_INTERFACE'
 ms.topic: struct
-f1_keywords: 
- - "winbio_adapter/WINBIO_STORAGE_INTERFACE"
+f1_keywords:
+- winbio_adapter/WINBIO_STORAGE_INTERFACE
 dev_langs:
- - c++
+- c++
 req.header: winbio_adapter.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Winbio_adapter.h
+- Winbio_adapter.h
 api_name:
- - WINBIO_STORAGE_INTERFACE
+- WINBIO_STORAGE_INTERFACE
 targetos: Windows
-req.typenames: "*PWINBIO_STORAGE_INTERFACE, WINBIO_STORAGE_INTERFACE"
+req.typenames: '*PWINBIO_STORAGE_INTERFACE, WINBIO_STORAGE_INTERFACE'
 req.redist: 
 ms.custom: 19H1
 ---

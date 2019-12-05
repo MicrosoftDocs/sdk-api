@@ -1,19 +1,17 @@
 ---
 UID: NN:uiautomationcore.ITransformProvider
 title: ITransformProvider (uiautomationcore.h)
-
 description: Provides access to controls that can be moved, resized, and/or rotated within a two-dimensional space.
 old-location: winauto\uiauto_ITransformProvider.htm
 tech.root: WinAuto
 ms.assetid: cdc2f81b-cf69-469f-9139-e9a73cf8c730
-
 ms.date: 12/05/2018
 ms.keywords: ITransformProvider, ITransformProvider interface [Windows Accessibility], ITransformProvider interface [Windows Accessibility],described, uiauto.uiauto_ITransformProvider, uiauto_ITransformProvider, uiautomationcore/ITransformProvider, winauto.uiauto_ITransformProvider
 ms.topic: interface
-f1_keywords: 
- - "uiautomationcore/ITransformProvider"
+f1_keywords:
+- uiautomationcore/ITransformProvider
 dev_langs:
- - c++
+- c++
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: UIAutomationCore.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationCore.dll
+- UIAutomationCore.dll
 api_name:
- - ITransformProvider
+- ITransformProvider
 targetos: Windows
 req.typenames: 
 req.redist: 

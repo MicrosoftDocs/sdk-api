@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IAMStreamSelect.Count
 title: IAMStreamSelect::Count (strmif.h)
-
 description: The Count method retrieves the number of available streams.
 old-location: dshow\iamstreamselect_count.htm
 tech.root: DirectShow
 ms.assetid: 5104ce98-5b13-409a-9226-0c089ee8bb1e
-
 ms.date: 12/05/2018
 ms.keywords: Count, Count method [DirectShow], Count method [DirectShow],IAMStreamSelect interface, IAMStreamSelect interface [DirectShow],Count method, IAMStreamSelect.Count, IAMStreamSelect::Count, IAMStreamSelectCount, dshow.iamstreamselect_count, strmif/IAMStreamSelect::Count
 ms.topic: method
-f1_keywords: 
- - "strmif/IAMStreamSelect.Count"
+f1_keywords:
+- strmif/IAMStreamSelect.Count
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IAMStreamSelect.Count
+- IAMStreamSelect.Count
 targetos: Windows
 req.typenames: 
 req.redist: 

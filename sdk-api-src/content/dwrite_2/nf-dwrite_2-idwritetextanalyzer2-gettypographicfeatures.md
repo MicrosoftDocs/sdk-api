@@ -1,19 +1,17 @@
 ---
 UID: NF:dwrite_2.IDWriteTextAnalyzer2.GetTypographicFeatures
 title: IDWriteTextAnalyzer2::GetTypographicFeatures (dwrite_2.h)
-
 description: Returns a complete list of OpenType features available for a script or font.
 old-location: directwrite\idwritetextanalyzer2_gettypographicfeatures.htm
 tech.root: DirectWrite
 ms.assetid: 36CAC2F8-9065-4FD9-8EFD-529B97CE94D8
-
 ms.date: 12/05/2018
 ms.keywords: GetTypographicFeatures, GetTypographicFeatures method [Direct Write], GetTypographicFeatures method [Direct Write],IDWriteTextAnalyzer2 interface, IDWriteTextAnalyzer2 interface [Direct Write],GetTypographicFeatures method, IDWriteTextAnalyzer2.GetTypographicFeatures, IDWriteTextAnalyzer2::GetTypographicFeatures, directwrite.idwritetextanalyzer2_gettypographicfeatures, dwrite_2/IDWriteTextAnalyzer2::GetTypographicFeatures
 ms.topic: method
-f1_keywords: 
- - "dwrite_2/IDWriteTextAnalyzer2.GetTypographicFeatures"
+f1_keywords:
+- dwrite_2/IDWriteTextAnalyzer2.GetTypographicFeatures
 dev_langs:
- - c++
+- c++
 req.header: dwrite_2.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dwrite.lib
 req.dll: Dwrite.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dwrite.dll
+- dwrite.dll
 api_name:
- - IDWriteTextAnalyzer2.GetTypographicFeatures
+- IDWriteTextAnalyzer2.GetTypographicFeatures
 targetos: Windows
 req.typenames: 
 req.redist: 

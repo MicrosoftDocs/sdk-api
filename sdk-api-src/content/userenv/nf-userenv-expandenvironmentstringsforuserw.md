@@ -1,19 +1,17 @@
 ---
 UID: NF:userenv.ExpandEnvironmentStringsForUserW
 title: ExpandEnvironmentStringsForUserW function (userenv.h)
-
 description: Expands the source string by using the environment block established for the specified user.
 old-location: shell\ExpandEnvironmentStringsForUser.htm
 tech.root: shell
 ms.assetid: d32fa6c8-035a-4c84-b210-5366f21b6c17
-
 ms.date: 12/05/2018
 ms.keywords: ExpandEnvironmentStringsForUser, ExpandEnvironmentStringsForUser function [Windows Shell], ExpandEnvironmentStringsForUserA, ExpandEnvironmentStringsForUserW, _shell_ExpandEnvironmentStringsForUser, shell.ExpandEnvironmentStringsForUser, userenv/ExpandEnvironmentStringsForUser, userenv/ExpandEnvironmentStringsForUserA, userenv/ExpandEnvironmentStringsForUserW
 ms.topic: function
-f1_keywords: 
- - "userenv/ExpandEnvironmentStringsForUser"
+f1_keywords:
+- userenv/ExpandEnvironmentStringsForUser
 dev_langs:
- - c++
+- c++
 req.header: userenv.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Userenv.lib
 req.dll: Userenv.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Userenv.dll
+- Userenv.dll
 api_name:
- - ExpandEnvironmentStringsForUser
- - ExpandEnvironmentStringsForUserA
- - ExpandEnvironmentStringsForUserW
+- ExpandEnvironmentStringsForUser
+- ExpandEnvironmentStringsForUserA
+- ExpandEnvironmentStringsForUserW
 targetos: Windows
 req.typenames: 
 req.redist: 

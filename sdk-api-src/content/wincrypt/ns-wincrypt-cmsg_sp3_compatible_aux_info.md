@@ -1,19 +1,17 @@
 ---
 UID: NS:wincrypt._CMSG_SP3_COMPATIBLE_AUX_INFO
 title: CMSG_SP3_COMPATIBLE_AUX_INFO (wincrypt.h)
-
 description: Contains information needed for SP3 compatible encryption.
 old-location: security\cmsg_sp3_compatible_aux_info.htm
 tech.root: SecCrypto
 ms.assetid: 9afd38c5-fccd-43ea-9c30-c62fdcbee633
-
 ms.date: 12/05/2018
-ms.keywords: "*PCMSG_SP3_COMPATIBLE_AUX_INFO, CMSG_SP3_COMPATIBLE_AUX_INFO, CMSG_SP3_COMPATIBLE_AUX_INFO structure [Security], PCMSG_SP3_COMPATIBLE_AUX_INFO, PCMSG_SP3_COMPATIBLE_AUX_INFO structure pointer [Security], _crypto2_cmsg_sp3_compatible_aux_info, security.cmsg_sp3_compatible_aux_info, wincrypt/CMSG_SP3_COMPATIBLE_AUX_INFO, wincrypt/PCMSG_SP3_COMPATIBLE_AUX_INFO"
+ms.keywords: '*PCMSG_SP3_COMPATIBLE_AUX_INFO, CMSG_SP3_COMPATIBLE_AUX_INFO, CMSG_SP3_COMPATIBLE_AUX_INFO structure [Security], PCMSG_SP3_COMPATIBLE_AUX_INFO, PCMSG_SP3_COMPATIBLE_AUX_INFO structure pointer [Security], _crypto2_cmsg_sp3_compatible_aux_info, security.cmsg_sp3_compatible_aux_info, wincrypt/CMSG_SP3_COMPATIBLE_AUX_INFO, wincrypt/PCMSG_SP3_COMPATIBLE_AUX_INFO'
 ms.topic: struct
-f1_keywords: 
- - "wincrypt/CMSG_SP3_COMPATIBLE_AUX_INFO"
+f1_keywords:
+- wincrypt/CMSG_SP3_COMPATIBLE_AUX_INFO
 dev_langs:
- - c++
+- c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wincrypt.h
+- Wincrypt.h
 api_name:
- - CMSG_SP3_COMPATIBLE_AUX_INFO
+- CMSG_SP3_COMPATIBLE_AUX_INFO
 targetos: Windows
 req.typenames: CMSG_SP3_COMPATIBLE_AUX_INFO, *PCMSG_SP3_COMPATIBLE_AUX_INFO
 req.redist: 

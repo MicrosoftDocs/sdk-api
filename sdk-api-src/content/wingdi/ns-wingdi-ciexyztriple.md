@@ -1,19 +1,17 @@
 ---
 UID: NS:wingdi.tagICEXYZTRIPLE
 title: CIEXYZTRIPLE (wingdi.h)
-
 description: The CIEXYZTRIPLE structure contains the x,y, and z coordinates of the three colors that correspond to the red, green, and blue endpoints for a specified logical color space.
 old-location: wcs\ciexyztriple.htm
 tech.root: WCS
 ms.assetid: cf4473b0-7e54-42d1-a013-2442a540daee
-
 ms.date: 12/05/2018
-ms.keywords: "*LPCIEXYZTRIPLE, CIEXYZTRIPLE, CIEXYZTRIPLE structure [Windows Color System], CIEXYZTRIPLE typedef CIEXYZTRIPLE FAR* LPCIEXYZTRIPLE, CIEXYZTRIPLE typedef CIEXYZTRIPLE FAR* LPCIEXYZTRIPLE structure [Windows Color System], _color_CIEXYZTRIPLE_str, wcs.ciexyztriple, wingdi/CIEXYZTRIPLE"
+ms.keywords: '*LPCIEXYZTRIPLE, CIEXYZTRIPLE, CIEXYZTRIPLE structure [Windows Color System], CIEXYZTRIPLE typedef CIEXYZTRIPLE FAR* LPCIEXYZTRIPLE, CIEXYZTRIPLE typedef CIEXYZTRIPLE FAR* LPCIEXYZTRIPLE structure [Windows Color System], _color_CIEXYZTRIPLE_str, wcs.ciexyztriple, wingdi/CIEXYZTRIPLE'
 ms.topic: struct
-f1_keywords: 
- - "wingdi/CIEXYZTRIPLE typedef CIEXYZTRIPLE FAR* LPCIEXYZTRIPLE"
+f1_keywords:
+- wingdi/CIEXYZTRIPLE typedef CIEXYZTRIPLE FAR* LPCIEXYZTRIPLE
 dev_langs:
- - c++
+- c++
 req.header: wingdi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wingdi.h
+- Wingdi.h
 api_name:
- - CIEXYZTRIPLE typedef CIEXYZTRIPLE FAR* LPCIEXYZTRIPLE
+- CIEXYZTRIPLE typedef CIEXYZTRIPLE FAR* LPCIEXYZTRIPLE
 targetos: Windows
 req.typenames: CIEXYZTRIPLE
 req.redist: 

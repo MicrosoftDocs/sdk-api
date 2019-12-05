@@ -1,19 +1,17 @@
 ---
 UID: NN:mpeg2psiparser.IPAT
 title: IPAT (mpeg2psiparser.h)
-
 description: The IPAT interface enables the client to get information from a Program Association Table (PAT). The IAtscPsipParser::GetPAT method returns a pointer to this interface.
 old-location: mstv\ipat.htm
 tech.root: mstv
 ms.assetid: 31b0e558-0f22-4761-a964-1908c2835478
-
 ms.date: 12/05/2018
 ms.keywords: IPAT, IPAT interface [Microsoft TV Technologies], IPAT interface [Microsoft TV Technologies],described, IPATInterface, mpeg2psiparser/IPAT, mstv.ipat
 ms.topic: interface
-f1_keywords: 
- - "mpeg2psiparser/IPAT"
+f1_keywords:
+- mpeg2psiparser/IPAT
 dev_langs:
- - c++
+- c++
 req.header: mpeg2psiparser.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mpeg2PsiParser.h
+- Mpeg2PsiParser.h
 api_name:
- - IPAT
+- IPAT
 targetos: Windows
 req.typenames: 
 req.redist: 

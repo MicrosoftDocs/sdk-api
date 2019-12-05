@@ -1,19 +1,17 @@
 ---
 UID: NF:mprapi.MprConfigInterfaceGetInfo
 title: MprConfigInterfaceGetInfo function (mprapi.h)
-
 description: The MprConfigInterfaceGetInfo function retrieves the configuration for the specified interface from the router.
 old-location: rras\mprconfiginterfacegetinfo.htm
 tech.root: RRAS
 ms.assetid: f33f9e66-1668-4839-9c98-5945104110bc
-
 ms.date: 12/05/2018
 ms.keywords: MprConfigInterfaceGetInfo, MprConfigInterfaceGetInfo function [RAS], _mpr_mprconfiginterfacegetinfo, mprapi/MprConfigInterfaceGetInfo, rras.mprconfiginterfacegetinfo
 ms.topic: function
 f1_keywords:
 - mprapi/MprConfigInterfaceGetInfo
 dev_langs:
- - c++
+- c++
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows

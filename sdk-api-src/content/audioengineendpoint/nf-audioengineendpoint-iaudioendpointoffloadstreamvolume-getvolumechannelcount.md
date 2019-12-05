@@ -1,19 +1,17 @@
 ---
 UID: NF:audioengineendpoint.IAudioEndpointOffloadStreamVolume.GetVolumeChannelCount
 title: IAudioEndpointOffloadStreamVolume::GetVolumeChannelCount (audioengineendpoint.h)
-
 description: The GetVolumeChannelCount method retrieves the number of available audio channels in the offloaded stream.
 old-location: coreaudio\iaudioendpointoffloadstreamvolume_getvolumechannelcount.htm
 tech.root: CoreAudio
 ms.assetid: 361E3B06-D543-4C86-BE0E-E3E0E2A51A27
-
 ms.date: 12/05/2018
 ms.keywords: GetVolumeChannelCount, GetVolumeChannelCount method [Core Audio], GetVolumeChannelCount method [Core Audio],IAudioEndpointOffloadStreamVolume interface, IAudioEndpointOffloadStreamVolume interface [Core Audio],GetVolumeChannelCount method, IAudioEndpointOffloadStreamVolume.GetVolumeChannelCount, IAudioEndpointOffloadStreamVolume::GetVolumeChannelCount, audioengineendpoint/IAudioEndpointOffloadStreamVolume::GetVolumeChannelCount, coreaudio.iaudioendpointoffloadstreamvolume_getvolumechannelcount
 ms.topic: method
-f1_keywords: 
- - "audioengineendpoint/IAudioEndpointOffloadStreamVolume.GetVolumeChannelCount"
+f1_keywords:
+- audioengineendpoint/IAudioEndpointOffloadStreamVolume.GetVolumeChannelCount
 dev_langs:
- - c++
+- c++
 req.header: audioengineendpoint.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Audioengineendpoint.h
+- Audioengineendpoint.h
 api_name:
- - IAudioEndpointOffloadStreamVolume.GetVolumeChannelCount
+- IAudioEndpointOffloadStreamVolume.GetVolumeChannelCount
 targetos: Windows
 req.typenames: 
 req.redist: 

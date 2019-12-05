@@ -1,19 +1,17 @@
 ---
 UID: NF:iscsidsc.ReportISNSServerListW
 title: ReportISNSServerListW function (iscsidsc.h)
-
 description: ReportIsnsServerList function retrieves the list of Internet Storage Name Service (iSNS) servers that the iSCSI initiator service queries for discovered targets.
 old-location: iscsidisc\reportisnsserverlist.htm
 tech.root: iSCSIDisc
 ms.assetid: 4fa773ac-0d3e-4860-8603-cb36e9278e93
-
 ms.date: 12/05/2018
 ms.keywords: ReportISNSServerListW, ReportIsnsServerList, ReportIsnsServerList function [iSCSI Discovery Library API], ReportIsnsServerListA, ReportIsnsServerListW, iscsidisc.reportisnsserverlist, iscsidsc/ReportIsnsServerList, iscsidsc/ReportIsnsServerListA, iscsidsc/ReportIsnsServerListW
 ms.topic: function
-f1_keywords: 
- - "iscsidsc/ReportIsnsServerList"
+f1_keywords:
+- iscsidsc/ReportIsnsServerList
 dev_langs:
- - c++
+- c++
 req.header: iscsidsc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Iscsidsc.lib
 req.dll: Iscsidsc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Iscsidsc.dll
+- Iscsidsc.dll
 api_name:
- - ReportIsnsServerList
- - ReportIsnsServerListA
- - ReportIsnsServerListW
+- ReportIsnsServerList
+- ReportIsnsServerListA
+- ReportIsnsServerListW
 targetos: Windows
 req.typenames: 
 req.redist: 

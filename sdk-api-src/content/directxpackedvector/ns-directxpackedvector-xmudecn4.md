@@ -1,19 +1,17 @@
 ---
 UID: NS:directxpackedvector.XMUDECN4
 title: XMUDECN4 (directxpackedvector.h)
-
 description: A 4D vector for storing unsigned, normalized integer values as 10 bit unsigned x-, y-, and z-components and a 2-bit unsigned w-component.
 old-location: dxmath\xmudecn4.htm
 tech.root: dxmath
 ms.assetid: T:Microsoft.directx_sdk.reference.XMUDECN4
-
 ms.date: 12/05/2018
 ms.keywords: XMUDECN4, XMUDECN4 structure [DirectX Math Support APIs], directxpackedvector/XMUDECN4, dxmath.xmudecn4
 ms.topic: struct
-f1_keywords: 
- - "directxpackedvector/XMUDECN4"
+f1_keywords:
+- directxpackedvector/XMUDECN4
 dev_langs:
- - c++
+- c++
 req.header: directxpackedvector.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - DirectXPackedVector.h
+- DirectXPackedVector.h
 api_name:
- - XMUDECN4
+- XMUDECN4
 targetos: Windows
 req.typenames: 
 req.redist: 

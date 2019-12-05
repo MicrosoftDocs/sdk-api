@@ -1,19 +1,17 @@
 ---
 UID: NS:wsdtypes._WSD_ENDPOINT_REFERENCE_LIST
 title: WSD_ENDPOINT_REFERENCE_LIST (wsdtypes.h)
-
 description: Represents a node in a single-linked list of WSD_ENDPOINT_REFERENCE structures.
 old-location: ncd\wsd_endpoint_reference_list.htm
 tech.root: WsdApi
 ms.assetid: fc9fed5c-8a5b-4960-836b-e083154b7d90
-
 ms.date: 12/05/2018
 ms.keywords: WSD_ENDPOINT_REFERENCE_LIST, WSD_ENDPOINT_REFERENCE_LIST structure, ncd.wsd_endpoint_reference_list, wsdtypes/WSD_ENDPOINT_REFERENCE_LIST
 ms.topic: struct
 f1_keywords:
 - wsdtypes/WSD_ENDPOINT_REFERENCE_LIST
 dev_langs:
- - c++
+- c++
 req.header: wsdtypes.h
 req.include-header: Wsdapi.h
 req.target-type: Windows

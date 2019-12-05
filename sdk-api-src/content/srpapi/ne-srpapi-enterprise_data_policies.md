@@ -1,19 +1,17 @@
 ---
 UID: NE:srpapi.__unnamed_enum_0
 title: ENTERPRISE_DATA_POLICIES (srpapi.h)
-
 description: Indicates whether the app is enlightened for Windows Information Protection (WIP) and whether the app is managed by policy.
 old-location: edp\enterprise_data_policies.htm
 tech.root: EDP
 ms.assetid: BCD039C9-88F6-495C-9AE4-B80D06B2557B
-
 ms.date: 12/05/2018
 ms.keywords: EDP.enterprise_data_policies, ENTERPRISE_DATA_POLICIES, ENTERPRISE_DATA_POLICIES enumeration, ENTERPRISE_POLICY_ALLOWED, ENTERPRISE_POLICY_ENLIGHTENED, ENTERPRISE_POLICY_EXEMPT, ENTERPRISE_POLICY_NONE, srpapi/ENTERPRISE_DATA_POLICIES, srpapi/ENTERPRISE_POLICY_ALLOWED, srpapi/ENTERPRISE_POLICY_ENLIGHTENED, srpapi/ENTERPRISE_POLICY_EXEMPT, srpapi/ENTERPRISE_POLICY_NONE
 ms.topic: enum
-f1_keywords: 
- - "srpapi/ENTERPRISE_DATA_POLICIES"
+f1_keywords:
+- srpapi/ENTERPRISE_DATA_POLICIES
 dev_langs:
- - c++
+- c++
 req.header: srpapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - srpapi.h
+- srpapi.h
 api_name:
- - ENTERPRISE_DATA_POLICIES
+- ENTERPRISE_DATA_POLICIES
 targetos: Windows
 req.typenames: ENTERPRISE_DATA_POLICIES
 req.redist: 

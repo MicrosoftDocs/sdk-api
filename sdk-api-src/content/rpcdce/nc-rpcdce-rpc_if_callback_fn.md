@@ -1,19 +1,17 @@
 ---
 UID: NC:rpcdce.RPC_IF_CALLBACK_FN
 title: RPC_IF_CALLBACK_FN (rpcdce.h)
-
 description: The RPC_IF_CALLBACK_FN is a prototype for a security-callback function that your application supplies. Your program can provide a callback function for each interface it defines.
 old-location: rpc\rpc_if_callback_fn.htm
 tech.root: Rpc
 ms.assetid: 6c2239db-4a01-4ba1-b8ea-1c4b3467e326
-
 ms.date: 12/05/2018
 ms.keywords: RPC_IF_CALLBACK_FN, RPC_IF_CALLBACK_FN callback, RPC_IF_CALLBACK_FN callback function [RPC], _rpc_rpc_if_callback_fn, rpc.rpc_if_callback_fn, rpcdce/RPC_IF_CALLBACK_FN
 ms.topic: callback
-f1_keywords: 
- - "rpcdce/RPC_IF_CALLBACK_FN"
+f1_keywords:
+- rpcdce/RPC_IF_CALLBACK_FN
 dev_langs:
- - c++
+- c++
 req.header: rpcdce.h
 req.include-header: Rpc.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Rpcdce.h
+- Rpcdce.h
 api_name:
- - RPC_IF_CALLBACK_FN
+- RPC_IF_CALLBACK_FN
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:winsnmp.SnmpSetTranslateMode
 title: SnmpSetTranslateMode function (winsnmp.h)
-
 description: The WinSNMP SnmpSetTranslateMode function enables a WinSNMP application to change the entity and context translation mode. The entity and context translation mode affects the interpretation and return of WinSNMP input and output string parameters.
 old-location: snmp\snmpsettranslatemode.htm
 tech.root: SNMP
 ms.assetid: 8ee7e660-e718-40e6-adcd-1554eb7391d9
-
 ms.date: 12/05/2018
 ms.keywords: SNMPAPI_TRANSLATED, SNMPAPI_UNTRANSLATED_V1, SNMPAPI_UNTRANSLATED_V2, SnmpSetTranslateMode, SnmpSetTranslateMode function [SNMP], _snmp_snmpsettranslatemode, snmp.snmpsettranslatemode, winsnmp/SnmpSetTranslateMode
 ms.topic: function
-f1_keywords: 
- - "winsnmp/SnmpSetTranslateMode"
+f1_keywords:
+- winsnmp/SnmpSetTranslateMode
 dev_langs:
- - c++
+- c++
 req.header: winsnmp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Wsnmp32.lib
 req.dll: Wsnmp32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Wsnmp32.dll
+- Wsnmp32.dll
 api_name:
- - SnmpSetTranslateMode
+- SnmpSetTranslateMode
 targetos: Windows
 req.typenames: 
 req.redist: 

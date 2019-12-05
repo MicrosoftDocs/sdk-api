@@ -1,19 +1,17 @@
 ---
 UID: NF:gpmgmt.IGPMStarterGPO.GenerateReportToFile
 title: IGPMStarterGPO::GenerateReportToFile (gpmgmt.h)
-
 description: The GenerateReportToFile method gets the report for the GPO and saves it to a file at a specified path.
 old-location: gpmc\igpmstartergpo_generatereporttofile.htm
 tech.root: gpmc
 ms.assetid: 29302091-0f2d-4511-a25b-9af078795d1d
-
 ms.date: 12/05/2018
 ms.keywords: GenerateReportToFile, GenerateReportToFile method [GPMC], GenerateReportToFile method [GPMC],IGPMStarterGPO interface, IGPMStarterGPO interface [GPMC],GenerateReportToFile method, IGPMStarterGPO.GenerateReportToFile, IGPMStarterGPO::GenerateReportToFile, gpmc.igpmstartergpo_generatereporttofile, gpmgmt/IGPMStarterGPO::GenerateReportToFile
 ms.topic: method
-f1_keywords: 
- - "gpmgmt/IGPMStarterGPO.GenerateReportToFile"
+f1_keywords:
+- gpmgmt/IGPMStarterGPO.GenerateReportToFile
 dev_langs:
- - c++
+- c++
 req.header: gpmgmt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Gpmgmt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - gpmgmt.dll
+- gpmgmt.dll
 api_name:
- - IGPMStarterGPO.GenerateReportToFile
+- IGPMStarterGPO.GenerateReportToFile
 targetos: Windows
 req.typenames: 
 req.redist: 

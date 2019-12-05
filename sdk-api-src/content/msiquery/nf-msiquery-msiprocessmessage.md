@@ -1,19 +1,17 @@
 ---
 UID: NF:msiquery.MsiProcessMessage
 title: MsiProcessMessage function (msiquery.h)
-
 description: The MsiProcessMessage function sends an error record to the installer for processing.
 old-location: setup\msiprocessmessage.htm
 tech.root: Msi
 ms.assetid: 136662bd-b970-4ff3-8ae5-c5e3097ee00d
-
 ms.date: 12/05/2018
 ms.keywords: INSTALLMESSAGE_ACTIONDATA, INSTALLMESSAGE_ACTIONSTART, INSTALLMESSAGE_COMMONDATA, INSTALLMESSAGE_ERROR, INSTALLMESSAGE_FATALEXIT, INSTALLMESSAGE_FILESINUSE, INSTALLMESSAGE_INFO, INSTALLMESSAGE_OUTOFDISKSPACE, INSTALLMESSAGE_PROGRESS, INSTALLMESSAGE_RESOLVESOURCE, INSTALLMESSAGE_RMFILESINUSE, INSTALLMESSAGE_USER, INSTALLMESSAGE_WARNING, MsiProcessMessage, MsiProcessMessage function, _msi_msiprocessmessage, msiquery/MsiProcessMessage, setup.msiprocessmessage
 ms.topic: function
-f1_keywords: 
- - "msiquery/MsiProcessMessage"
+f1_keywords:
+- msiquery/MsiProcessMessage
 dev_langs:
- - c++
+- c++
 req.header: msiquery.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Msi.lib
 req.dll: Msi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Msi.dll
+- Msi.dll
 api_name:
- - MsiProcessMessage
+- MsiProcessMessage
 targetos: Windows
 req.typenames: 
 req.redist: 

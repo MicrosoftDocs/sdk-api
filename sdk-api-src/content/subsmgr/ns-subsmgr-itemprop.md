@@ -1,19 +1,17 @@
 ---
 UID: NS:subsmgr._tagITEMPROP
 title: ITEMPROP (subsmgr.h)
-
 description: Stores information about properties in the Windows Property System, and is used by the IItemPropertyBag interface.
 old-location: search\itemprop.htm
 tech.root: search
 ms.assetid: 480C84CB-60CE-42F4-ADE6-4FCF1EAF15AF
-
 ms.date: 12/05/2018
-ms.keywords: "*LPITEMPROP, ITEMPROP, ITEMPROP structure [search], PITEMPROP, PITEMPROP structure pointer [search], search.itemprop, subsmgr/ITEMPROP, subsmgr/PITEMPROP"
+ms.keywords: '*LPITEMPROP, ITEMPROP, ITEMPROP structure [search], PITEMPROP, PITEMPROP structure pointer [search], search.itemprop, subsmgr/ITEMPROP, subsmgr/PITEMPROP'
 ms.topic: struct
-f1_keywords: 
- - "subsmgr/ITEMPROP"
+f1_keywords:
+- subsmgr/ITEMPROP
 dev_langs:
- - c++
+- c++
 req.header: subsmgr.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - subsmgr.h
+- subsmgr.h
 api_name:
- - ITEMPROP
+- ITEMPROP
 targetos: Windows
 req.typenames: ITEMPROP, *LPITEMPROP
 req.redist: Windows Desktop Search (WDS) 3.0

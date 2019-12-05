@@ -1,19 +1,17 @@
 ---
 UID: NF:shlwapi.SHRegWriteUSValueA
 title: SHRegWriteUSValueA function (shlwapi.h)
-
 description: Writes a value to a registry subkey in a user-specific subtree (HKEY_CURRENT_USER or HKEY_LOCAL_MACHINE).
 old-location: shell\SHRegWriteUSValue.htm
 tech.root: shell
 ms.assetid: f94569c6-415b-4263-bab4-8a5baca47901
-
 ms.date: 12/05/2018
 ms.keywords: REG_BINARY, REG_DWORD, REG_DWORD_BIG_ENDIAN, REG_DWORD_LITTLE_ENDIAN, REG_EXPAND_SZ, REG_FULL_RESOURCE_DESCRIPTOR, REG_LINK, REG_MULTI_SZ, REG_NONE, REG_QWORD, REG_QWORD_LITTLE_ENDIAN, REG_RESOURCE_LIST, REG_RESOURCE_REQUIREMENTS_LIST, REG_SZ, SHREGSET_DEFAULT, SHREGSET_FORCE_HKCU, SHREGSET_FORCE_HKLM, SHREGSET_HKCU, SHREGSET_HKLM, SHRegWriteUSValue, SHRegWriteUSValue function [Windows Shell], SHRegWriteUSValueA, SHRegWriteUSValueW, _win32_SHRegWriteUSValue, shell.SHRegWriteUSValue, shlwapi/SHRegWriteUSValue, shlwapi/SHRegWriteUSValueA, shlwapi/SHRegWriteUSValueW
 ms.topic: function
-f1_keywords: 
- - "shlwapi/SHRegWriteUSValue"
+f1_keywords:
+- shlwapi/SHRegWriteUSValue
 dev_langs:
- - c++
+- c++
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib: Shlwapi.lib
 req.dll: Shlwapi.dll (version 4.71 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Shlwapi.dll
- - API-MS-Win-Core-Registryuserspecific-l1-1-0.dll
- - KernelBase.dll
+- Shlwapi.dll
+- API-MS-Win-Core-Registryuserspecific-l1-1-0.dll
+- KernelBase.dll
 api_name:
- - SHRegWriteUSValue
- - SHRegWriteUSValueA
- - SHRegWriteUSValueW
+- SHRegWriteUSValue
+- SHRegWriteUSValueA
+- SHRegWriteUSValueW
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:qnetwork.IAMMediaContent.get_Copyright
 title: IAMMediaContent::get_Copyright (qnetwork.h)
-
 description: The get_Copyright method retrieves copyright information.
 old-location: dshow\iammediacontent_get_copyright.htm
 tech.root: DirectShow
 ms.assetid: f63dc869-6b95-4923-80a6-22b5d8b81fa0
-
 ms.date: 12/05/2018
 ms.keywords: IAMMediaContent interface [DirectShow],get_Copyright method, IAMMediaContent.get_Copyright, IAMMediaContent::get_Copyright, IAMMediaContentget_Copyright, dshow.iammediacontent_get_copyright, get_Copyright, get_Copyright method [DirectShow], get_Copyright method [DirectShow],IAMMediaContent interface, qnetwork/IAMMediaContent::get_Copyright
 ms.topic: method
-f1_keywords: 
- - "qnetwork/IAMMediaContent.get_Copyright"
+f1_keywords:
+- qnetwork/IAMMediaContent.get_Copyright
 dev_langs:
- - c++
+- c++
 req.header: qnetwork.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Qnetwork.h
+- Qnetwork.h
 api_name:
- - IAMMediaContent.get_Copyright
+- IAMMediaContent.get_Copyright
 targetos: Windows
 req.typenames: 
 req.redist: 

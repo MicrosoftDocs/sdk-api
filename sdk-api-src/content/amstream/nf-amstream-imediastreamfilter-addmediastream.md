@@ -1,19 +1,17 @@
 ---
 UID: NF:amstream.IMediaStreamFilter.AddMediaStream
 title: IMediaStreamFilter::AddMediaStream (amstream.h)
-
 description: Note  This interface is deprecated. New applications should not use it. The AddMediaStream method connects a media stream object to the underlying filter graph.
 old-location: dshow\imediastreamfilter_addmediastream.htm
 tech.root: DirectShow
 ms.assetid: 0e4fdc28-3117-4b9d-a914-ddb70aa5125d
-
 ms.date: 12/05/2018
 ms.keywords: AddMediaStream, AddMediaStream method [DirectShow], AddMediaStream method [DirectShow],IMediaStreamFilter interface, IMediaStreamFilter interface [DirectShow],AddMediaStream method, IMediaStreamFilter.AddMediaStream, IMediaStreamFilter::AddMediaStream, IMediaStreamFilterAddMediaStream, amstream/IMediaStreamFilter::AddMediaStream, dshow.imediastreamfilter_addmediastream
 ms.topic: method
-f1_keywords: 
- - "amstream/IMediaStreamFilter.AddMediaStream"
+f1_keywords:
+- amstream/IMediaStreamFilter.AddMediaStream
 dev_langs:
- - c++
+- c++
 req.header: amstream.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - amstream.h
+- amstream.h
 api_name:
- - IMediaStreamFilter.AddMediaStream
+- IMediaStreamFilter.AddMediaStream
 targetos: Windows
 req.typenames: 
 req.redist: 

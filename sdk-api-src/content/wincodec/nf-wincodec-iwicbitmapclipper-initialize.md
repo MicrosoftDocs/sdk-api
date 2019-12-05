@@ -1,19 +1,17 @@
 ---
 UID: NF:wincodec.IWICBitmapClipper.Initialize
 title: IWICBitmapClipper::Initialize (wincodec.h)
-
 description: Initializes the bitmap clipper with the provided parameters.
 old-location: wic\_wic_codec_iwicbitmapclipper_initialize.htm
 tech.root: wic
 ms.assetid: a0b8a572-d947-4d57-9214-d39085a78b6e
-
 ms.date: 12/05/2018
 ms.keywords: IWICBitmapClipper interface [Windows Imaging Component],Initialize method, IWICBitmapClipper.Initialize, IWICBitmapClipper::Initialize, Initialize, Initialize method [Windows Imaging Component], Initialize method [Windows Imaging Component],IWICBitmapClipper interface, _wic_codec_iwicbitmapclipper_initialize, wic._wic_codec_iwicbitmapclipper_initialize, wincodec/IWICBitmapClipper::Initialize
 ms.topic: method
-f1_keywords: 
- - "wincodec/IWICBitmapClipper.Initialize"
+f1_keywords:
+- wincodec/IWICBitmapClipper.Initialize
 dev_langs:
- - c++
+- c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Windowscodecs.lib
 req.dll: Windowscodecs.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Windowscodecs.dll
+- Windowscodecs.dll
 api_name:
- - IWICBitmapClipper.Initialize
+- IWICBitmapClipper.Initialize
 targetos: Windows
 req.typenames: 
 req.redist: 

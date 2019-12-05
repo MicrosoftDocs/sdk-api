@@ -1,19 +1,17 @@
 ---
 UID: NS:eaptypes._EAP_METHOD_PROPERTY_VALUE_BOOL
 title: EAP_METHOD_PROPERTY_VALUE_BOOL (eaptypes.h)
-
 description: Contains a Boolean value of an EAP method property.
 old-location: eaphost\eap_method_property_value_bool.htm
 tech.root: eaphost
 ms.assetid: ff482df6-a9c9-41b3-bedf-880fee71b968
-
 ms.date: 12/05/2018
 ms.keywords: EAP_METHOD_PROPERTY_VALUE_BOOL, EAP_METHOD_PROPERTY_VALUE_BOOL structure [EAPHost], PEAP_METHOD_PROPERTY_VALUE_BOOL, PEAP_METHOD_PROPERTY_VALUE_BOOL structure pointer [EAPHost], eaphost.eap_method_property_value_bool, eaptypes/EAP_METHOD_PROPERTY_VALUE_BOOL, eaptypes/PEAP_METHOD_PROPERTY_VALUE_BOOL
 ms.topic: struct
-f1_keywords: 
- - "eaptypes/EAP_METHOD_PROPERTY_VALUE_BOOL"
+f1_keywords:
+- eaptypes/EAP_METHOD_PROPERTY_VALUE_BOOL
 dev_langs:
- - c++
+- c++
 req.header: eaptypes.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - EapTypes.h
+- EapTypes.h
 api_name:
- - EAP_METHOD_PROPERTY_VALUE_BOOL
+- EAP_METHOD_PROPERTY_VALUE_BOOL
 targetos: Windows
 req.typenames: EAP_METHOD_PROPERTY_VALUE_BOOL
 req.redist: 

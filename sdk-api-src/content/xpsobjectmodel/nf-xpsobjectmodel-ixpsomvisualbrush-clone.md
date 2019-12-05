@@ -1,19 +1,17 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMVisualBrush.Clone
 title: IXpsOMVisualBrush::Clone (xpsobjectmodel.h)
-
 description: Makes a deep copy of the interface.
 old-location: xps\ixpsomvisualbrush_clone.htm
 tech.root: printdocs
 ms.assetid: c3341566-6b35-4ed9-9db8-d5493656755e
-
 ms.date: 12/05/2018
 ms.keywords: Clone, Clone method [XPS Documents and Packaging], Clone method [XPS Documents and Packaging],IXpsOMVisualBrush interface, IXpsOMVisualBrush interface [XPS Documents and Packaging],Clone method, IXpsOMVisualBrush.Clone, IXpsOMVisualBrush::Clone, xps.ixpsomvisualbrush_clone, xpsobjectmodel/IXpsOMVisualBrush::Clone
 ms.topic: method
-f1_keywords: 
- - "xpsobjectmodel/IXpsOMVisualBrush.Clone"
+f1_keywords:
+- xpsobjectmodel/IXpsOMVisualBrush.Clone
 dev_langs:
- - c++
+- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsobjectmodel.h
+- xpsobjectmodel.h
 api_name:
- - IXpsOMVisualBrush.Clone
+- IXpsOMVisualBrush.Clone
 targetos: Windows
 req.typenames: 
 req.redist: 

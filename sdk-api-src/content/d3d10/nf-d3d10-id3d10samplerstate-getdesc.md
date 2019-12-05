@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d10.ID3D10SamplerState.GetDesc
 title: ID3D10SamplerState::GetDesc (d3d10.h)
-
 description: Get the sampler state.
 old-location: direct3d10\id3d10samplerstate_getdesc.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10samplerstate_getdesc.htm
-
 ms.date: 12/05/2018
 ms.keywords: 6131b597-fb10-10b7-7f9a-f0dbdb30f917, GetDesc, GetDesc method [Direct3D 10], GetDesc method [Direct3D 10],ID3D10SamplerState interface, ID3D10SamplerState interface [Direct3D 10],GetDesc method, ID3D10SamplerState.GetDesc, ID3D10SamplerState::GetDesc, d3d10/ID3D10SamplerState::GetDesc, direct3d10.id3d10samplerstate_getdesc
 ms.topic: method
-f1_keywords: 
- - "d3d10/ID3D10SamplerState.GetDesc"
+f1_keywords:
+- d3d10/ID3D10SamplerState.GetDesc
 dev_langs:
- - c++
+- c++
 req.header: d3d10.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: D3D10.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D10.lib
- - D3D10.dll
+- D3D10.lib
+- D3D10.dll
 api_name:
- - ID3D10SamplerState.GetDesc
+- ID3D10SamplerState.GetDesc
 targetos: Windows
 req.typenames: 
 req.redist: 

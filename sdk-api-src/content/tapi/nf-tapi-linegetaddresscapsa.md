@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi.lineGetAddressCapsA
 title: lineGetAddressCapsA function (tapi.h)
-
 description: The lineGetAddressCaps function queries the specified address on the specified line device to determine its telephony capabilities.
 old-location: tapi2\linegetaddresscaps.htm
 tech.root: Tapi
 ms.assetid: 08cdea8a-5b36-428c-b90f-8741ae5f3205
-
 ms.date: 12/05/2018
-ms.keywords: "_tapi2_linegetaddresscaps, lineGetAddressCaps, lineGetAddressCaps function [TAPI 2.2], lineGetAddressCapsA, lineGetAddressCapsW, tapi/lineGetAddressCaps, tapi/lineGetAddressCapsA, tapi/lineGetAddressCapsW, tapi2.linegetaddresscaps"
+ms.keywords: _tapi2_linegetaddresscaps, lineGetAddressCaps, lineGetAddressCaps function [TAPI 2.2], lineGetAddressCapsA, lineGetAddressCapsW, tapi/lineGetAddressCaps, tapi/lineGetAddressCapsA, tapi/lineGetAddressCapsW, tapi2.linegetaddresscaps
 ms.topic: function
-f1_keywords: 
- - "tapi/lineGetAddressCaps"
+f1_keywords:
+- tapi/lineGetAddressCaps
 dev_langs:
- - c++
+- c++
 req.header: tapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Tapi32.lib
 req.dll: Tapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Tapi32.dll
+- Tapi32.dll
 api_name:
- - lineGetAddressCaps
- - lineGetAddressCapsA
- - lineGetAddressCapsW
+- lineGetAddressCaps
+- lineGetAddressCapsA
+- lineGetAddressCapsW
 targetos: Windows
 req.typenames: 
 req.redist: 

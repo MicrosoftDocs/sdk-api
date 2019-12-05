@@ -1,19 +1,17 @@
 ---
 UID: NF:gamingtcui.ShowChangeFriendRelationshipUI
 title: ShowChangeFriendRelationshipUI function (gamingtcui.h)
-
 description: Do not use. This API is only supported for Xbox developers.
 old-location: tcui\showchangefriendrelationshipui.htm
 tech.root: tcui
 ms.assetid: 1066CEA3-DCF1-4B68-8C77-E23B1903C847
-
 ms.date: 12/05/2018
 ms.keywords: ShowChangeFriendRelationshipUI, ShowChangeFriendRelationshipUI function, gamingtcui/ShowChangeFriendRelationshipUI, tcui.showchangefriendrelationshipui
 ms.topic: function
-f1_keywords: 
- - "gamingtcui/ShowChangeFriendRelationshipUI"
+f1_keywords:
+- gamingtcui/ShowChangeFriendRelationshipUI
 dev_langs:
- - c++
+- c++
 req.header: gamingtcui.h
 req.include-header: 
 req.target-type: Windows
@@ -32,19 +30,19 @@ req.lib: WindowsApp.lib
 req.dll: Gamingtcui.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - gamingtcui.dll
- - API-MS-Win-Gaming-Tcui-L1-1-0.dll
- - GamingTcuiStub.dll
- - API-MS-Win-Gaming-Tcui-L1-1-1.dll
- - Xbox.Shell.API.dll
- - API-MS-Win-Gaming-Tcui-L1-1-2.dll
+- gamingtcui.dll
+- API-MS-Win-Gaming-Tcui-L1-1-0.dll
+- GamingTcuiStub.dll
+- API-MS-Win-Gaming-Tcui-L1-1-1.dll
+- Xbox.Shell.API.dll
+- API-MS-Win-Gaming-Tcui-L1-1-2.dll
 api_name:
- - ShowChangeFriendRelationshipUI
+- ShowChangeFriendRelationshipUI
 targetos: Windows
 req.typenames: 
 req.redist: 

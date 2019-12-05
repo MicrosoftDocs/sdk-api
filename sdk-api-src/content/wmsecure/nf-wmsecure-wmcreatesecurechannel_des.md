@@ -1,19 +1,17 @@
 ---
 UID: NF:wmsecure.WMCreateSecureChannel_DES
 title: WMCreateSecureChannel_DES function (wmsecure.h)
-
 description: Creates an object that implements IWMSecureChannel.
 old-location: wmformat\wmcreatesecurechannel_des.htm
 tech.root: wmformat
 ms.assetid: d90e591f-82c0-4129-a810-8705d770dd3a
-
 ms.date: 12/05/2018
 ms.keywords: WMCreateSecureChannel_DES, WMCreateSecureChannel_DES function [windows Media Format], wmformat.wmcreatesecurechannel_des, wmsecure/WMCreateSecureChannel_DES
 ms.topic: function
-f1_keywords: 
- - "wmsecure/WMCreateSecureChannel_DES"
+f1_keywords:
+- wmsecure/WMCreateSecureChannel_DES
 dev_langs:
- - c++
+- c++
 req.header: wmsecure.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wmsecure.h
+- Wmsecure.h
 api_name:
- - WMCreateSecureChannel_DES
+- WMCreateSecureChannel_DES
 targetos: Windows
 req.typenames: 
 req.redist: 

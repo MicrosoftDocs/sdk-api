@@ -1,19 +1,17 @@
 ---
 UID: NF:ual.UalStop
 title: UalStop function (ual.h)
-
 description: Stops a User Access Logging (UAL) session.
 old-location: ual\ualstop.htm
 tech.root: ual
 ms.assetid: 142A0C96-2D53-4C31-9847-D6D5313C841E
-
 ms.date: 12/05/2018
 ms.keywords: UalStop, UalStop function [User Access Logging], ual.ualstop, ual/UalStop
 ms.topic: function
-f1_keywords: 
- - "ual/UalStop"
+f1_keywords:
+- ual/UalStop
 dev_langs:
- - c++
+- c++
 req.header: ual.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Ualapi.lib
 req.dll: Ualapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ualapi.dll
+- Ualapi.dll
 api_name:
- - UalStop
+- UalStop
 targetos: Windows
 req.typenames: 
 req.redist: 

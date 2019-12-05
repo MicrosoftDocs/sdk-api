@@ -1,19 +1,17 @@
 ---
 UID: NN:dxgi.IDXGISurface
 title: IDXGISurface (dxgi.h)
-
 description: The IDXGISurface interface implements methods for image-data objects.
 old-location: direct3ddxgi\idxgisurface.htm
 tech.root: direct3ddxgi
 ms.assetid: VS|directx_sdk|~\idxgisurface.htm
-
 ms.date: 12/05/2018
 ms.keywords: IDXGISurface, IDXGISurface interface [DXGI], IDXGISurface interface [DXGI],described, acd37adc-fb69-8924-76b4-598005b98bc9, direct3ddxgi.idxgisurface, dxgi/IDXGISurface
 ms.topic: interface
-f1_keywords: 
- - "dxgi/IDXGISurface"
+f1_keywords:
+- dxgi/IDXGISurface
 dev_langs:
- - c++
+- c++
 req.header: dxgi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: DXGI.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - DXGI.lib
- - DXGI.dll
+- DXGI.lib
+- DXGI.dll
 api_name:
- - IDXGISurface
+- IDXGISurface
 targetos: Windows
 req.typenames: 
 req.redist: 

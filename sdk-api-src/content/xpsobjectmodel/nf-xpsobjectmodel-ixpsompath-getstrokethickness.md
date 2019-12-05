@@ -1,19 +1,17 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMPath.GetStrokeThickness
 title: IXpsOMPath::GetStrokeThickness (xpsobjectmodel.h)
-
 description: Gets the stroke thickness.
 old-location: xps\ixpsompath_getstrokethickness.htm
 tech.root: printdocs
 ms.assetid: 5c1d8179-99e6-4335-8777-56b6873f746b
-
 ms.date: 12/05/2018
 ms.keywords: GetStrokeThickness, GetStrokeThickness method [XPS Documents and Packaging], GetStrokeThickness method [XPS Documents and Packaging],IXpsOMPath interface, IXpsOMPath interface [XPS Documents and Packaging],GetStrokeThickness method, IXpsOMPath.GetStrokeThickness, IXpsOMPath::GetStrokeThickness, xps.ixpsompath_getstrokethickness, xpsobjectmodel/IXpsOMPath::GetStrokeThickness
 ms.topic: method
-f1_keywords: 
- - "xpsobjectmodel/IXpsOMPath.GetStrokeThickness"
+f1_keywords:
+- xpsobjectmodel/IXpsOMPath.GetStrokeThickness
 dev_langs:
- - c++
+- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsobjectmodel.h
+- xpsobjectmodel.h
 api_name:
- - IXpsOMPath.GetStrokeThickness
+- IXpsOMPath.GetStrokeThickness
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:imapi2.IDiscFormat2TrackAtOnce.get_TotalSectorsOnMedia
 title: IDiscFormat2TrackAtOnce::get_TotalSectorsOnMedia (imapi2.h)
-
 description: Retrieves the total sectors available on the media if writing one continuous audio track.
 old-location: imapi\idiscformat2trackatonce_get_totalsectorsonmedia.htm
 tech.root: imapi
 ms.assetid: 86af52be-d1ea-4ccb-b1b4-e301d70cac53
-
 ms.date: 12/05/2018
 ms.keywords: IDiscFormat2TrackAtOnce interface [IMAPI],get_TotalSectorsOnMedia method, IDiscFormat2TrackAtOnce.get_TotalSectorsOnMedia, IDiscFormat2TrackAtOnce::get_TotalSectorsOnMedia, get_TotalSectorsOnMedia, get_TotalSectorsOnMedia method [IMAPI], get_TotalSectorsOnMedia method [IMAPI],IDiscFormat2TrackAtOnce interface, imapi.idiscformat2trackatonce_get_totalsectorsonmedia, imapi2/IDiscFormat2TrackAtOnce::get_TotalSectorsOnMedia
 ms.topic: method
-f1_keywords: 
- - "imapi2/IDiscFormat2TrackAtOnce.get_TotalSectorsOnMedia"
+f1_keywords:
+- imapi2/IDiscFormat2TrackAtOnce.get_TotalSectorsOnMedia
 dev_langs:
- - c++
+- c++
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - imapi2.h
+- imapi2.h
 api_name:
- - IDiscFormat2TrackAtOnce.get_TotalSectorsOnMedia
+- IDiscFormat2TrackAtOnce.get_TotalSectorsOnMedia
 targetos: Windows
 req.typenames: 
 req.redist: 

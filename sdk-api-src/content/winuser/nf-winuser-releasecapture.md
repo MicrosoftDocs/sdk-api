@@ -1,19 +1,17 @@
 ---
 UID: NF:winuser.ReleaseCapture
 title: ReleaseCapture function (winuser.h)
-
 description: Releases the mouse capture from a window in the current thread and restores normal mouse input processing.
 old-location: inputdev\releasecapture.htm
 tech.root: inputdev
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\mouseinput\mouseinputreference\mouseinputfunctions\releasecapture.htm
-
 ms.date: 12/05/2018
 ms.keywords: ReleaseCapture, ReleaseCapture function [Keyboard and Mouse Input], _win32_ReleaseCapture, _win32_releasecapture_cpp, inputdev.releasecapture, winui._win32_releasecapture, winuser/ReleaseCapture
 ms.topic: function
-f1_keywords: 
- - "winuser/ReleaseCapture"
+f1_keywords:
+- winuser/ReleaseCapture
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - User32.dll
- - Ext-MS-Win-NTUser-mouse-l1-1-0.dll
- - api-ms-win-ntuser-ie-mouse-l1-1-0.dll
- - ie_stubs.dll
+- User32.dll
+- Ext-MS-Win-NTUser-mouse-l1-1-0.dll
+- api-ms-win-ntuser-ie-mouse-l1-1-0.dll
+- ie_stubs.dll
 api_name:
- - ReleaseCapture
+- ReleaseCapture
 targetos: Windows
 req.typenames: 
 req.redist: 

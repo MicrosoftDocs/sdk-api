@@ -1,19 +1,17 @@
 ---
 UID: NS:schannel._SCHANNEL_SESSION_TOKEN
 title: SCHANNEL_SESSION_TOKEN (schannel.h)
-
 description: Specifies whether reconnections are enabled for an authentication session created by calling either the InitializeSecurityContext (Schannel) function or the AcceptSecurityContext (Schannel) function.
 old-location: security\schannel_session_token.htm
 tech.root: SecAuthN
 ms.assetid: 3c8f5380-eead-4495-8dff-a9561a787930
-
 ms.date: 12/05/2018
 ms.keywords: PSCHANNEL_SESSION_TOKEN, PSCHANNEL_SESSION_TOKEN structure pointer [Security], SCHANNEL_SESSION_TOKEN, SCHANNEL_SESSION_TOKEN structure [Security], SSL_SESSION_DISABLE_RECONNECTS, SSL_SESSION_ENABLE_RECONNECTS, schannel/PSCHANNEL_SESSION_TOKEN, schannel/SCHANNEL_SESSION_TOKEN, security.schannel_session_token
 ms.topic: struct
-f1_keywords: 
- - "schannel/SCHANNEL_SESSION_TOKEN"
+f1_keywords:
+- schannel/SCHANNEL_SESSION_TOKEN
 dev_langs:
- - c++
+- c++
 req.header: schannel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Schannel.h
+- Schannel.h
 api_name:
- - SCHANNEL_SESSION_TOKEN
+- SCHANNEL_SESSION_TOKEN
 targetos: Windows
 req.typenames: SCHANNEL_SESSION_TOKEN
 req.redist: 

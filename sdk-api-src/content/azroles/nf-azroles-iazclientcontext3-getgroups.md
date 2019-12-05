@@ -1,19 +1,17 @@
 ---
 UID: NF:azroles.IAzClientContext3.GetGroups
 title: IAzClientContext3::GetGroups (azroles.h)
-
 description: Returns an array of the application groups associated with this client context.
 old-location: security\iazclientcontext3_getgroups.htm
 tech.root: SecAuthZ
 ms.assetid: e34b55e1-df7f-4356-b84e-8f297afcda24
-
 ms.date: 12/05/2018
 ms.keywords: AZ_CLIENT_CONTEXT_GET_GROUPS_STORE_LEVEL_ONLY, GetGroups, GetGroups method [Security], GetGroups method [Security],IAzClientContext3 interface, IAzClientContext3 interface [Security],GetGroups method, IAzClientContext3.GetGroups, IAzClientContext3::GetGroups, azroles/IAzClientContext3::GetGroups, security.iazclientcontext3_getgroups
 ms.topic: method
-f1_keywords: 
- - "azroles/IAzClientContext3.GetGroups"
+f1_keywords:
+- azroles/IAzClientContext3.GetGroups
 dev_langs:
- - c++
+- c++
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Azroles.h
+- Azroles.h
 api_name:
- - IAzClientContext3.GetGroups
+- IAzClientContext3.GetGroups
 targetos: Windows
 req.typenames: 
 req.redist: 

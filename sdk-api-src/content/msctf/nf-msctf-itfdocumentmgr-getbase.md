@@ -1,19 +1,17 @@
 ---
 UID: NF:msctf.ITfDocumentMgr.GetBase
 title: ITfDocumentMgr::GetBase (msctf.h)
-
 description: ITfDocumentMgr::GetBase method
 old-location: tsf\itfdocumentmgr_getbase.htm
 tech.root: TSF
 ms.assetid: 71248c77-7440-412c-b565-39c04108b98b
-
 ms.date: 12/05/2018
 ms.keywords: GetBase, GetBase method [Text Services Framework], GetBase method [Text Services Framework],ITfDocumentMgr interface, ITfDocumentMgr interface [Text Services Framework],GetBase method, ITfDocumentMgr.GetBase, ITfDocumentMgr::GetBase, _tsf_itfdocumentmgr_getbase_ref, msctf/ITfDocumentMgr::GetBase, tsf.itfdocumentmgr_getbase
 ms.topic: method
-f1_keywords: 
- - "msctf/ITfDocumentMgr.GetBase"
+f1_keywords:
+- msctf/ITfDocumentMgr.GetBase
 dev_langs:
- - c++
+- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msctf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msctf.dll
+- msctf.dll
 api_name:
- - ITfDocumentMgr.GetBase
+- ITfDocumentMgr.GetBase
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

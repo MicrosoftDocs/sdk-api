@@ -1,19 +1,17 @@
 ---
 UID: NF:certbcli.CertSrvBackupFree
 title: CertSrvBackupFree function (certbcli.h)
-
 description: Used to free memory allocated from certain Certificate Services Backup APIs.
 old-location: security\certsrvbackupfree.htm
 tech.root: SecCrypto
 ms.assetid: dbfac3fc-3156-4253-812a-8b0647719096
-
 ms.date: 12/05/2018
 ms.keywords: CertSrvBackupFree, CertSrvBackupFree function [Security], _certsrv_certsrvbackupfree, certbcli/CertSrvBackupFree, security.certsrvbackupfree
 ms.topic: function
-f1_keywords: 
- - "certbcli/CertSrvBackupFree"
+f1_keywords:
+- certbcli/CertSrvBackupFree
 dev_langs:
- - c++
+- c++
 req.header: certbcli.h
 req.include-header: Certsrv.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Certadm.lib
 req.dll: Certadm.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Certadm.dll
+- Certadm.dll
 api_name:
- - CertSrvBackupFree
+- CertSrvBackupFree
 targetos: Windows
 req.typenames: 
 req.redist: 

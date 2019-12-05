@@ -1,19 +1,17 @@
 ---
 UID: NF:azroles.IAzBizRuleParameters.AddParameter
 title: IAzBizRuleParameters::AddParameter (azroles.h)
-
 description: Adds a parameter to the list of parameters available to business rule (BizRule) scripts.
 old-location: security\iazbizruleparameters_addparameter_method.htm
 tech.root: SecAuthZ
 ms.assetid: ea5c45d4-34c8-4d7c-a1b2-8f45574d9449
-
 ms.date: 12/05/2018
 ms.keywords: AddParameter, AddParameter method [Security], AddParameter method [Security],IAzBizRuleParameters interface, IAzBizRuleParameters interface [Security],AddParameter method, IAzBizRuleParameters.AddParameter, IAzBizRuleParameters::AddParameter, azroles/IAzBizRuleParameters::AddParameter, security.iazbizruleparameters_addparameter_method
 ms.topic: method
-f1_keywords: 
- - "azroles/IAzBizRuleParameters.AddParameter"
+f1_keywords:
+- azroles/IAzBizRuleParameters.AddParameter
 dev_langs:
- - c++
+- c++
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Azroles.h
+- Azroles.h
 api_name:
- - IAzBizRuleParameters.AddParameter
+- IAzBizRuleParameters.AddParameter
 targetos: Windows
 req.typenames: 
 req.redist: 

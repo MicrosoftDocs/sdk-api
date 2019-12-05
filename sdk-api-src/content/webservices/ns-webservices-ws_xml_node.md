@@ -1,19 +1,17 @@
 ---
 UID: NS:webservices._WS_XML_NODE
 title: WS_XML_NODE (webservices.h)
-
 description: The base type for all the different kinds of XML nodes. An XML node is unit of data in XML.
 old-location: wsw\ws_xml_node.htm
 tech.root: wsw
 ms.assetid: 98c40d57-ee71-40f8-9416-5b29adc30489
-
 ms.date: 12/05/2018
 ms.keywords: WS_XML_NODE, WS_XML_NODE structure [Web Services for Windows], webservices/WS_XML_NODE, wsw.ws_xml_node
 ms.topic: struct
-f1_keywords: 
- - "webservices/WS_XML_NODE"
+f1_keywords:
+- webservices/WS_XML_NODE
 dev_langs:
- - c++
+- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WebServices.h
+- WebServices.h
 api_name:
- - WS_XML_NODE
+- WS_XML_NODE
 targetos: Windows
 req.typenames: WS_XML_NODE
 req.redist: 

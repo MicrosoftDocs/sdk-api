@@ -1,19 +1,17 @@
 ---
 UID: NF:faxcomex.IFaxOutgoingJob2.get_ReceiptAddress
 title: IFaxOutgoingJob2::get_ReceiptAddress (faxcomex.h)
-
 description: A null-terminated string containing the address to which a delivery report will be sent, indicating success or failure.
 old-location: fax\_mfax_faxoutgoingjob2_cpp_mfax_faxoutgoingjob_receiptaddress_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\reference\serviceextendedcom\i\ifaxoutgoingjob2\receiptaddress.htm
-
 ms.date: 12/05/2018
 ms.keywords: IFaxOutgoingJob2 interface [Fax Service],ReceiptAddress property, IFaxOutgoingJob2.ReceiptAddress, IFaxOutgoingJob2.get_ReceiptAddress, IFaxOutgoingJob2::ReceiptAddress, IFaxOutgoingJob2::get_ReceiptAddress, ReceiptAddress property [Fax Service], ReceiptAddress property [Fax Service],IFaxOutgoingJob2 interface, _mfax_faxoutgoingjob.receiptaddress, fax._mfax_faxoutgoingjob2_cpp_mfax_faxoutgoingjob_receiptaddress_cpp, fax._mfax_faxoutgoingjob_receiptaddress, faxcomex/IFaxOutgoingJob2::ReceiptAddress, faxcomex/IFaxOutgoingJob2::get_ReceiptAddress, get_ReceiptAddress
 ms.topic: method
-f1_keywords: 
- - "faxcomex/IFaxOutgoingJob2.ReceiptAddress"
+f1_keywords:
+- faxcomex/IFaxOutgoingJob2.ReceiptAddress
 dev_langs:
- - c++
+- c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: Fxscomex.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Fxscomex.dll
+- Fxscomex.dll
 api_name:
- - IFaxOutgoingJob2.ReceiptAddress
- - IFaxOutgoingJob2.get_ReceiptAddress
- - IFaxOutgoingJob2.get_ReceiptAddress
+- IFaxOutgoingJob2.ReceiptAddress
+- IFaxOutgoingJob2.get_ReceiptAddress
+- IFaxOutgoingJob2.get_ReceiptAddress
 targetos: Windows
 req.typenames: 
 req.redist: 

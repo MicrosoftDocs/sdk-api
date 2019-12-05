@@ -1,19 +1,17 @@
 ---
 UID: NF:richole.IRichEditOleCallback.ShowContainerUI
 title: IRichEditOleCallback::ShowContainerUI (richole.h)
-
 description: Indicates whether or not the application is to display its container UI.
 old-location: controls\IRichEditOleCallback_ShowContainerUI.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\richeditcontrols\richeditcontrolreference\richeditinterfaces\iricheditolecallback\iricheditolecallbackshowcontainerui.htm
-
 ms.date: 12/05/2018
 ms.keywords: IRichEditOleCallback interface [Windows Controls],ShowContainerUI method, IRichEditOleCallback.ShowContainerUI, IRichEditOleCallback::ShowContainerUI, ShowContainerUI, ShowContainerUI method [Windows Controls], ShowContainerUI method [Windows Controls],IRichEditOleCallback interface, _win32_IRichEditOleCallback_ShowContainerUI, _win32_IRichEditOleCallback_ShowContainerUI_cpp, controls.IRichEditOleCallback_ShowContainerUI, controls._win32_IRichEditOleCallback_ShowContainerUI, richole/IRichEditOleCallback::ShowContainerUI
 ms.topic: method
-f1_keywords: 
- - "richole/IRichEditOleCallback.ShowContainerUI"
+f1_keywords:
+- richole/IRichEditOleCallback.ShowContainerUI
 dev_langs:
- - c++
+- c++
 req.header: richole.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msftedit.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msftedit.dll
+- Msftedit.dll
 api_name:
- - IRichEditOleCallback.ShowContainerUI
+- IRichEditOleCallback.ShowContainerUI
 targetos: Windows
 req.typenames: 
 req.redist: 

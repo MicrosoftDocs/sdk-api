@@ -1,19 +1,17 @@
 ---
 UID: NF:mbnapi.IMbnInterface.GetReadyState
 title: IMbnInterface::GetReadyState (mbnapi.h)
-
 description: Gets the ready state.
 old-location: mbn\imbninterface_getreadystate.htm
 tech.root: mbn
 ms.assetid: 4236fd9d-292a-4840-b52e-c28c3e6eea10
-
 ms.date: 12/05/2018
 ms.keywords: GetReadyState, GetReadyState method [Microsoft Broadband Networks], GetReadyState method [Microsoft Broadband Networks],IMbnInterface interface, IMbnInterface interface [Microsoft Broadband Networks],GetReadyState method, IMbnInterface.GetReadyState, IMbnInterface::GetReadyState, mbn.imbninterface_getreadystate, mbnapi/IMbnInterface::GetReadyState
 ms.topic: method
-f1_keywords: 
- - "mbnapi/IMbnInterface.GetReadyState"
+f1_keywords:
+- mbnapi/IMbnInterface.GetReadyState
 dev_langs:
- - c++
+- c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mbnapi.h
+- mbnapi.h
 api_name:
- - IMbnInterface.GetReadyState
+- IMbnInterface.GetReadyState
 targetos: Windows
 req.typenames: 
 req.redist: 

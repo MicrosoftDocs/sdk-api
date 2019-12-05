@@ -1,19 +1,17 @@
 ---
 UID: NF:dvbsiparser.IIsdbAudioComponentDescriptor.GetQualityIndicator
 title: IIsdbAudioComponentDescriptor::GetQualityIndicator (dvbsiparser.h)
-
 description: Gets the value of the quality_indicator field from an Integrated Services Digital Broadcasting (ISDB) audio component descriptor. This two-bit field indicates the tone quality mode.
 old-location: mstv\iisdbaudiocomponentdescriptor_getqualityindicator.htm
 tech.root: mstv
 ms.assetid: 39d85ecd-6ccd-48e8-9498-41aad45a7357
-
 ms.date: 12/05/2018
 ms.keywords: GetQualityIndicator, GetQualityIndicator method [Microsoft TV Technologies], GetQualityIndicator method [Microsoft TV Technologies],IIsdbAudioComponentDescriptor interface, IIsdbAudioComponentDescriptor interface [Microsoft TV Technologies],GetQualityIndicator method, IIsdbAudioComponentDescriptor.GetQualityIndicator, IIsdbAudioComponentDescriptor::GetQualityIndicator, dvbsiparser/IIsdbAudioComponentDescriptor::GetQualityIndicator, mstv.iisdbaudiocomponentdescriptor_getqualityindicator
 ms.topic: method
-f1_keywords: 
- - "dvbsiparser/IIsdbAudioComponentDescriptor.GetQualityIndicator"
+f1_keywords:
+- dvbsiparser/IIsdbAudioComponentDescriptor.GetQualityIndicator
 dev_langs:
- - c++
+- c++
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dvbsiparser.h
+- dvbsiparser.h
 api_name:
- - IIsdbAudioComponentDescriptor.GetQualityIndicator
+- IIsdbAudioComponentDescriptor.GetQualityIndicator
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi3ds.ITAllocatorProperties.GetAllocateBuffers
 title: ITAllocatorProperties::GetAllocateBuffers (tapi3ds.h)
-
 description: The GetAllocateBuffers method determines whether the current allocator buffers can be retrieved. If it returns FALSE, the sample that the MST allocated doesn't have any buffers and they must be supplied before Update is called on the samples.
 old-location: tapi3\itallocatorproperties_getallocatebuffers.htm
 tech.root: Tapi
 ms.assetid: 74058181-ab74-4a2d-8395-c8a1a7f02820
-
 ms.date: 12/05/2018
 ms.keywords: GetAllocateBuffers, GetAllocateBuffers method [TAPI 2.2], GetAllocateBuffers method [TAPI 2.2],ITAllocatorProperties interface, ITAllocatorProperties interface [TAPI 2.2],GetAllocateBuffers method, ITAllocatorProperties.GetAllocateBuffers, ITAllocatorProperties::GetAllocateBuffers, _tapi3_itallocatorproperties_getallocatebuffers, tapi3.itallocatorproperties_getallocatebuffers, tapi3ds/ITAllocatorProperties::GetAllocateBuffers
 ms.topic: method
-f1_keywords: 
- - "tapi3ds/ITAllocatorProperties.GetAllocateBuffers"
+f1_keywords:
+- tapi3ds/ITAllocatorProperties.GetAllocateBuffers
 dev_langs:
- - c++
+- c++
 req.header: tapi3ds.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Tapi3.dll
+- Tapi3.dll
 api_name:
- - ITAllocatorProperties.GetAllocateBuffers
+- ITAllocatorProperties.GetAllocateBuffers
 targetos: Windows
 req.typenames: 
 req.redist: 

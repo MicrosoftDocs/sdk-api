@@ -1,19 +1,17 @@
 ---
 UID: NS:d3d11.D3D11_ENCRYPTED_BLOCK_INFO
 title: D3D11_ENCRYPTED_BLOCK_INFO (d3d11.h)
-
 description: Specifies which bytes in a video surface are encrypted.
 old-location: mf\d3d11_encrypted_block_info.htm
 tech.root: medfound
 ms.assetid: C52E2007-1E2B-4259-BE32-A96BB439F7C0
-
 ms.date: 12/05/2018
 ms.keywords: D3D11_ENCRYPTED_BLOCK_INFO, D3D11_ENCRYPTED_BLOCK_INFO structure [Media Foundation], d3d11/D3D11_ENCRYPTED_BLOCK_INFO, mf.d3d11_encrypted_block_info
 ms.topic: struct
-f1_keywords: 
- - "d3d11/D3D11_ENCRYPTED_BLOCK_INFO"
+f1_keywords:
+- d3d11/D3D11_ENCRYPTED_BLOCK_INFO
 dev_langs:
- - c++
+- c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - d3d11.h
+- d3d11.h
 api_name:
- - D3D11_ENCRYPTED_BLOCK_INFO
+- D3D11_ENCRYPTED_BLOCK_INFO
 targetos: Windows
 req.typenames: D3D11_ENCRYPTED_BLOCK_INFO
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:bcrypt.BCryptDuplicateHash
 title: BCryptDuplicateHash function (bcrypt.h)
-
 description: Duplicates an existing hash or Message Authentication Code (MAC) object.
 old-location: security\bcryptduplicatehash_func.htm
 tech.root: SecCNG
 ms.assetid: 451ff5dc-b66a-4e8e-a327-28b4ee618b74
-
 ms.date: 12/05/2018
 ms.keywords: BCryptDuplicateHash, BCryptDuplicateHash function [Security], bcrypt/BCryptDuplicateHash, security.bcryptduplicatehash_func
 ms.topic: function
-f1_keywords: 
- - "bcrypt/BCryptDuplicateHash"
+f1_keywords:
+- bcrypt/BCryptDuplicateHash
 dev_langs:
- - c++
+- c++
 req.header: bcrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Bcrypt.lib
 req.dll: Bcrypt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Bcrypt.dll
- - Ksecdd.sys
+- Bcrypt.dll
+- Ksecdd.sys
 api_name:
- - BCryptDuplicateHash
+- BCryptDuplicateHash
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:ocidl.IOleUndoManager.Enable
 title: IOleUndoManager::Enable (ocidl.h)
-
 description: Enables or disables the undo manager.
 old-location: com\ioleundomanager_enable.htm
 tech.root: com
 ms.assetid: d4d8582e-a9d1-48df-87ef-e378f3a81fa2
-
 ms.date: 12/05/2018
 ms.keywords: Enable, Enable method [COM], Enable method [COM],IOleUndoManager interface, IOleUndoManager interface [COM],Enable method, IOleUndoManager.Enable, IOleUndoManager::Enable, _ole_ioleundomanager_enable, com.ioleundomanager_enable, ocidl/IOleUndoManager::Enable
 ms.topic: method
-f1_keywords: 
- - "ocidl/IOleUndoManager.Enable"
+f1_keywords:
+- ocidl/IOleUndoManager.Enable
 dev_langs:
- - c++
+- c++
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - OCIdl.h
+- OCIdl.h
 api_name:
- - IOleUndoManager.Enable
+- IOleUndoManager.Enable
 targetos: Windows
 req.typenames: 
 req.redist: 

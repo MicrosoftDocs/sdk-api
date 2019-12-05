@@ -1,19 +1,17 @@
 ---
 UID: NF:fwpmu.IPsecSaContextUnsubscribe0
 title: IPsecSaContextUnsubscribe0 function (fwpmu.h)
-
 description: Is used to cancel an IPsec security association (SA) change subscription and stop receiving change notifications.
 old-location: fwp\ipsecsacontextunsubscribe0.htm
 tech.root: fwp
 ms.assetid: 9f82eefb-2a72-4a9c-8bf3-b3e3d466741f
-
 ms.date: 12/05/2018
 ms.keywords: IPsecSaContextUnsubscribe0, IPsecSaContextUnsubscribe0 function [Filtering], fwp.ipsecsacontextunsubscribe0, fwpmu/IPsecSaContextUnsubscribe0
 ms.topic: function
-f1_keywords: 
- - "fwpmu/IPsecSaContextUnsubscribe0"
+f1_keywords:
+- fwpmu/IPsecSaContextUnsubscribe0
 dev_langs:
- - c++
+- c++
 req.header: fwpmu.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Fwpuclnt.lib
 req.dll: Fwpuclnt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Fwpuclnt.dll
+- Fwpuclnt.dll
 api_name:
- - IPsecSaContextUnsubscribe0
+- IPsecSaContextUnsubscribe0
 targetos: Windows
 req.typenames: 
 req.redist: 

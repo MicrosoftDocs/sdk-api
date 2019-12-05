@@ -1,19 +1,17 @@
 ---
 UID: NF:bdaiface.IBDA_NetworkProvider.GetSignalSource
 title: IBDA_NetworkProvider::GetSignalSource (bdaiface.h)
-
 description: The GetSignalSource method retrieves the signal source.
 old-location: mstv\ibda_networkprovider_getsignalsource.htm
 tech.root: mstv
 ms.assetid: 943b3c1f-4aea-4c16-b730-74b63397ad9f
-
 ms.date: 12/05/2018
 ms.keywords: GetSignalSource, GetSignalSource method [Microsoft TV Technologies], GetSignalSource method [Microsoft TV Technologies],IBDA_NetworkProvider interface, IBDA_NetworkProvider interface [Microsoft TV Technologies],GetSignalSource method, IBDA_NetworkProvider.GetSignalSource, IBDA_NetworkProvider::GetSignalSource, IBDA_NetworkProviderGetSignalSource, bdaiface/IBDA_NetworkProvider::GetSignalSource, mstv.ibda_networkprovider_getsignalsource
 ms.topic: method
-f1_keywords: 
- - "bdaiface/IBDA_NetworkProvider.GetSignalSource"
+f1_keywords:
+- bdaiface/IBDA_NetworkProvider.GetSignalSource
 dev_langs:
- - c++
+- c++
 req.header: bdaiface.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Bdaiface.h
+- Bdaiface.h
 api_name:
- - IBDA_NetworkProvider.GetSignalSource
+- IBDA_NetworkProvider.GetSignalSource
 targetos: Windows
 req.typenames: 
 req.redist: 

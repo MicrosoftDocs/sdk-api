@@ -1,19 +1,17 @@
 ---
 UID: NF:certenroll.ISignerCertificate.get_ParentWindow
 title: ISignerCertificate::get_ParentWindow (certenroll.h)
-
 description: Specifies or retrieves the ID of the window used to display signing certificate information.
 old-location: security\isignercertificate_parentwindow_property.htm
 tech.root: seccertenroll
 ms.assetid: a1749c92-11e4-4726-a355-ccdd245b4df8
-
 ms.date: 12/05/2018
 ms.keywords: ISignerCertificate interface [Security],ParentWindow property, ISignerCertificate.ParentWindow, ISignerCertificate.get_ParentWindow, ISignerCertificate::ParentWindow, ISignerCertificate::get_ParentWindow, ISignerCertificate::put_ParentWindow, ParentWindow property [Security], ParentWindow property [Security],ISignerCertificate interface, certenroll/ISignerCertificate::ParentWindow, certenroll/ISignerCertificate::get_ParentWindow, certenroll/ISignerCertificate::put_ParentWindow, get_ParentWindow, security.isignercertificate_parentwindow_property
 ms.topic: method
-f1_keywords: 
- - "certenroll/ISignerCertificate.ParentWindow"
+f1_keywords:
+- certenroll/ISignerCertificate.ParentWindow
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: CertEnroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CertEnroll.dll
+- CertEnroll.dll
 api_name:
- - ISignerCertificate.ParentWindow
- - ISignerCertificate.get_ParentWindow
- - ISignerCertificate.put_ParentWindow
+- ISignerCertificate.ParentWindow
+- ISignerCertificate.get_ParentWindow
+- ISignerCertificate.put_ParentWindow
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:msopc.IOpcSignatureCustomObjectEnumerator.GetCurrent
 title: IOpcSignatureCustomObjectEnumerator::GetCurrent (msopc.h)
-
 description: Gets the IOpcSignatureCustomObject interface at the current position of the enumerator.
 old-location: opc\iopcsignaturecustomobjectenumerator_getcurrent.htm
 tech.root: OPC
 ms.assetid: a0197da5-e613-4aba-8098-901e192051ff
-
 ms.date: 12/05/2018
 ms.keywords: GetCurrent, GetCurrent method [Open Packaging Conventions], GetCurrent method [Open Packaging Conventions],IOpcSignatureCustomObjectEnumerator interface, IOpcSignatureCustomObjectEnumerator interface [Open Packaging Conventions],GetCurrent method, IOpcSignatureCustomObjectEnumerator.GetCurrent, IOpcSignatureCustomObjectEnumerator::GetCurrent, msopc/IOpcSignatureCustomObjectEnumerator::GetCurrent, opc.iopcsignaturecustomobjectenumerator_getcurrent
 ms.topic: method
-f1_keywords: 
- - "msopc/IOpcSignatureCustomObjectEnumerator.GetCurrent"
+f1_keywords:
+- msopc/IOpcSignatureCustomObjectEnumerator.GetCurrent
 dev_langs:
- - c++
+- c++
 req.header: msopc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msopc.h
+- msopc.h
 api_name:
- - IOpcSignatureCustomObjectEnumerator.GetCurrent
+- IOpcSignatureCustomObjectEnumerator.GetCurrent
 targetos: Windows
 req.typenames: 
 req.redist: 

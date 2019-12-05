@@ -1,19 +1,17 @@
 ---
 UID: NF:wincrypt.CryptSetProviderExA
 title: CryptSetProviderExA function (wincrypt.h)
-
 description: Specifies the default cryptographic service provider (CSP) of a specified provider type for the local computer or current user.
 old-location: security\cryptsetproviderex.htm
 tech.root: SecCrypto
 ms.assetid: 5f0c2724-5144-4a22-a7da-2a5162f06f5d
-
 ms.date: 12/05/2018
 ms.keywords: CRYPT_DELETE_DEFAULT, CRYPT_MACHINE_DEFAULT, CRYPT_USER_DEFAULT, CryptSetProviderEx, CryptSetProviderEx function [Security], CryptSetProviderExA, CryptSetProviderExW, _crypto2_cryptsetproviderex, security.cryptsetproviderex, wincrypt/CryptSetProviderEx, wincrypt/CryptSetProviderExA, wincrypt/CryptSetProviderExW
 ms.topic: function
-f1_keywords: 
- - "wincrypt/CryptSetProviderEx"
+f1_keywords:
+- wincrypt/CryptSetProviderEx
 dev_langs:
- - c++
+- c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Advapi32.dll
- - API-MS-Win-Security-cryptoapi-l1-1-0.dll
- - cryptsp.dll
+- Advapi32.dll
+- API-MS-Win-Security-cryptoapi-l1-1-0.dll
+- cryptsp.dll
 api_name:
- - CryptSetProviderEx
- - CryptSetProviderExA
- - CryptSetProviderExW
+- CryptSetProviderEx
+- CryptSetProviderExA
+- CryptSetProviderExW
 targetos: Windows
 req.typenames: 
 req.redist: 

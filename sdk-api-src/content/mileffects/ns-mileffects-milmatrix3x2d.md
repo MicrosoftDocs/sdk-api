@@ -1,19 +1,17 @@
 ---
 UID: NS:mileffects.MilMatrix3x2D
 title: MilMatrix3x2D (mileffects.h)
-
 description: Represents a 3x3 matrix.
 old-location: wibe\_wibe_mil_matrix3x2d.htm
 tech.root: wibe
 ms.assetid: VS|wibe|~\wibelh\reference\structs\mil_matrix3x2d.htm
-
 ms.date: 12/05/2018
 ms.keywords: MIL_MATRIX3X2D, MilMatrix3x2D, MilMatrix3x2D structure [WPF Bitmap Effects], _wibe_mil_matrix3x2d, mileffects/MilMatrix3x2D, wibe._wibe_mil_matrix3x2d
 ms.topic: struct
-f1_keywords: 
- - "mileffects/MilMatrix3x2D"
+f1_keywords:
+- mileffects/MilMatrix3x2D
 dev_langs:
- - c++
+- c++
 req.header: mileffects.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Mileffects.h
+- Mileffects.h
 api_name:
- - MilMatrix3x2D
+- MilMatrix3x2D
 targetos: Windows
 req.typenames: 
 req.redist: Microsoft .Net 3.0

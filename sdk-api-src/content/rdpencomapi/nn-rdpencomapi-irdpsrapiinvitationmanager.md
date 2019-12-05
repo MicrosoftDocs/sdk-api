@@ -1,19 +1,17 @@
 ---
 UID: NN:rdpencomapi.IRDPSRAPIInvitationManager
 title: IRDPSRAPIInvitationManager (rdpencomapi.h)
-
 description: Manages invitation objects.
 old-location: rdp\irdpsrapiinvitationmanager.htm
 tech.root: rdp
 ms.assetid: 300940ef-e8a6-4dd9-a078-d4325e20ae91
-
 ms.date: 12/05/2018
 ms.keywords: IRDPSRAPIInvitationManager, IRDPSRAPIInvitationManager interface [RDP], IRDPSRAPIInvitationManager interface [RDP],described, rdp.irdpsrapiinvitationmanager, rdpencomapi/IRDPSRAPIInvitationManager
 ms.topic: interface
-f1_keywords: 
- - "rdpencomapi/IRDPSRAPIInvitationManager"
+f1_keywords:
+- rdpencomapi/IRDPSRAPIInvitationManager
 dev_langs:
- - c++
+- c++
 req.header: rdpencomapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: RdpEncom.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - RdpEncom.dll
+- RdpEncom.dll
 api_name:
- - IRDPSRAPIInvitationManager
+- IRDPSRAPIInvitationManager
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:mftransform.IMFDeviceTransform.GetInputAvailableType
 title: IMFDeviceTransform::GetInputAvailableType (mftransform.h)
-
 description: The GetInputAvailableType method gets an available media type for an input stream on this Media Foundation transform (MFT).
 old-location: stream\imfdevicetransform_getinputavailabletype.htm
 tech.root: stream
 ms.assetid: 7F3DA67A-AC31-43A5-83AF-7744F6AA5810
-
 ms.date: 12/05/2018
 ms.keywords: GetInputAvailableType, GetInputAvailableType method [Streaming Media Devices], GetInputAvailableType method [Streaming Media Devices],IMFDeviceTransform interface, IMFDeviceTransform interface [Streaming Media Devices],GetInputAvailableType method, IMFDeviceTransform.GetInputAvailableType, IMFDeviceTransform::GetInputAvailableType, mftransform/IMFDeviceTransform::GetInputAvailableType, stream.imfdevicetransform_getinputavailabletype
 ms.topic: method
-f1_keywords: 
- - "mftransform/IMFDeviceTransform.GetInputAvailableType"
+f1_keywords:
+- mftransform/IMFDeviceTransform.GetInputAvailableType
 dev_langs:
- - c++
+- c++
 req.header: mftransform.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mftransform.h
+- mftransform.h
 api_name:
- - IMFDeviceTransform.GetInputAvailableType
+- IMFDeviceTransform.GetInputAvailableType
 targetos: Windows
 req.typenames: 
 req.redist: 

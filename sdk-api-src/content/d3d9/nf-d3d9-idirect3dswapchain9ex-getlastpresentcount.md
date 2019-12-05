@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d9.IDirect3DSwapChain9Ex.GetLastPresentCount
 title: IDirect3DSwapChain9Ex::GetLastPresentCount (d3d9.h)
-
 description: Returns the number of times the swapchain has been processed.
 old-location: direct3d9\idirect3dswapchain9_getlastpresentcount.htm
 tech.root: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3dswapchain9_getlastpresentcount.htm
-
 ms.date: 12/05/2018
 ms.keywords: GetLastPresentCount, GetLastPresentCount method [Direct3D 9], GetLastPresentCount method [Direct3D 9],IDirect3DSwapChain9Ex interface, IDirect3DSwapChain9Ex interface [Direct3D 9],GetLastPresentCount method, IDirect3DSwapChain9Ex.GetLastPresentCount, IDirect3DSwapChain9Ex::GetLastPresentCount, d305fb15-e0d6-5a21-767a-ac221539a549, d3d9/IDirect3DSwapChain9Ex::GetLastPresentCount, direct3d9.idirect3dswapchain9_getlastpresentcount
 ms.topic: method
-f1_keywords: 
- - "d3d9/IDirect3DSwapChain9Ex.GetLastPresentCount"
+f1_keywords:
+- d3d9/IDirect3DSwapChain9Ex.GetLastPresentCount
 dev_langs:
- - c++
+- c++
 req.header: d3d9.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: D3D9.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D9.lib
- - D3D9.dll
+- D3D9.lib
+- D3D9.dll
 api_name:
- - IDirect3DSwapChain9Ex.GetLastPresentCount
+- IDirect3DSwapChain9Ex.GetLastPresentCount
 targetos: Windows
 req.typenames: 
 req.redist: 

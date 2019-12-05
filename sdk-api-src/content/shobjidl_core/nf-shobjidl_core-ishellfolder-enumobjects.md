@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IShellFolder.EnumObjects
 title: IShellFolder::EnumObjects (shobjidl_core.h)
-
 description: Enables a client to determine the contents of a folder by creating an item identifier enumeration object and returning its IEnumIDList interface. The methods supported by that interface can then be used to enumerate the folder's contents.
 old-location: shell\IShellFolder_EnumObjects.htm
 tech.root: shell
 ms.assetid: 248bec8b-0bf4-47d5-adb3-31a685a2c359
-
 ms.date: 12/05/2018
 ms.keywords: EnumObjects, EnumObjects method [Windows Shell], EnumObjects method [Windows Shell],IShellFolder interface, EnumObjects method [Windows Shell],IShellFolder2 interface, IShellFolder interface [Windows Shell],EnumObjects method, IShellFolder.EnumObjects, IShellFolder2 interface [Windows Shell],EnumObjects method, IShellFolder2::EnumObjects, IShellFolder::EnumObjects, _win32_IShellFolder_EnumObjects, shell.IShellFolder_EnumObjects, shobjidl_core/IShellFolder2::EnumObjects, shobjidl_core/IShellFolder::EnumObjects
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IShellFolder.EnumObjects"
+f1_keywords:
+- shobjidl_core/IShellFolder.EnumObjects
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: Shell32.dll (version 4.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - IShellFolder.EnumObjects
- - IShellFolder2.EnumObjects
+- IShellFolder.EnumObjects
+- IShellFolder2.EnumObjects
 targetos: Windows
 req.typenames: 
 req.redist: 

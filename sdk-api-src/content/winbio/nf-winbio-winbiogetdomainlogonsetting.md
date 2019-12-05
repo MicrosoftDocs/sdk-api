@@ -1,19 +1,17 @@
 ---
 UID: NF:winbio.WinBioGetDomainLogonSetting
 title: WinBioGetDomainLogonSetting function (winbio.h)
-
 description: Retrieves a value that specifies whether users can log on to a domain by using biometric information.
 old-location: secbiomet\winbiogetdomainlogonsetting.htm
 tech.root: SecBioMet
 ms.assetid: bc09c606-654e-4871-ae2e-09fac3982e94
-
 ms.date: 12/05/2018
 ms.keywords: WINBIO_SETTING_SOURCE_DEFAULT, WINBIO_SETTING_SOURCE_INVALID, WINBIO_SETTING_SOURCE_LOCAL, WINBIO_SETTING_SOURCE_POLICY, WinBioGetDomainLogonSetting, WinBioGetDomainLogonSetting function [Windows Biometric Framework API], secbiomet.winbiogetdomainlogonsetting, winbio/WinBioGetDomainLogonSetting
 ms.topic: function
-f1_keywords: 
- - "winbio/WinBioGetDomainLogonSetting"
+f1_keywords:
+- winbio/WinBioGetDomainLogonSetting
 dev_langs:
- - c++
+- c++
 req.header: winbio.h
 req.include-header: Winbio.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Winbio.lib
 req.dll: Winbio.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Winbio.dll
- - Ext-MS-Win-BioMetrics-WinBio-l1-2-0.dll
- - winbioext.dll
- - Ext-MS-Win-BioMetrics-WinBio-Core-L1-1-1.dll
+- Winbio.dll
+- Ext-MS-Win-BioMetrics-WinBio-l1-2-0.dll
+- winbioext.dll
+- Ext-MS-Win-BioMetrics-WinBio-Core-L1-1-1.dll
 api_name:
- - WinBioGetDomainLogonSetting
+- WinBioGetDomainLogonSetting
 targetos: Windows
 req.typenames: 
 req.redist: 

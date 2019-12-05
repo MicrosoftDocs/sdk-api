@@ -1,19 +1,17 @@
 ---
 UID: NF:winbase.CreateFiber
 title: CreateFiber function (winbase.h)
-
 description: Allocates a fiber object, assigns it a stack, and sets up execution to begin at the specified start address, typically the fiber function. This function does not schedule the fiber.
 old-location: base\createfiber.htm
 tech.root: ProcThread
 ms.assetid: 3e44776b-7ef2-43fb-a2ae-e8ab7e20644b
-
 ms.date: 12/05/2018
 ms.keywords: CreateFiber, CreateFiber function, _win32_createfiber, base.createfiber, winbase/CreateFiber
 ms.topic: function
-f1_keywords: 
- - "winbase/CreateFiber"
+f1_keywords:
+- winbase/CreateFiber
 dev_langs:
- - c++
+- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,19 +30,19 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-fibers-l2-1-0.dll
- - kernel32legacy.dll
- - API-MS-Win-Core-fibers-l2-1-1.dll
- - API-MS-Win-DownLevel-Kernel32-l2-1-0.dll
- - KernelBase.dll
+- Kernel32.dll
+- API-MS-Win-Core-fibers-l2-1-0.dll
+- kernel32legacy.dll
+- API-MS-Win-Core-fibers-l2-1-1.dll
+- API-MS-Win-DownLevel-Kernel32-l2-1-0.dll
+- KernelBase.dll
 api_name:
- - CreateFiber
+- CreateFiber
 targetos: Windows
 req.typenames: 
 req.redist: 

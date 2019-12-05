@@ -1,19 +1,17 @@
 ---
 UID: NF:oleidl.IOleInPlaceUIWindow.SetActiveObject
 title: IOleInPlaceUIWindow::SetActiveObject (oleidl.h)
-
 description: Provides a direct channel of communication between the object and each of the frame and document windows.
 old-location: com\ioleinplaceuiwindow_setactiveobject.htm
 tech.root: com
 ms.assetid: 6ed1b09a-44e4-41dc-aa35-27efb3df66d6
-
 ms.date: 12/05/2018
 ms.keywords: IOleInPlaceUIWindow interface [COM],SetActiveObject method, IOleInPlaceUIWindow.SetActiveObject, IOleInPlaceUIWindow::SetActiveObject, SetActiveObject, SetActiveObject method [COM], SetActiveObject method [COM],IOleInPlaceUIWindow interface, _ole_ioleinplaceuiwindow_setactiveobject, com.ioleinplaceuiwindow_setactiveobject, oleidl/IOleInPlaceUIWindow::SetActiveObject
 ms.topic: method
-f1_keywords: 
- - "oleidl/IOleInPlaceUIWindow.SetActiveObject"
+f1_keywords:
+- oleidl/IOleInPlaceUIWindow.SetActiveObject
 dev_langs:
- - c++
+- c++
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - OleIdl.h
+- OleIdl.h
 api_name:
- - IOleInPlaceUIWindow.SetActiveObject
+- IOleInPlaceUIWindow.SetActiveObject
 targetos: Windows
 req.typenames: 
 req.redist: 

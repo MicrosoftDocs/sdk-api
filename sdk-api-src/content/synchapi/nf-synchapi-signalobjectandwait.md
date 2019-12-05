@@ -1,19 +1,17 @@
 ---
 UID: NF:synchapi.SignalObjectAndWait
 title: SignalObjectAndWait function (synchapi.h)
-
 description: Signals one object and waits on another object as a single operation.
 old-location: base\signalobjectandwait.htm
 tech.root: Sync
 ms.assetid: 2b1ce22b-8edb-4685-99f4-4fc38eec202a
-
 ms.date: 12/05/2018
 ms.keywords: SignalObjectAndWait, SignalObjectAndWait function, _win32_signalobjectandwait, base.signalobjectandwait, synchapi/SignalObjectAndWait
 ms.topic: function
-f1_keywords: 
- - "synchapi/SignalObjectAndWait"
+f1_keywords:
+- synchapi/SignalObjectAndWait
 dev_langs:
- - c++
+- c++
 req.header: synchapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,19 +30,19 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-Synch-l1-2-0.dll
- - KernelBase.dll
- - API-MS-Win-Core-Synch-l1-2-1.dll
- - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
- - MinKernelBase.dll
+- Kernel32.dll
+- API-MS-Win-Core-Synch-l1-2-0.dll
+- KernelBase.dll
+- API-MS-Win-Core-Synch-l1-2-1.dll
+- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+- MinKernelBase.dll
 api_name:
- - SignalObjectAndWait
+- SignalObjectAndWait
 targetos: Windows
 req.typenames: 
 req.redist: 

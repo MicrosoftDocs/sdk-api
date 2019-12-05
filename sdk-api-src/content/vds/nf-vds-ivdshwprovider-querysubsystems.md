@@ -1,19 +1,17 @@
 ---
 UID: NF:vds.IVdsHwProvider.QuerySubSystems
 title: IVdsHwProvider::QuerySubSystems (vds.h)
-
 description: Returns an enumeration of the subsystems managed by the provider.
 old-location: base\ivdshwprovider_querysubsystems.htm
 tech.root: VDS
 ms.assetid: ae327655-3db9-44b0-934a-458ee90b1d07
-
 ms.date: 12/05/2018
 ms.keywords: IVdsHwProvider interface [VDS],QuerySubSystems method, IVdsHwProvider.QuerySubSystems, IVdsHwProvider::QuerySubSystems, QuerySubSystems, QuerySubSystems method [VDS], QuerySubSystems method [VDS],IVdsHwProvider interface, base.ivdshwprovider_querysubsystems, vds/IVdsHwProvider::QuerySubSystems, vdshwprv/IVdsHwProvider::QuerySubSystems
 ms.topic: method
-f1_keywords: 
- - "vds/IVdsHwProvider.QuerySubSystems"
+f1_keywords:
+- vds/IVdsHwProvider.QuerySubSystems
 dev_langs:
- - c++
+- c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Uuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Uuid.lib
- - Uuid.dll
+- Uuid.lib
+- Uuid.dll
 api_name:
- - IVdsHwProvider.QuerySubSystems
+- IVdsHwProvider.QuerySubSystems
 targetos: Windows
 req.typenames: 
 req.redist: 

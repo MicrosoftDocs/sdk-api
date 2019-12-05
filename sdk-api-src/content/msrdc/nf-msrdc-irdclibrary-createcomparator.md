@@ -1,19 +1,17 @@
 ---
 UID: NF:msrdc.IRdcLibrary.CreateComparator
 title: IRdcLibrary::CreateComparator (msrdc.h)
-
 description: Creates a signature comparator.
 old-location: rdc\irdclibrary_createcomparator.htm
 tech.root: rdc
 ms.assetid: 21e83ed0-974a-470f-8a7f-1776f1575100
-
 ms.date: 12/05/2018
 ms.keywords: CreateComparator, CreateComparator method [Remote Differential Compression], CreateComparator method [Remote Differential Compression],IRdcLibrary interface, IRdcLibrary interface [Remote Differential Compression],CreateComparator method, IRdcLibrary.CreateComparator, IRdcLibrary::CreateComparator, MSRDC_DEFAULT_COMPAREBUFFER, MSRDC_MAXIMUM_COMPAREBUFFER, MSRDC_MINIMUM_COMPAREBUFFER, fs.irdclibrary_createcomparator, msrdc/IRdcLibrary::CreateComparator, rdc.irdclibrary_createcomparator
 ms.topic: method
-f1_keywords: 
- - "msrdc/IRdcLibrary.CreateComparator"
+f1_keywords:
+- msrdc/IRdcLibrary.CreateComparator
 dev_langs:
- - c++
+- c++
 req.header: msrdc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: MsRdc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - MsRdc.dll
+- MsRdc.dll
 api_name:
- - IRdcLibrary.CreateComparator
+- IRdcLibrary.CreateComparator
 targetos: Windows
 req.typenames: 
 req.redist: 

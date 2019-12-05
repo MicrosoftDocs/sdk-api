@@ -1,19 +1,17 @@
 ---
 UID: NN:appxpackaging.IAppxManifestApplication
 title: IAppxManifestApplication (appxpackaging.h)
-
 description: Provides access to attribute values of the application.
 old-location: appxpkg\iappxmanifestapplication.htm
 tech.root: appxpkg
 ms.assetid: 16FC78D1-7387-4C90-9F63-BCFA110BC487
-
 ms.date: 12/05/2018
 ms.keywords: IAppxManifestApplication, IAppxManifestApplication interface [App packaging and management], IAppxManifestApplication interface [App packaging and management],described, appxpackaging/IAppxManifestApplication, appxpkg.iappxmanifestapplication
 ms.topic: interface
-f1_keywords: 
- - "appxpackaging/IAppxManifestApplication"
+f1_keywords:
+- appxpackaging/IAppxManifestApplication
 dev_langs:
- - c++
+- c++
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - AppxPackaging.h
+- AppxPackaging.h
 api_name:
- - IAppxManifestApplication
+- IAppxManifestApplication
 targetos: Windows
 req.typenames: 
 req.redist: 

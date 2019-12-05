@@ -1,19 +1,17 @@
 ---
 UID: NF:wmsinternaladminnetsource.IWMSInternalAdminNetSource3.ShutdownProxyContext2
 title: IWMSInternalAdminNetSource3::ShutdownProxyContext2 (wmsinternaladminnetsource.h)
-
 description: The ShutdownProxyContext2 method releases the internal resources used by IWMSInternalAdminNetSource3::FindProxyForURLEx2. To avoid memory leaks, you must call this method after you are finished making calls to FindProxyForURLEx2.
 old-location: wmformat\iwmsinternaladminnetsource3_shutdownproxycontext2.htm
 tech.root: wmformat
 ms.assetid: 83f4f504-6447-4792-9fc2-1bf479f1e6a2
-
 ms.date: 12/05/2018
 ms.keywords: IWMSInternalAdminNetSource3 interface [windows Media Format],ShutdownProxyContext2 method, IWMSInternalAdminNetSource3.ShutdownProxyContext2, IWMSInternalAdminNetSource3::ShutdownProxyContext2, IWMSInternalAdminNetSource3ShutdownProxyContext2, ShutdownProxyContext2, ShutdownProxyContext2 method [windows Media Format], ShutdownProxyContext2 method [windows Media Format],IWMSInternalAdminNetSource3 interface, wmformat.iwmsinternaladminnetsource3_shutdownproxycontext2, wmsinternaladminnetsource/IWMSInternalAdminNetSource3::ShutdownProxyContext2
 ms.topic: method
-f1_keywords: 
- - "wmsinternaladminnetsource/IWMSInternalAdminNetSource3.ShutdownProxyContext2"
+f1_keywords:
+- wmsinternaladminnetsource/IWMSInternalAdminNetSource3.ShutdownProxyContext2
 dev_langs:
- - c++
+- c++
 req.header: wmsinternaladminnetsource.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wmvcore.lib
- - Wmvcore.dll
- - WMStubDRM.lib
- - WMStubDRM.dll
+- Wmvcore.lib
+- Wmvcore.dll
+- WMStubDRM.lib
+- WMStubDRM.dll
 api_name:
- - IWMSInternalAdminNetSource3.ShutdownProxyContext2
+- IWMSInternalAdminNetSource3.ShutdownProxyContext2
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:winsnmp.SnmpGetPduData
 title: SnmpGetPduData function (winsnmp.h)
-
 description: The WinSNMP SnmpGetPduData function returns selected data fields from a specified SNMP protocol data unit (PDU).
 old-location: snmp\snmpgetpdudata.htm
 tech.root: SNMP
 ms.assetid: 5dff1bc0-aac4-490f-aef0-11d090567761
-
 ms.date: 12/05/2018
 ms.keywords: SNMP_ERROR_AUTHORIZATIONERROR, SNMP_ERROR_BADVALUE, SNMP_ERROR_COMMITFAILED, SNMP_ERROR_GENERR, SNMP_ERROR_INCONSISTENTNAME, SNMP_ERROR_INCONSISTENTVALUE, SNMP_ERROR_NOACCESS, SNMP_ERROR_NOCREATION, SNMP_ERROR_NOERROR, SNMP_ERROR_NOSUCHNAME, SNMP_ERROR_NOTWRITABLE, SNMP_ERROR_READONLY, SNMP_ERROR_RESOURCEUNAVAILABLE, SNMP_ERROR_TOOBIG, SNMP_ERROR_UNDOFAILED, SNMP_ERROR_WRONGENCODING, SNMP_ERROR_WRONGLENGTH, SNMP_ERROR_WRONGTYPE, SNMP_ERROR_WRONGVALUE, SNMP_PDU_GET, SNMP_PDU_GETBULK, SNMP_PDU_GETNEXT, SNMP_PDU_RESPONSE, SNMP_PDU_SET, SNMP_PDU_TRAP, SnmpGetPduData, SnmpGetPduData function [SNMP], _snmp_snmpgetpdudata, snmp.snmpgetpdudata, winsnmp/SnmpGetPduData
 ms.topic: function
-f1_keywords: 
- - "winsnmp/SnmpGetPduData"
+f1_keywords:
+- winsnmp/SnmpGetPduData
 dev_langs:
- - c++
+- c++
 req.header: winsnmp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Wsnmp32.lib
 req.dll: Wsnmp32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Wsnmp32.dll
+- Wsnmp32.dll
 api_name:
- - SnmpGetPduData
+- SnmpGetPduData
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NE:sdoias._CLIENTPROPERTIES
 title: CLIENTPROPERTIES (sdoias.h)
-
 description: The values of the CLIENTPROPERTIES type enumerate the properties of a RADIUS client. The SDO computer is the RADIUS server.
 old-location: nps\SDO_clientproperties.htm
 tech.root: Nps
 ms.assetid: bd37acfb-eb92-40de-945b-ebda95f6ae53
-
 ms.date: 12/05/2018
 ms.keywords: CLIENTPROPERTIES, CLIENTPROPERTIES enumeration [Network Policy Server], PROPERTY_CLIENT_ADDRESS, PROPERTY_CLIENT_ENABLED, PROPERTY_CLIENT_FILTER_VSAS, PROPERTY_CLIENT_NAS_MANUFACTURER, PROPERTY_CLIENT_QUARANTINE_COMPATIBLE, PROPERTY_CLIENT_REQUIRE_SIGNATURE, PROPERTY_CLIENT_SHARED_SECRET, PROPERTY_CLIENT_UNUSED, _sdo_clientproperties, nps.SDO_clientproperties, sdo.clientproperties, sdoias/CLIENTPROPERTIES, sdoias/PROPERTY_CLIENT_ADDRESS, sdoias/PROPERTY_CLIENT_ENABLED, sdoias/PROPERTY_CLIENT_FILTER_VSAS, sdoias/PROPERTY_CLIENT_NAS_MANUFACTURER, sdoias/PROPERTY_CLIENT_QUARANTINE_COMPATIBLE, sdoias/PROPERTY_CLIENT_REQUIRE_SIGNATURE, sdoias/PROPERTY_CLIENT_SHARED_SECRET, sdoias/PROPERTY_CLIENT_UNUSED
 ms.topic: enum
 f1_keywords:
 - sdoias/CLIENTPROPERTIES
 dev_langs:
- - c++
+- c++
 req.header: sdoias.h
 req.include-header: 
 req.target-type: Windows

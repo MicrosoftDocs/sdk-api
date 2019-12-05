@@ -1,19 +1,17 @@
 ---
 UID: NC:projectedfslib.PRJ_NOTIFICATION_CB
 title: PRJ_NOTIFICATION_CB (projectedfslib.h)
-
 description: Delivers notifications to the provider about file system operations.
 old-location: projfs\prj_notification_cb.htm
 tech.root: ProjFS
 ms.assetid: 7F149A78-2668-4BF2-88D3-1E40CA469AA6
-
 ms.date: 12/05/2018
 ms.keywords: PRJ_NOTIFICATION_CB, PRJ_NOTIFICATION_CB callback, PRJ_NOTIFICATION_CB callback function, ProjFS.prj_notification_cb, projectedfslib/PRJ_NOTIFICATION_CB
 ms.topic: callback
-f1_keywords: 
- - "projectedfslib/PRJ_NOTIFICATION_CB"
+f1_keywords:
+- projectedfslib/PRJ_NOTIFICATION_CB
 dev_langs:
- - c++
+- c++
 req.header: projectedfslib.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - projectedfslib.h
+- projectedfslib.h
 api_name:
- - PRJ_NOTIFICATION_CB
+- PRJ_NOTIFICATION_CB
 targetos: Windows
 req.typenames: 
 req.redist: 

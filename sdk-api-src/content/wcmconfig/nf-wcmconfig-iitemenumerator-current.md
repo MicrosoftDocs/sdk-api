@@ -1,19 +1,17 @@
 ---
 UID: NF:wcmconfig.IItemEnumerator.Current
 title: IItemEnumerator::Current (wcmconfig.h)
-
 description: Retrieves an item from the current position of the enumerator.
 old-location: smi\iitemenumerator_current.htm
 tech.root: SMI
 ms.assetid: 0f117274-672f-40da-a4c6-88dd6aa01cf7
-
 ms.date: 12/05/2018
 ms.keywords: Current, Current method [SMI], Current method [SMI],IItemEnumerator interface, IItemEnumerator interface [SMI],Current method, IItemEnumerator.Current, IItemEnumerator::Current, smi.iitemenumerator_current, wcmconfig/IItemEnumerator::Current
 ms.topic: method
-f1_keywords: 
- - "wcmconfig/IItemEnumerator.Current"
+f1_keywords:
+- wcmconfig/IItemEnumerator.Current
 dev_langs:
- - c++
+- c++
 req.header: wcmconfig.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: SMIEngine.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - SMIEngine.dll
+- SMIEngine.dll
 api_name:
- - IItemEnumerator.Current
+- IItemEnumerator.Current
 targetos: Windows
 req.typenames: 
 req.redist: 

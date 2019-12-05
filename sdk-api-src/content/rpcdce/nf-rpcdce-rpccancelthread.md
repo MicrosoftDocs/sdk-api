@@ -1,19 +1,17 @@
 ---
 UID: NF:rpcdce.RpcCancelThread
 title: RpcCancelThread function (rpcdce.h)
-
 description: The RpcCancelThread function cancels a thread. The RpcCancelThread function should not be used to cancel asynchronous RPC calls; instead, use the RpcAsyncCancelCall function to cancel an asynchronous RPC call.
 old-location: rpc\rpccancelthread.htm
 tech.root: Rpc
 ms.assetid: 4315562e-674b-40a4-a2d9-133e6ab27c25
-
 ms.date: 12/05/2018
 ms.keywords: RpcCancelThread, RpcCancelThread function [RPC], _rpc_rpccancelthread, rpc.rpccancelthread, rpcdce/RpcCancelThread
 ms.topic: function
-f1_keywords: 
- - "rpcdce/RpcCancelThread"
+f1_keywords:
+- rpcdce/RpcCancelThread
 dev_langs:
- - c++
+- c++
 req.header: rpcdce.h
 req.include-header: Rpc.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Rpcrt4.lib
 req.dll: Rpcrt4.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Rpcrt4.dll
+- Rpcrt4.dll
 api_name:
- - RpcCancelThread
+- RpcCancelThread
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:dvbsiparser.IIsdbComponentGroupDescriptor.GetCountOfRecords
 title: IIsdbComponentGroupDescriptor::GetCountOfRecords (dvbsiparser.h)
-
 description: Gets the number of component records in an Integrated Services Digital Broadcasting (ISDB) component group descriptor.
 old-location: mstv\iisdbcomponentgroupdescriptor_getcountofrecords.htm
 tech.root: mstv
 ms.assetid: b5b8334c-a3f1-42f7-81c9-d0c461e17f25
-
 ms.date: 12/05/2018
 ms.keywords: GetCountOfRecords, GetCountOfRecords method [Microsoft TV Technologies], GetCountOfRecords method [Microsoft TV Technologies],IIsdbComponentGroupDescriptor interface, IIsdbComponentGroupDescriptor interface [Microsoft TV Technologies],GetCountOfRecords method, IIsdbComponentGroupDescriptor.GetCountOfRecords, IIsdbComponentGroupDescriptor::GetCountOfRecords, dvbsiparser/IIsdbComponentGroupDescriptor::GetCountOfRecords, mstv.iisdbcomponentgroupdescriptor_getcountofrecords
 ms.topic: method
-f1_keywords: 
- - "dvbsiparser/IIsdbComponentGroupDescriptor.GetCountOfRecords"
+f1_keywords:
+- dvbsiparser/IIsdbComponentGroupDescriptor.GetCountOfRecords
 dev_langs:
- - c++
+- c++
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dvbsiparser.h
+- dvbsiparser.h
 api_name:
- - IIsdbComponentGroupDescriptor.GetCountOfRecords
+- IIsdbComponentGroupDescriptor.GetCountOfRecords
 targetos: Windows
 req.typenames: 
 req.redist: 

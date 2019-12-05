@@ -1,19 +1,17 @@
 ---
 UID: NE:dhcpsapi.__unnamed_enum_5
 title: DHCP_POLICY_FIELDS_TO_UPDATE (dhcpsapi.h)
-
 description: The DHCP_POLICY_FIELDS_TO_UPDATE enumeration defines which properties of a DHCP server policy must be updated.
 old-location: dhcp\dhcp_policy_fields_to_update.htm
 tech.root: DHCP
 ms.assetid: 5ce80514-ad63-44dd-9b9b-36679a97488b
-
 ms.date: 12/05/2018
 ms.keywords: DHCP_POLICY_FIELDS_TO_UPDATE, DHCP_POLICY_FIELDS_TO_UPDATE enumeration [DHCP], DhcpUpdatePolicyDescr, DhcpUpdatePolicyExpr, DhcpUpdatePolicyName, DhcpUpdatePolicyOrder, DhcpUpdatePolicyRanges, DhcpUpdatePolicyStatus, dhcp.dhcp_policy_fields_to_update, dhcpsapi/DHCP_POLICY_FIELDS_TO_UPDATE, dhcpsapi/DhcpUpdatePolicyDescr, dhcpsapi/DhcpUpdatePolicyExpr, dhcpsapi/DhcpUpdatePolicyName, dhcpsapi/DhcpUpdatePolicyOrder, dhcpsapi/DhcpUpdatePolicyRanges, dhcpsapi/DhcpUpdatePolicyStatus
 ms.topic: enum
-f1_keywords: 
- - "dhcpsapi/DHCP_POLICY_FIELDS_TO_UPDATE"
+f1_keywords:
+- dhcpsapi/DHCP_POLICY_FIELDS_TO_UPDATE
 dev_langs:
- - c++
+- c++
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - dhcpsapi.h
+- dhcpsapi.h
 api_name:
- - DHCP_POLICY_FIELDS_TO_UPDATE
+- DHCP_POLICY_FIELDS_TO_UPDATE
 targetos: Windows
 req.typenames: DHCP_POLICY_FIELDS_TO_UPDATE
 req.redist: 

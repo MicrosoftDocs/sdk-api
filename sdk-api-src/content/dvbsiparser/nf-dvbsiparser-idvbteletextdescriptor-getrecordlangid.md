@@ -1,19 +1,17 @@
 ---
 UID: NF:dvbsiparser.IDvbTeletextDescriptor.GetRecordLangId
 title: IDvbTeletextDescriptor::GetRecordLangId (dvbsiparser.h)
-
 description: Gets the three-character ISO 639 language code from a Digital Video Broadcast (DVB) teletext descriptor.
 old-location: mstv\idvbteletextdescriptor_getrecordlangid.htm
 tech.root: mstv
 ms.assetid: cce0fd15-5098-4871-baab-e40b6cae39b1
-
 ms.date: 12/05/2018
 ms.keywords: GetRecordLangId, GetRecordLangId method [Microsoft TV Technologies], GetRecordLangId method [Microsoft TV Technologies],IDvbTeletextDescriptor interface, IDvbTeletextDescriptor interface [Microsoft TV Technologies],GetRecordLangId method, IDvbTeletextDescriptor.GetRecordLangId, IDvbTeletextDescriptor::GetRecordLangId, dvbsiparser/IDvbTeletextDescriptor::GetRecordLangId, mstv.idvbteletextdescriptor_getrecordlangid
 ms.topic: method
-f1_keywords: 
- - "dvbsiparser/IDvbTeletextDescriptor.GetRecordLangId"
+f1_keywords:
+- dvbsiparser/IDvbTeletextDescriptor.GetRecordLangId
 dev_langs:
- - c++
+- c++
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dvbsiparser.h
+- dvbsiparser.h
 api_name:
- - IDvbTeletextDescriptor.GetRecordLangId
+- IDvbTeletextDescriptor.GetRecordLangId
 targetos: Windows
 req.typenames: 
 req.redist: 

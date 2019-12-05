@@ -1,19 +1,17 @@
 ---
 UID: NN:ocidl.IProvideClassInfo
 title: IProvideClassInfo (ocidl.h)
-
 description: Provides access to the type information for an object's coclass entry in its type library.
 old-location: com\iprovideclassinfo.htm
 tech.root: com
 ms.assetid: 867bfd3e-b2d8-4bbe-b1bf-2356fb992a7c
-
 ms.date: 12/05/2018
 ms.keywords: IProvideClassInfo, IProvideClassInfo interface [COM], IProvideClassInfo interface [COM],described, _com_iprovideclassinfo, com.iprovideclassinfo, ocidl/IProvideClassInfo
 ms.topic: interface
-f1_keywords: 
- - "ocidl/IProvideClassInfo"
+f1_keywords:
+- ocidl/IProvideClassInfo
 dev_langs:
- - c++
+- c++
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - OCIdl.h
+- OCIdl.h
 api_name:
- - IProvideClassInfo
+- IProvideClassInfo
 targetos: Windows
 req.typenames: 
 req.redist: 

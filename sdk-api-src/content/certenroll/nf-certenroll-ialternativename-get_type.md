@@ -1,19 +1,17 @@
 ---
 UID: NF:certenroll.IAlternativeName.get_Type
 title: IAlternativeName::get_Type (certenroll.h)
-
 description: Retrieves the alternative name type.
 old-location: security\ialternativename_type_property.htm
 tech.root: seccertenroll
 ms.assetid: fdb1a7db-20f6-4732-bb59-fc078387375d
-
 ms.date: 12/05/2018
 ms.keywords: IAlternativeName interface [Security],Type property, IAlternativeName.Type, IAlternativeName.get_Type, IAlternativeName::Type, IAlternativeName::get_Type, Type property [Security], Type property [Security],IAlternativeName interface, certenroll/IAlternativeName::Type, certenroll/IAlternativeName::get_Type, get_Type, security.ialternativename_type_property
 ms.topic: method
-f1_keywords: 
- - "certenroll/IAlternativeName.Type"
+f1_keywords:
+- certenroll/IAlternativeName.Type
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: CertEnroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CertEnroll.dll
+- CertEnroll.dll
 api_name:
- - IAlternativeName.Type
- - IAlternativeName.get_Type
+- IAlternativeName.Type
+- IAlternativeName.get_Type
 targetos: Windows
 req.typenames: 
 req.redist: 

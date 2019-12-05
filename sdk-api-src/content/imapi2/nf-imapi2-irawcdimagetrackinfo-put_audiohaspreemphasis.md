@@ -1,19 +1,17 @@
 ---
 UID: NF:imapi2.IRawCDImageTrackInfo.put_AudioHasPreemphasis
 title: IRawCDImageTrackInfo::put_AudioHasPreemphasis (imapi2.h)
-
 description: Sets the value that specifies if an audio track has an additional pre-emphasis added to the audio data prior to being written to CD.
 old-location: imapi\irawcdimagetrackinfo_put_audiohaspreemphasis.htm
 tech.root: imapi
 ms.assetid: 60b1d577-2eb7-4767-94ee-03df465234e9
-
 ms.date: 12/05/2018
 ms.keywords: IRawCDImageTrackInfo interface [IMAPI],put_AudioHasPreemphasis method, IRawCDImageTrackInfo.put_AudioHasPreemphasis, IRawCDImageTrackInfo::put_AudioHasPreemphasis, imapi.irawcdimagetrackinfo_put_audiohaspreemphasis, imapi2/IRawCDImageTrackInfo::put_AudioHasPreemphasis, put_AudioHasPreemphasis, put_AudioHasPreemphasis method [IMAPI], put_AudioHasPreemphasis method [IMAPI],IRawCDImageTrackInfo interface
 ms.topic: method
-f1_keywords: 
- - "imapi2/IRawCDImageTrackInfo.put_AudioHasPreemphasis"
+f1_keywords:
+- imapi2/IRawCDImageTrackInfo.put_AudioHasPreemphasis
 dev_langs:
- - c++
+- c++
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - imapi2.h
+- imapi2.h
 api_name:
- - IRawCDImageTrackInfo.put_AudioHasPreemphasis
+- IRawCDImageTrackInfo.put_AudioHasPreemphasis
 targetos: Windows
 req.typenames: 
 req.redist: 

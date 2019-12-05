@@ -1,19 +1,17 @@
 ---
 UID: NF:uianimation.IUIAnimationInterpolator.InterpolateVelocity
 title: IUIAnimationInterpolator::InterpolateVelocity (uianimation.h)
-
 description: Interpolates the velocity, or rate of change, at the specified offset.
 old-location: uianimation\iuianimationinterpolator_interpolatevelocity.htm
 tech.root: UIAnimation
 ms.assetid: ae0b6674-307b-454e-b8be-db564c234607
-
 ms.date: 12/05/2018
 ms.keywords: IUIAnimationInterpolator interface [Windows Animation],InterpolateVelocity method, IUIAnimationInterpolator.InterpolateVelocity, IUIAnimationInterpolator::InterpolateVelocity, InterpolateVelocity, InterpolateVelocity method [Windows Animation], InterpolateVelocity method [Windows Animation],IUIAnimationInterpolator interface, uianimation.iuianimationinterpolator_interpolatevelocity, uianimation/IUIAnimationInterpolator::InterpolateVelocity
 ms.topic: method
-f1_keywords: 
- - "uianimation/IUIAnimationInterpolator.InterpolateVelocity"
+f1_keywords:
+- uianimation/IUIAnimationInterpolator.InterpolateVelocity
 dev_langs:
- - c++
+- c++
 req.header: uianimation.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: UIAnimation.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAnimation.dll
+- UIAnimation.dll
 api_name:
- - IUIAnimationInterpolator.InterpolateVelocity
+- IUIAnimationInterpolator.InterpolateVelocity
 targetos: Windows
 req.typenames: 
 req.redist: 

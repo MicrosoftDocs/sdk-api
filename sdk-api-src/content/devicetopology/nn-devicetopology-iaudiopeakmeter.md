@@ -1,19 +1,17 @@
 ---
 UID: NN:devicetopology.IAudioPeakMeter
 title: IAudioPeakMeter (devicetopology.h)
-
 description: The IAudioPeakMeter interface provides access to a hardware peak-meter control.
 old-location: coreaudio\iaudiopeakmeter.htm
 tech.root: CoreAudio
 ms.assetid: 524d83ff-4303-448c-a070-58d17dec03ba
-
 ms.date: 12/05/2018
 ms.keywords: IAudioPeakMeter, IAudioPeakMeter interface [Core Audio], IAudioPeakMeter interface [Core Audio],described, coreaudio.iaudiopeakmeter, devicetopology/IAudioPeakMeter
 ms.topic: interface
-f1_keywords: 
- - "devicetopology/IAudioPeakMeter"
+f1_keywords:
+- devicetopology/IAudioPeakMeter
 dev_langs:
- - c++
+- c++
 req.header: devicetopology.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Devicetopology.h
+- Devicetopology.h
 api_name:
- - IAudioPeakMeter
+- IAudioPeakMeter
 targetos: Windows
 req.typenames: 
 req.redist: 

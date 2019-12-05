@@ -1,19 +1,17 @@
 ---
 UID: NN:control.IBasicVideo
 title: IBasicVideo (control.h)
-
 description: The IBasicVideo interface sets video properties such as the destination and source rectangles.
 old-location: dshow\ibasicvideo.htm
 tech.root: DirectShow
 ms.assetid: 14f45bdc-2271-459d-b165-c860c8fc3e0b
-
 ms.date: 12/05/2018
 ms.keywords: IBasicVideo, IBasicVideo interface [DirectShow], IBasicVideo interface [DirectShow],described, IBasicVideoInterface, control/IBasicVideo, dshow.ibasicvideo
 ms.topic: interface
-f1_keywords: 
- - "control/IBasicVideo"
+f1_keywords:
+- control/IBasicVideo
 dev_langs:
- - c++
+- c++
 req.header: control.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IBasicVideo
+- IBasicVideo
 targetos: Windows
 req.typenames: 
 req.redist: 

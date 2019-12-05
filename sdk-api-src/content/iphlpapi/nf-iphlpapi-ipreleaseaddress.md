@@ -1,19 +1,17 @@
 ---
 UID: NF:iphlpapi.IpReleaseAddress
 title: IpReleaseAddress function (iphlpapi.h)
-
 description: The IpReleaseAddress function releases an IPv4 address previously obtained through the Dynamic Host Configuration Protocol (DHCP).
 old-location: iphlp\ipreleaseaddress.htm
 tech.root: IpHlp
 ms.assetid: d937ea44-1ca3-49e0-913d-fb77888d05fc
-
 ms.date: 12/05/2018
 ms.keywords: IpReleaseAddress, IpReleaseAddress function [IP Helper], _iphlp_ipreleaseaddress, iphlp.ipreleaseaddress, iphlpapi/IpReleaseAddress
 ms.topic: function
-f1_keywords: 
- - "iphlpapi/IpReleaseAddress"
+f1_keywords:
+- iphlpapi/IpReleaseAddress
 dev_langs:
- - c++
+- c++
 req.header: iphlpapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Iphlpapi.lib
 req.dll: Iphlpapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Iphlpapi.dll
+- Iphlpapi.dll
 api_name:
- - IpReleaseAddress
+- IpReleaseAddress
 targetos: Windows
 req.typenames: 
 req.redist: 

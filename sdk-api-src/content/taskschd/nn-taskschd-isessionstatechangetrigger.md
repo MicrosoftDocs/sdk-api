@@ -1,19 +1,17 @@
 ---
 UID: NN:taskschd.ISessionStateChangeTrigger
 title: ISessionStateChangeTrigger (taskschd.h)
-
 description: Triggers tasks for console connect or disconnect, remote connect or disconnect, or workstation lock or unlock notifications.
 old-location: taskschd\isessionstatechangetrigger.htm
 tech.root: taskschd
 ms.assetid: 0bf56d67-6c44-4978-93a9-7b525f2bf140
-
 ms.date: 12/05/2018
 ms.keywords: ISessionStateChangeTrigger, ISessionStateChangeTrigger interface [Task Scheduler], ISessionStateChangeTrigger interface [Task Scheduler],described, taskschd.isessionstatechangetrigger, taskschd/ISessionStateChangeTrigger
 ms.topic: interface
-f1_keywords: 
- - "taskschd/ISessionStateChangeTrigger"
+f1_keywords:
+- taskschd/ISessionStateChangeTrigger
 dev_langs:
- - c++
+- c++
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Taskschd.lib
 req.dll: Taskschd.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - taskschd.dll
+- taskschd.dll
 api_name:
- - ISessionStateChangeTrigger
+- ISessionStateChangeTrigger
 targetos: Windows
 req.typenames: 
 req.redist: 

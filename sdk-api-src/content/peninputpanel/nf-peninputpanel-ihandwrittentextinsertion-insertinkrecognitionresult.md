@@ -1,19 +1,17 @@
 ---
 UID: NF:peninputpanel.IHandwrittenTextInsertion.InsertInkRecognitionResult
 title: IHandwrittenTextInsertion::InsertInkRecognitionResult (peninputpanel.h)
-
 description: Inserts recognition results.
 old-location: tablet\ihandwrittentextinsertion_insertinkrecognitionresult.htm
 tech.root: tablet
 ms.assetid: d519aff4-573d-4b06-aef5-e9cc6a5e8102
-
 ms.date: 12/05/2018
 ms.keywords: IHandWrittenTextInsertion interface [Tablet PC],InsertInkRecognitionResult method, IHandWrittenTextInsertion::InsertInkRecognitionResult, IHandwrittenTextInsertion.InsertInkRecognitionResult, IHandwrittenTextInsertion::InsertInkRecognitionResult, InsertInkRecognitionResult, InsertInkRecognitionResult method [Tablet PC], InsertInkRecognitionResult method [Tablet PC],IHandWrittenTextInsertion interface, d519aff4-573d-4b06-aef5-e9cc6a5e8102, peninputpanel/IHandWrittenTextInsertion::InsertInkRecognitionResult, tablet.ihandwrittentextinsertion_insertinkrecognitionresult
 ms.topic: method
-f1_keywords: 
- - "peninputpanel/IHandWrittenTextInsertion.InsertInkRecognitionResult"
+f1_keywords:
+- peninputpanel/IHandWrittenTextInsertion.InsertInkRecognitionResult
 dev_langs:
- - c++
+- c++
 req.header: peninputpanel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Tiptsf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - tiptsf.dll
+- tiptsf.dll
 api_name:
- - IHandWrittenTextInsertion.InsertInkRecognitionResult
+- IHandWrittenTextInsertion.InsertInkRecognitionResult
 targetos: Windows
 req.typenames: 
 req.redist: 

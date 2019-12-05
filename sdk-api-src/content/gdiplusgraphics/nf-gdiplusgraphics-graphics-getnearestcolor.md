@@ -1,19 +1,17 @@
 ---
 UID: NF:gdiplusgraphics.Graphics.GetNearestColor
 title: Graphics::GetNearestColor (gdiplusgraphics.h)
-
 description: The Graphics::GetNearestColor method gets the nearest color to the color that is passed in. This method works on 8-bits per pixel or lower display devices for which there is an 8-bit color palette.
 old-location: gdiplus\_gdiplus_CLASS_Graphics_GetNearestColor_color_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\getnearestcolor.htm
-
 ms.date: 12/05/2018
 ms.keywords: GetNearestColor, GetNearestColor method [GDI+], GetNearestColor method [GDI+],Graphics class, Graphics class [GDI+],GetNearestColor method, Graphics.GetNearestColor, Graphics::GetNearestColor, _gdiplus_CLASS_Graphics_GetNearestColor_color_, gdiplus._gdiplus_CLASS_Graphics_GetNearestColor_color_
 ms.topic: method
-f1_keywords: 
- - "gdiplusgraphics/Graphics.GetNearestColor"
+f1_keywords:
+- gdiplusgraphics/Graphics.GetNearestColor
 dev_langs:
- - c++
+- c++
 req.header: gdiplusgraphics.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - Graphics.GetNearestColor
+- Graphics.GetNearestColor
 targetos: Windows
 req.typenames: 
 req.redist: 

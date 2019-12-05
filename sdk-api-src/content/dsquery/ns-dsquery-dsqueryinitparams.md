@@ -1,19 +1,17 @@
 ---
 UID: NS:dsquery.__unnamed_struct_0
 title: DSQUERYINITPARAMS (dsquery.h)
-
 description: Describes the data used to initialize a browse dialog box in the directory service query.
 old-location: ad\dsqueryinitparams.htm
 tech.root: ad
 ms.assetid: ff1cb792-efb0-46f5-bc9b-95c9fb2959db
-
 ms.date: 12/05/2018
-ms.keywords: "*LPDSQUERYINITPARAMS, DSQPF_ENABLEADMINFEATURES, DSQPF_ENABLEADVANCEDFEATURES, DSQPF_HASCREDENTIALS, DSQPF_NOCHOOSECOLUMNS, DSQPF_NOSAVE, DSQPF_SAVELOCATION, DSQPF_SHOWHIDDENOBJECTS, DSQUERYINITPARAMS, DSQUERYINITPARAMS structure [Active Directory], LPDSQUERYINITPARAMS, LPDSQUERYINITPARAMS structure pointer [Active Directory], _glines_dsqueryinitparams, ad.dsqueryinitparams, dsquery/DSQUERYINITPARAMS, dsquery/LPDSQUERYINITPARAMS"
+ms.keywords: '*LPDSQUERYINITPARAMS, DSQPF_ENABLEADMINFEATURES, DSQPF_ENABLEADVANCEDFEATURES, DSQPF_HASCREDENTIALS, DSQPF_NOCHOOSECOLUMNS, DSQPF_NOSAVE, DSQPF_SAVELOCATION, DSQPF_SHOWHIDDENOBJECTS, DSQUERYINITPARAMS, DSQUERYINITPARAMS structure [Active Directory], LPDSQUERYINITPARAMS, LPDSQUERYINITPARAMS structure pointer [Active Directory], _glines_dsqueryinitparams, ad.dsqueryinitparams, dsquery/DSQUERYINITPARAMS, dsquery/LPDSQUERYINITPARAMS'
 ms.topic: struct
-f1_keywords: 
- - "dsquery/DSQUERYINITPARAMS"
+f1_keywords:
+- dsquery/DSQUERYINITPARAMS
 dev_langs:
- - c++
+- c++
 req.header: dsquery.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Dsquery.h
+- Dsquery.h
 api_name:
- - DSQUERYINITPARAMS
+- DSQUERYINITPARAMS
 targetos: Windows
 req.typenames: DSQUERYINITPARAMS, *LPDSQUERYINITPARAMS
 req.redist: 

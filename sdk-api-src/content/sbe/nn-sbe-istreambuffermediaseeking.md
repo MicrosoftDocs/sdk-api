@@ -1,19 +1,17 @@
 ---
 UID: NN:sbe.IStreamBufferMediaSeeking
 title: IStreamBufferMediaSeeking (sbe.h)
-
 description: The IStreamBufferMediaSeeking interface controls seeking in a stream buffer source graph. The Stream Buffer Source filter exposes this interface.
 old-location: mstv\istreambuffermediaseeking.htm
 tech.root: mstv
 ms.assetid: baac4c50-7aba-4bdc-93ad-57f22c55ea4b
-
 ms.date: 12/05/2018
 ms.keywords: IStreamBufferMediaSeeking, IStreamBufferMediaSeeking interface [Microsoft TV Technologies], IStreamBufferMediaSeeking interface [Microsoft TV Technologies],described, IStreamBufferMediaSeekingInterface, mstv.istreambuffermediaseeking, sbe/IStreamBufferMediaSeeking
 ms.topic: interface
-f1_keywords: 
- - "sbe/IStreamBufferMediaSeeking"
+f1_keywords:
+- sbe/IStreamBufferMediaSeeking
 dev_langs:
- - c++
+- c++
 req.header: sbe.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Sbe.h
+- Sbe.h
 api_name:
- - IStreamBufferMediaSeeking
+- IStreamBufferMediaSeeking
 targetos: Windows
 req.typenames: 
 req.redist: 

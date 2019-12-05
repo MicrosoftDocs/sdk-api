@@ -1,19 +1,17 @@
 ---
 UID: NS:vdslun._VDS_STORAGE_IDENTIFIER
 title: VDS_STORAGE_IDENTIFIER (vdslun.h)
-
 description: Defines a storage device using a particular code set and type.
 old-location: base\vds_storage_identifier.htm
 tech.root: VDS
 ms.assetid: 8cc8b6d9-e189-44af-9f2b-2222b2eb0749
-
 ms.date: 12/05/2018
 ms.keywords: VDS_STORAGE_IDENTIFIER, VDS_STORAGE_IDENTIFIER structure [VDS], base.vds_storage_identifier, vdslun/_VDS_STORAGE_IDENTIFIER
 ms.topic: struct
 f1_keywords:
 - vdslun/VDS_STORAGE_IDENTIFIER
 dev_langs:
- - c++
+- c++
 req.header: vdslun.h
 req.include-header: Vds.h, VdsHwPrv.h for hardware providers
 req.target-type: Windows

@@ -1,19 +1,17 @@
 ---
 UID: NF:cscobj.IOfflineFilesItem.IsMarkedForDeletion
 title: IOfflineFilesItem::IsMarkedForDeletion (cscobj.h)
-
 description: Determines whether an item has been deleted from the Offline Files cache.
 old-location: of\iofflinefilesitem_ismarkedfordeletion.htm
 tech.root: offlinefiles
 ms.assetid: 03c0fec4-d320-4c46-a07c-3ebbec61cc54
-
 ms.date: 12/05/2018
 ms.keywords: IOfflineFilesItem interface [Offline Files],IsMarkedForDeletion method, IOfflineFilesItem.IsMarkedForDeletion, IOfflineFilesItem::IsMarkedForDeletion, IsMarkedForDeletion, IsMarkedForDeletion method [Offline Files], IsMarkedForDeletion method [Offline Files],IOfflineFilesItem interface, cscobj/IOfflineFilesItem::IsMarkedForDeletion, of.iofflinefilesitem_ismarkedfordeletion
 ms.topic: method
-f1_keywords: 
- - "cscobj/IOfflineFilesItem.IsMarkedForDeletion"
+f1_keywords:
+- cscobj/IOfflineFilesItem.IsMarkedForDeletion
 dev_langs:
- - c++
+- c++
 req.header: cscobj.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: CscSvc.dll; CscObj.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CscSvc.dll
- - CscObj.dll
+- CscSvc.dll
+- CscObj.dll
 api_name:
- - IOfflineFilesItem.IsMarkedForDeletion
+- IOfflineFilesItem.IsMarkedForDeletion
 targetos: Windows
 req.typenames: 
 req.redist: 

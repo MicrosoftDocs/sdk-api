@@ -1,19 +1,17 @@
 ---
 UID: NF:vsmgmt.IVssDifferentialSoftwareSnapshotMgmt2.SetSnapshotPriority
 title: IVssDifferentialSoftwareSnapshotMgmt2::SetSnapshotPriority (vsmgmt.h)
-
 description: This method is reserved for future use.
 old-location: base\ivssdifferentialsoftwaresnapshotmgmt2_setsnapshotpriority.htm
 tech.root: VSS
 ms.assetid: 4b98d4d8-5b32-4be5-8e80-852305731a7e
-
 ms.date: 12/05/2018
 ms.keywords: IVssDifferentialSoftwareSnapshotMgmt2 interface,SetSnapshotPriority method, IVssDifferentialSoftwareSnapshotMgmt2.SetSnapshotPriority, IVssDifferentialSoftwareSnapshotMgmt2::SetSnapshotPriority, SetSnapshotPriority, SetSnapshotPriority method, SetSnapshotPriority method,IVssDifferentialSoftwareSnapshotMgmt2 interface, base.ivssdifferentialsoftwaresnapshotmgmt2_setsnapshotpriority, vsmgmt/IVssDifferentialSoftwareSnapshotMgmt2::SetSnapshotPriority
 ms.topic: method
-f1_keywords: 
- - "vsmgmt/IVssDifferentialSoftwareSnapshotMgmt2.SetSnapshotPriority"
+f1_keywords:
+- vsmgmt/IVssDifferentialSoftwareSnapshotMgmt2.SetSnapshotPriority
 dev_langs:
- - c++
+- c++
 req.header: vsmgmt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - VsMgmt.h
+- VsMgmt.h
 api_name:
- - IVssDifferentialSoftwareSnapshotMgmt2.SetSnapshotPriority
+- IVssDifferentialSoftwareSnapshotMgmt2.SetSnapshotPriority
 targetos: Windows
 req.typenames: 
 req.redist: 

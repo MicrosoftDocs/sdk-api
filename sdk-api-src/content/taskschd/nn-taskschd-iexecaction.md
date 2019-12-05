@@ -1,19 +1,17 @@
 ---
 UID: NN:taskschd.IExecAction
 title: IExecAction (taskschd.h)
-
 description: Represents an action that executes a command-line operation.
 old-location: taskschd\iexecaction.htm
 tech.root: taskschd
 ms.assetid: 46a4cd60-df23-4109-8a86-b7755a6922dd
-
 ms.date: 12/05/2018
 ms.keywords: IExecAction, IExecAction interface [Task Scheduler], IExecAction interface [Task Scheduler],described, execute action [Task Scheduler],interface, taskschd.iexecaction, taskschd/IExecAction
 ms.topic: interface
-f1_keywords: 
- - "taskschd/IExecAction"
+f1_keywords:
+- taskschd/IExecAction
 dev_langs:
- - c++
+- c++
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Taskschd.lib
 req.dll: Taskschd.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - taskschd.dll
+- taskschd.dll
 api_name:
- - IExecAction
+- IExecAction
 targetos: Windows
 req.typenames: 
 req.redist: 

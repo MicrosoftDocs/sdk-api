@@ -1,19 +1,17 @@
 ---
 UID: NN:uiautomationclient.IUIAutomationTextRangeArray
 title: IUIAutomationTextRangeArray (uiautomationclient.h)
-
 description: Represents a collection of IUIAutomationTextRange objects.
 old-location: winauto\uiauto_IUIAutomationTextRangeArray.htm
 tech.root: WinAuto
 ms.assetid: 9f059173-7539-4164-b7af-182fa851d11a
-
 ms.date: 12/05/2018
 ms.keywords: IUIAutomationTextRangeArray, IUIAutomationTextRangeArray interface [Windows Accessibility], IUIAutomationTextRangeArray interface [Windows Accessibility],described, uiauto.uiauto_IUIAutomationTextRangeArray, uiauto_IUIAutomationTextRangeArray, uiautomationclient/IUIAutomationTextRangeArray, winauto.uiauto_IUIAutomationTextRangeArray
 ms.topic: interface
-f1_keywords: 
- - "uiautomationclient/IUIAutomationTextRangeArray"
+f1_keywords:
+- uiautomationclient/IUIAutomationTextRangeArray
 dev_langs:
- - c++
+- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: UIAutomationCore.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationCore.dll
+- UIAutomationCore.dll
 api_name:
- - IUIAutomationTextRangeArray
+- IUIAutomationTextRangeArray
 targetos: Windows
 req.typenames: 
 req.redist: 

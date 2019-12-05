@@ -1,19 +1,17 @@
 ---
 UID: NF:qnetwork.IAMExtendedSeeking.GetMarkerName
 title: IAMExtendedSeeking::GetMarkerName (qnetwork.h)
-
 description: The GetMarkerName method retrieves the name associated with the specified marker.
 old-location: dshow\iamextendedseeking_getmarkername.htm
 tech.root: DirectShow
 ms.assetid: 899cc32e-3a9f-4be0-97a9-2ddd323bf9ce
-
 ms.date: 12/05/2018
 ms.keywords: GetMarkerName, GetMarkerName method [DirectShow], GetMarkerName method [DirectShow],IAMExtendedSeeking interface, IAMExtendedSeeking interface [DirectShow],GetMarkerName method, IAMExtendedSeeking.GetMarkerName, IAMExtendedSeeking::GetMarkerName, IAMExtendedSeekingGetMarkerName, dshow.iamextendedseeking_getmarkername, qnetwork/IAMExtendedSeeking::GetMarkerName
 ms.topic: method
-f1_keywords: 
- - "qnetwork/IAMExtendedSeeking.GetMarkerName"
+f1_keywords:
+- qnetwork/IAMExtendedSeeking.GetMarkerName
 dev_langs:
- - c++
+- c++
 req.header: qnetwork.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Qnetwork.h
+- Qnetwork.h
 api_name:
- - IAMExtendedSeeking.GetMarkerName
+- IAMExtendedSeeking.GetMarkerName
 targetos: Windows
 req.typenames: 
 req.redist: 

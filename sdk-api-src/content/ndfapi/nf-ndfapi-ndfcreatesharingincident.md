@@ -1,19 +1,17 @@
 ---
 UID: NF:ndfapi.NdfCreateSharingIncident
 title: NdfCreateSharingIncident function (ndfapi.h)
-
 description: Diagnoses network problems in accessing a specific network share.
 old-location: ndf\ndfcreatesharingincident.htm
 tech.root: NDF
 ms.assetid: 6a5e3c3b-7c2b-4de3-89e4-ef330b894320
-
 ms.date: 12/05/2018
 ms.keywords: NdfCreateSharingIncident, NdfCreateSharingIncident function [NDF], ndf.ndfcreatesharingincident, ndfapi/NdfCreateSharingIncident
 ms.topic: function
-f1_keywords: 
- - "ndfapi/NdfCreateSharingIncident"
+f1_keywords:
+- ndfapi/NdfCreateSharingIncident
 dev_langs:
- - c++
+- c++
 req.header: ndfapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Ndfapi.lib
 req.dll: Ndfapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ndfapi.dll
+- Ndfapi.dll
 api_name:
- - NdfCreateSharingIncident
+- NdfCreateSharingIncident
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:wsdclient.IWSDDeviceProxy.BeginGetMetadata
 title: IWSDDeviceProxy::BeginGetMetadata (wsdclient.h)
-
 description: Sends an asynchronous request for metadata.
 old-location: ncd\iwsddeviceproxy_begingetmetadata.htm
 tech.root: WsdApi
 ms.assetid: 8aa71ef1-61b9-411b-9e8c-75470c638469
-
 ms.date: 12/05/2018
 ms.keywords: BeginGetMetadata, BeginGetMetadata method, BeginGetMetadata method,IWSDDeviceProxy interface, IWSDDeviceProxy interface,BeginGetMetadata method, IWSDDeviceProxy.BeginGetMetadata, IWSDDeviceProxy::BeginGetMetadata, ncd.iwsddeviceproxy_begingetmetadata, wsdclient/IWSDDeviceProxy::BeginGetMetadata
 ms.topic: method
-f1_keywords: 
- - "wsdclient/IWSDDeviceProxy.BeginGetMetadata"
+f1_keywords:
+- wsdclient/IWSDDeviceProxy.BeginGetMetadata
 dev_langs:
- - c++
+- c++
 req.header: wsdclient.h
 req.include-header: Wsdapi.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wsdapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wsdapi.dll
+- Wsdapi.dll
 api_name:
- - IWSDDeviceProxy.BeginGetMetadata
+- IWSDDeviceProxy.BeginGetMetadata
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:wmp.IWMPCdromBurn.put_burnPlaylist
 title: IWMPCdromBurn::put_burnPlaylist (wmp.h)
-
 description: The put_burnPlaylist method specifies the playlist to burn to CD.
 old-location: wmp\iwmpcdromburn_put_burnplaylist.htm
 tech.root: WMP
 ms.assetid: 26fad65c-d371-4e7c-a86e-1ddb24175909
-
 ms.date: 12/05/2018
 ms.keywords: IWMPCdromBurn interface [Windows Media Player],put_burnPlaylist method, IWMPCdromBurn.put_burnPlaylist, IWMPCdromBurn::put_burnPlaylist, IWMPCdromBurnput_burnPlaylist, put_burnPlaylist, put_burnPlaylist method [Windows Media Player], put_burnPlaylist method [Windows Media Player],IWMPCdromBurn interface, wmp.iwmpcdromburn_put_burnplaylist, wmp/IWMPCdromBurn::put_burnPlaylist
 ms.topic: method
-f1_keywords: 
- - "wmp/IWMPCdromBurn.put_burnPlaylist"
+f1_keywords:
+- wmp/IWMPCdromBurn.put_burnPlaylist
 dev_langs:
- - c++
+- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wmp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmp.dll
+- wmp.dll
 api_name:
- - IWMPCdromBurn.put_burnPlaylist
+- IWMPCdromBurn.put_burnPlaylist
 targetos: Windows
 req.typenames: 
 req.redist: 

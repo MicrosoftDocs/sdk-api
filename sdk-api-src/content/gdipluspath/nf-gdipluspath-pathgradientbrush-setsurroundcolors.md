@@ -1,19 +1,17 @@
 ---
 UID: NF:gdipluspath.PathGradientBrush.SetSurroundColors
 title: PathGradientBrush::SetSurroundColors (gdipluspath.h)
-
 description: The PathGradientBrush::SetSurroundColors method sets the surround colors of this path gradient brush. The surround colors are colors specified for discrete points on the brush's boundary path.
 old-location: gdiplus\_gdiplus_CLASS_PathGradientBrush_SetSurroundColors_colors_count_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\pathgradientbrushclass\pathgradientbrushmethods\setsurroundcolors.htm
-
 ms.date: 12/05/2018
 ms.keywords: PathGradientBrush class [GDI+],SetSurroundColors method, PathGradientBrush.SetSurroundColors, PathGradientBrush::SetSurroundColors, SetSurroundColors, SetSurroundColors method [GDI+], SetSurroundColors method [GDI+],PathGradientBrush class, _gdiplus_CLASS_PathGradientBrush_SetSurroundColors_colors_count_, gdiplus._gdiplus_CLASS_PathGradientBrush_SetSurroundColors_colors_count_
 ms.topic: method
-f1_keywords: 
- - "gdipluspath/PathGradientBrush.SetSurroundColors"
+f1_keywords:
+- gdipluspath/PathGradientBrush.SetSurroundColors
 dev_langs:
- - c++
+- c++
 req.header: gdipluspath.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - PathGradientBrush.SetSurroundColors
+- PathGradientBrush.SetSurroundColors
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NN:vds.IVdsAdvancedDisk2
 title: IVdsAdvancedDisk2 (vds.h)
-
 description: Provides a method to change partition types.
 old-location: base\ivdsadvanceddisk2.htm
 tech.root: VDS
 ms.assetid: 3a6e7bac-3e94-48bd-8aeb-34278a34b0a1
-
 ms.date: 12/05/2018
 ms.keywords: IVdsAdvancedDisk2, IVdsAdvancedDisk2 interface, IVdsAdvancedDisk2 interface,described, base.ivdsadvanceddisk2, vds/IVdsAdvancedDisk2
 ms.topic: interface
-f1_keywords: 
- - "vds/IVdsAdvancedDisk2"
+f1_keywords:
+- vds/IVdsAdvancedDisk2
 dev_langs:
- - c++
+- c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Uuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Uuid.lib
- - Uuid.dll
+- Uuid.lib
+- Uuid.dll
 api_name:
- - IVdsAdvancedDisk2
+- IVdsAdvancedDisk2
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:winuser.MessageBeep
 title: MessageBeep function (winuser.h)
-
 description: Plays a waveform sound. The waveform sound for each sound type is identified by an entry in the registry.
 old-location: base\messagebeep.htm
 tech.root: Debug
 ms.assetid: 70681472-36a5-4ae3-b769-0421cf97ff2a
-
 ms.date: 12/05/2018
 ms.keywords: MessageBeep, MessageBeep function, _win32_messagebeep, base.messagebeep, winuser/MessageBeep
 ms.topic: function
-f1_keywords: 
- - "winuser/MessageBeep"
+f1_keywords:
+- winuser/MessageBeep
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,21 +30,21 @@ req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - User32.dll
- - Ext-MS-Win-NTUser-Misc-l1-1-0.dll
- - Ext-MS-Win-NTUser-Misc-l1-2-0.dll
- - Ext-MS-Win-NTUser-Misc-l1-3-0.dll
- - ext-ms-win-ntuser-misc-l1-3-1.dll
- - Ext-MS-Win-NTUser-Misc-L1-4-0.dll
- - Ext-Ms-Win-NTUser-Misc-L1-5-0.dll
- - Ext-MS-Win-NTUser-Misc-L1-5-1.dll
+- User32.dll
+- Ext-MS-Win-NTUser-Misc-l1-1-0.dll
+- Ext-MS-Win-NTUser-Misc-l1-2-0.dll
+- Ext-MS-Win-NTUser-Misc-l1-3-0.dll
+- ext-ms-win-ntuser-misc-l1-3-1.dll
+- Ext-MS-Win-NTUser-Misc-L1-4-0.dll
+- Ext-Ms-Win-NTUser-Misc-L1-5-0.dll
+- Ext-MS-Win-NTUser-Misc-L1-5-1.dll
 api_name:
- - MessageBeep
+- MessageBeep
 targetos: Windows
 req.typenames: 
 req.redist: 

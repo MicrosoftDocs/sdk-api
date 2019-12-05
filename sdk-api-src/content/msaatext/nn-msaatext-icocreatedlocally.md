@@ -1,19 +1,17 @@
 ---
 UID: NN:msaatext.ICoCreatedLocally
 title: ICoCreatedLocally (msaatext.h)
-
 description: Exposes a method to return information about a local object.
 old-location: winauto\icocreatedlocally.htm
 tech.root: WinAuto
 ms.assetid: 118b77c7-cde3-4672-aea0-670fd3a9a4cb
-
 ms.date: 12/05/2018
 ms.keywords: ICoCreatedLocally, ICoCreatedLocally interface [Windows Accessibility], ICoCreatedLocally interface [Windows Accessibility],described, msaa.icocreatedlocally, msaatext/ICoCreatedLocally, winauto.icocreatedlocally
 ms.topic: interface
-f1_keywords: 
- - "msaatext/ICoCreatedLocally"
+f1_keywords:
+- msaatext/ICoCreatedLocally
 dev_langs:
- - c++
+- c++
 req.header: msaatext.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msaatext.h
+- msaatext.h
 api_name:
- - ICoCreatedLocally
+- ICoCreatedLocally
 targetos: Windows
 req.typenames: 
 req.redist: 

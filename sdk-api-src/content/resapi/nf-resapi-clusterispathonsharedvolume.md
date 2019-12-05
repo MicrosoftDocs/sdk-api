@@ -1,19 +1,17 @@
 ---
 UID: NF:resapi.ClusterIsPathOnSharedVolume
 title: ClusterIsPathOnSharedVolume function (resapi.h)
-
 description: Determines whether a path is on a cluster shared volume.
 old-location: mscs\clusterispathonsharedvolume.htm
 tech.root: MsCS
 ms.assetid: 8d4702b8-23de-4c45-87ec-1a4ada8a4086
-
 ms.date: 12/05/2018
 ms.keywords: ClusterIsPathOnSharedVolume, ClusterIsPathOnSharedVolume function [Failover Cluster], PCLUSTER_IS_PATH_ON_SHARED_VOLUME, PCLUSTER_IS_PATH_ON_SHARED_VOLUME function [Failover Cluster], mscs.clusterispathonsharedvolume, resapi/ClusterIsPathOnSharedVolume, resapi/PCLUSTER_IS_PATH_ON_SHARED_VOLUME
 ms.topic: function
-f1_keywords: 
- - "resapi/ClusterIsPathOnSharedVolume"
+f1_keywords:
+- resapi/ClusterIsPathOnSharedVolume
 dev_langs:
- - c++
+- c++
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: ResUtils.Lib
 req.dll: ResUtils.Dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - ResUtils.Dll
- - Ext-MS-Win-Cluster-Resutils-L1-1-1.dll
+- ResUtils.Dll
+- Ext-MS-Win-Cluster-Resutils-L1-1-1.dll
 api_name:
- - ClusterIsPathOnSharedVolume
+- ClusterIsPathOnSharedVolume
 targetos: Windows
 req.typenames: 
 req.redist: 

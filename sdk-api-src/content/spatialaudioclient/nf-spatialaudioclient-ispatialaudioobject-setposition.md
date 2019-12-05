@@ -1,19 +1,17 @@
 ---
 UID: NF:spatialaudioclient.ISpatialAudioObject.SetPosition
 title: ISpatialAudioObject::SetPosition (spatialaudioclient.h)
-
 description: Sets the position in 3D space, relative to the listener, from which the ISpatialAudioObject audio data will be rendered.
 old-location: coreaudio\ispatialaudioobject_setposition.htm
 tech.root: CoreAudio
 ms.assetid: DDF4859E-6510-45D5-82E7-2C5A7F2EC679
-
 ms.date: 12/05/2018
 ms.keywords: ISpatialAudioObject interface [Core Audio],SetPosition method, ISpatialAudioObject.SetPosition, ISpatialAudioObject::SetPosition, SetPosition, SetPosition method [Core Audio], SetPosition method [Core Audio],ISpatialAudioObject interface, coreaudio.ispatialaudioobject_setposition, spatialaudioclient/ISpatialAudioObject::SetPosition
 ms.topic: method
-f1_keywords: 
- - "spatialaudioclient/ISpatialAudioObject.SetPosition"
+f1_keywords:
+- spatialaudioclient/ISpatialAudioObject.SetPosition
 dev_langs:
- - c++
+- c++
 req.header: spatialaudioclient.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - spatialaudioclient.h
+- spatialaudioclient.h
 api_name:
- - ISpatialAudioObject.SetPosition
+- ISpatialAudioObject.SetPosition
 targetos: Windows
 req.typenames: 
 req.redist: 

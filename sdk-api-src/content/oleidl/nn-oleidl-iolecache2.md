@@ -1,19 +1,17 @@
 ---
 UID: NN:oleidl.IOleCache2
 title: IOleCache2 (oleidl.h)
-
 description: Enables object clients to selectively update each cache that was created with IOleCache::Cache.
 old-location: com\iolecache2.htm
 tech.root: com
 ms.assetid: 8bbeca2d-c805-4116-b918-e2ddded8b160
-
 ms.date: 12/05/2018
 ms.keywords: IOleCache2, IOleCache2 interface [COM], IOleCache2 interface [COM],described, _ole_iolecache2, com.iolecache2, oleidl/IOleCache2
 ms.topic: interface
-f1_keywords: 
- - "oleidl/IOleCache2"
+f1_keywords:
+- oleidl/IOleCache2
 dev_langs:
- - c++
+- c++
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - OleIdl.h
+- OleIdl.h
 api_name:
- - IOleCache2
+- IOleCache2
 targetos: Windows
 req.typenames: 
 req.redist: 

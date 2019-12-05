@@ -1,19 +1,17 @@
 ---
 UID: NF:gdipluseffects.Effect.UseAuxData
 title: Effect::UseAuxData (gdipluseffects.h)
-
 description: The Effect::UseAuxData method sets or clears a flag that specifies whether the Bitmap::ApplyEffect method should return a pointer to the auxiliary data that it creates.
 old-location: gdiplus\_gdiplus_CLASS_Effect_UseAuxData_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\effectclass\effectmethods\useauxdata.htm
-
 ms.date: 12/05/2018
 ms.keywords: Effect class [GDI+],UseAuxData method, Effect.UseAuxData, Effect::UseAuxData, UseAuxData, UseAuxData method [GDI+], UseAuxData method [GDI+],Effect class, _gdiplus_CLASS_Effect_UseAuxData_, gdiplus._gdiplus_CLASS_Effect_UseAuxData_
 ms.topic: method
-f1_keywords: 
- - "gdipluseffects/Effect.UseAuxData"
+f1_keywords:
+- gdipluseffects/Effect.UseAuxData
 dev_langs:
- - c++
+- c++
 req.header: gdipluseffects.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - Effect.UseAuxData
+- Effect.UseAuxData
 targetos: Windows
 req.typenames: 
 req.redist: 

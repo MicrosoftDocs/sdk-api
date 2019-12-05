@@ -1,19 +1,17 @@
 ---
 UID: NF:dpa_dsa.DSA_Clone
 title: DSA_Clone function (dpa_dsa.h)
-
 description: Duplicates a dynamic structure array (DSA).
 old-location: controls\DSA_Clone.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\common\functions\dsa_clone.htm
-
 ms.date: 12/05/2018
 ms.keywords: DSA_Clone, DSA_Clone function [Windows Controls], _shell_DSA_Clone, _shell_DSA_Clone_cpp, controls.DSA_Clone, controls._shell_DSA_Clone, dpa_dsa/DSA_Clone
 ms.topic: function
-f1_keywords: 
- - "dpa_dsa/DSA_Clone"
+f1_keywords:
+- dpa_dsa/DSA_Clone
 dev_langs:
- - c++
+- c++
 req.header: dpa_dsa.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Comctl32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Comctl32.dll
+- Comctl32.dll
 api_name:
- - DSA_Clone
+- DSA_Clone
 targetos: Windows
 req.typenames: 
 req.redist: 

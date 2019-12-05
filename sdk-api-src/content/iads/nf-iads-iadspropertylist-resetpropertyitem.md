@@ -1,19 +1,17 @@
 ---
 UID: NF:iads.IADsPropertyList.ResetPropertyItem
 title: IADsPropertyList::ResetPropertyItem (iads.h)
-
 description: Removes the specified item from the list; that is, from the cache.
 old-location: adsi\iadspropertylist_resetpropertyitem.htm
 tech.root: adsi
 ms.assetid: 25ee4444-476d-4146-ac22-3b0cfed3f2c0
-
 ms.date: 12/05/2018
 ms.keywords: IADsPropertyList interface [ADSI],ResetPropertyItem method, IADsPropertyList.ResetPropertyItem, IADsPropertyList::ResetPropertyItem, ResetPropertyItem, ResetPropertyItem method [ADSI], ResetPropertyItem method [ADSI],IADsPropertyList interface, _ds_iadspropertylist_resetpropertyitem, adsi.iadspropertylist__resetpropertyitem, adsi.iadspropertylist_resetpropertyitem, iads/IADsPropertyList::ResetPropertyItem
 ms.topic: method
-f1_keywords: 
- - "iads/IADsPropertyList.ResetPropertyItem"
+f1_keywords:
+- iads/IADsPropertyList.ResetPropertyItem
 dev_langs:
- - c++
+- c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Activeds.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Activeds.dll
+- Activeds.dll
 api_name:
- - IADsPropertyList.ResetPropertyItem
+- IADsPropertyList.ResetPropertyItem
 targetos: Windows
 req.typenames: 
 req.redist: 

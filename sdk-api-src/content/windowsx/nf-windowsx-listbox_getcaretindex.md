@@ -1,19 +1,17 @@
 ---
 UID: NF:windowsx.ListBox_GetCaretIndex
 title: ListBox_GetCaretIndex macro (windowsx.h)
-
 description: Retrieves the index of the list box item that has the focus rectangle in a multiple-selection list box. The item may or may not be selected. You can use this macro or send the LB_GETCARETINDEX message explicitly.
 old-location: controls\ListBox_GetCaretIndex.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listboxes\listboxreference\listboxmacros\listbox_getcaretindex.htm
-
 ms.date: 12/05/2018
 ms.keywords: ListBox_GetCaretIndex, ListBox_GetCaretIndex macro [Windows Controls], _win32_ListBox_GetCaretIndex, _win32_ListBox_GetCaretIndex_cpp, controls.ListBox_GetCaretIndex, controls._win32_ListBox_GetCaretIndex, windowsx/ListBox_GetCaretIndex
 ms.topic: macro
-f1_keywords: 
- - "windowsx/ListBox_GetCaretIndex"
+f1_keywords:
+- windowsx/ListBox_GetCaretIndex
 dev_langs:
- - c++
+- c++
 req.header: windowsx.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Windowsx.h
+- Windowsx.h
 api_name:
- - ListBox_GetCaretIndex
+- ListBox_GetCaretIndex
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NI:winioctl.FSCTL_ALLOW_EXTENDED_DASD_IO
 title: FSCTL_ALLOW_EXTENDED_DASD_IO
-
 description: Signals the file system driver not to perform any I/O boundary checks on partition read or write calls.
 old-location: fs\fsctl_allow_extended_dasd_io.htm
 tech.root: FileIO
 ms.assetid: 7d895367-f48f-47db-9ef9-cf20d0ea6782
-
 ms.date: 12/05/2018
 ms.keywords: FSCTL_ALLOW_EXTENDED_DASD_IO, FSCTL_ALLOW_EXTENDED_DASD_IO control, FSCTL_ALLOW_EXTENDED_DASD_IO control code [Files], _win32_fsctl_allow_extended_dasd_io, base.fsctl_allow_extended_dasd_io, fs.fsctl_allow_extended_dasd_io, winioctl/FSCTL_ALLOW_EXTENDED_DASD_IO
 ms.topic: ioctl
 f1_keywords:
 - winioctl/FSCTL_ALLOW_EXTENDED_DASD_IO
 dev_langs:
- - c++
+- c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

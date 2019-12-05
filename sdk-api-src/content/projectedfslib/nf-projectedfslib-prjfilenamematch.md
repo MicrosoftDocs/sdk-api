@@ -1,19 +1,17 @@
 ---
 UID: NF:projectedfslib.PrjFileNameMatch
 title: PrjFileNameMatch function (projectedfslib.h)
-
 description: Determines whether a file name matches a search pattern.
 old-location: projfs\prjfilenamematch.htm
 tech.root: ProjFS
 ms.assetid: 2BE57189-0F68-4CCD-8796-964EFDE0A02E
-
 ms.date: 12/05/2018
 ms.keywords: PrjFileNameMatch, PrjFileNameMatch function, ProjFS.prjfilenamematch, projectedfslib/PrjFileNameMatch
 ms.topic: function
-f1_keywords: 
- - "projectedfslib/PrjFileNameMatch"
+f1_keywords:
+- projectedfslib/PrjFileNameMatch
 dev_langs:
- - c++
+- c++
 req.header: projectedfslib.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - projectedfslib.h
+- projectedfslib.h
 api_name:
- - PrjFileNameMatch
+- PrjFileNameMatch
 targetos: Windows
 req.typenames: 
 req.redist: 

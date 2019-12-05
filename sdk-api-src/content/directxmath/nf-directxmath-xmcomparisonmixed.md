@@ -1,19 +1,17 @@
 ---
 UID: NF:directxmath.XMComparisonMixed
 title: XMComparisonMixed function (directxmath.h)
-
 description: Tests the comparison value to determine if the compared components had mixed results--some true and some false.
 old-location: dxmath\xmcomparisonmixed.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.reference.XMComparisonMixed(uint32_t)
-
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMComparisonMixed, XMComparisonMixed, XMComparisonMixed method [DirectX Math Support APIs], dxmath.xmcomparisonmixed
 ms.topic: function
-f1_keywords: 
- - "directxmath/XMComparisonMixed"
+f1_keywords:
+- directxmath/XMComparisonMixed
 dev_langs:
- - c++
+- c++
 req.header: directxmath.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - DirectXMath.h
+- DirectXMath.h
 api_name:
- - XMComparisonMixed
+- XMComparisonMixed
 targetos: Windows
 req.typenames: 
 req.redist: 

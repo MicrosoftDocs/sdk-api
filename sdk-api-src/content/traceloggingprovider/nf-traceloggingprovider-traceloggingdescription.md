@@ -1,19 +1,17 @@
 ---
 UID: NF:traceloggingprovider.TraceLoggingDescription
 title: TraceLoggingDescription macro (traceloggingprovider.h)
-
 description: Wrapper macro for setting a description for an event.
 old-location: tracelogging\traceloggingdescription.htm
 tech.root: tracelogging
 ms.assetid: 90521B97-2651-46C9-8292-925F53F88CE7
-
 ms.date: 12/05/2018
 ms.keywords: TraceLoggingDescription, TraceLoggingDescription macro, tracelogging.traceloggingdescription, traceloggingprovider/TraceLoggingDescription
 ms.topic: macro
-f1_keywords: 
- - "traceloggingprovider/TraceLoggingDescription"
+f1_keywords:
+- traceloggingprovider/TraceLoggingDescription
 dev_langs:
- - c++
+- c++
 req.header: traceloggingprovider.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - traceloggingprovider.h
+- traceloggingprovider.h
 api_name:
- - TraceLoggingDescription
+- TraceLoggingDescription
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:clusapi.ClusterResourceControl
 title: ClusterResourceControl function (clusapi.h)
-
 description: Initiates an operation affecting a resource. The operation performed depends on the control code passed to the dwControlCode parameter.
 old-location: mscs\clusterresourcecontrol.htm
 tech.root: MsCS
 ms.assetid: a98ca55a-6535-48cf-a925-5005baa01b94
-
 ms.date: 12/05/2018
 ms.keywords: ClusterResourceControl, ClusterResourceControl function [Failover Cluster], _wolf_clusterresourcecontrol, clusapi/ClusterResourceControl, mscs.clusterresourcecontrol
 ms.topic: function
-f1_keywords: 
- - "clusapi/ClusterResourceControl"
+f1_keywords:
+- clusapi/ClusterResourceControl
 dev_langs:
- - c++
+- c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: ClusAPI.lib
 req.dll: ClusAPI.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - ClusAPI.dll
- - Ext-MS-Win-Cluster-ClusAPI-l1-1-0.dll
- - Ext-MS-Win-Cluster-ClusAPI-l1-1-1.dll
- - Ext-MS-Win-Cluster-ClusAPI-l1-1-2.dll
+- ClusAPI.dll
+- Ext-MS-Win-Cluster-ClusAPI-l1-1-0.dll
+- Ext-MS-Win-Cluster-ClusAPI-l1-1-1.dll
+- Ext-MS-Win-Cluster-ClusAPI-l1-1-2.dll
 api_name:
- - ClusterResourceControl
+- ClusterResourceControl
 targetos: Windows
 req.typenames: 
 req.redist: 

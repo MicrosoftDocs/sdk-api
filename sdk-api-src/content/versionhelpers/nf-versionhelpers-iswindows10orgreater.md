@@ -1,19 +1,17 @@
 ---
 UID: NF:versionhelpers.IsWindows10OrGreater
 title: IsWindows10OrGreater function (versionhelpers.h)
-
 description: Indicates if the current OS version matches, or is greater than, the Windows 10 version.
 old-location: base\iswindows10orgreater.htm
 tech.root: SysInfo
 ms.assetid: 1F7AE6CA-3E2B-4DF1-A047-58AB9A0B1DA4
-
 ms.date: 12/05/2018
 ms.keywords: IsWindows10OrGreater, IsWindows10OrGreater function, base.iswindows10orgreater, versionhelpers/IsWindows10OrGreater
 ms.topic: function
-f1_keywords: 
- - "versionhelpers/IsWindows10OrGreater"
+f1_keywords:
+- versionhelpers/IsWindows10OrGreater
 dev_langs:
- - c++
+- c++
 req.header: versionhelpers.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Kernel32.lib; Ntdll.lib
 req.dll: Kernel32.dll; Ntdll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - ntdll.dll
+- Kernel32.dll
+- ntdll.dll
 api_name:
- - IsWindows10OrGreater
+- IsWindows10OrGreater
 targetos: Windows
 req.typenames: 
 req.redist: 

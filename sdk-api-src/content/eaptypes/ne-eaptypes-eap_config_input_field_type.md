@@ -1,19 +1,17 @@
 ---
 UID: NE:eaptypes._EAP_CONFIG_INPUT_FIELD_TYPE
 title: EAP_CONFIG_INPUT_FIELD_TYPE (eaptypes.h)
-
 description: Defines a set of possible input field types available when querying for user credentials.
 old-location: eaphost\eap_config_input_field_type.htm
 tech.root: eaphost
 ms.assetid: f05242ad-1e49-4a6d-b4f1-579c4b00ea28
-
 ms.date: 12/05/2018
-ms.keywords: "*PEAP_CONFIG_INPUT_FIELD_TYPE, EAP_CONFIG_INPUT_FIELD_TYPE, EAP_CONFIG_INPUT_FIELD_TYPE enumeration [EAPHost], EapConfigInputEdit, EapConfigInputNetworkPassword, EapConfigInputNetworkUsername, EapConfigInputPSK, EapConfigInputPassword, EapConfigInputPin, EapConfigInputUsername, EapConfigSmartCardError, EapConfigSmartCardUsername, eaphost.eap_config_input_field_type, eaptypes/EAP_CONFIG_INPUT_FIELD_TYPE, eaptypes/EapConfigInputEdit, eaptypes/EapConfigInputNetworkPassword, eaptypes/EapConfigInputNetworkUsername, eaptypes/EapConfigInputPSK, eaptypes/EapConfigInputPassword, eaptypes/EapConfigInputPin, eaptypes/EapConfigInputUsername, eaptypes/EapConfigSmartCardError, eaptypes/EapConfigSmartCardUsername"
+ms.keywords: '*PEAP_CONFIG_INPUT_FIELD_TYPE, EAP_CONFIG_INPUT_FIELD_TYPE, EAP_CONFIG_INPUT_FIELD_TYPE enumeration [EAPHost], EapConfigInputEdit, EapConfigInputNetworkPassword, EapConfigInputNetworkUsername, EapConfigInputPSK, EapConfigInputPassword, EapConfigInputPin, EapConfigInputUsername, EapConfigSmartCardError, EapConfigSmartCardUsername, eaphost.eap_config_input_field_type, eaptypes/EAP_CONFIG_INPUT_FIELD_TYPE, eaptypes/EapConfigInputEdit, eaptypes/EapConfigInputNetworkPassword, eaptypes/EapConfigInputNetworkUsername, eaptypes/EapConfigInputPSK, eaptypes/EapConfigInputPassword, eaptypes/EapConfigInputPin, eaptypes/EapConfigInputUsername, eaptypes/EapConfigSmartCardError, eaptypes/EapConfigSmartCardUsername'
 ms.topic: enum
-f1_keywords: 
- - "eaptypes/EAP_CONFIG_INPUT_FIELD_TYPE"
+f1_keywords:
+- eaptypes/EAP_CONFIG_INPUT_FIELD_TYPE
 dev_langs:
- - c++
+- c++
 req.header: eaptypes.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - eaptypes.h
+- eaptypes.h
 api_name:
- - EAP_CONFIG_INPUT_FIELD_TYPE
+- EAP_CONFIG_INPUT_FIELD_TYPE
 targetos: Windows
 req.typenames: EAP_CONFIG_INPUT_FIELD_TYPE, *PEAP_CONFIG_INPUT_FIELD_TYPE
 req.redist: 

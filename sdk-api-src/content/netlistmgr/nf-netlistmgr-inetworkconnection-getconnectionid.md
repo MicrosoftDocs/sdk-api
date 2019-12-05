@@ -1,19 +1,17 @@
 ---
 UID: NF:netlistmgr.INetworkConnection.GetConnectionId
 title: INetworkConnection::GetConnectionId (netlistmgr.h)
-
 description: The GetConnectionID method returns the Connection ID associated with this network connection.
 old-location: nla\inetworkconnection_getconnectionid.htm
 tech.root: nla
 ms.assetid: c8619fd1-2764-4f20-a258-fb4368e448b7
-
 ms.date: 12/05/2018
 ms.keywords: GetConnectionId, GetConnectionId method [Network Awareness], GetConnectionId method [Network Awareness],INetworkConnection interface, INetworkConnection interface [Network Awareness],GetConnectionId method, INetworkConnection.GetConnectionId, INetworkConnection::GetConnectionId, netlistmgr/INetworkConnection::GetConnectionId, nla.inetworkconnection_getconnectionid
 ms.topic: method
-f1_keywords: 
- - "netlistmgr/INetworkConnection.GetConnectionId"
+f1_keywords:
+- netlistmgr/INetworkConnection.GetConnectionId
 dev_langs:
- - c++
+- c++
 req.header: netlistmgr.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Netlistmgr.h
+- Netlistmgr.h
 api_name:
- - INetworkConnection.GetConnectionId
+- INetworkConnection.GetConnectionId
 targetos: Windows
 req.typenames: 
 req.redist: 

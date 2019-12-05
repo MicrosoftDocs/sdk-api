@@ -1,19 +1,17 @@
 ---
 UID: NF:winuser.TranslateAcceleratorW
 title: TranslateAcceleratorW function (winuser.h)
-
 description: Processes accelerator keys for menu commands.
 old-location: menurc\translateaccelerator.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\keyboardaccelerators\keyboardacceleratorreference\keyboardacceleratorfunctions\translateaccelerator.htm
-
 ms.date: 12/05/2018
 ms.keywords: TranslateAccelerator, TranslateAccelerator function [Menus and Other Resources], TranslateAcceleratorA, TranslateAcceleratorW, _win32_TranslateAccelerator, _win32_translateaccelerator_cpp, menurc.translateaccelerator, winui._win32_translateaccelerator, winuser/TranslateAccelerator, winuser/TranslateAcceleratorA, winuser/TranslateAcceleratorW
 ms.topic: function
-f1_keywords: 
- - "winuser/TranslateAccelerator"
+f1_keywords:
+- winuser/TranslateAccelerator
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,24 +30,24 @@ req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - User32.dll
- - Ext-MS-Win-NTUser-Keyboard-l1-1-0.dll
- - Ext-MS-Win-NTUser-Keyboard-l1-1-1.dll
- - api-ms-win-ntuser-ie-keyboard-l1-1-0.dll
- - ie_stubs.dll
- - ext-ms-win-ntuser-keyboard-l1-1-2.dll
- - Ext-MS-Win-NTUser-Keyboard-L1-2-0.dll
- - Ext-MS-Win-NTUser-Keyboard-L1-2-1.dll
- - Ext-MS-Win-NTUser-Keyboard-L1-3-0.dll
+- User32.dll
+- Ext-MS-Win-NTUser-Keyboard-l1-1-0.dll
+- Ext-MS-Win-NTUser-Keyboard-l1-1-1.dll
+- api-ms-win-ntuser-ie-keyboard-l1-1-0.dll
+- ie_stubs.dll
+- ext-ms-win-ntuser-keyboard-l1-1-2.dll
+- Ext-MS-Win-NTUser-Keyboard-L1-2-0.dll
+- Ext-MS-Win-NTUser-Keyboard-L1-2-1.dll
+- Ext-MS-Win-NTUser-Keyboard-L1-3-0.dll
 api_name:
- - TranslateAccelerator
- - TranslateAcceleratorA
- - TranslateAcceleratorW
+- TranslateAccelerator
+- TranslateAcceleratorA
+- TranslateAcceleratorW
 targetos: Windows
 req.typenames: 
 req.redist: 

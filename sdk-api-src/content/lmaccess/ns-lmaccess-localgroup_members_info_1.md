@@ -1,19 +1,17 @@
 ---
 UID: NS:lmaccess._LOCALGROUP_MEMBERS_INFO_1
 title: LOCALGROUP_MEMBERS_INFO_1 (lmaccess.h)
-
 description: The LOCALGROUP_MEMBERS_INFO_1 structure contains the security identifier (SID) and account information associated with the member of a local group.
 old-location: netmgmt\localgroup_members_info_1_str.htm
 tech.root: NetMgmt
 ms.assetid: d6b1b729-cdd5-4ed3-a5a1-cf3a8b6cecf2
-
 ms.date: 12/05/2018
 ms.keywords: '*LPLOCALGROUP_MEMBERS_INFO_1, *PLOCALGROUP_MEMBERS_INFO_1, LOCALGROUP_MEMBERS_INFO_1, LOCALGROUP_MEMBERS_INFO_1 structure [Network Management], LPLOCALGROUP_MEMBERS_INFO_1, LPLOCALGROUP_MEMBERS_INFO_1 structure pointer [Network Management], PLOCALGROUP_MEMBERS_INFO_1, PLOCALGROUP_MEMBERS_INFO_1 structure pointer [Network Management], SidTypeDeletedAccount, SidTypeGroup, SidTypeUnknown, SidTypeUser, SidTypeWellKnownGroup, _win32_localgroup_members_info_1_str, lmaccess/LOCALGROUP_MEMBERS_INFO_1, lmaccess/LPLOCALGROUP_MEMBERS_INFO_1, lmaccess/PLOCALGROUP_MEMBERS_INFO_1, netmgmt.localgroup_members_info_1_str'
 ms.topic: struct
 f1_keywords:
 - lmaccess/LOCALGROUP_MEMBERS_INFO_1
 dev_langs:
- - c++
+- c++
 req.header: lmaccess.h
 req.include-header: Lm.h
 req.target-type: Windows

@@ -1,19 +1,17 @@
 ---
 UID: NF:perflib.PerfCloseQueryHandle
 title: PerfCloseQueryHandle function (perflib.h)
-
 description: Closes a query handle that you opened by calling PerfOpenQueryHandle.
 old-location: perf\perfclosequeryhandle.htm
 tech.root: perfctrs
 ms.assetid: 94D08CF1-D47C-4A1B-A0CE-8C318CDF9FE0
-
 ms.date: 12/05/2018
 ms.keywords: PerfCloseQueryHandle, PerfCloseQueryHandle function [Perf], perf.perfclosequeryhandle, perflib/PerfCloseQueryHandle
 ms.topic: function
-f1_keywords: 
- - "perflib/PerfCloseQueryHandle"
+f1_keywords:
+- perflib/PerfCloseQueryHandle
 dev_langs:
- - c++
+- c++
 req.header: perflib.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: AdvAPI32.lib
 req.dll: AdvAPI32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - AdvAPI32.dll
+- AdvAPI32.dll
 api_name:
- - PerfCloseQueryHandle
+- PerfCloseQueryHandle
 targetos: Windows
 req.typenames: 
 req.redist: 

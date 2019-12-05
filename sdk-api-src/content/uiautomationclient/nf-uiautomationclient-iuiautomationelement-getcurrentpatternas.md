@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationElement.GetCurrentPatternAs
 title: IUIAutomationElement::GetCurrentPatternAs (uiautomationclient.h)
-
 description: Retrieves the control pattern interface of the specified pattern on this UI Automation element.
 old-location: winauto\uiauto_IUIAutomationElement_GetCurrentPatternAs.htm
 tech.root: WinAuto
 ms.assetid: 98b0f647-7f6e-4e07-8530-1dae781507bc
-
 ms.date: 12/05/2018
 ms.keywords: GetCurrentPatternAs, GetCurrentPatternAs method [Windows Accessibility], GetCurrentPatternAs method [Windows Accessibility],IUIAutomationElement interface, IUIAutomationElement interface [Windows Accessibility],GetCurrentPatternAs method, IUIAutomationElement.GetCurrentPatternAs, IUIAutomationElement::GetCurrentPatternAs, uiauto.uiauto_IUIAutomationElement_GetCurrentPatternAs, uiauto_IUIAutomationElement_GetCurrentPatternAs, uiautomationclient/IUIAutomationElement::GetCurrentPatternAs, winauto.uiauto_IUIAutomationElement_GetCurrentPatternAs
 ms.topic: method
-f1_keywords: 
- - "uiautomationclient/IUIAutomationElement.GetCurrentPatternAs"
+f1_keywords:
+- uiautomationclient/IUIAutomationElement.GetCurrentPatternAs
 dev_langs:
- - c++
+- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationClient.h
+- UIAutomationClient.h
 api_name:
- - IUIAutomationElement.GetCurrentPatternAs
+- IUIAutomationElement.GetCurrentPatternAs
 targetos: Windows
 req.typenames: 
 req.redist: 

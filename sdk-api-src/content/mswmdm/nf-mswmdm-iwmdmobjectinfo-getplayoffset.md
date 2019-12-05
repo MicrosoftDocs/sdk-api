@@ -1,19 +1,17 @@
 ---
 UID: NF:mswmdm.IWMDMObjectInfo.GetPlayOffset
 title: IWMDMObjectInfo::GetPlayOffset (mswmdm.h)
-
 description: The GetPlayOffset method retrieves the play offset of the object, in units appropriate to the format. This is the starting point for the next invocation of Play.
 old-location: wmdm\iwmdmobjectinfo_getplayoffset.htm
 tech.root: WMDM
 ms.assetid: 8642404a-33ff-40b7-b05a-f193e8feadf5
-
 ms.date: 12/05/2018
 ms.keywords: GetPlayOffset, GetPlayOffset method [windows Media Device Manager], GetPlayOffset method [windows Media Device Manager],IWMDMObjectInfo interface, IWMDMObjectInfo interface [windows Media Device Manager],GetPlayOffset method, IWMDMObjectInfo.GetPlayOffset, IWMDMObjectInfo::GetPlayOffset, IWMDMObjectInfoGetPlayOffset, mswmdm/IWMDMObjectInfo::GetPlayOffset, wmdm.iwmdmobjectinfo_getplayoffset
 ms.topic: method
-f1_keywords: 
- - "mswmdm/IWMDMObjectInfo.GetPlayOffset"
+f1_keywords:
+- mswmdm/IWMDMObjectInfo.GetPlayOffset
 dev_langs:
- - c++
+- c++
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mssachlp.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mssachlp.lib
- - mssachlp.dll
+- mssachlp.lib
+- mssachlp.dll
 api_name:
- - IWMDMObjectInfo.GetPlayOffset
+- IWMDMObjectInfo.GetPlayOffset
 targetos: Windows
 req.typenames: 
 req.redist: 

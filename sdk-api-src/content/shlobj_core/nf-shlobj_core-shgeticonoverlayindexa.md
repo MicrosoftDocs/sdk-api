@@ -1,19 +1,17 @@
 ---
 UID: NF:shlobj_core.SHGetIconOverlayIndexA
 title: SHGetIconOverlayIndexA function (shlobj_core.h)
-
 description: Returns the index of the overlay icon in the system image list.
 old-location: shell\SHGetIconOverlayIndex.htm
 tech.root: shell
 ms.assetid: 20001ae0-05d0-46a7-8bb8-9bb722f5d795
-
 ms.date: 12/05/2018
 ms.keywords: IDO_SHGIOI_DEFAULT, IDO_SHGIOI_LINK, IDO_SHGIOI_SHARE, IDO_SHGIOI_SLOWFILE, SHGetIconOverlayIndex, SHGetIconOverlayIndex function [Windows Shell], SHGetIconOverlayIndexA, SHGetIconOverlayIndexW, _win32_SHGetIconOverlayIndex, shell.SHGetIconOverlayIndex, shlobj_core/SHGetIconOverlayIndex, shlobj_core/SHGetIconOverlayIndexA, shlobj_core/SHGetIconOverlayIndexW
 ms.topic: function
-f1_keywords: 
- - "shlobj_core/SHGetIconOverlayIndex"
+f1_keywords:
+- shlobj_core/SHGetIconOverlayIndex
 dev_langs:
- - c++
+- c++
 req.header: shlobj_core.h
 req.include-header: Shlobj.h, Shlobj_core.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Shell32.lib
 req.dll: Shell32.dll (version 5.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - SHGetIconOverlayIndex
- - SHGetIconOverlayIndexA
- - SHGetIconOverlayIndexW
+- SHGetIconOverlayIndex
+- SHGetIconOverlayIndexA
+- SHGetIconOverlayIndexW
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:traceloggingactivity.TraceLoggingThreadActivityIdSetter.TraceLoggingThreadActivityIdSetter
 title: TraceLoggingThreadActivityIdSetter::TraceLoggingThreadActivityIdSetter (traceloggingactivity.h)
-
 description: Creates a new TraceLoggingThreadActivityIdSetter object.
 old-location: tracelogging\traceloggingthreadactivityidsetter_traceloggingthreadactivityidsetter.htm
 tech.root: tracelogging
 ms.assetid: F950256A-27A8-4C8F-B4A3-974F0E095103
-
 ms.date: 12/05/2018
 ms.keywords: TraceLoggingThreadActivityIdSetter, TraceLoggingThreadActivityIdSetter interface,TraceLoggingThreadActivityIdSetter method, TraceLoggingThreadActivityIdSetter method, TraceLoggingThreadActivityIdSetter method,TraceLoggingThreadActivityIdSetter interface, TraceLoggingThreadActivityIdSetter.TraceLoggingThreadActivityIdSetter, TraceLoggingThreadActivityIdSetter::TraceLoggingThreadActivityIdSetter, tracelogging.traceloggingthreadactivityidsetter_traceloggingthreadactivityidsetter, traceloggingactivity/TraceLoggingThreadActivityIdSetter::TraceLoggingThreadActivityIdSetter
 ms.topic: method
-f1_keywords: 
- - "traceloggingactivity/TraceLoggingThreadActivityIdSetter.TraceLoggingThreadActivityIdSetter"
+f1_keywords:
+- traceloggingactivity/TraceLoggingThreadActivityIdSetter.TraceLoggingThreadActivityIdSetter
 dev_langs:
- - c++
+- c++
 req.header: traceloggingactivity.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - traceloggingactivity.h
+- traceloggingactivity.h
 api_name:
- - TraceLoggingThreadActivityIdSetter.TraceLoggingThreadActivityIdSetter
+- TraceLoggingThreadActivityIdSetter.TraceLoggingThreadActivityIdSetter
 targetos: Windows
 req.typenames: 
 req.redist: 

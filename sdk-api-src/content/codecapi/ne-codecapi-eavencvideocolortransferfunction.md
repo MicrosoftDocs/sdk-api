@@ -1,19 +1,17 @@
 ---
 UID: NE:codecapi.eAVEncVideoColorTransferFunction
 title: eAVEncVideoColorTransferFunction (codecapi.h)
-
 description: Specifies the conversion function from R'G'B' to RGB. This enumeration is used with the AVEncVideoInputColorTransferFunction and AVEncVideoOutputColorTransferFunction properties.
 old-location: dshow\eavencvideocolortransferfunction.htm
 tech.root: DirectShow
 ms.assetid: 447e6df7-6e6b-4dff-87e5-0308eb0a3dae
-
 ms.date: 12/05/2018
 ms.keywords: codecapi/eAVEncVideoColorTransferFunction, codecapi/eAVEncVideoColorTransferFunction_10, codecapi/eAVEncVideoColorTransferFunction_18, codecapi/eAVEncVideoColorTransferFunction_20, codecapi/eAVEncVideoColorTransferFunction_22, codecapi/eAVEncVideoColorTransferFunction_22_240M, codecapi/eAVEncVideoColorTransferFunction_22_709, codecapi/eAVEncVideoColorTransferFunction_22_8bit_sRGB, codecapi/eAVEncVideoColorTransferFunction_28, codecapi/eAVEncVideoColorTransferFunction_SameAsSource, dshow.eavencvideocolortransferfunction, eAVEncVideoColorTransferFunction, eAVEncVideoColorTransferFunction enumeration [DirectShow], eAVEncVideoColorTransferFunctionEnumeration, eAVEncVideoColorTransferFunction_10, eAVEncVideoColorTransferFunction_18, eAVEncVideoColorTransferFunction_20, eAVEncVideoColorTransferFunction_22, eAVEncVideoColorTransferFunction_22_240M, eAVEncVideoColorTransferFunction_22_709, eAVEncVideoColorTransferFunction_22_8bit_sRGB, eAVEncVideoColorTransferFunction_28, eAVEncVideoColorTransferFunction_SameAsSource
 ms.topic: enum
-f1_keywords: 
- - "codecapi/eAVEncVideoColorTransferFunction"
+f1_keywords:
+- codecapi/eAVEncVideoColorTransferFunction
 dev_langs:
- - c++
+- c++
 req.header: codecapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - codecapi.h
+- codecapi.h
 api_name:
- - eAVEncVideoColorTransferFunction
+- eAVEncVideoColorTransferFunction
 targetos: Windows
 req.typenames: 
 req.redist: 

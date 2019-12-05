@@ -1,19 +1,17 @@
 ---
 UID: NN:netfw.INetFwIcmpSettings
 title: INetFwIcmpSettings (netfw.h)
-
 description: The INetFwIcmpSettings interface provides access to the settings controlling ICMP packets.
 old-location: ics\inetfwicmpsettings.htm
 tech.root: ics
 ms.assetid: 4eed8f30-4265-4735-a885-83c11b5031e5
-
 ms.date: 12/05/2018
 ms.keywords: INetFwIcmpSettings, INetFwIcmpSettings interface [ICS/ICF], INetFwIcmpSettings interface [ICS/ICF],described, ics.inetfwicmpsettings, netfw/INetFwIcmpSettings
 ms.topic: interface
-f1_keywords: 
- - "netfw/INetFwIcmpSettings"
+f1_keywords:
+- netfw/INetFwIcmpSettings
 dev_langs:
- - c++
+- c++
 req.header: netfw.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: FirewallAPI.dll; Hnetcfg.dll on Windows XP with SP2
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - FirewallAPI.dll
- - Hnetcfg.dll
+- FirewallAPI.dll
+- Hnetcfg.dll
 api_name:
- - INetFwIcmpSettings
+- INetFwIcmpSettings
 targetos: Windows
 req.typenames: 
 req.redist: 

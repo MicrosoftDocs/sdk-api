@@ -1,19 +1,17 @@
 ---
 UID: NF:sbtsv.ITsSbClientConnection.get_SamUserAccount
 title: ITsSbClientConnection::get_SamUserAccount (sbtsv.h)
-
 description: Retrieves a value that indicates the domain name and user name of the user who initiated the connection.
 old-location: termserv\itssbclientconnection_samuseraccount.htm
 tech.root: TermServ
 ms.assetid: eb3d8e6b-60c6-4d24-824c-94b642f44956
-
 ms.date: 12/05/2018
 ms.keywords: ITsSbClientConnection interface [Remote Desktop Services],SamUserAccount property, ITsSbClientConnection.SamUserAccount, ITsSbClientConnection.get_SamUserAccount, ITsSbClientConnection::SamUserAccount, ITsSbClientConnection::get_SamUserAccount, SamUserAccount property [Remote Desktop Services], SamUserAccount property [Remote Desktop Services],ITsSbClientConnection interface, get_SamUserAccount, sbtsv/ITsSbClientConnection::SamUserAccount, sbtsv/ITsSbClientConnection::get_SamUserAccount, termserv.itssbclientconnection_samuseraccount
 ms.topic: method
-f1_keywords: 
- - "sbtsv/ITsSbClientConnection.SamUserAccount"
+f1_keywords:
+- sbtsv/ITsSbClientConnection.SamUserAccount
 dev_langs:
- - c++
+- c++
 req.header: sbtsv.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - sbtsv.h
+- sbtsv.h
 api_name:
- - ITsSbClientConnection.SamUserAccount
- - ITsSbClientConnection.get_SamUserAccount
+- ITsSbClientConnection.SamUserAccount
+- ITsSbClientConnection.get_SamUserAccount
 targetos: Windows
 req.typenames: 
 req.redist: 

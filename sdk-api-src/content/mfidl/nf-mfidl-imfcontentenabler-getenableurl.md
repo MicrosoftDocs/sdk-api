@@ -1,19 +1,17 @@
 ---
 UID: NF:mfidl.IMFContentEnabler.GetEnableURL
 title: IMFContentEnabler::GetEnableURL (mfidl.h)
-
 description: Retrieves a URL for performing a manual content enabling action.
 old-location: mf\imfcontentenabler_getenableurl.htm
 tech.root: medfound
 ms.assetid: 1a44216d-36e5-4b5c-9585-5297d5e429f9
-
 ms.date: 12/05/2018
 ms.keywords: 1a44216d-36e5-4b5c-9585-5297d5e429f9, GetEnableURL, GetEnableURL method [Media Foundation], GetEnableURL method [Media Foundation],IMFContentEnabler interface, IMFContentEnabler interface [Media Foundation],GetEnableURL method, IMFContentEnabler.GetEnableURL, IMFContentEnabler::GetEnableURL, mf.imfcontentenabler_getenableurl, mfidl/IMFContentEnabler::GetEnableURL
 ms.topic: method
-f1_keywords: 
- - "mfidl/IMFContentEnabler.GetEnableURL"
+f1_keywords:
+- mfidl/IMFContentEnabler.GetEnableURL
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFContentEnabler.GetEnableURL
+- IMFContentEnabler.GetEnableURL
 targetos: Windows
 req.typenames: 
 req.redist: 

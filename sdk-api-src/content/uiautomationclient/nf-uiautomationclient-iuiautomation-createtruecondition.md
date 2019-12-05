@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationclient.IUIAutomation.CreateTrueCondition
 title: IUIAutomation::CreateTrueCondition (uiautomationclient.h)
-
 description: Retrieves a predefined condition that selects all elements.
 old-location: winauto\uiauto_IUIAutomation_CreateTrueCondition.htm
 tech.root: WinAuto
 ms.assetid: 02f55293-5d2d-4578-9c31-3ed04dac428e
-
 ms.date: 12/05/2018
 ms.keywords: CreateTrueCondition, CreateTrueCondition method [Windows Accessibility], CreateTrueCondition method [Windows Accessibility],IUIAutomation interface, IUIAutomation interface [Windows Accessibility],CreateTrueCondition method, IUIAutomation.CreateTrueCondition, IUIAutomation::CreateTrueCondition, uiauto.uiauto_IUIAutomation_CreateTrueCondition, uiauto_IUIAutomation_CreateTrueCondition, uiautomationclient/IUIAutomation::CreateTrueCondition, winauto.uiauto_IUIAutomation_CreateTrueCondition
 ms.topic: method
-f1_keywords: 
- - "uiautomationclient/IUIAutomation.CreateTrueCondition"
+f1_keywords:
+- uiautomationclient/IUIAutomation.CreateTrueCondition
 dev_langs:
- - c++
+- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationClient.h
+- UIAutomationClient.h
 api_name:
- - IUIAutomation.CreateTrueCondition
+- IUIAutomation.CreateTrueCondition
 targetos: Windows
 req.typenames: 
 req.redist: 

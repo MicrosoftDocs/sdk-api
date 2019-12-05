@@ -1,19 +1,17 @@
 ---
 UID: NN:segment.IMSVidXDSEvent
 title: IMSVidXDSEvent (segment.h)
-
 description: Note  This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 or later. The IMSVidXDSEvent interface is used to receive events from the MSVidXDS object.This interface is an outgoing connection-point interface.
 old-location: mstv\imsvidxdsevent.htm
 tech.root: mstv
 ms.assetid: c89f378d-daa6-4e01-a087-6082d368585b
-
 ms.date: 12/05/2018
 ms.keywords: IMSVidXDSEvent, IMSVidXDSEvent interface [Microsoft TV Technologies], IMSVidXDSEvent interface [Microsoft TV Technologies],described, IMSVidXDSEventInterface, mstv.imsvidxdsevent, segment/IMSVidXDSEvent
 ms.topic: interface
-f1_keywords: 
- - "segment/IMSVidXDSEvent"
+f1_keywords:
+- segment/IMSVidXDSEvent
 dev_langs:
- - c++
+- c++
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - segment.h
+- segment.h
 api_name:
- - IMSVidXDSEvent
+- IMSVidXDSEvent
 targetos: Windows
 req.typenames: 
 req.redist: 

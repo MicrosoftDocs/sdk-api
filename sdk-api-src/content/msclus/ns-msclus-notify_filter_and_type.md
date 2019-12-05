@@ -1,19 +1,17 @@
 ---
 UID: NS:msclus._NOTIFY_FILTER_AND_TYPE
 title: NOTIFY_FILTER_AND_TYPE (msclus.h)
-
 description: Represents a filter for a notification port that was created by the CreateClusterNotifyPortV2 function. A filter specifies that a notification port accept notifications for the specified type of cluster object during the specified event.
 old-location: mscs\notify_filter_and_type.htm
 tech.root: MsCS
 ms.assetid: E173F5D8-955B-44FF-980E-CEF536A87AF5
-
 ms.date: 12/05/2018
-ms.keywords: "*PNOTIFY_FILTER_AND_TYPE, NOTIFY_FILTER_AND_TYPE, NOTIFY_FILTER_AND_TYPE structure [Failover Cluster], PNOTIFY_FILTER_AND_TYPE, PNOTIFY_FILTER_AND_TYPE structure pointer [Failover Cluster], _NOTIFY_FILTER_AND_TYPE, _NOTIFY_FILTER_AND_TYPE structure [Failover Cluster], clusapi/NOTIFY_FILTER_AND_TYPE, clusapi/PNOTIFY_FILTER_AND_TYPE, clusapi/_NOTIFY_FILTER_AND_TYPE, msclus/NOTIFY_FILTER_AND_TYPE, msclus/PNOTIFY_FILTER_AND_TYPE, msclus/_NOTIFY_FILTER_AND_TYPE, mscs.notify_filter_and_type"
+ms.keywords: '*PNOTIFY_FILTER_AND_TYPE, NOTIFY_FILTER_AND_TYPE, NOTIFY_FILTER_AND_TYPE structure [Failover Cluster], PNOTIFY_FILTER_AND_TYPE, PNOTIFY_FILTER_AND_TYPE structure pointer [Failover Cluster], _NOTIFY_FILTER_AND_TYPE, _NOTIFY_FILTER_AND_TYPE structure [Failover Cluster], clusapi/NOTIFY_FILTER_AND_TYPE, clusapi/PNOTIFY_FILTER_AND_TYPE, clusapi/_NOTIFY_FILTER_AND_TYPE, msclus/NOTIFY_FILTER_AND_TYPE, msclus/PNOTIFY_FILTER_AND_TYPE, msclus/_NOTIFY_FILTER_AND_TYPE, mscs.notify_filter_and_type'
 ms.topic: struct
-f1_keywords: 
- - "msclus/NOTIFY_FILTER_AND_TYPE"
+f1_keywords:
+- msclus/NOTIFY_FILTER_AND_TYPE
 dev_langs:
- - c++
+- c++
 req.header: msclus.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - ClusApi.h
- - MsClus.h
+- ClusApi.h
+- MsClus.h
 api_name:
- - NOTIFY_FILTER_AND_TYPE
+- NOTIFY_FILTER_AND_TYPE
 targetos: Windows
 req.typenames: NOTIFY_FILTER_AND_TYPE, *PNOTIFY_FILTER_AND_TYPE
 req.redist: 

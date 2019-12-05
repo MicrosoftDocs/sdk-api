@@ -1,19 +1,17 @@
 ---
 UID: NS:wingdi.tagEXTLOGPEN
 title: EXTLOGPEN (wingdi.h)
-
 description: The EXTLOGPEN structure defines the pen style, width, and brush attributes for an extended pen.
 old-location: gdi\extlogpen.htm
 tech.root: gdi
 ms.assetid: 34ffa71d-e94d-425e-9f9d-21e3df4990b7
-
 ms.date: 12/05/2018
-ms.keywords: "*LPEXTLOGPEN, *NPEXTLOGPEN, *PEXTLOGPEN, EXTLOGPEN, EXTLOGPEN structure [Windows GDI], PEXTLOGPEN, PEXTLOGPEN structure pointer [Windows GDI], _win32_EXTLOGPEN_str, gdi.extlogpen, wingdi/EXTLOGPEN, wingdi/PEXTLOGPEN"
+ms.keywords: '*LPEXTLOGPEN, *NPEXTLOGPEN, *PEXTLOGPEN, EXTLOGPEN, EXTLOGPEN structure [Windows GDI], PEXTLOGPEN, PEXTLOGPEN structure pointer [Windows GDI], _win32_EXTLOGPEN_str, gdi.extlogpen, wingdi/EXTLOGPEN, wingdi/PEXTLOGPEN'
 ms.topic: struct
-f1_keywords: 
- - "wingdi/EXTLOGPEN"
+f1_keywords:
+- wingdi/EXTLOGPEN
 dev_langs:
- - c++
+- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wingdi.h
+- Wingdi.h
 api_name:
- - EXTLOGPEN
+- EXTLOGPEN
 targetos: Windows
 req.typenames: EXTLOGPEN, *PEXTLOGPEN, *NPEXTLOGPEN, *LPEXTLOGPEN
 req.redist: 

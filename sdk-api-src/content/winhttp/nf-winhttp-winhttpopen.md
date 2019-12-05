@@ -1,19 +1,17 @@
 ---
 UID: NF:winhttp.WinHttpOpen
 title: WinHttpOpen function (winhttp.h)
-
 description: Initializes, for an application, the use of WinHTTP functions and returns a WinHTTP-session handle.
 old-location: http\winhttpopen.htm
 tech.root: WinHttp
 ms.assetid: 34ce8f7d-7cc3-4b38-ba6a-1247f50ebd33
-
 ms.date: 12/05/2018
 ms.keywords: WINHTTP_ACCESS_TYPE_AUTOMATIC_PROXY, WINHTTP_ACCESS_TYPE_DEFAULT_PROXY, WINHTTP_ACCESS_TYPE_NAMED_PROXY, WINHTTP_ACCESS_TYPE_NO_PROXY, WINHTTP_FLAG_ASYNC, WinHttpOpen, WinHttpOpen function [WinHTTP], http.winhttpopen, winhttp.winhttpopen_function, winhttp/WinHttpOpen
 ms.topic: function
-f1_keywords: 
- - "winhttp/WinHttpOpen"
+f1_keywords:
+- winhttp/WinHttpOpen
 dev_langs:
- - c++
+- c++
 req.header: winhttp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Winhttp.lib
 req.dll: Winhttp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Winhttp.dll
+- Winhttp.dll
 api_name:
- - WinHttpOpen
+- WinHttpOpen
 targetos: Windows
 req.typenames: 
 req.redist: WinHTTP 5.0 and Internet Explorer 5.01 or later on Windows XP and Windows 2000.

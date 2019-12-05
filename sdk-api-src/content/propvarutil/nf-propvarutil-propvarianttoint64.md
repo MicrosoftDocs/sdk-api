@@ -1,19 +1,17 @@
 ---
 UID: NF:propvarutil.PropVariantToInt64
 title: PropVariantToInt64 function (propvarutil.h)
-
 description: Extracts a LONGLONG value from a PROPVARIANT structure. If no value can be extracted, then a default value is assigned.
 old-location: properties\PropVariantToInt64.htm
 tech.root: properties
 ms.assetid: a53c88e3-57cc-46f8-99f2-ffc2aafa0ce4
-
 ms.date: 12/05/2018
 ms.keywords: PropVariantToInt64, PropVariantToInt64 function [Windows Properties], properties.PropVariantToInt64, propvarutil/PropVariantToInt64, shell.PropVariantToInt64, shell_PropVariantToInt64
 ms.topic: function
-f1_keywords: 
- - "propvarutil/PropVariantToInt64"
+f1_keywords:
+- propvarutil/PropVariantToInt64
 dev_langs:
- - c++
+- c++
 req.header: propvarutil.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Propsys.lib
 req.dll: Propsys.dll (version 6.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Propsys.dll
+- Propsys.dll
 api_name:
- - PropVariantToInt64
+- PropVariantToInt64
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0

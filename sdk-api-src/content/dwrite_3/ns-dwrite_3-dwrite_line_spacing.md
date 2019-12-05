@@ -1,19 +1,17 @@
 ---
 UID: NS:dwrite_3.DWRITE_LINE_SPACING
 title: DWRITE_LINE_SPACING (dwrite_3.h)
-
-description: "."
+description: .
 old-location: directwrite\dwrite_line_spacing.htm
 tech.root: DirectWrite
 ms.assetid: bb589a7a-374f-52fc-2fa4-4cc72c6ce6dc
-
 ms.date: 12/05/2018
 ms.keywords: DWRITE_LINE_SPACING, DWRITE_LINE_SPACING structure [Direct Write], directwrite.dwrite_line_spacing, dwrite_3/DWRITE_LINE_SPACING
 ms.topic: struct
-f1_keywords: 
- - "dwrite_3/DWRITE_LINE_SPACING"
+f1_keywords:
+- dwrite_3/DWRITE_LINE_SPACING
 dev_langs:
- - c++
+- c++
 req.header: dwrite_3.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Dwrite_3.h
+- Dwrite_3.h
 api_name:
- - DWRITE_LINE_SPACING
+- DWRITE_LINE_SPACING
 targetos: Windows
 req.typenames: 
 req.redist: 

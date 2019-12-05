@@ -1,19 +1,17 @@
 ---
 UID: NC:winnls.UILANGUAGE_ENUMPROCA
 title: UILANGUAGE_ENUMPROCA (winnls.h)
-
 description: An application-defined callback function that processes enumerated user interface language information provided by the EnumUILanguages function.
 old-location: intl\enumuilanguagesproc.htm
 tech.root: Intl
 ms.assetid: 5890bde9-7089-4440-a9cf-04b502183770
-
 ms.date: 12/05/2018
 ms.keywords: EnumUILanguagesProc, UILANGUAGE_ENUMPROC, UILANGUAGE_ENUMPROC callback, UILANGUAGE_ENUMPROC callback function [Internationalization for Windows Applications], UILANGUAGE_ENUMPROCA, UILANGUAGE_ENUMPROCW, _win32_EnumUILanguagesProc, intl.enumuilanguagesproc, winnls/UILANGUAGE_ENUMPROC
 ms.topic: callback
-f1_keywords: 
- - "winnls/UILANGUAGE_ENUMPROC"
+f1_keywords:
+- winnls/UILANGUAGE_ENUMPROC
 dev_langs:
- - c++
+- c++
 req.header: winnls.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Winnls.h
+- Winnls.h
 api_name:
- - UILANGUAGE_ENUMPROC
+- UILANGUAGE_ENUMPROC
 targetos: Windows
 req.typenames: 
 req.redist: 

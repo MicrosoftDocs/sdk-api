@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IVMRImagePresenter.StartPresenting
 title: IVMRImagePresenter::StartPresenting (strmif.h)
-
 description: The StartPresenting method is called just before the video starts playing. The allocator-presenter should perform any necessary configuration in this method.
 old-location: dshow\ivmrimagepresenter_startpresenting.htm
 tech.root: DirectShow
 ms.assetid: b97debae-d792-4c9b-a171-11ef2a73e987
-
 ms.date: 12/05/2018
 ms.keywords: IVMRImagePresenter interface [DirectShow],StartPresenting method, IVMRImagePresenter.StartPresenting, IVMRImagePresenter::StartPresenting, IVMRImagePresenterStartPresenting, StartPresenting, StartPresenting method [DirectShow], StartPresenting method [DirectShow],IVMRImagePresenter interface, dshow.ivmrimagepresenter_startpresenting, strmif/IVMRImagePresenter::StartPresenting
 ms.topic: method
-f1_keywords: 
- - "strmif/IVMRImagePresenter.StartPresenting"
+f1_keywords:
+- strmif/IVMRImagePresenter.StartPresenting
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IVMRImagePresenter.StartPresenting
+- IVMRImagePresenter.StartPresenting
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:tspi.TSPI_lineDevSpecific
 title: TSPI_lineDevSpecific function (tspi.h)
-
 description: The TSPI_lineDevSpecific function is used as a general extension mechanism to enable service providers to provide access to features not described in other operations.
 old-location: tspi\tspi_linedevspecific.htm
 tech.root: Tapi
 ms.assetid: 16510976-6fa6-4e48-837a-98f94d4e1342
-
 ms.date: 12/05/2018
 ms.keywords: TSPI_lineDevSpecific, TSPI_lineDevSpecific function [TAPI 2.2], _tspi_tspi_linedevspecific, tspi.tspi_linedevspecific, tspi/TSPI_lineDevSpecific
 ms.topic: function
-f1_keywords: 
- - "tspi/TSPI_lineDevSpecific"
+f1_keywords:
+- tspi/TSPI_lineDevSpecific
 dev_langs:
- - c++
+- c++
 req.header: tspi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Tspi.h
+- Tspi.h
 api_name:
- - TSPI_lineDevSpecific
+- TSPI_lineDevSpecific
 targetos: Windows
 req.typenames: 
 req.redist: 

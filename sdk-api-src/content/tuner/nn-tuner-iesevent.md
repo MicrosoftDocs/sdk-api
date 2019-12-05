@@ -1,19 +1,17 @@
 ---
 UID: NN:tuner.IESEvent
 title: IESEvent (tuner.h)
-
 description: Implements a generic event interface that can deliver and encapsulate events that are raised by devices that work with the Protected Broadcast Driver Interface (PBDA).
 old-location: mstv\iesevent.htm
 tech.root: mstv
 ms.assetid: 3c375480-c6df-4bb0-b417-5765b0bed9bf
-
 ms.date: 12/05/2018
 ms.keywords: IESEvent, IESEvent interface [Microsoft TV Technologies], IESEvent interface [Microsoft TV Technologies],described, mstv.iesevent, tuner/IESEvent
 ms.topic: interface
-f1_keywords: 
- - "tuner/IESEvent"
+f1_keywords:
+- tuner/IESEvent
 dev_langs:
- - c++
+- c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - tuner.h
+- tuner.h
 api_name:
- - IESEvent
+- IESEvent
 targetos: Windows
 req.typenames: 
 req.redist: 

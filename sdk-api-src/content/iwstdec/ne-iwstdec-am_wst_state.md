@@ -1,19 +1,17 @@
 ---
 UID: NE:iwstdec._AM_WST_STATE
 title: AM_WST_STATE (iwstdec.h)
-
 description: The AM_WST_STATE enumeration specifies whether WST closed captioning is enabled or disabled.
 old-location: dshow\am_wst_state.htm
 tech.root: DirectShow
 ms.assetid: b6548144-7e18-4d5d-9243-51eb7db9821b
-
 ms.date: 12/05/2018
-ms.keywords: "*PAM_WST_STATE, AM_WST_STATE, AM_WST_STATE , AM_WST_STATE enumeration [DirectShow], AM_WST_STATEEnumeration, AM_WST_STATE_Off, AM_WST_STATE_On, PAM_WST_STATE, PAM_WST_STATE enumeration pointer [DirectShow], dshow.am_wst_state, iwstdec/AM_WST_STATE, iwstdec/AM_WST_STATE_Off, iwstdec/AM_WST_STATE_On, iwstdec/PAM_WST_STATE"
+ms.keywords: '*PAM_WST_STATE, AM_WST_STATE, AM_WST_STATE , AM_WST_STATE enumeration [DirectShow], AM_WST_STATEEnumeration, AM_WST_STATE_Off, AM_WST_STATE_On, PAM_WST_STATE, PAM_WST_STATE enumeration pointer [DirectShow], dshow.am_wst_state, iwstdec/AM_WST_STATE, iwstdec/AM_WST_STATE_Off, iwstdec/AM_WST_STATE_On, iwstdec/PAM_WST_STATE'
 ms.topic: enum
-f1_keywords: 
- - "iwstdec/AM_WST_STATE"
+f1_keywords:
+- iwstdec/AM_WST_STATE
 dev_langs:
- - c++
+- c++
 req.header: iwstdec.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - iwstdec.h
+- iwstdec.h
 api_name:
- - AM_WST_STATE
+- AM_WST_STATE
 targetos: Windows
 req.typenames: AM_WST_STATE, *PAM_WST_STATE
 req.redist: 

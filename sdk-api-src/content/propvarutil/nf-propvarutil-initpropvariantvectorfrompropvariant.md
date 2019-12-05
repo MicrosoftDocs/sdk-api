@@ -1,19 +1,17 @@
 ---
 UID: NF:propvarutil.InitPropVariantVectorFromPropVariant
 title: InitPropVariantVectorFromPropVariant function (propvarutil.h)
-
 description: Initializes a vector element in a PROPVARIANT structure with a value stored in another PROPVARIANT.
 old-location: properties\InitPropVariantVectorFromPropVariant.htm
 tech.root: properties
 ms.assetid: 579f80af-38e0-4d3a-9307-5aa5e3fd6770
-
 ms.date: 12/05/2018
 ms.keywords: InitPropVariantVectorFromPropVariant, InitPropVariantVectorFromPropVariant function [Windows Properties], properties.InitPropVariantVectorFromPropVariant, propvarutil/InitPropVariantVectorFromPropVariant, shell.InitPropVariantVectorFromPropVariant, shell_InitPropVariantVectorFromPropVariant
 ms.topic: function
-f1_keywords: 
- - "propvarutil/InitPropVariantVectorFromPropVariant"
+f1_keywords:
+- propvarutil/InitPropVariantVectorFromPropVariant
 dev_langs:
- - c++
+- c++
 req.header: propvarutil.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Propsys.lib
 req.dll: Propsys.dll (version 6.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Propsys.dll
+- Propsys.dll
 api_name:
- - InitPropVariantVectorFromPropVariant
+- InitPropVariantVectorFromPropVariant
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0

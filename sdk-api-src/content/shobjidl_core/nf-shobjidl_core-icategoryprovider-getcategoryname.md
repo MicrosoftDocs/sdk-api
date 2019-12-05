@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.ICategoryProvider.GetCategoryName
 title: ICategoryProvider::GetCategoryName (shobjidl_core.h)
-
 description: Gets the name of the specified category.
 old-location: shell\ICategoryProvider_GetCategoryName.htm
 tech.root: shell
 ms.assetid: 3730394a-8720-46cc-a9da-cd5cf0df7eeb
-
 ms.date: 12/05/2018
 ms.keywords: GetCategoryName, GetCategoryName method [Windows Shell], GetCategoryName method [Windows Shell],ICategoryProvider interface, ICategoryProvider interface [Windows Shell],GetCategoryName method, ICategoryProvider.GetCategoryName, ICategoryProvider::GetCategoryName, inet_ICategoryProvider_GetCategoryName, shell.ICategoryProvider_GetCategoryName, shobjidl_core/ICategoryProvider::GetCategoryName
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/ICategoryProvider.GetCategoryName"
+f1_keywords:
+- shobjidl_core/ICategoryProvider.GetCategoryName
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Shell32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - ICategoryProvider.GetCategoryName
+- ICategoryProvider.GetCategoryName
 targetos: Windows
 req.typenames: 
 req.redist: 

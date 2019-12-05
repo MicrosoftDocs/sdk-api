@@ -1,19 +1,17 @@
 ---
 UID: NF:wmsdkidl.IWMWriter.SetProfileByID
 title: IWMWriter::SetProfileByID (wmsdkidl.h)
-
 description: The SetProfileByID method specifies the profile to use for the current writing task, identifying the profile by its GUID.
 old-location: wmformat\iwmwriter_setprofilebyid.htm
 tech.root: wmformat
 ms.assetid: 743212fd-a1e7-47c5-a220-c203cc2788e6
-
 ms.date: 12/05/2018
 ms.keywords: IWMWriter interface [windows Media Format],SetProfileByID method, IWMWriter.SetProfileByID, IWMWriter::SetProfileByID, IWMWriterSetProfileByID, SetProfileByID, SetProfileByID method [windows Media Format], SetProfileByID method [windows Media Format],IWMWriter interface, wmformat.iwmwriter_setprofilebyid, wmsdkidl/IWMWriter::SetProfileByID
 ms.topic: method
-f1_keywords: 
- - "wmsdkidl/IWMWriter.SetProfileByID"
+f1_keywords:
+- wmsdkidl/IWMWriter.SetProfileByID
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wmvcore.lib
- - Wmvcore.dll
- - WMStubDRM.lib
- - WMStubDRM.dll
+- Wmvcore.lib
+- Wmvcore.dll
+- WMStubDRM.lib
+- WMStubDRM.dll
 api_name:
- - IWMWriter.SetProfileByID
+- IWMWriter.SetProfileByID
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:d3dcsx.ID3DX11Scan.Multiscan
 title: ID3DX11Scan::Multiscan (d3dcsx.h)
-
 description: Performs a multiscan of a sequence.
 old-location: direct3d11\id3dx11scan_multiscan.htm
 tech.root: direct3d11
 ms.assetid: 5b6c637b-747d-465c-8915-dba13725ee0b
-
 ms.date: 12/05/2018
 ms.keywords: 370f6a70-577e-dd58-afb3-50bba688da70, ID3DX11Scan interface [Direct3D 11],Multiscan method, ID3DX11Scan.Multiscan, ID3DX11Scan::Multiscan, Multiscan, Multiscan method [Direct3D 11], Multiscan method [Direct3D 11],ID3DX11Scan interface, d3dcsx/ID3DX11Scan::Multiscan, direct3d11.id3dx11scan_multiscan
 ms.topic: method
-f1_keywords: 
- - "d3dcsx/ID3DX11Scan.Multiscan"
+f1_keywords:
+- d3dcsx/ID3DX11Scan.Multiscan
 dev_langs:
- - c++
+- c++
 req.header: d3dcsx.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: D3dcsx.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - d3dcsx.lib
- - d3dcsx.dll
+- d3dcsx.lib
+- d3dcsx.dll
 api_name:
- - ID3DX11Scan.Multiscan
+- ID3DX11Scan.Multiscan
 targetos: Windows
 req.typenames: 
 req.redist: 

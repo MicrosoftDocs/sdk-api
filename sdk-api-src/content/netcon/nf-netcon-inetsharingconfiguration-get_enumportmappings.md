@@ -1,19 +1,17 @@
 ---
 UID: NF:netcon.INetSharingConfiguration.get_EnumPortMappings
 title: INetSharingConfiguration::get_EnumPortMappings (netcon.h)
-
 description: The get_EnumPortMappings method retrieves an IEnumNetSharingPortMapping interface. Use this interface to enumerate the port mappings for this connection.
 old-location: ics\inetsharingconfiguration_enumportmappings.htm
 tech.root: ics
 ms.assetid: f5465acc-2b36-47d1-b48f-b36df3a8efb3
-
 ms.date: 12/05/2018
 ms.keywords: INetSharingConfiguration interface [ICS/ICF],get_EnumPortMappings method, INetSharingConfiguration.get_EnumPortMappings, INetSharingConfiguration::get_EnumPortMappings, _ics_inetsharingconfiguration_enumportmappings, get_EnumPortMappings, get_EnumPortMappings method [ICS/ICF], get_EnumPortMappings method [ICS/ICF],INetSharingConfiguration interface, ics.inetsharingconfiguration_enumportmappings, netcon/INetSharingConfiguration::get_EnumPortMappings
 ms.topic: method
-f1_keywords: 
- - "netcon/INetSharingConfiguration.get_EnumPortMappings"
+f1_keywords:
+- netcon/INetSharingConfiguration.get_EnumPortMappings
 dev_langs:
- - c++
+- c++
 req.header: netcon.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Hnetcfg.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Hnetcfg.dll
+- Hnetcfg.dll
 api_name:
- - INetSharingConfiguration.get_EnumPortMappings
+- INetSharingConfiguration.get_EnumPortMappings
 targetos: Windows
 req.typenames: 
 req.redist: 

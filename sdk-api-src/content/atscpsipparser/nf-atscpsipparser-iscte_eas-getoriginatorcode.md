@@ -1,19 +1,17 @@
 ---
 UID: NF:atscpsipparser.ISCTE_EAS.GetOriginatorCode
 title: ISCTE_EAS::GetOriginatorCode (atscpsipparser.h)
-
 description: The GetOriginatorCode method returns the EAS originator code.
 old-location: mstv\iscte_eas_getoriginatorcode.htm
 tech.root: mstv
 ms.assetid: a46f0922-9733-411a-8a03-59e1c98dbdd8
-
 ms.date: 12/05/2018
 ms.keywords: GetOriginatorCode, GetOriginatorCode method [Microsoft TV Technologies], GetOriginatorCode method [Microsoft TV Technologies],ISCTE_EAS interface, ISCTE_EAS interface [Microsoft TV Technologies],GetOriginatorCode method, ISCTE_EAS.GetOriginatorCode, ISCTE_EAS::GetOriginatorCode, ISCTE_EASGetOriginatorCode, atscpsipparser/ISCTE_EAS::GetOriginatorCode, mstv.iscte_eas_getoriginatorcode
 ms.topic: method
-f1_keywords: 
- - "atscpsipparser/ISCTE_EAS.GetOriginatorCode"
+f1_keywords:
+- atscpsipparser/ISCTE_EAS.GetOriginatorCode
 dev_langs:
- - c++
+- c++
 req.header: atscpsipparser.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - atscpsipparser.h
+- atscpsipparser.h
 api_name:
- - ISCTE_EAS.GetOriginatorCode
+- ISCTE_EAS.GetOriginatorCode
 targetos: Windows
 req.typenames: 
 req.redist: 

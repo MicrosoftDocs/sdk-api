@@ -1,19 +1,17 @@
 ---
 UID: NF:dxgi1_3.IDXGISwapChain2.GetFrameLatencyWaitableObject
 title: IDXGISwapChain2::GetFrameLatencyWaitableObject (dxgi1_3.h)
-
 description: Returns a waitable handle that signals when the DXGI adapter has finished presenting a new frame.
 old-location: direct3ddxgi\idxgiswapchain2_getframelatencywaitableobject.htm
 tech.root: direct3ddxgi
 ms.assetid: 70E7347F-C6F9-49FA-9796-B728CF3F7778
-
 ms.date: 12/05/2018
 ms.keywords: GetFrameLatencyWaitableObject, GetFrameLatencyWaitableObject method [DXGI], GetFrameLatencyWaitableObject method [DXGI],IDXGISwapChain2 interface, IDXGISwapChain2 interface [DXGI],GetFrameLatencyWaitableObject method, IDXGISwapChain2.GetFrameLatencyWaitableObject, IDXGISwapChain2::GetFrameLatencyWaitableObject, direct3ddxgi.idxgiswapchain2_getframelatencywaitableobject, dxgi1_3/IDXGISwapChain2::GetFrameLatencyWaitableObject
 ms.topic: method
-f1_keywords: 
- - "dxgi1_3/IDXGISwapChain2.GetFrameLatencyWaitableObject"
+f1_keywords:
+- dxgi1_3/IDXGISwapChain2.GetFrameLatencyWaitableObject
 dev_langs:
- - c++
+- c++
 req.header: dxgi1_3.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Dxgi.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dxgi.lib
- - dxgi.dll
+- dxgi.lib
+- dxgi.dll
 api_name:
- - IDXGISwapChain2.GetFrameLatencyWaitableObject
+- IDXGISwapChain2.GetFrameLatencyWaitableObject
 targetos: Windows
 req.typenames: 
 req.redist: 

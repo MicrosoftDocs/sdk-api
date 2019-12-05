@@ -1,19 +1,17 @@
 ---
 UID: NF:winuser.GetCapture
 title: GetCapture function (winuser.h)
-
 description: Retrieves a handle to the window (if any) that has captured the mouse. Only one window at a time can capture the mouse; this window receives mouse input whether or not the cursor is within its borders.
 old-location: inputdev\getcapture.htm
 tech.root: inputdev
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\mouseinput\mouseinputreference\mouseinputfunctions\getcapture.htm
-
 ms.date: 12/05/2018
 ms.keywords: GetCapture, GetCapture function [Keyboard and Mouse Input], _win32_GetCapture, _win32_getcapture_cpp, inputdev.getcapture, winui._win32_getcapture, winuser/GetCapture
 ms.topic: function
-f1_keywords: 
- - "winuser/GetCapture"
+f1_keywords:
+- winuser/GetCapture
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - User32.dll
- - Ext-MS-Win-NTUser-mouse-l1-1-0.dll
- - api-ms-win-ntuser-ie-mouse-l1-1-0.dll
- - ie_stubs.dll
+- User32.dll
+- Ext-MS-Win-NTUser-mouse-l1-1-0.dll
+- api-ms-win-ntuser-ie-mouse-l1-1-0.dll
+- ie_stubs.dll
 api_name:
- - GetCapture
+- GetCapture
 targetos: Windows
 req.typenames: 
 req.redist: 

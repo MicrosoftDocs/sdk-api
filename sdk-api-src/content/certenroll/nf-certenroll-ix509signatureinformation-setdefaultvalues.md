@@ -1,19 +1,17 @@
 ---
 UID: NF:certenroll.IX509SignatureInformation.SetDefaultValues
 title: IX509SignatureInformation::SetDefaultValues (certenroll.h)
-
 description: Specifies a default hashing algorithm used to create a digest of the certificate request prior to signing.
 old-location: security\ix509signatureinformation_setdefaultvalues_method.htm
 tech.root: seccertenroll
 ms.assetid: 123e65e8-62bb-4bc7-9e15-113780be81e3
-
 ms.date: 12/05/2018
 ms.keywords: IX509SignatureInformation interface [Security],SetDefaultValues method, IX509SignatureInformation.SetDefaultValues, IX509SignatureInformation::SetDefaultValues, SetDefaultValues, SetDefaultValues method [Security], SetDefaultValues method [Security],IX509SignatureInformation interface, certenroll/IX509SignatureInformation::SetDefaultValues, security.ix509signatureinformation_setdefaultvalues_method
 ms.topic: method
-f1_keywords: 
- - "certenroll/IX509SignatureInformation.SetDefaultValues"
+f1_keywords:
+- certenroll/IX509SignatureInformation.SetDefaultValues
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: CertEnroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CertEnroll.dll
+- CertEnroll.dll
 api_name:
- - IX509SignatureInformation.SetDefaultValues
+- IX509SignatureInformation.SetDefaultValues
 targetos: Windows
 req.typenames: 
 req.redist: 

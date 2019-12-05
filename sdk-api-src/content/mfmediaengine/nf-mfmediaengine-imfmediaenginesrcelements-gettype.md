@@ -1,19 +1,17 @@
 ---
 UID: NF:mfmediaengine.IMFMediaEngineSrcElements.GetType
 title: IMFMediaEngineSrcElements::GetType (mfmediaengine.h)
-
 description: Gets the MIME type of an element in the list.
 old-location: mf\imfmediaenginesrcelements_gettype.htm
 tech.root: medfound
 ms.assetid: 7B788160-A342-48B4-A3F9-42F3BB83A24D
-
 ms.date: 12/05/2018
 ms.keywords: GetType, GetType method [Media Foundation], GetType method [Media Foundation],IMFMediaEngineSrcElements interface, IMFMediaEngineSrcElements interface [Media Foundation],GetType method, IMFMediaEngineSrcElements.GetType, IMFMediaEngineSrcElements::GetType, mf.imfmediaenginesrcelements_gettype, mfmediaengine/IMFMediaEngineSrcElements::GetType
 ms.topic: method
-f1_keywords: 
- - "mfmediaengine/IMFMediaEngineSrcElements.GetType"
+f1_keywords:
+- mfmediaengine/IMFMediaEngineSrcElements.GetType
 dev_langs:
- - c++
+- c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfmediaengine.h
+- mfmediaengine.h
 api_name:
- - IMFMediaEngineSrcElements.GetType
+- IMFMediaEngineSrcElements.GetType
 targetos: Windows
 req.typenames: 
 req.redist: 

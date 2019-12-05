@@ -1,19 +1,17 @@
 ---
 UID: NF:mfidl.MFCreateSampleGrabberSinkActivate
 title: MFCreateSampleGrabberSinkActivate function (mfidl.h)
-
 description: Creates an activation object for the sample grabber media sink.
 old-location: mf\mfcreatesamplegrabbersinkactivate.htm
 tech.root: medfound
 ms.assetid: ac8e415e-5df8-4fdb-adf6-c3c717c3d625
-
 ms.date: 12/05/2018
 ms.keywords: MFCreateSampleGrabberSinkActivate, MFCreateSampleGrabberSinkActivate function [Media Foundation], ac8e415e-5df8-4fdb-adf6-c3c717c3d625, mf.mfcreatesamplegrabbersinkactivate, mfidl/MFCreateSampleGrabberSinkActivate
 ms.topic: function
-f1_keywords: 
- - "mfidl/MFCreateSampleGrabberSinkActivate"
+f1_keywords:
+- mfidl/MFCreateSampleGrabberSinkActivate
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Mf.lib
 req.dll: Mf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - mf.dll
+- mf.dll
 api_name:
- - MFCreateSampleGrabberSinkActivate
+- MFCreateSampleGrabberSinkActivate
 targetos: Windows
 req.typenames: 
 req.redist: 

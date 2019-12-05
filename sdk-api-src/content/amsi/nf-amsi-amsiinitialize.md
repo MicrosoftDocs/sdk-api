@@ -1,19 +1,17 @@
 ---
 UID: NF:amsi.AmsiInitialize
 title: AmsiInitialize function (amsi.h)
-
 description: Initialize the AMSI API.
 old-location: amsi\amsiinitialize.htm
 tech.root: AMSI
 ms.assetid: 946FC79C-556C-404E-A559-323AA69B3EC6
-
 ms.date: 12/05/2018
 ms.keywords: AmsiInitialize, AmsiInitialize function [Antimalware Scan Interface], amsi.amsiinitialize, amsi/AmsiInitialize
 ms.topic: function
-f1_keywords: 
- - "amsi/AmsiInitialize"
+f1_keywords:
+- amsi/AmsiInitialize
 dev_langs:
- - c++
+- c++
 req.header: amsi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Amsi.lib
 req.dll: Amsi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - amsi.dll
+- amsi.dll
 api_name:
- - AmsiInitialize
+- AmsiInitialize
 targetos: Windows
 req.typenames: 
 req.redist: 

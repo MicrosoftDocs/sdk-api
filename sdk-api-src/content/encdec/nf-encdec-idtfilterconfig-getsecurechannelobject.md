@@ -1,19 +1,17 @@
 ---
 UID: NF:encdec.IDTFilterConfig.GetSecureChannelObject
 title: IDTFilterConfig::GetSecureChannelObject (encdec.h)
-
 description: The GetSecureChannelObject method retrieves the secure channel object used to decrypt the stream.
 old-location: mstv\idtfilterconfig_getsecurechannelobject.htm
 tech.root: mstv
 ms.assetid: 84057a08-b15f-4738-814d-c016507ac590
-
 ms.date: 12/05/2018
 ms.keywords: GetSecureChannelObject, GetSecureChannelObject method [Microsoft TV Technologies], GetSecureChannelObject method [Microsoft TV Technologies],IDTFilterConfig interface, IDTFilterConfig interface [Microsoft TV Technologies],GetSecureChannelObject method, IDTFilterConfig.GetSecureChannelObject, IDTFilterConfig::GetSecureChannelObject, IDTFilterConfigGetSecureChannelObject, encdec/IDTFilterConfig::GetSecureChannelObject, mstv.idtfilterconfig_getsecurechannelobject
 ms.topic: method
-f1_keywords: 
- - "encdec/IDTFilterConfig.GetSecureChannelObject"
+f1_keywords:
+- encdec/IDTFilterConfig.GetSecureChannelObject
 dev_langs:
- - c++
+- c++
 req.header: encdec.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - EncDec.h
+- EncDec.h
 api_name:
- - IDTFilterConfig.GetSecureChannelObject
+- IDTFilterConfig.GetSecureChannelObject
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi.lineHold
 title: lineHold function (tapi.h)
-
 description: The lineHold function places the specified call on hold.
 old-location: tapi2\linehold.htm
 tech.root: Tapi
 ms.assetid: d2fd450c-402c-4122-a785-a6b5216acfe9
-
 ms.date: 12/05/2018
-ms.keywords: "_tapi2_linehold, lineHold, lineHold function [TAPI 2.2], tapi/lineHold, tapi2.linehold"
+ms.keywords: _tapi2_linehold, lineHold, lineHold function [TAPI 2.2], tapi/lineHold, tapi2.linehold
 ms.topic: function
-f1_keywords: 
- - "tapi/lineHold"
+f1_keywords:
+- tapi/lineHold
 dev_langs:
- - c++
+- c++
 req.header: tapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Tapi32.lib
 req.dll: Tapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Tapi32.dll
+- Tapi32.dll
 api_name:
- - lineHold
+- lineHold
 targetos: Windows
 req.typenames: 
 req.redist: 

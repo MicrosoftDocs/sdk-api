@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d10shader.D3D10ReflectShader
 title: D3D10ReflectShader function (d3d10shader.h)
-
 description: This function -- which creates a shader-reflection object for retrieving information about a compiled shader -- has been deprecated. Instead, use D3DReflect.
 old-location: direct3d10\d3d10reflectshader.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\d3d10reflectshader.htm
-
 ms.date: 12/05/2018
 ms.keywords: D3D10ReflectShader, D3D10ReflectShader function [Direct3D 10], abc201df-57cf-fbbd-708b-94ffa50ba7d4, d3d10shader/D3D10ReflectShader, direct3d10.d3d10reflectshader
 ms.topic: function
-f1_keywords: 
- - "d3d10shader/D3D10ReflectShader"
+f1_keywords:
+- d3d10shader/D3D10ReflectShader
 dev_langs:
- - c++
+- c++
 req.header: d3d10shader.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: D3D10.lib
 req.dll: D3D10.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - D3D10.dll
+- D3D10.dll
 api_name:
- - D3D10ReflectShader
+- D3D10ReflectShader
 targetos: Windows
 req.typenames: 
 req.redist: 

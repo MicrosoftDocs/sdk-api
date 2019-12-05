@@ -1,19 +1,17 @@
 ---
 UID: NF:p2p.PeerGroupGetRecord
 title: PeerGroupGetRecord function (p2p.h)
-
 description: The PeerGroupGetRecord function retrieves a specific group record.
 old-location: p2p\peergroupgetrecord.htm
 tech.root: P2PSdk
 ms.assetid: cf24bf5f-8ffc-4b86-80f7-dcb7621f49d2
-
 ms.date: 12/05/2018
 ms.keywords: PeerGroupGetRecord, PeerGroupGetRecord function [Peer Networking], p2p.peergroupgetrecord, p2p/PeerGroupGetRecord
 ms.topic: function
-f1_keywords: 
- - "p2p/PeerGroupGetRecord"
+f1_keywords:
+- p2p/PeerGroupGetRecord
 dev_langs:
- - c++
+- c++
 req.header: p2p.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: P2P.lib
 req.dll: P2P.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - P2P.dll
+- P2P.dll
 api_name:
- - PeerGroupGetRecord
+- PeerGroupGetRecord
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NS:lmserver._SERVER_INFO_1515
 title: SERVER_INFO_1515 (lmserver.h)
-
 description: The SERVER_INFO_1515 structure specifies whether the server should force a client to disconnect once the client's logon time has expired.
 old-location: netmgmt\server_info_1515_str.htm
 tech.root: NetMgmt
 ms.assetid: f9aa8580-47c6-4e3e-9e34-dc90cd5178ce
-
 ms.date: 12/05/2018
-ms.keywords: "*LPSERVER_INFO_1515, *PSERVER_INFO_1515, LPSERVER_INFO_1515, LPSERVER_INFO_1515 structure pointer [Network Management], PSERVER_INFO_1515, PSERVER_INFO_1515 structure pointer [Network Management], SERVER_INFO_1515, SERVER_INFO_1515 structure [Network Management], _win32_server_info_1515_str, lmserver/LPSERVER_INFO_1515, lmserver/PSERVER_INFO_1515, lmserver/SERVER_INFO_1515, netmgmt.server_info_1515_str"
+ms.keywords: '*LPSERVER_INFO_1515, *PSERVER_INFO_1515, LPSERVER_INFO_1515, LPSERVER_INFO_1515 structure pointer [Network Management], PSERVER_INFO_1515, PSERVER_INFO_1515 structure pointer [Network Management], SERVER_INFO_1515, SERVER_INFO_1515 structure [Network Management], _win32_server_info_1515_str, lmserver/LPSERVER_INFO_1515, lmserver/PSERVER_INFO_1515, lmserver/SERVER_INFO_1515, netmgmt.server_info_1515_str'
 ms.topic: struct
-f1_keywords: 
- - "lmserver/SERVER_INFO_1515"
+f1_keywords:
+- lmserver/SERVER_INFO_1515
 dev_langs:
- - c++
+- c++
 req.header: lmserver.h
 req.include-header: Lm.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Lmserver.h
+- Lmserver.h
 api_name:
- - SERVER_INFO_1515
+- SERVER_INFO_1515
 targetos: Windows
 req.typenames: SERVER_INFO_1515, *PSERVER_INFO_1515, *LPSERVER_INFO_1515
 req.redist: 

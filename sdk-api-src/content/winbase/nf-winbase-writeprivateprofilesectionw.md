@@ -1,19 +1,17 @@
 ---
 UID: NF:winbase.WritePrivateProfileSectionW
 title: WritePrivateProfileSectionW function (winbase.h)
-
 description: Replaces the keys and values for the specified section in an initialization file.
 old-location: base\writeprivateprofilesection.htm
 tech.root: SysInfo
 ms.assetid: 23f9e012-4196-437a-9e22-0524b37505b4
-
 ms.date: 12/05/2018
 ms.keywords: WritePrivateProfileSection, WritePrivateProfileSection function, WritePrivateProfileSectionA, WritePrivateProfileSectionW, _win32_writeprivateprofilesection, base.writeprivateprofilesection, winbase/WritePrivateProfileSection, winbase/WritePrivateProfileSectionA, winbase/WritePrivateProfileSectionW
 ms.topic: function
-f1_keywords: 
- - "winbase/WritePrivateProfileSection"
+f1_keywords:
+- winbase/WritePrivateProfileSection
 dev_langs:
- - c++
+- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,20 +30,20 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-Privateprofile-l1-1-0.dll
- - kernel32legacy.dll
- - API-MS-Win-Core-Privateprofile-l1-1-1.dll
- - API-MS-Win-DownLevel-Kernel32-l2-1-0.dll
+- Kernel32.dll
+- API-MS-Win-Core-Privateprofile-l1-1-0.dll
+- kernel32legacy.dll
+- API-MS-Win-Core-Privateprofile-l1-1-1.dll
+- API-MS-Win-DownLevel-Kernel32-l2-1-0.dll
 api_name:
- - WritePrivateProfileSection
- - WritePrivateProfileSectionA
- - WritePrivateProfileSectionW
+- WritePrivateProfileSection
+- WritePrivateProfileSectionA
+- WritePrivateProfileSectionW
 targetos: Windows
 req.typenames: 
 req.redist: 

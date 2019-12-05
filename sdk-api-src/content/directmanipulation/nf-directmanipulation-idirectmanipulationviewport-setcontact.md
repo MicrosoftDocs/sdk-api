@@ -1,19 +1,17 @@
 ---
 UID: NF:directmanipulation.IDirectManipulationViewport.SetContact
 title: IDirectManipulationViewport::SetContact (directmanipulation.h)
-
 description: Specifies an association between a contact and the viewport.
 old-location: directmanipulation\idirectmanipulationviewport_setcontact.htm
 tech.root: directmanipulation
 ms.assetid: 39562bf1-c2cf-4ea6-9d02-a2b5fc4d3158
-
 ms.date: 12/05/2018
 ms.keywords: IDirectManipulationViewport interface [Direct Manipulation],SetContact method, IDirectManipulationViewport.SetContact, IDirectManipulationViewport::SetContact, SetContact, SetContact method [Direct Manipulation], SetContact method [Direct Manipulation],IDirectManipulationViewport interface, directmanipulation.idirectmanipulationviewport_setcontact, directmanipulation/IDirectManipulationViewport::SetContact
 ms.topic: method
-f1_keywords: 
- - "directmanipulation/IDirectManipulationViewport.SetContact"
+f1_keywords:
+- directmanipulation/IDirectManipulationViewport.SetContact
 dev_langs:
- - c++
+- c++
 req.header: directmanipulation.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - DirectManipulation.h
+- DirectManipulation.h
 api_name:
- - IDirectManipulationViewport.SetContact
+- IDirectManipulationViewport.SetContact
 targetos: Windows
 req.typenames: 
 req.redist: 

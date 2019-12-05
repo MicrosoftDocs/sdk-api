@@ -1,19 +1,17 @@
 ---
 UID: NF:mfmediaengine.IMFSourceBuffer.GetAppendWindowStart
 title: IMFSourceBuffer::GetAppendWindowStart (mfmediaengine.h)
-
 description: Gets the timestamp for the start of the append window.
 old-location: mf\imfsourcebuffer_getappendwindowstart.htm
 tech.root: medfound
 ms.assetid: e5feb451-5bf9-475c-b501-599e2188a3f5
-
 ms.date: 12/05/2018
 ms.keywords: GetAppendWindowStart, GetAppendWindowStart method [Media Foundation], GetAppendWindowStart method [Media Foundation],IMFSourceBuffer interface, IMFSourceBuffer interface [Media Foundation],GetAppendWindowStart method, IMFSourceBuffer.GetAppendWindowStart, IMFSourceBuffer::GetAppendWindowStart, mf.imfsourcebuffer_getappendwindowstart, mfmediaengine/IMFSourceBuffer::GetAppendWindowStart
 ms.topic: method
-f1_keywords: 
- - "mfmediaengine/IMFSourceBuffer.GetAppendWindowStart"
+f1_keywords:
+- mfmediaengine/IMFSourceBuffer.GetAppendWindowStart
 dev_langs:
- - c++
+- c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfmediaengine.h
+- mfmediaengine.h
 api_name:
- - IMFSourceBuffer.GetAppendWindowStart
+- IMFSourceBuffer.GetAppendWindowStart
 targetos: Windows
 req.typenames: 
 req.redist: 

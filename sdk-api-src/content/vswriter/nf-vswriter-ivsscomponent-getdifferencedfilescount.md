@@ -1,19 +1,17 @@
 ---
 UID: NF:vswriter.IVssComponent.GetDifferencedFilesCount
 title: IVssComponent::GetDifferencedFilesCount (vswriter.h)
-
 description: Returns the number of file specifications in this component (and in any subcomponents of the component set it defines) marked by a writer supporting an incremental backup or restore as differenced files.
 old-location: base\ivsscomponent_getdifferencedfilescount.htm
 tech.root: VSS
 ms.assetid: 46faeb2b-7d83-4618-ba36-bdacc5ca055d
-
 ms.date: 12/05/2018
 ms.keywords: GetDifferencedFilesCount, GetDifferencedFilesCount method [VSS], GetDifferencedFilesCount method [VSS],IVssComponent interface, IVssComponent interface [VSS],GetDifferencedFilesCount method, IVssComponent.GetDifferencedFilesCount, IVssComponent::GetDifferencedFilesCount, _win32_ivsscomponent_getdifferencedfilescount, base.ivsscomponent_getdifferencedfilescount, vswriter/IVssComponent::GetDifferencedFilesCount
 ms.topic: method
-f1_keywords: 
- - "vswriter/IVssComponent.GetDifferencedFilesCount"
+f1_keywords:
+- vswriter/IVssComponent.GetDifferencedFilesCount
 dev_langs:
- - c++
+- c++
 req.header: vswriter.h
 req.include-header: Vss.h, VsWriter.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: VssApi.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - VssApi.lib
- - VssApi.dll
+- VssApi.lib
+- VssApi.dll
 api_name:
- - IVssComponent.GetDifferencedFilesCount
+- IVssComponent.GetDifferencedFilesCount
 targetos: Windows
 req.typenames: 
 req.redist: 

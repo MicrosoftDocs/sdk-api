@@ -1,19 +1,17 @@
 ---
 UID: NF:wcmconfig.ITargetInfo.SetTemporaryStoreLocation
 title: ITargetInfo::SetTemporaryStoreLocation (wcmconfig.h)
-
 description: Sets the current temporary store location.
 old-location: smi\itargetinfo_settemporarystorelocation.htm
 tech.root: SMI
 ms.assetid: ef2b6983-02ff-488a-99ef-9976d76f51b5
-
 ms.date: 12/05/2018
 ms.keywords: ITargetInfo interface [SMI],SetTemporaryStoreLocation method, ITargetInfo.SetTemporaryStoreLocation, ITargetInfo::SetTemporaryStoreLocation, SetTemporaryStoreLocation, SetTemporaryStoreLocation method [SMI], SetTemporaryStoreLocation method [SMI],ITargetInfo interface, smi.itargetinfo_settemporarystorelocation, wcmconfig/ITargetInfo::SetTemporaryStoreLocation
 ms.topic: method
-f1_keywords: 
- - "wcmconfig/ITargetInfo.SetTemporaryStoreLocation"
+f1_keywords:
+- wcmconfig/ITargetInfo.SetTemporaryStoreLocation
 dev_langs:
- - c++
+- c++
 req.header: wcmconfig.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: SMIEngine.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - SMIEngine.dll
+- SMIEngine.dll
 api_name:
- - ITargetInfo.SetTemporaryStoreLocation
+- ITargetInfo.SetTemporaryStoreLocation
 targetos: Windows
 req.typenames: 
 req.redist: 

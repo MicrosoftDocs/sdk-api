@@ -1,19 +1,17 @@
 ---
 UID: NN:uiribbon.IUIImage
 title: IUIImage (uiribbon.h)
-
 description: The IUIImage interface is implemented by the application and defines the method for retrieving an image to display in the ribbon and context popup UI of the Windows Ribbon framework .
 old-location: windowsribbon\windowsribbon_iuiimage.htm
 tech.root: windowsribbon
 ms.assetid: VS|scenicintent|~\scenicintent\reference\ifaces\iuiimage\iuiimage.htm
-
 ms.date: 12/05/2018
 ms.keywords: IUIImage, IUIImage interface [Windows Ribbon], IUIImage interface [Windows Ribbon],described, scenicintent_IUIImage, uiribbon/IUIImage, windowsribbon.windowsribbon_iuiimage
 ms.topic: interface
-f1_keywords: 
- - "uiribbon/IUIImage"
+f1_keywords:
+- uiribbon/IUIImage
 dev_langs:
- - c++
+- c++
 req.header: uiribbon.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Uiribbon.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Uiribbon.dll
+- Uiribbon.dll
 api_name:
- - IUIImage
+- IUIImage
 targetos: Windows
 req.typenames: 
 req.redist: 

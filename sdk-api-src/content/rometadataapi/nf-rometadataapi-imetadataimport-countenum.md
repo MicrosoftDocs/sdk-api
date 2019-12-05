@@ -1,19 +1,17 @@
 ---
 UID: NF:rometadataapi.IMetaDataImport.CountEnum
 title: IMetaDataImport::CountEnum (rometadataapi.h)
-
 description: Gets the number of elements in the enumeration that was retrieved by the specified enumerator.
 old-location: winrt\imetadataimport_countenum.htm
 tech.root: WinRT
 ms.assetid: 67146070-1710-4602-845c-a2a3cd5efdad
-
 ms.date: 12/05/2018
 ms.keywords: CountEnum, CountEnum method [Windows Runtime], CountEnum method [Windows Runtime],IMetaDataImport interface, IMetaDataImport interface [Windows Runtime],CountEnum method, IMetaDataImport.CountEnum, IMetaDataImport::CountEnum, rometadataapi/IMetaDataImport::CountEnum, winrt.imetadataimport_countenum
 ms.topic: method
-f1_keywords: 
- - "rometadataapi/IMetaDataImport.CountEnum"
+f1_keywords:
+- rometadataapi/IMetaDataImport.CountEnum
 dev_langs:
- - c++
+- c++
 req.header: rometadataapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - rometadataapi.h
+- rometadataapi.h
 api_name:
- - IMetaDataImport.CountEnum
+- IMetaDataImport.CountEnum
 targetos: Windows
 req.typenames: 
 req.redist: 

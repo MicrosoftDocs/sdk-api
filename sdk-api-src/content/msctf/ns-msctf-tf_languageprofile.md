@@ -1,19 +1,17 @@
 ---
 UID: NS:msctf.TF_LANGUAGEPROFILE
 title: TF_LANGUAGEPROFILE (msctf.h)
-
 description: The TF_LANGUAGEPROFILE structure contains information about a language profile.
 old-location: tsf\tf_languageprofile.htm
 tech.root: TSF
 ms.assetid: f9dbd701-d893-409b-b033-3e37d12ccaa7
-
 ms.date: 12/05/2018
 ms.keywords: TF_LANGUAGEPROFILE, TF_LANGUAGEPROFILE structure [Text Services Framework], _tsf_tf_languageprofile_ref, msctf/TF_LANGUAGEPROFILE, tsf.tf_languageprofile
 ms.topic: struct
-f1_keywords: 
- - "msctf/TF_LANGUAGEPROFILE"
+f1_keywords:
+- msctf/TF_LANGUAGEPROFILE
 dev_langs:
- - c++
+- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Msctf.h
+- Msctf.h
 api_name:
- - TF_LANGUAGEPROFILE
+- TF_LANGUAGEPROFILE
 targetos: Windows
 req.typenames: TF_LANGUAGEPROFILE
 req.redist: TSF 1.0 on Windows 2000 Professional

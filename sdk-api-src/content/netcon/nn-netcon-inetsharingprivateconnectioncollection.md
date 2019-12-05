@@ -1,19 +1,17 @@
 ---
 UID: NN:netcon.INetSharingPrivateConnectionCollection
 title: INetSharingPrivateConnectionCollection (netcon.h)
-
 description: The INetSharingPrivateConnectionCollection interface makes it possible for scripting languages such as VBScript and JScript to enumerate private connections.
 old-location: ics\inetsharingprivateconnectioncollection.htm
 tech.root: ics
 ms.assetid: 6e850e7b-841a-4f14-bab2-4a5a67dcb360
-
 ms.date: 12/05/2018
 ms.keywords: INetSharingPrivateConnectionCollection, INetSharingPrivateConnectionCollection interface [ICS/ICF], INetSharingPrivateConnectionCollection interface [ICS/ICF],described, _ics_inetsharingprivateconnectioncollection, ics.inetsharingprivateconnectioncollection, netcon/INetSharingPrivateConnectionCollection
 ms.topic: interface
-f1_keywords: 
- - "netcon/INetSharingPrivateConnectionCollection"
+f1_keywords:
+- netcon/INetSharingPrivateConnectionCollection
 dev_langs:
- - c++
+- c++
 req.header: netcon.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Hnetcfg.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Hnetcfg.dll
+- Hnetcfg.dll
 api_name:
- - INetSharingPrivateConnectionCollection
+- INetSharingPrivateConnectionCollection
 targetos: Windows
 req.typenames: 
 req.redist: 

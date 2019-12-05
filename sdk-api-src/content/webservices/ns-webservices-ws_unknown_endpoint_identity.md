@@ -1,19 +1,17 @@
 ---
 UID: NS:webservices._WS_UNKNOWN_ENDPOINT_IDENTITY
 title: WS_UNKNOWN_ENDPOINT_IDENTITY (webservices.h)
-
 description: Type for unknown endpoint identity. This type is only used to represent an endpoint identity type that was deserialized but was not understood.
 old-location: wsw\ws_unknown_endpoint_identity.htm
 tech.root: wsw
 ms.assetid: 93a51fe5-7195-4286-97f3-92c20b0d3e54
-
 ms.date: 12/05/2018
 ms.keywords: WS_UNKNOWN_ENDPOINT_IDENTITY, WS_UNKNOWN_ENDPOINT_IDENTITY structure [Web Services for Windows], webservices/WS_UNKNOWN_ENDPOINT_IDENTITY, wsw.ws_unknown_endpoint_identity
 ms.topic: struct
-f1_keywords: 
- - "webservices/WS_UNKNOWN_ENDPOINT_IDENTITY"
+f1_keywords:
+- webservices/WS_UNKNOWN_ENDPOINT_IDENTITY
 dev_langs:
- - c++
+- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WebServices.h
+- WebServices.h
 api_name:
- - WS_UNKNOWN_ENDPOINT_IDENTITY
+- WS_UNKNOWN_ENDPOINT_IDENTITY
 targetos: Windows
 req.typenames: WS_UNKNOWN_ENDPOINT_IDENTITY
 req.redist: 

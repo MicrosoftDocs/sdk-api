@@ -1,19 +1,17 @@
 ---
 UID: NF:mfobjects.IMFAttributes.GetBlobSize
 title: IMFAttributes::GetBlobSize (mfobjects.h)
-
 description: Retrieves the length of a byte array associated with a key.
 old-location: mf\imfattributes_getblobsize.htm
 tech.root: medfound
 ms.assetid: 93ab65e7-2168-4cfb-a871-b39554ba66e0
-
 ms.date: 12/05/2018
 ms.keywords: 93ab65e7-2168-4cfb-a871-b39554ba66e0, GetBlobSize, GetBlobSize method [Media Foundation], GetBlobSize method [Media Foundation],IMFAttributes interface, IMFAttributes interface [Media Foundation],GetBlobSize method, IMFAttributes.GetBlobSize, IMFAttributes::GetBlobSize, mf.imfattributes_getblobsize, mfobjects/IMFAttributes::GetBlobSize
 ms.topic: method
 f1_keywords:
 - mfobjects/IMFAttributes.GetBlobSize
 dev_langs:
- - c++
+- c++
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows

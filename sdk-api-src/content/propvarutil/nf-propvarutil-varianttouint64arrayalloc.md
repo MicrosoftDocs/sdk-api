@@ -1,19 +1,17 @@
 ---
 UID: NF:propvarutil.VariantToUInt64ArrayAlloc
 title: VariantToUInt64ArrayAlloc function (propvarutil.h)
-
 description: Extracts data from a vector structure into a newly-allocated unsigned Int64 array.
 old-location: properties\VariantToUInt64ArrayAlloc.htm
 tech.root: properties
 ms.assetid: 898edef6-a688-4a39-897c-70f29952db49
-
 ms.date: 12/05/2018
 ms.keywords: VariantToUInt64ArrayAlloc, VariantToUInt64ArrayAlloc function [Windows Properties], _shell_VariantToUInt64ArrayAlloc, properties.VariantToUInt64ArrayAlloc, propvarutil/VariantToUInt64ArrayAlloc, shell.VariantToUInt64ArrayAlloc
 ms.topic: function
-f1_keywords: 
- - "propvarutil/VariantToUInt64ArrayAlloc"
+f1_keywords:
+- propvarutil/VariantToUInt64ArrayAlloc
 dev_langs:
- - c++
+- c++
 req.header: propvarutil.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Propsys.lib
 req.dll: Propsys.dll (version 6.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Propsys.dll
+- Propsys.dll
 api_name:
- - VariantToUInt64ArrayAlloc
+- VariantToUInt64ArrayAlloc
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0

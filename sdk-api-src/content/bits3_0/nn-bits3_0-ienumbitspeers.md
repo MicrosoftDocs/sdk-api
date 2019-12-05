@@ -1,19 +1,17 @@
 ---
 UID: NN:bits3_0.IEnumBitsPeers
 title: IEnumBitsPeers (bits3_0.h)
-
 description: Use IEnumBitsPeers to enumerate the list of peers that BITS has discovered.
 old-location: bits\ienumbitspeers.htm
 tech.root: Bits
 ms.assetid: 2715a58c-ba76-4223-ad9e-453d029e0eda
-
 ms.date: 12/05/2018
 ms.keywords: IEnumBitsPeers, IEnumBitsPeers interface [BITS], IEnumBitsPeers interface [BITS],described, bits.ienumbitspeers, bits3_0/IEnumBitsPeers
 ms.topic: interface
-f1_keywords: 
- - "bits3_0/IEnumBitsPeers"
+f1_keywords:
+- bits3_0/IEnumBitsPeers
 dev_langs:
- - c++
+- c++
 req.header: bits3_0.h
 req.include-header: Bits.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Bits.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Bits.lib
- - Bits.dll
+- Bits.lib
+- Bits.dll
 api_name:
- - IEnumBitsPeers
+- IEnumBitsPeers
 targetos: Windows
 req.typenames: 
 req.redist: 

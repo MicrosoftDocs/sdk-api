@@ -1,19 +1,17 @@
 ---
 UID: NF:dxgi1_3.IDXGIDecodeSwapChain.PresentBuffer
 title: IDXGIDecodeSwapChain::PresentBuffer (dxgi1_3.h)
-
 description: Presents a frame on the output adapter.
 old-location: direct3ddxgi\idxgidecodeswapchain_presentbuffer.htm
 tech.root: direct3ddxgi
 ms.assetid: EFBBE24E-9BA5-40CB-B090-EE0ADA1AF07D
-
 ms.date: 12/05/2018
 ms.keywords: IDXGIDecodeSwapChain interface [DXGI],PresentBuffer method, IDXGIDecodeSwapChain.PresentBuffer, IDXGIDecodeSwapChain::PresentBuffer, PresentBuffer, PresentBuffer method [DXGI], PresentBuffer method [DXGI],IDXGIDecodeSwapChain interface, direct3ddxgi.idxgidecodeswapchain_presentbuffer, dxgi1_3/IDXGIDecodeSwapChain::PresentBuffer
 ms.topic: method
-f1_keywords: 
- - "dxgi1_3/IDXGIDecodeSwapChain.PresentBuffer"
+f1_keywords:
+- dxgi1_3/IDXGIDecodeSwapChain.PresentBuffer
 dev_langs:
- - c++
+- c++
 req.header: dxgi1_3.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Dxgi.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dxgi.lib
- - Dxgi.dll
+- Dxgi.lib
+- Dxgi.dll
 api_name:
- - IDXGIDecodeSwapChain.PresentBuffer
+- IDXGIDecodeSwapChain.PresentBuffer
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:peerdist.PeerDistShutdown
 title: PeerDistShutdown function (peerdist.h)
-
 description: PeerDistShutdown function releases resources allocated by a call to PeerDistStartup. Each handle returned by a PeerDistStartup call must be closed by a matching call to PeerDistShutdown.
 old-location: p2p\peerdistshutdown.htm
 tech.root: P2PSdk
 ms.assetid: 47fe4a77-2895-4d5b-beff-995e12fb0644
-
 ms.date: 12/05/2018
 ms.keywords: PeerDistShutdown, PeerDistShutdown function [Peer Networking], p2p.peerdistshutdown, peerdist/PeerDistShutdown
 ms.topic: function
-f1_keywords: 
- - "peerdist/PeerDistShutdown"
+f1_keywords:
+- peerdist/PeerDistShutdown
 dev_langs:
- - c++
+- c++
 req.header: peerdist.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: PeerDist.lib
 req.dll: PeerDist.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - PeerDist.dll
+- PeerDist.dll
 api_name:
- - PeerDistShutdown
+- PeerDistShutdown
 targetos: Windows
 req.typenames: 
 req.redist: 

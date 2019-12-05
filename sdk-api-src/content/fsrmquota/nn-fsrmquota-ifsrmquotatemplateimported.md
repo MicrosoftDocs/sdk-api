@@ -1,19 +1,17 @@
 ---
 UID: NN:fsrmquota.IFsrmQuotaTemplateImported
 title: IFsrmQuotaTemplateImported (fsrmquota.h)
-
 description: Used to modify and save imported quota templates.
 old-location: fsrm\ifsrmquotatemplateimported.htm
 tech.root: fsrm
 ms.assetid: 0349a772-9862-4131-b3be-96eec8e41b01
-
 ms.date: 12/05/2018
 ms.keywords: IFsrmQuotaTemplateImported, IFsrmQuotaTemplateImported interface [File Server Resource Manager], IFsrmQuotaTemplateImported interface [File Server Resource Manager],described, fs.ifsrmquotatemplateimported, fsrm.ifsrmquotatemplateimported, fsrm/IFsrmQuotaTemplateImported
 ms.topic: interface
-f1_keywords: 
- - "fsrmquota/IFsrmQuotaTemplateImported"
+f1_keywords:
+- fsrmquota/IFsrmQuotaTemplateImported
 dev_langs:
- - c++
+- c++
 req.header: fsrmquota.h
 req.include-header: FsrmPipeline.h, FsrmQuota.h, FsrmReports.h, FsrmScreen.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: SrmSvc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - SrmSvc.dll
+- SrmSvc.dll
 api_name:
- - IFsrmQuotaTemplateImported
+- IFsrmQuotaTemplateImported
 targetos: Windows
 req.typenames: 
 req.redist: 

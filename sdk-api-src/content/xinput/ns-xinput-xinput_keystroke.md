@@ -1,19 +1,17 @@
 ---
 UID: NS:xinput._XINPUT_KEYSTROKE
 title: XINPUT_KEYSTROKE (xinput.h)
-
 description: Specifies keystroke data returned by XInputGetKeystroke.
 old-location: xinput\xinput_keystroke.htm
 tech.root: xinput
 ms.assetid: T:Microsoft.directx_sdk.reference.XINPUT_KEYSTROKE
-
 ms.date: 12/05/2018
-ms.keywords: "*PXINPUT_KEYSTROKE, PXINPUT_KEYSTROKE, PXINPUT_KEYSTROKE structure pointer [XInput Game Controller APIs], XINPUT_KEYSTROKE, XINPUT_KEYSTROKE structure [XInput Game Controller APIs], xinput.xinput_keystroke, xinput/PXINPUT_KEYSTROKE, xinput/XINPUT_KEYSTROKE"
+ms.keywords: '*PXINPUT_KEYSTROKE, PXINPUT_KEYSTROKE, PXINPUT_KEYSTROKE structure pointer [XInput Game Controller APIs], XINPUT_KEYSTROKE, XINPUT_KEYSTROKE structure [XInput Game Controller APIs], xinput.xinput_keystroke, xinput/PXINPUT_KEYSTROKE, xinput/XINPUT_KEYSTROKE'
 ms.topic: struct
-f1_keywords: 
- - "xinput/XINPUT_KEYSTROKE"
+f1_keywords:
+- xinput/XINPUT_KEYSTROKE
 dev_langs:
- - c++
+- c++
 req.header: xinput.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - XInput.h
+- XInput.h
 api_name:
- - XINPUT_KEYSTROKE
+- XINPUT_KEYSTROKE
 targetos: Windows
 req.typenames: XINPUT_KEYSTROKE, *PXINPUT_KEYSTROKE
 req.redist: 

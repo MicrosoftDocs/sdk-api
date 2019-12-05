@@ -1,19 +1,17 @@
 ---
 UID: NF:netfw.INetFwService.get_IpVersion
 title: INetFwService::get_IpVersion (netfw.h)
-
 description: Specifies the firewall IP version for which the service is authorized.
 old-location: ics\inetfwservice_ipversion.htm
 tech.root: ics
 ms.assetid: 992f39f6-ffb7-40c0-9227-6e626f226313
-
 ms.date: 12/05/2018
 ms.keywords: INetFwService interface [ICS/ICF],IpVersion property, INetFwService.IpVersion, INetFwService.get_IpVersion, INetFwService::IpVersion, INetFwService::get_IpVersion, INetFwService::put_IpVersion, IpVersion property [ICS/ICF], IpVersion property [ICS/ICF],INetFwService interface, get_IpVersion, ics.inetfwservice_ipversion, netfw/INetFwService::IpVersion, netfw/INetFwService::get_IpVersion, netfw/INetFwService::put_IpVersion
 ms.topic: method
-f1_keywords: 
- - "netfw/INetFwService.IpVersion"
+f1_keywords:
+- netfw/INetFwService.IpVersion
 dev_langs:
- - c++
+- c++
 req.header: netfw.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib:
 req.dll: FirewallAPI.dll; Hnetcfg.dll on Windows XP with SP2
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - FirewallAPI.dll
- - Hnetcfg.dll
+- FirewallAPI.dll
+- Hnetcfg.dll
 api_name:
- - INetFwService.IpVersion
- - INetFwService.get_IpVersion
- - INetFwService.put_IpVersion
+- INetFwService.IpVersion
+- INetFwService.get_IpVersion
+- INetFwService.put_IpVersion
 targetos: Windows
 req.typenames: 
 req.redist: 

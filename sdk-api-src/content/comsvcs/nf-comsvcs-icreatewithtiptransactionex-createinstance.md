@@ -1,19 +1,17 @@
 ---
 UID: NF:comsvcs.ICreateWithTipTransactionEx.CreateInstance
 title: ICreateWithTipTransactionEx::CreateInstance (comsvcs.h)
-
 description: Creates a COM+ object that executes within the scope of the manual transaction specified by a TIP transaction URL.
 old-location: cos\icreatewithtiptransactionex_createinstance.htm
 tech.root: cossdk
 ms.assetid: 3f0572eb-8633-4dc3-a013-9cf859241cd7
-
 ms.date: 12/05/2018
 ms.keywords: CreateInstance, CreateInstance method [COM+], CreateInstance method [COM+],ICreateWithTipTransactionEx interface, ICreateWithTipTransactionEx interface [COM+],CreateInstance method, ICreateWithTipTransactionEx.CreateInstance, ICreateWithTipTransactionEx::CreateInstance, _dtc_ICreateWithTipTransactionEx_CreateInstance, comsvcs/ICreateWithTipTransactionEx::CreateInstance, cos.icreatewithtiptransactionex_createinstance
 ms.topic: method
-f1_keywords: 
- - "comsvcs/ICreateWithTipTransactionEx.CreateInstance"
+f1_keywords:
+- comsvcs/ICreateWithTipTransactionEx.CreateInstance
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - ICreateWithTipTransactionEx.CreateInstance
+- ICreateWithTipTransactionEx.CreateInstance
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:dbghelp.SymRefreshModuleList
 title: SymRefreshModuleList function (dbghelp.h)
-
 description: Refreshes the module list for the process.
 old-location: base\symrefreshmodulelist.htm
 tech.root: Debug
 ms.assetid: c1c934e5-4a0a-4cb5-bb12-d6743f034ccb
-
 ms.date: 12/05/2018
 ms.keywords: SymRefreshModuleList, SymRefreshModuleList function, base.symrefreshmodulelist, dbghelp/SymRefreshModuleList
 ms.topic: function
-f1_keywords: 
- - "dbghelp/SymRefreshModuleList"
+f1_keywords:
+- dbghelp/SymRefreshModuleList
 dev_langs:
- - c++
+- c++
 req.header: dbghelp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dbghelp.lib
 req.dll: Dbghelp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Dbghelp.dll
+- Dbghelp.dll
 api_name:
- - SymRefreshModuleList
+- SymRefreshModuleList
 targetos: Windows
 req.typenames: 
 req.redist: DbgHelp.dll 6.5 or later

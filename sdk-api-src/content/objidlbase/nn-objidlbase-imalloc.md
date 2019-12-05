@@ -1,19 +1,17 @@
 ---
 UID: NN:objidlbase.IMalloc
 title: IMalloc (objidlbase.h)
-
 description: Allocates, frees, and manages memory.
 old-location: com\imalloc.htm
 tech.root: com
 ms.assetid: 047f281e-2665-4d6d-9a0b-918cd3339447
-
 ms.date: 12/05/2018
 ms.keywords: IMalloc, IMalloc interface [COM], IMalloc interface [COM],described, _com_imalloc, com.imalloc, objidlbase/IMalloc
 ms.topic: interface
-f1_keywords: 
- - "objidlbase/IMalloc"
+f1_keywords:
+- objidlbase/IMalloc
 dev_langs:
- - c++
+- c++
 req.header: objidlbase.h
 req.include-header: ObjIdl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - objidlbase.h
+- objidlbase.h
 api_name:
- - IMalloc
+- IMalloc
 targetos: Windows
 req.typenames: 
 req.redist: 

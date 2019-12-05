@@ -1,19 +1,17 @@
 ---
 UID: NF:icontact.IContactManager.Load
 title: IContactManager::Load (icontact.h)
-
 description: Loads an IContact object with the data from the contact referenced by the computer-local contact ID.
 old-location: wincontacts\_wincontacts_IContactManager_Load.htm
 tech.root: wincontacts
 ms.assetid: d9addc49-72fd-4b87-bf48-a2a09b1161e9
-
 ms.date: 12/05/2018
 ms.keywords: IContactManager interface [Windows Contacts],Load method, IContactManager.Load, IContactManager::Load, Load, Load method [Windows Contacts], Load method [Windows Contacts],IContactManager interface, _wincontacts_IContactManager_Load, icontact/IContactManager::Load, wincontacts._wincontacts_IContactManager_Load
 ms.topic: method
-f1_keywords: 
- - "icontact/IContactManager.Load"
+f1_keywords:
+- icontact/IContactManager.Load
 dev_langs:
- - c++
+- c++
 req.header: icontact.h
 req.include-header: Contact.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wab32.dll (Version 6.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wab32.dll
+- Wab32.dll
 api_name:
- - IContactManager.Load
+- IContactManager.Load
 targetos: Windows
 req.typenames: 
 req.redist: 

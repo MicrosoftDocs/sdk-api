@@ -1,19 +1,17 @@
 ---
 UID: NF:dwrite_1.IDWriteFactory1.GetEudcFontCollection
 title: IDWriteFactory1::GetEudcFontCollection (dwrite_1.h)
-
 description: Gets a font collection representing the set of EUDC (end-user defined characters) fonts.
 old-location: directwrite\idwritefactory1_geteudcfontcollection.htm
 tech.root: DirectWrite
 ms.assetid: 7A0B476D-6158-4AE1-B66F-8168E4AE7DE4
-
 ms.date: 12/05/2018
 ms.keywords: GetEudcFontCollection, GetEudcFontCollection method [Direct Write], GetEudcFontCollection method [Direct Write],IDWriteFactory1 interface, IDWriteFactory1 interface [Direct Write],GetEudcFontCollection method, IDWriteFactory1.GetEudcFontCollection, IDWriteFactory1::GetEudcFontCollection, directwrite.idwritefactory1_geteudcfontcollection, dwrite_1/IDWriteFactory1::GetEudcFontCollection
 ms.topic: method
-f1_keywords: 
- - "dwrite_1/IDWriteFactory1.GetEudcFontCollection"
+f1_keywords:
+- dwrite_1/IDWriteFactory1.GetEudcFontCollection
 dev_langs:
- - c++
+- c++
 req.header: dwrite_1.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dwrite.lib
 req.dll: Dwrite.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dwrite.dll
+- dwrite.dll
 api_name:
- - IDWriteFactory1.GetEudcFontCollection
+- IDWriteFactory1.GetEudcFontCollection
 targetos: Windows
 req.typenames: 
 req.redist: 

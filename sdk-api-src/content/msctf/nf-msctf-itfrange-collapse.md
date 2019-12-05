@@ -1,19 +1,17 @@
 ---
 UID: NF:msctf.ITfRange.Collapse
 title: ITfRange::Collapse (msctf.h)
-
 description: The ITfRange::Collapse method clears the range of text by moving its start anchor and end anchor to the same position.
 old-location: tsf\itfrange_collapse.htm
 tech.root: TSF
 ms.assetid: 657b1ffe-a958-4eb0-8014-6c068711b809
-
 ms.date: 12/05/2018
 ms.keywords: Collapse, Collapse method [Text Services Framework], Collapse method [Text Services Framework],ITfRange interface, ITfRange interface [Text Services Framework],Collapse method, ITfRange.Collapse, ITfRange::Collapse, TF_ANCHOR_END, TF_ANCHOR_START, _tsf_itfrange_collapse_ref, msctf/ITfRange::Collapse, tsf.itfrange_collapse
 ms.topic: method
-f1_keywords: 
- - "msctf/ITfRange.Collapse"
+f1_keywords:
+- msctf/ITfRange.Collapse
 dev_langs:
- - c++
+- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msctf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msctf.dll
+- Msctf.dll
 api_name:
- - ITfRange.Collapse
+- ITfRange.Collapse
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

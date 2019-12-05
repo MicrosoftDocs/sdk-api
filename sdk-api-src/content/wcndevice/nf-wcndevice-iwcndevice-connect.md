@@ -1,19 +1,17 @@
 ---
 UID: NF:wcndevice.IWCNDevice.Connect
 title: IWCNDevice::Connect (wcndevice.h)
-
 description: The IWCNDevice::Connect method initiates the session.
 old-location: wcn\iwcndevice_connect.htm
 tech.root: wcn
 ms.assetid: d7c940f2-0862-4b53-bbb9-4ea47fe6d6f6
-
 ms.date: 12/05/2018
 ms.keywords: Connect, Connect method [Windows Connect Now], Connect method [Windows Connect Now],IWCNDevice interface, IWCNDevice interface [Windows Connect Now],Connect method, IWCNDevice.Connect, IWCNDevice::Connect, wcn.iwcndevice_connect, wcndevice/IWCNDevice::Connect
 ms.topic: method
-f1_keywords: 
- - "wcndevice/IWCNDevice.Connect"
+f1_keywords:
+- wcndevice/IWCNDevice.Connect
 dev_langs:
- - c++
+- c++
 req.header: wcndevice.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - WcnDevice.h
+- WcnDevice.h
 api_name:
- - IWCNDevice.Connect
+- IWCNDevice.Connect
 targetos: Windows
 req.typenames: 
 req.redist: 

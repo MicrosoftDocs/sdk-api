@@ -1,19 +1,17 @@
 ---
 UID: NN:dwrite.IDWriteFontCollection
 title: IDWriteFontCollection (dwrite.h)
-
 description: An object that encapsulates a set of fonts, such as the set of fonts installed on the system, or the set of fonts in a particular directory.
 old-location: directwrite\IDWriteFontCollection.htm
 tech.root: DirectWrite
 ms.assetid: 2ca7e2d3-d66a-4c57-8fbe-15a5232c3506
-
 ms.date: 12/05/2018
 ms.keywords: IDWriteFontCollection, IDWriteFontCollection interface [Direct Write], IDWriteFontCollection interface [Direct Write],described, directwrite.IDWriteFontCollection, dwrite/IDWriteFontCollection
 ms.topic: interface
-f1_keywords: 
- - "dwrite/IDWriteFontCollection"
+f1_keywords:
+- dwrite/IDWriteFontCollection
 dev_langs:
- - c++
+- c++
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dwrite.lib
 req.dll: Dwrite.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dwrite.dll
+- dwrite.dll
 api_name:
- - IDWriteFontCollection
+- IDWriteFontCollection
 targetos: Windows
 req.typenames: 
 req.redist: 

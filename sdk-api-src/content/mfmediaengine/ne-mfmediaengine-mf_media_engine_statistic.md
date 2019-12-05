@@ -1,19 +1,17 @@
 ---
 UID: NE:mfmediaengine.MF_MEDIA_ENGINE_STATISTIC
 title: MF_MEDIA_ENGINE_STATISTIC (mfmediaengine.h)
-
 description: Identifies statistics that the Media Engine tracks during playback.
 old-location: mf\mf_media_engine_statistic.htm
 tech.root: medfound
 ms.assetid: EB431C2F-69A3-4376-BEC7-A5AE0329AD15
-
 ms.date: 12/05/2018
 ms.keywords: MF_MEDIA_ENGINE_STATISTIC, MF_MEDIA_ENGINE_STATISTIC enumeration [Media Foundation], MF_MEDIA_ENGINE_STATISTIC_BUFFER_PROGRESS, MF_MEDIA_ENGINE_STATISTIC_BYTES_DOWNLOADED, MF_MEDIA_ENGINE_STATISTIC_FRAMES_CORRUPTED, MF_MEDIA_ENGINE_STATISTIC_FRAMES_DROPPED, MF_MEDIA_ENGINE_STATISTIC_FRAMES_PER_SECOND, MF_MEDIA_ENGINE_STATISTIC_FRAMES_RENDERED, MF_MEDIA_ENGINE_STATISTIC_PLAYBACK_JITTER, MF_MEDIA_ENGINE_STATISTIC_TOTAL_FRAME_DELAY, mf.mf_media_engine_statistic, mfmediaengine/ MF_MEDIA_ENGINE_STATISTIC_FRAMES_CORRUPTED, mfmediaengine/ MF_MEDIA_ENGINE_STATISTIC_PLAYBACK_JITTER, mfmediaengine/ MF_MEDIA_ENGINE_STATISTIC_TOTAL_FRAME_DELAY, mfmediaengine/MF_MEDIA_ENGINE_STATISTIC, mfmediaengine/MF_MEDIA_ENGINE_STATISTIC_BUFFER_PROGRESS, mfmediaengine/MF_MEDIA_ENGINE_STATISTIC_BYTES_DOWNLOADED, mfmediaengine/MF_MEDIA_ENGINE_STATISTIC_FRAMES_DROPPED, mfmediaengine/MF_MEDIA_ENGINE_STATISTIC_FRAMES_PER_SECOND, mfmediaengine/MF_MEDIA_ENGINE_STATISTIC_FRAMES_RENDERED
 ms.topic: enum
-f1_keywords: 
- - "mfmediaengine/MF_MEDIA_ENGINE_STATISTIC"
+f1_keywords:
+- mfmediaengine/MF_MEDIA_ENGINE_STATISTIC
 dev_langs:
- - c++
+- c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - mfmediaengine.h
+- mfmediaengine.h
 api_name:
- - MF_MEDIA_ENGINE_STATISTIC
+- MF_MEDIA_ENGINE_STATISTIC
 targetos: Windows
 req.typenames: MF_MEDIA_ENGINE_STATISTIC
 req.redist: 

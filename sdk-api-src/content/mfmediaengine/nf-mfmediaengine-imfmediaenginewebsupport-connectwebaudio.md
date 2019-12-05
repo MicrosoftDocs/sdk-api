@@ -1,19 +1,17 @@
 ---
 UID: NF:mfmediaengine.IMFMediaEngineWebSupport.ConnectWebAudio
 title: IMFMediaEngineWebSupport::ConnectWebAudio (mfmediaengine.h)
-
 description: Connects web audio to Media Engine using the specified sample rate.
 old-location: mf\imfmediaenginewebsupport_connectwebaudio.htm
 tech.root: medfound
 ms.assetid: E2470C2B-2E55-4B4F-B00F-03ABBB1A896F
-
 ms.date: 12/05/2018
 ms.keywords: ConnectWebAudio, ConnectWebAudio method [Media Foundation], ConnectWebAudio method [Media Foundation],IMFMediaEngineWebSupport interface, IMFMediaEngineWebSupport interface [Media Foundation],ConnectWebAudio method, IMFMediaEngineWebSupport.ConnectWebAudio, IMFMediaEngineWebSupport::ConnectWebAudio, mf.imfmediaenginewebsupport_connectwebaudio, mfmediaengine/IMFMediaEngineWebSupport::ConnectWebAudio
 ms.topic: method
-f1_keywords: 
- - "mfmediaengine/IMFMediaEngineWebSupport.ConnectWebAudio"
+f1_keywords:
+- mfmediaengine/IMFMediaEngineWebSupport.ConnectWebAudio
 dev_langs:
- - c++
+- c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfmediaengine.h
+- mfmediaengine.h
 api_name:
- - IMFMediaEngineWebSupport.ConnectWebAudio
+- IMFMediaEngineWebSupport.ConnectWebAudio
 targetos: Windows
 req.typenames: 
 req.redist: 

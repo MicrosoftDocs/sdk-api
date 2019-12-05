@@ -1,19 +1,17 @@
 ---
 UID: NF:photoacquire.IPhotoAcquirePlugin.ProcessItem
 title: IPhotoAcquirePlugin::ProcessItem (photoacquire.h)
-
 description: The ProcessItem method provides additional functionality each time an item is processed. The application provides the implementation of the ProcessItem method.
 old-location: picacq\iphotoacquireplugin_processitem.htm
 tech.root: acquisition
 ms.assetid: f8a9144e-a728-48b7-a729-eec6d4db6d9e
-
 ms.date: 12/05/2018
 ms.keywords: IPhotoAcquirePlugin interface [Picture Acquisition],ProcessItem method, IPhotoAcquirePlugin.ProcessItem, IPhotoAcquirePlugin::ProcessItem, IPhotoAcquirePluginProcessItem, ProcessItem, ProcessItem method [Picture Acquisition], ProcessItem method [Picture Acquisition],IPhotoAcquirePlugin interface, photoacquire/IPhotoAcquirePlugin::ProcessItem, picacq.iphotoacquireplugin_processitem
 ms.topic: method
-f1_keywords: 
- - "photoacquire/IPhotoAcquirePlugin.ProcessItem"
+f1_keywords:
+- photoacquire/IPhotoAcquirePlugin.ProcessItem
 dev_langs:
- - c++
+- c++
 req.header: photoacquire.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: PhotoAcquireUID.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - PhotoAcquireUID.lib
- - PhotoAcquireUID.dll
+- PhotoAcquireUID.lib
+- PhotoAcquireUID.dll
 api_name:
- - IPhotoAcquirePlugin.ProcessItem
+- IPhotoAcquirePlugin.ProcessItem
 targetos: Windows
 req.typenames: 
 req.redist: 

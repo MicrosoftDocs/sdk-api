@@ -1,19 +1,17 @@
 ---
 UID: NF:vfw.IAVIStream.FindSample
 title: IAVIStream::FindSample (vfw.h)
-
 description: The FindSample method obtains the position in a stream of a key frame or a nonempty frame. Called when an application uses the AVIStreamFindSample function.
 old-location: multimedia\iavistream_findsample.htm
 tech.root: Multimedia
 ms.assetid: 77927e6c-beee-4774-b727-5cd608cefb3d
-
 ms.date: 12/05/2018
 ms.keywords: FindSample, FindSample method [Windows Multimedia], FindSample method [Windows Multimedia],IAVIStream interface, IAVIStream interface [Windows Multimedia],FindSample method, IAVIStream.FindSample, IAVIStream::FindSample, _win32_IAVIStream_FindSample, multimedia.iavistream_findsample, vfw/IAVIStream::FindSample
 ms.topic: method
-f1_keywords: 
- - "vfw/IAVIStream.FindSample"
+f1_keywords:
+- vfw/IAVIStream.FindSample
 dev_langs:
- - c++
+- c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Vfw32.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Vfw32.lib
- - Vfw32.dll
+- Vfw32.lib
+- Vfw32.dll
 api_name:
- - IAVIStream.FindSample
+- IAVIStream.FindSample
 targetos: Windows
 req.typenames: 
 req.redist: 

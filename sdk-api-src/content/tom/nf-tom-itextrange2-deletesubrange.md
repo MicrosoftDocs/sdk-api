@@ -1,19 +1,17 @@
 ---
 UID: NF:tom.ITextRange2.DeleteSubrange
 title: ITextRange2::DeleteSubrange (tom.h)
-
 description: Deletes a subrange from a range.
 old-location: controls\itextrange2_deletesubrange.htm
 tech.root: Controls
 ms.assetid: ad75725d-ad92-45fc-a0a9-3227bfb99284
-
 ms.date: 12/05/2018
 ms.keywords: DeleteSubrange, DeleteSubrange method [Windows Controls], DeleteSubrange method [Windows Controls],ITextRange2 interface, ITextRange2 interface [Windows Controls],DeleteSubrange method, ITextRange2.DeleteSubrange, ITextRange2::DeleteSubrange, controls.itextrange2_deletesubrange, tom/ITextRange2::DeleteSubrange
 ms.topic: method
-f1_keywords: 
- - "tom/ITextRange2.DeleteSubrange"
+f1_keywords:
+- tom/ITextRange2.DeleteSubrange
 dev_langs:
- - c++
+- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msftedit.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msftedit.dll
+- Msftedit.dll
 api_name:
- - ITextRange2.DeleteSubrange
+- ITextRange2.DeleteSubrange
 targetos: Windows
 req.typenames: 
 req.redist: 

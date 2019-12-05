@@ -1,19 +1,17 @@
 ---
 UID: NF:wmcodecdsp.IWMColorConvProps.SetFullCroppingParam
 title: IWMColorConvProps::SetFullCroppingParam (wmcodecdsp.h)
-
 description: Sets the source and destination rectangles.
 old-location: mf\iwmcolorconvpropssetfullcroppingparam.htm
 tech.root: medfound
 ms.assetid: 73545bbb-6630-463d-ad58-d24937e3b546
-
 ms.date: 12/05/2018
 ms.keywords: IWMColorConvProps interface [Media Foundation],SetFullCroppingParam method, IWMColorConvProps.SetFullCroppingParam, IWMColorConvProps::SetFullCroppingParam, SetFullCroppingParam, SetFullCroppingParam method [Media Foundation], SetFullCroppingParam method [Media Foundation],IWMColorConvProps interface, codecapi.iwmcolorconvpropssetfullcroppingparam, mf.iwmcolorconvpropssetfullcroppingparam, wmcodecdsp/IWMColorConvProps::SetFullCroppingParam
 ms.topic: method
-f1_keywords: 
- - "wmcodecdsp/IWMColorConvProps.SetFullCroppingParam"
+f1_keywords:
+- wmcodecdsp/IWMColorConvProps.SetFullCroppingParam
 dev_langs:
- - c++
+- c++
 req.header: wmcodecdsp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmcodecdsp.h
+- wmcodecdsp.h
 api_name:
- - IWMColorConvProps.SetFullCroppingParam
+- IWMColorConvProps.SetFullCroppingParam
 targetos: Windows
 req.typenames: 
 req.redist: 

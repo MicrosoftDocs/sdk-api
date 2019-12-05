@@ -1,19 +1,17 @@
 ---
 UID: NF:wininet.PrivacySetZonePreferenceW
 title: PrivacySetZonePreferenceW function (wininet.h)
-
 description: Sets the privacy settings for a given URLZONE and PrivacyType.
 old-location: wininet\privacysetzonepreferencew.htm
 tech.root: wininet
 ms.assetid: 29c8dbc0-052e-40f4-a036-cb647d920055
-
 ms.date: 12/05/2018
 ms.keywords: PrivacySetZonePreferenceW, PrivacySetZonePreferenceW function [WinINet], wininet.privacysetzonepreferencew, winineti/PrivacySetZonePreferenceW
 ms.topic: function
-f1_keywords: 
- - "wininet/PrivacySetZonePreferenceW"
+f1_keywords:
+- wininet/PrivacySetZonePreferenceW
 dev_langs:
- - c++
+- c++
 req.header: wininet.h
 req.include-header: Wininet.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Wininet.lib
 req.dll: Wininet.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Wininet.dll
+- Wininet.dll
 api_name:
- - PrivacySetZonePreferenceW
- - PrivacySetZonePreferenceW
+- PrivacySetZonePreferenceW
+- PrivacySetZonePreferenceW
 targetos: Windows
 req.typenames: 
 req.redist: 

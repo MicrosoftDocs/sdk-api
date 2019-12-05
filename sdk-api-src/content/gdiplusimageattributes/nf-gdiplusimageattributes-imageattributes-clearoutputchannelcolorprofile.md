@@ -1,19 +1,17 @@
 ---
 UID: NF:gdiplusimageattributes.ImageAttributes.ClearOutputChannelColorProfile
 title: ImageAttributes::ClearOutputChannelColorProfile (gdiplusimageattributes.h)
-
 description: The ImageAttributes::ClearOutputChannelColorProfile method clears the output channel color profile setting for a specified category.
 old-location: gdiplus\_gdiplus_CLASS_ImageAttributes_ClearOutputChannelColorProfile_type_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\imageattributesclass\imageattributesmethods\clearoutputchannelcolorprofile.htm
-
 ms.date: 12/05/2018
 ms.keywords: ClearOutputChannelColorProfile, ClearOutputChannelColorProfile method [GDI+], ClearOutputChannelColorProfile method [GDI+],ImageAttributes class, ImageAttributes class [GDI+],ClearOutputChannelColorProfile method, ImageAttributes.ClearOutputChannelColorProfile, ImageAttributes::ClearOutputChannelColorProfile, _gdiplus_CLASS_ImageAttributes_ClearOutputChannelColorProfile_type_, gdiplus._gdiplus_CLASS_ImageAttributes_ClearOutputChannelColorProfile_type_
 ms.topic: method
-f1_keywords: 
- - "gdiplusimageattributes/ImageAttributes.ClearOutputChannelColorProfile"
+f1_keywords:
+- gdiplusimageattributes/ImageAttributes.ClearOutputChannelColorProfile
 dev_langs:
- - c++
+- c++
 req.header: gdiplusimageattributes.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - ImageAttributes.ClearOutputChannelColorProfile
+- ImageAttributes.ClearOutputChannelColorProfile
 targetos: Windows
 req.typenames: 
 req.redist: 

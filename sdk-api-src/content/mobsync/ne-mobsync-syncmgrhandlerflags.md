@@ -1,19 +1,17 @@
 ---
 UID: NE:mobsync._tagSYNCMGRHANDLERFLAGS
 title: SYNCMGRHANDLERFLAGS (mobsync.h)
-
 description: Used in the SYNCMGRHANDLERINFO structure as flags that apply to the current handler.
 old-location: shell\syncmgr_syncmgrhandlerflags.htm
 tech.root: shell
 ms.assetid: 9e5f7f49-f2f0-4fa3-8822-8e6074cd4f47
-
 ms.date: 12/05/2018
 ms.keywords: SYNCMGRHANDLERFLAGS, SYNCMGRHANDLERFLAGS enumeration [Windows Shell], SYNCMGRHANDLER_ALWAYSLISTHANDLER, SYNCMGRHANDLER_HASPROPERTIES, SYNCMGRHANDLER_HIDDEN, SYNCMGRHANDLER_MAYESTABLISHCONNECTION, mobsync/SYNCMGRHANDLERFLAGS, mobsync/SYNCMGRHANDLER_ALWAYSLISTHANDLER, mobsync/SYNCMGRHANDLER_HASPROPERTIES, mobsync/SYNCMGRHANDLER_HIDDEN, mobsync/SYNCMGRHANDLER_MAYESTABLISHCONNECTION, shell.syncmgr_syncmgrhandlerflags, syncmgr.syncmgrhandlerflags
 ms.topic: enum
 f1_keywords:
 - mobsync/SYNCMGRHANDLERFLAGS
 dev_langs:
- - c++
+- c++
 req.header: mobsync.h
 req.include-header: 
 req.target-type: Windows

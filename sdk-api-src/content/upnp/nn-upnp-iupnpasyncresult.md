@@ -1,19 +1,17 @@
 ---
 UID: NN:upnp.IUPnPAsyncResult
 title: IUPnPAsyncResult (upnp.h)
-
 description: The IUPnPAsyncResult interface is used to notify the UPnP control point of a completed asynchronous I/O operation.
 old-location: upnp\iupnpasyncresult.htm
 tech.root: upnp
 ms.assetid: 53854510-BB0C-41E6-8651-F34991B24D5E
-
 ms.date: 12/05/2018
 ms.keywords: IUPnPAsyncResult, IUPnPAsyncResult interface [UPnP APIs], IUPnPAsyncResult interface [UPnP APIs],described, upnp.iupnpasyncresult, upnp/IUPnPAsyncResult
 ms.topic: interface
-f1_keywords: 
- - "upnp/IUPnPAsyncResult"
+f1_keywords:
+- upnp/IUPnPAsyncResult
 dev_langs:
- - c++
+- c++
 req.header: upnp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Upnp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Upnp.dll
+- Upnp.dll
 api_name:
- - IUPnPAsyncResult
+- IUPnPAsyncResult
 targetos: Windows
 req.typenames: 
 req.redist: 

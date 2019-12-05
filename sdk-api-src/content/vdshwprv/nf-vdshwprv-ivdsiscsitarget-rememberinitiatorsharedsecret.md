@@ -1,19 +1,17 @@
 ---
 UID: NF:vdshwprv.IVdsIscsiTarget.RememberInitiatorSharedSecret
 title: IVdsIscsiTarget::RememberInitiatorSharedSecret (vdshwprv.h)
-
 description: Communicates the initiator CHAP secret that is used for mutual CHAP authentication when the initiator authenticates the target.
 old-location: base\ivdsiscsitarget_rememberinitiatorsharedsecret.htm
 tech.root: VDS
 ms.assetid: 3546f42c-2c30-4819-982d-9c186d9f858e
-
 ms.date: 12/05/2018
 ms.keywords: IVdsIscsiTarget interface [VDS],RememberInitiatorSharedSecret method, IVdsIscsiTarget.RememberInitiatorSharedSecret, IVdsIscsiTarget::RememberInitiatorSharedSecret, RememberInitiatorSharedSecret, RememberInitiatorSharedSecret method [VDS], RememberInitiatorSharedSecret method [VDS],IVdsIscsiTarget interface, base.ivdsiscsitarget_rememberinitiatorsharedsecret, vds/IVdsIscsiTarget::RememberInitiatorSharedSecret, vdshwprv/IVdsIscsiTarget::RememberInitiatorSharedSecret
 ms.topic: method
 f1_keywords:
 - vdshwprv/IVdsIscsiTarget.RememberInitiatorSharedSecret
 dev_langs:
- - c++
+- c++
 req.header: vdshwprv.h
 req.include-header: 
 req.target-type: Windows

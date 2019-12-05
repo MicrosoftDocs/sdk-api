@@ -1,19 +1,17 @@
 ---
 UID: NF:pla.IFolderActionCollection.get__NewEnum
 title: IFolderActionCollection::get__NewEnum (pla.h)
-
 description: Retrieves an interface to the enumeration.
 old-location: pla\ifolderactioncollection__newenum.htm
 tech.root: PLA
 ms.assetid: 92b13b4f-31bd-42c7-9aed-02cef9ca38f3
-
 ms.date: 12/05/2018
 ms.keywords: IFolderActionCollection interface [PLA],_NewEnum property, IFolderActionCollection._NewEnum, IFolderActionCollection.get__NewEnum, IFolderActionCollection::_NewEnum, IFolderActionCollection::get__NewEnum, _NewEnum property [PLA], _NewEnum property [PLA],IFolderActionCollection interface, base.ifolderactioncollection__newenum, get__NewEnum, pla.ifolderactioncollection__newenum, pla/IFolderActionCollection::_NewEnum, pla/IFolderActionCollection::get__NewEnum
 ms.topic: method
-f1_keywords: 
- - "pla/IFolderActionCollection._NewEnum"
+f1_keywords:
+- pla/IFolderActionCollection._NewEnum
 dev_langs:
- - c++
+- c++
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: Pla.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Pla.dll
+- Pla.dll
 api_name:
- - IFolderActionCollection._NewEnum
- - IFolderActionCollection.get__NewEnum
+- IFolderActionCollection._NewEnum
+- IFolderActionCollection.get__NewEnum
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:azroles.IAzApplication.CreateScope
 title: IAzApplication::CreateScope (azroles.h)
-
 description: Creates an IAzScope object with the specified name.
 old-location: security\iazapplication_createscope.htm
 tech.root: SecAuthZ
 ms.assetid: 6d5044d8-0b6a-4681-a8eb-e93f50fbdf36
-
 ms.date: 12/05/2018
 ms.keywords: AzApplication object [Security],CreateScope method, CreateScope, CreateScope method [Security], CreateScope method [Security],AzApplication object, CreateScope method [Security],IAzApplication interface, IAzApplication interface [Security],CreateScope method, IAzApplication.CreateScope, IAzApplication::CreateScope, azroles/IAzApplication::CreateScope, security.iazapplication_createscope
 ms.topic: method
-f1_keywords: 
- - "azroles/IAzApplication.CreateScope"
+f1_keywords:
+- azroles/IAzApplication.CreateScope
 dev_langs:
- - c++
+- c++
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Azroles.lib
 req.dll: Azroles.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Azroles.dll
+- Azroles.dll
 api_name:
- - IAzApplication.CreateScope
- - AzApplication.CreateScope
+- IAzApplication.CreateScope
+- AzApplication.CreateScope
 targetos: Windows
 req.typenames: 
 req.redist: Windows Server 2003 Administration Tools Pack on Windows XP

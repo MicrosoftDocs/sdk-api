@@ -1,19 +1,17 @@
 ---
 UID: NF:uxtheme.SetWindowThemeNonClientAttributes
 title: SetWindowThemeNonClientAttributes function (uxtheme.h)
-
 description: Sets non-client attributes to control how visual styles are applied to a specified window.
 old-location: controls\SetWindowThemeNonClientAttributes.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\userex\functions\setwindowthemenonclientattributes.htm
-
 ms.date: 12/05/2018
 ms.keywords: SetWindowThemeNonClientAttributes, SetWindowThemeNonClientAttributes function [Windows Controls], _shell_SetWindowThemeNonClientAttributes, _shell_SetWindowThemeNonClientAttributes_cpp, controls.SetWindowThemeNonClientAttributes, controls._shell_SetWindowThemeNonClientAttributes, uxtheme/SetWindowThemeNonClientAttributes
 ms.topic: function
-f1_keywords: 
- - "uxtheme/SetWindowThemeNonClientAttributes"
+f1_keywords:
+- uxtheme/SetWindowThemeNonClientAttributes
 dev_langs:
- - c++
+- c++
 req.header: uxtheme.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: UxTheme.lib
 req.dll: UxTheme.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - UxTheme.dll
+- UxTheme.dll
 api_name:
- - SetWindowThemeNonClientAttributes
+- SetWindowThemeNonClientAttributes
 targetos: Windows
 req.typenames: 
 req.redist: 

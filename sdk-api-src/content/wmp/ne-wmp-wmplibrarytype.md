@@ -1,19 +1,17 @@
 ---
 UID: NE:wmp.WMPLibraryType
 title: WMPLibraryType (wmp.h)
-
 description: The WMPLibraryType enumeration type defines the possible library types to which Windows Media Player can connect.
 old-location: wmp\wmplibrarytype.htm
 tech.root: WMP
 ms.assetid: bf0e7140-5a33-4841-bd55-ac07dae09c41
-
 ms.date: 12/05/2018
 ms.keywords: WMPLibraryType, WMPLibraryType enumeration [Windows Media Player], wmp.wmplibrarytype, wmp/WMPLibraryType, wmp/wmpltAll, wmp/wmpltDisc, wmp/wmpltLocal, wmp/wmpltPortableDevice, wmp/wmpltRemote, wmp/wmpltUnknown, wmpltAll, wmpltDisc, wmpltLocal, wmpltPortableDevice, wmpltRemote, wmpltUnknown
 ms.topic: enum
-f1_keywords: 
- - "wmp/WMPLibraryType"
+f1_keywords:
+- wmp/WMPLibraryType
 dev_langs:
- - c++
+- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - wmp.h
+- wmp.h
 api_name:
- - WMPLibraryType
+- WMPLibraryType
 targetos: Windows
 req.typenames: WMPLibraryType
 req.redist: 

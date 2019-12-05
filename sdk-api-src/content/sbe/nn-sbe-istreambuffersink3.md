@@ -1,19 +1,17 @@
 ---
 UID: NN:sbe.IStreamBufferSink3
 title: IStreamBufferSink3 (sbe.h)
-
 description: The IStreamBufferSink3 interface is exposed by the Stream Buffer Sink filter.
 old-location: mstv\istreambuffersink3.htm
 tech.root: mstv
 ms.assetid: a3adbe79-7d7c-4b12-a574-23c64d2311af
-
 ms.date: 12/05/2018
 ms.keywords: IStreamBufferSink3, IStreamBufferSink3 interface [Microsoft TV Technologies], IStreamBufferSink3 interface [Microsoft TV Technologies],described, IStreamBufferSink3Interface, mstv.istreambuffersink3, sbe/IStreamBufferSink3
 ms.topic: interface
-f1_keywords: 
- - "sbe/IStreamBufferSink3"
+f1_keywords:
+- sbe/IStreamBufferSink3
 dev_langs:
- - c++
+- c++
 req.header: sbe.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Sbe.h
+- Sbe.h
 api_name:
- - IStreamBufferSink3
+- IStreamBufferSink3
 targetos: Windows
 req.typenames: 
 req.redist: 

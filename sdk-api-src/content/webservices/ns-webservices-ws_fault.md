@@ -1,19 +1,17 @@
 ---
 UID: NS:webservices._WS_FAULT
 title: WS_FAULT (webservices.h)
-
 description: A Fault is a value carried in the body of a message which conveys a processing failure. Faults are modeled using the WS_FAULT structure.
 old-location: wsw\ws_fault.htm
 tech.root: wsw
 ms.assetid: 7fe0b142-04a1-4a92-99ca-523412f7c94e
-
 ms.date: 12/05/2018
 ms.keywords: WS_FAULT, WS_FAULT structure [Web Services for Windows], webservices/WS_FAULT, wsw.ws_fault
 ms.topic: struct
-f1_keywords: 
- - "webservices/WS_FAULT"
+f1_keywords:
+- webservices/WS_FAULT
 dev_langs:
- - c++
+- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WebServices.h
+- WebServices.h
 api_name:
- - WS_FAULT
+- WS_FAULT
 targetos: Windows
 req.typenames: WS_FAULT
 req.redist: 

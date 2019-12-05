@@ -1,19 +1,17 @@
 ---
 UID: NF:bits.IBackgroundCopyJob.SetDescription
 title: IBackgroundCopyJob::SetDescription (bits.h)
-
 description: Provides a description of the job.
 old-location: bits\ibackgroundcopyjob_setdescription.htm
 tech.root: Bits
 ms.assetid: 9148ec9b-7a03-4bb3-9644-e52f6cd13073
-
 ms.date: 12/05/2018
 ms.keywords: IBackgroundCopyJob interface [BITS],SetDescription method, IBackgroundCopyJob.SetDescription, IBackgroundCopyJob::SetDescription, SetDescription, SetDescription method [BITS], SetDescription method [BITS],IBackgroundCopyJob interface, _drz_ibackgroundcopyjob_setdescription, bits.ibackgroundcopyjob_setdescription, bits/IBackgroundCopyJob::SetDescription
 ms.topic: method
-f1_keywords: 
- - "bits/IBackgroundCopyJob.SetDescription"
+f1_keywords:
+- bits/IBackgroundCopyJob.SetDescription
 dev_langs:
- - c++
+- c++
 req.header: bits.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Bits.lib
 req.dll: QmgrPrxy.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - QmgrPrxy.dll
+- QmgrPrxy.dll
 api_name:
- - IBackgroundCopyJob.SetDescription
+- IBackgroundCopyJob.SetDescription
 targetos: Windows
 req.typenames: 
 req.redist: 

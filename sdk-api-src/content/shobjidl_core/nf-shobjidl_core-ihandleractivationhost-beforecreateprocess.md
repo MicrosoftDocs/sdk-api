@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IHandlerActivationHost.BeforeCreateProcess
 title: IHandlerActivationHost::BeforeCreateProcess (shobjidl_core.h)
-
-description: "."
+description: .
 old-location: shell\IHandlerActivationHost_BeforeCreateProcess.htm
 tech.root: shell
 ms.assetid: aa0ea3cb-7fe3-498c-a105-b78492166f65
-
 ms.date: 12/05/2018
 ms.keywords: BeforeCreateProcess, BeforeCreateProcess method [Windows Shell], BeforeCreateProcess method [Windows Shell],IHandlerActivationHost interface, IHandlerActivationHost interface [Windows Shell],BeforeCreateProcess method, IHandlerActivationHost.BeforeCreateProcess, IHandlerActivationHost::BeforeCreateProcess, shell.IHandlerActivationHost_BeforeCreateProcess, shobjidl_core/IHandlerActivationHost::BeforeCreateProcess
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IHandlerActivationHost.BeforeCreateProcess"
+f1_keywords:
+- shobjidl_core/IHandlerActivationHost.BeforeCreateProcess
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - IHandlerActivationHost.BeforeCreateProcess
+- IHandlerActivationHost.BeforeCreateProcess
 targetos: Windows
 req.typenames: 
 req.redist: 

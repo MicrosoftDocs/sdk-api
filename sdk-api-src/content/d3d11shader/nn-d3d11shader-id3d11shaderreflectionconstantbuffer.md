@@ -1,19 +1,17 @@
 ---
 UID: NN:d3d11shader.ID3D11ShaderReflectionConstantBuffer
 title: ID3D11ShaderReflectionConstantBuffer (d3d11shader.h)
-
 description: This shader-reflection interface provides access to a constant buffer.
 old-location: direct3d11\id3d11shaderreflectionconstantbuffer.htm
 tech.root: direct3d11
 ms.assetid: 4b47ed8d-e814-4a7b-bc8e-25a8b71200ce
-
 ms.date: 12/05/2018
 ms.keywords: 082bcb34-3d5a-3d3f-e3c1-0cf676c0b05b, ID3D11ShaderReflectionConstantBuffer, ID3D11ShaderReflectionConstantBuffer interface [Direct3D 11], ID3D11ShaderReflectionConstantBuffer interface [Direct3D 11],described, d3d11shader/ID3D11ShaderReflectionConstantBuffer, direct3d11.id3d11shaderreflectionconstantbuffer
 ms.topic: interface
-f1_keywords: 
- - "d3d11shader/ID3D11ShaderReflectionConstantBuffer"
+f1_keywords:
+- d3d11shader/ID3D11ShaderReflectionConstantBuffer
 dev_langs:
- - c++
+- c++
 req.header: d3d11shader.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: D3DCompiler.lib
 req.dll: D3DCompiler_47.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3DCompiler_47.dll
+- D3DCompiler_47.dll
 api_name:
- - ID3D11ShaderReflectionConstantBuffer
+- ID3D11ShaderReflectionConstantBuffer
 targetos: Windows
 req.typenames: 
 req.redist: 

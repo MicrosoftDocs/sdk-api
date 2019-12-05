@@ -1,19 +1,17 @@
 ---
 UID: NF:wmiutils.IWbemPath.GetNamespaceAt
 title: IWbemPath::GetNamespaceAt (wmiutils.h)
-
 description: Retrieves a namespace based upon its index.
 old-location: wmi\iwbempath_getnamespaceat.htm
 tech.root: WmiSdk
 ms.assetid: a5180c35-df90-447d-ad52-250ececfd525
-
 ms.date: 12/05/2018
 ms.keywords: GetNamespaceAt, GetNamespaceAt method [Windows Management Instrumentation], GetNamespaceAt method [Windows Management Instrumentation],IWbemPath interface, IWbemPath interface [Windows Management Instrumentation],GetNamespaceAt method, IWbemPath.GetNamespaceAt, IWbemPath::GetNamespaceAt, _hmm_iwbempath_getnamespaceat, wmi.iwbempath_getnamespaceat, wmiutils/IWbemPath::GetNamespaceAt
 ms.topic: method
-f1_keywords: 
- - "wmiutils/IWbemPath.GetNamespaceAt"
+f1_keywords:
+- wmiutils/IWbemPath.GetNamespaceAt
 dev_langs:
- - c++
+- c++
 req.header: wmiutils.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Wbemuuid.lib
 req.dll: Wmiutils.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wmiutils.dll
+- Wmiutils.dll
 api_name:
- - IWbemPath.GetNamespaceAt
+- IWbemPath.GetNamespaceAt
 targetos: Windows
 req.typenames: 
 req.redist: 

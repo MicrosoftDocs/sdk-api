@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IStreamBuilder.Render
 title: IStreamBuilder::Render (strmif.h)
-
 description: The Render method completes rendering of the stream originating with this pin. This can involve adding filters to the filter graph and connecting them.
 old-location: dshow\istreambuilder_render.htm
 tech.root: DirectShow
 ms.assetid: 7bba9d1a-03a8-4572-a08c-2e12071df73b
-
 ms.date: 12/05/2018
 ms.keywords: IStreamBuilder interface [DirectShow],Render method, IStreamBuilder.Render, IStreamBuilder::Render, IStreamBuilderRender, Render, Render method [DirectShow], Render method [DirectShow],IStreamBuilder interface, dshow.istreambuilder_render, strmif/IStreamBuilder::Render
 ms.topic: method
-f1_keywords: 
- - "strmif/IStreamBuilder.Render"
+f1_keywords:
+- strmif/IStreamBuilder.Render
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IStreamBuilder.Render
+- IStreamBuilder.Render
 targetos: Windows
 req.typenames: 
 req.redist: 

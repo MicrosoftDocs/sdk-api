@@ -1,19 +1,17 @@
 ---
 UID: NS:oaidl.tagVARIANT
 title: VARIANT (oaidl.h)
-
 description: VARIANTARG describes arguments passed within DISPPARAMS, and VARIANT to specify variant data that cannot be passed by reference.
 old-location: automat\variant.htm
 tech.root: automat
 ms.assetid: e305240e-9e11-4006-98cc-26f4932d2118
-
 ms.date: 12/05/2018
-ms.keywords: "*LPVARIANT, *LPVARIANTARG, LPVARIANT, LPVARIANT structure pointer [Automation], LPVARIANTARG, LPVARIANTARG structure pointer [Automation], VARIANT, VARIANT structure [Automation], VARIANTARG, VARIANTARG structure [Automation], _oa96_VARIANT_and_VARIANTARG, automat.variant, oaidl/LPVARIANT, oaidl/LPVARIANTARG, oaidl/VARIANT, oaidl/VARIANTARG"
+ms.keywords: '*LPVARIANT, *LPVARIANTARG, LPVARIANT, LPVARIANT structure pointer [Automation], LPVARIANTARG, LPVARIANTARG structure pointer [Automation], VARIANT, VARIANT structure [Automation], VARIANTARG, VARIANTARG structure [Automation], _oa96_VARIANT_and_VARIANTARG, automat.variant, oaidl/LPVARIANT, oaidl/LPVARIANTARG, oaidl/VARIANT, oaidl/VARIANTARG'
 ms.topic: struct
-f1_keywords: 
- - "oaidl/VARIANT"
+f1_keywords:
+- oaidl/VARIANT
 dev_langs:
- - c++
+- c++
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - OaIdl.h
+- OaIdl.h
 api_name:
- - VARIANT
+- VARIANT
 targetos: Windows
 req.typenames: VARIANT
 req.redist: 

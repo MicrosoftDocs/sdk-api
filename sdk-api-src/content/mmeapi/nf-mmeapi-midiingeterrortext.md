@@ -1,19 +1,17 @@
 ---
 UID: NF:mmeapi.midiInGetErrorText
 title: midiInGetErrorText function (mmeapi.h)
-
 description: The midiInGetErrorText function retrieves a textual description for an error identified by the specified error code.
 old-location: multimedia\midiingeterrortext.htm
 tech.root: Multimedia
 ms.assetid: 0e653d6d-4d34-45c0-8ec9-975b885a5ef8
-
 ms.date: 12/05/2018
-ms.keywords: "_win32_midiInGetErrorText, midiInGetErrorText, midiInGetErrorText function [Windows Multimedia], midiInGetErrorTextA, midiInGetErrorTextW, mmeapi/midiInGetErrorText, mmeapi/midiInGetErrorTextA, mmeapi/midiInGetErrorTextW, multimedia.midiingeterrortext"
+ms.keywords: _win32_midiInGetErrorText, midiInGetErrorText, midiInGetErrorText function [Windows Multimedia], midiInGetErrorTextA, midiInGetErrorTextW, mmeapi/midiInGetErrorText, mmeapi/midiInGetErrorTextA, mmeapi/midiInGetErrorTextW, multimedia.midiingeterrortext
 ms.topic: function
-f1_keywords: 
- - "mmeapi/midiInGetErrorText"
+f1_keywords:
+- mmeapi/midiInGetErrorText
 dev_langs:
- - c++
+- c++
 req.header: mmeapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib: Winmm.lib
 req.dll: Winmm.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Winmm.dll
- - API-MS-Win-mm-mme-l1-1-0.dll
- - winmmbase.dll
+- Winmm.dll
+- API-MS-Win-mm-mme-l1-1-0.dll
+- winmmbase.dll
 api_name:
- - midiInGetErrorText
- - midiInGetErrorTextA
- - midiInGetErrorTextW
+- midiInGetErrorText
+- midiInGetErrorTextA
+- midiInGetErrorTextW
 targetos: Windows
 req.typenames: 
 req.redist: 

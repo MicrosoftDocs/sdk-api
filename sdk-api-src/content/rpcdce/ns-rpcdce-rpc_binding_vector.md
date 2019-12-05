@@ -1,19 +1,17 @@
 ---
 UID: NS:rpcdce._RPC_BINDING_VECTOR
 title: RPC_BINDING_VECTOR (rpcdce.h)
-
 description: The RPC_BINDING_VECTOR structure contains a list of binding handles over which a server application can receive remote procedure calls.
 old-location: rpc\rpc_binding_vector.htm
 tech.root: Rpc
 ms.assetid: 16a0a595-ed4f-4871-a1a3-268c6bed0305
-
 ms.date: 12/05/2018
 ms.keywords: RPC_BINDING_VECTOR, RPC_BINDING_VECTOR structure [RPC], _rpc_rpc_binding_vector, rpc.rpc_binding_vector, rpcdce/RPC_BINDING_VECTOR
 ms.topic: struct
-f1_keywords: 
- - "rpcdce/RPC_BINDING_VECTOR"
+f1_keywords:
+- rpcdce/RPC_BINDING_VECTOR
 dev_langs:
- - c++
+- c++
 req.header: rpcdce.h
 req.include-header: Rpc.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Rpcdce.h
+- Rpcdce.h
 api_name:
- - RPC_BINDING_VECTOR
+- RPC_BINDING_VECTOR
 targetos: Windows
 req.typenames: RPC_BINDING_VECTOR
 req.redist: 

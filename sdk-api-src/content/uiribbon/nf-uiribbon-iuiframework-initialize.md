@@ -1,19 +1,17 @@
 ---
 UID: NF:uiribbon.IUIFramework.Initialize
 title: IUIFramework::Initialize (uiribbon.h)
-
 description: Connects the host application to the Windows Ribbon framework.
 old-location: windowsribbon\windowsribbon_iuiframework_initialize.htm
 tech.root: windowsribbon
 ms.assetid: VS|scenicintent|~\scenicintent\reference\ifaces\iuiframework\initialize.htm
-
 ms.date: 12/05/2018
 ms.keywords: IUIFramework interface [Windows Ribbon],Initialize method, IUIFramework.Initialize, IUIFramework::Initialize, Initialize, Initialize method [Windows Ribbon], Initialize method [Windows Ribbon],IUIFramework interface, scenicintent_IUIFramework_Initialize, uiribbon/IUIFramework::Initialize, windowsribbon.windowsribbon_iuiframework_initialize
 ms.topic: method
-f1_keywords: 
- - "uiribbon/IUIFramework.Initialize"
+f1_keywords:
+- uiribbon/IUIFramework.Initialize
 dev_langs:
- - c++
+- c++
 req.header: uiribbon.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Mshtml.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mshtml.dll
+- Mshtml.dll
 api_name:
- - IUIFramework.Initialize
+- IUIFramework.Initialize
 targetos: Windows
 req.typenames: 
 req.redist: 

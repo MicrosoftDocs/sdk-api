@@ -1,19 +1,17 @@
 ---
 UID: NF:d2d1_3.ID2D1DeviceContext2.GetGradientMeshWorldBounds
 title: ID2D1DeviceContext2::GetGradientMeshWorldBounds (d2d1_3.h)
-
 description: Returns the world bounds of a given gradient mesh.
 old-location: direct2d\id2d1devicecontext2_getgradientmeshworldbounds.htm
 tech.root: Direct2D
 ms.assetid: 809d851c-a3e0-7609-95e0-637e25cdaa06
-
 ms.date: 12/05/2018
 ms.keywords: GetGradientMeshWorldBounds, GetGradientMeshWorldBounds method [Direct2D], GetGradientMeshWorldBounds method [Direct2D],ID2D1DeviceContext2 interface, ID2D1DeviceContext2 interface [Direct2D],GetGradientMeshWorldBounds method, ID2D1DeviceContext2.GetGradientMeshWorldBounds, ID2D1DeviceContext2::GetGradientMeshWorldBounds, d2d1_3/ID2D1DeviceContext2::GetGradientMeshWorldBounds, direct2d.id2d1devicecontext2_getgradientmeshworldbounds
 ms.topic: method
-f1_keywords: 
- - "d2d1_3/ID2D1DeviceContext2.GetGradientMeshWorldBounds"
+f1_keywords:
+- d2d1_3/ID2D1DeviceContext2.GetGradientMeshWorldBounds
 dev_langs:
- - c++
+- c++
 req.header: d2d1_3.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: D2d1.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D2d1.dll
+- D2d1.dll
 api_name:
- - ID2D1DeviceContext2.GetGradientMeshWorldBounds
+- ID2D1DeviceContext2.GetGradientMeshWorldBounds
 targetos: Windows
 req.typenames: 
 req.redist: 

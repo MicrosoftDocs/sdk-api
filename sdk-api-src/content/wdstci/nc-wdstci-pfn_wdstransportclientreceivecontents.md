@@ -1,19 +1,17 @@
 ---
 UID: NC:wdstci.PFN_WdsTransportClientReceiveContents
 title: PFN_WdsTransportClientReceiveContents (wdstci.h)
-
 description: The PFN_WdsTransportClientReceiveContents callback is used by the multicast client to indicate that a block of data is ready to be used.
 old-location: wds\pfn_wdstransportclientreceivecontents.htm
 tech.root: wds
 ms.assetid: 3a1cd9bb-c0da-4d66-9338-1f284fc15499
-
 ms.date: 12/05/2018
 ms.keywords: PFN_WdsTransportClientReceiveContents, PFN_WdsTransportClientReceiveContents callback, PFN_WdsTransportClientReceiveContents callback function [Windows Deployment Services], wds.pfn_wdstransportclientreceivecontents, wdstci/PFN_WdsTransportClientReceiveContents
 ms.topic: callback
-f1_keywords: 
- - "wdstci/PFN_WdsTransportClientReceiveContents"
+f1_keywords:
+- wdstci/PFN_WdsTransportClientReceiveContents
 dev_langs:
- - c++
+- c++
 req.header: wdstci.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Wdstci.h
+- Wdstci.h
 api_name:
- - PFN_WdsTransportClientReceiveContents
+- PFN_WdsTransportClientReceiveContents
 targetos: Windows
 req.typenames: 
 req.redist: 

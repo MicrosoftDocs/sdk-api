@@ -1,19 +1,17 @@
 ---
 UID: NF:faxcomex.IFaxInboundRoutingMethod.get_ExtensionImageName
 title: IFaxInboundRoutingMethod::get_ExtensionImageName (faxcomex.h)
-
 description: The IFaxInboundRoutingMethod::get_ExtensionImageName property is a null-terminated string that contains the executable image name (DLL path and file name) of the fax routing extension that exports the fax routing method.
 old-location: fax\_mfax_faxinboundroutingmethod_cpp_mfax_faxinboundroutingmethod_extensionimagename_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_5t45.htm
-
 ms.date: 12/05/2018
 ms.keywords: ExtensionImageName property [Fax Service], ExtensionImageName property [Fax Service],IFaxInboundRoutingMethod interface, IFaxInboundRoutingMethod interface [Fax Service],ExtensionImageName property, IFaxInboundRoutingMethod.ExtensionImageName, IFaxInboundRoutingMethod.get_ExtensionImageName, IFaxInboundRoutingMethod::ExtensionImageName, IFaxInboundRoutingMethod::get_ExtensionImageName, _mfax_faxinboundroutingmethod.extensionimagename, fax._mfax_faxinboundroutingmethod_cpp_mfax_faxinboundroutingmethod_extensionimagename_cpp, fax._mfax_faxinboundroutingmethod_extensionimagename, faxcomex/IFaxInboundRoutingMethod::ExtensionImageName, faxcomex/IFaxInboundRoutingMethod::get_ExtensionImageName, get_ExtensionImageName
 ms.topic: method
-f1_keywords: 
- - "faxcomex/IFaxInboundRoutingMethod.ExtensionImageName"
+f1_keywords:
+- faxcomex/IFaxInboundRoutingMethod.ExtensionImageName
 dev_langs:
- - c++
+- c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: Fxscomex.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Fxscomex.dll
+- Fxscomex.dll
 api_name:
- - IFaxInboundRoutingMethod.ExtensionImageName
- - IFaxInboundRoutingMethod.get_ExtensionImageName
- - IFaxInboundRoutingMethod.get_ExtensionImageName
+- IFaxInboundRoutingMethod.ExtensionImageName
+- IFaxInboundRoutingMethod.get_ExtensionImageName
+- IFaxInboundRoutingMethod.get_ExtensionImageName
 targetos: Windows
 req.typenames: 
 req.redist: 

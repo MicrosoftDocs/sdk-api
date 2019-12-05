@@ -1,19 +1,17 @@
 ---
 UID: NF:wdstptmgmt.IWdsTransportConfigurationManager.StartWdsTransportServices
 title: IWdsTransportConfigurationManager::StartWdsTransportServices (wdstptmgmt.h)
-
 description: Starts all WDS transport services. This method provides the means to change the running state of WDS transport services without changing their configuration.
 old-location: wds\iwdstransportconfigurationmanager_startwdstransportservices.htm
 tech.root: wds
 ms.assetid: 7612335a-4d81-4ec5-a348-93adefb0cced
-
 ms.date: 12/05/2018
 ms.keywords: IWdsTransportConfigurationManager interface [Windows Deployment Services],StartWdsTransportServices method, IWdsTransportConfigurationManager.StartWdsTransportServices, IWdsTransportConfigurationManager::StartWdsTransportServices, StartWdsTransportServices, StartWdsTransportServices method [Windows Deployment Services], StartWdsTransportServices method [Windows Deployment Services],IWdsTransportConfigurationManager interface, wds.iwdstransportconfigurationmanager_startwdstransportservices, wdstptmgmt/IWdsTransportConfigurationManager::StartWdsTransportServices
 ms.topic: method
-f1_keywords: 
- - "wdstptmgmt/IWdsTransportConfigurationManager.StartWdsTransportServices"
+f1_keywords:
+- wdstptmgmt/IWdsTransportConfigurationManager.StartWdsTransportServices
 dev_langs:
- - c++
+- c++
 req.header: wdstptmgmt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wdstptmgmt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wdstptmgmt.dll
+- Wdstptmgmt.dll
 api_name:
- - IWdsTransportConfigurationManager.StartWdsTransportServices
+- IWdsTransportConfigurationManager.StartWdsTransportServices
 targetos: Windows
 req.typenames: 
 req.redist: 

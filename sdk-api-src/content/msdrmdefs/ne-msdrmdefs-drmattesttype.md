@@ -1,19 +1,17 @@
 ---
 UID: NE:msdrmdefs._DRMATTESTTYPE
 title: DRMATTESTTYPE (msdrmdefs.h)
-
 description: The DRMATTESTTYPE enumeration specifies what kind of signature to create for a data blob.
 old-location: rm\drmattesttype.htm
 tech.root: AdRms_Sdk
 ms.assetid: adbf8718-e707-4ab9-a961-f8b4b4e1fe6a
-
 ms.date: 12/05/2018
 ms.keywords: DRMATTESTTYPE, DRMATTESTTYPE enumeration [Active Directory Rights Management Services SDK 1.0], DRMATTESTTYPE_FULLENVIRONMENT, DRMATTESTTYPE_HASHONLY, msdrmdefs/DRMATTESTTYPE, msdrmdefs/DRMATTESTTYPE_FULLENVIRONMENT, msdrmdefs/DRMATTESTTYPE_HASHONLY, rm.drmattesttype
 ms.topic: enum
-f1_keywords: 
- - "msdrmdefs/DRMATTESTTYPE"
+f1_keywords:
+- msdrmdefs/DRMATTESTTYPE
 dev_langs:
- - c++
+- c++
 req.header: msdrmdefs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Msdrmdefs.h
+- Msdrmdefs.h
 api_name:
- - DRMATTESTTYPE
+- DRMATTESTTYPE
 targetos: Windows
 req.typenames: DRMATTESTTYPE
 req.redist: 

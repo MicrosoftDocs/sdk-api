@@ -1,19 +1,17 @@
 ---
 UID: NF:gdiplusgraphics.Graphics.FromHDC(IN HDC)
 title: Graphics::FromHDC(IN HDC) (gdiplusgraphics.h)
-
 description: The Graphics::FromHDC method creates a Graphics object that is associated with a specified device context.
 old-location: gdiplus\_gdiplus_CLASS_Graphics_FromHDC_hdc_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\graphicsfromhdcmethods\fromhdc.htm
-
 ms.date: 12/05/2018
 ms.keywords: FromHDC, FromHDC method [GDI+], FromHDC method [GDI+],Graphics class, Graphics class [GDI+],FromHDC method, Graphics.FromHDC, Graphics.FromHDC(HDC), Graphics.FromHDC(IN HDC), Graphics::FromHDC, Graphics::FromHDC(IN HDC), _gdiplus_CLASS_Graphics_FromHDC_hdc_, gdiplus._gdiplus_CLASS_Graphics_FromHDC_hdc_
 ms.topic: method
-f1_keywords: 
- - "gdiplusgraphics/Graphics.FromHDC"
+f1_keywords:
+- gdiplusgraphics/Graphics.FromHDC
 dev_langs:
- - c++
+- c++
 req.header: gdiplusgraphics.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - Graphics.FromHDC
+- Graphics.FromHDC
 targetos: Windows
 req.typenames: 
 req.redist: 

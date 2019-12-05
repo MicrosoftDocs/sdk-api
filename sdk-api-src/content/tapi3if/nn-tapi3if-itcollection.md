@@ -1,19 +1,17 @@
 ---
 UID: NN:tapi3if.ITCollection
 title: ITCollection (tapi3if.h)
-
 description: The ITCollection interface allows Automation client applications, such as those written in Visual Basic, to retrieve collection information.
 old-location: tapi3\itcollection.htm
 tech.root: Tapi
 ms.assetid: 2286678a-68b9-4f4a-b36b-7fdf8cdad6a6
-
 ms.date: 12/05/2018
 ms.keywords: ITCollection, ITCollection interface [TAPI 2.2], ITCollection interface [TAPI 2.2],described, _tapi3_itcollection, tapi3.itcollection, tapi3if/ITCollection
 ms.topic: interface
-f1_keywords: 
- - "tapi3if/ITCollection"
+f1_keywords:
+- tapi3if/ITCollection
 dev_langs:
- - c++
+- c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Tapi3.dll
+- Tapi3.dll
 api_name:
- - ITCollection
+- ITCollection
 targetos: Windows
 req.typenames: 
 req.redist: 

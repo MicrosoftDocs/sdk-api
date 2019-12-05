@@ -1,19 +1,17 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMPath.GetStrokeEndLineCap
 title: IXpsOMPath::GetStrokeEndLineCap (xpsobjectmodel.h)
-
 description: Gets the style of the stroke line's end cap.
 old-location: xps\ixpsompath_getstrokeendlinecap.htm
 tech.root: printdocs
 ms.assetid: 54b4f6e7-3a76-48d3-a180-2bb3a532fc67
-
 ms.date: 12/05/2018
 ms.keywords: GetStrokeEndLineCap, GetStrokeEndLineCap method [XPS Documents and Packaging], GetStrokeEndLineCap method [XPS Documents and Packaging],IXpsOMPath interface, IXpsOMPath interface [XPS Documents and Packaging],GetStrokeEndLineCap method, IXpsOMPath.GetStrokeEndLineCap, IXpsOMPath::GetStrokeEndLineCap, xps.ixpsompath_getstrokeendlinecap, xpsobjectmodel/IXpsOMPath::GetStrokeEndLineCap
 ms.topic: method
-f1_keywords: 
- - "xpsobjectmodel/IXpsOMPath.GetStrokeEndLineCap"
+f1_keywords:
+- xpsobjectmodel/IXpsOMPath.GetStrokeEndLineCap
 dev_langs:
- - c++
+- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsobjectmodel.h
+- xpsobjectmodel.h
 api_name:
- - IXpsOMPath.GetStrokeEndLineCap
+- IXpsOMPath.GetStrokeEndLineCap
 targetos: Windows
 req.typenames: 
 req.redist: 

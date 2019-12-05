@@ -1,18 +1,16 @@
 ---
 UID: NE:d2d1effects_2.D2D1_HDRTONEMAP_DISPLAY_MODE
 title: D2D1_HDRTONEMAP_DISPLAY_MODE (d2d1effects_2.h)
-
 description: Defines constants that specify a value for the D2D1_HDRTONEMAP_PROP_DISPLAY_MODE property of the HDR Tone Map effect.
 old-location: direct2d\d2d1_hdrtonemap_display_mode.htm
 tech.root: Direct2D
-
 ms.date: 01/30/2019
 ms.keywords: D2D1_HDRTONEMAP_DISPLAY_MODE, D2D1_HDRTONEMAP_DISPLAY_MODE enumeration [Direct2D], D2D1_HDRTONEMAP_DISPLAY_MODE_SDR, D2D1_HDRTONEMAP_DISPLAY_MODE_HDR, d2d1effects_2/D2D1_HDRTONEMAP_DISPLAY_MODE, d2d1effects_2/D2D1_HDRTONEMAP_DISPLAY_MODE_SDR, d2d1effects_2/D2D1_HDRTONEMAP_DISPLAY_MODE_HDR, direct2d.d2d1_hdrtonemap_display_mode
 ms.topic: enum
-f1_keywords: 
- - "d2d1effects_2/D2D1_HDRTONEMAP_DISPLAY_MODE"
+f1_keywords:
+- d2d1effects_2/D2D1_HDRTONEMAP_DISPLAY_MODE
 dev_langs:
- - c++
+- c++
 req.header: d2d1effects_2.h
 req.include-header: 
 req.target-type: Windows
@@ -31,14 +29,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - d2d1effects_2.h
+- d2d1effects_2.h
 api_name:
- - D2D1_HDRTONEMAP_DISPLAY_MODE
+- D2D1_HDRTONEMAP_DISPLAY_MODE
 targetos: Windows
 req.typenames: D2D1_HDRTONEMAP_DISPLAY_MODE
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi3if.ITScriptableAudioFormat.get_SamplesPerSec
 title: ITScriptableAudioFormat::get_SamplesPerSec (tapi3if.h)
-
 description: The get_SamplesPerSec method returns the value for the nSamplesPerSec member in the WAVEFORMATEX structure.
 old-location: tapi3\itscriptableaudioformat_get_samplespersec.htm
 tech.root: Tapi
 ms.assetid: 614e0141-76dc-40ff-ad9b-a72b95e4a46d
-
 ms.date: 12/05/2018
 ms.keywords: ITScriptableAudioFormat interface [TAPI 2.2],get_SamplesPerSec method, ITScriptableAudioFormat.get_SamplesPerSec, ITScriptableAudioFormat::get_SamplesPerSec, _tapi3_itscriptableaudioformat_get_samplespersec, get_SamplesPerSec, get_SamplesPerSec method [TAPI 2.2], get_SamplesPerSec method [TAPI 2.2],ITScriptableAudioFormat interface, tapi3.itscriptableaudioformat_get_samplespersec, tapi3if/ITScriptableAudioFormat::get_SamplesPerSec
 ms.topic: method
-f1_keywords: 
- - "tapi3if/ITScriptableAudioFormat.get_SamplesPerSec"
+f1_keywords:
+- tapi3if/ITScriptableAudioFormat.get_SamplesPerSec
 dev_langs:
- - c++
+- c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Tapi3.dll
+- Tapi3.dll
 api_name:
- - ITScriptableAudioFormat.get_SamplesPerSec
+- ITScriptableAudioFormat.get_SamplesPerSec
 targetos: Windows
 req.typenames: 
 req.redist: 

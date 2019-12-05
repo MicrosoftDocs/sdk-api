@@ -1,19 +1,17 @@
 ---
 UID: NS:ndhelper.tagDiagnosticsInfo
 title: DiagnosticsInfo (ndhelper.h)
-
 description: The DiagnosticsInfo structure contains the estimate of diagnosis time, and flags for invocation.
 old-location: ndf\diagnosticsinfo.htm
 tech.root: NDF
 ms.assetid: c84cc4ef-ff47-447e-b216-b704cb02719a
-
 ms.date: 12/05/2018
-ms.keywords: "*PDiagnosticsInfo, DiagnosticsInfo, DiagnosticsInfo structure [NDF], DiagnosticsInfo,*PDiagnosticsInfo, DiagnosticsInfo,*PDiagnosticsInfo structure [NDF], ndf.diagnosticsinfo, ndhelper/DiagnosticsInfo"
+ms.keywords: '*PDiagnosticsInfo, DiagnosticsInfo, DiagnosticsInfo structure [NDF], DiagnosticsInfo,*PDiagnosticsInfo, DiagnosticsInfo,*PDiagnosticsInfo structure [NDF], ndf.diagnosticsinfo, ndhelper/DiagnosticsInfo'
 ms.topic: struct
-f1_keywords: 
- - "ndhelper/DiagnosticsInfo, *PDiagnosticsInfo"
+f1_keywords:
+- ndhelper/DiagnosticsInfo, *PDiagnosticsInfo
 dev_langs:
- - c++
+- c++
 req.header: ndhelper.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - ndhelper.h
+- ndhelper.h
 api_name:
- - DiagnosticsInfo, *PDiagnosticsInfo
+- DiagnosticsInfo, *PDiagnosticsInfo
 targetos: Windows
 req.typenames: DiagnosticsInfo, *PDiagnosticsInfo
 req.redist: 

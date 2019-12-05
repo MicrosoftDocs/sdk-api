@@ -1,19 +1,17 @@
 ---
 UID: NF:lmaccess.NetLocalGroupDelMember
 title: NetLocalGroupDelMember function (lmaccess.h)
-
 description: The NetLocalGroupDelMember function is obsolete. You should use the NetLocalGroupDelMembers function instead.
 old-location: netmgmt\netlocalgroupdelmember.htm
 tech.root: NetMgmt
 ms.assetid: 4a231da6-904e-4b49-9855-03e004a0b695
-
 ms.date: 12/05/2018
 ms.keywords: NetLocalGroupDelMember, NetLocalGroupDelMember function [Network Management], _win32_netlocalgroupdelmember, lmaccess/NetLocalGroupDelMember, netmgmt.netlocalgroupdelmember
 ms.topic: function
-f1_keywords: 
- - "lmaccess/NetLocalGroupDelMember"
+f1_keywords:
+- lmaccess/NetLocalGroupDelMember
 dev_langs:
- - c++
+- c++
 req.header: lmaccess.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - lmaccess.h
+- lmaccess.h
 api_name:
- - NetLocalGroupDelMember
+- NetLocalGroupDelMember
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:evcoll.EcGetSubscriptionRunTimeStatus
 title: EcGetSubscriptionRunTimeStatus function (evcoll.h)
-
 description: Retrieves the run time status information for an event source of a subscription or the subscription itself.
 old-location: wec\ecgetsubscriptionruntimestatus.htm
 tech.root: WEC
 ms.assetid: 17d9d264-5ae3-4e31-869c-ada0c6c5c53b
-
 ms.date: 12/05/2018
 ms.keywords: EcGetSubscriptionRunTimeStatus, EcGetSubscriptionRunTimeStatus function, evcoll/EcGetSubscriptionRunTimeStatus, wec.ecgetsubscriptionruntimestatus, wes.ecgetsubscriptionruntimestatus
 ms.topic: function
-f1_keywords: 
- - "evcoll/EcGetSubscriptionRunTimeStatus"
+f1_keywords:
+- evcoll/EcGetSubscriptionRunTimeStatus
 dev_langs:
- - c++
+- c++
 req.header: evcoll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Wecapi.lib
 req.dll: Wecapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Wecapi.dll
+- Wecapi.dll
 api_name:
- - EcGetSubscriptionRunTimeStatus
+- EcGetSubscriptionRunTimeStatus
 targetos: Windows
 req.typenames: 
 req.redist: 

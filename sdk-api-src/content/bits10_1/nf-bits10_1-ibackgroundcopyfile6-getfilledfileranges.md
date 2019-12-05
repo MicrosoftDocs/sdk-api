@@ -1,19 +1,17 @@
 ---
 UID: NF:bits10_1.IBackgroundCopyFile6.GetFilledFileRanges
 title: IBackgroundCopyFile6::GetFilledFileRanges (bits10_1.h)
-
 description: Returns the set of file ranges that have been downloaded.
 old-location: bits\ibackgroundcopyfile6_getfilledfileranges.htm
 tech.root: Bits
 ms.assetid: D3549C42-6642-4C3C-9D97-6F2F9732C48E
-
 ms.date: 12/05/2018
 ms.keywords: GetFilledFileRanges, GetFilledFileRanges method [BITS], GetFilledFileRanges method [BITS],IBackgroundCopyFile6 interface, IBackgroundCopyFile6 interface [BITS],GetFilledFileRanges method, IBackgroundCopyFile6.GetFilledFileRanges, IBackgroundCopyFile6::GetFilledFileRanges, bits.ibackgroundcopyfile6_getfilledfileranges, bits10_1/IBackgroundCopyFile6::GetFilledFileRanges
 ms.topic: method
-f1_keywords: 
- - "bits10_1/IBackgroundCopyFile6.GetFilledFileRanges"
+f1_keywords:
+- bits10_1/IBackgroundCopyFile6.GetFilledFileRanges
 dev_langs:
- - c++
+- c++
 req.header: bits10_1.h
 req.include-header: Bits.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Bits.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Bits.lib
- - Bits.dll
+- Bits.lib
+- Bits.dll
 api_name:
- - IBackgroundCopyFile6.GetFilledFileRanges
+- IBackgroundCopyFile6.GetFilledFileRanges
 targetos: Windows
 req.typenames: 
 req.redist: 

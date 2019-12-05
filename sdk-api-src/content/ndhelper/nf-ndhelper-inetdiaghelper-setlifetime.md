@@ -1,19 +1,17 @@
 ---
 UID: NF:ndhelper.INetDiagHelper.SetLifeTime
 title: INetDiagHelper::SetLifeTime (ndhelper.h)
-
 description: The Helper Class Extension can limit its diagnosis to events within that time period.
 old-location: ndf\inetdiaghelpe_setlifetime.htm
 tech.root: NDF
 ms.assetid: a211c885-364f-4ba5-a4c9-88a87b30cdc7
-
 ms.date: 12/05/2018
 ms.keywords: INetDiagHelper interface [NDF],SetLifeTime method, INetDiagHelper.SetLifeTime, INetDiagHelper::SetLifeTime, SetLifeTime, SetLifeTime method [NDF], SetLifeTime method [NDF],INetDiagHelper interface, ndf.inetdiaghelpe_setlifetime, ndhelper/INetDiagHelper::SetLifeTime
 ms.topic: method
-f1_keywords: 
- - "ndhelper/INetDiagHelper.SetLifeTime"
+f1_keywords:
+- ndhelper/INetDiagHelper.SetLifeTime
 dev_langs:
- - c++
+- c++
 req.header: ndhelper.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ndhelper.h
+- ndhelper.h
 api_name:
- - INetDiagHelper.SetLifeTime
+- INetDiagHelper.SetLifeTime
 targetos: Windows
 req.typenames: 
 req.redist: 

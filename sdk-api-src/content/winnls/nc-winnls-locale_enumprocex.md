@@ -1,19 +1,17 @@
 ---
 UID: NC:winnls.LOCALE_ENUMPROCEX
 title: LOCALE_ENUMPROCEX (winnls.h)
-
 description: An application-defined callback function that processes enumerated locale information provided by the EnumSystemLocalesEx function.
 old-location: intl\enumlocalesprocex.htm
 tech.root: Intl
 ms.assetid: 583cc7bc-da1d-4dfc-83f2-2da2b304af62
-
 ms.date: 12/05/2018
 ms.keywords: EnumLocalesProcEx, LOCALE_ENUMPROCEX, LOCALE_ENUMPROCEX callback, LOCALE_ENUMPROCEX callback function [Internationalization for Windows Applications], _win32_EnumLocalesProcEx, intl.enumlocalesprocex, winnls/LOCALE_ENUMPROCEX
 ms.topic: callback
-f1_keywords: 
- - "winnls/LOCALE_ENUMPROCEX"
+f1_keywords:
+- winnls/LOCALE_ENUMPROCEX
 dev_langs:
- - c++
+- c++
 req.header: winnls.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - WinNls.h
+- WinNls.h
 api_name:
- - LOCALE_ENUMPROCEX
+- LOCALE_ENUMPROCEX
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:certenroll.IX509EnrollmentPolicyServer.InitializeImport
 title: IX509EnrollmentPolicyServer::InitializeImport (certenroll.h)
-
 description: Initializes the certificate enrollment policy (CEP) server from a collection of templates and object identifiers.
 old-location: security\ix509enrollmentpolicyserver_initializeimport.htm
 tech.root: seccertenroll
 ms.assetid: b397f57f-e01e-4c2b-8338-892f56b76c9e
-
 ms.date: 12/05/2018
 ms.keywords: IX509EnrollmentPolicyServer interface [Security],InitializeImport method, IX509EnrollmentPolicyServer.InitializeImport, IX509EnrollmentPolicyServer::InitializeImport, InitializeImport, InitializeImport method [Security], InitializeImport method [Security],IX509EnrollmentPolicyServer interface, certenroll/IX509EnrollmentPolicyServer::InitializeImport, security.ix509enrollmentpolicyserver_initializeimport
 ms.topic: method
-f1_keywords: 
- - "certenroll/IX509EnrollmentPolicyServer.InitializeImport"
+f1_keywords:
+- certenroll/IX509EnrollmentPolicyServer.InitializeImport
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Certenroll.h
+- Certenroll.h
 api_name:
- - IX509EnrollmentPolicyServer.InitializeImport
+- IX509EnrollmentPolicyServer.InitializeImport
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:winnt.InterlockedExchangeAdd
 title: InterlockedExchangeAdd function (winnt.h)
-
 description: Performs an atomic addition of two 32-bit values.
 old-location: base\interlockedexchangeadd.htm
 tech.root: Sync
 ms.assetid: e48b67a0-133b-4e88-b451-432f26b4881a
-
 ms.date: 12/05/2018
 ms.keywords: InterlockedExchangeAdd, InterlockedExchangeAdd function, _win32_interlockedexchangeadd, base.interlockedexchangeadd, winnt/InterlockedExchangeAdd
 ms.topic: function
-f1_keywords: 
- - "winnt/InterlockedExchangeAdd"
+f1_keywords:
+- winnt/InterlockedExchangeAdd
 dev_langs:
- - c++
+- c++
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-Interlocked-l1-1-0.dll
- - API-MS-Win-Core-Interlocked-l1-2-0.dll
- - KernelBase.dll
- - MinKernelBase.dll
+- Kernel32.dll
+- API-MS-Win-Core-Interlocked-l1-1-0.dll
+- API-MS-Win-Core-Interlocked-l1-2-0.dll
+- KernelBase.dll
+- MinKernelBase.dll
 api_name:
- - InterlockedExchangeAdd
+- InterlockedExchangeAdd
 targetos: Windows
 req.typenames: 
 req.redist: 

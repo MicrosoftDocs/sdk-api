@@ -1,19 +1,17 @@
 ---
 UID: NF:ddraw.DirectDrawCreateClipper
 title: DirectDrawCreateClipper function (ddraw.h)
-
 description: Creates an instance of a DirectDrawClipper object that is not associated with a DirectDraw object.
 old-location: directdraw\directdrawcreateclipper.htm
 tech.root: directdraw
 ms.assetid: 12d499d2-dd4a-4831-9290-c225aec1a160
-
 ms.date: 12/05/2018
 ms.keywords: DirectDrawCreateClipper, DirectDrawCreateClipper function [DirectDraw], ddraw/DirectDrawCreateClipper, directdraw.directdrawcreateclipper
 ms.topic: function
-f1_keywords: 
- - "ddraw/DirectDrawCreateClipper"
+f1_keywords:
+- ddraw/DirectDrawCreateClipper
 dev_langs:
- - c++
+- c++
 req.header: ddraw.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Ddraw.lib
 req.dll: Ddraw.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ddraw.dll
+- Ddraw.dll
 api_name:
- - DirectDrawCreateClipper
+- DirectDrawCreateClipper
 targetos: Windows
 req.typenames: 
 req.redist: 

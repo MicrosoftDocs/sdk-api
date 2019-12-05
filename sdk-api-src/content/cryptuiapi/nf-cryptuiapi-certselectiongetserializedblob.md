@@ -1,19 +1,17 @@
 ---
 UID: NF:cryptuiapi.CertSelectionGetSerializedBlob
 title: CertSelectionGetSerializedBlob function (cryptuiapi.h)
-
 description: A helper function used to retrieve a serialized certificate BLOB from a CERT_SELECTUI_INPUT structure.
 old-location: security\certselectiongetserializedblob.htm
 tech.root: SecCrypto
 ms.assetid: 6c3240f7-5121-401d-a4d4-df3055cb301a
-
 ms.date: 12/05/2018
 ms.keywords: CertSelectionGetSerializedBlob, CertSelectionGetSerializedBlob function [Security], cryptuiapi/CertSelectionGetSerializedBlob, security.certselectiongetserializedblob
 ms.topic: function
-f1_keywords: 
- - "cryptuiapi/CertSelectionGetSerializedBlob"
+f1_keywords:
+- cryptuiapi/CertSelectionGetSerializedBlob
 dev_langs:
- - c++
+- c++
 req.header: cryptuiapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib:
 req.dll: Cryptui.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Cryptui.dll
- - Ext-MS-Win-security-cryptui-l1-1-0.dll
- - ext-ms-win-security-cryptui-l1-1-1.dll
- - CertCredProviderOneCore.dll
+- Cryptui.dll
+- Ext-MS-Win-security-cryptui-l1-1-0.dll
+- ext-ms-win-security-cryptui-l1-1-1.dll
+- CertCredProviderOneCore.dll
 api_name:
- - CertSelectionGetSerializedBlob
+- CertSelectionGetSerializedBlob
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:errhandlingapi.SetErrorMode
 title: SetErrorMode function (errhandlingapi.h)
-
 description: Controls whether the system will handle the specified types of serious errors or whether the process will handle them.
 old-location: base\seterrormode.htm
 tech.root: Debug
 ms.assetid: b88f5577-9124-433c-a7e8-a7f713b7b27d
-
 ms.date: 12/05/2018
 ms.keywords: SEM_FAILCRITICALERRORS, SEM_NOALIGNMENTFAULTEXCEPT, SEM_NOGPFAULTERRORBOX, SEM_NOOPENFILEERRORBOX, SetErrorMode, SetErrorMode function, _win32_seterrormode, base.seterrormode, errhandlingapi/SetErrorMode
 ms.topic: function
-f1_keywords: 
- - "errhandlingapi/SetErrorMode"
+f1_keywords:
+- errhandlingapi/SetErrorMode
 dev_langs:
- - c++
+- c++
 req.header: errhandlingapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,21 +30,21 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-errorhandling-l1-1-0.dll
- - KernelBase.dll
- - API-MS-Win-Core-errorhandling-l1-1-1.dll
- - API-MS-Win-Core-errorhandling-l1-1-2.dll
- - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
- - MinKernelBase.dll
- - API-MS-Win-Core-ErrorHandling-L1-1-3.dll
+- Kernel32.dll
+- API-MS-Win-Core-errorhandling-l1-1-0.dll
+- KernelBase.dll
+- API-MS-Win-Core-errorhandling-l1-1-1.dll
+- API-MS-Win-Core-errorhandling-l1-1-2.dll
+- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+- MinKernelBase.dll
+- API-MS-Win-Core-ErrorHandling-L1-1-3.dll
 api_name:
- - SetErrorMode
+- SetErrorMode
 targetos: Windows
 req.typenames: 
 req.redist: 

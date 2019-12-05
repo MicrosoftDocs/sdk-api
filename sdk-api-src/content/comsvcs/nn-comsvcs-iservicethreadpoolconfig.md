@@ -1,19 +1,17 @@
 ---
 UID: NN:comsvcs.IServiceThreadPoolConfig
 title: IServiceThreadPoolConfig (comsvcs.h)
-
 description: Configures the thread pool of the activity object that is returned by calling CoCreateActivity.
 old-location: cos\iservicethreadpoolconfig.htm
 tech.root: cossdk
 ms.assetid: 89c04fef-c6a0-4d73-a25a-a70b4b0f0bcf
-
 ms.date: 12/05/2018
 ms.keywords: IServiceThreadPoolConfig, IServiceThreadPoolConfig interface [COM+], IServiceThreadPoolConfig interface [COM+],described, _cos_IServiceThreadPoolConfig, comsvcs/IServiceThreadPoolConfig, cos.iservicethreadpoolconfig
 ms.topic: interface
-f1_keywords: 
- - "comsvcs/IServiceThreadPoolConfig"
+f1_keywords:
+- comsvcs/IServiceThreadPoolConfig
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - IServiceThreadPoolConfig
+- IServiceThreadPoolConfig
 targetos: Windows
 req.typenames: 
 req.redist: 

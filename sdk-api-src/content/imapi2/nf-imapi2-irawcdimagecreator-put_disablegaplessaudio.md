@@ -1,19 +1,17 @@
 ---
 UID: NF:imapi2.IRawCDImageCreator.put_DisableGaplessAudio
 title: IRawCDImageCreator::put_DisableGaplessAudio (imapi2.h)
-
 description: Sets the value that specifies if &#0034;Gapless Audio&#0034; recording is disabled. This property defaults to a value of VARIANT_FALSE, which disables the use of &#0034;gapless&#0034; recording between consecutive audio tracks.
 old-location: imapi\irawcdimagecreator_put_disablegaplessaudio.htm
 tech.root: imapi
 ms.assetid: c9e17ed7-f51a-4b28-82db-36cad1aedd39
-
 ms.date: 12/05/2018
 ms.keywords: IRawCDImageCreator interface [IMAPI],put_DisableGaplessAudio method, IRawCDImageCreator.put_DisableGaplessAudio, IRawCDImageCreator::put_DisableGaplessAudio, imapi.irawcdimagecreator_put_disablegaplessaudio, imapi2/IRawCDImageCreator::put_DisableGaplessAudio, put_DisableGaplessAudio, put_DisableGaplessAudio method [IMAPI], put_DisableGaplessAudio method [IMAPI],IRawCDImageCreator interface
 ms.topic: method
-f1_keywords: 
- - "imapi2/IRawCDImageCreator.put_DisableGaplessAudio"
+f1_keywords:
+- imapi2/IRawCDImageCreator.put_DisableGaplessAudio
 dev_langs:
- - c++
+- c++
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - imapi2.h
+- imapi2.h
 api_name:
- - IRawCDImageCreator.put_DisableGaplessAudio
+- IRawCDImageCreator.put_DisableGaplessAudio
 targetos: Windows
 req.typenames: 
 req.redist: 

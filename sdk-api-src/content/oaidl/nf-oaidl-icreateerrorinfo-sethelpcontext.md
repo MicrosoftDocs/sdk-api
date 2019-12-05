@@ -1,19 +1,17 @@
 ---
 UID: NF:oaidl.ICreateErrorInfo.SetHelpContext
 title: ICreateErrorInfo::SetHelpContext (oaidl.h)
-
 description: Sets the Help context identifier (ID) for the error.
 old-location: automat\icreateerrorinfo_sethelpcontext.htm
 tech.root: automat
 ms.assetid: 5c65f4bd-21ad-4118-bbe8-e2ff65b96213
-
 ms.date: 12/05/2018
 ms.keywords: ICreateErrorInfo interface [Automation],SetHelpContext method, ICreateErrorInfo.SetHelpContext, ICreateErrorInfo::SetHelpContext, SetHelpContext, SetHelpContext method [Automation], SetHelpContext method [Automation],ICreateErrorInfo interface, _oa96_ICreateErrorInfo_SetHelpContext, automat.icreateerrorinfo_sethelpcontext, oaidl/ICreateErrorInfo::SetHelpContext
 ms.topic: method
-f1_keywords: 
- - "oaidl/ICreateErrorInfo.SetHelpContext"
+f1_keywords:
+- oaidl/ICreateErrorInfo.SetHelpContext
 dev_langs:
- - c++
+- c++
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - oaidl.h
+- oaidl.h
 api_name:
- - ICreateErrorInfo.SetHelpContext
+- ICreateErrorInfo.SetHelpContext
 targetos: Windows
 req.typenames: 
 req.redist: 

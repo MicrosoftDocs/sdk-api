@@ -1,19 +1,17 @@
 ---
 UID: NF:control.IMediaControl.StopWhenReady
 title: IMediaControl::StopWhenReady (control.h)
-
 description: The StopWhenReady method pauses the filter graph, allowing filters to queue data, and then stops the filter graph.
 old-location: dshow\imediacontrol_stopwhenready.htm
 tech.root: DirectShow
 ms.assetid: 55dd55b1-51f0-4b47-8432-99741eaee8bb
-
 ms.date: 12/05/2018
 ms.keywords: IMediaControl interface [DirectShow],StopWhenReady method, IMediaControl.StopWhenReady, IMediaControl::StopWhenReady, IMediaControlStopWhenReady, StopWhenReady, StopWhenReady method [DirectShow], StopWhenReady method [DirectShow],IMediaControl interface, control/IMediaControl::StopWhenReady, dshow.imediacontrol_stopwhenready
 ms.topic: method
-f1_keywords: 
- - "control/IMediaControl.StopWhenReady"
+f1_keywords:
+- control/IMediaControl.StopWhenReady
 dev_langs:
- - c++
+- c++
 req.header: control.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IMediaControl.StopWhenReady
+- IMediaControl.StopWhenReady
 targetos: Windows
 req.typenames: 
 req.redist: 

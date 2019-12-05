@@ -1,19 +1,17 @@
 ---
 UID: NF:dbghelp.SymCompareInlineTrace
 title: SymCompareInlineTrace function (dbghelp.h)
-
 description: Compares two inline traces.
 old-location: base\symcompareinlinetrace.htm
 tech.root: Debug
 ms.assetid: 24daca16-834c-424a-8569-e448f515d76f
-
 ms.date: 12/05/2018
 ms.keywords: SymCompareInlineTrace, SymCompareInlineTrace function, base.symcompareinlinetrace, dbghelp/SymCompareInlineTrace
 ms.topic: function
-f1_keywords: 
- - "dbghelp/SymCompareInlineTrace"
+f1_keywords:
+- dbghelp/SymCompareInlineTrace
 dev_langs:
- - c++
+- c++
 req.header: dbghelp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: DbgHelp.lib
 req.dll: DbgHelp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - DbgHelp.dll
+- DbgHelp.dll
 api_name:
- - SymCompareInlineTrace
+- SymCompareInlineTrace
 targetos: Windows
 req.typenames: 
 req.redist: DbgHelp.dll 6.2 or later

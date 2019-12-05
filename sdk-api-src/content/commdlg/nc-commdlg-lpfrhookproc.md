@@ -1,19 +1,17 @@
 ---
 UID: NC:commdlg.LPFRHOOKPROC
 title: LPFRHOOKPROC (commdlg.h)
-
 description: Receives messages or notifications intended for the default dialog box procedure of the Find or Replace dialog box.
 old-location: dlgbox\frhookproc.htm
 tech.root: dlgbox
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\commondialogboxlibrary\commondialogboxreference\commondialogboxfunctions\frhookproc.htm
-
 ms.date: 12/05/2018
 ms.keywords: FRHookProc, LPFRHOOKPROC, LPFRHOOKPROC callback, LPFRHOOKPROC callback function [Dialog Boxes], _win32_FRHookProc, _win32_frhookproc_cpp, commdlg/LPFRHOOKPROC, dlgbox.frhookproc, winui._win32_frhookproc
 ms.topic: callback
-f1_keywords: 
- - "commdlg/LPFRHOOKPROC"
+f1_keywords:
+- commdlg/LPFRHOOKPROC
 dev_langs:
- - c++
+- c++
 req.header: commdlg.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Commdlg.h
+- Commdlg.h
 api_name:
- - LPFRHOOKPROC
+- LPFRHOOKPROC
 targetos: Windows
 req.typenames: 
 req.redist: 

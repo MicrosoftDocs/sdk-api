@@ -1,19 +1,17 @@
 ---
 UID: NF:searchapi.ISearchScopeRule.get_PatternOrURL
 title: ISearchScopeRule::get_PatternOrURL (searchapi.h)
-
 description: Gets the pattern or URL for the rule. The scope rules determine what URLs or paths to include or exclude.
 old-location: search\_search_ISearchScopeRule_get_PatternOrURL.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\crawlscope\isearchscoperule\get_patternorurl.htm
-
 ms.date: 12/05/2018
 ms.keywords: ISearchScopeRule interface [search],get_PatternOrURL method, ISearchScopeRule.get_PatternOrURL, ISearchScopeRule::get_PatternOrURL, _search_ISearchScopeRule_get_PatternOrURL, get_PatternOrURL, get_PatternOrURL method [search], get_PatternOrURL method [search],ISearchScopeRule interface, search._search_ISearchScopeRule_get_PatternOrURL, searchapi/ISearchScopeRule::get_PatternOrURL
 ms.topic: method
-f1_keywords: 
- - "searchapi/ISearchScopeRule.get_PatternOrURL"
+f1_keywords:
+- searchapi/ISearchScopeRule.get_PatternOrURL
 dev_langs:
- - c++
+- c++
 req.header: searchapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Searchapi.h
+- Searchapi.h
 api_name:
- - ISearchScopeRule.get_PatternOrURL
+- ISearchScopeRule.get_PatternOrURL
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0

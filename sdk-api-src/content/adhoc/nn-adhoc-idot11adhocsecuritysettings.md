@@ -1,19 +1,17 @@
 ---
 UID: NN:adhoc.IDot11AdHocSecuritySettings
 title: IDot11AdHocSecuritySettings (adhoc.h)
-
 description: Specifies the security settings for a wireless ad hoc network.
 old-location: nwifi\idot11adhocsecuritysettings.htm
 tech.root: NativeWiFi
 ms.assetid: 55b78a98-ad25-4646-b325-73d770d602b3
-
 ms.date: 12/05/2018
 ms.keywords: IDot11AdHocSecuritySettings, IDot11AdHocSecuritySettings interface [NativeWIFI], IDot11AdHocSecuritySettings interface [NativeWIFI],described, adhoc/IDot11AdHocSecuritySettings, nwifi.idot11adhocsecuritysettings
 ms.topic: interface
-f1_keywords: 
- - "adhoc/IDot11AdHocSecuritySettings"
+f1_keywords:
+- adhoc/IDot11AdHocSecuritySettings
 dev_langs:
- - c++
+- c++
 req.header: adhoc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - adhoc.h
+- adhoc.h
 api_name:
- - IDot11AdHocSecuritySettings
+- IDot11AdHocSecuritySettings
 targetos: Windows
 req.typenames: 
 req.redist: 

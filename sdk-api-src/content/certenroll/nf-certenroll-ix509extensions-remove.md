@@ -1,19 +1,17 @@
 ---
 UID: NF:certenroll.IX509Extensions.Remove
 title: IX509Extensions::Remove (certenroll.h)
-
 description: Removes an IX509Extension object from the collection by index number.
 old-location: security\ix509extensions_remove_method.htm
 tech.root: seccertenroll
 ms.assetid: da1fcad3-7351-4d26-b483-a6548c3bdbec
-
 ms.date: 12/05/2018
 ms.keywords: IX509Extensions interface [Security],Remove method, IX509Extensions.Remove, IX509Extensions::Remove, Remove, Remove method [Security], Remove method [Security],IX509Extensions interface, certenroll/IX509Extensions::Remove, security.ix509extensions_remove_method
 ms.topic: method
-f1_keywords: 
- - "certenroll/IX509Extensions.Remove"
+f1_keywords:
+- certenroll/IX509Extensions.Remove
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: CertEnroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CertEnroll.dll
+- CertEnroll.dll
 api_name:
- - IX509Extensions.Remove
+- IX509Extensions.Remove
 targetos: Windows
 req.typenames: 
 req.redist: 

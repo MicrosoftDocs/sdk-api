@@ -1,19 +1,17 @@
 ---
 UID: NE:sensorsapi.__MIDL___MIDL_itf_sensorsapi_0000_0000_0002
 title: SensorConnectionType (sensorsapi.h)
-
 description: Defines types of sensor device connections.
 old-location: winsensors_com_ref\sensorconnectiontype.htm
 tech.root: SensorsAPI
 ms.assetid: 3d5cb6ff-0228-44fa-8216-dbffcb2ec834
-
 ms.date: 12/05/2018
 ms.keywords: SENSOR_CONNECTION_TYPE_PC_ATTACHED, SENSOR_CONNECTION_TYPE_PC_EXTERNAL, SENSOR_CONNECTION_TYPE_PC_INTEGRATED, SensorConnectionType, SensorConnectionType enumeration, sensorsapi/ SENSOR_CONNECTION_TYPE_PC_EXTERNAL, sensorsapi/SENSOR_CONNECTION_TYPE_PC_ATTACHED, sensorsapi/SENSOR_CONNECTION_TYPE_PC_INTEGRATED, sensorsapi/SensorConnectionType, winsensors_com_ref.sensorconnectiontype
 ms.topic: enum
-f1_keywords: 
- - "sensorsapi/SensorConnectionType"
+f1_keywords:
+- sensorsapi/SensorConnectionType
 dev_langs:
- - c++
+- c++
 req.header: sensorsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - sensorsapi.h
+- sensorsapi.h
 api_name:
- - SensorConnectionType
+- SensorConnectionType
 targetos: Windows
 req.typenames: SensorConnectionType
 req.redist: 

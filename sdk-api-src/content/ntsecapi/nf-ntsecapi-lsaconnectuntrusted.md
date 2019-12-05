@@ -1,19 +1,17 @@
 ---
 UID: NF:ntsecapi.LsaConnectUntrusted
 title: LsaConnectUntrusted function (ntsecapi.h)
-
 description: Establishes an untrusted connection to the LSA server.
 old-location: security\lsaconnectuntrusted.htm
 tech.root: SecAuthN
 ms.assetid: b54917c8-51cd-4891-9613-f37a4a46448b
-
 ms.date: 12/05/2018
 ms.keywords: LsaConnectUntrusted, LsaConnectUntrusted function [Security], _lsa_lsaconnectuntrusted, ntsecapi/LsaConnectUntrusted, security.lsaconnectuntrusted
 ms.topic: function
-f1_keywords: 
- - "ntsecapi/LsaConnectUntrusted"
+f1_keywords:
+- ntsecapi/LsaConnectUntrusted
 dev_langs:
- - c++
+- c++
 req.header: ntsecapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Secur32.lib
 req.dll: Secur32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Secur32.dll
+- Secur32.dll
 api_name:
- - LsaConnectUntrusted
+- LsaConnectUntrusted
 targetos: Windows
 req.typenames: 
 req.redist: 

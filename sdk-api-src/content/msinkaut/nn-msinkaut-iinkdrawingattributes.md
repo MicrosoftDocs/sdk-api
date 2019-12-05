@@ -1,19 +1,17 @@
 ---
 UID: NN:msinkaut.IInkDrawingAttributes
 title: IInkDrawingAttributes (msinkaut.h)
-
-description: "."
+description: .
 old-location: tablet\iinkdrawingattributes.htm
 tech.root: tablet
 ms.assetid: 47106C55-FA03-4996-BCFA-D00A51AF55EE
-
 ms.date: 12/05/2018
 ms.keywords: IInkDrawingAttributes, IInkDrawingAttributes interface [Tablet PC], IInkDrawingAttributes interface [Tablet PC],described, msinkaut/IInkDrawingAttributes, tablet.iinkdrawingattributes
 ms.topic: interface
-f1_keywords: 
- - "msinkaut/IInkDrawingAttributes"
+f1_keywords:
+- msinkaut/IInkDrawingAttributes
 dev_langs:
- - c++
+- c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msinkaut.h
+- msinkaut.h
 api_name:
- - IInkDrawingAttributes
+- IInkDrawingAttributes
 targetos: Windows
 req.typenames: 
 req.redist: 

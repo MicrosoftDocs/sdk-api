@@ -1,19 +1,17 @@
 ---
 UID: NF:mprapi.MprConfigServerConnect
 title: MprConfigServerConnect function (mprapi.h)
-
 description: The MprConfigServerConnect function connects to the router to be configured.
 old-location: rras\mprconfigserverconnect.htm
 tech.root: RRAS
 ms.assetid: 40029088-191d-49b1-88d3-79ffb2da0eef
-
 ms.date: 12/05/2018
 ms.keywords: MprConfigServerConnect, MprConfigServerConnect function [RAS], _mpr_mprconfigserverconnect, mprapi/MprConfigServerConnect, rras.mprconfigserverconnect
 ms.topic: function
-f1_keywords: 
- - "mprapi/MprConfigServerConnect"
+f1_keywords:
+- mprapi/MprConfigServerConnect
 dev_langs:
- - c++
+- c++
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Mprapi.lib
 req.dll: Mprapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Mprapi.dll
+- Mprapi.dll
 api_name:
- - MprConfigServerConnect
+- MprConfigServerConnect
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NN:tapi3if.ITAddress
 title: ITAddress (tapi3if.h)
-
 description: The ITAddress interface is the base interface for the Address object. Applications use this interface to get information about and use the Address object.
 old-location: tapi3\itaddress.htm
 tech.root: Tapi
 ms.assetid: 93f2e4cf-013e-4064-88d5-69fddd458274
-
 ms.date: 12/05/2018
 ms.keywords: ITAddress, ITAddress interface [TAPI 2.2], ITAddress interface [TAPI 2.2],described, _tapi3_itaddress, tapi3.itaddress, tapi3if/ITAddress
 ms.topic: interface
-f1_keywords: 
- - "tapi3if/ITAddress"
+f1_keywords:
+- tapi3if/ITAddress
 dev_langs:
- - c++
+- c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Tapi3.dll
+- Tapi3.dll
 api_name:
- - ITAddress
+- ITAddress
 targetos: Windows
 req.typenames: 
 req.redist: 

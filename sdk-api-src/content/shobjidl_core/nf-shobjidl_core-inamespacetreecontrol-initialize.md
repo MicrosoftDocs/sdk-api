@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.INameSpaceTreeControl.Initialize
 title: INameSpaceTreeControl::Initialize (shobjidl_core.h)
-
 description: Initializes an INameSpaceTreeControl object.
 old-location: shell\INameSpaceTreeControl_Initialize.htm
 tech.root: shell
 ms.assetid: dfc602bd-6e4e-492d-8bf4-1499319adee7
-
 ms.date: 12/05/2018
 ms.keywords: INameSpaceTreeControl interface [Windows Shell],Initialize method, INameSpaceTreeControl.Initialize, INameSpaceTreeControl::Initialize, Initialize, Initialize method [Windows Shell], Initialize method [Windows Shell],INameSpaceTreeControl interface, _shell_INameSpaceTreeControl_Initialize, shell.INameSpaceTreeControl_Initialize, shobjidl_core/INameSpaceTreeControl::Initialize
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/INameSpaceTreeControl.Initialize"
+f1_keywords:
+- shobjidl_core/INameSpaceTreeControl.Initialize
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - INameSpaceTreeControl.Initialize
+- INameSpaceTreeControl.Initialize
 targetos: Windows
 req.typenames: 
 req.redist: 

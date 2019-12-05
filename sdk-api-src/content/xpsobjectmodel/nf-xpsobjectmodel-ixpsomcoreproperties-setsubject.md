@@ -1,19 +1,17 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMCoreProperties.SetSubject
 title: IXpsOMCoreProperties::SetSubject (xpsobjectmodel.h)
-
 description: Sets the subject property.
 old-location: xps\ixpsomcoreproperties_setsubject.htm
 tech.root: printdocs
 ms.assetid: aa194dd0-3293-4c09-84ae-516478862f4c
-
 ms.date: 12/05/2018
 ms.keywords: IXpsOMCoreProperties interface [XPS Documents and Packaging],SetSubject method, IXpsOMCoreProperties.SetSubject, IXpsOMCoreProperties::SetSubject, SetSubject, SetSubject method [XPS Documents and Packaging], SetSubject method [XPS Documents and Packaging],IXpsOMCoreProperties interface, xps.ixpsomcoreproperties_setsubject, xpsobjectmodel/IXpsOMCoreProperties::SetSubject
 ms.topic: method
-f1_keywords: 
- - "xpsobjectmodel/IXpsOMCoreProperties.SetSubject"
+f1_keywords:
+- xpsobjectmodel/IXpsOMCoreProperties.SetSubject
 dev_langs:
- - c++
+- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsobjectmodel.h
+- xpsobjectmodel.h
 api_name:
- - IXpsOMCoreProperties.SetSubject
+- IXpsOMCoreProperties.SetSubject
 targetos: Windows
 req.typenames: 
 req.redist: 

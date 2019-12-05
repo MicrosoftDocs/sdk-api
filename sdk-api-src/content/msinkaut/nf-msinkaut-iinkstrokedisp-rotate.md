@@ -1,19 +1,17 @@
 ---
 UID: NF:msinkaut.IInkStrokeDisp.Rotate
 title: IInkStrokeDisp::Rotate (msinkaut.h)
-
 description: Rotates the ink using an angle in degrees around a center point of the rotation.
 old-location: tablet\iinkstrokedisp_rotate.htm
 tech.root: tablet
 ms.assetid: 3b3d5a58-31e8-4d0e-a1c9-25bb36bb8d9c
-
 ms.date: 12/05/2018
 ms.keywords: 3b3d5a58-31e8-4d0e-a1c9-25bb36bb8d9c, IInkStrokeDisp interface [Tablet PC],Rotate method, IInkStrokeDisp.Rotate, IInkStrokeDisp::Rotate, Rotate, Rotate method [Tablet PC], Rotate method [Tablet PC],IInkStrokeDisp interface, msinkaut/IInkStrokeDisp::Rotate, tablet.iinkstrokedisp_rotate
 ms.topic: method
-f1_keywords: 
- - "msinkaut/IInkStrokeDisp.Rotate"
+f1_keywords:
+- msinkaut/IInkStrokeDisp.Rotate
 dev_langs:
- - c++
+- c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: InkObj.dll
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - InkObj.dll
- - InkObj.dll.dll
+- InkObj.dll
+- InkObj.dll.dll
 api_name:
- - IInkStrokeDisp.Rotate
+- IInkStrokeDisp.Rotate
 targetos: Windows
 req.typenames: 
 req.redist: 

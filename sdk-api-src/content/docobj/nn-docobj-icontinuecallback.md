@@ -1,19 +1,17 @@
 ---
 UID: NN:docobj.IContinueCallback
 title: IContinueCallback (docobj.h)
-
 description: Provides a generic callback mechanism for interruptible processes that should periodically ask an object whether to continue.
 old-location: com\icontinuecallback.htm
 tech.root: com
 ms.assetid: 55c960be-48e3-42e1-b459-49227be62171
-
 ms.date: 12/05/2018
 ms.keywords: IContinueCallback, IContinueCallback interface [COM], IContinueCallback interface [COM],described, _com_icontinuecallback, com.icontinuecallback, docobj/IContinueCallback
 ms.topic: interface
-f1_keywords: 
- - "docobj/IContinueCallback"
+f1_keywords:
+- docobj/IContinueCallback
 dev_langs:
- - c++
+- c++
 req.header: docobj.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - DocObj.h
+- DocObj.h
 api_name:
- - IContinueCallback
+- IContinueCallback
 targetos: Windows
 req.typenames: 
 req.redist: 

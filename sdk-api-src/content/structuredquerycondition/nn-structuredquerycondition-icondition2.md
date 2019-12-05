@@ -1,19 +1,17 @@
 ---
 UID: NN:structuredquerycondition.ICondition2
 title: ICondition2 (structuredquerycondition.h)
-
 description: Extends the functionality of the ICondition interface. ICondition2 provides methods for retrieving information about a search condition.
 old-location: search\_search_ICondition2.htm
 tech.root: search
 ms.assetid: VS|SEARCH|~\search\wds3x\reference\ifaces\querying\icondition2\icondition2.htm
-
 ms.date: 12/05/2018
 ms.keywords: ICondition2, ICondition2 interface [search], ICondition2 interface [search],described, _search_ICondition2, search._search_ICondition2, structuredquerycondition/ICondition2
 ms.topic: interface
-f1_keywords: 
- - "structuredquerycondition/ICondition2"
+f1_keywords:
+- structuredquerycondition/ICondition2
 dev_langs:
- - c++
+- c++
 req.header: structuredquerycondition.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Structuredquerycondition.h
+- Structuredquerycondition.h
 api_name:
- - ICondition2
+- ICondition2
 targetos: Windows
 req.typenames: 
 req.redist: 

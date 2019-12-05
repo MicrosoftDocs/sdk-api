@@ -1,19 +1,17 @@
 ---
 UID: NF:setupapi.SetupDiClassGuidsFromNameExW
 title: SetupDiClassGuidsFromNameExW function (setupapi.h)
-
 description: The SetupDiClassGuidsFromNameEx function retrieves the GUIDs associated with the specified class name. This resulting list contains the classes currently installed on a local or remote computer.
 old-location: devinst\setupdiclassguidsfromnameex.htm
 tech.root: devinst
 ms.assetid: 5a692ed0-2e3a-464e-934e-2fe98d9c217b
-
 ms.date: 12/05/2018
 ms.keywords: SetupDiClassGuidsFromNameEx, SetupDiClassGuidsFromNameEx function [Device and Driver Installation], SetupDiClassGuidsFromNameExA, SetupDiClassGuidsFromNameExW, devinst.setupdiclassguidsfromnameex, di-rtns_de553347-9025-4477-8d83-9d1bdac1ceff.xml, setupapi/SetupDiClassGuidsFromNameEx
 ms.topic: function
-f1_keywords: 
- - "setupapi/SetupDiClassGuidsFromNameEx"
+f1_keywords:
+- setupapi/SetupDiClassGuidsFromNameEx
 dev_langs:
- - c++
+- c++
 req.header: setupapi.h
 req.include-header: Setupapi.h
 req.target-type: Desktop
@@ -32,16 +30,16 @@ req.lib: Setupapi.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - LibDef
+- LibDef
 api_location:
- - Setupapi.lib
- - Setupapi.dll
+- Setupapi.lib
+- Setupapi.dll
 api_name:
- - SetupDiClassGuidsFromNameEx
- - SetupDiClassGuidsFromNameExW
+- SetupDiClassGuidsFromNameEx
+- SetupDiClassGuidsFromNameExW
 targetos: Windows
 req.typenames: 
 req.redist: 

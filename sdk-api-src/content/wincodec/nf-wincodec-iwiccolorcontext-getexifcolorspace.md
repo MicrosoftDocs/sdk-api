@@ -1,19 +1,17 @@
 ---
 UID: NF:wincodec.IWICColorContext.GetExifColorSpace
 title: IWICColorContext::GetExifColorSpace (wincodec.h)
-
 description: Retrieves the Exchangeable Image File (EXIF) color space color context.
 old-location: wic\_wic_codec_iwiccolorcontext_getexifcolorspace.htm
 tech.root: wic
 ms.assetid: ebd51090-fabb-4a6e-a77c-f1895bc27e54
-
 ms.date: 12/05/2018
 ms.keywords: GetExifColorSpace, GetExifColorSpace method [Windows Imaging Component], GetExifColorSpace method [Windows Imaging Component],IWICColorContext interface, IWICColorContext interface [Windows Imaging Component],GetExifColorSpace method, IWICColorContext.GetExifColorSpace, IWICColorContext::GetExifColorSpace, _wic_codec_iwiccolorcontext_getexifcolorspace, wic._wic_codec_iwiccolorcontext_getexifcolorspace, wincodec/IWICColorContext::GetExifColorSpace
 ms.topic: method
-f1_keywords: 
- - "wincodec/IWICColorContext.GetExifColorSpace"
+f1_keywords:
+- wincodec/IWICColorContext.GetExifColorSpace
 dev_langs:
- - c++
+- c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Windowscodecs.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Windowscodecs.lib
- - Windowscodecs.dll
+- Windowscodecs.lib
+- Windowscodecs.dll
 api_name:
- - IWICColorContext.GetExifColorSpace
+- IWICColorContext.GetExifColorSpace
 targetos: Windows
 req.typenames: 
 req.redist: 

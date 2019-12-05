@@ -1,19 +1,17 @@
 ---
 UID: NF:windowsx.ComboBox_Enable
 title: ComboBox_Enable macro (windowsx.h)
-
 description: Enables or disables a combo box control.
 old-location: controls\ComboBox_Enable.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\comboboxes\comboboxreference\comboboxmacros\combobox_enable.htm
-
 ms.date: 12/05/2018
 ms.keywords: ComboBox_Enable, ComboBox_Enable macro [Windows Controls], _win32_ComboBox_Enable, _win32_ComboBox_Enable_cpp, controls.ComboBox_Enable, controls._win32_ComboBox_Enable, windowsx/ComboBox_Enable
 ms.topic: macro
-f1_keywords: 
- - "windowsx/ComboBox_Enable"
+f1_keywords:
+- windowsx/ComboBox_Enable
 dev_langs:
- - c++
+- c++
 req.header: windowsx.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Windowsx.h
+- Windowsx.h
 api_name:
- - ComboBox_Enable
+- ComboBox_Enable
 targetos: Windows
 req.typenames: 
 req.redist: 

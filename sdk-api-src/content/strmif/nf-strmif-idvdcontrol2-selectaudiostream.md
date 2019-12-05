@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IDvdControl2.SelectAudioStream
 title: IDvdControl2::SelectAudioStream (strmif.h)
-
 description: The SelectAudioStream method selects the audio stream to play.
 old-location: dshow\idvdcontrol2_selectaudiostream.htm
 tech.root: DirectShow
 ms.assetid: 845d00d5-3698-4cf5-bae4-abb9529c3f88
-
 ms.date: 12/05/2018
 ms.keywords: IDvdControl2 interface [DirectShow],SelectAudioStream method, IDvdControl2.SelectAudioStream, IDvdControl2::SelectAudioStream, IDvdControl2SelectAudioStream, SelectAudioStream, SelectAudioStream method [DirectShow], SelectAudioStream method [DirectShow],IDvdControl2 interface, dshow.idvdcontrol2_selectaudiostream, strmif/IDvdControl2::SelectAudioStream
 ms.topic: method
-f1_keywords: 
- - "strmif/IDvdControl2.SelectAudioStream"
+f1_keywords:
+- strmif/IDvdControl2.SelectAudioStream
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IDvdControl2.SelectAudioStream
+- IDvdControl2.SelectAudioStream
 targetos: Windows
 req.typenames: 
 req.redist: 

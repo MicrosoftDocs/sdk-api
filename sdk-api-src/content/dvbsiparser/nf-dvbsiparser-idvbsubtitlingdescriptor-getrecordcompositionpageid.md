@@ -1,19 +1,17 @@
 ---
 UID: NF:dvbsiparser.IDvbSubtitlingDescriptor.GetRecordCompositionPageID
 title: IDvbSubtitlingDescriptor::GetRecordCompositionPageID (dvbsiparser.h)
-
 description: Gets the composition page identifier for a Digital Video Broadcast (DVB) subtitling descriptor.
 old-location: mstv\idvbsubtitlingdescriptor_getrecordcompositionpageid.htm
 tech.root: mstv
 ms.assetid: 108f431a-e3c3-42d5-ad27-b7a54029051f
-
 ms.date: 12/05/2018
 ms.keywords: GetRecordCompositionPageID, GetRecordCompositionPageID method [Microsoft TV Technologies], GetRecordCompositionPageID method [Microsoft TV Technologies],IDvbSubtitlingDescriptor interface, IDvbSubtitlingDescriptor interface [Microsoft TV Technologies],GetRecordCompositionPageID method, IDvbSubtitlingDescriptor.GetRecordCompositionPageID, IDvbSubtitlingDescriptor::GetRecordCompositionPageID, dvbsiparser/IDvbSubtitlingDescriptor::GetRecordCompositionPageID, mstv.idvbsubtitlingdescriptor_getrecordcompositionpageid
 ms.topic: method
-f1_keywords: 
- - "dvbsiparser/IDvbSubtitlingDescriptor.GetRecordCompositionPageID"
+f1_keywords:
+- dvbsiparser/IDvbSubtitlingDescriptor.GetRecordCompositionPageID
 dev_langs:
- - c++
+- c++
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dvbsiparser.h
+- dvbsiparser.h
 api_name:
- - IDvbSubtitlingDescriptor.GetRecordCompositionPageID
+- IDvbSubtitlingDescriptor.GetRecordCompositionPageID
 targetos: Windows
 req.typenames: 
 req.redist: 

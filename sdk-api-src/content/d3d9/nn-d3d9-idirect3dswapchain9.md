@@ -1,19 +1,17 @@
 ---
 UID: NN:d3d9.IDirect3DSwapChain9
 title: IDirect3DSwapChain9 (d3d9.h)
-
 description: Applications use the methods of the IDirect3DSwapChain9 interface to manipulate a swap chain.
 old-location: direct3d9\idirect3dswapchain9.htm
 tech.root: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3dswapchain9.htm
-
 ms.date: 12/05/2018
 ms.keywords: 9b1ef0f9-2688-f6ec-ae04-d0dc94b7d8b9, IDirect3DSwapChain9, IDirect3DSwapChain9 interface [Direct3D 9], IDirect3DSwapChain9 interface [Direct3D 9],described, d3d9helper/IDirect3DSwapChain9, direct3d9.idirect3dswapchain9
 ms.topic: interface
-f1_keywords: 
- - "d3d9/IDirect3DSwapChain9"
+f1_keywords:
+- d3d9/IDirect3DSwapChain9
 dev_langs:
- - c++
+- c++
 req.header: d3d9.h
 req.include-header: D3D9.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: D3d9.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - d3d9.lib
- - d3d9.dll
+- d3d9.lib
+- d3d9.dll
 api_name:
- - IDirect3DSwapChain9
+- IDirect3DSwapChain9
 targetos: Windows
 req.typenames: 
 req.redist: 

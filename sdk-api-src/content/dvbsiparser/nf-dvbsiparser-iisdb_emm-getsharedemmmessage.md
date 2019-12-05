@@ -1,19 +1,17 @@
 ---
 UID: NF:dvbsiparser.IISDB_EMM.GetSharedEmmMessage
 title: IISDB_EMM::GetSharedEmmMessage (dvbsiparser.h)
-
 description: Gets a shared message from an Integrated Services Digital Broadcasting (ISDB) entitlement management message (EMM) table.
 old-location: mstv\iisdb_emm_getsharedemmmessage.htm
 tech.root: mstv
 ms.assetid: d3ad405c-cdf0-4a37-9495-3f126e6c0688
-
 ms.date: 12/05/2018
 ms.keywords: GetSharedEmmMessage, GetSharedEmmMessage method [Microsoft TV Technologies], GetSharedEmmMessage method [Microsoft TV Technologies],IISDB_EMM interface, IISDB_EMM interface [Microsoft TV Technologies],GetSharedEmmMessage method, IISDB_EMM.GetSharedEmmMessage, IISDB_EMM::GetSharedEmmMessage, dvbsiparser/IISDB_EMM::GetSharedEmmMessage, mstv.iisdb_emm_getsharedemmmessage
 ms.topic: method
-f1_keywords: 
- - "dvbsiparser/IISDB_EMM.GetSharedEmmMessage"
+f1_keywords:
+- dvbsiparser/IISDB_EMM.GetSharedEmmMessage
 dev_langs:
- - c++
+- c++
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dvbsiparser.h
+- dvbsiparser.h
 api_name:
- - IISDB_EMM.GetSharedEmmMessage
+- IISDB_EMM.GetSharedEmmMessage
 targetos: Windows
 req.typenames: 
 req.redist: 

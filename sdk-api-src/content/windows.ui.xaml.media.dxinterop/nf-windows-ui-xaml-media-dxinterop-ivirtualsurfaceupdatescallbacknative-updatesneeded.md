@@ -1,19 +1,17 @@
 ---
 UID: NF:windows.ui.xaml.media.dxinterop.IVirtualSurfaceUpdatesCallbackNative.UpdatesNeeded
 title: IVirtualSurfaceUpdatesCallbackNative::xaml (windows.ui.xaml.media.dxinterop.h)
-
 description: Performs the drawing behaviors when an update to VirtualSurfaceImageSource is requested.
 old-location: winrt\ivirtualsurfaceupdatescallbacknative_updatesneeded.htm
 tech.root: WinRT
 ms.assetid: D689C977-3182-41FE-A789-8A349AC2FB10
-
 ms.date: 12/05/2018
 ms.keywords: IVirtualSurfaceUpdatesCallbackNative interface [Windows Runtime],UpdatesNeeded method, IVirtualSurfaceUpdatesCallbackNative.UpdatesNeeded, IVirtualSurfaceUpdatesCallbackNative.xaml, IVirtualSurfaceUpdatesCallbackNative::UpdatesNeeded, IVirtualSurfaceUpdatesCallbackNative::xaml, UpdatesNeeded, UpdatesNeeded method [Windows Runtime], UpdatesNeeded method [Windows Runtime],IVirtualSurfaceUpdatesCallbackNative interface, windows/IVirtualSurfaceUpdatesCallbackNative::UpdatesNeeded, winrt.ivirtualsurfaceupdatescallbacknative_updatesneeded
 ms.topic: method
-f1_keywords: 
- - "windows.ui.xaml.media.dxinterop/IVirtualSurfaceUpdatesCallbackNative.UpdatesNeeded"
+f1_keywords:
+- windows.ui.xaml.media.dxinterop/IVirtualSurfaceUpdatesCallbackNative.UpdatesNeeded
 dev_langs:
- - c++
+- c++
 req.header: windows.ui.xaml.media.dxinterop.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Windows.UI.Xaml.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Windows.UI.Xaml.dll
+- Windows.UI.Xaml.dll
 api_name:
- - IVirtualSurfaceUpdatesCallbackNative.UpdatesNeeded
+- IVirtualSurfaceUpdatesCallbackNative.UpdatesNeeded
 targetos: Windows
 req.typenames: 
 req.redist: 

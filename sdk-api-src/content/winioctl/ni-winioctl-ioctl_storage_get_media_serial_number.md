@@ -1,19 +1,17 @@
 ---
 UID: NI:winioctl.IOCTL_STORAGE_GET_MEDIA_SERIAL_NUMBER
 title: IOCTL_STORAGE_GET_MEDIA_SERIAL_NUMBER
-
 description: Retrieves the serial number of a USB device.
 old-location: base\ioctl_storage_get_media_serial_number.htm
 tech.root: devio
 ms.assetid: 379c236d-c6f5-4a12-8adc-aa6377e81e6c
-
 ms.date: 12/05/2018
 ms.keywords: IOCTL_STORAGE_GET_MEDIA_SERIAL_NUMBER, IOCTL_STORAGE_GET_MEDIA_SERIAL_NUMBER control, IOCTL_STORAGE_GET_MEDIA_SERIAL_NUMBER control code, _win32_ioctl_storage_get_media_serial_number, base.ioctl_storage_get_media_serial_number, winioctl/IOCTL_STORAGE_GET_MEDIA_SERIAL_NUMBER
 ms.topic: ioctl
-f1_keywords: 
- - "winioctl/IOCTL_STORAGE_GET_MEDIA_SERIAL_NUMBER"
+f1_keywords:
+- winioctl/IOCTL_STORAGE_GET_MEDIA_SERIAL_NUMBER
 dev_langs:
- - c++
+- c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WinIoCtl.h
+- WinIoCtl.h
 api_name:
- - IOCTL_STORAGE_GET_MEDIA_SERIAL_NUMBER
+- IOCTL_STORAGE_GET_MEDIA_SERIAL_NUMBER
 targetos: Windows
 req.typenames: 
 req.redist: 

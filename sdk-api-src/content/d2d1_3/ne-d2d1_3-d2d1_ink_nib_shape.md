@@ -1,19 +1,17 @@
 ---
 UID: NE:d2d1_3.D2D1_INK_NIB_SHAPE
 title: D2D1_INK_NIB_SHAPE (d2d1_3.h)
-
 description: Specifies the appearance of the ink nib (pen tip) as part of an D2D1_INK_STYLE_PROPERTIES structure.
 old-location: direct2d\d2d1_ink_nib_shape.htm
 tech.root: Direct2D
 ms.assetid: E9EA4F3E-D539-4938-897F-467D0432174F
-
 ms.date: 12/05/2018
 ms.keywords: D2D1_INK_NIB_SHAPE, D2D1_INK_NIB_SHAPE enumeration [Direct2D], D2D1_INK_NIB_SHAPE_ROUND, D2D1_INK_NIB_SHAPE_SQUARE, d2d1_3/D2D1_INK_NIB_SHAPE, d2d1_3/D2D1_INK_NIB_SHAPE_ROUND, d2d1_3/D2D1_INK_NIB_SHAPE_SQUARE, direct2d.d2d1_ink_nib_shape
 ms.topic: enum
-f1_keywords: 
- - "d2d1_3/D2D1_INK_NIB_SHAPE"
+f1_keywords:
+- d2d1_3/D2D1_INK_NIB_SHAPE
 dev_langs:
- - c++
+- c++
 req.header: d2d1_3.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - d2d1_3.h
+- d2d1_3.h
 api_name:
- - D2D1_INK_NIB_SHAPE
+- D2D1_INK_NIB_SHAPE
 targetos: Windows
 req.typenames: D2D1_INK_NIB_SHAPE
 req.redist: 

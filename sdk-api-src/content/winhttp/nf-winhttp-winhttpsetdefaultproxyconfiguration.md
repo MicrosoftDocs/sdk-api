@@ -8,10 +8,10 @@ ms.assetid: df95703b-8fa0-4ea4-b9e6-7f19aa8c1941
 ms.date: 12/05/2018
 ms.keywords: WinHttpSetDefaultProxyConfiguration, WinHttpSetDefaultProxyConfiguration function [WinHTTP], http.winhttpsetdefaultproxyconfiguration, winhttp.winhttpsetdefaultproxyconfiguration_function, winhttp/WinHttpSetDefaultProxyConfiguration
 ms.topic: function
-f1_keywords: 
- - "winhttp/WinHttpSetDefaultProxyConfiguration"
+f1_keywords:
+- winhttp/WinHttpSetDefaultProxyConfiguration
 dev_langs:
- - c++
+- c++
 req.header: winhttp.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Winhttp.lib
 req.dll: Winhttp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Winhttp.dll
+- Winhttp.dll
 api_name:
- - WinHttpSetDefaultProxyConfiguration
+- WinHttpSetDefaultProxyConfiguration
 targetos: Windows
 req.typenames: 
 req.redist: WinHTTP 5.0 and Internet Explorer 5.01 or later on Windows XP and Windows 2000.

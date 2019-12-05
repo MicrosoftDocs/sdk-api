@@ -1,19 +1,17 @@
 ---
 UID: NE:oaidl.tagVARFLAGS
 title: VARFLAGS (oaidl.h)
-
 description: Specifies variable flags.
 old-location: automat\varflags.htm
 tech.root: automat
 ms.assetid: 9422f2a5-d8c0-4d65-ad7a-9eaa9bbedf91
-
 ms.date: 12/05/2018
 ms.keywords: VARFLAGS, VARFLAGS enumeration [Automation], VARFLAG_FBINDABLE, VARFLAG_FDEFAULTBIND, VARFLAG_FDEFAULTCOLLELEM, VARFLAG_FDISPLAYBIND, VARFLAG_FHIDDEN, VARFLAG_FIMMEDIATEBIND, VARFLAG_FNONBROWSABLE, VARFLAG_FREADONLY, VARFLAG_FREPLACEABLE, VARFLAG_FREQUESTEDIT, VARFLAG_FRESTRICTED, VARFLAG_FSOURCE, VARFLAG_FUIDEFAULT, _oa96_VARFLAGS, automat.varflags, oaidl/VARFLAGS, oaidl/VARFLAG_FBINDABLE, oaidl/VARFLAG_FDEFAULTBIND, oaidl/VARFLAG_FDEFAULTCOLLELEM, oaidl/VARFLAG_FDISPLAYBIND, oaidl/VARFLAG_FHIDDEN, oaidl/VARFLAG_FIMMEDIATEBIND, oaidl/VARFLAG_FNONBROWSABLE, oaidl/VARFLAG_FREADONLY, oaidl/VARFLAG_FREPLACEABLE, oaidl/VARFLAG_FREQUESTEDIT, oaidl/VARFLAG_FRESTRICTED, oaidl/VARFLAG_FSOURCE, oaidl/VARFLAG_FUIDEFAULT
 ms.topic: enum
-f1_keywords: 
- - "oaidl/VARFLAGS"
+f1_keywords:
+- oaidl/VARFLAGS
 dev_langs:
- - c++
+- c++
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - OaIdl.h
+- OaIdl.h
 api_name:
- - VARFLAGS
+- VARFLAGS
 targetos: Windows
 req.typenames: VARFLAGS
 req.redist: 

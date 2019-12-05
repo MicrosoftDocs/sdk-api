@@ -1,19 +1,17 @@
 ---
 UID: NS:webservices._WS_XML_SECURITY_TOKEN_PROPERTY
 title: WS_XML_SECURITY_TOKEN_PROPERTY (webservices.h)
-
 description: Specifies a property for an XML security token.
 old-location: wsw\ws_xml_security_token_property.htm
 tech.root: wsw
 ms.assetid: dd235e33-39f7-459d-8b7f-76d5c3f96770
-
 ms.date: 12/05/2018
 ms.keywords: WS_XML_SECURITY_TOKEN_PROPERTY, WS_XML_SECURITY_TOKEN_PROPERTY structure [Web Services for Windows], webservices/WS_XML_SECURITY_TOKEN_PROPERTY, wsw.ws_xml_security_token_property
 ms.topic: struct
-f1_keywords: 
- - "webservices/WS_XML_SECURITY_TOKEN_PROPERTY"
+f1_keywords:
+- webservices/WS_XML_SECURITY_TOKEN_PROPERTY
 dev_langs:
- - c++
+- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WebServices.h
+- WebServices.h
 api_name:
- - WS_XML_SECURITY_TOKEN_PROPERTY
+- WS_XML_SECURITY_TOKEN_PROPERTY
 targetos: Windows
 req.typenames: WS_XML_SECURITY_TOKEN_PROPERTY
 req.redist: 

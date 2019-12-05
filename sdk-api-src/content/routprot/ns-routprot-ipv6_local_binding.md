@@ -1,19 +1,17 @@
 ---
 UID: NS:routprot.IPV6_LOCAL_BINDING
 title: IPV6_LOCAL_BINDING (routprot.h)
-
 description: The IPV6_LOCAL_BINDING structure contains IPv6 address information for an adapter.
 old-location: rras\ipv6_local_binding.htm
 tech.root: RRAS
 ms.assetid: c698fa3b-04d5-4401-9ab3-a200211cff24
-
 ms.date: 12/05/2018
-ms.keywords: "*PIPV6_LOCAL_BINDING, IPV6_LOCAL_BINDING, IPV6_LOCAL_BINDING structure [RAS], PIPV6_LOCAL_BINDING, PIPV6_LOCAL_BINDING structure pointer [RAS], routprot/IPV6_LOCAL_BINDING, routprot/PIPV6_LOCAL_BINDING, rras.ipv6_local_binding"
+ms.keywords: '*PIPV6_LOCAL_BINDING, IPV6_LOCAL_BINDING, IPV6_LOCAL_BINDING structure [RAS], PIPV6_LOCAL_BINDING, PIPV6_LOCAL_BINDING structure pointer [RAS], routprot/IPV6_LOCAL_BINDING, routprot/PIPV6_LOCAL_BINDING, rras.ipv6_local_binding'
 ms.topic: struct
-f1_keywords: 
- - "routprot/IPV6_LOCAL_BINDING"
+f1_keywords:
+- routprot/IPV6_LOCAL_BINDING
 dev_langs:
- - c++
+- c++
 req.header: routprot.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Routprot.h
+- Routprot.h
 api_name:
- - IPV6_LOCAL_BINDING
+- IPV6_LOCAL_BINDING
 targetos: Windows
 req.typenames: IPV6_LOCAL_BINDING, *PIPV6_LOCAL_BINDING
 req.redist: 

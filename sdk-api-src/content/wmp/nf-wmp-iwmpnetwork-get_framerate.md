@@ -1,19 +1,17 @@
 ---
 UID: NF:wmp.IWMPNetwork.get_frameRate
 title: IWMPNetwork::get_frameRate (wmp.h)
-
 description: The get_frameRate method retrieves the current video frame rate.
 old-location: wmp\iwmpnetwork_get_framerate.htm
 tech.root: WMP
 ms.assetid: 1521c462-b054-46d6-8646-4d20a836eadc
-
 ms.date: 12/05/2018
 ms.keywords: IWMPNetwork interface [Windows Media Player],get_frameRate method, IWMPNetwork.get_frameRate, IWMPNetwork::get_frameRate, IWMPNetworkget_frameRate, get_frameRate, get_frameRate method [Windows Media Player], get_frameRate method [Windows Media Player],IWMPNetwork interface, wmp.iwmpnetwork_get_framerate, wmp/IWMPNetwork::get_frameRate
 ms.topic: method
-f1_keywords: 
- - "wmp/IWMPNetwork.get_frameRate"
+f1_keywords:
+- wmp/IWMPNetwork.get_frameRate
 dev_langs:
- - c++
+- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wmp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmp.dll
+- wmp.dll
 api_name:
- - IWMPNetwork.get_frameRate
+- IWMPNetwork.get_frameRate
 targetos: Windows
 req.typenames: 
 req.redist: 

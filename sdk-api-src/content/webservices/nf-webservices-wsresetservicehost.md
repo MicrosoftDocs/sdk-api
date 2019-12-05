@@ -1,19 +1,17 @@
 ---
 UID: NF:webservices.WsResetServiceHost
 title: WsResetServiceHost function (webservices.h)
-
 description: Resets service host so that it can be opened again.
 old-location: wsw\wsresetservicehost.htm
 tech.root: wsw
 ms.assetid: 99f57173-8d7e-41e6-bf1e-4e8177b740b7
-
 ms.date: 12/05/2018
 ms.keywords: WsResetServiceHost, WsResetServiceHost function [Web Services for Windows], webservices/WsResetServiceHost, wsw.wsresetservicehost
 ms.topic: function
-f1_keywords: 
- - "webservices/WsResetServiceHost"
+f1_keywords:
+- webservices/WsResetServiceHost
 dev_langs:
- - c++
+- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: WebServices.lib
 req.dll: WebServices.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - WebServices.dll
+- WebServices.dll
 api_name:
- - WsResetServiceHost
+- WsResetServiceHost
 targetos: Windows
 req.typenames: 
 req.redist: 

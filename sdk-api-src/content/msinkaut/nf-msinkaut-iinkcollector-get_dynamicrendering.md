@@ -1,19 +1,17 @@
 ---
 UID: NF:msinkaut.IInkCollector.get_DynamicRendering
 title: IInkCollector::get_DynamicRendering (msinkaut.h)
-
 description: Gets or sets the value that specifies whether ink is rendered as it is drawn.
 old-location: tablet\inkcollector_dynamicrendering.htm
 tech.root: tablet
 ms.assetid: 48464ebc-d1a2-4068-b9ee-061adce30879
-
 ms.date: 12/05/2018
 ms.keywords: DynamicRendering property [Tablet PC], DynamicRendering property [Tablet PC],IInkCollector interface, IInkCollector interface [Tablet PC],DynamicRendering property, IInkCollector.DynamicRendering, IInkCollector.get_DynamicRendering, IInkCollector.put_DynamicRendering, IInkCollector::DynamicRendering, IInkCollector::get_DynamicRendering, IInkCollector::put_DynamicRendering, InkCollector.get_DynamicRendering, InkCollector.put_DynamicRendering, get_DynamicRendering, msinkaut/IInkCollector::DynamicRendering, msinkaut/IInkCollector::get_DynamicRendering, msinkaut/IInkCollector::put_DynamicRendering, put_DynamicRendering, tablet.inkcollector_dynamicrendering
 ms.topic: method
-f1_keywords: 
- - "msinkaut/IInkCollector.DynamicRendering"
+f1_keywords:
+- msinkaut/IInkCollector.DynamicRendering
 dev_langs:
- - c++
+- c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows
@@ -32,21 +30,21 @@ req.lib: InkObj.dll
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - InkObj.dll
- - InkObj.dll.dll
+- InkObj.dll
+- InkObj.dll.dll
 api_name:
- - IInkCollector.DynamicRendering
- - IInkCollector.get_DynamicRendering
- - IInkCollector.put_DynamicRendering
- - put_DynamicRendering
- - IInkCollector.put_DynamicRendering
- - InkCollector.get_DynamicRendering
- - InkCollector.put_DynamicRendering
+- IInkCollector.DynamicRendering
+- IInkCollector.get_DynamicRendering
+- IInkCollector.put_DynamicRendering
+- put_DynamicRendering
+- IInkCollector.put_DynamicRendering
+- InkCollector.get_DynamicRendering
+- InkCollector.put_DynamicRendering
 targetos: Windows
 req.typenames: 
 req.redist: 

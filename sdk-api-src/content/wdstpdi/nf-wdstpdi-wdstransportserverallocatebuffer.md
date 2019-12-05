@@ -1,19 +1,17 @@
 ---
 UID: NF:wdstpdi.WdsTransportServerAllocateBuffer
 title: WdsTransportServerAllocateBuffer function (wdstpdi.h)
-
 description: Allocates a buffer in memory.
 old-location: wds\wdstransportserverallocatebuffer.htm
 tech.root: wds
 ms.assetid: 0e227f46-a6f6-4fed-ac33-6e4e54f8b14d
-
 ms.date: 12/05/2018
 ms.keywords: WdsTransportServerAllocateBuffer, WdsTransportServerAllocateBuffer function [Windows Deployment Services], wds.wdstransportserverallocatebuffer, wdstpdi/WdsTransportServerAllocateBuffer
 ms.topic: function
-f1_keywords: 
- - "wdstpdi/WdsTransportServerAllocateBuffer"
+f1_keywords:
+- wdstpdi/WdsTransportServerAllocateBuffer
 dev_langs:
- - c++
+- c++
 req.header: wdstpdi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Wdsmc.lib
 req.dll: Wdsmc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Wdsmc.dll
+- Wdsmc.dll
 api_name:
- - WdsTransportServerAllocateBuffer
+- WdsTransportServerAllocateBuffer
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:winddi.IsEqualGUID
 title: IsEqualGUID macro (winddi.h)
-
 description: Determines whether two GUIDs are equal.
 old-location: com\isequalguid.htm
 tech.root: com
 ms.assetid: 3580a0c4-e1f8-4bb7-ba66-c4702ecd11f1
-
 ms.date: 12/05/2018
 ms.keywords: IsEqualGUID, IsEqualGUID function [COM], _com_IsEqualGUID, com.isequalguid, winddi/IsEqualGUID
 ms.topic: macro
-f1_keywords: 
- - "winddi/IsEqualGUID"
+f1_keywords:
+- winddi/IsEqualGUID
 dev_langs:
- - c++
+- c++
 req.header: winddi.h
 req.include-header: GuidDef.h, Objbase.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Ole32.lib
 req.dll: Ole32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ole32.dll
+- Ole32.dll
 api_name:
- - IsEqualGUID
+- IsEqualGUID
 targetos: Windows
 req.typenames: 
 req.redist: 

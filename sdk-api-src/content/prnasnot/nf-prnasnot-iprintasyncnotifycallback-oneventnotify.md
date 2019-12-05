@@ -1,19 +1,17 @@
 ---
 UID: NF:prnasnot.IPrintAsyncNotifyCallback.OnEventNotify
 title: IPrintAsyncNotifyCallback::OnEventNotify (prnasnot.h)
-
 description: Alerts a listener that a notification is available on a specified channel. This method is called by the print system.
 old-location: gdi\iprintasyncnotifycallback_iprintasyncnotifycallback__oneventnotify.htm
 tech.root: printdocs
 ms.assetid: 2f398173-3cd6-46da-931d-057d1dccbe9b
-
 ms.date: 12/05/2018
 ms.keywords: IPrintAsyncNotifyCallback interface [Windows GDI],OnEventNotify method, IPrintAsyncNotifyCallback.OnEventNotify, IPrintAsyncNotifyCallback::OnEventNotify, OnEventNotify, OnEventNotify method [Windows GDI], OnEventNotify method [Windows GDI],IPrintAsyncNotifyCallback interface, _win32_IPrintAsyncNotifyCallback_OnEventNotify, gdi.iprintasyncnotifycallback_iprintasyncnotifycallback__oneventnotify, prnasnot/IPrintAsyncNotifyCallback::OnEventNotify
 ms.topic: method
-f1_keywords: 
- - "prnasnot/IPrintAsyncNotifyCallback.OnEventNotify"
+f1_keywords:
+- prnasnot/IPrintAsyncNotifyCallback.OnEventNotify
 dev_langs:
- - c++
+- c++
 req.header: prnasnot.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Prnasnot.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - prnasnot.dll
+- prnasnot.dll
 api_name:
- - IPrintAsyncNotifyCallback.OnEventNotify
+- IPrintAsyncNotifyCallback.OnEventNotify
 targetos: Windows
 req.typenames: 
 req.redist: 

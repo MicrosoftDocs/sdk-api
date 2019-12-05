@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d11.ID3D11DeviceContext.HSSetConstantBuffers
 title: ID3D11DeviceContext::HSSetConstantBuffers (d3d11.h)
-
 description: Set the constant buffers used by the hull-shader stage.
 old-location: direct3d11\id3d11devicecontext_hssetconstantbuffers.htm
 tech.root: direct3d11
 ms.assetid: 8e3007ac-de5e-45ee-bb58-644dc857c279
-
 ms.date: 12/05/2018
 ms.keywords: 77c659f3-f151-78f6-bab6-8322bc1851c9, HSSetConstantBuffers, HSSetConstantBuffers method [Direct3D 11], HSSetConstantBuffers method [Direct3D 11],ID3D11DeviceContext interface, ID3D11DeviceContext interface [Direct3D 11],HSSetConstantBuffers method, ID3D11DeviceContext.HSSetConstantBuffers, ID3D11DeviceContext::HSSetConstantBuffers, d3d11/ID3D11DeviceContext::HSSetConstantBuffers, direct3d11.id3d11devicecontext_hssetconstantbuffers
 ms.topic: method
-f1_keywords: 
- - "d3d11/ID3D11DeviceContext.HSSetConstantBuffers"
+f1_keywords:
+- d3d11/ID3D11DeviceContext.HSSetConstantBuffers
 dev_langs:
- - c++
+- c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: D3D11.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D11.lib
- - D3D11.dll
+- D3D11.lib
+- D3D11.dll
 api_name:
- - ID3D11DeviceContext.HSSetConstantBuffers
+- ID3D11DeviceContext.HSSetConstantBuffers
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:ntmsapi.InjectNtmsCleaner
 title: InjectNtmsCleaner function (ntmsapi.h)
-
 description: The InjectNtmsCleaner function allows a cleaner cartridge to be inserted into the specified library unit.
 old-location: fs\injectntmscleaner.htm
 tech.root: Rsm
 ms.assetid: 973441cb-2ec4-4a8d-8e75-3c6d01552a59
-
 ms.date: 12/05/2018
 ms.keywords: InjectNtmsCleaner, InjectNtmsCleaner function [Files], NTMS_INJECT_START, NTMS_INJECT_STOP, _zaw_injectntmscleaner, base.injectntmscleaner, fs.injectntmscleaner, ntmsapi/InjectNtmsCleaner
 ms.topic: function
-f1_keywords: 
- - "ntmsapi/InjectNtmsCleaner"
+f1_keywords:
+- ntmsapi/InjectNtmsCleaner
 dev_langs:
- - c++
+- c++
 req.header: ntmsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Ntmsapi.lib
 req.dll: Ntmsapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ntmsapi.dll
+- Ntmsapi.dll
 api_name:
- - InjectNtmsCleaner
+- InjectNtmsCleaner
 targetos: Windows
 req.typenames: 
 req.redist: 

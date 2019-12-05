@@ -1,19 +1,17 @@
 ---
 UID: NF:mmc.IConsolePowerSink.OnPowerBroadcast
 title: IConsolePowerSink::OnPowerBroadcast (mmc.h)
-
 description: The OnPowerBroadcast method processes WM_POWERBROADCAST notification messages related to the computer's power management.
 old-location: mmc\iconsolepowersink_onpowerbroadcast.htm
 tech.root: mmc
 ms.assetid: 69589335-4b80-4f2b-a8d6-74805969c85c
-
 ms.date: 12/05/2018
 ms.keywords: IConsolePowerSink interface [MMC],OnPowerBroadcast method, IConsolePowerSink.OnPowerBroadcast, IConsolePowerSink::OnPowerBroadcast, OnPowerBroadcast, OnPowerBroadcast method [MMC], OnPowerBroadcast method [MMC],IConsolePowerSink interface, PBT_APMBATTERYLOW, PBT_APMOEMEVENT, PBT_APMPOWERSTATUSCHANGE, PBT_APMQUERYSUSPEND, PBT_APMQUERYSUSPENDFAILED, PBT_APMRESUMEAUTOMATIC, PBT_APMRESUMECRITICAL, PBT_APMRESUMESUSPEND, PBT_APMSUSPEND, _slate_iconsolepowersink_onpowerbroadcast, mmc.iconsolepowersink_onpowerbroadcast, mmc/IConsolePowerSink::OnPowerBroadcast
 ms.topic: method
-f1_keywords: 
- - "mmc/IConsolePowerSink.OnPowerBroadcast"
+f1_keywords:
+- mmc/IConsolePowerSink.OnPowerBroadcast
 dev_langs:
- - c++
+- c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mmc.h
+- Mmc.h
 api_name:
- - IConsolePowerSink.OnPowerBroadcast
+- IConsolePowerSink.OnPowerBroadcast
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:mfidl.MFCreateAudioRenderer
 title: MFCreateAudioRenderer function (mfidl.h)
-
 description: Creates the Streaming Audio Renderer.
 old-location: mf\mfcreateaudiorenderer.htm
 tech.root: medfound
 ms.assetid: 9554e39b-9d14-4b7f-862c-a1ffcf84543c
-
 ms.date: 12/05/2018
 ms.keywords: 9554e39b-9d14-4b7f-862c-a1ffcf84543c, MFCreateAudioRenderer, MFCreateAudioRenderer function [Media Foundation], mf.mfcreateaudiorenderer, mfidl/MFCreateAudioRenderer
 ms.topic: function
-f1_keywords: 
- - "mfidl/MFCreateAudioRenderer"
+f1_keywords:
+- mfidl/MFCreateAudioRenderer
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Mf.lib
 req.dll: Mf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - mf.dll
+- mf.dll
 api_name:
- - MFCreateAudioRenderer
+- MFCreateAudioRenderer
 targetos: Windows
 req.typenames: 
 req.redist: 

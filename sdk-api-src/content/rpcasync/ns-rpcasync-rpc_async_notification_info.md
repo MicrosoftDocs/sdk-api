@@ -1,19 +1,17 @@
 ---
 UID: NS:rpcasync._RPC_ASYNC_NOTIFICATION_INFO
 title: RPC_ASYNC_NOTIFICATION_INFO (rpcasync.h)
-
 description: Contains notification information for asynchronous remote procedure calls. This notification information can be configured for I/O completion ports (IOC), Windows asynchronous procedure calls (APC), Windows messaging, and Windows event notification.
 old-location: rpc\rpc_async_notification_info.htm
 tech.root: Rpc
 ms.assetid: 253f3d23-4cc2-44b3-9d25-c7f26d73ed1e
-
 ms.date: 12/05/2018
 ms.keywords: '*PRPC_ASYNC_NOTIFICATION_INFO, PRPC_ASYNC_NOTIFICATION_INFO, PRPC_ASYNC_NOTIFICATION_INFO union pointer [RPC], RPC_ASYNC_NOTIFICATION_INFO, RPC_ASYNC_NOTIFICATION_INFO union [RPC], rpc.rpc_async_notification_info, rpcasync/PRPC_ASYNC_NOTIFICATION_INFO, rpcasync/RPC_ASYNC_NOTIFICATION_INFO'
 ms.topic: struct
 f1_keywords:
 - rpcasync/RPC_ASYNC_NOTIFICATION_INFO
 dev_langs:
- - c++
+- c++
 req.header: rpcasync.h
 req.include-header: Rpc.h
 req.target-type: Windows

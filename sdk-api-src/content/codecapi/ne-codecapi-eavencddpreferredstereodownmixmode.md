@@ -1,19 +1,17 @@
 ---
 UID: NE:codecapi.eAVEncDDPreferredStereoDownMixMode
 title: eAVEncDDPreferredStereoDownMixMode (codecapi.h)
-
 description: Specifies the preferred stereo downmix mode for a Dolby Digital audio stream. This enumeration is used with the AVEncDDPreferredStereoDownMixMode property.
 old-location: dshow\eavencddpreferredstereodownmixmode.htm
 tech.root: DirectShow
 ms.assetid: 3960d0d5-9d82-4ed5-843d-04fdb0538438
-
 ms.date: 12/05/2018
 ms.keywords: codecapi/eAVEncDDPreferredStereoDownMixMode, codecapi/eAVEncDDPreferredStereoDownMixMode_LoRo, codecapi/eAVEncDDPreferredStereoDownMixMode_LtRt, dshow.eavencddpreferredstereodownmixmode, eAVEncDDPreferredStereoDownMixMode, eAVEncDDPreferredStereoDownMixMode enumeration [DirectShow], eAVEncDDPreferredStereoDownMixMode_LoRo, eAVEncDDPreferredStereoDownMixMode_LtRt
 ms.topic: enum
-f1_keywords: 
- - "codecapi/eAVEncDDPreferredStereoDownMixMode"
+f1_keywords:
+- codecapi/eAVEncDDPreferredStereoDownMixMode
 dev_langs:
- - c++
+- c++
 req.header: codecapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - codecapi.h
+- codecapi.h
 api_name:
- - eAVEncDDPreferredStereoDownMixMode
+- eAVEncDDPreferredStereoDownMixMode
 targetos: Windows
 req.typenames: 
 req.redist: 

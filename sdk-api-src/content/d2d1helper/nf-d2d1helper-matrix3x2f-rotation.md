@@ -1,19 +1,17 @@
 ---
 UID: NF:d2d1helper.Matrix3x2F.Rotation
 title: Matrix3x2F::Rotation (d2d1helper.h)
-
 description: Creates a rotation transformation that has the specified angle and center point.
 old-location: direct2d\matrix3x2f_rotate.htm
 tech.root: Direct2D
 ms.assetid: 9bb3ee14-3637-41fc-9164-1114619a59e4
-
 ms.date: 12/05/2018
 ms.keywords: D2D1.Matrix3x2F.Rotation, D2D1::Matrix3x2F::Rotation, Matrix3x2F interface [Direct2D],Rotation method, Matrix3x2F.Rotation, Matrix3x2F::Rotation, Rotation, Rotation method [Direct2D], Rotation method [Direct2D],Matrix3x2F interface, d2d1helper/Matrix3x2F::Rotation, direct2d.matrix3x2f_rotate
 ms.topic: method
-f1_keywords: 
- - "d2d1helper/Matrix3x2F.Rotation"
+f1_keywords:
+- d2d1helper/Matrix3x2F.Rotation
 dev_langs:
- - c++
+- c++
 req.header: d2d1helper.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: D2d1.lib
 req.dll: D2d1.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D2d1.dll
+- D2d1.dll
 api_name:
- - Matrix3x2F.Rotation
+- Matrix3x2F.Rotation
 targetos: Windows
 req.typenames: 
 req.redist: 

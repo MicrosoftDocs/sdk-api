@@ -1,19 +1,17 @@
 ---
 UID: NF:tom.ITextDocument2.GetActiveStory
 title: ITextDocument2::GetActiveStory (tom.h)
-
 description: Gets the active story; that is, the story that receives keyboard and mouse input.
 old-location: controls\itextdocument2_getactivestory.htm
 tech.root: Controls
 ms.assetid: 9849d958-5bcf-44d9-827c-3d5619ba2357
-
 ms.date: 12/05/2018
 ms.keywords: GetActiveStory, GetActiveStory method [Windows Controls], GetActiveStory method [Windows Controls],ITextDocument2 interface, ITextDocument2 interface [Windows Controls],GetActiveStory method, ITextDocument2.GetActiveStory, ITextDocument2::GetActiveStory, controls.itextdocument2_getactivestory, tom/ITextDocument2::GetActiveStory
 ms.topic: method
-f1_keywords: 
- - "tom/ITextDocument2.GetActiveStory"
+f1_keywords:
+- tom/ITextDocument2.GetActiveStory
 dev_langs:
- - c++
+- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msftedit.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msftedit.dll
+- Msftedit.dll
 api_name:
- - ITextDocument2.GetActiveStory
+- ITextDocument2.GetActiveStory
 targetos: Windows
 req.typenames: 
 req.redist: 

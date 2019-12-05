@@ -1,19 +1,17 @@
 ---
 UID: NF:objidl.IMalloc.HeapMinimize
 title: IMalloc::HeapMinimize (objidl.h)
-
 description: Minimizes the heap as much as possible by releasing unused memory to the operating system, coalescing adjacent free blocks, and committing free pages.
 old-location: com\imalloc_heapminimize.htm
 tech.root: com
 ms.assetid: b57e32eb-a637-47d8-b136-05cb193e9f73
-
 ms.date: 12/05/2018
 ms.keywords: HeapMinimize, HeapMinimize method [COM], HeapMinimize method [COM],IMalloc interface, IMalloc interface [COM],HeapMinimize method, IMalloc.HeapMinimize, IMalloc::HeapMinimize, _com_imalloc_heapminimize, com.imalloc_heapminimize, objidlbase/IMalloc::HeapMinimize
 ms.topic: method
-f1_keywords: 
- - "objidl/IMalloc.HeapMinimize"
+f1_keywords:
+- objidl/IMalloc.HeapMinimize
 dev_langs:
- - c++
+- c++
 req.header: objidl.h
 req.include-header: ObjIdl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - objidlbase.h
+- objidlbase.h
 api_name:
- - IMalloc.HeapMinimize
+- IMalloc.HeapMinimize
 targetos: Windows
 req.typenames: 
 req.redist: 

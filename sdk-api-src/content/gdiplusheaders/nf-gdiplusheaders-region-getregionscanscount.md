@@ -1,19 +1,17 @@
 ---
 UID: NF:gdiplusheaders.Region.GetRegionScansCount
 title: Region::GetRegionScansCount (gdiplusheaders.h)
-
 description: The Region::GetRegionScansCount method gets the number of rectangles that approximate this region. The region is transformed by a specified matrix before the rectangles are calculated.
 old-location: gdiplus\_gdiplus_CLASS_Region_GetRegionScansCount_matrix_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\regionclass\regionmethods\getregionscanscount.htm
-
 ms.date: 12/05/2018
 ms.keywords: GetRegionScansCount, GetRegionScansCount method [GDI+], GetRegionScansCount method [GDI+],Region class, Region class [GDI+],GetRegionScansCount method, Region.GetRegionScansCount, Region::GetRegionScansCount, _gdiplus_CLASS_Region_GetRegionScansCount_matrix_, gdiplus._gdiplus_CLASS_Region_GetRegionScansCount_matrix_
 ms.topic: method
-f1_keywords: 
- - "gdiplusheaders/Region.GetRegionScansCount"
+f1_keywords:
+- gdiplusheaders/Region.GetRegionScansCount
 dev_langs:
- - c++
+- c++
 req.header: gdiplusheaders.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - Region.GetRegionScansCount
+- Region.GetRegionScansCount
 targetos: Windows
 req.typenames: 
 req.redist: 

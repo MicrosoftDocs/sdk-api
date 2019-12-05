@@ -1,19 +1,17 @@
 ---
 UID: NE:dcomptypes.DCOMPOSITION_BORDER_MODE
 title: DCOMPOSITION_BORDER_MODE (dcomptypes.h)
-
 description: Specifies the border mode to use when composing a bitmap or applying a clip with any transform such that the edges of the bitmap or clip are not axis-aligned with integer coordinates.
 old-location: directcomp\dcomposition_border_mode.htm
 tech.root: directcomp
 ms.assetid: 26CDDC8A-27F5-4BE4-B345-70FF66ED5C9A
-
 ms.date: 12/05/2018
 ms.keywords: DCOMPOSITION_BORDER_MODE, DCOMPOSITION_BORDER_MODE enumeration [DirectComposition], DCOMPOSITION_BORDER_MODE_HARD, DCOMPOSITION_BORDER_MODE_INHERIT, DCOMPOSITION_BORDER_MODE_SOFT, dcomptypes/DCOMPOSITION_BORDER_MODE, dcomptypes/DCOMPOSITION_BORDER_MODE_HARD, dcomptypes/DCOMPOSITION_BORDER_MODE_INHERIT, dcomptypes/DCOMPOSITION_BORDER_MODE_SOFT, directcomp.dcomposition_border_mode
 ms.topic: enum
-f1_keywords: 
- - "dcomptypes/DCOMPOSITION_BORDER_MODE"
+f1_keywords:
+- dcomptypes/DCOMPOSITION_BORDER_MODE
 dev_langs:
- - c++
+- c++
 req.header: dcomptypes.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - DcompTypes.h
+- DcompTypes.h
 api_name:
- - DCOMPOSITION_BORDER_MODE
+- DCOMPOSITION_BORDER_MODE
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NN:shlobj.IActiveDesktopP
 title: IActiveDesktopP (shlobj.h)
-
 description: Exposes methods that manage the Windows Desktop.
 old-location: lwef\iactivedesktopp.htm
 tech.root: lwef
 ms.assetid: 04d2e14a-374b-405d-803b-0bd6f57c077a
-
 ms.date: 12/05/2018
 ms.keywords: IActiveDesktopP, IActiveDesktopP interface [Legacy Windows Environment Features], IActiveDesktopP interface [Legacy Windows Environment Features],described, _win32_IActiveDesktopP, lwef.iactivedesktopp, shell.iactivedesktopp, shlobj/IActiveDesktopP
 ms.topic: interface
-f1_keywords: 
- - "shlobj/IActiveDesktopP"
+f1_keywords:
+- shlobj/IActiveDesktopP
 dev_langs:
- - c++
+- c++
 req.header: shlobj.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Shell32.dll (version 5.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - IActiveDesktopP
+- IActiveDesktopP
 targetos: Windows
 req.typenames: 
 req.redist: 

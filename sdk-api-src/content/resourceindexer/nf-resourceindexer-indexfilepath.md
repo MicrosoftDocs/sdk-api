@@ -1,19 +1,17 @@
 ---
 UID: NF:resourceindexer.IndexFilePath
 title: IndexFilePath function (resourceindexer.h)
-
 description: Indexes a file path for file and folder naming conventions.
 old-location: menurc\indexfilepath.htm
 tech.root: menurc
 ms.assetid: A1CDA9D1-9FEE-4FCB-AA85-1DA58D9EF95B
-
 ms.date: 12/05/2018
 ms.keywords: IndexFilePath, IndexFilePath function [Menus and Other Resources], menurc.indexfilepath, resourceindexer/IndexFilePath
 ms.topic: function
-f1_keywords: 
- - "resourceindexer/IndexFilePath"
+f1_keywords:
+- resourceindexer/IndexFilePath
 dev_langs:
- - c++
+- c++
 req.header: resourceindexer.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Mrmsupport.lib
 req.dll: Mrmsupport.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - mrmsupport.dll
+- mrmsupport.dll
 api_name:
- - IndexFilePath
+- IndexFilePath
 targetos: Windows
 req.typenames: 
 req.redist: 

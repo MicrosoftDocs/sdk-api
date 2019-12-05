@@ -1,19 +1,17 @@
 ---
 UID: NN:vdshwprv.IVdsHwProviderStoragePools
 title: IVdsHwProviderStoragePools (vdshwprv.h)
-
 description: Provides methods to create LUNs in a storage pool and enumerate the storage pools managed by a hardware provider.
 old-location: base\ivdshwproviderstoragepools.htm
 tech.root: VDS
 ms.assetid: c9db0e33-8cb1-41ba-8716-a8d70990fa3e
-
 ms.date: 12/05/2018
 ms.keywords: IVdsHwProviderStoragePools, IVdsHwProviderStoragePools interface, IVdsHwProviderStoragePools interface,described, base.ivdshwproviderstoragepools, vds/IVdsHwProviderStoragePools, vdshwprv/IVdsHwProviderStoragePools
 ms.topic: interface
-f1_keywords: 
- - "vdshwprv/IVdsHwProviderStoragePools"
+f1_keywords:
+- vdshwprv/IVdsHwProviderStoragePools
 dev_langs:
- - c++
+- c++
 req.header: vdshwprv.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Uuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Uuid.lib
- - Uuid.dll
+- Uuid.lib
+- Uuid.dll
 api_name:
- - IVdsHwProviderStoragePools
+- IVdsHwProviderStoragePools
 targetos: Windows
 req.typenames: 
 req.redist: 

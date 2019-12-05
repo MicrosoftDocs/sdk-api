@@ -1,19 +1,17 @@
 ---
 UID: NF:structuredquery.ISchemaProvider.MetaData
 title: ISchemaProvider::MetaData (structuredquery.h)
-
 description: Retrieves an enumeration of global IMetaData objects for the loaded schema.
 old-location: search\_search_ISchemaProvider_MetaData.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\ischemaprovider\metadata.htm
-
 ms.date: 12/05/2018
 ms.keywords: ISchemaProvider interface [search],MetaData method, ISchemaProvider.MetaData, ISchemaProvider::MetaData, MetaData, MetaData method [search], MetaData method [search],ISchemaProvider interface, _search_ISchemaProvider_MetaData, search._search_ISchemaProvider_MetaData, structuredquery/ISchemaProvider::MetaData
 ms.topic: method
-f1_keywords: 
- - "structuredquery/ISchemaProvider.MetaData"
+f1_keywords:
+- structuredquery/ISchemaProvider.MetaData
 dev_langs:
- - c++
+- c++
 req.header: structuredquery.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Structuredquery.h
+- Structuredquery.h
 api_name:
- - ISchemaProvider.MetaData
+- ISchemaProvider.MetaData
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0

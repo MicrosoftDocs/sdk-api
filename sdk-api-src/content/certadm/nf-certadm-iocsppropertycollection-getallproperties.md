@@ -1,19 +1,17 @@
 ---
 UID: NF:certadm.IOCSPPropertyCollection.GetAllProperties
 title: IOCSPPropertyCollection::GetAllProperties (certadm.h)
-
 description: Gets all properties in a property set.
 old-location: security\iocsppropertycollection_getallproperties_method.htm
 tech.root: SecCrypto
 ms.assetid: 46a20d55-a673-4f9b-9fb9-bfc631d70f99
-
 ms.date: 12/05/2018
 ms.keywords: GetAllProperties, GetAllProperties method [Security], GetAllProperties method [Security],IOCSPPropertyCollection interface, IOCSPPropertyCollection interface [Security],GetAllProperties method, IOCSPPropertyCollection.GetAllProperties, IOCSPPropertyCollection::GetAllProperties, certadm/IOCSPPropertyCollection::GetAllProperties, security.iocsppropertycollection_getallproperties_method
 ms.topic: method
-f1_keywords: 
- - "certadm/IOCSPPropertyCollection.GetAllProperties"
+f1_keywords:
+- certadm/IOCSPPropertyCollection.GetAllProperties
 dev_langs:
- - c++
+- c++
 req.header: certadm.h
 req.include-header: Certserv.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Certadm.lib
 req.dll: Certadm.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Certadm.dll
+- Certadm.dll
 api_name:
- - IOCSPPropertyCollection.GetAllProperties
+- IOCSPPropertyCollection.GetAllProperties
 targetos: Windows
 req.typenames: 
 req.redist: 

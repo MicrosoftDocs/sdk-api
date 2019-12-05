@@ -1,19 +1,17 @@
 ---
 UID: NS:wingdi.DISPLAYCONFIG_TARGET_MODE
 title: DISPLAYCONFIG_TARGET_MODE (wingdi.h)
-
 description: The DISPLAYCONFIG_TARGET_MODE structure describes a display path target mode.
 old-location: display\displayconfig_target_mode.htm
 tech.root: display
 ms.assetid: c81768f0-67d3-4ddd-94c8-013b1e4cf83e
-
 ms.date: 12/05/2018
 ms.keywords: CCD_Structures_e251116b-4e11-42a0-9171-fa3935003510.xml, DISPLAYCONFIG_TARGET_MODE, DISPLAYCONFIG_TARGET_MODE structure [Display Devices], display.displayconfig_target_mode, wingdi/DISPLAYCONFIG_TARGET_MODE
 ms.topic: struct
-f1_keywords: 
- - "wingdi/DISPLAYCONFIG_TARGET_MODE"
+f1_keywords:
+- wingdi/DISPLAYCONFIG_TARGET_MODE
 dev_langs:
- - c++
+- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - wingdi.h
+- wingdi.h
 api_name:
- - DISPLAYCONFIG_TARGET_MODE
+- DISPLAYCONFIG_TARGET_MODE
 targetos: Windows
 req.typenames: DISPLAYCONFIG_TARGET_MODE
 req.redist: 

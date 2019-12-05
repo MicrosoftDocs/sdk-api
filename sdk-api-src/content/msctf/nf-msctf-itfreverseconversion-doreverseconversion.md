@@ -1,19 +1,17 @@
 ---
 UID: NF:msctf.ITfReverseConversion.DoReverseConversion
 title: ITfReverseConversion::DoReverseConversion (msctf.h)
-
 description: Performs a reverse conversion of the specified string.
 old-location: tsf\itfreverseconversion__doreverseconversion.htm
 tech.root: TSF
 ms.assetid: a2312cd4-316a-42a6-85a5-e5ef819faa79
-
 ms.date: 12/05/2018
 ms.keywords: DoReverseConversion, DoReverseConversion method [Text Services Framework], DoReverseConversion method [Text Services Framework],ITfReverseConversion interface, ITfReverseConversion interface [Text Services Framework],DoReverseConversion method, ITfReverseConversion.DoReverseConversion, ITfReverseConversion::DoReverseConversion, msctf/ITfReverseConversion::DoReverseConversion, tsf.itfreverseconversion__doreverseconversion
 ms.topic: method
-f1_keywords: 
- - "msctf/ITfReverseConversion.DoReverseConversion"
+f1_keywords:
+- msctf/ITfReverseConversion.DoReverseConversion
 dev_langs:
- - c++
+- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msctf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msctf.dll
+- msctf.dll
 api_name:
- - ITfReverseConversion.DoReverseConversion
+- ITfReverseConversion.DoReverseConversion
 targetos: Windows
 req.typenames: 
 req.redist: 

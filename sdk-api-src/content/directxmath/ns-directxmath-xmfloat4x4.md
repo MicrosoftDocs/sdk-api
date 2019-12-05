@@ -1,19 +1,17 @@
 ---
 UID: NS:directxmath.XMFLOAT4X4
 title: XMFLOAT4X4 (directxmath.h)
-
 description: A 4*4 floating point matrix.
 old-location: dxmath\xmfloat4x4.htm
 tech.root: dxmath
 ms.assetid: T:Microsoft.directx_sdk.reference.XMFLOAT4X4
-
 ms.date: 12/05/2018
 ms.keywords: XMFLOAT4X4, XMFLOAT4X4 structure [DirectX Math Support APIs], directxmath/XMFLOAT4X4, dxmath.xmfloat4x4
 ms.topic: struct
-f1_keywords: 
- - "directxmath/XMFLOAT4X4"
+f1_keywords:
+- directxmath/XMFLOAT4X4
 dev_langs:
- - c++
+- c++
 req.header: directxmath.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - DirectXMath.h
+- DirectXMath.h
 api_name:
- - XMFLOAT4X4
+- XMFLOAT4X4
 targetos: Windows
 req.typenames: 
 req.redist: 

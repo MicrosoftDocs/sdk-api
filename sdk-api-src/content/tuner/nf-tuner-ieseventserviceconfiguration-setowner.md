@@ -1,19 +1,17 @@
 ---
 UID: NF:tuner.IESEventServiceConfiguration.SetOwner
 title: IESEventServiceConfiguration::SetOwner (tuner.h)
-
 description: Adds an owner to an event service, where event service refers to a generic Windows event service that implements the IESEventService interface.
 old-location: mstv\ieseventserviceconfiguration_setowner.htm
 tech.root: mstv
 ms.assetid: 7d8e1be1-b363-41ac-b60b-98415f0f44b6
-
 ms.date: 12/05/2018
 ms.keywords: IESEventServiceConfiguration interface [Microsoft TV Technologies],SetOwner method, IESEventServiceConfiguration.SetOwner, IESEventServiceConfiguration::SetOwner, SetOwner, SetOwner method [Microsoft TV Technologies], SetOwner method [Microsoft TV Technologies],IESEventServiceConfiguration interface, mstv.ieseventserviceconfiguration_setowner, tuner/IESEventServiceConfiguration::SetOwner
 ms.topic: method
-f1_keywords: 
- - "tuner/IESEventServiceConfiguration.SetOwner"
+f1_keywords:
+- tuner/IESEventServiceConfiguration.SetOwner
 dev_langs:
- - c++
+- c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - tuner.h
+- tuner.h
 api_name:
- - IESEventServiceConfiguration.SetOwner
+- IESEventServiceConfiguration.SetOwner
 targetos: Windows
 req.typenames: 
 req.redist: 

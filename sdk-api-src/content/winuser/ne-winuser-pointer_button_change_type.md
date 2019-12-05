@@ -1,19 +1,17 @@
 ---
 UID: NE:winuser.tagPOINTER_BUTTON_CHANGE_TYPE
 title: POINTER_BUTTON_CHANGE_TYPE (winuser.h)
-
 description: Identifies a change in the state of a button associated with a pointer.
 old-location: inputmsg\pointer_button_change_type.htm
 tech.root: InputMsg
 ms.assetid: DF5F60F6-8FD9-41EB-AF2A-09A17513659C
-
 ms.date: 12/05/2018
 ms.keywords: POINTER_BUTTON_CHANGE_TYPE, POINTER_BUTTON_CHANGE_TYPE enumeration [Input Messages and Notifications], POINTER_CHANGE_FIFTHBUTTON_DOWN, POINTER_CHANGE_FIFTHBUTTON_UP, POINTER_CHANGE_FIRSTBUTTON_DOWN, POINTER_CHANGE_FIRSTBUTTON_UP, POINTER_CHANGE_FOURTHBUTTON_DOWN, POINTER_CHANGE_FOURTHBUTTON_UP, POINTER_CHANGE_NONE, POINTER_CHANGE_SECONDBUTTON_DOWN, POINTER_CHANGE_SECONDBUTTON_UP, POINTER_CHANGE_THIRDBUTTON_DOWN, POINTER_CHANGE_THIRDBUTTON_UP, inputmsg.pointer_button_change_type, winuser/POINTER_BUTTON_CHANGE_TYPE, winuser/POINTER_CHANGE_FIFTHBUTTON_DOWN, winuser/POINTER_CHANGE_FIFTHBUTTON_UP, winuser/POINTER_CHANGE_FIRSTBUTTON_DOWN, winuser/POINTER_CHANGE_FIRSTBUTTON_UP, winuser/POINTER_CHANGE_FOURTHBUTTON_DOWN, winuser/POINTER_CHANGE_FOURTHBUTTON_UP, winuser/POINTER_CHANGE_NONE, winuser/POINTER_CHANGE_SECONDBUTTON_DOWN, winuser/POINTER_CHANGE_SECONDBUTTON_UP, winuser/POINTER_CHANGE_THIRDBUTTON_DOWN, winuser/POINTER_CHANGE_THIRDBUTTON_UP
 ms.topic: enum
-f1_keywords: 
- - "winuser/POINTER_BUTTON_CHANGE_TYPE"
+f1_keywords:
+- winuser/POINTER_BUTTON_CHANGE_TYPE
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - winuser.h
+- winuser.h
 api_name:
- - POINTER_BUTTON_CHANGE_TYPE
+- POINTER_BUTTON_CHANGE_TYPE
 targetos: Windows
 req.typenames: POINTER_BUTTON_CHANGE_TYPE
 req.redist: 

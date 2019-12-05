@@ -1,19 +1,17 @@
 ---
 UID: NF:windowsx.ListBox_SetCaretIndex
 title: ListBox_SetCaretIndex macro (windowsx.h)
-
 description: Sets the focus rectangle to the item at the specified index in a multiple-selection list box. If the item is not visible, it is scrolled into view. You can use this macro or send the LB_SETCARETINDEX message explicitly.
 old-location: controls\ListBox_SetCaretIndex.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listboxes\listboxreference\listboxmacros\listbox_setcaretindex.htm
-
 ms.date: 12/05/2018
 ms.keywords: ListBox_SetCaretIndex, ListBox_SetCaretIndex macro [Windows Controls], _win32_ListBox_SetCaretIndex, _win32_ListBox_SetCaretIndex_cpp, controls.ListBox_SetCaretIndex, controls._win32_ListBox_SetCaretIndex, windowsx/ListBox_SetCaretIndex
 ms.topic: macro
-f1_keywords: 
- - "windowsx/ListBox_SetCaretIndex"
+f1_keywords:
+- windowsx/ListBox_SetCaretIndex
 dev_langs:
- - c++
+- c++
 req.header: windowsx.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Windowsx.h
+- Windowsx.h
 api_name:
- - ListBox_SetCaretIndex
+- ListBox_SetCaretIndex
 targetos: Windows
 req.typenames: 
 req.redist: 

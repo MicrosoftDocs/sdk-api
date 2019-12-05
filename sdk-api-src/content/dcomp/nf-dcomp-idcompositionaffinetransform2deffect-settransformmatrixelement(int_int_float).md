@@ -1,19 +1,17 @@
 ---
 UID: NF:dcomp.IDCompositionAffineTransform2DEffect.SetTransformMatrixElement(int,int,float)
 title: IDCompositionAffineTransform2DEffect::SetTransformMatrixElement(int,int,float) (dcomp.h)
-
 description: Sets an element of the transform matrix of the effect.
 old-location: directcomp\idcompositionaffinetransform2deffect_settransformmatrixelement.htm
 tech.root: directcomp
 ms.assetid: C673951B-2347-4A71-9413-68670B6E11CB
-
 ms.date: 12/05/2018
 ms.keywords: IDCompositionAffineTransform2DEffect interface [DirectComposition],SetTransformMatrixElement method, IDCompositionAffineTransform2DEffect.SetTransformMatrixElement, IDCompositionAffineTransform2DEffect.SetTransformMatrixElement(int,int,float), IDCompositionAffineTransform2DEffect::SetTransformMatrixElement, IDCompositionAffineTransform2DEffect::SetTransformMatrixElement(int,int,float), SetTransformMatrixElement, SetTransformMatrixElement method [DirectComposition], SetTransformMatrixElement method [DirectComposition],IDCompositionAffineTransform2DEffect interface, dcomp/IDCompositionAffineTransform2DEffect::SetTransformMatrixElement, directcomp.idcompositionaffinetransform2deffect_settransformmatrixelement
 ms.topic: method
-f1_keywords: 
- - "dcomp/IDCompositionAffineTransform2DEffect.SetTransformMatrixElement"
+f1_keywords:
+- dcomp/IDCompositionAffineTransform2DEffect.SetTransformMatrixElement
 dev_langs:
- - c++
+- c++
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dcomp.lib
 req.dll: Dcomp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dcomp.dll
+- Dcomp.dll
 api_name:
- - IDCompositionAffineTransform2DEffect.SetTransformMatrixElement
+- IDCompositionAffineTransform2DEffect.SetTransformMatrixElement
 targetos: Windows
 req.typenames: 
 req.redist: 

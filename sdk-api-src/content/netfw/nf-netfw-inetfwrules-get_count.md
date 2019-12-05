@@ -1,19 +1,17 @@
 ---
 UID: NF:netfw.INetFwRules.get_Count
 title: INetFwRules::get_Count (netfw.h)
-
 description: Returns the number of rules in a collection.
 old-location: ics\inetfwrules_count.htm
 tech.root: ics
 ms.assetid: 0a5b1103-3280-4a0c-93a7-e5d805d5bf5e
-
 ms.date: 12/05/2018
 ms.keywords: Count property [ICS/ICF], Count property [ICS/ICF],INetFwRules interface, INetFwRules interface [ICS/ICF],Count property, INetFwRules.Count, INetFwRules.get_Count, INetFwRules::Count, INetFwRules::get_Count, get_Count, ics.inetfwrules_count, netfw/INetFwRules::Count, netfw/INetFwRules::get_Count
 ms.topic: method
-f1_keywords: 
- - "netfw/INetFwRules.Count"
+f1_keywords:
+- netfw/INetFwRules.Count
 dev_langs:
- - c++
+- c++
 req.header: netfw.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: FirewallAPI.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - FirewallAPI.dll
+- FirewallAPI.dll
 api_name:
- - INetFwRules.Count
- - INetFwRules.get_Count
+- INetFwRules.Count
+- INetFwRules.get_Count
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:faxcomex.IFaxOutgoingArchive.Refresh
 title: IFaxOutgoingArchive::Refresh (faxcomex.h)
-
 description: The IFaxOutgoingArchive::Refresh method refreshes FaxOutgoingArchive object information from the fax server.
 old-location: fax\_mfax_faxoutgoingarchive_cpp_mfax_faxoutgoingarchive_refresh_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_6hm0.htm
-
 ms.date: 12/05/2018
 ms.keywords: IFaxOutgoingArchive interface [Fax Service],Refresh method, IFaxOutgoingArchive.Refresh, IFaxOutgoingArchive::Refresh, Refresh, Refresh method [Fax Service], Refresh method [Fax Service],IFaxOutgoingArchive interface, _mfax_faxoutgoingarchive.refresh, fax._mfax_faxoutgoingarchive_cpp_mfax_faxoutgoingarchive_refresh_cpp, fax._mfax_faxoutgoingarchive_refresh, faxcomex/IFaxOutgoingArchive::Refresh
 ms.topic: method
-f1_keywords: 
- - "faxcomex/IFaxOutgoingArchive.Refresh"
+f1_keywords:
+- faxcomex/IFaxOutgoingArchive.Refresh
 dev_langs:
- - c++
+- c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: Fxscomex.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Fxscomex.dll
+- Fxscomex.dll
 api_name:
- - IFaxOutgoingArchive.Refresh
- - IFaxOutgoingArchive.Refresh
+- IFaxOutgoingArchive.Refresh
+- IFaxOutgoingArchive.Refresh
 targetos: Windows
 req.typenames: 
 req.redist: 

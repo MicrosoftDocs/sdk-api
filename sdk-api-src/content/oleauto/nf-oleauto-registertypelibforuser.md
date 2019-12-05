@@ -1,19 +1,17 @@
 ---
 UID: NF:oleauto.RegisterTypeLibForUser
 title: RegisterTypeLibForUser function (oleauto.h)
-
 description: Registers a type library for use by the calling user.
 old-location: automat\registertypelibforuser.htm
 tech.root: automat
 ms.assetid: ca8ae169-f849-4df2-8537-095d65ad6a08
-
 ms.date: 12/05/2018
 ms.keywords: RegisterTypeLibForUser, RegisterTypeLibForUser function [Automation], _oa96_RegisterTypeLibForUser, automat.registertypelibforuser, oleauto/RegisterTypeLibForUser
 ms.topic: function
-f1_keywords: 
- - "oleauto/RegisterTypeLibForUser"
+f1_keywords:
+- oleauto/RegisterTypeLibForUser
 dev_langs:
- - c++
+- c++
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: OleAut32.lib
 req.dll: OleAut32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - OleAut32.dll
+- OleAut32.dll
 api_name:
- - RegisterTypeLibForUser
+- RegisterTypeLibForUser
 targetos: Windows
 req.typenames: 
 req.redist: 

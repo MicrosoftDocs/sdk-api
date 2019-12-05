@@ -1,19 +1,17 @@
 ---
 UID: NN:ctfutb.ITfLangBarItemButton
 title: ITfLangBarItemButton (ctfutb.h)
-
 description: The ITfLangBarItemButton interface is implemented by a language bar button provider and used by the language bar manager to obtain information about a button item on the language bar.
 old-location: tsf\itflangbaritembutton.htm
 tech.root: TSF
 ms.assetid: 098a8cdc-ff34-4729-9b34-279c499d40a8
-
 ms.date: 12/05/2018
 ms.keywords: ITfLangBarItemButton, ITfLangBarItemButton interface [Text Services Framework], ITfLangBarItemButton interface [Text Services Framework],described, _tsf_itflangbaritembutton_ref, ctfutb/ITfLangBarItemButton, tsf.itflangbaritembutton
 ms.topic: interface
-f1_keywords: 
- - "ctfutb/ITfLangBarItemButton"
+f1_keywords:
+- ctfutb/ITfLangBarItemButton
 dev_langs:
- - c++
+- c++
 req.header: ctfutb.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msctf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msctf.dll
+- msctf.dll
 api_name:
- - ITfLangBarItemButton
+- ITfLangBarItemButton
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

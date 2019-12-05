@@ -1,19 +1,17 @@
 ---
 UID: NF:dvbsiparser.IIsdbCAContractInformationDescriptor.GetRecordComponentTag
 title: IIsdbCAContractInformationDescriptor::GetRecordComponentTag (dvbsiparser.h)
-
 description: Gets the broadcaster-defined tag that identifies a component record from an Integrated Services Digital Broadcasting (ISDB) conditional access (CA) contract information descriptor.
 old-location: mstv\iisdbcacontractinformationdescriptor_getrecordcomponenttag.htm
 tech.root: mstv
 ms.assetid: cd032a24-228a-47e3-97f4-1046b426c587
-
 ms.date: 12/05/2018
 ms.keywords: GetRecordComponentTag, GetRecordComponentTag method [Microsoft TV Technologies], GetRecordComponentTag method [Microsoft TV Technologies],IIsdbCAContractInformationDescriptor interface, IIsdbCAContractInformationDescriptor interface [Microsoft TV Technologies],GetRecordComponentTag method, IIsdbCAContractInformationDescriptor.GetRecordComponentTag, IIsdbCAContractInformationDescriptor::GetRecordComponentTag, dvbsiparser/IIsdbCAContractInformationDescriptor::GetRecordComponentTag, mstv.iisdbcacontractinformationdescriptor_getrecordcomponenttag
 ms.topic: method
-f1_keywords: 
- - "dvbsiparser/IIsdbCAContractInformationDescriptor.GetRecordComponentTag"
+f1_keywords:
+- dvbsiparser/IIsdbCAContractInformationDescriptor.GetRecordComponentTag
 dev_langs:
- - c++
+- c++
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dvbsiparser.h
+- dvbsiparser.h
 api_name:
- - IIsdbCAContractInformationDescriptor.GetRecordComponentTag
+- IIsdbCAContractInformationDescriptor.GetRecordComponentTag
 targetos: Windows
 req.typenames: 
 req.redist: 

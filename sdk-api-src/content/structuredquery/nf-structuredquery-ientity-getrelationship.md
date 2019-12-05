@@ -1,19 +1,17 @@
 ---
 UID: NF:structuredquery.IEntity.GetRelationship
 title: IEntity::GetRelationship (structuredquery.h)
-
 description: Retrieves the IRelationship object for this entity as requested by name.
 old-location: search\_search_IEntity_GetRelationship.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\ientity\getrelationship.htm
-
 ms.date: 12/05/2018
 ms.keywords: GetRelationship, GetRelationship method [search], GetRelationship method [search],IEntity interface, IEntity interface [search],GetRelationship method, IEntity.GetRelationship, IEntity::GetRelationship, _search_IEntity_GetRelationship, search._search_IEntity_GetRelationship, structuredquery/IEntity::GetRelationship
 ms.topic: method
-f1_keywords: 
- - "structuredquery/IEntity.GetRelationship"
+f1_keywords:
+- structuredquery/IEntity.GetRelationship
 dev_langs:
- - c++
+- c++
 req.header: structuredquery.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Structuredquery.h
+- Structuredquery.h
 api_name:
- - IEntity.GetRelationship
+- IEntity.GetRelationship
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0

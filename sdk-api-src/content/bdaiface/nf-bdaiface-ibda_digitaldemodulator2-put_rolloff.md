@@ -1,19 +1,17 @@
 ---
 UID: NF:bdaiface.IBDA_DigitalDemodulator2.put_RollOff
 title: IBDA_DigitalDemodulator2::put_RollOff (bdaiface.h)
-
 description: Sets the demodulator's roll-off factor.
 old-location: mstv\ibda_digitaldemodulator2_put_rolloff.htm
 tech.root: mstv
 ms.assetid: ade8c334-b7b3-464e-a3ab-f8816a44a9dd
-
 ms.date: 12/05/2018
 ms.keywords: IBDA_DigitalDemodulator2 interface [Microsoft TV Technologies],put_RollOff method, IBDA_DigitalDemodulator2.put_RollOff, IBDA_DigitalDemodulator2::put_RollOff, bdaiface/IBDA_DigitalDemodulator2::put_RollOff, mstv.ibda_digitaldemodulator2_put_rolloff, put_RollOff, put_RollOff method [Microsoft TV Technologies], put_RollOff method [Microsoft TV Technologies],IBDA_DigitalDemodulator2 interface
 ms.topic: method
-f1_keywords: 
- - "bdaiface/IBDA_DigitalDemodulator2.put_RollOff"
+f1_keywords:
+- bdaiface/IBDA_DigitalDemodulator2.put_RollOff
 dev_langs:
- - c++
+- c++
 req.header: bdaiface.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - bdaiface.h
+- bdaiface.h
 api_name:
- - IBDA_DigitalDemodulator2.put_RollOff
+- IBDA_DigitalDemodulator2.put_RollOff
 targetos: Windows
 req.typenames: 
 req.redist: 

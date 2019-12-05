@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d10.ID3D10Device.CheckFormatSupport
 title: ID3D10Device::CheckFormatSupport (d3d10.h)
-
 description: Get the support of a given format on the installed video device.
 old-location: direct3d10\id3d10device_checkformatsupport.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10device_checkformatsupport.htm
-
 ms.date: 12/05/2018
 ms.keywords: CheckFormatSupport, CheckFormatSupport method [Direct3D 10], CheckFormatSupport method [Direct3D 10],ID3D10Device interface, ID3D10Device interface [Direct3D 10],CheckFormatSupport method, ID3D10Device.CheckFormatSupport, ID3D10Device::CheckFormatSupport, d3d10/ID3D10Device::CheckFormatSupport, direct3d10.id3d10device_checkformatsupport, eaf02733-648b-44c6-4ca7-57aa2cecf913
 ms.topic: method
-f1_keywords: 
- - "d3d10/ID3D10Device.CheckFormatSupport"
+f1_keywords:
+- d3d10/ID3D10Device.CheckFormatSupport
 dev_langs:
- - c++
+- c++
 req.header: d3d10.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: D3D10.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D10.lib
- - D3D10.dll
+- D3D10.lib
+- D3D10.dll
 api_name:
- - ID3D10Device.CheckFormatSupport
+- ID3D10Device.CheckFormatSupport
 targetos: Windows
 req.typenames: 
 req.redist: 

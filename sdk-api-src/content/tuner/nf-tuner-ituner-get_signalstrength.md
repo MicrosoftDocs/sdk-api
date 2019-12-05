@@ -1,19 +1,17 @@
 ---
 UID: NF:tuner.ITuner.get_SignalStrength
 title: ITuner::get_SignalStrength (tuner.h)
-
 description: The get_SignalStrength method retrieves the Network Provider-specific signal strength metric.
 old-location: mstv\ituner_get_signalstrength.htm
 tech.root: mstv
 ms.assetid: 3040f56b-2c60-43c8-81b8-5c3538db08db
-
 ms.date: 12/05/2018
 ms.keywords: ITuner interface [Microsoft TV Technologies],get_SignalStrength method, ITuner.get_SignalStrength, ITuner::get_SignalStrength, ITunerget_SignalStrength, get_SignalStrength, get_SignalStrength method [Microsoft TV Technologies], get_SignalStrength method [Microsoft TV Technologies],ITuner interface, mstv.ituner_get_signalstrength, tuner/ITuner::get_SignalStrength
 ms.topic: method
-f1_keywords: 
- - "tuner/ITuner.get_SignalStrength"
+f1_keywords:
+- tuner/ITuner.get_SignalStrength
 dev_langs:
- - c++
+- c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - tuner.h
+- tuner.h
 api_name:
- - ITuner.get_SignalStrength
+- ITuner.get_SignalStrength
 targetos: Windows
 req.typenames: 
 req.redist: 

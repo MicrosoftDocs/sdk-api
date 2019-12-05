@@ -1,19 +1,17 @@
 ---
 UID: NS:shobjidl_core.SHDRAGIMAGE
 title: SHDRAGIMAGE (shobjidl_core.h)
-
 description: Contains the information needed to create a drag image.
 old-location: shell\SHDRAGIMAGE_str.htm
 tech.root: shell
 ms.assetid: e0dd76b2-fd5c-41e8-b540-db90a2f0dcec
-
 ms.date: 12/05/2018
-ms.keywords: "*LPSHDRAGIMAGE, LPSHDRAGIMAGE, LPSHDRAGIMAGE structure pointer [Windows Shell], SHDRAGIMAGE, SHDRAGIMAGE structure [Windows Shell], _win32_SHDRAGIMAGE_str, shell.SHDRAGIMAGE_str, shobjidl_core/LPSHDRAGIMAGE, shobjidl_core/SHDRAGIMAGE"
+ms.keywords: '*LPSHDRAGIMAGE, LPSHDRAGIMAGE, LPSHDRAGIMAGE structure pointer [Windows Shell], SHDRAGIMAGE, SHDRAGIMAGE structure [Windows Shell], _win32_SHDRAGIMAGE_str, shell.SHDRAGIMAGE_str, shobjidl_core/LPSHDRAGIMAGE, shobjidl_core/SHDRAGIMAGE'
 ms.topic: struct
-f1_keywords: 
- - "shobjidl_core/SHDRAGIMAGE"
+f1_keywords:
+- shobjidl_core/SHDRAGIMAGE
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Shobjidl_core.h
+- Shobjidl_core.h
 api_name:
- - SHDRAGIMAGE
+- SHDRAGIMAGE
 targetos: Windows
 req.typenames: SHDRAGIMAGE, *LPSHDRAGIMAGE
 req.redist: 

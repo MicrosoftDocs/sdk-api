@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IActionProgress.End
 title: IActionProgress::End (shobjidl_core.h)
-
 description: Indicates that the action associated with this progress implementation has ended.
 old-location: shell\IActionProgress_End.htm
 tech.root: shell
 ms.assetid: 91fa11c3-c781-4e96-9a42-4625b8b24333
-
 ms.date: 12/05/2018
 ms.keywords: End, End method [Windows Shell], End method [Windows Shell],IActionProgress interface, IActionProgress interface [Windows Shell],End method, IActionProgress.End, IActionProgress::End, shell.IActionProgress_End, shell_IActionProgress_End, shobjidl_core/IActionProgress::End
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IActionProgress.End"
+f1_keywords:
+- shobjidl_core/IActionProgress.End
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Shobjidl.idl
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shobjidl.idl
+- Shobjidl.idl
 api_name:
- - IActionProgress.End
+- IActionProgress.End
 targetos: Windows
 req.typenames: 
 req.redist: 

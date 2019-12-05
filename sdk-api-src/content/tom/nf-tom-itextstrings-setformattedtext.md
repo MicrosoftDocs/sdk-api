@@ -1,19 +1,17 @@
 ---
 UID: NF:tom.ITextStrings.SetFormattedText
 title: ITextStrings::SetFormattedText (tom.h)
-
 description: Replaces text with formatted text.
 old-location: controls\itextstrings_setformattedtext.htm
 tech.root: Controls
 ms.assetid: 4ebf7b46-8398-4751-b8b3-19e94fdbce87
-
 ms.date: 12/05/2018
 ms.keywords: ITextStrings interface [Windows Controls],SetFormattedText method, ITextStrings.SetFormattedText, ITextStrings::SetFormattedText, SetFormattedText, SetFormattedText method [Windows Controls], SetFormattedText method [Windows Controls],ITextStrings interface, controls.itextstrings_setformattedtext, tom/ITextStrings::SetFormattedText
 ms.topic: method
-f1_keywords: 
- - "tom/ITextStrings.SetFormattedText"
+f1_keywords:
+- tom/ITextStrings.SetFormattedText
 dev_langs:
- - c++
+- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msftedit.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msftedit.dll
+- Msftedit.dll
 api_name:
- - ITextStrings.SetFormattedText
+- ITextStrings.SetFormattedText
 targetos: Windows
 req.typenames: 
 req.redist: 

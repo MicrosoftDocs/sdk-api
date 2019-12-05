@@ -1,19 +1,17 @@
 ---
 UID: NF:winnetwk.WNetGetConnectionA
 title: WNetGetConnectionA function (winnetwk.h)
-
 description: The WNetGetConnection function retrieves the name of the network resource associated with a local device.
 old-location: wnet\wnetgetconnection.htm
 tech.root: WNet
 ms.assetid: 72d84752-4e64-4c16-872b-cb892dffbf9a
-
 ms.date: 12/05/2018
 ms.keywords: WNetGetConnection, WNetGetConnection function [Windows Networking (WNet)], WNetGetConnectionA, WNetGetConnectionW, _win32_wnetgetconnection, winnetwk/WNetGetConnection, winnetwk/WNetGetConnectionA, winnetwk/WNetGetConnectionW, wnet.wnetgetconnection
 ms.topic: function
-f1_keywords: 
- - "winnetwk/WNetGetConnection"
+f1_keywords:
+- winnetwk/WNetGetConnection
 dev_langs:
- - c++
+- c++
 req.header: winnetwk.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Mpr.lib
 req.dll: Mpr.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Mpr.dll
+- Mpr.dll
 api_name:
- - WNetGetConnection
- - WNetGetConnectionA
- - WNetGetConnectionW
+- WNetGetConnection
+- WNetGetConnectionA
+- WNetGetConnectionW
 targetos: Windows
 req.typenames: 
 req.redist: 

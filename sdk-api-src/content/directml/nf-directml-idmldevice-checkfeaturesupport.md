@@ -1,19 +1,17 @@
 ---
 UID: NF:directml.IDMLDevice.CheckFeatureSupport
 title: IDMLDevice::CheckFeatureSupport
-
 description: Gets information about the optional features and capabilities that are supported by the DirectML device.
 old-location: direct3d12\idmldevice_checkfeaturesupport.htm
 tech.root: direct3d12
 ms.assetid: 7EDF00C2-332F-4DC3-B71D-EE8CDCB7E92D
-
 ms.date: 12/5/2018
 ms.keywords: CheckFeatureSupport, CheckFeatureSupport method, CheckFeatureSupport method,IDMLDevice interface, IDMLDevice interface,CheckFeatureSupport method, IDMLDevice.CheckFeatureSupport, IDMLDevice::CheckFeatureSupport, direct3d12.idmldevice_checkfeaturesupport, directml/IDMLDevice::CheckFeatureSupport
 ms.topic: method
-f1_keywords: 
- - "directml/IDMLDevice.CheckFeatureSupport"
+f1_keywords:
+- directml/IDMLDevice.CheckFeatureSupport
 dev_langs:
- - c++
+- c++
 req.header: directml.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: DirectML.lib
 req.dll: DirectML.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - DirectML.dll
+- DirectML.dll
 api_name:
- - IDMLDevice.CheckFeatureSupport
+- IDMLDevice.CheckFeatureSupport
 targetos: Windows
 req.typenames: 
 req.redist: 

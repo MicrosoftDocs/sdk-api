@@ -1,19 +1,17 @@
 ---
 UID: NF:directmanipulation.IDirectManipulationViewport.Enable
 title: IDirectManipulationViewport::Enable (directmanipulation.h)
-
 description: Starts or resumes input processing by the viewport.
 old-location: directmanipulation\idirectmanipulationviewport_enable.htm
 tech.root: directmanipulation
 ms.assetid: 47ebb502-26c6-4bff-8baf-bd825fc06755
-
 ms.date: 12/05/2018
 ms.keywords: Enable, Enable method [Direct Manipulation], Enable method [Direct Manipulation],IDirectManipulationViewport interface, IDirectManipulationViewport interface [Direct Manipulation],Enable method, IDirectManipulationViewport.Enable, IDirectManipulationViewport::Enable, directmanipulation.idirectmanipulationviewport_enable, directmanipulation/IDirectManipulationViewport::Enable
 ms.topic: method
-f1_keywords: 
- - "directmanipulation/IDirectManipulationViewport.Enable"
+f1_keywords:
+- directmanipulation/IDirectManipulationViewport.Enable
 dev_langs:
- - c++
+- c++
 req.header: directmanipulation.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - DirectManipulation.h
+- DirectManipulation.h
 api_name:
- - IDirectManipulationViewport.Enable
+- IDirectManipulationViewport.Enable
 targetos: Windows
 req.typenames: 
 req.redist: 

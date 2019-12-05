@@ -1,19 +1,17 @@
 ---
 UID: NE:shobjidl_core.APPLICATION_VIEW_STATE
 title: APPLICATION_VIEW_STATE (shobjidl_core.h)
-
 description: Indicates the current view state of a Windows Store app. Used by IApplicationDesignModeSettings::SetApplicationViewState and IApplicationDesignModeSettings::IsApplicationViewStateSupported.
 old-location: shell\APPLICATION_VIEW_STATE.htm
 tech.root: shell
 ms.assetid: A79F66BD-2972-4f30-9284-E88B8201F38D
-
 ms.date: 12/05/2018
 ms.keywords: APPLICATION_VIEW_STATE, APPLICATION_VIEW_STATE enumeration [Windows Shell], AVS_FILLED, AVS_FULLSCREEN_LANDSCAPE, AVS_FULLSCREEN_PORTRAIT, AVS_SNAPPED, shell.APPLICATION_VIEW_STATE, shobjidl_core/APPLICATION_VIEW_STATE, shobjidl_core/AVS_FILLED, shobjidl_core/AVS_FULLSCREEN_LANDSCAPE, shobjidl_core/AVS_FULLSCREEN_PORTRAIT, shobjidl_core/AVS_SNAPPED
 ms.topic: enum
-f1_keywords: 
- - "shobjidl_core/APPLICATION_VIEW_STATE"
+f1_keywords:
+- shobjidl_core/APPLICATION_VIEW_STATE
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - APPLICATION_VIEW_STATE
+- APPLICATION_VIEW_STATE
 targetos: Windows
 req.typenames: APPLICATION_VIEW_STATE
 req.redist: 

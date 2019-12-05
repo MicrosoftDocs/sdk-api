@@ -1,19 +1,17 @@
 ---
 UID: NF:mfobjects.IMFPluginControl.IsDisabled
 title: IMFPluginControl::IsDisabled (mfobjects.h)
-
 description: Queries whether a class identifier (CLSID) appears in the blocked list.
 old-location: mf\imfplugincontrol_imfplugincontrol__isdisabled.htm
 tech.root: medfound
 ms.assetid: 75f4f3a2-198d-41c0-b0fa-4a1fbefad7b6
-
 ms.date: 12/05/2018
 ms.keywords: IMFPluginControl interface [Media Foundation],IsDisabled method, IMFPluginControl.IsDisabled, IMFPluginControl::IsDisabled, IsDisabled, IsDisabled method [Media Foundation], IsDisabled method [Media Foundation],IMFPluginControl interface, mf.imfplugincontrol_imfplugincontrol__isdisabled, mfobjects/IMFPluginControl::IsDisabled
 ms.topic: method
 f1_keywords:
 - mfobjects/IMFPluginControl.IsDisabled
 dev_langs:
- - c++
+- c++
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows

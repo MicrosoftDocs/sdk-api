@@ -1,19 +1,17 @@
 ---
 UID: NF:fltuser.FilterGetMessage
 title: FilterGetMessage function (fltuser.h)
-
 description: The FilterGetMessage function gets a message from a kernel-mode minifilter.
 old-location: ifsk\filtergetmessage.htm
 tech.root: ifsk
 ms.assetid: 2738e237-835c-471f-9129-26c4da5fe839
-
 ms.date: 12/05/2018
 ms.keywords: FilterGetMessage, FilterGetMessage function [Installable File System Drivers], FltWin32ApiRef_2a4730dd-cee5-4a3e-b904-c19683fc314a.xml, fltuser/FilterGetMessage, ifsk.filtergetmessage
 ms.topic: function
-f1_keywords: 
- - "fltuser/FilterGetMessage"
+f1_keywords:
+- fltuser/FilterGetMessage
 dev_langs:
- - c++
+- c++
 req.header: fltuser.h
 req.include-header: Fltuser.h
 req.target-type: Universal
@@ -32,14 +30,14 @@ req.lib: FltLib.lib
 req.dll: FltLib.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - FltLib.dll
+- FltLib.dll
 api_name:
- - FilterGetMessage
+- FilterGetMessage
 targetos: Windows
 req.typenames: 
 req.redist: 

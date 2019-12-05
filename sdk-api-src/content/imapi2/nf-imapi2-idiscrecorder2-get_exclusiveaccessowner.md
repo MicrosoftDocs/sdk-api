@@ -1,19 +1,17 @@
 ---
 UID: NF:imapi2.IDiscRecorder2.get_ExclusiveAccessOwner
 title: IDiscRecorder2::get_ExclusiveAccessOwner (imapi2.h)
-
 description: Retrieves the name of the client application that has exclusive access to the device.
 old-location: imapi\idiscrecorder2_get_exclusiveaccessowner.htm
 tech.root: imapi
 ms.assetid: 32577b35-235a-4186-8fb3-18e5555cb56f
-
 ms.date: 12/05/2018
 ms.keywords: IDiscRecorder2 interface [IMAPI],get_ExclusiveAccessOwner method, IDiscRecorder2.get_ExclusiveAccessOwner, IDiscRecorder2::get_ExclusiveAccessOwner, get_ExclusiveAccessOwner, get_ExclusiveAccessOwner method [IMAPI], get_ExclusiveAccessOwner method [IMAPI],IDiscRecorder2 interface, imapi.idiscrecorder2_get_exclusiveaccessowner, imapi2/IDiscRecorder2::get_ExclusiveAccessOwner
 ms.topic: method
-f1_keywords: 
- - "imapi2/IDiscRecorder2.get_ExclusiveAccessOwner"
+f1_keywords:
+- imapi2/IDiscRecorder2.get_ExclusiveAccessOwner
 dev_langs:
- - c++
+- c++
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - imapi2.h
+- imapi2.h
 api_name:
- - IDiscRecorder2.get_ExclusiveAccessOwner
+- IDiscRecorder2.get_ExclusiveAccessOwner
 targetos: Windows
 req.typenames: 
 req.redist: 

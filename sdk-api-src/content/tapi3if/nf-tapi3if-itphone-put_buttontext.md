@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi3if.ITPhone.put_ButtonText
 title: ITPhone::put_ButtonText (tapi3if.h)
-
 description: The put_ButtonText method sets the button text.
 old-location: tapi3\itphone_put_buttontext.htm
 tech.root: Tapi
 ms.assetid: b50427e9-94cd-47bb-910f-2f879df9bcf8
-
 ms.date: 12/05/2018
 ms.keywords: ITPhone interface [TAPI 2.2],put_ButtonText method, ITPhone.put_ButtonText, ITPhone::put_ButtonText, _tapi3_itphone_put_buttontext, put_ButtonText, put_ButtonText method [TAPI 2.2], put_ButtonText method [TAPI 2.2],ITPhone interface, tapi3.itphone_put_buttontext, tapi3if/ITPhone::put_ButtonText
 ms.topic: method
-f1_keywords: 
- - "tapi3if/ITPhone.put_ButtonText"
+f1_keywords:
+- tapi3if/ITPhone.put_ButtonText
 dev_langs:
- - c++
+- c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Tapi3.dll
+- Tapi3.dll
 api_name:
- - ITPhone.put_ButtonText
+- ITPhone.put_ButtonText
 targetos: Windows
 req.typenames: 
 req.redist: 

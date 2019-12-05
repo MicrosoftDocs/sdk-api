@@ -1,19 +1,17 @@
 ---
 UID: NF:segment.IMSVidPlayback.Step
 title: IMSVidPlayback::Step (segment.h)
-
 description: The Step method steps through the video stream by a specified number of frames.
 old-location: mstv\imsvidplayback_step.htm
 tech.root: mstv
 ms.assetid: 8e971571-61f4-4b24-81a7-45fa17b6b785
-
 ms.date: 12/05/2018
 ms.keywords: IMSVidPlayback interface [Microsoft TV Technologies],Step method, IMSVidPlayback.Step, IMSVidPlayback::Step, IMSVidPlaybackStep, Step, Step method [Microsoft TV Technologies], Step method [Microsoft TV Technologies],IMSVidPlayback interface, mstv.imsvidplayback_step, segment/IMSVidPlayback::Step
 ms.topic: method
-f1_keywords: 
- - "segment/IMSVidPlayback.Step"
+f1_keywords:
+- segment/IMSVidPlayback.Step
 dev_langs:
- - c++
+- c++
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - segment.h
+- segment.h
 api_name:
- - IMSVidPlayback.Step
+- IMSVidPlayback.Step
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:filtereg.ILoadFilter.LoadIFilterFromStorage
 title: ILoadFilter::LoadIFilterFromStorage (filtereg.h)
-
 description: Do not use:\_this method is not implemented.
 old-location: search\iloadfilter_loadifilterfromstorage.htm
 tech.root: search
 ms.assetid: b4eff132-9022-4091-a2a3-1d8e11a35b39
-
 ms.date: 12/05/2018
 ms.keywords: ILoadFilter interface [search],LoadIFilterFromStorage method, ILoadFilter.LoadIFilterFromStorage, ILoadFilter::LoadIFilterFromStorage, LoadIFilterFromStorage, LoadIFilterFromStorage method [search], LoadIFilterFromStorage method [search],ILoadFilter interface, filtereg/ILoadFilter::LoadIFilterFromStorage, search.iloadfilter_loadifilterfromstorage
 ms.topic: method
-f1_keywords: 
- - "filtereg/ILoadFilter.LoadIFilterFromStorage"
+f1_keywords:
+- filtereg/ILoadFilter.LoadIFilterFromStorage
 dev_langs:
- - c++
+- c++
 req.header: filtereg.h
 req.include-header: Filtereg.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - filtereg.h
+- filtereg.h
 api_name:
- - ILoadFilter.LoadIFilterFromStorage
+- ILoadFilter.LoadIFilterFromStorage
 targetos: Windows
 req.typenames: 
 req.redist: 

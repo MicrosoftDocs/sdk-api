@@ -1,19 +1,17 @@
 ---
 UID: NN:evr.IMFVideoDisplayControl
 title: IMFVideoDisplayControl (evr.h)
-
 description: Controls how the Enhanced Video Renderer (EVR) displays video.
 old-location: mf\imfvideodisplaycontrol.htm
 tech.root: medfound
 ms.assetid: db9b4663-9240-484f-8c47-cb1f5daa238d
-
 ms.date: 12/05/2018
 ms.keywords: IMFVideoDisplayControl, IMFVideoDisplayControl interface [Media Foundation], IMFVideoDisplayControl interface [Media Foundation],described, db9b4663-9240-484f-8c47-cb1f5daa238d, evr/IMFVideoDisplayControl, mf.imfvideodisplaycontrol
 ms.topic: interface
-f1_keywords: 
- - "evr/IMFVideoDisplayControl"
+f1_keywords:
+- evr/IMFVideoDisplayControl
 dev_langs:
- - c++
+- c++
 req.header: evr.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - strmiids.lib
- - strmiids.dll
+- strmiids.lib
+- strmiids.dll
 api_name:
- - IMFVideoDisplayControl
+- IMFVideoDisplayControl
 targetos: Windows
 req.typenames: 
 req.redist: 

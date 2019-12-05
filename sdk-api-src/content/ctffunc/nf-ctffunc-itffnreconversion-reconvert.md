@@ -1,19 +1,17 @@
 ---
 UID: NF:ctffunc.ITfFnReconversion.Reconvert
 title: ITfFnReconversion::Reconvert (ctffunc.h)
-
 description: ITfFnReconversion::Reconvert method
 old-location: tsf\itffnreconversion_reconvert.htm
 tech.root: TSF
 ms.assetid: 81d0f376-c059-4fcf-b85b-645bc98f957d
-
 ms.date: 12/05/2018
 ms.keywords: ITfFnReconversion interface [Text Services Framework],Reconvert method, ITfFnReconversion.Reconvert, ITfFnReconversion::Reconvert, Reconvert, Reconvert method [Text Services Framework], Reconvert method [Text Services Framework],ITfFnReconversion interface, _tsf_itffnreconversion_reconvert_ref, ctffunc/ITfFnReconversion::Reconvert, tsf.itffnreconversion_reconvert
 ms.topic: method
-f1_keywords: 
- - "ctffunc/ITfFnReconversion.Reconvert"
+f1_keywords:
+- ctffunc/ITfFnReconversion.Reconvert
 dev_langs:
- - c++
+- c++
 req.header: ctffunc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msctf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msctf.dll
+- Msctf.dll
 api_name:
- - ITfFnReconversion.Reconvert
+- ITfFnReconversion.Reconvert
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

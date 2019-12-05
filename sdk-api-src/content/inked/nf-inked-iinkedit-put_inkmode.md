@@ -1,19 +1,17 @@
 ---
 UID: NF:inked.IInkEdit.put_InkMode
 title: IInkEdit::put_InkMode (inked.h)
-
 description: Gets or sets a value that specifies whether ink collection is disabled, ink is collected, or ink and gestures are collected.
 old-location: tablet\inkedit_inkmode.htm
 tech.root: tablet
 ms.assetid: 0e395907-108b-40cf-819b-65a34e4ffc4d
-
 ms.date: 12/05/2018
 ms.keywords: 0e395907-108b-40cf-819b-65a34e4ffc4d, Disabled, IInkEdit interface [Tablet PC],InkMode property, IInkEdit.InkMode, IInkEdit.put_InkMode, IInkEdit::InkMode, IInkEdit::get_InkMode, IInkEdit::put_InkMode, Ink, InkAndGesture, InkEdit.get_InkMode, InkEdit.put_InkMode, InkMode property [Tablet PC], InkMode property [Tablet PC],IInkEdit interface, get_InkMode, inked/IInkEdit::InkMode, inked/IInkEdit::get_InkMode, inked/IInkEdit::put_InkMode, put_InkMode, tablet.inkedit_inkmode
 ms.topic: method
-f1_keywords: 
- - "inked/IInkEdit.InkMode"
+f1_keywords:
+- inked/IInkEdit.InkMode
 dev_langs:
- - c++
+- c++
 req.header: inked.h
 req.include-header: 
 req.target-type: Windows
@@ -32,19 +30,19 @@ req.lib: InkEd.dll
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - InkEd.dll
- - InkEd.dll.dll
+- InkEd.dll
+- InkEd.dll.dll
 api_name:
- - IInkEdit.InkMode
- - IInkEdit.get_InkMode
- - IInkEdit.put_InkMode
- - InkEdit.get_InkMode
- - InkEdit.put_InkMode
+- IInkEdit.InkMode
+- IInkEdit.get_InkMode
+- IInkEdit.put_InkMode
+- InkEdit.get_InkMode
+- InkEdit.put_InkMode
 targetos: Windows
 req.typenames: 
 req.redist: 

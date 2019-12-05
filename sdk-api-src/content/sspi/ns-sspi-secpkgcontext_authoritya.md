@@ -1,19 +1,17 @@
 ---
 UID: NS:sspi._SecPkgContext_AuthorityA
 title: SecPkgContext_AuthorityA (sspi.h)
-
 description: The SecPkgContext_Authority structure contains the name of the authenticating authority if one is available.
 old-location: security\secpkgcontext_authority.htm
 tech.root: SecAuthN
 ms.assetid: 619bf16b-c439-48e7-b013-3622e2f3bbc4
-
 ms.date: 12/05/2018
-ms.keywords: "*PSecPkgContext_AuthorityA, PSecPkgContext_Authority, PSecPkgContext_Authority structure pointer [Security], SecPkgContext_Authority, SecPkgContext_Authority structure [Security], SecPkgContext_AuthorityA, SecPkgContext_AuthorityW, _ssp_secpkgcontext_authority, security.secpkgcontext_authority, sspi/PSecPkgContext_Authority, sspi/SecPkgContext_Authority, sspi/SecPkgContext_AuthorityA, sspi/SecPkgContext_AuthorityW"
+ms.keywords: '*PSecPkgContext_AuthorityA, PSecPkgContext_Authority, PSecPkgContext_Authority structure pointer [Security], SecPkgContext_Authority, SecPkgContext_Authority structure [Security], SecPkgContext_AuthorityA, SecPkgContext_AuthorityW, _ssp_secpkgcontext_authority, security.secpkgcontext_authority, sspi/PSecPkgContext_Authority, sspi/SecPkgContext_Authority, sspi/SecPkgContext_AuthorityA, sspi/SecPkgContext_AuthorityW'
 ms.topic: struct
-f1_keywords: 
- - "sspi/SecPkgContext_Authority"
+f1_keywords:
+- sspi/SecPkgContext_Authority
 dev_langs:
- - c++
+- c++
 req.header: sspi.h
 req.include-header: Security.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Sspi.h
+- Sspi.h
 api_name:
- - SecPkgContext_Authority
- - SecPkgContext_AuthorityA
- - SecPkgContext_AuthorityW
+- SecPkgContext_Authority
+- SecPkgContext_AuthorityA
+- SecPkgContext_AuthorityW
 targetos: Windows
 req.typenames: SecPkgContext_AuthorityA, *PSecPkgContext_AuthorityA
 req.redist: 

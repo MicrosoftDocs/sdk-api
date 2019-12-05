@@ -1,19 +1,17 @@
 ---
 UID: NF:gdiplusinit.GdiplusShutdown
 title: GdiplusShutdown function (gdiplusinit.h)
-
 description: The GdiplusShutdown function cleans up resources used by Windows GDI+. Each call to GdiplusStartup should be paired with a call to GdiplusShutdown.
 old-location: gdiplus\_gdiplus_FUNC_GdiplusShutdown_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\functions\gdiplusshutdown.htm
-
 ms.date: 12/05/2018
 ms.keywords: GdiplusShutdown, GdiplusShutdown function [GDI+], _gdiplus_FUNC_GdiplusShutdown_, gdiplus._gdiplus_FUNC_GdiplusShutdown_, gdiplusinit/GdiplusShutdown
 ms.topic: function
-f1_keywords: 
- - "gdiplusinit/GdiplusShutdown"
+f1_keywords:
+- gdiplusinit/GdiplusShutdown
 dev_langs:
- - c++
+- c++
 req.header: gdiplusinit.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - GdiplusShutdown
+- GdiplusShutdown
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:faxcomex.IFaxReceiptOptions.put_SMTPPassword
 title: IFaxReceiptOptions::put_SMTPPassword (faxcomex.h)
-
 description: The IFaxReceiptOptions::get_SMTPPassword property is a null-terminated string that contains the Simple Mail Transport Protocol (SMTP) password used for authenticated connections.
 old-location: fax\_mfax_faxreceiptoptions_cpp_mfax_faxreceiptoptions_smtppassword_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_1euc.htm
-
 ms.date: 12/05/2018
 ms.keywords: IFaxReceiptOptions interface [Fax Service],SMTPPassword property, IFaxReceiptOptions.SMTPPassword, IFaxReceiptOptions.get_SMTPPassword, IFaxReceiptOptions.put_SMTPPassword, IFaxReceiptOptions::SMTPPassword, IFaxReceiptOptions::get_SMTPPassword, IFaxReceiptOptions::put_SMTPPassword, SMTPPassword property [Fax Service], SMTPPassword property [Fax Service],IFaxReceiptOptions interface, _mfax_faxreceiptoptions.smtppassword, fax._mfax_faxreceiptoptions_cpp_mfax_faxreceiptoptions_smtppassword_cpp, fax._mfax_faxreceiptoptions_smtppassword, faxcomex/IFaxReceiptOptions::SMTPPassword, faxcomex/IFaxReceiptOptions::get_SMTPPassword, faxcomex/IFaxReceiptOptions::put_SMTPPassword, put_SMTPPassword
 ms.topic: method
-f1_keywords: 
- - "faxcomex/IFaxReceiptOptions.SMTPPassword"
+f1_keywords:
+- faxcomex/IFaxReceiptOptions.SMTPPassword
 dev_langs:
- - c++
+- c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib:
 req.dll: Fxscomex.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Fxscomex.dll
+- Fxscomex.dll
 api_name:
- - IFaxReceiptOptions.SMTPPassword
- - IFaxReceiptOptions.get_SMTPPassword
- - IFaxReceiptOptions.put_SMTPPassword
- - IFaxReceiptOptions.get_SMTPPassword
- - IFaxReceiptOptions.put_SMTPPassword
+- IFaxReceiptOptions.SMTPPassword
+- IFaxReceiptOptions.get_SMTPPassword
+- IFaxReceiptOptions.put_SMTPPassword
+- IFaxReceiptOptions.get_SMTPPassword
+- IFaxReceiptOptions.put_SMTPPassword
 targetos: Windows
 req.typenames: 
 req.redist: 

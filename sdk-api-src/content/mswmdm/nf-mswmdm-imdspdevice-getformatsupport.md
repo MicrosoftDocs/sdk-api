@@ -1,19 +1,17 @@
 ---
 UID: NF:mswmdm.IMDSPDevice.GetFormatSupport
 title: IMDSPDevice::GetFormatSupport (mswmdm.h)
-
 description: The GetFormatSupport method retrieves all the formats supported by the device. The format information includes codecs, file formats, and digital rights management schemes.
 old-location: wmdm\imdspdevice_getformatsupport.htm
 tech.root: WMDM
 ms.assetid: ac50ac7d-bd55-4ece-8af8-5c8b2f7736e8
-
 ms.date: 12/05/2018
 ms.keywords: GetFormatSupport, GetFormatSupport method [windows Media Device Manager], GetFormatSupport method [windows Media Device Manager],IMDSPDevice interface, IMDSPDevice interface [windows Media Device Manager],GetFormatSupport method, IMDSPDevice.GetFormatSupport, IMDSPDevice::GetFormatSupport, IMDSPDeviceGetFormatSupport, mswmdm/IMDSPDevice::GetFormatSupport, wmdm.imdspdevice_getformatsupport
 ms.topic: method
-f1_keywords: 
- - "mswmdm/IMDSPDevice.GetFormatSupport"
+f1_keywords:
+- mswmdm/IMDSPDevice.GetFormatSupport
 dev_langs:
- - c++
+- c++
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mssachlp.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mssachlp.lib
- - mssachlp.dll
+- mssachlp.lib
+- mssachlp.dll
 api_name:
- - IMDSPDevice.GetFormatSupport
+- IMDSPDevice.GetFormatSupport
 targetos: Windows
 req.typenames: 
 req.redist: 

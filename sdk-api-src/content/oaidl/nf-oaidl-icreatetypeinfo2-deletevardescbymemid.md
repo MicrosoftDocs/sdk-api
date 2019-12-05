@@ -1,19 +1,17 @@
 ---
 UID: NF:oaidl.ICreateTypeInfo2.DeleteVarDescByMemId
 title: ICreateTypeInfo2::DeleteVarDescByMemId (oaidl.h)
-
 description: Deletes the specified VARDESC structure.
 old-location: automat\icreatetypeinfo2_deletevardescbymemid.htm
 tech.root: automat
 ms.assetid: 5b69dda9-01b5-45b2-ab92-65a29a2d1f21
-
 ms.date: 12/05/2018
 ms.keywords: DeleteVarDescByMemId, DeleteVarDescByMemId method [Automation], DeleteVarDescByMemId method [Automation],ICreateTypeInfo2 interface, ICreateTypeInfo2 interface [Automation],DeleteVarDescByMemId method, ICreateTypeInfo2.DeleteVarDescByMemId, ICreateTypeInfo2::DeleteVarDescByMemId, _oa96_ICreateTypeInfo2_DeleteVarDescByMemId, automat.icreatetypeinfo2_deletevardescbymemid, oaidl/ICreateTypeInfo2::DeleteVarDescByMemId
 ms.topic: method
-f1_keywords: 
- - "oaidl/ICreateTypeInfo2.DeleteVarDescByMemId"
+f1_keywords:
+- oaidl/ICreateTypeInfo2.DeleteVarDescByMemId
 dev_langs:
- - c++
+- c++
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - oaidl.h
+- oaidl.h
 api_name:
- - ICreateTypeInfo2.DeleteVarDescByMemId
+- ICreateTypeInfo2.DeleteVarDescByMemId
 targetos: Windows
 req.typenames: 
 req.redist: 

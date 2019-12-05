@@ -1,19 +1,17 @@
 ---
 UID: NF:mediaobj.IMediaObject.GetInputSizeInfo
 title: IMediaObject::GetInputSizeInfo (mediaobj.h)
-
 description: The GetInputSizeInfo method retrieves the buffer requirements for a specified input stream.
 old-location: dshow\imediaobject_getinputsizeinfo.htm
 tech.root: DirectShow
 ms.assetid: cce6359a-cd6e-46c9-a1cb-553ae5f83b9c
-
 ms.date: 12/05/2018
 ms.keywords: GetInputSizeInfo, GetInputSizeInfo method [DirectShow], GetInputSizeInfo method [DirectShow],IMediaObject interface, IMediaObject interface [DirectShow],GetInputSizeInfo method, IMediaObject.GetInputSizeInfo, IMediaObject::GetInputSizeInfo, IMediaObjectGetInputSizeInfo, dshow.imediaobject_getinputsizeinfo, mediaobj/IMediaObject::GetInputSizeInfo
 ms.topic: method
-f1_keywords: 
- - "mediaobj/IMediaObject.GetInputSizeInfo"
+f1_keywords:
+- mediaobj/IMediaObject.GetInputSizeInfo
 dev_langs:
- - c++
+- c++
 req.header: mediaobj.h
 req.include-header: Dmo.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Dmoguids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dmoguids.lib
- - Dmoguids.dll
+- Dmoguids.lib
+- Dmoguids.dll
 api_name:
- - IMediaObject.GetInputSizeInfo
+- IMediaObject.GetInputSizeInfo
 targetos: Windows
 req.typenames: 
 req.redist: 

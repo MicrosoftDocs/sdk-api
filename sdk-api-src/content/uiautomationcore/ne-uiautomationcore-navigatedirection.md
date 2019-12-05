@@ -1,19 +1,17 @@
 ---
 UID: NE:uiautomationcore.NavigateDirection
 title: NavigateDirection (uiautomationcore.h)
-
 description: Contains values used to specify the direction of navigation within the Microsoft UI Automation tree.
 old-location: winauto\uiauto_NavDirEnum.htm
 tech.root: WinAuto
 ms.assetid: 33385413-3500-4f80-b53a-fe960d1b53ee
-
 ms.date: 12/05/2018
 ms.keywords: NavigateDirection, NavigateDirection enumeration [Windows Accessibility], NavigateDirection_FirstChild, NavigateDirection_LastChild, NavigateDirection_NextSibling, NavigateDirection_Parent, NavigateDirection_PreviousSibling, uiauto.uiauto_NavDirEnum, uiauto_NavDirEnum, uiautomationcore/NavigateDirection, uiautomationcore/NavigateDirection_FirstChild, uiautomationcore/NavigateDirection_LastChild, uiautomationcore/NavigateDirection_NextSibling, uiautomationcore/NavigateDirection_Parent, uiautomationcore/NavigateDirection_PreviousSibling, winauto.uiauto_NavDirEnum
 ms.topic: enum
-f1_keywords: 
- - "uiautomationcore/NavigateDirection"
+f1_keywords:
+- uiautomationcore/NavigateDirection
 dev_langs:
- - c++
+- c++
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - UIAutomationCore.h
+- UIAutomationCore.h
 api_name:
- - NavigateDirection
+- NavigateDirection
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NN:imapi2.IDiscFormat2DataEventArgs
 title: IDiscFormat2DataEventArgs (imapi2.h)
-
 description: Use this interface to retrieve information about the current write operation.
 old-location: imapi\idiscformat2dataeventargs.htm
 tech.root: imapi
 ms.assetid: 6bf149d3-62ea-4ef5-8d45-44df9ad4982c
-
 ms.date: 12/05/2018
 ms.keywords: IDiscFormat2DataEventArgs, IDiscFormat2DataEventArgs interface [IMAPI], IDiscFormat2DataEventArgs interface [IMAPI],described, imapi.idiscformat2dataeventargs, imapi2/IDiscFormat2DataEventArgs
 ms.topic: interface
-f1_keywords: 
- - "imapi2/IDiscFormat2DataEventArgs"
+f1_keywords:
+- imapi2/IDiscFormat2DataEventArgs
 dev_langs:
- - c++
+- c++
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - imapi2.h
+- imapi2.h
 api_name:
- - IDiscFormat2DataEventArgs
+- IDiscFormat2DataEventArgs
 targetos: Windows
 req.typenames: 
 req.redist: 

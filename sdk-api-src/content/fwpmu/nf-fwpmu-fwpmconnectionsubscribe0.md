@@ -1,19 +1,17 @@
 ---
 UID: NF:fwpmu.FwpmConnectionSubscribe0
 title: FwpmConnectionSubscribe0 function (fwpmu.h)
-
 description: Is used to request the delivery of notifications about changes to a connection object.
 old-location: fwp\fwpmconnectionsubscribe0.htm
 tech.root: fwp
 ms.assetid: 86fe40b0-aada-44e1-91dd-0e825589159d
-
 ms.date: 12/05/2018
 ms.keywords: FwpmConnectionSubscribe0, FwpmConnectionSubscribe0 function [Filtering], fwp.fwpmconnectionsubscribe0, fwpmu/FwpmConnectionSubscribe0
 ms.topic: function
-f1_keywords: 
- - "fwpmu/FwpmConnectionSubscribe0"
+f1_keywords:
+- fwpmu/FwpmConnectionSubscribe0
 dev_langs:
- - c++
+- c++
 req.header: fwpmu.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Fwpuclnt.lib
 req.dll: Fwpuclnt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Fwpuclnt.dll
+- Fwpuclnt.dll
 api_name:
- - FwpmConnectionSubscribe0
+- FwpmConnectionSubscribe0
 targetos: Windows
 req.typenames: 
 req.redist: 

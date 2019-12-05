@@ -1,19 +1,17 @@
 ---
 UID: NS:wtsapi32._WTS_SESSION_INFOA
 title: WTS_SESSION_INFOA (wtsapi32.h)
-
 description: Contains information about a client session on a Remote Desktop Session Host (RD Session Host) server.
 old-location: termserv\wts_session_info_str.htm
 tech.root: TermServ
 ms.assetid: bb40d928-293a-4e2c-b7cf-2ac038da53c2
-
 ms.date: 12/05/2018
 ms.keywords: '*PWTS_SESSION_INFOA, PWTS_SESSION_INFO, PWTS_SESSION_INFO structure pointer [Remote Desktop Services], WTS_SESSION_INFO, WTS_SESSION_INFO structure [Remote Desktop Services], WTS_SESSION_INFOA, WTS_SESSION_INFOW, _win32_wts_session_info_str, termserv.wts_session_info_str, wtsapi32/PWTS_SESSION_INFO, wtsapi32/WTS_SESSION_INFO, wtsapi32/WTS_SESSION_INFOA, wtsapi32/WTS_SESSION_INFOW'
 ms.topic: struct
 f1_keywords:
 - wtsapi32/WTS_SESSION_INFO
 dev_langs:
- - c++
+- c++
 req.header: wtsapi32.h
 req.include-header: 
 req.target-type: Windows

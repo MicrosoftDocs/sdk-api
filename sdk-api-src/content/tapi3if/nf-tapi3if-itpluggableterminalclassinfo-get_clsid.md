@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi3if.ITPluggableTerminalClassInfo.get_CLSID
 title: ITPluggableTerminalClassInfo::get_CLSID (tapi3if.h)
-
 description: The get_CLSID method gets the CLSID used to CoCreateInstance the terminal.
 old-location: tapi3\itpluggableterminalclassinfo_get_clsid.htm
 tech.root: Tapi
 ms.assetid: 17513c0f-bc3a-474b-a9e0-ea91e2ae7fbf
-
 ms.date: 12/05/2018
 ms.keywords: ITPluggableTerminalClassInfo interface [TAPI 2.2],get_CLSID method, ITPluggableTerminalClassInfo.get_CLSID, ITPluggableTerminalClassInfo::get_CLSID, _tapi3_itpluggableterminalclassinfo_get_clsid, get_CLSID, get_CLSID method [TAPI 2.2], get_CLSID method [TAPI 2.2],ITPluggableTerminalClassInfo interface, tapi3.itpluggableterminalclassinfo_get_clsid, tapi3if/ITPluggableTerminalClassInfo::get_CLSID
 ms.topic: method
-f1_keywords: 
- - "tapi3if/ITPluggableTerminalClassInfo.get_CLSID"
+f1_keywords:
+- tapi3if/ITPluggableTerminalClassInfo.get_CLSID
 dev_langs:
- - c++
+- c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Tapi3.dll
+- Tapi3.dll
 api_name:
- - ITPluggableTerminalClassInfo.get_CLSID
+- ITPluggableTerminalClassInfo.get_CLSID
 targetos: Windows
 req.typenames: 
 req.redist: 

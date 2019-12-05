@@ -1,19 +1,17 @@
 ---
 UID: NF:shdeprecated.IBrowserService2._LoadToolbars
 title: IBrowserService2::_LoadToolbars (shdeprecated.h)
-
 description: Deprecated. Loads the saved state of the browser's toolbars.
 old-location: shell\IBrowserService2__LoadToolbars.htm
 tech.root: shell
 ms.assetid: b3dd5b22-8834-4601-b91b-d5c4ded01549
-
 ms.date: 12/05/2018
 ms.keywords: IBrowserService2 interface [Windows Shell],_LoadToolbars method, IBrowserService2._LoadToolbars, IBrowserService2::_LoadToolbars, _LoadToolbars, _LoadToolbars method [Windows Shell], _LoadToolbars method [Windows Shell],IBrowserService2 interface, shdeprecated/IBrowserService2::_LoadToolbars, shell.IBrowserService2__LoadToolbars, zone_IBrowserService2__LoadToolbars
 ms.topic: method
-f1_keywords: 
- - "shdeprecated/IBrowserService2._LoadToolbars"
+f1_keywords:
+- shdeprecated/IBrowserService2._LoadToolbars
 dev_langs:
- - c++
+- c++
 req.header: shdeprecated.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shdeprecated.h
+- Shdeprecated.h
 api_name:
- - IBrowserService2._LoadToolbars
+- IBrowserService2._LoadToolbars
 targetos: Windows
 req.typenames: 
 req.redist: 

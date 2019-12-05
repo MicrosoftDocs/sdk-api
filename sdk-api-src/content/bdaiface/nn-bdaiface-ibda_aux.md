@@ -1,19 +1,17 @@
 ---
 UID: NN:bdaiface.IBDA_AUX
 title: IBDA_AUX (bdaiface.h)
-
 description: Gets the capabilities of a device's auxiliary input connectors. This interface provides access to a device's Aux Service.
 old-location: mstv\ibda_aux.htm
 tech.root: mstv
 ms.assetid: 8397a04f-5d40-4fa3-ac02-79c764abd174
-
 ms.date: 12/05/2018
 ms.keywords: IBDA_AUX, IBDA_AUX interface [Microsoft TV Technologies], IBDA_AUX interface [Microsoft TV Technologies],described, bdaiface/IBDA_AUX, mstv.ibda_aux
 ms.topic: interface
-f1_keywords: 
- - "bdaiface/IBDA_AUX"
+f1_keywords:
+- bdaiface/IBDA_AUX
 dev_langs:
- - c++
+- c++
 req.header: bdaiface.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - bdaiface.h
+- bdaiface.h
 api_name:
- - IBDA_AUX
+- IBDA_AUX
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi3if.ITPhone.EnumerateAddresses
 title: ITPhone::EnumerateAddresses (tapi3if.h)
-
 description: The EnumerateAddresses method enumerates the addresses that the phone can be used on. The application does not have to call ITPhone::Open before executing this method.
 old-location: tapi3\itphone_enumerateaddresses.htm
 tech.root: Tapi
 ms.assetid: d72f6877-eb89-400e-a1bc-393116a9666f
-
 ms.date: 12/05/2018
 ms.keywords: EnumerateAddresses, EnumerateAddresses method [TAPI 2.2], EnumerateAddresses method [TAPI 2.2],ITPhone interface, ITPhone interface [TAPI 2.2],EnumerateAddresses method, ITPhone.EnumerateAddresses, ITPhone::EnumerateAddresses, _tapi3_itphone_enumerateaddresses, tapi3.itphone_enumerateaddresses, tapi3if/ITPhone::EnumerateAddresses
 ms.topic: method
-f1_keywords: 
- - "tapi3if/ITPhone.EnumerateAddresses"
+f1_keywords:
+- tapi3if/ITPhone.EnumerateAddresses
 dev_langs:
- - c++
+- c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Tapi3.dll
+- Tapi3.dll
 api_name:
- - ITPhone.EnumerateAddresses
+- ITPhone.EnumerateAddresses
 targetos: Windows
 req.typenames: 
 req.redist: 

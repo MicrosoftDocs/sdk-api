@@ -1,19 +1,17 @@
 ---
 UID: NN:vidcap.ICameraControl
 title: ICameraControl (vidcap.h)
-
 description: The ICameraControl interface controls the camera settings on a capture device.This interface may be exposed by one or more nodes in a capture filter.
 old-location: dshow\icameracontrol.htm
 tech.root: DirectShow
 ms.assetid: 7046f96d-a613-4056-84dd-be022efdda4f
-
 ms.date: 12/05/2018
 ms.keywords: ICameraControl, ICameraControl interface [DirectShow], ICameraControl interface [DirectShow],described, ICameraControlInterface, dshow.icameracontrol, vidcap/ICameraControl
 ms.topic: interface
-f1_keywords: 
- - "vidcap/ICameraControl"
+f1_keywords:
+- vidcap/ICameraControl
 dev_langs:
- - c++
+- c++
 req.header: vidcap.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - ICameraControl
+- ICameraControl
 targetos: Windows
 req.typenames: 
 req.redist: 

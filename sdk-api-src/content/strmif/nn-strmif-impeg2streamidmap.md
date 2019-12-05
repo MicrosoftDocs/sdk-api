@@ -1,19 +1,17 @@
 ---
 UID: NN:strmif.IMPEG2StreamIdMap
 title: IMPEG2StreamIdMap (strmif.h)
-
 description: This interface is implemented on each output pin of the MPEG-2 Demultiplexer filter (Demux) and is used in program stream mode only.
 old-location: dshow\impeg2streamidmap.htm
 tech.root: DirectShow
 ms.assetid: 714c6b0e-3885-4026-8a83-06b37cc97d7c
-
 ms.date: 12/05/2018
 ms.keywords: IMPEG2StreamIdMap, IMPEG2StreamIdMap interface [DirectShow], IMPEG2StreamIdMap interface [DirectShow],described, IMPEG2StreamIdMapInterface, dshow.impeg2streamidmap, strmif/IMPEG2StreamIdMap
 ms.topic: interface
-f1_keywords: 
- - "strmif/IMPEG2StreamIdMap"
+f1_keywords:
+- strmif/IMPEG2StreamIdMap
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IMPEG2StreamIdMap
+- IMPEG2StreamIdMap
 targetos: Windows
 req.typenames: 
 req.redist: 

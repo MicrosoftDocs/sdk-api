@@ -1,19 +1,17 @@
 ---
 UID: NF:msvidctl.IMSVidCtl.ViewNext
 title: IMSVidCtl::ViewNext (msvidctl.h)
-
 description: The ViewNext method finds another input device to view the specified tune request.
 old-location: mstv\imsvidctl_viewnext.htm
 tech.root: mstv
 ms.assetid: 23b83339-f712-4b49-91f9-d0a1b02d64af
-
 ms.date: 12/05/2018
 ms.keywords: IMSVidCtl interface [Microsoft TV Technologies],ViewNext method, IMSVidCtl.ViewNext, IMSVidCtl::ViewNext, IMSVidCtlViewNext, ViewNext, ViewNext method [Microsoft TV Technologies], ViewNext method [Microsoft TV Technologies],IMSVidCtl interface, mstv.imsvidctl_viewnext, msvidctl/IMSVidCtl::ViewNext
 ms.topic: method
-f1_keywords: 
- - "msvidctl/IMSVidCtl.ViewNext"
+f1_keywords:
+- msvidctl/IMSVidCtl.ViewNext
 dev_langs:
- - c++
+- c++
 req.header: msvidctl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msvidctl.h
+- msvidctl.h
 api_name:
- - IMSVidCtl.ViewNext
+- IMSVidCtl.ViewNext
 targetos: Windows
 req.typenames: 
 req.redist: 

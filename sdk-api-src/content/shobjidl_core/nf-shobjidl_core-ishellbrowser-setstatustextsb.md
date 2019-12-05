@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IShellBrowser.SetStatusTextSB
 title: IShellBrowser::SetStatusTextSB (shobjidl_core.h)
-
 description: Sets and displays status text about the in-place object in the container's frame-window status bar.
 old-location: shell\IShellBrowser_SetStatusTextSB.htm
 tech.root: shell
 ms.assetid: d7dd9f17-41e4-4c04-981e-a0bfe7c53fcf
-
 ms.date: 12/05/2018
 ms.keywords: IShellBrowser interface [Windows Shell],SetStatusTextSB method, IShellBrowser.SetStatusTextSB, IShellBrowser::SetStatusTextSB, SetStatusTextSB, SetStatusTextSB method [Windows Shell], SetStatusTextSB method [Windows Shell],IShellBrowser interface, _win32_IShellBrowser_SetStatusTextSB, shell.IShellBrowser_SetStatusTextSB, shobjidl_core/IShellBrowser::SetStatusTextSB
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IShellBrowser.SetStatusTextSB"
+f1_keywords:
+- shobjidl_core/IShellBrowser.SetStatusTextSB
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Shell32.dll (version 4.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - IShellBrowser.SetStatusTextSB
+- IShellBrowser.SetStatusTextSB
 targetos: Windows
 req.typenames: 
 req.redist: 

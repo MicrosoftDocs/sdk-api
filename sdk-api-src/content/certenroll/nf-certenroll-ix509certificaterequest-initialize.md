@@ -1,19 +1,17 @@
 ---
 UID: NF:certenroll.IX509CertificateRequest.Initialize
 title: IX509CertificateRequest::Initialize (certenroll.h)
-
 description: Initializes the request object for a user or a computer.
 old-location: security\ix509certificaterequest_initialize_method.htm
 tech.root: seccertenroll
 ms.assetid: be0e2cda-5481-49ab-9a12-6dc52981fd24
-
 ms.date: 12/05/2018
 ms.keywords: ContextAdministratorForceMachine, ContextMachine, ContextUser, IX509CertificateRequest interface [Security],Initialize method, IX509CertificateRequest.Initialize, IX509CertificateRequest::Initialize, Initialize, Initialize method [Security], Initialize method [Security],IX509CertificateRequest interface, certenroll/IX509CertificateRequest::Initialize, security.ix509certificaterequest_initialize_method
 ms.topic: method
-f1_keywords: 
- - "certenroll/IX509CertificateRequest.Initialize"
+f1_keywords:
+- certenroll/IX509CertificateRequest.Initialize
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: CertEnroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CertEnroll.dll
+- CertEnroll.dll
 api_name:
- - IX509CertificateRequest.Initialize
+- IX509CertificateRequest.Initialize
 targetos: Windows
 req.typenames: 
 req.redist: 

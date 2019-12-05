@@ -1,19 +1,17 @@
 ---
 UID: NF:netfw.INetFwService.put_RemoteAddresses
 title: INetFwService::put_RemoteAddresses (netfw.h)
-
 description: Specifies a set of the remote addresses from which the service ports can listen for traffic.
 old-location: ics\inetfwservice_remoteaddresses.htm
 tech.root: ics
 ms.assetid: 6cb1dfa1-1e92-47a8-9a97-45443f487f6e
-
 ms.date: 12/05/2018
 ms.keywords: INetFwService interface [ICS/ICF],RemoteAddresses property, INetFwService.RemoteAddresses, INetFwService.put_RemoteAddresses, INetFwService::RemoteAddresses, INetFwService::get_RemoteAddresses, INetFwService::put_RemoteAddresses, RemoteAddresses property [ICS/ICF], RemoteAddresses property [ICS/ICF],INetFwService interface, ics.inetfwservice_remoteaddresses, netfw/INetFwService::RemoteAddresses, netfw/INetFwService::get_RemoteAddresses, netfw/INetFwService::put_RemoteAddresses, put_RemoteAddresses
 ms.topic: method
-f1_keywords: 
- - "netfw/INetFwService.RemoteAddresses"
+f1_keywords:
+- netfw/INetFwService.RemoteAddresses
 dev_langs:
- - c++
+- c++
 req.header: netfw.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib:
 req.dll: FirewallAPI.dll; Hnetcfg.dll on Windows XP with SP2
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - FirewallAPI.dll
- - Hnetcfg.dll
+- FirewallAPI.dll
+- Hnetcfg.dll
 api_name:
- - INetFwService.RemoteAddresses
- - INetFwService.get_RemoteAddresses
- - INetFwService.put_RemoteAddresses
+- INetFwService.RemoteAddresses
+- INetFwService.get_RemoteAddresses
+- INetFwService.put_RemoteAddresses
 targetos: Windows
 req.typenames: 
 req.redist: 

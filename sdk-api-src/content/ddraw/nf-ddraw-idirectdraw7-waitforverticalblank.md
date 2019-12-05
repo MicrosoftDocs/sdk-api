@@ -1,19 +1,17 @@
 ---
 UID: NF:ddraw.IDirectDraw7.WaitForVerticalBlank
 title: IDirectDraw7::WaitForVerticalBlank (ddraw.h)
-
 description: Helps the application synchronize itself with the vertical-blank interval.
 old-location: directdraw\idirectdraw7_waitforverticalblank.htm
 tech.root: directdraw
 ms.assetid: ea52805d-201d-4fbe-a99f-5c04b7d620b5
-
 ms.date: 12/05/2018
 ms.keywords: DDWAITVB_BLOCKBEGIN, DDWAITVB_BLOCKBEGINEVENT, DDWAITVB_BLOCKEND, IDirectDraw7 interface [DirectDraw],WaitForVerticalBlank method, IDirectDraw7.WaitForVerticalBlank, IDirectDraw7::WaitForVerticalBlank, WaitForVerticalBlank, WaitForVerticalBlank method [DirectDraw], WaitForVerticalBlank method [DirectDraw],IDirectDraw7 interface, ddraw/IDirectDraw7::WaitForVerticalBlank, directdraw.idirectdraw7_waitforverticalblank
 ms.topic: method
-f1_keywords: 
- - "ddraw/IDirectDraw7.WaitForVerticalBlank"
+f1_keywords:
+- ddraw/IDirectDraw7.WaitForVerticalBlank
 dev_langs:
- - c++
+- c++
 req.header: ddraw.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Ddraw.lib
 req.dll: Ddraw.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Ddraw.dll
+- Ddraw.dll
 api_name:
- - IDirectDraw7.WaitForVerticalBlank
+- IDirectDraw7.WaitForVerticalBlank
 targetos: Windows
 req.typenames: 
 req.redist: 

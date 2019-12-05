@@ -1,19 +1,17 @@
 ---
 UID: NF:manipulations.IInertiaProcessor.put_ElasticMarginBottom
 title: IInertiaProcessor::put_ElasticMarginBottom (manipulations.h)
-
 description: The ElasticMarginBottom property specifies the bottom region for bouncing the target object.
 old-location: wintouch\iinertiaprocessor_elasticmarginbottom.htm
 tech.root: wintouch
 ms.assetid: 8a043ef6-3251-4179-b42f-f59c07287b49
-
 ms.date: 12/05/2018
 ms.keywords: ElasticMarginBottom property [Windows Touch], ElasticMarginBottom property [Windows Touch],IInertiaProcessor interface, IInertiaProcessor interface [Windows Touch],ElasticMarginBottom property, IInertiaProcessor.ElasticMarginBottom, IInertiaProcessor.put_ElasticMarginBottom, IInertiaProcessor::ElasticMarginBottom, IInertiaProcessor::get_ElasticMarginBottom, IInertiaProcessor::put_ElasticMarginBottom, manipulations/IInertiaProcessor::ElasticMarginBottom, manipulations/IInertiaProcessor::get_ElasticMarginBottom, manipulations/IInertiaProcessor::put_ElasticMarginBottom, put_ElasticMarginBottom, wintouch.iinertiaprocessor_elasticmarginbottom
 ms.topic: method
-f1_keywords: 
- - "manipulations/IInertiaProcessor.ElasticMarginBottom"
+f1_keywords:
+- manipulations/IInertiaProcessor.ElasticMarginBottom
 dev_langs:
- - c++
+- c++
 req.header: manipulations.h
 req.include-header: Manipulations.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - manipulations.h
+- manipulations.h
 api_name:
- - IInertiaProcessor.ElasticMarginBottom
- - IInertiaProcessor.get_ElasticMarginBottom
- - IInertiaProcessor.put_ElasticMarginBottom
+- IInertiaProcessor.ElasticMarginBottom
+- IInertiaProcessor.get_ElasticMarginBottom
+- IInertiaProcessor.put_ElasticMarginBottom
 targetos: Windows
 req.typenames: 
 req.redist: 

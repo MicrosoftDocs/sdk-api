@@ -1,19 +1,17 @@
 ---
 UID: NF:mmeapi.waveOutMessage
 title: waveOutMessage function (mmeapi.h)
-
 description: The waveOutMessage function sends messages to the waveform-audio output device drivers.
 old-location: multimedia\waveoutmessage.htm
 tech.root: Multimedia
 ms.assetid: b4f06107-781f-4b95-8138-ca0e11a21cf4
-
 ms.date: 12/05/2018
-ms.keywords: "_win32_waveOutMessage, mmeapi/waveOutMessage, multimedia.waveoutmessage, waveOutMessage, waveOutMessage function [Windows Multimedia]"
+ms.keywords: _win32_waveOutMessage, mmeapi/waveOutMessage, multimedia.waveoutmessage, waveOutMessage, waveOutMessage function [Windows Multimedia]
 ms.topic: function
-f1_keywords: 
- - "mmeapi/waveOutMessage"
+f1_keywords:
+- mmeapi/waveOutMessage
 dev_langs:
- - c++
+- c++
 req.header: mmeapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Winmm.lib
 req.dll: Winmm.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Winmm.dll
- - API-MS-Win-mm-mme-l1-1-0.dll
- - winmmbase.dll
+- Winmm.dll
+- API-MS-Win-mm-mme-l1-1-0.dll
+- winmmbase.dll
 api_name:
- - waveOutMessage
+- waveOutMessage
 targetos: Windows
 req.typenames: 
 req.redist: 

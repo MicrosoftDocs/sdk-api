@@ -1,19 +1,17 @@
 ---
 UID: NN:shobjidl_core.IEnumExtraSearch
 title: IEnumExtraSearch (shobjidl_core.h)
-
 description: A standard OLE enumerator used by a client to determine the available search objects for a folder.
 old-location: shell\IEnumExtraSearch.htm
 tech.root: shell
 ms.assetid: 63b71cd2-483b-482f-b3f4-6d5c937e7708
-
 ms.date: 12/05/2018
 ms.keywords: IEnumExtraSearch, IEnumExtraSearch interface [Windows Shell], IEnumExtraSearch interface [Windows Shell],described, _win32_IEnumExtraSearch, shell.IEnumExtraSearch, shobjidl_core/IEnumExtraSearch
 ms.topic: interface
-f1_keywords: 
- - "shobjidl_core/IEnumExtraSearch"
+f1_keywords:
+- shobjidl_core/IEnumExtraSearch
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Shell32.dll (version 5.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - IEnumExtraSearch
+- IEnumExtraSearch
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:gdiplusheaders.CustomLineCap.SetBaseInset
 title: CustomLineCap::SetBaseInset (gdiplusheaders.h)
-
 description: The CustomLineCap::SetBaseInset method sets the base inset value of this custom line cap. This is the distance between the end of a line and the base cap.
 old-location: gdiplus\_gdiplus_CLASS_CustomLineCap_SetBaseInset_inset_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\customlinecapclass\customlinecapmethods\setbaseinset.htm
-
 ms.date: 12/05/2018
 ms.keywords: CustomLineCap class [GDI+],SetBaseInset method, CustomLineCap.SetBaseInset, CustomLineCap::SetBaseInset, SetBaseInset, SetBaseInset method [GDI+], SetBaseInset method [GDI+],CustomLineCap class, _gdiplus_CLASS_CustomLineCap_SetBaseInset_inset_, gdiplus._gdiplus_CLASS_CustomLineCap_SetBaseInset_inset_
 ms.topic: method
-f1_keywords: 
- - "gdiplusheaders/CustomLineCap.SetBaseInset"
+f1_keywords:
+- gdiplusheaders/CustomLineCap.SetBaseInset
 dev_langs:
- - c++
+- c++
 req.header: gdiplusheaders.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - CustomLineCap.SetBaseInset
+- CustomLineCap.SetBaseInset
 targetos: Windows
 req.typenames: 
 req.redist: 

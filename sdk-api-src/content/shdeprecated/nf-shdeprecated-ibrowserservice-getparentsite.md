@@ -1,19 +1,17 @@
 ---
 UID: NF:shdeprecated.IBrowserService.GetParentSite
 title: IBrowserService::GetParentSite (shdeprecated.h)
-
 description: Deprecated. Retrieves the browser parent's in-place client site.
 old-location: shell\IBrowserService_GetParentSite.htm
 tech.root: shell
 ms.assetid: 91d031ae-1451-4379-9d8e-baddefd30435
-
 ms.date: 12/05/2018
 ms.keywords: GetParentSite, GetParentSite method [Windows Shell], GetParentSite method [Windows Shell],IBrowserService interface, IBrowserService interface [Windows Shell],GetParentSite method, IBrowserService.GetParentSite, IBrowserService::GetParentSite, shdeprecated/IBrowserService::GetParentSite, shell.IBrowserService_GetParentSite, zone_IBrowserService_GetParentSite
 ms.topic: method
-f1_keywords: 
- - "shdeprecated/IBrowserService.GetParentSite"
+f1_keywords:
+- shdeprecated/IBrowserService.GetParentSite
 dev_langs:
- - c++
+- c++
 req.header: shdeprecated.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shdeprecated.h
+- Shdeprecated.h
 api_name:
- - IBrowserService.GetParentSite
+- IBrowserService.GetParentSite
 targetos: Windows
 req.typenames: 
 req.redist: 

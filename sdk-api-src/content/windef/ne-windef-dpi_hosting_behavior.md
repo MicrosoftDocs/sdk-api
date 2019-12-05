@@ -1,19 +1,17 @@
 ---
 UID: NE:windef.DPI_HOSTING_BEHAVIOR
 title: DPI_HOSTING_BEHAVIOR (windef.h)
-
 description: Identifies the DPI hosting behavior for a window. This behavior allows windows created in the thread to host child windows with a different DPI_AWARENESS_CONTEXT.
 old-location: hidpi\_dpi_hosting_behavior.htm
 tech.root: hidpi
 ms.assetid: 4BFBF485-1AD2-4460-A4EE-CB76EF62B8C4
-
 ms.date: 12/05/2018
 ms.keywords: DPI_HOSTING_BEHAVIOR, DPI_HOSTING_BEHAVIOR_DEFAULT, DPI_HOSTING_BEHAVIOR_INVALID, DPI_HOSTING_BEHAVIOR_MIXED, _DPI_HOSTING_BEHAVIOR, _DPI_HOSTING_BEHAVIOR enumeration [High DPI], hidpi._dpi_hosting_behavior, windef/DPI_HOSTING_BEHAVIOR_DEFAULT, windef/DPI_HOSTING_BEHAVIOR_INVALID, windef/DPI_HOSTING_BEHAVIOR_MIXED, windef/_DPI_HOSTING_BEHAVIOR
 ms.topic: enum
-f1_keywords: 
- - "windef/_DPI_HOSTING_BEHAVIOR"
+f1_keywords:
+- windef/_DPI_HOSTING_BEHAVIOR
 dev_langs:
- - c++
+- c++
 req.header: windef.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - windef.h
+- windef.h
 api_name:
- - _DPI_HOSTING_BEHAVIOR
+- _DPI_HOSTING_BEHAVIOR
 targetos: Windows
 req.typenames: DPI_HOSTING_BEHAVIOR
 req.redist: 

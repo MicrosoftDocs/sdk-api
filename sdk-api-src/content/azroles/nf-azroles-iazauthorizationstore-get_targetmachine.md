@@ -1,19 +1,17 @@
 ---
 UID: NF:azroles.IAzAuthorizationStore.get_TargetMachine
 title: IAzAuthorizationStore::get_TargetMachine (azroles.h)
-
 description: Retrieves the name of the computer on which account resolution should occur.
 old-location: security\azauthorizationstore_targetmachine.htm
 tech.root: SecAuthZ
 ms.assetid: 60c3c23a-4721-4f0d-8380-e95b6170c804
-
 ms.date: 12/05/2018
 ms.keywords: AzAuthorizationStore object [Security],TargetMachine property, IAzAuthorizationStore interface [Security],TargetMachine property, IAzAuthorizationStore.TargetMachine, IAzAuthorizationStore.get_TargetMachine, IAzAuthorizationStore::TargetMachine, IAzAuthorizationStore::get_TargetMachine, TargetMachine property [Security], TargetMachine property [Security],AzAuthorizationStore object, TargetMachine property [Security],IAzAuthorizationStore interface, azroles/IAzAuthorizationStore::TargetMachine, azroles/IAzAuthorizationStore::get_TargetMachine, get_TargetMachine, security.azauthorizationstore_targetmachine
 ms.topic: method
-f1_keywords: 
- - "azroles/IAzAuthorizationStore.TargetMachine"
+f1_keywords:
+- azroles/IAzAuthorizationStore.TargetMachine
 dev_langs:
- - c++
+- c++
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Azroles.lib
 req.dll: Azroles.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Azroles.dll
+- Azroles.dll
 api_name:
- - IAzAuthorizationStore.TargetMachine
- - IAzAuthorizationStore.get_TargetMachine
- - AzAuthorizationStore.TargetMachine
+- IAzAuthorizationStore.TargetMachine
+- IAzAuthorizationStore.get_TargetMachine
+- AzAuthorizationStore.TargetMachine
 targetos: Windows
 req.typenames: 
 req.redist: Windows Server 2003 Administration Tools Pack on Windows XP

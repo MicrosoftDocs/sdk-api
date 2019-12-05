@@ -1,19 +1,17 @@
 ---
 UID: NE:searchapi.__MIDL___MIDL_itf_searchapi_0000_0013_0001
 title: CLUSION_REASON (searchapi.h)
-
 description: These flags enumerate reasons why URLs are included or excluded from the current crawl scope.
 old-location: search\_search_CLUSION_REASON.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\enums\clusion_reason.htm
-
 ms.date: 12/05/2018
 ms.keywords: CLUSIONREASON_DEFAULT, CLUSIONREASON_GROUPPOLICY, CLUSIONREASON_UNKNOWNSCOPE, CLUSIONREASON_USER, CLUSION_REASON, CLUSION_REASON enumeration [search], _search_CLUSION_REASON, search._search_CLUSION_REASON, searchapi/CLUSIONREASON_DEFAULT, searchapi/CLUSIONREASON_GROUPPOLICY, searchapi/CLUSIONREASON_UNKNOWNSCOPE, searchapi/CLUSIONREASON_USER, searchapi/CLUSION_REASON
 ms.topic: enum
-f1_keywords: 
- - "searchapi/CLUSION_REASON"
+f1_keywords:
+- searchapi/CLUSION_REASON
 dev_langs:
- - c++
+- c++
 req.header: searchapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Searchapi.h
+- Searchapi.h
 api_name:
- - CLUSION_REASON
+- CLUSION_REASON
 targetos: Windows
 req.typenames: CLUSION_REASON
 req.redist: 

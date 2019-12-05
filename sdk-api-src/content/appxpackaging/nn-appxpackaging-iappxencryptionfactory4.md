@@ -1,19 +1,17 @@
 ---
 UID: NN:appxpackaging.IAppxEncryptionFactory4
 title: IAppxEncryptionFactory4 (appxpackaging.h)
-
 description: Creates objects for encrypting Windows app packages and bundles.
 old-location: appxpkg\iappxencryptionfactory4.htm
 tech.root: appxpkg
 ms.assetid: BEB6BD9B-C265-4C92-98AD-59344B5274D4
-
 ms.date: 12/05/2018
 ms.keywords: IAppxEncryptionFactory4, IAppxEncryptionFactory4 interface [App packaging and management], IAppxEncryptionFactory4 interface [App packaging and management],described, appxpackaging/IAppxEncryptionFactory4, appxpkg.iappxencryptionfactory4
 ms.topic: interface
-f1_keywords: 
- - "appxpackaging/IAppxEncryptionFactory4"
+f1_keywords:
+- appxpackaging/IAppxEncryptionFactory4
 dev_langs:
- - c++
+- c++
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - AppxPackaging.h
+- AppxPackaging.h
 api_name:
- - IAppxEncryptionFactory4
+- IAppxEncryptionFactory4
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:dwrite_3.IDWriteFactory4.ComputeGlyphOrigins(DWRITE_GLYPH_RUN const,DWRITE_MEASURING_MODE,D2D1_POINT_2F,DWRITE_MATRIX const,D2D1_POINT_2F)
 title: IDWriteFactory4::ComputeGlyphOrigins(DWRITE_GLYPH_RUN const,DWRITE_MEASURING_MODE,D2D1_POINT_2F,DWRITE_MATRIX const,D2D1_POINT_2F) (dwrite_3.h)
-
 description: Converts glyph run placements to glyph origins.
 old-location: directwrite\idwritefactory4_computeglyphorigins.htm
 tech.root: DirectWrite
 ms.assetid: 0AA609E2-28C3-4D0C-A627-0648FB0D126A
-
 ms.date: 12/05/2018
 ms.keywords: ComputeGlyphOrigins, ComputeGlyphOrigins method [Direct Write], ComputeGlyphOrigins method [Direct Write],IDWriteFactory4 interface, IDWriteFactory4 interface [Direct Write],ComputeGlyphOrigins method, IDWriteFactory4.ComputeGlyphOrigins, IDWriteFactory4.ComputeGlyphOrigins(DWRITE_GLYPH_RUN const,DWRITE_MEASURING_MODE,D2D1_POINT_2F,DWRITE_MATRIX const,D2D1_POINT_2F), IDWriteFactory4::ComputeGlyphOrigins, IDWriteFactory4::ComputeGlyphOrigins(DWRITE_GLYPH_RUN const,DWRITE_MEASURING_MODE,D2D1_POINT_2F,DWRITE_MATRIX const,D2D1_POINT_2F), directwrite.idwritefactory4_computeglyphorigins, dwrite_3/IDWriteFactory4::ComputeGlyphOrigins
 ms.topic: method
-f1_keywords: 
- - "dwrite_3/IDWriteFactory4.ComputeGlyphOrigins"
+f1_keywords:
+- dwrite_3/IDWriteFactory4.ComputeGlyphOrigins
 dev_langs:
- - c++
+- c++
 req.header: dwrite_3.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Dwrite.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dwrite.lib
- - Dwrite.dll
+- Dwrite.lib
+- Dwrite.dll
 api_name:
- - IDWriteFactory4.ComputeGlyphOrigins
+- IDWriteFactory4.ComputeGlyphOrigins
 targetos: Windows
 req.typenames: 
 req.redist: 

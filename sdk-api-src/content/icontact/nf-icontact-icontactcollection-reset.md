@@ -1,19 +1,17 @@
 ---
 UID: NF:icontact.IContactCollection.Reset
 title: IContactCollection::Reset (icontact.h)
-
 description: Resets the enumerator to before the logical first element.
 old-location: wincontacts\_wincontacts_IContactCollection_Reset.htm
 tech.root: wincontacts
 ms.assetid: 31922d03-079e-4a6f-8516-d4cf540d812e
-
 ms.date: 12/05/2018
 ms.keywords: IContactCollection interface [Windows Contacts],Reset method, IContactCollection.Reset, IContactCollection::Reset, Reset, Reset method [Windows Contacts], Reset method [Windows Contacts],IContactCollection interface, _wincontacts_IContactCollection_Reset, icontact/IContactCollection::Reset, wincontacts._wincontacts_IContactCollection_Reset
 ms.topic: method
-f1_keywords: 
- - "icontact/IContactCollection.Reset"
+f1_keywords:
+- icontact/IContactCollection.Reset
 dev_langs:
- - c++
+- c++
 req.header: icontact.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wab32.dll (Version 6.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wab32.dll
+- Wab32.dll
 api_name:
- - IContactCollection.Reset
+- IContactCollection.Reset
 targetos: Windows
 req.typenames: 
 req.redist: 

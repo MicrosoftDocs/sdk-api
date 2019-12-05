@@ -1,19 +1,17 @@
 ---
 UID: NF:windowsx.ComboBox_GetCurSel
 title: ComboBox_GetCurSel macro (windowsx.h)
-
 description: Gets the index of the currently selected item in a combo box. You can use this macro or send the CB_GETCURSEL message explicitly.
 old-location: controls\ComboBox_GetCurSel.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\comboboxes\comboboxreference\comboboxmacros\combobox_getcursel.htm
-
 ms.date: 12/05/2018
 ms.keywords: ComboBox_GetCurSel, ComboBox_GetCurSel macro [Windows Controls], _win32_ComboBox_GetCurSel, _win32_ComboBox_GetCurSel_cpp, controls.ComboBox_GetCurSel, controls._win32_ComboBox_GetCurSel, windowsx/ComboBox_GetCurSel
 ms.topic: macro
-f1_keywords: 
- - "windowsx/ComboBox_GetCurSel"
+f1_keywords:
+- windowsx/ComboBox_GetCurSel
 dev_langs:
- - c++
+- c++
 req.header: windowsx.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Windowsx.h
+- Windowsx.h
 api_name:
- - ComboBox_GetCurSel
+- ComboBox_GetCurSel
 targetos: Windows
 req.typenames: 
 req.redist: 

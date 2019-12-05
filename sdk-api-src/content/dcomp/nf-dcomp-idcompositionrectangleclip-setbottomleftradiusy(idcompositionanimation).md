@@ -1,19 +1,17 @@
 ---
 UID: NF:dcomp.IDCompositionRectangleClip.SetBottomLeftRadiusY(IDCompositionAnimation)
 title: IDCompositionRectangleClip::SetBottomLeftRadiusY(IDCompositionAnimation) (dcomp.h)
-
 description: Animates the value of the BottomLeftRadiusY property of this clip. The BottomLeftRadiusY property specifies the y radius of the ellipse that rounds the lower-left corner of the clip.
 old-location: directcomp\idcompositionrectangleclip_setbottomleftradiusy_idcompositionanimation.htm
 tech.root: directcomp
 ms.assetid: D56C5EF0-1764-4BAF-B0D0-6609EC04B344
-
 ms.date: 12/05/2018
 ms.keywords: IDCompositionRectangleClip interface [DirectComposition],SetBottomLeftRadiusY method, IDCompositionRectangleClip.SetBottomLeftRadiusY, IDCompositionRectangleClip.SetBottomLeftRadiusY(IDCompositionAnimation), IDCompositionRectangleClip::SetBottomLeftRadiusY, IDCompositionRectangleClip::SetBottomLeftRadiusY(IDCompositionAnimation), IDCompositionRectangleClip::SetBottomLeftRadiusY(IDCompositionAnimation*), SetBottomLeftRadiusY, SetBottomLeftRadiusY method [DirectComposition], SetBottomLeftRadiusY method [DirectComposition],IDCompositionRectangleClip interface, dcomp/IDCompositionRectangleClip::SetBottomLeftRadiusY, directcomp.idcompositionrectangleclip_setbottomleftradiusy_idcompositionanimation
 ms.topic: method
-f1_keywords: 
- - "dcomp/IDCompositionRectangleClip.SetBottomLeftRadiusY"
+f1_keywords:
+- dcomp/IDCompositionRectangleClip.SetBottomLeftRadiusY
 dev_langs:
- - c++
+- c++
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dcomp.lib
 req.dll: Dcomp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dcomp.dll
+- Dcomp.dll
 api_name:
- - IDCompositionRectangleClip.SetBottomLeftRadiusY
+- IDCompositionRectangleClip.SetBottomLeftRadiusY
 targetos: Windows
 req.typenames: 
 req.redist: 

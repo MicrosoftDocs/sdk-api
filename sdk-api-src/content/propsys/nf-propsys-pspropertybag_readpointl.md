@@ -1,19 +1,17 @@
 ---
 UID: NF:propsys.PSPropertyBag_ReadPOINTL
 title: PSPropertyBag_ReadPOINTL function (propsys.h)
-
 description: Retrieves the property coordinates stored in a POINTL structure of a specified property bag.
 old-location: properties\PSPropertyBag_ReadPOINTL.htm
 tech.root: properties
 ms.assetid: B8F66DF9-A366-41a7-8311-B9E1CDE14ADB
-
 ms.date: 12/05/2018
 ms.keywords: PSPropertyBag_ReadPOINTL, PSPropertyBag_ReadPOINTL function [Windows Properties], properties.PSPropertyBag_ReadPOINTL, propsys/PSPropertyBag_ReadPOINTL, shell.PSPropertyBag_ReadPOINTL, shell_PSPropertyBag_ReadPOINTL
 ms.topic: function
-f1_keywords: 
- - "propsys/PSPropertyBag_ReadPOINTL"
+f1_keywords:
+- propsys/PSPropertyBag_ReadPOINTL
 dev_langs:
- - c++
+- c++
 req.header: propsys.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Propsys.lib
 req.dll: Propsys.dll (version 6.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Propsys.dll
+- Propsys.dll
 api_name:
- - PSPropertyBag_ReadPOINTL
+- PSPropertyBag_ReadPOINTL
 targetos: Windows
 req.typenames: 
 req.redist: 

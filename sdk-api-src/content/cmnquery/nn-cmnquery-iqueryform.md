@@ -1,19 +1,17 @@
 ---
 UID: NN:cmnquery.IQueryForm
 title: IQueryForm (cmnquery.h)
-
 description: Implemented by a query form extension object to allow the form object to add forms and pages to the system-supplied directory service query dialog box.
 old-location: ad\iqueryform.htm
 tech.root: ad
 ms.assetid: fd4f41f0-8aeb-4c83-a079-a5a77685c143
-
 ms.date: 12/05/2018
 ms.keywords: IQueryForm, IQueryForm interface [Active Directory], IQueryForm interface [Active Directory],described, _glines_iqueryform, ad.iqueryform, cmnquery/IQueryForm
 ms.topic: interface
-f1_keywords: 
- - "cmnquery/IQueryForm"
+f1_keywords:
+- cmnquery/IQueryForm
 dev_langs:
- - c++
+- c++
 req.header: cmnquery.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Dsquery.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dsquery.dll
+- Dsquery.dll
 api_name:
- - IQueryForm
+- IQueryForm
 targetos: Windows
 req.typenames: 
 req.redist: 

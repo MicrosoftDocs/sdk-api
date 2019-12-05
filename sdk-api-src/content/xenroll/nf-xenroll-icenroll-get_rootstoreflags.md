@@ -1,19 +1,17 @@
 ---
 UID: NF:xenroll.ICEnroll.get_RootStoreFlags
 title: ICEnroll::get_RootStoreFlags (xenroll.h)
-
 description: The RootStoreFlags property of ICEnroll4 sets or retrieves the registry location used for the root store.
 old-location: security\icenroll4_rootstoreflags.htm
 tech.root: SecCrypto
 ms.assetid: bf844047-4f5a-42de-a446-195371c0dbcf
-
 ms.date: 12/05/2018
 ms.keywords: CEnroll object [Security],RootStoreFlags property, ICEnroll interface [Security],RootStoreFlags property, ICEnroll.RootStoreFlags, ICEnroll.get_RootStoreFlags, ICEnroll2 interface [Security],RootStoreFlags property, ICEnroll2.RootStoreFlags, ICEnroll2::get_RootStoreFlags, ICEnroll2::put_RootStoreFlags, ICEnroll3 interface [Security],RootStoreFlags property, ICEnroll3.RootStoreFlags, ICEnroll3::get_RootStoreFlags, ICEnroll3::put_RootStoreFlags, ICEnroll4 interface [Security],RootStoreFlags property, ICEnroll4.RootStoreFlags, ICEnroll4::RootStoreFlags, ICEnroll4::get_RootStoreFlags, ICEnroll4::put_RootStoreFlags, ICEnroll::get_RootStoreFlags, ICEnroll::put_RootStoreFlags, RootStoreFlags property [Security], RootStoreFlags property [Security],CEnroll object, RootStoreFlags property [Security],ICEnroll interface, RootStoreFlags property [Security],ICEnroll2 interface, RootStoreFlags property [Security],ICEnroll3 interface, RootStoreFlags property [Security],ICEnroll4 interface, get_RootStoreFlags, security.icenroll4_rootstoreflags, xenroll/ICEnroll2::RootStoreFlags, xenroll/ICEnroll2::get_RootStoreFlags, xenroll/ICEnroll2::put_RootStoreFlags, xenroll/ICEnroll3::RootStoreFlags, xenroll/ICEnroll3::get_RootStoreFlags, xenroll/ICEnroll3::put_RootStoreFlags, xenroll/ICEnroll4::RootStoreFlags, xenroll/ICEnroll4::get_RootStoreFlags, xenroll/ICEnroll4::put_RootStoreFlags, xenroll/ICEnroll::RootStoreFlags, xenroll/ICEnroll::get_RootStoreFlags, xenroll/ICEnroll::put_RootStoreFlags
 ms.topic: method
-f1_keywords: 
- - "xenroll/ICEnroll4.RootStoreFlags"
+f1_keywords:
+- xenroll/ICEnroll4.RootStoreFlags
 dev_langs:
- - c++
+- c++
 req.header: xenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,26 +30,26 @@ req.lib: Uuid.lib
 req.dll: Xenroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Xenroll.dll
+- Xenroll.dll
 api_name:
- - ICEnroll4.RootStoreFlags
- - ICEnroll4.get_RootStoreFlags
- - ICEnroll4.put_RootStoreFlags
- - ICEnroll3.RootStoreFlags
- - ICEnroll3.get_RootStoreFlags
- - ICEnroll3.put_RootStoreFlags
- - ICEnroll2.RootStoreFlags
- - ICEnroll2.get_RootStoreFlags
- - ICEnroll2.put_RootStoreFlags
- - ICEnroll.RootStoreFlags
- - ICEnroll.get_RootStoreFlags
- - ICEnroll.put_RootStoreFlags
- - CEnroll.RootStoreFlags
+- ICEnroll4.RootStoreFlags
+- ICEnroll4.get_RootStoreFlags
+- ICEnroll4.put_RootStoreFlags
+- ICEnroll3.RootStoreFlags
+- ICEnroll3.get_RootStoreFlags
+- ICEnroll3.put_RootStoreFlags
+- ICEnroll2.RootStoreFlags
+- ICEnroll2.get_RootStoreFlags
+- ICEnroll2.put_RootStoreFlags
+- ICEnroll.RootStoreFlags
+- ICEnroll.get_RootStoreFlags
+- ICEnroll.put_RootStoreFlags
+- CEnroll.RootStoreFlags
 targetos: Windows
 req.typenames: 
 req.redist: 

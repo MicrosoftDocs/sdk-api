@@ -1,19 +1,17 @@
 ---
 UID: NF:textstor.ITextStoreACPSink.OnLockGranted
 title: ITextStoreACPSink::OnLockGranted (textstor.h)
-
 description: ITextStoreACPSink::OnLockGranted method
 old-location: tsf\itextstoreacpsink_onlockgranted.htm
 tech.root: TSF
 ms.assetid: ddedd278-ec28-417e-bce2-cdb74db7b0f3
-
 ms.date: 12/05/2018
 ms.keywords: ITextStoreACPSink interface [Text Services Framework],OnLockGranted method, ITextStoreACPSink.OnLockGranted, ITextStoreACPSink::OnLockGranted, OnLockGranted, OnLockGranted method [Text Services Framework], OnLockGranted method [Text Services Framework],ITextStoreACPSink interface, TS_LF_READ, TS_LF_READWRITE, _tsf_itextstoreacpsink_onlockgranted_ref, textstor/ITextStoreACPSink::OnLockGranted, tsf.itextstoreacpsink_onlockgranted
 ms.topic: method
-f1_keywords: 
- - "textstor/ITextStoreACPSink.OnLockGranted"
+f1_keywords:
+- textstor/ITextStoreACPSink.OnLockGranted
 dev_langs:
- - c++
+- c++
 req.header: textstor.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msctf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msctf.dll
+- msctf.dll
 api_name:
- - ITextStoreACPSink.OnLockGranted
+- ITextStoreACPSink.OnLockGranted
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

@@ -1,19 +1,17 @@
 ---
 UID: NF:bdaiface.IBDA_DigitalDemodulator.get_InnerFECRate
 title: IBDA_DigitalDemodulator::get_InnerFECRate (bdaiface.h)
-
 description: The get_InnerFECRate method retrieves the inner forward error correction rate being used on the signal.
 old-location: mstv\ibda_digitaldemodulator_get_innerfecrate.htm
 tech.root: mstv
 ms.assetid: 56fb0c34-8c28-4eff-a1dd-d82c31b0e430
-
 ms.date: 12/05/2018
 ms.keywords: IBDA_DigitalDemodulator interface [Microsoft TV Technologies],get_InnerFECRate method, IBDA_DigitalDemodulator.get_InnerFECRate, IBDA_DigitalDemodulator::get_InnerFECRate, IBDA_DigitalDemodulatorget_InnerFECRate, bdaiface/IBDA_DigitalDemodulator::get_InnerFECRate, get_InnerFECRate, get_InnerFECRate method [Microsoft TV Technologies], get_InnerFECRate method [Microsoft TV Technologies],IBDA_DigitalDemodulator interface, mstv.ibda_digitaldemodulator_get_innerfecrate
 ms.topic: method
-f1_keywords: 
- - "bdaiface/IBDA_DigitalDemodulator.get_InnerFECRate"
+f1_keywords:
+- bdaiface/IBDA_DigitalDemodulator.get_InnerFECRate
 dev_langs:
- - c++
+- c++
 req.header: bdaiface.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - bdaiface.h
+- bdaiface.h
 api_name:
- - IBDA_DigitalDemodulator.get_InnerFECRate
+- IBDA_DigitalDemodulator.get_InnerFECRate
 targetos: Windows
 req.typenames: 
 req.redist: 

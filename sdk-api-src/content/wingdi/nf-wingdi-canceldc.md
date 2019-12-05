@@ -1,19 +1,17 @@
 ---
 UID: NF:wingdi.CancelDC
 title: CancelDC function (wingdi.h)
-
 description: The CancelDC function cancels any pending operation on the specified device context (DC).
 old-location: gdi\canceldc.htm
 tech.root: gdi
 ms.assetid: 1dcb3dfe-0ab0-4bf5-ac2f-7a9c11712eef
-
 ms.date: 12/05/2018
 ms.keywords: CancelDC, CancelDC function [Windows GDI], _win32_CancelDC, gdi.canceldc, wingdi/CancelDC
 ms.topic: function
-f1_keywords: 
- - "wingdi/CancelDC"
+f1_keywords:
+- wingdi/CancelDC
 dev_langs:
- - c++
+- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - gdi32.dll
- - Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
- - GDI32Full.dll
+- gdi32.dll
+- Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
+- GDI32Full.dll
 api_name:
- - CancelDC
+- CancelDC
 targetos: Windows
 req.typenames: 
 req.redist: 

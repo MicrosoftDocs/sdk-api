@@ -1,19 +1,17 @@
 ---
 UID: NE:gdiplusenums.MatrixOrder
 title: MatrixOrder (gdiplusenums.h)
-
 description: The MatrixOrder enumeration specifies the order of multiplication when a new matrix is multiplied by an existing matrix.
 old-location: gdiplus\_gdiplus_ENUM_MatrixOrder.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\enumerations\matrixorder.htm
-
 ms.date: 12/05/2018
 ms.keywords: MatrixOrder, MatrixOrder enumeration [GDI+], MatrixOrderAppend, MatrixOrderPrepend, _gdiplus_ENUM_MatrixOrder, gdiplus._gdiplus_ENUM_MatrixOrder, gdiplusenums/MatrixOrder, gdiplusenums/MatrixOrderAppend, gdiplusenums/MatrixOrderPrepend
 ms.topic: enum
-f1_keywords: 
- - "gdiplusenums/MatrixOrder"
+f1_keywords:
+- gdiplusenums/MatrixOrder
 dev_langs:
- - c++
+- c++
 req.header: gdiplusenums.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Gdiplusenums.h
+- Gdiplusenums.h
 api_name:
- - MatrixOrder
+- MatrixOrder
 targetos: Windows
 req.typenames: 
 req.redist: 

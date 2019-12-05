@@ -1,19 +1,17 @@
 ---
 UID: NF:intsafe.ShortMult
 title: ShortMult function (intsafe.h)
-
 description: Multiplies two values of type SHORT.
 old-location: shell\ShortMult.htm
 tech.root: shell
 ms.assetid: ca602be6-a066-4192-a240-96192e5dbdf8
-
 ms.date: 12/05/2018
 ms.keywords: ShortMult, ShortMult function [Windows Shell], intsafe/ShortMult, shell.ShortMult
 ms.topic: function
-f1_keywords: 
- - "intsafe/ShortMult"
+f1_keywords:
+- intsafe/ShortMult
 dev_langs:
- - c++
+- c++
 req.header: intsafe.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - intsafe.h
+- intsafe.h
 api_name:
- - ShortMult
+- ShortMult
 targetos: Windows
 req.typenames: 
 req.redist: 

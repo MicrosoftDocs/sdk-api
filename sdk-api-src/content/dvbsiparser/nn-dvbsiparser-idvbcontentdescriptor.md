@@ -1,19 +1,17 @@
 ---
 UID: NN:dvbsiparser.IDvbContentDescriptor
 title: IDvbContentDescriptor (dvbsiparser.h)
-
 description: Implements methods that get information from a Digital Video Broadcast (DVB) content descriptor.
 old-location: mstv\idvbcontentdescriptor.htm
 tech.root: mstv
 ms.assetid: 7bc74428-f8e3-4d3b-b35a-33e917b18a93
-
 ms.date: 12/05/2018
 ms.keywords: IDvbContentDescriptor, IDvbContentDescriptor interface [Microsoft TV Technologies], IDvbContentDescriptor interface [Microsoft TV Technologies],described, dvbsiparser/IDvbContentDescriptor, mstv.idvbcontentdescriptor
 ms.topic: interface
-f1_keywords: 
- - "dvbsiparser/IDvbContentDescriptor"
+f1_keywords:
+- dvbsiparser/IDvbContentDescriptor
 dev_langs:
- - c++
+- c++
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dvbsiparser.h
+- dvbsiparser.h
 api_name:
- - IDvbContentDescriptor
+- IDvbContentDescriptor
 targetos: Windows
 req.typenames: 
 req.redist: 

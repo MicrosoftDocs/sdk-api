@@ -1,19 +1,17 @@
 ---
 UID: NC:ras.RASADFUNCW
 title: RASADFUNCW (ras.h)
-
 description: The RASADFunc function is an application-defined callback function that is used to provide a customized user interface for autodialing.
 old-location: rras\rasadfunc.htm
 tech.root: RRAS
 ms.assetid: e014624a-1ee1-4de3-ba59-cd090b3fa711
-
 ms.date: 12/05/2018
 ms.keywords: RASADFunc, RASADFunc callback, RASADFunc callback function [RAS], RASADFuncA, RASADFuncW, _ras_rasadfunc, ras/RASADFunc, ras/RASADFuncA, ras/RASADFuncW, rras.rasadfunc
 ms.topic: callback
-f1_keywords: 
- - "ras/RASADFunc"
+f1_keywords:
+- ras/RASADFunc
 dev_langs:
- - c++
+- c++
 req.header: ras.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Ras.h
+- Ras.h
 api_name:
- - RASADFunc
- - RASADFuncA
- - RASADFuncW
+- RASADFunc
+- RASADFuncA
+- RASADFuncW
 targetos: Windows
 req.typenames: 
 req.redist: 

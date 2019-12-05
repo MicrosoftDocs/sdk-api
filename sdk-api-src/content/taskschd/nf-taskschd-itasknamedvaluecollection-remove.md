@@ -1,19 +1,17 @@
 ---
 UID: NF:taskschd.ITaskNamedValueCollection.Remove
 title: ITaskNamedValueCollection::Remove (taskschd.h)
-
 description: Removes a selected name-value pair from the collection.
 old-location: taskschd\itasknamedvaluecollection_remove.htm
 tech.root: taskschd
 ms.assetid: 7c73fb37-5551-497f-86d9-b7158109ca38
-
 ms.date: 12/05/2018
 ms.keywords: ITaskNamedValueCollection interface [Task Scheduler],Remove method, ITaskNamedValueCollection.Remove, ITaskNamedValueCollection::Remove, Remove, Remove method [Task Scheduler], Remove method [Task Scheduler],ITaskNamedValueCollection interface, taskschd.itasknamedvaluecollection_remove, taskschd/ITaskNamedValueCollection::Remove
 ms.topic: method
-f1_keywords: 
- - "taskschd/ITaskNamedValueCollection.Remove"
+f1_keywords:
+- taskschd/ITaskNamedValueCollection.Remove
 dev_langs:
- - c++
+- c++
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Taskschd.lib
 req.dll: Taskschd.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - taskschd.dll
+- taskschd.dll
 api_name:
- - ITaskNamedValueCollection.Remove
+- ITaskNamedValueCollection.Remove
 targetos: Windows
 req.typenames: 
 req.redist: 

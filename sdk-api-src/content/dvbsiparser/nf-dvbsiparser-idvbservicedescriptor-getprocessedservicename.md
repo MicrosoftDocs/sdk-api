@@ -1,19 +1,17 @@
 ---
 UID: NF:dvbsiparser.IDvbServiceDescriptor.GetProcessedServiceName
 title: IDvbServiceDescriptor::GetProcessedServiceName (dvbsiparser.h)
-
 description: Gets the processed service name from a Digital Video Broadcast (DVB) service descriptor.
 old-location: mstv\idvbservicedescriptor_getprocessedservicename.htm
 tech.root: mstv
 ms.assetid: c0441e70-270e-4685-9107-865c2b6398e9
-
 ms.date: 12/05/2018
 ms.keywords: GetProcessedServiceName, GetProcessedServiceName method [Microsoft TV Technologies], GetProcessedServiceName method [Microsoft TV Technologies],IDvbServiceDescriptor interface, IDvbServiceDescriptor interface [Microsoft TV Technologies],GetProcessedServiceName method, IDvbServiceDescriptor.GetProcessedServiceName, IDvbServiceDescriptor::GetProcessedServiceName, dvbsiparser/IDvbServiceDescriptor::GetProcessedServiceName, mstv.idvbservicedescriptor_getprocessedservicename
 ms.topic: method
-f1_keywords: 
- - "dvbsiparser/IDvbServiceDescriptor.GetProcessedServiceName"
+f1_keywords:
+- dvbsiparser/IDvbServiceDescriptor.GetProcessedServiceName
 dev_langs:
- - c++
+- c++
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dvbsiparser.h
+- dvbsiparser.h
 api_name:
- - IDvbServiceDescriptor.GetProcessedServiceName
+- IDvbServiceDescriptor.GetProcessedServiceName
 targetos: Windows
 req.typenames: 
 req.redist: 

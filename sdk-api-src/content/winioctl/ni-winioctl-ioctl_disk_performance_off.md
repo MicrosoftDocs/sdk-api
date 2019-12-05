@@ -1,19 +1,17 @@
 ---
 UID: NI:winioctl.IOCTL_DISK_PERFORMANCE_OFF
 title: IOCTL_DISK_PERFORMANCE_OFF
-
 description: Disables the performance counters that provide disk performance information.
 old-location: fs\ioctl_disk_performance_off.htm
 tech.root: FileIO
 ms.assetid: 68f4f6fb-a4f3-4fa5-8187-b2287a4271e8
-
 ms.date: 12/05/2018
 ms.keywords: IOCTL_DISK_PERFORMANCE_OFF, IOCTL_DISK_PERFORMANCE_OFF control, IOCTL_DISK_PERFORMANCE_OFF control code [Files], base.ioctl_disk_performance_off, fs.ioctl_disk_performance_off, winioctl/IOCTL_DISK_PERFORMANCE_OFF
 ms.topic: ioctl
-f1_keywords: 
- - "winioctl/IOCTL_DISK_PERFORMANCE_OFF"
+f1_keywords:
+- winioctl/IOCTL_DISK_PERFORMANCE_OFF
 dev_langs:
- - c++
+- c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WinIoCtl.h
+- WinIoCtl.h
 api_name:
- - IOCTL_DISK_PERFORMANCE_OFF
+- IOCTL_DISK_PERFORMANCE_OFF
 targetos: Windows
 req.typenames: 
 req.redist: 

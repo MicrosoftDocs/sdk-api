@@ -1,19 +1,17 @@
 ---
 UID: NS:wmsdkidl._WMClientProperties
 title: WM_CLIENT_PROPERTIES (wmsdkidl.h)
-
 description: The WM_CLIENT_PROPERTIES structure records information about the client.
 old-location: wmformat\wm_client_properties.htm
 tech.root: wmformat
 ms.assetid: 62a5bafd-cc49-4a60-be03-038920e5b073
-
 ms.date: 12/05/2018
 ms.keywords: WM_CLIENT_PROPERTIES, WM_CLIENT_PROPERTIES structure [windows Media Format], wmformat.wm_client_properties, wmsdkidl/WM_CLIENT_PROPERTIES
 ms.topic: struct
-f1_keywords: 
- - "wmsdkidl/WM_CLIENT_PROPERTIES"
+f1_keywords:
+- wmsdkidl/WM_CLIENT_PROPERTIES
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wmsdkidl.h
+- Wmsdkidl.h
 api_name:
- - WM_CLIENT_PROPERTIES
+- WM_CLIENT_PROPERTIES
 targetos: Windows
 req.typenames: WM_CLIENT_PROPERTIES
 req.redist: 

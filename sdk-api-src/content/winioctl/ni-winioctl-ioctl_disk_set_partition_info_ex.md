@@ -1,19 +1,17 @@
 ---
 UID: NI:winioctl.IOCTL_DISK_SET_PARTITION_INFO_EX
 title: IOCTL_DISK_SET_PARTITION_INFO_EX
-
 description: Sets partition information for the specified disk partition, including layout information for AT and EFI (Extensible Firmware Interface) partitions.
 old-location: fs\ioctl_disk_set_partition_info_ex.htm
 tech.root: FileIO
 ms.assetid: 6feec7a9-5b57-406b-bbea-04cf9cdaf56b
-
 ms.date: 12/05/2018
 ms.keywords: IOCTL_DISK_SET_PARTITION_INFO_EX, IOCTL_DISK_SET_PARTITION_INFO_EX control, IOCTL_DISK_SET_PARTITION_INFO_EX control code [Files], _win32_ioctl_disk_set_partition_info_ex, base.ioctl_disk_set_partition_info_ex, fs.ioctl_disk_set_partition_info_ex, winioctl/IOCTL_DISK_SET_PARTITION_INFO_EX
 ms.topic: ioctl
-f1_keywords: 
- - "winioctl/IOCTL_DISK_SET_PARTITION_INFO_EX"
+f1_keywords:
+- winioctl/IOCTL_DISK_SET_PARTITION_INFO_EX
 dev_langs:
- - c++
+- c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WinIoCtl.h
+- WinIoCtl.h
 api_name:
- - IOCTL_DISK_SET_PARTITION_INFO_EX
+- IOCTL_DISK_SET_PARTITION_INFO_EX
 targetos: Windows
 req.typenames: 
 req.redist: 

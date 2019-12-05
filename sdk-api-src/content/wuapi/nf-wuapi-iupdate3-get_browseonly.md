@@ -1,19 +1,17 @@
 ---
 UID: NF:wuapi.IUpdate3.get_BrowseOnly
 title: IUpdate3::get_BrowseOnly (wuapi.h)
-
 description: Gets a Boolean value that indicates whether an update can be discovered only by browsing through the available updates.
 old-location: wua\iupdate3_browseonly.htm
 tech.root: Wua_Sdk
 ms.assetid: a1b5a225-6089-48f6-903c-0eb0539ca157
-
 ms.date: 12/05/2018
 ms.keywords: BrowseOnly property [Windows Update Agent], BrowseOnly property [Windows Update Agent],IUpdate3 interface, IUpdate3 interface [Windows Update Agent],BrowseOnly property, IUpdate3.BrowseOnly, IUpdate3.get_BrowseOnly, IUpdate3::BrowseOnly, IUpdate3::get_BrowseOnly, get_BrowseOnly, wua.iupdate3_browseonly, wuapi/IUpdate3::BrowseOnly, wuapi/IUpdate3::get_BrowseOnly
 ms.topic: method
-f1_keywords: 
- - "wuapi/IUpdate3.BrowseOnly"
+f1_keywords:
+- wuapi/IUpdate3.BrowseOnly
 dev_langs:
- - c++
+- c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Wuguid.lib
 req.dll: Wuapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wuapi.dll
+- Wuapi.dll
 api_name:
- - IUpdate3.BrowseOnly
- - IUpdate3.get_BrowseOnly
+- IUpdate3.BrowseOnly
+- IUpdate3.get_BrowseOnly
 targetos: Windows
 req.typenames: 
 req.redist: 

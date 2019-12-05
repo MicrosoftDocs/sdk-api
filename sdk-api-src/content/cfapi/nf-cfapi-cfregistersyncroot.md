@@ -1,19 +1,17 @@
 ---
 UID: NF:cfapi.CfRegisterSyncRoot
 title: CfRegisterSyncRoot function (cfapi.h)
-
 description: Performs a one time sync root registration.
 old-location: cloudapi\cfregistersyncroot.htm
 tech.root: cfApi
 ms.assetid: FAD56873-8812-42DC-9975-9507F73BD9E3
-
 ms.date: 12/05/2018
 ms.keywords: CfRegisterSyncRoot, CfRegisterSyncRoot function, cfapi/CfRegisterSyncRoot, cloudApi.cfregistersyncroot
 ms.topic: function
-f1_keywords: 
- - "cfapi/CfRegisterSyncRoot"
+f1_keywords:
+- cfapi/CfRegisterSyncRoot
 dev_langs:
- - c++
+- c++
 req.header: cfapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: CldApi.lib
 req.dll: CldApi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - CldApi.dll
+- CldApi.dll
 api_name:
- - CfRegisterSyncRoot
+- CfRegisterSyncRoot
 targetos: Windows
 req.typenames: 
 req.redist: 

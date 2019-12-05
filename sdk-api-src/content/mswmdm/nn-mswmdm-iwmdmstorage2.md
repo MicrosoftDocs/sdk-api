@@ -1,19 +1,17 @@
 ---
 UID: NN:mswmdm.IWMDMStorage2
 title: IWMDMStorage2 (mswmdm.h)
-
 description: The IWMDMStorage2 interface extends IWMDMStorage by making it possible to get a child storage by name, and to get and set extended attributes. IWMDMStorage3 interface extends this interface by supporting metadata.
 old-location: wmdm\iwmdmstorage2.htm
 tech.root: WMDM
 ms.assetid: 1283a5b5-d893-4795-a50a-5a3bd6fce8d5
-
 ms.date: 12/05/2018
 ms.keywords: IWMDMStorage2, IWMDMStorage2 interface [windows Media Device Manager], IWMDMStorage2 interface [windows Media Device Manager],described, IWMDMStorage2Interface, mswmdm/IWMDMStorage2, wmdm.iwmdmstorage2
 ms.topic: interface
-f1_keywords: 
- - "mswmdm/IWMDMStorage2"
+f1_keywords:
+- mswmdm/IWMDMStorage2
 dev_langs:
- - c++
+- c++
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mswmdm.h
+- mswmdm.h
 api_name:
- - IWMDMStorage2
+- IWMDMStorage2
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IAMExtTransport.get_MediaState
 title: IAMExtTransport::get_MediaState (strmif.h)
-
 description: The get_MediaState method retrieves the current state of the media.
 old-location: dshow\iamexttransport_get_mediastate.htm
 tech.root: DirectShow
 ms.assetid: 806356c7-796e-459f-8d5f-82c6b744bf07
-
 ms.date: 12/05/2018
 ms.keywords: IAMExtTransport interface [DirectShow],get_MediaState method, IAMExtTransport.get_MediaState, IAMExtTransport::get_MediaState, IAMExtTransportget_MediaState, dshow.iamexttransport_get_mediastate, get_MediaState, get_MediaState method [DirectShow], get_MediaState method [DirectShow],IAMExtTransport interface, strmif/IAMExtTransport::get_MediaState
 ms.topic: method
-f1_keywords: 
- - "strmif/IAMExtTransport.get_MediaState"
+f1_keywords:
+- strmif/IAMExtTransport.get_MediaState
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IAMExtTransport.get_MediaState
+- IAMExtTransport.get_MediaState
 targetos: Windows
 req.typenames: 
 req.redist: 

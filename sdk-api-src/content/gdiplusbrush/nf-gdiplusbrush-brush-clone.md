@@ -1,19 +1,17 @@
 ---
 UID: NF:gdiplusbrush.Brush.Clone
 title: Brush::Clone (gdiplusbrush.h)
-
 description: The Brush::Clone method creates a new Brush object based on this brush.
 old-location: gdiplus\_gdiplus_CLASS_Brush_Clone_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\brushclass\brushmethods\clone_54.htm
-
 ms.date: 12/05/2018
 ms.keywords: Brush class [GDI+],Clone method, Brush.Clone, Brush::Clone, Clone, Clone method [GDI+], Clone method [GDI+],Brush class, _gdiplus_CLASS_Brush_Clone_, gdiplus._gdiplus_CLASS_Brush_Clone_
 ms.topic: method
-f1_keywords: 
- - "gdiplusbrush/Brush.Clone"
+f1_keywords:
+- gdiplusbrush/Brush.Clone
 dev_langs:
- - c++
+- c++
 req.header: gdiplusbrush.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - Brush.Clone
+- Brush.Clone
 targetos: Windows
 req.typenames: 
 req.redist: 

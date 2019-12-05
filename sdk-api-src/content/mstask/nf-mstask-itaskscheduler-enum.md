@@ -1,19 +1,17 @@
 ---
 UID: NF:mstask.ITaskScheduler.Enum
 title: ITaskScheduler::Enum (mstask.h)
-
 description: The Enum method retrieves a pointer to an OLE enumerator object that enumerates the tasks in the current task folder.
 old-location: taskschd\itaskscheduler_enum.htm
 tech.root: taskschd
 ms.assetid: aca750e3-89b0-47f2-a9b9-49fe5db7f234
-
 ms.date: 12/05/2018
 ms.keywords: Enum, Enum method [Task Scheduler], Enum method [Task Scheduler],ITaskScheduler interface, ITaskScheduler interface [Task Scheduler],Enum method, ITaskScheduler.Enum, ITaskScheduler::Enum, _msb_itaskscheduler_enum, mstask/ITaskScheduler::Enum, taskschd.itaskscheduler_enum
 ms.topic: method
-f1_keywords: 
- - "mstask/ITaskScheduler.Enum"
+f1_keywords:
+- mstask/ITaskScheduler.Enum
 dev_langs:
- - c++
+- c++
 req.header: mstask.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Mstask.lib
 req.dll: Mstask.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mstask.dll
+- Mstask.dll
 api_name:
- - ITaskScheduler.Enum
+- ITaskScheduler.Enum
 targetos: Windows
 req.typenames: 
 req.redist: Internet Explorer 4.0 or later on Windows NT 4.0 and Windows 95

@@ -1,19 +1,17 @@
 ---
 UID: NF:winuser.GetAutoRotationState
 title: GetAutoRotationState function (winuser.h)
-
 description: Retrieves an AR_STATE value containing the state of screen auto-rotation for the system, for example whether auto-rotation is supported, and whether it is enabled by the user.
 old-location: base\getautorotationstate.htm
 tech.root: ProcThread
 ms.assetid: E041717B-920E-44F8-AC7F-B30CB82F1476
-
 ms.date: 12/05/2018
 ms.keywords: GetAutoRotationState, GetAutoRotationState function, base.getautorotationstate, winuser/GetAutoRotationState
 ms.topic: function
-f1_keywords: 
- - "winuser/GetAutoRotationState"
+f1_keywords:
+- winuser/GetAutoRotationState
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib:
 req.dll: Kernel.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - kernel.dll
- - Ext-MS-Win-NTUser-rotationmanager-l1-1-1.dll
- - user32.dll
- - ext-ms-win-ntuser-rotationmanager-l1-1-0.dll
+- kernel.dll
+- Ext-MS-Win-NTUser-rotationmanager-l1-1-1.dll
+- user32.dll
+- ext-ms-win-ntuser-rotationmanager-l1-1-0.dll
 api_name:
- - GetAutoRotationState
+- GetAutoRotationState
 targetos: Windows
 req.typenames: 
 req.redist: 

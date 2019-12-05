@@ -1,19 +1,17 @@
 ---
 UID: NF:webservices.WsGetHeaderAttributes
 title: WsGetHeaderAttributes function (webservices.h)
-
 description: This function populates a ULONG parameter with the WS_HEADER_ATTRIBUTES from the header element on which the reader is positioned. The envelope version of the message is used to determine which attributes to return.
 old-location: wsw\wsgetheaderattributes.htm
 tech.root: wsw
 ms.assetid: 323178d4-6bc9-4b5e-bd3d-b36972720cd7
-
 ms.date: 12/05/2018
 ms.keywords: WsGetHeaderAttributes, WsGetHeaderAttributes function [Web Services for Windows], webservices/WsGetHeaderAttributes, wsw.wsgetheaderattributes
 ms.topic: function
-f1_keywords: 
- - "webservices/WsGetHeaderAttributes"
+f1_keywords:
+- webservices/WsGetHeaderAttributes
 dev_langs:
- - c++
+- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: WebServices.lib
 req.dll: WebServices.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - WebServices.dll
+- WebServices.dll
 api_name:
- - WsGetHeaderAttributes
+- WsGetHeaderAttributes
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NC:dbghelp.PSYM_ENUMSYMBOLS_CALLBACK64W
 title: PSYM_ENUMSYMBOLS_CALLBACK64W (dbghelp.h)
-
 description: An application-defined callback function used with the SymEnumerateSymbols64 function. It is called once for each enumerated symbol, and receives the symbol information.
 old-location: base\symenumeratesymbolsproc64.htm
 tech.root: Debug
 ms.assetid: e1430398-041f-4edd-b7b0-de3a60a42b37
-
 ms.date: 12/05/2018
 ms.keywords: PSYM_ENUMSYMBOLS_CALLBACK, PSYM_ENUMSYMBOLS_CALLBACK64, PSYM_ENUMSYMBOLS_CALLBACK64W, SymEnumerateSymbolsProc64, SymEnumerateSymbolsProc64 callback, SymEnumerateSymbolsProc64 callback function, _win32_symenumeratesymbolsproc64, base.symenumeratesymbolsproc64, dbghelp/SymEnumerateSymbolsProc64
 ms.topic: callback
-f1_keywords: 
- - "dbghelp/SymEnumerateSymbolsProc64"
+f1_keywords:
+- dbghelp/SymEnumerateSymbolsProc64
 dev_langs:
- - c++
+- c++
 req.header: dbghelp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - DbgHelp.h
+- DbgHelp.h
 api_name:
- - SymEnumerateSymbolsProc64
+- SymEnumerateSymbolsProc64
 targetos: Windows
 req.typenames: 
 req.redist: DbgHelp.dll 5.1 or later

@@ -1,19 +1,17 @@
 ---
 UID: NF:dwrite_3.IDWriteFontFamily1.GetFontLocality
 title: IDWriteFontFamily1::GetFontLocality (dwrite_3.h)
-
 description: Gets the current location of a font given its zero-based index.
 old-location: directwrite\idwritefontfamily1_getfontlocality.htm
 tech.root: DirectWrite
 ms.assetid: 9D262E5C-4407-4110-A315-F529B809EDE2
-
 ms.date: 12/05/2018
 ms.keywords: GetFontLocality, GetFontLocality method [Direct Write], GetFontLocality method [Direct Write],IDWriteFontFamily1 interface, IDWriteFontFamily1 interface [Direct Write],GetFontLocality method, IDWriteFontFamily1.GetFontLocality, IDWriteFontFamily1::GetFontLocality, directwrite.idwritefontfamily1_getfontlocality, dwrite_3/IDWriteFontFamily1::GetFontLocality
 ms.topic: method
-f1_keywords: 
- - "dwrite_3/IDWriteFontFamily1.GetFontLocality"
+f1_keywords:
+- dwrite_3/IDWriteFontFamily1.GetFontLocality
 dev_langs:
- - c++
+- c++
 req.header: dwrite_3.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dwrite.lib
 req.dll: Dwrite.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dwrite.dll
+- dwrite.dll
 api_name:
- - IDWriteFontFamily1.GetFontLocality
+- IDWriteFontFamily1.GetFontLocality
 targetos: Windows
 req.typenames: 
 req.redist: 

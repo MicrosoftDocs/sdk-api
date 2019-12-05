@@ -1,19 +1,17 @@
 ---
 UID: NF:mapiunicodehelp.MAPISendMailHelper
 title: MAPISendMailHelper function (mapiunicodehelp.h)
-
 description: Takes Unicode message information and sends the message using MAPISendMailW or, if necessary, converts the message to ANSI and sends the message using MAPISendMail.
 old-location: mapi\mapisendmailhelper.htm
 tech.root: WindowsMAPI
 ms.assetid: 3FBE0950-6D73-4130-9F17-F1449247AB0F
-
 ms.date: 12/05/2018
 ms.keywords: MAPISendMailHelper, MAPISendMailHelper function, MAPI_DIALOG, MAPI_DIALOG_MODELESS, MAPI_FORCE_UNICODE, MAPI_LOGON_UI, MAPI_NEW_SESSION, mapi.mapisendmailhelper, mapiunicodehelp/MAPISendMailHelper
 ms.topic: function
-f1_keywords: 
- - "mapiunicodehelp/MAPISendMailHelper"
+f1_keywords:
+- mapiunicodehelp/MAPISendMailHelper
 dev_langs:
- - c++
+- c++
 req.header: mapiunicodehelp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Mapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - mapi32.dll
+- mapi32.dll
 api_name:
- - MAPISendMailHelper
+- MAPISendMailHelper
 targetos: Windows
 req.typenames: 
 req.redist: 

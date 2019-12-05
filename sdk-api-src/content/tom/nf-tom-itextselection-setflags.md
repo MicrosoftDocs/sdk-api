@@ -1,19 +1,17 @@
 ---
 UID: NF:tom.ITextSelection.SetFlags
 title: ITextSelection::SetFlags (tom.h)
-
 description: Sets the text selection flags.
 old-location: controls\ITextSelection_SetFlags.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\setflags.htm
-
 ms.date: 12/05/2018
 ms.keywords: ITextSelection interface [Windows Controls],SetFlags method, ITextSelection.SetFlags, ITextSelection::SetFlags, SetFlags, SetFlags method [Windows Controls], SetFlags method [Windows Controls],ITextSelection interface, _win32_ITextSelection_SetFlags, _win32_ITextSelection_SetFlags_cpp, controls.ITextSelection_SetFlags, controls._win32_ITextSelection_SetFlags, tom/ITextSelection::SetFlags
 ms.topic: method
-f1_keywords: 
- - "tom/ITextSelection.SetFlags"
+f1_keywords:
+- tom/ITextSelection.SetFlags
 dev_langs:
- - c++
+- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msftedit.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msftedit.dll
+- Msftedit.dll
 api_name:
- - ITextSelection.SetFlags
+- ITextSelection.SetFlags
 targetos: Windows
 req.typenames: 
 req.redist: 

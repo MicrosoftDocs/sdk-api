@@ -1,19 +1,17 @@
 ---
 UID: NN:wuapi.IUpdateDownloader
 title: IUpdateDownloader (wuapi.h)
-
 description: Downloads updates from the server.
 old-location: wua\iupdatedownloader.htm
 tech.root: Wua_Sdk
 ms.assetid: 8f9f3430-fc78-46cb-9dc8-b97e9d35d91c
-
 ms.date: 12/05/2018
 ms.keywords: IUpdateDownloader, IUpdateDownloader interface [Windows Update Agent], IUpdateDownloader interface [Windows Update Agent],described, wua.iupdatedownloader, wuapi/IUpdateDownloader
 ms.topic: interface
-f1_keywords: 
- - "wuapi/IUpdateDownloader"
+f1_keywords:
+- wuapi/IUpdateDownloader
 dev_langs:
- - c++
+- c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Wuguid.lib
 req.dll: Wuapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wuapi.dll
+- Wuapi.dll
 api_name:
- - IUpdateDownloader
+- IUpdateDownloader
 targetos: Windows
 req.typenames: 
 req.redist: 

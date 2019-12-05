@@ -1,19 +1,17 @@
 ---
 UID: NF:vfw.IAVIStream.SetFormat
 title: IAVIStream::SetFormat (vfw.h)
-
 description: The SetFormat method sets format information in a stream. Called when an application uses the AVIStreamSetFormat function.
 old-location: multimedia\iavistream_setformat.htm
 tech.root: Multimedia
 ms.assetid: 8693ce01-1f73-4d1b-ba8a-12f6453def22
-
 ms.date: 12/05/2018
 ms.keywords: IAVIStream interface [Windows Multimedia],SetFormat method, IAVIStream.SetFormat, IAVIStream::SetFormat, SetFormat, SetFormat method [Windows Multimedia], SetFormat method [Windows Multimedia],IAVIStream interface, _win32_IAVIStream_SetFormat, multimedia.iavistream_setformat, vfw/IAVIStream::SetFormat
 ms.topic: method
-f1_keywords: 
- - "vfw/IAVIStream.SetFormat"
+f1_keywords:
+- vfw/IAVIStream.SetFormat
 dev_langs:
- - c++
+- c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Vfw32.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Vfw32.lib
- - Vfw32.dll
+- Vfw32.lib
+- Vfw32.dll
 api_name:
- - IAVIStream.SetFormat
+- IAVIStream.SetFormat
 targetos: Windows
 req.typenames: 
 req.redist: 

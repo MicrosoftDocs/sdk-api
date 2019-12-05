@@ -1,19 +1,17 @@
 ---
 UID: NS:d3d12.D3D12_SERIALIZED_DATA_DRIVER_MATCHING_IDENTIFIER
 title: D3D12_SERIALIZED_DATA_DRIVER_MATCHING_IDENTIFIER (d3d12.h)
-
 description: Opaque data structure describing driver versioning for a serialized acceleration structure.
 old-location: direct3d12\d3d12_serialized_data_driver_matching_identifier.htm
 tech.root: direct3d12
 ms.assetid: B98D2222-6ADC-4CA4-A75D-21162D7AB3F7
-
 ms.date: 12/05/2018
 ms.keywords: D3D12_SERIALIZED_DATA_DRIVER_MATCHING_IDENTIFIER, D3D12_SERIALIZED_DATA_DRIVER_MATCHING_IDENTIFIER structure, PD3D12_SERIALIZED_DATA_DRIVER_MATCHING_IDENTIFIER, PD3D12_SERIALIZED_DATA_DRIVER_MATCHING_IDENTIFIER structure pointer, d3d12/D3D12_SERIALIZED_DATA_DRIVER_MATCHING_IDENTIFIER, d3d12/PD3D12_SERIALIZED_DATA_DRIVER_MATCHING_IDENTIFIER, direct3d12.d3d12_serialized_data_driver_matching_identifier
 ms.topic: struct
-f1_keywords: 
- - "d3d12/D3D12_SERIALIZED_DATA_DRIVER_MATCHING_IDENTIFIER"
+f1_keywords:
+- d3d12/D3D12_SERIALIZED_DATA_DRIVER_MATCHING_IDENTIFIER
 dev_langs:
- - c++
+- c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - D3D12.h
+- D3D12.h
 api_name:
- - D3D12_SERIALIZED_DATA_DRIVER_MATCHING_IDENTIFIER
+- D3D12_SERIALIZED_DATA_DRIVER_MATCHING_IDENTIFIER
 targetos: Windows
 req.typenames: D3D12_SERIALIZED_DATA_DRIVER_MATCHING_IDENTIFIER
 req.redist: 

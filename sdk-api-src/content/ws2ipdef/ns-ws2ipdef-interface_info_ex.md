@@ -1,19 +1,17 @@
 ---
 UID: NS:ws2ipdef._INTERFACE_INFO_EX
 title: INTERFACE_INFO_EX (ws2ipdef.h)
-
 description: The INTERFACE_INFO_EX structure is used in conjunction with the SIO_GET_INTERFACE_LIST IOCTL command to obtain information about an interface IP address.
 old-location: winsock\interface_info_ex.htm
 tech.root: WinSock
 ms.assetid: d13a4b5d-9f61-464f-be50-ceda596cbb65
-
 ms.date: 12/05/2018
-ms.keywords: "*LPINTERFACE_INFO_EX, IFF_BROADCAST, IFF_LOOPBACK, IFF_MULTICAST, IFF_POINTTOPOINT, IFF_UP, INTERFACE_INFO_EX, INTERFACE_INFO_EX structure [Winsock], INTERFACE_INFO_EX,FAR * _LPINTERFACE_INFO_EX, INTERFACE_INFO_EX,FAR * _LPINTERFACE_INFO_EX structure [Winsock], winsock.interface_info_ex, ws2ipdef/INTERFACE_INFO_EX, ws2tcpip/INTERFACE_INFO_EX"
+ms.keywords: '*LPINTERFACE_INFO_EX, IFF_BROADCAST, IFF_LOOPBACK, IFF_MULTICAST, IFF_POINTTOPOINT, IFF_UP, INTERFACE_INFO_EX, INTERFACE_INFO_EX structure [Winsock], INTERFACE_INFO_EX,FAR * _LPINTERFACE_INFO_EX, INTERFACE_INFO_EX,FAR * _LPINTERFACE_INFO_EX structure [Winsock], winsock.interface_info_ex, ws2ipdef/INTERFACE_INFO_EX, ws2tcpip/INTERFACE_INFO_EX'
 ms.topic: struct
-f1_keywords: 
- - "ws2ipdef/INTERFACE_INFO_EX, FAR * _LPINTERFACE_INFO_EX"
+f1_keywords:
+- ws2ipdef/INTERFACE_INFO_EX, FAR * _LPINTERFACE_INFO_EX
 dev_langs:
- - c++
+- c++
 req.header: ws2ipdef.h
 req.include-header: Ws2tcpip.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Ws2ipdef.h
- - Ws2tcpip.h
+- Ws2ipdef.h
+- Ws2tcpip.h
 api_name:
- - INTERFACE_INFO_EX, FAR * _LPINTERFACE_INFO_EX
+- INTERFACE_INFO_EX, FAR * _LPINTERFACE_INFO_EX
 targetos: Windows
 req.typenames: INTERFACE_INFO_EX, *LPINTERFACE_INFO_EX
 req.redist: 

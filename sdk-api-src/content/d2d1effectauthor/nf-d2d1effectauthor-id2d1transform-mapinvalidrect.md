@@ -1,19 +1,17 @@
 ---
 UID: NF:d2d1effectauthor.ID2D1Transform.MapInvalidRect
 title: ID2D1Transform::MapInvalidRect (d2d1effectauthor.h)
-
 description: Sets the input rectangles for this rendering pass into the transform.
 old-location: direct2d\id2d1transform_setinputrects.htm
 tech.root: Direct2D
 ms.assetid: 46E6EAF3-7EC7-4433-90E5-4C6E3A56AFA5
-
 ms.date: 12/05/2018
 ms.keywords: ID2D1Transform interface [Direct2D],MapInvalidRect method, ID2D1Transform.MapInvalidRect, ID2D1Transform::MapInvalidRect, MapInvalidRect, MapInvalidRect method [Direct2D], MapInvalidRect method [Direct2D],ID2D1Transform interface, d2d1effectauthor/ID2D1Transform::MapInvalidRect, direct2d.id2d1transform_setinputrects
 ms.topic: method
-f1_keywords: 
- - "d2d1effectauthor/ID2D1Transform.MapInvalidRect"
+f1_keywords:
+- d2d1effectauthor/ID2D1Transform.MapInvalidRect
 dev_langs:
- - c++
+- c++
 req.header: d2d1effectauthor.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: D2d1.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - d2d1.lib
- - d2d1.dll
+- d2d1.lib
+- d2d1.dll
 api_name:
- - ID2D1Transform.MapInvalidRect
+- ID2D1Transform.MapInvalidRect
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d12shader.ID3D12ShaderReflection.GetRequiresFlags
 title: ID3D12ShaderReflection::GetRequiresFlags (d3d12shader.h)
-
 description: Gets a group of flags that indicates the requirements of a shader.
 old-location: direct3d12\id3d12shaderreflection_getrequiresflags.htm
 tech.root: direct3d12
 ms.assetid: ABA7BB9E-AB1D-407A-BB16-97EE74318C1A
-
 ms.date: 12/05/2018
 ms.keywords: GetRequiresFlags, GetRequiresFlags method, GetRequiresFlags method,ID3D12ShaderReflection interface, ID3D12ShaderReflection interface,GetRequiresFlags method, ID3D12ShaderReflection.GetRequiresFlags, ID3D12ShaderReflection::GetRequiresFlags, d3d12shader/ID3D12ShaderReflection::GetRequiresFlags, direct3d12.id3d12shaderreflection_getrequiresflags
 ms.topic: method
-f1_keywords: 
- - "d3d12shader/ID3D12ShaderReflection.GetRequiresFlags"
+f1_keywords:
+- d3d12shader/ID3D12ShaderReflection.GetRequiresFlags
 dev_langs:
- - c++
+- c++
 req.header: d3d12shader.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - d3d12shader.h
+- d3d12shader.h
 api_name:
- - ID3D12ShaderReflection.GetRequiresFlags
+- ID3D12ShaderReflection.GetRequiresFlags
 targetos: Windows
 req.typenames: 
 req.redist: 

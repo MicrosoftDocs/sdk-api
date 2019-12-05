@@ -1,19 +1,17 @@
 ---
 UID: NF:dwrite_2.IDWriteTextFormat1.GetFontFallback
 title: IDWriteTextFormat1::GetFontFallback (dwrite_2.h)
-
 description: Gets the current fallback. If none was ever set since creating the layout, it will be nullptr.
 old-location: directwrite\idwritetextformat1_getfontfallback.htm
 tech.root: DirectWrite
 ms.assetid: D34A49A0-CE37-43B9-B7CC-6A70D76BA369
-
 ms.date: 12/05/2018
 ms.keywords: GetFontFallback, GetFontFallback method [Direct Write], GetFontFallback method [Direct Write],IDWriteTextFormat1 interface, IDWriteTextFormat1 interface [Direct Write],GetFontFallback method, IDWriteTextFormat1.GetFontFallback, IDWriteTextFormat1::GetFontFallback, directwrite.idwritetextformat1_getfontfallback, dwrite_2/IDWriteTextFormat1::GetFontFallback
 ms.topic: method
-f1_keywords: 
- - "dwrite_2/IDWriteTextFormat1.GetFontFallback"
+f1_keywords:
+- dwrite_2/IDWriteTextFormat1.GetFontFallback
 dev_langs:
- - c++
+- c++
 req.header: dwrite_2.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dwrite.lib
 req.dll: Dwrite.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dwrite.dll
+- dwrite.dll
 api_name:
- - IDWriteTextFormat1.GetFontFallback
+- IDWriteTextFormat1.GetFontFallback
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:heapapi.HeapUnlock
 title: HeapUnlock function (heapapi.h)
-
 description: Releases ownership of the critical section object, or lock, that is associated with a specified heap.
 old-location: base\heapunlock.htm
 tech.root: Memory
 ms.assetid: c1a7b2c8-293e-4e07-a654-fd10b2f0ef39
-
 ms.date: 12/05/2018
 ms.keywords: HeapUnlock, HeapUnlock function, _win32_heapunlock, base.heapunlock, heapapi/HeapUnlock, winbase/HeapUnlock
 ms.topic: function
-f1_keywords: 
- - "heapapi/HeapUnlock"
+f1_keywords:
+- heapapi/HeapUnlock
 dev_langs:
- - c++
+- c++
 req.header: heapapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,19 +30,19 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-heap-l1-1-0.dll
- - KernelBase.dll
- - API-MS-Win-Core-heap-l1-2-0.dll
- - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
- - MinKernelBase.dll
+- Kernel32.dll
+- API-MS-Win-Core-heap-l1-1-0.dll
+- KernelBase.dll
+- API-MS-Win-Core-heap-l1-2-0.dll
+- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+- MinKernelBase.dll
 api_name:
- - HeapUnlock
+- HeapUnlock
 targetos: Windows
 req.typenames: 
 req.redist: 

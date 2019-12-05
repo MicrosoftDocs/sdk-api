@@ -1,19 +1,17 @@
 ---
 UID: NS:vdshwprv._VDS_LUN_NOTIFICATION
 title: VDS_LUN_NOTIFICATION (vdshwprv.h)
-
 description: Defines the details of a LUN notification.
 old-location: base\vds_lun_notification.htm
 tech.root: VDS
 ms.assetid: 42b71b32-337e-4352-b4b3-6af2caad86e5
-
 ms.date: 12/05/2018
 ms.keywords: VDS_LUN_NOTIFICATION, VDS_LUN_NOTIFICATION structure [VDS], VDS_NF_LUN_ARRIVE, VDS_NF_LUN_DEPART, VDS_NF_LUN_MODIFY, base.vds_lun_notification, vds/_VDS_LUN_NOTIFICATION, vdshwprv/_VDS_LUN_NOTIFICATION
 ms.topic: struct
 f1_keywords:
 - vdshwprv/VDS_LUN_NOTIFICATION
 dev_langs:
- - c++
+- c++
 req.header: vdshwprv.h
 req.include-header: 
 req.target-type: Windows

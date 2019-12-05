@@ -1,19 +1,17 @@
 ---
 UID: NF:objidl.IStorage.SetElementTimes
 title: IStorage::SetElementTimes (objidl.h)
-
 description: The SetElementTimes method sets the modification, access, and creation times of the specified storage element, if the underlying file system supports this method.
 old-location: stg\istorage_setelementtimes.htm
 tech.root: Stg
 ms.assetid: f6a1fba4-0444-4de3-a838-2d339878fe24
-
 ms.date: 12/05/2018
 ms.keywords: IStorage interface [Structured Storage],SetElementTimes method, IStorage.SetElementTimes, IStorage::SetElementTimes, SetElementTimes, SetElementTimes method [Structured Storage], SetElementTimes method [Structured Storage],IStorage interface, _stg_istorage_setelementtimes, objidl/IStorage::SetElementTimes, stg.istorage_setelementtimes
 ms.topic: method
-f1_keywords: 
- - "objidl/IStorage.SetElementTimes"
+f1_keywords:
+- objidl/IStorage.SetElementTimes
 dev_langs:
- - c++
+- c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Ole32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Ole32.dll
+- Ole32.dll
 api_name:
- - IStorage.SetElementTimes
+- IStorage.SetElementTimes
 targetos: Windows
 req.typenames: 
 req.redist: 

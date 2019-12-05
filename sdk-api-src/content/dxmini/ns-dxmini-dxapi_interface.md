@@ -1,19 +1,17 @@
 ---
 UID: NS:dxmini._DXAPI_INTERFACE
 title: DXAPI_INTERFACE (dxmini.h)
-
 description: The DXAPI_INTERFACE structure contains the interface callback functions that a video miniport driver implements to support Kernel-Mode Video Transport.
 old-location: display\dxapi_interface.htm
 tech.root: display
 ms.assetid: 137473ea-4785-4118-86af-a859f69f425f
-
 ms.date: 12/05/2018
-ms.keywords: "*PDXAPI_INTERFACE, DXAPI_INTERFACE, DXAPI_INTERFACE structure [Display Devices], PDXAPI_INTERFACE, PDXAPI_INTERFACE structure pointer [Display Devices], ddstrcts_99854747-7e4c-4a5a-9252-13f56abdffbc.xml, display.dxapi_interface, dxmini/DXAPI_INTERFACE, dxmini/PDXAPI_INTERFACE"
+ms.keywords: '*PDXAPI_INTERFACE, DXAPI_INTERFACE, DXAPI_INTERFACE structure [Display Devices], PDXAPI_INTERFACE, PDXAPI_INTERFACE structure pointer [Display Devices], ddstrcts_99854747-7e4c-4a5a-9252-13f56abdffbc.xml, display.dxapi_interface, dxmini/DXAPI_INTERFACE, dxmini/PDXAPI_INTERFACE'
 ms.topic: struct
-f1_keywords: 
- - "dxmini/DXAPI_INTERFACE"
+f1_keywords:
+- dxmini/DXAPI_INTERFACE
 dev_langs:
- - c++
+- c++
 req.header: dxmini.h
 req.include-header: Dxmini.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - dxmini.h
+- dxmini.h
 api_name:
- - DXAPI_INTERFACE
+- DXAPI_INTERFACE
 targetos: Windows
 req.typenames: DXAPI_INTERFACE, *PDXAPI_INTERFACE
 req.redist: 

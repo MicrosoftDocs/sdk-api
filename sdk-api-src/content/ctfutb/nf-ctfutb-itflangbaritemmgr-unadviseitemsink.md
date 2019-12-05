@@ -1,19 +1,17 @@
 ---
 UID: NF:ctfutb.ITfLangBarItemMgr.UnadviseItemSink
 title: ITfLangBarItemMgr::UnadviseItemSink (ctfutb.h)
-
 description: ITfLangBarItemMgr::UnadviseItemSink method
 old-location: tsf\itflangbaritemmgr_unadviseitemsink.htm
 tech.root: TSF
 ms.assetid: 20a0f69b-950e-4ad7-9357-74f0b4a75c6b
-
 ms.date: 12/05/2018
 ms.keywords: ITfLangBarItemMgr interface [Text Services Framework],UnadviseItemSink method, ITfLangBarItemMgr.UnadviseItemSink, ITfLangBarItemMgr::UnadviseItemSink, UnadviseItemSink, UnadviseItemSink method [Text Services Framework], UnadviseItemSink method [Text Services Framework],ITfLangBarItemMgr interface, _tsf_itflangbaritemmgr_unadviseitemsink_ref, ctfutb/ITfLangBarItemMgr::UnadviseItemSink, tsf.itflangbaritemmgr_unadviseitemsink
 ms.topic: method
-f1_keywords: 
- - "ctfutb/ITfLangBarItemMgr.UnadviseItemSink"
+f1_keywords:
+- ctfutb/ITfLangBarItemMgr.UnadviseItemSink
 dev_langs:
- - c++
+- c++
 req.header: ctfutb.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msctf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msctf.dll
+- msctf.dll
 api_name:
- - ITfLangBarItemMgr.UnadviseItemSink
+- ITfLangBarItemMgr.UnadviseItemSink
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

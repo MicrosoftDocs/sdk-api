@@ -1,19 +1,17 @@
 ---
 UID: NF:gdipluspath.PathGradientBrush.GetInterpolationColors
 title: PathGradientBrush::GetInterpolationColors (gdipluspath.h)
-
 description: The PathGradientBrush::GetInterpolationColors method gets the preset colors and blend positions currently specified for this path gradient brush.
 old-location: gdiplus\_gdiplus_CLASS_PathGradientBrush_GetInterpolationColors_presetColors_blendPositions_count_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\pathgradientbrushclass\pathgradientbrushmethods\getinterpolationcolors_50presetcolors_blendpositions_count.htm
-
 ms.date: 12/05/2018
 ms.keywords: GetInterpolationColors, GetInterpolationColors method [GDI+], GetInterpolationColors method [GDI+],PathGradientBrush class, PathGradientBrush class [GDI+],GetInterpolationColors method, PathGradientBrush.GetInterpolationColors, PathGradientBrush::GetInterpolationColors, _gdiplus_CLASS_PathGradientBrush_GetInterpolationColors_presetColors_blendPositions_count_, gdiplus._gdiplus_CLASS_PathGradientBrush_GetInterpolationColors_presetColors_blendPositions_count_
 ms.topic: method
-f1_keywords: 
- - "gdipluspath/PathGradientBrush.GetInterpolationColors"
+f1_keywords:
+- gdipluspath/PathGradientBrush.GetInterpolationColors
 dev_langs:
- - c++
+- c++
 req.header: gdipluspath.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - PathGradientBrush.GetInterpolationColors
+- PathGradientBrush.GetInterpolationColors
 targetos: Windows
 req.typenames: 
 req.redist: 

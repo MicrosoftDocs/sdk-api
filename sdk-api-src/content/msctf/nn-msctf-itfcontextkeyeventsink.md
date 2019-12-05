@@ -1,19 +1,17 @@
 ---
 UID: NN:msctf.ITfContextKeyEventSink
 title: ITfContextKeyEventSink (msctf.h)
-
 description: The ITfContextKeyEventSink interface is implemented by a text service to receive keyboard event notifications that occur in an input context.
 old-location: tsf\itfcontextkeyeventsink.htm
 tech.root: TSF
 ms.assetid: 26fc5d8a-e24e-414e-a355-c1f89251f6bd
-
 ms.date: 12/05/2018
 ms.keywords: ITfContextKeyEventSink, ITfContextKeyEventSink interface [Text Services Framework], ITfContextKeyEventSink interface [Text Services Framework],described, _tsf_itfcontextkeyeventsink_ref, msctf/ITfContextKeyEventSink, tsf.itfcontextkeyeventsink
 ms.topic: interface
-f1_keywords: 
- - "msctf/ITfContextKeyEventSink"
+f1_keywords:
+- msctf/ITfContextKeyEventSink
 dev_langs:
- - c++
+- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Mscandui.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mscandui.dll
+- mscandui.dll
 api_name:
- - ITfContextKeyEventSink
+- ITfContextKeyEventSink
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

@@ -1,19 +1,17 @@
 ---
 UID: NF:mgm.MgmGroupEnumerationEnd
 title: MgmGroupEnumerationEnd function (mgm.h)
-
 description: The MgmGroupEnumerationEnd function releases the specified enumeration handle that was obtained from a previous call to MgmGroupEnumerationStart.
 old-location: rras\mgmgroupenumerationend.htm
 tech.root: RRAS
 ms.assetid: 87a0bd96-c877-443e-a539-a31ab0971869
-
 ms.date: 12/05/2018
 ms.keywords: MgmGroupEnumerationEnd, MgmGroupEnumerationEnd function [RAS], _mpr_mgmgroupenumerationend, mgm/MgmGroupEnumerationEnd, rras.mgmgroupenumerationend
 ms.topic: function
-f1_keywords: 
- - "mgm/MgmGroupEnumerationEnd"
+f1_keywords:
+- mgm/MgmGroupEnumerationEnd
 dev_langs:
- - c++
+- c++
 req.header: mgm.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Rtm.lib
 req.dll: Rtm.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Rtm.dll
+- Rtm.dll
 api_name:
- - MgmGroupEnumerationEnd
+- MgmGroupEnumerationEnd
 targetos: Windows
 req.typenames: 
 req.redist: 

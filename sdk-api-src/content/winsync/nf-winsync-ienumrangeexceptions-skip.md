@@ -1,19 +1,17 @@
 ---
 UID: NF:winsync.IEnumRangeExceptions.Skip
 title: IEnumRangeExceptions::Skip (winsync.h)
-
 description: Skips the specified number of range exceptions.
 old-location: winsync\ienumrangeexceptions_skip.htm
 tech.root: winsync
 ms.assetid: 61907858-4089-4c12-865c-623a43132be3
-
 ms.date: 12/05/2018
 ms.keywords: IEnumRangeExceptions interface [Windows Sync],Skip method, IEnumRangeExceptions.Skip, IEnumRangeExceptions::Skip, Skip, Skip method [Windows Sync], Skip method [Windows Sync],IEnumRangeExceptions interface, winsync.ienumrangeexceptions_skip, winsync/IEnumRangeExceptions::Skip
 ms.topic: method
-f1_keywords: 
- - "winsync/IEnumRangeExceptions.Skip"
+f1_keywords:
+- winsync/IEnumRangeExceptions.Skip
 dev_langs:
- - c++
+- c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - winsync.h
+- winsync.h
 api_name:
- - IEnumRangeExceptions.Skip
+- IEnumRangeExceptions.Skip
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NE:winnls.SYSGEOCLASS
 title: SYSGEOCLASS (winnls.h)
-
 description: Specifies the geographical location class.
 old-location: intl\sysgeoclass.htm
 tech.root: Intl
 ms.assetid: 27c2dec7-b5e7-47b7-8ce2-8dba3d0916bf
-
 ms.date: 12/05/2018
 ms.keywords: GEOCLASS_ALL, GEOCLASS_NATION, GEOCLASS_REGION, SYSGEOCLASS, SYSGEOCLASS enumeration [Internationalization for Windows Applications], _win32_SYSGEOCLASS, intl.sysgeoclass, winnls/GEOCLASS_ALL, winnls/GEOCLASS_NATION, winnls/GEOCLASS_REGION, winnls/SYSGEOCLASS
 ms.topic: enum
-f1_keywords: 
- - "winnls/SYSGEOCLASS"
+f1_keywords:
+- winnls/SYSGEOCLASS
 dev_langs:
- - c++
+- c++
 req.header: winnls.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Winnls.h
+- Winnls.h
 api_name:
- - SYSGEOCLASS
+- SYSGEOCLASS
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:dwmapi.DwmSetWindowAttribute
 title: DwmSetWindowAttribute function (dwmapi.h)
-
 description: Sets the value of Desktop Window Manager (DWM) non-client rendering attributes for a window.
 old-location: dwm\dwmsetwindowattribute.htm
 tech.root: dwm
 ms.assetid: VS|winui|~\winui\desktopwindowmanager\reference\functions\dwmsetwindowattribute.htm
-
 ms.date: 05/30/2019
 ms.keywords: DwmSetWindowAttribute, DwmSetWindowAttribute function [Desktop Window Manager], _udwm_dwmsetwindowattribute, _udwm_dwmsetwindowattribute_cpp, dwm.dwmsetwindowattribute, dwmapi/DwmSetWindowAttribute, winui._udwm_dwmsetwindowattribute
 ms.topic: function
-f1_keywords: 
- - "dwmapi/DwmSetWindowAttribute"
+f1_keywords:
+- dwmapi/DwmSetWindowAttribute
 dev_langs:
- - c++
+- c++
 req.header: dwmapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib: Dwmapi.lib
 req.dll: Dwmapi.dll; Uxtheme.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Dwmapi.dll
- - uxtheme.dll
- - ext-ms-win-dwmapi-ext-l1-1-0.dll
- - ext-ms-win-dwmapi-ext-l1-1-1.dll
- - ext-ms-win-dwmapi-ext-l1-1-2.dll
+- Dwmapi.dll
+- uxtheme.dll
+- ext-ms-win-dwmapi-ext-l1-1-0.dll
+- ext-ms-win-dwmapi-ext-l1-1-1.dll
+- ext-ms-win-dwmapi-ext-l1-1-2.dll
 api_name:
- - DwmSetWindowAttribute
+- DwmSetWindowAttribute
 targetos: Windows
 req.typenames: 
 req.redist: 

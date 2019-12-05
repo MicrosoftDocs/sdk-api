@@ -1,19 +1,17 @@
 ---
 UID: NF:certenroll.IPolicyQualifiers.get_Count
 title: IPolicyQualifiers::get_Count (certenroll.h)
-
 description: Retrieves the number of objects in the collection.
 old-location: security\ipolicyqualifiers_count_property.htm
 tech.root: seccertenroll
 ms.assetid: d13f7a1c-5b2b-4a0d-a84e-d5c58f107575
-
 ms.date: 12/05/2018
 ms.keywords: Count property [Security], Count property [Security],IPolicyQualifiers interface, IPolicyQualifiers interface [Security],Count property, IPolicyQualifiers.Count, IPolicyQualifiers.get_Count, IPolicyQualifiers::Count, IPolicyQualifiers::get_Count, certenroll/IPolicyQualifiers::Count, certenroll/IPolicyQualifiers::get_Count, get_Count, security.ipolicyqualifiers_count_property
 ms.topic: method
-f1_keywords: 
- - "certenroll/IPolicyQualifiers.Count"
+f1_keywords:
+- certenroll/IPolicyQualifiers.Count
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: CertEnroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CertEnroll.dll
+- CertEnroll.dll
 api_name:
- - IPolicyQualifiers.Count
- - IPolicyQualifiers.get_Count
+- IPolicyQualifiers.Count
+- IPolicyQualifiers.get_Count
 targetos: Windows
 req.typenames: 
 req.redist: 

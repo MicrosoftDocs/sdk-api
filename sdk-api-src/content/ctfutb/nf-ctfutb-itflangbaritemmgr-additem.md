@@ -1,19 +1,17 @@
 ---
 UID: NF:ctfutb.ITfLangBarItemMgr.AddItem
 title: ITfLangBarItemMgr::AddItem (ctfutb.h)
-
 description: ITfLangBarItemMgr::AddItem method
 old-location: tsf\itflangbaritemmgr_additem.htm
 tech.root: TSF
 ms.assetid: c9a36b2c-e7ea-4932-928e-05dd05ca02ca
-
 ms.date: 12/05/2018
 ms.keywords: AddItem, AddItem method [Text Services Framework], AddItem method [Text Services Framework],ITfLangBarItemMgr interface, ITfLangBarItemMgr interface [Text Services Framework],AddItem method, ITfLangBarItemMgr.AddItem, ITfLangBarItemMgr::AddItem, _tsf_itflangbaritemmgr_additem_ref, ctfutb/ITfLangBarItemMgr::AddItem, tsf.itflangbaritemmgr_additem
 ms.topic: method
-f1_keywords: 
- - "ctfutb/ITfLangBarItemMgr.AddItem"
+f1_keywords:
+- ctfutb/ITfLangBarItemMgr.AddItem
 dev_langs:
- - c++
+- c++
 req.header: ctfutb.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msctf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msctf.dll
+- msctf.dll
 api_name:
- - ITfLangBarItemMgr.AddItem
+- ITfLangBarItemMgr.AddItem
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

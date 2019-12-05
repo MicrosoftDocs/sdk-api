@@ -1,19 +1,17 @@
 ---
 UID: NF:dcomp.IDCompositionRectangleClip.SetBottomLeftRadiusX(IDCompositionAnimation)
 title: IDCompositionRectangleClip::SetBottomLeftRadiusX(IDCompositionAnimation) (dcomp.h)
-
 description: Animates the value of the BottomLeftRadiusX property of this clip. The BottomLeftRadiusX property specifies the x radius of the ellipse that rounds the lower-left corner of the clip.
 old-location: directcomp\idcompositionrectangleclip_setbottomleftradiusx_idcompositionanimation.htm
 tech.root: directcomp
 ms.assetid: 9C3C5162-82C0-4114-8D9D-123B84215DE7
-
 ms.date: 12/05/2018
 ms.keywords: IDCompositionRectangleClip interface [DirectComposition],SetBottomLeftRadiusX method, IDCompositionRectangleClip.SetBottomLeftRadiusX, IDCompositionRectangleClip.SetBottomLeftRadiusX(IDCompositionAnimation), IDCompositionRectangleClip::SetBottomLeftRadiusX, IDCompositionRectangleClip::SetBottomLeftRadiusX(IDCompositionAnimation), IDCompositionRectangleClip::SetBottomLeftRadiusX(IDCompositionAnimation*), SetBottomLeftRadiusX, SetBottomLeftRadiusX method [DirectComposition], SetBottomLeftRadiusX method [DirectComposition],IDCompositionRectangleClip interface, dcomp/IDCompositionRectangleClip::SetBottomLeftRadiusX, directcomp.idcompositionrectangleclip_setbottomleftradiusx_idcompositionanimation
 ms.topic: method
-f1_keywords: 
- - "dcomp/IDCompositionRectangleClip.SetBottomLeftRadiusX"
+f1_keywords:
+- dcomp/IDCompositionRectangleClip.SetBottomLeftRadiusX
 dev_langs:
- - c++
+- c++
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dcomp.lib
 req.dll: Dcomp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dcomp.dll
+- Dcomp.dll
 api_name:
- - IDCompositionRectangleClip.SetBottomLeftRadiusX
+- IDCompositionRectangleClip.SetBottomLeftRadiusX
 targetos: Windows
 req.typenames: 
 req.redist: 

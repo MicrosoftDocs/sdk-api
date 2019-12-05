@@ -1,19 +1,17 @@
 ---
 UID: NF:shlwapi.StrCSpnW
 title: StrCSpnW function (shlwapi.h)
-
 description: Searches a string for the first occurrence of any of a group of characters. The search method is case-sensitive, and the terminating NULL character is included within the search pattern match.
 old-location: shell\StrCSpn.htm
 tech.root: shell
 ms.assetid: 24e9ec52-a5d7-4220-8e71-f850b53c49dd
-
 ms.date: 12/05/2018
 ms.keywords: StrCSpn, StrCSpn function [Windows Shell], StrCSpnA, StrCSpnW, _win32_StrCSpn, shell.StrCSpn, shlwapi/StrCSpn, shlwapi/StrCSpnA, shlwapi/StrCSpnW
 ms.topic: function
-f1_keywords: 
- - "shlwapi/StrCSpn"
+f1_keywords:
+- shlwapi/StrCSpn
 dev_langs:
- - c++
+- c++
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,21 +30,21 @@ req.lib: Shlwapi.lib
 req.dll: Shlwapi.dll (version 4.71 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Shlwapi.dll
- - API-MS-Win-Core-shlwapi-Obsolete-l1-1-0.dll
- - KernelBase.dll
- - API-MS-Win-Core-shlwapi-Obsolete-l1-2-0.dll
- - API-MS-Win-DownLevel-shlwapi-l1-1-0.dll
- - API-MS-Win-DownLevel-shlwapi-l1-1-1.dll
+- Shlwapi.dll
+- API-MS-Win-Core-shlwapi-Obsolete-l1-1-0.dll
+- KernelBase.dll
+- API-MS-Win-Core-shlwapi-Obsolete-l1-2-0.dll
+- API-MS-Win-DownLevel-shlwapi-l1-1-0.dll
+- API-MS-Win-DownLevel-shlwapi-l1-1-1.dll
 api_name:
- - StrCSpn
- - StrCSpnA
- - StrCSpnW
+- StrCSpn
+- StrCSpnA
+- StrCSpnW
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:winhttp.WinHttpGetProxyForUrlEx
 title: WinHttpGetProxyForUrlEx function (winhttp.h)
-
 description: Retrieves the proxy data for the specified URL.
 old-location: http\winhttpgetproxyforurlex.htm
 tech.root: WinHttp
 ms.assetid: 28479a55-7a25-4254-b27a-45e09b166dd5
-
 ms.date: 12/05/2018
 ms.keywords: WinHttpGetProxyForUrlEx, WinHttpGetProxyForUrlEx function [WinHTTP], http.winhttpgetproxyforurlex, winhttp/WinHttpGetProxyForUrlEx
 ms.topic: function
-f1_keywords: 
- - "winhttp/WinHttpGetProxyForUrlEx"
+f1_keywords:
+- winhttp/WinHttpGetProxyForUrlEx
 dev_langs:
- - c++
+- c++
 req.header: winhttp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Winhttp.lib
 req.dll: Winhttp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Winhttp.dll
+- Winhttp.dll
 api_name:
- - WinHttpGetProxyForUrlEx
+- WinHttpGetProxyForUrlEx
 targetos: Windows
 req.typenames: 
 req.redist: 

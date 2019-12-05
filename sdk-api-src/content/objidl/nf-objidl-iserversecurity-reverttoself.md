@@ -1,19 +1,17 @@
 ---
 UID: NF:objidl.IServerSecurity.RevertToSelf
 title: IServerSecurity::RevertToSelf (objidl.h)
-
 description: Restores the authentication information of a thread to what it was before impersonation began.
 old-location: com\iserversecurity_reverttoself.htm
 tech.root: com
 ms.assetid: 21952f54-439e-446f-a206-4b35759b1090
-
 ms.date: 12/05/2018
 ms.keywords: IServerSecurity interface [COM],RevertToSelf method, IServerSecurity.RevertToSelf, IServerSecurity::RevertToSelf, RevertToSelf, RevertToSelf method [COM], RevertToSelf method [COM],IServerSecurity interface, _com_iserversecurity_reverttoself, com.iserversecurity_reverttoself, objidlbase/IServerSecurity::RevertToSelf
 ms.topic: method
-f1_keywords: 
- - "objidl/IServerSecurity.RevertToSelf"
+f1_keywords:
+- objidl/IServerSecurity.RevertToSelf
 dev_langs:
- - c++
+- c++
 req.header: objidl.h
 req.include-header: ObjIdl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - objidlbase.h
+- objidlbase.h
 api_name:
- - IServerSecurity.RevertToSelf
+- IServerSecurity.RevertToSelf
 targetos: Windows
 req.typenames: 
 req.redist: 

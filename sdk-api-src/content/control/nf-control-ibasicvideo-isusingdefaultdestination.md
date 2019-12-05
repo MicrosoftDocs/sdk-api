@@ -1,19 +1,17 @@
 ---
 UID: NF:control.IBasicVideo.IsUsingDefaultDestination
 title: IBasicVideo::IsUsingDefaultDestination (control.h)
-
 description: The IsUsingDefaultDestination method queries whether the renderer is using the default destination rectangle.
 old-location: dshow\ibasicvideo_isusingdefaultdestination.htm
 tech.root: DirectShow
 ms.assetid: eceec24b-7743-4989-b112-e6a70283d397
-
 ms.date: 12/05/2018
 ms.keywords: IBasicVideo interface [DirectShow],IsUsingDefaultDestination method, IBasicVideo.IsUsingDefaultDestination, IBasicVideo::IsUsingDefaultDestination, IBasicVideoIsUsingDefaultDestination, IsUsingDefaultDestination, IsUsingDefaultDestination method [DirectShow], IsUsingDefaultDestination method [DirectShow],IBasicVideo interface, control/IBasicVideo::IsUsingDefaultDestination, dshow.ibasicvideo_isusingdefaultdestination
 ms.topic: method
-f1_keywords: 
- - "control/IBasicVideo.IsUsingDefaultDestination"
+f1_keywords:
+- control/IBasicVideo.IsUsingDefaultDestination
 dev_langs:
- - c++
+- c++
 req.header: control.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IBasicVideo.IsUsingDefaultDestination
+- IBasicVideo.IsUsingDefaultDestination
 targetos: Windows
 req.typenames: 
 req.redist: 

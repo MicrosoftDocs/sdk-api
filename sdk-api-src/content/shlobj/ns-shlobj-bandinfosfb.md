@@ -1,19 +1,17 @@
 ---
 UID: NS:shlobj.__unnamed_struct_1
 title: BANDINFOSFB (shlobj.h)
-
 description: Contains information about a folder band. This structure is used with the IShellFolderBand::GetBandInfoSFB and IShellFolderBand::SetBandInfoSFB methods.
 old-location: shell\BANDINFOSFB.htm
 tech.root: shell
 ms.assetid: 7067f563-383d-469f-abcf-3e1ea28dc956
-
 ms.date: 12/05/2018
-ms.keywords: "*PBANDINFOSFB, BANDINFOSFB, BANDINFOSFB structure [Windows Shell], ISFBVIEWMODE_LARGEICONS, ISFBVIEWMODE_LOGOS, ISFBVIEWMODE_SMALLICONS, ISFB_MASK_BKCOLOR, ISFB_MASK_COLORS, ISFB_MASK_IDLIST, ISFB_MASK_SHELLFOLDER, ISFB_MASK_STATE, ISFB_MASK_VIEWMODE, ISFB_STATE_ALLOWRENAME, ISFB_STATE_BTNMINSIZE, ISFB_STATE_CHANNELBAR, ISFB_STATE_DEBOSSED, ISFB_STATE_DEFAULT, ISFB_STATE_FULLOPEN, ISFB_STATE_NONAMESORT, ISFB_STATE_NOSHOWTEXT, ISFB_STATE_QLINKSMODE, PBANDINFOSFB, PBANDINFOSFB structure pointer [Windows Shell], _win32_BANDINFOSFB, shell.BANDINFOSFB, shlobj/BANDINFOSFB, shlobj/PBANDINFOSFB"
+ms.keywords: '*PBANDINFOSFB, BANDINFOSFB, BANDINFOSFB structure [Windows Shell], ISFBVIEWMODE_LARGEICONS, ISFBVIEWMODE_LOGOS, ISFBVIEWMODE_SMALLICONS, ISFB_MASK_BKCOLOR, ISFB_MASK_COLORS, ISFB_MASK_IDLIST, ISFB_MASK_SHELLFOLDER, ISFB_MASK_STATE, ISFB_MASK_VIEWMODE, ISFB_STATE_ALLOWRENAME, ISFB_STATE_BTNMINSIZE, ISFB_STATE_CHANNELBAR, ISFB_STATE_DEBOSSED, ISFB_STATE_DEFAULT, ISFB_STATE_FULLOPEN, ISFB_STATE_NONAMESORT, ISFB_STATE_NOSHOWTEXT, ISFB_STATE_QLINKSMODE, PBANDINFOSFB, PBANDINFOSFB structure pointer [Windows Shell], _win32_BANDINFOSFB, shell.BANDINFOSFB, shlobj/BANDINFOSFB, shlobj/PBANDINFOSFB'
 ms.topic: struct
-f1_keywords: 
- - "shlobj/BANDINFOSFB"
+f1_keywords:
+- shlobj/BANDINFOSFB
 dev_langs:
- - c++
+- c++
 req.header: shlobj.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Shlobj.h
+- Shlobj.h
 api_name:
- - BANDINFOSFB
+- BANDINFOSFB
 targetos: Windows
 req.typenames: BANDINFOSFB, *PBANDINFOSFB
 req.redist: 

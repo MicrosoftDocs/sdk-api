@@ -1,19 +1,17 @@
 ---
 UID: NF:wsdclient.IWSDEventingStatus.SubscriptionRenewed
 title: IWSDEventingStatus::SubscriptionRenewed (wsdclient.h)
-
 description: Called when the subscription for the specified event action was successfully renewed.
 old-location: ncd\iwsdeventingstatus_subscriptionrenewed.htm
 tech.root: WsdApi
 ms.assetid: 5f5c0b43-9c91-4d82-be98-1fd4fe7f9794
-
 ms.date: 12/05/2018
 ms.keywords: IWSDEventingStatus interface,SubscriptionRenewed method, IWSDEventingStatus.SubscriptionRenewed, IWSDEventingStatus::SubscriptionRenewed, SubscriptionRenewed, SubscriptionRenewed method, SubscriptionRenewed method,IWSDEventingStatus interface, ncd.iwsdeventingstatus_subscriptionrenewed, wsdclient/IWSDEventingStatus::SubscriptionRenewed
 ms.topic: method
-f1_keywords: 
- - "wsdclient/IWSDEventingStatus.SubscriptionRenewed"
+f1_keywords:
+- wsdclient/IWSDEventingStatus.SubscriptionRenewed
 dev_langs:
- - c++
+- c++
 req.header: wsdclient.h
 req.include-header: Wsdapi.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wsdapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wsdapi.dll
+- Wsdapi.dll
 api_name:
- - IWSDEventingStatus.SubscriptionRenewed
+- IWSDEventingStatus.SubscriptionRenewed
 targetos: Windows
 req.typenames: 
 req.redist: 

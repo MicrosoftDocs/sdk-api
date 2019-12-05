@@ -1,19 +1,17 @@
 ---
 UID: NF:winsync.ISyncChangeBatchWithPrerequisite.GetLearnedKnowledgeWithPrerequisite
 title: ISyncChangeBatchWithPrerequisite::GetLearnedKnowledgeWithPrerequisite (winsync.h)
-
 description: Gets the knowledge that the destination replica learns when the destination provider applies all the changes in this change batch, based on the prerequisite knowledge of the change batch.
 old-location: winsync\isyncchangebatchwithprerequisite_getlearnedknowledgewithprerequisite.htm
 tech.root: winsync
 ms.assetid: 691f2cc1-9acb-4474-b20a-31bb7810372e
-
 ms.date: 12/05/2018
 ms.keywords: GetLearnedKnowledgeWithPrerequisite, GetLearnedKnowledgeWithPrerequisite method [Windows Sync], GetLearnedKnowledgeWithPrerequisite method [Windows Sync],ISyncChangeBatchWithPrerequisite interface, ISyncChangeBatchWithPrerequisite interface [Windows Sync],GetLearnedKnowledgeWithPrerequisite method, ISyncChangeBatchWithPrerequisite.GetLearnedKnowledgeWithPrerequisite, ISyncChangeBatchWithPrerequisite::GetLearnedKnowledgeWithPrerequisite, winsync.isyncchangebatchwithprerequisite_getlearnedknowledgewithprerequisite, winsync/ISyncChangeBatchWithPrerequisite::GetLearnedKnowledgeWithPrerequisite
 ms.topic: method
-f1_keywords: 
- - "winsync/ISyncChangeBatchWithPrerequisite.GetLearnedKnowledgeWithPrerequisite"
+f1_keywords:
+- winsync/ISyncChangeBatchWithPrerequisite.GetLearnedKnowledgeWithPrerequisite
 dev_langs:
- - c++
+- c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - winsync.h
+- winsync.h
 api_name:
- - ISyncChangeBatchWithPrerequisite.GetLearnedKnowledgeWithPrerequisite
+- ISyncChangeBatchWithPrerequisite.GetLearnedKnowledgeWithPrerequisite
 targetos: Windows
 req.typenames: 
 req.redist: 

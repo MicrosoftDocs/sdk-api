@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d10.ID3D10Device.GSSetSamplers
 title: ID3D10Device::GSSetSamplers (d3d10.h)
-
 description: Set an array of sampler states to the geometry shader pipeline stage.
 old-location: direct3d10\id3d10device_gssetsamplers.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10device_gssetsamplers.htm
-
 ms.date: 12/05/2018
 ms.keywords: 1c08811a-830c-451d-31b2-e679c42bcf69, GSSetSamplers, GSSetSamplers method [Direct3D 10], GSSetSamplers method [Direct3D 10],ID3D10Device interface, ID3D10Device interface [Direct3D 10],GSSetSamplers method, ID3D10Device.GSSetSamplers, ID3D10Device::GSSetSamplers, d3d10/ID3D10Device::GSSetSamplers, direct3d10.id3d10device_gssetsamplers
 ms.topic: method
-f1_keywords: 
- - "d3d10/ID3D10Device.GSSetSamplers"
+f1_keywords:
+- d3d10/ID3D10Device.GSSetSamplers
 dev_langs:
- - c++
+- c++
 req.header: d3d10.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: D3D10.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D10.lib
- - D3D10.dll
+- D3D10.lib
+- D3D10.dll
 api_name:
- - ID3D10Device.GSSetSamplers
+- ID3D10Device.GSSetSamplers
 targetos: Windows
 req.typenames: 
 req.redist: 

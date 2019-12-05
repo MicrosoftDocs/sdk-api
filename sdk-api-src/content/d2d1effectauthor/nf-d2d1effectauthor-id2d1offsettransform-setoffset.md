@@ -1,19 +1,17 @@
 ---
 UID: NF:d2d1effectauthor.ID2D1OffsetTransform.SetOffset
 title: ID2D1OffsetTransform::SetOffset (d2d1effectauthor.h)
-
 description: Sets the offset in the current offset transform.
 old-location: direct2d\id2d1offsettransform_setoffset.htm
 tech.root: Direct2D
 ms.assetid: 4694BB45-4D26-4CB8-B0D3-560493D60D88
-
 ms.date: 12/05/2018
 ms.keywords: ID2D1OffsetTransform interface [Direct2D],SetOffset method, ID2D1OffsetTransform.SetOffset, ID2D1OffsetTransform::SetOffset, SetOffset, SetOffset method [Direct2D], SetOffset method [Direct2D],ID2D1OffsetTransform interface, d2d1effectauthor/ID2D1OffsetTransform::SetOffset, direct2d.id2d1offsettransform_setoffset
 ms.topic: method
-f1_keywords: 
- - "d2d1effectauthor/ID2D1OffsetTransform.SetOffset"
+f1_keywords:
+- d2d1effectauthor/ID2D1OffsetTransform.SetOffset
 dev_langs:
- - c++
+- c++
 req.header: d2d1effectauthor.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: D2D1.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D2D1.lib
- - D2D1.dll
+- D2D1.lib
+- D2D1.dll
 api_name:
- - ID2D1OffsetTransform.SetOffset
+- ID2D1OffsetTransform.SetOffset
 targetos: Windows
 req.typenames: 
 req.redist: 

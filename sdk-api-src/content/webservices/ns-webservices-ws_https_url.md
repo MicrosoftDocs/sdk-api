@@ -1,19 +1,17 @@
 ---
 UID: NS:webservices._WS_HTTPS_URL
 title: WS_HTTPS_URL (webservices.h)
-
 description: The URL subtype for specifying an HTTPS URL.
 old-location: wsw\ws_https_url.htm
 tech.root: wsw
 ms.assetid: 4a7cf425-40c6-4951-880e-b3a99076bb2b
-
 ms.date: 12/05/2018
 ms.keywords: WS_HTTPS_URL, WS_HTTPS_URL structure [Web Services for Windows], webservices/WS_HTTPS_URL, wsw.ws_https_url
 ms.topic: struct
 f1_keywords:
 - webservices/WS_HTTPS_URL
 dev_langs:
- - c++
+- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

@@ -1,19 +1,17 @@
 ---
 UID: NF:appmodel.GetPackageApplicationIds
 title: GetPackageApplicationIds function (appmodel.h)
-
 description: Gets the IDs of apps in the specified package.
 old-location: appxpkg\getpackageapplicationids.htm
 tech.root: appxpkg
 ms.assetid: F08135F9-FF45-4309-84B5-77F4AFD7FC0C
-
 ms.date: 12/05/2018
 ms.keywords: GetPackageApplicationIds, GetPackageApplicationIds function [App packaging and management], appmodel/GetPackageApplicationIds, appxpkg.getpackageapplicationids
 ms.topic: function
-f1_keywords: 
- - "appmodel/GetPackageApplicationIds"
+f1_keywords:
+- appmodel/GetPackageApplicationIds
 dev_langs:
- - c++
+- c++
 req.header: appmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-AppModel-RunTime-l1-1-1.dll
- - Kernel.AppCore.dll
- - API-MS-Win-AppModel-Runtime-L1-1-2.dll
+- Kernel32.dll
+- API-MS-Win-AppModel-RunTime-l1-1-1.dll
+- Kernel.AppCore.dll
+- API-MS-Win-AppModel-Runtime-L1-1-2.dll
 api_name:
- - GetPackageApplicationIds
+- GetPackageApplicationIds
 targetos: Windows
 req.typenames: 
 req.redist: 

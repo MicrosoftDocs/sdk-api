@@ -1,19 +1,17 @@
 ---
 UID: NF:ntmsapi.CleanNtmsDrive
 title: CleanNtmsDrive function (ntmsapi.h)
-
 description: The CleanNtmsDrive function queues a cleaning request for the specified drive for cleaning.
 old-location: fs\cleanntmsdrive.htm
 tech.root: Rsm
 ms.assetid: 55a8e7c0-85fd-40c5-b5b9-46ad321761c4
-
 ms.date: 12/05/2018
 ms.keywords: CleanNtmsDrive, CleanNtmsDrive function [Files], _zaw_cleanntmsdrive, base.cleanntmsdrive, fs.cleanntmsdrive, ntmsapi/CleanNtmsDrive
 ms.topic: function
-f1_keywords: 
- - "ntmsapi/CleanNtmsDrive"
+f1_keywords:
+- ntmsapi/CleanNtmsDrive
 dev_langs:
- - c++
+- c++
 req.header: ntmsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Ntmsapi.lib
 req.dll: Ntmsapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ntmsapi.dll
+- Ntmsapi.dll
 api_name:
- - CleanNtmsDrive
+- CleanNtmsDrive
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:winbase.CopyFileTransactedW
 title: CopyFileTransactedW function (winbase.h)
-
 description: Copies an existing file to a new file as a transacted operation, notifying the application of its progress through a callback function.
 old-location: fs\copyfiletransacted.htm
 tech.root: FileIO
 ms.assetid: 118392de-166b-413e-99c9-b3deb756de0e
-
 ms.date: 12/05/2018
 ms.keywords: COPY_FILE_COPY_SYMLINK, COPY_FILE_FAIL_IF_EXISTS, COPY_FILE_OPEN_SOURCE_FOR_WRITE, COPY_FILE_RESTARTABLE, CopyFileTransacted, CopyFileTransacted function [Files], CopyFileTransactedA, CopyFileTransactedW, fs.copyfiletransacted, winbase/CopyFileTransacted, winbase/CopyFileTransactedA, winbase/CopyFileTransactedW
 ms.topic: function
-f1_keywords: 
- - "winbase/CopyFileTransacted"
+f1_keywords:
+- winbase/CopyFileTransacted
 dev_langs:
- - c++
+- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,20 +30,20 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-Kernel32-Legacy-L1-1-3.dll
- - Kernel32Legacy.dll
- - API-MS-Win-Core-Kernel32-Legacy-L1-1-4.dll
- - API-MS-Win-Core-Kernel32-Legacy-L1-1-5.dll
+- Kernel32.dll
+- API-MS-Win-Core-Kernel32-Legacy-L1-1-3.dll
+- Kernel32Legacy.dll
+- API-MS-Win-Core-Kernel32-Legacy-L1-1-4.dll
+- API-MS-Win-Core-Kernel32-Legacy-L1-1-5.dll
 api_name:
- - CopyFileTransacted
- - CopyFileTransactedA
- - CopyFileTransactedW
+- CopyFileTransacted
+- CopyFileTransactedA
+- CopyFileTransactedW
 targetos: Windows
 req.typenames: 
 req.redist: 

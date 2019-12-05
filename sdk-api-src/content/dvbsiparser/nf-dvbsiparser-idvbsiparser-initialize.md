@@ -1,19 +1,17 @@
 ---
 UID: NF:dvbsiparser.IDvbSiParser.Initialize
 title: IDvbSiParser::Initialize (dvbsiparser.h)
-
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\idvbsiparser_initialize.htm
 tech.root: mstv
 ms.assetid: 2724f8b4-99bc-477d-bf9e-cc18f56a465b
-
 ms.date: 12/05/2018
 ms.keywords: IDvbSiParser interface [Microsoft TV Technologies],Initialize method, IDvbSiParser.Initialize, IDvbSiParser::Initialize, IDvbSiParserInitialize, Initialize, Initialize method [Microsoft TV Technologies], Initialize method [Microsoft TV Technologies],IDvbSiParser interface, dvbsiparser/IDvbSiParser::Initialize, mstv.idvbsiparser_initialize
 ms.topic: method
-f1_keywords: 
- - "dvbsiparser/IDvbSiParser.Initialize"
+f1_keywords:
+- dvbsiparser/IDvbSiParser.Initialize
 dev_langs:
- - c++
+- c++
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dvbsiparser.h
+- dvbsiparser.h
 api_name:
- - IDvbSiParser.Initialize
+- IDvbSiParser.Initialize
 targetos: Windows
 req.typenames: 
 req.redist: 

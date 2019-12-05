@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.SHLoadLibraryFromParsingName
 title: SHLoadLibraryFromParsingName function (shobjidl_core.h)
-
 description: Creates and loads an IShellLibrary object for a specified path.
 old-location: shell\SHLoadLibraryFromParsingName.htm
 tech.root: shell
 ms.assetid: 49433938-d31e-49f8-9dc7-3df5fb3bfcad
-
 ms.date: 12/05/2018
 ms.keywords: SHLoadLibraryFromParsingName, SHLoadLibraryFromParsingName function [Windows Shell], _shell_SHLoadLibraryFromParsingName, shell.SHLoadLibraryFromParsingName, shobjidl_core/SHLoadLibraryFromParsingName
 ms.topic: function
-f1_keywords: 
- - "shobjidl_core/SHLoadLibraryFromParsingName"
+f1_keywords:
+- shobjidl_core/SHLoadLibraryFromParsingName
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - SHLoadLibraryFromParsingName
+- SHLoadLibraryFromParsingName
 targetos: Windows
 req.typenames: 
 req.redist: 

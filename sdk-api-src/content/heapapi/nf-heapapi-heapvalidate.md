@@ -1,19 +1,17 @@
 ---
 UID: NF:heapapi.HeapValidate
 title: HeapValidate function (heapapi.h)
-
 description: Validates the specified heap. The function scans all the memory blocks in the heap and verifies that the heap control structures maintained by the heap manager are in a consistent state.
 old-location: base\heapvalidate.htm
 tech.root: Memory
 ms.assetid: 036e95ff-f71f-49c3-8321-ed4c4bee5455
-
 ms.date: 12/05/2018
 ms.keywords: HEAP_NO_SERIALIZE, HeapValidate, HeapValidate function, _win32_heapvalidate, base.heapvalidate, heapapi/HeapValidate, winbase/HeapValidate
 ms.topic: function
-f1_keywords: 
- - "heapapi/HeapValidate"
+f1_keywords:
+- heapapi/HeapValidate
 dev_langs:
- - c++
+- c++
 req.header: heapapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,19 +30,19 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-heap-l1-1-0.dll
- - KernelBase.dll
- - API-MS-Win-Core-heap-l1-2-0.dll
- - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
- - MinKernelBase.dll
+- Kernel32.dll
+- API-MS-Win-Core-heap-l1-1-0.dll
+- KernelBase.dll
+- API-MS-Win-Core-heap-l1-2-0.dll
+- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+- MinKernelBase.dll
 api_name:
- - HeapValidate
+- HeapValidate
 targetos: Windows
 req.typenames: 
 req.redist: 

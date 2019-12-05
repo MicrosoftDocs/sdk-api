@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d9.IDirect3DDevice9Ex.ResetEx
 title: IDirect3DDevice9Ex::ResetEx (d3d9.h)
-
 description: Resets the type, size, and format of the swap chain with all other surfaces persistent.
 old-location: direct3d9\idirect3ddevice9ex_resetex.htm
 tech.root: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3ddevice9ex_resetex.htm
-
 ms.date: 12/05/2018
 ms.keywords: IDirect3DDevice9Ex interface [Direct3D 9],ResetEx method, IDirect3DDevice9Ex.ResetEx, IDirect3DDevice9Ex::ResetEx, ResetEx, ResetEx method [Direct3D 9], ResetEx method [Direct3D 9],IDirect3DDevice9Ex interface, a1ff1bc9-55df-22e8-e64e-5ba6de2759f4, d3d9/IDirect3DDevice9Ex::ResetEx, direct3d9.idirect3ddevice9ex_resetex
 ms.topic: method
-f1_keywords: 
- - "d3d9/IDirect3DDevice9Ex.ResetEx"
+f1_keywords:
+- d3d9/IDirect3DDevice9Ex.ResetEx
 dev_langs:
- - c++
+- c++
 req.header: d3d9.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: D3D9.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D9.lib
- - D3D9.dll
+- D3D9.lib
+- D3D9.dll
 api_name:
- - IDirect3DDevice9Ex.ResetEx
+- IDirect3DDevice9Ex.ResetEx
 targetos: Windows
 req.typenames: 
 req.redist: 

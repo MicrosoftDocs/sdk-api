@@ -1,19 +1,17 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMPageReference.SetPage
 title: IXpsOMPageReference::SetPage (xpsobjectmodel.h)
-
 description: Sets the IXpsOMPage interface of the page reference.
 old-location: xps\ixpsompagereference_setpage.htm
 tech.root: printdocs
 ms.assetid: 7d1381ad-6ac8-4ea4-99a2-8bc5d95773c7
-
 ms.date: 12/05/2018
 ms.keywords: IXpsOMPageReference interface [XPS Documents and Packaging],SetPage method, IXpsOMPageReference.SetPage, IXpsOMPageReference::SetPage, SetPage, SetPage method [XPS Documents and Packaging], SetPage method [XPS Documents and Packaging],IXpsOMPageReference interface, xps.ixpsompagereference_setpage, xpsobjectmodel/IXpsOMPageReference::SetPage
 ms.topic: method
-f1_keywords: 
- - "xpsobjectmodel/IXpsOMPageReference.SetPage"
+f1_keywords:
+- xpsobjectmodel/IXpsOMPageReference.SetPage
 dev_langs:
- - c++
+- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsobjectmodel.h
+- xpsobjectmodel.h
 api_name:
- - IXpsOMPageReference.SetPage
+- IXpsOMPageReference.SetPage
 targetos: Windows
 req.typenames: 
 req.redist: 

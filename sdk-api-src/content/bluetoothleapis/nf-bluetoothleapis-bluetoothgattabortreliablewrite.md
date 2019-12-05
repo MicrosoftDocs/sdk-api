@@ -1,19 +1,17 @@
 ---
 UID: NF:bluetoothleapis.BluetoothGATTAbortReliableWrite
 title: BluetoothGATTAbortReliableWrite function (bluetoothleapis.h)
-
 description: Specifies the end of reliable write procedures, and the writes should be aborted.
 old-location: bltooth\bluetoothgattabortreliablewrite.htm
 tech.root: bltooth
 ms.assetid: 6EC1D80A-6327-4D5A-8460-87C339669BDA
-
 ms.date: 12/05/2018
 ms.keywords: BluetoothGATTAbortReliableWrite, BluetoothGATTAbortReliableWrite function [Bluetooth Devices], bltooth.bluetoothgattabortreliablewrite, bluetoothleapis/BluetoothGATTAbortReliableWrite
 ms.topic: function
-f1_keywords: 
- - "bluetoothleapis/BluetoothGATTAbortReliableWrite"
+f1_keywords:
+- bluetoothleapis/BluetoothGATTAbortReliableWrite
 dev_langs:
- - c++
+- c++
 req.header: bluetoothleapis.h
 req.include-header: 
 req.target-type: Universal
@@ -32,15 +30,15 @@ req.lib: BluetoothAPIs.lib
 req.dll: BluetoothAPIs.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - BluetoothAPIs.dll
- - Ext-MS-Win-Bluetooth-APIs-l1-1-0.dll
+- BluetoothAPIs.dll
+- Ext-MS-Win-Bluetooth-APIs-l1-1-0.dll
 api_name:
- - BluetoothGATTAbortReliableWrite
+- BluetoothGATTAbortReliableWrite
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:winuser.IS_INTRESOURCE
 title: IS_INTRESOURCE macro (winuser.h)
-
 description: Determines whether a value is an integer identifier for a resource.
 old-location: menurc\is_intresource.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\introductiontoresources\resourcereference\resourcemacros\is_intresource.htm
-
 ms.date: 12/05/2018
 ms.keywords: IS_INTRESOURCE, IS_INTRESOURCE macro [Menus and Other Resources], _win32_IS_INTRESOURCE, _win32_is_intresource_cpp, menurc.is_intresource, winui._win32_is_intresource, winuser/IS_INTRESOURCE
 ms.topic: macro
-f1_keywords: 
- - "winuser/IS_INTRESOURCE"
+f1_keywords:
+- winuser/IS_INTRESOURCE
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Winuser.h
+- Winuser.h
 api_name:
- - IS_INTRESOURCE
+- IS_INTRESOURCE
 targetos: Windows
 req.typenames: 
 req.redist: 

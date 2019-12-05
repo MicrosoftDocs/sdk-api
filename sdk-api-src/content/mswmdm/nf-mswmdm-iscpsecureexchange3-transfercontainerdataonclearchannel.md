@@ -1,19 +1,17 @@
 ---
 UID: NF:mswmdm.ISCPSecureExchange3.TransferContainerDataOnClearChannel
 title: ISCPSecureExchange3::TransferContainerDataOnClearChannel (mswmdm.h)
-
 description: The TransferContainerDataOnClearChannel method transfers container file data to the content provider through the clear channel.
 old-location: wmdm\iscpsecureexchange3__transfercontainerdataonclearchannel.htm
 tech.root: WMDM
 ms.assetid: aac0fc79-4615-442f-8c08-06addf40c799
-
 ms.date: 12/05/2018
 ms.keywords: ISCPSecureExchange3 interface [windows Media Device Manager],TransferContainerDataOnClearChannel method, ISCPSecureExchange3.TransferContainerDataOnClearChannel, ISCPSecureExchange3::TransferContainerDataOnClearChannel, ISCPSecureExchange3TransferContainerDataOnClearChannel, TransferContainerDataOnClearChannel, TransferContainerDataOnClearChannel method [windows Media Device Manager], TransferContainerDataOnClearChannel method [windows Media Device Manager],ISCPSecureExchange3 interface, WMDM_SCP_NO_MORE_CHANGES, WMDM_SCP_TRANSFER_OBJECTDATA, mswmdm/ISCPSecureExchange3::TransferContainerDataOnClearChannel, wmdm.iscpsecureexchange3__transfercontainerdataonclearchannel
 ms.topic: method
-f1_keywords: 
- - "mswmdm/ISCPSecureExchange3.TransferContainerDataOnClearChannel"
+f1_keywords:
+- mswmdm/ISCPSecureExchange3.TransferContainerDataOnClearChannel
 dev_langs:
- - c++
+- c++
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mssachlp.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mssachlp.lib
- - mssachlp.dll
+- mssachlp.lib
+- mssachlp.dll
 api_name:
- - ISCPSecureExchange3.TransferContainerDataOnClearChannel
+- ISCPSecureExchange3.TransferContainerDataOnClearChannel
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:dwrite_3.IDWriteStringList.GetString
 title: IDWriteStringList::GetString (dwrite_3.h)
-
 description: Copies the string with the specified index to the specified array.
 old-location: directwrite\idwritestringlist_getstring.htm
 tech.root: DirectWrite
 ms.assetid: 9F569418-F5CF-4280-8E53-32F14AE6FD42
-
 ms.date: 12/05/2018
 ms.keywords: GetString, GetString method [Direct Write], GetString method [Direct Write],IDWriteStringList interface, IDWriteStringList interface [Direct Write],GetString method, IDWriteStringList.GetString, IDWriteStringList::GetString, directwrite.idwritestringlist_getstring, dwrite_3/IDWriteStringList::GetString
 ms.topic: method
-f1_keywords: 
- - "dwrite_3/IDWriteStringList.GetString"
+f1_keywords:
+- dwrite_3/IDWriteStringList.GetString
 dev_langs:
- - c++
+- c++
 req.header: dwrite_3.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dwrite.lib
 req.dll: Dwrite.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dwrite.dll
+- dwrite.dll
 api_name:
- - IDWriteStringList.GetString
+- IDWriteStringList.GetString
 targetos: Windows
 req.typenames: 
 req.redist: 

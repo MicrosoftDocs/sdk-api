@@ -1,19 +1,17 @@
 ---
 UID: NF:dvbsiparser.IDvbLogicalChannel2Descriptor.GetListCountOfRecords
 title: IDvbLogicalChannel2Descriptor::GetListCountOfRecords (dvbsiparser.h)
-
 description: Gets an indexed count of records for a channel list in a Digital Video Broadcast (DVB) logical channel descriptor.
 old-location: mstv\idvblogicalchannel2descriptor_getlistcountofrecords.htm
 tech.root: mstv
 ms.assetid: ca9cac1c-1e4a-4ea2-b44f-d037e9e8197e
-
 ms.date: 12/05/2018
 ms.keywords: GetListCountOfRecords, GetListCountOfRecords method [Microsoft TV Technologies], GetListCountOfRecords method [Microsoft TV Technologies],IDvbLogicalChannel2Descriptor interface, IDvbLogicalChannel2Descriptor interface [Microsoft TV Technologies],GetListCountOfRecords method, IDvbLogicalChannel2Descriptor.GetListCountOfRecords, IDvbLogicalChannel2Descriptor::GetListCountOfRecords, dvbsiparser/IDvbLogicalChannel2Descriptor::GetListCountOfRecords, mstv.idvblogicalchannel2descriptor_getlistcountofrecords
 ms.topic: method
-f1_keywords: 
- - "dvbsiparser/IDvbLogicalChannel2Descriptor.GetListCountOfRecords"
+f1_keywords:
+- dvbsiparser/IDvbLogicalChannel2Descriptor.GetListCountOfRecords
 dev_langs:
- - c++
+- c++
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dvbsiparser.h
+- dvbsiparser.h
 api_name:
- - IDvbLogicalChannel2Descriptor.GetListCountOfRecords
+- IDvbLogicalChannel2Descriptor.GetListCountOfRecords
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:imm.ImmGetCandidateWindow
 title: ImmGetCandidateWindow function (imm.h)
-
 description: Retrieves information about the candidates window.
 old-location: intl\immgetcandidatewindow.htm
 tech.root: Intl
 ms.assetid: 39800693-0eb5-4807-94b2-d11e6f98ba2c
-
 ms.date: 12/05/2018
 ms.keywords: ImmGetCandidateWindow, ImmGetCandidateWindow function [Internationalization for Windows Applications], _win32_ImmGetCandidateWindow, imm/ImmGetCandidateWindow, intl.immgetcandidatewindow
 ms.topic: function
-f1_keywords: 
- - "imm/ImmGetCandidateWindow"
+f1_keywords:
+- imm/ImmGetCandidateWindow
 dev_langs:
- - c++
+- c++
 req.header: imm.h
 req.include-header: Immdev.h, Windows.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Imm32.lib
 req.dll: Imm32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Imm32.dll
- - Ext-MS-Win-imm-l1-1-0.dll
- - ext-ms-win-imm-l1-1-1.dll
+- Imm32.dll
+- Ext-MS-Win-imm-l1-1-0.dll
+- ext-ms-win-imm-l1-1-1.dll
 api_name:
- - ImmGetCandidateWindow
+- ImmGetCandidateWindow
 targetos: Windows
 req.typenames: 
 req.redist: 

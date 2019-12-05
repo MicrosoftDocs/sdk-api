@@ -1,19 +1,17 @@
 ---
 UID: NF:dxgi1_2.IDXGISwapChain1.GetRotation
 title: IDXGISwapChain1::GetRotation (dxgi1_2.h)
-
 description: Gets the rotation of the back buffers for the swap chain.
 old-location: direct3ddxgi\idxgiswapchain1_getrotation.htm
 tech.root: direct3ddxgi
 ms.assetid: B4460AF4-20B1-493D-88E4-2ADB304D6D60
-
 ms.date: 12/05/2018
 ms.keywords: GetRotation, GetRotation method [DXGI], GetRotation method [DXGI],IDXGISwapChain1 interface, IDXGISwapChain1 interface [DXGI],GetRotation method, IDXGISwapChain1.GetRotation, IDXGISwapChain1::GetRotation, direct3ddxgi.idxgiswapchain1_getrotation, dxgi1_2/IDXGISwapChain1::GetRotation
 ms.topic: method
-f1_keywords: 
- - "dxgi1_2/IDXGISwapChain1.GetRotation"
+f1_keywords:
+- dxgi1_2/IDXGISwapChain1.GetRotation
 dev_langs:
- - c++
+- c++
 req.header: dxgi1_2.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Dxgi.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dxgi.lib
- - Dxgi.dll
+- Dxgi.lib
+- Dxgi.dll
 api_name:
- - IDXGISwapChain1.GetRotation
+- IDXGISwapChain1.GetRotation
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NC:dbghelp.PREAD_PROCESS_MEMORY_ROUTINE
 title: PREAD_PROCESS_MEMORY_ROUTINE (dbghelp.h)
-
 description: An application-defined callback function used with the StackWalk64 function. It is called when StackWalk64 needs to read memory from the address space of the process.
 old-location: base\readprocessmemoryproc64.htm
 tech.root: Debug
 ms.assetid: 84ff0085-295d-48bd-baa5-d6b2845520a6
-
 ms.date: 12/05/2018
 ms.keywords: PREAD_PROCESS_MEMORY_ROUTINE, PREAD_PROCESS_MEMORY_ROUTINE64, ReadProcessMemoryProc64, ReadProcessMemoryProc64 callback, ReadProcessMemoryProc64 callback function, _win32_readprocessmemoryproc64, base.readprocessmemoryproc64, dbghelp/ReadProcessMemoryProc64
 ms.topic: callback
-f1_keywords: 
- - "dbghelp/ReadProcessMemoryProc64"
+f1_keywords:
+- dbghelp/ReadProcessMemoryProc64
 dev_langs:
- - c++
+- c++
 req.header: dbghelp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - DbgHelp.h
+- DbgHelp.h
 api_name:
- - ReadProcessMemoryProc64
+- ReadProcessMemoryProc64
 targetos: Windows
 req.typenames: 
 req.redist: DbgHelp.dll 5.1 or later

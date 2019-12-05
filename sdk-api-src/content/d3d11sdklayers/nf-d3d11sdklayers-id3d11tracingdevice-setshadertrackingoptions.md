@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d11sdklayers.ID3D11TracingDevice.SetShaderTrackingOptions
 title: ID3D11TracingDevice::SetShaderTrackingOptions (d3d11sdklayers.h)
-
 description: Sets the reference rasterizer's race-condition tracking options for a specific shader.
 old-location: direct3d11\id3d11tracingdevice_setshadertrackingoptions.htm
 tech.root: direct3d11
 ms.assetid: F62FCA38-AE44-427B-95B4-252AE800845C
-
 ms.date: 12/05/2018
 ms.keywords: ID3D11TracingDevice interface [Direct3D 11],SetShaderTrackingOptions method, ID3D11TracingDevice.SetShaderTrackingOptions, ID3D11TracingDevice::SetShaderTrackingOptions, SetShaderTrackingOptions, SetShaderTrackingOptions method [Direct3D 11], SetShaderTrackingOptions method [Direct3D 11],ID3D11TracingDevice interface, d3d11sdklayers/ID3D11TracingDevice::SetShaderTrackingOptions, direct3d11.id3d11tracingdevice_setshadertrackingoptions
 ms.topic: method
-f1_keywords: 
- - "d3d11sdklayers/ID3D11TracingDevice.SetShaderTrackingOptions"
+f1_keywords:
+- d3d11sdklayers/ID3D11TracingDevice.SetShaderTrackingOptions
 dev_langs:
- - c++
+- c++
 req.header: d3d11sdklayers.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: D3DCompiler.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3DCompiler.lib
- - D3DCompiler.dll
+- D3DCompiler.lib
+- D3DCompiler.dll
 api_name:
- - ID3D11TracingDevice.SetShaderTrackingOptions
+- ID3D11TracingDevice.SetShaderTrackingOptions
 targetos: Windows
 req.typenames: 
 req.redist: 

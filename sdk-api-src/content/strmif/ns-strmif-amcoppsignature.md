@@ -1,19 +1,17 @@
 ---
 UID: NS:strmif._AMCOPPSignature
 title: AMCOPPSignature (strmif.h)
-
 description: The AMCOPPSignature structure contains the signature needed for the IAMCertifiedOutputProtection::SessionSequenceStart method.
 old-location: dshow\amcoppsignature.htm
 tech.root: DirectShow
 ms.assetid: eaf220cf-111f-42fa-80db-1c69cd863258
-
 ms.date: 12/05/2018
 ms.keywords: AMCOPPSignature, AMCOPPSignature structure [DirectShow], AMCOPPSignatureStructure, dshow.amcoppsignature, strmif/AMCOPPSignature
 ms.topic: struct
-f1_keywords: 
- - "strmif/AMCOPPSignature"
+f1_keywords:
+- strmif/AMCOPPSignature
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - strmif.h
+- strmif.h
 api_name:
- - AMCOPPSignature
+- AMCOPPSignature
 targetos: Windows
 req.typenames: AMCOPPSignature
 req.redist: 

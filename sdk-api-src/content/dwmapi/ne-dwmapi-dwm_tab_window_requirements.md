@@ -1,19 +1,17 @@
 ---
 UID: NE:dwmapi.DWM_TAB_WINDOW_REQUIREMENTS
 title: DWM_TAB_WINDOW_REQUIREMENTS (dwmapi.h)
-
 description: Returned by DwmGetUnmetTabRequirements to indicate the requirements needed for a window to put tabs in the application title bar.
 old-location: dwm\dwm_tab_window_requirements.htm
 tech.root: dwm
 ms.assetid: 8366ABE4-263D-448D-9FC9-3F4DAF9B700D
-
 ms.date: 12/05/2018
 ms.keywords: DWMTWR_IMPLEMENTED_BY_SYSTEM, DWMTWR_NONE, DWMTWR_TABBING_ENABLED, DWMTWR_USER_POLICY, DWMTWR_WINDOW_DWM_ATTRIBUTES, DWMTWR_WINDOW_MARGINS, DWMTWR_WINDOW_REGION, DWMTWR_WINDOW_RELATIONSHIP, DWMTWR_WINDOW_STYLES, DWM_TAB_WINDOW_REQUIREMENTS, DWM_TAB_WINDOW_REQUIREMENTS enumeration [Desktop Window Manager], dwm.dwm_tab_window_requirements, dwmapi/ DWMTWR_WINDOW_STYLES, dwmapi/DWMTWR_IMPLEMENTED_BY_SYSTEM, dwmapi/DWMTWR_NONE, dwmapi/DWMTWR_TABBING_ENABLED, dwmapi/DWMTWR_USER_POLICY, dwmapi/DWMTWR_WINDOW_DWM_ATTRIBUTES, dwmapi/DWMTWR_WINDOW_MARGINS, dwmapi/DWMTWR_WINDOW_REGION, dwmapi/DWMTWR_WINDOW_RELATIONSHIP, dwmapi/DWM_TAB_WINDOW_REQUIREMENTS
 ms.topic: enum
-f1_keywords: 
- - "dwmapi/DWM_TAB_WINDOW_REQUIREMENTS"
+f1_keywords:
+- dwmapi/DWM_TAB_WINDOW_REQUIREMENTS
 dev_langs:
- - c++
+- c++
 req.header: dwmapi.h
 req.include-header: Dwmmapi.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - dwmapi.h
+- dwmapi.h
 api_name:
- - DWM_TAB_WINDOW_REQUIREMENTS
+- DWM_TAB_WINDOW_REQUIREMENTS
 targetos: Windows
 req.typenames: 
 req.redist: 

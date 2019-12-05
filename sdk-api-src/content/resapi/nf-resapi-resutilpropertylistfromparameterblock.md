@@ -1,19 +1,17 @@
 ---
 UID: NF:resapi.ResUtilPropertyListFromParameterBlock
 title: ResUtilPropertyListFromParameterBlock function (resapi.h)
-
 description: Constructs a property list from a property table and a parameter block.
 old-location: mscs\resutilpropertylistfromparameterblock.htm
 tech.root: MsCS
 ms.assetid: 6993e279-07c7-4444-b1b9-0d25360e43e3
-
 ms.date: 12/05/2018
 ms.keywords: PRESUTIL_PROPERTY_LIST_FROM_PARAMETER_BLOCK, PRESUTIL_PROPERTY_LIST_FROM_PARAMETER_BLOCK function [Failover Cluster], ResUtilPropertyListFromParameterBlock, ResUtilPropertyListFromParameterBlock function [Failover Cluster], _wolf_resutilpropertylistfromparameterblock, mscs.resutilpropertylistfromparameterblock, resapi/PRESUTIL_PROPERTY_LIST_FROM_PARAMETER_BLOCK, resapi/ResUtilPropertyListFromParameterBlock
 ms.topic: function
-f1_keywords: 
- - "resapi/ResUtilPropertyListFromParameterBlock"
+f1_keywords:
+- resapi/ResUtilPropertyListFromParameterBlock
 dev_langs:
- - c++
+- c++
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: ResUtils.lib
 req.dll: ResUtils.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - ResUtils.dll
- - Ext-MS-Win-Cluster-ResUtils-L1-1-1.dll
+- ResUtils.dll
+- Ext-MS-Win-Cluster-ResUtils-L1-1-1.dll
 api_name:
- - ResUtilPropertyListFromParameterBlock
+- ResUtilPropertyListFromParameterBlock
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationcoreapi.UiaNodeFromProvider
 title: UiaNodeFromProvider function (uiautomationcoreapi.h)
-
 description: Retrieves the UI Automation node for a raw element provider.
 old-location: winauto\uiauto_UiaNodeFromProviderFunction.htm
 tech.root: WinAuto
 ms.assetid: 9f280fbb-ad14-43ea-bc1e-a281987c5898
-
 ms.date: 12/05/2018
 ms.keywords: UiaNodeFromProvider, UiaNodeFromProvider function [Windows Accessibility], uiauto.uiauto_UiaNodeFromProviderFunction, uiauto_UiaNodeFromProviderFunction, uiautomationcoreapi/UiaNodeFromProvider, winauto.uiauto_UiaNodeFromProviderFunction
 ms.topic: function
-f1_keywords: 
- - "uiautomationcoreapi/UiaNodeFromProvider"
+f1_keywords:
+- uiautomationcoreapi/UiaNodeFromProvider
 dev_langs:
- - c++
+- c++
 req.header: uiautomationcoreapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uiautomationcore.lib
 req.dll: Uiautomationcore.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Uiautomationcore.dll
+- Uiautomationcore.dll
 api_name:
- - UiaNodeFromProvider
+- UiaNodeFromProvider
 targetos: Windows
 req.typenames: 
 req.redist: 

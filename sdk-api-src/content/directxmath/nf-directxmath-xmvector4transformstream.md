@@ -1,19 +1,17 @@
 ---
 UID: NF:directxmath.XMVector4TransformStream
 title: XMVector4TransformStream function (directxmath.h)
-
 description: Transforms a stream of 4D vectors by a given matrix.
 old-location: dxmath\xmvector4transformstream.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.transformation.XMVector4TransformStream(XMFLOAT4@,size_t,const XMFLOAT4,size_t,size_t,XMMATRIX)
-
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMVector4TransformStream, XMVector4TransformStream, XMVector4TransformStream method [DirectX Math Support APIs], dxmath.xmvector4transformstream
 ms.topic: function
-f1_keywords: 
- - "directxmath/XMVector4TransformStream"
+f1_keywords:
+- directxmath/XMVector4TransformStream
 dev_langs:
- - c++
+- c++
 req.header: directxmath.h
 req.include-header: DirectXMath.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - directxmathvector.inl
+- directxmathvector.inl
 api_name:
- - XMVector4TransformStream
+- XMVector4TransformStream
 targetos: Windows
 req.typenames: 
 req.redist: 

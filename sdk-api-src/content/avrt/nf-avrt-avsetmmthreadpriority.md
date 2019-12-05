@@ -1,19 +1,17 @@
 ---
 UID: NF:avrt.AvSetMmThreadPriority
 title: AvSetMmThreadPriority function (avrt.h)
-
 description: Adjusts the thread priority of the calling thread relative to other threads performing the same task.
 old-location: base\avsetmmthreadpriority.htm
 tech.root: ProcThread
 ms.assetid: 74259dbc-a9e9-409e-96e6-66a9dc590099
-
 ms.date: 12/05/2018
 ms.keywords: AVRT_PRIORITY_CRITICAL, AVRT_PRIORITY_HIGH, AVRT_PRIORITY_LOW, AVRT_PRIORITY_NORMAL, AvSetMmThreadPriority, AvSetMmThreadPriority function, avrt/AvSetMmThreadPriority, base.avsetmmthreadpriority
 ms.topic: function
-f1_keywords: 
- - "avrt/AvSetMmThreadPriority"
+f1_keywords:
+- avrt/AvSetMmThreadPriority
 dev_langs:
- - c++
+- c++
 req.header: avrt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Avrt.lib
 req.dll: Avrt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Avrt.dll
+- Avrt.dll
 api_name:
- - AvSetMmThreadPriority
+- AvSetMmThreadPriority
 targetos: Windows
 req.typenames: 
 req.redist: 

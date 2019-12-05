@@ -1,19 +1,17 @@
 ---
 UID: NF:mfidl.IMFClockStateSink.OnClockPause
 title: IMFClockStateSink::OnClockPause (mfidl.h)
-
 description: Called when the presentation clock pauses.
 old-location: mf\imfclockstatesink_onclockpause.htm
 tech.root: medfound
 ms.assetid: d4eb1ddf-2eea-48e2-946a-4ea20be8cc8f
-
 ms.date: 12/05/2018
 ms.keywords: IMFClockStateSink interface [Media Foundation],OnClockPause method, IMFClockStateSink.OnClockPause, IMFClockStateSink::OnClockPause, OnClockPause, OnClockPause method [Media Foundation], OnClockPause method [Media Foundation],IMFClockStateSink interface, d4eb1ddf-2eea-48e2-946a-4ea20be8cc8f, mf.imfclockstatesink_onclockpause, mfidl/IMFClockStateSink::OnClockPause
 ms.topic: method
-f1_keywords: 
- - "mfidl/IMFClockStateSink.OnClockPause"
+f1_keywords:
+- mfidl/IMFClockStateSink.OnClockPause
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFClockStateSink.OnClockPause
+- IMFClockStateSink.OnClockPause
 targetos: Windows
 req.typenames: 
 req.redist: 

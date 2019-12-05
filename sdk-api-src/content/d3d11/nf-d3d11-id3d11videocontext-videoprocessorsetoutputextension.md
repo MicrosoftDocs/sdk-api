@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d11.ID3D11VideoContext.VideoProcessorSetOutputExtension
 title: ID3D11VideoContext::VideoProcessorSetOutputExtension (d3d11.h)
-
 description: Sets a driver-specific video processing state.
 old-location: mf\id3d11videocontext_videoprocessorsetoutputextension.htm
 tech.root: medfound
 ms.assetid: 38279599-09C8-4BB1-8946-0B066D96E22B
-
 ms.date: 12/05/2018
 ms.keywords: ID3D11VideoContext interface [Media Foundation],VideoProcessorSetOutputExtension method, ID3D11VideoContext.VideoProcessorSetOutputExtension, ID3D11VideoContext::VideoProcessorSetOutputExtension, VideoProcessorSetOutputExtension, VideoProcessorSetOutputExtension method [Media Foundation], VideoProcessorSetOutputExtension method [Media Foundation],ID3D11VideoContext interface, d3d11/ID3D11VideoContext::VideoProcessorSetOutputExtension, mf.id3d11videocontext_videoprocessorsetoutputextension
 ms.topic: method
-f1_keywords: 
- - "d3d11/ID3D11VideoContext.VideoProcessorSetOutputExtension"
+f1_keywords:
+- d3d11/ID3D11VideoContext.VideoProcessorSetOutputExtension
 dev_langs:
- - c++
+- c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - d3d11.h
+- d3d11.h
 api_name:
- - ID3D11VideoContext.VideoProcessorSetOutputExtension
+- ID3D11VideoContext.VideoProcessorSetOutputExtension
 targetos: Windows
 req.typenames: 
 req.redist: 

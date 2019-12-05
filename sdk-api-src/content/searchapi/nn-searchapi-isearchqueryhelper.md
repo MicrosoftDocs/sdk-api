@@ -1,19 +1,17 @@
 ---
 UID: NN:searchapi.ISearchQueryHelper
 title: ISearchQueryHelper (searchapi.h)
-
 description: Provides methods for building a query from user input, converting a query to Windows Search SQL, and obtaining a connection string to initialize a connection to the Window Search index.
 old-location: search\_search_ISearchQueryHelper.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\isearchqueryhelper\isearchqueryhelper.htm
-
 ms.date: 12/05/2018
 ms.keywords: ISearchQueryHelper, ISearchQueryHelper interface [search], ISearchQueryHelper interface [search],described, _search_ISearchQueryHelper, search._search_ISearchQueryHelper, searchapi/ISearchQueryHelper
 ms.topic: interface
-f1_keywords: 
- - "searchapi/ISearchQueryHelper"
+f1_keywords:
+- searchapi/ISearchQueryHelper
 dev_langs:
- - c++
+- c++
 req.header: searchapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Searchapi.h
+- Searchapi.h
 api_name:
- - ISearchQueryHelper
+- ISearchQueryHelper
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0

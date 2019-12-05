@@ -1,19 +1,17 @@
 ---
 UID: NF:ras.RasSetCredentialsW
 title: RasSetCredentialsW function (ras.h)
-
 description: Sets the user credentials associated with a specified RAS phone-book entry.
 old-location: rras\rassetcredentials.htm
 tech.root: RRAS
 ms.assetid: 5ebfffb7-9158-4414-982c-e187600aa1ab
-
 ms.date: 12/05/2018
 ms.keywords: RasSetCredentials, RasSetCredentials function [RAS], RasSetCredentialsA, RasSetCredentialsW, _ras_rassetcredentials, ras/RasSetCredentials, ras/RasSetCredentialsA, ras/RasSetCredentialsW, rras.rassetcredentials
 ms.topic: function
-f1_keywords: 
- - "ras/RasSetCredentials"
+f1_keywords:
+- ras/RasSetCredentials
 dev_langs:
- - c++
+- c++
 req.header: ras.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Rasapi32.lib
 req.dll: Rasapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Rasapi32.dll
+- Rasapi32.dll
 api_name:
- - RasSetCredentials
- - RasSetCredentialsA
- - RasSetCredentialsW
+- RasSetCredentials
+- RasSetCredentialsA
+- RasSetCredentialsW
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:dvbsiparser.IIsdbCAContractInformationDescriptor.GetFeeNameW
 title: IIsdbCAContractInformationDescriptor::GetFeeNameW (dvbsiparser.h)
-
 description: Gets, in Unicode-text format, the value of the fee_name field from an Integrated Services Digital Broadcasting (ISDB) conditional access (CA) contract information descriptor. This field describes the fee for the ES group being described.
 old-location: mstv\iisdbcacontractinformationdescriptor_getfeenamew.htm
 tech.root: mstv
 ms.assetid: c2fcdcc1-acca-417e-bcf5-baad4ea07cef
-
 ms.date: 12/05/2018
 ms.keywords: GetFeeNameW, GetFeeNameW method [Microsoft TV Technologies], GetFeeNameW method [Microsoft TV Technologies],IIsdbCAContractInformationDescriptor interface, IIsdbCAContractInformationDescriptor interface [Microsoft TV Technologies],GetFeeNameW method, IIsdbCAContractInformationDescriptor.GetFeeNameW, IIsdbCAContractInformationDescriptor::GetFeeNameW, dvbsiparser/IIsdbCAContractInformationDescriptor::GetFeeNameW, mstv.iisdbcacontractinformationdescriptor_getfeenamew
 ms.topic: method
-f1_keywords: 
- - "dvbsiparser/IIsdbCAContractInformationDescriptor.GetFeeNameW"
+f1_keywords:
+- dvbsiparser/IIsdbCAContractInformationDescriptor.GetFeeNameW
 dev_langs:
- - c++
+- c++
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dvbsiparser.h
+- dvbsiparser.h
 api_name:
- - IIsdbCAContractInformationDescriptor.GetFeeNameW
+- IIsdbCAContractInformationDescriptor.GetFeeNameW
 targetos: Windows
 req.typenames: 
 req.redist: 

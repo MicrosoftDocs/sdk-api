@@ -1,19 +1,17 @@
 ---
 UID: NF:mmeapi.waveOutBreakLoop
 title: waveOutBreakLoop function (mmeapi.h)
-
 description: The waveOutBreakLoop function breaks a loop on the given waveform-audio output device and allows playback to continue with the next block in the driver list.
 old-location: multimedia\waveoutbreakloop.htm
 tech.root: Multimedia
 ms.assetid: e2cbbd22-09be-4757-a659-94cc6e4a0a5b
-
 ms.date: 12/05/2018
-ms.keywords: "_win32_waveOutBreakLoop, mmeapi/waveOutBreakLoop, multimedia.waveoutbreakloop, waveOutBreakLoop, waveOutBreakLoop function [Windows Multimedia]"
+ms.keywords: _win32_waveOutBreakLoop, mmeapi/waveOutBreakLoop, multimedia.waveoutbreakloop, waveOutBreakLoop, waveOutBreakLoop function [Windows Multimedia]
 ms.topic: function
-f1_keywords: 
- - "mmeapi/waveOutBreakLoop"
+f1_keywords:
+- mmeapi/waveOutBreakLoop
 dev_langs:
- - c++
+- c++
 req.header: mmeapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Winmm.lib
 req.dll: Winmm.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Winmm.dll
- - API-MS-Win-mm-mme-l1-1-0.dll
- - winmmbase.dll
+- Winmm.dll
+- API-MS-Win-mm-mme-l1-1-0.dll
+- winmmbase.dll
 api_name:
- - waveOutBreakLoop
+- waveOutBreakLoop
 targetos: Windows
 req.typenames: 
 req.redist: 

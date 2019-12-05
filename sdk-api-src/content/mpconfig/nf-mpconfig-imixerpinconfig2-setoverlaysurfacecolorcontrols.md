@@ -1,19 +1,17 @@
 ---
 UID: NF:mpconfig.IMixerPinConfig2.SetOverlaySurfaceColorControls
 title: IMixerPinConfig2::SetOverlaySurfaceColorControls (mpconfig.h)
-
 description: Sets the color control settings associated with the specified overlay surface.
 old-location: dshow\imixerpinconfig2_setoverlaysurfacecolorcontrols.htm
 tech.root: DirectShow
 ms.assetid: c23c12c9-5621-4b1e-997a-51303f239175
-
 ms.date: 12/05/2018
 ms.keywords: IMixerPinConfig2 interface [DirectShow],SetOverlaySurfaceColorControls method, IMixerPinConfig2.SetOverlaySurfaceColorControls, IMixerPinConfig2::SetOverlaySurfaceColorControls, IMixerPinConfig2SetOverlaySurfaceColorControls, SetOverlaySurfaceColorControls, SetOverlaySurfaceColorControls method [DirectShow], SetOverlaySurfaceColorControls method [DirectShow],IMixerPinConfig2 interface, dshow.imixerpinconfig2_setoverlaysurfacecolorcontrols, mpconfig/IMixerPinConfig2::SetOverlaySurfaceColorControls
 ms.topic: method
-f1_keywords: 
- - "mpconfig/IMixerPinConfig2.SetOverlaySurfaceColorControls"
+f1_keywords:
+- mpconfig/IMixerPinConfig2.SetOverlaySurfaceColorControls
 dev_langs:
- - c++
+- c++
 req.header: mpconfig.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IMixerPinConfig2.SetOverlaySurfaceColorControls
+- IMixerPinConfig2.SetOverlaySurfaceColorControls
 targetos: Windows
 req.typenames: 
 req.redist: 

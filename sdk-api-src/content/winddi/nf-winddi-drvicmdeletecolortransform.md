@@ -1,19 +1,17 @@
 ---
 UID: NF:winddi.DrvIcmDeleteColorTransform
 title: DrvIcmDeleteColorTransform function (winddi.h)
-
 description: The DrvIcmDeleteColorTransform function deletes the specified color transform.
 old-location: display\drvicmdeletecolortransform.htm
 tech.root: display
 ms.assetid: aa1226d3-7b2a-4911-b785-eea9f72016f5
-
 ms.date: 12/05/2018
 ms.keywords: DrvIcmDeleteColorTransform, DrvIcmDeleteColorTransform function [Display Devices], ddifncs_883d2f55-a3e0-4682-a099-8fef07b6e3a7.xml, display.drvicmdeletecolortransform, winddi/DrvIcmDeleteColorTransform
 ms.topic: function
-f1_keywords: 
- - "winddi/DrvIcmDeleteColorTransform"
+f1_keywords:
+- winddi/DrvIcmDeleteColorTransform
 dev_langs:
- - c++
+- c++
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Desktop
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - winddi.h
+- winddi.h
 api_name:
- - DrvIcmDeleteColorTransform
+- DrvIcmDeleteColorTransform
 targetos: Windows
 req.typenames: 
 req.redist: 

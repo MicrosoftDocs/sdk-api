@@ -1,19 +1,17 @@
 ---
 UID: NF:authz.AuthzFreeResourceManager
 title: AuthzFreeResourceManager function (authz.h)
-
 description: Frees a resource manager object.
 old-location: security\authzfreeresourcemanager.htm
 tech.root: SecAuthZ
 ms.assetid: 8b716368-8d81-4c62-9086-0976b39bbcf8
-
 ms.date: 12/05/2018
 ms.keywords: AuthzFreeResourceManager, AuthzFreeResourceManager function [Security], _win32_authzfreeresourcemanager, authz/AuthzFreeResourceManager, security.authzfreeresourcemanager
 ms.topic: function
-f1_keywords: 
- - "authz/AuthzFreeResourceManager"
+f1_keywords:
+- authz/AuthzFreeResourceManager
 dev_langs:
- - c++
+- c++
 req.header: authz.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Authz.lib
 req.dll: Authz.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Authz.dll
- - Ext-MS-Win-authz-context-l1-1-0.dll
+- Authz.dll
+- Ext-MS-Win-authz-context-l1-1-0.dll
 api_name:
- - AuthzFreeResourceManager
+- AuthzFreeResourceManager
 targetos: Windows
 req.typenames: 
 req.redist: Windows Server 2003 Administration Tools Pack on Windows XP

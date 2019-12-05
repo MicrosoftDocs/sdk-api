@@ -1,19 +1,17 @@
 ---
 UID: NF:wmsinternaladminnetsource.IWMSInternalAdminNetSource2.GetCredentialsEx
 title: IWMSInternalAdminNetSource2::GetCredentialsEx (wmsinternaladminnetsource.h)
-
 description: The GetCredentialsEx method retrieves a cached password.
 old-location: wmformat\iwmsinternaladminnetsource2_getcredentialsex.htm
 tech.root: wmformat
 ms.assetid: 5840fe0b-34f6-4e39-b55f-7e07b7795e52
-
 ms.date: 12/05/2018
 ms.keywords: GetCredentialsEx, GetCredentialsEx method [windows Media Format], GetCredentialsEx method [windows Media Format],IWMSInternalAdminNetSource2 interface, IWMSInternalAdminNetSource2 interface [windows Media Format],GetCredentialsEx method, IWMSInternalAdminNetSource2.GetCredentialsEx, IWMSInternalAdminNetSource2::GetCredentialsEx, IWMSInternalAdminNetSource2GetCredentialsEx, wmformat.iwmsinternaladminnetsource2_getcredentialsex, wmsinternaladminnetsource/IWMSInternalAdminNetSource2::GetCredentialsEx
 ms.topic: method
-f1_keywords: 
- - "wmsinternaladminnetsource/IWMSInternalAdminNetSource2.GetCredentialsEx"
+f1_keywords:
+- wmsinternaladminnetsource/IWMSInternalAdminNetSource2.GetCredentialsEx
 dev_langs:
- - c++
+- c++
 req.header: wmsinternaladminnetsource.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wmvcore.lib
- - Wmvcore.dll
- - WMStubDRM.lib
- - WMStubDRM.dll
+- Wmvcore.lib
+- Wmvcore.dll
+- WMStubDRM.lib
+- WMStubDRM.dll
 api_name:
- - IWMSInternalAdminNetSource2.GetCredentialsEx
+- IWMSInternalAdminNetSource2.GetCredentialsEx
 targetos: Windows
 req.typenames: 
 req.redist: 

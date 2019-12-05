@@ -1,19 +1,17 @@
 ---
 UID: NF:vdshwprv.IVdsProviderPrivate.OnLoad
 title: IVdsProviderPrivate::OnLoad (vdshwprv.h)
-
 description: Prompts the provider to initialize itself, and passes a callback object that the provider uses to get necessary interfaces.
 old-location: base\ivdsproviderprivate_onload.htm
 tech.root: VDS
 ms.assetid: c5b2ac78-6a23-470c-a762-26ce6358e0b6
-
 ms.date: 12/05/2018
 ms.keywords: IVdsProviderPrivate interface [VDS],OnLoad method, IVdsProviderPrivate.OnLoad, IVdsProviderPrivate::OnLoad, OnLoad, OnLoad method [VDS], OnLoad method [VDS],IVdsProviderPrivate interface, base.ivdsproviderprivate_onload, vdshwprv/IVdsProviderPrivate::OnLoad
 ms.topic: method
-f1_keywords: 
- - "vdshwprv/IVdsProviderPrivate.OnLoad"
+f1_keywords:
+- vdshwprv/IVdsProviderPrivate.OnLoad
 dev_langs:
- - c++
+- c++
 req.header: vdshwprv.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Uuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Uuid.lib
- - Uuid.dll
+- Uuid.lib
+- Uuid.dll
 api_name:
- - IVdsProviderPrivate.OnLoad
+- IVdsProviderPrivate.OnLoad
 targetos: Windows
 req.typenames: 
 req.redist: 

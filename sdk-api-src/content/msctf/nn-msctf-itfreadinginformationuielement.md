@@ -1,19 +1,17 @@
 ---
 UID: NN:msctf.ITfReadingInformationUIElement
 title: ITfReadingInformationUIElement (msctf.h)
-
 description: The ITfCandidateListUIElement interface is implemented by a text service that has a UI for reading information UI at the near caret.
 old-location: tsf\itfreadinginformationuielement.htm
 tech.root: TSF
 ms.assetid: 60f7c6e2-7821-4be6-a1c1-35bacaa60bf4
-
 ms.date: 12/05/2018
 ms.keywords: ITfReadingInformationUIElement, ITfReadingInformationUIElement interface [Text Services Framework], ITfReadingInformationUIElement interface [Text Services Framework],described, msctf/ITfReadingInformationUIElement, tsf.itfreadinginformationuielement
 ms.topic: interface
-f1_keywords: 
- - "msctf/ITfReadingInformationUIElement"
+f1_keywords:
+- msctf/ITfReadingInformationUIElement
 dev_langs:
- - c++
+- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msctf.h
+- Msctf.h
 api_name:
- - ITfReadingInformationUIElement
+- ITfReadingInformationUIElement
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

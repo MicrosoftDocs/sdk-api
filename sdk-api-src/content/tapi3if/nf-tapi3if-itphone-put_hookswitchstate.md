@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi3if.ITPhone.put_HookSwitchState
 title: ITPhone::put_HookSwitchState (tapi3if.h)
-
 description: The put_HookSwitchState method sets the current hookswitch state for a particular hookswitch device on the phone.
 old-location: tapi3\itphone_put_hookswitchstate.htm
 tech.root: Tapi
 ms.assetid: ab0bcd30-6985-4f53-a39d-90230421b6f4
-
 ms.date: 12/05/2018
 ms.keywords: ITPhone interface [TAPI 2.2],put_HookSwitchState method, ITPhone.put_HookSwitchState, ITPhone::put_HookSwitchState, _tapi3_itphone_put_hookswitchstate, put_HookSwitchState, put_HookSwitchState method [TAPI 2.2], put_HookSwitchState method [TAPI 2.2],ITPhone interface, tapi3.itphone_put_hookswitchstate, tapi3if/ITPhone::put_HookSwitchState
 ms.topic: method
-f1_keywords: 
- - "tapi3if/ITPhone.put_HookSwitchState"
+f1_keywords:
+- tapi3if/ITPhone.put_HookSwitchState
 dev_langs:
- - c++
+- c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Tapi3.dll
+- Tapi3.dll
 api_name:
- - ITPhone.put_HookSwitchState
+- ITPhone.put_HookSwitchState
 targetos: Windows
 req.typenames: 
 req.redist: 

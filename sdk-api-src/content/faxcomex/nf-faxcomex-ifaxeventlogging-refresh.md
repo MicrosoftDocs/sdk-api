@@ -1,19 +1,17 @@
 ---
 UID: NF:faxcomex.IFaxEventLogging.Refresh
 title: IFaxEventLogging::Refresh (faxcomex.h)
-
 description: The IFaxEventLogging::Refresh method refreshes IFaxEventLogging interface information from the fax server.
 old-location: fax\_mfax_faxeventlogging_cpp_mfax_faxeventlogging_refresh_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_7ns8.htm
-
 ms.date: 12/05/2018
 ms.keywords: IFaxEventLogging interface [Fax Service],Refresh method, IFaxEventLogging.Refresh, IFaxEventLogging::Refresh, Refresh, Refresh method [Fax Service], Refresh method [Fax Service],IFaxEventLogging interface, _mfax_faxeventlogging.refresh, fax._mfax_faxeventlogging_cpp_mfax_faxeventlogging_refresh_cpp, fax._mfax_faxeventlogging_refresh, faxcomex/IFaxEventLogging::Refresh
 ms.topic: method
-f1_keywords: 
- - "faxcomex/IFaxEventLogging.Refresh"
+f1_keywords:
+- faxcomex/IFaxEventLogging.Refresh
 dev_langs:
- - c++
+- c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: Fxscomex.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Fxscomex.dll
+- Fxscomex.dll
 api_name:
- - IFaxEventLogging.Refresh
- - IFaxEventLogging.Refresh
+- IFaxEventLogging.Refresh
+- IFaxEventLogging.Refresh
 targetos: Windows
 req.typenames: 
 req.redist: 

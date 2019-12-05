@@ -1,19 +1,17 @@
 ---
 UID: NS:dinputd.DIOBJECTATTRIBUTES
 title: DIOBJECTATTRIBUTES (dinputd.h)
-
 description: The DIOBJECTATTRIBUTES structure describes the information contained in the &#0034;Attributes&#0034; value of the registry key for each &#0034;object&#0034; on a device. If the &#0034;Attributes&#0034; value is absent, then default attributes are used.
 old-location: hid\diobjectattributes.htm
 tech.root: hid
 ms.assetid: 773bf345-5bdd-4b05-b291-1e844bdb9cf0
-
 ms.date: 12/05/2018
-ms.keywords: "*LPDIOBJECTATTRIBUTES, DIOBJECTATTRIBUTES, DIOBJECTATTRIBUTES structure [Human Input Devices], di_ref_c88696fe-68b4-4b0e-88dd-96be38e0bdd4.xml, dinputd/DIOBJECTATTRIBUTES, hid.diobjectattributes"
+ms.keywords: '*LPDIOBJECTATTRIBUTES, DIOBJECTATTRIBUTES, DIOBJECTATTRIBUTES structure [Human Input Devices], di_ref_c88696fe-68b4-4b0e-88dd-96be38e0bdd4.xml, dinputd/DIOBJECTATTRIBUTES, hid.diobjectattributes'
 ms.topic: struct
-f1_keywords: 
- - "dinputd/DIOBJECTATTRIBUTES"
+f1_keywords:
+- dinputd/DIOBJECTATTRIBUTES
 dev_langs:
- - c++
+- c++
 req.header: dinputd.h
 req.include-header: Dinputd.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Dinputd.h
+- Dinputd.h
 api_name:
- - DIOBJECTATTRIBUTES
+- DIOBJECTATTRIBUTES
 targetos: Windows
 req.typenames: DIOBJECTATTRIBUTES, *LPDIOBJECTATTRIBUTES
 req.redist: 

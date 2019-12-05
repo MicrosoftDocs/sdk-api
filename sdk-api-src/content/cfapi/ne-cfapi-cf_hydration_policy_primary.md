@@ -1,19 +1,17 @@
 ---
 UID: NE:cfapi.CF_HYDRATION_POLICY_PRIMARY
 title: CF_HYDRATION_POLICY_PRIMARY (cfapi.h)
-
 description: Allows a sync provider to control how placeholder files should be hydrated by the platform. This is the primary policy.
 old-location: cloudapi\cf_hydration_policy_primary.htm
 tech.root: cfApi
 ms.assetid: 47ACA107-80AA-42B3-B583-399323E2B11C
-
 ms.date: 12/05/2018
 ms.keywords: CF_HYDRATION_POLICY_ALWAYS_FULL, CF_HYDRATION_POLICY_FULL, CF_HYDRATION_POLICY_PARTIAL, CF_HYDRATION_POLICY_PRIMARY, CF_HYDRATION_POLICY_PRIMARY enumeration, CF_HYDRATION_POLICY_PROGRESSIVE, cfapi/CF_HYDRATION_POLICY_ALWAYS_FULL, cfapi/CF_HYDRATION_POLICY_FULL, cfapi/CF_HYDRATION_POLICY_PARTIAL, cfapi/CF_HYDRATION_POLICY_PRIMARY, cfapi/CF_HYDRATION_POLICY_PROGRESSIVE, cloudApi.cf_hydration_policy_primary
 ms.topic: enum
-f1_keywords: 
- - "cfapi/CF_HYDRATION_POLICY_PRIMARY"
+f1_keywords:
+- cfapi/CF_HYDRATION_POLICY_PRIMARY
 dev_langs:
- - c++
+- c++
 req.header: cfapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - CfApi.h
+- CfApi.h
 api_name:
- - CF_HYDRATION_POLICY_PRIMARY
+- CF_HYDRATION_POLICY_PRIMARY
 targetos: Windows
 req.typenames: CF_HYDRATION_POLICY_PRIMARY
 req.redist: 

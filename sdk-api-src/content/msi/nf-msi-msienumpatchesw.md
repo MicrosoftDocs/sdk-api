@@ -1,19 +1,17 @@
 ---
 UID: NF:msi.MsiEnumPatchesW
 title: MsiEnumPatchesW function (msi.h)
-
 description: The MsiEnumPatches function enumerates all of the patches that have been applied to a product.
 old-location: setup\msienumpatches.htm
 tech.root: Msi
 ms.assetid: 8f15accf-1ff5-4aa3-8a8e-be0e339360d2
-
 ms.date: 12/05/2018
 ms.keywords: MsiEnumPatches, MsiEnumPatches function, MsiEnumPatchesA, MsiEnumPatchesW, _msi_msienumpatches, msi/MsiEnumPatches, msi/MsiEnumPatchesA, msi/MsiEnumPatchesW, setup.msienumpatches
 ms.topic: function
-f1_keywords: 
- - "msi/MsiEnumPatches"
+f1_keywords:
+- msi/MsiEnumPatches
 dev_langs:
- - c++
+- c++
 req.header: msi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Msi.lib
 req.dll: Msi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Msi.dll
+- Msi.dll
 api_name:
- - MsiEnumPatches
- - MsiEnumPatchesA
- - MsiEnumPatchesW
+- MsiEnumPatches
+- MsiEnumPatchesA
+- MsiEnumPatchesW
 targetos: Windows
 req.typenames: 
 req.redist: 

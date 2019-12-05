@@ -1,19 +1,17 @@
 ---
 UID: NF:d2d1_1helper.Point2L
 title: Point2L function (d2d1_1helper.h)
-
 description: Returns a point struct of long integers.
 old-location: direct2d\point2l.htm
 tech.root: Direct2D
 ms.assetid: 25F6819F-BDCB-4E1E-95F0-00251A534ACC
-
 ms.date: 12/05/2018
 ms.keywords: Point2L, Point2L function [Direct2D], d2d1_1helper/Point2L, direct2d.point2l
 ms.topic: function
-f1_keywords: 
- - "d2d1_1helper/Point2L"
+f1_keywords:
+- d2d1_1helper/Point2L
 dev_langs:
- - c++
+- c++
 req.header: d2d1_1helper.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: D2d1.lib
 req.dll: D2d1.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - D2d1.dll
+- D2d1.dll
 api_name:
- - Point2L
+- Point2L
 targetos: Windows
 req.typenames: 
 req.redist: 

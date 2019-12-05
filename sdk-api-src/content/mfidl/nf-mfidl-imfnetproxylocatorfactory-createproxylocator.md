@@ -1,19 +1,17 @@
 ---
 UID: NF:mfidl.IMFNetProxyLocatorFactory.CreateProxyLocator
 title: IMFNetProxyLocatorFactory::CreateProxyLocator (mfidl.h)
-
 description: Creates an IMFNetProxyLocator interface proxy locator object based on the protocol name.
 old-location: mf\imfnetproxylocatorfactory_createproxylocator.htm
 tech.root: medfound
 ms.assetid: 0bdc03a8-a01d-453b-92b9-b39d8028b314
-
 ms.date: 12/05/2018
 ms.keywords: 0bdc03a8-a01d-453b-92b9-b39d8028b314, CreateProxyLocator, CreateProxyLocator method [Media Foundation], CreateProxyLocator method [Media Foundation],IMFNetProxyLocatorFactory interface, IMFNetProxyLocatorFactory interface [Media Foundation],CreateProxyLocator method, IMFNetProxyLocatorFactory.CreateProxyLocator, IMFNetProxyLocatorFactory::CreateProxyLocator, mf.imfnetproxylocatorfactory_createproxylocator, mfidl/IMFNetProxyLocatorFactory::CreateProxyLocator
 ms.topic: method
-f1_keywords: 
- - "mfidl/IMFNetProxyLocatorFactory.CreateProxyLocator"
+f1_keywords:
+- mfidl/IMFNetProxyLocatorFactory.CreateProxyLocator
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFNetProxyLocatorFactory.CreateProxyLocator
+- IMFNetProxyLocatorFactory.CreateProxyLocator
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:dhcpsapi.DhcpV4FailoverGetSystemTime
 title: DhcpV4FailoverGetSystemTime function (dhcpsapi.h)
-
 description: Returns the current time on the DHCP server.
 old-location: dhcp\dhcpv4failovergetsystemtime.htm
 tech.root: DHCP
 ms.assetid: 3189e3d4-82cb-47a6-ad10-26a67c69e67d
-
 ms.date: 12/05/2018
 ms.keywords: DhcpV4FailoverGetSystemTime, DhcpV4FailoverGetSystemTime function [DHCP], dhcp.dhcpv4failovergetsystemtime, dhcpsapi/DhcpV4FailoverGetSystemTime
 ms.topic: function
-f1_keywords: 
- - "dhcpsapi/DhcpV4FailoverGetSystemTime"
+f1_keywords:
+- dhcpsapi/DhcpV4FailoverGetSystemTime
 dev_langs:
- - c++
+- c++
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dhcpsapi.lib
 req.dll: Dhcpsapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Dhcpsapi.dll
+- Dhcpsapi.dll
 api_name:
- - DhcpV4FailoverGetSystemTime
+- DhcpV4FailoverGetSystemTime
 targetos: Windows
 req.typenames: 
 req.redist: 

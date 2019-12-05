@@ -1,19 +1,17 @@
 ---
 UID: NN:wmp.IWMPClosedCaption
 title: IWMPClosedCaption (wmp.h)
-
 description: The IWMPClosedCaption interface provides a way to include captions with a digital media file. The captioning text is in a Synchronized Accessible Media Interchange (SAMI) file.
 old-location: wmp\iwmpclosedcaption.htm
 tech.root: WMP
 ms.assetid: fd67e139-0bc1-459e-b43b-bf07f6f656ed
-
 ms.date: 12/05/2018
 ms.keywords: IWMPClosedCaption, IWMPClosedCaption interface [Windows Media Player], IWMPClosedCaption interface [Windows Media Player],described, IWMPClosedCaptionInterface, wmp.iwmpclosedcaption, wmp/IWMPClosedCaption
 ms.topic: interface
-f1_keywords: 
- - "wmp/IWMPClosedCaption"
+f1_keywords:
+- wmp/IWMPClosedCaption
 dev_langs:
- - c++
+- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmp.h
+- wmp.h
 api_name:
- - IWMPClosedCaption
+- IWMPClosedCaption
 targetos: Windows
 req.typenames: 
 req.redist: 

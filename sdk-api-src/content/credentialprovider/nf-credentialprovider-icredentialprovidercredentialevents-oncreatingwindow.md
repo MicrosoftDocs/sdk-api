@@ -1,19 +1,17 @@
 ---
 UID: NF:credentialprovider.ICredentialProviderCredentialEvents.OnCreatingWindow
 title: ICredentialProviderCredentialEvents::OnCreatingWindow (credentialprovider.h)
-
 description: Called when the window is created. Enables credentials to retrieve the HWND of the parent window after Advise is called.
 old-location: shell\ICredentialProviderCredentialEvents_OnCreatingWindow.htm
 tech.root: shell
 ms.assetid: ae3cf911-991d-4363-985a-746846e3c08a
-
 ms.date: 12/05/2018
 ms.keywords: ICredentialProviderCredentialEvents interface [Windows Shell],OnCreatingWindow method, ICredentialProviderCredentialEvents.OnCreatingWindow, ICredentialProviderCredentialEvents::OnCreatingWindow, OnCreatingWindow, OnCreatingWindow method [Windows Shell], OnCreatingWindow method [Windows Shell],ICredentialProviderCredentialEvents interface, _shell_ICredentialProviderCredentialEvents_OnCreatingWindow, credentialprovider/ICredentialProviderCredentialEvents::OnCreatingWindow, shell.ICredentialProviderCredentialEvents_OnCreatingWindow
 ms.topic: method
-f1_keywords: 
- - "credentialprovider/ICredentialProviderCredentialEvents.OnCreatingWindow"
+f1_keywords:
+- credentialprovider/ICredentialProviderCredentialEvents.OnCreatingWindow
 dev_langs:
- - c++
+- c++
 req.header: credentialprovider.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Credentialprovider.h
+- Credentialprovider.h
 api_name:
- - ICredentialProviderCredentialEvents.OnCreatingWindow
+- ICredentialProviderCredentialEvents.OnCreatingWindow
 targetos: Windows
 req.typenames: 
 req.redist: 

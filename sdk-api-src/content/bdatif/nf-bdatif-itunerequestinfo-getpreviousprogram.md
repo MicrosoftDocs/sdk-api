@@ -1,19 +1,17 @@
 ---
 UID: NF:bdatif.ITuneRequestInfo.GetPreviousProgram
 title: ITuneRequestInfo::GetPreviousProgram (bdatif.h)
-
 description: The GetPreviousProgram method creates a new tune request with channel or program locator information for the previous service.
 old-location: mstv\itunerequestinfo_getpreviousprogram.htm
 tech.root: mstv
 ms.assetid: 9c03a5c9-9dc1-4163-bbc8-8dae2037eb24
-
 ms.date: 12/05/2018
 ms.keywords: GetPreviousProgram, GetPreviousProgram method [Microsoft TV Technologies], GetPreviousProgram method [Microsoft TV Technologies],ITuneRequestInfo interface, ITuneRequestInfo interface [Microsoft TV Technologies],GetPreviousProgram method, ITuneRequestInfo.GetPreviousProgram, ITuneRequestInfo::GetPreviousProgram, ITuneRequestInfoGetPreviousProgram, bdatif/ITuneRequestInfo::GetPreviousProgram, mstv.itunerequestinfo_getpreviousprogram
 ms.topic: method
-f1_keywords: 
- - "bdatif/ITuneRequestInfo.GetPreviousProgram"
+f1_keywords:
+- bdatif/ITuneRequestInfo.GetPreviousProgram
 dev_langs:
- - c++
+- c++
 req.header: bdatif.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - bdatif.h
+- bdatif.h
 api_name:
- - ITuneRequestInfo.GetPreviousProgram
+- ITuneRequestInfo.GetPreviousProgram
 targetos: Windows
 req.typenames: 
 req.redist: 

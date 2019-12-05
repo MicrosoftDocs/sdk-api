@@ -1,19 +1,17 @@
 ---
 UID: NF:oleidl.IOleAdviseHolder.SendOnSave
 title: IOleAdviseHolder::SendOnSave (oleidl.h)
-
 description: Sends notification to all advisory sinks currently registered with the advise holder that the object has been saved.
 old-location: com\ioleadviseholder_sendonsave.htm
 tech.root: com
 ms.assetid: b64ceaf7-45ba-4a66-a5cf-aec352472d3d
-
 ms.date: 12/05/2018
 ms.keywords: IOleAdviseHolder interface [COM],SendOnSave method, IOleAdviseHolder.SendOnSave, IOleAdviseHolder::SendOnSave, SendOnSave, SendOnSave method [COM], SendOnSave method [COM],IOleAdviseHolder interface, _ole_ioleadviseholder_sendonsave, com.ioleadviseholder_sendonsave, oleidl/IOleAdviseHolder::SendOnSave
 ms.topic: method
-f1_keywords: 
- - "oleidl/IOleAdviseHolder.SendOnSave"
+f1_keywords:
+- oleidl/IOleAdviseHolder.SendOnSave
 dev_langs:
- - c++
+- c++
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - OleIdl.h
+- OleIdl.h
 api_name:
- - IOleAdviseHolder.SendOnSave
+- IOleAdviseHolder.SendOnSave
 targetos: Windows
 req.typenames: 
 req.redist: 

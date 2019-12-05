@@ -1,19 +1,17 @@
 ---
 UID: NF:gdipluspath.GraphicsPath.GraphicsPath(IN FillMode)
 title: GraphicsPath::GraphicsPath(IN FillMode) (gdipluspath.h)
-
 description: Creates a GraphicsPath::GraphicsPath object and initializes the fill mode. This is the default constructor.
 old-location: gdiplus\_gdiplus_CLASS_GraphicsPath_GraphicsPath_fillMode_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicspathclass\graphicspathconstructors\graphicspath_97fillmode.htm
-
 ms.date: 12/05/2018
 ms.keywords: GraphicsPath, GraphicsPath class [GDI+],GraphicsPath constructor, GraphicsPath constructor [GDI+], GraphicsPath constructor [GDI+],GraphicsPath class, GraphicsPath.GraphicsPath, GraphicsPath.GraphicsPath(FillMode), GraphicsPath.GraphicsPath(IN FillMode), GraphicsPath::GraphicsPath, GraphicsPath::GraphicsPath(IN FillMode), _gdiplus_CLASS_GraphicsPath_GraphicsPath_fillMode_, gdiplus._gdiplus_CLASS_GraphicsPath_GraphicsPath_fillMode_
 ms.topic: method
-f1_keywords: 
- - "gdipluspath/GraphicsPath.GraphicsPath"
+f1_keywords:
+- gdipluspath/GraphicsPath.GraphicsPath
 dev_langs:
- - c++
+- c++
 req.header: gdipluspath.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - GraphicsPath.GraphicsPath
+- GraphicsPath.GraphicsPath
 targetos: Windows
 req.typenames: 
 req.redist: 

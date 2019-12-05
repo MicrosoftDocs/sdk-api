@@ -1,19 +1,17 @@
 ---
 UID: NF:dvbsiparser.IDvbDefaultAuthorityDescriptor.GetTag
 title: IDvbDefaultAuthorityDescriptor::GetTag (dvbsiparser.h)
-
 description: Gets the tag from the default authority descriptor for a Digital Video Broadcast (DVB) content reference identifier (CRID).
 old-location: mstv\idvbdefaultauthoritydescriptor_gettag.htm
 tech.root: mstv
 ms.assetid: d98d1a45-1d72-4142-8bb4-15ac4f738813
-
 ms.date: 12/05/2018
 ms.keywords: GetTag, GetTag method [Microsoft TV Technologies], GetTag method [Microsoft TV Technologies],IDvbDefaultAuthorityDescriptor interface, IDvbDefaultAuthorityDescriptor interface [Microsoft TV Technologies],GetTag method, IDvbDefaultAuthorityDescriptor.GetTag, IDvbDefaultAuthorityDescriptor::GetTag, dvbsiparser/IDvbDefaultAuthorityDescriptor::GetTag, mstv.idvbdefaultauthoritydescriptor_gettag
 ms.topic: method
-f1_keywords: 
- - "dvbsiparser/IDvbDefaultAuthorityDescriptor.GetTag"
+f1_keywords:
+- dvbsiparser/IDvbDefaultAuthorityDescriptor.GetTag
 dev_langs:
- - c++
+- c++
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dvbsiparser.h
+- dvbsiparser.h
 api_name:
- - IDvbDefaultAuthorityDescriptor.GetTag
+- IDvbDefaultAuthorityDescriptor.GetTag
 targetos: Windows
 req.typenames: 
 req.redist: 

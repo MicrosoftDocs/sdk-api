@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IDesktopWallpaper.GetMonitorRECT
 title: IDesktopWallpaper::GetMonitorRECT (shobjidl_core.h)
-
 description: Retrieves the display rectangle of the specified monitor.
 old-location: shell\IDesktopWallpaper_GetMonitorRECT.htm
 tech.root: shell
 ms.assetid: 98A3F193-DBCF-42ec-9283-53F0F46BB1C4
-
 ms.date: 12/05/2018
 ms.keywords: GetMonitorRECT, GetMonitorRECT method [Windows Shell], GetMonitorRECT method [Windows Shell],IDesktopWallpaper interface, IDesktopWallpaper interface [Windows Shell],GetMonitorRECT method, IDesktopWallpaper.GetMonitorRECT, IDesktopWallpaper::GetMonitorRECT, shell.IDesktopWallpaper_GetMonitorRECT, shobjidl_core/IDesktopWallpaper::GetMonitorRECT
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IDesktopWallpaper.GetMonitorRECT"
+f1_keywords:
+- shobjidl_core/IDesktopWallpaper.GetMonitorRECT
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - IDesktopWallpaper.GetMonitorRECT
+- IDesktopWallpaper.GetMonitorRECT
 targetos: Windows
 req.typenames: 
 req.redist: 

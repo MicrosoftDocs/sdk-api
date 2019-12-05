@@ -1,19 +1,17 @@
 ---
 UID: NN:iads.IADsFileService
 title: IADsFileService (iads.h)
-
 description: The IADsFileService interface is a dual interface that inherits from IADsService.
 old-location: adsi\iadsfileservice.htm
 tech.root: adsi
 ms.assetid: 328eedfe-7fdc-4e90-8bac-ab30944b8fbf
-
 ms.date: 12/05/2018
 ms.keywords: IADsFileService, IADsFileService interface [ADSI], IADsFileService interface [ADSI],described, _ds_iadsfileservice, adsi.iadsfileservice, iads/IADsFileService
 ms.topic: interface
-f1_keywords: 
- - "iads/IADsFileService"
+f1_keywords:
+- iads/IADsFileService
 dev_langs:
- - c++
+- c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Activeds.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Activeds.dll
+- Activeds.dll
 api_name:
- - IADsFileService
+- IADsFileService
 targetos: Windows
 req.typenames: 
 req.redist: 

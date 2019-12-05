@@ -1,19 +1,17 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMObjectFactory.CreateCanvas
 title: IXpsOMObjectFactory::CreateCanvas (xpsobjectmodel.h)
-
 description: Creates an IXpsOMCanvas interface that is used to group page elements.
 old-location: xps\ixpsomobjectfactory_createcanvas.htm
 tech.root: printdocs
 ms.assetid: 1ee3a80d-f6d8-45ba-8178-e3870404698a
-
 ms.date: 12/05/2018
 ms.keywords: CreateCanvas, CreateCanvas method [XPS Documents and Packaging], CreateCanvas method [XPS Documents and Packaging],IXpsOMObjectFactory interface, IXpsOMObjectFactory interface [XPS Documents and Packaging],CreateCanvas method, IXpsOMObjectFactory.CreateCanvas, IXpsOMObjectFactory::CreateCanvas, xps.ixpsomobjectfactory_createcanvas, xpsobjectmodel/IXpsOMObjectFactory::CreateCanvas
 ms.topic: method
-f1_keywords: 
- - "xpsobjectmodel/IXpsOMObjectFactory.CreateCanvas"
+f1_keywords:
+- xpsobjectmodel/IXpsOMObjectFactory.CreateCanvas
 dev_langs:
- - c++
+- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsobjectmodel.h
+- xpsobjectmodel.h
 api_name:
- - IXpsOMObjectFactory.CreateCanvas
+- IXpsOMObjectFactory.CreateCanvas
 targetos: Windows
 req.typenames: 
 req.redist: 

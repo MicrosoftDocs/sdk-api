@@ -1,19 +1,17 @@
 ---
 UID: NF:commctrl.TreeView_GetNextSibling
 title: TreeView_GetNextSibling macro (commctrl.h)
-
 description: Retrieves the next sibling item of a specified item in a tree-view control. You can use this macro, or you can explicitly send the TVM_GETNEXTITEM message with the TVGN_NEXT flag.
 old-location: controls\TreeView_GetNextSibling.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\treeview\macros\treeview_getnextsibling.htm
-
 ms.date: 12/05/2018
 ms.keywords: TreeView_GetNextSibling, TreeView_GetNextSibling macro [Windows Controls], _win32_TreeView_GetNextSibling, _win32_TreeView_GetNextSibling_cpp, commctrl/TreeView_GetNextSibling, controls.TreeView_GetNextSibling, controls._win32_TreeView_GetNextSibling
 ms.topic: macro
-f1_keywords: 
- - "commctrl/TreeView_GetNextSibling"
+f1_keywords:
+- commctrl/TreeView_GetNextSibling
 dev_langs:
- - c++
+- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Commctrl.h
+- Commctrl.h
 api_name:
- - TreeView_GetNextSibling
+- TreeView_GetNextSibling
 targetos: Windows
 req.typenames: 
 req.redist: 

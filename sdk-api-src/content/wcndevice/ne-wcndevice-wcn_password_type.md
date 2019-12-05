@@ -1,19 +1,17 @@
 ---
 UID: NE:wcndevice.tagWCN_PASSWORD_TYPE
 title: WCN_PASSWORD_TYPE (wcndevice.h)
-
 description: WCN_PASSWORD_TYPE enumeration defines the authentication that will be used in a WPS session.
 old-location: wcn\wcn_password_type.htm
 tech.root: wcn
 ms.assetid: 14bdc3d4-11eb-4361-bd28-3399c14c4d08
-
 ms.date: 12/05/2018
 ms.keywords: WCN_PASSWORD_TYPE, WCN_PASSWORD_TYPE enumeration [Windows Connect Now], WCN_PASSWORD_TYPE_PIN, WCN_PASSWORD_TYPE_PIN_REGISTRAR_SPECIFIED, WCN_PASSWORD_TYPE_PUSH_BUTTON, wcn.wcn_password_type, wcndevice/WCN_PASSWORD_TYPE, wcndevice/WCN_PASSWORD_TYPE_PIN, wcndevice/WCN_PASSWORD_TYPE_PIN_REGISTRAR_SPECIFIED, wcndevice/WCN_PASSWORD_TYPE_PUSH_BUTTON
 ms.topic: enum
-f1_keywords: 
- - "wcndevice/WCN_PASSWORD_TYPE"
+f1_keywords:
+- wcndevice/WCN_PASSWORD_TYPE
 dev_langs:
- - c++
+- c++
 req.header: wcndevice.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - wcndevice.h
+- wcndevice.h
 api_name:
- - WCN_PASSWORD_TYPE
+- WCN_PASSWORD_TYPE
 targetos: Windows
 req.typenames: WCN_PASSWORD_TYPE
 req.redist: 

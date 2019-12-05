@@ -1,19 +1,17 @@
 ---
 UID: NF:mmc.MMCPropertyChangeNotify
 title: MMCPropertyChangeNotify function (mmc.h)
-
 description: Enables a snap-in property sheet to notify its IComponent or IComponentData interface that an item's properties have changed.
 old-location: mmc\mmcpropertychangenotify.htm
 tech.root: mmc
 ms.assetid: f563a6dd-22e7-4839-bd44-1702ab3e17a3
-
 ms.date: 12/05/2018
 ms.keywords: MMCPropertyChangeNotify, MMCPropertyChangeNotify callback, MMCPropertyChangeNotify callback function [MMC], _slate_mmcpropertychangenotify, mmc.mmcpropertychangenotify, mmc/MMCPropertyChangeNotify
 ms.topic: function
-f1_keywords: 
- - "mmc/MMCPropertyChangeNotify"
+f1_keywords:
+- mmc/MMCPropertyChangeNotify
 dev_langs:
- - c++
+- c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Mmc.h
+- Mmc.h
 api_name:
- - MMCPropertyChangeNotify
+- MMCPropertyChangeNotify
 targetos: Windows
 req.typenames: 
 req.redist: 

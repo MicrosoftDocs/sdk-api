@@ -1,19 +1,17 @@
 ---
 UID: NF:dhcpsapi.DhcpV4RemoveOptionValue
 title: DhcpV4RemoveOptionValue function (dhcpsapi.h)
-
 description: Removes an option value from a scope defined on the DHCP server. This function extends the functionality provided by DhcpRemoveOptionValueV5 by allowing the caller to specify a policy for the option.
 old-location: dhcp\dhcpv4removeoptionvalue.htm
 tech.root: DHCP
 ms.assetid: 9f22e44e-0eb8-48a9-8a82-dccf41535ef6
-
 ms.date: 12/05/2018
 ms.keywords: DHCP_FLAGS_OPTION_IS_VENDOR, DhcpV4RemoveOptionValue, DhcpV4RemoveOptionValue function [DHCP], dhcp.dhcpv4removeoptionvalue, dhcpsapi/DhcpV4RemoveOptionValue
 ms.topic: function
 f1_keywords:
 - dhcpsapi/DhcpV4RemoveOptionValue
 dev_langs:
- - c++
+- c++
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows

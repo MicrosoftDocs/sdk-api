@@ -1,19 +1,17 @@
 ---
 UID: NF:oleacc.IAccessible.get_accName
 title: IAccessible::get_accName (oleacc.h)
-
 description: The IAccessible::get_accName method retrieves the name of the specified object. All objects support this property.
 old-location: winauto\iaccessible_iaccessible__get_accname.htm
 tech.root: WinAuto
 ms.assetid: 344e95e1-45a5-4951-b545-1a938bfc8a8c
-
 ms.date: 12/05/2018
 ms.keywords: IAccessible interface [Windows Accessibility],get_accName method, IAccessible.get_accName, IAccessible::get_accName, _msaa_IAccessible_get_accName, get_accName, get_accName method [Windows Accessibility], get_accName method [Windows Accessibility],IAccessible interface, msaa.iaccessible_iaccessible__get_accname, oleacc/IAccessible::get_accName, winauto.iaccessible_iaccessible__get_accname
 ms.topic: method
-f1_keywords: 
- - "oleacc/IAccessible.get_accName"
+f1_keywords:
+- oleacc/IAccessible.get_accName
 dev_langs:
- - c++
+- c++
 req.header: oleacc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Oleacc.lib
 req.dll: Oleacc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Oleacc.dll
+- Oleacc.dll
 api_name:
- - IAccessible.get_accName
+- IAccessible.get_accName
 targetos: Windows
 req.typenames: 
 req.redist: Active Accessibility 1.3 RDK on Windows NT 4.0 with SP6 and later and Windows 95

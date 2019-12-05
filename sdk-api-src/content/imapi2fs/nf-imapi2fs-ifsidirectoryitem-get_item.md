@@ -1,19 +1,17 @@
 ---
 UID: NF:imapi2fs.IFsiDirectoryItem.get_Item
 title: IFsiDirectoryItem::get_Item (imapi2fs.h)
-
 description: Retrieves the specified directory or file item from file system image.
 old-location: imapi\ifsidirectoryitem_get_item.htm
 tech.root: imapi
 ms.assetid: 8ea5219c-a12f-43a3-a67b-16cd0e6d2bac
-
 ms.date: 12/05/2018
 ms.keywords: IFsiDirectoryItem interface [IMAPI],get_Item method, IFsiDirectoryItem.get_Item, IFsiDirectoryItem::get_Item, get_Item, get_Item method [IMAPI], get_Item method [IMAPI],IFsiDirectoryItem interface, imapi.ifsidirectoryitem_get_item, imapi2fs/IFsiDirectoryItem::get_Item
 ms.topic: method
-f1_keywords: 
- - "imapi2fs/IFsiDirectoryItem.get_Item"
+f1_keywords:
+- imapi2fs/IFsiDirectoryItem.get_Item
 dev_langs:
- - c++
+- c++
 req.header: imapi2fs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - imapi2fs.h
+- imapi2fs.h
 api_name:
- - IFsiDirectoryItem.get_Item
+- IFsiDirectoryItem.get_Item
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:appmgmt.UninstallApplication
 title: UninstallApplication function (appmgmt.h)
-
 description: The UninstallApplication function uninstalls a group policy application that handles setup and installation using Windows Installer .msi files.
 old-location: policy\uninstallapplication.htm
 tech.root: Policy
 ms.assetid: d45494e2-d86e-4d94-a158-4024eacf46a2
-
 ms.date: 12/05/2018
 ms.keywords: UninstallApplication, UninstallApplication function [Group Policy], appmgmt/UninstallApplication, policy.uninstallapplication
 ms.topic: function
-f1_keywords: 
- - "appmgmt/UninstallApplication"
+f1_keywords:
+- appmgmt/UninstallApplication
 dev_langs:
- - c++
+- c++
 req.header: appmgmt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Advapi32.dll
+- Advapi32.dll
 api_name:
- - UninstallApplication
+- UninstallApplication
 targetos: Windows
 req.typenames: 
 req.redist: 

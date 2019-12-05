@@ -1,19 +1,17 @@
 ---
 UID: NF:vdmdbg.VDMEnumTaskWOWEx
 title: VDMEnumTaskWOWEx function (vdmdbg.h)
-
 description: Enumerates tasks within a particular virtual DOS machine (VDM).
 old-location: winprog\vdmenumtaskwowex.htm
 tech.root: DevNotes
 ms.assetid: c09c5d80-9de6-424b-bd57-bf6a450221e4
-
 ms.date: 12/05/2018
 ms.keywords: VDMEnumTaskWOWEx, VDMEnumTaskWOWEx function [Windows API], vdmdbg/VDMEnumTaskWOWEx, winprog.vdmenumtaskwowex
 ms.topic: function
-f1_keywords: 
- - "vdmdbg/VDMEnumTaskWOWEx"
+f1_keywords:
+- vdmdbg/VDMEnumTaskWOWEx
 dev_langs:
- - c++
+- c++
 req.header: vdmdbg.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: VdmDbg.lib
 req.dll: VdmDbg.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - VdmDbg.dll
+- VdmDbg.dll
 api_name:
- - VDMEnumTaskWOWEx
+- VDMEnumTaskWOWEx
 targetos: Windows
 req.typenames: 
 req.redist: 

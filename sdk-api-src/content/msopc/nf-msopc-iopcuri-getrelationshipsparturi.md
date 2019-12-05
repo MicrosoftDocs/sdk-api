@@ -1,19 +1,17 @@
 ---
 UID: NF:msopc.IOpcUri.GetRelationshipsPartUri
 title: IOpcUri::GetRelationshipsPartUri (msopc.h)
-
 description: Gets the part name of the Relationships part that stores relationships that have the source URI represented by the current OPC URI object.
 old-location: opc\iopcuri_getrelationshipsparturi.htm
 tech.root: OPC
 ms.assetid: 1b953b4c-6e8d-4097-a6bf-618b49cdd603
-
 ms.date: 12/05/2018
 ms.keywords: GetRelationshipsPartUri, GetRelationshipsPartUri method [Open Packaging Conventions], GetRelationshipsPartUri method [Open Packaging Conventions],IOpcUri interface, IOpcUri interface [Open Packaging Conventions],GetRelationshipsPartUri method, IOpcUri.GetRelationshipsPartUri, IOpcUri::GetRelationshipsPartUri, msopc/IOpcUri::GetRelationshipsPartUri, opc.iopcuri_getrelationshipsparturi
 ms.topic: method
-f1_keywords: 
- - "msopc/IOpcUri.GetRelationshipsPartUri"
+f1_keywords:
+- msopc/IOpcUri.GetRelationshipsPartUri
 dev_langs:
- - c++
+- c++
 req.header: msopc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msopc.h
+- msopc.h
 api_name:
- - IOpcUri.GetRelationshipsPartUri
+- IOpcUri.GetRelationshipsPartUri
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NN:shobjidl_core.IExplorerPaneVisibility
 title: IExplorerPaneVisibility (shobjidl_core.h)
-
 description: Used in Windows Explorer by an IShellFolder implementation to give suggestions to the view about what panes are visible.
 old-location: shell\IExplorerPaneVisibility.htm
 tech.root: shell
 ms.assetid: b940adc2-dfef-49c5-b86c-d0da83db0aad
-
 ms.date: 12/05/2018
 ms.keywords: IExplorerPaneVisibility, IExplorerPaneVisibility interface [Windows Shell], IExplorerPaneVisibility interface [Windows Shell],described, _shell_IExplorerPaneVisibility, shell.IExplorerPaneVisibility, shobjidl_core/IExplorerPaneVisibility
 ms.topic: interface
-f1_keywords: 
- - "shobjidl_core/IExplorerPaneVisibility"
+f1_keywords:
+- shobjidl_core/IExplorerPaneVisibility
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - IExplorerPaneVisibility
+- IExplorerPaneVisibility
 targetos: Windows
 req.typenames: 
 req.redist: 

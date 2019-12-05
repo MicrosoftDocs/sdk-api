@@ -1,19 +1,17 @@
 ---
 UID: NF:winsync.ISyncSessionState.IsCanceled
 title: ISyncSessionState::IsCanceled (winsync.h)
-
 description: Indicates whether the synchronization session has been canceled.
 old-location: winsync\isyncsessionstate_iscanceled.htm
 tech.root: winsync
 ms.assetid: 25ce0e21-99ce-4790-8f53-39466da9226f
-
 ms.date: 12/05/2018
 ms.keywords: ISyncSessionState interface [Windows Sync],IsCanceled method, ISyncSessionState.IsCanceled, ISyncSessionState::IsCanceled, IsCanceled, IsCanceled method [Windows Sync], IsCanceled method [Windows Sync],ISyncSessionState interface, winsync.isyncsessionstate_iscanceled, winsync/ISyncSessionState::IsCanceled
 ms.topic: method
-f1_keywords: 
- - "winsync/ISyncSessionState.IsCanceled"
+f1_keywords:
+- winsync/ISyncSessionState.IsCanceled
 dev_langs:
- - c++
+- c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - winsync.h
+- winsync.h
 api_name:
- - ISyncSessionState.IsCanceled
+- ISyncSessionState.IsCanceled
 targetos: Windows
 req.typenames: 
 req.redist: 

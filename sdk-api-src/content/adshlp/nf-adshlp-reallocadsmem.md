@@ -1,19 +1,17 @@
 ---
 UID: NF:adshlp.ReallocADsMem
 title: ReallocADsMem function (adshlp.h)
-
 description: Reallocates and copies an existing memory block.
 old-location: adsi\reallocadsmem.htm
 tech.root: adsi
 ms.assetid: 471b8ae7-d3b6-4dd9-aa00-6e1d3ab278a9
-
 ms.date: 12/05/2018
 ms.keywords: ReallocADsMem, ReallocADsMem function [ADSI], _ds_reallocadsmem, adshlp/ReallocADsMem, adsi.reallocadsmem
 ms.topic: function
-f1_keywords: 
- - "adshlp/ReallocADsMem"
+f1_keywords:
+- adshlp/ReallocADsMem
 dev_langs:
- - c++
+- c++
 req.header: adshlp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Activeds.lib
 req.dll: Activeds.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Activeds.dll
+- Activeds.dll
 api_name:
- - ReallocADsMem
+- ReallocADsMem
 targetos: Windows
 req.typenames: 
 req.redist: 

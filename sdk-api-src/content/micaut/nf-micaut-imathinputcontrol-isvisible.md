@@ -1,19 +1,17 @@
 ---
 UID: NF:micaut.IMathInputControl.IsVisible
 title: IMathInputControl::IsVisible (micaut.h)
-
 description: Determines whether the control is visible.
 old-location: tablet\imathinputcontrol_isvisible.htm
 tech.root: tablet
 ms.assetid: 4efc0fd5-5f07-4664-8143-46a5695c04df
-
 ms.date: 12/05/2018
 ms.keywords: IMathInputControl interface [Tablet PC],IsVisible method, IMathInputControl.IsVisible, IMathInputControl::IsVisible, IsVisible, IsVisible method [Tablet PC], IsVisible method [Tablet PC],IMathInputControl interface, micaut/IMathInputControl::IsVisible, tablet.imathinputcontrol_isvisible
 ms.topic: method
-f1_keywords: 
- - "micaut/IMathInputControl.IsVisible"
+f1_keywords:
+- micaut/IMathInputControl.IsVisible
 dev_langs:
- - c++
+- c++
 req.header: micaut.h
 req.include-header: Micaut.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - micaut.h
+- micaut.h
 api_name:
- - IMathInputControl.IsVisible
+- IMathInputControl.IsVisible
 targetos: Windows
 req.typenames: 
 req.redist: 

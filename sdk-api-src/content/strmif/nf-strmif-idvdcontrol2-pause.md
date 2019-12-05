@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IDvdControl2.Pause
 title: IDvdControl2::Pause (strmif.h)
-
 description: Note  This method is deprecated. Applications should call IMediaControl::Pause instead. For more information, see Data Flow in the DVD Navigator. The Pause method pauses or resumes playback at the current location.
 old-location: dshow\idvdcontrol2_pause.htm
 tech.root: DirectShow
 ms.assetid: 32ef572a-56f5-4aa4-b994-08f86a1f17ec
-
 ms.date: 12/05/2018
 ms.keywords: IDvdControl2 interface [DirectShow],Pause method, IDvdControl2.Pause, IDvdControl2::Pause, IDvdControl2Pause, Pause, Pause method [DirectShow], Pause method [DirectShow],IDvdControl2 interface, dshow.idvdcontrol2_pause, strmif/IDvdControl2::Pause
 ms.topic: method
-f1_keywords: 
- - "strmif/IDvdControl2.Pause"
+f1_keywords:
+- strmif/IDvdControl2.Pause
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IDvdControl2.Pause
+- IDvdControl2.Pause
 targetos: Windows
 req.typenames: 
 req.redist: 

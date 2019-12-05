@@ -1,19 +1,17 @@
 ---
 UID: NN:imapi2fs.IFsiFileItem
 title: IFsiFileItem (imapi2fs.h)
-
 description: Use this interface to identify the file size and data stream of the file contents.
 old-location: imapi\ifsifileitem.htm
 tech.root: imapi
 ms.assetid: 13085b1f-4ff9-48ff-a9ae-9a1c5cb9a108
-
 ms.date: 12/05/2018
 ms.keywords: IFsiFileItem, IFsiFileItem interface [IMAPI], IFsiFileItem interface [IMAPI],described, imapi.ifsifileitem, imapi2fs/IFsiFileItem
 ms.topic: interface
-f1_keywords: 
- - "imapi2fs/IFsiFileItem"
+f1_keywords:
+- imapi2fs/IFsiFileItem
 dev_langs:
- - c++
+- c++
 req.header: imapi2fs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - imapi2fs.h
+- imapi2fs.h
 api_name:
- - IFsiFileItem
+- IFsiFileItem
 targetos: Windows
 req.typenames: 
 req.redist: 

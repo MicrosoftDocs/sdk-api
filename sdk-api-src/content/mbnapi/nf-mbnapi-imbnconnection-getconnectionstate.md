@@ -1,19 +1,17 @@
 ---
 UID: NF:mbnapi.IMbnConnection.GetConnectionState
 title: IMbnConnection::GetConnectionState (mbnapi.h)
-
 description: Gets the current connection state of the device.
 old-location: mbn\imbnconnection_getconnectionstate.htm
 tech.root: mbn
 ms.assetid: 85f3e0bb-c694-4870-b423-cb4ac7a0477d
-
 ms.date: 12/05/2018
 ms.keywords: GetConnectionState, GetConnectionState method [Microsoft Broadband Networks], GetConnectionState method [Microsoft Broadband Networks],IMbnConnection interface, IMbnConnection interface [Microsoft Broadband Networks],GetConnectionState method, IMbnConnection.GetConnectionState, IMbnConnection::GetConnectionState, mbn.imbnconnection_getconnectionstate, mbnapi/IMbnConnection::GetConnectionState
 ms.topic: method
-f1_keywords: 
- - "mbnapi/IMbnConnection.GetConnectionState"
+f1_keywords:
+- mbnapi/IMbnConnection.GetConnectionState
 dev_langs:
- - c++
+- c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mbnapi.h
+- mbnapi.h
 api_name:
- - IMbnConnection.GetConnectionState
+- IMbnConnection.GetConnectionState
 targetos: Windows
 req.typenames: 
 req.redist: 

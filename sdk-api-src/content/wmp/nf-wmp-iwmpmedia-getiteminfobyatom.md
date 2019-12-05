@@ -1,19 +1,17 @@
 ---
 UID: NF:wmp.IWMPMedia.getItemInfoByAtom
 title: IWMPMedia::getItemInfoByAtom (wmp.h)
-
 description: The getItemInfoByAtom method retrieves the value of the attribute with the specified index number.
 old-location: wmp\iwmpmedia_getiteminfobyatom.htm
 tech.root: WMP
 ms.assetid: c2e803df-84f2-4c23-9872-a5435977d189
-
 ms.date: 12/05/2018
 ms.keywords: IWMPMedia interface [Windows Media Player],getItemInfoByAtom method, IWMPMedia.getItemInfoByAtom, IWMPMedia2 interface [Windows Media Player],getItemInfoByAtom method, IWMPMedia2::getItemInfoByAtom, IWMPMedia3 interface [Windows Media Player],getItemInfoByAtom method, IWMPMedia3::getItemInfoByAtom, IWMPMedia::getItemInfoByAtom, IWMPMediagetItemInfoByAtom, getItemInfoByAtom, getItemInfoByAtom method [Windows Media Player], getItemInfoByAtom method [Windows Media Player],IWMPMedia interface, getItemInfoByAtom method [Windows Media Player],IWMPMedia2 interface, getItemInfoByAtom method [Windows Media Player],IWMPMedia3 interface, wmp.iwmpmedia_getiteminfobyatom, wmp/IWMPMedia2::getItemInfoByAtom, wmp/IWMPMedia3::getItemInfoByAtom, wmp/IWMPMedia::getItemInfoByAtom
 ms.topic: method
-f1_keywords: 
- - "wmp/IWMPMedia.getItemInfoByAtom"
+f1_keywords:
+- wmp/IWMPMedia.getItemInfoByAtom
 dev_langs:
- - c++
+- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: Wmp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmp.dll
+- wmp.dll
 api_name:
- - IWMPMedia.getItemInfoByAtom
- - IWMPMedia2.getItemInfoByAtom
- - IWMPMedia3.getItemInfoByAtom
+- IWMPMedia.getItemInfoByAtom
+- IWMPMedia2.getItemInfoByAtom
+- IWMPMedia3.getItemInfoByAtom
 targetos: Windows
 req.typenames: 
 req.redist: 

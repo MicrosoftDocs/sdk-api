@@ -1,19 +1,17 @@
 ---
 UID: NF:rpcdce.RpcServerInterfaceGroupActivate
 title: RpcServerInterfaceGroupActivate function (rpcdce.h)
-
 description: The RpcServerInterfaceGroupActivate function tells the RPC server runtime to register the interface group’s interfaces and endpoints and begin listening for calls.
 old-location: rpc\rpcserverinterfacegroupactivate.htm
 tech.root: Rpc
 ms.assetid: A467DDEC-BEB1-4050-B540-4A1E819E7373
-
 ms.date: 12/05/2018
 ms.keywords: RpcServerInterfaceGroupActivate, RpcServerInterfaceGroupActivate function [RPC], rpc.rpcserverinterfacegroupactivate, rpcdce/RpcServerInterfaceGroupActivate
 ms.topic: function
-f1_keywords: 
- - "rpcdce/RpcServerInterfaceGroupActivate"
+f1_keywords:
+- rpcdce/RpcServerInterfaceGroupActivate
 dev_langs:
- - c++
+- c++
 req.header: rpcdce.h
 req.include-header: Rpc.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Rpcrt4.lib
 req.dll: Rpcrt4.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Rpcrt4.dll
+- Rpcrt4.dll
 api_name:
- - RpcServerInterfaceGroupActivate
+- RpcServerInterfaceGroupActivate
 targetos: Windows
 req.typenames: 
 req.redist: 

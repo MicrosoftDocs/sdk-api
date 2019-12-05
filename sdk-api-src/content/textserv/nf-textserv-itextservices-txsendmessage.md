@@ -1,19 +1,17 @@
 ---
 UID: NF:textserv.ITextServices.TxSendMessage
 title: ITextServices::TxSendMessage (textserv.h)
-
 description: Used by the window host to forward messages sent from its window to the text services object.
 old-location: controls\ITextServices_TxSendMessage.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\windowlessricheditcontrols\windowlessricheditcontrolsreference\windowlessricheditcontrolinterfaces\txsendmessage.htm
-
 ms.date: 12/05/2018
 ms.keywords: ITextServices interface [Windows Controls],TxSendMessage method, ITextServices.TxSendMessage, ITextServices::TxSendMessage, TxSendMessage, TxSendMessage method [Windows Controls], TxSendMessage method [Windows Controls],ITextServices interface, _win32_ITextServices_TxSendMessage, _win32_ITextServices_TxSendMessage_cpp, controls.ITextServices_TxSendMessage, controls._win32_ITextServices_TxSendMessage, textserv/ITextServices::TxSendMessage
 ms.topic: method
-f1_keywords: 
- - "textserv/ITextServices.TxSendMessage"
+f1_keywords:
+- textserv/ITextServices.TxSendMessage
 dev_langs:
- - c++
+- c++
 req.header: textserv.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msftedit.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msftedit.dll
+- Msftedit.dll
 api_name:
- - ITextServices.TxSendMessage
+- ITextServices.TxSendMessage
 targetos: Windows
 req.typenames: 
 req.redist: 

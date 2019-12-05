@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi3if.ITScriptableAudioFormat.put_BitsPerSample
 title: ITScriptableAudioFormat::put_BitsPerSample (tapi3if.h)
-
 description: The put_BitsPerSample method sets the wBitsPerSample member in the WAVEFORMATEX structure.
 old-location: tapi3\itscriptableaudioformat_put_bitspersample.htm
 tech.root: Tapi
 ms.assetid: 8e1038d6-122f-40c9-a6ab-57ae583ff9bc
-
 ms.date: 12/05/2018
 ms.keywords: ITScriptableAudioFormat interface [TAPI 2.2],put_BitsPerSample method, ITScriptableAudioFormat.put_BitsPerSample, ITScriptableAudioFormat::put_BitsPerSample, _tapi3_itscriptableaudioformat_put_bitspersample, put_BitsPerSample, put_BitsPerSample method [TAPI 2.2], put_BitsPerSample method [TAPI 2.2],ITScriptableAudioFormat interface, tapi3.itscriptableaudioformat_put_bitspersample, tapi3if/ITScriptableAudioFormat::put_BitsPerSample
 ms.topic: method
-f1_keywords: 
- - "tapi3if/ITScriptableAudioFormat.put_BitsPerSample"
+f1_keywords:
+- tapi3if/ITScriptableAudioFormat.put_BitsPerSample
 dev_langs:
- - c++
+- c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Tapi3.dll
+- Tapi3.dll
 api_name:
- - ITScriptableAudioFormat.put_BitsPerSample
+- ITScriptableAudioFormat.put_BitsPerSample
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:objidl.IMallocSpy.PreRealloc
 title: IMallocSpy::PreRealloc (objidl.h)
-
 description: Performs operations required before calling IMalloc::Realloc.
 old-location: com\imallocspy_prerealloc.htm
 tech.root: com
 ms.assetid: dd4db69c-3369-4aca-bc05-4c3c6850cc09
-
 ms.date: 12/05/2018
 ms.keywords: IMallocSpy interface [COM],PreRealloc method, IMallocSpy.PreRealloc, IMallocSpy::PreRealloc, PreRealloc, PreRealloc method [COM], PreRealloc method [COM],IMallocSpy interface, _com_imallocspy_prerealloc, com.imallocspy_prerealloc, objidl/IMallocSpy::PreRealloc
 ms.topic: method
-f1_keywords: 
- - "objidl/IMallocSpy.PreRealloc"
+f1_keywords:
+- objidl/IMallocSpy.PreRealloc
 dev_langs:
- - c++
+- c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ObjIdl.h
+- ObjIdl.h
 api_name:
- - IMallocSpy.PreRealloc
+- IMallocSpy.PreRealloc
 targetos: Windows
 req.typenames: 
 req.redist: 

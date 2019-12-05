@@ -1,19 +1,17 @@
 ---
 UID: NF:wingdi.SelectPalette
 title: SelectPalette function (wingdi.h)
-
 description: The SelectPalette function selects the specified logical palette into a device context.
 old-location: gdi\selectpalette.htm
 tech.root: gdi
 ms.assetid: 1fc3356f-6fa3-444f-b224-b953acd2394b
-
 ms.date: 12/05/2018
 ms.keywords: SelectPalette, SelectPalette function [Windows GDI], _win32_SelectPalette, gdi.selectpalette, wingdi/SelectPalette
 ms.topic: function
-f1_keywords: 
- - "wingdi/SelectPalette"
+f1_keywords:
+- wingdi/SelectPalette
 dev_langs:
- - c++
+- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - gdi32.dll
- - Ext-MS-Win-GDI-DC-l1-2-0.dll
- - ext-ms-win-gdi-dc-l1-2-1.dll
- - GDI32Full.dll
+- gdi32.dll
+- Ext-MS-Win-GDI-DC-l1-2-0.dll
+- ext-ms-win-gdi-dc-l1-2-1.dll
+- GDI32Full.dll
 api_name:
- - SelectPalette
+- SelectPalette
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:objidl.IDirectWriterLock.WaitForWriteAccess
 title: IDirectWriterLock::WaitForWriteAccess (objidl.h)
-
 description: The WaitForWriteAccess method obtains exclusive write access to a storage object.
 old-location: stg\idirectwriterlock_waitforwriteaccess.htm
 tech.root: Stg
 ms.assetid: e4505bed-325b-494e-93bd-7bf23b3a1215
-
 ms.date: 12/05/2018
 ms.keywords: IDirectWriterLock interface [Structured Storage],WaitForWriteAccess method, IDirectWriterLock.WaitForWriteAccess, IDirectWriterLock::WaitForWriteAccess, WaitForWriteAccess, WaitForWriteAccess method [Structured Storage], WaitForWriteAccess method [Structured Storage],IDirectWriterLock interface, _stg_idirectwriterlock_waitforwriteaccess, objidl/IDirectWriterLock::WaitForWriteAccess, stg.idirectwriterlock_waitforwriteaccess
 ms.topic: method
-f1_keywords: 
- - "objidl/IDirectWriterLock.WaitForWriteAccess"
+f1_keywords:
+- objidl/IDirectWriterLock.WaitForWriteAccess
 dev_langs:
- - c++
+- c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Ole32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Ole32.dll
+- Ole32.dll
 api_name:
- - IDirectWriterLock.WaitForWriteAccess
+- IDirectWriterLock.WaitForWriteAccess
 targetos: Windows
 req.typenames: 
 req.redist: 

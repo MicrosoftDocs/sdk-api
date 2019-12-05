@@ -1,19 +1,17 @@
 ---
 UID: NF:imapi.IRedbookDiscMaster.GetTotalAudioTracks
 title: IRedbookDiscMaster::GetTotalAudioTracks (imapi.h)
-
 description: Retrieves the total number of tracks that have either been staged or are being staged.
 old-location: imapi\iredbookdiscmaster_gettotalaudiotracks.htm
 tech.root: imapi
 ms.assetid: ef284941-0724-4e0a-8ce9-c47d5a53a30e
-
 ms.date: 12/05/2018
 ms.keywords: GetTotalAudioTracks, GetTotalAudioTracks method [IMAPI], GetTotalAudioTracks method [IMAPI],IRedbookDiscMaster interface, IRedbookDiscMaster interface [IMAPI],GetTotalAudioTracks method, IRedbookDiscMaster.GetTotalAudioTracks, IRedbookDiscMaster::GetTotalAudioTracks, _win32_iredbookdiscmaster_gettotalaudiotracks, base.iredbookdiscmaster_gettotalaudiotracks, imapi.iredbookdiscmaster_gettotalaudiotracks, imapi/IRedbookDiscMaster::GetTotalAudioTracks
 ms.topic: method
-f1_keywords: 
- - "imapi/IRedbookDiscMaster.GetTotalAudioTracks"
+f1_keywords:
+- imapi/IRedbookDiscMaster.GetTotalAudioTracks
 dev_langs:
- - c++
+- c++
 req.header: imapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Actxprxy.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Actxprxy.dll
+- Actxprxy.dll
 api_name:
- - IRedbookDiscMaster.GetTotalAudioTracks
+- IRedbookDiscMaster.GetTotalAudioTracks
 targetos: Windows
 req.typenames: 
 req.redist: 

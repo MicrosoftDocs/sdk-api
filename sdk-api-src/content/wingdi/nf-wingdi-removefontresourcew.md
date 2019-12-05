@@ -1,19 +1,17 @@
 ---
 UID: NF:wingdi.RemoveFontResourceW
 title: RemoveFontResourceW function (wingdi.h)
-
 description: The RemoveFontResource function removes the fonts in the specified file from the system font table.
 old-location: gdi\removefontresource.htm
 tech.root: gdi
 ms.assetid: ccc0ac8b-e373-47a9-a362-64fd79a33d0c
-
 ms.date: 12/05/2018
 ms.keywords: RemoveFontResource, RemoveFontResource function [Windows GDI], RemoveFontResourceA, RemoveFontResourceW, _win32_RemoveFontResource, gdi.removefontresource, wingdi/RemoveFontResource, wingdi/RemoveFontResourceA, wingdi/RemoveFontResourceW
 ms.topic: function
-f1_keywords: 
- - "wingdi/RemoveFontResource"
+f1_keywords:
+- wingdi/RemoveFontResource
 dev_langs:
- - c++
+- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - gdi32.dll
- - Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
- - GDI32Full.dll
+- gdi32.dll
+- Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
+- GDI32Full.dll
 api_name:
- - RemoveFontResource
- - RemoveFontResourceA
- - RemoveFontResourceW
+- RemoveFontResource
+- RemoveFontResourceA
+- RemoveFontResourceW
 targetos: Windows
 req.typenames: 
 req.redist: 

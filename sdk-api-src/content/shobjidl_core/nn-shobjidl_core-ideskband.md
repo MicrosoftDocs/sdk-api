@@ -1,19 +1,17 @@
 ---
 UID: NN:shobjidl_core.IDeskBand
 title: IDeskBand (shobjidl_core.h)
-
 description: Used to obtain information about a band object.
 old-location: shell\IDeskBand.htm
 tech.root: shell
 ms.assetid: eb9f7f2a-a6be-4527-8a32-325dad4c8000
-
 ms.date: 12/05/2018
 ms.keywords: IDeskBand, IDeskBand interface [Windows Shell], IDeskBand interface [Windows Shell],described, _win32_IDeskBand, shell.IDeskBand, shobjidl_core/IDeskBand
 ms.topic: interface
-f1_keywords: 
- - "shobjidl_core/IDeskBand"
+f1_keywords:
+- shobjidl_core/IDeskBand
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Shell32.dll (version 4.71 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - IDeskBand
+- IDeskBand
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NN:cmdtree.ICommandTree
 title: ICommandTree (cmdtree.h)
-
 description: The ICommandTree interface is optional for providers that support commands. It contains methods for manipulating query trees. Providers that support command trees must also support specifying the same functionality through the ICommandText interface.
 old-location: indexsrv\icommandtree.htm
 tech.root: IndexSrv
 ms.assetid: VS|indexsrv|~\html\ixoledb_0ckl.htm
-
 ms.date: 12/05/2018
 ms.keywords: ICommandTree, ICommandTree interface [Indexing Service], ICommandTree interface [Indexing Service],described, _idxs_ICommandTree, cmdtree/ICommandTree, indexsrv.icommandtree
 ms.topic: interface
-f1_keywords: 
- - "cmdtree/ICommandTree"
+f1_keywords:
+- cmdtree/ICommandTree
 dev_langs:
- - c++
+- c++
 req.header: cmdtree.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - cmdtree.h
+- cmdtree.h
 api_name:
- - ICommandTree
+- ICommandTree
 targetos: Windows
 req.typenames: 
 req.redist: 

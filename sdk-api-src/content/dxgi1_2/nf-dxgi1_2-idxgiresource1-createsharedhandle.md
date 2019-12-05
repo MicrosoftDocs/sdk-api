@@ -1,19 +1,17 @@
 ---
 UID: NF:dxgi1_2.IDXGIResource1.CreateSharedHandle
 title: IDXGIResource1::CreateSharedHandle (dxgi1_2.h)
-
 description: Creates a handle to a shared resource. You can then use the returned handle with multiple Direct3D devices.
 old-location: direct3ddxgi\idxgiresource1_createsharedhandle.htm
 tech.root: direct3ddxgi
 ms.assetid: 7A53616A-E7AB-4EB7-9B8F-ED43A70B691C
-
 ms.date: 12/05/2018
 ms.keywords: CreateSharedHandle, CreateSharedHandle method [DXGI], CreateSharedHandle method [DXGI],IDXGIResource1 interface, IDXGIResource1 interface [DXGI],CreateSharedHandle method, IDXGIResource1.CreateSharedHandle, IDXGIResource1::CreateSharedHandle, direct3ddxgi.idxgiresource1_createsharedhandle, dxgi1_2/IDXGIResource1::CreateSharedHandle
 ms.topic: method
 f1_keywords:
 - dxgi1_2/IDXGIResource1.CreateSharedHandle
 dev_langs:
- - c++
+- c++
 req.header: dxgi1_2.h
 req.include-header: 
 req.target-type: Windows

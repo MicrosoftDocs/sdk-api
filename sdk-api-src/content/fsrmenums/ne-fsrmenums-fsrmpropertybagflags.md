@@ -1,19 +1,17 @@
 ---
 UID: NE:fsrmenums._FsrmPropertyBagFlags
 title: FsrmPropertyBagFlags (fsrmenums.h)
-
 description: Defines flag values that provide additional information about the property bag.
 old-location: fsrm\fsrmpropertybagflags.htm
 tech.root: fsrm
 ms.assetid: 5b434ab6-4c15-4960-b5d1-c90da806e9d8
-
 ms.date: 12/05/2018
 ms.keywords: FsrmPropertyBagFlags, FsrmPropertyBagFlags enumeration [File Server Resource Manager], FsrmPropertyBagFlags_FailedClassifyingProperties, FsrmPropertyBagFlags_FailedLoadingProperties, FsrmPropertyBagFlags_FailedSavingProperties, FsrmPropertyBagFlags_UpdatedByClassifier, fs.fsrmpropertybagflags, fsrm.fsrmpropertybagflags, fsrmenums/FsrmPropertyBagFlags, fsrmenums/FsrmPropertyBagFlags_FailedClassifyingProperties, fsrmenums/FsrmPropertyBagFlags_FailedLoadingProperties, fsrmenums/FsrmPropertyBagFlags_FailedSavingProperties, fsrmenums/FsrmPropertyBagFlags_UpdatedByClassifier
 ms.topic: enum
-f1_keywords: 
- - "fsrmenums/FsrmPropertyBagFlags"
+f1_keywords:
+- fsrmenums/FsrmPropertyBagFlags
 dev_langs:
- - c++
+- c++
 req.header: fsrmenums.h
 req.include-header: FsrmPipeline.h, FsrmQuota.h, FsrmReports.h, FsrmScreen.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - FsrmEnums.h
+- FsrmEnums.h
 api_name:
- - FsrmPropertyBagFlags
+- FsrmPropertyBagFlags
 targetos: Windows
 req.typenames: FsrmPropertyBagFlags
 req.redist: 

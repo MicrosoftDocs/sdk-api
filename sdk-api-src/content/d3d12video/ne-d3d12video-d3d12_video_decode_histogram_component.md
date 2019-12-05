@@ -1,37 +1,35 @@
 ---
 UID: NE:d3d12video.D3D12_VIDEO_DECODE_HISTOGRAM_COMPONENT
 title: D3D12_VIDEO_DECODE_HISTOGRAM_COMPONENT
-
 description: Specifies indices for arrays of per component histogram information.
 tech.root: mf
 ms.assetid: e503a4a5-9a6d-4c2d-8f6e-1fe0e2e24c22
-
 ms.date: 11/14/2019
 ms.topic: enum
 f1_keywords:
- - D3D12_VIDEO_DECODE_HISTOGRAM_COMPONENT
+- D3D12_VIDEO_DECODE_HISTOGRAM_COMPONENT
 dev_langs:
- - c++
-ms.keywords: D3D12_VIDEO_DECODE_HISTOGRAM_COMPONENT, D3D12_VIDEO_DECODE_HISTOGRAM_COMPONENT, 
+- c++
+ms.keywords: D3D12_VIDEO_DECODE_HISTOGRAM_COMPONENT, D3D12_VIDEO_DECODE_HISTOGRAM_COMPONENT,
 req.header: d3d12video.h
-req.include-header:
-req.redist:
-req.target-type:
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.ddi-compliance:
-req.max-support:
+req.include-header: 
+req.redist: 
+req.target-type: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.max-support: 
 req.typenames: D3D12_VIDEO_DECODE_HISTOGRAM_COMPONENT
-topic_type: 
- - apiref
-api_type: 
- - HeaderDef
-api_location: 
- - d3d12video.h
-api_name: 
- - D3D12_VIDEO_DECODE_HISTOGRAM_COMPONENT
+topic_type:
+- apiref
+api_type:
+- HeaderDef
+api_location:
+- d3d12video.h
+api_name:
+- D3D12_VIDEO_DECODE_HISTOGRAM_COMPONENT
 targetos: Windows
 ---
 

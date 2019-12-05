@@ -1,19 +1,17 @@
 ---
 UID: NF:comsvcs.IComTrackingInfoProperties.PropCount
 title: IComTrackingInfoProperties::PropCount (comsvcs.h)
-
 description: Retrieves the number of properties defined for a tracking information object.
 old-location: cos\icomtrackinginfoproperties_propcount.htm
 tech.root: cossdk
 ms.assetid: f8036da8-3bd4-4500-a707-a43ac9dd5a52
-
 ms.date: 12/05/2018
 ms.keywords: IComTrackingInfoProperties interface [COM+],PropCount method, IComTrackingInfoProperties.PropCount, IComTrackingInfoProperties::PropCount, PropCount, PropCount method [COM+], PropCount method [COM+],IComTrackingInfoProperties interface, _dtc_IComTrackingInfoProperties_PropCount, comsvcs/IComTrackingInfoProperties::PropCount, cos.icomtrackinginfoproperties_propcount
 ms.topic: method
-f1_keywords: 
- - "comsvcs/IComTrackingInfoProperties.PropCount"
+f1_keywords:
+- comsvcs/IComTrackingInfoProperties.PropCount
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - IComTrackingInfoProperties.PropCount
+- IComTrackingInfoProperties.PropCount
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:pla.IDataCollectorCollection.get__NewEnum
 title: IDataCollectorCollection::get__NewEnum (pla.h)
-
 description: Retrieves an interface to the enumeration.
 old-location: pla\idatacollectorcollection__newenum.htm
 tech.root: PLA
 ms.assetid: 05b97d37-9ccc-4856-a71a-77dd99eab8c2
-
 ms.date: 12/05/2018
 ms.keywords: IDataCollectorCollection interface [PLA],_NewEnum property, IDataCollectorCollection._NewEnum, IDataCollectorCollection.get__NewEnum, IDataCollectorCollection::_NewEnum, IDataCollectorCollection::get__NewEnum, _NewEnum property [PLA], _NewEnum property [PLA],IDataCollectorCollection interface, get__NewEnum, pla.idatacollectorcollection__newenum, pla/IDataCollectorCollection::_NewEnum, pla/IDataCollectorCollection::get__NewEnum
 ms.topic: method
-f1_keywords: 
- - "pla/IDataCollectorCollection._NewEnum"
+f1_keywords:
+- pla/IDataCollectorCollection._NewEnum
 dev_langs:
- - c++
+- c++
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: Pla.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Pla.dll
+- Pla.dll
 api_name:
- - IDataCollectorCollection._NewEnum
- - IDataCollectorCollection.get__NewEnum
+- IDataCollectorCollection._NewEnum
+- IDataCollectorCollection.get__NewEnum
 targetos: Windows
 req.typenames: 
 req.redist: 

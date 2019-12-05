@@ -1,19 +1,17 @@
 ---
 UID: NN:propsys.IPropertyStoreCapabilities
 title: IPropertyStoreCapabilities (propsys.h)
-
 description: Exposes a method that determines whether a property can be edited in the UI by the user.
 old-location: properties\IPropertyStoreCapabilities.htm
 tech.root: properties
 ms.assetid: b4e51201-47af-449f-9050-aec3207320f5
-
 ms.date: 12/05/2018
 ms.keywords: IPropertyStoreCapabilities, IPropertyStoreCapabilities interface [Windows Properties], IPropertyStoreCapabilities interface [Windows Properties],described, _shell_IPropertyStoreCapabilities, properties.IPropertyStoreCapabilities, propsys/IPropertyStoreCapabilities, shell.IPropertyStoreCapabilities
 ms.topic: interface
-f1_keywords: 
- - "propsys/IPropertyStoreCapabilities"
+f1_keywords:
+- propsys/IPropertyStoreCapabilities
 dev_langs:
- - c++
+- c++
 req.header: propsys.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Propsys.h
+- Propsys.h
 api_name:
- - IPropertyStoreCapabilities
+- IPropertyStoreCapabilities
 targetos: Windows
 req.typenames: 
 req.redist: 

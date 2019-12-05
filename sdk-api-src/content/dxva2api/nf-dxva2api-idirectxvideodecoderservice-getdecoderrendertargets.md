@@ -1,19 +1,17 @@
 ---
 UID: NF:dxva2api.IDirectXVideoDecoderService.GetDecoderRenderTargets
 title: IDirectXVideoDecoderService::GetDecoderRenderTargets (dxva2api.h)
-
 description: Retrieves the supported render targets for a specified decoder device.
 old-location: mf\idirectxvideodecoderservice_getdecoderrendertargets.htm
 tech.root: medfound
 ms.assetid: cde04894-9042-4916-b195-60d84d0f87ec
-
 ms.date: 12/05/2018
 ms.keywords: GetDecoderRenderTargets, GetDecoderRenderTargets method [Media Foundation], GetDecoderRenderTargets method [Media Foundation],IDirectXVideoDecoderService interface, IDirectXVideoDecoderService interface [Media Foundation],GetDecoderRenderTargets method, IDirectXVideoDecoderService.GetDecoderRenderTargets, IDirectXVideoDecoderService::GetDecoderRenderTargets, cde04894-9042-4916-b195-60d84d0f87ec, dxva2api/IDirectXVideoDecoderService::GetDecoderRenderTargets, mf.idirectxvideodecoderservice_getdecoderrendertargets
 ms.topic: method
-f1_keywords: 
- - "dxva2api/IDirectXVideoDecoderService.GetDecoderRenderTargets"
+f1_keywords:
+- dxva2api/IDirectXVideoDecoderService.GetDecoderRenderTargets
 dev_langs:
- - c++
+- c++
 req.header: dxva2api.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dxva2api.h
+- dxva2api.h
 api_name:
- - IDirectXVideoDecoderService.GetDecoderRenderTargets
+- IDirectXVideoDecoderService.GetDecoderRenderTargets
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:recapis.AdviseInkChange
 title: AdviseInkChange function (recapis.h)
-
 description: Stops the recognizer from processing ink because a stroke has been added or deleted.
 old-location: tablet\adviseinkchange.htm
 tech.root: tablet
 ms.assetid: 326bbbff-4adc-46ae-aab3-626b55fecf0c
-
 ms.date: 12/05/2018
 ms.keywords: 326bbbff-4adc-46ae-aab3-626b55fecf0c, AdviseInkChange, AdviseInkChange function [Tablet PC], recapis/AdviseInkChange, tablet.adviseinkchange
 ms.topic: function
-f1_keywords: 
- - "recapis/AdviseInkChange"
+f1_keywords:
+- recapis/AdviseInkChange
 dev_langs:
- - c++
+- c++
 req.header: recapis.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - recapis.h
+- recapis.h
 api_name:
- - AdviseInkChange
+- AdviseInkChange
 targetos: Windows
 req.typenames: 
 req.redist: 

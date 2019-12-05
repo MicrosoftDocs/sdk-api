@@ -1,19 +1,17 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMDocument.GetPageReferences
 title: IXpsOMDocument::GetPageReferences (xpsobjectmodel.h)
-
 description: Gets the IXpsOMPageReferenceCollection interface of the document, which allows virtualized access to its pages.
 old-location: xps\ixpsomdocument_getpagereferences.htm
 tech.root: printdocs
 ms.assetid: 65e8b20b-6a6b-4d24-86a1-b9d1833caa3c
-
 ms.date: 12/05/2018
 ms.keywords: GetPageReferences, GetPageReferences method [XPS Documents and Packaging], GetPageReferences method [XPS Documents and Packaging],IXpsOMDocument interface, IXpsOMDocument interface [XPS Documents and Packaging],GetPageReferences method, IXpsOMDocument.GetPageReferences, IXpsOMDocument::GetPageReferences, xps.ixpsomdocument_getpagereferences, xpsobjectmodel/IXpsOMDocument::GetPageReferences
 ms.topic: method
-f1_keywords: 
- - "xpsobjectmodel/IXpsOMDocument.GetPageReferences"
+f1_keywords:
+- xpsobjectmodel/IXpsOMDocument.GetPageReferences
 dev_langs:
- - c++
+- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsobjectmodel.h
+- xpsobjectmodel.h
 api_name:
- - IXpsOMDocument.GetPageReferences
+- IXpsOMDocument.GetPageReferences
 targetos: Windows
 req.typenames: 
 req.redist: 

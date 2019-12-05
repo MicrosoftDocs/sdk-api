@@ -1,19 +1,17 @@
 ---
 UID: NF:fwpmu.FwpmTransactionCommit0
 title: FwpmTransactionCommit0 function (fwpmu.h)
-
 description: Commits the current transaction within the current session.
 old-location: fwp\fwpmtransactioncommit0_func.htm
 tech.root: fwp
 ms.assetid: 3bde803c-f416-4096-98c5-1c56e4a86b94
-
 ms.date: 12/05/2018
 ms.keywords: FwpmTransactionCommit0, FwpmTransactionCommit0 function [Filtering], fwp.fwpmtransactioncommit0_func, fwpmu/FwpmTransactionCommit0
 ms.topic: function
-f1_keywords: 
- - "fwpmu/FwpmTransactionCommit0"
+f1_keywords:
+- fwpmu/FwpmTransactionCommit0
 dev_langs:
- - c++
+- c++
 req.header: fwpmu.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Fwpuclnt.lib
 req.dll: Fwpuclnt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Fwpuclnt.dll
+- Fwpuclnt.dll
 api_name:
- - FwpmTransactionCommit0
+- FwpmTransactionCommit0
 targetos: Windows
 req.typenames: 
 req.redist: 

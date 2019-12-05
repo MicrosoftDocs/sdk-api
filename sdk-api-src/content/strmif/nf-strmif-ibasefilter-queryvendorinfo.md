@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IBaseFilter.QueryVendorInfo
 title: IBaseFilter::QueryVendorInfo (strmif.h)
-
 description: The QueryVendorInfo method retrieves a string containing vendor information.
 old-location: dshow\ibasefilter_queryvendorinfo.htm
 tech.root: DirectShow
 ms.assetid: 7524de26-360e-49c7-b636-7d05cf4d0ad2
-
 ms.date: 12/05/2018
 ms.keywords: IBaseFilter interface [DirectShow],QueryVendorInfo method, IBaseFilter.QueryVendorInfo, IBaseFilter::QueryVendorInfo, IBaseFilterQueryVendorInfo, QueryVendorInfo, QueryVendorInfo method [DirectShow], QueryVendorInfo method [DirectShow],IBaseFilter interface, dshow.ibasefilter_queryvendorinfo, strmif/IBaseFilter::QueryVendorInfo
 ms.topic: method
-f1_keywords: 
- - "strmif/IBaseFilter.QueryVendorInfo"
+f1_keywords:
+- strmif/IBaseFilter.QueryVendorInfo
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IBaseFilter.QueryVendorInfo
+- IBaseFilter.QueryVendorInfo
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:msctf.ITfThreadMgr.GetFunctionProvider
 title: ITfThreadMgr::GetFunctionProvider (msctf.h)
-
 description: ITfThreadMgr::GetFunctionProvider method
 old-location: tsf\itfthreadmgr_getfunctionprovider.htm
 tech.root: TSF
 ms.assetid: b320790a-4b54-4475-97e6-e59f083cfc09
-
 ms.date: 12/05/2018
 ms.keywords: GUID_APP_FUNCTIONPROVIDER, GUID_SYSTEM_FUNCTIONPROVIDER, GetFunctionProvider, GetFunctionProvider method [Text Services Framework], GetFunctionProvider method [Text Services Framework],ITfThreadMgr interface, ITfThreadMgr interface [Text Services Framework],GetFunctionProvider method, ITfThreadMgr.GetFunctionProvider, ITfThreadMgr::GetFunctionProvider, _tsf_itfthreadmgr_getfunctionprovider_ref, msctf/ITfThreadMgr::GetFunctionProvider, tsf.itfthreadmgr_getfunctionprovider
 ms.topic: method
-f1_keywords: 
- - "msctf/ITfThreadMgr.GetFunctionProvider"
+f1_keywords:
+- msctf/ITfThreadMgr.GetFunctionProvider
 dev_langs:
- - c++
+- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msctf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msctf.dll
+- Msctf.dll
 api_name:
- - ITfThreadMgr.GetFunctionProvider
+- ITfThreadMgr.GetFunctionProvider
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

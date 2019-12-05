@@ -1,19 +1,17 @@
 ---
 UID: NS:mfplay.MFP_MEDIAITEM_CLEARED_EVENT
 title: MFP_MEDIAITEM_CLEARED_EVENT (mfplay.h)
-
 description: Event structure for the MFP_EVENT_TYPE_MEDIAITEM_CLEARED event.
 old-location: mf\mfp_mediaitem_cleared_event.htm
 tech.root: medfound
 ms.assetid: 74218ab7-75a7-49e6-bfaa-5f57b1788a19
-
 ms.date: 12/05/2018
 ms.keywords: MFP_MEDIAITEM_CLEARED_EVENT, MFP_MEDIAITEM_CLEARED_EVENT structure [Media Foundation], mf.mfp_mediaitem_cleared_event, mfplay/MFP_MEDIAITEM_CLEARED_EVENT
 ms.topic: struct
-f1_keywords: 
- - "mfplay/MFP_MEDIAITEM_CLEARED_EVENT"
+f1_keywords:
+- mfplay/MFP_MEDIAITEM_CLEARED_EVENT
 dev_langs:
- - c++
+- c++
 req.header: mfplay.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - mfplay.h
+- mfplay.h
 api_name:
- - MFP_MEDIAITEM_CLEARED_EVENT
+- MFP_MEDIAITEM_CLEARED_EVENT
 targetos: Windows
 req.typenames: MFP_MEDIAITEM_CLEARED_EVENT
 req.redist: 

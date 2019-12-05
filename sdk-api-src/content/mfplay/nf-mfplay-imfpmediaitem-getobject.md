@@ -1,19 +1,17 @@
 ---
 UID: NF:mfplay.IMFPMediaItem.GetObject
 title: IMFPMediaItem::GetObject (mfplay.h)
-
 description: Gets the object that was used to create the media item.
 old-location: mf\imfpmediaitem_getobject.htm
 tech.root: medfound
 ms.assetid: 6a6abc57-149d-4e4b-a29f-7b712d24e6df
-
 ms.date: 12/05/2018
 ms.keywords: GetObject, GetObject method [Media Foundation], GetObject method [Media Foundation],IMFPMediaItem interface, IMFPMediaItem interface [Media Foundation],GetObject method, IMFPMediaItem.GetObject, IMFPMediaItem::GetObject, mf.imfpmediaitem_getobject, mfplay/IMFPMediaItem::GetObject
 ms.topic: method
-f1_keywords: 
- - "mfplay/IMFPMediaItem.GetObject"
+f1_keywords:
+- mfplay/IMFPMediaItem.GetObject
 dev_langs:
- - c++
+- c++
 req.header: mfplay.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfplay.h
+- mfplay.h
 api_name:
- - IMFPMediaItem.GetObject
+- IMFPMediaItem.GetObject
 targetos: Windows
 req.typenames: 
 req.redist: 

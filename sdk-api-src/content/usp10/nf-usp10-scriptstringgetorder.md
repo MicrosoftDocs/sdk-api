@@ -1,19 +1,17 @@
 ---
 UID: NF:usp10.ScriptStringGetOrder
 title: ScriptStringGetOrder function (usp10.h)
-
 description: Creates an array that maps an original character position to a glyph position.
 old-location: intl\scriptstringgetorder.htm
 tech.root: Intl
 ms.assetid: c9986143-af15-439b-8c99-e07b48344645
-
 ms.date: 12/05/2018
 ms.keywords: ScriptStringGetOrder, ScriptStringGetOrder function [Internationalization for Windows Applications], _win32_ScriptStringGetOrder, intl.scriptstringgetorder, usp10/ScriptStringGetOrder
 ms.topic: function
-f1_keywords: 
- - "usp10/ScriptStringGetOrder"
+f1_keywords:
+- usp10/ScriptStringGetOrder
 dev_langs:
- - c++
+- c++
 req.header: usp10.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Usp10.lib
 req.dll: Usp10.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - usp10.dll
- - Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
- - GDI32.dll
- - GDI32Full.dll
+- usp10.dll
+- Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
+- GDI32.dll
+- GDI32Full.dll
 api_name:
- - ScriptStringGetOrder
+- ScriptStringGetOrder
 targetos: Windows
 req.typenames: 
 req.redist: Internet Explorer 5 or later on Windows Me/98/95

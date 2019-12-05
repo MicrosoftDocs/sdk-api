@@ -1,19 +1,17 @@
 ---
 UID: NF:wmsdkidl.IWMMutualExclusion2.GetRecordName
 title: IWMMutualExclusion2::GetRecordName (wmsdkidl.h)
-
 description: The GetRecordName method retrieves the name of the specified record. A record has a name only if a name has been assigned using the IWMMutualExclusion2::SetRecordName method.
 old-location: wmformat\iwmmutualexclusion2_getrecordname.htm
 tech.root: wmformat
 ms.assetid: 7508a473-77ae-49ce-b041-2d171193e730
-
 ms.date: 12/05/2018
 ms.keywords: GetRecordName, GetRecordName method [windows Media Format], GetRecordName method [windows Media Format],IWMMutualExclusion2 interface, IWMMutualExclusion2 interface [windows Media Format],GetRecordName method, IWMMutualExclusion2.GetRecordName, IWMMutualExclusion2::GetRecordName, IWMMutualExclusion2GetRecordName, wmformat.iwmmutualexclusion2_getrecordname, wmsdkidl/IWMMutualExclusion2::GetRecordName
 ms.topic: method
-f1_keywords: 
- - "wmsdkidl/IWMMutualExclusion2.GetRecordName"
+f1_keywords:
+- wmsdkidl/IWMMutualExclusion2.GetRecordName
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wmvcore.lib
- - Wmvcore.dll
- - WMStubDRM.lib
- - WMStubDRM.dll
+- Wmvcore.lib
+- Wmvcore.dll
+- WMStubDRM.lib
+- WMStubDRM.dll
 api_name:
- - IWMMutualExclusion2.GetRecordName
+- IWMMutualExclusion2.GetRecordName
 targetos: Windows
 req.typenames: 
 req.redist: 

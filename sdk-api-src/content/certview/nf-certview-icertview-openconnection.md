@@ -1,19 +1,17 @@
 ---
 UID: NF:certview.ICertView.OpenConnection
 title: ICertView::OpenConnection (certview.h)
-
 description: Establishes a connection with a Certificate Services server.
 old-location: security\icertview2_openconnection.htm
 tech.root: SecCrypto
 ms.assetid: 576af4d1-88c9-40e3-9438-9fefd483be7a
-
 ms.date: 12/05/2018
 ms.keywords: CCertView object [Security],OpenConnection method, ICertView interface [Security],OpenConnection method, ICertView.OpenConnection, ICertView2 interface [Security],OpenConnection method, ICertView2::OpenConnection, ICertView::OpenConnection, OpenConnection, OpenConnection method [Security], OpenConnection method [Security],CCertView object, OpenConnection method [Security],ICertView interface, OpenConnection method [Security],ICertView2 interface, certview/ICertView2::OpenConnection, certview/ICertView::OpenConnection, security.icertview2_openconnection
 ms.topic: method
-f1_keywords: 
- - "certview/ICertView2.OpenConnection"
+f1_keywords:
+- certview/ICertView2.OpenConnection
 dev_langs:
- - c++
+- c++
 req.header: certview.h
 req.include-header: Certsrv.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Certidl.lib
 req.dll: Certadm.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Certadm.dll
+- Certadm.dll
 api_name:
- - ICertView2.OpenConnection
- - ICertView.OpenConnection
- - CCertView.OpenConnection
+- ICertView2.OpenConnection
+- ICertView.OpenConnection
+- CCertView.OpenConnection
 targetos: Windows
 req.typenames: 
 req.redist: 

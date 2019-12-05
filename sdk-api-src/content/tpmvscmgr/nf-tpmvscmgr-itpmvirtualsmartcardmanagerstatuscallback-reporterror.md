@@ -1,19 +1,17 @@
 ---
 UID: NF:tpmvscmgr.ITpmVirtualSmartCardManagerStatusCallback.ReportError
 title: ITpmVirtualSmartCardManagerStatusCallback::ReportError (tpmvscmgr.h)
-
 description: Reports any errors from the requested operation.
 old-location: security\itpmvirtualsmartcardmanagerstatuscallback_reporterror.htm
 tech.root: SecAuthN
 ms.assetid: 936F22EA-1C9F-4328-B71F-FA7720396F6F
-
 ms.date: 12/05/2018
 ms.keywords: ITpmVirtualSmartCardManagerStatusCallback interface [Security],ReportError method, ITpmVirtualSmartCardManagerStatusCallback.ReportError, ITpmVirtualSmartCardManagerStatusCallback::ReportError, ReportError, ReportError method [Security], ReportError method [Security],ITpmVirtualSmartCardManagerStatusCallback interface, security.itpmvirtualsmartcardmanagerstatuscallback_reporterror, tpmvscmgr/ITpmVirtualSmartCardManagerStatusCallback::ReportError
 ms.topic: method
-f1_keywords: 
- - "tpmvscmgr/ITpmVirtualSmartCardManagerStatusCallback.ReportError"
+f1_keywords:
+- tpmvscmgr/ITpmVirtualSmartCardManagerStatusCallback.ReportError
 dev_langs:
- - c++
+- c++
 req.header: tpmvscmgr.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Vscmgr.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Vscmgr.lib
- - Vscmgr.dll
+- Vscmgr.lib
+- Vscmgr.dll
 api_name:
- - ITpmVirtualSmartCardManagerStatusCallback.ReportError
+- ITpmVirtualSmartCardManagerStatusCallback.ReportError
 targetos: Windows
 req.typenames: 
 req.redist: 

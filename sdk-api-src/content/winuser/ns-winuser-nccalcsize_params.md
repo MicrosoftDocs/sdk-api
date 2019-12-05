@@ -1,19 +1,17 @@
 ---
 UID: NS:winuser.tagNCCALCSIZE_PARAMS
 title: NCCALCSIZE_PARAMS (winuser.h)
-
 description: Contains information that an application can use while processing the WM_NCCALCSIZE message to calculate the size, position, and valid contents of the client area of a window.
 old-location: winmsg\nccalcsize_params.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowstructures\nccalcsize_params.htm
-
 ms.date: 12/05/2018
-ms.keywords: "*LPNCCALCSIZE_PARAMS, LPNCCALCSIZE_PARAMS, LPNCCALCSIZE_PARAMS structure pointer [Windows and Messages], NCCALCSIZE_PARAMS, NCCALCSIZE_PARAMS structure [Windows and Messages], _win32_NCCALCSIZE_PARAMS_str, _win32_nccalcsize_params_str_cpp, winmsg.nccalcsize_params, winui._win32_nccalcsize_params_str, winuser/LPNCCALCSIZE_PARAMS, winuser/NCCALCSIZE_PARAMS"
+ms.keywords: '*LPNCCALCSIZE_PARAMS, LPNCCALCSIZE_PARAMS, LPNCCALCSIZE_PARAMS structure pointer [Windows and Messages], NCCALCSIZE_PARAMS, NCCALCSIZE_PARAMS structure [Windows and Messages], _win32_NCCALCSIZE_PARAMS_str, _win32_nccalcsize_params_str_cpp, winmsg.nccalcsize_params, winui._win32_nccalcsize_params_str, winuser/LPNCCALCSIZE_PARAMS, winuser/NCCALCSIZE_PARAMS'
 ms.topic: struct
-f1_keywords: 
- - "winuser/NCCALCSIZE_PARAMS"
+f1_keywords:
+- winuser/NCCALCSIZE_PARAMS
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Winuser.h
+- Winuser.h
 api_name:
- - NCCALCSIZE_PARAMS
+- NCCALCSIZE_PARAMS
 targetos: Windows
 req.typenames: NCCALCSIZE_PARAMS, *LPNCCALCSIZE_PARAMS
 req.redist: 

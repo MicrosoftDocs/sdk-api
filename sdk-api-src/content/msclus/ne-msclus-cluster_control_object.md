@@ -1,19 +1,17 @@
 ---
 UID: NE:msclus.CLUSTER_CONTROL_OBJECT
 title: CLUSTER_CONTROL_OBJECT (msclus.h)
-
 description: The 8-bit object component of a control code that indicates the type of cluster object to which the control code applies. For more information, see Control Code Architecture.
 old-location: mscs\cluster_control_object.htm
 tech.root: MsCS
 ms.assetid: 63719776-0b3a-470a-a732-40e62064c6fc
-
 ms.date: 12/05/2018
 ms.keywords: CLUSTER_CONTROL_OBJECT, CLUSTER_CONTROL_OBJECT enumeration [Failover Cluster], CLUS_OBJECT_CLUSTER, CLUS_OBJECT_GROUP, CLUS_OBJECT_GROUPSET, CLUS_OBJECT_INVALID, CLUS_OBJECT_NETINTERFACE, CLUS_OBJECT_NETWORK, CLUS_OBJECT_NODE, CLUS_OBJECT_RESOURCE, CLUS_OBJECT_RESOURCE_TYPE, CLUS_OBJECT_USER, _CLUSTER_CONTROL_OBJECT, _CLUSTER_CONTROL_OBJECT enumeration [Failover Cluster], clusapi/CLUSTER_CONTROL_OBJECT, clusapi/CLUS_OBJECT_CLUSTER, clusapi/CLUS_OBJECT_GROUP, clusapi/CLUS_OBJECT_GROUPSET, clusapi/CLUS_OBJECT_INVALID, clusapi/CLUS_OBJECT_NETINTERFACE, clusapi/CLUS_OBJECT_NETWORK, clusapi/CLUS_OBJECT_NODE, clusapi/CLUS_OBJECT_RESOURCE, clusapi/CLUS_OBJECT_RESOURCE_TYPE, clusapi/CLUS_OBJECT_USER, clusapi/_CLUSTER_CONTROL_OBJECT, msclus/CLUSTER_CONTROL_OBJECT, msclus/CLUS_OBJECT_CLUSTER, msclus/CLUS_OBJECT_GROUP, msclus/CLUS_OBJECT_GROUPSET, msclus/CLUS_OBJECT_INVALID, msclus/CLUS_OBJECT_NETINTERFACE, msclus/CLUS_OBJECT_NETWORK, msclus/CLUS_OBJECT_NODE, msclus/CLUS_OBJECT_RESOURCE, msclus/CLUS_OBJECT_RESOURCE_TYPE, msclus/CLUS_OBJECT_USER, msclus/_CLUSTER_CONTROL_OBJECT, mscs.cluster_control_object
 ms.topic: enum
-f1_keywords: 
- - "msclus/CLUSTER_CONTROL_OBJECT"
+f1_keywords:
+- msclus/CLUSTER_CONTROL_OBJECT
 dev_langs:
- - c++
+- c++
 req.header: msclus.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - ClusAPI.h
- - MsClus.h
+- ClusAPI.h
+- MsClus.h
 api_name:
- - CLUSTER_CONTROL_OBJECT
+- CLUSTER_CONTROL_OBJECT
 targetos: Windows
 req.typenames: CLUSTER_CONTROL_OBJECT
 req.redist: 

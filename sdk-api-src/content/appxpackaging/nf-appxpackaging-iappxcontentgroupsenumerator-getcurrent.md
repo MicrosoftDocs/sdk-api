@@ -1,19 +1,17 @@
 ---
 UID: NF:appxpackaging.IAppxContentGroupsEnumerator.GetCurrent
 title: IAppxContentGroupsEnumerator::GetCurrent (appxpackaging.h)
-
 description: Gets the content group at the current position of the enumerator.
 old-location: appxpkg\iappxcontentgroupsenumerator_getcurrent.htm
 tech.root: appxpkg
 ms.assetid: 1A7055F5-6121-4A3A-AE7C-4BFDF6D7F1A9
-
 ms.date: 12/05/2018
 ms.keywords: GetCurrent, GetCurrent method [App packaging and management], GetCurrent method [App packaging and management],IAppxContentGroupsEnumerator interface, IAppxContentGroupsEnumerator interface [App packaging and management],GetCurrent method, IAppxContentGroupsEnumerator.GetCurrent, IAppxContentGroupsEnumerator::GetCurrent, appxpackaging/IAppxContentGroupsEnumerator::GetCurrent, appxpkg.iappxcontentgroupsenumerator_getcurrent
 ms.topic: method
-f1_keywords: 
- - "appxpackaging/IAppxContentGroupsEnumerator.GetCurrent"
+f1_keywords:
+- appxpackaging/IAppxContentGroupsEnumerator.GetCurrent
 dev_langs:
- - c++
+- c++
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - AppxPackaging.h
+- AppxPackaging.h
 api_name:
- - IAppxContentGroupsEnumerator.GetCurrent
+- IAppxContentGroupsEnumerator.GetCurrent
 targetos: Windows
 req.typenames: 
 req.redist: 

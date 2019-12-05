@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi3if.ITStreamControl.CreateStream
 title: ITStreamControl::CreateStream (tapi3if.h)
-
 description: The CreateStream method creates a new media stream.
 old-location: tapi3\itstreamcontrol_createstream.htm
 tech.root: Tapi
 ms.assetid: 402cde43-6b2a-4e4e-bf46-97fcafb7574a
-
 ms.date: 12/05/2018
 ms.keywords: CreateStream, CreateStream method [TAPI 2.2], CreateStream method [TAPI 2.2],ITStreamControl interface, ITStreamControl interface [TAPI 2.2],CreateStream method, ITStreamControl.CreateStream, ITStreamControl::CreateStream, _tapi3_itstreamcontrol_createstream, tapi3.itstreamcontrol_createstream, tapi3if/ITStreamControl::CreateStream
 ms.topic: method
-f1_keywords: 
- - "tapi3if/ITStreamControl.CreateStream"
+f1_keywords:
+- tapi3if/ITStreamControl.CreateStream
 dev_langs:
- - c++
+- c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - tapi3if.h
+- tapi3if.h
 api_name:
- - ITStreamControl.CreateStream
+- ITStreamControl.CreateStream
 targetos: Windows
 req.typenames: 
 req.redist: 

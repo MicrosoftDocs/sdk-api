@@ -1,19 +1,17 @@
 ---
 UID: NE:wbemdisp.WbemChangeFlagEnum
 title: WbemChangeFlagEnum (wbemdisp.h)
-
 description: Define how a write operation to a class or an instance is carried out.
 old-location: wmi\wbemchangeflagenum.htm
 tech.root: WmiSdk
 ms.assetid: 586a4a26-2044-4044-a90d-b45d05f6ce66
-
 ms.date: 12/05/2018
 ms.keywords: WbemChangeFlagEnum, WbemChangeFlagEnum enumeration [Windows Management Instrumentation], _hmm_wbemchangeflagenum, wbemChangeFlagCreateOnly, wbemChangeFlagCreateOrUpdate, wbemChangeFlagStrongValidation, wbemChangeFlagUpdateCompatible, wbemChangeFlagUpdateForceMode, wbemChangeFlagUpdateOnly, wbemChangeFlagUpdateSafeMode, wbemdisp/WbemChangeFlagEnum, wbemdisp/wbemChangeFlagCreateOnly, wbemdisp/wbemChangeFlagCreateOrUpdate, wbemdisp/wbemChangeFlagStrongValidation, wbemdisp/wbemChangeFlagUpdateCompatible, wbemdisp/wbemChangeFlagUpdateForceMode, wbemdisp/wbemChangeFlagUpdateOnly, wbemdisp/wbemChangeFlagUpdateSafeMode, wmi.wbemchangeflagenum
 ms.topic: enum
-f1_keywords: 
- - "wbemdisp/WbemChangeFlagEnum"
+f1_keywords:
+- wbemdisp/WbemChangeFlagEnum
 dev_langs:
- - c++
+- c++
 req.header: wbemdisp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wbemdisp.h
+- Wbemdisp.h
 api_name:
- - WbemChangeFlagEnum
+- WbemChangeFlagEnum
 targetos: Windows
 req.typenames: WbemChangeFlagEnum
 req.redist: 

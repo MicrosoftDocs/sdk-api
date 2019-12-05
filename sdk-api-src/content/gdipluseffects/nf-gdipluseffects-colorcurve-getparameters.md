@@ -1,19 +1,17 @@
 ---
 UID: NF:gdipluseffects.ColorCurve.GetParameters
 title: ColorCurve::GetParameters (gdipluseffects.h)
-
 description: The ColorCurve::GetParameters gets the current values of the parameters of this ColorCurve object.
 old-location: gdiplus\_gdiplus_CLASS_ColorCurve_GetParameters_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\colorcurveclass\colorcurvemethods\getparameters.htm
-
 ms.date: 12/05/2018
 ms.keywords: ColorCurve class [GDI+],GetParameters method, ColorCurve.GetParameters, ColorCurve::GetParameters, GetParameters, GetParameters method [GDI+], GetParameters method [GDI+],ColorCurve class, _gdiplus_CLASS_ColorCurve_GetParameters_, gdiplus._gdiplus_CLASS_ColorCurve_GetParameters_
 ms.topic: method
-f1_keywords: 
- - "gdipluseffects/ColorCurve.GetParameters"
+f1_keywords:
+- gdipluseffects/ColorCurve.GetParameters
 dev_langs:
- - c++
+- c++
 req.header: gdipluseffects.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - ColorCurve.GetParameters
+- ColorCurve.GetParameters
 targetos: Windows
 req.typenames: 
 req.redist: 

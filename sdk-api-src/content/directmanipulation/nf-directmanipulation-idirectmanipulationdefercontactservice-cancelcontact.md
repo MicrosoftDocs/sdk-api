@@ -1,19 +1,17 @@
 ---
 UID: NF:directmanipulation.IDirectManipulationDeferContactService.CancelContact
 title: IDirectManipulationDeferContactService::CancelContact (directmanipulation.h)
-
 description: Cancel all scheduled calls to SetContact for this pointerId.
 old-location: directmanipulation\idirectmanipulationdefercontactservice_cancelcontact.htm
 tech.root: directmanipulation
 ms.assetid: 5C5029E5-CA4B-4853-B9D3-B99E869A44C3
-
 ms.date: 12/05/2018
 ms.keywords: CancelContact, CancelContact method [Direct Manipulation], CancelContact method [Direct Manipulation],IDirectManipulationDeferContactService interface, IDirectManipulationDeferContactService interface [Direct Manipulation],CancelContact method, IDirectManipulationDeferContactService.CancelContact, IDirectManipulationDeferContactService::CancelContact, directmanipulation.idirectmanipulationdefercontactservice_cancelcontact, directmanipulation/IDirectManipulationDeferContactService::CancelContact
 ms.topic: method
-f1_keywords: 
- - "directmanipulation/IDirectManipulationDeferContactService.CancelContact"
+f1_keywords:
+- directmanipulation/IDirectManipulationDeferContactService.CancelContact
 dev_langs:
- - c++
+- c++
 req.header: directmanipulation.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - DirectManipulation.h
+- DirectManipulation.h
 api_name:
- - IDirectManipulationDeferContactService.CancelContact
+- IDirectManipulationDeferContactService.CancelContact
 targetos: Windows
 req.typenames: 
 req.redist: 

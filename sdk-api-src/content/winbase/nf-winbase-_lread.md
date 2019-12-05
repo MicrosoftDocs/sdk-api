@@ -1,19 +1,17 @@
 ---
 UID: NF:winbase._lread
 title: _lread function (winbase.h)
-
 description: The _lread function reads data from the specified file. This function is provided for compatibility with 16-bit versions of Windows. Win32-based applications should use the ReadFile function.
 old-location: winprog\_lread.htm
 tech.root: DevNotes
 ms.assetid: A5374B2B-12EC-4130-8D21-1801D1D72524
-
 ms.date: 12/05/2018
-ms.keywords: "_lread, _lread function [Windows API], winbase/_lread, winprog._lread"
+ms.keywords: _lread, _lread function [Windows API], winbase/_lread, winprog._lread
 ms.topic: function
-f1_keywords: 
- - "winbase/_lread"
+f1_keywords:
+- winbase/_lread
 dev_langs:
- - c++
+- c++
 req.header: winbase.h
 req.include-header: 
 req.target-type: Windows
@@ -32,19 +30,19 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - kernel32.dll
- - iexpress.exe
- - API-MS-Win-Core-Kernel32-Private-L1-1-0.dll
- - API-MS-Win-Core-Kernel32-Private-L1-1-1.dll
- - API-MS-Win-Core-Kernel32-Private-L1-1-2.dll
- - Kernel32Legacy.dll
+- kernel32.dll
+- iexpress.exe
+- API-MS-Win-Core-Kernel32-Private-L1-1-0.dll
+- API-MS-Win-Core-Kernel32-Private-L1-1-1.dll
+- API-MS-Win-Core-Kernel32-Private-L1-1-2.dll
+- Kernel32Legacy.dll
 api_name:
- - _lread
+- _lread
 targetos: Windows
 req.typenames: 
 req.redist: 

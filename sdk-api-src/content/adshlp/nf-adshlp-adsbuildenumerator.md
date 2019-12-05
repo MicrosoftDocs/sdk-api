@@ -1,19 +1,17 @@
 ---
 UID: NF:adshlp.ADsBuildEnumerator
 title: ADsBuildEnumerator function (adshlp.h)
-
 description: The ADsBuildEnumerator function creates an enumerator object for the specified ADSI container object.
 old-location: adsi\adsbuildenumerator.htm
 tech.root: adsi
 ms.assetid: e4fdec19-bccf-49ec-8a95-29e096c4c9c1
-
 ms.date: 12/05/2018
 ms.keywords: ADsBuildEnumerator, ADsBuildEnumerator function [ADSI], _ds_adsbuildenumerator, adshlp/ADsBuildEnumerator, adsi.adsbuildenumerator
 ms.topic: function
-f1_keywords: 
- - "adshlp/ADsBuildEnumerator"
+f1_keywords:
+- adshlp/ADsBuildEnumerator
 dev_langs:
- - c++
+- c++
 req.header: adshlp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Activeds.lib
 req.dll: Activeds.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Activeds.dll
+- Activeds.dll
 api_name:
- - ADsBuildEnumerator
+- ADsBuildEnumerator
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:cscobj.IOfflineFilesPinInfo.IsPinnedForUserByPolicy
 title: IOfflineFilesPinInfo::IsPinnedForUserByPolicy (cscobj.h)
-
 description: Determines whether the item was pinned for users by Group Policy.
 old-location: of\iofflinefilespininfo_ispinnedforuserbypolicy.htm
 tech.root: offlinefiles
 ms.assetid: fa5548e9-0a4e-4e66-a5ea-45d092c239b2
-
 ms.date: 12/05/2018
 ms.keywords: IOfflineFilesPinInfo interface [Offline Files],IsPinnedForUserByPolicy method, IOfflineFilesPinInfo.IsPinnedForUserByPolicy, IOfflineFilesPinInfo::IsPinnedForUserByPolicy, IsPinnedForUserByPolicy, IsPinnedForUserByPolicy method [Offline Files], IsPinnedForUserByPolicy method [Offline Files],IOfflineFilesPinInfo interface, cscobj/IOfflineFilesPinInfo::IsPinnedForUserByPolicy, of.iofflinefilespininfo_ispinnedforuserbypolicy
 ms.topic: method
-f1_keywords: 
- - "cscobj/IOfflineFilesPinInfo.IsPinnedForUserByPolicy"
+f1_keywords:
+- cscobj/IOfflineFilesPinInfo.IsPinnedForUserByPolicy
 dev_langs:
- - c++
+- c++
 req.header: cscobj.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: CscSvc.dll; CscObj.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CscSvc.dll
- - CscObj.dll
+- CscSvc.dll
+- CscObj.dll
 api_name:
- - IOfflineFilesPinInfo.IsPinnedForUserByPolicy
+- IOfflineFilesPinInfo.IsPinnedForUserByPolicy
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:wmcontainer.IMFASFStreamPrioritization.RemoveStream
 title: IMFASFStreamPrioritization::RemoveStream (wmcontainer.h)
-
 description: Note  This interface is not implemented in this version of Media Foundation. Removes a stream from the stream priority list.
 old-location: mf\imfasfstreamprioritization_removestream.htm
 tech.root: medfound
 ms.assetid: a6139042-9c78-4fe7-8549-655e35be2862
-
 ms.date: 12/05/2018
 ms.keywords: IMFASFStreamPrioritization interface [Media Foundation],RemoveStream method, IMFASFStreamPrioritization.RemoveStream, IMFASFStreamPrioritization::RemoveStream, RemoveStream, RemoveStream method [Media Foundation], RemoveStream method [Media Foundation],IMFASFStreamPrioritization interface, a6139042-9c78-4fe7-8549-655e35be2862, mf.imfasfstreamprioritization_removestream, wmcontainer/IMFASFStreamPrioritization::RemoveStream
 ms.topic: method
-f1_keywords: 
- - "wmcontainer/IMFASFStreamPrioritization.RemoveStream"
+f1_keywords:
+- wmcontainer/IMFASFStreamPrioritization.RemoveStream
 dev_langs:
- - c++
+- c++
 req.header: wmcontainer.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFASFStreamPrioritization.RemoveStream
+- IMFASFStreamPrioritization.RemoveStream
 targetos: Windows
 req.typenames: 
 req.redist: 

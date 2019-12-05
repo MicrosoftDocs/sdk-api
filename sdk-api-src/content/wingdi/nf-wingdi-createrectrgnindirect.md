@@ -1,19 +1,17 @@
 ---
 UID: NF:wingdi.CreateRectRgnIndirect
 title: CreateRectRgnIndirect function (wingdi.h)
-
 description: The CreateRectRgnIndirect function creates a rectangular region.
 old-location: gdi\createrectrgnindirect.htm
 tech.root: gdi
 ms.assetid: f32e0b94-ce9c-4098-81fe-b239a9544621
-
 ms.date: 12/05/2018
 ms.keywords: CreateRectRgnIndirect, CreateRectRgnIndirect function [Windows GDI], _win32_CreateRectRgnIndirect, gdi.createrectrgnindirect, wingdi/CreateRectRgnIndirect
 ms.topic: function
-f1_keywords: 
- - "wingdi/CreateRectRgnIndirect"
+f1_keywords:
+- wingdi/CreateRectRgnIndirect
 dev_langs:
- - c++
+- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - gdi32.dll
- - Ext-MS-Win-RTCore-GDI-rgn-l1-1-0.dll
- - ext-ms-win-rtcore-gdi-rgn-l1-1-1.dll
+- gdi32.dll
+- Ext-MS-Win-RTCore-GDI-rgn-l1-1-0.dll
+- ext-ms-win-rtcore-gdi-rgn-l1-1-1.dll
 api_name:
- - CreateRectRgnIndirect
+- CreateRectRgnIndirect
 targetos: Windows
 req.typenames: 
 req.redist: 

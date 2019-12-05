@@ -1,19 +1,17 @@
 ---
 UID: NE:mbnapi.MBN_AUTH_PROTOCOL
 title: MBN_AUTH_PROTOCOL (mbnapi.h)
-
 description: The MBN_AUTH_PROTOCOL enumerated type specifies the authentication protocol used for Packet Data Protocol (PDP) activation.
 old-location: mbn\mbn_auth_protocol.htm
 tech.root: mbn
 ms.assetid: 7a1858d4-3415-490d-b264-3033cd8f5af7
-
 ms.date: 12/05/2018
 ms.keywords: MBN_AUTH_PROTOCOL, MBN_AUTH_PROTOCOL enumeration [Microsoft Broadband Networks], MBN_AUTH_PROTOCOL_CHAP, MBN_AUTH_PROTOCOL_MSCHAPV2, MBN_AUTH_PROTOCOL_NONE, MBN_AUTH_PROTOCOL_PAP, mbn.mbn_auth_protocol, mbnapi/MBN_AUTH_PROTOCOL, mbnapi/MBN_AUTH_PROTOCOL_CHAP, mbnapi/MBN_AUTH_PROTOCOL_MSCHAPV2, mbnapi/MBN_AUTH_PROTOCOL_NONE, mbnapi/MBN_AUTH_PROTOCOL_PAP
 ms.topic: enum
-f1_keywords: 
- - "mbnapi/MBN_AUTH_PROTOCOL"
+f1_keywords:
+- mbnapi/MBN_AUTH_PROTOCOL
 dev_langs:
- - c++
+- c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - mbnapi.h
+- mbnapi.h
 api_name:
- - MBN_AUTH_PROTOCOL
+- MBN_AUTH_PROTOCOL
 targetos: Windows
 req.typenames: MBN_AUTH_PROTOCOL
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:gpmgmt.IGPM.GetClientSideExtensions
 title: IGPM::GetClientSideExtensions (gpmgmt.h)
-
 description: Creates and returns a GPMCSECollection object that allows you to enumerate Group Policy client-side extensions (CSEs) that are registered on the local computer.
 old-location: gpmc\igpm_getclientsideextensions.htm
 tech.root: gpmc
 ms.assetid: 5bcf76f5-f216-4a33-9ac1-4cb98eb26db5
-
 ms.date: 12/05/2018
 ms.keywords: GPM object [GPMC],GetClientSideExtensions method, GetClientSideExtensions, GetClientSideExtensions method [GPMC], GetClientSideExtensions method [GPMC],GPM object, GetClientSideExtensions method [GPMC],IGPM interface, IGPM interface [GPMC],GetClientSideExtensions method, IGPM.GetClientSideExtensions, IGPM::GetClientSideExtensions, _win32_igpm_getclientsideextensions, gpmc.igpm_getclientsideextensions, gpmgmt/IGPM::GetClientSideExtensions
 ms.topic: method
-f1_keywords: 
- - "gpmgmt/IGPM.GetClientSideExtensions"
+f1_keywords:
+- gpmgmt/IGPM.GetClientSideExtensions
 dev_langs:
- - c++
+- c++
 req.header: gpmgmt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: Gpmgmt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gpmgmt.dll
+- Gpmgmt.dll
 api_name:
- - IGPM.GetClientSideExtensions
- - GPM.GetClientSideExtensions
+- IGPM.GetClientSideExtensions
+- GPM.GetClientSideExtensions
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:mfidl.MFCreateADTSMediaSink
 title: MFCreateADTSMediaSink function (mfidl.h)
-
 description: Creates an instance of the audio data transport stream (ADTS) media sink.
 old-location: mf\mfcreateadtsmediasink.htm
 tech.root: medfound
 ms.assetid: 18B2F5C7-61A6-447B-9BC8-2394A68BA777
-
 ms.date: 12/05/2018
 ms.keywords: MFCreateADTSMediaSink, MFCreateADTSMediaSink function [Media Foundation], mf.mfcreateadtsmediasink, mfidl/MFCreateADTSMediaSink
 ms.topic: function
-f1_keywords: 
- - "mfidl/MFCreateADTSMediaSink"
+f1_keywords:
+- mfidl/MFCreateADTSMediaSink
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Mf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - mf.dll
+- mf.dll
 api_name:
- - MFCreateADTSMediaSink
+- MFCreateADTSMediaSink
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:objidl.IPipeDouble.Pull
 title: IPipeDouble::Pull (objidl.h)
-
 description: Retrieves data of the double integer type from the pipe source.
 old-location: com\ipipedouble_pull.htm
 tech.root: com
 ms.assetid: 393e44fa-48fe-4a8d-b337-9b875129a502
-
 ms.date: 12/05/2018
 ms.keywords: IPipeDouble interface [COM],Pull method, IPipeDouble.Pull, IPipeDouble::Pull, Pull, Pull method [COM], Pull method [COM],IPipeDouble interface, _com_ipipedouble_pull, com.ipipedouble_pull, objidlbase/IPipeDouble::Pull
 ms.topic: method
-f1_keywords: 
- - "objidl/IPipeDouble.Pull"
+f1_keywords:
+- objidl/IPipeDouble.Pull
 dev_langs:
- - c++
+- c++
 req.header: objidl.h
 req.include-header: ObjIdl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - objidlbase.h
+- objidlbase.h
 api_name:
- - IPipeDouble.Pull
+- IPipeDouble.Pull
 targetos: Windows
 req.typenames: 
 req.redist: 

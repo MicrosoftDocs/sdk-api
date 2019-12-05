@@ -1,19 +1,17 @@
 ---
 UID: NF:resapi.ResUtilSetResourceServiceStartParametersEx
 title: ResUtilSetResourceServiceStartParametersEx function (resapi.h)
-
 description: Adjusts the start parameters of a specified service so that it operates correctly as a cluster resource. It must be called from a resource DLL. The PRESUTIL_SET_RESOURCE_SERVICE_START_PARAMETERS_EX type defines a pointer to this function.
 old-location: mscs\resutilsetresourceservicestartparametersex.htm
 tech.root: MsCS
 ms.assetid: 12F1AD70-4B6C-4920-855C-C55C8F423C69
-
 ms.date: 12/05/2018
 ms.keywords: PRESUTIL_SET_RESOURCE_SERVICE_START_PARAMETERS_EX, PRESUTIL_SET_RESOURCE_SERVICE_START_PARAMETERS_EX function [Failover Cluster], ResUtilSetResourceServiceStartParametersEx, ResUtilSetResourceServiceStartParametersEx function [Failover Cluster], mscs.resutilsetresourceservicestartparametersex, resapi/PRESUTIL_SET_RESOURCE_SERVICE_START_PARAMETERS_EX, resapi/ResUtilSetResourceServiceStartParametersEx
 ms.topic: function
-f1_keywords: 
- - "resapi/ResUtilSetResourceServiceStartParametersEx"
+f1_keywords:
+- resapi/ResUtilSetResourceServiceStartParametersEx
 dev_langs:
- - c++
+- c++
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: ResUtils.lib
 req.dll: ResUtils.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - ResUtils.dll
+- ResUtils.dll
 api_name:
- - ResUtilSetResourceServiceStartParametersEx
+- ResUtilSetResourceServiceStartParametersEx
 targetos: Windows
 req.typenames: 
 req.redist: 

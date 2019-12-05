@@ -1,19 +1,17 @@
 ---
 UID: NN:shappmgr.IShellApp
 title: IShellApp (shappmgr.h)
-
 description: Exposes methods that provide general information about an application to the Add/Remove Programs Application.
 old-location: shell\IShellApp.htm
 tech.root: shell
 ms.assetid: 2f56744c-a10e-423f-8b8f-c3257e560310
-
 ms.date: 12/05/2018
 ms.keywords: IShellApp, IShellApp interface [Windows Shell], IShellApp interface [Windows Shell],described, inet_IShellApp, shappmgr/IShellApp, shell.IShellApp
 ms.topic: interface
-f1_keywords: 
- - "shappmgr/IShellApp"
+f1_keywords:
+- shappmgr/IShellApp
 dev_langs:
- - c++
+- c++
 req.header: shappmgr.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Shell32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - IShellApp
+- IShellApp
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:shlobj_core.IACList2.GetOptions
 title: IACList2::GetOptions (shlobj_core.h)
-
 description: Gets the current autocomplete options.
 old-location: shell\IACList2_GetOptions.htm
 tech.root: shell
 ms.assetid: 767c1972-8bc8-46d5-abf0-8c5749c0bf0e
-
 ms.date: 12/05/2018
 ms.keywords: ACLO_CURRENTDIR, ACLO_DESKTOP, ACLO_FAVORITES, ACLO_FILESYSDIRS, ACLO_FILESYSONLY, ACLO_MYCOMPUTER, ACLO_NONE, GetOptions, GetOptions method [Windows Shell], GetOptions method [Windows Shell],IACList2 interface, IACList2 interface [Windows Shell],GetOptions method, IACList2.GetOptions, IACList2::GetOptions, _win32_IACList2_GetOptions, shell.IACList2_GetOptions, shlobj_core/IACList2::GetOptions
 ms.topic: method
-f1_keywords: 
- - "shlobj_core/IACList2.GetOptions"
+f1_keywords:
+- shlobj_core/IACList2.GetOptions
 dev_langs:
- - c++
+- c++
 req.header: shlobj_core.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Shell32.dll (version 5.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - IACList2.GetOptions
+- IACList2.GetOptions
 targetos: Windows
 req.typenames: 
 req.redist: 

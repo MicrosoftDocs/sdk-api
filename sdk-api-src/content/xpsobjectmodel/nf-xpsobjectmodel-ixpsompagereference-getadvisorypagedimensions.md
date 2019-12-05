@@ -1,19 +1,17 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMPageReference.GetAdvisoryPageDimensions
 title: IXpsOMPageReference::GetAdvisoryPageDimensions (xpsobjectmodel.h)
-
 description: Gets the suggested dimensions of the page.
 old-location: xps\ixpsompagereference_getadvisorypagedimensions.htm
 tech.root: printdocs
 ms.assetid: 1e25d910-5ca5-4e92-8b77-479c48a0089a
-
 ms.date: 12/05/2018
 ms.keywords: GetAdvisoryPageDimensions, GetAdvisoryPageDimensions method [XPS Documents and Packaging], GetAdvisoryPageDimensions method [XPS Documents and Packaging],IXpsOMPageReference interface, IXpsOMPageReference interface [XPS Documents and Packaging],GetAdvisoryPageDimensions method, IXpsOMPageReference.GetAdvisoryPageDimensions, IXpsOMPageReference::GetAdvisoryPageDimensions, xps.ixpsompagereference_getadvisorypagedimensions, xpsobjectmodel/IXpsOMPageReference::GetAdvisoryPageDimensions
 ms.topic: method
-f1_keywords: 
- - "xpsobjectmodel/IXpsOMPageReference.GetAdvisoryPageDimensions"
+f1_keywords:
+- xpsobjectmodel/IXpsOMPageReference.GetAdvisoryPageDimensions
 dev_langs:
- - c++
+- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsobjectmodel.h
+- xpsobjectmodel.h
 api_name:
- - IXpsOMPageReference.GetAdvisoryPageDimensions
+- IXpsOMPageReference.GetAdvisoryPageDimensions
 targetos: Windows
 req.typenames: 
 req.redist: 

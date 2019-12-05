@@ -1,19 +1,17 @@
 ---
 UID: NF:winnls.FindNLSString
 title: FindNLSString function (winnls.h)
-
 description: Locates a Unicode string (wide characters) or its equivalent in another Unicode string for a locale specified by identifier.Caution  Because strings with very different binary representations can compare as identical, this function can raise certain security concerns. For more information, see the discussion of comparison functions in Security Considerations:\_International Features. Note  For interoperability reasons, the application should prefer the FindNLSStringEx function because Microsoft is migrating toward the use of locale names instead of locale identifiers for new locales. Although FindNLSString supports custom locales, most applications should use FindNLSStringEx for this type of support.
 old-location: intl\findnlsstring.htm
 tech.root: Intl
 ms.assetid: d65a67d1-a7e1-4d2a-ae8b-6b4ac7f2a987
-
 ms.date: 12/05/2018
 ms.keywords: FindNLSString, FindNLSString function [Internationalization for Windows Applications], _win32_FindNLSString, intl.findnlsstring, winnls/FindNLSString
 ms.topic: function
-f1_keywords: 
- - "winnls/FindNLSString"
+f1_keywords:
+- winnls/FindNLSString
 dev_langs:
- - c++
+- c++
 req.header: winnls.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,21 +30,21 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-Localization-l1-1-0.dll
- - KernelBase.dll
- - API-MS-Win-Core-Localization-l1-2-0.dll
- - API-MS-Win-Core-Localization-l1-2-1.dll
- - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
- - MinKernelBase.dll
- - API-MS-Win-Core-Localization-L1-2-2.dll
+- Kernel32.dll
+- API-MS-Win-Core-Localization-l1-1-0.dll
+- KernelBase.dll
+- API-MS-Win-Core-Localization-l1-2-0.dll
+- API-MS-Win-Core-Localization-l1-2-1.dll
+- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+- MinKernelBase.dll
+- API-MS-Win-Core-Localization-L1-2-2.dll
 api_name:
- - FindNLSString
+- FindNLSString
 targetos: Windows
 req.typenames: 
 req.redist: 

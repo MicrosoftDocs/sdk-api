@@ -1,19 +1,17 @@
 ---
 UID: NF:wmp.IWMPMediaCollection.getByAlbum
 title: IWMPMediaCollection::getByAlbum (wmp.h)
-
 description: The getByAlbum method retrieves a pointer to an IWMPPlaylist interface. This interface contains the media items from the specified album.
 old-location: wmp\iwmpmediacollection_getbyalbum.htm
 tech.root: WMP
 ms.assetid: 8db2349b-46f4-4863-a409-a85983362046
-
 ms.date: 12/05/2018
 ms.keywords: IWMPMediaCollection interface [Windows Media Player],getByAlbum method, IWMPMediaCollection.getByAlbum, IWMPMediaCollection::getByAlbum, IWMPMediaCollectiongetByAlbum, getByAlbum, getByAlbum method [Windows Media Player], getByAlbum method [Windows Media Player],IWMPMediaCollection interface, wmp.iwmpmediacollection_getbyalbum, wmp/IWMPMediaCollection::getByAlbum
 ms.topic: method
-f1_keywords: 
- - "wmp/IWMPMediaCollection.getByAlbum"
+f1_keywords:
+- wmp/IWMPMediaCollection.getByAlbum
 dev_langs:
- - c++
+- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wmp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmp.dll
+- wmp.dll
 api_name:
- - IWMPMediaCollection.getByAlbum
+- IWMPMediaCollection.getByAlbum
 targetos: Windows
 req.typenames: 
 req.redist: 

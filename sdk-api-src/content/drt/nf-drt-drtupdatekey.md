@@ -1,19 +1,17 @@
 ---
 UID: NF:drt.DrtUpdateKey
 title: DrtUpdateKey function (drt.h)
-
 description: DrtUpdateKey function updates the application data associated with a registered key.
 old-location: p2p\drtupdatekey.htm
 tech.root: P2PSdk
 ms.assetid: e7e65246-ebe0-4fdf-924c-8c19cfb1322e
-
 ms.date: 12/05/2018
 ms.keywords: DrtUpdateKey, DrtUpdateKey function [Distributed Routing Tables], drt/DrtUpdateKey, p2p.drtupdatekey
 ms.topic: function
-f1_keywords: 
- - "drt/DrtUpdateKey"
+f1_keywords:
+- drt/DrtUpdateKey
 dev_langs:
- - c++
+- c++
 req.header: drt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Drt.lib
 req.dll: Drt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - drt.dll
+- drt.dll
 api_name:
- - DrtUpdateKey
+- DrtUpdateKey
 targetos: Windows
 req.typenames: 
 req.redist: 

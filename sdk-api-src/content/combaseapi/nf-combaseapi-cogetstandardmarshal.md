@@ -1,19 +1,17 @@
 ---
 UID: NF:combaseapi.CoGetStandardMarshal
 title: CoGetStandardMarshal function (combaseapi.h)
-
 description: Creates a default, or standard, marshaling object in either the client process or the server process, depending on the caller, and returns a pointer to that object's IMarshal implementation.
 old-location: com\cogetstandardmarshal.htm
 tech.root: com
 ms.assetid: 0cb74adc-e192-4ae5-9267-02c79e301681
-
 ms.date: 12/05/2018
 ms.keywords: CoGetStandardMarshal, CoGetStandardMarshal function [COM], _com_CoGetStandardMarshal, com.cogetstandardmarshal, combaseapi/CoGetStandardMarshal
 ms.topic: function
-f1_keywords: 
- - "combaseapi/CoGetStandardMarshal"
+f1_keywords:
+- combaseapi/CoGetStandardMarshal
 dev_langs:
- - c++
+- c++
 req.header: combaseapi.h
 req.include-header: Objbase.h
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib: Ole32.lib
 req.dll: Ole32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ole32.dll
- - API-MS-Win-Core-Com-l1-1-0.dll
- - ComBase.dll
- - API-MS-Win-Core-Com-l1-1-1.dll
- - API-MS-Win-DownLevel-Ole32-l1-1-1.dll
+- Ole32.dll
+- API-MS-Win-Core-Com-l1-1-0.dll
+- ComBase.dll
+- API-MS-Win-Core-Com-l1-1-1.dll
+- API-MS-Win-DownLevel-Ole32-l1-1-1.dll
 api_name:
- - CoGetStandardMarshal
+- CoGetStandardMarshal
 targetos: Windows
 req.typenames: 
 req.redist: 

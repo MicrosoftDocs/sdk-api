@@ -1,19 +1,17 @@
 ---
 UID: NF:netlistmgr.INetworkListManager.GetNetworks
 title: INetworkListManager::GetNetworks (netlistmgr.h)
-
 description: The GetNetworks method retrieves the list of networks available on the local machine.
 old-location: nla\inetworklistmanager_getnetworks.htm
 tech.root: nla
 ms.assetid: 547ab687-b323-4fd7-8c08-80a79352a626
-
 ms.date: 12/05/2018
 ms.keywords: GetNetworks, GetNetworks method [Network Awareness], GetNetworks method [Network Awareness],INetworkListManager interface, INetworkListManager interface [Network Awareness],GetNetworks method, INetworkListManager.GetNetworks, INetworkListManager::GetNetworks, netlistmgr/INetworkListManager::GetNetworks, nla.inetworklistmanager_getnetworks
 ms.topic: method
-f1_keywords: 
- - "netlistmgr/INetworkListManager.GetNetworks"
+f1_keywords:
+- netlistmgr/INetworkListManager.GetNetworks
 dev_langs:
- - c++
+- c++
 req.header: netlistmgr.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Netlistmgr.h
+- Netlistmgr.h
 api_name:
- - INetworkListManager.GetNetworks
+- INetworkListManager.GetNetworks
 targetos: Windows
 req.typenames: 
 req.redist: 

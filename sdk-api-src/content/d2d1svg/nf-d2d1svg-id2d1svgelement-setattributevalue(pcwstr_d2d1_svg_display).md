@@ -1,19 +1,17 @@
 ---
 UID: NF:d2d1svg.ID2D1SvgElement.SetAttributeValue(PCWSTR,D2D1_SVG_DISPLAY)
 title: ID2D1SvgElement::SetAttributeValue(PCWSTR,D2D1_SVG_DISPLAY) (d2d1svg.h)
-
 description: Gets an attribute of this element as a display value. This method can be used to get the value of the display property.
 old-location: direct2d\id2d1svgelement_setattributevalue_7.htm
 tech.root: Direct2D
 ms.assetid: 7B5828F9-F69D-4346-A2EB-5D00AD08B46F
-
 ms.date: 12/05/2018
 ms.keywords: ID2D1SvgElement interface [Direct2D],SetAttributeValue method, ID2D1SvgElement.SetAttributeValue, ID2D1SvgElement.SetAttributeValue(PCWSTR,D2D1_SVG_DISPLAY), ID2D1SvgElement::SetAttributeValue, ID2D1SvgElement::SetAttributeValue(PCWSTR,D2D1_SVG_DISPLAY), SetAttributeValue, SetAttributeValue method [Direct2D], SetAttributeValue method [Direct2D],ID2D1SvgElement interface, d2d1svg/ID2D1SvgElement::SetAttributeValue, direct2d.id2d1svgelement_setattributevalue_7
 ms.topic: method
-f1_keywords: 
- - "d2d1svg/ID2D1SvgElement.SetAttributeValue"
+f1_keywords:
+- d2d1svg/ID2D1SvgElement.SetAttributeValue
 dev_langs:
- - c++
+- c++
 req.header: d2d1svg.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Direct2d.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - direct2d.dll
+- direct2d.dll
 api_name:
- - ID2D1SvgElement.SetAttributeValue
+- ID2D1SvgElement.SetAttributeValue
 targetos: Windows
 req.typenames: 
 req.redist: 

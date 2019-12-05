@@ -1,19 +1,17 @@
 ---
 UID: NN:wdstptmgmt.IWdsTransportContent
 title: IWdsTransportContent (wdstptmgmt.h)
-
 description: Represents content being transmitted under a namespace over one or more sessions.
 old-location: wds\iwdstransportcontent.htm
 tech.root: wds
 ms.assetid: d7ed1f64-578f-4b3a-b9af-9a48800b9ca4
-
 ms.date: 12/05/2018
 ms.keywords: IWdsTransportContent, IWdsTransportContent interface [Windows Deployment Services], IWdsTransportContent interface [Windows Deployment Services],described, wds.iwdstransportcontent, wdstptmgmt/IWdsTransportContent
 ms.topic: interface
-f1_keywords: 
- - "wdstptmgmt/IWdsTransportContent"
+f1_keywords:
+- wdstptmgmt/IWdsTransportContent
 dev_langs:
- - c++
+- c++
 req.header: wdstptmgmt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wdstptmgmt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wdstptmgmt.dll
+- Wdstptmgmt.dll
 api_name:
- - IWdsTransportContent
+- IWdsTransportContent
 targetos: Windows
 req.typenames: 
 req.redist: 

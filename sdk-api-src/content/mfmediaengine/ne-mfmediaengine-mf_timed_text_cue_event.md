@@ -1,19 +1,17 @@
 ---
 UID: NE:mfmediaengine.MF_TIMED_TEXT_CUE_EVENT
 title: MF_TIMED_TEXT_CUE_EVENT (mfmediaengine.h)
-
 description: Specifies the type of a timed text cue event.
 old-location: mf\mf_timed_text_cue_event.htm
 tech.root: medfound
 ms.assetid: 8EA769FD-8BA9-4EBA-96AE-C86720A5F1F1
-
 ms.date: 12/05/2018
 ms.keywords: MF_TIMED_TEXT_CUE_EVENT, MF_TIMED_TEXT_CUE_EVENT enumeration [Media Foundation], MF_TIMED_TEXT_CUE_EVENT_ACTIVE, MF_TIMED_TEXT_CUE_EVENT_CLEAR, MF_TIMED_TEXT_CUE_EVENT_INACTIVE, mf.mf_timed_text_cue_event, mfmediaengine/MF_TIMED_TEXT_CUE_EVENT, mfmediaengine/MF_TIMED_TEXT_CUE_EVENT_ACTIVE, mfmediaengine/MF_TIMED_TEXT_CUE_EVENT_CLEAR, mfmediaengine/MF_TIMED_TEXT_CUE_EVENT_INACTIVE
 ms.topic: enum
-f1_keywords: 
- - "mfmediaengine/MF_TIMED_TEXT_CUE_EVENT"
+f1_keywords:
+- mfmediaengine/MF_TIMED_TEXT_CUE_EVENT
 dev_langs:
- - c++
+- c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - mfmediaengine.h
+- mfmediaengine.h
 api_name:
- - MF_TIMED_TEXT_CUE_EVENT
+- MF_TIMED_TEXT_CUE_EVENT
 targetos: Windows
 req.typenames: MF_TIMED_TEXT_CUE_EVENT
 req.redist: 

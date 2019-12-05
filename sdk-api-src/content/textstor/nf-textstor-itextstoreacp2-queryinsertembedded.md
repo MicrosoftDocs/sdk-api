@@ -1,19 +1,17 @@
 ---
 UID: NF:textstor.ITextStoreACP2.QueryInsertEmbedded
 title: ITextStoreACP2::QueryInsertEmbedded (textstor.h)
-
 description: Gets a value indicating whether the specified object can be inserted into the document.
 old-location: tsf\itextstoreacp2_queryinsertembedded.htm
 tech.root: TSF
 ms.assetid: af67d721-290b-412d-9d99-ea7d6406f33d
-
 ms.date: 12/05/2018
 ms.keywords: ITextStoreACP2 interface [Text Services Framework],QueryInsertEmbedded method, ITextStoreACP2.QueryInsertEmbedded, ITextStoreACP2::QueryInsertEmbedded, QueryInsertEmbedded, QueryInsertEmbedded method [Text Services Framework], QueryInsertEmbedded method [Text Services Framework],ITextStoreACP2 interface, textstor/ITextStoreACP2::QueryInsertEmbedded, tsf.itextstoreacp2_queryinsertembedded
 ms.topic: method
-f1_keywords: 
- - "textstor/ITextStoreACP2.QueryInsertEmbedded"
+f1_keywords:
+- textstor/ITextStoreACP2.QueryInsertEmbedded
 dev_langs:
- - c++
+- c++
 req.header: textstor.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msctf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msctf.dll
+- msctf.dll
 api_name:
- - ITextStoreACP2.QueryInsertEmbedded
+- ITextStoreACP2.QueryInsertEmbedded
 targetos: Windows
 req.typenames: 
 req.redist: 

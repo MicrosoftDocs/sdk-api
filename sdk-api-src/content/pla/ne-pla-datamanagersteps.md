@@ -1,19 +1,17 @@
 ---
 UID: NE:pla.__MIDL___MIDL_itf_pla_0001_0043_0011
 title: DataManagerSteps (pla.h)
-
 description: Defines the actions that the data manager takes when it runs.
 old-location: pla\datamanagersteps.htm
 tech.root: PLA
 ms.assetid: e647987d-e524-475e-a355-539cb3f04635
-
 ms.date: 12/05/2018
 ms.keywords: DataManagerSteps, DataManagerSteps enumeration [PLA], base.datamanagersteps, pla.datamanagersteps, pla/DataManagerSteps, pla/plaCreateHtml, pla/plaCreateReport, pla/plaFolderActions, pla/plaResourceFreeing, pla/plaRunRules, plaCreateHtml, plaCreateReport, plaFolderActions, plaResourceFreeing, plaRunRules
 ms.topic: enum
-f1_keywords: 
- - "pla/DataManagerSteps"
+f1_keywords:
+- pla/DataManagerSteps
 dev_langs:
- - c++
+- c++
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Pla.h
+- Pla.h
 api_name:
- - DataManagerSteps
+- DataManagerSteps
 targetos: Windows
 req.typenames: DataManagerSteps
 req.redist: 

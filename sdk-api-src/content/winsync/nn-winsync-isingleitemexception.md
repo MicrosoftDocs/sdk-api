@@ -1,19 +1,17 @@
 ---
 UID: NN:winsync.ISingleItemException
 title: ISingleItemException (winsync.h)
-
 description: Represents an item to exclude from a knowledge object.
 old-location: winsync\isingleitemexception.htm
 tech.root: winsync
 ms.assetid: 623553cb-9dc2-4504-9c49-357a0526b130
-
 ms.date: 12/05/2018
 ms.keywords: ISingleItemException, ISingleItemException interface [Windows Sync], ISingleItemException interface [Windows Sync],described, winsync.isingleitemexception, winsync/ISingleItemException
 ms.topic: interface
-f1_keywords: 
- - "winsync/ISingleItemException"
+f1_keywords:
+- winsync/ISingleItemException
 dev_langs:
- - c++
+- c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - winsync.h
+- winsync.h
 api_name:
- - ISingleItemException
+- ISingleItemException
 targetos: Windows
 req.typenames: 
 req.redist: 

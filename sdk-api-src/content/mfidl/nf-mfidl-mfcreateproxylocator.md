@@ -1,19 +1,17 @@
 ---
 UID: NF:mfidl.MFCreateProxyLocator
 title: MFCreateProxyLocator function (mfidl.h)
-
 description: Creates a default proxy locator.
 old-location: mf\mfcreateproxylocator.htm
 tech.root: medfound
 ms.assetid: 9ad707df-533a-407b-a611-49bfb019affc
-
 ms.date: 12/05/2018
 ms.keywords: 9ad707df-533a-407b-a611-49bfb019affc, MFCreateProxyLocator, MFCreateProxyLocator function [Media Foundation], mf.mfcreateproxylocator, mfidl/MFCreateProxyLocator
 ms.topic: function
-f1_keywords: 
- - "mfidl/MFCreateProxyLocator"
+f1_keywords:
+- mfidl/MFCreateProxyLocator
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Mf.lib
 req.dll: Mf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - mf.dll
+- mf.dll
 api_name:
- - MFCreateProxyLocator
+- MFCreateProxyLocator
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:bits.IBackgroundCopyManager.CreateJob
 title: IBackgroundCopyManager::CreateJob (bits.h)
-
 description: Creates a job.
 old-location: bits\ibackgroundcopymanager_createjob.htm
 tech.root: Bits
 ms.assetid: 6d23e3c0-673b-4f37-b6a0-e364b2d73886
-
 ms.date: 12/05/2018
 ms.keywords: CreateJob, CreateJob method [BITS], CreateJob method [BITS],IBackgroundCopyManager interface, IBackgroundCopyManager interface [BITS],CreateJob method, IBackgroundCopyManager.CreateJob, IBackgroundCopyManager::CreateJob, _drz_ibackgroundcopymanager_createjob, bits.ibackgroundcopymanager_createjob, bits/IBackgroundCopyManager::CreateJob
 ms.topic: method
-f1_keywords: 
- - "bits/IBackgroundCopyManager.CreateJob"
+f1_keywords:
+- bits/IBackgroundCopyManager.CreateJob
 dev_langs:
- - c++
+- c++
 req.header: bits.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Bits.lib
 req.dll: QmgrPrxy.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - QmgrPrxy.dll
+- QmgrPrxy.dll
 api_name:
- - IBackgroundCopyManager.CreateJob
+- IBackgroundCopyManager.CreateJob
 targetos: Windows
 req.typenames: 
 req.redist: 

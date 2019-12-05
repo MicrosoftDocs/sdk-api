@@ -1,19 +1,17 @@
 ---
 UID: NS:mstcpip._REAL_TIME_NOTIFICATION_SETTING_OUTPUT
 title: REAL_TIME_NOTIFICATION_SETTING_OUTPUT (mstcpip.h)
-
 description: Provides the output settings from a query for the REAL_TIME_NOTIFICATION_CAPABILITY transport setting for a TCP socket that is used with ControlChannelTrigger to receive background network notifications in a Windows Store app.
 old-location: winsock\real_time_notification_setting_output.htm
 tech.root: WinSock
 ms.assetid: 7585CA60-8C7B-4187-A311-72DFA38EB577
-
 ms.date: 12/05/2018
 ms.keywords: '*PREAL_TIME_NOTIFICATION_SETTING_OUTPUT, PREAL_TIME_NOTIFICATION_SETTING_OUTPUT, PREAL_TIME_NOTIFICATION_SETTING_OUTPUT structure pointer [Winsock], REAL_TIME_NOTIFICATION_SETTING_OUTPUT, REAL_TIME_NOTIFICATION_SETTING_OUTPUT structure [Winsock], mstcpip/PREAL_TIME_NOTIFICATION_SETTING_OUTPUT, mstcpip/REAL_TIME_NOTIFICATION_SETTING_OUTPUT, winsock.real_time_notification_setting_output'
 ms.topic: struct
 f1_keywords:
 - mstcpip/REAL_TIME_NOTIFICATION_SETTING_OUTPUT
 dev_langs:
- - c++
+- c++
 req.header: mstcpip.h
 req.include-header: 
 req.target-type: Windows

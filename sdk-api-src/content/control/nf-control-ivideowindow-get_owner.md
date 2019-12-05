@@ -1,19 +1,17 @@
 ---
 UID: NF:control.IVideoWindow.get_Owner
 title: IVideoWindow::get_Owner (control.h)
-
 description: The get_Owner method retrieves the video window's parent window, if any.
 old-location: dshow\ivideowindow_get_owner.htm
 tech.root: DirectShow
 ms.assetid: 9bb21c2a-25c6-43fa-a1b0-9f09944f1326
-
 ms.date: 12/05/2018
 ms.keywords: IVideoWindow interface [DirectShow],get_Owner method, IVideoWindow.get_Owner, IVideoWindow::get_Owner, IVideoWindowget_Owner, control/IVideoWindow::get_Owner, dshow.ivideowindow_get_owner, get_Owner, get_Owner method [DirectShow], get_Owner method [DirectShow],IVideoWindow interface
 ms.topic: method
-f1_keywords: 
- - "control/IVideoWindow.get_Owner"
+f1_keywords:
+- control/IVideoWindow.get_Owner
 dev_langs:
- - c++
+- c++
 req.header: control.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IVideoWindow.get_Owner
+- IVideoWindow.get_Owner
 targetos: Windows
 req.typenames: 
 req.redist: 

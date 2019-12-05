@@ -1,19 +1,17 @@
 ---
 UID: NF:propvarutil.VariantToBooleanArrayAlloc
 title: VariantToBooleanArrayAlloc function (propvarutil.h)
-
 description: Allocates an array of BOOL values then extracts data from a VARIANT structure into that array.
 old-location: properties\VariantToBooleanArrayAlloc.htm
 tech.root: properties
 ms.assetid: 6a623ee0-d99e-47db-82f9-9008c618a526
-
 ms.date: 12/05/2018
 ms.keywords: VariantToBooleanArrayAlloc, VariantToBooleanArrayAlloc function [Windows Properties], _shell_VariantToBooleanArrayAlloc, properties.VariantToBooleanArrayAlloc, propvarutil/VariantToBooleanArrayAlloc, shell.VariantToBooleanArrayAlloc
 ms.topic: function
-f1_keywords: 
- - "propvarutil/VariantToBooleanArrayAlloc"
+f1_keywords:
+- propvarutil/VariantToBooleanArrayAlloc
 dev_langs:
- - c++
+- c++
 req.header: propvarutil.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Propsys.lib
 req.dll: Propsys.dll (version 6.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Propsys.dll
+- Propsys.dll
 api_name:
- - VariantToBooleanArrayAlloc
+- VariantToBooleanArrayAlloc
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0

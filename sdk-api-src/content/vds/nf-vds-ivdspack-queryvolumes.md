@@ -1,19 +1,17 @@
 ---
 UID: NF:vds.IVdsPack.QueryVolumes
 title: IVdsPack::QueryVolumes (vds.h)
-
 description: Returns an object that enumerates the volumes in the pack.
 old-location: base\ivdspack_queryvolumes.htm
 tech.root: VDS
 ms.assetid: 43f9972d-14a6-4674-bf90-741ad3a9eb0d
-
 ms.date: 12/05/2018
 ms.keywords: IVdsPack interface [VDS],QueryVolumes method, IVdsPack.QueryVolumes, IVdsPack::QueryVolumes, QueryVolumes, QueryVolumes method [VDS], QueryVolumes method [VDS],IVdsPack interface, base.ivdspack_queryvolumes, vds/IVdsPack::QueryVolumes
 ms.topic: method
-f1_keywords: 
- - "vds/IVdsPack.QueryVolumes"
+f1_keywords:
+- vds/IVdsPack.QueryVolumes
 dev_langs:
- - c++
+- c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Uuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Uuid.lib
- - Uuid.dll
+- Uuid.lib
+- Uuid.dll
 api_name:
- - IVdsPack.QueryVolumes
+- IVdsPack.QueryVolumes
 targetos: Windows
 req.typenames: 
 req.redist: 

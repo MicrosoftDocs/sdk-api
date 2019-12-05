@@ -1,19 +1,17 @@
 ---
 UID: NF:netioapi.GetIpForwardEntry2
 title: GetIpForwardEntry2 function (netioapi.h)
-
 description: Retrieves information for an IP route entry on the local computer.
 old-location: iphlp\getipforwardentry2.htm
 tech.root: IpHlp
 ms.assetid: 53d5009a-d205-40ce-88e5-fe37e72b5a50
-
 ms.date: 12/05/2018
 ms.keywords: GetIpForwardEntry2, GetIpForwardEntry2 function [IP Helper], iphlp.getipforwardentry2, netioapi/GetIpForwardEntry2
 ms.topic: function
-f1_keywords: 
- - "netioapi/GetIpForwardEntry2"
+f1_keywords:
+- netioapi/GetIpForwardEntry2
 dev_langs:
- - c++
+- c++
 req.header: netioapi.h
 req.include-header: Iphlpapi.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Iphlpapi.lib
 req.dll: Iphlpapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Iphlpapi.dll
+- Iphlpapi.dll
 api_name:
- - GetIpForwardEntry2
+- GetIpForwardEntry2
 targetos: Windows
 req.typenames: 
 req.redist: 

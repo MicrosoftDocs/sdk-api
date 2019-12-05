@@ -1,19 +1,17 @@
 ---
 UID: NF:shlobj_core.SHAddFromPropSheetExtArray
 title: SHAddFromPropSheetExtArray function (shlobj_core.h)
-
 description: Adds pages to a property sheet extension array created by SHCreatePropSheetExtArray.
 old-location: shell\SHAddFromPropSheetExtArray.htm
 tech.root: shell
 ms.assetid: e0570cd6-dda2-43e4-8540-58baef37bf18
-
 ms.date: 12/05/2018
 ms.keywords: SHAddFromPropSheetExtArray, SHAddFromPropSheetExtArray function [Windows Shell], _win32_SHAddFromPropSheetExtArray, shell.SHAddFromPropSheetExtArray, shlobj_core/SHAddFromPropSheetExtArray
 ms.topic: function
-f1_keywords: 
- - "shlobj_core/SHAddFromPropSheetExtArray"
+f1_keywords:
+- shlobj_core/SHAddFromPropSheetExtArray
 dev_langs:
- - c++
+- c++
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Shell32.lib
 req.dll: Shell32.dll (version 5.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - SHAddFromPropSheetExtArray
+- SHAddFromPropSheetExtArray
 targetos: Windows
 req.typenames: 
 req.redist: 

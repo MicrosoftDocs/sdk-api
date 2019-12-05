@@ -1,19 +1,17 @@
 ---
 UID: NF:wmcontainer.IMFASFStreamConfig.GetMediaType
 title: IMFASFStreamConfig::GetMediaType (wmcontainer.h)
-
 description: Retrieves the media type of the stream.
 old-location: mf\imfasfstreamconfig_getmediatype.htm
 tech.root: medfound
 ms.assetid: 6311115a-26e6-47b7-b724-0209a5bf45d7
-
 ms.date: 12/05/2018
 ms.keywords: 6311115a-26e6-47b7-b724-0209a5bf45d7, GetMediaType, GetMediaType method [Media Foundation], GetMediaType method [Media Foundation],IMFASFStreamConfig interface, IMFASFStreamConfig interface [Media Foundation],GetMediaType method, IMFASFStreamConfig.GetMediaType, IMFASFStreamConfig::GetMediaType, mf.imfasfstreamconfig_getmediatype, wmcontainer/IMFASFStreamConfig::GetMediaType
 ms.topic: method
-f1_keywords: 
- - "wmcontainer/IMFASFStreamConfig.GetMediaType"
+f1_keywords:
+- wmcontainer/IMFASFStreamConfig.GetMediaType
 dev_langs:
- - c++
+- c++
 req.header: wmcontainer.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFASFStreamConfig.GetMediaType
+- IMFASFStreamConfig.GetMediaType
 targetos: Windows
 req.typenames: 
 req.redist: 

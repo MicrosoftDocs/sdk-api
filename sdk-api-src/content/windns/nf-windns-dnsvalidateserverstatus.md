@@ -1,19 +1,17 @@
 ---
 UID: NF:windns.DnsValidateServerStatus
 title: DnsValidateServerStatus function (windns.h)
-
 description: The DnsValidateServerStatus function validates an IP address as a suitable DNS server.
 old-location: dns\dnsvalidateserverstatus.htm
 tech.root: DNS
 ms.assetid: 5b362d05-87b2-44dd-8198-bcb5ab5a64f6
-
 ms.date: 12/05/2018
 ms.keywords: DNS_VALSVR_ERROR_INVALID_ADDR, DNS_VALSVR_ERROR_INVALID_NAME, DNS_VALSVR_ERROR_NO_AUTH, DNS_VALSVR_ERROR_NO_RESPONSE, DNS_VALSVR_ERROR_NO_TCP, DNS_VALSVR_ERROR_REFUSED, DNS_VALSVR_ERROR_UNKNOWN, DNS_VALSVR_ERROR_UNREACHABLE, DnsValidateServerStatus, DnsValidateServerStatus function [DNS], ERROR_SUCCESS, dns.dnsvalidateserverstatus, windns/DnsValidateServerStatus
 ms.topic: function
-f1_keywords: 
- - "windns/DnsValidateServerStatus"
+f1_keywords:
+- windns/DnsValidateServerStatus
 dev_langs:
- - c++
+- c++
 req.header: windns.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dnsapi.lib
 req.dll: Dnsapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Dnsapi.dll
+- Dnsapi.dll
 api_name:
- - DnsValidateServerStatus
+- DnsValidateServerStatus
 targetos: Windows
 req.typenames: 
 req.redist: 

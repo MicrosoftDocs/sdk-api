@@ -1,19 +1,17 @@
 ---
 UID: NF:oleidl.IOleCache.SetData
 title: IOleCache::SetData (oleidl.h)
-
 description: Initializes the cache with data in a specified format and on a specified medium.
 old-location: com\iolecache_setdata.htm
 tech.root: com
 ms.assetid: b826411d-6e00-44ba-8603-85db40c4a55f
-
 ms.date: 12/05/2018
 ms.keywords: IOleCache interface [COM],SetData method, IOleCache.SetData, IOleCache::SetData, SetData, SetData method [COM], SetData method [COM],IOleCache interface, _ole_iolecache_setdata, com.iolecache_setdata, oleidl/IOleCache::SetData
 ms.topic: method
-f1_keywords: 
- - "oleidl/IOleCache.SetData"
+f1_keywords:
+- oleidl/IOleCache.SetData
 dev_langs:
- - c++
+- c++
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - OleIdl.h
+- OleIdl.h
 api_name:
- - IOleCache.SetData
+- IOleCache.SetData
 targetos: Windows
 req.typenames: 
 req.redist: 

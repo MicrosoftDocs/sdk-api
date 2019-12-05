@@ -1,19 +1,17 @@
 ---
 UID: NF:winuser.SetFocus
 title: SetFocus function (winuser.h)
-
 description: Sets the keyboard focus to the specified window. The window must be attached to the calling thread's message queue.
 old-location: inputdev\setfocus.htm
 tech.root: inputdev
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\keyboardinput\keyboardinputreference\keyboardinputfunctions\setfocus.htm
-
 ms.date: 12/05/2018
 ms.keywords: SetFocus, SetFocus function [Keyboard and Mouse Input], _win32_SetFocus, _win32_setfocus_cpp, inputdev.setfocus, winui._win32_setfocus, winuser/SetFocus
 ms.topic: function
-f1_keywords: 
- - "winuser/SetFocus"
+f1_keywords:
+- winuser/SetFocus
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,25 +30,25 @@ req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - User32.dll
- - API-MS-Win-NTUser-IE-Window-l1-1-0.dll
- - ie_shims.dll
- - API-MS-Win-RTCore-NTUser-Window-l1-1-0.dll
- - minuser.dll
- - Ext-MS-Win-NTUser-Keyboard-l1-1-0.dll
- - Ext-MS-Win-NTUser-Keyboard-l1-1-1.dll
- - Ext-MS-Win-RTCore-NTUser-Window-Ext-l1-1-0.dll
- - ext-ms-win-ntuser-keyboard-l1-1-2.dll
- - Ext-MS-Win-NTUser-Keyboard-L1-2-0.dll
- - Ext-MS-Win-NTUser-Keyboard-L1-2-1.dll
- - Ext-MS-Win-NTUser-Window-L1-1-4.dll
+- User32.dll
+- API-MS-Win-NTUser-IE-Window-l1-1-0.dll
+- ie_shims.dll
+- API-MS-Win-RTCore-NTUser-Window-l1-1-0.dll
+- minuser.dll
+- Ext-MS-Win-NTUser-Keyboard-l1-1-0.dll
+- Ext-MS-Win-NTUser-Keyboard-l1-1-1.dll
+- Ext-MS-Win-RTCore-NTUser-Window-Ext-l1-1-0.dll
+- ext-ms-win-ntuser-keyboard-l1-1-2.dll
+- Ext-MS-Win-NTUser-Keyboard-L1-2-0.dll
+- Ext-MS-Win-NTUser-Keyboard-L1-2-1.dll
+- Ext-MS-Win-NTUser-Window-L1-1-4.dll
 api_name:
- - SetFocus
+- SetFocus
 targetos: Windows
 req.typenames: 
 req.redist: 

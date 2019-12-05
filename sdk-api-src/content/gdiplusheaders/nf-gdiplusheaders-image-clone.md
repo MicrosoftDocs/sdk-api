@@ -1,19 +1,17 @@
 ---
 UID: NF:gdiplusheaders.Image.Clone
 title: Image::Clone (gdiplusheaders.h)
-
 description: The Image::Clone method creates a new Image object and initializes it with the contents of this Image object.
 old-location: gdiplus\_gdiplus_CLASS_Image_Clone_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\imageclass\imagemethods\clone_16.htm
-
 ms.date: 12/05/2018
 ms.keywords: Clone, Clone method [GDI+], Clone method [GDI+],Image class, Image class [GDI+],Clone method, Image.Clone, Image::Clone, _gdiplus_CLASS_Image_Clone_, gdiplus._gdiplus_CLASS_Image_Clone_
 ms.topic: method
-f1_keywords: 
- - "gdiplusheaders/Image.Clone"
+f1_keywords:
+- gdiplusheaders/Image.Clone
 dev_langs:
- - c++
+- c++
 req.header: gdiplusheaders.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - Image.Clone
+- Image.Clone
 targetos: Windows
 req.typenames: 
 req.redist: 

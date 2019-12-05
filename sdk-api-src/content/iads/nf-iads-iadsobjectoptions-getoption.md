@@ -1,19 +1,17 @@
 ---
 UID: NF:iads.IADsObjectOptions.GetOption
 title: IADsObjectOptions::GetOption (iads.h)
-
 description: Gets a provider-specific option for a directory object.
 old-location: adsi\iadsobjectoptions_getoption.htm
 tech.root: adsi
 ms.assetid: 77a994d2-81ae-4afb-be5c-be8d7159a2c2
-
 ms.date: 12/05/2018
 ms.keywords: GetOption, GetOption method [ADSI], GetOption method [ADSI],IADsObjectOptions interface, IADsObjectOptions interface [ADSI],GetOption method, IADsObjectOptions.GetOption, IADsObjectOptions::GetOption, _ds_iadsobjectoptions_getoption, adsi.iadsobjectoptions__getoption, adsi.iadsobjectoptions_getoption, iads/IADsObjectOptions::GetOption
 ms.topic: method
-f1_keywords: 
- - "iads/IADsObjectOptions.GetOption"
+f1_keywords:
+- iads/IADsObjectOptions.GetOption
 dev_langs:
- - c++
+- c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Activeds.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Activeds.dll
+- Activeds.dll
 api_name:
- - IADsObjectOptions.GetOption
+- IADsObjectOptions.GetOption
 targetos: Windows
 req.typenames: 
 req.redist: 

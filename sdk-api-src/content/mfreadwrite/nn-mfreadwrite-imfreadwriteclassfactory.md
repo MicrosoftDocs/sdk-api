@@ -1,19 +1,17 @@
 ---
 UID: NN:mfreadwrite.IMFReadWriteClassFactory
 title: IMFReadWriteClassFactory (mfreadwrite.h)
-
 description: Creates an instance of either the sink writer or the source reader.
 old-location: mf\imfreadwriteclassfactory.htm
 tech.root: medfound
 ms.assetid: 83ef0f0a-ae60-474d-a9e7-7c83a73f6255
-
 ms.date: 12/05/2018
 ms.keywords: IMFReadWriteClassFactory, IMFReadWriteClassFactory interface [Media Foundation], IMFReadWriteClassFactory interface [Media Foundation],described, mf.imfreadwriteclassfactory, mfreadwrite/IMFReadWriteClassFactory
 ms.topic: interface
-f1_keywords: 
- - "mfreadwrite/IMFReadWriteClassFactory"
+f1_keywords:
+- mfreadwrite/IMFReadWriteClassFactory
 dev_langs:
- - c++
+- c++
 req.header: mfreadwrite.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfreadwrite.h
+- mfreadwrite.h
 api_name:
- - IMFReadWriteClassFactory
+- IMFReadWriteClassFactory
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:oaidl.IRecordInfo.GetTypeInfo
 title: IRecordInfo::GetTypeInfo (oaidl.h)
-
 description: Retrieves the type information that describes a UDT or safearray of UDTs.
 old-location: automat\irecordinfo_gettypeinfo.htm
 tech.root: automat
 ms.assetid: c8c05c4a-000a-4e48-aace-ff9f9292e3ea
-
 ms.date: 12/05/2018
 ms.keywords: GetTypeInfo, GetTypeInfo method [Automation], GetTypeInfo method [Automation],IRecordInfo interface, IRecordInfo interface [Automation],GetTypeInfo method, IRecordInfo.GetTypeInfo, IRecordInfo::GetTypeInfo, _oa96_IRecordInfo_GetTypeInfo, automat.irecordinfo_gettypeinfo, oaidl/IRecordInfo::GetTypeInfo
 ms.topic: method
-f1_keywords: 
- - "oaidl/IRecordInfo.GetTypeInfo"
+f1_keywords:
+- oaidl/IRecordInfo.GetTypeInfo
 dev_langs:
- - c++
+- c++
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - oaidl.h
+- oaidl.h
 api_name:
- - IRecordInfo.GetTypeInfo
+- IRecordInfo.GetTypeInfo
 targetos: Windows
 req.typenames: 
 req.redist: 

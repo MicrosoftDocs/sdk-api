@@ -1,19 +1,17 @@
 ---
 UID: NS:sspi._SECURITY_PACKAGE_OPTIONS
 title: SECURITY_PACKAGE_OPTIONS (sspi.h)
-
 description: Specifies information about a security package.
 old-location: security\security_package_options.htm
 tech.root: SecAuthN
 ms.assetid: 2e9f65ec-72a5-4d6f-aa63-f83369f0dd07
-
 ms.date: 12/05/2018
-ms.keywords: "*PSECURITY_PACKAGE_OPTIONS, PSECURITY_PACKAGE_OPTIONS, PSECURITY_PACKAGE_OPTIONS structure pointer [Security], SECPKG_OPTIONS_TYPE_LSA, SECPKG_OPTIONS_TYPE_SSPI, SECPKG_OPTIONS_TYPE_UNKNOWN, SECURITY_PACKAGE_OPTIONS, SECURITY_PACKAGE_OPTIONS structure [Security], security.security_package_options, sspi/PSECURITY_PACKAGE_OPTIONS, sspi/SECURITY_PACKAGE_OPTIONS"
+ms.keywords: '*PSECURITY_PACKAGE_OPTIONS, PSECURITY_PACKAGE_OPTIONS, PSECURITY_PACKAGE_OPTIONS structure pointer [Security], SECPKG_OPTIONS_TYPE_LSA, SECPKG_OPTIONS_TYPE_SSPI, SECPKG_OPTIONS_TYPE_UNKNOWN, SECURITY_PACKAGE_OPTIONS, SECURITY_PACKAGE_OPTIONS structure [Security], security.security_package_options, sspi/PSECURITY_PACKAGE_OPTIONS, sspi/SECURITY_PACKAGE_OPTIONS'
 ms.topic: struct
-f1_keywords: 
- - "sspi/SECURITY_PACKAGE_OPTIONS"
+f1_keywords:
+- sspi/SECURITY_PACKAGE_OPTIONS
 dev_langs:
- - c++
+- c++
 req.header: sspi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Sspi.h
+- Sspi.h
 api_name:
- - SECURITY_PACKAGE_OPTIONS
+- SECURITY_PACKAGE_OPTIONS
 targetos: Windows
 req.typenames: SECURITY_PACKAGE_OPTIONS, *PSECURITY_PACKAGE_OPTIONS
 req.redist: 

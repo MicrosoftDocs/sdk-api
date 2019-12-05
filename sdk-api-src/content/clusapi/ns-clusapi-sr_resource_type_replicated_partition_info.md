@@ -1,19 +1,17 @@
 ---
 UID: NS:clusapi._SR_RESOURCE_TYPE_REPLICATED_PARTITION_INFO
 title: SR_RESOURCE_TYPE_REPLICATED_PARTITION_INFO (clusapi.h)
-
 description: Describes a replicated partition.
 old-location: mscs\sr_resource_type_replicated_partition_info.htm
 tech.root: MsCS
 ms.assetid: D8EAC986-280E-4092-AF1A-17AAB38248AF
-
 ms.date: 12/05/2018
-ms.keywords: "*PSR_RESOURCE_TYPE_REPLICATED_PARTITION_INFO, PSR_RESOURCE_TYPE_REPLICATED_PARTITION_INFO, PSR_RESOURCE_TYPE_REPLICATED_PARTITION_INFO structure pointer [Failover Cluster], SR_RESOURCE_TYPE_REPLICATED_PARTITION_INFO, SR_RESOURCE_TYPE_REPLICATED_PARTITION_INFO structure [Failover Cluster], clusapi/PSR_RESOURCE_TYPE_REPLICATED_PARTITION_INFO, clusapi/SR_RESOURCE_TYPE_REPLICATED_PARTITION_INFO, mscs.sr_resource_type_replicated_partition_info"
+ms.keywords: '*PSR_RESOURCE_TYPE_REPLICATED_PARTITION_INFO, PSR_RESOURCE_TYPE_REPLICATED_PARTITION_INFO, PSR_RESOURCE_TYPE_REPLICATED_PARTITION_INFO structure pointer [Failover Cluster], SR_RESOURCE_TYPE_REPLICATED_PARTITION_INFO, SR_RESOURCE_TYPE_REPLICATED_PARTITION_INFO structure [Failover Cluster], clusapi/PSR_RESOURCE_TYPE_REPLICATED_PARTITION_INFO, clusapi/SR_RESOURCE_TYPE_REPLICATED_PARTITION_INFO, mscs.sr_resource_type_replicated_partition_info'
 ms.topic: struct
-f1_keywords: 
- - "clusapi/SR_RESOURCE_TYPE_REPLICATED_PARTITION_INFO"
+f1_keywords:
+- clusapi/SR_RESOURCE_TYPE_REPLICATED_PARTITION_INFO
 dev_langs:
- - c++
+- c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - ClusAPI.h
+- ClusAPI.h
 api_name:
- - SR_RESOURCE_TYPE_REPLICATED_PARTITION_INFO
+- SR_RESOURCE_TYPE_REPLICATED_PARTITION_INFO
 targetos: Windows
 req.typenames: SR_RESOURCE_TYPE_REPLICATED_PARTITION_INFO, *PSR_RESOURCE_TYPE_REPLICATED_PARTITION_INFO
 req.redist: 

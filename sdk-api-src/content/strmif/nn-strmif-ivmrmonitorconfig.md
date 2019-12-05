@@ -1,19 +1,17 @@
 ---
 UID: NN:strmif.IVMRMonitorConfig
 title: IVMRMonitorConfig (strmif.h)
-
 description: The IVMRMonitorConfig interface is implemented by the Video Mixing Renderer Filter 7 (VMR-7).
 old-location: dshow\ivmrmonitorconfig.htm
 tech.root: DirectShow
 ms.assetid: 02b4016b-a65b-41ac-b5c6-e5f6825f179c
-
 ms.date: 12/05/2018
 ms.keywords: IVMRMonitorConfig, IVMRMonitorConfig interface [DirectShow], IVMRMonitorConfig interface [DirectShow],described, IVMRMonitorConfigInterface, dshow.ivmrmonitorconfig, strmif/IVMRMonitorConfig
 ms.topic: interface
-f1_keywords: 
- - "strmif/IVMRMonitorConfig"
+f1_keywords:
+- strmif/IVMRMonitorConfig
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IVMRMonitorConfig
+- IVMRMonitorConfig
 targetos: Windows
 req.typenames: 
 req.redist: 

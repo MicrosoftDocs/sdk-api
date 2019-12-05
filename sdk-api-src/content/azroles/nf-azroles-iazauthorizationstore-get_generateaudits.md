@@ -1,19 +1,17 @@
 ---
 UID: NF:azroles.IAzAuthorizationStore.get_GenerateAudits
 title: IAzAuthorizationStore::get_GenerateAudits (azroles.h)
-
 description: Sets or retrieves a value that indicates whether run-time audits should be generated.
 old-location: security\azauthorizationstore_generateaudits.htm
 tech.root: SecAuthZ
 ms.assetid: e9362ae0-488d-4b6b-9a7b-c70fd85042ca
-
 ms.date: 12/05/2018
 ms.keywords: AzAuthorizationStore object [Security],GenerateAudits property, GenerateAudits property [Security], GenerateAudits property [Security],AzAuthorizationStore object, GenerateAudits property [Security],IAzAuthorizationStore interface, IAzAuthorizationStore interface [Security],GenerateAudits property, IAzAuthorizationStore.GenerateAudits, IAzAuthorizationStore.get_GenerateAudits, IAzAuthorizationStore::GenerateAudits, IAzAuthorizationStore::get_GenerateAudits, IAzAuthorizationStore::put_GenerateAudits, azroles/IAzAuthorizationStore::GenerateAudits, azroles/IAzAuthorizationStore::get_GenerateAudits, azroles/IAzAuthorizationStore::put_GenerateAudits, get_GenerateAudits, security.azauthorizationstore_generateaudits
 ms.topic: method
-f1_keywords: 
- - "azroles/IAzAuthorizationStore.GenerateAudits"
+f1_keywords:
+- azroles/IAzAuthorizationStore.GenerateAudits
 dev_langs:
- - c++
+- c++
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Azroles.lib
 req.dll: Azroles.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Azroles.dll
+- Azroles.dll
 api_name:
- - IAzAuthorizationStore.GenerateAudits
- - IAzAuthorizationStore.get_GenerateAudits
- - IAzAuthorizationStore.put_GenerateAudits
- - AzAuthorizationStore.GenerateAudits
+- IAzAuthorizationStore.GenerateAudits
+- IAzAuthorizationStore.get_GenerateAudits
+- IAzAuthorizationStore.put_GenerateAudits
+- AzAuthorizationStore.GenerateAudits
 targetos: Windows
 req.typenames: 
 req.redist: Windows Server 2003 Administration Tools Pack on Windows XP

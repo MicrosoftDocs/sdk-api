@@ -1,19 +1,17 @@
 ---
 UID: NF:gpmgmt.IGPMClientSideExtension.IsUserEnabled
 title: IGPMClientSideExtension::IsUserEnabled (gpmgmt.h)
-
 description: Checks whether the client-side extension can be called during the processing of user policy.
 old-location: gpmc\igpmclientsideextension_isuserenabled.htm
 tech.root: gpmc
 ms.assetid: 01fba0fa-9639-4033-bbdf-704549524147
-
 ms.date: 12/05/2018
 ms.keywords: GPMClientSideExtension object [GPMC],IsUserEnabled method, IGPMClientSideExtension interface [GPMC],IsUserEnabled method, IGPMClientSideExtension.IsUserEnabled, IGPMClientSideExtension::IsUserEnabled, IsUserEnabled, IsUserEnabled method [GPMC], IsUserEnabled method [GPMC],GPMClientSideExtension object, IsUserEnabled method [GPMC],IGPMClientSideExtension interface, _win32_igpmclientsideextension_isuserenabled, gpmc.igpmclientsideextension_isuserenabled, gpmgmt/IGPMClientSideExtension::IsUserEnabled
 ms.topic: method
-f1_keywords: 
- - "gpmgmt/IGPMClientSideExtension.IsUserEnabled"
+f1_keywords:
+- gpmgmt/IGPMClientSideExtension.IsUserEnabled
 dev_langs:
- - c++
+- c++
 req.header: gpmgmt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: Gpmgmt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gpmgmt.dll
+- Gpmgmt.dll
 api_name:
- - IGPMClientSideExtension.IsUserEnabled
- - GPMClientSideExtension.IsUserEnabled
+- IGPMClientSideExtension.IsUserEnabled
+- GPMClientSideExtension.IsUserEnabled
 targetos: Windows
 req.typenames: 
 req.redist: 

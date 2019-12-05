@@ -1,19 +1,17 @@
 ---
 UID: NF:mediaobj.IMediaObjectInPlace.GetLatency
 title: IMediaObjectInPlace::GetLatency (mediaobj.h)
-
 description: The GetLatency method retrieves the latency introduced by this DMO.
 old-location: dshow\imediaobjectinplace_getlatency.htm
 tech.root: DirectShow
 ms.assetid: f6ed4824-bc18-4a12-82d3-d68e98f6d964
-
 ms.date: 12/05/2018
 ms.keywords: GetLatency, GetLatency method [DirectShow], GetLatency method [DirectShow],IMediaObjectInPlace interface, IMediaObjectInPlace interface [DirectShow],GetLatency method, IMediaObjectInPlace.GetLatency, IMediaObjectInPlace::GetLatency, IMediaObjectInPlaceGetLatency, dshow.imediaobjectinplace_getlatency, mediaobj/IMediaObjectInPlace::GetLatency
 ms.topic: method
-f1_keywords: 
- - "mediaobj/IMediaObjectInPlace.GetLatency"
+f1_keywords:
+- mediaobj/IMediaObjectInPlace.GetLatency
 dev_langs:
- - c++
+- c++
 req.header: mediaobj.h
 req.include-header: Dmo.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Dmoguids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dmoguids.lib
- - Dmoguids.dll
+- Dmoguids.lib
+- Dmoguids.dll
 api_name:
- - IMediaObjectInPlace.GetLatency
+- IMediaObjectInPlace.GetLatency
 targetos: Windows
 req.typenames: 
 req.redist: 

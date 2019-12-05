@@ -1,19 +1,17 @@
 ---
 UID: NS:websocket._WEB_SOCKET_HTTP_HEADER
 title: WEB_SOCKET_HTTP_HEADER (websocket.h)
-
 description: Contains an HTTP header.
 old-location: websock\web_socket_http_header.htm
 tech.root: WebSock
 ms.assetid: d051c2fd-c21c-43dc-9160-5626fb1d6d49
-
 ms.date: 12/05/2018
-ms.keywords: "*PWEB_SOCKET_HTTP_HEADER, PWEB_SOCKET_HTTP_HEADER, PWEB_SOCKET_HTTP_HEADER structure pointer [Websocket Protocol Component API], WEB_SOCKET_HTTP_HEADER, WEB_SOCKET_HTTP_HEADER structure [Websocket Protocol Component API], websock.web_socket_http_header, websocket/PWEB_SOCKET_HTTP_HEADER, websocket/WEB_SOCKET_HTTP_HEADER"
+ms.keywords: '*PWEB_SOCKET_HTTP_HEADER, PWEB_SOCKET_HTTP_HEADER, PWEB_SOCKET_HTTP_HEADER structure pointer [Websocket Protocol Component API], WEB_SOCKET_HTTP_HEADER, WEB_SOCKET_HTTP_HEADER structure [Websocket Protocol Component API], websock.web_socket_http_header, websocket/PWEB_SOCKET_HTTP_HEADER, websocket/WEB_SOCKET_HTTP_HEADER'
 ms.topic: struct
-f1_keywords: 
- - "websocket/WEB_SOCKET_HTTP_HEADER"
+f1_keywords:
+- websocket/WEB_SOCKET_HTTP_HEADER
 dev_langs:
- - c++
+- c++
 req.header: websocket.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Websocket.h
+- Websocket.h
 api_name:
- - WEB_SOCKET_HTTP_HEADER
+- WEB_SOCKET_HTTP_HEADER
 targetos: Windows
 req.typenames: WEB_SOCKET_HTTP_HEADER, *PWEB_SOCKET_HTTP_HEADER
 req.redist: 

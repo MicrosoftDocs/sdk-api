@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d12.ID3D12GraphicsCommandList4.CopyRaytracingAccelerationStructure
 title: ID3D12GraphicsCommandList4::CopyRaytracingAccelerationStructure (d3d12.h)
-
 description: Copies a source acceleration structure to destination memory while applying the specified transformation.
 old-location: direct3d12\id3d12graphicscommandlist4_copyraytracingaccelerationstructure.htm
 tech.root: direct3d12
 ms.assetid: 13E0E477-9CD5-484B-9532-AB6D415CF6CB
-
 ms.date: 12/05/2018
 ms.keywords: CopyRaytracingAccelerationStructure, CopyRaytracingAccelerationStructure method, CopyRaytracingAccelerationStructure method,ID3D12GraphicsCommandList4 interface, ID3D12GraphicsCommandList4 interface,CopyRaytracingAccelerationStructure method, ID3D12GraphicsCommandList4.CopyRaytracingAccelerationStructure, ID3D12GraphicsCommandList4::CopyRaytracingAccelerationStructure, d3d12/ID3D12GraphicsCommandList4::CopyRaytracingAccelerationStructure, direct3d12.id3d12graphicscommandlist4_copyraytracingaccelerationstructure
 ms.topic: method
-f1_keywords: 
- - "d3d12/ID3D12GraphicsCommandList4.CopyRaytracingAccelerationStructure"
+f1_keywords:
+- d3d12/ID3D12GraphicsCommandList4.CopyRaytracingAccelerationStructure
 dev_langs:
- - c++
+- c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: D3D12.lib
 req.dll: D3D12.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D12.dll
+- D3D12.dll
 api_name:
- - ID3D12GraphicsCommandList4.CopyRaytracingAccelerationStructure
+- ID3D12GraphicsCommandList4.CopyRaytracingAccelerationStructure
 targetos: Windows
 req.typenames: 
 req.redist: 

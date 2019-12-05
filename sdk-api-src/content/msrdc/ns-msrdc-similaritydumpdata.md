@@ -1,19 +1,17 @@
 ---
 UID: NS:msrdc.__MIDL___MIDL_itf_msrdc_0000_0000_0014
 title: SimilarityDumpData (msrdc.h)
-
 description: Contains the similarity information that was returned for a file by the ISimilarityTableDumpState::GetNextData method.
 old-location: rdc\similaritydumpdata.htm
 tech.root: rdc
 ms.assetid: 0200008c-5664-445f-ae65-0eb004856a4c
-
 ms.date: 12/05/2018
 ms.keywords: SimilarityDumpData, SimilarityDumpData structure [Remote Differential Compression], fs.similaritydumpdata, msrdc/SimilarityDumpData, rdc.similaritydumpdata
 ms.topic: struct
-f1_keywords: 
- - "msrdc/SimilarityDumpData"
+f1_keywords:
+- msrdc/SimilarityDumpData
 dev_langs:
- - c++
+- c++
 req.header: msrdc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - MsRdc.h
+- MsRdc.h
 api_name:
- - SimilarityDumpData
+- SimilarityDumpData
 targetos: Windows
 req.typenames: SimilarityDumpData
 req.redist: 

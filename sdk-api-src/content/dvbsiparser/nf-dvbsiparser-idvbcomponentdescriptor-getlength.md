@@ -1,19 +1,17 @@
 ---
 UID: NF:dvbsiparser.IDvbComponentDescriptor.GetLength
 title: IDvbComponentDescriptor::GetLength (dvbsiparser.h)
-
 description: Gets the body length of a Digital Video Broadcast (DVB) component descriptor
 old-location: mstv\idvbcomponentdescriptor_getlength.htm
 tech.root: mstv
 ms.assetid: 418d654a-a8cf-42f1-b361-bc1bf80da194
-
 ms.date: 12/05/2018
 ms.keywords: GetLength, GetLength method [Microsoft TV Technologies], GetLength method [Microsoft TV Technologies],IDvbComponentDescriptor interface, IDvbComponentDescriptor interface [Microsoft TV Technologies],GetLength method, IDvbComponentDescriptor.GetLength, IDvbComponentDescriptor::GetLength, dvbsiparser/IDvbComponentDescriptor::GetLength, mstv.idvbcomponentdescriptor_getlength
 ms.topic: method
-f1_keywords: 
- - "dvbsiparser/IDvbComponentDescriptor.GetLength"
+f1_keywords:
+- dvbsiparser/IDvbComponentDescriptor.GetLength
 dev_langs:
- - c++
+- c++
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dvbsiparser.h
+- dvbsiparser.h
 api_name:
- - IDvbComponentDescriptor.GetLength
+- IDvbComponentDescriptor.GetLength
 targetos: Windows
 req.typenames: 
 req.redist: 

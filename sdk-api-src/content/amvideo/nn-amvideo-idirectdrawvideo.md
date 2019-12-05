@@ -1,19 +1,17 @@
 ---
 UID: NN:amvideo.IDirectDrawVideo
 title: IDirectDrawVideo (amvideo.h)
-
 description: The IDirectDrawVideo interface queries the Video Renderer filter about DirectDraw surfaces and hardware capabilities.Applications can use this interface to control what DirectDraw features the Video Renderer will take advantage of.
 old-location: dshow\idirectdrawvideo.htm
 tech.root: DirectShow
 ms.assetid: b918bf3b-b91b-40fb-abb8-4115a4f254bb
-
 ms.date: 12/05/2018
 ms.keywords: IDirectDrawVideo, IDirectDrawVideo interface [DirectShow], IDirectDrawVideo interface [DirectShow],described, IDirectDrawVideoInterface, amvideo/IDirectDrawVideo, dshow.idirectdrawvideo
 ms.topic: interface
-f1_keywords: 
- - "amvideo/IDirectDrawVideo"
+f1_keywords:
+- amvideo/IDirectDrawVideo
 dev_langs:
- - c++
+- c++
 req.header: amvideo.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IDirectDrawVideo
+- IDirectDrawVideo
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:oleauto.VarI1FromBool
 title: VarI1FromBool function (oleauto.h)
-
 description: Converts a Boolean value to a char value.
 old-location: automat\vari1frombool.htm
 tech.root: automat
 ms.assetid: 0e8043da-b41f-467a-a0c3-3f4bc3d098cf
-
 ms.date: 12/05/2018
 ms.keywords: VarI1FromBool, VarI1FromBool function [Automation], _oa96_VarI1FromBool, automat.vari1frombool, oleauto/VarI1FromBool
 ms.topic: function
-f1_keywords: 
- - "oleauto/VarI1FromBool"
+f1_keywords:
+- oleauto/VarI1FromBool
 dev_langs:
- - c++
+- c++
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: OleAut32.lib
 req.dll: OleAut32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - OleAut32.dll
+- OleAut32.dll
 api_name:
- - VarI1FromBool
+- VarI1FromBool
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:drt.DrtDeleteIpv6UdpTransport
 title: DrtDeleteIpv6UdpTransport function (drt.h)
-
 description: DrtDeleteIpv6UdpTransport function deletes a transport based on the IPv6 UDP protocol.
 old-location: p2p\drtdeleteipv6udptransport.htm
 tech.root: P2PSdk
 ms.assetid: 9b078f63-36b1-448b-b0c2-d452699157d8
-
 ms.date: 12/05/2018
 ms.keywords: DrtDeleteIpv6UdpTransport, DrtDeleteIpv6UdpTransport function [Peer Networking], drt/DrtDeleteIpv6UdpTransport, p2p.drtdeleteipv6udptransport
 ms.topic: function
-f1_keywords: 
- - "drt/DrtDeleteIpv6UdpTransport"
+f1_keywords:
+- drt/DrtDeleteIpv6UdpTransport
 dev_langs:
- - c++
+- c++
 req.header: drt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Drttransport.lib
 req.dll: Drt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - drt.dll
+- drt.dll
 api_name:
- - DrtDeleteIpv6UdpTransport
+- DrtDeleteIpv6UdpTransport
 targetos: Windows
 req.typenames: 
 req.redist: 

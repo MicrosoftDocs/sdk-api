@@ -1,19 +1,17 @@
 ---
 UID: NN:dvbsiparser.IDVB_SIT
 title: IDVB_SIT (dvbsiparser.h)
-
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\idvb_sit.htm
 tech.root: mstv
 ms.assetid: f278d942-a450-4a01-998d-4dac1c8a1fcc
-
 ms.date: 12/05/2018
 ms.keywords: IDVB_SIT, IDVB_SIT interface [Microsoft TV Technologies], IDVB_SIT interface [Microsoft TV Technologies],described, IDVB_SITInterface, dvbsiparser/IDVB_SIT, mstv.idvb_sit
 ms.topic: interface
-f1_keywords: 
- - "dvbsiparser/IDVB_SIT"
+f1_keywords:
+- dvbsiparser/IDVB_SIT
 dev_langs:
- - c++
+- c++
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dvbsiparser.h
+- dvbsiparser.h
 api_name:
- - IDVB_SIT
+- IDVB_SIT
 targetos: Windows
 req.typenames: 
 req.redist: 

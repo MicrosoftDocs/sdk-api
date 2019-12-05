@@ -1,19 +1,17 @@
 ---
 UID: NF:vfw.AVIStreamNextKeyFrame
 title: AVIStreamNextKeyFrame macro (vfw.h)
-
 description: The AVIStreamNextKeyFrame macro locates the next key frame following a specified position in a stream.
 old-location: multimedia\avistreamnextkeyframe.htm
 tech.root: Multimedia
 ms.assetid: 928b5deb-2f68-4fed-98cf-8130379c8622
-
 ms.date: 12/05/2018
 ms.keywords: AVIStreamNextKeyFrame, AVIStreamNextKeyFrame macro [Windows Multimedia], _win32_AVIStreamNextKeyFrame, multimedia.avistreamnextkeyframe, vfw/AVIStreamNextKeyFrame
 ms.topic: macro
-f1_keywords: 
- - "vfw/AVIStreamNextKeyFrame"
+f1_keywords:
+- vfw/AVIStreamNextKeyFrame
 dev_langs:
- - c++
+- c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Vfw.h
+- Vfw.h
 api_name:
- - AVIStreamNextKeyFrame
+- AVIStreamNextKeyFrame
 targetos: Windows
 req.typenames: 
 req.redist: 

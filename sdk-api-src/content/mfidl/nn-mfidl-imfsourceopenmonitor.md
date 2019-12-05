@@ -1,19 +1,17 @@
 ---
 UID: NN:mfidl.IMFSourceOpenMonitor
 title: IMFSourceOpenMonitor (mfidl.h)
-
 description: Callback interface to receive notifications from a network source on the progress of an asynchronous open operation.
 old-location: mf\imfsourceopenmonitor.htm
 tech.root: medfound
 ms.assetid: 9145910b-81f1-4fd1-8f6f-d6273e0edde6
-
 ms.date: 12/05/2018
 ms.keywords: 9145910b-81f1-4fd1-8f6f-d6273e0edde6, IMFSourceOpenMonitor, IMFSourceOpenMonitor interface [Media Foundation], IMFSourceOpenMonitor interface [Media Foundation],described, mf.imfsourceopenmonitor, mfidl/IMFSourceOpenMonitor
 ms.topic: interface
-f1_keywords: 
- - "mfidl/IMFSourceOpenMonitor"
+f1_keywords:
+- mfidl/IMFSourceOpenMonitor
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFSourceOpenMonitor
+- IMFSourceOpenMonitor
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:audioengineendpoint.IAudioDeviceEndpoint.WriteExclusiveModeParametersToSharedMemory
 title: IAudioDeviceEndpoint::WriteExclusiveModeParametersToSharedMemory (audioengineendpoint.h)
-
 description: Creates and writes the exclusive-mode parameters to shared memory.
 old-location: termserv\iaudiodeviceendpoint_writeexclusivemodeparameterstosharedmemory.htm
 tech.root: TermServ
 ms.assetid: 0484432a-4bbe-4892-8888-f11d6384d387
-
 ms.date: 12/05/2018
 ms.keywords: IAudioDeviceEndpoint interface [Remote Desktop Services],WriteExclusiveModeParametersToSharedMemory method, IAudioDeviceEndpoint.WriteExclusiveModeParametersToSharedMemory, IAudioDeviceEndpoint::WriteExclusiveModeParametersToSharedMemory, WriteExclusiveModeParametersToSharedMemory, WriteExclusiveModeParametersToSharedMemory method [Remote Desktop Services], WriteExclusiveModeParametersToSharedMemory method [Remote Desktop Services],IAudioDeviceEndpoint interface, audioengineendpoint/IAudioDeviceEndpoint::WriteExclusiveModeParametersToSharedMemory, termserv.iaudiodeviceendpoint_writeexclusivemodeparameterstosharedmemory
 ms.topic: method
-f1_keywords: 
- - "audioengineendpoint/IAudioDeviceEndpoint.WriteExclusiveModeParametersToSharedMemory"
+f1_keywords:
+- audioengineendpoint/IAudioDeviceEndpoint.WriteExclusiveModeParametersToSharedMemory
 dev_langs:
- - c++
+- c++
 req.header: audioengineendpoint.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - AudioEngineEndpoint.h
+- AudioEngineEndpoint.h
 api_name:
- - IAudioDeviceEndpoint.WriteExclusiveModeParametersToSharedMemory
+- IAudioDeviceEndpoint.WriteExclusiveModeParametersToSharedMemory
 targetos: Windows
 req.typenames: 
 req.redist: 

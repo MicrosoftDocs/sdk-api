@@ -1,19 +1,17 @@
 ---
 UID: NS:dxgi.DXGI_SURFACE_DESC
 title: DXGI_SURFACE_DESC (dxgi.h)
-
 description: Describes a surface.
 old-location: direct3ddxgi\dxgi_surface_desc.htm
 tech.root: direct3ddxgi
 ms.assetid: VS|directx_sdk|~\dxgi_surface_desc.htm
-
 ms.date: 12/05/2018
 ms.keywords: 93817f74-4e10-480f-7425-b90c4fe26c0d, DXGI_SURFACE_DESC, DXGI_SURFACE_DESC structure [DXGI], direct3ddxgi.dxgi_surface_desc, dxgi/DXGI_SURFACE_DESC
 ms.topic: struct
-f1_keywords: 
- - "dxgi/DXGI_SURFACE_DESC"
+f1_keywords:
+- dxgi/DXGI_SURFACE_DESC
 dev_langs:
- - c++
+- c++
 req.header: dxgi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - DXGI.h
+- DXGI.h
 api_name:
- - DXGI_SURFACE_DESC
+- DXGI_SURFACE_DESC
 targetos: Windows
 req.typenames: DXGI_SURFACE_DESC
 req.redist: 

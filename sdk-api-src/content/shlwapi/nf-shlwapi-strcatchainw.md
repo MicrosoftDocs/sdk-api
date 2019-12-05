@@ -1,19 +1,17 @@
 ---
 UID: NF:shlwapi.StrCatChainW
 title: StrCatChainW function (shlwapi.h)
-
 description: Concatenates two Unicode strings. Used when repeated concatenations to the same buffer are required.
 old-location: shell\StrCatChainW.htm
 tech.root: shell
 ms.assetid: 8df35616-f6f3-45eb-9a83-89fc84938fd7
-
 ms.date: 12/05/2018
 ms.keywords: StrCatChainW, StrCatChainW function [Windows Shell], _shell_StrCatChainW, shell.StrCatChainW, shlwapi/StrCatChainW
 ms.topic: function
-f1_keywords: 
- - "shlwapi/StrCatChainW"
+f1_keywords:
+- shlwapi/StrCatChainW
 dev_langs:
- - c++
+- c++
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,20 +30,20 @@ req.lib: Shlwapi.lib
 req.dll: Shlwapi.dll (version 5.5 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Shlwapi.dll
- - API-MS-Win-Core-shlwapi-Obsolete-l1-1-0.dll
- - KernelBase.dll
- - API-MS-Win-Core-shlwapi-Obsolete-l1-2-0.dll
- - API-MS-Win-DownLevel-shlwapi-l1-1-0.dll
- - API-MS-Win-DownLevel-shlwapi-l1-1-1.dll
+- Shlwapi.dll
+- API-MS-Win-Core-shlwapi-Obsolete-l1-1-0.dll
+- KernelBase.dll
+- API-MS-Win-Core-shlwapi-Obsolete-l1-2-0.dll
+- API-MS-Win-DownLevel-shlwapi-l1-1-0.dll
+- API-MS-Win-DownLevel-shlwapi-l1-1-1.dll
 api_name:
- - StrCatChainW
- - StrCatChainW
+- StrCatChainW
+- StrCatChainW
 targetos: Windows
 req.typenames: 
 req.redist: 

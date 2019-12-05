@@ -1,19 +1,17 @@
 ---
 UID: NF:bluetoothapis.BluetoothSendAuthenticationResponse
 title: BluetoothSendAuthenticationResponse function (bluetoothapis.h)
-
 description: The BluetoothSendAuthenticationResponse function is called when an authentication request to send the passkey response is received.
 old-location: bluetooth\bluetoothsendauthenticationresponse.htm
 tech.root: bluetooth
 ms.assetid: 4483f04e-09a2-4bd4-879c-c3a263c685de
-
 ms.date: 12/05/2018
 ms.keywords: BluetoothSendAuthenticationResponse, BluetoothSendAuthenticationResponse function [Bluetooth], bluetooth.bluetoothsendauthenticationresponse, bluetoothapis/BluetoothSendAuthenticationResponse
 ms.topic: function
-f1_keywords: 
- - "bluetoothapis/BluetoothSendAuthenticationResponse"
+f1_keywords:
+- bluetoothapis/BluetoothSendAuthenticationResponse
 dev_langs:
- - c++
+- c++
 req.header: bluetoothapis.h
 req.include-header: Bthsdpdef.h, BluetoothAPIs.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Bthprops.lib
 req.dll: Bthprops.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Bthprops.dll
+- Bthprops.dll
 api_name:
- - BluetoothSendAuthenticationResponse
+- BluetoothSendAuthenticationResponse
 targetos: Windows
 req.typenames: 
 req.redist: 

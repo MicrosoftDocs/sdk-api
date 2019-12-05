@@ -1,19 +1,17 @@
 ---
 UID: NN:wmsbuffer.IWMSBufferAllocator
 title: IWMSBufferAllocator (wmsbuffer.h)
-
 description: The IWMSSBufferAllocator interface provides methods for allocating a buffer.
 old-location: wmformat\iwmsbufferallocator.htm
 tech.root: wmformat
 ms.assetid: 021ced93-4b79-4821-a380-7fed43fd5391
-
 ms.date: 12/05/2018
 ms.keywords: IWMSBufferAllocator, IWMSBufferAllocator interface [windows Media Format], IWMSBufferAllocator interface [windows Media Format],described, IWMSBufferAllocatorInterface, wmformat.iwmsbufferallocator, wmsbuffer/IWMSBufferAllocator
 ms.topic: interface
-f1_keywords: 
- - "wmsbuffer/IWMSBufferAllocator"
+f1_keywords:
+- wmsbuffer/IWMSBufferAllocator
 dev_langs:
- - c++
+- c++
 req.header: wmsbuffer.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmsbuffer.h
+- wmsbuffer.h
 api_name:
- - IWMSBufferAllocator
+- IWMSBufferAllocator
 targetos: Windows
 req.typenames: 
 req.redist: 

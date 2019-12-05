@@ -1,19 +1,17 @@
 ---
 UID: NF:winuser.IsMenu
 title: IsMenu function (winuser.h)
-
 description: Determines whether a handle is a menu handle.
 old-location: menurc\ismenu.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\menus\menureference\menufunctions\ismenu.htm
-
 ms.date: 12/05/2018
 ms.keywords: IsMenu, IsMenu function [Menus and Other Resources], _win32_IsMenu, _win32_ismenu_cpp, menurc.ismenu, winui._win32_ismenu, winuser/IsMenu
 ms.topic: function
-f1_keywords: 
- - "winuser/IsMenu"
+f1_keywords:
+- winuser/IsMenu
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - User32.dll
- - Ext-MS-Win-NTUser-Menu-l1-1-1.dll
- - ext-ms-win-ntuser-menu-l1-1-2.dll
- - Ext-MS-Win-NTUser-Menu-L1-1-3.dll
+- User32.dll
+- Ext-MS-Win-NTUser-Menu-l1-1-1.dll
+- ext-ms-win-ntuser-menu-l1-1-2.dll
+- Ext-MS-Win-NTUser-Menu-L1-1-3.dll
 api_name:
- - IsMenu
+- IsMenu
 targetos: Windows
 req.typenames: 
 req.redist: 

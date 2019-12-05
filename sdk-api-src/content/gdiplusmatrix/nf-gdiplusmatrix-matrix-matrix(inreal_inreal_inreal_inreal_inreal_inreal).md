@@ -1,19 +1,17 @@
 ---
 UID: NF:gdiplusmatrix.Matrix.Matrix(IN REAL,IN REAL,IN REAL,IN REAL,IN REAL,IN REAL)
 title: Matrix::Matrix(IN REAL,IN REAL,IN REAL,IN REAL,IN REAL,IN REAL) (gdiplusmatrix.h)
-
 description: Creates and initializes a Matrix::Matrix object based on six numbers that define an affine transformation.
 old-location: gdiplus\_gdiplus_CLASS_Matrix_Matrix_m11_m12_m21_m22_dx_dy_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\matrixclass\matrixconstructors\matrix_67m11_m12_m21_m22_dx_dy.htm
-
 ms.date: 12/05/2018
 ms.keywords: Matrix, Matrix class [GDI+],Matrix constructor, Matrix constructor [GDI+], Matrix constructor [GDI+],Matrix class, Matrix.Matrix, Matrix.Matrix(IN REAL,IN REAL,IN REAL,IN REAL,IN REAL,IN REAL), Matrix.Matrix(REAL,REAL,REAL,REAL,REAL,REAL), Matrix::Matrix, Matrix::Matrix(IN REAL,IN REAL,IN REAL,IN REAL,IN REAL,IN REAL), _gdiplus_CLASS_Matrix_Matrix_m11_m12_m21_m22_dx_dy_, gdiplus._gdiplus_CLASS_Matrix_Matrix_m11_m12_m21_m22_dx_dy_
 ms.topic: method
-f1_keywords: 
- - "gdiplusmatrix/Matrix.Matrix"
+f1_keywords:
+- gdiplusmatrix/Matrix.Matrix
 dev_langs:
- - c++
+- c++
 req.header: gdiplusmatrix.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - Matrix.Matrix
+- Matrix.Matrix
 targetos: Windows
 req.typenames: 
 req.redist: 

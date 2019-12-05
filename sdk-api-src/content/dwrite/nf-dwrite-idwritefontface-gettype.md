@@ -1,19 +1,17 @@
 ---
 UID: NF:dwrite.IDWriteFontFace.GetType
 title: IDWriteFontFace::GetType (dwrite.h)
-
 description: Obtains the file format type of a font face.
 old-location: directwrite\IDWriteFontFace_GetType.htm
 tech.root: DirectWrite
 ms.assetid: 8ea4b0b0-faf4-4291-838d-480e2bc68b0c
-
 ms.date: 12/05/2018
 ms.keywords: GetType, GetType method [Direct Write], GetType method [Direct Write],IDWriteFontFace interface, IDWriteFontFace interface [Direct Write],GetType method, IDWriteFontFace.GetType, IDWriteFontFace::GetType, directwrite.IDWriteFontFace_GetType, dwrite/IDWriteFontFace::GetType
 ms.topic: method
-f1_keywords: 
- - "dwrite/IDWriteFontFace.GetType"
+f1_keywords:
+- dwrite/IDWriteFontFace.GetType
 dev_langs:
- - c++
+- c++
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dwrite.lib
 req.dll: Dwrite.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dwrite.dll
+- dwrite.dll
 api_name:
- - IDWriteFontFace.GetType
+- IDWriteFontFace.GetType
 targetos: Windows
 req.typenames: 
 req.redist: 

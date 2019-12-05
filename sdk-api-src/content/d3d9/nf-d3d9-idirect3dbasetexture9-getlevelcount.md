@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d9.IDirect3DBaseTexture9.GetLevelCount
 title: IDirect3DBaseTexture9::GetLevelCount (d3d9.h)
-
 description: Returns the number of texture levels in a multilevel texture.
 old-location: direct3d9\idirect3dbasetexture9__getlevelcount.htm
 tech.root: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3dbasetexture9__getlevelcount.htm
-
 ms.date: 12/05/2018
 ms.keywords: GetLevelCount, GetLevelCount method [Direct3D 9], GetLevelCount method [Direct3D 9],IDirect3DBaseTexture9 interface, IDirect3DBaseTexture9 interface [Direct3D 9],GetLevelCount method, IDirect3DBaseTexture9.GetLevelCount, IDirect3DBaseTexture9::GetLevelCount, d1e2b647-f3f4-ac84-e24e-feeb8e0c6bf8, d3d9helper/IDirect3DBaseTexture9::GetLevelCount, direct3d9.idirect3dbasetexture9__getlevelcount
 ms.topic: method
-f1_keywords: 
- - "d3d9/IDirect3DBaseTexture9.GetLevelCount"
+f1_keywords:
+- d3d9/IDirect3DBaseTexture9.GetLevelCount
 dev_langs:
- - c++
+- c++
 req.header: d3d9.h
 req.include-header: D3D9.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: D3D9.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D9.lib
- - D3D9.dll
+- D3D9.lib
+- D3D9.dll
 api_name:
- - IDirect3DBaseTexture9.GetLevelCount
+- IDirect3DBaseTexture9.GetLevelCount
 targetos: Windows
 req.typenames: 
 req.redist: 

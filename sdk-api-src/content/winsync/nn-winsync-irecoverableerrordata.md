@@ -1,19 +1,17 @@
 ---
 UID: NN:winsync.IRecoverableErrorData
 title: IRecoverableErrorData (winsync.h)
-
 description: Represents information about a recoverable error.
 old-location: winsync\irecoverableerrordata.htm
 tech.root: winsync
 ms.assetid: e99779ef-87c9-45ac-93dc-53ee1a201402
-
 ms.date: 12/05/2018
 ms.keywords: IRecoverableErrorData, IRecoverableErrorData interface [Windows Sync], IRecoverableErrorData interface [Windows Sync],described, winsync.irecoverableerrordata, winsync/IRecoverableErrorData
 ms.topic: interface
-f1_keywords: 
- - "winsync/IRecoverableErrorData"
+f1_keywords:
+- winsync/IRecoverableErrorData
 dev_langs:
- - c++
+- c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - winsync.h
+- winsync.h
 api_name:
- - IRecoverableErrorData
+- IRecoverableErrorData
 targetos: Windows
 req.typenames: 
 req.redist: 

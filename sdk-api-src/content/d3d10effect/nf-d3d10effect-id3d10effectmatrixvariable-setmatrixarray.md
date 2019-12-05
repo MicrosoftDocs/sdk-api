@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d10effect.ID3D10EffectMatrixVariable.SetMatrixArray
 title: ID3D10EffectMatrixVariable::SetMatrixArray (d3d10effect.h)
-
 description: Set an array of floating-point matrices.
 old-location: direct3d10\id3d10effectmatrixvariable_setmatrixarray.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10effectmatrixvariable_setmatrixarray.htm
-
 ms.date: 12/05/2018
 ms.keywords: ID3D10EffectMatrixVariable interface [Direct3D 10],SetMatrixArray method, ID3D10EffectMatrixVariable.SetMatrixArray, ID3D10EffectMatrixVariable::SetMatrixArray, SetMatrixArray, SetMatrixArray method [Direct3D 10], SetMatrixArray method [Direct3D 10],ID3D10EffectMatrixVariable interface, ba745b53-173b-3f99-1c4a-10c74d10a02b, d3d10effect/ID3D10EffectMatrixVariable::SetMatrixArray, direct3d10.id3d10effectmatrixvariable_setmatrixarray
 ms.topic: method
-f1_keywords: 
- - "d3d10effect/ID3D10EffectMatrixVariable.SetMatrixArray"
+f1_keywords:
+- d3d10effect/ID3D10EffectMatrixVariable.SetMatrixArray
 dev_langs:
- - c++
+- c++
 req.header: d3d10effect.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D10Effect.h
+- D3D10Effect.h
 api_name:
- - ID3D10EffectMatrixVariable.SetMatrixArray
+- ID3D10EffectMatrixVariable.SetMatrixArray
 targetos: Windows
 req.typenames: 
 req.redist: 

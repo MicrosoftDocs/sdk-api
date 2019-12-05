@@ -1,19 +1,17 @@
 ---
 UID: NS:mfapi.tagMetadataTimeStamps
 title: MetadataTimeStamps (mfapi.h)
-
 description: The MetadataTimeStamps structure describes the blob format for the MF_CAPTURE_METADATA_FACEROITIMESTAMPS attribute.
 old-location: stream\metadatatimestamps.htm
 tech.root: stream
 ms.assetid: F7E5349B-37F0-4B94-B42B-EAEB04DC1AB5
-
 ms.date: 12/05/2018
 ms.keywords: MetadataTimeStamps, MetadataTimeStamps structure [Streaming Media Devices], mfapi/MetadataTimeStamps, stream.metadatatimestamps
 ms.topic: struct
-f1_keywords: 
- - "mfapi/MetadataTimeStamps"
+f1_keywords:
+- mfapi/MetadataTimeStamps
 dev_langs:
- - c++
+- c++
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - mfapi.h
+- mfapi.h
 api_name:
- - MetadataTimeStamps
+- MetadataTimeStamps
 targetos: Windows
 req.typenames: MetadataTimeStamps
 req.redist: 

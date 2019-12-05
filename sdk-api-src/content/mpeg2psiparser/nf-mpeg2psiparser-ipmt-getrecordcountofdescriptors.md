@@ -1,19 +1,17 @@
 ---
 UID: NF:mpeg2psiparser.IPMT.GetRecordCountOfDescriptors
 title: IPMT::GetRecordCountOfDescriptors (mpeg2psiparser.h)
-
 description: The GetRecordCountOfDescriptors method returns the number of descriptors for a record in the PMT.
 old-location: mstv\ipmt_getrecordcountofdescriptors.htm
 tech.root: mstv
 ms.assetid: b2470267-25a6-4ed3-91a1-30fd3ac7bbea
-
 ms.date: 12/05/2018
 ms.keywords: GetRecordCountOfDescriptors, GetRecordCountOfDescriptors method [Microsoft TV Technologies], GetRecordCountOfDescriptors method [Microsoft TV Technologies],IPMT interface, IPMT interface [Microsoft TV Technologies],GetRecordCountOfDescriptors method, IPMT.GetRecordCountOfDescriptors, IPMT::GetRecordCountOfDescriptors, IPMTGetRecordCountOfDescriptors, mpeg2psiparser/IPMT::GetRecordCountOfDescriptors, mstv.ipmt_getrecordcountofdescriptors
 ms.topic: method
-f1_keywords: 
- - "mpeg2psiparser/IPMT.GetRecordCountOfDescriptors"
+f1_keywords:
+- mpeg2psiparser/IPMT.GetRecordCountOfDescriptors
 dev_langs:
- - c++
+- c++
 req.header: mpeg2psiparser.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mpeg2PsiParser.h
+- Mpeg2PsiParser.h
 api_name:
- - IPMT.GetRecordCountOfDescriptors
+- IPMT.GetRecordCountOfDescriptors
 targetos: Windows
 req.typenames: 
 req.redist: 

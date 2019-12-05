@@ -1,19 +1,17 @@
 ---
 UID: NE:cfapi.CF_CREATE_FLAGS
 title: CF_CREATE_FLAGS (cfapi.h)
-
 description: Flags for creating a placeholder file or directory.
 old-location: cloudapi\cf_create_flags.htm
 tech.root: cfApi
 ms.assetid: F70ECFDB-8542-4395-9EDD-7DABC2E5225D
-
 ms.date: 12/05/2018
 ms.keywords: CF_CREATE_FLAGS, CF_CREATE_FLAGS enumeration, CF_CREATE_FLAG_NONE, CF_CREATE_FLAG_STOP_ON_ERROR, PCF_CREATE_FLAGS, PCF_CREATE_FLAGS enumeration pointer, cfapi/CF_CREATE_FLAGS, cfapi/CF_CREATE_FLAG_NONE, cfapi/CF_CREATE_FLAG_STOP_ON_ERROR, cfapi/PCF_CREATE_FLAGS, cloudApi.cf_create_flags
 ms.topic: enum
-f1_keywords: 
- - "cfapi/CF_CREATE_FLAGS"
+f1_keywords:
+- cfapi/CF_CREATE_FLAGS
 dev_langs:
- - c++
+- c++
 req.header: cfapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - CfApi.h
+- CfApi.h
 api_name:
- - CF_CREATE_FLAGS
+- CF_CREATE_FLAGS
 targetos: Windows
 req.typenames: CF_CREATE_FLAGS
 req.redist: 

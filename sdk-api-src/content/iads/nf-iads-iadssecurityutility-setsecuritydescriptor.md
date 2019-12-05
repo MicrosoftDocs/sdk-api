@@ -1,19 +1,17 @@
 ---
 UID: NF:iads.IADsSecurityUtility.SetSecurityDescriptor
 title: IADsSecurityUtility::SetSecurityDescriptor (iads.h)
-
 description: Sets the security descriptor for the specified file, file share, or registry key.
 old-location: adsi\iadssecurityutility_setsecuritydescriptor.htm
 tech.root: adsi
 ms.assetid: f0f5c1fb-14fa-4d84-aa82-0d5e24ec5c2b
-
 ms.date: 12/05/2018
 ms.keywords: File, File share, IADsSecurityUtility interface [ADSI],SetSecurityDescriptor method, IADsSecurityUtility.SetSecurityDescriptor, IADsSecurityUtility::SetSecurityDescriptor, Registry key, SetSecurityDescriptor, SetSecurityDescriptor method [ADSI], SetSecurityDescriptor method [ADSI],IADsSecurityUtility interface, _ds_iadssecurityutility_setsecuritydescriptor, adsi.iadssecurityutility__setsecuritydescriptor, adsi.iadssecurityutility_setsecuritydescriptor, iads/IADsSecurityUtility::SetSecurityDescriptor
 ms.topic: method
-f1_keywords: 
- - "iads/IADsSecurityUtility.SetSecurityDescriptor"
+f1_keywords:
+- iads/IADsSecurityUtility.SetSecurityDescriptor
 dev_langs:
- - c++
+- c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Activeds.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Activeds.dll
+- Activeds.dll
 api_name:
- - IADsSecurityUtility.SetSecurityDescriptor
+- IADsSecurityUtility.SetSecurityDescriptor
 targetos: Windows
 req.typenames: 
 req.redist: 

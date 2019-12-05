@@ -1,19 +1,17 @@
 ---
 UID: NF:d2d1_3.ID2D1Device2.GetDxgiDevice
 title: ID2D1Device2::GetDxgiDevice (d2d1_3.h)
-
 description: Returns the DXGI device associated with this Direct2D device.
 old-location: direct2d\id2d1device2_getdxgidevice.htm
 tech.root: Direct2D
 ms.assetid: b0495244-d641-24d8-f1e2-0de1e8f84426
-
 ms.date: 12/05/2018
 ms.keywords: GetDxgiDevice, GetDxgiDevice method [Direct2D], GetDxgiDevice method [Direct2D],ID2D1Device2 interface, ID2D1Device2 interface [Direct2D],GetDxgiDevice method, ID2D1Device2.GetDxgiDevice, ID2D1Device2::GetDxgiDevice, d2d1_3/ID2D1Device2::GetDxgiDevice, direct2d.id2d1device2_getdxgidevice
 ms.topic: method
-f1_keywords: 
- - "d2d1_3/ID2D1Device2.GetDxgiDevice"
+f1_keywords:
+- d2d1_3/ID2D1Device2.GetDxgiDevice
 dev_langs:
- - c++
+- c++
 req.header: d2d1_3.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: D2d1_3.lib
 req.dll: D2d1_3.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - d2d1_3.dll
+- d2d1_3.dll
 api_name:
- - ID2D1Device2.GetDxgiDevice
+- ID2D1Device2.GetDxgiDevice
 targetos: Windows
 req.typenames: 
 req.redist: 

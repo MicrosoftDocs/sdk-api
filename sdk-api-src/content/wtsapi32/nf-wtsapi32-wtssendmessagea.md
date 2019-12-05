@@ -1,19 +1,17 @@
 ---
 UID: NF:wtsapi32.WTSSendMessageA
 title: WTSSendMessageA function (wtsapi32.h)
-
 description: Displays a message box on the client desktop of a specified Remote Desktop Services session.
 old-location: termserv\wtssendmessage.htm
 tech.root: TermServ
 ms.assetid: 4c70bc93-00b1-46ed-947d-b3cf61a5aca4
-
 ms.date: 12/05/2018
 ms.keywords: IDABORT, IDASYNC, IDCANCEL, IDCONTINUE, IDIGNORE, IDNO, IDOK, IDRETRY, IDTIMEOUT, IDTRYAGAIN, IDYES, WTSSendMessage, WTSSendMessage function [Remote Desktop Services], WTSSendMessageA, WTSSendMessageW, _win32_wtssendmessage, termserv.wtssendmessage, wtsapi32/WTSSendMessage, wtsapi32/WTSSendMessageA, wtsapi32/WTSSendMessageW
 ms.topic: function
-f1_keywords: 
- - "wtsapi32/WTSSendMessage"
+f1_keywords:
+- wtsapi32/WTSSendMessage
 dev_langs:
- - c++
+- c++
 req.header: wtsapi32.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Wtsapi32.lib
 req.dll: Wtsapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Wtsapi32.dll
+- Wtsapi32.dll
 api_name:
- - WTSSendMessage
- - WTSSendMessageA
- - WTSSendMessageW
+- WTSSendMessage
+- WTSSendMessageA
+- WTSSendMessageW
 targetos: Windows
 req.typenames: 
 req.redist: 

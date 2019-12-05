@@ -1,19 +1,17 @@
 ---
 UID: NF:webservices.WsWriteEnvelopeEnd
 title: WsWriteEnvelopeEnd function (webservices.h)
-
 description: Writes the closing elements of a message.
 old-location: wsw\wswriteenvelopeend.htm
 tech.root: wsw
 ms.assetid: 4d19d70d-76c5-42db-ae15-1e1ebf9c5aac
-
 ms.date: 12/05/2018
 ms.keywords: WsWriteEnvelopeEnd, WsWriteEnvelopeEnd function [Web Services for Windows], webservices/WsWriteEnvelopeEnd, wsw.wswriteenvelopeend
 ms.topic: function
-f1_keywords: 
- - "webservices/WsWriteEnvelopeEnd"
+f1_keywords:
+- webservices/WsWriteEnvelopeEnd
 dev_langs:
- - c++
+- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: WebServices.lib
 req.dll: WebServices.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - WebServices.dll
+- WebServices.dll
 api_name:
- - WsWriteEnvelopeEnd
+- WsWriteEnvelopeEnd
 targetos: Windows
 req.typenames: 
 req.redist: 

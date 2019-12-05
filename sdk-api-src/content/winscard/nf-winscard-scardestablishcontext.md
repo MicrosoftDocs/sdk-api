@@ -1,19 +1,17 @@
 ---
 UID: NF:winscard.SCardEstablishContext
 title: SCardEstablishContext function (winscard.h)
-
 description: Establishes the resource manager context (the scope) within which database operations are performed.
 old-location: security\scardestablishcontext.htm
 tech.root: SecAuthN
 ms.assetid: 1cf9b005-b76c-4fc9-b4bd-a1ad8552535f
-
 ms.date: 12/05/2018
 ms.keywords: SCARD_SCOPE_SYSTEM, SCARD_SCOPE_USER, SCardEstablishContext, SCardEstablishContext function [Security], _smart_scardestablishcontext, security.scardestablishcontext, winscard/SCardEstablishContext
 ms.topic: function
-f1_keywords: 
- - "winscard/SCardEstablishContext"
+f1_keywords:
+- winscard/SCardEstablishContext
 dev_langs:
- - c++
+- c++
 req.header: winscard.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Winscard.lib
 req.dll: Winscard.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Winscard.dll
- - Ext-MS-Win-wlan-scard-l1-1-0.dll
- - Ext-MS-Win-Security-WinSCard-L1-1-0.dll
+- Winscard.dll
+- Ext-MS-Win-wlan-scard-l1-1-0.dll
+- Ext-MS-Win-Security-WinSCard-L1-1-0.dll
 api_name:
- - SCardEstablishContext
+- SCardEstablishContext
 targetos: Windows
 req.typenames: 
 req.redist: 

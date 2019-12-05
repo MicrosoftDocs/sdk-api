@@ -1,19 +1,17 @@
 ---
 UID: NF:wuapi.IInstallationJob.get_AsyncState
 title: IInstallationJob::get_AsyncState (wuapi.h)
-
 description: Gets the caller-specific state object that is passed to the IUpdateInstaller.BeginInstall method or to the IUpdateInstaller.BeginUninstall method.
 old-location: wua\iinstallationjob_asyncstate.htm
 tech.root: Wua_Sdk
 ms.assetid: ff3632de-4fb7-4e82-a642-9c9b38f4063c
-
 ms.date: 12/05/2018
 ms.keywords: AsyncState property [Windows Update Agent], AsyncState property [Windows Update Agent],IInstallationJob interface, IInstallationJob interface [Windows Update Agent],AsyncState property, IInstallationJob.AsyncState, IInstallationJob.get_AsyncState, IInstallationJob::AsyncState, IInstallationJob::get_AsyncState, get_AsyncState, wua.iinstallationjob_asyncstate, wuapi/IInstallationJob::AsyncState, wuapi/IInstallationJob::get_AsyncState
 ms.topic: method
-f1_keywords: 
- - "wuapi/IInstallationJob.AsyncState"
+f1_keywords:
+- wuapi/IInstallationJob.AsyncState
 dev_langs:
- - c++
+- c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Wuguid.lib
 req.dll: Wuapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wuapi.dll
+- Wuapi.dll
 api_name:
- - IInstallationJob.AsyncState
- - IInstallationJob.get_AsyncState
+- IInstallationJob.AsyncState
+- IInstallationJob.get_AsyncState
 targetos: Windows
 req.typenames: 
 req.redist: 

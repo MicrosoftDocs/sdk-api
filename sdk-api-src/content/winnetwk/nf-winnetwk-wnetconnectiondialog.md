@@ -1,19 +1,17 @@
 ---
 UID: NF:winnetwk.WNetConnectionDialog
 title: WNetConnectionDialog function (winnetwk.h)
-
 description: The WNetConnectionDialog function starts a general browsing dialog box for connecting to network resources. The function requires a handle to the owner window for the dialog box.
 old-location: wnet\wnetconnectiondialog.htm
 tech.root: WNet
 ms.assetid: 2dc383bb-0a1a-4612-88f9-f92c8e2a398d
-
 ms.date: 12/05/2018
 ms.keywords: RESOURCETYPE_DISK, WNetConnectionDialog, WNetConnectionDialog function [Windows Networking (WNet)], _win32_wnetconnectiondialog, winnetwk/WNetConnectionDialog, wnet.wnetconnectiondialog
 ms.topic: function
-f1_keywords: 
- - "winnetwk/WNetConnectionDialog"
+f1_keywords:
+- winnetwk/WNetConnectionDialog
 dev_langs:
- - c++
+- c++
 req.header: winnetwk.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mpr.lib
 req.dll: Mpr.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Mpr.dll
- - API-MS-Win-Core-multipleproviderrouter-l1-1-0.dll
+- Mpr.dll
+- API-MS-Win-Core-multipleproviderrouter-l1-1-0.dll
 api_name:
- - WNetConnectionDialog
+- WNetConnectionDialog
 targetos: Windows
 req.typenames: 
 req.redist: 

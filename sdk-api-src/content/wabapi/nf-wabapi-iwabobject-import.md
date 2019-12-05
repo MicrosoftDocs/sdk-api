@@ -1,19 +1,17 @@
 ---
 UID: NF:wabapi.IWABObject.Import
 title: IWABObject::Import (wabapi.h)
-
 description: Imports a .wab file into the user's Address Book.
 old-location: wab\_wab_IWABObject_Import.htm
 tech.root: wab
 ms.assetid: VS|wab|~\wab\reference\ifaces\iwabobject\import.htm
-
 ms.date: 12/05/2018
 ms.keywords: IWABObject interface [Windows Address Book],Import method, IWABObject.Import, IWABObject::Import, Import, Import method [Windows Address Book], Import method [Windows Address Book],IWABObject interface, _wab_IWABObject_Import, wab._wab_IWABObject_Import, wabapi/IWABObject::Import
 ms.topic: method
 f1_keywords:
 - wabapi/IWABObject.Import
 dev_langs:
- - c++
+- c++
 req.header: wabapi.h
 req.include-header: 
 req.target-type: Windows

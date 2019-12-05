@@ -1,19 +1,17 @@
 ---
 UID: NF:drt.DrtCreateDerivedKeySecurityProvider
 title: DrtCreateDerivedKeySecurityProvider function (drt.h)
-
 description: DrtCreateDerivedKeySecurityProvider function creates the derived key security provider for a Distributed Routing Table.
 old-location: p2p\drtcreatederivedkeysecurityprovider.htm
 tech.root: P2PSdk
 ms.assetid: e4cc8326-e2bc-459f-97dd-a00cfd1ed35e
-
 ms.date: 12/05/2018
 ms.keywords: DrtCreateDerivedKeySecurityProvider, DrtCreateDerivedKeySecurityProvider function [Peer Networking], drt/DrtCreateDerivedKeySecurityProvider, p2p.drtcreatederivedkeysecurityprovider
 ms.topic: function
-f1_keywords: 
- - "drt/DrtCreateDerivedKeySecurityProvider"
+f1_keywords:
+- drt/DrtCreateDerivedKeySecurityProvider
 dev_langs:
- - c++
+- c++
 req.header: drt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Drtprov.lib
 req.dll: Drt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - drt.dll
+- drt.dll
 api_name:
- - DrtCreateDerivedKeySecurityProvider
+- DrtCreateDerivedKeySecurityProvider
 targetos: Windows
 req.typenames: 
 req.redist: 

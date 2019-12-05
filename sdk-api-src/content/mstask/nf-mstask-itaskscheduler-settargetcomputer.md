@@ -1,19 +1,17 @@
 ---
 UID: NF:mstask.ITaskScheduler.SetTargetComputer
 title: ITaskScheduler::SetTargetComputer (mstask.h)
-
 description: The SetTargetComputer method selects the computer that the ITaskScheduler interface operates on, allowing remote task management and enumeration.
 old-location: taskschd\itaskscheduler_settargetcomputer.htm
 tech.root: taskschd
 ms.assetid: e56d2384-026e-44e0-b6b7-20a41a421e09
-
 ms.date: 12/05/2018
 ms.keywords: ITaskScheduler interface [Task Scheduler],SetTargetComputer method, ITaskScheduler.SetTargetComputer, ITaskScheduler::SetTargetComputer, SetTargetComputer, SetTargetComputer method [Task Scheduler], SetTargetComputer method [Task Scheduler],ITaskScheduler interface, _msb_itaskscheduler_settargetcomputer, mstask/ITaskScheduler::SetTargetComputer, taskschd.itaskscheduler_settargetcomputer
 ms.topic: method
-f1_keywords: 
- - "mstask/ITaskScheduler.SetTargetComputer"
+f1_keywords:
+- mstask/ITaskScheduler.SetTargetComputer
 dev_langs:
- - c++
+- c++
 req.header: mstask.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Mstask.lib
 req.dll: Mstask.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mstask.dll
+- Mstask.dll
 api_name:
- - ITaskScheduler.SetTargetComputer
+- ITaskScheduler.SetTargetComputer
 targetos: Windows
 req.typenames: 
 req.redist: 

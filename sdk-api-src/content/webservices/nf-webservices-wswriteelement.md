@@ -1,19 +1,17 @@
 ---
 UID: NF:webservices.WsWriteElement
 title: WsWriteElement function (webservices.h)
-
 description: Write a typed value as an XML element.
 old-location: wsw\wswriteelement.htm
 tech.root: wsw
 ms.assetid: 5416d167-b832-4815-9826-6128f68dbc02
-
 ms.date: 12/05/2018
 ms.keywords: WsWriteElement, WsWriteElement function [Web Services for Windows], webservices/WsWriteElement, wsw.wswriteelement
 ms.topic: function
-f1_keywords: 
- - "webservices/WsWriteElement"
+f1_keywords:
+- webservices/WsWriteElement
 dev_langs:
- - c++
+- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: WebServices.lib
 req.dll: WebServices.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - WebServices.dll
+- WebServices.dll
 api_name:
- - WsWriteElement
+- WsWriteElement
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NE:xpsobjectmodel.__MIDL___MIDL_itf_xpsobjectmodel_0000_0000_0009
 title: XPS_COLOR_TYPE (xpsobjectmodel.h)
-
 description: Describes the color type used by the XPS_COLOR structure.
 old-location: xps\xps_color_type.htm
 tech.root: printdocs
 ms.assetid: 995576a6-ccca-4c0d-8346-2155801a2fbc
-
 ms.date: 12/05/2018
 ms.keywords: XPS_COLOR_TYPE, XPS_COLOR_TYPE enumeration [XPS Documents and Packaging], XPS_COLOR_TYPE_CONTEXT, XPS_COLOR_TYPE_SCRGB, XPS_COLOR_TYPE_SRGB, xps.xps_color_type, xpsobjectmodel/XPS_COLOR_TYPE, xpsobjectmodel/XPS_COLOR_TYPE_CONTEXT, xpsobjectmodel/XPS_COLOR_TYPE_SCRGB, xpsobjectmodel/XPS_COLOR_TYPE_SRGB
 ms.topic: enum
-f1_keywords: 
- - "xpsobjectmodel/XPS_COLOR_TYPE"
+f1_keywords:
+- xpsobjectmodel/XPS_COLOR_TYPE
 dev_langs:
- - c++
+- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - xpsobjectmodel.h
+- xpsobjectmodel.h
 api_name:
- - XPS_COLOR_TYPE
+- XPS_COLOR_TYPE
 targetos: Windows
 req.typenames: XPS_COLOR_TYPE
 req.redist: 

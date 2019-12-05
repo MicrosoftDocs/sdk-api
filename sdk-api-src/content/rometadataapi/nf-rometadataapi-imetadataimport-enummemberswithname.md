@@ -1,19 +1,17 @@
 ---
 UID: NF:rometadataapi.IMetaDataImport.EnumMembersWithName
 title: IMetaDataImport::EnumMembersWithName (rometadataapi.h)
-
 description: Enumerates MemberDef tokens representing members of the specified type with the specified name.
 old-location: winrt\imetadataimport_enummemberswithname.htm
 tech.root: WinRT
 ms.assetid: cfb72609-7db5-4780-aeeb-b3effa37665a
-
 ms.date: 12/05/2018
 ms.keywords: EnumMembersWithName, EnumMembersWithName method [Windows Runtime], EnumMembersWithName method [Windows Runtime],IMetaDataImport interface, IMetaDataImport interface [Windows Runtime],EnumMembersWithName method, IMetaDataImport.EnumMembersWithName, IMetaDataImport::EnumMembersWithName, rometadataapi/IMetaDataImport::EnumMembersWithName, winrt.imetadataimport_enummemberswithname
 ms.topic: method
-f1_keywords: 
- - "rometadataapi/IMetaDataImport.EnumMembersWithName"
+f1_keywords:
+- rometadataapi/IMetaDataImport.EnumMembersWithName
 dev_langs:
- - c++
+- c++
 req.header: rometadataapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - rometadataapi.h
+- rometadataapi.h
 api_name:
- - IMetaDataImport.EnumMembersWithName
+- IMetaDataImport.EnumMembersWithName
 targetos: Windows
 req.typenames: 
 req.redist: 

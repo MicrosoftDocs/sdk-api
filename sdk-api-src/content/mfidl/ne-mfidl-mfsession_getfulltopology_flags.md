@@ -1,19 +1,17 @@
 ---
 UID: NE:mfidl.MFSESSION_GETFULLTOPOLOGY_FLAGS
 title: MFSESSION_GETFULLTOPOLOGY_FLAGS (mfidl.h)
-
 description: Defines flags for the IMFMediaSession::GetFullTopology method.
 old-location: mf\mfsession_getfulltopology_flags.htm
 tech.root: medfound
 ms.assetid: a635b9c8-f01f-4757-8dc2-f470c2270efa
-
 ms.date: 12/05/2018
 ms.keywords: MFSESSION_GETFULLTOPOLOGY_CURRENT, MFSESSION_GETFULLTOPOLOGY_FLAGS, MFSESSION_GETFULLTOPOLOGY_FLAGS enumeration [Media Foundation], a635b9c8-f01f-4757-8dc2-f470c2270efa, mf.mfsession_getfulltopology_flags, mfidl/MFSESSION_GETFULLTOPOLOGY_CURRENT, mfidl/MFSESSION_GETFULLTOPOLOGY_FLAGS
 ms.topic: enum
-f1_keywords: 
- - "mfidl/MFSESSION_GETFULLTOPOLOGY_FLAGS"
+f1_keywords:
+- mfidl/MFSESSION_GETFULLTOPOLOGY_FLAGS
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - mfidl.h
+- mfidl.h
 api_name:
- - MFSESSION_GETFULLTOPOLOGY_FLAGS
+- MFSESSION_GETFULLTOPOLOGY_FLAGS
 targetos: Windows
 req.typenames: MFSESSION_GETFULLTOPOLOGY_FLAGS
 req.redist: 

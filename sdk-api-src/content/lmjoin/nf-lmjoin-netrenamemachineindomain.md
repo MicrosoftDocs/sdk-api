@@ -1,19 +1,17 @@
 ---
 UID: NF:lmjoin.NetRenameMachineInDomain
 title: NetRenameMachineInDomain function (lmjoin.h)
-
 description: The NetRenameMachineInDomain function changes the name of a computer in a domain.
 old-location: netmgmt\netrenamemachineindomain.htm
 tech.root: NetMgmt
 ms.assetid: 1f7ddaa1-a349-49a6-856d-a2fde2f1dc3b
-
 ms.date: 12/05/2018
 ms.keywords: NetRenameMachineInDomain, NetRenameMachineInDomain function [Network Management], _win32_netrenamemachineindomain, lmjoin/NetRenameMachineInDomain, netmgmt.netrenamemachineindomain
 ms.topic: function
-f1_keywords: 
- - "lmjoin/NetRenameMachineInDomain"
+f1_keywords:
+- lmjoin/NetRenameMachineInDomain
 dev_langs:
- - c++
+- c++
 req.header: lmjoin.h
 req.include-header: Lm.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Netapi32.lib
 req.dll: Netapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Netapi32.dll
+- Netapi32.dll
 api_name:
- - NetRenameMachineInDomain
+- NetRenameMachineInDomain
 targetos: Windows
 req.typenames: 
 req.redist: 

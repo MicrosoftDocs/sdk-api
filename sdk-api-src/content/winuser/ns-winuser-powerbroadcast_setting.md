@@ -1,19 +1,17 @@
 ---
 UID: NS:winuser.__unnamed_struct_1
 title: POWERBROADCAST_SETTING (winuser.h)
-
 description: Sent with a power setting event and contains data about the specific change.
 old-location: base\powerbroadcast_setting.htm
 tech.root: power
 ms.assetid: 13fa8220-bad2-4bb6-b652-38fc11a31215
-
 ms.date: 12/05/2018
-ms.keywords: "*PPOWERBROADCAST_SETTING, POWERBROADCAST_SETTING, POWERBROADCAST_SETTING structure, PPOWERBROADCAST_SETTING, PPOWERBROADCAST_SETTING structure pointer, base.powerbroadcast_setting, winuser/POWERBROADCAST_SETTING, winuser/PPOWERBROADCAST_SETTING"
+ms.keywords: '*PPOWERBROADCAST_SETTING, POWERBROADCAST_SETTING, POWERBROADCAST_SETTING structure, PPOWERBROADCAST_SETTING, PPOWERBROADCAST_SETTING structure pointer, base.powerbroadcast_setting, winuser/POWERBROADCAST_SETTING, winuser/PPOWERBROADCAST_SETTING'
 ms.topic: struct
-f1_keywords: 
- - "winuser/POWERBROADCAST_SETTING"
+f1_keywords:
+- winuser/POWERBROADCAST_SETTING
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WinUser.h
+- WinUser.h
 api_name:
- - POWERBROADCAST_SETTING
+- POWERBROADCAST_SETTING
 targetos: Windows
 req.typenames: POWERBROADCAST_SETTING, *PPOWERBROADCAST_SETTING
 req.redist: 

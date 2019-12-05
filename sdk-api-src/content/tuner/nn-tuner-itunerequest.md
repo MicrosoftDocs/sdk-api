@@ -1,19 +1,17 @@
 ---
 UID: NN:tuner.ITuneRequest
 title: ITuneRequest (tuner.h)
-
 description: The ITuneRequest interface is the base interface for all tune requests.
 old-location: mstv\itunerequest.htm
 tech.root: mstv
 ms.assetid: 34077b45-32b4-466b-b103-6a42fc869265
-
 ms.date: 12/05/2018
 ms.keywords: ITuneRequest, ITuneRequest interface [Microsoft TV Technologies], ITuneRequest interface [Microsoft TV Technologies],described, ITuneRequestInterface, mstv.itunerequest, tuner/ITuneRequest
 ms.topic: interface
-f1_keywords: 
- - "tuner/ITuneRequest"
+f1_keywords:
+- tuner/ITuneRequest
 dev_langs:
- - c++
+- c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - tuner.h
+- tuner.h
 api_name:
- - ITuneRequest
+- ITuneRequest
 targetos: Windows
 req.typenames: 
 req.redist: 

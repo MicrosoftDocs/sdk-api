@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationcore.ITextRangeProvider2.ShowContextMenu
 title: ITextRangeProvider2::ShowContextMenu (uiautomationcore.h)
-
 description: Programmatically invokes a context menu on the target element.
 old-location: winauto\uiauto_ITextRangeProvider2_ShowContextMenu.htm
 tech.root: WinAuto
 ms.assetid: 7CE8B351-6103-1A73-8E74-7B21C90EC953
-
 ms.date: 12/05/2018
 ms.keywords: ITextRangeProvider2 interface [Windows Accessibility],ShowContextMenu method, ITextRangeProvider2.ShowContextMenu, ITextRangeProvider2::ShowContextMenu, ShowContextMenu, ShowContextMenu method [Windows Accessibility], ShowContextMenu method [Windows Accessibility],ITextRangeProvider2 interface, uiautomationcore/ITextRangeProvider2::ShowContextMenu, winauto.uiauto_ITextRangeProvider2_ShowContextMenu
 ms.topic: method
-f1_keywords: 
- - "uiautomationcore/ITextRangeProvider2.ShowContextMenu"
+f1_keywords:
+- uiautomationcore/ITextRangeProvider2.ShowContextMenu
 dev_langs:
- - c++
+- c++
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationCore.h
+- UIAutomationCore.h
 api_name:
- - ITextRangeProvider2.ShowContextMenu
+- ITextRangeProvider2.ShowContextMenu
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NN:msime.IFELanguage
 title: IFELanguage (msime.h)
-
 description: The IFELanguage interface provides language processing services using the Microsoft IME.
 old-location: intl\ifelanguage.htm
 tech.root: Intl
 ms.assetid: 9EE1BD9E-2D58-4720-841C-39865375BFE0
-
 ms.date: 12/05/2018
 ms.keywords: IFELanguage, IFELanguage interface [Internationalization for Windows Applications], IFELanguage interface [Internationalization for Windows Applications],described, intl.ifelanguage, msime/IFELanguage
 ms.topic: interface
-f1_keywords: 
- - "msime/IFELanguage"
+f1_keywords:
+- msime/IFELanguage
 dev_langs:
- - c++
+- c++
 req.header: msime.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msime.h
+- Msime.h
 api_name:
- - IFELanguage
+- IFELanguage
 targetos: Windows
 req.typenames: 
 req.redist: 

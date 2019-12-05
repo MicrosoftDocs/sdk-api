@@ -1,19 +1,17 @@
 ---
 UID: NF:ctffunc.ITfLMLattice.EnumLatticeElements
 title: ITfLMLattice::EnumLatticeElements (ctffunc.h)
-
 description: ITfLMLattice::EnumLatticeElements method
 old-location: tsf\itflmlattice_enumlatticeelements.htm
 tech.root: TSF
 ms.assetid: c42ad69f-d27a-40b7-8d63-3b422cb69db5
-
 ms.date: 12/05/2018
 ms.keywords: EnumLatticeElements, EnumLatticeElements method [Text Services Framework], EnumLatticeElements method [Text Services Framework],ITfLMLattice interface, ITfLMLattice interface [Text Services Framework],EnumLatticeElements method, ITfLMLattice.EnumLatticeElements, ITfLMLattice::EnumLatticeElements, _tsf_itflmlattice_enumlatticeelements_ref, ctffunc/ITfLMLattice::EnumLatticeElements, tsf.itflmlattice_enumlatticeelements
 ms.topic: method
-f1_keywords: 
- - "ctffunc/ITfLMLattice.EnumLatticeElements"
+f1_keywords:
+- ctffunc/ITfLMLattice.EnumLatticeElements
 dev_langs:
- - c++
+- c++
 req.header: ctffunc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msctf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msctf.dll
+- Msctf.dll
 api_name:
- - ITfLMLattice.EnumLatticeElements
+- ITfLMLattice.EnumLatticeElements
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

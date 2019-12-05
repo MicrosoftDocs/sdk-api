@@ -1,19 +1,17 @@
 ---
 UID: NS:mediaobj._DMO_OUTPUT_DATA_BUFFER
 title: DMO_OUTPUT_DATA_BUFFER (mediaobj.h)
-
 description: The DMO_OUTPUT_DATA_BUFFER structure describes an output buffer used by a Microsoft DirectX Media Object (DMO).
 old-location: dshow\dmo_output_data_buffer.htm
 tech.root: DirectShow
 ms.assetid: 87fa2000-8dab-4f30-940a-14fb6699f616
-
 ms.date: 12/05/2018
-ms.keywords: "*PDMO_OUTPUT_DATA_BUFFER, DMO_OUTPUT_DATA_BUFFER, DMO_OUTPUT_DATA_BUFFER structure [DirectShow], DMO_OUTPUT_DATA_BUFFERStructure, PDMO_OUTPUT_DATA_BUFFER, PDMO_OUTPUT_DATA_BUFFER structure pointer [DirectShow], dshow.dmo_output_data_buffer, mediaobj/DMO_OUTPUT_DATA_BUFFER, mediaobj/PDMO_OUTPUT_DATA_BUFFER"
+ms.keywords: '*PDMO_OUTPUT_DATA_BUFFER, DMO_OUTPUT_DATA_BUFFER, DMO_OUTPUT_DATA_BUFFER structure [DirectShow], DMO_OUTPUT_DATA_BUFFERStructure, PDMO_OUTPUT_DATA_BUFFER, PDMO_OUTPUT_DATA_BUFFER structure pointer [DirectShow], dshow.dmo_output_data_buffer, mediaobj/DMO_OUTPUT_DATA_BUFFER, mediaobj/PDMO_OUTPUT_DATA_BUFFER'
 ms.topic: struct
-f1_keywords: 
- - "mediaobj/DMO_OUTPUT_DATA_BUFFER"
+f1_keywords:
+- mediaobj/DMO_OUTPUT_DATA_BUFFER
 dev_langs:
- - c++
+- c++
 req.header: mediaobj.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Mediaobj.h
+- Mediaobj.h
 api_name:
- - DMO_OUTPUT_DATA_BUFFER
+- DMO_OUTPUT_DATA_BUFFER
 targetos: Windows
 req.typenames: DMO_OUTPUT_DATA_BUFFER, *PDMO_OUTPUT_DATA_BUFFER
 req.redist: 

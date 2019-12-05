@@ -1,7 +1,6 @@
 ---
 UID: NA:wsman
 ms.assetid: 8ce23ed9-e3ad-3b0c-807f-1ceeb075279e
-
 ms.date: 01/11/2019
 ms.keywords: 
 ms.topic: portal

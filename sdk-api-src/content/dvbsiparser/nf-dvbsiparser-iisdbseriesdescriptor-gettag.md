@@ -1,19 +1,17 @@
 ---
 UID: NF:dvbsiparser.IIsdbSeriesDescriptor.GetTag
 title: IIsdbSeriesDescriptor::GetTag (dvbsiparser.h)
-
 description: Gets the tag that identifies an Integrated Services Digital Broadcasting (ISDB) series descriptor.
 old-location: mstv\iisdbseriesdescriptor_gettag.htm
 tech.root: mstv
 ms.assetid: 7f67fcf4-76b6-4e1c-99a1-e09b406b5bd9
-
 ms.date: 12/05/2018
 ms.keywords: GetTag, GetTag method [Microsoft TV Technologies], GetTag method [Microsoft TV Technologies],IIsdbSeriesDescriptor interface, IIsdbSeriesDescriptor interface [Microsoft TV Technologies],GetTag method, IIsdbSeriesDescriptor.GetTag, IIsdbSeriesDescriptor::GetTag, dvbsiparser/IIsdbSeriesDescriptor::GetTag, mstv.iisdbseriesdescriptor_gettag
 ms.topic: method
-f1_keywords: 
- - "dvbsiparser/IIsdbSeriesDescriptor.GetTag"
+f1_keywords:
+- dvbsiparser/IIsdbSeriesDescriptor.GetTag
 dev_langs:
- - c++
+- c++
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dvbsiparser.h
+- dvbsiparser.h
 api_name:
- - IIsdbSeriesDescriptor.GetTag
+- IIsdbSeriesDescriptor.GetTag
 targetos: Windows
 req.typenames: 
 req.redist: 

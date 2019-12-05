@@ -1,19 +1,17 @@
 ---
 UID: NF:msopc.IOpcSignatureReference.GetId
 title: IOpcSignatureReference::GetId (msopc.h)
-
 description: Gets the identifier for the reference.
 old-location: opc\iopcsignaturereference_getid.htm
 tech.root: OPC
 ms.assetid: 741fd38e-910a-42c7-8bd2-006cf29843d9
-
 ms.date: 12/05/2018
 ms.keywords: GetId, GetId method [Open Packaging Conventions], GetId method [Open Packaging Conventions],IOpcSignatureReference interface, IOpcSignatureReference interface [Open Packaging Conventions],GetId method, IOpcSignatureReference.GetId, IOpcSignatureReference::GetId, msopc/IOpcSignatureReference::GetId, opc.iopcsignaturereference_getid
 ms.topic: method
-f1_keywords: 
- - "msopc/IOpcSignatureReference.GetId"
+f1_keywords:
+- msopc/IOpcSignatureReference.GetId
 dev_langs:
- - c++
+- c++
 req.header: msopc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msopc.h
+- msopc.h
 api_name:
- - IOpcSignatureReference.GetId
+- IOpcSignatureReference.GetId
 targetos: Windows
 req.typenames: 
 req.redist: 

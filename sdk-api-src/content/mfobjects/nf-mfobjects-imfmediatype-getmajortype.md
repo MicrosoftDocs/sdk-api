@@ -1,19 +1,17 @@
 ---
 UID: NF:mfobjects.IMFMediaType.GetMajorType
 title: IMFMediaType::GetMajorType (mfobjects.h)
-
 description: Gets the major type of the format.
 old-location: mf\imfmediatype_getmajortype.htm
 tech.root: medfound
 ms.assetid: 98f0a9ca-4766-4d2b-89b8-d6e30b75f47d
-
 ms.date: 12/05/2018
 ms.keywords: 98f0a9ca-4766-4d2b-89b8-d6e30b75f47d, GetMajorType, GetMajorType method [Media Foundation], GetMajorType method [Media Foundation],IMFMediaType interface, IMFMediaType interface [Media Foundation],GetMajorType method, IMFMediaType.GetMajorType, IMFMediaType::GetMajorType, mf.imfmediatype_getmajortype, mfobjects/IMFMediaType::GetMajorType
 ms.topic: method
-f1_keywords: 
- - "mfobjects/IMFMediaType.GetMajorType"
+f1_keywords:
+- mfobjects/IMFMediaType.GetMajorType
 dev_langs:
- - c++
+- c++
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFMediaType.GetMajorType
+- IMFMediaType.GetMajorType
 targetos: Windows
 req.typenames: 
 req.redist: 

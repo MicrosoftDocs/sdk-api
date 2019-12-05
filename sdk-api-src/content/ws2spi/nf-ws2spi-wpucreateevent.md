@@ -1,19 +1,17 @@
 ---
 UID: NF:ws2spi.WPUCreateEvent
 title: WPUCreateEvent function (ws2spi.h)
-
 description: The WPUCreateEvent function creates a new event object.
 old-location: winsock\wpucreateevent_2.htm
 tech.root: WinSock
 ms.assetid: 61e71e93-e35f-4122-bd4d-c103f652d2ca
-
 ms.date: 12/05/2018
 ms.keywords: WPUCreateEvent, WPUCreateEvent function [Winsock], _win32_wpucreateevent_2, winsock.wpucreateevent_2, ws2spi/WPUCreateEvent
 ms.topic: function
-f1_keywords: 
- - "ws2spi/WPUCreateEvent"
+f1_keywords:
+- ws2spi/WPUCreateEvent
 dev_langs:
- - c++
+- c++
 req.header: ws2spi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Ws2spi.h
+- Ws2spi.h
 api_name:
- - WPUCreateEvent
+- WPUCreateEvent
 targetos: Windows
 req.typenames: 
 req.redist: 

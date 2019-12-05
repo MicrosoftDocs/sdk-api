@@ -1,19 +1,17 @@
 ---
 UID: NF:objidl.IBindCtx.GetObjectParam
 title: IBindCtx::GetObjectParam (objidl.h)
-
 description: Retrieves an interface pointer to the object associated with the specified key in the bind context's string-keyed table of pointers.
 old-location: com\ibindctx_getobjectparam.htm
 tech.root: com
 ms.assetid: 8f423495-7a34-4901-968e-1fe204680d8a
-
 ms.date: 12/05/2018
 ms.keywords: GetObjectParam, GetObjectParam method [COM], GetObjectParam method [COM],IBindCtx interface, IBindCtx interface [COM],GetObjectParam method, IBindCtx.GetObjectParam, IBindCtx::GetObjectParam, _com_ibindctx_getobjectparam, com.ibindctx_getobjectparam, objidl/IBindCtx::GetObjectParam
 ms.topic: method
-f1_keywords: 
- - "objidl/IBindCtx.GetObjectParam"
+f1_keywords:
+- objidl/IBindCtx.GetObjectParam
 dev_langs:
- - c++
+- c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ObjIdl.h
+- ObjIdl.h
 api_name:
- - IBindCtx.GetObjectParam
+- IBindCtx.GetObjectParam
 targetos: Windows
 req.typenames: 
 req.redist: 

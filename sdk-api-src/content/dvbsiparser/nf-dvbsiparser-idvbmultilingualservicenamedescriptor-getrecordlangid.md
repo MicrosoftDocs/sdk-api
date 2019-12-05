@@ -1,19 +1,17 @@
 ---
 UID: NF:dvbsiparser.IDvbMultilingualServiceNameDescriptor.GetRecordLangId
 title: IDvbMultilingualServiceNameDescriptor::GetRecordLangId (dvbsiparser.h)
-
 description: Gets the three-character ISO 639 language code from a Digital Video Broadcast (DVB) multilingual service name descriptor. The language code identifies the language used for text in the descriptor.
 old-location: mstv\idvbmultilingualservicenamedescriptor_getrecordlangid.htm
 tech.root: mstv
 ms.assetid: a8432acb-f59b-4995-8b5d-576acab0f6b1
-
 ms.date: 12/05/2018
 ms.keywords: GetRecordLangId, GetRecordLangId method [Microsoft TV Technologies], GetRecordLangId method [Microsoft TV Technologies],IDvbMultilingualServiceNameDescriptor interface, IDvbMultilingualServiceNameDescriptor interface [Microsoft TV Technologies],GetRecordLangId method, IDvbMultilingualServiceNameDescriptor.GetRecordLangId, IDvbMultilingualServiceNameDescriptor::GetRecordLangId, dvbsiparser/IDvbMultilingualServiceNameDescriptor::GetRecordLangId, mstv.idvbmultilingualservicenamedescriptor_getrecordlangid
 ms.topic: method
-f1_keywords: 
- - "dvbsiparser/IDvbMultilingualServiceNameDescriptor.GetRecordLangId"
+f1_keywords:
+- dvbsiparser/IDvbMultilingualServiceNameDescriptor.GetRecordLangId
 dev_langs:
- - c++
+- c++
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dvbsiparser.h
+- dvbsiparser.h
 api_name:
- - IDvbMultilingualServiceNameDescriptor.GetRecordLangId
+- IDvbMultilingualServiceNameDescriptor.GetRecordLangId
 targetos: Windows
 req.typenames: 
 req.redist: 

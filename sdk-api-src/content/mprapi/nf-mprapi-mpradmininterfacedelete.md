@@ -1,19 +1,17 @@
 ---
 UID: NF:mprapi.MprAdminInterfaceDelete
 title: MprAdminInterfaceDelete function (mprapi.h)
-
 description: The MprAdminInterfaceDelete function deletes an interface on a specified server.
 old-location: rras\mpradmininterfacedelete.htm
 tech.root: RRAS
 ms.assetid: a02fff1d-c0e0-4a00-b77e-33cc45850bc6
-
 ms.date: 12/05/2018
 ms.keywords: MprAdminInterfaceDelete, MprAdminInterfaceDelete function [RAS], _mpr_mpradmininterfacedelete, mprapi/MprAdminInterfaceDelete, rras.mpradmininterfacedelete
 ms.topic: function
-f1_keywords: 
- - "mprapi/MprAdminInterfaceDelete"
+f1_keywords:
+- mprapi/MprAdminInterfaceDelete
 dev_langs:
- - c++
+- c++
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Mprapi.lib
 req.dll: Mprapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Mprapi.dll
+- Mprapi.dll
 api_name:
- - MprAdminInterfaceDelete
+- MprAdminInterfaceDelete
 targetos: Windows
 req.typenames: 
 req.redist: 

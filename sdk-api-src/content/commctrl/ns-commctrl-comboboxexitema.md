@@ -1,19 +1,17 @@
 ---
 UID: NS:commctrl.tagCOMBOBOXEXITEMA
 title: COMBOBOXEXITEMA (commctrl.h)
-
 description: Contains information about an item in a ComboBoxEx control.
 old-location: controls\COMBOBOXEXITEM.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\comboex\structures\comboboxexitem.htm
-
 ms.date: 12/05/2018
-ms.keywords: "*PCOMBOBOXEXITEMA, CBEIF_DI_SETITEM, CBEIF_IMAGE, CBEIF_INDENT, CBEIF_LPARAM, CBEIF_OVERLAY, CBEIF_SELECTEDIMAGE, CBEIF_TEXT, COMBOBOXEXITEM, COMBOBOXEXITEM structure [Windows Controls], COMBOBOXEXITEMA, COMBOBOXEXITEMW, PCOMBOBOXEXITEM, PCOMBOBOXEXITEM structure pointer [Windows Controls], _win32_COMBOBOXEXITEM, _win32_COMBOBOXEXITEM_cpp, commctrl/COMBOBOXEXITEM, commctrl/COMBOBOXEXITEMA, commctrl/COMBOBOXEXITEMW, commctrl/PCOMBOBOXEXITEM, controls.COMBOBOXEXITEM, controls._win32_COMBOBOXEXITEM"
+ms.keywords: '*PCOMBOBOXEXITEMA, CBEIF_DI_SETITEM, CBEIF_IMAGE, CBEIF_INDENT, CBEIF_LPARAM, CBEIF_OVERLAY, CBEIF_SELECTEDIMAGE, CBEIF_TEXT, COMBOBOXEXITEM, COMBOBOXEXITEM structure [Windows Controls], COMBOBOXEXITEMA, COMBOBOXEXITEMW, PCOMBOBOXEXITEM, PCOMBOBOXEXITEM structure pointer [Windows Controls], _win32_COMBOBOXEXITEM, _win32_COMBOBOXEXITEM_cpp, commctrl/COMBOBOXEXITEM, commctrl/COMBOBOXEXITEMA, commctrl/COMBOBOXEXITEMW, commctrl/PCOMBOBOXEXITEM, controls.COMBOBOXEXITEM, controls._win32_COMBOBOXEXITEM'
 ms.topic: struct
-f1_keywords: 
- - "commctrl/COMBOBOXEXITEM"
+f1_keywords:
+- commctrl/COMBOBOXEXITEM
 dev_langs:
- - c++
+- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Commctrl.h
+- Commctrl.h
 api_name:
- - COMBOBOXEXITEM
- - COMBOBOXEXITEMA
- - COMBOBOXEXITEMW
+- COMBOBOXEXITEM
+- COMBOBOXEXITEMA
+- COMBOBOXEXITEMW
 targetos: Windows
 req.typenames: COMBOBOXEXITEMA, *PCOMBOBOXEXITEMA
 req.redist: 

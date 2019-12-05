@@ -1,19 +1,17 @@
 ---
 UID: NF:gdiplusmetaheader.MetafileHeader.GetEmfHeader
 title: MetafileHeader::GetEmfHeader (gdiplusmetaheader.h)
-
 description: The MetafileHeader::GetEmfHeader method gets an ENHMETAHEADER3 structure that contains properties of the associated metafile.
 old-location: gdiplus\_gdiplus_CLASS_MetafileHeader_GetEmfHeader_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\metafileheaderclass\metafileheadermethods\getemfheader.htm
-
 ms.date: 12/05/2018
 ms.keywords: GetEmfHeader, GetEmfHeader method [GDI+], GetEmfHeader method [GDI+],MetafileHeader class, MetafileHeader class [GDI+],GetEmfHeader method, MetafileHeader.GetEmfHeader, MetafileHeader::GetEmfHeader, _gdiplus_CLASS_MetafileHeader_GetEmfHeader_, gdiplus._gdiplus_CLASS_MetafileHeader_GetEmfHeader_
 ms.topic: method
-f1_keywords: 
- - "gdiplusmetaheader/MetafileHeader.GetEmfHeader"
+f1_keywords:
+- gdiplusmetaheader/MetafileHeader.GetEmfHeader
 dev_langs:
- - c++
+- c++
 req.header: gdiplusmetaheader.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - MetafileHeader.GetEmfHeader
+- MetafileHeader.GetEmfHeader
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:processsnapshot.PssCaptureSnapshot
 title: PssCaptureSnapshot function (processsnapshot.h)
-
 description: Captures a snapshot of a target process.
 old-location: proc_snap\psscapturesnapshot.htm
 tech.root: proc_snap
 ms.assetid: 44F2CB48-A9F6-4131-B21C-9F27A27CECD5
-
 ms.date: 12/05/2018
 ms.keywords: PssCaptureSnapshot, PssCaptureSnapshot function, proc_snap.psscapturesnapshot, processsnapshot/PssCaptureSnapshot
 ms.topic: function
-f1_keywords: 
- - "processsnapshot/PssCaptureSnapshot"
+f1_keywords:
+- processsnapshot/PssCaptureSnapshot
 dev_langs:
- - c++
+- c++
 req.header: processsnapshot.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - kernel32.dll
- - API-MS-Win-Core-Processsnapshot-l1-1-0.dll
- - KernelBase.dll
+- kernel32.dll
+- API-MS-Win-Core-Processsnapshot-l1-1-0.dll
+- KernelBase.dll
 api_name:
- - PssCaptureSnapshot
+- PssCaptureSnapshot
 targetos: Windows
 req.typenames: 
 req.redist: 

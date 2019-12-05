@@ -1,19 +1,17 @@
 ---
 UID: NS:mfidl._ASFFlatSynchronisedLyrics
 title: ASF_FLAT_SYNCHRONISED_LYRICS (mfidl.h)
-
 description: Contains synchronized lyrics stored as metadata for a media source. This structure is used as the data item for the WM/Lyrics_Synchronised metadata attribute.
 old-location: mf\asf_flat_synchronised_lyrics.htm
 tech.root: medfound
 ms.assetid: 518c7e81-6492-40f9-a8e8-222c19de6cc0
-
 ms.date: 12/05/2018
 ms.keywords: 518c7e81-6492-40f9-a8e8-222c19de6cc0, ASF_FLAT_SYNCHRONISED_LYRICS, ASF_FLAT_SYNCHRONISED_LYRICS structure [Media Foundation], mf.asf_flat_synchronised_lyrics, mfidl/ASF_FLAT_SYNCHRONISED_LYRICS
 ms.topic: struct
-f1_keywords: 
- - "mfidl/ASF_FLAT_SYNCHRONISED_LYRICS"
+f1_keywords:
+- mfidl/ASF_FLAT_SYNCHRONISED_LYRICS
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - mfidl.h
+- mfidl.h
 api_name:
- - ASF_FLAT_SYNCHRONISED_LYRICS
+- ASF_FLAT_SYNCHRONISED_LYRICS
 targetos: Windows
 req.typenames: ASF_FLAT_SYNCHRONISED_LYRICS
 req.redist: 

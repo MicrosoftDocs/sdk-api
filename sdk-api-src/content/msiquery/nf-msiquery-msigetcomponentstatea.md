@@ -1,19 +1,17 @@
 ---
 UID: NF:msiquery.MsiGetComponentStateA
 title: MsiGetComponentStateA function (msiquery.h)
-
 description: The MsiGetComponentState function obtains the state of a component.
 old-location: setup\msigetcomponentstate.htm
 tech.root: Msi
 ms.assetid: 343f5cbc-e026-4a51-9c54-da5d10b7caa8
-
 ms.date: 12/05/2018
 ms.keywords: INSTALLSTATE_ABSENT, INSTALLSTATE_DEFAULT, INSTALLSTATE_LOCAL, INSTALLSTATE_REMOVED, INSTALLSTATE_SOURCE, INSTALLSTATE_UNKNOWN, MsiGetComponentState, MsiGetComponentState function, MsiGetComponentStateA, MsiGetComponentStateW, _msi_msigetcomponentstate, msiquery/MsiGetComponentState, msiquery/MsiGetComponentStateA, msiquery/MsiGetComponentStateW, setup.msigetcomponentstate
 ms.topic: function
-f1_keywords: 
- - "msiquery/MsiGetComponentState"
+f1_keywords:
+- msiquery/MsiGetComponentState
 dev_langs:
- - c++
+- c++
 req.header: msiquery.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Msi.lib
 req.dll: Msi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Msi.dll
+- Msi.dll
 api_name:
- - MsiGetComponentState
- - MsiGetComponentStateA
- - MsiGetComponentStateW
+- MsiGetComponentState
+- MsiGetComponentStateA
+- MsiGetComponentStateW
 targetos: Windows
 req.typenames: 
 req.redist: 

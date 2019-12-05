@@ -1,19 +1,17 @@
 ---
 UID: NN:wuapi.ICategory
 title: ICategory (wuapi.h)
-
 description: Represents the category to which an update belongs.
 old-location: wua\icategory.htm
 tech.root: Wua_Sdk
 ms.assetid: 1ae4ab27-97f3-494b-acd2-991dccf56011
-
 ms.date: 12/05/2018
 ms.keywords: ICategory, ICategory interface [Windows Update Agent], ICategory interface [Windows Update Agent],described, wua.icategory, wuapi/ICategory
 ms.topic: interface
-f1_keywords: 
- - "wuapi/ICategory"
+f1_keywords:
+- wuapi/ICategory
 dev_langs:
- - c++
+- c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Wuguid.lib
 req.dll: Wuapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wuapi.dll
+- Wuapi.dll
 api_name:
- - ICategory
+- ICategory
 targetos: Windows
 req.typenames: 
 req.redist: 

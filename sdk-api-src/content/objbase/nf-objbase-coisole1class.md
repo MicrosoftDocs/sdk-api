@@ -1,19 +1,17 @@
 ---
 UID: NF:objbase.CoIsOle1Class
 title: CoIsOle1Class function (objbase.h)
-
 description: Determines whether the specified CLSID represents an OLE 1 object.
 old-location: com\coisole1class.htm
 tech.root: com
 ms.assetid: 3f6a021d-c8fe-40dd-9c3a-30f22ad76ce3
-
 ms.date: 12/05/2018
 ms.keywords: CoIsOle1Class, CoIsOle1Class function [COM], _com_CoIsOle1Class, com.coisole1class, objbase/CoIsOle1Class
 ms.topic: function
-f1_keywords: 
- - "objbase/CoIsOle1Class"
+f1_keywords:
+- objbase/CoIsOle1Class
 dev_langs:
- - c++
+- c++
 req.header: objbase.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Ole32.lib
 req.dll: Ole32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ole32.dll
+- Ole32.dll
 api_name:
- - CoIsOle1Class
+- CoIsOle1Class
 targetos: Windows
 req.typenames: 
 req.redist: 

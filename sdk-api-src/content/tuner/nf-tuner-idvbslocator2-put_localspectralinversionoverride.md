@@ -1,19 +1,17 @@
 ---
 UID: NF:tuner.IDVBSLocator2.put_LocalSpectralInversionOverride
 title: IDVBSLocator2::put_LocalSpectralInversionOverride (tuner.h)
-
 description: Specifies the spectral inversion state for a Digital Video Broadcasting-Satellite, Second Generation (DVB-S2) signal.
 old-location: mstv\idvbslocator2_localspectralinversionoverride.htm
 tech.root: mstv
 ms.assetid: 1ba386d4-f058-4e8b-9eb3-e2a6f4e76ca6
-
 ms.date: 12/05/2018
 ms.keywords: IDVBSLocator2 interface [Microsoft TV Technologies],LocalSpectralInversionOverride property, IDVBSLocator2.LocalSpectralInversionOverride, IDVBSLocator2.put_LocalSpectralInversionOverride, IDVBSLocator2::LocalSpectralInversionOverride, IDVBSLocator2::get_LocalSpectralInversionOverride, IDVBSLocator2::put_LocalSpectralInversionOverride, LocalSpectralInversionOverride property [Microsoft TV Technologies], LocalSpectralInversionOverride property [Microsoft TV Technologies],IDVBSLocator2 interface, mstv.idvbslocator2_localspectralinversionoverride, put_LocalSpectralInversionOverride, tuner/IDVBSLocator2::LocalSpectralInversionOverride, tuner/IDVBSLocator2::get_LocalSpectralInversionOverride, tuner/IDVBSLocator2::put_LocalSpectralInversionOverride
 ms.topic: method
-f1_keywords: 
- - "tuner/IDVBSLocator2.LocalSpectralInversionOverride"
+f1_keywords:
+- tuner/IDVBSLocator2.LocalSpectralInversionOverride
 dev_langs:
- - c++
+- c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - tuner.h
+- tuner.h
 api_name:
- - IDVBSLocator2.LocalSpectralInversionOverride
- - IDVBSLocator2.get_LocalSpectralInversionOverride
- - IDVBSLocator2.put_LocalSpectralInversionOverride
+- IDVBSLocator2.LocalSpectralInversionOverride
+- IDVBSLocator2.get_LocalSpectralInversionOverride
+- IDVBSLocator2.put_LocalSpectralInversionOverride
 targetos: Windows
 req.typenames: 
 req.redist: 

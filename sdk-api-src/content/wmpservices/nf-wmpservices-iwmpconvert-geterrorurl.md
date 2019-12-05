@@ -1,19 +1,17 @@
 ---
 UID: NF:wmpservices.IWMPConvert.GetErrorURL
 title: IWMPConvert::GetErrorURL (wmpservices.h)
-
 description: The GetErrorURL method is implemented by a conversion plug-in and called by Windows Media Player to retrieve the URL of a webpage that displays information to help the user correct the condition that caused an error.
 old-location: wmp\iwmpconvert_geterrorurl.htm
 tech.root: WMP
 ms.assetid: 27a2ff9a-0c95-4c82-8e4a-c91d2a595005
-
 ms.date: 12/05/2018
 ms.keywords: GetErrorURL, GetErrorURL method [Windows Media Player], GetErrorURL method [Windows Media Player],IWMPConvert interface, IWMPConvert interface [Windows Media Player],GetErrorURL method, IWMPConvert.GetErrorURL, IWMPConvert::GetErrorURL, IWMPConvertGetErrorURL, wmp.iwmpconvert_geterrorurl, wmpservices/IWMPConvert::GetErrorURL
 ms.topic: method
-f1_keywords: 
- - "wmpservices/IWMPConvert.GetErrorURL"
+f1_keywords:
+- wmpservices/IWMPConvert.GetErrorURL
 dev_langs:
- - c++
+- c++
 req.header: wmpservices.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmpservices.h
+- wmpservices.h
 api_name:
- - IWMPConvert.GetErrorURL
+- IWMPConvert.GetErrorURL
 targetos: Windows
 req.typenames: 
 req.redist: 

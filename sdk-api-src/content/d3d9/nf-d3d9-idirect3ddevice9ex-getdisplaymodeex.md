@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d9.IDirect3DDevice9Ex.GetDisplayModeEx
 title: IDirect3DDevice9Ex::GetDisplayModeEx (d3d9.h)
-
 description: Retrieves the display mode's spatial resolution, color resolution, refresh frequency, and rotation settings.
 old-location: direct3d9\idirect3ddevice9ex_getdisplaymodeex.htm
 tech.root: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3ddevice9ex_getdisplaymodeex.htm
-
 ms.date: 12/05/2018
 ms.keywords: 3de20b27-6ffa-11bb-e9a5-d1af96f798ac, GetDisplayModeEx, GetDisplayModeEx method [Direct3D 9], GetDisplayModeEx method [Direct3D 9],IDirect3DDevice9Ex interface, IDirect3DDevice9Ex interface [Direct3D 9],GetDisplayModeEx method, IDirect3DDevice9Ex.GetDisplayModeEx, IDirect3DDevice9Ex::GetDisplayModeEx, d3d9/IDirect3DDevice9Ex::GetDisplayModeEx, direct3d9.idirect3ddevice9ex_getdisplaymodeex
 ms.topic: method
-f1_keywords: 
- - "d3d9/IDirect3DDevice9Ex.GetDisplayModeEx"
+f1_keywords:
+- d3d9/IDirect3DDevice9Ex.GetDisplayModeEx
 dev_langs:
- - c++
+- c++
 req.header: d3d9.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: D3D9.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D9.lib
- - D3D9.dll
+- D3D9.lib
+- D3D9.dll
 api_name:
- - IDirect3DDevice9Ex.GetDisplayModeEx
+- IDirect3DDevice9Ex.GetDisplayModeEx
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:combaseapi.CoSuspendClassObjects
 title: CoSuspendClassObjects function (combaseapi.h)
-
 description: Prevents any new activation requests from the SCM on all class objects registered within the process.
 old-location: com\cosuspendclassobjects.htm
 tech.root: com
 ms.assetid: a9e526f8-b7c1-47ec-a6ab-91690d93119e
-
 ms.date: 12/05/2018
 ms.keywords: CoSuspendClassObjects, CoSuspendClassObjects function [COM], _com_CoSuspendClassObjects, com.cosuspendclassobjects, combaseapi/CoSuspendClassObjects
 ms.topic: function
-f1_keywords: 
- - "combaseapi/CoSuspendClassObjects"
+f1_keywords:
+- combaseapi/CoSuspendClassObjects
 dev_langs:
- - c++
+- c++
 req.header: combaseapi.h
 req.include-header: Objbase.h
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib: Ole32.lib
 req.dll: Ole32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ole32.dll
- - API-MS-Win-Core-Com-l1-1-0.dll
- - ComBase.dll
- - API-MS-Win-Core-Com-l1-1-1.dll
- - API-MS-Win-DownLevel-Ole32-l1-1-1.dll
+- Ole32.dll
+- API-MS-Win-Core-Com-l1-1-0.dll
+- ComBase.dll
+- API-MS-Win-Core-Com-l1-1-1.dll
+- API-MS-Win-DownLevel-Ole32-l1-1-1.dll
 api_name:
- - CoSuspendClassObjects
+- CoSuspendClassObjects
 targetos: Windows
 req.typenames: 
 req.redist: 

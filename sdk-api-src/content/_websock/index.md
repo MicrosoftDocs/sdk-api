@@ -1,7 +1,6 @@
 ---
 UID: TP:websock
 ms.assetid: 20563dfc-2fbf-3ceb-9949-fabc0e8b9e87
-
 ms.date: 01/11/2019
 ms.keywords: 
 ms.topic: portal

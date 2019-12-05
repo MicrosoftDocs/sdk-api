@@ -1,19 +1,17 @@
 ---
 UID: NF:timeprov.TimeProvCommand
 title: TimeProvCommand function (timeprov.h)
-
 description: A callback function that is called by the time provider manager to send commands to the time provider.
 old-location: base\timeprovcommand.htm
 tech.root: SysInfo
 ms.assetid: 07b0bdf2-d224-4bbc-be29-9032a848d5ae
-
 ms.date: 12/05/2018
 ms.keywords: TPC_GetSamples, TPC_NetTopoChange, TPC_PollIntervalChanged, TPC_Query, TPC_Shutdown, TPC_TimeJumped, TPC_UpdateConfig, TimeProvCommand, TimeProvCommand callback, TimeProvCommand callback function, _win32_timeprovcommand, base.timeprovcommand, timeprov/TimeProvCommand
 ms.topic: function
-f1_keywords: 
- - "timeprov/TimeProvCommand"
+f1_keywords:
+- timeprov/TimeProvCommand
 dev_langs:
- - c++
+- c++
 req.header: timeprov.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Timeprov.h
+- Timeprov.h
 api_name:
- - TimeProvCommand
+- TimeProvCommand
 targetos: Windows
 req.typenames: 
 req.redist: 

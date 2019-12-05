@@ -1,19 +1,17 @@
 ---
 UID: NF:netfw.INetFwPolicy2.get_ServiceRestriction
 title: INetFwPolicy2::get_ServiceRestriction (netfw.h)
-
 description: Retrieves the interface used to access the Windows Service Hardening store.
 old-location: ics\inetfwpolicy2_servicerestriction.htm
 tech.root: ics
 ms.assetid: cc62b295-23b5-40e8-a43a-1b4b67ac0f83
-
 ms.date: 12/05/2018
 ms.keywords: INetFwPolicy2 interface [ICS/ICF],ServiceRestriction property, INetFwPolicy2.ServiceRestriction, INetFwPolicy2.get_ServiceRestriction, INetFwPolicy2::ServiceRestriction, INetFwPolicy2::get_ServiceRestriction, ServiceRestriction property [ICS/ICF], ServiceRestriction property [ICS/ICF],INetFwPolicy2 interface, get_ServiceRestriction, ics.inetfwpolicy2_servicerestriction, netfw/INetFwPolicy2::ServiceRestriction, netfw/INetFwPolicy2::get_ServiceRestriction
 ms.topic: method
-f1_keywords: 
- - "netfw/INetFwPolicy2.ServiceRestriction"
+f1_keywords:
+- netfw/INetFwPolicy2.ServiceRestriction
 dev_langs:
- - c++
+- c++
 req.header: netfw.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: FirewallAPI.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - FirewallAPI.dll
+- FirewallAPI.dll
 api_name:
- - INetFwPolicy2.ServiceRestriction
- - INetFwPolicy2.get_ServiceRestriction
+- INetFwPolicy2.ServiceRestriction
+- INetFwPolicy2.get_ServiceRestriction
 targetos: Windows
 req.typenames: 
 req.redist: 

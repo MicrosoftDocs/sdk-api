@@ -1,19 +1,17 @@
 ---
 UID: NF:winuser.ToAsciiEx
 title: ToAsciiEx function (winuser.h)
-
 description: Translates the specified virtual-key code and keyboard state to the corresponding character or characters. The function translates the code using the input language and physical keyboard layout identified by the input locale identifier.
 old-location: inputdev\toasciiex.htm
 tech.root: inputdev
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\keyboardinput\keyboardinputreference\keyboardinputfunctions\toasciiex.htm
-
 ms.date: 12/05/2018
 ms.keywords: ToAsciiEx, ToAsciiEx function [Keyboard and Mouse Input], _win32_ToAsciiEx, _win32_toasciiex_cpp, inputdev.toasciiex, winui._win32_toasciiex, winuser/ToAsciiEx
 ms.topic: function
-f1_keywords: 
- - "winuser/ToAsciiEx"
+f1_keywords:
+- winuser/ToAsciiEx
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - User32.dll
- - Ext-MS-Win-NTUser-Keyboard-l1-1-2.dll
- - Ext-MS-Win-NTUser-Keyboard-L1-2-0.dll
- - Ext-MS-Win-NTUser-Keyboard-L1-2-1.dll
- - Ext-MS-Win-NTUser-Keyboard-L1-3-0.dll
+- User32.dll
+- Ext-MS-Win-NTUser-Keyboard-l1-1-2.dll
+- Ext-MS-Win-NTUser-Keyboard-L1-2-0.dll
+- Ext-MS-Win-NTUser-Keyboard-L1-2-1.dll
+- Ext-MS-Win-NTUser-Keyboard-L1-3-0.dll
 api_name:
- - ToAsciiEx
+- ToAsciiEx
 targetos: Windows
 req.typenames: 
 req.redist: 

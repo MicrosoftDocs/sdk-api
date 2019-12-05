@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationcoreapi.UiaProviderFromIAccessible
 title: UiaProviderFromIAccessible function (uiautomationcoreapi.h)
-
 description: Creates a Microsoft UI Automation provider based on the specified Microsoft Active Accessibility object.
 old-location: winauto\uiauto_UiaProviderFromIAccessibleFunction.htm
 tech.root: WinAuto
 ms.assetid: 9858B3B2-CE93-4209-BAFE-BFC911042800
-
 ms.date: 12/05/2018
 ms.keywords: UIA_PFIA_DEFAULT, UIA_PFIA_UNWRAP_BRIDGE, UiaProviderFromIAccessible, UiaProviderFromIAccessible function [Windows Accessibility], uiautomationcoreapi/UiaProviderFromIAccessible, winauto.uiauto_UiaProviderFromIAccessibleFunction
 ms.topic: function
-f1_keywords: 
- - "uiautomationcoreapi/UiaProviderFromIAccessible"
+f1_keywords:
+- uiautomationcoreapi/UiaProviderFromIAccessible
 dev_langs:
- - c++
+- c++
 req.header: uiautomationcoreapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uiautomationcore.lib
 req.dll: Uiautomationcore.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Uiautomationcore.dll
+- Uiautomationcore.dll
 api_name:
- - UiaProviderFromIAccessible
+- UiaProviderFromIAccessible
 targetos: Windows
 req.typenames: 
 req.redist: 

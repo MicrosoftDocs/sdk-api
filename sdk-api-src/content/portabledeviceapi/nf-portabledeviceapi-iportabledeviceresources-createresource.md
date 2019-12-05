@@ -1,19 +1,17 @@
 ---
 UID: NF:portabledeviceapi.IPortableDeviceResources.CreateResource
 title: IPortableDeviceResources::CreateResource (portabledeviceapi.h)
-
 description: The CreateResource method creates a resource.
 old-location: wpdsdk\iportabledeviceresources_createresource.htm
 tech.root: wpd_sdk
 ms.assetid: 1daaa2cd-d3a7-44ea-b17d-717875ff748d
-
 ms.date: 12/05/2018
 ms.keywords: CreateResource, CreateResource method [Windows Portable Devices SDK], CreateResource method [Windows Portable Devices SDK],IPortableDeviceResources interface, IPortableDeviceResources interface [Windows Portable Devices SDK],CreateResource method, IPortableDeviceResources.CreateResource, IPortableDeviceResources::CreateResource, IPortableDeviceResourcesCreateResource, portabledeviceapi/IPortableDeviceResources::CreateResource, wpdsdk.iportabledeviceresources_createresource
 ms.topic: method
-f1_keywords: 
- - "portabledeviceapi/IPortableDeviceResources.CreateResource"
+f1_keywords:
+- portabledeviceapi/IPortableDeviceResources.CreateResource
 dev_langs:
- - c++
+- c++
 req.header: portabledeviceapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: PortableDeviceGUIDs.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - PortableDeviceGUIDs.lib
- - PortableDeviceGUIDs.dll
+- PortableDeviceGUIDs.lib
+- PortableDeviceGUIDs.dll
 api_name:
- - IPortableDeviceResources.CreateResource
+- IPortableDeviceResources.CreateResource
 targetos: Windows
 req.typenames: 
 req.redist: 

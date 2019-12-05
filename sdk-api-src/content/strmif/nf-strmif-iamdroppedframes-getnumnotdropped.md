@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IAMDroppedFrames.GetNumNotDropped
 title: IAMDroppedFrames::GetNumNotDropped (strmif.h)
-
 description: The GetNumNotDropped method retrieves the total number of frames that the filter has delivered since it started streaming.
 old-location: dshow\iamdroppedframes_getnumnotdropped.htm
 tech.root: DirectShow
 ms.assetid: 16b26c54-343e-4465-9823-fafeac79bb55
-
 ms.date: 12/05/2018
 ms.keywords: GetNumNotDropped, GetNumNotDropped method [DirectShow], GetNumNotDropped method [DirectShow],IAMDroppedFrames interface, IAMDroppedFrames interface [DirectShow],GetNumNotDropped method, IAMDroppedFrames.GetNumNotDropped, IAMDroppedFrames::GetNumNotDropped, IAMDroppedFramesGetNumNotDropped, dshow.iamdroppedframes_getnumnotdropped, strmif/IAMDroppedFrames::GetNumNotDropped
 ms.topic: method
-f1_keywords: 
- - "strmif/IAMDroppedFrames.GetNumNotDropped"
+f1_keywords:
+- strmif/IAMDroppedFrames.GetNumNotDropped
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IAMDroppedFrames.GetNumNotDropped
+- IAMDroppedFrames.GetNumNotDropped
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:winuser.MonitorFromWindow
 title: MonitorFromWindow function (winuser.h)
-
 description: The MonitorFromWindow function retrieves a handle to the display monitor that has the largest area of intersection with the bounding rectangle of a specified window.
 old-location: gdi\monitorfromwindow.htm
 tech.root: gdi
 ms.assetid: fe6505c9-b481-4fec-ae9d-995943234a3a
-
 ms.date: 12/05/2018
 ms.keywords: MONITOR_DEFAULTTONEAREST, MONITOR_DEFAULTTONULL, MONITOR_DEFAULTTOPRIMARY, MonitorFromWindow, MonitorFromWindow function [Windows GDI], _win32_MonitorFromWindow, gdi.monitorfromwindow, winuser/MonitorFromWindow
 ms.topic: function
-f1_keywords: 
- - "winuser/MonitorFromWindow"
+f1_keywords:
+- winuser/MonitorFromWindow
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - user32.dll
- - Ext-MS-Win-RTCore-NTUser-sysparams-l1-1-0.dll
- - minuser.dll
+- user32.dll
+- Ext-MS-Win-RTCore-NTUser-sysparams-l1-1-0.dll
+- minuser.dll
 api_name:
- - MonitorFromWindow
+- MonitorFromWindow
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:netioapi.GetIpNetworkConnectionBandwidthEstimates
 title: GetIpNetworkConnectionBandwidthEstimates function (netioapi.h)
-
 description: Retrieves historical bandwidth estimates for a network connection on the specified interface.
 old-location: iphlp\getipnetworkconnectionbandwidthestimates.htm
 tech.root: IpHlp
 ms.assetid: FE60AF0D-15B0-4223-8AE1-3E65483A1C5F
-
 ms.date: 12/05/2018
 ms.keywords: AF_INET, AF_INET6, GetIpNetworkConnectionBandwidthEstimates, GetIpNetworkConnectionBandwidthEstimates function [IP Helper], iphlp.getipnetworkconnectionbandwidthestimates, netioapi/GetIpNetworkConnectionBandwidthEstimates
 ms.topic: function
-f1_keywords: 
- - "netioapi/GetIpNetworkConnectionBandwidthEstimates"
+f1_keywords:
+- netioapi/GetIpNetworkConnectionBandwidthEstimates
 dev_langs:
- - c++
+- c++
 req.header: netioapi.h
 req.include-header: Iphlpapi.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Iphlpapi.lib
 req.dll: Iphlpapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Iphlpapi.dll
+- Iphlpapi.dll
 api_name:
- - GetIpNetworkConnectionBandwidthEstimates
+- GetIpNetworkConnectionBandwidthEstimates
 targetos: Windows
 req.typenames: 
 req.redist: 

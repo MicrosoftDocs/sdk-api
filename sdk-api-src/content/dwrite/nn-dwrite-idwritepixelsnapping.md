@@ -1,19 +1,17 @@
 ---
 UID: NN:dwrite.IDWritePixelSnapping
 title: IDWritePixelSnapping (dwrite.h)
-
 description: Defines the pixel snapping properties such as pixels per DIP(device-independent pixel) and the current transform matrix of a text renderer.
 old-location: directwrite\IDWritePixelSnapping.htm
 tech.root: DirectWrite
 ms.assetid: b1b1eeb7-934f-42f4-ac01-50973a94996e
-
 ms.date: 12/05/2018
 ms.keywords: IDWritePixelSnapping, IDWritePixelSnapping interface [Direct Write], IDWritePixelSnapping interface [Direct Write],described, directwrite.IDWritePixelSnapping, dwrite/IDWritePixelSnapping
 ms.topic: interface
-f1_keywords: 
- - "dwrite/IDWritePixelSnapping"
+f1_keywords:
+- dwrite/IDWritePixelSnapping
 dev_langs:
- - c++
+- c++
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dwrite.lib
 req.dll: Dwrite.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dwrite.dll
+- dwrite.dll
 api_name:
- - IDWritePixelSnapping
+- IDWritePixelSnapping
 targetos: Windows
 req.typenames: 
 req.redist: 

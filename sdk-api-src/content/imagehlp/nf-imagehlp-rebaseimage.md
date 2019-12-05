@@ -1,19 +1,17 @@
 ---
 UID: NF:imagehlp.ReBaseImage
 title: ReBaseImage function (imagehlp.h)
-
 description: Changes the load address for the specified image, which reduces the required load time for a DLL.
 old-location: base\rebaseimage.htm
 tech.root: Debug
 ms.assetid: b17eb5e6-38de-4baf-a958-189d8c4454af
-
 ms.date: 12/05/2018
 ms.keywords: ReBaseImage, ReBaseImage function, _win32_rebaseimage, base.rebaseimage, imagehlp/ReBaseImage
 ms.topic: function
-f1_keywords: 
- - "imagehlp/ReBaseImage"
+f1_keywords:
+- imagehlp/ReBaseImage
 dev_langs:
- - c++
+- c++
 req.header: imagehlp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Imagehlp.lib
 req.dll: Imagehlp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Imagehlp.dll
+- Imagehlp.dll
 api_name:
- - ReBaseImage
+- ReBaseImage
 targetos: Windows
 req.typenames: 
 req.redist: 

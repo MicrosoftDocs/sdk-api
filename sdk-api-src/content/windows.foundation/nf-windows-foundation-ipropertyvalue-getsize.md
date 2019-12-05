@@ -1,19 +1,17 @@
 ---
 UID: NF:windows.foundation.IPropertyValue.GetSize
 title: IPropertyValue::IPropertyValue (windows.foundation.h)
-
 description: Gets the Size value that is stored in the current IPropertyValue object.
 old-location: winrt\ipropertyvalue_getsize.htm
 tech.root: WinRT
 ms.assetid: c864cf0e-8e7e-44b0-93dc-3d2d9f2326a7
-
 ms.date: 12/05/2018
 ms.keywords: GetSize, GetSize method [Windows Runtime], GetSize method [Windows Runtime],IPropertyValue interface, IPropertyValue interface [Windows Runtime],GetSize method, IPropertyValue.GetSize, IPropertyValue.IPropertyValue, IPropertyValue::GetSize, IPropertyValue::IPropertyValue, windows/IPropertyValue::GetSize, winrt.ipropertyvalue_getsize
 ms.topic: method
-f1_keywords: 
- - "windows.foundation/IPropertyValue.GetSize"
+f1_keywords:
+- windows.foundation/IPropertyValue.GetSize
 dev_langs:
- - c++
+- c++
 req.header: windows.foundation.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Windows.Foundation.h
+- Windows.Foundation.h
 api_name:
- - IPropertyValue.GetSize
+- IPropertyValue.GetSize
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NE:wlanapi._WL_DISPLAY_PAGES
 title: WL_DISPLAY_PAGES (wlanapi.h)
-
 description: Specifies the active tab when the wireless profile user interface dialog box appears.
 old-location: nwifi\wl_display_pages.htm
 tech.root: NativeWiFi
 ms.assetid: 040433b7-9204-4462-a8fd-7b65bcd1880b
-
 ms.date: 12/05/2018
-ms.keywords: "*PWL_DISPLAY_PAGES, PWL_DISPLAY_PAGES, PWL_DISPLAY_PAGES enumeration pointer [NativeWIFI], WLConnectionPage, WLSecurityPage, WL_DISPLAY_PAGES, WL_DISPLAY_PAGES enumeration [NativeWIFI], nwifi.wl_display_pages, wlanapi/PWL_DISPLAY_PAGES, wlanapi/WLConnectionPage, wlanapi/WLSecurityPage, wlanapi/WL_DISPLAY_PAGES"
+ms.keywords: '*PWL_DISPLAY_PAGES, PWL_DISPLAY_PAGES, PWL_DISPLAY_PAGES enumeration pointer [NativeWIFI], WLConnectionPage, WLSecurityPage, WL_DISPLAY_PAGES, WL_DISPLAY_PAGES enumeration [NativeWIFI], nwifi.wl_display_pages, wlanapi/PWL_DISPLAY_PAGES, wlanapi/WLConnectionPage, wlanapi/WLSecurityPage, wlanapi/WL_DISPLAY_PAGES'
 ms.topic: enum
-f1_keywords: 
- - "wlanapi/WL_DISPLAY_PAGES"
+f1_keywords:
+- wlanapi/WL_DISPLAY_PAGES
 dev_langs:
- - c++
+- c++
 req.header: wlanapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - wlanapi.h
+- wlanapi.h
 api_name:
- - WL_DISPLAY_PAGES
+- WL_DISPLAY_PAGES
 targetos: Windows
 req.typenames: WL_DISPLAY_PAGES, *PWL_DISPLAY_PAGES
 req.redist: 

@@ -5,9 +5,9 @@ ms.date: 4/26/2019
 ms.keywords: D3D12_FEATURE_DATA_VIDEO_PROCESSOR_SIZE
 ms.topic: language-reference
 f1_keywords:
- - D3D12_FEATURE_DATA_VIDEO_PROCESSOR_SIZE
+- D3D12_FEATURE_DATA_VIDEO_PROCESSOR_SIZE
 dev_langs:
- - c++
+- c++
 targetos: Windows
 req.construct-type: structure
 req.ddi-compliance: 
@@ -25,13 +25,13 @@ req.typenames: D3D12_FEATURE_DATA_VIDEO_PROCESSOR_SIZE
 req.umdf-ver: 
 req.unicode-ansi: 
 topic_type:
- - apiref
+- apiref
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - d3d12video.h
+- d3d12video.h
 api_name:
- - D3D12_FEATURE_DATA_VIDEO_PROCESSOR_SIZE
+- D3D12_FEATURE_DATA_VIDEO_PROCESSOR_SIZE
 ---
 
 ## -description

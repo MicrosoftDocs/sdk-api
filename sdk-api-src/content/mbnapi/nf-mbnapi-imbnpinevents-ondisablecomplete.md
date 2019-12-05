@@ -1,19 +1,17 @@
 ---
 UID: NF:mbnapi.IMbnPinEvents.OnDisableComplete
 title: IMbnPinEvents::OnDisableComplete (mbnapi.h)
-
 description: Notification method called by the Mobile Broadband service to indicate that a PIN disable operation has completed.
 old-location: mbn\imbnpinevents_ondisablecomplete.htm
 tech.root: mbn
 ms.assetid: 54fc0ec1-eb35-4403-b22a-4c50c4912604
-
 ms.date: 12/05/2018
 ms.keywords: E_FAIL, E_MBN_BAD_SIM, E_MBN_FAILURE, E_MBN_PIN_REQUIRED, E_MBN_SIM_NOT_INSERTED, HRESULT_FROM_WIN32(ERROR_NOT_SUPPORTED), IMbnPinEvents interface [Microsoft Broadband Networks],OnDisableComplete method, IMbnPinEvents.OnDisableComplete, IMbnPinEvents::OnDisableComplete, OnDisableComplete, OnDisableComplete method [Microsoft Broadband Networks], OnDisableComplete method [Microsoft Broadband Networks],IMbnPinEvents interface, S_OK, mbn.imbnpinevents_ondisablecomplete, mbnapi/IMbnPinEvents::OnDisableComplete
 ms.topic: method
-f1_keywords: 
- - "mbnapi/IMbnPinEvents.OnDisableComplete"
+f1_keywords:
+- mbnapi/IMbnPinEvents.OnDisableComplete
 dev_langs:
- - c++
+- c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mbnapi.h
+- mbnapi.h
 api_name:
- - IMbnPinEvents.OnDisableComplete
+- IMbnPinEvents.OnDisableComplete
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:commoncontrols.IImageList.GetOverlayImage
 title: IImageList::GetOverlayImage (commoncontrols.h)
-
 description: Retrieves a specified image from the list of images used as overlay masks.
 old-location: controls\IImageList_GetOverlayImage.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\imagelist\ifaces\iimagelist\getoverlayimage.htm
-
 ms.date: 12/05/2018
 ms.keywords: GetOverlayImage, GetOverlayImage method [Windows Controls], GetOverlayImage method [Windows Controls],IImageList interface, IImageList interface [Windows Controls],GetOverlayImage method, IImageList.GetOverlayImage, IImageList::GetOverlayImage, comctl_IImageList_GetOverlayImage, comctl_IImageList_GetOverlayImage_cpp, commoncontrols/IImageList::GetOverlayImage, controls.IImageList_GetOverlayImage, controls.comctl_IImageList_GetOverlayImage
 ms.topic: method
-f1_keywords: 
- - "commoncontrols/IImageList.GetOverlayImage"
+f1_keywords:
+- commoncontrols/IImageList.GetOverlayImage
 dev_langs:
- - c++
+- c++
 req.header: commoncontrols.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Comctl32.dll (version 6.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Comctl32.dll
+- Comctl32.dll
 api_name:
- - IImageList.GetOverlayImage
+- IImageList.GetOverlayImage
 targetos: Windows
 req.typenames: 
 req.redist: 

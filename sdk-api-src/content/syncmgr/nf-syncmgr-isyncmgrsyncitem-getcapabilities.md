@@ -1,19 +1,17 @@
 ---
 UID: NF:syncmgr.ISyncMgrSyncItem.GetCapabilities
 title: ISyncMgrSyncItem::GetCapabilities (syncmgr.h)
-
 description: Gets a set of flags describing the item's defined capabilities.
 old-location: shell\ISyncMgrSyncItem_GetCapabilities.htm
 tech.root: shell
 ms.assetid: 6cb98b83-cf17-451c-ba29-700408f474c7
-
 ms.date: 12/05/2018
 ms.keywords: GetCapabilities, GetCapabilities method [Windows Shell], GetCapabilities method [Windows Shell],ISyncMgrSyncItem interface, ISyncMgrSyncItem interface [Windows Shell],GetCapabilities method, ISyncMgrSyncItem.GetCapabilities, ISyncMgrSyncItem::GetCapabilities, _shell_ISyncMgrSyncItem_GetCapabilities, shell.ISyncMgrSyncItem_GetCapabilities, syncmgr/ISyncMgrSyncItem::GetCapabilities
 ms.topic: method
-f1_keywords: 
- - "syncmgr/ISyncMgrSyncItem.GetCapabilities"
+f1_keywords:
+- syncmgr/ISyncMgrSyncItem.GetCapabilities
 dev_langs:
- - c++
+- c++
 req.header: syncmgr.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Syncmgr.h
+- Syncmgr.h
 api_name:
- - ISyncMgrSyncItem.GetCapabilities
+- ISyncMgrSyncItem.GetCapabilities
 targetos: Windows
 req.typenames: 
 req.redist: 

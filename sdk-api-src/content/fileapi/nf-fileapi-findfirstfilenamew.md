@@ -1,19 +1,17 @@
 ---
 UID: NF:fileapi.FindFirstFileNameW
 title: FindFirstFileNameW function (fileapi.h)
-
 description: Creates an enumeration of all the hard links to the specified file. The FindFirstFileNameW function returns a handle to the enumeration that can be used on subsequent calls to the FindNextFileNameW function.
 old-location: fs\findfirstfilenamew.htm
 tech.root: FileIO
 ms.assetid: 9f64aa3e-4c73-47a8-8304-6134f1b4d153
-
 ms.date: 12/05/2018
 ms.keywords: FindFirstFileNameW, FindFirstFileNameW function [Files], fileapi/FindFirstFileNameW, fs.findfirstfilenamew
 ms.topic: function
-f1_keywords: 
- - "fileapi/FindFirstFileNameW"
+f1_keywords:
+- fileapi/FindFirstFileNameW
 dev_langs:
- - c++
+- c++
 req.header: fileapi.h
 req.include-header: Windows.h, WinBase.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-File-L1-2-2.dll
- - KernelBase.dll
+- Kernel32.dll
+- API-MS-Win-Core-File-L1-2-2.dll
+- KernelBase.dll
 api_name:
- - FindFirstFileNameW
+- FindFirstFileNameW
 targetos: Windows
 req.typenames: 
 req.redist: 

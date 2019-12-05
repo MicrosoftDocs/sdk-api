@@ -1,19 +1,17 @@
 ---
 UID: NF:d2d1.ID2D1Bitmap.GetPixelFormat
 title: ID2D1Bitmap::GetPixelFormat (d2d1.h)
-
 description: Retrieves the pixel format and alpha mode of the bitmap.
 old-location: direct2d\ID2D1Bitmap_GetPixelFormat.htm
 tech.root: Direct2D
 ms.assetid: e94a0930-f681-47d0-8cee-bacf631ee6db
-
 ms.date: 12/05/2018
 ms.keywords: GetPixelFormat, GetPixelFormat method [Direct2D], GetPixelFormat method [Direct2D],ID2D1Bitmap interface, ID2D1Bitmap interface [Direct2D],GetPixelFormat method, ID2D1Bitmap.GetPixelFormat, ID2D1Bitmap::GetPixelFormat, d2d1/ID2D1Bitmap::GetPixelFormat, direct2d.ID2D1Bitmap_GetPixelFormat
 ms.topic: method
-f1_keywords: 
- - "d2d1/ID2D1Bitmap.GetPixelFormat"
+f1_keywords:
+- d2d1/ID2D1Bitmap.GetPixelFormat
 dev_langs:
- - c++
+- c++
 req.header: d2d1.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: D2d1.lib
 req.dll: D2d1.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D2d1.dll
+- D2d1.dll
 api_name:
- - ID2D1Bitmap.GetPixelFormat
+- ID2D1Bitmap.GetPixelFormat
 targetos: Windows
 req.typenames: 
 req.redist: 

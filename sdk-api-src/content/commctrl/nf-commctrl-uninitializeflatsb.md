@@ -1,19 +1,17 @@
 ---
 UID: NF:commctrl.UninitializeFlatSB
 title: UninitializeFlatSB function (commctrl.h)
-
 description: Uninitializes flat scroll bars for a particular window. The specified window will revert to standard scroll bars.
 old-location: controls\UninitializeFlatSB.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\flatsb\functions\uninitializeflatsb.htm
-
 ms.date: 12/05/2018
 ms.keywords: UninitializeFlatSB, UninitializeFlatSB function [Windows Controls], _win32_UninitializeFlatSB, _win32_UninitializeFlatSB_cpp, commctrl/UninitializeFlatSB, controls.UninitializeFlatSB, controls._win32_UninitializeFlatSB
 ms.topic: function
-f1_keywords: 
- - "commctrl/UninitializeFlatSB"
+f1_keywords:
+- commctrl/UninitializeFlatSB
 dev_langs:
- - c++
+- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Comctl32.lib
 req.dll: Comctl32.dll (version 4.71 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Comctl32.dll
+- Comctl32.dll
 api_name:
- - UninitializeFlatSB
+- UninitializeFlatSB
 targetos: Windows
 req.typenames: 
 req.redist: 

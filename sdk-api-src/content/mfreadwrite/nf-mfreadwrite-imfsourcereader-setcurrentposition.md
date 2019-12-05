@@ -1,19 +1,17 @@
 ---
 UID: NF:mfreadwrite.IMFSourceReader.SetCurrentPosition
 title: IMFSourceReader::SetCurrentPosition (mfreadwrite.h)
-
 description: Seeks to a new position in the media source.
 old-location: mf\imfsourcereader_setcurrentposition.htm
 tech.root: medfound
 ms.assetid: fb9412f5-4f2f-463d-9988-80e706afd9c4
-
 ms.date: 12/05/2018
 ms.keywords: GUID_NULL, IMFSourceReader interface [Media Foundation],SetCurrentPosition method, IMFSourceReader.SetCurrentPosition, IMFSourceReader::SetCurrentPosition, SetCurrentPosition, SetCurrentPosition method [Media Foundation], SetCurrentPosition method [Media Foundation],IMFSourceReader interface, mf.imfsourcereader_setcurrentposition, mfreadwrite/IMFSourceReader::SetCurrentPosition
 ms.topic: method
-f1_keywords: 
- - "mfreadwrite/IMFSourceReader.SetCurrentPosition"
+f1_keywords:
+- mfreadwrite/IMFSourceReader.SetCurrentPosition
 dev_langs:
- - c++
+- c++
 req.header: mfreadwrite.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfreadwrite.h
+- mfreadwrite.h
 api_name:
- - IMFSourceReader.SetCurrentPosition
+- IMFSourceReader.SetCurrentPosition
 targetos: Windows
 req.typenames: 
 req.redist: 

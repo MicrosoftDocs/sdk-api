@@ -1,19 +1,17 @@
 ---
 UID: NN:restrictederrorinfo.IRestrictedErrorInfo
 title: IRestrictedErrorInfo (restrictederrorinfo.h)
-
 description: Represents the details of an error, including restricted error information.
 old-location: winrt\irestrictederrorinfo.htm
 tech.root: WinRT
 ms.assetid: 1af8d4bf-1217-44ca-b0dd-9a6feda16100
-
 ms.date: 12/05/2018
 ms.keywords: IRestrictedErrorInfo, IRestrictedErrorInfo interface [Windows Runtime], IRestrictedErrorInfo interface [Windows Runtime],described, restrictederrorinfo/IRestrictedErrorInfo, winrt.irestrictederrorinfo
 ms.topic: interface
-f1_keywords: 
- - "restrictederrorinfo/IRestrictedErrorInfo"
+f1_keywords:
+- restrictederrorinfo/IRestrictedErrorInfo
 dev_langs:
- - c++
+- c++
 req.header: restrictederrorinfo.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - RestrictedErrorInfo.h
+- RestrictedErrorInfo.h
 api_name:
- - IRestrictedErrorInfo
+- IRestrictedErrorInfo
 targetos: Windows
 req.typenames: 
 req.redist: 

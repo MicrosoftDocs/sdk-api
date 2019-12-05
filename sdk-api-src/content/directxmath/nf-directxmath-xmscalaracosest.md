@@ -1,19 +1,17 @@
 ---
 UID: NF:directxmath.XMScalarACosEst
 title: XMScalarACosEst function (directxmath.h)
-
 description: Estimates the arccosine of a floating-point number.
 old-location: dxmath\xmscalaracosest.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.scalar.XMScalarACosEst(float)
-
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMScalarACosEst, XMScalarACosEst, XMScalarACosEst method [DirectX Math Support APIs], dxmath.xmscalaracosest
 ms.topic: function
-f1_keywords: 
- - "directxmath/XMScalarACosEst"
+f1_keywords:
+- directxmath/XMScalarACosEst
 dev_langs:
- - c++
+- c++
 req.header: directxmath.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - DirectXMath.h
+- DirectXMath.h
 api_name:
- - XMScalarACosEst
+- XMScalarACosEst
 targetos: Windows
 req.typenames: 
 req.redist: 

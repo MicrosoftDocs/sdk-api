@@ -1,19 +1,17 @@
 ---
 UID: NF:wdspxe.PxeDhcpInitialize
 title: PxeDhcpInitialize function (wdspxe.h)
-
 description: Initializes a response packet as a DHCP reply packet.
 old-location: wds\pxedhcpinitialize.htm
 tech.root: wds
 ms.assetid: b1bcd725-723c-47a3-a2b9-468f5f2e6596
-
 ms.date: 12/05/2018
 ms.keywords: PxeDhcpInitialize, PxeDhcpInitialize function [Windows Deployment Services], wds.pxedhcpinitialize, wdspxe/PxeDhcpInitialize
 ms.topic: function
-f1_keywords: 
- - "wdspxe/PxeDhcpInitialize"
+f1_keywords:
+- wdspxe/PxeDhcpInitialize
 dev_langs:
- - c++
+- c++
 req.header: wdspxe.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: WdsPxe.lib
 req.dll: WdsPxe.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - WdsPxe.dll
+- WdsPxe.dll
 api_name:
- - PxeDhcpInitialize
+- PxeDhcpInitialize
 targetos: Windows
 req.typenames: 
 req.redist: 

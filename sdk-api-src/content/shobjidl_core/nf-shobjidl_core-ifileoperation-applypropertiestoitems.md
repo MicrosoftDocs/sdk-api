@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IFileOperation.ApplyPropertiesToItems
 title: IFileOperation::ApplyPropertiesToItems (shobjidl_core.h)
-
 description: Declares a set of items for which to apply a common set of property values.
 old-location: shell\IFileOperation_ApplyPropertiesToItems.htm
 tech.root: shell
 ms.assetid: d24aa63e-99ef-470c-9723-e561ee0a56bc
-
 ms.date: 12/05/2018
 ms.keywords: ApplyPropertiesToItems, ApplyPropertiesToItems method [Windows Shell], ApplyPropertiesToItems method [Windows Shell],IFileOperation interface, IFileOperation interface [Windows Shell],ApplyPropertiesToItems method, IFileOperation.ApplyPropertiesToItems, IFileOperation::ApplyPropertiesToItems, _shell_IFileOperation_ApplyPropertiesToItems, shell.IFileOperation_ApplyPropertiesToItems, shobjidl_core/IFileOperation::ApplyPropertiesToItems
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IFileOperation.ApplyPropertiesToItems"
+f1_keywords:
+- shobjidl_core/IFileOperation.ApplyPropertiesToItems
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - IFileOperation.ApplyPropertiesToItems
+- IFileOperation.ApplyPropertiesToItems
 targetos: Windows
 req.typenames: 
 req.redist: 

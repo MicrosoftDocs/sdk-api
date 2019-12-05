@@ -1,19 +1,17 @@
 ---
 UID: NF:upnp.IUPnPDeviceDocumentAccessEx.GetDocument
 title: IUPnPDeviceDocumentAccessEx::GetDocument (upnp.h)
-
 description: Retrieves the XML device description document for a UPnP device.
 old-location: upnp\iupnpdevicedocumentex_getdocument.htm
 tech.root: upnp
 ms.assetid: 12778bd4-9e62-42a4-b9b3-29ee9c6d2d40
-
 ms.date: 12/05/2018
 ms.keywords: GetDocument, GetDocument method [UPnP APIs], GetDocument method [UPnP APIs],IUPnPDeviceDocumentAccessEx interface, IUPnPDeviceDocumentAccessEx interface [UPnP APIs],GetDocument method, IUPnPDeviceDocumentAccessEx.GetDocument, IUPnPDeviceDocumentAccessEx::GetDocument, upnp.iupnpdevicedocumentex_getdocument, upnp/IUPnPDeviceDocumentAccessEx::GetDocument
 ms.topic: method
-f1_keywords: 
- - "upnp/IUPnPDeviceDocumentAccessEx.GetDocument"
+f1_keywords:
+- upnp/IUPnPDeviceDocumentAccessEx.GetDocument
 dev_langs:
- - c++
+- c++
 req.header: upnp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Upnp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Upnp.dll
+- Upnp.dll
 api_name:
- - IUPnPDeviceDocumentAccessEx.GetDocument
+- IUPnPDeviceDocumentAccessEx.GetDocument
 targetos: Windows
 req.typenames: 
 req.redist: 

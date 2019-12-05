@@ -1,19 +1,17 @@
 ---
 UID: NS:dxgi1_3.DXGI_DECODE_SWAP_CHAIN_DESC
 title: DXGI_DECODE_SWAP_CHAIN_DESC (dxgi1_3.h)
-
 description: Used with IDXGIFactoryMedia::CreateDecodeSwapChainForCompositionSurfaceHandle to describe a decode swap chain.
 old-location: direct3ddxgi\dxgi_decode_swap_chain_desc.htm
 tech.root: direct3ddxgi
 ms.assetid: 9AAF8E99-E5BC-49B3-8CA6-1F4FC0190B54
-
 ms.date: 12/05/2018
 ms.keywords: DXGI_DECODE_SWAP_CHAIN_DESC, DXGI_DECODE_SWAP_CHAIN_DESC structure [DXGI], direct3ddxgi.dxgi_decode_swap_chain_desc, dxgi1_3/DXGI_DECODE_SWAP_CHAIN_DESC
 ms.topic: struct
-f1_keywords: 
- - "dxgi1_3/DXGI_DECODE_SWAP_CHAIN_DESC"
+f1_keywords:
+- dxgi1_3/DXGI_DECODE_SWAP_CHAIN_DESC
 dev_langs:
- - c++
+- c++
 req.header: dxgi1_3.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - dxgi1_3.h
+- dxgi1_3.h
 api_name:
- - DXGI_DECODE_SWAP_CHAIN_DESC
+- DXGI_DECODE_SWAP_CHAIN_DESC
 targetos: Windows
 req.typenames: DXGI_DECODE_SWAP_CHAIN_DESC
 req.redist: 

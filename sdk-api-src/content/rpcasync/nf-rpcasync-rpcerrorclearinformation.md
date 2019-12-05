@@ -1,19 +1,17 @@
 ---
 UID: NF:rpcasync.RpcErrorClearInformation
 title: RpcErrorClearInformation function (rpcasync.h)
-
 description: The RpcErrorClearInformation function clears all extended error information on the current thread.
 old-location: rpc\rpcerrorclearinformation.htm
 tech.root: Rpc
 ms.assetid: ff96904c-285d-4d39-af3b-bf295c29e62f
-
 ms.date: 12/05/2018
 ms.keywords: RpcErrorClearInformation, RpcErrorClearInformation function [RPC], _rpc_rpcerrorclearinformation, rpc.rpcerrorclearinformation, rpcasync/RpcErrorClearInformation
 ms.topic: function
-f1_keywords: 
- - "rpcasync/RpcErrorClearInformation"
+f1_keywords:
+- rpcasync/RpcErrorClearInformation
 dev_langs:
- - c++
+- c++
 req.header: rpcasync.h
 req.include-header: Rpc.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Rpcrt4.lib
 req.dll: Rpcrt4.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Rpcrt4.dll
+- Rpcrt4.dll
 api_name:
- - RpcErrorClearInformation
+- RpcErrorClearInformation
 targetos: Windows
 req.typenames: 
 req.redist: 

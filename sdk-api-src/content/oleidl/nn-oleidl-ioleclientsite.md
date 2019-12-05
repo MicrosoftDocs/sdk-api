@@ -1,19 +1,17 @@
 ---
 UID: NN:oleidl.IOleClientSite
 title: IOleClientSite (oleidl.h)
-
 description: Provides the primary means by which an embedded object obtains information about the location and extent of its display site, its moniker, its user interface, and other resources provided by its container.
 old-location: com\ioleclientsite.htm
 tech.root: com
 ms.assetid: dafee149-926a-4d08-a43d-5847682db645
-
 ms.date: 12/05/2018
 ms.keywords: IOleClientSite, IOleClientSite interface [COM], IOleClientSite interface [COM],described, _ole_ioleclientsite, com.ioleclientsite, oleidl/IOleClientSite
 ms.topic: interface
-f1_keywords: 
- - "oleidl/IOleClientSite"
+f1_keywords:
+- oleidl/IOleClientSite
 dev_langs:
- - c++
+- c++
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - OleIdl.h
+- OleIdl.h
 api_name:
- - IOleClientSite
+- IOleClientSite
 targetos: Windows
 req.typenames: 
 req.redist: 

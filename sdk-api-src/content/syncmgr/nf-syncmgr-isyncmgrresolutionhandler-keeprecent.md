@@ -1,19 +1,17 @@
 ---
 UID: NF:syncmgr.ISyncMgrResolutionHandler.KeepRecent
 title: ISyncMgrResolutionHandler::KeepRecent (syncmgr.h)
-
 description: Keeps the more recent copy.
 old-location: shell\ISyncMgrResolutionHandler_KeepRecent.htm
 tech.root: shell
 ms.assetid: a2327234-4a8d-42b4-aa62-f5c286e3c24b
-
 ms.date: 12/05/2018
 ms.keywords: ISyncMgrResolutionHandler interface [Windows Shell],KeepRecent method, ISyncMgrResolutionHandler.KeepRecent, ISyncMgrResolutionHandler::KeepRecent, KeepRecent, KeepRecent method [Windows Shell], KeepRecent method [Windows Shell],ISyncMgrResolutionHandler interface, _shell_ISyncMgrResolutionHandler_KeepRecent, shell.ISyncMgrResolutionHandler_KeepRecent, syncmgr/ISyncMgrResolutionHandler::KeepRecent
 ms.topic: method
-f1_keywords: 
- - "syncmgr/ISyncMgrResolutionHandler.KeepRecent"
+f1_keywords:
+- syncmgr/ISyncMgrResolutionHandler.KeepRecent
 dev_langs:
- - c++
+- c++
 req.header: syncmgr.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Syncmgr.h
+- Syncmgr.h
 api_name:
- - ISyncMgrResolutionHandler.KeepRecent
+- ISyncMgrResolutionHandler.KeepRecent
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:evntrace.RemoveTraceCallback
 title: RemoveTraceCallback function (evntrace.h)
-
 description: The RemoveTraceCallback function stops an EventClassCallback function from receiving events for an event trace class.
 old-location: etw\removetracecallback.htm
 tech.root: ETW
 ms.assetid: da779e8d-4984-44e3-8731-647a422b55b2
-
 ms.date: 12/05/2018
 ms.keywords: RemoveTraceCallback, RemoveTraceCallback function [ETW], _evt_removetracecallback, base.removetracecallback, etw.removetracecallback, evntrace/RemoveTraceCallback
 ms.topic: function
-f1_keywords: 
- - "evntrace/RemoveTraceCallback"
+f1_keywords:
+- evntrace/RemoveTraceCallback
 dev_langs:
- - c++
+- c++
 req.header: evntrace.h
 req.include-header: 
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib: Sechost.lib on Windows 8.1 and Windows Server 2012 R2; Advapi32.lib 
 req.dll: Sechost.dll on Windows 8.1 and Windows Server 2012 R2; Advapi32.dll on Windows 8, Windows Server 2012, Windows 7, Windows Server 2008 R2, Windows Server 2008, Windows Vista and Windows XP
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Sechost.dll
- - Advapi32.dll
- - API-MS-Win-DownLevel-AdvAPI32-l2-1-1.dll
- - API-MS-Win-Eventing-Obsolete-l1-1-0.dll
- - KernelBase.dll
+- Sechost.dll
+- Advapi32.dll
+- API-MS-Win-DownLevel-AdvAPI32-l2-1-1.dll
+- API-MS-Win-Eventing-Obsolete-l1-1-0.dll
+- KernelBase.dll
 api_name:
- - RemoveTraceCallback
+- RemoveTraceCallback
 targetos: Windows
 req.typenames: 
 req.redist: 

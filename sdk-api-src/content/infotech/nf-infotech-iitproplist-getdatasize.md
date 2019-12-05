@@ -1,19 +1,17 @@
 ---
 UID: NF:infotech.IITPropList.GetDataSize
 title: IITPropList::GetDataSize (infotech.h)
-
 description: Returns the number of bytes needed to save the property data.
 old-location: htmlhelp\iitproplist_getdatasize.htm
 tech.root: htmlhelp
 ms.assetid: 83d9fa7b-d814-4293-93b9-9454c01c1503
-
 ms.date: 12/05/2018
 ms.keywords: GetDataSize, GetDataSize method [HTML Help Workshop], GetDataSize method [HTML Help Workshop],IITPropList interface, IITPropList interface [HTML Help Workshop],GetDataSize method, IITPropList.GetDataSize, IITPropList::GetDataSize, htmlhelp.iitproplist_getdatasize, infotech/IITPropList::GetDataSize
 ms.topic: method
-f1_keywords: 
- - "infotech/IITPropList.GetDataSize"
+f1_keywords:
+- infotech/IITPropList.GetDataSize
 dev_langs:
- - c++
+- c++
 req.header: infotech.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Infotech.h
+- Infotech.h
 api_name:
- - IITPropList.GetDataSize
+- IITPropList.GetDataSize
 targetos: Windows
 req.typenames: 
 req.redist: 

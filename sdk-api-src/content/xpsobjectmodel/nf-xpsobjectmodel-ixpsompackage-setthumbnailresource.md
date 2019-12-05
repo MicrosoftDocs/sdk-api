@@ -1,19 +1,17 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMPackage.SetThumbnailResource
 title: IXpsOMPackage::SetThumbnailResource (xpsobjectmodel.h)
-
 description: Sets the thumbnail image of the XPS document.
 old-location: xps\ixpsompackage_setthumbnailresource.htm
 tech.root: printdocs
 ms.assetid: 1d5d5332-f6e1-4fad-8b45-c518196c17d2
-
 ms.date: 12/05/2018
 ms.keywords: IXpsOMPackage interface [XPS Documents and Packaging],SetThumbnailResource method, IXpsOMPackage.SetThumbnailResource, IXpsOMPackage::SetThumbnailResource, SetThumbnailResource, SetThumbnailResource method [XPS Documents and Packaging], SetThumbnailResource method [XPS Documents and Packaging],IXpsOMPackage interface, xps.ixpsompackage_setthumbnailresource, xpsobjectmodel/IXpsOMPackage::SetThumbnailResource
 ms.topic: method
-f1_keywords: 
- - "xpsobjectmodel/IXpsOMPackage.SetThumbnailResource"
+f1_keywords:
+- xpsobjectmodel/IXpsOMPackage.SetThumbnailResource
 dev_langs:
- - c++
+- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsobjectmodel.h
+- xpsobjectmodel.h
 api_name:
- - IXpsOMPackage.SetThumbnailResource
+- IXpsOMPackage.SetThumbnailResource
 targetos: Windows
 req.typenames: 
 req.redist: 

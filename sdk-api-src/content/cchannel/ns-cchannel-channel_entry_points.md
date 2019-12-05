@@ -1,19 +1,17 @@
 ---
 UID: NS:cchannel.tagCHANNEL_ENTRY_POINTS
 title: CHANNEL_ENTRY_POINTS (cchannel.h)
-
 description: Contains pointers to the functions called by a client-side DLL to access virtual channels.
 old-location: termserv\channel_entry_points_str.htm
 tech.root: TermServ
 ms.assetid: f64471b0-1f2e-48cb-9f9c-1bb536afc248
-
 ms.date: 12/05/2018
-ms.keywords: "*PCHANNEL_ENTRY_POINTS, CHANNEL_ENTRY_POINTS, CHANNEL_ENTRY_POINTS structure [Remote Desktop Services], PCHANNEL_ENTRY_POINTS, PCHANNEL_ENTRY_POINTS structure pointer [Remote Desktop Services], _win32_channel_entry_points_str, cchannel/CHANNEL_ENTRY_POINTS, cchannel/PCHANNEL_ENTRY_POINTS, termserv.channel_entry_points_str"
+ms.keywords: '*PCHANNEL_ENTRY_POINTS, CHANNEL_ENTRY_POINTS, CHANNEL_ENTRY_POINTS structure [Remote Desktop Services], PCHANNEL_ENTRY_POINTS, PCHANNEL_ENTRY_POINTS structure pointer [Remote Desktop Services], _win32_channel_entry_points_str, cchannel/CHANNEL_ENTRY_POINTS, cchannel/PCHANNEL_ENTRY_POINTS, termserv.channel_entry_points_str'
 ms.topic: struct
-f1_keywords: 
- - "cchannel/CHANNEL_ENTRY_POINTS"
+f1_keywords:
+- cchannel/CHANNEL_ENTRY_POINTS
 dev_langs:
- - c++
+- c++
 req.header: cchannel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Cchannel.h
+- Cchannel.h
 api_name:
- - CHANNEL_ENTRY_POINTS
+- CHANNEL_ENTRY_POINTS
 targetos: Windows
 req.typenames: CHANNEL_ENTRY_POINTS, *PCHANNEL_ENTRY_POINTS
 req.redist: 

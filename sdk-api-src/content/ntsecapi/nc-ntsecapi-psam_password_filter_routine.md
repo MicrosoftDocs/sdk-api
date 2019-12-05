@@ -1,19 +1,17 @@
 ---
 UID: NC:ntsecapi.PSAM_PASSWORD_FILTER_ROUTINE
 title: PSAM_PASSWORD_FILTER_ROUTINE (ntsecapi.h)
-
 description: Implemented by a password filter DLL. The value returned by this function determines whether the new password is accepted by the system.
 old-location: security\passwordfilter.htm
 tech.root: SecMgmt
 ms.assetid: cb4fe40e-81ea-4040-b3ee-642a093e5fca
-
 ms.date: 12/05/2018
 ms.keywords: PSAM_PASSWORD_FILTER_ROUTINE, PSAM_PASSWORD_FILTER_ROUTINE callback, PasswordFilter, PasswordFilter callback function [Security], _pswd_passwordfilter, ntsecapi/PasswordFilter, security.passwordfilter
 ms.topic: callback
 f1_keywords:
 - ntsecapi/PasswordFilter
 dev_langs:
- - c++
+- c++
 req.header: ntsecapi.h
 req.include-header: 
 req.target-type: Windows

@@ -1,19 +1,17 @@
 ---
 UID: NF:intsafe.LongLongAdd
 title: LongLongAdd function (intsafe.h)
-
 description: Adds two values of type LONGLONG.
 old-location: shell\LongLongAdd.htm
 tech.root: shell
 ms.assetid: b3010519-583e-4341-a673-9cc97a6f4232
-
 ms.date: 12/05/2018
 ms.keywords: LongLongAdd, LongLongAdd function [Windows Shell], intsafe/LongLongAdd, shell.LongLongAdd
 ms.topic: function
-f1_keywords: 
- - "intsafe/LongLongAdd"
+f1_keywords:
+- intsafe/LongLongAdd
 dev_langs:
- - c++
+- c++
 req.header: intsafe.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - intsafe.h
+- intsafe.h
 api_name:
- - LongLongAdd
+- LongLongAdd
 targetos: Windows
 req.typenames: 
 req.redist: 

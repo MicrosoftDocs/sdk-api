@@ -1,19 +1,17 @@
 ---
 UID: NS:vfw.__unnamed_struct_9
 title: ICDRAWSUGGEST (vfw.h)
-
 description: The ICDRAWSUGGEST structure contains compression parameters used with the ICM_DRAW_SUGGESTFORMAT message to suggest an appropriate input format.
 old-location: multimedia\icdrawsuggest.htm
 tech.root: Multimedia
 ms.assetid: d8dab197-7364-4f90-b08e-c913df85723e
-
 ms.date: 12/05/2018
 ms.keywords: ICDRAWSUGGEST, ICDRAWSUGGEST structure [Windows Multimedia], _win32_ICDRAWSUGGEST_str, multimedia.icdrawsuggest, vfw/ICDRAWSUGGEST
 ms.topic: struct
-f1_keywords: 
- - "vfw/ICDRAWSUGGEST"
+f1_keywords:
+- vfw/ICDRAWSUGGEST
 dev_langs:
- - c++
+- c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Vfw.h
+- Vfw.h
 api_name:
- - ICDRAWSUGGEST
+- ICDRAWSUGGEST
 targetos: Windows
 req.typenames: ICDRAWSUGGEST
 req.redist: 

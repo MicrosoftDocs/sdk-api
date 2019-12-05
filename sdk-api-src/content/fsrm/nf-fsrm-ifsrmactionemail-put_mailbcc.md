@@ -1,19 +1,17 @@
 ---
 UID: NF:fsrm.IFsrmActionEmail.put_MailBcc
 title: IFsrmActionEmail::put_MailBcc (fsrm.h)
-
 description: Retrieves or sets the blind carbon copy (Bcc) email address to which email is sent when this action generates email.
 old-location: fsrm\ifsrmactionemail_mailbcc.htm
 tech.root: fsrm
 ms.assetid: 4c05fcd2-ec94-4ed3-a027-ac91e4452e59
-
 ms.date: 12/05/2018
 ms.keywords: IFsrmActionEmail interface [File Server Resource Manager],MailBcc property, IFsrmActionEmail.MailBcc, IFsrmActionEmail.put_MailBcc, IFsrmActionEmail2 interface [File Server Resource Manager],MailBcc property, IFsrmActionEmail2.MailBcc, IFsrmActionEmail2::MailBcc, IFsrmActionEmail2::get_MailBcc, IFsrmActionEmail2::put_MailBcc, IFsrmActionEmail::get_MailBcc, IFsrmActionEmail::put_MailBcc, MailBcc property [File Server Resource Manager], MailBcc property [File Server Resource Manager],IFsrmActionEmail interface, MailBcc property [File Server Resource Manager],IFsrmActionEmail2 interface, fs.ifsrmactionemail_mailbcc, fsrm.ifsrmactionemail_mailbcc, fsrm/IFsrmActionEmail2::MailBcc, fsrm/IFsrmActionEmail2::get_MailBcc, fsrm/IFsrmActionEmail2::put_MailBcc, fsrm/IFsrmActionEmail::MailBcc, fsrm/IFsrmActionEmail::get_MailBcc, fsrm/IFsrmActionEmail::put_MailBcc, put_MailBcc
 ms.topic: method
-f1_keywords: 
- - "fsrm/IFsrmActionEmail2.MailBcc"
+f1_keywords:
+- fsrm/IFsrmActionEmail2.MailBcc
 dev_langs:
- - c++
+- c++
 req.header: fsrm.h
 req.include-header: FsrmQuota.h, FsrmScreen.h
 req.target-type: Windows
@@ -32,19 +30,19 @@ req.lib:
 req.dll: SrmSvc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - SrmSvc.dll
+- SrmSvc.dll
 api_name:
- - IFsrmActionEmail2.MailBcc
- - IFsrmActionEmail2.get_MailBcc
- - IFsrmActionEmail2.put_MailBcc
- - IFsrmActionEmail.MailBcc
- - IFsrmActionEmail.get_MailBcc
- - IFsrmActionEmail.put_MailBcc
+- IFsrmActionEmail2.MailBcc
+- IFsrmActionEmail2.get_MailBcc
+- IFsrmActionEmail2.put_MailBcc
+- IFsrmActionEmail.MailBcc
+- IFsrmActionEmail.get_MailBcc
+- IFsrmActionEmail.put_MailBcc
 targetos: Windows
 req.typenames: 
 req.redist: 

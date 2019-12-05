@@ -1,19 +1,17 @@
 ---
 UID: NF:searchapi.ISearchLanguageSupport.LoadWordBreaker
 title: ISearchLanguageSupport::LoadWordBreaker (searchapi.h)
-
 description: Retrieves an interface to the word breaker registered for the specified language code identifier (LCID).
 old-location: search\_search_ISearchLanguageSupport_LoadWordBreaker.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\dataaddins\isearchlanguagesupport\loadwordbreaker.htm
-
 ms.date: 12/05/2018
 ms.keywords: ISearchLanguageSupport interface [search],LoadWordBreaker method, ISearchLanguageSupport.LoadWordBreaker, ISearchLanguageSupport::LoadWordBreaker, LoadWordBreaker, LoadWordBreaker method [search], LoadWordBreaker method [search],ISearchLanguageSupport interface, _search_ISearchLanguageSupport_LoadWordBreaker, search._search_ISearchLanguageSupport_LoadWordBreaker, searchapi/ISearchLanguageSupport::LoadWordBreaker
 ms.topic: method
-f1_keywords: 
- - "searchapi/ISearchLanguageSupport.LoadWordBreaker"
+f1_keywords:
+- searchapi/ISearchLanguageSupport.LoadWordBreaker
 dev_langs:
- - c++
+- c++
 req.header: searchapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Searchapi.h
+- Searchapi.h
 api_name:
- - ISearchLanguageSupport.LoadWordBreaker
+- ISearchLanguageSupport.LoadWordBreaker
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0

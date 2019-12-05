@@ -1,19 +1,17 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMPath.GetFillBrushLocal
 title: IXpsOMPath::GetFillBrushLocal (xpsobjectmodel.h)
-
 description: Gets a pointer to the local, unshared IXpsOMBrush interface that contains the fill brush for the path.
 old-location: xps\ixpsompath_getfillbrushlocal.htm
 tech.root: printdocs
 ms.assetid: 5c5a7150-19d6-40aa-871b-5600c0b0a947
-
 ms.date: 12/05/2018
 ms.keywords: GetFillBrushLocal, GetFillBrushLocal method [XPS Documents and Packaging], GetFillBrushLocal method [XPS Documents and Packaging],IXpsOMPath interface, IXpsOMPath interface [XPS Documents and Packaging],GetFillBrushLocal method, IXpsOMPath.GetFillBrushLocal, IXpsOMPath::GetFillBrushLocal, xps.ixpsompath_getfillbrushlocal, xpsobjectmodel/IXpsOMPath::GetFillBrushLocal
 ms.topic: method
-f1_keywords: 
- - "xpsobjectmodel/IXpsOMPath.GetFillBrushLocal"
+f1_keywords:
+- xpsobjectmodel/IXpsOMPath.GetFillBrushLocal
 dev_langs:
- - c++
+- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsobjectmodel.h
+- xpsobjectmodel.h
 api_name:
- - IXpsOMPath.GetFillBrushLocal
+- IXpsOMPath.GetFillBrushLocal
 targetos: Windows
 req.typenames: 
 req.redist: 

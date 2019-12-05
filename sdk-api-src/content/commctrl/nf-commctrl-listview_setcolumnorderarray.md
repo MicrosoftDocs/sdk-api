@@ -1,19 +1,17 @@
 ---
 UID: NF:commctrl.ListView_SetColumnOrderArray
 title: ListView_SetColumnOrderArray macro (commctrl.h)
-
 description: Sets the left-to-right order of columns in a list-view control. You can use this macro or send the LVM_SETCOLUMNORDERARRAY message explicitly.
 old-location: controls\ListView_SetColumnOrderArray.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_setcolumnorderarray.htm
-
 ms.date: 12/05/2018
 ms.keywords: ListView_SetColumnOrderArray, ListView_SetColumnOrderArray macro [Windows Controls], _win32_ListView_SetColumnOrderArray, _win32_ListView_SetColumnOrderArray_cpp, commctrl/ListView_SetColumnOrderArray, controls.ListView_SetColumnOrderArray, controls._win32_ListView_SetColumnOrderArray
 ms.topic: macro
-f1_keywords: 
- - "commctrl/ListView_SetColumnOrderArray"
+f1_keywords:
+- commctrl/ListView_SetColumnOrderArray
 dev_langs:
- - c++
+- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Commctrl.h
+- Commctrl.h
 api_name:
- - ListView_SetColumnOrderArray
+- ListView_SetColumnOrderArray
 targetos: Windows
 req.typenames: 
 req.redist: 

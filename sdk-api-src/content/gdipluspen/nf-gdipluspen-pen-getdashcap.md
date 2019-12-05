@@ -1,19 +1,17 @@
 ---
 UID: NF:gdipluspen.Pen.GetDashCap
 title: Pen::GetDashCap (gdipluspen.h)
-
 description: The Pen::GetDashCap method gets the dash cap style currently set for this Pen object.
 old-location: gdiplus\_gdiplus_CLASS_Pen_GetDashCap_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\penclass\penmethods\getdashcap.htm
-
 ms.date: 12/05/2018
 ms.keywords: GetDashCap, GetDashCap method [GDI+], GetDashCap method [GDI+],Pen class, Pen class [GDI+],GetDashCap method, Pen.GetDashCap, Pen::GetDashCap, _gdiplus_CLASS_Pen_GetDashCap_, gdiplus._gdiplus_CLASS_Pen_GetDashCap_
 ms.topic: method
-f1_keywords: 
- - "gdipluspen/Pen.GetDashCap"
+f1_keywords:
+- gdipluspen/Pen.GetDashCap
 dev_langs:
- - c++
+- c++
 req.header: gdipluspen.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - Pen.GetDashCap
+- Pen.GetDashCap
 targetos: Windows
 req.typenames: 
 req.redist: 

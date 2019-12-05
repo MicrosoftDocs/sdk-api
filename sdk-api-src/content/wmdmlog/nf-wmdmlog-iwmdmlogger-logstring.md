@@ -1,19 +1,17 @@
 ---
 UID: NF:wmdmlog.IWMDMLogger.LogString
 title: IWMDMLogger::LogString (wmdmlog.h)
-
 description: The LogString method logs a string to the current log file. A carriage return and line feed are added to each log entry.
 old-location: wmdm\iwmdmlogger_logstring.htm
 tech.root: WMDM
 ms.assetid: 6a084ef6-20dc-4363-b9b8-c4e9bcb1dd71
-
 ms.date: 12/05/2018
 ms.keywords: IWMDMLogger interface [windows Media Device Manager],LogString method, IWMDMLogger.LogString, IWMDMLogger::LogString, IWMDMLoggerLogString, LogString, LogString method [windows Media Device Manager], LogString method [windows Media Device Manager],IWMDMLogger interface, wmdm.iwmdmlogger_logstring, wmdmlog/IWMDMLogger::LogString
 ms.topic: method
-f1_keywords: 
- - "wmdmlog/IWMDMLogger.LogString"
+f1_keywords:
+- wmdmlog/IWMDMLogger.LogString
 dev_langs:
- - c++
+- c++
 req.header: wmdmlog.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mssachlp.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mssachlp.lib
- - mssachlp.dll
+- mssachlp.lib
+- mssachlp.dll
 api_name:
- - IWMDMLogger.LogString
+- IWMDMLogger.LogString
 targetos: Windows
 req.typenames: 
 req.redist: 

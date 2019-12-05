@@ -1,19 +1,17 @@
 ---
 UID: NE:http._HTTP_SERVICE_BINDING_TYPE
 title: HTTP_SERVICE_BINDING_TYPE (http.h)
-
 description: HTTP_SERVICE_BINDING_TYPE enumerated type specifies the string type for service names.
 old-location: http\http_service_binding_type.htm
 tech.root: http
 ms.assetid: 8de36795-c99d-46ce-b9e4-a933de7d4c5c
-
 ms.date: 12/05/2018
 ms.keywords: HTTP_SERVICE_BINDING_TYPE, HTTP_SERVICE_BINDING_TYPE enumeration [HTTP], HttpServiceBindingTypeA, HttpServiceBindingTypeNone, HttpServiceBindingTypeW, http.http_service_binding_type, http/HTTP_SERVICE_BINDING_TYPE, http/HttpServiceBindingTypeA, http/HttpServiceBindingTypeNone, http/HttpServiceBindingTypeW
 ms.topic: enum
-f1_keywords: 
- - "http/HTTP_SERVICE_BINDING_TYPE"
+f1_keywords:
+- http/HTTP_SERVICE_BINDING_TYPE
 dev_langs:
- - c++
+- c++
 req.header: http.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Http.h
+- Http.h
 api_name:
- - HTTP_SERVICE_BINDING_TYPE
+- HTTP_SERVICE_BINDING_TYPE
 targetos: Windows
 req.typenames: HTTP_SERVICE_BINDING_TYPE
 req.redist: 

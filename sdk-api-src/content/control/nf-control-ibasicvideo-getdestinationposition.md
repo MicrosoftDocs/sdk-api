@@ -1,19 +1,17 @@
 ---
 UID: NF:control.IBasicVideo.GetDestinationPosition
 title: IBasicVideo::GetDestinationPosition (control.h)
-
 description: The GetDestinationPosition method retrieves the position of the destination rectangle.
 old-location: dshow\ibasicvideo_getdestinationposition.htm
 tech.root: DirectShow
 ms.assetid: ee2abf52-edc2-471e-bf9b-eda04f2eabe4
-
 ms.date: 12/05/2018
 ms.keywords: GetDestinationPosition, GetDestinationPosition method [DirectShow], GetDestinationPosition method [DirectShow],IBasicVideo interface, IBasicVideo interface [DirectShow],GetDestinationPosition method, IBasicVideo.GetDestinationPosition, IBasicVideo::GetDestinationPosition, IBasicVideoGetDestinationPosition, control/IBasicVideo::GetDestinationPosition, dshow.ibasicvideo_getdestinationposition
 ms.topic: method
-f1_keywords: 
- - "control/IBasicVideo.GetDestinationPosition"
+f1_keywords:
+- control/IBasicVideo.GetDestinationPosition
 dev_langs:
- - c++
+- c++
 req.header: control.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IBasicVideo.GetDestinationPosition
+- IBasicVideo.GetDestinationPosition
 targetos: Windows
 req.typenames: 
 req.redist: 

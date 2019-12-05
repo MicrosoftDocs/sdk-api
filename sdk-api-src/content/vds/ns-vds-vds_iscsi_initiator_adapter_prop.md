@@ -1,19 +1,17 @@
 ---
 UID: NS:vds._VDS_ISCSI_INITIATOR_ADAPTER_PROP
 title: VDS_ISCSI_INITIATOR_ADAPTER_PROP (vds.h)
-
 description: Defines the properties of an iSCSI initiator adapter.
 old-location: base\vds_iscsi_initiator_adapter_prop.htm
 tech.root: VDS
 ms.assetid: cfcc7c7a-d135-4404-8f67-64e43a425669
-
 ms.date: 12/05/2018
 ms.keywords: VDS_ISCSI_INITIATOR_ADAPTER_PROP, VDS_ISCSI_INITIATOR_ADAPTER_PROP structure [VDS], _VDS_ISCSI_INITIATOR_ADAPTER_PROP, base.vds_iscsi_initiator_adapter_prop, vds/VDS_ISCSI_INITIATOR_ADAPTER_PROP, vdshwprv/VDS_ISCSI_INITIATOR_ADAPTER_PROP
 ms.topic: struct
-f1_keywords: 
- - "vds/VDS_ISCSI_INITIATOR_ADAPTER_PROP"
+f1_keywords:
+- vds/VDS_ISCSI_INITIATOR_ADAPTER_PROP
 dev_langs:
- - c++
+- c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Vds.h
- - VdsHwPrv.h
+- Vds.h
+- VdsHwPrv.h
 api_name:
- - VDS_ISCSI_INITIATOR_ADAPTER_PROP
+- VDS_ISCSI_INITIATOR_ADAPTER_PROP
 targetos: Windows
 req.typenames: VDS_ISCSI_INITIATOR_ADAPTER_PROP
 req.redist: VDS 1.1

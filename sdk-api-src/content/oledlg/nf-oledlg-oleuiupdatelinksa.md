@@ -1,19 +1,17 @@
 ---
 UID: NF:oledlg.OleUIUpdateLinksA
 title: OleUIUpdateLinksA function (oledlg.h)
-
 description: Updates all links in the link container and displays a dialog box that shows the progress of the updating process. The process is stopped if the user presses the Stop button or when all links are processed.
 old-location: com\oleuiupdatelinks.htm
 tech.root: com
 ms.assetid: f280b061-45d8-484d-9fe1-ec4d85288bc6
-
 ms.date: 12/05/2018
 ms.keywords: OleUIUpdateLinks, OleUIUpdateLinks function [COM], OleUIUpdateLinksA, OleUIUpdateLinksW, _ole_OleUIUpdateLinks, com.oleuiupdatelinks, oledlg/OleUIUpdateLinks, oledlg/OleUIUpdateLinksA, oledlg/OleUIUpdateLinksW
 ms.topic: function
-f1_keywords: 
- - "oledlg/OleUIUpdateLinks"
+f1_keywords:
+- oledlg/OleUIUpdateLinks
 dev_langs:
- - c++
+- c++
 req.header: oledlg.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: OleDlg.lib
 req.dll: OleDlg.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - OleDlg.dll
+- OleDlg.dll
 api_name:
- - OleUIUpdateLinks
- - OleUIUpdateLinksA
- - OleUIUpdateLinksW
+- OleUIUpdateLinks
+- OleUIUpdateLinksA
+- OleUIUpdateLinksW
 targetos: Windows
 req.typenames: 
 req.redist: 

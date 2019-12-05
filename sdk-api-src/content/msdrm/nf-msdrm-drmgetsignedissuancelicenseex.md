@@ -1,19 +1,17 @@
 ---
 UID: NF:msdrm.DRMGetSignedIssuanceLicenseEx
 title: DRMGetSignedIssuanceLicenseEx function (msdrm.h)
-
 description: Acquires a signed issuance license offline.
 old-location: rm\drmgetsignedissuancelicenseex.htm
 tech.root: AdRms_Sdk
 ms.assetid: 9d37f69e-e582-4efc-9f17-866f195e439a
-
 ms.date: 12/05/2018
 ms.keywords: DRMGetSignedIssuanceLicenseEx, DRMGetSignedIssuanceLicenseEx function [Active Directory Rights Management Services SDK 1.0], DRM_AUTO_GENERATE_KEY, DRM_OWNER_LICENSE_NOPERSIST, DRM_REUSE_KEY, DRM_SIGN_CANCEL, DRM_SIGN_OFFLINE, msdrm/DRMGetSignedIssuanceLicenseEx, rm.drmgetsignedissuancelicenseex
 ms.topic: function
-f1_keywords: 
- - "msdrm/DRMGetSignedIssuanceLicenseEx"
+f1_keywords:
+- msdrm/DRMGetSignedIssuanceLicenseEx
 dev_langs:
- - c++
+- c++
 req.header: msdrm.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Msdrm.lib
 req.dll: Msdrm.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Msdrm.dll
+- Msdrm.dll
 api_name:
- - DRMGetSignedIssuanceLicenseEx
+- DRMGetSignedIssuanceLicenseEx
 targetos: Windows
 req.typenames: 
 req.redist: 

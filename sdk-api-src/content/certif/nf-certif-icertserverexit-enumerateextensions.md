@@ -1,19 +1,17 @@
 ---
 UID: NF:certif.ICertServerExit.EnumerateExtensions
 title: ICertServerExit::EnumerateExtensions (certif.h)
-
 description: Returns the object identifier (OID) string (also known as the extension name) of the next certificate extension to be enumerated, then increments the internal pointer to the following extension.
 old-location: security\icertserverexit_enumerateextensions.htm
 tech.root: SecCrypto
 ms.assetid: 8726f5fa-dc85-4357-b73a-013842d6ab78
-
 ms.date: 12/05/2018
 ms.keywords: CCertServerExit object [Security],EnumerateExtensions method, EnumerateExtensions, EnumerateExtensions method [Security], EnumerateExtensions method [Security],CCertServerExit object, EnumerateExtensions method [Security],ICertServerExit interface, ICertServerExit interface [Security],EnumerateExtensions method, ICertServerExit.EnumerateExtensions, ICertServerExit::EnumerateExtensions, _certsrv_icertserverexit_enumerateextensions, certif/ICertServerExit::EnumerateExtensions, security.icertserverexit_enumerateextensions
 ms.topic: method
-f1_keywords: 
- - "certif/ICertServerExit.EnumerateExtensions"
+f1_keywords:
+- certif/ICertServerExit.EnumerateExtensions
 dev_langs:
- - c++
+- c++
 req.header: certif.h
 req.include-header: Certsrv.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Certidl.lib
 req.dll: Certcli.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Certcli.dll
+- Certcli.dll
 api_name:
- - ICertServerExit.EnumerateExtensions
- - CCertServerExit.EnumerateExtensions
+- ICertServerExit.EnumerateExtensions
+- CCertServerExit.EnumerateExtensions
 targetos: Windows
 req.typenames: 
 req.redist: 

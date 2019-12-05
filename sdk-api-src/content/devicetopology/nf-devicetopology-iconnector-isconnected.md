@@ -1,19 +1,17 @@
 ---
 UID: NF:devicetopology.IConnector.IsConnected
 title: IConnector::IsConnected (devicetopology.h)
-
 description: The IsConnected method indicates whether this connector is connected to another connector.
 old-location: coreaudio\iconnector_isconnected.htm
 tech.root: CoreAudio
 ms.assetid: 56aaee41-bf55-4556-b3d3-b0548a0db37c
-
 ms.date: 12/05/2018
 ms.keywords: IConnector interface [Core Audio],IsConnected method, IConnector.IsConnected, IConnector::IsConnected, IConnectorIsConnected, IsConnected, IsConnected method [Core Audio], IsConnected method [Core Audio],IConnector interface, coreaudio.iconnector_isconnected, devicetopology/IConnector::IsConnected
 ms.topic: method
-f1_keywords: 
- - "devicetopology/IConnector.IsConnected"
+f1_keywords:
+- devicetopology/IConnector.IsConnected
 dev_langs:
- - c++
+- c++
 req.header: devicetopology.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Devicetopology.h
+- Devicetopology.h
 api_name:
- - IConnector.IsConnected
+- IConnector.IsConnected
 targetos: Windows
 req.typenames: 
 req.redist: 

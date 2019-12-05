@@ -1,19 +1,17 @@
 ---
 UID: NF:wsmandisp.IWSManConnectionOptionsEx2.ProxyWinHttpConfig
 title: IWSManConnectionOptionsEx2::ProxyWinHttpConfig (wsmandisp.h)
-
 description: Returns the value of the proxy access type flag WSManProxyWinHttpConfig for use in the accessType parameter of the IWSManConnectionOptionsEx2::SetProxy method.
 old-location: winrm\iwsmanconnectionoptionsex2_proxywinhttpconfig.htm
 tech.root: winrm
 ms.assetid: a44cd693-cf85-4c04-89d5-920e4c2972a4
-
 ms.date: 12/05/2018
 ms.keywords: IWSManConnectionOptionsEx2 interface [Windows Remote Management],ProxyWinHttpConfig method, IWSManConnectionOptionsEx2.ProxyWinHttpConfig, IWSManConnectionOptionsEx2::ProxyWinHttpConfig, ProxyWinHttpConfig, ProxyWinHttpConfig method [Windows Remote Management], ProxyWinHttpConfig method [Windows Remote Management],IWSManConnectionOptionsEx2 interface, winrm.iwsmanconnectionoptionsex2_proxywinhttpconfig, wsmandisp/IWSManConnectionOptionsEx2::ProxyWinHttpConfig
 ms.topic: method
-f1_keywords: 
- - "wsmandisp/IWSManConnectionOptionsEx2.ProxyWinHttpConfig"
+f1_keywords:
+- wsmandisp/IWSManConnectionOptionsEx2.ProxyWinHttpConfig
 dev_langs:
- - c++
+- c++
 req.header: wsmandisp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - WSManDisp.h
+- WSManDisp.h
 api_name:
- - IWSManConnectionOptionsEx2.ProxyWinHttpConfig
+- IWSManConnectionOptionsEx2.ProxyWinHttpConfig
 targetos: Windows
 req.typenames: 
 req.redist: Windows Management Framework on Windows Server 2008 with SP2 and Windows Vista with SP2

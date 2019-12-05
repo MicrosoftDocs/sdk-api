@@ -1,19 +1,17 @@
 ---
 UID: NF:gdiplusimageattributes.ImageAttributes.Clone
 title: ImageAttributes::Clone (gdiplusimageattributes.h)
-
 description: The ImageAttributes::Clone method makes a copy of this ImageAttributes object.
 old-location: gdiplus\_gdiplus_CLASS_ImageAttributes_Clone_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\imageattributesclass\imageattributesmethods\clone_98.htm
-
 ms.date: 12/05/2018
 ms.keywords: Clone, Clone method [GDI+], Clone method [GDI+],ImageAttributes class, ImageAttributes class [GDI+],Clone method, ImageAttributes.Clone, ImageAttributes::Clone, _gdiplus_CLASS_ImageAttributes_Clone_, gdiplus._gdiplus_CLASS_ImageAttributes_Clone_
 ms.topic: method
-f1_keywords: 
- - "gdiplusimageattributes/ImageAttributes.Clone"
+f1_keywords:
+- gdiplusimageattributes/ImageAttributes.Clone
 dev_langs:
- - c++
+- c++
 req.header: gdiplusimageattributes.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - ImageAttributes.Clone
+- ImageAttributes.Clone
 targetos: Windows
 req.typenames: 
 req.redist: 

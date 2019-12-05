@@ -1,19 +1,17 @@
 ---
 UID: NF:azroles.IAzTask.put_BizRule
 title: IAzTask::put_BizRule (azroles.h)
-
 description: Sets or retrieves the text of the script that implements the business rule (BizRule).
 old-location: security\iaztask_bizrule.htm
 tech.root: SecAuthZ
 ms.assetid: cf3d87af-5320-4fe0-b513-e242f8a1dd1b
-
 ms.date: 12/05/2018
 ms.keywords: AzTask object [Security],BizRule property, BizRule property [Security], BizRule property [Security],AzTask object, BizRule property [Security],IAzTask interface, IAzTask interface [Security],BizRule property, IAzTask.BizRule, IAzTask.put_BizRule, IAzTask::BizRule, IAzTask::get_BizRule, IAzTask::put_BizRule, azroles/IAzTask::BizRule, azroles/IAzTask::get_BizRule, azroles/IAzTask::put_BizRule, put_BizRule, security.iaztask_bizrule
 ms.topic: method
-f1_keywords: 
- - "azroles/IAzTask.BizRule"
+f1_keywords:
+- azroles/IAzTask.BizRule
 dev_langs:
- - c++
+- c++
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Azroles.lib
 req.dll: Azroles.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Azroles.dll
+- Azroles.dll
 api_name:
- - IAzTask.BizRule
- - IAzTask.get_BizRule
- - IAzTask.put_BizRule
- - AzTask.BizRule
+- IAzTask.BizRule
+- IAzTask.get_BizRule
+- IAzTask.put_BizRule
+- AzTask.BizRule
 targetos: Windows
 req.typenames: 
 req.redist: Windows Server 2003 Administration Tools Pack on Windows XP

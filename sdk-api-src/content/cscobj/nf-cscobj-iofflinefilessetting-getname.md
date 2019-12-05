@@ -1,19 +1,17 @@
 ---
 UID: NF:cscobj.IOfflineFilesSetting.GetName
 title: IOfflineFilesSetting::GetName (cscobj.h)
-
 description: Retrieves a name associated with a particular Offline Files setting.
 old-location: of\iofflinefilessetting_getname.htm
 tech.root: offlinefiles
 ms.assetid: 2e4591b5-c8a9-4645-8001-8ac09c706ee2
-
 ms.date: 12/05/2018
 ms.keywords: GetName, GetName method [Offline Files], GetName method [Offline Files],IOfflineFilesSetting interface, IOfflineFilesSetting interface [Offline Files],GetName method, IOfflineFilesSetting.GetName, IOfflineFilesSetting::GetName, cscobj/IOfflineFilesSetting::GetName, of.iofflinefilessetting_getname
 ms.topic: method
-f1_keywords: 
- - "cscobj/IOfflineFilesSetting.GetName"
+f1_keywords:
+- cscobj/IOfflineFilesSetting.GetName
 dev_langs:
- - c++
+- c++
 req.header: cscobj.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: CscSvc.dll; CscObj.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CscSvc.dll
- - CscObj.dll
+- CscSvc.dll
+- CscObj.dll
 api_name:
- - IOfflineFilesSetting.GetName
+- IOfflineFilesSetting.GetName
 targetos: Windows
 req.typenames: 
 req.redist: 

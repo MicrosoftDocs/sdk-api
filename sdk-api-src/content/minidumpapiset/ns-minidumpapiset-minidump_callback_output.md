@@ -1,19 +1,17 @@
 ---
 UID: NS:minidumpapiset._MINIDUMP_CALLBACK_OUTPUT
 title: MINIDUMP_CALLBACK_OUTPUT (minidumpapiset.h)
-
 description: Contains information returned by the MiniDumpCallback function.
 old-location: base\minidump_callback_output_str.htm
 tech.root: Debug
 ms.assetid: 57949087-0f22-40c8-ab56-326a8304c310
-
 ms.date: 12/05/2018
 ms.keywords: '*PMINIDUMP_CALLBACK_OUTPUT, MINIDUMP_CALLBACK_OUTPUT, MINIDUMP_CALLBACK_OUTPUT structure, PMINIDUMP_CALLBACK_OUTPUT, PMINIDUMP_CALLBACK_OUTPUT structure pointer, _MINIDUMP_CALLBACK_OUTPUT, _win32_minidump_callback_output_str, base.minidump_callback_output_str, minidumpapiset/MINIDUMP_CALLBACK_OUTPUT, minidumpapiset/PMINIDUMP_CALLBACK_OUTPUT'
 ms.topic: struct
 f1_keywords:
 - minidumpapiset/MINIDUMP_CALLBACK_OUTPUT
 dev_langs:
- - c++
+- c++
 req.header: minidumpapiset.h
 req.include-header: DbgHelp.h
 req.target-type: Windows

@@ -1,19 +1,17 @@
 ---
 UID: NF:tom.ITextPara.SetListType
 title: ITextPara::SetListType (tom.h)
-
 description: Sets the type of list to be used for paragraphs.
 old-location: controls\ITextPara_SetListType.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\setlisttype.htm
-
 ms.date: 12/05/2018
 ms.keywords: ITextPara interface [Windows Controls],SetListType method, ITextPara.SetListType, ITextPara::SetListType, SetListType, SetListType method [Windows Controls], SetListType method [Windows Controls],ITextPara interface, _win32_ITextPara_SetListType, _win32_ITextPara_SetListType_cpp, controls.ITextPara_SetListType, controls._win32_ITextPara_SetListType, tom/ITextPara::SetListType
 ms.topic: method
-f1_keywords: 
- - "tom/ITextPara.SetListType"
+f1_keywords:
+- tom/ITextPara.SetListType
 dev_langs:
- - c++
+- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msftedit.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msftedit.dll
+- Msftedit.dll
 api_name:
- - ITextPara.SetListType
+- ITextPara.SetListType
 targetos: Windows
 req.typenames: 
 req.redist: 

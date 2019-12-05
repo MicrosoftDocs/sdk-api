@@ -1,7 +1,6 @@
 ---
 UID: NA:objidl
 ms.assetid: 61129341-18f7-3ab8-95b4-b450e7060c31
-
 ms.date: 01/11/2019
 ms.keywords: 
 ms.topic: portal

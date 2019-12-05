@@ -1,19 +1,17 @@
 ---
 UID: NS:gdipluseffects.RedEyeCorrectionParams
 title: RedEyeCorrectionParams (gdipluseffects.h)
-
 description: A RedEyeCorrectionParams structure contains members that specify the areas of a bitmap to which a red-eye correction is applied.
 old-location: gdiplus\_gdiplus_STRUC_RedEyeCorrectionParams.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\structures\redeyecorrectionparams.htm
-
 ms.date: 12/05/2018
 ms.keywords: RedEyeCorrectionParams, RedEyeCorrectionParams structure [GDI+], _gdiplus_STRUC_RedEyeCorrectionParams, gdiplus._gdiplus_STRUC_RedEyeCorrectionParams, gdipluseffects/RedEyeCorrectionParams
 ms.topic: struct
-f1_keywords: 
- - "gdipluseffects/RedEyeCorrectionParams"
+f1_keywords:
+- gdipluseffects/RedEyeCorrectionParams
 dev_langs:
- - c++
+- c++
 req.header: gdipluseffects.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Gdipluseffects.h
+- Gdipluseffects.h
 api_name:
- - RedEyeCorrectionParams
+- RedEyeCorrectionParams
 targetos: Windows
 req.typenames: 
 req.redist: 

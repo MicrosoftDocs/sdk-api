@@ -1,19 +1,17 @@
 ---
 UID: NF:propvarutil.InitVariantFromDouble
 title: InitVariantFromDouble function (propvarutil.h)
-
 description: Initializes a VARIANT structure with a value of type DOUBLE.
 old-location: properties\InitVariantFromDouble.htm
 tech.root: properties
 ms.assetid: a0a13843-e943-4fca-b4d4-5af1d2ff02e9
-
 ms.date: 12/05/2018
 ms.keywords: InitVariantFromDouble, InitVariantFromDouble function [Windows Properties], _shell_InitVariantFromDouble, properties.InitVariantFromDouble, propvarutil/InitVariantFromDouble, shell.InitVariantFromDouble
 ms.topic: function
-f1_keywords: 
- - "propvarutil/InitVariantFromDouble"
+f1_keywords:
+- propvarutil/InitVariantFromDouble
 dev_langs:
- - c++
+- c++
 req.header: propvarutil.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Propvarutil.h
+- Propvarutil.h
 api_name:
- - InitVariantFromDouble
+- InitVariantFromDouble
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0

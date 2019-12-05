@@ -1,19 +1,17 @@
 ---
 UID: NF:wdsbp.WdsBpCloseHandle
 title: WdsBpCloseHandle function (wdsbp.h)
-
 description: Closes the specified handle.
 old-location: wds\wdsbpclosehandle.htm
 tech.root: wds
 ms.assetid: b35ec3e2-7dd5-4e17-b657-72bafe91921a
-
 ms.date: 12/05/2018
 ms.keywords: WdsBpCloseHandle, WdsBpCloseHandle function [Windows Deployment Services], wds.wdsbpclosehandle, wdsbp/WdsBpCloseHandle
 ms.topic: function
-f1_keywords: 
- - "wdsbp/WdsBpCloseHandle"
+f1_keywords:
+- wdsbp/WdsBpCloseHandle
 dev_langs:
- - c++
+- c++
 req.header: wdsbp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Wdsbp.lib
 req.dll: Wdsbp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Wdsbp.dll
+- Wdsbp.dll
 api_name:
- - WdsBpCloseHandle
+- WdsBpCloseHandle
 targetos: Windows
 req.typenames: 
 req.redist: 

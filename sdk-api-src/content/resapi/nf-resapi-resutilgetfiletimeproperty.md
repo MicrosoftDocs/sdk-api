@@ -1,19 +1,17 @@
 ---
 UID: NF:resapi.ResUtilGetFileTimeProperty
 title: ResUtilGetFileTimeProperty function (resapi.h)
-
 description: TBD. The PRESUTIL_GET_FILETIME_PROPERTY type defines a pointer to this function.
 old-location: mscs\resutilgetfiletimeproperty.htm
 tech.root: MsCS
 ms.assetid: 80e05f95-d57f-40a4-a56c-bbadcfaa144e
-
 ms.date: 12/05/2018
 ms.keywords: PRESUTIL_GET_FILETIME_PROPERTY, PRESUTIL_GET_FILETIME_PROPERTY function [Failover Cluster], ResUtilGetFileTimeProperty, ResUtilGetFileTimeProperty function [Failover Cluster], mscs.resutilgetfiletimeproperty, resapi/PRESUTIL_GET_FILETIME_PROPERTY, resapi/ResUtilGetFileTimeProperty
 ms.topic: function
-f1_keywords: 
- - "resapi/ResUtilGetFileTimeProperty"
+f1_keywords:
+- resapi/ResUtilGetFileTimeProperty
 dev_langs:
- - c++
+- c++
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: ResUtils.lib; ResApi.lib on Windows Server 2008 R2 and Windows Server
 req.dll: ResUtils.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - ResUtils.dll
+- ResUtils.dll
 api_name:
- - ResUtilGetFileTimeProperty
+- ResUtilGetFileTimeProperty
 targetos: Windows
 req.typenames: 
 req.redist: 

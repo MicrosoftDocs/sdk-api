@@ -1,19 +1,17 @@
 ---
 UID: NF:imapi2fs.IEnumFsiItems.Next
 title: IEnumFsiItems::Next (imapi2fs.h)
-
 description: Retrieves a specified number of items in the enumeration sequence.
 old-location: imapi\ienumfsiitems_next.htm
 tech.root: imapi
 ms.assetid: 3aad9540-7fbc-4eda-9619-187a9c5b4b2d
-
 ms.date: 12/05/2018
 ms.keywords: IEnumFsiItems interface [IMAPI],Next method, IEnumFsiItems.Next, IEnumFsiItems::Next, Next, Next method [IMAPI], Next method [IMAPI],IEnumFsiItems interface, imapi.ienumfsiitems_next, imapi2fs/IEnumFsiItems::Next
 ms.topic: method
-f1_keywords: 
- - "imapi2fs/IEnumFsiItems.Next"
+f1_keywords:
+- imapi2fs/IEnumFsiItems.Next
 dev_langs:
- - c++
+- c++
 req.header: imapi2fs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - imapi2fs.h
+- imapi2fs.h
 api_name:
- - IEnumFsiItems.Next
+- IEnumFsiItems.Next
 targetos: Windows
 req.typenames: 
 req.redist: 

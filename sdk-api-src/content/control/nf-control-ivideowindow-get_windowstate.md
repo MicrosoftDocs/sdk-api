@@ -1,19 +1,17 @@
 ---
 UID: NF:control.IVideoWindow.get_WindowState
 title: IVideoWindow::get_WindowState (control.h)
-
 description: The get_WindowState method queries whether the video window is visible, hidden, minimized, or maximized.
 old-location: dshow\ivideowindow_get_windowstate.htm
 tech.root: DirectShow
 ms.assetid: ecda497c-634b-4a7e-9f21-85bde307c796
-
 ms.date: 12/05/2018
 ms.keywords: IVideoWindow interface [DirectShow],get_WindowState method, IVideoWindow.get_WindowState, IVideoWindow::get_WindowState, IVideoWindowget_WindowState, control/IVideoWindow::get_WindowState, dshow.ivideowindow_get_windowstate, get_WindowState, get_WindowState method [DirectShow], get_WindowState method [DirectShow],IVideoWindow interface
 ms.topic: method
-f1_keywords: 
- - "control/IVideoWindow.get_WindowState"
+f1_keywords:
+- control/IVideoWindow.get_WindowState
 dev_langs:
- - c++
+- c++
 req.header: control.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IVideoWindow.get_WindowState
+- IVideoWindow.get_WindowState
 targetos: Windows
 req.typenames: 
 req.redist: 

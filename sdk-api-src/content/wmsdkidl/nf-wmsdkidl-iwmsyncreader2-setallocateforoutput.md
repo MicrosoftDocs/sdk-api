@@ -1,19 +1,17 @@
 ---
 UID: NF:wmsdkidl.IWMSyncReader2.SetAllocateForOutput
 title: IWMSyncReader2::SetAllocateForOutput (wmsdkidl.h)
-
 description: The SetAllocateForOutput method sets a sample allocation callback interface for allocating output samples.
 old-location: wmformat\iwmsyncreader2_setallocateforoutput.htm
 tech.root: wmformat
 ms.assetid: 2f0c754e-f09c-472f-8f40-3fcd0fb29c48
-
 ms.date: 12/05/2018
 ms.keywords: IWMSyncReader2 interface [windows Media Format],SetAllocateForOutput method, IWMSyncReader2.SetAllocateForOutput, IWMSyncReader2::SetAllocateForOutput, IWMSyncReader2SetAllocateForOutput, SetAllocateForOutput, SetAllocateForOutput method [windows Media Format], SetAllocateForOutput method [windows Media Format],IWMSyncReader2 interface, wmformat.iwmsyncreader2_setallocateforoutput, wmsdkidl/IWMSyncReader2::SetAllocateForOutput
 ms.topic: method
-f1_keywords: 
- - "wmsdkidl/IWMSyncReader2.SetAllocateForOutput"
+f1_keywords:
+- wmsdkidl/IWMSyncReader2.SetAllocateForOutput
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wmvcore.lib
- - Wmvcore.dll
- - WMStubDRM.lib
- - WMStubDRM.dll
+- Wmvcore.lib
+- Wmvcore.dll
+- WMStubDRM.lib
+- WMStubDRM.dll
 api_name:
- - IWMSyncReader2.SetAllocateForOutput
+- IWMSyncReader2.SetAllocateForOutput
 targetos: Windows
 req.typenames: 
 req.redist: 

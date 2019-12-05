@@ -1,19 +1,17 @@
 ---
 UID: NF:tom.ITextRow.SetCellWidth
 title: ITextRow::SetCellWidth (tom.h)
-
 description: Sets the active cell width in twips.
 old-location: controls\itextrow_setcellwidth.htm
 tech.root: Controls
 ms.assetid: 321c5255-9cd5-46ea-a592-165d288bc452
-
 ms.date: 12/05/2018
 ms.keywords: ITextRow interface [Windows Controls],SetCellWidth method, ITextRow.SetCellWidth, ITextRow::SetCellWidth, SetCellWidth, SetCellWidth method [Windows Controls], SetCellWidth method [Windows Controls],ITextRow interface, controls.itextrow_setcellwidth, tom/ITextRow::SetCellWidth
 ms.topic: method
-f1_keywords: 
- - "tom/ITextRow.SetCellWidth"
+f1_keywords:
+- tom/ITextRow.SetCellWidth
 dev_langs:
- - c++
+- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msftedit.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msftedit.dll
+- Msftedit.dll
 api_name:
- - ITextRow.SetCellWidth
+- ITextRow.SetCellWidth
 targetos: Windows
 req.typenames: 
 req.redist: 

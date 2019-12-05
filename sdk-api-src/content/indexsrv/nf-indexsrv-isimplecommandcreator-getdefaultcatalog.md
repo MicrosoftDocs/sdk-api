@@ -1,19 +1,17 @@
 ---
 UID: NF:indexsrv.ISimpleCommandCreator.GetDefaultCatalog
 title: ISimpleCommandCreator::GetDefaultCatalog (indexsrv.h)
-
 description: Determines the default catalog for the system.
 old-location: search\isimplecommandcreator_getdefaultcatalog.htm
 tech.root: search
 ms.assetid: 6BD65290-209A-4FCA-BD2B-E4BB800C8BEF
-
 ms.date: 12/05/2018
 ms.keywords: GetDefaultCatalog, GetDefaultCatalog method [search], GetDefaultCatalog method [search],ISimpleCommandCreator interface, ISimpleCommandCreator interface [search],GetDefaultCatalog method, ISimpleCommandCreator.GetDefaultCatalog, ISimpleCommandCreator::GetDefaultCatalog, indexsrv/ISimpleCommandCreator::GetDefaultCatalog, search.isimplecommandcreator_getdefaultcatalog
 ms.topic: method
-f1_keywords: 
- - "indexsrv/ISimpleCommandCreator.GetDefaultCatalog"
+f1_keywords:
+- indexsrv/ISimpleCommandCreator.GetDefaultCatalog
 dev_langs:
- - c++
+- c++
 req.header: indexsrv.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Indexsrv.h
+- Indexsrv.h
 api_name:
- - ISimpleCommandCreator.GetDefaultCatalog
+- ISimpleCommandCreator.GetDefaultCatalog
 targetos: Windows
 req.typenames: 
 req.redist: Windows NT 4.0 Option Pack

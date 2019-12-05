@@ -1,19 +1,17 @@
 ---
 UID: NF:directxmath.XMVectorSwizzle
 title: XMVectorSwizzle function (directxmath.h)
-
 description: Swizzles a vector.
 old-location: dxmath\xmvectorswizzle.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.component-wise.XMVectorSwizzle(XMVECTOR,uint32_t,uint32_t,uint32_t,uint32_t)
-
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMVectorSwizzle, XMVectorSwizzle, XMVectorSwizzle method [DirectX Math Support APIs], dxmath.xmvectorswizzle
 ms.topic: function
-f1_keywords: 
- - "directxmath/XMVectorSwizzle"
+f1_keywords:
+- directxmath/XMVectorSwizzle
 dev_langs:
- - c++
+- c++
 req.header: directxmath.h
 req.include-header: DirectXMath.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - directxmathvector.inl
+- directxmathvector.inl
 api_name:
- - XMVectorSwizzle
+- XMVectorSwizzle
 targetos: Windows
 req.typenames: 
 req.redist: 

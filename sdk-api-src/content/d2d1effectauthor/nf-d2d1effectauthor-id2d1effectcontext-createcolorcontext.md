@@ -1,19 +1,17 @@
 ---
 UID: NF:d2d1effectauthor.ID2D1EffectContext.CreateColorContext
 title: ID2D1EffectContext::CreateColorContext (d2d1effectauthor.h)
-
 description: Creates a color context from a color space.
 old-location: direct2d\id2d1contextinternal_createcolorcontext.htm
 tech.root: Direct2D
 ms.assetid: FB06917B-091A-4429-83BA-DAEF26F654BE
-
 ms.date: 12/05/2018
 ms.keywords: CreateColorContext, CreateColorContext method [Direct2D], CreateColorContext method [Direct2D],ID2D1EffectContext interface, ID2D1EffectContext interface [Direct2D],CreateColorContext method, ID2D1EffectContext.CreateColorContext, ID2D1EffectContext::CreateColorContext, d2d1effectauthor/ID2D1EffectContext::CreateColorContext, direct2d.id2d1contextinternal_createcolorcontext
 ms.topic: method
-f1_keywords: 
- - "d2d1effectauthor/ID2D1EffectContext.CreateColorContext"
+f1_keywords:
+- d2d1effectauthor/ID2D1EffectContext.CreateColorContext
 dev_langs:
- - c++
+- c++
 req.header: d2d1effectauthor.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: D2d1.lib
 req.dll: D2d1.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - d2d1.dll
+- d2d1.dll
 api_name:
- - ID2D1EffectContext.CreateColorContext
+- ID2D1EffectContext.CreateColorContext
 targetos: Windows
 req.typenames: 
 req.redist: 

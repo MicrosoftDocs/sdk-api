@@ -1,19 +1,17 @@
 ---
 UID: NL:gdipluseffects.ColorMatrixEffect
 title: ColorMatrixEffect (gdipluseffects.h)
-
 description: The ColorMatrixEffect class enables you to apply an affine transformation to a bitmap.
 old-location: gdiplus\_gdiplus_CLASS_ColorMatrixEffect_Class.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\colormatrixeffect.htm
-
 ms.date: 12/05/2018
 ms.keywords: ColorMatrixEffect, ColorMatrixEffect class [GDI+], ColorMatrixEffect class [GDI+],described, _gdiplus_CLASS_ColorMatrixEffect_Class, gdiplus._gdiplus_CLASS_ColorMatrixEffect_Class, gdipluseffects/ColorMatrixEffect
 ms.topic: class
-f1_keywords: 
- - "gdipluseffects/ColorMatrixEffect"
+f1_keywords:
+- gdipluseffects/ColorMatrixEffect
 dev_langs:
- - c++
+- c++
 req.header: gdipluseffects.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - gdipluseffects.h
+- gdipluseffects.h
 api_name:
- - ColorMatrixEffect
+- ColorMatrixEffect
 targetos: Windows
 req.typenames: 
 req.redist: 

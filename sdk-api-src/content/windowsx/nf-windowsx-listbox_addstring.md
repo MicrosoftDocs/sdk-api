@@ -1,19 +1,17 @@
 ---
 UID: NF:windowsx.ListBox_AddString
 title: ListBox_AddString macro (windowsx.h)
-
 description: Adds a string to a list box.
 old-location: controls\ListBox_AddString.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listboxes\listboxreference\listboxmacros\listbox_addstring.htm
-
 ms.date: 12/05/2018
 ms.keywords: ListBox_AddString, ListBox_AddString macro [Windows Controls], _win32_ListBox_AddString, _win32_ListBox_AddString_cpp, controls.ListBox_AddString, controls._win32_ListBox_AddString, windowsx/ListBox_AddString
 ms.topic: macro
-f1_keywords: 
- - "windowsx/ListBox_AddString"
+f1_keywords:
+- windowsx/ListBox_AddString
 dev_langs:
- - c++
+- c++
 req.header: windowsx.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Windowsx.h
+- Windowsx.h
 api_name:
- - ListBox_AddString
+- ListBox_AddString
 targetos: Windows
 req.typenames: 
 req.redist: 

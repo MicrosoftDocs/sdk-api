@@ -1,19 +1,17 @@
 ---
 UID: NS:netioapi._MIB_ANYCASTIPADDRESS_TABLE
 title: MIB_ANYCASTIPADDRESS_TABLE (netioapi.h)
-
 description: Contains a table of anycast IP address entries.
 old-location: mib\mib_anycastipaddress_table.htm
 tech.root: MIB
 ms.assetid: 46b99759-eb9a-4f91-a6b6-40e6e9f55038
-
 ms.date: 12/05/2018
-ms.keywords: "*PMIB_ANYCASTIPADDRESS_TABLE, MIB_ANYCASTIPADDRESS_TABLE, MIB_ANYCASTIPADDRESS_TABLE structure [MIB], PMIB_ANYCASTIPADDRESS_TABLE, PMIB_ANYCASTIPADDRESS_TABLE structure pointer [MIB], _MIB_ANYCASTIPADDRESS_TABLE, mib.mib_anycastipaddress_table, netioapi/MIB_ANYCASTIPADDRESS_TABLE, netioapi/PMIB_ANYCASTIPADDRESS_TABLE"
+ms.keywords: '*PMIB_ANYCASTIPADDRESS_TABLE, MIB_ANYCASTIPADDRESS_TABLE, MIB_ANYCASTIPADDRESS_TABLE structure [MIB], PMIB_ANYCASTIPADDRESS_TABLE, PMIB_ANYCASTIPADDRESS_TABLE structure pointer [MIB], _MIB_ANYCASTIPADDRESS_TABLE, mib.mib_anycastipaddress_table, netioapi/MIB_ANYCASTIPADDRESS_TABLE, netioapi/PMIB_ANYCASTIPADDRESS_TABLE'
 ms.topic: struct
-f1_keywords: 
- - "netioapi/MIB_ANYCASTIPADDRESS_TABLE"
+f1_keywords:
+- netioapi/MIB_ANYCASTIPADDRESS_TABLE
 dev_langs:
- - c++
+- c++
 req.header: netioapi.h
 req.include-header: Iphlpapi.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Netioapi.h
+- Netioapi.h
 api_name:
- - MIB_ANYCASTIPADDRESS_TABLE
+- MIB_ANYCASTIPADDRESS_TABLE
 targetos: Windows
 req.typenames: MIB_ANYCASTIPADDRESS_TABLE, *PMIB_ANYCASTIPADDRESS_TABLE
 req.redist: 

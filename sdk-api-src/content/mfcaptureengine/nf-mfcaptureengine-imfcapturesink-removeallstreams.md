@@ -1,19 +1,17 @@
 ---
 UID: NF:mfcaptureengine.IMFCaptureSink.RemoveAllStreams
 title: IMFCaptureSink::RemoveAllStreams (mfcaptureengine.h)
-
 description: Removes all streams from the capture sink.
 old-location: mf\imfcapturesink_removeallstreams.htm
 tech.root: medfound
 ms.assetid: 7E05D04F-BDE8-4053-A7C4-B74AC5FA76B7
-
 ms.date: 12/05/2018
 ms.keywords: IMFCaptureSink interface [Media Foundation],RemoveAllStreams method, IMFCaptureSink.RemoveAllStreams, IMFCaptureSink::RemoveAllStreams, RemoveAllStreams, RemoveAllStreams method [Media Foundation], RemoveAllStreams method [Media Foundation],IMFCaptureSink interface, mf.imfcapturesink_removeallstreams, mfcaptureengine/IMFCaptureSink::RemoveAllStreams
 ms.topic: method
-f1_keywords: 
- - "mfcaptureengine/IMFCaptureSink.RemoveAllStreams"
+f1_keywords:
+- mfcaptureengine/IMFCaptureSink.RemoveAllStreams
 dev_langs:
- - c++
+- c++
 req.header: mfcaptureengine.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfcaptureengine.h
+- mfcaptureengine.h
 api_name:
- - IMFCaptureSink.RemoveAllStreams
+- IMFCaptureSink.RemoveAllStreams
 targetos: Windows
 req.typenames: 
 req.redist: 

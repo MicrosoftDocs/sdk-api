@@ -1,19 +1,17 @@
 ---
 UID: NF:bits4_0.IBitsTokenOptions.GetHelperTokenFlags
 title: IBitsTokenOptions::GetHelperTokenFlags (bits4_0.h)
-
 description: Returns the usage flags for a token that is associated with a BITS transfer job.
 old-location: bits\ibitstokenoptions_gethelpertokenflags.htm
 tech.root: Bits
 ms.assetid: d00596bf-7695-4a5e-8d13-4700876fdef6
-
 ms.date: 12/05/2018
 ms.keywords: BG_TOKEN_LOCAL_FILE, BG_TOKEN_NETWORK, GetHelperTokenFlags, GetHelperTokenFlags method [BITS], GetHelperTokenFlags method [BITS],IBitsTokenOptions interface, IBitsTokenOptions interface [BITS],GetHelperTokenFlags method, IBitsTokenOptions.GetHelperTokenFlags, IBitsTokenOptions::GetHelperTokenFlags, bits.ibitstokenoptions_gethelpertokenflags, bits4_0/IBitsTokenOptions::GetHelperTokenFlags
 ms.topic: method
-f1_keywords: 
- - "bits4_0/IBitsTokenOptions.GetHelperTokenFlags"
+f1_keywords:
+- bits4_0/IBitsTokenOptions.GetHelperTokenFlags
 dev_langs:
- - c++
+- c++
 req.header: bits4_0.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Bits4_0.h
+- Bits4_0.h
 api_name:
- - IBitsTokenOptions.GetHelperTokenFlags
+- IBitsTokenOptions.GetHelperTokenFlags
 targetos: Windows
 req.typenames: 
 req.redist: Windows Management Framework on  Windows Vista with SP1,  Windows Vista with SP2, and  Windows Server 2008 with SP2

@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IExplorerCommand.GetCanonicalName
 title: IExplorerCommand::GetCanonicalName (shobjidl_core.h)
-
 description: Gets the GUID of an Windows Explorer command.
 old-location: shell\IExplorerCommand_GetCanonicalName.htm
 tech.root: shell
 ms.assetid: c0f2fc66-98f5-404f-9d82-0290ed235ac0
-
 ms.date: 12/05/2018
 ms.keywords: GetCanonicalName, GetCanonicalName method [Windows Shell], GetCanonicalName method [Windows Shell],IExplorerCommand interface, IExplorerCommand interface [Windows Shell],GetCanonicalName method, IExplorerCommand.GetCanonicalName, IExplorerCommand::GetCanonicalName, _shell_IExplorerCommand_GetCanonicalName, shell.IExplorerCommand_GetCanonicalName, shobjidl_core/IExplorerCommand::GetCanonicalName
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IExplorerCommand.GetCanonicalName"
+f1_keywords:
+- shobjidl_core/IExplorerCommand.GetCanonicalName
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - IExplorerCommand.GetCanonicalName
+- IExplorerCommand.GetCanonicalName
 targetos: Windows
 req.typenames: 
 req.redist: 

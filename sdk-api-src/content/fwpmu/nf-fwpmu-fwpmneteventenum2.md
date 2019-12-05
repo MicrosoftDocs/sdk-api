@@ -1,19 +1,17 @@
 ---
 UID: NF:fwpmu.FwpmNetEventEnum2
 title: FwpmNetEventEnum2 function (fwpmu.h)
-
 description: Returns the next page of results from the network event enumerator.
 old-location: fwp\fwpmneteventenum2.htm
 tech.root: fwp
 ms.assetid: bf0974b1-8ddf-4f88-8b15-75f255f7a9d6
-
 ms.date: 12/05/2018
 ms.keywords: FwpmNetEventEnum2, FwpmNetEventEnum2 function [Filtering], fwp.fwpmneteventenum2, fwpmu/FwpmNetEventEnum2
 ms.topic: function
-f1_keywords: 
- - "fwpmu/FwpmNetEventEnum2"
+f1_keywords:
+- fwpmu/FwpmNetEventEnum2
 dev_langs:
- - c++
+- c++
 req.header: fwpmu.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Fwpuclnt.lib
 req.dll: Fwpuclnt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Fwpuclnt.dll
+- Fwpuclnt.dll
 api_name:
- - FwpmNetEventEnum2
+- FwpmNetEventEnum2
 targetos: Windows
 req.typenames: 
 req.redist: 

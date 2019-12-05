@@ -1,19 +1,17 @@
 ---
 UID: NE:d2d1effects.D2D1_COLORMATRIX_PROP
 title: D2D1_COLORMATRIX_PROP (d2d1effects.h)
-
 description: Identifiers for the properties of the Color matrix effect.
 old-location: direct2d\d2d1_colormatrix_prop.htm
 tech.root: Direct2D
 ms.assetid: 7A171DAF-08E4-46FF-9FAF-54A83E805555
-
 ms.date: 12/05/2018
 ms.keywords: D2D1_COLORMATRIX_PROP, D2D1_COLORMATRIX_PROP enumeration [Direct2D], D2D1_COLORMATRIX_PROP_ALPHA_MODE, D2D1_COLORMATRIX_PROP_CLAMP_OUTPUT, D2D1_COLORMATRIX_PROP_COLOR_MATRIX, d2d1effects/D2D1_COLORMATRIX_PROP, d2d1effects/D2D1_COLORMATRIX_PROP_ALPHA_MODE, d2d1effects/D2D1_COLORMATRIX_PROP_CLAMP_OUTPUT, d2d1effects/D2D1_COLORMATRIX_PROP_COLOR_MATRIX, direct2d.d2d1_colormatrix_prop
 ms.topic: enum
-f1_keywords: 
- - "d2d1effects/D2D1_COLORMATRIX_PROP"
+f1_keywords:
+- d2d1effects/D2D1_COLORMATRIX_PROP
 dev_langs:
- - c++
+- c++
 req.header: d2d1effects.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - d2d1effects.h
+- d2d1effects.h
 api_name:
- - D2D1_COLORMATRIX_PROP
+- D2D1_COLORMATRIX_PROP
 targetos: Windows
 req.typenames: D2D1_COLORMATRIX_PROP
 req.redist: 

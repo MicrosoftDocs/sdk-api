@@ -1,19 +1,17 @@
 ---
 UID: NF:infotech.IITDatabase.Close
 title: IITDatabase::Close (infotech.h)
-
 description: Closes a database.
 old-location: htmlhelp\iitdatabase_close.htm
 tech.root: htmlhelp
 ms.assetid: VS|htmlhelp|~\html\refiitdatabaseclose.htm
-
 ms.date: 12/05/2018
 ms.keywords: Close, Close method [HTML Help Workshop], Close method [HTML Help Workshop],IITDatabase interface, IITDatabase interface [HTML Help Workshop],Close method, IITDatabase.Close, IITDatabase::Close, htmlhelp.iitdatabase_close, infotech/IITDatabase::Close, refIITDatabaseClose
 ms.topic: method
-f1_keywords: 
- - "infotech/IITDatabase.Close"
+f1_keywords:
+- infotech/IITDatabase.Close
 dev_langs:
- - c++
+- c++
 req.header: infotech.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Infotech.h
+- Infotech.h
 api_name:
- - IITDatabase.Close
+- IITDatabase.Close
 targetos: Windows
 req.typenames: 
 req.redist: 

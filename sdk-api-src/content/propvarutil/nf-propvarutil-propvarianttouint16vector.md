@@ -1,19 +1,17 @@
 ---
 UID: NF:propvarutil.PropVariantToUInt16Vector
 title: PropVariantToUInt16Vector function (propvarutil.h)
-
 description: Extracts data from a PROPVARIANT structure into an unsigned short vector.
 old-location: properties\PropVariantToUInt16Vector.htm
 tech.root: properties
 ms.assetid: 34fe404c-cef6-47d9-9eaf-8ab151bd4726
-
 ms.date: 12/05/2018
 ms.keywords: PropVariantToUInt16Vector, PropVariantToUInt16Vector function [Windows Properties], _shell_PropVariantToUInt16Vector, properties.PropVariantToUInt16Vector, propvarutil/PropVariantToUInt16Vector, shell.PropVariantToUInt16Vector
 ms.topic: function
-f1_keywords: 
- - "propvarutil/PropVariantToUInt16Vector"
+f1_keywords:
+- propvarutil/PropVariantToUInt16Vector
 dev_langs:
- - c++
+- c++
 req.header: propvarutil.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Propsys.lib
 req.dll: Propsys.dll (version 6.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Propsys.dll
+- Propsys.dll
 api_name:
- - PropVariantToUInt16Vector
+- PropVariantToUInt16Vector
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0

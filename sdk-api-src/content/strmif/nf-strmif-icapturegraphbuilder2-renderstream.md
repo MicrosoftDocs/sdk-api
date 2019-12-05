@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.ICaptureGraphBuilder2.RenderStream
 title: ICaptureGraphBuilder2::RenderStream (strmif.h)
-
 description: The RenderStream method connects an output pin on a source filter to a sink filter, optionally through an intermediate filter.
 old-location: dshow\icapturegraphbuilder2_renderstream.htm
 tech.root: DirectShow
 ms.assetid: 2fb5f13c-2bf5-463b-a209-77129a159bd6
-
 ms.date: 12/05/2018
 ms.keywords: ICaptureGraphBuilder2 interface [DirectShow],RenderStream method, ICaptureGraphBuilder2.RenderStream, ICaptureGraphBuilder2::RenderStream, ICaptureGraphBuilder2RenderStream, RenderStream, RenderStream method [DirectShow], RenderStream method [DirectShow],ICaptureGraphBuilder2 interface, dshow.icapturegraphbuilder2_renderstream, strmif/ICaptureGraphBuilder2::RenderStream
 ms.topic: method
-f1_keywords: 
- - "strmif/ICaptureGraphBuilder2.RenderStream"
+f1_keywords:
+- strmif/ICaptureGraphBuilder2.RenderStream
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - ICaptureGraphBuilder2.RenderStream
+- ICaptureGraphBuilder2.RenderStream
 targetos: Windows
 req.typenames: 
 req.redist: 

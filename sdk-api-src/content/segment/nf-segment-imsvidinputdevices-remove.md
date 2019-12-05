@@ -1,19 +1,17 @@
 ---
 UID: NF:segment.IMSVidInputDevices.Remove
 title: IMSVidInputDevices::Remove (segment.h)
-
 description: The Remove method removes an item from the collection.
 old-location: mstv\imsvidinputdevices_remove.htm
 tech.root: mstv
 ms.assetid: c8990564-70d3-4962-9ff2-24664dbc1161
-
 ms.date: 12/05/2018
 ms.keywords: IMSVidInputDevices interface [Microsoft TV Technologies],Remove method, IMSVidInputDevices.Remove, IMSVidInputDevices::Remove, IMSVidInputDevicesRemove, Remove, Remove method [Microsoft TV Technologies], Remove method [Microsoft TV Technologies],IMSVidInputDevices interface, mstv.imsvidinputdevices_remove, segment/IMSVidInputDevices::Remove
 ms.topic: method
-f1_keywords: 
- - "segment/IMSVidInputDevices.Remove"
+f1_keywords:
+- segment/IMSVidInputDevices.Remove
 dev_langs:
- - c++
+- c++
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - segment.h
+- segment.h
 api_name:
- - IMSVidInputDevices.Remove
+- IMSVidInputDevices.Remove
 targetos: Windows
 req.typenames: 
 req.redist: 

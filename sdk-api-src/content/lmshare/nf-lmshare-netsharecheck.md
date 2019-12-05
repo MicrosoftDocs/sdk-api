@@ -1,19 +1,17 @@
 ---
 UID: NF:lmshare.NetShareCheck
 title: NetShareCheck function (lmshare.h)
-
 description: Checks whether or not a server is sharing a device.
 old-location: fs\netsharecheck.htm
 tech.root: NetShare
 ms.assetid: 8453dcd2-5c58-4fe4-9426-0fd51647394d
-
 ms.date: 12/05/2018
 ms.keywords: NetShareCheck, NetShareCheck function [Files], STYPE_DEVICE, STYPE_DISKTREE, STYPE_IPC, STYPE_PRINTQ, STYPE_SPECIAL, STYPE_TEMPORARY, _win32_netsharecheck, fs.netsharecheck, lmshare/NetShareCheck, netmgmt.netsharecheck
 ms.topic: function
-f1_keywords: 
- - "lmshare/NetShareCheck"
+f1_keywords:
+- lmshare/NetShareCheck
 dev_langs:
- - c++
+- c++
 req.header: lmshare.h
 req.include-header: Lm.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Netapi32.lib
 req.dll: Netapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Netapi32.dll
+- Netapi32.dll
 api_name:
- - NetShareCheck
+- NetShareCheck
 targetos: Windows
 req.typenames: 
 req.redist: 

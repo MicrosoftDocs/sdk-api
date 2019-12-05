@@ -1,19 +1,17 @@
 ---
 UID: NN:xpsobjectmodel.IXpsOMSignatureBlockResourceCollection
 title: IXpsOMSignatureBlockResourceCollection (xpsobjectmodel.h)
-
 description: A collection of IXpsOMSignatureBlockResource interface pointers.
 old-location: xps\ixpsomsignatureblockresourcecollection.htm
 tech.root: printdocs
 ms.assetid: 681bdb9c-69dd-4bf6-a4b3-c490f7a0363e
-
 ms.date: 12/05/2018
 ms.keywords: IXpsOMSignatureBlockResourceCollection, IXpsOMSignatureBlockResourceCollection interface [XPS Documents and Packaging], IXpsOMSignatureBlockResourceCollection interface [XPS Documents and Packaging],described, xps.ixpsomsignatureblockresourcecollection, xpsobjectmodel/IXpsOMSignatureBlockResourceCollection
 ms.topic: interface
-f1_keywords: 
- - "xpsobjectmodel/IXpsOMSignatureBlockResourceCollection"
+f1_keywords:
+- xpsobjectmodel/IXpsOMSignatureBlockResourceCollection
 dev_langs:
- - c++
+- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsobjectmodel.h
+- xpsobjectmodel.h
 api_name:
- - IXpsOMSignatureBlockResourceCollection
+- IXpsOMSignatureBlockResourceCollection
 targetos: Windows
 req.typenames: 
 req.redist: 

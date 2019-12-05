@@ -1,19 +1,17 @@
 ---
 UID: NF:cscobj.IOfflineFilesEvents.ItemModified
 title: IOfflineFilesEvents::ItemModified (cscobj.h)
-
 description: Reports that an item in the Offline Files cache has been modified.
 old-location: of\iofflinefilesevents_itemmodified.htm
 tech.root: offlinefiles
 ms.assetid: e689b111-d6d1-436e-b468-570e575a5170
-
 ms.date: 12/05/2018
 ms.keywords: IOfflineFilesEvents interface [Offline Files],ItemModified method, IOfflineFilesEvents.ItemModified, IOfflineFilesEvents::ItemModified, ItemModified, ItemModified method [Offline Files], ItemModified method [Offline Files],IOfflineFilesEvents interface, cscobj/IOfflineFilesEvents::ItemModified, of.iofflinefilesevents_itemmodified
 ms.topic: method
-f1_keywords: 
- - "cscobj/IOfflineFilesEvents.ItemModified"
+f1_keywords:
+- cscobj/IOfflineFilesEvents.ItemModified
 dev_langs:
- - c++
+- c++
 req.header: cscobj.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: CscSvc.dll; CscObj.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CscSvc.dll
- - CscObj.dll
+- CscSvc.dll
+- CscObj.dll
 api_name:
- - IOfflineFilesEvents.ItemModified
+- IOfflineFilesEvents.ItemModified
 targetos: Windows
 req.typenames: 
 req.redist: 

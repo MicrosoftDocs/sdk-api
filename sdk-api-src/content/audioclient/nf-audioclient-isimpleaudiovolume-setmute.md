@@ -1,19 +1,17 @@
 ---
 UID: NF:audioclient.ISimpleAudioVolume.SetMute
 title: ISimpleAudioVolume::SetMute (audioclient.h)
-
 description: The SetMute method sets the muting state for the audio session.
 old-location: coreaudio\isimpleaudiovolume_setmute.htm
 tech.root: CoreAudio
 ms.assetid: 64fc7146-8d4b-429c-bf35-c43e31a41af8
-
 ms.date: 12/05/2018
 ms.keywords: ISimpleAudioVolume interface [Core Audio],SetMute method, ISimpleAudioVolume.SetMute, ISimpleAudioVolume::SetMute, ISimpleAudioVolumeSetMute, SetMute, SetMute method [Core Audio], SetMute method [Core Audio],ISimpleAudioVolume interface, audioclient/ISimpleAudioVolume::SetMute, coreaudio.isimpleaudiovolume_setmute
 ms.topic: method
-f1_keywords: 
- - "audioclient/ISimpleAudioVolume.SetMute"
+f1_keywords:
+- audioclient/ISimpleAudioVolume.SetMute
 dev_langs:
- - c++
+- c++
 req.header: audioclient.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Audioclient.h
+- Audioclient.h
 api_name:
- - ISimpleAudioVolume.SetMute
+- ISimpleAudioVolume.SetMute
 targetos: Windows
 req.typenames: 
 req.redist: 

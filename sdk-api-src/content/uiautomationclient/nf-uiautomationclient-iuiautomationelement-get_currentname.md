@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationElement.get_CurrentName
 title: IUIAutomationElement::get_CurrentName (uiautomationclient.h)
-
 description: Retrieves the name of the element.
 old-location: winauto\uiauto_IUIAutomationElement_CurrentName.htm
 tech.root: WinAuto
 ms.assetid: 1a56f9ae-ac5a-4444-8ab4-083db124ead6
-
 ms.date: 12/05/2018
 ms.keywords: CurrentName property [Windows Accessibility], CurrentName property [Windows Accessibility],IUIAutomationElement interface, IUIAutomationElement interface [Windows Accessibility],CurrentName property, IUIAutomationElement.CurrentName, IUIAutomationElement.get_CurrentName, IUIAutomationElement::CurrentName, IUIAutomationElement::get_CurrentName, get_CurrentName, uiauto.uiauto_IUIAutomationElement_CurrentName, uiauto_IUIAutomationElement_CurrentName, uiautomationclient/IUIAutomationElement::CurrentName, uiautomationclient/IUIAutomationElement::get_CurrentName, winauto.uiauto_IUIAutomationElement_CurrentName
 ms.topic: method
-f1_keywords: 
- - "uiautomationclient/IUIAutomationElement.CurrentName"
+f1_keywords:
+- uiautomationclient/IUIAutomationElement.CurrentName
 dev_langs:
- - c++
+- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationClient.h
+- UIAutomationClient.h
 api_name:
- - IUIAutomationElement.CurrentName
- - IUIAutomationElement.get_CurrentName
+- IUIAutomationElement.CurrentName
+- IUIAutomationElement.get_CurrentName
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NS:wingdi.tagEMRTRANSPARENTBLT
 title: EMRTRANSPARENTBLT (wingdi.h)
-
 description: The EMRTRANSPARENTBLT structure contains members for the TransparentBLT enhanced metafile record.
 old-location: gdi\emrtransparentblt.htm
 tech.root: gdi
 ms.assetid: f343bc6a-87b8-4c6b-b2cb-3d7f2f515fc1
-
 ms.date: 12/05/2018
-ms.keywords: "*PEMRTRANSPARENTBLT, EMREMRTRANSPARENTBLT, EMREMRTRANSPARENTBLT structure [Windows GDI], EMRTRANSPARENTBLT, EMRTRANSPARENTBLT structure [Windows GDI], PEMREMRTRANSPARENTBLT, PEMREMRTRANSPARENTBLT structure pointer [Windows GDI], _win32_EMRTRANSPARENTBLT_str, gdi.emrtransparentblt, wingdi/EMRTRANSPARENTBLT, wingdi/PEMREMRTRANSPARENTBLT"
+ms.keywords: '*PEMRTRANSPARENTBLT, EMREMRTRANSPARENTBLT, EMREMRTRANSPARENTBLT structure [Windows GDI], EMRTRANSPARENTBLT, EMRTRANSPARENTBLT structure [Windows GDI], PEMREMRTRANSPARENTBLT, PEMREMRTRANSPARENTBLT structure pointer [Windows GDI], _win32_EMRTRANSPARENTBLT_str, gdi.emrtransparentblt, wingdi/EMRTRANSPARENTBLT, wingdi/PEMREMRTRANSPARENTBLT'
 ms.topic: struct
-f1_keywords: 
- - "wingdi/EMREMRTRANSPARENTBLT"
+f1_keywords:
+- wingdi/EMREMRTRANSPARENTBLT
 dev_langs:
- - c++
+- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wingdi.h
+- Wingdi.h
 api_name:
- - EMREMRTRANSPARENTBLT
+- EMREMRTRANSPARENTBLT
 targetos: Windows
 req.typenames: EMRTRANSPARENTBLT, *PEMRTRANSPARENTBLT
 req.redist: 

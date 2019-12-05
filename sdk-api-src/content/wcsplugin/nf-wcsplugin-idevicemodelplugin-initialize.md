@@ -1,19 +1,17 @@
 ---
 UID: NF:wcsplugin.IDeviceModelPlugIn.Initialize
 title: IDeviceModelPlugIn::Initialize (wcsplugin.h)
-
 description: Takes a pointer to a Stream that contains the whole device model plug-in as input, and initializes any internal parameters required by the plug-in.
 old-location: wcs\IDeviceModelPlugIn_Initialize.htm
 tech.root: WCS
 ms.assetid: ae47dcc5-f771-4586-9086-b4ab1600c1bc
-
 ms.date: 12/05/2018
 ms.keywords: IDeviceModelPlugIn interface [Windows Color System],Initialize method, IDeviceModelPlugIn.Initialize, IDeviceModelPlugIn::Initialize, Initialize, Initialize method [Windows Color System], Initialize method [Windows Color System],IDeviceModelPlugIn interface, _color_IDeviceModelPlugIn::Initialize, wcs.IDeviceModelPlugIn_Initialize, wcsplugin/IDeviceModelPlugIn::Initialize
 ms.topic: method
-f1_keywords: 
- - "wcsplugin/IDeviceModelPlugIn.Initialize"
+f1_keywords:
+- wcsplugin/IDeviceModelPlugIn.Initialize
 dev_langs:
- - c++
+- c++
 req.header: wcsplugin.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - WcsPlugIn.h
+- WcsPlugIn.h
 api_name:
- - IDeviceModelPlugIn.Initialize
+- IDeviceModelPlugIn.Initialize
 targetos: Windows
 req.typenames: 
 req.redist: 

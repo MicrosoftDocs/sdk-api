@@ -1,19 +1,17 @@
 ---
 UID: NF:wsmandisp.IWSManConnectionOptionsEx2.ProxyAuthenticationUseDigest
 title: IWSManConnectionOptionsEx2::ProxyAuthenticationUseDigest (wsmandisp.h)
-
 description: Returns the value of the proxy authentication flag WSManFlagProxyAuthenticationUseDigest for use in the authenticationMechanism parameter of the IWSManConnectionOptionsEx2::SetProxy method.
 old-location: winrm\iwsmanconnectionoptionsex2_proxyauthenticationusedigest.htm
 tech.root: winrm
 ms.assetid: 6813d121-2f02-4678-80fc-161dcb1d78ea
-
 ms.date: 12/05/2018
 ms.keywords: IWSManConnectionOptionsEx2 interface [Windows Remote Management],ProxyAuthenticationUseDigest method, IWSManConnectionOptionsEx2.ProxyAuthenticationUseDigest, IWSManConnectionOptionsEx2::ProxyAuthenticationUseDigest, ProxyAuthenticationUseDigest, ProxyAuthenticationUseDigest method [Windows Remote Management], ProxyAuthenticationUseDigest method [Windows Remote Management],IWSManConnectionOptionsEx2 interface, winrm.iwsmanconnectionoptionsex2_proxyauthenticationusedigest, wsmandisp/IWSManConnectionOptionsEx2::ProxyAuthenticationUseDigest
 ms.topic: method
-f1_keywords: 
- - "wsmandisp/IWSManConnectionOptionsEx2.ProxyAuthenticationUseDigest"
+f1_keywords:
+- wsmandisp/IWSManConnectionOptionsEx2.ProxyAuthenticationUseDigest
 dev_langs:
- - c++
+- c++
 req.header: wsmandisp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - WSManDisp.h
+- WSManDisp.h
 api_name:
- - IWSManConnectionOptionsEx2.ProxyAuthenticationUseDigest
+- IWSManConnectionOptionsEx2.ProxyAuthenticationUseDigest
 targetos: Windows
 req.typenames: 
 req.redist: Windows Management Framework on Windows Server 2008 with SP2 and Windows Vista with SP2

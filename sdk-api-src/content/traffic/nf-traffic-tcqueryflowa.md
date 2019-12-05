@@ -1,19 +1,17 @@
 ---
 UID: NF:traffic.TcQueryFlowA
 title: TcQueryFlowA function (traffic.h)
-
 description: The TcQueryFlow function queries traffic control for the value of a specific flow parameter based on the name of the flow. The name of a flow can be retrieved from the TcEnumerateFlows function or from the TcGetFlowName function.
 old-location: qos\tcqueryflow.htm
 tech.root: QOS
 ms.assetid: 3662fdac-9d8c-4e8d-a56e-2b34d9597211
-
 ms.date: 12/05/2018
 ms.keywords: TcQueryFlow, TcQueryFlow function [QOS], TcQueryFlowA, TcQueryFlowW, _gqos_tcqueryflow, qos.tcqueryflow, traffic/TcQueryFlow, traffic/TcQueryFlowA, traffic/TcQueryFlowW
 ms.topic: function
-f1_keywords: 
- - "traffic/TcQueryFlow"
+f1_keywords:
+- traffic/TcQueryFlow
 dev_langs:
- - c++
+- c++
 req.header: traffic.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: Traffic.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Traffic.dll
+- Traffic.dll
 api_name:
- - TcQueryFlow
- - TcQueryFlowA
- - TcQueryFlowW
+- TcQueryFlow
+- TcQueryFlowA
+- TcQueryFlowW
 targetos: Windows
 req.typenames: 
 req.redist: 

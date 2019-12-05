@@ -1,19 +1,17 @@
 ---
 UID: NF:gdiplustypes.RectF.GetLocation
 title: RectF::GetLocation (gdiplustypes.h)
-
 description: The RectF::GetLocation method gets the coordinates of the upper-left corner of this rectangle.
 old-location: gdiplus\_gdiplus_CLASS_RectF_GetLocation_point_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\rectfclass\rectfmethods\getlocation_82point.htm
-
 ms.date: 12/05/2018
 ms.keywords: GetLocation, GetLocation method [GDI+], GetLocation method [GDI+],RectF class, RectF class [GDI+],GetLocation method, RectF.GetLocation, RectF::GetLocation, _gdiplus_CLASS_RectF_GetLocation_point_, gdiplus._gdiplus_CLASS_RectF_GetLocation_point_
 ms.topic: method
-f1_keywords: 
- - "gdiplustypes/RectF.GetLocation"
+f1_keywords:
+- gdiplustypes/RectF.GetLocation
 dev_langs:
- - c++
+- c++
 req.header: gdiplustypes.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - RectF.GetLocation
+- RectF.GetLocation
 targetos: Windows
 req.typenames: 
 req.redist: 

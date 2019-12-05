@@ -1,19 +1,17 @@
 ---
 UID: NS:lmserver._SERVER_INFO_503
 title: SERVER_INFO_503 (lmserver.h)
-
 description: The SERVER_INFO_503 structure is obsolete. The structure contains information about the specified server.
 old-location: netmgmt\server_info_503_str.htm
 tech.root: NetMgmt
 ms.assetid: c6ad20ed-9f2b-4cbe-ac2e-a57acf1b32ea
-
 ms.date: 12/05/2018
-ms.keywords: "*LPSERVER_INFO_503, *PSERVER_INFO_503, LPSERVER_INFO_503, LPSERVER_INFO_503 structure pointer [Network Management], PSERVER_INFO_503, PSERVER_INFO_503 structure pointer [Network Management], SERVER_INFO_503, SERVER_INFO_503 structure [Network Management], _win32_server_info_503_str, lmserver/LPSERVER_INFO_503, lmserver/PSERVER_INFO_503, lmserver/SERVER_INFO_503, netmgmt.server_info_503_str"
+ms.keywords: '*LPSERVER_INFO_503, *PSERVER_INFO_503, LPSERVER_INFO_503, LPSERVER_INFO_503 structure pointer [Network Management], PSERVER_INFO_503, PSERVER_INFO_503 structure pointer [Network Management], SERVER_INFO_503, SERVER_INFO_503 structure [Network Management], _win32_server_info_503_str, lmserver/LPSERVER_INFO_503, lmserver/PSERVER_INFO_503, lmserver/SERVER_INFO_503, netmgmt.server_info_503_str'
 ms.topic: struct
-f1_keywords: 
- - "lmserver/SERVER_INFO_503"
+f1_keywords:
+- lmserver/SERVER_INFO_503
 dev_langs:
- - c++
+- c++
 req.header: lmserver.h
 req.include-header: Lm.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Lmserver.h
+- Lmserver.h
 api_name:
- - SERVER_INFO_503
+- SERVER_INFO_503
 targetos: Windows
 req.typenames: SERVER_INFO_503, *PSERVER_INFO_503, *LPSERVER_INFO_503
 req.redist: 

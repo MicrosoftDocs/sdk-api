@@ -1,19 +1,17 @@
 ---
 UID: NF:eventsys.IEventObjectCollection.get_Item
 title: IEventObjectCollection::get_Item (eventsys.h)
-
 description: An item in the collection.
 old-location: cos\ieventobjectcollection_item.htm
 tech.root: cossdk
 ms.assetid: 6d037759-3b13-4f4d-b27d-a3a20be0f0aa
-
 ms.date: 12/05/2018
 ms.keywords: IEventObjectCollection interface [COM+],Item property, IEventObjectCollection.Item, IEventObjectCollection.get_Item, IEventObjectCollection::Item, IEventObjectCollection::get_Item, Item property [COM+], Item property [COM+],IEventObjectCollection interface, cos.ieventobjectcollection_item, eventsys/IEventObjectCollection::Item, eventsys/IEventObjectCollection::get_Item, get_Item
 ms.topic: method
-f1_keywords: 
- - "eventsys/IEventObjectCollection.Item"
+f1_keywords:
+- eventsys/IEventObjectCollection.Item
 dev_langs:
- - c++
+- c++
 req.header: eventsys.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Eventsys.h
+- Eventsys.h
 api_name:
- - IEventObjectCollection.Item
- - IEventObjectCollection.get_Item
+- IEventObjectCollection.Item
+- IEventObjectCollection.get_Item
 targetos: Windows
 req.typenames: 
 req.redist: 

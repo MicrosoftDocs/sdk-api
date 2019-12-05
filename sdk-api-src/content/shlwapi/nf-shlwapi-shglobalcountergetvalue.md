@@ -1,19 +1,17 @@
 ---
 UID: NF:shlwapi.SHGlobalCounterGetValue
 title: SHGlobalCounterGetValue function (shlwapi.h)
-
 description: Gets the current value of a global counter.
 old-location: shell\SHGlobalCounterGetValue.htm
 tech.root: shell
 ms.assetid: cf158770-c9af-4488-9ed0-486e9a528a65
-
 ms.date: 12/05/2018
 ms.keywords: SHGlobalCounterGetValue, SHGlobalCounterGetValue function [Windows Shell], _shell_SHGlobalCounterGetValue, shell.SHGlobalCounterGetValue, shlwapi/SHGlobalCounterGetValue
 ms.topic: function
-f1_keywords: 
- - "shlwapi/SHGlobalCounterGetValue"
+f1_keywords:
+- shlwapi/SHGlobalCounterGetValue
 dev_langs:
- - c++
+- c++
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Shlwapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Shlwapi.dll
+- Shlwapi.dll
 api_name:
- - SHGlobalCounterGetValue
+- SHGlobalCounterGetValue
 targetos: Windows
 req.typenames: 
 req.redist: 

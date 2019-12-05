@@ -1,19 +1,17 @@
 ---
 UID: NF:tvratings.IEvalRat.get_BlockUnRated
 title: IEvalRat::get_BlockUnRated (tvratings.h)
-
 description: The get_BlockUnRated method indicates whether a program without rating information is blocked.
 old-location: mstv\ievalrat_get_blockunrated.htm
 tech.root: mstv
 ms.assetid: f558c87e-59ac-40d3-bfab-2835d59a730b
-
 ms.date: 12/05/2018
 ms.keywords: IEvalRat interface [Microsoft TV Technologies],get_BlockUnRated method, IEvalRat.get_BlockUnRated, IEvalRat::get_BlockUnRated, IEvalRatget_BlockUnRated, get_BlockUnRated, get_BlockUnRated method [Microsoft TV Technologies], get_BlockUnRated method [Microsoft TV Technologies],IEvalRat interface, mstv.ievalrat_get_blockunrated, tvratings/IEvalRat::get_BlockUnRated
 ms.topic: method
-f1_keywords: 
- - "tvratings/IEvalRat.get_BlockUnRated"
+f1_keywords:
+- tvratings/IEvalRat.get_BlockUnRated
 dev_langs:
- - c++
+- c++
 req.header: tvratings.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Tvratings.h
+- Tvratings.h
 api_name:
- - IEvalRat.get_BlockUnRated
+- IEvalRat.get_BlockUnRated
 targetos: Windows
 req.typenames: 
 req.redist: 

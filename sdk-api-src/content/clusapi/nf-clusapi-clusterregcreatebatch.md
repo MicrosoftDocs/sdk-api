@@ -1,19 +1,17 @@
 ---
 UID: NF:clusapi.ClusterRegCreateBatch
 title: ClusterRegCreateBatch function (clusapi.h)
-
 description: Creates a batch that will execute commands on a cluster registry key.
 old-location: mscs\clusterregcreatebatch.htm
 tech.root: MsCS
 ms.assetid: 83e7c216-f08f-4dc2-9b53-faa2760985d4
-
 ms.date: 12/05/2018
 ms.keywords: ClusterRegCreateBatch, ClusterRegCreateBatch function [Failover Cluster], PCLUSTER_REG_CREATE_BATCH, clusapi/ClusterRegCreateBatch, mscs.clusterregcreatebatch
 ms.topic: function
-f1_keywords: 
- - "clusapi/ClusterRegCreateBatch"
+f1_keywords:
+- clusapi/ClusterRegCreateBatch
 dev_langs:
- - c++
+- c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: ClusAPI.lib
 req.dll: ClusAPI.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - ClusAPI.dll
- - Ext-MS-Win-Cluster-ClusAPI-l1-1-1.dll
- - Ext-MS-Win-Cluster-ClusAPI-l1-1-2.dll
+- ClusAPI.dll
+- Ext-MS-Win-Cluster-ClusAPI-l1-1-1.dll
+- Ext-MS-Win-Cluster-ClusAPI-l1-1-2.dll
 api_name:
- - ClusterRegCreateBatch
+- ClusterRegCreateBatch
 targetos: Windows
 req.typenames: 
 req.redist: 

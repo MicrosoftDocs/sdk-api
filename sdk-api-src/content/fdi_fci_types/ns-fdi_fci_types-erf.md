@@ -1,19 +1,17 @@
 ---
 UID: NS:fdi_fci_types.__unnamed_struct_0
 title: ERF (fdi_fci_types.h)
-
 description: The ERF structure contains error information from FCI/FDI. The caller should not modify this structure.
 old-location: winprog\erf.htm
 tech.root: DevNotes
 ms.assetid: ddbccad9-a68c-4be7-90dc-e3dd25f5cf3b
-
 ms.date: 12/05/2018
-ms.keywords: "*PERF, ERF, ERF FAR *PERF, ERF FAR *PERF structure [Windows API], ERF structure [Windows API], FCIERR_ALLOC_FAIL, FCIERR_BAD_COMPR_TYPE, FCIERR_CAB_FILE, FCIERR_CAB_FORMAT_LIMIT, FCIERR_MCI_FAIL, FCIERR_NONE, FCIERR_OPEN_SRC, FCIERR_READ_SRC, FCIERR_TEMP_FILE, FCIERR_USER_ABORT, FDIERROR_ALLOC_FAIL, FDIERROR_BAD_COMPR_TYPE, FDIERROR_CABINET_NOT_FOUND, FDIERROR_CORRUPT_CABINET, FDIERROR_MDI_FAIL, FDIERROR_NONE, FDIERROR_NOT_A_CABINET, FDIERROR_RESERVE_MISMATCH, FDIERROR_TARGET_FILE, FDIERROR_UNKNOWN_CABINET_VERSION, FDIERROR_USER_ABORT, FDIERROR_WRONG_CABINET, fdi_fci_types/ERF, winprog.erf"
+ms.keywords: '*PERF, ERF, ERF FAR *PERF, ERF FAR *PERF structure [Windows API], ERF structure [Windows API], FCIERR_ALLOC_FAIL, FCIERR_BAD_COMPR_TYPE, FCIERR_CAB_FILE, FCIERR_CAB_FORMAT_LIMIT, FCIERR_MCI_FAIL, FCIERR_NONE, FCIERR_OPEN_SRC, FCIERR_READ_SRC, FCIERR_TEMP_FILE, FCIERR_USER_ABORT, FDIERROR_ALLOC_FAIL, FDIERROR_BAD_COMPR_TYPE, FDIERROR_CABINET_NOT_FOUND, FDIERROR_CORRUPT_CABINET, FDIERROR_MDI_FAIL, FDIERROR_NONE, FDIERROR_NOT_A_CABINET, FDIERROR_RESERVE_MISMATCH, FDIERROR_TARGET_FILE, FDIERROR_UNKNOWN_CABINET_VERSION, FDIERROR_USER_ABORT, FDIERROR_WRONG_CABINET, fdi_fci_types/ERF, winprog.erf'
 ms.topic: struct
-f1_keywords: 
- - "fdi_fci_types/ERF FAR *PERF"
+f1_keywords:
+- fdi_fci_types/ERF FAR *PERF
 dev_langs:
- - c++
+- c++
 req.header: fdi_fci_types.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - fdi_fci_types.h
+- fdi_fci_types.h
 api_name:
- - ERF FAR *PERF
+- ERF FAR *PERF
 targetos: Windows
 req.typenames: ERF
 req.redist: 

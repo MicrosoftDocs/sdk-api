@@ -1,19 +1,17 @@
 ---
 UID: NF:ws2tcpip.GetAddrInfoExCancel
 title: GetAddrInfoExCancel function (ws2tcpip.h)
-
 description: Cancels an asynchronous operation by the GetAddrInfoEx function.
 old-location: winsock\getaddrinfoexcancel.htm
 tech.root: WinSock
 ms.assetid: A4DE552D-DEA7-44F5-865F-5B02C9BB4AB6
-
 ms.date: 12/05/2018
 ms.keywords: GetAddrInfoExCancel, GetAddrInfoExCancel function [Winsock], winsock.getaddrinfoexcancel, ws2tcpip/GetAddrInfoExCancel
 ms.topic: function
-f1_keywords: 
- - "ws2tcpip/GetAddrInfoExCancel"
+f1_keywords:
+- ws2tcpip/GetAddrInfoExCancel
 dev_langs:
- - c++
+- c++
 req.header: ws2tcpip.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Ws2_32.lib
 req.dll: Ws2_32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ws2_32.dll
+- Ws2_32.dll
 api_name:
- - GetAddrInfoExCancel
+- GetAddrInfoExCancel
 targetos: Windows
 req.typenames: 
 req.redist: 

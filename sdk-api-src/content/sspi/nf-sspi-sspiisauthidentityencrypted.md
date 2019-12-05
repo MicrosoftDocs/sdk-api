@@ -1,19 +1,17 @@
 ---
 UID: NF:sspi.SspiIsAuthIdentityEncrypted
 title: SspiIsAuthIdentityEncrypted function (sspi.h)
-
 description: Indicates whether the specified identity structure is encrypted.
 old-location: security\sspiisauthidentityencrypted.htm
 tech.root: SecAuthN
 ms.assetid: b85095f5-0ca5-4d75-866d-9b756404c1d9
-
 ms.date: 12/05/2018
 ms.keywords: SspiIsAuthIdentityEncrypted, SspiIsAuthIdentityEncrypted function [Security], security.sspiisauthidentityencrypted, sspi/SspiIsAuthIdentityEncrypted
 ms.topic: function
-f1_keywords: 
- - "sspi/SspiIsAuthIdentityEncrypted"
+f1_keywords:
+- sspi/SspiIsAuthIdentityEncrypted
 dev_langs:
- - c++
+- c++
 req.header: sspi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Secur32.lib
 req.dll: SspiCli.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - SspiCli.dll
+- SspiCli.dll
 api_name:
- - SspiIsAuthIdentityEncrypted
+- SspiIsAuthIdentityEncrypted
 targetos: Windows
 req.typenames: 
 req.redist: 

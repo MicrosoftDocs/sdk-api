@@ -1,19 +1,17 @@
 ---
 UID: NF:mfmediaengine.IMFCdmSuspendNotify.Begin
 title: IMFCdmSuspendNotify::Begin (mfmediaengine.h)
-
 description: Indicates that the suspend process is starting and resources should be brought into a consistent state.
 old-location: mf\imfcdmsuspendnotify_begin.htm
 tech.root: medfound
 ms.assetid: 5cf3d249-3d8b-4596-9d8b-e7b95a270eff
-
 ms.date: 12/05/2018
 ms.keywords: Begin, Begin method [Media Foundation], Begin method [Media Foundation],IMFCdmSuspendNotify interface, IMFCdmSuspendNotify interface [Media Foundation],Begin method, IMFCdmSuspendNotify.Begin, IMFCdmSuspendNotify::Begin, mf.imfcdmsuspendnotify_begin, mfmediaengine/IMFCdmSuspendNotify::Begin
 ms.topic: method
-f1_keywords: 
- - "mfmediaengine/IMFCdmSuspendNotify.Begin"
+f1_keywords:
+- mfmediaengine/IMFCdmSuspendNotify.Begin
 dev_langs:
- - c++
+- c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfmediaengine.h
+- mfmediaengine.h
 api_name:
- - IMFCdmSuspendNotify.Begin
+- IMFCdmSuspendNotify.Begin
 targetos: Windows
 req.typenames: 
 req.redist: 

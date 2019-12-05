@@ -1,19 +1,17 @@
 ---
 UID: NF:comsvcs.ISecurityProperty.GetDirectCreatorSID
 title: ISecurityProperty::GetDirectCreatorSID (comsvcs.h)
-
 description: In MTS 2.0, this method retrieves the security identifier of the external process that directly created the current object. Do not use this method in COM+.
 old-location: cos\isecurityproperty_getdirectcreatorsid.htm
 tech.root: cossdk
 ms.assetid: cd06e71b-563a-45d2-91fb-f57375016dc3
-
 ms.date: 12/05/2018
 ms.keywords: GetDirectCreatorSID, GetDirectCreatorSID method [COM+], GetDirectCreatorSID method [COM+],ISecurityProperty interface, ISecurityProperty interface [COM+],GetDirectCreatorSID method, ISecurityProperty.GetDirectCreatorSID, ISecurityProperty::GetDirectCreatorSID, _cos_ISecurityProperty_GetDirectCreatorSID, comsvcs/ISecurityProperty::GetDirectCreatorSID, cos.isecurityproperty_getdirectcreatorsid
 ms.topic: method
-f1_keywords: 
- - "comsvcs/ISecurityProperty.GetDirectCreatorSID"
+f1_keywords:
+- comsvcs/ISecurityProperty.GetDirectCreatorSID
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - ISecurityProperty.GetDirectCreatorSID
+- ISecurityProperty.GetDirectCreatorSID
 targetos: Windows
 req.typenames: 
 req.redist: 

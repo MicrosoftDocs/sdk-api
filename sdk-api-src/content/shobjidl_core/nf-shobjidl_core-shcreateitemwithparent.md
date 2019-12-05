@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.SHCreateItemWithParent
 title: SHCreateItemWithParent function (shobjidl_core.h)
-
 description: Create a Shell item, given a parent folder and a child item ID.
 old-location: shell\SHCreateItemWithParent.htm
 tech.root: shell
 ms.assetid: 8fb84a20-d8f2-4c7c-bfb1-a22791b8636a
-
 ms.date: 12/05/2018
 ms.keywords: SHCreateItemWithParent, SHCreateItemWithParent function [Windows Shell], _shell_SHCreateItemWithParent, shell.SHCreateItemWithParent, shobjidl_core/SHCreateItemWithParent
 ms.topic: function
-f1_keywords: 
- - "shobjidl_core/SHCreateItemWithParent"
+f1_keywords:
+- shobjidl_core/SHCreateItemWithParent
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: Shell32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Shell32.dll
- - API-MS-Win-Shell-Namespace-L1-1-0.dll
- - Windows.Storage.dll
+- Shell32.dll
+- API-MS-Win-Shell-Namespace-L1-1-0.dll
+- Windows.Storage.dll
 api_name:
- - SHCreateItemWithParent
+- SHCreateItemWithParent
 targetos: Windows
 req.typenames: 
 req.redist: 

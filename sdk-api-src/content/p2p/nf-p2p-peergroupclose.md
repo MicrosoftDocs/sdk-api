@@ -1,19 +1,17 @@
 ---
 UID: NF:p2p.PeerGroupClose
 title: PeerGroupClose function (p2p.h)
-
 description: The PeerGroupClose function invalidates the peer group handle obtained by a previous call to the PeerGroupCreate, PeerGroupJoin, or PeerGroupOpen function.
 old-location: p2p\peergroupclose.htm
 tech.root: P2PSdk
 ms.assetid: 4438e6c1-8c25-4656-bac5-dda43421ee43
-
 ms.date: 12/05/2018
 ms.keywords: PeerGroupClose, PeerGroupClose function [Peer Networking], p2p.peergroupclose, p2p/PeerGroupClose
 ms.topic: function
-f1_keywords: 
- - "p2p/PeerGroupClose"
+f1_keywords:
+- p2p/PeerGroupClose
 dev_langs:
- - c++
+- c++
 req.header: p2p.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: P2P.lib
 req.dll: P2P.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - P2P.dll
+- P2P.dll
 api_name:
- - PeerGroupClose
+- PeerGroupClose
 targetos: Windows
 req.typenames: 
 req.redist: 

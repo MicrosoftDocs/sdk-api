@@ -1,19 +1,17 @@
 ---
 UID: NN:syncregistration.IEnumSyncProviderInfos
 title: IEnumSyncProviderInfos (syncregistration.h)
-
 description: Enumerates ISyncProviderInfo objects that contain the information used to create an instance of a synchronization provider.
 old-location: winsync\ienumsyncproviderinfos.htm
 tech.root: winsync
 ms.assetid: 58b0dcc2-861a-4138-872a-cbbe2bb2cc4d
-
 ms.date: 12/05/2018
 ms.keywords: IEnumSyncProviderInfos, IEnumSyncProviderInfos interface [Windows Sync], IEnumSyncProviderInfos interface [Windows Sync],described, syncregistration/IEnumSyncProviderInfos, winsync.ienumsyncproviderinfos
 ms.topic: interface
-f1_keywords: 
- - "syncregistration/IEnumSyncProviderInfos"
+f1_keywords:
+- syncregistration/IEnumSyncProviderInfos
 dev_langs:
- - c++
+- c++
 req.header: syncregistration.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Syncregistration.h
+- Syncregistration.h
 api_name:
- - IEnumSyncProviderInfos
+- IEnumSyncProviderInfos
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:shlobj.IColumnProvider.GetColumnInfo
 title: IColumnProvider::GetColumnInfo (shlobj.h)
-
 description: Requests information about a column.
 old-location: shell\IColumnProvider_GetColumnInfo.htm
 tech.root: shell
 ms.assetid: 87196252-3835-4828-ad0a-0edcafb286b7
-
 ms.date: 12/05/2018
 ms.keywords: GetColumnInfo, GetColumnInfo method [Windows Shell], GetColumnInfo method [Windows Shell],IColumnProvider interface, IColumnProvider interface [Windows Shell],GetColumnInfo method, IColumnProvider.GetColumnInfo, IColumnProvider::GetColumnInfo, _win32_IColumnProvider_GetColumnInfo, shell.IColumnProvider_GetColumnInfo, shlobj/IColumnProvider::GetColumnInfo
 ms.topic: method
-f1_keywords: 
- - "shlobj/IColumnProvider.GetColumnInfo"
+f1_keywords:
+- shlobj/IColumnProvider.GetColumnInfo
 dev_langs:
- - c++
+- c++
 req.header: shlobj.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Shell32.dll (version 5.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - IColumnProvider.GetColumnInfo
+- IColumnProvider.GetColumnInfo
 targetos: Windows
 req.typenames: 
 req.redist: 

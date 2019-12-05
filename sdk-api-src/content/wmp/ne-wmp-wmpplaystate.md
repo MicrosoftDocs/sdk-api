@@ -1,19 +1,17 @@
 ---
 UID: NE:wmp.WMPPlayState
 title: WMPPlayState (wmp.h)
-
 description: The WMPPlayState enumeration type defines the possible operational states of Windows Media Player as it plays a digital media file.
 old-location: wmp\wmpplaystate.htm
 tech.root: WMP
 ms.assetid: 15787d18-bc38-4fc7-a920-539d66252035
-
 ms.date: 12/05/2018
 ms.keywords: WMPPlayState, WMPPlayState enumeration [Windows Media Player], wmp.wmpplaystate, wmp/WMPPlayState, wmp/wmppsBuffering, wmp/wmppsLast, wmp/wmppsMediaEnded, wmp/wmppsPaused, wmp/wmppsPlaying, wmp/wmppsReady, wmp/wmppsReconnecting, wmp/wmppsScanForward, wmp/wmppsScanReverse, wmp/wmppsStopped, wmp/wmppsTransitioning, wmp/wmppsUndefined, wmp/wmppsWaiting, wmppsBuffering, wmppsLast, wmppsMediaEnded, wmppsPaused, wmppsPlaying, wmppsReady, wmppsReconnecting, wmppsScanForward, wmppsScanReverse, wmppsStopped, wmppsTransitioning, wmppsUndefined, wmppsWaiting
 ms.topic: enum
-f1_keywords: 
- - "wmp/WMPPlayState"
+f1_keywords:
+- wmp/WMPPlayState
 dev_langs:
- - c++
+- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - wmp.h
+- wmp.h
 api_name:
- - WMPPlayState
+- WMPPlayState
 targetos: Windows
 req.typenames: WMPPlayState
 req.redist: 

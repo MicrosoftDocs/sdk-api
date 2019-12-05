@@ -1,19 +1,17 @@
 ---
 UID: NF:shdeprecated.IBrowserService.DisplayParseError
 title: IBrowserService::DisplayParseError (shdeprecated.h)
-
 description: Deprecated. Displays a URL that failed to be successfully parsed by IBrowserService::IEParseDisplayName.
 old-location: shell\IBrowserService_DisplayParseError.htm
 tech.root: shell
 ms.assetid: 966fec07-6a67-435a-8908-67999afce9f0
-
 ms.date: 12/05/2018
 ms.keywords: DisplayParseError, DisplayParseError method [Windows Shell], DisplayParseError method [Windows Shell],IBrowserService interface, IBrowserService interface [Windows Shell],DisplayParseError method, IBrowserService.DisplayParseError, IBrowserService::DisplayParseError, shdeprecated/IBrowserService::DisplayParseError, shell.IBrowserService_DisplayParseError, zone_IBrowserService_DisplayParseError
 ms.topic: method
-f1_keywords: 
- - "shdeprecated/IBrowserService.DisplayParseError"
+f1_keywords:
+- shdeprecated/IBrowserService.DisplayParseError
 dev_langs:
- - c++
+- c++
 req.header: shdeprecated.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shdeprecated.h
+- Shdeprecated.h
 api_name:
- - IBrowserService.DisplayParseError
+- IBrowserService.DisplayParseError
 targetos: Windows
 req.typenames: 
 req.redist: 

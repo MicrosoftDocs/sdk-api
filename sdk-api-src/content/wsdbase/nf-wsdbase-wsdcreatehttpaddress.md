@@ -1,19 +1,17 @@
 ---
 UID: NF:wsdbase.WSDCreateHttpAddress
 title: WSDCreateHttpAddress function (wsdbase.h)
-
 description: Creates an IWSDHttpAddress object.
 old-location: ncd\wsdcreatehttpaddress.htm
 tech.root: WsdApi
 ms.assetid: 05a862e9-51db-442d-bdce-1209cb718b6f
-
 ms.date: 12/05/2018
 ms.keywords: WSDCreateHttpAddress, WSDCreateHttpAddress function, ncd.wsdcreatehttpaddress, wsdbase/WSDCreateHttpAddress
 ms.topic: function
-f1_keywords: 
- - "wsdbase/WSDCreateHttpAddress"
+f1_keywords:
+- wsdbase/WSDCreateHttpAddress
 dev_langs:
- - c++
+- c++
 req.header: wsdbase.h
 req.include-header: Wsdapi.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wsdapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Wsdapi.dll
+- Wsdapi.dll
 api_name:
- - WSDCreateHttpAddress
+- WSDCreateHttpAddress
 targetos: Windows
 req.typenames: 
 req.redist: 

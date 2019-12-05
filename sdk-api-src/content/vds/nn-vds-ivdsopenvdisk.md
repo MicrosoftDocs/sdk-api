@@ -1,19 +1,17 @@
 ---
 UID: NN:vds.IVdsOpenVDisk
 title: IVdsOpenVDisk (vds.h)
-
 description: Defines methods for managing a virtual disk.
 old-location: base\ivdsopenvdisk.htm
 tech.root: VDS
 ms.assetid: 3d5f080f-3e83-437e-8cbc-9730988f5dcc
-
 ms.date: 12/05/2018
 ms.keywords: IVdsOpenVDisk, IVdsOpenVDisk interface, IVdsOpenVDisk interface,described, base.ivdsopenvdisk, vds/IVdsOpenVDisk
 ms.topic: interface
-f1_keywords: 
- - "vds/IVdsOpenVDisk"
+f1_keywords:
+- vds/IVdsOpenVDisk
 dev_langs:
- - c++
+- c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Uuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Uuid.lib
- - Uuid.dll
+- Uuid.lib
+- Uuid.dll
 api_name:
- - IVdsOpenVDisk
+- IVdsOpenVDisk
 targetos: Windows
 req.typenames: 
 req.redist: 

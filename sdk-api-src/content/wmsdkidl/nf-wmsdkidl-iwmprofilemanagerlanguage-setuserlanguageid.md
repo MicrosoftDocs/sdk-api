@@ -1,19 +1,17 @@
 ---
 UID: NF:wmsdkidl.IWMProfileManagerLanguage.SetUserLanguageID
 title: IWMProfileManagerLanguage::SetUserLanguageID (wmsdkidl.h)
-
 description: The SetUserLanguageID method sets the language of the system profiles that will be parsed by the profile manager object.
 old-location: wmformat\iwmprofilemanagerlanguage_setuserlanguageid.htm
 tech.root: wmformat
 ms.assetid: e2154057-ea76-43bb-92d9-b52f16eb6b1b
-
 ms.date: 12/05/2018
 ms.keywords: IWMProfileManagerLanguage interface [windows Media Format],SetUserLanguageID method, IWMProfileManagerLanguage.SetUserLanguageID, IWMProfileManagerLanguage::SetUserLanguageID, IWMProfileManagerLanguageSetUserLanguageID, SetUserLanguageID, SetUserLanguageID method [windows Media Format], SetUserLanguageID method [windows Media Format],IWMProfileManagerLanguage interface, wmformat.iwmprofilemanagerlanguage_setuserlanguageid, wmsdkidl/IWMProfileManagerLanguage::SetUserLanguageID
 ms.topic: method
-f1_keywords: 
- - "wmsdkidl/IWMProfileManagerLanguage.SetUserLanguageID"
+f1_keywords:
+- wmsdkidl/IWMProfileManagerLanguage.SetUserLanguageID
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wmvcore.lib
- - Wmvcore.dll
- - WMStubDRM.lib
- - WMStubDRM.dll
+- Wmvcore.lib
+- Wmvcore.dll
+- WMStubDRM.lib
+- WMStubDRM.dll
 api_name:
- - IWMProfileManagerLanguage.SetUserLanguageID
+- IWMProfileManagerLanguage.SetUserLanguageID
 targetos: Windows
 req.typenames: 
 req.redist: 

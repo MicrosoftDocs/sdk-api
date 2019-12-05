@@ -1,19 +1,17 @@
 ---
 UID: NF:evcoll.EcGetObjectArraySize
 title: EcGetObjectArraySize function (evcoll.h)
-
 description: Retrieves the number of indexes of the array of property values for the event sources of a subscription.
 old-location: wec\ecgetobjectarraysize.htm
 tech.root: WEC
 ms.assetid: f04c1748-d8b3-4000-a322-7854f8e7f5f9
-
 ms.date: 12/05/2018
 ms.keywords: EcGetObjectArraySize, EcGetObjectArraySize function, evcoll/EcGetObjectArraySize, wec.ecgetobjectarraysize, wes.ecgetobjectarraysize
 ms.topic: function
-f1_keywords: 
- - "evcoll/EcGetObjectArraySize"
+f1_keywords:
+- evcoll/EcGetObjectArraySize
 dev_langs:
- - c++
+- c++
 req.header: evcoll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Wecapi.lib
 req.dll: Wecapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Wecapi.dll
+- Wecapi.dll
 api_name:
- - EcGetObjectArraySize
+- EcGetObjectArraySize
 targetos: Windows
 req.typenames: 
 req.redist: 

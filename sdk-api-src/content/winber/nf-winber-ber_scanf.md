@@ -1,19 +1,17 @@
 ---
 UID: NF:winber.ber_scanf
 title: ber_scanf function (winber.h)
-
 description: The ber_scanf function decodes a BER element in a similar manner as sscanf_s.
 old-location: ldap\ber_scanf.htm
 tech.root: ldap
 ms.assetid: bca69428-27e1-4028-bfcd-ad67bee672cc
-
 ms.date: 12/05/2018
-ms.keywords: "_ldap_ber_scanf, ber_scanf, ber_scanf function [LDAP], ldap.ber__scanf, ldap.ber_scanf, winber/ber_scanf"
+ms.keywords: _ldap_ber_scanf, ber_scanf, ber_scanf function [LDAP], ldap.ber__scanf, ldap.ber_scanf, winber/ber_scanf
 ms.topic: function
-f1_keywords: 
- - "winber/ber_scanf"
+f1_keywords:
+- winber/ber_scanf
 dev_langs:
- - c++
+- c++
 req.header: winber.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Wldap32.lib
 req.dll: Wldap32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Wldap32.dll
+- Wldap32.dll
 api_name:
- - ber_scanf
+- ber_scanf
 targetos: Windows
 req.typenames: 
 req.redist: 

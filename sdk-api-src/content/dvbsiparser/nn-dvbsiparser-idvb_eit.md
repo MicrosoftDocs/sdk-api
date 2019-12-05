@@ -1,19 +1,17 @@
 ---
 UID: NN:dvbsiparser.IDVB_EIT
 title: IDVB_EIT (dvbsiparser.h)
-
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\idvb_eit.htm
 tech.root: mstv
 ms.assetid: 86280e1e-09c3-45a4-bdfb-53eda8e5700e
-
 ms.date: 12/05/2018
 ms.keywords: IDVB_EIT, IDVB_EIT interface [Microsoft TV Technologies], IDVB_EIT interface [Microsoft TV Technologies],described, IDVB_EITInterface, dvbsiparser/IDVB_EIT, mstv.idvb_eit
 ms.topic: interface
-f1_keywords: 
- - "dvbsiparser/IDVB_EIT"
+f1_keywords:
+- dvbsiparser/IDVB_EIT
 dev_langs:
- - c++
+- c++
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dvbsiparser.h
+- dvbsiparser.h
 api_name:
- - IDVB_EIT
+- IDVB_EIT
 targetos: Windows
 req.typenames: 
 req.redist: 

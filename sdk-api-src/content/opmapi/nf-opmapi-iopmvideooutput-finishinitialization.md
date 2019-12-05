@@ -1,19 +1,17 @@
 ---
 UID: NF:opmapi.IOPMVideoOutput.FinishInitialization
 title: IOPMVideoOutput::FinishInitialization (opmapi.h)
-
 description: Completes the initialization sequence for an Output Protection Manager (OPM) session.
 old-location: mf\iopmvideooutput_iopmvideooutput__finishinitialization.htm
 tech.root: medfound
 ms.assetid: 7551e374-8745-405b-9879-d35a92d661ea
-
 ms.date: 12/05/2018
 ms.keywords: FinishInitialization, FinishInitialization method [Media Foundation], FinishInitialization method [Media Foundation],IOPMVideoOutput interface, IOPMVideoOutput interface [Media Foundation],FinishInitialization method, IOPMVideoOutput.FinishInitialization, IOPMVideoOutput::FinishInitialization, mf.iopmvideooutput_iopmvideooutput__finishinitialization, opmapi/IOPMVideoOutput::FinishInitialization
 ms.topic: method
-f1_keywords: 
- - "opmapi/IOPMVideoOutput.FinishInitialization"
+f1_keywords:
+- opmapi/IOPMVideoOutput.FinishInitialization
 dev_langs:
- - c++
+- c++
 req.header: opmapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - opmapi.h
+- opmapi.h
 api_name:
- - IOPMVideoOutput.FinishInitialization
+- IOPMVideoOutput.FinishInitialization
 targetos: Windows
 req.typenames: 
 req.redist: 

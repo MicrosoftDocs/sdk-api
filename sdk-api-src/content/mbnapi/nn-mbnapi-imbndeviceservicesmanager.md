@@ -1,19 +1,17 @@
 ---
 UID: NN:mbnapi.IMbnDeviceServicesManager
 title: IMbnDeviceServicesManager (mbnapi.h)
-
 description: Provides access to IMbnDeviceServicesContext objects and Mobile Broadband device service notifications.
 old-location: mbn\imbndeviceservicesmanager.htm
 tech.root: mbn
 ms.assetid: 6CFF2275-0649-4009-84F2-0657B2FF281C
-
 ms.date: 12/05/2018
 ms.keywords: IMbnDeviceServicesManager, IMbnDeviceServicesManager interface [Microsoft Broadband Networks], IMbnDeviceServicesManager interface [Microsoft Broadband Networks],described, mbn.imbndeviceservicesmanager, mbnapi/IMbnDeviceServicesManager
 ms.topic: interface
-f1_keywords: 
- - "mbnapi/IMbnDeviceServicesManager"
+f1_keywords:
+- mbnapi/IMbnDeviceServicesManager
 dev_langs:
- - c++
+- c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mbnapi.h
+- mbnapi.h
 api_name:
- - IMbnDeviceServicesManager
+- IMbnDeviceServicesManager
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:tuner.IDVBSLocator.put_OrbitalPosition
 title: IDVBSLocator::put_OrbitalPosition (tuner.h)
-
 description: The put_OrbitalPosition method sets the setting for the satellite's orbital position.
 old-location: mstv\idvbslocator_put_orbitalposition.htm
 tech.root: mstv
 ms.assetid: 2de4d67c-5d99-47c2-99bf-e4f40c6247a5
-
 ms.date: 12/05/2018
 ms.keywords: IDVBSLocator interface [Microsoft TV Technologies],put_OrbitalPosition method, IDVBSLocator.put_OrbitalPosition, IDVBSLocator::put_OrbitalPosition, IDVBSLocatorput_OrbitalPosition, mstv.idvbslocator_put_orbitalposition, put_OrbitalPosition, put_OrbitalPosition method [Microsoft TV Technologies], put_OrbitalPosition method [Microsoft TV Technologies],IDVBSLocator interface, tuner/IDVBSLocator::put_OrbitalPosition
 ms.topic: method
-f1_keywords: 
- - "tuner/IDVBSLocator.put_OrbitalPosition"
+f1_keywords:
+- tuner/IDVBSLocator.put_OrbitalPosition
 dev_langs:
- - c++
+- c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - tuner.h
+- tuner.h
 api_name:
- - IDVBSLocator.put_OrbitalPosition
+- IDVBSLocator.put_OrbitalPosition
 targetos: Windows
 req.typenames: 
 req.redist: 

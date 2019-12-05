@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationWindowPattern.get_CurrentCanMaximize
 title: IUIAutomationWindowPattern::get_CurrentCanMaximize (uiautomationclient.h)
-
 description: Indicates whether the window can be maximized.
 old-location: winauto\uiauto_IUIAutomationWindowPattern_CurrentCanMaximize.htm
 tech.root: WinAuto
 ms.assetid: fa367c47-57be-4e4e-909a-02cca682d1c0
-
 ms.date: 12/05/2018
 ms.keywords: CurrentCanMaximize property [Windows Accessibility], CurrentCanMaximize property [Windows Accessibility],IUIAutomationWindowPattern interface, IUIAutomationWindowPattern interface [Windows Accessibility],CurrentCanMaximize property, IUIAutomationWindowPattern.CurrentCanMaximize, IUIAutomationWindowPattern.get_CurrentCanMaximize, IUIAutomationWindowPattern::CurrentCanMaximize, IUIAutomationWindowPattern::get_CurrentCanMaximize, get_CurrentCanMaximize, uiauto.uiauto_IUIAutomationWindowPattern_CurrentCanMaximize, uiauto_IUIAutomationWindowPattern_CurrentCanMaximize, uiautomationclient/IUIAutomationWindowPattern::CurrentCanMaximize, uiautomationclient/IUIAutomationWindowPattern::get_CurrentCanMaximize, winauto.uiauto_IUIAutomationWindowPattern_CurrentCanMaximize
 ms.topic: method
-f1_keywords: 
- - "uiautomationclient/IUIAutomationWindowPattern.CurrentCanMaximize"
+f1_keywords:
+- uiautomationclient/IUIAutomationWindowPattern.CurrentCanMaximize
 dev_langs:
- - c++
+- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationClient.h
+- UIAutomationClient.h
 api_name:
- - IUIAutomationWindowPattern.CurrentCanMaximize
- - IUIAutomationWindowPattern.get_CurrentCanMaximize
+- IUIAutomationWindowPattern.CurrentCanMaximize
+- IUIAutomationWindowPattern.get_CurrentCanMaximize
 targetos: Windows
 req.typenames: 
 req.redist: 

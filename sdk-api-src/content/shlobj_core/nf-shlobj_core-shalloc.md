@@ -1,19 +1,17 @@
 ---
 UID: NF:shlobj_core.SHAlloc
 title: SHAlloc function (shlobj_core.h)
-
 description: Allocates memory from the Shell's heap.
 old-location: shell\SHAlloc.htm
 tech.root: shell
 ms.assetid: 621e4335-1484-4111-9cfe-7ae5c6d5c609
-
 ms.date: 12/05/2018
 ms.keywords: SHAlloc, SHAlloc function [Windows Shell], _win32_SHAlloc, shell.SHAlloc, shlobj_core/SHAlloc
 ms.topic: function
-f1_keywords: 
- - "shlobj_core/SHAlloc"
+f1_keywords:
+- shlobj_core/SHAlloc
 dev_langs:
- - c++
+- c++
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Shell32.lib
 req.dll: Shell32.dll (version 5.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - SHAlloc
+- SHAlloc
 targetos: Windows
 req.typenames: 
 req.redist: 

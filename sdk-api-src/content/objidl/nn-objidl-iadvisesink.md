@@ -1,19 +1,17 @@
 ---
 UID: NN:objidl.IAdviseSink
 title: IAdviseSink (objidl.h)
-
 description: Enables containers and other objects to receive notifications of data changes, view changes, and compound-document changes occurring in objects of interest.
 old-location: com\iadvisesink.htm
 tech.root: com
 ms.assetid: bc9f217a-75bd-4155-9d00-df44b00cf0e5
-
 ms.date: 12/05/2018
 ms.keywords: IAdviseSink, IAdviseSink interface [COM], IAdviseSink interface [COM],described, _ole_iadvisesink, com.iadvisesink, objidl/IAdviseSink
 ms.topic: interface
-f1_keywords: 
- - "objidl/IAdviseSink"
+f1_keywords:
+- objidl/IAdviseSink
 dev_langs:
- - c++
+- c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ObjIdl.h
+- ObjIdl.h
 api_name:
- - IAdviseSink
+- IAdviseSink
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -4,10 +4,10 @@ title: WLAN_ADHOC_NETWORK_STATE
 ms.date: 01/30/19
 ms.keywords: _WLAN_ADHOC_NETWORK_STATE, WLAN_ADHOC_NETWORK_STATE
 ms.topic: language-reference
-f1_keywords: 
- - "wlanapi/_WLAN_ADHOC_NETWORK_STATE"
+f1_keywords:
+- wlanapi/_WLAN_ADHOC_NETWORK_STATE
 dev_langs:
- - c++
+- c++
 targetos: Windows
 req.construct-type: enumeration
 req.ddi-compliance: 
@@ -21,14 +21,14 @@ req.target-type:
 req.typenames: 
 req.umdf-ver: 
 topic_type:
- - apiref
+- apiref
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - wlanapi.h
+- wlanapi.h
 api_name:
- - _WLAN_ADHOC_NETWORK_STATE
- - WLAN_ADHOC_NETWORK_STATE
+- _WLAN_ADHOC_NETWORK_STATE
+- WLAN_ADHOC_NETWORK_STATE
 ---
 
 # WLAN_ADHOC_NETWORK_STATE enumeration

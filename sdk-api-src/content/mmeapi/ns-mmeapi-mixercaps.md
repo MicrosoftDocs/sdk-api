@@ -1,19 +1,17 @@
 ---
 UID: NS:mmeapi.tMIXERCAPS
 title: MIXERCAPS (mmeapi.h)
-
 description: The MIXERCAPS structure describes the capabilities of a mixer device.
 old-location: multimedia\mixercaps.htm
 tech.root: Multimedia
 ms.assetid: 4a4220cb-fdb1-4afe-821f-27f5adb51530
-
 ms.date: 12/05/2018
-ms.keywords: "*LPMIXERCAPS, *PMIXERCAPS, MIXERCAPS, MIXERCAPS structure [Windows Multimedia], _win32_MIXERCAPS_str, mmeapi/MIXERCAPS, multimedia.mixercaps, tMIXERCAPS, tagMIXERCAPSA, tagMIXERCAPSW"
+ms.keywords: '*LPMIXERCAPS, *PMIXERCAPS, MIXERCAPS, MIXERCAPS structure [Windows Multimedia], _win32_MIXERCAPS_str, mmeapi/MIXERCAPS, multimedia.mixercaps, tMIXERCAPS, tagMIXERCAPSA, tagMIXERCAPSW'
 ms.topic: struct
-f1_keywords: 
- - "mmeapi/MIXERCAPS"
+f1_keywords:
+- mmeapi/MIXERCAPS
 dev_langs:
- - c++
+- c++
 req.header: mmeapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - mmeapi.h
+- mmeapi.h
 api_name:
- - MIXERCAPS
+- MIXERCAPS
 targetos: Windows
 req.typenames: MIXERCAPS, *PMIXERCAPS, *LPMIXERCAPS
 req.redist: 

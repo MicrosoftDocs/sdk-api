@@ -1,19 +1,17 @@
 ---
 UID: NF:comsvcs.IAsyncErrorNotify.OnError
 title: IAsyncErrorNotify::OnError (comsvcs.h)
-
 description: Called by COM+ when an error occurs in your asynchronous batch work.
 old-location: cos\iasyncerrornotify_onerror.htm
 tech.root: cossdk
 ms.assetid: a48d7733-bbcb-4c03-b265-f112e24c07d9
-
 ms.date: 12/05/2018
 ms.keywords: IAsyncErrorNotify interface [COM+],OnError method, IAsyncErrorNotify.OnError, IAsyncErrorNotify::OnError, OnError, OnError method [COM+], OnError method [COM+],IAsyncErrorNotify interface, _cos_IAsyncErrorNotify_OnError, comsvcs/IAsyncErrorNotify::OnError, cos.iasyncerrornotify_onerror
 ms.topic: method
-f1_keywords: 
- - "comsvcs/IAsyncErrorNotify.OnError"
+f1_keywords:
+- comsvcs/IAsyncErrorNotify.OnError
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - IAsyncErrorNotify.OnError
+- IAsyncErrorNotify.OnError
 targetos: Windows
 req.typenames: 
 req.redist: 

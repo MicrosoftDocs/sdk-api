@@ -1,19 +1,17 @@
 ---
 UID: NF:shimgdata.IShellImageData.GetResolution
 title: IShellImageData::GetResolution (shimgdata.h)
-
 description: Gets the resolution, in dots per inch (dpi), of the image.
 old-location: shell\IShellImageData_GetResolution.htm
 tech.root: shell
 ms.assetid: 9e3c3e0f-010b-4d7d-a8fa-178a808687f8
-
 ms.date: 12/05/2018
 ms.keywords: GetResolution, GetResolution method [Windows Shell], GetResolution method [Windows Shell],IShellImageData interface, IShellImageData interface [Windows Shell],GetResolution method, IShellImageData.GetResolution, IShellImageData::GetResolution, _shell_IShellImageData_GetResolution, shell.IShellImageData_GetResolution, shimgdata/IShellImageData::GetResolution
 ms.topic: method
-f1_keywords: 
- - "shimgdata/IShellImageData.GetResolution"
+f1_keywords:
+- shimgdata/IShellImageData.GetResolution
 dev_langs:
- - c++
+- c++
 req.header: shimgdata.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Shell32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - IShellImageData.GetResolution
+- IShellImageData.GetResolution
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:objidl.ILockBytes.UnlockRegion
 title: ILockBytes::UnlockRegion (objidl.h)
-
 description: The UnlockRegion method removes the access restriction on a previously locked range of bytes.
 old-location: stg\ilockbytes_unlockregion.htm
 tech.root: Stg
 ms.assetid: 036ba242-8630-4013-860d-dd37919253be
-
 ms.date: 12/05/2018
 ms.keywords: ILockBytes interface [Structured Storage],UnlockRegion method, ILockBytes.UnlockRegion, ILockBytes::UnlockRegion, UnlockRegion, UnlockRegion method [Structured Storage], UnlockRegion method [Structured Storage],ILockBytes interface, _stg_ilockbytes_unlockregion, objidl/ILockBytes::UnlockRegion, stg.ilockbytes_unlockregion
 ms.topic: method
-f1_keywords: 
- - "objidl/ILockBytes.UnlockRegion"
+f1_keywords:
+- objidl/ILockBytes.UnlockRegion
 dev_langs:
- - c++
+- c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Ole32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Ole32.dll
+- Ole32.dll
 api_name:
- - ILockBytes.UnlockRegion
+- ILockBytes.UnlockRegion
 targetos: Windows
 req.typenames: 
 req.redist: 

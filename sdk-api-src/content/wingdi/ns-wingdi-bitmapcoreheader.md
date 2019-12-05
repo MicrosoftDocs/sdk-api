@@ -1,19 +1,17 @@
 ---
 UID: NS:wingdi.tagBITMAPCOREHEADER
 title: BITMAPCOREHEADER (wingdi.h)
-
 description: The BITMAPCOREHEADER structure contains information about the dimensions and color format of a DIB.
 old-location: gdi\bitmapcoreheader.htm
 tech.root: gdi
 ms.assetid: 0182adcd-dbba-43de-b41b-ab2f0fd8f7bf
-
 ms.date: 12/05/2018
-ms.keywords: "*LPBITMAPCOREHEADER, *PBITMAPCOREHEADER, BITMAPCOREHEADER, BITMAPCOREHEADER structure [Windows GDI], PBITMAPCOREHEADER, PBITMAPCOREHEADER structure pointer [Windows GDI], _win32_BITMAPCOREHEADER_str, gdi.bitmapcoreheader, wingdi/BITMAPCOREHEADER, wingdi/PBITMAPCOREHEADER"
+ms.keywords: '*LPBITMAPCOREHEADER, *PBITMAPCOREHEADER, BITMAPCOREHEADER, BITMAPCOREHEADER structure [Windows GDI], PBITMAPCOREHEADER, PBITMAPCOREHEADER structure pointer [Windows GDI], _win32_BITMAPCOREHEADER_str, gdi.bitmapcoreheader, wingdi/BITMAPCOREHEADER, wingdi/PBITMAPCOREHEADER'
 ms.topic: struct
-f1_keywords: 
- - "wingdi/BITMAPCOREHEADER"
+f1_keywords:
+- wingdi/BITMAPCOREHEADER
 dev_langs:
- - c++
+- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wingdi.h
+- Wingdi.h
 api_name:
- - BITMAPCOREHEADER
+- BITMAPCOREHEADER
 targetos: Windows
 req.typenames: BITMAPCOREHEADER, *LPBITMAPCOREHEADER, *PBITMAPCOREHEADER
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IVMRWindowlessControl.SetVideoPosition
 title: IVMRWindowlessControl::SetVideoPosition (strmif.h)
-
 description: The SetVideoPosition method sets the source and destination rectangles for the video.
 old-location: dshow\ivmrwindowlesscontrol_setvideoposition.htm
 tech.root: DirectShow
 ms.assetid: 3cf75b8e-850d-4514-9502-a71c801e0d92
-
 ms.date: 12/05/2018
 ms.keywords: IVMRWindowlessControl interface [DirectShow],SetVideoPosition method, IVMRWindowlessControl.SetVideoPosition, IVMRWindowlessControl::SetVideoPosition, IVMRWindowlessControlSetVideoPosition, SetVideoPosition, SetVideoPosition method [DirectShow], SetVideoPosition method [DirectShow],IVMRWindowlessControl interface, dshow.ivmrwindowlesscontrol_setvideoposition, strmif/IVMRWindowlessControl::SetVideoPosition
 ms.topic: method
-f1_keywords: 
- - "strmif/IVMRWindowlessControl.SetVideoPosition"
+f1_keywords:
+- strmif/IVMRWindowlessControl.SetVideoPosition
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IVMRWindowlessControl.SetVideoPosition
+- IVMRWindowlessControl.SetVideoPosition
 targetos: Windows
 req.typenames: 
 req.redist: 

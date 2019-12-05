@@ -1,19 +1,17 @@
 ---
 UID: NF:wsdbase.IWSDHttpMessageParameters.Clear
 title: IWSDHttpMessageParameters::Clear (wsdbase.h)
-
 description: Clears the HTTP headers used for SOAP-over-HTTP transmissions.
 old-location: ncd\iwsdhttpmessageparameters_clear.htm
 tech.root: WsdApi
 ms.assetid: e5cd5c07-3326-4508-89ac-939466381b12
-
 ms.date: 12/05/2018
 ms.keywords: Clear, Clear method, Clear method,IWSDHttpMessageParameters interface, IWSDHttpMessageParameters interface,Clear method, IWSDHttpMessageParameters.Clear, IWSDHttpMessageParameters::Clear, ncd.iwsdhttpmessageparameters_clear, wsdbase/IWSDHttpMessageParameters::Clear
 ms.topic: method
-f1_keywords: 
- - "wsdbase/IWSDHttpMessageParameters.Clear"
+f1_keywords:
+- wsdbase/IWSDHttpMessageParameters.Clear
 dev_langs:
- - c++
+- c++
 req.header: wsdbase.h
 req.include-header: Wsdapi.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wsdapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wsdapi.dll
+- Wsdapi.dll
 api_name:
- - IWSDHttpMessageParameters.Clear
+- IWSDHttpMessageParameters.Clear
 targetos: Windows
 req.typenames: 
 req.redist: 

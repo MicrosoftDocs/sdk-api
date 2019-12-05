@@ -1,19 +1,17 @@
 ---
 UID: NS:wsrm._RM_SEND_WINDOW
 title: RM_SEND_WINDOW (wsrm.h)
-
 description: The RM_SEND_WINDOW structure specifies the Reliable Multicast send window. This structure is used with the RM_RATE_WINDOW_SIZE socket option.
 old-location: winsock\rm_send_window.htm
 tech.root: WinSock
 ms.assetid: 7ce84d2e-a52f-4652-b24a-55c94b7c120b
-
 ms.date: 12/05/2018
 ms.keywords: RM_SEND_WINDOW, RM_SEND_WINDOW structure [Winsock], winsock.rm_send_window, wsrm/RM_SEND_WINDOW
 ms.topic: struct
-f1_keywords: 
- - "wsrm/RM_SEND_WINDOW"
+f1_keywords:
+- wsrm/RM_SEND_WINDOW
 dev_langs:
- - c++
+- c++
 req.header: wsrm.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wsrm.h
+- Wsrm.h
 api_name:
- - RM_SEND_WINDOW
+- RM_SEND_WINDOW
 targetos: Windows
 req.typenames: RM_SEND_WINDOW
 req.redist: 

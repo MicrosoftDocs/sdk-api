@@ -1,19 +1,17 @@
 ---
 UID: NF:dvbsiparser.IPBDASiParser.Initialize
 title: IPBDASiParser::Initialize (dvbsiparser.h)
-
 description: Initializes a program and system information protocol (PSIP) parser for a Protected Broadcast Driver Architecture (PBDA) transport stream.
 old-location: mstv\ipbdasiparser_initialize.htm
 tech.root: mstv
 ms.assetid: fb161e1a-ae10-4d5e-907a-91c7e80c11d8
-
 ms.date: 12/05/2018
 ms.keywords: IPBDASiParser interface [Microsoft TV Technologies],Initialize method, IPBDASiParser.Initialize, IPBDASiParser::Initialize, Initialize, Initialize method [Microsoft TV Technologies], Initialize method [Microsoft TV Technologies],IPBDASiParser interface, dshow.ipbdasiparser_initialize, dvbsiparser/IPBDASiParser::Initialize, mstv.ipbdasiparser_initialize
 ms.topic: method
-f1_keywords: 
- - "dvbsiparser/IPBDASiParser.Initialize"
+f1_keywords:
+- dvbsiparser/IPBDASiParser.Initialize
 dev_langs:
- - c++
+- c++
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dvbsiparser.h
+- dvbsiparser.h
 api_name:
- - IPBDASiParser.Initialize
+- IPBDASiParser.Initialize
 targetos: Windows
 req.typenames: 
 req.redist: 

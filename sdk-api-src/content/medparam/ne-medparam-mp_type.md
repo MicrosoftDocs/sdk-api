@@ -1,19 +1,17 @@
 ---
 UID: NE:medparam._MP_Type
 title: MP_TYPE (medparam.h)
-
 description: The MP_TYPE enumeration specifies the data type for a parameter.
 old-location: dshow\mp_type.htm
 tech.root: DirectShow
 ms.assetid: 9c8851c7-1a72-4dfd-ba2f-e64d8e22f6dc
-
 ms.date: 12/05/2018
 ms.keywords: MPT_BOOL, MPT_ENUM, MPT_FLOAT, MPT_INT, MPT_MAX, MP_TYPE, MP_TYPE , MP_TYPE enumeration [DirectShow], MP_TYPEEnumeration, dshow.mp_type, medparam/MPT_BOOL, medparam/MPT_ENUM, medparam/MPT_FLOAT, medparam/MPT_INT, medparam/MPT_MAX, medparam/MP_TYPE
 ms.topic: enum
 f1_keywords:
 - medparam/MP_TYPE
 dev_langs:
- - c++
+- c++
 req.header: medparam.h
 req.include-header: 
 req.target-type: Windows

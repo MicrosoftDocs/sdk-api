@@ -1,19 +1,17 @@
 ---
 UID: NF:tom.ITextStoryRanges2.Item2
 title: ITextStoryRanges2::Item2 (tom.h)
-
 description: Gets an ITextRange2 object for a story, by index, in a stories collection.
 old-location: controls\itextstoryranges2_item2.htm
 tech.root: Controls
 ms.assetid: 0e77584e-e7ea-44ee-bce8-6f3b84d106bb
-
 ms.date: 12/05/2018
 ms.keywords: ITextStoryRanges2 interface [Windows Controls],Item2 method, ITextStoryRanges2.Item2, ITextStoryRanges2::Item2, Item2, Item2 method [Windows Controls], Item2 method [Windows Controls],ITextStoryRanges2 interface, controls.itextstoryranges2_item2, tom/ITextStoryRanges2::Item2
 ms.topic: method
-f1_keywords: 
- - "tom/ITextStoryRanges2.Item2"
+f1_keywords:
+- tom/ITextStoryRanges2.Item2
 dev_langs:
- - c++
+- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msftedit.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msftedit.dll
+- Msftedit.dll
 api_name:
- - ITextStoryRanges2.Item2
+- ITextStoryRanges2.Item2
 targetos: Windows
 req.typenames: 
 req.redist: 

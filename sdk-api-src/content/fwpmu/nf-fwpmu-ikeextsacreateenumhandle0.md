@@ -1,19 +1,17 @@
 ---
 UID: NF:fwpmu.IkeextSaCreateEnumHandle0
 title: IkeextSaCreateEnumHandle0 function (fwpmu.h)
-
 description: Creates a handle used to enumerate a set of Internet Key Exchange (IKE) and Authenticated Internet Protocol (AuthIP) security association (SA) objects.
 old-location: fwp\ikeextsacreateenumhandle0.htm
 tech.root: fwp
 ms.assetid: c72ec488-0721-406e-8ca0-6a34873e2683
-
 ms.date: 12/05/2018
 ms.keywords: IkeextSaCreateEnumHandle0, IkeextSaCreateEnumHandle0 function [Filtering], fwp.ikeextsacreateenumhandle0, fwpmu/IkeextSaCreateEnumHandle0
 ms.topic: function
-f1_keywords: 
- - "fwpmu/IkeextSaCreateEnumHandle0"
+f1_keywords:
+- fwpmu/IkeextSaCreateEnumHandle0
 dev_langs:
- - c++
+- c++
 req.header: fwpmu.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Fwpuclnt.lib
 req.dll: Fwpuclnt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Fwpuclnt.dll
+- Fwpuclnt.dll
 api_name:
- - IkeextSaCreateEnumHandle0
+- IkeextSaCreateEnumHandle0
 targetos: Windows
 req.typenames: 
 req.redist: 

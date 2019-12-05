@@ -1,19 +1,17 @@
 ---
 UID: NF:mfidl.IMFHttpDownloadSession.Close
 title: IMFHttpDownloadSession::Close (mfidl.h)
-
 description: Invoked by Microsoft Media Foundation to specify that no more HTTP requests will be created, and allows IMFHttpDownloadSession to free any internal resources.
 old-location: mf\imfhttpdownloadsession_close.htm
 tech.root: medfound
 ms.assetid: 587D281D-0488-470B-9E20-AE6DE70F33DC
-
 ms.date: 12/05/2018
 ms.keywords: Close, Close method [Media Foundation], Close method [Media Foundation],IMFHttpDownloadSession interface, IMFHttpDownloadSession interface [Media Foundation],Close method, IMFHttpDownloadSession.Close, IMFHttpDownloadSession::Close, mf.imfhttpdownloadsession_close, mfidl/IMFHttpDownloadSession::Close
 ms.topic: method
-f1_keywords: 
- - "mfidl/IMFHttpDownloadSession.Close"
+f1_keywords:
+- mfidl/IMFHttpDownloadSession.Close
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Mfplat.lib; Mfplat.dll
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfplat.lib
- - mfplat.dll
- - mfplat.dll
- - mfplat.dll.dll
+- mfplat.lib
+- mfplat.dll
+- mfplat.dll
+- mfplat.dll.dll
 api_name:
- - IMFHttpDownloadSession.Close
+- IMFHttpDownloadSession.Close
 targetos: Windows
 req.typenames: 
 req.redist: 

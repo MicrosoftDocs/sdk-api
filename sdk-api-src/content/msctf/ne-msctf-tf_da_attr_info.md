@@ -1,19 +1,17 @@
 ---
 UID: NE:msctf.__MIDL___MIDL_itf_msctf_0000_0070_0004
 title: TF_DA_ATTR_INFO (msctf.h)
-
 description: Elements of the TF_DA_ATTR_INFO enumeration are used to specify text conversion data in the TF_DISPLAYATTRIBUTE structure.
 old-location: tsf\tf_da_attr_info.htm
 tech.root: TSF
 ms.assetid: 894e6c15-d911-4e0c-96b1-db6ec8e43eba
-
 ms.date: 12/05/2018
 ms.keywords: TF_ATTR_CONVERTED, TF_ATTR_FIXEDCONVERTED, TF_ATTR_INPUT, TF_ATTR_INPUT_ERROR, TF_ATTR_OTHER, TF_ATTR_TARGET_CONVERTED, TF_ATTR_TARGET_NOTCONVERTED, TF_DA_ATTR_INFO, TF_DA_ATTR_INFO enumeration [Text Services Framework], _tsf_tf_da_attr_info_ref, msctf/TF_ATTR_CONVERTED, msctf/TF_ATTR_FIXEDCONVERTED, msctf/TF_ATTR_INPUT, msctf/TF_ATTR_INPUT_ERROR, msctf/TF_ATTR_OTHER, msctf/TF_ATTR_TARGET_CONVERTED, msctf/TF_ATTR_TARGET_NOTCONVERTED, msctf/TF_DA_ATTR_INFO, tsf.tf_da_attr_info
 ms.topic: enum
-f1_keywords: 
- - "msctf/TF_DA_ATTR_INFO"
+f1_keywords:
+- msctf/TF_DA_ATTR_INFO
 dev_langs:
- - c++
+- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Msctf.h
+- Msctf.h
 api_name:
- - TF_DA_ATTR_INFO
+- TF_DA_ATTR_INFO
 targetos: Windows
 req.typenames: TF_DA_ATTR_INFO
 req.redist: TSF 1.0 on Windows 2000 Professional

@@ -1,19 +1,17 @@
 ---
 UID: NF:directxmath.XMQuaternionReciprocalLength
 title: XMQuaternionReciprocalLength function (directxmath.h)
-
 description: Computes the reciprocal of the magnitude of a quaternion.
 old-location: dxmath\xmquaternionreciprocallength.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.quaternion.XMQuaternionReciprocalLength(XMVECTOR)
-
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMQuaternionReciprocalLength, XMQuaternionReciprocalLength, XMQuaternionReciprocalLength method [DirectX Math Support APIs], dxmath.xmquaternionreciprocallength
 ms.topic: function
-f1_keywords: 
- - "directxmath/XMQuaternionReciprocalLength"
+f1_keywords:
+- directxmath/XMQuaternionReciprocalLength
 dev_langs:
- - c++
+- c++
 req.header: directxmath.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - DirectXMath.h
+- DirectXMath.h
 api_name:
- - XMQuaternionReciprocalLength
+- XMQuaternionReciprocalLength
 targetos: Windows
 req.typenames: 
 req.redist: 

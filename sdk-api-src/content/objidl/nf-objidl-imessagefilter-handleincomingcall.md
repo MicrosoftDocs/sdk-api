@@ -1,19 +1,17 @@
 ---
 UID: NF:objidl.IMessageFilter.HandleInComingCall
 title: IMessageFilter::HandleInComingCall (objidl.h)
-
 description: Provides a single entry point for incoming calls.
 old-location: com\imessagefilter_handleincomingcall.htm
 tech.root: com
 ms.assetid: 7e31b518-ef4f-4bdd-b5c7-e1b16383a5be
-
 ms.date: 12/05/2018
 ms.keywords: HandleInComingCall, HandleInComingCall method [COM], HandleInComingCall method [COM],IMessageFilter interface, IMessageFilter interface [COM],HandleInComingCall method, IMessageFilter.HandleInComingCall, IMessageFilter::HandleInComingCall, _com_imessagefilter_handleincomingcall, com.imessagefilter_handleincomingcall, objidl/IMessageFilter::HandleInComingCall
 ms.topic: method
-f1_keywords: 
- - "objidl/IMessageFilter.HandleInComingCall"
+f1_keywords:
+- objidl/IMessageFilter.HandleInComingCall
 dev_langs:
- - c++
+- c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ObjIdl.h
+- ObjIdl.h
 api_name:
- - IMessageFilter.HandleInComingCall
+- IMessageFilter.HandleInComingCall
 targetos: Windows
 req.typenames: 
 req.redist: 

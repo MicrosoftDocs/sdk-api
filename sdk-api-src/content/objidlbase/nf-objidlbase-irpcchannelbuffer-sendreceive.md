@@ -1,19 +1,17 @@
 ---
 UID: NF:objidlbase.IRpcChannelBuffer.SendReceive
 title: IRpcChannelBuffer::SendReceive (objidlbase.h)
-
 description: Sends a method invocation across an RPC channel to the server stub.
 old-location: com\irpcchannelbuffer_sendreceive.htm
 tech.root: com
 ms.assetid: 8a42fd06-252f-4c1b-bbdb-abc2e3887c46
-
 ms.date: 12/05/2018
 ms.keywords: IRpcChannelBuffer interface [COM],SendReceive method, IRpcChannelBuffer.SendReceive, IRpcChannelBuffer::SendReceive, SendReceive, SendReceive method [COM], SendReceive method [COM],IRpcChannelBuffer interface, _com_irpcchannelbuffer_sendreceive, com.irpcchannelbuffer_sendreceive, objidlbase/IRpcChannelBuffer::SendReceive
 ms.topic: method
-f1_keywords: 
- - "objidlbase/IRpcChannelBuffer.SendReceive"
+f1_keywords:
+- objidlbase/IRpcChannelBuffer.SendReceive
 dev_langs:
- - c++
+- c++
 req.header: objidlbase.h
 req.include-header: ObjIdl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - objidlbase.h
+- objidlbase.h
 api_name:
- - IRpcChannelBuffer.SendReceive
+- IRpcChannelBuffer.SendReceive
 targetos: Windows
 req.typenames: 
 req.redist: 

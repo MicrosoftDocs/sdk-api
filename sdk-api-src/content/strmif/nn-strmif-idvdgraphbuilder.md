@@ -1,19 +1,17 @@
 ---
 UID: NN:strmif.IDvdGraphBuilder
 title: IDvdGraphBuilder (strmif.h)
-
 description: The IDvdGraphBuilder interface builds a filter graph for DVD-Video playback.
 old-location: dshow\idvdgraphbuilder.htm
 tech.root: DirectShow
 ms.assetid: 2179e54a-c6e2-4837-9f89-be210bde9180
-
 ms.date: 12/05/2018
 ms.keywords: IDvdGraphBuilder, IDvdGraphBuilder interface [DirectShow], IDvdGraphBuilder interface [DirectShow],described, IDvdGraphBuilderInterface, dshow.idvdgraphbuilder, strmif/IDvdGraphBuilder
 ms.topic: interface
-f1_keywords: 
- - "strmif/IDvdGraphBuilder"
+f1_keywords:
+- strmif/IDvdGraphBuilder
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IDvdGraphBuilder
+- IDvdGraphBuilder
 targetos: Windows
 req.typenames: 
 req.redist: 

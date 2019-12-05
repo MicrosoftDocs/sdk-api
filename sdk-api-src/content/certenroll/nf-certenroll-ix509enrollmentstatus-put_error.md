@@ -1,19 +1,17 @@
 ---
 UID: NF:certenroll.IX509EnrollmentStatus.put_Error
 title: IX509EnrollmentStatus::put_Error (certenroll.h)
-
 description: Specifies and retrieves a value that identifies the error status of the certificate enrollment process.
 old-location: security\ix509enrollmentstatus_error_property.htm
 tech.root: seccertenroll
 ms.assetid: 397ed934-5ec8-4653-ada4-e966f68cbbf2
-
 ms.date: 12/05/2018
 ms.keywords: Error property [Security], Error property [Security],IX509EnrollmentStatus interface, IX509EnrollmentStatus interface [Security],Error property, IX509EnrollmentStatus.Error, IX509EnrollmentStatus.put_Error, IX509EnrollmentStatus::Error, IX509EnrollmentStatus::get_Error, IX509EnrollmentStatus::put_Error, certenroll/IX509EnrollmentStatus::Error, certenroll/IX509EnrollmentStatus::get_Error, certenroll/IX509EnrollmentStatus::put_Error, put_Error, security.ix509enrollmentstatus_error_property
 ms.topic: method
-f1_keywords: 
- - "certenroll/IX509EnrollmentStatus.Error"
+f1_keywords:
+- certenroll/IX509EnrollmentStatus.Error
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: CertEnroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CertEnroll.dll
+- CertEnroll.dll
 api_name:
- - IX509EnrollmentStatus.Error
- - IX509EnrollmentStatus.get_Error
- - IX509EnrollmentStatus.put_Error
+- IX509EnrollmentStatus.Error
+- IX509EnrollmentStatus.get_Error
+- IX509EnrollmentStatus.put_Error
 targetos: Windows
 req.typenames: 
 req.redist: 

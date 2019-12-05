@@ -1,19 +1,17 @@
 ---
 UID: NF:dvbsiparser.IDvbSubtitlingDescriptor.GetRecordAncillaryPageID
 title: IDvbSubtitlingDescriptor::GetRecordAncillaryPageID (dvbsiparser.h)
-
 description: Gets the ancillary page identifier for a Digital Video Broadcast (DVB) subtitling descriptor.
 old-location: mstv\idvbsubtitlingdescriptor_getrecordancillarypageid.htm
 tech.root: mstv
 ms.assetid: ab490087-063d-4e9f-8aa5-679804548d26
-
 ms.date: 12/05/2018
 ms.keywords: GetRecordAncillaryPageID, GetRecordAncillaryPageID method [Microsoft TV Technologies], GetRecordAncillaryPageID method [Microsoft TV Technologies],IDvbSubtitlingDescriptor interface, IDvbSubtitlingDescriptor interface [Microsoft TV Technologies],GetRecordAncillaryPageID method, IDvbSubtitlingDescriptor.GetRecordAncillaryPageID, IDvbSubtitlingDescriptor::GetRecordAncillaryPageID, dvbsiparser/IDvbSubtitlingDescriptor::GetRecordAncillaryPageID, mstv.idvbsubtitlingdescriptor_getrecordancillarypageid
 ms.topic: method
-f1_keywords: 
- - "dvbsiparser/IDvbSubtitlingDescriptor.GetRecordAncillaryPageID"
+f1_keywords:
+- dvbsiparser/IDvbSubtitlingDescriptor.GetRecordAncillaryPageID
 dev_langs:
- - c++
+- c++
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dvbsiparser.h
+- dvbsiparser.h
 api_name:
- - IDvbSubtitlingDescriptor.GetRecordAncillaryPageID
+- IDvbSubtitlingDescriptor.GetRecordAncillaryPageID
 targetos: Windows
 req.typenames: 
 req.redist: 

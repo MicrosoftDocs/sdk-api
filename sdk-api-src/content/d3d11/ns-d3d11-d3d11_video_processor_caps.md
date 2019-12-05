@@ -1,19 +1,17 @@
 ---
 UID: NS:d3d11.D3D11_VIDEO_PROCESSOR_CAPS
 title: D3D11_VIDEO_PROCESSOR_CAPS (d3d11.h)
-
 description: Describes the capabilities of a Microsoft Direct3D 11 video processor.
 old-location: mf\d3d11_video_processor_caps.htm
 tech.root: medfound
 ms.assetid: EF79BE15-B92E-45C1-BC42-E89E06197C20
-
 ms.date: 12/05/2018
 ms.keywords: D3D11_VIDEO_PROCESSOR_CAPS, D3D11_VIDEO_PROCESSOR_CAPS structure [Media Foundation], d3d11/D3D11_VIDEO_PROCESSOR_CAPS, mf.d3d11_video_processor_caps
 ms.topic: struct
-f1_keywords: 
- - "d3d11/D3D11_VIDEO_PROCESSOR_CAPS"
+f1_keywords:
+- d3d11/D3D11_VIDEO_PROCESSOR_CAPS
 dev_langs:
- - c++
+- c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - d3d11.h
+- d3d11.h
 api_name:
- - D3D11_VIDEO_PROCESSOR_CAPS
+- D3D11_VIDEO_PROCESSOR_CAPS
 targetos: Windows
 req.typenames: D3D11_VIDEO_PROCESSOR_CAPS
 req.redist: 

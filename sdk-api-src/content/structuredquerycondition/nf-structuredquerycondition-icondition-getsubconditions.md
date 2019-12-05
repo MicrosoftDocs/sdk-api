@@ -1,19 +1,17 @@
 ---
 UID: NF:structuredquerycondition.ICondition.GetSubConditions
 title: ICondition::GetSubConditions (structuredquerycondition.h)
-
 description: Retrieves a collection of the subconditions of the search condition node and the IID of the interface for enumerating the collection.
 old-location: search\_search_ICondition_GetSubConditions.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\icondition\getsubconditions.htm
-
 ms.date: 12/05/2018
 ms.keywords: GetSubConditions, GetSubConditions method [search], GetSubConditions method [search],ICondition interface, ICondition interface [search],GetSubConditions method, ICondition.GetSubConditions, ICondition::GetSubConditions, _search_ICondition_GetSubConditions, search._search_ICondition_GetSubConditions, structuredquerycondition/ICondition::GetSubConditions
 ms.topic: method
-f1_keywords: 
- - "structuredquerycondition/ICondition.GetSubConditions"
+f1_keywords:
+- structuredquerycondition/ICondition.GetSubConditions
 dev_langs:
- - c++
+- c++
 req.header: structuredquerycondition.h
 req.include-header: Structuredquery.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - structuredquerycondition.h
+- structuredquerycondition.h
 api_name:
- - ICondition.GetSubConditions
+- ICondition.GetSubConditions
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0

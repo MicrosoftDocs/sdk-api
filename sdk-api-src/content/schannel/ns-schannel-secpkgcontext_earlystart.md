@@ -1,19 +1,17 @@
 ---
 UID: NS:schannel._SecPkgContext_EarlyStart
 title: SecPkgContext_EarlyStart (schannel.h)
-
 description: The SecPkgContext_EarlyStart structure contains information about whether to attempt to use the False Start feature in a security context.
 old-location: security\secpkgcontext_earlystart.htm
 tech.root: SecAuthN
 ms.assetid: 5DD5D0B9-CFFF-4743-94EC-A569D265D31F
-
 ms.date: 12/05/2018
-ms.keywords: "*PSecPkgContext_EarlyStart, PSecPkgContext_EarlyStart, PSecPkgContext_EarlyStart structure pointer [Security], SecPkgContext_EarlyStart, SecPkgContext_EarlyStart structure [Security], SecPkgContext_EarlyStartA, SecPkgContext_EarlyStartW, _SecPkgContext_EarlyStart, schannel/PSecPkgContext_EarlyStart, schannel/SecPkgContext_EarlyStart, schannel/SecPkgContext_EarlyStartA, schannel/SecPkgContext_EarlyStartW, security.secpkgcontext_earlystart"
+ms.keywords: '*PSecPkgContext_EarlyStart, PSecPkgContext_EarlyStart, PSecPkgContext_EarlyStart structure pointer [Security], SecPkgContext_EarlyStart, SecPkgContext_EarlyStart structure [Security], SecPkgContext_EarlyStartA, SecPkgContext_EarlyStartW, _SecPkgContext_EarlyStart, schannel/PSecPkgContext_EarlyStart, schannel/SecPkgContext_EarlyStart, schannel/SecPkgContext_EarlyStartA, schannel/SecPkgContext_EarlyStartW, security.secpkgcontext_earlystart'
 ms.topic: struct
-f1_keywords: 
- - "schannel/SecPkgContext_EarlyStart"
+f1_keywords:
+- schannel/SecPkgContext_EarlyStart
 dev_langs:
- - c++
+- c++
 req.header: schannel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - schannel.h
+- schannel.h
 api_name:
- - SecPkgContext_EarlyStart
- - SecPkgContext_EarlyStartA
- - SecPkgContext_EarlyStartW
+- SecPkgContext_EarlyStart
+- SecPkgContext_EarlyStartA
+- SecPkgContext_EarlyStartW
 targetos: Windows
 req.typenames: SecPkgContext_EarlyStart, *PSecPkgContext_EarlyStart
 req.redist: 

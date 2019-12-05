@@ -1,19 +1,17 @@
 ---
 UID: NN:strmif.IConfigAviMux
 title: IConfigAviMux (strmif.h)
-
 description: The IConfigAviMux interface configures the AVI Mux filter.
 old-location: dshow\iconfigavimux.htm
 tech.root: DirectShow
 ms.assetid: 4cc3cdeb-ebc5-46e1-8cc4-84b40e91323b
-
 ms.date: 12/05/2018
 ms.keywords: IConfigAviMux, IConfigAviMux interface [DirectShow], IConfigAviMux interface [DirectShow],described, IConfigAviMuxInterface, dshow.iconfigavimux, strmif/IConfigAviMux
 ms.topic: interface
-f1_keywords: 
- - "strmif/IConfigAviMux"
+f1_keywords:
+- strmif/IConfigAviMux
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IConfigAviMux
+- IConfigAviMux
 targetos: Windows
 req.typenames: 
 req.redist: 

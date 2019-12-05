@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IDvdInfo.GetCurrentVolumeInfo
 title: IDvdInfo::GetCurrentVolumeInfo (strmif.h)
-
 description: Note  The IDvdInfo interface is deprecated. Use IDvdInfo2 instead. Retrieves the current DVD volume information.
 old-location: dshow\idvdinfo_getcurrentvolumeinfo.htm
 tech.root: DirectShow
 ms.assetid: 2da53db9-5565-4bca-ba0a-90f7e07ccbb9
-
 ms.date: 12/05/2018
 ms.keywords: GetCurrentVolumeInfo, GetCurrentVolumeInfo method [DirectShow], GetCurrentVolumeInfo method [DirectShow],IDvdInfo interface, IDvdInfo interface [DirectShow],GetCurrentVolumeInfo method, IDvdInfo.GetCurrentVolumeInfo, IDvdInfo::GetCurrentVolumeInfo, IDvdInfoGetCurrentVolumeInfo, dshow.idvdinfo_getcurrentvolumeinfo, strmif/IDvdInfo::GetCurrentVolumeInfo
 ms.topic: method
-f1_keywords: 
- - "strmif/IDvdInfo.GetCurrentVolumeInfo"
+f1_keywords:
+- strmif/IDvdInfo.GetCurrentVolumeInfo
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmif.h
+- Strmif.h
 api_name:
- - IDvdInfo.GetCurrentVolumeInfo
+- IDvdInfo.GetCurrentVolumeInfo
 targetos: Windows
 req.typenames: 
 req.redist: 

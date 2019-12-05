@@ -1,19 +1,17 @@
 ---
 UID: NL:mspstrm.CMSPStream
 title: CMSPStream (mspstrm.h)
-
 description: The CMSPStream class exposes methods that allow an application to start, pause, or stop a substream, and to select or unselect terminals. Defined in MSPstrm.h.
 old-location: tapi3\cmspstream.htm
 tech.root: Tapi
 ms.assetid: 776ca663-faa2-4534-8873-4e20ed79530c
-
 ms.date: 12/05/2018
 ms.keywords: CMSPStream, CMSPStream class [TAPI 2.2], CMSPStream class [TAPI 2.2],described, _tapi3_cmspstream, mspstrm/CMSPStream, tapi3.cmspstream
 ms.topic: class
-f1_keywords: 
- - "mspstrm/CMSPStream"
+f1_keywords:
+- mspstrm/CMSPStream
 dev_langs:
- - c++
+- c++
 req.header: mspstrm.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mspstrm.h
+- Mspstrm.h
 api_name:
- - CMSPStream
+- CMSPStream
 targetos: Windows
 req.typenames: 
 req.redist: 

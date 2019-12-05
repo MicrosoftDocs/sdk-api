@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IEnumResources.Reset
 title: IEnumResources::Reset (shobjidl_core.h)
-
 description: Resets the enumeration index to 0.
 old-location: shell\IEnumResources_Reset.htm
 tech.root: shell
 ms.assetid: 0b3f38d2-80fe-4242-a99d-5d82f9dd50e9
-
 ms.date: 12/05/2018
 ms.keywords: IEnumResources interface [Windows Shell],Reset method, IEnumResources.Reset, IEnumResources::Reset, Reset, Reset method [Windows Shell], Reset method [Windows Shell],IEnumResources interface, _shell_IEnumResources_Reset, shell.IEnumResources_Reset, shobjidl_core/IEnumResources::Reset
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IEnumResources.Reset"
+f1_keywords:
+- shobjidl_core/IEnumResources.Reset
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - IEnumResources.Reset
+- IEnumResources.Reset
 targetos: Windows
 req.typenames: 
 req.redist: 

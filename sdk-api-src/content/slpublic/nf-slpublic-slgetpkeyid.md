@@ -1,19 +1,17 @@
 ---
 UID: NF:slpublic.SLGetPKeyId
 title: SLGetPKeyId function (slpublic.h)
-
 description: Gets the registered product key ID associated with the product.
 old-location: security\slgetpkeyid.htm
 tech.root: SecSLApi
 ms.assetid: 6255b66f-d121-47a9-a5a6-eca5483b14dd
-
 ms.date: 12/05/2018
 ms.keywords: SLGetPKeyId, SLGetPKeyId function [Security], security.slgetpkeyid, slpublic/SLGetPKeyId
 ms.topic: function
-f1_keywords: 
- - "slpublic/SLGetPKeyId"
+f1_keywords:
+- slpublic/SLGetPKeyId
 dev_langs:
- - c++
+- c++
 req.header: slpublic.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Slc.lib
 req.dll: Slc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Slc.dll
+- Slc.dll
 api_name:
- - SLGetPKeyId
+- SLGetPKeyId
 targetos: Windows
 req.typenames: 
 req.redist: 

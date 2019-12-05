@@ -1,19 +1,17 @@
 ---
 UID: NS:ipsectypes.IPSEC_ESP_DROP_PACKET_STATISTICS0_
 title: IPSEC_ESP_DROP_PACKET_STATISTICS0 (ipsectypes.h)
-
 description: Stores ESP drop packet statistics.
 old-location: fwp\ipsec_esp_drop_packet_statistics0_struct.htm
 tech.root: fwp
 ms.assetid: d31ac463-8265-40c6-bd68-9f3ade35eb34
-
 ms.date: 12/05/2018
 ms.keywords: IPSEC_ESP_DROP_PACKET_STATISTICS0, IPSEC_ESP_DROP_PACKET_STATISTICS0 structure [Filtering], fwp.ipsec_esp_drop_packet_statistics0_struct, ipsectypes/IPSEC_ESP_DROP_PACKET_STATISTICS0
 ms.topic: struct
-f1_keywords: 
- - "ipsectypes/IPSEC_ESP_DROP_PACKET_STATISTICS0"
+f1_keywords:
+- ipsectypes/IPSEC_ESP_DROP_PACKET_STATISTICS0
 dev_langs:
- - c++
+- c++
 req.header: ipsectypes.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Ipsectypes.h
+- Ipsectypes.h
 api_name:
- - IPSEC_ESP_DROP_PACKET_STATISTICS0
+- IPSEC_ESP_DROP_PACKET_STATISTICS0
 targetos: Windows
 req.typenames: IPSEC_ESP_DROP_PACKET_STATISTICS0
 req.redist: 

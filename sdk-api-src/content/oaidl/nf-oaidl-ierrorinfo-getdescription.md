@@ -1,19 +1,17 @@
 ---
 UID: NF:oaidl.IErrorInfo.GetDescription
 title: IErrorInfo::GetDescription (oaidl.h)
-
 description: Returns a textual description of the error.
 old-location: automat\ierrorinfo_getdescription.htm
 tech.root: automat
 ms.assetid: 672884a8-4dfc-473c-a13d-d1723fcd01cb
-
 ms.date: 12/05/2018
 ms.keywords: GetDescription, GetDescription method [Automation], GetDescription method [Automation],IErrorInfo interface, IErrorInfo interface [Automation],GetDescription method, IErrorInfo.GetDescription, IErrorInfo::GetDescription, _oa96_IErrorInfo_GetDescription, automat.ierrorinfo_getdescription, oaidl/IErrorInfo::GetDescription
 ms.topic: method
-f1_keywords: 
- - "oaidl/IErrorInfo.GetDescription"
+f1_keywords:
+- oaidl/IErrorInfo.GetDescription
 dev_langs:
- - c++
+- c++
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - oaidl.h
+- oaidl.h
 api_name:
- - IErrorInfo.GetDescription
+- IErrorInfo.GetDescription
 targetos: Windows
 req.typenames: 
 req.redist: 

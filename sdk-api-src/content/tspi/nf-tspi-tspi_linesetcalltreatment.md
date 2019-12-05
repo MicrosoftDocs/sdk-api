@@ -1,19 +1,17 @@
 ---
 UID: NF:tspi.TSPI_lineSetCallTreatment
 title: TSPI_lineSetCallTreatment function (tspi.h)
-
 description: The TSPI_lineSetCallTreatment function service provider stores the indicated dwCallTreatment in LINECALLINFO, and sends a LINE_CALLINFO message to indicate the updated information.
 old-location: tspi\tspi_linesetcalltreatment.htm
 tech.root: Tapi
 ms.assetid: 04c93e35-df6b-409e-9bc4-06c36819963a
-
 ms.date: 12/05/2018
 ms.keywords: TSPI_lineSetCallTreatment, TSPI_lineSetCallTreatment function [TAPI 2.2], _tspi_tspi_linesetcalltreatment, tspi.tspi_linesetcalltreatment, tspi/TSPI_lineSetCallTreatment
 ms.topic: function
-f1_keywords: 
- - "tspi/TSPI_lineSetCallTreatment"
+f1_keywords:
+- tspi/TSPI_lineSetCallTreatment
 dev_langs:
- - c++
+- c++
 req.header: tspi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Tspi.h
+- Tspi.h
 api_name:
- - TSPI_lineSetCallTreatment
+- TSPI_lineSetCallTreatment
 targetos: Windows
 req.typenames: 
 req.redist: 

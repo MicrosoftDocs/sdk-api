@@ -1,19 +1,17 @@
 ---
 UID: NF:dsadmin.IDsAdminNewObjExt.Initialize
 title: IDsAdminNewObjExt::Initialize (dsadmin.h)
-
 description: The IDsAdminNewObjExt::Initialize method initializes an object creation wizard extension.
 old-location: ad\idsadminnewobjext_initialize.htm
 tech.root: ad
 ms.assetid: 38dd4f43-6f8f-460a-9c5d-0a506d993101
-
 ms.date: 12/05/2018
 ms.keywords: IDsAdminNewObjExt interface [Active Directory],Initialize method, IDsAdminNewObjExt.Initialize, IDsAdminNewObjExt::Initialize, Initialize, Initialize method [Active Directory], Initialize method [Active Directory],IDsAdminNewObjExt interface, _glines_idsadminnewobjext_initialize, ad.idsadminnewobjext__initialize, ad.idsadminnewobjext_initialize, dsadmin/IDsAdminNewObjExt::Initialize
 ms.topic: method
-f1_keywords: 
- - "dsadmin/IDsAdminNewObjExt.Initialize"
+f1_keywords:
+- dsadmin/IDsAdminNewObjExt.Initialize
 dev_langs:
- - c++
+- c++
 req.header: dsadmin.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: DSAdmin.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - DSAdmin.dll
+- DSAdmin.dll
 api_name:
- - IDsAdminNewObjExt.Initialize
+- IDsAdminNewObjExt.Initialize
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:d2d1.ID2D1RenderTarget.CreateCompatibleRenderTarget(D2D1_SIZE_F,ID2D1BitmapRenderTarget)
 title: ID2D1RenderTarget::CreateCompatibleRenderTarget(D2D1_SIZE_F,ID2D1BitmapRenderTarget) (d2d1.h)
-
 description: Creates a new bitmap render target for use during intermediate offscreen drawing that is compatible with the current render target and has the same pixel format (but not alpha mode) as the current render target.
 old-location: direct2d\ID2D1RenderTarget_CreateCompatibleRenderTarget_overload3.htm
 tech.root: Direct2D
 ms.assetid: f8687186-abea-4412-83f7-b0d89b453d9d
-
 ms.date: 12/05/2018
 ms.keywords: CreateCompatibleRenderTarget, CreateCompatibleRenderTarget method [Direct2D], CreateCompatibleRenderTarget method [Direct2D],ID2D1RenderTarget interface, ID2D1RenderTarget interface [Direct2D],CreateCompatibleRenderTarget method, ID2D1RenderTarget.CreateCompatibleRenderTarget, ID2D1RenderTarget.CreateCompatibleRenderTarget(D2D1_SIZE_F,ID2D1BitmapRenderTarget), ID2D1RenderTarget::CreateCompatibleRenderTarget, ID2D1RenderTarget::CreateCompatibleRenderTarget(D2D1_SIZE_F,ID2D1BitmapRenderTarget), d2d1/ID2D1RenderTarget::CreateCompatibleRenderTarget, direct2d.ID2D1RenderTarget_CreateCompatibleRenderTarget_D2D_SIZE_F_ptr_ptr_ID2D1BitmapRenderTarget, direct2d.ID2D1RenderTarget_CreateCompatibleRenderTarget_overload3
 ms.topic: method
-f1_keywords: 
- - "d2d1/ID2D1RenderTarget.CreateCompatibleRenderTarget"
+f1_keywords:
+- d2d1/ID2D1RenderTarget.CreateCompatibleRenderTarget
 dev_langs:
- - c++
+- c++
 req.header: d2d1.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: D2d1.lib
 req.dll: D2d1.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D2d1.dll
+- D2d1.dll
 api_name:
- - ID2D1RenderTarget.CreateCompatibleRenderTarget
+- ID2D1RenderTarget.CreateCompatibleRenderTarget
 targetos: Windows
 req.typenames: 
 req.redist: 

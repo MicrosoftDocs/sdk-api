@@ -1,19 +1,17 @@
 ---
 UID: NF:wsdclient.IWSDAsyncResult.HasCompleted
 title: IWSDAsyncResult::HasCompleted (wsdclient.h)
-
 description: Indicates whether the operation has completed.
 old-location: ncd\iwsdasyncresult_hascompleted_method.htm
 tech.root: WsdApi
 ms.assetid: 67944519-c6cc-4dc8-9035-4e6ee84e1277
-
 ms.date: 12/05/2018
 ms.keywords: HasCompleted, HasCompleted method, HasCompleted method,IWSDAsyncResult interface, IWSDAsyncResult interface,HasCompleted method, IWSDAsyncResult.HasCompleted, IWSDAsyncResult::HasCompleted, ncd.iwsdasyncresult_hascompleted_method, wsdclient/IWSDAsyncResult::HasCompleted
 ms.topic: method
-f1_keywords: 
- - "wsdclient/IWSDAsyncResult.HasCompleted"
+f1_keywords:
+- wsdclient/IWSDAsyncResult.HasCompleted
 dev_langs:
- - c++
+- c++
 req.header: wsdclient.h
 req.include-header: Wsdapi.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wsdapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wsdapi.dll
+- Wsdapi.dll
 api_name:
- - IWSDAsyncResult.HasCompleted
+- IWSDAsyncResult.HasCompleted
 targetos: Windows
 req.typenames: 
 req.redist: 

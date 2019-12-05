@@ -1,19 +1,17 @@
 ---
 UID: NF:wtsprotocol.IWRdsProtocolConnection.DisconnectNotify
 title: IWRdsProtocolConnection::DisconnectNotify (wtsprotocol.h)
-
 description: Notifies the protocol that the session has been disconnected.
 old-location: termserv\iwrdsprotocolconnection_disconnectnotify.htm
 tech.root: TermServ
 ms.assetid: 2399677b-0859-4e43-9dbc-0b08fa0647b0
-
 ms.date: 12/05/2018
 ms.keywords: DisconnectNotify, DisconnectNotify method [Remote Desktop Services], DisconnectNotify method [Remote Desktop Services],IWRdsProtocolConnection interface, IWRdsProtocolConnection interface [Remote Desktop Services],DisconnectNotify method, IWRdsProtocolConnection.DisconnectNotify, IWRdsProtocolConnection::DisconnectNotify, termserv.iwrdsprotocolconnection_disconnectnotify, wtsprotocol/IWRdsProtocolConnection::DisconnectNotify
 ms.topic: method
-f1_keywords: 
- - "wtsprotocol/IWRdsProtocolConnection.DisconnectNotify"
+f1_keywords:
+- wtsprotocol/IWRdsProtocolConnection.DisconnectNotify
 dev_langs:
- - c++
+- c++
 req.header: wtsprotocol.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wtsprotocol.h
+- wtsprotocol.h
 api_name:
- - IWRdsProtocolConnection.DisconnectNotify
+- IWRdsProtocolConnection.DisconnectNotify
 targetos: Windows
 req.typenames: 
 req.redist: 

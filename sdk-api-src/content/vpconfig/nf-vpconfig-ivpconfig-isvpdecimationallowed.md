@@ -1,19 +1,17 @@
 ---
 UID: NF:vpconfig.IVPConfig.IsVPDecimationAllowed
 title: IVPConfig::IsVPDecimationAllowed (vpconfig.h)
-
 description: The IsVPDecimationAllowed method, given the context, retrieves whether scaling at the video port is possible.
 old-location: dshow\ivpconfig_isvpdecimationallowed.htm
 tech.root: DirectShow
 ms.assetid: 2362e321-cbdd-41ee-97ff-e6ff9cd672b0
-
 ms.date: 12/05/2018
 ms.keywords: IVPConfig interface [DirectShow],IsVPDecimationAllowed method, IVPConfig.IsVPDecimationAllowed, IVPConfig::IsVPDecimationAllowed, IVPConfigIsVPDecimationAllowed, IsVPDecimationAllowed, IsVPDecimationAllowed method [DirectShow], IsVPDecimationAllowed method [DirectShow],IVPConfig interface, dshow.ivpconfig_isvpdecimationallowed, vpconfig/IVPConfig::IsVPDecimationAllowed
 ms.topic: method
-f1_keywords: 
- - "vpconfig/IVPConfig.IsVPDecimationAllowed"
+f1_keywords:
+- vpconfig/IVPConfig.IsVPDecimationAllowed
 dev_langs:
- - c++
+- c++
 req.header: vpconfig.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IVPConfig.IsVPDecimationAllowed
+- IVPConfig.IsVPDecimationAllowed
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NS:wincrypt._CMSG_SIGNED_ENCODE_INFO
 title: CMSG_SIGNED_ENCODE_INFO (wincrypt.h)
-
 description: Contains information to be passed to CryptMsgOpenToEncode if dwMsgType is CMSG_SIGNED.
 old-location: security\cmsg_signed_encode_info.htm
 tech.root: SecCrypto
 ms.assetid: 93138744-8316-461b-908a-1eab47e83f63
-
 ms.date: 12/05/2018
 ms.keywords: '*PCMSG_SIGNED_ENCODE_INFO, CMSG_SIGNED_ENCODE_INFO, CMSG_SIGNED_ENCODE_INFO structure [Security], _crypto2_cmsg_signed_encode_info, security.cmsg_signed_encode_info, wincrypt/CMSG_SIGNED_ENCODE_INFO'
 ms.topic: struct
 f1_keywords:
 - wincrypt/CMSG_SIGNED_ENCODE_INFO
 dev_langs:
- - c++
+- c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

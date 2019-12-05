@@ -1,19 +1,17 @@
 ---
 UID: NF:winuser.SetCaretBlinkTime
 title: SetCaretBlinkTime function (winuser.h)
-
 description: Sets the caret blink time to the specified number of milliseconds. The blink time is the elapsed time, in milliseconds, required to invert the caret's pixels.
 old-location: menurc\setcaretblinktime.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\carets\caretreference\caretfunctions\setcaretblinktime.htm
-
 ms.date: 12/05/2018
 ms.keywords: SetCaretBlinkTime, SetCaretBlinkTime function [Menus and Other Resources], _win32_SetCaretBlinkTime, _win32_setcaretblinktime_cpp, menurc.setcaretblinktime, winui._win32_setcaretblinktime, winuser/SetCaretBlinkTime
 ms.topic: function
-f1_keywords: 
- - "winuser/SetCaretBlinkTime"
+f1_keywords:
+- winuser/SetCaretBlinkTime
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - User32.dll
- - Ext-MS-Win-NTUser-caret-l1-1-0.dll
- - api-ms-win-ntuser-ie-caret-l1-1-0.dll
- - ie_stubs.dll
+- User32.dll
+- Ext-MS-Win-NTUser-caret-l1-1-0.dll
+- api-ms-win-ntuser-ie-caret-l1-1-0.dll
+- ie_stubs.dll
 api_name:
- - SetCaretBlinkTime
+- SetCaretBlinkTime
 targetos: Windows
 req.typenames: 
 req.redist: 

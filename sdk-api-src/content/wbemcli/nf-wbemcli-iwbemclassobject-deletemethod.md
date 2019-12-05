@@ -1,19 +1,17 @@
 ---
 UID: NF:wbemcli.IWbemClassObject.DeleteMethod
 title: IWbemClassObject::DeleteMethod (wbemcli.h)
-
 description: Use the IWbemClassObject::DeleteMethod method to delete a method. This call is supported only if the current object is a CIM class definition. Method manipulation is not available from IWbemClassObject pointers which point to CIM instances.
 old-location: wmi\iwbemclassobject_deletemethod.htm
 tech.root: WmiSdk
 ms.assetid: 75502b28-1157-4bdd-ba8f-d2cf0c1228c4
-
 ms.date: 12/05/2018
 ms.keywords: DeleteMethod, DeleteMethod method [Windows Management Instrumentation], DeleteMethod method [Windows Management Instrumentation],IWbemClassObject interface, IWbemClassObject interface [Windows Management Instrumentation],DeleteMethod method, IWbemClassObject.DeleteMethod, IWbemClassObject::DeleteMethod, _hmm_iwbemclassobject_deletemethod, wbemcli/IWbemClassObject::DeleteMethod, wmi.iwbemclassobject_deletemethod
 ms.topic: method
-f1_keywords: 
- - "wbemcli/IWbemClassObject.DeleteMethod"
+f1_keywords:
+- wbemcli/IWbemClassObject.DeleteMethod
 dev_langs:
- - c++
+- c++
 req.header: wbemcli.h
 req.include-header: Wbemidl.h
 req.target-type: Windows
@@ -32,23 +30,23 @@ req.lib: WbemUuid.lib
 req.dll: CIMWin32.dll; Esscli.dll; Fastprox.dll; FrameDyn.dll; FrameDynOS.dll; Krnlprov.dll; Ncprov.dll; Wbemcore.dll; Wbemess.dll; Wmipiprt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CIMWin32.dll
- - Esscli.dll
- - Fastprox.dll
- - FrameDyn.dll
- - FrameDynOS.dll
- - Krnlprov.dll
- - Ncprov.dll
- - Wbemcore.dll
- - Wbemess.dll
- - Wmipiprt.dll
+- CIMWin32.dll
+- Esscli.dll
+- Fastprox.dll
+- FrameDyn.dll
+- FrameDynOS.dll
+- Krnlprov.dll
+- Ncprov.dll
+- Wbemcore.dll
+- Wbemess.dll
+- Wmipiprt.dll
 api_name:
- - IWbemClassObject.DeleteMethod
+- IWbemClassObject.DeleteMethod
 targetos: Windows
 req.typenames: 
 req.redist: 

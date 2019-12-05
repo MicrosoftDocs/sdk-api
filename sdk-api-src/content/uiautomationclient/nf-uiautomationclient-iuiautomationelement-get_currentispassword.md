@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationElement.get_CurrentIsPassword
 title: IUIAutomationElement::get_CurrentIsPassword (uiautomationclient.h)
-
 description: Indicates whether the element contains a disguised password.
 old-location: winauto\uiauto_IUIAutomationElement_CurrentIsPassword.htm
 tech.root: WinAuto
 ms.assetid: d2af875b-a0d6-41e1-8eec-a38f42fff7ac
-
 ms.date: 12/05/2018
 ms.keywords: CurrentIsPassword property [Windows Accessibility], CurrentIsPassword property [Windows Accessibility],IUIAutomationElement interface, IUIAutomationElement interface [Windows Accessibility],CurrentIsPassword property, IUIAutomationElement.CurrentIsPassword, IUIAutomationElement.get_CurrentIsPassword, IUIAutomationElement::CurrentIsPassword, IUIAutomationElement::get_CurrentIsPassword, get_CurrentIsPassword, uiauto.uiauto_IUIAutomationElement_CurrentIsPassword, uiauto_IUIAutomationElement_CurrentIsPassword, uiautomationclient/IUIAutomationElement::CurrentIsPassword, uiautomationclient/IUIAutomationElement::get_CurrentIsPassword, winauto.uiauto_IUIAutomationElement_CurrentIsPassword
 ms.topic: method
-f1_keywords: 
- - "uiautomationclient/IUIAutomationElement.CurrentIsPassword"
+f1_keywords:
+- uiautomationclient/IUIAutomationElement.CurrentIsPassword
 dev_langs:
- - c++
+- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationClient.h
+- UIAutomationClient.h
 api_name:
- - IUIAutomationElement.CurrentIsPassword
- - IUIAutomationElement.get_CurrentIsPassword
+- IUIAutomationElement.CurrentIsPassword
+- IUIAutomationElement.get_CurrentIsPassword
 targetos: Windows
 req.typenames: 
 req.redist: 

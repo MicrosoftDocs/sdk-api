@@ -1,19 +1,17 @@
 ---
 UID: NF:iscsidsc.GetIScsiIKEInfoA
 title: GetIScsiIKEInfoA function (iscsidsc.h)
-
 description: GetIscsiIKEInfo function retrieves the IPsec policy and any established pre-shared key values associated with an initiator Host-Bus Adapter (HBA).
 old-location: iscsidisc\getiscsiikeinfo.htm
 tech.root: iSCSIDisc
 ms.assetid: 81576452-47bf-4732-a09f-dd1f9e2689c9
-
 ms.date: 12/05/2018
 ms.keywords: GetIScsiIKEInfoA, GetIscsiIKEInfo, GetIscsiIKEInfo function [iSCSI Discovery Library API], GetIscsiIKEInfoA, GetIscsiIKEInfoW, iscsidisc.getiscsiikeinfo, iscsidsc/GetIscsiIKEInfo, iscsidsc/GetIscsiIKEInfoA, iscsidsc/GetIscsiIKEInfoW
 ms.topic: function
-f1_keywords: 
- - "iscsidsc/GetIscsiIKEInfo"
+f1_keywords:
+- iscsidsc/GetIscsiIKEInfo
 dev_langs:
- - c++
+- c++
 req.header: iscsidsc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Iscsidsc.lib
 req.dll: Iscsidsc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Iscsidsc.dll
+- Iscsidsc.dll
 api_name:
- - GetIscsiIKEInfo
- - GetIscsiIKEInfoA
- - GetIscsiIKEInfoW
+- GetIscsiIKEInfo
+- GetIscsiIKEInfoA
+- GetIscsiIKEInfoW
 targetos: Windows
 req.typenames: 
 req.redist: 

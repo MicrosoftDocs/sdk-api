@@ -1,19 +1,17 @@
 ---
 UID: NF:xaudio2.IXAudio2Voice.SetEffectChain
 title: IXAudio2Voice::SetEffectChain (xaudio2.h)
-
 description: Replaces the effect chain of the voice.
 old-location: xaudio2\ixaudio2voice_interface_seteffectchain.htm
 tech.root: xaudio2
 ms.assetid: M:Microsoft.directx_sdk.ixaudio2voice.IXAudio2Voice.SetEffectChain(const XAUDIO2_EFFECT_CHAIN)
-
 ms.date: 12/05/2018
 ms.keywords: IXAudio2Voice interface [XAudio2 Audio Mixing APIs],SetEffectChain method, IXAudio2Voice.SetEffectChain, IXAudio2Voice::SetEffectChain, SetEffectChain, SetEffectChain method [XAudio2 Audio Mixing APIs], SetEffectChain method [XAudio2 Audio Mixing APIs],IXAudio2Voice interface, xaudio2.ixaudio2voice_interface_seteffectchain, xaudio2/IXAudio2Voice::SetEffectChain
 ms.topic: method
-f1_keywords: 
- - "xaudio2/IXAudio2Voice.SetEffectChain"
+f1_keywords:
+- xaudio2/IXAudio2Voice.SetEffectChain
 dev_langs:
- - c++
+- c++
 req.header: xaudio2.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xaudio2.h
+- xaudio2.h
 api_name:
- - IXAudio2Voice.SetEffectChain
+- IXAudio2Voice.SetEffectChain
 targetos: Windows
 req.typenames: 
 req.redist: 

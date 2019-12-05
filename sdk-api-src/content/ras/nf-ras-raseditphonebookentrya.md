@@ -1,19 +1,17 @@
 ---
 UID: NF:ras.RasEditPhonebookEntryA
 title: RasEditPhonebookEntryA function (ras.h)
-
 description: The RasEditPhonebookEntry function edits an existing phone-book entry. The function displays a dialog box in which the user can modify the existing information.
 old-location: rras\raseditphonebookentry.htm
 tech.root: RRAS
 ms.assetid: 7fce1ea8-7ed6-4975-af4b-e20a1c1be5fa
-
 ms.date: 12/05/2018
 ms.keywords: RasEditPhonebookEntry, RasEditPhonebookEntry function [RAS], RasEditPhonebookEntryA, RasEditPhonebookEntryW, _ras_raseditphonebookentry, ras/RasEditPhonebookEntry, ras/RasEditPhonebookEntryA, ras/RasEditPhonebookEntryW, rras.raseditphonebookentry
 ms.topic: function
-f1_keywords: 
- - "ras/RasEditPhonebookEntry"
+f1_keywords:
+- ras/RasEditPhonebookEntry
 dev_langs:
- - c++
+- c++
 req.header: ras.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Rasapi32.lib
 req.dll: Rasapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Rasapi32.dll
+- Rasapi32.dll
 api_name:
- - RasEditPhonebookEntry
- - RasEditPhonebookEntryA
- - RasEditPhonebookEntryW
+- RasEditPhonebookEntry
+- RasEditPhonebookEntryA
+- RasEditPhonebookEntryW
 targetos: Windows
 req.typenames: 
 req.redist: 

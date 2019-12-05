@@ -1,19 +1,17 @@
 ---
 UID: NF:fsrm.IFsrmObject.Delete
 title: IFsrmObject::Delete (fsrm.h)
-
 description: Removes the object from the server's list of objects.
 old-location: fsrm\ifsrmobject_delete.htm
 tech.root: fsrm
 ms.assetid: ce8a17fe-377b-4a0e-9a95-7dc25a1411ce
-
 ms.date: 12/05/2018
 ms.keywords: Delete, Delete method [File Server Resource Manager], Delete method [File Server Resource Manager],IFsrmObject interface, IFsrmObject interface [File Server Resource Manager],Delete method, IFsrmObject.Delete, IFsrmObject::Delete, fs.ifsrmobject_delete, fsrm.ifsrmobject_delete, fsrm/IFsrmObject::Delete
 ms.topic: method
-f1_keywords: 
- - "fsrm/IFsrmObject.Delete"
+f1_keywords:
+- fsrm/IFsrmObject.Delete
 dev_langs:
- - c++
+- c++
 req.header: fsrm.h
 req.include-header: FsrmQuota.h, FsrmReports.h, FsrmScreen.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: SrmSvc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - SrmSvc.dll
+- SrmSvc.dll
 api_name:
- - IFsrmObject.Delete
+- IFsrmObject.Delete
 targetos: Windows
 req.typenames: 
 req.redist: 

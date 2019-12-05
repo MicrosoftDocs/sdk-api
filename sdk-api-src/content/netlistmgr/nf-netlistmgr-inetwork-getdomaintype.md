@@ -1,19 +1,17 @@
 ---
 UID: NF:netlistmgr.INetwork.GetDomainType
 title: INetwork::GetDomainType (netlistmgr.h)
-
 description: The GetDomainType method returns the domain type of a network.
 old-location: nla\inetwork_getdomaintype.htm
 tech.root: nla
 ms.assetid: ca23d7c0-fe25-4375-bd2c-6c2ccae56548
-
 ms.date: 12/05/2018
 ms.keywords: GetDomainType, GetDomainType method [Network Awareness], GetDomainType method [Network Awareness],INetwork interface, INetwork interface [Network Awareness],GetDomainType method, INetwork.GetDomainType, INetwork::GetDomainType, netlistmgr/INetwork::GetDomainType, nla.inetwork_getdomaintype
 ms.topic: method
-f1_keywords: 
- - "netlistmgr/INetwork.GetDomainType"
+f1_keywords:
+- netlistmgr/INetwork.GetDomainType
 dev_langs:
- - c++
+- c++
 req.header: netlistmgr.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Netlistmgr.h
+- Netlistmgr.h
 api_name:
- - INetwork.GetDomainType
+- INetwork.GetDomainType
 targetos: Windows
 req.typenames: 
 req.redist: 

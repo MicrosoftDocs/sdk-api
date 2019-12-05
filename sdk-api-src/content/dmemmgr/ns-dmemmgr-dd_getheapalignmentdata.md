@@ -1,19 +1,17 @@
 ---
 UID: NS:dmemmgr._DD_GETHEAPALIGNMENTDATA
 title: DD_GETHEAPALIGNMENTDATA (dmemmgr.h)
-
 description: The DD_GETHEAPALIGNMENTDATA structure contains data on required alignments from a particular heap.
 old-location: display\dd_getheapalignmentdata.htm
 tech.root: display
 ms.assetid: 5bdc13e3-396d-45f6-8c90-a831bbb23628
-
 ms.date: 12/05/2018
 ms.keywords: '*PDD_GETHEAPALIGNMENTDATA, DD_GETHEAPALIGNMENTDATA, DD_GETHEAPALIGNMENTDATA structure [Display Devices], PDD_GETHEAPALIGNMENTDATA, PDD_GETHEAPALIGNMENTDATA structure pointer [Display Devices], ddstrcts_f3e28642-cebe-4512-9ef4-20cc707a4459.xml, display.dd_getheapalignmentdata, dmemmgr/DD_GETHEAPALIGNMENTDATA, dmemmgr/PDD_GETHEAPALIGNMENTDATA'
 ms.topic: struct
 f1_keywords:
 - dmemmgr/DD_GETHEAPALIGNMENTDATA
 dev_langs:
- - c++
+- c++
 req.header: dmemmgr.h
 req.include-header: Dmemmgr.h
 req.target-type: Windows

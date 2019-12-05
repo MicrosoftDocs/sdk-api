@@ -1,19 +1,17 @@
 ---
 UID: NE:gdiplusenums.DriverStringOptions
 title: DriverStringOptions (gdiplusenums.h)
-
 description: The DriverStringOptions enumeration specifies the spacing, orientation, and quality of the rendering for driver strings.
 old-location: gdiplus\_gdiplus_ENUM_DriverStringOptions.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\enumerations\driverstringoptions.htm
-
 ms.date: 12/05/2018
 ms.keywords: DriverStringOptions, DriverStringOptions enumeration [GDI+], DriverStringOptionsCmapLookup, DriverStringOptionsLimitSubpixel, DriverStringOptionsRealizedAdvance, DriverStringOptionsVertical, _gdiplus_ENUM_DriverStringOptions, gdiplus._gdiplus_ENUM_DriverStringOptions, gdiplusenums/DriverStringOptions, gdiplusenums/DriverStringOptionsCmapLookup, gdiplusenums/DriverStringOptionsLimitSubpixel, gdiplusenums/DriverStringOptionsRealizedAdvance, gdiplusenums/DriverStringOptionsVertical
 ms.topic: enum
-f1_keywords: 
- - "gdiplusenums/DriverStringOptions"
+f1_keywords:
+- gdiplusenums/DriverStringOptions
 dev_langs:
- - c++
+- c++
 req.header: gdiplusenums.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Gdiplusenums.h
+- Gdiplusenums.h
 api_name:
- - DriverStringOptions
+- DriverStringOptions
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NL:vsbackup.IVssBackupComponents
 title: IVssBackupComponents (vsbackup.h)
-
 description: The IVssBackupComponents interface is used by a requester to poll writers about file status and to run backup/restore operations.
 old-location: base\ivssbackupcomponents.htm
 tech.root: VSS
 ms.assetid: fe1220c7-11e5-4872-b7a9-61558f7c75c0
-
 ms.date: 12/05/2018
 ms.keywords: IVssBackupComponents, IVssBackupComponents interface [VSS], IVssBackupComponents interface [VSS],described, _win32_ivssbackupcomponents, base.ivssbackupcomponents, vsbackup/IVssBackupComponents
 ms.topic: class
-f1_keywords: 
- - "vsbackup/IVssBackupComponents"
+f1_keywords:
+- vsbackup/IVssBackupComponents
 dev_langs:
- - c++
+- c++
 req.header: vsbackup.h
 req.include-header: VsBackup.h, Vss.h, VsWriter.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: VssApi.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - VssApi.lib
- - VssApi.dll
+- VssApi.lib
+- VssApi.dll
 api_name:
- - IVssBackupComponents
+- IVssBackupComponents
 targetos: Windows
 req.typenames: 
 req.redist: 

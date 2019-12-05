@@ -1,19 +1,17 @@
 ---
 UID: NF:windows.ui.xaml.hosting.referencetracker.IReferenceTracker.AddRefFromTrackerSource
 title: IReferenceTracker::xaml (windows.ui.xaml.hosting.referencetracker.h)
-
 description: Indicates each time that a tracker source calls IUnknown::AddRef on the reference tracker; called after the AddRef call.
 old-location: winrt\ireferencetracker_addreffromtrackersource.htm
 tech.root: WinRT
 ms.assetid: ce2100df-c0d9-4225-9053-ecba08533a04
-
 ms.date: 12/05/2018
 ms.keywords: AddRefFromTrackerSource, AddRefFromTrackerSource method [Windows Runtime], AddRefFromTrackerSource method [Windows Runtime],IReferenceTracker interface, IReferenceTracker interface [Windows Runtime],AddRefFromTrackerSource method, IReferenceTracker.AddRefFromTrackerSource, IReferenceTracker.xaml, IReferenceTracker::AddRefFromTrackerSource, IReferenceTracker::xaml, windows/IReferenceTracker::AddRefFromTrackerSource, winrt.ireferencetracker_addreffromtrackersource
 ms.topic: method
-f1_keywords: 
- - "windows.ui.xaml.hosting.referencetracker/IReferenceTracker.AddRefFromTrackerSource"
+f1_keywords:
+- windows.ui.xaml.hosting.referencetracker/IReferenceTracker.AddRefFromTrackerSource
 dev_langs:
- - c++
+- c++
 req.header: windows.ui.xaml.hosting.referencetracker.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Windows.ui.xaml.hosting.referencetracker.h
+- Windows.ui.xaml.hosting.referencetracker.h
 api_name:
- - IReferenceTracker.AddRefFromTrackerSource
+- IReferenceTracker.AddRefFromTrackerSource
 targetos: Windows
 req.typenames: 
 req.redist: 

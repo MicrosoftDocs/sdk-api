@@ -1,19 +1,17 @@
 ---
 UID: NF:tspi.TSPI_lineSetCallParams
 title: TSPI_lineSetCallParams function (tspi.h)
-
 description: The TSPI_lineSetCallParams function sets certain parameters for an existing call.
 old-location: tspi\tspi_linesetcallparams.htm
 tech.root: Tapi
 ms.assetid: cc5d5347-ebb7-437a-a9a1-311b6c2a78ab
-
 ms.date: 12/05/2018
 ms.keywords: TSPI_lineSetCallParams, TSPI_lineSetCallParams function [TAPI 2.2], _tspi_tspi_linesetcallparams, tspi.tspi_linesetcallparams, tspi/TSPI_lineSetCallParams
 ms.topic: function
-f1_keywords: 
- - "tspi/TSPI_lineSetCallParams"
+f1_keywords:
+- tspi/TSPI_lineSetCallParams
 dev_langs:
- - c++
+- c++
 req.header: tspi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Tspi.h
+- Tspi.h
 api_name:
- - TSPI_lineSetCallParams
+- TSPI_lineSetCallParams
 targetos: Windows
 req.typenames: 
 req.redist: 

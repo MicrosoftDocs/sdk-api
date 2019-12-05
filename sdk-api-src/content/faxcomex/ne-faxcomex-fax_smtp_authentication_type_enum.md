@@ -1,19 +1,17 @@
 ---
 UID: NE:faxcomex.FAX_SMTP_AUTHENTICATION_TYPE_ENUM
 title: FAX_SMTP_AUTHENTICATION_TYPE_ENUM (faxcomex.h)
-
 description: The FAX_SMTP_AUTHENTICATION_TYPE_ENUM enumeration defines the configuration options for delivery receipts sent through email.
 old-location: fax\_mfax_fax_smtp_authentication_type_enum.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_1vot.htm
-
 ms.date: 12/05/2018
 ms.keywords: FAX_SMTP_AUTHENTICATION_TYPE_ENUM, FAX_SMTP_AUTHENTICATION_TYPE_ENUM enumeration [Fax Service], _mfax_fax_smtp_authentication_type_enum, fax._mfax_fax_smtp_authentication_type_enum, faxcomex/FAX_SMTP_AUTHENTICATION_TYPE_ENUM, faxcomex/fsatANONYMOUS, faxcomex/fsatBASIC, faxcomex/fsatNTLM, fsatANONYMOUS, fsatBASIC, fsatNTLM
 ms.topic: enum
-f1_keywords: 
- - "faxcomex/FAX_SMTP_AUTHENTICATION_TYPE_ENUM"
+f1_keywords:
+- faxcomex/FAX_SMTP_AUTHENTICATION_TYPE_ENUM
 dev_langs:
- - c++
+- c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - FaxComex.h
+- FaxComex.h
 api_name:
- - FAX_SMTP_AUTHENTICATION_TYPE_ENUM
+- FAX_SMTP_AUTHENTICATION_TYPE_ENUM
 targetos: Windows
 req.typenames: FAX_SMTP_AUTHENTICATION_TYPE_ENUM
 req.redist: 

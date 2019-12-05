@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IFileSyncMergeHandler.Merge
 title: IFileSyncMergeHandler::Merge (shobjidl_core.h)
-
 description: IFileSyncMergeHandler::Merge method
 old-location: shell\IFileSyncMergeHandler_Merge.htm
 tech.root: shell
 ms.assetid: 8B8410E1-0213-4647-966A-A6F9D231DCA2
-
 ms.date: 12/05/2018
 ms.keywords: IFileSyncMergeHandler interface [Windows Shell],Merge method, IFileSyncMergeHandler.Merge, IFileSyncMergeHandler::Merge, MUS_COMPLETE, MUS_FAILED, MUS_USERINPUTNEEDED, Merge, Merge method [Windows Shell], Merge method [Windows Shell],IFileSyncMergeHandler interface, shell.IFileSyncMergeHandler_Merge, shobjidl_core/IFileSyncMergeHandler::Merge
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IFileSyncMergeHandler.Merge"
+f1_keywords:
+- shobjidl_core/IFileSyncMergeHandler.Merge
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - IFileSyncMergeHandler.Merge
+- IFileSyncMergeHandler.Merge
 targetos: Windows
 req.typenames: 
 req.redist: 

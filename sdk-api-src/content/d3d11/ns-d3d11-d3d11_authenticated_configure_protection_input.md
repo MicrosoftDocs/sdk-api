@@ -1,19 +1,17 @@
 ---
 UID: NS:d3d11.D3D11_AUTHENTICATED_CONFIGURE_PROTECTION_INPUT
 title: D3D11_AUTHENTICATED_CONFIGURE_PROTECTION_INPUT (d3d11.h)
-
 description: Contains input data for a D3D11_AUTHENTICATED_CONFIGURE_PROTECTION command.
 old-location: mf\d3d11_authenticated_channel_configure_protection_input.htm
 tech.root: medfound
 ms.assetid: 35BAED8D-B5AD-4ECA-B3ED-41871A2969FC
-
 ms.date: 12/05/2018
 ms.keywords: D3D11_AUTHENTICATED_CONFIGURE_PROTECTION_INPUT, D3D11_AUTHENTICATED_CONFIGURE_PROTECTION_INPUT structure [Media Foundation], d3d11/D3D11_AUTHENTICATED_CONFIGURE_PROTECTION_INPUT, mf.d3d11_authenticated_channel_configure_protection_input
 ms.topic: struct
-f1_keywords: 
- - "d3d11/D3D11_AUTHENTICATED_CONFIGURE_PROTECTION_INPUT"
+f1_keywords:
+- d3d11/D3D11_AUTHENTICATED_CONFIGURE_PROTECTION_INPUT
 dev_langs:
- - c++
+- c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - d3d11.h
+- d3d11.h
 api_name:
- - D3D11_AUTHENTICATED_CONFIGURE_PROTECTION_INPUT
+- D3D11_AUTHENTICATED_CONFIGURE_PROTECTION_INPUT
 targetos: Windows
 req.typenames: D3D11_AUTHENTICATED_CONFIGURE_PROTECTION_INPUT
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IDistributorNotify.Pause
 title: IDistributorNotify::Pause (strmif.h)
-
 description: The Pause method is called when the filter graph is entering a paused state.
 old-location: dshow\idistributornotify_pause.htm
 tech.root: DirectShow
 ms.assetid: d8fcb5c0-4530-4084-adba-170a647588b1
-
 ms.date: 12/05/2018
 ms.keywords: IDistributorNotify interface [DirectShow],Pause method, IDistributorNotify.Pause, IDistributorNotify::Pause, IDistributorNotifyPause, Pause, Pause method [DirectShow], Pause method [DirectShow],IDistributorNotify interface, dshow.idistributornotify_pause, strmif/IDistributorNotify::Pause
 ms.topic: method
-f1_keywords: 
- - "strmif/IDistributorNotify.Pause"
+f1_keywords:
+- strmif/IDistributorNotify.Pause
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IDistributorNotify.Pause
+- IDistributorNotify.Pause
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NN:imapi2.DWriteEngine2Events
 title: DWriteEngine2Events (imapi2.h)
-
 description: Implement this interface to receive notifications of the current write operation.
 old-location: imapi\dwriteengine2events.htm
 tech.root: imapi
 ms.assetid: 697f8247-6940-4b5e-8521-df89838837be
-
 ms.date: 12/05/2018
 ms.keywords: DWriteEngine2Events, DWriteEngine2Events interface [IMAPI], DWriteEngine2Events interface [IMAPI],described, imapi.dwriteengine2events, imapi2/DWriteEngine2Events
 ms.topic: interface
-f1_keywords: 
- - "imapi2/DWriteEngine2Events"
+f1_keywords:
+- imapi2/DWriteEngine2Events
 dev_langs:
- - c++
+- c++
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - imapi2.h
+- imapi2.h
 api_name:
- - DWriteEngine2Events
+- DWriteEngine2Events
 targetos: Windows
 req.typenames: 
 req.redist: 

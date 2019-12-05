@@ -1,19 +1,17 @@
 ---
 UID: NF:mbnapi.IMbnInterfaceManagerEvents.OnInterfaceArrival
 title: IMbnInterfaceManagerEvents::OnInterfaceArrival (mbnapi.h)
-
 description: Notification method that signals that a device has been added to the system.
 old-location: mbn\imbninterfacemanagerevents_oninterfacearrival.htm
 tech.root: mbn
 ms.assetid: 1a65aed6-34d4-420b-b175-a2a778712771
-
 ms.date: 12/05/2018
 ms.keywords: IMbnInterfaceManagerEvents interface [Microsoft Broadband Networks],OnInterfaceArrival method, IMbnInterfaceManagerEvents.OnInterfaceArrival, IMbnInterfaceManagerEvents::OnInterfaceArrival, OnInterfaceArrival, OnInterfaceArrival method [Microsoft Broadband Networks], OnInterfaceArrival method [Microsoft Broadband Networks],IMbnInterfaceManagerEvents interface, mbn.imbninterfacemanagerevents_oninterfacearrival, mbnapi/IMbnInterfaceManagerEvents::OnInterfaceArrival
 ms.topic: method
-f1_keywords: 
- - "mbnapi/IMbnInterfaceManagerEvents.OnInterfaceArrival"
+f1_keywords:
+- mbnapi/IMbnInterfaceManagerEvents.OnInterfaceArrival
 dev_langs:
- - c++
+- c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mbnapi.h
+- mbnapi.h
 api_name:
- - IMbnInterfaceManagerEvents.OnInterfaceArrival
+- IMbnInterfaceManagerEvents.OnInterfaceArrival
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NN:wmp.IWMPSettings
 title: IWMPSettings (wmp.h)
-
 description: The IWMPSettings interface provides methods that get or set the values of Windows Media Player settings.
 old-location: wmp\iwmpsettings.htm
 tech.root: WMP
 ms.assetid: e5a305a1-958e-4b6d-bb1f-f00bf5eb08dd
-
 ms.date: 12/05/2018
 ms.keywords: IWMPSettings, IWMPSettings interface [Windows Media Player], IWMPSettings interface [Windows Media Player],described, IWMPSettingsInterface, wmp.iwmpsettings, wmp/IWMPSettings
 ms.topic: interface
-f1_keywords: 
- - "wmp/IWMPSettings"
+f1_keywords:
+- wmp/IWMPSettings
 dev_langs:
- - c++
+- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmp.h
+- wmp.h
 api_name:
- - IWMPSettings
+- IWMPSettings
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NN:tsvirtualchannels.IWTSListenerCallback
 title: IWTSListenerCallback (tsvirtualchannels.h)
-
 description: Used to notify the Remote Desktop Connection (RDC) client plug-in about incoming requests on a particular listener.
 old-location: termserv\iwtslistenercallback.htm
 tech.root: TermServ
 ms.assetid: b5f1d74d-31e6-4447-82ab-6dd3ad9957fd
-
 ms.date: 12/05/2018
 ms.keywords: IWTSListenerCallback, IWTSListenerCallback interface [Remote Desktop Services], IWTSListenerCallback interface [Remote Desktop Services],described, termserv.iwtslistenercallback, tsvirtualchannels/IWTSListenerCallback
 ms.topic: interface
-f1_keywords: 
- - "tsvirtualchannels/IWTSListenerCallback"
+f1_keywords:
+- tsvirtualchannels/IWTSListenerCallback
 dev_langs:
- - c++
+- c++
 req.header: tsvirtualchannels.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - TsVirtualChannels.h
+- TsVirtualChannels.h
 api_name:
- - IWTSListenerCallback
+- IWTSListenerCallback
 targetos: Windows
 req.typenames: 
 req.redist: 

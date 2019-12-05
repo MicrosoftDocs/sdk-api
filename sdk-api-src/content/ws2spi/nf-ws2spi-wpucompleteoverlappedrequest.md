@@ -1,19 +1,17 @@
 ---
 UID: NF:ws2spi.WPUCompleteOverlappedRequest
 title: WPUCompleteOverlappedRequest function (ws2spi.h)
-
 description: The WPUCompleteOverlappedRequest function performs overlapped I/O completion notification for overlapped I/O operations.
 old-location: winsock\wpucompleteoverlappedrequest_2.htm
 tech.root: WinSock
 ms.assetid: b0e5015f-d23f-46da-91b1-f646111f70f9
-
 ms.date: 12/05/2018
 ms.keywords: WPUCompleteOverlappedRequest, WPUCompleteOverlappedRequest function [Winsock], _win32_wpucompleteoverlappedrequest_2, winsock.wpucompleteoverlappedrequest_2, ws2spi/WPUCompleteOverlappedRequest
 ms.topic: function
 f1_keywords:
 - ws2spi/WPUCompleteOverlappedRequest
 dev_langs:
- - c++
+- c++
 req.header: ws2spi.h
 req.include-header: 
 req.target-type: Windows

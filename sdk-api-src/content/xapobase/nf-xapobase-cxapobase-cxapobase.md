@@ -1,19 +1,17 @@
 ---
 UID: NF:xapobase.CXAPOBase.CXAPOBase
 title: CXAPOBase::CXAPOBase (xapobase.h)
-
 description: Creates an instance of the CXAPOBase class.
 old-location: xaudio2\cxapobase_cxapobase.htm
 tech.root: xaudio2
 ms.assetid: M:Microsoft.directx_sdk.cxapobase.CXAPOBase.CXAPOBase(const XAPO_REGISTRATION_PROPERTIES)
-
 ms.date: 12/05/2018
 ms.keywords: CXAPOBase, CXAPOBase interface [XAudio2 Audio Mixing APIs],CXAPOBase method, CXAPOBase method [XAudio2 Audio Mixing APIs], CXAPOBase method [XAudio2 Audio Mixing APIs],CXAPOBase interface, CXAPOBase.CXAPOBase, CXAPOBase::CXAPOBase, xapobase/CXAPOBase::CXAPOBase, xaudio2.cxapobase_cxapobase
 ms.topic: method
-f1_keywords: 
- - "xapobase/CXAPOBase.CXAPOBase"
+f1_keywords:
+- xapobase/CXAPOBase.CXAPOBase
 dev_langs:
- - c++
+- c++
 req.header: xapobase.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: XAPOBase.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - XAPOBase.lib
- - XAPOBase.dll
+- XAPOBase.lib
+- XAPOBase.dll
 api_name:
- - CXAPOBase.CXAPOBase
+- CXAPOBase.CXAPOBase
 targetos: Windows
 req.typenames: 
 req.redist: 

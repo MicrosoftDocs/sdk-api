@@ -1,19 +1,17 @@
 ---
 UID: NF:rpc.RpcExcept
 title: RpcExcept macro (rpc.h)
-
 description: The RpcExcept statement provides structured exception handling for RPC applications.
 old-location: rpc\rpcexcept.htm
 tech.root: Rpc
 ms.assetid: 5bd57250-1fd7-4aeb-aa53-4fd2c8d84836
-
 ms.date: 12/05/2018
 ms.keywords: RpcExcept, RpcExcept macro [RPC], _rpc_rpcexcept, rpc.rpcexcept, rpc/RpcExcept
 ms.topic: macro
-f1_keywords: 
- - "rpc/RpcExcept"
+f1_keywords:
+- rpc/RpcExcept
 dev_langs:
- - c++
+- c++
 req.header: rpc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Rpc.h
+- Rpc.h
 api_name:
- - RpcExcept
+- RpcExcept
 targetos: Windows
 req.typenames: 
 req.redist: 

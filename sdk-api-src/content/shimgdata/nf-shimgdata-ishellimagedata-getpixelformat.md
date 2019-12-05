@@ -1,19 +1,17 @@
 ---
 UID: NF:shimgdata.IShellImageData.GetPixelFormat
 title: IShellImageData::GetPixelFormat (shimgdata.h)
-
 description: Gets the pixel format of the image.
 old-location: shell\IShellImageData_GetPixelFormat.htm
 tech.root: shell
 ms.assetid: 43520cdd-66f1-4c75-bcec-7631de4f96c3
-
 ms.date: 12/05/2018
 ms.keywords: GetPixelFormat, GetPixelFormat method [Windows Shell], GetPixelFormat method [Windows Shell],IShellImageData interface, IShellImageData interface [Windows Shell],GetPixelFormat method, IShellImageData.GetPixelFormat, IShellImageData::GetPixelFormat, _shell_IShellImageData_GetPixelFormat, shell.IShellImageData_GetPixelFormat, shimgdata/IShellImageData::GetPixelFormat
 ms.topic: method
-f1_keywords: 
- - "shimgdata/IShellImageData.GetPixelFormat"
+f1_keywords:
+- shimgdata/IShellImageData.GetPixelFormat
 dev_langs:
- - c++
+- c++
 req.header: shimgdata.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Shell32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - IShellImageData.GetPixelFormat
+- IShellImageData.GetPixelFormat
 targetos: Windows
 req.typenames: 
 req.redist: 

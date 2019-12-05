@@ -1,19 +1,17 @@
 ---
 UID: NF:tuner.IBDAComparable.CompareEquivalent
 title: IBDAComparable::CompareEquivalent (tuner.h)
-
 description: The CompareEquivalent method compares two objects to determine whether they contain equivalent tuning information.
 old-location: mstv\ibdacomparable_compareequivalent.htm
 tech.root: mstv
 ms.assetid: 132c326e-053c-41be-b0fd-bea484fb0acd
-
 ms.date: 12/05/2018
 ms.keywords: CompareEquivalent, CompareEquivalent method [Microsoft TV Technologies], CompareEquivalent method [Microsoft TV Technologies],IBDAComparable interface, IBDAComparable interface [Microsoft TV Technologies],CompareEquivalent method, IBDAComparable.CompareEquivalent, IBDAComparable::CompareEquivalent, IBDAComparableCompareEquivalent, mstv.ibdacomparable_compareequivalent, tuner/IBDAComparable::CompareEquivalent
 ms.topic: method
-f1_keywords: 
- - "tuner/IBDAComparable.CompareEquivalent"
+f1_keywords:
+- tuner/IBDAComparable.CompareEquivalent
 dev_langs:
- - c++
+- c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - tuner.h
+- tuner.h
 api_name:
- - IBDAComparable.CompareEquivalent
+- IBDAComparable.CompareEquivalent
 targetos: Windows
 req.typenames: 
 req.redist: 

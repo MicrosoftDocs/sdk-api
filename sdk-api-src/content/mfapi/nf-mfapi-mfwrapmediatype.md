@@ -1,19 +1,17 @@
 ---
 UID: NF:mfapi.MFWrapMediaType
 title: MFWrapMediaType function (mfapi.h)
-
 description: Creates a media type that wraps another media type.
 old-location: mf\mfwrapmediatype.htm
 tech.root: medfound
 ms.assetid: a3dd74bc-1f1c-40b9-a43e-d45ff621248f
-
 ms.date: 12/05/2018
 ms.keywords: MFWrapMediaType, MFWrapMediaType function [Media Foundation], a3dd74bc-1f1c-40b9-a43e-d45ff621248f, mf.mfwrapmediatype, mfapi/MFWrapMediaType
 ms.topic: function
-f1_keywords: 
- - "mfapi/MFWrapMediaType"
+f1_keywords:
+- mfapi/MFWrapMediaType
 dev_langs:
- - c++
+- c++
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Mfplat.lib
 req.dll: Mfplat.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - mfplat.dll
+- mfplat.dll
 api_name:
- - MFWrapMediaType
+- MFWrapMediaType
 targetos: Windows
 req.typenames: 
 req.redist: 

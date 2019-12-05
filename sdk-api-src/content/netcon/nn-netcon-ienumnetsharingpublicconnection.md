@@ -1,19 +1,17 @@
 ---
 UID: NN:netcon.IEnumNetSharingPublicConnection
 title: IEnumNetSharingPublicConnection (netcon.h)
-
 description: The IEnumNetSharingPublicConnection interface provides methods for enumerating the currently configured publicly-shared connections.
 old-location: ics\ienumnetsharingpublicconnection.htm
 tech.root: ics
 ms.assetid: 69f2d4c0-7c25-4a50-988b-3ca6babb489a
-
 ms.date: 12/05/2018
 ms.keywords: IEnumNetSharingPublicConnection, IEnumNetSharingPublicConnection interface [ICS/ICF], IEnumNetSharingPublicConnection interface [ICS/ICF],described, _ics_ienumnetsharingpublicconnection, ics.ienumnetsharingpublicconnection, netcon/IEnumNetSharingPublicConnection
 ms.topic: interface
-f1_keywords: 
- - "netcon/IEnumNetSharingPublicConnection"
+f1_keywords:
+- netcon/IEnumNetSharingPublicConnection
 dev_langs:
- - c++
+- c++
 req.header: netcon.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Hnetcfg.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Hnetcfg.dll
+- Hnetcfg.dll
 api_name:
- - IEnumNetSharingPublicConnection
+- IEnumNetSharingPublicConnection
 targetos: Windows
 req.typenames: 
 req.redist: 

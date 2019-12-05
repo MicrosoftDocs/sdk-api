@@ -1,19 +1,17 @@
 ---
 UID: NE:oleidl.tagOLEUPDATE
 title: OLEUPDATE (oleidl.h)
-
 description: Indicates whether the linked object updates the cached data for the linked object automatically or only when the container calls either the IOleObject::Update or IOleLink::Update methods. The constants are used in the IOleLink interface.
 old-location: com\oleupdate.htm
 tech.root: com
 ms.assetid: 1945d4a2-dd1f-453e-ab7e-093f26171c84
-
 ms.date: 12/05/2018
-ms.keywords: "*LPOLEUPDATE, *POLEUPDATE, LPOLEUPDATE, LPOLEUPDATE enumeration pointer [COM], OLEUPDATE, OLEUPDATE enumeration [COM], OLEUPDATE_ALWAYS, OLEUPDATE_ONCALL, POLEUPDATE, POLEUPDATE enumeration pointer [COM], _ole_OLEUPDATE, com.oleupdate, oleidl/LPOLEUPDATE, oleidl/OLEUPDATE, oleidl/OLEUPDATE_ALWAYS, oleidl/OLEUPDATE_ONCALL, oleidl/POLEUPDATE"
+ms.keywords: '*LPOLEUPDATE, *POLEUPDATE, LPOLEUPDATE, LPOLEUPDATE enumeration pointer [COM], OLEUPDATE, OLEUPDATE enumeration [COM], OLEUPDATE_ALWAYS, OLEUPDATE_ONCALL, POLEUPDATE, POLEUPDATE enumeration pointer [COM], _ole_OLEUPDATE, com.oleupdate, oleidl/LPOLEUPDATE, oleidl/OLEUPDATE, oleidl/OLEUPDATE_ALWAYS, oleidl/OLEUPDATE_ONCALL, oleidl/POLEUPDATE'
 ms.topic: enum
-f1_keywords: 
- - "oleidl/OLEUPDATE"
+f1_keywords:
+- oleidl/OLEUPDATE
 dev_langs:
- - c++
+- c++
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - OleIdl.h
+- OleIdl.h
 api_name:
- - OLEUPDATE
+- OLEUPDATE
 targetos: Windows
 req.typenames: OLEUPDATE
 req.redist: 

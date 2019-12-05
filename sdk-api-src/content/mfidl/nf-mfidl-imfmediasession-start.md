@@ -1,19 +1,17 @@
 ---
 UID: NF:mfidl.IMFMediaSession.Start
 title: IMFMediaSession::Start (mfidl.h)
-
 description: Starts the Media Session.
 old-location: mf\imfmediasession_start.htm
 tech.root: medfound
 ms.assetid: 1bdec0c0-b042-4e5e-a72b-b15942750ced
-
 ms.date: 12/05/2018
 ms.keywords: 1bdec0c0-b042-4e5e-a72b-b15942750ced, GUID_NULL, IMFMediaSession interface [Media Foundation],Start method, IMFMediaSession.Start, IMFMediaSession::Start, MF_TIME_FORMAT_ENTRY_RELATIVE, MF_TIME_FORMAT_SEGMENT_OFFSET, Start, Start method [Media Foundation], Start method [Media Foundation],IMFMediaSession interface, mf.imfmediasession_start, mfidl/IMFMediaSession::Start
 ms.topic: method
-f1_keywords: 
- - "mfidl/IMFMediaSession.Start"
+f1_keywords:
+- mfidl/IMFMediaSession.Start
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFMediaSession.Start
+- IMFMediaSession.Start
 targetos: Windows
 req.typenames: 
 req.redist: 

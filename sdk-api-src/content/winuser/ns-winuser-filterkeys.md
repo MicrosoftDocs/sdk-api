@@ -1,19 +1,17 @@
 ---
 UID: NS:winuser.tagFILTERKEYS
 title: FILTERKEYS (winuser.h)
-
 description: Contains information about the FilterKeys accessibility feature, which enables a user with disabilities to set the keyboard repeat rate (RepeatKeys), acceptance delay (SlowKeys), and bounce rate (BounceKeys).
 old-location: winauto\filterkeys.htm
 tech.root: WinAuto
 ms.assetid: 6e2526b3-ddf5-425b-8242-b302a683e0ad
-
 ms.date: 12/05/2018
-ms.keywords: "*LPFILTERKEYS, FILTERKEYS, FILTERKEYS structure [Windows Accessibility], FKF_AVAILABLE, FKF_CLICKON, FKF_CONFIRMHOTKEY, FKF_FILTERKEYSON, FKF_HOTKEYACTIVE, FKF_HOTKEYSOUND, FKF_INDICATOR, LPFILTERKEYS, LPFILTERKEYS structure pointer [Windows Accessibility], _win32_FILTERKEYS_str, msaa.filterkeys, tagFILTERKEYS, winauto.filterkeys, winuser/FILTERKEYS, winuser/LPFILTERKEYS"
+ms.keywords: '*LPFILTERKEYS, FILTERKEYS, FILTERKEYS structure [Windows Accessibility], FKF_AVAILABLE, FKF_CLICKON, FKF_CONFIRMHOTKEY, FKF_FILTERKEYSON, FKF_HOTKEYACTIVE, FKF_HOTKEYSOUND, FKF_INDICATOR, LPFILTERKEYS, LPFILTERKEYS structure pointer [Windows Accessibility], _win32_FILTERKEYS_str, msaa.filterkeys, tagFILTERKEYS, winauto.filterkeys, winuser/FILTERKEYS, winuser/LPFILTERKEYS'
 ms.topic: struct
-f1_keywords: 
- - "winuser/FILTERKEYS"
+f1_keywords:
+- winuser/FILTERKEYS
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Winuser.h
+- Winuser.h
 api_name:
- - FILTERKEYS
+- FILTERKEYS
 targetos: Windows
 req.typenames: FILTERKEYS, *LPFILTERKEYS
 req.redist: 

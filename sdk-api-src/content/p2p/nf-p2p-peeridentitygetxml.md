@@ -1,19 +1,17 @@
 ---
 UID: NF:p2p.PeerIdentityGetXML
 title: PeerIdentityGetXML function (p2p.h)
-
 description: The PeerIdentityGetXML function returns a description of the peer identity, which can then be passed to third parties and used to invite a peer identity into a peer group. This information is returned as an XML fragment.
 old-location: p2p\peeridentitygetxml.htm
 tech.root: P2PSdk
 ms.assetid: 94172351-291e-461e-8c7f-0925c80df0c3
-
 ms.date: 12/05/2018
 ms.keywords: PeerIdentityGetXML, PeerIdentityGetXML function [Peer Networking], p2p.peeridentitygetxml, p2p/PeerIdentityGetXML
 ms.topic: function
-f1_keywords: 
- - "p2p/PeerIdentityGetXML"
+f1_keywords:
+- p2p/PeerIdentityGetXML
 dev_langs:
- - c++
+- c++
 req.header: p2p.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: P2P.lib
 req.dll: P2P.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - P2P.dll
+- P2P.dll
 api_name:
- - PeerIdentityGetXML
+- PeerIdentityGetXML
 targetos: Windows
 req.typenames: 
 req.redist: 

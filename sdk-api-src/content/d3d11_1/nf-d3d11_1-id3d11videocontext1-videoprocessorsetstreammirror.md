@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d11_1.ID3D11VideoContext1.VideoProcessorSetStreamMirror
 title: ID3D11VideoContext1::VideoProcessorSetStreamMirror (d3d11_1.h)
-
 description: Specifies whether the video processor input stream should be flipped vertically or horizontally.
 old-location: mf\id3d11videocontext1_videoprocessorsetstreammirror.htm
 tech.root: medfound
 ms.assetid: C8CCCC2B-B05A-4AF4-9274-1E205B9807DB
-
 ms.date: 12/05/2018
 ms.keywords: ID3D11VideoContext1 interface [Media Foundation],VideoProcessorSetStreamMirror method, ID3D11VideoContext1.VideoProcessorSetStreamMirror, ID3D11VideoContext1::VideoProcessorSetStreamMirror, VideoProcessorSetStreamMirror, VideoProcessorSetStreamMirror method [Media Foundation], VideoProcessorSetStreamMirror method [Media Foundation],ID3D11VideoContext1 interface, d3d11_1/ID3D11VideoContext1::VideoProcessorSetStreamMirror, mf.id3d11videocontext1_videoprocessorsetstreammirror
 ms.topic: method
-f1_keywords: 
- - "d3d11_1/ID3D11VideoContext1.VideoProcessorSetStreamMirror"
+f1_keywords:
+- d3d11_1/ID3D11VideoContext1.VideoProcessorSetStreamMirror
 dev_langs:
- - c++
+- c++
 req.header: d3d11_1.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - d3d11_1.h
+- d3d11_1.h
 api_name:
- - ID3D11VideoContext1.VideoProcessorSetStreamMirror
+- ID3D11VideoContext1.VideoProcessorSetStreamMirror
 targetos: Windows
 req.typenames: 
 req.redist: 

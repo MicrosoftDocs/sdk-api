@@ -1,19 +1,17 @@
 ---
 UID: NN:bdaiface.IBDA_DiagnosticProperties
 title: IBDA_DiagnosticProperties (bdaiface.h)
-
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\ibda_diagnosticproperties.htm
 tech.root: mstv
 ms.assetid: fde1153d-8598-4738-bc71-dbee3b17fb84
-
 ms.date: 12/05/2018
 ms.keywords: IBDA_DiagnosticProperties, IBDA_DiagnosticProperties interface [Microsoft TV Technologies], IBDA_DiagnosticProperties interface [Microsoft TV Technologies],described, IBDA_DiagnosticPropertiesInterface, bdaiface/IBDA_DiagnosticProperties, mstv.ibda_diagnosticproperties
 ms.topic: interface
-f1_keywords: 
- - "bdaiface/IBDA_DiagnosticProperties"
+f1_keywords:
+- bdaiface/IBDA_DiagnosticProperties
 dev_langs:
- - c++
+- c++
 req.header: bdaiface.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - bdaiface.h
+- bdaiface.h
 api_name:
- - IBDA_DiagnosticProperties
+- IBDA_DiagnosticProperties
 targetos: Windows
 req.typenames: 
 req.redist: 

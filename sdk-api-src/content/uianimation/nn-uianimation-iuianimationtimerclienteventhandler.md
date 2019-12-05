@@ -1,19 +1,17 @@
 ---
 UID: NN:uianimation.IUIAnimationTimerClientEventHandler
 title: IUIAnimationTimerClientEventHandler (uianimation.h)
-
 description: Defines a method for handling events related to changes in timer client status.
 old-location: uianimation\iuianimationtimerclienteventhandler.htm
 tech.root: UIAnimation
 ms.assetid: 8ca8f7d8-e698-4c55-8241-5c8f7b47f0e8
-
 ms.date: 12/05/2018
 ms.keywords: IUIAnimationTimerClientEventHandler, IUIAnimationTimerClientEventHandler interface [Windows Animation], IUIAnimationTimerClientEventHandler interface [Windows Animation],described, uianimation.iuianimationtimerclienteventhandler, uianimation/IUIAnimationTimerClientEventHandler
 ms.topic: interface
-f1_keywords: 
- - "uianimation/IUIAnimationTimerClientEventHandler"
+f1_keywords:
+- uianimation/IUIAnimationTimerClientEventHandler
 dev_langs:
- - c++
+- c++
 req.header: uianimation.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: UIAnimation.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAnimation.dll
+- UIAnimation.dll
 api_name:
- - IUIAnimationTimerClientEventHandler
+- IUIAnimationTimerClientEventHandler
 targetos: Windows
 req.typenames: 
 req.redist: 

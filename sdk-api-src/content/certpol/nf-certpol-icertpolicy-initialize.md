@@ -1,19 +1,17 @@
 ---
 UID: NF:certpol.ICertPolicy.Initialize
 title: ICertPolicy::Initialize (certpol.h)
-
 description: Called by the server engine to allow the policy module to perform initialization tasks.
 old-location: security\icertpolicy2_initialize.htm
 tech.root: SecCrypto
 ms.assetid: b0a0e9a6-79ca-4898-bddd-e736552aaf68
-
 ms.date: 12/05/2018
 ms.keywords: CCertPolicy object [Security],Initialize method, ICertPolicy interface [Security],Initialize method, ICertPolicy.Initialize, ICertPolicy2 interface [Security],Initialize method, ICertPolicy2::Initialize, ICertPolicy::Initialize, Initialize, Initialize method [Security], Initialize method [Security],CCertPolicy object, Initialize method [Security],ICertPolicy interface, Initialize method [Security],ICertPolicy2 interface, _certsrv_icertpolicy_initialize, certpol/ICertPolicy2::Initialize, certpol/ICertPolicy::Initialize, security.icertpolicy2_initialize, security.icertpolicy_initialize
 ms.topic: method
-f1_keywords: 
- - "certpol/ICertPolicy2.Initialize"
+f1_keywords:
+- certpol/ICertPolicy2.Initialize
 dev_langs:
- - c++
+- c++
 req.header: certpol.h
 req.include-header: Certsrv.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Certidl.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Certidl.lib
- - Certidl.dll
+- Certidl.lib
+- Certidl.dll
 api_name:
- - ICertPolicy2.Initialize
- - ICertPolicy.Initialize
- - CCertPolicy.Initialize
+- ICertPolicy2.Initialize
+- ICertPolicy.Initialize
+- CCertPolicy.Initialize
 targetos: Windows
 req.typenames: 
 req.redist: 

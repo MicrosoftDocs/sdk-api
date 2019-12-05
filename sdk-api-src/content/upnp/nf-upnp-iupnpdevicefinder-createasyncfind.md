@@ -1,19 +1,17 @@
 ---
 UID: NF:upnp.IUPnPDeviceFinder.CreateAsyncFind
 title: IUPnPDeviceFinder::CreateAsyncFind (upnp.h)
-
 description: The CreateAsyncFind method creates an asynchronous search operation.
 old-location: upnp\iupnpdevicefinder_createasyncfind.htm
 tech.root: upnp
 ms.assetid: 4461b53f-b630-4b4a-bc68-0cc48ef70594
-
 ms.date: 12/05/2018
 ms.keywords: CreateAsyncFind, CreateAsyncFind method [UPnP APIs], CreateAsyncFind method [UPnP APIs],IUPnPDeviceFinder interface, IUPnPDeviceFinder interface [UPnP APIs],CreateAsyncFind method, IUPnPDeviceFinder.CreateAsyncFind, IUPnPDeviceFinder::CreateAsyncFind, _upnp_iupnpdevicefinder_createasyncfind, upnp.iupnpdevicefinder_createasyncfind, upnp/IUPnPDeviceFinder::CreateAsyncFind
 ms.topic: method
-f1_keywords: 
- - "upnp/IUPnPDeviceFinder.CreateAsyncFind"
+f1_keywords:
+- upnp/IUPnPDeviceFinder.CreateAsyncFind
 dev_langs:
- - c++
+- c++
 req.header: upnp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Upnp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Upnp.dll
+- Upnp.dll
 api_name:
- - IUPnPDeviceFinder.CreateAsyncFind
+- IUPnPDeviceFinder.CreateAsyncFind
 targetos: Windows
 req.typenames: 
 req.redist: 

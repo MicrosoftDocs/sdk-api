@@ -1,19 +1,17 @@
 ---
 UID: NS:wincrypt._CRYPT_DECRYPT_MESSAGE_PARA
 title: CRYPT_DECRYPT_MESSAGE_PARA (wincrypt.h)
-
 description: The CRYPT_DECRYPT_MESSAGE_PARA structure contains information for decrypting messages.
 old-location: security\crypt_decrypt_message_para.htm
 tech.root: SecCrypto
 ms.assetid: 67e136cd-12e3-4a31-9d8b-b53e1129e940
-
 ms.date: 12/05/2018
-ms.keywords: "*PCRYPT_DECRYPT_MESSAGE_PARA, CRYPT_DECRYPT_MESSAGE_PARA, CRYPT_DECRYPT_MESSAGE_PARA structure [Security], PCRYPT_DECRYPT_MESSAGE_PARA, PCRYPT_DECRYPT_MESSAGE_PARA structure pointer [Security], _crypto2_crypt_decrypt_message_para, security.crypt_decrypt_message_para, wincrypt/CRYPT_DECRYPT_MESSAGE_PARA, wincrypt/PCRYPT_DECRYPT_MESSAGE_PARA"
+ms.keywords: '*PCRYPT_DECRYPT_MESSAGE_PARA, CRYPT_DECRYPT_MESSAGE_PARA, CRYPT_DECRYPT_MESSAGE_PARA structure [Security], PCRYPT_DECRYPT_MESSAGE_PARA, PCRYPT_DECRYPT_MESSAGE_PARA structure pointer [Security], _crypto2_crypt_decrypt_message_para, security.crypt_decrypt_message_para, wincrypt/CRYPT_DECRYPT_MESSAGE_PARA, wincrypt/PCRYPT_DECRYPT_MESSAGE_PARA'
 ms.topic: struct
-f1_keywords: 
- - "wincrypt/CRYPT_DECRYPT_MESSAGE_PARA"
+f1_keywords:
+- wincrypt/CRYPT_DECRYPT_MESSAGE_PARA
 dev_langs:
- - c++
+- c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wincrypt.h
+- Wincrypt.h
 api_name:
- - CRYPT_DECRYPT_MESSAGE_PARA
+- CRYPT_DECRYPT_MESSAGE_PARA
 targetos: Windows
 req.typenames: CRYPT_DECRYPT_MESSAGE_PARA, *PCRYPT_DECRYPT_MESSAGE_PARA
 req.redist: 

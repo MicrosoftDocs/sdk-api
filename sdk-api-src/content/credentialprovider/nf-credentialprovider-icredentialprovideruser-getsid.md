@@ -1,19 +1,17 @@
 ---
 UID: NF:credentialprovider.ICredentialProviderUser.GetSid
 title: ICredentialProviderUser::GetSid (credentialprovider.h)
-
 description: Retrieves the user's security identifier (SID).
 old-location: shell\ICredentialProviderUser_GetSid.htm
 tech.root: shell
 ms.assetid: FDC5D586-D72B-4eb1-BE7C-CFD8E0B48F48
-
 ms.date: 12/05/2018
 ms.keywords: GetSid, GetSid method [Windows Shell], GetSid method [Windows Shell],ICredentialProviderUser interface, ICredentialProviderUser interface [Windows Shell],GetSid method, ICredentialProviderUser.GetSid, ICredentialProviderUser::GetSid, credentialprovider/ICredentialProviderUser::GetSid, shell.ICredentialProviderUser_GetSid
 ms.topic: method
-f1_keywords: 
- - "credentialprovider/ICredentialProviderUser.GetSid"
+f1_keywords:
+- credentialprovider/ICredentialProviderUser.GetSid
 dev_langs:
- - c++
+- c++
 req.header: credentialprovider.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: CredentialProvider.lib
 req.dll: Authui.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Authui.dll
+- Authui.dll
 api_name:
- - ICredentialProviderUser.GetSid
+- ICredentialProviderUser.GetSid
 targetos: Windows
 req.typenames: 
 req.redist: 

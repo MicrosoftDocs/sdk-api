@@ -1,19 +1,17 @@
 ---
 UID: NN:atscpsipparser.IAtscPsipParser
 title: IAtscPsipParser (atscpsipparser.h)
-
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later. The IAtscPsipParser interface retrieves ATSC Program and System Information Protocol (PSIP) tables.
 old-location: mstv\iatscpsipparser.htm
 tech.root: mstv
 ms.assetid: dbe922b3-b843-4eaa-807d-5608cfbb9686
-
 ms.date: 12/05/2018
 ms.keywords: IAtscPsipParser, IAtscPsipParser interface [Microsoft TV Technologies], IAtscPsipParser interface [Microsoft TV Technologies],described, IAtscPsipParserInterface, atscpsipparser/IAtscPsipParser, mstv.iatscpsipparser
 ms.topic: interface
-f1_keywords: 
- - "atscpsipparser/IAtscPsipParser"
+f1_keywords:
+- atscpsipparser/IAtscPsipParser
 dev_langs:
- - c++
+- c++
 req.header: atscpsipparser.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - atscpsipparser.h
+- atscpsipparser.h
 api_name:
- - IAtscPsipParser
+- IAtscPsipParser
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi3if.ITAddressDeviceSpecificEvent.get_Call
 title: ITAddressDeviceSpecificEvent::get_Call (tapi3if.h)
-
 description: The get_Call method gets a pointer to the ITCallInfo interface pointer for the call object involved in the event.
 old-location: tapi3\itaddressdevicespecificevent_get_call.htm
 tech.root: Tapi
 ms.assetid: dcf3b82d-5c1f-41f7-bb6a-6470a96f4049
-
 ms.date: 12/05/2018
 ms.keywords: ITAddressDeviceSpecificEvent interface [TAPI 2.2],get_Call method, ITAddressDeviceSpecificEvent.get_Call, ITAddressDeviceSpecificEvent::get_Call, _tapi3_itaddressdevicespecificevent_get_call, get_Call, get_Call method [TAPI 2.2], get_Call method [TAPI 2.2],ITAddressDeviceSpecificEvent interface, tapi3.itaddressdevicespecificevent_get_call, tapi3if/ITAddressDeviceSpecificEvent::get_Call
 ms.topic: method
-f1_keywords: 
- - "tapi3if/ITAddressDeviceSpecificEvent.get_Call"
+f1_keywords:
+- tapi3if/ITAddressDeviceSpecificEvent.get_Call
 dev_langs:
- - c++
+- c++
 req.header: tapi3if.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Tapi3.dll
+- Tapi3.dll
 api_name:
- - ITAddressDeviceSpecificEvent.get_Call
+- ITAddressDeviceSpecificEvent.get_Call
 targetos: Windows
 req.typenames: 
 req.redist: 

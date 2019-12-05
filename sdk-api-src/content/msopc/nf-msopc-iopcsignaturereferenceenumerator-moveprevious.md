@@ -1,19 +1,17 @@
 ---
 UID: NF:msopc.IOpcSignatureReferenceEnumerator.MovePrevious
 title: IOpcSignatureReferenceEnumerator::MovePrevious (msopc.h)
-
 description: Moves the current position of the enumerator to the previous IOpcSignatureReferenceinterface pointer.
 old-location: opc\iopcsignaturereferenceenumerator_moveprevious.htm
 tech.root: OPC
 ms.assetid: 7ff697a4-45fe-46cd-8d36-96bafcb32aa1
-
 ms.date: 12/05/2018
 ms.keywords: IOpcSignatureReferenceEnumerator interface [Open Packaging Conventions],MovePrevious method, IOpcSignatureReferenceEnumerator.MovePrevious, IOpcSignatureReferenceEnumerator::MovePrevious, MovePrevious, MovePrevious method [Open Packaging Conventions], MovePrevious method [Open Packaging Conventions],IOpcSignatureReferenceEnumerator interface, msopc/IOpcSignatureReferenceEnumerator::MovePrevious, opc.iopcsignaturereferenceenumerator_moveprevious
 ms.topic: method
-f1_keywords: 
- - "msopc/IOpcSignatureReferenceEnumerator.MovePrevious"
+f1_keywords:
+- msopc/IOpcSignatureReferenceEnumerator.MovePrevious
 dev_langs:
- - c++
+- c++
 req.header: msopc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msopc.h
+- msopc.h
 api_name:
- - IOpcSignatureReferenceEnumerator.MovePrevious
+- IOpcSignatureReferenceEnumerator.MovePrevious
 targetos: Windows
 req.typenames: 
 req.redist: 

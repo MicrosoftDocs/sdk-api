@@ -1,19 +1,17 @@
 ---
 UID: NF:vidcap.ICameraControl.get_ScanMode
 title: ICameraControl::get_ScanMode (vidcap.h)
-
 description: The get_ScanMode method returns the current scanning mode (interlaced or progressive).
 old-location: dshow\icameracontrol_get_scanmode.htm
 tech.root: DirectShow
 ms.assetid: 09a75986-9c5d-44fc-af62-297481854574
-
 ms.date: 12/05/2018
 ms.keywords: ICameraControl interface [DirectShow],get_ScanMode method, ICameraControl.get_ScanMode, ICameraControl::get_ScanMode, ICameraControlget_ScanMode, dshow.icameracontrol_get_scanmode, get_ScanMode, get_ScanMode method [DirectShow], get_ScanMode method [DirectShow],ICameraControl interface, vidcap/ICameraControl::get_ScanMode
 ms.topic: method
-f1_keywords: 
- - "vidcap/ICameraControl.get_ScanMode"
+f1_keywords:
+- vidcap/ICameraControl.get_ScanMode
 dev_langs:
- - c++
+- c++
 req.header: vidcap.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - ICameraControl.get_ScanMode
+- ICameraControl.get_ScanMode
 targetos: Windows
 req.typenames: 
 req.redist: 

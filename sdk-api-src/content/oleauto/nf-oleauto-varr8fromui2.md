@@ -1,19 +1,17 @@
 ---
 UID: NF:oleauto.VarR8FromUI2
 title: VarR8FromUI2 function (oleauto.h)
-
 description: Converts an unsigned short value to a double value.
 old-location: automat\varr8fromui2.htm
 tech.root: automat
 ms.assetid: fb66fc4e-8b71-4244-8949-0fa276728df7
-
 ms.date: 12/05/2018
 ms.keywords: VarR8FromUI2, VarR8FromUI2 function [Automation], _oa96_VarR8FromUI2, automat.varr8fromui2, oleauto/VarR8FromUI2
 ms.topic: function
-f1_keywords: 
- - "oleauto/VarR8FromUI2"
+f1_keywords:
+- oleauto/VarR8FromUI2
 dev_langs:
- - c++
+- c++
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: OleAut32.lib
 req.dll: OleAut32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - OleAut32.dll
+- OleAut32.dll
 api_name:
- - VarR8FromUI2
+- VarR8FromUI2
 targetos: Windows
 req.typenames: 
 req.redist: 

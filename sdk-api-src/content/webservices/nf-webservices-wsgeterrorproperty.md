@@ -1,19 +1,17 @@
 ---
 UID: NF:webservices.WsGetErrorProperty
 title: WsGetErrorProperty function (webservices.h)
-
 description: Retrieves a property of an WS_ERROR object referenced by the error parameter.
 old-location: wsw\wsgeterrorproperty.htm
 tech.root: wsw
 ms.assetid: 35a1f4a8-aad6-43ad-81db-b1071a77d5f4
-
 ms.date: 12/05/2018
 ms.keywords: WsGetErrorProperty, WsGetErrorProperty function [Web Services for Windows], webservices/WsGetErrorProperty, wsw.wsgeterrorproperty
 ms.topic: function
-f1_keywords: 
- - "webservices/WsGetErrorProperty"
+f1_keywords:
+- webservices/WsGetErrorProperty
 dev_langs:
- - c++
+- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: WebServices.lib
 req.dll: WebServices.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - WebServices.dll
+- WebServices.dll
 api_name:
- - WsGetErrorProperty
+- WsGetErrorProperty
 targetos: Windows
 req.typenames: 
 req.redist: 

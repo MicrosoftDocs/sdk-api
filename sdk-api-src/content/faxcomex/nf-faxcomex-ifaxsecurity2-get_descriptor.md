@@ -1,19 +1,17 @@
 ---
 UID: NF:faxcomex.IFaxSecurity2.get_Descriptor
 title: IFaxSecurity2::get_Descriptor (faxcomex.h)
-
 description: Represents the security descriptor for a IFaxServer2 object.
 old-location: fax\_mfax_faxsecurity2_descriptor_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\reference\serviceextendedcom\i\ifaxsecurity2\descriptor.htm
-
 ms.date: 12/05/2018
 ms.keywords: Descriptor property [Fax Service], Descriptor property [Fax Service],IFaxSecurity2 interface, IFaxSecurity2 interface [Fax Service],Descriptor property, IFaxSecurity2.Descriptor, IFaxSecurity2.get_Descriptor, IFaxSecurity2::Descriptor, IFaxSecurity2::get_Descriptor, IFaxSecurity2::put_Descriptor, _mfax_faxsecurity2.descriptor_cpp, fax._mfax_faxsecurity2_descriptor_cpp, faxcomex/IFaxSecurity2::Descriptor, faxcomex/IFaxSecurity2::get_Descriptor, faxcomex/IFaxSecurity2::put_Descriptor, get_Descriptor
 ms.topic: method
-f1_keywords: 
- - "faxcomex/IFaxSecurity2.Descriptor"
+f1_keywords:
+- faxcomex/IFaxSecurity2.Descriptor
 dev_langs:
- - c++
+- c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: Fxscomex.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Fxscomex.dll
+- Fxscomex.dll
 api_name:
- - IFaxSecurity2.Descriptor
- - IFaxSecurity2.get_Descriptor
- - IFaxSecurity2.put_Descriptor
+- IFaxSecurity2.Descriptor
+- IFaxSecurity2.get_Descriptor
+- IFaxSecurity2.put_Descriptor
 targetos: Windows
 req.typenames: 
 req.redist: 

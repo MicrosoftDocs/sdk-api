@@ -1,19 +1,17 @@
 ---
 UID: NS:faxdev._FAX_DEV_STATUS
 title: FAX_DEV_STATUS (faxdev.h)
-
 description: The FAX_DEV_STATUS structure contains status and identification information about an individual active fax operation.
 old-location: fax\_mfax_fax_dev_status_str.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxfspapiref_0wz6.htm
-
 ms.date: 12/05/2018
-ms.keywords: "*PFAX_DEV_STATUS, FAX_DEV_STATUS, FAX_DEV_STATUS structure [Fax Service], PFAX_DEV_STATUS, PFAX_DEV_STATUS structure pointer [Fax Service], _mfax_fax_dev_status_str, fax._mfax_fax_dev_status_str, faxdev/FAX_DEV_STATUS, faxdev/PFAX_DEV_STATUS"
+ms.keywords: '*PFAX_DEV_STATUS, FAX_DEV_STATUS, FAX_DEV_STATUS structure [Fax Service], PFAX_DEV_STATUS, PFAX_DEV_STATUS structure pointer [Fax Service], _mfax_fax_dev_status_str, fax._mfax_fax_dev_status_str, faxdev/FAX_DEV_STATUS, faxdev/PFAX_DEV_STATUS'
 ms.topic: struct
-f1_keywords: 
- - "faxdev/FAX_DEV_STATUS"
+f1_keywords:
+- faxdev/FAX_DEV_STATUS
 dev_langs:
- - c++
+- c++
 req.header: faxdev.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - FaxDev.h
+- FaxDev.h
 api_name:
- - FAX_DEV_STATUS
+- FAX_DEV_STATUS
 targetos: Windows
 req.typenames: FAX_DEV_STATUS, *PFAX_DEV_STATUS
 req.redist: 

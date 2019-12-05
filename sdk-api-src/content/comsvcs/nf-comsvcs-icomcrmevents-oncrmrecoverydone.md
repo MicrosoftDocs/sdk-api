@@ -1,19 +1,17 @@
 ---
 UID: NF:comsvcs.IComCRMEvents.OnCRMRecoveryDone
 title: IComCRMEvents::OnCRMRecoveryDone (comsvcs.h)
-
 description: Generated when CRM recovery is done.
 old-location: cos\icomcrmevents_oncrmrecoverydone.htm
 tech.root: cossdk
 ms.assetid: 533148f3-ecb4-495c-81c4-c75db7284ded
-
 ms.date: 12/05/2018
 ms.keywords: IComCRMEvents interface [COM+],OnCRMRecoveryDone method, IComCRMEvents.OnCRMRecoveryDone, IComCRMEvents::OnCRMRecoveryDone, OnCRMRecoveryDone, OnCRMRecoveryDone method [COM+], OnCRMRecoveryDone method [COM+],IComCRMEvents interface, _dtc_IComCRMEvents_OnCRMRecoveryDone, comsvcs/IComCRMEvents::OnCRMRecoveryDone, cos.icomcrmevents_oncrmrecoverydone
 ms.topic: method
-f1_keywords: 
- - "comsvcs/IComCRMEvents.OnCRMRecoveryDone"
+f1_keywords:
+- comsvcs/IComCRMEvents.OnCRMRecoveryDone
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - IComCRMEvents.OnCRMRecoveryDone
+- IComCRMEvents.OnCRMRecoveryDone
 targetos: Windows
 req.typenames: 
 req.redist: 

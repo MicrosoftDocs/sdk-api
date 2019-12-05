@@ -1,19 +1,17 @@
 ---
 UID: NS:bluetoothapis._BLUETOOTH_DEVICE_SEARCH_PARAMS
 title: BLUETOOTH_DEVICE_SEARCH_PARAMS (bluetoothapis.h)
-
 description: Specifies search criteria for Bluetooth device searches.
 old-location: bluetooth\bluetooth_device_search_params.htm
 tech.root: bluetooth
 ms.assetid: e267df61-d0f5-434f-b49c-6899c2abfa2a
-
 ms.date: 12/05/2018
 ms.keywords: BLUETOOTH_DEVICE_SEARCH_PARAMS, BLUETOOTH_DEVICE_SEARCH_PARAMS structure [Bluetooth], bluetooth.bluetooth_device_search_params, bluetoothapis/BLUETOOTH_DEVICE_SEARCH_PARAMS
 ms.topic: struct
-f1_keywords: 
- - "bluetoothapis/BLUETOOTH_DEVICE_SEARCH_PARAMS"
+f1_keywords:
+- bluetoothapis/BLUETOOTH_DEVICE_SEARCH_PARAMS
 dev_langs:
- - c++
+- c++
 req.header: bluetoothapis.h
 req.include-header: Bthsdpdef.h, BluetoothAPIs.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - BluetoothAPIs.h
+- BluetoothAPIs.h
 api_name:
- - BLUETOOTH_DEVICE_SEARCH_PARAMS
+- BLUETOOTH_DEVICE_SEARCH_PARAMS
 targetos: Windows
 req.typenames: BLUETOOTH_DEVICE_SEARCH_PARAMS
 req.redist: 

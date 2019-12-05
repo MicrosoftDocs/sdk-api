@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d10effect.ID3D10EffectScalarVariable.GetBool
 title: ID3D10EffectScalarVariable::GetBool (d3d10effect.h)
-
 description: Get a boolean variable.
 old-location: direct3d10\id3d10effectscalarvariable_getbool.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10effectscalarvariable_getbool.htm
-
 ms.date: 12/05/2018
 ms.keywords: GetBool, GetBool method [Direct3D 10], GetBool method [Direct3D 10],ID3D10EffectScalarVariable interface, ID3D10EffectScalarVariable interface [Direct3D 10],GetBool method, ID3D10EffectScalarVariable.GetBool, ID3D10EffectScalarVariable::GetBool, a3b9bd39-4ea0-6593-fb53-b33f8cc097c6, d3d10effect/ID3D10EffectScalarVariable::GetBool, direct3d10.id3d10effectscalarvariable_getbool
 ms.topic: method
-f1_keywords: 
- - "d3d10effect/ID3D10EffectScalarVariable.GetBool"
+f1_keywords:
+- d3d10effect/ID3D10EffectScalarVariable.GetBool
 dev_langs:
- - c++
+- c++
 req.header: d3d10effect.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D10Effect.h
+- D3D10Effect.h
 api_name:
- - ID3D10EffectScalarVariable.GetBool
+- ID3D10EffectScalarVariable.GetBool
 targetos: Windows
 req.typenames: 
 req.redist: 

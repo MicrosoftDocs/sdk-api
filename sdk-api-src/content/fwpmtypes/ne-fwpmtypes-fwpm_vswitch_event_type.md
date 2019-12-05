@@ -1,19 +1,17 @@
 ---
 UID: NE:fwpmtypes.FWPM_VSWITCH_EVENT_TYPE_
 title: FWPM_VSWITCH_EVENT_TYPE (fwpmtypes.h)
-
 description: Specifies the type of a vSwitch event.
 old-location: fwp\fwpm_vswitch_event_type.htm
 tech.root: fwp
 ms.assetid: 1c421152-1085-4cf4-ab8c-631a2b800ec8
-
 ms.date: 12/05/2018
 ms.keywords: FWPM_VSWITCH_EVENT_DISABLED_FOR_INSPECTION, FWPM_VSWITCH_EVENT_ENABLED_FOR_INSPECTION, FWPM_VSWITCH_EVENT_FILTER_ADD_TO_INCOMPLETE_LAYER, FWPM_VSWITCH_EVENT_FILTER_ENGINE_NOT_IN_REQUIRED_POSITION, FWPM_VSWITCH_EVENT_FILTER_ENGINE_REORDER, FWPM_VSWITCH_EVENT_MAX, FWPM_VSWITCH_EVENT_TYPE, FWPM_VSWITCH_EVENT_TYPE enumeration [Filtering], fwp.fwpm_vswitch_event_type, fwpmtypes/FWPM_VSWITCH_EVENT_DISABLED_FOR_INSPECTION, fwpmtypes/FWPM_VSWITCH_EVENT_ENABLED_FOR_INSPECTION, fwpmtypes/FWPM_VSWITCH_EVENT_FILTER_ADD_TO_INCOMPLETE_LAYER, fwpmtypes/FWPM_VSWITCH_EVENT_FILTER_ENGINE_NOT_IN_REQUIRED_POSITION, fwpmtypes/FWPM_VSWITCH_EVENT_FILTER_ENGINE_REORDER, fwpmtypes/FWPM_VSWITCH_EVENT_MAX, fwpmtypes/FWPM_VSWITCH_EVENT_TYPE
 ms.topic: enum
-f1_keywords: 
- - "fwpmtypes/FWPM_VSWITCH_EVENT_TYPE"
+f1_keywords:
+- fwpmtypes/FWPM_VSWITCH_EVENT_TYPE
 dev_langs:
- - c++
+- c++
 req.header: fwpmtypes.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Fwpmtypes.h
+- Fwpmtypes.h
 api_name:
- - FWPM_VSWITCH_EVENT_TYPE
+- FWPM_VSWITCH_EVENT_TYPE
 targetos: Windows
 req.typenames: FWPM_VSWITCH_EVENT_TYPE
 req.redist: 

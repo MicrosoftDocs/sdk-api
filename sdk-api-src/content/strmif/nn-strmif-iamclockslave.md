@@ -1,19 +1,17 @@
 ---
 UID: NN:strmif.IAMClockSlave
 title: IAMClockSlave (strmif.h)
-
 description: The IAMClockSlave interface controls the tolerance of an audio renderer when it is matching rates with another clock.If the audio renderer is matching rates with another clock, it allows the audio to drift up to the amount of the specified tolerance.
 old-location: dshow\iamclockslave.htm
 tech.root: DirectShow
 ms.assetid: 7b3d0f93-09dd-4a36-a031-70f61402c314
-
 ms.date: 12/05/2018
 ms.keywords: IAMClockSlave, IAMClockSlave interface [DirectShow], IAMClockSlave interface [DirectShow],described, IAMClockSlaveInterface, dshow.iamclockslave, strmif/IAMClockSlave
 ms.topic: interface
-f1_keywords: 
- - "strmif/IAMClockSlave"
+f1_keywords:
+- strmif/IAMClockSlave
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IAMClockSlave
+- IAMClockSlave
 targetos: Windows
 req.typenames: 
 req.redist: 

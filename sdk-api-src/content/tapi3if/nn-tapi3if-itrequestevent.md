@@ -1,19 +1,17 @@
 ---
 UID: NN:tapi3if.ITRequestEvent
 title: ITRequestEvent (tapi3if.h)
-
 description: The ITRequestEvent interface contains methods that allow an application to receive and process Assisted Telephony request events.
 old-location: tapi3\itrequestevent.htm
 tech.root: Tapi
 ms.assetid: 69f9b504-be01-4167-8002-32a8e86bab0f
-
 ms.date: 12/05/2018
 ms.keywords: ITRequestEvent, ITRequestEvent interface [TAPI 2.2], ITRequestEvent interface [TAPI 2.2],described, _tapi3_itrequestevent, tapi3.itrequestevent, tapi3if/ITRequestEvent
 ms.topic: interface
-f1_keywords: 
- - "tapi3if/ITRequestEvent"
+f1_keywords:
+- tapi3if/ITRequestEvent
 dev_langs:
- - c++
+- c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Tapi3.dll
+- Tapi3.dll
 api_name:
- - ITRequestEvent
+- ITRequestEvent
 targetos: Windows
 req.typenames: 
 req.redist: 

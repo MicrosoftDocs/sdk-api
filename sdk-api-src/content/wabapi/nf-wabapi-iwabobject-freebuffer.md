@@ -1,19 +1,17 @@
 ---
 UID: NF:wabapi.IWABObject.FreeBuffer
 title: IWABObject::FreeBuffer (wabapi.h)
-
 description: Frees memory allocated with IWABObject::AllocateBuffer or any of the other Windows Address Book (WAB) methods.
 old-location: wab\_wab_IWABObject_FreeBuffer.htm
 tech.root: wab
 ms.assetid: VS|wab|~\wab\reference\ifaces\iwabobject\freebuffer.htm
-
 ms.date: 12/05/2018
 ms.keywords: FreeBuffer, FreeBuffer method [Windows Address Book], FreeBuffer method [Windows Address Book],IWABObject interface, IWABObject interface [Windows Address Book],FreeBuffer method, IWABObject.FreeBuffer, IWABObject::FreeBuffer, _wab_IWABObject_FreeBuffer, wab._wab_IWABObject_FreeBuffer, wabapi/IWABObject::FreeBuffer
 ms.topic: method
-f1_keywords: 
- - "wabapi/IWABObject.FreeBuffer"
+f1_keywords:
+- wabapi/IWABObject.FreeBuffer
 dev_langs:
- - c++
+- c++
 req.header: wabapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wab32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wab32.dll
+- Wab32.dll
 api_name:
- - IWABObject.FreeBuffer
+- IWABObject.FreeBuffer
 targetos: Windows
 req.typenames: 
 req.redist: 

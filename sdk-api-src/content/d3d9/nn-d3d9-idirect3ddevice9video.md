@@ -1,19 +1,17 @@
 ---
 UID: NN:d3d9.IDirect3DDevice9Video
 title: IDirect3DDevice9Video (d3d9.h)
-
 description: Enables an application to use content protection and encryption services implemented by a graphics driver.To get a pointer to this interface, call QueryInterface on a D3D9Ex device.
 old-location: mf\idirect3ddevice9video.htm
 tech.root: medfound
 ms.assetid: e2c9cd73-6320-4ce3-a44f-5658c162aeb4
-
 ms.date: 12/05/2018
 ms.keywords: IDirect3DDevice9Video, IDirect3DDevice9Video interface [Media Foundation], IDirect3DDevice9Video interface [Media Foundation],described, d3d9/IDirect3DDevice9Video, mf.idirect3ddevice9video
 ms.topic: interface
-f1_keywords: 
- - "d3d9/IDirect3DDevice9Video"
+f1_keywords:
+- d3d9/IDirect3DDevice9Video
 dev_langs:
- - c++
+- c++
 req.header: d3d9.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - d3d9.h
+- d3d9.h
 api_name:
- - IDirect3DDevice9Video
+- IDirect3DDevice9Video
 targetos: Windows
 req.typenames: 
 req.redist: 

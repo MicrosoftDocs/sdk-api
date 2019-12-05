@@ -1,19 +1,17 @@
 ---
 UID: NN:wmcodecdsp.IWMResamplerProps
 title: IWMResamplerProps (wmcodecdsp.h)
-
 description: Sets properties on the audio resampler DSP.
 old-location: mf\iwmresamplerpropsinterface.htm
 tech.root: medfound
 ms.assetid: af3cec68-59a2-4b9d-a279-e5af46e9c38e
-
 ms.date: 12/05/2018
 ms.keywords: IWMResamplerProps, IWMResamplerProps interface [Media Foundation], IWMResamplerProps interface [Media Foundation],described, codecapi.iwmresamplerpropsinterface, mf.iwmresamplerprops, mf.iwmresamplerpropsinterface, wmcodecdsp/IWMResamplerProps
 ms.topic: interface
-f1_keywords: 
- - "wmcodecdsp/IWMResamplerProps"
+f1_keywords:
+- wmcodecdsp/IWMResamplerProps
 dev_langs:
- - c++
+- c++
 req.header: wmcodecdsp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmcodecdsp.h
+- wmcodecdsp.h
 api_name:
- - IWMResamplerProps
+- IWMResamplerProps
 targetos: Windows
 req.typenames: 
 req.redist: 

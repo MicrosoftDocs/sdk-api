@@ -1,19 +1,17 @@
 ---
 UID: NS:wsbonline._WSB_OB_STATUS_ENTRY
 title: WSB_OB_STATUS_ENTRY (wsbonline.h)
-
 description: Contains status information for one entry to be shown in the Windows Server Backup MMC snap-in.
 old-location: wsb\wsb_ob_status_entry.htm
 tech.root: wsb
 ms.assetid: BFC13B54-60F3-43A1-B464-D09DD96F57FA
-
 ms.date: 12/05/2018
 ms.keywords: WSB_OB_STATUS_ENTRY, WSB_OB_STATUS_ENTRY structure [Windows Server Backup], wsb.wsb_ob_status_entry, wsbonline/WSB_OB_STATUS_ENTRY
 ms.topic: struct
-f1_keywords: 
- - "wsbonline/WSB_OB_STATUS_ENTRY"
+f1_keywords:
+- wsbonline/WSB_OB_STATUS_ENTRY
 dev_langs:
- - c++
+- c++
 req.header: wsbonline.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WsbOnline.h
+- WsbOnline.h
 api_name:
- - WSB_OB_STATUS_ENTRY
+- WSB_OB_STATUS_ENTRY
 targetos: Windows
 req.typenames: WSB_OB_STATUS_ENTRY
 req.redist: 

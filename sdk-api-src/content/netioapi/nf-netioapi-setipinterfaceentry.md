@@ -1,19 +1,17 @@
 ---
 UID: NF:netioapi.SetIpInterfaceEntry
 title: SetIpInterfaceEntry function (netioapi.h)
-
 description: Sets the properties of an IP interface on the local computer.
 old-location: iphlp\setipinterfaceentry.htm
 tech.root: IpHlp
 ms.assetid: 8e6d2c14-29c3-47a7-9eb8-0989df9da68c
-
 ms.date: 12/05/2018
 ms.keywords: SetIpInterfaceEntry, SetIpInterfaceEntry function [IP Helper], iphlp.setipinterfaceentry, netioapi/SetIpInterfaceEntry
 ms.topic: function
-f1_keywords: 
- - "netioapi/SetIpInterfaceEntry"
+f1_keywords:
+- netioapi/SetIpInterfaceEntry
 dev_langs:
- - c++
+- c++
 req.header: netioapi.h
 req.include-header: Iphlpapi.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Iphlpapi.lib
 req.dll: Iphlpapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Iphlpapi.dll
+- Iphlpapi.dll
 api_name:
- - SetIpInterfaceEntry
+- SetIpInterfaceEntry
 targetos: Windows
 req.typenames: 
 req.redist: 

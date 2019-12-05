@@ -1,19 +1,17 @@
 ---
 UID: NF:dwrite.IDWriteTextLayout.HitTestTextPosition
 title: IDWriteTextLayout::HitTestTextPosition (dwrite.h)
-
 description: The application calls this function to get the pixel location relative to the top-left of the layout box given the text position and the logical side of the position.
 old-location: directwrite\IDWriteTextLayout_HitTestTextPosition.htm
 tech.root: DirectWrite
 ms.assetid: a7a8d82a-74a6-4e4a-a57d-60194e20a087
-
 ms.date: 12/05/2018
 ms.keywords: HitTestTextPosition, HitTestTextPosition method [Direct Write], HitTestTextPosition method [Direct Write],IDWriteTextLayout interface, IDWriteTextLayout interface [Direct Write],HitTestTextPosition method, IDWriteTextLayout.HitTestTextPosition, IDWriteTextLayout::HitTestTextPosition, directwrite.IDWriteTextLayout_HitTestTextPosition, dwrite/IDWriteTextLayout::HitTestTextPosition
 ms.topic: method
-f1_keywords: 
- - "dwrite/IDWriteTextLayout.HitTestTextPosition"
+f1_keywords:
+- dwrite/IDWriteTextLayout.HitTestTextPosition
 dev_langs:
- - c++
+- c++
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dwrite.lib
 req.dll: Dwrite.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dwrite.dll
+- dwrite.dll
 api_name:
- - IDWriteTextLayout.HitTestTextPosition
+- IDWriteTextLayout.HitTestTextPosition
 targetos: Windows
 req.typenames: 
 req.redist: 

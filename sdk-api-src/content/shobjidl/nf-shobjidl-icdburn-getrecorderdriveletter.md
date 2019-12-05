@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl.ICDBurn.GetRecorderDriveLetter
 title: ICDBurn::GetRecorderDriveLetter (shobjidl.h)
-
 description: Gets the drive letter of a CD drive that has been marked as write-enabled.
 old-location: shell\ICDBurn_GetRecorderDriveLetter.htm
 tech.root: shell
 ms.assetid: 5ee10152-6823-49bb-836d-3e0cf6c2bb0b
-
 ms.date: 12/05/2018
 ms.keywords: GetRecorderDriveLetter, GetRecorderDriveLetter method [Windows Shell], GetRecorderDriveLetter method [Windows Shell],ICDBurn interface, ICDBurn interface [Windows Shell],GetRecorderDriveLetter method, ICDBurn.GetRecorderDriveLetter, ICDBurn::GetRecorderDriveLetter, _shell_ICDBurn_GetRecorderDriveLetter, shell.ICDBurn_GetRecorderDriveLetter, shobjidl/ICDBurn::GetRecorderDriveLetter
 ms.topic: method
-f1_keywords: 
- - "shobjidl/ICDBurn.GetRecorderDriveLetter"
+f1_keywords:
+- shobjidl/ICDBurn.GetRecorderDriveLetter
 dev_langs:
- - c++
+- c++
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Shell32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - ICDBurn.GetRecorderDriveLetter
+- ICDBurn.GetRecorderDriveLetter
 targetos: Windows
 req.typenames: 
 req.redist: 

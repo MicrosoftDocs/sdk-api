@@ -1,19 +1,17 @@
 ---
 UID: NF:pla.IDataManager.get_Enabled
 title: IDataManager::get_Enabled (pla.h)
-
 description: Retrieves or sets a value that indicates whether the data manager is enabled to run.
 old-location: pla\idatamanager_enabled.htm
 tech.root: PLA
 ms.assetid: 3048a4b6-3e18-4585-bf5e-d91a4c0adcfc
-
 ms.date: 12/05/2018
 ms.keywords: Enabled property [PLA], Enabled property [PLA],IDataManager interface, IDataManager interface [PLA],Enabled property, IDataManager.Enabled, IDataManager.get_Enabled, IDataManager::Enabled, IDataManager::get_Enabled, IDataManager::put_Enabled, base.idatamanager_enabled, get_Enabled, pla.idatamanager_enabled, pla/IDataManager::Enabled, pla/IDataManager::get_Enabled, pla/IDataManager::put_Enabled
 ms.topic: method
-f1_keywords: 
- - "pla/IDataManager.Enabled"
+f1_keywords:
+- pla/IDataManager.Enabled
 dev_langs:
- - c++
+- c++
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: Pla.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Pla.dll
+- Pla.dll
 api_name:
- - IDataManager.Enabled
- - IDataManager.get_Enabled
- - IDataManager.put_Enabled
+- IDataManager.Enabled
+- IDataManager.get_Enabled
+- IDataManager.put_Enabled
 targetos: Windows
 req.typenames: 
 req.redist: 

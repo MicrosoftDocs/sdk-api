@@ -1,19 +1,17 @@
 ---
 UID: NF:winsync.ISynchronousDataRetriever.LoadChangeData
 title: ISynchronousDataRetriever::LoadChangeData (winsync.h)
-
 description: Retrieves item data for a change.
 old-location: winsync\isynchronousdataretriever_loadchangedata.htm
 tech.root: winsync
 ms.assetid: ae309301-3810-4785-b4f2-a55fbdf819d8
-
 ms.date: 12/05/2018
 ms.keywords: ISynchronousDataRetriever interface [Windows Sync],LoadChangeData method, ISynchronousDataRetriever.LoadChangeData, ISynchronousDataRetriever::LoadChangeData, LoadChangeData, LoadChangeData method [Windows Sync], LoadChangeData method [Windows Sync],ISynchronousDataRetriever interface, winsync.isynchronousdataretriever_loadchangedata, winsync/ISynchronousDataRetriever::LoadChangeData
 ms.topic: method
-f1_keywords: 
- - "winsync/ISynchronousDataRetriever.LoadChangeData"
+f1_keywords:
+- winsync/ISynchronousDataRetriever.LoadChangeData
 dev_langs:
- - c++
+- c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - winsync.h
+- winsync.h
 api_name:
- - ISynchronousDataRetriever.LoadChangeData
+- ISynchronousDataRetriever.LoadChangeData
 targetos: Windows
 req.typenames: 
 req.redist: 

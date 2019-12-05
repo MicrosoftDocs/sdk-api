@@ -1,19 +1,17 @@
 ---
 UID: NE:mmstream.__MIDL___MIDL_itf_mmstream_0000_0000_0001
 title: STREAM_TYPE (mmstream.h)
-
 description: Note  This API is deprecated. New applications should not use it. Defines the direction of data flow for the stream.
 old-location: dshow\stream_type.htm
 tech.root: DirectShow
 ms.assetid: 07ab5ded-28b8-4cac-b4da-76f07ad351ef
-
 ms.date: 12/05/2018
 ms.keywords: STREAMTYPE_READ, STREAMTYPE_TRANSFORM, STREAMTYPE_WRITE, STREAM_TYPE, STREAM_TYPE enumeration [DirectShow], dshow.stream_type, mmstream/STREAMTYPE_READ, mmstream/STREAMTYPE_TRANSFORM, mmstream/STREAMTYPE_WRITE, mmstream/STREAM_TYPE
 ms.topic: enum
-f1_keywords: 
- - "mmstream/STREAM_TYPE"
+f1_keywords:
+- mmstream/STREAM_TYPE
 dev_langs:
- - c++
+- c++
 req.header: mmstream.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Mmstream.h
+- Mmstream.h
 api_name:
- - STREAM_TYPE
+- STREAM_TYPE
 targetos: Windows
 req.typenames: STREAM_TYPE
 req.redist: 

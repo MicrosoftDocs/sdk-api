@@ -1,19 +1,17 @@
 ---
 UID: NF:clfsw32.CreateLogMarshallingArea
 title: CreateLogMarshallingArea function (clfsw32.h)
-
 description: Creates a marshaling area for a log, and when successful it returns a marshaling context. Before creating a marshaling area, the log must have at least one container.
 old-location: fs\createlogmarshallingarea.htm
 tech.root: Clfs
 ms.assetid: 750c0615-bfac-402b-a590-6c9d800cf2d8
-
 ms.date: 12/05/2018
 ms.keywords: CreateLogMarshallingArea, CreateLogMarshallingArea function [Files], clfsw32/CreateLogMarshallingArea, fs.createlogmarshalingarea, fs.createlogmarshallingarea
 ms.topic: function
-f1_keywords: 
- - "clfsw32/CreateLogMarshallingArea"
+f1_keywords:
+- clfsw32/CreateLogMarshallingArea
 dev_langs:
- - c++
+- c++
 req.header: clfsw32.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Clfsw32.lib
 req.dll: Clfsw32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Clfsw32.dll
+- Clfsw32.dll
 api_name:
- - CreateLogMarshallingArea
+- CreateLogMarshallingArea
 targetos: Windows
 req.typenames: 
 req.redist: 

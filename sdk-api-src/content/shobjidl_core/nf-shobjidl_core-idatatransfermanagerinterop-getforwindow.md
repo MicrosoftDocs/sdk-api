@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IDataTransferManagerInterop.GetForWindow
 title: IDataTransferManagerInterop::GetForWindow (shobjidl_core.h)
-
 description: Gets the DataTransferManager instance for the specified window.
 old-location: shell\idatatransfermanagerinterop_getforwindow.htm
 tech.root: shell
 ms.assetid: 129CEEBF-0D02-4746-8F9B-4F5F5A95E6A2
-
 ms.date: 12/05/2018
 ms.keywords: GetForWindow, GetForWindow method [Windows Shell], GetForWindow method [Windows Shell],IDataTransferManagerInterop interface, IDataTransferManagerInterop interface [Windows Shell],GetForWindow method, IDataTransferManagerInterop.GetForWindow, IDataTransferManagerInterop::GetForWindow, shell.idatatransfermanagerinterop_getforwindow, shobjidl_core/IDataTransferManagerInterop::GetForWindow
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IDataTransferManagerInterop.GetForWindow"
+f1_keywords:
+- shobjidl_core/IDataTransferManagerInterop.GetForWindow
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - IDataTransferManagerInterop.GetForWindow
+- IDataTransferManagerInterop.GetForWindow
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:bdatif.IEnumTuneRequests.Next
 title: IEnumTuneRequests::Next (bdatif.h)
-
 description: The Next method retrieves the specified number of items in the collection.
 old-location: mstv\ienumtunerequests_next.htm
 tech.root: mstv
 ms.assetid: fb846bdb-f0ce-44f7-8d15-608c21e095c1
-
 ms.date: 12/05/2018
 ms.keywords: IEnumTuneRequests interface [Microsoft TV Technologies],Next method, IEnumTuneRequests.Next, IEnumTuneRequests::Next, IEnumTuneRequestsNext, Next, Next method [Microsoft TV Technologies], Next method [Microsoft TV Technologies],IEnumTuneRequests interface, bdatif/IEnumTuneRequests::Next, mstv.ienumtunerequests_next
 ms.topic: method
-f1_keywords: 
- - "bdatif/IEnumTuneRequests.Next"
+f1_keywords:
+- bdatif/IEnumTuneRequests.Next
 dev_langs:
- - c++
+- c++
 req.header: bdatif.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - bdatif.h
+- bdatif.h
 api_name:
- - IEnumTuneRequests.Next
+- IEnumTuneRequests.Next
 targetos: Windows
 req.typenames: 
 req.redist: 

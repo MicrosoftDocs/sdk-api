@@ -1,19 +1,17 @@
 ---
 UID: NF:oleauto.VarDateFromBool
 title: VarDateFromBool function (oleauto.h)
-
 description: Converts a Boolean value to a date value.
 old-location: automat\vardatefrombool.htm
 tech.root: automat
 ms.assetid: 8793c2b8-c544-4d80-b9ba-dfea6db56e5d
-
 ms.date: 12/05/2018
 ms.keywords: VarDateFromBool, VarDateFromBool function [Automation], _oa96_VarDateFromBool, automat.vardatefrombool, oleauto/VarDateFromBool
 ms.topic: function
-f1_keywords: 
- - "oleauto/VarDateFromBool"
+f1_keywords:
+- oleauto/VarDateFromBool
 dev_langs:
- - c++
+- c++
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: OleAut32.lib
 req.dll: OleAut32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - OleAut32.dll
+- OleAut32.dll
 api_name:
- - VarDateFromBool
+- VarDateFromBool
 targetos: Windows
 req.typenames: 
 req.redist: 

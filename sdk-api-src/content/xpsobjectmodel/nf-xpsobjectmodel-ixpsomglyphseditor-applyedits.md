@@ -1,19 +1,17 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMGlyphsEditor.ApplyEdits
 title: IXpsOMGlyphsEditor::ApplyEdits (xpsobjectmodel.h)
-
 description: Performs cross-property validation and then copies the changes to the parent IXpsOMGlyphs interface.
 old-location: xps\ixpsomglyphseditor_applyedits.htm
 tech.root: printdocs
 ms.assetid: ddbd8dc4-5d4f-4b30-8943-f4a5bc8e64c2
-
 ms.date: 12/05/2018
 ms.keywords: ApplyEdits, ApplyEdits method [XPS Documents and Packaging], ApplyEdits method [XPS Documents and Packaging],IXpsOMGlyphsEditor interface, IXpsOMGlyphsEditor interface [XPS Documents and Packaging],ApplyEdits method, IXpsOMGlyphsEditor.ApplyEdits, IXpsOMGlyphsEditor::ApplyEdits, xps.ixpsomglyphseditor_applyedits, xpsobjectmodel/IXpsOMGlyphsEditor::ApplyEdits
 ms.topic: method
-f1_keywords: 
- - "xpsobjectmodel/IXpsOMGlyphsEditor.ApplyEdits"
+f1_keywords:
+- xpsobjectmodel/IXpsOMGlyphsEditor.ApplyEdits
 dev_langs:
- - c++
+- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsobjectmodel.h
+- xpsobjectmodel.h
 api_name:
- - IXpsOMGlyphsEditor.ApplyEdits
+- IXpsOMGlyphsEditor.ApplyEdits
 targetos: Windows
 req.typenames: 
 req.redist: 

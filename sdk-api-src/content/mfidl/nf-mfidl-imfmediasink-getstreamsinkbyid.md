@@ -1,19 +1,17 @@
 ---
 UID: NF:mfidl.IMFMediaSink.GetStreamSinkById
 title: IMFMediaSink::GetStreamSinkById (mfidl.h)
-
 description: Gets a stream sink, specified by stream identifier.
 old-location: mf\imfmediasink_getstreamsinkbyid.htm
 tech.root: medfound
 ms.assetid: 267a8efc-6743-48ca-a1c4-da82f3770419
-
 ms.date: 12/05/2018
 ms.keywords: 267a8efc-6743-48ca-a1c4-da82f3770419, GetStreamSinkById, GetStreamSinkById method [Media Foundation], GetStreamSinkById method [Media Foundation],IMFMediaSink interface, IMFMediaSink interface [Media Foundation],GetStreamSinkById method, IMFMediaSink.GetStreamSinkById, IMFMediaSink::GetStreamSinkById, mf.imfmediasink_getstreamsinkbyid, mfidl/IMFMediaSink::GetStreamSinkById
 ms.topic: method
-f1_keywords: 
- - "mfidl/IMFMediaSink.GetStreamSinkById"
+f1_keywords:
+- mfidl/IMFMediaSink.GetStreamSinkById
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFMediaSink.GetStreamSinkById
+- IMFMediaSink.GetStreamSinkById
 targetos: Windows
 req.typenames: 
 req.redist: 

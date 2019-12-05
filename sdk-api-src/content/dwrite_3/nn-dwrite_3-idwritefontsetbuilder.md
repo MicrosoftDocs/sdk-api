@@ -1,19 +1,17 @@
 ---
 UID: NN:dwrite_3.IDWriteFontSetBuilder
 title: IDWriteFontSetBuilder (dwrite_3.h)
-
 description: Contains methods for building a font set.
 old-location: directwrite\idwritefontsetbuilder.htm
 tech.root: DirectWrite
 ms.assetid: CC6C95CA-BA8B-47C4-A241-650EC8477192
-
 ms.date: 12/05/2018
 ms.keywords: IDWriteFontSetBuilder, IDWriteFontSetBuilder interface [Direct Write], IDWriteFontSetBuilder interface [Direct Write],described, directwrite.idwritefontsetbuilder, dwrite_3/IDWriteFontSetBuilder
 ms.topic: interface
-f1_keywords: 
- - "dwrite_3/IDWriteFontSetBuilder"
+f1_keywords:
+- dwrite_3/IDWriteFontSetBuilder
 dev_langs:
- - c++
+- c++
 req.header: dwrite_3.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dwrite.lib
 req.dll: Dwrite.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dwrite.dll
+- dwrite.dll
 api_name:
- - IDWriteFontSetBuilder
+- IDWriteFontSetBuilder
 targetos: Windows
 req.typenames: 
 req.redist: 

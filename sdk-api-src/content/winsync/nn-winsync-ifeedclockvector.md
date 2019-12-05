@@ -1,19 +1,17 @@
 ---
 UID: NN:winsync.IFeedClockVector
 title: IFeedClockVector (winsync.h)
-
 description: Represents a clock vector that contains FeedSync information.
 old-location: winsync\ifeedclockvector.htm
 tech.root: winsync
 ms.assetid: 9acee83e-a16c-4511-a1e3-ce653ed09535
-
 ms.date: 12/05/2018
 ms.keywords: IFeedClockVector, IFeedClockVector interface [Windows Sync], IFeedClockVector interface [Windows Sync],described, winsync.ifeedclockvector, winsync/IFeedClockVector
 ms.topic: interface
-f1_keywords: 
- - "winsync/IFeedClockVector"
+f1_keywords:
+- winsync/IFeedClockVector
 dev_langs:
- - c++
+- c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - winsync.h
+- winsync.h
 api_name:
- - IFeedClockVector
+- IFeedClockVector
 targetos: Windows
 req.typenames: 
 req.redist: 

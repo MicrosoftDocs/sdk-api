@@ -1,19 +1,17 @@
 ---
 UID: NF:atscpsipparser.IATSC_VCT.GetRecordDescriptorByIndex
 title: IATSC_VCT::GetRecordDescriptorByIndex (atscpsipparser.h)
-
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\iatsc_vct_getrecorddescriptorbyindex.htm
 tech.root: mstv
 ms.assetid: de27ab5f-f3b4-4888-8df0-b8c2efd373d7
-
 ms.date: 12/05/2018
 ms.keywords: GetRecordDescriptorByIndex, GetRecordDescriptorByIndex method [Microsoft TV Technologies], GetRecordDescriptorByIndex method [Microsoft TV Technologies],IATSC_VCT interface, IATSC_VCT interface [Microsoft TV Technologies],GetRecordDescriptorByIndex method, IATSC_VCT.GetRecordDescriptorByIndex, IATSC_VCT::GetRecordDescriptorByIndex, IATSC_VCTGetRecordDescriptorByIndex, atscpsipparser/IATSC_VCT::GetRecordDescriptorByIndex, mstv.iatsc_vct_getrecorddescriptorbyindex
 ms.topic: method
-f1_keywords: 
- - "atscpsipparser/IATSC_VCT.GetRecordDescriptorByIndex"
+f1_keywords:
+- atscpsipparser/IATSC_VCT.GetRecordDescriptorByIndex
 dev_langs:
- - c++
+- c++
 req.header: atscpsipparser.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - atscpsipparser.h
+- atscpsipparser.h
 api_name:
- - IATSC_VCT.GetRecordDescriptorByIndex
+- IATSC_VCT.GetRecordDescriptorByIndex
 targetos: Windows
 req.typenames: 
 req.redist: 

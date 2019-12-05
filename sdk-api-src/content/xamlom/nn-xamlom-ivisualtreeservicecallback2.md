@@ -1,19 +1,17 @@
 ---
 UID: NN:xamlom.IVisualTreeServiceCallback2
 title: IVisualTreeServiceCallback2 (xamlom.h)
-
 description: Represents additional capabilities of an IVisualTreeServiceCallback object.
 old-location: xaml_diagnostics\ivisualtreeservicecallback2.htm
 tech.root: xaml_diagnostics
 ms.assetid: F1C11F32-9524-49D6-89DD-C89E4A81720A
-
 ms.date: 12/05/2018
 ms.keywords: IVisualTreeServiceCallback2, IVisualTreeServiceCallback2 interface, IVisualTreeServiceCallback2 interface,described, xaml_diagnostics.ivisualtreeservicecallback2, xamlom/IVisualTreeServiceCallback2
 ms.topic: interface
-f1_keywords: 
- - "xamlom/IVisualTreeServiceCallback2"
+f1_keywords:
+- xamlom/IVisualTreeServiceCallback2
 dev_langs:
- - c++
+- c++
 req.header: xamlom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xamlom.h
+- xamlom.h
 api_name:
- - IVisualTreeServiceCallback2
+- IVisualTreeServiceCallback2
 targetos: Windows
 req.typenames: 
 req.redist: 

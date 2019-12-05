@@ -1,19 +1,17 @@
 ---
 UID: NF:dhcpsapi.DhcpModifyClass
 title: DhcpModifyClass function (dhcpsapi.h)
-
 description: Modifies a DHCP class defined on the server.
 old-location: dhcp\dhcpmodifyclass.htm
 tech.root: DHCP
 ms.assetid: 4ee8897f-d49a-4b60-a26e-e7e11c088353
-
 ms.date: 12/05/2018
 ms.keywords: DhcpModifyClass, DhcpModifyClass function [DHCP], dhcp.dhcpmodifyclass, dhcpsapi/DhcpModifyClass
 ms.topic: function
 f1_keywords:
 - dhcpsapi/DhcpModifyClass
 dev_langs:
- - c++
+- c++
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows

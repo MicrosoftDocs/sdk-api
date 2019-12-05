@@ -1,19 +1,17 @@
 ---
 UID: NF:wincrypt.CertAddCertificateContextToStore
 title: CertAddCertificateContextToStore function (wincrypt.h)
-
 description: Adds a certificate context to the certificate store.
 old-location: security\certaddcertificatecontexttostore.htm
 tech.root: SecCrypto
 ms.assetid: 5e4d8cae-1096-491f-9a04-92b7e9c020bb
-
 ms.date: 12/05/2018
 ms.keywords: CERT_STORE_ADD_ALWAYS, CERT_STORE_ADD_NEW, CERT_STORE_ADD_NEWER, CERT_STORE_ADD_NEWER_INHERIT_PROPERTIES, CERT_STORE_ADD_REPLACE_EXISTING, CERT_STORE_ADD_REPLACE_EXISTING_INHERIT_PROPERTIES, CERT_STORE_ADD_USE_EXISTING, CertAddCertificateContextToStore, CertAddCertificateContextToStore function [Security], _crypto2_certaddcertificatecontexttostore, security.certaddcertificatecontexttostore, wincrypt/CertAddCertificateContextToStore
 ms.topic: function
 f1_keywords:
 - wincrypt/CertAddCertificateContextToStore
 dev_langs:
- - c++
+- c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

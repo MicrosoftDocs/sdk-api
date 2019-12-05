@@ -1,19 +1,17 @@
 ---
 UID: NF:d2d1.ID2D1RenderTarget.CreateSolidColorBrush(const D2D1_COLOR_F &,ID2D1SolidColorBrush)
 title: ID2D1RenderTarget::CreateSolidColorBrush(const D2D1_COLOR_F &,ID2D1SolidColorBrush) (d2d1.h)
-
 description: Creates a new ID2D1SolidColorBrush that has the specified color and a base opacity of 1.0f.
 old-location: direct2d\ID2D1RenderTarget_CreateSolidColorBrush_ref_COLOR_F_ptr_ptr_ID2D1SolidColorBrush.htm
 tech.root: Direct2D
 ms.assetid: 67974629-5c34-4c94-acad-586849cdb880
-
 ms.date: 12/05/2018
 ms.keywords: CreateSolidColorBrush, CreateSolidColorBrush method [Direct2D], CreateSolidColorBrush method [Direct2D],ID2D1RenderTarget interface, ID2D1RenderTarget interface [Direct2D],CreateSolidColorBrush method, ID2D1RenderTarget.CreateSolidColorBrush, ID2D1RenderTarget.CreateSolidColorBrush(const D2D1_COLOR_F &,ID2D1SolidColorBrush), ID2D1RenderTarget::CreateSolidColorBrush, ID2D1RenderTarget::CreateSolidColorBrush(const D2D1_COLOR_F &,ID2D1SolidColorBrush), d2d1/ID2D1RenderTarget::CreateSolidColorBrush, direct2d.ID2D1RenderTarget_CreateSolidColorBrush_ref_COLOR_F_ptr_ptr_ID2D1SolidColorBrush
 ms.topic: method
-f1_keywords: 
- - "d2d1/ID2D1RenderTarget.CreateSolidColorBrush"
+f1_keywords:
+- d2d1/ID2D1RenderTarget.CreateSolidColorBrush
 dev_langs:
- - c++
+- c++
 req.header: d2d1.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: D2d1.lib
 req.dll: D2d1.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D2d1.dll
+- D2d1.dll
 api_name:
- - ID2D1RenderTarget.CreateSolidColorBrush
+- ID2D1RenderTarget.CreateSolidColorBrush
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -4,10 +4,10 @@ title: BCryptRegisterConfigChangeNotify
 ms.date: 01/30/19
 ms.keywords: BCryptRegisterConfigChangeNotify
 ms.topic: language-reference
-f1_keywords: 
- - "bcrypt/BCryptRegisterConfigChangeNotify"
+f1_keywords:
+- bcrypt/BCryptRegisterConfigChangeNotify
 dev_langs:
- - c++
+- c++
 targetos: Windows
 req.assembly: 
 req.construct-type: function
@@ -29,13 +29,13 @@ req.type-library:
 req.umdf-ver: 
 req.unicode-ansi: 
 topic_type:
- - apiref
+- apiref
 api_type:
- - 
+- 
 api_location:
- - bcrypt.h
+- bcrypt.h
 api_name:
- - BCryptRegisterConfigChangeNotify
+- BCryptRegisterConfigChangeNotify
 ms.custom: 19H1
 ---
 

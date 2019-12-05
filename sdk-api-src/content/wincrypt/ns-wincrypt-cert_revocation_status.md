@@ -1,19 +1,17 @@
 ---
 UID: NS:wincrypt._CERT_REVOCATION_STATUS
 title: CERT_REVOCATION_STATUS (wincrypt.h)
-
 description: Contains information on the revocation status of the certificate.
 old-location: security\cert_revocation_status.htm
 tech.root: SecCrypto
 ms.assetid: 087ea37a-907a-4652-a5df-dd8e86755490
-
 ms.date: 12/05/2018
-ms.keywords: "*PCERT_REVOCATION_STATUS, CERT_REVOCATION_STATUS, CERT_REVOCATION_STATUS structure [Security], CRL_REASON_AFFILIATION_CHANGED, CRL_REASON_CA_COMPROMISE, CRL_REASON_CERTIFICATE_HOLD, CRL_REASON_CESSATION_OF_OPERATION, CRL_REASON_KEY_COMPROMISE, CRL_REASON_SUPERSEDED, CRL_REASON_UNSPECIFIED, PCERT_REVOCATION_STATUS, PCERT_REVOCATION_STATUS structure pointer [Security], _crypto2_cert_revocation_status, security.cert_revocation_status, wincrypt/CERT_REVOCATION_STATUS, wincrypt/PCERT_REVOCATION_STATUS"
+ms.keywords: '*PCERT_REVOCATION_STATUS, CERT_REVOCATION_STATUS, CERT_REVOCATION_STATUS structure [Security], CRL_REASON_AFFILIATION_CHANGED, CRL_REASON_CA_COMPROMISE, CRL_REASON_CERTIFICATE_HOLD, CRL_REASON_CESSATION_OF_OPERATION, CRL_REASON_KEY_COMPROMISE, CRL_REASON_SUPERSEDED, CRL_REASON_UNSPECIFIED, PCERT_REVOCATION_STATUS, PCERT_REVOCATION_STATUS structure pointer [Security], _crypto2_cert_revocation_status, security.cert_revocation_status, wincrypt/CERT_REVOCATION_STATUS, wincrypt/PCERT_REVOCATION_STATUS'
 ms.topic: struct
-f1_keywords: 
- - "wincrypt/CERT_REVOCATION_STATUS"
+f1_keywords:
+- wincrypt/CERT_REVOCATION_STATUS
 dev_langs:
- - c++
+- c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wincrypt.h
+- Wincrypt.h
 api_name:
- - CERT_REVOCATION_STATUS
+- CERT_REVOCATION_STATUS
 targetos: Windows
 req.typenames: CERT_REVOCATION_STATUS, *PCERT_REVOCATION_STATUS
 req.redist: 

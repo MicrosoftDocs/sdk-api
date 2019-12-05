@@ -1,19 +1,17 @@
 ---
 UID: NF:vfw.AVISaveOptionsFree
 title: AVISaveOptionsFree function (vfw.h)
-
 description: The AVISaveOptionsFree function frees the resources allocated by the AVISaveOptions function.
 old-location: multimedia\avisaveoptionsfree.htm
 tech.root: Multimedia
 ms.assetid: c88a786f-d008-4eb6-af3d-59a0f62ac09d
-
 ms.date: 12/05/2018
 ms.keywords: AVISaveOptionsFree, AVISaveOptionsFree function [Windows Multimedia], _win32_AVISaveOptionsFree, multimedia.avisaveoptionsfree, vfw/AVISaveOptionsFree
 ms.topic: function
-f1_keywords: 
- - "vfw/AVISaveOptionsFree"
+f1_keywords:
+- vfw/AVISaveOptionsFree
 dev_langs:
- - c++
+- c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Vfw32.lib
 req.dll: Avifil32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Avifil32.dll
+- Avifil32.dll
 api_name:
- - AVISaveOptionsFree
+- AVISaveOptionsFree
 targetos: Windows
 req.typenames: 
 req.redist: 

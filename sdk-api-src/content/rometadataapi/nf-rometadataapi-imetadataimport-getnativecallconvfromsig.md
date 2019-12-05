@@ -1,19 +1,17 @@
 ---
 UID: NF:rometadataapi.IMetaDataImport.GetNativeCallConvFromSig
 title: IMetaDataImport::GetNativeCallConvFromSig (rometadataapi.h)
-
 description: Gets the native calling convention for the method that is represented by the specified signature pointer.
 old-location: winrt\imetadataimport_getnativecallconvfromsig.htm
 tech.root: WinRT
 ms.assetid: 90e09d3d-c77e-44c3-b4d0-6b2aee995b1e
-
 ms.date: 12/05/2018
 ms.keywords: GetNativeCallConvFromSig, GetNativeCallConvFromSig method [Windows Runtime], GetNativeCallConvFromSig method [Windows Runtime],IMetaDataImport interface, IMetaDataImport interface [Windows Runtime],GetNativeCallConvFromSig method, IMetaDataImport.GetNativeCallConvFromSig, IMetaDataImport::GetNativeCallConvFromSig, rometadataapi/IMetaDataImport::GetNativeCallConvFromSig, winrt.imetadataimport_getnativecallconvfromsig
 ms.topic: method
-f1_keywords: 
- - "rometadataapi/IMetaDataImport.GetNativeCallConvFromSig"
+f1_keywords:
+- rometadataapi/IMetaDataImport.GetNativeCallConvFromSig
 dev_langs:
- - c++
+- c++
 req.header: rometadataapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - rometadataapi.h
+- rometadataapi.h
 api_name:
- - IMetaDataImport.GetNativeCallConvFromSig
+- IMetaDataImport.GetNativeCallConvFromSig
 targetos: Windows
 req.typenames: 
 req.redist: 

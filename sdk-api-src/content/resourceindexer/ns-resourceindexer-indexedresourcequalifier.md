@@ -1,19 +1,17 @@
 ---
 UID: NS:resourceindexer.__unnamed_struct_0
 title: IndexedResourceQualifier (resourceindexer.h)
-
 description: Represents the context under which a resource is appropriate.
 old-location: menurc\indexedresourcequalifier.htm
 tech.root: menurc
 ms.assetid: A6F253AD-0756-4996-AC6C-5B09C55DE22E
-
 ms.date: 12/05/2018
 ms.keywords: IndexedResourceQualifier, IndexedResourceQualifier structure [Menus and Other Resources], menurc.indexedresourcequalifier, resourceindexer/IndexedResourceQualifier
 ms.topic: struct
-f1_keywords: 
- - "resourceindexer/IndexedResourceQualifier"
+f1_keywords:
+- resourceindexer/IndexedResourceQualifier
 dev_langs:
- - c++
+- c++
 req.header: resourceindexer.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - resourceindexer.h
+- resourceindexer.h
 api_name:
- - IndexedResourceQualifier
+- IndexedResourceQualifier
 targetos: Windows
 req.typenames: IndexedResourceQualifier
 req.redist: 

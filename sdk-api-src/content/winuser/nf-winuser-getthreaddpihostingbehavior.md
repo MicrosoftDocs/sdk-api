@@ -1,19 +1,17 @@
 ---
 UID: NF:winuser.GetThreadDpiHostingBehavior
 title: GetThreadDpiHostingBehavior function (winuser.h)
-
 description: Retrieves the DPI_HOSTING_BEHAVIOR from the current thread.
 old-location: hidpi\getthreaddpihostingbehavior.htm
 tech.root: hidpi
 ms.assetid: B9500745-9B53-47FF-9F45-0BFF3A66FD46
-
 ms.date: 12/05/2018
 ms.keywords: GetThreadDpiHostingBehavior, GetThreadDpiHostingBehavior function [High DPI], hidpi.getthreaddpihostingbehavior, winuser/GetThreadDpiHostingBehavior
 ms.topic: function
-f1_keywords: 
- - "winuser/GetThreadDpiHostingBehavior"
+f1_keywords:
+- winuser/GetThreadDpiHostingBehavior
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - User32.dll
+- User32.dll
 api_name:
- - GetThreadDpiHostingBehavior
+- GetThreadDpiHostingBehavior
 targetos: Windows
 req.typenames: 
 req.redist: 

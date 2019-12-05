@@ -1,19 +1,17 @@
 ---
 UID: NN:bits.IBackgroundCopyManager
 title: IBackgroundCopyManager (bits.h)
-
 description: Creates transfer jobs, retrieves an enumerator object that contains the jobs in the queue, and retrieves individual jobs from the queue.
 old-location: bits\ibackgroundcopymanager.htm
 tech.root: Bits
 ms.assetid: fc98dfb3-7e10-421d-b722-223bd8a65330
-
 ms.date: 12/05/2018
 ms.keywords: IBackgroundCopyManager, IBackgroundCopyManager interface [BITS], IBackgroundCopyManager interface [BITS],described, _drz_ibackgroundcopymanager, bits.ibackgroundcopymanager, bits/IBackgroundCopyManager
 ms.topic: interface
-f1_keywords: 
- - "bits/IBackgroundCopyManager"
+f1_keywords:
+- bits/IBackgroundCopyManager
 dev_langs:
- - c++
+- c++
 req.header: bits.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Bits.lib
 req.dll: QmgrPrxy.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - QmgrPrxy.dll
+- QmgrPrxy.dll
 api_name:
- - IBackgroundCopyManager
+- IBackgroundCopyManager
 targetos: Windows
 req.typenames: 
 req.redist: 

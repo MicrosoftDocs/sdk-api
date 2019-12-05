@@ -1,19 +1,17 @@
 ---
 UID: NE:msopc.__MIDL___MIDL_itf_msopc_0000_0002_0003
 title: OPC_STREAM_IO_MODE (msopc.h)
-
 description: Describes the read/write status of a stream.
 old-location: opc\opc_stream_io_mode.htm
 tech.root: OPC
 ms.assetid: cf72ddcf-5472-451f-bfa8-94f549dc9246
-
 ms.date: 12/05/2018
 ms.keywords: OPC_STREAM_IO_MODE, OPC_STREAM_IO_MODE enumeration [Open Packaging Conventions], OPC_STREAM_IO_READ, OPC_STREAM_IO_WRITE, msopc/OPC_STREAM_IO_MODE, msopc/OPC_STREAM_IO_READ, msopc/OPC_STREAM_IO_WRITE, opc.opc_stream_io_mode
 ms.topic: enum
-f1_keywords: 
- - "msopc/OPC_STREAM_IO_MODE"
+f1_keywords:
+- msopc/OPC_STREAM_IO_MODE
 dev_langs:
- - c++
+- c++
 req.header: msopc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - msopc.h
+- msopc.h
 api_name:
- - OPC_STREAM_IO_MODE
+- OPC_STREAM_IO_MODE
 targetos: Windows
 req.typenames: OPC_STREAM_IO_MODE
 req.redist: 

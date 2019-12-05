@@ -1,19 +1,17 @@
 ---
 UID: NF:featurestagingapi.RecordFeatureError
 title: RecordFeatureError function (featurestagingapi.h)
-
 description: This function is intended for infrastructure use only.
 old-location: winprog\recordfeatureerror.htm
 tech.root: DevNotes
 ms.assetid: 8179277A-9F98-4FF1-8368-9393B12023D0
-
 ms.date: 12/05/2018
 ms.keywords: RecordFeatureError, RecordFeatureError function [Windows API], featurestagingapi/RecordFeatureError, winprog.recordfeatureerror
 ms.topic: function
-f1_keywords: 
- - "featurestagingapi/RecordFeatureError"
+f1_keywords:
+- featurestagingapi/RecordFeatureError
 dev_langs:
- - c++
+- c++
 req.header: featurestagingapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Shcore.lib
 req.dll: Api-ms-win-core-featurestaging-l1-1-0.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - api-ms-win-core-featurestaging-l1-1-0.dll
+- api-ms-win-core-featurestaging-l1-1-0.dll
 api_name:
- - RecordFeatureError
+- RecordFeatureError
 targetos: Windows
 req.typenames: 
 req.redist: 

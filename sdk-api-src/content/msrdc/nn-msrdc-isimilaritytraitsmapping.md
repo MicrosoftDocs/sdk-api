@@ -1,19 +1,17 @@
 ---
 UID: NN:msrdc.ISimilarityTraitsMapping
 title: ISimilarityTraitsMapping (msrdc.h)
-
 description: Provides methods that an RDC application can implement for creating and manipulating a file mapping object for a similarity traits table file.
 old-location: rdc\isimilaritytraitsmapping.htm
 tech.root: rdc
 ms.assetid: 1ddc599b-5a9b-4807-9005-00793f9a6ed4
-
 ms.date: 12/05/2018
 ms.keywords: ISimilarityTraitsMapping, ISimilarityTraitsMapping interface [Remote Differential Compression], ISimilarityTraitsMapping interface [Remote Differential Compression],described, fs.isimilaritytraitsmapping, msrdc/ISimilarityTraitsMapping, rdc.isimilaritytraitsmapping
 ms.topic: interface
-f1_keywords: 
- - "msrdc/ISimilarityTraitsMapping"
+f1_keywords:
+- msrdc/ISimilarityTraitsMapping
 dev_langs:
- - c++
+- c++
 req.header: msrdc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: MsRdc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - MsRdc.dll
+- MsRdc.dll
 api_name:
- - ISimilarityTraitsMapping
+- ISimilarityTraitsMapping
 targetos: Windows
 req.typenames: 
 req.redist: 

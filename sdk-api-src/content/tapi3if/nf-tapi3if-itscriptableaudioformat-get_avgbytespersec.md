@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi3if.ITScriptableAudioFormat.get_AvgBytesPerSec
 title: ITScriptableAudioFormat::get_AvgBytesPerSec (tapi3if.h)
-
 description: The get_AvgBytesPerSec method returns the value for the nAvgBytesPerSec member in the WAVEFORMATEX structure.
 old-location: tapi3\itscriptableaudioformat_get_avgbytespersec.htm
 tech.root: Tapi
 ms.assetid: fe54e1a5-ff8f-486d-90ba-3c7fc595ec1d
-
 ms.date: 12/05/2018
 ms.keywords: ITScriptableAudioFormat interface [TAPI 2.2],get_AvgBytesPerSec method, ITScriptableAudioFormat.get_AvgBytesPerSec, ITScriptableAudioFormat::get_AvgBytesPerSec, _tapi3_itscriptableaudioformat_get_avgbytespersec, get_AvgBytesPerSec, get_AvgBytesPerSec method [TAPI 2.2], get_AvgBytesPerSec method [TAPI 2.2],ITScriptableAudioFormat interface, tapi3.itscriptableaudioformat_get_avgbytespersec, tapi3if/ITScriptableAudioFormat::get_AvgBytesPerSec
 ms.topic: method
-f1_keywords: 
- - "tapi3if/ITScriptableAudioFormat.get_AvgBytesPerSec"
+f1_keywords:
+- tapi3if/ITScriptableAudioFormat.get_AvgBytesPerSec
 dev_langs:
- - c++
+- c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Tapi3.dll
+- Tapi3.dll
 api_name:
- - ITScriptableAudioFormat.get_AvgBytesPerSec
+- ITScriptableAudioFormat.get_AvgBytesPerSec
 targetos: Windows
 req.typenames: 
 req.redist: 

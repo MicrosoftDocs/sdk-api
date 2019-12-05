@@ -1,19 +1,17 @@
 ---
 UID: NF:mmiscapi.GetDriverModuleHandle
 title: GetDriverModuleHandle function (mmiscapi.h)
-
 description: Retrieves the instance handle of the module that contains the installable driver.
 old-location: multimedia\getdrivermodulehandle.htm
 tech.root: Multimedia
 ms.assetid: 13395864-f14f-4193-a451-4ac5f9830242
-
 ms.date: 12/05/2018
 ms.keywords: GetDriverModuleHandle, GetDriverModuleHandle function [Windows Multimedia], _win32_GetDriverModuleHandle, mmsystem/GetDriverModuleHandle, multimedia.getdrivermodulehandle
 ms.topic: function
-f1_keywords: 
- - "mmiscapi/GetDriverModuleHandle"
+f1_keywords:
+- mmiscapi/GetDriverModuleHandle
 dev_langs:
- - c++
+- c++
 req.header: mmiscapi.h
 req.include-header: Mmiscapi.h, Windows.h
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib: Winmm.lib
 req.dll: Winmm.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Winmm.dll
- - API-MS-Win-mm-misc-l1-1-0.dll
- - winmmbase.dll
- - API-MS-Win-mm-misc-l1-1-1.dll
- - ext-ms-win-mf-winmm-l1-1-0.dll
+- Winmm.dll
+- API-MS-Win-mm-misc-l1-1-0.dll
+- winmmbase.dll
+- API-MS-Win-mm-misc-l1-1-1.dll
+- ext-ms-win-mf-winmm-l1-1-0.dll
 api_name:
- - GetDriverModuleHandle
+- GetDriverModuleHandle
 targetos: Windows
 req.typenames: 
 req.redist: 

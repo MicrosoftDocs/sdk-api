@@ -1,19 +1,17 @@
 ---
 UID: NF:namespaceapi.ClosePrivateNamespace
 title: ClosePrivateNamespace function (namespaceapi.h)
-
 description: Closes an open namespace handle.
 old-location: base\closeprivatenamespace.htm
 tech.root: Sync
 ms.assetid: b9b74cf2-bf13-4ceb-9242-bc6a884ac6f1
-
 ms.date: 12/05/2018
 ms.keywords: ClosePrivateNamespace, ClosePrivateNamespace function, base.closeprivatenamespace, namespaceapi/ClosePrivateNamespace, winbase/ClosePrivateNamespace
 ms.topic: function
-f1_keywords: 
- - "namespaceapi/ClosePrivateNamespace"
+f1_keywords:
+- namespaceapi/ClosePrivateNamespace
 dev_langs:
- - c++
+- c++
 req.header: namespaceapi.h
 req.include-header: Windows 7, Windows Server 2008  Windows Server 2008 R2, Windows.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-Namespace-l1-1-0.dll
- - KernelBase.dll
- - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+- Kernel32.dll
+- API-MS-Win-Core-Namespace-l1-1-0.dll
+- KernelBase.dll
+- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
 api_name:
- - ClosePrivateNamespace
+- ClosePrivateNamespace
 targetos: Windows
 req.typenames: 
 req.redist: 

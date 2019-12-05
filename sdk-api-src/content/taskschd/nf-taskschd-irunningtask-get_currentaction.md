@@ -1,19 +1,17 @@
 ---
 UID: NF:taskschd.IRunningTask.get_CurrentAction
 title: IRunningTask::get_CurrentAction (taskschd.h)
-
 description: Gets the name of the current action that the running task is performing.
 old-location: taskschd\irunningtask_currentaction.htm
 tech.root: taskschd
 ms.assetid: 52b58477-e968-4c76-835d-02ed63cef641
-
 ms.date: 12/05/2018
 ms.keywords: CurrentAction property [Task Scheduler], CurrentAction property [Task Scheduler],IRunningTask interface, IRunningTask interface [Task Scheduler],CurrentAction property, IRunningTask.CurrentAction, IRunningTask.get_CurrentAction, IRunningTask::CurrentAction, IRunningTask::get_CurrentAction, get_CurrentAction, taskschd.irunningtask_currentaction, taskschd/IRunningTask::CurrentAction, taskschd/IRunningTask::get_CurrentAction
 ms.topic: method
-f1_keywords: 
- - "taskschd/IRunningTask.CurrentAction"
+f1_keywords:
+- taskschd/IRunningTask.CurrentAction
 dev_langs:
- - c++
+- c++
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Taskschd.lib
 req.dll: Taskschd.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - taskschd.dll
+- taskschd.dll
 api_name:
- - IRunningTask.CurrentAction
- - IRunningTask.get_CurrentAction
+- IRunningTask.CurrentAction
+- IRunningTask.get_CurrentAction
 targetos: Windows
 req.typenames: 
 req.redist: 

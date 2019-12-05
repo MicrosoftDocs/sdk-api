@@ -1,19 +1,17 @@
 ---
 UID: NF:propidlbase.IPropertyStorage.Revert
 title: IPropertyStorage::Revert (propidlbase.h)
-
 description: The Revert method discards all changes to the named property set since it was last opened or discards changes that were last committed to the property set. This method has no effect on a direct-mode property set.
 old-location: stg\ipropertystorage_revert.htm
 tech.root: Stg
 ms.assetid: 31e0d3e7-8575-4788-b42e-606221cf5a4c
-
 ms.date: 12/05/2018
 ms.keywords: IPropertyStorage [Strctd Stg],Revert, IPropertyStorage interface [Structured Storage],Revert method, IPropertyStorage.Revert, IPropertyStorage::Revert, Revert, Revert method [Structured Storage], Revert method [Structured Storage],IPropertyStorage interface, _stg_ipropertystorage_revert, propidl/IPropertyStorage::Revert, stg.ipropertystorage_revert
 ms.topic: method
-f1_keywords: 
- - "propidlbase/IPropertyStorage.Revert"
+f1_keywords:
+- propidlbase/IPropertyStorage.Revert
 dev_langs:
- - c++
+- c++
 req.header: propidlbase.h
 req.include-header: Objbase.h, Propidlbase.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Ole32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Ole32.dll
+- Ole32.dll
 api_name:
- - IPropertyStorage.Revert
+- IPropertyStorage.Revert
 targetos: Windows
 req.typenames: 
 req.redist: 

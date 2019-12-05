@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationElement7.FindAllWithOptions
 title: IUIAutomationElement7::FindAllWithOptions (uiautomationclient.h)
-
 description: Find all matching elements in the specified order.
 old-location: winauto\uiauto_IUIAutomationElement7_FindAllWithOptions.htm
 tech.root: WinAuto
 ms.assetid: 1B157EBE-5576-41E8-9B4C-752EFA7832E5
-
 ms.date: 12/05/2018
 ms.keywords: FindAllWithOptions, FindAllWithOptions method [Windows Accessibility], FindAllWithOptions method [Windows Accessibility],IUIAutomationElement7 interface, IUIAutomationElement7 interface [Windows Accessibility],FindAllWithOptions method, IUIAutomationElement7.FindAllWithOptions, IUIAutomationElement7::FindAllWithOptions, uiautomationclient/IUIAutomationElement7::FindAllWithOptions, winauto.uiauto_IUIAutomationElement7_FindAllWithOptions, winauto.uiauto_iuiautomationelement_findallwithoptions
 ms.topic: method
-f1_keywords: 
- - "uiautomationclient/IUIAutomationElement7.FindAllWithOptions"
+f1_keywords:
+- uiautomationclient/IUIAutomationElement7.FindAllWithOptions
 dev_langs:
- - c++
+- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: UIAutomationCore.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationCore.dll
+- UIAutomationCore.dll
 api_name:
- - IUIAutomationElement7.FindAllWithOptions
+- IUIAutomationElement7.FindAllWithOptions
 targetos: Windows
 req.typenames: 
 req.redist: 

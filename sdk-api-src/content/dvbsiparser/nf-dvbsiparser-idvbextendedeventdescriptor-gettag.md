@@ -1,19 +1,17 @@
 ---
 UID: NF:dvbsiparser.IDvbExtendedEventDescriptor.GetTag
 title: IDvbExtendedEventDescriptor::GetTag (dvbsiparser.h)
-
 description: Gets the tag that identifies a Digital Video Broadcast (DVB) extended event descriptor.
 old-location: mstv\idvbextendedeventdescriptor_gettag.htm
 tech.root: mstv
 ms.assetid: 8f6dad8a-fd95-48c3-9bb2-222c5ec958f5
-
 ms.date: 12/05/2018
 ms.keywords: GetTag, GetTag method [Microsoft TV Technologies], GetTag method [Microsoft TV Technologies],IDvbExtendedEventDescriptor interface, IDvbExtendedEventDescriptor interface [Microsoft TV Technologies],GetTag method, IDvbExtendedEventDescriptor.GetTag, IDvbExtendedEventDescriptor::GetTag, dvbsiparser/IDvbExtendedEventDescriptor::GetTag, mstv.idvbextendedeventdescriptor_gettag
 ms.topic: method
-f1_keywords: 
- - "dvbsiparser/IDvbExtendedEventDescriptor.GetTag"
+f1_keywords:
+- dvbsiparser/IDvbExtendedEventDescriptor.GetTag
 dev_langs:
- - c++
+- c++
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dvbsiparser.h
+- dvbsiparser.h
 api_name:
- - IDvbExtendedEventDescriptor.GetTag
+- IDvbExtendedEventDescriptor.GetTag
 targetos: Windows
 req.typenames: 
 req.redist: 

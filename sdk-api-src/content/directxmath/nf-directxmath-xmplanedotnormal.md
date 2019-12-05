@@ -1,19 +1,17 @@
 ---
 UID: NF:directxmath.XMPlaneDotNormal
 title: XMPlaneDotNormal function (directxmath.h)
-
 description: Calculates the dot product between the normal vector of a plane and a 3D vector.
 old-location: dxmath\xmplanedotnormal.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.plane.XMPlaneDotNormal(XMVECTOR,XMVECTOR)
-
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMPlaneDotNormal, XMPlaneDotNormal, XMPlaneDotNormal method [DirectX Math Support APIs], dxmath.xmplanedotnormal
 ms.topic: function
-f1_keywords: 
- - "directxmath/XMPlaneDotNormal"
+f1_keywords:
+- directxmath/XMPlaneDotNormal
 dev_langs:
- - c++
+- c++
 req.header: directxmath.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - DirectXMath.h
+- DirectXMath.h
 api_name:
- - XMPlaneDotNormal
+- XMPlaneDotNormal
 targetos: Windows
 req.typenames: 
 req.redist: 

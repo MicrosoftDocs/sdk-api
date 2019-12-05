@@ -1,19 +1,17 @@
 ---
 UID: NF:ole2.WriteFmtUserTypeStg
 title: WriteFmtUserTypeStg function (ole2.h)
-
 description: The WriteFmtUserTypeStg function writes a clipboard format and user type to the storage object.
 old-location: stg\writefmtusertypestg.htm
 tech.root: Stg
 ms.assetid: ef60493c-164e-4633-a248-05c4afade937
-
 ms.date: 12/05/2018
 ms.keywords: WriteFmtUserTypeStg, WriteFmtUserTypeStg function [Structured Storage], _stg_writefmtusertypestg, ole2/WriteFmtUserTypeStg, stg.writefmtusertypestg
 ms.topic: function
-f1_keywords: 
- - "ole2/WriteFmtUserTypeStg"
+f1_keywords:
+- ole2/WriteFmtUserTypeStg
 dev_langs:
- - c++
+- c++
 req.header: ole2.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Ole32.lib
 req.dll: Ole32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ole32.dll
- - Ext-MS-Win-Com-OLE32-l1-1-3.dll
- - Ext-MS-Win-Com-Ole32-L1-1-4.dll
+- Ole32.dll
+- Ext-MS-Win-Com-OLE32-l1-1-3.dll
+- Ext-MS-Win-Com-Ole32-L1-1-4.dll
 api_name:
- - WriteFmtUserTypeStg
+- WriteFmtUserTypeStg
 targetos: Windows
 req.typenames: 
 req.redist: 

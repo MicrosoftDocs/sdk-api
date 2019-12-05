@@ -1,19 +1,17 @@
 ---
 UID: NF:winsync.ISyncKnowledge.Union
 title: ISyncKnowledge::Union (winsync.h)
-
 description: Combines the specified knowledge with the current knowledge.
 old-location: winsync\isyncknowledge_union.htm
 tech.root: winsync
 ms.assetid: 95d88d28-57b7-4b4a-abda-a69f25b1e8b8
-
 ms.date: 12/05/2018
 ms.keywords: ISyncKnowledge interface [Windows Sync],Union method, ISyncKnowledge.Union, ISyncKnowledge::Union, Union, Union method [Windows Sync], Union method [Windows Sync],ISyncKnowledge interface, winsync.isyncknowledge_union, winsync/ISyncKnowledge::Union
 ms.topic: method
-f1_keywords: 
- - "winsync/ISyncKnowledge.Union"
+f1_keywords:
+- winsync/ISyncKnowledge.Union
 dev_langs:
- - c++
+- c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - winsync.h
+- winsync.h
 api_name:
- - ISyncKnowledge.Union
+- ISyncKnowledge.Union
 targetos: Windows
 req.typenames: 
 req.redist: 

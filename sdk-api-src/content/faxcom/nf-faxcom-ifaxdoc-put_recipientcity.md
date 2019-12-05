@@ -1,19 +1,17 @@
 ---
 UID: NF:faxcom.IFaxDoc.put_RecipientCity
 title: IFaxDoc::put_RecipientCity (faxcom.h)
-
 description: Sets or retrieves the RecipientCity property of a FaxDoc object. The RecipientCity property is a null-terminated string that contains the city name of the recipient of the fax transmission.
 old-location: fax\_mfax_ifaxdoc_mfax_ifaxdoc_get_recipientcity_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_4uih.htm
-
 ms.date: 12/05/2018
 ms.keywords: IFaxDoc interface [Fax Service],RecipientCity property, IFaxDoc.RecipientCity, IFaxDoc.put_RecipientCity, IFaxDoc::RecipientCity, IFaxDoc::get_RecipientCity, IFaxDoc::put_RecipientCity, RecipientCity property [Fax Service], RecipientCity property [Fax Service],IFaxDoc interface, _mfax_ifaxdoc_get_recipientcity, fax._mfax_ifaxdoc_get_recipientcity, fax._mfax_ifaxdoc_mfax_ifaxdoc_get_recipientcity_cpp, faxcom/IFaxDoc::RecipientCity, faxcom/IFaxDoc::get_RecipientCity, faxcom/IFaxDoc::put_RecipientCity, put_RecipientCity
 ms.topic: method
-f1_keywords: 
- - "faxcom/IFaxDoc.RecipientCity"
+f1_keywords:
+- faxcom/IFaxDoc.RecipientCity
 dev_langs:
- - c++
+- c++
 req.header: faxcom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: Faxcom.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Faxcom.dll
+- Faxcom.dll
 api_name:
- - IFaxDoc.RecipientCity
- - IFaxDoc.get_RecipientCity
- - IFaxDoc.put_RecipientCity
+- IFaxDoc.RecipientCity
+- IFaxDoc.get_RecipientCity
+- IFaxDoc.put_RecipientCity
 targetos: Windows
 req.typenames: 
 req.redist: 

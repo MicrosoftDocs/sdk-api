@@ -1,19 +1,17 @@
 ---
 UID: NF:clusapi.ClusterGroupEnum
 title: ClusterGroupEnum function (clusapi.h)
-
 description: Enumerates the resources in a group or the nodes that are the preferred owners of a group, returning the name of the resource or node with each call.
 old-location: mscs\clustergroupenum.htm
 tech.root: MsCS
 ms.assetid: fffcae88-8df0-487f-9f6d-bc3560283ef1
-
 ms.date: 12/05/2018
 ms.keywords: CLUSTER_GROUP_ENUM_CONTAINS, CLUSTER_GROUP_ENUM_NODES, ClusterGroupEnum, ClusterGroupEnum function [Failover Cluster], PCLUSAPI_CLUSTER_GROUP_ENUM, PCLUSAPI_CLUSTER_GROUP_ENUM function [Failover Cluster], _wolf_clustergroupenum, clusapi/ClusterGroupEnum, clusapi/PCLUSAPI_CLUSTER_GROUP_ENUM, mscs.clustergroupenum
 ms.topic: function
-f1_keywords: 
- - "clusapi/ClusterGroupEnum"
+f1_keywords:
+- clusapi/ClusterGroupEnum
 dev_langs:
- - c++
+- c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: ClusAPI.lib
 req.dll: ClusAPI.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - ClusAPI.dll
+- ClusAPI.dll
 api_name:
- - ClusterGroupEnum
+- ClusterGroupEnum
 targetos: Windows
 req.typenames: 
 req.redist: 

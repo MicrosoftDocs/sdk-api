@@ -1,19 +1,17 @@
 ---
 UID: NF:strsafe.StringCchCopyA
 title: StringCchCopyA function (strsafe.h)
-
 description: Copies one string to another.
 old-location: menurc\stringcchcopy.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\strings\stringreference\stringfunctions\stringcchcopy.htm
-
 ms.date: 12/05/2018
 ms.keywords: StringCchCopy, StringCchCopy function [Menus and Other Resources], StringCchCopyA, StringCchCopyW, _shell_StringCchCopy, _shell_stringcchcopy_cpp, menurc.stringcchcopy, strsafe/StringCchCopy, strsafe/StringCchCopyA, strsafe/StringCchCopyW, winui._shell_stringcchcopy
 ms.topic: function
-f1_keywords: 
- - "strsafe/StringCchCopy"
+f1_keywords:
+- strsafe/StringCchCopy
 dev_langs:
- - c++
+- c++
 req.header: strsafe.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Strsafe.h
+- Strsafe.h
 api_name:
- - StringCchCopy
- - StringCchCopyA
- - StringCchCopyW
+- StringCchCopy
+- StringCchCopyA
+- StringCchCopyW
 targetos: Windows
 req.typenames: 
 req.redist: 

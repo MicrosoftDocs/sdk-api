@@ -1,19 +1,17 @@
 ---
 UID: NF:winuser.PeekMessageW
 title: PeekMessageW function (winuser.h)
-
 description: Dispatches incoming sent messages, checks the thread message queue for a posted message, and retrieves the message (if any exist).
 old-location: winmsg\peekmessage.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\messagesandmessagequeues\messagesandmessagequeuesreference\messagesandmessagequeuesfunctions\peekmessage.htm
-
 ms.date: 12/05/2018
 ms.keywords: PM_NOREMOVE, PM_NOYIELD, PM_QS_INPUT, PM_QS_PAINT, PM_QS_POSTMESSAGE, PM_QS_SENDMESSAGE, PM_REMOVE, PeekMessage, PeekMessage function [Windows and Messages], PeekMessageA, PeekMessageW, _win32_PeekMessage, _win32_peekmessage_cpp, winmsg.peekmessage, winui._win32_peekmessage, winuser/PeekMessage, winuser/PeekMessageA, winuser/PeekMessageW
 ms.topic: function
-f1_keywords: 
- - "winuser/PeekMessage"
+f1_keywords:
+- winuser/PeekMessage
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,25 +30,25 @@ req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - User32.dll
- - API-MS-Win-NTUser-IE-message-l1-1-0.dll
- - ie_shims.dll
- - API-MS-Win-RTCore-NTUser-Window-l1-1-0.dll
- - minuser.dll
- - Ext-MS-Win-NTUser-message-l1-1-0.dll
- - Ext-MS-Win-NTUser-message-l1-1-1.dll
- - Ext-MS-Win-RTCore-NTUser-Window-Ext-l1-1-0.dll
- - Ext-MS-Win-NTUser-Message-l1-1-2.dll
- - Ext-MS-Win-NTUser-Message-L1-1-3.dll
+- User32.dll
+- API-MS-Win-NTUser-IE-message-l1-1-0.dll
+- ie_shims.dll
+- API-MS-Win-RTCore-NTUser-Window-l1-1-0.dll
+- minuser.dll
+- Ext-MS-Win-NTUser-message-l1-1-0.dll
+- Ext-MS-Win-NTUser-message-l1-1-1.dll
+- Ext-MS-Win-RTCore-NTUser-Window-Ext-l1-1-0.dll
+- Ext-MS-Win-NTUser-Message-l1-1-2.dll
+- Ext-MS-Win-NTUser-Message-L1-1-3.dll
 api_name:
- - PeekMessage
- - PeekMessageA
- - PeekMessageW
+- PeekMessage
+- PeekMessageA
+- PeekMessageW
 targetos: Windows
 req.typenames: 
 req.redist: 

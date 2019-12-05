@@ -2,16 +2,14 @@
 UID: NN:dwrite_3.IDWriteFactory6
 title: IDWriteFactory6
 description: This interface represents a factory object from which all DirectWrite objects are created. **IDWriteFactory6** adds new facilities for working with fonts and font resources.
-
 tech.root: DirectWrite
-
 ms.date: 09/10/2019
 ms.keywords: IDWriteFactory6, IDWriteFactory6 interface [Direct Write], IDWriteFactory6 interface [Direct Write],described, directwrite.idwritefactory6, dwrite_3/IDWriteFactory6
 ms.topic: interface
 f1_keywords:
- - IDWriteFactory6
+- IDWriteFactory6
 dev_langs:
- - c++
+- c++
 targetos: Windows
 req.assembly: 
 req.construct-type: iface
@@ -28,15 +26,15 @@ req.target-min-winversvr:
 req.target-type: Windows
 req.unicode-ansi: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dwrite.lib
- - Dwrite.dll
+- Dwrite.lib
+- Dwrite.dll
 api_name:
- - IDWriteFactory6
+- IDWriteFactory6
 ---
 
 ## -description

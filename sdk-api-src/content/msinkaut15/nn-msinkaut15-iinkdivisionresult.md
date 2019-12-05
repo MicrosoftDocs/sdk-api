@@ -1,19 +1,17 @@
 ---
 UID: NN:msinkaut15.IInkDivisionResult
 title: IInkDivisionResult (msinkaut15.h)
-
 description: Represents the layout analysis of the collection of strokes contained by the InkDivider object.
 old-location: tablet\iinkdivisionresult.htm
 tech.root: tablet
 ms.assetid: d1a71976-2825-48d2-812c-fd2336cd4c1d
-
 ms.date: 12/05/2018
 ms.keywords: IInkDivisionResult, IInkDivisionResult interface [Tablet PC], IInkDivisionResult interface [Tablet PC],described, d1a71976-2825-48d2-812c-fd2336cd4c1d, msinkaut15/IInkDivisionResult, tablet.iinkdivisionresult
 ms.topic: interface
-f1_keywords: 
- - "msinkaut15/IInkDivisionResult"
+f1_keywords:
+- msinkaut15/IInkDivisionResult
 dev_langs:
- - c++
+- c++
 req.header: msinkaut15.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Inkdiv.dll
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Inkdiv.dll
- - Inkdiv.dll.dll
+- Inkdiv.dll
+- Inkdiv.dll.dll
 api_name:
- - IInkDivisionResult
+- IInkDivisionResult
 targetos: Windows
 req.typenames: 
 req.redist: 

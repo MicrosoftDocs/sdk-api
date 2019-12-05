@@ -1,19 +1,17 @@
 ---
 UID: NE:inked.SelAlignmentConstants
 title: SelAlignmentConstants (inked.h)
-
 description: Specifies the alignment of the paragraph relative to the margins of the InkEdit control.
 old-location: tablet\selalignmentconstants.htm
 tech.root: tablet
 ms.assetid: fdf5be40-e853-43a5-b1ac-b810c31fbeb3
-
 ms.date: 12/05/2018
 ms.keywords: SelAlignmentConstants, SelAlignmentConstants enumeration [Tablet PC], fdf5be40-e853-43a5-b1ac-b810c31fbeb3, inked/SelAlignmentConstants, inked/rtfCenter, inked/rtfLeft, inked/rtfRight, rtfCenter, rtfLeft, rtfRight, tablet.selalignmentconstants
 ms.topic: enum
-f1_keywords: 
- - "inked/SelAlignmentConstants"
+f1_keywords:
+- inked/SelAlignmentConstants
 dev_langs:
- - c++
+- c++
 req.header: inked.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - inked.h
+- inked.h
 api_name:
- - SelAlignmentConstants
+- SelAlignmentConstants
 targetos: Windows
 req.typenames: SelAlignmentConstants
 req.redist: 

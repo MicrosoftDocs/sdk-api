@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d11_1.ID3D11VideoContext1.DecoderUpdateDownsampling
 title: ID3D11VideoContext1::DecoderUpdateDownsampling (d3d11_1.h)
-
 description: Updates the decoder downsampling parameters.
 old-location: mf\id3d11videocontext1_decoderupdatedownsampling.htm
 tech.root: medfound
 ms.assetid: A55D652B-9295-42E4-9A83-CAC467BEE68E
-
 ms.date: 12/05/2018
 ms.keywords: DecoderUpdateDownsampling, DecoderUpdateDownsampling method [Media Foundation], DecoderUpdateDownsampling method [Media Foundation],ID3D11VideoContext1 interface, ID3D11VideoContext1 interface [Media Foundation],DecoderUpdateDownsampling method, ID3D11VideoContext1.DecoderUpdateDownsampling, ID3D11VideoContext1::DecoderUpdateDownsampling, d3d11_1/ID3D11VideoContext1::DecoderUpdateDownsampling, mf.id3d11videocontext1_decoderupdatedownsampling
 ms.topic: method
-f1_keywords: 
- - "d3d11_1/ID3D11VideoContext1.DecoderUpdateDownsampling"
+f1_keywords:
+- d3d11_1/ID3D11VideoContext1.DecoderUpdateDownsampling
 dev_langs:
- - c++
+- c++
 req.header: d3d11_1.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - d3d11_1.h
+- d3d11_1.h
 api_name:
- - ID3D11VideoContext1.DecoderUpdateDownsampling
+- ID3D11VideoContext1.DecoderUpdateDownsampling
 targetos: Windows
 req.typenames: 
 req.redist: 

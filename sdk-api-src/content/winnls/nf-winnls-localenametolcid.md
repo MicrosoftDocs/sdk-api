@@ -1,19 +1,17 @@
 ---
 UID: NF:winnls.LocaleNameToLCID
 title: LocaleNameToLCID function (winnls.h)
-
 description: Converts a locale name to a locale identifier.
 old-location: intl\localenametolcid.htm
 tech.root: Intl
 ms.assetid: 00404566-b9ef-43ea-8056-ca9ab0117814
-
 ms.date: 12/05/2018
 ms.keywords: LocaleNameToLCID, LocaleNameToLCID function [Internationalization for Windows Applications], _win32_LocaleNameToLCID, intl.localenametolcid, winnls/LocaleNameToLCID
 ms.topic: function
-f1_keywords: 
- - "winnls/LocaleNameToLCID"
+f1_keywords:
+- winnls/LocaleNameToLCID
 dev_langs:
- - c++
+- c++
 req.header: winnls.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,22 +30,22 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-Localization-l1-1-0.dll
- - KernelBase.dll
- - API-MS-Win-Core-Localization-l1-2-0.dll
- - API-MS-Win-Core-Localization-l1-2-1.dll
- - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
- - MinKernelBase.dll
- - API-MS-Win-Core-Localization-L1-2-2.dll
- - api-ms-win-core-localization-l1-2-3.dll
+- Kernel32.dll
+- API-MS-Win-Core-Localization-l1-1-0.dll
+- KernelBase.dll
+- API-MS-Win-Core-Localization-l1-2-0.dll
+- API-MS-Win-Core-Localization-l1-2-1.dll
+- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+- MinKernelBase.dll
+- API-MS-Win-Core-Localization-L1-2-2.dll
+- api-ms-win-core-localization-l1-2-3.dll
 api_name:
- - LocaleNameToLCID
+- LocaleNameToLCID
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NS:minidumpapiset._MINIDUMP_HANDLE_OBJECT_INFORMATION
 title: MINIDUMP_HANDLE_OBJECT_INFORMATION (minidumpapiset.h)
-
 description: Contains object-specific information for a handle.
 old-location: base\minidump_handle_object_information.htm
 tech.root: Debug
 ms.assetid: fb79de10-7a98-4a21-b394-63e5279b6681
-
 ms.date: 12/05/2018
 ms.keywords: MINIDUMP_HANDLE_OBJECT_INFORMATION, MINIDUMP_HANDLE_OBJECT_INFORMATION structure, _MINIDUMP_HANDLE_OBJECT_INFORMATION, base.minidump_handle_object_information, minidumpapiset/MINIDUMP_HANDLE_OBJECT_INFORMATION
 ms.topic: struct
-f1_keywords: 
- - "minidumpapiset/MINIDUMP_HANDLE_OBJECT_INFORMATION"
+f1_keywords:
+- minidumpapiset/MINIDUMP_HANDLE_OBJECT_INFORMATION
 dev_langs:
- - c++
+- c++
 req.header: minidumpapiset.h
 req.include-header: Dbghelp.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - minidumpapiset.h
+- minidumpapiset.h
 api_name:
- - MINIDUMP_HANDLE_OBJECT_INFORMATION
+- MINIDUMP_HANDLE_OBJECT_INFORMATION
 targetos: Windows
 req.typenames: MINIDUMP_HANDLE_OBJECT_INFORMATION
 req.redist: DbgHelp.dll 6.5 or later

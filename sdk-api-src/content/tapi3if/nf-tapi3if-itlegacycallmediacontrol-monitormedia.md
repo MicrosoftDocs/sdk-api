@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi3if.ITLegacyCallMediaControl.MonitorMedia
 title: ITLegacyCallMediaControl::MonitorMedia (tapi3if.h)
-
 description: The MonitorMedia method sets monitoring for a given media type on the current call.
 old-location: tapi3\itlegacycallmediacontrol_monitormedia.htm
 tech.root: Tapi
 ms.assetid: 82efd729-fbbf-449f-a347-24bceada140c
-
 ms.date: 12/05/2018
 ms.keywords: ITLegacyCallMediaControl interface [TAPI 2.2],MonitorMedia method, ITLegacyCallMediaControl.MonitorMedia, ITLegacyCallMediaControl::MonitorMedia, MonitorMedia, MonitorMedia method [TAPI 2.2], MonitorMedia method [TAPI 2.2],ITLegacyCallMediaControl interface, _tapi3_itlegacycallmediacontrol_monitormedia, tapi3.itlegacycallmediacontrol_monitormedia, tapi3if/ITLegacyCallMediaControl::MonitorMedia
 ms.topic: method
-f1_keywords: 
- - "tapi3if/ITLegacyCallMediaControl.MonitorMedia"
+f1_keywords:
+- tapi3if/ITLegacyCallMediaControl.MonitorMedia
 dev_langs:
- - c++
+- c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Tapi3.dll
+- Tapi3.dll
 api_name:
- - ITLegacyCallMediaControl.MonitorMedia
+- ITLegacyCallMediaControl.MonitorMedia
 targetos: Windows
 req.typenames: 
 req.redist: 

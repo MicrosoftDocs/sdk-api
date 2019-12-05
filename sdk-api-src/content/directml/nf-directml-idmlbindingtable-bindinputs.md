@@ -1,19 +1,17 @@
 ---
 UID: NF:directml.IDMLBindingTable.BindInputs
 title: IDMLBindingTable::BindInputs
-
 description: Binds a set of resources as input tensors.
 old-location: direct3d12\idmlbindingtable_bindinputs.htm
 tech.root: direct3d12
 ms.assetid: 125E5CBE-8ADF-4725-9F1D-66C38CD7A567
-
 ms.date: 12/5/2018
 ms.keywords: BindInputs, BindInputs method, BindInputs method,IDMLBindingTable interface, IDMLBindingTable interface,BindInputs method, IDMLBindingTable.BindInputs, IDMLBindingTable::BindInputs, direct3d12.idmlbindingtable_bindinputs, directml/IDMLBindingTable::BindInputs
 ms.topic: method
-f1_keywords: 
- - "directml/IDMLBindingTable.BindInputs"
+f1_keywords:
+- directml/IDMLBindingTable.BindInputs
 dev_langs:
- - c++
+- c++
 req.header: directml.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: DirectML.lib
 req.dll: DirectML.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - DirectML.dll
+- DirectML.dll
 api_name:
- - IDMLBindingTable.BindInputs
+- IDMLBindingTable.BindInputs
 targetos: Windows
 req.typenames: 
 req.redist: 

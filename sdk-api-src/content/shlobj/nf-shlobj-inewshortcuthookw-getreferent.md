@@ -1,19 +1,17 @@
 ---
 UID: NF:shlobj.INewShortcutHookW.GetReferent
 title: INewShortcutHookW::GetReferent (shlobj.h)
-
 description: Gets the referent of the shortcut object.
 old-location: shell\INewShortcutHook_GetReferent.htm
 tech.root: shell
 ms.assetid: 856f15bb-f9a8-4114-9a18-5abc21bef534
-
 ms.date: 12/05/2018
 ms.keywords: GetReferent, GetReferent method [Windows Shell], GetReferent method [Windows Shell],INewShortcutHook interface, INewShortcutHook interface [Windows Shell],GetReferent method, INewShortcutHook::GetReferent, INewShortcutHookA, INewShortcutHookA::GetReferent, INewShortcutHookW, INewShortcutHookW.GetReferent, INewShortcutHookW::GetReferent, _win32_INewShortcutHook_GetReferent, shell.INewShortcutHook_GetReferent, shlobj/INewShortcutHook::GetReferent
 ms.topic: method
-f1_keywords: 
- - "shlobj/INewShortcutHook.GetReferent"
+f1_keywords:
+- shlobj/INewShortcutHook.GetReferent
 dev_langs:
- - c++
+- c++
 req.header: shlobj.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: Shell32.dll (version 4.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - INewShortcutHook.GetReferent
- - INewShortcutHookA::GetReferent
- - INewShortcutHookW::GetReferent
+- INewShortcutHook.GetReferent
+- INewShortcutHookA::GetReferent
+- INewShortcutHookW::GetReferent
 targetos: Windows
 req.typenames: 
 req.redist: 

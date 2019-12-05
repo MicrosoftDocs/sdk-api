@@ -1,19 +1,17 @@
 ---
 UID: NN:mfidl.IMFTopologyNodeAttributeEditor
 title: IMFTopologyNodeAttributeEditor (mfidl.h)
-
 description: Updates the attributes of one or more nodes in the Media Session's current topology.
 old-location: mf\imftopologynodeattributeeditor.htm
 tech.root: medfound
 ms.assetid: 9ab384b9-0ce9-428c-a683-b09dbd4e07d9
-
 ms.date: 12/05/2018
 ms.keywords: 9ab384b9-0ce9-428c-a683-b09dbd4e07d9, IMFTopologyNodeAttributeEditor, IMFTopologyNodeAttributeEditor interface [Media Foundation], IMFTopologyNodeAttributeEditor interface [Media Foundation],described, mf.imftopologynodeattributeeditor, mfidl/IMFTopologyNodeAttributeEditor
 ms.topic: interface
-f1_keywords: 
- - "mfidl/IMFTopologyNodeAttributeEditor"
+f1_keywords:
+- mfidl/IMFTopologyNodeAttributeEditor
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFTopologyNodeAttributeEditor
+- IMFTopologyNodeAttributeEditor
 targetos: Windows
 req.typenames: 
 req.redist: 

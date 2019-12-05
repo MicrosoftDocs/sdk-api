@@ -1,19 +1,17 @@
 ---
 UID: NS:winnt._SID
 title: SID (winnt.h)
-
 description: Used to uniquely identify users or groups.
 old-location: security\sid.htm
 tech.root: SecAuthZ
 ms.assetid: 328fba4e-e590-4174-9274-52dad58cb91f
-
 ms.date: 12/05/2018
-ms.keywords: "*PISID, PSID, PSID structure pointer [Security], SID, SID structure [Security], _SID, _win32_sid_str, security.sid, winnt/PSID, winnt/SID"
+ms.keywords: '*PISID, PSID, PSID structure pointer [Security], SID, SID structure [Security], _SID, _win32_sid_str, security.sid, winnt/PSID, winnt/SID'
 ms.topic: struct
-f1_keywords: 
- - "winnt/SID"
+f1_keywords:
+- winnt/SID
 dev_langs:
- - c++
+- c++
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Winnt.h
+- Winnt.h
 api_name:
- - SID
+- SID
 targetos: Windows
 req.typenames: SID, *PISID
 req.redist: 

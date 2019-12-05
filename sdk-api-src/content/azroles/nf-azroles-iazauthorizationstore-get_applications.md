@@ -1,19 +1,17 @@
 ---
 UID: NF:azroles.IAzAuthorizationStore.get_Applications
 title: IAzAuthorizationStore::get_Applications (azroles.h)
-
 description: Retrieves an IAzApplications object that is used to enumerate IAzApplication objects from the policy store.
 old-location: security\azauthorizationstore_applications.htm
 tech.root: SecAuthZ
 ms.assetid: 7475fe41-b2fc-4a2c-a0db-c8c00bcc3ba4
-
 ms.date: 12/05/2018
 ms.keywords: Applications property [Security], Applications property [Security],AzAuthorizationStore object, Applications property [Security],IAzAuthorizationStore interface, AzAuthorizationStore object [Security],Applications property, IAzAuthorizationStore interface [Security],Applications property, IAzAuthorizationStore.Applications, IAzAuthorizationStore.get_Applications, IAzAuthorizationStore::Applications, IAzAuthorizationStore::get_Applications, azroles/IAzAuthorizationStore::Applications, azroles/IAzAuthorizationStore::get_Applications, get_Applications, security.azauthorizationstore_applications
 ms.topic: method
-f1_keywords: 
- - "azroles/IAzAuthorizationStore.Applications"
+f1_keywords:
+- azroles/IAzAuthorizationStore.Applications
 dev_langs:
- - c++
+- c++
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Azroles.lib
 req.dll: Azroles.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Azroles.dll
+- Azroles.dll
 api_name:
- - IAzAuthorizationStore.Applications
- - IAzAuthorizationStore.get_Applications
- - AzAuthorizationStore.Applications
+- IAzAuthorizationStore.Applications
+- IAzAuthorizationStore.get_Applications
+- AzAuthorizationStore.Applications
 targetos: Windows
 req.typenames: 
 req.redist: Windows Server 2003 Administration Tools Pack on Windows XP

@@ -1,19 +1,17 @@
 ---
 UID: NF:portabledeviceapi.IPortableDeviceProperties.GetPropertyAttributes
 title: IPortableDeviceProperties::GetPropertyAttributes (portabledeviceapi.h)
-
 description: The GetPropertyAttributes method retrieves attributes of a specified object property on a device.
 old-location: wpdsdk\iportabledeviceproperties_getpropertyattributes.htm
 tech.root: wpd_sdk
 ms.assetid: bb2206ff-e1d4-4bc5-819b-b008a293c43d
-
 ms.date: 12/05/2018
 ms.keywords: GetPropertyAttributes, GetPropertyAttributes method [Windows Portable Devices SDK], GetPropertyAttributes method [Windows Portable Devices SDK],IPortableDeviceProperties interface, IPortableDeviceProperties interface [Windows Portable Devices SDK],GetPropertyAttributes method, IPortableDeviceProperties.GetPropertyAttributes, IPortableDeviceProperties::GetPropertyAttributes, IPortableDevicePropertiesGetPropertyAttributes, portabledeviceapi/IPortableDeviceProperties::GetPropertyAttributes, wpdsdk.iportabledeviceproperties_getpropertyattributes
 ms.topic: method
-f1_keywords: 
- - "portabledeviceapi/IPortableDeviceProperties.GetPropertyAttributes"
+f1_keywords:
+- portabledeviceapi/IPortableDeviceProperties.GetPropertyAttributes
 dev_langs:
- - c++
+- c++
 req.header: portabledeviceapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: PortableDeviceGUIDs.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - PortableDeviceGUIDs.lib
- - PortableDeviceGUIDs.dll
+- PortableDeviceGUIDs.lib
+- PortableDeviceGUIDs.dll
 api_name:
- - IPortableDeviceProperties.GetPropertyAttributes
+- IPortableDeviceProperties.GetPropertyAttributes
 targetos: Windows
 req.typenames: 
 req.redist: 

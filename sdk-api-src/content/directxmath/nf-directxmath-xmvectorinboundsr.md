@@ -1,19 +1,17 @@
 ---
 UID: NF:directxmath.XMVectorInBoundsR
 title: XMVectorInBoundsR function (directxmath.h)
-
 description: Tests whether the components of a given vector are within certain bounds and sets a comparison value that can be examined using functions such as XMComparisonAllTrue.
 old-location: dxmath\xmvectorinboundsr.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.geometric.XMVectorInBoundsR(uint32_t@,XMVECTOR,XMVECTOR)
-
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMVectorInBoundsR, XMVectorInBoundsR, XMVectorInBoundsR method [DirectX Math Support APIs], dxmath.xmvectorinboundsr
 ms.topic: function
-f1_keywords: 
- - "directxmath/XMVectorInBoundsR"
+f1_keywords:
+- directxmath/XMVectorInBoundsR
 dev_langs:
- - c++
+- c++
 req.header: directxmath.h
 req.include-header: DirectXMath.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - directxmathvector.inl
+- directxmathvector.inl
 api_name:
- - XMVectorInBoundsR
+- XMVectorInBoundsR
 targetos: Windows
 req.typenames: 
 req.redist: 

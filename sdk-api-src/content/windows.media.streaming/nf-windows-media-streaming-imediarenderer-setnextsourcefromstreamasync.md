@@ -1,19 +1,17 @@
 ---
 UID: NF:windows.media.streaming.IMediaRenderer.SetNextSourceFromStreamAsync
 title: IMediaRenderer::streaming (windows.media.streaming.h)
-
 description: Instructs the DMR asynchronously to prepare the specified media stream for playing once the current content has finished playing.
 old-location: mediastreaming\imediarenderer_setnextsourcefromstreamasync.htm
 tech.root: mediastreaming
 ms.assetid: 602B4C9B-88A3-4D91-9330-FC02E62F723A
-
 ms.date: 12/05/2018
 ms.keywords: IMediaRenderer interface [Media Streaming API],SetNextSourceFromStreamAsync method, IMediaRenderer.SetNextSourceFromStreamAsync, IMediaRenderer.streaming, IMediaRenderer::SetNextSourceFromStreamAsync, IMediaRenderer::streaming, SetNextSourceFromStreamAsync, SetNextSourceFromStreamAsync method [Media Streaming API], SetNextSourceFromStreamAsync method [Media Streaming API],IMediaRenderer interface, mediastreaming.imediarenderer_setnextsourcefromstreamasync, windows/IMediaRenderer::SetNextSourceFromStreamAsync
 ms.topic: method
-f1_keywords: 
- - "windows.media.streaming/IMediaRenderer.SetNextSourceFromStreamAsync"
+f1_keywords:
+- windows.media.streaming/IMediaRenderer.SetNextSourceFromStreamAsync
 dev_langs:
- - c++
+- c++
 req.header: windows.media.streaming.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - windows.media.streaming.h
+- windows.media.streaming.h
 api_name:
- - IMediaRenderer.SetNextSourceFromStreamAsync
+- IMediaRenderer.SetNextSourceFromStreamAsync
 targetos: Windows
 req.typenames: 
 req.redist: 

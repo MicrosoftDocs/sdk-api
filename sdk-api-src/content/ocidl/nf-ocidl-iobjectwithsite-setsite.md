@@ -1,19 +1,17 @@
 ---
 UID: NF:ocidl.IObjectWithSite.SetSite
 title: IObjectWithSite::SetSite (ocidl.h)
-
 description: Enables a container to pass an object a pointer to the interface for its site.
 old-location: com\iobjectwithsite_setsite.htm
 tech.root: com
 ms.assetid: 5e95b2a6-85b3-4899-9e23-54ed9e69e821
-
 ms.date: 12/05/2018
 ms.keywords: IObjectWithSite interface [COM],SetSite method, IObjectWithSite.SetSite, IObjectWithSite::SetSite, SetSite, SetSite method [COM], SetSite method [COM],IObjectWithSite interface, _ole_iobjectwithsite_setsite, com.iobjectwithsite_setsite, ocidl/IObjectWithSite::SetSite
 ms.topic: method
-f1_keywords: 
- - "ocidl/IObjectWithSite.SetSite"
+f1_keywords:
+- ocidl/IObjectWithSite.SetSite
 dev_langs:
- - c++
+- c++
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - OCIdl.h
+- OCIdl.h
 api_name:
- - IObjectWithSite.SetSite
+- IObjectWithSite.SetSite
 targetos: Windows
 req.typenames: 
 req.redist: 

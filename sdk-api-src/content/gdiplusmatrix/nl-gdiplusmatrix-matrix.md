@@ -1,19 +1,17 @@
 ---
 UID: NL:gdiplusmatrix.Matrix
 title: Matrix (gdiplusmatrix.h)
-
 description: A Matrix object represents a 3 &#215;3 matrix that, in turn, represents an affine transformation.
 old-location: gdiplus\_gdiplus_CLASS_Matrix_Class.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\matrix.htm
-
 ms.date: 12/05/2018
 ms.keywords: Matrix, Matrix class [GDI+], Matrix class [GDI+],described, _gdiplus_CLASS_Matrix_Class, gdiplus._gdiplus_CLASS_Matrix_Class, gdiplusmatrix/Matrix
 ms.topic: class
-f1_keywords: 
- - "gdiplusmatrix/Matrix"
+f1_keywords:
+- gdiplusmatrix/Matrix
 dev_langs:
- - c++
+- c++
 req.header: gdiplusmatrix.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - gdiplusmatrix.h
+- gdiplusmatrix.h
 api_name:
- - Matrix
+- Matrix
 targetos: Windows
 req.typenames: 
 req.redist: 

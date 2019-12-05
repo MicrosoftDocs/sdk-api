@@ -1,19 +1,17 @@
 ---
 UID: NF:windowsx.ListBox_GetCurSel
 title: ListBox_GetCurSel macro (windowsx.h)
-
 description: Gets the index of the currently selected item in a single-selection list box. You can use this macro or send the LB_GETCURSEL message explicitly.
 old-location: controls\ListBox_GetCurSel.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listboxes\listboxreference\listboxmacros\listbox_getcursel.htm
-
 ms.date: 12/05/2018
 ms.keywords: ListBox_GetCurSel, ListBox_GetCurSel macro [Windows Controls], _win32_ListBox_GetCurSel, _win32_ListBox_GetCurSel_cpp, controls.ListBox_GetCurSel, controls._win32_ListBox_GetCurSel, windowsx/ListBox_GetCurSel
 ms.topic: macro
-f1_keywords: 
- - "windowsx/ListBox_GetCurSel"
+f1_keywords:
+- windowsx/ListBox_GetCurSel
 dev_langs:
- - c++
+- c++
 req.header: windowsx.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Windowsx.h
+- Windowsx.h
 api_name:
- - ListBox_GetCurSel
+- ListBox_GetCurSel
 targetos: Windows
 req.typenames: 
 req.redist: 

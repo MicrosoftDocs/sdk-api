@@ -1,19 +1,17 @@
 ---
 UID: NF:icontact.IContactProperties.DeleteArrayNode
 title: IContactProperties::DeleteArrayNode (icontact.h)
-
 description: Deletes the data at a specified array entry.
 old-location: wincontacts\_wincontacts_IContactProperties_DeleteArrayNode.htm
 tech.root: wincontacts
 ms.assetid: a26dc392-1dd7-4dba-9802-b45c01d97493
-
 ms.date: 12/05/2018
 ms.keywords: DeleteArrayNode, DeleteArrayNode method [Windows Contacts], DeleteArrayNode method [Windows Contacts],IContactProperties interface, IContactProperties interface [Windows Contacts],DeleteArrayNode method, IContactProperties.DeleteArrayNode, IContactProperties::DeleteArrayNode, _wincontacts_IContactProperties_DeleteArrayNode, icontact/IContactProperties::DeleteArrayNode, wincontacts._wincontacts_IContactProperties_DeleteArrayNode
 ms.topic: method
-f1_keywords: 
- - "icontact/IContactProperties.DeleteArrayNode"
+f1_keywords:
+- icontact/IContactProperties.DeleteArrayNode
 dev_langs:
- - c++
+- c++
 req.header: icontact.h
 req.include-header: Contact.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wab32.dll (Version 6.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wab32.dll
+- Wab32.dll
 api_name:
- - IContactProperties.DeleteArrayNode
+- IContactProperties.DeleteArrayNode
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMGeometryFigureCollection.Append
 title: IXpsOMGeometryFigureCollection::Append (xpsobjectmodel.h)
-
 description: Appends an IXpsOMGeometryFigure interface to the end of the collection.
 old-location: xps\ixpsomgeometryfigurecollection_append.htm
 tech.root: printdocs
 ms.assetid: 9481cd02-74f8-42f6-a347-454dae2aa579
-
 ms.date: 12/05/2018
 ms.keywords: Append, Append method [XPS Documents and Packaging], Append method [XPS Documents and Packaging],IXpsOMGeometryFigureCollection interface, IXpsOMGeometryFigureCollection interface [XPS Documents and Packaging],Append method, IXpsOMGeometryFigureCollection.Append, IXpsOMGeometryFigureCollection::Append, xps.ixpsomgeometryfigurecollection_append, xpsobjectmodel/IXpsOMGeometryFigureCollection::Append
 ms.topic: method
-f1_keywords: 
- - "xpsobjectmodel/IXpsOMGeometryFigureCollection.Append"
+f1_keywords:
+- xpsobjectmodel/IXpsOMGeometryFigureCollection.Append
 dev_langs:
- - c++
+- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsobjectmodel.h
+- xpsobjectmodel.h
 api_name:
- - IXpsOMGeometryFigureCollection.Append
+- IXpsOMGeometryFigureCollection.Append
 targetos: Windows
 req.typenames: 
 req.redist: 

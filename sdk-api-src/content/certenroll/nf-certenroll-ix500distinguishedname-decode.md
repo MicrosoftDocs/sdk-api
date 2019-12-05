@@ -1,19 +1,17 @@
 ---
 UID: NF:certenroll.IX500DistinguishedName.Decode
 title: IX500DistinguishedName::Decode (certenroll.h)
-
 description: Initializes the object from a Unicode-encoded distinguished name.
 old-location: security\ix500distinguishedname_decode_method.htm
 tech.root: seccertenroll
 ms.assetid: 52cc0595-b825-4bf3-805c-21afc468b91e
-
 ms.date: 12/05/2018
 ms.keywords: Decode, Decode method [Security], Decode method [Security],IX500DistinguishedName interface, IX500DistinguishedName interface [Security],Decode method, IX500DistinguishedName.Decode, IX500DistinguishedName::Decode, certenroll/IX500DistinguishedName::Decode, security.ix500distinguishedname_decode_method
 ms.topic: method
-f1_keywords: 
- - "certenroll/IX500DistinguishedName.Decode"
+f1_keywords:
+- certenroll/IX500DistinguishedName.Decode
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: CertEnroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CertEnroll.dll
+- CertEnroll.dll
 api_name:
- - IX500DistinguishedName.Decode
+- IX500DistinguishedName.Decode
 targetos: Windows
 req.typenames: 
 req.redist: 

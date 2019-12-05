@@ -1,19 +1,17 @@
 ---
 UID: NF:eapmethodauthenticatorapis.EapMethodAuthenticatorGetResult
 title: EapMethodAuthenticatorGetResult function (eapmethodauthenticatorapis.h)
-
 description: Obtains the authentication result from the EAP authenticator method.
 old-location: eaphost\eapmethodauthenticatorgetresult.htm
 tech.root: eaphost
 ms.assetid: 898b5465-a030-4df6-a51f-0725c6332e80
-
 ms.date: 12/05/2018
 ms.keywords: EapMethodAuthenticatorGetResult, EapMethodAuthenticatorGetResult function [EAPHost], eaphost.eapmethodauthenticatorgetresult, eapmethodauthenticatorapis/EapMethodAuthenticatorGetResult
 ms.topic: function
 f1_keywords:
 - eapmethodauthenticatorapis/EapMethodAuthenticatorGetResult
 dev_langs:
- - c++
+- c++
 req.header: eapmethodauthenticatorapis.h
 req.include-header: 
 req.target-type: Windows

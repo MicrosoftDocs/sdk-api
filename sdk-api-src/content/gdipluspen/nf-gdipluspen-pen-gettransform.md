@@ -1,19 +1,17 @@
 ---
 UID: NF:gdipluspen.Pen.GetTransform
 title: Pen::GetTransform (gdipluspen.h)
-
 description: The Pen::GetTransform method gets the world transformation matrix currently set for this Pen object.
 old-location: gdiplus\_gdiplus_CLASS_Pen_GetTransform_matrix_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\penclass\penmethods\gettransform_97matrix.htm
-
 ms.date: 12/05/2018
 ms.keywords: GetTransform, GetTransform method [GDI+], GetTransform method [GDI+],Pen class, Pen class [GDI+],GetTransform method, Pen.GetTransform, Pen::GetTransform, _gdiplus_CLASS_Pen_GetTransform_matrix_, gdiplus._gdiplus_CLASS_Pen_GetTransform_matrix_
 ms.topic: method
-f1_keywords: 
- - "gdipluspen/Pen.GetTransform"
+f1_keywords:
+- gdipluspen/Pen.GetTransform
 dev_langs:
- - c++
+- c++
 req.header: gdipluspen.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - Pen.GetTransform
+- Pen.GetTransform
 targetos: Windows
 req.typenames: 
 req.redist: 

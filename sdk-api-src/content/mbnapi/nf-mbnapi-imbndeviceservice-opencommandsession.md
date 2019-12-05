@@ -1,19 +1,17 @@
 ---
 UID: NF:mbnapi.IMbnDeviceService.OpenCommandSession
 title: IMbnDeviceService::OpenCommandSession (mbnapi.h)
-
 description: Opens a command session to a device service on a Mobile Broadband device.
 old-location: mbn\imbndeviceservice_opencommandsession.htm
 tech.root: mbn
 ms.assetid: EC4FF42D-EFE9-432C-997F-426B2187BBBE
-
 ms.date: 12/05/2018
 ms.keywords: IMbnDeviceService interface [Microsoft Broadband Networks],OpenCommandSession method, IMbnDeviceService.OpenCommandSession, IMbnDeviceService::OpenCommandSession, OpenCommandSession, OpenCommandSession method [Microsoft Broadband Networks], OpenCommandSession method [Microsoft Broadband Networks],IMbnDeviceService interface, mbn.imbndeviceservice_opencommandsession, mbnapi/IMbnDeviceService::OpenCommandSession
 ms.topic: method
-f1_keywords: 
- - "mbnapi/IMbnDeviceService.OpenCommandSession"
+f1_keywords:
+- mbnapi/IMbnDeviceService.OpenCommandSession
 dev_langs:
- - c++
+- c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mbnapi.h
+- mbnapi.h
 api_name:
- - IMbnDeviceService.OpenCommandSession
+- IMbnDeviceService.OpenCommandSession
 targetos: Windows
 req.typenames: 
 req.redist: 

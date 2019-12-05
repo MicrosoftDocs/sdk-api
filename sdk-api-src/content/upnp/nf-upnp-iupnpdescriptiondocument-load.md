@@ -1,19 +1,17 @@
 ---
 UID: NF:upnp.IUPnPDescriptionDocument.Load
 title: IUPnPDescriptionDocument::Load (upnp.h)
-
 description: The Load method loads a document synchronously. This method does not return control to the caller until the load operation is complete.
 old-location: upnp\iupnpdescriptiondocument_load.htm
 tech.root: upnp
 ms.assetid: 02ae8af2-44f2-4b7c-a426-f2a26c43da37
-
 ms.date: 12/05/2018
 ms.keywords: IUPnPDescriptionDocument interface [UPnP APIs],Load method, IUPnPDescriptionDocument.Load, IUPnPDescriptionDocument::Load, Load, Load method [UPnP APIs], Load method [UPnP APIs],IUPnPDescriptionDocument interface, _upnp_iupnpdescriptiondocument_load, upnp.iupnpdescriptiondocument_load, upnp/IUPnPDescriptionDocument::Load
 ms.topic: method
-f1_keywords: 
- - "upnp/IUPnPDescriptionDocument.Load"
+f1_keywords:
+- upnp/IUPnPDescriptionDocument.Load
 dev_langs:
- - c++
+- c++
 req.header: upnp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Upnp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Upnp.dll
+- Upnp.dll
 api_name:
- - IUPnPDescriptionDocument.Load
+- IUPnPDescriptionDocument.Load
 targetos: Windows
 req.typenames: 
 req.redist: 

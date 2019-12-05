@@ -1,19 +1,17 @@
 ---
 UID: NF:windowsx.ComboBox_InsertItemData
 title: ComboBox_InsertItemData macro (windowsx.h)
-
 description: Inserts item data in a list in a combo box at the specified location. You can use this macro or send the CB_INSERTSTRING message explicitly.
 old-location: controls\ComboBox_InsertItemData.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\comboboxes\comboboxreference\comboboxmacros\combobox_insertitemdata.htm
-
 ms.date: 12/05/2018
 ms.keywords: ComboBox_InsertItemData, ComboBox_InsertItemData macro [Windows Controls], _win32_ComboBox_InsertItemData, _win32_ComboBox_InsertItemData_cpp, controls.ComboBox_InsertItemData, controls._win32_ComboBox_InsertItemData, windowsx/ComboBox_InsertItemData
 ms.topic: macro
-f1_keywords: 
- - "windowsx/ComboBox_InsertItemData"
+f1_keywords:
+- windowsx/ComboBox_InsertItemData
 dev_langs:
- - c++
+- c++
 req.header: windowsx.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Windowsx.h
+- Windowsx.h
 api_name:
- - ComboBox_InsertItemData
+- ComboBox_InsertItemData
 targetos: Windows
 req.typenames: 
 req.redist: 

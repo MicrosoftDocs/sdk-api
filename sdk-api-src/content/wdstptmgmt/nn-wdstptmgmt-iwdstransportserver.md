@@ -1,19 +1,17 @@
 ---
 UID: NN:wdstptmgmt.IWdsTransportServer
 title: IWdsTransportServer (wdstptmgmt.h)
-
 description: Represents a WDS transport server. A WDS client can use an object of this interface to manage setup, configuration, and namespace tasks on the server.
 old-location: wds\iwdstransportserver.htm
 tech.root: wds
 ms.assetid: 0129658d-8725-4020-ae9c-9d0a44075561
-
 ms.date: 12/05/2018
 ms.keywords: IWdsTransportServer, IWdsTransportServer interface [Windows Deployment Services], IWdsTransportServer interface [Windows Deployment Services],described, wds.iwdstransportserver, wdstptmgmt/IWdsTransportServer
 ms.topic: interface
-f1_keywords: 
- - "wdstptmgmt/IWdsTransportServer"
+f1_keywords:
+- wdstptmgmt/IWdsTransportServer
 dev_langs:
- - c++
+- c++
 req.header: wdstptmgmt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wdstptmgmt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wdstptmgmt.dll
+- Wdstptmgmt.dll
 api_name:
- - IWdsTransportServer
+- IWdsTransportServer
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:comsvcs.IComMethod2Events.OnMethodCall2
 title: IComMethod2Events::OnMethodCall2 (comsvcs.h)
-
 description: Generated when an object's method is called.
 old-location: cos\icommethod2events_onmethodcall2.htm
 tech.root: cossdk
 ms.assetid: 2a209526-f548-404b-9d82-f52cfe89a4f8
-
 ms.date: 12/05/2018
 ms.keywords: IComMethod2Events interface [COM+],OnMethodCall2 method, IComMethod2Events.OnMethodCall2, IComMethod2Events::OnMethodCall2, OnMethodCall2, OnMethodCall2 method [COM+], OnMethodCall2 method [COM+],IComMethod2Events interface, _dtc_IComMethod2Events_OnMethodCall2, comsvcs/IComMethod2Events::OnMethodCall2, cos.icommethod2events_onmethodcall2
 ms.topic: method
-f1_keywords: 
- - "comsvcs/IComMethod2Events.OnMethodCall2"
+f1_keywords:
+- comsvcs/IComMethod2Events.OnMethodCall2
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - IComMethod2Events.OnMethodCall2
+- IComMethod2Events.OnMethodCall2
 targetos: Windows
 req.typenames: 
 req.redist: 

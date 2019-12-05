@@ -1,19 +1,17 @@
 ---
 UID: NN:d3d11.ID3D11DepthStencilState
 title: ID3D11DepthStencilState (d3d11.h)
-
 description: The depth-stencil-state interface holds a description for depth-stencil state that you can bind to the output-merger stage.
 old-location: direct3d11\id3d11depthstencilstate.htm
 tech.root: direct3d11
 ms.assetid: cac22076-2ba6-4ab1-918e-8c9a7773acf6
-
 ms.date: 12/05/2018
 ms.keywords: ID3D11DepthStencilState, ID3D11DepthStencilState interface [Direct3D 11], ID3D11DepthStencilState interface [Direct3D 11],described, d3d11/ID3D11DepthStencilState, direct3d11.id3d11depthstencilstate, f7092d61-0b1d-daf2-0e96-635da5ebc121
 ms.topic: interface
-f1_keywords: 
- - "d3d11/ID3D11DepthStencilState"
+f1_keywords:
+- d3d11/ID3D11DepthStencilState
 dev_langs:
- - c++
+- c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: D3D11.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D11.lib
- - D3D11.dll
+- D3D11.lib
+- D3D11.dll
 api_name:
- - ID3D11DepthStencilState
+- ID3D11DepthStencilState
 targetos: Windows
 req.typenames: 
 req.redist: 

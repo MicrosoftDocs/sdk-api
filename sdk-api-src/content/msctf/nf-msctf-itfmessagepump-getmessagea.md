@@ -1,19 +1,17 @@
 ---
 UID: NF:msctf.ITfMessagePump.GetMessageA
 title: ITfMessagePump::GetMessageA (msctf.h)
-
 description: ITfMessagePump::GetMessageA method
 old-location: tsf\itfmessagepump_getmessagea.htm
 tech.root: TSF
 ms.assetid: a1d66377-fca1-4c9c-ac59-a1417d8ab190
-
 ms.date: 12/05/2018
 ms.keywords: GetMessageA, GetMessageA method [Text Services Framework], GetMessageA method [Text Services Framework],ITfMessagePump interface, ITfMessagePump interface [Text Services Framework],GetMessageA method, ITfMessagePump.GetMessageA, ITfMessagePump::GetMessageA, _tsf_itfmessagepump_getmessagea_ref, msctf/ITfMessagePump::GetMessageA, tsf.itfmessagepump_getmessagea
 ms.topic: method
-f1_keywords: 
- - "msctf/ITfMessagePump.GetMessageA"
+f1_keywords:
+- msctf/ITfMessagePump.GetMessageA
 dev_langs:
- - c++
+- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: Msctf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msctf.dll
+- Msctf.dll
 api_name:
- - ITfMessagePump.GetMessageA
- - getmessagea
+- ITfMessagePump.GetMessageA
+- getmessagea
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

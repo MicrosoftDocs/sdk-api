@@ -1,19 +1,17 @@
 ---
 UID: NE:nldef._NL_NEIGHBOR_STATE
 title: NL_NEIGHBOR_STATE (nldef.h)
-
 description: The NL_NEIGHBOR_STATE enumeration type defines the state of a network layer neighbor IP address, as described in RFC 2461, section 7.3.2.
 old-location: netvista\nl_neighbor_state.htm
 tech.root: NetVista
 ms.assetid: 7751011b-c473-4697-b311-62e3a6d9b1ae
-
 ms.date: 12/05/2018
-ms.keywords: "*PNL_NEIGHBOR_STATE, NL_NEIGHBOR_STATE, NL_NEIGHBOR_STATE enumeration [Network Drivers Starting with Windows Vista], NlnsDelay, NlnsIncomplete, NlnsMaximum, NlnsPermanent, NlnsProbe, NlnsReachable, NlnsStale, NlnsUnreachable, PNL_NEIGHBOR_STATE, PNL_NEIGHBOR_STATE enumeration pointer [Network Drivers Starting with Windows Vista], iphelper_dfada3d6-bdd8-4ce0-a7db-25882d0dac4a.xml, netvista.nl_neighbor_state, nldef/NL_NEIGHBOR_STATE, nldef/NlnsDelay, nldef/NlnsIncomplete, nldef/NlnsMaximum, nldef/NlnsPermanent, nldef/NlnsProbe, nldef/NlnsReachable, nldef/NlnsStale, nldef/NlnsUnreachable, nldef/PNL_NEIGHBOR_STATE"
+ms.keywords: '*PNL_NEIGHBOR_STATE, NL_NEIGHBOR_STATE, NL_NEIGHBOR_STATE enumeration [Network Drivers Starting with Windows Vista], NlnsDelay, NlnsIncomplete, NlnsMaximum, NlnsPermanent, NlnsProbe, NlnsReachable, NlnsStale, NlnsUnreachable, PNL_NEIGHBOR_STATE, PNL_NEIGHBOR_STATE enumeration pointer [Network Drivers Starting with Windows Vista], iphelper_dfada3d6-bdd8-4ce0-a7db-25882d0dac4a.xml, netvista.nl_neighbor_state, nldef/NL_NEIGHBOR_STATE, nldef/NlnsDelay, nldef/NlnsIncomplete, nldef/NlnsMaximum, nldef/NlnsPermanent, nldef/NlnsProbe, nldef/NlnsReachable, nldef/NlnsStale, nldef/NlnsUnreachable, nldef/PNL_NEIGHBOR_STATE'
 ms.topic: enum
-f1_keywords: 
- - "nldef/NL_NEIGHBOR_STATE"
+f1_keywords:
+- nldef/NL_NEIGHBOR_STATE
 dev_langs:
- - c++
+- c++
 req.header: nldef.h
 req.include-header: Netioapi.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - nldef.h
+- nldef.h
 api_name:
- - NL_NEIGHBOR_STATE
+- NL_NEIGHBOR_STATE
 targetos: Windows
 req.typenames: NL_NEIGHBOR_STATE, *PNL_NEIGHBOR_STATE
 req.redist: 

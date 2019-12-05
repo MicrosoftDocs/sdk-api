@@ -1,19 +1,17 @@
 ---
 UID: NS:webservices._WS_SECURITY_BINDING_CONSTRAINT
 title: WS_SECURITY_BINDING_CONSTRAINT (webservices.h)
-
 description: The base class for all security binding constraint structures.
 old-location: wsw\ws_security_binding_constraint.htm
 tech.root: wsw
 ms.assetid: d79795ea-6780-4d13-9d40-bd1ea7cd5113
-
 ms.date: 12/05/2018
 ms.keywords: WS_SECURITY_BINDING_CONSTRAINT, WS_SECURITY_BINDING_CONSTRAINT structure [Web Services for Windows], webservices/WS_SECURITY_BINDING_CONSTRAINT, wsw.ws_security_binding_constraint
 ms.topic: struct
-f1_keywords: 
- - "webservices/WS_SECURITY_BINDING_CONSTRAINT"
+f1_keywords:
+- webservices/WS_SECURITY_BINDING_CONSTRAINT
 dev_langs:
- - c++
+- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WebServices.h
+- WebServices.h
 api_name:
- - WS_SECURITY_BINDING_CONSTRAINT
+- WS_SECURITY_BINDING_CONSTRAINT
 targetos: Windows
 req.typenames: WS_SECURITY_BINDING_CONSTRAINT
 req.redist: 

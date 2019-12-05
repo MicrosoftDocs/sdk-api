@@ -1,19 +1,17 @@
 ---
 UID: NF:dwrite_3.IDWriteInMemoryFontFileLoader.GetFileCount
 title: IDWriteInMemoryFontFileLoader::GetFileCount (dwrite_3.h)
-
 description: Returns the number of font file references that have been created using this loader instance.
 old-location: directwrite\idwriteinmemoryfontfileloader_getfilecount.htm
 tech.root: DirectWrite
 ms.assetid: 02385843-FDE6-408A-BD48-BBDC7DE4CA67
-
 ms.date: 12/05/2018
 ms.keywords: GetFileCount, GetFileCount method [Direct Write], GetFileCount method [Direct Write],IDWriteInMemoryFontFileLoader interface, IDWriteInMemoryFontFileLoader interface [Direct Write],GetFileCount method, IDWriteInMemoryFontFileLoader.GetFileCount, IDWriteInMemoryFontFileLoader::GetFileCount, directwrite.idwriteinmemoryfontfileloader_getfilecount, dwrite_3/IDWriteInMemoryFontFileLoader::GetFileCount
 ms.topic: method
-f1_keywords: 
- - "dwrite_3/IDWriteInMemoryFontFileLoader.GetFileCount"
+f1_keywords:
+- dwrite_3/IDWriteInMemoryFontFileLoader.GetFileCount
 dev_langs:
- - c++
+- c++
 req.header: dwrite_3.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Dwrite.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dwrite.lib
- - Dwrite.dll
+- Dwrite.lib
+- Dwrite.dll
 api_name:
- - IDWriteInMemoryFontFileLoader.GetFileCount
+- IDWriteInMemoryFontFileLoader.GetFileCount
 targetos: Windows
 req.typenames: 
 req.redist: 

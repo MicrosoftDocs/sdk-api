@@ -1,19 +1,17 @@
 ---
 UID: NS:wingdi.DISPLAYCONFIG_TARGET_DEVICE_NAME
 title: DISPLAYCONFIG_TARGET_DEVICE_NAME (wingdi.h)
-
 description: The DISPLAYCONFIG_TARGET_DEVICE_NAME structure contains information about the target.
 old-location: display\displayconfig_target_device_name.htm
 tech.root: display
 ms.assetid: 85507b69-8ce0-4f39-a4d3-7d67f515b451
-
 ms.date: 12/05/2018
 ms.keywords: CCD_Structures_71e42f61-634a-47fe-b330-404dbe59e211.xml, DISPLAYCONFIG_TARGET_DEVICE_NAME, DISPLAYCONFIG_TARGET_DEVICE_NAME structure [Display Devices], display.displayconfig_target_device_name, wingdi/DISPLAYCONFIG_TARGET_DEVICE_NAME
 ms.topic: struct
-f1_keywords: 
- - "wingdi/DISPLAYCONFIG_TARGET_DEVICE_NAME"
+f1_keywords:
+- wingdi/DISPLAYCONFIG_TARGET_DEVICE_NAME
 dev_langs:
- - c++
+- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - wingdi.h
+- wingdi.h
 api_name:
- - DISPLAYCONFIG_TARGET_DEVICE_NAME
+- DISPLAYCONFIG_TARGET_DEVICE_NAME
 targetos: Windows
 req.typenames: DISPLAYCONFIG_TARGET_DEVICE_NAME
 req.redist: 

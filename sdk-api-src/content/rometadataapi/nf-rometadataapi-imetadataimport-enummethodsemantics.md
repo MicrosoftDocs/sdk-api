@@ -1,19 +1,17 @@
 ---
 UID: NF:rometadataapi.IMetaDataImport.EnumMethodSemantics
 title: IMetaDataImport::EnumMethodSemantics (rometadataapi.h)
-
 description: Enumerates the properties and the property-change events to which the specified method is related.
 old-location: winrt\imetadataimport_enummethodsemantics.htm
 tech.root: WinRT
 ms.assetid: 2b3be5bb-1da7-40d7-8407-c08c2f2723e5
-
 ms.date: 12/05/2018
 ms.keywords: EnumMethodSemantics, EnumMethodSemantics method [Windows Runtime], EnumMethodSemantics method [Windows Runtime],IMetaDataImport interface, IMetaDataImport interface [Windows Runtime],EnumMethodSemantics method, IMetaDataImport.EnumMethodSemantics, IMetaDataImport::EnumMethodSemantics, rometadataapi/IMetaDataImport::EnumMethodSemantics, winrt.imetadataimport_enummethodsemantics
 ms.topic: method
-f1_keywords: 
- - "rometadataapi/IMetaDataImport.EnumMethodSemantics"
+f1_keywords:
+- rometadataapi/IMetaDataImport.EnumMethodSemantics
 dev_langs:
- - c++
+- c++
 req.header: rometadataapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - rometadataapi.h
+- rometadataapi.h
 api_name:
- - IMetaDataImport.EnumMethodSemantics
+- IMetaDataImport.EnumMethodSemantics
 targetos: Windows
 req.typenames: 
 req.redist: 

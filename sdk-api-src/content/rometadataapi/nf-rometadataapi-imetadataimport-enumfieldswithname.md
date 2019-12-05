@@ -1,19 +1,17 @@
 ---
 UID: NF:rometadataapi.IMetaDataImport.EnumFieldsWithName
 title: IMetaDataImport::EnumFieldsWithName (rometadataapi.h)
-
 description: Enumerates FieldDef tokens of the specified type with the specified name.
 old-location: winrt\imetadataimport_enumfieldswithname.htm
 tech.root: WinRT
 ms.assetid: 6035f267-778d-4d7d-84eb-1081f33ff619
-
 ms.date: 12/05/2018
 ms.keywords: EnumFieldsWithName, EnumFieldsWithName method [Windows Runtime], EnumFieldsWithName method [Windows Runtime],IMetaDataImport interface, IMetaDataImport interface [Windows Runtime],EnumFieldsWithName method, IMetaDataImport.EnumFieldsWithName, IMetaDataImport::EnumFieldsWithName, rometadataapi/IMetaDataImport::EnumFieldsWithName, winrt.imetadataimport_enumfieldswithname
 ms.topic: method
-f1_keywords: 
- - "rometadataapi/IMetaDataImport.EnumFieldsWithName"
+f1_keywords:
+- rometadataapi/IMetaDataImport.EnumFieldsWithName
 dev_langs:
- - c++
+- c++
 req.header: rometadataapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - rometadataapi.h
+- rometadataapi.h
 api_name:
- - IMetaDataImport.EnumFieldsWithName
+- IMetaDataImport.EnumFieldsWithName
 targetos: Windows
 req.typenames: 
 req.redist: 

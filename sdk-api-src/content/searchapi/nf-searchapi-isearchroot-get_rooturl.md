@@ -1,19 +1,17 @@
 ---
 UID: NF:searchapi.ISearchRoot.get_RootURL
 title: ISearchRoot::get_RootURL (searchapi.h)
-
 description: Gets the URL of the starting point for this search root.
 old-location: search\_search_ISearchRoot_get_RootURL.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\crawlscope\isearchroot\get_rooturl.htm
-
 ms.date: 12/05/2018
 ms.keywords: ISearchRoot interface [search],get_RootURL method, ISearchRoot.get_RootURL, ISearchRoot::get_RootURL, _search_ISearchRoot_get_RootURL, get_RootURL, get_RootURL method [search], get_RootURL method [search],ISearchRoot interface, search._search_ISearchRoot_get_RootURL, searchapi/ISearchRoot::get_RootURL
 ms.topic: method
-f1_keywords: 
- - "searchapi/ISearchRoot.get_RootURL"
+f1_keywords:
+- searchapi/ISearchRoot.get_RootURL
 dev_langs:
- - c++
+- c++
 req.header: searchapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Searchapi.h
+- Searchapi.h
 api_name:
- - ISearchRoot.get_RootURL
+- ISearchRoot.get_RootURL
 targetos: Windows
 req.typenames: 
 req.redist: 

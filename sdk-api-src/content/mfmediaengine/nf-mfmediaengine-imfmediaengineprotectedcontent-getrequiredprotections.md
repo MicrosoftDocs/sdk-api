@@ -1,19 +1,17 @@
 ---
 UID: NF:mfmediaengine.IMFMediaEngineProtectedContent.GetRequiredProtections
 title: IMFMediaEngineProtectedContent::GetRequiredProtections (mfmediaengine.h)
-
 description: Gets the content protections that must be applied in frame-server mode.
 old-location: mf\imfmediaengineprotectedcontent_getrequiredprotections.htm
 tech.root: medfound
 ms.assetid: 4D67813D-F222-4EB1-B059-6DB5EC642DA2
-
 ms.date: 12/05/2018
 ms.keywords: GetRequiredProtections, GetRequiredProtections method [Media Foundation], GetRequiredProtections method [Media Foundation],IMFMediaEngineProtectedContent interface, IMFMediaEngineProtectedContent interface [Media Foundation],GetRequiredProtections method, IMFMediaEngineProtectedContent.GetRequiredProtections, IMFMediaEngineProtectedContent::GetRequiredProtections, mf.imfmediaengineprotectedcontent_getrequiredprotections, mfmediaengine/IMFMediaEngineProtectedContent::GetRequiredProtections
 ms.topic: method
-f1_keywords: 
- - "mfmediaengine/IMFMediaEngineProtectedContent.GetRequiredProtections"
+f1_keywords:
+- mfmediaengine/IMFMediaEngineProtectedContent.GetRequiredProtections
 dev_langs:
- - c++
+- c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfmediaengine.h
+- mfmediaengine.h
 api_name:
- - IMFMediaEngineProtectedContent.GetRequiredProtections
+- IMFMediaEngineProtectedContent.GetRequiredProtections
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:setupapi.SetupAdjustDiskSpaceListW
 title: SetupAdjustDiskSpaceListW function (setupapi.h)
-
 description: The SetupAdjustDiskSpaceList function adjusts the amount of required space for a specified drive.
 old-location: setup\setupadjustdiskspacelist.htm
 tech.root: SetupApi
 ms.assetid: dcdcc43c-9b5c-495b-bf4b-331c4d9461e7
-
 ms.date: 12/05/2018
 ms.keywords: SetupAdjustDiskSpaceList, SetupAdjustDiskSpaceList function [Setup API], SetupAdjustDiskSpaceListA, SetupAdjustDiskSpaceListW, setup.setupadjustdiskspacelist, setupapi/SetupAdjustDiskSpaceList, setupapi/SetupAdjustDiskSpaceListA, setupapi/SetupAdjustDiskSpaceListW
 ms.topic: function
-f1_keywords: 
- - "setupapi/SetupAdjustDiskSpaceList"
+f1_keywords:
+- setupapi/SetupAdjustDiskSpaceList
 dev_langs:
- - c++
+- c++
 req.header: setupapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Setupapi.lib
 req.dll: Setupapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Setupapi.dll
+- Setupapi.dll
 api_name:
- - SetupAdjustDiskSpaceList
- - SetupAdjustDiskSpaceListA
- - SetupAdjustDiskSpaceListW
+- SetupAdjustDiskSpaceList
+- SetupAdjustDiskSpaceListA
+- SetupAdjustDiskSpaceListW
 targetos: Windows
 req.typenames: 
 req.redist: 

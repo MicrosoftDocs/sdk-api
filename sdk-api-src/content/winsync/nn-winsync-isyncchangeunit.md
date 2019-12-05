@@ -1,19 +1,17 @@
 ---
 UID: NN:winsync.ISyncChangeUnit
 title: ISyncChangeUnit (winsync.h)
-
 description: Represents a change to a change unit that is contained in an item.
 old-location: winsync\isyncchangeunit.htm
 tech.root: winsync
 ms.assetid: 6c889a78-1a50-47b5-8e49-4aba741c0be0
-
 ms.date: 12/05/2018
 ms.keywords: ISyncChangeUnit, ISyncChangeUnit interface [Windows Sync], ISyncChangeUnit interface [Windows Sync],described, winsync.isyncchangeunit, winsync/ISyncChangeUnit
 ms.topic: interface
-f1_keywords: 
- - "winsync/ISyncChangeUnit"
+f1_keywords:
+- winsync/ISyncChangeUnit
 dev_langs:
- - c++
+- c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - winsync.h
+- winsync.h
 api_name:
- - ISyncChangeUnit
+- ISyncChangeUnit
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:dsadmin.IDsAdminCreateObj.Initialize
 title: IDsAdminCreateObj::Initialize (dsadmin.h)
-
 description: The IDsAdminCreateObj::Initialize method initializes an IDsAdminCreateObj object with data about the container where the object will be created, the class of the object to be created and, possibly, the source object to copy from.
 old-location: ad\idsadmincreateobj_initialize.htm
 tech.root: ad
 ms.assetid: 811863e7-25d2-48d0-bf97-61b49a224c98
-
 ms.date: 12/05/2018
 ms.keywords: IDsAdminCreateObj interface [Active Directory],Initialize method, IDsAdminCreateObj.Initialize, IDsAdminCreateObj::Initialize, Initialize, Initialize method [Active Directory], Initialize method [Active Directory],IDsAdminCreateObj interface, _glines_idsadmincreateobj_initialize, ad.idsadmincreateobj__initialize, ad.idsadmincreateobj_initialize, dsadmin/IDsAdminCreateObj::Initialize
 ms.topic: method
-f1_keywords: 
- - "dsadmin/IDsAdminCreateObj.Initialize"
+f1_keywords:
+- dsadmin/IDsAdminCreateObj.Initialize
 dev_langs:
- - c++
+- c++
 req.header: dsadmin.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: DSAdmin.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - DSAdmin.dll
+- DSAdmin.dll
 api_name:
- - IDsAdminCreateObj.Initialize
+- IDsAdminCreateObj.Initialize
 targetos: Windows
 req.typenames: 
 req.redist: 

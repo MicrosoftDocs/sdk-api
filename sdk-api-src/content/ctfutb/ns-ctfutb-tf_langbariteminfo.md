@@ -1,19 +1,17 @@
 ---
 UID: NS:ctfutb.TF_LANGBARITEMINFO
 title: TF_LANGBARITEMINFO (ctfutb.h)
-
 description: The TF_LANGBARITEMINFO structure is used to hold information about a language bar item.
 old-location: tsf\tf_langbariteminfo.htm
 tech.root: TSF
 ms.assetid: 4a826a2c-4cae-4cbf-8a25-38337dcd498d
-
 ms.date: 12/05/2018
 ms.keywords: TF_LANGBARITEMINFO, TF_LANGBARITEMINFO structure [Text Services Framework], _tsf_tf_langbariteminfo_ref, ctfutb/TF_LANGBARITEMINFO, tsf.tf_langbariteminfo
 ms.topic: struct
-f1_keywords: 
- - "ctfutb/TF_LANGBARITEMINFO"
+f1_keywords:
+- ctfutb/TF_LANGBARITEMINFO
 dev_langs:
- - c++
+- c++
 req.header: ctfutb.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Ctfutb.h
+- Ctfutb.h
 api_name:
- - TF_LANGBARITEMINFO
+- TF_LANGBARITEMINFO
 targetos: Windows
 req.typenames: TF_LANGBARITEMINFO
 req.redist: TSF 1.0 on Windows 2000 Professional

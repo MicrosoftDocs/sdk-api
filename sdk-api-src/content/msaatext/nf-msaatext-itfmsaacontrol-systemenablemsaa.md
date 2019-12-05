@@ -1,19 +1,17 @@
 ---
 UID: NF:msaatext.ITfMSAAControl.SystemEnableMSAA
 title: ITfMSAAControl::SystemEnableMSAA (msaatext.h)
-
 description: ITfMSAAControl::SystemEnableMSAA method
 old-location: tsf\itfmsaacontrol_systemenablemsaa.htm
 tech.root: TSF
 ms.assetid: fec3aa3f-3554-4c21-9557-a12388d97a94
-
 ms.date: 12/05/2018
 ms.keywords: ITfMSAAControl interface [Text Services Framework],SystemEnableMSAA method, ITfMSAAControl.SystemEnableMSAA, ITfMSAAControl::SystemEnableMSAA, SystemEnableMSAA, SystemEnableMSAA method [Text Services Framework], SystemEnableMSAA method [Text Services Framework],ITfMSAAControl interface, msaatext/ITfMSAAControl::SystemEnableMSAA, tsf.itfmsaacontrol_systemenablemsaa
 ms.topic: method
-f1_keywords: 
- - "msaatext/ITfMSAAControl.SystemEnableMSAA"
+f1_keywords:
+- msaatext/ITfMSAAControl.SystemEnableMSAA
 dev_langs:
- - c++
+- c++
 req.header: msaatext.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msctf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msctf.dll
+- msctf.dll
 api_name:
- - ITfMSAAControl.SystemEnableMSAA
+- ITfMSAAControl.SystemEnableMSAA
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

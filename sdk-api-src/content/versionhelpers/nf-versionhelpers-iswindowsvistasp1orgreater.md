@@ -1,19 +1,17 @@
 ---
 UID: NF:versionhelpers.IsWindowsVistaSP1OrGreater
 title: IsWindowsVistaSP1OrGreater function (versionhelpers.h)
-
 description: Indicates if the current OS version matches, or is greater than, the Windows Vista with Service Pack 1 (SP1) version.
 old-location: base\iswindowsvistasp1orgreater.htm
 tech.root: SysInfo
 ms.assetid: 7E74A761-E336-4618-B92F-166C3DF1FF66
-
 ms.date: 12/05/2018
 ms.keywords: IsWindowsVistaSP1OrGreater, IsWindowsVistaSP1OrGreater function, base.iswindowsvistasp1orgreater, versionhelpers/IsWindowsVistaSP1OrGreater
 ms.topic: function
-f1_keywords: 
- - "versionhelpers/IsWindowsVistaSP1OrGreater"
+f1_keywords:
+- versionhelpers/IsWindowsVistaSP1OrGreater
 dev_langs:
- - c++
+- c++
 req.header: versionhelpers.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Kernel32.lib; Ntdll.lib
 req.dll: Kernel32.dll; Ntdll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - ntdll.dll
+- Kernel32.dll
+- ntdll.dll
 api_name:
- - IsWindowsVistaSP1OrGreater
+- IsWindowsVistaSP1OrGreater
 targetos: Windows
 req.typenames: 
 req.redist: 

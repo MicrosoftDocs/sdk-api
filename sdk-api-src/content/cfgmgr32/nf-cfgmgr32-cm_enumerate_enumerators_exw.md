@@ -1,19 +1,17 @@
 ---
 UID: NF:cfgmgr32.CM_Enumerate_Enumerators_ExW
 title: CM_Enumerate_Enumerators_ExW function (cfgmgr32.h)
-
 description: The CM_Enumerate_Enumerators_Ex function enumerates a local or a remote machine's device enumerators, by supplying each enumerator's name.
 old-location: devinst\cm_enumerate_enumerators_ex.htm
 tech.root: devinst
 ms.assetid: 9d44b1be-96b1-493a-94b7-a6bd883fd570
-
 ms.date: 12/05/2018
 ms.keywords: CM_Enumerate_Enumerators_Ex, CM_Enumerate_Enumerators_Ex function [Device and Driver Installation], CM_Enumerate_Enumerators_ExW, cfgmgr32/CM_Enumerate_Enumerators_Ex, cfgmgr32/CM_Enumerate_Enumerators_ExW, cfgmgrfn_56f59835-4383-4d6f-aaa5-e7e1cb4a3b56.xml, devinst.cm_enumerate_enumerators_ex
 ms.topic: function
-f1_keywords: 
- - "cfgmgr32/CM_Enumerate_Enumerators_Ex"
+f1_keywords:
+- cfgmgr32/CM_Enumerate_Enumerators_Ex
 dev_langs:
- - c++
+- c++
 req.header: cfgmgr32.h
 req.include-header: Cfgmgr32.h
 req.target-type: Desktop
@@ -32,16 +30,16 @@ req.lib: Cfgmgr32.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - LibDef
+- LibDef
 api_location:
- - Cfgmgr32.lib
- - Cfgmgr32.dll
+- Cfgmgr32.lib
+- Cfgmgr32.dll
 api_name:
- - CM_Enumerate_Enumerators_Ex
- - CM_Enumerate_Enumerators_ExW
+- CM_Enumerate_Enumerators_Ex
+- CM_Enumerate_Enumerators_ExW
 targetos: Windows
 req.typenames: 
 req.redist: 

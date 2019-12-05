@@ -1,19 +1,17 @@
 ---
 UID: NF:oaidl.ICreateErrorInfo.SetSource
 title: ICreateErrorInfo::SetSource (oaidl.h)
-
 description: Sets the language-dependent programmatic identifier (ProgID) for the class or application that raised the error.
 old-location: automat\icreateerrorinfo_setsource.htm
 tech.root: automat
 ms.assetid: 7f0e6349-9d31-4ab6-9a91-3822e81188e5
-
 ms.date: 12/05/2018
 ms.keywords: ICreateErrorInfo interface [Automation],SetSource method, ICreateErrorInfo.SetSource, ICreateErrorInfo::SetSource, SetSource, SetSource method [Automation], SetSource method [Automation],ICreateErrorInfo interface, _oa96_ICreateErrorInfo_SetSource, automat.icreateerrorinfo_setsource, oaidl/ICreateErrorInfo::SetSource
 ms.topic: method
-f1_keywords: 
- - "oaidl/ICreateErrorInfo.SetSource"
+f1_keywords:
+- oaidl/ICreateErrorInfo.SetSource
 dev_langs:
- - c++
+- c++
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - oaidl.h
+- oaidl.h
 api_name:
- - ICreateErrorInfo.SetSource
+- ICreateErrorInfo.SetSource
 targetos: Windows
 req.typenames: 
 req.redist: 

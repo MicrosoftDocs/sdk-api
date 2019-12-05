@@ -1,19 +1,17 @@
 ---
 UID: NF:fsrmpipeline.IFsrmPropertyBag.get_RelativeNamespaceRoot
 title: IFsrmPropertyBag::get_RelativeNamespaceRoot (fsrmpipeline.h)
-
 description: The relative path of the namespace root under which the file is being evaluated.
 old-location: fsrm\ifsrmpropertybag_relativenamespaceroot.htm
 tech.root: fsrm
 ms.assetid: 31e0baad-286a-42f3-bd30-84fc40c935f6
-
 ms.date: 12/05/2018
 ms.keywords: IFsrmPropertyBag interface [File Server Resource Manager],RelativeNamespaceRoot property, IFsrmPropertyBag.RelativeNamespaceRoot, IFsrmPropertyBag.get_RelativeNamespaceRoot, IFsrmPropertyBag::RelativeNamespaceRoot, IFsrmPropertyBag::get_RelativeNamespaceRoot, RelativeNamespaceRoot property [File Server Resource Manager], RelativeNamespaceRoot property [File Server Resource Manager],IFsrmPropertyBag interface, fs.ifsrmpropertybag_relativenamespaceroot, fsrm.ifsrmpropertybag_relativenamespaceroot, fsrmpipeline/IFsrmPropertyBag::RelativeNamespaceRoot, fsrmpipeline/IFsrmPropertyBag::get_RelativeNamespaceRoot, get_RelativeNamespaceRoot
 ms.topic: method
-f1_keywords: 
- - "fsrmpipeline/IFsrmPropertyBag.RelativeNamespaceRoot"
+f1_keywords:
+- fsrmpipeline/IFsrmPropertyBag.RelativeNamespaceRoot
 dev_langs:
- - c++
+- c++
 req.header: fsrmpipeline.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: SrmSvc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - SrmSvc.dll
+- SrmSvc.dll
 api_name:
- - IFsrmPropertyBag.RelativeNamespaceRoot
- - IFsrmPropertyBag.get_RelativeNamespaceRoot
+- IFsrmPropertyBag.RelativeNamespaceRoot
+- IFsrmPropertyBag.get_RelativeNamespaceRoot
 targetos: Windows
 req.typenames: 
 req.redist: 

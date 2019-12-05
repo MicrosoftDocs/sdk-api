@@ -1,19 +1,17 @@
 ---
 UID: NF:shldisp.IDataObjectAsyncCapability.InOperation
 title: IDataObjectAsyncCapability::InOperation (shldisp.h)
-
 description: Called by the drop source to determine whether the target is extracting data asynchronously.
 old-location: shell\IDataObjectAsyncCapability_InOperation.htm
 tech.root: shell
 ms.assetid: 858EB8C4-88AB-40a3-B4FC-CCD19235CE55
-
 ms.date: 12/05/2018
 ms.keywords: IDataObjectAsyncCapability interface [Windows Shell],InOperation method, IDataObjectAsyncCapability.InOperation, IDataObjectAsyncCapability::InOperation, InOperation, InOperation method [Windows Shell], InOperation method [Windows Shell],IDataObjectAsyncCapability interface, shell.IDataObjectAsyncCapability_InOperation, shldisp/IDataObjectAsyncCapability::InOperation
 ms.topic: method
-f1_keywords: 
- - "shldisp/IDataObjectAsyncCapability.InOperation"
+f1_keywords:
+- shldisp/IDataObjectAsyncCapability.InOperation
 dev_langs:
- - c++
+- c++
 req.header: shldisp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Shell32.dll (version 6.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - IDataObjectAsyncCapability.InOperation
+- IDataObjectAsyncCapability.InOperation
 targetos: Windows
 req.typenames: 
 req.redist: 

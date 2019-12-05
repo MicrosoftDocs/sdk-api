@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IAMTuner.SignalPresent
 title: IAMTuner::SignalPresent (strmif.h)
-
 description: The SignalPresent method retrieves the strength of the signal on a given channel.
 old-location: dshow\iamtuner_signalpresent.htm
 tech.root: DirectShow
 ms.assetid: 64a89038-4df1-4e30-8952-6dc039a2e18b
-
 ms.date: 12/05/2018
 ms.keywords: IAMTuner interface [DirectShow],SignalPresent method, IAMTuner.SignalPresent, IAMTuner::SignalPresent, IAMTunerSignalPresent, SignalPresent, SignalPresent method [DirectShow], SignalPresent method [DirectShow],IAMTuner interface, dshow.iamtuner_signalpresent, strmif/IAMTuner::SignalPresent
 ms.topic: method
-f1_keywords: 
- - "strmif/IAMTuner.SignalPresent"
+f1_keywords:
+- strmif/IAMTuner.SignalPresent
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IAMTuner.SignalPresent
+- IAMTuner.SignalPresent
 targetos: Windows
 req.typenames: 
 req.redist: 

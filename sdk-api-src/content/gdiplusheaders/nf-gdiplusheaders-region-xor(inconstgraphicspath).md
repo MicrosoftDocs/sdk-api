@@ -1,19 +1,17 @@
 ---
 UID: NF:gdiplusheaders.Region.Xor(IN const GraphicsPath)
 title: Region::Xor(IN const GraphicsPath) (gdiplusheaders.h)
-
 description: The Region::Xor method updates this region to the nonintersecting portions of itself and the specified path's interior.
 old-location: gdiplus\_gdiplus_CLASS_Region_Xor_path_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\regionclass\regionmethods\regionxormethods\xor.htm
-
 ms.date: 12/05/2018
 ms.keywords: Region class [GDI+],Xor method, Region.Xor, Region.Xor(IN const GraphicsPath), Region.Xor(const GraphicsPath*), Region::Xor, Region::Xor(IN const GraphicsPath), Xor, Xor method [GDI+], Xor method [GDI+],Region class, _gdiplus_CLASS_Region_Xor_path_, gdiplus._gdiplus_CLASS_Region_Xor_path_
 ms.topic: method
-f1_keywords: 
- - "gdiplusheaders/Region.Xor"
+f1_keywords:
+- gdiplusheaders/Region.Xor
 dev_langs:
- - c++
+- c++
 req.header: gdiplusheaders.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - Region.Xor
+- Region.Xor
 targetos: Windows
 req.typenames: 
 req.redist: 

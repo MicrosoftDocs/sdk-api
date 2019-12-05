@@ -1,19 +1,17 @@
 ---
 UID: NN:endpointvolume.IAudioEndpointVolumeEx
 title: IAudioEndpointVolumeEx (endpointvolume.h)
-
 description: The IAudioEndpointVolumeEx interface provides volume controls on the audio stream to or from a device endpoint.
 old-location: coreaudio\iaudioendpointvolumeex.htm
 tech.root: CoreAudio
 ms.assetid: 905ef0c9-ac32-4dfd-a25a-820cafa04815
-
 ms.date: 12/05/2018
 ms.keywords: IAudioEndpointVolumeEx, IAudioEndpointVolumeEx interface [Core Audio], IAudioEndpointVolumeEx interface [Core Audio],described, coreaudio.iaudioendpointvolumeex, endpointvolume/IAudioEndpointVolumeEx
 ms.topic: interface
-f1_keywords: 
- - "endpointvolume/IAudioEndpointVolumeEx"
+f1_keywords:
+- endpointvolume/IAudioEndpointVolumeEx
 dev_langs:
- - c++
+- c++
 req.header: endpointvolume.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Endpointvolume.h
+- Endpointvolume.h
 api_name:
- - IAudioEndpointVolumeEx
+- IAudioEndpointVolumeEx
 targetos: Windows
 req.typenames: 
 req.redist: 

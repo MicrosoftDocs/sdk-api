@@ -1,19 +1,17 @@
 ---
 UID: NF:dcomp.IDCompositionScaleTransform3D.SetCenterY(float)
 title: IDCompositionScaleTransform3D::SetCenterY (dcomp.h)
-
 description: Changes the value of the CenterY property of a 3D scale transform.
 old-location: directcomp\idcompositionscaletransform3d_setcentery_float.htm
 tech.root: directcomp
 ms.assetid: A50A8309-08F7-4868-AB95-A825C60C7E9E
-
 ms.date: 12/05/2018
 ms.keywords: IDCompositionScaleTransform3D interface [DirectComposition],SetCenterY method, IDCompositionScaleTransform3D.SetCenterY, IDCompositionScaleTransform3D::SetCenterY, IDCompositionScaleTransform3D::SetCenterY(float), SetCenterY, SetCenterY method [DirectComposition], SetCenterY method [DirectComposition],IDCompositionScaleTransform3D interface, dcomp/IDCompositionScaleTransform3D::SetCenterY, directcomp.idcompositionscaletransform3d_setcentery_float
 ms.topic: method
-f1_keywords: 
- - "dcomp/IDCompositionScaleTransform3D.SetCenterY"
+f1_keywords:
+- dcomp/IDCompositionScaleTransform3D.SetCenterY
 dev_langs:
- - c++
+- c++
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dcomp.lib
 req.dll: Dcomp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dcomp.dll
+- Dcomp.dll
 api_name:
- - IDCompositionScaleTransform3D.SetCenterY
+- IDCompositionScaleTransform3D.SetCenterY
 targetos: Windows
 req.typenames: 
 req.redist: 

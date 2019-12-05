@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationcoreapi.UiaNodeFromHandle
 title: UiaNodeFromHandle function (uiautomationcoreapi.h)
-
 description: Retrieves the UI Automation node associated with a window.
 old-location: winauto\uiauto_UiaNodeFromHandleFunction.htm
 tech.root: WinAuto
 ms.assetid: 0a8c79e6-b825-40a1-b174-5428ab643514
-
 ms.date: 12/05/2018
 ms.keywords: UiaNodeFromHandle, UiaNodeFromHandle function [Windows Accessibility], uiauto.uiauto_UiaNodeFromHandleFunction, uiauto_UiaNodeFromHandleFunction, uiautomationcoreapi/UiaNodeFromHandle, winauto.uiauto_UiaNodeFromHandleFunction
 ms.topic: function
-f1_keywords: 
- - "uiautomationcoreapi/UiaNodeFromHandle"
+f1_keywords:
+- uiautomationcoreapi/UiaNodeFromHandle
 dev_langs:
- - c++
+- c++
 req.header: uiautomationcoreapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uiautomationcore.lib
 req.dll: Uiautomationcore.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Uiautomationcore.dll
+- Uiautomationcore.dll
 api_name:
- - UiaNodeFromHandle
+- UiaNodeFromHandle
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NS:dxmini._DDGETCURRENTAUTOFLIPININFO
 title: DDGETCURRENTAUTOFLIPININFO (dxmini.h)
-
 description: The DDGETCURRENTAUTOFLIPININFO structure contains the video port extensions (VPE) object information.
 old-location: display\ddgetcurrentautoflipininfo.htm
 tech.root: display
 ms.assetid: 17443cab-7dc6-4bc9-ae0c-463c6f76d768
-
 ms.date: 12/05/2018
-ms.keywords: "*PDDGETCURRENTAUTOFLIPININFO, DDGETCURRENTAUTOFLIPININFO, DDGETCURRENTAUTOFLIPININFO structure [Display Devices], PDDGETCURRENTAUTOFLIPININFO, PDDGETCURRENTAUTOFLIPININFO structure pointer [Display Devices], Video_Structs_3476fe24-7963-4d7c-a794-ade9c2fdca57.xml, display.ddgetcurrentautoflipininfo, dxmini/DDGETCURRENTAUTOFLIPININFO, dxmini/PDDGETCURRENTAUTOFLIPININFO"
+ms.keywords: '*PDDGETCURRENTAUTOFLIPININFO, DDGETCURRENTAUTOFLIPININFO, DDGETCURRENTAUTOFLIPININFO structure [Display Devices], PDDGETCURRENTAUTOFLIPININFO, PDDGETCURRENTAUTOFLIPININFO structure pointer [Display Devices], Video_Structs_3476fe24-7963-4d7c-a794-ade9c2fdca57.xml, display.ddgetcurrentautoflipininfo, dxmini/DDGETCURRENTAUTOFLIPININFO, dxmini/PDDGETCURRENTAUTOFLIPININFO'
 ms.topic: struct
-f1_keywords: 
- - "dxmini/DDGETCURRENTAUTOFLIPININFO"
+f1_keywords:
+- dxmini/DDGETCURRENTAUTOFLIPININFO
 dev_langs:
- - c++
+- c++
 req.header: dxmini.h
 req.include-header: Dxmini.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - dxmini.h
+- dxmini.h
 api_name:
- - DDGETCURRENTAUTOFLIPININFO
+- DDGETCURRENTAUTOFLIPININFO
 targetos: Windows
 req.typenames: DDGETCURRENTAUTOFLIPININFO, *PDDGETCURRENTAUTOFLIPININFO
 req.redist: 

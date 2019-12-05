@@ -1,19 +1,17 @@
 ---
 UID: NF:winineti.InternetSetDialStateW
 title: InternetSetDialStateW function (winineti.h)
-
 description: Not supported.This function is obsolete. Do not use.
 old-location: wininet\internetsetdialstate.htm
 tech.root: wininet
 ms.assetid: f523f1ca-3e5a-4da0-850f-8654c82ee41e
-
 ms.date: 12/05/2018
 ms.keywords: InternetSetDialState, InternetSetDialState function [WinINet], InternetSetDialStateA, InternetSetDialStateW, _inet_internetsetdialstate_function, wininet.internetsetdialstate, wininet/InternetSetDialState, wininet/InternetSetDialStateA, wininet/InternetSetDialStateW, winineti/InternetSetDialState, winineti/InternetSetDialStateA, winineti/InternetSetDialStateW
 ms.topic: function
-f1_keywords: 
- - "winineti/InternetSetDialState"
+f1_keywords:
+- winineti/InternetSetDialState
 dev_langs:
- - c++
+- c++
 req.header: winineti.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Wininet.lib
 req.dll: Wininet.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Wininet.dll
+- Wininet.dll
 api_name:
- - InternetSetDialState
- - InternetSetDialStateA
- - InternetSetDialStateW
+- InternetSetDialState
+- InternetSetDialStateA
+- InternetSetDialStateW
 targetos: Windows
 req.typenames: 
 req.redist: 

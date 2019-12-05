@@ -1,19 +1,17 @@
 ---
 UID: NF:syncregistration.IRegisteredSyncProvider.Init
 title: IRegisteredSyncProvider::Init (syncregistration.h)
-
 description: Initializes the synchronization provider before it is ready for a synchronization session.
 old-location: winsync\iregisteredsyncprovider_init.htm
 tech.root: winsync
 ms.assetid: 1f022a6b-8f8c-4def-9ca9-dc06ec80f020
-
 ms.date: 12/05/2018
 ms.keywords: IRegisteredSyncProvider interface [Windows Sync],Init method, IRegisteredSyncProvider.Init, IRegisteredSyncProvider::Init, Init, Init method [Windows Sync], Init method [Windows Sync],IRegisteredSyncProvider interface, syncregistration/IRegisteredSyncProvider::Init, winsync.iregisteredsyncprovider_init
 ms.topic: method
-f1_keywords: 
- - "syncregistration/IRegisteredSyncProvider.Init"
+f1_keywords:
+- syncregistration/IRegisteredSyncProvider.Init
 dev_langs:
- - c++
+- c++
 req.header: syncregistration.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Syncregistration.h
+- Syncregistration.h
 api_name:
- - IRegisteredSyncProvider.Init
+- IRegisteredSyncProvider.Init
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NN:imapi2fs.IFileSystemImage3
 title: IFileSystemImage3 (imapi2fs.h)
-
 description: Use this interface to set or check the metadata and metadata mirror files in a UDF file system (rev 2.50 and later) to determine redundancy.
 old-location: imapi\ifilesystemimage3.htm
 tech.root: imapi
 ms.assetid: ffe343fa-2837-41f7-b7e0-097788fb5d4e
-
 ms.date: 12/05/2018
 ms.keywords: IFileSystemImage3, IFileSystemImage3 interface [IMAPI], IFileSystemImage3 interface [IMAPI],described, imapi.ifilesystemimage3, imapi2fs/IFileSystemImage3
 ms.topic: interface
-f1_keywords: 
- - "imapi2fs/IFileSystemImage3"
+f1_keywords:
+- imapi2fs/IFileSystemImage3
 dev_langs:
- - c++
+- c++
 req.header: imapi2fs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - imapi2fs.h
+- imapi2fs.h
 api_name:
- - IFileSystemImage3
+- IFileSystemImage3
 targetos: Windows
 req.typenames: 
 req.redist: 

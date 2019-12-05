@@ -1,19 +1,17 @@
 ---
 UID: NF:p2p.PeerCollabGetContact
 title: PeerCollabGetContact function (p2p.h)
-
 description: Obtains the information for a peer contact given the peer name of the contact.
 old-location: p2p\peercollabgetcontact.htm
 tech.root: P2PSdk
 ms.assetid: b1233942-1bd5-4198-a00c-6d0516ab32dc
-
 ms.date: 12/05/2018
 ms.keywords: PeerCollabGetContact, PeerCollabGetContact function [Peer Networking], p2p.peercollabgetcontact, p2p/PeerCollabGetContact
 ms.topic: function
-f1_keywords: 
- - "p2p/PeerCollabGetContact"
+f1_keywords:
+- p2p/PeerCollabGetContact
 dev_langs:
- - c++
+- c++
 req.header: p2p.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: P2P.lib
 req.dll: P2P.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - P2P.dll
+- P2P.dll
 api_name:
- - PeerCollabGetContact
+- PeerCollabGetContact
 targetos: Windows
 req.typenames: 
 req.redist: 

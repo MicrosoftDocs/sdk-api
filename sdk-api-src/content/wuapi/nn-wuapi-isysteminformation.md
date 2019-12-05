@@ -1,19 +1,17 @@
 ---
 UID: NN:wuapi.ISystemInformation
 title: ISystemInformation (wuapi.h)
-
 description: Contains information about the specified computer. This information is relevant to the Windows Update Agent (WUA).
 old-location: wua\isysteminformation.htm
 tech.root: Wua_Sdk
 ms.assetid: b0aebfd6-1d62-43b3-8c40-2eeb67fab27d
-
 ms.date: 12/05/2018
 ms.keywords: ISystemInformation, ISystemInformation interface [Windows Update Agent], ISystemInformation interface [Windows Update Agent],described, wua.isysteminformation, wuapi/ISystemInformation
 ms.topic: interface
-f1_keywords: 
- - "wuapi/ISystemInformation"
+f1_keywords:
+- wuapi/ISystemInformation
 dev_langs:
- - c++
+- c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Wuguid.lib
 req.dll: Wuapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wuapi.dll
+- Wuapi.dll
 api_name:
- - ISystemInformation
+- ISystemInformation
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:objidl.IMoniker.ParseDisplayName
 title: IMoniker::ParseDisplayName (objidl.h)
-
 description: Converts a display name into a moniker.
 old-location: com\imoniker_parsedisplayname.htm
 tech.root: com
 ms.assetid: 6a5a1f14-f14f-404b-90d8-0afceafc087c
-
 ms.date: 12/05/2018
 ms.keywords: IMoniker interface [COM],ParseDisplayName method, IMoniker.ParseDisplayName, IMoniker::ParseDisplayName, ParseDisplayName, ParseDisplayName method [COM], ParseDisplayName method [COM],IMoniker interface, _com_imoniker_parsedisplayname, com.imoniker_parsedisplayname, objidl/IMoniker::ParseDisplayName
 ms.topic: method
-f1_keywords: 
- - "objidl/IMoniker.ParseDisplayName"
+f1_keywords:
+- objidl/IMoniker.ParseDisplayName
 dev_langs:
- - c++
+- c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ObjIdl.h
+- ObjIdl.h
 api_name:
- - IMoniker.ParseDisplayName
+- IMoniker.ParseDisplayName
 targetos: Windows
 req.typenames: 
 req.redist: 

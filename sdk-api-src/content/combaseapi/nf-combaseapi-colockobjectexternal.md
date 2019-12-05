@@ -1,19 +1,17 @@
 ---
 UID: NF:combaseapi.CoLockObjectExternal
 title: CoLockObjectExternal function (combaseapi.h)
-
 description: Called either to lock an object to ensure that it stays in memory, or to release such a lock.
 old-location: com\colockobjectexternal.htm
 tech.root: com
 ms.assetid: 36eb55f1-06de-49ad-8a8d-91693ca92e99
-
 ms.date: 12/05/2018
 ms.keywords: CoLockObjectExternal, CoLockObjectExternal function [COM], _com_CoLockObjectExternal, com.colockobjectexternal, combaseapi/CoLockObjectExternal
 ms.topic: function
-f1_keywords: 
- - "combaseapi/CoLockObjectExternal"
+f1_keywords:
+- combaseapi/CoLockObjectExternal
 dev_langs:
- - c++
+- c++
 req.header: combaseapi.h
 req.include-header: Objbase.h
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib: Ole32.lib
 req.dll: Ole32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ole32.dll
- - API-MS-Win-Core-Com-l1-1-0.dll
- - ComBase.dll
- - API-MS-Win-Core-Com-l1-1-1.dll
- - API-MS-Win-DownLevel-Ole32-l1-1-1.dll
+- Ole32.dll
+- API-MS-Win-Core-Com-l1-1-0.dll
+- ComBase.dll
+- API-MS-Win-Core-Com-l1-1-1.dll
+- API-MS-Win-DownLevel-Ole32-l1-1-1.dll
 api_name:
- - CoLockObjectExternal
+- CoLockObjectExternal
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:propsys.IPropertyDescriptionList.GetAt
 title: IPropertyDescriptionList::GetAt (propsys.h)
-
 description: Gets the property description at the specified index in a property description list.
 old-location: properties\IPropertyDescriptionList_GetAt.htm
 tech.root: properties
 ms.assetid: ab4967b8-6650-49fa-b6d5-d72688b080db
-
 ms.date: 12/05/2018
 ms.keywords: GetAt, GetAt method [Windows Properties], GetAt method [Windows Properties],IPropertyDescriptionList interface, IPropertyDescriptionList interface [Windows Properties],GetAt method, IPropertyDescriptionList.GetAt, IPropertyDescriptionList::GetAt, _shell_IPropertyDescriptionList_GetAt, properties.IPropertyDescriptionList_GetAt, propsys/IPropertyDescriptionList::GetAt, shell.IPropertyDescriptionList_GetAt
 ms.topic: method
-f1_keywords: 
- - "propsys/IPropertyDescriptionList.GetAt"
+f1_keywords:
+- propsys/IPropertyDescriptionList.GetAt
 dev_langs:
- - c++
+- c++
 req.header: propsys.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Propsys.h
+- Propsys.h
 api_name:
- - IPropertyDescriptionList.GetAt
+- IPropertyDescriptionList.GetAt
 targetos: Windows
 req.typenames: 
 req.redist: 

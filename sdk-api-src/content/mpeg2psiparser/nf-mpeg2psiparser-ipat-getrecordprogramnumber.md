@@ -1,19 +1,17 @@
 ---
 UID: NF:mpeg2psiparser.IPAT.GetRecordProgramNumber
 title: IPAT::GetRecordProgramNumber (mpeg2psiparser.h)
-
 description: The GetRecordProgramNumber method retrieves a program number from the PAT.
 old-location: mstv\ipat_getrecordprogramnumber.htm
 tech.root: mstv
 ms.assetid: 24a79c42-aebb-4c31-af86-508c5de3b7a3
-
 ms.date: 12/05/2018
 ms.keywords: GetRecordProgramNumber, GetRecordProgramNumber method [Microsoft TV Technologies], GetRecordProgramNumber method [Microsoft TV Technologies],IPAT interface, IPAT interface [Microsoft TV Technologies],GetRecordProgramNumber method, IPAT.GetRecordProgramNumber, IPAT::GetRecordProgramNumber, IPATGetRecordProgramNumber, mpeg2psiparser/IPAT::GetRecordProgramNumber, mstv.ipat_getrecordprogramnumber
 ms.topic: method
-f1_keywords: 
- - "mpeg2psiparser/IPAT.GetRecordProgramNumber"
+f1_keywords:
+- mpeg2psiparser/IPAT.GetRecordProgramNumber
 dev_langs:
- - c++
+- c++
 req.header: mpeg2psiparser.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mpeg2PsiParser.h
+- Mpeg2PsiParser.h
 api_name:
- - IPAT.GetRecordProgramNumber
+- IPAT.GetRecordProgramNumber
 targetos: Windows
 req.typenames: 
 req.redist: 

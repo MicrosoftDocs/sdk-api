@@ -1,19 +1,17 @@
 ---
 UID: NN:tuner.IEnumTuningSpaces
 title: IEnumTuningSpaces (tuner.h)
-
 description: The IEnumTuningSpaces interface is implemented on a standard COM collection of tuning space objects and is obtained through various ITuningSpaceContainer.
 old-location: mstv\ienumtuningspaces.htm
 tech.root: mstv
 ms.assetid: 9b64a48f-ebab-46af-a89d-b8bc488d85da
-
 ms.date: 12/05/2018
 ms.keywords: IEnumTuningSpaces, IEnumTuningSpaces interface [Microsoft TV Technologies], IEnumTuningSpaces interface [Microsoft TV Technologies],described, IEnumTuningSpacesInterface, mstv.ienumtuningspaces, tuner/IEnumTuningSpaces
 ms.topic: interface
-f1_keywords: 
- - "tuner/IEnumTuningSpaces"
+f1_keywords:
+- tuner/IEnumTuningSpaces
 dev_langs:
- - c++
+- c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - tuner.h
+- tuner.h
 api_name:
- - IEnumTuningSpaces
+- IEnumTuningSpaces
 targetos: Windows
 req.typenames: 
 req.redist: 

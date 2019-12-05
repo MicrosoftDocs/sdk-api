@@ -1,19 +1,17 @@
 ---
 UID: NN:fsrmquota.IFsrmAutoApplyQuota
 title: IFsrmAutoApplyQuota (fsrmquota.h)
-
 description: Used to automatically add the quota to new and existing subdirectories of the directory on which the automatic quota is applied.
 old-location: fsrm\ifsrmautoapplyquota.htm
 tech.root: fsrm
 ms.assetid: 3eb30caa-ce29-4898-b1a7-bd905031ca98
-
 ms.date: 12/05/2018
 ms.keywords: IFsrmAutoApplyQuota, IFsrmAutoApplyQuota interface [File Server Resource Manager], IFsrmAutoApplyQuota interface [File Server Resource Manager],described, fs.ifsrmautoapplyquota, fsrm.ifsrmautoapplyquota, fsrm/IFsrmAutoApplyQuota
 ms.topic: interface
-f1_keywords: 
- - "fsrmquota/IFsrmAutoApplyQuota"
+f1_keywords:
+- fsrmquota/IFsrmAutoApplyQuota
 dev_langs:
- - c++
+- c++
 req.header: fsrmquota.h
 req.include-header: FsrmPipeline.h, FsrmQuota.h, FsrmReports.h, FsrmScreen.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: SrmSvc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - SrmSvc.dll
+- SrmSvc.dll
 api_name:
- - IFsrmAutoApplyQuota
+- IFsrmAutoApplyQuota
 targetos: Windows
 req.typenames: 
 req.redist: 

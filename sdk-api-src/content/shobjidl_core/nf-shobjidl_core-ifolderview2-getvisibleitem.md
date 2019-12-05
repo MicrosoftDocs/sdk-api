@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IFolderView2.GetVisibleItem
 title: IFolderView2::GetVisibleItem (shobjidl_core.h)
-
 description: Gets the next visible item in relation to a given index in the view.
 old-location: shell\IFolderView2_GetVisibleItem.htm
 tech.root: shell
 ms.assetid: 5b196377-53c4-49a1-be35-39d34b1638e3
-
 ms.date: 12/05/2018
 ms.keywords: GetVisibleItem, GetVisibleItem method [Windows Shell], GetVisibleItem method [Windows Shell],IFolderView2 interface, IFolderView2 interface [Windows Shell],GetVisibleItem method, IFolderView2.GetVisibleItem, IFolderView2::GetVisibleItem, _shell_IFolderView2_GetVisibleItem, shell.IFolderView2_GetVisibleItem, shobjidl_core/IFolderView2::GetVisibleItem
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IFolderView2.GetVisibleItem"
+f1_keywords:
+- shobjidl_core/IFolderView2.GetVisibleItem
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - IFolderView2.GetVisibleItem
+- IFolderView2.GetVisibleItem
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:mprapi.MprAdminDeregisterConnectionNotification
 title: MprAdminDeregisterConnectionNotification function (mprapi.h)
-
 description: The MprAdminDeregisterConnectionNotification function deregisters an event object that was previously registered using MprAdminRegisterConnectionNotification. Once deregistered, this event is no longer signaled when an interface connects or disconnects.
 old-location: rras\mpradminderegisterconnectionnotification.htm
 tech.root: RRAS
 ms.assetid: 72918a54-8e8a-404a-9fd3-45b0bcc98038
-
 ms.date: 12/05/2018
 ms.keywords: MprAdminDeregisterConnectionNotification, MprAdminDeregisterConnectionNotification function [RAS], _mpr_mpradminderegisterconnectionnotification, mprapi/MprAdminDeregisterConnectionNotification, rras.mpradminderegisterconnectionnotification
 ms.topic: function
-f1_keywords: 
- - "mprapi/MprAdminDeregisterConnectionNotification"
+f1_keywords:
+- mprapi/MprAdminDeregisterConnectionNotification
 dev_langs:
- - c++
+- c++
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Mprapi.lib
 req.dll: Mprapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Mprapi.dll
+- Mprapi.dll
 api_name:
- - MprAdminDeregisterConnectionNotification
+- MprAdminDeregisterConnectionNotification
 targetos: Windows
 req.typenames: 
 req.redist: 

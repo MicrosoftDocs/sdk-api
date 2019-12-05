@@ -1,19 +1,17 @@
 ---
 UID: NS:vsmgmt._VSS_MGMT_OBJECT_PROP
 title: VSS_MGMT_OBJECT_PROP (vsmgmt.h)
-
 description: Defines the properties of a volume, shadow copy storage volume, or a shadow copy storage area.
 old-location: base\vss_mgmt_object_prop.htm
 tech.root: VSS
 ms.assetid: 86681207-969e-4b33-aff8-79454ab04829
-
 ms.date: 12/05/2018
 ms.keywords: '*PVSS_MGMT_OBJECT_PROP, PVSS_MGMT_OBJECT_PROP, PVSS_MGMT_OBJECT_PROP structure pointer [VSS], VSS_MGMT_OBJECT_PROP, VSS_MGMT_OBJECT_PROP structure [VSS], base.vss_mgmt_object_prop, vsmgmt/PVSS_MGMT_OBJECT_PROP, vsmgmt/VSS_MGMT_OBJECT_PROP'
 ms.topic: struct
 f1_keywords:
 - vsmgmt/VSS_MGMT_OBJECT_PROP
 dev_langs:
- - c++
+- c++
 req.header: vsmgmt.h
 req.include-header: 
 req.target-type: Windows

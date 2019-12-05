@@ -1,19 +1,17 @@
 ---
 UID: NF:mfreadwrite.IMFSinkWriter.AddStream
 title: IMFSinkWriter::AddStream (mfreadwrite.h)
-
 description: Adds a stream to the sink writer.
 old-location: mf\imfsinkwriter_addstream.htm
 tech.root: medfound
 ms.assetid: 9f9b1216-e915-4188-bcfd-6c41e1821ec4
-
 ms.date: 12/05/2018
 ms.keywords: AddStream, AddStream method [Media Foundation], AddStream method [Media Foundation],IMFSinkWriter interface, IMFSinkWriter interface [Media Foundation],AddStream method, IMFSinkWriter.AddStream, IMFSinkWriter::AddStream, mf.imfsinkwriter_addstream, mfreadwrite/IMFSinkWriter::AddStream
 ms.topic: method
-f1_keywords: 
- - "mfreadwrite/IMFSinkWriter.AddStream"
+f1_keywords:
+- mfreadwrite/IMFSinkWriter.AddStream
 dev_langs:
- - c++
+- c++
 req.header: mfreadwrite.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfreadwrite.h
+- mfreadwrite.h
 api_name:
- - IMFSinkWriter.AddStream
+- IMFSinkWriter.AddStream
 targetos: Windows
 req.typenames: 
 req.redist: 

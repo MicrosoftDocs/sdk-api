@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d12sdklayers.ID3D12DebugCommandList1.GetDebugParameter
 title: ID3D12DebugCommandList1::GetDebugParameter (d3d12sdklayers.h)
-
 description: Gets optional Command List Debug Layer settings.
 old-location: direct3d12\id3d12debugcommandlist1_getdebugparameter.htm
 tech.root: direct3d12
 ms.assetid: 936E9748-1D1A-46A9-B4FE-36C0C6627296
-
 ms.date: 12/05/2018
 ms.keywords: GetDebugParameter, GetDebugParameter method, GetDebugParameter method,ID3D12DebugCommandList1 interface, ID3D12DebugCommandList1 interface,GetDebugParameter method, ID3D12DebugCommandList1.GetDebugParameter, ID3D12DebugCommandList1::GetDebugParameter, d3d12sdklayers/ID3D12DebugCommandList1::GetDebugParameter, direct3d12.id3d12debugcommandlist1_getdebugparameter
 ms.topic: method
-f1_keywords: 
- - "d3d12sdklayers/ID3D12DebugCommandList1.GetDebugParameter"
+f1_keywords:
+- d3d12sdklayers/ID3D12DebugCommandList1.GetDebugParameter
 dev_langs:
- - c++
+- c++
 req.header: d3d12sdklayers.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - d3d12sdklayers.h
+- d3d12sdklayers.h
 api_name:
- - ID3D12DebugCommandList1.GetDebugParameter
+- ID3D12DebugCommandList1.GetDebugParameter
 targetos: Windows
 req.typenames: 
 req.redist: 

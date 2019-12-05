@@ -1,19 +1,17 @@
 ---
 UID: NF:cscobj.IOfflineFilesPinInfo.IsPinnedForFolderRedirection
 title: IOfflineFilesPinInfo::IsPinnedForFolderRedirection (cscobj.h)
-
 description: Determines whether the item was pinned by Folder Redirection.
 old-location: of\iofflinefilespininfo_ispinnedforfolderredirection.htm
 tech.root: offlinefiles
 ms.assetid: b832f75a-3cd4-4421-a0a5-22c5682cb4c3
-
 ms.date: 12/05/2018
 ms.keywords: IOfflineFilesPinInfo interface [Offline Files],IsPinnedForFolderRedirection method, IOfflineFilesPinInfo.IsPinnedForFolderRedirection, IOfflineFilesPinInfo::IsPinnedForFolderRedirection, IsPinnedForFolderRedirection, IsPinnedForFolderRedirection method [Offline Files], IsPinnedForFolderRedirection method [Offline Files],IOfflineFilesPinInfo interface, cscobj/IOfflineFilesPinInfo::IsPinnedForFolderRedirection, of.iofflinefilespininfo_ispinnedforfolderredirection
 ms.topic: method
-f1_keywords: 
- - "cscobj/IOfflineFilesPinInfo.IsPinnedForFolderRedirection"
+f1_keywords:
+- cscobj/IOfflineFilesPinInfo.IsPinnedForFolderRedirection
 dev_langs:
- - c++
+- c++
 req.header: cscobj.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: CscSvc.dll; CscObj.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CscSvc.dll
- - CscObj.dll
+- CscSvc.dll
+- CscObj.dll
 api_name:
- - IOfflineFilesPinInfo.IsPinnedForFolderRedirection
+- IOfflineFilesPinInfo.IsPinnedForFolderRedirection
 targetos: Windows
 req.typenames: 
 req.redist: 

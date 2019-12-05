@@ -1,19 +1,17 @@
 ---
 UID: NF:cmdtree.ICommandTree.GetCommandTree
 title: ICommandTree::GetCommandTree (cmdtree.h)
-
 description: The ICommandTree::GetCommandTree method echoes the current command as a tree, including all post-processing operations that have been added.
 old-location: indexsrv\icommandtree_getcommandtree.htm
 tech.root: IndexSrv
 ms.assetid: VS|indexsrv|~\html\ixoledb_2811.htm
-
 ms.date: 12/05/2018
 ms.keywords: GetCommandTree, GetCommandTree method [Indexing Service], GetCommandTree method [Indexing Service],ICommandTree interface, ICommandTree interface [Indexing Service],GetCommandTree method, ICommandTree.GetCommandTree, ICommandTree::GetCommandTree, _idxs_ICommandTree_GetCommandTree, cmdtree/ICommandTree::GetCommandTree, indexsrv.icommandtree_getcommandtree
 ms.topic: method
-f1_keywords: 
- - "cmdtree/ICommandTree.GetCommandTree"
+f1_keywords:
+- cmdtree/ICommandTree.GetCommandTree
 dev_langs:
- - c++
+- c++
 req.header: cmdtree.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - cmdtree.h
+- cmdtree.h
 api_name:
- - ICommandTree.GetCommandTree
+- ICommandTree.GetCommandTree
 targetos: Windows
 req.typenames: 
 req.redist: 

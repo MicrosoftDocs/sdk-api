@@ -1,19 +1,17 @@
 ---
 UID: NC:winwlx.PWLX_SET_OPTION
 title: PWLX_SET_OPTION (winwlx.h)
-
 description: Called by GINA to set the value of an option.
 old-location: security\wlxsetoption.htm
 tech.root: SecAuthN
 ms.assetid: 59f775dd-b3ed-4a57-bec7-fa6ddf267401
-
 ms.date: 12/05/2018
 ms.keywords: PWLX_SET_OPTION, PWLX_SET_OPTION callback, WlxSetOption, WlxSetOption callback function [Security], _gina_wlxsetoption, security.wlxsetoption, winwlx/WlxSetOption
 ms.topic: callback
 f1_keywords:
 - winwlx/WlxSetOption
 dev_langs:
- - c++
+- c++
 req.header: winwlx.h
 req.include-header: 
 req.target-type: Windows

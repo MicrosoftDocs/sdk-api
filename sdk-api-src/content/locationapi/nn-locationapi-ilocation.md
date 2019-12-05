@@ -1,19 +1,17 @@
 ---
 UID: NN:locationapi.ILocation
 title: ILocation (locationapi.h)
-
 description: Provides methods used to manage location reports, event registration, and sensor permissions.
 old-location: winlocation\ilocation.htm
 tech.root: locationapi
 ms.assetid: beeedbbd-df93-4c05-a215-4cfd14e03076
-
 ms.date: 12/05/2018
 ms.keywords: ILocation, ILocation interface [WinLocation], ILocation interface [WinLocation],described, locationapi/ILocation, winlocation.ilocation
 ms.topic: interface
-f1_keywords: 
- - "locationapi/ILocation"
+f1_keywords:
+- locationapi/ILocation
 dev_langs:
- - c++
+- c++
 req.header: locationapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: LocationAPI.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - LocationAPI.dll
+- LocationAPI.dll
 api_name:
- - ILocation
+- ILocation
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NN:dxgi.IDXGIFactory1
 title: IDXGIFactory1 (dxgi.h)
-
 description: The IDXGIFactory1 interface implements methods for generating DXGI objects.
 old-location: direct3ddxgi\idxgifactory1.htm
 tech.root: direct3ddxgi
 ms.assetid: 271f1877-25a7-4d32-9ffa-cb174b366b74
-
 ms.date: 12/05/2018
 ms.keywords: 57d28dd0-2a8f-0523-2200-4d14c74f01d6, IDXGIFactory1, IDXGIFactory1 interface [DXGI], IDXGIFactory1 interface [DXGI],described, direct3ddxgi.idxgifactory1, dxgi/IDXGIFactory1
 ms.topic: interface
-f1_keywords: 
- - "dxgi/IDXGIFactory1"
+f1_keywords:
+- dxgi/IDXGIFactory1
 dev_langs:
- - c++
+- c++
 req.header: dxgi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: DXGI.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - DXGI.lib
- - DXGI.dll
+- DXGI.lib
+- DXGI.dll
 api_name:
- - IDXGIFactory1
+- IDXGIFactory1
 targetos: Windows
 req.typenames: 
 req.redist: 

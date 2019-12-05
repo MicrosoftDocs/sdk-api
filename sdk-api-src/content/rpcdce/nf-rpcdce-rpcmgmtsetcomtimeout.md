@@ -1,19 +1,17 @@
 ---
 UID: NF:rpcdce.RpcMgmtSetComTimeout
 title: RpcMgmtSetComTimeout function (rpcdce.h)
-
 description: The RpcMgmtSetComTimeout function sets the binding-communications time-out value in a binding handle.
 old-location: rpc\rpcmgmtsetcomtimeout.htm
 tech.root: Rpc
 ms.assetid: 3ea6fe6a-2064-4f53-852a-041281b62bbd
-
 ms.date: 12/05/2018
 ms.keywords: RpcMgmtSetComTimeout, RpcMgmtSetComTimeout function [RPC], _rpc_rpcmgmtsetcomtimeout, rpc.rpcmgmtsetcomtimeout, rpcdce/RpcMgmtSetComTimeout
 ms.topic: function
-f1_keywords: 
- - "rpcdce/RpcMgmtSetComTimeout"
+f1_keywords:
+- rpcdce/RpcMgmtSetComTimeout
 dev_langs:
- - c++
+- c++
 req.header: rpcdce.h
 req.include-header: Rpc.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Rpcrt4.lib
 req.dll: Rpcrt4.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Rpcrt4.dll
+- Rpcrt4.dll
 api_name:
- - RpcMgmtSetComTimeout
+- RpcMgmtSetComTimeout
 targetos: Windows
 req.typenames: 
 req.redist: 

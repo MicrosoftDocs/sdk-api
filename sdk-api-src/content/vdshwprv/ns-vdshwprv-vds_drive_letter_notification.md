@@ -1,19 +1,17 @@
 ---
 UID: NS:vdshwprv._VDS_DRIVE_LETTER_NOTIFICATION
 title: VDS_DRIVE_LETTER_NOTIFICATION (vdshwprv.h)
-
 description: Defines the details of drive-letter events.
 old-location: base\vds_drive_letter_notification.htm
 tech.root: VDS
 ms.assetid: d64d1ba6-88a2-4418-b32c-36a84e973a06
-
 ms.date: 12/05/2018
 ms.keywords: VDS_DRIVE_LETTER_NOTIFICATION, VDS_DRIVE_LETTER_NOTIFICATION structure [VDS], VDS_NF_DRIVE_LETTER_ASSIGN, VDS_NF_DRIVE_LETTER_FREE, base.vds_drive_letter_notification, vds/_VDS_DRIVE_LETTER_NOTIFICATION, vdshwprv/_VDS_DRIVE_LETTER_NOTIFICATION
 ms.topic: struct
 f1_keywords:
 - vdshwprv/VDS_DRIVE_LETTER_NOTIFICATION
 dev_langs:
- - c++
+- c++
 req.header: vdshwprv.h
 req.include-header: 
 req.target-type: Windows

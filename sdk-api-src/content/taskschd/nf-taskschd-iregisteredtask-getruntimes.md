@@ -1,19 +1,17 @@
 ---
 UID: NF:taskschd.IRegisteredTask.GetRunTimes
 title: IRegisteredTask::GetRunTimes (taskschd.h)
-
 description: Gets the times that the registered task is scheduled to run during a specified time.
 old-location: taskschd\iregisteredtask_getruntimes.htm
 tech.root: taskschd
 ms.assetid: 3ab41687-085a-414d-8054-9c6fe7439e4e
-
 ms.date: 12/05/2018
 ms.keywords: GetRunTimes, GetRunTimes method [Task Scheduler], GetRunTimes method [Task Scheduler],IRegisteredTask interface, IRegisteredTask interface [Task Scheduler],GetRunTimes method, IRegisteredTask.GetRunTimes, IRegisteredTask::GetRunTimes, taskschd.iregisteredtask_getruntimes, taskschd/IRegisteredTask::GetRunTimes
 ms.topic: method
-f1_keywords: 
- - "taskschd/IRegisteredTask.GetRunTimes"
+f1_keywords:
+- taskschd/IRegisteredTask.GetRunTimes
 dev_langs:
- - c++
+- c++
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Taskschd.lib
 req.dll: Taskschd.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - taskschd.dll
+- taskschd.dll
 api_name:
- - IRegisteredTask.GetRunTimes
+- IRegisteredTask.GetRunTimes
 targetos: Windows
 req.typenames: 
 req.redist: 

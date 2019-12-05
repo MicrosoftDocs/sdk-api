@@ -1,19 +1,17 @@
 ---
 UID: NF:winbio.WinBioLogonIdentifiedUser
 title: WinBioLogonIdentifiedUser function (winbio.h)
-
 description: Causes a fast user switch to the account associated with the last successful identification operation performed by the biometric session.
 old-location: secbiomet\winbiologonidentifieduser.htm
 tech.root: SecBioMet
 ms.assetid: 0df6da19-e23b-445f-82d9-bd51cda3ae15
-
 ms.date: 12/05/2018
 ms.keywords: WinBioLogonIdentifiedUser, WinBioLogonIdentifiedUser function [Windows Biometric Framework API], secbiomet.winbiologonidentifieduser, winbio/WinBioLogonIdentifiedUser
 ms.topic: function
-f1_keywords: 
- - "winbio/WinBioLogonIdentifiedUser"
+f1_keywords:
+- winbio/WinBioLogonIdentifiedUser
 dev_langs:
- - c++
+- c++
 req.header: winbio.h
 req.include-header: Winbio.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Winbio.lib
 req.dll: Winbio.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Winbio.dll
- - Ext-MS-Win-BioMetrics-WinBio-l1-2-0.dll
- - winbioext.dll
- - Ext-MS-Win-BioMetrics-WinBio-L1-3-0.dll
+- Winbio.dll
+- Ext-MS-Win-BioMetrics-WinBio-l1-2-0.dll
+- winbioext.dll
+- Ext-MS-Win-BioMetrics-WinBio-L1-3-0.dll
 api_name:
- - WinBioLogonIdentifiedUser
+- WinBioLogonIdentifiedUser
 targetos: Windows
 req.typenames: 
 req.redist: 

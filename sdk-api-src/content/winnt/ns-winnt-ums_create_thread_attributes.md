@@ -1,19 +1,17 @@
 ---
 UID: NS:winnt._UMS_CREATE_THREAD_ATTRIBUTES
 title: UMS_CREATE_THREAD_ATTRIBUTES (winnt.h)
-
 description: Specifies attributes for a user-mode scheduling (UMS) worker thread.
 old-location: base\ums_create_thread_attributes.htm
 tech.root: ProcThread
 ms.assetid: 5d3e1721-c439-49bb-9cb6-8386fa8aaf50
-
 ms.date: 12/05/2018
-ms.keywords: "*PUMS_CREATE_THREAD_ATTRIBUTES, PUMS_CREATE_THREAD_ATTRIBUTES, PUMS_CREATE_THREAD_ATTRIBUTES structure pointer, UMS_CREATE_THREAD_ATTRIBUTES, UMS_CREATE_THREAD_ATTRIBUTES structure, _UMS_CREATE_THREAD_ATTRIBUTES, base.ums_create_thread_attributes, winnt/PUMS_CREATE_THREAD_ATTRIBUTES, winnt/UMS_CREATE_THREAD_ATTRIBUTES"
+ms.keywords: '*PUMS_CREATE_THREAD_ATTRIBUTES, PUMS_CREATE_THREAD_ATTRIBUTES, PUMS_CREATE_THREAD_ATTRIBUTES structure pointer, UMS_CREATE_THREAD_ATTRIBUTES, UMS_CREATE_THREAD_ATTRIBUTES structure, _UMS_CREATE_THREAD_ATTRIBUTES, base.ums_create_thread_attributes, winnt/PUMS_CREATE_THREAD_ATTRIBUTES, winnt/UMS_CREATE_THREAD_ATTRIBUTES'
 ms.topic: struct
-f1_keywords: 
- - "winnt/UMS_CREATE_THREAD_ATTRIBUTES"
+f1_keywords:
+- winnt/UMS_CREATE_THREAD_ATTRIBUTES
 dev_langs:
- - c++
+- c++
 req.header: winnt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WinNT.h
+- WinNT.h
 api_name:
- - UMS_CREATE_THREAD_ATTRIBUTES
+- UMS_CREATE_THREAD_ATTRIBUTES
 targetos: Windows
 req.typenames: UMS_CREATE_THREAD_ATTRIBUTES, *PUMS_CREATE_THREAD_ATTRIBUTES
 req.redist: 

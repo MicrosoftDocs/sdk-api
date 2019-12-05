@@ -1,19 +1,17 @@
 ---
 UID: NS:strmif.CodecAPIEventData
 title: CodecAPIEventData (strmif.h)
-
 description: The CodecAPIEventData structure contains event data for the EC_CODECAPI_EVENT event. This event is sent by codecs that support the ICodecAPI interface.
 old-location: dshow\codecapieventdata.htm
 tech.root: DirectShow
 ms.assetid: 04d0177d-ec9d-4f23-abd1-a37c787c24b2
-
 ms.date: 12/05/2018
 ms.keywords: CodecAPIEventData, CodecAPIEventData structure [DirectShow], CodecAPIEventDataStructure, dshow.codecapieventdata, strmif/CodecAPIEventData
 ms.topic: struct
-f1_keywords: 
- - "strmif/CodecAPIEventData"
+f1_keywords:
+- strmif/CodecAPIEventData
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - strmif.h
+- strmif.h
 api_name:
- - CodecAPIEventData
+- CodecAPIEventData
 targetos: Windows
 req.typenames: 
 req.redist: 

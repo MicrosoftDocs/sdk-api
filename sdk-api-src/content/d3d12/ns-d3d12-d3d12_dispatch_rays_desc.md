@@ -1,19 +1,17 @@
 ---
 UID: NS:d3d12.D3D12_DISPATCH_RAYS_DESC
 title: D3D12_DISPATCH_RAYS_DESC (d3d12.h)
-
 description: Describes the properties of a ray dispatch operation initiated with a call to ID3D12GraphicsCommandList4::DispatchRays.
 old-location: direct3d12\d3d12_dispatch_rays_desc.htm
 tech.root: direct3d12
 ms.assetid: F1DDFA33-A880-4AA2-AB44-43A78F086F19
-
 ms.date: 12/05/2018
 ms.keywords: D3D12_DISPATCH_RAYS_DESC, D3D12_DISPATCH_RAYS_DESC structure, PD3D12_DISPATCH_RAYS_DESC, PD3D12_DISPATCH_RAYS_DESC structure pointer, d3d12/D3D12_DISPATCH_RAYS_DESC, d3d12/PD3D12_DISPATCH_RAYS_DESC, direct3d12.d3d12_dispatch_rays_desc
 ms.topic: struct
-f1_keywords: 
- - "d3d12/D3D12_DISPATCH_RAYS_DESC"
+f1_keywords:
+- d3d12/D3D12_DISPATCH_RAYS_DESC
 dev_langs:
- - c++
+- c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - D3D12.h
+- D3D12.h
 api_name:
- - D3D12_DISPATCH_RAYS_DESC
+- D3D12_DISPATCH_RAYS_DESC
 targetos: Windows
 req.typenames: D3D12_DISPATCH_RAYS_DESC
 req.redist: 

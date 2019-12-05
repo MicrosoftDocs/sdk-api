@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IDvdControl2.SelectKaraokeAudioPresentationMode
 title: IDvdControl2::SelectKaraokeAudioPresentationMode (strmif.h)
-
 description: The SelectKaraokeAudioPresentationMode method sends karaoke auxiliary channels to the left or right speakers.
 old-location: dshow\idvdcontrol2_selectkaraokeaudiopresentationmode.htm
 tech.root: DirectShow
 ms.assetid: 9101fd83-1349-4cdd-b5e9-6daeb7d1e3d8
-
 ms.date: 12/05/2018
 ms.keywords: IDvdControl2 interface [DirectShow],SelectKaraokeAudioPresentationMode method, IDvdControl2.SelectKaraokeAudioPresentationMode, IDvdControl2::SelectKaraokeAudioPresentationMode, IDvdControl2SelectKaraokeAudioPresentationMode, SelectKaraokeAudioPresentationMode, SelectKaraokeAudioPresentationMode method [DirectShow], SelectKaraokeAudioPresentationMode method [DirectShow],IDvdControl2 interface, dshow.idvdcontrol2_selectkaraokeaudiopresentationmode, strmif/IDvdControl2::SelectKaraokeAudioPresentationMode
 ms.topic: method
-f1_keywords: 
- - "strmif/IDvdControl2.SelectKaraokeAudioPresentationMode"
+f1_keywords:
+- strmif/IDvdControl2.SelectKaraokeAudioPresentationMode
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IDvdControl2.SelectKaraokeAudioPresentationMode
+- IDvdControl2.SelectKaraokeAudioPresentationMode
 targetos: Windows
 req.typenames: 
 req.redist: 

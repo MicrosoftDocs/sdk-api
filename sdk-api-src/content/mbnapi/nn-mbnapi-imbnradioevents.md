@@ -1,19 +1,17 @@
 ---
 UID: NN:mbnapi.IMbnRadioEvents
 title: IMbnRadioEvents (mbnapi.h)
-
 description: Notification interface used to indicate a change in the radio state as well as the completion of a programatic change in the state .
 old-location: mbn\imbnradioevents.htm
 tech.root: mbn
 ms.assetid: f02fa823-c1ca-4867-981d-cb3107f7291b
-
 ms.date: 12/05/2018
 ms.keywords: IMbnRadioEvents, IMbnRadioEvents interface [Microsoft Broadband Networks], IMbnRadioEvents interface [Microsoft Broadband Networks],described, mbn.imbnradioevents, mbnapi/IMbnRadioEvents
 ms.topic: interface
-f1_keywords: 
- - "mbnapi/IMbnRadioEvents"
+f1_keywords:
+- mbnapi/IMbnRadioEvents
 dev_langs:
- - c++
+- c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mbnapi.h
+- mbnapi.h
 api_name:
- - IMbnRadioEvents
+- IMbnRadioEvents
 targetos: Windows
 req.typenames: 
 req.redist: 

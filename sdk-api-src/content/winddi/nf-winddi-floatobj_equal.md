@@ -1,19 +1,17 @@
 ---
 UID: NF:winddi.FLOATOBJ_Equal
 title: FLOATOBJ_Equal function (winddi.h)
-
 description: The FLOATOBJ_Equal function determines whether the two FLOATOBJs are equal.
 old-location: display\floatobj_equal.htm
 tech.root: display
 ms.assetid: 1fc9afcb-7b65-415c-ae6c-8885ef47abe9
-
 ms.date: 12/05/2018
 ms.keywords: FLOATOBJ_Equal, FLOATOBJ_Equal function [Display Devices], display.floatobj_equal, gdifncs_20ba1db5-2709-4765-a637-94000c803ecb.xml, winddi/FLOATOBJ_Equal
 ms.topic: function
 f1_keywords:
 - winddi/FLOATOBJ_Equal
 dev_langs:
- - c++
+- c++
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Universal

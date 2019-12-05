@@ -1,19 +1,17 @@
 ---
 UID: NF:ras.RasEnumConnectionsW
 title: RasEnumConnectionsW function (ras.h)
-
 description: The RasEnumConnections function lists all active RAS connections. It returns each connection's handle and phone-book entry name.
 old-location: rras\rasenumconnections.htm
 tech.root: RRAS
 ms.assetid: b581cfbf-a55e-4f56-89cd-168aa23af550
-
 ms.date: 12/05/2018
 ms.keywords: RasEnumConnections, RasEnumConnections function [RAS], RasEnumConnectionsA, RasEnumConnectionsW, _ras_rasenumconnections, ras/RasEnumConnections, ras/RasEnumConnectionsA, ras/RasEnumConnectionsW, rras.rasenumconnections
 ms.topic: function
-f1_keywords: 
- - "ras/RasEnumConnections"
+f1_keywords:
+- ras/RasEnumConnections
 dev_langs:
- - c++
+- c++
 req.header: ras.h
 req.include-header: 
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib: Rasapi32.lib
 req.dll: Rasapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Rasapi32.dll
- - Ext-MS-Win-ras-rasapi32-l1-1-0.dll
- - Ext-MS-Win-ras-rasapi32-l1-1-1.dll
+- Rasapi32.dll
+- Ext-MS-Win-ras-rasapi32-l1-1-0.dll
+- Ext-MS-Win-ras-rasapi32-l1-1-1.dll
 api_name:
- - RasEnumConnections
- - RasEnumConnectionsA
- - RasEnumConnectionsW
+- RasEnumConnections
+- RasEnumConnectionsA
+- RasEnumConnectionsW
 targetos: Windows
 req.typenames: 
 req.redist: 

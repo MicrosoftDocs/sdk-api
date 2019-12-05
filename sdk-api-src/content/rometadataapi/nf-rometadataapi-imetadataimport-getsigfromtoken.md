@@ -1,19 +1,17 @@
 ---
 UID: NF:rometadataapi.IMetaDataImport.GetSigFromToken
 title: IMetaDataImport::GetSigFromToken (rometadataapi.h)
-
 description: Gets the binary metadata signature associated with the specified token.
 old-location: winrt\imetadataimport_getsigfromtoken.htm
 tech.root: WinRT
 ms.assetid: babd95ef-7786-47da-b5f6-c1fef93a4504
-
 ms.date: 12/05/2018
 ms.keywords: GetSigFromToken, GetSigFromToken method [Windows Runtime], GetSigFromToken method [Windows Runtime],IMetaDataImport interface, IMetaDataImport interface [Windows Runtime],GetSigFromToken method, IMetaDataImport.GetSigFromToken, IMetaDataImport::GetSigFromToken, rometadataapi/IMetaDataImport::GetSigFromToken, winrt.imetadataimport_getsigfromtoken
 ms.topic: method
-f1_keywords: 
- - "rometadataapi/IMetaDataImport.GetSigFromToken"
+f1_keywords:
+- rometadataapi/IMetaDataImport.GetSigFromToken
 dev_langs:
- - c++
+- c++
 req.header: rometadataapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - rometadataapi.h
+- rometadataapi.h
 api_name:
- - IMetaDataImport.GetSigFromToken
+- IMetaDataImport.GetSigFromToken
 targetos: Windows
 req.typenames: 
 req.redist: 

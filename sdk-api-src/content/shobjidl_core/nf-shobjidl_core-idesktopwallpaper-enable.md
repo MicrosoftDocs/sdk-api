@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IDesktopWallpaper.Enable
 title: IDesktopWallpaper::Enable (shobjidl_core.h)
-
 description: Enables or disables the desktop background.
 old-location: shell\IDesktopWallpaper_Enable.htm
 tech.root: shell
 ms.assetid: 8BC04B93-4BF4-4713-8EF8-C4BCF1C8090E
-
 ms.date: 12/05/2018
 ms.keywords: Enable, Enable method [Windows Shell], Enable method [Windows Shell],IDesktopWallpaper interface, IDesktopWallpaper interface [Windows Shell],Enable method, IDesktopWallpaper.Enable, IDesktopWallpaper::Enable, shell.IDesktopWallpaper_Enable, shobjidl_core/IDesktopWallpaper::Enable
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IDesktopWallpaper.Enable"
+f1_keywords:
+- shobjidl_core/IDesktopWallpaper.Enable
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - IDesktopWallpaper.Enable
+- IDesktopWallpaper.Enable
 targetos: Windows
 req.typenames: 
 req.redist: 

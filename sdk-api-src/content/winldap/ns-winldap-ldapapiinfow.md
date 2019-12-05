@@ -1,19 +1,17 @@
 ---
 UID: NS:winldap.ldapapiinfoW
 title: LDAPAPIInfoW (winldap.h)
-
 description: Retrieves data about the API and implementations used.
 old-location: ldap\ldapapiinfo.htm
 tech.root: ldap
 ms.assetid: 9175224c-82f0-4f22-9975-b1d7a332c3df
-
 ms.date: 12/05/2018
 ms.keywords: LDAPAPIInfo, LDAPAPIInfo structure [LDAP], LDAPAPIInfoA, LDAPAPIInfoW, ldap.ldapapiinfo, winldap/LDAPAPIInfo, winldap/LDAPAPIInfoA, winldap/LDAPAPIInfoW
 ms.topic: struct
-f1_keywords: 
- - "winldap/LDAPAPIInfo"
+f1_keywords:
+- winldap/LDAPAPIInfo
 dev_langs:
- - c++
+- c++
 req.header: winldap.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Winldap.h
+- Winldap.h
 api_name:
- - LDAPAPIInfo
- - LDAPAPIInfoA
- - LDAPAPIInfoW
+- LDAPAPIInfo
+- LDAPAPIInfoA
+- LDAPAPIInfoW
 targetos: Windows
 req.typenames: LDAPAPIInfoW
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMDocumentStructureResource.GetStream
 title: IXpsOMDocumentStructureResource::GetStream (xpsobjectmodel.h)
-
 description: Gets a new, read-only copy of the stream that is associated with this resource.
 old-location: xps\ixpsomdocumentstructureresource_getstream.htm
 tech.root: printdocs
 ms.assetid: 77c08ced-bc0d-4ebf-a257-d4298c7a352d
-
 ms.date: 12/05/2018
 ms.keywords: GetStream, GetStream method [XPS Documents and Packaging], GetStream method [XPS Documents and Packaging],IXpsOMDocumentStructureResource interface, IXpsOMDocumentStructureResource interface [XPS Documents and Packaging],GetStream method, IXpsOMDocumentStructureResource.GetStream, IXpsOMDocumentStructureResource::GetStream, xps.ixpsomdocumentstructureresource_getstream, xpsobjectmodel/IXpsOMDocumentStructureResource::GetStream
 ms.topic: method
-f1_keywords: 
- - "xpsobjectmodel/IXpsOMDocumentStructureResource.GetStream"
+f1_keywords:
+- xpsobjectmodel/IXpsOMDocumentStructureResource.GetStream
 dev_langs:
- - c++
+- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsobjectmodel.h
+- xpsobjectmodel.h
 api_name:
- - IXpsOMDocumentStructureResource.GetStream
+- IXpsOMDocumentStructureResource.GetStream
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:timezoneapi.TzSpecificLocalTimeToSystemTime
 title: TzSpecificLocalTimeToSystemTime function (timezoneapi.h)
-
 description: Converts a local time to a time in Coordinated Universal Time (UTC).
 old-location: base\tzspecificlocaltimetosystemtime.htm
 tech.root: SysInfo
 ms.assetid: d671499a-027d-4b1f-ae16-8b1978eb9783
-
 ms.date: 12/05/2018
 ms.keywords: TzSpecificLocalTimeToSystemTime, TzSpecificLocalTimeToSystemTime function, _win32_tzspecificlocaltimetosystemtime, base.tzspecificlocaltimetosystemtime, timezoneapi/TzSpecificLocalTimeToSystemTime
 ms.topic: function
 f1_keywords:
 - timezoneapi/TzSpecificLocalTimeToSystemTime
 dev_langs:
- - c++
+- c++
 req.header: timezoneapi.h
 req.include-header: Windows.h
 req.target-type: Windows

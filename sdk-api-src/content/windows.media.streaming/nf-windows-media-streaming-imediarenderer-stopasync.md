@@ -1,19 +1,17 @@
 ---
 UID: NF:windows.media.streaming.IMediaRenderer.StopAsync
 title: IMediaRenderer::streaming (windows.media.streaming.h)
-
 description: Instructs the DMR asynchronously to stop playing the current content.
 old-location: mediastreaming\imediarenderer_stopasync.htm
 tech.root: mediastreaming
 ms.assetid: B6B0F3F2-E95E-4A58-9CBD-CF4CB24FDAD0
-
 ms.date: 12/05/2018
 ms.keywords: IMediaRenderer interface [Media Streaming API],StopAsync method, IMediaRenderer.StopAsync, IMediaRenderer.streaming, IMediaRenderer::StopAsync, IMediaRenderer::streaming, StopAsync, StopAsync method [Media Streaming API], StopAsync method [Media Streaming API],IMediaRenderer interface, mediastreaming.imediarenderer_stopasync, windows/IMediaRenderer::StopAsync
 ms.topic: method
-f1_keywords: 
- - "windows.media.streaming/IMediaRenderer.StopAsync"
+f1_keywords:
+- windows.media.streaming/IMediaRenderer.StopAsync
 dev_langs:
- - c++
+- c++
 req.header: windows.media.streaming.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - windows.media.streaming.h
+- windows.media.streaming.h
 api_name:
- - IMediaRenderer.StopAsync
+- IMediaRenderer.StopAsync
 targetos: Windows
 req.typenames: 
 req.redist: 

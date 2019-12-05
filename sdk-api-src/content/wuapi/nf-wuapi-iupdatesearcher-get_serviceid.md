@@ -1,19 +1,17 @@
 ---
 UID: NF:wuapi.IUpdateSearcher.get_ServiceID
 title: IUpdateSearcher::get_ServiceID (wuapi.h)
-
 description: Gets and sets a site to search when the site to search is not a Windows Update site.
 old-location: wua\iupdatesearcherserviceid.htm
 tech.root: Wua_Sdk
 ms.assetid: 7c00d26a-9ef0-45ec-81b3-d13f91dd7d8d
-
 ms.date: 12/05/2018
 ms.keywords: IUpdateSearcher interface [Windows Update Agent],ServiceID property, IUpdateSearcher.ServiceID, IUpdateSearcher.get_ServiceID, IUpdateSearcher::ServiceID, IUpdateSearcher::get_ServiceID, IUpdateSearcher::put_ServiceID, ServiceID property [Windows Update Agent], ServiceID property [Windows Update Agent],IUpdateSearcher interface, get_ServiceID, wua.iupdatesearcherserviceid, wuapi/IUpdateSearcher::ServiceID, wuapi/IUpdateSearcher::get_ServiceID, wuapi/IUpdateSearcher::put_ServiceID
 ms.topic: method
-f1_keywords: 
- - "wuapi/IUpdateSearcher.ServiceID"
+f1_keywords:
+- wuapi/IUpdateSearcher.ServiceID
 dev_langs:
- - c++
+- c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Wuguid.lib
 req.dll: Wuapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wuapi.dll
+- Wuapi.dll
 api_name:
- - IUpdateSearcher.ServiceID
- - IUpdateSearcher.get_ServiceID
- - IUpdateSearcher.put_ServiceID
+- IUpdateSearcher.ServiceID
+- IUpdateSearcher.get_ServiceID
+- IUpdateSearcher.put_ServiceID
 targetos: Windows
 req.typenames: 
 req.redist: 

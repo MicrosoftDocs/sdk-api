@@ -1,19 +1,17 @@
 ---
 UID: NE:codecapi.eAVDecDDStereoDownMixMode
 title: eAVDecDDStereoDownMixMode (codecapi.h)
-
 description: Specifies the stereo downmix mode for a Dolby Digital audio decoder.
 old-location: mf\eavdecddstereodownmixmode.htm
 tech.root: medfound
 ms.assetid: B7DBC665-2942-433B-8C7F-1A02DB994A8B
-
 ms.date: 12/05/2018
 ms.keywords: codecapi/eAVDecDDStereoDownMixMode, codecapi/eAVDecDDStereoDownMixMode_Auto, codecapi/eAVDecDDStereoDownMixMode_LoRo, codecapi/eAVDecDDStereoDownMixMode_LtRt, eAVDecDDStereoDownMixMode, eAVDecDDStereoDownMixMode enumeration [Media Foundation], eAVDecDDStereoDownMixMode_Auto, eAVDecDDStereoDownMixMode_LoRo, eAVDecDDStereoDownMixMode_LtRt, mf.eavdecddstereodownmixmode
 ms.topic: enum
-f1_keywords: 
- - "codecapi/eAVDecDDStereoDownMixMode"
+f1_keywords:
+- codecapi/eAVDecDDStereoDownMixMode
 dev_langs:
- - c++
+- c++
 req.header: codecapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - codecapi.h
+- codecapi.h
 api_name:
- - eAVDecDDStereoDownMixMode
+- eAVDecDDStereoDownMixMode
 targetos: Windows
 req.typenames: 
 req.redist: 

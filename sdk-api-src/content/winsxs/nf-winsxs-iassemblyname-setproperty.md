@@ -1,19 +1,17 @@
 ---
 UID: NF:winsxs.IAssemblyName.SetProperty
 title: IAssemblyName::SetProperty (winsxs.h)
-
 description: The SetProperty method adds a name-value pair to the side-by-side assembly name. This method can change or delete the value of an existing name-value pair.
 old-location: setup\iassemblyname_setproperty.htm
 tech.root: SbsCs
 ms.assetid: 057bc5b3-008b-495b-b96c-2c0dcc43f1a4
-
 ms.date: 12/05/2018
 ms.keywords: IAssemblyName interface [Side-by-side Assemblies],SetProperty method, IAssemblyName.SetProperty, IAssemblyName::SetProperty, SetProperty, SetProperty method [Side-by-side Assemblies], SetProperty method [Side-by-side Assemblies],IAssemblyName interface, setup.iassemblyname_setproperty, winsxs/IAssemblyName::SetProperty
 ms.topic: method
-f1_keywords: 
- - "winsxs/IAssemblyName.SetProperty"
+f1_keywords:
+- winsxs/IAssemblyName.SetProperty
 dev_langs:
- - c++
+- c++
 req.header: winsxs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Sxs.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - sxs.dll
+- sxs.dll
 api_name:
- - IAssemblyName.SetProperty
+- IAssemblyName.SetProperty
 targetos: Windows
 req.typenames: 
 req.redist: 

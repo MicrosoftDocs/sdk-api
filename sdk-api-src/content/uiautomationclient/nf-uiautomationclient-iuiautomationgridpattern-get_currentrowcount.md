@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationGridPattern.get_CurrentRowCount
 title: IUIAutomationGridPattern::get_CurrentRowCount (uiautomationclient.h)
-
 description: Retrieves the number of rows in the grid.
 old-location: winauto\uiauto_IUIAutomationGridPattern_CurrentRowCount.htm
 tech.root: WinAuto
 ms.assetid: 6ca5c2f0-f183-4cc9-9446-08da834ba903
-
 ms.date: 12/05/2018
 ms.keywords: CurrentRowCount property [Windows Accessibility], CurrentRowCount property [Windows Accessibility],IUIAutomationGridPattern interface, IUIAutomationGridPattern interface [Windows Accessibility],CurrentRowCount property, IUIAutomationGridPattern.CurrentRowCount, IUIAutomationGridPattern.get_CurrentRowCount, IUIAutomationGridPattern::CurrentRowCount, IUIAutomationGridPattern::get_CurrentRowCount, get_CurrentRowCount, uiauto.uiauto_IUIAutomationGridPattern_CurrentRowCount, uiauto_IUIAutomationGridPattern_CurrentRowCount, uiautomationclient/IUIAutomationGridPattern::CurrentRowCount, uiautomationclient/IUIAutomationGridPattern::get_CurrentRowCount, winauto.uiauto_IUIAutomationGridPattern_CurrentRowCount
 ms.topic: method
-f1_keywords: 
- - "uiautomationclient/IUIAutomationGridPattern.CurrentRowCount"
+f1_keywords:
+- uiautomationclient/IUIAutomationGridPattern.CurrentRowCount
 dev_langs:
- - c++
+- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationClient.h
+- UIAutomationClient.h
 api_name:
- - IUIAutomationGridPattern.CurrentRowCount
- - IUIAutomationGridPattern.get_CurrentRowCount
+- IUIAutomationGridPattern.CurrentRowCount
+- IUIAutomationGridPattern.get_CurrentRowCount
 targetos: Windows
 req.typenames: 
 req.redist: 

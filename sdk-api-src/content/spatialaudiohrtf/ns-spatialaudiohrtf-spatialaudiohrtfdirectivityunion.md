@@ -1,19 +1,17 @@
 ---
 UID: NS:spatialaudiohrtf.SpatialAudioHrtfDirectivityUnion
 title: SpatialAudioHrtfDirectivityUnion (spatialaudiohrtf.h)
-
 description: Defines a spatial audio directivity model for an ISpatialAudioObjectForHrtf.
 old-location: coreaudio\spatialaudiohrtfdirectivityunion.htm
 tech.root: CoreAudio
 ms.assetid: BBBE4B0B-59C2-44E0-9BB4-B10CE5CE12E3
-
 ms.date: 12/05/2018
 ms.keywords: SpatialAudioHrtfDirectivityUnion, SpatialAudioHrtfDirectivityUnion union [Core Audio], coreaudio.spatialaudiohrtfdirectivityunion, spatialaudiohrtf/SpatialAudioHrtfDirectivityUnion
 ms.topic: struct
-f1_keywords: 
- - "spatialaudiohrtf/SpatialAudioHrtfDirectivityUnion"
+f1_keywords:
+- spatialaudiohrtf/SpatialAudioHrtfDirectivityUnion
 dev_langs:
- - c++
+- c++
 req.header: spatialaudiohrtf.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - spatialaudiohrtf.h
+- spatialaudiohrtf.h
 api_name:
- - SpatialAudioHrtfDirectivityUnion
+- SpatialAudioHrtfDirectivityUnion
 targetos: Windows
 req.typenames: SpatialAudioHrtfDirectivityUnion
 req.redist: 

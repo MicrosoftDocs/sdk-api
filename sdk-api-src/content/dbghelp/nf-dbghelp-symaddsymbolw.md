@@ -1,19 +1,17 @@
 ---
 UID: NF:dbghelp.SymAddSymbolW
 title: SymAddSymbolW function (dbghelp.h)
-
 description: Adds a virtual symbol to the specified module.
 old-location: base\symaddsymbol.htm
 tech.root: Debug
 ms.assetid: 28405993-035f-4946-91c3-0e3e34fd8824
-
 ms.date: 12/05/2018
 ms.keywords: SymAddSymbol, SymAddSymbol function, SymAddSymbolW, _win32_symaddsymbol, base.symaddsymbol, dbghelp/SymAddSymbol, dbghelp/SymAddSymbolW
 ms.topic: function
-f1_keywords: 
- - "dbghelp/SymAddSymbol"
+f1_keywords:
+- dbghelp/SymAddSymbol
 dev_langs:
- - c++
+- c++
 req.header: dbghelp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Dbghelp.lib
 req.dll: Dbghelp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Dbghelp.dll
+- Dbghelp.dll
 api_name:
- - SymAddSymbol
- - SymAddSymbol
- - SymAddSymbolW
+- SymAddSymbol
+- SymAddSymbol
+- SymAddSymbolW
 targetos: Windows
 req.typenames: 
 req.redist: DbgHelp.dll 6.0 or later

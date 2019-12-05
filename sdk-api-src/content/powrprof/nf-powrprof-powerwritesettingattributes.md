@@ -1,19 +1,17 @@
 ---
 UID: NF:powrprof.PowerWriteSettingAttributes
 title: PowerWriteSettingAttributes function (powrprof.h)
-
 description: Sets the power attributes of a power key.
 old-location: base\powerwritesettingattributes.htm
 tech.root: power
 ms.assetid: 9c18f79a-809b-4e48-a749-5de061566362
-
 ms.date: 12/05/2018
 ms.keywords: GUID_BATTERY_SUBGROUP, GUID_DISK_SUBGROUP, GUID_PCIEXPRESS_SETTINGS_SUBGROUP, GUID_PROCESSOR_SETTINGS_SUBGROUP, GUID_SLEEP_SUBGROUP, GUID_SYSTEM_BUTTON_SUBGROUP, GUID_VIDEO_SUBGROUP, NO_SUBGROUP_GUID, POWER_ATTRIBUTE_HIDE, PowerWriteSettingAttributes, PowerWriteSettingAttributes function, base.powerwritesettingattributes, powrprof/PowerWriteSettingAttributes
 ms.topic: function
-f1_keywords: 
- - "powrprof/PowerWriteSettingAttributes"
+f1_keywords:
+- powrprof/PowerWriteSettingAttributes
 dev_langs:
- - c++
+- c++
 req.header: powrprof.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: PowrProf.lib
 req.dll: PowrProf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - PowrProf.dll
+- PowrProf.dll
 api_name:
- - PowerWriteSettingAttributes
+- PowerWriteSettingAttributes
 targetos: Windows
 req.typenames: 
 req.redist: 

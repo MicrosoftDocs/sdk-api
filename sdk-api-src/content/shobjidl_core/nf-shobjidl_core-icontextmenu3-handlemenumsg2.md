@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IContextMenu3.HandleMenuMsg2
 title: IContextMenu3::HandleMenuMsg2 (shobjidl_core.h)
-
 description: Allows client objects of the IContextMenu3 interface to handle messages associated with owner-drawn menu items.
 old-location: shell\IContextMenu3_HandleMenuMsg2.htm
 tech.root: shell
 ms.assetid: d258edb1-9489-4cdf-b398-16af37a1cb38
-
 ms.date: 12/05/2018
 ms.keywords: HandleMenuMsg2, HandleMenuMsg2 method [Windows Shell], HandleMenuMsg2 method [Windows Shell],IContextMenu3 interface, IContextMenu3 interface [Windows Shell],HandleMenuMsg2 method, IContextMenu3.HandleMenuMsg2, IContextMenu3::HandleMenuMsg2, _win32_IContextMenu3_HandleMenuMsg2, shell.IContextMenu3_HandleMenuMsg2, shobjidl_core/IContextMenu3::HandleMenuMsg2
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IContextMenu3.HandleMenuMsg2"
+f1_keywords:
+- shobjidl_core/IContextMenu3.HandleMenuMsg2
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Shell32.dll (version 4.71 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - IContextMenu3.HandleMenuMsg2
+- IContextMenu3.HandleMenuMsg2
 targetos: Windows
 req.typenames: 
 req.redist: 

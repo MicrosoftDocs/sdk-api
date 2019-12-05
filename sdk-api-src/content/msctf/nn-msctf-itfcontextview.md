@@ -1,19 +1,17 @@
 ---
 UID: NN:msctf.ITfContextView
 title: ITfContextView (msctf.h)
-
 description: The ITfContextView interface is implemented by the TSF manager and used by a client (application or text service) to obtain information about a context view.
 old-location: tsf\itfcontextview.htm
 tech.root: TSF
 ms.assetid: 302d185d-dab7-4a77-a5cf-da2529d8b24a
-
 ms.date: 12/05/2018
 ms.keywords: ITfContextView, ITfContextView interface [Text Services Framework], ITfContextView interface [Text Services Framework],described, _tsf_itfcontextview_ref, msctf/ITfContextView, tsf.itfcontextview
 ms.topic: interface
-f1_keywords: 
- - "msctf/ITfContextView"
+f1_keywords:
+- msctf/ITfContextView
 dev_langs:
- - c++
+- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msctf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msctf.dll
+- msctf.dll
 api_name:
- - ITfContextView
+- ITfContextView
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

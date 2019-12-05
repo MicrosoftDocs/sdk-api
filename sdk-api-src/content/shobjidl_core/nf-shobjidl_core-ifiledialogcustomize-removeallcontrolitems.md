@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IFileDialogCustomize.RemoveAllControlItems
 title: IFileDialogCustomize::RemoveAllControlItems (shobjidl_core.h)
-
 description: Not implemented.
 old-location: shell\IFileDialogCustomize_RemoveAllControlItems.htm
 tech.root: shell
 ms.assetid: 2b706b8a-9c67-4f76-8ebe-af412fcd14cd
-
 ms.date: 12/05/2018
 ms.keywords: IFileDialogCustomize interface [Windows Shell],RemoveAllControlItems method, IFileDialogCustomize.RemoveAllControlItems, IFileDialogCustomize::RemoveAllControlItems, RemoveAllControlItems, RemoveAllControlItems method [Windows Shell], RemoveAllControlItems method [Windows Shell],IFileDialogCustomize interface, _shell_IFileDialogCustomize_RemoveAllControlItems, shell.IFileDialogCustomize_RemoveAllControlItems, shobjidl_core/IFileDialogCustomize::RemoveAllControlItems
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IFileDialogCustomize.RemoveAllControlItems"
+f1_keywords:
+- shobjidl_core/IFileDialogCustomize.RemoveAllControlItems
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - IFileDialogCustomize.RemoveAllControlItems
+- IFileDialogCustomize.RemoveAllControlItems
 targetos: Windows
 req.typenames: 
 req.redist: 

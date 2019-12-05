@@ -1,19 +1,17 @@
 ---
 UID: NN:wmp.IWMPEvents
 title: IWMPEvents (wmp.h)
-
 description: The IWMPEvents interface provides events that originate from the Windows Media Player control. An embedding program can respond to these events. The events exposed by IWMPEvents are also exposed by the _WMPOCXEvents interface.
 old-location: wmp\iwmpevents_interface.htm
 tech.root: WMP
 ms.assetid: 396545d5-8844-4dd2-9ed5-e4ed77f352ac
-
 ms.date: 12/05/2018
 ms.keywords: IWMPEvents, IWMPEvents interface [Windows Media Player], IWMPEvents interface [Windows Media Player],described, IWMPEventsInterface, wmp.iwmpevents_interface, wmp/IWMPEvents
 ms.topic: interface
-f1_keywords: 
- - "wmp/IWMPEvents"
+f1_keywords:
+- wmp/IWMPEvents
 dev_langs:
- - c++
+- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmp.h
+- wmp.h
 api_name:
- - IWMPEvents
+- IWMPEvents
 targetos: Windows
 req.typenames: 
 req.redist: 

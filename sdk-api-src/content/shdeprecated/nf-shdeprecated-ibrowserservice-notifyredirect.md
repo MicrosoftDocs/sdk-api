@@ -1,19 +1,17 @@
 ---
 UID: NF:shdeprecated.IBrowserService.NotifyRedirect
 title: IBrowserService::NotifyRedirect (shdeprecated.h)
-
 description: Deprecated. Updates the browser to the specified pointer to an item identifier list (PIDL), navigating if necessary. This method is called when a page is redirected.
 old-location: shell\IBrowserService_NotifyRedirect.htm
 tech.root: shell
 ms.assetid: a37c20b9-e2c6-438b-9fd5-749c680d5ee0
-
 ms.date: 12/05/2018
 ms.keywords: IBrowserService interface [Windows Shell],NotifyRedirect method, IBrowserService.NotifyRedirect, IBrowserService::NotifyRedirect, NotifyRedirect, NotifyRedirect method [Windows Shell], NotifyRedirect method [Windows Shell],IBrowserService interface, shdeprecated/IBrowserService::NotifyRedirect, shell.IBrowserService_NotifyRedirect, zone_IBrowserService_NotifyRedirect
 ms.topic: method
-f1_keywords: 
- - "shdeprecated/IBrowserService.NotifyRedirect"
+f1_keywords:
+- shdeprecated/IBrowserService.NotifyRedirect
 dev_langs:
- - c++
+- c++
 req.header: shdeprecated.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shdeprecated.h
+- Shdeprecated.h
 api_name:
- - IBrowserService.NotifyRedirect
+- IBrowserService.NotifyRedirect
 targetos: Windows
 req.typenames: 
 req.redist: 

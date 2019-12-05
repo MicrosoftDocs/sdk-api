@@ -1,19 +1,17 @@
 ---
 UID: NF:cfgmgr32.CM_Get_Device_ID_List_SizeW
 title: CM_Get_Device_ID_List_SizeW function (cfgmgr32.h)
-
 description: The CM_Get_Device_ID_List_Size function retrieves the buffer size required to hold a list of device instance IDs for the local machine's device instances.
 old-location: devinst\cm_get_device_id_list_size.htm
 tech.root: devinst
 ms.assetid: 3c650b21-56dc-4ef5-b986-417a247b3eb0
-
 ms.date: 12/05/2018
 ms.keywords: CM_Get_Device_ID_List_Size, CM_Get_Device_ID_List_Size function [Device and Driver Installation], CM_Get_Device_ID_List_SizeA, CM_Get_Device_ID_List_SizeW, cfgmgr32/CM_Get_Device_ID_List_Size, cfgmgr32/CM_Get_Device_ID_List_SizeA, cfgmgr32/CM_Get_Device_ID_List_SizeW, cfgmgrfn_b3d09a40-04c8-4b59-9e33-cd8b7a41972d.xml, devinst.cm_get_device_id_list_size
 ms.topic: function
-f1_keywords: 
- - "cfgmgr32/CM_Get_Device_ID_List_Size"
+f1_keywords:
+- cfgmgr32/CM_Get_Device_ID_List_Size
 dev_langs:
- - c++
+- c++
 req.header: cfgmgr32.h
 req.include-header: Cfgmgr32.h
 req.target-type: Universal
@@ -32,18 +30,18 @@ req.lib: Cfgmgr32.lib
 req.dll: CfgMgr32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - CfgMgr32.dll
- - API-MS-Win-Devices-Config-L1-1-0.dll
- - API-MS-Win-Devices-Config-L1-1-1.dll
+- CfgMgr32.dll
+- API-MS-Win-Devices-Config-L1-1-0.dll
+- API-MS-Win-Devices-Config-L1-1-1.dll
 api_name:
- - CM_Get_Device_ID_List_Size
- - CM_Get_Device_ID_List_SizeA
- - CM_Get_Device_ID_List_SizeW
+- CM_Get_Device_ID_List_Size
+- CM_Get_Device_ID_List_SizeA
+- CM_Get_Device_ID_List_SizeW
 targetos: Windows
 req.typenames: 
 req.redist: 

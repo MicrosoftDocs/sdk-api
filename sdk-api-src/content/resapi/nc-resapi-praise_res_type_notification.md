@@ -1,19 +1,17 @@
 ---
 UID: NC:resapi.PRAISE_RES_TYPE_NOTIFICATION
 title: PRAISE_RES_TYPE_NOTIFICATION (resapi.h)
-
 description: TBD. The PRAISE_RES_TYPE_NOTIFICATION type is a pointer to this function.
 old-location: mscs\raiserestypenotification.htm
 tech.root: MsCS
 ms.assetid: 9F5C8008-6B7B-4CA9-896C-15E5A3FB68C9
-
 ms.date: 12/05/2018
 ms.keywords: PRAISE_RES_TYPE_NOTIFICATION, PRAISE_RES_TYPE_NOTIFICATION callback function [Failover Cluster], RaiseResTypeNotification, RaiseResTypeNotification callback, RaiseResTypeNotification callback function [Failover Cluster], mscs.raiserestypenotification, resapi/PRAISE_RES_TYPE_NOTIFICATION, resapi/RaiseResTypeNotification
 ms.topic: callback
-f1_keywords: 
- - "resapi/RaiseResTypeNotification callback"
+f1_keywords:
+- resapi/RaiseResTypeNotification callback
 dev_langs:
- - c++
+- c++
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,13 +30,13 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - kbSyntax
+- kbSyntax
 api_type:
- - <TBD>
+- <TBD>
 api_location:
- -
+- 
 api_name:
- - RaiseResTypeNotification callback
+- RaiseResTypeNotification callback
 targetos: Windows
 req.typenames: 
 req.redist: 

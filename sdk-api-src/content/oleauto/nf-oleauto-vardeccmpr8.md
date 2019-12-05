@@ -1,19 +1,17 @@
 ---
 UID: NF:oleauto.VarDecCmpR8
 title: VarDecCmpR8 function (oleauto.h)
-
 description: Compares a variant of type decimal with the a value of type double.
 old-location: automat\vardeccmpr8.htm
 tech.root: automat
 ms.assetid: b078ead4-3df6-42b0-8844-143969e7e71e
-
 ms.date: 12/05/2018
 ms.keywords: VarDecCmpR8, VarDecCmpR8 function [Automation], _oa96_VarDecCmpR8, automat.vardeccmpr8, oleauto/VarDecCmpR8
 ms.topic: function
-f1_keywords: 
- - "oleauto/VarDecCmpR8"
+f1_keywords:
+- oleauto/VarDecCmpR8
 dev_langs:
- - c++
+- c++
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: OleAut32.lib
 req.dll: OleAut32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - OleAut32.dll
+- OleAut32.dll
 api_name:
- - VarDecCmpR8
+- VarDecCmpR8
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:fsrmscreen.IFsrmFileGroupManager.ImportFileGroups
 title: IFsrmFileGroupManager::ImportFileGroups (fsrmscreen.h)
-
 description: Imports the specified file groups from an XML string.
 old-location: fsrm\ifsrmfilegroupmanager_importfilegroups.htm
 tech.root: fsrm
 ms.assetid: 81f62d49-5fce-4d8c-96b5-506d741c5f77
-
 ms.date: 12/05/2018
 ms.keywords: FsrmFileGroupManager class [File Server Resource Manager],ImportFileGroups method, IFsrmFileGroupManager interface [File Server Resource Manager],ImportFileGroups method, IFsrmFileGroupManager.ImportFileGroups, IFsrmFileGroupManager::ImportFileGroups, ImportFileGroups, ImportFileGroups method [File Server Resource Manager], ImportFileGroups method [File Server Resource Manager],FsrmFileGroupManager class, ImportFileGroups method [File Server Resource Manager],IFsrmFileGroupManager interface, fs.ifsrmfilegroupmanager_importfilegroups, fsrm.ifsrmfilegroupmanager_importfilegroups, fsrmscreen/IFsrmFileGroupManager::ImportFileGroups
 ms.topic: method
-f1_keywords: 
- - "fsrmscreen/IFsrmFileGroupManager.ImportFileGroups"
+f1_keywords:
+- fsrmscreen/IFsrmFileGroupManager.ImportFileGroups
 dev_langs:
- - c++
+- c++
 req.header: fsrmscreen.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: SrmSvc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - SrmSvc.dll
+- SrmSvc.dll
 api_name:
- - IFsrmFileGroupManager.ImportFileGroups
- - FsrmFileGroupManager.ImportFileGroups
+- IFsrmFileGroupManager.ImportFileGroups
+- FsrmFileGroupManager.ImportFileGroups
 targetos: Windows
 req.typenames: 
 req.redist: 

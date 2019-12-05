@@ -1,19 +1,17 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMPackageWriter.AddResource
 title: IXpsOMPackageWriter::AddResource (xpsobjectmodel.h)
-
 description: Creates a new part resource in the package.
 old-location: xps\ixpsompackagewriter_addresource.htm
 tech.root: printdocs
 ms.assetid: eb81efb8-f3cd-448d-ab60-34acf13db4cd
-
 ms.date: 12/05/2018
 ms.keywords: AddResource, AddResource method [XPS Documents and Packaging], AddResource method [XPS Documents and Packaging],IXpsOMPackageWriter interface, AddResource method [XPS Documents and Packaging],IXpsOMPackageWriter3D interface, IXpsOMPackageWriter interface [XPS Documents and Packaging],AddResource method, IXpsOMPackageWriter.AddResource, IXpsOMPackageWriter3D interface [XPS Documents and Packaging],AddResource method, IXpsOMPackageWriter3D::AddResource, IXpsOMPackageWriter::AddResource, xps.ixpsompackagewriter_addresource, xpsobjectmodel/IXpsOMPackageWriter3D::AddResource, xpsobjectmodel/IXpsOMPackageWriter::AddResource
 ms.topic: method
-f1_keywords: 
- - "xpsobjectmodel/IXpsOMPackageWriter.AddResource"
+f1_keywords:
+- xpsobjectmodel/IXpsOMPackageWriter.AddResource
 dev_langs:
- - c++
+- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsobjectmodel.h
+- xpsobjectmodel.h
 api_name:
- - IXpsOMPackageWriter.AddResource
- - IXpsOMPackageWriter3D.AddResource
+- IXpsOMPackageWriter.AddResource
+- IXpsOMPackageWriter3D.AddResource
 targetos: Windows
 req.typenames: 
 req.redist: 

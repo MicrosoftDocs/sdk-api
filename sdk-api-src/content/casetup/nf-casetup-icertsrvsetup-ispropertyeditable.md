@@ -1,19 +1,17 @@
 ---
 UID: NF:casetup.ICertSrvSetup.IsPropertyEditable
 title: ICertSrvSetup::IsPropertyEditable (casetup.h)
-
 description: Indicates to the caller whether a specified property can be edited.
 old-location: security\icertsrvsetup_ispropertyeditable.htm
 tech.root: SecCrypto
 ms.assetid: 2facae59-aa96-4ac7-97e1-ff094022681a
-
 ms.date: 12/05/2018
 ms.keywords: ICertSrvSetup interface [Security],IsPropertyEditable method, ICertSrvSetup.IsPropertyEditable, ICertSrvSetup::IsPropertyEditable, IsPropertyEditable, IsPropertyEditable method [Security], IsPropertyEditable method [Security],ICertSrvSetup interface, casetup/ICertSrvSetup::IsPropertyEditable, security.icertsrvsetup_ispropertyeditable
 ms.topic: method
-f1_keywords: 
- - "casetup/ICertSrvSetup.IsPropertyEditable"
+f1_keywords:
+- casetup/ICertSrvSetup.IsPropertyEditable
 dev_langs:
- - c++
+- c++
 req.header: casetup.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Certocm.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Certocm.dll
+- Certocm.dll
 api_name:
- - ICertSrvSetup.IsPropertyEditable
+- ICertSrvSetup.IsPropertyEditable
 targetos: Windows
 req.typenames: 
 req.redist: 

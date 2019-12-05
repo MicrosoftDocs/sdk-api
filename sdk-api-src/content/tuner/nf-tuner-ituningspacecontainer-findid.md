@@ -1,19 +1,17 @@
 ---
 UID: NF:tuner.ITuningSpaceContainer.FindID
 title: ITuningSpaceContainer::FindID (tuner.h)
-
 description: The FindID method retrieves the ID of a specified tuning space within the collection.
 old-location: mstv\ituningspacecontainer_findid.htm
 tech.root: mstv
 ms.assetid: 99ac47b4-4adc-4e12-b465-4db8ae20ff6d
-
 ms.date: 12/05/2018
 ms.keywords: FindID, FindID method [Microsoft TV Technologies], FindID method [Microsoft TV Technologies],ITuningSpaceContainer interface, ITuningSpaceContainer interface [Microsoft TV Technologies],FindID method, ITuningSpaceContainer.FindID, ITuningSpaceContainer::FindID, ITuningSpaceContainerFindID, mstv.ituningspacecontainer_findid, tuner/ITuningSpaceContainer::FindID
 ms.topic: method
-f1_keywords: 
- - "tuner/ITuningSpaceContainer.FindID"
+f1_keywords:
+- tuner/ITuningSpaceContainer.FindID
 dev_langs:
- - c++
+- c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - tuner.h
+- tuner.h
 api_name:
- - ITuningSpaceContainer.FindID
+- ITuningSpaceContainer.FindID
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:usp10.ScriptApplyLogicalWidth
 title: ScriptApplyLogicalWidth function (usp10.h)
-
 description: Takes an array of advance widths for a run and generates an array of adjusted advance glyph widths.
 old-location: intl\scriptapplylogicalwidth.htm
 tech.root: Intl
 ms.assetid: 964634f4-700b-47a7-a86f-071f1c97bcbe
-
 ms.date: 12/05/2018
 ms.keywords: ScriptApplyLogicalWidth, ScriptApplyLogicalWidth function [Internationalization for Windows Applications], _win32_ScriptApplyLogicalWidth, intl.scriptapplylogicalwidth, usp10/ScriptApplyLogicalWidth
 ms.topic: function
-f1_keywords: 
- - "usp10/ScriptApplyLogicalWidth"
+f1_keywords:
+- usp10/ScriptApplyLogicalWidth
 dev_langs:
- - c++
+- c++
 req.header: usp10.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Usp10.lib
 req.dll: Usp10.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - usp10.dll
- - Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
- - GDI32.dll
- - GDI32Full.dll
+- usp10.dll
+- Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
+- GDI32.dll
+- GDI32Full.dll
 api_name:
- - ScriptApplyLogicalWidth
+- ScriptApplyLogicalWidth
 targetos: Windows
 req.typenames: 
 req.redist: Internet Explorer 5 or later on Windows Me/98/95

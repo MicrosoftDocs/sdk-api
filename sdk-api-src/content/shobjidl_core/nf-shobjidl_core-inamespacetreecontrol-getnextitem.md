@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.INameSpaceTreeControl.GetNextItem
 title: INameSpaceTreeControl::GetNextItem (shobjidl_core.h)
-
 description: Retrieves the next item in the tree according to which method is requested.
 old-location: shell\INameSpaceTreeControl_GetNextItem.htm
 tech.root: shell
 ms.assetid: 71ede595-14b6-4e59-854a-af75c02093f8
-
 ms.date: 12/05/2018
 ms.keywords: GetNextItem, GetNextItem method [Windows Shell], GetNextItem method [Windows Shell],INameSpaceTreeControl interface, INameSpaceTreeControl interface [Windows Shell],GetNextItem method, INameSpaceTreeControl.GetNextItem, INameSpaceTreeControl::GetNextItem, NSTCGNI_CHILD, NSTCGNI_FIRSTVISIBLE, NSTCGNI_LASTVISIBLE, NSTCGNI_NEXT, NSTCGNI_NEXTVISIBLE, NSTCGNI_PARENT, NSTCGNI_PREV, NSTCGNI_PREVVISIBLE, _shell_INameSpaceTreeControl_GetNextItem, shell.INameSpaceTreeControl_GetNextItem, shobjidl_core/INameSpaceTreeControl::GetNextItem
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/INameSpaceTreeControl.GetNextItem"
+f1_keywords:
+- shobjidl_core/INameSpaceTreeControl.GetNextItem
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - INameSpaceTreeControl.GetNextItem
+- INameSpaceTreeControl.GetNextItem
 targetos: Windows
 req.typenames: 
 req.redist: 

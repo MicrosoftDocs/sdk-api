@@ -1,19 +1,17 @@
 ---
 UID: NF:tuner.ITuner.get_TuningSpace
 title: ITuner::get_TuningSpace (tuner.h)
-
 description: The get_TuningSpace method gets the tuning space currently in effect for the Network Provider.
 old-location: mstv\ituner_get_tuningspace.htm
 tech.root: mstv
 ms.assetid: 01b6a280-d489-4b4f-ae87-17c9b9bb2838
-
 ms.date: 12/05/2018
 ms.keywords: ITuner interface [Microsoft TV Technologies],get_TuningSpace method, ITuner.get_TuningSpace, ITuner::get_TuningSpace, ITunerget_TuningSpace, get_TuningSpace, get_TuningSpace method [Microsoft TV Technologies], get_TuningSpace method [Microsoft TV Technologies],ITuner interface, mstv.ituner_get_tuningspace, tuner/ITuner::get_TuningSpace
 ms.topic: method
-f1_keywords: 
- - "tuner/ITuner.get_TuningSpace"
+f1_keywords:
+- tuner/ITuner.get_TuningSpace
 dev_langs:
- - c++
+- c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - tuner.h
+- tuner.h
 api_name:
- - ITuner.get_TuningSpace
+- ITuner.get_TuningSpace
 targetos: Windows
 req.typenames: 
 req.redist: 

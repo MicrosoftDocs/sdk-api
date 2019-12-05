@@ -1,19 +1,17 @@
 ---
 UID: NF:wingdi.GetDCOrgEx
 title: GetDCOrgEx function (wingdi.h)
-
 description: The GetDCOrgEx function retrieves the final translation origin for a specified device context (DC).
 old-location: gdi\getdcorgex.htm
 tech.root: gdi
 ms.assetid: 795c6a69-7146-4d1a-abf9-ce1d740ca946
-
 ms.date: 12/05/2018
 ms.keywords: GetDCOrgEx, GetDCOrgEx function [Windows GDI], _win32_GetDCOrgEx, gdi.getdcorgex, wingdi/GetDCOrgEx
 ms.topic: function
-f1_keywords: 
- - "wingdi/GetDCOrgEx"
+f1_keywords:
+- wingdi/GetDCOrgEx
 dev_langs:
- - c++
+- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - gdi32.dll
- - Ext-MS-Win-GDI-DC-l1-2-0.dll
- - ext-ms-win-gdi-dc-l1-1-0.dll
- - ext-ms-win-gdi-dc-l1-2-1.dll
- - GDI32Full.dll
+- gdi32.dll
+- Ext-MS-Win-GDI-DC-l1-2-0.dll
+- ext-ms-win-gdi-dc-l1-1-0.dll
+- ext-ms-win-gdi-dc-l1-2-1.dll
+- GDI32Full.dll
 api_name:
- - GetDCOrgEx
+- GetDCOrgEx
 targetos: Windows
 req.typenames: 
 req.redist: 

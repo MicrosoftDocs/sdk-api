@@ -1,19 +1,17 @@
 ---
 UID: NE:gdiplusenums.StringDigitSubstitute
 title: StringDigitSubstitute (gdiplusenums.h)
-
 description: The StringDigitSubstitute enumeration specifies how to substitute digits in a string according to a user's locale or language.
 old-location: gdiplus\_gdiplus_ENUM_StringDigitSubstitute.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\enumerations\stringdigitsubstitute.htm
-
 ms.date: 12/05/2018
 ms.keywords: StringDigitSubstitute, StringDigitSubstitute enumeration [GDI+], StringDigitSubstituteNational, StringDigitSubstituteNone, StringDigitSubstituteTraditional, StringDigitSubstituteUser, _gdiplus_ENUM_StringDigitSubstitute, gdiplus._gdiplus_ENUM_StringDigitSubstitute, gdiplusenums/StringDigitSubstitute, gdiplusenums/StringDigitSubstituteNational, gdiplusenums/StringDigitSubstituteNone, gdiplusenums/StringDigitSubstituteTraditional, gdiplusenums/StringDigitSubstituteUser
 ms.topic: enum
-f1_keywords: 
- - "gdiplusenums/StringDigitSubstitute"
+f1_keywords:
+- gdiplusenums/StringDigitSubstitute
 dev_langs:
- - c++
+- c++
 req.header: gdiplusenums.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Gdiplusenums.h
+- Gdiplusenums.h
 api_name:
- - StringDigitSubstitute
+- StringDigitSubstitute
 targetos: Windows
 req.typenames: 
 req.redist: 

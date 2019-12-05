@@ -1,19 +1,17 @@
 ---
 UID: NE:d3d11.D3D11_VIDEO_PROCESSOR_NOMINAL_RANGE
 title: D3D11_VIDEO_PROCESSOR_NOMINAL_RANGE (d3d11.h)
-
 description: Specifies values for the luminance range of YUV data.
 old-location: mf\d3d11_video_processor_nominal_range.htm
 tech.root: medfound
 ms.assetid: 9A4E7FE2-9A41-477B-977B-A1D00D7A5E3C
-
 ms.date: 12/05/2018
 ms.keywords: D3D11_VIDEO_PROCESSOR_NOMINAL_RANGE, D3D11_VIDEO_PROCESSOR_NOMINAL_RANGE enumeration [Media Foundation], D3D11_VIDEO_PROCESSOR_NOMINAL_RANGE_0_255, D3D11_VIDEO_PROCESSOR_NOMINAL_RANGE_16_235, D3D11_VIDEO_PROCESSOR_NOMINAL_RANGE_UNDEFINED, d3d11/ D3D11_VIDEO_PROCESSOR_NOMINAL_RANGE_0_255, d3d11/D3D11_VIDEO_PROCESSOR_NOMINAL_RANGE, d3d11/D3D11_VIDEO_PROCESSOR_NOMINAL_RANGE_16_235, d3d11/D3D11_VIDEO_PROCESSOR_NOMINAL_RANGE_UNDEFINED, mf.d3d11_video_processor_nominal_range
 ms.topic: enum
-f1_keywords: 
- - "d3d11/D3D11_VIDEO_PROCESSOR_NOMINAL_RANGE"
+f1_keywords:
+- d3d11/D3D11_VIDEO_PROCESSOR_NOMINAL_RANGE
 dev_langs:
- - c++
+- c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - d3d11.h
+- d3d11.h
 api_name:
- - D3D11_VIDEO_PROCESSOR_NOMINAL_RANGE
+- D3D11_VIDEO_PROCESSOR_NOMINAL_RANGE
 targetos: Windows
 req.typenames: D3D11_VIDEO_PROCESSOR_NOMINAL_RANGE
 req.redist: 

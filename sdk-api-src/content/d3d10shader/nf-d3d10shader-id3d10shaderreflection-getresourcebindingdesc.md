@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d10shader.ID3D10ShaderReflection.GetResourceBindingDesc
 title: ID3D10ShaderReflection::GetResourceBindingDesc (d3d10shader.h)
-
 description: Get a description of the resources bound to a shader.
 old-location: direct3d10\id3d10shaderreflection_getresourcebindingdesc.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10shaderreflection_getresourcebindingdesc.htm
-
 ms.date: 12/05/2018
 ms.keywords: 6c7ed61d-9513-cb71-b3ae-307487d0a4eb, GetResourceBindingDesc, GetResourceBindingDesc method [Direct3D 10], GetResourceBindingDesc method [Direct3D 10],ID3D10ShaderReflection interface, ID3D10ShaderReflection interface [Direct3D 10],GetResourceBindingDesc method, ID3D10ShaderReflection.GetResourceBindingDesc, ID3D10ShaderReflection::GetResourceBindingDesc, d3d10shader/ID3D10ShaderReflection::GetResourceBindingDesc, direct3d10.id3d10shaderreflection_getresourcebindingdesc
 ms.topic: method
-f1_keywords: 
- - "d3d10shader/ID3D10ShaderReflection.GetResourceBindingDesc"
+f1_keywords:
+- d3d10shader/ID3D10ShaderReflection.GetResourceBindingDesc
 dev_langs:
- - c++
+- c++
 req.header: d3d10shader.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D10Shader.h
+- D3D10Shader.h
 api_name:
- - ID3D10ShaderReflection.GetResourceBindingDesc
+- ID3D10ShaderReflection.GetResourceBindingDesc
 targetos: Windows
 req.typenames: 
 req.redist: 

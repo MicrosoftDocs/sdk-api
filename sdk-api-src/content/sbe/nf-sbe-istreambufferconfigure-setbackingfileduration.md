@@ -1,19 +1,17 @@
 ---
 UID: NF:sbe.IStreamBufferConfigure.SetBackingFileDuration
 title: IStreamBufferConfigure::SetBackingFileDuration (sbe.h)
-
 description: The SetBackingFileDuration method sets the duration of all backing files.
 old-location: mstv\istreambufferconfigure_setbackingfileduration.htm
 tech.root: mstv
 ms.assetid: 1825896e-0e3c-4b89-8e0e-59faa0f8000d
-
 ms.date: 12/05/2018
 ms.keywords: IStreamBufferConfigure interface [Microsoft TV Technologies],SetBackingFileDuration method, IStreamBufferConfigure.SetBackingFileDuration, IStreamBufferConfigure::SetBackingFileDuration, IStreamBufferConfigureSetBackingFileDuration, SetBackingFileDuration, SetBackingFileDuration method [Microsoft TV Technologies], SetBackingFileDuration method [Microsoft TV Technologies],IStreamBufferConfigure interface, mstv.istreambufferconfigure_setbackingfileduration, sbe/IStreamBufferConfigure::SetBackingFileDuration
 ms.topic: method
-f1_keywords: 
- - "sbe/IStreamBufferConfigure.SetBackingFileDuration"
+f1_keywords:
+- sbe/IStreamBufferConfigure.SetBackingFileDuration
 dev_langs:
- - c++
+- c++
 req.header: sbe.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Sbe.h
+- Sbe.h
 api_name:
- - IStreamBufferConfigure.SetBackingFileDuration
+- IStreamBufferConfigure.SetBackingFileDuration
 targetos: Windows
 req.typenames: 
 req.redist: 

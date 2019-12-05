@@ -1,19 +1,17 @@
 ---
 UID: NF:tom.ITextRow.SetProperty
 title: ITextRow::SetProperty (tom.h)
-
 description: Sets the value of the specified property.
 old-location: controls\itextrow_setproperty.htm
 tech.root: Controls
 ms.assetid: d43172b9-c717-41b2-ba22-aa164a595140
-
 ms.date: 12/05/2018
 ms.keywords: ITextRow interface [Windows Controls],SetProperty method, ITextRow.SetProperty, ITextRow::SetProperty, SetProperty, SetProperty method [Windows Controls], SetProperty method [Windows Controls],ITextRow interface, controls.itextrow_setproperty, tom/ITextRow::SetProperty
 ms.topic: method
-f1_keywords: 
- - "tom/ITextRow.SetProperty"
+f1_keywords:
+- tom/ITextRow.SetProperty
 dev_langs:
- - c++
+- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msftedit.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msftedit.dll
+- Msftedit.dll
 api_name:
- - ITextRow.SetProperty
+- ITextRow.SetProperty
 targetos: Windows
 req.typenames: 
 req.redist: 

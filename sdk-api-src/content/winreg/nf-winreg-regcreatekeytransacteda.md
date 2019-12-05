@@ -1,19 +1,17 @@
 ---
 UID: NF:winreg.RegCreateKeyTransactedA
 title: RegCreateKeyTransactedA function (winreg.h)
-
 description: Creates the specified registry key and associates it with a transaction.
 old-location: base\regcreatekeytransacted.htm
 tech.root: SysInfo
 ms.assetid: f18e5ff9-41c3-4c26-8d01-a8ec69bcdef2
-
 ms.date: 12/05/2018
 ms.keywords: REG_CREATED_NEW_KEY, REG_OPENED_EXISTING_KEY, REG_OPTION_BACKUP_RESTORE, REG_OPTION_NON_VOLATILE, REG_OPTION_VOLATILE, RegCreateKeyTransacted, RegCreateKeyTransacted function, RegCreateKeyTransactedA, RegCreateKeyTransactedW, base.regcreatekeytransacted, winreg/RegCreateKeyTransacted, winreg/RegCreateKeyTransactedA, winreg/RegCreateKeyTransactedW
 ms.topic: function
-f1_keywords: 
- - "winreg/RegCreateKeyTransacted"
+f1_keywords:
+- winreg/RegCreateKeyTransacted
 dev_langs:
- - c++
+- c++
 req.header: winreg.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,19 +30,19 @@ req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Advapi32.dll
- - API-MS-Win-Core-Registry-l2-1-0.dll
- - advapi32legacy.dll
- - API-MS-Win-Core-Registry-l2-2-0.dll
+- Advapi32.dll
+- API-MS-Win-Core-Registry-l2-1-0.dll
+- advapi32legacy.dll
+- API-MS-Win-Core-Registry-l2-2-0.dll
 api_name:
- - RegCreateKeyTransacted
- - RegCreateKeyTransactedA
- - RegCreateKeyTransactedW
+- RegCreateKeyTransacted
+- RegCreateKeyTransactedA
+- RegCreateKeyTransactedW
 targetos: Windows
 req.typenames: 
 req.redist: 

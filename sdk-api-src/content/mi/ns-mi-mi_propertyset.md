@@ -1,19 +1,17 @@
 ---
 UID: NS:mi._MI_PropertySet
 title: MI_PropertySet (mi.h)
-
 description: Implements a set of property names.
 old-location: wmi_v2\mi_propertyset.htm
 tech.root: wmi_v2
 ms.assetid: 7c9e41b0-818e-46aa-8900-5006904f78d5
-
 ms.date: 12/05/2018
 ms.keywords: MI_PropertySet, MI_PropertySet structure [Windows Management Infrastructure (MI)], mi/MI_PropertySet, wmi._mi_propertyset, wmi_v2.mi_propertyset
 ms.topic: struct
 f1_keywords:
 - mi/MI_PropertySet
 dev_langs:
- - c++
+- c++
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows

@@ -1,19 +1,17 @@
 ---
 UID: NF:winbase.ClearCommError
 title: ClearCommError function (winbase.h)
-
 description: Retrieves information about a communications error and reports the current status of a communications device.
 old-location: base\clearcommerror.htm
 tech.root: devio
 ms.assetid: 9cc52104-aa5e-4baa-86f1-8c6dcdd661ef
-
 ms.date: 12/05/2018
 ms.keywords: CE_BREAK, CE_FRAME, CE_OVERRUN, CE_RXOVER, CE_RXPARITY, ClearCommError, ClearCommError function, _win32_clearcommerror, base.clearcommerror, winbase/ClearCommError
 ms.topic: function
 f1_keywords:
 - winbase/ClearCommError
 dev_langs:
- - c++
+- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

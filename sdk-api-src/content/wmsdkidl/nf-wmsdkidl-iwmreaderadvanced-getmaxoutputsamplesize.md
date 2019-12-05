@@ -1,19 +1,17 @@
 ---
 UID: NF:wmsdkidl.IWMReaderAdvanced.GetMaxOutputSampleSize
 title: IWMReaderAdvanced::GetMaxOutputSampleSize (wmsdkidl.h)
-
 description: The GetMaxOutputSampleSize method retrieves the maximum buffer size to be allocated for output samples for a specified media stream.
 old-location: wmformat\iwmreaderadvanced_getmaxoutputsamplesize.htm
 tech.root: wmformat
 ms.assetid: ad21ab6e-c7af-4293-8920-05db62b9f7ef
-
 ms.date: 12/05/2018
 ms.keywords: GetMaxOutputSampleSize, GetMaxOutputSampleSize method [windows Media Format], GetMaxOutputSampleSize method [windows Media Format],IWMReaderAdvanced interface, IWMReaderAdvanced interface [windows Media Format],GetMaxOutputSampleSize method, IWMReaderAdvanced.GetMaxOutputSampleSize, IWMReaderAdvanced::GetMaxOutputSampleSize, IWMReaderAdvancedGetMaxOutputSampleSize, wmformat.iwmreaderadvanced_getmaxoutputsamplesize, wmsdkidl/IWMReaderAdvanced::GetMaxOutputSampleSize
 ms.topic: method
-f1_keywords: 
- - "wmsdkidl/IWMReaderAdvanced.GetMaxOutputSampleSize"
+f1_keywords:
+- wmsdkidl/IWMReaderAdvanced.GetMaxOutputSampleSize
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wmvcore.lib
- - Wmvcore.dll
- - WMStubDRM.lib
- - WMStubDRM.dll
+- Wmvcore.lib
+- Wmvcore.dll
+- WMStubDRM.lib
+- WMStubDRM.dll
 api_name:
- - IWMReaderAdvanced.GetMaxOutputSampleSize
+- IWMReaderAdvanced.GetMaxOutputSampleSize
 targetos: Windows
 req.typenames: 
 req.redist: 

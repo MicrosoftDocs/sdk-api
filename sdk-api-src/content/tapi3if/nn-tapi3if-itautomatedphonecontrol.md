@@ -1,19 +1,17 @@
 ---
 UID: NN:tapi3if.ITAutomatedPhoneControl
 title: ITAutomatedPhoneControl (tapi3if.h)
-
 description: The ITAutomatedPhoneControl is a fully OLE automatable and scriptable interface exposed by the TAPI phone object.
 old-location: tapi3\itautomatedphonecontrol.htm
 tech.root: Tapi
 ms.assetid: 60d4f079-75ee-4aeb-9e7c-0b16d90da754
-
 ms.date: 12/05/2018
 ms.keywords: ITAutomatedPhoneControl, ITAutomatedPhoneControl interface [TAPI 2.2], ITAutomatedPhoneControl interface [TAPI 2.2],described, _tapi3_itautomatedphonecontrol, tapi3.itautomatedphonecontrol, tapi3if/ITAutomatedPhoneControl
 ms.topic: interface
-f1_keywords: 
- - "tapi3if/ITAutomatedPhoneControl"
+f1_keywords:
+- tapi3if/ITAutomatedPhoneControl
 dev_langs:
- - c++
+- c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Tapi3.dll
+- Tapi3.dll
 api_name:
- - ITAutomatedPhoneControl
+- ITAutomatedPhoneControl
 targetos: Windows
 req.typenames: 
 req.redist: 

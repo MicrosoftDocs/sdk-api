@@ -1,19 +1,17 @@
 ---
 UID: NF:winscard.SCardForgetReaderGroupA
 title: SCardForgetReaderGroupA function (winscard.h)
-
 description: Removes a previously introduced smart card reader group from the smart card subsystem. Although this function automatically clears all readers from the group, it does not affect the existence of the individual readers in the database.
 old-location: security\scardforgetreadergroup.htm
 tech.root: SecAuthN
 ms.assetid: c6c98542-01b6-4b23-88cf-a619faee882e
-
 ms.date: 12/05/2018
 ms.keywords: SCARD_ALL_READERS, SCARD_DEFAULT_READERS, SCARD_LOCAL_READERS, SCARD_SYSTEM_READERS, SCardForgetReaderGroup, SCardForgetReaderGroup function [Security], SCardForgetReaderGroupA, SCardForgetReaderGroupW, _smart_scardforgetreadergroup, security.scardforgetreadergroup, winscard/SCardForgetReaderGroup, winscard/SCardForgetReaderGroupA, winscard/SCardForgetReaderGroupW
 ms.topic: function
-f1_keywords: 
- - "winscard/SCardForgetReaderGroup"
+f1_keywords:
+- winscard/SCardForgetReaderGroup
 dev_langs:
- - c++
+- c++
 req.header: winscard.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Winscard.lib
 req.dll: Winscard.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Winscard.dll
+- Winscard.dll
 api_name:
- - SCardForgetReaderGroup
- - SCardForgetReaderGroupA
- - SCardForgetReaderGroupW
+- SCardForgetReaderGroup
+- SCardForgetReaderGroupA
+- SCardForgetReaderGroupW
 targetos: Windows
 req.typenames: 
 req.redist: 

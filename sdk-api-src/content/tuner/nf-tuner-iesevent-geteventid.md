@@ -1,19 +1,17 @@
 ---
 UID: NF:tuner.IESEvent.GetEventId
 title: IESEvent::GetEventId (tuner.h)
-
 description: Gets the unique identifier from an event that is derived from the IESEvent interface. The event identifier is contained in an IESEvent object, which ispassed in a call to IESEventService::FireESEvent.
 old-location: mstv\iesevent_geteventid.htm
 tech.root: mstv
 ms.assetid: 8a7d62de-71fc-40fa-9944-d41e33243cc5
-
 ms.date: 12/05/2018
 ms.keywords: GetEventId, GetEventId method [Microsoft TV Technologies], GetEventId method [Microsoft TV Technologies],IESEvent interface, IESEvent interface [Microsoft TV Technologies],GetEventId method, IESEvent.GetEventId, IESEvent::GetEventId, mstv.iesevent_geteventid, tuner/IESEvent::GetEventId
 ms.topic: method
-f1_keywords: 
- - "tuner/IESEvent.GetEventId"
+f1_keywords:
+- tuner/IESEvent.GetEventId
 dev_langs:
- - c++
+- c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - tuner.h
+- tuner.h
 api_name:
- - IESEvent.GetEventId
+- IESEvent.GetEventId
 targetos: Windows
 req.typenames: 
 req.redist: 

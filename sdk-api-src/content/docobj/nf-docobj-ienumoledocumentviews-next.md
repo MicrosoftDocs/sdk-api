@@ -1,19 +1,17 @@
 ---
 UID: NF:docobj.IEnumOleDocumentViews.Next
 title: IEnumOleDocumentViews::Next (docobj.h)
-
 description: Retrieves the specified number of items in the enumeration sequence.
 old-location: com\ienumoledocumentviews_next.htm
 tech.root: com
 ms.assetid: a58131bf-88ff-4661-9047-2d70b5e7931b
-
 ms.date: 12/05/2018
 ms.keywords: IEnumOleDocumentViews interface [COM],Next method, IEnumOleDocumentViews.Next, IEnumOleDocumentViews::Next, Next, Next method [COM], Next method [COM],IEnumOleDocumentViews interface, com.ienumoledocumentviews_next, docobj/IEnumOleDocumentViews::Next
 ms.topic: method
-f1_keywords: 
- - "docobj/IEnumOleDocumentViews.Next"
+f1_keywords:
+- docobj/IEnumOleDocumentViews.Next
 dev_langs:
- - c++
+- c++
 req.header: docobj.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - DocObj.h
+- DocObj.h
 api_name:
- - IEnumOleDocumentViews.Next
+- IEnumOleDocumentViews.Next
 targetos: Windows
 req.typenames: 
 req.redist: 

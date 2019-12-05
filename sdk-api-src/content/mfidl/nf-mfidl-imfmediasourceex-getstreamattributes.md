@@ -1,19 +1,17 @@
 ---
 UID: NF:mfidl.IMFMediaSourceEx.GetStreamAttributes
 title: IMFMediaSourceEx::GetStreamAttributes (mfidl.h)
-
 description: Gets an attribute store for a stream on the media source.
 old-location: mf\imfmediasourceex_getstreamattributes.htm
 tech.root: medfound
 ms.assetid: 360B64E6-4936-4E40-A0EB-7E9EBAF1203E
-
 ms.date: 12/05/2018
 ms.keywords: GetStreamAttributes, GetStreamAttributes method [Media Foundation], GetStreamAttributes method [Media Foundation],IMFMediaSourceEx interface, IMFMediaSourceEx interface [Media Foundation],GetStreamAttributes method, IMFMediaSourceEx.GetStreamAttributes, IMFMediaSourceEx::GetStreamAttributes, mf.imfmediasourceex_getstreamattributes, mfidl/IMFMediaSourceEx::GetStreamAttributes
 ms.topic: method
-f1_keywords: 
- - "mfidl/IMFMediaSourceEx.GetStreamAttributes"
+f1_keywords:
+- mfidl/IMFMediaSourceEx.GetStreamAttributes
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfidl.h
+- mfidl.h
 api_name:
- - IMFMediaSourceEx.GetStreamAttributes
+- IMFMediaSourceEx.GetStreamAttributes
 targetos: Windows
 req.typenames: 
 req.redist: 

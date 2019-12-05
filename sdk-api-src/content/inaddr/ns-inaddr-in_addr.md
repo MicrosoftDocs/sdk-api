@@ -1,19 +1,17 @@
 ---
 UID: NS:inaddr.in_addr
 title: IN_ADDR (inaddr.h)
-
 description: The in_addr structure represents an IPv4 address.
 old-location: iphlp\ipaddr.htm
 tech.root: IpHlp
 ms.assetid: 00d4823d-114d-4cc7-afdf-54c7fed3fe45
-
 ms.date: 12/05/2018
-ms.keywords: "*LPIN_ADDR, *PIN_ADDR, IN_ADDR, IPAddr, IPAddr structure [IP Helper], in_addr, in_addr structure [IP Helper], inaddr/in_addr, ipexport/in_addr, iphlp.ipaddr"
+ms.keywords: '*LPIN_ADDR, *PIN_ADDR, IN_ADDR, IPAddr, IPAddr structure [IP Helper], in_addr, in_addr structure [IP Helper], inaddr/in_addr, ipexport/in_addr, iphlp.ipaddr'
 ms.topic: struct
-f1_keywords: 
- - "inaddr/IPAddr"
+f1_keywords:
+- inaddr/IPAddr
 dev_langs:
- - c++
+- c++
 req.header: inaddr.h
 req.include-header: Ipexport.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Inaddr.h
- - Ipexport.h
+- Inaddr.h
+- Ipexport.h
 api_name:
- - IPAddr
+- IPAddr
 targetos: Windows
 req.typenames: IN_ADDR, *PIN_ADDR, *LPIN_ADDR
 req.redist: 

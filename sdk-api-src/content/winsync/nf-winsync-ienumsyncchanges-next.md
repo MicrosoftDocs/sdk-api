@@ -1,19 +1,17 @@
 ---
 UID: NF:winsync.IEnumSyncChanges.Next
 title: IEnumSyncChanges::Next (winsync.h)
-
 description: Returns the next item change.
 old-location: winsync\ienumsyncchanges_next.htm
 tech.root: winsync
 ms.assetid: 23b5f46f-87f3-431e-a253-d349eed27082
-
 ms.date: 12/05/2018
 ms.keywords: IEnumSyncChanges interface [Windows Sync],Next method, IEnumSyncChanges.Next, IEnumSyncChanges::Next, Next, Next method [Windows Sync], Next method [Windows Sync],IEnumSyncChanges interface, winsync.ienumsyncchanges_next, winsync/IEnumSyncChanges::Next
 ms.topic: method
-f1_keywords: 
- - "winsync/IEnumSyncChanges.Next"
+f1_keywords:
+- winsync/IEnumSyncChanges.Next
 dev_langs:
- - c++
+- c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - winsync.h
+- winsync.h
 api_name:
- - IEnumSyncChanges.Next
+- IEnumSyncChanges.Next
 targetos: Windows
 req.typenames: 
 req.redist: 

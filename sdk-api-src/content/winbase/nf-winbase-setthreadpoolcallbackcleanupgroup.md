@@ -1,19 +1,17 @@
 ---
 UID: NF:winbase.SetThreadpoolCallbackCleanupGroup
 title: SetThreadpoolCallbackCleanupGroup function (winbase.h)
-
 description: Associates the specified cleanup group with the specified callback environment.
 old-location: base\setthreadpoolcallbackcleanupgroup.htm
 tech.root: ProcThread
 ms.assetid: 395db7ba-ff39-46ee-917b-2896a0e99d43
-
 ms.date: 12/05/2018
 ms.keywords: SetThreadpoolCallbackCleanupGroup, SetThreadpoolCallbackCleanupGroup function, base.setthreadpoolcallbackcleanupgroup, winbase/SetThreadpoolCallbackCleanupGroup
 ms.topic: function
-f1_keywords: 
- - "winbase/SetThreadpoolCallbackCleanupGroup"
+f1_keywords:
+- winbase/SetThreadpoolCallbackCleanupGroup
 dev_langs:
- - c++
+- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WinBase.h
+- WinBase.h
 api_name:
- - SetThreadpoolCallbackCleanupGroup
+- SetThreadpoolCallbackCleanupGroup
 targetos: Windows
 req.typenames: 
 req.redist: 

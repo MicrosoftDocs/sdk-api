@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationcore.ITransformProvider.get_CanResize
 title: ITransformProvider::get_CanResize (uiautomationcore.h)
-
 description: Indicates whether the control can be resized.
 old-location: winauto\uiauto_ITransformProvider_CanResize.htm
 tech.root: WinAuto
 ms.assetid: fd7cb359-6e71-44c2-b1c0-4fd7e210244e
-
 ms.date: 12/05/2018
 ms.keywords: CanResize property [Windows Accessibility], CanResize property [Windows Accessibility],ITransformProvider interface, ITransformProvider interface [Windows Accessibility],CanResize property, ITransformProvider.CanResize, ITransformProvider.get_CanResize, ITransformProvider::CanResize, ITransformProvider::get_CanResize, get_CanResize, uiauto.uiauto_ITransformProvider_CanResize, uiauto_ITransformProvider_CanResize, uiautomationcore/ITransformProvider::CanResize, uiautomationcore/ITransformProvider::get_CanResize, winauto.uiauto_ITransformProvider_CanResize
 ms.topic: method
-f1_keywords: 
- - "uiautomationcore/ITransformProvider.CanResize"
+f1_keywords:
+- uiautomationcore/ITransformProvider.CanResize
 dev_langs:
- - c++
+- c++
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationCore.h
+- UIAutomationCore.h
 api_name:
- - ITransformProvider.CanResize
- - ITransformProvider.get_CanResize
+- ITransformProvider.CanResize
+- ITransformProvider.get_CanResize
 targetos: Windows
 req.typenames: 
 req.redist: 

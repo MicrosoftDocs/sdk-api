@@ -1,19 +1,17 @@
 ---
 UID: NF:propsys.IPropertySystem.GetPropertyDescriptionListFromString
 title: IPropertySystem::GetPropertyDescriptionListFromString (propsys.h)
-
 description: Gets an instance of the subsystem object that implements IPropertyDescriptionList, to obtain an ordered collection of property descriptions, based on the provided string.
 old-location: properties\IPropertySystem_GetPropertyDescriptionListFromString.htm
 tech.root: properties
 ms.assetid: 73e61bf0-32d0-4c2c-bf2e-b28ea00cbfd3
-
 ms.date: 12/05/2018
 ms.keywords: GetPropertyDescriptionListFromString, GetPropertyDescriptionListFromString method [Windows Properties], GetPropertyDescriptionListFromString method [Windows Properties],IPropertySystem interface, IPropertySystem interface [Windows Properties],GetPropertyDescriptionListFromString method, IPropertySystem.GetPropertyDescriptionListFromString, IPropertySystem::GetPropertyDescriptionListFromString, properties.IPropertySystem_GetPropertyDescriptionListFromString, propsys/IPropertySystem::GetPropertyDescriptionListFromString, shell.IPropertySystem_GetPropertyDescriptionListFromString, shell_IPropertySystem_GetPropertyDescriptionListFromString
 ms.topic: method
-f1_keywords: 
- - "propsys/IPropertySystem.GetPropertyDescriptionListFromString"
+f1_keywords:
+- propsys/IPropertySystem.GetPropertyDescriptionListFromString
 dev_langs:
- - c++
+- c++
 req.header: propsys.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Propsys.dll (version 5.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Propsys.dll
+- Propsys.dll
 api_name:
- - IPropertySystem.GetPropertyDescriptionListFromString
+- IPropertySystem.GetPropertyDescriptionListFromString
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0

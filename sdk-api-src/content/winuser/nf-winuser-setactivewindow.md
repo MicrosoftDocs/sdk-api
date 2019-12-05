@@ -1,19 +1,17 @@
 ---
 UID: NF:winuser.SetActiveWindow
 title: SetActiveWindow function (winuser.h)
-
 description: Activates a window. The window must be attached to the calling thread's message queue.
 old-location: inputdev\setactivewindow.htm
 tech.root: inputdev
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\keyboardinput\keyboardinputreference\keyboardinputfunctions\setactivewindow.htm
-
 ms.date: 12/05/2018
 ms.keywords: SetActiveWindow, SetActiveWindow function [Keyboard and Mouse Input], _win32_SetActiveWindow, _win32_setactivewindow_cpp, inputdev.setactivewindow, winui._win32_setactivewindow, winuser/SetActiveWindow
 ms.topic: function
-f1_keywords: 
- - "winuser/SetActiveWindow"
+f1_keywords:
+- winuser/SetActiveWindow
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,20 +30,20 @@ req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - User32.dll
- - API-MS-Win-NTUser-IE-Window-l1-1-0.dll
- - ie_shims.dll
- - API-MS-Win-RTCore-NTUser-Window-l1-1-0.dll
- - minuser.dll
- - Ext-MS-Win-RTCore-NTUser-Window-Ext-l1-1-0.dll
- - Ext-MS-Win-NTUser-Window-L1-1-4.dll
+- User32.dll
+- API-MS-Win-NTUser-IE-Window-l1-1-0.dll
+- ie_shims.dll
+- API-MS-Win-RTCore-NTUser-Window-l1-1-0.dll
+- minuser.dll
+- Ext-MS-Win-RTCore-NTUser-Window-Ext-l1-1-0.dll
+- Ext-MS-Win-NTUser-Window-L1-1-4.dll
 api_name:
- - SetActiveWindow
+- SetActiveWindow
 targetos: Windows
 req.typenames: 
 req.redist: 

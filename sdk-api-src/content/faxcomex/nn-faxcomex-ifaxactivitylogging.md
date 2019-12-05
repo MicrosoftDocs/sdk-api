@@ -1,19 +1,17 @@
 ---
 UID: NN:faxcomex.IFaxActivityLogging
 title: IFaxActivityLogging (faxcomex.h)
-
 description: The IFaxActivityLogging interface defines a configuration object used by a fax client application to retrieve and set options for activity logging.
 old-location: fax\_mfax_faxactivitylogging_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_0odj_cpp.htm
-
 ms.date: 12/05/2018
 ms.keywords: IFaxActivityLogging, IFaxActivityLogging interface [Fax Service], IFaxActivityLogging interface [Fax Service],described, _mfax_faxactivitylogging_cpp, fax._mfax_faxactivitylogging_cpp, faxcomex/IFaxActivityLogging
 ms.topic: interface
-f1_keywords: 
- - "faxcomex/IFaxActivityLogging"
+f1_keywords:
+- faxcomex/IFaxActivityLogging
 dev_langs:
- - c++
+- c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Fxscomex.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Fxscomex.dll
+- Fxscomex.dll
 api_name:
- - IFaxActivityLogging
+- IFaxActivityLogging
 targetos: Windows
 req.typenames: 
 req.redist: 

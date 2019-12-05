@@ -1,19 +1,17 @@
 ---
 UID: NF:objbase.CreateGenericComposite
 title: CreateGenericComposite function (objbase.h)
-
 description: Performs a generic composition of two monikers and supplies a pointer to the resulting composite moniker.
 old-location: com\creategenericcomposite.htm
 tech.root: com
 ms.assetid: 7fe5b3ff-6e9b-4a28-93d3-52c76d3e8b77
-
 ms.date: 12/05/2018
 ms.keywords: CreateGenericComposite, CreateGenericComposite function [COM], _com_CreateGenericComposite, com.creategenericcomposite, objbase/CreateGenericComposite
 ms.topic: function
-f1_keywords: 
- - "objbase/CreateGenericComposite"
+f1_keywords:
+- objbase/CreateGenericComposite
 dev_langs:
- - c++
+- c++
 req.header: objbase.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Ole32.lib
 req.dll: Ole32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ole32.dll
- - Ext-MS-Win-OLE32-IE-Ext-l1-1-0.dll
+- Ole32.dll
+- Ext-MS-Win-OLE32-IE-Ext-l1-1-0.dll
 api_name:
- - CreateGenericComposite
+- CreateGenericComposite
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:shdeprecated.IBrowserService3.IEParseDisplayNameEx
 title: IBrowserService3::IEParseDisplayNameEx (shdeprecated.h)
-
 description: Deprecated. Parses a URL into a pointer to an item identifier list (PIDL).
 old-location: shell\IBrowserService3_IEParseDisplayNameEx.htm
 tech.root: shell
 ms.assetid: 9e36418e-026b-4682-9074-4caec5370f8b
-
 ms.date: 12/05/2018
 ms.keywords: IBrowserService3 interface [Windows Shell],IEParseDisplayNameEx method, IBrowserService3.IEParseDisplayNameEx, IBrowserService3::IEParseDisplayNameEx, IEPDN_BINDINGUI, IEParseDisplayNameEx, IEParseDisplayNameEx method [Windows Shell], IEParseDisplayNameEx method [Windows Shell],IBrowserService3 interface, shdeprecated/IBrowserService3::IEParseDisplayNameEx, shell.IBrowserService3_IEParseDisplayNameEx, zone_IBrowserService3_IEParseDisplayNameEx
 ms.topic: method
-f1_keywords: 
- - "shdeprecated/IBrowserService3.IEParseDisplayNameEx"
+f1_keywords:
+- shdeprecated/IBrowserService3.IEParseDisplayNameEx
 dev_langs:
- - c++
+- c++
 req.header: shdeprecated.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shdeprecated.h
+- Shdeprecated.h
 api_name:
- - IBrowserService3.IEParseDisplayNameEx
+- IBrowserService3.IEParseDisplayNameEx
 targetos: Windows
 req.typenames: 
 req.redist: 

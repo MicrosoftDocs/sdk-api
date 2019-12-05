@@ -1,19 +1,17 @@
 ---
 UID: NN:cscobj.IOfflineFilesTransparentCacheInfo
 title: IOfflineFilesTransparentCacheInfo (cscobj.h)
-
 description: Represents information associated with transparently cached items.
 old-location: of\iofflinefilestransparentcacheinfo.htm
 tech.root: offlinefiles
 ms.assetid: 49c8213c-e8a1-4cb8-9b58-120fc0982b7b
-
 ms.date: 12/05/2018
 ms.keywords: IOfflineFilesTransparentCacheInfo, IOfflineFilesTransparentCacheInfo interface [Offline Files], IOfflineFilesTransparentCacheInfo interface [Offline Files],described, cscobj/IOfflineFilesTransparentCacheInfo, of.iofflinefilestransparentcacheinfo
 ms.topic: interface
-f1_keywords: 
- - "cscobj/IOfflineFilesTransparentCacheInfo"
+f1_keywords:
+- cscobj/IOfflineFilesTransparentCacheInfo
 dev_langs:
- - c++
+- c++
 req.header: cscobj.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: CscSvc.dll; CscObj.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CscSvc.dll
- - CscObj.dll
+- CscSvc.dll
+- CscObj.dll
 api_name:
- - IOfflineFilesTransparentCacheInfo
+- IOfflineFilesTransparentCacheInfo
 targetos: Windows
 req.typenames: 
 req.redist: 

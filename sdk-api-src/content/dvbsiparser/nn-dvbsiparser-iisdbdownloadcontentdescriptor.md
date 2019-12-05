@@ -1,19 +1,17 @@
 ---
 UID: NN:dvbsiparser.IIsdbDownloadContentDescriptor
 title: IIsdbDownloadContentDescriptor (dvbsiparser.h)
-
 description: Implements methods that get data from an Integrated Services Digital Broadcasting (ISDB) download content descriptor.
 old-location: mstv\iisdbdownloadcontentdescriptor.htm
 tech.root: mstv
 ms.assetid: beef626c-64b1-4f49-bb21-69022907004d
-
 ms.date: 12/05/2018
 ms.keywords: IIsdbDownloadContentDescriptor, IIsdbDownloadContentDescriptor interface [Microsoft TV Technologies], IIsdbDownloadContentDescriptor interface [Microsoft TV Technologies],described, dvbsiparser/IIsdbDownloadContentDescriptor, mstv.iisdbdownloadcontentdescriptor
 ms.topic: interface
-f1_keywords: 
- - "dvbsiparser/IIsdbDownloadContentDescriptor"
+f1_keywords:
+- dvbsiparser/IIsdbDownloadContentDescriptor
 dev_langs:
- - c++
+- c++
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dvbsiparser.h
+- dvbsiparser.h
 api_name:
- - IIsdbDownloadContentDescriptor
+- IIsdbDownloadContentDescriptor
 targetos: Windows
 req.typenames: 
 req.redist: 

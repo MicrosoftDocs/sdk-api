@@ -1,19 +1,17 @@
 ---
 UID: NF:comadmin.ICOMAdminCatalog2.AliasComponent
 title: ICOMAdminCatalog2::AliasComponent (comadmin.h)
-
 description: Creates an alias for an existing COM+ component.
 old-location: cos\icomadmincatalog2_aliascomponent.htm
 tech.root: cossdk
 ms.assetid: 99d43ef5-f117-4307-aa44-f149b4986cda
-
 ms.date: 12/05/2018
 ms.keywords: AliasComponent, AliasComponent method [COM+], AliasComponent method [COM+],ICOMAdminCatalog2 interface, ICOMAdminCatalog2 interface [COM+],AliasComponent method, ICOMAdminCatalog2.AliasComponent, ICOMAdminCatalog2::AliasComponent, _cos_icomadmincatalog2_AliasComponent, comadmin/ICOMAdminCatalog2::AliasComponent, cos.icomadmincatalog2_aliascomponent
 ms.topic: method
-f1_keywords: 
- - "comadmin/ICOMAdminCatalog2.AliasComponent"
+f1_keywords:
+- comadmin/ICOMAdminCatalog2.AliasComponent
 dev_langs:
- - c++
+- c++
 req.header: comadmin.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComAdmin.h
+- ComAdmin.h
 api_name:
- - ICOMAdminCatalog2.AliasComponent
+- ICOMAdminCatalog2.AliasComponent
 targetos: Windows
 req.typenames: 
 req.redist: 

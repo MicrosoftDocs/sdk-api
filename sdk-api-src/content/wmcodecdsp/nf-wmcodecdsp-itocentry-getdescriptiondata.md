@@ -1,19 +1,17 @@
 ---
 UID: NF:wmcodecdsp.ITocEntry.GetDescriptionData
 title: ITocEntry::GetDescriptionData (wmcodecdsp.h)
-
 description: The GetDescriptionData method gets a description data block that was previously associated with the entry by a call to SetDescriptionData.
 old-location: mf\itocentry_getdescriptiondata.htm
 tech.root: medfound
 ms.assetid: 4000b67c-e34e-4bce-9a0d-c56c9fc0f41e
-
 ms.date: 12/05/2018
 ms.keywords: GetDescriptionData, GetDescriptionData method [Media Foundation], GetDescriptionData method [Media Foundation],ITocEntry interface, ITocEntry interface [Media Foundation],GetDescriptionData method, ITocEntry.GetDescriptionData, ITocEntry::GetDescriptionData, codecapi.itocentry_getdescriptiondata, mf.itocentry_getdescriptiondata, wmcodecdsp/ITocEntry::GetDescriptionData
 ms.topic: method
-f1_keywords: 
- - "wmcodecdsp/ITocEntry.GetDescriptionData"
+f1_keywords:
+- wmcodecdsp/ITocEntry.GetDescriptionData
 dev_langs:
- - c++
+- c++
 req.header: wmcodecdsp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wmvdspa.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmvdspa.dll
+- wmvdspa.dll
 api_name:
- - ITocEntry.GetDescriptionData
+- ITocEntry.GetDescriptionData
 targetos: Windows
 req.typenames: 
 req.redist: 

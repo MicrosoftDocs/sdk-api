@@ -1,19 +1,17 @@
 ---
 UID: NF:mfmediaengine.IMFMediaEngineEx.EnableWindowlessSwapchainMode
 title: IMFMediaEngineEx::EnableWindowlessSwapchainMode (mfmediaengine.h)
-
 description: Enables or disables windowless swap-chain mode.
 old-location: mf\imfmediaengineex_enablewindowlessswapchainmode.htm
 tech.root: medfound
 ms.assetid: B93429D7-A0DF-4440-A164-C140334FC0A6
-
 ms.date: 12/05/2018
 ms.keywords: EnableWindowlessSwapchainMode, EnableWindowlessSwapchainMode method [Media Foundation], EnableWindowlessSwapchainMode method [Media Foundation],IMFMediaEngineEx interface, IMFMediaEngineEx interface [Media Foundation],EnableWindowlessSwapchainMode method, IMFMediaEngineEx.EnableWindowlessSwapchainMode, IMFMediaEngineEx::EnableWindowlessSwapchainMode, mf.imfmediaengineex_enablewindowlessswapchainmode, mfmediaengine/IMFMediaEngineEx::EnableWindowlessSwapchainMode
 ms.topic: method
-f1_keywords: 
- - "mfmediaengine/IMFMediaEngineEx.EnableWindowlessSwapchainMode"
+f1_keywords:
+- mfmediaengine/IMFMediaEngineEx.EnableWindowlessSwapchainMode
 dev_langs:
- - c++
+- c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfmediaengine.h
+- mfmediaengine.h
 api_name:
- - IMFMediaEngineEx.EnableWindowlessSwapchainMode
+- IMFMediaEngineEx.EnableWindowlessSwapchainMode
 targetos: Windows
 req.typenames: 
 req.redist: 

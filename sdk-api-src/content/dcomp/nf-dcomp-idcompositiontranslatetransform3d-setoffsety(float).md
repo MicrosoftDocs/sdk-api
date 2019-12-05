@@ -1,19 +1,17 @@
 ---
 UID: NF:dcomp.IDCompositionTranslateTransform3D.SetOffsetY(float)
 title: IDCompositionTranslateTransform3D::SetOffsetY (dcomp.h)
-
 description: Changes the value of the OffsetY property of a 3D translation transform effect. The OffsetY property specifies the distance to translate along the y-axis.
 old-location: directcomp\idcompositiontranslatetransform3d_setoffsety_float.htm
 tech.root: directcomp
 ms.assetid: 09A12F3B-84B8-43E5-A58E-61B43E5211FB
-
 ms.date: 12/05/2018
 ms.keywords: IDCompositionTranslateTransform3D interface [DirectComposition],SetOffsetY method, IDCompositionTranslateTransform3D.SetOffsetY, IDCompositionTranslateTransform3D::SetOffsetY, IDCompositionTranslateTransform3D::SetOffsetY(float), SetOffsetY, SetOffsetY method [DirectComposition], SetOffsetY method [DirectComposition],IDCompositionTranslateTransform3D interface, dcomp/IDCompositionTranslateTransform3D::SetOffsetY, directcomp.idcompositiontranslatetransform3d_setoffsety_float
 ms.topic: method
-f1_keywords: 
- - "dcomp/IDCompositionTranslateTransform3D.SetOffsetY"
+f1_keywords:
+- dcomp/IDCompositionTranslateTransform3D.SetOffsetY
 dev_langs:
- - c++
+- c++
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dcomp.lib
 req.dll: Dcomp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dcomp.dll
+- Dcomp.dll
 api_name:
- - IDCompositionTranslateTransform3D.SetOffsetY
+- IDCompositionTranslateTransform3D.SetOffsetY
 targetos: Windows
 req.typenames: 
 req.redist: 

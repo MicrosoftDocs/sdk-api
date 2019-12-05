@@ -1,19 +1,17 @@
 ---
 UID: NF:winddi.EngWideCharToMultiByte
 title: EngWideCharToMultiByte function (winddi.h)
-
 description: The EngWideCharToMultiByte function converts a wide character string into an ANSI source string using the specified code page.
 old-location: display\engwidechartomultibyte.htm
 tech.root: display
 ms.assetid: db0ae856-f414-4ae9-9bc9-c719581873fd
-
 ms.date: 12/05/2018
 ms.keywords: EngWideCharToMultiByte, EngWideCharToMultiByte function [Display Devices], display.engwidechartomultibyte, gdifncs_04d04a1a-7a81-47f7-958b-47ea8f52f421.xml, winddi/EngWideCharToMultiByte
 ms.topic: function
-f1_keywords: 
- - "winddi/EngWideCharToMultiByte"
+f1_keywords:
+- winddi/EngWideCharToMultiByte
 dev_langs:
- - c++
+- c++
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Universal
@@ -32,17 +30,17 @@ req.lib: Win32k.lib
 req.dll: Win32k.sys
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Win32k.sys
- - Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
- - GDI32.dll
- - GDI32Full.dll
+- Win32k.sys
+- Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
+- GDI32.dll
+- GDI32Full.dll
 api_name:
- - EngWideCharToMultiByte
+- EngWideCharToMultiByte
 targetos: Windows
 req.typenames: 
 req.redist: 

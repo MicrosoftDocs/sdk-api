@@ -1,19 +1,17 @@
 ---
 UID: NF:vsmgmt.IVssSnapshotMgmt.QuerySnapshotsByVolume
 title: IVssSnapshotMgmt::QuerySnapshotsByVolume (vsmgmt.h)
-
 description: Reserved for system use.
 old-location: base\ivsssnapshotmgmt_querysnapshotsbyvolume.htm
 tech.root: VSS
 ms.assetid: c74322d8-24a6-4463-82a5-c06e7624a1ca
-
 ms.date: 12/05/2018
 ms.keywords: IVssSnapshotMgmt interface [VSS],QuerySnapshotsByVolume method, IVssSnapshotMgmt.QuerySnapshotsByVolume, IVssSnapshotMgmt::QuerySnapshotsByVolume, QuerySnapshotsByVolume, QuerySnapshotsByVolume method [VSS], QuerySnapshotsByVolume method [VSS],IVssSnapshotMgmt interface, base.ivsssnapshotmgmt_querysnapshotsbyvolume, vsmgmt/IVssSnapshotMgmt::QuerySnapshotsByVolume
 ms.topic: method
-f1_keywords: 
- - "vsmgmt/IVssSnapshotMgmt.QuerySnapshotsByVolume"
+f1_keywords:
+- vsmgmt/IVssSnapshotMgmt.QuerySnapshotsByVolume
 dev_langs:
- - c++
+- c++
 req.header: vsmgmt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - VsMgmt.h
+- VsMgmt.h
 api_name:
- - IVssSnapshotMgmt.QuerySnapshotsByVolume
+- IVssSnapshotMgmt.QuerySnapshotsByVolume
 targetos: Windows
 req.typenames: 
 req.redist: 

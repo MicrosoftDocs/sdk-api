@@ -1,19 +1,17 @@
 ---
 UID: NF:threadpoolapiset.QueryThreadpoolStackInformation
 title: QueryThreadpoolStackInformation function (threadpoolapiset.h)
-
 description: Retrieves the stack reserve and commit sizes for threads in the specified thread pool.
 old-location: base\querythreadpoolstackinformation.htm
 tech.root: ProcThread
 ms.assetid: 1669dfa7-75bf-4776-bba7-7d03a084a32c
-
 ms.date: 12/05/2018
 ms.keywords: QueryThreadpoolStackInformation, QueryThreadpoolStackInformation function, base.querythreadpoolstackinformation, threadpoolapiset/QueryThreadpoolStackInformation, winbase/QueryThreadpoolStackInformation
 ms.topic: function
-f1_keywords: 
- - "threadpoolapiset/QueryThreadpoolStackInformation"
+f1_keywords:
+- threadpoolapiset/QueryThreadpoolStackInformation
 dev_langs:
- - c++
+- c++
 req.header: threadpoolapiset.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,19 +30,19 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - kernel32.dll
- - API-MS-Win-Core-threadpool-l1-1-0.dll
- - KernelBase.dll
- - API-MS-Win-Core-threadpool-l1-2-0.dll
- - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
- - MinKernelBase.dll
+- kernel32.dll
+- API-MS-Win-Core-threadpool-l1-1-0.dll
+- KernelBase.dll
+- API-MS-Win-Core-threadpool-l1-2-0.dll
+- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+- MinKernelBase.dll
 api_name:
- - QueryThreadpoolStackInformation
+- QueryThreadpoolStackInformation
 targetos: Windows
 req.typenames: 
 req.redist: 

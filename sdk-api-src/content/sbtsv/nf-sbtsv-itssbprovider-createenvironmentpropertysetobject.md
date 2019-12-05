@@ -1,19 +1,17 @@
 ---
 UID: NF:sbtsv.ITsSbProvider.CreateEnvironmentPropertySetObject
 title: ITsSbProvider::CreateEnvironmentPropertySetObject (sbtsv.h)
-
 description: Creates an ITsSbEnvironmentPropertySet environment property set object.
 old-location: termserv\itssbprovider_createenvironmentpropertysetobject.htm
 tech.root: TermServ
 ms.assetid: 52bb5c05-f8eb-42c9-862f-d42e71507a91
-
 ms.date: 12/05/2018
 ms.keywords: CreateEnvironmentPropertySetObject, CreateEnvironmentPropertySetObject method [Remote Desktop Services], CreateEnvironmentPropertySetObject method [Remote Desktop Services],ITsSbProvider interface, ITsSbProvider interface [Remote Desktop Services],CreateEnvironmentPropertySetObject method, ITsSbProvider.CreateEnvironmentPropertySetObject, ITsSbProvider::CreateEnvironmentPropertySetObject, sbtsv/ITsSbProvider::CreateEnvironmentPropertySetObject, termserv.itssbprovider_createenvironmentpropertysetobject
 ms.topic: method
-f1_keywords: 
- - "sbtsv/ITsSbProvider.CreateEnvironmentPropertySetObject"
+f1_keywords:
+- sbtsv/ITsSbProvider.CreateEnvironmentPropertySetObject
 dev_langs:
- - c++
+- c++
 req.header: sbtsv.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - sbtsv.h
+- sbtsv.h
 api_name:
- - ITsSbProvider.CreateEnvironmentPropertySetObject
+- ITsSbProvider.CreateEnvironmentPropertySetObject
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationProxyFactory.CreateProvider
 title: IUIAutomationProxyFactory::CreateProvider (uiautomationclient.h)
-
 description: Creates a proxy object that provides Microsoft UI Automation support for a UI element.
 old-location: winauto\uiauto_IUIAutomationProxyFactory_CreateProvider.htm
 tech.root: WinAuto
 ms.assetid: c7ac43d3-443f-42cf-98d5-e558034c9d40
-
 ms.date: 12/05/2018
 ms.keywords: CreateProvider, CreateProvider method [Windows Accessibility], CreateProvider method [Windows Accessibility],IUIAutomationProxyFactory interface, IUIAutomationProxyFactory interface [Windows Accessibility],CreateProvider method, IUIAutomationProxyFactory.CreateProvider, IUIAutomationProxyFactory::CreateProvider, uiauto.uiauto_IUIAutomationProxyFactory_CreateProvider, uiauto_IUIAutomationProxyFactory_CreateProvider, uiautomationclient/IUIAutomationProxyFactory::CreateProvider, winauto.uiauto_IUIAutomationProxyFactory_CreateProvider
 ms.topic: method
-f1_keywords: 
- - "uiautomationclient/IUIAutomationProxyFactory.CreateProvider"
+f1_keywords:
+- uiautomationclient/IUIAutomationProxyFactory.CreateProvider
 dev_langs:
- - c++
+- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationClient.h
+- UIAutomationClient.h
 api_name:
- - IUIAutomationProxyFactory.CreateProvider
+- IUIAutomationProxyFactory.CreateProvider
 targetos: Windows
 req.typenames: 
 req.redist: 

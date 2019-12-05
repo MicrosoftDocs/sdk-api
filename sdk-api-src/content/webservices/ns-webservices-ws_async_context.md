@@ -1,19 +1,17 @@
 ---
 UID: NS:webservices._WS_ASYNC_CONTEXT
 title: WS_ASYNC_CONTEXT (webservices.h)
-
 description: Used with the Async Model to specify the asynchronous callback and a pointer which will be passed to the asynchronous callback.
 old-location: wsw\ws_async_context.htm
 tech.root: wsw
 ms.assetid: 3c9ffbef-2f5b-42b0-96b1-f17f0ab98ca4
-
 ms.date: 12/05/2018
 ms.keywords: WS_ASYNC_CONTEXT, WS_ASYNC_CONTEXT structure [Web Services for Windows], webservices/WS_ASYNC_CONTEXT, wsw.ws_async_context
 ms.topic: struct
-f1_keywords: 
- - "webservices/WS_ASYNC_CONTEXT"
+f1_keywords:
+- webservices/WS_ASYNC_CONTEXT
 dev_langs:
- - c++
+- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WebServices.h
+- WebServices.h
 api_name:
- - WS_ASYNC_CONTEXT
+- WS_ASYNC_CONTEXT
 targetos: Windows
 req.typenames: WS_ASYNC_CONTEXT
 req.redist: 

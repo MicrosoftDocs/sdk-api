@@ -1,19 +1,17 @@
 ---
 UID: NF:unknwnbase.IUnknown_AddRef_Proxy
 title: IUnknown_AddRef_Proxy function (unknwnbase.h)
-
 description: The IUnknown_AddRef_Proxy function implements the AddRef method for all interface proxies.
 old-location: rpc\iunknown_addref_proxy.htm
 tech.root: Rpc
 ms.assetid: a95efffc-1761-40ae-80d2-c2a4ceddab6c
-
 ms.date: 12/05/2018
 ms.keywords: IUnknown_AddRef_Proxy, IUnknown_AddRef_Proxy function [RPC], rpc.iunknown_addref_proxy, unknwnbase/IUnknown_AddRef_Proxy
 ms.topic: function
-f1_keywords: 
- - "unknwnbase/IUnknown_AddRef_Proxy"
+f1_keywords:
+- unknwnbase/IUnknown_AddRef_Proxy
 dev_langs:
- - c++
+- c++
 req.header: unknwnbase.h
 req.include-header: Unknwn.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: RpcRT4.lib
 req.dll: RpcRT4.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - RpcRT4.dll
+- RpcRT4.dll
 api_name:
- - IUnknown_AddRef_Proxy
+- IUnknown_AddRef_Proxy
 targetos: Windows
 req.typenames: 
 req.redist: 

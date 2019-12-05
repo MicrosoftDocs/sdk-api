@@ -1,19 +1,17 @@
 ---
 UID: NN:shobjidl_core.IPersistFolder
 title: IPersistFolder (shobjidl_core.h)
-
 description: Exposes a method that initializes Shell folder objects.
 old-location: shell\IPersistFolder.htm
 tech.root: shell
 ms.assetid: d37d4ca5-93a0-4090-b657-9b23d5df875c
-
 ms.date: 12/05/2018
 ms.keywords: IPersistFolder, IPersistFolder interface [Windows Shell], IPersistFolder interface [Windows Shell],described, _win32_IPersistFolder, _win32_IPersistFolder_cpp, shell.IPersistFolder, shobjidl_core/IPersistFolder
 ms.topic: interface
-f1_keywords: 
- - "shobjidl_core/IPersistFolder"
+f1_keywords:
+- shobjidl_core/IPersistFolder
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Shell32.dll (version 4.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - IPersistFolder
+- IPersistFolder
 targetos: Windows
 req.typenames: 
 req.redist: 

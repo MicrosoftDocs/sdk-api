@@ -1,19 +1,17 @@
 ---
 UID: NF:dcomp.IDCompositionDevice3.CreateShadowEffect
 title: IDCompositionDevice3::CreateShadowEffect (dcomp.h)
-
 description: Creates an instance of IDCompositionShadowEffect.
 old-location: directcomp\idcompositiondevice3_createshadoweffect.htm
 tech.root: directcomp
 ms.assetid: C0A2B599-F061-4312-BDBC-96DF724F02D8
-
 ms.date: 12/05/2018
 ms.keywords: CreateShadowEffect, CreateShadowEffect method [DirectComposition], CreateShadowEffect method [DirectComposition],IDCompositionDevice3 interface, IDCompositionDevice3 interface [DirectComposition],CreateShadowEffect method, IDCompositionDevice3.CreateShadowEffect, IDCompositionDevice3::CreateShadowEffect, dcomp/IDCompositionDevice3::CreateShadowEffect, directcomp.idcompositiondevice3_createshadoweffect
 ms.topic: method
-f1_keywords: 
- - "dcomp/IDCompositionDevice3.CreateShadowEffect"
+f1_keywords:
+- dcomp/IDCompositionDevice3.CreateShadowEffect
 dev_langs:
- - c++
+- c++
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dcomp.lib
 req.dll: Dcomp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dcomp.dll
+- dcomp.dll
 api_name:
- - IDCompositionDevice3.CreateShadowEffect
+- IDCompositionDevice3.CreateShadowEffect
 targetos: Windows
 req.typenames: 
 req.redist: 

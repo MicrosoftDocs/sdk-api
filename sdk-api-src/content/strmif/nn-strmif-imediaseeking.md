@@ -1,19 +1,17 @@
 ---
 UID: NN:strmif.IMediaSeeking
 title: IMediaSeeking (strmif.h)
-
 description: The IMediaSeeking interface contains methods for seeking to a position within a stream, and for setting the playback rate.
 old-location: dshow\imediaseeking.htm
 tech.root: DirectShow
 ms.assetid: 32adad53-d1ac-495f-9347-7bdd4ae4b78d
-
 ms.date: 12/05/2018
 ms.keywords: IMediaSeeking, IMediaSeeking interface [DirectShow], IMediaSeeking interface [DirectShow],described, IMediaSeekingInterface, dshow.imediaseeking, strmif/IMediaSeeking
 ms.topic: interface
-f1_keywords: 
- - "strmif/IMediaSeeking"
+f1_keywords:
+- strmif/IMediaSeeking
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IMediaSeeking
+- IMediaSeeking
 targetos: Windows
 req.typenames: 
 req.redist: 

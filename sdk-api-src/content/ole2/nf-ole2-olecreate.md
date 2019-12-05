@@ -1,19 +1,17 @@
 ---
 UID: NF:ole2.OleCreate
 title: OleCreate function (ole2.h)
-
 description: Creates an embedded object identified by a CLSID. You use it typically to implement the menu item that allows the end user to insert a new object.
 old-location: com\olecreate.htm
 tech.root: com
 ms.assetid: 00b7edd2-8e2e-4e0a-91a6-d966f6c8d456
-
 ms.date: 12/05/2018
 ms.keywords: OleCreate, OleCreate function [COM], _ole_OleCreate, com.olecreate, ole/OleCreate
 ms.topic: function
-f1_keywords: 
- - "ole2/OleCreate"
+f1_keywords:
+- ole2/OleCreate
 dev_langs:
- - c++
+- c++
 req.header: ole2.h
 req.include-header: Ole2.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Ole32.lib
 req.dll: Ole32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ole32.dll
+- Ole32.dll
 api_name:
- - OleCreate
+- OleCreate
 targetos: Windows
 req.typenames: 
 req.redist: 

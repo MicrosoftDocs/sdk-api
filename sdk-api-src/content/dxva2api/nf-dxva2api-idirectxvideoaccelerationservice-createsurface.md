@@ -1,19 +1,17 @@
 ---
 UID: NF:dxva2api.IDirectXVideoAccelerationService.CreateSurface
 title: IDirectXVideoAccelerationService::CreateSurface (dxva2api.h)
-
 description: Creates a DirectX Video Acceleration (DXVA) video processor or DXVA decoder render target.
 old-location: mf\idirectxvideoaccelerationservice_createsurface.htm
 tech.root: medfound
 ms.assetid: 34ed2029-7c79-45ce-962d-df4970babb23
-
 ms.date: 12/05/2018
 ms.keywords: 34ed2029-7c79-45ce-962d-df4970babb23, CreateSurface, CreateSurface method [Media Foundation], CreateSurface method [Media Foundation],IDirectXVideoAccelerationService interface, DXVA2_VideoDecoderRenderTarget, DXVA2_VideoProcessorRenderTarget, DXVA2_VideoSoftwareRenderTarget, IDirectXVideoAccelerationService interface [Media Foundation],CreateSurface method, IDirectXVideoAccelerationService.CreateSurface, IDirectXVideoAccelerationService::CreateSurface, dxva2api/IDirectXVideoAccelerationService::CreateSurface, mf.idirectxvideoaccelerationservice_createsurface
 ms.topic: method
-f1_keywords: 
- - "dxva2api/IDirectXVideoAccelerationService.CreateSurface"
+f1_keywords:
+- dxva2api/IDirectXVideoAccelerationService.CreateSurface
 dev_langs:
- - c++
+- c++
 req.header: dxva2api.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dxva2api.h
+- dxva2api.h
 api_name:
- - IDirectXVideoAccelerationService.CreateSurface
+- IDirectXVideoAccelerationService.CreateSurface
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NN:dxva2api.IDirect3DDeviceManager9
 title: IDirect3DDeviceManager9 (dxva2api.h)
-
 description: Enables two threads to share the same Direct3D 9 device, and provides access to the DirectX Video Acceleration (DXVA) features of the device.
 old-location: mf\idirect3ddevicemanager9.htm
 tech.root: medfound
 ms.assetid: e661e666-dc51-4a71-9ecd-62a667bb217d
-
 ms.date: 12/05/2018
 ms.keywords: IDirect3DDeviceManager9, IDirect3DDeviceManager9 interface [Media Foundation], IDirect3DDeviceManager9 interface [Media Foundation],described, dxva2api/IDirect3DDeviceManager9, e661e666-dc51-4a71-9ecd-62a667bb217d, mf.idirect3ddevicemanager9
 ms.topic: interface
-f1_keywords: 
- - "dxva2api/IDirect3DDeviceManager9"
+f1_keywords:
+- dxva2api/IDirect3DDeviceManager9
 dev_langs:
- - c++
+- c++
 req.header: dxva2api.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dxva2api.h
+- dxva2api.h
 api_name:
- - IDirect3DDeviceManager9
+- IDirect3DDeviceManager9
 targetos: Windows
 req.typenames: 
 req.redist: 

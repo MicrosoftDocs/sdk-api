@@ -1,19 +1,17 @@
 ---
 UID: NF:netlistmgr.INetworkEvents.NetworkPropertyChanged
 title: INetworkEvents::NetworkPropertyChanged (netlistmgr.h)
-
 description: The NetworkPropertyChanged method is called when a network property change is detected.
 old-location: nla\inetworkevents_networkpropertychanged.htm
 tech.root: nla
 ms.assetid: a84f49ee-9efd-450e-a6e6-3f140330a9d0
-
 ms.date: 12/05/2018
 ms.keywords: INetworkEvents interface [Network Awareness],NetworkPropertyChanged method, INetworkEvents.NetworkPropertyChanged, INetworkEvents::NetworkPropertyChanged, NetworkPropertyChanged, NetworkPropertyChanged method [Network Awareness], NetworkPropertyChanged method [Network Awareness],INetworkEvents interface, netlistmgr/INetworkEvents::NetworkPropertyChanged, nla.inetworkevents_networkpropertychanged
 ms.topic: method
-f1_keywords: 
- - "netlistmgr/INetworkEvents.NetworkPropertyChanged"
+f1_keywords:
+- netlistmgr/INetworkEvents.NetworkPropertyChanged
 dev_langs:
- - c++
+- c++
 req.header: netlistmgr.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Netlistmgr.h
+- Netlistmgr.h
 api_name:
- - INetworkEvents.NetworkPropertyChanged
+- INetworkEvents.NetworkPropertyChanged
 targetos: Windows
 req.typenames: 
 req.redist: 

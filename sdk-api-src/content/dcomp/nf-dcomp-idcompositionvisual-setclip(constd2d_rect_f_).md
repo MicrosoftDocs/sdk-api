@@ -1,19 +1,17 @@
 ---
 UID: NF:dcomp.IDCompositionVisual.SetClip(const D2D_RECT_F &)
 title: IDCompositionVisual::SetClip (dcomp.h)
-
 description: Sets the Clip property of this visual to the specified rectangle.
 old-location: directcomp\idcompositionvisual_setclip_const_d2d_rect_f_.htm
 tech.root: directcomp
 ms.assetid: 7F01EB25-3A44-416F-A926-D185F2FD44EC
-
 ms.date: 12/05/2018
 ms.keywords: IDCompositionVisual interface [DirectComposition],SetClip method, IDCompositionVisual.SetClip, IDCompositionVisual::SetClip, IDCompositionVisual::SetClip(const D2D_RECT_F &), IDCompositionVisual::SetClip(const D2D_RECT_F&), SetClip, SetClip method [DirectComposition], SetClip method [DirectComposition],IDCompositionVisual interface, dcomp/IDCompositionVisual::SetClip, directcomp.idcompositionvisual_setclip_const_d2d_rect_f_
 ms.topic: method
-f1_keywords: 
- - "dcomp/IDCompositionVisual.SetClip"
+f1_keywords:
+- dcomp/IDCompositionVisual.SetClip
 dev_langs:
- - c++
+- c++
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dcomp.lib
 req.dll: Dcomp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dcomp.dll
+- Dcomp.dll
 api_name:
- - IDCompositionVisual.SetClip
+- IDCompositionVisual.SetClip
 targetos: Windows
 req.typenames: 
 req.redist: 

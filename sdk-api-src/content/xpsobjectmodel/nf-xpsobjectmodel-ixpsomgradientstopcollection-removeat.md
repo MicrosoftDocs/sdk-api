@@ -1,19 +1,17 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMGradientStopCollection.RemoveAt
 title: IXpsOMGradientStopCollection::RemoveAt (xpsobjectmodel.h)
-
 description: Removes and releases an IXpsOMGradientStop interface pointer from a specified location in the collection.
 old-location: xps\ixpsomgradientstopcollection_removeat.htm
 tech.root: printdocs
 ms.assetid: dbca41b1-5510-484d-80a1-c8d260cb5c39
-
 ms.date: 12/05/2018
 ms.keywords: IXpsOMGradientStopCollection interface [XPS Documents and Packaging],RemoveAt method, IXpsOMGradientStopCollection.RemoveAt, IXpsOMGradientStopCollection::RemoveAt, RemoveAt, RemoveAt method [XPS Documents and Packaging], RemoveAt method [XPS Documents and Packaging],IXpsOMGradientStopCollection interface, xps.ixpsomgradientstopcollection_removeat, xpsobjectmodel/IXpsOMGradientStopCollection::RemoveAt
 ms.topic: method
-f1_keywords: 
- - "xpsobjectmodel/IXpsOMGradientStopCollection.RemoveAt"
+f1_keywords:
+- xpsobjectmodel/IXpsOMGradientStopCollection.RemoveAt
 dev_langs:
- - c++
+- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsobjectmodel.h
+- xpsobjectmodel.h
 api_name:
- - IXpsOMGradientStopCollection.RemoveAt
+- IXpsOMGradientStopCollection.RemoveAt
 targetos: Windows
 req.typenames: 
 req.redist: 

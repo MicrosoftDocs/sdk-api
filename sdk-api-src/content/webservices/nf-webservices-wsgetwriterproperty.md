@@ -1,19 +1,17 @@
 ---
 UID: NF:webservices.WsGetWriterProperty
 title: WsGetWriterProperty function (webservices.h)
-
 description: Retrieves a specified XML Writer property. The property to retrieve is identified by a WS_XML WRITER_PROPERTY_ID input parameter.
 old-location: wsw\wsgetwriterproperty.htm
 tech.root: wsw
 ms.assetid: 1167662f-0383-44bb-a7e1-1ec12539903e
-
 ms.date: 12/05/2018
 ms.keywords: WsGetWriterProperty, WsGetWriterProperty function [Web Services for Windows], webservices/WsGetWriterProperty, wsw.wsgetwriterproperty
 ms.topic: function
-f1_keywords: 
- - "webservices/WsGetWriterProperty"
+f1_keywords:
+- webservices/WsGetWriterProperty
 dev_langs:
- - c++
+- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: WebServices.lib
 req.dll: WebServices.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - WebServices.dll
+- WebServices.dll
 api_name:
- - WsGetWriterProperty
+- WsGetWriterProperty
 targetos: Windows
 req.typenames: 
 req.redist: 

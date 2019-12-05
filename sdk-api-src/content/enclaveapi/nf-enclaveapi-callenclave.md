@@ -1,19 +1,17 @@
 ---
 UID: NF:enclaveapi.CallEnclave
 title: CallEnclave function (enclaveapi.h)
-
 description: Calls a function within an enclave.
 old-location: base\callenclave.htm
 tech.root: Memory
 ms.assetid: 4C495245-381F-4561-970D-5FCEC105276B
-
 ms.date: 12/05/2018
 ms.keywords: CallEnclave, CallEnclave function, base.callenclave, enclaveapi/CallEnclave
 ms.topic: function
-f1_keywords: 
- - "enclaveapi/CallEnclave"
+f1_keywords:
+- enclaveapi/CallEnclave
 dev_langs:
- - c++
+- c++
 req.header: enclaveapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Vertdll.lib
 req.dll: Vertdll.dll; Api-ms-win-core-enclave-l1-1-0.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Vertdll.dll
- - api-ms-win-core-enclave-l1-1-0.dll
+- Vertdll.dll
+- api-ms-win-core-enclave-l1-1-0.dll
 api_name:
- - CallEnclave
+- CallEnclave
 targetos: Windows
 req.typenames: 
 req.redist: 

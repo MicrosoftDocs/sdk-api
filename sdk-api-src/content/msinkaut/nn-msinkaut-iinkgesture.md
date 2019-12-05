@@ -1,19 +1,17 @@
 ---
 UID: NN:msinkaut.IInkGesture
 title: IInkGesture (msinkaut.h)
-
 description: Represents the ability to query particular properties of a gesture returned from a gesture recognition.
 old-location: tablet\iinkgesture.htm
 tech.root: tablet
 ms.assetid: 87a1db34-371e-4c02-a470-55f35dfbf4ab
-
 ms.date: 12/05/2018
 ms.keywords: 87a1db34-371e-4c02-a470-55f35dfbf4ab, IInkGesture, IInkGesture interface [Tablet PC], IInkGesture interface [Tablet PC],described, msinkaut/IInkGesture, tablet.iinkgesture
 ms.topic: interface
-f1_keywords: 
- - "msinkaut/IInkGesture"
+f1_keywords:
+- msinkaut/IInkGesture
 dev_langs:
- - c++
+- c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: InkObj.dll
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - InkObj.dll
- - InkObj.dll.dll
+- InkObj.dll
+- InkObj.dll.dll
 api_name:
- - IInkGesture
+- IInkGesture
 targetos: Windows
 req.typenames: 
 req.redist: 

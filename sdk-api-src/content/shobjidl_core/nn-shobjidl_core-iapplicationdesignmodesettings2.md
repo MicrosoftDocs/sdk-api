@@ -1,19 +1,17 @@
 ---
 UID: NN:shobjidl_core.IApplicationDesignModeSettings2
 title: IApplicationDesignModeSettings2 (shobjidl_core.h)
-
 description: Enables development tool applications to dynamically control system and user states, such as native display resolution, device scale factor, and application view layout, reported to Windows Store apps for the purpose of testing Windows Store apps running in design mode for a wide range of form factors without the need for the actual hardware. Also enables testing of changes in normally user-controlled state to test Windows Store apps under a variety of scenarios.
 old-location: shell\IApplicationDesignModeSettings2.htm
 tech.root: shell
 ms.assetid: 1F630AFF-3C73-461C-AE41-D597F6FF42D8
-
 ms.date: 12/05/2018
 ms.keywords: IApplicationDesignModeSettings2, IApplicationDesignModeSettings2 interface [Windows Shell], IApplicationDesignModeSettings2 interface [Windows Shell],described, shell.IApplicationDesignModeSettings2, shobjidl_core/IApplicationDesignModeSettings2
 ms.topic: interface
-f1_keywords: 
- - "shobjidl_core/IApplicationDesignModeSettings2"
+f1_keywords:
+- shobjidl_core/IApplicationDesignModeSettings2
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Twinapi.lib
 req.dll: Twinapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - twinapi.dll
+- twinapi.dll
 api_name:
- - IApplicationDesignModeSettings2
+- IApplicationDesignModeSettings2
 targetos: Windows
 req.typenames: 
 req.redist: 

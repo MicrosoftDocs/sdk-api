@@ -1,19 +1,17 @@
 ---
 UID: NF:wmsdkidl.IWMDRMWriter.GenerateKeyID
 title: IWMDRMWriter::GenerateKeyID (wmsdkidl.h)
-
 description: The GenerateKeyID method generates a DRM key ID.
 old-location: wmformat\iwmdrmwriter_generatekeyid.htm
 tech.root: wmformat
 ms.assetid: 11eff02d-af0a-4047-80fd-d92be2f40d86
-
 ms.date: 12/05/2018
 ms.keywords: GenerateKeyID, GenerateKeyID method [windows Media Format], GenerateKeyID method [windows Media Format],IWMDRMWriter interface, IWMDRMWriter interface [windows Media Format],GenerateKeyID method, IWMDRMWriter.GenerateKeyID, IWMDRMWriter::GenerateKeyID, IWMDRMWriterGenerateKeyID, wmformat.iwmdrmwriter_generatekeyid, wmsdkidl/IWMDRMWriter::GenerateKeyID
 ms.topic: method
-f1_keywords: 
- - "wmsdkidl/IWMDRMWriter.GenerateKeyID"
+f1_keywords:
+- wmsdkidl/IWMDRMWriter.GenerateKeyID
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wmvcore.lib
- - Wmvcore.dll
- - WMStubDRM.lib
- - WMStubDRM.dll
+- Wmvcore.lib
+- Wmvcore.dll
+- WMStubDRM.lib
+- WMStubDRM.dll
 api_name:
- - IWMDRMWriter.GenerateKeyID
+- IWMDRMWriter.GenerateKeyID
 targetos: Windows
 req.typenames: 
 req.redist: 

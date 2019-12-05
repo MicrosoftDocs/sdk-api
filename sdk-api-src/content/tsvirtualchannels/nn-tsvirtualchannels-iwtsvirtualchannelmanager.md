@@ -1,19 +1,17 @@
 ---
 UID: NN:tsvirtualchannels.IWTSVirtualChannelManager
 title: IWTSVirtualChannelManager (tsvirtualchannels.h)
-
 description: Manages all Remote Desktop Connection (RDC) client plug-ins and dynamic virtual channel (DVC) listeners.
 old-location: termserv\iwtsvirtualchannelmanager.htm
 tech.root: TermServ
 ms.assetid: 289f76b8-dbb5-4f80-98e9-f39f7946494b
-
 ms.date: 12/05/2018
 ms.keywords: IWTSVirtualChannelManager, IWTSVirtualChannelManager interface [Remote Desktop Services], IWTSVirtualChannelManager interface [Remote Desktop Services],described, termserv.iwtsvirtualchannelmanager, tsvirtualchannels/IWTSVirtualChannelManager
 ms.topic: interface
-f1_keywords: 
- - "tsvirtualchannels/IWTSVirtualChannelManager"
+f1_keywords:
+- tsvirtualchannels/IWTSVirtualChannelManager
 dev_langs:
- - c++
+- c++
 req.header: tsvirtualchannels.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - TsVirtualChannels.h
+- TsVirtualChannels.h
 api_name:
- - IWTSVirtualChannelManager
+- IWTSVirtualChannelManager
 targetos: Windows
 req.typenames: 
 req.redist: 

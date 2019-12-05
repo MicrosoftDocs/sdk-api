@@ -1,19 +1,17 @@
 ---
 UID: NS:strmif._PinInfo
 title: PIN_INFO (strmif.h)
-
 description: The PIN_INFO structure contains information about a pin.
 old-location: dshow\pin_info.htm
 tech.root: DirectShow
 ms.assetid: 67a837f3-8b81-4651-a0fa-fed7b61e71c2
-
 ms.date: 12/05/2018
 ms.keywords: PIN_INFO, PIN_INFO structure [DirectShow], PIN_INFOStructure, dshow.pin_info, strmif/PIN_INFO
 ms.topic: struct
-f1_keywords: 
- - "strmif/PIN_INFO"
+f1_keywords:
+- strmif/PIN_INFO
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - strmif.h
+- strmif.h
 api_name:
- - PIN_INFO
+- PIN_INFO
 targetos: Windows
 req.typenames: PIN_INFO
 req.redist: 

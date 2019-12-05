@@ -1,19 +1,17 @@
 ---
 UID: NS:winioctl._TXFS_LIST_TRANSACTIONS
 title: TXFS_LIST_TRANSACTIONS
-
 description: Contains a list of transactions.
 old-location: fs\txfs_list_transactions.htm
 tech.root: FileIO
 ms.assetid: 4c5ec2eb-f0d9-4603-96d5-1a53e56e97b8
-
 ms.date: 12/05/2018
 ms.keywords: '*PTXFS_LIST_TRANSACTIONS, PTXFS_LIST_TRANSACTIONS, PTXFS_LIST_TRANSACTIONS structure pointer [Files], TXFS_LIST_TRANSACTIONS, TXFS_LIST_TRANSACTIONS structure [Files], fs.txfs_list_transactions, winioctl/PTXFS_LIST_TRANSACTIONS, winioctl/TXFS_LIST_TRANSACTIONS'
 ms.topic: struct
 f1_keywords:
 - winioctl/TXFS_LIST_TRANSACTIONS
 dev_langs:
- - c++
+- c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

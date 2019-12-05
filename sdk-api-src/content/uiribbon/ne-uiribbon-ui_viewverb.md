@@ -1,19 +1,17 @@
 ---
 UID: NE:uiribbon.UI_VIEWVERB
 title: UI_VIEWVERB (uiribbon.h)
-
 description: Specifies values that identify the type of action to complete on a Ribbon framework View.
 old-location: windowsribbon\windowsribbon_ui_viewverb.htm
 tech.root: windowsribbon
 ms.assetid: VS|scenicintent|~\scenicintent\reference\enums\ui_view_verb.htm
-
 ms.date: 12/05/2018
 ms.keywords: UI_VIEWVERB, UI_VIEWVERB enumeration [Windows Ribbon], UI_VIEWVERB_CREATE, UI_VIEWVERB_DESTROY, UI_VIEWVERB_ERROR, UI_VIEWVERB_SIZE, scenicintent_UI_VIEWVERB, uiribbon/UI_VIEWVERB, uiribbon/UI_VIEWVERB_CREATE, uiribbon/UI_VIEWVERB_DESTROY, uiribbon/UI_VIEWVERB_ERROR, uiribbon/UI_VIEWVERB_SIZE, windowsribbon.windowsribbon_ui_viewverb
 ms.topic: enum
-f1_keywords: 
- - "uiribbon/UI_VIEWVERB"
+f1_keywords:
+- uiribbon/UI_VIEWVERB
 dev_langs:
- - c++
+- c++
 req.header: uiribbon.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Uiribbon.h
+- Uiribbon.h
 api_name:
- - UI_VIEWVERB
+- UI_VIEWVERB
 targetos: Windows
 req.typenames: UI_VIEWVERB
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:imapi2fs.IFsiDirectoryItem.get__NewEnum
 title: IFsiDirectoryItem::get__NewEnum (imapi2fs.h)
-
 description: Retrieves a list of child items contained within the directory in the file system image.
 old-location: imapi\ifsidirectoryitem_get__newenum.htm
 tech.root: imapi
 ms.assetid: 08ffc4dd-7001-4a89-a58e-a12e21600172
-
 ms.date: 12/05/2018
 ms.keywords: IFsiDirectoryItem interface [IMAPI],get__NewEnum method, IFsiDirectoryItem.get__NewEnum, IFsiDirectoryItem::get__NewEnum, get__NewEnum, get__NewEnum method [IMAPI], get__NewEnum method [IMAPI],IFsiDirectoryItem interface, imapi.ifsidirectoryitem_get__newenum, imapi2fs/IFsiDirectoryItem::get__NewEnum
 ms.topic: method
-f1_keywords: 
- - "imapi2fs/IFsiDirectoryItem.get__NewEnum"
+f1_keywords:
+- imapi2fs/IFsiDirectoryItem.get__NewEnum
 dev_langs:
- - c++
+- c++
 req.header: imapi2fs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - imapi2fs.h
+- imapi2fs.h
 api_name:
- - IFsiDirectoryItem.get__NewEnum
+- IFsiDirectoryItem.get__NewEnum
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NS:mmreg.mpeglayer3waveformat_tag
 title: MPEGLAYER3WAVEFORMAT (mmreg.h)
-
 description: The MPEGLAYER3WAVEFORMAT structure describes an MPEG Audio Layer-3 (MP3) audio format.
 old-location: dshow\mpeglayer3waveformat.htm
 tech.root: DirectShow
 ms.assetid: eca403a0-01a2-4290-951f-a7d516a58b9e
-
 ms.date: 12/05/2018
-ms.keywords: "*LPMPEGLAYER3WAVEFORMAT, *NPMPEGLAYER3WAVEFORMAT, *PMPEGLAYER3WAVEFORMAT, MPEGLAYER3WAVEFORMAT, MPEGLAYER3WAVEFORMAT structure [DirectShow], MPEGLAYER3WAVEFORMATStructure, MPEGLAYER3_FLAG_PADDING_ISO, MPEGLAYER3_FLAG_PADDING_OFF, MPEGLAYER3_FLAG_PADDING_ON, dshow.mpeglayer3waveformat, mmreg/MPEGLAYER3WAVEFORMAT, mpeglayer3waveformat_tag"
+ms.keywords: '*LPMPEGLAYER3WAVEFORMAT, *NPMPEGLAYER3WAVEFORMAT, *PMPEGLAYER3WAVEFORMAT, MPEGLAYER3WAVEFORMAT, MPEGLAYER3WAVEFORMAT structure [DirectShow], MPEGLAYER3WAVEFORMATStructure, MPEGLAYER3_FLAG_PADDING_ISO, MPEGLAYER3_FLAG_PADDING_OFF, MPEGLAYER3_FLAG_PADDING_ON, dshow.mpeglayer3waveformat, mmreg/MPEGLAYER3WAVEFORMAT, mpeglayer3waveformat_tag'
 ms.topic: struct
-f1_keywords: 
- - "mmreg/MPEGLAYER3WAVEFORMAT"
+f1_keywords:
+- mmreg/MPEGLAYER3WAVEFORMAT
 dev_langs:
- - c++
+- c++
 req.header: mmreg.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - mmreg.h
+- mmreg.h
 api_name:
- - MPEGLAYER3WAVEFORMAT
+- MPEGLAYER3WAVEFORMAT
 targetos: Windows
 req.typenames: MPEGLAYER3WAVEFORMAT
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NE:authz.__unnamed_enum_1
 title: AUTHZ_SID_OPERATION (authz.h)
-
 description: Indicates the type of SID operations that can be made by a call to the AuthzModifySids function.
 old-location: security\authz_sid_operation.htm
 tech.root: SecAuthZ
 ms.assetid: C312BE7D-DA1B-47FE-80BA-7506B9A26E9E
-
 ms.date: 12/05/2018
-ms.keywords: "*PAUTHZ_SID_OPERATION, AUTHZ_SID_OPERATION, AUTHZ_SID_OPERATION enumeration [Security], AUTHZ_SID_OPERATION_ADD, AUTHZ_SID_OPERATION_DELETE, AUTHZ_SID_OPERATION_NONE, AUTHZ_SID_OPERATION_REPLACE, AUTHZ_SID_OPERATION_REPLACE_ALL, authz/AUTHZ_SID_OPERATION, authz/AUTHZ_SID_OPERATION_ADD, authz/AUTHZ_SID_OPERATION_DELETE, authz/AUTHZ_SID_OPERATION_NONE, authz/AUTHZ_SID_OPERATION_REPLACE, authz/AUTHZ_SID_OPERATION_REPLACE_ALL, security.authz_sid_operation"
+ms.keywords: '*PAUTHZ_SID_OPERATION, AUTHZ_SID_OPERATION, AUTHZ_SID_OPERATION enumeration [Security], AUTHZ_SID_OPERATION_ADD, AUTHZ_SID_OPERATION_DELETE, AUTHZ_SID_OPERATION_NONE, AUTHZ_SID_OPERATION_REPLACE, AUTHZ_SID_OPERATION_REPLACE_ALL, authz/AUTHZ_SID_OPERATION, authz/AUTHZ_SID_OPERATION_ADD, authz/AUTHZ_SID_OPERATION_DELETE, authz/AUTHZ_SID_OPERATION_NONE, authz/AUTHZ_SID_OPERATION_REPLACE, authz/AUTHZ_SID_OPERATION_REPLACE_ALL, security.authz_sid_operation'
 ms.topic: enum
-f1_keywords: 
- - "authz/AUTHZ_SID_OPERATION"
+f1_keywords:
+- authz/AUTHZ_SID_OPERATION
 dev_langs:
- - c++
+- c++
 req.header: authz.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Authz.h
+- Authz.h
 api_name:
- - AUTHZ_SID_OPERATION
+- AUTHZ_SID_OPERATION
 targetos: Windows
 req.typenames: AUTHZ_SID_OPERATION, *PAUTHZ_SID_OPERATION
 req.redist: 

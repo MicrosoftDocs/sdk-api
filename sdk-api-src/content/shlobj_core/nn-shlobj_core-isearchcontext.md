@@ -1,19 +1,17 @@
 ---
 UID: NN:shlobj_core.ISearchContext
 title: ISearchContext (shlobj_core.h)
-
 description: Exposes methods that channel customization information to the search hooks.
 old-location: shell\ISearchContext.htm
 tech.root: shell
 ms.assetid: 95ac188a-f27f-4e09-9de3-a822bbbd6e8e
-
 ms.date: 12/05/2018
 ms.keywords: ISearchContext, ISearchContext interface [Windows Shell], ISearchContext interface [Windows Shell],described, _shell_ISearchContext, shell.ISearchContext, shlobj_core/ISearchContext
 ms.topic: interface
-f1_keywords: 
- - "shlobj_core/ISearchContext"
+f1_keywords:
+- shlobj_core/ISearchContext
 dev_langs:
- - c++
+- c++
 req.header: shlobj_core.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Shell32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - ISearchContext
+- ISearchContext
 targetos: Windows
 req.typenames: 
 req.redist: 

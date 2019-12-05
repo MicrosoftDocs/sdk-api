@@ -1,19 +1,17 @@
 ---
 UID: NF:msinkaut.IInkPicture.put_Selection
 title: IInkPicture::put_Selection (msinkaut.h)
-
 description: Gets or sets theInkStrokes collection that is currently selected inside the InkOverlay object or the InkPicture control.
 old-location: tablet\inkpicture_selection.htm
 tech.root: tablet
 ms.assetid: 29d54781-b83b-4733-95fe-86577958e0d1
-
 ms.date: 12/05/2018
 ms.keywords: 29d54781-b83b-4733-95fe-86577958e0d1, IInkPicture interface [Tablet PC],Selection property, IInkPicture.Selection, IInkPicture.put_Selection, IInkPicture::Selection, IInkPicture::get_Selection, IInkPicture::put_Selection, InkPicture.get_Selection, InkPicture.put_Selection, Selection property [Tablet PC], Selection property [Tablet PC],IInkPicture interface, msinkaut/IInkPicture::Selection, msinkaut/IInkPicture::get_Selection, msinkaut/IInkPicture::put_Selection, put_Selection, tablet.inkpicture_selection
 ms.topic: method
-f1_keywords: 
- - "msinkaut/IInkPicture.Selection"
+f1_keywords:
+- msinkaut/IInkPicture.Selection
 dev_langs:
- - c++
+- c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows
@@ -32,19 +30,19 @@ req.lib: InkObj.dll
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - InkObj.dll
- - InkObj.dll.dll
+- InkObj.dll
+- InkObj.dll.dll
 api_name:
- - IInkPicture.Selection
- - IInkPicture.get_Selection
- - IInkPicture.put_Selection
- - InkPicture.get_Selection
- - InkPicture.put_Selection
+- IInkPicture.Selection
+- IInkPicture.get_Selection
+- IInkPicture.put_Selection
+- InkPicture.get_Selection
+- InkPicture.put_Selection
 targetos: Windows
 req.typenames: 
 req.redist: 

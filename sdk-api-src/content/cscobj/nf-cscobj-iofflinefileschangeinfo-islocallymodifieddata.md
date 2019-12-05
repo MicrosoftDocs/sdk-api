@@ -1,19 +1,17 @@
 ---
 UID: NF:cscobj.IOfflineFilesChangeInfo.IsLocallyModifiedData
 title: IOfflineFilesChangeInfo::IsLocallyModifiedData (cscobj.h)
-
 description: Determines whether an item's data was modified while working offline.
 old-location: of\iofflinefileschangeinfo_islocallymodifieddata.htm
 tech.root: offlinefiles
 ms.assetid: d27999af-147e-4c1b-be89-58191292337d
-
 ms.date: 12/05/2018
 ms.keywords: IOfflineFilesChangeInfo interface [Offline Files],IsLocallyModifiedData method, IOfflineFilesChangeInfo.IsLocallyModifiedData, IOfflineFilesChangeInfo::IsLocallyModifiedData, IsLocallyModifiedData, IsLocallyModifiedData method [Offline Files], IsLocallyModifiedData method [Offline Files],IOfflineFilesChangeInfo interface, cscobj/IOfflineFilesChangeInfo::IsLocallyModifiedData, of.iofflinefileschangeinfo_islocallymodifieddata
 ms.topic: method
-f1_keywords: 
- - "cscobj/IOfflineFilesChangeInfo.IsLocallyModifiedData"
+f1_keywords:
+- cscobj/IOfflineFilesChangeInfo.IsLocallyModifiedData
 dev_langs:
- - c++
+- c++
 req.header: cscobj.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: CscSvc.dll; CscObj.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CscSvc.dll
- - CscObj.dll
+- CscSvc.dll
+- CscObj.dll
 api_name:
- - IOfflineFilesChangeInfo.IsLocallyModifiedData
+- IOfflineFilesChangeInfo.IsLocallyModifiedData
 targetos: Windows
 req.typenames: 
 req.redist: 

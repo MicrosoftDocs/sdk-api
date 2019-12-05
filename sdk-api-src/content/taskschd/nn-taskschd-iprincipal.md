@@ -1,19 +1,17 @@
 ---
 UID: NN:taskschd.IPrincipal
 title: IPrincipal (taskschd.h)
-
 description: Provides the security credentials for a principal.
 old-location: taskschd\iprincipal.htm
 tech.root: taskschd
 ms.assetid: 7aa22af2-7f0a-41c1-89c6-d813780e89bf
-
 ms.date: 12/05/2018
 ms.keywords: IPrincipal, IPrincipal interface [Task Scheduler], IPrincipal interface [Task Scheduler],described, taskschd.iprincipal, taskschd/IPrincipal
 ms.topic: interface
-f1_keywords: 
- - "taskschd/IPrincipal"
+f1_keywords:
+- taskschd/IPrincipal
 dev_langs:
- - c++
+- c++
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Taskschd.lib
 req.dll: Taskschd.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - taskschd.dll
+- taskschd.dll
 api_name:
- - IPrincipal
+- IPrincipal
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:webservices.WsReadArray
 title: WsReadArray function (webservices.h)
-
 description: Reads a series of elements from the reader and interprets their content according to the specified value type.
 old-location: wsw\wsreadarray.htm
 tech.root: wsw
 ms.assetid: ab545d74-7a61-48db-8c84-11017ee65605
-
 ms.date: 12/05/2018
 ms.keywords: WsReadArray, WsReadArray function [Web Services for Windows], webservices/WsReadArray, wsw.wsreadarray
 ms.topic: function
-f1_keywords: 
- - "webservices/WsReadArray"
+f1_keywords:
+- webservices/WsReadArray
 dev_langs:
- - c++
+- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: WebServices.lib
 req.dll: WebServices.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - WebServices.dll
+- WebServices.dll
 api_name:
- - WsReadArray
+- WsReadArray
 targetos: Windows
 req.typenames: 
 req.redist: 

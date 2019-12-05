@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d10effect.D3D10CreateEffectPoolFromMemory
 title: D3D10CreateEffectPoolFromMemory function (d3d10effect.h)
-
 description: Create an effect pool (or shared memory location), to enable sharing variables between effects.
 old-location: direct3d10\d3d10createeffectpoolfrommemory.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\d3d10createeffectpoolfrommemory.htm
-
 ms.date: 12/05/2018
 ms.keywords: D3D10CreateEffectPoolFromMemory, D3D10CreateEffectPoolFromMemory function [Direct3D 10], d3d10effect/D3D10CreateEffectPoolFromMemory, direct3d10.d3d10createeffectpoolfrommemory, fe38c43e-d460-f70d-5972-0c60fb75b532
 ms.topic: function
-f1_keywords: 
- - "d3d10effect/D3D10CreateEffectPoolFromMemory"
+f1_keywords:
+- d3d10effect/D3D10CreateEffectPoolFromMemory
 dev_langs:
- - c++
+- c++
 req.header: d3d10effect.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: D3D10.lib
 req.dll: D3D10.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - D3D10.dll
+- D3D10.dll
 api_name:
- - D3D10CreateEffectPoolFromMemory
+- D3D10CreateEffectPoolFromMemory
 targetos: Windows
 req.typenames: 
 req.redist: 

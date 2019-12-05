@@ -1,19 +1,17 @@
 ---
 UID: NF:msinkaut.IInkDisp.Clone
 title: IInkDisp::Clone (msinkaut.h)
-
 description: Creates a duplicate InkDisp object.
 old-location: tablet\inkdisp_clone.htm
 tech.root: tablet
 ms.assetid: f3ec6b42-2b5d-459e-ba09-88c27b125c40
-
 ms.date: 12/05/2018
 ms.keywords: Clone, Clone method [Tablet PC], Clone method [Tablet PC],IInkDisp interface, IInkDisp interface [Tablet PC],Clone method, IInkDisp.Clone, IInkDisp::Clone, f3ec6b42-2b5d-459e-ba09-88c27b125c40, msinkaut/IInkDisp::Clone, tablet.inkdisp_clone
 ms.topic: method
-f1_keywords: 
- - "msinkaut/IInkDisp.Clone"
+f1_keywords:
+- msinkaut/IInkDisp.Clone
 dev_langs:
- - c++
+- c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: InkObj.dll
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - InkObj.dll
- - InkObj.dll.dll
+- InkObj.dll
+- InkObj.dll.dll
 api_name:
- - IInkDisp.Clone
+- IInkDisp.Clone
 targetos: Windows
 req.typenames: 
 req.redist: 

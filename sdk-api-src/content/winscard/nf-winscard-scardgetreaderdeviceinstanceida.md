@@ -1,19 +1,17 @@
 ---
 UID: NF:winscard.SCardGetReaderDeviceInstanceIdA
 title: SCardGetReaderDeviceInstanceIdA function (winscard.h)
-
 description: Gets the device instance identifier of the card reader for the given reader name. This function does not affect the state of the reader.
 old-location: security\scardgetreaderdeviceinstanceid.htm
 tech.root: SecAuthN
 ms.assetid: 306F1EAF-35A7-4449-802F-709667764737
-
 ms.date: 12/05/2018
 ms.keywords: SCardGetReaderDeviceInstanceId, SCardGetReaderDeviceInstanceId function [Security], SCardGetReaderDeviceInstanceIdA, SCardGetReaderDeviceInstanceIdW, security.scardgetreaderdeviceinstanceid, winscard/SCardGetReaderDeviceInstanceId
 ms.topic: function
-f1_keywords: 
- - "winscard/SCardGetReaderDeviceInstanceId"
+f1_keywords:
+- winscard/SCardGetReaderDeviceInstanceId
 dev_langs:
- - c++
+- c++
 req.header: winscard.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Winscard.h
+- Winscard.h
 api_name:
- - SCardGetReaderDeviceInstanceId
+- SCardGetReaderDeviceInstanceId
 targetos: Windows
 req.typenames: 
 req.redist: 

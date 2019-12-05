@@ -1,19 +1,17 @@
 ---
 UID: NF:dvbsiparser.IIsdbTSInformationDescriptor.GetTag
 title: IIsdbTSInformationDescriptor::GetTag (dvbsiparser.h)
-
 description: Receives the tag that identifies an Integrated Services Digital Broadcasting (ISDB) transport stream (TS) information descriptor.
 old-location: mstv\iisdbtsinformationdescriptor_gettag.htm
 tech.root: mstv
 ms.assetid: 77a7b225-2e7e-4fa2-a8f0-a5f18850cde6
-
 ms.date: 12/05/2018
 ms.keywords: GetTag, GetTag method [Microsoft TV Technologies], GetTag method [Microsoft TV Technologies],IIsdbTSInformationDescriptor interface, IIsdbTSInformationDescriptor interface [Microsoft TV Technologies],GetTag method, IIsdbTSInformationDescriptor.GetTag, IIsdbTSInformationDescriptor::GetTag, dvbsiparser/IIsdbTSInformationDescriptor::GetTag, mstv.iisdbtsinformationdescriptor_gettag
 ms.topic: method
-f1_keywords: 
- - "dvbsiparser/IIsdbTSInformationDescriptor.GetTag"
+f1_keywords:
+- dvbsiparser/IIsdbTSInformationDescriptor.GetTag
 dev_langs:
- - c++
+- c++
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dvbsiparser.h
+- dvbsiparser.h
 api_name:
- - IIsdbTSInformationDescriptor.GetTag
+- IIsdbTSInformationDescriptor.GetTag
 targetos: Windows
 req.typenames: 
 req.redist: 

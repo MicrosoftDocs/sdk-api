@@ -1,19 +1,17 @@
 ---
 UID: NF:winbase.GetCurrentActCtx
 title: GetCurrentActCtx function (winbase.h)
-
 description: The GetCurrentActCtx function returns the handle to the active activation context of the calling thread.
 old-location: setup\getcurrentactctx.htm
 tech.root: SbsCs
 ms.assetid: d7603098-8d2d-4ace-9876-277b22f70ca8
-
 ms.date: 12/05/2018
 ms.keywords: GetCurrentActCtx, GetCurrentActCtx function [Side-by-side Assemblies], _win32_getcurrentactctx, setup.getcurrentactctx, winbase/GetCurrentActCtx
 ms.topic: function
-f1_keywords: 
- - "winbase/GetCurrentActCtx"
+f1_keywords:
+- winbase/GetCurrentActCtx
 dev_langs:
- - c++
+- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-sidebyside-l1-1-0.dll
- - KernelBase.dll
+- Kernel32.dll
+- API-MS-Win-Core-sidebyside-l1-1-0.dll
+- KernelBase.dll
 api_name:
- - GetCurrentActCtx
+- GetCurrentActCtx
 targetos: Windows
 req.typenames: 
 req.redist: 

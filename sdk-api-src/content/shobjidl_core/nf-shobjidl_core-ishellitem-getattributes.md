@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IShellItem.GetAttributes
 title: IShellItem::GetAttributes (shobjidl_core.h)
-
 description: Gets a requested set of attributes of the IShellItem object.
 old-location: shell\IShellItem_GetAttributes.htm
 tech.root: shell
 ms.assetid: d8d48b4b-979e-48ed-9e57-279fd6fad5cc
-
 ms.date: 12/05/2018
 ms.keywords: GetAttributes, GetAttributes method [Windows Shell], GetAttributes method [Windows Shell],IShellItem interface, IShellItem interface [Windows Shell],GetAttributes method, IShellItem.GetAttributes, IShellItem::GetAttributes, _win32_IShellItem_GetAttributes, shell.IShellItem_GetAttributes, shobjidl_core/IShellItem::GetAttributes
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IShellItem.GetAttributes"
+f1_keywords:
+- shobjidl_core/IShellItem.GetAttributes
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Shell32.dll (version 6.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - IShellItem.GetAttributes
+- IShellItem.GetAttributes
 targetos: Windows
 req.typenames: 
 req.redist: 

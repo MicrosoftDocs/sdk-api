@@ -1,19 +1,17 @@
 ---
 UID: NF:vds.IVdsOpenVDisk.DetachAndDelete
 title: IVdsOpenVDisk::DetachAndDelete (vds.h)
-
 description: Detaches a virtual disk and deletes the backing files.
 old-location: base\ivdsopenvdisk_detachanddelete.htm
 tech.root: VDS
 ms.assetid: 79179da4-3c88-480b-bfb8-c4315fa56c4e
-
 ms.date: 12/05/2018
 ms.keywords: DetachAndDelete, DetachAndDelete method, DetachAndDelete method,IVdsOpenVDisk interface, IVdsOpenVDisk interface,DetachAndDelete method, IVdsOpenVDisk.DetachAndDelete, IVdsOpenVDisk::DetachAndDelete, base.ivdsopenvdisk_detachanddelete, vds/IVdsOpenVDisk::DetachAndDelete
 ms.topic: method
-f1_keywords: 
- - "vds/IVdsOpenVDisk.DetachAndDelete"
+f1_keywords:
+- vds/IVdsOpenVDisk.DetachAndDelete
 dev_langs:
- - c++
+- c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Uuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Uuid.lib
- - Uuid.dll
+- Uuid.lib
+- Uuid.dll
 api_name:
- - IVdsOpenVDisk.DetachAndDelete
+- IVdsOpenVDisk.DetachAndDelete
 targetos: Windows
 req.typenames: 
 req.redist: 

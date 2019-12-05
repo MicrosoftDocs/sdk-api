@@ -1,19 +1,17 @@
 ---
 UID: NF:iads.IADsPathname.GetElement
 title: IADsPathname::GetElement (iads.h)
-
 description: Retrieves an element of a directory path.
 old-location: adsi\iadspathname_getelement.htm
 tech.root: adsi
 ms.assetid: 6fc027c7-6645-4596-b438-99795f9e66fc
-
 ms.date: 12/05/2018
 ms.keywords: GetElement, GetElement method [ADSI], GetElement method [ADSI],IADsPathname interface, IADsPathname interface [ADSI],GetElement method, IADsPathname.GetElement, IADsPathname::GetElement, _ds_iadspathname_getelement, adsi.iadspathname__getelement, adsi.iadspathname_getelement, iads/IADsPathname::GetElement
 ms.topic: method
-f1_keywords: 
- - "iads/IADsPathname.GetElement"
+f1_keywords:
+- iads/IADsPathname.GetElement
 dev_langs:
- - c++
+- c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Activeds.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Activeds.dll
+- Activeds.dll
 api_name:
- - IADsPathname.GetElement
+- IADsPathname.GetElement
 targetos: Windows
 req.typenames: 
 req.redist: 

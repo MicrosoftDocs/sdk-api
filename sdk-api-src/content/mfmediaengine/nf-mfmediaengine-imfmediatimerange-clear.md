@@ -1,19 +1,17 @@
 ---
 UID: NF:mfmediaengine.IMFMediaTimeRange.Clear
 title: IMFMediaTimeRange::Clear (mfmediaengine.h)
-
 description: Clears the list of time ranges.
 old-location: mf\imfmediatimerange_clear.htm
 tech.root: medfound
 ms.assetid: F7CDC73E-CF14-48E2-9C8A-E1944099861A
-
 ms.date: 12/05/2018
 ms.keywords: Clear, Clear method [Media Foundation], Clear method [Media Foundation],IMFMediaTimeRange interface, IMFMediaTimeRange interface [Media Foundation],Clear method, IMFMediaTimeRange.Clear, IMFMediaTimeRange::Clear, mf.imfmediatimerange_clear, mfmediaengine/IMFMediaTimeRange::Clear
 ms.topic: method
-f1_keywords: 
- - "mfmediaengine/IMFMediaTimeRange.Clear"
+f1_keywords:
+- mfmediaengine/IMFMediaTimeRange.Clear
 dev_langs:
- - c++
+- c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfmediaengine.h
+- mfmediaengine.h
 api_name:
- - IMFMediaTimeRange.Clear
+- IMFMediaTimeRange.Clear
 targetos: Windows
 req.typenames: 
 req.redist: 

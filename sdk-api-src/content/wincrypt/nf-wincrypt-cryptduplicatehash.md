@@ -1,19 +1,17 @@
 ---
 UID: NF:wincrypt.CryptDuplicateHash
 title: CryptDuplicateHash function (wincrypt.h)
-
 description: Makes an exact copy of a hash to the point when the duplication is done.
 old-location: security\cryptduplicatehash.htm
 tech.root: SecCrypto
 ms.assetid: 527fce4d-8d42-437b-9692-42583092efbb
-
 ms.date: 12/05/2018
 ms.keywords: CryptDuplicateHash, CryptDuplicateHash function [Security], _crypto2_cryptduplicatehash, security.cryptduplicatehash, wincrypt/CryptDuplicateHash
 ms.topic: function
-f1_keywords: 
- - "wincrypt/CryptDuplicateHash"
+f1_keywords:
+- wincrypt/CryptDuplicateHash
 dev_langs:
- - c++
+- c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Advapi32.dll
- - API-MS-Win-Security-cryptoapi-l1-1-0.dll
- - cryptsp.dll
+- Advapi32.dll
+- API-MS-Win-Security-cryptoapi-l1-1-0.dll
+- cryptsp.dll
 api_name:
- - CryptDuplicateHash
+- CryptDuplicateHash
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NN:azroles.IAzOperation2
 title: IAzOperation2 (azroles.h)
-
 description: Extends the IAzOperation with a method that returns the role assignments associated with the operation.
 old-location: security\iazoperation2.htm
 tech.root: SecAuthZ
 ms.assetid: 83baa90b-bbc3-49b9-949e-45d68a155b5c
-
 ms.date: 12/05/2018
 ms.keywords: IAzOperation2, IAzOperation2 interface [Security], IAzOperation2 interface [Security],described, azroles/IAzOperation2, security.iazoperation2
 ms.topic: interface
-f1_keywords: 
- - "azroles/IAzOperation2"
+f1_keywords:
+- azroles/IAzOperation2
 dev_langs:
- - c++
+- c++
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Azroles.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Azroles.dll
+- Azroles.dll
 api_name:
- - IAzOperation2
+- IAzOperation2
 targetos: Windows
 req.typenames: 
 req.redist: 

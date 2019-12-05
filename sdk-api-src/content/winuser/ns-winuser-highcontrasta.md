@@ -1,19 +1,17 @@
 ---
 UID: NS:winuser.tagHIGHCONTRASTA
 title: HIGHCONTRASTA (winuser.h)
-
 description: Contains information about the high contrast accessibility feature.
 old-location: winauto\highcontrast.htm
 tech.root: WinAuto
 ms.assetid: 0d8ac624-919a-427a-8374-e256eedc6777
-
 ms.date: 12/05/2018
-ms.keywords: "*LPHIGHCONTRASTA, HCF_AVAILABLE, HCF_CONFIRMHOTKEY, HCF_HIGHCONTRASTON, HCF_HOTKEYACTIVE, HCF_HOTKEYAVAILABLE, HCF_HOTKEYSOUND, HCF_INDICATOR, HIGHCONTRAST, HIGHCONTRAST structure [Windows Accessibility], HIGHCONTRASTA, LPHIGHCONTRAST, LPHIGHCONTRAST structure pointer [Windows Accessibility], _win32_HIGHCONTRAST_str, msaa.highcontrast, tagACCESSTIMEOUTA, tagACCESSTIMEOUTW, winauto.highcontrast, winuser/HIGHCONTRAST, winuser/LPHIGHCONTRAST"
+ms.keywords: '*LPHIGHCONTRASTA, HCF_AVAILABLE, HCF_CONFIRMHOTKEY, HCF_HIGHCONTRASTON, HCF_HOTKEYACTIVE, HCF_HOTKEYAVAILABLE, HCF_HOTKEYSOUND, HCF_INDICATOR, HIGHCONTRAST, HIGHCONTRAST structure [Windows Accessibility], HIGHCONTRASTA, LPHIGHCONTRAST, LPHIGHCONTRAST structure pointer [Windows Accessibility], _win32_HIGHCONTRAST_str, msaa.highcontrast, tagACCESSTIMEOUTA, tagACCESSTIMEOUTW, winauto.highcontrast, winuser/HIGHCONTRAST, winuser/LPHIGHCONTRAST'
 ms.topic: struct
-f1_keywords: 
- - "winuser/HIGHCONTRAST"
+f1_keywords:
+- winuser/HIGHCONTRAST
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Winuser.h
+- Winuser.h
 api_name:
- - HIGHCONTRAST
+- HIGHCONTRAST
 targetos: Windows
 req.typenames: HIGHCONTRASTA, *LPHIGHCONTRASTA
 req.redist: 

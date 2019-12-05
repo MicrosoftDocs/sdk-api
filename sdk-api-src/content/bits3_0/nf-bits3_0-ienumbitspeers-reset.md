@@ -1,19 +1,17 @@
 ---
 UID: NF:bits3_0.IEnumBitsPeers.Reset
 title: IEnumBitsPeers::Reset (bits3_0.h)
-
 description: Resets the enumeration sequence to the beginning.
 old-location: bits\ienumbitspeers_reset.htm
 tech.root: Bits
 ms.assetid: 87eb8e34-046e-46a5-9d9b-efeb6fa03485
-
 ms.date: 12/05/2018
 ms.keywords: IEnumBitsPeers interface [BITS],Reset method, IEnumBitsPeers.Reset, IEnumBitsPeers::Reset, Reset, Reset method [BITS], Reset method [BITS],IEnumBitsPeers interface, bits.ienumbitspeers_reset, bits3_0/IEnumBitsPeers::Reset
 ms.topic: method
-f1_keywords: 
- - "bits3_0/IEnumBitsPeers.Reset"
+f1_keywords:
+- bits3_0/IEnumBitsPeers.Reset
 dev_langs:
- - c++
+- c++
 req.header: bits3_0.h
 req.include-header: Bits.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Bits.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Bits.lib
- - Bits.dll
+- Bits.lib
+- Bits.dll
 api_name:
- - IEnumBitsPeers.Reset
+- IEnumBitsPeers.Reset
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:winsync.ISyncCallback.OnProgress
 title: ISyncCallback::OnProgress (winsync.h)
-
 description: Occurs periodically during the synchronization session to report progress.
 old-location: winsync\isynccallback_onprogress.htm
 tech.root: winsync
 ms.assetid: 4a4dad07-b169-4767-a118-3b5c6c8b9764
-
 ms.date: 12/05/2018
 ms.keywords: ISyncCallback interface [Windows Sync],OnProgress method, ISyncCallback.OnProgress, ISyncCallback::OnProgress, OnProgress, OnProgress method [Windows Sync], OnProgress method [Windows Sync],ISyncCallback interface, winsync.isynccallback_onprogress, winsync/ISyncCallback::OnProgress
 ms.topic: method
-f1_keywords: 
- - "winsync/ISyncCallback.OnProgress"
+f1_keywords:
+- winsync/ISyncCallback.OnProgress
 dev_langs:
- - c++
+- c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - winsync.h
+- winsync.h
 api_name:
- - ISyncCallback.OnProgress
+- ISyncCallback.OnProgress
 targetos: Windows
 req.typenames: 
 req.redist: 

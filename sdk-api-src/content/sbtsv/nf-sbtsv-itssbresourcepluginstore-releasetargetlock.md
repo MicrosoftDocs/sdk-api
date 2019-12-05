@@ -1,19 +1,17 @@
 ---
 UID: NF:sbtsv.ITsSbResourcePluginStore.ReleaseTargetLock
 title: ITsSbResourcePluginStore::ReleaseTargetLock (sbtsv.h)
-
 description: Releases a lock on a target.
 old-location: termserv\itssbresourcepluginstore_releasetargetlock.htm
 tech.root: TermServ
 ms.assetid: 37c22f94-c00d-471b-bd6c-067b3229f99b
-
 ms.date: 12/05/2018
 ms.keywords: ITsSbResourcePluginStore interface [Remote Desktop Services],ReleaseTargetLock method, ITsSbResourcePluginStore.ReleaseTargetLock, ITsSbResourcePluginStore::ReleaseTargetLock, ReleaseTargetLock, ReleaseTargetLock method [Remote Desktop Services], ReleaseTargetLock method [Remote Desktop Services],ITsSbResourcePluginStore interface, sbtsv/ITsSbResourcePluginStore::ReleaseTargetLock, termserv.itssbresourcepluginstore_releasetargetlock
 ms.topic: method
-f1_keywords: 
- - "sbtsv/ITsSbResourcePluginStore.ReleaseTargetLock"
+f1_keywords:
+- sbtsv/ITsSbResourcePluginStore.ReleaseTargetLock
 dev_langs:
- - c++
+- c++
 req.header: sbtsv.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - sbtsv.h
+- sbtsv.h
 api_name:
- - ITsSbResourcePluginStore.ReleaseTargetLock
+- ITsSbResourcePluginStore.ReleaseTargetLock
 targetos: Windows
 req.typenames: 
 req.redist: 

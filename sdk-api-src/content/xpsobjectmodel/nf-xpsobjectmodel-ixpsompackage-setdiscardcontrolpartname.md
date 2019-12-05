@@ -1,19 +1,17 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMPackage.SetDiscardControlPartName
 title: IXpsOMPackage::SetDiscardControlPartName (xpsobjectmodel.h)
-
 description: Sets the name of the discard control part in the XPS package.
 old-location: xps\ixpsompackage_setdiscardcontrolpartname.htm
 tech.root: printdocs
 ms.assetid: ce45f7cf-33ed-4e15-9f65-549ab2c8c8be
-
 ms.date: 12/05/2018
 ms.keywords: IXpsOMPackage interface [XPS Documents and Packaging],SetDiscardControlPartName method, IXpsOMPackage.SetDiscardControlPartName, IXpsOMPackage::SetDiscardControlPartName, SetDiscardControlPartName, SetDiscardControlPartName method [XPS Documents and Packaging], SetDiscardControlPartName method [XPS Documents and Packaging],IXpsOMPackage interface, xps.ixpsompackage_setdiscardcontrolpartname, xpsobjectmodel/IXpsOMPackage::SetDiscardControlPartName
 ms.topic: method
-f1_keywords: 
- - "xpsobjectmodel/IXpsOMPackage.SetDiscardControlPartName"
+f1_keywords:
+- xpsobjectmodel/IXpsOMPackage.SetDiscardControlPartName
 dev_langs:
- - c++
+- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsobjectmodel.h
+- xpsobjectmodel.h
 api_name:
- - IXpsOMPackage.SetDiscardControlPartName
+- IXpsOMPackage.SetDiscardControlPartName
 targetos: Windows
 req.typenames: 
 req.redist: 

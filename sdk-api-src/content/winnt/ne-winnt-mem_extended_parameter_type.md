@@ -1,19 +1,17 @@
 ---
 UID: NE:winnt.MEM_EXTENDED_PARAMETER_TYPE
 title: MEM_EXTENDED_PARAMETER_TYPE (winnt.h)
-
 description: Defines values for extended parameters used for file mapping into an address space.
 old-location: base\mem_extended_parameter_type.htm
 tech.root: Memory
 ms.assetid: B3591D93-BAF5-4D6E-90ED-88E1C193670E
-
 ms.date: 12/05/2018
-ms.keywords: "*PMEM_EXTENDED_PARAMETER_TYPE, MEM_EXTENDED_PARAMETER_TYPE, MEM_EXTENDED_PARAMETER_TYPE enumeration, MemExtendedParameterAddressRequirements, MemExtendedParameterAttributeFlags, MemExtendedParameterInvalidType, MemExtendedParameterMax, MemExtendedParameterNumaNode, MemExtendedParameterPartitionHandle, MemExtendedParameterUserPhysicalHandle, base.mem_extended_parameter_type, winnt/MEM_EXTENDED_PARAMETER_TYPE, winnt/MemExtendedParameterAddressRequirements, winnt/MemExtendedParameterAttributeFlags, winnt/MemExtendedParameterInvalidType, winnt/MemExtendedParameterMax, winnt/MemExtendedParameterNumaNode, winnt/MemExtendedParameterPartitionHandle, winnt/MemExtendedParameterUserPhysicalHandle"
+ms.keywords: '*PMEM_EXTENDED_PARAMETER_TYPE, MEM_EXTENDED_PARAMETER_TYPE, MEM_EXTENDED_PARAMETER_TYPE enumeration, MemExtendedParameterAddressRequirements, MemExtendedParameterAttributeFlags, MemExtendedParameterInvalidType, MemExtendedParameterMax, MemExtendedParameterNumaNode, MemExtendedParameterPartitionHandle, MemExtendedParameterUserPhysicalHandle, base.mem_extended_parameter_type, winnt/MEM_EXTENDED_PARAMETER_TYPE, winnt/MemExtendedParameterAddressRequirements, winnt/MemExtendedParameterAttributeFlags, winnt/MemExtendedParameterInvalidType, winnt/MemExtendedParameterMax, winnt/MemExtendedParameterNumaNode, winnt/MemExtendedParameterPartitionHandle, winnt/MemExtendedParameterUserPhysicalHandle'
 ms.topic: enum
-f1_keywords: 
- - "winnt/MEM_EXTENDED_PARAMETER_TYPE"
+f1_keywords:
+- winnt/MEM_EXTENDED_PARAMETER_TYPE
 dev_langs:
- - c++
+- c++
 req.header: winnt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - winnt.h
+- winnt.h
 api_name:
- - MEM_EXTENDED_PARAMETER_TYPE
+- MEM_EXTENDED_PARAMETER_TYPE
 targetos: Windows
 req.typenames: MEM_EXTENDED_PARAMETER_TYPE, *PMEM_EXTENDED_PARAMETER_TYPE
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NC:winuser.DRAWSTATEPROC
 title: DRAWSTATEPROC (winuser.h)
-
 description: The DrawStateProc function is an application-defined callback function that renders a complex image for the DrawState function.
 old-location: gdi\drawstateproc.htm
 tech.root: gdi
 ms.assetid: a95a4020-e433-4b2c-96e7-f272e28e5a43
-
 ms.date: 12/05/2018
 ms.keywords: DrawStateProc, DrawStateProc callback, DrawStateProc callback function [Windows GDI], _win32_DrawStateProc, gdi.drawstateproc, winuser/DrawStateProc
 ms.topic: callback
-f1_keywords: 
- - "winuser/DrawStateProc"
+f1_keywords:
+- winuser/DrawStateProc
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Winuser.h
+- Winuser.h
 api_name:
- - DrawStateProc
+- DrawStateProc
 targetos: Windows
 req.typenames: 
 req.redist: 

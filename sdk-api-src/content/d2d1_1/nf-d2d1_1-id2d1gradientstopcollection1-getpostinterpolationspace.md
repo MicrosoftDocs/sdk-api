@@ -1,19 +1,17 @@
 ---
 UID: NF:d2d1_1.ID2D1GradientStopCollection1.GetPostInterpolationSpace
 title: ID2D1GradientStopCollection1::GetPostInterpolationSpace (d2d1_1.h)
-
 description: Gets the color space after interpolation has occurred.
 old-location: direct2d\id2d1gradientstopcollection1_getpostinterpolationspace.htm
 tech.root: Direct2D
 ms.assetid: fb579d25-f38c-4f26-a29b-c6875cbabb3b
-
 ms.date: 12/05/2018
 ms.keywords: GetPostInterpolationSpace, GetPostInterpolationSpace method [Direct2D], GetPostInterpolationSpace method [Direct2D],ID2D1GradientStopCollection1 interface, ID2D1GradientStopCollection1 interface [Direct2D],GetPostInterpolationSpace method, ID2D1GradientStopCollection1.GetPostInterpolationSpace, ID2D1GradientStopCollection1::GetPostInterpolationSpace, d2d1_1/ID2D1GradientStopCollection1::GetPostInterpolationSpace, direct2d.id2d1gradientstopcollection1_getpostinterpolationspace
 ms.topic: method
-f1_keywords: 
- - "d2d1_1/ID2D1GradientStopCollection1.GetPostInterpolationSpace"
+f1_keywords:
+- d2d1_1/ID2D1GradientStopCollection1.GetPostInterpolationSpace
 dev_langs:
- - c++
+- c++
 req.header: d2d1_1.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: D2d1.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D2d1.dll
+- D2d1.dll
 api_name:
- - ID2D1GradientStopCollection1.GetPostInterpolationSpace
+- ID2D1GradientStopCollection1.GetPostInterpolationSpace
 targetos: Windows
 req.typenames: 
 req.redist: 

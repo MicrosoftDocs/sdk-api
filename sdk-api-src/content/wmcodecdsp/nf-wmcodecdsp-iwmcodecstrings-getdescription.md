@@ -1,19 +1,17 @@
 ---
 UID: NF:wmcodecdsp.IWMCodecStrings.GetDescription
 title: IWMCodecStrings::GetDescription (wmcodecdsp.h)
-
 description: Retrieves the description of an output format.
 old-location: mf\iwmcodecstringsgetdescription.htm
 tech.root: medfound
 ms.assetid: 79068e6c-bd16-45e4-a8af-6a03e0c5b528
-
 ms.date: 12/05/2018
 ms.keywords: GetDescription, GetDescription method [Media Foundation], GetDescription method [Media Foundation],IWMCodecStrings interface, IWMCodecStrings interface [Media Foundation],GetDescription method, IWMCodecStrings.GetDescription, IWMCodecStrings::GetDescription, codecapi.iwmcodecstringsgetdescription, mf.iwmcodecstringsgetdescription, wmcodecdsp/IWMCodecStrings::GetDescription
 ms.topic: method
-f1_keywords: 
- - "wmcodecdsp/IWMCodecStrings.GetDescription"
+f1_keywords:
+- wmcodecdsp/IWMCodecStrings.GetDescription
 dev_langs:
- - c++
+- c++
 req.header: wmcodecdsp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmcodecdsp.h
+- wmcodecdsp.h
 api_name:
- - IWMCodecStrings.GetDescription
+- IWMCodecStrings.GetDescription
 targetos: Windows
 req.typenames: 
 req.redist: 

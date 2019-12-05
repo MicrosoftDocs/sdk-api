@@ -1,19 +1,17 @@
 ---
 UID: NN:wmp.IWMPControls3
 title: IWMPControls3 (wmp.h)
-
 description: The IWMPControls3 interface provides methods that supplement the IWMPControls2 interface.
 old-location: wmp\iwmpcontrols3.htm
 tech.root: WMP
 ms.assetid: ee902912-4f09-4f61-9b81-f4bd50ace892
-
 ms.date: 12/05/2018
 ms.keywords: IWMPControls3, IWMPControls3 interface [Windows Media Player], IWMPControls3 interface [Windows Media Player],described, IWMPControls3Interface, wmp.iwmpcontrols3, wmp/IWMPControls3
 ms.topic: interface
-f1_keywords: 
- - "wmp/IWMPControls3"
+f1_keywords:
+- wmp/IWMPControls3
 dev_langs:
- - c++
+- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmp.h
+- wmp.h
 api_name:
- - IWMPControls3
+- IWMPControls3
 targetos: Windows
 req.typenames: 
 req.redist: 

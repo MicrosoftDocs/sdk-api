@@ -1,19 +1,17 @@
 ---
 UID: NF:msinkaut.IInkPicture.HitTestSelection
 title: IInkPicture::HitTestSelection (msinkaut.h)
-
 description: Retrieves a member of the SelectionHitResult enumeration, which specifies which part of a selection, if any, was hit during a hit test.
 old-location: tablet\inkpicture_hittestselection.htm
 tech.root: tablet
 ms.assetid: 8dc745d8-7e2a-4255-86c6-226bf82d3d64
-
 ms.date: 12/05/2018
 ms.keywords: 8dc745d8-7e2a-4255-86c6-226bf82d3d64, HitTestSelection, HitTestSelection method [Tablet PC], HitTestSelection method [Tablet PC],IInkPicture interface, IInkPicture interface [Tablet PC],HitTestSelection method, IInkPicture.HitTestSelection, IInkPicture::HitTestSelection, msinkaut/IInkPicture::HitTestSelection, tablet.inkpicture_hittestselection
 ms.topic: method
-f1_keywords: 
- - "msinkaut/IInkPicture.HitTestSelection"
+f1_keywords:
+- msinkaut/IInkPicture.HitTestSelection
 dev_langs:
- - c++
+- c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: InkObj.dll
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - InkObj.dll
- - InkObj.dll.dll
+- InkObj.dll
+- InkObj.dll.dll
 api_name:
- - IInkPicture.HitTestSelection
+- IInkPicture.HitTestSelection
 targetos: Windows
 req.typenames: 
 req.redist: 

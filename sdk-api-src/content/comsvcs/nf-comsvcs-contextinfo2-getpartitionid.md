@@ -1,19 +1,17 @@
 ---
 UID: NF:comsvcs.ContextInfo2.GetPartitionId
 title: ContextInfo2::GetPartitionId (comsvcs.h)
-
 description: Retrieves the GUID of the COM+ partition of the current object context.
 old-location: cos\contextinfo2_getpartitionid.htm
 tech.root: cossdk
 ms.assetid: b4cda75d-a4f3-404e-965a-9c1487946ee1
-
 ms.date: 12/05/2018
 ms.keywords: ContextInfo2 interface [COM+],GetPartitionId method, ContextInfo2.GetPartitionId, ContextInfo2::GetPartitionId, GetPartitionId, GetPartitionId method [COM+], GetPartitionId method [COM+],ContextInfo2 interface, _cos_ContextInfo2_GetPartitionId, comsvcs/ContextInfo2::GetPartitionId, cos.contextinfo2_getpartitionid
 ms.topic: method
-f1_keywords: 
- - "comsvcs/ContextInfo2.GetPartitionId"
+f1_keywords:
+- comsvcs/ContextInfo2.GetPartitionId
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - ContextInfo2.GetPartitionId
+- ContextInfo2.GetPartitionId
 targetos: Windows
 req.typenames: 
 req.redist: 

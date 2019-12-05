@@ -1,19 +1,17 @@
 ---
 UID: NF:winbase.ConvertThreadToFiberEx
 title: ConvertThreadToFiberEx function (winbase.h)
-
 description: Converts the current thread into a fiber. You must convert a thread into a fiber before you can schedule other fibers.
 old-location: base\convertthreadtofiberex.htm
 tech.root: ProcThread
 ms.assetid: cb0473f8-bc49-44c9-a8b7-6d5b55aa37a5
-
 ms.date: 12/05/2018
 ms.keywords: ConvertThreadToFiberEx, ConvertThreadToFiberEx function, _win32_convertthreadtofiberex, base.convertthreadtofiberex, winbase/ConvertThreadToFiberEx
 ms.topic: function
-f1_keywords: 
- - "winbase/ConvertThreadToFiberEx"
+f1_keywords:
+- winbase/ConvertThreadToFiberEx
 dev_langs:
- - c++
+- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-fibers-l2-1-1.dll
- - kernel32legacy.dll
- - KernelBase.dll
+- Kernel32.dll
+- API-MS-Win-Core-fibers-l2-1-1.dll
+- kernel32legacy.dll
+- KernelBase.dll
 api_name:
- - ConvertThreadToFiberEx
+- ConvertThreadToFiberEx
 targetos: Windows
 req.typenames: 
 req.redist: 

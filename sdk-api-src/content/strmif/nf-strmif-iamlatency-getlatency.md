@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IAMLatency.GetLatency
 title: IAMLatency::GetLatency (strmif.h)
-
 description: The GetLatency method retrieves the expected latency associated with this filter.
 old-location: dshow\iamlatency_getlatency.htm
 tech.root: DirectShow
 ms.assetid: 5c5f6a73-d216-4a26-958e-ce8055575d17
-
 ms.date: 12/05/2018
 ms.keywords: GetLatency, GetLatency method [DirectShow], GetLatency method [DirectShow],IAMLatency interface, IAMLatency interface [DirectShow],GetLatency method, IAMLatency.GetLatency, IAMLatency::GetLatency, IAMLatencyGetLatency, dshow.iamlatency_getlatency, strmif/IAMLatency::GetLatency
 ms.topic: method
-f1_keywords: 
- - "strmif/IAMLatency.GetLatency"
+f1_keywords:
+- strmif/IAMLatency.GetLatency
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IAMLatency.GetLatency
+- IAMLatency.GetLatency
 targetos: Windows
 req.typenames: 
 req.redist: 

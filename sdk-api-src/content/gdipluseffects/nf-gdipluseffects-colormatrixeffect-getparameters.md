@@ -1,19 +1,17 @@
 ---
 UID: NF:gdipluseffects.ColorMatrixEffect.GetParameters
 title: ColorMatrixEffect::GetParameters (gdipluseffects.h)
-
 description: The ColorMatrixEffect::GetParameters method gets the elements of the current 5x5 color matrix of this ColorMatrixEffect object.
 old-location: gdiplus\_gdiplus_CLASS_ColorMatrixEffect_GetParameters_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\colormatrixeffectclass\colormatrixeffectmethods\getparameters.htm
-
 ms.date: 12/05/2018
 ms.keywords: ColorMatrixEffect class [GDI+],GetParameters method, ColorMatrixEffect.GetParameters, ColorMatrixEffect::GetParameters, GetParameters, GetParameters method [GDI+], GetParameters method [GDI+],ColorMatrixEffect class, _gdiplus_CLASS_ColorMatrixEffect_GetParameters_, gdiplus._gdiplus_CLASS_ColorMatrixEffect_GetParameters_
 ms.topic: method
-f1_keywords: 
- - "gdipluseffects/ColorMatrixEffect.GetParameters"
+f1_keywords:
+- gdipluseffects/ColorMatrixEffect.GetParameters
 dev_langs:
- - c++
+- c++
 req.header: gdipluseffects.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - ColorMatrixEffect.GetParameters
+- ColorMatrixEffect.GetParameters
 targetos: Windows
 req.typenames: 
 req.redist: 

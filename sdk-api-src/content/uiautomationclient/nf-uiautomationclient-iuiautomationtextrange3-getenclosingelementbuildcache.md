@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationTextRange3.GetEnclosingElementBuildCache
 title: IUIAutomationTextRange3::GetEnclosingElementBuildCache (uiautomationclient.h)
-
 description: Gets the enclosing element and supplied properties and patterns for an element in a text range in a single cross-process call. This is equivalent to calling GetEnclosingElement, but adds the standard build cache pattern.
 old-location: winauto\uiauto_IUIAutomationTextRange3_GetEnclosingElementBuildCache.htm
 tech.root: WinAuto
 ms.assetid: 6F5BC5DB-F9C0-40DF-8E29-FFACFBCAD80F
-
 ms.date: 12/05/2018
 ms.keywords: GetEnclosingElementBuildCache, GetEnclosingElementBuildCache method [Windows Accessibility], GetEnclosingElementBuildCache method [Windows Accessibility],IUIAutomationTextRange3 interface, IUIAutomationTextRange3 interface [Windows Accessibility],GetEnclosingElementBuildCache method, IUIAutomationTextRange3.GetEnclosingElementBuildCache, IUIAutomationTextRange3::GetEnclosingElementBuildCache, uiautomationclient/IUIAutomationTextRange3::GetEnclosingElementBuildCache, winauto.uiauto_IUIAutomationTextRange3_GetEnclosingElementBuildCache
 ms.topic: method
-f1_keywords: 
- - "uiautomationclient/IUIAutomationTextRange3.GetEnclosingElementBuildCache"
+f1_keywords:
+- uiautomationclient/IUIAutomationTextRange3.GetEnclosingElementBuildCache
 dev_langs:
- - c++
+- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationClient.h
+- UIAutomationClient.h
 api_name:
- - IUIAutomationTextRange3.GetEnclosingElementBuildCache
+- IUIAutomationTextRange3.GetEnclosingElementBuildCache
 targetos: Windows
 req.typenames: 
 req.redist: 

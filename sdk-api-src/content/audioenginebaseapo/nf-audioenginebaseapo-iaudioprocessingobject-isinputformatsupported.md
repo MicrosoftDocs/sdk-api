@@ -1,19 +1,17 @@
 ---
 UID: NF:audioenginebaseapo.IAudioProcessingObject.IsInputFormatSupported
 title: IAudioProcessingObject::IsInputFormatSupported (audioenginebaseapo.h)
-
 description: This method negotiates with the Windows Vista audio engine to establish a data format for the stream of audio data.
 old-location: audio\iaudioprocessingobject_isinputformatsupported.htm
 tech.root: audio
 ms.assetid: 11eebb5d-21fd-48f7-8929-cd2612a3f451
-
 ms.date: 12/05/2018
 ms.keywords: IAudioProcessingObject interface [Audio Devices],IsInputFormatSupported method, IAudioProcessingObject.IsInputFormatSupported, IAudioProcessingObject::IsInputFormatSupported, IsInputFormatSupported, IsInputFormatSupported method [Audio Devices], IsInputFormatSupported method [Audio Devices],IAudioProcessingObject interface, audio.iaudioprocessingobject_isinputformatsupported, audio_syseffects_r_d9f38647-9d9e-4776-98d4-1a9904271dc1.xml, audioenginebaseapo/IAudioProcessingObject::IsInputFormatSupported
 ms.topic: method
-f1_keywords: 
- - "audioenginebaseapo/IAudioProcessingObject.IsInputFormatSupported"
+f1_keywords:
+- audioenginebaseapo/IAudioProcessingObject.IsInputFormatSupported
 dev_langs:
- - c++
+- c++
 req.header: audioenginebaseapo.h
 req.include-header: 
 req.target-type: Universal
@@ -32,15 +30,15 @@ req.lib: Audioenginebaseapo.idl
 req.dll: 
 req.irql: All levels
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Audioenginebaseapo.idl
- - Audioenginebaseapo.idl.dll
+- Audioenginebaseapo.idl
+- Audioenginebaseapo.idl.dll
 api_name:
- - IAudioProcessingObject.IsInputFormatSupported
+- IAudioProcessingObject.IsInputFormatSupported
 targetos: Windows
 req.typenames: 
 req.redist: 

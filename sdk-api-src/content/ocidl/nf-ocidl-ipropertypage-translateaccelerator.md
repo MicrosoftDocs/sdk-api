@@ -1,19 +1,17 @@
 ---
 UID: NF:ocidl.IPropertyPage.TranslateAccelerator
 title: IPropertyPage::TranslateAccelerator (ocidl.h)
-
 description: Passes a keystroke to the property page for processing.
 old-location: com\ipropertypage_translateaccelerator.htm
 tech.root: com
 ms.assetid: 70501c3d-257c-4981-b841-4bd45f0bec27
-
 ms.date: 12/05/2018
 ms.keywords: IPropertyPage interface [COM],TranslateAccelerator method, IPropertyPage.TranslateAccelerator, IPropertyPage::TranslateAccelerator, TranslateAccelerator, TranslateAccelerator method [COM], TranslateAccelerator method [COM],IPropertyPage interface, _ctrl_ipropertypage_translateaccelerator, com.ipropertypage_translateaccelerator, ocidl/IPropertyPage::TranslateAccelerator
 ms.topic: method
-f1_keywords: 
- - "ocidl/IPropertyPage.TranslateAccelerator"
+f1_keywords:
+- ocidl/IPropertyPage.TranslateAccelerator
 dev_langs:
- - c++
+- c++
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - OCIdl.h
+- OCIdl.h
 api_name:
- - IPropertyPage.TranslateAccelerator
+- IPropertyPage.TranslateAccelerator
 targetos: Windows
 req.typenames: 
 req.redist: 

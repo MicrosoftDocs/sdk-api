@@ -1,19 +1,17 @@
 ---
 UID: NF:http.HTTP_IS_NULL_ID
 title: HTTP_IS_NULL_ID macro (http.h)
-
 description: Determines if the HTTP_OPAQUE_ID is NULL.
 old-location: http\http_is_null_id.htm
 tech.root: http
 ms.assetid: 8a73585a-e531-4c5d-9ed3-9e6e1fef93ac
-
 ms.date: 12/05/2018
 ms.keywords: HTTP_IS_NULL_ID, HTTP_IS_NULL_ID macro [HTTP], http.http_is_null_id, http/HTTP_IS_NULL_ID
 ms.topic: macro
-f1_keywords: 
- - "http/HTTP_IS_NULL_ID"
+f1_keywords:
+- http/HTTP_IS_NULL_ID
 dev_langs:
- - c++
+- c++
 req.header: http.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - http.h
+- http.h
 api_name:
- - HTTP_IS_NULL_ID
+- HTTP_IS_NULL_ID
 targetos: Windows
 req.typenames: 
 req.redist: 

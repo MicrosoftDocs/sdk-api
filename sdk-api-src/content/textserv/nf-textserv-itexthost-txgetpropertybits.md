@@ -1,19 +1,17 @@
 ---
 UID: NF:textserv.ITextHost.TxGetPropertyBits
 title: ITextHost::TxGetPropertyBits (textserv.h)
-
 description: Requests the bit property settings for the text host.
 old-location: controls\ITextHost_TxGetPropertyBits.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\windowlessricheditcontrols\windowlessricheditcontrolsreference\windowlessricheditcontrolinterfaces\itexthost\itexthosttxgetpropertybits.htm
-
 ms.date: 12/05/2018
 ms.keywords: ITextHost interface [Windows Controls],TxGetPropertyBits method, ITextHost.TxGetPropertyBits, ITextHost::TxGetPropertyBits, TxGetPropertyBits, TxGetPropertyBits method [Windows Controls], TxGetPropertyBits method [Windows Controls],ITextHost interface, _win32_ITextHost_TxGetPropertyBits, _win32_ITextHost_TxGetPropertyBits_cpp, controls.ITextHost_TxGetPropertyBits, controls._win32_ITextHost_TxGetPropertyBits, textserv/ITextHost::TxGetPropertyBits
 ms.topic: method
-f1_keywords: 
- - "textserv/ITextHost.TxGetPropertyBits"
+f1_keywords:
+- textserv/ITextHost.TxGetPropertyBits
 dev_langs:
- - c++
+- c++
 req.header: textserv.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msftedit.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msftedit.dll
+- Msftedit.dll
 api_name:
- - ITextHost.TxGetPropertyBits
+- ITextHost.TxGetPropertyBits
 targetos: Windows
 req.typenames: 
 req.redist: 

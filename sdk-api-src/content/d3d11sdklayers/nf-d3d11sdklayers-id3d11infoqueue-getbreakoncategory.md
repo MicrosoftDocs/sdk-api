@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d11sdklayers.ID3D11InfoQueue.GetBreakOnCategory
 title: ID3D11InfoQueue::GetBreakOnCategory (d3d11sdklayers.h)
-
 description: Get a message category to break on when a message with that category passes through the storage filter.
 old-location: direct3d11\id3d11infoqueue_getbreakoncategory.htm
 tech.root: direct3d11
 ms.assetid: 747755ec-3260-4ded-9c36-efdf1a90adcb
-
 ms.date: 12/05/2018
 ms.keywords: 08043309-7517-83fc-be14-01f7cb816e88, GetBreakOnCategory, GetBreakOnCategory method [Direct3D 11], GetBreakOnCategory method [Direct3D 11],ID3D11InfoQueue interface, ID3D11InfoQueue interface [Direct3D 11],GetBreakOnCategory method, ID3D11InfoQueue.GetBreakOnCategory, ID3D11InfoQueue::GetBreakOnCategory, d3d11sdklayers/ID3D11InfoQueue::GetBreakOnCategory, direct3d11.id3d11infoqueue_getbreakoncategory
 ms.topic: method
-f1_keywords: 
- - "d3d11sdklayers/ID3D11InfoQueue.GetBreakOnCategory"
+f1_keywords:
+- d3d11sdklayers/ID3D11InfoQueue.GetBreakOnCategory
 dev_langs:
- - c++
+- c++
 req.header: d3d11sdklayers.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: D3D11.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D11.lib
- - D3D11.dll
+- D3D11.lib
+- D3D11.dll
 api_name:
- - ID3D11InfoQueue.GetBreakOnCategory
+- ID3D11InfoQueue.GetBreakOnCategory
 targetos: Windows
 req.typenames: 
 req.redist: 

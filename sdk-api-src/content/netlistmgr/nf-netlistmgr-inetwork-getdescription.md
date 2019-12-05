@@ -1,19 +1,17 @@
 ---
 UID: NF:netlistmgr.INetwork.GetDescription
 title: INetwork::GetDescription (netlistmgr.h)
-
 description: The GetDescription method returns a description string for the network.
 old-location: nla\inetwork_getdescription.htm
 tech.root: nla
 ms.assetid: 7d7c4f04-f11c-48ff-b579-dc4dd7599a6b
-
 ms.date: 12/05/2018
 ms.keywords: GetDescription, GetDescription method [Network Awareness], GetDescription method [Network Awareness],INetwork interface, INetwork interface [Network Awareness],GetDescription method, INetwork.GetDescription, INetwork::GetDescription, netlistmgr/INetwork::GetDescription, nla.inetwork_getdescription
 ms.topic: method
-f1_keywords: 
- - "netlistmgr/INetwork.GetDescription"
+f1_keywords:
+- netlistmgr/INetwork.GetDescription
 dev_langs:
- - c++
+- c++
 req.header: netlistmgr.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Netlistmgr.h
+- Netlistmgr.h
 api_name:
- - INetwork.GetDescription
+- INetwork.GetDescription
 targetos: Windows
 req.typenames: 
 req.redist: 

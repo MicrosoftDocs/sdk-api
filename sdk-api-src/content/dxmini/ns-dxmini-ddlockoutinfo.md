@@ -1,19 +1,17 @@
 ---
 UID: NS:dxmini._DDLOCKOUTINFO
 title: DDLOCKOUTINFO (dxmini.h)
-
 description: The DDLOCKOUTINFO structure contains the surface information output from the DxLock function.
 old-location: display\ddlockoutinfo.htm
 tech.root: display
 ms.assetid: a29ec594-c5f9-46e4-a8c2-95e24e2ddb2d
-
 ms.date: 12/05/2018
-ms.keywords: "*PDDLOCKOUTINFO, DDLOCKOUTINFO, DDLOCKOUTINFO structure [Display Devices], PDDLOCKOUTINFO, PDDLOCKOUTINFO structure pointer [Display Devices], Video_Structs_7e32e28f-c3c0-48cc-85e7-341bed0382e5.xml, display.ddlockoutinfo, dxmini/DDLOCKOUTINFO, dxmini/PDDLOCKOUTINFO"
+ms.keywords: '*PDDLOCKOUTINFO, DDLOCKOUTINFO, DDLOCKOUTINFO structure [Display Devices], PDDLOCKOUTINFO, PDDLOCKOUTINFO structure pointer [Display Devices], Video_Structs_7e32e28f-c3c0-48cc-85e7-341bed0382e5.xml, display.ddlockoutinfo, dxmini/DDLOCKOUTINFO, dxmini/PDDLOCKOUTINFO'
 ms.topic: struct
-f1_keywords: 
- - "dxmini/DDLOCKOUTINFO"
+f1_keywords:
+- dxmini/DDLOCKOUTINFO
 dev_langs:
- - c++
+- c++
 req.header: dxmini.h
 req.include-header: Dxmini.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - dxmini.h
+- dxmini.h
 api_name:
- - DDLOCKOUTINFO
+- DDLOCKOUTINFO
 targetos: Windows
 req.typenames: DDLOCKOUTINFO, *PDDLOCKOUTINFO
 req.redist: 

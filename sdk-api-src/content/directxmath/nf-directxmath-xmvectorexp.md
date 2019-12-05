@@ -1,19 +1,17 @@
 ---
 UID: NF:directxmath.XMVectorExp
 title: XMVectorExp function (directxmath.h)
-
 description: Computes two raised to the power for each component.Note  This function is a compatibility alias for XMVectorExp2 for existing Windows 8 code. This function is deprecated for Windows 8.1. Don't use it and instead use XMVectorExp2 or XMVectorExpE.  .
 old-location: dxmath\xmvectorexp.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.transcendental.XMVectorExp(XMVECTOR)
-
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMVectorExp, XMVectorExp, XMVectorExp method [DirectX Math Support APIs], dxmath.xmvectorexp
 ms.topic: function
-f1_keywords: 
- - "directxmath/XMVectorExp"
+f1_keywords:
+- directxmath/XMVectorExp
 dev_langs:
- - c++
+- c++
 req.header: directxmath.h
 req.include-header: DirectXMath.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - directxmathvector.inl
+- directxmathvector.inl
 api_name:
- - XMVectorExp
+- XMVectorExp
 targetos: Windows
 req.typenames: 
 req.redist: 

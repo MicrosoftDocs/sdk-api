@@ -1,19 +1,17 @@
 ---
 UID: NF:wingdi.EnumFontFamiliesExA
 title: EnumFontFamiliesExA function (wingdi.h)
-
 description: The EnumFontFamiliesEx function enumerates all uniquely-named fonts in the system that match the font characteristics specified by the LOGFONT structure. EnumFontFamiliesEx enumerates fonts based on typeface name, character set, or both.
 old-location: gdi\enumfontfamiliesex.htm
 tech.root: gdi
 ms.assetid: 4d70906d-8005-4c4a-869e-16dd3e6fa3f2
-
 ms.date: 12/05/2018
 ms.keywords: EnumFontFamiliesEx, EnumFontFamiliesEx function [Windows GDI], EnumFontFamiliesExA, EnumFontFamiliesExW, _win32_EnumFontFamiliesEx, gdi.enumfontfamiliesex, wingdi/EnumFontFamiliesEx, wingdi/EnumFontFamiliesExA, wingdi/EnumFontFamiliesExW
 ms.topic: function
-f1_keywords: 
- - "wingdi/EnumFontFamiliesEx"
+f1_keywords:
+- wingdi/EnumFontFamiliesEx
 dev_langs:
- - c++
+- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,21 +30,21 @@ req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - gdi32.dll
- - Ext-MS-Win-GDI-Font-l1-1-0.dll
- - Ext-MS-Win-GDI-Font-l1-1-1.dll
- - ext-ms-win-gdi-font-l1-1-2.dll
- - Ext-MS-Win-GDI-Font-L1-1-3.dll
- - GDI32Full.dll
+- gdi32.dll
+- Ext-MS-Win-GDI-Font-l1-1-0.dll
+- Ext-MS-Win-GDI-Font-l1-1-1.dll
+- ext-ms-win-gdi-font-l1-1-2.dll
+- Ext-MS-Win-GDI-Font-L1-1-3.dll
+- GDI32Full.dll
 api_name:
- - EnumFontFamiliesEx
- - EnumFontFamiliesExA
- - EnumFontFamiliesExW
+- EnumFontFamiliesEx
+- EnumFontFamiliesExA
+- EnumFontFamiliesExW
 targetos: Windows
 req.typenames: 
 req.redist: 

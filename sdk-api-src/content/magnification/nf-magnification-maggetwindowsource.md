@@ -1,19 +1,17 @@
 ---
 UID: NF:magnification.MagGetWindowSource
 title: MagGetWindowSource function (magnification.h)
-
 description: Gets the rectangle of the area that is being magnified.
 old-location: magapi\magapi_MagGetWindowSource.htm
 tech.root: magapi
 ms.assetid: VS|magapi|~\magapi\reference\functions\maggetwindowsource.htm
-
 ms.date: 12/05/2018
 ms.keywords: MagGetWindowSource, MagGetWindowSource function [Magnification API], magapi.magapi_MagGetWindowSource, magapi_MagGetWindowSource, magnification/MagGetWindowSource
 ms.topic: function
-f1_keywords: 
- - "magnification/MagGetWindowSource"
+f1_keywords:
+- magnification/MagGetWindowSource
 dev_langs:
- - c++
+- c++
 req.header: magnification.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Magnification.lib
 req.dll: Magnification.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Magnification.dll
+- Magnification.dll
 api_name:
- - MagGetWindowSource
+- MagGetWindowSource
 targetos: Windows
 req.typenames: 
 req.redist: 

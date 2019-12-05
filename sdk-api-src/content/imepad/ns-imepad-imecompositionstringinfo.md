@@ -1,19 +1,17 @@
 ---
 UID: NS:imepad.tagIMECOMPOSITIONSTRINGINFO
 title: IMECOMPOSITIONSTRINGINFO (imepad.h)
-
 description: Contains information of IME's composition string in an app.
 old-location: intl\imecompositionstringinfo.htm
 tech.root: Intl
 ms.assetid: 27124683-C4F9-4FF9-9004-9FF5B2B8B421
-
 ms.date: 12/05/2018
-ms.keywords: "*LPIMECOMPOSITIONSTRINGINFO, IMECOMPOSITIONSTRINGINFO, IMECOMPOSITIONSTRINGINFO structure [Internationalization for Windows Applications], PIMECOMPOSITIONSTRINGINFO, PIMECOMPOSITIONSTRINGINFO structure pointer [Internationalization for Windows Applications], imepad/IMECOMPOSITIONSTRINGINFO, imepad/PIMECOMPOSITIONSTRINGINFO, intl.imecompositionstringinfo"
+ms.keywords: '*LPIMECOMPOSITIONSTRINGINFO, IMECOMPOSITIONSTRINGINFO, IMECOMPOSITIONSTRINGINFO structure [Internationalization for Windows Applications], PIMECOMPOSITIONSTRINGINFO, PIMECOMPOSITIONSTRINGINFO structure pointer [Internationalization for Windows Applications], imepad/IMECOMPOSITIONSTRINGINFO, imepad/PIMECOMPOSITIONSTRINGINFO, intl.imecompositionstringinfo'
 ms.topic: struct
-f1_keywords: 
- - "imepad/IMECOMPOSITIONSTRINGINFO"
+f1_keywords:
+- imepad/IMECOMPOSITIONSTRINGINFO
 dev_langs:
- - c++
+- c++
 req.header: imepad.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Imepad.h
+- Imepad.h
 api_name:
- - IMECOMPOSITIONSTRINGINFO
+- IMECOMPOSITIONSTRINGINFO
 targetos: Windows
 req.typenames: IMECOMPOSITIONSTRINGINFO, *LPIMECOMPOSITIONSTRINGINFO
 req.redist: 

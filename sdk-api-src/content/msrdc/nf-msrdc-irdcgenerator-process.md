@@ -1,19 +1,17 @@
 ---
 UID: NF:msrdc.IRdcGenerator.Process
 title: IRdcGenerator::Process (msrdc.h)
-
 description: Processes the input data and produces 0 or more output bytes.
 old-location: rdc\irdcgenerator_process.htm
 tech.root: rdc
 ms.assetid: 34d19eee-0fa9-4ac3-a33b-9f01cfa06371
-
 ms.date: 12/05/2018
 ms.keywords: IRdcGenerator interface [Remote Differential Compression],Process method, IRdcGenerator.Process, IRdcGenerator::Process, Process, Process method [Remote Differential Compression], Process method [Remote Differential Compression],IRdcGenerator interface, fs.irdcgenerator_process, msrdc/IRdcGenerator::Process, rdc.irdcgenerator_process
 ms.topic: method
-f1_keywords: 
- - "msrdc/IRdcGenerator.Process"
+f1_keywords:
+- msrdc/IRdcGenerator.Process
 dev_langs:
- - c++
+- c++
 req.header: msrdc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: MsRdc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - MsRdc.dll
+- MsRdc.dll
 api_name:
- - IRdcGenerator.Process
+- IRdcGenerator.Process
 targetos: Windows
 req.typenames: 
 req.redist: 

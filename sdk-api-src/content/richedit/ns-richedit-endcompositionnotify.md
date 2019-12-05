@@ -1,19 +1,17 @@
 ---
 UID: NS:richedit._endcomposition
 title: ENDCOMPOSITIONNOTIFY (richedit.h)
-
 description: Contains information about an EN_ENDCOMPOSITION notification code from a rich edit control.
 old-location: controls\endcompositionnotify.htm
 tech.root: Controls
 ms.assetid: 5C137287-01B5-4E2E-A62E-F340A29CD8D7
-
 ms.date: 12/05/2018
 ms.keywords: ECN_ENDCOMPOSITION, ECN_NEWTEXT, ENDCOMPOSITIONNOTIFY, ENDCOMPOSITIONNOTIFY structure [Windows Controls], controls.endcompositionnotify, richedit/ENDCOMPOSITIONNOTIFY
 ms.topic: struct
-f1_keywords: 
- - "richedit/ENDCOMPOSITIONNOTIFY"
+f1_keywords:
+- richedit/ENDCOMPOSITIONNOTIFY
 dev_langs:
- - c++
+- c++
 req.header: richedit.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Richedit.h
+- Richedit.h
 api_name:
- - ENDCOMPOSITIONNOTIFY
+- ENDCOMPOSITIONNOTIFY
 targetos: Windows
 req.typenames: ENDCOMPOSITIONNOTIFY
 req.redist: 

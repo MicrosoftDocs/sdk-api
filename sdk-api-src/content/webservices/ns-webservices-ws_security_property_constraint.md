@@ -1,19 +1,17 @@
 ---
 UID: NS:webservices._WS_SECURITY_PROPERTY_CONSTRAINT
 title: WS_SECURITY_PROPERTY_CONSTRAINT (webservices.h)
-
 description: This structure is used to specify a set of constraints for a particular security property. Any property constraints that are not specified will use the default constraints.
 old-location: wsw\ws_security_property_constraint.htm
 tech.root: wsw
 ms.assetid: 382d75be-2c56-44f5-8069-740ad9b9d1c4
-
 ms.date: 12/05/2018
 ms.keywords: WS_SECURITY_PROPERTY_CONSTRAINT, WS_SECURITY_PROPERTY_CONSTRAINT structure [Web Services for Windows], webservices/WS_SECURITY_PROPERTY_CONSTRAINT, wsw.ws_security_property_constraint
 ms.topic: struct
-f1_keywords: 
- - "webservices/WS_SECURITY_PROPERTY_CONSTRAINT"
+f1_keywords:
+- webservices/WS_SECURITY_PROPERTY_CONSTRAINT
 dev_langs:
- - c++
+- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WebServices.h
+- WebServices.h
 api_name:
- - WS_SECURITY_PROPERTY_CONSTRAINT
+- WS_SECURITY_PROPERTY_CONSTRAINT
 targetos: Windows
 req.typenames: WS_SECURITY_PROPERTY_CONSTRAINT
 req.redist: 

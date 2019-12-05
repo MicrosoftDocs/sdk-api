@@ -1,19 +1,17 @@
 ---
 UID: NF:segment.IMSVidXDSEvent.RatingChange
 title: IMSVidXDSEvent::RatingChange (segment.h)
-
 description: The RatingChange method is called when the current rating changes.
 old-location: mstv\imsvidxdsevent_ratingchange.htm
 tech.root: mstv
 ms.assetid: 2832f99b-16e9-4c09-903d-8d89f2cc7715
-
 ms.date: 12/05/2018
 ms.keywords: IMSVidXDSEvent interface [Microsoft TV Technologies],RatingChange method, IMSVidXDSEvent.RatingChange, IMSVidXDSEvent::RatingChange, IMSVidXDSEventRatingChange, RatingChange, RatingChange method [Microsoft TV Technologies], RatingChange method [Microsoft TV Technologies],IMSVidXDSEvent interface, mstv.imsvidxdsevent_ratingchange, segment/IMSVidXDSEvent::RatingChange
 ms.topic: method
-f1_keywords: 
- - "segment/IMSVidXDSEvent.RatingChange"
+f1_keywords:
+- segment/IMSVidXDSEvent.RatingChange
 dev_langs:
- - c++
+- c++
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - segment.h
+- segment.h
 api_name:
- - IMSVidXDSEvent.RatingChange
+- IMSVidXDSEvent.RatingChange
 targetos: Windows
 req.typenames: 
 req.redist: 

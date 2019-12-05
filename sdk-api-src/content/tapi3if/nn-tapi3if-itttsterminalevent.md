@@ -1,19 +1,17 @@
 ---
 UID: NN:tapi3if.ITTTSTerminalEvent
 title: ITTTSTerminalEvent (tapi3if.h)
-
 description: The ITTTSTerminalEvent interface contains methods that retrieve the description of Text-to-Speech (TTS) terminal events that have occurred.
 old-location: tapi3\itttsterminalevent.htm
 tech.root: Tapi
 ms.assetid: 0375d6e4-cd9f-4245-abf5-1b200af79848
-
 ms.date: 12/05/2018
 ms.keywords: ITTTSTerminalEvent, ITTTSTerminalEvent interface [TAPI 2.2], ITTTSTerminalEvent interface [TAPI 2.2],described, _tapi3_itttsterminalevent, tapi3.itttsterminalevent, tapi3if/ITTTSTerminalEvent
 ms.topic: interface
-f1_keywords: 
- - "tapi3if/ITTTSTerminalEvent"
+f1_keywords:
+- tapi3if/ITTTSTerminalEvent
 dev_langs:
- - c++
+- c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Tapi3.dll
+- Tapi3.dll
 api_name:
- - ITTTSTerminalEvent
+- ITTTSTerminalEvent
 targetos: Windows
 req.typenames: 
 req.redist: 

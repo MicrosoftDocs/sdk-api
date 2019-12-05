@@ -1,19 +1,17 @@
 ---
 UID: NN:structuredquery.IEntity
 title: IEntity (structuredquery.h)
-
 description: Provides methods for retrieving information about an entity type in the schema.
 old-location: search\_search_IEntity.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\ientity\ientity.htm
-
 ms.date: 12/05/2018
 ms.keywords: IEntity, IEntity interface [search], IEntity interface [search],described, _search_IEntity, search._search_IEntity, structuredquery/IEntity
 ms.topic: interface
-f1_keywords: 
- - "structuredquery/IEntity"
+f1_keywords:
+- structuredquery/IEntity
 dev_langs:
- - c++
+- c++
 req.header: structuredquery.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Structuredquery.h
+- Structuredquery.h
 api_name:
- - IEntity
+- IEntity
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0

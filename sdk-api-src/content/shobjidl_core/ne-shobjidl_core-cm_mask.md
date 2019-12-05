@@ -1,19 +1,17 @@
 ---
 UID: NE:shobjidl_core.CM_MASK
 title: CM_MASK (shobjidl_core.h)
-
 description: Indicates which values in the CM_COLUMNINFO structure should be set during calls to IColumnManager::SetColumnInfo.
 old-location: shell\CM_MASK.htm
 tech.root: shell
 ms.assetid: c6ba9410-7c56-428c-9ad9-4e769c047863
-
 ms.date: 12/05/2018
 ms.keywords: CM_MASK, CM_MASK enumeration [Windows Shell], CM_MASK_DEFAULTWIDTH, CM_MASK_IDEALWIDTH, CM_MASK_NAME, CM_MASK_STATE, CM_MASK_WIDTH, shell.CM_MASK, shell_CM_MASK, shobjidl_core/CM_MASK, shobjidl_core/CM_MASK_DEFAULTWIDTH, shobjidl_core/CM_MASK_IDEALWIDTH, shobjidl_core/CM_MASK_NAME, shobjidl_core/CM_MASK_STATE, shobjidl_core/CM_MASK_WIDTH
 ms.topic: enum
-f1_keywords: 
- - "shobjidl_core/CM_MASK"
+f1_keywords:
+- shobjidl_core/CM_MASK
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - CM_MASK
+- CM_MASK
 targetos: Windows
 req.typenames: CM_MASK
 req.redist: 

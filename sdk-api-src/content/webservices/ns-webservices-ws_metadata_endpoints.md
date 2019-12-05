@@ -1,19 +1,17 @@
 ---
 UID: NS:webservices._WS_METADATA_ENDPOINTS
 title: WS_METADATA_ENDPOINTS (webservices.h)
-
 description: Information about all endpoints that were read from metadata documents.
 old-location: wsw\ws_metadata_endpoints.htm
 tech.root: wsw
 ms.assetid: 96d4b938-80df-412a-9d0e-153d42ec73cb
-
 ms.date: 12/05/2018
 ms.keywords: WS_METADATA_ENDPOINTS, WS_METADATA_ENDPOINTS structure [Web Services for Windows], webservices/WS_METADATA_ENDPOINTS, wsw.ws_metadata_endpoints
 ms.topic: struct
-f1_keywords: 
- - "webservices/WS_METADATA_ENDPOINTS"
+f1_keywords:
+- webservices/WS_METADATA_ENDPOINTS
 dev_langs:
- - c++
+- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WebServices.h
+- WebServices.h
 api_name:
- - WS_METADATA_ENDPOINTS
+- WS_METADATA_ENDPOINTS
 targetos: Windows
 req.typenames: WS_METADATA_ENDPOINTS
 req.redist: 

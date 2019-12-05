@@ -1,19 +1,17 @@
 ---
 UID: NF:powrprof.CanUserWritePwrScheme
 title: CanUserWritePwrScheme function (powrprof.h)
-
 description: Determines whether the current user has sufficient privilege to write a power scheme.
 old-location: base\canuserwritepwrscheme.htm
 tech.root: power
 ms.assetid: 3989da98-aa01-4c63-a74c-ce7ba18278c1
-
 ms.date: 12/05/2018
 ms.keywords: CanUserWritePwrScheme, CanUserWritePwrScheme function, _win32_canuserwritepwrscheme, base.canuserwritepwrscheme, powrprof/CanUserWritePwrScheme
 ms.topic: function
-f1_keywords: 
- - "powrprof/CanUserWritePwrScheme"
+f1_keywords:
+- powrprof/CanUserWritePwrScheme
 dev_langs:
- - c++
+- c++
 req.header: powrprof.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: PowrProf.lib
 req.dll: PowrProf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - PowrProf.dll
+- PowrProf.dll
 api_name:
- - CanUserWritePwrScheme
+- CanUserWritePwrScheme
 targetos: Windows
 req.typenames: 
 req.redist: 

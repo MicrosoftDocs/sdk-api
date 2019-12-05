@@ -1,19 +1,17 @@
 ---
 UID: NF:iads.IADsNameTranslate.SetEx
 title: IADsNameTranslate::SetEx (iads.h)
-
 description: Establishes an array of objects for name translation.
 old-location: adsi\iadsnametranslate_setex.htm
 tech.root: adsi
 ms.assetid: e8a5014e-d848-46b7-a336-7801ff1f6b08
-
 ms.date: 12/05/2018
 ms.keywords: IADsNameTranslate interface [ADSI],SetEx method, IADsNameTranslate.SetEx, IADsNameTranslate::SetEx, SetEx, SetEx method [ADSI], SetEx method [ADSI],IADsNameTranslate interface, _ds_iadsnametranslate_setex, adsi.iadsnametranslate__setex, adsi.iadsnametranslate_setex, iads/IADsNameTranslate::SetEx
 ms.topic: method
-f1_keywords: 
- - "iads/IADsNameTranslate.SetEx"
+f1_keywords:
+- iads/IADsNameTranslate.SetEx
 dev_langs:
- - c++
+- c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Activeds.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Activeds.dll
+- Activeds.dll
 api_name:
- - IADsNameTranslate.SetEx
+- IADsNameTranslate.SetEx
 targetos: Windows
 req.typenames: 
 req.redist: 

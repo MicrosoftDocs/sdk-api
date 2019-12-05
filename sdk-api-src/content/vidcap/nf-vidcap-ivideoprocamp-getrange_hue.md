@@ -1,19 +1,17 @@
 ---
 UID: NF:vidcap.IVideoProcAmp.getRange_Hue
 title: IVideoProcAmp::getRange_Hue (vidcap.h)
-
 description: The getRange_Hue method returns the range of hue settings supported by the camera.
 old-location: dshow\ivideoprocamp_getrange_hue.htm
 tech.root: DirectShow
 ms.assetid: 5625b73c-8033-4930-af26-e7c4b4fb6516
-
 ms.date: 12/05/2018
 ms.keywords: IVideoProcAmp interface [DirectShow],getRange_Hue method, IVideoProcAmp.getRange_Hue, IVideoProcAmp::getRange_Hue, IVideoProcAmpgetRange_Hue, dshow.ivideoprocamp_getrange_hue, getRange_Hue, getRange_Hue method [DirectShow], getRange_Hue method [DirectShow],IVideoProcAmp interface, vidcap/IVideoProcAmp::getRange_Hue
 ms.topic: method
-f1_keywords: 
- - "vidcap/IVideoProcAmp.getRange_Hue"
+f1_keywords:
+- vidcap/IVideoProcAmp.getRange_Hue
 dev_langs:
- - c++
+- c++
 req.header: vidcap.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Vidcap.h
+- Vidcap.h
 api_name:
- - IVideoProcAmp.getRange_Hue
+- IVideoProcAmp.getRange_Hue
 targetos: Windows
 req.typenames: 
 req.redist: 

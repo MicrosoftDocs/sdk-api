@@ -1,19 +1,17 @@
 ---
 UID: NF:shlwapi.SHRegGetBoolUSValueW
 title: SHRegGetBoolUSValueW function (shlwapi.h)
-
 description: Retrieves a Boolean value from a registry subkey in a user-specific subtree (HKEY_CURRENT_USER or HKEY_LOCAL_MACHINE).
 old-location: shell\SHRegGetBoolUSValue.htm
 tech.root: shell
 ms.assetid: afd95ce4-0ced-48ce-814f-1d02d7913be5
-
 ms.date: 12/05/2018
 ms.keywords: SHRegGetBoolUSValue, SHRegGetBoolUSValue function [Windows Shell], SHRegGetBoolUSValueA, SHRegGetBoolUSValueW, _win32_SHRegGetBoolUSValue, shell.SHRegGetBoolUSValue, shlwapi/SHRegGetBoolUSValue, shlwapi/SHRegGetBoolUSValueA, shlwapi/SHRegGetBoolUSValueW
 ms.topic: function
-f1_keywords: 
- - "shlwapi/SHRegGetBoolUSValue"
+f1_keywords:
+- shlwapi/SHRegGetBoolUSValue
 dev_langs:
- - c++
+- c++
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,20 +30,20 @@ req.lib: Shlwapi.lib
 req.dll: Shlwapi.dll (version 4.71 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Shlwapi.dll
- - API-MS-Win-Core-Registryuserspecific-l1-1-0.dll
- - KernelBase.dll
- - API-MS-Win-DownLevel-shlwapi-l1-1-0.dll
- - API-MS-Win-DownLevel-shlwapi-l1-1-1.dll
+- Shlwapi.dll
+- API-MS-Win-Core-Registryuserspecific-l1-1-0.dll
+- KernelBase.dll
+- API-MS-Win-DownLevel-shlwapi-l1-1-0.dll
+- API-MS-Win-DownLevel-shlwapi-l1-1-1.dll
 api_name:
- - SHRegGetBoolUSValue
- - SHRegGetBoolUSValueA
- - SHRegGetBoolUSValueW
+- SHRegGetBoolUSValue
+- SHRegGetBoolUSValueA
+- SHRegGetBoolUSValueW
 targetos: Windows
 req.typenames: 
 req.redist: 

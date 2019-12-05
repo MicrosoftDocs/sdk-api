@@ -1,19 +1,17 @@
 ---
 UID: NE:fsrmenums._AdrEmailFlags
 title: AdrEmailFlags (fsrmenums.h)
-
 description: Describes the options for access denied remediation (ADR) email.
 old-location: fsrm\adremailflags.htm
 tech.root: fsrm
 ms.assetid: 149c0f4b-b30b-4439-b8a8-d0423be41c64
-
 ms.date: 12/05/2018
 ms.keywords: AdrEmailFlags, AdrEmailFlags enumeration [File Server Resource Manager], AdrEmailFlags_GenerateEventLog, AdrEmailFlags_IncludeDeviceClaims, AdrEmailFlags_IncludeUserInfo, AdrEmailFlags_PutAdminOnToLine, AdrEmailFlags_PutDataOwnerOnToLine, fs.adremailflags, fsrm.adremailflags, fsrmenums/AdrEmailFlags, fsrmenums/AdrEmailFlags_GenerateEventLog, fsrmenums/AdrEmailFlags_IncludeDeviceClaims, fsrmenums/AdrEmailFlags_IncludeUserInfo, fsrmenums/AdrEmailFlags_PutAdminOnToLine, fsrmenums/AdrEmailFlags_PutDataOwnerOnToLine
 ms.topic: enum
-f1_keywords: 
- - "fsrmenums/AdrEmailFlags"
+f1_keywords:
+- fsrmenums/AdrEmailFlags
 dev_langs:
- - c++
+- c++
 req.header: fsrmenums.h
 req.include-header: FsrmPipeline.h, FsrmQuota.h, FsrmReports.h, FsrmScreen.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - FsrmEnums.h
+- FsrmEnums.h
 api_name:
- - AdrEmailFlags
+- AdrEmailFlags
 targetos: Windows
 req.typenames: AdrEmailFlags
 req.redist: 

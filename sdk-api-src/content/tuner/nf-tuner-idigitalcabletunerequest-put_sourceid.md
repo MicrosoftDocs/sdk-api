@@ -1,19 +1,17 @@
 ---
 UID: NF:tuner.IDigitalCableTuneRequest.put_SourceID
 title: IDigitalCableTuneRequest::put_SourceID (tuner.h)
-
 description: The put_SourceID method sets the source identifier, which maps to a physical channel.
 old-location: mstv\idigitalcabletunerequest_put_sourceid.htm
 tech.root: mstv
 ms.assetid: 4864f59c-5f06-419e-a0ca-d8bfb72a666c
-
 ms.date: 12/05/2018
 ms.keywords: IDigitalCableTuneRequest interface [Microsoft TV Technologies],put_SourceID method, IDigitalCableTuneRequest.put_SourceID, IDigitalCableTuneRequest::put_SourceID, IDigitalCableTuneRequestput_SourceID, mstv.idigitalcabletunerequest_put_sourceid, put_SourceID, put_SourceID method [Microsoft TV Technologies], put_SourceID method [Microsoft TV Technologies],IDigitalCableTuneRequest interface, tuner/IDigitalCableTuneRequest::put_SourceID
 ms.topic: method
-f1_keywords: 
- - "tuner/IDigitalCableTuneRequest.put_SourceID"
+f1_keywords:
+- tuner/IDigitalCableTuneRequest.put_SourceID
 dev_langs:
- - c++
+- c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - tuner.h
+- tuner.h
 api_name:
- - IDigitalCableTuneRequest.put_SourceID
+- IDigitalCableTuneRequest.put_SourceID
 targetos: Windows
 req.typenames: 
 req.redist: 

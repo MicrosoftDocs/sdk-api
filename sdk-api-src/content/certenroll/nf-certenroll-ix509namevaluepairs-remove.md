@@ -1,19 +1,17 @@
 ---
 UID: NF:certenroll.IX509NameValuePairs.Remove
 title: IX509NameValuePairs::Remove (certenroll.h)
-
 description: Removes an IX509NameValuePair object from the collection by index number.
 old-location: security\ix509namevaluepairs_remove_method.htm
 tech.root: seccertenroll
 ms.assetid: f66dbfd1-331f-4e1b-a17e-f8071044d073
-
 ms.date: 12/05/2018
 ms.keywords: IX509NameValuePairs interface [Security],Remove method, IX509NameValuePairs.Remove, IX509NameValuePairs::Remove, Remove, Remove method [Security], Remove method [Security],IX509NameValuePairs interface, certenroll/IX509NameValuePairs::Remove, security.ix509namevaluepairs_remove_method
 ms.topic: method
-f1_keywords: 
- - "certenroll/IX509NameValuePairs.Remove"
+f1_keywords:
+- certenroll/IX509NameValuePairs.Remove
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: CertEnroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CertEnroll.dll
+- CertEnroll.dll
 api_name:
- - IX509NameValuePairs.Remove
+- IX509NameValuePairs.Remove
 targetos: Windows
 req.typenames: 
 req.redist: 

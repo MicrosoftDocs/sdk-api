@@ -1,19 +1,17 @@
 ---
 UID: NF:rpcproxy.CStdStubBuffer2_Disconnect
 title: CStdStubBuffer2_Disconnect function (rpcproxy.h)
-
 description: Implements the IRpcStubBuffer::Disconnect method and disconnects the server object from the stub.
 old-location: rpc\cstdstubbuffer2_disconnect.htm
 tech.root: Rpc
 ms.assetid: 5593A1C5-37B1-4A83-BEA3-F99AB82CF8FD
-
 ms.date: 12/05/2018
 ms.keywords: CStdStubBuffer2_Disconnect, CStdStubBuffer2_Disconnect function [RPC], rpc.cstdstubbuffer2_disconnect, rpcproxy/CStdStubBuffer2_Disconnect
 ms.topic: function
-f1_keywords: 
- - "rpcproxy/CStdStubBuffer2_Disconnect"
+f1_keywords:
+- rpcproxy/CStdStubBuffer2_Disconnect
 dev_langs:
- - c++
+- c++
 req.header: rpcproxy.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Ole32.lib
 req.dll: Ole32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - ole32.dll
- - API-MS-Win-Core-Com-MidlProxyStub-L1-1-0.dll
- - COMBase.dll
+- ole32.dll
+- API-MS-Win-Core-Com-MidlProxyStub-L1-1-0.dll
+- COMBase.dll
 api_name:
- - CStdStubBuffer2_Disconnect
+- CStdStubBuffer2_Disconnect
 targetos: Windows
 req.typenames: 
 req.redist: 

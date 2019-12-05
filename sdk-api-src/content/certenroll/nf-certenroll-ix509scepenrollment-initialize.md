@@ -1,19 +1,17 @@
 ---
 UID: NF:certenroll.IX509SCEPEnrollment.Initialize
 title: IX509SCEPEnrollment::Initialize (certenroll.h)
-
 description: Initialize the instance in preparation for a new request.
 old-location: security\ix509scepenrollment_initialize.htm
 tech.root: seccertenroll
 ms.assetid: dcb887ab-c8b7-42e7-8b49-93755d24ba70
-
 ms.date: 12/05/2018
 ms.keywords: IX509SCEPEnrollment interface [Security],Initialize method, IX509SCEPEnrollment.Initialize, IX509SCEPEnrollment::Initialize, Initialize, Initialize method [Security], Initialize method [Security],IX509SCEPEnrollment interface, certenroll/IX509SCEPEnrollment::Initialize, security.ix509scepenrollment_initialize
 ms.topic: method
-f1_keywords: 
- - "certenroll/IX509SCEPEnrollment.Initialize"
+f1_keywords:
+- certenroll/IX509SCEPEnrollment.Initialize
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Certenroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Certenroll.dll
+- Certenroll.dll
 api_name:
- - IX509SCEPEnrollment.Initialize
+- IX509SCEPEnrollment.Initialize
 targetos: Windows
 req.typenames: 
 req.redist: 

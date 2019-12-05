@@ -1,19 +1,17 @@
 ---
 UID: NN:wsdhost.IWSDDeviceHostNotify
 title: IWSDDeviceHostNotify (wsdhost.h)
-
 description: Provides device-related notifications to an instance of an IWSDDeviceHost object.
 old-location: ncd\iwsddevicehostnotify.htm
 tech.root: WsdApi
 ms.assetid: e68e347d-5251-4931-bbcc-7a92b46bf4bd
-
 ms.date: 12/05/2018
 ms.keywords: IWSDDeviceHostNotify, IWSDDeviceHostNotify interface, IWSDDeviceHostNotify interface,described, ncd.iwsddevicehostnotify, wsdhost/IWSDDeviceHostNotify
 ms.topic: interface
-f1_keywords: 
- - "wsdhost/IWSDDeviceHostNotify"
+f1_keywords:
+- wsdhost/IWSDDeviceHostNotify
 dev_langs:
- - c++
+- c++
 req.header: wsdhost.h
 req.include-header: Wsdapi.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wsdapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wsdapi.dll
+- Wsdapi.dll
 api_name:
- - IWSDDeviceHostNotify
+- IWSDDeviceHostNotify
 targetos: Windows
 req.typenames: 
 req.redist: 

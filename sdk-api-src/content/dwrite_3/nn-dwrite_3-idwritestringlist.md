@@ -1,19 +1,17 @@
 ---
 UID: NN:dwrite_3.IDWriteStringList
 title: IDWriteStringList (dwrite_3.h)
-
 description: Represents a collection of strings indexed by number.
 old-location: directwrite\idwritestringlist.htm
 tech.root: DirectWrite
 ms.assetid: 07A61B37-C63D-4F7D-888C-96B56F30F477
-
 ms.date: 12/05/2018
 ms.keywords: IDWriteStringList, IDWriteStringList interface [Direct Write], IDWriteStringList interface [Direct Write],described, directwrite.idwritestringlist, dwrite_3/IDWriteStringList
 ms.topic: interface
-f1_keywords: 
- - "dwrite_3/IDWriteStringList"
+f1_keywords:
+- dwrite_3/IDWriteStringList
 dev_langs:
- - c++
+- c++
 req.header: dwrite_3.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dwrite.lib
 req.dll: Dwrite.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dwrite.dll
+- dwrite.dll
 api_name:
- - IDWriteStringList
+- IDWriteStringList
 targetos: Windows
 req.typenames: 
 req.redist: 

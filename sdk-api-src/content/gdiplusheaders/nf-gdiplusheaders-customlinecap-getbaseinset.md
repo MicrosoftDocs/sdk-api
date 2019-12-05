@@ -1,19 +1,17 @@
 ---
 UID: NF:gdiplusheaders.CustomLineCap.GetBaseInset
 title: CustomLineCap::GetBaseInset (gdiplusheaders.h)
-
 description: The CustomLineCap::GetBaseInset method gets the distance between the base cap to the start of the line.
 old-location: gdiplus\_gdiplus_CLASS_CustomLineCap_GetBaseInset_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\customlinecapclass\customlinecapmethods\getbaseinset.htm
-
 ms.date: 12/05/2018
 ms.keywords: CustomLineCap class [GDI+],GetBaseInset method, CustomLineCap.GetBaseInset, CustomLineCap::GetBaseInset, GetBaseInset, GetBaseInset method [GDI+], GetBaseInset method [GDI+],CustomLineCap class, _gdiplus_CLASS_CustomLineCap_GetBaseInset_, gdiplus._gdiplus_CLASS_CustomLineCap_GetBaseInset_
 ms.topic: method
-f1_keywords: 
- - "gdiplusheaders/CustomLineCap.GetBaseInset"
+f1_keywords:
+- gdiplusheaders/CustomLineCap.GetBaseInset
 dev_langs:
- - c++
+- c++
 req.header: gdiplusheaders.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - CustomLineCap.GetBaseInset
+- CustomLineCap.GetBaseInset
 targetos: Windows
 req.typenames: 
 req.redist: 

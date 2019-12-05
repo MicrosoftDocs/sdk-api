@@ -1,19 +1,17 @@
 ---
 UID: NF:sbe.ISBE2Crossbar.SetOutputProfile
 title: ISBE2Crossbar::SetOutputProfile (sbe.h)
-
 description: Replaces the default or current input profile with the profile specified in this method.
 old-location: mstv\isbe2crossbar_setoutputprofile.htm
 tech.root: mstv
 ms.assetid: 34067ca5-ead0-44ac-b274-dc9e3f2fb2fd
-
 ms.date: 12/05/2018
 ms.keywords: ISBE2Crossbar interface [Microsoft TV Technologies],SetOutputProfile method, ISBE2Crossbar.SetOutputProfile, ISBE2Crossbar::SetOutputProfile, SetOutputProfile, SetOutputProfile method [Microsoft TV Technologies], SetOutputProfile method [Microsoft TV Technologies],ISBE2Crossbar interface, mstv.isbe2crossbar_setoutputprofile, sbe/ISBE2Crossbar::SetOutputProfile
 ms.topic: method
-f1_keywords: 
- - "sbe/ISBE2Crossbar.SetOutputProfile"
+f1_keywords:
+- sbe/ISBE2Crossbar.SetOutputProfile
 dev_langs:
- - c++
+- c++
 req.header: sbe.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - sbe.h
+- sbe.h
 api_name:
- - ISBE2Crossbar.SetOutputProfile
+- ISBE2Crossbar.SetOutputProfile
 targetos: Windows
 req.typenames: 
 req.redist: 

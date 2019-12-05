@@ -1,19 +1,17 @@
 ---
 UID: NS:winml.WINML_MODEL_DESC
 title: WINML_MODEL_DESC (winml.h)
-
 description: Contains description properties of the model.
 old-location: machinelearning\winml_model_desc.htm
 tech.root: MachineLearning
 ms.assetid: 2EDFB412-0EE2-4CC7-9718-D35A815803B2
-
 ms.date: 12/05/2018
 ms.keywords: MachineLearning.winml_model_desc, PWINML_MODEL_DESC, PWINML_MODEL_DESC structure pointer, WINML_MODEL_DESC, WINML_MODEL_DESC structure, winml/PWINML_MODEL_DESC, winml/WINML_MODEL_DESC
 ms.topic: struct
-f1_keywords: 
- - "winml/WINML_MODEL_DESC"
+f1_keywords:
+- winml/WINML_MODEL_DESC
 dev_langs:
- - c++
+- c++
 req.header: winml.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - winml.h
+- winml.h
 api_name:
- - WINML_MODEL_DESC
+- WINML_MODEL_DESC
 targetos: Windows
 req.typenames: WINML_MODEL_DESC
 req.redist: 

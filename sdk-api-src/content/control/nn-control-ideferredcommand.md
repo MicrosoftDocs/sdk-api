@@ -1,19 +1,17 @@
 ---
 UID: NN:control.IDeferredCommand
 title: IDeferredCommand (control.h)
-
 description: The IDeferredCommand interface cancels or modify graph-control commands that were queued using the IQueueCommand interface.When an application calls an IQueueCommand method on the Filter Graph Manager, it receives a pointer to the IDeferredCommand interface. The application can use the interface to cancel or postpone the command, or retrieve the return value from the command.
 old-location: dshow\ideferredcommand.htm
 tech.root: DirectShow
 ms.assetid: 8161932a-16aa-4700-b91d-b4d8948ad59f
-
 ms.date: 12/05/2018
 ms.keywords: IDeferredCommand, IDeferredCommand interface [DirectShow], IDeferredCommand interface [DirectShow],described, IDeferredCommandInterface, control/IDeferredCommand, dshow.ideferredcommand
 ms.topic: interface
-f1_keywords: 
- - "control/IDeferredCommand"
+f1_keywords:
+- control/IDeferredCommand
 dev_langs:
- - c++
+- c++
 req.header: control.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IDeferredCommand
+- IDeferredCommand
 targetos: Windows
 req.typenames: 
 req.redist: 

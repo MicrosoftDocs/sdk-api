@@ -1,19 +1,17 @@
 ---
 UID: NF:mfapi.MFCreateVideoMediaTypeFromBitMapInfoHeader
 title: MFCreateVideoMediaTypeFromBitMapInfoHeader function (mfapi.h)
-
 description: This function is not implemented.
 old-location: mf\mfcreatevideomediatypefrombitmapinfoheader.htm
 tech.root: medfound
 ms.assetid: 5c0f4915-2e8f-4b1e-bd49-39f1854d2640
-
 ms.date: 12/05/2018
 ms.keywords: 5c0f4915-2e8f-4b1e-bd49-39f1854d2640, MFCreateVideoMediaTypeFromBitMapInfoHeader, MFCreateVideoMediaTypeFromBitMapInfoHeader function [Media Foundation], mf.mfcreatevideomediatypefrombitmapinfoheader, mfapi/MFCreateVideoMediaTypeFromBitMapInfoHeader
 ms.topic: function
-f1_keywords: 
- - "mfapi/MFCreateVideoMediaTypeFromBitMapInfoHeader"
+f1_keywords:
+- mfapi/MFCreateVideoMediaTypeFromBitMapInfoHeader
 dev_langs:
- - c++
+- c++
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Evr.lib
 req.dll: Mfplat.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - mfplat.dll
+- mfplat.dll
 api_name:
- - MFCreateVideoMediaTypeFromBitMapInfoHeader
+- MFCreateVideoMediaTypeFromBitMapInfoHeader
 targetos: Windows
 req.typenames: 
 req.redist: 

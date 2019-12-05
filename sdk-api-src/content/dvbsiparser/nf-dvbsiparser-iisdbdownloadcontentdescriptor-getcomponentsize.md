@@ -1,19 +1,17 @@
 ---
 UID: NF:dvbsiparser.IIsdbDownloadContentDescriptor.GetComponentSize
 title: IIsdbDownloadContentDescriptor::GetComponentSize (dvbsiparser.h)
-
 description: Gets the total size of components transmitted within the same carousel from an Integrated Services Digital Broadcasting (ISDB) download content descriptor, in bytes.
 old-location: mstv\iisdbdownloadcontentdescriptor_getcomponentsize.htm
 tech.root: mstv
 ms.assetid: 07edb403-6674-4673-928c-91e7df9fe9da
-
 ms.date: 12/05/2018
 ms.keywords: GetComponentSize, GetComponentSize method [Microsoft TV Technologies], GetComponentSize method [Microsoft TV Technologies],IIsdbDownloadContentDescriptor interface, IIsdbDownloadContentDescriptor interface [Microsoft TV Technologies],GetComponentSize method, IIsdbDownloadContentDescriptor.GetComponentSize, IIsdbDownloadContentDescriptor::GetComponentSize, dvbsiparser/IIsdbDownloadContentDescriptor::GetComponentSize, mstv.iisdbdownloadcontentdescriptor_getcomponentsize
 ms.topic: method
-f1_keywords: 
- - "dvbsiparser/IIsdbDownloadContentDescriptor.GetComponentSize"
+f1_keywords:
+- dvbsiparser/IIsdbDownloadContentDescriptor.GetComponentSize
 dev_langs:
- - c++
+- c++
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dvbsiparser.h
+- dvbsiparser.h
 api_name:
- - IIsdbDownloadContentDescriptor.GetComponentSize
+- IIsdbDownloadContentDescriptor.GetComponentSize
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:imm.ImmNotifyIME
 title: ImmNotifyIME function (imm.h)
-
 description: Notifies the IME about changes to the status of the input context.
 old-location: intl\immnotifyime.htm
 tech.root: Intl
 ms.assetid: 3ac1a32d-89a2-45e4-9dcb-b2aea5195489
-
 ms.date: 12/05/2018
 ms.keywords: CPS_CANCEL, CPS_COMPLETE, CPS_CONVERT, CPS_REVERT, ImmNotifyIME, ImmNotifyIME function [Internationalization for Windows Applications], NI_CHANGECANDIDATELIST, NI_CLOSECANDIDATE, NI_COMPOSITIONSTR, NI_IMEMENUSELECTED, NI_OPENCANDIDATE, NI_SELECTCANDIDATESTR, NI_SETCANDIDATE_PAGESIZE, NI_SETCANDIDATE_PAGESTART, _win32_ImmNotifyIME, imm/ImmNotifyIME, intl.immnotifyime
 ms.topic: function
-f1_keywords: 
- - "imm/ImmNotifyIME"
+f1_keywords:
+- imm/ImmNotifyIME
 dev_langs:
- - c++
+- c++
 req.header: imm.h
 req.include-header: Immdev.h, Windows.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Imm32.lib
 req.dll: Imm32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Imm32.dll
- - Ext-MS-Win-imm-l1-1-0.dll
- - ext-ms-win-imm-l1-1-1.dll
+- Imm32.dll
+- Ext-MS-Win-imm-l1-1-0.dll
+- ext-ms-win-imm-l1-1-1.dll
 api_name:
- - ImmNotifyIME
+- ImmNotifyIME
 targetos: Windows
 req.typenames: 
 req.redist: 

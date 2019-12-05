@@ -1,19 +1,17 @@
 ---
 UID: NF:webservices.WsPushBytes
 title: WsPushBytes function (webservices.h)
-
 description: Establishes a callback to be invoked to write bytes within an element. In some encodings this can be more efficient by eliminating a copy of the data.
 old-location: wsw\wspushbytes.htm
 tech.root: wsw
 ms.assetid: 295eb530-00f1-4e80-bd8a-ffb3eb1fad5b
-
 ms.date: 12/05/2018
 ms.keywords: WsPushBytes, WsPushBytes function [Web Services for Windows], webservices/WsPushBytes, wsw.wspushbytes
 ms.topic: function
-f1_keywords: 
- - "webservices/WsPushBytes"
+f1_keywords:
+- webservices/WsPushBytes
 dev_langs:
- - c++
+- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: WebServices.lib
 req.dll: WebServices.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - WebServices.dll
+- WebServices.dll
 api_name:
- - WsPushBytes
+- WsPushBytes
 targetos: Windows
 req.typenames: 
 req.redist: 

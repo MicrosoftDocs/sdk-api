@@ -1,19 +1,17 @@
 ---
 UID: NF:vfw.capOverlay
 title: capOverlay macro (vfw.h)
-
 description: The capOverlay macro enables or disables overlay mode. In overlay mode, video is displayed using hardware overlay. You can use this macro or explicitly call the WM_CAP_SET_OVERLAY message.
 old-location: multimedia\capoverlay.htm
 tech.root: Multimedia
 ms.assetid: a6508e33-7864-4f19-a844-0ba280028f43
-
 ms.date: 12/05/2018
-ms.keywords: "_win32_capOverlay, capOverlay, capOverlay macro [Windows Multimedia], multimedia.capoverlay, vfw/capOverlay"
+ms.keywords: _win32_capOverlay, capOverlay, capOverlay macro [Windows Multimedia], multimedia.capoverlay, vfw/capOverlay
 ms.topic: macro
-f1_keywords: 
- - "vfw/capOverlay"
+f1_keywords:
+- vfw/capOverlay
 dev_langs:
- - c++
+- c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Vfw.h
+- Vfw.h
 api_name:
- - capOverlay
+- capOverlay
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NS:lmjoin._NETSETUP_PROVISIONING_PARAMS
 title: NETSETUP_PROVISIONING_PARAMS (lmjoin.h)
-
 description: The NETSETUP_PROVISIONING_PARAMS structure contains information that is used when creating a provisioning package using the NetCreateProvisionPackage function.
 old-location: netmgmt\netsetup_provisioning_params.htm
 tech.root: NetMgmt
 ms.assetid: E965804F-145A-4D8F-BB8E-466580AC65DA
-
 ms.date: 12/05/2018
-ms.keywords: "*PNETSETUP_PROVISIONING_PARAMS, NETSETUP_PROVISIONING_PARAMS, NETSETUP_PROVISIONING_PARAMS structure [Network Management], NETSETUP_PROVISIONING_PARAMS_CURRENT_VERSION, NETSETUP_PROVISION_DOWNLEVEL_PRIV_SUPPORT, NETSETUP_PROVISION_REUSE_ACCOUNT, NETSETUP_PROVISION_ROOT_CA_CERTS, NETSETUP_PROVISION_SKIP_ACCOUNT_SEARCH, NETSETUP_PROVISION_USE_DEFAULT_PASSWORD, PNETSETUP_PROVISIONING_PARAMS, PNETSETUP_PROVISIONING_PARAMS structure pointer [Network Management], lmjoin/NETSETUP_PROVISIONING_PARAMS, lmjoin/PNETSETUP_PROVISIONING_PARAMS, netmgmt.netsetup_provisioning_params"
+ms.keywords: '*PNETSETUP_PROVISIONING_PARAMS, NETSETUP_PROVISIONING_PARAMS, NETSETUP_PROVISIONING_PARAMS structure [Network Management], NETSETUP_PROVISIONING_PARAMS_CURRENT_VERSION, NETSETUP_PROVISION_DOWNLEVEL_PRIV_SUPPORT, NETSETUP_PROVISION_REUSE_ACCOUNT, NETSETUP_PROVISION_ROOT_CA_CERTS, NETSETUP_PROVISION_SKIP_ACCOUNT_SEARCH, NETSETUP_PROVISION_USE_DEFAULT_PASSWORD, PNETSETUP_PROVISIONING_PARAMS, PNETSETUP_PROVISIONING_PARAMS structure pointer [Network Management], lmjoin/NETSETUP_PROVISIONING_PARAMS, lmjoin/PNETSETUP_PROVISIONING_PARAMS, netmgmt.netsetup_provisioning_params'
 ms.topic: struct
-f1_keywords: 
- - "lmjoin/NETSETUP_PROVISIONING_PARAMS"
+f1_keywords:
+- lmjoin/NETSETUP_PROVISIONING_PARAMS
 dev_langs:
- - c++
+- c++
 req.header: lmjoin.h
 req.include-header: Lm.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Lmjoin.h
+- Lmjoin.h
 api_name:
- - NETSETUP_PROVISIONING_PARAMS
+- NETSETUP_PROVISIONING_PARAMS
 targetos: Windows
 req.typenames: NETSETUP_PROVISIONING_PARAMS, *PNETSETUP_PROVISIONING_PARAMS
 req.redist: 

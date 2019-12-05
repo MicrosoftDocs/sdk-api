@@ -1,19 +1,17 @@
 ---
 UID: NN:mfidl.IMFNetCrossOriginSupport
 title: IMFNetCrossOriginSupport (mfidl.h)
-
 description: Implemented by clients that want to enforce a cross origin policy for HTML5 media downloads.
 old-location: mf\imfnetcrossoriginsupport.htm
 tech.root: medfound
 ms.assetid: 239E5731-4425-46D4-AFEC-F3E59258B1DF
-
 ms.date: 12/05/2018
 ms.keywords: IMFNetCrossOriginSupport, IMFNetCrossOriginSupport interface [Media Foundation], IMFNetCrossOriginSupport interface [Media Foundation],described, mf.imfnetcrossoriginsupport, mfidl/IMFNetCrossOriginSupport
 ms.topic: interface
-f1_keywords: 
- - "mfidl/IMFNetCrossOriginSupport"
+f1_keywords:
+- mfidl/IMFNetCrossOriginSupport
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfidl.h
+- mfidl.h
 api_name:
- - IMFNetCrossOriginSupport
+- IMFNetCrossOriginSupport
 targetos: Windows
 req.typenames: 
 req.redist: 

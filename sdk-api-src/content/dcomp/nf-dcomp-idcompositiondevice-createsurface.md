@@ -1,19 +1,17 @@
 ---
 UID: NF:dcomp.IDCompositionDevice.CreateSurface
 title: IDCompositionDevice::CreateSurface (dcomp.h)
-
 description: Creates an updateable surface object that can be associated with one or more visuals for composition.
 old-location: directcomp\idcompositiondevice_createsurface.htm
 tech.root: directcomp
 ms.assetid: 3B321BF8-A7A5-4E40-B548-D88CA45F6DAF
-
 ms.date: 12/05/2018
 ms.keywords: CreateSurface, CreateSurface method [DirectComposition], CreateSurface method [DirectComposition],IDCompositionDevice interface, DXGI_ALPHA_MODE_IGNORE, DXGI_ALPHA_MODE_PREMULTIPLIED, DXGI_ALPHA_MODE_UNSPECIFIED, IDCompositionDevice interface [DirectComposition],CreateSurface method, IDCompositionDevice.CreateSurface, IDCompositionDevice::CreateSurface, dcomp/IDCompositionDevice::CreateSurface, directcomp.idcompositiondevice_createsurface
 ms.topic: method
-f1_keywords: 
- - "dcomp/IDCompositionDevice.CreateSurface"
+f1_keywords:
+- dcomp/IDCompositionDevice.CreateSurface
 dev_langs:
- - c++
+- c++
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dcomp.lib
 req.dll: Dcomp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dcomp.dll
+- Dcomp.dll
 api_name:
- - IDCompositionDevice.CreateSurface
+- IDCompositionDevice.CreateSurface
 targetos: Windows
 req.typenames: 
 req.redist: 

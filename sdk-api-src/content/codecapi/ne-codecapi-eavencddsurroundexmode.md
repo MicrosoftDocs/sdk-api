@@ -1,19 +1,17 @@
 ---
 UID: NE:codecapi.eAVEncDDSurroundExMode
 title: eAVEncDDSurroundExMode (codecapi.h)
-
 description: Specifies whether a Dolby Digital audio stream is encoded in Dolby Digital Surround EX. This enumeration is used with the AVEncDDSurroundExMode property.
 old-location: dshow\eavencddsurroundexmode.htm
 tech.root: DirectShow
 ms.assetid: 067614ca-c32d-4160-ae77-4e6c3dbafdf0
-
 ms.date: 12/05/2018
 ms.keywords: codecapi/eAVEncDDSurroundExMode, codecapi/eAVEncDDSurroundExMode_No, codecapi/eAVEncDDSurroundExMode_NotIndicated, codecapi/eAVEncDDSurroundExMode_Yes, dshow.eavencddsurroundexmode, eAVEncDDSurroundExMode, eAVEncDDSurroundExMode enumeration [DirectShow], eAVEncDDSurroundExModeEnumeration, eAVEncDDSurroundExMode_No, eAVEncDDSurroundExMode_NotIndicated, eAVEncDDSurroundExMode_Yes
 ms.topic: enum
-f1_keywords: 
- - "codecapi/eAVEncDDSurroundExMode"
+f1_keywords:
+- codecapi/eAVEncDDSurroundExMode
 dev_langs:
- - c++
+- c++
 req.header: codecapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - codecapi.h
+- codecapi.h
 api_name:
- - eAVEncDDSurroundExMode
+- eAVEncDDSurroundExMode
 targetos: Windows
 req.typenames: 
 req.redist: 

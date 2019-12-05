@@ -1,19 +1,17 @@
 ---
 UID: NF:mi.MI_Operation_GetSession
 title: MI_Operation_GetSession function (mi.h)
-
 description: Gets the session associated with an operation.
 old-location: wmi_v2\mi_operation_getsession.htm
 tech.root: wmi_v2
 ms.assetid: 710ccbc5-956c-4bb3-b93b-f61a449c08ef
-
 ms.date: 12/05/2018
 ms.keywords: MI_Operation_GetSession, MI_Operation_GetSession function [Windows Management Infrastructure (MI)], mi/MI_Operation_GetSession, wmi_v2.mi_operation_getsession
 ms.topic: function
-f1_keywords: 
- - "mi/MI_Operation_GetSession"
+f1_keywords:
+- mi/MI_Operation_GetSession
 dev_langs:
- - c++
+- c++
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Mi.h
+- Mi.h
 api_name:
- - MI_Operation_GetSession
+- MI_Operation_GetSession
 targetos: Windows
 req.typenames: 
 req.redist: Windows Management Framework 3.0 on Windows Server 2008 R2 with SP1, Windows 7 with SP1, and Windows Server 2008 with SP2

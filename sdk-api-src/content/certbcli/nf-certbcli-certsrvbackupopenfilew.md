@@ -1,19 +1,17 @@
 ---
 UID: NF:certbcli.CertSrvBackupOpenFileW
 title: CertSrvBackupOpenFileW function (certbcli.h)
-
 description: Opens a file for backup.
 old-location: security\certsrvbackupopenfile.htm
 tech.root: SecCrypto
 ms.assetid: 5ddce73f-c693-437a-9eae-d7eaf482ee05
-
 ms.date: 12/05/2018
 ms.keywords: CertSrvBackupOpenFile, CertSrvBackupOpenFile function [Security], CertSrvBackupOpenFileW, _certsrv_certsrvbackupopenfile, certbcli/CertSrvBackupOpenFile, certbcli/CertSrvBackupOpenFileW, security.certsrvbackupopenfile
 ms.topic: function
-f1_keywords: 
- - "certbcli/CertSrvBackupOpenFile"
+f1_keywords:
+- certbcli/CertSrvBackupOpenFile
 dev_langs:
- - c++
+- c++
 req.header: certbcli.h
 req.include-header: Certsrv.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Certadm.lib
 req.dll: Certadm.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Certadm.dll
+- Certadm.dll
 api_name:
- - CertSrvBackupOpenFile
- - CertSrvBackupOpenFileW
+- CertSrvBackupOpenFile
+- CertSrvBackupOpenFileW
 targetos: Windows
 req.typenames: 
 req.redist: 

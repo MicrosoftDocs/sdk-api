@@ -1,19 +1,17 @@
 ---
 UID: NF:winbase.ObjectDeleteAuditAlarmA
 title: ObjectDeleteAuditAlarmA function (winbase.h)
-
 description: Generates audit messages when an object is deleted.
 old-location: security\objectdeleteauditalarm.htm
 tech.root: SecAuthZ
 ms.assetid: cb4c857c-5e63-41fe-8ae8-6762b0014a85
-
 ms.date: 12/05/2018
 ms.keywords: ObjectDeleteAuditAlarm, ObjectDeleteAuditAlarm function [Security], ObjectDeleteAuditAlarmA, ObjectDeleteAuditAlarmW, _win32_objectdeleteauditalarm, security.objectdeleteauditalarm, winbase/ObjectDeleteAuditAlarm, winbase/ObjectDeleteAuditAlarmA, winbase/ObjectDeleteAuditAlarmW
 ms.topic: function
-f1_keywords: 
- - "winbase/ObjectDeleteAuditAlarm"
+f1_keywords:
+- winbase/ObjectDeleteAuditAlarm
 dev_langs:
- - c++
+- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,22 +30,22 @@ req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Advapi32.dll
- - API-MS-Win-DownLevel-AdvApi32-l1-1-1.dll
- - KernelBase.dll
- - API-MS-Win-Security-base-l1-1-0.dll
- - API-MS-Win-Security-base-l1-2-0.dll
- - MinKernelBase.dll
- - API-MS-Win-Security-Base-L1-2-1.dll
+- Advapi32.dll
+- API-MS-Win-DownLevel-AdvApi32-l1-1-1.dll
+- KernelBase.dll
+- API-MS-Win-Security-base-l1-1-0.dll
+- API-MS-Win-Security-base-l1-2-0.dll
+- MinKernelBase.dll
+- API-MS-Win-Security-Base-L1-2-1.dll
 api_name:
- - ObjectDeleteAuditAlarm
- - ObjectDeleteAuditAlarmA
- - ObjectDeleteAuditAlarmW
+- ObjectDeleteAuditAlarm
+- ObjectDeleteAuditAlarmA
+- ObjectDeleteAuditAlarmW
 targetos: Windows
 req.typenames: 
 req.redist: 

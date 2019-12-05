@@ -1,19 +1,17 @@
 ---
 UID: NF:winnls.GetDurationFormat
 title: GetDurationFormat function (winnls.h)
-
 description: Formats a duration of time as a time string for a locale specified by identifier.
 old-location: intl\getdurationformat.htm
 tech.root: Intl
 ms.assetid: bd3e1256-8f0c-488b-9b2f-ca93ffcbad84
-
 ms.date: 12/05/2018
 ms.keywords: GetDurationFormat, GetDurationFormat function [Internationalization for Windows Applications], _win32_GetDurationFormat, intl.getdurationformat, winnls/GetDurationFormat
 ms.topic: function
-f1_keywords: 
- - "winnls/GetDurationFormat"
+f1_keywords:
+- winnls/GetDurationFormat
 dev_langs:
- - c++
+- c++
 req.header: winnls.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
+- Kernel32.dll
 api_name:
- - GetDurationFormat
+- GetDurationFormat
 targetos: Windows
 req.typenames: 
 req.redist: 

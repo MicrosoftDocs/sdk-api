@@ -1,19 +1,17 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMDocumentCollection.RemoveAt
 title: IXpsOMDocumentCollection::RemoveAt (xpsobjectmodel.h)
-
 description: Removes and releases an IXpsOMDocument interface pointer from a specified location in the collection.
 old-location: xps\ixpsomdocumentcollection_removeat.htm
 tech.root: printdocs
 ms.assetid: e5e7d04c-c1da-4af7-9048-1a9b79ba4872
-
 ms.date: 12/05/2018
 ms.keywords: IXpsOMDocumentCollection interface [XPS Documents and Packaging],RemoveAt method, IXpsOMDocumentCollection.RemoveAt, IXpsOMDocumentCollection::RemoveAt, RemoveAt, RemoveAt method [XPS Documents and Packaging], RemoveAt method [XPS Documents and Packaging],IXpsOMDocumentCollection interface, xps.ixpsomdocumentcollection_removeat, xpsobjectmodel/IXpsOMDocumentCollection::RemoveAt
 ms.topic: method
-f1_keywords: 
- - "xpsobjectmodel/IXpsOMDocumentCollection.RemoveAt"
+f1_keywords:
+- xpsobjectmodel/IXpsOMDocumentCollection.RemoveAt
 dev_langs:
- - c++
+- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsobjectmodel.h
+- xpsobjectmodel.h
 api_name:
- - IXpsOMDocumentCollection.RemoveAt
+- IXpsOMDocumentCollection.RemoveAt
 targetos: Windows
 req.typenames: 
 req.redist: 

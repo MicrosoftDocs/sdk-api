@@ -1,19 +1,17 @@
 ---
 UID: NN:dvbsiparser.IIsdbCADescriptor
 title: IIsdbCADescriptor (dvbsiparser.h)
-
 description: Implements methods that get data from an Integrated Services Digital Broadcasting (ISDB) conditional access (CA) descriptor.
 old-location: mstv\iisdbcadescriptor.htm
 tech.root: mstv
 ms.assetid: 6683f3db-636b-42bb-a46d-c175a4324023
-
 ms.date: 12/05/2018
 ms.keywords: IIsdbCADescriptor, IIsdbCADescriptor interface [Microsoft TV Technologies], IIsdbCADescriptor interface [Microsoft TV Technologies],described, dvbsiparser/IIsdbCADescriptor, mstv.iisdbcadescriptor
 ms.topic: interface
-f1_keywords: 
- - "dvbsiparser/IIsdbCADescriptor"
+f1_keywords:
+- dvbsiparser/IIsdbCADescriptor
 dev_langs:
- - c++
+- c++
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dvbsiparser.h
+- dvbsiparser.h
 api_name:
- - IIsdbCADescriptor
+- IIsdbCADescriptor
 targetos: Windows
 req.typenames: 
 req.redist: 

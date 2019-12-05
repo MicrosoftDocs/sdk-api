@@ -1,19 +1,17 @@
 ---
 UID: NS:wingdi.tagEMRSELECTPALETTE
 title: EMRSELECTPALETTE (wingdi.h)
-
 description: The EMRSELECTPALETTE structure contains members for the SelectPalette enhanced metafile record. Note that the bForceBackground parameter in SelectPalette is always recorded as TRUE, which causes the palette to be realized as a background palette.
 old-location: gdi\emrselectpalette.htm
 tech.root: gdi
 ms.assetid: f83367c0-406a-4a5f-961f-8e5afe6707fd
-
 ms.date: 12/05/2018
-ms.keywords: "*PEMRSELECTPALETTE, EMRSELECTPALETTE, EMRSELECTPALETTE structure [Windows GDI], PEMRSELECTPALETTE, PEMRSELECTPALETTE structure pointer [Windows GDI], _win32_EMRSELECTPALETTE_str, gdi.emrselectpalette, wingdi/EMRSELECTPALETTE, wingdi/PEMRSELECTPALETTE"
+ms.keywords: '*PEMRSELECTPALETTE, EMRSELECTPALETTE, EMRSELECTPALETTE structure [Windows GDI], PEMRSELECTPALETTE, PEMRSELECTPALETTE structure pointer [Windows GDI], _win32_EMRSELECTPALETTE_str, gdi.emrselectpalette, wingdi/EMRSELECTPALETTE, wingdi/PEMRSELECTPALETTE'
 ms.topic: struct
-f1_keywords: 
- - "wingdi/EMRSELECTPALETTE"
+f1_keywords:
+- wingdi/EMRSELECTPALETTE
 dev_langs:
- - c++
+- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wingdi.h
+- Wingdi.h
 api_name:
- - EMRSELECTPALETTE
+- EMRSELECTPALETTE
 targetos: Windows
 req.typenames: EMRSELECTPALETTE, *PEMRSELECTPALETTE
 req.redist: 

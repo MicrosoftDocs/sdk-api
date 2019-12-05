@@ -1,19 +1,17 @@
 ---
 UID: NN:shlobj_core.IShellDetails
 title: IShellDetails (shlobj_core.h)
-
 description: Exposed by Shell folders to provide detailed information about the items in a folder.
 old-location: shell\IShellDetails.htm
 tech.root: shell
 ms.assetid: c31409fd-9350-46bb-a8a0-85d5958c6e49
-
 ms.date: 12/05/2018
 ms.keywords: IShellDetails, IShellDetails interface [Windows Shell], IShellDetails interface [Windows Shell],described, _win32_IShellDetails, shell.IShellDetails, shlobj_core/IShellDetails
 ms.topic: interface
-f1_keywords: 
- - "shlobj_core/IShellDetails"
+f1_keywords:
+- shlobj_core/IShellDetails
 dev_langs:
- - c++
+- c++
 req.header: shlobj_core.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Shell32.dll (version 5.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - IShellDetails
+- IShellDetails
 targetos: Windows
 req.typenames: 
 req.redist: 

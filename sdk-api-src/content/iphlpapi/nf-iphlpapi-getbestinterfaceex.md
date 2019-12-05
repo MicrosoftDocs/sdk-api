@@ -1,19 +1,17 @@
 ---
 UID: NF:iphlpapi.GetBestInterfaceEx
 title: GetBestInterfaceEx function (iphlpapi.h)
-
 description: The GetBestInterfaceEx function retrieves the index of the interface that has the best route to the specified IPv4 or IPv6 address.
 old-location: iphlp\getbestinterfaceex.htm
 tech.root: IpHlp
 ms.assetid: cfd1108e-d7a0-4fe5-be3f-299189089d37
-
 ms.date: 12/05/2018
 ms.keywords: GetBestInterfaceEx, GetBestInterfaceEx function [IP Helper], iphlp.getbestinterfaceex, iphlpapi/GetBestInterfaceEx
 ms.topic: function
-f1_keywords: 
- - "iphlpapi/GetBestInterfaceEx"
+f1_keywords:
+- iphlpapi/GetBestInterfaceEx
 dev_langs:
- - c++
+- c++
 req.header: iphlpapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Iphlpapi.lib
 req.dll: Iphlpapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Iphlpapi.dll
+- Iphlpapi.dll
 api_name:
- - GetBestInterfaceEx
+- GetBestInterfaceEx
 targetos: Windows
 req.typenames: 
 req.redist: 

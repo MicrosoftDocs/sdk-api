@@ -1,20 +1,18 @@
 ---
 UID: NN:vfw.IAVIStreaming
 title: IAVIStreaming (vfw.h)
-
 description: The IAVIStreaming interface supports preparing open data streams for playback in streaming operations. Uses IUnknown::QueryInterface, IUnknown::AddRef, IUnknown::Release in addition to the following custom methods:\_
-The IAVIStreaming interface supports preparing open data streams for playback in streaming operations. Uses IUnknown::QueryInterface, IUnknown::AddRef, IUnknown::Release in addition to the following custom methods:
+The IAVIStreaming interface supports preparing open data streams for playback in streaming operations. Uses IUnknown::QueryInterface, IUnknown::AddRef, IUnknown::Release in addition to the following custom methods: 
 old-location: multimedia\iavistreaming.htm
 tech.root: Multimedia
 ms.assetid: ff8ed190-5e90-4be1-8f14-0d288ce0837c
-
 ms.date: 12/05/2018
 ms.keywords: IAVIStreaming, IAVIStreaming interface [Windows Multimedia], IAVIStreaming interface [Windows Multimedia],described, _win32_IAVIStreaming, multimedia.iavistreaming, vfw/IAVIStreaming
 ms.topic: interface
-f1_keywords: 
- - "vfw/IAVIStreaming"
+f1_keywords:
+- vfw/IAVIStreaming
 dev_langs:
- - c++
+- c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows
@@ -33,15 +31,15 @@ req.lib: Vfw32.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Vfw32.lib
- - Vfw32.dll
+- Vfw32.lib
+- Vfw32.dll
 api_name:
- - IAVIStreaming
+- IAVIStreaming
 targetos: Windows
 req.typenames: 
 req.redist: 

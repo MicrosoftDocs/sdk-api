@@ -1,19 +1,17 @@
 ---
 UID: NF:vds.IVdsStoragePool.QueryDriveExtents
 title: IVdsStoragePool::QueryDriveExtents (vds.h)
-
 description: Returns an array of the drive extents that are used by a storage pool.
 old-location: base\ivdsstoragepool_querydriveextents.htm
 tech.root: VDS
 ms.assetid: 91bae6e6-3718-4d82-ab8c-e489b9a105fe
-
 ms.date: 12/05/2018
 ms.keywords: IVdsStoragePool interface,QueryDriveExtents method, IVdsStoragePool.QueryDriveExtents, IVdsStoragePool::QueryDriveExtents, QueryDriveExtents, QueryDriveExtents method, QueryDriveExtents method,IVdsStoragePool interface, base.ivdsstoragepool_querydriveextents, vds/IVdsStoragePool::QueryDriveExtents, vdshwprv/IVdsStoragePool::QueryDriveExtents
 ms.topic: method
 f1_keywords:
 - vds/IVdsStoragePool.QueryDriveExtents
 dev_langs:
- - c++
+- c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

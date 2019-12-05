@@ -1,19 +1,17 @@
 ---
 UID: NN:webapplication.IWebApplicationHost
 title: IWebApplicationHost (webapplication.h)
-
 description: Exposes methods and properties that are implemented by the WWAHost.
 old-location: debug\iwebapplicationhost.htm
 tech.root: debug_wwahost
 ms.assetid: ac0ace8e-3f83-44be-baee-560c5472aa08
-
 ms.date: 12/05/2018
 ms.keywords: IWebApplicationHost, IWebApplicationHost interface [Debugging Windows Store apps], IWebApplicationHost interface [Debugging Windows Store apps],described, debug.iwebapplicationhost, webapplication/IWebApplicationHost
 ms.topic: interface
-f1_keywords: 
- - "webapplication/IWebApplicationHost"
+f1_keywords:
+- webapplication/IWebApplicationHost
 dev_langs:
- - c++
+- c++
 req.header: webapplication.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - webapplication.h
+- webapplication.h
 api_name:
- - IWebApplicationHost
+- IWebApplicationHost
 targetos: Windows
 req.typenames: 
 req.redist: 

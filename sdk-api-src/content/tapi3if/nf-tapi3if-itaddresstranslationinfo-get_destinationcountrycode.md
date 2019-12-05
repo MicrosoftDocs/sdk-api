@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi3if.ITAddressTranslationInfo.get_DestinationCountryCode
 title: ITAddressTranslationInfo::get_DestinationCountryCode (tapi3if.h)
-
 description: Retrieves the country/region code for the call destination.
 old-location: tapi3\itaddresstranslationinfo_get_destinationcountrycode.htm
 tech.root: Tapi
 ms.assetid: 29880773-ce19-489f-81d8-d2c91779350f
-
 ms.date: 12/05/2018
 ms.keywords: ITAddressTranslationInfo interface [TAPI 2.2],get_DestinationCountryCode method, ITAddressTranslationInfo.get_DestinationCountryCode, ITAddressTranslationInfo::get_DestinationCountryCode, _tapi3_itaddresstranslationinfo_get_destinationcountrycode, get_DestinationCountryCode, get_DestinationCountryCode method [TAPI 2.2], get_DestinationCountryCode method [TAPI 2.2],ITAddressTranslationInfo interface, tapi3.itaddresstranslationinfo_get_destinationcountrycode, tapi3if/ITAddressTranslationInfo::get_DestinationCountryCode
 ms.topic: method
-f1_keywords: 
- - "tapi3if/ITAddressTranslationInfo.get_DestinationCountryCode"
+f1_keywords:
+- tapi3if/ITAddressTranslationInfo.get_DestinationCountryCode
 dev_langs:
- - c++
+- c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Tapi3.dll
+- Tapi3.dll
 api_name:
- - ITAddressTranslationInfo.get_DestinationCountryCode
+- ITAddressTranslationInfo.get_DestinationCountryCode
 targetos: Windows
 req.typenames: 
 req.redist: 

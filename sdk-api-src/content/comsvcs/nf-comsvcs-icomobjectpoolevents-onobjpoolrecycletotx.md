@@ -1,19 +1,17 @@
 ---
 UID: NF:comsvcs.IComObjectPoolEvents.OnObjPoolRecycleToTx
 title: IComObjectPoolEvents::OnObjPoolRecycleToTx (comsvcs.h)
-
 description: Generated when a transactional object is returned to the pool.
 old-location: cos\icomobjectpoolevents_onobjpoolrecycletotx.htm
 tech.root: cossdk
 ms.assetid: 6acae10b-9fda-4c73-b781-62a480271fd1
-
 ms.date: 12/05/2018
 ms.keywords: IComObjectPoolEvents interface [COM+],OnObjPoolRecycleToTx method, IComObjectPoolEvents.OnObjPoolRecycleToTx, IComObjectPoolEvents::OnObjPoolRecycleToTx, OnObjPoolRecycleToTx, OnObjPoolRecycleToTx method [COM+], OnObjPoolRecycleToTx method [COM+],IComObjectPoolEvents interface, _dtc_icomobjectpoolevents_onobjpoolrecycletotx, comsvcs/IComObjectPoolEvents::OnObjPoolRecycleToTx, cos.icomobjectpoolevents_onobjpoolrecycletotx
 ms.topic: method
-f1_keywords: 
- - "comsvcs/IComObjectPoolEvents.OnObjPoolRecycleToTx"
+f1_keywords:
+- comsvcs/IComObjectPoolEvents.OnObjPoolRecycleToTx
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - IComObjectPoolEvents.OnObjPoolRecycleToTx
+- IComObjectPoolEvents.OnObjPoolRecycleToTx
 targetos: Windows
 req.typenames: 
 req.redist: 

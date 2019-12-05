@@ -1,19 +1,17 @@
 ---
 UID: NF:mfapi.MFCreateMFByteStreamWrapper
 title: MFCreateMFByteStreamWrapper function (mfapi.h)
-
 description: Creates a wrapper for a byte stream.
 old-location: mf\mfcreatemfbytestreamwrapper.htm
 tech.root: medfound
 ms.assetid: F6A9603D-39C8-4039-BAA0-81557CE29078
-
 ms.date: 12/05/2018
 ms.keywords: MFCreateMFByteStreamWrapper, MFCreateMFByteStreamWrapper function [Media Foundation], mf.mfcreatemfbytestreamwrapper, mfapi/MFCreateMFByteStreamWrapper
 ms.topic: function
-f1_keywords: 
- - "mfapi/MFCreateMFByteStreamWrapper"
+f1_keywords:
+- mfapi/MFCreateMFByteStreamWrapper
 dev_langs:
- - c++
+- c++
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Mfplat.lib
 req.dll: Mfplat.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - mfplat.dll
+- mfplat.dll
 api_name:
- - MFCreateMFByteStreamWrapper
+- MFCreateMFByteStreamWrapper
 targetos: Windows
 req.typenames: 
 req.redist: 

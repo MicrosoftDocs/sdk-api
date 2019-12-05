@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi3if.ITAddressTranslation.TranslateAddress
 title: ITAddressTranslation::TranslateAddress (tapi3if.h)
-
 description: The TranslateAddress method creates the address translation information interface.
 old-location: tapi3\itaddresstranslation_translateaddress.htm
 tech.root: Tapi
 ms.assetid: 14e51de8-33fd-4de0-bc1c-5f8085ea095c
-
 ms.date: 12/05/2018
 ms.keywords: ITAddressTranslation interface [TAPI 2.2],TranslateAddress method, ITAddressTranslation.TranslateAddress, ITAddressTranslation::TranslateAddress, TranslateAddress, TranslateAddress method [TAPI 2.2], TranslateAddress method [TAPI 2.2],ITAddressTranslation interface, _tapi3_itaddresstranslation_translateaddress, tapi3.itaddresstranslation_translateaddress, tapi3if/ITAddressTranslation::TranslateAddress
 ms.topic: method
-f1_keywords: 
- - "tapi3if/ITAddressTranslation.TranslateAddress"
+f1_keywords:
+- tapi3if/ITAddressTranslation.TranslateAddress
 dev_langs:
- - c++
+- c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Tapi3.dll
+- Tapi3.dll
 api_name:
- - ITAddressTranslation.TranslateAddress
+- ITAddressTranslation.TranslateAddress
 targetos: Windows
 req.typenames: 
 req.redist: 

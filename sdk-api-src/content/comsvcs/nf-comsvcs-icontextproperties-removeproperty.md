@@ -1,19 +1,17 @@
 ---
 UID: NF:comsvcs.IContextProperties.RemoveProperty
 title: IContextProperties::RemoveProperty (comsvcs.h)
-
 description: Removes a context object property.
 old-location: cos\icontextproperties_removeproperty.htm
 tech.root: cossdk
 ms.assetid: 112c9e08-de15-4e46-934a-5e57a1a52adc
-
 ms.date: 12/05/2018
 ms.keywords: IContextProperties interface [COM+],RemoveProperty method, IContextProperties.RemoveProperty, IContextProperties::RemoveProperty, RemoveProperty, RemoveProperty method [COM+], RemoveProperty method [COM+],IContextProperties interface, _cos_IContextProperties_RemoveProperty, comsvcs/IContextProperties::RemoveProperty, cos.icontextproperties_removeproperty
 ms.topic: method
-f1_keywords: 
- - "comsvcs/IContextProperties.RemoveProperty"
+f1_keywords:
+- comsvcs/IContextProperties.RemoveProperty
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - IContextProperties.RemoveProperty
+- IContextProperties.RemoveProperty
 targetos: Windows
 req.typenames: 
 req.redist: 

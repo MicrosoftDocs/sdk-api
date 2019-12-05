@@ -1,19 +1,17 @@
 ---
 UID: NS:d3d10.D3D10_TEXTURE1D_DESC
 title: D3D10_TEXTURE1D_DESC (d3d10.h)
-
 description: Describes a 1D texture.
 old-location: direct3d10\d3d10_texture1d_desc.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\d3d10_texture1d_desc.htm
-
 ms.date: 12/05/2018
 ms.keywords: 3b8edbcf-2f3c-dbad-9241-29cfd861f8cf, CD3D10_TEXTURE1D_DESC, D3D10_TEXTURE1D_DESC, D3D10_TEXTURE1D_DESC structure [Direct3D 10], d3d10/D3D10_TEXTURE1D_DESC, direct3d10.d3d10_texture1d_desc
 ms.topic: struct
-f1_keywords: 
- - "d3d10/D3D10_TEXTURE1D_DESC"
+f1_keywords:
+- d3d10/D3D10_TEXTURE1D_DESC
 dev_langs:
- - c++
+- c++
 req.header: d3d10.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - D3D10.h
+- D3D10.h
 api_name:
- - D3D10_TEXTURE1D_DESC
+- D3D10_TEXTURE1D_DESC
 targetos: Windows
 req.typenames: D3D10_TEXTURE1D_DESC
 req.redist: 

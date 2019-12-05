@@ -1,19 +1,17 @@
 ---
 UID: NF:pathcch.PathCchRemoveFileSpec
 title: PathCchRemoveFileSpec function (pathcch.h)
-
 description: Removes the last element in a path string, whether that element is a file name or a directory name.
 old-location: shell\PathCchRemoveFileSpec.htm
 tech.root: shell
 ms.assetid: c37aeddc-ed24-4828-b92b-bce0e6384726
-
 ms.date: 12/05/2018
 ms.keywords: PathCchRemoveFileSpec, PathCchRemoveFileSpec function [Windows Shell], pathcch/PathCchRemoveFileSpec, shell.PathCchRemoveFileSpec
 ms.topic: function
-f1_keywords: 
- - "pathcch/PathCchRemoveFileSpec"
+f1_keywords:
+- pathcch/PathCchRemoveFileSpec
 dev_langs:
- - c++
+- c++
 req.header: pathcch.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Pathcch.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - pathcch.lib
- - API-MS-Win-Core-Path-l1-1-0.dll
- - KernelBase.dll
+- pathcch.lib
+- API-MS-Win-Core-Path-l1-1-0.dll
+- KernelBase.dll
 api_name:
- - PathCchRemoveFileSpec
+- PathCchRemoveFileSpec
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:tspi.TSPI_lineGetCallStatus
 title: TSPI_lineGetCallStatus function (tspi.h)
-
 description: The TSPI_lineGetCallStatus function returns the current status of the specified call.
 old-location: tspi\tspi_linegetcallstatus.htm
 tech.root: Tapi
 ms.assetid: 7124ef73-148f-41df-afd6-ebfa29d5cf1c
-
 ms.date: 12/05/2018
 ms.keywords: TSPI_lineGetCallStatus, TSPI_lineGetCallStatus function [TAPI 2.2], _tspi_tspi_linegetcallstatus, tspi.tspi_linegetcallstatus, tspi/TSPI_lineGetCallStatus
 ms.topic: function
-f1_keywords: 
- - "tspi/TSPI_lineGetCallStatus"
+f1_keywords:
+- tspi/TSPI_lineGetCallStatus
 dev_langs:
- - c++
+- c++
 req.header: tspi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Tspi.h
+- Tspi.h
 api_name:
- - TSPI_lineGetCallStatus
+- TSPI_lineGetCallStatus
 targetos: Windows
 req.typenames: 
 req.redist: 

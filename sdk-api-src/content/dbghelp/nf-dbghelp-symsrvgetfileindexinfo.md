@@ -1,19 +1,17 @@
 ---
 UID: NF:dbghelp.SymSrvGetFileIndexInfo
 title: SymSrvGetFileIndexInfo function (dbghelp.h)
-
 description: Retrieves the index information for the specified .pdb, .dbg, or image file.
 old-location: base\symsrvgetfileindexinfo.htm
 tech.root: Debug
 ms.assetid: ee5b0821-2746-467e-9d95-90776882ac95
-
 ms.date: 12/05/2018
 ms.keywords: SymSrvGetFileIndexInfo, SymSrvGetFileIndexInfo function, SymSrvGetFileIndexInfoW, base.symsrvgetfileindexinfo, dbghelp/SymSrvGetFileIndexInfo, dbghelp/SymSrvGetFileIndexInfoW
 ms.topic: function
-f1_keywords: 
- - "dbghelp/SymSrvGetFileIndexInfo"
+f1_keywords:
+- dbghelp/SymSrvGetFileIndexInfo
 dev_langs:
- - c++
+- c++
 req.header: dbghelp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Dbghelp.lib
 req.dll: Dbghelp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Dbghelp.dll
+- Dbghelp.dll
 api_name:
- - SymSrvGetFileIndexInfo
- - SymSrvGetFileIndexInfo
- - SymSrvGetFileIndexInfoW
+- SymSrvGetFileIndexInfo
+- SymSrvGetFileIndexInfo
+- SymSrvGetFileIndexInfoW
 targetos: Windows
 req.typenames: 
 req.redist: DbgHelp.dll 6.6 or later

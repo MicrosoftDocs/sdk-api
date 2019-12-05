@@ -1,19 +1,17 @@
 ---
 UID: NS:xapofx.FXREVERB_PARAMETERS
 title: FXREVERB_PARAMETERS (xapofx.h)
-
 description: Parameters for use with the FXReverb XAPO.
 old-location: xaudio2\fxreverb_parameters.htm
 tech.root: xaudio2
 ms.assetid: T:Microsoft.directx_sdk.xapofx.FXREVERB_PARAMETERS
-
 ms.date: 12/05/2018
 ms.keywords: FXREVERB_PARAMETERS, FXREVERB_PARAMETERS structure [XAudio2 Audio Mixing APIs], xapofx/FXREVERB_PARAMETERS, xaudio2.fxreverb_parameters
 ms.topic: struct
-f1_keywords: 
- - "xapofx/FXREVERB_PARAMETERS"
+f1_keywords:
+- xapofx/FXREVERB_PARAMETERS
 dev_langs:
- - c++
+- c++
 req.header: xapofx.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - xapofx.h
+- xapofx.h
 api_name:
- - FXREVERB_PARAMETERS
+- FXREVERB_PARAMETERS
 targetos: Windows
 req.typenames: FXREVERB_PARAMETERS
 req.redist: 

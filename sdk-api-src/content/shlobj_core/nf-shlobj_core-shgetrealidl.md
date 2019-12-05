@@ -1,19 +1,17 @@
 ---
 UID: NF:shlobj_core.SHGetRealIDL
 title: SHGetRealIDL function (shlobj_core.h)
-
 description: SHGetRealIDL may be altered or unavailable.
 old-location: shell\SHGetRealIDL.htm
 tech.root: shell
 ms.assetid: 0c0b63c9-7ca7-4f73-be74-9c492f8506fc
-
 ms.date: 12/05/2018
 ms.keywords: SHGetRealIDL, SHGetRealIDL function [Windows Shell], _win32_SHGetRealIDL, shell.SHGetRealIDL, shlobj_core/SHGetRealIDL
 ms.topic: function
-f1_keywords: 
- - "shlobj_core/SHGetRealIDL"
+f1_keywords:
+- shlobj_core/SHGetRealIDL
 dev_langs:
- - c++
+- c++
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Shell32.lib
 req.dll: Shell32.dll (version 5.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - SHGetRealIDL
+- SHGetRealIDL
 targetos: Windows
 req.typenames: 
 req.redist: 

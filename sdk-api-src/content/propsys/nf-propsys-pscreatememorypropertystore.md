@@ -1,19 +1,17 @@
 ---
 UID: NF:propsys.PSCreateMemoryPropertyStore
 title: PSCreateMemoryPropertyStore function (propsys.h)
-
 description: Creates an in-memory property store.
 old-location: properties\PSCreateMemoryPropertyStore.htm
 tech.root: properties
 ms.assetid: 6e7a2ac0-2a4a-41ec-a2a8-ddbe8aa45bc9
-
 ms.date: 12/05/2018
 ms.keywords: PSCreateMemoryPropertyStore, PSCreateMemoryPropertyStore function [Windows Properties], _shell_PSCreateMemoryPropertyStore, properties.PSCreateMemoryPropertyStore, propsys/PSCreateMemoryPropertyStore, shell.PSCreateMemoryPropertyStore
 ms.topic: function
-f1_keywords: 
- - "propsys/PSCreateMemoryPropertyStore"
+f1_keywords:
+- propsys/PSCreateMemoryPropertyStore
 dev_langs:
- - c++
+- c++
 req.header: propsys.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Propsys.lib
 req.dll: Propsys.dll (version 6.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Propsys.dll
- - Ext-MS-Win-shell-propsys-l1-1-0.dll
+- Propsys.dll
+- Ext-MS-Win-shell-propsys-l1-1-0.dll
 api_name:
- - PSCreateMemoryPropertyStore
+- PSCreateMemoryPropertyStore
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0

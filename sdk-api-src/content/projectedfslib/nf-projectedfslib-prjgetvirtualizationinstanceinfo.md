@@ -1,19 +1,17 @@
 ---
 UID: NF:projectedfslib.PrjGetVirtualizationInstanceInfo
 title: PrjGetVirtualizationInstanceInfo function (projectedfslib.h)
-
 description: Retrieves information about the virtualization instance.
 old-location: projfs\prjgetvirtualizationinstanceinfo.htm
 tech.root: ProjFS
 ms.assetid: 0C04D13F-862C-4E4C-9BC1-13E6FAC86E99
-
 ms.date: 12/05/2018
 ms.keywords: PrjGetVirtualizationInstanceInfo, PrjGetVirtualizationInstanceInfo function, ProjFS.prjgetvirtualizationinstanceinfo, projectedfslib/PrjGetVirtualizationInstanceInfo
 ms.topic: function
-f1_keywords: 
- - "projectedfslib/PrjGetVirtualizationInstanceInfo"
+f1_keywords:
+- projectedfslib/PrjGetVirtualizationInstanceInfo
 dev_langs:
- - c++
+- c++
 req.header: projectedfslib.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - projectedfslib.h
+- projectedfslib.h
 api_name:
- - PrjGetVirtualizationInstanceInfo
+- PrjGetVirtualizationInstanceInfo
 targetos: Windows
 req.typenames: 
 req.redist: 

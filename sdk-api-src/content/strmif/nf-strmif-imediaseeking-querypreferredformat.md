@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IMediaSeeking.QueryPreferredFormat
 title: IMediaSeeking::QueryPreferredFormat (strmif.h)
-
 description: The QueryPreferredFormat method retrieves the preferred time format for seeking.
 old-location: dshow\imediaseeking_querypreferredformat.htm
 tech.root: DirectShow
 ms.assetid: 16fd71d6-c162-493c-9bca-479d59da5031
-
 ms.date: 12/05/2018
 ms.keywords: IMediaSeeking interface [DirectShow],QueryPreferredFormat method, IMediaSeeking.QueryPreferredFormat, IMediaSeeking::QueryPreferredFormat, IMediaSeekingQueryPreferredFormat, QueryPreferredFormat, QueryPreferredFormat method [DirectShow], QueryPreferredFormat method [DirectShow],IMediaSeeking interface, dshow.imediaseeking_querypreferredformat, strmif/IMediaSeeking::QueryPreferredFormat
 ms.topic: method
-f1_keywords: 
- - "strmif/IMediaSeeking.QueryPreferredFormat"
+f1_keywords:
+- strmif/IMediaSeeking.QueryPreferredFormat
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IMediaSeeking.QueryPreferredFormat
+- IMediaSeeking.QueryPreferredFormat
 targetos: Windows
 req.typenames: 
 req.redist: 

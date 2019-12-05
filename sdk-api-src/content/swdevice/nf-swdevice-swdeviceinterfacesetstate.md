@@ -1,19 +1,17 @@
 ---
 UID: NF:swdevice.SwDeviceInterfaceSetState
 title: SwDeviceInterfaceSetState function (swdevice.h)
-
 description: Enables or disables a device interface for a software device.
 old-location: swdevice\swdeviceinterfacesetstate.htm
 tech.root: swdevice
 ms.assetid: 09430CEF-F386-4F08-9D11-78E61C44468D
-
 ms.date: 12/05/2018
 ms.keywords: SwDeviceInterfaceSetState, SwDeviceInterfaceSetState function, swdevice.swdeviceinterfacesetstate, swdevice/SwDeviceInterfaceSetState
 ms.topic: function
-f1_keywords: 
- - "swdevice/SwDeviceInterfaceSetState"
+f1_keywords:
+- swdevice/SwDeviceInterfaceSetState
 dev_langs:
- - c++
+- c++
 req.header: swdevice.h
 req.include-header: 
 req.target-type: Universal
@@ -32,16 +30,16 @@ req.lib: Swdevice.lib; OneCoreUAP.lib on Windows 10
 req.dll: Cfgmgr32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Cfgmgr32.dll
- - API-MS-Win-devices-swdevice-l1-1-0.dll
- - API-MS-Win-devices-swdevice-l1-1-1.dll
+- Cfgmgr32.dll
+- API-MS-Win-devices-swdevice-l1-1-0.dll
+- API-MS-Win-devices-swdevice-l1-1-1.dll
 api_name:
- - SwDeviceInterfaceSetState
+- SwDeviceInterfaceSetState
 targetos: Windows
 req.typenames: 
 req.redist: 

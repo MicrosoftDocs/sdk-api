@@ -1,19 +1,17 @@
 ---
 UID: NF:winbase.DequeueUmsCompletionListItems
 title: DequeueUmsCompletionListItems function (winbase.h)
-
 description: Retrieves user-mode scheduling (UMS) worker threads from the specified UMS completion list.
 old-location: base\dequeueumscompletionlistitems.htm
 tech.root: ProcThread
 ms.assetid: 91499eb9-9fc5-4135-95f6-1bced78f1e07
-
 ms.date: 12/05/2018
 ms.keywords: DequeueUmsCompletionListItems, DequeueUmsCompletionListItems function, base.dequeueumscompletionlistitems, winbase/DequeueUmsCompletionListItems
 ms.topic: function
-f1_keywords: 
- - "winbase/DequeueUmsCompletionListItems"
+f1_keywords:
+- winbase/DequeueUmsCompletionListItems
 dev_langs:
- - c++
+- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - kernel32.dll
- - API-MS-Win-Core-ums-l1-1-0.dll
+- kernel32.dll
+- API-MS-Win-Core-ums-l1-1-0.dll
 api_name:
- - DequeueUmsCompletionListItems
+- DequeueUmsCompletionListItems
 targetos: Windows
 req.typenames: 
 req.redist: 

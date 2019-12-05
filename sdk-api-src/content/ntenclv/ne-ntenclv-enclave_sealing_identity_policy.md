@@ -1,19 +1,17 @@
 ---
 UID: NE:ntenclv.ENCLAVE_SEALING_IDENTITY_POLICY
 title: ENCLAVE_SEALING_IDENTITY_POLICY (ntenclv.h)
-
 description: Defines values that specify how another enclave must be related to the enclave that calls EnclaveSealData for the enclave to unseal the data.
 old-location: base\enclave_sealing_identity_policy.htm
 tech.root: Memory
 ms.assetid: 986C122D-4CC9-487F-8B9F-6B3F9B727E4A
-
 ms.date: 12/05/2018
 ms.keywords: ENCLAVE_IDENTITY_POLICY_SEAL_EXACT_CODE, ENCLAVE_IDENTITY_POLICY_SEAL_INVALID, ENCLAVE_IDENTITY_POLICY_SEAL_SAME_AUTHOR, ENCLAVE_IDENTITY_POLICY_SEAL_SAME_FAMILY, ENCLAVE_IDENTITY_POLICY_SEAL_SAME_IMAGE, ENCLAVE_IDENTITY_POLICY_SEAL_SAME_PRIMARY_CODE, ENCLAVE_SEALING_IDENTITY_POLICY, ENCLAVE_SEALING_IDENTITY_POLICY enumeration, base.enclave_sealing_identity_policy, ntenclv/ENCLAVE_IDENTITY_POLICY_SEAL_EXACT_CODE, ntenclv/ENCLAVE_IDENTITY_POLICY_SEAL_INVALID, ntenclv/ENCLAVE_IDENTITY_POLICY_SEAL_SAME_AUTHOR, ntenclv/ENCLAVE_IDENTITY_POLICY_SEAL_SAME_FAMILY, ntenclv/ENCLAVE_IDENTITY_POLICY_SEAL_SAME_IMAGE, ntenclv/ENCLAVE_IDENTITY_POLICY_SEAL_SAME_PRIMARY_CODE, ntenclv/ENCLAVE_SEALING_IDENTITY_POLICY
 ms.topic: enum
-f1_keywords: 
- - "ntenclv/ENCLAVE_SEALING_IDENTITY_POLICY"
+f1_keywords:
+- ntenclv/ENCLAVE_SEALING_IDENTITY_POLICY
 dev_langs:
- - c++
+- c++
 req.header: ntenclv.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - ntenclv.h
+- ntenclv.h
 api_name:
- - ENCLAVE_SEALING_IDENTITY_POLICY
+- ENCLAVE_SEALING_IDENTITY_POLICY
 targetos: Windows
 req.typenames: ENCLAVE_SEALING_IDENTITY_POLICY
 req.redist: 

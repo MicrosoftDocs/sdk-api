@@ -1,19 +1,17 @@
 ---
 UID: NF:eventsys.IEventSubscription.put_SubscriptionName
 title: IEventSubscription::put_SubscriptionName (eventsys.h)
-
 description: A displayable name for the subscription object.
 old-location: cos\ieventsubscription_subscriptionname.htm
 tech.root: cossdk
 ms.assetid: 0a5532c1-8e06-4fbd-88aa-04d7a69672c3
-
 ms.date: 12/05/2018
 ms.keywords: IEventSubscription interface [COM+],SubscriptionName property, IEventSubscription.SubscriptionName, IEventSubscription.put_SubscriptionName, IEventSubscription::SubscriptionName, IEventSubscription::get_SubscriptionName, IEventSubscription::put_SubscriptionName, SubscriptionName property [COM+], SubscriptionName property [COM+],IEventSubscription interface, cos.ieventsubscription_subscriptionname, eventsys/IEventSubscription::SubscriptionName, eventsys/IEventSubscription::get_SubscriptionName, eventsys/IEventSubscription::put_SubscriptionName, put_SubscriptionName
 ms.topic: method
-f1_keywords: 
- - "eventsys/IEventSubscription.SubscriptionName"
+f1_keywords:
+- eventsys/IEventSubscription.SubscriptionName
 dev_langs:
- - c++
+- c++
 req.header: eventsys.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - EventSys.h
+- EventSys.h
 api_name:
- - IEventSubscription.SubscriptionName
- - IEventSubscription.get_SubscriptionName
- - IEventSubscription.put_SubscriptionName
+- IEventSubscription.SubscriptionName
+- IEventSubscription.get_SubscriptionName
+- IEventSubscription.put_SubscriptionName
 targetos: Windows
 req.typenames: 
 req.redist: 

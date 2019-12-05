@@ -1,19 +1,17 @@
 ---
 UID: NN:xpsobjectmodel.IXpsOMGlyphsEditor
 title: IXpsOMGlyphsEditor (xpsobjectmodel.h)
-
 description: Allows batch modification of properties that affect the text content in an IXpsOMGlyphs interface.
 old-location: xps\ixpsomglyphseditor.htm
 tech.root: printdocs
 ms.assetid: 5bdf2892-ce6f-4560-b638-e441166fc309
-
 ms.date: 12/05/2018
 ms.keywords: IXpsOMGlyphsEditor, IXpsOMGlyphsEditor interface [XPS Documents and Packaging], IXpsOMGlyphsEditor interface [XPS Documents and Packaging],described, xps.ixpsomglyphseditor, xpsobjectmodel/IXpsOMGlyphsEditor
 ms.topic: interface
-f1_keywords: 
- - "xpsobjectmodel/IXpsOMGlyphsEditor"
+f1_keywords:
+- xpsobjectmodel/IXpsOMGlyphsEditor
 dev_langs:
- - c++
+- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsobjectmodel.h
+- xpsobjectmodel.h
 api_name:
- - IXpsOMGlyphsEditor
+- IXpsOMGlyphsEditor
 targetos: Windows
 req.typenames: 
 req.redist: 

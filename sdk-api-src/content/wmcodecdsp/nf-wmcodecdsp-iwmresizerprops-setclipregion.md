@@ -1,19 +1,17 @@
 ---
 UID: NF:wmcodecdsp.IWMResizerProps.SetClipRegion
 title: IWMResizerProps::SetClipRegion (wmcodecdsp.h)
-
 description: Sets the source rectangle.
 old-location: mf\iwmresizerpropssetclipregion.htm
 tech.root: medfound
 ms.assetid: 51a11e24-a4c3-49fb-86ec-17baa1773caf
-
 ms.date: 12/05/2018
 ms.keywords: IWMResizerProps interface [Media Foundation],SetClipRegion method, IWMResizerProps.SetClipRegion, IWMResizerProps::SetClipRegion, SetClipRegion, SetClipRegion method [Media Foundation], SetClipRegion method [Media Foundation],IWMResizerProps interface, codecapi.iwmresizerpropssetclipregion, mf.iwmresizerpropssetclipregion, wmcodecdsp/IWMResizerProps::SetClipRegion
 ms.topic: method
-f1_keywords: 
- - "wmcodecdsp/IWMResizerProps.SetClipRegion"
+f1_keywords:
+- wmcodecdsp/IWMResizerProps.SetClipRegion
 dev_langs:
- - c++
+- c++
 req.header: wmcodecdsp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmcodecdsp.h
+- wmcodecdsp.h
 api_name:
- - IWMResizerProps.SetClipRegion
+- IWMResizerProps.SetClipRegion
 targetos: Windows
 req.typenames: 
 req.redist: 

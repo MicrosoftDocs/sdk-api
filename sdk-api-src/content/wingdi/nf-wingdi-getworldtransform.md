@@ -1,19 +1,17 @@
 ---
 UID: NF:wingdi.GetWorldTransform
 title: GetWorldTransform function (wingdi.h)
-
 description: The GetWorldTransform function retrieves the current world-space to page-space transformation.
 old-location: gdi\getworldtransform.htm
 tech.root: gdi
 ms.assetid: 72945b1e-144e-4724-bf08-6f971f8adb43
-
 ms.date: 12/05/2018
 ms.keywords: GetWorldTransform, GetWorldTransform function [Windows GDI], _win32_GetWorldTransform, gdi.getworldtransform, wingdi/GetWorldTransform
 ms.topic: function
-f1_keywords: 
- - "wingdi/GetWorldTransform"
+f1_keywords:
+- wingdi/GetWorldTransform
 dev_langs:
- - c++
+- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,19 +30,19 @@ req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - gdi32.dll
- - Ext-MS-Win-GDI-Draw-l1-1-0.dll
- - Ext-MS-Win-GDI-Draw-l1-1-1.dll
- - ext-ms-win-gdi-draw-l1-1-2.dll
- - Ext-MS-Win-GDI-Draw-L1-1-3.dll
- - GDI32Full.dll
+- gdi32.dll
+- Ext-MS-Win-GDI-Draw-l1-1-0.dll
+- Ext-MS-Win-GDI-Draw-l1-1-1.dll
+- ext-ms-win-gdi-draw-l1-1-2.dll
+- Ext-MS-Win-GDI-Draw-L1-1-3.dll
+- GDI32Full.dll
 api_name:
- - GetWorldTransform
+- GetWorldTransform
 targetos: Windows
 req.typenames: 
 req.redist: 

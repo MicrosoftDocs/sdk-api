@@ -1,19 +1,17 @@
 ---
 UID: NF:provider.Provider.GetLocalInstancePath
 title: Provider::GetLocalInstancePath (provider.h)
-
 description: The GetLocalInstancePath method attempts to build a full object path to a specified instance. This method is a helper function and should not be overridden.
 old-location: wmi\provider_getlocalinstancepath.htm
 tech.root: WmiSdk
 ms.assetid: c419205f-d07d-4887-8e36-ccde37c2351f
-
 ms.date: 12/05/2018
 ms.keywords: GetLocalInstancePath, GetLocalInstancePath method [Windows Management Instrumentation], GetLocalInstancePath method [Windows Management Instrumentation],Provider interface, Provider interface [Windows Management Instrumentation],GetLocalInstancePath method, Provider.GetLocalInstancePath, Provider::GetLocalInstancePath, _hmm_provider_getlocalinstancepath, provider/Provider::GetLocalInstancePath, wmi.provider_getlocalinstancepath
 ms.topic: method
-f1_keywords: 
- - "provider/Provider.GetLocalInstancePath"
+f1_keywords:
+- provider/Provider.GetLocalInstancePath
 dev_langs:
- - c++
+- c++
 req.header: provider.h
 req.include-header: FwCommon.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: FrameDyn.lib
 req.dll: FrameDynOS.dll; FrameDyn.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - FrameDynOS.dll
- - FrameDyn.dll
+- FrameDynOS.dll
+- FrameDyn.dll
 api_name:
- - Provider.GetLocalInstancePath
+- Provider.GetLocalInstancePath
 targetos: Windows
 req.typenames: 
 req.redist: 

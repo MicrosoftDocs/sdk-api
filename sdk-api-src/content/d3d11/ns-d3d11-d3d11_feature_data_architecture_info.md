@@ -1,19 +1,17 @@
 ---
 UID: NS:d3d11.D3D11_FEATURE_DATA_ARCHITECTURE_INFO
 title: D3D11_FEATURE_DATA_ARCHITECTURE_INFO (d3d11.h)
-
 description: Describes information about Direct3D 11.1 adapter architecture.
 old-location: direct3d11\d3d11_feature_data_architecture_info.htm
 tech.root: direct3d11
 ms.assetid: BC815FDB-984C-4857-AF48-8B471F46CDD4
-
 ms.date: 12/05/2018
 ms.keywords: D3D11_FEATURE_DATA_ARCHITECTURE_INFO, D3D11_FEATURE_DATA_ARCHITECTURE_INFO structure [Direct3D 11], d3d11/D3D11_FEATURE_DATA_ARCHITECTURE_INFO, direct3d11.d3d11_feature_data_architecture_info
 ms.topic: struct
-f1_keywords: 
- - "d3d11/D3D11_FEATURE_DATA_ARCHITECTURE_INFO"
+f1_keywords:
+- d3d11/D3D11_FEATURE_DATA_ARCHITECTURE_INFO
 dev_langs:
- - c++
+- c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows
@@ -32,13 +30,13 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - kbSyntax
+- kbSyntax
 api_type:
- - <TBD>
+- <TBD>
 api_location:
- -
+- 
 api_name:
- - D3D11_FEATURE_DATA_ARCHITECTURE_INFO
+- D3D11_FEATURE_DATA_ARCHITECTURE_INFO
 targetos: Windows
 req.typenames: D3D11_FEATURE_DATA_ARCHITECTURE_INFO
 req.redist: 

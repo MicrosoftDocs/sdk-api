@@ -1,19 +1,17 @@
 ---
 UID: NS:naptypes.tagFailureCategoryMapping
 title: FailureCategoryMapping (naptypes.h)
-
 description: Contains optional compliance state information that is returned by the System Health Validator (SHV).
 old-location: nap\failurecategorymapping_struct.htm
 tech.root: NAP
 ms.assetid: dbf2978f-062a-417b-a6df-a82879e10ec8
-
 ms.date: 12/05/2018
 ms.keywords: FailureCategoryMapping, FailureCategoryMapping structure [NAP], nap.failurecategorymapping_struct, naptypes/FailureCategoryMapping
 ms.topic: struct
-f1_keywords: 
- - "naptypes/FailureCategoryMapping"
+f1_keywords:
+- naptypes/FailureCategoryMapping
 dev_langs:
- - c++
+- c++
 req.header: naptypes.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - NapTypes.h
+- NapTypes.h
 api_name:
- - FailureCategoryMapping
+- FailureCategoryMapping
 targetos: Windows
 req.typenames: FailureCategoryMapping
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:bdaiface.IBDA_NullTransform.Stop
 title: IBDA_NullTransform::Stop (bdaiface.h)
-
 description: The Stop method stops the transforms on data flowing through the control node.
 old-location: mstv\ibda_nulltransform_stop.htm
 tech.root: mstv
 ms.assetid: 1881d54f-2e26-4cb5-8456-da24f569875b
-
 ms.date: 12/05/2018
 ms.keywords: IBDA_NullTransform interface [Microsoft TV Technologies],Stop method, IBDA_NullTransform.Stop, IBDA_NullTransform::Stop, IBDA_NullTransformStop, Stop, Stop method [Microsoft TV Technologies], Stop method [Microsoft TV Technologies],IBDA_NullTransform interface, bdaiface/IBDA_NullTransform::Stop, mstv.ibda_nulltransform_stop
 ms.topic: method
-f1_keywords: 
- - "bdaiface/IBDA_NullTransform.Stop"
+f1_keywords:
+- bdaiface/IBDA_NullTransform.Stop
 dev_langs:
- - c++
+- c++
 req.header: bdaiface.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - bdaiface.h
+- bdaiface.h
 api_name:
- - IBDA_NullTransform.Stop
+- IBDA_NullTransform.Stop
 targetos: Windows
 req.typenames: 
 req.redist: 

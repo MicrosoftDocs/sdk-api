@@ -1,19 +1,17 @@
 ---
 UID: NF:oleidl.IOleLink.SetSourceDisplayName
 title: IOleLink::SetSourceDisplayName (oleidl.h)
-
 description: Sets the display name for the link source.
 old-location: com\iolelink_setsourcedisplayname.htm
 tech.root: com
 ms.assetid: 762d021f-4bf1-4f90-bf41-065b8810de47
-
 ms.date: 12/05/2018
 ms.keywords: IOleLink interface [COM],SetSourceDisplayName method, IOleLink.SetSourceDisplayName, IOleLink::SetSourceDisplayName, SetSourceDisplayName, SetSourceDisplayName method [COM], SetSourceDisplayName method [COM],IOleLink interface, _ole_iolelink_setsourcedisplayname, com.iolelink_setsourcedisplayname, oleidl/IOleLink::SetSourceDisplayName
 ms.topic: method
-f1_keywords: 
- - "oleidl/IOleLink.SetSourceDisplayName"
+f1_keywords:
+- oleidl/IOleLink.SetSourceDisplayName
 dev_langs:
- - c++
+- c++
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - OleIdl.h
+- OleIdl.h
 api_name:
- - IOleLink.SetSourceDisplayName
+- IOleLink.SetSourceDisplayName
 targetos: Windows
 req.typenames: 
 req.redist: 

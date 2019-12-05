@@ -1,19 +1,17 @@
 ---
 UID: NF:iads.IADs.SetInfo
 title: IADs::SetInfo (iads.h)
-
 description: The IADs::SetInfo method saves the cached property values of the ADSI object to the underlying directory store.
 old-location: adsi\iads_setinfo.htm
 tech.root: adsi
 ms.assetid: e7ff6acd-b7c4-463d-a34f-fd793067c63a
-
 ms.date: 12/05/2018
 ms.keywords: IADs interface [ADSI],SetInfo method, IADs.SetInfo, IADs::SetInfo, SetInfo, SetInfo method [ADSI], SetInfo method [ADSI],IADs interface, _ds_iads_setinfo, adsi.iads__setinfo, adsi.iads_setinfo, iads/IADs::SetInfo
 ms.topic: method
-f1_keywords: 
- - "iads/IADs.SetInfo"
+f1_keywords:
+- iads/IADs.SetInfo
 dev_langs:
- - c++
+- c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Activeds.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Activeds.dll
+- Activeds.dll
 api_name:
- - IADs.SetInfo
+- IADs.SetInfo
 targetos: Windows
 req.typenames: 
 req.redist: 

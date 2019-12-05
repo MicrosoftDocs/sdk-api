@@ -1,19 +1,17 @@
 ---
 UID: NF:mmc.ISnapinHelp.GetHelpTopic
 title: ISnapinHelp::GetHelpTopic (mmc.h)
-
 description: Enables a snap-in to add its compiled HTML Help file to the MMC Help collection file.
 old-location: mmc\isnapinhelp_gethelptopic.htm
 tech.root: mmc
 ms.assetid: 2F7E987F-1E1E-4C9E-9B26-D7BB8F5A05DD
-
 ms.date: 12/05/2018
 ms.keywords: GetHelpTopic, GetHelpTopic method [MMC], GetHelpTopic method [MMC],ISnapinHelp interface, ISnapinHelp interface [MMC],GetHelpTopic method, ISnapinHelp.GetHelpTopic, ISnapinHelp::GetHelpTopic, mmc.isnapinhelp_gethelptopic, mmc/ISnapinHelp::GetHelpTopic
 ms.topic: method
-f1_keywords: 
- - "mmc/ISnapinHelp.GetHelpTopic"
+f1_keywords:
+- mmc/ISnapinHelp.GetHelpTopic
 dev_langs:
- - c++
+- c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mmc.h
+- Mmc.h
 api_name:
- - ISnapinHelp.GetHelpTopic
+- ISnapinHelp.GetHelpTopic
 targetos: Windows
 req.typenames: 
 req.redist: 

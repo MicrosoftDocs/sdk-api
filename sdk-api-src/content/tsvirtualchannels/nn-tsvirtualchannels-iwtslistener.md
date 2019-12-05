@@ -1,19 +1,17 @@
 ---
 UID: NN:tsvirtualchannels.IWTSListener
 title: IWTSListener (tsvirtualchannels.h)
-
 description: Manages configuration settings for each listener for the dynamic virtual channel (DVC) connection.
 old-location: termserv\iwtslistener.htm
 tech.root: TermServ
 ms.assetid: af0dda9a-0d18-4f44-ac13-0bf2b903d34e
-
 ms.date: 12/05/2018
 ms.keywords: IWTSListener, IWTSListener interface [Remote Desktop Services], IWTSListener interface [Remote Desktop Services],described, termserv.iwtslistener, tsvirtualchannels/IWTSListener
 ms.topic: interface
-f1_keywords: 
- - "tsvirtualchannels/IWTSListener"
+f1_keywords:
+- tsvirtualchannels/IWTSListener
 dev_langs:
- - c++
+- c++
 req.header: tsvirtualchannels.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - TsVirtualChannels.h
+- TsVirtualChannels.h
 api_name:
- - IWTSListener
+- IWTSListener
 targetos: Windows
 req.typenames: 
 req.redist: 

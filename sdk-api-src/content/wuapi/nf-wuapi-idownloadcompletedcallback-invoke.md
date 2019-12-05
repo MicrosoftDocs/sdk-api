@@ -1,19 +1,17 @@
 ---
 UID: NF:wuapi.IDownloadCompletedCallback.Invoke
 title: IDownloadCompletedCallback::Invoke (wuapi.h)
-
 description: Notifies the caller that the download is complete.
 old-location: wua\idownloadcompletedcallback_invoke.htm
 tech.root: Wua_Sdk
 ms.assetid: 87334ff3-bfb0-48cb-b2e1-ea6d4617638d
-
 ms.date: 12/05/2018
 ms.keywords: IDownloadCompletedCallback interface [Windows Update Agent],Invoke method, IDownloadCompletedCallback.Invoke, IDownloadCompletedCallback::Invoke, Invoke, Invoke method [Windows Update Agent], Invoke method [Windows Update Agent],IDownloadCompletedCallback interface, wua.idownloadcompletedcallback_invoke, wuapi/IDownloadCompletedCallback::Invoke
 ms.topic: method
-f1_keywords: 
- - "wuapi/IDownloadCompletedCallback.Invoke"
+f1_keywords:
+- wuapi/IDownloadCompletedCallback.Invoke
 dev_langs:
- - c++
+- c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Wuguid.lib
 req.dll: Wuapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wuapi.dll
+- Wuapi.dll
 api_name:
- - IDownloadCompletedCallback.Invoke
+- IDownloadCompletedCallback.Invoke
 targetos: Windows
 req.typenames: 
 req.redist: 

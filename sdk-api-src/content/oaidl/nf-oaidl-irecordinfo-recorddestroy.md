@@ -1,19 +1,17 @@
 ---
 UID: NF:oaidl.IRecordInfo.RecordDestroy
 title: IRecordInfo::RecordDestroy (oaidl.h)
-
 description: Releases the resources and deallocates the memory of the record.
 old-location: automat\irecordinfo_recorddestroy.htm
 tech.root: automat
 ms.assetid: 36faf2f6-ecb5-4d6f-a05d-a37ae21a8f07
-
 ms.date: 12/05/2018
 ms.keywords: IRecordInfo interface [Automation],RecordDestroy method, IRecordInfo.RecordDestroy, IRecordInfo::RecordDestroy, RecordDestroy, RecordDestroy method [Automation], RecordDestroy method [Automation],IRecordInfo interface, _oa96_IRecordInfo_RecordDestroy, automat.irecordinfo_recorddestroy, oaidl/IRecordInfo::RecordDestroy
 ms.topic: method
-f1_keywords: 
- - "oaidl/IRecordInfo.RecordDestroy"
+f1_keywords:
+- oaidl/IRecordInfo.RecordDestroy
 dev_langs:
- - c++
+- c++
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - oaidl.h
+- oaidl.h
 api_name:
- - IRecordInfo.RecordDestroy
+- IRecordInfo.RecordDestroy
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMPageReference.GetThumbnailResource
 title: IXpsOMPageReference::GetThumbnailResource (xpsobjectmodel.h)
-
 description: Gets a pointer to the IXpsOMImageResource interface of the thumbnail image resource that is associated with the page.
 old-location: xps\ixpsompagereference_getthumbnailresource.htm
 tech.root: printdocs
 ms.assetid: ec9cc698-892f-4216-b491-cabdfa60deaa
-
 ms.date: 12/05/2018
 ms.keywords: GetThumbnailResource, GetThumbnailResource method [XPS Documents and Packaging], GetThumbnailResource method [XPS Documents and Packaging],IXpsOMPageReference interface, IXpsOMPageReference interface [XPS Documents and Packaging],GetThumbnailResource method, IXpsOMPageReference.GetThumbnailResource, IXpsOMPageReference::GetThumbnailResource, xps.ixpsompagereference_getthumbnailresource, xpsobjectmodel/IXpsOMPageReference::GetThumbnailResource
 ms.topic: method
-f1_keywords: 
- - "xpsobjectmodel/IXpsOMPageReference.GetThumbnailResource"
+f1_keywords:
+- xpsobjectmodel/IXpsOMPageReference.GetThumbnailResource
 dev_langs:
- - c++
+- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsobjectmodel.h
+- xpsobjectmodel.h
 api_name:
- - IXpsOMPageReference.GetThumbnailResource
+- IXpsOMPageReference.GetThumbnailResource
 targetos: Windows
 req.typenames: 
 req.redist: 

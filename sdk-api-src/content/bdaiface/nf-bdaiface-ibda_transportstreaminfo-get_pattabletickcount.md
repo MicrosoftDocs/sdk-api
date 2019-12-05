@@ -1,19 +1,17 @@
 ---
 UID: NF:bdaiface.IBDA_TransportStreamInfo.get_PatTableTickCount
 title: IBDA_TransportStreamInfo::get_PatTableTickCount (bdaiface.h)
-
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\ibda_transportstreaminfo_get_pattabletickcount.htm
 tech.root: mstv
 ms.assetid: 8ad1a680-0037-40d5-9263-2a2f0862154c
-
 ms.date: 12/05/2018
 ms.keywords: IBDA_TransportStreamInfo interface [Microsoft TV Technologies],get_PatTableTickCount method, IBDA_TransportStreamInfo.get_PatTableTickCount, IBDA_TransportStreamInfo::get_PatTableTickCount, IBDA_TransportStreamInfoget_PatTableTickCount, bdaiface/IBDA_TransportStreamInfo::get_PatTableTickCount, get_PatTableTickCount, get_PatTableTickCount method [Microsoft TV Technologies], get_PatTableTickCount method [Microsoft TV Technologies],IBDA_TransportStreamInfo interface, mstv.ibda_transportstreaminfo_get_pattabletickcount
 ms.topic: method
-f1_keywords: 
- - "bdaiface/IBDA_TransportStreamInfo.get_PatTableTickCount"
+f1_keywords:
+- bdaiface/IBDA_TransportStreamInfo.get_PatTableTickCount
 dev_langs:
- - c++
+- c++
 req.header: bdaiface.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - bdaiface.h
+- bdaiface.h
 api_name:
- - IBDA_TransportStreamInfo.get_PatTableTickCount
+- IBDA_TransportStreamInfo.get_PatTableTickCount
 targetos: Windows
 req.typenames: 
 req.redist: 

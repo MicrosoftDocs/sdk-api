@@ -1,19 +1,17 @@
 ---
 UID: NF:fsrmpipeline.IFsrmProperty.get_Sources
 title: IFsrmProperty::get_Sources (fsrmpipeline.h)
-
 description: The modules and rules that have set the value.
 old-location: fsrm\ifsrmproperty_sources.htm
 tech.root: fsrm
 ms.assetid: fc29b42c-f2d7-4a13-a2f9-94416f8ef803
-
 ms.date: 12/05/2018
 ms.keywords: IFsrmProperty interface [File Server Resource Manager],Sources property, IFsrmProperty.Sources, IFsrmProperty.get_Sources, IFsrmProperty::Sources, IFsrmProperty::get_Sources, Sources property [File Server Resource Manager], Sources property [File Server Resource Manager],IFsrmProperty interface, fs.ifsrmproperty_sources, fsrm.ifsrmproperty_sources, fsrmpipeline/IFsrmProperty::Sources, fsrmpipeline/IFsrmProperty::get_Sources, get_Sources
 ms.topic: method
-f1_keywords: 
- - "fsrmpipeline/IFsrmProperty.Sources"
+f1_keywords:
+- fsrmpipeline/IFsrmProperty.Sources
 dev_langs:
- - c++
+- c++
 req.header: fsrmpipeline.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: SrmSvc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - SrmSvc.dll
+- SrmSvc.dll
 api_name:
- - IFsrmProperty.Sources
- - IFsrmProperty.get_Sources
+- IFsrmProperty.Sources
+- IFsrmProperty.get_Sources
 targetos: Windows
 req.typenames: 
 req.redist: 

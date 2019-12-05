@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi3if.ITAddress.Forward
 title: ITAddress::Forward (tapi3if.h)
-
 description: The Forward method forwards calls destined for the address according to the forwarding instructions contained in ITForwardInformation. If pForwardInfo is set to NULL, forwarding is canceled.
 old-location: tapi3\itaddress_forward.htm
 tech.root: Tapi
 ms.assetid: 4f070b50-db9a-49e8-a0f3-e448c5dee144
-
 ms.date: 12/05/2018
 ms.keywords: Forward, Forward method [TAPI 2.2], Forward method [TAPI 2.2],ITAddress interface, ITAddress interface [TAPI 2.2],Forward method, ITAddress.Forward, ITAddress::Forward, _tapi3_itaddress_forward, tapi3.itaddress_forward, tapi3if/ITAddress::Forward
 ms.topic: method
-f1_keywords: 
- - "tapi3if/ITAddress.Forward"
+f1_keywords:
+- tapi3if/ITAddress.Forward
 dev_langs:
- - c++
+- c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Tapi3.dll
+- Tapi3.dll
 api_name:
- - ITAddress.Forward
+- ITAddress.Forward
 targetos: Windows
 req.typenames: 
 req.redist: 

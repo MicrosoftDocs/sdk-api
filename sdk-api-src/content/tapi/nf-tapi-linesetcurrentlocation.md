@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi.lineSetCurrentLocation
 title: lineSetCurrentLocation function (tapi.h)
-
 description: The lineSetCurrentLocation function sets the location used as the context for address translation.
 old-location: tapi2\linesetcurrentlocation.htm
 tech.root: Tapi
 ms.assetid: ad31bc8b-399d-4c2e-b79c-fc935d5adf1a
-
 ms.date: 12/05/2018
-ms.keywords: "_tapi2_linesetcurrentlocation, lineSetCurrentLocation, lineSetCurrentLocation function [TAPI 2.2], tapi/lineSetCurrentLocation, tapi2.linesetcurrentlocation"
+ms.keywords: _tapi2_linesetcurrentlocation, lineSetCurrentLocation, lineSetCurrentLocation function [TAPI 2.2], tapi/lineSetCurrentLocation, tapi2.linesetcurrentlocation
 ms.topic: function
-f1_keywords: 
- - "tapi/lineSetCurrentLocation"
+f1_keywords:
+- tapi/lineSetCurrentLocation
 dev_langs:
- - c++
+- c++
 req.header: tapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Tapi32.lib
 req.dll: Tapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Tapi32.dll
+- Tapi32.dll
 api_name:
- - lineSetCurrentLocation
+- lineSetCurrentLocation
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d12sdklayers.ID3D12InfoQueue.AddMessage
 title: ID3D12InfoQueue::AddMessage (d3d12sdklayers.h)
-
 description: Adds a debug message to the message queue and sends that message to debug output.
 old-location: direct3d12\id3d12infoqueue_addmessage.htm
 tech.root: direct3d12
 ms.assetid: 34AAF9BB-5340-4DB3-87B9-6C26AB6C881C
-
 ms.date: 12/05/2018
 ms.keywords: AddMessage, AddMessage method, AddMessage method,ID3D12InfoQueue interface, ID3D12InfoQueue interface,AddMessage method, ID3D12InfoQueue.AddMessage, ID3D12InfoQueue::AddMessage, d3d12sdklayers/ID3D12InfoQueue::AddMessage, direct3d12.id3d12infoqueue_addmessage
 ms.topic: method
-f1_keywords: 
- - "d3d12sdklayers/ID3D12InfoQueue.AddMessage"
+f1_keywords:
+- d3d12sdklayers/ID3D12InfoQueue.AddMessage
 dev_langs:
- - c++
+- c++
 req.header: d3d12sdklayers.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - d3d12sdklayers.h
+- d3d12sdklayers.h
 api_name:
- - ID3D12InfoQueue.AddMessage
+- ID3D12InfoQueue.AddMessage
 targetos: Windows
 req.typenames: 
 req.redist: 

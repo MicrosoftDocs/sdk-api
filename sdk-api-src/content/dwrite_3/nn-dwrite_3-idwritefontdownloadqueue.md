@@ -1,19 +1,17 @@
 ---
 UID: NN:dwrite_3.IDWriteFontDownloadQueue
 title: IDWriteFontDownloadQueue (dwrite_3.h)
-
 description: Interface that enqueues download requests for remote fonts, characters, glyphs, and font fragments.
 old-location: directwrite\idwritefontdownloadqueue.htm
 tech.root: DirectWrite
 ms.assetid: d1b1dfab-a22a-40bb-ffc4-eb094ac14217
-
 ms.date: 12/05/2018
 ms.keywords: IDWriteFontDownloadQueue, IDWriteFontDownloadQueue interface [Direct Write], IDWriteFontDownloadQueue interface [Direct Write],described, directwrite.idwritefontdownloadqueue, dwrite_3/IDWriteFontDownloadQueue
 ms.topic: interface
-f1_keywords: 
- - "dwrite_3/IDWriteFontDownloadQueue"
+f1_keywords:
+- dwrite_3/IDWriteFontDownloadQueue
 dev_langs:
- - c++
+- c++
 req.header: dwrite_3.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dwrite.lib
 req.dll: Dwrite.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dwrite.dll
+- dwrite.dll
 api_name:
- - IDWriteFontDownloadQueue
+- IDWriteFontDownloadQueue
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:certenroll.IX509EnrollmentPolicyServer.GetFriendlyName
 title: IX509EnrollmentPolicyServer::GetFriendlyName (certenroll.h)
-
 description: Retrieves a display name for the certificate enrollment policy (CEP) server.
 old-location: security\ix509enrollmentpolicyserver_getfriendlyname.htm
 tech.root: seccertenroll
 ms.assetid: a2e3da49-19b8-44f6-af7c-ec5c13411f3f
-
 ms.date: 12/05/2018
 ms.keywords: GetFriendlyName, GetFriendlyName method [Security], GetFriendlyName method [Security],IX509EnrollmentPolicyServer interface, IX509EnrollmentPolicyServer interface [Security],GetFriendlyName method, IX509EnrollmentPolicyServer.GetFriendlyName, IX509EnrollmentPolicyServer::GetFriendlyName, certenroll/IX509EnrollmentPolicyServer::GetFriendlyName, security.ix509enrollmentpolicyserver_getfriendlyname
 ms.topic: method
-f1_keywords: 
- - "certenroll/IX509EnrollmentPolicyServer.GetFriendlyName"
+f1_keywords:
+- certenroll/IX509EnrollmentPolicyServer.GetFriendlyName
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Certenroll.h
+- Certenroll.h
 api_name:
- - IX509EnrollmentPolicyServer.GetFriendlyName
+- IX509EnrollmentPolicyServer.GetFriendlyName
 targetos: Windows
 req.typenames: 
 req.redist: 

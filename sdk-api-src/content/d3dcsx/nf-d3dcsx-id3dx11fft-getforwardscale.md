@@ -1,19 +1,17 @@
 ---
 UID: NF:d3dcsx.ID3DX11FFT.GetForwardScale
 title: ID3DX11FFT::GetForwardScale (d3dcsx.h)
-
 description: Gets the scale for forward transforms.
 old-location: direct3d11\id3dx11fft_getforwardscale.htm
 tech.root: direct3d11
 ms.assetid: d66cef71-df1e-40fa-80ba-9e0813608ee2
-
 ms.date: 12/05/2018
 ms.keywords: GetForwardScale, GetForwardScale method [Direct3D 11], GetForwardScale method [Direct3D 11],ID3DX11FFT interface, ID3DX11FFT interface [Direct3D 11],GetForwardScale method, ID3DX11FFT.GetForwardScale, ID3DX11FFT::GetForwardScale, d15a8e9c-685b-8592-6a11-8c6add9d890d, d3dcsx/ID3DX11FFT::GetForwardScale, direct3d11.id3dx11fft_getforwardscale
 ms.topic: method
-f1_keywords: 
- - "d3dcsx/ID3DX11FFT.GetForwardScale"
+f1_keywords:
+- d3dcsx/ID3DX11FFT.GetForwardScale
 dev_langs:
- - c++
+- c++
 req.header: d3dcsx.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: D3dcsx.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - d3dcsx.lib
- - d3dcsx.dll
+- d3dcsx.lib
+- d3dcsx.dll
 api_name:
- - ID3DX11FFT.GetForwardScale
+- ID3DX11FFT.GetForwardScale
 targetos: Windows
 req.typenames: 
 req.redist: 

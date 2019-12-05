@@ -1,19 +1,17 @@
 ---
 UID: NF:combaseapi.ProgIDFromCLSID
 title: ProgIDFromCLSID function (combaseapi.h)
-
 description: Retrieves the ProgID for a given CLSID.
 old-location: com\progidfromclsid.htm
 tech.root: com
 ms.assetid: a863cbc2-f8ab-468a-8254-b273077a6a2b
-
 ms.date: 12/05/2018
 ms.keywords: ProgIDFromCLSID, ProgIDFromCLSID function [COM], _com_ProgIDFromCLSID, com.progidfromclsid, combaseapi/ProgIDFromCLSID
 ms.topic: function
-f1_keywords: 
- - "combaseapi/ProgIDFromCLSID"
+f1_keywords:
+- combaseapi/ProgIDFromCLSID
 dev_langs:
- - c++
+- c++
 req.header: combaseapi.h
 req.include-header: Objbase.h
 req.target-type: Windows
@@ -32,19 +30,19 @@ req.lib: Ole32.lib
 req.dll: Ole32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ole32.dll
- - API-MS-Win-Core-Com-l1-1-0.dll
- - ComBase.dll
- - API-MS-Win-Core-Com-l1-1-1.dll
- - API-MS-Win-DownLevel-Ole32-l1-1-0.dll
- - API-MS-Win-DownLevel-Ole32-l1-1-1.dll
+- Ole32.dll
+- API-MS-Win-Core-Com-l1-1-0.dll
+- ComBase.dll
+- API-MS-Win-Core-Com-l1-1-1.dll
+- API-MS-Win-DownLevel-Ole32-l1-1-0.dll
+- API-MS-Win-DownLevel-Ole32-l1-1-1.dll
 api_name:
- - ProgIDFromCLSID
+- ProgIDFromCLSID
 targetos: Windows
 req.typenames: 
 req.redist: 

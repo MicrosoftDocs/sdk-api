@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi3.ITMSPAddress.ReceiveTSPData
 title: ITMSPAddress::ReceiveTSPData (tapi3.h)
-
 description: The ReceiveTSPData method is called by TAPI 3 when the TSP sends asynchronous data to the MSP.
 old-location: tapi3\itmspaddress_receivetspdata.htm
 tech.root: Tapi
 ms.assetid: 80b8e0aa-3361-4593-bec0-cbe9186c6c41
-
 ms.date: 12/05/2018
 ms.keywords: ITMSPAddress interface [TAPI 2.2],ReceiveTSPData method, ITMSPAddress.ReceiveTSPData, ITMSPAddress::ReceiveTSPData, ReceiveTSPData, ReceiveTSPData method [TAPI 2.2], ReceiveTSPData method [TAPI 2.2],ITMSPAddress interface, _tapi3_itmspaddress_receivetspdata, msp/ITMSPAddress::ReceiveTSPData, tapi3.itmspaddress_receivetspdata
 ms.topic: method
-f1_keywords: 
- - "tapi3/ITMSPAddress.ReceiveTSPData"
+f1_keywords:
+- tapi3/ITMSPAddress.ReceiveTSPData
 dev_langs:
- - c++
+- c++
 req.header: tapi3.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msp.h
+- msp.h
 api_name:
- - ITMSPAddress.ReceiveTSPData
+- ITMSPAddress.ReceiveTSPData
 targetos: Windows
 req.typenames: 
 req.redist: 

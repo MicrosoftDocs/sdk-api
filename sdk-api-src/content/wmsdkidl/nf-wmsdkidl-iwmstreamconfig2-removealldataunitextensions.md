@@ -1,19 +1,17 @@
 ---
 UID: NF:wmsdkidl.IWMStreamConfig2.RemoveAllDataUnitExtensions
 title: IWMStreamConfig2::RemoveAllDataUnitExtensions (wmsdkidl.h)
-
 description: The RemoveAllDataUnitExtensions method removes all data unit extension systems that are associated with the stream.
 old-location: wmformat\iwmstreamconfig2_removealldataunitextensions.htm
 tech.root: wmformat
 ms.assetid: 944c1b6c-1d1b-4a44-9b9e-d673c8d60306
-
 ms.date: 12/05/2018
 ms.keywords: IWMStreamConfig2 interface [windows Media Format],RemoveAllDataUnitExtensions method, IWMStreamConfig2.RemoveAllDataUnitExtensions, IWMStreamConfig2::RemoveAllDataUnitExtensions, IWMStreamConfig2RemoveAllDataUnitExtensions, RemoveAllDataUnitExtensions, RemoveAllDataUnitExtensions method [windows Media Format], RemoveAllDataUnitExtensions method [windows Media Format],IWMStreamConfig2 interface, wmformat.iwmstreamconfig2_removealldataunitextensions, wmsdkidl/IWMStreamConfig2::RemoveAllDataUnitExtensions
 ms.topic: method
-f1_keywords: 
- - "wmsdkidl/IWMStreamConfig2.RemoveAllDataUnitExtensions"
+f1_keywords:
+- wmsdkidl/IWMStreamConfig2.RemoveAllDataUnitExtensions
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wmvcore.lib
- - Wmvcore.dll
- - WMStubDRM.lib
- - WMStubDRM.dll
+- Wmvcore.lib
+- Wmvcore.dll
+- WMStubDRM.lib
+- WMStubDRM.dll
 api_name:
- - IWMStreamConfig2.RemoveAllDataUnitExtensions
+- IWMStreamConfig2.RemoveAllDataUnitExtensions
 targetos: Windows
 req.typenames: 
 req.redist: 

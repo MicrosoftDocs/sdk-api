@@ -1,19 +1,17 @@
 ---
 UID: NF:dskquota.IDiskQuotaUser.GetName
 title: IDiskQuotaUser::GetName (dskquota.h)
-
 description: Retrieves the name strings associated with a disk quota user.
 old-location: fs\idiskquotauser_getname.htm
 tech.root: FileIO
 ms.assetid: d47e064a-d121-41c3-b713-f81ff7052abf
-
 ms.date: 12/05/2018
 ms.keywords: GetName, GetName method [Files], GetName method [Files],IDiskQuotaUser interface, IDiskQuotaUser interface [Files],GetName method, IDiskQuotaUser.GetName, IDiskQuotaUser::GetName, _win32_idiskquotauser_getname, base.idiskquotauser_getname, dskquota/IDiskQuotaUser::GetName, fs.idiskquotauser_getname
 ms.topic: method
-f1_keywords: 
- - "dskquota/IDiskQuotaUser.GetName"
+f1_keywords:
+- dskquota/IDiskQuotaUser.GetName
 dev_langs:
- - c++
+- c++
 req.header: dskquota.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Dskquota.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dskquota.dll
+- Dskquota.dll
 api_name:
- - IDiskQuotaUser.GetName
+- IDiskQuotaUser.GetName
 targetos: Windows
 req.typenames: 
 req.redist: 

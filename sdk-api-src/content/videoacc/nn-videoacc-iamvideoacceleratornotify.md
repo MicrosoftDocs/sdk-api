@@ -1,19 +1,17 @@
 ---
 UID: NN:videoacc.IAMVideoAcceleratorNotify
 title: IAMVideoAcceleratorNotify (videoacc.h)
-
 description: The IAMVideoAcceleratorNotify interface is a callback interface used in conjunction with the IAMVideoAccelerator interface.
 old-location: dshow\iamvideoacceleratornotify.htm
 tech.root: DirectShow
 ms.assetid: 7fd0290c-8fd6-4af6-b510-7a87bc7937de
-
 ms.date: 12/05/2018
 ms.keywords: IAMVideoAcceleratorNotify, IAMVideoAcceleratorNotify interface [DirectShow], IAMVideoAcceleratorNotify interface [DirectShow],described, IAMVideoAcceleratorNotifyInterface, dshow.iamvideoacceleratornotify, videoacc/IAMVideoAcceleratorNotify
 ms.topic: interface
-f1_keywords: 
- - "videoacc/IAMVideoAcceleratorNotify"
+f1_keywords:
+- videoacc/IAMVideoAcceleratorNotify
 dev_langs:
- - c++
+- c++
 req.header: videoacc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IAMVideoAcceleratorNotify
+- IAMVideoAcceleratorNotify
 targetos: Windows
 req.typenames: 
 req.redist: 

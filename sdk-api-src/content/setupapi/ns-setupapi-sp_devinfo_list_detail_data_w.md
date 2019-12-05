@@ -1,19 +1,17 @@
 ---
 UID: NS:setupapi._SP_DEVINFO_LIST_DETAIL_DATA_W
 title: SP_DEVINFO_LIST_DETAIL_DATA_W (setupapi.h)
-
 description: An SP_DEVINFO_LIST_DETAIL_DATA structure contains information about a device information set, such as its associated setup class GUID (if it has an associated setup class).
 old-location: devinst\sp_devinfo_list_detail_data.htm
 tech.root: devinst
 ms.assetid: 03e6c137-5a7f-443d-878f-5e5c6642dde9
-
 ms.date: 12/05/2018
-ms.keywords: "*PSP_DEVINFO_LIST_DETAIL_DATA_W, PSP_DEVINFO_LIST_DETAIL_DATA, PSP_DEVINFO_LIST_DETAIL_DATA structure pointer [Device and Driver Installation], SP_DEVINFO_LIST_DETAIL_DATA, SP_DEVINFO_LIST_DETAIL_DATA structure [Device and Driver Installation], SP_DEVINFO_LIST_DETAIL_DATA_W, devinst.sp_devinfo_list_detail_data, di-struct_8539bcfc-25ee-49f5-bc59-74efc6aae5bf.xml, setupapi/PSP_DEVINFO_LIST_DETAIL_DATA, setupapi/SP_DEVINFO_LIST_DETAIL_DATA"
+ms.keywords: '*PSP_DEVINFO_LIST_DETAIL_DATA_W, PSP_DEVINFO_LIST_DETAIL_DATA, PSP_DEVINFO_LIST_DETAIL_DATA structure pointer [Device and Driver Installation], SP_DEVINFO_LIST_DETAIL_DATA, SP_DEVINFO_LIST_DETAIL_DATA structure [Device and Driver Installation], SP_DEVINFO_LIST_DETAIL_DATA_W, devinst.sp_devinfo_list_detail_data, di-struct_8539bcfc-25ee-49f5-bc59-74efc6aae5bf.xml, setupapi/PSP_DEVINFO_LIST_DETAIL_DATA, setupapi/SP_DEVINFO_LIST_DETAIL_DATA'
 ms.topic: struct
-f1_keywords: 
- - "setupapi/SP_DEVINFO_LIST_DETAIL_DATA"
+f1_keywords:
+- setupapi/SP_DEVINFO_LIST_DETAIL_DATA
 dev_langs:
- - c++
+- c++
 req.header: setupapi.h
 req.include-header: Setupapi.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - setupapi.h
+- setupapi.h
 api_name:
- - SP_DEVINFO_LIST_DETAIL_DATA
- - sp_devinfo_list_detail_data_w
+- SP_DEVINFO_LIST_DETAIL_DATA
+- sp_devinfo_list_detail_data_w
 targetos: Windows
 req.typenames: SP_DEVINFO_LIST_DETAIL_DATA_W, *PSP_DEVINFO_LIST_DETAIL_DATA_W
 req.redist: 

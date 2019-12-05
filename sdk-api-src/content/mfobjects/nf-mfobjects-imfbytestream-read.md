@@ -1,19 +1,17 @@
 ---
 UID: NF:mfobjects.IMFByteStream.Read
 title: IMFByteStream::Read (mfobjects.h)
-
 description: Reads data from the stream.
 old-location: mf\imfbytestream_read.htm
 tech.root: medfound
 ms.assetid: 6e0d5363-f2c2-4334-86ca-71fac61073d3
-
 ms.date: 12/05/2018
 ms.keywords: 6e0d5363-f2c2-4334-86ca-71fac61073d3, IMFByteStream interface [Media Foundation],Read method, IMFByteStream.Read, IMFByteStream::Read, Read, Read method [Media Foundation], Read method [Media Foundation],IMFByteStream interface, mf.imfbytestream_read, mfobjects/IMFByteStream::Read
 ms.topic: method
-f1_keywords: 
- - "mfobjects/IMFByteStream.Read"
+f1_keywords:
+- mfobjects/IMFByteStream.Read
 dev_langs:
- - c++
+- c++
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFByteStream.Read
+- IMFByteStream.Read
 targetos: Windows
 req.typenames: 
 req.redist: 

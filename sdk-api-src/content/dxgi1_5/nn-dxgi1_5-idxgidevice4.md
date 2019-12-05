@@ -1,19 +1,17 @@
 ---
 UID: NN:dxgi1_5.IDXGIDevice4
 title: IDXGIDevice4 (dxgi1_5.h)
-
 description: This interface provides updated methods to offer and reclaim resources.
 old-location: direct3ddxgi\idxgidevice4.htm
 tech.root: direct3ddxgi
 ms.assetid: 15EA6B68-587E-4D92-A70D-7DDA9915EBC2
-
 ms.date: 12/05/2018
 ms.keywords: IDXGIDevice4, IDXGIDevice4 interface [DXGI], IDXGIDevice4 interface [DXGI],described, direct3ddxgi.idxgidevice4, dxgi1_5/IDXGIDevice4
 ms.topic: interface
-f1_keywords: 
- - "dxgi1_5/IDXGIDevice4"
+f1_keywords:
+- dxgi1_5/IDXGIDevice4
 dev_langs:
- - c++
+- c++
 req.header: dxgi1_5.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dxgi.lib
 req.dll: Dxgi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dxgi.dll
+- dxgi.dll
 api_name:
- - IDXGIDevice4
+- IDXGIDevice4
 targetos: Windows
 req.typenames: 
 req.redist: 

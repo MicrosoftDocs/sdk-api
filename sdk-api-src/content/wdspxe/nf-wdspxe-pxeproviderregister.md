@@ -1,19 +1,17 @@
 ---
 UID: NF:wdspxe.PxeProviderRegister
 title: PxeProviderRegister function (wdspxe.h)
-
 description: Registers a provider with the system.
 old-location: wds\pxeproviderregister.htm
 tech.root: wds
 ms.assetid: 2b377855-dae7-47cb-925a-9ee0a9265f83
-
 ms.date: 12/05/2018
 ms.keywords: PXE_REG_INDEX_BOTTOM, PXE_REG_INDEX_TOP, PxeProviderRegister, PxeProviderRegister function [Windows Deployment Services], wds.pxeproviderregister, wdspxe/PxeProviderRegister
 ms.topic: function
-f1_keywords: 
- - "wdspxe/PxeProviderRegister"
+f1_keywords:
+- wdspxe/PxeProviderRegister
 dev_langs:
- - c++
+- c++
 req.header: wdspxe.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: WdsPxe.lib
 req.dll: WdsPxe.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - WdsPxe.dll
+- WdsPxe.dll
 api_name:
- - PxeProviderRegister
+- PxeProviderRegister
 targetos: Windows
 req.typenames: 
 req.redist: 

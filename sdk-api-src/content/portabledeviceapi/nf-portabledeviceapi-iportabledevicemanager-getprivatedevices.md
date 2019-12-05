@@ -1,19 +1,17 @@
 ---
 UID: NF:portabledeviceapi.IPortableDeviceManager.GetPrivateDevices
 title: IPortableDeviceManager::GetPrivateDevices (portabledeviceapi.h)
-
 description: The GetPrivateDevices method retrieves a list of private portable devices connected to the computer. These private devices are only accessible through an application that is designed for these particular devices.
 old-location: wpdsdk\iportabledevicemanager_getprivatedevices.htm
 tech.root: wpd_sdk
 ms.assetid: f25a8eb4-be40-43c0-bb3c-00031b7f08db
-
 ms.date: 12/05/2018
 ms.keywords: GetPrivateDevices, GetPrivateDevices method [Windows Portable Devices SDK], GetPrivateDevices method [Windows Portable Devices SDK],IPortableDeviceManager interface, IPortableDeviceManager interface [Windows Portable Devices SDK],GetPrivateDevices method, IPortableDeviceManager.GetPrivateDevices, IPortableDeviceManager::GetPrivateDevices, IPortableDeviceManagerGetPrivateDevices, portabledeviceapi/IPortableDeviceManager::GetPrivateDevices, wpdsdk.iportabledevicemanager_getprivatedevices
 ms.topic: method
-f1_keywords: 
- - "portabledeviceapi/IPortableDeviceManager.GetPrivateDevices"
+f1_keywords:
+- portabledeviceapi/IPortableDeviceManager.GetPrivateDevices
 dev_langs:
- - c++
+- c++
 req.header: portabledeviceapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: PortableDeviceGUIDs.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - PortableDeviceGUIDs.lib
- - PortableDeviceGUIDs.dll
+- PortableDeviceGUIDs.lib
+- PortableDeviceGUIDs.dll
 api_name:
- - IPortableDeviceManager.GetPrivateDevices
+- IPortableDeviceManager.GetPrivateDevices
 targetos: Windows
 req.typenames: 
 req.redist: 

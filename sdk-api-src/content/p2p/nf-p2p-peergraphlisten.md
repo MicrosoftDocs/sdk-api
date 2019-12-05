@@ -1,19 +1,17 @@
 ---
 UID: NF:p2p.PeerGraphListen
 title: PeerGraphListen function (p2p.h)
-
 description: The PeerGraphListen function indicates that a peer graph should start listening for incoming connections.
 old-location: p2p\peergraphlisten.htm
 tech.root: P2PSdk
 ms.assetid: bac893d4-8f4d-4e1f-953b-1b289c5f18be
-
 ms.date: 12/05/2018
 ms.keywords: PEER_GRAPH_SCOPE_GLOBAL, PEER_GRAPH_SCOPE_LINKLOCAL, PEER_GRAPH_SCOPE_SITELOCAL, PeerGraphListen, PeerGraphListen function [Peer Networking], p2p.peergraphlisten, p2p/PeerGraphListen
 ms.topic: function
-f1_keywords: 
- - "p2p/PeerGraphListen"
+f1_keywords:
+- p2p/PeerGraphListen
 dev_langs:
- - c++
+- c++
 req.header: p2p.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: P2PGraph.lib
 req.dll: P2PGraph.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - P2PGraph.dll
+- P2PGraph.dll
 api_name:
- - PeerGraphListen
+- PeerGraphListen
 targetos: Windows
 req.typenames: 
 req.redist: 

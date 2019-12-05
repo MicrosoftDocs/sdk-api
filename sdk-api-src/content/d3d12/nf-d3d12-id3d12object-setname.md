@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d12.ID3D12Object.SetName
 title: ID3D12Object::SetName (d3d12.h)
-
 description: Associates a name with the device object. This name is for use in debug diagnostics and tools.
 old-location: direct3d12\id3d12object_setname.htm
 tech.root: direct3d12
 ms.assetid: A1DEEB16-BF75-4391-ADF0-AC22EECBC71A
-
 ms.date: 12/05/2018
 ms.keywords: ID3D12Object interface,SetName method, ID3D12Object.SetName, ID3D12Object::SetName, SetName, SetName method, SetName method,ID3D12Object interface, d3d12/ID3D12Object::SetName, direct3d12.id3d12object_setname
 ms.topic: method
-f1_keywords: 
- - "d3d12/ID3D12Object.SetName"
+f1_keywords:
+- d3d12/ID3D12Object.SetName
 dev_langs:
- - c++
+- c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: D3D12.lib
 req.dll: D3D12.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D12.dll
+- D3D12.dll
 api_name:
- - ID3D12Object.SetName
+- ID3D12Object.SetName
 targetos: Windows
 req.typenames: 
 req.redist: 

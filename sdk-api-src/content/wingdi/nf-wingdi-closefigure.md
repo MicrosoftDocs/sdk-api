@@ -1,19 +1,17 @@
 ---
 UID: NF:wingdi.CloseFigure
 title: CloseFigure function (wingdi.h)
-
 description: The CloseFigure function closes an open figure in a path.
 old-location: gdi\closefigure.htm
 tech.root: gdi
 ms.assetid: 2532227c-35c9-4a46-b4eb-4a156ef28219
-
 ms.date: 12/05/2018
 ms.keywords: CloseFigure, CloseFigure function [Windows GDI], _win32_CloseFigure, gdi.closefigure, wingdi/CloseFigure
 ms.topic: function
-f1_keywords: 
- - "wingdi/CloseFigure"
+f1_keywords:
+- wingdi/CloseFigure
 dev_langs:
- - c++
+- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - gdi32.dll
- - Ext-MS-Win-GDI-Path-l1-1-0.dll
- - GDI32Full.dll
+- gdi32.dll
+- Ext-MS-Win-GDI-Path-l1-1-0.dll
+- GDI32Full.dll
 api_name:
- - CloseFigure
+- CloseFigure
 targetos: Windows
 req.typenames: 
 req.redist: 

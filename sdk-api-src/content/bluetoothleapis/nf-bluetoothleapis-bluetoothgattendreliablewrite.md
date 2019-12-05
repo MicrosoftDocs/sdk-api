@@ -1,19 +1,17 @@
 ---
 UID: NF:bluetoothleapis.BluetoothGATTEndReliableWrite
 title: BluetoothGATTEndReliableWrite function (bluetoothleapis.h)
-
 description: Specifies the end of reliable writes, and the writes should be committed.
 old-location: bltooth\bluetoothgattendreliablewrite.htm
 tech.root: bltooth
 ms.assetid: 4A3CB135-55D7-41BA-8067-D4B865D05733
-
 ms.date: 12/05/2018
 ms.keywords: BluetoothGATTEndReliableWrite, BluetoothGATTEndReliableWrite function [Bluetooth Devices], bltooth.bluetoothgattendreliablewrite, bluetoothleapis/BluetoothGATTEndReliableWrite
 ms.topic: function
-f1_keywords: 
- - "bluetoothleapis/BluetoothGATTEndReliableWrite"
+f1_keywords:
+- bluetoothleapis/BluetoothGATTEndReliableWrite
 dev_langs:
- - c++
+- c++
 req.header: bluetoothleapis.h
 req.include-header: 
 req.target-type: Universal
@@ -32,15 +30,15 @@ req.lib: BluetoothAPIs.lib
 req.dll: BluetoothAPIs.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - BluetoothAPIs.dll
- - Ext-MS-Win-Bluetooth-APIs-l1-1-0.dll
+- BluetoothAPIs.dll
+- Ext-MS-Win-Bluetooth-APIs-l1-1-0.dll
 api_name:
- - BluetoothGATTEndReliableWrite
+- BluetoothGATTEndReliableWrite
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:mfapi.MFHeapAlloc
 title: MFHeapAlloc function (mfapi.h)
-
 description: Allocates a block of memory.
 old-location: mf\mfheapalloc.htm
 tech.root: medfound
 ms.assetid: 3ad97cbf-4065-4807-ad6a-68e84a3601d4
-
 ms.date: 12/05/2018
 ms.keywords: 3ad97cbf-4065-4807-ad6a-68e84a3601d4, MFHeapAlloc, MFHeapAlloc function [Media Foundation], mf.mfheapalloc, mfapi/MFHeapAlloc
 ms.topic: function
-f1_keywords: 
- - "mfapi/MFHeapAlloc"
+f1_keywords:
+- mfapi/MFHeapAlloc
 dev_langs:
- - c++
+- c++
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Mfplat.lib
 req.dll: Mfplat.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - mfplat.dll
+- mfplat.dll
 api_name:
- - MFHeapAlloc
+- MFHeapAlloc
 targetos: Windows
 req.typenames: 
 req.redist: 

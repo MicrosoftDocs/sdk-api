@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi3if.ITDigitDetectionEvent.get_CallbackInstance
 title: ITDigitDetectionEvent::get_CallbackInstance (tapi3if.h)
-
 description: The get_CallbackInstance method gets a pointer to the callback instance associated with the event.
 old-location: tapi3\itdigitdetectionevent_get_callbackinstance.htm
 tech.root: Tapi
 ms.assetid: e24d6a37-8f72-42d7-8162-b201eed3cc9a
-
 ms.date: 12/05/2018
 ms.keywords: ITDigitDetectionEvent interface [TAPI 2.2],get_CallbackInstance method, ITDigitDetectionEvent.get_CallbackInstance, ITDigitDetectionEvent::get_CallbackInstance, _tapi3_itdigitdetectionevent_get_callbackinstance, get_CallbackInstance, get_CallbackInstance method [TAPI 2.2], get_CallbackInstance method [TAPI 2.2],ITDigitDetectionEvent interface, tapi3.itdigitdetectionevent_get_callbackinstance, tapi3if/ITDigitDetectionEvent::get_CallbackInstance
 ms.topic: method
-f1_keywords: 
- - "tapi3if/ITDigitDetectionEvent.get_CallbackInstance"
+f1_keywords:
+- tapi3if/ITDigitDetectionEvent.get_CallbackInstance
 dev_langs:
- - c++
+- c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Tapi3.dll
+- Tapi3.dll
 api_name:
- - ITDigitDetectionEvent.get_CallbackInstance
+- ITDigitDetectionEvent.get_CallbackInstance
 targetos: Windows
 req.typenames: 
 req.redist: 

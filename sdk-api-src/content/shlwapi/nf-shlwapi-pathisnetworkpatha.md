@@ -1,19 +1,17 @@
 ---
 UID: NF:shlwapi.PathIsNetworkPathA
 title: PathIsNetworkPathA function (shlwapi.h)
-
 description: Determines whether a path string represents a network resource.
 old-location: shell\PathIsNetworkPath.htm
 tech.root: shell
 ms.assetid: 3a9c33bc-2325-4285-b6c3-4c3e1d323c1e
-
 ms.date: 12/05/2018
 ms.keywords: PathIsNetworkPath, PathIsNetworkPath function [Windows Shell], PathIsNetworkPathA, PathIsNetworkPathW, _win32_PathIsNetworkPath, shell.PathIsNetworkPath, shlwapi/PathIsNetworkPath, shlwapi/PathIsNetworkPathA, shlwapi/PathIsNetworkPathW
 ms.topic: function
-f1_keywords: 
- - "shlwapi/PathIsNetworkPath"
+f1_keywords:
+- shlwapi/PathIsNetworkPath
 dev_langs:
- - c++
+- c++
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,19 +30,19 @@ req.lib: Shlwapi.lib
 req.dll: Shlwapi.dll (version 5.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Shlwapi.dll
- - Ext-MS-Win-shell-shlwapi-l1-1-0.dll
- - Ext-MS-Win-Shell-ShlwApi-l1-1-1.dll
- - Ext-MS-Win-Shell-ShlwAPI-L1-1-2.dll
+- Shlwapi.dll
+- Ext-MS-Win-shell-shlwapi-l1-1-0.dll
+- Ext-MS-Win-Shell-ShlwApi-l1-1-1.dll
+- Ext-MS-Win-Shell-ShlwAPI-L1-1-2.dll
 api_name:
- - PathIsNetworkPath
- - PathIsNetworkPathA
- - PathIsNetworkPathW
+- PathIsNetworkPath
+- PathIsNetworkPathA
+- PathIsNetworkPathW
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d9.IDirect3DDevice9Ex.SetMaximumFrameLatency
 title: IDirect3DDevice9Ex::SetMaximumFrameLatency (d3d9.h)
-
 description: Set the number of frames that the system is allowed to queue for rendering.
 old-location: direct3d9\idirect3ddevice9ex_setmaximumframelatency.htm
 tech.root: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3ddevice9ex_setmaximumframelatency.htm
-
 ms.date: 12/05/2018
 ms.keywords: IDirect3DDevice9Ex interface [Direct3D 9],SetMaximumFrameLatency method, IDirect3DDevice9Ex.SetMaximumFrameLatency, IDirect3DDevice9Ex::SetMaximumFrameLatency, SetMaximumFrameLatency, SetMaximumFrameLatency method [Direct3D 9], SetMaximumFrameLatency method [Direct3D 9],IDirect3DDevice9Ex interface, d3d9/IDirect3DDevice9Ex::SetMaximumFrameLatency, dec92ba9-626f-0377-78d2-9951aefa48b5, direct3d9.idirect3ddevice9ex_setmaximumframelatency
 ms.topic: method
-f1_keywords: 
- - "d3d9/IDirect3DDevice9Ex.SetMaximumFrameLatency"
+f1_keywords:
+- d3d9/IDirect3DDevice9Ex.SetMaximumFrameLatency
 dev_langs:
- - c++
+- c++
 req.header: d3d9.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: D3D9.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D9.lib
- - D3D9.dll
+- D3D9.lib
+- D3D9.dll
 api_name:
- - IDirect3DDevice9Ex.SetMaximumFrameLatency
+- IDirect3DDevice9Ex.SetMaximumFrameLatency
 targetos: Windows
 req.typenames: 
 req.redist: 

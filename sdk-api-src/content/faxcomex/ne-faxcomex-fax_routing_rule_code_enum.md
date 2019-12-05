@@ -1,19 +1,17 @@
 ---
 UID: NE:faxcomex.FAX_ROUTING_RULE_CODE_ENUM
 title: FAX_ROUTING_RULE_CODE_ENUM (faxcomex.h)
-
 description: The FAX_ROUTING_RULE_CODE_ENUM enumeration defines the rules for outbound routing.
 old-location: fax\_mfax_fax_routing_rule_code_enum.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_10rx.htm
-
 ms.date: 12/05/2018
 ms.keywords: FAX_ROUTING_RULE_CODE_ENUM, FAX_ROUTING_RULE_CODE_ENUM enumeration [Fax Service], _mfax_fax_routing_rule_code_enum, fax._mfax_fax_routing_rule_code_enum, faxcomex/FAX_ROUTING_RULE_CODE_ENUM, faxcomex/frrcANY_CODE, frrcANY_CODE
 ms.topic: enum
-f1_keywords: 
- - "faxcomex/FAX_ROUTING_RULE_CODE_ENUM"
+f1_keywords:
+- faxcomex/FAX_ROUTING_RULE_CODE_ENUM
 dev_langs:
- - c++
+- c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - FaxComex.h
+- FaxComex.h
 api_name:
- - FAX_ROUTING_RULE_CODE_ENUM
+- FAX_ROUTING_RULE_CODE_ENUM
 targetos: Windows
 req.typenames: FAX_ROUTING_RULE_CODE_ENUM
 req.redist: 

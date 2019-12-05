@@ -1,19 +1,17 @@
 ---
 UID: NN:dxgi1_4.IDXGIFactory4
 title: IDXGIFactory4 (dxgi1_4.h)
-
 description: Enables creating Microsoft DirectX Graphics Infrastructure (DXGI) objects.
 old-location: direct3ddxgi\idxgifactory4.htm
 tech.root: direct3ddxgi
 ms.assetid: 248CF7CF-BC7D-430F-9EA1-638A42AAC021
-
 ms.date: 12/05/2018
 ms.keywords: IDXGIFactory4, IDXGIFactory4 interface [DXGI], IDXGIFactory4 interface [DXGI],described, direct3ddxgi.idxgifactory4, dxgi1_4/IDXGIFactory4
 ms.topic: interface
-f1_keywords: 
- - "dxgi1_4/IDXGIFactory4"
+f1_keywords:
+- dxgi1_4/IDXGIFactory4
 dev_langs:
- - c++
+- c++
 req.header: dxgi1_4.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Dxgi.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dxgi.lib
- - Dxgi.dll
+- Dxgi.lib
+- Dxgi.dll
 api_name:
- - IDXGIFactory4
+- IDXGIFactory4
 targetos: Windows
 req.typenames: 
 req.redist: 

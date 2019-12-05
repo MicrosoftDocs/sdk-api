@@ -1,19 +1,17 @@
 ---
 UID: NF:commctrl.TabCtrl_GetCurFocus
 title: TabCtrl_GetCurFocus macro (commctrl.h)
-
 description: Returns the index of the item that has the focus in a tab control. You can use this macro or send the TCM_GETCURFOCUS message explicitly.
 old-location: controls\TabCtrl_GetCurFocus.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\tab\macros\tabctrl_getcurfocus.htm
-
 ms.date: 12/05/2018
 ms.keywords: TabCtrl_GetCurFocus, TabCtrl_GetCurFocus macro [Windows Controls], _win32_TabCtrl_GetCurFocus, _win32_TabCtrl_GetCurFocus_cpp, commctrl/TabCtrl_GetCurFocus, controls.TabCtrl_GetCurFocus, controls._win32_TabCtrl_GetCurFocus
 ms.topic: macro
-f1_keywords: 
- - "commctrl/TabCtrl_GetCurFocus"
+f1_keywords:
+- commctrl/TabCtrl_GetCurFocus
 dev_langs:
- - c++
+- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Commctrl.h
+- Commctrl.h
 api_name:
- - TabCtrl_GetCurFocus
+- TabCtrl_GetCurFocus
 targetos: Windows
 req.typenames: 
 req.redist: 

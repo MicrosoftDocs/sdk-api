@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.INamespaceWalk.Walk
 title: INamespaceWalk::Walk (shobjidl_core.h)
-
 description: Initiates a recursive walk of the namespace from the specified root to the given depth.
 old-location: shell\INamespaceWalk_Walk.htm
 tech.root: shell
 ms.assetid: cfe328f4-6db5-423b-b944-f0f390359793
-
 ms.date: 12/05/2018
 ms.keywords: INamespaceWalk interface [Windows Shell],Walk method, INamespaceWalk.Walk, INamespaceWalk::Walk, NSWF_ACCUMULATE_FOLDERS, NSWF_ANY_IMPLIES_ALL, NSWF_ASYNC, NSWF_DEFAULT, NSWF_DONT_ACCUMULATE_RESULT, NSWF_DONT_RESOLVE_LINKS, NSWF_DONT_SORT, NSWF_DONT_TRAVERSE_LINKS, NSWF_DONT_TRAVERSE_STREAM_JUNCTIONS, NSWF_FILESYSTEM_ONLY, NSWF_FLAG_VIEWORDER, NSWF_IGNORE_AUTOPLAY_HIDA, NSWF_NONE_IMPLIES_ALL, NSWF_ONE_IMPLIES_ALL, NSWF_SHOW_PROGRESS, NSWF_TRAVERSE_STREAM_JUNCTIONS, NSWF_USE_TRANSFER_MEDIUM, Walk, Walk method [Windows Shell], Walk method [Windows Shell],INamespaceWalk interface, _win32_INamespaceWalk_Walk, shell.INamespaceWalk_Walk, shobjidl_core/INamespaceWalk::Walk
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/INamespaceWalk.Walk"
+f1_keywords:
+- shobjidl_core/INamespaceWalk.Walk
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Shell32.lib
 req.dll: Shell32.dll (version 6.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - INamespaceWalk.Walk
+- INamespaceWalk.Walk
 targetos: Windows
 req.typenames: 
 req.redist: 

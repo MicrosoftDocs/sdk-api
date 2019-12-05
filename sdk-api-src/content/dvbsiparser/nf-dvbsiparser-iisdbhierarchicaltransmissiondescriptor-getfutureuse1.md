@@ -1,19 +1,17 @@
 ---
 UID: NF:dvbsiparser.IIsdbHierarchicalTransmissionDescriptor.GetFutureUse1
 title: IIsdbHierarchicalTransmissionDescriptor::GetFutureUse1 (dvbsiparser.h)
-
 description: Gets the value of the 7-bit reserved_future_use field from an Integrated Services Digital Broadcasting (ISDB) hierarchical transmission descriptor.
 old-location: mstv\iisdbhierarchicaltransmissiondescriptor_getfutureuse1.htm
 tech.root: mstv
 ms.assetid: 853885cf-36cc-402a-96a8-bc44701fc0a4
-
 ms.date: 12/05/2018
 ms.keywords: GetFutureUse1, GetFutureUse1 method [Microsoft TV Technologies], GetFutureUse1 method [Microsoft TV Technologies],IIsdbHierarchicalTransmissionDescriptor interface, IIsdbHierarchicalTransmissionDescriptor interface [Microsoft TV Technologies],GetFutureUse1 method, IIsdbHierarchicalTransmissionDescriptor.GetFutureUse1, IIsdbHierarchicalTransmissionDescriptor::GetFutureUse1, dvbsiparser/IIsdbHierarchicalTransmissionDescriptor::GetFutureUse1, mstv.iisdbhierarchicaltransmissiondescriptor_getfutureuse1
 ms.topic: method
-f1_keywords: 
- - "dvbsiparser/IIsdbHierarchicalTransmissionDescriptor.GetFutureUse1"
+f1_keywords:
+- dvbsiparser/IIsdbHierarchicalTransmissionDescriptor.GetFutureUse1
 dev_langs:
- - c++
+- c++
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dvbsiparser.h
+- dvbsiparser.h
 api_name:
- - IIsdbHierarchicalTransmissionDescriptor.GetFutureUse1
+- IIsdbHierarchicalTransmissionDescriptor.GetFutureUse1
 targetos: Windows
 req.typenames: 
 req.redist: 

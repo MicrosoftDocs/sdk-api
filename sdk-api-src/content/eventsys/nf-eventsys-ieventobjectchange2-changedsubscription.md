@@ -1,19 +1,17 @@
 ---
 UID: NF:eventsys.IEventObjectChange2.ChangedSubscription
 title: IEventObjectChange2::ChangedSubscription (eventsys.h)
-
 description: Indicates that a subscription object has been added, modified, or deleted.
 old-location: cos\ieventobjectchange2_changedsubscription.htm
 tech.root: cossdk
 ms.assetid: 848d5af0-53aa-4ba4-9b21-0caf8e85d01d
-
 ms.date: 12/05/2018
 ms.keywords: ChangedSubscription, ChangedSubscription method [COM+], ChangedSubscription method [COM+],IEventObjectChange2 interface, IEventObjectChange2 interface [COM+],ChangedSubscription method, IEventObjectChange2.ChangedSubscription, IEventObjectChange2::ChangedSubscription, _cos_ieventobjectchange2_changedsubscription, cos.ieventobjectchange2_changedsubscription, eventsys/IEventObjectChange2::ChangedSubscription
 ms.topic: method
-f1_keywords: 
- - "eventsys/IEventObjectChange2.ChangedSubscription"
+f1_keywords:
+- eventsys/IEventObjectChange2.ChangedSubscription
 dev_langs:
- - c++
+- c++
 req.header: eventsys.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Eventsys.h
+- Eventsys.h
 api_name:
- - IEventObjectChange2.ChangedSubscription
+- IEventObjectChange2.ChangedSubscription
 targetos: Windows
 req.typenames: 
 req.redist: 

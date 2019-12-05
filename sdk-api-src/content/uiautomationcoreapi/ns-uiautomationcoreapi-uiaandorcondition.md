@@ -1,19 +1,17 @@
 ---
 UID: NS:uiautomationcoreapi.UiaAndOrCondition
 title: UiaAndOrCondition (uiautomationcoreapi.h)
-
 description: Note  This structure is deprecated.  Contains information about a complex condition.
 old-location: winauto\uiauto_UiaAndOrConditionStruct.htm
 tech.root: WinAuto
 ms.assetid: de71d10e-ca81-4f66-a137-ae46adb47b4f
-
 ms.date: 12/05/2018
 ms.keywords: UiaAndOrCondition, UiaAndOrCondition structure [Windows Accessibility], uiauto.uiauto_UiaAndOrConditionStruct, uiauto_UiaAndOrConditionStruct, uiautomationcoreapi/UiaAndOrCondition, winauto.uiauto_UiaAndOrConditionStruct
 ms.topic: struct
-f1_keywords: 
- - "uiautomationcoreapi/UiaAndOrCondition"
+f1_keywords:
+- uiautomationcoreapi/UiaAndOrCondition
 dev_langs:
- - c++
+- c++
 req.header: uiautomationcoreapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - UIAutomationCoreApi.h
+- UIAutomationCoreApi.h
 api_name:
- - UiaAndOrCondition
+- UiaAndOrCondition
 targetos: Windows
 req.typenames: 
 req.redist: 

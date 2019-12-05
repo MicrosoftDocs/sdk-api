@@ -1,19 +1,17 @@
 ---
 UID: NF:tom.ITextFont.GetHidden
 title: ITextFont::GetHidden (tom.h)
-
 description: Gets whether characters are hidden.
 old-location: controls\ITextFont_GetHidden.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\gethidden.htm
-
 ms.date: 12/05/2018
 ms.keywords: GetHidden, GetHidden method [Windows Controls], GetHidden method [Windows Controls],ITextFont interface, ITextFont interface [Windows Controls],GetHidden method, ITextFont.GetHidden, ITextFont::GetHidden, _win32_ITextFont_GetHidden, _win32_ITextFont_GetHidden_cpp, controls.ITextFont_GetHidden, controls._win32_ITextFont_GetHidden, tom/ITextFont::GetHidden
 ms.topic: method
-f1_keywords: 
- - "tom/ITextFont.GetHidden"
+f1_keywords:
+- tom/ITextFont.GetHidden
 dev_langs:
- - c++
+- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msftedit.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msftedit.dll
+- Msftedit.dll
 api_name:
- - ITextFont.GetHidden
+- ITextFont.GetHidden
 targetos: Windows
 req.typenames: 
 req.redist: 

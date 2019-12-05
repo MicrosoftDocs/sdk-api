@@ -1,19 +1,17 @@
 ---
 UID: NF:wsdclient.IWSDDeviceProxy.GetThisDeviceMetadata
 title: IWSDDeviceProxy::GetThisDeviceMetadata (wsdclient.h)
-
 description: Retrieves device-specific metadata for this device.
 old-location: ncd\iwsddeviceproxy_getthisdevicemetadata_method.htm
 tech.root: WsdApi
 ms.assetid: 95a87bb1-8e62-4ece-a7bc-2483ea282ede
-
 ms.date: 12/05/2018
 ms.keywords: GetThisDeviceMetadata, GetThisDeviceMetadata method, GetThisDeviceMetadata method,IWSDDeviceProxy interface, IWSDDeviceProxy interface,GetThisDeviceMetadata method, IWSDDeviceProxy.GetThisDeviceMetadata, IWSDDeviceProxy::GetThisDeviceMetadata, ncd.iwsddeviceproxy_getthisdevicemetadata_method, wsdclient/IWSDDeviceProxy::GetThisDeviceMetadata
 ms.topic: method
 f1_keywords:
 - wsdclient/IWSDDeviceProxy.GetThisDeviceMetadata
 dev_langs:
- - c++
+- c++
 req.header: wsdclient.h
 req.include-header: Wsdapi.h
 req.target-type: Windows

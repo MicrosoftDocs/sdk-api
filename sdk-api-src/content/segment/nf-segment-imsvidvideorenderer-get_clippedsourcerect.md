@@ -1,19 +1,17 @@
 ---
 UID: NF:segment.IMSVidVideoRenderer.get_ClippedSourceRect
 title: IMSVidVideoRenderer::get_ClippedSourceRect (segment.h)
-
 description: The get_ClippedSourceRect method retrieves the clipping rectangle on the video source.
 old-location: mstv\imsvidvideorenderer_get_clippedsourcerect.htm
 tech.root: mstv
 ms.assetid: d40d39d9-41a4-42e1-b0d0-4a6299fd1cff
-
 ms.date: 12/05/2018
 ms.keywords: IMSVidVideoRenderer interface [Microsoft TV Technologies],get_ClippedSourceRect method, IMSVidVideoRenderer.get_ClippedSourceRect, IMSVidVideoRenderer::get_ClippedSourceRect, IMSVidVideoRendererget_ClippedSourceRect, get_ClippedSourceRect, get_ClippedSourceRect method [Microsoft TV Technologies], get_ClippedSourceRect method [Microsoft TV Technologies],IMSVidVideoRenderer interface, mstv.imsvidvideorenderer_get_clippedsourcerect, segment/IMSVidVideoRenderer::get_ClippedSourceRect
 ms.topic: method
-f1_keywords: 
- - "segment/IMSVidVideoRenderer.get_ClippedSourceRect"
+f1_keywords:
+- segment/IMSVidVideoRenderer.get_ClippedSourceRect
 dev_langs:
- - c++
+- c++
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - segment.h
+- segment.h
 api_name:
- - IMSVidVideoRenderer.get_ClippedSourceRect
+- IMSVidVideoRenderer.get_ClippedSourceRect
 targetos: Windows
 req.typenames: 
 req.redist: 

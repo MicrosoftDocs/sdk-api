@@ -1,19 +1,17 @@
 ---
 UID: NE:gdipluscolormatrix.ColorMatrixFlags
 title: ColorMatrixFlags (gdipluscolormatrix.h)
-
 description: The ColorMatrixFlags enumeration specifies the types of images and colors that will be affected by the color and grayscale adjustment settings of an ImageAttributes object.
 old-location: gdiplus\_gdiplus_ENUM_ColorMatrixFlags.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\enumerations\colormatrixflags.htm
-
 ms.date: 12/05/2018
 ms.keywords: ColorMatrixFlags, ColorMatrixFlags enumeration [GDI+], ColorMatrixFlagsAltGray, ColorMatrixFlagsDefault, ColorMatrixFlagsSkipGrays, _gdiplus_ENUM_ColorMatrixFlags, gdiplus._gdiplus_ENUM_ColorMatrixFlags, gdipluscolormatrix/ColorMatrixFlags, gdipluscolormatrix/ColorMatrixFlagsAltGray, gdipluscolormatrix/ColorMatrixFlagsDefault, gdipluscolormatrix/ColorMatrixFlagsSkipGrays
 ms.topic: enum
-f1_keywords: 
- - "gdipluscolormatrix/ColorMatrixFlags"
+f1_keywords:
+- gdipluscolormatrix/ColorMatrixFlags
 dev_langs:
- - c++
+- c++
 req.header: gdipluscolormatrix.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Gdipluscolormatrix.h
+- Gdipluscolormatrix.h
 api_name:
- - ColorMatrixFlags
+- ColorMatrixFlags
 targetos: Windows
 req.typenames: 
 req.redist: 

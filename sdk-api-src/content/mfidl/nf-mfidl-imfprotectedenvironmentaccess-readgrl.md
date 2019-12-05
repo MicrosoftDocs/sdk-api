@@ -1,19 +1,17 @@
 ---
 UID: NF:mfidl.IMFProtectedEnvironmentAccess.ReadGRL
 title: IMFProtectedEnvironmentAccess::ReadGRL (mfidl.h)
-
 description: Gets the Global Revocation List (GLR).
 old-location: mf\imfprotectedenvironmentaccess_readgrl.htm
 tech.root: medfound
 ms.assetid: 38b70c99-1823-498c-b3e4-d2cad05278de
-
 ms.date: 12/05/2018
 ms.keywords: IMFProtectedEnvironmentAccess interface [Media Foundation],ReadGRL method, IMFProtectedEnvironmentAccess.ReadGRL, IMFProtectedEnvironmentAccess::ReadGRL, ReadGRL, ReadGRL method [Media Foundation], ReadGRL method [Media Foundation],IMFProtectedEnvironmentAccess interface, mf.imfprotectedenvironmentaccess_readgrl, mfidl/IMFProtectedEnvironmentAccess::ReadGRL
 ms.topic: method
-f1_keywords: 
- - "mfidl/IMFProtectedEnvironmentAccess.ReadGRL"
+f1_keywords:
+- mfidl/IMFProtectedEnvironmentAccess.ReadGRL
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mfidl.h
+- Mfidl.h
 api_name:
- - IMFProtectedEnvironmentAccess.ReadGRL
+- IMFProtectedEnvironmentAccess.ReadGRL
 targetos: Windows
 req.typenames: 
 req.redist: 

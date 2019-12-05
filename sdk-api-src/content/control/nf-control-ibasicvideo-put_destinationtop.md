@@ -1,19 +1,17 @@
 ---
 UID: NF:control.IBasicVideo.put_DestinationTop
 title: IBasicVideo::put_DestinationTop (control.h)
-
 description: The put_DestinationTop method sets the y-coordinate of the destination rectangle.
 old-location: dshow\ibasicvideo_put_destinationtop.htm
 tech.root: DirectShow
 ms.assetid: 254fb104-c080-411d-9795-edcd4da41bdc
-
 ms.date: 12/05/2018
 ms.keywords: IBasicVideo interface [DirectShow],put_DestinationTop method, IBasicVideo.put_DestinationTop, IBasicVideo::put_DestinationTop, IBasicVideoput_DestinationTop, control/IBasicVideo::put_DestinationTop, dshow.ibasicvideo_put_destinationtop, put_DestinationTop, put_DestinationTop method [DirectShow], put_DestinationTop method [DirectShow],IBasicVideo interface
 ms.topic: method
-f1_keywords: 
- - "control/IBasicVideo.put_DestinationTop"
+f1_keywords:
+- control/IBasicVideo.put_DestinationTop
 dev_langs:
- - c++
+- c++
 req.header: control.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IBasicVideo.put_DestinationTop
+- IBasicVideo.put_DestinationTop
 targetos: Windows
 req.typenames: 
 req.redist: 

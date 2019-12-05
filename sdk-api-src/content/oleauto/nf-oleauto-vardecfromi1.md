@@ -1,19 +1,17 @@
 ---
 UID: NF:oleauto.VarDecFromI1
 title: VarDecFromI1 function (oleauto.h)
-
 description: Converts a char value to a decimal value.
 old-location: automat\vardecfromi1.htm
 tech.root: automat
 ms.assetid: 00f42c0d-56c3-478e-ab54-4c7c8741a9ab
-
 ms.date: 12/05/2018
 ms.keywords: VarDecFromI1, VarDecFromI1 function [Automation], _oa96_VarDecFromI1, automat.vardecfromi1, oleauto/VarDecFromI1
 ms.topic: function
-f1_keywords: 
- - "oleauto/VarDecFromI1"
+f1_keywords:
+- oleauto/VarDecFromI1
 dev_langs:
- - c++
+- c++
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: OleAut32.lib
 req.dll: OleAut32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - OleAut32.dll
+- OleAut32.dll
 api_name:
- - VarDecFromI1
+- VarDecFromI1
 targetos: Windows
 req.typenames: 
 req.redist: 

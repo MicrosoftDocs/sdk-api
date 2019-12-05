@@ -1,19 +1,17 @@
 ---
 UID: NF:clusapi.ClusterEnum
 title: ClusterEnum function (clusapi.h)
-
 description: Enumerates the cluster objects in a cluster, returning the name of one object with each call.
 old-location: mscs\clusterenum.htm
 tech.root: MsCS
 ms.assetid: a7511ac6-04cb-407b-90aa-3382c5160cb6
-
 ms.date: 12/05/2018
 ms.keywords: CLUSTER_ENUM_ALL, CLUSTER_ENUM_GROUP, CLUSTER_ENUM_INTERNAL_NETWORK, CLUSTER_ENUM_NETINTERFACE, CLUSTER_ENUM_NETWORK, CLUSTER_ENUM_NODE, CLUSTER_ENUM_RESOURCE, CLUSTER_ENUM_RESTYPE, CLUSTER_ENUM_SHARED_VOLUME_RESOURCE, ClusterEnum, ClusterEnum function [Failover Cluster], PCLUSAPI_CLUSTER_ENUM, PCLUSAPI_CLUSTER_ENUM function [Failover Cluster], _wolf_clusterenum, clusapi/ClusterEnum, clusapi/PCLUSAPI_CLUSTER_ENUM, mscs.clusterenum
 ms.topic: function
-f1_keywords: 
- - "clusapi/ClusterEnum"
+f1_keywords:
+- clusapi/ClusterEnum
 dev_langs:
- - c++
+- c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib: ClusAPI.lib
 req.dll: ClusAPI.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - ClusAPI.dll
- - Ext-MS-Win-Cluster-ClusAPI-l1-1-0.dll
- - Ext-MS-Win-Cluster-ClusAPI-l1-1-1.dll
- - Ext-MS-Win-Cluster-ClusAPI-l1-1-2.dll
- - ext-ms-win-cluster-clusapi-l1-1-3.dll
+- ClusAPI.dll
+- Ext-MS-Win-Cluster-ClusAPI-l1-1-0.dll
+- Ext-MS-Win-Cluster-ClusAPI-l1-1-1.dll
+- Ext-MS-Win-Cluster-ClusAPI-l1-1-2.dll
+- ext-ms-win-cluster-clusapi-l1-1-3.dll
 api_name:
- - ClusterEnum
+- ClusterEnum
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:winbase.CloseEncryptedFileRaw
 title: CloseEncryptedFileRaw function (winbase.h)
-
 description: Closes an encrypted file after a backup or restore operation, and frees associated system resources.
 old-location: fs\closeencryptedfileraw.htm
 tech.root: FileIO
 ms.assetid: 54bf7114-0ebb-4d9c-bc67-2ac351dbe55d
-
 ms.date: 12/05/2018
 ms.keywords: CloseEncryptedFileRaw, CloseEncryptedFileRaw function [Files], base.closeencryptedfileraw, fs.closeencryptedfileraw, winbase/CloseEncryptedFileRaw
 ms.topic: function
-f1_keywords: 
- - "winbase/CloseEncryptedFileRaw"
+f1_keywords:
+- winbase/CloseEncryptedFileRaw
 dev_langs:
- - c++
+- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Advapi32.dll
- - Ext-MS-Win-AdvAPI32-EncryptedFile-l1-1-0.dll
- - Ext-MS-Win-AdvAPI32-EncryptedFile-L1-1-1.dll
+- Advapi32.dll
+- Ext-MS-Win-AdvAPI32-EncryptedFile-l1-1-0.dll
+- Ext-MS-Win-AdvAPI32-EncryptedFile-L1-1-1.dll
 api_name:
- - CloseEncryptedFileRaw
+- CloseEncryptedFileRaw
 targetos: Windows
 req.typenames: 
 req.redist: 

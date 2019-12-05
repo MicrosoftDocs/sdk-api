@@ -1,19 +1,17 @@
 ---
 UID: NF:winnls.GetSystemDefaultLangID
 title: GetSystemDefaultLangID function (winnls.h)
-
 description: Returns the language identifier for the system locale.
 old-location: intl\getsystemdefaultlangid.htm
 tech.root: Intl
 ms.assetid: cf9d2f64-a8ad-46f8-9e91-a927b6b3ce08
-
 ms.date: 12/05/2018
 ms.keywords: GetSystemDefaultLangID, GetSystemDefaultLangID function [Internationalization for Windows Applications], _win32_GetSystemDefaultLangID, intl.getsystemdefaultlangid, winnls/GetSystemDefaultLangID
 ms.topic: function
-f1_keywords: 
- - "winnls/GetSystemDefaultLangID"
+f1_keywords:
+- winnls/GetSystemDefaultLangID
 dev_langs:
- - c++
+- c++
 req.header: winnls.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,21 +30,21 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-Localization-l1-1-0.dll
- - KernelBase.dll
- - API-MS-Win-Core-Localization-l1-2-0.dll
- - API-MS-Win-Core-Localization-l1-2-1.dll
- - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
- - MinKernelBase.dll
- - API-MS-Win-Core-Localization-L1-2-2.dll
+- Kernel32.dll
+- API-MS-Win-Core-Localization-l1-1-0.dll
+- KernelBase.dll
+- API-MS-Win-Core-Localization-l1-2-0.dll
+- API-MS-Win-Core-Localization-l1-2-1.dll
+- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+- MinKernelBase.dll
+- API-MS-Win-Core-Localization-L1-2-2.dll
 api_name:
- - GetSystemDefaultLangID
+- GetSystemDefaultLangID
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IMediaSample.GetMediaType
 title: IMediaSample::GetMediaType (strmif.h)
-
 description: The GetMediaType method retrieves the media type, if the media type differs from the previous sample.
 old-location: dshow\imediasample_getmediatype.htm
 tech.root: DirectShow
 ms.assetid: abccec09-c5a0-4192-9bdf-9240d1b73357
-
 ms.date: 12/05/2018
 ms.keywords: GetMediaType, GetMediaType method [DirectShow], GetMediaType method [DirectShow],IMediaSample interface, IMediaSample interface [DirectShow],GetMediaType method, IMediaSample.GetMediaType, IMediaSample::GetMediaType, IMediaSampleGetMediaType, dshow.imediasample_getmediatype, strmif/IMediaSample::GetMediaType
 ms.topic: method
-f1_keywords: 
- - "strmif/IMediaSample.GetMediaType"
+f1_keywords:
+- strmif/IMediaSample.GetMediaType
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IMediaSample.GetMediaType
+- IMediaSample.GetMediaType
 targetos: Windows
 req.typenames: 
 req.redist: 

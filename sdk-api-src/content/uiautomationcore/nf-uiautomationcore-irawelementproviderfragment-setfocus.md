@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationcore.IRawElementProviderFragment.SetFocus
 title: IRawElementProviderFragment::SetFocus (uiautomationcore.h)
-
 description: Sets the focus to this element.
 old-location: winauto\uiauto_IRawElementProviderFragment_SetFocus.htm
 tech.root: WinAuto
 ms.assetid: 343959bc-42d0-4289-b507-7da78cee28f2
-
 ms.date: 12/05/2018
 ms.keywords: IRawElementProviderFragment interface [Windows Accessibility],SetFocus method, IRawElementProviderFragment.SetFocus, IRawElementProviderFragment::SetFocus, SetFocus, SetFocus method [Windows Accessibility], SetFocus method [Windows Accessibility],IRawElementProviderFragment interface, uiauto.uiauto_IRawElementProviderFragment_SetFocus, uiauto_IRawElementProviderFragment_SetFocus, uiautomationcore/IRawElementProviderFragment::SetFocus, winauto.uiauto_IRawElementProviderFragment_SetFocus
 ms.topic: method
-f1_keywords: 
- - "uiautomationcore/IRawElementProviderFragment.SetFocus"
+f1_keywords:
+- uiautomationcore/IRawElementProviderFragment.SetFocus
 dev_langs:
- - c++
+- c++
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationCore.h
+- UIAutomationCore.h
 api_name:
- - IRawElementProviderFragment.SetFocus
+- IRawElementProviderFragment.SetFocus
 targetos: Windows
 req.typenames: 
 req.redist: 

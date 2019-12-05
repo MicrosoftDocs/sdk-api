@@ -1,19 +1,17 @@
 ---
 UID: NF:ddraw.IDirectDraw7.EnumSurfaces
 title: IDirectDraw7::EnumSurfaces (ddraw.h)
-
 description: Enumerates all the existing or possible surfaces that meet the specified surface description.
 old-location: directdraw\idirectdraw7_enumsurfaces.htm
 tech.root: directdraw
 ms.assetid: d97135f3-9921-4e0c-b5ba-e4f709a5e32d
-
 ms.date: 12/05/2018
 ms.keywords: DDENUMSURFACES_ALL, DDENUMSURFACES_CANBECREATED, DDENUMSURFACES_DOESEXIST, DDENUMSURFACES_MATCH, DDENUMSURFACES_NOMATCH, EnumSurfaces, EnumSurfaces method [DirectDraw], EnumSurfaces method [DirectDraw],IDirectDraw7 interface, IDirectDraw7 interface [DirectDraw],EnumSurfaces method, IDirectDraw7.EnumSurfaces, IDirectDraw7::EnumSurfaces, ddraw/IDirectDraw7::EnumSurfaces, directdraw.idirectdraw7_enumsurfaces
 ms.topic: method
-f1_keywords: 
- - "ddraw/IDirectDraw7.EnumSurfaces"
+f1_keywords:
+- ddraw/IDirectDraw7.EnumSurfaces
 dev_langs:
- - c++
+- c++
 req.header: ddraw.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Ddraw.lib
 req.dll: Ddraw.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Ddraw.dll
+- Ddraw.dll
 api_name:
- - IDirectDraw7.EnumSurfaces
+- IDirectDraw7.EnumSurfaces
 targetos: Windows
 req.typenames: 
 req.redist: 

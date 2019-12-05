@@ -1,19 +1,17 @@
 ---
 UID: NC:timeprov.AlertSamplesAvailFunc
 title: AlertSamplesAvailFunc (timeprov.h)
-
 description: Notifies the system that there are new time samples available.
 old-location: base\alertsamplesavail.htm
 tech.root: SysInfo
 ms.assetid: f90da019-072e-46c9-8e05-0321a9960968
-
 ms.date: 12/05/2018
 ms.keywords: AlertSamplesAvailFunc, AlertSamplesAvailFunc callback, AlertSamplesAvailFunc callback function, _win32_alertsamplesavail, base.alertsamplesavail, timeprov/AlertSamplesAvailFunc
 ms.topic: callback
-f1_keywords: 
- - "timeprov/AlertSamplesAvailFunc"
+f1_keywords:
+- timeprov/AlertSamplesAvailFunc
 dev_langs:
- - c++
+- c++
 req.header: timeprov.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Timeprov.h
+- Timeprov.h
 api_name:
- - AlertSamplesAvailFunc
+- AlertSamplesAvailFunc
 targetos: Windows
 req.typenames: 
 req.redist: 

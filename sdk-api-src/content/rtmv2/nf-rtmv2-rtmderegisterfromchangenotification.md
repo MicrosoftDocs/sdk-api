@@ -1,19 +1,17 @@
 ---
 UID: NF:rtmv2.RtmDeregisterFromChangeNotification
 title: RtmDeregisterFromChangeNotification function (rtmv2.h)
-
 description: The RtmDeregisterFromChangeNotification function unregisters a client from change notification and frees all resources allocated to the notification.
 old-location: rras\rtmderegisterfromchangenotification.htm
 tech.root: RRAS
 ms.assetid: 489668ce-9226-470d-8306-5ad0546275e7
-
 ms.date: 12/05/2018
 ms.keywords: RtmDeregisterFromChangeNotification, RtmDeregisterFromChangeNotification function [RAS], _rtmv2ref_rtmderegisterfromchangenotification, rras.rtmderegisterfromchangenotification, rtmv2/RtmDeregisterFromChangeNotification
 ms.topic: function
-f1_keywords: 
- - "rtmv2/RtmDeregisterFromChangeNotification"
+f1_keywords:
+- rtmv2/RtmDeregisterFromChangeNotification
 dev_langs:
- - c++
+- c++
 req.header: rtmv2.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Rtm.lib
 req.dll: Rtm.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Rtm.dll
+- Rtm.dll
 api_name:
- - RtmDeregisterFromChangeNotification
+- RtmDeregisterFromChangeNotification
 targetos: Windows
 req.typenames: 
 req.redist: 

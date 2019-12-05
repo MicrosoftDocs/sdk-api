@@ -1,19 +1,17 @@
 ---
 UID: NF:cmdtree.ICommandTree.FreeCommandTree
 title: ICommandTree::FreeCommandTree (cmdtree.h)
-
 description: The ICommandTree::FreeCommandTree method traverses a command tree and deallocates all DBCOMMANDTREE node structures, as well as all variants in those structures. It then sets the root pointer to a NULL pointer.
 old-location: indexsrv\icommandtree_freecommandtree.htm
 tech.root: IndexSrv
 ms.assetid: VS|indexsrv|~\html\ixoledb_1v39.htm
-
 ms.date: 12/05/2018
 ms.keywords: FreeCommandTree, FreeCommandTree method [Indexing Service], FreeCommandTree method [Indexing Service],ICommandTree interface, ICommandTree interface [Indexing Service],FreeCommandTree method, ICommandTree.FreeCommandTree, ICommandTree::FreeCommandTree, _idxs_ICommandTree_FreeCommandTree, cmdtree/ICommandTree::FreeCommandTree, indexsrv.icommandtree_freecommandtree
 ms.topic: method
-f1_keywords: 
- - "cmdtree/ICommandTree.FreeCommandTree"
+f1_keywords:
+- cmdtree/ICommandTree.FreeCommandTree
 dev_langs:
- - c++
+- c++
 req.header: cmdtree.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - cmdtree.h
+- cmdtree.h
 api_name:
- - ICommandTree.FreeCommandTree
+- ICommandTree.FreeCommandTree
 targetos: Windows
 req.typenames: 
 req.redist: 

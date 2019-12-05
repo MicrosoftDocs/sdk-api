@@ -1,19 +1,17 @@
 ---
 UID: NF:structuredquery.INamedEntityCollector.Add
 title: INamedEntityCollector::Add (structuredquery.h)
-
 description: Adds a single (potential) named entity to this INamedEntityCollector collection, as identified in a tokenized span of the input string being parsed.
 old-location: search\_search_INamedEntityCollector_Add.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\inamedentitycollector\add.htm
-
 ms.date: 12/05/2018
 ms.keywords: Add, Add method [search], Add method [search],INamedEntityCollector interface, INamedEntityCollector interface [search],Add method, INamedEntityCollector.Add, INamedEntityCollector::Add, _search_INamedEntityCollector_Add, search._search_INamedEntityCollector_Add, structuredquery/INamedEntityCollector::Add
 ms.topic: method
-f1_keywords: 
- - "structuredquery/INamedEntityCollector.Add"
+f1_keywords:
+- structuredquery/INamedEntityCollector.Add
 dev_langs:
- - c++
+- c++
 req.header: structuredquery.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Structuredquery.h
+- Structuredquery.h
 api_name:
- - INamedEntityCollector.Add
+- INamedEntityCollector.Add
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0

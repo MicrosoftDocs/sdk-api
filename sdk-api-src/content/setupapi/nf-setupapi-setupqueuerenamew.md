@@ -1,19 +1,17 @@
 ---
 UID: NF:setupapi.SetupQueueRenameW
 title: SetupQueueRenameW function (setupapi.h)
-
 description: The SetupQueueRename function places an individual file rename operation on a setup file queue.
 old-location: setup\setupqueuerename.htm
 tech.root: SetupApi
 ms.assetid: 0b80eba9-9e71-4255-8c1b-039878682ec4
-
 ms.date: 12/05/2018
 ms.keywords: SetupQueueRename, SetupQueueRename function [Setup API], SetupQueueRenameA, SetupQueueRenameW, _setupapi_setupqueuerename, setup.setupqueuerename, setupapi/SetupQueueRename, setupapi/SetupQueueRenameA, setupapi/SetupQueueRenameW
 ms.topic: function
-f1_keywords: 
- - "setupapi/SetupQueueRename"
+f1_keywords:
+- setupapi/SetupQueueRename
 dev_langs:
- - c++
+- c++
 req.header: setupapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Setupapi.lib
 req.dll: Setupapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Setupapi.dll
+- Setupapi.dll
 api_name:
- - SetupQueueRename
- - SetupQueueRenameA
- - SetupQueueRenameW
+- SetupQueueRename
+- SetupQueueRenameA
+- SetupQueueRenameW
 targetos: Windows
 req.typenames: 
 req.redist: 

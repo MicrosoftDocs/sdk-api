@@ -1,19 +1,17 @@
 ---
 UID: NF:atscpsipparser.IATSC_VCT.GetRecordIsAccessControlledBitSet
 title: IATSC_VCT::GetRecordIsAccessControlledBitSet (atscpsipparser.h)
-
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\iatsc_vct_getrecordisaccesscontrolledbitset.htm
 tech.root: mstv
 ms.assetid: c94dc694-dc3f-4639-997e-fb6d534c9e4c
-
 ms.date: 12/05/2018
 ms.keywords: GetRecordIsAccessControlledBitSet, GetRecordIsAccessControlledBitSet method [Microsoft TV Technologies], GetRecordIsAccessControlledBitSet method [Microsoft TV Technologies],IATSC_VCT interface, IATSC_VCT interface [Microsoft TV Technologies],GetRecordIsAccessControlledBitSet method, IATSC_VCT.GetRecordIsAccessControlledBitSet, IATSC_VCT::GetRecordIsAccessControlledBitSet, IATSC_VCTGetRecordIsAccessControlledBitSet, atscpsipparser/IATSC_VCT::GetRecordIsAccessControlledBitSet, mstv.iatsc_vct_getrecordisaccesscontrolledbitset
 ms.topic: method
-f1_keywords: 
- - "atscpsipparser/IATSC_VCT.GetRecordIsAccessControlledBitSet"
+f1_keywords:
+- atscpsipparser/IATSC_VCT.GetRecordIsAccessControlledBitSet
 dev_langs:
- - c++
+- c++
 req.header: atscpsipparser.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - atscpsipparser.h
+- atscpsipparser.h
 api_name:
- - IATSC_VCT.GetRecordIsAccessControlledBitSet
+- IATSC_VCT.GetRecordIsAccessControlledBitSet
 targetos: Windows
 req.typenames: 
 req.redist: 

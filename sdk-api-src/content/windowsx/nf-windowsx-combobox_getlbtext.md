@@ -1,19 +1,17 @@
 ---
 UID: NF:windowsx.ComboBox_GetLBText
 title: ComboBox_GetLBText macro (windowsx.h)
-
 description: Gets a string from a list in a combo box. You can use this macro or send the CB_GETLBTEXT message explicitly.
 old-location: controls\ComboBox_GetLBText.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\comboboxes\comboboxreference\comboboxmacros\combobox_getlbtext.htm
-
 ms.date: 12/05/2018
 ms.keywords: ComboBox_GetLBText, ComboBox_GetLBText macro [Windows Controls], _win32_ComboBox_GetLBText, _win32_ComboBox_GetLBText_cpp, controls.ComboBox_GetLBText, controls._win32_ComboBox_GetLBText, windowsx/ComboBox_GetLBText
 ms.topic: macro
-f1_keywords: 
- - "windowsx/ComboBox_GetLBText"
+f1_keywords:
+- windowsx/ComboBox_GetLBText
 dev_langs:
- - c++
+- c++
 req.header: windowsx.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Windowsx.h
+- Windowsx.h
 api_name:
- - ComboBox_GetLBText
+- ComboBox_GetLBText
 targetos: Windows
 req.typenames: 
 req.redist: 

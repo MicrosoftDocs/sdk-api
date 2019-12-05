@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IVMRVideoStreamControl.SetStreamActiveState
 title: IVMRVideoStreamControl::SetStreamActiveState (strmif.h)
-
 description: The SetStreamActiveState method activates or inactivates an input stream.
 old-location: dshow\ivmrvideostreamcontrol_setstreamactivestate.htm
 tech.root: DirectShow
 ms.assetid: 060a95a4-b984-40c6-afe8-136df96c353e
-
 ms.date: 12/05/2018
 ms.keywords: IVMRVideoStreamControl interface [DirectShow],SetStreamActiveState method, IVMRVideoStreamControl.SetStreamActiveState, IVMRVideoStreamControl::SetStreamActiveState, IVMRVideoStreamControlSetStreamActiveState, SetStreamActiveState, SetStreamActiveState method [DirectShow], SetStreamActiveState method [DirectShow],IVMRVideoStreamControl interface, dshow.ivmrvideostreamcontrol_setstreamactivestate, strmif/IVMRVideoStreamControl::SetStreamActiveState
 ms.topic: method
-f1_keywords: 
- - "strmif/IVMRVideoStreamControl.SetStreamActiveState"
+f1_keywords:
+- strmif/IVMRVideoStreamControl.SetStreamActiveState
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IVMRVideoStreamControl.SetStreamActiveState
+- IVMRVideoStreamControl.SetStreamActiveState
 targetos: Windows
 req.typenames: 
 req.redist: 

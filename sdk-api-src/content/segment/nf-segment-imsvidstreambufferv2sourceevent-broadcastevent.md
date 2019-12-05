@@ -1,19 +1,17 @@
 ---
 UID: NF:segment.IMSVidStreamBufferV2SourceEvent.BroadcastEvent
 title: IMSVidStreamBufferV2SourceEvent::BroadcastEvent (segment.h)
-
 description: Fired when the SBE2 source filter receives any event fired through the IBroadcastEvent interface, other than the EVENTID_DTFilterRatingChange event.
 old-location: mstv\imsvidstreambufferv2sourceevent_broadcastevent.htm
 tech.root: mstv
 ms.assetid: f5d5b6d8-9baa-4a9e-8275-e817394c211a
-
 ms.date: 12/05/2018
 ms.keywords: BroadcastEvent, BroadcastEvent method [Microsoft TV Technologies], BroadcastEvent method [Microsoft TV Technologies],IMSVidStreamBufferV2SourceEvent interface, IMSVidStreamBufferV2SourceEvent interface [Microsoft TV Technologies],BroadcastEvent method, IMSVidStreamBufferV2SourceEvent.BroadcastEvent, IMSVidStreamBufferV2SourceEvent::BroadcastEvent, mstv.imsvidstreambufferv2sourceevent_broadcastevent, segment/IMSVidStreamBufferV2SourceEvent::BroadcastEvent
 ms.topic: method
-f1_keywords: 
- - "segment/IMSVidStreamBufferV2SourceEvent.BroadcastEvent"
+f1_keywords:
+- segment/IMSVidStreamBufferV2SourceEvent.BroadcastEvent
 dev_langs:
- - c++
+- c++
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - segment.h
+- segment.h
 api_name:
- - IMSVidStreamBufferV2SourceEvent.BroadcastEvent
+- IMSVidStreamBufferV2SourceEvent.BroadcastEvent
 targetos: Windows
 req.typenames: 
 req.redist: 

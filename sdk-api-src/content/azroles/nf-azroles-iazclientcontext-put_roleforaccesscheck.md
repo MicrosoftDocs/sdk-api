@@ -1,19 +1,17 @@
 ---
 UID: NF:azroles.IAzClientContext.put_RoleForAccessCheck
 title: IAzClientContext::put_RoleForAccessCheck (azroles.h)
-
 description: Sets or retrieves the role that is used to perform the access check.
 old-location: security\iazclientcontext_roleforaccesscheck.htm
 tech.root: SecAuthZ
 ms.assetid: 817b3693-b989-431c-a8b3-bdeeb0367dc6
-
 ms.date: 12/05/2018
 ms.keywords: AzClientContext object [Security],RoleForAccessCheck property, IAzClientContext interface [Security],RoleForAccessCheck property, IAzClientContext.RoleForAccessCheck, IAzClientContext.put_RoleForAccessCheck, IAzClientContext::RoleForAccessCheck, IAzClientContext::get_RoleForAccessCheck, IAzClientContext::put_RoleForAccessCheck, RoleForAccessCheck property [Security], RoleForAccessCheck property [Security],AzClientContext object, RoleForAccessCheck property [Security],IAzClientContext interface, azroles/IAzClientContext::RoleForAccessCheck, azroles/IAzClientContext::get_RoleForAccessCheck, azroles/IAzClientContext::put_RoleForAccessCheck, put_RoleForAccessCheck, security.iazclientcontext_roleforaccesscheck
 ms.topic: method
-f1_keywords: 
- - "azroles/IAzClientContext.RoleForAccessCheck"
+f1_keywords:
+- azroles/IAzClientContext.RoleForAccessCheck
 dev_langs:
- - c++
+- c++
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Azroles.lib
 req.dll: Azroles.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Azroles.dll
+- Azroles.dll
 api_name:
- - IAzClientContext.RoleForAccessCheck
- - IAzClientContext.get_RoleForAccessCheck
- - IAzClientContext.put_RoleForAccessCheck
- - AzClientContext.RoleForAccessCheck
+- IAzClientContext.RoleForAccessCheck
+- IAzClientContext.get_RoleForAccessCheck
+- IAzClientContext.put_RoleForAccessCheck
+- AzClientContext.RoleForAccessCheck
 targetos: Windows
 req.typenames: 
 req.redist: Windows Server 2003 Administration Tools Pack on Windows XP

@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d12shader.ID3D12ShaderReflection.GetMinFeatureLevel
 title: ID3D12ShaderReflection::GetMinFeatureLevel (d3d12shader.h)
-
 description: Gets the minimum feature level.
 old-location: direct3d12\id3d12shaderreflection_getminfeaturelevel.htm
 tech.root: direct3d12
 ms.assetid: DE1FC45B-DA2B-41B6-A732-62BA886F51C2
-
 ms.date: 12/05/2018
 ms.keywords: GetMinFeatureLevel, GetMinFeatureLevel method, GetMinFeatureLevel method,ID3D12ShaderReflection interface, ID3D12ShaderReflection interface,GetMinFeatureLevel method, ID3D12ShaderReflection.GetMinFeatureLevel, ID3D12ShaderReflection::GetMinFeatureLevel, d3d12shader/ID3D12ShaderReflection::GetMinFeatureLevel, direct3d12.id3d12shaderreflection_getminfeaturelevel
 ms.topic: method
-f1_keywords: 
- - "d3d12shader/ID3D12ShaderReflection.GetMinFeatureLevel"
+f1_keywords:
+- d3d12shader/ID3D12ShaderReflection.GetMinFeatureLevel
 dev_langs:
- - c++
+- c++
 req.header: d3d12shader.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - d3d12shader.h
+- d3d12shader.h
 api_name:
- - ID3D12ShaderReflection.GetMinFeatureLevel
+- ID3D12ShaderReflection.GetMinFeatureLevel
 targetos: Windows
 req.typenames: 
 req.redist: 

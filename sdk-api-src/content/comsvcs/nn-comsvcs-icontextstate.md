@@ -1,19 +1,17 @@
 ---
 UID: NN:comsvcs.IContextState
 title: IContextState (comsvcs.h)
-
 description: Controls object deactivation and transaction voting by manipulating context state flags.
 old-location: cos\icontextstate.htm
 tech.root: cossdk
 ms.assetid: cba54ad7-c670-4efb-ad3b-aca1daabc4a3
-
 ms.date: 12/05/2018
 ms.keywords: IContextState, IContextState interface [COM+], IContextState interface [COM+],described, _cos_IContextState, comsvcs/IContextState, cos.icontextstate
 ms.topic: interface
-f1_keywords: 
- - "comsvcs/IContextState"
+f1_keywords:
+- comsvcs/IContextState
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - IContextState
+- IContextState
 targetos: Windows
 req.typenames: 
 req.redist: 

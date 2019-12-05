@@ -1,19 +1,17 @@
 ---
 UID: NE:encdec.CPEvents
 title: CPEvents (encdec.h)
-
 description: This topic applies to Windows XP Service Pack 1 or later.
 old-location: mstv\cpevents.htm
 tech.root: mstv
 ms.assetid: 7a8ef55f-0546-4642-960d-6bd6093ab5d2
-
 ms.date: 12/05/2018
 ms.keywords: CPEVENT_COPP, CPEVENT_DOWNRES, CPEVENT_LICENSE, CPEVENT_NONE, CPEVENT_RATINGS, CPEVENT_ROLLBACK, CPEVENT_SAC, CPEVENT_STUBLIB, CPEVENT_UNTRUSTEDGRAPH, CPEvents, CPEvents enumeration [Microsoft TV Technologies], encdec/CPEVENT_COPP, encdec/CPEVENT_DOWNRES, encdec/CPEVENT_LICENSE, encdec/CPEVENT_NONE, encdec/CPEVENT_RATINGS, encdec/CPEVENT_ROLLBACK, encdec/CPEVENT_SAC, encdec/CPEVENT_STUBLIB, encdec/CPEVENT_UNTRUSTEDGRAPH, encdec/CPEvents, mstv.cpevents
 ms.topic: enum
-f1_keywords: 
- - "encdec/CPEvents"
+f1_keywords:
+- encdec/CPEvents
 dev_langs:
- - c++
+- c++
 req.header: encdec.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - EncDec.h
+- EncDec.h
 api_name:
- - CPEvents
+- CPEvents
 targetos: Windows
 req.typenames: CPEvents
 req.redist: 

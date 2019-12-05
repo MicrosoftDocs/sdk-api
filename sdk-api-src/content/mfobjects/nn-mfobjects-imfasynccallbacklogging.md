@@ -1,19 +1,17 @@
 ---
 UID: NN:mfobjects.IMFAsyncCallbackLogging
 title: IMFAsyncCallbackLogging (mfobjects.h)
-
 description: Provides logging information about the parent object the async callback is associated with.
 old-location: mf\imfasynccallbacklogging.htm
 tech.root: medfound
 ms.assetid: 8b4de920-8e82-4e50-b801-82842da8a6ae
-
 ms.date: 12/05/2018
 ms.keywords: IMFAsyncCallbackLogging, IMFAsyncCallbackLogging interface [Media Foundation], IMFAsyncCallbackLogging interface [Media Foundation],described, mf.imfasynccallbacklogging, mfobjects/IMFAsyncCallbackLogging
 ms.topic: interface
-f1_keywords: 
- - "mfobjects/IMFAsyncCallbackLogging"
+f1_keywords:
+- mfobjects/IMFAsyncCallbackLogging
 dev_langs:
- - c++
+- c++
 req.header: mfobjects.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mfobjects.h
+- Mfobjects.h
 api_name:
- - IMFAsyncCallbackLogging
+- IMFAsyncCallbackLogging
 targetos: Windows
 req.typenames: 
 req.redist: 

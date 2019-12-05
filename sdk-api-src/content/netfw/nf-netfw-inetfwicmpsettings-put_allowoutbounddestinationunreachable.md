@@ -1,19 +1,17 @@
 ---
 UID: NF:netfw.INetFwIcmpSettings.put_AllowOutboundDestinationUnreachable
 title: INetFwIcmpSettings::put_AllowOutboundDestinationUnreachable (netfw.h)
-
 description: Indicates whether this is allowed.
 old-location: ics\inetfwicmpsettings_allowoutbounddestinationunreachable.htm
 tech.root: ics
 ms.assetid: da3719a3-67b3-44a8-9cf8-0062f476bb2c
-
 ms.date: 12/05/2018
 ms.keywords: AllowOutboundDestinationUnreachable property [ICS/ICF], AllowOutboundDestinationUnreachable property [ICS/ICF],INetFwIcmpSettings interface, INetFwIcmpSettings interface [ICS/ICF],AllowOutboundDestinationUnreachable property, INetFwIcmpSettings.AllowOutboundDestinationUnreachable, INetFwIcmpSettings.put_AllowOutboundDestinationUnreachable, INetFwIcmpSettings::AllowOutboundDestinationUnreachable, INetFwIcmpSettings::get_AllowOutboundDestinationUnreachable, INetFwIcmpSettings::put_AllowOutboundDestinationUnreachable, ics.inetfwicmpsettings_allowoutbounddestinationunreachable, netfw/INetFwIcmpSettings::AllowOutboundDestinationUnreachable, netfw/INetFwIcmpSettings::get_AllowOutboundDestinationUnreachable, netfw/INetFwIcmpSettings::put_AllowOutboundDestinationUnreachable, put_AllowOutboundDestinationUnreachable
 ms.topic: method
-f1_keywords: 
- - "netfw/INetFwIcmpSettings.AllowOutboundDestinationUnreachable"
+f1_keywords:
+- netfw/INetFwIcmpSettings.AllowOutboundDestinationUnreachable
 dev_langs:
- - c++
+- c++
 req.header: netfw.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib:
 req.dll: FirewallAPI.dll; Hnetcfg.dll on Windows XP with SP2
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - FirewallAPI.dll
- - Hnetcfg.dll
+- FirewallAPI.dll
+- Hnetcfg.dll
 api_name:
- - INetFwIcmpSettings.AllowOutboundDestinationUnreachable
- - INetFwIcmpSettings.get_AllowOutboundDestinationUnreachable
- - INetFwIcmpSettings.put_AllowOutboundDestinationUnreachable
+- INetFwIcmpSettings.AllowOutboundDestinationUnreachable
+- INetFwIcmpSettings.get_AllowOutboundDestinationUnreachable
+- INetFwIcmpSettings.put_AllowOutboundDestinationUnreachable
 targetos: Windows
 req.typenames: 
 req.redist: 

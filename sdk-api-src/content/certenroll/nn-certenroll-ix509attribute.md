@@ -1,19 +1,17 @@
 ---
 UID: NN:certenroll.IX509Attribute
 title: IX509Attribute (certenroll.h)
-
-description: Can be used to represent an attribute in a PKCS #7, PKCS #10, or CMC certificate request.
+description: Can be used to represent an attribute in a PKCS
 old-location: security\ix509attribute.htm
 tech.root: seccertenroll
 ms.assetid: 20965768-2c6b-488a-ab7c-5e0f6f28ac9b
-
 ms.date: 12/05/2018
 ms.keywords: IX509Attribute, IX509Attribute interface [Security], IX509Attribute interface [Security],described, certenroll/IX509Attribute, security.ix509attribute
 ms.topic: interface
-f1_keywords: 
- - "certenroll/IX509Attribute"
+f1_keywords:
+- certenroll/IX509Attribute
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: CertEnroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CertEnroll.dll
+- CertEnroll.dll
 api_name:
- - IX509Attribute
+- IX509Attribute
 targetos: Windows
 req.typenames: 
 req.redist: 

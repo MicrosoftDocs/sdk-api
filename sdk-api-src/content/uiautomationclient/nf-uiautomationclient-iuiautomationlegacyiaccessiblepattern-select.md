@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationLegacyIAccessiblePattern.Select
 title: IUIAutomationLegacyIAccessiblePattern::Select (uiautomationclient.h)
-
 description: Performs a Microsoft Active Accessibility selection.
 old-location: winauto\uiauto_IUIAutomationLegacyIAccessiblePattern_Select.htm
 tech.root: WinAuto
 ms.assetid: d311a10d-4762-47c9-a0bd-299da43827f7
-
 ms.date: 12/05/2018
 ms.keywords: IUIAutomationLegacyIAccessiblePattern interface [Windows Accessibility],Select method, IUIAutomationLegacyIAccessiblePattern.Select, IUIAutomationLegacyIAccessiblePattern::Select, Select, Select method [Windows Accessibility], Select method [Windows Accessibility],IUIAutomationLegacyIAccessiblePattern interface, uiauto.uiauto_IUIAutomationLegacyIAccessiblePattern_Select, uiauto_IUIAutomationLegacyIAccessiblePattern_Select, uiautomationclient/IUIAutomationLegacyIAccessiblePattern::Select, winauto.uiauto_IUIAutomationLegacyIAccessiblePattern_Select
 ms.topic: method
-f1_keywords: 
- - "uiautomationclient/IUIAutomationLegacyIAccessiblePattern.Select"
+f1_keywords:
+- uiautomationclient/IUIAutomationLegacyIAccessiblePattern.Select
 dev_langs:
- - c++
+- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationClient.h
+- UIAutomationClient.h
 api_name:
- - IUIAutomationLegacyIAccessiblePattern.Select
+- IUIAutomationLegacyIAccessiblePattern.Select
 targetos: Windows
 req.typenames: 
 req.redist: 

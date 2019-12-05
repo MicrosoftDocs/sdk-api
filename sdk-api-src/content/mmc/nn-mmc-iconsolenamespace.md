@@ -1,19 +1,17 @@
 ---
 UID: NN:mmc.IConsoleNameSpace
 title: IConsoleNameSpace (mmc.h)
-
 description: Enables snap-ins to enumerate dynamic subcontainers in the scope pane. The particular snap-in determines what qualifies as a subcontainer.
 old-location: mmc\iconsolenamespace.htm
 tech.root: mmc
 ms.assetid: 0E72A4DF-5A74-49DD-BD94-06860EFFE09A
-
 ms.date: 12/05/2018
 ms.keywords: IConsoleNameSpace, IConsoleNameSpace interface [MMC], IConsoleNameSpace interface [MMC],described, mmc.iconsolenamespace, mmc/IConsoleNameSpace
 ms.topic: interface
-f1_keywords: 
- - "mmc/IConsoleNameSpace"
+f1_keywords:
+- mmc/IConsoleNameSpace
 dev_langs:
- - c++
+- c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Mmcndmgr.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mmcndmgr.dll
+- Mmcndmgr.dll
 api_name:
- - IConsoleNameSpace
+- IConsoleNameSpace
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:wintrust.OpenPersonalTrustDBDialogEx
 title: OpenPersonalTrustDBDialogEx function (wintrust.h)
-
 description: Displays the Certificates dialog box.
 old-location: security\openpersonaltrustdbdialogex.htm
 tech.root: SecCrypto
 ms.assetid: 5e4dbccd-4cd0-4525-85dc-3327a5b713a1
-
 ms.date: 12/05/2018
 ms.keywords: OpenPersonalTrustDBDialogEx, OpenPersonalTrustDBDialogEx function [Security], WT_TRUSTDBDIALOG_ONLY_PUB_TAB_FLAG, security.openpersonaltrustdbdialogex, wintrust/OpenPersonalTrustDBDialogEx
 ms.topic: function
-f1_keywords: 
- - "wintrust/OpenPersonalTrustDBDialogEx"
+f1_keywords:
+- wintrust/OpenPersonalTrustDBDialogEx
 dev_langs:
- - c++
+- c++
 req.header: wintrust.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wintrust.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Wintrust.dll
+- Wintrust.dll
 api_name:
- - OpenPersonalTrustDBDialogEx
+- OpenPersonalTrustDBDialogEx
 targetos: Windows
 req.typenames: 
 req.redist: 

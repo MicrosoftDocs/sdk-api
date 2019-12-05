@@ -1,19 +1,17 @@
 ---
 UID: NF:comsvcs.IMtsEvents.PostEvent
 title: IMtsEvents::PostEvent (comsvcs.h)
-
 description: Posts a user-defined event to an event sink.
 old-location: cos\imtsevents_postevent.htm
 tech.root: cossdk
 ms.assetid: 4dcbe3d9-f81b-4014-a3b4-16706e691cb0
-
 ms.date: 12/05/2018
 ms.keywords: IMtsEvents interface [COM+],PostEvent method, IMtsEvents.PostEvent, IMtsEvents::PostEvent, PostEvent, PostEvent method [COM+], PostEvent method [COM+],IMtsEvents interface, _dtc_IMtsEvents_PostEvent, comsvcs/IMtsEvents::PostEvent, cos.imtsevents_postevent
 ms.topic: method
-f1_keywords: 
- - "comsvcs/IMtsEvents.PostEvent"
+f1_keywords:
+- comsvcs/IMtsEvents.PostEvent
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - IMtsEvents.PostEvent
+- IMtsEvents.PostEvent
 targetos: Windows
 req.typenames: 
 req.redist: 

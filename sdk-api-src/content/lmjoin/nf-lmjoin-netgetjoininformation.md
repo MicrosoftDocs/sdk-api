@@ -1,19 +1,17 @@
 ---
 UID: NF:lmjoin.NetGetJoinInformation
 title: NetGetJoinInformation function (lmjoin.h)
-
 description: The NetGetJoinInformation function retrieves join status information for the specified computer.
 old-location: netmgmt\netgetjoininformation.htm
 tech.root: NetMgmt
 ms.assetid: c7cc1cf2-4530-4039-806b-fbee572f564d
-
 ms.date: 12/05/2018
 ms.keywords: NetGetJoinInformation, NetGetJoinInformation function [Network Management], NetSetupDomainName, NetSetupUnjoined, NetSetupUnknownStatus, NetSetupWorkgroupName, _win32_netgetjoininformation, lmjoin/NetGetJoinInformation, netmgmt.netgetjoininformation
 ms.topic: function
-f1_keywords: 
- - "lmjoin/NetGetJoinInformation"
+f1_keywords:
+- lmjoin/NetGetJoinInformation
 dev_langs:
- - c++
+- c++
 req.header: lmjoin.h
 req.include-header: Lm.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Netapi32.lib
 req.dll: Netapi32.dll; Wkscli.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Netapi32.dll
- - wkscli.dll
+- Netapi32.dll
+- wkscli.dll
 api_name:
- - NetGetJoinInformation
+- NetGetJoinInformation
 targetos: Windows
 req.typenames: 
 req.redist: 

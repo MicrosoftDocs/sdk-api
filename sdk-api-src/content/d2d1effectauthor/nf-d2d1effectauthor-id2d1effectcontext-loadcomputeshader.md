@@ -1,19 +1,17 @@
 ---
 UID: NF:d2d1effectauthor.ID2D1EffectContext.LoadComputeShader
 title: ID2D1EffectContext::LoadComputeShader (d2d1effectauthor.h)
-
 description: Loads the given shader by its unique ID.
 old-location: direct2d\id2d1contextinternal_loadcomputeshader.htm
 tech.root: Direct2D
 ms.assetid: 64CA9647-8E9E-417D-A8D4-71AAF58F1C32
-
 ms.date: 12/05/2018
 ms.keywords: ID2D1EffectContext interface [Direct2D],LoadComputeShader method, ID2D1EffectContext.LoadComputeShader, ID2D1EffectContext::LoadComputeShader, LoadComputeShader, LoadComputeShader method [Direct2D], LoadComputeShader method [Direct2D],ID2D1EffectContext interface, d2d1effectauthor/ID2D1EffectContext::LoadComputeShader, direct2d.id2d1contextinternal_loadcomputeshader
 ms.topic: method
-f1_keywords: 
- - "d2d1effectauthor/ID2D1EffectContext.LoadComputeShader"
+f1_keywords:
+- d2d1effectauthor/ID2D1EffectContext.LoadComputeShader
 dev_langs:
- - c++
+- c++
 req.header: d2d1effectauthor.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: D2D1.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D2D1.lib
- - D2D1.dll
+- D2D1.lib
+- D2D1.dll
 api_name:
- - ID2D1EffectContext.LoadComputeShader
+- ID2D1EffectContext.LoadComputeShader
 targetos: Windows
 req.typenames: 
 req.redist: 

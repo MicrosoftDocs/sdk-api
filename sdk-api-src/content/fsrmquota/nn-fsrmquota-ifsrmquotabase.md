@@ -1,19 +1,17 @@
 ---
 UID: NN:fsrmquota.IFsrmQuotaBase
 title: IFsrmQuotaBase (fsrmquota.h)
-
 description: Base interface for all quota interfaces.
 old-location: fsrm\ifsrmquotabase.htm
 tech.root: fsrm
 ms.assetid: 7f4d5a73-a836-4ea1-bc53-d51433eeb02e
-
 ms.date: 12/05/2018
 ms.keywords: IFsrmQuotaBase, IFsrmQuotaBase interface [File Server Resource Manager], IFsrmQuotaBase interface [File Server Resource Manager],described, fs.ifsrmquotabase, fsrm.ifsrmquotabase, fsrm/IFsrmQuotaBase
 ms.topic: interface
-f1_keywords: 
- - "fsrmquota/IFsrmQuotaBase"
+f1_keywords:
+- fsrmquota/IFsrmQuotaBase
 dev_langs:
- - c++
+- c++
 req.header: fsrmquota.h
 req.include-header: FsrmPipeline.h, FsrmQuota.h, FsrmReports.h, FsrmScreen.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: SrmSvc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - SrmSvc.dll
+- SrmSvc.dll
 api_name:
- - IFsrmQuotaBase
+- IFsrmQuotaBase
 targetos: Windows
 req.typenames: 
 req.redist: 

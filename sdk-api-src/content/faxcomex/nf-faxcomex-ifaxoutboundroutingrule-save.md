@@ -1,19 +1,17 @@
 ---
 UID: NF:faxcomex.IFaxOutboundRoutingRule.Save
 title: IFaxOutboundRoutingRule::Save (faxcomex.h)
-
 description: The IFaxOutboundRoutingRule::Save method saves the FaxOutboundRoutingRule object data.
 old-location: fax\_mfax_faxoutboundroutingrule_cpp_mfax_faxoutboundroutingrule_save_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_0qn9.htm
-
 ms.date: 12/05/2018
 ms.keywords: IFaxOutboundRoutingRule interface [Fax Service],Save method, IFaxOutboundRoutingRule.Save, IFaxOutboundRoutingRule::Save, Save, Save method [Fax Service], Save method [Fax Service],IFaxOutboundRoutingRule interface, _mfax_faxoutboundroutingrule.save, fax._mfax_faxoutboundroutingrule_cpp_mfax_faxoutboundroutingrule_save_cpp, fax._mfax_faxoutboundroutingrule_save, faxcomex/IFaxOutboundRoutingRule::Save
 ms.topic: method
-f1_keywords: 
- - "faxcomex/IFaxOutboundRoutingRule.Save"
+f1_keywords:
+- faxcomex/IFaxOutboundRoutingRule.Save
 dev_langs:
- - c++
+- c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: Fxscomex.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Fxscomex.dll
+- Fxscomex.dll
 api_name:
- - IFaxOutboundRoutingRule.Save
- - IFaxOutboundRoutingRule.Save
+- IFaxOutboundRoutingRule.Save
+- IFaxOutboundRoutingRule.Save
 targetos: Windows
 req.typenames: 
 req.redist: 

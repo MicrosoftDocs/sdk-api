@@ -1,19 +1,17 @@
 ---
 UID: NS:vsmgmt._VSS_DIFF_AREA_PROP
 title: VSS_DIFF_AREA_PROP (vsmgmt.h)
-
 description: Describes associations between volumes containing the original file data and volumes containing the shadow copy storage area.
 old-location: base\vss_diff_area_prop.htm
 tech.root: VSS
 ms.assetid: 9627d7b0-e9d0-425f-9051-cf4ab6b75a8c
-
 ms.date: 12/05/2018
-ms.keywords: "*PVSS_DIFF_AREA_PROP, PVSS_DIFF_AREA_PROP, PVSS_DIFF_AREA_PROP structure pointer [VSS], VSS_DIFF_AREA_PROP, VSS_DIFF_AREA_PROP structure [VSS], base.vss_diff_area_prop, vsmgmt/PVSS_DIFF_AREA_PROP, vsmgmt/VSS_DIFF_AREA_PROP"
+ms.keywords: '*PVSS_DIFF_AREA_PROP, PVSS_DIFF_AREA_PROP, PVSS_DIFF_AREA_PROP structure pointer [VSS], VSS_DIFF_AREA_PROP, VSS_DIFF_AREA_PROP structure [VSS], base.vss_diff_area_prop, vsmgmt/PVSS_DIFF_AREA_PROP, vsmgmt/VSS_DIFF_AREA_PROP'
 ms.topic: struct
-f1_keywords: 
- - "vsmgmt/VSS_DIFF_AREA_PROP"
+f1_keywords:
+- vsmgmt/VSS_DIFF_AREA_PROP
 dev_langs:
- - c++
+- c++
 req.header: vsmgmt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - VsMgmt.h
+- VsMgmt.h
 api_name:
- - VSS_DIFF_AREA_PROP
+- VSS_DIFF_AREA_PROP
 targetos: Windows
 req.typenames: VSS_DIFF_AREA_PROP, *PVSS_DIFF_AREA_PROP
 req.redist: 

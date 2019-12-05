@@ -1,19 +1,17 @@
 ---
 UID: NF:wbemcli.IWbemServices.GetObject
 title: IWbemServices::GetObject (wbemcli.h)
-
 description: The IWbemServices::GetObject method retrieves a class or instance. This method only retrieves objects from the namespace associated with the current IWbemServices object.
 old-location: wmi\iwbemservices_getobject.htm
 tech.root: WmiSdk
 ms.assetid: 68150273-c4ec-46f1-a3e6-d7169824b69d
-
 ms.date: 12/05/2018
 ms.keywords: GetObject, GetObject method [Windows Management Instrumentation], GetObject method [Windows Management Instrumentation],IWbemServices interface, IWbemServices interface [Windows Management Instrumentation],GetObject method, IWbemServices.GetObject, IWbemServices::GetObject, WBEM_FLAG_DIRECT_READ, WBEM_FLAG_RETURN_IMMEDIATELY, WBEM_FLAG_RETURN_WBEM_COMPLETE, WBEM_FLAG_USE_AMENDED_QUALIFIERS, _hmm_iwbemservices_getobject, wbemcli/IWbemServices::GetObject, wmi.iwbemservices_getobject
 ms.topic: method
-f1_keywords: 
- - "wbemcli/IWbemServices.GetObject"
+f1_keywords:
+- wbemcli/IWbemServices.GetObject
 dev_langs:
- - c++
+- c++
 req.header: wbemcli.h
 req.include-header: Wbemidl.h
 req.target-type: Windows
@@ -32,28 +30,28 @@ req.lib: Wbemuuid.lib
 req.dll: Fastprox.dll; Esscli.dll; FrameDyn.dll; FrameDynOS.dll; Ntevt.dll; Stdprov.dll; Viewprov.dll; Wbemcomn.dll; Wbemcore.dll; Wbemess.dll; Wbemsvc.dll; Wmipicmp.dll; Wmidcprv.dll; Wmipjobj.dll; Wmiprvsd.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Fastprox.dll
- - Esscli.dll
- - FrameDyn.dll
- - FrameDynOS.dll
- - Ntevt.dll
- - Stdprov.dll
- - Viewprov.dll
- - Wbemcomn.dll
- - Wbemcore.dll
- - Wbemess.dll
- - Wbemsvc.dll
- - Wmipicmp.dll
- - Wmidcprv.dll
- - Wmipjobj.dll
- - Wmiprvsd.dll
+- Fastprox.dll
+- Esscli.dll
+- FrameDyn.dll
+- FrameDynOS.dll
+- Ntevt.dll
+- Stdprov.dll
+- Viewprov.dll
+- Wbemcomn.dll
+- Wbemcore.dll
+- Wbemess.dll
+- Wbemsvc.dll
+- Wmipicmp.dll
+- Wmidcprv.dll
+- Wmipjobj.dll
+- Wmiprvsd.dll
 api_name:
- - IWbemServices.GetObject
+- IWbemServices.GetObject
 targetos: Windows
 req.typenames: 
 req.redist: 

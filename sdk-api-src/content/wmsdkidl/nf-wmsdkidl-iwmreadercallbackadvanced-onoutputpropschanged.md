@@ -1,19 +1,17 @@
 ---
 UID: NF:wmsdkidl.IWMReaderCallbackAdvanced.OnOutputPropsChanged
 title: IWMReaderCallbackAdvanced::OnOutputPropsChanged (wmsdkidl.h)
-
 description: The OnOutputPropsChanged method indicates that the media properties for the specified output have changed. This change occurs as a result of a call to the IWMReader::SetOutputProps method.
 old-location: wmformat\iwmreadercallbackadvanced_onoutputpropschanged.htm
 tech.root: wmformat
 ms.assetid: 5e8193c4-5fc7-4b19-9f6e-6873ebe5156a
-
 ms.date: 12/05/2018
 ms.keywords: IWMReaderCallbackAdvanced interface [windows Media Format],OnOutputPropsChanged method, IWMReaderCallbackAdvanced.OnOutputPropsChanged, IWMReaderCallbackAdvanced::OnOutputPropsChanged, IWMReaderCallbackAdvancedOnOutputPropsChanged, OnOutputPropsChanged, OnOutputPropsChanged method [windows Media Format], OnOutputPropsChanged method [windows Media Format],IWMReaderCallbackAdvanced interface, wmformat.iwmreadercallbackadvanced_onoutputpropschanged, wmsdkidl/IWMReaderCallbackAdvanced::OnOutputPropsChanged
 ms.topic: method
-f1_keywords: 
- - "wmsdkidl/IWMReaderCallbackAdvanced.OnOutputPropsChanged"
+f1_keywords:
+- wmsdkidl/IWMReaderCallbackAdvanced.OnOutputPropsChanged
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wmsdkidl.h
+- Wmsdkidl.h
 api_name:
- - IWMReaderCallbackAdvanced.OnOutputPropsChanged
+- IWMReaderCallbackAdvanced.OnOutputPropsChanged
 targetos: Windows
 req.typenames: 
 req.redist: 

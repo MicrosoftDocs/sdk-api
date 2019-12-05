@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d12shader.ID3D12ShaderReflection.GetConversionInstructionCount
 title: ID3D12ShaderReflection::GetConversionInstructionCount (d3d12shader.h)
-
 description: Gets the number of conversion instructions.
 old-location: direct3d12\id3d12shaderreflection_getconversioninstructioncount.htm
 tech.root: direct3d12
 ms.assetid: 4425F608-4AFD-4065-AC8C-2EE4618D334B
-
 ms.date: 12/05/2018
 ms.keywords: GetConversionInstructionCount, GetConversionInstructionCount method, GetConversionInstructionCount method,ID3D12ShaderReflection interface, ID3D12ShaderReflection interface,GetConversionInstructionCount method, ID3D12ShaderReflection.GetConversionInstructionCount, ID3D12ShaderReflection::GetConversionInstructionCount, d3d12shader/ID3D12ShaderReflection::GetConversionInstructionCount, direct3d12.id3d12shaderreflection_getconversioninstructioncount
 ms.topic: method
-f1_keywords: 
- - "d3d12shader/ID3D12ShaderReflection.GetConversionInstructionCount"
+f1_keywords:
+- d3d12shader/ID3D12ShaderReflection.GetConversionInstructionCount
 dev_langs:
- - c++
+- c++
 req.header: d3d12shader.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - d3d12shader.h
+- d3d12shader.h
 api_name:
- - ID3D12ShaderReflection.GetConversionInstructionCount
+- ID3D12ShaderReflection.GetConversionInstructionCount
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NI:winioctl.IOCTL_CHANGER_GET_STATUS
 title: IOCTL_CHANGER_GET_STATUS
-
 description: Retrieves the current status of the specified device.
 old-location: base\ioctl_changer_get_status.htm
 tech.root: devio
 ms.assetid: 6073230e-0ee7-40be-8fb5-1dd90c01de10
-
 ms.date: 12/05/2018
 ms.keywords: IOCTL_CHANGER_GET_STATUS, IOCTL_CHANGER_GET_STATUS control, IOCTL_CHANGER_GET_STATUS control code, _win32_ioctl_changer_get_status, base.ioctl_changer_get_status, winioctl/IOCTL_CHANGER_GET_STATUS
 ms.topic: ioctl
-f1_keywords: 
- - "winioctl/IOCTL_CHANGER_GET_STATUS"
+f1_keywords:
+- winioctl/IOCTL_CHANGER_GET_STATUS
 dev_langs:
- - c++
+- c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WinIoCtl.h
+- WinIoCtl.h
 api_name:
- - IOCTL_CHANGER_GET_STATUS
+- IOCTL_CHANGER_GET_STATUS
 targetos: Windows
 req.typenames: 
 req.redist: 

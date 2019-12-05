@@ -1,19 +1,17 @@
 ---
 UID: NS:wincrypt._CRYPT_DEFAULT_CONTEXT_MULTI_OID_PARA
 title: CRYPT_DEFAULT_CONTEXT_MULTI_OID_PARA (wincrypt.h)
-
 description: Used with the CryptInstallDefaultContext function to contain an array of object identifier strings.
 old-location: security\crypt_default_context_multi_oid_para.htm
 tech.root: SecCrypto
 ms.assetid: 2826ee4f-55b7-4161-8698-3a9b59190dcc
-
 ms.date: 12/05/2018
-ms.keywords: "*PCRYPT_DEFAULT_CONTEXT_MULTI_OID_PARA, CRYPT_DEFAULT_CONTEXT_MULTI_OID_PARA, CRYPT_DEFAULT_CONTEXT_MULTI_OID_PARA structure [Security], PCRYPT_DEFAULT_CONTEXT_MULTI_OID_PARA, PCRYPT_DEFAULT_CONTEXT_MULTI_OID_PARA structure pointer [Security], security.crypt_default_context_multi_oid_para, wincrypt/CRYPT_DEFAULT_CONTEXT_MULTI_OID_PARA, wincrypt/PCRYPT_DEFAULT_CONTEXT_MULTI_OID_PARA"
+ms.keywords: '*PCRYPT_DEFAULT_CONTEXT_MULTI_OID_PARA, CRYPT_DEFAULT_CONTEXT_MULTI_OID_PARA, CRYPT_DEFAULT_CONTEXT_MULTI_OID_PARA structure [Security], PCRYPT_DEFAULT_CONTEXT_MULTI_OID_PARA, PCRYPT_DEFAULT_CONTEXT_MULTI_OID_PARA structure pointer [Security], security.crypt_default_context_multi_oid_para, wincrypt/CRYPT_DEFAULT_CONTEXT_MULTI_OID_PARA, wincrypt/PCRYPT_DEFAULT_CONTEXT_MULTI_OID_PARA'
 ms.topic: struct
-f1_keywords: 
- - "wincrypt/CRYPT_DEFAULT_CONTEXT_MULTI_OID_PARA"
+f1_keywords:
+- wincrypt/CRYPT_DEFAULT_CONTEXT_MULTI_OID_PARA
 dev_langs:
- - c++
+- c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wincrypt.h
+- Wincrypt.h
 api_name:
- - CRYPT_DEFAULT_CONTEXT_MULTI_OID_PARA
+- CRYPT_DEFAULT_CONTEXT_MULTI_OID_PARA
 targetos: Windows
 req.typenames: CRYPT_DEFAULT_CONTEXT_MULTI_OID_PARA, *PCRYPT_DEFAULT_CONTEXT_MULTI_OID_PARA
 req.redist: 

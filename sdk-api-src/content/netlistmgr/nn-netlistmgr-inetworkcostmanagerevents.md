@@ -1,19 +1,17 @@
 ---
 UID: NN:netlistmgr.INetworkCostManagerEvents
 title: INetworkCostManagerEvents (netlistmgr.h)
-
 description: This interface to notify an application of machine-wide cost and data plan related events.
 old-location: nla\inetworkcostmanagerevents.htm
 tech.root: nla
 ms.assetid: A8F4194E-6E9A-4173-8F88-FC2923B11CF0
-
 ms.date: 12/05/2018
 ms.keywords: INetworkCostManagerEvents, INetworkCostManagerEvents interface [Network Awareness], INetworkCostManagerEvents interface [Network Awareness],described, netlistmgr/INetworkCostManagerEvents, nla.inetworkcostmanagerevents
 ms.topic: interface
-f1_keywords: 
- - "netlistmgr/INetworkCostManagerEvents"
+f1_keywords:
+- netlistmgr/INetworkCostManagerEvents
 dev_langs:
- - c++
+- c++
 req.header: netlistmgr.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Netlistmgr.h
+- Netlistmgr.h
 api_name:
- - INetworkCostManagerEvents
- - INetworkCostManagerEvents.CostChanged
+- INetworkCostManagerEvents
+- INetworkCostManagerEvents.CostChanged
 targetos: Windows
 req.typenames: 
 req.redist: 

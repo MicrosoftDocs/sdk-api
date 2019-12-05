@@ -1,19 +1,17 @@
 ---
 UID: NE:dvdmedia.__unnamed_enum_3
 title: AM_DVDCOPYSTATE (dvdmedia.h)
-
 description: Specifies the copy protection state.
 old-location: dshow\am_dvdcopystate.htm
 tech.root: DirectShow
 ms.assetid: 32a9783e-f9f1-4e37-8cd2-3ff5634d75f6
-
 ms.date: 12/05/2018
 ms.keywords: AM_DVDCOPYSTATE, AM_DVDCOPYSTATE enumeration [DirectShow], AM_DVDCOPYSTATE_AUTHENTICATION_NOT_REQUIRED, AM_DVDCOPYSTATE_AUTHENTICATION_REQUIRED, AM_DVDCOPYSTATE_DONE, AM_DVDCOPYSTATE_INITIALIZE, AM_DVDCOPYSTATE_INITIALIZE_TITLE, dshow.am_dvdcopystate, dvdmedia/AM_DVDCOPYSTATE, dvdmedia/AM_DVDCOPYSTATE_AUTHENTICATION_NOT_REQUIRED, dvdmedia/AM_DVDCOPYSTATE_AUTHENTICATION_REQUIRED, dvdmedia/AM_DVDCOPYSTATE_DONE, dvdmedia/AM_DVDCOPYSTATE_INITIALIZE, dvdmedia/AM_DVDCOPYSTATE_INITIALIZE_TITLE
 ms.topic: enum
-f1_keywords: 
- - "dvdmedia/AM_DVDCOPYSTATE"
+f1_keywords:
+- dvdmedia/AM_DVDCOPYSTATE
 dev_langs:
- - c++
+- c++
 req.header: dvdmedia.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Dvdmedia.h
+- Dvdmedia.h
 api_name:
- - AM_DVDCOPYSTATE
+- AM_DVDCOPYSTATE
 targetos: Windows
 req.typenames: AM_DVDCOPYSTATE
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NS:webservices._WS_DECIMAL_DESCRIPTION
 title: WS_DECIMAL_DESCRIPTION (webservices.h)
-
 description: An optional type description used with WS_DECIMAL_TYPE. It is used to specify constraints on the set of values which can be deserialized.
 old-location: wsw\ws_decimal_description.htm
 tech.root: wsw
 ms.assetid: c2e8fc81-1a09-456c-b8bb-9160bc286ec2
-
 ms.date: 12/05/2018
 ms.keywords: WS_DECIMAL_DESCRIPTION, WS_DECIMAL_DESCRIPTION structure [Web Services for Windows], webservices/WS_DECIMAL_DESCRIPTION, wsw.ws_decimal_description
 ms.topic: struct
-f1_keywords: 
- - "webservices/WS_DECIMAL_DESCRIPTION"
+f1_keywords:
+- webservices/WS_DECIMAL_DESCRIPTION
 dev_langs:
- - c++
+- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WebServices.h
+- WebServices.h
 api_name:
- - WS_DECIMAL_DESCRIPTION
+- WS_DECIMAL_DESCRIPTION
 targetos: Windows
 req.typenames: WS_DECIMAL_DESCRIPTION
 req.redist: 

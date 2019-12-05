@@ -1,19 +1,17 @@
 ---
 UID: NF:tom.ITextRange2.GetCells
 title: ITextRange2::GetCells (tom.h)
-
 description: Gets a cells object with the parameters of cells in the currently selected table row or column.
 old-location: controls\itextrange2_getcells.htm
 tech.root: Controls
 ms.assetid: caaee637-d80a-44c6-9d9b-ed16a980afd9
-
 ms.date: 12/05/2018
 ms.keywords: GetCells, GetCells method [Windows Controls], GetCells method [Windows Controls],ITextRange2 interface, ITextRange2 interface [Windows Controls],GetCells method, ITextRange2.GetCells, ITextRange2::GetCells, controls.itextrange2_getcells, tom/ITextRange2::GetCells
 ms.topic: method
-f1_keywords: 
- - "tom/ITextRange2.GetCells"
+f1_keywords:
+- tom/ITextRange2.GetCells
 dev_langs:
- - c++
+- c++
 req.header: tom.h
 req.include-header: Tom.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msftedit.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msftedit.dll
+- Msftedit.dll
 api_name:
- - ITextRange2.GetCells
+- ITextRange2.GetCells
 targetos: Windows
 req.typenames: 
 req.redist: 

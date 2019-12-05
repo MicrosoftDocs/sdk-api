@@ -1,19 +1,17 @@
 ---
 UID: NF:wsddisco.IWSDiscoveryProvider.SearchByType
 title: IWSDiscoveryProvider::SearchByType (wsddisco.h)
-
 description: Initializes a search for WS-Discovery hosts by device type.
 old-location: ncd\iwsdiscoveryprovider_searchbytype_method.htm
 tech.root: WsdApi
 ms.assetid: bb1f2822-4d5d-4156-99e3-5a4528474953
-
 ms.date: 12/05/2018
 ms.keywords: IWSDiscoveryProvider interface,SearchByType method, IWSDiscoveryProvider.SearchByType, IWSDiscoveryProvider::SearchByType, SearchByType, SearchByType method, SearchByType method,IWSDiscoveryProvider interface, ncd.iwsdiscoveryprovider_searchbytype_method, wsddisco/IWSDiscoveryProvider::SearchByType
 ms.topic: method
 f1_keywords:
 - wsddisco/IWSDiscoveryProvider.SearchByType
 dev_langs:
- - c++
+- c++
 req.header: wsddisco.h
 req.include-header: Wsdapi.h
 req.target-type: Windows

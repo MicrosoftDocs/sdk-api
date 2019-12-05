@@ -1,19 +1,17 @@
 ---
 UID: NS:mmreg.mpeg1waveformat_tag
 title: MPEG1WAVEFORMAT (mmreg.h)
-
 description: The MPEG1WAVEFORMAT structure describes the format of MPEG-1 audio data.
 old-location: dshow\mpeg1waveformat.htm
 tech.root: DirectShow
 ms.assetid: c9357f72-f101-434a-b7ae-183e78239e9c
-
 ms.date: 12/05/2018
-ms.keywords: "*LPMPEG1WAVEFORMAT, *NPMPEG1WAVEFORMAT, *PMPEG1WAVEFORMAT, ACM_MPEG_COPYRIGHT, ACM_MPEG_DUALCHANNEL, ACM_MPEG_ID_MPEG1, ACM_MPEG_JOINTSTEREO, ACM_MPEG_LAYER1, ACM_MPEG_LAYER2, ACM_MPEG_LAYER3, ACM_MPEG_ORIGINALHOME, ACM_MPEG_PRIVATEBIT, ACM_MPEG_PROTECTIONBIT, ACM_MPEG_SINGLECHANNEL, ACM_MPEG_STEREO, MPEG1WAVEFORMAT, MPEG1WAVEFORMAT structure [DirectShow], dshow.mpeg1waveformat, mmreg/MPEG1WAVEFORMAT, mpeg1waveformat_tag"
+ms.keywords: '*LPMPEG1WAVEFORMAT, *NPMPEG1WAVEFORMAT, *PMPEG1WAVEFORMAT, ACM_MPEG_COPYRIGHT, ACM_MPEG_DUALCHANNEL, ACM_MPEG_ID_MPEG1, ACM_MPEG_JOINTSTEREO, ACM_MPEG_LAYER1, ACM_MPEG_LAYER2, ACM_MPEG_LAYER3, ACM_MPEG_ORIGINALHOME, ACM_MPEG_PRIVATEBIT, ACM_MPEG_PROTECTIONBIT, ACM_MPEG_SINGLECHANNEL, ACM_MPEG_STEREO, MPEG1WAVEFORMAT, MPEG1WAVEFORMAT structure [DirectShow], dshow.mpeg1waveformat, mmreg/MPEG1WAVEFORMAT, mpeg1waveformat_tag'
 ms.topic: struct
-f1_keywords: 
- - "mmreg/MPEG1WAVEFORMAT"
+f1_keywords:
+- mmreg/MPEG1WAVEFORMAT
 dev_langs:
- - c++
+- c++
 req.header: mmreg.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - mmreg.h
+- mmreg.h
 api_name:
- - MPEG1WAVEFORMAT
+- MPEG1WAVEFORMAT
 targetos: Windows
 req.typenames: MPEG1WAVEFORMAT
 req.redist: 

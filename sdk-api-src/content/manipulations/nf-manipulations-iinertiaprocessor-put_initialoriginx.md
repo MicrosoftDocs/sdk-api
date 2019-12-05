@@ -1,19 +1,17 @@
 ---
 UID: NF:manipulations.IInertiaProcessor.put_InitialOriginX
 title: IInertiaProcessor::put_InitialOriginX (manipulations.h)
-
 description: The InitialOriginX property specifies the starting horizontal location for a target with inertia.
 old-location: wintouch\iinertiaprocessor_initialoriginx.htm
 tech.root: wintouch
 ms.assetid: 6c710bd7-6fbe-4bc3-8966-b83d4500625a
-
 ms.date: 12/05/2018
 ms.keywords: IInertiaProcessor interface [Windows Touch],InitialOriginX property, IInertiaProcessor.InitialOriginX, IInertiaProcessor.put_InitialOriginX, IInertiaProcessor::InitialOriginX, IInertiaProcessor::get_InitialOriginX, IInertiaProcessor::put_InitialOriginX, InitialOriginX property [Windows Touch], InitialOriginX property [Windows Touch],IInertiaProcessor interface, manipulations/IInertiaProcessor::InitialOriginX, manipulations/IInertiaProcessor::get_InitialOriginX, manipulations/IInertiaProcessor::put_InitialOriginX, put_InitialOriginX, wintouch.iinertiaprocessor_initialoriginx
 ms.topic: method
-f1_keywords: 
- - "manipulations/IInertiaProcessor.InitialOriginX"
+f1_keywords:
+- manipulations/IInertiaProcessor.InitialOriginX
 dev_langs:
- - c++
+- c++
 req.header: manipulations.h
 req.include-header: Manipulations.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - manipulations.h
+- manipulations.h
 api_name:
- - IInertiaProcessor.InitialOriginX
- - IInertiaProcessor.get_InitialOriginX
- - IInertiaProcessor.put_InitialOriginX
+- IInertiaProcessor.InitialOriginX
+- IInertiaProcessor.get_InitialOriginX
+- IInertiaProcessor.put_InitialOriginX
 targetos: Windows
 req.typenames: 
 req.redist: 

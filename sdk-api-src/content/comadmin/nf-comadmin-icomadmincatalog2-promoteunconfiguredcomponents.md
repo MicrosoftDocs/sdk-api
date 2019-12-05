@@ -1,19 +1,17 @@
 ---
 UID: NF:comadmin.ICOMAdminCatalog2.PromoteUnconfiguredComponents
 title: ICOMAdminCatalog2::PromoteUnconfiguredComponents (comadmin.h)
-
 description: Promotes the specified classes from unconfigured components to configured components.
 old-location: cos\icomadmincatalog2_promoteunconfiguredcomponents.htm
 tech.root: cossdk
 ms.assetid: e6ed7fa7-3736-4e82-a153-116f4aa141a1
-
 ms.date: 12/05/2018
 ms.keywords: COMAdmin32BitComponent, COMAdmin64BitComponent, ICOMAdminCatalog2 interface [COM+],PromoteUnconfiguredComponents method, ICOMAdminCatalog2.PromoteUnconfiguredComponents, ICOMAdminCatalog2::PromoteUnconfiguredComponents, PromoteUnconfiguredComponents, PromoteUnconfiguredComponents method [COM+], PromoteUnconfiguredComponents method [COM+],ICOMAdminCatalog2 interface, _cos_icomadmincatalog2_PromoteUnconfiguredComponents, comadmin/ICOMAdminCatalog2::PromoteUnconfiguredComponents, cos.icomadmincatalog2_promoteunconfiguredcomponents
 ms.topic: method
-f1_keywords: 
- - "comadmin/ICOMAdminCatalog2.PromoteUnconfiguredComponents"
+f1_keywords:
+- comadmin/ICOMAdminCatalog2.PromoteUnconfiguredComponents
 dev_langs:
- - c++
+- c++
 req.header: comadmin.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComAdmin.h
+- ComAdmin.h
 api_name:
- - ICOMAdminCatalog2.PromoteUnconfiguredComponents
+- ICOMAdminCatalog2.PromoteUnconfiguredComponents
 targetos: Windows
 req.typenames: 
 req.redist: 

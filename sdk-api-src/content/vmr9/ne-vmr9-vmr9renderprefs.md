@@ -1,19 +1,17 @@
 ---
 UID: NE:vmr9.__MIDL___MIDL_itf_vmr9_0000_0008_0001
 title: VMR9RenderPrefs (vmr9.h)
-
 description: The VMR9RenderPrefs enumeration type specifies basic rendering preferences for the VMR-9. It is used with the IVMRFilterConfig9::GetRenderingPrefs and IVMRFilterConfig9::SetRenderingPrefs methods.
 old-location: dshow\vmr9renderprefs.htm
 tech.root: DirectShow
 ms.assetid: a32119c2-a10d-41a0-b3e9-500323eb3094
-
 ms.date: 12/05/2018
 ms.keywords: RenderPrefs9_DoNotRenderBorder, RenderPrefs9_Mask, VMR9RenderPrefs, VMR9RenderPrefs , VMR9RenderPrefs enumeration [DirectShow], VMR9RenderPrefsEnumeration, dshow.vmr9renderprefs, vmr9/RenderPrefs9_DoNotRenderBorder, vmr9/RenderPrefs9_Mask, vmr9/VMR9RenderPrefs
 ms.topic: enum
-f1_keywords: 
- - "vmr9/VMR9RenderPrefs"
+f1_keywords:
+- vmr9/VMR9RenderPrefs
 dev_langs:
- - c++
+- c++
 req.header: vmr9.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Vmr9.h
+- Vmr9.h
 api_name:
- - VMR9RenderPrefs
+- VMR9RenderPrefs
 targetos: Windows
 req.typenames: VMR9RenderPrefs
 req.redist: 

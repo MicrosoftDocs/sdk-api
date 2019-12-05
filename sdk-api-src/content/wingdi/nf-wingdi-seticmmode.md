@@ -1,19 +1,17 @@
 ---
 UID: NF:wingdi.SetICMMode
 title: SetICMMode function (wingdi.h)
-
 description: The SetICMMode function causes Image Color Management to be enabled, disabled, or queried on a given device context (DC).
 old-location: wcs\seticmmode.htm
 tech.root: WCS
 ms.assetid: 40d70c1f-c580-43c4-b44b-6c9388e138fb
-
 ms.date: 12/05/2018
 ms.keywords: ICM_DONE_OUTSIDEDC, ICM_OFF, ICM_ON, ICM_QUERY, SetICMMode, SetICMMode function [Windows Color System], _color_SetICMMode, wcs.seticmmode, wingdi/SetICMMode
 ms.topic: function
-f1_keywords: 
- - "wingdi/SetICMMode"
+f1_keywords:
+- wingdi/SetICMMode
 dev_langs:
- - c++
+- c++
 req.header: wingdi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Gdi32.dll
- - Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
+- Gdi32.dll
+- Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
 api_name:
- - SetICMMode
+- SetICMMode
 targetos: Windows
 req.typenames: 
 req.redist: 

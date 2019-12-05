@@ -1,19 +1,17 @@
 ---
 UID: NF:faxcomex.IFaxReceiptOptions.get_SMTPPort
 title: IFaxReceiptOptions::get_SMTPPort (faxcomex.h)
-
 description: The IFaxReceiptOptions::get_SMTPPort property is a value that specifies the Simple Mail Transport Protocol (SMTP) port number.
 old-location: fax\_mfax_faxreceiptoptions_cpp_mfax_faxreceiptoptions_smtpport_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_7sdw.htm
-
 ms.date: 12/05/2018
 ms.keywords: IFaxReceiptOptions interface [Fax Service],SMTPPort property, IFaxReceiptOptions.SMTPPort, IFaxReceiptOptions.get_SMTPPort, IFaxReceiptOptions.put_SMTPPort, IFaxReceiptOptions::SMTPPort, IFaxReceiptOptions::get_SMTPPort, IFaxReceiptOptions::put_SMTPPort, SMTPPort property [Fax Service], SMTPPort property [Fax Service],IFaxReceiptOptions interface, _mfax_faxreceiptoptions.smtpport, fax._mfax_faxreceiptoptions_cpp_mfax_faxreceiptoptions_smtpport_cpp, fax._mfax_faxreceiptoptions_smtpport, faxcomex/IFaxReceiptOptions::SMTPPort, faxcomex/IFaxReceiptOptions::get_SMTPPort, faxcomex/IFaxReceiptOptions::put_SMTPPort, get_SMTPPort
 ms.topic: method
-f1_keywords: 
- - "faxcomex/IFaxReceiptOptions.SMTPPort"
+f1_keywords:
+- faxcomex/IFaxReceiptOptions.SMTPPort
 dev_langs:
- - c++
+- c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib:
 req.dll: Fxscomex.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Fxscomex.dll
+- Fxscomex.dll
 api_name:
- - IFaxReceiptOptions.SMTPPort
- - IFaxReceiptOptions.get_SMTPPort
- - IFaxReceiptOptions.put_SMTPPort
- - IFaxReceiptOptions.get_SMTPPort
- - IFaxReceiptOptions.put_SMTPPort
+- IFaxReceiptOptions.SMTPPort
+- IFaxReceiptOptions.get_SMTPPort
+- IFaxReceiptOptions.put_SMTPPort
+- IFaxReceiptOptions.get_SMTPPort
+- IFaxReceiptOptions.put_SMTPPort
 targetos: Windows
 req.typenames: 
 req.redist: 

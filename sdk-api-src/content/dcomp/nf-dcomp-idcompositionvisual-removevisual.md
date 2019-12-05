@@ -1,19 +1,17 @@
 ---
 UID: NF:dcomp.IDCompositionVisual.RemoveVisual
 title: IDCompositionVisual::RemoveVisual (dcomp.h)
-
 description: Removes a child visual from the children list of this visual.
 old-location: directcomp\idcompositionvisual_removevisual.htm
 tech.root: directcomp
 ms.assetid: d77161b1-cb35-40a7-a51c-4b44ea320e78
-
 ms.date: 12/05/2018
 ms.keywords: IDCompositionVisual interface [DirectComposition],RemoveVisual method, IDCompositionVisual.RemoveVisual, IDCompositionVisual::RemoveVisual, RemoveVisual, RemoveVisual method [DirectComposition], RemoveVisual method [DirectComposition],IDCompositionVisual interface, dcomp/IDCompositionVisual::RemoveVisual, directcomp.idcompositionvisual_removevisual
 ms.topic: method
-f1_keywords: 
- - "dcomp/IDCompositionVisual.RemoveVisual"
+f1_keywords:
+- dcomp/IDCompositionVisual.RemoveVisual
 dev_langs:
- - c++
+- c++
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dcomp.lib
 req.dll: Dcomp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dcomp.dll
+- Dcomp.dll
 api_name:
- - IDCompositionVisual.RemoveVisual
+- IDCompositionVisual.RemoveVisual
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:gdiplusheaders.Image.FindFirstItem
 title: Image::FindFirstItem (gdiplusheaders.h)
-
 description: The Image::FindFirstItem method retrieves the description and the data size of the first metadata item in this Image object.
 old-location: gdiplus\_gdiplus_CLASS_Image_FindFirstItem_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\imageclass\imagemethods\findfirstitem.htm
-
 ms.date: 12/05/2018
 ms.keywords: FindFirstItem, FindFirstItem method [GDI+], FindFirstItem method [GDI+],Image class, Image class [GDI+],FindFirstItem method, Image.FindFirstItem, Image::FindFirstItem, _gdiplus_CLASS_Image_FindFirstItem_, gdiplus._gdiplus_CLASS_Image_FindFirstItem_
 ms.topic: method
-f1_keywords: 
- - "gdiplusheaders/Image.FindFirstItem"
+f1_keywords:
+- gdiplusheaders/Image.FindFirstItem
 dev_langs:
- - c++
+- c++
 req.header: gdiplusheaders.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - Image.FindFirstItem
+- Image.FindFirstItem
 targetos: Windows
 req.typenames: 
 req.redist: 

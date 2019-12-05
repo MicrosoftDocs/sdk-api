@@ -1,19 +1,17 @@
 ---
 UID: NS:bits2_0._BG_FILE_RANGE
 title: BG_FILE_RANGE (bits2_0.h)
-
 description: Identifies a range of bytes to download from a file.
 old-location: bits\bg_file_range.htm
 tech.root: Bits
 ms.assetid: 4ed20321-fb89-410b-906e-9f2c4366645a
-
 ms.date: 12/05/2018
 ms.keywords: BG_FILE_RANGE, BG_FILE_RANGE structure [BITS], bits.bg_file_range, bits2_0/BG_FILE_RANGE
 ms.topic: struct
-f1_keywords: 
- - "bits2_0/BG_FILE_RANGE"
+f1_keywords:
+- bits2_0/BG_FILE_RANGE
 dev_langs:
- - c++
+- c++
 req.header: bits2_0.h
 req.include-header: Bits.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Bits2_0.h
+- Bits2_0.h
 api_name:
- - BG_FILE_RANGE
+- BG_FILE_RANGE
 targetos: Windows
 req.typenames: BG_FILE_RANGE
 req.redist: 

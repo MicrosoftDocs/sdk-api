@@ -1,19 +1,17 @@
 ---
 UID: NN:wtsprotocol.IWRdsProtocolListenerCallback
 title: IWRdsProtocolListenerCallback (wtsprotocol.h)
-
 description: Exposes methods that notify the Remote Desktop Services service that a client has connected.
 old-location: termserv\iwrdsprotocollistenercallback.htm
 tech.root: TermServ
 ms.assetid: 33f583a4-8311-4db1-9646-bed1cd06e479
-
 ms.date: 12/05/2018
 ms.keywords: IWRdsProtocolListenerCallback, IWRdsProtocolListenerCallback interface [Remote Desktop Services], IWRdsProtocolListenerCallback interface [Remote Desktop Services],described, termserv.iwrdsprotocollistenercallback, wtsprotocol/IWRdsProtocolListenerCallback
 ms.topic: interface
-f1_keywords: 
- - "wtsprotocol/IWRdsProtocolListenerCallback"
+f1_keywords:
+- wtsprotocol/IWRdsProtocolListenerCallback
 dev_langs:
- - c++
+- c++
 req.header: wtsprotocol.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wtsprotocol.h
+- wtsprotocol.h
 api_name:
- - IWRdsProtocolListenerCallback
+- IWRdsProtocolListenerCallback
 targetos: Windows
 req.typenames: 
 req.redist: 

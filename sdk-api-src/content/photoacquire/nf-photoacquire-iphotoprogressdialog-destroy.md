@@ -1,19 +1,17 @@
 ---
 UID: NF:photoacquire.IPhotoProgressDialog.Destroy
 title: IPhotoProgressDialog::Destroy (photoacquire.h)
-
 description: The Destroy method closes and disposes of the progress dialog box shown during image enumeration and acquisition.
 old-location: picacq\iphotoprogressdialog_destroy.htm
 tech.root: acquisition
 ms.assetid: 8690c67b-5f96-4e8c-8685-91fe5ed65511
-
 ms.date: 12/05/2018
 ms.keywords: Destroy, Destroy method [Picture Acquisition], Destroy method [Picture Acquisition],IPhotoProgressDialog interface, IPhotoProgressDialog interface [Picture Acquisition],Destroy method, IPhotoProgressDialog.Destroy, IPhotoProgressDialog::Destroy, IPhotoProgressDialogDestroy, photoacquire/IPhotoProgressDialog::Destroy, picacq.iphotoprogressdialog_destroy
 ms.topic: method
-f1_keywords: 
- - "photoacquire/IPhotoProgressDialog.Destroy"
+f1_keywords:
+- photoacquire/IPhotoProgressDialog.Destroy
 dev_langs:
- - c++
+- c++
 req.header: photoacquire.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: PhotoAcquireUID.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - PhotoAcquireUID.lib
- - PhotoAcquireUID.dll
+- PhotoAcquireUID.lib
+- PhotoAcquireUID.dll
 api_name:
- - IPhotoProgressDialog.Destroy
+- IPhotoProgressDialog.Destroy
 targetos: Windows
 req.typenames: 
 req.redist: 

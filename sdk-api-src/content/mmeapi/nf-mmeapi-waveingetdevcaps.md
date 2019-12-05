@@ -1,19 +1,17 @@
 ---
 UID: NF:mmeapi.waveInGetDevCaps
 title: waveInGetDevCaps function (mmeapi.h)
-
 description: The waveInGetDevCaps function retrieves the capabilities of a given waveform-audio input device.
 old-location: multimedia\waveingetdevcaps.htm
 tech.root: Multimedia
 ms.assetid: f8d4edc7-99b6-488d-974b-6fb8f0080f77
-
 ms.date: 12/05/2018
-ms.keywords: "_win32_waveInGetDevCaps, mmeapi/waveInGetDevCaps, multimedia.waveingetdevcaps, waveInGetDevCaps, waveInGetDevCaps function [Windows Multimedia]"
+ms.keywords: _win32_waveInGetDevCaps, mmeapi/waveInGetDevCaps, multimedia.waveingetdevcaps, waveInGetDevCaps, waveInGetDevCaps function [Windows Multimedia]
 ms.topic: function
-f1_keywords: 
- - "mmeapi/waveInGetDevCaps"
+f1_keywords:
+- mmeapi/waveInGetDevCaps
 dev_langs:
- - c++
+- c++
 req.header: mmeapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Winmm.lib
 req.dll: Winmm.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Winmm.dll
+- Winmm.dll
 api_name:
- - waveInGetDevCaps
+- waveInGetDevCaps
 targetos: Windows
 req.typenames: 
 req.redist: 

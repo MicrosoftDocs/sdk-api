@@ -1,19 +1,17 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMVisual.SetHyperlinkNavigateUri
 title: IXpsOMVisual::SetHyperlinkNavigateUri (xpsobjectmodel.h)
-
 description: Sets the destination URI of the visual's hyperlink.
 old-location: xps\ixpsomvisual_sethyperlinknavigateuri.htm
 tech.root: printdocs
 ms.assetid: 6909d287-67c8-4f01-8523-6011932d1d34
-
 ms.date: 12/05/2018
 ms.keywords: IXpsOMVisual interface [XPS Documents and Packaging],SetHyperlinkNavigateUri method, IXpsOMVisual.SetHyperlinkNavigateUri, IXpsOMVisual::SetHyperlinkNavigateUri, SetHyperlinkNavigateUri, SetHyperlinkNavigateUri method [XPS Documents and Packaging], SetHyperlinkNavigateUri method [XPS Documents and Packaging],IXpsOMVisual interface, xps.ixpsomvisual_sethyperlinknavigateuri, xpsobjectmodel/IXpsOMVisual::SetHyperlinkNavigateUri
 ms.topic: method
-f1_keywords: 
- - "xpsobjectmodel/IXpsOMVisual.SetHyperlinkNavigateUri"
+f1_keywords:
+- xpsobjectmodel/IXpsOMVisual.SetHyperlinkNavigateUri
 dev_langs:
- - c++
+- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsobjectmodel.h
+- xpsobjectmodel.h
 api_name:
- - IXpsOMVisual.SetHyperlinkNavigateUri
+- IXpsOMVisual.SetHyperlinkNavigateUri
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:cfapi.CfConnectSyncRoot
 title: CfConnectSyncRoot function (cfapi.h)
-
 description: Initiates bi-directional communication between a sync provider and the sync filter API.
 old-location: cloudapi\cfconnectsyncroot.htm
 tech.root: cfApi
 ms.assetid: 287DA978-9797-48DF-9C90-BA53BB82475C
-
 ms.date: 12/05/2018
 ms.keywords: CfConnectSyncRoot, CfConnectSyncRoot function, cfapi/CfConnectSyncRoot, cloudApi.cfconnectsyncroot
 ms.topic: function
-f1_keywords: 
- - "cfapi/CfConnectSyncRoot"
+f1_keywords:
+- cfapi/CfConnectSyncRoot
 dev_langs:
- - c++
+- c++
 req.header: cfapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: CldApi.lib
 req.dll: CldApi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - CldApi.dll
+- CldApi.dll
 api_name:
- - CfConnectSyncRoot
+- CfConnectSyncRoot
 targetos: Windows
 req.typenames: 
 req.redist: 

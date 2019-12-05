@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IShellLinkA.GetArguments
 title: IShellLinkA::GetArguments (shobjidl_core.h)
-
 description: Gets the command-line arguments associated with a Shell link object.
 old-location: shell\IShellLink_GetArguments.htm
 tech.root: shell
 ms.assetid: bd807387-1998-4b38-996f-6dbacefffa48
-
 ms.date: 12/05/2018
 ms.keywords: GetArguments, GetArguments method [Windows Shell], GetArguments method [Windows Shell],IShellLink interface, GetArguments method [Windows Shell],IShellLinkA interface, GetArguments method [Windows Shell],IShellLinkW interface, IShellLink interface [Windows Shell],GetArguments method, IShellLink::GetArguments, IShellLinkA interface [Windows Shell],GetArguments method, IShellLinkA.GetArguments, IShellLinkA::GetArguments, IShellLinkW interface [Windows Shell],GetArguments method, IShellLinkW.GetArguments, IShellLinkW::GetArguments, _win32_IShellLink_GetArguments, shell.IShellLink_GetArguments, shobjidl_core/IShellLink::GetArguments, shobjidl_core/IShellLinkA::GetArguments, shobjidl_core/IShellLinkW::GetArguments
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IShellLink.GetArguments"
+f1_keywords:
+- shobjidl_core/IShellLink.GetArguments
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: 
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib:
 req.dll: Shell32.dll (version 4.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - IShellLink.GetArguments
- - IShellLinkA.GetArguments
- - IShellLinkW.GetArguments
- - IShellLinkW.GetArguments
- - IShellLinkA.GetArguments
+- IShellLink.GetArguments
+- IShellLinkA.GetArguments
+- IShellLinkW.GetArguments
+- IShellLinkW.GetArguments
+- IShellLinkA.GetArguments
 targetos: Windows
 req.typenames: 
 req.redist: 

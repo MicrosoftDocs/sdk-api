@@ -1,19 +1,17 @@
 ---
 UID: NF:scserver.CSecureChannelServer.GetAppSec
 title: CSecureChannelServer::GetAppSec (scserver.h)
-
 description: The GetAppSec method retrieves the application security levels of the local and remote components. This method is published and available, but normally is used only by Windows Media Device Manager.
 old-location: wmdm\csecurechannelserver_getappsec.htm
 tech.root: WMDM
 ms.assetid: 60659c36-ef9a-46fd-9a61-4a5a5210fd1f
-
 ms.date: 12/05/2018
 ms.keywords: CSecureChannelServer class [windows Media Device Manager],GetAppSec method, CSecureChannelServer.GetAppSec, CSecureChannelServer::GetAppSec, CSecureChannelServerGetAppSec, GetAppSec, GetAppSec method [windows Media Device Manager], GetAppSec method [windows Media Device Manager],CSecureChannelServer class, scserver/CSecureChannelServer::GetAppSec, wmdm.csecurechannelserver_getappsec
 ms.topic: method
-f1_keywords: 
- - "scserver/CSecureChannelServer.GetAppSec"
+f1_keywords:
+- scserver/CSecureChannelServer.GetAppSec
 dev_langs:
- - c++
+- c++
 req.header: scserver.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mssachlp.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mssachlp.lib
- - mssachlp.dll
+- mssachlp.lib
+- mssachlp.dll
 api_name:
- - CSecureChannelServer.GetAppSec
+- CSecureChannelServer.GetAppSec
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:dhcpsapi.DhcpDeleteClientInfo
 title: DhcpDeleteClientInfo function (dhcpsapi.h)
-
 description: The DhcpDeleteClientInfo function deletes a client information record from the DHCP server.
 old-location: dhcp\dhcpdeleteclientinfo.htm
 tech.root: DHCP
 ms.assetid: abbf4843-2a4f-4d09-9a21-33587ad0d3e8
-
 ms.date: 12/05/2018
 ms.keywords: DhcpDeleteClientInfo, DhcpDeleteClientInfo function [DHCP], dhcp.dhcpdeleteclientinfo, dhcpsapi/DhcpDeleteClientInfo
 ms.topic: function
-f1_keywords: 
- - "dhcpsapi/DhcpDeleteClientInfo"
+f1_keywords:
+- dhcpsapi/DhcpDeleteClientInfo
 dev_langs:
- - c++
+- c++
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dhcpsapi.lib
 req.dll: Dhcpsapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Dhcpsapi.dll
+- Dhcpsapi.dll
 api_name:
- - DhcpDeleteClientInfo
+- DhcpDeleteClientInfo
 targetos: Windows
 req.typenames: 
 req.redist: 

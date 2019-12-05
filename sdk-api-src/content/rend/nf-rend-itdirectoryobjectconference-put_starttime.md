@@ -1,19 +1,17 @@
 ---
 UID: NF:rend.ITDirectoryObjectConference.put_StartTime
 title: ITDirectoryObjectConference::put_StartTime (rend.h)
-
 description: The put_StartTime method sets the start time of the conference.
 old-location: tapi3\itdirectoryobjectconference_put_starttime.htm
 tech.root: Tapi
 ms.assetid: 87ccf59c-3fe6-4247-b7f9-d1fb8bcf4b69
-
 ms.date: 12/05/2018
 ms.keywords: ITDirectoryObjectConference interface [TAPI 2.2],put_StartTime method, ITDirectoryObjectConference.put_StartTime, ITDirectoryObjectConference::put_StartTime, _tapi3_itdirectoryobjectconference_put_starttime, put_StartTime, put_StartTime method [TAPI 2.2], put_StartTime method [TAPI 2.2],ITDirectoryObjectConference interface, rend/ITDirectoryObjectConference::put_StartTime, tapi3.itdirectoryobjectconference_put_starttime
 ms.topic: method
-f1_keywords: 
- - "rend/ITDirectoryObjectConference.put_StartTime"
+f1_keywords:
+- rend/ITDirectoryObjectConference.put_StartTime
 dev_langs:
- - c++
+- c++
 req.header: rend.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Rend.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Rend.dll
+- Rend.dll
 api_name:
- - ITDirectoryObjectConference.put_StartTime
+- ITDirectoryObjectConference.put_StartTime
 targetos: Windows
 req.typenames: 
 req.redist: 

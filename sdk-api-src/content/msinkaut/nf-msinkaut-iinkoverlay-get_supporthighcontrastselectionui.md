@@ -1,19 +1,17 @@
 ---
 UID: NF:msinkaut.IInkOverlay.get_SupportHighContrastSelectionUI
 title: IInkOverlay::get_SupportHighContrastSelectionUI (msinkaut.h)
-
 description: Gets or sets a value that specifies whether all selection user interface (UI) elements are drawn in high contrast when the system is in High Contrast mode.
 old-location: tablet\inkoverlay_supporthighcontrastselectionui.htm
 tech.root: tablet
 ms.assetid: a8837657-6eb0-44d3-8c39-11a5524fe9db
-
 ms.date: 12/05/2018
 ms.keywords: IInkOverlay, IInkOverlay interface [Tablet PC],SupportHighContrastSelectionUI property, IInkOverlay.SupportHighContrastSelectionUI, IInkOverlay.get_SupportHighContrastSelectionUI, IInkOverlay::SupportHighContrastSelectionUI, IInkOverlay::get_SupportHighContrastSelectionUI, IInkOverlay::put_SupportHighContrastSelectionUI, InkOverlay.get_SupportHighContrastSelectionUI, InkOverlay.put_SupportHighContrastSelectionUI, SupportHighContrastSelectionUI property [Tablet PC], SupportHighContrastSelectionUI property [Tablet PC],IInkOverlay interface, a8837657-6eb0-44d3-8c39-11a5524fe9db, get_SupportHighContrastSelectionUI, msinkaut/IInkOverlay::SupportHighContrastSelectionUI, msinkaut/IInkOverlay::get_SupportHighContrastSelectionUI, msinkaut/IInkOverlay::put_SupportHighContrastSelectionUI, tablet.inkoverlay_supporthighcontrastselectionui
 ms.topic: method
-f1_keywords: 
- - "msinkaut/IInkOverlay.SupportHighContrastSelectionUI"
+f1_keywords:
+- msinkaut/IInkOverlay.SupportHighContrastSelectionUI
 dev_langs:
- - c++
+- c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows
@@ -32,19 +30,19 @@ req.lib: InkObj.dll
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - InkObj.dll
- - InkObj.dll.dll
+- InkObj.dll
+- InkObj.dll.dll
 api_name:
- - IInkOverlay.SupportHighContrastSelectionUI
- - IInkOverlay.get_SupportHighContrastSelectionUI
- - IInkOverlay.put_SupportHighContrastSelectionUI
- - InkOverlay.get_SupportHighContrastSelectionUI
- - InkOverlay.put_SupportHighContrastSelectionUI
+- IInkOverlay.SupportHighContrastSelectionUI
+- IInkOverlay.get_SupportHighContrastSelectionUI
+- IInkOverlay.put_SupportHighContrastSelectionUI
+- InkOverlay.get_SupportHighContrastSelectionUI
+- InkOverlay.put_SupportHighContrastSelectionUI
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:winreg.RegOpenKeyTransactedW
 title: RegOpenKeyTransactedW function (winreg.h)
-
 description: Opens the specified registry key and associates it with a transaction.
 old-location: base\regopenkeytransacted.htm
 tech.root: SysInfo
 ms.assetid: 11663ed2-d17c-4f08-be7b-9b591271fbcd
-
 ms.date: 12/05/2018
 ms.keywords: RegOpenKeyTransacted, RegOpenKeyTransacted function, RegOpenKeyTransactedA, RegOpenKeyTransactedW, base.regopenkeytransacted, winreg/RegOpenKeyTransacted, winreg/RegOpenKeyTransactedA, winreg/RegOpenKeyTransactedW
 ms.topic: function
-f1_keywords: 
- - "winreg/RegOpenKeyTransacted"
+f1_keywords:
+- winreg/RegOpenKeyTransacted
 dev_langs:
- - c++
+- c++
 req.header: winreg.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,19 +30,19 @@ req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Advapi32.dll
- - API-MS-Win-Core-Registry-l2-1-0.dll
- - advapi32legacy.dll
- - API-MS-Win-Core-Registry-l2-2-0.dll
+- Advapi32.dll
+- API-MS-Win-Core-Registry-l2-1-0.dll
+- advapi32legacy.dll
+- API-MS-Win-Core-Registry-l2-2-0.dll
 api_name:
- - RegOpenKeyTransacted
- - RegOpenKeyTransactedA
- - RegOpenKeyTransactedW
+- RegOpenKeyTransacted
+- RegOpenKeyTransactedA
+- RegOpenKeyTransactedW
 targetos: Windows
 req.typenames: 
 req.redist: 

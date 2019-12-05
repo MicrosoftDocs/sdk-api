@@ -1,19 +1,17 @@
 ---
 UID: NN:vsprov.IVssFileShareSnapshotProvider
 title: IVssFileShareSnapshotProvider (vsprov.h)
-
 description: .
 old-location: base\ivssfilesharesnapshotprovider.htm
 tech.root: VSS
 ms.assetid: 1af45503-2f6f-4266-a0d2-ffc74a7be16f
-
 ms.date: 12/05/2018
 ms.keywords: IVssFileShareSnapshotProvider, IVssFileShareSnapshotProvider interface [VSS], IVssFileShareSnapshotProvider interface [VSS],described, base.ivssfilesharesnapshotprovider, vsprov/IVssFileShareSnapshotProvider
 ms.topic: interface
 f1_keywords:
 - vsprov/IVssFileShareSnapshotProvider
 dev_langs:
- - c++
+- c++
 req.header: vsprov.h
 req.include-header: 
 req.target-type: Windows

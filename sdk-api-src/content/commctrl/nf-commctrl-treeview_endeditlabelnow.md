@@ -1,19 +1,17 @@
 ---
 UID: NF:commctrl.TreeView_EndEditLabelNow
 title: TreeView_EndEditLabelNow macro (commctrl.h)
-
 description: Ends the editing of a tree-view item's label. You can use this macro or send the TVM_ENDEDITLABELNOW message explicitly.
 old-location: controls\TreeView_EndEditLabelNow.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\treeview\macros\treeview_endeditlabelnow.htm
-
 ms.date: 12/05/2018
 ms.keywords: TreeView_EndEditLabelNow, TreeView_EndEditLabelNow macro [Windows Controls], _win32_TreeView_EndEditLabelNow, _win32_TreeView_EndEditLabelNow_cpp, commctrl/TreeView_EndEditLabelNow, controls.TreeView_EndEditLabelNow, controls._win32_TreeView_EndEditLabelNow
 ms.topic: macro
-f1_keywords: 
- - "commctrl/TreeView_EndEditLabelNow"
+f1_keywords:
+- commctrl/TreeView_EndEditLabelNow
 dev_langs:
- - c++
+- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Commctrl.h
+- Commctrl.h
 api_name:
- - TreeView_EndEditLabelNow
+- TreeView_EndEditLabelNow
 targetos: Windows
 req.typenames: 
 req.redist: 

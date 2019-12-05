@@ -1,19 +1,17 @@
 ---
 UID: NN:documenttarget.IPrintDocumentPackageTarget
 title: IPrintDocumentPackageTarget (documenttarget.h)
-
 description: Allows users to enumerate the supported package target types and to create one with a given type ID. IPrintDocumentPackageTarget also supports the tracking of the package printing progress and cancelling.
 old-location: xps\iprintdocumentpackagetarget.htm
 tech.root: printdocs
 ms.assetid: 0F63C626-DB58-4952-BBB3-7E3901429C35
-
 ms.date: 12/05/2018
 ms.keywords: IPrintDocumentPackageTarget, IPrintDocumentPackageTarget interface [XPS Documents and Packaging], IPrintDocumentPackageTarget interface [XPS Documents and Packaging],described, documenttarget/IPrintDocumentPackageTarget, xps.iprintdocumentpackagetarget
 ms.topic: interface
-f1_keywords: 
- - "documenttarget/IPrintDocumentPackageTarget"
+f1_keywords:
+- documenttarget/IPrintDocumentPackageTarget
 dev_langs:
- - c++
+- c++
 req.header: documenttarget.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - documenttarget.h
+- documenttarget.h
 api_name:
- - IPrintDocumentPackageTarget
+- IPrintDocumentPackageTarget
 targetos: Windows
 req.typenames: 
 req.redist: 

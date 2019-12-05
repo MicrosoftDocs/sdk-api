@@ -1,19 +1,17 @@
 ---
 UID: NF:processthreadsapi.GetCurrentProcessToken
 title: GetCurrentProcessToken function (processthreadsapi.h)
-
 description: Retrieves a pseudo-handle that you can use as a shorthand way to refer to the access token associated with a process.
 old-location: security\getcurrentprocesstoken.htm
 tech.root: SecAuthZ
 ms.assetid: 9DD1781A-4C77-4E22-9FCF-579FC90F3028
-
 ms.date: 12/05/2018
 ms.keywords: GetCurrentProcessToken, GetCurrentProcessToken function [Security], processthreadsapi/GetCurrentProcessToken, security.getcurrentprocesstoken
 ms.topic: function
-f1_keywords: 
- - "processthreadsapi/GetCurrentProcessToken"
+f1_keywords:
+- processthreadsapi/GetCurrentProcessToken
 dev_langs:
- - c++
+- c++
 req.header: processthreadsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - processthreadsapi.h
+- processthreadsapi.h
 api_name:
- - GetCurrentProcessToken
+- GetCurrentProcessToken
 targetos: Windows
 req.typenames: 
 req.redist: 

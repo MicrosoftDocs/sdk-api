@@ -1,19 +1,17 @@
 ---
 UID: NF:directxmath.XMFLOAT4.XMFLOAT4(const XMFLOAT4 &)
 title: XMFLOAT4::XMFLOAT4(const XMFLOAT4 &) (directxmath.h)
-
 description: A constructor for XMFLOAT4.
 old-location: 
 tech.root: dxmath
 ms.assetid: 
-
 ms.date: 05/13/2019
 ms.keywords: XMFLOAT4, XMFLOAT4 constructor [DirectX Math Support APIs], XMFLOAT4 constructor [DirectX Math Support APIs],XMFLOAT4 structure, XMFLOAT4 structure [DirectX Math Support APIs],XMFLOAT4 constructor, XMFLOAT4.XMFLOAT4, XMFLOAT4.XMFLOAT4(), XMFLOAT4.XMFLOAT4(const XMFLOAT4 &), XMFLOAT4::XMFLOAT4, XMFLOAT4::XMFLOAT4(const XMFLOAT4 &), dxmath.xmfloat4_ctor_1
 ms.topic: method
-f1_keywords: 
- - "directxmath/XMFLOAT4.XMFLOAT4"
+f1_keywords:
+- directxmath/XMFLOAT4.XMFLOAT4
 dev_langs:
- - c++
+- c++
 req.header: directxmath.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - DirectXMath.h
+- DirectXMath.h
 api_name:
- - XMFLOAT4.XMFLOAT4
+- XMFLOAT4.XMFLOAT4
 targetos: Windows
 req.typenames: 
 req.redist: 

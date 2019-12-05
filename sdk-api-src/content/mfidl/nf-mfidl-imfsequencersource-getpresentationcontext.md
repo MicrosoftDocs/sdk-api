@@ -1,19 +1,17 @@
 ---
 UID: NF:mfidl.IMFSequencerSource.GetPresentationContext
 title: IMFSequencerSource::GetPresentationContext (mfidl.h)
-
 description: Maps a presentation descriptor to its associated sequencer element identifier and the topology it represents.
 old-location: mf\imfsequencersource_getpresentationcontext.htm
 tech.root: medfound
 ms.assetid: c444ccad-68b8-40eb-9e87-0b4d61ac725d
-
 ms.date: 12/05/2018
 ms.keywords: GetPresentationContext, GetPresentationContext method [Media Foundation], GetPresentationContext method [Media Foundation],IMFSequencerSource interface, IMFSequencerSource interface [Media Foundation],GetPresentationContext method, IMFSequencerSource.GetPresentationContext, IMFSequencerSource::GetPresentationContext, c444ccad-68b8-40eb-9e87-0b4d61ac725d, mf.imfsequencersource_getpresentationcontext, mfidl/IMFSequencerSource::GetPresentationContext
 ms.topic: method
-f1_keywords: 
- - "mfidl/IMFSequencerSource.GetPresentationContext"
+f1_keywords:
+- mfidl/IMFSequencerSource.GetPresentationContext
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFSequencerSource.GetPresentationContext
+- IMFSequencerSource.GetPresentationContext
 targetos: Windows
 req.typenames: 
 req.redist: 

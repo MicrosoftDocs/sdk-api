@@ -1,19 +1,17 @@
 ---
 UID: NF:fileapi.GetFileTime
 title: GetFileTime function (fileapi.h)
-
 description: Retrieves the date and time that a file or directory was created, last accessed, and last modified.
 old-location: base\getfiletime.htm
 tech.root: SysInfo
 ms.assetid: 7f88e1c8-4328-40c2-857d-745e4a1d350d
-
 ms.date: 12/05/2018
 ms.keywords: GetFileTime, GetFileTime function, _win32_getfiletime, base.getfiletime, fileapi/GetFileTime, winbase/GetFileTime
 ms.topic: function
-f1_keywords: 
- - "fileapi/GetFileTime"
+f1_keywords:
+- fileapi/GetFileTime
 dev_langs:
- - c++
+- c++
 req.header: fileapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,21 +30,21 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-File-l1-1-0.dll
- - KernelBase.dll
- - API-MS-Win-Core-File-l1-2-0.dll
- - API-MS-Win-Core-File-l1-2-1.dll
- - API-MS-Win-Core-File-l1-2-2.dll
- - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
- - MinKernelBase.dll
+- Kernel32.dll
+- API-MS-Win-Core-File-l1-1-0.dll
+- KernelBase.dll
+- API-MS-Win-Core-File-l1-2-0.dll
+- API-MS-Win-Core-File-l1-2-1.dll
+- API-MS-Win-Core-File-l1-2-2.dll
+- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+- MinKernelBase.dll
 api_name:
- - GetFileTime
+- GetFileTime
 targetos: Windows
 req.typenames: 
 req.redist: 

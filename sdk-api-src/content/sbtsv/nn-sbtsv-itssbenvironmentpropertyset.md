@@ -1,19 +1,17 @@
 ---
 UID: NN:sbtsv.ITsSbEnvironmentPropertySet
 title: ITsSbEnvironmentPropertySet (sbtsv.h)
-
 description: Can be used to define custom properties of an environment that hosts target computers as appropriate.
 old-location: termserv\itssbenvironmentpropertyset.htm
 tech.root: TermServ
 ms.assetid: 613c972d-ab52-495a-a8fd-2827e39e9a4e
-
 ms.date: 12/05/2018
 ms.keywords: ITsSbEnvironmentPropertySet, ITsSbEnvironmentPropertySet interface [Remote Desktop Services], ITsSbEnvironmentPropertySet interface [Remote Desktop Services],described, sbtsv/ITsSbEnvironmentPropertySet, termserv.itssbenvironmentpropertyset
 ms.topic: interface
-f1_keywords: 
- - "sbtsv/ITsSbEnvironmentPropertySet"
+f1_keywords:
+- sbtsv/ITsSbEnvironmentPropertySet
 dev_langs:
- - c++
+- c++
 req.header: sbtsv.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - sbtsv.h
+- sbtsv.h
 api_name:
- - ITsSbEnvironmentPropertySet
+- ITsSbEnvironmentPropertySet
 targetos: Windows
 req.typenames: 
 req.redist: 

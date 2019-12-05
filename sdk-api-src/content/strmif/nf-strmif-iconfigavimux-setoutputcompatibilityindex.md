@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IConfigAviMux.SetOutputCompatibilityIndex
 title: IConfigAviMux::SetOutputCompatibilityIndex (strmif.h)
-
 description: The SetOutputCompatibilityIndex method sets the AVI index format.
 old-location: dshow\iconfigavimux_setoutputcompatibilityindex.htm
 tech.root: DirectShow
 ms.assetid: 3b9793e6-e5f4-432f-95f6-62053b955348
-
 ms.date: 12/05/2018
 ms.keywords: IConfigAviMux interface [DirectShow],SetOutputCompatibilityIndex method, IConfigAviMux.SetOutputCompatibilityIndex, IConfigAviMux::SetOutputCompatibilityIndex, IConfigAviMuxSetOutputCompatibilityIndex, SetOutputCompatibilityIndex, SetOutputCompatibilityIndex method [DirectShow], SetOutputCompatibilityIndex method [DirectShow],IConfigAviMux interface, dshow.iconfigavimux_setoutputcompatibilityindex, strmif/IConfigAviMux::SetOutputCompatibilityIndex
 ms.topic: method
-f1_keywords: 
- - "strmif/IConfigAviMux.SetOutputCompatibilityIndex"
+f1_keywords:
+- strmif/IConfigAviMux.SetOutputCompatibilityIndex
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IConfigAviMux.SetOutputCompatibilityIndex
+- IConfigAviMux.SetOutputCompatibilityIndex
 targetos: Windows
 req.typenames: 
 req.redist: 

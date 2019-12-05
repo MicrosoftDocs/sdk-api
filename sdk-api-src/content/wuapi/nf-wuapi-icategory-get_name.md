@@ -1,19 +1,17 @@
 ---
 UID: NF:wuapi.ICategory.get_Name
 title: ICategory::get_Name (wuapi.h)
-
 description: Gets the localized name of the category.
 old-location: wua\icategory_name.htm
 tech.root: Wua_Sdk
 ms.assetid: d0975b3f-88b4-4f20-ae1d-e76a8bb23fa1
-
 ms.date: 12/05/2018
 ms.keywords: ICategory interface [Windows Update Agent],Name property, ICategory.Name, ICategory.get_Name, ICategory::Name, ICategory::get_Name, Name property [Windows Update Agent], Name property [Windows Update Agent],ICategory interface, get_Name, wua.icategory_name, wuapi/ICategory::Name, wuapi/ICategory::get_Name
 ms.topic: method
-f1_keywords: 
- - "wuapi/ICategory.Name"
+f1_keywords:
+- wuapi/ICategory.Name
 dev_langs:
- - c++
+- c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Wuguid.lib
 req.dll: Wuapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wuapi.dll
+- Wuapi.dll
 api_name:
- - ICategory.Name
- - ICategory.get_Name
+- ICategory.Name
+- ICategory.get_Name
 targetos: Windows
 req.typenames: 
 req.redist: 

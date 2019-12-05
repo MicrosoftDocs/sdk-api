@@ -1,19 +1,17 @@
 ---
 UID: NF:snmp.SnmpUtilOidFree
 title: SnmpUtilOidFree function (snmp.h)
-
 description: The SnmpUtilOidFree function frees the memory allocated for the specified object identifier. This function is an element of the SNMP Utility API.
 old-location: snmp\snmputiloidfree.htm
 tech.root: SNMP
 ms.assetid: 8fc44fdf-956a-4102-bcbb-4cd17a73828c
-
 ms.date: 12/05/2018
 ms.keywords: SnmpUtilOidFree, SnmpUtilOidFree function [SNMP], _snmp_snmputiloidfree, snmp.snmputiloidfree, snmp/SnmpUtilOidFree
 ms.topic: function
-f1_keywords: 
- - "snmp/SnmpUtilOidFree"
+f1_keywords:
+- snmp/SnmpUtilOidFree
 dev_langs:
- - c++
+- c++
 req.header: snmp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Snmpapi.lib
 req.dll: Snmpapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Snmpapi.dll
+- Snmpapi.dll
 api_name:
- - SnmpUtilOidFree
+- SnmpUtilOidFree
 targetos: Windows
 req.typenames: 
 req.redist: 

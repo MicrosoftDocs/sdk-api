@@ -1,19 +1,17 @@
 ---
 UID: NN:ocidl.IFontDisp
 title: IFontDisp (ocidl.h)
-
 description: Exposes a font object's properties through Automation. It provides a subset of the IFont methods.
 old-location: com\ifontdisp.htm
 tech.root: com
 ms.assetid: c2ee251e-2419-4436-96e4-caaf6acc2550
-
 ms.date: 12/05/2018
 ms.keywords: IFontDisp, IFontDisp interface [COM], IFontDisp interface [COM],described, _ctrl_ifontdisp, com.ifontdisp, ocidl/IFontDisp
 ms.topic: interface
-f1_keywords: 
- - "ocidl/IFontDisp"
+f1_keywords:
+- ocidl/IFontDisp
 dev_langs:
- - c++
+- c++
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - OCIdl.h
+- OCIdl.h
 api_name:
- - IFontDisp
+- IFontDisp
 targetos: Windows
 req.typenames: 
 req.redist: 

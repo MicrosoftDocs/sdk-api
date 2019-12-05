@@ -1,19 +1,17 @@
 ---
 UID: NF:msinkaut.IInkTablet.get_PlugAndPlayId
 title: IInkTablet::get_PlugAndPlayId (msinkaut.h)
-
 description: Gets a string representation of the Plug and Play identifier of the IInkTablet object.
 old-location: tablet\iinktablet_plugandplayid.htm
 tech.root: tablet
 ms.assetid: 5b33bd06-fee3-41b0-b3c1-d16b43685c60
-
 ms.date: 12/05/2018
 ms.keywords: 5b33bd06-fee3-41b0-b3c1-d16b43685c60, IInkTablet interface [Tablet PC],PlugAndPlayID property, IInkTablet.PlugAndPlayID, IInkTablet.get_PlugAndPlayID, IInkTablet.get_PlugAndPlayId, IInkTablet::PlugAndPlayID, IInkTablet::get_PlugAndPlayID, IInkTablet::get_PlugAndPlayId, PlugAndPlayID property [Tablet PC], PlugAndPlayID property [Tablet PC],IInkTablet interface, get_PlugAndPlayId, msinkaut/IInkTablet::PlugAndPlayID, msinkaut/IInkTablet::get_PlugAndPlayID, tablet.iinktablet_plugandplayid
 ms.topic: method
-f1_keywords: 
- - "msinkaut/IInkTablet.PlugAndPlayID"
+f1_keywords:
+- msinkaut/IInkTablet.PlugAndPlayID
 dev_langs:
- - c++
+- c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: InkObj.dll
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - InkObj.dll
- - InkObj.dll.dll
+- InkObj.dll
+- InkObj.dll.dll
 api_name:
- - IInkTablet.PlugAndPlayID
- - IInkTablet.get_PlugAndPlayID
- - IInkTablet.get_PlugAndPlayID
+- IInkTablet.PlugAndPlayID
+- IInkTablet.get_PlugAndPlayID
+- IInkTablet.get_PlugAndPlayID
 targetos: Windows
 req.typenames: 
 req.redist: 

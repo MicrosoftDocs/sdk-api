@@ -1,19 +1,17 @@
 ---
 UID: NF:directxmath.XMVector4IsInfinite
 title: XMVector4IsInfinite function (directxmath.h)
-
 description: Tests whether any component of a 4D vector is positive or negative infinity.
 old-location: dxmath\xmvector4isinfinite.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.comparison.XMVector4IsInfinite(XMVECTOR)
-
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMVector4IsInfinite, XMVector4IsInfinite, XMVector4IsInfinite method [DirectX Math Support APIs], dxmath.xmvector4isinfinite
 ms.topic: function
-f1_keywords: 
- - "directxmath/XMVector4IsInfinite"
+f1_keywords:
+- directxmath/XMVector4IsInfinite
 dev_langs:
- - c++
+- c++
 req.header: directxmath.h
 req.include-header: DirectXMath.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - directxmathvector.inl
+- directxmathvector.inl
 api_name:
- - XMVector4IsInfinite
+- XMVector4IsInfinite
 targetos: Windows
 req.typenames: 
 req.redist: 

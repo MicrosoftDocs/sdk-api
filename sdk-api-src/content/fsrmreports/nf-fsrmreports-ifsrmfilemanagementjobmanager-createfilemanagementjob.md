@@ -1,19 +1,17 @@
 ---
 UID: NF:fsrmreports.IFsrmFileManagementJobManager.CreateFileManagementJob
 title: IFsrmFileManagementJobManager::CreateFileManagementJob (fsrmreports.h)
-
 description: Creates a file management job.
 old-location: fsrm\ifsrmfilemanagementjobmanager_createfilemanagementjob.htm
 tech.root: fsrm
 ms.assetid: 22ac77f5-264e-482b-aacf-0c1d90dd4dbe
-
 ms.date: 12/05/2018
 ms.keywords: CreateFileManagementJob, CreateFileManagementJob method [File Server Resource Manager], CreateFileManagementJob method [File Server Resource Manager],FsrmFileManagementJobManager class, CreateFileManagementJob method [File Server Resource Manager],IFsrmFileManagementJobManager interface, FsrmFileManagementJobManager class [File Server Resource Manager],CreateFileManagementJob method, IFsrmFileManagementJobManager interface [File Server Resource Manager],CreateFileManagementJob method, IFsrmFileManagementJobManager.CreateFileManagementJob, IFsrmFileManagementJobManager::CreateFileManagementJob, fs.ifsrmfilemanagementjobmanager_createfilemanagementjob, fsrm.ifsrmfilemanagementjobmanager_createfilemanagementjob, fsrmreports/IFsrmFileManagementJobManager::CreateFileManagementJob
 ms.topic: method
-f1_keywords: 
- - "fsrmreports/IFsrmFileManagementJobManager.CreateFileManagementJob"
+f1_keywords:
+- fsrmreports/IFsrmFileManagementJobManager.CreateFileManagementJob
 dev_langs:
- - c++
+- c++
 req.header: fsrmreports.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: SrmSvc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - SrmSvc.dll
+- SrmSvc.dll
 api_name:
- - IFsrmFileManagementJobManager.CreateFileManagementJob
- - FsrmFileManagementJobManager.CreateFileManagementJob
+- IFsrmFileManagementJobManager.CreateFileManagementJob
+- FsrmFileManagementJobManager.CreateFileManagementJob
 targetos: Windows
 req.typenames: 
 req.redist: 

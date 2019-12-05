@@ -1,19 +1,17 @@
 ---
 UID: NF:enclaveapi.TerminateEnclave
 title: TerminateEnclave function (enclaveapi.h)
-
 description: Ends the execution of the threads that are running within an enclave.
 old-location: base\terminateenclave.htm
 tech.root: Memory
 ms.assetid: D2BAF02F-AE05-43F2-BDB1-013EAF3AC653
-
 ms.date: 12/05/2018
 ms.keywords: TerminateEnclave, TerminateEnclave function, base.terminateenclave, enclaveapi/TerminateEnclave
 ms.topic: function
-f1_keywords: 
- - "enclaveapi/TerminateEnclave"
+f1_keywords:
+- enclaveapi/TerminateEnclave
 dev_langs:
- - c++
+- c++
 req.header: enclaveapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Vertdll.lib
 req.dll: Vertdll.dll; Api-ms-win-core-enclave-l1-1-0.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - vertdll.dll
- - api-ms-win-core-enclave-l1-1-0.dll
+- vertdll.dll
+- api-ms-win-core-enclave-l1-1-0.dll
 api_name:
- - TerminateEnclave
+- TerminateEnclave
 targetos: Windows
 req.typenames: 
 req.redist: 

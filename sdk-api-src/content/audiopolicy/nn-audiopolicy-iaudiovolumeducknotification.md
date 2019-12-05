@@ -1,19 +1,17 @@
 ---
 UID: NN:audiopolicy.IAudioVolumeDuckNotification
 title: IAudioVolumeDuckNotification (audiopolicy.h)
-
 description: The IAudioVolumeDuckNotification interface is used to by the system to send notifications about stream attenuation changes.Stream Attenuation, or ducking, is a feature introduced in Windows 7, where the system adjusts the volume of a non-communication stream when a new communication stream is opened. For more information about this feature, see Default Ducking Experience.
 old-location: coreaudio\iaudiovolumeducknotification.htm
 tech.root: CoreAudio
 ms.assetid: 08e90a50-a6ac-4405-ba90-a862b78efaf8
-
 ms.date: 12/05/2018
 ms.keywords: IAudioVolumeDuckNotification, IAudioVolumeDuckNotification interface [Core Audio], IAudioVolumeDuckNotification interface [Core Audio],described, audiopolicy/ IAudioVolumeDuckNotification, coreaudio.iaudiovolumeducknotification
 ms.topic: interface
-f1_keywords: 
- - "audiopolicy/IAudioVolumeDuckNotification"
+f1_keywords:
+- audiopolicy/IAudioVolumeDuckNotification
 dev_langs:
- - c++
+- c++
 req.header: audiopolicy.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - AudioPolicy.h
+- AudioPolicy.h
 api_name:
- - IAudioVolumeDuckNotification
+- IAudioVolumeDuckNotification
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:bdatif.IGuideDataProperty.get_Language
 title: IGuideDataProperty::get_Language (bdatif.h)
-
 description: The get_Language method retrieves the language associated with the property.
 old-location: mstv\iguidedataproperty_get_language.htm
 tech.root: mstv
 ms.assetid: e49a35f3-0517-4e84-b806-203818a0f62c
-
 ms.date: 12/05/2018
 ms.keywords: IGuideDataProperty interface [Microsoft TV Technologies],get_Language method, IGuideDataProperty.get_Language, IGuideDataProperty::get_Language, IGuideDataPropertyget_Language, bdatif/IGuideDataProperty::get_Language, get_Language, get_Language method [Microsoft TV Technologies], get_Language method [Microsoft TV Technologies],IGuideDataProperty interface, mstv.iguidedataproperty_get_language
 ms.topic: method
-f1_keywords: 
- - "bdatif/IGuideDataProperty.get_Language"
+f1_keywords:
+- bdatif/IGuideDataProperty.get_Language
 dev_langs:
- - c++
+- c++
 req.header: bdatif.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - bdatif.h
+- bdatif.h
 api_name:
- - IGuideDataProperty.get_Language
+- IGuideDataProperty.get_Language
 targetos: Windows
 req.typenames: 
 req.redist: 

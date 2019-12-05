@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi3if.IEnumPluggableTerminalClassInfo.Next
 title: IEnumPluggableTerminalClassInfo::Next (tapi3if.h)
-
 description: The Next method gets the next specified number of elements in the enumeration sequence. This method is hidden from Visual Basic and scripting languages.
 old-location: tapi3\ienumpluggableterminalclassinfo_next.htm
 tech.root: Tapi
 ms.assetid: 6a661738-06e9-49b8-948a-02c61c621fdd
-
 ms.date: 12/05/2018
 ms.keywords: IEnumPluggableTerminalClassInfo interface [TAPI 2.2],Next method, IEnumPluggableTerminalClassInfo.Next, IEnumPluggableTerminalClassInfo::Next, Next, Next method [TAPI 2.2], Next method [TAPI 2.2],IEnumPluggableTerminalClassInfo interface, _tapi3_ienumpluggableterminalclassinfo_next, tapi3.ienumpluggableterminalclassinfo_next, tapi3if/IEnumPluggableTerminalClassInfo::Next
 ms.topic: method
-f1_keywords: 
- - "tapi3if/IEnumPluggableTerminalClassInfo.Next"
+f1_keywords:
+- tapi3if/IEnumPluggableTerminalClassInfo.Next
 dev_langs:
- - c++
+- c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Tapi3.dll
+- Tapi3.dll
 api_name:
- - IEnumPluggableTerminalClassInfo.Next
+- IEnumPluggableTerminalClassInfo.Next
 targetos: Windows
 req.typenames: 
 req.redist: 

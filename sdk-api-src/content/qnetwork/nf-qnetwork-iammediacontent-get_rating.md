@@ -1,19 +1,17 @@
 ---
 UID: NF:qnetwork.IAMMediaContent.get_Rating
 title: IAMMediaContent::get_Rating (qnetwork.h)
-
 description: The get_Rating method retrieves the rating.
 old-location: dshow\iammediacontent_get_rating.htm
 tech.root: DirectShow
 ms.assetid: 2eeb1356-23f5-48dc-be71-062f1501d163
-
 ms.date: 12/05/2018
 ms.keywords: IAMMediaContent interface [DirectShow],get_Rating method, IAMMediaContent.get_Rating, IAMMediaContent::get_Rating, IAMMediaContentget_Rating, dshow.iammediacontent_get_rating, get_Rating, get_Rating method [DirectShow], get_Rating method [DirectShow],IAMMediaContent interface, qnetwork/IAMMediaContent::get_Rating
 ms.topic: method
-f1_keywords: 
- - "qnetwork/IAMMediaContent.get_Rating"
+f1_keywords:
+- qnetwork/IAMMediaContent.get_Rating
 dev_langs:
- - c++
+- c++
 req.header: qnetwork.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Qnetwork.h
+- Qnetwork.h
 api_name:
- - IAMMediaContent.get_Rating
+- IAMMediaContent.get_Rating
 targetos: Windows
 req.typenames: 
 req.redist: 

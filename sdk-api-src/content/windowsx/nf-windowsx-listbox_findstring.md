@@ -1,19 +1,17 @@
 ---
 UID: NF:windowsx.ListBox_FindString
 title: ListBox_FindString macro (windowsx.h)
-
 description: Finds the first string in a list box that begins with the specified string. You can use this macro or send the LB_FINDSTRING message explicitly.
 old-location: controls\ListBox_FindString.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listboxes\listboxreference\listboxmacros\listbox_findstring.htm
-
 ms.date: 12/05/2018
 ms.keywords: ListBox_FindString, ListBox_FindString macro [Windows Controls], _win32_ListBox_FindString, _win32_ListBox_FindString_cpp, controls.ListBox_FindString, controls._win32_ListBox_FindString, windowsx/ListBox_FindString
 ms.topic: macro
-f1_keywords: 
- - "windowsx/ListBox_FindString"
+f1_keywords:
+- windowsx/ListBox_FindString
 dev_langs:
- - c++
+- c++
 req.header: windowsx.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Windowsx.h
+- Windowsx.h
 api_name:
- - ListBox_FindString
+- ListBox_FindString
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d12.ID3D12PipelineState.GetCachedBlob
 title: ID3D12PipelineState::GetCachedBlob (d3d12.h)
-
 description: Gets the cached blob representing the pipeline state.
 old-location: direct3d12\id3d12pipelinestate_getcachedblob.htm
 tech.root: direct3d12
 ms.assetid: 318FCFEE-74A7-4546-989E-9AF674D2B853
-
 ms.date: 12/05/2018
 ms.keywords: GetCachedBlob, GetCachedBlob method, GetCachedBlob method,ID3D12PipelineState interface, ID3D12PipelineState interface,GetCachedBlob method, ID3D12PipelineState.GetCachedBlob, ID3D12PipelineState::GetCachedBlob, d3d12/ID3D12PipelineState::GetCachedBlob, direct3d12.id3d12pipelinestate_getcachedblob
 ms.topic: method
-f1_keywords: 
- - "d3d12/ID3D12PipelineState.GetCachedBlob"
+f1_keywords:
+- d3d12/ID3D12PipelineState.GetCachedBlob
 dev_langs:
- - c++
+- c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: D3d12.lib
 req.dll: D3d12.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - d3d12.dll
+- d3d12.dll
 api_name:
- - ID3D12PipelineState.GetCachedBlob
+- ID3D12PipelineState.GetCachedBlob
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NN:shobjidl_core.IApplicationDocumentLists
 title: IApplicationDocumentLists (shobjidl_core.h)
-
 description: Exposes methods that allow an application to retrieve the contents of the Recent or Frequent categories in a Jump List.
 old-location: shell\IApplicationDocumentLists.htm
 tech.root: shell
 ms.assetid: 1912d8fd-1724-4a4b-b74a-e05db12ffead
-
 ms.date: 12/05/2018
 ms.keywords: IApplicationDocumentLists, IApplicationDocumentLists interface [Windows Shell], IApplicationDocumentLists interface [Windows Shell],described, _shell_IApplicationDocumentLists, shell.IApplicationDocumentLists, shobjidl_core/IApplicationDocumentLists
 ms.topic: interface
-f1_keywords: 
- - "shobjidl_core/IApplicationDocumentLists"
+f1_keywords:
+- shobjidl_core/IApplicationDocumentLists
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Shell32.lib
 req.dll: Shell32.dll (version 6.1 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - IApplicationDocumentLists
+- IApplicationDocumentLists
 targetos: Windows
 req.typenames: 
 req.redist: 

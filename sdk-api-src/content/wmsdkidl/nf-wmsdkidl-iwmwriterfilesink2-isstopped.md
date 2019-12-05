@@ -1,19 +1,17 @@
 ---
 UID: NF:wmsdkidl.IWMWriterFileSink2.IsStopped
 title: IWMWriterFileSink2::IsStopped (wmsdkidl.h)
-
 description: The IsStopped method ascertains whether the file sink has stopped writing.
 old-location: wmformat\iwmwriterfilesink2_isstopped.htm
 tech.root: wmformat
 ms.assetid: f1e5790a-3cac-4e0e-8a3f-b21afe2711ff
-
 ms.date: 12/05/2018
 ms.keywords: IWMWriterFileSink2 interface [windows Media Format],IsStopped method, IWMWriterFileSink2.IsStopped, IWMWriterFileSink2::IsStopped, IWMWriterFileSink2IsStopped, IsStopped, IsStopped method [windows Media Format], IsStopped method [windows Media Format],IWMWriterFileSink2 interface, wmformat.iwmwriterfilesink2_isstopped, wmsdkidl/IWMWriterFileSink2::IsStopped
 ms.topic: method
-f1_keywords: 
- - "wmsdkidl/IWMWriterFileSink2.IsStopped"
+f1_keywords:
+- wmsdkidl/IWMWriterFileSink2.IsStopped
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wmvcore.lib
- - Wmvcore.dll
- - WMStubDRM.lib
- - WMStubDRM.dll
+- Wmvcore.lib
+- Wmvcore.dll
+- WMStubDRM.lib
+- WMStubDRM.dll
 api_name:
- - IWMWriterFileSink2.IsStopped
+- IWMWriterFileSink2.IsStopped
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:uianimation.IUIAnimationStoryboard2.RepeatBetweenKeyframes
 title: IUIAnimationStoryboard2::RepeatBetweenKeyframes (uianimation.h)
-
 description: Creates a loop between two keyframes.
 old-location: uianimation\iuianimationstoryboard2_repeatbetweenkeyframes.htm
 tech.root: UIAnimation
 ms.assetid: 31BC2628-14B3-4405-BA9B-4FB275D9AC0D
-
 ms.date: 12/05/2018
 ms.keywords: IUIAnimationStoryboard2 interface [Windows Animation],RepeatBetweenKeyframes method, IUIAnimationStoryboard2.RepeatBetweenKeyframes, IUIAnimationStoryboard2::RepeatBetweenKeyframes, RepeatBetweenKeyframes, RepeatBetweenKeyframes method [Windows Animation], RepeatBetweenKeyframes method [Windows Animation],IUIAnimationStoryboard2 interface, uianimation.iuianimationstoryboard2_repeatbetweenkeyframes, uianimation/IUIAnimationStoryboard2::RepeatBetweenKeyframes
 ms.topic: method
-f1_keywords: 
- - "uianimation/IUIAnimationStoryboard2.RepeatBetweenKeyframes"
+f1_keywords:
+- uianimation/IUIAnimationStoryboard2.RepeatBetweenKeyframes
 dev_langs:
- - c++
+- c++
 req.header: uianimation.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: UIAnimation.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAnimation.dll
+- UIAnimation.dll
 api_name:
- - IUIAnimationStoryboard2.RepeatBetweenKeyframes
+- IUIAnimationStoryboard2.RepeatBetweenKeyframes
 targetos: Windows
 req.typenames: 
 req.redist: 

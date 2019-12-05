@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.ITaskbarList3.RegisterTab
 title: ITaskbarList3::RegisterTab (shobjidl_core.h)
-
 description: Informs the taskbar that a new tab or document thumbnail has been provided for display in an application's taskbar group flyout.
 old-location: shell\ITaskbarList3_RegisterTab.htm
 tech.root: shell
 ms.assetid: b0cdca51-108a-4507-bd9e-6bcd4386c36a
-
 ms.date: 12/05/2018
 ms.keywords: ITaskbarList3 interface [Windows Shell],RegisterTab method, ITaskbarList3.RegisterTab, ITaskbarList3::RegisterTab, RegisterTab, RegisterTab method [Windows Shell], RegisterTab method [Windows Shell],ITaskbarList3 interface, _shell_ITaskbarList3_RegisterTab, shell.ITaskbarList3_RegisterTab, shobjidl_core/ITaskbarList3::RegisterTab
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/ITaskbarList3.RegisterTab"
+f1_keywords:
+- shobjidl_core/ITaskbarList3.RegisterTab
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Explorerframe.lib
 req.dll: Explorerframe.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Explorerframe.dll
+- Explorerframe.dll
 api_name:
- - ITaskbarList3.RegisterTab
+- ITaskbarList3.RegisterTab
 targetos: Windows
 req.typenames: 
 req.redist: 

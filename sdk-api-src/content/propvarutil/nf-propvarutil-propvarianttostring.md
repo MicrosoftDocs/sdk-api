@@ -1,19 +1,17 @@
 ---
 UID: NF:propvarutil.PropVariantToString
 title: PropVariantToString function (propvarutil.h)
-
 description: Extracts a string value from a PROPVARIANT structure.
 old-location: properties\PropVariantToString.htm
 tech.root: properties
 ms.assetid: d545dc12-a780-4d95-8660-13b3f65725f9
-
 ms.date: 12/05/2018
 ms.keywords: PropVariantToString, PropVariantToString function [Windows Properties], properties.PropVariantToString, propvarutil/PropVariantToString, shell.PropVariantToString, shell_PropVariantToString
 ms.topic: function
-f1_keywords: 
- - "propvarutil/PropVariantToString"
+f1_keywords:
+- propvarutil/PropVariantToString
 dev_langs:
- - c++
+- c++
 req.header: propvarutil.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Propsys.lib
 req.dll: Propsys.dll (version 6.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Propsys.dll
+- Propsys.dll
 api_name:
- - PropVariantToString
+- PropVariantToString
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0

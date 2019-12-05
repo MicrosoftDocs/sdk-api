@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IDistributorNotify.SetSyncSource
 title: IDistributorNotify::SetSyncSource (strmif.h)
-
 description: The SetSyncSource method is called when a new clock is registered.
 old-location: dshow\idistributornotify_setsyncsource.htm
 tech.root: DirectShow
 ms.assetid: 671af56f-a333-441e-9a97-04226b1c3225
-
 ms.date: 12/05/2018
 ms.keywords: IDistributorNotify interface [DirectShow],SetSyncSource method, IDistributorNotify.SetSyncSource, IDistributorNotify::SetSyncSource, IDistributorNotifySetSyncSource, SetSyncSource, SetSyncSource method [DirectShow], SetSyncSource method [DirectShow],IDistributorNotify interface, dshow.idistributornotify_setsyncsource, strmif/IDistributorNotify::SetSyncSource
 ms.topic: method
-f1_keywords: 
- - "strmif/IDistributorNotify.SetSyncSource"
+f1_keywords:
+- strmif/IDistributorNotify.SetSyncSource
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IDistributorNotify.SetSyncSource
+- IDistributorNotify.SetSyncSource
 targetos: Windows
 req.typenames: 
 req.redist: 

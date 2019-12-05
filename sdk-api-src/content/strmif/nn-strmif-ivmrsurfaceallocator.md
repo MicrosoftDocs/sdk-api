@@ -1,19 +1,17 @@
 ---
 UID: NN:strmif.IVMRSurfaceAllocator
 title: IVMRSurfaceAllocator (strmif.h)
-
 description: The IVMRSurfaceAllocator interface is implemented by the default allocator-presenter for the Video Mixing Renderer Filter 7 (VMR-7).
 old-location: dshow\ivmrsurfaceallocator.htm
 tech.root: DirectShow
 ms.assetid: bbcbe152-80fd-469b-a79b-c8db6f97da22
-
 ms.date: 12/05/2018
 ms.keywords: IVMRSurfaceAllocator, IVMRSurfaceAllocator interface [DirectShow], IVMRSurfaceAllocator interface [DirectShow],described, IVMRSurfaceAllocatorInterface, dshow.ivmrsurfaceallocator, strmif/IVMRSurfaceAllocator
 ms.topic: interface
-f1_keywords: 
- - "strmif/IVMRSurfaceAllocator"
+f1_keywords:
+- strmif/IVMRSurfaceAllocator
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IVMRSurfaceAllocator
+- IVMRSurfaceAllocator
 targetos: Windows
 req.typenames: 
 req.redist: 

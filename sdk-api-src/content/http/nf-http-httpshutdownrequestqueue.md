@@ -1,19 +1,17 @@
 ---
 UID: NF:http.HttpShutdownRequestQueue
 title: HttpShutdownRequestQueue function (http.h)
-
 description: Stops queuing requests for the specified request queue process.
 old-location: http\httpshutdownrequestqueue.htm
 tech.root: http
 ms.assetid: f6640565-a5a1-4a71-938c-1adf54beb40a
-
 ms.date: 12/05/2018
 ms.keywords: HttpShutdownRequestQueue, HttpShutdownRequestQueue function [HTTP], http.httpshutdownrequestqueue, http/HttpShutdownRequestQueue
 ms.topic: function
-f1_keywords: 
- - "http/HttpShutdownRequestQueue"
+f1_keywords:
+- http/HttpShutdownRequestQueue
 dev_langs:
- - c++
+- c++
 req.header: http.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Httpapi.lib
 req.dll: Httpapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Httpapi.dll
+- Httpapi.dll
 api_name:
- - HttpShutdownRequestQueue
+- HttpShutdownRequestQueue
 targetos: Windows
 req.typenames: 
 req.redist: 

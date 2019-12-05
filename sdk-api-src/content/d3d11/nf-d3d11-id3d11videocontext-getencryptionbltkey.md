@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d11.ID3D11VideoContext.GetEncryptionBltKey
 title: ID3D11VideoContext::GetEncryptionBltKey (d3d11.h)
-
 description: Gets the cryptographic key to decrypt the data returned by the ID3D11VideoContext::EncryptionBlt method.
 old-location: mf\id3d11videocontext_getencryptionbltkey.htm
 tech.root: medfound
 ms.assetid: B62BE7CB-75FA-45E9-9AB7-83738DFE3B19
-
 ms.date: 12/05/2018
 ms.keywords: GetEncryptionBltKey, GetEncryptionBltKey method [Media Foundation], GetEncryptionBltKey method [Media Foundation],ID3D11VideoContext interface, ID3D11VideoContext interface [Media Foundation],GetEncryptionBltKey method, ID3D11VideoContext.GetEncryptionBltKey, ID3D11VideoContext::GetEncryptionBltKey, d3d11/ID3D11VideoContext::GetEncryptionBltKey, mf.id3d11videocontext_getencryptionbltkey
 ms.topic: method
-f1_keywords: 
- - "d3d11/ID3D11VideoContext.GetEncryptionBltKey"
+f1_keywords:
+- d3d11/ID3D11VideoContext.GetEncryptionBltKey
 dev_langs:
- - c++
+- c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - d3d11.h
+- d3d11.h
 api_name:
- - ID3D11VideoContext.GetEncryptionBltKey
+- ID3D11VideoContext.GetEncryptionBltKey
 targetos: Windows
 req.typenames: 
 req.redist: 

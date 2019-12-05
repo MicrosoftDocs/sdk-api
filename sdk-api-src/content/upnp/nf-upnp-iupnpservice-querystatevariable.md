@@ -1,19 +1,17 @@
 ---
 UID: NF:upnp.IUPnPService.QueryStateVariable
 title: IUPnPService::QueryStateVariable (upnp.h)
-
 description: The QueryStateVariable method returns the value of the specified service's state variable.
 old-location: upnp\iupnpservice_querystatevariable.htm
 tech.root: upnp
 ms.assetid: d92785a2-e04c-4968-b515-019205180915
-
 ms.date: 12/05/2018
 ms.keywords: IUPnPService interface [UPnP APIs],QueryStateVariable method, IUPnPService.QueryStateVariable, IUPnPService::QueryStateVariable, QueryStateVariable, QueryStateVariable method [UPnP APIs], QueryStateVariable method [UPnP APIs],IUPnPService interface, _upnp_iupnpservice_querystatevariable, upnp.iupnpservice_querystatevariable, upnp/IUPnPService::QueryStateVariable
 ms.topic: method
-f1_keywords: 
- - "upnp/IUPnPService.QueryStateVariable"
+f1_keywords:
+- upnp/IUPnPService.QueryStateVariable
 dev_langs:
- - c++
+- c++
 req.header: upnp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Upnp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Upnp.dll
+- Upnp.dll
 api_name:
- - IUPnPService.QueryStateVariable
+- IUPnPService.QueryStateVariable
 targetos: Windows
 req.typenames: 
 req.redist: 

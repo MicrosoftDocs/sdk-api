@@ -1,19 +1,17 @@
 ---
 UID: NN:bits3_0.IBitsPeer
 title: IBitsPeer (bits3_0.h)
-
 description: Use IBitsPeer to get information about a peer in the neighborhood.
 old-location: bits\ibitspeer.htm
 tech.root: Bits
 ms.assetid: 617b88d4-6c3e-4c33-9bfa-6d9f6f629866
-
 ms.date: 12/05/2018
 ms.keywords: IBitsPeer, IBitsPeer interface [BITS], IBitsPeer interface [BITS],described, bits.ibitspeer, bits3_0/IBitsPeer
 ms.topic: interface
-f1_keywords: 
- - "bits3_0/IBitsPeer"
+f1_keywords:
+- bits3_0/IBitsPeer
 dev_langs:
- - c++
+- c++
 req.header: bits3_0.h
 req.include-header: Bits.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Bits.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Bits.lib
- - Bits.dll
+- Bits.lib
+- Bits.dll
 api_name:
- - IBitsPeer
+- IBitsPeer
 targetos: Windows
 req.typenames: 
 req.redist: 

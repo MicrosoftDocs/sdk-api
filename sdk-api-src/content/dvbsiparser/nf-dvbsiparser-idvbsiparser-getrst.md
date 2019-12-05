@@ -1,19 +1,17 @@
 ---
 UID: NF:dvbsiparser.IDvbSiParser.GetRST
 title: IDvbSiParser::GetRST (dvbsiparser.h)
-
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\idvbsiparser_getrst.htm
 tech.root: mstv
 ms.assetid: 263abb39-3f8d-4501-985c-d5ac9b1c9ea1
-
 ms.date: 12/05/2018
 ms.keywords: GetRST, GetRST method [Microsoft TV Technologies], GetRST method [Microsoft TV Technologies],IDvbSiParser interface, IDvbSiParser interface [Microsoft TV Technologies],GetRST method, IDvbSiParser.GetRST, IDvbSiParser::GetRST, IDvbSiParserGetRST, dvbsiparser/IDvbSiParser::GetRST, mstv.idvbsiparser_getrst
 ms.topic: method
-f1_keywords: 
- - "dvbsiparser/IDvbSiParser.GetRST"
+f1_keywords:
+- dvbsiparser/IDvbSiParser.GetRST
 dev_langs:
- - c++
+- c++
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dvbsiparser.h
+- dvbsiparser.h
 api_name:
- - IDvbSiParser.GetRST
+- IDvbSiParser.GetRST
 targetos: Windows
 req.typenames: 
 req.redist: 

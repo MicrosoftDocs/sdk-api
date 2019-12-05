@@ -1,19 +1,17 @@
 ---
 UID: NS:ntsecapi._LSA_FOREST_TRUST_DOMAIN_INFO
 title: LSA_FOREST_TRUST_DOMAIN_INFO (ntsecapi.h)
-
 description: Contains identifying information for a domain.
 old-location: security\lsa_forest_trust_domain_info.htm
 tech.root: SecAuthN
 ms.assetid: c0e06735-ca10-4bee-a45b-6db5b6666e31
-
 ms.date: 12/05/2018
 ms.keywords: '*PLSA_FOREST_TRUST_DOMAIN_INFO, LSA_FOREST_TRUST_DOMAIN_INFO, LSA_FOREST_TRUST_DOMAIN_INFO structure [Security], PLSA_FOREST_TRUST_DOMAIN_INFO, PLSA_FOREST_TRUST_DOMAIN_INFO structure pointer [Security], _LSA_FOREST_TRUST_DOMAIN_INFO, ntsecapi/LSA_FOREST_TRUST_DOMAIN_INFO, ntsecapi/PLSA_FOREST_TRUST_DOMAIN_INFO, security.lsa_forest_trust_domain_info'
 ms.topic: struct
 f1_keywords:
 - ntsecapi/LSA_FOREST_TRUST_DOMAIN_INFO
 dev_langs:
- - c++
+- c++
 req.header: ntsecapi.h
 req.include-header: 
 req.target-type: Windows

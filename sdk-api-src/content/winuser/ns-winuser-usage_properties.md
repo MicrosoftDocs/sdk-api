@@ -1,19 +1,17 @@
 ---
 UID: NS:winuser.tagUSAGE_PROPERTIES
 title: USAGE_PROPERTIES (winuser.h)
-
 description: Contains device properties (Human Interface Device (HID) global items that correspond to HID usages) for any type of HID input device.
 old-location: input_pointerdevice\usage_properties.htm
 tech.root: Input_PointerDevice
 ms.assetid: 387E241E-2FE9-46C0-9B7C-5357731339BF
-
 ms.date: 12/05/2018
-ms.keywords: "*PUSAGE_PROPERTIES, PUSAGE_PROPERTIES, PUSAGE_PROPERTIES structure pointer, USAGE_PROPERTIES, USAGE_PROPERTIES structure, input_pointerdevice.usage_properties, winuser/PUSAGE_PROPERTIES, winuser/USAGE_PROPERTIES"
+ms.keywords: '*PUSAGE_PROPERTIES, PUSAGE_PROPERTIES, PUSAGE_PROPERTIES structure pointer, USAGE_PROPERTIES, USAGE_PROPERTIES structure, input_pointerdevice.usage_properties, winuser/PUSAGE_PROPERTIES, winuser/USAGE_PROPERTIES'
 ms.topic: struct
-f1_keywords: 
- - "winuser/USAGE_PROPERTIES"
+f1_keywords:
+- winuser/USAGE_PROPERTIES
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - winuser.h
+- winuser.h
 api_name:
- - USAGE_PROPERTIES
+- USAGE_PROPERTIES
 targetos: Windows
 req.typenames: USAGE_PROPERTIES, *PUSAGE_PROPERTIES
 req.redist: 

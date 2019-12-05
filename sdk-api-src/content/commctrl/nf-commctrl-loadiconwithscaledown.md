@@ -1,19 +1,17 @@
 ---
 UID: NF:commctrl.LoadIconWithScaleDown
 title: LoadIconWithScaleDown function (commctrl.h)
-
 description: Loads an icon. If the icon is not a standard size, this function scales down a larger image instead of scaling up a smaller image.
 old-location: controls\LoadIconWithScaleDown.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\common\functions\loadiconwithscaledown.htm
-
 ms.date: 12/05/2018
 ms.keywords: IDI_APPLICATION, IDI_ASTERISK, IDI_ERROR, IDI_EXCLAMATION, IDI_HAND, IDI_INFORMATION, IDI_QUESTION, IDI_SHIELD, IDI_WARNING, IDI_WINLOGO, LoadIconWithScaleDown, LoadIconWithScaleDown function [Windows Controls], _shell_LoadIconWithScaleDown, _shell_LoadIconWithScaleDown_cpp, commctrl/LoadIconWithScaleDown, controls.LoadIconWithScaleDown, controls._shell_LoadIconWithScaleDown
 ms.topic: function
-f1_keywords: 
- - "commctrl/LoadIconWithScaleDown"
+f1_keywords:
+- commctrl/LoadIconWithScaleDown
 dev_langs:
- - c++
+- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Comctl32.lib
 req.dll: Comctl32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Comctl32.dll
+- Comctl32.dll
 api_name:
- - LoadIconWithScaleDown
+- LoadIconWithScaleDown
 targetos: Windows
 req.typenames: 
 req.redist: 

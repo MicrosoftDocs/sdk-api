@@ -1,19 +1,17 @@
 ---
 UID: NF:filter.IFilter.Init
 title: IFilter::Init (filter.h)
-
 description: Initializes a filtering session.
 old-location: indexsrv\ifilter_init.htm
 tech.root: IndexSrv
 ms.assetid: VS|indexsrv|~\html\ixrefint_2oc4.htm
-
 ms.date: 12/05/2018
 ms.keywords: IFilter interface [Indexing Service],Init method, IFilter.Init, IFilter::Init, Init, Init method [Indexing Service], Init method [Indexing Service],IFilter interface, _idxs_IFilter_Init, filter/IFilter::Init, indexsrv.ifilter_init
 ms.topic: method
-f1_keywords: 
- - "filter/IFilter.Init"
+f1_keywords:
+- filter/IFilter.Init
 dev_langs:
- - c++
+- c++
 req.header: filter.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Filter.h
+- Filter.h
 api_name:
- - IFilter.Init
+- IFilter.Init
 targetos: Windows
 req.typenames: 
 req.redist: 

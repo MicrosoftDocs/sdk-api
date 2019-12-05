@@ -1,19 +1,17 @@
 ---
 UID: NS:lmuse._USE_INFO_2
 title: USE_INFO_2 (lmuse.h)
-
 description: The USE_INFO_2 structure contains information about a connection between a local computer and a shared resource, including connection type, connection status, user name, and domain name.
 old-location: netmgmt\use_info_2_str.htm
 tech.root: NetMgmt
 ms.assetid: 4cc36108-085a-47c4-9dfa-b46f7e208c8b
-
 ms.date: 12/05/2018
-ms.keywords: "*LPUSE_INFO_2, *PUSE_INFO_2, LPUSE_INFO_2, LPUSE_INFO_2 structure pointer [Network Management], PUSE_INFO_2, PUSE_INFO_2 structure pointer [Network Management], USE_CONN, USE_DISCONN, USE_DISKDEV, USE_INFO_2, USE_INFO_2 structure [Network Management], USE_IPC, USE_NETERR, USE_OK, USE_PAUSED, USE_RECONN, USE_SESSLOST, USE_SPOOLDEV, USE_WILDCARD, _win32_use_info_2_str, lmuse/LPUSE_INFO_2, lmuse/PUSE_INFO_2, lmuse/USE_INFO_2, netmgmt.use_info_2_str"
+ms.keywords: '*LPUSE_INFO_2, *PUSE_INFO_2, LPUSE_INFO_2, LPUSE_INFO_2 structure pointer [Network Management], PUSE_INFO_2, PUSE_INFO_2 structure pointer [Network Management], USE_CONN, USE_DISCONN, USE_DISKDEV, USE_INFO_2, USE_INFO_2 structure [Network Management], USE_IPC, USE_NETERR, USE_OK, USE_PAUSED, USE_RECONN, USE_SESSLOST, USE_SPOOLDEV, USE_WILDCARD, _win32_use_info_2_str, lmuse/LPUSE_INFO_2, lmuse/PUSE_INFO_2, lmuse/USE_INFO_2, netmgmt.use_info_2_str'
 ms.topic: struct
-f1_keywords: 
- - "lmuse/USE_INFO_2"
+f1_keywords:
+- lmuse/USE_INFO_2
 dev_langs:
- - c++
+- c++
 req.header: lmuse.h
 req.include-header: Lm.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Lmuse.h
+- Lmuse.h
 api_name:
- - USE_INFO_2
+- USE_INFO_2
 targetos: Windows
 req.typenames: USE_INFO_2, *PUSE_INFO_2, *LPUSE_INFO_2
 req.redist: 

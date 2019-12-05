@@ -1,19 +1,17 @@
 ---
 UID: NF:wcndevice.IWCNDevice.SetNetworkProfile
 title: IWCNDevice::SetNetworkProfile (wcndevice.h)
-
 description: The IWCNDevice::SetNetworkProfile method queues an XML WLAN profile to be provisioned to the device. This method may only be called prior to IWCNDevice::Connect.
 old-location: wcn\iwcndevice_setnetworkprofile.htm
 tech.root: wcn
 ms.assetid: 267aa55a-005d-4db8-9569-f8ee77a15168
-
 ms.date: 12/05/2018
 ms.keywords: IWCNDevice interface [Windows Connect Now],SetNetworkProfile method, IWCNDevice.SetNetworkProfile, IWCNDevice::SetNetworkProfile, SetNetworkProfile, SetNetworkProfile method [Windows Connect Now], SetNetworkProfile method [Windows Connect Now],IWCNDevice interface, wcn.iwcndevice_setnetworkprofile, wcndevice/IWCNDevice::SetNetworkProfile
 ms.topic: method
-f1_keywords: 
- - "wcndevice/IWCNDevice.SetNetworkProfile"
+f1_keywords:
+- wcndevice/IWCNDevice.SetNetworkProfile
 dev_langs:
- - c++
+- c++
 req.header: wcndevice.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - WcnDevice.h
+- WcnDevice.h
 api_name:
- - IWCNDevice.SetNetworkProfile
+- IWCNDevice.SetNetworkProfile
 targetos: Windows
 req.typenames: 
 req.redist: 

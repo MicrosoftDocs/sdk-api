@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationclient.IUIAutomation.RemovePropertyChangedEventHandler
 title: IUIAutomation::RemovePropertyChangedEventHandler (uiautomationclient.h)
-
 description: Removes a property-changed event handler.
 old-location: winauto\uiauto_IUIAutomation_RemovePropertyChangedEventHandler.htm
 tech.root: WinAuto
 ms.assetid: d8f7600f-a33e-4f30-ae8e-423f9c71edbe
-
 ms.date: 12/05/2018
 ms.keywords: IUIAutomation interface [Windows Accessibility],RemovePropertyChangedEventHandler method, IUIAutomation.RemovePropertyChangedEventHandler, IUIAutomation::RemovePropertyChangedEventHandler, RemovePropertyChangedEventHandler, RemovePropertyChangedEventHandler method [Windows Accessibility], RemovePropertyChangedEventHandler method [Windows Accessibility],IUIAutomation interface, uiauto.uiauto_IUIAutomation_RemovePropertyChangedEventHandler, uiauto_IUIAutomation_RemovePropertyChangedEventHandler, uiautomationclient/IUIAutomation::RemovePropertyChangedEventHandler, winauto.uiauto_IUIAutomation_RemovePropertyChangedEventHandler
 ms.topic: method
-f1_keywords: 
- - "uiautomationclient/IUIAutomation.RemovePropertyChangedEventHandler"
+f1_keywords:
+- uiautomationclient/IUIAutomation.RemovePropertyChangedEventHandler
 dev_langs:
- - c++
+- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationClient.h
+- UIAutomationClient.h
 api_name:
- - IUIAutomation.RemovePropertyChangedEventHandler
+- IUIAutomation.RemovePropertyChangedEventHandler
 targetos: Windows
 req.typenames: 
 req.redist: 

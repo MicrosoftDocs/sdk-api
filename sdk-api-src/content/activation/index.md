@@ -1,7 +1,6 @@
 ---
 UID: NA:activation
 ms.assetid: b64de635-e3fc-3b35-87da-ea438611dc4b
-
 ms.date: 01/11/2019
 ms.keywords: 
 ms.topic: portal

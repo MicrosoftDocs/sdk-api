@@ -1,19 +1,17 @@
 ---
 UID: NF:setupapi.SetupDiLoadClassIcon
 title: SetupDiLoadClassIcon function (setupapi.h)
-
 description: The SetupDiLoadClassIcon function loads both the large and mini-icon for the specified class.
 old-location: devinst\setupdiloadclassicon.htm
 tech.root: devinst
 ms.assetid: f239e207-fb51-4641-a64c-7d8ffa767e18
-
 ms.date: 12/05/2018
 ms.keywords: SetupDiLoadClassIcon, SetupDiLoadClassIcon function [Device and Driver Installation], devinst.setupdiloadclassicon, di-rtns_968c659d-6f45-4416-beb9-8fa25c4c060e.xml, setupapi/SetupDiLoadClassIcon
 ms.topic: function
-f1_keywords: 
- - "setupapi/SetupDiLoadClassIcon"
+f1_keywords:
+- setupapi/SetupDiLoadClassIcon
 dev_langs:
- - c++
+- c++
 req.header: setupapi.h
 req.include-header: Setupapi.h
 req.target-type: Desktop
@@ -32,14 +30,14 @@ req.lib: Setupapi.lib
 req.dll: Setupapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Setupapi.dll
+- Setupapi.dll
 api_name:
- - SetupDiLoadClassIcon
+- SetupDiLoadClassIcon
 targetos: Windows
 req.typenames: 
 req.redist: 

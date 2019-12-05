@@ -1,19 +1,17 @@
 ---
 UID: NF:mbnapi.IMbnDeviceService.get_IsCommandSessionOpen
 title: IMbnDeviceService::get_IsCommandSessionOpen (mbnapi.h)
-
 description: Reports if the device service command session is open.
 old-location: mbn\imbndeviceservice_iscommandsessionopen.htm
 tech.root: mbn
 ms.assetid: 7A986AD8-9DC3-4543-8FB9-5F633DEC95C7
-
 ms.date: 12/05/2018
 ms.keywords: IMbnDeviceService interface [Microsoft Broadband Networks],IsCommandSessionOpen property, IMbnDeviceService.IsCommandSessionOpen, IMbnDeviceService.get_IsCommandSessionOpen, IMbnDeviceService::IsCommandSessionOpen, IMbnDeviceService::get_IsCommandSessionOpen, IsCommandSessionOpen property [Microsoft Broadband Networks], IsCommandSessionOpen property [Microsoft Broadband Networks],IMbnDeviceService interface, get_IsCommandSessionOpen, mbn.imbndeviceservice_iscommandsessionopen, mbnapi/IMbnDeviceService::IsCommandSessionOpen, mbnapi/IMbnDeviceService::get_IsCommandSessionOpen
 ms.topic: method
-f1_keywords: 
- - "mbnapi/IMbnDeviceService.IsCommandSessionOpen"
+f1_keywords:
+- mbnapi/IMbnDeviceService.IsCommandSessionOpen
 dev_langs:
- - c++
+- c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mbnapi.h
+- mbnapi.h
 api_name:
- - IMbnDeviceService.IsCommandSessionOpen
- - IMbnDeviceService.get_IsCommandSessionOpen
+- IMbnDeviceService.IsCommandSessionOpen
+- IMbnDeviceService.get_IsCommandSessionOpen
 targetos: Windows
 req.typenames: 
 req.redist: 

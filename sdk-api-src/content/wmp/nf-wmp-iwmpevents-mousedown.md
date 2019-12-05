@@ -1,19 +1,17 @@
 ---
 UID: NF:wmp.IWMPEvents.MouseDown
 title: IWMPEvents::MouseDown (wmp.h)
-
 description: The MouseDown event occurs when a mouse button is pressed.
 old-location: wmp\iwmpevents_iwmpevents__mousedown.htm
 tech.root: WMP
 ms.assetid: 4fbf1fdf-3d15-4d43-b319-5c83712e7f2f
-
 ms.date: 12/05/2018
 ms.keywords: IWMPEvents interface [Windows Media Player],MouseDown method, IWMPEvents.MouseDown, IWMPEvents::MouseDown, IWMPEventsMouseDown, MouseDown, MouseDown method [Windows Media Player], MouseDown method [Windows Media Player],IWMPEvents interface, wmp.iwmpevents_iwmpevents__mousedown, wmp/IWMPEvents::MouseDown
 ms.topic: method
-f1_keywords: 
- - "wmp/IWMPEvents.MouseDown"
+f1_keywords:
+- wmp/IWMPEvents.MouseDown
 dev_langs:
- - c++
+- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wmp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmp.dll
+- wmp.dll
 api_name:
- - IWMPEvents.MouseDown
+- IWMPEvents.MouseDown
 targetos: Windows
 req.typenames: 
 req.redist: 

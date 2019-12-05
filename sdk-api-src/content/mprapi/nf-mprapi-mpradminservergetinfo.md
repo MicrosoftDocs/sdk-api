@@ -1,19 +1,17 @@
 ---
 UID: NF:mprapi.MprAdminServerGetInfo
 title: MprAdminServerGetInfo function (mprapi.h)
-
 description: The MprAdminServerGetInfo function retrieves information about the specified RRAS server.
 old-location: rras\mpradminservergetinfo.htm
 tech.root: RRAS
 ms.assetid: d15dfb60-1239-4552-985f-d3c98f2981f4
-
 ms.date: 12/05/2018
 ms.keywords: MprAdminServerGetInfo, MprAdminServerGetInfo function [RAS], _mpr_mpradminservergetinfo, mprapi/MprAdminServerGetInfo, rras.mpradminservergetinfo
 ms.topic: function
 f1_keywords:
 - mprapi/MprAdminServerGetInfo
 dev_langs:
- - c++
+- c++
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows

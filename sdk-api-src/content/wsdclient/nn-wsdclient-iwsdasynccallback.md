@@ -1,19 +1,17 @@
 ---
 UID: NN:wsdclient.IWSDAsyncCallback
 title: IWSDAsyncCallback (wsdclient.h)
-
 description: Handles callbacks for the completion of an asynchronous operation.
 old-location: ncd\iwsdasynccallback.htm
 tech.root: WsdApi
 ms.assetid: 24108143-55b7-4098-a4cc-025dfdfd054a
-
 ms.date: 12/05/2018
 ms.keywords: IWSDAsyncCallback, IWSDAsyncCallback interface, IWSDAsyncCallback interface,described, ncd.iwsdasynccallback, wsdclient/IWSDAsyncCallback
 ms.topic: interface
-f1_keywords: 
- - "wsdclient/IWSDAsyncCallback"
+f1_keywords:
+- wsdclient/IWSDAsyncCallback
 dev_langs:
- - c++
+- c++
 req.header: wsdclient.h
 req.include-header: Wsdapi.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wsdapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wsdapi.dll
+- Wsdapi.dll
 api_name:
- - IWSDAsyncCallback
+- IWSDAsyncCallback
 targetos: Windows
 req.typenames: 
 req.redist: 

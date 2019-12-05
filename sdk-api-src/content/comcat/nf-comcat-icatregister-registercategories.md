@@ -1,19 +1,17 @@
 ---
 UID: NF:comcat.ICatRegister.RegisterCategories
 title: ICatRegister::RegisterCategories (comcat.h)
-
 description: Registers one or more component categories. Each component category consists of a CATID and a list of locale-dependent description strings.
 old-location: com\icatregister_registercategories.htm
 tech.root: com
 ms.assetid: c84a4b00-c43d-488a-b406-3bac2d25dcb8
-
 ms.date: 12/05/2018
 ms.keywords: ICatRegister interface [COM],RegisterCategories method, ICatRegister.RegisterCategories, ICatRegister::RegisterCategories, RegisterCategories, RegisterCategories method [COM], RegisterCategories method [COM],ICatRegister interface, _com_icatregister_registercategories, com.icatregister_registercategories, comcat/ICatRegister::RegisterCategories
 ms.topic: method
-f1_keywords: 
- - "comcat/ICatRegister.RegisterCategories"
+f1_keywords:
+- comcat/ICatRegister.RegisterCategories
 dev_langs:
- - c++
+- c++
 req.header: comcat.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComCat.h
+- ComCat.h
 api_name:
- - ICatRegister.RegisterCategories
+- ICatRegister.RegisterCategories
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:handleapi.CloseHandle
 title: CloseHandle function (handleapi.h)
-
 description: Closes an open object handle.
 old-location: base\closehandle.htm
 tech.root: SysInfo
 ms.assetid: 9b84891d-62ca-4ddc-97b7-c4c79482abd9
-
 ms.date: 12/05/2018
 ms.keywords: CloseHandle, CloseHandle function, _win32_closehandle, base.closehandle, handleapi/CloseHandle
 ms.topic: function
-f1_keywords: 
- - "handleapi/CloseHandle"
+f1_keywords:
+- handleapi/CloseHandle
 dev_langs:
-    - c++
+- c++
 req.header: handleapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-handle-l1-1-0.dll
- - KernelBase.dll
- - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
- - MinKernelBase.dll
+- Kernel32.dll
+- API-MS-Win-Core-handle-l1-1-0.dll
+- KernelBase.dll
+- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+- MinKernelBase.dll
 api_name:
- - CloseHandle
+- CloseHandle
 targetos: Windows
 req.typenames: 
 req.redist: 

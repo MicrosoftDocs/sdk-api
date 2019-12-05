@@ -1,19 +1,17 @@
 ---
 UID: NF:intsafe.UIntPtrToInt
 title: UIntPtrToInt function (intsafe.h)
-
 description: Converts a value of type SIZE_T to a value of type INT.
 old-location: shell\SIZETToInt_1.htm
 tech.root: shell
 ms.assetid: 00a1229b-28cf-4d8e-a59a-0c91872b2e06
-
 ms.date: 12/05/2018
 ms.keywords: SIZETToInt, SIZETToInt function [Windows Shell], UIntPtrToInt, _shell_SIZETToInt, intsafe/SIZETToInt, shell.SIZETToInt, shell.SIZETToInt_1
 ms.topic: function
-f1_keywords: 
- - "intsafe/SIZETToInt"
+f1_keywords:
+- intsafe/SIZETToInt
 dev_langs:
- - c++
+- c++
 req.header: intsafe.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Intsafe.h
+- Intsafe.h
 api_name:
- - SIZETToInt
+- SIZETToInt
 targetos: Windows
 req.typenames: 
 req.redist: 

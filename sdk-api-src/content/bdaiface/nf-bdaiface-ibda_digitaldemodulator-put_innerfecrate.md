@@ -1,19 +1,17 @@
 ---
 UID: NF:bdaiface.IBDA_DigitalDemodulator.put_InnerFECRate
 title: IBDA_DigitalDemodulator::put_InnerFECRate (bdaiface.h)
-
 description: The put_InnerFECRate method specifies the inner forward error correction rate.
 old-location: mstv\ibda_digitaldemodulator_put_innerfecrate.htm
 tech.root: mstv
 ms.assetid: e87dbce2-6970-45f6-b08c-bddebeb4d1ca
-
 ms.date: 12/05/2018
 ms.keywords: IBDA_DigitalDemodulator interface [Microsoft TV Technologies],put_InnerFECRate method, IBDA_DigitalDemodulator.put_InnerFECRate, IBDA_DigitalDemodulator::put_InnerFECRate, IBDA_DigitalDemodulatorput_InnerFECRate, bdaiface/IBDA_DigitalDemodulator::put_InnerFECRate, mstv.ibda_digitaldemodulator_put_innerfecrate, put_InnerFECRate, put_InnerFECRate method [Microsoft TV Technologies], put_InnerFECRate method [Microsoft TV Technologies],IBDA_DigitalDemodulator interface
 ms.topic: method
-f1_keywords: 
- - "bdaiface/IBDA_DigitalDemodulator.put_InnerFECRate"
+f1_keywords:
+- bdaiface/IBDA_DigitalDemodulator.put_InnerFECRate
 dev_langs:
- - c++
+- c++
 req.header: bdaiface.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - bdaiface.h
+- bdaiface.h
 api_name:
- - IBDA_DigitalDemodulator.put_InnerFECRate
+- IBDA_DigitalDemodulator.put_InnerFECRate
 targetos: Windows
 req.typenames: 
 req.redist: 

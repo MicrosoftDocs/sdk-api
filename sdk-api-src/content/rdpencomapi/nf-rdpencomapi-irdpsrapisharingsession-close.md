@@ -1,19 +1,17 @@
 ---
 UID: NF:rdpencomapi.IRDPSRAPISharingSession.Close
 title: IRDPSRAPISharingSession::Close (rdpencomapi.h)
-
 description: Disconnects all attendees from the session and stops listening to incoming connections.
 old-location: rdp\irdpsrapisharingsession_close.htm
 tech.root: rdp
 ms.assetid: ab6e27d8-b6f2-42a6-a0f6-cfdfb5ec9a13
-
 ms.date: 12/05/2018
 ms.keywords: Close, Close method [RDP], Close method [RDP],IRDPSRAPISharingSession interface, Close method [RDP],IRDPSRAPISharingSession2 interface, IRDPSRAPISharingSession interface [RDP],Close method, IRDPSRAPISharingSession.Close, IRDPSRAPISharingSession2 interface [RDP],Close method, IRDPSRAPISharingSession2::Close, IRDPSRAPISharingSession::Close, rdp.irdpsrapisharingsession_close, rdpencomapi/IRDPSRAPISharingSession2::Close, rdpencomapi/IRDPSRAPISharingSession::Close
 ms.topic: method
-f1_keywords: 
- - "rdpencomapi/IRDPSRAPISharingSession2.Close"
+f1_keywords:
+- rdpencomapi/IRDPSRAPISharingSession2.Close
 dev_langs:
- - c++
+- c++
 req.header: rdpencomapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: RdpEncom.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - RdpEncom.dll
+- RdpEncom.dll
 api_name:
- - IRDPSRAPISharingSession2.Close
- - IRDPSRAPISharingSession.Close
+- IRDPSRAPISharingSession2.Close
+- IRDPSRAPISharingSession.Close
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:vfw.AVIFileReadData
 title: AVIFileReadData function (vfw.h)
-
 description: The AVIFileReadData function reads optional header data that applies to the entire file, such as author or copyright information.
 old-location: multimedia\avifilereaddata.htm
 tech.root: Multimedia
 ms.assetid: 9eef2ef4-316e-43e8-8011-14f1c0b46d50
-
 ms.date: 12/05/2018
 ms.keywords: AVIFileReadData, AVIFileReadData function [Windows Multimedia], _win32_AVIFileReadData, multimedia.avifilereaddata, vfw/AVIFileReadData
 ms.topic: function
-f1_keywords: 
- - "vfw/AVIFileReadData"
+f1_keywords:
+- vfw/AVIFileReadData
 dev_langs:
- - c++
+- c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Vfw32.lib
 req.dll: Avifil32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Avifil32.dll
+- Avifil32.dll
 api_name:
- - AVIFileReadData
+- AVIFileReadData
 targetos: Windows
 req.typenames: 
 req.redist: 

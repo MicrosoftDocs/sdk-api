@@ -1,19 +1,17 @@
 ---
 UID: NF:mpeg2psiparser.IPAT.GetNextTable
 title: IPAT::GetNextTable (mpeg2psiparser.h)
-
 description: The GetNextTable method retrieves the next table that follows the current table.
 old-location: mstv\ipat_getnexttable.htm
 tech.root: mstv
 ms.assetid: 24cc3c97-60f6-440d-80fd-da7516698a2e
-
 ms.date: 12/05/2018
 ms.keywords: GetNextTable, GetNextTable method [Microsoft TV Technologies], GetNextTable method [Microsoft TV Technologies],IPAT interface, IPAT interface [Microsoft TV Technologies],GetNextTable method, IPAT.GetNextTable, IPAT::GetNextTable, IPATGetNextTable, mpeg2psiparser/IPAT::GetNextTable, mstv.ipat_getnexttable
 ms.topic: method
-f1_keywords: 
- - "mpeg2psiparser/IPAT.GetNextTable"
+f1_keywords:
+- mpeg2psiparser/IPAT.GetNextTable
 dev_langs:
- - c++
+- c++
 req.header: mpeg2psiparser.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mpeg2PsiParser.h
+- Mpeg2PsiParser.h
 api_name:
- - IPAT.GetNextTable
+- IPAT.GetNextTable
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:snmp.SnmpUtilVarBindListFree
 title: SnmpUtilVarBindListFree function (snmp.h)
-
 description: The SnmpUtilVarBindListFree function frees the memory allocated for an SnmpVarBindList structure. This function is an element of the SNMP Utility API.
 old-location: snmp\snmputilvarbindlistfree.htm
 tech.root: SNMP
 ms.assetid: 79143aaa-26e1-4142-9c67-508d70034de2
-
 ms.date: 12/05/2018
 ms.keywords: SnmpUtilVarBindListFree, SnmpUtilVarBindListFree function [SNMP], _snmp_snmputilvarbindlistfree, snmp.snmputilvarbindlistfree, snmp/SnmpUtilVarBindListFree
 ms.topic: function
-f1_keywords: 
- - "snmp/SnmpUtilVarBindListFree"
+f1_keywords:
+- snmp/SnmpUtilVarBindListFree
 dev_langs:
- - c++
+- c++
 req.header: snmp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Snmpapi.lib
 req.dll: Snmpapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Snmpapi.dll
+- Snmpapi.dll
 api_name:
- - SnmpUtilVarBindListFree
+- SnmpUtilVarBindListFree
 targetos: Windows
 req.typenames: 
 req.redist: 

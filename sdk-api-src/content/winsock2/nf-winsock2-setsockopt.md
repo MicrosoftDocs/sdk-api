@@ -1,19 +1,17 @@
 ---
 UID: NF:winsock2.setsockopt
 title: setsockopt function (winsock2.h)
-
 description: Sets a socket option.
 old-location: winsock\setsockopt_2.htm
 tech.root: WinSock
 ms.assetid: 3a6960c9-0c04-4403-aee1-ce250459dc30
-
 ms.date: 12/05/2018
-ms.keywords: "_win32_setsockopt_2, setsockopt, setsockopt function [Winsock], winsock.setsockopt_2, winsock/setsockopt"
+ms.keywords: _win32_setsockopt_2, setsockopt, setsockopt function [Winsock], winsock.setsockopt_2, winsock/setsockopt
 ms.topic: function
-f1_keywords: 
- - "winsock2/setsockopt"
+f1_keywords:
+- winsock2/setsockopt
 dev_langs:
- - c++
+- c++
 req.header: winsock2.h
 req.include-header: Winsock2.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Ws2_32.lib
 req.dll: Ws2_32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ws2_32.dll
- - wsock32.dll
+- Ws2_32.dll
+- wsock32.dll
 api_name:
- - setsockopt
+- setsockopt
 targetos: Windows
 req.typenames: 
 req.redist: 

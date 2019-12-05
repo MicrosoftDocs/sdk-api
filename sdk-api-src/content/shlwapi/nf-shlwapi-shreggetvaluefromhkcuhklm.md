@@ -1,19 +1,17 @@
 ---
 UID: NF:shlwapi.SHRegGetValueFromHKCUHKLM
 title: SHRegGetValueFromHKCUHKLM function (shlwapi.h)
-
 description: Obtains specified information from the registry.
 old-location: shell\SHRegGetValueFromHKCUHKLM.htm
 tech.root: shell
 ms.assetid: 5c4b13f4-0dd8-476e-9e89-ace23d541389
-
 ms.date: 12/05/2018
 ms.keywords: SHRegGetValueFromHKCUHKLM, SHRegGetValueFromHKCUHKLM function [Windows Shell], _shell_SHRegGetValueFromHKCUHKLM, shell.SHRegGetValueFromHKCUHKLM, shlwapi/SHRegGetValueFromHKCUHKLM
 ms.topic: function
-f1_keywords: 
- - "shlwapi/SHRegGetValueFromHKCUHKLM"
+f1_keywords:
+- shlwapi/SHRegGetValueFromHKCUHKLM
 dev_langs:
- - c++
+- c++
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib:
 req.dll: Shlwapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Shlwapi.dll
- - API-MS-Win-shlwapi-IE-l1-1-0.dll
- - API-MS-Win-ShCore-Registry-l1-1-1.dll
- - ShCore.dll
+- Shlwapi.dll
+- API-MS-Win-shlwapi-IE-l1-1-0.dll
+- API-MS-Win-ShCore-Registry-l1-1-1.dll
+- ShCore.dll
 api_name:
- - SHRegGetValueFromHKCUHKLM
+- SHRegGetValueFromHKCUHKLM
 targetos: Windows
 req.typenames: 
 req.redist: 

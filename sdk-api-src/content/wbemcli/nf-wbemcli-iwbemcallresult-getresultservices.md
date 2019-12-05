@@ -1,19 +1,17 @@
 ---
 UID: NF:wbemcli.IWbemCallResult.GetResultServices
 title: IWbemCallResult::GetResultServices (wbemcli.h)
-
 description: Retrieves the IWbemServices pointer, which results from a semisynchronous call to IWbemServices::OpenNamespace when it becomes available.
 old-location: wmi\iwbemcallresult_getresultservices.htm
 tech.root: WmiSdk
 ms.assetid: 64a4fc4c-f479-4b03-847c-041508e55532
-
 ms.date: 12/05/2018
 ms.keywords: GetResultServices, GetResultServices method [Windows Management Instrumentation], GetResultServices method [Windows Management Instrumentation],IWbemCallResult interface, IWbemCallResult interface [Windows Management Instrumentation],GetResultServices method, IWbemCallResult.GetResultServices, IWbemCallResult::GetResultServices, _hmm_iwbemcallresult_getresultservices, wbemcli/IWbemCallResult::GetResultServices, wmi.iwbemcallresult_getresultservices
 ms.topic: method
-f1_keywords: 
- - "wbemcli/IWbemCallResult.GetResultServices"
+f1_keywords:
+- wbemcli/IWbemCallResult.GetResultServices
 dev_langs:
- - c++
+- c++
 req.header: wbemcli.h
 req.include-header: Wbemidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wbemcli.h
+- Wbemcli.h
 api_name:
- - IWbemCallResult.GetResultServices
+- IWbemCallResult.GetResultServices
 targetos: Windows
 req.typenames: 
 req.redist: 

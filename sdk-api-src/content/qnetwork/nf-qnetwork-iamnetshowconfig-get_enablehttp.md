@@ -1,19 +1,17 @@
 ---
 UID: NF:qnetwork.IAMNetShowConfig.get_EnableHTTP
 title: IAMNetShowConfig::get_EnableHTTP (qnetwork.h)
-
 description: The get_EnableHTTP method queries whether HTTP-type streaming is enabled.
 old-location: dshow\iamnetshowconfig_get_enablehttp.htm
 tech.root: DirectShow
 ms.assetid: 29495a89-644f-4c55-a740-efb0cbf6d581
-
 ms.date: 12/05/2018
 ms.keywords: IAMNetShowConfig interface [DirectShow],get_EnableHTTP method, IAMNetShowConfig.get_EnableHTTP, IAMNetShowConfig::get_EnableHTTP, IAMNetShowConfigget_EnableHTTP, dshow.iamnetshowconfig_get_enablehttp, get_EnableHTTP, get_EnableHTTP method [DirectShow], get_EnableHTTP method [DirectShow],IAMNetShowConfig interface, qnetwork/IAMNetShowConfig::get_EnableHTTP
 ms.topic: method
-f1_keywords: 
- - "qnetwork/IAMNetShowConfig.get_EnableHTTP"
+f1_keywords:
+- qnetwork/IAMNetShowConfig.get_EnableHTTP
 dev_langs:
- - c++
+- c++
 req.header: qnetwork.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Qnetwork.h
+- Qnetwork.h
 api_name:
- - IAMNetShowConfig.get_EnableHTTP
+- IAMNetShowConfig.get_EnableHTTP
 targetos: Windows
 req.typenames: 
 req.redist: 

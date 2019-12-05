@@ -1,19 +1,17 @@
 ---
 UID: NF:objidl.IAdviseSink.OnSave
 title: IAdviseSink::OnSave (objidl.h)
-
 description: Called by the server to notify all registered advisory sinks that the object has been saved.
 old-location: com\iadvisesink_onsave.htm
 tech.root: com
 ms.assetid: 26da5e16-5790-49c0-ba63-5feee49cd4c6
-
 ms.date: 12/05/2018
 ms.keywords: IAdviseSink interface [COM],OnSave method, IAdviseSink.OnSave, IAdviseSink::OnSave, OnSave, OnSave method [COM], OnSave method [COM],IAdviseSink interface, _ole_iadvisesink_onsave, com.iadvisesink_onsave, objidl/IAdviseSink::OnSave
 ms.topic: method
-f1_keywords: 
- - "objidl/IAdviseSink.OnSave"
+f1_keywords:
+- objidl/IAdviseSink.OnSave
 dev_langs:
- - c++
+- c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ObjIdl.h
+- ObjIdl.h
 api_name:
- - IAdviseSink.OnSave
+- IAdviseSink.OnSave
 targetos: Windows
 req.typenames: 
 req.redist: 

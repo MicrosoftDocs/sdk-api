@@ -1,19 +1,17 @@
 ---
 UID: NE:mfidl._MF_VIDEO_PROCESSOR_ROTATION
 title: MF_VIDEO_PROCESSOR_ROTATION (mfidl.h)
-
 description: Specifies how to rotate a video image.
 old-location: mf\mf_video_processor_rotation.htm
 tech.root: medfound
 ms.assetid: B5B75A2A-6620-4E5B-8074-3A9E2FFB40F8
-
 ms.date: 12/05/2018
 ms.keywords: MF_VIDEO_PROCESSOR_ROTATION, MF_VIDEO_PROCESSOR_ROTATION enumeration [Media Foundation], ROTATION_NONE, ROTATION_NORMAL, mf.mf_video_processor_rotation, mfidl/MF_VIDEO_PROCESSOR_ROTATION, mfidl/ROTATION_NONE, mfidl/ROTATION_NORMAL
 ms.topic: enum
-f1_keywords: 
- - "mfidl/MF_VIDEO_PROCESSOR_ROTATION"
+f1_keywords:
+- mfidl/MF_VIDEO_PROCESSOR_ROTATION
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - mfidl.h
+- mfidl.h
 api_name:
- - MF_VIDEO_PROCESSOR_ROTATION
+- MF_VIDEO_PROCESSOR_ROTATION
 targetos: Windows
 req.typenames: MF_VIDEO_PROCESSOR_ROTATION
 req.redist: 

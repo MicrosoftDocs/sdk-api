@@ -1,19 +1,17 @@
 ---
 UID: NF:atscpsipparser.IATSC_VCT.GetRecordTransportStreamId
 title: IATSC_VCT::GetRecordTransportStreamId (atscpsipparser.h)
-
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\iatsc_vct_getrecordtransportstreamid.htm
 tech.root: mstv
 ms.assetid: f0ecd931-d789-41cd-8056-675e6162a5f1
-
 ms.date: 12/05/2018
 ms.keywords: GetRecordTransportStreamId, GetRecordTransportStreamId method [Microsoft TV Technologies], GetRecordTransportStreamId method [Microsoft TV Technologies],IATSC_VCT interface, IATSC_VCT interface [Microsoft TV Technologies],GetRecordTransportStreamId method, IATSC_VCT.GetRecordTransportStreamId, IATSC_VCT::GetRecordTransportStreamId, IATSC_VCTGetRecordTransportStreamId, atscpsipparser/IATSC_VCT::GetRecordTransportStreamId, mstv.iatsc_vct_getrecordtransportstreamid
 ms.topic: method
-f1_keywords: 
- - "atscpsipparser/IATSC_VCT.GetRecordTransportStreamId"
+f1_keywords:
+- atscpsipparser/IATSC_VCT.GetRecordTransportStreamId
 dev_langs:
- - c++
+- c++
 req.header: atscpsipparser.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - atscpsipparser.h
+- atscpsipparser.h
 api_name:
- - IATSC_VCT.GetRecordTransportStreamId
+- IATSC_VCT.GetRecordTransportStreamId
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:cfapi.CfExecute
 title: CfExecute function (cfapi.h)
-
 description: The main entry point for all connection key based placeholder operations. It is intended to be used by a sync provider to respond to various callbacks from the platform.
 old-location: cloudapi\cfexecute.htm
 tech.root: cfApi
 ms.assetid: 6AC8958D-B060-4468-9811-9BAB0E6A06D3
-
 ms.date: 12/05/2018
 ms.keywords: CfExecute, CfExecute function, cfapi/CfExecute, cloudApi.cfexecute
 ms.topic: function
-f1_keywords: 
- - "cfapi/CfExecute"
+f1_keywords:
+- cfapi/CfExecute
 dev_langs:
- - c++
+- c++
 req.header: cfapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: CldApi.lib
 req.dll: CldApi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - CldApi.dll
+- CldApi.dll
 api_name:
- - CfExecute
+- CfExecute
 targetos: Windows
 req.typenames: 
 req.redist: 

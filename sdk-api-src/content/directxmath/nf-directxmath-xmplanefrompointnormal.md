@@ -1,19 +1,17 @@
 ---
 UID: NF:directxmath.XMPlaneFromPointNormal
 title: XMPlaneFromPointNormal function (directxmath.h)
-
 description: Computes the equation of a plane constructed from a point in the plane and a normal vector.
 old-location: dxmath\xmplanefrompointnormal.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.plane.XMPlaneFromPointNormal(XMVECTOR,XMVECTOR)
-
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMPlaneFromPointNormal, XMPlaneFromPointNormal, XMPlaneFromPointNormal method [DirectX Math Support APIs], dxmath.xmplanefrompointnormal
 ms.topic: function
-f1_keywords: 
- - "directxmath/XMPlaneFromPointNormal"
+f1_keywords:
+- directxmath/XMPlaneFromPointNormal
 dev_langs:
- - c++
+- c++
 req.header: directxmath.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - DirectXMath.h
+- DirectXMath.h
 api_name:
- - XMPlaneFromPointNormal
+- XMPlaneFromPointNormal
 targetos: Windows
 req.typenames: 
 req.redist: 

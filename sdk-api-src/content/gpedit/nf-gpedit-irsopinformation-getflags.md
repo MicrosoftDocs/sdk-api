@@ -1,19 +1,17 @@
 ---
 UID: NF:gpedit.IRSOPInformation.GetFlags
 title: IRSOPInformation::GetFlags (gpedit.h)
-
 description: The GetFlags method retrieves information about the RSoP user interface session.
 old-location: policy\irsopinformation_getflags.htm
 tech.root: Policy
 ms.assetid: 10a518a3-9097-4efd-90cc-14ea66b70fa2
-
 ms.date: 12/05/2018
 ms.keywords: GetFlags, GetFlags method [Group Policy], GetFlags method [Group Policy],IRSOPInformation interface, IRSOPInformation interface [Group Policy],GetFlags method, IRSOPInformation.GetFlags, IRSOPInformation::GetFlags, RSOP_INFO_FLAG_LOGGING_MODE, _win32_irsopinformation_getflags, gpedit/IRSOPInformation::GetFlags, policy.irsopinformation_getflags
 ms.topic: method
-f1_keywords: 
- - "gpedit/IRSOPInformation.GetFlags"
+f1_keywords:
+- gpedit/IRSOPInformation.GetFlags
 dev_langs:
- - c++
+- c++
 req.header: gpedit.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Gpedit.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gpedit.dll
+- Gpedit.dll
 api_name:
- - IRSOPInformation.GetFlags
+- IRSOPInformation.GetFlags
 targetos: Windows
 req.typenames: 
 req.redist: 

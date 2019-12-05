@@ -1,19 +1,17 @@
 ---
 UID: NF:wcmconfig.ISettingsEngine.SetTargetInfo
 title: ISettingsEngine::SetTargetInfo (wcmconfig.h)
-
 description: Sets the current offline target for the engine.
 old-location: smi\isettingsengine_settargetinfo.htm
 tech.root: SMI
 ms.assetid: a33a0155-0533-4450-9e03-2688ad776a1a
-
 ms.date: 12/05/2018
 ms.keywords: ISettingsEngine interface [SMI],SetTargetInfo method, ISettingsEngine.SetTargetInfo, ISettingsEngine::SetTargetInfo, SetTargetInfo, SetTargetInfo method [SMI], SetTargetInfo method [SMI],ISettingsEngine interface, smi.isettingsengine_settargetinfo, wcmconfig/ISettingsEngine::SetTargetInfo
 ms.topic: method
-f1_keywords: 
- - "wcmconfig/ISettingsEngine.SetTargetInfo"
+f1_keywords:
+- wcmconfig/ISettingsEngine.SetTargetInfo
 dev_langs:
- - c++
+- c++
 req.header: wcmconfig.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: SMIEngine.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - SMIEngine.dll
+- SMIEngine.dll
 api_name:
- - ISettingsEngine.SetTargetInfo
+- ISettingsEngine.SetTargetInfo
 targetos: Windows
 req.typenames: 
 req.redist: 

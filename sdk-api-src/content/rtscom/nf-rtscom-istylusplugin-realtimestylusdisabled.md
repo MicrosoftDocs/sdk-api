@@ -1,19 +1,17 @@
 ---
 UID: NF:rtscom.IStylusPlugin.RealTimeStylusDisabled
 title: IStylusPlugin::RealTimeStylusDisabled (rtscom.h)
-
 description: Notifies the implementing plug-in that the RealTimeStylus Class (RTS) object is disabled.
 old-location: tablet\istylusplugin_realtimestylusdisabled.htm
 tech.root: tablet
 ms.assetid: 62425c21-62fb-4a29-b024-8d5dc237b430
-
 ms.date: 12/05/2018
 ms.keywords: 62425c21-62fb-4a29-b024-8d5dc237b430, IStylusPlugin interface [Tablet PC],RealTimeStylusDisabled method, IStylusPlugin.RealTimeStylusDisabled, IStylusPlugin::RealTimeStylusDisabled, RealTimeStylusDisabled, RealTimeStylusDisabled method [Tablet PC], RealTimeStylusDisabled method [Tablet PC],IStylusPlugin interface, rtscom/IStylusPlugin::RealTimeStylusDisabled, tablet.istylusplugin_realtimestylusdisabled
 ms.topic: method
-f1_keywords: 
- - "rtscom/IStylusPlugin.RealTimeStylusDisabled"
+f1_keywords:
+- rtscom/IStylusPlugin.RealTimeStylusDisabled
 dev_langs:
- - c++
+- c++
 req.header: rtscom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: RTSCom.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - RTSCom.dll
+- RTSCom.dll
 api_name:
- - IStylusPlugin.RealTimeStylusDisabled
+- IStylusPlugin.RealTimeStylusDisabled
 targetos: Windows
 req.typenames: 
 req.redist: 

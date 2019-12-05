@@ -1,19 +1,17 @@
 ---
 UID: NF:winbio.WinBioReleaseFocus
 title: WinBioReleaseFocus function (winbio.h)
-
 description: Releases window focus.
 old-location: secbiomet\winbioreleasefocus.htm
 tech.root: SecBioMet
 ms.assetid: 260f24e9-4527-4bec-b18a-64781060714b
-
 ms.date: 12/05/2018
 ms.keywords: WinBioReleaseFocus, WinBioReleaseFocus function [Windows Biometric Framework API], secbiomet.winbioreleasefocus, winbio/WinBioReleaseFocus
 ms.topic: function
-f1_keywords: 
- - "winbio/WinBioReleaseFocus"
+f1_keywords:
+- winbio/WinBioReleaseFocus
 dev_langs:
- - c++
+- c++
 req.header: winbio.h
 req.include-header: Winbio.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Winbio.lib
 req.dll: Winbio.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Winbio.dll
- - WinBioExt.dll
- - Ext-MS-Win-BioMetrics-WinBio-l1-2-0.dll
- - Ext-MS-Win-BioMetrics-WinBio-L1-3-0.dll
+- Winbio.dll
+- WinBioExt.dll
+- Ext-MS-Win-BioMetrics-WinBio-l1-2-0.dll
+- Ext-MS-Win-BioMetrics-WinBio-L1-3-0.dll
 api_name:
- - WinBioReleaseFocus
+- WinBioReleaseFocus
 targetos: Windows
 req.typenames: 
 req.redist: 

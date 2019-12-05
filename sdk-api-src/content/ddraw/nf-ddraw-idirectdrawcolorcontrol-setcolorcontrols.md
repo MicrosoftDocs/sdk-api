@@ -1,19 +1,17 @@
 ---
 UID: NF:ddraw.IDirectDrawColorControl.SetColorControls
 title: IDirectDrawColorControl::SetColorControls (ddraw.h)
-
 description: Sets the color-control options for an overlay or a primary surface.
 old-location: directdraw\idirectdrawcolorcontrol_setcolorcontrols.htm
 tech.root: directdraw
 ms.assetid: de6f8266-d712-40bd-8230-cf5800cf8926
-
 ms.date: 12/05/2018
 ms.keywords: IDirectDrawColorControl interface [DirectDraw],SetColorControls method, IDirectDrawColorControl.SetColorControls, IDirectDrawColorControl::SetColorControls, SetColorControls, SetColorControls method [DirectDraw], SetColorControls method [DirectDraw],IDirectDrawColorControl interface, ddraw/IDirectDrawColorControl::SetColorControls, directdraw.idirectdrawcolorcontrol_setcolorcontrols
 ms.topic: method
-f1_keywords: 
- - "ddraw/IDirectDrawColorControl.SetColorControls"
+f1_keywords:
+- ddraw/IDirectDrawColorControl.SetColorControls
 dev_langs:
- - c++
+- c++
 req.header: ddraw.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Ddraw.lib
 req.dll: Ddraw.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Ddraw.dll
+- Ddraw.dll
 api_name:
- - IDirectDrawColorControl.SetColorControls
+- IDirectDrawColorControl.SetColorControls
 targetos: Windows
 req.typenames: 
 req.redist: 

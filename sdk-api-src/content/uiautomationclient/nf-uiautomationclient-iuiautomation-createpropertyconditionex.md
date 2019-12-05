@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationclient.IUIAutomation.CreatePropertyConditionEx
 title: IUIAutomation::CreatePropertyConditionEx (uiautomationclient.h)
-
 description: Creates a condition that selects elements that have a property with the specified value, using optional flags.
 old-location: winauto\uiauto_IUIAutomation_CreatePropertyConditionEx.htm
 tech.root: WinAuto
 ms.assetid: dc7ad9e8-b315-40b1-af02-997a38c4ee66
-
 ms.date: 12/05/2018
 ms.keywords: CreatePropertyConditionEx, CreatePropertyConditionEx method [Windows Accessibility], CreatePropertyConditionEx method [Windows Accessibility],IUIAutomation interface, IUIAutomation interface [Windows Accessibility],CreatePropertyConditionEx method, IUIAutomation.CreatePropertyConditionEx, IUIAutomation::CreatePropertyConditionEx, uiauto.uiauto_IUIAutomation_CreatePropertyConditionEx, uiauto_IUIAutomation_CreatePropertyConditionEx, uiautomationclient/IUIAutomation::CreatePropertyConditionEx, winauto.uiauto_IUIAutomation_CreatePropertyConditionEx
 ms.topic: method
-f1_keywords: 
- - "uiautomationclient/IUIAutomation.CreatePropertyConditionEx"
+f1_keywords:
+- uiautomationclient/IUIAutomation.CreatePropertyConditionEx
 dev_langs:
- - c++
+- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationClient.h
+- UIAutomationClient.h
 api_name:
- - IUIAutomation.CreatePropertyConditionEx
+- IUIAutomation.CreatePropertyConditionEx
 targetos: Windows
 req.typenames: 
 req.redist: 

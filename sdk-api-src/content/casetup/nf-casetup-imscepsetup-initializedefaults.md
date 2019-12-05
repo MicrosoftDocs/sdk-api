@@ -1,19 +1,17 @@
 ---
 UID: NF:casetup.IMSCEPSetup.InitializeDefaults
 title: IMSCEPSetup::InitializeDefaults (casetup.h)
-
 description: Initializes a CMSCEPSetup object with default values to enable installation of a Network Device Enrollment Service (NDES) role.
 old-location: security\imscepsetup_initializedefaults.htm
 tech.root: SecCrypto
 ms.assetid: 25b1fd48-7b2c-4687-af7e-09efd99038b3
-
 ms.date: 12/05/2018
 ms.keywords: IMSCEPSetup interface [Security],InitializeDefaults method, IMSCEPSetup.InitializeDefaults, IMSCEPSetup::InitializeDefaults, InitializeDefaults, InitializeDefaults method [Security], InitializeDefaults method [Security],IMSCEPSetup interface, casetup/IMSCEPSetup::InitializeDefaults, security.imscepsetup_initializedefaults
 ms.topic: method
-f1_keywords: 
- - "casetup/IMSCEPSetup.InitializeDefaults"
+f1_keywords:
+- casetup/IMSCEPSetup.InitializeDefaults
 dev_langs:
- - c++
+- c++
 req.header: casetup.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Certocm.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Certocm.dll
+- Certocm.dll
 api_name:
- - IMSCEPSetup.InitializeDefaults
+- IMSCEPSetup.InitializeDefaults
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NS:audioapotypes.APO_CONNECTION_PROPERTY
 title: APO_CONNECTION_PROPERTY (audioapotypes.h)
-
 description: Contains the dynamically changing connection properties.
 old-location: termserv\apo_connection_property.htm
 tech.root: TermServ
 ms.assetid: dbf7ed62-445e-4f15-bc21-46117e694dc0
-
 ms.date: 12/05/2018
 ms.keywords: APO_CONNECTION_PROPERTY, APO_CONNECTION_PROPERTY structure [Remote Desktop Services], audioapotypes/APO_CONNECTION_PROPERTY, termserv.apo_connection_property
 ms.topic: struct
-f1_keywords: 
- - "audioapotypes/APO_CONNECTION_PROPERTY"
+f1_keywords:
+- audioapotypes/APO_CONNECTION_PROPERTY
 dev_langs:
- - c++
+- c++
 req.header: audioapotypes.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Audioapotypes.h
+- Audioapotypes.h
 api_name:
- - APO_CONNECTION_PROPERTY
+- APO_CONNECTION_PROPERTY
 targetos: Windows
 req.typenames: APO_CONNECTION_PROPERTY
 req.redist: 

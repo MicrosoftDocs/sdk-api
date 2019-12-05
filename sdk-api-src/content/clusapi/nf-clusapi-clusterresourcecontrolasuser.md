@@ -1,19 +1,17 @@
 ---
 UID: NF:clusapi.ClusterResourceControlAsUser
 title: ClusterResourceControlAsUser function (clusapi.h)
-
 description: Initiates an operation affecting a resource.
 old-location: mscs\clusterresourcecontrolasuser.htm
 tech.root: MsCS
 ms.assetid: D8CA1B1C-7061-4EAD-B4A0-8468B503D96D
-
 ms.date: 12/05/2018
 ms.keywords: ClusterResourceControlAsUser, ClusterResourceControlAsUser function [Failover Cluster], clusapi/ClusterResourceControlAsUser, mscs.clusterresourcecontrolasuser
 ms.topic: function
-f1_keywords: 
- - "clusapi/ClusterResourceControlAsUser"
+f1_keywords:
+- clusapi/ClusterResourceControlAsUser
 dev_langs:
- - c++
+- c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: ClusAPI.lib
 req.dll: ClusAPI.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - ClusAPI.dll
+- ClusAPI.dll
 api_name:
- - ClusterResourceControlAsUser
+- ClusterResourceControlAsUser
 targetos: Windows
 req.typenames: 
 req.redist: 

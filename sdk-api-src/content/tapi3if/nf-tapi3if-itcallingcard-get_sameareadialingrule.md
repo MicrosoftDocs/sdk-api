@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi3if.ITCallingCard.get_SameAreaDialingRule
 title: ITCallingCard::get_SameAreaDialingRule (tapi3if.h)
-
 description: The get_SameAreaDialingRule method gets the dialing rules for calls within the same area code.
 old-location: tapi3\itcallingcard_get_sameareadialingrule.htm
 tech.root: Tapi
 ms.assetid: d8539040-a988-4d96-8cf1-9ec8ff46a0a9
-
 ms.date: 12/05/2018
 ms.keywords: ITCallingCard interface [TAPI 2.2],get_SameAreaDialingRule method, ITCallingCard.get_SameAreaDialingRule, ITCallingCard::get_SameAreaDialingRule, _tapi3_itcallingcard_get_sameareadialingrule, get_SameAreaDialingRule, get_SameAreaDialingRule method [TAPI 2.2], get_SameAreaDialingRule method [TAPI 2.2],ITCallingCard interface, tapi3.itcallingcard_get_sameareadialingrule, tapi3if/ITCallingCard::get_SameAreaDialingRule
 ms.topic: method
-f1_keywords: 
- - "tapi3if/ITCallingCard.get_SameAreaDialingRule"
+f1_keywords:
+- tapi3if/ITCallingCard.get_SameAreaDialingRule
 dev_langs:
- - c++
+- c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Tapi3.dll
+- Tapi3.dll
 api_name:
- - ITCallingCard.get_SameAreaDialingRule
+- ITCallingCard.get_SameAreaDialingRule
 targetos: Windows
 req.typenames: 
 req.redist: 

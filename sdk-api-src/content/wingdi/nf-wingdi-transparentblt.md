@@ -1,19 +1,17 @@
 ---
 UID: NF:wingdi.TransparentBlt
 title: TransparentBlt function (wingdi.h)
-
 description: The TransparentBlt function performs a bit-block transfer of the color data corresponding to a rectangle of pixels from the specified source device context into a destination device context.
 old-location: gdi\transparentblt.htm
 tech.root: gdi
 ms.assetid: 900b2ca3-398d-4128-a1ae-8b4940574327
-
 ms.date: 12/05/2018
 ms.keywords: TransparentBlt, TransparentBlt function [Windows GDI], _win32_TransparentBlt, gdi.transparentblt, wingdi/TransparentBlt
 ms.topic: function
-f1_keywords: 
- - "wingdi/TransparentBlt"
+f1_keywords:
+- wingdi/TransparentBlt
 dev_langs:
- - c++
+- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Msimg32.lib
 req.dll: Msimg32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Msimg32.dll
- - ext-ms-win-msimg-draw-l1-1-0.dll
+- Msimg32.dll
+- ext-ms-win-msimg-draw-l1-1-0.dll
 api_name:
- - TransparentBlt
+- TransparentBlt
 targetos: Windows
 req.typenames: 
 req.redist: 

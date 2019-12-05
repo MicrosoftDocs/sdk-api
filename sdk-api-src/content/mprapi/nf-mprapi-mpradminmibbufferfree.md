@@ -1,19 +1,17 @@
 ---
 UID: NF:mprapi.MprAdminMIBBufferFree
 title: MprAdminMIBBufferFree function (mprapi.h)
-
 description: The MprAdminMIBBufferFree function frees buffers returned by the following functions MprAdminMIBEntryGet, MprAdminMIBEntryGetFirst, MprAdminMIBEntryGetNext
 old-location: rras\mpradminmibbufferfree.htm
 tech.root: RRAS
 ms.assetid: cee21427-42bc-45df-ad95-c8aa81041776
-
 ms.date: 12/05/2018
 ms.keywords: MprAdminMIBBufferFree, MprAdminMIBBufferFree function [RAS], _mpr_mpradminmibbufferfree, mprapi/MprAdminMIBBufferFree, rras.mpradminmibbufferfree
 ms.topic: function
-f1_keywords: 
- - "mprapi/MprAdminMIBBufferFree"
+f1_keywords:
+- mprapi/MprAdminMIBBufferFree
 dev_langs:
- - c++
+- c++
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Mprapi.lib
 req.dll: Mprapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Mprapi.dll
+- Mprapi.dll
 api_name:
- - MprAdminMIBBufferFree
+- MprAdminMIBBufferFree
 targetos: Windows
 req.typenames: 
 req.redist: 

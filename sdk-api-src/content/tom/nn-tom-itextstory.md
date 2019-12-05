@@ -1,19 +1,17 @@
 ---
 UID: NN:tom.ITextStory
 title: ITextStory (tom.h)
-
 description: The ITextStory interface methods are used to access shared data from multiple stories, which is stored in the parent ITextServices instance.
 old-location: controls\itextstory.htm
 tech.root: Controls
 ms.assetid: 8b52c6e8-c250-4cfb-979e-770df9f94010
-
 ms.date: 12/05/2018
 ms.keywords: ITextStory, ITextStory interface [Windows Controls], ITextStory interface [Windows Controls],described, controls.itextstory, tom/ITextStory
 ms.topic: interface
-f1_keywords: 
- - "tom/ITextStory"
+f1_keywords:
+- tom/ITextStory
 dev_langs:
- - c++
+- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - tom.h
+- tom.h
 api_name:
- - ITextStory
+- ITextStory
 targetos: Windows
 req.typenames: 
 req.redist: 

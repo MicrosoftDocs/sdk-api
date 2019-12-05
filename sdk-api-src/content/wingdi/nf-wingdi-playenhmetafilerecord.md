@@ -1,19 +1,17 @@
 ---
 UID: NF:wingdi.PlayEnhMetaFileRecord
 title: PlayEnhMetaFileRecord function (wingdi.h)
-
 description: The PlayEnhMetaFileRecord function plays an enhanced-metafile record by executing the graphics device interface (GDI) functions identified by the record.
 old-location: gdi\playenhmetafilerecord.htm
 tech.root: gdi
 ms.assetid: 3eec8c8d-b99f-4500-9d18-b819c097f341
-
 ms.date: 12/05/2018
 ms.keywords: PlayEnhMetaFileRecord, PlayEnhMetaFileRecord function [Windows GDI], _win32_PlayEnhMetaFileRecord, gdi.playenhmetafilerecord, wingdi/PlayEnhMetaFileRecord
 ms.topic: function
-f1_keywords: 
- - "wingdi/PlayEnhMetaFileRecord"
+f1_keywords:
+- wingdi/PlayEnhMetaFileRecord
 dev_langs:
- - c++
+- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - gdi32.dll
- - Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
- - GDI32Full.dll
+- gdi32.dll
+- Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
+- GDI32Full.dll
 api_name:
- - PlayEnhMetaFileRecord
+- PlayEnhMetaFileRecord
 targetos: Windows
 req.typenames: 
 req.redist: 

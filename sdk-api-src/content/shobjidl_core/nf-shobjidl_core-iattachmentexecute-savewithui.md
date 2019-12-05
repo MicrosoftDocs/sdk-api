@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IAttachmentExecute.SaveWithUI
 title: IAttachmentExecute::SaveWithUI (shobjidl_core.h)
-
 description: Presents the user with explanatory error UI if the save action fails.
 old-location: shell\IAttachmentExecute_SaveWithUI.htm
 tech.root: shell
 ms.assetid: 6d5b2d02-98ee-4e46-826f-fa073ecff5c4
-
 ms.date: 12/05/2018
 ms.keywords: IAttachmentExecute interface [Windows Shell],SaveWithUI method, IAttachmentExecute.SaveWithUI, IAttachmentExecute::SaveWithUI, SaveWithUI, SaveWithUI method [Windows Shell], SaveWithUI method [Windows Shell],IAttachmentExecute interface, shell.IAttachmentExecute_SaveWithUI, shell_IAttachmentExecute_savewithui, shobjidl_core/IAttachmentExecute::SaveWithUI
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IAttachmentExecute.SaveWithUI"
+f1_keywords:
+- shobjidl_core/IAttachmentExecute.SaveWithUI
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Shdocvw.dll (version 6.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shdocvw.dll
+- Shdocvw.dll
 api_name:
- - IAttachmentExecute.SaveWithUI
+- IAttachmentExecute.SaveWithUI
 targetos: Windows
 req.typenames: 
 req.redist: 

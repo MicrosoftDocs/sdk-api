@@ -1,19 +1,17 @@
 ---
 UID: NN:objidl.IProgressNotify
 title: IProgressNotify (objidl.h)
-
 description: Enables applications and other objects to receive notifications of changes in the progress of a downloading operation.
 old-location: com\iprogressnotify.htm
 tech.root: com
 ms.assetid: 3f90437d-df8f-42b2-af81-519bfb9577b1
-
 ms.date: 12/05/2018
 ms.keywords: IProgressNotify, IProgressNotify interface [COM], IProgressNotify interface [COM],described, _com_iprogressnotify, com.iprogressnotify, objidl/IProgressNotify
 ms.topic: interface
-f1_keywords: 
- - "objidl/IProgressNotify"
+f1_keywords:
+- objidl/IProgressNotify
 dev_langs:
- - c++
+- c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ObjIdl.h
+- ObjIdl.h
 api_name:
- - IProgressNotify
+- IProgressNotify
 targetos: Windows
 req.typenames: 
 req.redist: 

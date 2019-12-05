@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationcore.IUIAutomationRegistrar.RegisterEvent
 title: IUIAutomationRegistrar::RegisterEvent (uiautomationcore.h)
-
 description: Registers a third-party Microsoft UI Automation event.
 old-location: winauto\uiauto_IUIAutomationRegistrar_RegisterEvent.htm
 tech.root: WinAuto
 ms.assetid: 17a95b6c-5dfb-45b3-92a9-0291b7d7120f
-
 ms.date: 12/05/2018
 ms.keywords: IUIAutomationRegistrar interface [Windows Accessibility],RegisterEvent method, IUIAutomationRegistrar.RegisterEvent, IUIAutomationRegistrar::RegisterEvent, RegisterEvent, RegisterEvent method [Windows Accessibility], RegisterEvent method [Windows Accessibility],IUIAutomationRegistrar interface, uiauto.uiauto_IUIAutomationRegistrar_RegisterEvent, uiauto_IUIAutomationRegistrar_RegisterEvent, uiautomationcore/IUIAutomationRegistrar::RegisterEvent, winauto.uiauto_IUIAutomationRegistrar_RegisterEvent
 ms.topic: method
-f1_keywords: 
- - "uiautomationcore/IUIAutomationRegistrar.RegisterEvent"
+f1_keywords:
+- uiautomationcore/IUIAutomationRegistrar.RegisterEvent
 dev_langs:
- - c++
+- c++
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationCore.h
+- UIAutomationCore.h
 api_name:
- - IUIAutomationRegistrar.RegisterEvent
+- IUIAutomationRegistrar.RegisterEvent
 targetos: Windows
 req.typenames: 
 req.redist: 

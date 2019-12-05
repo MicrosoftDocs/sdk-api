@@ -1,19 +1,17 @@
 ---
 UID: NL:gdiplusbrush.LinearGradientBrush
 title: LinearGradientBrush (gdiplusbrush.h)
-
 description: The LinearGradientBrush class defines a brush that paints a color gradient in which the color changes evenly from the starting boundary line of the linear gradient brush to the ending boundary line of the linear gradient brush.
 old-location: gdiplus\_gdiplus_CLASS_LinearGradientBrush_Class.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\lineargradientbrush.htm
-
 ms.date: 12/05/2018
 ms.keywords: LinearGradientBrush, LinearGradientBrush class [GDI+], LinearGradientBrush class [GDI+],described, _gdiplus_CLASS_LinearGradientBrush_Class, gdiplus._gdiplus_CLASS_LinearGradientBrush_Class, gdiplusbrush/LinearGradientBrush
 ms.topic: class
-f1_keywords: 
- - "gdiplusbrush/LinearGradientBrush"
+f1_keywords:
+- gdiplusbrush/LinearGradientBrush
 dev_langs:
- - c++
+- c++
 req.header: gdiplusbrush.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - gdiplusbrush.h
+- gdiplusbrush.h
 api_name:
- - LinearGradientBrush
+- LinearGradientBrush
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NS:commctrl._IMAGEINFO
 title: IMAGEINFO (commctrl.h)
-
 description: Contains information about an image in an image list. This structure is used with the IImageList::GetImageInfo function.
 old-location: controls\IMAGEINFO.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\imagelist\structures\imageinfo.htm
-
 ms.date: 12/05/2018
-ms.keywords: "*LPIMAGEINFO, IMAGEINFO, IMAGEINFO structure [Windows Controls], LPIMAGEINFO, LPIMAGEINFO structure pointer [Windows Controls], _win32_IMAGEINFO, _win32_IMAGEINFO_cpp, commoncontrols/IMAGEINFO, commoncontrols/LPIMAGEINFO, controls.IMAGEINFO, controls._win32_IMAGEINFO"
+ms.keywords: '*LPIMAGEINFO, IMAGEINFO, IMAGEINFO structure [Windows Controls], LPIMAGEINFO, LPIMAGEINFO structure pointer [Windows Controls], _win32_IMAGEINFO, _win32_IMAGEINFO_cpp, commoncontrols/IMAGEINFO, commoncontrols/LPIMAGEINFO, controls.IMAGEINFO, controls._win32_IMAGEINFO'
 ms.topic: struct
-f1_keywords: 
- - "commctrl/IMAGEINFO"
+f1_keywords:
+- commctrl/IMAGEINFO
 dev_langs:
- - c++
+- c++
 req.header: commctrl.h
 req.include-header: Commctrl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - commoncontrols.h
+- commoncontrols.h
 api_name:
- - IMAGEINFO
+- IMAGEINFO
 targetos: Windows
 req.typenames: IMAGEINFO, *LPIMAGEINFO
 req.redist: 

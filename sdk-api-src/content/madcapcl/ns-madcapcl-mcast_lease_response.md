@@ -1,19 +1,17 @@
 ---
 UID: NS:madcapcl._MCAST_LEASE_RESPONSE
 title: MCAST_LEASE_RESPONSE (madcapcl.h)
-
 description: The MCAST_LEASE_RESPONSE structure is used to respond to multicast lease requests.
 old-location: madcap\mcast_lease_response.htm
 tech.root: Madcap
 ms.assetid: 1993e3bc-b6bd-4e13-aa71-7e33bf7ef540
-
 ms.date: 12/05/2018
 ms.keywords: '*PMCAST_LEASE_RESPONSE, MCAST_LEASE_RESPONSE, MCAST_LEASE_RESPONSE structure [MADCAP], PMCAST_LEASE_RESPONSE, PMCAST_LEASE_RESPONSE structure pointer [MADCAP], _mdhcp_mcast_lease_response, madcap.mcast_lease_response, madcapcl/MCAST_LEASE_RESPONSE, madcapcl/PMCAST_LEASE_RESPONSE'
 ms.topic: struct
 f1_keywords:
 - madcapcl/MCAST_LEASE_RESPONSE
 dev_langs:
- - c++
+- c++
 req.header: madcapcl.h
 req.include-header: 
 req.target-type: Windows

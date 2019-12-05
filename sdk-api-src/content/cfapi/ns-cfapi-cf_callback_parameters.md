@@ -1,19 +1,17 @@
 ---
 UID: NS:cfapi.CF_CALLBACK_PARAMETERS
 title: CF_CALLBACK_PARAMETERS (cfapi.h)
-
 description: Contains callback specific parameters such as file offset, length, flags, etc.
 old-location: cloudapi\cf_callback_parameters.htm
 tech.root: cfApi
 ms.assetid: FA403E9E-5EFA-4285-9619-614DB0044FFB
-
 ms.date: 12/05/2018
 ms.keywords: CF_CALLBACK_PARAMETERS, CF_CALLBACK_PARAMETERS structure, cfapi/CF_CALLBACK_PARAMETERS, cloudApi.cf_callback_parameters
 ms.topic: struct
-f1_keywords: 
- - "cfapi/CF_CALLBACK_PARAMETERS"
+f1_keywords:
+- cfapi/CF_CALLBACK_PARAMETERS
 dev_langs:
- - c++
+- c++
 req.header: cfapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - CfApi.h
+- CfApi.h
 api_name:
- - CF_CALLBACK_PARAMETERS
+- CF_CALLBACK_PARAMETERS
 targetos: Windows
 req.typenames: CF_CALLBACK_PARAMETERS
 req.redist: 

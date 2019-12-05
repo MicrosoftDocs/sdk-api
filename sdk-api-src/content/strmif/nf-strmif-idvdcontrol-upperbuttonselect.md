@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IDvdControl.UpperButtonSelect
 title: IDvdControl::UpperButtonSelect (strmif.h)
-
 description: Note  The IDvdControl interface is deprecated. Use IDvdControl2 instread. Selects the upper directional button from the displayed menu.
 old-location: dshow\idvdcontrol_upperbuttonselect.htm
 tech.root: DirectShow
 ms.assetid: bd0e4086-087b-460f-a6af-fa073644f1bb
-
 ms.date: 12/05/2018
 ms.keywords: IDvdControl interface [DirectShow],UpperButtonSelect method, IDvdControl.UpperButtonSelect, IDvdControl::UpperButtonSelect, IDvdControlUpperButtonSelect, UpperButtonSelect, UpperButtonSelect method [DirectShow], UpperButtonSelect method [DirectShow],IDvdControl interface, dshow.idvdcontrol_upperbuttonselect, strmif/IDvdControl::UpperButtonSelect
 ms.topic: method
-f1_keywords: 
- - "strmif/IDvdControl.UpperButtonSelect"
+f1_keywords:
+- strmif/IDvdControl.UpperButtonSelect
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmif.h
+- Strmif.h
 api_name:
- - IDvdControl.UpperButtonSelect
+- IDvdControl.UpperButtonSelect
 targetos: Windows
 req.typenames: 
 req.redist: 

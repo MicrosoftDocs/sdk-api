@@ -1,19 +1,17 @@
 ---
 UID: NF:lmdfs.NetDfsRemoveRootTarget
 title: NetDfsRemoveRootTarget function (lmdfs.h)
-
 description: Removes a DFS root target from a domain-based DFS namespace. If the root target is the last root target in the DFS namespace, this function removes the DFS namespace. This function can also be used to remove a stand-alone DFS namespace.
 old-location: dfs\netdfsremoveroottarget.htm
 tech.root: Dfs
 ms.assetid: 9a8c78f4-3170-4568-940c-1c51aebad3ae
-
 ms.date: 12/05/2018
 ms.keywords: DFS_FORCE_REMOVE, NetDfsRemoveRootTarget, NetDfsRemoveRootTarget function [Distributed File System], dfs.netdfsremoveroottarget, fs.netdfsremoveroottarget, lmdfs/NetDfsRemoveRootTarget
 ms.topic: function
-f1_keywords: 
- - "lmdfs/NetDfsRemoveRootTarget"
+f1_keywords:
+- lmdfs/NetDfsRemoveRootTarget
 dev_langs:
- - c++
+- c++
 req.header: lmdfs.h
 req.include-header: LmDfs.h, Lm.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Netapi32.lib
 req.dll: Netapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Netapi32.dll
+- Netapi32.dll
 api_name:
- - NetDfsRemoveRootTarget
+- NetDfsRemoveRootTarget
 targetos: Windows
 req.typenames: 
 req.redist: 

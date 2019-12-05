@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl.IHWEventHandler.HandleEventWithContent
 title: IHWEventHandler::HandleEventWithContent (shobjidl.h)
-
 description: Not implemented.
 old-location: shell\IHWEventHandler_HandleEventWithContent.htm
 tech.root: shell
 ms.assetid: d5787ebd-2784-4e86-b749-93258a1a26bd
-
 ms.date: 12/05/2018
 ms.keywords: HandleEventWithContent, HandleEventWithContent method [Windows Shell], HandleEventWithContent method [Windows Shell],IHWEventHandler interface, IHWEventHandler interface [Windows Shell],HandleEventWithContent method, IHWEventHandler.HandleEventWithContent, IHWEventHandler::HandleEventWithContent, inet_IHWEventHandler_HandleEventWithContent, shell.IHWEventHandler_HandleEventWithContent, shobjidl/IHWEventHandler::HandleEventWithContent
 ms.topic: method
-f1_keywords: 
- - "shobjidl/IHWEventHandler.HandleEventWithContent"
+f1_keywords:
+- shobjidl/IHWEventHandler.HandleEventWithContent
 dev_langs:
- - c++
+- c++
 req.header: shobjidl.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Shimgvw.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shimgvw.dll
+- Shimgvw.dll
 api_name:
- - IHWEventHandler.HandleEventWithContent
+- IHWEventHandler.HandleEventWithContent
 targetos: Windows
 req.typenames: 
 req.redist: 

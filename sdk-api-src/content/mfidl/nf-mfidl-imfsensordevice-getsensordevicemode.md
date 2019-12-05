@@ -1,19 +1,17 @@
 ---
 UID: NF:mfidl.IMFSensorDevice.GetSensorDeviceMode
 title: IMFSensorDevice::GetSensorDeviceMode (mfidl.h)
-
 description: Gets a value that specifies the current sharing mode of the sensor device, which is either controller or shared.
 old-location: mf\imfsensordevice_getsensordevicemode.htm
 tech.root: medfound
 ms.assetid: 21594884-DAA5-450C-855D-E800FE164C5E
-
 ms.date: 12/05/2018
 ms.keywords: GetSensorDeviceMode, GetSensorDeviceMode method [Media Foundation], GetSensorDeviceMode method [Media Foundation],IMFSensorDevice interface, IMFSensorDevice interface [Media Foundation],GetSensorDeviceMode method, IMFSensorDevice.GetSensorDeviceMode, IMFSensorDevice::GetSensorDeviceMode, mf.imfsensordevice_getsensordevicemode, mfidl/IMFSensorDevice::GetSensorDeviceMode
 ms.topic: method
-f1_keywords: 
- - "mfidl/IMFSensorDevice.GetSensorDeviceMode"
+f1_keywords:
+- mfidl/IMFSensorDevice.GetSensorDeviceMode
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Mfplat.lib; Mfplat.dll
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfplat.lib
- - mfplat.dll
- - mfplat.dll
- - mfplat.dll.dll
+- mfplat.lib
+- mfplat.dll
+- mfplat.dll
+- mfplat.dll.dll
 api_name:
- - IMFSensorDevice.GetSensorDeviceMode
+- IMFSensorDevice.GetSensorDeviceMode
 targetos: Windows
 req.typenames: 
 req.redist: 

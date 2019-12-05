@@ -1,19 +1,17 @@
 ---
 UID: NF:gdiplusbrush.SolidBrush.SolidBrush(IN const Color &)
 title: SolidBrush::SolidBrush(IN const Color &) (gdiplusbrush.h)
-
 description: Creates a SolidBrush object based on a color.
 old-location: gdiplus\_gdiplus_CLASS_SolidBrush_SolidBrush_color_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\solidbrushclass\solidbrush_81color.htm
-
 ms.date: 12/05/2018
 ms.keywords: SolidBrush, SolidBrush class [GDI+],SolidBrush constructor, SolidBrush constructor [GDI+], SolidBrush constructor [GDI+],SolidBrush class, SolidBrush.SolidBrush, SolidBrush.SolidBrush(IN const Color &), SolidBrush::SolidBrush, SolidBrush::SolidBrush(IN const Color &), _gdiplus_CLASS_SolidBrush_SolidBrush_color_, gdiplus._gdiplus_CLASS_SolidBrush_SolidBrush_color_
 ms.topic: method
-f1_keywords: 
- - "gdiplusbrush/SolidBrush.SolidBrush"
+f1_keywords:
+- gdiplusbrush/SolidBrush.SolidBrush
 dev_langs:
- - c++
+- c++
 req.header: gdiplusbrush.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - SolidBrush.SolidBrush
+- SolidBrush.SolidBrush
 targetos: Windows
 req.typenames: 
 req.redist: 

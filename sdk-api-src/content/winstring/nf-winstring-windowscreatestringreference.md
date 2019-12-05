@@ -1,19 +1,17 @@
 ---
 UID: NF:winstring.WindowsCreateStringReference
 title: WindowsCreateStringReference function (winstring.h)
-
 description: Creates a new string reference based on the specified string.
 old-location: winrt\windowscreatestringreference.htm
 tech.root: WinRT
 ms.assetid: 0361BB7E-DA49-4289-A93E-DE7AAB8712AC
-
 ms.date: 12/05/2018
 ms.keywords: WindowsCreateStringReference, WindowsCreateStringReference function [Windows Runtime], winrt.windowscreatestringreference, winstring/WindowsCreateStringReference
 ms.topic: function
-f1_keywords: 
- - "winstring/WindowsCreateStringReference"
+f1_keywords:
+- winstring/WindowsCreateStringReference
 dev_langs:
- - c++
+- c++
 req.header: winstring.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - winstring.h
- - API-MS-Win-Core-WinRT-String-l1-1-0.dll
- - ComBase.dll
- - API-MS-Win-Core-WinRT-String-L1-1-1.dll
+- winstring.h
+- API-MS-Win-Core-WinRT-String-l1-1-0.dll
+- ComBase.dll
+- API-MS-Win-Core-WinRT-String-L1-1-1.dll
 api_name:
- - WindowsCreateStringReference
+- WindowsCreateStringReference
 targetos: Windows
 req.typenames: 
 req.redist: 

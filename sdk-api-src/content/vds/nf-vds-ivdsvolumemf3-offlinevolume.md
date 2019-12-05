@@ -1,19 +1,17 @@
 ---
 UID: NF:vds.IVdsVolumeMF3.OfflineVolume
 title: IVdsVolumeMF3::OfflineVolume (vds.h)
-
 description: Takes the volume offline by using the IOCTL_VOLUME_OFFLINE control code.
 old-location: base\ivdsvolumemf3_offlinevolume.htm
 tech.root: VDS
 ms.assetid: d7f699c6-6f1c-445d-80b4-3576102d5b5f
-
 ms.date: 12/05/2018
 ms.keywords: IVdsVolumeMF3 interface,OfflineVolume method, IVdsVolumeMF3.OfflineVolume, IVdsVolumeMF3::OfflineVolume, OfflineVolume, OfflineVolume method, OfflineVolume method,IVdsVolumeMF3 interface, base.ivdsvolumemf3_offlinevolume, vds/IVdsVolumeMF3::OfflineVolume
 ms.topic: method
-f1_keywords: 
- - "vds/IVdsVolumeMF3.OfflineVolume"
+f1_keywords:
+- vds/IVdsVolumeMF3.OfflineVolume
 dev_langs:
- - c++
+- c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Uuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Uuid.lib
- - Uuid.dll
+- Uuid.lib
+- Uuid.dll
 api_name:
- - IVdsVolumeMF3.OfflineVolume
+- IVdsVolumeMF3.OfflineVolume
 targetos: Windows
 req.typenames: 
 req.redist: 

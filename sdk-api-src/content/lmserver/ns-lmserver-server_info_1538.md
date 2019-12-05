@@ -1,19 +1,17 @@
 ---
 UID: NS:lmserver._SERVER_INFO_1538
 title: SERVER_INFO_1538 (lmserver.h)
-
 description: The SERVER_INFO_1538 structure specifies whether several MS-DOS File Control Blocks (FCBs) are placed in a single location.
 old-location: netmgmt\server_info_1538_str.htm
 tech.root: NetMgmt
 ms.assetid: 4e11d2f5-27e5-480d-8486-d683bea22781
-
 ms.date: 12/05/2018
-ms.keywords: "*LPSERVER_INFO_1538, *PSERVER_INFO_1538, LPSERVER_INFO_1538, LPSERVER_INFO_1538 structure pointer [Network Management], PSERVER_INFO_1538, PSERVER_INFO_1538 structure pointer [Network Management], SERVER_INFO_1538, SERVER_INFO_1538 structure [Network Management], _win32_server_info_1538_str, lmserver/LPSERVER_INFO_1538, lmserver/PSERVER_INFO_1538, lmserver/SERVER_INFO_1538, netmgmt.server_info_1538_str"
+ms.keywords: '*LPSERVER_INFO_1538, *PSERVER_INFO_1538, LPSERVER_INFO_1538, LPSERVER_INFO_1538 structure pointer [Network Management], PSERVER_INFO_1538, PSERVER_INFO_1538 structure pointer [Network Management], SERVER_INFO_1538, SERVER_INFO_1538 structure [Network Management], _win32_server_info_1538_str, lmserver/LPSERVER_INFO_1538, lmserver/PSERVER_INFO_1538, lmserver/SERVER_INFO_1538, netmgmt.server_info_1538_str'
 ms.topic: struct
-f1_keywords: 
- - "lmserver/SERVER_INFO_1538"
+f1_keywords:
+- lmserver/SERVER_INFO_1538
 dev_langs:
- - c++
+- c++
 req.header: lmserver.h
 req.include-header: Lm.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Lmserver.h
+- Lmserver.h
 api_name:
- - SERVER_INFO_1538
+- SERVER_INFO_1538
 targetos: Windows
 req.typenames: SERVER_INFO_1538, *PSERVER_INFO_1538, *LPSERVER_INFO_1538
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NS:vfw.videohdr_tag
 title: VIDEOHDR (vfw.h)
-
 description: The VIDEOHDR structure is used by the capVideoStreamCallback function.
 old-location: multimedia\videohdr.htm
 tech.root: Multimedia
 ms.assetid: 81e4dded-7ba1-40cf-bc16-20524b70a28d
-
 ms.date: 12/05/2018
-ms.keywords: "*LPVIDEOHDR, *PVIDEOHDR, LPVIDEOHDR, LPVIDEOHDR structure pointer [Windows Multimedia], PVIDEOHDR, PVIDEOHDR structure pointer [Windows Multimedia], VIDEOHDR, VIDEOHDR structure [Windows Multimedia], _win32_VIDEOHDR_str, multimedia.videohdr, vfw/LPVIDEOHDR, vfw/PVIDEOHDR, vfw/VIDEOHDR"
+ms.keywords: '*LPVIDEOHDR, *PVIDEOHDR, LPVIDEOHDR, LPVIDEOHDR structure pointer [Windows Multimedia], PVIDEOHDR, PVIDEOHDR structure pointer [Windows Multimedia], VIDEOHDR, VIDEOHDR structure [Windows Multimedia], _win32_VIDEOHDR_str, multimedia.videohdr, vfw/LPVIDEOHDR, vfw/PVIDEOHDR, vfw/VIDEOHDR'
 ms.topic: struct
-f1_keywords: 
- - "vfw/VIDEOHDR"
+f1_keywords:
+- vfw/VIDEOHDR
 dev_langs:
- - c++
+- c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Vfw.h
+- Vfw.h
 api_name:
- - VIDEOHDR
+- VIDEOHDR
 targetos: Windows
 req.typenames: VIDEOHDR, *PVIDEOHDR, *LPVIDEOHDR
 req.redist: 

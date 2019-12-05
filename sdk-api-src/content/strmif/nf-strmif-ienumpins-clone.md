@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IEnumPins.Clone
 title: IEnumPins::Clone (strmif.h)
-
 description: The Clone method makes a copy of the enumerator with the same enumeration state.
 old-location: dshow\ienumpins_clone.htm
 tech.root: DirectShow
 ms.assetid: 946bb08e-6866-46b3-b2d7-de2ab6c5e608
-
 ms.date: 12/05/2018
 ms.keywords: Clone, Clone method [DirectShow], Clone method [DirectShow],IEnumPins interface, IEnumPins interface [DirectShow],Clone method, IEnumPins.Clone, IEnumPins::Clone, IEnumPinsClone, dshow.ienumpins_clone, strmif/IEnumPins::Clone
 ms.topic: method
-f1_keywords: 
- - "strmif/IEnumPins.Clone"
+f1_keywords:
+- strmif/IEnumPins.Clone
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IEnumPins.Clone
+- IEnumPins.Clone
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:msrdc.ISimilarityTraitsMapping.CreateView
 title: ISimilarityTraitsMapping::CreateView (msrdc.h)
-
 description: Maps a view of the file mapping for a similarity traits table file.
 old-location: rdc\isimilaritytraitsmapping_createview.htm
 tech.root: rdc
 ms.assetid: 222b3682-8ccc-4c52-858a-ad4ac8a65add
-
 ms.date: 12/05/2018
 ms.keywords: CreateView, CreateView method [Remote Differential Compression], CreateView method [Remote Differential Compression],ISimilarityTraitsMapping interface, ISimilarityTraitsMapping interface [Remote Differential Compression],CreateView method, ISimilarityTraitsMapping.CreateView, ISimilarityTraitsMapping::CreateView, fs.isimilaritytraitsmapping_createview, msrdc/ISimilarityTraitsMapping::CreateView, rdc.isimilaritytraitsmapping_createview
 ms.topic: method
-f1_keywords: 
- - "msrdc/ISimilarityTraitsMapping.CreateView"
+f1_keywords:
+- msrdc/ISimilarityTraitsMapping.CreateView
 dev_langs:
- - c++
+- c++
 req.header: msrdc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: MsRdc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - MsRdc.dll
+- MsRdc.dll
 api_name:
- - ISimilarityTraitsMapping.CreateView
+- ISimilarityTraitsMapping.CreateView
 targetos: Windows
 req.typenames: 
 req.redist: 

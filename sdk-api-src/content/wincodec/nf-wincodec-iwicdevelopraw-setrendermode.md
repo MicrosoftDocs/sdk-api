@@ -1,19 +1,17 @@
 ---
 UID: NF:wincodec.IWICDevelopRaw.SetRenderMode
 title: IWICDevelopRaw::SetRenderMode (wincodec.h)
-
 description: Sets the current WICRawRenderMode.
 old-location: wic\_wic_codec_iwicdevelopraw_setrendermode.htm
 tech.root: wic
 ms.assetid: 3150abb3-795d-416d-b3eb-0001796f510d
-
 ms.date: 12/05/2018
 ms.keywords: IWICDevelopRaw interface [Windows Imaging Component],SetRenderMode method, IWICDevelopRaw.SetRenderMode, IWICDevelopRaw::SetRenderMode, SetRenderMode, SetRenderMode method [Windows Imaging Component], SetRenderMode method [Windows Imaging Component],IWICDevelopRaw interface, _wic_codec_iwicdevelopraw_setrendermode, wic._wic_codec_iwicdevelopraw_setrendermode, wincodec/IWICDevelopRaw::SetRenderMode
 ms.topic: method
-f1_keywords: 
- - "wincodec/IWICDevelopRaw.SetRenderMode"
+f1_keywords:
+- wincodec/IWICDevelopRaw.SetRenderMode
 dev_langs:
- - c++
+- c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Windowscodecs.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Windowscodecs.lib
- - Windowscodecs.dll
+- Windowscodecs.lib
+- Windowscodecs.dll
 api_name:
- - IWICDevelopRaw.SetRenderMode
+- IWICDevelopRaw.SetRenderMode
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:oleauto.CreateErrorInfo
 title: CreateErrorInfo function (oleauto.h)
-
 description: Creates an instance of a generic error object.
 old-location: automat\createerrorinfo.htm
 tech.root: automat
 ms.assetid: 6a9dd862-754a-48e3-8be5-d1fbd1d38f2b
-
 ms.date: 12/05/2018
 ms.keywords: CreateErrorInfo, CreateErrorInfo function [Automation], _oa96_CreateErrorInfo, automat.createerrorinfo, oleauto/CreateErrorInfo
 ms.topic: function
-f1_keywords: 
- - "oleauto/CreateErrorInfo"
+f1_keywords:
+- oleauto/CreateErrorInfo
 dev_langs:
- - c++
+- c++
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: OleAut32.lib
 req.dll: OleAut32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - OleAut32.dll
- - API-MS-Win-Downlevel-OLE32-l1-1-1.dll
- - ComBase.dll
+- OleAut32.dll
+- API-MS-Win-Downlevel-OLE32-l1-1-1.dll
+- ComBase.dll
 api_name:
- - CreateErrorInfo
+- CreateErrorInfo
 targetos: Windows
 req.typenames: 
 req.redist: 

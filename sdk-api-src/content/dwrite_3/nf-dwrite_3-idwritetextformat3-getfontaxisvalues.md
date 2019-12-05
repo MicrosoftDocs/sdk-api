@@ -1,17 +1,15 @@
 ---
 UID: NF:dwrite_3.IDWriteTextFormat3.GetFontAxisValues
 title: IDWriteTextFormat3::GetFontAxisValues
-
 description: Retrieves the list of font axis values on the format.
 tech.root: DirectWrite
-
 ms.date: 09/17/2019
 ms.keywords: IDWriteTextFormat3 interface [Direct Write],GetFontAxisValues method, IDWriteTextFormat3.GetFontAxisValues, IDWriteTextFormat3::GetFontAxisValues, GetFontAxisValues, GetFontAxisValues method [Direct Write], GetFontAxisValues method [Direct Write],IDWriteTextFormat3 interface, directwrite.idwritetextformat3_getfontaxisvalues, dwrite_3/IDWriteTextFormat3::GetFontAxisValues
 ms.topic: method
-f1_keywords: 
- - "dwrite_3/IDWriteTextFormat3.GetFontAxisValues"
+f1_keywords:
+- dwrite_3/IDWriteTextFormat3.GetFontAxisValues
 dev_langs:
- - c++
+- c++
 req.construct-type: function
 req.header: dwrite_3.h
 req.include-header: 
@@ -31,15 +29,15 @@ req.lib: Dwrite.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dwrite.lib
- - Dwrite.dll
+- Dwrite.lib
+- Dwrite.dll
 api_name:
- - IDWriteTextFormat3::GetFontAxisValues
+- IDWriteTextFormat3::GetFontAxisValues
 targetos: Windows
 req.typenames: 
 req.redist: 

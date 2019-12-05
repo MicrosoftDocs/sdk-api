@@ -1,19 +1,17 @@
 ---
 UID: NF:winsync.ILoadChangeContext.GetSyncChange
 title: ILoadChangeContext::GetSyncChange (winsync.h)
-
 description: Gets the change item for which the change data should be retrieved from the item store.
 old-location: winsync\iloadchangecontext_getsyncchange.htm
 tech.root: winsync
 ms.assetid: 6ac425bc-f6ec-4a95-b351-01f9eb27a744
-
 ms.date: 12/05/2018
 ms.keywords: GetSyncChange, GetSyncChange method [Windows Sync], GetSyncChange method [Windows Sync],ILoadChangeContext interface, ILoadChangeContext interface [Windows Sync],GetSyncChange method, ILoadChangeContext.GetSyncChange, ILoadChangeContext::GetSyncChange, winsync.iloadchangecontext_getsyncchange, winsync/ILoadChangeContext::GetSyncChange
 ms.topic: method
-f1_keywords: 
- - "winsync/ILoadChangeContext.GetSyncChange"
+f1_keywords:
+- winsync/ILoadChangeContext.GetSyncChange
 dev_langs:
- - c++
+- c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - winsync.h
+- winsync.h
 api_name:
- - ILoadChangeContext.GetSyncChange
+- ILoadChangeContext.GetSyncChange
 targetos: Windows
 req.typenames: 
 req.redist: 

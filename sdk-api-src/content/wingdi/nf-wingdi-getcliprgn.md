@@ -1,19 +1,17 @@
 ---
 UID: NF:wingdi.GetClipRgn
 title: GetClipRgn function (wingdi.h)
-
 description: The GetClipRgn function retrieves a handle identifying the current application-defined clipping region for the specified device context.
 old-location: gdi\getcliprgn.htm
 tech.root: gdi
 ms.assetid: 66c807b8-129f-40f2-b8d8-995e0a5e22e4
-
 ms.date: 12/05/2018
 ms.keywords: GetClipRgn, GetClipRgn function [Windows GDI], _win32_GetClipRgn, gdi.getcliprgn, wingdi/GetClipRgn
 ms.topic: function
-f1_keywords: 
- - "wingdi/GetClipRgn"
+f1_keywords:
+- wingdi/GetClipRgn
 dev_langs:
- - c++
+- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - gdi32.dll
- - ext-ms-win-gdi-clipping-l1-1-0.dll
- - GDI32Full.dll
+- gdi32.dll
+- ext-ms-win-gdi-clipping-l1-1-0.dll
+- GDI32Full.dll
 api_name:
- - GetClipRgn
+- GetClipRgn
 targetos: Windows
 req.typenames: 
 req.redist: 

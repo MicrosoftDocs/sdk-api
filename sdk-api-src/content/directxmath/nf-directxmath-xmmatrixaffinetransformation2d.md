@@ -1,19 +1,17 @@
 ---
 UID: NF:directxmath.XMMatrixAffineTransformation2D
 title: XMMatrixAffineTransformation2D function (directxmath.h)
-
 description: Builds a 2D affine transformation matrix in the xy plane.
 old-location: dxmath\xmmatrixaffinetransformation2d.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.matrix.XMMatrixAffineTransformation2D(XMVECTOR,XMVECTOR,float,XMVECTOR)
-
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMMatrixAffineTransformation2D, XMMatrixAffineTransformation2D, XMMatrixAffineTransformation2D method [DirectX Math Support APIs], dxmath.xmmatrixaffinetransformation2d
 ms.topic: function
-f1_keywords: 
- - "directxmath/XMMatrixAffineTransformation2D"
+f1_keywords:
+- directxmath/XMMatrixAffineTransformation2D
 dev_langs:
- - c++
+- c++
 req.header: directxmath.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - DirectXMath.h
+- DirectXMath.h
 api_name:
- - XMMatrixAffineTransformation2D
+- XMMatrixAffineTransformation2D
 targetos: Windows
 req.typenames: 
 req.redist: 

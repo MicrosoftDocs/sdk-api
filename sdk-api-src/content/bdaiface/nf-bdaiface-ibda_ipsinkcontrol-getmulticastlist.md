@@ -1,19 +1,17 @@
 ---
 UID: NF:bdaiface.IBDA_IPSinkControl.GetMulticastList
 title: IBDA_IPSinkControl::GetMulticastList (bdaiface.h)
-
 description: This interface is available for use in the Microsoft Windows 2000, Windows XP, and Windows Server 2003 operating systems. It may be altered or unavailable in subsequent versions.
 old-location: mstv\ibda_ipsinkcontrol_getmulticastlist.htm
 tech.root: mstv
 ms.assetid: 005cce5c-e8fb-49f0-8a75-b05cdd1f5e1b
-
 ms.date: 12/05/2018
 ms.keywords: GetMulticastList, GetMulticastList method [Microsoft TV Technologies], GetMulticastList method [Microsoft TV Technologies],IBDA_IPSinkControl interface, IBDA_IPSinkControl interface [Microsoft TV Technologies],GetMulticastList method, IBDA_IPSinkControl.GetMulticastList, IBDA_IPSinkControl::GetMulticastList, IBDA_IPSinkControlGetMulticastList, bdaiface/IBDA_IPSinkControl::GetMulticastList, mstv.ibda_ipsinkcontrol_getmulticastlist
 ms.topic: method
-f1_keywords: 
- - "bdaiface/IBDA_IPSinkControl.GetMulticastList"
+f1_keywords:
+- bdaiface/IBDA_IPSinkControl.GetMulticastList
 dev_langs:
- - c++
+- c++
 req.header: bdaiface.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - bdaiface.h
+- bdaiface.h
 api_name:
- - IBDA_IPSinkControl.GetMulticastList
+- IBDA_IPSinkControl.GetMulticastList
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:rpcdce.UuidEqual
 title: UuidEqual function (rpcdce.h)
-
 description: An application calls the UuidEqual function to compare two UUIDs and determine whether they are equal.
 old-location: rpc\uuidequal.htm
 tech.root: Rpc
 ms.assetid: ff83c66c-1f1f-4582-a93b-d7bb5181deec
-
 ms.date: 12/05/2018
 ms.keywords: UuidEqual, UuidEqual function [RPC], _rpc_uuidequal, rpc.uuidequal, rpcdce/UuidEqual
 ms.topic: function
-f1_keywords: 
- - "rpcdce/UuidEqual"
+f1_keywords:
+- rpcdce/UuidEqual
 dev_langs:
- - c++
+- c++
 req.header: rpcdce.h
 req.include-header: Rpc.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Rpcrt4.lib
 req.dll: Rpcrt4.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Rpcrt4.dll
+- Rpcrt4.dll
 api_name:
- - UuidEqual
+- UuidEqual
 targetos: Windows
 req.typenames: 
 req.redist: 

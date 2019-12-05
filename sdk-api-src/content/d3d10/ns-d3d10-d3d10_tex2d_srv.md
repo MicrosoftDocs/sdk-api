@@ -1,19 +1,17 @@
 ---
 UID: NS:d3d10.D3D10_TEX2D_SRV
 title: D3D10_TEX2D_SRV (d3d10.h)
-
 description: Specifies the subresource from a 2D texture to use in a shader-resource view.
 old-location: direct3d10\d3d10_tex2d_srv.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\d3d10_tex2d_srv.htm
-
 ms.date: 12/05/2018
 ms.keywords: 5bf72fed-cee3-8ae0-84b6-c5633c5746a3, D3D10_TEX2D_SRV, D3D10_TEX2D_SRV structure [Direct3D 10], d3d10/D3D10_TEX2D_SRV, direct3d10.d3d10_tex2d_srv
 ms.topic: struct
-f1_keywords: 
- - "d3d10/D3D10_TEX2D_SRV"
+f1_keywords:
+- d3d10/D3D10_TEX2D_SRV
 dev_langs:
- - c++
+- c++
 req.header: d3d10.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - D3D10.h
+- D3D10.h
 api_name:
- - D3D10_TEX2D_SRV
+- D3D10_TEX2D_SRV
 targetos: Windows
 req.typenames: D3D10_TEX2D_SRV
 req.redist: 

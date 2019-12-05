@@ -1,19 +1,17 @@
 ---
 UID: NF:scclient.CSecureChannelClient.DecryptParam
 title: CSecureChannelClient::DecryptParam (scclient.h)
-
 description: The DecryptParam method decrypts data received through a parameter. Encryption is performed in-place on the encrypted data.
 old-location: wmdm\csecurechannelclient_decryptparam.htm
 tech.root: WMDM
 ms.assetid: 4e19b86c-9efc-4c20-bac9-8cd6b944f69e
-
 ms.date: 12/05/2018
 ms.keywords: CSecureChannelClient class [windows Media Device Manager],DecryptParam method, CSecureChannelClient.DecryptParam, CSecureChannelClient::DecryptParam, CSecureChannelClientDecryptParam, DecryptParam, DecryptParam method [windows Media Device Manager], DecryptParam method [windows Media Device Manager],CSecureChannelClient class, scclient/CSecureChannelClient::DecryptParam, wmdm.csecurechannelclient_decryptparam
 ms.topic: method
-f1_keywords: 
- - "scclient/CSecureChannelClient.DecryptParam"
+f1_keywords:
+- scclient/CSecureChannelClient.DecryptParam
 dev_langs:
- - c++
+- c++
 req.header: scclient.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mssachlp.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mssachlp.lib
- - mssachlp.dll
+- mssachlp.lib
+- mssachlp.dll
 api_name:
- - CSecureChannelClient.DecryptParam
+- CSecureChannelClient.DecryptParam
 targetos: Windows
 req.typenames: 
 req.redist: 

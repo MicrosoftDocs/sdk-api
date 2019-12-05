@@ -1,19 +1,17 @@
 ---
 UID: NF:appxpackaging.IAppxPackageWriter2.Close
 title: IAppxPackageWriter2::Close (appxpackaging.h)
-
 description: Closes the package writer object's output stream.
 old-location: appxpkg\iappxpackagewriter2_close.htm
 tech.root: appxpkg
 ms.assetid: C972B7D0-9E78-4E17-AA64-C33631A57A8F
-
 ms.date: 12/05/2018
 ms.keywords: Close, Close method [App packaging and management], Close method [App packaging and management],IAppxPackageWriter2 interface, IAppxPackageWriter2 interface [App packaging and management],Close method, IAppxPackageWriter2.Close, IAppxPackageWriter2::Close, appxpackaging/IAppxPackageWriter2::Close, appxpkg.iappxpackagewriter2_close
 ms.topic: method
-f1_keywords: 
- - "appxpackaging/IAppxPackageWriter2.Close"
+f1_keywords:
+- appxpackaging/IAppxPackageWriter2.Close
 dev_langs:
- - c++
+- c++
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - AppxPackaging.h
+- AppxPackaging.h
 api_name:
- - IAppxPackageWriter2.Close
+- IAppxPackageWriter2.Close
 targetos: Windows
 req.typenames: 
 req.redist: 

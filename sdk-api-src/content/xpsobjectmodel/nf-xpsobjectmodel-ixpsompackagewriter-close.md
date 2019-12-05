@@ -1,19 +1,17 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMPackageWriter.Close
 title: IXpsOMPackageWriter::Close (xpsobjectmodel.h)
-
 description: Closes any open parts of the package, then closes the package.
 old-location: xps\ixpsompackagewriter_close.htm
 tech.root: printdocs
 ms.assetid: 916fbdaa-bef7-4a6f-9259-47347b47dc27
-
 ms.date: 12/05/2018
 ms.keywords: Close, Close method [XPS Documents and Packaging], Close method [XPS Documents and Packaging],IXpsOMPackageWriter interface, Close method [XPS Documents and Packaging],IXpsOMPackageWriter3D interface, IXpsOMPackageWriter interface [XPS Documents and Packaging],Close method, IXpsOMPackageWriter.Close, IXpsOMPackageWriter3D interface [XPS Documents and Packaging],Close method, IXpsOMPackageWriter3D::Close, IXpsOMPackageWriter::Close, xps.ixpsompackagewriter_close, xpsobjectmodel/IXpsOMPackageWriter3D::Close, xpsobjectmodel/IXpsOMPackageWriter::Close
 ms.topic: method
-f1_keywords: 
- - "xpsobjectmodel/IXpsOMPackageWriter.Close"
+f1_keywords:
+- xpsobjectmodel/IXpsOMPackageWriter.Close
 dev_langs:
- - c++
+- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsobjectmodel.h
+- xpsobjectmodel.h
 api_name:
- - IXpsOMPackageWriter.Close
- - IXpsOMPackageWriter3D.Close
+- IXpsOMPackageWriter.Close
+- IXpsOMPackageWriter3D.Close
 targetos: Windows
 req.typenames: 
 req.redist: 

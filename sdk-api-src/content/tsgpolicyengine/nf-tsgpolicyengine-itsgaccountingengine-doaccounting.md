@@ -1,19 +1,17 @@
 ---
 UID: NF:tsgpolicyengine.ITSGAccountingEngine.DoAccounting
 title: ITSGAccountingEngine::DoAccounting (tsgpolicyengine.h)
-
 description: Provides information about the creation or closing of sessions for a connection.
 old-location: termserv\itsgaccountingengine_doaccounting.htm
 tech.root: TermServ
 ms.assetid: ebc57caa-804b-46a4-96bb-8b50c13029ab
-
 ms.date: 12/05/2018
 ms.keywords: DoAccounting, DoAccounting method [Remote Desktop Services], DoAccounting method [Remote Desktop Services],ITSGAccountingEngine interface, ITSGAccountingEngine interface [Remote Desktop Services],DoAccounting method, ITSGAccountingEngine.DoAccounting, ITSGAccountingEngine::DoAccounting, termserv.itsgaccountingengine_doaccounting, tsgpolicyengine/ITSGAccountingEngine::DoAccounting
 ms.topic: method
-f1_keywords: 
- - "tsgpolicyengine/ITSGAccountingEngine.DoAccounting"
+f1_keywords:
+- tsgpolicyengine/ITSGAccountingEngine.DoAccounting
 dev_langs:
- - c++
+- c++
 req.header: tsgpolicyengine.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - TSGPolicyEngine.h
+- TSGPolicyEngine.h
 api_name:
- - ITSGAccountingEngine.DoAccounting
+- ITSGAccountingEngine.DoAccounting
 targetos: Windows
 req.typenames: 
 req.redist: 

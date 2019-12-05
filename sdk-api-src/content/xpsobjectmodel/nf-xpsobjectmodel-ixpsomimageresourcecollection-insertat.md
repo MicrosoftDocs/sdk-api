@@ -1,19 +1,17 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMImageResourceCollection.InsertAt
 title: IXpsOMImageResourceCollection::InsertAt (xpsobjectmodel.h)
-
 description: Inserts an IXpsOMImageResource interface pointer at a specified location in the collection.
 old-location: xps\ixpsomimageresourcecollection_insertat.htm
 tech.root: printdocs
 ms.assetid: 46bb3a49-f875-4b52-98f4-cec475f46019
-
 ms.date: 12/05/2018
 ms.keywords: IXpsOMImageResourceCollection interface [XPS Documents and Packaging],InsertAt method, IXpsOMImageResourceCollection.InsertAt, IXpsOMImageResourceCollection::InsertAt, InsertAt, InsertAt method [XPS Documents and Packaging], InsertAt method [XPS Documents and Packaging],IXpsOMImageResourceCollection interface, xps.ixpsomimageresourcecollection_insertat, xpsobjectmodel/IXpsOMImageResourceCollection::InsertAt
 ms.topic: method
-f1_keywords: 
- - "xpsobjectmodel/IXpsOMImageResourceCollection.InsertAt"
+f1_keywords:
+- xpsobjectmodel/IXpsOMImageResourceCollection.InsertAt
 dev_langs:
- - c++
+- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsobjectmodel.h
+- xpsobjectmodel.h
 api_name:
- - IXpsOMImageResourceCollection.InsertAt
+- IXpsOMImageResourceCollection.InsertAt
 targetos: Windows
 req.typenames: 
 req.redist: 

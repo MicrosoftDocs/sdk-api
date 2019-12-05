@@ -1,19 +1,17 @@
 ---
 UID: NF:setupapi.SetupGetLineCountW
 title: SetupGetLineCountW function (setupapi.h)
-
 description: The SetupGetLineCount function returns the number of lines in a specified section of an INF file.
 old-location: setup\setupgetlinecount.htm
 tech.root: SetupApi
 ms.assetid: 08c98745-ecbd-47b4-9d73-2d6765285bae
-
 ms.date: 12/05/2018
 ms.keywords: SetupGetLineCount, SetupGetLineCount function [Setup API], SetupGetLineCountA, SetupGetLineCountW, _setupapi_setupgetlinecount, setup.setupgetlinecount, setupapi/SetupGetLineCount, setupapi/SetupGetLineCountA, setupapi/SetupGetLineCountW
 ms.topic: function
-f1_keywords: 
- - "setupapi/SetupGetLineCount"
+f1_keywords:
+- setupapi/SetupGetLineCount
 dev_langs:
- - c++
+- c++
 req.header: setupapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Setupapi.lib
 req.dll: Setupapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Setupapi.dll
- - Ext-MS-Win-SetupAPI-Inf-L1-1-1.dll
+- Setupapi.dll
+- Ext-MS-Win-SetupAPI-Inf-L1-1-1.dll
 api_name:
- - SetupGetLineCount
- - SetupGetLineCountA
- - SetupGetLineCountW
+- SetupGetLineCount
+- SetupGetLineCountA
+- SetupGetLineCountW
 targetos: Windows
 req.typenames: 
 req.redist: 

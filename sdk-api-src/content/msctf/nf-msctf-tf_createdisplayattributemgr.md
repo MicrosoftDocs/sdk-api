@@ -1,19 +1,17 @@
 ---
 UID: NF:msctf.TF_CreateDisplayAttributeMgr
 title: TF_CreateDisplayAttributeMgr function (msctf.h)
-
 description: The TF_CreateDisplayAttributeMgr function is used to create a display attribute manager object without having to initialize COM.
 old-location: tsf\tf_createdisplayattributemgr.htm
 tech.root: TSF
 ms.assetid: d50ab73d-6266-4aaa-8053-ebbc84ec1e2c
-
 ms.date: 12/05/2018
 ms.keywords: TF_CreateDisplayAttributeMgr, TF_CreateDisplayAttributeMgr function [Text Services Framework], msctf/TF_CreateDisplayAttributeMgr, tsf.tf_createdisplayattributemgr
 ms.topic: function
-f1_keywords: 
- - "msctf/TF_CreateDisplayAttributeMgr"
+f1_keywords:
+- msctf/TF_CreateDisplayAttributeMgr
 dev_langs:
- - c++
+- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msctf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - msctf.dll
+- msctf.dll
 api_name:
- - TF_CreateDisplayAttributeMgr
+- TF_CreateDisplayAttributeMgr
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

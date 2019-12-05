@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IVMRFilterConfig.GetNumberOfStreams
 title: IVMRFilterConfig::GetNumberOfStreams (strmif.h)
-
 description: The GetNumberOfStreams method retrieves the number of input streams being mixed.
 old-location: dshow\ivmrfilterconfig_getnumberofstreams.htm
 tech.root: DirectShow
 ms.assetid: e031c427-23bb-4243-bb38-0837a6db8c2c
-
 ms.date: 12/05/2018
 ms.keywords: GetNumberOfStreams, GetNumberOfStreams method [DirectShow], GetNumberOfStreams method [DirectShow],IVMRFilterConfig interface, IVMRFilterConfig interface [DirectShow],GetNumberOfStreams method, IVMRFilterConfig.GetNumberOfStreams, IVMRFilterConfig::GetNumberOfStreams, IVMRFilterConfigGetNumberOfStreams, dshow.ivmrfilterconfig_getnumberofstreams, strmif/IVMRFilterConfig::GetNumberOfStreams
 ms.topic: method
-f1_keywords: 
- - "strmif/IVMRFilterConfig.GetNumberOfStreams"
+f1_keywords:
+- strmif/IVMRFilterConfig.GetNumberOfStreams
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IVMRFilterConfig.GetNumberOfStreams
+- IVMRFilterConfig.GetNumberOfStreams
 targetos: Windows
 req.typenames: 
 req.redist: 

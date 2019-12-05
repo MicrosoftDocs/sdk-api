@@ -1,19 +1,17 @@
 ---
 UID: NF:mileffects.IMILBitmapEffectConnectionsInfo.GetNumberOutputs
 title: IMILBitmapEffectConnectionsInfo::GetNumberOutputs (mileffects.h)
-
 description: Retrieves the number of output pins the bitmap effect implements.
 old-location: wibe\_wibe_imilbitmapeffectconnectionsinfo_getnumberoutputs.htm
 tech.root: wibe
 ms.assetid: VS|wibe|~\wibelh\reference\ifaces\imilbitmapeffectconnectionsinfo\getnumberoutputs.htm
-
 ms.date: 12/05/2018
 ms.keywords: GetNumberOutputs, GetNumberOutputs method [WPF Bitmap Effects], GetNumberOutputs method [WPF Bitmap Effects],IMILBitmapEffectConnectionsInfo interface, IMILBitmapEffectConnectionsInfo interface [WPF Bitmap Effects],GetNumberOutputs method, IMILBitmapEffectConnectionsInfo.GetNumberOutputs, IMILBitmapEffectConnectionsInfo::GetNumberOutputs, _wibe_imilbitmapeffectconnectionsinfo_getnumberoutputs, mileffects/IMILBitmapEffectConnectionsInfo::GetNumberOutputs, wibe._wibe_imilbitmapeffectconnectionsinfo_getnumberoutputs
 ms.topic: method
-f1_keywords: 
- - "mileffects/IMILBitmapEffectConnectionsInfo.GetNumberOutputs"
+f1_keywords:
+- mileffects/IMILBitmapEffectConnectionsInfo.GetNumberOutputs
 dev_langs:
- - c++
+- c++
 req.header: mileffects.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mileffects.h
+- Mileffects.h
 api_name:
- - IMILBitmapEffectConnectionsInfo.GetNumberOutputs
+- IMILBitmapEffectConnectionsInfo.GetNumberOutputs
 targetos: Windows
 req.typenames: 
 req.redist: Microsoft .Net 3.0

@@ -1,19 +1,17 @@
 ---
 UID: NF:tom.ITextFont.SetOutline
 title: ITextFont::SetOutline (tom.h)
-
 description: Sets whether characters are displayed as outlined characters.
 old-location: controls\ITextFont_SetOutline.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\setoutline.htm
-
 ms.date: 12/05/2018
 ms.keywords: ITextFont interface [Windows Controls],SetOutline method, ITextFont.SetOutline, ITextFont::SetOutline, SetOutline, SetOutline method [Windows Controls], SetOutline method [Windows Controls],ITextFont interface, _win32_ITextFont_SetOutline, _win32_ITextFont_SetOutline_cpp, controls.ITextFont_SetOutline, controls._win32_ITextFont_SetOutline, tom/ITextFont::SetOutline
 ms.topic: method
-f1_keywords: 
- - "tom/ITextFont.SetOutline"
+f1_keywords:
+- tom/ITextFont.SetOutline
 dev_langs:
- - c++
+- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msftedit.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msftedit.dll
+- Msftedit.dll
 api_name:
- - ITextFont.SetOutline
+- ITextFont.SetOutline
 targetos: Windows
 req.typenames: 
 req.redist: 

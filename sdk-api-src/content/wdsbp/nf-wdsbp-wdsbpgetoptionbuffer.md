@@ -1,19 +1,17 @@
 ---
 UID: NF:wdsbp.WdsBpGetOptionBuffer
 title: WdsBpGetOptionBuffer function (wdsbp.h)
-
 description: Copies information into a buffer that should be added to your DHCP packet options.
 old-location: wds\wdsbpgetoptionbuffer.htm
 tech.root: wds
 ms.assetid: 2bd4105d-0066-4c6b-a1c0-fe9b633a6ad6
-
 ms.date: 12/05/2018
 ms.keywords: WdsBpGetOptionBuffer, WdsBpGetOptionBuffer function [Windows Deployment Services], wds.wdsbpgetoptionbuffer, wdsbp/WdsBpGetOptionBuffer
 ms.topic: function
-f1_keywords: 
- - "wdsbp/WdsBpGetOptionBuffer"
+f1_keywords:
+- wdsbp/WdsBpGetOptionBuffer
 dev_langs:
- - c++
+- c++
 req.header: wdsbp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Wdsbp.lib
 req.dll: Wdsbp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Wdsbp.dll
+- Wdsbp.dll
 api_name:
- - WdsBpGetOptionBuffer
+- WdsBpGetOptionBuffer
 targetos: Windows
 req.typenames: 
 req.redist: 

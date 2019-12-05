@@ -1,19 +1,17 @@
 ---
 UID: NF:wsdclient.WSDCreateDeviceProxyAdvanced
 title: WSDCreateDeviceProxyAdvanced function (wsdclient.h)
-
 description: Creates a device proxy and returns a pointer to the IWSDDeviceProxy interface.
 old-location: ncd\wsdcreatedeviceproxyadvanced.htm
 tech.root: WsdApi
 ms.assetid: 31ddf62a-71d3-4f66-a704-2ee9e1fc8145
-
 ms.date: 12/05/2018
 ms.keywords: WSDCreateDeviceProxyAdvanced, WSDCreateDeviceProxyAdvanced function, ncd.wsdcreatedeviceproxyadvanced, wsdclient/WSDCreateDeviceProxyAdvanced
 ms.topic: function
-f1_keywords: 
- - "wsdclient/WSDCreateDeviceProxyAdvanced"
+f1_keywords:
+- wsdclient/WSDCreateDeviceProxyAdvanced
 dev_langs:
- - c++
+- c++
 req.header: wsdclient.h
 req.include-header: Wsdapi.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Wsdapi.lib
 req.dll: Wsdapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Wsdapi.dll
+- Wsdapi.dll
 api_name:
- - WSDCreateDeviceProxyAdvanced
+- WSDCreateDeviceProxyAdvanced
 targetos: Windows
 req.typenames: 
 req.redist: 

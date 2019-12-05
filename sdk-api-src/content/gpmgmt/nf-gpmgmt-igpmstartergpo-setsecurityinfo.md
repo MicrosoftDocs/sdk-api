@@ -1,19 +1,17 @@
 ---
 UID: NF:gpmgmt.IGPMStarterGPO.SetSecurityInfo
 title: IGPMStarterGPO::SetSecurityInfo (gpmgmt.h)
-
 description: Sets the list of permissions for the Group Policy object (GPO).
 old-location: gpmc\igpmstartergpo_setsecurityinfo.htm
 tech.root: gpmc
 ms.assetid: ad4df57f-29b3-4a18-922a-a0d4457703ad
-
 ms.date: 12/05/2018
 ms.keywords: IGPMStarterGPO interface [GPMC],SetSecurityInfo method, IGPMStarterGPO.SetSecurityInfo, IGPMStarterGPO::SetSecurityInfo, SetSecurityInfo, SetSecurityInfo method [GPMC], SetSecurityInfo method [GPMC],IGPMStarterGPO interface, gpmc.igpmstartergpo_setsecurityinfo, gpmgmt/IGPMStarterGPO::SetSecurityInfo
 ms.topic: method
-f1_keywords: 
- - "gpmgmt/IGPMStarterGPO.SetSecurityInfo"
+f1_keywords:
+- gpmgmt/IGPMStarterGPO.SetSecurityInfo
 dev_langs:
- - c++
+- c++
 req.header: gpmgmt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Gpmgmt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - gpmgmt.dll
+- gpmgmt.dll
 api_name:
- - IGPMStarterGPO.SetSecurityInfo
+- IGPMStarterGPO.SetSecurityInfo
 targetos: Windows
 req.typenames: 
 req.redist: 

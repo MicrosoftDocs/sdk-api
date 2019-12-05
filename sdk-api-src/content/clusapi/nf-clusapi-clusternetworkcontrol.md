@@ -1,19 +1,17 @@
 ---
 UID: NF:clusapi.ClusterNetworkControl
 title: ClusterNetworkControl function (clusapi.h)
-
 description: Initiates an operation on a network. The operation performed depends on the control code passed to the dwControlCode parameter.
 old-location: mscs\clusternetworkcontrol.htm
 tech.root: MsCS
 ms.assetid: df0d7b45-4d8b-4780-944a-0fbba670f99a
-
 ms.date: 12/05/2018
 ms.keywords: ClusterNetworkControl, ClusterNetworkControl function [Failover Cluster], _wolf_clusternetworkcontrol, clusapi/ClusterNetworkControl, mscs.clusternetworkcontrol
 ms.topic: function
-f1_keywords: 
- - "clusapi/ClusterNetworkControl"
+f1_keywords:
+- clusapi/ClusterNetworkControl
 dev_langs:
- - c++
+- c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: ClusAPI.lib
 req.dll: ClusAPI.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - ClusAPI.dll
+- ClusAPI.dll
 api_name:
- - ClusterNetworkControl
+- ClusterNetworkControl
 targetos: Windows
 req.typenames: 
 req.redist: 

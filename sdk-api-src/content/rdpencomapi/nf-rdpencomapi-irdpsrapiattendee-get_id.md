@@ -1,19 +1,17 @@
 ---
 UID: NF:rdpencomapi.IRDPSRAPIAttendee.get_Id
 title: IRDPSRAPIAttendee::get_Id (rdpencomapi.h)
-
 description: The unique identifier for the attendee.
 old-location: rdp\irdpsrapiattendee_id.htm
 tech.root: rdp
 ms.assetid: 9ed04c11-d3cc-4846-88e8-aad9fb23fee8
-
 ms.date: 12/05/2018
 ms.keywords: CONST_ATTENDEE_ID_DEFAULT, IRDPSRAPIAttendee interface [RDP],Id property, IRDPSRAPIAttendee.Id, IRDPSRAPIAttendee.get_Id, IRDPSRAPIAttendee::Id, IRDPSRAPIAttendee::get_Id, Id property [RDP], Id property [RDP],IRDPSRAPIAttendee interface, Id property [RDP],RDPSRAPIAttendee object, RDPSRAPIAttendee object [RDP],Id property, get_Id, rdp.irdpsrapiattendee_id, rdpencomapi/IRDPSRAPIAttendee::Id, rdpencomapi/IRDPSRAPIAttendee::get_Id
 ms.topic: method
-f1_keywords: 
- - "rdpencomapi/IRDPSRAPIAttendee.Id"
+f1_keywords:
+- rdpencomapi/IRDPSRAPIAttendee.Id
 dev_langs:
- - c++
+- c++
 req.header: rdpencomapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: RdpEncom.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - RdpEncom.dll
+- RdpEncom.dll
 api_name:
- - IRDPSRAPIAttendee.Id
- - IRDPSRAPIAttendee.get_Id
- - RDPSRAPIAttendee.Id
+- IRDPSRAPIAttendee.Id
+- IRDPSRAPIAttendee.get_Id
+- RDPSRAPIAttendee.Id
 targetos: Windows
 req.typenames: 
 req.redist: 

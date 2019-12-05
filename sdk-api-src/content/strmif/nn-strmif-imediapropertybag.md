@@ -1,19 +1,17 @@
 ---
 UID: NN:strmif.IMediaPropertyBag
 title: IMediaPropertyBag (strmif.h)
-
 description: The IMediaPropertyBag interface is exposed by the Media Property Bag object.
 old-location: dshow\imediapropertybag.htm
 tech.root: DirectShow
 ms.assetid: 6f134160-b0aa-44fd-b1b9-938f11349eac
-
 ms.date: 12/05/2018
 ms.keywords: IMediaPropertyBag, IMediaPropertyBag interface [DirectShow], IMediaPropertyBag interface [DirectShow],described, IMediaPropertyBagInterface, dshow.imediapropertybag, strmif/IMediaPropertyBag
 ms.topic: interface
-f1_keywords: 
- - "strmif/IMediaPropertyBag"
+f1_keywords:
+- strmif/IMediaPropertyBag
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IMediaPropertyBag
+- IMediaPropertyBag
 targetos: Windows
 req.typenames: 
 req.redist: 

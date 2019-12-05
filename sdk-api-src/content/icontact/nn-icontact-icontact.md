@@ -1,19 +1,17 @@
 ---
 UID: NN:icontact.IContact
 title: IContact (icontact.h)
-
 description: Do not use. Defines methods for reading and writing properties for a single contact.
 old-location: wincontacts\_wincontacts_IContact.htm
 tech.root: wincontacts
 ms.assetid: 9dc97b84-ede9-4ec1-939a-2b13e0d68486
-
 ms.date: 12/05/2018
 ms.keywords: IContact, IContact interface [Windows Contacts], IContact interface [Windows Contacts],described, _wincontacts_IContact, icontact/IContact, wincontacts._wincontacts_IContact
 ms.topic: interface
-f1_keywords: 
- - "icontact/IContact"
+f1_keywords:
+- icontact/IContact
 dev_langs:
- - c++
+- c++
 req.header: icontact.h
 req.include-header: Contact.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wab32.dll (Version 6.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wab32.dll
+- Wab32.dll
 api_name:
- - IContact
+- IContact
 targetos: Windows
 req.typenames: 
 req.redist: 

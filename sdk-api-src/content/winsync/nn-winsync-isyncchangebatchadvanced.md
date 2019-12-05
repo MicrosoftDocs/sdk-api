@@ -1,19 +1,17 @@
 ---
 UID: NN:winsync.ISyncChangeBatchAdvanced
 title: ISyncChangeBatchAdvanced (winsync.h)
-
 description: Represents additional information about a set of changes.
 old-location: winsync\isyncchangebatchadvanced.htm
 tech.root: winsync
 ms.assetid: b78bc885-ed4e-4c83-ad1b-043c5b226337
-
 ms.date: 12/05/2018
 ms.keywords: ISyncChangeBatchAdvanced, ISyncChangeBatchAdvanced interface [Windows Sync], ISyncChangeBatchAdvanced interface [Windows Sync],described, winsync.isyncchangebatchadvanced, winsync/ISyncChangeBatchAdvanced
 ms.topic: interface
-f1_keywords: 
- - "winsync/ISyncChangeBatchAdvanced"
+f1_keywords:
+- winsync/ISyncChangeBatchAdvanced
 dev_langs:
- - c++
+- c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - winsync.h
+- winsync.h
 api_name:
- - ISyncChangeBatchAdvanced
+- ISyncChangeBatchAdvanced
 targetos: Windows
 req.typenames: 
 req.redist: 

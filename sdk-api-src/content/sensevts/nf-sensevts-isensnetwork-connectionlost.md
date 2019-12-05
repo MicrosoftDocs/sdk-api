@@ -1,19 +1,17 @@
 ---
 UID: NF:sensevts.ISensNetwork.ConnectionLost
 title: ISensNetwork::ConnectionLost (sensevts.h)
-
 description: The ConnectionLost method notifies your application that the specified connection has been dropped.
 old-location: sens\isensnetwork_connectionlost.htm
 tech.root: Sens
 ms.assetid: b91e46b9-7931-4959-97de-fa882a56e406
-
 ms.date: 12/05/2018
 ms.keywords: CONNECTION_LAN, CONNECTION_WAN, ConnectionLost, ConnectionLost method [SENS], ConnectionLost method [SENS],ISensNetwork interface, ISensNetwork interface [SENS],ConnectionLost method, ISensNetwork.ConnectionLost, ISensNetwork::ConnectionLost, _zaw_isensnetwork_connectionlost, sens.isensnetwork_connectionlost, sensevts/ISensNetwork::ConnectionLost, syncmgr.isensnetwork_connectionlost
 ms.topic: method
-f1_keywords: 
- - "sensevts/ISensNetwork.ConnectionLost"
+f1_keywords:
+- sensevts/ISensNetwork.ConnectionLost
 dev_langs:
- - c++
+- c++
 req.header: sensevts.h
 req.include-header: Sensevts.h, Sens.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Sens.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Sens.dll
+- Sens.dll
 api_name:
- - ISensNetwork.ConnectionLost
+- ISensNetwork.ConnectionLost
 targetos: Windows
 req.typenames: 
 req.redist: 

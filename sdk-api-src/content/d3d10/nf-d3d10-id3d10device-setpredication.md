@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d10.ID3D10Device.SetPredication
 title: ID3D10Device::SetPredication (d3d10.h)
-
 description: Set a rendering predicate.
 old-location: direct3d10\id3d10device_setpredication.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10device_setpredication.htm
-
 ms.date: 12/05/2018
 ms.keywords: 20a67636-3d02-6716-b38e-39b2f601230b, ID3D10Device interface [Direct3D 10],SetPredication method, ID3D10Device.SetPredication, ID3D10Device::SetPredication, SetPredication, SetPredication method [Direct3D 10], SetPredication method [Direct3D 10],ID3D10Device interface, d3d10/ID3D10Device::SetPredication, direct3d10.id3d10device_setpredication
 ms.topic: method
-f1_keywords: 
- - "d3d10/ID3D10Device.SetPredication"
+f1_keywords:
+- d3d10/ID3D10Device.SetPredication
 dev_langs:
- - c++
+- c++
 req.header: d3d10.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: D3D10.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D10.lib
- - D3D10.dll
+- D3D10.lib
+- D3D10.dll
 api_name:
- - ID3D10Device.SetPredication
+- ID3D10Device.SetPredication
 targetos: Windows
 req.typenames: 
 req.redist: 

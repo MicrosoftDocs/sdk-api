@@ -1,19 +1,17 @@
 ---
 UID: NS:mfplay.MFP_MEDIAITEM_SET_EVENT
 title: MFP_MEDIAITEM_SET_EVENT (mfplay.h)
-
 description: Event structure for the MFP_EVENT_TYPE_MEDIAITEM_SET event.
 old-location: mf\mfp_mediaitem_set_event.htm
 tech.root: medfound
 ms.assetid: 51ff492f-8199-4e1a-8d8b-d86bbb3c98dc
-
 ms.date: 12/05/2018
 ms.keywords: MFP_MEDIAITEM_SET_EVENT, MFP_MEDIAITEM_SET_EVENT structure [Media Foundation], mf.mfp_mediaitem_set_event, mfplay/MFP_MEDIAITEM_SET_EVENT
 ms.topic: struct
-f1_keywords: 
- - "mfplay/MFP_MEDIAITEM_SET_EVENT"
+f1_keywords:
+- mfplay/MFP_MEDIAITEM_SET_EVENT
 dev_langs:
- - c++
+- c++
 req.header: mfplay.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - mfplay.h
+- mfplay.h
 api_name:
- - MFP_MEDIAITEM_SET_EVENT
+- MFP_MEDIAITEM_SET_EVENT
 targetos: Windows
 req.typenames: MFP_MEDIAITEM_SET_EVENT
 req.redist: 

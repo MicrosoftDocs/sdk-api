@@ -1,19 +1,17 @@
 ---
 UID: NF:photoacquire.IPhotoAcquireProgressCB.FoundItem
 title: IPhotoAcquireProgressCB::FoundItem (photoacquire.h)
-
 description: The FoundItem method provides extended functionality each time an item is found during enumeration of items from the device.
 old-location: picacq\iphotoacquireprogresscb_founditem.htm
 tech.root: acquisition
 ms.assetid: b80fb2f2-57b7-4333-891e-32eba0347a17
-
 ms.date: 12/05/2018
 ms.keywords: FoundItem, FoundItem method [Picture Acquisition], FoundItem method [Picture Acquisition],IPhotoAcquireProgressCB interface, IPhotoAcquireProgressCB, IPhotoAcquireProgressCB interface [Picture Acquisition],FoundItem method, IPhotoAcquireProgressCB.FoundItem, IPhotoAcquireProgressCB::FoundItem, photoacquire/IPhotoAcquireProgressCB::FoundItem, picacq.iphotoacquireprogresscb_founditem
 ms.topic: method
-f1_keywords: 
- - "photoacquire/IPhotoAcquireProgressCB.FoundItem"
+f1_keywords:
+- photoacquire/IPhotoAcquireProgressCB.FoundItem
 dev_langs:
- - c++
+- c++
 req.header: photoacquire.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: PhotoAcquireUID.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - PhotoAcquireUID.lib
- - PhotoAcquireUID.dll
+- PhotoAcquireUID.lib
+- PhotoAcquireUID.dll
 api_name:
- - IPhotoAcquireProgressCB.FoundItem
+- IPhotoAcquireProgressCB.FoundItem
 targetos: Windows
 req.typenames: 
 req.redist: 

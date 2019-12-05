@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d12shader.ID3D12ShaderReflectionType.ImplementsInterface
 title: ID3D12ShaderReflectionType::ImplementsInterface (d3d12shader.h)
-
 description: Indicates whether a class type implements an interface.
 old-location: direct3d12\id3d12shaderreflectiontype_implementsinterface.htm
 tech.root: direct3d12
 ms.assetid: FE84D58A-998D-4362-96B2-5C00D2A82CB8
-
 ms.date: 12/05/2018
 ms.keywords: ID3D12ShaderReflectionType interface,ImplementsInterface method, ID3D12ShaderReflectionType.ImplementsInterface, ID3D12ShaderReflectionType::ImplementsInterface, ImplementsInterface, ImplementsInterface method, ImplementsInterface method,ID3D12ShaderReflectionType interface, d3d12shader/ID3D12ShaderReflectionType::ImplementsInterface, direct3d12.id3d12shaderreflectiontype_implementsinterface
 ms.topic: method
-f1_keywords: 
- - "d3d12shader/ID3D12ShaderReflectionType.ImplementsInterface"
+f1_keywords:
+- d3d12shader/ID3D12ShaderReflectionType.ImplementsInterface
 dev_langs:
- - c++
+- c++
 req.header: d3d12shader.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - d3d12shader.h
+- d3d12shader.h
 api_name:
- - ID3D12ShaderReflectionType.ImplementsInterface
+- ID3D12ShaderReflectionType.ImplementsInterface
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:comppkgsup.RequireNetworkDuringMediaTaskCompletion
 title: RequireNetworkDuringMediaTaskCompletion function (comppkgsup.h)
-
 description: Increments or decrements the count of network connections required for media task completion.
 old-location: winprog\requirenetworkduringmediataskcompletion.htm
 tech.root: DevNotes
 ms.assetid: D3A1E926-CC9C-4E5E-B588-A45B2FEE9FAF
-
 ms.date: 12/05/2018
 ms.keywords: RequireNetworkDuringMediaTaskCompletion, RequireNetworkDuringMediaTaskCompletion function [Windows API], comppkgsup/RequireNetworkDuringMediaTaskCompletion, winprog.requirenetworkduringmediataskcompletion
 ms.topic: function
-f1_keywords: 
- - "comppkgsup/RequireNetworkDuringMediaTaskCompletion"
+f1_keywords:
+- comppkgsup/RequireNetworkDuringMediaTaskCompletion
 dev_langs:
- - c++
+- c++
 req.header: comppkgsup.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Comppkgsup.lib
 req.dll: CompPkgSup.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - CompPkgSup.dll
+- CompPkgSup.dll
 api_name:
- - RequireNetworkDuringMediaTaskCompletion
+- RequireNetworkDuringMediaTaskCompletion
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:dsclient.IDsBrowseDomainTree.SetComputer
 title: IDsBrowseDomainTree::SetComputer (dsclient.h)
-
 description: Specifies the computer and credentials to be used by this instance of the IDsBrowseDomainTree interface.
 old-location: ad\idsbrowsedomaintree_setcomputer.htm
 tech.root: ad
 ms.assetid: 1e070673-ce8d-4f68-a066-5baf38180745
-
 ms.date: 12/05/2018
 ms.keywords: IDsBrowseDomainTree interface [Active Directory],SetComputer method, IDsBrowseDomainTree.SetComputer, IDsBrowseDomainTree::SetComputer, SetComputer, SetComputer method [Active Directory], SetComputer method [Active Directory],IDsBrowseDomainTree interface, _glines_idsbrowsedomaintree_setcomputer, ad.idsbrowsedomaintree__setcomputer, ad.idsbrowsedomaintree_setcomputer, dsclient/IDsBrowseDomainTree::SetComputer
 ms.topic: method
-f1_keywords: 
- - "dsclient/IDsBrowseDomainTree.SetComputer"
+f1_keywords:
+- dsclient/IDsBrowseDomainTree.SetComputer
 dev_langs:
- - c++
+- c++
 req.header: dsclient.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Dsadmin.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dsadmin.dll
+- Dsadmin.dll
 api_name:
- - IDsBrowseDomainTree.SetComputer
+- IDsBrowseDomainTree.SetComputer
 targetos: Windows
 req.typenames: 
 req.redist: 

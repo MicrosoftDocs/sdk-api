@@ -1,19 +1,17 @@
 ---
 UID: NF:objidl.IPipeByte.Push
 title: IPipeByte::Push (objidl.h)
-
 description: Sends data of the byte type to the pipe source.
 old-location: com\ipipebyte_push.htm
 tech.root: com
 ms.assetid: 7dd672d3-22ef-4786-85e0-d5c2ebabaea2
-
 ms.date: 12/05/2018
 ms.keywords: IPipeByte interface [COM],Push method, IPipeByte.Push, IPipeByte::Push, Push, Push method [COM], Push method [COM],IPipeByte interface, _com_ipipebyte_push, com.ipipebyte_push, objidlbase/IPipeByte::Push
 ms.topic: method
-f1_keywords: 
- - "objidl/IPipeByte.Push"
+f1_keywords:
+- objidl/IPipeByte.Push
 dev_langs:
- - c++
+- c++
 req.header: objidl.h
 req.include-header: ObjIdl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - objidlbase.h
+- objidlbase.h
 api_name:
- - IPipeByte.Push
+- IPipeByte.Push
 targetos: Windows
 req.typenames: 
 req.redist: 

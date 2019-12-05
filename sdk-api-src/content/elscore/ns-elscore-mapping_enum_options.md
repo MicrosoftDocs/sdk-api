@@ -1,19 +1,17 @@
 ---
 UID: NS:elscore._MAPPING_ENUM_OPTIONS
 title: MAPPING_ENUM_OPTIONS (elscore.h)
-
 description: Contains options used by the MappingGetServices function to enumerate ELS services.
 old-location: intl\mappingenumoptions.htm
 tech.root: Intl
 ms.assetid: 3c5a0c04-9789-48dc-bc8f-a8b5ff350e27
-
 ms.date: 12/05/2018
-ms.keywords: "*PMAPPING_ENUM_OPTIONS, MAPPING_ENUM_OPTIONS, MAPPING_ENUM_OPTIONS structure [Internationalization for Windows Applications], PMAPPING_ENUM_OPTIONS, PMAPPING_ENUM_OPTIONS structure pointer [Internationalization for Windows Applications], elscore/MAPPING_ENUM_OPTIONS, elscore/PMAPPING_ENUM_OPTIONS, intl.mappingenumoptions"
+ms.keywords: '*PMAPPING_ENUM_OPTIONS, MAPPING_ENUM_OPTIONS, MAPPING_ENUM_OPTIONS structure [Internationalization for Windows Applications], PMAPPING_ENUM_OPTIONS, PMAPPING_ENUM_OPTIONS structure pointer [Internationalization for Windows Applications], elscore/MAPPING_ENUM_OPTIONS, elscore/PMAPPING_ENUM_OPTIONS, intl.mappingenumoptions'
 ms.topic: struct
-f1_keywords: 
- - "elscore/MAPPING_ENUM_OPTIONS"
+f1_keywords:
+- elscore/MAPPING_ENUM_OPTIONS
 dev_langs:
- - c++
+- c++
 req.header: elscore.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Elscore.h
+- Elscore.h
 api_name:
- - MAPPING_ENUM_OPTIONS
+- MAPPING_ENUM_OPTIONS
 targetos: Windows
 req.typenames: MAPPING_ENUM_OPTIONS, *PMAPPING_ENUM_OPTIONS
 req.redist: 

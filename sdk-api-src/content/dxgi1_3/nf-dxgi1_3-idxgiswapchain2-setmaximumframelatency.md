@@ -1,19 +1,17 @@
 ---
 UID: NF:dxgi1_3.IDXGISwapChain2.SetMaximumFrameLatency
 title: IDXGISwapChain2::SetMaximumFrameLatency (dxgi1_3.h)
-
 description: Sets the number of frames that the swap chain is allowed to queue for rendering.
 old-location: direct3ddxgi\idxgiswapchain2_setmaximumframelatency.htm
 tech.root: direct3ddxgi
 ms.assetid: AF3F03F2-38B4-474A-8A66-86A93D776EA0
-
 ms.date: 12/05/2018
 ms.keywords: IDXGISwapChain2 interface [DXGI],SetMaximumFrameLatency method, IDXGISwapChain2.SetMaximumFrameLatency, IDXGISwapChain2::SetMaximumFrameLatency, SetMaximumFrameLatency, SetMaximumFrameLatency method [DXGI], SetMaximumFrameLatency method [DXGI],IDXGISwapChain2 interface, direct3ddxgi.idxgiswapchain2_setmaximumframelatency, dxgi1_3/IDXGISwapChain2::SetMaximumFrameLatency
 ms.topic: method
-f1_keywords: 
- - "dxgi1_3/IDXGISwapChain2.SetMaximumFrameLatency"
+f1_keywords:
+- dxgi1_3/IDXGISwapChain2.SetMaximumFrameLatency
 dev_langs:
- - c++
+- c++
 req.header: dxgi1_3.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Dxgi.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dxgi.lib
- - dxgi.dll
+- dxgi.lib
+- dxgi.dll
 api_name:
- - IDXGISwapChain2.SetMaximumFrameLatency
+- IDXGISwapChain2.SetMaximumFrameLatency
 targetos: Windows
 req.typenames: 
 req.redist: 

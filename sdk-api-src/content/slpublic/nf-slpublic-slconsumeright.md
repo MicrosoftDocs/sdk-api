@@ -1,19 +1,17 @@
 ---
 UID: NF:slpublic.SLConsumeRight
 title: SLConsumeRight function (slpublic.h)
-
 description: Let an application to exercise rights on a locally-stored licenses.
 old-location: security\slconsumeright.htm
 tech.root: SecSLApi
 ms.assetid: d61ec4ec-c552-4963-8f4e-a1540081e747
-
 ms.date: 12/05/2018
 ms.keywords: SLConsumeRight, SLConsumeRight function [Security], security.slconsumeright, slpublic/SLConsumeRight
 ms.topic: function
-f1_keywords: 
- - "slpublic/SLConsumeRight"
+f1_keywords:
+- slpublic/SLConsumeRight
 dev_langs:
- - c++
+- c++
 req.header: slpublic.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Slc.lib
 req.dll: Slc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Slc.dll
+- Slc.dll
 api_name:
- - SLConsumeRight
+- SLConsumeRight
 targetos: Windows
 req.typenames: 
 req.redist: 

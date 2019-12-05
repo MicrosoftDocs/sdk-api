@@ -1,19 +1,17 @@
 ---
 UID: NF:pla.ITraceDataProvider.SetSecurity
 title: ITraceDataProvider::SetSecurity (pla.h)
-
 description: Sets the security information for the trace data provider.
 old-location: pla\itracedataprovider_setsecurity.htm
 tech.root: PLA
 ms.assetid: 07b6f5b3-5531-4174-9315-661695bd7c5d
-
 ms.date: 12/05/2018
 ms.keywords: ITraceDataProvider interface [PLA],SetSecurity method, ITraceDataProvider.SetSecurity, ITraceDataProvider::SetSecurity, SetSecurity, SetSecurity method [PLA], SetSecurity method [PLA],ITraceDataProvider interface, pla.itracedataprovider_setsecurity, pla/ITraceDataProvider::SetSecurity
 ms.topic: method
-f1_keywords: 
- - "pla/ITraceDataProvider.SetSecurity"
+f1_keywords:
+- pla/ITraceDataProvider.SetSecurity
 dev_langs:
- - c++
+- c++
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Pla.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Pla.dll
+- Pla.dll
 api_name:
- - ITraceDataProvider.SetSecurity
+- ITraceDataProvider.SetSecurity
 targetos: Windows
 req.typenames: 
 req.redist: 

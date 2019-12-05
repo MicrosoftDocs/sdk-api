@@ -1,19 +1,17 @@
 ---
 UID: NF:tuner.ILocator.put_Modulation
 title: ILocator::put_Modulation (tuner.h)
-
 description: The put_Modulation method sets the modulation type.
 old-location: mstv\ilocator_put_modulation.htm
 tech.root: mstv
 ms.assetid: 84a5b2ce-d26b-4ffc-b757-a799658f2b34
-
 ms.date: 12/05/2018
 ms.keywords: ILocator interface [Microsoft TV Technologies],put_Modulation method, ILocator.put_Modulation, ILocator::put_Modulation, ILocatorput_Modulation, mstv.ilocator_put_modulation, put_Modulation, put_Modulation method [Microsoft TV Technologies], put_Modulation method [Microsoft TV Technologies],ILocator interface, tuner/ILocator::put_Modulation
 ms.topic: method
-f1_keywords: 
- - "tuner/ILocator.put_Modulation"
+f1_keywords:
+- tuner/ILocator.put_Modulation
 dev_langs:
- - c++
+- c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - tuner.h
+- tuner.h
 api_name:
- - ILocator.put_Modulation
+- ILocator.put_Modulation
 targetos: Windows
 req.typenames: 
 req.redist: 

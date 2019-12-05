@@ -1,19 +1,17 @@
 ---
 UID: NF:shlwapi.StrFormatKBSizeW
 title: StrFormatKBSizeW function (shlwapi.h)
-
 description: Converts a numeric value into a string that represents the number expressed as a size value in kilobytes.
 old-location: shell\StrFormatKBSize.htm
 tech.root: shell
 ms.assetid: 029c2eb8-3bcd-4302-8894-be2dbe430426
-
 ms.date: 12/05/2018
 ms.keywords: StrFormatKBSize, StrFormatKBSize function [Windows Shell], StrFormatKBSizeA, StrFormatKBSizeW, _win32_StrFormatKBSize, shell.StrFormatKBSize, shlwapi/StrFormatKBSize, shlwapi/StrFormatKBSizeA, shlwapi/StrFormatKBSizeW
 ms.topic: function
-f1_keywords: 
- - "shlwapi/StrFormatKBSize"
+f1_keywords:
+- shlwapi/StrFormatKBSize
 dev_langs:
- - c++
+- c++
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Shlwapi.lib
 req.dll: Shlwapi.dll (version 5.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Shlwapi.dll
+- Shlwapi.dll
 api_name:
- - StrFormatKBSize
- - StrFormatKBSizeA
- - StrFormatKBSizeW
+- StrFormatKBSize
+- StrFormatKBSizeA
+- StrFormatKBSizeW
 targetos: Windows
 req.typenames: 
 req.redist: 

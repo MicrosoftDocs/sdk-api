@@ -1,19 +1,17 @@
 ---
 UID: NF:directxmath.XMVector3Transform
 title: XMVector3Transform function (directxmath.h)
-
 description: Transforms a 3D vector by a matrix.
 old-location: dxmath\xmvector3transform.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.transformation.XMVector3Transform(XMVECTOR,XMMATRIX)
-
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMVector3Transform, XMVector3Transform, XMVector3Transform method [DirectX Math Support APIs], dxmath.xmvector3transform
 ms.topic: function
-f1_keywords: 
- - "directxmath/XMVector3Transform"
+f1_keywords:
+- directxmath/XMVector3Transform
 dev_langs:
- - c++
+- c++
 req.header: directxmath.h
 req.include-header: DirectXMath.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - directxmathvector.inl
+- directxmathvector.inl
 api_name:
- - XMVector3Transform
+- XMVector3Transform
 targetos: Windows
 req.typenames: 
 req.redist: 

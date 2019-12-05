@@ -1,19 +1,17 @@
 ---
 UID: NF:mbnapi.IMbnInterface.GetSubscriberInformation
 title: IMbnInterface::GetSubscriberInformation (mbnapi.h)
-
 description: Gets the subscriber information.
 old-location: mbn\imbninterface_getsubscriberinformation.htm
 tech.root: mbn
 ms.assetid: 9114a3ed-2dc9-4637-b3d5-9430d309e89b
-
 ms.date: 12/05/2018
 ms.keywords: GetSubscriberInformation, GetSubscriberInformation method [Microsoft Broadband Networks], GetSubscriberInformation method [Microsoft Broadband Networks],IMbnInterface interface, IMbnInterface interface [Microsoft Broadband Networks],GetSubscriberInformation method, IMbnInterface.GetSubscriberInformation, IMbnInterface::GetSubscriberInformation, mbn.imbninterface_getsubscriberinformation, mbnapi/IMbnInterface::GetSubscriberInformation
 ms.topic: method
-f1_keywords: 
- - "mbnapi/IMbnInterface.GetSubscriberInformation"
+f1_keywords:
+- mbnapi/IMbnInterface.GetSubscriberInformation
 dev_langs:
- - c++
+- c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mbnapi.h
+- mbnapi.h
 api_name:
- - IMbnInterface.GetSubscriberInformation
+- IMbnInterface.GetSubscriberInformation
 targetos: Windows
 req.typenames: 
 req.redist: 

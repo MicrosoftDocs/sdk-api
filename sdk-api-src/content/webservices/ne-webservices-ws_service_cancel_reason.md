@@ -1,19 +1,17 @@
 ---
 UID: NE:webservices.__unnamed_enum_88
 title: WS_SERVICE_CANCEL_REASON (webservices.h)
-
 description: The reasons for a cancellation.
 old-location: wsw\ws_service_cancel_reason.htm
 tech.root: wsw
 ms.assetid: 7d0266fa-193b-4883-8007-8151e411b46f
-
 ms.date: 12/05/2018
 ms.keywords: WS_SERVICE_CANCEL_REASON, WS_SERVICE_CANCEL_REASON enumeration [Web Services for Windows], WS_SERVICE_CHANNEL_FAULTED, WS_SERVICE_HOST_ABORT, webservices/WS_SERVICE_CANCEL_REASON, webservices/WS_SERVICE_CHANNEL_FAULTED, webservices/WS_SERVICE_HOST_ABORT, wsw.ws_service_cancel_reason
 ms.topic: enum
-f1_keywords: 
- - "webservices/WS_SERVICE_CANCEL_REASON"
+f1_keywords:
+- webservices/WS_SERVICE_CANCEL_REASON
 dev_langs:
- - c++
+- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WebServices.h
+- WebServices.h
 api_name:
- - WS_SERVICE_CANCEL_REASON
+- WS_SERVICE_CANCEL_REASON
 targetos: Windows
 req.typenames: WS_SERVICE_CANCEL_REASON
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NS:resapi.CLUS_WORKER
 title: CLUS_WORKER (resapi.h)
-
 description: Contains information about a worker thread.
 old-location: mscs\clus_worker.htm
 tech.root: MsCS
 ms.assetid: 559b147f-8e8a-4bc7-94ea-e2042f288b6d
-
 ms.date: 12/05/2018
-ms.keywords: "*PCLUS_WORKER, CLUS_WORKER, CLUS_WORKER structure [Failover Cluster], PCLUS_WORKER, PCLUS_WORKER structure pointer [Failover Cluster], _wolf_clus_worker, mscs.clus_worker, resapi/CLUS_WORKER, resapi/PCLUS_WORKER"
+ms.keywords: '*PCLUS_WORKER, CLUS_WORKER, CLUS_WORKER structure [Failover Cluster], PCLUS_WORKER, PCLUS_WORKER structure pointer [Failover Cluster], _wolf_clus_worker, mscs.clus_worker, resapi/CLUS_WORKER, resapi/PCLUS_WORKER'
 ms.topic: struct
-f1_keywords: 
- - "resapi/CLUS_WORKER"
+f1_keywords:
+- resapi/CLUS_WORKER
 dev_langs:
- - c++
+- c++
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - ResApi.h
+- ResApi.h
 api_name:
- - CLUS_WORKER
+- CLUS_WORKER
 targetos: Windows
 req.typenames: CLUS_WORKER, *PCLUS_WORKER
 req.redist: 

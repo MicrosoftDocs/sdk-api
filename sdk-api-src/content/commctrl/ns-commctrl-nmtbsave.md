@@ -1,19 +1,17 @@
 ---
 UID: NS:commctrl.tagNMTBSAVE
 title: NMTBSAVE (commctrl.h)
-
 description: This structure is passed to applications when they receive a TBN_SAVE notification code. It contains information about the button currently being saved. Applications can modify the values of the members to save additional information.
 old-location: controls\NMTBSAVE.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\toolbar\structures\nmtbsave.htm
-
 ms.date: 12/05/2018
 ms.keywords: '*LPNMTBSAVE, LPNMTBSAVE, LPNMTBSAVE structure pointer [Windows Controls], NMTBSAVE, NMTBSAVE structure [Windows Controls], _win32_NMTBSAVE, _win32_NMTBSAVE_cpp, commctrl/LPNMTBSAVE, commctrl/NMTBSAVE, controls.NMTBSAVE, controls._win32_NMTBSAVE'
 ms.topic: struct
 f1_keywords:
 - commctrl/NMTBSAVE
 dev_langs:
- - c++
+- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

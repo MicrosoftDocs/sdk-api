@@ -1,19 +1,17 @@
 ---
 UID: NF:certenroll.IX509CertificateRequestCmc.get_NullSigned
 title: IX509CertificateRequestCmc::get_NullSigned (certenroll.h)
-
 description: Retrieves a Boolean value that specifies whether the primary signature on the certificate request is null-signed.
 old-location: security\ix509certificaterequestcmc_nullsigned_property.htm
 tech.root: seccertenroll
 ms.assetid: 99cefeed-caec-401e-bdcd-d167472b2cbd
-
 ms.date: 12/05/2018
 ms.keywords: IX509CertificateRequestCmc interface [Security],NullSigned property, IX509CertificateRequestCmc.NullSigned, IX509CertificateRequestCmc.get_NullSigned, IX509CertificateRequestCmc::NullSigned, IX509CertificateRequestCmc::get_NullSigned, NullSigned property [Security], NullSigned property [Security],IX509CertificateRequestCmc interface, certenroll/IX509CertificateRequestCmc::NullSigned, certenroll/IX509CertificateRequestCmc::get_NullSigned, get_NullSigned, security.ix509certificaterequestcmc_nullsigned_property
 ms.topic: method
-f1_keywords: 
- - "certenroll/IX509CertificateRequestCmc.NullSigned"
+f1_keywords:
+- certenroll/IX509CertificateRequestCmc.NullSigned
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: CertEnroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CertEnroll.dll
+- CertEnroll.dll
 api_name:
- - IX509CertificateRequestCmc.NullSigned
- - IX509CertificateRequestCmc.get_NullSigned
+- IX509CertificateRequestCmc.NullSigned
+- IX509CertificateRequestCmc.get_NullSigned
 targetos: Windows
 req.typenames: 
 req.redist: 

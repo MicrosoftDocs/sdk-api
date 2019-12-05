@@ -1,19 +1,17 @@
 ---
 UID: NN:d3d11.ID3D11Texture2D
 title: ID3D11Texture2D (d3d11.h)
-
 description: A 2D texture interface manages texel data, which is structured memory.
 old-location: direct3d11\id3d11texture2d.htm
 tech.root: direct3d11
 ms.assetid: 49cd6e21-6cb1-45ea-b83a-3c93f0560915
-
 ms.date: 12/05/2018
 ms.keywords: 92f1d183-b220-944f-113a-e7696cd05d2f, ID3D11Texture2D, ID3D11Texture2D interface [Direct3D 11], ID3D11Texture2D interface [Direct3D 11],described, d3d11/ID3D11Texture2D, direct3d11.id3d11texture2d
 ms.topic: interface
-f1_keywords: 
- - "d3d11/ID3D11Texture2D"
+f1_keywords:
+- d3d11/ID3D11Texture2D
 dev_langs:
- - c++
+- c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: D3D11.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D11.lib
- - D3D11.dll
+- D3D11.lib
+- D3D11.dll
 api_name:
- - ID3D11Texture2D
+- ID3D11Texture2D
 targetos: Windows
 req.typenames: 
 req.redist: 

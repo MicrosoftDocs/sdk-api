@@ -1,19 +1,17 @@
 ---
 UID: NF:sbe.IStreamBufferConfigure3.GetStartRecConfig
 title: IStreamBufferConfigure3::GetStartRecConfig (sbe.h)
-
 description: The GetStartRecConfig method queries whether the IStreamBufferRecordControl::Start method automatically stops the current recording.
 old-location: mstv\istreambufferconfigure3_getstartrecconfig.htm
 tech.root: mstv
 ms.assetid: caf50c08-5247-4229-8952-9d538362b33d
-
 ms.date: 12/05/2018
 ms.keywords: GetStartRecConfig, GetStartRecConfig method [Microsoft TV Technologies], GetStartRecConfig method [Microsoft TV Technologies],IStreamBufferConfigure3 interface, IStreamBufferConfigure3 interface [Microsoft TV Technologies],GetStartRecConfig method, IStreamBufferConfigure3.GetStartRecConfig, IStreamBufferConfigure3::GetStartRecConfig, IStreamBufferConfigure3GetStartRecConfig, mstv.istreambufferconfigure3_getstartrecconfig, sbe/IStreamBufferConfigure3::GetStartRecConfig
 ms.topic: method
-f1_keywords: 
- - "sbe/IStreamBufferConfigure3.GetStartRecConfig"
+f1_keywords:
+- sbe/IStreamBufferConfigure3.GetStartRecConfig
 dev_langs:
- - c++
+- c++
 req.header: sbe.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Sbe.h
+- Sbe.h
 api_name:
- - IStreamBufferConfigure3.GetStartRecConfig
+- IStreamBufferConfigure3.GetStartRecConfig
 targetos: Windows
 req.typenames: 
 req.redist: 

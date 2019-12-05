@@ -1,19 +1,17 @@
 ---
 UID: NF:sbtsv.ITsSbResourcePluginStore.AddTargetToStore
 title: ITsSbResourcePluginStore::AddTargetToStore (sbtsv.h)
-
 description: Adds a target to the resource plug-in store.
 old-location: termserv\itssbresourcepluginstore_addtargettostore.htm
 tech.root: TermServ
 ms.assetid: 207761eb-b87a-44e5-9101-84d77f95fc23
-
 ms.date: 12/05/2018
 ms.keywords: AddTargetToStore, AddTargetToStore method [Remote Desktop Services], AddTargetToStore method [Remote Desktop Services],ITsSbResourcePluginStore interface, AddTargetToStore method [Remote Desktop Services],ITsSbResourcePluginStoreEx interface, ITsSbResourcePluginStore interface [Remote Desktop Services],AddTargetToStore method, ITsSbResourcePluginStore.AddTargetToStore, ITsSbResourcePluginStore::AddTargetToStore, ITsSbResourcePluginStoreEx interface [Remote Desktop Services],AddTargetToStore method, ITsSbResourcePluginStoreEx::AddTargetToStore, sbtsv/ITsSbResourcePluginStore::AddTargetToStore, sbtsv/ITsSbResourcePluginStoreEx::AddTargetToStore, termserv.itssbresourcepluginstore_addtargettostore
 ms.topic: method
-f1_keywords: 
- - "sbtsv/ITsSbResourcePluginStore.AddTargetToStore"
+f1_keywords:
+- sbtsv/ITsSbResourcePluginStore.AddTargetToStore
 dev_langs:
- - c++
+- c++
 req.header: sbtsv.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - sbtsv.h
+- sbtsv.h
 api_name:
- - ITsSbResourcePluginStore.AddTargetToStore
- - ITsSbResourcePluginStoreEx.AddTargetToStore
+- ITsSbResourcePluginStore.AddTargetToStore
+- ITsSbResourcePluginStoreEx.AddTargetToStore
 targetos: Windows
 req.typenames: 
 req.redist: 

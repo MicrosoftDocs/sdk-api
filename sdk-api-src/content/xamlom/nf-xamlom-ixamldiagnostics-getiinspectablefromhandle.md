@@ -1,19 +1,17 @@
 ---
 UID: NF:xamlom.IXamlDiagnostics.GetIInspectableFromHandle
 title: IXamlDiagnostics::GetIInspectableFromHandle (xamlom.h)
-
 description: Gets the IInspectable from the XAML Diagnostics cache.
 old-location: xaml_diagnostics\ixamldiagnostics_getiinspectablefromhandle.htm
 tech.root: xaml_diagnostics
 ms.assetid: F5BD99E0-CBAF-461C-9B4A-692604D4BAA9
-
 ms.date: 12/05/2018
 ms.keywords: GetIInspectableFromHandle, GetIInspectableFromHandle method, GetIInspectableFromHandle method,IXamlDiagnostics interface, IXamlDiagnostics interface,GetIInspectableFromHandle method, IXamlDiagnostics.GetIInspectableFromHandle, IXamlDiagnostics::GetIInspectableFromHandle, xaml_diagnostics.ixamldiagnostics_getiinspectablefromhandle, xamlom/IXamlDiagnostics::GetIInspectableFromHandle
 ms.topic: method
-f1_keywords: 
- - "xamlom/IXamlDiagnostics.GetIInspectableFromHandle"
+f1_keywords:
+- xamlom/IXamlDiagnostics.GetIInspectableFromHandle
 dev_langs:
- - c++
+- c++
 req.header: xamlom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xamlom.h
+- xamlom.h
 api_name:
- - IXamlDiagnostics.GetIInspectableFromHandle
+- IXamlDiagnostics.GetIInspectableFromHandle
 targetos: Windows
 req.typenames: 
 req.redist: 

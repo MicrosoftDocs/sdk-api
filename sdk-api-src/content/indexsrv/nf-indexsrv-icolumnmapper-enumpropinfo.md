@@ -1,19 +1,17 @@
 ---
 UID: NF:indexsrv.IColumnMapper.EnumPropInfo
 title: IColumnMapper::EnumPropInfo (indexsrv.h)
-
 description: Gets the i-th entry from the list of properties.
 old-location: search\icolumnmapper_enumpropinfo.htm
 tech.root: search
 ms.assetid: E24E7258-1A5D-4FA0-8F17-6E2B00582AF3
-
 ms.date: 12/05/2018
 ms.keywords: EnumPropInfo, EnumPropInfo method [search], EnumPropInfo method [search],IColumnMapper interface, IColumnMapper interface [search],EnumPropInfo method, IColumnMapper.EnumPropInfo, IColumnMapper::EnumPropInfo, indexsrv/IColumnMapper::EnumPropInfo, search.icolumnmapper_enumpropinfo
 ms.topic: method
-f1_keywords: 
- - "indexsrv/IColumnMapper.EnumPropInfo"
+f1_keywords:
+- indexsrv/IColumnMapper.EnumPropInfo
 dev_langs:
- - c++
+- c++
 req.header: indexsrv.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - indexsrv.h
+- indexsrv.h
 api_name:
- - IColumnMapper.EnumPropInfo
+- IColumnMapper.EnumPropInfo
 targetos: Windows
 req.typenames: 
 req.redist: Windows NT 4.0 Option Pack

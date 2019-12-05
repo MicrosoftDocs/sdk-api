@@ -1,19 +1,17 @@
 ---
 UID: NF:mfmediaengine.IMFMediaEngineEx.GetResourceCharacteristics
 title: IMFMediaEngineEx::GetResourceCharacteristics (mfmediaengine.h)
-
 description: Gets various flags that describe the media resource.
 old-location: mf\imfmediaengineex_getresourcecharacteristics.htm
 tech.root: medfound
 ms.assetid: 534595D7-007F-450B-A1C7-FA08F3958417
-
 ms.date: 12/05/2018
 ms.keywords: GetResourceCharacteristics, GetResourceCharacteristics method [Media Foundation], GetResourceCharacteristics method [Media Foundation],IMFMediaEngineEx interface, IMFMediaEngineEx interface [Media Foundation],GetResourceCharacteristics method, IMFMediaEngineEx.GetResourceCharacteristics, IMFMediaEngineEx::GetResourceCharacteristics, mf.imfmediaengineex_getresourcecharacteristics, mfmediaengine/IMFMediaEngineEx::GetResourceCharacteristics
 ms.topic: method
 f1_keywords:
 - mfmediaengine/IMFMediaEngineEx.GetResourceCharacteristics
 dev_langs:
- - c++
+- c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows

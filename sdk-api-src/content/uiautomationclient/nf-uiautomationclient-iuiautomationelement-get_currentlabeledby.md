@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationElement.get_CurrentLabeledBy
 title: IUIAutomationElement::get_CurrentLabeledBy (uiautomationclient.h)
-
 description: Retrieves the element that contains the text label for this element.
 old-location: winauto\uiauto_IUIAutomationElement_CurrentLabeledBy.htm
 tech.root: WinAuto
 ms.assetid: e461cc68-5a67-424b-9fc6-0768b9e13346
-
 ms.date: 12/05/2018
 ms.keywords: CurrentLabeledBy property [Windows Accessibility], CurrentLabeledBy property [Windows Accessibility],IUIAutomationElement interface, IUIAutomationElement interface [Windows Accessibility],CurrentLabeledBy property, IUIAutomationElement.CurrentLabeledBy, IUIAutomationElement.get_CurrentLabeledBy, IUIAutomationElement::CurrentLabeledBy, IUIAutomationElement::get_CurrentLabeledBy, get_CurrentLabeledBy, uiauto.uiauto_IUIAutomationElement_CurrentLabeledBy, uiauto_IUIAutomationElement_CurrentLabeledBy, uiautomationclient/IUIAutomationElement::CurrentLabeledBy, uiautomationclient/IUIAutomationElement::get_CurrentLabeledBy, winauto.uiauto_IUIAutomationElement_CurrentLabeledBy
 ms.topic: method
-f1_keywords: 
- - "uiautomationclient/IUIAutomationElement.CurrentLabeledBy"
+f1_keywords:
+- uiautomationclient/IUIAutomationElement.CurrentLabeledBy
 dev_langs:
- - c++
+- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationClient.h
+- UIAutomationClient.h
 api_name:
- - IUIAutomationElement.CurrentLabeledBy
- - IUIAutomationElement.get_CurrentLabeledBy
+- IUIAutomationElement.CurrentLabeledBy
+- IUIAutomationElement.get_CurrentLabeledBy
 targetos: Windows
 req.typenames: 
 req.redist: 

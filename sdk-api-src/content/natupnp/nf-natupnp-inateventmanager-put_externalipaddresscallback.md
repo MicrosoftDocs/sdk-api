@@ -1,19 +1,17 @@
 ---
 UID: NF:natupnp.INATEventManager.put_ExternalIPAddressCallback
 title: INATEventManager::put_ExternalIPAddressCallback (natupnp.h)
-
 description: The put_ExternalIPAddressCallback method enables the NAT application with UPnP technology to register a callback interface with the NAT. The system calls the first method in this callback interface if the external IP address of the NAT changes.
 old-location: ics\inateventmanager_put_externalipaddresscallback.htm
 tech.root: ics
 ms.assetid: 5bc3e19c-3015-44fb-87a9-645e11283643
-
 ms.date: 12/05/2018
 ms.keywords: INATEventManager interface [ICS/ICF],put_ExternalIPAddressCallback method, INATEventManager.put_ExternalIPAddressCallback, INATEventManager::put_ExternalIPAddressCallback, _ics_inateventmanager_put_externalipaddresscallback, ics.inateventmanager_put_externalipaddresscallback, natupnp/INATEventManager::put_ExternalIPAddressCallback, put_ExternalIPAddressCallback, put_ExternalIPAddressCallback method [ICS/ICF], put_ExternalIPAddressCallback method [ICS/ICF],INATEventManager interface
 ms.topic: method
-f1_keywords: 
- - "natupnp/INATEventManager.put_ExternalIPAddressCallback"
+f1_keywords:
+- natupnp/INATEventManager.put_ExternalIPAddressCallback
 dev_langs:
- - c++
+- c++
 req.header: natupnp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Hnetcfg.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Hnetcfg.dll
+- Hnetcfg.dll
 api_name:
- - INATEventManager.put_ExternalIPAddressCallback
+- INATEventManager.put_ExternalIPAddressCallback
 targetos: Windows
 req.typenames: 
 req.redist: 

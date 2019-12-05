@@ -1,19 +1,17 @@
 ---
 UID: NN:comcat.ICatRegister
 title: ICatRegister (comcat.h)
-
 description: Provides methods for registering and unregistering component category information in the registry. This includes both the human-readable names of categories and the categories implemented/required by a given component or class.
 old-location: com\icatregister.htm
 tech.root: com
 ms.assetid: 3f4f9beb-51db-407f-91ea-6e32ff5796ce
-
 ms.date: 12/05/2018
 ms.keywords: ICatRegister, ICatRegister interface [COM], ICatRegister interface [COM],described, _com_icatregister, com.icatregister, comcat/ICatRegister
 ms.topic: interface
-f1_keywords: 
- - "comcat/ICatRegister"
+f1_keywords:
+- comcat/ICatRegister
 dev_langs:
- - c++
+- c++
 req.header: comcat.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComCat.h
+- ComCat.h
 api_name:
- - ICatRegister
+- ICatRegister
 targetos: Windows
 req.typenames: 
 req.redist: 

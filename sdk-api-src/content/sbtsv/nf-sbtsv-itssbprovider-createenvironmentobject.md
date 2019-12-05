@@ -1,19 +1,17 @@
 ---
 UID: NF:sbtsv.ITsSbProvider.CreateEnvironmentObject
 title: ITsSbProvider::CreateEnvironmentObject (sbtsv.h)
-
 description: Creates an ITsSbEnvironment environment object.
 old-location: termserv\itssbprovider_createenvironmentobject.htm
 tech.root: TermServ
 ms.assetid: 11570f40-979e-4caf-81af-f8d16ec61391
-
 ms.date: 12/05/2018
 ms.keywords: CreateEnvironmentObject, CreateEnvironmentObject method [Remote Desktop Services], CreateEnvironmentObject method [Remote Desktop Services],ITsSbProvider interface, ITsSbProvider interface [Remote Desktop Services],CreateEnvironmentObject method, ITsSbProvider.CreateEnvironmentObject, ITsSbProvider::CreateEnvironmentObject, sbtsv/ITsSbProvider::CreateEnvironmentObject, termserv.itssbprovider_createenvironmentobject
 ms.topic: method
-f1_keywords: 
- - "sbtsv/ITsSbProvider.CreateEnvironmentObject"
+f1_keywords:
+- sbtsv/ITsSbProvider.CreateEnvironmentObject
 dev_langs:
- - c++
+- c++
 req.header: sbtsv.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - sbtsv.h
+- sbtsv.h
 api_name:
- - ITsSbProvider.CreateEnvironmentObject
+- ITsSbProvider.CreateEnvironmentObject
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d10.ID3D10Device.PSSetShaderResources
 title: ID3D10Device::PSSetShaderResources (d3d10.h)
-
 description: Bind an array of shader resources to the pixel shader stage.
 old-location: direct3d10\id3d10device_pssetshaderresources.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10device_pssetshaderresources.htm
-
 ms.date: 12/05/2018
 ms.keywords: 5c6524cb-030c-fa99-f855-ac20599cb810, ID3D10Device interface [Direct3D 10],PSSetShaderResources method, ID3D10Device.PSSetShaderResources, ID3D10Device::PSSetShaderResources, PSSetShaderResources, PSSetShaderResources method [Direct3D 10], PSSetShaderResources method [Direct3D 10],ID3D10Device interface, d3d10/ID3D10Device::PSSetShaderResources, direct3d10.id3d10device_pssetshaderresources
 ms.topic: method
-f1_keywords: 
- - "d3d10/ID3D10Device.PSSetShaderResources"
+f1_keywords:
+- d3d10/ID3D10Device.PSSetShaderResources
 dev_langs:
- - c++
+- c++
 req.header: d3d10.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: D3D10.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D10.lib
- - D3D10.dll
+- D3D10.lib
+- D3D10.dll
 api_name:
- - ID3D10Device.PSSetShaderResources
+- ID3D10Device.PSSetShaderResources
 targetos: Windows
 req.typenames: 
 req.redist: 

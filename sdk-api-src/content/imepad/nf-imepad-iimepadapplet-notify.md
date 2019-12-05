@@ -1,19 +1,17 @@
 ---
 UID: NF:imepad.IImePadApplet.Notify
 title: IImePadApplet::Notify (imepad.h)
-
 description: Called from IImePad to pass information with a notify code.
 old-location: intl\iimepadapplet_notify.htm
 tech.root: Intl
 ms.assetid: 5C370DC8-D308-4339-81F3-FEE88359A52F
-
 ms.date: 12/05/2018
 ms.keywords: IImePadApplet interface [Internationalization for Windows Applications],Notify method, IImePadApplet.Notify, IImePadApplet::Notify, Notify, Notify method [Internationalization for Windows Applications], Notify method [Internationalization for Windows Applications],IImePadApplet interface, imepad/IImePadApplet::Notify, intl.iimepadapplet_notify
 ms.topic: method
-f1_keywords: 
- - "imepad/IImePadApplet.Notify"
+f1_keywords:
+- imepad/IImePadApplet.Notify
 dev_langs:
- - c++
+- c++
 req.header: imepad.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Imepad.h
+- Imepad.h
 api_name:
- - IImePadApplet.Notify
+- IImePadApplet.Notify
 targetos: Windows
 req.typenames: 
 req.redist: 

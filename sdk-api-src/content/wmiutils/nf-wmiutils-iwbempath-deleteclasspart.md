@@ -1,19 +1,17 @@
 ---
 UID: NF:wmiutils.IWbemPath.DeleteClassPart
 title: IWbemPath::DeleteClassPart (wmiutils.h)
-
 description: The IWbemPath::DeleteClassPart method deletes the class portion of the path.
 old-location: wmi\iwbempath_deleteclasspart.htm
 tech.root: WmiSdk
 ms.assetid: 4b79739b-b278-424f-ac3f-2bc769f3cf93
-
 ms.date: 12/05/2018
 ms.keywords: DeleteClassPart, DeleteClassPart method [Windows Management Instrumentation], DeleteClassPart method [Windows Management Instrumentation],IWbemPath interface, IWbemPath interface [Windows Management Instrumentation],DeleteClassPart method, IWbemPath.DeleteClassPart, IWbemPath::DeleteClassPart, _hmm_iwbempath_deleteclasspart, wmi.iwbempath_deleteclasspart, wmiutils/IWbemPath::DeleteClassPart
 ms.topic: method
-f1_keywords: 
- - "wmiutils/IWbemPath.DeleteClassPart"
+f1_keywords:
+- wmiutils/IWbemPath.DeleteClassPart
 dev_langs:
- - c++
+- c++
 req.header: wmiutils.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Wbemuuid.lib
 req.dll: Wmiutils.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wmiutils.dll
+- Wmiutils.dll
 api_name:
- - IWbemPath.DeleteClassPart
+- IWbemPath.DeleteClassPart
 targetos: Windows
 req.typenames: 
 req.redist: 

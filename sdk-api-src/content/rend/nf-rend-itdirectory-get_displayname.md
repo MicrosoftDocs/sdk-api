@@ -1,19 +1,17 @@
 ---
 UID: NF:rend.ITDirectory.get_DisplayName
 title: ITDirectory::get_DisplayName (rend.h)
-
 description: The get_DisplayName method gets displayable name for directory.
 old-location: tapi3\itdirectory_get_displayname.htm
 tech.root: Tapi
 ms.assetid: a564e501-089e-41fc-9e81-bd0c9e6f951d
-
 ms.date: 12/05/2018
 ms.keywords: ITDirectory interface [TAPI 2.2],get_DisplayName method, ITDirectory.get_DisplayName, ITDirectory::get_DisplayName, _tapi3_itdirectory_get_displayname, get_DisplayName, get_DisplayName method [TAPI 2.2], get_DisplayName method [TAPI 2.2],ITDirectory interface, rend/ITDirectory::get_DisplayName, tapi3.itdirectory_get_displayname
 ms.topic: method
-f1_keywords: 
- - "rend/ITDirectory.get_DisplayName"
+f1_keywords:
+- rend/ITDirectory.get_DisplayName
 dev_langs:
- - c++
+- c++
 req.header: rend.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Rend.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Rend.dll
+- Rend.dll
 api_name:
- - ITDirectory.get_DisplayName
+- ITDirectory.get_DisplayName
 targetos: Windows
 req.typenames: 
 req.redist: 

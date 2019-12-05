@@ -1,19 +1,17 @@
 ---
 UID: NF:appxpackaging.IAppxBlockMapFilesEnumerator.GetCurrent
 title: IAppxBlockMapFilesEnumerator::GetCurrent (appxpackaging.h)
-
 description: Gets the file at the current position of the enumerator.
 old-location: appxpkg\iappxblockmapfilesenumerator_getcurrent.htm
 tech.root: appxpkg
 ms.assetid: 6911EBF6-6D0A-4BA5-AD88-3F173141FA5B
-
 ms.date: 12/05/2018
 ms.keywords: GetCurrent, GetCurrent method [App packaging and management], GetCurrent method [App packaging and management],IAppxBlockMapFilesEnumerator interface, IAppxBlockMapFilesEnumerator interface [App packaging and management],GetCurrent method, IAppxBlockMapFilesEnumerator.GetCurrent, IAppxBlockMapFilesEnumerator::GetCurrent, appxpackaging/IAppxBlockMapFilesEnumerator::GetCurrent, appxpkg.iappxblockmapfilesenumerator_getcurrent
 ms.topic: method
-f1_keywords: 
- - "appxpackaging/IAppxBlockMapFilesEnumerator.GetCurrent"
+f1_keywords:
+- appxpackaging/IAppxBlockMapFilesEnumerator.GetCurrent
 dev_langs:
- - c++
+- c++
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - AppxPackaging.h
+- AppxPackaging.h
 api_name:
- - IAppxBlockMapFilesEnumerator.GetCurrent
+- IAppxBlockMapFilesEnumerator.GetCurrent
 targetos: Windows
 req.typenames: 
 req.redist: 

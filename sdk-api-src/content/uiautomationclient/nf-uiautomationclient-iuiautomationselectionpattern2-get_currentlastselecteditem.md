@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationSelectionPattern2.get_CurrentLastSelectedItem
 title: IUIAutomationSelectionPattern2::get_CurrentLastSelectedItem (uiautomationclient.h)
-
 description: Gets an IUIAutomationElement object representing the last item in a group of selected items.
 old-location: winauto\uiauto_IUIAutomationSelectionPattern2_CurrentLastSelectedItem.htm
 tech.root: WinAuto
 ms.assetid: 30DE9698-318B-4794-B3C7-7256C46B3FE8
-
 ms.date: 12/05/2018
 ms.keywords: CurrentLastSelectedItem property [Windows Accessibility], CurrentLastSelectedItem property [Windows Accessibility],IUIAutomationSelectionPattern2 interface, IUIAutomationSelectionPattern2 interface [Windows Accessibility],CurrentLastSelectedItem property, IUIAutomationSelectionPattern2.CurrentLastSelectedItem, IUIAutomationSelectionPattern2.get_CurrentLastSelectedItem, IUIAutomationSelectionPattern2::CurrentLastSelectedItem, IUIAutomationSelectionPattern2::get_CurrentLastSelectedItem, get_CurrentLastSelectedItem, uiautomationclient/IUIAutomationSelectionPattern2::CurrentLastSelectedItem, uiautomationclient/IUIAutomationSelectionPattern2::get_CurrentLastSelectedItem, winauto.uiauto_IUIAutomationSelectionPattern2_CurrentLastSelectedItem
 ms.topic: method
-f1_keywords: 
- - "uiautomationclient/IUIAutomationSelectionPattern2.CurrentLastSelectedItem"
+f1_keywords:
+- uiautomationclient/IUIAutomationSelectionPattern2.CurrentLastSelectedItem
 dev_langs:
- - c++
+- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationClient.h
+- UIAutomationClient.h
 api_name:
- - IUIAutomationSelectionPattern2.CurrentLastSelectedItem
- - IUIAutomationSelectionPattern2.get_CurrentLastSelectedItem
+- IUIAutomationSelectionPattern2.CurrentLastSelectedItem
+- IUIAutomationSelectionPattern2.get_CurrentLastSelectedItem
 targetos: Windows
 req.typenames: 
 req.redist: 

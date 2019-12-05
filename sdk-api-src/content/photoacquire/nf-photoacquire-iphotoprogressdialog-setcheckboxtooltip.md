@@ -1,19 +1,17 @@
 ---
 UID: NF:photoacquire.IPhotoProgressDialog.SetCheckboxTooltip
 title: IPhotoProgressDialog::SetCheckboxTooltip (photoacquire.h)
-
 description: The SetCheckboxTooltip method sets the tooltip text for the check box in the progress dialog box.
 old-location: picacq\iphotoprogressdialog_setcheckboxtooltip.htm
 tech.root: acquisition
 ms.assetid: 88719891-9661-4766-adce-6b74cf9a87ef
-
 ms.date: 12/05/2018
 ms.keywords: IPhotoProgressDialog interface [Picture Acquisition],SetCheckboxTooltip method, IPhotoProgressDialog.SetCheckboxTooltip, IPhotoProgressDialog::SetCheckboxTooltip, IPhotoProgressDialogSetCheckboxTooltip, SetCheckboxTooltip, SetCheckboxTooltip method [Picture Acquisition], SetCheckboxTooltip method [Picture Acquisition],IPhotoProgressDialog interface, photoacquire/IPhotoProgressDialog::SetCheckboxTooltip, picacq.iphotoprogressdialog_setcheckboxtooltip
 ms.topic: method
-f1_keywords: 
- - "photoacquire/IPhotoProgressDialog.SetCheckboxTooltip"
+f1_keywords:
+- photoacquire/IPhotoProgressDialog.SetCheckboxTooltip
 dev_langs:
- - c++
+- c++
 req.header: photoacquire.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: PhotoAcquireUID.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - PhotoAcquireUID.lib
- - PhotoAcquireUID.dll
+- PhotoAcquireUID.lib
+- PhotoAcquireUID.dll
 api_name:
- - IPhotoProgressDialog.SetCheckboxTooltip
+- IPhotoProgressDialog.SetCheckboxTooltip
 targetos: Windows
 req.typenames: 
 req.redist: 

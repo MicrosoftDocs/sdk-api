@@ -1,19 +1,17 @@
 ---
 UID: NN:inputpanelconfiguration.IInputPanelConfiguration
 title: IInputPanelConfiguration (inputpanelconfiguration.h)
-
 description: Provides functionality for desktop apps to opt in to the focus tracking mechanism used in Windows Store apps.
 old-location: shell\iinputpanelconfiguration.htm
 tech.root: shell
 ms.assetid: 81E54703-095E-4810-A8A0-2ACBE7F3D634
-
 ms.date: 12/05/2018
 ms.keywords: IInputPanelConfiguration, IInputPanelConfiguration interface [Windows Shell], IInputPanelConfiguration interface [Windows Shell],described, inputpanelconfiguration/IInputPanelConfiguration, shell.iinputpanelconfiguration
 ms.topic: interface
-f1_keywords: 
- - "inputpanelconfiguration/IInputPanelConfiguration"
+f1_keywords:
+- inputpanelconfiguration/IInputPanelConfiguration
 dev_langs:
- - c++
+- c++
 req.header: inputpanelconfiguration.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - inputpanelconfiguration.h
+- inputpanelconfiguration.h
 api_name:
- - IInputPanelConfiguration
+- IInputPanelConfiguration
 targetos: Windows
 req.typenames: 
 req.redist: 

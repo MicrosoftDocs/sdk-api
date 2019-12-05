@@ -1,19 +1,17 @@
 ---
 UID: NF:olectl.OleCreatePictureIndirect
 title: OleCreatePictureIndirect function (olectl.h)
-
 description: Creates a new picture object initialized according to a PICTDESC structure.
 old-location: com\olecreatepictureindirect.htm
 tech.root: com
 ms.assetid: fb021348-07d4-4974-a71e-abb1b8d760c4
-
 ms.date: 12/05/2018
 ms.keywords: OleCreatePictureIndirect, OleCreatePictureIndirect function [COM], _ole_OleCreatePictureIndirect, com.olecreatepictureindirect, olectl/OleCreatePictureIndirect
 ms.topic: function
-f1_keywords: 
- - "olectl/OleCreatePictureIndirect"
+f1_keywords:
+- olectl/OleCreatePictureIndirect
 dev_langs:
- - c++
+- c++
 req.header: olectl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: OleAut32.lib
 req.dll: OleAut32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - OleAut32.dll
+- OleAut32.dll
 api_name:
- - OleCreatePictureIndirect
+- OleCreatePictureIndirect
 targetos: Windows
 req.typenames: 
 req.redist: 

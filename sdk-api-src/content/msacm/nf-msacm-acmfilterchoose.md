@@ -1,19 +1,17 @@
 ---
 UID: NF:msacm.acmFilterChoose
 title: acmFilterChoose function (msacm.h)
-
 description: The acmFilterChoose function creates an ACM-defined dialog box that enables the user to select a waveform-audio filter.
 old-location: multimedia\acmfilterchoose.htm
 tech.root: Multimedia
 ms.assetid: 9d8f659f-46f7-4399-a538-24c887c0fbee
-
 ms.date: 12/05/2018
-ms.keywords: "_win32_acmFilterChoose, acmFilterChoose, acmFilterChoose function [Windows Multimedia], acmFilterChooseA, acmFilterChooseW, msacm/acmFilterChoose, msacm/acmFilterChooseA, msacm/acmFilterChooseW, multimedia.acmfilterchoose"
+ms.keywords: _win32_acmFilterChoose, acmFilterChoose, acmFilterChoose function [Windows Multimedia], acmFilterChooseA, acmFilterChooseW, msacm/acmFilterChoose, msacm/acmFilterChooseA, msacm/acmFilterChooseW, multimedia.acmfilterchoose
 ms.topic: function
-f1_keywords: 
- - "msacm/acmFilterChoose"
+f1_keywords:
+- msacm/acmFilterChoose
 dev_langs:
- - c++
+- c++
 req.header: msacm.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Msacm32.lib
 req.dll: Msacm32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Msacm32.dll
- - Ext-MS-Win-mm-msacm-l1-1-0.dll
+- Msacm32.dll
+- Ext-MS-Win-mm-msacm-l1-1-0.dll
 api_name:
- - acmFilterChoose
- - acmFilterChooseA
- - acmFilterChooseW
+- acmFilterChoose
+- acmFilterChooseA
+- acmFilterChooseW
 targetos: Windows
 req.typenames: 
 req.redist: 

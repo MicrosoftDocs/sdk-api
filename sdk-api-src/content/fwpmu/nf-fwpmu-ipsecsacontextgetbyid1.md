@@ -1,19 +1,17 @@
 ---
 UID: NF:fwpmu.IPsecSaContextGetById1
 title: IPsecSaContextGetById1 function (fwpmu.h)
-
 description: Retrieves an IPsec security association (SA) context.
 old-location: fwp\ipsecsacontextgetbyid1.htm
 tech.root: fwp
 ms.assetid: b3b3c513-3148-49ea-9a35-5c3ab6999961
-
 ms.date: 12/05/2018
 ms.keywords: IPsecSaContextGetById1, IPsecSaContextGetById1 function [Filtering], fwp.ipsecsacontextgetbyid1, fwpmu/IPsecSaContextGetById1
 ms.topic: function
-f1_keywords: 
- - "fwpmu/IPsecSaContextGetById1"
+f1_keywords:
+- fwpmu/IPsecSaContextGetById1
 dev_langs:
- - c++
+- c++
 req.header: fwpmu.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Fwpuclnt.lib
 req.dll: Fwpuclnt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Fwpuclnt.dll
+- Fwpuclnt.dll
 api_name:
- - IPsecSaContextGetById1
+- IPsecSaContextGetById1
 targetos: Windows
 req.typenames: 
 req.redist: 

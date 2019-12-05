@@ -1,19 +1,17 @@
 ---
 UID: NF:mprapi.MprInfoBlockQuerySize
 title: MprInfoBlockQuerySize function (mprapi.h)
-
 description: The MprInfoBlockQuerySize function returns the returns the size of the information header.
 old-location: rras\mprinfoblockquerysize.htm
 tech.root: RRAS
 ms.assetid: cac491c9-3486-4eba-afe9-9e18f50c0643
-
 ms.date: 12/05/2018
 ms.keywords: MprInfoBlockQuerySize, MprInfoBlockQuerySize function [RAS], _mpr_mprinfoblockquerysize, mprapi/MprInfoBlockQuerySize, rras.mprinfoblockquerysize
 ms.topic: function
-f1_keywords: 
- - "mprapi/MprInfoBlockQuerySize"
+f1_keywords:
+- mprapi/MprInfoBlockQuerySize
 dev_langs:
- - c++
+- c++
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Mprapi.lib
 req.dll: Mprapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Mprapi.dll
+- Mprapi.dll
 api_name:
- - MprInfoBlockQuerySize
+- MprInfoBlockQuerySize
 targetos: Windows
 req.typenames: 
 req.redist: 

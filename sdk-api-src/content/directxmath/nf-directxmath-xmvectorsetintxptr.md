@@ -1,19 +1,17 @@
 ---
 UID: NF:directxmath.XMVectorSetIntXPtr
 title: XMVectorSetIntXPtr function (directxmath.h)
-
 description: Sets the x component of an XMVECTOR containing integer data, with a value contained in an instance of uint32_t referred to by a pointer.
 old-location: dxmath\xmvectorsetintxptr.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.accessors.XMVectorSetIntXPtr(XMVECTOR,const uint32_t)
-
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMVectorSetIntXPtr, XMVectorSetIntXPtr, XMVectorSetIntXPtr method [DirectX Math Support APIs], dxmath.xmvectorsetintxptr
 ms.topic: function
-f1_keywords: 
- - "directxmath/XMVectorSetIntXPtr"
+f1_keywords:
+- directxmath/XMVectorSetIntXPtr
 dev_langs:
- - c++
+- c++
 req.header: directxmath.h
 req.include-header: DirectXMath.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - directxmathvector.inl
+- directxmathvector.inl
 api_name:
- - XMVectorSetIntXPtr
+- XMVectorSetIntXPtr
 targetos: Windows
 req.typenames: 
 req.redist: 

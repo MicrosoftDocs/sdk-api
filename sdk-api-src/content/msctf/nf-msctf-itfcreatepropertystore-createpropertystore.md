@@ -1,19 +1,17 @@
 ---
 UID: NF:msctf.ITfCreatePropertyStore.CreatePropertyStore
 title: ITfCreatePropertyStore::CreatePropertyStore (msctf.h)
-
 description: ITfCreatePropertyStore::CreatePropertyStore method
 old-location: tsf\itfcreatepropertystore_createpropertystore.htm
 tech.root: TSF
 ms.assetid: 8c2e612c-31d8-4c89-97c4-3e248d7b7b28
-
 ms.date: 12/05/2018
 ms.keywords: CreatePropertyStore, CreatePropertyStore method [Text Services Framework], CreatePropertyStore method [Text Services Framework],ITfCreatePropertyStore interface, ITfCreatePropertyStore interface [Text Services Framework],CreatePropertyStore method, ITfCreatePropertyStore.CreatePropertyStore, ITfCreatePropertyStore::CreatePropertyStore, _tsf_itfcreatepropertystore_createpropertystore_ref, msctf/ITfCreatePropertyStore::CreatePropertyStore, tsf.itfcreatepropertystore_createpropertystore
 ms.topic: method
-f1_keywords: 
- - "msctf/ITfCreatePropertyStore.CreatePropertyStore"
+f1_keywords:
+- msctf/ITfCreatePropertyStore.CreatePropertyStore
 dev_langs:
- - c++
+- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Tiptsf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - tiptsf.dll
+- tiptsf.dll
 api_name:
- - ITfCreatePropertyStore.CreatePropertyStore
+- ITfCreatePropertyStore.CreatePropertyStore
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

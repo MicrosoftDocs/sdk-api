@@ -1,19 +1,17 @@
 ---
 UID: NS:iketypes.IKEEXT_CERTIFICATE_CRITERIA0_
 title: IKEEXT_CERTIFICATE_CRITERIA0 (iketypes.h)
-
 description: Contains a set of criteria to applied to an authentication method.
 old-location: fwp\ikeext_certificate_criteria0.htm
 tech.root: fwp
 ms.assetid: dbcb0e25-fdde-44d9-bfad-b3605f563773
-
 ms.date: 12/05/2018
 ms.keywords: IKEEXT_CERTIFICATE_CRITERIA0, IKEEXT_CERTIFICATE_CRITERIA0 structure [Filtering], fwp.ikeext_certificate_criteria0, iketypes/IKEEXT_CERTIFICATE_CRITERIA0
 ms.topic: struct
-f1_keywords: 
- - "iketypes/IKEEXT_CERTIFICATE_CRITERIA0"
+f1_keywords:
+- iketypes/IKEEXT_CERTIFICATE_CRITERIA0
 dev_langs:
- - c++
+- c++
 req.header: iketypes.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - iketypes.h
+- iketypes.h
 api_name:
- - IKEEXT_CERTIFICATE_CRITERIA0
+- IKEEXT_CERTIFICATE_CRITERIA0
 targetos: Windows
 req.typenames: IKEEXT_CERTIFICATE_CRITERIA0
 req.redist: 

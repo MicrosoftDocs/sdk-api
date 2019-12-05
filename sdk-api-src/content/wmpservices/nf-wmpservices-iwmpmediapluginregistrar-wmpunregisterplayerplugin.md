@@ -1,19 +1,17 @@
 ---
 UID: NF:wmpservices.IWMPMediaPluginRegistrar.WMPUnRegisterPlayerPlugin
 title: IWMPMediaPluginRegistrar::WMPUnRegisterPlayerPlugin (wmpservices.h)
-
 description: The IWMPMediaPluginRegistrar::WMPUnRegisterPlayerPlugin function removes information from the registry about a Windows Media Player plug-in.
 old-location: wmp\iwmpmediapluginregistrar__wmpunregisterplayerplugin.htm
 tech.root: WMP
 ms.assetid: b6165962-3ca6-49c8-826c-ce87e55c09fd
-
 ms.date: 12/05/2018
 ms.keywords: IWMPMediaPluginRegistrar.WMPUnRegisterPlayerPlugin, IWMPMediaPluginRegistrar::WMPUnRegisterPlayerPlugin, WMPUnRegisterPlayerPlugin, WMPUnRegisterPlayerPlugin function [Windows Media Player], wmp.iwmpmediapluginregistrar__wmpunregisterplayerplugin, wmpservices/WMPUnRegisterPlayerPlugin
 ms.topic: method
-f1_keywords: 
- - "wmpservices/WMPUnRegisterPlayerPlugin"
+f1_keywords:
+- wmpservices/WMPUnRegisterPlayerPlugin
 dev_langs:
- - c++
+- c++
 req.header: wmpservices.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wmp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - wmp.dll
+- wmp.dll
 api_name:
- - WMPUnRegisterPlayerPlugin
+- WMPUnRegisterPlayerPlugin
 targetos: Windows
 req.typenames: 
 req.redist: 

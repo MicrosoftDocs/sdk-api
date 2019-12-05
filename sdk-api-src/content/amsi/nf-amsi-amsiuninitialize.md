@@ -1,19 +1,17 @@
 ---
 UID: NF:amsi.AmsiUninitialize
 title: AmsiUninitialize function (amsi.h)
-
 description: Remove the instance of the AMSI API that was originally opened by AmsiInitialize.
 old-location: amsi\amsiuninitialize.htm
 tech.root: AMSI
 ms.assetid: DAC1AAE6-3160-4A82-8E81-9CB245AFD653
-
 ms.date: 12/05/2018
 ms.keywords: AmsiUninitialize, AmsiUninitialize function [Antimalware Scan Interface], amsi.amsiuninitialize, amsi/AmsiUninitialize
 ms.topic: function
-f1_keywords: 
- - "amsi/AmsiUninitialize"
+f1_keywords:
+- amsi/AmsiUninitialize
 dev_langs:
- - c++
+- c++
 req.header: amsi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Amsi.lib
 req.dll: Amsi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - amsi.dll
+- amsi.dll
 api_name:
- - AmsiUninitialize
+- AmsiUninitialize
 targetos: Windows
 req.typenames: 
 req.redist: 

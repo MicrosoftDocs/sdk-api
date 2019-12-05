@@ -1,19 +1,17 @@
 ---
 UID: NF:olectl.OleLoadPictureFile
 title: OleLoadPictureFile function (olectl.h)
-
 description: Creates an IPictureDisp object from a picture file on disk.
 old-location: automat\oleloadpicturefile.htm
 tech.root: automat
 ms.assetid: ecfbf297-88fa-42bf-afa7-f7884be17b15
-
 ms.date: 12/05/2018
 ms.keywords: OleLoadPictureFile, OleLoadPictureFile function [Automation], _oa96_OleLoadPictureFile, automat.oleloadpicturefile, olectl/OleLoadPictureFile
 ms.topic: function
-f1_keywords: 
- - "olectl/OleLoadPictureFile"
+f1_keywords:
+- olectl/OleLoadPictureFile
 dev_langs:
- - c++
+- c++
 req.header: olectl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: OleAut32.lib
 req.dll: OleAut32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - OleAut32.dll
+- OleAut32.dll
 api_name:
- - OleLoadPictureFile
+- OleLoadPictureFile
 targetos: Windows
 req.typenames: 
 req.redist: 

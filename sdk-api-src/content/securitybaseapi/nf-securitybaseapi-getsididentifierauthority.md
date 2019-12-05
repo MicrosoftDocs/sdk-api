@@ -1,19 +1,17 @@
 ---
 UID: NF:securitybaseapi.GetSidIdentifierAuthority
 title: GetSidIdentifierAuthority function (securitybaseapi.h)
-
 description: Returns a pointer to the SID_IDENTIFIER_AUTHORITY structure in a specified security identifier (SID).
 old-location: security\getsididentifierauthority.htm
 tech.root: SecAuthZ
 ms.assetid: 67a06e7b-775f-424c-ab36-0fc9b93b801a
-
 ms.date: 12/05/2018
 ms.keywords: GetSidIdentifierAuthority, GetSidIdentifierAuthority function [Security], _win32_getsididentifierauthority, security.getsididentifierauthority, securitybaseapi/GetSidIdentifierAuthority
 ms.topic: function
 f1_keywords:
 - securitybaseapi/GetSidIdentifierAuthority
 dev_langs:
- - c++
+- c++
 req.header: securitybaseapi.h
 req.include-header: Windows.h
 req.target-type: Windows

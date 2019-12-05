@@ -1,19 +1,17 @@
 ---
 UID: NS:winddi._ENGSAFESEMAPHORE
 title: ENGSAFESEMAPHORE (winddi.h)
-
 description: The ENGSAFESEMAPHORE structure provides the driver with a thread-safe semaphore.
 old-location: display\engsafesemaphore.htm
 tech.root: display
 ms.assetid: 225ca482-6a45-4726-b51b-57fa76b8c5b0
-
 ms.date: 12/05/2018
 ms.keywords: ENGSAFESEMAPHORE, ENGSAFESEMAPHORE structure [Display Devices], display.engsafesemaphore, grstrcts_63b165c2-5032-4dcb-9039-562a38f24cc4.xml, winddi/ENGSAFESEMAPHORE
 ms.topic: struct
-f1_keywords: 
- - "winddi/ENGSAFESEMAPHORE"
+f1_keywords:
+- winddi/ENGSAFESEMAPHORE
 dev_langs:
- - c++
+- c++
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - winddi.h
+- winddi.h
 api_name:
- - ENGSAFESEMAPHORE
+- ENGSAFESEMAPHORE
 targetos: Windows
 req.typenames: ENGSAFESEMAPHORE
 req.redist: 

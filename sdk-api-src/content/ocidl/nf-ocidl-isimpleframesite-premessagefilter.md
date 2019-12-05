@@ -1,19 +1,17 @@
 ---
 UID: NF:ocidl.ISimpleFrameSite.PreMessageFilter
 title: ISimpleFrameSite::PreMessageFilter (ocidl.h)
-
 description: Provides a site with the opportunity to process a message that is received by a control's own window before the control itself does any processing.
 old-location: com\isimpleframesite_premessagefilter.htm
 tech.root: com
 ms.assetid: f308ea77-12e7-450b-8b0f-252f1d240388
-
 ms.date: 12/05/2018
 ms.keywords: ISimpleFrameSite interface [COM],PreMessageFilter method, ISimpleFrameSite.PreMessageFilter, ISimpleFrameSite::PreMessageFilter, PreMessageFilter, PreMessageFilter method [COM], PreMessageFilter method [COM],ISimpleFrameSite interface, _ctrl_isimpleframesite_premessagefilter, com.isimpleframesite_premessagefilter, ocidl/ISimpleFrameSite::PreMessageFilter
 ms.topic: method
-f1_keywords: 
- - "ocidl/ISimpleFrameSite.PreMessageFilter"
+f1_keywords:
+- ocidl/ISimpleFrameSite.PreMessageFilter
 dev_langs:
- - c++
+- c++
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - OCIdl.h
+- OCIdl.h
 api_name:
- - ISimpleFrameSite.PreMessageFilter
+- ISimpleFrameSite.PreMessageFilter
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:clfsw32.AllocReservedLog
 title: AllocReservedLog function (clfsw32.h)
-
 description: Allocates sector-aligned space for a set of reserved records.
 old-location: fs\allocreservedlog.htm
 tech.root: Clfs
 ms.assetid: 5e464b64-4617-4fbd-97cd-3c2db8f151b2
-
 ms.date: 12/05/2018
 ms.keywords: AllocReservedLog, AllocReservedLog function [Files], clfsw32/AllocReservedLog, fs.allocreservedlog
 ms.topic: function
-f1_keywords: 
- - "clfsw32/AllocReservedLog"
+f1_keywords:
+- clfsw32/AllocReservedLog
 dev_langs:
- - c++
+- c++
 req.header: clfsw32.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Clfsw32.lib
 req.dll: Clfsw32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Clfsw32.dll
+- Clfsw32.dll
 api_name:
- - AllocReservedLog
+- AllocReservedLog
 targetos: Windows
 req.typenames: 
 req.redist: 

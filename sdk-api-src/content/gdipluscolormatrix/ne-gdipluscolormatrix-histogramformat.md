@@ -1,19 +1,17 @@
 ---
 UID: NE:gdipluscolormatrix.HistogramFormat
 title: HistogramFormat (gdipluscolormatrix.h)
-
 description: The HistogramFormat enumeration specifies the number and type of histograms that represent the color channels of a bitmap. This enumeration is used with the Bitmap::GetHistogram method.
 old-location: gdiplus\_gdiplus_ENUM_HistogramFormat.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\enumerations\histogramformat.htm
-
 ms.date: 12/05/2018
 ms.keywords: HistogramFormat, HistogramFormat enumeration [GDI+], HistogramFormatA, HistogramFormatARGB, HistogramFormatB, HistogramFormatG, HistogramFormatGray, HistogramFormatPARGB, HistogramFormatR, HistogramFormatRGB, _gdiplus_ENUM_HistogramFormat, gdiplus._gdiplus_ENUM_HistogramFormat, gdipluscolormatrix/HistogramFormat, gdipluscolormatrix/HistogramFormatA, gdipluscolormatrix/HistogramFormatARGB, gdipluscolormatrix/HistogramFormatB, gdipluscolormatrix/HistogramFormatG, gdipluscolormatrix/HistogramFormatGray, gdipluscolormatrix/HistogramFormatPARGB, gdipluscolormatrix/HistogramFormatR, gdipluscolormatrix/HistogramFormatRGB
 ms.topic: enum
-f1_keywords: 
- - "gdipluscolormatrix/HistogramFormat"
+f1_keywords:
+- gdipluscolormatrix/HistogramFormat
 dev_langs:
- - c++
+- c++
 req.header: gdipluscolormatrix.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - GdiplusColorMatrix.h
+- GdiplusColorMatrix.h
 api_name:
- - HistogramFormat
+- HistogramFormat
 targetos: Windows
 req.typenames: 
 req.redist: 

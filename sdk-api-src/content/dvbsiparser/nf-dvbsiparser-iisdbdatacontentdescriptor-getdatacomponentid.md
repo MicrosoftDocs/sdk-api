@@ -1,19 +1,17 @@
 ---
 UID: NF:dvbsiparser.IIsdbDataContentDescriptor.GetDataComponentId
 title: IIsdbDataContentDescriptor::GetDataComponentId (dvbsiparser.h)
-
 description: Gets a data component identifier from an Integrated Services Digital Broadcasting (ISDB) data content descriptor. This identifier identifies a component in the descriptor and appears in the data component descriptor for the component.
 old-location: mstv\iisdbdatacontentdescriptor_getdatacomponentid.htm
 tech.root: mstv
 ms.assetid: d8a3e399-5004-41ee-a7eb-4c583a1fdd45
-
 ms.date: 12/05/2018
 ms.keywords: GetDataComponentId, GetDataComponentId method [Microsoft TV Technologies], GetDataComponentId method [Microsoft TV Technologies],IIsdbDataContentDescriptor interface, IIsdbDataContentDescriptor interface [Microsoft TV Technologies],GetDataComponentId method, IIsdbDataContentDescriptor.GetDataComponentId, IIsdbDataContentDescriptor::GetDataComponentId, dvbsiparser/IIsdbDataContentDescriptor::GetDataComponentId, mstv.iisdbdatacontentdescriptor_getdatacomponentid
 ms.topic: method
-f1_keywords: 
- - "dvbsiparser/IIsdbDataContentDescriptor.GetDataComponentId"
+f1_keywords:
+- dvbsiparser/IIsdbDataContentDescriptor.GetDataComponentId
 dev_langs:
- - c++
+- c++
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dvbsiparser.h
+- dvbsiparser.h
 api_name:
- - IIsdbDataContentDescriptor.GetDataComponentId
+- IIsdbDataContentDescriptor.GetDataComponentId
 targetos: Windows
 req.typenames: 
 req.redist: 

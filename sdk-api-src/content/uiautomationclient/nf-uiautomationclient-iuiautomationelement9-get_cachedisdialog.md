@@ -1,18 +1,16 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationElement9.get_CachedIsDialog
 title: IUIAutomationElement9.get_CachedIsDialog (uiautomationclient.h)
-
 description: Retrieves the cached is dialog window indicator for the element.
 old-location: winauto\uiauto_IUIAutomationElement9_CachedIsDialog.htm
 tech.root: WinAuto
-
 ms.date: 04/29/2019
 ms.keywords: CachedIsDialog property [Windows Accessibility], CachedIsDialog property [Windows Accessibility],IUIAutomationElement9 interface, IUIAutomationElement9 interface [Windows Accessibility],CachedIsDialog property, IUIAutomationElement9.CachedIsDialog, IUIAutomationElement9.get_CachedIsDialog, IUIAutomationElement9::CachedIsDialog, IUIAutomationElement9::get_CachedIsDialog, get_CachedIsDialog, uiautomationclient/IUIAutomationElement9::CachedIsDialog, uiautomationclient/IUIAutomationElement9::get_CachedIsDialog, winauto.uiauto_IUIAutomationElement9_CachedIsDialog
 ms.topic: method
-f1_keywords: 
- - "uiautomationclient/IUIAutomationElement9.CachedIsDialog"
+f1_keywords:
+- uiautomationclient/IUIAutomationElement9.CachedIsDialog
 dev_langs:
- - c++
+- c++
 req.header: uiautomationclient.h
 req.include-header: 
 req.target-type: Windows
@@ -31,15 +29,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - uiautomationclient.h
+- uiautomationclient.h
 api_name:
- - IUIAutomationElement9.CachedIsDialog
- - IUIAutomationElement9.get_CachedIsDialog
+- IUIAutomationElement9.CachedIsDialog
+- IUIAutomationElement9.get_CachedIsDialog
 targetos: Windows
 req.typenames: 
 req.redist: 

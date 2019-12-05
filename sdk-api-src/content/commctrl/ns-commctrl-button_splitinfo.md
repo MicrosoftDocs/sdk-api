@@ -1,19 +1,17 @@
 ---
 UID: NS:commctrl.tagBUTTON_SPLITINFO
 title: BUTTON_SPLITINFO (commctrl.h)
-
 description: Contains information that defines a split button (BS_SPLITBUTTON and BS_DEFSPLITBUTTON styles). Used with the BCM_GETSPLITINFO and BCM_SETSPLITINFO messages.
 old-location: controls\BUTTON_SPLITINFO.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\buttons\buttonreference\buttonstructures\button_splitinfo.htm
-
 ms.date: 12/05/2018
-ms.keywords: "*PBUTTON_SPLITINFO, BCSIF_GLYPH, BCSIF_IMAGE, BCSIF_SIZE, BCSIF_STYLE, BCSS_ALIGNLEFT, BCSS_IMAGE, BCSS_NOSPLIT, BCSS_STRETCH, BUTTON_SPLITINFO, BUTTON_SPLITINFO structure [Windows Controls], PBUTTON_SPLITINFO, PBUTTON_SPLITINFO structure pointer [Windows Controls], _shell_BUTTON_SPLITINFO_str, _shell_BUTTON_SPLITINFO_str_cpp, commctrl/BUTTON_SPLITINFO, commctrl/PBUTTON_SPLITINFO, controls.BUTTON_SPLITINFO, controls._shell_BUTTON_SPLITINFO_str"
+ms.keywords: '*PBUTTON_SPLITINFO, BCSIF_GLYPH, BCSIF_IMAGE, BCSIF_SIZE, BCSIF_STYLE, BCSS_ALIGNLEFT, BCSS_IMAGE, BCSS_NOSPLIT, BCSS_STRETCH, BUTTON_SPLITINFO, BUTTON_SPLITINFO structure [Windows Controls], PBUTTON_SPLITINFO, PBUTTON_SPLITINFO structure pointer [Windows Controls], _shell_BUTTON_SPLITINFO_str, _shell_BUTTON_SPLITINFO_str_cpp, commctrl/BUTTON_SPLITINFO, commctrl/PBUTTON_SPLITINFO, controls.BUTTON_SPLITINFO, controls._shell_BUTTON_SPLITINFO_str'
 ms.topic: struct
-f1_keywords: 
- - "commctrl/BUTTON_SPLITINFO"
+f1_keywords:
+- commctrl/BUTTON_SPLITINFO
 dev_langs:
- - c++
+- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Commctrl.h
+- Commctrl.h
 api_name:
- - BUTTON_SPLITINFO
+- BUTTON_SPLITINFO
 targetos: Windows
 req.typenames: BUTTON_SPLITINFO, *PBUTTON_SPLITINFO
 req.redist: 

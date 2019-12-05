@@ -1,19 +1,17 @@
 ---
 UID: NS:mfplay.MFP_MEDIAITEM_CREATED_EVENT
 title: MFP_MEDIAITEM_CREATED_EVENT (mfplay.h)
-
 description: Event structure for the MFP_EVENT_TYPE_MEDIAITEM_CREATED event.
 old-location: mf\mfp_mediaitem_created_event.htm
 tech.root: medfound
 ms.assetid: 68e4076f-c03c-4780-9731-67eb6e78ec8b
-
 ms.date: 12/05/2018
 ms.keywords: MFP_MEDIAITEM_CREATED_EVENT, MFP_MEDIAITEM_CREATED_EVENT structure [Media Foundation], mf.mfp_mediaitem_created_event, mfplay/MFP_MEDIAITEM_CREATED_EVENT
 ms.topic: struct
-f1_keywords: 
- - "mfplay/MFP_MEDIAITEM_CREATED_EVENT"
+f1_keywords:
+- mfplay/MFP_MEDIAITEM_CREATED_EVENT
 dev_langs:
- - c++
+- c++
 req.header: mfplay.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - mfplay.h
+- mfplay.h
 api_name:
- - MFP_MEDIAITEM_CREATED_EVENT
+- MFP_MEDIAITEM_CREATED_EVENT
 targetos: Windows
 req.typenames: MFP_MEDIAITEM_CREATED_EVENT
 req.redist: 

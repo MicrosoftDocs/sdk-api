@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.ICommDlgBrowser2.GetDefaultMenuText
 title: ICommDlgBrowser2::GetDefaultMenuText (shobjidl_core.h)
-
 description: Called by the Shell view to get the default shortcut menu text.
 old-location: shell\ICommDlgBrowser2_GetDefaultMenuText.htm
 tech.root: shell
 ms.assetid: 08c73959-d884-4870-9e6f-f1040184556f
-
 ms.date: 12/05/2018
 ms.keywords: GetDefaultMenuText, GetDefaultMenuText method [Windows Shell], GetDefaultMenuText method [Windows Shell],ICommDlgBrowser2 interface, ICommDlgBrowser2 interface [Windows Shell],GetDefaultMenuText method, ICommDlgBrowser2.GetDefaultMenuText, ICommDlgBrowser2::GetDefaultMenuText, _win32_ICommDlgBrowser2_GetDefaultMenuText, shell.ICommDlgBrowser2_GetDefaultMenuText, shobjidl_core/ICommDlgBrowser2::GetDefaultMenuText
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/ICommDlgBrowser2.GetDefaultMenuText"
+f1_keywords:
+- shobjidl_core/ICommDlgBrowser2.GetDefaultMenuText
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Shell32.dll (version 5.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - ICommDlgBrowser2.GetDefaultMenuText
+- ICommDlgBrowser2.GetDefaultMenuText
 targetos: Windows
 req.typenames: 
 req.redist: 

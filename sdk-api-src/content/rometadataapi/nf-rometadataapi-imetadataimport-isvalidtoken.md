@@ -1,19 +1,17 @@
 ---
 UID: NF:rometadataapi.IMetaDataImport.IsValidToken
 title: IMetaDataImport::IsValidToken (rometadataapi.h)
-
 description: Gets a value indicating whether the specified token holds a valid reference to a code object.
 old-location: winrt\imetadataimport_isvalidtoken.htm
 tech.root: WinRT
 ms.assetid: 9829a600-38fb-48ac-a486-abb56d17afdf
-
 ms.date: 12/05/2018
 ms.keywords: IMetaDataImport interface [Windows Runtime],IsValidToken method, IMetaDataImport.IsValidToken, IMetaDataImport::IsValidToken, IsValidToken, IsValidToken method [Windows Runtime], IsValidToken method [Windows Runtime],IMetaDataImport interface, rometadataapi/IMetaDataImport::IsValidToken, winrt.imetadataimport_isvalidtoken
 ms.topic: method
-f1_keywords: 
- - "rometadataapi/IMetaDataImport.IsValidToken"
+f1_keywords:
+- rometadataapi/IMetaDataImport.IsValidToken
 dev_langs:
- - c++
+- c++
 req.header: rometadataapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - rometadataapi.h
+- rometadataapi.h
 api_name:
- - IMetaDataImport.IsValidToken
+- IMetaDataImport.IsValidToken
 targetos: Windows
 req.typenames: 
 req.redist: 

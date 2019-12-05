@@ -1,19 +1,17 @@
 ---
 UID: NF:mfidl.IMFNetSchemeHandlerConfig.GetNumberOfSupportedProtocols
 title: IMFNetSchemeHandlerConfig::GetNumberOfSupportedProtocols (mfidl.h)
-
 description: Retrieves the number of protocols supported by the network scheme plug-in.
 old-location: mf\imfnetschemehandlerconfig_getnumberofsupportedprotocols.htm
 tech.root: medfound
 ms.assetid: a0cbb01c-c86c-4186-81ca-6055aab5d361
-
 ms.date: 12/05/2018
 ms.keywords: GetNumberOfSupportedProtocols, GetNumberOfSupportedProtocols method [Media Foundation], GetNumberOfSupportedProtocols method [Media Foundation],IMFNetSchemeHandlerConfig interface, IMFNetSchemeHandlerConfig interface [Media Foundation],GetNumberOfSupportedProtocols method, IMFNetSchemeHandlerConfig.GetNumberOfSupportedProtocols, IMFNetSchemeHandlerConfig::GetNumberOfSupportedProtocols, a0cbb01c-c86c-4186-81ca-6055aab5d361, mf.imfnetschemehandlerconfig_getnumberofsupportedprotocols, mfidl/IMFNetSchemeHandlerConfig::GetNumberOfSupportedProtocols
 ms.topic: method
-f1_keywords: 
- - "mfidl/IMFNetSchemeHandlerConfig.GetNumberOfSupportedProtocols"
+f1_keywords:
+- mfidl/IMFNetSchemeHandlerConfig.GetNumberOfSupportedProtocols
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFNetSchemeHandlerConfig.GetNumberOfSupportedProtocols
+- IMFNetSchemeHandlerConfig.GetNumberOfSupportedProtocols
 targetos: Windows
 req.typenames: 
 req.redist: 

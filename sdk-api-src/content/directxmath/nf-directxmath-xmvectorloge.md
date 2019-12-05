@@ -1,19 +1,17 @@
 ---
 UID: NF:directxmath.XMVectorLogE
 title: XMVectorLogE function (directxmath.h)
-
 description: Computes the base e logarithm of each component of a vector.
 old-location: dxmath\xmvectorloge.htm
 tech.root: dxmath
 ms.assetid: C092B786-BAB8-4F8F-95D2-3C23F59EF064
-
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMVectorLogE, XMVectorLogE, XMVectorLogE method [DirectX Math Support APIs], dxmath.xmvectorloge
 ms.topic: function
-f1_keywords: 
- - "directxmath/XMVectorLogE"
+f1_keywords:
+- directxmath/XMVectorLogE
 dev_langs:
- - c++
+- c++
 req.header: directxmath.h
 req.include-header: DirectXMath.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - directxmathvector.inl
+- directxmathvector.inl
 api_name:
- - XMVectorLogE
+- XMVectorLogE
 targetos: Windows
 req.typenames: 
 req.redist: 

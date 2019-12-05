@@ -1,19 +1,17 @@
 ---
 UID: NE:featurestagingapi.FEATURE_CHANGE_TIME
 title: FEATURE_CHANGE_TIME (featurestagingapi.h)
-
 description: This enumeration is intended for infrastructure use only.
 old-location: winprog\feature_change_time.htm
 tech.root: DevNotes
 ms.assetid: BF4301FD-8F23-48EE-826C-2C4378F24CE1
-
 ms.date: 12/05/2018
 ms.keywords: FEATURE_CHANGE_TIME, FEATURE_CHANGE_TIME enumeration [Windows API], FEATURE_CHANGE_TIME_MODULE_RELOAD, FEATURE_CHANGE_TIME_READ, FEATURE_CHANGE_TIME_REBOOT, FEATURE_CHANGE_TIME_SESSION, FEATURE_CHANGE_TIME_USER_FLAG, featurestagingapi/FEATURE_CHANGE_TIME, featurestagingapi/FEATURE_CHANGE_TIME_MODULE_RELOAD, featurestagingapi/FEATURE_CHANGE_TIME_READ, featurestagingapi/FEATURE_CHANGE_TIME_REBOOT, featurestagingapi/FEATURE_CHANGE_TIME_SESSION, featurestagingapi/FEATURE_CHANGE_TIME_USER_FLAG, winprog.feature_change_time
 ms.topic: enum
-f1_keywords: 
- - "featurestagingapi/FEATURE_CHANGE_TIME"
+f1_keywords:
+- featurestagingapi/FEATURE_CHANGE_TIME
 dev_langs:
- - c++
+- c++
 req.header: featurestagingapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - featurestagingapi.h
+- featurestagingapi.h
 api_name:
- - FEATURE_CHANGE_TIME
+- FEATURE_CHANGE_TIME
 targetos: Windows
 req.typenames: FEATURE_CHANGE_TIME
 req.redist: 

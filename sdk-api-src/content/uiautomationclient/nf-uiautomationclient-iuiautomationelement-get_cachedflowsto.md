@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationElement.get_CachedFlowsTo
 title: IUIAutomationElement::get_CachedFlowsTo (uiautomationclient.h)
-
 description: Retrieves a cached array of elements that indicate the reading order after the current element.
 old-location: winauto\uiauto_IUIAutomationElement_CachedFlowsTo.htm
 tech.root: WinAuto
 ms.assetid: 22ef02fb-ee75-4067-a99b-a940a311347c
-
 ms.date: 12/05/2018
 ms.keywords: CachedFlowsTo property [Windows Accessibility], CachedFlowsTo property [Windows Accessibility],IUIAutomationElement interface, IUIAutomationElement interface [Windows Accessibility],CachedFlowsTo property, IUIAutomationElement.CachedFlowsTo, IUIAutomationElement.get_CachedFlowsTo, IUIAutomationElement::CachedFlowsTo, IUIAutomationElement::get_CachedFlowsTo, get_CachedFlowsTo, uiauto.uiauto_IUIAutomationElement_CachedFlowsTo, uiauto_IUIAutomationElement_CachedFlowsTo, uiautomationclient/IUIAutomationElement::CachedFlowsTo, uiautomationclient/IUIAutomationElement::get_CachedFlowsTo, winauto.uiauto_IUIAutomationElement_CachedFlowsTo
 ms.topic: method
-f1_keywords: 
- - "uiautomationclient/IUIAutomationElement.CachedFlowsTo"
+f1_keywords:
+- uiautomationclient/IUIAutomationElement.CachedFlowsTo
 dev_langs:
- - c++
+- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationClient.h
+- UIAutomationClient.h
 api_name:
- - IUIAutomationElement.CachedFlowsTo
- - IUIAutomationElement.get_CachedFlowsTo
+- IUIAutomationElement.CachedFlowsTo
+- IUIAutomationElement.get_CachedFlowsTo
 targetos: Windows
 req.typenames: 
 req.redist: 

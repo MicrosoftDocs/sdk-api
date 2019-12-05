@@ -1,19 +1,17 @@
 ---
 UID: NF:dcomp.IDCompositionScaleTransform3D.SetCenterY(IDCompositionAnimation)
 title: IDCompositionScaleTransform3D::SetCenterY(IDCompositionAnimation) (dcomp.h)
-
 description: Animates the value of the CenterY property of a 3D scale transform.
 old-location: directcomp\idcompositionscaletransform3d_setcentery_idcompositionanimation.htm
 tech.root: directcomp
 ms.assetid: 3FF6E893-1764-4182-A6D9-3B71915CEA39
-
 ms.date: 12/05/2018
 ms.keywords: IDCompositionScaleTransform3D interface [DirectComposition],SetCenterY method, IDCompositionScaleTransform3D.SetCenterY, IDCompositionScaleTransform3D.SetCenterY(IDCompositionAnimation), IDCompositionScaleTransform3D::SetCenterY, IDCompositionScaleTransform3D::SetCenterY(IDCompositionAnimation), IDCompositionScaleTransform3D::SetCenterY(IDCompositionAnimation*), SetCenterY, SetCenterY method [DirectComposition], SetCenterY method [DirectComposition],IDCompositionScaleTransform3D interface, dcomp/IDCompositionScaleTransform3D::SetCenterY, directcomp.idcompositionscaletransform3d_setcentery_idcompositionanimation
 ms.topic: method
-f1_keywords: 
- - "dcomp/IDCompositionScaleTransform3D.SetCenterY"
+f1_keywords:
+- dcomp/IDCompositionScaleTransform3D.SetCenterY
 dev_langs:
- - c++
+- c++
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dcomp.lib
 req.dll: Dcomp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dcomp.dll
+- Dcomp.dll
 api_name:
- - IDCompositionScaleTransform3D.SetCenterY
+- IDCompositionScaleTransform3D.SetCenterY
 targetos: Windows
 req.typenames: 
 req.redist: 

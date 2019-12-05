@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.ICategorizer.CompareCategory
 title: ICategorizer::CompareCategory (shobjidl_core.h)
-
 description: Determines the relative order of two items in their item identifier lists, and hence in the UI.
 old-location: shell\ICategorizer_CompareCategory.htm
 tech.root: shell
 ms.assetid: 25775fa5-595d-4911-9cd4-47fde429b923
-
 ms.date: 12/05/2018
 ms.keywords: CompareCategory, CompareCategory method [Windows Shell], CompareCategory method [Windows Shell],ICategorizer interface, ICategorizer interface [Windows Shell],CompareCategory method, ICategorizer.CompareCategory, ICategorizer::CompareCategory, inet_ICategorizer_CompareCategory, shell.ICategorizer_CompareCategory, shobjidl_core/ICategorizer::CompareCategory
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/ICategorizer.CompareCategory"
+f1_keywords:
+- shobjidl_core/ICategorizer.CompareCategory
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Shell32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - ICategorizer.CompareCategory
+- ICategorizer.CompareCategory
 targetos: Windows
 req.typenames: 
 req.redist: 

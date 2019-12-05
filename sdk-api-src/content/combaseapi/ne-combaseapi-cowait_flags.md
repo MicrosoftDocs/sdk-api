@@ -1,19 +1,17 @@
 ---
 UID: NE:combaseapi.tagCOWAIT_FLAGS
 title: COWAIT_FLAGS (combaseapi.h)
-
 description: Specifies the behavior of the CoWaitForMultipleHandles function.
 old-location: com\cowait_flags.htm
 tech.root: com
 ms.assetid: e6f8300c-f74b-4383-8ee5-519a0ed0b358
-
 ms.date: 12/05/2018
 ms.keywords: COWAIT_ALERTABLE, COWAIT_DEFAULT, COWAIT_DISPATCH_CALLS, COWAIT_DISPATCH_WINDOW_MESSAGES, COWAIT_FLAGS, COWAIT_FLAGS enumeration [COM], COWAIT_INPUTAVAILABLE, COWAIT_WAITALL, _com_COWAIT_FLAGS, com.cowait_flags, combaseapi/COWAIT_ALERTABLE, combaseapi/COWAIT_DEFAULT, combaseapi/COWAIT_DISPATCH_CALLS, combaseapi/COWAIT_DISPATCH_WINDOW_MESSAGES, combaseapi/COWAIT_FLAGS, combaseapi/COWAIT_INPUTAVAILABLE, combaseapi/COWAIT_WAITALL
 ms.topic: enum
-f1_keywords: 
- - "combaseapi/COWAIT_FLAGS"
+f1_keywords:
+- combaseapi/COWAIT_FLAGS
 dev_langs:
- - c++
+- c++
 req.header: combaseapi.h
 req.include-header: Objbase.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - combaseapi.h
+- combaseapi.h
 api_name:
- - COWAIT_FLAGS
+- COWAIT_FLAGS
 targetos: Windows
 req.typenames: COWAIT_FLAGS
 req.redist: 

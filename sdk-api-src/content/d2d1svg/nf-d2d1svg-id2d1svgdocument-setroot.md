@@ -1,19 +1,17 @@
 ---
 UID: NF:d2d1svg.ID2D1SvgDocument.SetRoot
 title: ID2D1SvgDocument::SetRoot (d2d1svg.h)
-
 description: Sets the root element of the document.
 old-location: direct2d\id2d1svgdocument_setroot.htm
 tech.root: Direct2D
 ms.assetid: 076DC8F7-E358-484D-A567-60E80F9D2FC3
-
 ms.date: 12/05/2018
 ms.keywords: ID2D1SvgDocument interface [Direct2D],SetRoot method, ID2D1SvgDocument.SetRoot, ID2D1SvgDocument::SetRoot, SetRoot, SetRoot method [Direct2D], SetRoot method [Direct2D],ID2D1SvgDocument interface, d2d1svg/ID2D1SvgDocument::SetRoot, direct2d.id2d1svgdocument_setroot
 ms.topic: method
-f1_keywords: 
- - "d2d1svg/ID2D1SvgDocument.SetRoot"
+f1_keywords:
+- d2d1svg/ID2D1SvgDocument.SetRoot
 dev_langs:
- - c++
+- c++
 req.header: d2d1svg.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Direct2d.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - direct2d.dll
+- direct2d.dll
 api_name:
- - ID2D1SvgDocument.SetRoot
+- ID2D1SvgDocument.SetRoot
 targetos: Windows
 req.typenames: 
 req.redist: 

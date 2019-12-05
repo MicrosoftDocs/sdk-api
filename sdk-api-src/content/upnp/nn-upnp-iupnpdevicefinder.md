@@ -1,19 +1,17 @@
 ---
 UID: NN:upnp.IUPnPDeviceFinder
 title: IUPnPDeviceFinder (upnp.h)
-
 description: The IUPnPDeviceFinder interface enables an application to find a device.
 old-location: upnp\iupnpdevicefinder.htm
 tech.root: upnp
 ms.assetid: a4697038-8abc-42f2-9381-702fc82af90b
-
 ms.date: 12/05/2018
 ms.keywords: IUPnPDeviceFinder, IUPnPDeviceFinder interface [UPnP APIs], IUPnPDeviceFinder interface [UPnP APIs],described, _upnp_iupnpdevicefinder, upnp.iupnpdevicefinder, upnp/IUPnPDeviceFinder
 ms.topic: interface
-f1_keywords: 
- - "upnp/IUPnPDeviceFinder"
+f1_keywords:
+- upnp/IUPnPDeviceFinder
 dev_langs:
- - c++
+- c++
 req.header: upnp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Upnp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Upnp.dll
+- Upnp.dll
 api_name:
- - IUPnPDeviceFinder
+- IUPnPDeviceFinder
 targetos: Windows
 req.typenames: 
 req.redist: 

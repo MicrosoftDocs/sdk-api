@@ -1,19 +1,17 @@
 ---
 UID: NF:callobj.ICallInterceptor.RegisterSink
 title: ICallInterceptor::RegisterSink (callobj.h)
-
 description: Registers an event sink for receiving notifications of method calls.
 old-location: com\icallinterceptor_registersink.htm
 tech.root: com
 ms.assetid: 07de2e42-0490-4801-8951-6e71ffb8ed93
-
 ms.date: 12/05/2018
 ms.keywords: ICallInterceptor interface [COM],RegisterSink method, ICallInterceptor.RegisterSink, ICallInterceptor::RegisterSink, RegisterSink, RegisterSink method [COM], RegisterSink method [COM],ICallInterceptor interface, _com_icallinterceptor_registersink, callobj/ICallInterceptor::RegisterSink, com.icallinterceptor_registersink
 ms.topic: method
-f1_keywords: 
- - "callobj/ICallInterceptor.RegisterSink"
+f1_keywords:
+- callobj/ICallInterceptor.RegisterSink
 dev_langs:
- - c++
+- c++
 req.header: callobj.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Callobj.h
+- Callobj.h
 api_name:
- - ICallInterceptor.RegisterSink
+- ICallInterceptor.RegisterSink
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d10effect.ID3D10EffectVariable.AsMatrix
 title: ID3D10EffectVariable::AsMatrix (d3d10effect.h)
-
 description: Get a matrix variable.
 old-location: direct3d10\id3d10effectvariable_asmatrix.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10effectvariable_asmatrix.htm
-
 ms.date: 12/05/2018
 ms.keywords: AsMatrix, AsMatrix method [Direct3D 10], AsMatrix method [Direct3D 10],ID3D10EffectVariable interface, ID3D10EffectVariable interface [Direct3D 10],AsMatrix method, ID3D10EffectVariable.AsMatrix, ID3D10EffectVariable::AsMatrix, d3d10effect/ID3D10EffectVariable::AsMatrix, dc6784cd-b78e-6390-1d7a-db0d3c27410b, direct3d10.id3d10effectvariable_asmatrix
 ms.topic: method
-f1_keywords: 
- - "d3d10effect/ID3D10EffectVariable.AsMatrix"
+f1_keywords:
+- d3d10effect/ID3D10EffectVariable.AsMatrix
 dev_langs:
- - c++
+- c++
 req.header: d3d10effect.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D10Effect.h
+- D3D10Effect.h
 api_name:
- - ID3D10EffectVariable.AsMatrix
+- ID3D10EffectVariable.AsMatrix
 targetos: Windows
 req.typenames: 
 req.redist: 

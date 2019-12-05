@@ -1,19 +1,17 @@
 ---
 UID: NF:tspi.TUISPI_phoneConfigDialog
 title: TUISPI_phoneConfigDialog function (tspi.h)
-
 description: The TUISPI_phoneConfigDialog function causes the provider of the specified phone device to display a modal dialog box as a child window of hwndOwner to allow the user to configure parameters related to the phone device.
 old-location: tspi\tuispi_phoneconfigdialog.htm
 tech.root: Tapi
 ms.assetid: 6bdd4206-0028-43f0-8da8-2fc11779f7d2
-
 ms.date: 12/05/2018
 ms.keywords: TUISPI_phoneConfigDialog, TUISPI_phoneConfigDialog function [TAPI 2.2], _tspi_tuispi_phoneconfigdialog, tspi.tuispi_phoneconfigdialog, tspi/TUISPI_phoneConfigDialog
 ms.topic: function
-f1_keywords: 
- - "tspi/TUISPI_phoneConfigDialog"
+f1_keywords:
+- tspi/TUISPI_phoneConfigDialog
 dev_langs:
- - c++
+- c++
 req.header: tspi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Tspi.h
+- Tspi.h
 api_name:
- - TUISPI_phoneConfigDialog
+- TUISPI_phoneConfigDialog
 targetos: Windows
 req.typenames: 
 req.redist: 

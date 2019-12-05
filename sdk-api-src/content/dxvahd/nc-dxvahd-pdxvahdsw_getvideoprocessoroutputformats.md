@@ -1,19 +1,17 @@
 ---
 UID: NC:dxvahd.PDXVAHDSW_GetVideoProcessorOutputFormats
 title: PDXVAHDSW_GetVideoProcessorOutputFormats (dxvahd.h)
-
 description: Gets the output formats that are supported by a software plug-in Microsoft DirectX Video Acceleration High Definition (DXVA-HD) device.
 old-location: mf\pdxvahdsw_getvideoprocessoroutputformats.htm
 tech.root: medfound
 ms.assetid: d7f767d2-c645-4ade-9b0c-0d5436cf0cfe
-
 ms.date: 12/05/2018
 ms.keywords: PDXVAHDSW_GetVideoProcessorOutputFormats, PDXVAHDSW_GetVideoProcessorOutputFormats callback, PDXVAHDSW_GetVideoProcessorOutputFormats callback function [Media Foundation], dxvahd/PDXVAHDSW_GetVideoProcessorOutputFormats, mf.pdxvahdsw_getvideoprocessoroutputformats
 ms.topic: callback
 f1_keywords:
 - dxvahd/PDXVAHDSW_GetVideoProcessorOutputFormats
 dev_langs:
- - c++
+- c++
 req.header: dxvahd.h
 req.include-header: 
 req.target-type: Windows

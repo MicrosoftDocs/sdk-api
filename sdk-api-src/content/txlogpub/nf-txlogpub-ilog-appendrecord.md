@@ -1,19 +1,17 @@
 ---
 UID: NF:txlogpub.ILog.AppendRecord
 title: ILog::AppendRecord (txlogpub.h)
-
 description: Write a new record to the end of the log.
 old-location: com\ilog_appendrecord.htm
 tech.root: com
 ms.assetid: e739acb5-4d93-4871-8b35-54d45138fe0f
-
 ms.date: 12/05/2018
 ms.keywords: AppendRecord, AppendRecord method [COM], AppendRecord method [COM],ILog interface, ILog interface [COM],AppendRecord method, ILog.AppendRecord, ILog::AppendRecord, _com_ilog_appendrecord, com.ilog_appendrecord, txlogpub/ILog::AppendRecord
 ms.topic: method
-f1_keywords: 
- - "txlogpub/ILog.AppendRecord"
+f1_keywords:
+- txlogpub/ILog.AppendRecord
 dev_langs:
- - c++
+- c++
 req.header: txlogpub.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Txlogpub.h
+- Txlogpub.h
 api_name:
- - ILog.AppendRecord
+- ILog.AppendRecord
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NE:wmsdkidl.WMT_IMAGE_TYPE
 title: WMT_IMAGE_TYPE (wmsdkidl.h)
-
 description: The WMT_IMAGE_TYPE enumeration type defines the types of images that can be used for banner ads. This type is used as the value of the BannerImageType attribute.
 old-location: wmformat\wmt_image_type.htm
 tech.root: wmformat
 ms.assetid: 727cfed7-d818-4c0f-9e9f-a35d9a8c195e
-
 ms.date: 12/05/2018
 ms.keywords: WMT_IMAGE_TYPE, WMT_IMAGE_TYPE enumeration [windows Media Format], WMT_IT_BITMAP, WMT_IT_GIF, WMT_IT_JPEG, WMT_IT_NONE, wmformat.wmt_image_type, wmsdkidl/WMT_IMAGE_TYPE, wmsdkidl/WMT_IT_BITMAP, wmsdkidl/WMT_IT_GIF, wmsdkidl/WMT_IT_JPEG, wmsdkidl/WMT_IT_NONE
 ms.topic: enum
-f1_keywords: 
- - "wmsdkidl/WMT_IMAGE_TYPE"
+f1_keywords:
+- wmsdkidl/WMT_IMAGE_TYPE
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wmsdkidl.h
+- Wmsdkidl.h
 api_name:
- - WMT_IMAGE_TYPE
+- WMT_IMAGE_TYPE
 targetos: Windows
 req.typenames: WMT_IMAGE_TYPE
 req.redist: 

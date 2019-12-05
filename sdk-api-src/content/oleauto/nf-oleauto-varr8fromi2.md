@@ -1,19 +1,17 @@
 ---
 UID: NF:oleauto.VarR8FromI2
 title: VarR8FromI2 function (oleauto.h)
-
 description: Converts a short value to a double value.
 old-location: automat\varr8fromi2.htm
 tech.root: automat
 ms.assetid: b633a41c-5a47-4b88-b8ce-590b5f6d5169
-
 ms.date: 12/05/2018
 ms.keywords: VarR8FromI2, VarR8FromI2 function [Automation], _oa96_VarR8FromI2, automat.varr8fromi2, oleauto/VarR8FromI2
 ms.topic: function
-f1_keywords: 
- - "oleauto/VarR8FromI2"
+f1_keywords:
+- oleauto/VarR8FromI2
 dev_langs:
- - c++
+- c++
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: OleAut32.lib
 req.dll: OleAut32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - OleAut32.dll
+- OleAut32.dll
 api_name:
- - VarR8FromI2
+- VarR8FromI2
 targetos: Windows
 req.typenames: 
 req.redist: 

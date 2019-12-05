@@ -1,19 +1,17 @@
 ---
 UID: NF:windowsx.Edit_Enable
 title: Edit_Enable macro (windowsx.h)
-
 description: Enables or disables an edit control.
 old-location: controls\Edit_Enable.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\editcontrols\editcontrolreference\editcontrolmacros\edit_enable.htm
-
 ms.date: 12/05/2018
 ms.keywords: Edit_Enable, Edit_Enable macro [Windows Controls], _win32_Edit_Enable, _win32_Edit_Enable_cpp, controls.Edit_Enable, controls._win32_Edit_Enable, windowsx/Edit_Enable
 ms.topic: macro
-f1_keywords: 
- - "windowsx/Edit_Enable"
+f1_keywords:
+- windowsx/Edit_Enable
 dev_langs:
- - c++
+- c++
 req.header: windowsx.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Windowsx.h
+- Windowsx.h
 api_name:
- - Edit_Enable
+- Edit_Enable
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NN:shldisp.IShellFolderViewDual
 title: IShellFolderViewDual (shldisp.h)
-
 description: Exposes methods that modify the view and select items in the current folder.
 old-location: shell\IShellFolderViewDual.htm
 tech.root: shell
 ms.assetid: 48135f9d-ee80-4dec-87dc-83f407c25777
-
 ms.date: 12/05/2018
 ms.keywords: IShellFolderViewDual, IShellFolderViewDual interface [Windows Shell], IShellFolderViewDual interface [Windows Shell],described, _shell_IShellFolderViewDual, shell.IShellFolderViewDual, shldisp/IShellFolderViewDual
 ms.topic: interface
-f1_keywords: 
- - "shldisp/IShellFolderViewDual"
+f1_keywords:
+- shldisp/IShellFolderViewDual
 dev_langs:
- - c++
+- c++
 req.header: shldisp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shldisp.h
+- Shldisp.h
 api_name:
- - IShellFolderViewDual
+- IShellFolderViewDual
 targetos: Windows
 req.typenames: 
 req.redist: 

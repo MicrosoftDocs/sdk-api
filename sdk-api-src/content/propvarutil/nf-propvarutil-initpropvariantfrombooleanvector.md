@@ -1,19 +1,17 @@
 ---
 UID: NF:propvarutil.InitPropVariantFromBooleanVector
 title: InitPropVariantFromBooleanVector function (propvarutil.h)
-
 description: Initializes a PROPVARIANT structure from a specified Boolean vector.
 old-location: properties\InitPropVariantFromBooleanVector.htm
 tech.root: properties
 ms.assetid: d2e34efb-d5d9-4adf-b582-d3f82d04597f
-
 ms.date: 12/05/2018
 ms.keywords: InitPropVariantFromBooleanVector, InitPropVariantFromBooleanVector function [Windows Properties], _shell_InitPropVariantFromBooleanVector, properties.InitPropVariantFromBooleanVector, propvarutil/InitPropVariantFromBooleanVector, shell.InitPropVariantFromBooleanVector
 ms.topic: function
-f1_keywords: 
- - "propvarutil/InitPropVariantFromBooleanVector"
+f1_keywords:
+- propvarutil/InitPropVariantFromBooleanVector
 dev_langs:
- - c++
+- c++
 req.header: propvarutil.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Propsys.lib
 req.dll: Propsys.dll (version 6.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Propsys.dll
+- Propsys.dll
 api_name:
- - InitPropVariantFromBooleanVector
+- InitPropVariantFromBooleanVector
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0

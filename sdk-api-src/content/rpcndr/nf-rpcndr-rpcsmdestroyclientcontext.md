@@ -1,19 +1,17 @@
 ---
 UID: NF:rpcndr.RpcSmDestroyClientContext
 title: RpcSmDestroyClientContext function (rpcndr.h)
-
 description: The RpcSmDestroyClientContext function reclaims the client memory resources for a context handle and makes the context handle NULL.
 old-location: rpc\rpcsmdestroyclientcontext.htm
 tech.root: Rpc
 ms.assetid: ae886740-09e9-46a1-aa62-5dbcf6abab36
-
 ms.date: 12/05/2018
 ms.keywords: RpcSmDestroyClientContext, RpcSmDestroyClientContext function [RPC], _rpc_rpcsmdestroyclientcontext, rpc.rpcsmdestroyclientcontext, rpcndr/RpcSmDestroyClientContext
 ms.topic: function
-f1_keywords: 
- - "rpcndr/RpcSmDestroyClientContext"
+f1_keywords:
+- rpcndr/RpcSmDestroyClientContext
 dev_langs:
- - c++
+- c++
 req.header: rpcndr.h
 req.include-header: Rpc.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Rpcrt4.lib
 req.dll: Rpcrt4.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Rpcrt4.dll
+- Rpcrt4.dll
 api_name:
- - RpcSmDestroyClientContext
+- RpcSmDestroyClientContext
 targetos: Windows
 req.typenames: 
 req.redist: 

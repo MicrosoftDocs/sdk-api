@@ -1,19 +1,17 @@
 ---
 UID: NN:ddraw.IDirectDrawColorControl
 title: IDirectDrawColorControl (ddraw.h)
-
 description: Applications use the methods of the IDirectDrawColorControl interface to get and set color controls.
 old-location: directdraw\idirectdrawcolorcontrol.htm
 tech.root: directdraw
 ms.assetid: e9bd0dc6-2d8a-452b-894d-72a3d7a20100
-
 ms.date: 12/05/2018
 ms.keywords: IDirectDrawColorControl, IDirectDrawColorControl interface [DirectDraw], IDirectDrawColorControl interface [DirectDraw],described, ddraw/IDirectDrawColorControl, directdraw.idirectdrawcolorcontrol
 ms.topic: interface
-f1_keywords: 
- - "ddraw/IDirectDrawColorControl"
+f1_keywords:
+- ddraw/IDirectDrawColorControl
 dev_langs:
- - c++
+- c++
 req.header: ddraw.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Ddraw.lib
 req.dll: Ddraw.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Ddraw.dll
+- Ddraw.dll
 api_name:
- - IDirectDrawColorControl
+- IDirectDrawColorControl
 targetos: Windows
 req.typenames: 
 req.redist: 

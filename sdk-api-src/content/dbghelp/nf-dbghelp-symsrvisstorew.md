@@ -1,19 +1,17 @@
 ---
 UID: NF:dbghelp.SymSrvIsStoreW
 title: SymSrvIsStoreW function (dbghelp.h)
-
 description: Determines whether the specified path points to a symbol store.
 old-location: base\symsrvisstore.htm
 tech.root: Debug
 ms.assetid: 7fbec886-c1b7-4d17-9813-af7812b4abb9
-
 ms.date: 12/05/2018
 ms.keywords: SymSrvIsStore, SymSrvIsStore function, SymSrvIsStoreW, base.symsrvisstore, dbghelp/SymSrvIsStore, dbghelp/SymSrvIsStoreW
 ms.topic: function
-f1_keywords: 
- - "dbghelp/SymSrvIsStore"
+f1_keywords:
+- dbghelp/SymSrvIsStore
 dev_langs:
- - c++
+- c++
 req.header: dbghelp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Dbghelp.lib
 req.dll: Dbghelp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Dbghelp.dll
+- Dbghelp.dll
 api_name:
- - SymSrvIsStore
- - SymSrvIsStore
- - SymSrvIsStoreW
+- SymSrvIsStore
+- SymSrvIsStore
+- SymSrvIsStoreW
 targetos: Windows
 req.typenames: 
 req.redist: DbgHelp.dll 6.3 or later

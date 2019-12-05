@@ -1,19 +1,17 @@
 ---
 UID: NF:bdatif.IGuideData.GetScheduleEntryIDs
 title: IGuideData::GetScheduleEntryIDs (bdatif.h)
-
 description: The GetScheduleEntryIDs method returns a list of unique identifiers for all of the schedule entries contained in all transport streams.
 old-location: mstv\iguidedata_getscheduleentryids.htm
 tech.root: mstv
 ms.assetid: d44abd0d-bcfc-418f-b541-c085032fb933
-
 ms.date: 12/05/2018
 ms.keywords: GetScheduleEntryIDs, GetScheduleEntryIDs method [Microsoft TV Technologies], GetScheduleEntryIDs method [Microsoft TV Technologies],IGuideData interface, IGuideData interface [Microsoft TV Technologies],GetScheduleEntryIDs method, IGuideData.GetScheduleEntryIDs, IGuideData::GetScheduleEntryIDs, IGuideDataGetScheduleEntryIDs, bdatif/IGuideData::GetScheduleEntryIDs, mstv.iguidedata_getscheduleentryids
 ms.topic: method
-f1_keywords: 
- - "bdatif/IGuideData.GetScheduleEntryIDs"
+f1_keywords:
+- bdatif/IGuideData.GetScheduleEntryIDs
 dev_langs:
- - c++
+- c++
 req.header: bdatif.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - bdatif.h
+- bdatif.h
 api_name:
- - IGuideData.GetScheduleEntryIDs
+- IGuideData.GetScheduleEntryIDs
 targetos: Windows
 req.typenames: 
 req.redist: 

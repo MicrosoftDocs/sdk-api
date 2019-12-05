@@ -1,19 +1,17 @@
 ---
 UID: NF:oleauto.VarUI1FromUI8
 title: VarUI1FromUI8 function (oleauto.h)
-
 description: Converts an 8-byte unsigned integer value to a byte value.
 old-location: automat\varui1fromui8.htm
 tech.root: automat
 ms.assetid: ed490db5-558e-48a9-b804-ca6f1aedbcf1
-
 ms.date: 12/05/2018
 ms.keywords: VarUI1FromUI8, VarUI1FromUI8 function [Automation], _oa96_VarUI1FromUI8, automat.varui1fromui8, oleauto/VarUI1FromUI8
 ms.topic: function
-f1_keywords: 
- - "oleauto/VarUI1FromUI8"
+f1_keywords:
+- oleauto/VarUI1FromUI8
 dev_langs:
- - c++
+- c++
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: OleAut32.lib
 req.dll: OleAut32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - OleAut32.dll
+- OleAut32.dll
 api_name:
- - VarUI1FromUI8
+- VarUI1FromUI8
 targetos: Windows
 req.typenames: 
 req.redist: 

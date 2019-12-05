@@ -1,19 +1,17 @@
 ---
 UID: NS:objidl.tagBIND_OPTS
 title: BIND_OPTS (objidl.h)
-
 description: Contains parameters used during a moniker-binding operation.
 old-location: com\bind_opts.htm
 tech.root: com
 ms.assetid: 764f09c9-ff20-4ae2-b94f-4b0a1e117e49
-
 ms.date: 12/05/2018
-ms.keywords: "*LPBIND_OPTS, BIND_OPTS, BIND_OPTS structure [COM], LPBIND_OPTS, LPBIND_OPTS structure pointer [COM], _com_BIND_OPTS, com.bind_opts, objidl/BIND_OPTS, objidl/LPBIND_OPTS"
+ms.keywords: '*LPBIND_OPTS, BIND_OPTS, BIND_OPTS structure [COM], LPBIND_OPTS, LPBIND_OPTS structure pointer [COM], _com_BIND_OPTS, com.bind_opts, objidl/BIND_OPTS, objidl/LPBIND_OPTS'
 ms.topic: struct
-f1_keywords: 
- - "objidl/BIND_OPTS"
+f1_keywords:
+- objidl/BIND_OPTS
 dev_langs:
- - c++
+- c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Objidl.h
+- Objidl.h
 api_name:
- - BIND_OPTS
+- BIND_OPTS
 targetos: Windows
 req.typenames: BIND_OPTS, *LPBIND_OPTS
 req.redist: 

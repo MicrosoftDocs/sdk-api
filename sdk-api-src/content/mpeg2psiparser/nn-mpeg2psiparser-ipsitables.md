@@ -1,19 +1,17 @@
 ---
 UID: NN:mpeg2psiparser.IPSITables
 title: IPSITables (mpeg2psiparser.h)
-
 description: Gets an MPEG-2 program specific information (PSI) table from an MPEG-2 transport stream.
 old-location: mstv\ipsitables.htm
 tech.root: mstv
 ms.assetid: 6f07b4d2-7a52-448c-9e9f-729bd5261757
-
 ms.date: 12/05/2018
 ms.keywords: IPSITables, IPSITables interface [Microsoft TV Technologies], IPSITables interface [Microsoft TV Technologies],described, mpeg2psiparser/IPSITables, mstv.ipsitables
 ms.topic: interface
-f1_keywords: 
- - "mpeg2psiparser/IPSITables"
+f1_keywords:
+- mpeg2psiparser/IPSITables
 dev_langs:
- - c++
+- c++
 req.header: mpeg2psiparser.h
 req.include-header: Mpeg2PsiParser.idl
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mpeg2psiparser.h
+- mpeg2psiparser.h
 api_name:
- - IPSITables
+- IPSITables
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:xenroll.ICEnroll4.getProviderType
 title: ICEnroll4::getProviderType (xenroll.h)
-
 description: Retrieves the type of the specified cryptographic service provider (CSP). This method was first defined in the ICEnroll4 interface.
 old-location: security\icenroll4_getprovidertype.htm
 tech.root: SecCrypto
 ms.assetid: f47c07b8-0919-44d4-b331-e062341aa050
-
 ms.date: 12/05/2018
 ms.keywords: CEnroll object [Security],getProviderType method, ICEnroll4 interface [Security],getProviderType method, ICEnroll4.getProviderType, ICEnroll4::getProviderType, getProviderType, getProviderType method [Security], getProviderType method [Security],CEnroll object, getProviderType method [Security],ICEnroll4 interface, security.icenroll4_getprovidertype, xenroll/ICEnroll4::getProviderType
 ms.topic: method
-f1_keywords: 
- - "xenroll/ICEnroll4.getProviderType"
+f1_keywords:
+- xenroll/ICEnroll4.getProviderType
 dev_langs:
- - c++
+- c++
 req.header: xenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Uuid.lib
 req.dll: Xenroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Xenroll.dll
+- Xenroll.dll
 api_name:
- - ICEnroll4.getProviderType
- - CEnroll.getProviderType
+- ICEnroll4.getProviderType
+- CEnroll.getProviderType
 targetos: Windows
 req.typenames: 
 req.redist: 

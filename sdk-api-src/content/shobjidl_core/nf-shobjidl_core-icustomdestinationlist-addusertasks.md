@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.ICustomDestinationList.AddUserTasks
 title: ICustomDestinationList::AddUserTasks (shobjidl_core.h)
-
 description: Specifies items to include in the Tasks category of a custom Jump List.
 old-location: shell\ICustomDestinationList_AddUserTasks.htm
 tech.root: shell
 ms.assetid: 7b254276-dc6f-4d20-8f44-fce8e01b237f
-
 ms.date: 12/05/2018
 ms.keywords: AddUserTasks, AddUserTasks method [Windows Shell], AddUserTasks method [Windows Shell],ICustomDestinationList interface, ICustomDestinationList interface [Windows Shell],AddUserTasks method, ICustomDestinationList.AddUserTasks, ICustomDestinationList::AddUserTasks, _shell_ICustomDestinationList_AddUserTasks, shell.ICustomDestinationList_AddUserTasks, shobjidl_core/ICustomDestinationList::AddUserTasks
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/ICustomDestinationList.AddUserTasks"
+f1_keywords:
+- shobjidl_core/ICustomDestinationList.AddUserTasks
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Shell32.lib
 req.dll: Shell32.dll (version 6.1 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - ICustomDestinationList.AddUserTasks
+- ICustomDestinationList.AddUserTasks
 targetos: Windows
 req.typenames: 
 req.redist: 

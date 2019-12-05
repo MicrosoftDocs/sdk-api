@@ -1,19 +1,17 @@
 ---
 UID: NF:winddi.DrvCompletePDEV
 title: DrvCompletePDEV function (winddi.h)
-
 description: The DrvCompletePDEV function stores the GDI handle of the physical device being created.
 old-location: display\drvcompletepdev.htm
 tech.root: display
 ms.assetid: 6343c6cc-f2f3-4776-a747-7a5b5cebef5f
-
 ms.date: 12/05/2018
 ms.keywords: DrvCompletePDEV, DrvCompletePDEV function [Display Devices], ddifncs_7d8109c8-3f74-4ae2-99d3-e2d18ff4cc32.xml, display.drvcompletepdev, winddi/DrvCompletePDEV
 ms.topic: function
-f1_keywords: 
- - "winddi/DrvCompletePDEV"
+f1_keywords:
+- winddi/DrvCompletePDEV
 dev_langs:
- - c++
+- c++
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Desktop
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - winddi.h
+- winddi.h
 api_name:
- - DrvCompletePDEV
+- DrvCompletePDEV
 targetos: Windows
 req.typenames: 
 req.redist: 

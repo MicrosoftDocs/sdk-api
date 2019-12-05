@@ -1,19 +1,17 @@
 ---
 UID: NF:comsvcs.IMTSLocator.GetEventDispatcher
 title: IMTSLocator::GetEventDispatcher (comsvcs.h)
-
 description: Retrieves a pointer to the event dispatcher for the current process.
 old-location: cos\imtslocator_geteventdispatcher.htm
 tech.root: cossdk
 ms.assetid: 10e110bf-1a7c-48a2-ab9f-836ea21d442b
-
 ms.date: 12/05/2018
 ms.keywords: GetEventDispatcher, GetEventDispatcher method [COM+], GetEventDispatcher method [COM+],IMTSLocator interface, IMTSLocator interface [COM+],GetEventDispatcher method, IMTSLocator.GetEventDispatcher, IMTSLocator::GetEventDispatcher, _dtc_IMtsLocator_GetEventDispatcher, comsvcs/IMTSLocator::GetEventDispatcher, cos.imtslocator_geteventdispatcher
 ms.topic: method
-f1_keywords: 
- - "comsvcs/IMTSLocator.GetEventDispatcher"
+f1_keywords:
+- comsvcs/IMTSLocator.GetEventDispatcher
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - IMTSLocator.GetEventDispatcher
+- IMTSLocator.GetEventDispatcher
 targetos: Windows
 req.typenames: 
 req.redist: 

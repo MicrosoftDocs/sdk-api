@@ -1,19 +1,17 @@
 ---
 UID: NF:tspi.TUISPI_providerConfig
 title: TUISPI_providerConfig function (tspi.h)
-
 description: The TUISPI_providerConfig function implements the UI elements that must execute in the context of the calling application. This function makes the TSPI_providerConfig function obsolete in version 2.0 and later (supported in version 1.4 and earlier).
 old-location: tspi\tuispi_providerconfig.htm
 tech.root: Tapi
 ms.assetid: 9730f61a-8da7-4693-9fd2-94650e36ce8a
-
 ms.date: 12/05/2018
 ms.keywords: TUISPI_providerConfig, TUISPI_providerConfig function [TAPI 2.2], _tspi_tuispi_providerconfig, tspi.tuispi_providerconfig, tspi/TUISPI_providerConfig
 ms.topic: function
-f1_keywords: 
- - "tspi/TUISPI_providerConfig"
+f1_keywords:
+- tspi/TUISPI_providerConfig
 dev_langs:
- - c++
+- c++
 req.header: tspi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Tspi.h
+- Tspi.h
 api_name:
- - TUISPI_providerConfig
+- TUISPI_providerConfig
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:directxmath.XMQuaternionSquadSetup
 title: XMQuaternionSquadSetup function (directxmath.h)
-
 description: Provides addresses of setup control points for spherical quadrangle interpolation.
 old-location: dxmath\xmquaternionsquadsetup.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.quaternion.XMQuaternionSquadSetup(XMVECTOR@,XMVECTOR@,XMVECTOR@,XMVECTOR,XMVECTOR,XMVECTOR,XMVECTOR)
-
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMQuaternionSquadSetup, XMQuaternionSquadSetup, XMQuaternionSquadSetup method [DirectX Math Support APIs], dxmath.xmquaternionsquadsetup
 ms.topic: function
-f1_keywords: 
- - "directxmath/XMQuaternionSquadSetup"
+f1_keywords:
+- directxmath/XMQuaternionSquadSetup
 dev_langs:
- - c++
+- c++
 req.header: directxmath.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - DirectXMath.h
+- DirectXMath.h
 api_name:
- - XMQuaternionSquadSetup
+- XMQuaternionSquadSetup
 targetos: Windows
 req.typenames: 
 req.redist: 

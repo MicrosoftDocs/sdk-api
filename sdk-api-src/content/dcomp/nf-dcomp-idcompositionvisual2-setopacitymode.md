@@ -1,19 +1,17 @@
 ---
 UID: NF:dcomp.IDCompositionVisual2.SetOpacityMode
 title: IDCompositionVisual2::SetOpacityMode (dcomp.h)
-
 description: Sets the opacity mode for this visual.
 old-location: directcomp\idcompositionvisual2_setopacitymode.htm
 tech.root: directcomp
 ms.assetid: 8802266E-9D31-409E-ACE8-62A3E9E93EA3
-
 ms.date: 12/05/2018
 ms.keywords: IDCompositionVisual2 interface [DirectComposition],SetOpacityMode method, IDCompositionVisual2.SetOpacityMode, IDCompositionVisual2::SetOpacityMode, SetOpacityMode, SetOpacityMode method [DirectComposition], SetOpacityMode method [DirectComposition],IDCompositionVisual2 interface, dcomp/IDCompositionVisual2::SetOpacityMode, directcomp.idcompositionvisual2_setopacitymode
 ms.topic: method
-f1_keywords: 
- - "dcomp/IDCompositionVisual2.SetOpacityMode"
+f1_keywords:
+- dcomp/IDCompositionVisual2.SetOpacityMode
 dev_langs:
- - c++
+- c++
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dcomp.lib
 req.dll: Dcomp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dcomp.dll
+- Dcomp.dll
 api_name:
- - IDCompositionVisual2.SetOpacityMode
+- IDCompositionVisual2.SetOpacityMode
 targetos: Windows
 req.typenames: 
 req.redist: 

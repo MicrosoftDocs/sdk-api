@@ -1,19 +1,17 @@
 ---
 UID: NS:ndattrib.tagLIFE_TIME
 title: LIFE_TIME (ndattrib.h)
-
 description: The LIFE_TIME structure contains a start time and an end time.
 old-location: ndf\life_time.htm
 tech.root: NDF
 ms.assetid: 31f038fb-08c1-4057-af61-f3912cfcd4f0
-
 ms.date: 12/05/2018
-ms.keywords: "*PLIFE_TIME, LIFE_TIME, LIFE_TIME structure [NDF], LIFE_TIME,*PLIFE_TIME, LIFE_TIME,*PLIFE_TIME structure [NDF], ndattrib/LIFE_TIME, ndf.life_time"
+ms.keywords: '*PLIFE_TIME, LIFE_TIME, LIFE_TIME structure [NDF], LIFE_TIME,*PLIFE_TIME, LIFE_TIME,*PLIFE_TIME structure [NDF], ndattrib/LIFE_TIME, ndf.life_time'
 ms.topic: struct
-f1_keywords: 
- - "ndattrib/LIFE_TIME, *PLIFE_TIME"
+f1_keywords:
+- ndattrib/LIFE_TIME, *PLIFE_TIME
 dev_langs:
- - c++
+- c++
 req.header: ndattrib.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - ndattrib.h
+- ndattrib.h
 api_name:
- - LIFE_TIME, *PLIFE_TIME
+- LIFE_TIME, *PLIFE_TIME
 targetos: Windows
 req.typenames: LIFE_TIME, *PLIFE_TIME
 req.redist: 

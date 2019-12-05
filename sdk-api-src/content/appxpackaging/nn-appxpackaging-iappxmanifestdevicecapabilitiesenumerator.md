@@ -1,19 +1,17 @@
 ---
 UID: NN:appxpackaging.IAppxManifestDeviceCapabilitiesEnumerator
 title: IAppxManifestDeviceCapabilitiesEnumerator (appxpackaging.h)
-
 description: Enumerates the device capabilities defined in the package manifest.
 old-location: appxpkg\iappxmanifestdevicecapabilitiesenumerator.htm
 tech.root: appxpkg
 ms.assetid: 6A544E15-BB92-48C3-963D-789B04464277
-
 ms.date: 12/05/2018
 ms.keywords: IAppxManifestDeviceCapabilitiesEnumerator, IAppxManifestDeviceCapabilitiesEnumerator interface [App packaging and management], IAppxManifestDeviceCapabilitiesEnumerator interface [App packaging and management],described, appxpackaging/IAppxManifestDeviceCapabilitiesEnumerator, appxpkg.iappxmanifestdevicecapabilitiesenumerator
 ms.topic: interface
-f1_keywords: 
- - "appxpackaging/IAppxManifestDeviceCapabilitiesEnumerator"
+f1_keywords:
+- appxpackaging/IAppxManifestDeviceCapabilitiesEnumerator
 dev_langs:
- - c++
+- c++
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - AppxPackaging.h
+- AppxPackaging.h
 api_name:
- - IAppxManifestDeviceCapabilitiesEnumerator
+- IAppxManifestDeviceCapabilitiesEnumerator
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi.lineHandoffA
 title: lineHandoffA function (tapi.h)
-
 description: The lineHandoff function gives ownership of the specified call to another application. The application can be either specified directly by its file name or indirectly as the highest priority application that handles calls of the specified media mode.
 old-location: tapi2\linehandoff.htm
 tech.root: Tapi
 ms.assetid: 931c2fa4-dad6-432d-8f07-bb04b646916b
-
 ms.date: 12/05/2018
-ms.keywords: "_tapi2_linehandoff, lineHandoff, lineHandoff function [TAPI 2.2], lineHandoffA, lineHandoffW, tapi/lineHandoff, tapi/lineHandoffA, tapi/lineHandoffW, tapi2.linehandoff"
+ms.keywords: _tapi2_linehandoff, lineHandoff, lineHandoff function [TAPI 2.2], lineHandoffA, lineHandoffW, tapi/lineHandoff, tapi/lineHandoffA, tapi/lineHandoffW, tapi2.linehandoff
 ms.topic: function
-f1_keywords: 
- - "tapi/lineHandoff"
+f1_keywords:
+- tapi/lineHandoff
 dev_langs:
- - c++
+- c++
 req.header: tapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Tapi32.lib
 req.dll: Tapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Tapi32.dll
+- Tapi32.dll
 api_name:
- - lineHandoff
- - lineHandoffA
- - lineHandoffW
+- lineHandoff
+- lineHandoffA
+- lineHandoffW
 targetos: Windows
 req.typenames: 
 req.redist: 

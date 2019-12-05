@@ -1,19 +1,17 @@
 ---
 UID: NN:bdaiface.IBDA_EventingService
 title: IBDA_EventingService (bdaiface.h)
-
 description: Provides access to a device's Eventing Service.
 old-location: mstv\ibda_eventingservice.htm
 tech.root: mstv
 ms.assetid: 45ef0b45-92d0-47c1-9334-d0df74a43d28
-
 ms.date: 12/05/2018
 ms.keywords: IBDA_EventingService, IBDA_EventingService interface [Microsoft TV Technologies], IBDA_EventingService interface [Microsoft TV Technologies],described, bdaiface/IBDA_EventingService, mstv.ibda_eventingservice
 ms.topic: interface
-f1_keywords: 
- - "bdaiface/IBDA_EventingService"
+f1_keywords:
+- bdaiface/IBDA_EventingService
 dev_langs:
- - c++
+- c++
 req.header: bdaiface.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - bdaiface.h
+- bdaiface.h
 api_name:
- - IBDA_EventingService
+- IBDA_EventingService
 targetos: Windows
 req.typenames: 
 req.redist: 

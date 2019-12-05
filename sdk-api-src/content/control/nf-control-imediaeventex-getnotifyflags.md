@@ -1,19 +1,17 @@
 ---
 UID: NF:control.IMediaEventEx.GetNotifyFlags
 title: IMediaEventEx::GetNotifyFlags (control.h)
-
 description: The GetNotifyFlags method determines whether event notifications are enabled.
 old-location: dshow\imediaeventex_getnotifyflags.htm
 tech.root: DirectShow
 ms.assetid: 797c5ee2-5a3c-4e95-b4b8-e29b39460ee0
-
 ms.date: 12/05/2018
 ms.keywords: GetNotifyFlags, GetNotifyFlags method [DirectShow], GetNotifyFlags method [DirectShow],IMediaEventEx interface, IMediaEventEx interface [DirectShow],GetNotifyFlags method, IMediaEventEx.GetNotifyFlags, IMediaEventEx::GetNotifyFlags, IMediaEventExGetNotifyFlags, control/IMediaEventEx::GetNotifyFlags, dshow.imediaeventex_getnotifyflags
 ms.topic: method
-f1_keywords: 
- - "control/IMediaEventEx.GetNotifyFlags"
+f1_keywords:
+- control/IMediaEventEx.GetNotifyFlags
 dev_langs:
- - c++
+- c++
 req.header: control.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IMediaEventEx.GetNotifyFlags
+- IMediaEventEx.GetNotifyFlags
 targetos: Windows
 req.typenames: 
 req.redist: 

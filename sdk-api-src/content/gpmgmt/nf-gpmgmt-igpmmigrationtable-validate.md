@@ -1,19 +1,17 @@
 ---
 UID: NF:gpmgmt.IGPMMigrationTable.Validate
 title: IGPMMigrationTable::Validate (gpmgmt.h)
-
 description: Validates the migration table.
 old-location: gpmc\igpmmigrationtable_validate.htm
 tech.root: gpmc
 ms.assetid: 1b442155-3dd7-4a74-ad33-db79114459ac
-
 ms.date: 12/05/2018
 ms.keywords: GPMMigrationTable class [GPMC],Validate method, IGPMMigrationTable interface [GPMC],Validate method, IGPMMigrationTable.Validate, IGPMMigrationTable::Validate, Validate, Validate method [GPMC], Validate method [GPMC],GPMMigrationTable class, Validate method [GPMC],IGPMMigrationTable interface, gpmc.igpmmigrationtable_validate, gpmgmt/IGPMMigrationTable::Validate
 ms.topic: method
-f1_keywords: 
- - "gpmgmt/IGPMMigrationTable.Validate"
+f1_keywords:
+- gpmgmt/IGPMMigrationTable.Validate
 dev_langs:
- - c++
+- c++
 req.header: gpmgmt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: Gpmgmt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gpmgmt.dll
+- Gpmgmt.dll
 api_name:
- - IGPMMigrationTable.Validate
- - GPMMigrationTable.Validate
+- IGPMMigrationTable.Validate
+- GPMMigrationTable.Validate
 targetos: Windows
 req.typenames: 
 req.redist: 

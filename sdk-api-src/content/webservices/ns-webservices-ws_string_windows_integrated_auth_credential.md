@@ -1,19 +1,17 @@
 ---
 UID: NS:webservices._WS_STRING_WINDOWS_INTEGRATED_AUTH_CREDENTIAL
 title: WS_STRING_WINDOWS_INTEGRATED_AUTH_CREDENTIAL (webservices.h)
-
 description: Type for supplying a Windows credential as username, password, domain strings.
 old-location: wsw\ws_string_windows_integrated_auth_credential.htm
 tech.root: wsw
 ms.assetid: 31a9c242-b56c-47d5-8b5a-a7a245575124
-
 ms.date: 12/05/2018
 ms.keywords: WS_STRING_WINDOWS_INTEGRATED_AUTH_CREDENTIAL, WS_STRING_WINDOWS_INTEGRATED_AUTH_CREDENTIAL structure [Web Services for Windows], webservices/WS_STRING_WINDOWS_INTEGRATED_AUTH_CREDENTIAL, wsw.ws_string_windows_integrated_auth_credential
 ms.topic: struct
-f1_keywords: 
- - "webservices/WS_STRING_WINDOWS_INTEGRATED_AUTH_CREDENTIAL"
+f1_keywords:
+- webservices/WS_STRING_WINDOWS_INTEGRATED_AUTH_CREDENTIAL
 dev_langs:
- - c++
+- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WebServices.h
+- WebServices.h
 api_name:
- - WS_STRING_WINDOWS_INTEGRATED_AUTH_CREDENTIAL
+- WS_STRING_WINDOWS_INTEGRATED_AUTH_CREDENTIAL
 targetos: Windows
 req.typenames: WS_STRING_WINDOWS_INTEGRATED_AUTH_CREDENTIAL
 req.redist: 

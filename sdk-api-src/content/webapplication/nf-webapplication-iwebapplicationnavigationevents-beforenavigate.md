@@ -1,19 +1,17 @@
 ---
 UID: NF:webapplication.IWebApplicationNavigationEvents.BeforeNavigate
 title: IWebApplicationNavigationEvents::BeforeNavigate (webapplication.h)
-
 description: Fired before navigate occurs in the given host (window or frameset element).
 old-location: debug\iwebapplicationnavigationevents_beforenavigate.htm
 tech.root: debug_wwahost
 ms.assetid: 1088bfa3-0a20-4156-90ff-50129e903052
-
 ms.date: 12/05/2018
 ms.keywords: BeforeNavigate, BeforeNavigate method [Debugging Windows Store apps], BeforeNavigate method [Debugging Windows Store apps],IWebApplicationNavigationEvents interface, IWebApplicationNavigationEvents interface [Debugging Windows Store apps],BeforeNavigate method, IWebApplicationNavigationEvents.BeforeNavigate, IWebApplicationNavigationEvents::BeforeNavigate, debug.iwebapplicationnavigationevents_beforenavigate, webapplication/IWebApplicationNavigationEvents::BeforeNavigate
 ms.topic: method
-f1_keywords: 
- - "webapplication/IWebApplicationNavigationEvents.BeforeNavigate"
+f1_keywords:
+- webapplication/IWebApplicationNavigationEvents.BeforeNavigate
 dev_langs:
- - c++
+- c++
 req.header: webapplication.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - webapplication.h
+- webapplication.h
 api_name:
- - IWebApplicationNavigationEvents.BeforeNavigate
+- IWebApplicationNavigationEvents.BeforeNavigate
 targetos: Windows
 req.typenames: 
 req.redist: 

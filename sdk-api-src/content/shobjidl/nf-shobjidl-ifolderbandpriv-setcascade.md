@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl.IFolderBandPriv.SetCascade
 title: IFolderBandPriv::SetCascade (shobjidl.h)
-
 description: Sets a cascade folder.
 old-location: shell\IFolderBandPriv_SetCascade.htm
 tech.root: shell
 ms.assetid: c4981edf-981e-47e3-8869-86cb99f23e3e
-
 ms.date: 12/05/2018
 ms.keywords: IFolderBandPriv interface [Windows Shell],SetCascade method, IFolderBandPriv.SetCascade, IFolderBandPriv::SetCascade, SetCascade, SetCascade method [Windows Shell], SetCascade method [Windows Shell],IFolderBandPriv interface, _win32_IFolderBandPriv_SetCascade, shell.IFolderBandPriv_SetCascade, shobjidl/IFolderBandPriv::SetCascade
 ms.topic: method
-f1_keywords: 
- - "shobjidl/IFolderBandPriv.SetCascade"
+f1_keywords:
+- shobjidl/IFolderBandPriv.SetCascade
 dev_langs:
- - c++
+- c++
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Shell32.dll (version 5.00 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - IFolderBandPriv.SetCascade
+- IFolderBandPriv.SetCascade
 targetos: Windows
 req.typenames: 
 req.redist: 

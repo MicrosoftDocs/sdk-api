@@ -1,19 +1,17 @@
 ---
 UID: NF:devicetopology.IControlInterface.GetIID
 title: IControlInterface::GetIID (devicetopology.h)
-
 description: The GetIID method gets the interface ID of the function-specific control interface of the part.
 old-location: coreaudio\icontrolinterface_getiid.htm
 tech.root: CoreAudio
 ms.assetid: c6d46f37-6b9a-4d20-8a97-9fb5284dbc42
-
 ms.date: 12/05/2018
 ms.keywords: GetIID, GetIID method [Core Audio], GetIID method [Core Audio],IControlInterface interface, IControlInterface interface [Core Audio],GetIID method, IControlInterface.GetIID, IControlInterface::GetIID, IControlInterfaceGetIID, coreaudio.icontrolinterface_getiid, devicetopology/IControlInterface::GetIID
 ms.topic: method
-f1_keywords: 
- - "devicetopology/IControlInterface.GetIID"
+f1_keywords:
+- devicetopology/IControlInterface.GetIID
 dev_langs:
- - c++
+- c++
 req.header: devicetopology.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Devicetopology.h
+- Devicetopology.h
 api_name:
- - IControlInterface.GetIID
+- IControlInterface.GetIID
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:vdshwprv.IVdsSubSystem.Reenumerate
 title: IVdsSubSystem::Reenumerate (vdshwprv.h)
-
 description: Prompts the subsystem to scan its bus to discover newly-connected drives or newly-disconnected drives.
 old-location: base\ivdssubsystem_reenumerate.htm
 tech.root: VDS
 ms.assetid: 9d6118bb-7b13-4ae1-9faf-9c17ada20511
-
 ms.date: 12/05/2018
 ms.keywords: IVdsSubSystem interface [VDS],Reenumerate method, IVdsSubSystem.Reenumerate, IVdsSubSystem::Reenumerate, Reenumerate, Reenumerate method [VDS], Reenumerate method [VDS],IVdsSubSystem interface, base.ivdssubsystem_reenumerate, vds/IVdsSubSystem::Reenumerate, vdshwprv/IVdsSubSystem::Reenumerate
 ms.topic: method
-f1_keywords: 
- - "vdshwprv/IVdsSubSystem.Reenumerate"
+f1_keywords:
+- vdshwprv/IVdsSubSystem.Reenumerate
 dev_langs:
- - c++
+- c++
 req.header: vdshwprv.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Uuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Uuid.lib
- - Uuid.dll
+- Uuid.lib
+- Uuid.dll
 api_name:
- - IVdsSubSystem.Reenumerate
+- IVdsSubSystem.Reenumerate
 targetos: Windows
 req.typenames: 
 req.redist: 

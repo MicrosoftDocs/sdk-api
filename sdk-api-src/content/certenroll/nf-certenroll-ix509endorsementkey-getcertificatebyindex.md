@@ -1,19 +1,17 @@
 ---
 UID: NF:certenroll.IX509EndorsementKey.GetCertificateByIndex
 title: IX509EndorsementKey::GetCertificateByIndex (certenroll.h)
-
 description: Gets the endorsement certificate associated with the endorsement key from the key storage provider for the specified index.
 old-location: security\ix509endorsementkey_getcertificatebyindex.htm
 tech.root: seccertenroll
 ms.assetid: ab1eb37a-d79e-4d02-8e60-6c093f42c68f
-
 ms.date: 12/05/2018
 ms.keywords: GetCertificateByIndex, GetCertificateByIndex method [Security], GetCertificateByIndex method [Security],IX509EndorsementKey interface, IX509EndorsementKey interface [Security],GetCertificateByIndex method, IX509EndorsementKey.GetCertificateByIndex, IX509EndorsementKey::GetCertificateByIndex, certenroll/IX509EndorsementKey::GetCertificateByIndex, security.ix509endorsementkey_getcertificatebyindex
 ms.topic: method
-f1_keywords: 
- - "certenroll/IX509EndorsementKey.GetCertificateByIndex"
+f1_keywords:
+- certenroll/IX509EndorsementKey.GetCertificateByIndex
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Certenroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Certenroll.dll
+- Certenroll.dll
 api_name:
- - IX509EndorsementKey.GetCertificateByIndex
+- IX509EndorsementKey.GetCertificateByIndex
 targetos: Windows
 req.typenames: 
 req.redist: 

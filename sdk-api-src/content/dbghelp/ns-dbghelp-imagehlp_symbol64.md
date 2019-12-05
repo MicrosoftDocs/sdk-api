@@ -1,19 +1,17 @@
 ---
 UID: NS:dbghelp._IMAGEHLP_SYMBOL64
 title: IMAGEHLP_SYMBOL64 (dbghelp.h)
-
 description: Contains symbol information.
 old-location: base\imagehlp_symbol64_str.htm
 tech.root: Debug
 ms.assetid: 7b39281a-c34b-47ae-a3ff-5f0a7a66a588
-
 ms.date: 12/05/2018
-ms.keywords: "*PIMAGEHLP_SYMBOL64, IMAGEHLP_SYMBOL, IMAGEHLP_SYMBOL structure, IMAGEHLP_SYMBOL64, IMAGEHLP_SYMBOL64 structure, IMAGEHLP_SYMBOLW64, PIMAGEHLP_SYMBOL64, PIMAGEHLP_SYMBOL64 structure pointer, _IMAGEHLP_SYMBOL64, _win32_imagehlp_symbol64_str, base.imagehlp_symbol64_str, dbghelp/IMAGEHLP_SYMBOL64, dbghelp/IMAGEHLP_SYMBOLW64, dbghelp/PIMAGEHLP_SYMBOL64"
+ms.keywords: '*PIMAGEHLP_SYMBOL64, IMAGEHLP_SYMBOL, IMAGEHLP_SYMBOL structure, IMAGEHLP_SYMBOL64, IMAGEHLP_SYMBOL64 structure, IMAGEHLP_SYMBOLW64, PIMAGEHLP_SYMBOL64, PIMAGEHLP_SYMBOL64 structure pointer, _IMAGEHLP_SYMBOL64, _win32_imagehlp_symbol64_str, base.imagehlp_symbol64_str, dbghelp/IMAGEHLP_SYMBOL64, dbghelp/IMAGEHLP_SYMBOLW64, dbghelp/PIMAGEHLP_SYMBOL64'
 ms.topic: struct
-f1_keywords: 
- - "dbghelp/IMAGEHLP_SYMBOL64"
+f1_keywords:
+- dbghelp/IMAGEHLP_SYMBOL64
 dev_langs:
- - c++
+- c++
 req.header: dbghelp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - DbgHelp.h
+- DbgHelp.h
 api_name:
- - IMAGEHLP_SYMBOL64
- - IMAGEHLP_SYMBOL64
- - IMAGEHLP_SYMBOLW64
- - IMAGEHLP_SYMBOL
+- IMAGEHLP_SYMBOL64
+- IMAGEHLP_SYMBOL64
+- IMAGEHLP_SYMBOLW64
+- IMAGEHLP_SYMBOL
 targetos: Windows
 req.typenames: IMAGEHLP_SYMBOL64, *PIMAGEHLP_SYMBOL64
 req.redist: DbgHelp.dll 5.1 or later

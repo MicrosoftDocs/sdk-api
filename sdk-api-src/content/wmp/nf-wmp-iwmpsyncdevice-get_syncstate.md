@@ -1,19 +1,17 @@
 ---
 UID: NF:wmp.IWMPSyncDevice.get_syncState
 title: IWMPSyncDevice::get_syncState (wmp.h)
-
 description: The get_syncState method retrieves a value that indicates the current synchronization state for the device.
 old-location: wmp\iwmpsyncdevice_get_syncstate.htm
 tech.root: WMP
 ms.assetid: c93263a1-7976-43db-b514-97d9a263a60c
-
 ms.date: 12/05/2018
 ms.keywords: IWMPSyncDevice interface [Windows Media Player],get_syncState method, IWMPSyncDevice.get_syncState, IWMPSyncDevice::get_syncState, IWMPSyncDeviceget_syncState, get_syncState, get_syncState method [Windows Media Player], get_syncState method [Windows Media Player],IWMPSyncDevice interface, wmp.iwmpsyncdevice_get_syncstate, wmp/IWMPSyncDevice::get_syncState
 ms.topic: method
-f1_keywords: 
- - "wmp/IWMPSyncDevice.get_syncState"
+f1_keywords:
+- wmp/IWMPSyncDevice.get_syncState
 dev_langs:
- - c++
+- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wmp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmp.dll
+- wmp.dll
 api_name:
- - IWMPSyncDevice.get_syncState
+- IWMPSyncDevice.get_syncState
 targetos: Windows
 req.typenames: 
 req.redist: 

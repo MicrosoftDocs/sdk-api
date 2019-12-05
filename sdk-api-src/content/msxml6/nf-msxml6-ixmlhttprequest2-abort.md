@@ -1,19 +1,17 @@
 ---
 UID: NF:msxml6.IXMLHTTPRequest2.Abort
 title: IXMLHTTPRequest2::Abort (msxml6.h)
-
 description: Cancels the current HTTP request.
 old-location: ixhr2\ixmlhttprequest2_abort.htm
 tech.root: ixhr2
 ms.assetid: B051D464-2328-44A2-A2BC-D0CDDCA79C64
-
 ms.date: 12/05/2018
 ms.keywords: Abort, Abort method [XMLHttpRequest2], Abort method [XMLHttpRequest2],IXMLHTTPRequest2 interface, IXMLHTTPRequest2 interface [XMLHttpRequest2],Abort method, IXMLHTTPRequest2.Abort, IXMLHTTPRequest2::Abort, ixhr2.ixmlhttprequest2_abort, msxml6/IXMLHTTPRequest2::Abort
 ms.topic: method
-f1_keywords: 
- - "msxml6/IXMLHTTPRequest2.Abort"
+f1_keywords:
+- msxml6/IXMLHTTPRequest2.Abort
 dev_langs:
- - c++
+- c++
 req.header: msxml6.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msxml6.h
+- msxml6.h
 api_name:
- - IXMLHTTPRequest2.Abort
+- IXMLHTTPRequest2.Abort
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NE:webservices.__unnamed_enum_85
 title: WS_TYPE_MAPPING (webservices.h)
-
 description: How a WS_TYPE maps to or from XML when serialized or deserialized.
 old-location: wsw\ws_type_mapping.htm
 tech.root: wsw
 ms.assetid: 31e4abad-d007-41ae-bf51-fa693e8b8ae5
-
 ms.date: 12/05/2018
 ms.keywords: WS_ANY_ELEMENT_TYPE_MAPPING, WS_ATTRIBUTE_TYPE_MAPPING, WS_ELEMENT_CONTENT_TYPE_MAPPING, WS_ELEMENT_TYPE_MAPPING, WS_TYPE_MAPPING, WS_TYPE_MAPPING enumeration [Web Services for Windows], webservices/WS_ANY_ELEMENT_TYPE_MAPPING, webservices/WS_ATTRIBUTE_TYPE_MAPPING, webservices/WS_ELEMENT_CONTENT_TYPE_MAPPING, webservices/WS_ELEMENT_TYPE_MAPPING, webservices/WS_TYPE_MAPPING, wsw.ws_type_mapping
 ms.topic: enum
-f1_keywords: 
- - "webservices/WS_TYPE_MAPPING"
+f1_keywords:
+- webservices/WS_TYPE_MAPPING
 dev_langs:
- - c++
+- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WebServices.h
+- WebServices.h
 api_name:
- - WS_TYPE_MAPPING
+- WS_TYPE_MAPPING
 targetos: Windows
 req.typenames: WS_TYPE_MAPPING
 req.redist: 

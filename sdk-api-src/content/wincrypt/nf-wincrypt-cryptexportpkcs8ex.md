@@ -1,19 +1,17 @@
 ---
 UID: NF:wincrypt.CryptExportPKCS8Ex
 title: CryptExportPKCS8Ex function (wincrypt.h)
-
 description: Exports the private key in PKCS
 old-location: security\cryptexportpkcs8ex.htm
 tech.root: SecCrypto
 ms.assetid: 82fee86a-8704-4f22-8f11-f89509c5a0aa
-
 ms.date: 12/05/2018
 ms.keywords: CryptExportPKCS8Ex, CryptExportPKCS8Ex function [Security], security.cryptexportpkcs8ex, wincrypt/CryptExportPKCS8Ex
 ms.topic: function
 f1_keywords:
 - wincrypt/CryptExportPKCS8Ex
 dev_langs:
- - c++
+- c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

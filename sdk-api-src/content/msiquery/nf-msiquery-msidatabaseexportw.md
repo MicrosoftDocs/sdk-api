@@ -1,19 +1,17 @@
 ---
 UID: NF:msiquery.MsiDatabaseExportW
 title: MsiDatabaseExportW function (msiquery.h)
-
 description: The MsiDatabaseExport function exports a Microsoft Installer table from an open database to a Text Archive File.
 old-location: setup\msidatabaseexport.htm
 tech.root: Msi
 ms.assetid: c20c168d-900e-496a-894c-5678f308cdbe
-
 ms.date: 12/05/2018
 ms.keywords: MsiDatabaseExport, MsiDatabaseExport function, MsiDatabaseExportA, MsiDatabaseExportW, _msi_msidatabaseexport, msiquery/MsiDatabaseExport, msiquery/MsiDatabaseExportA, msiquery/MsiDatabaseExportW, setup.msidatabaseexport
 ms.topic: function
-f1_keywords: 
- - "msiquery/MsiDatabaseExport"
+f1_keywords:
+- msiquery/MsiDatabaseExport
 dev_langs:
- - c++
+- c++
 req.header: msiquery.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Msi.lib
 req.dll: Msi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Msi.dll
+- Msi.dll
 api_name:
- - MsiDatabaseExport
- - MsiDatabaseExportA
- - MsiDatabaseExportW
+- MsiDatabaseExport
+- MsiDatabaseExportA
+- MsiDatabaseExportW
 targetos: Windows
 req.typenames: 
 req.redist: 

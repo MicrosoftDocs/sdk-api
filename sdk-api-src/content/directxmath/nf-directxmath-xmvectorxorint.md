@@ -1,19 +1,17 @@
 ---
 UID: NF:directxmath.XMVectorXorInt
 title: XMVectorXorInt function (directxmath.h)
-
 description: Computes the logical XOR of two vectors, treating each component as an unsigned integer.
 old-location: dxmath\xmvectorxorint.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.bit-wise.XMVectorXorInt(XMVECTOR,XMVECTOR)
-
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMVectorXorInt, XMVectorXorInt, XMVectorXorInt method [DirectX Math Support APIs], dxmath.xmvectorxorint
 ms.topic: function
-f1_keywords: 
- - "directxmath/XMVectorXorInt"
+f1_keywords:
+- directxmath/XMVectorXorInt
 dev_langs:
- - c++
+- c++
 req.header: directxmath.h
 req.include-header: DirectXMath.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - directxmathvector.inl
+- directxmathvector.inl
 api_name:
- - XMVectorXorInt
+- XMVectorXorInt
 targetos: Windows
 req.typenames: 
 req.redist: 

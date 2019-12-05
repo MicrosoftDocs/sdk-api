@@ -1,19 +1,17 @@
 ---
 UID: NS:cpl.tagCPLINFO
 title: CPLINFO (cpl.h)
-
 description: Contains resource information and an application-defined value for a dialog box supported by a Control Panel application.
 old-location: shell\CPLINFO.htm
 tech.root: shell
 ms.assetid: 707950c9-c242-43b2-b665-c97a89e632c5
-
 ms.date: 12/05/2018
-ms.keywords: "*LPCPLINFO, CPLINFO, CPLINFO structure [Windows Shell], _win32_CPLINFO, cpl/CPLINFO, shell.CPLINFO"
+ms.keywords: '*LPCPLINFO, CPLINFO, CPLINFO structure [Windows Shell], _win32_CPLINFO, cpl/CPLINFO, shell.CPLINFO'
 ms.topic: struct
-f1_keywords: 
- - "cpl/CPLINFO"
+f1_keywords:
+- cpl/CPLINFO
 dev_langs:
- - c++
+- c++
 req.header: cpl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Cpl.h
+- Cpl.h
 api_name:
- - CPLINFO
+- CPLINFO
 targetos: Windows
 req.typenames: CPLINFO, *LPCPLINFO
 req.redist: 

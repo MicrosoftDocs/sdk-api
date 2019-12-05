@@ -1,19 +1,17 @@
 ---
 UID: NF:propvarutil.PropVariantToDoubleWithDefault
 title: PropVariantToDoubleWithDefault function (propvarutil.h)
-
 description: Extracts a double property value of a PROPVARIANT structure. If no value exists, then the specified default value is returned.
 old-location: properties\PropVariantToDoubleWithDefault.htm
 tech.root: properties
 ms.assetid: 81584e13-0ef7-47ce-b78f-b4a79712ff1e
-
 ms.date: 12/05/2018
 ms.keywords: PropVariantToDoubleWithDefault, PropVariantToDoubleWithDefault function [Windows Properties], properties.PropVariantToDoubleWithDefault, propvarutil/PropVariantToDoubleWithDefault, shell.PropVariantToDoubleWithDefault, shell_PropVariantToDoubleWithDefault
 ms.topic: function
-f1_keywords: 
- - "propvarutil/PropVariantToDoubleWithDefault"
+f1_keywords:
+- propvarutil/PropVariantToDoubleWithDefault
 dev_langs:
- - c++
+- c++
 req.header: propvarutil.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Propsys.lib
 req.dll: Propsys.dll (version 6.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Propsys.dll
+- Propsys.dll
 api_name:
- - PropVariantToDoubleWithDefault
+- PropVariantToDoubleWithDefault
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0

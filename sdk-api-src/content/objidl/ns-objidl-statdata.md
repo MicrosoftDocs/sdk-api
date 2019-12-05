@@ -1,19 +1,17 @@
 ---
 UID: NS:objidl.tagSTATDATA
 title: STATDATA (objidl.h)
-
 description: Contains information used to specify each advisory connection.
 old-location: com\statdata.htm
 tech.root: com
 ms.assetid: f31469b2-4a4a-4da5-9229-38ddd0bcc88e
-
 ms.date: 12/05/2018
-ms.keywords: "*LPSTATDATA, LPSTATDATA, LPSTATDATA structure pointer [COM], STATDATA, STATDATA structure [COM], _ole_STATDATA, com.statdata, objidl/LPSTATDATA, objidl/STATDATA"
+ms.keywords: '*LPSTATDATA, LPSTATDATA, LPSTATDATA structure pointer [COM], STATDATA, STATDATA structure [COM], _ole_STATDATA, com.statdata, objidl/LPSTATDATA, objidl/STATDATA'
 ms.topic: struct
-f1_keywords: 
- - "objidl/STATDATA"
+f1_keywords:
+- objidl/STATDATA
 dev_langs:
- - c++
+- c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - ObjIdl.h
+- ObjIdl.h
 api_name:
- - STATDATA
+- STATDATA
 targetos: Windows
 req.typenames: STATDATA
 req.redist: 

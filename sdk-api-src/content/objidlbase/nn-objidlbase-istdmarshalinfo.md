@@ -1,19 +1,17 @@
 ---
 UID: NN:objidlbase.IStdMarshalInfo
 title: IStdMarshalInfo (objidlbase.h)
-
 description: Retrieves the CLSID identifying the handler to be used in the destination process during standard marshaling.
 old-location: com\istdmarshalinfo.htm
 tech.root: com
 ms.assetid: f034436f-e24e-4b99-9fb9-b0400d3ebb72
-
 ms.date: 12/05/2018
 ms.keywords: IStdMarshalInfo, IStdMarshalInfo interface [COM], IStdMarshalInfo interface [COM],described, _com_istdmarshalinfo, com.istdmarshalinfo, objidlbase/IStdMarshalInfo
 ms.topic: interface
-f1_keywords: 
- - "objidlbase/IStdMarshalInfo"
+f1_keywords:
+- objidlbase/IStdMarshalInfo
 dev_langs:
- - c++
+- c++
 req.header: objidlbase.h
 req.include-header: ObjIdl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - objidlbase.h
+- objidlbase.h
 api_name:
- - IStdMarshalInfo
+- IStdMarshalInfo
 targetos: Windows
 req.typenames: 
 req.redist: 

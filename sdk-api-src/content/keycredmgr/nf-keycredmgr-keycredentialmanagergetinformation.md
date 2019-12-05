@@ -1,19 +1,17 @@
 ---
 UID: NF:keycredmgr.KeyCredentialManagerGetInformation
 title: KeyCredentialManagerGetInformation function (keycredmgr.h)
-
 description: API to get a unique identifier of the users enrollment.
 old-location: security\keycredentialmanagergetinformation.htm
 tech.root: SecAuthN
 ms.assetid: 21664FAC-F380-4D32-A3A3-5F9326F5C79E
-
 ms.date: 12/05/2018
 ms.keywords: KeyCredentialManagerGetInformation, KeyCredentialManagerGetInformation function [Security], keycredmgr/KeyCredentialManagerGetInformation, security.keycredentialmanagergetinformation
 ms.topic: function
-f1_keywords: 
- - "keycredmgr/KeyCredentialManagerGetInformation"
+f1_keywords:
+- keycredmgr/KeyCredentialManagerGetInformation
 dev_langs:
- - c++
+- c++
 req.header: keycredmgr.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Keycredmgr.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - LibDef
+- LibDef
 api_location:
- - keycredmgr.lib
- - keycredmgr.dll
+- keycredmgr.lib
+- keycredmgr.dll
 api_name:
- - KeyCredentialManagerGetInformation
+- KeyCredentialManagerGetInformation
 targetos: Windows
 req.typenames: 
 req.redist: 

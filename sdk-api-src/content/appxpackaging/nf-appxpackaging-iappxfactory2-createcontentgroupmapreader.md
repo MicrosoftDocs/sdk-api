@@ -1,19 +1,17 @@
 ---
 UID: NF:appxpackaging.IAppxFactory2.CreateContentGroupMapReader
 title: IAppxFactory2::CreateContentGroupMapReader (appxpackaging.h)
-
 description: Creates an IAppxContentGroupMapReader.
 old-location: appxpkg\iappxfactory2_createcontentgroupmapreader.htm
 tech.root: appxpkg
 ms.assetid: 42453BD7-AB65-49E0-86C0-4F96B4234397
-
 ms.date: 12/05/2018
 ms.keywords: CreateContentGroupMapReader, CreateContentGroupMapReader method [App packaging and management], CreateContentGroupMapReader method [App packaging and management],IAppxFactory2 interface, IAppxFactory2 interface [App packaging and management],CreateContentGroupMapReader method, IAppxFactory2.CreateContentGroupMapReader, IAppxFactory2::CreateContentGroupMapReader, appxpackaging/IAppxFactory2::CreateContentGroupMapReader, appxpkg.iappxfactory2_createcontentgroupmapreader
 ms.topic: method
-f1_keywords: 
- - "appxpackaging/IAppxFactory2.CreateContentGroupMapReader"
+f1_keywords:
+- appxpackaging/IAppxFactory2.CreateContentGroupMapReader
 dev_langs:
- - c++
+- c++
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - AppxPackaging.h
+- AppxPackaging.h
 api_name:
- - IAppxFactory2.CreateContentGroupMapReader
+- IAppxFactory2.CreateContentGroupMapReader
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NE:gdipluspixelformats.DitherType
 title: DitherType (gdipluspixelformats.h)
-
 description: The DitherType enumeration identifies the available algorithms for dithering when a bitmap is converted.
 old-location: gdiplus\_gdiplus_ENUM_DitherType.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\enumerations\dithertype.htm
-
 ms.date: 12/05/2018
 ms.keywords: DitherType, DitherType enumeration [GDI+], DitherTypeDualSpiral4x4, DitherTypeDualSpiral8x8, DitherTypeErrorDiffusion, DitherTypeNone, DitherTypeOrdered16x16, DitherTypeOrdered4x4, DitherTypeOrdered8x8, DitherTypeOrdered91x91, DitherTypeSolid, DitherTypeSpiral4x4, DitherTypeSpiral8x8, _gdiplus_ENUM_DitherType, gdiplus._gdiplus_ENUM_DitherType, gdipluspixelformats/DitherType, gdipluspixelformats/DitherTypeDualSpiral4x4, gdipluspixelformats/DitherTypeDualSpiral8x8, gdipluspixelformats/DitherTypeErrorDiffusion, gdipluspixelformats/DitherTypeNone, gdipluspixelformats/DitherTypeOrdered16x16, gdipluspixelformats/DitherTypeOrdered4x4, gdipluspixelformats/DitherTypeOrdered8x8, gdipluspixelformats/DitherTypeOrdered91x91, gdipluspixelformats/DitherTypeSolid, gdipluspixelformats/DitherTypeSpiral4x4, gdipluspixelformats/DitherTypeSpiral8x8
 ms.topic: enum
-f1_keywords: 
- - "gdipluspixelformats/DitherType"
+f1_keywords:
+- gdipluspixelformats/DitherType
 dev_langs:
- - c++
+- c++
 req.header: gdipluspixelformats.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - gdipluspixelformats.h
+- gdipluspixelformats.h
 api_name:
- - DitherType
+- DitherType
 targetos: Windows
 req.typenames: 
 req.redist: 

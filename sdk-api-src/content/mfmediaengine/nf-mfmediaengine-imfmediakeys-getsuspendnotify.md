@@ -1,19 +1,17 @@
 ---
 UID: NF:mfmediaengine.IMFMediaKeys.GetSuspendNotify
 title: IMFMediaKeys::GetSuspendNotify (mfmediaengine.h)
-
 description: Gets the suspend notify interface of the Content Decryption Module (CDM).
 old-location: mf\imfmediakeys_getsuspendnotify.htm
 tech.root: medfound
 ms.assetid: 35d76cbc-04c7-49e7-9451-6b032ccd2937
-
 ms.date: 12/05/2018
 ms.keywords: GetSuspendNotify, GetSuspendNotify method [Media Foundation], GetSuspendNotify method [Media Foundation],IMFMediaKeys interface, IMFMediaKeys interface [Media Foundation],GetSuspendNotify method, IMFMediaKeys.GetSuspendNotify, IMFMediaKeys::GetSuspendNotify, mf.imfmediakeys_getsuspendnotify, mfmediaengine/IMFMediaKeys::GetSuspendNotify
 ms.topic: method
-f1_keywords: 
- - "mfmediaengine/IMFMediaKeys.GetSuspendNotify"
+f1_keywords:
+- mfmediaengine/IMFMediaKeys.GetSuspendNotify
 dev_langs:
- - c++
+- c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfmediaengine.h
+- mfmediaengine.h
 api_name:
- - IMFMediaKeys.GetSuspendNotify
+- IMFMediaKeys.GetSuspendNotify
 targetos: Windows
 req.typenames: 
 req.redist: 

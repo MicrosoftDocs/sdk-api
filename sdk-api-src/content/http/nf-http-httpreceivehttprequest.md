@@ -1,19 +1,17 @@
 ---
 UID: NF:http.HttpReceiveHttpRequest
 title: HttpReceiveHttpRequest function (http.h)
-
 description: Retrieves the next available HTTP request from the specified request queue either synchronously or asynchronously.
 old-location: http\httpreceivehttprequest.htm
 tech.root: http
 ms.assetid: ad9e80f7-04c4-4108-a7ab-40eb57d00e3b
-
 ms.date: 12/05/2018
 ms.keywords: 0 (zero), HTTP_RECEIVE_REQUEST_FLAG_COPY_BODY, HTTP_RECEIVE_REQUEST_FLAG_FLUSH_BODY, HttpReceiveHttpRequest, HttpReceiveHttpRequest function [HTTP], _http_httpreceivehttprequest, http.httpreceivehttprequest, http/HttpReceiveHttpRequest
 ms.topic: function
 f1_keywords:
 - http/HttpReceiveHttpRequest
 dev_langs:
- - c++
+- c++
 req.header: http.h
 req.include-header: 
 req.target-type: Windows

@@ -1,19 +1,17 @@
 ---
 UID: NF:gdiplustypes.Point.Equals
 title: Point::Equals (gdiplustypes.h)
-
 description: The Point::Equals method determines whether two Point objects are equal. Two points are considered equal if they have the same X and Y data members.
 old-location: gdiplus\_gdiplus_CLASS_Point_Equals_point_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\pointclass\pointmethods\equals_4point.htm
-
 ms.date: 12/05/2018
 ms.keywords: Equals, Equals method [GDI+], Equals method [GDI+],Point class, Point class [GDI+],Equals method, Point.Equals, Point::Equals, _gdiplus_CLASS_Point_Equals_point_, gdiplus._gdiplus_CLASS_Point_Equals_point_
 ms.topic: method
-f1_keywords: 
- - "gdiplustypes/Point.Equals"
+f1_keywords:
+- gdiplustypes/Point.Equals
 dev_langs:
- - c++
+- c++
 req.header: gdiplustypes.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - Point.Equals
+- Point.Equals
 targetos: Windows
 req.typenames: 
 req.redist: 

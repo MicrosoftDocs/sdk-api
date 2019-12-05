@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationcore.ITextRangeProvider.GetChildren
 title: ITextRangeProvider::GetChildren (uiautomationcore.h)
-
 description: Retrieves a collection of all embedded objects that fall within the text range.
 old-location: winauto\uiauto_ITextRangeProvider_GetChildren.htm
 tech.root: WinAuto
 ms.assetid: 2b68a7eb-8ff5-4e8c-830b-e180b2c08be4
-
 ms.date: 12/05/2018
 ms.keywords: GetChildren, GetChildren method [Windows Accessibility], GetChildren method [Windows Accessibility],ITextRangeProvider interface, ITextRangeProvider interface [Windows Accessibility],GetChildren method, ITextRangeProvider.GetChildren, ITextRangeProvider::GetChildren, uiauto.uiauto_ITextRangeProvider_GetChildren, uiauto_ITextRangeProvider_GetChildren, uiautomationcore/ITextRangeProvider::GetChildren, winauto.uiauto_ITextRangeProvider_GetChildren
 ms.topic: method
-f1_keywords: 
- - "uiautomationcore/ITextRangeProvider.GetChildren"
+f1_keywords:
+- uiautomationcore/ITextRangeProvider.GetChildren
 dev_langs:
- - c++
+- c++
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationCore.h
+- UIAutomationCore.h
 api_name:
- - ITextRangeProvider.GetChildren
+- ITextRangeProvider.GetChildren
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:wincodec.IWICPalette.GetColors
 title: IWICPalette::GetColors (wincodec.h)
-
 description: Fills out the supplied color array with the colors from the internal color table. The color array should be sized according to the return results from GetColorCount.
 old-location: wic\_wic_codec_iwicpalette_getcolors.htm
 tech.root: wic
 ms.assetid: efec97fd-251c-4e52-b92e-4e624cdb9881
-
 ms.date: 12/05/2018
 ms.keywords: GetColors, GetColors method [Windows Imaging Component], GetColors method [Windows Imaging Component],IWICPalette interface, IWICPalette interface [Windows Imaging Component],GetColors method, IWICPalette.GetColors, IWICPalette::GetColors, _wic_codec_iwicpalette_getcolors, wic._wic_codec_iwicpalette_getcolors, wincodec/IWICPalette::GetColors
 ms.topic: method
-f1_keywords: 
- - "wincodec/IWICPalette.GetColors"
+f1_keywords:
+- wincodec/IWICPalette.GetColors
 dev_langs:
- - c++
+- c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Windowscodecs.lib
 req.dll: Windowscodecs.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Windowscodecs.dll
+- Windowscodecs.dll
 api_name:
- - IWICPalette.GetColors
+- IWICPalette.GetColors
 targetos: Windows
 req.typenames: 
 req.redist: 

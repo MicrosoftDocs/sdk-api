@@ -1,19 +1,17 @@
 ---
 UID: NN:objidl.IRootStorage
 title: IRootStorage (objidl.h)
-
 description: The IRootStorage interface contains a single method that switches a storage object to a different underlying file and saves the storage object to that file.
 old-location: stg\irootstorage.htm
 tech.root: Stg
 ms.assetid: cf92c62f-ef65-46b1-8f41-f2b31ff52044
-
 ms.date: 12/05/2018
 ms.keywords: IRootStorage, IRootStorage interface [Structured Storage], IRootStorage interface [Structured Storage],described, _stg_irootstorage, objidl/IRootStorage, stg.irootstorage
 ms.topic: interface
-f1_keywords: 
- - "objidl/IRootStorage"
+f1_keywords:
+- objidl/IRootStorage
 dev_langs:
- - c++
+- c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Ole32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Ole32.dll
+- Ole32.dll
 api_name:
- - IRootStorage
+- IRootStorage
 targetos: Windows
 req.typenames: 
 req.redist: 

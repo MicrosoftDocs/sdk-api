@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationcoreapi.UiaRaiseStructureChangedEvent
 title: UiaRaiseStructureChangedEvent function (uiautomationcoreapi.h)
-
 description: Called by a provider to notify the Microsoft UI Automation core that the tree structure has changed.
 old-location: winauto\uiauto_UiaRaiseStructureChangedEventFunction.htm
 tech.root: WinAuto
 ms.assetid: 29137b40-4758-4c73-9596-8cb375b8d362
-
 ms.date: 12/05/2018
 ms.keywords: UiaRaiseStructureChangedEvent, UiaRaiseStructureChangedEvent function [Windows Accessibility], uiauto.uiauto_UiaRaiseStructureChangedEventFunction, uiauto_UiaRaiseStructureChangedEventFunction, uiautomationcoreapi/UiaRaiseStructureChangedEvent, winauto.uiauto_UiaRaiseStructureChangedEventFunction
 ms.topic: function
-f1_keywords: 
- - "uiautomationcoreapi/UiaRaiseStructureChangedEvent"
+f1_keywords:
+- uiautomationcoreapi/UiaRaiseStructureChangedEvent
 dev_langs:
- - c++
+- c++
 req.header: uiautomationcoreapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib: Uiautomationcore.lib
 req.dll: Uiautomationcore.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Uiautomationcore.dll
- - Ext-MS-Win-uiacore-l1-1-0.dll
- - Ext-MS-Win-UIaCore-l1-1-1.dll
- - Ext-MS-Win-UIaCore-l1-1-2.dll
- - Ext-MS-Win-UiaCore-L1-1-3.dll
+- Uiautomationcore.dll
+- Ext-MS-Win-uiacore-l1-1-0.dll
+- Ext-MS-Win-UIaCore-l1-1-1.dll
+- Ext-MS-Win-UIaCore-l1-1-2.dll
+- Ext-MS-Win-UiaCore-L1-1-3.dll
 api_name:
- - UiaRaiseStructureChangedEvent
+- UiaRaiseStructureChangedEvent
 targetos: Windows
 req.typenames: 
 req.redist: 

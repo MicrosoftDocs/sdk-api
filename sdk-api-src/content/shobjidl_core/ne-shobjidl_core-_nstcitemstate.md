@@ -1,19 +1,17 @@
 ---
 UID: NE:shobjidl_core._NSTCITEMSTATE
 title: _NSTCITEMSTATE (shobjidl_core.h)
-
 description: Specifies the state of a tree item. These values are used by methods of the INameSpaceTreeControl interface.
 old-location: shell\NSTCITEMSTATE.htm
 tech.root: shell
 ms.assetid: 1f3fd526-c044-41ff-9e05-c6d91d386b42
-
 ms.date: 12/05/2018
 ms.keywords: NSTCIS_BOLD, NSTCIS_DISABLED, NSTCIS_EXPANDED, NSTCIS_NONE, NSTCIS_SELECTED, NSTCIS_SELECTEDNOEXPAND, NSTCITEMSTATE, NSTCITEMSTATE enumeration [Windows Shell], _NSTCITEMSTATE, _shell_NSTCITEMSTATE, shell.NSTCITEMSTATE, shobjidl_core/NSTCIS_BOLD, shobjidl_core/NSTCIS_DISABLED, shobjidl_core/NSTCIS_EXPANDED, shobjidl_core/NSTCIS_NONE, shobjidl_core/NSTCIS_SELECTED, shobjidl_core/NSTCIS_SELECTEDNOEXPAND, shobjidl_core/NSTCITEMSTATE
 ms.topic: enum
-f1_keywords: 
- - "shobjidl_core/NSTCITEMSTATE"
+f1_keywords:
+- shobjidl_core/NSTCITEMSTATE
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - NSTCITEMSTATE
+- NSTCITEMSTATE
 targetos: Windows
 req.typenames: 
 req.redist: 

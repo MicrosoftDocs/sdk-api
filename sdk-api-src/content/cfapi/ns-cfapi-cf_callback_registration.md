@@ -1,19 +1,17 @@
 ---
 UID: NS:cfapi.CF_CALLBACK_REGISTRATION
 title: CF_CALLBACK_REGISTRATION (cfapi.h)
-
 description: The callbacks to be registered by the sync provider.
 old-location: cloudapi\cf_callback_registration.htm
 tech.root: cfApi
 ms.assetid: F1633983-DAB2-4072-AA9E-DC7015E6B988
-
 ms.date: 12/05/2018
 ms.keywords: CF_CALLBACK_REGISTRATION, CF_CALLBACK_REGISTRATION structure, cfapi/CF_CALLBACK_REGISTRATION, cloudApi.cf_callback_registration
 ms.topic: struct
-f1_keywords: 
- - "cfapi/CF_CALLBACK_REGISTRATION"
+f1_keywords:
+- cfapi/CF_CALLBACK_REGISTRATION
 dev_langs:
- - c++
+- c++
 req.header: cfapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - CfApi.h
+- CfApi.h
 api_name:
- - CF_CALLBACK_REGISTRATION
+- CF_CALLBACK_REGISTRATION
 targetos: Windows
 req.typenames: CF_CALLBACK_REGISTRATION
 req.redist: 

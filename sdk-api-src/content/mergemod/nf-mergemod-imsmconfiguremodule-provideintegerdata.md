@@ -1,19 +1,17 @@
 ---
 UID: NF:mergemod.IMsmConfigureModule.ProvideIntegerData
 title: IMsmConfigureModule::ProvideIntegerData (mergemod.h)
-
 description: The ProvideIntegerData method retrieves integer data from the client tool. For more information, see the ProvideIntegerData method of the ConfigureModule object.
 old-location: setup\imsmconfiguremodule_provideintegerdata.htm
 tech.root: Msi
 ms.assetid: 2d03ce35-2ded-4f65-a73f-2546d67b0454
-
 ms.date: 12/05/2018
 ms.keywords: IMsmConfigureModule interface,ProvideIntegerData method, IMsmConfigureModule.ProvideIntegerData, IMsmConfigureModule::ProvideIntegerData, ProvideIntegerData, ProvideIntegerData method, ProvideIntegerData method,IMsmConfigureModule interface, _msi_provideintegerdata_function, mergemod/IMsmConfigureModule::ProvideIntegerData, setup.imsmconfiguremodule_provideintegerdata
 ms.topic: method
-f1_keywords: 
- - "mergemod/IMsmConfigureModule.ProvideIntegerData"
+f1_keywords:
+- mergemod/IMsmConfigureModule.ProvideIntegerData
 dev_langs:
- - c++
+- c++
 req.header: mergemod.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Mergemod.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mergemod.dll
+- Mergemod.dll
 api_name:
- - IMsmConfigureModule.ProvideIntegerData
+- IMsmConfigureModule.ProvideIntegerData
 targetos: Windows
 req.typenames: 
 req.redist: 

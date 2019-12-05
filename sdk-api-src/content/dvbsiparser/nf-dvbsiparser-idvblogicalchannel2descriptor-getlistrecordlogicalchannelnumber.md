@@ -1,19 +1,17 @@
 ---
 UID: NF:dvbsiparser.IDvbLogicalChannel2Descriptor.GetListRecordLogicalChannelNumber
 title: IDvbLogicalChannel2Descriptor::GetListRecordLogicalChannelNumber (dvbsiparser.h)
-
 description: Gets the value of the logical_channel_number field from a Digital Video Broadcast (DVB) logical channel descriptor. The logical_channel_number field gives the ordinal position of the service record in the descriptor.
 old-location: mstv\idvblogicalchannel2descriptor_getlistrecordlogicalchannelnumber.htm
 tech.root: mstv
 ms.assetid: b8ebc804-08a1-4840-ba20-f52438a0d6bf
-
 ms.date: 12/05/2018
 ms.keywords: GetListRecordLogicalChannelNumber, GetListRecordLogicalChannelNumber method [Microsoft TV Technologies], GetListRecordLogicalChannelNumber method [Microsoft TV Technologies],IDvbLogicalChannel2Descriptor interface, IDvbLogicalChannel2Descriptor interface [Microsoft TV Technologies],GetListRecordLogicalChannelNumber method, IDvbLogicalChannel2Descriptor.GetListRecordLogicalChannelNumber, IDvbLogicalChannel2Descriptor::GetListRecordLogicalChannelNumber, dvbsiparser/IDvbLogicalChannel2Descriptor::GetListRecordLogicalChannelNumber, mstv.idvblogicalchannel2descriptor_getlistrecordlogicalchannelnumber
 ms.topic: method
-f1_keywords: 
- - "dvbsiparser/IDvbLogicalChannel2Descriptor.GetListRecordLogicalChannelNumber"
+f1_keywords:
+- dvbsiparser/IDvbLogicalChannel2Descriptor.GetListRecordLogicalChannelNumber
 dev_langs:
- - c++
+- c++
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dvbsiparser.h
+- dvbsiparser.h
 api_name:
- - IDvbLogicalChannel2Descriptor.GetListRecordLogicalChannelNumber
+- IDvbLogicalChannel2Descriptor.GetListRecordLogicalChannelNumber
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi.lineGetAgentCapsA
 title: lineGetAgentCapsA function (tapi.h)
-
 description: The lineGetAgentCaps function obtains the agent-related capabilities supported on the specified line device. If a specific agent is named, the capabilities include a listing of ACD groups into which the agent is permitted to log in.
 old-location: tapi2\linegetagentcaps.htm
 tech.root: Tapi
 ms.assetid: 04bb6c00-2654-4707-ab11-2490ab5d9ab0
-
 ms.date: 12/05/2018
-ms.keywords: "_tapi2_linegetagentcaps, lineGetAgentCaps, lineGetAgentCaps function [TAPI 2.2], lineGetAgentCapsA, lineGetAgentCapsW, tapi/lineGetAgentCaps, tapi/lineGetAgentCapsA, tapi/lineGetAgentCapsW, tapi2.linegetagentcaps"
+ms.keywords: _tapi2_linegetagentcaps, lineGetAgentCaps, lineGetAgentCaps function [TAPI 2.2], lineGetAgentCapsA, lineGetAgentCapsW, tapi/lineGetAgentCaps, tapi/lineGetAgentCapsA, tapi/lineGetAgentCapsW, tapi2.linegetagentcaps
 ms.topic: function
-f1_keywords: 
- - "tapi/lineGetAgentCaps"
+f1_keywords:
+- tapi/lineGetAgentCaps
 dev_langs:
- - c++
+- c++
 req.header: tapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Tapi32.lib
 req.dll: Tapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Tapi32.dll
+- Tapi32.dll
 api_name:
- - lineGetAgentCaps
- - lineGetAgentCapsA
- - lineGetAgentCapsW
+- lineGetAgentCaps
+- lineGetAgentCapsA
+- lineGetAgentCapsW
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:netlistmgr.INetworkEvents.NetworkConnectivityChanged
 title: INetworkEvents::NetworkConnectivityChanged (netlistmgr.h)
-
 description: The NetworkConnectivityChanged method is called when network connectivity related changes occur.
 old-location: nla\inetworkevents_networkconnectivitychanged.htm
 tech.root: nla
 ms.assetid: adaf3abe-9a8c-45af-bcc7-bcc516ed75ff
-
 ms.date: 12/05/2018
 ms.keywords: INetworkEvents interface [Network Awareness],NetworkConnectivityChanged method, INetworkEvents.NetworkConnectivityChanged, INetworkEvents::NetworkConnectivityChanged, NetworkConnectivityChanged, NetworkConnectivityChanged method [Network Awareness], NetworkConnectivityChanged method [Network Awareness],INetworkEvents interface, netlistmgr/INetworkEvents::NetworkConnectivityChanged, nla.inetworkevents_networkconnectivitychanged
 ms.topic: method
-f1_keywords: 
- - "netlistmgr/INetworkEvents.NetworkConnectivityChanged"
+f1_keywords:
+- netlistmgr/INetworkEvents.NetworkConnectivityChanged
 dev_langs:
- - c++
+- c++
 req.header: netlistmgr.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Netlistmgr.h
+- Netlistmgr.h
 api_name:
- - INetworkEvents.NetworkConnectivityChanged
+- INetworkEvents.NetworkConnectivityChanged
 targetos: Windows
 req.typenames: 
 req.redist: 

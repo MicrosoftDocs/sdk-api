@@ -1,19 +1,17 @@
 ---
 UID: NF:winsvc.OpenSCManagerA
 title: OpenSCManagerA function (winsvc.h)
-
 description: Establishes a connection to the service control manager on the specified computer and opens the specified service control manager database.
 old-location: base\openscmanager.htm
 tech.root: Services
 ms.assetid: a0237989-e5a7-4a3a-ab23-e2474a995341
-
 ms.date: 12/05/2018
 ms.keywords: OpenSCManager, OpenSCManager function, OpenSCManagerA, OpenSCManagerW, _win32_openscmanager, base.openscmanager, winsvc/OpenSCManager, winsvc/OpenSCManagerA, winsvc/OpenSCManagerW
 ms.topic: function
-f1_keywords: 
- - "winsvc/OpenSCManager"
+f1_keywords:
+- winsvc/OpenSCManager
 dev_langs:
- - c++
+- c++
 req.header: winsvc.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,22 +30,22 @@ req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Advapi32.dll
- - API-MS-Win-DownLevel-AdvApi32-l2-1-0.dll
- - sechost.dll
- - API-MS-Win-DownLevel-AdvApi32-l2-1-1.dll
- - API-MS-Win-Service-management-l1-1-0.dll
- - API-MS-Win-Service-Winsvc-l1-1-0.dll
- - API-MS-Win-Service-Winsvc-l1-2-0.dll
+- Advapi32.dll
+- API-MS-Win-DownLevel-AdvApi32-l2-1-0.dll
+- sechost.dll
+- API-MS-Win-DownLevel-AdvApi32-l2-1-1.dll
+- API-MS-Win-Service-management-l1-1-0.dll
+- API-MS-Win-Service-Winsvc-l1-1-0.dll
+- API-MS-Win-Service-Winsvc-l1-2-0.dll
 api_name:
- - OpenSCManager
- - OpenSCManagerA
- - OpenSCManagerW
+- OpenSCManager
+- OpenSCManagerA
+- OpenSCManagerW
 targetos: Windows
 req.typenames: 
 req.redist: 

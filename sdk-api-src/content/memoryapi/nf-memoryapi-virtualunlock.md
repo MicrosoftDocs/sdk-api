@@ -1,19 +1,17 @@
 ---
 UID: NF:memoryapi.VirtualUnlock
 title: VirtualUnlock function (memoryapi.h)
-
 description: Unlocks a specified range of pages in the virtual address space of a process, enabling the system to swap the pages out to the paging file if necessary.
 old-location: base\virtualunlock.htm
 tech.root: Memory
 ms.assetid: cb868c8a-ac0d-42ad-bf72-2ae617bc0427
-
 ms.date: 12/05/2018
 ms.keywords: VirtualUnlock, VirtualUnlock function, _win32_virtualunlock, base.virtualunlock, winbase/VirtualUnlock
 ms.topic: function
-f1_keywords: 
- - "memoryapi/VirtualUnlock"
+f1_keywords:
+- memoryapi/VirtualUnlock
 dev_langs:
- - c++
+- c++
 req.header: memoryapi.h
 req.include-header: Windows.h, Memoryapi.h
 req.target-type: Windows
@@ -32,21 +30,21 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-memory-l1-1-1.dll
- - KernelBase.dll
- - API-MS-Win-Core-memory-l1-1-2.dll
- - API-MS-Win-Core-memory-l1-1-3.dll
- - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
- - MinKernelBase.dll
- - API-MS-Win-Core-Memory-L1-1-4.dll
+- Kernel32.dll
+- API-MS-Win-Core-memory-l1-1-1.dll
+- KernelBase.dll
+- API-MS-Win-Core-memory-l1-1-2.dll
+- API-MS-Win-Core-memory-l1-1-3.dll
+- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+- MinKernelBase.dll
+- API-MS-Win-Core-Memory-L1-1-4.dll
 api_name:
- - VirtualUnlock
+- VirtualUnlock
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:wrdsgraphicschannels.IWRdsGraphicsChannel.Close
 title: IWRdsGraphicsChannel::Close (wrdsgraphicschannels.h)
-
 description: Called to close the channel.
 old-location: termserv\iwrdsgraphicschannel_close.htm
 tech.root: TermServ
 ms.assetid: 6e3fb05d-0f5b-4ac3-b121-e6a1662c6ea2
-
 ms.date: 12/05/2018
 ms.keywords: Close, Close method [Remote Desktop Services], Close method [Remote Desktop Services],IWRdsGraphicsChannel interface, IWRdsGraphicsChannel interface [Remote Desktop Services],Close method, IWRdsGraphicsChannel.Close, IWRdsGraphicsChannel::Close, termserv.iwrdsgraphicschannel_close, wrdsgraphicschannels/IWRdsGraphicsChannel::Close
 ms.topic: method
-f1_keywords: 
- - "wrdsgraphicschannels/IWRdsGraphicsChannel.Close"
+f1_keywords:
+- wrdsgraphicschannels/IWRdsGraphicsChannel.Close
 dev_langs:
- - c++
+- c++
 req.header: wrdsgraphicschannels.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wrdsgraphicschannels.h
+- wrdsgraphicschannels.h
 api_name:
- - IWRdsGraphicsChannel.Close
+- IWRdsGraphicsChannel.Close
 targetos: Windows
 req.typenames: 
 req.redist: 

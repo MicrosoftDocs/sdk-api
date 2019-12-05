@@ -1,19 +1,17 @@
 ---
 UID: NF:mfidl.IMFTopologyNode.GetNodeType
 title: IMFTopologyNode::GetNodeType (mfidl.h)
-
 description: Retrieves the node type.
 old-location: mf\imftopologynode_getnodetype.htm
 tech.root: medfound
 ms.assetid: 64b2d2b4-1f00-412d-8188-fa361dc317a1
-
 ms.date: 12/05/2018
 ms.keywords: 64b2d2b4-1f00-412d-8188-fa361dc317a1, GetNodeType, GetNodeType method [Media Foundation], GetNodeType method [Media Foundation],IMFTopologyNode interface, IMFTopologyNode interface [Media Foundation],GetNodeType method, IMFTopologyNode.GetNodeType, IMFTopologyNode::GetNodeType, mf.imftopologynode_getnodetype, mfidl/IMFTopologyNode::GetNodeType
 ms.topic: method
-f1_keywords: 
- - "mfidl/IMFTopologyNode.GetNodeType"
+f1_keywords:
+- mfidl/IMFTopologyNode.GetNodeType
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFTopologyNode.GetNodeType
+- IMFTopologyNode.GetNodeType
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:iads.IADsPropertyList.GetPropertyItem
 title: IADsPropertyList::GetPropertyItem (iads.h)
-
 description: Retrieves the item that matches the name from the list.
 old-location: adsi\iadspropertylist_getpropertyitem.htm
 tech.root: adsi
 ms.assetid: 1de86caa-c14c-4dc0-bf56-5fa33279e30a
-
 ms.date: 12/05/2018
 ms.keywords: GetPropertyItem, GetPropertyItem method [ADSI], GetPropertyItem method [ADSI],IADsPropertyList interface, IADsPropertyList interface [ADSI],GetPropertyItem method, IADsPropertyList.GetPropertyItem, IADsPropertyList::GetPropertyItem, _ds_iadspropertylist_getpropertyitem, adsi.iadspropertylist__getpropertyitem, adsi.iadspropertylist_getpropertyitem, iads/IADsPropertyList::GetPropertyItem
 ms.topic: method
-f1_keywords: 
- - "iads/IADsPropertyList.GetPropertyItem"
+f1_keywords:
+- iads/IADsPropertyList.GetPropertyItem
 dev_langs:
- - c++
+- c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Activeds.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Activeds.dll
+- Activeds.dll
 api_name:
- - IADsPropertyList.GetPropertyItem
+- IADsPropertyList.GetPropertyItem
 targetos: Windows
 req.typenames: 
 req.redist: 

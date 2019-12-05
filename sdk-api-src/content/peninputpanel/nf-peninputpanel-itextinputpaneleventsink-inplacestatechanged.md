@@ -1,19 +1,17 @@
 ---
 UID: NF:peninputpanel.ITextInputPanelEventSink.InPlaceStateChanged
 title: ITextInputPanelEventSink::InPlaceStateChanged (peninputpanel.h)
-
 description: Occurs when the In-Place state has changed.
 old-location: tablet\itextinputpaneleventsink_inplacestatechanged.htm
 tech.root: tablet
 ms.assetid: bc01ecda-bb9f-40c6-8ac7-ffc4cc89b6a2
-
 ms.date: 12/05/2018
 ms.keywords: ITextInputPanelEventSink interface [Tablet PC],InPlaceStateChanged method, ITextInputPanelEventSink.InPlaceStateChanged, ITextInputPanelEventSink::InPlaceStateChanged, InPlaceStateChanged, InPlaceStateChanged method [Tablet PC], InPlaceStateChanged method [Tablet PC],ITextInputPanelEventSink interface, bc01ecda-bb9f-40c6-8ac7-ffc4cc89b6a2, peninputpanel/ITextInputPanelEventSink::InPlaceStateChanged, tablet.itextinputpaneleventsink_inplacestatechanged
 ms.topic: method
-f1_keywords: 
- - "peninputpanel/ITextInputPanelEventSink.InPlaceStateChanged"
+f1_keywords:
+- peninputpanel/ITextInputPanelEventSink.InPlaceStateChanged
 dev_langs:
- - c++
+- c++
 req.header: peninputpanel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Tiptsf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - tiptsf.dll
+- tiptsf.dll
 api_name:
- - ITextInputPanelEventSink.InPlaceStateChanged
+- ITextInputPanelEventSink.InPlaceStateChanged
 targetos: Windows
 req.typenames: 
 req.redist: 

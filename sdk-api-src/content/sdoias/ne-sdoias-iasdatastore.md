@@ -1,19 +1,17 @@
 ---
 UID: NE:sdoias._IASDATASTORE
 title: IASDATASTORE (sdoias.h)
-
 description: The values of the IASDATASTORE enumeration indicate the possible storage locations for SDO data.
 old-location: nps\SDO_iasdatastore.htm
 tech.root: Nps
 ms.assetid: 1eec69f9-b82e-48e5-a471-0a0626d91957
-
 ms.date: 12/05/2018
-ms.keywords: "*PIASDATASTORE, DATA_STORE_DIRECTORY, DATA_STORE_LOCAL, IASDATASTORE, IASDATASTORE enumeration [Network Policy Server], PIASDATASTORE, PIASDATASTORE enumeration pointer [Network Policy Server], _sdo_iasdatastore, nps.SDO_iasdatastore, sdo.iasdatastore, sdoias/DATA_STORE_DIRECTORY, sdoias/DATA_STORE_LOCAL, sdoias/IASDATASTORE, sdoias/PIASDATASTORE"
+ms.keywords: '*PIASDATASTORE, DATA_STORE_DIRECTORY, DATA_STORE_LOCAL, IASDATASTORE, IASDATASTORE enumeration [Network Policy Server], PIASDATASTORE, PIASDATASTORE enumeration pointer [Network Policy Server], _sdo_iasdatastore, nps.SDO_iasdatastore, sdo.iasdatastore, sdoias/DATA_STORE_DIRECTORY, sdoias/DATA_STORE_LOCAL, sdoias/IASDATASTORE, sdoias/PIASDATASTORE'
 ms.topic: enum
-f1_keywords: 
- - "sdoias/IASDATASTORE"
+f1_keywords:
+- sdoias/IASDATASTORE
 dev_langs:
- - c++
+- c++
 req.header: sdoias.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - SdoIas.h
+- SdoIas.h
 api_name:
- - IASDATASTORE
+- IASDATASTORE
 targetos: Windows
 req.typenames: IASDATASTORE, *PIASDATASTORE
 req.redist: 

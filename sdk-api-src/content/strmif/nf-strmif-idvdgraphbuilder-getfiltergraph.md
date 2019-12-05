@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IDvdGraphBuilder.GetFiltergraph
 title: IDvdGraphBuilder::GetFiltergraph (strmif.h)
-
 description: The GetFiltergraph method retrieves the IGraphBuilder interface for the filter graph used by the DVD-Video graph builder object.
 old-location: dshow\idvdgraphbuilder_getfiltergraph.htm
 tech.root: DirectShow
 ms.assetid: 1f12140b-d10d-47d9-8bac-33fab084bff4
-
 ms.date: 12/05/2018
 ms.keywords: GetFiltergraph, GetFiltergraph method [DirectShow], GetFiltergraph method [DirectShow],IDvdGraphBuilder interface, IDvdGraphBuilder interface [DirectShow],GetFiltergraph method, IDvdGraphBuilder.GetFiltergraph, IDvdGraphBuilder::GetFiltergraph, IDvdGraphBuilderGetFiltergraph, dshow.idvdgraphbuilder_getfiltergraph, strmif/IDvdGraphBuilder::GetFiltergraph
 ms.topic: method
-f1_keywords: 
- - "strmif/IDvdGraphBuilder.GetFiltergraph"
+f1_keywords:
+- strmif/IDvdGraphBuilder.GetFiltergraph
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IDvdGraphBuilder.GetFiltergraph
+- IDvdGraphBuilder.GetFiltergraph
 targetos: Windows
 req.typenames: 
 req.redist: 

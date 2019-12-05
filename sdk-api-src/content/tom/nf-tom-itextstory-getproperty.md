@@ -1,19 +1,17 @@
 ---
 UID: NF:tom.ITextStory.GetProperty
 title: ITextStory::GetProperty (tom.h)
-
 description: Gets the value of the specified property.
 old-location: controls\itextstory_getproperty.htm
 tech.root: Controls
 ms.assetid: 1c24e9d8-c737-42f8-87d9-585b0054b6df
-
 ms.date: 12/05/2018
 ms.keywords: GetProperty, GetProperty method [Windows Controls], GetProperty method [Windows Controls],ITextStory interface, ITextStory interface [Windows Controls],GetProperty method, ITextStory.GetProperty, ITextStory::GetProperty, controls.itextstory_getproperty, tom/ITextStory::GetProperty
 ms.topic: method
-f1_keywords: 
- - "tom/ITextStory.GetProperty"
+f1_keywords:
+- tom/ITextStory.GetProperty
 dev_langs:
- - c++
+- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - tom.h
+- tom.h
 api_name:
- - ITextStory.GetProperty
+- ITextStory.GetProperty
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMGlyphs.GetGlyphIndices
 title: IXpsOMGlyphs::GetGlyphIndices (xpsobjectmodel.h)
-
 description: Gets an array of XPS_GLYPH_INDEX structures that describe the specific glyph indices in the font.
 old-location: xps\ixpsomglyphs_getglyphindices.htm
 tech.root: printdocs
 ms.assetid: 6698ae0b-3525-4612-8234-8ba4dd2870a0
-
 ms.date: 12/05/2018
 ms.keywords: GetGlyphIndices, GetGlyphIndices method [XPS Documents and Packaging], GetGlyphIndices method [XPS Documents and Packaging],IXpsOMGlyphs interface, IXpsOMGlyphs interface [XPS Documents and Packaging],GetGlyphIndices method, IXpsOMGlyphs.GetGlyphIndices, IXpsOMGlyphs::GetGlyphIndices, xps.ixpsomglyphs_getglyphindices, xpsobjectmodel/IXpsOMGlyphs::GetGlyphIndices
 ms.topic: method
-f1_keywords: 
- - "xpsobjectmodel/IXpsOMGlyphs.GetGlyphIndices"
+f1_keywords:
+- xpsobjectmodel/IXpsOMGlyphs.GetGlyphIndices
 dev_langs:
- - c++
+- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsobjectmodel.h
+- xpsobjectmodel.h
 api_name:
- - IXpsOMGlyphs.GetGlyphIndices
+- IXpsOMGlyphs.GetGlyphIndices
 targetos: Windows
 req.typenames: 
 req.redist: 

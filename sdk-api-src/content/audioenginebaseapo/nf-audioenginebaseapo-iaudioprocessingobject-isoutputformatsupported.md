@@ -1,19 +1,17 @@
 ---
 UID: NF:audioenginebaseapo.IAudioProcessingObject.IsOutputFormatSupported
 title: IAudioProcessingObject::IsOutputFormatSupported (audioenginebaseapo.h)
-
 description: The IsOutputFormatSupported method is used to verify that a specific output format is supported.
 old-location: audio\iaudioprocessingobject_isoutputformatsupported.htm
 tech.root: audio
 ms.assetid: 19609332-9fc2-4a21-b947-f103a1cf2675
-
 ms.date: 12/05/2018
 ms.keywords: IAudioProcessingObject interface [Audio Devices],IsOutputFormatSupported method, IAudioProcessingObject.IsOutputFormatSupported, IAudioProcessingObject::IsOutputFormatSupported, IsOutputFormatSupported, IsOutputFormatSupported method [Audio Devices], IsOutputFormatSupported method [Audio Devices],IAudioProcessingObject interface, audio.iaudioprocessingobject_isoutputformatsupported, audio_syseffects_r_542151d0-145f-4504-a282-e6473f1ae3c7.xml, audioenginebaseapo/IAudioProcessingObject::IsOutputFormatSupported
 ms.topic: method
-f1_keywords: 
- - "audioenginebaseapo/IAudioProcessingObject.IsOutputFormatSupported"
+f1_keywords:
+- audioenginebaseapo/IAudioProcessingObject.IsOutputFormatSupported
 dev_langs:
- - c++
+- c++
 req.header: audioenginebaseapo.h
 req.include-header: 
 req.target-type: Universal
@@ -32,15 +30,15 @@ req.lib: Audioenginebaseapo.idl
 req.dll: 
 req.irql: All Levels
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Audioenginebaseapo.idl
- - Audioenginebaseapo.idl.dll
+- Audioenginebaseapo.idl
+- Audioenginebaseapo.idl.dll
 api_name:
- - IAudioProcessingObject.IsOutputFormatSupported
+- IAudioProcessingObject.IsOutputFormatSupported
 targetos: Windows
 req.typenames: 
 req.redist: 

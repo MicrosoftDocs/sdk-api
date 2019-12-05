@@ -1,19 +1,17 @@
 ---
 UID: NN:xpsobjectmodel.IXpsOMPage
 title: IXpsOMPage (xpsobjectmodel.h)
-
 description: Provides the root node of a tree of objects that hold the contents of a single page.
 old-location: xps\ixpsompage.htm
 tech.root: printdocs
 ms.assetid: 741deebd-9dce-4cd9-883e-4586c10a4609
-
 ms.date: 12/05/2018
 ms.keywords: IXpsOMPage, IXpsOMPage interface [XPS Documents and Packaging], IXpsOMPage interface [XPS Documents and Packaging],described, xps.ixpsompage, xpsobjectmodel/IXpsOMPage
 ms.topic: interface
-f1_keywords: 
- - "xpsobjectmodel/IXpsOMPage"
+f1_keywords:
+- xpsobjectmodel/IXpsOMPage
 dev_langs:
- - c++
+- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsobjectmodel.h
+- xpsobjectmodel.h
 api_name:
- - IXpsOMPage
+- IXpsOMPage
 targetos: Windows
 req.typenames: 
 req.redist: 

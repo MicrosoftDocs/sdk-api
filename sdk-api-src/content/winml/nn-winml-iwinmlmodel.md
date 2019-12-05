@@ -1,19 +1,17 @@
 ---
 UID: NN:winml.IWinMLModel
 title: IWinMLModel (winml.h)
-
 description: Represents a Windows Machine Learning model with corresponding metadata; includes model descriptions (name, author, versioning, etc.), as well as expected inputs and outputs.
 old-location: machinelearning\iwinmlmodel.htm
 tech.root: MachineLearning
 ms.assetid: 604ABFCC-9CA0-409D-A3FF-D5C59758462E
-
 ms.date: 12/05/2018
 ms.keywords: IWinMLModel, IWinMLModel interface, IWinMLModel interface,described, MachineLearning.iwinmlmodel, winml/IWinMLModel
 ms.topic: interface
-f1_keywords: 
- - "winml/IWinMLModel"
+f1_keywords:
+- winml/IWinMLModel
 dev_langs:
- - c++
+- c++
 req.header: winml.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Winml.lib
 req.dll: Winml.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - winml.dll
+- winml.dll
 api_name:
- - IWinMLModel
+- IWinMLModel
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:winsatcominterfacei.IQueryRecentWinSATAssessment.get_XML
 title: IQueryRecentWinSATAssessment::get_XML (winsatcominterfacei.h)
-
 description: Retrieves data from the XML assessment document by using the specified XPath. The query is run against the most recent formal assessment in the WinSAT data store.
 old-location: winsat\iqueryrecentwinsatassessment_xml.htm
 tech.root: WinSAT
 ms.assetid: f8a1c664-bea3-4505-bcf0-2b8715dbe7dd
-
 ms.date: 12/05/2018
 ms.keywords: IQueryRecentWinSATAssessment interface [WinSAT],XML property, IQueryRecentWinSATAssessment.XML, IQueryRecentWinSATAssessment.get_XML, IQueryRecentWinSATAssessment::XML, IQueryRecentWinSATAssessment::get_XML, XML property [WinSAT], XML property [WinSAT],IQueryRecentWinSATAssessment interface, get_XML, winsat.iqueryrecentwinsatassessment_xml, winsatcominterfacei/IQueryRecentWinSATAssessment::XML, winsatcominterfacei/IQueryRecentWinSATAssessment::get_XML
 ms.topic: method
-f1_keywords: 
- - "winsatcominterfacei/IQueryRecentWinSATAssessment.XML"
+f1_keywords:
+- winsatcominterfacei/IQueryRecentWinSATAssessment.XML
 dev_langs:
- - c++
+- c++
 req.header: winsatcominterfacei.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: Winsatapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Winsatapi.dll
+- Winsatapi.dll
 api_name:
- - IQueryRecentWinSATAssessment.XML
- - IQueryRecentWinSATAssessment.get_XML
+- IQueryRecentWinSATAssessment.XML
+- IQueryRecentWinSATAssessment.get_XML
 targetos: Windows
 req.typenames: 
 req.redist: 

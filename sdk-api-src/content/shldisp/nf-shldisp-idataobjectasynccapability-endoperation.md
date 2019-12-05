@@ -1,19 +1,17 @@
 ---
 UID: NF:shldisp.IDataObjectAsyncCapability.EndOperation
 title: IDataObjectAsyncCapability::EndOperation (shldisp.h)
-
 description: Notifies the data object that the asynchronous data extraction has ended.
 old-location: shell\IDataObjectAsyncCapability_EndOperation.htm
 tech.root: shell
 ms.assetid: CF9D2A95-12AF-4538-882D-B391F2E087ED
-
 ms.date: 12/05/2018
 ms.keywords: EndOperation, EndOperation method [Windows Shell], EndOperation method [Windows Shell],IDataObjectAsyncCapability interface, IDataObjectAsyncCapability interface [Windows Shell],EndOperation method, IDataObjectAsyncCapability.EndOperation, IDataObjectAsyncCapability::EndOperation, shell.IDataObjectAsyncCapability_EndOperation, shldisp/IDataObjectAsyncCapability::EndOperation
 ms.topic: method
-f1_keywords: 
- - "shldisp/IDataObjectAsyncCapability.EndOperation"
+f1_keywords:
+- shldisp/IDataObjectAsyncCapability.EndOperation
 dev_langs:
- - c++
+- c++
 req.header: shldisp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Shell32.dll (version 6.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - IDataObjectAsyncCapability.EndOperation
+- IDataObjectAsyncCapability.EndOperation
 targetos: Windows
 req.typenames: 
 req.redist: 

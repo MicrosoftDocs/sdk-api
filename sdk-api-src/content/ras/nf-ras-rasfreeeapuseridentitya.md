@@ -1,19 +1,17 @@
 ---
 UID: NF:ras.RasFreeEapUserIdentityA
 title: RasFreeEapUserIdentityA function (ras.h)
-
 description: Use the RasFreeEapUserIdentity function to free the memory buffer returned by RasGetEapUserIdentity.
 old-location: rras\rasfreeeapuseridentity.htm
 tech.root: RRAS
 ms.assetid: 84102fdc-b44a-415e-b67e-58c82e662a23
-
 ms.date: 12/05/2018
 ms.keywords: RasFreeEapUserIdentity, RasFreeEapUserIdentity function [RAS], RasFreeEapUserIdentityA, RasFreeEapUserIdentityW, _ras_rasfreeeapuseridentity, ras/RasFreeEapUserIdentity, ras/RasFreeEapUserIdentityA, ras/RasFreeEapUserIdentityW, rras.rasfreeeapuseridentity
 ms.topic: function
-f1_keywords: 
- - "ras/RasFreeEapUserIdentity"
+f1_keywords:
+- ras/RasFreeEapUserIdentity
 dev_langs:
- - c++
+- c++
 req.header: ras.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Rasapi32.lib
 req.dll: Rasapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Rasapi32.dll
+- Rasapi32.dll
 api_name:
- - RasFreeEapUserIdentity
- - RasFreeEapUserIdentityA
- - RasFreeEapUserIdentityW
+- RasFreeEapUserIdentity
+- RasFreeEapUserIdentityA
+- RasFreeEapUserIdentityW
 targetos: Windows
 req.typenames: 
 req.redist: 

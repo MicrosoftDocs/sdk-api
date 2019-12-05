@@ -1,19 +1,17 @@
 ---
 UID: NS:mbnapi.MBN_INTERFACE_CAPS
 title: MBN_INTERFACE_CAPS (mbnapi.h)
-
 description: The MBN_INTERFACE_CAPS structure represents the interface capabilities.
 old-location: mbn\mbn_interface_caps.htm
 tech.root: mbn
 ms.assetid: faee7f53-b465-4240-b163-ce88fae764df
-
 ms.date: 12/05/2018
 ms.keywords: MBN_INTERFACE_CAPS, MBN_INTERFACE_CAPS structure [Microsoft Broadband Networks], mbn.mbn_interface_caps, mbnapi/MBN_INTERFACE_CAPS
 ms.topic: struct
-f1_keywords: 
- - "mbnapi/MBN_INTERFACE_CAPS"
+f1_keywords:
+- mbnapi/MBN_INTERFACE_CAPS
 dev_langs:
- - c++
+- c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - mbnapi.h
+- mbnapi.h
 api_name:
- - MBN_INTERFACE_CAPS
+- MBN_INTERFACE_CAPS
 targetos: Windows
 req.typenames: MBN_INTERFACE_CAPS
 req.redist: 

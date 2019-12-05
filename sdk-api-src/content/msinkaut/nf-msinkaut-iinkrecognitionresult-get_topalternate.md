@@ -1,19 +1,17 @@
 ---
 UID: NF:msinkaut.IInkRecognitionResult.get_TopAlternate
 title: IInkRecognitionResult::get_TopAlternate (msinkaut.h)
-
 description: Gets the top alternate of the recognition result.
 old-location: tablet\iinkrecognitionresult_topalternate.htm
 tech.root: tablet
 ms.assetid: 6be3d9d1-8c59-48c5-a6a5-10d93b47cd5d
-
 ms.date: 12/05/2018
 ms.keywords: 6be3d9d1-8c59-48c5-a6a5-10d93b47cd5d, IInkRecognitionResult interface [Tablet PC],TopAlternate property, IInkRecognitionResult.TopAlternate, IInkRecognitionResult.get_TopAlternate, IInkRecognitionResult::TopAlternate, IInkRecognitionResult::get_TopAlternate, TopAlternate property [Tablet PC], TopAlternate property [Tablet PC],IInkRecognitionResult interface, get_TopAlternate, msinkaut/IInkRecognitionResult::TopAlternate, msinkaut/IInkRecognitionResult::get_TopAlternate, tablet.iinkrecognitionresult_topalternate
 ms.topic: method
-f1_keywords: 
- - "msinkaut/IInkRecognitionResult.TopAlternate"
+f1_keywords:
+- msinkaut/IInkRecognitionResult.TopAlternate
 dev_langs:
- - c++
+- c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: InkObj.dll
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - InkObj.dll
- - InkObj.dll.dll
+- InkObj.dll
+- InkObj.dll.dll
 api_name:
- - IInkRecognitionResult.TopAlternate
- - IInkRecognitionResult.get_TopAlternate
- - IInkRecognitionResult.get_TopAlternate
+- IInkRecognitionResult.TopAlternate
+- IInkRecognitionResult.get_TopAlternate
+- IInkRecognitionResult.get_TopAlternate
 targetos: Windows
 req.typenames: 
 req.redist: 

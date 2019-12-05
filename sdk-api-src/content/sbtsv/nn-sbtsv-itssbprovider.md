@@ -1,19 +1,17 @@
 ---
 UID: NN:sbtsv.ITsSbProvider
 title: ITsSbProvider (sbtsv.h)
-
 description: Exposes methods that create default implementations of objects that are used in Remote Desktop Virtualization.
 old-location: termserv\itssbprovider.htm
 tech.root: TermServ
 ms.assetid: a8574750-d86e-4b0d-a534-d005596e2a33
-
 ms.date: 12/05/2018
 ms.keywords: ITsSbProvider, ITsSbProvider interface [Remote Desktop Services], ITsSbProvider interface [Remote Desktop Services],described, sbtsv/ITsSbProvider, termserv.itssbprovider
 ms.topic: interface
-f1_keywords: 
- - "sbtsv/ITsSbProvider"
+f1_keywords:
+- sbtsv/ITsSbProvider
 dev_langs:
- - c++
+- c++
 req.header: sbtsv.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - sbtsv.h
+- sbtsv.h
 api_name:
- - ITsSbProvider
+- ITsSbProvider
 targetos: Windows
 req.typenames: 
 req.redist: 

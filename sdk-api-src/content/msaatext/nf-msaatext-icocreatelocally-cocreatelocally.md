@@ -1,19 +1,17 @@
 ---
 UID: NF:msaatext.ICoCreateLocally.CoCreateLocally
 title: ICoCreateLocally::CoCreateLocally (msaatext.h)
-
 description: Clients call ICoCreateLocally::CoCreateLocally to create a helper object in the same context as the server object.
 old-location: winauto\icocreatelocally_icocreatelocally__cocreatelocally.htm
 tech.root: WinAuto
 ms.assetid: 3a41dd9d-71b3-4d7c-9728-a65f7ddac3d5
-
 ms.date: 12/05/2018
 ms.keywords: CoCreateLocally, CoCreateLocally method [Windows Accessibility], CoCreateLocally method [Windows Accessibility],ICoCreateLocally interface, ICoCreateLocally interface [Windows Accessibility],CoCreateLocally method, ICoCreateLocally.CoCreateLocally, ICoCreateLocally::CoCreateLocally, _msaa_ICoCreateLocally_CoCreateLocally, msaa.icocreatelocally_icocreatelocally__cocreatelocally, msaatext/ICoCreateLocally::CoCreateLocally, winauto.icocreatelocally_icocreatelocally__cocreatelocally
 ms.topic: method
-f1_keywords: 
- - "msaatext/ICoCreateLocally.CoCreateLocally"
+f1_keywords:
+- msaatext/ICoCreateLocally.CoCreateLocally
 dev_langs:
- - c++
+- c++
 req.header: msaatext.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msaatext.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msaatext.dll
+- msaatext.dll
 api_name:
- - ICoCreateLocally.CoCreateLocally
+- ICoCreateLocally.CoCreateLocally
 targetos: Windows
 req.typenames: 
 req.redist: Active Accessibility 2.0 RDK on Windows NT 4.0 with SP6 and later and Windows 98

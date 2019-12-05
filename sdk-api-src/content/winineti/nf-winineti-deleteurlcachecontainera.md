@@ -1,19 +1,17 @@
 ---
 UID: NF:winineti.DeleteUrlCacheContainerA
 title: DeleteUrlCacheContainerA function (winineti.h)
-
 description: Deletes a cache container (which contains cache entries) based on the specified name.
 old-location: wininet\deleteurlcachecontainer.htm
 tech.root: wininet
 ms.assetid: 97F46974-9B20-46C6-B742-4BA5C60491DA
-
 ms.date: 12/05/2018
 ms.keywords: DeleteUrlCacheContainer, DeleteUrlCacheContainer function [WinINet], DeleteUrlCacheContainerA, DeleteUrlCacheContainerW, wininet.deleteurlcachecontainer, winineti/DeleteUrlCacheContainer, winineti/DeleteUrlCacheContainerA, winineti/DeleteUrlCacheContainerW
 ms.topic: function
-f1_keywords: 
- - "winineti/DeleteUrlCacheContainer"
+f1_keywords:
+- winineti/DeleteUrlCacheContainer
 dev_langs:
- - c++
+- c++
 req.header: winineti.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Wininet.lib
 req.dll: Wininet.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Wininet.dll
+- Wininet.dll
 api_name:
- - DeleteUrlCacheContainer
- - DeleteUrlCacheContainerA
- - DeleteUrlCacheContainerW
+- DeleteUrlCacheContainer
+- DeleteUrlCacheContainerA
+- DeleteUrlCacheContainerW
 targetos: Windows
 req.typenames: 
 req.redist: 

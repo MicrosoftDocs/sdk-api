@@ -1,19 +1,17 @@
 ---
 UID: NF:wmsdkidl.IWMReaderPlaylistBurn.GetInitResults
 title: IWMReaderPlaylistBurn::GetInitResults (wmsdkidl.h)
-
 description: The GetInitResults method retrieves the results of the playlist file check.
 old-location: wmformat\iwmreaderplaylistburn_getinitresults.htm
 tech.root: wmformat
 ms.assetid: 9f9db03b-0bcc-4442-b97e-f6a2f8d179fa
-
 ms.date: 12/05/2018
 ms.keywords: GetInitResults, GetInitResults method [windows Media Format], GetInitResults method [windows Media Format],IWMReaderPlaylistBurn interface, IWMReaderPlaylistBurn interface [windows Media Format],GetInitResults method, IWMReaderPlaylistBurn.GetInitResults, IWMReaderPlaylistBurn::GetInitResults, IWMReaderPlaylistBurnGetInitResults, wmformat.iwmreaderplaylistburn_getinitresults, wmsdkidl/IWMReaderPlaylistBurn::GetInitResults
 ms.topic: method
-f1_keywords: 
- - "wmsdkidl/IWMReaderPlaylistBurn.GetInitResults"
+f1_keywords:
+- wmsdkidl/IWMReaderPlaylistBurn.GetInitResults
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wmvcore.lib
- - Wmvcore.dll
- - WMStubDRM.lib
- - WMStubDRM.dll
+- Wmvcore.lib
+- Wmvcore.dll
+- WMStubDRM.lib
+- WMStubDRM.dll
 api_name:
- - IWMReaderPlaylistBurn.GetInitResults
+- IWMReaderPlaylistBurn.GetInitResults
 targetos: Windows
 req.typenames: 
 req.redist: 

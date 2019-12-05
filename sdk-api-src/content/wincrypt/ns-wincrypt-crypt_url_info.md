@@ -1,19 +1,17 @@
 ---
 UID: NS:wincrypt._CRYPT_URL_INFO
 title: CRYPT_URL_INFO (wincrypt.h)
-
 description: Contains information about groupings of URLs.
 old-location: security\crypt_url_info.htm
 tech.root: SecCrypto
 ms.assetid: 58289a66-6580-468c-b001-5da08cf6d4a9
-
 ms.date: 12/05/2018
-ms.keywords: "*PCRYPT_URL_INFO, CRYPT_URL_INFO, CRYPT_URL_INFO structure [Security], PCRYPT_URL_INFO, PCRYPT_URL_INFO structure pointer [Security], _crypto2_crypt_url_info, security.crypt_url_info, wincrypt/CRYPT_URL_INFO, wincrypt/PCRYPT_URL_INFO"
+ms.keywords: '*PCRYPT_URL_INFO, CRYPT_URL_INFO, CRYPT_URL_INFO structure [Security], PCRYPT_URL_INFO, PCRYPT_URL_INFO structure pointer [Security], _crypto2_crypt_url_info, security.crypt_url_info, wincrypt/CRYPT_URL_INFO, wincrypt/PCRYPT_URL_INFO'
 ms.topic: struct
-f1_keywords: 
- - "wincrypt/CRYPT_URL_INFO"
+f1_keywords:
+- wincrypt/CRYPT_URL_INFO
 dev_langs:
- - c++
+- c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wincrypt.h
+- Wincrypt.h
 api_name:
- - CRYPT_URL_INFO
+- CRYPT_URL_INFO
 targetos: Windows
 req.typenames: CRYPT_URL_INFO, *PCRYPT_URL_INFO
 req.redist: 

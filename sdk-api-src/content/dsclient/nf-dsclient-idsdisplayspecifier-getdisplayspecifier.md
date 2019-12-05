@@ -1,19 +1,17 @@
 ---
 UID: NF:dsclient.IDsDisplaySpecifier.GetDisplaySpecifier
 title: IDsDisplaySpecifier::GetDisplaySpecifier (dsclient.h)
-
 description: The IDsDisplaySpecifier::GetDisplaySpecifier method binds to the display specifier object for a given class in Active Directory Domain Services.
 old-location: ad\idsdisplayspecifier_getdisplayspecifier.htm
 tech.root: ad
 ms.assetid: c4fc25f6-0157-406d-b523-8542183291ed
-
 ms.date: 12/05/2018
 ms.keywords: GetDisplaySpecifier, GetDisplaySpecifier method [Active Directory], GetDisplaySpecifier method [Active Directory],IDsDisplaySpecifier interface, IDsDisplaySpecifier interface [Active Directory],GetDisplaySpecifier method, IDsDisplaySpecifier.GetDisplaySpecifier, IDsDisplaySpecifier::GetDisplaySpecifier, _glines_idsdisplayspecifier_getdisplayspecifier, ad.idsdisplayspecifier__getdisplayspecifier, ad.idsdisplayspecifier_getdisplayspecifier, dsclient/IDsDisplaySpecifier::GetDisplaySpecifier
 ms.topic: method
-f1_keywords: 
- - "dsclient/IDsDisplaySpecifier.GetDisplaySpecifier"
+f1_keywords:
+- dsclient/IDsDisplaySpecifier.GetDisplaySpecifier
 dev_langs:
- - c++
+- c++
 req.header: dsclient.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Dsadmin.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dsadmin.dll
+- Dsadmin.dll
 api_name:
- - IDsDisplaySpecifier.GetDisplaySpecifier
+- IDsDisplaySpecifier.GetDisplaySpecifier
 targetos: Windows
 req.typenames: 
 req.redist: 

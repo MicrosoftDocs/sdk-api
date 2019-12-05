@@ -1,19 +1,17 @@
 ---
 UID: NF:dxgi1_5.IDXGIDevice4.OfferResources1
 title: IDXGIDevice4::OfferResources1 (dxgi1_5.h)
-
 description: Allows the operating system to free the video memory of resources, including both discarding the content and de-committing the memory.
 old-location: direct3ddxgi\idxgidevice4_offerresources1.htm
 tech.root: direct3ddxgi
 ms.assetid: 7F6782F3-7779-4DBD-AD5A-AE0FB136FC70
-
 ms.date: 12/05/2018
 ms.keywords: IDXGIDevice4 interface [DXGI],OfferResources1 method, IDXGIDevice4.OfferResources1, IDXGIDevice4::OfferResources1, OfferResources1, OfferResources1 method [DXGI], OfferResources1 method [DXGI],IDXGIDevice4 interface, direct3ddxgi.idxgidevice4_offerresources1, dxgi1_5/IDXGIDevice4::OfferResources1
 ms.topic: method
 f1_keywords:
 - dxgi1_5/IDXGIDevice4.OfferResources1
 dev_langs:
- - c++
+- c++
 req.header: dxgi1_5.h
 req.include-header: 
 req.target-type: Windows

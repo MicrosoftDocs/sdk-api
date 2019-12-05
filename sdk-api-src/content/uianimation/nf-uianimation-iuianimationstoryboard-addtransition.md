@@ -1,19 +1,17 @@
 ---
 UID: NF:uianimation.IUIAnimationStoryboard.AddTransition
 title: IUIAnimationStoryboard::AddTransition (uianimation.h)
-
 description: Adds a transition to the storyboard.
 old-location: uianimation\iuianimationstoryboard_addtransition.htm
 tech.root: UIAnimation
 ms.assetid: c3213e5d-c8f5-406a-bc44-9de7a740b070
-
 ms.date: 12/05/2018
 ms.keywords: AddTransition, AddTransition method [Windows Animation], AddTransition method [Windows Animation],IUIAnimationStoryboard interface, IUIAnimationStoryboard interface [Windows Animation],AddTransition method, IUIAnimationStoryboard.AddTransition, IUIAnimationStoryboard::AddTransition, uianimation.iuianimationstoryboard_addtransition, uianimation/IUIAnimationStoryboard::AddTransition
 ms.topic: method
-f1_keywords: 
- - "uianimation/IUIAnimationStoryboard.AddTransition"
+f1_keywords:
+- uianimation/IUIAnimationStoryboard.AddTransition
 dev_langs:
- - c++
+- c++
 req.header: uianimation.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: UIAnimation.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAnimation.dll
+- UIAnimation.dll
 api_name:
- - IUIAnimationStoryboard.AddTransition
+- IUIAnimationStoryboard.AddTransition
 targetos: Windows
 req.typenames: 
 req.redist: 

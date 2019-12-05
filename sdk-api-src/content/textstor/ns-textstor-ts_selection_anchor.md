@@ -1,19 +1,17 @@
 ---
 UID: NS:textstor.TS_SELECTION_ANCHOR
 title: TS_SELECTION_ANCHOR (textstor.h)
-
 description: The TS_SELECTION_ANCHOR structure contains anchor-based text selection data.
 old-location: tsf\ts_selection_anchor.htm
 tech.root: TSF
 ms.assetid: 56fbe145-1972-4b44-a730-17860e428dd0
-
 ms.date: 12/05/2018
 ms.keywords: TS_SELECTION_ANCHOR, TS_SELECTION_ANCHOR structure [Text Services Framework], _tsf_ts_selection_anchor_ref, textstor/TS_SELECTION_ANCHOR, tsf.ts_selection_anchor
 ms.topic: struct
-f1_keywords: 
- - "textstor/TS_SELECTION_ANCHOR"
+f1_keywords:
+- textstor/TS_SELECTION_ANCHOR
 dev_langs:
- - c++
+- c++
 req.header: textstor.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Textstor.h
+- Textstor.h
 api_name:
- - TS_SELECTION_ANCHOR
+- TS_SELECTION_ANCHOR
 targetos: Windows
 req.typenames: TS_SELECTION_ANCHOR
 req.redist: TSF 1.0 on Windows 2000 Professional

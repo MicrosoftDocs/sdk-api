@@ -1,19 +1,17 @@
 ---
 UID: NF:vfw.AVIStreamIsKeyFrame
 title: AVIStreamIsKeyFrame macro (vfw.h)
-
 description: The AVIStreamIsKeyFrame macro indicates whether a sample in a specified stream is a key frame.
 old-location: multimedia\avistreamiskeyframe.htm
 tech.root: Multimedia
 ms.assetid: 615ca0be-44d3-4dc4-9dc1-c14e8b50e835
-
 ms.date: 12/05/2018
 ms.keywords: AVIStreamIsKeyFrame, AVIStreamIsKeyFrame macro [Windows Multimedia], _win32_AVIStreamIsKeyFrame, multimedia.avistreamiskeyframe, vfw/AVIStreamIsKeyFrame
 ms.topic: macro
-f1_keywords: 
- - "vfw/AVIStreamIsKeyFrame"
+f1_keywords:
+- vfw/AVIStreamIsKeyFrame
 dev_langs:
- - c++
+- c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Vfw.h
+- Vfw.h
 api_name:
- - AVIStreamIsKeyFrame
+- AVIStreamIsKeyFrame
 targetos: Windows
 req.typenames: 
 req.redist: 

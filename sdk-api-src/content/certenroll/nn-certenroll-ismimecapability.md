@@ -1,19 +1,17 @@
 ---
 UID: NN:certenroll.ISmimeCapability
 title: ISmimeCapability (certenroll.h)
-
 description: Represents an SMIMECapabilities extension that identifies the decryption capabilities of an email recipient.
 old-location: security\ismimecapability.htm
 tech.root: seccertenroll
 ms.assetid: 3cfbb16f-88fa-41f1-b719-cd5e8ad636cc
-
 ms.date: 12/05/2018
 ms.keywords: ISmimeCapability, ISmimeCapability interface [Security], ISmimeCapability interface [Security],described, certenroll/ISmimeCapability, security.ismimecapability
 ms.topic: interface
-f1_keywords: 
- - "certenroll/ISmimeCapability"
+f1_keywords:
+- certenroll/ISmimeCapability
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: CertEnroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CertEnroll.dll
+- CertEnroll.dll
 api_name:
- - ISmimeCapability
+- ISmimeCapability
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NN:photoacquire.IPhotoProgressDialog
 title: IPhotoProgressDialog (photoacquire.h)
-
 description: Provides the progress dialog box that may be displayed when enumerating or importing images. The dialog box is modal and runs in its own thread.
 old-location: picacq\iphotoprogressdialog.htm
 tech.root: acquisition
 ms.assetid: a3928874-5a15-43d9-9d9c-8b66478b0597
-
 ms.date: 12/05/2018
 ms.keywords: IPhotoProgressDialog, IPhotoProgressDialog interface [Picture Acquisition], IPhotoProgressDialog interface [Picture Acquisition],described, IPhotoProgressDialogInterface, photoacquire/IPhotoProgressDialog, picacq.iphotoprogressdialog
 ms.topic: interface
-f1_keywords: 
- - "photoacquire/IPhotoProgressDialog"
+f1_keywords:
+- photoacquire/IPhotoProgressDialog
 dev_langs:
- - c++
+- c++
 req.header: photoacquire.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - photoacquire.h
+- photoacquire.h
 api_name:
- - IPhotoProgressDialog
+- IPhotoProgressDialog
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:amstream.IAMMediaTypeStream.CreateSample
 title: IAMMediaTypeStream::CreateSample (amstream.h)
-
 description: Note  This interface is deprecated. New applications should not use it. The CreateSample method creates a stream sample and optionally specifies the sample buffer.
 old-location: dshow\iammediatypestream_createsample.htm
 tech.root: DirectShow
 ms.assetid: 5bfdbf82-c298-498d-84e4-cd4d8cd13f82
-
 ms.date: 12/05/2018
 ms.keywords: CreateSample, CreateSample method [DirectShow], CreateSample method [DirectShow],IAMMediaTypeStream interface, IAMMediaTypeStream interface [DirectShow],CreateSample method, IAMMediaTypeStream.CreateSample, IAMMediaTypeStream::CreateSample, IAMMediaTypeStreamCreateSample, amstream/IAMMediaTypeStream::CreateSample, dshow.iammediatypestream_createsample
 ms.topic: method
-f1_keywords: 
- - "amstream/IAMMediaTypeStream.CreateSample"
+f1_keywords:
+- amstream/IAMMediaTypeStream.CreateSample
 dev_langs:
- - c++
+- c++
 req.header: amstream.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - amstream.h
+- amstream.h
 api_name:
- - IAMMediaTypeStream.CreateSample
+- IAMMediaTypeStream.CreateSample
 targetos: Windows
 req.typenames: 
 req.redist: 

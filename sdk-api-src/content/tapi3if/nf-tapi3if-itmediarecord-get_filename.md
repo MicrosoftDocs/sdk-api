@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi3if.ITMediaRecord.get_FileName
 title: ITMediaRecord::get_FileName (tapi3if.h)
-
 description: The get_FileName method retrieves the name of the file that was used for recording by this terminal.
 old-location: tapi3\itmediarecord_get_filename.htm
 tech.root: Tapi
 ms.assetid: fd97665c-ff9e-4621-baf9-7c0b603400c5
-
 ms.date: 12/05/2018
 ms.keywords: ITMediaRecord interface [TAPI 2.2],get_FileName method, ITMediaRecord.get_FileName, ITMediaRecord::get_FileName, _tapi3_itmediarecord_get_filename, get_FileName, get_FileName method [TAPI 2.2], get_FileName method [TAPI 2.2],ITMediaRecord interface, tapi3.itmediarecord_get_filename, tapi3if/ITMediaRecord::get_FileName
 ms.topic: method
-f1_keywords: 
- - "tapi3if/ITMediaRecord.get_FileName"
+f1_keywords:
+- tapi3if/ITMediaRecord.get_FileName
 dev_langs:
- - c++
+- c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Tapi3.dll
+- Tapi3.dll
 api_name:
- - ITMediaRecord.get_FileName
+- ITMediaRecord.get_FileName
 targetos: Windows
 req.typenames: 
 req.redist: 

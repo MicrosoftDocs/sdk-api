@@ -1,19 +1,17 @@
 ---
 UID: NN:searchapi.IRowsetEvents
 title: IRowsetEvents (searchapi.h)
-
 description: Exposes methods for receiving event notifications.
 old-location: search\_search_IRowsetEvents.htm
 tech.root: search
 ms.assetid: VS|SEARCH|~\search\wds3x\reference\ifaces\querying\irowsetevents\irowsetevents.htm
-
 ms.date: 12/05/2018
 ms.keywords: IRowsetEvents, IRowsetEvents interface [search], IRowsetEvents interface [search],described, _search_IRowsetEvents, search._search_IRowsetEvents, searchapi/IRowsetEvents
 ms.topic: interface
-f1_keywords: 
- - "searchapi/IRowsetEvents"
+f1_keywords:
+- searchapi/IRowsetEvents
 dev_langs:
- - c++
+- c++
 req.header: searchapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Searchapi.h
+- Searchapi.h
 api_name:
- - IRowsetEvents
+- IRowsetEvents
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:resapi.ResUtilStopService
 title: ResUtilStopService function (resapi.h)
-
 description: Stops a service identified by a handle. The PRESUTIL_STOP_SERVICE type defines a pointer to this function.
 old-location: mscs\resutilstopservice.htm
 tech.root: MsCS
 ms.assetid: 22be9285-7db6-43dc-bf41-08187bbefc41
-
 ms.date: 12/05/2018
 ms.keywords: PRESUTIL_STOP_SERVICE, PRESUTIL_STOP_SERVICE function [Failover Cluster], ResUtilStopService, ResUtilStopService function [Failover Cluster], _wolf_resutilstopservice, mscs.resutilstopservice, resapi/PRESUTIL_STOP_SERVICE, resapi/ResUtilStopService
 ms.topic: function
-f1_keywords: 
- - "resapi/ResUtilStopService"
+f1_keywords:
+- resapi/ResUtilStopService
 dev_langs:
- - c++
+- c++
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: ResUtils.lib
 req.dll: ResUtils.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - ResUtils.dll
+- ResUtils.dll
 api_name:
- - ResUtilStopService
+- ResUtilStopService
 targetos: Windows
 req.typenames: 
 req.redist: 

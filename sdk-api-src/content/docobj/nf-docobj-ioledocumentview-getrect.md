@@ -1,19 +1,17 @@
 ---
 UID: NF:docobj.IOleDocumentView.GetRect
 title: IOleDocumentView::GetRect (docobj.h)
-
 description: Retrieves the rectangular coordinates of the viewport in which the view is or will be activated.
 old-location: com\ioledocumentview_getrect.htm
 tech.root: com
 ms.assetid: 65d27354-c278-4d9e-b1b7-6fa3651a343d
-
 ms.date: 12/05/2018
 ms.keywords: GetRect, GetRect method [COM], GetRect method [COM],IOleDocumentView interface, IOleDocumentView interface [COM],GetRect method, IOleDocumentView.GetRect, IOleDocumentView::GetRect, _ole_ioledocumentview_getrect, com.ioledocumentview_getrect, docobj/IOleDocumentView::GetRect
 ms.topic: method
-f1_keywords: 
- - "docobj/IOleDocumentView.GetRect"
+f1_keywords:
+- docobj/IOleDocumentView.GetRect
 dev_langs:
- - c++
+- c++
 req.header: docobj.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - DocObj.h
+- DocObj.h
 api_name:
- - IOleDocumentView.GetRect
+- IOleDocumentView.GetRect
 targetos: Windows
 req.typenames: 
 req.redist: 

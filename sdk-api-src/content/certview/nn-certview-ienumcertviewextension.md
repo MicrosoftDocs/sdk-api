@@ -1,19 +1,17 @@
 ---
 UID: NN:certview.IEnumCERTVIEWEXTENSION
 title: IEnumCERTVIEWEXTENSION (certview.h)
-
 description: Represents an extension-enumeration sequence that contains the certificate extension data for the current row of the row-enumeration sequence.
 old-location: security\ienumcertviewextension.htm
 tech.root: SecCrypto
 ms.assetid: d5acff51-06f8-4a6f-aa9e-97ba052b1b34
-
 ms.date: 12/05/2018
 ms.keywords: IEnumCERTVIEWEXTENSION, IEnumCERTVIEWEXTENSION interface [Security], IEnumCERTVIEWEXTENSION interface [Security],described, _certsrv_ienumcertviewextension, certview/IEnumCERTVIEWEXTENSION, security.ienumcertviewextension
 ms.topic: interface
-f1_keywords: 
- - "certview/IEnumCERTVIEWEXTENSION"
+f1_keywords:
+- certview/IEnumCERTVIEWEXTENSION
 dev_langs:
- - c++
+- c++
 req.header: certview.h
 req.include-header: Certsrv.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Certidl.lib
 req.dll: Certadm.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Certadm.dll
+- Certadm.dll
 api_name:
- - IEnumCERTVIEWEXTENSION
+- IEnumCERTVIEWEXTENSION
 targetos: Windows
 req.typenames: 
 req.redist: 

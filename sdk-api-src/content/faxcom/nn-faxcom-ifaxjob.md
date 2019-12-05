@@ -1,19 +1,17 @@
 ---
 UID: NN:faxcom.IFaxJob
 title: IFaxJob (faxcom.h)
-
 description: The IFaxJob dual interface is used by a fax client application to access information for a fax job on a connected fax server. A FaxJobs object is a collection of FaxJob objects.
 old-location: fax\_mfax_ifaxjob.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_75sy.htm
-
 ms.date: 12/05/2018
 ms.keywords: IFaxJob, IFaxJob interface [Fax Service], IFaxJob interface [Fax Service],described, _mfax_ifaxjob, fax._mfax_ifaxjob, faxcom/IFaxJob
 ms.topic: interface
-f1_keywords: 
- - "faxcom/IFaxJob"
+f1_keywords:
+- faxcom/IFaxJob
 dev_langs:
- - c++
+- c++
 req.header: faxcom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Faxcom.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Faxcom.dll
+- Faxcom.dll
 api_name:
- - IFaxJob
+- IFaxJob
 targetos: Windows
 req.typenames: 
 req.redist: 

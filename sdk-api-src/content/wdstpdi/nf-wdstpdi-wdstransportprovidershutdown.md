@@ -1,19 +1,17 @@
 ---
 UID: NF:wdstpdi.WdsTransportProviderShutdown
 title: WdsTransportProviderShutdown function (wdstpdi.h)
-
 description: Shutsdown the content provider.
 old-location: wds\wdstransportprovidershutdown.htm
 tech.root: wds
 ms.assetid: 89f563e1-8dbd-4660-8cec-506f708ae310
-
 ms.date: 12/05/2018
 ms.keywords: WdsTransportProviderShutdown, WdsTransportProviderShutdown callback, WdsTransportProviderShutdown callback function [Windows Deployment Services], wds.wdstransportprovidershutdown, wdstpdi/WdsTransportProviderShutdown
 ms.topic: function
-f1_keywords: 
- - "wdstpdi/WdsTransportProviderShutdown"
+f1_keywords:
+- wdstpdi/WdsTransportProviderShutdown
 dev_langs:
- - c++
+- c++
 req.header: wdstpdi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - wdstpdi.h
+- wdstpdi.h
 api_name:
- - WdsTransportProviderShutdown
+- WdsTransportProviderShutdown
 targetos: Windows
 req.typenames: 
 req.redist: 

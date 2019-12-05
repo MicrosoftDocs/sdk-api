@@ -1,19 +1,17 @@
 ---
 UID: NF:msrdc.IRdcLibrary.ComputeDefaultRecursionDepth
 title: IRdcLibrary::ComputeDefaultRecursionDepth (msrdc.h)
-
 description: Computes the maximum level of recursion for the specified file size.
 old-location: rdc\irdclibrary_computedefaultrecursiondepth.htm
 tech.root: rdc
 ms.assetid: b42c7b46-9f3c-46d2-a6a7-b5176fc40645
-
 ms.date: 12/05/2018
 ms.keywords: ComputeDefaultRecursionDepth, ComputeDefaultRecursionDepth method [Remote Differential Compression], ComputeDefaultRecursionDepth method [Remote Differential Compression],IRdcLibrary interface, IRdcLibrary interface [Remote Differential Compression],ComputeDefaultRecursionDepth method, IRdcLibrary.ComputeDefaultRecursionDepth, IRdcLibrary::ComputeDefaultRecursionDepth, fs.irdclibrary_computedefaultrecursiondepth, msrdc/IRdcLibrary::ComputeDefaultRecursionDepth, rdc.irdclibrary_computedefaultrecursiondepth
 ms.topic: method
-f1_keywords: 
- - "msrdc/IRdcLibrary.ComputeDefaultRecursionDepth"
+f1_keywords:
+- msrdc/IRdcLibrary.ComputeDefaultRecursionDepth
 dev_langs:
- - c++
+- c++
 req.header: msrdc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: MsRdc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - MsRdc.dll
+- MsRdc.dll
 api_name:
- - IRdcLibrary.ComputeDefaultRecursionDepth
+- IRdcLibrary.ComputeDefaultRecursionDepth
 targetos: Windows
 req.typenames: 
 req.redist: 

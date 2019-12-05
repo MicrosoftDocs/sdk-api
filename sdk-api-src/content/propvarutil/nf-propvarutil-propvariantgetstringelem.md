@@ -1,19 +1,17 @@
 ---
 UID: NF:propvarutil.PropVariantGetStringElem
 title: PropVariantGetStringElem function (propvarutil.h)
-
 description: Extracts a single Unicode string element from a PROPVARIANT structure of type VT_LPWSTR, VT_BSTR, VT_VECTOR | VT_LPWSTR, VT_VECTOR | VT_BSTR, or VT_ARRAY | VT_BSTR.
 old-location: properties\PropVariantGetStringElem.htm
 tech.root: properties
 ms.assetid: 6e803d93-5b55-4b73-8e23-a584f5f91969
-
 ms.date: 12/05/2018
 ms.keywords: PropVariantGetStringElem, PropVariantGetStringElem function [Windows Properties], _shell_PropVariantGetStringElem, properties.PropVariantGetStringElem, propvarutil/PropVariantGetStringElem, shell.PropVariantGetStringElem
 ms.topic: function
-f1_keywords: 
- - "propvarutil/PropVariantGetStringElem"
+f1_keywords:
+- propvarutil/PropVariantGetStringElem
 dev_langs:
- - c++
+- c++
 req.header: propvarutil.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Propsys.lib
 req.dll: Propsys.dll (version 6.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Propsys.dll
+- Propsys.dll
 api_name:
- - PropVariantGetStringElem
+- PropVariantGetStringElem
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0

@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IAMTuner.UnRegisterNotificationCallBack
 title: IAMTuner::UnRegisterNotificationCallBack (strmif.h)
-
 description: The UnRegisterNotificationCallBack method unregisters an object for event notifications.
 old-location: dshow\iamtuner_unregisternotificationcallback.htm
 tech.root: DirectShow
 ms.assetid: b46a925b-b4a7-4e2f-aa1b-c98d0f56b33a
-
 ms.date: 12/05/2018
 ms.keywords: IAMTuner interface [DirectShow],UnRegisterNotificationCallBack method, IAMTuner.UnRegisterNotificationCallBack, IAMTuner::UnRegisterNotificationCallBack, IAMTunerUnRegisterNotificationCallBack, UnRegisterNotificationCallBack, UnRegisterNotificationCallBack method [DirectShow], UnRegisterNotificationCallBack method [DirectShow],IAMTuner interface, dshow.iamtuner_unregisternotificationcallback, strmif/IAMTuner::UnRegisterNotificationCallBack
 ms.topic: method
-f1_keywords: 
- - "strmif/IAMTuner.UnRegisterNotificationCallBack"
+f1_keywords:
+- strmif/IAMTuner.UnRegisterNotificationCallBack
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IAMTuner.UnRegisterNotificationCallBack
+- IAMTuner.UnRegisterNotificationCallBack
 targetos: Windows
 req.typenames: 
 req.redist: 

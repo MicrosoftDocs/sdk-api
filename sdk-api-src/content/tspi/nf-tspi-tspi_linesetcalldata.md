@@ -1,19 +1,17 @@
 ---
 UID: NF:tspi.TSPI_lineSetCallData
 title: TSPI_lineSetCallData function (tspi.h)
-
 description: The TSPI_lineSetCallData function service provider stores the indicated call data with its information related to the call, and subsequently delivers it whenever TSPI_lineGetCallInfo is called.
 old-location: tspi\tspi_linesetcalldata.htm
 tech.root: Tapi
 ms.assetid: 0a4b1dba-df2b-4c9e-9a17-4c5f24d152a7
-
 ms.date: 12/05/2018
 ms.keywords: TSPI_lineSetCallData, TSPI_lineSetCallData function [TAPI 2.2], _tspi_tspi_linesetcalldata, tspi.tspi_linesetcalldata, tspi/TSPI_lineSetCallData
 ms.topic: function
-f1_keywords: 
- - "tspi/TSPI_lineSetCallData"
+f1_keywords:
+- tspi/TSPI_lineSetCallData
 dev_langs:
- - c++
+- c++
 req.header: tspi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Tspi.h
+- Tspi.h
 api_name:
- - TSPI_lineSetCallData
+- TSPI_lineSetCallData
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:pla.IApiTracingDataCollector.get_ExePath
 title: IApiTracingDataCollector::get_ExePath (pla.h)
-
 description: Retrieves or sets the path to the executable file whose API calls you want to trace.
 old-location: pla\iapitracingdatacollector_exepath.htm
 tech.root: PLA
 ms.assetid: aa2239f0-b70e-491f-8a88-b41d429e8bb2
-
 ms.date: 12/05/2018
 ms.keywords: ExePath property [PLA], ExePath property [PLA],IApiTracingDataCollector interface, IApiTracingDataCollector interface [PLA],ExePath property, IApiTracingDataCollector.ExePath, IApiTracingDataCollector.get_ExePath, IApiTracingDataCollector::ExePath, IApiTracingDataCollector::get_ExePath, IApiTracingDataCollector::put_ExePath, base.iapitracingdatacollector_exepath, get_ExePath, pla.iapitracingdatacollector_exepath, pla/IApiTracingDataCollector::ExePath, pla/IApiTracingDataCollector::get_ExePath, pla/IApiTracingDataCollector::put_ExePath
 ms.topic: method
-f1_keywords: 
- - "pla/IApiTracingDataCollector.ExePath"
+f1_keywords:
+- pla/IApiTracingDataCollector.ExePath
 dev_langs:
- - c++
+- c++
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: Pla.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Pla.dll
+- Pla.dll
 api_name:
- - IApiTracingDataCollector.ExePath
- - IApiTracingDataCollector.get_ExePath
- - IApiTracingDataCollector.put_ExePath
+- IApiTracingDataCollector.ExePath
+- IApiTracingDataCollector.get_ExePath
+- IApiTracingDataCollector.put_ExePath
 targetos: Windows
 req.typenames: 
 req.redist: 

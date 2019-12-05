@@ -1,19 +1,17 @@
 ---
 UID: NF:iscsidsc.GetIScsiTargetInformationW
 title: GetIScsiTargetInformationW function (iscsidsc.h)
-
 description: GetIscsiTargetInformation function retrieves information about the specified target.
 old-location: iscsidisc\getiscsitargetinformation.htm
 tech.root: iSCSIDisc
 ms.assetid: 3db31d0b-ed08-432b-9c28-a700c4a9d369
-
 ms.date: 12/05/2018
 ms.keywords: GetIScsiTargetInformationW, GetIscsiTargetInformation, GetIscsiTargetInformation function [iSCSI Discovery Library API], GetIscsiTargetInformationA, GetIscsiTargetInformationW, iscsidisc.getiscsitargetinformation, iscsidsc/GetIscsiTargetInformation, iscsidsc/GetIscsiTargetInformationA, iscsidsc/GetIscsiTargetInformationW
 ms.topic: function
-f1_keywords: 
- - "iscsidsc/GetIscsiTargetInformation"
+f1_keywords:
+- iscsidsc/GetIscsiTargetInformation
 dev_langs:
- - c++
+- c++
 req.header: iscsidsc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Iscsidsc.lib
 req.dll: Iscsidsc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Iscsidsc.dll
+- Iscsidsc.dll
 api_name:
- - GetIscsiTargetInformation
- - GetIscsiTargetInformationA
- - GetIscsiTargetInformationW
+- GetIscsiTargetInformation
+- GetIscsiTargetInformationA
+- GetIscsiTargetInformationW
 targetos: Windows
 req.typenames: 
 req.redist: 

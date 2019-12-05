@@ -1,19 +1,17 @@
 ---
 UID: NF:dwmapi.DwmGetCompositionTimingInfo
 title: DwmGetCompositionTimingInfo function (dwmapi.h)
-
 description: Retrieves the current composition timing information for a specified window.
 old-location: dwm\dwmgetcompositiontiminginfo.htm
 tech.root: dwm
 ms.assetid: VS|winui|~\winui\desktopwindowmanager\reference\functions\dwmgetcompositiontiminginfo.htm
-
 ms.date: 12/05/2018
 ms.keywords: DwmGetCompositionTimingInfo, DwmGetCompositionTimingInfo function [Desktop Window Manager], _udwm_dwmgetcompositiontiminginfo, _udwm_dwmgetcompositiontiminginfo_cpp, dwm.dwmgetcompositiontiminginfo, dwmapi/DwmGetCompositionTimingInfo, winui._udwm_dwmgetcompositiontiminginfo
 ms.topic: function
 f1_keywords:
 - dwmapi/DwmGetCompositionTimingInfo
 dev_langs:
- - c++
+- c++
 req.header: dwmapi.h
 req.include-header: 
 req.target-type: Windows

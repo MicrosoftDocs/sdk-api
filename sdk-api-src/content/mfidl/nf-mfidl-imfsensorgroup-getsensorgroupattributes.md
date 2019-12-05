@@ -1,19 +1,17 @@
 ---
 UID: NF:mfidl.IMFSensorGroup.GetSensorGroupAttributes
 title: IMFSensorGroup::GetSensorGroupAttributes (mfidl.h)
-
 description: Gets the IMFAttributes for the sensor group. The returned object is a live reference to the internal attribute store.
 old-location: mf\imfsensorgroup_getsensorgroupattributes.htm
 tech.root: medfound
 ms.assetid: 4EFC4615-AD97-4F58-9BEE-63F965DF8DDE
-
 ms.date: 12/05/2018
 ms.keywords: GetSensorGroupAttributes, GetSensorGroupAttributes method [Media Foundation], GetSensorGroupAttributes method [Media Foundation],IMFSensorGroup interface, IMFSensorGroup interface [Media Foundation],GetSensorGroupAttributes method, IMFSensorGroup.GetSensorGroupAttributes, IMFSensorGroup::GetSensorGroupAttributes, mf.imfsensorgroup_getsensorgroupattributes, mfidl/IMFSensorGroup::GetSensorGroupAttributes
 ms.topic: method
-f1_keywords: 
- - "mfidl/IMFSensorGroup.GetSensorGroupAttributes"
+f1_keywords:
+- mfidl/IMFSensorGroup.GetSensorGroupAttributes
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Mfplat.lib; Mfplat.dll
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfplat.lib
- - mfplat.dll
- - mfplat.dll
- - mfplat.dll.dll
+- mfplat.lib
+- mfplat.dll
+- mfplat.dll
+- mfplat.dll.dll
 api_name:
- - IMFSensorGroup.GetSensorGroupAttributes
+- IMFSensorGroup.GetSensorGroupAttributes
 targetos: Windows
 req.typenames: 
 req.redist: 

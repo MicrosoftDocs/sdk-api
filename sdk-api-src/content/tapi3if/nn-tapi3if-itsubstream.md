@@ -1,19 +1,17 @@
 ---
 UID: NN:tapi3if.ITSubStream
 title: ITSubStream (tapi3if.h)
-
 description: An ITSubStream is a component of an ITStream, and gives an application finer control over the media streaming.
 old-location: tapi3\itsubstream.htm
 tech.root: Tapi
 ms.assetid: fc495bc3-1172-4e39-b617-055b7ac95898
-
 ms.date: 12/05/2018
 ms.keywords: ITSubStream, ITSubStream interface [TAPI 2.2], ITSubStream interface [TAPI 2.2],described, _tapi3_itsubstream, tapi3.itsubstream, tapi3if/ITSubStream
 ms.topic: interface
-f1_keywords: 
- - "tapi3if/ITSubStream"
+f1_keywords:
+- tapi3if/ITSubStream
 dev_langs:
- - c++
+- c++
 req.header: tapi3if.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Tapi3if.h
+- Tapi3if.h
 api_name:
- - ITSubStream
+- ITSubStream
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:dwrite.IDWriteFontFace.GetRecommendedRenderingMode
 title: IDWriteFontFace::GetRecommendedRenderingMode (dwrite.h)
-
 description: Determines the recommended rendering mode for the font, using the specified size and rendering parameters.
 old-location: directwrite\IDWriteFontFace_GetRecommendedRenderingMode.htm
 tech.root: DirectWrite
 ms.assetid: 54504bcb-b05c-4b63-8704-8d718cf2ee16
-
 ms.date: 12/05/2018
 ms.keywords: GetRecommendedRenderingMode, GetRecommendedRenderingMode method [Direct Write], GetRecommendedRenderingMode method [Direct Write],IDWriteFontFace interface, IDWriteFontFace interface [Direct Write],GetRecommendedRenderingMode method, IDWriteFontFace.GetRecommendedRenderingMode, IDWriteFontFace::GetRecommendedRenderingMode, directwrite.IDWriteFontFace_GetRecommendedRenderingMode, dwrite/IDWriteFontFace::GetRecommendedRenderingMode
 ms.topic: method
-f1_keywords: 
- - "dwrite/IDWriteFontFace.GetRecommendedRenderingMode"
+f1_keywords:
+- dwrite/IDWriteFontFace.GetRecommendedRenderingMode
 dev_langs:
- - c++
+- c++
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dwrite.lib
 req.dll: Dwrite.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dwrite.dll
+- dwrite.dll
 api_name:
- - IDWriteFontFace.GetRecommendedRenderingMode
+- IDWriteFontFace.GetRecommendedRenderingMode
 targetos: Windows
 req.typenames: 
 req.redist: 

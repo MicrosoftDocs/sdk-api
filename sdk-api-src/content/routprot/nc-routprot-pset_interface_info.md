@@ -1,19 +1,17 @@
 ---
 UID: NC:routprot.PSET_INTERFACE_INFO
 title: PSET_INTERFACE_INFO (routprot.h)
-
 description: The SetInterfaceInfo function sets the configuration of a specific interface managed by the routing protocol.
 old-location: rras\setinterfaceinfo.htm
 tech.root: RRAS
 ms.assetid: abcfa220-a860-48cc-92c5-60ce655678b7
-
 ms.date: 12/05/2018
 ms.keywords: PSET_INTERFACE_INFO, PSET_INTERFACE_INFO callback, SetInterfaceInfo, SetInterfaceInfo callback function [RAS], _mpr_setinterfaceinfo, routprot/SetInterfaceInfo, rras.setinterfaceinfo
 ms.topic: callback
-f1_keywords: 
- - "routprot/SetInterfaceInfo"
+f1_keywords:
+- routprot/SetInterfaceInfo
 dev_langs:
- - c++
+- c++
 req.header: routprot.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Routprot.h
+- Routprot.h
 api_name:
- - SetInterfaceInfo
+- SetInterfaceInfo
 targetos: Windows
 req.typenames: 
 req.redist: 

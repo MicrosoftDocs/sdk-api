@@ -1,19 +1,17 @@
 ---
 UID: NF:bits3_0.IBitsPeer.IsAvailable
 title: IBitsPeer::IsAvailable (bits3_0.h)
-
 description: Determines whether the peer is available (online) to serve content.
 old-location: bits\ibitspeer_isavailable.htm
 tech.root: Bits
 ms.assetid: e38166da-2139-4108-bb8a-74bb7a7997c1
-
 ms.date: 12/05/2018
 ms.keywords: IBitsPeer interface [BITS],IsAvailable method, IBitsPeer.IsAvailable, IBitsPeer::IsAvailable, IsAvailable, IsAvailable method [BITS], IsAvailable method [BITS],IBitsPeer interface, bits.ibitspeer_isavailable, bits3_0/IBitsPeer::IsAvailable
 ms.topic: method
-f1_keywords: 
- - "bits3_0/IBitsPeer.IsAvailable"
+f1_keywords:
+- bits3_0/IBitsPeer.IsAvailable
 dev_langs:
- - c++
+- c++
 req.header: bits3_0.h
 req.include-header: Bits.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Bits.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Bits.lib
- - Bits.dll
+- Bits.lib
+- Bits.dll
 api_name:
- - IBitsPeer.IsAvailable
+- IBitsPeer.IsAvailable
 targetos: Windows
 req.typenames: 
 req.redist: 

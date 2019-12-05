@@ -1,19 +1,17 @@
 ---
 UID: NF:searchapi.ISearchCrawlScopeManager.GetParentScopeVersionId
 title: ISearchCrawlScopeManager::GetParentScopeVersionId (searchapi.h)
-
 description: Gets the version ID of the parent inclusion URL.
 old-location: search\_search_ISearchCrawlScopeManager_GetParentScopeVersionId.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\crawlscope\isearchcrawlscopemanager\getparentscopeversionid.htm
-
 ms.date: 12/05/2018
 ms.keywords: GetParentScopeVersionId, GetParentScopeVersionId method [search], GetParentScopeVersionId method [search],ISearchCrawlScopeManager interface, ISearchCrawlScopeManager interface [search],GetParentScopeVersionId method, ISearchCrawlScopeManager.GetParentScopeVersionId, ISearchCrawlScopeManager::GetParentScopeVersionId, _search_ISearchCrawlScopeManager_GetParentScopeVersionId, search._search_ISearchCrawlScopeManager_GetParentScopeVersionId, searchapi/ISearchCrawlScopeManager::GetParentScopeVersionId
 ms.topic: method
-f1_keywords: 
- - "searchapi/ISearchCrawlScopeManager.GetParentScopeVersionId"
+f1_keywords:
+- searchapi/ISearchCrawlScopeManager.GetParentScopeVersionId
 dev_langs:
- - c++
+- c++
 req.header: searchapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Searchapi.h
+- Searchapi.h
 api_name:
- - ISearchCrawlScopeManager.GetParentScopeVersionId
+- ISearchCrawlScopeManager.GetParentScopeVersionId
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0

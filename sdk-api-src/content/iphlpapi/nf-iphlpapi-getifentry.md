@@ -1,19 +1,17 @@
 ---
 UID: NF:iphlpapi.GetIfEntry
 title: GetIfEntry function (iphlpapi.h)
-
 description: The GetIfEntry function retrieves information for the specified interface on the local computer.
 old-location: iphlp\getifentry.htm
 tech.root: IpHlp
 ms.assetid: bf16588d-3756-469e-afa2-e2e3dd537047
-
 ms.date: 12/05/2018
 ms.keywords: GetIfEntry, GetIfEntry function [IP Helper], _iphlp_getifentry, iphlp.getifentry, iphlpapi/GetIfEntry
 ms.topic: function
 f1_keywords:
 - iphlpapi/GetIfEntry
 dev_langs:
- - c++
+- c++
 req.header: iphlpapi.h
 req.include-header: 
 req.target-type: Windows

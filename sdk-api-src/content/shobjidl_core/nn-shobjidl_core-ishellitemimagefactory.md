@@ -1,19 +1,17 @@
 ---
 UID: NN:shobjidl_core.IShellItemImageFactory
 title: IShellItemImageFactory (shobjidl_core.h)
-
 description: Exposes a method to return either icons or thumbnails for Shell items. If no thumbnail or icon is available for the requested item, a per-class icon may be provided from the Shell.
 old-location: shell\IShellItemImageFactory.htm
 tech.root: shell
 ms.assetid: a6eea412-553a-4bdd-afc2-cc002c4500a4
-
 ms.date: 12/05/2018
 ms.keywords: IShellItemImageFactory, IShellItemImageFactory interface [Windows Shell], IShellItemImageFactory interface [Windows Shell],described, _shell_IShellItemImageFactory, shell.IShellItemImageFactory, shobjidl_core/IShellItemImageFactory
 ms.topic: interface
-f1_keywords: 
- - "shobjidl_core/IShellItemImageFactory"
+f1_keywords:
+- shobjidl_core/IShellItemImageFactory
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - IShellItemImageFactory
+- IShellItemImageFactory
 targetos: Windows
 req.typenames: 
 req.redist: 

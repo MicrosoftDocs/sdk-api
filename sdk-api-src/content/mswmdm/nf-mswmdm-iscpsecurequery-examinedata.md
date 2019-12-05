@@ -1,19 +1,17 @@
 ---
 UID: NF:mswmdm.ISCPSecureQuery.ExamineData
 title: ISCPSecureQuery::ExamineData (mswmdm.h)
-
 description: The ExamineData method determines rights and responsibility for the content by examining data that Windows Media Device Manager passes to this method.
 old-location: wmdm\iscpsecurequery_examinedata.htm
 tech.root: WMDM
 ms.assetid: e12d8b55-5600-4178-8b2b-8afe8ade6818
-
 ms.date: 12/05/2018
 ms.keywords: ExamineData, ExamineData method [windows Media Device Manager], ExamineData method [windows Media Device Manager],ISCPSecureQuery interface, ISCPSecureQuery interface [windows Media Device Manager],ExamineData method, ISCPSecureQuery.ExamineData, ISCPSecureQuery::ExamineData, ISCPSecureQueryExamineData, mswmdm/ISCPSecureQuery::ExamineData, wmdm.iscpsecurequery_examinedata
 ms.topic: method
-f1_keywords: 
- - "mswmdm/ISCPSecureQuery.ExamineData"
+f1_keywords:
+- mswmdm/ISCPSecureQuery.ExamineData
 dev_langs:
- - c++
+- c++
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mssachlp.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mssachlp.lib
- - mssachlp.dll
+- mssachlp.lib
+- mssachlp.dll
 api_name:
- - ISCPSecureQuery.ExamineData
+- ISCPSecureQuery.ExamineData
 targetos: Windows
 req.typenames: 
 req.redist: 

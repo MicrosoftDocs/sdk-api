@@ -1,19 +1,17 @@
 ---
 UID: NN:wsdclient.IWSDServiceProxy
 title: IWSDServiceProxy (wsdclient.h)
-
 description: Represents a remote WSD service for client applications and middleware.
 old-location: ncd\iwsdserviceproxy.htm
 tech.root: WsdApi
 ms.assetid: 8753bcc8-f0c3-4dd0-8ebe-f6c15a271c70
-
 ms.date: 12/05/2018
 ms.keywords: IWSDServiceProxy, IWSDServiceProxy interface, IWSDServiceProxy interface,described, ncd.iwsdserviceproxy, wsdclient/IWSDServiceProxy
 ms.topic: interface
-f1_keywords: 
- - "wsdclient/IWSDServiceProxy"
+f1_keywords:
+- wsdclient/IWSDServiceProxy
 dev_langs:
- - c++
+- c++
 req.header: wsdclient.h
 req.include-header: Wsdapi.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wsdapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wsdapi.dll
+- Wsdapi.dll
 api_name:
- - IWSDServiceProxy
+- IWSDServiceProxy
 targetos: Windows
 req.typenames: 
 req.redist: 

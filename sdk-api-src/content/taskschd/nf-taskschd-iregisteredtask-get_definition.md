@@ -1,19 +1,17 @@
 ---
 UID: NF:taskschd.IRegisteredTask.get_Definition
 title: IRegisteredTask::get_Definition (taskschd.h)
-
 description: Gets the definition of the task.
 old-location: taskschd\iregisteredtask_definition.htm
 tech.root: taskschd
 ms.assetid: 673d5e11-d2a3-4dcb-ad2e-46940574ba92
-
 ms.date: 12/05/2018
 ms.keywords: Definition property [Task Scheduler], Definition property [Task Scheduler],IRegisteredTask interface, IRegisteredTask interface [Task Scheduler],Definition property, IRegisteredTask.Definition, IRegisteredTask.get_Definition, IRegisteredTask::Definition, IRegisteredTask::get_Definition, get_Definition, taskschd.iregisteredtask_definition, taskschd/IRegisteredTask::Definition, taskschd/IRegisteredTask::get_Definition
 ms.topic: method
-f1_keywords: 
- - "taskschd/IRegisteredTask.Definition"
+f1_keywords:
+- taskschd/IRegisteredTask.Definition
 dev_langs:
- - c++
+- c++
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Taskschd.lib
 req.dll: Taskschd.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - taskschd.dll
+- taskschd.dll
 api_name:
- - IRegisteredTask.Definition
- - IRegisteredTask.get_Definition
+- IRegisteredTask.Definition
+- IRegisteredTask.get_Definition
 targetos: Windows
 req.typenames: 
 req.redist: 

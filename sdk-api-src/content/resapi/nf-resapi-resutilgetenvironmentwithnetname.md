@@ -1,19 +1,17 @@
 ---
 UID: NF:resapi.ResUtilGetEnvironmentWithNetName
 title: ResUtilGetEnvironmentWithNetName function (resapi.h)
-
 description: Adjusts environment data for a resource so that the resource uses a cluster network name to identify its location.
 old-location: mscs\resutilgetenvironmentwithnetname.htm
 tech.root: MsCS
 ms.assetid: 683235ac-153d-4442-915e-e1bf9b5e8810
-
 ms.date: 12/05/2018
 ms.keywords: PRESUTIL_GET_ENVIRONMENT_WITH_NET_NAME, PRESUTIL_GET_ENVIRONMENT_WITH_NET_NAME function [Failover Cluster], ResUtilGetEnvironmentWithNetName, ResUtilGetEnvironmentWithNetName function [Failover Cluster], _wolf_resutilgetenvironmentwithnetname, mscs.resutilgetenvironmentwithnetname, resapi/PRESUTIL_GET_ENVIRONMENT_WITH_NET_NAME, resapi/ResUtilGetEnvironmentWithNetName
 ms.topic: function
-f1_keywords: 
- - "resapi/ResUtilGetEnvironmentWithNetName"
+f1_keywords:
+- resapi/ResUtilGetEnvironmentWithNetName
 dev_langs:
- - c++
+- c++
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: ResUtils.lib
 req.dll: ResUtils.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - ResUtils.dll
+- ResUtils.dll
 api_name:
- - ResUtilGetEnvironmentWithNetName
+- ResUtilGetEnvironmentWithNetName
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NN:rdpencomapi.IRDPSRAPIPerfCounterLoggingManager
 title: IRDPSRAPIPerfCounterLoggingManager (rdpencomapi.h)
-
 description: Manages IRDPSRAPIPerfCounterLogger objects.
 old-location: rdp\irdpsrapiperfcounterloggingmanager.htm
 tech.root: rdp
 ms.assetid: 611ABFB6-851F-4A2C-86A0-E26732CD20BE
-
 ms.date: 12/05/2018
 ms.keywords: IRDPSRAPIPerfCounterLoggingManager, IRDPSRAPIPerfCounterLoggingManager class [RDP], IRDPSRAPIPerfCounterLoggingManager class [RDP],described, rdp.irdpsrapiperfcounterloggingmanager, rdp.irdpsrapiperfcounterloggingmanager_, rdpencomapi/IRDPSRAPIPerfCounterLoggingManager
 ms.topic: interface
-f1_keywords: 
- - "rdpencomapi/IRDPSRAPIPerfCounterLoggingManager"
+f1_keywords:
+- rdpencomapi/IRDPSRAPIPerfCounterLoggingManager
 dev_langs:
- - c++
+- c++
 req.header: rdpencomapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: RdpEncom.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - RdpEncom.dll
+- RdpEncom.dll
 api_name:
- - IRDPSRAPIPerfCounterLoggingManager
+- IRDPSRAPIPerfCounterLoggingManager
 targetos: Windows
 req.typenames: 
 req.redist: 

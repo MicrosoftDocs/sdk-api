@@ -1,19 +1,17 @@
 ---
 UID: NF:spatialaudiometadata.ISpatialAudioMetadataItems.GetItemCount
 title: ISpatialAudioMetadataItems::GetItemCount (spatialaudiometadata.h)
-
 description: The current number of items stored by the ISpatialAudioMetadataItems.
 old-location: coreaudio\ispatialaudiometadataitems_getitemcount.htm
 tech.root: CoreAudio
 ms.assetid: 168FDDA7-FB87-47B3-A7BC-88398663A7DD
-
 ms.date: 12/05/2018
 ms.keywords: GetItemCount, GetItemCount method [Core Audio], GetItemCount method [Core Audio],ISpatialAudioMetadataItems interface, ISpatialAudioMetadataItems interface [Core Audio],GetItemCount method, ISpatialAudioMetadataItems.GetItemCount, ISpatialAudioMetadataItems::GetItemCount, coreaudio.ispatialaudiometadataitems_getitemcount, spatialaudiometadata/ISpatialAudioMetadataItems::GetItemCount
 ms.topic: method
-f1_keywords: 
- - "spatialaudiometadata/ISpatialAudioMetadataItems.GetItemCount"
+f1_keywords:
+- spatialaudiometadata/ISpatialAudioMetadataItems.GetItemCount
 dev_langs:
- - c++
+- c++
 req.header: spatialaudiometadata.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - SpatialAudioMetadata.h
+- SpatialAudioMetadata.h
 api_name:
- - ISpatialAudioMetadataItems.GetItemCount
+- ISpatialAudioMetadataItems.GetItemCount
 targetos: Windows
 req.typenames: 
 req.redist: 

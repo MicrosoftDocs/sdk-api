@@ -1,19 +1,17 @@
 ---
 UID: NF:rpcndr.RpcSsSetClientAllocFree
 title: RpcSsSetClientAllocFree function (rpcndr.h)
-
 description: The RpcSsSetClientAllocFree function enables the memory allocation and release mechanisms used by the client stubs.
 old-location: rpc\rpcsssetclientallocfree.htm
 tech.root: Rpc
 ms.assetid: a63dab9e-0644-4a24-9762-8cc8a4f6ea05
-
 ms.date: 12/05/2018
 ms.keywords: RpcSsSetClientAllocFree, RpcSsSetClientAllocFree function [RPC], _rpc_rpcsssetclientallocfree, rpc.rpcsssetclientallocfree, rpcndr/RpcSsSetClientAllocFree
 ms.topic: function
-f1_keywords: 
- - "rpcndr/RpcSsSetClientAllocFree"
+f1_keywords:
+- rpcndr/RpcSsSetClientAllocFree
 dev_langs:
- - c++
+- c++
 req.header: rpcndr.h
 req.include-header: Rpc.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Rpcrt4.lib
 req.dll: Rpcrt4.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Rpcrt4.dll
+- Rpcrt4.dll
 api_name:
- - RpcSsSetClientAllocFree
+- RpcSsSetClientAllocFree
 targetos: Windows
 req.typenames: 
 req.redist: 

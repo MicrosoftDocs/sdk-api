@@ -1,19 +1,17 @@
 ---
 UID: NF:fileapi.SetFileAttributesA
 title: SetFileAttributesA function (fileapi.h)
-
 description: Sets the attributes for a file or directory.
 old-location: fs\setfileattributes.htm
 tech.root: FileIO
 ms.assetid: 3d5400c3-555f-44fc-9470-52a36d04d90b
-
 ms.date: 12/05/2018
 ms.keywords: FILE_ATTRIBUTE_ARCHIVE, FILE_ATTRIBUTE_COMPRESSED, FILE_ATTRIBUTE_DEVICE, FILE_ATTRIBUTE_DIRECTORY, FILE_ATTRIBUTE_ENCRYPTED, FILE_ATTRIBUTE_HIDDEN, FILE_ATTRIBUTE_NORMAL, FILE_ATTRIBUTE_NOT_CONTENT_INDEXED, FILE_ATTRIBUTE_OFFLINE, FILE_ATTRIBUTE_READONLY, FILE_ATTRIBUTE_REPARSE_POINT, FILE_ATTRIBUTE_SPARSE_FILE, FILE_ATTRIBUTE_SYSTEM, FILE_ATTRIBUTE_TEMPORARY, SetFileAttributes, SetFileAttributes function [Files], SetFileAttributesA, SetFileAttributesW, _win32_setfileattributes, base.setfileattributes, fileapi/SetFileAttributes, fileapi/SetFileAttributesA, fileapi/SetFileAttributesW, fs.setfileattributes, winbase/SetFileAttributes, winbase/SetFileAttributesA, winbase/SetFileAttributesW
 ms.topic: function
-f1_keywords: 
- - "fileapi/SetFileAttributes"
+f1_keywords:
+- fileapi/SetFileAttributes
 dev_langs:
- - c++
+- c++
 req.header: fileapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,23 +30,23 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-File-l1-1-0.dll
- - KernelBase.dll
- - API-MS-Win-Core-File-l1-2-0.dll
- - API-MS-Win-Core-File-l1-2-1.dll
- - API-MS-Win-Core-File-l1-2-2.dll
- - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
- - MinKernelBase.dll
+- Kernel32.dll
+- API-MS-Win-Core-File-l1-1-0.dll
+- KernelBase.dll
+- API-MS-Win-Core-File-l1-2-0.dll
+- API-MS-Win-Core-File-l1-2-1.dll
+- API-MS-Win-Core-File-l1-2-2.dll
+- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+- MinKernelBase.dll
 api_name:
- - SetFileAttributes
- - SetFileAttributesA
- - SetFileAttributesW
+- SetFileAttributes
+- SetFileAttributesA
+- SetFileAttributesW
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NE:d3d10.D3D10_RESOURCE_MISC_FLAG
 title: D3D10_RESOURCE_MISC_FLAG (d3d10.h)
-
 description: Identifies other, less common options for resources.
 old-location: direct3d10\d3d10_resource_misc_flag.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\d3d10_resource_misc_flag.htm
-
 ms.date: 12/05/2018
 ms.keywords: 933479cf-687a-018f-fa4e-e44396ff5c4b, D3D10_RESOURCE_MISC_FLAG, D3D10_RESOURCE_MISC_FLAG enumeration [Direct3D 10], D3D10_RESOURCE_MISC_GDI_COMPATIBLE, D3D10_RESOURCE_MISC_GENERATE_MIPS, D3D10_RESOURCE_MISC_SHARED, D3D10_RESOURCE_MISC_SHARED_KEYEDMUTEX, D3D10_RESOURCE_MISC_TEXTURECUBE, d3d10/D3D10_RESOURCE_MISC_FLAG, d3d10/D3D10_RESOURCE_MISC_GDI_COMPATIBLE, d3d10/D3D10_RESOURCE_MISC_GENERATE_MIPS, d3d10/D3D10_RESOURCE_MISC_SHARED, d3d10/D3D10_RESOURCE_MISC_SHARED_KEYEDMUTEX, d3d10/D3D10_RESOURCE_MISC_TEXTURECUBE, direct3d10.d3d10_resource_misc_flag
 ms.topic: enum
-f1_keywords: 
- - "d3d10/D3D10_RESOURCE_MISC_FLAG"
+f1_keywords:
+- d3d10/D3D10_RESOURCE_MISC_FLAG
 dev_langs:
- - c++
+- c++
 req.header: d3d10.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - D3D10.h
+- D3D10.h
 api_name:
- - D3D10_RESOURCE_MISC_FLAG
+- D3D10_RESOURCE_MISC_FLAG
 targetos: Windows
 req.typenames: D3D10_RESOURCE_MISC_FLAG
 req.redist: 

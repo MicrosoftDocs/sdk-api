@@ -1,19 +1,17 @@
 ---
 UID: NF:winuser.CreateMDIWindowA
 title: CreateMDIWindowA function (winuser.h)
-
 description: Creates a multiple-document interface (MDI) child window.
 old-location: winmsg\createmdiwindow.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\multipledocumentinterface\multipledocumentinterfacereference\multipledocumentinterfacefunctions\createmdiwindow.htm
-
 ms.date: 12/05/2018
 ms.keywords: CreateMDIWindow, CreateMDIWindow function [Windows and Messages], CreateMDIWindowA, CreateMDIWindowW, WS_HSCROLL, WS_MAXIMIZE, WS_MINIMIZE, WS_VSCROLL, _win32_CreateMDIWindow, _win32_createmdiwindow_cpp, winmsg.createmdiwindow, winui._win32_createmdiwindow, winuser/CreateMDIWindow, winuser/CreateMDIWindowA, winuser/CreateMDIWindowW
 ms.topic: function
-f1_keywords: 
- - "winuser/CreateMDIWindow"
+f1_keywords:
+- winuser/CreateMDIWindow
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - User32.dll
+- User32.dll
 api_name:
- - CreateMDIWindow
- - CreateMDIWindowA
- - CreateMDIWindowW
+- CreateMDIWindow
+- CreateMDIWindowA
+- CreateMDIWindowW
 targetos: Windows
 req.typenames: 
 req.redist: 

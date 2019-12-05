@@ -1,19 +1,17 @@
 ---
 UID: NF:casetup.ICertificateEnrollmentServerSetup.UnInstall
 title: ICertificateEnrollmentServerSetup::UnInstall (casetup.h)
-
 description: Removes the Certificate Enrollment Web Service (CES).
 old-location: security\icertificateenrollmentserversetup_uninstall.htm
 tech.root: SecCrypto
 ms.assetid: 5C979627-7544-4466-9F92-224D48904DD3
-
 ms.date: 12/05/2018
 ms.keywords: ICertificateEnrollmentServerSetup interface [Security],UnInstall method, ICertificateEnrollmentServerSetup.UnInstall, ICertificateEnrollmentServerSetup::UnInstall, UnInstall, UnInstall method [Security], UnInstall method [Security],ICertificateEnrollmentServerSetup interface, casetup/ICertificateEnrollmentServerSetup::UnInstall, security.icertificateenrollmentserversetup_uninstall
 ms.topic: method
-f1_keywords: 
- - "casetup/ICertificateEnrollmentServerSetup.UnInstall"
+f1_keywords:
+- casetup/ICertificateEnrollmentServerSetup.UnInstall
 dev_langs:
- - c++
+- c++
 req.header: casetup.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Certocm.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Certocm.dll
+- Certocm.dll
 api_name:
- - ICertificateEnrollmentServerSetup.UnInstall
+- ICertificateEnrollmentServerSetup.UnInstall
 targetos: Windows
 req.typenames: 
 req.redist: 

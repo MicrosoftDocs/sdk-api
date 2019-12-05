@@ -1,19 +1,17 @@
 ---
 UID: NF:webservices.WsFreeChannel
 title: WsFreeChannel function (webservices.h)
-
 description: Releases the memory resource associated with a Channel object.
 old-location: wsw\wsfreechannel.htm
 tech.root: wsw
 ms.assetid: 74e36d19-c6db-4bba-90e3-88a48b6a1fb5
-
 ms.date: 12/05/2018
 ms.keywords: WsFreeChannel, WsFreeChannel function [Web Services for Windows], webservices/WsFreeChannel, wsw.wsfreechannel
 ms.topic: function
-f1_keywords: 
- - "webservices/WsFreeChannel"
+f1_keywords:
+- webservices/WsFreeChannel
 dev_langs:
- - c++
+- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: WebServices.lib
 req.dll: WebServices.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - WebServices.dll
+- WebServices.dll
 api_name:
- - WsFreeChannel
+- WsFreeChannel
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:shlobj_core.SHCreateStdEnumFmtEtc
 title: SHCreateStdEnumFmtEtc function (shlobj_core.h)
-
 description: SHCreateStdEnumFmtEtc may be altered or unavailable.
 old-location: shell\SHCreateStdEnumFmtEtc.htm
 tech.root: shell
 ms.assetid: c391c8c8-6062-4e70-9a1f-de0eb610250d
-
 ms.date: 12/05/2018
 ms.keywords: SHCreateStdEnumFmtEtc, SHCreateStdEnumFmtEtc function [Windows Shell], _win32_SHCreateStdEnumFmtEtc, shell.SHCreateStdEnumFmtEtc, shlobj_core/SHCreateStdEnumFmtEtc
 ms.topic: function
-f1_keywords: 
- - "shlobj_core/SHCreateStdEnumFmtEtc"
+f1_keywords:
+- shlobj_core/SHCreateStdEnumFmtEtc
 dev_langs:
- - c++
+- c++
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Shell32.lib
 req.dll: Shell32.dll (version 5.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Shell32.dll
- - ext-ms-win-shell-shell32-l1-2-1.dll
- - Ext-MS-Win-Shell-Shell32-L1-2-2.dll
- - windows.storage.dll
+- Shell32.dll
+- ext-ms-win-shell-shell32-l1-2-1.dll
+- Ext-MS-Win-Shell-Shell32-L1-2-2.dll
+- windows.storage.dll
 api_name:
- - SHCreateStdEnumFmtEtc
+- SHCreateStdEnumFmtEtc
 targetos: Windows
 req.typenames: 
 req.redist: 

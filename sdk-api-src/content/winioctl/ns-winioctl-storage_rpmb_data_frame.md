@@ -5,9 +5,9 @@ ms.date: 4/26/2019
 ms.keywords: _STORAGE_RPMB_DATA_FRAME, STORAGE_RPMB_DATA_FRAME
 ms.topic: language-reference
 f1_keywords:
- - _STORAGE_RPMB_DATA_FRAME
+- _STORAGE_RPMB_DATA_FRAME
 dev_langs:
- - c++
+- c++
 targetos: Windows
 req.construct-type: structure
 req.ddi-compliance: 
@@ -25,14 +25,14 @@ req.typenames: STORAGE_RPMB_DATA_FRAME, *PSTORAGE_RPMB_DATA_FRAME
 req.umdf-ver: 
 req.unicode-ansi: 
 topic_type:
- - apiref
+- apiref
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - winioctl.h
+- winioctl.h
 api_name:
- - _STORAGE_RPMB_DATA_FRAME
- - STORAGE_RPMB_DATA_FRAME
+- _STORAGE_RPMB_DATA_FRAME
+- STORAGE_RPMB_DATA_FRAME
 ---
 
 ## -description

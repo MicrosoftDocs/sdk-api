@@ -1,19 +1,17 @@
 ---
 UID: NE:fwpmtypes.FWPM_ENGINE_OPTION_
 title: FWPM_ENGINE_OPTION (fwpmtypes.h)
-
 description: Configurable options for the filter engine.
 old-location: fwp\fwpm_engine_option.htm
 tech.root: fwp
 ms.assetid: e70986af-0c38-4fe6-a59f-3c45ce98bcc0
-
 ms.date: 12/05/2018
 ms.keywords: FWPM_ENGINE_COLLECT_NET_EVENTS, FWPM_ENGINE_MONITOR_IPSEC_CONNECTIONS, FWPM_ENGINE_NAME_CACHE, FWPM_ENGINE_NET_EVENT_MATCH_ANY_KEYWORDS, FWPM_ENGINE_OPTION, FWPM_ENGINE_OPTION enumeration [Filtering], FWPM_ENGINE_OPTION_MAX, FWPM_ENGINE_PACKET_QUEUING, FWPM_ENGINE_TXN_WATCHDOG_TIMEOUT_IN_MSEC, fwp.fwpm_engine_option, fwpmtypes/FWPM_ENGINE_COLLECT_NET_EVENTS, fwpmtypes/FWPM_ENGINE_MONITOR_IPSEC_CONNECTIONS, fwpmtypes/FWPM_ENGINE_NAME_CACHE, fwpmtypes/FWPM_ENGINE_NET_EVENT_MATCH_ANY_KEYWORDS, fwpmtypes/FWPM_ENGINE_OPTION, fwpmtypes/FWPM_ENGINE_OPTION_MAX, fwpmtypes/FWPM_ENGINE_PACKET_QUEUING, fwpmtypes/FWPM_ENGINE_TXN_WATCHDOG_TIMEOUT_IN_MSEC
 ms.topic: enum
-f1_keywords: 
- - "fwpmtypes/FWPM_ENGINE_OPTION"
+f1_keywords:
+- fwpmtypes/FWPM_ENGINE_OPTION
 dev_langs:
- - c++
+- c++
 req.header: fwpmtypes.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Fwpmtypes.h
+- Fwpmtypes.h
 api_name:
- - FWPM_ENGINE_OPTION
+- FWPM_ENGINE_OPTION
 targetos: Windows
 req.typenames: FWPM_ENGINE_OPTION
 req.redist: 

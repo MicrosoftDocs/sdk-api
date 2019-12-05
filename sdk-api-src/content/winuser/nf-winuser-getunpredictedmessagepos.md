@@ -1,19 +1,17 @@
 ---
 UID: NF:winuser.GetUnpredictedMessagePos
 title: GetUnpredictedMessagePos function (winuser.h)
-
 description: Gets pointer data before it has gone through touch prediction processing.
 old-location: inputmsg\getunpredictedmessagepos.htm
 tech.root: InputMsg
 ms.assetid: 5BE2748B-0124-4647-A77E-EA2937C7B1AD
-
 ms.date: 12/05/2018
 ms.keywords: GetUnpredictedMessagePos, GetUnpredictedMessagePos function [Input Messages and Notifications], inputmsg.getunpredictedmessagepos, winuser/GetUnpredictedMessagePos
 ms.topic: function
-f1_keywords: 
- - "winuser/GetUnpredictedMessagePos"
+f1_keywords:
+- winuser/GetUnpredictedMessagePos
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - User32.dll
+- User32.dll
 api_name:
- - GetUnpredictedMessagePos
+- GetUnpredictedMessagePos
 targetos: Windows
 req.typenames: 
 req.redist: 

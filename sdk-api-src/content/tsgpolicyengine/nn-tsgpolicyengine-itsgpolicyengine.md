@@ -1,19 +1,17 @@
 ---
 UID: NN:tsgpolicyengine.ITSGPolicyEngine
 title: ITSGPolicyEngine (tsgpolicyengine.h)
-
 description: Exposes methods that authorize connections and resources.
 old-location: termserv\itsgpolicyengine.htm
 tech.root: TermServ
 ms.assetid: 1972032f-48ac-4a15-98ce-9349fa158a07
-
 ms.date: 12/05/2018
 ms.keywords: ITSGPolicyEngine, ITSGPolicyEngine interface [Remote Desktop Services], ITSGPolicyEngine interface [Remote Desktop Services],described, termserv.itsgpolicyengine, tsgpolicyengine/ITSGPolicyEngine
 ms.topic: interface
-f1_keywords: 
- - "tsgpolicyengine/ITSGPolicyEngine"
+f1_keywords:
+- tsgpolicyengine/ITSGPolicyEngine
 dev_langs:
- - c++
+- c++
 req.header: tsgpolicyengine.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - TSGPolicyEngine.h
+- TSGPolicyEngine.h
 api_name:
- - ITSGPolicyEngine
+- ITSGPolicyEngine
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:objpath.CObjectPathParser.Unparse
 title: CObjectPathParser::Unparse (objpath.h)
-
 description: Converts a structure that contains the parsed path to a string. Use of this object is not recommended. Instead, use the IWbemPath COM interface.
 old-location: wmi\cobjectpathparser_unparse.htm
 tech.root: WmiSdk
 ms.assetid: 6135b808-b9eb-4ba0-9eb8-e7a59993ae34
-
 ms.date: 12/05/2018
 ms.keywords: CObjectPathParser interface [Windows Management Instrumentation],UnParse method, CObjectPathParser.Unparse, CObjectPathParser::UnParse, CObjectPathParser::Unparse, UnParse method [Windows Management Instrumentation], UnParse method [Windows Management Instrumentation],CObjectPathParser interface, Unparse, objpath/CObjectPathParser::UnParse, wmi.cobjectpathparser_unparse
 ms.topic: method
-f1_keywords: 
- - "objpath/CObjectPathParser.UnParse"
+f1_keywords:
+- objpath/CObjectPathParser.UnParse
 dev_langs:
- - c++
+- c++
 req.header: objpath.h
 req.include-header: ObjPath.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: FrameDyn.lib
 req.dll: FrameDynOS.dll; FrameDyn.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - FrameDynOS.dll
- - FrameDyn.dll
+- FrameDynOS.dll
+- FrameDyn.dll
 api_name:
- - CObjectPathParser.UnParse
+- CObjectPathParser.UnParse
 targetos: Windows
 req.typenames: 
 req.redist: 

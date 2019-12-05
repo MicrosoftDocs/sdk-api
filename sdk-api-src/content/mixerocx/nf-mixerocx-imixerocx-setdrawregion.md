@@ -1,19 +1,17 @@
 ---
 UID: NF:mixerocx.IMixerOCX.SetDrawRegion
 title: IMixerOCX::SetDrawRegion (mixerocx.h)
-
 description: The SetDrawRegion method specifies the location and dimensions of the video and clipping rectangles in screen coordinates.
 old-location: dshow\imixerocx_setdrawregion.htm
 tech.root: DirectShow
 ms.assetid: 6f1a9b00-4a35-4772-a185-59b2bc9b9398
-
 ms.date: 12/05/2018
 ms.keywords: IMixerOCX interface [DirectShow],SetDrawRegion method, IMixerOCX.SetDrawRegion, IMixerOCX::SetDrawRegion, IMixerOCXSetDrawRegion, SetDrawRegion, SetDrawRegion method [DirectShow], SetDrawRegion method [DirectShow],IMixerOCX interface, dshow.imixerocx_setdrawregion, mixerocx/IMixerOCX::SetDrawRegion
 ms.topic: method
-f1_keywords: 
- - "mixerocx/IMixerOCX.SetDrawRegion"
+f1_keywords:
+- mixerocx/IMixerOCX.SetDrawRegion
 dev_langs:
- - c++
+- c++
 req.header: mixerocx.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IMixerOCX.SetDrawRegion
+- IMixerOCX.SetDrawRegion
 targetos: Windows
 req.typenames: 
 req.redist: 

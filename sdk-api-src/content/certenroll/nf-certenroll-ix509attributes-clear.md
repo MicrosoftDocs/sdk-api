@@ -1,19 +1,17 @@
 ---
 UID: NF:certenroll.IX509Attributes.Clear
 title: IX509Attributes::Clear (certenroll.h)
-
 description: Removes all IX509Attribute objects from the collection.
 old-location: security\ix509attributes_clear_method.htm
 tech.root: seccertenroll
 ms.assetid: f7d4e443-4022-4a62-b3a0-88a813a4b778
-
 ms.date: 12/05/2018
 ms.keywords: Clear, Clear method [Security], Clear method [Security],IX509Attributes interface, IX509Attributes interface [Security],Clear method, IX509Attributes.Clear, IX509Attributes::Clear, certenroll/IX509Attributes::Clear, security.ix509attributes_clear_method
 ms.topic: method
-f1_keywords: 
- - "certenroll/IX509Attributes.Clear"
+f1_keywords:
+- certenroll/IX509Attributes.Clear
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: CertEnroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CertEnroll.dll
+- CertEnroll.dll
 api_name:
- - IX509Attributes.Clear
+- IX509Attributes.Clear
 targetos: Windows
 req.typenames: 
 req.redist: 

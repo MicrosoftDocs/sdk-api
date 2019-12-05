@@ -1,46 +1,43 @@
 ---
 UID: NF:d3d12video.ID3D12VideoDecoderHeap.GetDesc
 title: ID3D12VideoDecoderHeap::GetDesc
-
 description: Gets the D3D12_VIDEO_DECODER_HEAP_DESC structure that was passed into ID3D12VideoDevice::CreateVideoDecoderHeap when the ID3D12VideoDecoderHeap was created.
 tech.root: mf
 ms.assetid: 784d436a-f69d-4b62-b2f4-1954c92e774f
-
 ms.date: 05/28/2019
 ms.topic: method
 f1_keywords:
- - ID3D12VideoDecoderHeap::GetDesc
+- ID3D12VideoDecoderHeap::GetDesc
 dev_langs:
- - c++
+- c++
 ms.keywords: ID3D12VideoDecoderHeap::GetDesc, GetDesc, ID3D12VideoDecoderHeap.GetDesc, ID3D12VideoDecoderHeap::GetDesc, ID3D12VideoDecoderHeap.GetDesc
 req.header: d3d12video.h
-req.include-header:
-req.redist:
-req.target-type:
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
+req.include-header: 
+req.redist: 
+req.target-type: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
 req.dll: d3d12.dll
 req.irql: 
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
-req.type-library:
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
 topic_type:
- - apiref
+- apiref
 api_type:
- - COM
+- COM
 api_location:
- - d3d12.dll
+- d3d12.dll
 api_name:
- - ID3D12VideoDecoderHeap::GetDesc
+- ID3D12VideoDecoderHeap::GetDesc
 targetos: Windows
-
 ---
 
 # ID3D12VideoDecoderHeap::GetDesc

@@ -1,19 +1,17 @@
 ---
 UID: NF:vds.IVdsVDisk.Open
 title: IVdsVDisk::Open (vds.h)
-
 description: Opens a handle to the specified virtual disk file and returns an IVdsOpenVDisk interface pointer to the object that represents the opened handle.
 old-location: base\ivdsvdisk_open.htm
 tech.root: VDS
 ms.assetid: e633f934-8f2d-4614-b34c-87bb74ebf385
-
 ms.date: 12/05/2018
 ms.keywords: IVdsVDisk interface,Open method, IVdsVDisk.Open, IVdsVDisk::Open, Open, Open method, Open method,IVdsVDisk interface, base.ivdsvdisk_open, vds/IVdsVDisk::Open
 ms.topic: method
-f1_keywords: 
- - "vds/IVdsVDisk.Open"
+f1_keywords:
+- vds/IVdsVDisk.Open
 dev_langs:
- - c++
+- c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Uuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Uuid.lib
- - Uuid.dll
+- Uuid.lib
+- Uuid.dll
 api_name:
- - IVdsVDisk.Open
+- IVdsVDisk.Open
 targetos: Windows
 req.typenames: 
 req.redist: 

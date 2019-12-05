@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi3cc.IEnumACDGroup.Clone
 title: IEnumACDGroup::Clone (tapi3cc.h)
-
 description: The Clone method creates another enumerator that contains the same enumeration state as the current one.
 old-location: tapi3\ienumacdgroup_clone.htm
 tech.root: Tapi
 ms.assetid: 202f8534-9990-4e69-b3b8-8a8884b651f1
-
 ms.date: 12/05/2018
 ms.keywords: Clone, Clone method [TAPI 2.2], Clone method [TAPI 2.2],IEnumACDGroup interface, IEnumACDGroup interface [TAPI 2.2],Clone method, IEnumACDGroup.Clone, IEnumACDGroup::Clone, _tapi3_ienumacdgroup_clone, tapi3.ienumacdgroup_clone, tapi3cc/IEnumACDGroup::Clone
 ms.topic: method
-f1_keywords: 
- - "tapi3cc/IEnumACDGroup.Clone"
+f1_keywords:
+- tapi3cc/IEnumACDGroup.Clone
 dev_langs:
- - c++
+- c++
 req.header: tapi3cc.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Tapi3.dll
+- Tapi3.dll
 api_name:
- - IEnumACDGroup.Clone
+- IEnumACDGroup.Clone
 targetos: Windows
 req.typenames: 
 req.redist: 

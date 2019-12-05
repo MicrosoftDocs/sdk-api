@@ -1,19 +1,17 @@
 ---
 UID: NE:keycredmgr.KeyCredentialManagerOperationErrorStates
 title: KeyCredentialManagerOperationErrorStates (keycredmgr.h)
-
 description: Enumeration of Error states returned by the function KeyCredentialManagerGetOperationErrorStates as flags.
 old-location: security\keycredentialmanageroperationerrorstates.htm
 tech.root: SecAuthN
 ms.assetid: 51C460E3-0A74-40A8-9F41-057EF6D03E86
-
 ms.date: 12/05/2018
 ms.keywords: KeyCredentialManagerOperationErrorStateCertificateFailure, KeyCredentialManagerOperationErrorStateDeviceJoinFailure, KeyCredentialManagerOperationErrorStateHardwareFailure, KeyCredentialManagerOperationErrorStateNone, KeyCredentialManagerOperationErrorStatePinExistsFailure, KeyCredentialManagerOperationErrorStatePolicyFailure, KeyCredentialManagerOperationErrorStateRemoteSessionFailure, KeyCredentialManagerOperationErrorStateTokenFailure, KeyCredentialManagerOperationErrorStates, KeyCredentialManagerOperationErrorStates enumeration [Security], keycredmgr/KeyCredentialManagerOperationErrorStateCertificateFailure, keycredmgr/KeyCredentialManagerOperationErrorStateDeviceJoinFailure, keycredmgr/KeyCredentialManagerOperationErrorStateHardwareFailure, keycredmgr/KeyCredentialManagerOperationErrorStateNone, keycredmgr/KeyCredentialManagerOperationErrorStatePinExistsFailure, keycredmgr/KeyCredentialManagerOperationErrorStatePolicyFailure, keycredmgr/KeyCredentialManagerOperationErrorStateRemoteSessionFailure, keycredmgr/KeyCredentialManagerOperationErrorStateTokenFailure, keycredmgr/KeyCredentialManagerOperationErrorStates, security.keycredentialmanageroperationerrorstates
 ms.topic: enum
-f1_keywords: 
- - "keycredmgr/KeyCredentialManagerOperationErrorStates"
+f1_keywords:
+- keycredmgr/KeyCredentialManagerOperationErrorStates
 dev_langs:
- - c++
+- c++
 req.header: keycredmgr.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - keycredmgr.h
+- keycredmgr.h
 api_name:
- - KeyCredentialManagerOperationErrorStates
+- KeyCredentialManagerOperationErrorStates
 targetos: Windows
 req.typenames: KeyCredentialManagerOperationErrorStates
 req.redist: 

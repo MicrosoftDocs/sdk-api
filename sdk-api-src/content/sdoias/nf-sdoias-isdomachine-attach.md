@@ -1,19 +1,17 @@
 ---
 UID: NF:sdoias.ISdoMachine.Attach
 title: ISdoMachine::Attach (sdoias.h)
-
 description: The Attach method attaches to an SDO computer. Attaching to an SDO computer is the first step is using the SDO API to administer that computer.
 old-location: nps\SDO_isdomachine_attach.htm
 tech.root: Nps
 ms.assetid: 444ba670-8224-40bc-b0e4-585c682deafd
-
 ms.date: 12/05/2018
 ms.keywords: Attach, Attach method [Network Policy Server], Attach method [Network Policy Server],ISdoMachine interface, Attach method [Network Policy Server],SdoMachine object, ISdoMachine interface [Network Policy Server],Attach method, ISdoMachine.Attach, ISdoMachine::Attach, SdoMachine object [Network Policy Server],Attach method, _sdo_isdomachine_attach, nps.SDO_isdomachine_attach, sdo.isdomachine_attach, sdoias/ISdoMachine::Attach
 ms.topic: method
-f1_keywords: 
- - "sdoias/ISdoMachine.Attach"
+f1_keywords:
+- sdoias/ISdoMachine.Attach
 dev_langs:
- - c++
+- c++
 req.header: sdoias.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: Iassdo.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Iassdo.dll
+- Iassdo.dll
 api_name:
- - ISdoMachine.Attach
- - SdoMachine.Attach
+- ISdoMachine.Attach
+- SdoMachine.Attach
 targetos: Windows
 req.typenames: 
 req.redist: 

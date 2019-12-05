@@ -1,19 +1,17 @@
 ---
 UID: NF:searchapi.ISearchQueryHelper.GenerateSQLFromUserQuery
 title: ISearchQueryHelper::GenerateSQLFromUserQuery (searchapi.h)
-
 description: Generates a Structured Query Language (SQL) query based on a client-supplied query string expressed in either Advanced Query Syntax (AQS) or Natural Query Syntax (NQS).
 old-location: search\_search_ISearchQueryHelper_GenerateSQLFromUserQuery.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\isearchqueryhelper\generatesqlfromuserquery.htm
-
 ms.date: 12/05/2018
 ms.keywords: GenerateSQLFromUserQuery, GenerateSQLFromUserQuery method [search], GenerateSQLFromUserQuery method [search],ISearchQueryHelper interface, ISearchQueryHelper interface [search],GenerateSQLFromUserQuery method, ISearchQueryHelper.GenerateSQLFromUserQuery, ISearchQueryHelper::GenerateSQLFromUserQuery, _search_ISearchQueryHelper_GenerateSQLFromUserQuery, search._search_ISearchQueryHelper_GenerateSQLFromUserQuery, searchapi/ISearchQueryHelper::GenerateSQLFromUserQuery
 ms.topic: method
-f1_keywords: 
- - "searchapi/ISearchQueryHelper.GenerateSQLFromUserQuery"
+f1_keywords:
+- searchapi/ISearchQueryHelper.GenerateSQLFromUserQuery
 dev_langs:
- - c++
+- c++
 req.header: searchapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Searchapi.h
+- Searchapi.h
 api_name:
- - ISearchQueryHelper.GenerateSQLFromUserQuery
+- ISearchQueryHelper.GenerateSQLFromUserQuery
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0

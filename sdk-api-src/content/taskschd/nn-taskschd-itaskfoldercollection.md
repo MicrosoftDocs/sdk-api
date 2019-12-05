@@ -1,19 +1,17 @@
 ---
 UID: NN:taskschd.ITaskFolderCollection
 title: ITaskFolderCollection (taskschd.h)
-
 description: Provides information and control for a collection of folders that contain tasks.
 old-location: taskschd\itaskfoldercollection.htm
 tech.root: taskschd
 ms.assetid: 1889a7e3-8fa2-4b96-9d55-656850f605da
-
 ms.date: 12/05/2018
 ms.keywords: ITaskFolderCollection, ITaskFolderCollection interface [Task Scheduler], ITaskFolderCollection interface [Task Scheduler],described, taskschd.itaskfoldercollection, taskschd/ITaskFolderCollection
 ms.topic: interface
-f1_keywords: 
- - "taskschd/ITaskFolderCollection"
+f1_keywords:
+- taskschd/ITaskFolderCollection
 dev_langs:
- - c++
+- c++
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Taskschd.lib
 req.dll: Taskschd.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - taskschd.dll
+- taskschd.dll
 api_name:
- - ITaskFolderCollection
+- ITaskFolderCollection
 targetos: Windows
 req.typenames: 
 req.redist: 

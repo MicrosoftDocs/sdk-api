@@ -1,19 +1,17 @@
 ---
 UID: NF:oaidl.ITypeInfo.GetTypeAttr
 title: ITypeInfo::GetTypeAttr (oaidl.h)
-
 description: Retrieves a TYPEATTR structure that contains the attributes of the type description.
 old-location: automat\itypeinfo_gettypeattr.htm
 tech.root: automat
 ms.assetid: 62be8a38-1d51-4b54-b224-7d9cdbb1be59
-
 ms.date: 12/05/2018
 ms.keywords: GetTypeAttr, GetTypeAttr method [Automation], GetTypeAttr method [Automation],ITypeInfo interface, ITypeInfo interface [Automation],GetTypeAttr method, ITypeInfo.GetTypeAttr, ITypeInfo::GetTypeAttr, _oa96_ITypeInfo_GetTypeAttr, automat.itypeinfo_gettypeattr, oaidl/ITypeInfo::GetTypeAttr
 ms.topic: method
-f1_keywords: 
- - "oaidl/ITypeInfo.GetTypeAttr"
+f1_keywords:
+- oaidl/ITypeInfo.GetTypeAttr
 dev_langs:
- - c++
+- c++
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - oaidl.h
+- oaidl.h
 api_name:
- - ITypeInfo.GetTypeAttr
+- ITypeInfo.GetTypeAttr
 targetos: Windows
 req.typenames: 
 req.redist: 

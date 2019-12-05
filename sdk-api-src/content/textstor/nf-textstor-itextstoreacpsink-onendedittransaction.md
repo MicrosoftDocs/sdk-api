@@ -1,19 +1,17 @@
 ---
 UID: NF:textstor.ITextStoreACPSink.OnEndEditTransaction
 title: ITextStoreACPSink::OnEndEditTransaction (textstor.h)
-
 description: ITextStoreACPSink::OnEndEditTransaction method
 old-location: tsf\itextstoreacpsink_onendedittransaction.htm
 tech.root: TSF
 ms.assetid: 4d2819a2-c780-47bb-b3e5-0836b8b4c5dd
-
 ms.date: 12/05/2018
 ms.keywords: ITextStoreACPSink interface [Text Services Framework],OnEndEditTransaction method, ITextStoreACPSink.OnEndEditTransaction, ITextStoreACPSink::OnEndEditTransaction, OnEndEditTransaction, OnEndEditTransaction method [Text Services Framework], OnEndEditTransaction method [Text Services Framework],ITextStoreACPSink interface, _tsf_itextstoreacpsink_onendedittransaction_ref, textstor/ITextStoreACPSink::OnEndEditTransaction, tsf.itextstoreacpsink_onendedittransaction
 ms.topic: method
-f1_keywords: 
- - "textstor/ITextStoreACPSink.OnEndEditTransaction"
+f1_keywords:
+- textstor/ITextStoreACPSink.OnEndEditTransaction
 dev_langs:
- - c++
+- c++
 req.header: textstor.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msctf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msctf.dll
+- msctf.dll
 api_name:
- - ITextStoreACPSink.OnEndEditTransaction
+- ITextStoreACPSink.OnEndEditTransaction
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

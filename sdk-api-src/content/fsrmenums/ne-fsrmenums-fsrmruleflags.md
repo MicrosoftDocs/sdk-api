@@ -1,19 +1,17 @@
 ---
 UID: NE:fsrmenums._FsrmRuleFlags
 title: FsrmRuleFlags (fsrmenums.h)
-
 description: Defines the possible states of a rule.
 old-location: fsrm\fsrmruleflags.htm
 tech.root: fsrm
 ms.assetid: 81150d1e-4ce9-4c8f-a4d5-77f7c8759e59
-
 ms.date: 12/05/2018
 ms.keywords: FsrmRuleFlags, FsrmRuleFlags enumeration [File Server Resource Manager], FsrmRuleFlags_ClearAutomaticallyClassifiedProperty, FsrmRuleFlags_ClearManuallyClassifiedProperty, FsrmRuleFlags_Disabled, FsrmRuleFlags_Invalid, fs.fsrmruleflags, fsrm.fsrmruleflags, fsrmenums/FsrmRuleFlags, fsrmenums/FsrmRuleFlags_ClearAutomaticallyClassifiedProperty, fsrmenums/FsrmRuleFlags_ClearManuallyClassifiedProperty, fsrmenums/FsrmRuleFlags_Disabled, fsrmenums/FsrmRuleFlags_Invalid
 ms.topic: enum
-f1_keywords: 
- - "fsrmenums/FsrmRuleFlags"
+f1_keywords:
+- fsrmenums/FsrmRuleFlags
 dev_langs:
- - c++
+- c++
 req.header: fsrmenums.h
 req.include-header: FsrmPipeline.h, FsrmQuota.h, FsrmReports.h, FsrmScreen.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - FsrmEnums.h
+- FsrmEnums.h
 api_name:
- - FsrmRuleFlags
+- FsrmRuleFlags
 targetos: Windows
 req.typenames: FsrmRuleFlags
 req.redist: 

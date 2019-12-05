@@ -1,19 +1,17 @@
 ---
 UID: NN:dcomp.IDCompositionColorMatrixEffect
 title: IDCompositionColorMatrixEffect (dcomp.h)
-
 description: The color matrix effect alters the RGBA values of a bitmap.
 old-location: directcomp\idcompositioncolormatrixeffect.htm
 tech.root: directcomp
 ms.assetid: 75528E11-D041-4192-833A-31679316DF76
-
 ms.date: 12/05/2018
 ms.keywords: IDCompositionColorMatrixEffect, IDCompositionColorMatrixEffect interface [DirectComposition], IDCompositionColorMatrixEffect interface [DirectComposition],described, dcomp/IDCompositionColorMatrixEffect, directcomp.idcompositioncolormatrixeffect
 ms.topic: interface
-f1_keywords: 
- - "dcomp/IDCompositionColorMatrixEffect"
+f1_keywords:
+- dcomp/IDCompositionColorMatrixEffect
 dev_langs:
- - c++
+- c++
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dcomp.lib
 req.dll: Dcomp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dcomp.dll
+- Dcomp.dll
 api_name:
- - IDCompositionColorMatrixEffect
+- IDCompositionColorMatrixEffect
 targetos: Windows
 req.typenames: 
 req.redist: 

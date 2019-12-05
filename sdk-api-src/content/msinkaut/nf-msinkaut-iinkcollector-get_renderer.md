@@ -1,19 +1,17 @@
 ---
 UID: NF:msinkaut.IInkCollector.get_Renderer
 title: IInkCollector::get_Renderer (msinkaut.h)
-
 description: Gets or sets the InkRenderer object that is used to draw ink.
 old-location: tablet\inkcollector_renderer.htm
 tech.root: tablet
 ms.assetid: 1abd8f85-88f5-4dc6-a0b8-9156b57c57a5
-
 ms.date: 12/05/2018
 ms.keywords: 1abd8f85-88f5-4dc6-a0b8-9156b57c57a5, IInkCollector interface [Tablet PC],Renderer property, IInkCollector.Renderer, IInkCollector.get_Renderer, IInkCollector::Renderer, IInkCollector::get_Renderer, IInkCollector::putref_Renderer, InkCollector.get_Renderer, Put_Renderer, Renderer property [Tablet PC], Renderer property [Tablet PC],IInkCollector interface, get_Renderer, msinkaut/IInkCollector::Renderer, msinkaut/IInkCollector::get_Renderer, msinkaut/IInkCollector::putref_Renderer, tablet.inkcollector_renderer
 ms.topic: method
-f1_keywords: 
- - "msinkaut/IInkCollector.Renderer"
+f1_keywords:
+- msinkaut/IInkCollector.Renderer
 dev_langs:
- - c++
+- c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: InkObj.dll
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - InkObj.dll
- - InkObj.dll.dll
+- InkObj.dll
+- InkObj.dll.dll
 api_name:
- - IInkCollector.Renderer
- - IInkCollector.get_Renderer
- - InkCollector.get_Renderer
+- IInkCollector.Renderer
+- IInkCollector.get_Renderer
+- InkCollector.get_Renderer
 targetos: Windows
 req.typenames: 
 req.redist: 

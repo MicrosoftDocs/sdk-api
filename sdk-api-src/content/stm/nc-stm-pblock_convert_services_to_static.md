@@ -1,19 +1,17 @@
 ---
 UID: NC:stm.PBLOCK_CONVERT_SERVICES_TO_STATIC
 title: PBLOCK_CONVERT_SERVICES_TO_STATIC (stm.h)
-
 description: The BlockConvertServicesToStatic function converts all services received on a specified interface to static.
 old-location: rras\blockconvertservicestostatic.htm
 tech.root: RRAS
 ms.assetid: 60d1ee7b-bba3-4dd1-8faf-520a2e3cfad3
-
 ms.date: 12/05/2018
 ms.keywords: BlockConvertServicesToStatic, BlockConvertServicesToStatic callback function [RAS], PBLOCK_CONVERT_SERVICES_TO_STATIC, PBLOCK_CONVERT_SERVICES_TO_STATIC callback, _mpr_blockconvertservicestostatic, rras.blockconvertservicestostatic, stm/BlockConvertServicesToStatic
 ms.topic: callback
-f1_keywords: 
- - "stm/BlockConvertServicesToStatic"
+f1_keywords:
+- stm/BlockConvertServicesToStatic
 dev_langs:
- - c++
+- c++
 req.header: stm.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Stm.h
+- Stm.h
 api_name:
- - BlockConvertServicesToStatic
+- BlockConvertServicesToStatic
 targetos: Windows
 req.typenames: 
 req.redist: 

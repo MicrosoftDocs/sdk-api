@@ -1,19 +1,17 @@
 ---
 UID: NF:mfidl.IMFNetCredential.GetPassword
 title: IMFNetCredential::GetPassword (mfidl.h)
-
 description: Retrieves the password.
 old-location: mf\imfnetcredential_getpassword.htm
 tech.root: medfound
 ms.assetid: ab7a4999-4a08-472c-bb7e-7068f2e2ac34
-
 ms.date: 12/05/2018
 ms.keywords: GetPassword, GetPassword method [Media Foundation], GetPassword method [Media Foundation],IMFNetCredential interface, IMFNetCredential interface [Media Foundation],GetPassword method, IMFNetCredential.GetPassword, IMFNetCredential::GetPassword, ab7a4999-4a08-472c-bb7e-7068f2e2ac34, mf.imfnetcredential_getpassword, mfidl/IMFNetCredential::GetPassword
 ms.topic: method
-f1_keywords: 
- - "mfidl/IMFNetCredential.GetPassword"
+f1_keywords:
+- mfidl/IMFNetCredential.GetPassword
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFNetCredential.GetPassword
+- IMFNetCredential.GetPassword
 targetos: Windows
 req.typenames: 
 req.redist: 

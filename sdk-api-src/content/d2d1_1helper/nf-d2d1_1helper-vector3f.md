@@ -1,19 +1,17 @@
 ---
 UID: NF:d2d1_1helper.Vector3F
 title: Vector3F function (d2d1_1helper.h)
-
 description: Returns a filled D2D1_VECTOR_3F structure.
 old-location: direct2d\vector3f.htm
 tech.root: Direct2D
 ms.assetid: C2842DD9-A70E-4B7C-AFF5-3B95631800A3
-
 ms.date: 12/05/2018
 ms.keywords: Vector3F, Vector3F function [Direct2D], d2d1_1helper/Vector3F, direct2d.vector3f
 ms.topic: function
-f1_keywords: 
- - "d2d1_1helper/Vector3F"
+f1_keywords:
+- d2d1_1helper/Vector3F
 dev_langs:
- - c++
+- c++
 req.header: d2d1_1helper.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: D2d1.lib
 req.dll: D2d1.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - D2d1.dll
+- D2d1.dll
 api_name:
- - Vector3F
+- Vector3F
 targetos: Windows
 req.typenames: 
 req.redist: 

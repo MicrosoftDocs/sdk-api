@@ -1,19 +1,17 @@
 ---
 UID: NS:virtdisk._STORAGE_DEPENDENCY_INFO
 title: STORAGE_DEPENDENCY_INFO (virtdisk.h)
-
 description: Contains virtual hard disk (VHD) storage dependency information.
 old-location: vhd\storage_dependency_info.htm
 tech.root: VStor
 ms.assetid: 67648a4d-3f66-407e-9036-c7072bc7e460
-
 ms.date: 12/05/2018
-ms.keywords: "*PSTORAGE_DEPENDENCY_INFO, PSTORAGE_DEPENDENCY_INFO, PSTORAGE_DEPENDENCY_INFO structure pointer [VHD], STORAGE_DEPENDENCY_INFO, STORAGE_DEPENDENCY_INFO structure [VHD], _STORAGE_DEPENDENCY_INFO, vdssys/PSTORAGE_DEPENDENCY_INFO, vdssys/STORAGE_DEPENDENCY_INFO, vhd.storage_dependency_info, virtdisk/PSTORAGE_DEPENDENCY_INFO, virtdisk/STORAGE_DEPENDENCY_INFO"
+ms.keywords: '*PSTORAGE_DEPENDENCY_INFO, PSTORAGE_DEPENDENCY_INFO, PSTORAGE_DEPENDENCY_INFO structure pointer [VHD], STORAGE_DEPENDENCY_INFO, STORAGE_DEPENDENCY_INFO structure [VHD], _STORAGE_DEPENDENCY_INFO, vdssys/PSTORAGE_DEPENDENCY_INFO, vdssys/STORAGE_DEPENDENCY_INFO, vhd.storage_dependency_info, virtdisk/PSTORAGE_DEPENDENCY_INFO, virtdisk/STORAGE_DEPENDENCY_INFO'
 ms.topic: struct
-f1_keywords: 
- - "virtdisk/STORAGE_DEPENDENCY_INFO"
+f1_keywords:
+- virtdisk/STORAGE_DEPENDENCY_INFO
 dev_langs:
- - c++
+- c++
 req.header: virtdisk.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - VirtDisk.h
- - vdssys.h
+- VirtDisk.h
+- vdssys.h
 api_name:
- - STORAGE_DEPENDENCY_INFO
+- STORAGE_DEPENDENCY_INFO
 targetos: Windows
 req.typenames: STORAGE_DEPENDENCY_INFO, *PSTORAGE_DEPENDENCY_INFO
 req.redist: 

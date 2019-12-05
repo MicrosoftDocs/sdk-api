@@ -1,19 +1,17 @@
 ---
 UID: NF:mileffects.IMILBitmapEffects._NewEnum
 title: IMILBitmapEffects::_NewEnum (mileffects.h)
-
 description: Retrieves a new enumeration.
 old-location: wibe\_wibe_imilbitmapeffects__newenum.htm
 tech.root: wibe
 ms.assetid: VS|wibe|~\wibelh\reference\ifaces\imilbitmapeffects\_newenum.htm
-
 ms.date: 12/05/2018
 ms.keywords: IMILBitmapEffects interface [WPF Bitmap Effects],_NewEnum method, IMILBitmapEffects._NewEnum, IMILBitmapEffects::_NewEnum, _NewEnum, _NewEnum method [WPF Bitmap Effects], _NewEnum method [WPF Bitmap Effects],IMILBitmapEffects interface, _wibe_imilbitmapeffects__newenum, mileffects/IMILBitmapEffects::_NewEnum, wibe._wibe_imilbitmapeffects__newenum
 ms.topic: method
-f1_keywords: 
- - "mileffects/IMILBitmapEffects._NewEnum"
+f1_keywords:
+- mileffects/IMILBitmapEffects._NewEnum
 dev_langs:
- - c++
+- c++
 req.header: mileffects.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mileffects.h
+- Mileffects.h
 api_name:
- - IMILBitmapEffects._NewEnum
+- IMILBitmapEffects._NewEnum
 targetos: Windows
 req.typenames: 
 req.redist: Microsoft .Net 3.0

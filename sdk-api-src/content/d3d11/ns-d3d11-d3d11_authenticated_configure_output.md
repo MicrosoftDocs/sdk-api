@@ -1,19 +1,17 @@
 ---
 UID: NS:d3d11.D3D11_AUTHENTICATED_CONFIGURE_OUTPUT
 title: D3D11_AUTHENTICATED_CONFIGURE_OUTPUT (d3d11.h)
-
 description: Contains the response from the ID3D11VideoContext::ConfigureAuthenticatedChannel method.
 old-location: mf\d3d11_authenticated_configure_output.htm
 tech.root: medfound
 ms.assetid: 68DEC825-5D2E-4A78-B5DD-F7F697BB2980
-
 ms.date: 12/05/2018
 ms.keywords: D3D11_AUTHENTICATED_CONFIGURE_OUTPUT, D3D11_AUTHENTICATED_CONFIGURE_OUTPUT structure [Media Foundation], d3d11/D3D11_AUTHENTICATED_CONFIGURE_OUTPUT, mf.d3d11_authenticated_configure_output
 ms.topic: struct
-f1_keywords: 
- - "d3d11/D3D11_AUTHENTICATED_CONFIGURE_OUTPUT"
+f1_keywords:
+- d3d11/D3D11_AUTHENTICATED_CONFIGURE_OUTPUT
 dev_langs:
- - c++
+- c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - d3d11.h
+- d3d11.h
 api_name:
- - D3D11_AUTHENTICATED_CONFIGURE_OUTPUT
+- D3D11_AUTHENTICATED_CONFIGURE_OUTPUT
 targetos: Windows
 req.typenames: D3D11_AUTHENTICATED_CONFIGURE_OUTPUT
 req.redist: 

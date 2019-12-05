@@ -1,19 +1,17 @@
 ---
 UID: NS:ipexport.tcp_reserve_port_range
 title: TCP_RESERVE_PORT_RANGE (ipexport.h)
-
 description: The TCP_RESERVE_PORT_RANGE structure specifies a TCP port range to reserve.
 old-location: iphlp\tcp_reserve_port_range.htm
 tech.root: IpHlp
 ms.assetid: 3a64000b-9862-4958-888c-2114c124a9d5
-
 ms.date: 12/05/2018
-ms.keywords: "*PTCP_RESERVE_PORT_RANGE, TCP_RESERVE_PORT_RANGE, TCP_RESERVE_PORT_RANGE structure [IP Helper], ipexport/TCP_RESERVE_PORT_RANGE, iphlp.tcp_reserve_port_range"
+ms.keywords: '*PTCP_RESERVE_PORT_RANGE, TCP_RESERVE_PORT_RANGE, TCP_RESERVE_PORT_RANGE structure [IP Helper], ipexport/TCP_RESERVE_PORT_RANGE, iphlp.tcp_reserve_port_range'
 ms.topic: struct
-f1_keywords: 
- - "ipexport/TCP_RESERVE_PORT_RANGE"
+f1_keywords:
+- ipexport/TCP_RESERVE_PORT_RANGE
 dev_langs:
- - c++
+- c++
 req.header: ipexport.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Ipexport.h
+- Ipexport.h
 api_name:
- - TCP_RESERVE_PORT_RANGE
+- TCP_RESERVE_PORT_RANGE
 targetos: Windows
 req.typenames: TCP_RESERVE_PORT_RANGE, *PTCP_RESERVE_PORT_RANGE
 req.redist: 

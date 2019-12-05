@@ -1,19 +1,17 @@
 ---
 UID: NF:tuner.IESLicenseRenewalResultEvent.GetRenewalHResult
 title: IESLicenseRenewalResultEvent::GetRenewalHResult (tuner.h)
-
 description: Gets the final HRESULT value from a LicenseRenewalResult event that is returned by a call to a COM interface method during the renewal process.
 old-location: mstv\ieslicenserenewalresultevent_getrenewalhresult.htm
 tech.root: mstv
 ms.assetid: ed823c23-ae7d-4e2d-8546-92f04bd3b212
-
 ms.date: 12/05/2018
 ms.keywords: GetRenewalHResult, GetRenewalHResult method [DirectShow], GetRenewalHResult method [DirectShow],IESLicenseRenewalResultEvent interface, IESLicenseRenewalResultEvent interface [DirectShow],GetRenewalHResult method, IESLicenseRenewalResultEvent.GetRenewalHResult, IESLicenseRenewalResultEvent::GetRenewalHResult, mstv.ieslicenserenewalresultevent_getrenewalhresult, tuner/IESLicenseRenewalResultEvent::GetRenewalHResult
 ms.topic: method
-f1_keywords: 
- - "tuner/IESLicenseRenewalResultEvent.GetRenewalHResult"
+f1_keywords:
+- tuner/IESLicenseRenewalResultEvent.GetRenewalHResult
 dev_langs:
- - c++
+- c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - tuner.h
+- tuner.h
 api_name:
- - IESLicenseRenewalResultEvent.GetRenewalHResult
+- IESLicenseRenewalResultEvent.GetRenewalHResult
 targetos: Windows
 req.typenames: 
 req.redist: 

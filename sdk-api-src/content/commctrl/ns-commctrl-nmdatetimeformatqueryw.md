@@ -1,19 +1,17 @@
 ---
 UID: NS:commctrl.tagNMDATETIMEFORMATQUERYW
 title: NMDATETIMEFORMATQUERYW (commctrl.h)
-
 description: Contains information about a date and time picker (DTP) control callback field.
 old-location: controls\NMDATETIMEFORMATQUERY.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\datetime\structures\nmdatetimeformatquery.htm
-
 ms.date: 12/05/2018
 ms.keywords: '*LPNMDATETIMEFORMATQUERYW, LPNMDATETIMEFORMATQUERY, LPNMDATETIMEFORMATQUERY structure pointer [Windows Controls], NMDATETIMEFORMATQUERY, NMDATETIMEFORMATQUERY structure [Windows Controls], NMDATETIMEFORMATQUERYA, NMDATETIMEFORMATQUERYW, _win32_NMDATETIMEFORMATQUERY, _win32_NMDATETIMEFORMATQUERY_cpp, commctrl/LPNMDATETIMEFORMATQUERY, commctrl/NMDATETIMEFORMATQUERY, commctrl/NMDATETIMEFORMATQUERYA, commctrl/NMDATETIMEFORMATQUERYW, controls.NMDATETIMEFORMATQUERY, controls._win32_NMDATETIMEFORMATQUERY'
 ms.topic: struct
 f1_keywords:
 - commctrl/NMDATETIMEFORMATQUERY
 dev_langs:
- - c++
+- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

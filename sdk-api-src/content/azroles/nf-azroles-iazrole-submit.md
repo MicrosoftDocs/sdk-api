@@ -1,19 +1,17 @@
 ---
 UID: NF:azroles.IAzRole.Submit
 title: IAzRole::Submit (azroles.h)
-
 description: Persists changes made to the IAzRole object.
 old-location: security\iazrole_submit.htm
 tech.root: SecAuthZ
 ms.assetid: 97f2018a-92f0-4ebb-85f1-78c140003d8f
-
 ms.date: 12/05/2018
 ms.keywords: AzRole object [Security],Submit method, IAzRole interface [Security],Submit method, IAzRole.Submit, IAzRole::Submit, Submit, Submit method [Security], Submit method [Security],AzRole object, Submit method [Security],IAzRole interface, azroles/IAzRole::Submit, security.iazrole_submit
 ms.topic: method
-f1_keywords: 
- - "azroles/IAzRole.Submit"
+f1_keywords:
+- azroles/IAzRole.Submit
 dev_langs:
- - c++
+- c++
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Azroles.lib
 req.dll: Azroles.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Azroles.dll
+- Azroles.dll
 api_name:
- - IAzRole.Submit
- - AzRole.Submit
+- IAzRole.Submit
+- AzRole.Submit
 targetos: Windows
 req.typenames: 
 req.redist: Windows Server 2003 Administration Tools Pack on Windows XP

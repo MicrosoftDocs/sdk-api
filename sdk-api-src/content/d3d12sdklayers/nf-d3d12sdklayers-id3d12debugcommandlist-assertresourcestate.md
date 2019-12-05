@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d12sdklayers.ID3D12DebugCommandList.AssertResourceState
 title: ID3D12DebugCommandList::AssertResourceState (d3d12sdklayers.h)
-
 description: Checks whether a resource, or subresource, is in a specified state, or not.
 old-location: direct3d12\id3d12debugcommandlist_assertresourcestate.htm
 tech.root: direct3d12
 ms.assetid: 9190760D-B624-4E3E-8C33-B5D888895499
-
 ms.date: 12/05/2018
 ms.keywords: AssertResourceState, AssertResourceState method, AssertResourceState method,ID3D12DebugCommandList interface, ID3D12DebugCommandList interface,AssertResourceState method, ID3D12DebugCommandList.AssertResourceState, ID3D12DebugCommandList::AssertResourceState, d3d12sdklayers/ID3D12DebugCommandList::AssertResourceState, direct3d12.id3d12debugcommandlist_assertresourcestate
 ms.topic: method
-f1_keywords: 
- - "d3d12sdklayers/ID3D12DebugCommandList.AssertResourceState"
+f1_keywords:
+- d3d12sdklayers/ID3D12DebugCommandList.AssertResourceState
 dev_langs:
- - c++
+- c++
 req.header: d3d12sdklayers.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - d3d12sdklayers.h
+- d3d12sdklayers.h
 api_name:
- - ID3D12DebugCommandList.AssertResourceState
+- ID3D12DebugCommandList.AssertResourceState
 targetos: Windows
 req.typenames: 
 req.redist: 

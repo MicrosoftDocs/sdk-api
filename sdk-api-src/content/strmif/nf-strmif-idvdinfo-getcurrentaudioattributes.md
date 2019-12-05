@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IDvdInfo.GetCurrentAudioAttributes
 title: IDvdInfo::GetCurrentAudioAttributes (strmif.h)
-
 description: Note  The IDvdInfo interface is deprecated. Use IDvdInfo2 instead. Retrieves the attributes for the current audio stream in the current title or menu.
 old-location: dshow\idvdinfo_getcurrentaudioattributes.htm
 tech.root: DirectShow
 ms.assetid: b6cb0162-747a-468d-a28f-49621dd27df0
-
 ms.date: 12/05/2018
 ms.keywords: GetCurrentAudioAttributes, GetCurrentAudioAttributes method [DirectShow], GetCurrentAudioAttributes method [DirectShow],IDvdInfo interface, IDvdInfo interface [DirectShow],GetCurrentAudioAttributes method, IDvdInfo.GetCurrentAudioAttributes, IDvdInfo::GetCurrentAudioAttributes, IDvdInfoGetCurrentAudioAttributes, dshow.idvdinfo_getcurrentaudioattributes, strmif/IDvdInfo::GetCurrentAudioAttributes
 ms.topic: method
-f1_keywords: 
- - "strmif/IDvdInfo.GetCurrentAudioAttributes"
+f1_keywords:
+- strmif/IDvdInfo.GetCurrentAudioAttributes
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmif.h
+- Strmif.h
 api_name:
- - IDvdInfo.GetCurrentAudioAttributes
+- IDvdInfo.GetCurrentAudioAttributes
 targetos: Windows
 req.typenames: 
 req.redist: 

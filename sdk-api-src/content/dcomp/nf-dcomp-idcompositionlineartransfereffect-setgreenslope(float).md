@@ -1,19 +1,17 @@
 ---
 UID: NF:dcomp.IDCompositionLinearTransferEffect.SetGreenSlope(float)
 title: IDCompositionLinearTransferEffect::SetGreenSlope (dcomp.h)
-
 description: Sets the slope of the linear function for the green channel.
 old-location: directcomp\idcompositionlineartransfereffect_setgreenslope.htm
 tech.root: directcomp
 ms.assetid: 5D7BE063-BFB1-4059-A401-10E128970A6B
-
 ms.date: 12/05/2018
 ms.keywords: IDCompositionLinearTransferEffect interface [DirectComposition],SetGreenSlope method, IDCompositionLinearTransferEffect.SetGreenSlope, IDCompositionLinearTransferEffect::SetGreenSlope, IDCompositionLinearTransferEffect::SetGreenSlope(float), SetGreenSlope, SetGreenSlope method [DirectComposition], SetGreenSlope method [DirectComposition],IDCompositionLinearTransferEffect interface, dcomp/IDCompositionLinearTransferEffect::SetGreenSlope, directcomp.idcompositionlineartransfereffect_setgreenslope
 ms.topic: method
-f1_keywords: 
- - "dcomp/IDCompositionLinearTransferEffect.SetGreenSlope"
+f1_keywords:
+- dcomp/IDCompositionLinearTransferEffect.SetGreenSlope
 dev_langs:
- - c++
+- c++
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dcomp.lib
 req.dll: Dcomp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dcomp.dll
+- Dcomp.dll
 api_name:
- - IDCompositionLinearTransferEffect.SetGreenSlope
+- IDCompositionLinearTransferEffect.SetGreenSlope
 targetos: Windows
 req.typenames: 
 req.redist: 

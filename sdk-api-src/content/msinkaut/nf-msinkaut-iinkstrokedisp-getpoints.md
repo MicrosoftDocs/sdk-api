@@ -1,19 +1,17 @@
 ---
 UID: NF:msinkaut.IInkStrokeDisp.GetPoints
 title: IInkStrokeDisp::GetPoints (msinkaut.h)
-
 description: Retrieves the points that make up a stroke.
 old-location: tablet\iinkstrokedisp_getpoints.htm
 tech.root: tablet
 ms.assetid: 76378521-15d1-48a0-ae9f-8362faf60c9f
-
 ms.date: 12/05/2018
 ms.keywords: 76378521-15d1-48a0-ae9f-8362faf60c9f, GetPoints, GetPoints method [Tablet PC], GetPoints method [Tablet PC],IInkStrokeDisp interface, IInkStrokeDisp interface [Tablet PC],GetPoints method, IInkStrokeDisp.GetPoints, IInkStrokeDisp::GetPoints, msinkaut/IInkStrokeDisp::GetPoints, tablet.iinkstrokedisp_getpoints
 ms.topic: method
-f1_keywords: 
- - "msinkaut/IInkStrokeDisp.GetPoints"
+f1_keywords:
+- msinkaut/IInkStrokeDisp.GetPoints
 dev_langs:
- - c++
+- c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: InkObj.dll
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - InkObj.dll
- - InkObj.dll.dll
+- InkObj.dll
+- InkObj.dll.dll
 api_name:
- - IInkStrokeDisp.GetPoints
+- IInkStrokeDisp.GetPoints
 targetos: Windows
 req.typenames: 
 req.redist: 

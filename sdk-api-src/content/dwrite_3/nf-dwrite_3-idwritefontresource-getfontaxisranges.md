@@ -1,17 +1,15 @@
 ---
 UID: NF:dwrite_3.IDWriteFontResource.GetFontAxisRanges
 title: IDWriteFontResource::GetFontAxisRanges
-
 description: Retrieves the value ranges of each axis.
 tech.root: DirectWrite
-
 ms.date: 09/16/2019
 ms.keywords: IDWriteFontResource interface [Direct Write],GetFontAxisRanges method, IDWriteFontResource.GetFontAxisRanges, IDWriteFontResource::GetFontAxisRanges, GetFontAxisRanges, GetFontAxisRanges method [Direct Write], GetFontAxisRanges method [Direct Write],IDWriteFontResource interface, directwrite.idwritefontresource_getfontaxisranges, dwrite_3/IDWriteFontResource::GetFontAxisRanges
 ms.topic: method
-f1_keywords: 
- - "dwrite_3/IDWriteFontResource.GetFontAxisRanges"
+f1_keywords:
+- dwrite_3/IDWriteFontResource.GetFontAxisRanges
 dev_langs:
- - c++
+- c++
 req.construct-type: function
 req.header: dwrite_3.h
 req.include-header: 
@@ -31,15 +29,15 @@ req.lib: Dwrite.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dwrite.lib
- - Dwrite.dll
+- Dwrite.lib
+- Dwrite.dll
 api_name:
- - IDWriteFontResource::GetFontAxisRanges
+- IDWriteFontResource::GetFontAxisRanges
 targetos: Windows
 req.typenames: 
 req.redist: 

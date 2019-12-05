@@ -1,19 +1,17 @@
 ---
 UID: NF:oleauto.VarXor
 title: VarXor function (oleauto.h)
-
 description: Performs a logical exclusion on two variants.
 old-location: automat\varxor.htm
 tech.root: automat
 ms.assetid: 5a9ebe42-07a0-4bb8-afb7-24d18ce32768
-
 ms.date: 12/05/2018
 ms.keywords: VarXor, VarXor function [Automation], _oa96_VarXor, automat.varxor, oleauto/VarXor
 ms.topic: function
-f1_keywords: 
- - "oleauto/VarXor"
+f1_keywords:
+- oleauto/VarXor
 dev_langs:
- - c++
+- c++
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: OleAut32.lib
 req.dll: OleAut32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - OleAut32.dll
+- OleAut32.dll
 api_name:
- - VarXor
+- VarXor
 targetos: Windows
 req.typenames: 
 req.redist: 

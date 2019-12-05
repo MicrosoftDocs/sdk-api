@@ -1,19 +1,17 @@
 ---
 UID: NN:wmpservices.IWMPTranscodePolicy
 title: IWMPTranscodePolicy (wmpservices.h)
-
 description: The IWMPTranscodePolicy interface provides a method implemented by DirectShow source filters to manage changing the format of digital media files.
 old-location: wmp\iwmptranscodepolicy.htm
 tech.root: WMP
 ms.assetid: b7dbd25f-6865-44fa-9d46-e77de393ce13
-
 ms.date: 12/05/2018
 ms.keywords: IWMPTranscodePolicy, IWMPTranscodePolicy interface [Windows Media Player], IWMPTranscodePolicy interface [Windows Media Player],described, IWMPTranscodePolicyInterface, wmp.iwmptranscodepolicy, wmpservices/IWMPTranscodePolicy
 ms.topic: interface
-f1_keywords: 
- - "wmpservices/IWMPTranscodePolicy"
+f1_keywords:
+- wmpservices/IWMPTranscodePolicy
 dev_langs:
- - c++
+- c++
 req.header: wmpservices.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmpservices.h
+- wmpservices.h
 api_name:
- - IWMPTranscodePolicy
+- IWMPTranscodePolicy
 targetos: Windows
 req.typenames: 
 req.redist: 

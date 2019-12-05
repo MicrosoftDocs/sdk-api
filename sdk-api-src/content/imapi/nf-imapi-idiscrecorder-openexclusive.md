@@ -1,19 +1,17 @@
 ---
 UID: NF:imapi.IDiscRecorder.OpenExclusive
 title: IDiscRecorder::OpenExclusive (imapi.h)
-
 description: Opens a disc recorder for exclusive access.
 old-location: imapi\idiscrecorder_openexclusive.htm
 tech.root: imapi
 ms.assetid: e704baf0-d403-4cf7-aa32-16677d9a8694
-
 ms.date: 12/05/2018
 ms.keywords: IDiscRecorder interface [IMAPI],OpenExclusive method, IDiscRecorder.OpenExclusive, IDiscRecorder::OpenExclusive, OpenExclusive, OpenExclusive method [IMAPI], OpenExclusive method [IMAPI],IDiscRecorder interface, _win32_idiscrecorder_openexclusive, base.idiscrecorder_openexclusive, imapi.idiscrecorder_openexclusive, imapi/IDiscRecorder::OpenExclusive
 ms.topic: method
-f1_keywords: 
- - "imapi/IDiscRecorder.OpenExclusive"
+f1_keywords:
+- imapi/IDiscRecorder.OpenExclusive
 dev_langs:
- - c++
+- c++
 req.header: imapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Actxprxy.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Actxprxy.dll
+- Actxprxy.dll
 api_name:
- - IDiscRecorder.OpenExclusive
+- IDiscRecorder.OpenExclusive
 targetos: Windows
 req.typenames: 
 req.redist: 

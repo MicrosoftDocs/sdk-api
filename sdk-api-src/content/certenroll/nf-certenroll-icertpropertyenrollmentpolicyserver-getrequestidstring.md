@@ -1,19 +1,17 @@
 ---
 UID: NF:certenroll.ICertPropertyEnrollmentPolicyServer.GetRequestIdString
 title: ICertPropertyEnrollmentPolicyServer::GetRequestIdString (certenroll.h)
-
 description: Retrieves a unique string identifier for the certificate request sent to the certification authority during enrollment.
 old-location: security\icertpropertyenrollmentpolicyserver_getrequestidstring.htm
 tech.root: seccertenroll
 ms.assetid: c9855a9d-938f-4579-8447-a931dbba1428
-
 ms.date: 12/05/2018
 ms.keywords: GetRequestIdString, GetRequestIdString method [Security], GetRequestIdString method [Security],ICertPropertyEnrollmentPolicyServer interface, ICertPropertyEnrollmentPolicyServer interface [Security],GetRequestIdString method, ICertPropertyEnrollmentPolicyServer.GetRequestIdString, ICertPropertyEnrollmentPolicyServer::GetRequestIdString, certenroll/ICertPropertyEnrollmentPolicyServer::GetRequestIdString, security.icertpropertyenrollmentpolicyserver_getrequestidstring
 ms.topic: method
-f1_keywords: 
- - "certenroll/ICertPropertyEnrollmentPolicyServer.GetRequestIdString"
+f1_keywords:
+- certenroll/ICertPropertyEnrollmentPolicyServer.GetRequestIdString
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Certenroll.h
+- Certenroll.h
 api_name:
- - ICertPropertyEnrollmentPolicyServer.GetRequestIdString
+- ICertPropertyEnrollmentPolicyServer.GetRequestIdString
 targetos: Windows
 req.typenames: 
 req.redist: 

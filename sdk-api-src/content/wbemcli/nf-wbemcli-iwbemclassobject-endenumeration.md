@@ -1,19 +1,17 @@
 ---
 UID: NF:wbemcli.IWbemClassObject.EndEnumeration
 title: IWbemClassObject::EndEnumeration (wbemcli.h)
-
 description: The IWbemClassObject::EndEnumeration method terminates an enumeration sequence started with IWbemClassObject::BeginEnumeration.
 old-location: wmi\iwbemclassobject_endenumeration.htm
 tech.root: WmiSdk
 ms.assetid: a9fa8567-7504-4d59-a874-1dc7b2620a0b
-
 ms.date: 12/05/2018
 ms.keywords: EndEnumeration, EndEnumeration method [Windows Management Instrumentation], EndEnumeration method [Windows Management Instrumentation],IWbemClassObject interface, IWbemClassObject interface [Windows Management Instrumentation],EndEnumeration method, IWbemClassObject.EndEnumeration, IWbemClassObject::EndEnumeration, _hmm_iwbemclassobject_endenumeration, wbemcli/IWbemClassObject::EndEnumeration, wmi.iwbemclassobject_endenumeration
 ms.topic: method
-f1_keywords: 
- - "wbemcli/IWbemClassObject.EndEnumeration"
+f1_keywords:
+- wbemcli/IWbemClassObject.EndEnumeration
 dev_langs:
- - c++
+- c++
 req.header: wbemcli.h
 req.include-header: Wbemidl.h
 req.target-type: Windows
@@ -32,23 +30,23 @@ req.lib: WbemUuid.lib
 req.dll: CIMWin32.dll; Esscli.dll; Fastprox.dll; FrameDyn.dll; FrameDynOS.dll; Krnlprov.dll; Ncprov.dll; Wbemcore.dll; Wbemess.dll; Wmipiprt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CIMWin32.dll
- - Esscli.dll
- - Fastprox.dll
- - FrameDyn.dll
- - FrameDynOS.dll
- - Krnlprov.dll
- - Ncprov.dll
- - Wbemcore.dll
- - Wbemess.dll
- - Wmipiprt.dll
+- CIMWin32.dll
+- Esscli.dll
+- Fastprox.dll
+- FrameDyn.dll
+- FrameDynOS.dll
+- Krnlprov.dll
+- Ncprov.dll
+- Wbemcore.dll
+- Wbemess.dll
+- Wmipiprt.dll
 api_name:
- - IWbemClassObject.EndEnumeration
+- IWbemClassObject.EndEnumeration
 targetos: Windows
 req.typenames: 
 req.redist: 

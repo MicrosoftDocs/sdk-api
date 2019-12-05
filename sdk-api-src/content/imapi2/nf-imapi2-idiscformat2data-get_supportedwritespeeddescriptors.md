@@ -1,19 +1,17 @@
 ---
 UID: NF:imapi2.IDiscFormat2Data.get_SupportedWriteSpeedDescriptors
 title: IDiscFormat2Data::get_SupportedWriteSpeedDescriptors (imapi2.h)
-
 description: Retrieves a list of the detailed write configurations supported by the disc recorder and current media.
 old-location: imapi\idiscformat2data_get_supportedwritespeeddescriptors.htm
 tech.root: imapi
 ms.assetid: 9eb84ec6-900a-45ba-9111-9c9c6b3f5bb2
-
 ms.date: 12/05/2018
 ms.keywords: IDiscFormat2Data interface [IMAPI],get_SupportedWriteSpeedDescriptors method, IDiscFormat2Data.get_SupportedWriteSpeedDescriptors, IDiscFormat2Data::get_SupportedWriteSpeedDescriptors, get_SupportedWriteSpeedDescriptors, get_SupportedWriteSpeedDescriptors method [IMAPI], get_SupportedWriteSpeedDescriptors method [IMAPI],IDiscFormat2Data interface, imapi.idiscformat2data_get_supportedwritespeeddescriptors, imapi2/IDiscFormat2Data::get_SupportedWriteSpeedDescriptors
 ms.topic: method
-f1_keywords: 
- - "imapi2/IDiscFormat2Data.get_SupportedWriteSpeedDescriptors"
+f1_keywords:
+- imapi2/IDiscFormat2Data.get_SupportedWriteSpeedDescriptors
 dev_langs:
- - c++
+- c++
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - imapi2.h
+- imapi2.h
 api_name:
- - IDiscFormat2Data.get_SupportedWriteSpeedDescriptors
+- IDiscFormat2Data.get_SupportedWriteSpeedDescriptors
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:control.IMediaControl.get_RegFilterCollection
 title: IMediaControl::get_RegFilterCollection (control.h)
-
 description: The get_RegFilterCollection method retrieves a collection of all the filters listed in the registry.
 old-location: dshow\imediacontrol_get_regfiltercollection.htm
 tech.root: DirectShow
 ms.assetid: 55257cef-2777-4a88-8805-e474e3b13c75
-
 ms.date: 12/05/2018
 ms.keywords: IMediaControl interface [DirectShow],get_RegFilterCollection method, IMediaControl.get_RegFilterCollection, IMediaControl::get_RegFilterCollection, IMediaControlget_RegFilterCollection, control/IMediaControl::get_RegFilterCollection, dshow.imediacontrol_get_regfiltercollection, get_RegFilterCollection, get_RegFilterCollection method [DirectShow], get_RegFilterCollection method [DirectShow],IMediaControl interface
 ms.topic: method
-f1_keywords: 
- - "control/IMediaControl.get_RegFilterCollection"
+f1_keywords:
+- control/IMediaControl.get_RegFilterCollection
 dev_langs:
- - c++
+- c++
 req.header: control.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IMediaControl.get_RegFilterCollection
+- IMediaControl.get_RegFilterCollection
 targetos: Windows
 req.typenames: 
 req.redist: 

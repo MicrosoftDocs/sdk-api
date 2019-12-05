@@ -1,19 +1,17 @@
 ---
 UID: NF:resapi.ResUtilEnumPrivateProperties
 title: ResUtilEnumPrivateProperties function (resapi.h)
-
 description: Retrieves the names of a cluster object's&#32;private properties. The PRESUTIL_ENUM_PRIVATE_PROPERTIES type defines a pointer to this function.
 old-location: mscs\resutilenumprivateproperties.htm
 tech.root: MsCS
 ms.assetid: 83e08a14-4f0f-4c5b-9066-53ee5bb45901
-
 ms.date: 12/05/2018
 ms.keywords: PRESUTIL_ENUM_PRIVATE_PROPERTIES, PRESUTIL_ENUM_PRIVATE_PROPERTIES function [Failover Cluster], ResUtilEnumPrivateProperties, ResUtilEnumPrivateProperties function [Failover Cluster], _wolf_resutilenumprivateproperties, mscs.resutilenumprivateproperties, resapi/PRESUTIL_ENUM_PRIVATE_PROPERTIES, resapi/ResUtilEnumPrivateProperties
 ms.topic: function
-f1_keywords: 
- - "resapi/ResUtilEnumPrivateProperties"
+f1_keywords:
+- resapi/ResUtilEnumPrivateProperties
 dev_langs:
- - c++
+- c++
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: ResUtils.lib
 req.dll: ResUtils.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - ResUtils.dll
+- ResUtils.dll
 api_name:
- - ResUtilEnumPrivateProperties
+- ResUtilEnumPrivateProperties
 targetos: Windows
 req.typenames: 
 req.redist: 

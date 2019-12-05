@@ -1,19 +1,17 @@
 ---
 UID: NS:d2d1.D2D1_TRIANGLE
 title: D2D1_TRIANGLE (d2d1.h)
-
 description: Contains the three vertices that describe a triangle.
 old-location: direct2d\D2D1_TRIANGLE.htm
 tech.root: Direct2D
 ms.assetid: 6978bfff-05ca-44b6-8694-c4741f7987f6
-
 ms.date: 12/05/2018
 ms.keywords: D2D1_TRIANGLE, D2D1_TRIANGLE structure [Direct2D], d2d1/D2D1_TRIANGLE, direct2d.D2D1_TRIANGLE
 ms.topic: struct
-f1_keywords: 
- - "d2d1/D2D1_TRIANGLE"
+f1_keywords:
+- d2d1/D2D1_TRIANGLE
 dev_langs:
- - c++
+- c++
 req.header: d2d1.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - d2d1.h
+- d2d1.h
 api_name:
- - D2D1_TRIANGLE
+- D2D1_TRIANGLE
 targetos: Windows
 req.typenames: D2D1_TRIANGLE
 req.redist: 

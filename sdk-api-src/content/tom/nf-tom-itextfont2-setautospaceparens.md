@@ -1,19 +1,17 @@
 ---
 UID: NF:tom.ITextFont2.SetAutospaceParens
 title: ITextFont2::SetAutospaceParens (tom.h)
-
 description: Sets the East Asian &#0034;autospace parentheses&#0034; state.
 old-location: controls\itextfont2_setautospaceparens.htm
 tech.root: Controls
 ms.assetid: 9a9290e0-221e-454a-af9c-9d1bf5d37b5e
-
 ms.date: 12/05/2018
 ms.keywords: ITextFont2 interface [Windows Controls],SetAutospaceParens method, ITextFont2.SetAutospaceParens, ITextFont2::SetAutospaceParens, SetAutospaceParens, SetAutospaceParens method [Windows Controls], SetAutospaceParens method [Windows Controls],ITextFont2 interface, controls.itextfont2_setautospaceparens, tom/ITextFont2::SetAutospaceParens
 ms.topic: method
-f1_keywords: 
- - "tom/ITextFont2.SetAutospaceParens"
+f1_keywords:
+- tom/ITextFont2.SetAutospaceParens
 dev_langs:
- - c++
+- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msftedit.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msftedit.dll
+- Msftedit.dll
 api_name:
- - ITextFont2.SetAutospaceParens
+- ITextFont2.SetAutospaceParens
 targetos: Windows
 req.typenames: 
 req.redist: 

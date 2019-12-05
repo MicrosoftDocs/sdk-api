@@ -1,19 +1,17 @@
 ---
 UID: NF:winscard.SCardConnectA
 title: SCardConnectA function (winscard.h)
-
 description: Establishes a connection (using a specific resource manager context) between the calling application and a smart card contained by a specific reader. If no card exists in the specified reader, an error is returned.
 old-location: security\scardconnect.htm
 tech.root: SecAuthN
 ms.assetid: 389ada98-383f-4b37-bf5d-c40577ef25fd
-
 ms.date: 12/05/2018
 ms.keywords: 0, SCARD_PROTOCOL_T0, SCARD_PROTOCOL_T1, SCARD_PROTOCOL_UNDEFINED, SCARD_SHARE_DIRECT, SCARD_SHARE_EXCLUSIVE, SCARD_SHARE_SHARED, SCardConnect, SCardConnect function [Security], SCardConnectA, SCardConnectW, _smart_scardconnect, security.scardconnect, winscard/SCardConnect, winscard/SCardConnectA, winscard/SCardConnectW
 ms.topic: function
-f1_keywords: 
- - "winscard/SCardConnect"
+f1_keywords:
+- winscard/SCardConnect
 dev_langs:
- - c++
+- c++
 req.header: winscard.h
 req.include-header: 
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib: Winscard.lib
 req.dll: Winscard.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Winscard.dll
- - Ext-MS-Win-wlan-scard-l1-1-0.dll
- - Ext-MS-Win-Security-WinSCard-L1-1-0.dll
+- Winscard.dll
+- Ext-MS-Win-wlan-scard-l1-1-0.dll
+- Ext-MS-Win-Security-WinSCard-L1-1-0.dll
 api_name:
- - SCardConnect
- - SCardConnectA
- - SCardConnectW
+- SCardConnect
+- SCardConnectA
+- SCardConnectW
 targetos: Windows
 req.typenames: 
 req.redist: 

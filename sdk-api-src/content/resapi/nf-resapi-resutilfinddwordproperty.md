@@ -1,19 +1,17 @@
 ---
 UID: NF:resapi.ResUtilFindDwordProperty
 title: ResUtilFindDwordProperty function (resapi.h)
-
 description: Locates an unsigned long property value in a property list. The PRESUTIL_FIND_DWORD_PROPERTY type defines a pointer to this function.
 old-location: mscs\resutilfinddwordproperty.htm
 tech.root: MsCS
 ms.assetid: 884e922f-5cc6-4e46-b2f6-2436e7fc634e
-
 ms.date: 12/05/2018
 ms.keywords: PRESUTIL_FIND_DWORD_PROPERTY, PRESUTIL_FIND_DWORD_PROPERTY function [Failover Cluster], ResUtilFindDwordProperty, ResUtilFindDwordProperty function [Failover Cluster], _wolf_resutilfinddwordproperty, mscs.resutilfinddwordproperty, resapi/PRESUTIL_FIND_DWORD_PROPERTY, resapi/ResUtilFindDwordProperty
 ms.topic: function
-f1_keywords: 
- - "resapi/ResUtilFindDwordProperty"
+f1_keywords:
+- resapi/ResUtilFindDwordProperty
 dev_langs:
- - c++
+- c++
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: ResUtils.lib
 req.dll: ResUtils.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - ResUtils.dll
- - ext-ms-win-cluster-resutils-l1-1-0.dll
- - ext-ms-win-cluster-resutils-l1-1-1.dll
+- ResUtils.dll
+- ext-ms-win-cluster-resutils-l1-1-0.dll
+- ext-ms-win-cluster-resutils-l1-1-1.dll
 api_name:
- - ResUtilFindDwordProperty
+- ResUtilFindDwordProperty
 targetos: Windows
 req.typenames: 
 req.redist: 

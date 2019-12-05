@@ -1,19 +1,17 @@
 ---
 UID: NF:coml2api.StgOpenStorage
 title: StgOpenStorage function (coml2api.h)
-
 description: Opens an existing root storage object in the file system.
 old-location: stg\stgopenstorage.htm
 tech.root: Stg
 ms.assetid: 5ff18dc8-b24f-42bb-8c32-efc4d3696687
-
 ms.date: 12/05/2018
 ms.keywords: StgOpenStorage, StgOpenStorage function [Structured Storage], _stg_stgopenstorage, coml2api/StgOpenStorage, stg.stgopenstorage
 ms.topic: function
-f1_keywords: 
- - "coml2api/StgOpenStorage"
+f1_keywords:
+- coml2api/StgOpenStorage
 dev_langs:
- - c++
+- c++
 req.header: coml2api.h
 req.include-header: Objbase.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Ole32.lib
 req.dll: Ole32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ole32.dll
- - Ext-MS-Win-OLE32-IE-Ext-l1-1-0.dll
- - API-MS-Win-Core-Com-l2-1-1.dll
- - coml2.dll
+- Ole32.dll
+- Ext-MS-Win-OLE32-IE-Ext-l1-1-0.dll
+- API-MS-Win-Core-Com-l2-1-1.dll
+- coml2.dll
 api_name:
- - StgOpenStorage
+- StgOpenStorage
 targetos: Windows
 req.typenames: 
 req.redist: 

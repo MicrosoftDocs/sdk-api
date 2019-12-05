@@ -1,19 +1,17 @@
 ---
 UID: NF:spatialaudiometadata.ISpatialAudioMetadataClient.ActivateSpatialAudioMetadataWriter
 title: ISpatialAudioMetadataClient::ActivateSpatialAudioMetadataWriter (spatialaudiometadata.h)
-
 description: Creates an ISpatialAudioMetadataWriter object for writing spatial audio metadata items to an ISpatialAudioMetadataItems object.
 old-location: coreaudio\ispatialaudiometadataclient_activatespatialaudiometadatawriter.htm
 tech.root: CoreAudio
 ms.assetid: 0A30C838-E9B0-4CC3-BE88-9354160B8084
-
 ms.date: 12/05/2018
 ms.keywords: ActivateSpatialAudioMetadataWriter, ActivateSpatialAudioMetadataWriter method [Core Audio], ActivateSpatialAudioMetadataWriter method [Core Audio],ISpatialAudioMetadataClient interface, ISpatialAudioMetadataClient interface [Core Audio],ActivateSpatialAudioMetadataWriter method, ISpatialAudioMetadataClient.ActivateSpatialAudioMetadataWriter, ISpatialAudioMetadataClient::ActivateSpatialAudioMetadataWriter, coreaudio.ispatialaudiometadataclient_activatespatialaudiometadatawriter, spatialaudiometadata/ISpatialAudioMetadataClient::ActivateSpatialAudioMetadataWriter
 ms.topic: method
-f1_keywords: 
- - "spatialaudiometadata/ISpatialAudioMetadataClient.ActivateSpatialAudioMetadataWriter"
+f1_keywords:
+- spatialaudiometadata/ISpatialAudioMetadataClient.ActivateSpatialAudioMetadataWriter
 dev_langs:
- - c++
+- c++
 req.header: spatialaudiometadata.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - spatialaudiometadata.h
+- spatialaudiometadata.h
 api_name:
- - ISpatialAudioMetadataClient.ActivateSpatialAudioMetadataWriter
+- ISpatialAudioMetadataClient.ActivateSpatialAudioMetadataWriter
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:vfw.capDlgVideoFormat
 title: capDlgVideoFormat macro (vfw.h)
-
 description: The capDlgVideoFormat macro displays a dialog box in which the user can select the video format.
 old-location: multimedia\capdlgvideoformat.htm
 tech.root: Multimedia
 ms.assetid: 542913e8-c3f4-4ea5-afa0-035af6f3126e
-
 ms.date: 12/05/2018
-ms.keywords: "_win32_capDlgVideoFormat, capDlgVideoFormat, capDlgVideoFormat macro [Windows Multimedia], multimedia.capdlgvideoformat, vfw/capDlgVideoFormat"
+ms.keywords: _win32_capDlgVideoFormat, capDlgVideoFormat, capDlgVideoFormat macro [Windows Multimedia], multimedia.capdlgvideoformat, vfw/capDlgVideoFormat
 ms.topic: macro
-f1_keywords: 
- - "vfw/capDlgVideoFormat"
+f1_keywords:
+- vfw/capDlgVideoFormat
 dev_langs:
- - c++
+- c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Vfw.h
+- Vfw.h
 api_name:
- - capDlgVideoFormat
+- capDlgVideoFormat
 targetos: Windows
 req.typenames: 
 req.redist: 

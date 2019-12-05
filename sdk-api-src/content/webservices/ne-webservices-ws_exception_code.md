@@ -1,19 +1,17 @@
 ---
 UID: NE:webservices.__unnamed_enum_31
 title: WS_EXCEPTION_CODE (webservices.h)
-
 description: The structured exception codes thrown by this component. These exceptions are fatal and should not be handled by the application.
 old-location: wsw\ws_exception_code.htm
 tech.root: wsw
 ms.assetid: b59cbd41-03f2-4938-842a-664eddb07b1b
-
 ms.date: 12/05/2018
 ms.keywords: WS_EXCEPTION_CODE, WS_EXCEPTION_CODE enumeration [Web Services for Windows], WS_EXCEPTION_CODE_INTERNAL_FAILURE, WS_EXCEPTION_CODE_USAGE_FAILURE, webservices/WS_EXCEPTION_CODE, webservices/WS_EXCEPTION_CODE_INTERNAL_FAILURE, webservices/WS_EXCEPTION_CODE_USAGE_FAILURE, wsw.ws_exception_code
 ms.topic: enum
-f1_keywords: 
- - "webservices/WS_EXCEPTION_CODE"
+f1_keywords:
+- webservices/WS_EXCEPTION_CODE
 dev_langs:
- - c++
+- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WebServices.h
+- WebServices.h
 api_name:
- - WS_EXCEPTION_CODE
+- WS_EXCEPTION_CODE
 targetos: Windows
 req.typenames: WS_EXCEPTION_CODE
 req.redist: 

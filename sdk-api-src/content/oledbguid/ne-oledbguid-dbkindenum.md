@@ -1,19 +1,17 @@
 ---
 UID: NE:oledbguid.DBKINDENUM
 title: DBKINDENUM (oledbguid.h)
-
 description: The DBKINDENUM enumerated type specifies the combination of GUID, property number, or property name to use to identify a database object.
 old-location: indexsrv\dbkindenum.htm
 tech.root: IndexSrv
 ms.assetid: VS|indexsrv|~\html\ixoledb_7uwd.htm
-
 ms.date: 12/05/2018
 ms.keywords: DBKINDENUM, DBKINDENUM enumeration [Indexing Service], DBKIND_GUID, DBKIND_GUID_NAME, DBKIND_GUID_PROPID, DBKIND_NAME, DBKIND_PGUID_NAME, DBKIND_PGUID_PROPID, DBKIND_PROPID, _idxs_DBKINDENUM, indexsrv.dbkindenum, oledbguid/DBKINDENUM, oledbguid/DBKIND_GUID, oledbguid/DBKIND_GUID_NAME, oledbguid/DBKIND_GUID_PROPID, oledbguid/DBKIND_NAME, oledbguid/DBKIND_PGUID_NAME, oledbguid/DBKIND_PGUID_PROPID, oledbguid/DBKIND_PROPID
 ms.topic: enum
-f1_keywords: 
- - "oledbguid/DBKINDENUM"
+f1_keywords:
+- oledbguid/DBKINDENUM
 dev_langs:
- - c++
+- c++
 req.header: oledbguid.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - oledbguid.h
+- oledbguid.h
 api_name:
- - DBKINDENUM
+- DBKINDENUM
 targetos: Windows
 req.typenames: 
 req.redist: 

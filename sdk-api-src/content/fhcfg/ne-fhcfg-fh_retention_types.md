@@ -1,19 +1,17 @@
 ---
 UID: NE:fhcfg._FH_RETENTION_TYPES
 title: FH_RETENTION_TYPES (fhcfg.h)
-
 description: Specifies under what conditions previous versions of files and folders can be deleted from a backup target.
 old-location: winprog\fh_retention_types.htm
 tech.root: DevNotes
 ms.assetid: B80EC7BF-1825-462C-ACE3-5163C14EE15D
-
 ms.date: 12/05/2018
 ms.keywords: FH_RETENTION_AGE_BASED, FH_RETENTION_DISABLED, FH_RETENTION_TYPES, FH_RETENTION_TYPES enumeration [Windows API], FH_RETENTION_UNLIMITED, MAX_RETENTION_TYPE, fhcfg/FH_RETENTION_AGE_BASED, fhcfg/FH_RETENTION_DISABLED, fhcfg/FH_RETENTION_TYPES, fhcfg/FH_RETENTION_UNLIMITED, fhcfg/MAX_RETENTION_TYPE, winprog.fh_retention_types
 ms.topic: enum
-f1_keywords: 
- - "fhcfg/FH_RETENTION_TYPES"
+f1_keywords:
+- fhcfg/FH_RETENTION_TYPES
 dev_langs:
- - c++
+- c++
 req.header: fhcfg.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Fhcfg.h
+- Fhcfg.h
 api_name:
- - FH_RETENTION_TYPES
+- FH_RETENTION_TYPES
 targetos: Windows
 req.typenames: FH_RETENTION_TYPES
 req.redist: 

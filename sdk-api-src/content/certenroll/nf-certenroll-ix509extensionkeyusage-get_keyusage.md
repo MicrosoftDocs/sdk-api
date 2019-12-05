@@ -1,19 +1,17 @@
 ---
 UID: NF:certenroll.IX509ExtensionKeyUsage.get_KeyUsage
 title: IX509ExtensionKeyUsage::get_KeyUsage (certenroll.h)
-
 description: Retrieves the restrictions placed on the public key.
 old-location: security\ix509extensionkeyusage_keyusage_property.htm
 tech.root: seccertenroll
 ms.assetid: ddb23d36-342f-4bd1-9936-72b025c4a03b
-
 ms.date: 12/05/2018
 ms.keywords: IX509ExtensionKeyUsage interface [Security],KeyUsage property, IX509ExtensionKeyUsage.KeyUsage, IX509ExtensionKeyUsage.get_KeyUsage, IX509ExtensionKeyUsage::KeyUsage, IX509ExtensionKeyUsage::get_KeyUsage, KeyUsage property [Security], KeyUsage property [Security],IX509ExtensionKeyUsage interface, certenroll/IX509ExtensionKeyUsage::KeyUsage, certenroll/IX509ExtensionKeyUsage::get_KeyUsage, get_KeyUsage, security.ix509extensionkeyusage_keyusage_property
 ms.topic: method
-f1_keywords: 
- - "certenroll/IX509ExtensionKeyUsage.KeyUsage"
+f1_keywords:
+- certenroll/IX509ExtensionKeyUsage.KeyUsage
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: CertEnroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CertEnroll.dll
+- CertEnroll.dll
 api_name:
- - IX509ExtensionKeyUsage.KeyUsage
- - IX509ExtensionKeyUsage.get_KeyUsage
+- IX509ExtensionKeyUsage.KeyUsage
+- IX509ExtensionKeyUsage.get_KeyUsage
 targetos: Windows
 req.typenames: 
 req.redist: 

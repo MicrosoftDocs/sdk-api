@@ -1,19 +1,17 @@
 ---
 UID: NF:qmgr.IBackgroundCopyJob1.get_JobID
 title: IBackgroundCopyJob1::get_JobID (qmgr.h)
-
 description: Use the get_JobID method to retrieve the job's identifier.
 old-location: bits\ibackgroundcopyjob1_get_jobid.htm
 tech.root: Bits
 ms.assetid: 4f639576-33fd-413c-a163-764c0aa2ce81
-
 ms.date: 12/05/2018
 ms.keywords: IBackgroundCopyJob1 interface [BITS],get_JobID method, IBackgroundCopyJob1.get_JobID, IBackgroundCopyJob1::get_JobID, bits.ibackgroundcopyjob1_get_jobid, get_JobID, get_JobID method [BITS], get_JobID method [BITS],IBackgroundCopyJob1 interface, qmgr/IBackgroundCopyJob1::get_JobID
 ms.topic: method
-f1_keywords: 
- - "qmgr/IBackgroundCopyJob1.get_JobID"
+f1_keywords:
+- qmgr/IBackgroundCopyJob1.get_JobID
 dev_langs:
- - c++
+- c++
 req.header: qmgr.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: QmgrPrxy.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - QmgrPrxy.dll
+- QmgrPrxy.dll
 api_name:
- - IBackgroundCopyJob1.get_JobID
+- IBackgroundCopyJob1.get_JobID
 targetos: Windows
 req.typenames: 
 req.redist: 

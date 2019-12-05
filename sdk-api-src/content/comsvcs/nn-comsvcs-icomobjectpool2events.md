@@ -1,19 +1,17 @@
 ---
 UID: NN:comsvcs.IComObjectPool2Events
 title: IComObjectPool2Events (comsvcs.h)
-
 description: Notifies the subscriber if a transactional or non-transactional object is added to or obtained from the object pool.
 old-location: cos\icomobjectpool2events.htm
 tech.root: cossdk
 ms.assetid: 2aac494d-52ce-408c-8444-8792b5b53604
-
 ms.date: 12/05/2018
 ms.keywords: IComObjectPool2Events, IComObjectPool2Events interface [COM+], IComObjectPool2Events interface [COM+],described, _dtc_icomobjectpool2events, comsvcs/IComObjectPool2Events, cos.icomobjectpool2events
 ms.topic: interface
-f1_keywords: 
- - "comsvcs/IComObjectPool2Events"
+f1_keywords:
+- comsvcs/IComObjectPool2Events
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - IComObjectPool2Events
+- IComObjectPool2Events
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:dxva2api.IDirect3DDeviceManager9.ResetDevice
 title: IDirect3DDeviceManager9::ResetDevice (dxva2api.h)
-
 description: Sets the Direct3D device or notifies the device manager that the Direct3D device was reset.
 old-location: mf\idirect3ddevicemanager9_resetdevice.htm
 tech.root: medfound
 ms.assetid: 01d2c2ea-5967-4a2d-9c78-e6e8b42a7e33
-
 ms.date: 12/05/2018
 ms.keywords: 01d2c2ea-5967-4a2d-9c78-e6e8b42a7e33, IDirect3DDeviceManager9 interface [Media Foundation],ResetDevice method, IDirect3DDeviceManager9.ResetDevice, IDirect3DDeviceManager9::ResetDevice, ResetDevice, ResetDevice method [Media Foundation], ResetDevice method [Media Foundation],IDirect3DDeviceManager9 interface, dxva2api/IDirect3DDeviceManager9::ResetDevice, mf.idirect3ddevicemanager9_resetdevice
 ms.topic: method
-f1_keywords: 
- - "dxva2api/IDirect3DDeviceManager9.ResetDevice"
+f1_keywords:
+- dxva2api/IDirect3DDeviceManager9.ResetDevice
 dev_langs:
- - c++
+- c++
 req.header: dxva2api.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dxva2api.h
+- dxva2api.h
 api_name:
- - IDirect3DDeviceManager9.ResetDevice
+- IDirect3DDeviceManager9.ResetDevice
 targetos: Windows
 req.typenames: 
 req.redist: 

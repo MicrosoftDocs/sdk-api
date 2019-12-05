@@ -1,19 +1,17 @@
 ---
 UID: NF:recapis.MakeWordList
 title: MakeWordList function (recapis.h)
-
 description: Creates a word list.
 old-location: tablet\makewordlist.htm
 tech.root: tablet
 ms.assetid: b406a646-ab98-4852-af6d-9f4864ad8cf9
-
 ms.date: 12/05/2018
 ms.keywords: MakeWordList, MakeWordList function [Tablet PC], b406a646-ab98-4852-af6d-9f4864ad8cf9, recapis/MakeWordList, tablet.makewordlist
 ms.topic: function
-f1_keywords: 
- - "recapis/MakeWordList"
+f1_keywords:
+- recapis/MakeWordList
 dev_langs:
- - c++
+- c++
 req.header: recapis.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - recapis.h
+- recapis.h
 api_name:
- - MakeWordList
+- MakeWordList
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:wmsdkidl.IWMMutualExclusion2.SetRecordName
 title: IWMMutualExclusion2::SetRecordName (wmsdkidl.h)
-
 description: The SetRecordName method assigns a name to a record. You should assign a name to every record so that you can easily identify the records in the future.
 old-location: wmformat\iwmmutualexclusion2_setrecordname.htm
 tech.root: wmformat
 ms.assetid: 9527024e-2d52-4a81-90a5-4ef5241ba6dd
-
 ms.date: 12/05/2018
 ms.keywords: IWMMutualExclusion2 interface [windows Media Format],SetRecordName method, IWMMutualExclusion2.SetRecordName, IWMMutualExclusion2::SetRecordName, IWMMutualExclusion2SetRecordName, SetRecordName, SetRecordName method [windows Media Format], SetRecordName method [windows Media Format],IWMMutualExclusion2 interface, wmformat.iwmmutualexclusion2_setrecordname, wmsdkidl/IWMMutualExclusion2::SetRecordName
 ms.topic: method
-f1_keywords: 
- - "wmsdkidl/IWMMutualExclusion2.SetRecordName"
+f1_keywords:
+- wmsdkidl/IWMMutualExclusion2.SetRecordName
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wmvcore.lib
- - Wmvcore.dll
- - WMStubDRM.lib
- - WMStubDRM.dll
+- Wmvcore.lib
+- Wmvcore.dll
+- WMStubDRM.lib
+- WMStubDRM.dll
 api_name:
- - IWMMutualExclusion2.SetRecordName
+- IWMMutualExclusion2.SetRecordName
 targetos: Windows
 req.typenames: 
 req.redist: 

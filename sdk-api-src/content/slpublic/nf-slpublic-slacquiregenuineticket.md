@@ -1,19 +1,17 @@
 ---
 UID: NF:slpublic.SLAcquireGenuineTicket
 title: SLAcquireGenuineTicket function (slpublic.h)
-
 description: Gets a XrML genuine ticket acquired from the Software Licensing Server (SLS).
 old-location: security\slacquiregenuineticket.htm
 tech.root: SecSLApi
 ms.assetid: 028099c8-9116-4212-bc29-1065b22be593
-
 ms.date: 12/05/2018
 ms.keywords: SLAcquireGenuineTicket, SLAcquireGenuineTicket function [Security], security.slacquiregenuineticket, slpublic/SLAcquireGenuineTicket
 ms.topic: function
-f1_keywords: 
- - "slpublic/SLAcquireGenuineTicket"
+f1_keywords:
+- slpublic/SLAcquireGenuineTicket
 dev_langs:
- - c++
+- c++
 req.header: slpublic.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Slcext.lib
 req.dll: Slcext.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Slcext.dll
+- Slcext.dll
 api_name:
- - SLAcquireGenuineTicket
+- SLAcquireGenuineTicket
 targetos: Windows
 req.typenames: 
 req.redist: 

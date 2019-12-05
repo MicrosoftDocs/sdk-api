@@ -1,19 +1,17 @@
 ---
 UID: NF:mfidl.MFTranscodeGetAudioOutputAvailableTypes
 title: MFTranscodeGetAudioOutputAvailableTypes function (mfidl.h)
-
 description: Gets a list of output formats from an audio encoder.
 old-location: mf\mftranscodegetaudiooutputavailabletypes.htm
 tech.root: medfound
 ms.assetid: 8750eacb-7e6f-4c17-987b-f4baa4eea847
-
 ms.date: 12/05/2018
 ms.keywords: MFT_FIELDOFUSE_UNLOCK_Attribute, MFTranscodeGetAudioOutputAvailableTypes, MFTranscodeGetAudioOutputAvailableTypes function [Media Foundation], MF_TRANSCODE_ENCODINGPROFILE, MF_TRANSCODE_QUALITYVSSPEED, mf.mftranscodegetaudiooutputavailabletypes, mfidl/MFTranscodeGetAudioOutputAvailableTypes
 ms.topic: function
-f1_keywords: 
- - "mfidl/MFTranscodeGetAudioOutputAvailableTypes"
+f1_keywords:
+- mfidl/MFTranscodeGetAudioOutputAvailableTypes
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Mf.lib
 req.dll: Mf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - mf.dll
+- mf.dll
 api_name:
- - MFTranscodeGetAudioOutputAvailableTypes
+- MFTranscodeGetAudioOutputAvailableTypes
 targetos: Windows
 req.typenames: 
 req.redist: 

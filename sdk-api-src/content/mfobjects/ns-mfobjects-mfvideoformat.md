@@ -1,19 +1,17 @@
 ---
 UID: NS:mfobjects._MFVIDEOFORMAT
 title: MFVIDEOFORMAT (mfobjects.h)
-
 description: Describes a video format.
 old-location: mf\mfvideoformat.htm
 tech.root: medfound
 ms.assetid: 7fbc4a35-117c-4f0c-9e9b-ff44e30a1618
-
 ms.date: 12/05/2018
 ms.keywords: 7fbc4a35-117c-4f0c-9e9b-ff44e30a1618, MFVIDEOFORMAT, MFVIDEOFORMAT structure [Media Foundation], mf.mfvideoformat, mfobjects/MFVIDEOFORMAT
 ms.topic: struct
 f1_keywords:
 - mfobjects/MFVIDEOFORMAT
 dev_langs:
- - c++
+- c++
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows

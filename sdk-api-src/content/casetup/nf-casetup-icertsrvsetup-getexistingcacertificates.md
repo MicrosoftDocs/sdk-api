@@ -1,19 +1,17 @@
 ---
 UID: NF:casetup.ICertSrvSetup.GetExistingCACertificates
 title: ICertSrvSetup::GetExistingCACertificates (casetup.h)
-
 description: Gets the collection of CertSrvSetupKeyInformation objects that represent valid certification authority (CA) certificates currently installed on the computer.
 old-location: security\icertsrvsetup_getexistingcacertificates.htm
 tech.root: SecCrypto
 ms.assetid: fd8c7bac-b6db-41f2-a648-e01ebd09c41c
-
 ms.date: 12/05/2018
 ms.keywords: GetExistingCACertificates, GetExistingCACertificates method [Security], GetExistingCACertificates method [Security],ICertSrvSetup interface, ICertSrvSetup interface [Security],GetExistingCACertificates method, ICertSrvSetup.GetExistingCACertificates, ICertSrvSetup::GetExistingCACertificates, casetup/ICertSrvSetup::GetExistingCACertificates, security.icertsrvsetup_getexistingcacertificates
 ms.topic: method
-f1_keywords: 
- - "casetup/ICertSrvSetup.GetExistingCACertificates"
+f1_keywords:
+- casetup/ICertSrvSetup.GetExistingCACertificates
 dev_langs:
- - c++
+- c++
 req.header: casetup.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Certocm.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Certocm.dll
+- Certocm.dll
 api_name:
- - ICertSrvSetup.GetExistingCACertificates
+- ICertSrvSetup.GetExistingCACertificates
 targetos: Windows
 req.typenames: 
 req.redist: 

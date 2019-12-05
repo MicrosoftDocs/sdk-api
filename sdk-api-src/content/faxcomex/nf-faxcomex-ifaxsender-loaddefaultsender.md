@@ -1,19 +1,17 @@
 ---
 UID: NF:faxcomex.IFaxSender.LoadDefaultSender
 title: IFaxSender::LoadDefaultSender (faxcomex.h)
-
 description: The IFaxSender::get_LoadDefaultSender method fills the FaxSender object with the default sender information.
 old-location: fax\_mfax_faxsender_cpp_mfax_faxsender_loaddefaultsender_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_9ak2.htm
-
 ms.date: 12/05/2018
 ms.keywords: IFaxSender interface [Fax Service],LoadDefaultSender method, IFaxSender.LoadDefaultSender, IFaxSender::LoadDefaultSender, LoadDefaultSender, LoadDefaultSender method [Fax Service], LoadDefaultSender method [Fax Service],IFaxSender interface, _mfax_faxsender.loaddefaultsender, fax._mfax_faxsender_cpp_mfax_faxsender_loaddefaultsender_cpp, fax._mfax_faxsender_loaddefaultsender, faxcomex/IFaxSender::LoadDefaultSender
 ms.topic: method
-f1_keywords: 
- - "faxcomex/IFaxSender.LoadDefaultSender"
+f1_keywords:
+- faxcomex/IFaxSender.LoadDefaultSender
 dev_langs:
- - c++
+- c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: Fxscomex.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Fxscomex.dll
+- Fxscomex.dll
 api_name:
- - IFaxSender.LoadDefaultSender
- - IFaxSender.LoadDefaultSender
+- IFaxSender.LoadDefaultSender
+- IFaxSender.LoadDefaultSender
 targetos: Windows
 req.typenames: 
 req.redist: 

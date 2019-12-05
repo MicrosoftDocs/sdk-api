@@ -1,19 +1,17 @@
 ---
 UID: NN:winsync.ISynchronousDataRetriever
 title: ISynchronousDataRetriever (winsync.h)
-
 description: Represents the mechanism by which the destination provider retrieves item data from the source provider.
 old-location: winsync\isynchronousdataretriever.htm
 tech.root: winsync
 ms.assetid: d59a5198-5878-4a48-b6c4-042afc36054d
-
 ms.date: 12/05/2018
 ms.keywords: ISynchronousDataRetriever, ISynchronousDataRetriever interface [Windows Sync], ISynchronousDataRetriever interface [Windows Sync],described, winsync.isynchronousdataretriever, winsync/ISynchronousDataRetriever
 ms.topic: interface
-f1_keywords: 
- - "winsync/ISynchronousDataRetriever"
+f1_keywords:
+- winsync/ISynchronousDataRetriever
 dev_langs:
- - c++
+- c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - winsync.h
+- winsync.h
 api_name:
- - ISynchronousDataRetriever
+- ISynchronousDataRetriever
 targetos: Windows
 req.typenames: 
 req.redist: 

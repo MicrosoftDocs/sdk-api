@@ -1,19 +1,17 @@
 ---
 UID: NS:projectedfslib.PRJ_COMPLETE_COMMAND_EXTENDED_PARAMETERS
 title: PRJ_COMPLETE_COMMAND_EXTENDED_PARAMETERS (projectedfslib.h)
-
 description: Specifies parameters required for completing certain callbacks.
 old-location: projfs\prj_complete_command_extended_parameters.htm
 tech.root: ProjFS
 ms.assetid: 1E13CED8-41DF-4206-AA60-751424424011
-
 ms.date: 12/05/2018
 ms.keywords: PRJ_COMPLETE_COMMAND_EXTENDED_PARAMETERS, PRJ_COMPLETE_COMMAND_EXTENDED_PARAMETERS structure, ProjFS.prj_complete_command_extended_parameters, projectedfslib/PRJ_COMPLETE_COMMAND_EXTENDED_PARAMETERS
 ms.topic: struct
-f1_keywords: 
- - "projectedfslib/PRJ_COMPLETE_COMMAND_EXTENDED_PARAMETERS"
+f1_keywords:
+- projectedfslib/PRJ_COMPLETE_COMMAND_EXTENDED_PARAMETERS
 dev_langs:
- - c++
+- c++
 req.header: projectedfslib.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - projectedfslib.h
+- projectedfslib.h
 api_name:
- - PRJ_COMPLETE_COMMAND_EXTENDED_PARAMETERS
+- PRJ_COMPLETE_COMMAND_EXTENDED_PARAMETERS
 targetos: Windows
 req.typenames: PRJ_COMPLETE_COMMAND_EXTENDED_PARAMETERS
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NE:searchapi.__MIDL___MIDL_itf_searchapi_0000_0022_0001
 title: PRIORITY_LEVEL (searchapi.h)
-
 description: Used by the IRowsetPrioritization interface to sets or retrieve the current indexer prioritization level for the scope specified by a query.
 old-location: search\_search_PRIORITY_LEVEL.htm
 tech.root: search
 ms.assetid: VS|SEARCH|~\search\wds3x\reference\enums\priority_level.htm
-
 ms.date: 12/05/2018
 ms.keywords: PRIORITY_LEVEL, PRIORITY_LEVEL enumeration [search], PRIORITY_LEVEL_DEFAULT, PRIORITY_LEVEL_FOREGROUND, PRIORITY_LEVEL_HIGH, PRIORITY_LEVEL_LOW, _search_PRIORITY_LEVEL, search._search_PRIORITY_LEVEL, searchapi/PRIORITY_LEVEL, searchapi/PRIORITY_LEVEL_DEFAULT, searchapi/PRIORITY_LEVEL_FOREGROUND, searchapi/PRIORITY_LEVEL_HIGH, searchapi/PRIORITY_LEVEL_LOW
 ms.topic: enum
-f1_keywords: 
- - "searchapi/PRIORITY_LEVEL"
+f1_keywords:
+- searchapi/PRIORITY_LEVEL
 dev_langs:
- - c++
+- c++
 req.header: searchapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Searchapi.h
+- Searchapi.h
 api_name:
- - PRIORITY_LEVEL
+- PRIORITY_LEVEL
 targetos: Windows
 req.typenames: PRIORITY_LEVEL
 req.redist: 

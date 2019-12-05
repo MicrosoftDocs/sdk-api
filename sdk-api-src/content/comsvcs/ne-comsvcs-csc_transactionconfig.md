@@ -1,19 +1,17 @@
 ---
 UID: NE:comsvcs.tagCSC_TransactionConfig
 title: CSC_TransactionConfig (comsvcs.h)
-
 description: Indicates how transactions are configured for CServiceConfig.
 old-location: cos\csc_transactionconfig.htm
 tech.root: cossdk
 ms.assetid: 3524d7b3-4bcd-4e92-afc2-ddac98a23b7c
-
 ms.date: 12/05/2018
 ms.keywords: CSC_CreateTransactionIfNecessary, CSC_IfContainerIsTransactional, CSC_NewTransaction, CSC_NoTransaction, CSC_TransactionConfig, CSC_TransactionConfig enumeration [COM+], _cos_CSC_TransactionConfig, comsvcs/CSC_CreateTransactionIfNecessary, comsvcs/CSC_IfContainerIsTransactional, comsvcs/CSC_NewTransaction, comsvcs/CSC_NoTransaction, comsvcs/CSC_TransactionConfig, cos.csc_transactionconfig
 ms.topic: enum
-f1_keywords: 
- - "comsvcs/CSC_TransactionConfig"
+f1_keywords:
+- comsvcs/CSC_TransactionConfig
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - CSC_TransactionConfig
+- CSC_TransactionConfig
 targetos: Windows
 req.typenames: CSC_TransactionConfig
 req.redist: 

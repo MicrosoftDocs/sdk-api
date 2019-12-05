@@ -1,19 +1,17 @@
 ---
 UID: NN:d3d10.ID3D10Multithread
 title: ID3D10Multithread (d3d10.h)
-
 description: A multithread interface accesses multithread settings and can only be used if the thread-safe layer is turned on.
 old-location: direct3d10\id3d10multithread.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10multithread.htm
-
 ms.date: 12/05/2018
 ms.keywords: 03af3cb4-f8ff-e677-80ea-33ee09667866, ID3D10Multithread, ID3D10Multithread interface [Direct3D 10], ID3D10Multithread interface [Direct3D 10],described, d3d10/ID3D10Multithread, direct3d10.id3d10multithread
 ms.topic: interface
-f1_keywords: 
- - "d3d10/ID3D10Multithread"
+f1_keywords:
+- d3d10/ID3D10Multithread
 dev_langs:
- - c++
+- c++
 req.header: d3d10.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: D3D10.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D10.lib
- - D3D10.dll
+- D3D10.lib
+- D3D10.dll
 api_name:
- - ID3D10Multithread
+- ID3D10Multithread
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:clusapi.RemoveResourceFromClusterSharedVolumes
 title: RemoveResourceFromClusterSharedVolumes function (clusapi.h)
-
 description: Removes storage from Cluster Shared Volumes.
 old-location: mscs\removeresourcefromclustersharedvolumes.htm
 tech.root: MsCS
 ms.assetid: 696CBC0D-C1F6-4f1a-94D1-71F77B102258
-
 ms.date: 12/05/2018
 ms.keywords: PCLUSAPI_REMOVE_RESOURCE_FROM_CLUSTER_SHARED_VOLUMES, PCLUSAPI_REMOVE_RESOURCE_FROM_CLUSTER_SHARED_VOLUMES function [Failover Cluster], RemoveResourceFromClusterSharedVolumes, RemoveResourceFromClusterSharedVolumes function [Failover Cluster], clusapi/PCLUSAPI_REMOVE_RESOURCE_FROM_CLUSTER_SHARED_VOLUMES, clusapi/RemoveResourceFromClusterSharedVolumes, mscs.removeresourcefromclustersharedvolumes
 ms.topic: function
-f1_keywords: 
- - "clusapi/RemoveResourceFromClusterSharedVolumes"
+f1_keywords:
+- clusapi/RemoveResourceFromClusterSharedVolumes
 dev_langs:
- - c++
+- c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: ClusAPI.lib
 req.dll: ClusAPI.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - ClusAPI.dll
+- ClusAPI.dll
 api_name:
- - RemoveResourceFromClusterSharedVolumes
+- RemoveResourceFromClusterSharedVolumes
 targetos: Windows
 req.typenames: 
 req.redist: 

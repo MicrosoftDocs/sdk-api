@@ -1,19 +1,17 @@
 ---
 UID: NS:gdiplusinit.GdiplusStartupOutput
 title: GdiplusStartupOutput (gdiplusinit.h)
-
 description: The GdiplusStartup function uses the GdiplusStartupOutput structure to return (in its output parameter) a pointer to a hook function and a pointer to an unhook function.
 old-location: gdiplus\_gdiplus_STRUC_GdiplusStartupOutput.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\structures\gdiplusstartupoutput.htm
-
 ms.date: 12/05/2018
 ms.keywords: GdiplusStartupOutput, GdiplusStartupOutput structure [GDI+], _gdiplus_STRUC_GdiplusStartupOutput, gdiplus._gdiplus_STRUC_GdiplusStartupOutput, gdiplusinit/GdiplusStartupOutput
 ms.topic: struct
-f1_keywords: 
- - "gdiplusinit/GdiplusStartupOutput"
+f1_keywords:
+- gdiplusinit/GdiplusStartupOutput
 dev_langs:
- - c++
+- c++
 req.header: gdiplusinit.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Gdiplusinit.h
+- Gdiplusinit.h
 api_name:
- - GdiplusStartupOutput
+- GdiplusStartupOutput
 targetos: Windows
 req.typenames: 
 req.redist: 

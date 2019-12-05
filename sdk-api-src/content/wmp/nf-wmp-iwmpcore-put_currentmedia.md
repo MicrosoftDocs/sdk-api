@@ -1,19 +1,17 @@
 ---
 UID: NF:wmp.IWMPCore.put_currentMedia
 title: IWMPCore::put_currentMedia (wmp.h)
-
 description: The put_currentMedia method specifies the IWMPMedia interface that corresponds to the current media item.
 old-location: wmp\iwmpcore_put_currentmedia.htm
 tech.root: WMP
 ms.assetid: 003d1937-13f0-4d2c-ad5c-a83569295b62
-
 ms.date: 12/05/2018
 ms.keywords: IWMPCore interface [Windows Media Player],put_currentMedia method, IWMPCore.put_currentMedia, IWMPCore::put_currentMedia, IWMPCoreput_currentMedia, put_currentMedia, put_currentMedia method [Windows Media Player], put_currentMedia method [Windows Media Player],IWMPCore interface, wmp.iwmpcore_put_currentmedia, wmp/IWMPCore::put_currentMedia
 ms.topic: method
-f1_keywords: 
- - "wmp/IWMPCore.put_currentMedia"
+f1_keywords:
+- wmp/IWMPCore.put_currentMedia
 dev_langs:
- - c++
+- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wmp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmp.dll
+- wmp.dll
 api_name:
- - IWMPCore.put_currentMedia
+- IWMPCore.put_currentMedia
 targetos: Windows
 req.typenames: 
 req.redist: 

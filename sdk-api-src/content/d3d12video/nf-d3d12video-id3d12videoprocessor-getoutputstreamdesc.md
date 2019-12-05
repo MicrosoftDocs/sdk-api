@@ -1,46 +1,43 @@
 ---
 UID: NF:d3d12video.ID3D12VideoProcessor.GetOutputStreamDesc
 title: ID3D12VideoProcessor::GetOutputStreamDesc
-
 description: Gets the output stream description provided when the video processor was created with a call to ID3D12VideoDevice::CreateVideoProcessor.
 tech.root: mf
 ms.assetid: 5047b341-d045-4210-b10f-026ee3a7a3ca
-
 ms.date: 05/28/2019
 ms.topic: method
 f1_keywords:
- - ID3D12VideoProcessor::GetOutputStreamDesc
+- ID3D12VideoProcessor::GetOutputStreamDesc
 dev_langs:
- - c++
+- c++
 ms.keywords: ID3D12VideoProcessor::GetOutputStreamDesc, GetOutputStreamDesc, ID3D12VideoProcessor.GetOutputStreamDesc, ID3D12VideoProcessor::GetOutputStreamDesc, ID3D12VideoProcessor.GetOutputStreamDesc
 req.header: d3d12video.h
-req.include-header:
-req.redist:
-req.target-type:
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
+req.include-header: 
+req.redist: 
+req.target-type: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
 req.dll: d3d12.dll
 req.irql: 
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
-req.type-library:
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
 topic_type:
- - apiref
+- apiref
 api_type:
- - COM
+- COM
 api_location:
- - d3d12.dll
+- d3d12.dll
 api_name:
- - ID3D12VideoProcessor::GetOutputStreamDesc
+- ID3D12VideoProcessor::GetOutputStreamDesc
 targetos: Windows
-
 ---
 
 # ID3D12VideoProcessor::GetOutputStreamDesc

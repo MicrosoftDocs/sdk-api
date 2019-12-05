@@ -1,19 +1,17 @@
 ---
 UID: NN:syncmgr.ISyncMgrConflictPresenter
 title: ISyncMgrConflictPresenter (syncmgr.h)
-
 description: Exposes a method that presents a conflict to the user.
 old-location: shell\ISyncMgrConflictPresenter.htm
 tech.root: shell
 ms.assetid: ec9a2050-23ad-4478-a705-0a7324e8f84d
-
 ms.date: 12/05/2018
 ms.keywords: ISyncMgrConflictPresenter, ISyncMgrConflictPresenter interface [Windows Shell], ISyncMgrConflictPresenter interface [Windows Shell],described, _shell_ISyncMgrConflictPresenter, shell.ISyncMgrConflictPresenter, syncmgr/ISyncMgrConflictPresenter
 ms.topic: interface
-f1_keywords: 
- - "syncmgr/ISyncMgrConflictPresenter"
+f1_keywords:
+- syncmgr/ISyncMgrConflictPresenter
 dev_langs:
- - c++
+- c++
 req.header: syncmgr.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Syncmgr.h
+- Syncmgr.h
 api_name:
- - ISyncMgrConflictPresenter
+- ISyncMgrConflictPresenter
 targetos: Windows
 req.typenames: 
 req.redist: 

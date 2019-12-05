@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationProxyFactoryMapping.GetEntry
 title: IUIAutomationProxyFactoryMapping::GetEntry (uiautomationclient.h)
-
 description: Retrieves an entry from the proxy factory table.
 old-location: winauto\uiauto_IUIAutomationProxyFactoryMapping_GetEntry.htm
 tech.root: WinAuto
 ms.assetid: 1500c5e5-5161-4753-ab3a-7e5b62246411
-
 ms.date: 12/05/2018
 ms.keywords: GetEntry, GetEntry method [Windows Accessibility], GetEntry method [Windows Accessibility],IUIAutomationProxyFactoryMapping interface, IUIAutomationProxyFactoryMapping interface [Windows Accessibility],GetEntry method, IUIAutomationProxyFactoryMapping.GetEntry, IUIAutomationProxyFactoryMapping::GetEntry, uiauto.uiauto_IUIAutomationProxyFactoryMapping_GetEntry, uiauto_IUIAutomationProxyFactoryMapping_GetEntry, uiautomationclient/IUIAutomationProxyFactoryMapping::GetEntry, winauto.uiauto_IUIAutomationProxyFactoryMapping_GetEntry
 ms.topic: method
-f1_keywords: 
- - "uiautomationclient/IUIAutomationProxyFactoryMapping.GetEntry"
+f1_keywords:
+- uiautomationclient/IUIAutomationProxyFactoryMapping.GetEntry
 dev_langs:
- - c++
+- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationClient.h
+- UIAutomationClient.h
 api_name:
- - IUIAutomationProxyFactoryMapping.GetEntry
+- IUIAutomationProxyFactoryMapping.GetEntry
 targetos: Windows
 req.typenames: 
 req.redist: 

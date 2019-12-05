@@ -1,19 +1,17 @@
 ---
 UID: NF:winuser.CountClipboardFormats
 title: CountClipboardFormats function (winuser.h)
-
 description: Retrieves the number of different data formats currently on the clipboard.
 old-location: dataxchg\countclipboardformats.htm
 tech.root: dataxchg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\dataexchange\clipboard\clipboardreference\clipboardfunctions\countclipboardformats.htm
-
 ms.date: 12/05/2018
 ms.keywords: CountClipboardFormats, CountClipboardFormats function [Data Exchange], _win32_CountClipboardFormats, _win32_countclipboardformats_cpp, dataxchg.countclipboardformats, winui._win32_countclipboardformats, winuser/CountClipboardFormats
 ms.topic: function
-f1_keywords: 
- - "winuser/CountClipboardFormats"
+f1_keywords:
+- winuser/CountClipboardFormats
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - User32.dll
- - API-MS-Win-RTCore-NTUser-clipboard-l1-1-0.dll
- - minuser.dll
- - api-ms-win-ntuser-ie-clipboard-l1-1-0.dll
- - ie_stubs.dll
+- User32.dll
+- API-MS-Win-RTCore-NTUser-clipboard-l1-1-0.dll
+- minuser.dll
+- api-ms-win-ntuser-ie-clipboard-l1-1-0.dll
+- ie_stubs.dll
 api_name:
- - CountClipboardFormats
+- CountClipboardFormats
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:mfapi.MFValidateMediaTypeSize
 title: MFValidateMediaTypeSize function (mfapi.h)
-
 description: Validates the size of a buffer for a video format block.
 old-location: mf\mfvalidatemediatypesize.htm
 tech.root: medfound
 ms.assetid: 782b59ca-bfa8-4217-9b72-50a78937775a
-
 ms.date: 12/05/2018
 ms.keywords: 782b59ca-bfa8-4217-9b72-50a78937775a, FORMAT_DvInfo, FORMAT_MFVideoFormat, FORMAT_MPEG2Video, FORMAT_MPEGStreams, FORMAT_MPEGVideo, FORMAT_VideoInfo, FORMAT_VideoInfo2, FORMAT_WaveFormatEx, MFValidateMediaTypeSize, MFValidateMediaTypeSize function [Media Foundation], mf.mfvalidatemediatypesize, mfapi/MFValidateMediaTypeSize
 ms.topic: function
-f1_keywords: 
- - "mfapi/MFValidateMediaTypeSize"
+f1_keywords:
+- mfapi/MFValidateMediaTypeSize
 dev_langs:
- - c++
+- c++
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Mfplat.lib
 req.dll: Mfplat.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - mfplat.dll
+- mfplat.dll
 api_name:
- - MFValidateMediaTypeSize
+- MFValidateMediaTypeSize
 targetos: Windows
 req.typenames: 
 req.redist: 

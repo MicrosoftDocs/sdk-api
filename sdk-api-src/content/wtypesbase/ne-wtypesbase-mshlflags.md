@@ -1,19 +1,17 @@
 ---
 UID: NE:wtypesbase.tagMSHLFLAGS
 title: MSHLFLAGS (wtypesbase.h)
-
 description: Specifies why the marshaling is to be done.
 old-location: com\mshlflags.htm
 tech.root: com
 ms.assetid: 42a482be-d4b8-4f2e-ae43-1d210cb44c7c
-
 ms.date: 12/05/2018
 ms.keywords: MSHLFLAGS, MSHLFLAGS enumeration [COM], MSHLFLAGS_NOPING, MSHLFLAGS_NORMAL, MSHLFLAGS_TABLESTRONG, MSHLFLAGS_TABLEWEAK, _com_MSHLFLAGS, com.mshlflags, wtypesbase/MSHLFLAGS, wtypesbase/MSHLFLAGS_NOPING, wtypesbase/MSHLFLAGS_NORMAL, wtypesbase/MSHLFLAGS_TABLESTRONG, wtypesbase/MSHLFLAGS_TABLEWEAK
 ms.topic: enum
-f1_keywords: 
- - "wtypesbase/MSHLFLAGS"
+f1_keywords:
+- wtypesbase/MSHLFLAGS
 dev_langs:
- - c++
+- c++
 req.header: wtypesbase.h
 req.include-header: WTypes.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - wtypesbase.h
+- wtypesbase.h
 api_name:
- - MSHLFLAGS
+- MSHLFLAGS
 targetos: Windows
 req.typenames: MSHLFLAGS
 req.redist: 

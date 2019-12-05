@@ -1,19 +1,17 @@
 ---
 UID: NF:bits.IBackgroundCopyManager.EnumJobs
 title: IBackgroundCopyManager::EnumJobs (bits.h)
-
 description: Retrieves an interface pointer to an enumerator object that you use to enumerate the jobs in the transfer queue. The order of the jobs in the enumerator is arbitrary.
 old-location: bits\ibackgroundcopymanager_enumjobs.htm
 tech.root: Bits
 ms.assetid: e8b73060-dff9-4ab3-8009-d2b41502fc1a
-
 ms.date: 12/05/2018
 ms.keywords: BG_JOB_ENUM_ALL_USERS, EnumJobs, EnumJobs method [BITS], EnumJobs method [BITS],IBackgroundCopyManager interface, IBackgroundCopyManager interface [BITS],EnumJobs method, IBackgroundCopyManager.EnumJobs, IBackgroundCopyManager::EnumJobs, _drz_ibackgroundcopymanager_enumjobs, bits.ibackgroundcopymanager_enumjobs, bits/IBackgroundCopyManager::EnumJobs
 ms.topic: method
-f1_keywords: 
- - "bits/IBackgroundCopyManager.EnumJobs"
+f1_keywords:
+- bits/IBackgroundCopyManager.EnumJobs
 dev_langs:
- - c++
+- c++
 req.header: bits.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Bits.lib
 req.dll: QmgrPrxy.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - QmgrPrxy.dll
+- QmgrPrxy.dll
 api_name:
- - IBackgroundCopyManager.EnumJobs
+- IBackgroundCopyManager.EnumJobs
 targetos: Windows
 req.typenames: 
 req.redist: 

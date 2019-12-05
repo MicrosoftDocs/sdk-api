@@ -1,19 +1,17 @@
 ---
 UID: NS:mprapi._PPP_IPCP_INFO
 title: PPP_IPCP_INFO (mprapi.h)
-
 description: The PPP_IPCP_INFO structure contains the result of a PPP Internet Protocol (IP) negotiation.
 old-location: rras\ppp_ipcp_info.htm
 tech.root: RRAS
 ms.assetid: c77f54d2-eac4-4e0a-92c5-c46d521a272d
-
 ms.date: 12/05/2018
 ms.keywords: PPP_IPCP_INFO, PPP_IPCP_INFO structure [RAS], _mpr_ppp_ipcp_info, mprapi/PPP_IPCP_INFO, rras.ppp_ipcp_info
 ms.topic: struct
 f1_keywords:
 - mprapi/PPP_IPCP_INFO
 dev_langs:
- - c++
+- c++
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows

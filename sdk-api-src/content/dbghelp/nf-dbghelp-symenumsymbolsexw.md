@@ -1,19 +1,17 @@
 ---
 UID: NF:dbghelp.SymEnumSymbolsExW
 title: SymEnumSymbolsExW function (dbghelp.h)
-
 description: Enumerates all symbols in a process.
 old-location: base\symenumsymbolsex.htm
 tech.root: Debug
 ms.assetid: 80fbe47d-702c-4cda-8e28-c72f8d7db3d2
-
 ms.date: 12/05/2018
-ms.keywords: "*!*, SYMENUM_OPTIONS_DEFAULT, SYMENUM_OPTIONS_INLINE, SymEnumSymbolsEx, SymEnumSymbolsEx function, SymEnumSymbolsExW, base.symenumsymbolsex, dbghelp/SymEnumSymbolsEx, dbghelp/SymEnumSymbolsExW, foo, foo*!bar, foo?"
+ms.keywords: '*!*, SYMENUM_OPTIONS_DEFAULT, SYMENUM_OPTIONS_INLINE, SymEnumSymbolsEx, SymEnumSymbolsEx function, SymEnumSymbolsExW, base.symenumsymbolsex, dbghelp/SymEnumSymbolsEx, dbghelp/SymEnumSymbolsExW, foo, foo*!bar, foo?'
 ms.topic: function
-f1_keywords: 
- - "dbghelp/SymEnumSymbolsEx"
+f1_keywords:
+- dbghelp/SymEnumSymbolsEx
 dev_langs:
- - c++
+- c++
 req.header: dbghelp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: DbgHelp.lib
 req.dll: DbgHelp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - DbgHelp.dll
+- DbgHelp.dll
 api_name:
- - SymEnumSymbolsEx
- - SymEnumSymbolsEx
- - SymEnumSymbolsExW
+- SymEnumSymbolsEx
+- SymEnumSymbolsEx
+- SymEnumSymbolsExW
 targetos: Windows
 req.typenames: 
 req.redist: DbgHelp.dll 6.2 or later

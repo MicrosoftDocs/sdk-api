@@ -1,19 +1,17 @@
 ---
 UID: NF:gdiplustypes.Size.operator-add
 title: Size::operator-add (gdiplustypes.h)
-
 description: The Size::operator+ method adds the Width and Height data members of two Size objects.
 old-location: gdiplus\_gdiplus_CLASS_Size_operator_opadd_sz_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\sizeclass\sizemethods\operatorplus_84sz.htm
-
 ms.date: 12/05/2018
 ms.keywords: Size class [GDI+],operator+ method, Size.operator+, Size.operator+(const Size&), Size.operator-add, Size::operator+, Size::operator-add, _gdiplus_CLASS_Size_operator_opadd_sz_, gdiplus._gdiplus_CLASS_Size_operator_opadd_sz_, operator+, operator+ method [GDI+], operator+ method [GDI+],Size class
 ms.topic: method
-f1_keywords: 
- - "gdiplustypes/Size.operator+"
+f1_keywords:
+- gdiplustypes/Size.operator+
 dev_langs:
- - c++
+- c++
 req.header: gdiplustypes.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - Size.operator+
+- Size.operator+
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:windows.media.streaming.IMediaRenderer.SetSourceFromUriAsync
 title: IMediaRenderer::streaming (windows.media.streaming.h)
-
 description: Instructs the DMR asynchronously to prepare the content identified by the specified URI for playing.
 old-location: mediastreaming\imediarenderer_setsourcefromuriasync.htm
 tech.root: mediastreaming
 ms.assetid: 3062FC13-61FD-4781-9AE6-39576D86B783
-
 ms.date: 12/05/2018
 ms.keywords: IMediaRenderer interface [Media Streaming API],SetSourceFromUriAsync method, IMediaRenderer.SetSourceFromUriAsync, IMediaRenderer.streaming, IMediaRenderer::SetSourceFromUriAsync, IMediaRenderer::streaming, SetSourceFromUriAsync, SetSourceFromUriAsync method [Media Streaming API], SetSourceFromUriAsync method [Media Streaming API],IMediaRenderer interface, mediastreaming.imediarenderer_setsourcefromuriasync, windows/IMediaRenderer::SetSourceFromUriAsync
 ms.topic: method
-f1_keywords: 
- - "windows.media.streaming/IMediaRenderer.SetSourceFromUriAsync"
+f1_keywords:
+- windows.media.streaming/IMediaRenderer.SetSourceFromUriAsync
 dev_langs:
- - c++
+- c++
 req.header: windows.media.streaming.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - windows.media.streaming.h
+- windows.media.streaming.h
 api_name:
- - IMediaRenderer.SetSourceFromUriAsync
+- IMediaRenderer.SetSourceFromUriAsync
 targetos: Windows
 req.typenames: 
 req.redist: 

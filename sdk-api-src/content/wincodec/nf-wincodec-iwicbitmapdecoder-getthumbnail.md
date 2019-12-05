@@ -1,19 +1,17 @@
 ---
 UID: NF:wincodec.IWICBitmapDecoder.GetThumbnail
 title: IWICBitmapDecoder::GetThumbnail (wincodec.h)
-
 description: Retrieves a bitmap thumbnail of the image, if one exists
 old-location: wic\_wic_codec_iwicbitmapdecoder_getthumbnail.htm
 tech.root: wic
 ms.assetid: dbfe61d9-50ca-4d44-a8a3-2acae3413985
-
 ms.date: 12/05/2018
 ms.keywords: GetThumbnail, GetThumbnail method [Windows Imaging Component], GetThumbnail method [Windows Imaging Component],IWICBitmapDecoder interface, IWICBitmapDecoder interface [Windows Imaging Component],GetThumbnail method, IWICBitmapDecoder.GetThumbnail, IWICBitmapDecoder::GetThumbnail, _wic_codec_iwicbitmapdecoder_getthumbnail, wic._wic_codec_iwicbitmapdecoder_getthumbnail, wincodec/IWICBitmapDecoder::GetThumbnail
 ms.topic: method
-f1_keywords: 
- - "wincodec/IWICBitmapDecoder.GetThumbnail"
+f1_keywords:
+- wincodec/IWICBitmapDecoder.GetThumbnail
 dev_langs:
- - c++
+- c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Windowscodecs.lib
 req.dll: Windowscodecs.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Windowscodecs.dll
+- Windowscodecs.dll
 api_name:
- - IWICBitmapDecoder.GetThumbnail
+- IWICBitmapDecoder.GetThumbnail
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi.lineGetAgentGroupListW
 title: lineGetAgentGroupListW function (tapi.h)
-
 description: The lineGetAgentGroupList function obtains the identities of agent groups (combination of queue, supervisor, skill level, and so on) into which the agent currently logged in on the workstation is permitted to log into on the automatic call distributor.
 old-location: tapi2\linegetagentgrouplist.htm
 tech.root: Tapi
 ms.assetid: b3767efd-8f7a-4a03-81f6-97e11994900d
-
 ms.date: 12/05/2018
-ms.keywords: "_tapi2_linegetagentgrouplist, lineGetAgentGroupList, lineGetAgentGroupList function [TAPI 2.2], lineGetAgentGroupListA, lineGetAgentGroupListW, tapi/lineGetAgentGroupList, tapi/lineGetAgentGroupListA, tapi/lineGetAgentGroupListW, tapi2.linegetagentgrouplist"
+ms.keywords: _tapi2_linegetagentgrouplist, lineGetAgentGroupList, lineGetAgentGroupList function [TAPI 2.2], lineGetAgentGroupListA, lineGetAgentGroupListW, tapi/lineGetAgentGroupList, tapi/lineGetAgentGroupListA, tapi/lineGetAgentGroupListW, tapi2.linegetagentgrouplist
 ms.topic: function
-f1_keywords: 
- - "tapi/lineGetAgentGroupList"
+f1_keywords:
+- tapi/lineGetAgentGroupList
 dev_langs:
- - c++
+- c++
 req.header: tapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Tapi32.lib
 req.dll: Tapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Tapi32.dll
+- Tapi32.dll
 api_name:
- - lineGetAgentGroupList
- - lineGetAgentGroupListA
- - lineGetAgentGroupListW
+- lineGetAgentGroupList
+- lineGetAgentGroupListA
+- lineGetAgentGroupListW
 targetos: Windows
 req.typenames: 
 req.redist: 

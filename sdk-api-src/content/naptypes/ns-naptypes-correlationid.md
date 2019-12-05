@@ -1,19 +1,17 @@
 ---
 UID: NS:naptypes.tagCorrelationId
 title: CorrelationId (naptypes.h)
-
 description: Is used to pair SoHRequests with SoHResponses and uniquely describes an SoH exchange.
 old-location: nap\correlationid_struct.htm
 tech.root: NAP
 ms.assetid: 99e5bad8-47dd-447b-bd8d-e35ae765808b
-
 ms.date: 12/05/2018
 ms.keywords: CorrelationId, CorrelationId structure [NAP], nap.correlationid_struct, naptypes/CorrelationId
 ms.topic: struct
-f1_keywords: 
- - "naptypes/CorrelationId"
+f1_keywords:
+- naptypes/CorrelationId
 dev_langs:
- - c++
+- c++
 req.header: naptypes.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - NapTypes.h
+- NapTypes.h
 api_name:
- - CorrelationId
+- CorrelationId
 targetos: Windows
 req.typenames: CorrelationId
 req.redist: 

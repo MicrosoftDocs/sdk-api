@@ -1,19 +1,17 @@
 ---
 UID: NF:rtmv2.RtmMarkDestForChangeNotification
 title: RtmMarkDestForChangeNotification function (rtmv2.h)
-
 description: The RtmMarkDestForChangeNotification function marks a destination for a client.
 old-location: rras\rtmmarkdestforchangenotification.htm
 tech.root: RRAS
 ms.assetid: b7db8664-2775-4f96-8e5b-5062a8abcfe0
-
 ms.date: 12/05/2018
 ms.keywords: RtmMarkDestForChangeNotification, RtmMarkDestForChangeNotification function [RAS], _rtmv2ref_rtmmarkdestforchangenotification, rras.rtmmarkdestforchangenotification, rtmv2/RtmMarkDestForChangeNotification
 ms.topic: function
-f1_keywords: 
- - "rtmv2/RtmMarkDestForChangeNotification"
+f1_keywords:
+- rtmv2/RtmMarkDestForChangeNotification
 dev_langs:
- - c++
+- c++
 req.header: rtmv2.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Rtm.lib
 req.dll: Rtm.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Rtm.dll
+- Rtm.dll
 api_name:
- - RtmMarkDestForChangeNotification
+- RtmMarkDestForChangeNotification
 targetos: Windows
 req.typenames: 
 req.redist: 

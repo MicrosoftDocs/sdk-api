@@ -1,19 +1,17 @@
 ---
 UID: NE:iads.__MIDL___MIDL_itf_ads_0001_0078_0004
 title: ADS_ESCAPE_MODE_ENUM (iads.h)
-
 description: Specifies how escape characters are displayed in a directory path.
 old-location: adsi\ads_escape_mode_enum.htm
 tech.root: adsi
 ms.assetid: f69934bc-69ac-4822-b92d-89c94f55e036
-
 ms.date: 12/05/2018
 ms.keywords: ADS_ESCAPEDMODE_DEFAULT, ADS_ESCAPEDMODE_OFF, ADS_ESCAPEDMODE_OFF_EX, ADS_ESCAPEDMODE_ON, ADS_ESCAPE_MODE_ENUM, ADS_ESCAPE_MODE_ENUM enumeration [ADSI], _ds_ads_escape_mode_enum, adsi.ads__escape__mode__enum, adsi.ads_escape_mode_enum, iads/ADS_ESCAPEDMODE_DEFAULT, iads/ADS_ESCAPEDMODE_OFF, iads/ADS_ESCAPEDMODE_OFF_EX, iads/ADS_ESCAPEDMODE_ON, iads/ADS_ESCAPE_MODE_ENUM
 ms.topic: enum
-f1_keywords: 
- - "iads/ADS_ESCAPE_MODE_ENUM"
+f1_keywords:
+- iads/ADS_ESCAPE_MODE_ENUM
 dev_langs:
- - c++
+- c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Iads.h
+- Iads.h
 api_name:
- - ADS_ESCAPE_MODE_ENUM
+- ADS_ESCAPE_MODE_ENUM
 targetos: Windows
 req.typenames: ADS_ESCAPE_MODE_ENUM
 req.redist: 

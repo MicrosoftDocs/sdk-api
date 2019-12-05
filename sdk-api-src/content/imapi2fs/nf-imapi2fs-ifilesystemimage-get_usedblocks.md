@@ -1,19 +1,17 @@
 ---
 UID: NF:imapi2fs.IFileSystemImage.get_UsedBlocks
 title: IFileSystemImage::get_UsedBlocks (imapi2fs.h)
-
 description: Retrieves the number of blocks in use.
 old-location: imapi\ifilesystemimage_get_usedblocks.htm
 tech.root: imapi
 ms.assetid: 97f59440-112b-49ea-9f8e-97e8a831229d
-
 ms.date: 12/05/2018
 ms.keywords: IFileSystemImage interface [IMAPI],get_UsedBlocks method, IFileSystemImage.get_UsedBlocks, IFileSystemImage::get_UsedBlocks, get_UsedBlocks, get_UsedBlocks method [IMAPI], get_UsedBlocks method [IMAPI],IFileSystemImage interface, imapi.ifilesystemimage_get_usedblocks, imapi2fs/IFileSystemImage::get_UsedBlocks
 ms.topic: method
-f1_keywords: 
- - "imapi2fs/IFileSystemImage.get_UsedBlocks"
+f1_keywords:
+- imapi2fs/IFileSystemImage.get_UsedBlocks
 dev_langs:
- - c++
+- c++
 req.header: imapi2fs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - imapi2fs.h
+- imapi2fs.h
 api_name:
- - IFileSystemImage.get_UsedBlocks
+- IFileSystemImage.get_UsedBlocks
 targetos: Windows
 req.typenames: 
 req.redist: 

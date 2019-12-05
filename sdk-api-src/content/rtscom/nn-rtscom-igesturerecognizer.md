@@ -1,19 +1,17 @@
 ---
 UID: NN:rtscom.IGestureRecognizer
 title: IGestureRecognizer (rtscom.h)
-
 description: Reacts to events by recognizing gestures and adding gesture data to the input queue.
 old-location: tablet\igesturerecognizer.htm
 tech.root: tablet
 ms.assetid: dfdc00d6-c843-4298-9773-92775406fbf7
-
 ms.date: 12/05/2018
 ms.keywords: IGestureRecognizer, IGestureRecognizer interface [Tablet PC], IGestureRecognizer interface [Tablet PC],described, dfdc00d6-c843-4298-9773-92775406fbf7, rtscom/IGestureRecognizer, tablet.igesturerecognizer
 ms.topic: interface
-f1_keywords: 
- - "rtscom/IGestureRecognizer"
+f1_keywords:
+- rtscom/IGestureRecognizer
 dev_langs:
- - c++
+- c++
 req.header: rtscom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: RTSCom.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - RTSCom.dll
+- RTSCom.dll
 api_name:
- - IGestureRecognizer
+- IGestureRecognizer
 targetos: Windows
 req.typenames: 
 req.redist: 

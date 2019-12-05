@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi3if.ITCallMediaEvent.get_Event
 title: ITCallMediaEvent::get_Event (tapi3if.h)
-
 description: The get_Event method gets the call media event indicator.
 old-location: tapi3\itcallmediaevent_get_event.htm
 tech.root: Tapi
 ms.assetid: 3dd6210f-e904-46c5-8fc3-50a62b8754ed
-
 ms.date: 12/05/2018
 ms.keywords: ITCallMediaEvent interface [TAPI 2.2],get_Event method, ITCallMediaEvent.get_Event, ITCallMediaEvent::get_Event, _tapi3_itcallmediaevent_get_event, get_Event, get_Event method [TAPI 2.2], get_Event method [TAPI 2.2],ITCallMediaEvent interface, tapi3.itcallmediaevent_get_event, tapi3if/ITCallMediaEvent::get_Event
 ms.topic: method
-f1_keywords: 
- - "tapi3if/ITCallMediaEvent.get_Event"
+f1_keywords:
+- tapi3if/ITCallMediaEvent.get_Event
 dev_langs:
- - c++
+- c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Tapi3.dll
+- Tapi3.dll
 api_name:
- - ITCallMediaEvent.get_Event
+- ITCallMediaEvent.get_Event
 targetos: Windows
 req.typenames: 
 req.redist: 

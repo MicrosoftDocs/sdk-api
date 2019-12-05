@@ -1,19 +1,17 @@
 ---
 UID: NF:wlanapi.WlanIhvControl
 title: WlanIhvControl function (wlanapi.h)
-
 description: Provides a mechanism for independent hardware vendor (IHV) control of WLAN drivers or services.
 old-location: nwifi\wlanihvcontrol.htm
 tech.root: NativeWiFi
 ms.assetid: 3fc32119-0f92-4939-8125-812f45584d45
-
 ms.date: 12/05/2018
 ms.keywords: WlanIhvControl, WlanIhvControl function [NativeWIFI], nwifi.wlanihvcontrol, wlanapi/WlanIhvControl
 ms.topic: function
-f1_keywords: 
- - "wlanapi/WlanIhvControl"
+f1_keywords:
+- wlanapi/WlanIhvControl
 dev_langs:
- - c++
+- c++
 req.header: wlanapi.h
 req.include-header: Wlanapi.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Wlanapi.lib
 req.dll: Wlanapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - wlanapi.dll
+- wlanapi.dll
 api_name:
- - WlanIhvControl
+- WlanIhvControl
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NS:wingdi.DISPLAYCONFIG_PATH_SOURCE_INFO
 title: DISPLAYCONFIG_PATH_SOURCE_INFO (wingdi.h)
-
 description: The DISPLAYCONFIG_PATH_SOURCE_INFO structure contains source information for a single path.
 old-location: display\displayconfig_path_source_info.htm
 tech.root: display
 ms.assetid: df43d20b-a55a-4bec-89a2-9ede03b4d6c5
-
 ms.date: 12/05/2018
 ms.keywords: CCD_Structures_5a87f2c5-d99e-46f6-8a91-61d2d4edfb68.xml, DISPLAYCONFIG_PATH_SOURCE_INFO, DISPLAYCONFIG_PATH_SOURCE_INFO structure [Display Devices], display.displayconfig_path_source_info, wingdi/DISPLAYCONFIG_PATH_SOURCE_INFO
 ms.topic: struct
-f1_keywords: 
- - "wingdi/DISPLAYCONFIG_PATH_SOURCE_INFO"
+f1_keywords:
+- wingdi/DISPLAYCONFIG_PATH_SOURCE_INFO
 dev_langs:
- - c++
+- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - wingdi.h
+- wingdi.h
 api_name:
- - DISPLAYCONFIG_PATH_SOURCE_INFO
+- DISPLAYCONFIG_PATH_SOURCE_INFO
 targetos: Windows
 req.typenames: DISPLAYCONFIG_PATH_SOURCE_INFO
 req.redist: 

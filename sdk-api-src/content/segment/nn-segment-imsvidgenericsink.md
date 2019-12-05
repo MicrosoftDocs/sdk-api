@@ -1,19 +1,17 @@
 ---
 UID: NN:segment.IMSVidGenericSink
 title: IMSVidGenericSink (segment.h)
-
 description: The IMSVidGenericSink interface represents a generic output device that supports streaming output. It is implemented by the MSVidGenericSink object.
 old-location: mstv\imsvidgenericsink.htm
 tech.root: mstv
 ms.assetid: 15181a89-aa64-4ecf-aaf5-4aac36753ddf
-
 ms.date: 12/05/2018
 ms.keywords: IMSVidGenericSink, IMSVidGenericSink interface [Microsoft TV Technologies], IMSVidGenericSink interface [Microsoft TV Technologies],described, IMSVidGenericSinkInterface, mstv.imsvidgenericsink, segment/IMSVidGenericSink
 ms.topic: interface
-f1_keywords: 
- - "segment/IMSVidGenericSink"
+f1_keywords:
+- segment/IMSVidGenericSink
 dev_langs:
- - c++
+- c++
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - segment.h
+- segment.h
 api_name:
- - IMSVidGenericSink
+- IMSVidGenericSink
 targetos: Windows
 req.typenames: 
 req.redist: 

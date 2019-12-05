@@ -1,19 +1,17 @@
 ---
 UID: NF:directxmath.XMVerifyCPUSupport
 title: XMVerifyCPUSupport function (directxmath.h)
-
 description: Indicates if the DirectXMath Library supports the current platform.
 old-location: dxmath\xmverifycpusupport.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.utilities.XMVerifyCPUSupport
-
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMVerifyCPUSupport, XMVerifyCPUSupport, XMVerifyCPUSupport method [DirectX Math Support APIs], dxmath.xmverifycpusupport
 ms.topic: function
-f1_keywords: 
- - "directxmath/XMVerifyCPUSupport"
+f1_keywords:
+- directxmath/XMVerifyCPUSupport
 dev_langs:
- - c++
+- c++
 req.header: directxmath.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - DirectXMath.h
+- DirectXMath.h
 api_name:
- - XMVerifyCPUSupport
+- XMVerifyCPUSupport
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:d2d1.ID2D1LinearGradientBrush.GetStartPoint
 title: ID2D1LinearGradientBrush::GetStartPoint (d2d1.h)
-
 description: Retrieves the starting coordinates of the linear gradient.
 old-location: direct2d\ID2D1LinearGradientBrush_GetStartPoint.htm
 tech.root: Direct2D
 ms.assetid: 8b79b265-4bf4-48e7-99c9-64a52d8cb6d0
-
 ms.date: 12/05/2018
 ms.keywords: GetStartPoint, GetStartPoint method [Direct2D], GetStartPoint method [Direct2D],ID2D1LinearGradientBrush interface, ID2D1LinearGradientBrush interface [Direct2D],GetStartPoint method, ID2D1LinearGradientBrush.GetStartPoint, ID2D1LinearGradientBrush::GetStartPoint, d2d1/ID2D1LinearGradientBrush::GetStartPoint, direct2d.ID2D1LinearGradientBrush_GetStartPoint
 ms.topic: method
-f1_keywords: 
- - "d2d1/ID2D1LinearGradientBrush.GetStartPoint"
+f1_keywords:
+- d2d1/ID2D1LinearGradientBrush.GetStartPoint
 dev_langs:
- - c++
+- c++
 req.header: d2d1.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: D2d1.lib
 req.dll: D2d1.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D2d1.dll
+- D2d1.dll
 api_name:
- - ID2D1LinearGradientBrush.GetStartPoint
+- ID2D1LinearGradientBrush.GetStartPoint
 targetos: Windows
 req.typenames: 
 req.redist: 

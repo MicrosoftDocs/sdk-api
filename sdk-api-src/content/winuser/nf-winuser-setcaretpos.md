@@ -1,19 +1,17 @@
 ---
 UID: NF:winuser.SetCaretPos
 title: SetCaretPos function (winuser.h)
-
 description: Moves the caret to the specified coordinates. If the window that owns the caret was created with the CS_OWNDC class style, then the specified coordinates are subject to the mapping mode of the device context associated with that window.
 old-location: menurc\setcaretpos.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\carets\caretreference\caretfunctions\setcaretpos.htm
-
 ms.date: 12/05/2018
 ms.keywords: SetCaretPos, SetCaretPos function [Menus and Other Resources], _win32_SetCaretPos, _win32_setcaretpos_cpp, menurc.setcaretpos, winui._win32_setcaretpos, winuser/SetCaretPos
 ms.topic: function
-f1_keywords: 
- - "winuser/SetCaretPos"
+f1_keywords:
+- winuser/SetCaretPos
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - User32.dll
- - Ext-MS-Win-NTUser-caret-l1-1-0.dll
- - api-ms-win-ntuser-ie-caret-l1-1-0.dll
- - ie_stubs.dll
+- User32.dll
+- Ext-MS-Win-NTUser-caret-l1-1-0.dll
+- api-ms-win-ntuser-ie-caret-l1-1-0.dll
+- ie_stubs.dll
 api_name:
- - SetCaretPos
+- SetCaretPos
 targetos: Windows
 req.typenames: 
 req.redist: 

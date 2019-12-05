@@ -1,19 +1,17 @@
 ---
 UID: NF:winddi.EngProbeForRead
 title: EngProbeForRead function (winddi.h)
-
 description: The EngProbeForRead function probes a structure for read accessibility.
 old-location: display\engprobeforread.htm
 tech.root: display
 ms.assetid: 7c64c9a8-45e6-4afa-a358-457c04a333d7
-
 ms.date: 12/05/2018
 ms.keywords: EngProbeForRead, EngProbeForRead function [Display Devices], display.engprobeforread, gdifncs_35c5929d-d559-42ea-9925-b00bc7af551e.xml, winddi/EngProbeForRead
 ms.topic: function
-f1_keywords: 
- - "winddi/EngProbeForRead"
+f1_keywords:
+- winddi/EngProbeForRead
 dev_langs:
- - c++
+- c++
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Universal
@@ -32,14 +30,14 @@ req.lib: Win32k.lib
 req.dll: Win32k.sys
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Win32k.sys
+- Win32k.sys
 api_name:
- - EngProbeForRead
+- EngProbeForRead
 targetos: Windows
 req.typenames: 
 req.redist: 

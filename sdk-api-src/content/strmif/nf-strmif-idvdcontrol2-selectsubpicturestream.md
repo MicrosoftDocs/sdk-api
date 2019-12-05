@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IDvdControl2.SelectSubpictureStream
 title: IDvdControl2::SelectSubpictureStream (strmif.h)
-
 description: The SelectSubpictureStream method sets the subpicture stream to display.
 old-location: dshow\idvdcontrol2_selectsubpicturestream.htm
 tech.root: DirectShow
 ms.assetid: 0553a0c4-34d3-4774-9a22-acc01c0a832a
-
 ms.date: 12/05/2018
 ms.keywords: IDvdControl2 interface [DirectShow],SelectSubpictureStream method, IDvdControl2.SelectSubpictureStream, IDvdControl2::SelectSubpictureStream, IDvdControl2SelectSubpictureStream, SelectSubpictureStream, SelectSubpictureStream method [DirectShow], SelectSubpictureStream method [DirectShow],IDvdControl2 interface, dshow.idvdcontrol2_selectsubpicturestream, strmif/IDvdControl2::SelectSubpictureStream
 ms.topic: method
-f1_keywords: 
- - "strmif/IDvdControl2.SelectSubpictureStream"
+f1_keywords:
+- strmif/IDvdControl2.SelectSubpictureStream
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IDvdControl2.SelectSubpictureStream
+- IDvdControl2.SelectSubpictureStream
 targetos: Windows
 req.typenames: 
 req.redist: 

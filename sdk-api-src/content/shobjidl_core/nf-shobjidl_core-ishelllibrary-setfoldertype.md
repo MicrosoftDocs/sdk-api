@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IShellLibrary.SetFolderType
 title: IShellLibrary::SetFolderType (shobjidl_core.h)
-
 description: Sets the library's folder type.
 old-location: shell\IShellLibrary_SetFolderType.htm
 tech.root: shell
 ms.assetid: e3e3f356-6ffd-46b9-b8a5-1b0c9df01abe
-
 ms.date: 12/05/2018
 ms.keywords: IShellLibrary interface [Windows Shell],SetFolderType method, IShellLibrary.SetFolderType, IShellLibrary::SetFolderType, SetFolderType, SetFolderType method [Windows Shell], SetFolderType method [Windows Shell],IShellLibrary interface, _shell_IShellLibrary_SetFolderType, shell.IShellLibrary_SetFolderType, shobjidl_core/IShellLibrary::SetFolderType
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IShellLibrary.SetFolderType"
+f1_keywords:
+- shobjidl_core/IShellLibrary.SetFolderType
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - IShellLibrary.SetFolderType
+- IShellLibrary.SetFolderType
 targetos: Windows
 req.typenames: 
 req.redist: 

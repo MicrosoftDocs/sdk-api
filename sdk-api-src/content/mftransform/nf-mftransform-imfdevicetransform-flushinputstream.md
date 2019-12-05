@@ -1,19 +1,17 @@
 ---
 UID: NF:mftransform.IMFDeviceTransform.FlushInputStream
 title: IMFDeviceTransform::FlushInputStream (mftransform.h)
-
 description: The FlushInputStream method flushes a Device MFT’s input stream.
 old-location: stream\imfdevicetransform_flushinputstream.htm
 tech.root: stream
 ms.assetid: 646A9446-B87A-40B5-8A0F-9DE67286825B
-
 ms.date: 12/05/2018
 ms.keywords: FlushInputStream, FlushInputStream method [Streaming Media Devices], FlushInputStream method [Streaming Media Devices],IMFDeviceTransform interface, IMFDeviceTransform interface [Streaming Media Devices],FlushInputStream method, IMFDeviceTransform.FlushInputStream, IMFDeviceTransform::FlushInputStream, mftransform/IMFDeviceTransform::FlushInputStream, stream.imfdevicetransform_flushinputstream
 ms.topic: method
-f1_keywords: 
- - "mftransform/IMFDeviceTransform.FlushInputStream"
+f1_keywords:
+- mftransform/IMFDeviceTransform.FlushInputStream
 dev_langs:
- - c++
+- c++
 req.header: mftransform.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mftransform.h
+- mftransform.h
 api_name:
- - IMFDeviceTransform.FlushInputStream
+- IMFDeviceTransform.FlushInputStream
 targetos: Windows
 req.typenames: 
 req.redist: 

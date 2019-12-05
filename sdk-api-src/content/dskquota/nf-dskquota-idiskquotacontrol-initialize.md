@@ -1,19 +1,17 @@
 ---
 UID: NF:dskquota.IDiskQuotaControl.Initialize
 title: IDiskQuotaControl::Initialize (dskquota.h)
-
 description: Initializes a new DiskQuotaControl object by opening the NTFS file system volume with the requested access rights.
 old-location: fs\idiskquotacontrol_initialize.htm
 tech.root: FileIO
 ms.assetid: 352485fd-4ce7-435b-b8c2-81458786eb44
-
 ms.date: 12/05/2018
 ms.keywords: IDiskQuotaControl interface [Files],Initialize method, IDiskQuotaControl.Initialize, IDiskQuotaControl::Initialize, Initialize, Initialize method [Files], Initialize method [Files],IDiskQuotaControl interface, _win32_idiskquotacontrol_initialize, base.idiskquotacontrol_initialize, dskquota/IDiskQuotaControl::Initialize, fs.idiskquotacontrol_initialize
 ms.topic: method
-f1_keywords: 
- - "dskquota/IDiskQuotaControl.Initialize"
+f1_keywords:
+- dskquota/IDiskQuotaControl.Initialize
 dev_langs:
- - c++
+- c++
 req.header: dskquota.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Dskquota.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dskquota.dll
+- Dskquota.dll
 api_name:
- - IDiskQuotaControl.Initialize
+- IDiskQuotaControl.Initialize
 targetos: Windows
 req.typenames: 
 req.redist: 

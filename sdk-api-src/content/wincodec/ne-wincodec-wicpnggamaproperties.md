@@ -1,19 +1,17 @@
 ---
 UID: NE:wincodec.WICPngGamaProperties
 title: WICPngGamaProperties (wincodec.h)
-
 description: Specifies the Portable Network Graphics (PNG) gAMA chunk metadata properties.
 old-location: wic\_wic_codec_wicpnggamaproperties.htm
 tech.root: wic
 ms.assetid: c70a3507-d598-4e33-872b-353389b19351
-
 ms.date: 12/05/2018
 ms.keywords: WICPngGamaGamma, WICPngGamaProperties, WICPngGamaProperties enumeration [Windows Imaging Component], _wic_codec_wicpnggamaproperties, wic._wic_codec_wicpnggamaproperties, wincodec/WICPngGamaGamma, wincodec/WICPngGamaProperties
 ms.topic: enum
-f1_keywords: 
- - "wincodec/WICPngGamaProperties"
+f1_keywords:
+- wincodec/WICPngGamaProperties
 dev_langs:
- - c++
+- c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wincodec.h
+- Wincodec.h
 api_name:
- - WICPngGamaProperties
+- WICPngGamaProperties
 targetos: Windows
 req.typenames: WICPngGamaProperties
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d11shader.ID3D11FunctionLinkingGraph.GenerateHlsl
 title: ID3D11FunctionLinkingGraph::GenerateHlsl (d3d11shader.h)
-
 description: Generates Microsoft High Level Shader Language (HLSL) shader code that represents the function-linking-graph.
 old-location: direct3d11\id3d11functionlinkinggraph_generatehlsl.htm
 tech.root: direct3d11
 ms.assetid: CD3B815A-0D18-4568-BCDF-7E2D5F1C139F
-
 ms.date: 12/05/2018
 ms.keywords: GenerateHlsl, GenerateHlsl method [Direct3D 11], GenerateHlsl method [Direct3D 11],ID3D11FunctionLinkingGraph interface, ID3D11FunctionLinkingGraph interface [Direct3D 11],GenerateHlsl method, ID3D11FunctionLinkingGraph.GenerateHlsl, ID3D11FunctionLinkingGraph::GenerateHlsl, d3d11shader/ID3D11FunctionLinkingGraph::GenerateHlsl, direct3d11.id3d11functionlinkinggraph_generatehlsl
 ms.topic: method
-f1_keywords: 
- - "d3d11shader/ID3D11FunctionLinkingGraph.GenerateHlsl"
+f1_keywords:
+- d3d11shader/ID3D11FunctionLinkingGraph.GenerateHlsl
 dev_langs:
- - c++
+- c++
 req.header: d3d11shader.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: D3DCompiler.lib
 req.dll: D3DCompiler_47.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3DCompiler_47.dll
+- D3DCompiler_47.dll
 api_name:
- - ID3D11FunctionLinkingGraph.GenerateHlsl
+- ID3D11FunctionLinkingGraph.GenerateHlsl
 targetos: Windows
 req.typenames: 
 req.redist: 

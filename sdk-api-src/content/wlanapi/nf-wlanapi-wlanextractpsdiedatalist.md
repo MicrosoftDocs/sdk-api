@@ -1,19 +1,17 @@
 ---
 UID: NF:wlanapi.WlanExtractPsdIEDataList
 title: WlanExtractPsdIEDataList function (wlanapi.h)
-
 description: Extracts the proximity service discovery (PSD) information element (IE) data list from raw IE data included in a beacon.
 old-location: nwifi\wlanextractpsdiedatalist.htm
 tech.root: NativeWiFi
 ms.assetid: 7fb6707f-c229-4386-9058-e290693a20ce
-
 ms.date: 12/05/2018
 ms.keywords: WlanExtractPsdIEDataList, WlanExtractPsdIEDataList function [NativeWIFI], nwifi.wlanextractpsdiedatalist, wlanapi/WlanExtractPsdIEDataList
 ms.topic: function
 f1_keywords:
 - wlanapi/WlanExtractPsdIEDataList
 dev_langs:
- - c++
+- c++
 req.header: wlanapi.h
 req.include-header: Wlanapi.h
 req.target-type: Windows

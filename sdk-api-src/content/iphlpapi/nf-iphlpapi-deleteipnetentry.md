@@ -1,19 +1,17 @@
 ---
 UID: NF:iphlpapi.DeleteIpNetEntry
 title: DeleteIpNetEntry function (iphlpapi.h)
-
 description: The DeleteIpNetEntry function deletes an ARP entry from the ARP table on the local computer.
 old-location: iphlp\deleteipnetentry.htm
 tech.root: IpHlp
 ms.assetid: 0d338676-b66f-410c-8022-5576096954b4
-
 ms.date: 12/05/2018
 ms.keywords: DeleteIpNetEntry, DeleteIpNetEntry function [IP Helper], _iphlp_deleteipnetentry, iphlp.deleteipnetentry, iphlpapi/DeleteIpNetEntry
 ms.topic: function
 f1_keywords:
 - iphlpapi/DeleteIpNetEntry
 dev_langs:
- - c++
+- c++
 req.header: iphlpapi.h
 req.include-header: 
 req.target-type: Windows

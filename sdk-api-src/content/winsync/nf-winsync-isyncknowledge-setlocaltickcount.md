@@ -1,19 +1,17 @@
 ---
 UID: NF:winsync.ISyncKnowledge.SetLocalTickCount
 title: ISyncKnowledge::SetLocalTickCount (winsync.h)
-
 description: Sets the tick count for the replica that owns this knowledge.
 old-location: winsync\isyncknowledge_setlocaltickcount.htm
 tech.root: winsync
 ms.assetid: 0da3728d-c2b8-4998-bdc4-50642af9e416
-
 ms.date: 12/05/2018
 ms.keywords: ISyncKnowledge interface [Windows Sync],SetLocalTickCount method, ISyncKnowledge.SetLocalTickCount, ISyncKnowledge::SetLocalTickCount, SetLocalTickCount, SetLocalTickCount method [Windows Sync], SetLocalTickCount method [Windows Sync],ISyncKnowledge interface, winsync.isyncknowledge_setlocaltickcount, winsync/ISyncKnowledge::SetLocalTickCount
 ms.topic: method
-f1_keywords: 
- - "winsync/ISyncKnowledge.SetLocalTickCount"
+f1_keywords:
+- winsync/ISyncKnowledge.SetLocalTickCount
 dev_langs:
- - c++
+- c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - winsync.h
+- winsync.h
 api_name:
- - ISyncKnowledge.SetLocalTickCount
+- ISyncKnowledge.SetLocalTickCount
 targetos: Windows
 req.typenames: 
 req.redist: 

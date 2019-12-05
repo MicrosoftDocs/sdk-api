@@ -1,19 +1,17 @@
 ---
 UID: NF:certenroll.IX509EnrollmentPolicyServer.GetPolicyServerId
 title: IX509EnrollmentPolicyServer::GetPolicyServerId (certenroll.h)
-
 description: Retrieves a string value that uniquely identifies the certificate enrollment policy (CEP) server.
 old-location: security\ix509enrollmentpolicyserver_getpolicyserverid.htm
 tech.root: seccertenroll
 ms.assetid: daff74e8-a124-4194-95f6-5837598c352f
-
 ms.date: 12/05/2018
 ms.keywords: GetPolicyServerId, GetPolicyServerId method [Security], GetPolicyServerId method [Security],IX509EnrollmentPolicyServer interface, IX509EnrollmentPolicyServer interface [Security],GetPolicyServerId method, IX509EnrollmentPolicyServer.GetPolicyServerId, IX509EnrollmentPolicyServer::GetPolicyServerId, certenroll/IX509EnrollmentPolicyServer::GetPolicyServerId, security.ix509enrollmentpolicyserver_getpolicyserverid
 ms.topic: method
-f1_keywords: 
- - "certenroll/IX509EnrollmentPolicyServer.GetPolicyServerId"
+f1_keywords:
+- certenroll/IX509EnrollmentPolicyServer.GetPolicyServerId
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Certenroll.h
+- Certenroll.h
 api_name:
- - IX509EnrollmentPolicyServer.GetPolicyServerId
+- IX509EnrollmentPolicyServer.GetPolicyServerId
 targetos: Windows
 req.typenames: 
 req.redist: 

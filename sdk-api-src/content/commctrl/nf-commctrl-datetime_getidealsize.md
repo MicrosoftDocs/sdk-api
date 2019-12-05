@@ -1,19 +1,17 @@
 ---
 UID: NF:commctrl.DateTime_GetIdealSize
 title: DateTime_GetIdealSize macro (commctrl.h)
-
 description: Gets the size needed to display the control without clipping. Use this macro or send the DTM_GETIDEALSIZE message explicitly.
 old-location: controls\DateTime_GetIdealSize.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\datetime\macros\datetime_getidealsize.htm
-
 ms.date: 12/05/2018
 ms.keywords: DateTime_GetIdealSize, DateTime_GetIdealSize macro [Windows Controls], _shell_DateTime_GetIdealSize, _shell_DateTime_GetIdealSize_cpp, commctrl/DateTime_GetIdealSize, controls.DateTime_GetIdealSize, controls._shell_DateTime_GetIdealSize
 ms.topic: macro
-f1_keywords: 
- - "commctrl/DateTime_GetIdealSize"
+f1_keywords:
+- commctrl/DateTime_GetIdealSize
 dev_langs:
- - c++
+- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Commctrl.h
+- Commctrl.h
 api_name:
- - DateTime_GetIdealSize
+- DateTime_GetIdealSize
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:gpmgmt.IGPMRSOP.GenerateReport
 title: IGPMRSOP::GenerateReport (gpmgmt.h)
-
 description: The GenerateReport method generates a report on the RSoP data.
 old-location: gpmc\igpmrsop_generatereport.htm
 tech.root: gpmc
 ms.assetid: 86766a08-4f3a-4758-8abc-83db3408f0fd
-
 ms.date: 12/05/2018
 ms.keywords: GenerateReport, GenerateReport method [GPMC], GenerateReport method [GPMC],IGPMRSOP interface, IGPMRSOP interface [GPMC],GenerateReport method, IGPMRSOP.GenerateReport, IGPMRSOP::GenerateReport, gpmc.igpmrsop_generatereport, gpmgmt/IGPMRSOP::GenerateReport
 ms.topic: method
-f1_keywords: 
- - "gpmgmt/IGPMRSOP.GenerateReport"
+f1_keywords:
+- gpmgmt/IGPMRSOP.GenerateReport
 dev_langs:
- - c++
+- c++
 req.header: gpmgmt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Gpmgmt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gpmgmt.dll
+- Gpmgmt.dll
 api_name:
- - IGPMRSOP.GenerateReport
+- IGPMRSOP.GenerateReport
 targetos: Windows
 req.typenames: 
 req.redist: 

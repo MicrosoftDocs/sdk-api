@@ -1,19 +1,17 @@
 ---
 UID: NF:mbnapi.IMbnDeviceServicesContext.get_MaxDataSize
 title: IMbnDeviceServicesContext::get_MaxDataSize (mbnapi.h)
-
 description: The maximum length, in bytes, of data that can be written to or read from a device service session.
 old-location: mbn\imbndeviceservicescontext_maxdatasize.htm
 tech.root: mbn
 ms.assetid: E6E29974-083D-4EC8-A4FF-5AACE7435444
-
 ms.date: 12/05/2018
 ms.keywords: IMbnDeviceServicesContext interface [Microsoft Broadband Networks],MaxDataSize property, IMbnDeviceServicesContext.MaxDataSize, IMbnDeviceServicesContext.get_MaxDataSize, IMbnDeviceServicesContext::MaxDataSize, IMbnDeviceServicesContext::get_MaxDataSize, MaxDataSize property [Microsoft Broadband Networks], MaxDataSize property [Microsoft Broadband Networks],IMbnDeviceServicesContext interface, get_MaxDataSize, mbn.imbndeviceservicescontext_maxdatasize, mbnapi/IMbnDeviceServicesContext::MaxDataSize, mbnapi/IMbnDeviceServicesContext::get_MaxDataSize
 ms.topic: method
-f1_keywords: 
- - "mbnapi/IMbnDeviceServicesContext.MaxDataSize"
+f1_keywords:
+- mbnapi/IMbnDeviceServicesContext.MaxDataSize
 dev_langs:
- - c++
+- c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mbnapi.h
+- mbnapi.h
 api_name:
- - IMbnDeviceServicesContext.MaxDataSize
- - IMbnDeviceServicesContext.get_MaxDataSize
+- IMbnDeviceServicesContext.MaxDataSize
+- IMbnDeviceServicesContext.get_MaxDataSize
 targetos: Windows
 req.typenames: 
 req.redist: 

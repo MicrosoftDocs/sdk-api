@@ -1,19 +1,17 @@
 ---
 UID: NE:webservices.__unnamed_enum_95
 title: WS_SERVICE_HOST_STATE (webservices.h)
-
 description: The states that a service host can be in.
 old-location: wsw\ws_service_host_state.htm
 tech.root: wsw
 ms.assetid: 99745db7-6e9c-49fd-a97a-4430a80064bb
-
 ms.date: 12/05/2018
 ms.keywords: WS_SERVICE_HOST_STATE, WS_SERVICE_HOST_STATE enumeration [Web Services for Windows], WS_SERVICE_HOST_STATE_CLOSED, WS_SERVICE_HOST_STATE_CLOSING, WS_SERVICE_HOST_STATE_CREATED, WS_SERVICE_HOST_STATE_FAULTED, WS_SERVICE_HOST_STATE_OPEN, WS_SERVICE_HOST_STATE_OPENING, webservices/WS_SERVICE_HOST_STATE, webservices/WS_SERVICE_HOST_STATE_CLOSED, webservices/WS_SERVICE_HOST_STATE_CLOSING, webservices/WS_SERVICE_HOST_STATE_CREATED, webservices/WS_SERVICE_HOST_STATE_FAULTED, webservices/WS_SERVICE_HOST_STATE_OPEN, webservices/WS_SERVICE_HOST_STATE_OPENING, wsw.ws_service_host_state
 ms.topic: enum
-f1_keywords: 
- - "webservices/WS_SERVICE_HOST_STATE"
+f1_keywords:
+- webservices/WS_SERVICE_HOST_STATE
 dev_langs:
- - c++
+- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WebServices.h
+- WebServices.h
 api_name:
- - WS_SERVICE_HOST_STATE
+- WS_SERVICE_HOST_STATE
 targetos: Windows
 req.typenames: WS_SERVICE_HOST_STATE
 req.redist: 

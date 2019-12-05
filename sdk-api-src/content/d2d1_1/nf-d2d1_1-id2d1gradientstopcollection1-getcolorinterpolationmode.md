@@ -1,19 +1,17 @@
 ---
 UID: NF:d2d1_1.ID2D1GradientStopCollection1.GetColorInterpolationMode
 title: ID2D1GradientStopCollection1::GetColorInterpolationMode (d2d1_1.h)
-
 description: Retrieves the color interpolation mode that the gradient stop collection uses.
 old-location: direct2d\id2d1gradientstopcollection1_getcolorinterpolationmode.htm
 tech.root: Direct2D
 ms.assetid: D1351D2B-B259-400C-A77A-2437E80D46E9
-
 ms.date: 12/05/2018
 ms.keywords: GetColorInterpolationMode, GetColorInterpolationMode method [Direct2D], GetColorInterpolationMode method [Direct2D],ID2D1GradientStopCollection1 interface, ID2D1GradientStopCollection1 interface [Direct2D],GetColorInterpolationMode method, ID2D1GradientStopCollection1.GetColorInterpolationMode, ID2D1GradientStopCollection1::GetColorInterpolationMode, d2d1_1/ID2D1GradientStopCollection1::GetColorInterpolationMode, direct2d.id2d1gradientstopcollection1_getcolorinterpolationmode
 ms.topic: method
-f1_keywords: 
- - "d2d1_1/ID2D1GradientStopCollection1.GetColorInterpolationMode"
+f1_keywords:
+- d2d1_1/ID2D1GradientStopCollection1.GetColorInterpolationMode
 dev_langs:
- - c++
+- c++
 req.header: d2d1_1.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: D2d1.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D2d1.dll
+- D2d1.dll
 api_name:
- - ID2D1GradientStopCollection1.GetColorInterpolationMode
+- ID2D1GradientStopCollection1.GetColorInterpolationMode
 targetos: Windows
 req.typenames: 
 req.redist: 

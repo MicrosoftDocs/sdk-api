@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IFileOperationProgressSink.PreMoveItem
 title: IFileOperationProgressSink::PreMoveItem (shobjidl_core.h)
-
 description: Performs caller-implemented actions before the move process for each item begins.
 old-location: shell\IFileOperationProgressSink_PreMoveItem.htm
 tech.root: shell
 ms.assetid: bd92c9fa-fdea-4149-9727-90eafdf7c6bc
-
 ms.date: 12/05/2018
 ms.keywords: IFileOperationProgressSink interface [Windows Shell],PreMoveItem method, IFileOperationProgressSink.PreMoveItem, IFileOperationProgressSink::PreMoveItem, PreMoveItem, PreMoveItem method [Windows Shell], PreMoveItem method [Windows Shell],IFileOperationProgressSink interface, _shell_IFileOperationProgressSink_PreMoveItem, shell.IFileOperationProgressSink_PreMoveItem, shobjidl_core/IFileOperationProgressSink::PreMoveItem
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IFileOperationProgressSink.PreMoveItem"
+f1_keywords:
+- shobjidl_core/IFileOperationProgressSink.PreMoveItem
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - IFileOperationProgressSink.PreMoveItem
+- IFileOperationProgressSink.PreMoveItem
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NN:vdshwprv.IVdsAdmin
 title: IVdsAdmin (vdshwprv.h)
-
 description: Registers providers with VDS.
 old-location: base\ivdsadmin.htm
 tech.root: VDS
 ms.assetid: 693ee0c0-9f86-4f78-9724-f3a3420463c9
-
 ms.date: 12/05/2018
 ms.keywords: IVdsAdmin, IVdsAdmin interface [VDS], IVdsAdmin interface [VDS],described, base.ivdsadmin, vdshwprv/IVdsAdmin
 ms.topic: interface
-f1_keywords: 
- - "vdshwprv/IVdsAdmin"
+f1_keywords:
+- vdshwprv/IVdsAdmin
 dev_langs:
- - c++
+- c++
 req.header: vdshwprv.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Uuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Uuid.lib
- - Uuid.dll
+- Uuid.lib
+- Uuid.dll
 api_name:
- - IVdsAdmin
+- IVdsAdmin
 targetos: Windows
 req.typenames: 
 req.redist: 

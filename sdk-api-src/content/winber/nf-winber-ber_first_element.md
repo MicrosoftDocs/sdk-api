@@ -1,19 +1,17 @@
 ---
 UID: NF:winber.ber_first_element
 title: ber_first_element function (winber.h)
-
 description: The ber_first_element function is used to begin the traversal of a SET, SET OF, SEQUENCE or SEQUENCE OF data value stored in the supplied BerElement structure. It returns the tag and length of the first element.
 old-location: ldap\ber_first_element.htm
 tech.root: ldap
 ms.assetid: 079ac0a6-1b73-433e-88b3-1ce16ddc2851
-
 ms.date: 12/05/2018
-ms.keywords: "_ldap_ber_first_element, ber_first_element, ber_first_element function [LDAP], ldap.ber__first__element, ldap.ber_first_element, winber/ber_first_element"
+ms.keywords: _ldap_ber_first_element, ber_first_element, ber_first_element function [LDAP], ldap.ber__first__element, ldap.ber_first_element, winber/ber_first_element
 ms.topic: function
-f1_keywords: 
- - "winber/ber_first_element"
+f1_keywords:
+- winber/ber_first_element
 dev_langs:
- - c++
+- c++
 req.header: winber.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Wldap32.lib
 req.dll: Wldap32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Wldap32.dll
+- Wldap32.dll
 api_name:
- - ber_first_element
+- ber_first_element
 targetos: Windows
 req.typenames: 
 req.redist: 

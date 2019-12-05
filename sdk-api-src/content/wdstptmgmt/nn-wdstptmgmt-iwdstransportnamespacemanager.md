@@ -1,19 +1,17 @@
 ---
 UID: NN:wdstptmgmt.IWdsTransportNamespaceManager
 title: IWdsTransportNamespaceManager (wdstptmgmt.h)
-
 description: Manages namespaces on a WDS transport server.
 old-location: wds\iwdstransportnamespacemanager.htm
 tech.root: wds
 ms.assetid: de5fc470-af9f-4f9f-bc17-a347dc702e36
-
 ms.date: 12/05/2018
 ms.keywords: IWdsTransportNamespaceManager, IWdsTransportNamespaceManager interface [Windows Deployment Services], IWdsTransportNamespaceManager interface [Windows Deployment Services],described, wds.iwdstransportnamespacemanager, wdstptmgmt/IWdsTransportNamespaceManager
 ms.topic: interface
-f1_keywords: 
- - "wdstptmgmt/IWdsTransportNamespaceManager"
+f1_keywords:
+- wdstptmgmt/IWdsTransportNamespaceManager
 dev_langs:
- - c++
+- c++
 req.header: wdstptmgmt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wdstptmgmt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wdstptmgmt.dll
+- Wdstptmgmt.dll
 api_name:
- - IWdsTransportNamespaceManager
+- IWdsTransportNamespaceManager
 targetos: Windows
 req.typenames: 
 req.redist: 

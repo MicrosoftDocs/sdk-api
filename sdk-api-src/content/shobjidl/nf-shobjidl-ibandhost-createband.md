@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl.IBandHost.CreateBand
 title: IBandHost::CreateBand (shobjidl.h)
-
 description: Creates a specified band.
 old-location: shell\IBandHost_CreateBand.htm
 tech.root: shell
 ms.assetid: 7edf8d46-f925-4c4f-99b1-e792dce69222
-
 ms.date: 12/05/2018
 ms.keywords: CreateBand, CreateBand method [Windows Shell], CreateBand method [Windows Shell],IBandHost interface, IBandHost interface [Windows Shell],CreateBand method, IBandHost.CreateBand, IBandHost::CreateBand, _shell_IBandHost_CreateBand, shell.IBandHost_CreateBand, shobjidl/IBandHost::CreateBand
 ms.topic: method
-f1_keywords: 
- - "shobjidl/IBandHost.CreateBand"
+f1_keywords:
+- shobjidl/IBandHost.CreateBand
 dev_langs:
- - c++
+- c++
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shobjidl.h
+- Shobjidl.h
 api_name:
- - IBandHost.CreateBand
+- IBandHost.CreateBand
 targetos: Windows
 req.typenames: 
 req.redist: 

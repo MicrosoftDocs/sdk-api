@@ -1,19 +1,17 @@
 ---
 UID: NF:sbtsv.ITsSbPlacement.QueryEnvironmentForTarget
 title: ITsSbPlacement::QueryEnvironmentForTarget (sbtsv.h)
-
 description: Determines whether the specified environment is ready to host the target that was returned by load balancing.
 old-location: termserv\itssbplacement_queryenvironmentfortarget.htm
 tech.root: TermServ
 ms.assetid: 62320a0b-3f3e-4341-a481-a43af39c06f7
-
 ms.date: 12/05/2018
 ms.keywords: ITsSbPlacement interface [Remote Desktop Services],QueryEnvironmentForTarget method, ITsSbPlacement.QueryEnvironmentForTarget, ITsSbPlacement::QueryEnvironmentForTarget, QueryEnvironmentForTarget, QueryEnvironmentForTarget method [Remote Desktop Services], QueryEnvironmentForTarget method [Remote Desktop Services],ITsSbPlacement interface, sbtsv/ITsSbPlacement::QueryEnvironmentForTarget, termserv.itssbplacement_queryenvironmentfortarget
 ms.topic: method
-f1_keywords: 
- - "sbtsv/ITsSbPlacement.QueryEnvironmentForTarget"
+f1_keywords:
+- sbtsv/ITsSbPlacement.QueryEnvironmentForTarget
 dev_langs:
- - c++
+- c++
 req.header: sbtsv.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - sbtsv.h
+- sbtsv.h
 api_name:
- - ITsSbPlacement.QueryEnvironmentForTarget
+- ITsSbPlacement.QueryEnvironmentForTarget
 targetos: Windows
 req.typenames: 
 req.redist: 

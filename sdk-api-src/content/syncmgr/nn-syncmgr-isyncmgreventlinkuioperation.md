@@ -1,19 +1,17 @@
 ---
 UID: NN:syncmgr.ISyncMgrEventLinkUIOperation
 title: ISyncMgrEventLinkUIOperation (syncmgr.h)
-
 description: Provides a method that is called when event links are clicked in the sync results folder.
 old-location: shell\ISyncMgrEventLinkUIOperation.htm
 tech.root: shell
 ms.assetid: 53ea9488-77e0-4eb2-86d3-88747ba44654
-
 ms.date: 12/05/2018
 ms.keywords: ISyncMgrEventLinkUIOperation, ISyncMgrEventLinkUIOperation interface [Windows Shell], ISyncMgrEventLinkUIOperation interface [Windows Shell],described, _shell_ISyncMgrEventLinkUIOperation, shell.ISyncMgrEventLinkUIOperation, syncmgr/ISyncMgrEventLinkUIOperation
 ms.topic: interface
-f1_keywords: 
- - "syncmgr/ISyncMgrEventLinkUIOperation"
+f1_keywords:
+- syncmgr/ISyncMgrEventLinkUIOperation
 dev_langs:
- - c++
+- c++
 req.header: syncmgr.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Syncmgr.h
+- Syncmgr.h
 api_name:
- - ISyncMgrEventLinkUIOperation
+- ISyncMgrEventLinkUIOperation
 targetos: Windows
 req.typenames: 
 req.redist: 

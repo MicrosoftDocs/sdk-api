@@ -1,19 +1,17 @@
 ---
 UID: NF:webservices.WsGetErrorString
 title: WsGetErrorString function (webservices.h)
-
 description: Retrieves an error string from an error object.
 old-location: wsw\wsgeterrorstring.htm
 tech.root: wsw
 ms.assetid: 711c14b4-6a74-4860-a9cc-7b8673dc1a28
-
 ms.date: 12/05/2018
 ms.keywords: WsGetErrorString, WsGetErrorString function [Web Services for Windows], webservices/WsGetErrorString, wsw.wsgeterrorstring
 ms.topic: function
-f1_keywords: 
- - "webservices/WsGetErrorString"
+f1_keywords:
+- webservices/WsGetErrorString
 dev_langs:
- - c++
+- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: WebServices.lib
 req.dll: WebServices.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - WebServices.dll
+- WebServices.dll
 api_name:
- - WsGetErrorString
+- WsGetErrorString
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:manipulations.IInertiaProcessor.put_DesiredRotation
 title: IInertiaProcessor::put_DesiredRotation (manipulations.h)
-
 description: The DesiredRotation property specifies how far the current inertia processor object should manipulate the target object in radians.
 old-location: wintouch\iinertiaprocessor_desiredrotation.htm
 tech.root: wintouch
 ms.assetid: 42fcda66-8992-4a44-b4d5-04d4f2c7e25a
-
 ms.date: 12/05/2018
 ms.keywords: DesiredRotation property [Windows Touch], DesiredRotation property [Windows Touch],IInertiaProcessor interface, IInertiaProcessor interface [Windows Touch],DesiredRotation property, IInertiaProcessor.DesiredRotation, IInertiaProcessor.put_DesiredRotation, IInertiaProcessor::DesiredRotation, IInertiaProcessor::get_DesiredRotation, IInertiaProcessor::put_DesiredRotation, manipulations/IInertiaProcessor::DesiredRotation, manipulations/IInertiaProcessor::get_DesiredRotation, manipulations/IInertiaProcessor::put_DesiredRotation, put_DesiredRotation, wintouch.iinertiaprocessor_desiredrotation
 ms.topic: method
-f1_keywords: 
- - "manipulations/IInertiaProcessor.DesiredRotation"
+f1_keywords:
+- manipulations/IInertiaProcessor.DesiredRotation
 dev_langs:
- - c++
+- c++
 req.header: manipulations.h
 req.include-header: Manipulations.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - manipulations.h
+- manipulations.h
 api_name:
- - IInertiaProcessor.DesiredRotation
- - IInertiaProcessor.get_DesiredRotation
- - IInertiaProcessor.put_DesiredRotation
+- IInertiaProcessor.DesiredRotation
+- IInertiaProcessor.get_DesiredRotation
+- IInertiaProcessor.put_DesiredRotation
 targetos: Windows
 req.typenames: 
 req.redist: 

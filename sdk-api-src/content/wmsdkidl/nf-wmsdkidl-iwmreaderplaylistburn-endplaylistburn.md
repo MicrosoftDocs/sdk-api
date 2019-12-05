@@ -1,19 +1,17 @@
 ---
 UID: NF:wmsdkidl.IWMReaderPlaylistBurn.EndPlaylistBurn
 title: IWMReaderPlaylistBurn::EndPlaylistBurn (wmsdkidl.h)
-
 description: The EndPlaylistBurn method completes the playlist burn process. This includes releasing resources and adjusting counts associated with rights in DRM licenses.
 old-location: wmformat\iwmreaderplaylistburn_endplaylistburn.htm
 tech.root: wmformat
 ms.assetid: 355f23eb-3cdb-4c27-bc48-499f349aef2b
-
 ms.date: 12/05/2018
 ms.keywords: EndPlaylistBurn, EndPlaylistBurn method [windows Media Format], EndPlaylistBurn method [windows Media Format],IWMReaderPlaylistBurn interface, IWMReaderPlaylistBurn interface [windows Media Format],EndPlaylistBurn method, IWMReaderPlaylistBurn.EndPlaylistBurn, IWMReaderPlaylistBurn::EndPlaylistBurn, IWMReaderPlaylistBurnEndPlaylistBurn, wmformat.iwmreaderplaylistburn_endplaylistburn, wmsdkidl/IWMReaderPlaylistBurn::EndPlaylistBurn
 ms.topic: method
-f1_keywords: 
- - "wmsdkidl/IWMReaderPlaylistBurn.EndPlaylistBurn"
+f1_keywords:
+- wmsdkidl/IWMReaderPlaylistBurn.EndPlaylistBurn
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wmvcore.lib
- - Wmvcore.dll
- - WMStubDRM.lib
- - WMStubDRM.dll
+- Wmvcore.lib
+- Wmvcore.dll
+- WMStubDRM.lib
+- WMStubDRM.dll
 api_name:
- - IWMReaderPlaylistBurn.EndPlaylistBurn
+- IWMReaderPlaylistBurn.EndPlaylistBurn
 targetos: Windows
 req.typenames: 
 req.redist: 

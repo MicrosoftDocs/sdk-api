@@ -1,19 +1,17 @@
 ---
 UID: NF:rpcproxy.CStdStubBuffer_Disconnect
 title: CStdStubBuffer_Disconnect function (rpcproxy.h)
-
 description: The CStdStubBuffer_Disconnect function implements the IRpcStubBuffer::Disconnect method and disconnects the server object from the stub.
 old-location: rpc\cstdstubbuffer_disconnect.htm
 tech.root: Rpc
 ms.assetid: 8b040523-6329-4db0-9f46-1c34b958b15f
-
 ms.date: 12/05/2018
 ms.keywords: CStdStubBuffer_Disconnect, CStdStubBuffer_Disconnect function [RPC], rpc.cstdstubbuffer_disconnect, rpcproxy/CStdStubBuffer_Disconnect
 ms.topic: function
-f1_keywords: 
- - "rpcproxy/CStdStubBuffer_Disconnect"
+f1_keywords:
+- rpcproxy/CStdStubBuffer_Disconnect
 dev_langs:
- - c++
+- c++
 req.header: rpcproxy.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: RpcRT4.lib
 req.dll: RpcRT4.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - RpcRT4.dll
+- RpcRT4.dll
 api_name:
- - CStdStubBuffer_Disconnect
+- CStdStubBuffer_Disconnect
 targetos: Windows
 req.typenames: 
 req.redist: 

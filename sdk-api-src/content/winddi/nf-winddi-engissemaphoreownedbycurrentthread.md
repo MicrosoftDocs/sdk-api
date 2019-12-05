@@ -1,19 +1,17 @@
 ---
 UID: NF:winddi.EngIsSemaphoreOwnedByCurrentThread
 title: EngIsSemaphoreOwnedByCurrentThread function (winddi.h)
-
 description: The EngIsSemaphoreOwnedByCurrentThread function determines whether the currently executing thread holds the specified semaphore.
 old-location: display\engissemaphoreownedbycurrentthread.htm
 tech.root: display
 ms.assetid: ce5d8ceb-0137-4ca9-b718-2e3de650249d
-
 ms.date: 12/05/2018
 ms.keywords: EngIsSemaphoreOwnedByCurrentThread, EngIsSemaphoreOwnedByCurrentThread function [Display Devices], display.engissemaphoreownedbycurrentthread, gdifncs_6c3dcc33-1798-4dc5-a64f-a9bb85f5cf81.xml, winddi/EngIsSemaphoreOwnedByCurrentThread
 ms.topic: function
-f1_keywords: 
- - "winddi/EngIsSemaphoreOwnedByCurrentThread"
+f1_keywords:
+- winddi/EngIsSemaphoreOwnedByCurrentThread
 dev_langs:
- - c++
+- c++
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Universal
@@ -32,14 +30,14 @@ req.lib: Win32k.lib
 req.dll: Win32k.sys
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Win32k.sys
+- Win32k.sys
 api_name:
- - EngIsSemaphoreOwnedByCurrentThread
+- EngIsSemaphoreOwnedByCurrentThread
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:tbs.Tbsip_Context_Close
 title: Tbsip_Context_Close function (tbs.h)
-
 description: Closes a context handle, which releases resources associated with the context in TBS and closes the binding handle used to communicate with TBS.
 old-location: tbs\_tbsip_context_close.htm
 tech.root: TBS
 ms.assetid: 405c600b-f752-48e8-9eea-473fcdf1eb2f
-
 ms.date: 12/05/2018
 ms.keywords: Tbsip_Context_Close, Tbsip_Context_Close function [TBS], tbs._tbsip_context_close, tbs/Tbsip_Context_Close
 ms.topic: function
-f1_keywords: 
- - "tbs/Tbsip_Context_Close"
+f1_keywords:
+- tbs/Tbsip_Context_Close
 dev_langs:
- - c++
+- c++
 req.header: tbs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Tbs.lib
 req.dll: Tbs.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Tbs.dll
+- Tbs.dll
 api_name:
- - Tbsip_Context_Close
+- Tbsip_Context_Close
 targetos: Windows
 req.typenames: 
 req.redist: 

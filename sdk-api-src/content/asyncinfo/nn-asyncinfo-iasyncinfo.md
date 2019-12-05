@@ -1,19 +1,17 @@
 ---
 UID: NN:asyncinfo.IAsyncInfo
 title: IAsyncInfo (asyncinfo.h)
-
 description: Provides support for asynchronous operations.
 old-location: winrt\iasyncinfo.htm
 tech.root: WinRT
 ms.assetid: 3444e02e-8817-4c23-84d9-1a2d1bf43a52
-
 ms.date: 12/05/2018
 ms.keywords: IAsyncInfo, IAsyncInfo interface [Windows Runtime], IAsyncInfo interface [Windows Runtime],described, asyncinfo/IAsyncInfo, winrt.iasyncinfo
 ms.topic: interface
-f1_keywords: 
- - "asyncinfo/IAsyncInfo"
+f1_keywords:
+- asyncinfo/IAsyncInfo
 dev_langs:
- - c++
+- c++
 req.header: asyncinfo.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - AsyncInfo.h
+- AsyncInfo.h
 api_name:
- - IAsyncInfo
+- IAsyncInfo
 targetos: Windows
 req.typenames: 
 req.redist: 

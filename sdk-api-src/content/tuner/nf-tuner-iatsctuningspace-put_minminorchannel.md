@@ -1,19 +1,17 @@
 ---
 UID: NF:tuner.IATSCTuningSpace.put_MinMinorChannel
 title: IATSCTuningSpace::put_MinMinorChannel (tuner.h)
-
 description: The put_MinMinorChannel method sets the lowest minor channel number ever allowed for this tuning space.
 old-location: mstv\iatsctuningspace_put_minminorchannel.htm
 tech.root: mstv
 ms.assetid: 71ae8be2-8e80-49ff-9d1b-be42a620c20c
-
 ms.date: 12/05/2018
 ms.keywords: IATSCTuningSpace interface [Microsoft TV Technologies],put_MinMinorChannel method, IATSCTuningSpace.put_MinMinorChannel, IATSCTuningSpace::put_MinMinorChannel, IATSCTuningSpaceput_MinMinorChannel, mstv.iatsctuningspace_put_minminorchannel, put_MinMinorChannel, put_MinMinorChannel method [Microsoft TV Technologies], put_MinMinorChannel method [Microsoft TV Technologies],IATSCTuningSpace interface, tuner/IATSCTuningSpace::put_MinMinorChannel
 ms.topic: method
-f1_keywords: 
- - "tuner/IATSCTuningSpace.put_MinMinorChannel"
+f1_keywords:
+- tuner/IATSCTuningSpace.put_MinMinorChannel
 dev_langs:
- - c++
+- c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - tuner.h
+- tuner.h
 api_name:
- - IATSCTuningSpace.put_MinMinorChannel
+- IATSCTuningSpace.put_MinMinorChannel
 targetos: Windows
 req.typenames: 
 req.redist: 

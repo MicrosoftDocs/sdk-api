@@ -1,19 +1,17 @@
 ---
 UID: NS:oleauto.tagMETHODDATA
 title: METHODDATA (oleauto.h)
-
 description: Describes a method or property.
 old-location: automat\methoddata.htm
 tech.root: automat
 ms.assetid: 85fd7121-3eed-4a83-9ba2-caa81fa1e048
-
 ms.date: 12/05/2018
-ms.keywords: "*LPMETHODDATA, DISPATCH_METHOD, DISPATCH_PROPERTYGET, DISPATCH_PROPERTYPUT, DISPATCH_PROPERTYPUTREF, LPMETHODDATA, LPMETHODDATA structure pointer [Automation], METHODDATA, METHODDATA structure [Automation], _oa96_METHODDATA, automat.methoddata, oleauto/LPMETHODDATA, oleauto/METHODDATA"
+ms.keywords: '*LPMETHODDATA, DISPATCH_METHOD, DISPATCH_PROPERTYGET, DISPATCH_PROPERTYPUT, DISPATCH_PROPERTYPUTREF, LPMETHODDATA, LPMETHODDATA structure pointer [Automation], METHODDATA, METHODDATA structure [Automation], _oa96_METHODDATA, automat.methoddata, oleauto/LPMETHODDATA, oleauto/METHODDATA'
 ms.topic: struct
-f1_keywords: 
- - "oleauto/METHODDATA"
+f1_keywords:
+- oleauto/METHODDATA
 dev_langs:
- - c++
+- c++
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - OleAuto.h
+- OleAuto.h
 api_name:
- - METHODDATA
+- METHODDATA
 targetos: Windows
 req.typenames: METHODDATA, *LPMETHODDATA
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NS:imm.tagCANDIDATELIST
 title: CANDIDATELIST (imm.h)
-
 description: Contains information about a candidate list.
 old-location: intl\candidatelist.htm
 tech.root: Intl
 ms.assetid: d60b28fb-0cdd-43b4-8d99-cb829bea6679
-
 ms.date: 12/05/2018
-ms.keywords: "*LPCANDIDATELIST, *NPCANDIDATELIST, *PCANDIDATELIST, CANDIDATELIST, CANDIDATELIST structure [Internationalization for Windows Applications], PCANDIDATELIST, PCANDIDATELIST structure pointer [Internationalization for Windows Applications], _win32_CANDIDATELIST_str, imm/CANDIDATELIST, imm/PCANDIDATELIST, intl.candidatelist, tagCANDIDATELIST"
+ms.keywords: '*LPCANDIDATELIST, *NPCANDIDATELIST, *PCANDIDATELIST, CANDIDATELIST, CANDIDATELIST structure [Internationalization for Windows Applications], PCANDIDATELIST, PCANDIDATELIST structure pointer [Internationalization for Windows Applications], _win32_CANDIDATELIST_str, imm/CANDIDATELIST, imm/PCANDIDATELIST, intl.candidatelist, tagCANDIDATELIST'
 ms.topic: struct
-f1_keywords: 
- - "imm/CANDIDATELIST"
+f1_keywords:
+- imm/CANDIDATELIST
 dev_langs:
- - c++
+- c++
 req.header: imm.h
 req.include-header: Immdev.h, Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Imm.h
+- Imm.h
 api_name:
- - CANDIDATELIST
+- CANDIDATELIST
 targetos: Windows
 req.typenames: CANDIDATELIST, *PCANDIDATELIST, *NPCANDIDATELIST, *LPCANDIDATELIST
 req.redist: 

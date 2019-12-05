@@ -1,19 +1,17 @@
 ---
 UID: NF:dxgi1_2.IDXGIOutputDuplication.UnMapDesktopSurface
 title: IDXGIOutputDuplication::UnMapDesktopSurface (dxgi1_2.h)
-
 description: Invalidates the pointer to the desktop image that was retrieved by using IDXGIOutputDuplication::MapDesktopSurface.
 old-location: direct3ddxgi\idxgioutputduplication_unmapdesktopsurface.htm
 tech.root: direct3ddxgi
 ms.assetid: 1B9AF088-5856-4F1C-A794-6CF870D62A29
-
 ms.date: 12/05/2018
 ms.keywords: IDXGIOutputDuplication interface [DXGI],UnMapDesktopSurface method, IDXGIOutputDuplication.UnMapDesktopSurface, IDXGIOutputDuplication::UnMapDesktopSurface, UnMapDesktopSurface, UnMapDesktopSurface method [DXGI], UnMapDesktopSurface method [DXGI],IDXGIOutputDuplication interface, direct3ddxgi.idxgioutputduplication_unmapdesktopsurface, dxgi1_2/IDXGIOutputDuplication::UnMapDesktopSurface
 ms.topic: method
-f1_keywords: 
- - "dxgi1_2/IDXGIOutputDuplication.UnMapDesktopSurface"
+f1_keywords:
+- dxgi1_2/IDXGIOutputDuplication.UnMapDesktopSurface
 dev_langs:
- - c++
+- c++
 req.header: dxgi1_2.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Dxgi.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dxgi.lib
- - Dxgi.dll
+- Dxgi.lib
+- Dxgi.dll
 api_name:
- - IDXGIOutputDuplication.UnMapDesktopSurface
+- IDXGIOutputDuplication.UnMapDesktopSurface
 targetos: Windows
 req.typenames: 
 req.redist: 

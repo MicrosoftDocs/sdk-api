@@ -1,19 +1,17 @@
 ---
 UID: NF:msctf.ITfCandidateListUIElement.GetCount
 title: ITfCandidateListUIElement::GetCount (msctf.h)
-
 description: The ITfCandidateListUIElement::GetCount method returns the count of the candidate strings.
 old-location: tsf\itfcandidatelistuielement_getcount.htm
 tech.root: TSF
 ms.assetid: 9009203a-71d1-49b2-823d-d6f04bf3743b
-
 ms.date: 12/05/2018
 ms.keywords: GetCount, GetCount method [Text Services Framework], GetCount method [Text Services Framework],ITfCandidateListUIElement interface, ITfCandidateListUIElement interface [Text Services Framework],GetCount method, ITfCandidateListUIElement.GetCount, ITfCandidateListUIElement::GetCount, msctf/ITfCandidateListUIElement::GetCount, tsf.itfcandidatelistuielement_getcount
 ms.topic: method
-f1_keywords: 
- - "msctf/ITfCandidateListUIElement.GetCount"
+f1_keywords:
+- msctf/ITfCandidateListUIElement.GetCount
 dev_langs:
- - c++
+- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msctf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msctf.dll
+- Msctf.dll
 api_name:
- - ITfCandidateListUIElement.GetCount
+- ITfCandidateListUIElement.GetCount
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

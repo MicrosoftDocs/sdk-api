@@ -1,19 +1,17 @@
 ---
 UID: NN:portabledeviceapi.IPortableDeviceProperties
 title: IPortableDeviceProperties (portabledeviceapi.h)
-
 description: The IPortableDeviceProperties interface retrieves, adds, or deletes properties from an object on a device, or the device itself.
 old-location: wpdsdk\iportabledeviceproperties.htm
 tech.root: wpd_sdk
 ms.assetid: 4555e85b-c667-466c-a527-cc29ca7a6aee
-
 ms.date: 12/05/2018
 ms.keywords: IPortableDeviceProperties, IPortableDeviceProperties interface [Windows Portable Devices SDK], IPortableDeviceProperties interface [Windows Portable Devices SDK],described, IPortableDevicePropertiesInterface, portabledeviceapi/IPortableDeviceProperties, wpdsdk.iportabledeviceproperties
 ms.topic: interface
-f1_keywords: 
- - "portabledeviceapi/IPortableDeviceProperties"
+f1_keywords:
+- portabledeviceapi/IPortableDeviceProperties
 dev_langs:
- - c++
+- c++
 req.header: portabledeviceapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - portabledeviceapi.h
+- portabledeviceapi.h
 api_name:
- - IPortableDeviceProperties
+- IPortableDeviceProperties
 targetos: Windows
 req.typenames: 
 req.redist: 

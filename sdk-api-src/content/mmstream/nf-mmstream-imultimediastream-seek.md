@@ -1,19 +1,17 @@
 ---
 UID: NF:mmstream.IMultiMediaStream.Seek
 title: IMultiMediaStream::Seek (mmstream.h)
-
 description: Note  This interface is deprecated. New applications should not use it. The Seek method seeks all of the media streams to a new position.
 old-location: dshow\imultimediastream_seek.htm
 tech.root: DirectShow
 ms.assetid: ac65613f-3fca-4043-83ad-740ebd7687a4
-
 ms.date: 12/05/2018
 ms.keywords: IMultiMediaStream interface [DirectShow],Seek method, IMultiMediaStream.Seek, IMultiMediaStream::Seek, IMultiMediaStreamSeek, Seek, Seek method [DirectShow], Seek method [DirectShow],IMultiMediaStream interface, dshow.imultimediastream_seek, mmstream/IMultiMediaStream::Seek
 ms.topic: method
-f1_keywords: 
- - "mmstream/IMultiMediaStream.Seek"
+f1_keywords:
+- mmstream/IMultiMediaStream.Seek
 dev_langs:
- - c++
+- c++
 req.header: mmstream.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mmstream.h
+- mmstream.h
 api_name:
- - IMultiMediaStream.Seek
+- IMultiMediaStream.Seek
 targetos: Windows
 req.typenames: 
 req.redist: 

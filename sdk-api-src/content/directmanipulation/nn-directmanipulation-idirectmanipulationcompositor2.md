@@ -1,19 +1,17 @@
 ---
 UID: NN:directmanipulation.IDirectManipulationCompositor2
 title: IDirectManipulationCompositor2 (directmanipulation.h)
-
 description: Represents a compositor object that associates manipulated content with drawing surfaces across multiple processes.
 old-location: directmanipulation\idirectmanipulationcompositor2.htm
 tech.root: directmanipulation
 ms.assetid: e428ddaa-3913-498a-a3fd-bed10289cd8d
-
 ms.date: 12/05/2018
 ms.keywords: IDirectManipulationCompositor2, IDirectManipulationCompositor2 interface [Direct Manipulation], IDirectManipulationCompositor2 interface [Direct Manipulation],described, directmanipulation.idirectmanipulationcompositor2, directmanipulation/IDirectManipulationCompositor2
 ms.topic: interface
-f1_keywords: 
- - "directmanipulation/IDirectManipulationCompositor2"
+f1_keywords:
+- directmanipulation/IDirectManipulationCompositor2
 dev_langs:
- - c++
+- c++
 req.header: directmanipulation.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - DirectManipulation.h
+- DirectManipulation.h
 api_name:
- - IDirectManipulationCompositor2
+- IDirectManipulationCompositor2
 targetos: Windows
 req.typenames: 
 req.redist: 

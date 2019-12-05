@@ -1,19 +1,17 @@
 ---
 UID: NF:tuner.IEnumComponentTypes.Next
 title: IEnumComponentTypes::Next (tuner.h)
-
 description: The Next method retrieves the next n elements in the collection.
 old-location: mstv\ienumcomponenttypes_next.htm
 tech.root: mstv
 ms.assetid: 491e9237-38cd-4c12-b93b-eb398a49d742
-
 ms.date: 12/05/2018
 ms.keywords: IEnumComponentTypes interface [Microsoft TV Technologies],Next method, IEnumComponentTypes.Next, IEnumComponentTypes::Next, IEnumComponentTypesNext, Next, Next method [Microsoft TV Technologies], Next method [Microsoft TV Technologies],IEnumComponentTypes interface, mstv.ienumcomponenttypes_next, tuner/IEnumComponentTypes::Next
 ms.topic: method
-f1_keywords: 
- - "tuner/IEnumComponentTypes.Next"
+f1_keywords:
+- tuner/IEnumComponentTypes.Next
 dev_langs:
- - c++
+- c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - tuner.h
+- tuner.h
 api_name:
- - IEnumComponentTypes.Next
+- IEnumComponentTypes.Next
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:clusapi.CLUSTER_MAKE_VERSION
 title: CLUSTER_MAKE_VERSION macro (clusapi.h)
-
 description: Creates a Cluster service version number.
 old-location: mscs\cluster_make_version.htm
 tech.root: MsCS
 ms.assetid: 0a53c070-efed-4105-8dce-60647869a93f
-
 ms.date: 12/05/2018
 ms.keywords: CLUSTER_MAKE_VERSION, CLUSTER_MAKE_VERSION macro [Failover Cluster], _wolf_cluster_make_version, clusapi/CLUSTER_MAKE_VERSION, mscs.cluster_make_version
 ms.topic: macro
-f1_keywords: 
- - "clusapi/CLUSTER_MAKE_VERSION"
+f1_keywords:
+- clusapi/CLUSTER_MAKE_VERSION
 dev_langs:
- - c++
+- c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - ClusAPI.h
+- ClusAPI.h
 api_name:
- - CLUSTER_MAKE_VERSION
+- CLUSTER_MAKE_VERSION
 targetos: Windows
 req.typenames: 
 req.redist: 

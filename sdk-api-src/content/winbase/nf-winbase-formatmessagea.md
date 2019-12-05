@@ -1,19 +1,17 @@
 ---
 UID: NF:winbase.FormatMessageA
 title: FormatMessageA function (winbase.h)
-
 description: Formats a message string.
 old-location: base\formatmessage.htm
 tech.root: Debug
 ms.assetid: b9d61342-4bcf-42e9-96f1-a5993dfb6c0c
-
 ms.date: 12/05/2018
 ms.keywords: FORMAT_MESSAGE_ALLOCATE_BUFFER, FORMAT_MESSAGE_ARGUMENT_ARRAY, FORMAT_MESSAGE_FROM_HMODULE, FORMAT_MESSAGE_FROM_STRING, FORMAT_MESSAGE_FROM_SYSTEM, FORMAT_MESSAGE_IGNORE_INSERTS, FORMAT_MESSAGE_MAX_WIDTH_MASK, FormatMessage, FormatMessage function, FormatMessageA, FormatMessageW, _win32_formatmessage, base.formatmessage, winbase/FormatMessage, winbase/FormatMessageA, winbase/FormatMessageW
 ms.topic: function
-f1_keywords: 
- - "winbase/FormatMessage"
+f1_keywords:
+- winbase/FormatMessage
 dev_langs:
- - c++
+- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,23 +30,23 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-Localization-l1-2-0.dll
- - KernelBase.dll
- - API-MS-Win-Core-Localization-l1-2-1.dll
- - API-MS-Win-Core-misc-l1-1-0.dll
- - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
- - MinKernelBase.dll
- - API-MS-Win-Core-Localization-L1-2-2.dll
+- Kernel32.dll
+- API-MS-Win-Core-Localization-l1-2-0.dll
+- KernelBase.dll
+- API-MS-Win-Core-Localization-l1-2-1.dll
+- API-MS-Win-Core-misc-l1-1-0.dll
+- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+- MinKernelBase.dll
+- API-MS-Win-Core-Localization-L1-2-2.dll
 api_name:
- - FormatMessage
- - FormatMessageA
- - FormatMessageW
+- FormatMessage
+- FormatMessageA
+- FormatMessageW
 targetos: Windows
 req.typenames: 
 req.redist: 

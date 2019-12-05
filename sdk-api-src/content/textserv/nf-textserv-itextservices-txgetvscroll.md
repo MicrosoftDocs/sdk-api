@@ -1,19 +1,17 @@
 ---
 UID: NF:textserv.ITextServices.TxGetVScroll
 title: ITextServices::TxGetVScroll (textserv.h)
-
 description: Returns vertical scroll bar state information.
 old-location: controls\ITextServices_TxGetVScroll.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\windowlessricheditcontrols\windowlessricheditcontrolsreference\windowlessricheditcontrolinterfaces\txgetvscroll.htm
-
 ms.date: 12/05/2018
 ms.keywords: ITextServices interface [Windows Controls],TxGetVScroll method, ITextServices.TxGetVScroll, ITextServices::TxGetVScroll, TxGetVScroll, TxGetVScroll method [Windows Controls], TxGetVScroll method [Windows Controls],ITextServices interface, _win32_ITextServices_TxGetVScroll, _win32_ITextServices_TxGetVScroll_cpp, controls.ITextServices_TxGetVScroll, controls._win32_ITextServices_TxGetVScroll, textserv/ITextServices::TxGetVScroll
 ms.topic: method
-f1_keywords: 
- - "textserv/ITextServices.TxGetVScroll"
+f1_keywords:
+- textserv/ITextServices.TxGetVScroll
 dev_langs:
- - c++
+- c++
 req.header: textserv.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msftedit.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msftedit.dll
+- Msftedit.dll
 api_name:
- - ITextServices.TxGetVScroll
+- ITextServices.TxGetVScroll
 targetos: Windows
 req.typenames: 
 req.redist: 

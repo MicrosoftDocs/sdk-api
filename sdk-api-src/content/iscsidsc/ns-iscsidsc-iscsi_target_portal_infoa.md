@@ -1,19 +1,17 @@
 ---
 UID: NS:iscsidsc.__unnamed_struct_9
 title: ISCSI_TARGET_PORTAL_INFOA (iscsidsc.h)
-
 description: ISCSI_TARGET_PORTAL_INFO structure contains information about a target portal.
 old-location: iscsidisc\iscsi_target_portal_info.htm
 tech.root: iSCSIDisc
 ms.assetid: 3592b289-9c0d-43dc-918f-23c8ff079186
-
 ms.date: 12/05/2018
-ms.keywords: "*PISCSI_TARGET_PORTAL_INFOA, ISCSI_TARGET_PORTAL_INFO, ISCSI_TARGET_PORTAL_INFO structure [iSCSI Discovery Library API], ISCSI_TARGET_PORTAL_INFOA, ISCSI_TARGET_PORTAL_INFOW, PISCSI_TARGET_PORTAL_INFO, PISCSI_TARGET_PORTAL_INFO structure pointer [iSCSI Discovery Library API], iscsidisc.iscsi_target_portal_info, iscsidsc/ISCSI_TARGET_PORTAL_INFO, iscsidsc/ISCSI_TARGET_PORTAL_INFOA, iscsidsc/ISCSI_TARGET_PORTAL_INFOW, iscsidsc/PISCSI_TARGET_PORTAL_INFO"
+ms.keywords: '*PISCSI_TARGET_PORTAL_INFOA, ISCSI_TARGET_PORTAL_INFO, ISCSI_TARGET_PORTAL_INFO structure [iSCSI Discovery Library API], ISCSI_TARGET_PORTAL_INFOA, ISCSI_TARGET_PORTAL_INFOW, PISCSI_TARGET_PORTAL_INFO, PISCSI_TARGET_PORTAL_INFO structure pointer [iSCSI Discovery Library API], iscsidisc.iscsi_target_portal_info, iscsidsc/ISCSI_TARGET_PORTAL_INFO, iscsidsc/ISCSI_TARGET_PORTAL_INFOA, iscsidsc/ISCSI_TARGET_PORTAL_INFOW, iscsidsc/PISCSI_TARGET_PORTAL_INFO'
 ms.topic: struct
-f1_keywords: 
- - "iscsidsc/ISCSI_TARGET_PORTAL_INFO"
+f1_keywords:
+- iscsidsc/ISCSI_TARGET_PORTAL_INFO
 dev_langs:
- - c++
+- c++
 req.header: iscsidsc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Iscsidsc.h
+- Iscsidsc.h
 api_name:
- - ISCSI_TARGET_PORTAL_INFO
- - ISCSI_TARGET_PORTAL_INFOA
- - ISCSI_TARGET_PORTAL_INFOW
+- ISCSI_TARGET_PORTAL_INFO
+- ISCSI_TARGET_PORTAL_INFOA
+- ISCSI_TARGET_PORTAL_INFOW
 targetos: Windows
 req.typenames: ISCSI_TARGET_PORTAL_INFOA, *PISCSI_TARGET_PORTAL_INFOA
 req.redist: 

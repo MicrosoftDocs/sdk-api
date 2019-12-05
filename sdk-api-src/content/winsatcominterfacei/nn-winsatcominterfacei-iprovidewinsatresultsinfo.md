@@ -1,19 +1,17 @@
 ---
 UID: NN:winsatcominterfacei.IProvideWinSATResultsInfo
 title: IProvideWinSATResultsInfo (winsatcominterfacei.h)
-
 description: Gets information about the results of an assessment, for example, the base score and the date that the assessment was run.
 old-location: winsat\iprovidewinsatresultsinfo.htm
 tech.root: WinSAT
 ms.assetid: bd15bc63-a918-43a7-9864-4206a0b6af84
-
 ms.date: 12/05/2018
 ms.keywords: IProvideWinSATResultsInfo, IProvideWinSATResultsInfo interface [WinSAT], IProvideWinSATResultsInfo interface [WinSAT],described, winsat.iprovidewinsatresultsinfo, winsatcominterfacei/IProvideWinSATResultsInfo
 ms.topic: interface
-f1_keywords: 
- - "winsatcominterfacei/IProvideWinSATResultsInfo"
+f1_keywords:
+- winsatcominterfacei/IProvideWinSATResultsInfo
 dev_langs:
- - c++
+- c++
 req.header: winsatcominterfacei.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Winsatapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Winsatapi.dll
+- Winsatapi.dll
 api_name:
- - IProvideWinSATResultsInfo
+- IProvideWinSATResultsInfo
 targetos: Windows
 req.typenames: 
 req.redist: 

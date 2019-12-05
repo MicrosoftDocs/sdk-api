@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IFolderView.Items
 title: IFolderView::Items (shobjidl_core.h)
-
 description: Gets the address of an enumeration object based on the collection of items in the folder view.
 old-location: shell\IFolderView_Items.htm
 tech.root: shell
 ms.assetid: f93e2d30-7b50-48e8-a3e7-6fa29abb8a32
-
 ms.date: 12/05/2018
 ms.keywords: IFolderView interface [Windows Shell],Items method, IFolderView.Items, IFolderView::Items, Items, Items method [Windows Shell], Items method [Windows Shell],IFolderView interface, _shell_IFolderView_Items, shell.IFolderView_Items, shobjidl_core/IFolderView::Items
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IFolderView.Items"
+f1_keywords:
+- shobjidl_core/IFolderView.Items
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Shell32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - IFolderView.Items
+- IFolderView.Items
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:qmgr.IEnumBackgroundCopyGroups.Clone
 title: IEnumBackgroundCopyGroups::Clone (qmgr.h)
-
 description: Use the Clone method to create another IEnumBackgroundCopyGroups enumerator that contains the same enumeration state as the current one.
 old-location: bits\ienumbackgroundcopygroups_clone.htm
 tech.root: Bits
 ms.assetid: f2743edd-9fc5-451b-b1ff-17f4591923ba
-
 ms.date: 12/05/2018
 ms.keywords: Clone, Clone method [BITS], Clone method [BITS],IEnumBackgroundCopyGroups interface, IEnumBackgroundCopyGroups interface [BITS],Clone method, IEnumBackgroundCopyGroups.Clone, IEnumBackgroundCopyGroups::Clone, bits.ienumbackgroundcopygroups_clone, qmgr/IEnumBackgroundCopyGroups::Clone
 ms.topic: method
-f1_keywords: 
- - "qmgr/IEnumBackgroundCopyGroups.Clone"
+f1_keywords:
+- qmgr/IEnumBackgroundCopyGroups.Clone
 dev_langs:
- - c++
+- c++
 req.header: qmgr.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: QmgrPrxy.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - QmgrPrxy.dll
+- QmgrPrxy.dll
 api_name:
- - IEnumBackgroundCopyGroups.Clone
+- IEnumBackgroundCopyGroups.Clone
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:msopc.IOpcSigningOptions.SetSignatureId
 title: IOpcSigningOptions::SetSignatureId (msopc.h)
-
 description: Sets the value of the Id attribute of the Signature element.
 old-location: opc\iopcsigningoptions_setsignatureid.htm
 tech.root: OPC
 ms.assetid: c723d6e8-6af3-41a2-b6dd-d26897495965
-
 ms.date: 12/05/2018
 ms.keywords: IOpcSigningOptions interface [Open Packaging Conventions],SetSignatureId method, IOpcSigningOptions.SetSignatureId, IOpcSigningOptions::SetSignatureId, SetSignatureId, SetSignatureId method [Open Packaging Conventions], SetSignatureId method [Open Packaging Conventions],IOpcSigningOptions interface, msopc/IOpcSigningOptions::SetSignatureId, opc.iopcsigningoptions_setsignatureid
 ms.topic: method
-f1_keywords: 
- - "msopc/IOpcSigningOptions.SetSignatureId"
+f1_keywords:
+- msopc/IOpcSigningOptions.SetSignatureId
 dev_langs:
- - c++
+- c++
 req.header: msopc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msopc.h
+- msopc.h
 api_name:
- - IOpcSigningOptions.SetSignatureId
+- IOpcSigningOptions.SetSignatureId
 targetos: Windows
 req.typenames: 
 req.redist: 

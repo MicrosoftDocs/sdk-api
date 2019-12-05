@@ -1,19 +1,17 @@
 ---
 UID: NF:winsnmp.SnmpOpen
 title: SnmpOpen function (winsnmp.h)
-
 description: The SnmpOpen function requests the Microsoft WinSNMP implementation to open a session for the WinSNMP application.
 old-location: snmp\snmpopen.htm
 tech.root: SNMP
 ms.assetid: 45085cad-2bfb-4f6c-9e42-6041fed681b8
-
 ms.date: 12/05/2018
 ms.keywords: SnmpOpen, SnmpOpen function [SNMP], _snmp_snmpopen, snmp.snmpopen, winsnmp/SnmpOpen
 ms.topic: function
-f1_keywords: 
- - "winsnmp/SnmpOpen"
+f1_keywords:
+- winsnmp/SnmpOpen
 dev_langs:
- - c++
+- c++
 req.header: winsnmp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Wsnmp32.lib
 req.dll: Wsnmp32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Wsnmp32.dll
+- Wsnmp32.dll
 api_name:
- - SnmpOpen
+- SnmpOpen
 targetos: Windows
 req.typenames: 
 req.redist: 

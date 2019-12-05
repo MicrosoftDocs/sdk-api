@@ -1,19 +1,17 @@
 ---
 UID: NF:fsrmquota.IFsrmQuotaBase.get_QuotaLimit
 title: IFsrmQuotaBase::get_QuotaLimit (fsrmquota.h)
-
 description: Retrieves or sets the quota limit for the object.
 old-location: fsrm\ifsrmquotabase_quotalimit.htm
 tech.root: fsrm
 ms.assetid: 2f2b5d8f-70b7-497e-9c51-171dca657c69
-
 ms.date: 12/05/2018
 ms.keywords: IFsrmQuotaBase interface [File Server Resource Manager],QuotaLimit property, IFsrmQuotaBase.QuotaLimit, IFsrmQuotaBase.get_QuotaLimit, IFsrmQuotaBase::QuotaLimit, IFsrmQuotaBase::get_QuotaLimit, IFsrmQuotaBase::put_QuotaLimit, QuotaLimit property [File Server Resource Manager], QuotaLimit property [File Server Resource Manager],IFsrmQuotaBase interface, fs.ifsrmquotabase_quotalimit, fsrm.ifsrmquotabase_quotalimit, fsrmquota/IFsrmQuotaBase::QuotaLimit, fsrmquota/IFsrmQuotaBase::get_QuotaLimit, fsrmquota/IFsrmQuotaBase::put_QuotaLimit, get_QuotaLimit
 ms.topic: method
-f1_keywords: 
- - "fsrmquota/IFsrmQuotaBase.QuotaLimit"
+f1_keywords:
+- fsrmquota/IFsrmQuotaBase.QuotaLimit
 dev_langs:
- - c++
+- c++
 req.header: fsrmquota.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: SrmSvc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - SrmSvc.dll
+- SrmSvc.dll
 api_name:
- - IFsrmQuotaBase.QuotaLimit
- - IFsrmQuotaBase.get_QuotaLimit
- - IFsrmQuotaBase.put_QuotaLimit
+- IFsrmQuotaBase.QuotaLimit
+- IFsrmQuotaBase.get_QuotaLimit
+- IFsrmQuotaBase.put_QuotaLimit
 targetos: Windows
 req.typenames: 
 req.redist: 

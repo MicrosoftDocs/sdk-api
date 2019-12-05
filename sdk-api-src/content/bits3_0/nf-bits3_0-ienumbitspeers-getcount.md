@@ -1,19 +1,17 @@
 ---
 UID: NF:bits3_0.IEnumBitsPeers.GetCount
 title: IEnumBitsPeers::GetCount (bits3_0.h)
-
 description: Retrieves a count of the number of peers in the enumeration.
 old-location: bits\ienumbitspeers_getcount.htm
 tech.root: Bits
 ms.assetid: b4e52429-cd41-483a-b168-b5d7a1f77d74
-
 ms.date: 12/05/2018
 ms.keywords: GetCount, GetCount method [BITS], GetCount method [BITS],IEnumBitsPeers interface, IEnumBitsPeers interface [BITS],GetCount method, IEnumBitsPeers.GetCount, IEnumBitsPeers::GetCount, bits.ienumbitspeers_getcount, bits3_0/IEnumBitsPeers::GetCount
 ms.topic: method
-f1_keywords: 
- - "bits3_0/IEnumBitsPeers.GetCount"
+f1_keywords:
+- bits3_0/IEnumBitsPeers.GetCount
 dev_langs:
- - c++
+- c++
 req.header: bits3_0.h
 req.include-header: Bits.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Bits.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Bits.lib
- - Bits.dll
+- Bits.lib
+- Bits.dll
 api_name:
- - IEnumBitsPeers.GetCount
+- IEnumBitsPeers.GetCount
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMObjectFactory.CreateGlyphs
 title: IXpsOMObjectFactory::CreateGlyphs (xpsobjectmodel.h)
-
 description: Creates an IXpsOMGlyphs interface, which specifies text that appears on a page.
 old-location: xps\ixpsomobjectfactory_createglyphs.htm
 tech.root: printdocs
 ms.assetid: b97005dc-a79b-4234-b1a9-8fe705aea518
-
 ms.date: 12/05/2018
 ms.keywords: CreateGlyphs, CreateGlyphs method [XPS Documents and Packaging], CreateGlyphs method [XPS Documents and Packaging],IXpsOMObjectFactory interface, IXpsOMObjectFactory interface [XPS Documents and Packaging],CreateGlyphs method, IXpsOMObjectFactory.CreateGlyphs, IXpsOMObjectFactory::CreateGlyphs, xps.ixpsomobjectfactory_createglyphs, xpsobjectmodel/IXpsOMObjectFactory::CreateGlyphs
 ms.topic: method
-f1_keywords: 
- - "xpsobjectmodel/IXpsOMObjectFactory.CreateGlyphs"
+f1_keywords:
+- xpsobjectmodel/IXpsOMObjectFactory.CreateGlyphs
 dev_langs:
- - c++
+- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsobjectmodel.h
+- xpsobjectmodel.h
 api_name:
- - IXpsOMObjectFactory.CreateGlyphs
+- IXpsOMObjectFactory.CreateGlyphs
 targetos: Windows
 req.typenames: 
 req.redist: 

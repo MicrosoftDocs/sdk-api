@@ -1,19 +1,17 @@
 ---
 UID: NN:pla.IDataCollector
 title: IDataCollector (pla.h)
-
 description: Sets and retrieves collector properties using XML, specifies the log file name, and retrieves the location of the log file.This interface is an abstract class from which the following data collectors derive:IAlertDataCollectorIApiTracingDataCollectorIConfigurationDataCollectorIPerformanceCounterDataCollectorITraceDataCollector
 old-location: pla\idatacollector.htm
 tech.root: PLA
 ms.assetid: e1860bcf-c62d-434b-b98b-38bad7f84d89
-
 ms.date: 12/05/2018
 ms.keywords: IDataCollector, IDataCollector interface [PLA], IDataCollector interface [PLA],described, base.idatacollector, pla.idatacollector, pla/IDataCollector
 ms.topic: interface
-f1_keywords: 
- - "pla/IDataCollector"
+f1_keywords:
+- pla/IDataCollector
 dev_langs:
- - c++
+- c++
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Pla.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Pla.dll
+- Pla.dll
 api_name:
- - IDataCollector
+- IDataCollector
 targetos: Windows
 req.typenames: 
 req.redist: 

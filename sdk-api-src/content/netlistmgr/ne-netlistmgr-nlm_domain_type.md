@@ -1,19 +1,17 @@
 ---
 UID: NE:netlistmgr.NLM_DOMAIN_TYPE
 title: NLM_DOMAIN_TYPE (netlistmgr.h)
-
 description: The NLM_DOMAIN_TYPE enumeration is a set of flags that specify the domain type of a network.
 old-location: nla\nlm_domain_type.htm
 tech.root: nla
 ms.assetid: fd1bc50a-c8d3-4594-870e-3bbb5c6ea1da
-
 ms.date: 12/05/2018
 ms.keywords: NLM_DOMAIN_TYPE, NLM_DOMAIN_TYPE enumeration [Network Awareness], NLM_DOMAIN_TYPE_DOMAIN_AUTHENTICATED, NLM_DOMAIN_TYPE_DOMAIN_NETWORK, NLM_DOMAIN_TYPE_NON_DOMAIN_NETWORK, netlistmgr/NLM_DOMAIN_TYPE, netlistmgr/NLM_DOMAIN_TYPE_DOMAIN_AUTHENTICATED, netlistmgr/NLM_DOMAIN_TYPE_DOMAIN_NETWORK, netlistmgr/NLM_DOMAIN_TYPE_NON_DOMAIN_NETWORK, nla.nlm_domain_type
 ms.topic: enum
-f1_keywords: 
- - "netlistmgr/NLM_DOMAIN_TYPE"
+f1_keywords:
+- netlistmgr/NLM_DOMAIN_TYPE
 dev_langs:
- - c++
+- c++
 req.header: netlistmgr.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Netlistmgr.h
+- Netlistmgr.h
 api_name:
- - NLM_DOMAIN_TYPE
+- NLM_DOMAIN_TYPE
 targetos: Windows
 req.typenames: NLM_DOMAIN_TYPE
 req.redist: 

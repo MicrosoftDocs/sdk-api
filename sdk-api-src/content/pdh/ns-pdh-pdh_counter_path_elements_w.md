@@ -1,19 +1,17 @@
 ---
 UID: NS:pdh._PDH_COUNTER_PATH_ELEMENTS_W
 title: PDH_COUNTER_PATH_ELEMENTS_W (pdh.h)
-
 description: The PDH_COUNTER_PATH_ELEMENTS structure contains the components of a counter path.
 old-location: perf\pdh_counter_path_elements_str.htm
 tech.root: perfctrs
 ms.assetid: ffa2a076-7267-406b-8eed-4a49504a7ad6
-
 ms.date: 12/05/2018
-ms.keywords: "*PPDH_COUNTER_PATH_ELEMENTS_W, PDH_COUNTER_PATH_ELEMENTS, PDH_COUNTER_PATH_ELEMENTS structure [Perf], PDH_COUNTER_PATH_ELEMENTS_A, PDH_COUNTER_PATH_ELEMENTS_W, PPDH_COUNTER_PATH_ELEMENTS, PPDH_COUNTER_PATH_ELEMENTS structure pointer [Perf], _win32_pdh_counter_path_elements_str, base.pdh_counter_path_elements_str, pdh/PDH_COUNTER_PATH_ELEMENTS, pdh/PDH_COUNTER_PATH_ELEMENTS_A, pdh/PDH_COUNTER_PATH_ELEMENTS_W, pdh/PPDH_COUNTER_PATH_ELEMENTS, perf.pdh_counter_path_elements_str"
+ms.keywords: '*PPDH_COUNTER_PATH_ELEMENTS_W, PDH_COUNTER_PATH_ELEMENTS, PDH_COUNTER_PATH_ELEMENTS structure [Perf], PDH_COUNTER_PATH_ELEMENTS_A, PDH_COUNTER_PATH_ELEMENTS_W, PPDH_COUNTER_PATH_ELEMENTS, PPDH_COUNTER_PATH_ELEMENTS structure pointer [Perf], _win32_pdh_counter_path_elements_str, base.pdh_counter_path_elements_str, pdh/PDH_COUNTER_PATH_ELEMENTS, pdh/PDH_COUNTER_PATH_ELEMENTS_A, pdh/PDH_COUNTER_PATH_ELEMENTS_W, pdh/PPDH_COUNTER_PATH_ELEMENTS, perf.pdh_counter_path_elements_str'
 ms.topic: struct
-f1_keywords: 
- - "pdh/PDH_COUNTER_PATH_ELEMENTS"
+f1_keywords:
+- pdh/PDH_COUNTER_PATH_ELEMENTS
 dev_langs:
- - c++
+- c++
 req.header: pdh.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Pdh.h
+- Pdh.h
 api_name:
- - PDH_COUNTER_PATH_ELEMENTS
- - PDH_COUNTER_PATH_ELEMENTS_A
- - PDH_COUNTER_PATH_ELEMENTS_W
+- PDH_COUNTER_PATH_ELEMENTS
+- PDH_COUNTER_PATH_ELEMENTS_A
+- PDH_COUNTER_PATH_ELEMENTS_W
 targetos: Windows
 req.typenames: PDH_COUNTER_PATH_ELEMENTS_W, *PPDH_COUNTER_PATH_ELEMENTS_W
 req.redist: 

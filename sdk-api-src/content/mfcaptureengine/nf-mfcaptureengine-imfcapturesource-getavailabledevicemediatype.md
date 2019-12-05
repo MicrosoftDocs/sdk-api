@@ -1,19 +1,17 @@
 ---
 UID: NF:mfcaptureengine.IMFCaptureSource.GetAvailableDeviceMediaType
 title: IMFCaptureSource::GetAvailableDeviceMediaType (mfcaptureengine.h)
-
 description: Gets a format that is supported by one of the capture streams.
 old-location: mf\imfcapturesource_getavailabledevicemediatype.htm
 tech.root: medfound
 ms.assetid: B122C2DE-9544-47C7-8F4F-DBD4C1DE54C0
-
 ms.date: 12/05/2018
 ms.keywords: GetAvailableDeviceMediaType, GetAvailableDeviceMediaType method [Media Foundation], GetAvailableDeviceMediaType method [Media Foundation],IMFCaptureSource interface, IMFCaptureSource interface [Media Foundation],GetAvailableDeviceMediaType method, IMFCaptureSource.GetAvailableDeviceMediaType, IMFCaptureSource::GetAvailableDeviceMediaType, MF_CAPTURE_ENGINE_FIRST_SOURCE_AUDIO_STREAM, MF_CAPTURE_ENGINE_FIRST_SOURCE_PHOTO_STREAM, MF_CAPTURE_ENGINE_FIRST_SOURCE_VIDEO_STREAM, mf.imfcapturesource_getavailabledevicemediatype, mfcaptureengine/IMFCaptureSource::GetAvailableDeviceMediaType
 ms.topic: method
-f1_keywords: 
- - "mfcaptureengine/IMFCaptureSource.GetAvailableDeviceMediaType"
+f1_keywords:
+- mfcaptureengine/IMFCaptureSource.GetAvailableDeviceMediaType
 dev_langs:
- - c++
+- c++
 req.header: mfcaptureengine.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfcaptureengine.h
+- mfcaptureengine.h
 api_name:
- - IMFCaptureSource.GetAvailableDeviceMediaType
+- IMFCaptureSource.GetAvailableDeviceMediaType
 targetos: Windows
 req.typenames: 
 req.redist: 

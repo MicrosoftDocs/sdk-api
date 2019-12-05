@@ -1,19 +1,17 @@
 ---
 UID: NF:wmsdkidl.IWMWriterPushSink.Connect
 title: IWMWriterPushSink::Connect (wmsdkidl.h)
-
 description: The Connect method connects to a publishing point on a Windows Media server.
 old-location: wmformat\iwmwriterpushsink_connect.htm
 tech.root: wmformat
 ms.assetid: 5934697e-5d7c-4681-a424-9ad764dfeab1
-
 ms.date: 12/05/2018
 ms.keywords: Connect, Connect method [windows Media Format], Connect method [windows Media Format],IWMWriterPushSink interface, IWMWriterPushSink interface [windows Media Format],Connect method, IWMWriterPushSink.Connect, IWMWriterPushSink::Connect, IWMWriterPushSinkConnect, wmformat.iwmwriterpushsink_connect, wmsdkidl/IWMWriterPushSink::Connect
 ms.topic: method
-f1_keywords: 
- - "wmsdkidl/IWMWriterPushSink.Connect"
+f1_keywords:
+- wmsdkidl/IWMWriterPushSink.Connect
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wmvcore.lib
- - Wmvcore.dll
- - WMStubDRM.lib
- - WMStubDRM.dll
+- Wmvcore.lib
+- Wmvcore.dll
+- WMStubDRM.lib
+- WMStubDRM.dll
 api_name:
- - IWMWriterPushSink.Connect
+- IWMWriterPushSink.Connect
 targetos: Windows
 req.typenames: 
 req.redist: 

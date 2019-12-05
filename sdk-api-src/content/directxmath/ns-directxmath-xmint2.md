@@ -1,19 +1,17 @@
 ---
 UID: NS:directxmath.XMINT2
 title: XMINT2 (directxmath.h)
-
 description: A 2D vector where each component is a signed integer.
 old-location: dxmath\xmint2.htm
 tech.root: dxmath
 ms.assetid: T:Microsoft.directx_sdk.reference.XMINT2
-
 ms.date: 12/05/2018
 ms.keywords: XMINT2, XMINT2 structure [DirectX Math Support APIs], directxmath/XMINT2, dxmath.xmint2
 ms.topic: struct
-f1_keywords: 
- - "directxmath/XMINT2"
+f1_keywords:
+- directxmath/XMINT2
 dev_langs:
- - c++
+- c++
 req.header: directxmath.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - DirectXMath.h
+- DirectXMath.h
 api_name:
- - XMINT2
+- XMINT2
 targetos: Windows
 req.typenames: 
 req.redist: 

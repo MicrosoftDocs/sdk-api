@@ -1,19 +1,17 @@
 ---
 UID: NS:mstcpip._INET_PORT_RANGE
 title: INET_PORT_RANGE (mstcpip.h)
-
 description: Provides input data used by the SIO_ACQUIRE_PORT_RESERVATION IOCTL to acquire a runtime reservation for a block of TCP or UDP ports.
 old-location: winsock\inet_port_range.htm
 tech.root: WinSock
 ms.assetid: FE6946CF-61B6-422C-B9B8-5045EFAB705F
-
 ms.date: 12/05/2018
-ms.keywords: "*PINET_PORT_RANGE, *PINET_PORT_RESERVATION, INET_PORT_RANGE, INET_PORT_RANGE structure [Winsock], INET_PORT_RESERVATION, PINET_PORT_RANGE, PINET_PORT_RANGE structure pointer [Winsock], mstcpip/INET_PORT_RANGE, mstcpip/PINET_PORT_RANGE, winsock.inet_port_range"
+ms.keywords: '*PINET_PORT_RANGE, *PINET_PORT_RESERVATION, INET_PORT_RANGE, INET_PORT_RANGE structure [Winsock], INET_PORT_RESERVATION, PINET_PORT_RANGE, PINET_PORT_RANGE structure pointer [Winsock], mstcpip/INET_PORT_RANGE, mstcpip/PINET_PORT_RANGE, winsock.inet_port_range'
 ms.topic: struct
-f1_keywords: 
- - "mstcpip/INET_PORT_RANGE"
+f1_keywords:
+- mstcpip/INET_PORT_RANGE
 dev_langs:
- - c++
+- c++
 req.header: mstcpip.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Mstcpip.h
+- Mstcpip.h
 api_name:
- - INET_PORT_RANGE
+- INET_PORT_RANGE
 targetos: Windows
 req.typenames: INET_PORT_RANGE, *PINET_PORT_RANGE, INET_PORT_RESERVATION, *PINET_PORT_RESERVATION
 req.redist: 

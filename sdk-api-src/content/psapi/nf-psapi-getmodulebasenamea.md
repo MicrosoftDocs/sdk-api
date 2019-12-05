@@ -1,19 +1,17 @@
 ---
 UID: NF:psapi.GetModuleBaseNameA
 title: GetModuleBaseNameA function (psapi.h)
-
 description: Retrieves the base name of the specified module.
 old-location: psapi\getmodulebasename.htm
 tech.root: psapi
 ms.assetid: 31a9eb69-95f0-4dd7-8fd5-296f2cff0b8a
-
 ms.date: 12/05/2018
 ms.keywords: GetModuleBaseName, GetModuleBaseName function [PSAPI], GetModuleBaseNameA, GetModuleBaseNameW, K32GetModuleBaseName, K32GetModuleBaseNameA, K32GetModuleBaseNameW, _win32_getmodulebasename, base.getmodulebasename, psapi.getmodulebasename, psapi/GetModuleBaseName, psapi/GetModuleBaseNameA, psapi/GetModuleBaseNameW, psapi/K32GetModuleBaseName, psapi/K32GetModuleBaseNameA, psapi/K32GetModuleBaseNameW
 ms.topic: function
-f1_keywords: 
- - "psapi/GetModuleBaseName"
+f1_keywords:
+- psapi/GetModuleBaseName
 dev_langs:
- - c++
+- c++
 req.header: psapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,25 +30,25 @@ req.lib: Kernel32.lib on Windows 7 and Windows Server 2008 R2; Psapi.lib (if 
 req.dll: Kernel32.dll on Windows 7 and Windows Server 2008 R2; Psapi.dll (if PSAPI_VERSION=1) on Windows 7 and Windows Server 2008 R2; Psapi.dll on Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - Psapi.dll
- - Psapi.dll
- - API-MS-Win-Core-PsAPI-Obsolete-L1-1-0.dll
- - KernelBase.dll
- - API-Ms-Win-Core-PsAPI-Ansi-L1-1-0.dll
- - API-Ms-Win-Core-PsAPI-L1-1-0.dll
+- Kernel32.dll
+- Psapi.dll
+- Psapi.dll
+- API-MS-Win-Core-PsAPI-Obsolete-L1-1-0.dll
+- KernelBase.dll
+- API-Ms-Win-Core-PsAPI-Ansi-L1-1-0.dll
+- API-Ms-Win-Core-PsAPI-L1-1-0.dll
 api_name:
- - GetModuleBaseName
- - GetModuleBaseNameA
- - GetModuleBaseNameW
- - K32GetModuleBaseName
- - K32GetModuleBaseNameW
- - K32GetModuleBaseNameA
+- GetModuleBaseName
+- GetModuleBaseNameA
+- GetModuleBaseNameW
+- K32GetModuleBaseName
+- K32GetModuleBaseNameW
+- K32GetModuleBaseNameA
 targetos: Windows
 req.typenames: 
 req.redist: 

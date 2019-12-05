@@ -1,19 +1,17 @@
 ---
 UID: NF:mmc.IComponentData.Destroy
 title: IComponentData::Destroy (mmc.h)
-
 description: The IComponentData::Destroy method releases all references to the console.
 old-location: mmc\icomponentdata_destroy.htm
 tech.root: mmc
 ms.assetid: adf7238d-b452-499b-8924-2ea1bfecd69f
-
 ms.date: 12/05/2018
 ms.keywords: Destroy, Destroy method [MMC], Destroy method [MMC],IComponentData interface, IComponentData interface [MMC],Destroy method, IComponentData.Destroy, IComponentData::Destroy, _slate_icomponentdata_destroy, mmc.icomponentdata_destroy, mmc/IComponentData::Destroy
 ms.topic: method
-f1_keywords: 
- - "mmc/IComponentData.Destroy"
+f1_keywords:
+- mmc/IComponentData.Destroy
 dev_langs:
- - c++
+- c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mmc.h
+- Mmc.h
 api_name:
- - IComponentData.Destroy
+- IComponentData.Destroy
 targetos: Windows
 req.typenames: 
 req.redist: 

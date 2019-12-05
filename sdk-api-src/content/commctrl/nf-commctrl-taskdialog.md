@@ -1,19 +1,17 @@
 ---
 UID: NF:commctrl.TaskDialog
 title: TaskDialog function (commctrl.h)
-
 description: The TaskDialog function creates, displays, and operates a task dialog.
 old-location: controls\TaskDialog.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\taskdialogs\taskdialogreference\taskdialogfunctions\taskdialog.htm
-
 ms.date: 12/05/2018
 ms.keywords: TDCBF_CANCEL_BUTTON, TDCBF_CLOSE_BUTTON, TDCBF_NO_BUTTON, TDCBF_OK_BUTTON, TDCBF_RETRY_BUTTON, TDCBF_YES_BUTTON, TD_ERROR_ICON, TD_INFORMATION_ICON, TD_SHIELD_ICON, TD_WARNING_ICON, TaskDialog, TaskDialog function [Windows Controls], _shell_TaskDialog, _shell_TaskDialog_cpp, commctrl/TaskDialog, controls.TaskDialog, controls._shell_TaskDialog
 ms.topic: function
-f1_keywords: 
- - "commctrl/TaskDialog"
+f1_keywords:
+- commctrl/TaskDialog
 dev_langs:
- - c++
+- c++
 req.header: commctrl.h
 req.include-header: Commctrl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Comctl32.lib
 req.dll: Comctl32.dll (version 6)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Comctl32.dll
+- Comctl32.dll
 api_name:
- - TaskDialog
+- TaskDialog
 targetos: Windows
 req.typenames: 
 req.redist: 

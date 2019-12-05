@@ -1,19 +1,17 @@
 ---
 UID: NF:dwrite.IDWriteTextAnalyzer.AnalyzeNumberSubstitution
 title: IDWriteTextAnalyzer::AnalyzeNumberSubstitution (dwrite.h)
-
 description: Analyzes a text range for spans where number substitution is applicable, reading attributes from the source and reporting substitutable ranges to the sink callback SetNumberSubstitution.
 old-location: directwrite\IDWriteTextAnalyzer_AnalyzeNumberSubstitution.htm
 tech.root: DirectWrite
 ms.assetid: 1cd53f79-5bbc-4a70-b66a-b807fe163a98
-
 ms.date: 12/05/2018
 ms.keywords: AnalyzeNumberSubstitution, AnalyzeNumberSubstitution method [Direct Write], AnalyzeNumberSubstitution method [Direct Write],IDWriteTextAnalyzer interface, IDWriteTextAnalyzer interface [Direct Write],AnalyzeNumberSubstitution method, IDWriteTextAnalyzer.AnalyzeNumberSubstitution, IDWriteTextAnalyzer::AnalyzeNumberSubstitution, directwrite.IDWriteTextAnalyzer_AnalyzeNumberSubstitution, dwrite/IDWriteTextAnalyzer::AnalyzeNumberSubstitution
 ms.topic: method
-f1_keywords: 
- - "dwrite/IDWriteTextAnalyzer.AnalyzeNumberSubstitution"
+f1_keywords:
+- dwrite/IDWriteTextAnalyzer.AnalyzeNumberSubstitution
 dev_langs:
- - c++
+- c++
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dwrite.lib
 req.dll: Dwrite.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dwrite.dll
+- dwrite.dll
 api_name:
- - IDWriteTextAnalyzer.AnalyzeNumberSubstitution
+- IDWriteTextAnalyzer.AnalyzeNumberSubstitution
 targetos: Windows
 req.typenames: 
 req.redist: 

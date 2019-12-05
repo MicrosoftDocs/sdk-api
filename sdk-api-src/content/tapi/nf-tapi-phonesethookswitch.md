@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi.phoneSetHookSwitch
 title: phoneSetHookSwitch function (tapi.h)
-
 description: The phoneSetHookSwitch function sets the hook state of the specified open phone's hookswitch devices to the specified mode. Only the hookswitch state of the hookswitch devices listed is affected.
 old-location: tapi2\phonesethookswitch.htm
 tech.root: Tapi
 ms.assetid: 048f98e3-ac1b-47f8-85c8-97e7b7690030
-
 ms.date: 12/05/2018
-ms.keywords: "_tapi2_phonesethookswitch, phoneSetHookSwitch, phoneSetHookSwitch function [TAPI 2.2], tapi/phoneSetHookSwitch, tapi2.phonesethookswitch"
+ms.keywords: _tapi2_phonesethookswitch, phoneSetHookSwitch, phoneSetHookSwitch function [TAPI 2.2], tapi/phoneSetHookSwitch, tapi2.phonesethookswitch
 ms.topic: function
-f1_keywords: 
- - "tapi/phoneSetHookSwitch"
+f1_keywords:
+- tapi/phoneSetHookSwitch
 dev_langs:
- - c++
+- c++
 req.header: tapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Tapi32.lib
 req.dll: Tapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Tapi32.dll
+- Tapi32.dll
 api_name:
- - phoneSetHookSwitch
+- phoneSetHookSwitch
 targetos: Windows
 req.typenames: 
 req.redist: 

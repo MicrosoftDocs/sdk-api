@@ -1,19 +1,17 @@
 ---
 UID: NF:bits10_2.IBackgroundCopyJobHttpOptions2.SetHttpMethod
 title: IBackgroundCopyJobHttpOptions2::SetHttpMethod (bits10_2.h)
-
 description: Overrides the default HTTP method used for a BITS transfer.
 old-location: bits\ibackgroundcopyjobhttpoptions2_sethttpmethod.htm
 tech.root: Bits
 ms.assetid: 0CF8236B-7630-4A38-8A8F-51E69D3461B0
-
 ms.date: 12/05/2018
 ms.keywords: IBackgroundCopyJobHttpOptions2 interface [BITS],SetHttpMethod method, IBackgroundCopyJobHttpOptions2.SetHttpMethod, IBackgroundCopyJobHttpOptions2::SetHttpMethod, SetHttpMethod, SetHttpMethod method [BITS], SetHttpMethod method [BITS],IBackgroundCopyJobHttpOptions2 interface, bits.ibackgroundcopyjobhttpoptions2_sethttpmethod, bits10_2/IBackgroundCopyJobHttpOptions2::SetHttpMethod
 ms.topic: method
-f1_keywords: 
- - "bits10_2/IBackgroundCopyJobHttpOptions2.SetHttpMethod"
+f1_keywords:
+- bits10_2/IBackgroundCopyJobHttpOptions2.SetHttpMethod
 dev_langs:
- - c++
+- c++
 req.header: bits10_2.h
 req.include-header: Bits.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Bits.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Bits.lib
- - Bits.dll
+- Bits.lib
+- Bits.dll
 api_name:
- - IBackgroundCopyJobHttpOptions2.SetHttpMethod
+- IBackgroundCopyJobHttpOptions2.SetHttpMethod
 targetos: Windows
 req.typenames: 
 req.redist: 

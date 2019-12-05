@@ -1,19 +1,17 @@
 ---
 UID: NF:pla.IDataManager.get_MaxFolderCount
 title: IDataManager::get_MaxFolderCount (pla.h)
-
 description: Retrieves or sets the maximum number of folders to be used by all data collectors in the set.
 old-location: pla\idatamanager_maxfoldercount.htm
 tech.root: PLA
 ms.assetid: 71368635-e8c3-44fd-9d8a-f225b10225ba
-
 ms.date: 12/05/2018
 ms.keywords: IDataManager interface [PLA],MaxFolderCount property, IDataManager.MaxFolderCount, IDataManager.get_MaxFolderCount, IDataManager::MaxFolderCount, IDataManager::get_MaxFolderCount, IDataManager::put_MaxFolderCount, MaxFolderCount property [PLA], MaxFolderCount property [PLA],IDataManager interface, base.idatamanager_maxfoldercount, get_MaxFolderCount, pla.idatamanager_maxfoldercount, pla/IDataManager::MaxFolderCount, pla/IDataManager::get_MaxFolderCount, pla/IDataManager::put_MaxFolderCount
 ms.topic: method
-f1_keywords: 
- - "pla/IDataManager.MaxFolderCount"
+f1_keywords:
+- pla/IDataManager.MaxFolderCount
 dev_langs:
- - c++
+- c++
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: Pla.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Pla.dll
+- Pla.dll
 api_name:
- - IDataManager.MaxFolderCount
- - IDataManager.get_MaxFolderCount
- - IDataManager.put_MaxFolderCount
+- IDataManager.MaxFolderCount
+- IDataManager.get_MaxFolderCount
+- IDataManager.put_MaxFolderCount
 targetos: Windows
 req.typenames: 
 req.redist: 

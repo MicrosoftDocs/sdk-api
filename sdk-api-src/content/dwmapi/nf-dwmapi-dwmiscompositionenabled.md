@@ -1,19 +1,17 @@
 ---
 UID: NF:dwmapi.DwmIsCompositionEnabled
 title: DwmIsCompositionEnabled function (dwmapi.h)
-
 description: Obtains a value that indicates whether Desktop Window Manager (DWM) composition is enabled. Applications on machines running Windows 7 or earlier can listen for composition state changes by handling the WM_DWMCOMPOSITIONCHANGED notification.
 old-location: dwm\dwmiscompositionenabled.htm
 tech.root: dwm
 ms.assetid: VS|winui|~\winui\desktopwindowmanager\reference\functions\dwmiscompositionenabled.htm
-
 ms.date: 12/05/2018
 ms.keywords: DwmIsCompositionEnabled, DwmIsCompositionEnabled function [Desktop Window Manager], _udwm_dwmiscompositionenabled, _udwm_dwmiscompositionenabled_cpp, dwm.dwmiscompositionenabled, dwmapi/DwmIsCompositionEnabled, winui._udwm_dwmiscompositionenabled
 ms.topic: function
-f1_keywords: 
- - "dwmapi/DwmIsCompositionEnabled"
+f1_keywords:
+- dwmapi/DwmIsCompositionEnabled
 dev_langs:
- - c++
+- c++
 req.header: dwmapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib: Dwmapi.lib
 req.dll: Dwmapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Dwmapi.dll
- - API-MS-Win-dwmapi-l1-1-0.dll
- - Ext-Ms-Win-DwmAPI-Ext-L1-1-0.dll
- - ext-ms-win-dwmapi-ext-l1-1-1.dll
- - ext-ms-win-dwmapi-ext-l1-1-2.dll
+- Dwmapi.dll
+- API-MS-Win-dwmapi-l1-1-0.dll
+- Ext-Ms-Win-DwmAPI-Ext-L1-1-0.dll
+- ext-ms-win-dwmapi-ext-l1-1-1.dll
+- ext-ms-win-dwmapi-ext-l1-1-2.dll
 api_name:
- - DwmIsCompositionEnabled
+- DwmIsCompositionEnabled
 targetos: Windows
 req.typenames: 
 req.redist: 

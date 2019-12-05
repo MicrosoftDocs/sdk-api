@@ -1,19 +1,17 @@
 ---
 UID: NE:d3d12.D3D12_SERIALIZED_DATA_TYPE
 title: D3D12_SERIALIZED_DATA_TYPE (d3d12.h)
-
 description: Specifies the type of serialized data. Use a value from this enumeration when calling ID3D12Device5::CheckDriverMatchingIdentifier.
 old-location: direct3d12\d3d12_serialized_data_type.htm
 tech.root: direct3d12
 ms.assetid: A1A64D1C-64F9-4317-9BA3-AD4CC0D9F2BF
-
 ms.date: 12/05/2018
 ms.keywords: D3D12_SERIALIZED_DATA_RAYTRACING_ACCELERATION_STRUCTURE, D3D12_SERIALIZED_DATA_TYPE, D3D12_SERIALIZED_DATA_TYPE enumeration, d3d12/D3D12_SERIALIZED_DATA_RAYTRACING_ACCELERATION_STRUCTURE, d3d12/D3D12_SERIALIZED_DATA_TYPE, direct3d12.d3d12_serialized_data_type
 ms.topic: enum
-f1_keywords: 
- - "d3d12/D3D12_SERIALIZED_DATA_TYPE"
+f1_keywords:
+- d3d12/D3D12_SERIALIZED_DATA_TYPE
 dev_langs:
- - c++
+- c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - d3d12.h
+- d3d12.h
 api_name:
- - D3D12_SERIALIZED_DATA_TYPE
+- D3D12_SERIALIZED_DATA_TYPE
 targetos: Windows
 req.typenames: D3D12_SERIALIZED_DATA_TYPE
 req.redist: 

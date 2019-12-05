@@ -1,19 +1,17 @@
 ---
 UID: NN:appxpackaging.IAppxFilesEnumerator
 title: IAppxFilesEnumerator (appxpackaging.h)
-
 description: Enumerates the payload files in a package.
 old-location: appxpkg\iappxfilesenumerator.htm
 tech.root: appxpkg
 ms.assetid: A9BB3242-5CDA-49A9-8A7B-5A9A3E31B724
-
 ms.date: 12/05/2018
 ms.keywords: IAppxFilesEnumerator, IAppxFilesEnumerator interface [App packaging and management], IAppxFilesEnumerator interface [App packaging and management],described, appxpackaging/IAppxFilesEnumerator, appxpkg.iappxfilesenumerator
 ms.topic: interface
-f1_keywords: 
- - "appxpackaging/IAppxFilesEnumerator"
+f1_keywords:
+- appxpackaging/IAppxFilesEnumerator
 dev_langs:
- - c++
+- c++
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - AppxPackaging.h
+- AppxPackaging.h
 api_name:
- - IAppxFilesEnumerator
+- IAppxFilesEnumerator
 targetos: Windows
 req.typenames: 
 req.redist: 

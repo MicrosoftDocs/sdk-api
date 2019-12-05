@@ -1,19 +1,17 @@
 ---
 UID: NF:xapobase.CXAPOBase.IsLocked
 title: CXAPOBase::IsLocked (xapobase.h)
-
 description: Queries whether the XAPO is locked.
 old-location: xaudio2\cxapobase_islocked.htm
 tech.root: xaudio2
 ms.assetid: M:Microsoft.directx_sdk.cxapobase.CXAPOBase.IsLocked
-
 ms.date: 12/05/2018
 ms.keywords: CXAPOBase interface [XAudio2 Audio Mixing APIs],IsLocked method, CXAPOBase.IsLocked, CXAPOBase::IsLocked, IsLocked, IsLocked method [XAudio2 Audio Mixing APIs], IsLocked method [XAudio2 Audio Mixing APIs],CXAPOBase interface, xapobase/CXAPOBase::IsLocked, xaudio2.cxapobase_islocked
 ms.topic: method
-f1_keywords: 
- - "xapobase/CXAPOBase.IsLocked"
+f1_keywords:
+- xapobase/CXAPOBase.IsLocked
 dev_langs:
- - c++
+- c++
 req.header: xapobase.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: XAPOBase.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - XAPOBase.lib
- - XAPOBase.dll
+- XAPOBase.lib
+- XAPOBase.dll
 api_name:
- - CXAPOBase.IsLocked
+- CXAPOBase.IsLocked
 targetos: Windows
 req.typenames: 
 req.redist: 

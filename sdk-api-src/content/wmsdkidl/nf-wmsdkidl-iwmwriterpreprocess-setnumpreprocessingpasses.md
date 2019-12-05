@@ -1,19 +1,17 @@
 ---
 UID: NF:wmsdkidl.IWMWriterPreprocess.SetNumPreprocessingPasses
 title: IWMWriterPreprocess::SetNumPreprocessingPasses (wmsdkidl.h)
-
 description: The SetNumPreprocessingPasses method sets the number of passes to perform on an input.
 old-location: wmformat\iwmwriterpreprocess_setnumpreprocessingpasses.htm
 tech.root: wmformat
 ms.assetid: 81ff36e1-cce5-4c99-bf3a-ee2f1050c026
-
 ms.date: 12/05/2018
 ms.keywords: IWMWriterPreprocess interface [windows Media Format],SetNumPreprocessingPasses method, IWMWriterPreprocess.SetNumPreprocessingPasses, IWMWriterPreprocess::SetNumPreprocessingPasses, IWMWriterPreprocessSetNumPreprocessingPasses, SetNumPreprocessingPasses, SetNumPreprocessingPasses method [windows Media Format], SetNumPreprocessingPasses method [windows Media Format],IWMWriterPreprocess interface, wmformat.iwmwriterpreprocess_setnumpreprocessingpasses, wmsdkidl/IWMWriterPreprocess::SetNumPreprocessingPasses
 ms.topic: method
-f1_keywords: 
- - "wmsdkidl/IWMWriterPreprocess.SetNumPreprocessingPasses"
+f1_keywords:
+- wmsdkidl/IWMWriterPreprocess.SetNumPreprocessingPasses
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wmvcore.lib
- - Wmvcore.dll
- - WMStubDRM.lib
- - WMStubDRM.dll
+- Wmvcore.lib
+- Wmvcore.dll
+- WMStubDRM.lib
+- WMStubDRM.dll
 api_name:
- - IWMWriterPreprocess.SetNumPreprocessingPasses
+- IWMWriterPreprocess.SetNumPreprocessingPasses
 targetos: Windows
 req.typenames: 
 req.redist: 

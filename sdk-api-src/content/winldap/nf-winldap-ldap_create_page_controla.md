@@ -1,19 +1,17 @@
 ---
 UID: NF:winldap.ldap_create_page_controlA
 title: ldap_create_page_controlA function (winldap.h)
-
 description: Use the ldap_create_page_control function to create a basic control for paging results. Support for controls is available effective with LDAP 3, but whether the page control is supported or not is dependent on the particular server.
 old-location: ldap\ldap_create_page_control.htm
 tech.root: ldap
 ms.assetid: b3b1f3bd-7eb3-4f76-921c-386562dae2e2
-
 ms.date: 12/05/2018
-ms.keywords: "_ldap_ldap_create_page_control, ldap.ldap__create__page__control, ldap.ldap_create_page_control, ldap_create_page_control, ldap_create_page_control function [LDAP], ldap_create_page_controlA, ldap_create_page_controlW, winldap/ldap_create_page_control, winldap/ldap_create_page_controlA, winldap/ldap_create_page_controlW"
+ms.keywords: _ldap_ldap_create_page_control, ldap.ldap__create__page__control, ldap.ldap_create_page_control, ldap_create_page_control, ldap_create_page_control function [LDAP], ldap_create_page_controlA, ldap_create_page_controlW, winldap/ldap_create_page_control, winldap/ldap_create_page_controlA, winldap/ldap_create_page_controlW
 ms.topic: function
-f1_keywords: 
- - "winldap/ldap_create_page_control"
+f1_keywords:
+- winldap/ldap_create_page_control
 dev_langs:
- - c++
+- c++
 req.header: winldap.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Wldap32.lib
 req.dll: Wldap32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Wldap32.dll
+- Wldap32.dll
 api_name:
- - ldap_create_page_control
- - ldap_create_page_controlA
- - ldap_create_page_controlW
+- ldap_create_page_control
+- ldap_create_page_controlA
+- ldap_create_page_controlW
 targetos: Windows
 req.typenames: 
 req.redist: 

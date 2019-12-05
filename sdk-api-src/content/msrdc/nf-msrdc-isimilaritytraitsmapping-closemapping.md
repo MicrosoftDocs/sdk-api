@@ -1,19 +1,17 @@
 ---
 UID: NF:msrdc.ISimilarityTraitsMapping.CloseMapping
 title: ISimilarityTraitsMapping::CloseMapping (msrdc.h)
-
 description: Closes a file mapping object for a similarity traits table file.
 old-location: rdc\isimilaritytraitsmapping_closemapping.htm
 tech.root: rdc
 ms.assetid: 9ac20c6b-9fe5-4b59-a9ed-faef97fd76f2
-
 ms.date: 12/05/2018
 ms.keywords: CloseMapping, CloseMapping method [Remote Differential Compression], CloseMapping method [Remote Differential Compression],ISimilarityTraitsMapping interface, ISimilarityTraitsMapping interface [Remote Differential Compression],CloseMapping method, ISimilarityTraitsMapping.CloseMapping, ISimilarityTraitsMapping::CloseMapping, fs.isimilaritytraitsmapping_closemapping, msrdc/ISimilarityTraitsMapping::CloseMapping, rdc.isimilaritytraitsmapping_closemapping
 ms.topic: method
-f1_keywords: 
- - "msrdc/ISimilarityTraitsMapping.CloseMapping"
+f1_keywords:
+- msrdc/ISimilarityTraitsMapping.CloseMapping
 dev_langs:
- - c++
+- c++
 req.header: msrdc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: MsRdc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - MsRdc.dll
+- MsRdc.dll
 api_name:
- - ISimilarityTraitsMapping.CloseMapping
+- ISimilarityTraitsMapping.CloseMapping
 targetos: Windows
 req.typenames: 
 req.redist: 

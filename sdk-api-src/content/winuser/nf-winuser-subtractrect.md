@@ -1,19 +1,17 @@
 ---
 UID: NF:winuser.SubtractRect
 title: SubtractRect function (winuser.h)
-
 description: The SubtractRect function determines the coordinates of a rectangle formed by subtracting one rectangle from another.
 old-location: gdi\subtractrect.htm
 tech.root: gdi
 ms.assetid: 85c8edae-af2b-4c6c-af37-2631e8b4edcd
-
 ms.date: 12/05/2018
 ms.keywords: SubtractRect, SubtractRect function [Windows GDI], _win32_SubtractRect, gdi.subtractrect, winuser/SubtractRect
 ms.topic: function
-f1_keywords: 
- - "winuser/SubtractRect"
+f1_keywords:
+- winuser/SubtractRect
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - user32.dll
- - API-MS-Win-NTUser-Rectangle-l1-1-0.dll
- - minuser.dll
- - Ext-MS-Win-NTUser-Rectangle-Ext-l1-1-0.dll
+- user32.dll
+- API-MS-Win-NTUser-Rectangle-l1-1-0.dll
+- minuser.dll
+- Ext-MS-Win-NTUser-Rectangle-Ext-l1-1-0.dll
 api_name:
- - SubtractRect
+- SubtractRect
 targetos: Windows
 req.typenames: 
 req.redist: 

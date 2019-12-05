@@ -1,19 +1,17 @@
 ---
 UID: NF:endpointvolume.IAudioEndpointVolume.GetChannelVolumeLevelScalar
 title: IAudioEndpointVolume::GetChannelVolumeLevelScalar (endpointvolume.h)
-
 description: The GetChannelVolumeLevelScalar method gets the normalized, audio-tapered volume level of the specified channel of the audio stream that enters or leaves the audio endpoint device.
 old-location: coreaudio\iaudioendpointvolume_getchannelvolumelevelscalar.htm
 tech.root: CoreAudio
 ms.assetid: e33d0010-9ea4-4375-9f23-81309f800988
-
 ms.date: 12/05/2018
 ms.keywords: GetChannelVolumeLevelScalar, GetChannelVolumeLevelScalar method [Core Audio], GetChannelVolumeLevelScalar method [Core Audio],IAudioEndpointVolume interface, IAudioEndpointVolume interface [Core Audio],GetChannelVolumeLevelScalar method, IAudioEndpointVolume.GetChannelVolumeLevelScalar, IAudioEndpointVolume::GetChannelVolumeLevelScalar, IAudioEndpointVolumeGetChannelVolumeLevelScalar, coreaudio.iaudioendpointvolume_getchannelvolumelevelscalar, endpointvolume/IAudioEndpointVolume::GetChannelVolumeLevelScalar
 ms.topic: method
-f1_keywords: 
- - "endpointvolume/IAudioEndpointVolume.GetChannelVolumeLevelScalar"
+f1_keywords:
+- endpointvolume/IAudioEndpointVolume.GetChannelVolumeLevelScalar
 dev_langs:
- - c++
+- c++
 req.header: endpointvolume.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Endpointvolume.h
+- Endpointvolume.h
 api_name:
- - IAudioEndpointVolume.GetChannelVolumeLevelScalar
+- IAudioEndpointVolume.GetChannelVolumeLevelScalar
 targetos: Windows
 req.typenames: 
 req.redist: 

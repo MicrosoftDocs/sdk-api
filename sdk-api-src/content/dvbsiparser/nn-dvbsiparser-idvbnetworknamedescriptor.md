@@ -1,19 +1,17 @@
 ---
 UID: NN:dvbsiparser.IDvbNetworkNameDescriptor
 title: IDvbNetworkNameDescriptor (dvbsiparser.h)
-
 description: Implements methods that get data from a Digital Video Broadcast (DVB) network name descriptor. The network name descriptor gets text format information about the network that originated the broadcast.
 old-location: mstv\idvbnetworknamedescriptor.htm
 tech.root: mstv
 ms.assetid: 1b80892d-05e6-4776-932a-a9e2bf985984
-
 ms.date: 12/05/2018
 ms.keywords: IDvbNetworkNameDescriptor, IDvbNetworkNameDescriptor interface [Microsoft TV Technologies], IDvbNetworkNameDescriptor interface [Microsoft TV Technologies],described, dvbsiparser/ IDvbNetworkNameDescriptor, mstv.idvbnetworknamedescriptor
 ms.topic: interface
-f1_keywords: 
- - "dvbsiparser/IDvbNetworkNameDescriptor"
+f1_keywords:
+- dvbsiparser/IDvbNetworkNameDescriptor
 dev_langs:
- - c++
+- c++
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dvbsiparser.h
+- dvbsiparser.h
 api_name:
- - IDvbNetworkNameDescriptor
+- IDvbNetworkNameDescriptor
 targetos: Windows
 req.typenames: 
 req.redist: 

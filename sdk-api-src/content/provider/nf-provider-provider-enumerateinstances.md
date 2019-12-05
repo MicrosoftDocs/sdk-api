@@ -1,19 +1,17 @@
 ---
 UID: NF:provider.Provider.EnumerateInstances
 title: Provider::EnumerateInstances (provider.h)
-
 description: The EnumerateInstances method is called by WMI to retrieve all instances of a framework provider's class.
 old-location: wmi\provider_enumerateinstances.htm
 tech.root: WmiSdk
 ms.assetid: 9566acb0-d7bf-4d3d-b7da-5cfbce150a2c
-
 ms.date: 12/05/2018
-ms.keywords: "?EnumerateInstances@Provider@@MAEJPAVMethodContext@@J@Z, EnumerateInstances, EnumerateInstances method [Windows Management Instrumentation], EnumerateInstances method [Windows Management Instrumentation],Provider interface, Provider interface [Windows Management Instrumentation],EnumerateInstances method, Provider.EnumerateInstances, Provider::EnumerateInstances, _hmm_provider_enumerateinstances, provider/Provider::EnumerateInstances, wmi.provider_enumerateinstances"
+ms.keywords: ?EnumerateInstances@Provider@@MAEJPAVMethodContext@@J@Z, EnumerateInstances, EnumerateInstances method [Windows Management Instrumentation], EnumerateInstances method [Windows Management Instrumentation],Provider interface, Provider interface [Windows Management Instrumentation],EnumerateInstances method, Provider.EnumerateInstances, Provider::EnumerateInstances, _hmm_provider_enumerateinstances, provider/Provider::EnumerateInstances, wmi.provider_enumerateinstances
 ms.topic: method
-f1_keywords: 
- - "provider/Provider.EnumerateInstances"
+f1_keywords:
+- provider/Provider.EnumerateInstances
 dev_langs:
- - c++
+- c++
 req.header: provider.h
 req.include-header: FwCommon.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: FrameDyn.lib
 req.dll: FrameDynOS.dll; FrameDyn.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - FrameDynOS.dll
- - FrameDyn.dll
+- FrameDynOS.dll
+- FrameDyn.dll
 api_name:
- - Provider.EnumerateInstances
- - ?EnumerateInstances@Provider@@MAEJPAVMethodContext@@J@Z
+- Provider.EnumerateInstances
+- ?EnumerateInstances@Provider@@MAEJPAVMethodContext@@J@Z
 targetos: Windows
 req.typenames: 
 req.redist: 

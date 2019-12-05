@@ -1,19 +1,17 @@
 ---
 UID: NN:comsvcs.ICrmMonitorLogRecords
 title: ICrmMonitorLogRecords (comsvcs.h)
-
 description: Monitors the individual log records maintained by a specific CRM clerk for a given transaction.
 old-location: cos\icrmmonitorlogrecords.htm
 tech.root: cossdk
 ms.assetid: 5077ad2a-89c1-43f7-a7e0-7bd8036147b6
-
 ms.date: 12/05/2018
 ms.keywords: ICrmMonitorLogRecords, ICrmMonitorLogRecords interface [COM+], ICrmMonitorLogRecords interface [COM+],described, _dtc_ICrmMonitorLogRecords_Interface, comsvcs/ICrmMonitorLogRecords, cos.icrmmonitorlogrecords
 ms.topic: interface
-f1_keywords: 
- - "comsvcs/ICrmMonitorLogRecords"
+f1_keywords:
+- comsvcs/ICrmMonitorLogRecords
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - ICrmMonitorLogRecords
+- ICrmMonitorLogRecords
 targetos: Windows
 req.typenames: 
 req.redist: 

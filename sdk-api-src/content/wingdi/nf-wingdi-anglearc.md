@@ -1,19 +1,17 @@
 ---
 UID: NF:wingdi.AngleArc
 title: AngleArc function (wingdi.h)
-
 description: The AngleArc function draws a line segment and an arc.
 old-location: gdi\anglearc.htm
 tech.root: gdi
 ms.assetid: 65c38da1-ab7d-4e80-83e3-ba1db66f8fd9
-
 ms.date: 12/05/2018
 ms.keywords: AngleArc, AngleArc function [Windows GDI], _win32_AngleArc, gdi.anglearc, wingdi/AngleArc
 ms.topic: function
-f1_keywords: 
- - "wingdi/AngleArc"
+f1_keywords:
+- wingdi/AngleArc
 dev_langs:
- - c++
+- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - gdi32.dll
- - Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
- - GDI32Full.dll
+- gdi32.dll
+- Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
+- GDI32Full.dll
 api_name:
- - AngleArc
+- AngleArc
 targetos: Windows
 req.typenames: 
 req.redist: 

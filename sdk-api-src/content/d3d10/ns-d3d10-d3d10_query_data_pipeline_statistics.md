@@ -1,19 +1,17 @@
 ---
 UID: NS:d3d10.D3D10_QUERY_DATA_PIPELINE_STATISTICS
 title: D3D10_QUERY_DATA_PIPELINE_STATISTICS (d3d10.h)
-
 description: Query information about graphics-pipeline activity in between calls to ID3D10Asynchronous::Begin and ID3D10Asynchronous::End.
 old-location: direct3d10\d3d10_query_data_pipeline_statistics.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\d3d10_query_data_pipeline_statistics.htm
-
 ms.date: 12/05/2018
 ms.keywords: 0f1e36bb-cb67-6e39-ddb2-784ed615c5bb, D3D10_QUERY_DATA_PIPELINE_STATISTICS, D3D10_QUERY_DATA_PIPELINE_STATISTICS structure [Direct3D 10], d3d10/D3D10_QUERY_DATA_PIPELINE_STATISTICS, direct3d10.d3d10_query_data_pipeline_statistics
 ms.topic: struct
-f1_keywords: 
- - "d3d10/D3D10_QUERY_DATA_PIPELINE_STATISTICS"
+f1_keywords:
+- d3d10/D3D10_QUERY_DATA_PIPELINE_STATISTICS
 dev_langs:
- - c++
+- c++
 req.header: d3d10.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - D3D10.h
+- D3D10.h
 api_name:
- - D3D10_QUERY_DATA_PIPELINE_STATISTICS
+- D3D10_QUERY_DATA_PIPELINE_STATISTICS
 targetos: Windows
 req.typenames: D3D10_QUERY_DATA_PIPELINE_STATISTICS
 req.redist: 

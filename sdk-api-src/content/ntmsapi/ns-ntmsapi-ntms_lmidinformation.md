@@ -1,19 +1,17 @@
 ---
 UID: NS:ntmsapi._NTMS_LMIDINFORMATION
 title: NTMS_LMIDINFORMATION (ntmsapi.h)
-
 description: The NTMS_LMIDINFORMATION structure defines the properties specific to a logical media object.
 old-location: fs\ntms_lmidinformation.htm
 tech.root: Rsm
 ms.assetid: f1a003af-101a-4f1f-b644-392e5542e8dd
-
 ms.date: 12/05/2018
 ms.keywords: NTMS_LMIDINFORMATION, NTMS_LMIDINFORMATION structure [Files], _zaw_ntms_lmidinformation, base.ntms_lmidinformation, fs.ntms_lmidinformation, ntmsapi/NTMS_LMIDINFORMATION
 ms.topic: struct
 f1_keywords:
 - ntmsapi/NTMS_LMIDINFORMATION
 dev_langs:
- - c++
+- c++
 req.header: ntmsapi.h
 req.include-header: 
 req.target-type: Windows

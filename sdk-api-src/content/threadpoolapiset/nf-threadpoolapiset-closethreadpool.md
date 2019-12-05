@@ -1,19 +1,17 @@
 ---
 UID: NF:threadpoolapiset.CloseThreadpool
 title: CloseThreadpool function (threadpoolapiset.h)
-
 description: Closes the specified thread pool.
 old-location: base\closethreadpool.htm
 tech.root: ProcThread
 ms.assetid: 84f673b5-d9b1-4f3d-9ae6-b1ad173268cd
-
 ms.date: 12/05/2018
 ms.keywords: CloseThreadpool, CloseThreadpool function, base.closethreadpool, threadpoolapiset/CloseThreadpool, winbase/CloseThreadpool
 ms.topic: function
-f1_keywords: 
- - "threadpoolapiset/CloseThreadpool"
+f1_keywords:
+- threadpoolapiset/CloseThreadpool
 dev_langs:
- - c++
+- c++
 req.header: threadpoolapiset.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,19 +30,19 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-threadpool-l1-1-0.dll
- - KernelBase.dll
- - API-MS-Win-Core-threadpool-l1-2-0.dll
- - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
- - MinKernelBase.dll
+- Kernel32.dll
+- API-MS-Win-Core-threadpool-l1-1-0.dll
+- KernelBase.dll
+- API-MS-Win-Core-threadpool-l1-2-0.dll
+- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+- MinKernelBase.dll
 api_name:
- - CloseThreadpool
+- CloseThreadpool
 targetos: Windows
 req.typenames: 
 req.redist: 

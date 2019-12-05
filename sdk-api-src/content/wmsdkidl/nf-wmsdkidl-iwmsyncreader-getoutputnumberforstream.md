@@ -1,19 +1,17 @@
 ---
 UID: NF:wmsdkidl.IWMSyncReader.GetOutputNumberForStream
 title: IWMSyncReader::GetOutputNumberForStream (wmsdkidl.h)
-
 description: The GetOutputNumberForStream method retrieves the output number that corresponds with the specified stream.
 old-location: wmformat\iwmsyncreader_getoutputnumberforstream.htm
 tech.root: wmformat
 ms.assetid: 605f5a66-aa06-4d4e-998e-1a3f7d1c7be6
-
 ms.date: 12/05/2018
 ms.keywords: GetOutputNumberForStream, GetOutputNumberForStream method [windows Media Format], GetOutputNumberForStream method [windows Media Format],IWMSyncReader interface, IWMSyncReader interface [windows Media Format],GetOutputNumberForStream method, IWMSyncReader.GetOutputNumberForStream, IWMSyncReader::GetOutputNumberForStream, IWMSyncReaderGetOutputNumberForStream, wmformat.iwmsyncreader_getoutputnumberforstream, wmsdkidl/IWMSyncReader::GetOutputNumberForStream
 ms.topic: method
-f1_keywords: 
- - "wmsdkidl/IWMSyncReader.GetOutputNumberForStream"
+f1_keywords:
+- wmsdkidl/IWMSyncReader.GetOutputNumberForStream
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wmvcore.lib
- - Wmvcore.dll
- - WMStubDRM.lib
- - WMStubDRM.dll
+- Wmvcore.lib
+- Wmvcore.dll
+- WMStubDRM.lib
+- WMStubDRM.dll
 api_name:
- - IWMSyncReader.GetOutputNumberForStream
+- IWMSyncReader.GetOutputNumberForStream
 targetos: Windows
 req.typenames: 
 req.redist: 

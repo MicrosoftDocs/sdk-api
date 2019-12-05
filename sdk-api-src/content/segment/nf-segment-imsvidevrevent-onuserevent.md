@@ -1,19 +1,17 @@
 ---
 UID: NF:segment.IMSVidEVREvent.OnUserEvent
 title: IMSVidEVREvent::OnUserEvent (segment.h)
-
 description: This topic applies to Windows Vista or later.
 old-location: mstv\imsvidevrevent_onuserevent.htm
 tech.root: mstv
 ms.assetid: 2eee9fd9-ed8d-482d-833a-c785d65cbf6a
-
 ms.date: 12/05/2018
 ms.keywords: IMSVidEVREvent interface [Microsoft TV Technologies],OnUserEvent method, IMSVidEVREvent.OnUserEvent, IMSVidEVREvent::OnUserEvent, IMSVidEVREventOnUserEvent, OnUserEvent, OnUserEvent method [Microsoft TV Technologies], OnUserEvent method [Microsoft TV Technologies],IMSVidEVREvent interface, mstv.imsvidevrevent_onuserevent, segment/IMSVidEVREvent::OnUserEvent
 ms.topic: method
-f1_keywords: 
- - "segment/IMSVidEVREvent.OnUserEvent"
+f1_keywords:
+- segment/IMSVidEVREvent.OnUserEvent
 dev_langs:
- - c++
+- c++
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - segment.h
+- segment.h
 api_name:
- - IMSVidEVREvent.OnUserEvent
+- IMSVidEVREvent.OnUserEvent
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:ktmw32.GetTransactionId
 title: GetTransactionId function (ktmw32.h)
-
 description: Obtains the identifier (ID) for the specified transaction.
 old-location: fs\gettransactionid.htm
 tech.root: ktm
 ms.assetid: 10f4729f-3e6e-469a-8f72-48c29735e7b1
-
 ms.date: 12/05/2018
 ms.keywords: GetTransactionId, GetTransactionId function [Files], fs.gettransactionid, ktmw32/GetTransactionId
 ms.topic: function
-f1_keywords: 
- - "ktmw32/GetTransactionId"
+f1_keywords:
+- ktmw32/GetTransactionId
 dev_langs:
- - c++
+- c++
 req.header: ktmw32.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Ktmw32.lib
 req.dll: Ktmw32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ktmw32.dll
+- Ktmw32.dll
 api_name:
- - GetTransactionId
+- GetTransactionId
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:tspi.TSPI_phoneGetGain
 title: TSPI_phoneGetGain function (tspi.h)
-
 description: The TSPI_phoneGetGain function returns the gain setting of the microphone of the specified phone's hookswitch device.
 old-location: tspi\tspi_phonegetgain.htm
 tech.root: Tapi
 ms.assetid: 2efe9d36-3179-486b-9691-78a88452d91c
-
 ms.date: 12/05/2018
 ms.keywords: TSPI_phoneGetGain, TSPI_phoneGetGain function [TAPI 2.2], _tspi_tspi_phonegetgain, tspi.tspi_phonegetgain, tspi/TSPI_phoneGetGain
 ms.topic: function
-f1_keywords: 
- - "tspi/TSPI_phoneGetGain"
+f1_keywords:
+- tspi/TSPI_phoneGetGain
 dev_langs:
- - c++
+- c++
 req.header: tspi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Tspi.h
+- Tspi.h
 api_name:
- - TSPI_phoneGetGain
+- TSPI_phoneGetGain
 targetos: Windows
 req.typenames: 
 req.redist: 

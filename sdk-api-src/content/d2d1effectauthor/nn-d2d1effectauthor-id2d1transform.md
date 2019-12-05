@@ -1,19 +1,17 @@
 ---
 UID: NN:d2d1effectauthor.ID2D1Transform
 title: ID2D1Transform (d2d1effectauthor.h)
-
 description: Represents the base interface for all of the transforms implemented by the transform author.
 old-location: direct2d\id2d1transform.htm
 tech.root: Direct2D
 ms.assetid: 8A0CD795-A6D8-4817-9676-58C11DDAAEBD
-
 ms.date: 12/05/2018
 ms.keywords: ID2D1Transform, ID2D1Transform interface [Direct2D], ID2D1Transform interface [Direct2D],described, d2d1effectauthor/ID2D1Transform, direct2d.id2d1transform
 ms.topic: interface
-f1_keywords: 
- - "d2d1effectauthor/ID2D1Transform"
+f1_keywords:
+- d2d1effectauthor/ID2D1Transform
 dev_langs:
- - c++
+- c++
 req.header: d2d1effectauthor.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: D2d1.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - d2d1.lib
- - d2d1.dll
+- d2d1.lib
+- d2d1.dll
 api_name:
- - ID2D1Transform
+- ID2D1Transform
 targetos: Windows
 req.typenames: 
 req.redist: 

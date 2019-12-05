@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IDesktopWallpaper.SetPosition
 title: IDesktopWallpaper::SetPosition (shobjidl_core.h)
-
 description: Sets the display option for the desktop wallpaper image, determining whether the image should be centered, tiled, or stretched.
 old-location: shell\IDesktopWallpaper_SetPosition.htm
 tech.root: shell
 ms.assetid: A4993DB8-9132-43c1-B900-02BA5384B7A8
-
 ms.date: 12/05/2018
 ms.keywords: IDesktopWallpaper interface [Windows Shell],SetPosition method, IDesktopWallpaper.SetPosition, IDesktopWallpaper::SetPosition, SetPosition, SetPosition method [Windows Shell], SetPosition method [Windows Shell],IDesktopWallpaper interface, shell.IDesktopWallpaper_SetPosition, shobjidl_core/IDesktopWallpaper::SetPosition
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IDesktopWallpaper.SetPosition"
+f1_keywords:
+- shobjidl_core/IDesktopWallpaper.SetPosition
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - IDesktopWallpaper.SetPosition
+- IDesktopWallpaper.SetPosition
 targetos: Windows
 req.typenames: 
 req.redist: 

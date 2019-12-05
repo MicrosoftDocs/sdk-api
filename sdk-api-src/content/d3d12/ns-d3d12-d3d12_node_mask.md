@@ -1,19 +1,17 @@
 ---
 UID: NS:d3d12.D3D12_NODE_MASK
 title: D3D12_NODE_MASK (d3d12.h)
-
 description: A state subobject that identifies the GPU nodes to which the state object applies.
 old-location: direct3d12\d3d12_node_mask.htm
 tech.root: direct3d12
 ms.assetid: DB1CF496-EB74-4898-8742-6D8374455C00
-
 ms.date: 12/05/2018
 ms.keywords: D3D12_NODE_MASK, D3D12_NODE_MASK structure, PD3D12_NODE_MASK, PD3D12_NODE_MASK structure pointer, d3d12/D3D12_NODE_MASK, d3d12/PD3D12_NODE_MASK, direct3d12.d3d12_node_mask
 ms.topic: struct
-f1_keywords: 
- - "d3d12/D3D12_NODE_MASK"
+f1_keywords:
+- d3d12/D3D12_NODE_MASK
 dev_langs:
- - c++
+- c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - D3D12.h
+- D3D12.h
 api_name:
- - D3D12_NODE_MASK
+- D3D12_NODE_MASK
 targetos: Windows
 req.typenames: D3D12_NODE_MASK
 req.redist: 

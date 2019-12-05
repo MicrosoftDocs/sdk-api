@@ -1,19 +1,17 @@
 ---
 UID: NF:pdh.PdhEnumObjectsW
 title: PdhEnumObjectsW function (pdh.h)
-
 description: Returns a list of objects available on the specified computer or in the specified log file. To use handles to data sources, use the PdhEnumObjectsH function.
 old-location: perf\pdhenumobjects.htm
 tech.root: perfctrs
 ms.assetid: dfa4b10f-5134-4620-a6b0-0fa2c13a33ec
-
 ms.date: 12/05/2018
 ms.keywords: FALSE, PERF_DETAIL_ADVANCED, PERF_DETAIL_EXPERT, PERF_DETAIL_NOVICE, PERF_DETAIL_WIZARD, PdhEnumObjects, PdhEnumObjects function [Perf], PdhEnumObjectsA, PdhEnumObjectsW, TRUE, _win32_pdhenumobjects, base.pdhenumobjects, pdh/PdhEnumObjects, pdh/PdhEnumObjectsA, pdh/PdhEnumObjectsW, perf.pdhenumobjects
 ms.topic: function
-f1_keywords: 
- - "pdh/PdhEnumObjects"
+f1_keywords:
+- pdh/PdhEnumObjects
 dev_langs:
- - c++
+- c++
 req.header: pdh.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Pdh.lib
 req.dll: Pdh.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Pdh.dll
+- Pdh.dll
 api_name:
- - PdhEnumObjects
- - PdhEnumObjectsA
- - PdhEnumObjectsW
+- PdhEnumObjects
+- PdhEnumObjectsA
+- PdhEnumObjectsW
 targetos: Windows
 req.typenames: 
 req.redist: 

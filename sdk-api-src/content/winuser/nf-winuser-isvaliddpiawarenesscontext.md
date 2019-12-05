@@ -1,19 +1,17 @@
 ---
 UID: NF:winuser.IsValidDpiAwarenessContext
 title: IsValidDpiAwarenessContext function (winuser.h)
-
 description: Determines if a specified DPI_AWARENESS_CONTEXT is valid and supported by the current system.
 old-location: hidpi\isvaliddpiawarenesscontext.htm
 tech.root: hidpi
 ms.assetid: 66F48B95-DEF4-4422-BF4F-5EBA3C713A80
-
 ms.date: 12/05/2018
 ms.keywords: IsValidDpiAwarenessContext, IsValidDpiAwarenessContext function [High DPI], hidpi.isvaliddpiawarenesscontext, winuser/IsValidDpiAwarenessContext
 ms.topic: function
-f1_keywords: 
- - "winuser/IsValidDpiAwarenessContext"
+f1_keywords:
+- winuser/IsValidDpiAwarenessContext
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,19 +30,19 @@ req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - User32.dll
- - Ext-MS-Win-NTUser-Window-l1-1-0.dll
- - Ext-MS-Win-NTUser-Window-l1-1-1.dll
- - Ext-MS-Win-NTUser-Window-l1-1-2.dll
- - ext-ms-win-ntuser-window-l1-1-3.dll
- - Ext-MS-Win-NTUser-Window-L1-1-4.dll
+- User32.dll
+- Ext-MS-Win-NTUser-Window-l1-1-0.dll
+- Ext-MS-Win-NTUser-Window-l1-1-1.dll
+- Ext-MS-Win-NTUser-Window-l1-1-2.dll
+- ext-ms-win-ntuser-window-l1-1-3.dll
+- Ext-MS-Win-NTUser-Window-L1-1-4.dll
 api_name:
- - IsValidDpiAwarenessContext
+- IsValidDpiAwarenessContext
 targetos: Windows
 req.typenames: 
 req.redist: 

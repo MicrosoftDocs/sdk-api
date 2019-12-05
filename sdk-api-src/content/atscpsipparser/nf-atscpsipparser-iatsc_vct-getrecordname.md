@@ -1,19 +1,17 @@
 ---
 UID: NF:atscpsipparser.IATSC_VCT.GetRecordName
 title: IATSC_VCT::GetRecordName (atscpsipparser.h)
-
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\iatsc_vct_getrecordname.htm
 tech.root: mstv
 ms.assetid: b97baa53-d927-4a3c-91a5-3d06d26e797f
-
 ms.date: 12/05/2018
 ms.keywords: GetRecordName, GetRecordName method [Microsoft TV Technologies], GetRecordName method [Microsoft TV Technologies],IATSC_VCT interface, IATSC_VCT interface [Microsoft TV Technologies],GetRecordName method, IATSC_VCT.GetRecordName, IATSC_VCT::GetRecordName, IATSC_VCTGetRecordName, atscpsipparser/IATSC_VCT::GetRecordName, mstv.iatsc_vct_getrecordname
 ms.topic: method
-f1_keywords: 
- - "atscpsipparser/IATSC_VCT.GetRecordName"
+f1_keywords:
+- atscpsipparser/IATSC_VCT.GetRecordName
 dev_langs:
- - c++
+- c++
 req.header: atscpsipparser.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - atscpsipparser.h
+- atscpsipparser.h
 api_name:
- - IATSC_VCT.GetRecordName
+- IATSC_VCT.GetRecordName
 targetos: Windows
 req.typenames: 
 req.redist: 

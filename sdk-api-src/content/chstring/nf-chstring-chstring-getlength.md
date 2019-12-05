@@ -1,19 +1,17 @@
 ---
 UID: NF:chstring.CHString.GetLength
 title: CHString::GetLength (chstring.h)
-
 description: The GetLength method gets a count of the number of wide characters in this CHString string. The count does not include a NULL terminator.
 old-location: wmi\chstring_getlength.htm
 tech.root: WmiSdk
 ms.assetid: b898f9d1-b9a2-4c7b-a7c0-1b6b51ae565f
-
 ms.date: 12/05/2018
-ms.keywords: "?GetLength@CHString@@QBEHXZ, ?GetLength@CHString@@QEBAHXZ, CHString interface [Windows Management Instrumentation],GetLength method, CHString.GetLength, CHString::GetLength, GetLength, GetLength method [Windows Management Instrumentation], GetLength method [Windows Management Instrumentation],CHString interface, _hmm_chstring_getlength, chstring/CHString::GetLength, wmi.chstring_getlength"
+ms.keywords: ?GetLength@CHString@@QBEHXZ, ?GetLength@CHString@@QEBAHXZ, CHString interface [Windows Management Instrumentation],GetLength method, CHString.GetLength, CHString::GetLength, GetLength, GetLength method [Windows Management Instrumentation], GetLength method [Windows Management Instrumentation],CHString interface, _hmm_chstring_getlength, chstring/CHString::GetLength, wmi.chstring_getlength
 ms.topic: method
-f1_keywords: 
- - "chstring/CHString.GetLength"
+f1_keywords:
+- chstring/CHString.GetLength
 dev_langs:
- - c++
+- c++
 req.header: chstring.h
 req.include-header: FwCommon.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: FrameDyn.lib
 req.dll: FrameDynOS.dll; FrameDyn.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - FrameDynOS.dll
- - FrameDyn.dll
+- FrameDynOS.dll
+- FrameDyn.dll
 api_name:
- - CHString.GetLength
- - ?GetLength@CHString@@QBEHXZ
- - ?GetLength@CHString@@QEBAHXZ
+- CHString.GetLength
+- ?GetLength@CHString@@QBEHXZ
+- ?GetLength@CHString@@QEBAHXZ
 targetos: Windows
 req.typenames: 
 req.redist: 

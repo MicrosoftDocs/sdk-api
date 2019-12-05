@@ -1,19 +1,17 @@
 ---
 UID: NF:mswmdm.IWMDMObjectInfo.GetLastPlayPosition
 title: IWMDMObjectInfo::GetLastPlayPosition (mswmdm.h)
-
 description: The GetLastPlayPosition method retrieves the last play position of the object. The object must be an audio file on the media device.
 old-location: wmdm\iwmdmobjectinfo_getlastplayposition.htm
 tech.root: WMDM
 ms.assetid: d5b5cf7c-6969-497e-bf2c-e91ddb85f701
-
 ms.date: 12/05/2018
 ms.keywords: GetLastPlayPosition, GetLastPlayPosition method [windows Media Device Manager], GetLastPlayPosition method [windows Media Device Manager],IWMDMObjectInfo interface, IWMDMObjectInfo interface [windows Media Device Manager],GetLastPlayPosition method, IWMDMObjectInfo.GetLastPlayPosition, IWMDMObjectInfo::GetLastPlayPosition, IWMDMObjectInfoGetLastPlayPosition, mswmdm/IWMDMObjectInfo::GetLastPlayPosition, wmdm.iwmdmobjectinfo_getlastplayposition
 ms.topic: method
-f1_keywords: 
- - "mswmdm/IWMDMObjectInfo.GetLastPlayPosition"
+f1_keywords:
+- mswmdm/IWMDMObjectInfo.GetLastPlayPosition
 dev_langs:
- - c++
+- c++
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mssachlp.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mssachlp.lib
- - mssachlp.dll
+- mssachlp.lib
+- mssachlp.dll
 api_name:
- - IWMDMObjectInfo.GetLastPlayPosition
+- IWMDMObjectInfo.GetLastPlayPosition
 targetos: Windows
 req.typenames: 
 req.redist: 

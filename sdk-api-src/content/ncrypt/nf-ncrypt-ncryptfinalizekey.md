@@ -1,19 +1,17 @@
 ---
 UID: NF:ncrypt.NCryptFinalizeKey
 title: NCryptFinalizeKey function (ncrypt.h)
-
 description: Completes a CNG key storage key.
 old-location: security\ncryptfinalizekey_func.htm
 tech.root: SecCNG
 ms.assetid: 4386030d-4ce6-4b2e-adc5-a15ddc869349
-
 ms.date: 12/05/2018
 ms.keywords: NCRYPT_NO_KEY_VALIDATION, NCRYPT_SILENT_FLAG, NCRYPT_WRITE_KEY_TO_LEGACY_STORE_FLAG, NCryptFinalizeKey, NCryptFinalizeKey function [Security], ncrypt/NCryptFinalizeKey, security.ncryptfinalizekey_func
 ms.topic: function
-f1_keywords: 
- - "ncrypt/NCryptFinalizeKey"
+f1_keywords:
+- ncrypt/NCryptFinalizeKey
 dev_langs:
- - c++
+- c++
 req.header: ncrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Ncrypt.lib
 req.dll: Ncrypt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ncrypt.dll
+- Ncrypt.dll
 api_name:
- - NCryptFinalizeKey
+- NCryptFinalizeKey
 targetos: Windows
 req.typenames: 
 req.redist: 

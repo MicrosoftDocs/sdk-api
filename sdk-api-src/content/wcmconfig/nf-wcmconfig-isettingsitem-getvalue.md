@@ -1,19 +1,17 @@
 ---
 UID: NF:wcmconfig.ISettingsItem.GetValue
 title: ISettingsItem::GetValue (wcmconfig.h)
-
 description: Gets the current value from the item.
 old-location: smi\isettingsitem_getvalue.htm
 tech.root: SMI
 ms.assetid: 11b61570-d1ed-4dcf-b533-873096ae80b9
-
 ms.date: 12/05/2018
 ms.keywords: GetValue, GetValue method [SMI], GetValue method [SMI],ISettingsItem interface, ISettingsItem interface [SMI],GetValue method, ISettingsItem.GetValue, ISettingsItem::GetValue, smi.isettingsitem_getvalue, wcmconfig/ISettingsItem::GetValue
 ms.topic: method
-f1_keywords: 
- - "wcmconfig/ISettingsItem.GetValue"
+f1_keywords:
+- wcmconfig/ISettingsItem.GetValue
 dev_langs:
- - c++
+- c++
 req.header: wcmconfig.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: SMIEngine.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - SMIEngine.dll
+- SMIEngine.dll
 api_name:
- - ISettingsItem.GetValue
+- ISettingsItem.GetValue
 targetos: Windows
 req.typenames: 
 req.redist: 

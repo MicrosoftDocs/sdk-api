@@ -1,19 +1,17 @@
 ---
 UID: NF:uianimation.IUIAnimationTransitionLibrary.CreateParabolicTransitionFromAcceleration
 title: IUIAnimationTransitionLibrary::CreateParabolicTransitionFromAcceleration (uianimation.h)
-
 description: Creates a parabolic-acceleration transition.
 old-location: uianimation\iuianimationtransitionlibrary_createparabolictransitionfromacceleration.htm
 tech.root: UIAnimation
 ms.assetid: 96dd5287-36b1-4620-88ae-a52b252620d2
-
 ms.date: 12/05/2018
 ms.keywords: CreateParabolicTransitionFromAcceleration, CreateParabolicTransitionFromAcceleration method [Windows Animation], CreateParabolicTransitionFromAcceleration method [Windows Animation],IUIAnimationTransitionLibrary interface, IUIAnimationTransitionLibrary interface [Windows Animation],CreateParabolicTransitionFromAcceleration method, IUIAnimationTransitionLibrary.CreateParabolicTransitionFromAcceleration, IUIAnimationTransitionLibrary::CreateParabolicTransitionFromAcceleration, uianimation.iuianimationtransitionlibrary_createparabolictransitionfromacceleration, uianimation/IUIAnimationTransitionLibrary::CreateParabolicTransitionFromAcceleration
 ms.topic: method
-f1_keywords: 
- - "uianimation/IUIAnimationTransitionLibrary.CreateParabolicTransitionFromAcceleration"
+f1_keywords:
+- uianimation/IUIAnimationTransitionLibrary.CreateParabolicTransitionFromAcceleration
 dev_langs:
- - c++
+- c++
 req.header: uianimation.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: UIAnimation.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAnimation.dll
+- UIAnimation.dll
 api_name:
- - IUIAnimationTransitionLibrary.CreateParabolicTransitionFromAcceleration
+- IUIAnimationTransitionLibrary.CreateParabolicTransitionFromAcceleration
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:propvarutil.PropVariantToStringVectorAlloc
 title: PropVariantToStringVectorAlloc function (propvarutil.h)
-
 description: Extracts data from a PROPVARIANT structure into a newly allocated strings in a newly allocated vector.
 old-location: properties\PropVariantToStringVectorAlloc.htm
 tech.root: properties
 ms.assetid: bf2cacc9-89d5-4823-99da-9747636b3795
-
 ms.date: 12/05/2018
 ms.keywords: PropVariantToStringVectorAlloc, PropVariantToStringVectorAlloc function [Windows Properties], _shell_PropVariantToStringVectorAlloc, properties.PropVariantToStringVectorAlloc, propvarutil/PropVariantToStringVectorAlloc, shell.PropVariantToStringVectorAlloc
 ms.topic: function
-f1_keywords: 
- - "propvarutil/PropVariantToStringVectorAlloc"
+f1_keywords:
+- propvarutil/PropVariantToStringVectorAlloc
 dev_langs:
- - c++
+- c++
 req.header: propvarutil.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Propsys.lib
 req.dll: Propsys.dll (version 6.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Propsys.dll
+- Propsys.dll
 api_name:
- - PropVariantToStringVectorAlloc
+- PropVariantToStringVectorAlloc
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0

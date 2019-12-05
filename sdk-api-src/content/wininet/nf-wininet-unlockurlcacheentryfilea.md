@@ -1,19 +1,17 @@
 ---
 UID: NF:wininet.UnlockUrlCacheEntryFileA
 title: UnlockUrlCacheEntryFileA function (wininet.h)
-
 description: Unlocks the cache entry that was locked while the file was retrieved for use from the cache.
 old-location: wininet\unlockurlcacheentryfile.htm
 tech.root: wininet
 ms.assetid: ccc650dc-1759-4438-85d5-539c71d21a74
-
 ms.date: 12/05/2018
 ms.keywords: UnlockUrlCacheEntryFile, UnlockUrlCacheEntryFile function [WinINet], UnlockUrlCacheEntryFileA, UnlockUrlCacheEntryFileW, _inet_unlockurlcacheentryfile_function, wininet.unlockurlcacheentryfile, wininet/UnlockUrlCacheEntryFile, wininet/UnlockUrlCacheEntryFileA, wininet/UnlockUrlCacheEntryFileW
 ms.topic: function
-f1_keywords: 
- - "wininet/UnlockUrlCacheEntryFile"
+f1_keywords:
+- wininet/UnlockUrlCacheEntryFile
 dev_langs:
- - c++
+- c++
 req.header: wininet.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Wininet.lib
 req.dll: Wininet.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Wininet.dll
+- Wininet.dll
 api_name:
- - UnlockUrlCacheEntryFile
- - UnlockUrlCacheEntryFileA
- - UnlockUrlCacheEntryFileW
+- UnlockUrlCacheEntryFile
+- UnlockUrlCacheEntryFileA
+- UnlockUrlCacheEntryFileW
 targetos: Windows
 req.typenames: 
 req.redist: 

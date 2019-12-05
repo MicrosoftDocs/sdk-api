@@ -1,19 +1,17 @@
 ---
 UID: NF:faxcomex.IFaxServer.RegisterInboundRoutingExtension
 title: IFaxServer::RegisterInboundRoutingExtension (faxcomex.h)
-
 description: The IFaxServer::RegisterInboundRoutingExtension method registers a fax inbound routing extension with the fax service. Registration takes place after the fax service restarts.
 old-location: fax\_mfax_faxserver_cpp_mfax_faxserver_registerinboundroutingextension_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_9kfi.htm
-
 ms.date: 12/05/2018
 ms.keywords: IFaxServer interface [Fax Service],RegisterInboundRoutingExtension method, IFaxServer.RegisterInboundRoutingExtension, IFaxServer::RegisterInboundRoutingExtension, RegisterInboundRoutingExtension, RegisterInboundRoutingExtension method [Fax Service], RegisterInboundRoutingExtension method [Fax Service],IFaxServer interface, _mfax_faxserver.registerinboundroutingextension, fax._mfax_faxserver_cpp_mfax_faxserver_registerinboundroutingextension_cpp, fax._mfax_faxserver_registerinboundroutingextension, faxcomex/IFaxServer::RegisterInboundRoutingExtension
 ms.topic: method
-f1_keywords: 
- - "faxcomex/IFaxServer.RegisterInboundRoutingExtension"
+f1_keywords:
+- faxcomex/IFaxServer.RegisterInboundRoutingExtension
 dev_langs:
- - c++
+- c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: Fxscomex.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Fxscomex.dll
+- Fxscomex.dll
 api_name:
- - IFaxServer.RegisterInboundRoutingExtension
- - IFaxServer.RegisterInboundRoutingExtension
+- IFaxServer.RegisterInboundRoutingExtension
+- IFaxServer.RegisterInboundRoutingExtension
 targetos: Windows
 req.typenames: 
 req.redist: 

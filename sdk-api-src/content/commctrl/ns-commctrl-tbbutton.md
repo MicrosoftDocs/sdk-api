@@ -1,19 +1,17 @@
 ---
 UID: NS:commctrl._TBBUTTON
 title: TBBUTTON (commctrl.h)
-
 description: Contains information about a button in a toolbar.
 old-location: controls\TBBUTTON.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\toolbar\structures\tbbutton.htm
-
 ms.date: 12/05/2018
-ms.keywords: "*LPTBBUTTON, *PTBBUTTON, LPTBBUTTON, LPTBBUTTON structure pointer [Windows Controls], PTBBUTTON, PTBBUTTON structure pointer [Windows Controls], TBBUTTON, TBBUTTON structure [Windows Controls], _win32_TBBUTTON, _win32_TBBUTTON_cpp, commctrl/LPTBBUTTON, commctrl/PTBBUTTON, commctrl/TBBUTTON, controls.TBBUTTON, controls._win32_TBBUTTON"
+ms.keywords: '*LPTBBUTTON, *PTBBUTTON, LPTBBUTTON, LPTBBUTTON structure pointer [Windows Controls], PTBBUTTON, PTBBUTTON structure pointer [Windows Controls], TBBUTTON, TBBUTTON structure [Windows Controls], _win32_TBBUTTON, _win32_TBBUTTON_cpp, commctrl/LPTBBUTTON, commctrl/PTBBUTTON, commctrl/TBBUTTON, controls.TBBUTTON, controls._win32_TBBUTTON'
 ms.topic: struct
-f1_keywords: 
- - "commctrl/TBBUTTON"
+f1_keywords:
+- commctrl/TBBUTTON
 dev_langs:
- - c++
+- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Commctrl.h
+- Commctrl.h
 api_name:
- - TBBUTTON
+- TBBUTTON
 targetos: Windows
 req.typenames: TBBUTTON, *PTBBUTTON, *LPTBBUTTON
 req.redist: 

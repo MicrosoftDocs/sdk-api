@@ -1,19 +1,17 @@
 ---
 UID: NF:tom.ITextRange2.InsertTable
 title: ITextRange2::InsertTable (tom.h)
-
 description: Inserts a table in a range.
 old-location: controls\itextrange2_inserttable.htm
 tech.root: Controls
 ms.assetid: f62cc778-8f06-43d1-985b-d233b02d3255
-
 ms.date: 12/05/2018
 ms.keywords: ITextRange2 interface [Windows Controls],InsertTable method, ITextRange2.InsertTable, ITextRange2::InsertTable, InsertTable, InsertTable method [Windows Controls], InsertTable method [Windows Controls],ITextRange2 interface, controls.itextrange2_inserttable, tom/ITextRange2::InsertTable
 ms.topic: method
-f1_keywords: 
- - "tom/ITextRange2.InsertTable"
+f1_keywords:
+- tom/ITextRange2.InsertTable
 dev_langs:
- - c++
+- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msftedit.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msftedit.dll
+- Msftedit.dll
 api_name:
- - ITextRange2.InsertTable
+- ITextRange2.InsertTable
 targetos: Windows
 req.typenames: 
 req.redist: 

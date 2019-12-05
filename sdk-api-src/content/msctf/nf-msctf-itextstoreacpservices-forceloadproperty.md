@@ -1,19 +1,17 @@
 ---
 UID: NF:msctf.ITextStoreACPServices.ForceLoadProperty
 title: ITextStoreACPServices::ForceLoadProperty (msctf.h)
-
 description: ITextStoreACPServices::ForceLoadProperty method
 old-location: tsf\itextstoreacpservices_forceloadproperty.htm
 tech.root: TSF
 ms.assetid: 6792ccc0-7bbd-479c-9f24-a283ce03c7fe
-
 ms.date: 12/05/2018
 ms.keywords: ForceLoadProperty, ForceLoadProperty method [Text Services Framework], ForceLoadProperty method [Text Services Framework],ITextStoreACPServices interface, ITextStoreACPServices interface [Text Services Framework],ForceLoadProperty method, ITextStoreACPServices.ForceLoadProperty, ITextStoreACPServices::ForceLoadProperty, _tsf_itextstoreacpservices_forceloadproperty_ref, msctf/ITextStoreACPServices::ForceLoadProperty, tsf.itextstoreacpservices_forceloadproperty
 ms.topic: method
-f1_keywords: 
- - "msctf/ITextStoreACPServices.ForceLoadProperty"
+f1_keywords:
+- msctf/ITextStoreACPServices.ForceLoadProperty
 dev_langs:
- - c++
+- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msctf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msctf.dll
+- msctf.dll
 api_name:
- - ITextStoreACPServices.ForceLoadProperty
+- ITextStoreACPServices.ForceLoadProperty
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

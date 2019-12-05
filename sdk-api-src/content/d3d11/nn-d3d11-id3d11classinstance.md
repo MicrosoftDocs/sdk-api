@@ -1,19 +1,17 @@
 ---
 UID: NN:d3d11.ID3D11ClassInstance
 title: ID3D11ClassInstance (d3d11.h)
-
 description: This interface encapsulates an HLSL class.
 old-location: direct3d11\id3d11classinstance.htm
 tech.root: direct3d11
 ms.assetid: 70d006d2-5c47-4e8a-9a14-b5475d88ac32
-
 ms.date: 12/05/2018
 ms.keywords: ID3D11ClassInstance, ID3D11ClassInstance interface [Direct3D 11], ID3D11ClassInstance interface [Direct3D 11],described, d3d11/ID3D11ClassInstance, direct3d11.id3d11classinstance, fb695194-ccb6-d8bd-59c0-5dbd185a1a4c
 ms.topic: interface
-f1_keywords: 
- - "d3d11/ID3D11ClassInstance"
+f1_keywords:
+- d3d11/ID3D11ClassInstance
 dev_langs:
- - c++
+- c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: D3D11.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D11.lib
- - D3D11.dll
+- D3D11.lib
+- D3D11.dll
 api_name:
- - ID3D11ClassInstance
+- ID3D11ClassInstance
 targetos: Windows
 req.typenames: 
 req.redist: 

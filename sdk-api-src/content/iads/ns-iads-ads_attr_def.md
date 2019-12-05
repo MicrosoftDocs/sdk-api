@@ -1,19 +1,17 @@
 ---
 UID: NS:iads._ads_attr_def
 title: ADS_ATTR_DEF (iads.h)
-
 description: The ADS_ATTR_DEF structure is used only as a part of IDirectorySchemaMgmt, which is an obsolete interface.
 old-location: adsi\ads_attr_def.htm
 tech.root: adsi
 ms.assetid: 01cada92-e69a-40d4-a253-ad88c663fa92
-
 ms.date: 12/05/2018
-ms.keywords: "*PADS_ATTR_DEF, ADS_ATTR_DEF, ADS_ATTR_DEF structure [ADSI], PADS_ATTR_DEF, PADS_ATTR_DEF structure pointer [ADSI], _ds_ads_attr_def, adsi.ads__attr__def, adsi.ads_attr_def, iads/ADS_ATTR_DEF, iads/PADS_ATTR_DEF"
+ms.keywords: '*PADS_ATTR_DEF, ADS_ATTR_DEF, ADS_ATTR_DEF structure [ADSI], PADS_ATTR_DEF, PADS_ATTR_DEF structure pointer [ADSI], _ds_ads_attr_def, adsi.ads__attr__def, adsi.ads_attr_def, iads/ADS_ATTR_DEF, iads/PADS_ATTR_DEF'
 ms.topic: struct
-f1_keywords: 
- - "iads/ADS_ATTR_DEF"
+f1_keywords:
+- iads/ADS_ATTR_DEF
 dev_langs:
- - c++
+- c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Iads.h
+- Iads.h
 api_name:
- - ADS_ATTR_DEF
+- ADS_ATTR_DEF
 targetos: Windows
 req.typenames: ADS_ATTR_DEF, *PADS_ATTR_DEF
 req.redist: 

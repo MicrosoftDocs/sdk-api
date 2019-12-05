@@ -1,19 +1,17 @@
 ---
 UID: NS:wincrypt._HTTPSPolicyCallbackData
 title: HTTPSPolicyCallbackData (wincrypt.h)
-
 description: Holds policy information used in the verification of Secure Sockets Layer (SSL) client/server certificate chains.
 old-location: security\ssl_extra_cert_chain_policy_para.htm
 tech.root: SecCrypto
 ms.assetid: 3422693a-3fad-4ed8-9fab-d9a185476123
-
 ms.date: 12/05/2018
-ms.keywords: "*PHTTPSPolicyCallbackData, *PSSL_EXTRA_CERT_CHAIN_POLICY_PARA, AUTHTYPE_CLIENT, AUTHTYPE_SERVER, HTTPSPolicyCallbackData, HTTPSPolicyCallbackData structure [Security], PHTTPSPolicyCallbackData, PHTTPSPolicyCallbackData structure pointer [Security], PSSL_EXTRA_CERT_CHAIN_POLICY_PARA, PSSL_EXTRA_CERT_CHAIN_POLICY_PARA structure pointer [Security], SECURITY_FLAG_IGNORE_CERT_CN_INVALID, SECURITY_FLAG_IGNORE_CERT_DATE_INVALID, SECURITY_FLAG_IGNORE_REVOCATION, SECURITY_FLAG_IGNORE_UNKNOWN_CA, SECURITY_FLAG_IGNORE_WRONG_USAGE, SSL_EXTRA_CERT_CHAIN_POLICY_PARA, SSL_EXTRA_CERT_CHAIN_POLICY_PARA structure [Security], security.ssl_extra_cert_chain_policy_para, wincrypt/PHTTPSPolicyCallbackData, wincrypt/PSSL_EXTRA_CERT_CHAIN_POLICY_PARA, wincrypt/SSL_EXTRA_CERT_CHAIN_POLICY_PARA"
+ms.keywords: '*PHTTPSPolicyCallbackData, *PSSL_EXTRA_CERT_CHAIN_POLICY_PARA, AUTHTYPE_CLIENT, AUTHTYPE_SERVER, HTTPSPolicyCallbackData, HTTPSPolicyCallbackData structure [Security], PHTTPSPolicyCallbackData, PHTTPSPolicyCallbackData structure pointer [Security], PSSL_EXTRA_CERT_CHAIN_POLICY_PARA, PSSL_EXTRA_CERT_CHAIN_POLICY_PARA structure pointer [Security], SECURITY_FLAG_IGNORE_CERT_CN_INVALID, SECURITY_FLAG_IGNORE_CERT_DATE_INVALID, SECURITY_FLAG_IGNORE_REVOCATION, SECURITY_FLAG_IGNORE_UNKNOWN_CA, SECURITY_FLAG_IGNORE_WRONG_USAGE, SSL_EXTRA_CERT_CHAIN_POLICY_PARA, SSL_EXTRA_CERT_CHAIN_POLICY_PARA structure [Security], security.ssl_extra_cert_chain_policy_para, wincrypt/PHTTPSPolicyCallbackData, wincrypt/PSSL_EXTRA_CERT_CHAIN_POLICY_PARA, wincrypt/SSL_EXTRA_CERT_CHAIN_POLICY_PARA'
 ms.topic: struct
-f1_keywords: 
- - "wincrypt/HTTPSPolicyCallbackData"
+f1_keywords:
+- wincrypt/HTTPSPolicyCallbackData
 dev_langs:
- - c++
+- c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wincrypt.h
+- Wincrypt.h
 api_name:
- - HTTPSPolicyCallbackData
+- HTTPSPolicyCallbackData
 targetos: Windows
 req.typenames: HTTPSPolicyCallbackData, *PHTTPSPolicyCallbackData, SSL_EXTRA_CERT_CHAIN_POLICY_PARA, *PSSL_EXTRA_CERT_CHAIN_POLICY_PARA
 req.redist: 

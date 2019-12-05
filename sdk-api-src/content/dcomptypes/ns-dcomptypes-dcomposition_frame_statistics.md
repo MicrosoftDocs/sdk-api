@@ -1,19 +1,17 @@
 ---
 UID: NS:dcomptypes.__unnamed_struct_0
 title: DCOMPOSITION_FRAME_STATISTICS (dcomptypes.h)
-
 description: Describes timing and composition statistics for a frame.
 old-location: directcomp\dcomposition_frame_statistics.htm
 tech.root: directcomp
 ms.assetid: 431D8399-9BCC-4B3A-89F4-E698446EF764
-
 ms.date: 12/05/2018
 ms.keywords: DCOMPOSITION_FRAME_STATISTICS, DCOMPOSITION_FRAME_STATISTICS structure [DirectComposition], PDCOMPOSITION_FRAME_STATISTICS, PDCOMPOSITION_FRAME_STATISTICS structure pointer [DirectComposition], dcomptypes/DCOMPOSITION_FRAME_STATISTICS, dcomptypes/PDCOMPOSITION_FRAME_STATISTICS, directcomp.dcomposition_frame_statistics
 ms.topic: struct
-f1_keywords: 
- - "dcomptypes/DCOMPOSITION_FRAME_STATISTICS"
+f1_keywords:
+- dcomptypes/DCOMPOSITION_FRAME_STATISTICS
 dev_langs:
- - c++
+- c++
 req.header: dcomptypes.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - DcompTypes.h
+- DcompTypes.h
 api_name:
- - DCOMPOSITION_FRAME_STATISTICS
+- DCOMPOSITION_FRAME_STATISTICS
 targetos: Windows
 req.typenames: DCOMPOSITION_FRAME_STATISTICS
 req.redist: 

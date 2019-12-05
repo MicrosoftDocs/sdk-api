@@ -1,19 +1,17 @@
 ---
 UID: NF:xenroll.ICEnroll.get_MyStoreName
 title: ICEnroll::get_MyStoreName (xenroll.h)
-
 description: Sets or retrieves the name of the store where certificates with linked private keys are kept.
 old-location: security\icenroll4_mystorename.htm
 tech.root: SecCrypto
 ms.assetid: aa08e88d-bd1f-4bd6-806e-56f720846623
-
 ms.date: 12/05/2018
 ms.keywords: CEnroll object [Security],MyStoreName property, ICEnroll interface [Security],MyStoreName property, ICEnroll.MyStoreName, ICEnroll.get_MyStoreName, ICEnroll2 interface [Security],MyStoreName property, ICEnroll2.MyStoreName, ICEnroll2::get_MyStoreName, ICEnroll2::put_MyStoreName, ICEnroll3 interface [Security],MyStoreName property, ICEnroll3.MyStoreName, ICEnroll3::get_MyStoreName, ICEnroll3::put_MyStoreName, ICEnroll4 interface [Security],MyStoreName property, ICEnroll4.MyStoreName, ICEnroll4::MyStoreName, ICEnroll4::get_MyStoreName, ICEnroll4::put_MyStoreName, ICEnroll::get_MyStoreName, ICEnroll::put_MyStoreName, MyStoreName property [Security], MyStoreName property [Security],CEnroll object, MyStoreName property [Security],ICEnroll interface, MyStoreName property [Security],ICEnroll2 interface, MyStoreName property [Security],ICEnroll3 interface, MyStoreName property [Security],ICEnroll4 interface, get_MyStoreName, security.icenroll4_mystorename, xenroll/ICEnroll2::MyStoreName, xenroll/ICEnroll2::get_MyStoreName, xenroll/ICEnroll2::put_MyStoreName, xenroll/ICEnroll3::MyStoreName, xenroll/ICEnroll3::get_MyStoreName, xenroll/ICEnroll3::put_MyStoreName, xenroll/ICEnroll4::MyStoreName, xenroll/ICEnroll4::get_MyStoreName, xenroll/ICEnroll4::put_MyStoreName, xenroll/ICEnroll::MyStoreName, xenroll/ICEnroll::get_MyStoreName, xenroll/ICEnroll::put_MyStoreName
 ms.topic: method
-f1_keywords: 
- - "xenroll/ICEnroll4.MyStoreName"
+f1_keywords:
+- xenroll/ICEnroll4.MyStoreName
 dev_langs:
- - c++
+- c++
 req.header: xenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,26 +30,26 @@ req.lib: Uuid.lib
 req.dll: Xenroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Xenroll.dll
+- Xenroll.dll
 api_name:
- - ICEnroll4.MyStoreName
- - ICEnroll4.get_MyStoreName
- - ICEnroll4.put_MyStoreName
- - ICEnroll3.MyStoreName
- - ICEnroll3.get_MyStoreName
- - ICEnroll3.put_MyStoreName
- - ICEnroll2.MyStoreName
- - ICEnroll2.get_MyStoreName
- - ICEnroll2.put_MyStoreName
- - ICEnroll.MyStoreName
- - ICEnroll.get_MyStoreName
- - ICEnroll.put_MyStoreName
- - CEnroll.MyStoreName
+- ICEnroll4.MyStoreName
+- ICEnroll4.get_MyStoreName
+- ICEnroll4.put_MyStoreName
+- ICEnroll3.MyStoreName
+- ICEnroll3.get_MyStoreName
+- ICEnroll3.put_MyStoreName
+- ICEnroll2.MyStoreName
+- ICEnroll2.get_MyStoreName
+- ICEnroll2.put_MyStoreName
+- ICEnroll.MyStoreName
+- ICEnroll.get_MyStoreName
+- ICEnroll.put_MyStoreName
+- CEnroll.MyStoreName
 targetos: Windows
 req.typenames: 
 req.redist: 

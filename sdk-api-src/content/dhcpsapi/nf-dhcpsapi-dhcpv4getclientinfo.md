@@ -1,19 +1,17 @@
 ---
 UID: NF:dhcpsapi.DhcpV4GetClientInfo
 title: DhcpV4GetClientInfo function (dhcpsapi.h)
-
 description: Retrieves DHCP client lease record information from the DHCP server database.
 old-location: dhcp\dhcpv4getclientinfo.htm
 tech.root: DHCP
 ms.assetid: bf6df3ba-bbea-4140-960c-fb34cfe160eb
-
 ms.date: 12/05/2018
 ms.keywords: DhcpV4GetClientInfo, DhcpV4GetClientInfo function [DHCP], dhcp.dhcpv4getclientinfo, dhcpsapi/DhcpV4GetClientInfo
 ms.topic: function
 f1_keywords:
 - dhcpsapi/DhcpV4GetClientInfo
 dev_langs:
- - c++
+- c++
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows

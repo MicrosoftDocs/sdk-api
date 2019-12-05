@@ -1,19 +1,17 @@
 ---
 UID: NF:commoncontrols.IImageList.DragLeave
 title: IImageList::DragLeave (commoncontrols.h)
-
 description: Unlocks the specified window and hides the drag image, which enables the window to update.
 old-location: controls\IImageList_DragLeave.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\imagelist\ifaces\iimagelist\dragleave.htm
-
 ms.date: 12/05/2018
 ms.keywords: DragLeave, DragLeave method [Windows Controls], DragLeave method [Windows Controls],IImageList interface, IImageList interface [Windows Controls],DragLeave method, IImageList.DragLeave, IImageList::DragLeave, comctl_IImageList_DragLeave, comctl_IImageList_DragLeave_cpp, commoncontrols/IImageList::DragLeave, controls.IImageList_DragLeave, controls.comctl_IImageList_DragLeave
 ms.topic: method
-f1_keywords: 
- - "commoncontrols/IImageList.DragLeave"
+f1_keywords:
+- commoncontrols/IImageList.DragLeave
 dev_langs:
- - c++
+- c++
 req.header: commoncontrols.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Comctl32.dll (version 6.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Comctl32.dll
+- Comctl32.dll
 api_name:
- - IImageList.DragLeave
+- IImageList.DragLeave
 targetos: Windows
 req.typenames: 
 req.redist: 

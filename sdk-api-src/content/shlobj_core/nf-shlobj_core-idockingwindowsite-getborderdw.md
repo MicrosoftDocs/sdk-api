@@ -1,19 +1,17 @@
 ---
 UID: NF:shlobj_core.IDockingWindowSite.GetBorderDW
 title: IDockingWindowSite::GetBorderDW (shlobj_core.h)
-
 description: Gets the border space allocated for the specified IDockingWindow object.
 old-location: shell\IDockingWindowSite_GetBorderDW.htm
 tech.root: shell
 ms.assetid: b1c30a49-8d87-4855-acc0-5f33eabe5e8a
-
 ms.date: 12/05/2018
 ms.keywords: GetBorderDW, GetBorderDW method [Windows Shell], GetBorderDW method [Windows Shell],IDockingWindowSite interface, IDockingWindowSite interface [Windows Shell],GetBorderDW method, IDockingWindowSite.GetBorderDW, IDockingWindowSite::GetBorderDW, _win32_IDockingWindowSite_GetBorderDW, shell.IDockingWindowSite_GetBorderDW, shlobj_core/IDockingWindowSite::GetBorderDW
 ms.topic: method
-f1_keywords: 
- - "shlobj_core/IDockingWindowSite.GetBorderDW"
+f1_keywords:
+- shlobj_core/IDockingWindowSite.GetBorderDW
 dev_langs:
- - c++
+- c++
 req.header: shlobj_core.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Shell32.dll (version 4.71 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - IDockingWindowSite.GetBorderDW
+- IDockingWindowSite.GetBorderDW
 targetos: Windows
 req.typenames: 
 req.redist: 

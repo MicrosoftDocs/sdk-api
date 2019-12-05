@@ -1,19 +1,17 @@
 ---
 UID: NF:winsync.ISyncKnowledge.GetScopeVector
 title: ISyncKnowledge::GetScopeVector (winsync.h)
-
 description: Gets the clock vector that defines the changes that are contained in the knowledge.
 old-location: winsync\isyncknowledge_getscopevector.htm
 tech.root: winsync
 ms.assetid: 92829da0-d9a3-4a91-a60f-6319163e899a
-
 ms.date: 12/05/2018
 ms.keywords: GetScopeVector, GetScopeVector method [Windows Sync], GetScopeVector method [Windows Sync],ISyncKnowledge interface, ISyncKnowledge interface [Windows Sync],GetScopeVector method, ISyncKnowledge.GetScopeVector, ISyncKnowledge::GetScopeVector, winsync.isyncknowledge_getscopevector, winsync/ISyncKnowledge::GetScopeVector
 ms.topic: method
-f1_keywords: 
- - "winsync/ISyncKnowledge.GetScopeVector"
+f1_keywords:
+- winsync/ISyncKnowledge.GetScopeVector
 dev_langs:
- - c++
+- c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - winsync.h
+- winsync.h
 api_name:
- - ISyncKnowledge.GetScopeVector
+- ISyncKnowledge.GetScopeVector
 targetos: Windows
 req.typenames: 
 req.redist: 

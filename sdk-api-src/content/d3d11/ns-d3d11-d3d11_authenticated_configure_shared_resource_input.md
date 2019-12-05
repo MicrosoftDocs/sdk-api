@@ -1,19 +1,17 @@
 ---
 UID: NS:d3d11.D3D11_AUTHENTICATED_CONFIGURE_SHARED_RESOURCE_INPUT
 title: D3D11_AUTHENTICATED_CONFIGURE_SHARED_RESOURCE_INPUT (d3d11.h)
-
 description: Contains input data for a D3D11_AUTHENTICATED_CONFIGURE_SHARED_RESOURCE command.
 old-location: mf\d3d11_authenticated_configure_shared_resource_input.htm
 tech.root: medfound
 ms.assetid: 5AE1D03F-1853-45DA-96DC-BF1AACF6945F
-
 ms.date: 12/05/2018
 ms.keywords: D3D11_AUTHENTICATED_CONFIGURE_SHARED_RESOURCE_INPUT, D3D11_AUTHENTICATED_CONFIGURE_SHARED_RESOURCE_INPUT structure [Media Foundation], d3d11/D3D11_AUTHENTICATED_CONFIGURE_SHARED_RESOURCE_INPUT, mf.d3d11_authenticated_configure_shared_resource_input
 ms.topic: struct
-f1_keywords: 
- - "d3d11/D3D11_AUTHENTICATED_CONFIGURE_SHARED_RESOURCE_INPUT"
+f1_keywords:
+- d3d11/D3D11_AUTHENTICATED_CONFIGURE_SHARED_RESOURCE_INPUT
 dev_langs:
- - c++
+- c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - d3d11.h
+- d3d11.h
 api_name:
- - D3D11_AUTHENTICATED_CONFIGURE_SHARED_RESOURCE_INPUT
+- D3D11_AUTHENTICATED_CONFIGURE_SHARED_RESOURCE_INPUT
 targetos: Windows
 req.typenames: D3D11_AUTHENTICATED_CONFIGURE_SHARED_RESOURCE_INPUT
 req.redist: 

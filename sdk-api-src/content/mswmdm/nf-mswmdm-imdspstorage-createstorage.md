@@ -1,19 +1,17 @@
 ---
 UID: NF:mswmdm.IMDSPStorage.CreateStorage
 title: IMDSPStorage::CreateStorage (mswmdm.h)
-
 description: The CreateStorage method creates a new storage and returns a pointer to the IMDSPStorage interface on the newly created storage.
 old-location: wmdm\imdspstorage_createstorage.htm
 tech.root: WMDM
 ms.assetid: 95633bc4-44fc-4ac7-9492-f99069d77d4d
-
 ms.date: 12/05/2018
 ms.keywords: CreateStorage, CreateStorage method [windows Media Device Manager], CreateStorage method [windows Media Device Manager],IMDSPStorage interface, IMDSPStorage interface [windows Media Device Manager],CreateStorage method, IMDSPStorage.CreateStorage, IMDSPStorage::CreateStorage, IMDSPStorageCreateStorage, mswmdm/IMDSPStorage::CreateStorage, wmdm.imdspstorage_createstorage
 ms.topic: method
-f1_keywords: 
- - "mswmdm/IMDSPStorage.CreateStorage"
+f1_keywords:
+- mswmdm/IMDSPStorage.CreateStorage
 dev_langs:
- - c++
+- c++
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mssachlp.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mssachlp.lib
- - mssachlp.dll
+- mssachlp.lib
+- mssachlp.dll
 api_name:
- - IMDSPStorage.CreateStorage
+- IMDSPStorage.CreateStorage
 targetos: Windows
 req.typenames: 
 req.redist: 

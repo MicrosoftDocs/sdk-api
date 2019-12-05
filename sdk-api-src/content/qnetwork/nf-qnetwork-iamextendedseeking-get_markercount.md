@@ -1,19 +1,17 @@
 ---
 UID: NF:qnetwork.IAMExtendedSeeking.get_MarkerCount
 title: IAMExtendedSeeking::get_MarkerCount (qnetwork.h)
-
 description: The get_MarkerCount method retrieves the number of markers in the current stream.
 old-location: dshow\iamextendedseeking_get_markercount.htm
 tech.root: DirectShow
 ms.assetid: bd9c2ca8-e5f2-409e-aaf9-d89d81d2b02d
-
 ms.date: 12/05/2018
 ms.keywords: IAMExtendedSeeking interface [DirectShow],get_MarkerCount method, IAMExtendedSeeking.get_MarkerCount, IAMExtendedSeeking::get_MarkerCount, IAMExtendedSeekingget_MarkerCount, dshow.iamextendedseeking_get_markercount, get_MarkerCount, get_MarkerCount method [DirectShow], get_MarkerCount method [DirectShow],IAMExtendedSeeking interface, qnetwork/IAMExtendedSeeking::get_MarkerCount
 ms.topic: method
-f1_keywords: 
- - "qnetwork/IAMExtendedSeeking.get_MarkerCount"
+f1_keywords:
+- qnetwork/IAMExtendedSeeking.get_MarkerCount
 dev_langs:
- - c++
+- c++
 req.header: qnetwork.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Qnetwork.h
+- Qnetwork.h
 api_name:
- - IAMExtendedSeeking.get_MarkerCount
+- IAMExtendedSeeking.get_MarkerCount
 targetos: Windows
 req.typenames: 
 req.redist: 

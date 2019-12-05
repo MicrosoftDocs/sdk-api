@@ -1,19 +1,17 @@
 ---
 UID: NS:wincrypt._CERT_REVOCATION_PARA
 title: CERT_REVOCATION_PARA (wincrypt.h)
-
 description: Is passed in calls to the CertVerifyRevocation function to assist in finding the issuer of the context to be verified.
 old-location: security\cert_revocation_para.htm
 tech.root: SecCrypto
 ms.assetid: 730db593-c55f-4ecf-bcac-5de54ab90db6
-
 ms.date: 12/05/2018
 ms.keywords: '*PCERT_REVOCATION_PARA, CERT_REVOCATION_PARA, CERT_REVOCATION_PARA structure [Security], PCERT_REVOCATION_PARA, PCERT_REVOCATION_PARA structure pointer [Security], _crypto2_cert_revocation_para, security.cert_revocation_para, wincrypt/CERT_REVOCATION_PARA, wincrypt/PCERT_REVOCATION_PARA'
 ms.topic: struct
 f1_keywords:
 - wincrypt/CERT_REVOCATION_PARA
 dev_langs:
- - c++
+- c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

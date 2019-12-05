@@ -1,19 +1,17 @@
 ---
 UID: NN:netlistmgr.INetwork
 title: INetwork (netlistmgr.h)
-
 description: The INetwork interface represents a network on the local machine. It can also represent a collection of network connections with a similar network signature.
 old-location: nla\inetwork.htm
 tech.root: nla
 ms.assetid: 6d483058-f7c4-4a6c-a1a8-816c2fab9994
-
 ms.date: 12/05/2018
 ms.keywords: INetwork, INetwork interface [Network Awareness], INetwork interface [Network Awareness],described, netlistmgr/INetwork, nla.inetwork
 ms.topic: interface
-f1_keywords: 
- - "netlistmgr/INetwork"
+f1_keywords:
+- netlistmgr/INetwork
 dev_langs:
- - c++
+- c++
 req.header: netlistmgr.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Netlistmgr.h
+- Netlistmgr.h
 api_name:
- - INetwork
+- INetwork
 targetos: Windows
 req.typenames: 
 req.redist: 

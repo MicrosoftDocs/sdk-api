@@ -1,19 +1,17 @@
 ---
 UID: NF:manipulations.IInertiaProcessor.put_DesiredDisplacement
 title: IInertiaProcessor::put_DesiredDisplacement (manipulations.h)
-
 description: The DesiredDisplacement property specifies the desired distance that the object will travel.
 old-location: wintouch\iinertiaprocessor_desireddisplacement.htm
 tech.root: wintouch
 ms.assetid: cbcd7ce7-7df4-48d8-acfe-dc206f5d70d1
-
 ms.date: 12/05/2018
 ms.keywords: DesiredDisplacement property [Windows Touch], DesiredDisplacement property [Windows Touch],IInertiaProcessor interface, IInertiaProcessor interface [Windows Touch],DesiredDisplacement property, IInertiaProcessor.DesiredDisplacement, IInertiaProcessor.put_DesiredDisplacement, IInertiaProcessor::DesiredDisplacement, IInertiaProcessor::get_DesiredDisplacement, IInertiaProcessor::put_DesiredDisplacement, manipulations/IInertiaProcessor::DesiredDisplacement, manipulations/IInertiaProcessor::get_DesiredDisplacement, manipulations/IInertiaProcessor::put_DesiredDisplacement, put_DesiredDisplacement, wintouch.iinertiaprocessor_desireddisplacement
 ms.topic: method
-f1_keywords: 
- - "manipulations/IInertiaProcessor.DesiredDisplacement"
+f1_keywords:
+- manipulations/IInertiaProcessor.DesiredDisplacement
 dev_langs:
- - c++
+- c++
 req.header: manipulations.h
 req.include-header: Manipulations.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - manipulations.h
+- manipulations.h
 api_name:
- - IInertiaProcessor.DesiredDisplacement
- - IInertiaProcessor.get_DesiredDisplacement
- - IInertiaProcessor.put_DesiredDisplacement
+- IInertiaProcessor.DesiredDisplacement
+- IInertiaProcessor.get_DesiredDisplacement
+- IInertiaProcessor.put_DesiredDisplacement
 targetos: Windows
 req.typenames: 
 req.redist: 

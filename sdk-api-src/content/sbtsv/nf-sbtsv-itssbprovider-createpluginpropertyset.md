@@ -1,19 +1,17 @@
 ---
 UID: NF:sbtsv.ITsSbProvider.CreatePluginPropertySet
 title: ITsSbProvider::CreatePluginPropertySet (sbtsv.h)
-
 description: Creates an ITsSbPluginPropertySet plug-in property set object.
 old-location: termserv\itssbprovider_createpluginpropertyset.htm
 tech.root: TermServ
 ms.assetid: a15edb7a-4ff5-4832-8632-17b08cff4675
-
 ms.date: 12/05/2018
 ms.keywords: CreatePluginPropertySet, CreatePluginPropertySet method [Remote Desktop Services], CreatePluginPropertySet method [Remote Desktop Services],ITsSbProvider interface, ITsSbProvider interface [Remote Desktop Services],CreatePluginPropertySet method, ITsSbProvider.CreatePluginPropertySet, ITsSbProvider::CreatePluginPropertySet, sbtsv/ITsSbProvider::CreatePluginPropertySet, termserv.itssbprovider_createpluginpropertyset
 ms.topic: method
-f1_keywords: 
- - "sbtsv/ITsSbProvider.CreatePluginPropertySet"
+f1_keywords:
+- sbtsv/ITsSbProvider.CreatePluginPropertySet
 dev_langs:
- - c++
+- c++
 req.header: sbtsv.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - sbtsv.h
+- sbtsv.h
 api_name:
- - ITsSbProvider.CreatePluginPropertySet
+- ITsSbProvider.CreatePluginPropertySet
 targetos: Windows
 req.typenames: 
 req.redist: 

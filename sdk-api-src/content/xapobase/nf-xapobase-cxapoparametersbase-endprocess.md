@@ -1,19 +1,17 @@
 ---
 UID: NF:xapobase.CXAPOParametersBase.EndProcess
 title: CXAPOParametersBase::EndProcess (xapobase.h)
-
 description: Notifies CXAPOParametersBase that the XAPO has finished accessing the current process parameters.
 old-location: xaudio2\cxapoparametersbase_endprocess.htm
 tech.root: xaudio2
 ms.assetid: M:Microsoft.directx_sdk.cxapoparameterbase.CXAPOParametersBase.EndProcess
-
 ms.date: 12/05/2018
 ms.keywords: CXAPOParametersBase interface [XAudio2 Audio Mixing APIs],EndProcess method, CXAPOParametersBase.EndProcess, CXAPOParametersBase::EndProcess, EndProcess, EndProcess method [XAudio2 Audio Mixing APIs], EndProcess method [XAudio2 Audio Mixing APIs],CXAPOParametersBase interface, xapobase/CXAPOParametersBase::EndProcess, xaudio2.cxapoparametersbase_endprocess
 ms.topic: method
-f1_keywords: 
- - "xapobase/CXAPOParametersBase.EndProcess"
+f1_keywords:
+- xapobase/CXAPOParametersBase.EndProcess
 dev_langs:
- - c++
+- c++
 req.header: xapobase.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: XAPOBase.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - XAPOBase.lib
- - XAPOBase.dll
+- XAPOBase.lib
+- XAPOBase.dll
 api_name:
- - CXAPOParametersBase.EndProcess
+- CXAPOParametersBase.EndProcess
 targetos: Windows
 req.typenames: 
 req.redist: 

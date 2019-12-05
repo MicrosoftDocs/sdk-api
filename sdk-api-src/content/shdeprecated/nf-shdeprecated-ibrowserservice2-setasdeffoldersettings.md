@@ -1,19 +1,17 @@
 ---
 UID: NF:shdeprecated.IBrowserService2.SetAsDefFolderSettings
 title: IBrowserService2::SetAsDefFolderSettings (shdeprecated.h)
-
 description: Deprecated. Sets the folder's current view mode as the default view mode for all folders. Used by the Folder Options dialog.
 old-location: shell\IBrowserService2_SetAsDefFolderSettings.htm
 tech.root: shell
 ms.assetid: b5bcbb41-7c43-4448-a612-fe2342c502a0
-
 ms.date: 12/05/2018
 ms.keywords: IBrowserService2 interface [Windows Shell],SetAsDefFolderSettings method, IBrowserService2.SetAsDefFolderSettings, IBrowserService2::SetAsDefFolderSettings, SetAsDefFolderSettings, SetAsDefFolderSettings method [Windows Shell], SetAsDefFolderSettings method [Windows Shell],IBrowserService2 interface, shdeprecated/IBrowserService2::SetAsDefFolderSettings, shell.IBrowserService2_SetAsDefFolderSettings, zone_IBrowserService2_SetAsDefFolderSettings
 ms.topic: method
-f1_keywords: 
- - "shdeprecated/IBrowserService2.SetAsDefFolderSettings"
+f1_keywords:
+- shdeprecated/IBrowserService2.SetAsDefFolderSettings
 dev_langs:
- - c++
+- c++
 req.header: shdeprecated.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shdeprecated.h
+- Shdeprecated.h
 api_name:
- - IBrowserService2.SetAsDefFolderSettings
+- IBrowserService2.SetAsDefFolderSettings
 targetos: Windows
 req.typenames: 
 req.redist: 

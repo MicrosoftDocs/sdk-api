@@ -1,19 +1,17 @@
 ---
 UID: NS:ipsectypes.IPSEC_TRAFFIC0_
 title: IPSEC_TRAFFIC0 (ipsectypes.h)
-
 description: Specifies parameters to describe IPsec traffic.
 old-location: fwp\ipsec_traffic0_struct.htm
 tech.root: fwp
 ms.assetid: 5be2da29-73d6-4381-8bde-3a3945ea7b5a
-
 ms.date: 12/05/2018
 ms.keywords: IPSEC_TRAFFIC0, IPSEC_TRAFFIC0 structure [Filtering], fwp.ipsec_traffic0_struct, ipsectypes/IPSEC_TRAFFIC0
 ms.topic: struct
-f1_keywords: 
- - "ipsectypes/IPSEC_TRAFFIC0"
+f1_keywords:
+- ipsectypes/IPSEC_TRAFFIC0
 dev_langs:
- - c++
+- c++
 req.header: ipsectypes.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Ipsectypes.h
+- Ipsectypes.h
 api_name:
- - IPSEC_TRAFFIC0
+- IPSEC_TRAFFIC0
 targetos: Windows
 req.typenames: IPSEC_TRAFFIC0
 req.redist: 

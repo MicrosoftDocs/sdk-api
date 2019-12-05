@@ -1,19 +1,17 @@
 ---
 UID: NF:expandedresources.HasExpandedResources
 title: HasExpandedResources function (expandedresources.h)
-
 description: Gets the current resource state (that is, whether the app is running in Game Mode or shared mode).
 old-location: gamemode\hasexpandedresources.htm
 tech.root: gamemode
 ms.assetid: E0434DBD-4C1A-4675-94A3-4954BCC67CD5
-
 ms.date: 12/05/2018
 ms.keywords: HasExpandedResources, HasExpandedResources function, expandedresources/HasExpandedResources, gamemode.hasexpandedresources
 ms.topic: function
-f1_keywords: 
- - "expandedresources/HasExpandedResources"
+f1_keywords:
+- expandedresources/HasExpandedResources
 dev_langs:
- - c++
+- c++
 req.header: expandedresources.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Windowsapp.lib
 req.dll: Gamemode.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - gamemode.dll
+- gamemode.dll
 api_name:
- - HasExpandedResources
+- HasExpandedResources
 targetos: Windows
 req.typenames: 
 req.redist: 

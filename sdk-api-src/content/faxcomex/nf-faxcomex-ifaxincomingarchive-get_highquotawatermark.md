@@ -1,19 +1,17 @@
 ---
 UID: NF:faxcomex.IFaxIncomingArchive.get_HighQuotaWaterMark
 title: IFaxIncomingArchive::get_HighQuotaWaterMark (faxcomex.h)
-
 description: The HighQuotaWaterMark property is a value that specifies the upper warning threshold for the size of the archive of inbound fax messages, in megabytes.
 old-location: fax\_mfax_faxincomingarchive_cpp_mfax_faxincomingarchive_highquotawatermark_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_0g2z.htm
-
 ms.date: 12/05/2018
 ms.keywords: HighQuotaWaterMark property [Fax Service], HighQuotaWaterMark property [Fax Service],IFaxIncomingArchive interface, IFaxIncomingArchive interface [Fax Service],HighQuotaWaterMark property, IFaxIncomingArchive.HighQuotaWaterMark, IFaxIncomingArchive.get_HighQuotaWaterMark, IFaxIncomingArchive.put_HighQuotaWaterMark, IFaxIncomingArchive::HighQuotaWaterMark, IFaxIncomingArchive::get_HighQuotaWaterMark, IFaxIncomingArchive::put_HighQuotaWaterMark, _mfax_faxincomingarchive.highquotawatermark, fax._mfax_faxincomingarchive_cpp_mfax_faxincomingarchive_highquotawatermark_cpp, fax._mfax_faxincomingarchive_highquotawatermark, faxcomex/IFaxIncomingArchive::HighQuotaWaterMark, faxcomex/IFaxIncomingArchive::get_HighQuotaWaterMark, faxcomex/IFaxIncomingArchive::put_HighQuotaWaterMark, get_HighQuotaWaterMark
 ms.topic: method
-f1_keywords: 
- - "faxcomex/IFaxIncomingArchive.HighQuotaWaterMark"
+f1_keywords:
+- faxcomex/IFaxIncomingArchive.HighQuotaWaterMark
 dev_langs:
- - c++
+- c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib:
 req.dll: Fxscomex.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Fxscomex.dll
+- Fxscomex.dll
 api_name:
- - IFaxIncomingArchive.HighQuotaWaterMark
- - IFaxIncomingArchive.get_HighQuotaWaterMark
- - IFaxIncomingArchive.put_HighQuotaWaterMark
- - IFaxIncomingArchive.get_HighQuotaWaterMark
- - IFaxIncomingArchive.put_HighQuotaWaterMark
+- IFaxIncomingArchive.HighQuotaWaterMark
+- IFaxIncomingArchive.get_HighQuotaWaterMark
+- IFaxIncomingArchive.put_HighQuotaWaterMark
+- IFaxIncomingArchive.get_HighQuotaWaterMark
+- IFaxIncomingArchive.put_HighQuotaWaterMark
 targetos: Windows
 req.typenames: 
 req.redist: 

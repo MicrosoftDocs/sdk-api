@@ -1,19 +1,17 @@
 ---
 UID: NF:bluetoothapis.BluetoothEnableDiscovery
 title: BluetoothEnableDiscovery function (bluetoothapis.h)
-
 description: The BluetoothEnableDiscovery function changes the discovery state of a local Bluetooth radio or radios.
 old-location: bluetooth\bluetoothenablediscovery.htm
 tech.root: bluetooth
 ms.assetid: ca28c9cd-a271-48fa-901c-e99e063854d5
-
 ms.date: 12/05/2018
 ms.keywords: BluetoothEnableDiscovery, BluetoothEnableDiscovery function [Bluetooth], bluetooth.bluetoothenablediscovery, bluetoothapis/BluetoothEnableDiscovery
 ms.topic: function
-f1_keywords: 
- - "bluetoothapis/BluetoothEnableDiscovery"
+f1_keywords:
+- bluetoothapis/BluetoothEnableDiscovery
 dev_langs:
- - c++
+- c++
 req.header: bluetoothapis.h
 req.include-header: Bthsdpdef.h, BluetoothAPIs.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Bthprops.lib
 req.dll: Bthprops.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Bthprops.dll
- - BluetoothAPIs.dll
- - Ext-MS-Win-Bluetooth-APIs-l1-1-0.dll
+- Bthprops.dll
+- BluetoothAPIs.dll
+- Ext-MS-Win-Bluetooth-APIs-l1-1-0.dll
 api_name:
- - BluetoothEnableDiscovery
+- BluetoothEnableDiscovery
 targetos: Windows
 req.typenames: 
 req.redist: 

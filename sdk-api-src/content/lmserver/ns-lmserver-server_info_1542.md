@@ -1,19 +1,17 @@
 ---
 UID: NS:lmserver._SERVER_INFO_1542
 title: SERVER_INFO_1542 (lmserver.h)
-
 description: The SERVER_INFO_1542 structure specifies the maximum number of free connection blocks the server sets aside to handle bursts of requests by clients to connect to the server.
 old-location: netmgmt\server_info_1542_str.htm
 tech.root: NetMgmt
 ms.assetid: 49c38acd-ed20-4ddc-a97a-9d77b8907378
-
 ms.date: 12/05/2018
-ms.keywords: "*LPSERVER_INFO_1542, *PSERVER_INFO_1542, LPSERVER_INFO_1542, LPSERVER_INFO_1542 structure pointer [Network Management], PSERVER_INFO_1542, PSERVER_INFO_1542 structure pointer [Network Management], SERVER_INFO_1542, SERVER_INFO_1542 structure [Network Management], _win32_server_info_1542_str, lmserver/LPSERVER_INFO_1542, lmserver/PSERVER_INFO_1542, lmserver/SERVER_INFO_1542, netmgmt.server_info_1542_str"
+ms.keywords: '*LPSERVER_INFO_1542, *PSERVER_INFO_1542, LPSERVER_INFO_1542, LPSERVER_INFO_1542 structure pointer [Network Management], PSERVER_INFO_1542, PSERVER_INFO_1542 structure pointer [Network Management], SERVER_INFO_1542, SERVER_INFO_1542 structure [Network Management], _win32_server_info_1542_str, lmserver/LPSERVER_INFO_1542, lmserver/PSERVER_INFO_1542, lmserver/SERVER_INFO_1542, netmgmt.server_info_1542_str'
 ms.topic: struct
-f1_keywords: 
- - "lmserver/SERVER_INFO_1542"
+f1_keywords:
+- lmserver/SERVER_INFO_1542
 dev_langs:
- - c++
+- c++
 req.header: lmserver.h
 req.include-header: Lm.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Lmserver.h
+- Lmserver.h
 api_name:
- - SERVER_INFO_1542
+- SERVER_INFO_1542
 targetos: Windows
 req.typenames: SERVER_INFO_1542, *PSERVER_INFO_1542, *LPSERVER_INFO_1542
 req.redist: 

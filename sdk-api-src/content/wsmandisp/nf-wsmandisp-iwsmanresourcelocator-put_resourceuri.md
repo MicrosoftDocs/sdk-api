@@ -1,19 +1,17 @@
 ---
 UID: NF:wsmandisp.IWSManResourceLocator.put_ResourceURI
 title: IWSManResourceLocator::put_ResourceURI (wsmandisp.h)
-
 description: The resource URI of the requested resource. This property can contain only the path, not a query string for specific instances.
 old-location: winrm\iwsmanresourcelocator_resourceuri.htm
 tech.root: winrm
 ms.assetid: 8ae490a3-ae6d-46e4-9a51-5a1e9c80cf77
-
 ms.date: 12/05/2018
 ms.keywords: IWSManResourceLocator interface [Windows Remote Management],ResourceURI property, IWSManResourceLocator.ResourceURI, IWSManResourceLocator.put_ResourceURI, IWSManResourceLocator::ResourceURI, IWSManResourceLocator::get_ResourceURI, IWSManResourceLocator::put_ResourceURI, ResourceURI property [Windows Remote Management], ResourceURI property [Windows Remote Management],IWSManResourceLocator interface, ResourceURI property [Windows Remote Management],WSMan object, WSMan object [Windows Remote Management],ResourceURI property, put_ResourceURI, winrm.iwsmanresourcelocator_resourceuri, wsmandisp/IWSManResourceLocator::ResourceURI, wsmandisp/IWSManResourceLocator::get_ResourceURI, wsmandisp/IWSManResourceLocator::put_ResourceURI
 ms.topic: method
-f1_keywords: 
- - "wsmandisp/IWSManResourceLocator.ResourceURI"
+f1_keywords:
+- wsmandisp/IWSManResourceLocator.ResourceURI
 dev_langs:
- - c++
+- c++
 req.header: wsmandisp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: WSManDisp.tlb
 req.dll: WSMAuto.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - WSMAuto.dll
+- WSMAuto.dll
 api_name:
- - IWSManResourceLocator.ResourceURI
- - IWSManResourceLocator.get_ResourceURI
- - IWSManResourceLocator.put_ResourceURI
- - WSMan.ResourceURI
+- IWSManResourceLocator.ResourceURI
+- IWSManResourceLocator.get_ResourceURI
+- IWSManResourceLocator.put_ResourceURI
+- WSMan.ResourceURI
 targetos: Windows
 req.typenames: 
 req.redist: 

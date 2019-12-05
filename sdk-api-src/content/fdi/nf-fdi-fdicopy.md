@@ -1,19 +1,17 @@
 ---
 UID: NF:fdi.FDICopy
 title: FDICopy function (fdi.h)
-
 description: The FDICopy function extracts files from cabinets.
 old-location: winprog\fdicopy.htm
 tech.root: DevNotes
 ms.assetid: 6ec2b10b-f70a-4a22-beff-df6b6a4c4cfd
-
 ms.date: 12/05/2018
 ms.keywords: FDICopy, FDICopy function [Windows API], fdi/FDICopy, winprog.fdicopy
 ms.topic: function
-f1_keywords: 
- - "fdi/FDICopy"
+f1_keywords:
+- fdi/FDICopy
 dev_langs:
- - c++
+- c++
 req.header: fdi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Cabinet.lib
 req.dll: Cabinet.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Cabinet.dll
+- Cabinet.dll
 api_name:
- - FDICopy
+- FDICopy
 targetos: Windows
 req.typenames: 
 req.redist: 

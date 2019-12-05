@@ -1,19 +1,17 @@
 ---
 UID: NF:segment.IMSVidDevice.get_ClassID
 title: IMSVidDevice::get_ClassID (segment.h)
-
 description: The get_ClassID method retrieves the device's class identifier (CLSID) as a BSTR.
 old-location: mstv\imsviddevice_get_classid.htm
 tech.root: mstv
 ms.assetid: 78910e3d-bd00-48c5-b1be-504dc92280a0
-
 ms.date: 12/05/2018
 ms.keywords: IMSVidDevice interface [Microsoft TV Technologies],get_ClassID method, IMSVidDevice.get_ClassID, IMSVidDevice::get_ClassID, IMSVidDeviceget_ClassID, get_ClassID, get_ClassID method [Microsoft TV Technologies], get_ClassID method [Microsoft TV Technologies],IMSVidDevice interface, mstv.imsviddevice_get_classid, segment/IMSVidDevice::get_ClassID
 ms.topic: method
-f1_keywords: 
- - "segment/IMSVidDevice.get_ClassID"
+f1_keywords:
+- segment/IMSVidDevice.get_ClassID
 dev_langs:
- - c++
+- c++
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - segment.h
+- segment.h
 api_name:
- - IMSVidDevice.get_ClassID
+- IMSVidDevice.get_ClassID
 targetos: Windows
 req.typenames: 
 req.redist: 

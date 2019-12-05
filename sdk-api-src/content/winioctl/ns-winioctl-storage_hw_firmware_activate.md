@@ -1,19 +1,17 @@
 ---
 UID: NS:winioctl._STORAGE_HW_FIRMWARE_ACTIVATE
 title: STORAGE_HW_FIRMWARE_ACTIVATE
-
 description: This structure contains information about the downloaded firmware to activate.
 old-location: fs\storage_hw_firmware_activate.htm
 tech.root: FileIO
 ms.assetid: 2DAAC1FE-2503-4820-9718-9A653B0A05CA
-
 ms.date: 12/05/2018
 ms.keywords: '*PSTORAGE_HW_FIRMWARE_ACTIVATE, PSTORAGE_HW_FIRMWARE_ACTIVATE, PSTORAGE_HW_FIRMWARE_ACTIVATE structure pointer [Files], STORAGE_HW_FIRMWARE_ACTIVATE, STORAGE_HW_FIRMWARE_ACTIVATE structure [Files], fs.storage_hw_firmware_activate, winioctl/PSTORAGE_HW_FIRMWARE_ACTIVATE, winioctl/STORAGE_HW_FIRMWARE_ACTIVATE'
 ms.topic: struct
 f1_keywords:
 - winioctl/STORAGE_HW_FIRMWARE_ACTIVATE
 dev_langs:
- - c++
+- c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

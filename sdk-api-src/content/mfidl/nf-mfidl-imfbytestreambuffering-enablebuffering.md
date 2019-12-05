@@ -1,19 +1,17 @@
 ---
 UID: NF:mfidl.IMFByteStreamBuffering.EnableBuffering
 title: IMFByteStreamBuffering::EnableBuffering (mfidl.h)
-
 description: Enables or disables buffering.
 old-location: mf\imfbytestreambuffering_enablebuffering.htm
 tech.root: medfound
 ms.assetid: 5f7418ff-32e5-49b3-b7b3-6686e6562d51
-
 ms.date: 12/05/2018
 ms.keywords: 5f7418ff-32e5-49b3-b7b3-6686e6562d51, EnableBuffering, EnableBuffering method [Media Foundation], EnableBuffering method [Media Foundation],IMFByteStreamBuffering interface, IMFByteStreamBuffering interface [Media Foundation],EnableBuffering method, IMFByteStreamBuffering.EnableBuffering, IMFByteStreamBuffering::EnableBuffering, mf.imfbytestreambuffering_enablebuffering, mfidl/IMFByteStreamBuffering::EnableBuffering
 ms.topic: method
-f1_keywords: 
- - "mfidl/IMFByteStreamBuffering.EnableBuffering"
+f1_keywords:
+- mfidl/IMFByteStreamBuffering.EnableBuffering
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFByteStreamBuffering.EnableBuffering
+- IMFByteStreamBuffering.EnableBuffering
 targetos: Windows
 req.typenames: 
 req.redist: 

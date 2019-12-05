@@ -1,19 +1,17 @@
 ---
 UID: NF:oleacc.IAccessible.get_accFocus
 title: IAccessible::get_accFocus (oleacc.h)
-
 description: The IAccessible::get_accFocus method retrieves the object that has the keyboard focus. All objects that may receive the keyboard focus must support this property.
 old-location: winauto\iaccessible_iaccessible__get_accfocus.htm
 tech.root: WinAuto
 ms.assetid: 42114c5d-8f28-458a-8d22-ac1531cd50d2
-
 ms.date: 12/05/2018
 ms.keywords: IAccessible interface [Windows Accessibility],get_accFocus method, IAccessible.get_accFocus, IAccessible::get_accFocus, VT_DISPATCH, VT_EMPTY, VT_I4, _msaa_IAccessible_get_accFocus, get_accFocus, get_accFocus method [Windows Accessibility], get_accFocus method [Windows Accessibility],IAccessible interface, msaa.iaccessible_iaccessible__get_accfocus, oleacc/IAccessible::get_accFocus, winauto.iaccessible_iaccessible__get_accfocus
 ms.topic: method
-f1_keywords: 
- - "oleacc/IAccessible.get_accFocus"
+f1_keywords:
+- oleacc/IAccessible.get_accFocus
 dev_langs:
- - c++
+- c++
 req.header: oleacc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Oleacc.lib
 req.dll: Oleacc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Oleacc.dll
+- Oleacc.dll
 api_name:
- - IAccessible.get_accFocus
+- IAccessible.get_accFocus
 targetos: Windows
 req.typenames: 
 req.redist: Active Accessibility 1.3 RDK on Windows NT 4.0 with SP6 and later and Windows 95

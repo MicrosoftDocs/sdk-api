@@ -1,19 +1,17 @@
 ---
 UID: NF:xpsobjectmodel_1.IXpsOMObjectFactory1.CreatePackageWriterOnFile1
 title: IXpsOMObjectFactory1::CreatePackageWriterOnFile1 (xpsobjectmodel_1.h)
-
 description: Opens a file for writing the contents of an XPS OM to an XPS package of a specified type. This method produces a package writer for either an MSXPS document or an OpenXPS document.
 old-location: xps\ixpsomobjectfactory1_createpackagewriteronfile1.htm
 tech.root: printdocs
 ms.assetid: 6ad569a1-8b7a-473c-8bce-ad1fd843ec29
-
 ms.date: 12/05/2018
 ms.keywords: CreatePackageWriterOnFile1, CreatePackageWriterOnFile1 method [XPS Documents and Packaging], CreatePackageWriterOnFile1 method [XPS Documents and Packaging],IXpsOMObjectFactory1 interface, FALSE, IXpsOMObjectFactory1 interface [XPS Documents and Packaging],CreatePackageWriterOnFile1 method, IXpsOMObjectFactory1.CreatePackageWriterOnFile1, IXpsOMObjectFactory1::CreatePackageWriterOnFile1, TRUE, xps.ixpsomobjectfactory1_createpackagewriteronfile1, xpsobjectmodel_1/IXpsOMObjectFactory1::CreatePackageWriterOnFile1
 ms.topic: method
-f1_keywords: 
- - "xpsobjectmodel_1/IXpsOMObjectFactory1.CreatePackageWriterOnFile1"
+f1_keywords:
+- xpsobjectmodel_1/IXpsOMObjectFactory1.CreatePackageWriterOnFile1
 dev_langs:
- - c++
+- c++
 req.header: xpsobjectmodel_1.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: None
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - none
- - none.dll
+- none
+- none.dll
 api_name:
- - IXpsOMObjectFactory1.CreatePackageWriterOnFile1
+- IXpsOMObjectFactory1.CreatePackageWriterOnFile1
 targetos: Windows
 req.typenames: 
 req.redist: 

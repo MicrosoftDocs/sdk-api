@@ -1,19 +1,17 @@
 ---
 UID: NF:fwpmu.FwpmNetEventSubscribe0
 title: FwpmNetEventSubscribe0 function (fwpmu.h)
-
 description: Is used to request the delivery of notifications regarding a particular net event.
 old-location: fwp\fwpmneteventsubscribe0.htm
 tech.root: fwp
 ms.assetid: a2671600-c231-46c8-966d-f444fbdfa944
-
 ms.date: 12/05/2018
 ms.keywords: FwpmNetEventSubscribe0, FwpmNetEventSubscribe0 function [Filtering], fwp.fwpmneteventsubscribe0, fwpmu/FwpmNetEventSubscribe0
 ms.topic: function
-f1_keywords: 
- - "fwpmu/FwpmNetEventSubscribe0"
+f1_keywords:
+- fwpmu/FwpmNetEventSubscribe0
 dev_langs:
- - c++
+- c++
 req.header: fwpmu.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Fwpuclnt.lib
 req.dll: Fwpuclnt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Fwpuclnt.dll
+- Fwpuclnt.dll
 api_name:
- - FwpmNetEventSubscribe0
+- FwpmNetEventSubscribe0
 targetos: Windows
 req.typenames: 
 req.redist: 

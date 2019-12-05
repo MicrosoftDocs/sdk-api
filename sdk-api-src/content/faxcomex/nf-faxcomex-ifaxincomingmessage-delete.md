@@ -1,19 +1,17 @@
 ---
 UID: NF:faxcomex.IFaxIncomingMessage.Delete
 title: IFaxIncomingMessage::Delete (faxcomex.h)
-
 description: The Delete method deletes the specified fax message from the inbound fax archive.
 old-location: fax\_mfax_faxincomingmessage_cpp_mfax_faxincomingmessage_delete_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_025h.htm
-
 ms.date: 12/05/2018
 ms.keywords: Delete, Delete method [Fax Service], Delete method [Fax Service],IFaxIncomingMessage interface, IFaxIncomingMessage interface [Fax Service],Delete method, IFaxIncomingMessage.Delete, IFaxIncomingMessage::Delete, _mfax_faxincomingmessage.delete, fax._mfax_faxincomingmessage_cpp_mfax_faxincomingmessage_delete_cpp, fax._mfax_faxincomingmessage_delete, faxcomex/IFaxIncomingMessage::Delete
 ms.topic: method
-f1_keywords: 
- - "faxcomex/IFaxIncomingMessage.Delete"
+f1_keywords:
+- faxcomex/IFaxIncomingMessage.Delete
 dev_langs:
- - c++
+- c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: Fxscomex.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Fxscomex.dll
+- Fxscomex.dll
 api_name:
- - IFaxIncomingMessage.Delete
- - IFaxIncomingMessage.Delete
+- IFaxIncomingMessage.Delete
+- IFaxIncomingMessage.Delete
 targetos: Windows
 req.typenames: 
 req.redist: 

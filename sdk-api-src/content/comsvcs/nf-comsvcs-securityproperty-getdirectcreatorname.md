@@ -1,19 +1,17 @@
 ---
 UID: NF:comsvcs.SecurityProperty.GetDirectCreatorName
 title: SecurityProperty::GetDirectCreatorName (comsvcs.h)
-
 description: Retrieves the user name associated with the current object's immediate (out-of-process) creator.
 old-location: cos\securityproperty_getdirectcreatorname.htm
 tech.root: cossdk
 ms.assetid: 26619719-bcca-4776-9580-edc541e6b821
-
 ms.date: 12/05/2018
 ms.keywords: GetDirectCreatorName, GetDirectCreatorName method [COM+], GetDirectCreatorName method [COM+],SecurityProperty interface, SecurityProperty interface [COM+],GetDirectCreatorName method, SecurityProperty.GetDirectCreatorName, SecurityProperty::GetDirectCreatorName, _cos_SecurityProperty_GetDirectCreatorName, comsvcs/SecurityProperty::GetDirectCreatorName, cos.securityproperty_getdirectcreatorname
 ms.topic: method
-f1_keywords: 
- - "comsvcs/SecurityProperty.GetDirectCreatorName"
+f1_keywords:
+- comsvcs/SecurityProperty.GetDirectCreatorName
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - SecurityProperty.GetDirectCreatorName
+- SecurityProperty.GetDirectCreatorName
 targetos: Windows
 req.typenames: 
 req.redist: 

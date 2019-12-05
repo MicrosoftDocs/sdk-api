@@ -1,19 +1,17 @@
 ---
 UID: NF:uxtheme.EndPanningFeedback
 title: EndPanningFeedback function (uxtheme.h)
-
 description: Terminates any existing animation that was in process or set up by BeginPanningFeedback and UpdatePanningFeedback.
 old-location: controls\EndPanningFeedback.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\userex\functions\endpanningfeedback.htm
-
 ms.date: 12/05/2018
 ms.keywords: EndPanningFeedback, EndPanningFeedback function [Windows Controls], _controls_EndPanningFeedback, _controls_EndPanningFeedback_cpp, controls.EndPanningFeedback, controls._controls_EndPanningFeedback, uxtheme/EndPanningFeedback
 ms.topic: function
-f1_keywords: 
- - "uxtheme/EndPanningFeedback"
+f1_keywords:
+- uxtheme/EndPanningFeedback
 dev_langs:
- - c++
+- c++
 req.header: uxtheme.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: UxTheme.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - UxTheme.dll
+- UxTheme.dll
 api_name:
- - EndPanningFeedback
+- EndPanningFeedback
 targetos: Windows
 req.typenames: 
 req.redist: 

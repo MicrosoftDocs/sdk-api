@@ -1,19 +1,17 @@
 ---
 UID: NN:uiautomationcore.IAnnotationProvider
 title: IAnnotationProvider (uiautomationcore.h)
-
 description: Exposes the properties of an annotation in a document.
 old-location: winauto\uiauto_IAnnotationProvider.htm
 tech.root: WinAuto
 ms.assetid: EDD711F1-9D1B-4B6B-8052-E9258759F46E
-
 ms.date: 12/05/2018
 ms.keywords: IAnnotationProvider, IAnnotationProvider interface [Windows Accessibility], IAnnotationProvider interface [Windows Accessibility],described, uiautomationcore/IAnnotationProvider, winauto.uiauto_IAnnotationProvider
 ms.topic: interface
-f1_keywords: 
- - "uiautomationcore/IAnnotationProvider"
+f1_keywords:
+- uiautomationcore/IAnnotationProvider
 dev_langs:
- - c++
+- c++
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: UIAutomationCore.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationCore.dll
+- UIAutomationCore.dll
 api_name:
- - IAnnotationProvider
+- IAnnotationProvider
 targetos: Windows
 req.typenames: 
 req.redist: 

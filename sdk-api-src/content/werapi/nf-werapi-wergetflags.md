@@ -1,19 +1,17 @@
 ---
 UID: NF:werapi.WerGetFlags
 title: WerGetFlags function (werapi.h)
-
 description: Retrieves the fault reporting settings for the specified process.
 old-location: wer\wergetflags.htm
 tech.root: wer
 ms.assetid: 8c5f08c0-e2d1-448c-9a57-ef19897f64c6
-
 ms.date: 12/05/2018
 ms.keywords: WER_FAULT_REPORTING_ALWAYS_SHOW_UI, WER_FAULT_REPORTING_FLAG_DISABLE_THREAD_SUSPENSION, WER_FAULT_REPORTING_FLAG_NOHEAP, WER_FAULT_REPORTING_FLAG_QUEUE, WER_FAULT_REPORTING_FLAG_QUEUE_UPLOAD, WerGetFlags, WerGetFlags function [Windows Error Reporting], base.wergetflags, wer.wergetflags, werapi/WerGetFlags
 ms.topic: function
-f1_keywords: 
- - "werapi/WerGetFlags"
+f1_keywords:
+- werapi/WerGetFlags
 dev_langs:
- - c++
+- c++
 req.header: werapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-Windowserrorreporting-l1-1-0.dll
- - KernelBase.dll
+- Kernel32.dll
+- API-MS-Win-Core-Windowserrorreporting-l1-1-0.dll
+- KernelBase.dll
 api_name:
- - WerGetFlags
+- WerGetFlags
 targetos: Windows
 req.typenames: 
 req.redist: 

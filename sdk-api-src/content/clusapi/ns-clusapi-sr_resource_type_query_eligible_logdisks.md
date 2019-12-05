@@ -1,19 +1,17 @@
 ---
 UID: NS:clusapi._SR_RESOURCE_TYPE_QUERY_ELIGIBLE_LOGDISKS
 title: SR_RESOURCE_TYPE_QUERY_ELIGIBLE_LOGDISKS (clusapi.h)
-
 description: Describes a set of retrieved disks that can be used as log disks for the specified data disk.
 old-location: mscs\sr_resource_type_query_eligible_logdisks.htm
 tech.root: MsCS
 ms.assetid: AF4EBA1C-8DAB-46F4-A092-F196F02480EB
-
 ms.date: 12/05/2018
-ms.keywords: "*PSR_RESOURCE_TYPE_QUERY_ELIGIBLE_LOGDISKS, PSR_RESOURCE_TYPE_QUERY_ELIGIBLE_LOGDISKS, PSR_RESOURCE_TYPE_QUERY_ELIGIBLE_LOGDISKS structure pointer [Failover Cluster], SR_RESOURCE_TYPE_QUERY_ELIGIBLE_LOGDISKS, SR_RESOURCE_TYPE_QUERY_ELIGIBLE_LOGDISKS structure [Failover Cluster], clusapi/PSR_RESOURCE_TYPE_QUERY_ELIGIBLE_LOGDISKS, clusapi/SR_RESOURCE_TYPE_QUERY_ELIGIBLE_LOGDISKS, mscs.sr_resource_type_query_eligible_logdisks"
+ms.keywords: '*PSR_RESOURCE_TYPE_QUERY_ELIGIBLE_LOGDISKS, PSR_RESOURCE_TYPE_QUERY_ELIGIBLE_LOGDISKS, PSR_RESOURCE_TYPE_QUERY_ELIGIBLE_LOGDISKS structure pointer [Failover Cluster], SR_RESOURCE_TYPE_QUERY_ELIGIBLE_LOGDISKS, SR_RESOURCE_TYPE_QUERY_ELIGIBLE_LOGDISKS structure [Failover Cluster], clusapi/PSR_RESOURCE_TYPE_QUERY_ELIGIBLE_LOGDISKS, clusapi/SR_RESOURCE_TYPE_QUERY_ELIGIBLE_LOGDISKS, mscs.sr_resource_type_query_eligible_logdisks'
 ms.topic: struct
-f1_keywords: 
- - "clusapi/SR_RESOURCE_TYPE_QUERY_ELIGIBLE_LOGDISKS"
+f1_keywords:
+- clusapi/SR_RESOURCE_TYPE_QUERY_ELIGIBLE_LOGDISKS
 dev_langs:
- - c++
+- c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - ClusAPI.h
+- ClusAPI.h
 api_name:
- - SR_RESOURCE_TYPE_QUERY_ELIGIBLE_LOGDISKS
+- SR_RESOURCE_TYPE_QUERY_ELIGIBLE_LOGDISKS
 targetos: Windows
 req.typenames: SR_RESOURCE_TYPE_QUERY_ELIGIBLE_LOGDISKS, *PSR_RESOURCE_TYPE_QUERY_ELIGIBLE_LOGDISKS
 req.redist: 

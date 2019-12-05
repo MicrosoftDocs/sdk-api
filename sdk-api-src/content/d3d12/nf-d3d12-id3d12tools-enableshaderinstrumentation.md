@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d12.ID3D12Tools.EnableShaderInstrumentation
 title: ID3D12Tools::EnableShaderInstrumentation (d3d12.h)
-
 description: This method enables tools such as PIX to instrument shaders.
 old-location: direct3d12\id3d12tools_enableshaderinstrumentation.htm
 tech.root: direct3d12
 ms.assetid: 35920253-1153-42AD-AEAC-2C646FF15879
-
 ms.date: 12/05/2018
 ms.keywords: EnableShaderInstrumentation, EnableShaderInstrumentation method, EnableShaderInstrumentation method,ID3D12Tools interface, ID3D12Tools interface,EnableShaderInstrumentation method, ID3D12Tools.EnableShaderInstrumentation, ID3D12Tools::EnableShaderInstrumentation, d3d12/ID3D12Tools::EnableShaderInstrumentation, direct3d12.id3d12tools_enableshaderinstrumentation
 ms.topic: method
-f1_keywords: 
- - "d3d12/ID3D12Tools.EnableShaderInstrumentation"
+f1_keywords:
+- d3d12/ID3D12Tools.EnableShaderInstrumentation
 dev_langs:
- - c++
+- c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: D3D12.lib
 req.dll: D3D12.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D12.dll
+- D3D12.dll
 api_name:
- - ID3D12Tools.EnableShaderInstrumentation
+- ID3D12Tools.EnableShaderInstrumentation
 targetos: Windows
 req.typenames: 
 req.redist: 

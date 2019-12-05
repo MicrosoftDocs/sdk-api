@@ -1,19 +1,17 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMDashCollection.Append
 title: IXpsOMDashCollection::Append (xpsobjectmodel.h)
-
 description: Appends an XPS_DASH structure to the end of the collection.
 old-location: xps\ixpsomdashcollection_append.htm
 tech.root: printdocs
 ms.assetid: e8d2baf5-e36e-4363-bde6-1731c97e702f
-
 ms.date: 12/05/2018
 ms.keywords: Append, Append method [XPS Documents and Packaging], Append method [XPS Documents and Packaging],IXpsOMDashCollection interface, IXpsOMDashCollection interface [XPS Documents and Packaging],Append method, IXpsOMDashCollection.Append, IXpsOMDashCollection::Append, xps.ixpsomdashcollection_append, xpsobjectmodel/IXpsOMDashCollection::Append
 ms.topic: method
-f1_keywords: 
- - "xpsobjectmodel/IXpsOMDashCollection.Append"
+f1_keywords:
+- xpsobjectmodel/IXpsOMDashCollection.Append
 dev_langs:
- - c++
+- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsobjectmodel.h
+- xpsobjectmodel.h
 api_name:
- - IXpsOMDashCollection.Append
+- IXpsOMDashCollection.Append
 targetos: Windows
 req.typenames: 
 req.redist: 

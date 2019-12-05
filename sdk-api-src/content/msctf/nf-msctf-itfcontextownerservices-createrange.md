@@ -1,19 +1,17 @@
 ---
 UID: NF:msctf.ITfContextOwnerServices.CreateRange
 title: ITfContextOwnerServices::CreateRange (msctf.h)
-
 description: The ITfContextOwnerServices::CreateRange method creates a new ranged based upon a specified character position.
 old-location: tsf\itfcontextownerservices_createrange.htm
 tech.root: TSF
 ms.assetid: 60214fdb-212c-4967-8cbf-e988db893245
-
 ms.date: 12/05/2018
 ms.keywords: CreateRange, CreateRange method [Text Services Framework], CreateRange method [Text Services Framework],ITfContextOwnerServices interface, ITfContextOwnerServices interface [Text Services Framework],CreateRange method, ITfContextOwnerServices.CreateRange, ITfContextOwnerServices::CreateRange, _tsf_itfcontextownerservices_createrange_ref, msctf/ITfContextOwnerServices::CreateRange, tsf.itfcontextownerservices_createrange
 ms.topic: method
-f1_keywords: 
- - "msctf/ITfContextOwnerServices.CreateRange"
+f1_keywords:
+- msctf/ITfContextOwnerServices.CreateRange
 dev_langs:
- - c++
+- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msctf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msctf.dll
+- msctf.dll
 api_name:
- - ITfContextOwnerServices.CreateRange
+- ITfContextOwnerServices.CreateRange
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

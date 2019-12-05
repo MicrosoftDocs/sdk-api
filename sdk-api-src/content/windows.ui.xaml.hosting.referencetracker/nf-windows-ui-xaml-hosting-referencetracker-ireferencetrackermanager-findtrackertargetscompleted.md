@@ -1,19 +1,17 @@
 ---
 UID: NF:windows.ui.xaml.hosting.referencetracker.IReferenceTrackerManager.FindTrackerTargetsCompleted
 title: IReferenceTrackerManager::xaml (windows.ui.xaml.hosting.referencetracker.h)
-
 description: Indicates that a garbage collection system has finished making all the calls it needs to IReferenceTracker::FindTrackerTargets; by this time, XAML has pegged all reference tracker targets that it wants to protect.
 old-location: winrt\ireferencetrackermanager_findtrackertargetscompleted.htm
 tech.root: WinRT
 ms.assetid: 16e6f9ac-0466-4ada-ad72-278b3dba6a26
-
 ms.date: 12/05/2018
 ms.keywords: FindTrackerTargetsCompleted, FindTrackerTargetsCompleted method [Windows Runtime], FindTrackerTargetsCompleted method [Windows Runtime],IReferenceTrackerManager interface, IReferenceTrackerManager interface [Windows Runtime],FindTrackerTargetsCompleted method, IReferenceTrackerManager.FindTrackerTargetsCompleted, IReferenceTrackerManager.xaml, IReferenceTrackerManager::FindTrackerTargetsCompleted, IReferenceTrackerManager::xaml, windows/IReferenceTrackerManager::FindTrackerTargetsCompleted, winrt.ireferencetrackermanager_findtrackertargetscompleted
 ms.topic: method
-f1_keywords: 
- - "windows.ui.xaml.hosting.referencetracker/IReferenceTrackerManager.FindTrackerTargetsCompleted"
+f1_keywords:
+- windows.ui.xaml.hosting.referencetracker/IReferenceTrackerManager.FindTrackerTargetsCompleted
 dev_langs:
- - c++
+- c++
 req.header: windows.ui.xaml.hosting.referencetracker.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Windows.ui.xaml.hosting.referencetracker.h
+- Windows.ui.xaml.hosting.referencetracker.h
 api_name:
- - IReferenceTrackerManager.FindTrackerTargetsCompleted
+- IReferenceTrackerManager.FindTrackerTargetsCompleted
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NS:winsock2.hostent
 title: HOSTENT (winsock2.h)
-
 description: The hostent structure is used by functions to store information about a given host, such as host name, IPv4 address, and so forth.
 old-location: winsock\hostent_2.htm
 tech.root: WinSock
 ms.assetid: f194b9d5-dfaf-4a02-95c6-6d06015aad1d
-
 ms.date: 12/05/2018
-ms.keywords: "*LPHOSTENT, *PHOSTENT, FAR *LPHOSTENT, FAR *LPHOSTENT structure [Winsock], HOSTENT, HOSTENT structure [Winsock], PHOSTENT, PHOSTENT structure pointer [Winsock], _win32_hostent_2, hostent, hostent structure [Winsock], winsock.hostent_2, winsock/FAR *LPHOSTENT, winsock/PHOSTENT, winsock/hostent"
+ms.keywords: '*LPHOSTENT, *PHOSTENT, FAR *LPHOSTENT, FAR *LPHOSTENT structure [Winsock], HOSTENT, HOSTENT structure [Winsock], PHOSTENT, PHOSTENT structure pointer [Winsock], _win32_hostent_2, hostent, hostent structure [Winsock], winsock.hostent_2, winsock/FAR *LPHOSTENT, winsock/PHOSTENT, winsock/hostent'
 ms.topic: struct
-f1_keywords: 
- - "winsock2/HOSTENT"
+f1_keywords:
+- winsock2/HOSTENT
 dev_langs:
- - c++
+- c++
 req.header: winsock2.h
 req.include-header: Winsock2.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - winsock.h
+- winsock.h
 api_name:
- - HOSTENT
+- HOSTENT
 targetos: Windows
 req.typenames: HOSTENT, *PHOSTENT, *LPHOSTENT
 req.redist: 

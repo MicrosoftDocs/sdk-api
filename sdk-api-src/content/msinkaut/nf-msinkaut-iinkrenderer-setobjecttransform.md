@@ -1,19 +1,17 @@
 ---
 UID: NF:msinkaut.IInkRenderer.SetObjectTransform
 title: IInkRenderer::SetObjectTransform (msinkaut.h)
-
 description: Sets the InkTransform object that represents the object transform that is used to render ink.
 old-location: tablet\inkrenderer_setobjecttransform.htm
 tech.root: tablet
 ms.assetid: 8d0cbc97-d9a2-4b6c-8e92-55237cef6523
-
 ms.date: 12/05/2018
 ms.keywords: 8d0cbc97-d9a2-4b6c-8e92-55237cef6523, IInkRenderer interface [Tablet PC],SetObjectTransform method, IInkRenderer.SetObjectTransform, IInkRenderer::SetObjectTransform, SetObjectTransform, SetObjectTransform method [Tablet PC], SetObjectTransform method [Tablet PC],IInkRenderer interface, msinkaut/IInkRenderer::SetObjectTransform, tablet.inkrenderer_setobjecttransform
 ms.topic: method
-f1_keywords: 
- - "msinkaut/IInkRenderer.SetObjectTransform"
+f1_keywords:
+- msinkaut/IInkRenderer.SetObjectTransform
 dev_langs:
- - c++
+- c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: InkObj.dll
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - InkObj.dll
- - InkObj.dll.dll
+- InkObj.dll
+- InkObj.dll.dll
 api_name:
- - IInkRenderer.SetObjectTransform
+- IInkRenderer.SetObjectTransform
 targetos: Windows
 req.typenames: 
 req.redist: 

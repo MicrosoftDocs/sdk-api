@@ -1,19 +1,17 @@
 ---
 UID: NF:mfplay.IMFPMediaPlayer.Stop
 title: IMFPMediaPlayer::Stop (mfplay.h)
-
 description: Stops playback.
 old-location: mf\imfpmediaplayer_stop.htm
 tech.root: medfound
 ms.assetid: 1cfa41c7-209e-4c18-a204-563ede29c7c6
-
 ms.date: 12/05/2018
 ms.keywords: IMFPMediaPlayer interface [Media Foundation],Stop method, IMFPMediaPlayer.Stop, IMFPMediaPlayer::Stop, Stop, Stop method [Media Foundation], Stop method [Media Foundation],IMFPMediaPlayer interface, mf.imfpmediaplayer_stop, mfplay/IMFPMediaPlayer::Stop
 ms.topic: method
-f1_keywords: 
- - "mfplay/IMFPMediaPlayer.Stop"
+f1_keywords:
+- mfplay/IMFPMediaPlayer.Stop
 dev_langs:
- - c++
+- c++
 req.header: mfplay.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfplay.h
+- mfplay.h
 api_name:
- - IMFPMediaPlayer.Stop
+- IMFPMediaPlayer.Stop
 targetos: Windows
 req.typenames: 
 req.redist: 

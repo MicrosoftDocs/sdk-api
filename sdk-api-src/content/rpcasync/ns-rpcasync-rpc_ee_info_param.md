@@ -1,19 +1,17 @@
 ---
 UID: NS:rpcasync.tagRPC_EE_INFO_PARAM
 title: RPC_EE_INFO_PARAM (rpcasync.h)
-
 description: The RPC_EE_INFO_PARAM structure is used to store extended error information.
 old-location: rpc\rpc_ee_info_param.htm
 tech.root: Rpc
 ms.assetid: a201f8f3-6e74-4550-9738-d5415340994b
-
 ms.date: 12/05/2018
 ms.keywords: RPC_EE_INFO_PARAM, RPC_EE_INFO_PARAM structure [RPC], _rpc_rpc_ee_info_param, rpc.rpc_ee_info_param, rpcasync/RPC_EE_INFO_PARAM
 ms.topic: struct
-f1_keywords: 
- - "rpcasync/RPC_EE_INFO_PARAM"
+f1_keywords:
+- rpcasync/RPC_EE_INFO_PARAM
 dev_langs:
- - c++
+- c++
 req.header: rpcasync.h
 req.include-header: Rpc.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Rpcasync.h
+- Rpcasync.h
 api_name:
- - RPC_EE_INFO_PARAM
+- RPC_EE_INFO_PARAM
 targetos: Windows
 req.typenames: RPC_EE_INFO_PARAM
 req.redist: 

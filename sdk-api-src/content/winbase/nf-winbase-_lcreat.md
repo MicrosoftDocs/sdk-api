@@ -1,19 +1,17 @@
 ---
 UID: NF:winbase._lcreat
 title: _lcreat function (winbase.h)
-
 description: Creates or opens the specified file.
 old-location: winprog\_lcreat.htm
 tech.root: DevNotes
 ms.assetid: 89e19823-c720-4bfc-95d5-18942573dd94
-
 ms.date: 12/05/2018
-ms.keywords: "_lcreat, _lcreat function [Windows API], winbase/_lcreat, winprog._lcreat"
+ms.keywords: _lcreat, _lcreat function [Windows API], winbase/_lcreat, winprog._lcreat
 ms.topic: function
-f1_keywords: 
- - "winbase/_lcreat"
+f1_keywords:
+- winbase/_lcreat
 dev_langs:
- - c++
+- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-Kernel32-Private-l1-1-0.dll
- - kernel32legacy.dll
- - API-MS-Win-Core-Kernel32-Private-l1-1-1.dll
- - API-MS-Win-Core-Kernel32-Private-l1-1-2.dll
+- Kernel32.dll
+- API-MS-Win-Core-Kernel32-Private-l1-1-0.dll
+- kernel32legacy.dll
+- API-MS-Win-Core-Kernel32-Private-l1-1-1.dll
+- API-MS-Win-Core-Kernel32-Private-l1-1-2.dll
 api_name:
- - _lcreat
+- _lcreat
 targetos: Windows
 req.typenames: 
 req.redist: 

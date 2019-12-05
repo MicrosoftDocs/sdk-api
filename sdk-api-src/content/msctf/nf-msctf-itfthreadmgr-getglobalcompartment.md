@@ -1,19 +1,17 @@
 ---
 UID: NF:msctf.ITfThreadMgr.GetGlobalCompartment
 title: ITfThreadMgr::GetGlobalCompartment (msctf.h)
-
 description: ITfThreadMgr::GetGlobalCompartment method
 old-location: tsf\itfthreadmgr_getglobalcompartment.htm
 tech.root: TSF
 ms.assetid: 801e2c3a-0445-4630-83ba-55f51ef2704e
-
 ms.date: 12/05/2018
 ms.keywords: GetGlobalCompartment, GetGlobalCompartment method [Text Services Framework], GetGlobalCompartment method [Text Services Framework],ITfThreadMgr interface, ITfThreadMgr interface [Text Services Framework],GetGlobalCompartment method, ITfThreadMgr.GetGlobalCompartment, ITfThreadMgr::GetGlobalCompartment, _tsf_itfthreadmgr_getglobalcompartment_ref, msctf/ITfThreadMgr::GetGlobalCompartment, tsf.itfthreadmgr_getglobalcompartment
 ms.topic: method
-f1_keywords: 
- - "msctf/ITfThreadMgr.GetGlobalCompartment"
+f1_keywords:
+- msctf/ITfThreadMgr.GetGlobalCompartment
 dev_langs:
- - c++
+- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msctf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msctf.dll
+- Msctf.dll
 api_name:
- - ITfThreadMgr.GetGlobalCompartment
+- ITfThreadMgr.GetGlobalCompartment
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

@@ -1,19 +1,17 @@
 ---
 UID: NF:swdevice.SwDeviceClose
 title: SwDeviceClose function (swdevice.h)
-
 description: Closes the software device handle. When the handle is closed, PnP will initiate the process of removing the device.
 old-location: swdevice\swdeviceclose.htm
 tech.root: swdevice
 ms.assetid: C5E659CD-203A-4021-AB3F-3AFEE2B31E7C
-
 ms.date: 12/05/2018
 ms.keywords: SwDeviceClose, SwDeviceClose function, swdevice.swdeviceclose, swdevice/SwDeviceClose
 ms.topic: function
-f1_keywords: 
- - "swdevice/SwDeviceClose"
+f1_keywords:
+- swdevice/SwDeviceClose
 dev_langs:
- - c++
+- c++
 req.header: swdevice.h
 req.include-header: 
 req.target-type: Universal
@@ -32,16 +30,16 @@ req.lib: Swdevice.lib; OneCoreUAP.lib on Windows 10
 req.dll: Cfgmgr32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Cfgmgr32.dll
- - API-MS-Win-devices-swdevice-l1-1-0.dll
- - API-MS-Win-devices-swdevice-l1-1-1.dll
+- Cfgmgr32.dll
+- API-MS-Win-devices-swdevice-l1-1-0.dll
+- API-MS-Win-devices-swdevice-l1-1-1.dll
 api_name:
- - SwDeviceClose
+- SwDeviceClose
 targetos: Windows
 req.typenames: 
 req.redist: 

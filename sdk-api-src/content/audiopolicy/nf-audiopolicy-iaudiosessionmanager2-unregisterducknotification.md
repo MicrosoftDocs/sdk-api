@@ -1,19 +1,17 @@
 ---
 UID: NF:audiopolicy.IAudioSessionManager2.UnregisterDuckNotification
 title: IAudioSessionManager2::UnregisterDuckNotification (audiopolicy.h)
-
 description: The UnregisterDuckNotification method deletes a previous registration by the application to receive notifications.
 old-location: coreaudio\iaudiosessionmanager2_unregisterducknotification.htm
 tech.root: CoreAudio
 ms.assetid: 0ab0f5d0-8831-41a2-bfee-3e88a3d92156
-
 ms.date: 12/05/2018
 ms.keywords: IAudioSessionManager2 interface [Core Audio],UnregisterDuckNotification method, IAudioSessionManager2.UnregisterDuckNotification, IAudioSessionManager2::UnregisterDuckNotification, UnregisterDuckNotification, UnregisterDuckNotification method [Core Audio], UnregisterDuckNotification method [Core Audio],IAudioSessionManager2 interface, audiopolicy/IAudioSessionManager2::UnregisterDuckNotification, coreaudio.iaudiosessionmanager2_unregisterducknotification
 ms.topic: method
-f1_keywords: 
- - "audiopolicy/IAudioSessionManager2.UnregisterDuckNotification"
+f1_keywords:
+- audiopolicy/IAudioSessionManager2.UnregisterDuckNotification
 dev_langs:
- - c++
+- c++
 req.header: audiopolicy.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - audiopolicy.h
+- audiopolicy.h
 api_name:
- - IAudioSessionManager2.UnregisterDuckNotification
+- IAudioSessionManager2.UnregisterDuckNotification
 targetos: Windows
 req.typenames: 
 req.redist: 

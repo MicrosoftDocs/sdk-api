@@ -1,19 +1,17 @@
 ---
 UID: NS:webservices._WS_OPAQUE_WINDOWS_INTEGRATED_AUTH_CREDENTIAL
 title: WS_OPAQUE_WINDOWS_INTEGRATED_AUTH_CREDENTIAL (webservices.h)
-
 description: Type for supplying a Windows Integrated Authentication credential as an opaque handle created by SspiPromptForCredentials and the related family of APIs. This feature is available only on Windows 7 and later.
 old-location: wsw\ws_opaque_windows_integrated_auth_credential.htm
 tech.root: wsw
 ms.assetid: 9dc8bde7-b70d-4b1f-9b3f-41af9ea7f215
-
 ms.date: 12/05/2018
 ms.keywords: WS_OPAQUE_WINDOWS_INTEGRATED_AUTH_CREDENTIAL, WS_OPAQUE_WINDOWS_INTEGRATED_AUTH_CREDENTIAL structure [Web Services for Windows], webservices/WS_OPAQUE_WINDOWS_INTEGRATED_AUTH_CREDENTIAL, wsw.ws_opaque_windows_integrated_auth_credential
 ms.topic: struct
-f1_keywords: 
- - "webservices/WS_OPAQUE_WINDOWS_INTEGRATED_AUTH_CREDENTIAL"
+f1_keywords:
+- webservices/WS_OPAQUE_WINDOWS_INTEGRATED_AUTH_CREDENTIAL
 dev_langs:
- - c++
+- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WebServices.h
+- WebServices.h
 api_name:
- - WS_OPAQUE_WINDOWS_INTEGRATED_AUTH_CREDENTIAL
+- WS_OPAQUE_WINDOWS_INTEGRATED_AUTH_CREDENTIAL
 targetos: Windows
 req.typenames: WS_OPAQUE_WINDOWS_INTEGRATED_AUTH_CREDENTIAL
 req.redist: 

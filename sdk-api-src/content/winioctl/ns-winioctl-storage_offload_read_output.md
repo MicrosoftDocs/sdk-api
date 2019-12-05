@@ -1,19 +1,17 @@
 ---
 UID: NS:winioctl._STORAGE_OFFLOAD_READ_OUTPUT
 title: STORAGE_OFFLOAD_READ_OUTPUT
-
 description: Output structure for the DeviceDsmAction_OffloadRead action of the IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES control code.
 old-location: base\storage_offload_read_output.htm
 tech.root: devio
 ms.assetid: 93eaa8dd-b244-4fdd-abd4-c7cab46cb2a6
-
 ms.date: 12/05/2018
 ms.keywords: '*PSTORAGE_OFFLOAD_READ_OUTPUT, PSTORAGE_OFFLOAD_READ_OUTPUT, PSTORAGE_OFFLOAD_READ_OUTPUT structure pointer, STORAGE_OFFLOAD_READ_OUTPUT, STORAGE_OFFLOAD_READ_OUTPUT structure, STORAGE_OFFLOAD_READ_RANGE_TRUNCATED, base.storage_offload_read_output, winioctl/PSTORAGE_OFFLOAD_READ_OUTPUT, winioctl/STORAGE_OFFLOAD_READ_OUTPUT'
 ms.topic: struct
 f1_keywords:
 - winioctl/STORAGE_OFFLOAD_READ_OUTPUT
 dev_langs:
- - c++
+- c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

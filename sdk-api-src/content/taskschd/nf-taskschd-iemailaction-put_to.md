@@ -1,19 +1,17 @@
 ---
 UID: NF:taskschd.IEmailAction.put_To
 title: IEmailAction::put_To (taskschd.h)
-
 description: Gets or sets the email address or addresses that you want to send the email to.
 old-location: taskschd\iemailaction_to.htm
 tech.root: taskschd
 ms.assetid: 5144875a-6854-4907-89cd-6438f6adcc49
-
 ms.date: 12/05/2018
 ms.keywords: IEmailAction interface [Task Scheduler],To property, IEmailAction.To, IEmailAction.put_To, IEmailAction::To, IEmailAction::get_To, IEmailAction::put_To, To property [Task Scheduler], To property [Task Scheduler],IEmailAction interface, put_To, taskschd.iemailaction_to, taskschd/IEmailAction::To, taskschd/IEmailAction::get_To, taskschd/IEmailAction::put_To
 ms.topic: method
-f1_keywords: 
- - "taskschd/IEmailAction.To"
+f1_keywords:
+- taskschd/IEmailAction.To
 dev_langs:
- - c++
+- c++
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Taskschd.lib
 req.dll: Taskschd.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - taskschd.dll
+- taskschd.dll
 api_name:
- - IEmailAction.To
- - IEmailAction.get_To
- - IEmailAction.put_To
+- IEmailAction.To
+- IEmailAction.get_To
+- IEmailAction.put_To
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:taskschd.IRegisteredTask.Stop
 title: IRegisteredTask::Stop (taskschd.h)
-
 description: Stops the registered task immediately.
 old-location: taskschd\iregisteredtask_stop.htm
 tech.root: taskschd
 ms.assetid: c58d7b15-1044-4d35-a501-b936503ee0fc
-
 ms.date: 12/05/2018
 ms.keywords: IRegisteredTask interface [Task Scheduler],Stop method, IRegisteredTask.Stop, IRegisteredTask::Stop, Stop, Stop method [Task Scheduler], Stop method [Task Scheduler],IRegisteredTask interface, taskschd.iregisteredtask_stop, taskschd/IRegisteredTask::Stop
 ms.topic: method
-f1_keywords: 
- - "taskschd/IRegisteredTask.Stop"
+f1_keywords:
+- taskschd/IRegisteredTask.Stop
 dev_langs:
- - c++
+- c++
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Taskschd.lib
 req.dll: Taskschd.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - taskschd.dll
+- taskschd.dll
 api_name:
- - IRegisteredTask.Stop
+- IRegisteredTask.Stop
 targetos: Windows
 req.typenames: 
 req.redist: 

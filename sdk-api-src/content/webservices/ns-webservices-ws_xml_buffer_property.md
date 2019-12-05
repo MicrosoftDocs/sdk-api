@@ -1,19 +1,17 @@
 ---
 UID: NS:webservices._WS_XML_BUFFER_PROPERTY
 title: WS_XML_BUFFER_PROPERTY (webservices.h)
-
 description: Specifies an XML buffer&#8211;specific setting.
 old-location: wsw\ws_xml_buffer_property.htm
 tech.root: wsw
 ms.assetid: bec8d297-7f5a-4b8f-a333-9b535358c470
-
 ms.date: 12/05/2018
 ms.keywords: WS_XML_BUFFER_PROPERTY, WS_XML_BUFFER_PROPERTY structure [Web Services for Windows], webservices/WS_XML_BUFFER_PROPERTY, wsw.ws_xml_buffer_property
 ms.topic: struct
-f1_keywords: 
- - "webservices/WS_XML_BUFFER_PROPERTY"
+f1_keywords:
+- webservices/WS_XML_BUFFER_PROPERTY
 dev_langs:
- - c++
+- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WebServices.h
+- WebServices.h
 api_name:
- - WS_XML_BUFFER_PROPERTY
+- WS_XML_BUFFER_PROPERTY
 targetos: Windows
 req.typenames: WS_XML_BUFFER_PROPERTY
 req.redist: 

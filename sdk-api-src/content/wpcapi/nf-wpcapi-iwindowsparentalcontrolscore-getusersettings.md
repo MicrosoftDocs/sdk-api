@@ -1,19 +1,17 @@
 ---
 UID: NF:wpcapi.IWindowsParentalControlsCore.GetUserSettings
 title: IWindowsParentalControlsCore::GetUserSettings (wpcapi.h)
-
 description: Retrieves a pointer to an interface for general settings for the specified user.
 old-location: parcon\iwindowsparentalcontrols_getusersettings.htm
 tech.root: parcon
 ms.assetid: 92c7a138-10b8-4bdf-afea-985e203e04e4
-
 ms.date: 12/05/2018
 ms.keywords: GetUserSettings, GetUserSettings method, GetUserSettings method,IWindowsParentalControlsCore interface, IWindowsParentalControlsCore interface,GetUserSettings method, IWindowsParentalControlsCore.GetUserSettings, IWindowsParentalControlsCore::GetUserSettings, parcon.iwindowsparentalcontrols_getusersettings, wpcapi/IWindowsParentalControlsCore::GetUserSettings
 ms.topic: method
-f1_keywords: 
- - "wpcapi/IWindowsParentalControlsCore.GetUserSettings"
+f1_keywords:
+- wpcapi/IWindowsParentalControlsCore.GetUserSettings
 dev_langs:
- - c++
+- c++
 req.header: wpcapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wpcapi.h
+- Wpcapi.h
 api_name:
- - IWindowsParentalControlsCore.GetUserSettings
+- IWindowsParentalControlsCore.GetUserSettings
 targetos: Windows
 req.typenames: 
 req.redist: 

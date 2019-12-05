@@ -1,19 +1,17 @@
 ---
 UID: NF:windows.data.pdf.interop.IPdfRendererNative.RenderPageToSurface
 title: IPdfRendererNative::pdf (windows.data.pdf.interop.h)
-
 description: Outputs a single page of a Portable Document Format (PDF) file to a Microsoft DirectX image-data object.
 old-location: winrt\ipdfrenderernative_renderpagetosurface.htm
 tech.root: WinRT
 ms.assetid: d4688c23-0122-40a7-908e-793c3f03fb37
-
 ms.date: 12/05/2018
 ms.keywords: IPdfRendererNative interface [Windows Runtime],RenderPageToSurface method, IPdfRendererNative.RenderPageToSurface, IPdfRendererNative.pdf, IPdfRendererNative::RenderPageToSurface, IPdfRendererNative::pdf, RenderPageToSurface, RenderPageToSurface method [Windows Runtime], RenderPageToSurface method [Windows Runtime],IPdfRendererNative interface, windows/IPdfRendererNative::RenderPageToSurface, winrt.ipdfrenderernative_renderpagetosurface
 ms.topic: method
-f1_keywords: 
- - "windows.data.pdf.interop/IPdfRendererNative.RenderPageToSurface"
+f1_keywords:
+- windows.data.pdf.interop/IPdfRendererNative.RenderPageToSurface
 dev_langs:
- - c++
+- c++
 req.header: windows.data.pdf.interop.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Windows.data.pdf.lib
 req.dll: Windows.Data.Pdf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Windows.Data.Pdf.dll
+- Windows.Data.Pdf.dll
 api_name:
- - IPdfRendererNative.RenderPageToSurface
+- IPdfRendererNative.RenderPageToSurface
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:interactioncontext.SetMouseWheelParameterInteractionContext
 title: SetMouseWheelParameterInteractionContext function (interactioncontext.h)
-
 description: Sets the parameter values for mouse wheel input.
 old-location: input_intcontext\setmousewheelparameterinteractioncontext.htm
 tech.root: Input_IntContext
 ms.assetid: fbc47bd4-f78a-4b03-8adc-9b2c4620ea55
-
 ms.date: 12/05/2018
 ms.keywords: SetMouseWheelParameterInteractionContext, SetMouseWheelParameterInteractionContext function, input_intcontext.setmousewheelparameterinteractioncontext, interactioncontext.setmousewheelparameterinteractioncontext, interactioncontext/SetMouseWheelParameterInteractionContext
 ms.topic: function
-f1_keywords: 
- - "interactioncontext/SetMouseWheelParameterInteractionContext"
+f1_keywords:
+- interactioncontext/SetMouseWheelParameterInteractionContext
 dev_langs:
- - c++
+- c++
 req.header: interactioncontext.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Ninput.lib
 req.dll: Ninput.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - ninput.dll
+- ninput.dll
 api_name:
- - SetMouseWheelParameterInteractionContext
+- SetMouseWheelParameterInteractionContext
 targetos: Windows
 req.typenames: 
 req.redist: 

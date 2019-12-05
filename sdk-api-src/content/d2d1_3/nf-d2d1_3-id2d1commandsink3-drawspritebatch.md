@@ -1,19 +1,17 @@
 ---
 UID: NF:d2d1_3.ID2D1CommandSink3.DrawSpriteBatch
 title: ID2D1CommandSink3::DrawSpriteBatch (d2d1_3.h)
-
 description: Renders part or all of the given sprite batch to the device context using the specified drawing options.
 old-location: direct2d\id2d1commandsink3_drawspritebatch.htm
 tech.root: Direct2D
 ms.assetid: 9227A78E-B53A-4191-87F8-BA239E0CF8ED
-
 ms.date: 12/05/2018
 ms.keywords: DrawSpriteBatch, DrawSpriteBatch method [Direct2D], DrawSpriteBatch method [Direct2D],ID2D1CommandSink3 interface, ID2D1CommandSink3 interface [Direct2D],DrawSpriteBatch method, ID2D1CommandSink3.DrawSpriteBatch, ID2D1CommandSink3::DrawSpriteBatch, d2d1_3/ID2D1CommandSink3::DrawSpriteBatch, direct2d.id2d1commandsink3_drawspritebatch
 ms.topic: method
-f1_keywords: 
- - "d2d1_3/ID2D1CommandSink3.DrawSpriteBatch"
+f1_keywords:
+- d2d1_3/ID2D1CommandSink3.DrawSpriteBatch
 dev_langs:
- - c++
+- c++
 req.header: d2d1_3.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: D2d1.lib
 req.dll: D2d1.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D2d1.dll
+- D2d1.dll
 api_name:
- - ID2D1CommandSink3.DrawSpriteBatch
+- ID2D1CommandSink3.DrawSpriteBatch
 targetos: Windows
 req.typenames: 
 req.redist: 

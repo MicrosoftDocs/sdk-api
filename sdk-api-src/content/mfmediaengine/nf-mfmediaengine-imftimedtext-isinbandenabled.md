@@ -1,19 +1,17 @@
 ---
 UID: NF:mfmediaengine.IMFTimedText.IsInBandEnabled
 title: IMFTimedText::IsInBandEnabled (mfmediaengine.h)
-
 description: Determines whether inband mode is enabled.
 old-location: mf\imftimedtext_isinbandenabled.htm
 tech.root: medfound
 ms.assetid: 21BBA2CE-6732-45BD-B5EC-7DBC4A3123E1
-
 ms.date: 12/05/2018
 ms.keywords: IMFTimedText interface [Media Foundation],IsInBandEnabled method, IMFTimedText.IsInBandEnabled, IMFTimedText::IsInBandEnabled, IsInBandEnabled, IsInBandEnabled method [Media Foundation], IsInBandEnabled method [Media Foundation],IMFTimedText interface, mf.imftimedtext_isinbandenabled, mfmediaengine/IMFTimedText::IsInBandEnabled
 ms.topic: method
-f1_keywords: 
- - "mfmediaengine/IMFTimedText.IsInBandEnabled"
+f1_keywords:
+- mfmediaengine/IMFTimedText.IsInBandEnabled
 dev_langs:
- - c++
+- c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfmediaengine.h
+- mfmediaengine.h
 api_name:
- - IMFTimedText.IsInBandEnabled
+- IMFTimedText.IsInBandEnabled
 targetos: Windows
 req.typenames: 
 req.redist: 

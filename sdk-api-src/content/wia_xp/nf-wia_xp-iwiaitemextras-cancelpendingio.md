@@ -1,19 +1,17 @@
 ---
 UID: NF:wia_xp.IWiaItemExtras.CancelPendingIO
 title: IWiaItemExtras::CancelPendingIO (wia_xp.h)
-
 description: The IWiaItemExtras::CancelPendingIO method cancels all pending input/output operations on the driver.
 old-location: wia\_wia_IWiaItemExtras_CancelPendingIO.htm
 tech.root: wia
 ms.assetid: VS|wia|~\wia\refwia\ifaces\iwiaitemextras\cancelpendingio.htm
-
 ms.date: 12/05/2018
 ms.keywords: CancelPendingIO, CancelPendingIO method [WIA], CancelPendingIO method [WIA],IWiaItemExtras interface, IWiaItemExtras interface [WIA],CancelPendingIO method, IWiaItemExtras.CancelPendingIO, IWiaItemExtras::CancelPendingIO, _wia_IWiaItemExtras_CancelPendingIO, wia._wia_IWiaItemExtras_CancelPendingIO, wia_xp/IWiaItemExtras::CancelPendingIO
 ms.topic: method
-f1_keywords: 
- - "wia_xp/IWiaItemExtras.CancelPendingIO"
+f1_keywords:
+- wia_xp/IWiaItemExtras.CancelPendingIO
 dev_langs:
- - c++
+- c++
 req.header: wia_xp.h
 req.include-header: Wia.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Wiaguid.lib
 req.dll: Wiaservc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wiaservc.dll
+- Wiaservc.dll
 api_name:
- - IWiaItemExtras.CancelPendingIO
+- IWiaItemExtras.CancelPendingIO
 targetos: Windows
 req.typenames: 
 req.redist: 

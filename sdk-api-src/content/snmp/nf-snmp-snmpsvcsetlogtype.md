@@ -1,19 +1,17 @@
 ---
 UID: NF:snmp.SnmpSvcSetLogType
 title: SnmpSvcSetLogType function (snmp.h)
-
 description: The SnmpSvcSetLogType function adjusts the destination for the debug output from the SNMP service and from SNMP extension agents using the SnmpUtilDbgPrint function. This function is an element of the SNMP Utility API.
 old-location: snmp\snmpsvcsetlogtype.htm
 tech.root: SNMP
 ms.assetid: 244a8359-9002-4ece-b340-20602d566a2c
-
 ms.date: 12/05/2018
 ms.keywords: SNMP_OUTPUT_TO_CONSOLE, SNMP_OUTPUT_TO_DEBUGGER, SNMP_OUTPUT_TO_LOGFILE, SnmpSvcSetLogType, SnmpSvcSetLogType function [SNMP], _snmp_snmpsvcsetlogtype, snmp.snmpsvcsetlogtype, snmp/SnmpSvcSetLogType
 ms.topic: function
-f1_keywords: 
- - "snmp/SnmpSvcSetLogType"
+f1_keywords:
+- snmp/SnmpSvcSetLogType
 dev_langs:
- - c++
+- c++
 req.header: snmp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Snmpapi.lib
 req.dll: Snmpapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Snmpapi.dll
+- Snmpapi.dll
 api_name:
- - SnmpSvcSetLogType
+- SnmpSvcSetLogType
 targetos: Windows
 req.typenames: 
 req.redist: 

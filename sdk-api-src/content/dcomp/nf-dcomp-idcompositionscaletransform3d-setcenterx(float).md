@@ -1,19 +1,17 @@
 ---
 UID: NF:dcomp.IDCompositionScaleTransform3D.SetCenterX(float)
 title: IDCompositionScaleTransform3D::SetCenterX (dcomp.h)
-
 description: Changes the value of the CenterX property of a 3D scale transform.
 old-location: directcomp\idcompositionscaletransform3d_setcenterx_float.htm
 tech.root: directcomp
 ms.assetid: 4AB99A66-BB3B-4AA5-B041-3F4F77AF93CE
-
 ms.date: 12/05/2018
 ms.keywords: IDCompositionScaleTransform3D interface [DirectComposition],SetCenterX method, IDCompositionScaleTransform3D.SetCenterX, IDCompositionScaleTransform3D::SetCenterX, IDCompositionScaleTransform3D::SetCenterX(float), SetCenterX, SetCenterX method [DirectComposition], SetCenterX method [DirectComposition],IDCompositionScaleTransform3D interface, dcomp/IDCompositionScaleTransform3D::SetCenterX, directcomp.idcompositionscaletransform3d_setcenterx_float
 ms.topic: method
-f1_keywords: 
- - "dcomp/IDCompositionScaleTransform3D.SetCenterX"
+f1_keywords:
+- dcomp/IDCompositionScaleTransform3D.SetCenterX
 dev_langs:
- - c++
+- c++
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dcomp.lib
 req.dll: Dcomp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dcomp.dll
+- Dcomp.dll
 api_name:
- - IDCompositionScaleTransform3D.SetCenterX
+- IDCompositionScaleTransform3D.SetCenterX
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NN:d3d10.ID3D10Buffer
 title: ID3D10Buffer (d3d10.h)
-
 description: A buffer interface accesses a buffer resource, which is unstructured memory. Buffers typically store vertex or index data.
 old-location: direct3d10\id3d10buffer.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10buffer.htm
-
 ms.date: 12/05/2018
 ms.keywords: 8a6172fe-deac-4b70-fb31-07255d702e32, ID3D10Buffer, ID3D10Buffer interface [Direct3D 10], ID3D10Buffer interface [Direct3D 10],described, d3d10/ID3D10Buffer, direct3d10.id3d10buffer
 ms.topic: interface
-f1_keywords: 
- - "d3d10/ID3D10Buffer"
+f1_keywords:
+- d3d10/ID3D10Buffer
 dev_langs:
- - c++
+- c++
 req.header: d3d10.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: D3D10.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D10.lib
- - D3D10.dll
+- D3D10.lib
+- D3D10.dll
 api_name:
- - ID3D10Buffer
+- ID3D10Buffer
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:pla.IDataCollector.get_DataCollectorType
 title: IDataCollector::get_DataCollectorType (pla.h)
-
 description: Retrieves the type of this data collector, for example, a performance data collector.
 old-location: pla\idatacollector_datacollectortype.htm
 tech.root: PLA
 ms.assetid: a5ec0e60-555c-4a95-b13d-a22cc8db7c28
-
 ms.date: 12/05/2018
 ms.keywords: DataCollectorType property [PLA], DataCollectorType property [PLA],IDataCollector interface, IDataCollector interface [PLA],DataCollectorType property, IDataCollector.DataCollectorType, IDataCollector.get_DataCollectorType, IDataCollector::DataCollectorType, IDataCollector::get_DataCollectorType, base.idatacollector_datacollectortype, get_DataCollectorType, pla.idatacollector_datacollectortype, pla/IDataCollector::DataCollectorType, pla/IDataCollector::get_DataCollectorType
 ms.topic: method
-f1_keywords: 
- - "pla/IDataCollector.DataCollectorType"
+f1_keywords:
+- pla/IDataCollector.DataCollectorType
 dev_langs:
- - c++
+- c++
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: Pla.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Pla.dll
+- Pla.dll
 api_name:
- - IDataCollector.DataCollectorType
- - IDataCollector.get_DataCollectorType
+- IDataCollector.DataCollectorType
+- IDataCollector.get_DataCollectorType
 targetos: Windows
 req.typenames: 
 req.redist: 

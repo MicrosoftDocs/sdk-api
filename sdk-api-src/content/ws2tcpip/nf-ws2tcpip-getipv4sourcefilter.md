@@ -1,19 +1,17 @@
 ---
 UID: NF:ws2tcpip.getipv4sourcefilter
 title: getipv4sourcefilter function (ws2tcpip.h)
-
 description: Retrieves the multicast filter state for an IPv4 socket.
 old-location: winsock\getipv4sourcefilter.htm
 tech.root: WinSock
 ms.assetid: 17D35D24-C419-4787-AB93-E6B1B6B13807
-
 ms.date: 12/05/2018
 ms.keywords: getipv4sourcefilter, getipv4sourcefilter function [Winsock], winsock.getipv4sourcefilter, ws2tcpip/getipv4sourcefilter
 ms.topic: function
-f1_keywords: 
- - "ws2tcpip/getipv4sourcefilter"
+f1_keywords:
+- ws2tcpip/getipv4sourcefilter
 dev_langs:
- - c++
+- c++
 req.header: ws2tcpip.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Ws2_32.lib
 req.dll: Ws2_32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ws2_32.dll
+- Ws2_32.dll
 api_name:
- - getipv4sourcefilter
+- getipv4sourcefilter
 targetos: Windows
 req.typenames: 
 req.redist: 

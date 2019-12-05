@@ -1,19 +1,17 @@
 ---
 UID: NF:searchapi.IUrlAccessor.GetHost
 title: IUrlAccessor::GetHost (searchapi.h)
-
 description: Gets the host name for the content source, if applicable.
 old-location: search\_search_IUrlAccessor_GetHost.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\protocolhandlers\iurlaccessor\gethost.htm
-
 ms.date: 12/05/2018
 ms.keywords: GetHost, GetHost method [search], GetHost method [search],IUrlAccessor interface, IUrlAccessor interface [search],GetHost method, IUrlAccessor.GetHost, IUrlAccessor::GetHost, _search_IUrlAccessor_GetHost, search._search_IUrlAccessor_GetHost, searchapi/IUrlAccessor::GetHost
 ms.topic: method
-f1_keywords: 
- - "searchapi/IUrlAccessor.GetHost"
+f1_keywords:
+- searchapi/IUrlAccessor.GetHost
 dev_langs:
- - c++
+- c++
 req.header: searchapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Searchapi.h
+- Searchapi.h
 api_name:
- - IUrlAccessor.GetHost
+- IUrlAccessor.GetHost
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0

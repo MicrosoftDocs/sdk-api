@@ -1,19 +1,17 @@
 ---
 UID: NF:segment.IMSVidStreamBufferSink3.get_WSTCounter
 title: IMSVidStreamBufferSink3::get_WSTCounter (segment.h)
-
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005.
 old-location: mstv\imsvidstreambuffersink3_get_wstcounter.htm
 tech.root: mstv
 ms.assetid: 4698bcce-e3df-4631-a363-0b3d54f8e38a
-
 ms.date: 12/05/2018
 ms.keywords: IMSVidStreamBufferSink3 interface [Microsoft TV Technologies],get_WSTCounter method, IMSVidStreamBufferSink3.get_WSTCounter, IMSVidStreamBufferSink3::get_WSTCounter, IMSVidStreamBufferSink3get_WSTCounter, get_WSTCounter, get_WSTCounter method [Microsoft TV Technologies], get_WSTCounter method [Microsoft TV Technologies],IMSVidStreamBufferSink3 interface, mstv.imsvidstreambuffersink3_get_wstcounter, segment/IMSVidStreamBufferSink3::get_WSTCounter
 ms.topic: method
-f1_keywords: 
- - "segment/IMSVidStreamBufferSink3.get_WSTCounter"
+f1_keywords:
+- segment/IMSVidStreamBufferSink3.get_WSTCounter
 dev_langs:
- - c++
+- c++
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - segment.h
+- segment.h
 api_name:
- - IMSVidStreamBufferSink3.get_WSTCounter
+- IMSVidStreamBufferSink3.get_WSTCounter
 targetos: Windows
 req.typenames: 
 req.redist: 

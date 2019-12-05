@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationTransformPattern2.get_CurrentZoomMaximum
 title: IUIAutomationTransformPattern2::get_CurrentZoomMaximum (uiautomationclient.h)
-
 description: Retrieves the maximum zoom level of the control's viewport.
 old-location: winauto\uiauto_iuiautomationtransformpattern2_currentzoommaximum.htm
 tech.root: WinAuto
 ms.assetid: 600A6FCC-7B67-435A-B162-BC0EC8D609B0
-
 ms.date: 12/05/2018
 ms.keywords: CurrentZoomMaximum property [Windows Accessibility], CurrentZoomMaximum property [Windows Accessibility],IUIAutomationTransformPattern2 interface, IUIAutomationTransformPattern2 interface [Windows Accessibility],CurrentZoomMaximum property, IUIAutomationTransformPattern2.CurrentZoomMaximum, IUIAutomationTransformPattern2.get_CurrentZoomMaximum, IUIAutomationTransformPattern2::CurrentZoomMaximum, IUIAutomationTransformPattern2::get_CurrentZoomMaximum, get_CurrentZoomMaximum, uiautomationclient/IUIAutomationTransformPattern2::CurrentZoomMaximum, uiautomationclient/IUIAutomationTransformPattern2::get_CurrentZoomMaximum, winauto.uiauto_iuiautomationtransformpattern2_currentzoommaximum
 ms.topic: method
-f1_keywords: 
- - "uiautomationclient/IUIAutomationTransformPattern2.CurrentZoomMaximum"
+f1_keywords:
+- uiautomationclient/IUIAutomationTransformPattern2.CurrentZoomMaximum
 dev_langs:
- - c++
+- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationClient.h
+- UIAutomationClient.h
 api_name:
- - IUIAutomationTransformPattern2.CurrentZoomMaximum
- - IUIAutomationTransformPattern2.get_CurrentZoomMaximum
+- IUIAutomationTransformPattern2.CurrentZoomMaximum
+- IUIAutomationTransformPattern2.get_CurrentZoomMaximum
 targetos: Windows
 req.typenames: 
 req.redist: 

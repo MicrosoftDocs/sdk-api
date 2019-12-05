@@ -1,19 +1,17 @@
 ---
 UID: NS:syncmgr.CONFIRM_CONFLICT_RESULT_INFO
 title: CONFIRM_CONFLICT_RESULT_INFO (syncmgr.h)
-
 description: Defines conflict result information structure.
 old-location: shell\CONFIRM_CONFLICT_RESULT_INFO.htm
 tech.root: shell
 ms.assetid: 572bb9b7-a33d-4323-9363-abb43d9411e6
-
 ms.date: 12/05/2018
 ms.keywords: CONFIRM_CONFLICT_RESULT_INFO, CONFIRM_CONFLICT_RESULT_INFO structure [Windows Shell], _shell_CONFIRM_CONFLICT_RESULT_INFO, shell.CONFIRM_CONFLICT_RESULT_INFO, syncmgr/CONFIRM_CONFLICT_RESULT_INFO
 ms.topic: struct
-f1_keywords: 
- - "syncmgr/CONFIRM_CONFLICT_RESULT_INFO"
+f1_keywords:
+- syncmgr/CONFIRM_CONFLICT_RESULT_INFO
 dev_langs:
- - c++
+- c++
 req.header: syncmgr.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Syncmgr.h
+- Syncmgr.h
 api_name:
- - CONFIRM_CONFLICT_RESULT_INFO
+- CONFIRM_CONFLICT_RESULT_INFO
 targetos: Windows
 req.typenames: CONFIRM_CONFLICT_RESULT_INFO
 req.redist: 

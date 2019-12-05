@@ -1,19 +1,17 @@
 ---
 UID: NF:gdipluspath.PathGradientBrush.GetTransform
 title: PathGradientBrush::GetTransform (gdipluspath.h)
-
 description: The PathGradientBrush::GetTransform method gets transformation matrix of this path gradient brush.
 old-location: gdiplus\_gdiplus_CLASS_PathGradientBrush_GetTransform_matrix_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\pathgradientbrushclass\pathgradientbrushmethods\gettransform_69matrix.htm
-
 ms.date: 12/05/2018
 ms.keywords: GetTransform, GetTransform method [GDI+], GetTransform method [GDI+],PathGradientBrush class, PathGradientBrush class [GDI+],GetTransform method, PathGradientBrush.GetTransform, PathGradientBrush::GetTransform, _gdiplus_CLASS_PathGradientBrush_GetTransform_matrix_, gdiplus._gdiplus_CLASS_PathGradientBrush_GetTransform_matrix_
 ms.topic: method
-f1_keywords: 
- - "gdipluspath/PathGradientBrush.GetTransform"
+f1_keywords:
+- gdipluspath/PathGradientBrush.GetTransform
 dev_langs:
- - c++
+- c++
 req.header: gdipluspath.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - PathGradientBrush.GetTransform
+- PathGradientBrush.GetTransform
 targetos: Windows
 req.typenames: 
 req.redist: 

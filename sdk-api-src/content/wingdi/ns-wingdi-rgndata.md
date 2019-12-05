@@ -1,19 +1,17 @@
 ---
 UID: NS:wingdi._RGNDATA
 title: RGNDATA (wingdi.h)
-
 description: The RGNDATA structure contains a header and an array of rectangles that compose a region. The rectangles are sorted top to bottom, left to right. They do not overlap.
 old-location: gdi\rgndata.htm
 tech.root: gdi
 ms.assetid: 3eac0b23-3138-4b34-9c16-6cc185e4de22
-
 ms.date: 12/05/2018
 ms.keywords: '*LPRGNDATA, *NPRGNDATA, *PRGNDATA, PRGNDATA, PRGNDATA structure pointer [Windows GDI], RGNDATA, RGNDATA structure [Windows GDI], _RGNDATA, _win32_RGNDATA_str, gdi.rgndata, wingdi/PRGNDATA, wingdi/RGNDATA'
 ms.topic: struct
 f1_keywords:
 - wingdi/RGNDATA
 dev_langs:
- - c++
+- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -1,19 +1,17 @@
 ---
 UID: NS:d3d11.D3D11_FEATURE_DATA_FORMAT_SUPPORT2
 title: D3D11_FEATURE_DATA_FORMAT_SUPPORT2 (d3d11.h)
-
 description: Describes which unordered resource options are supported by the current graphics driver for a given format.
 old-location: direct3d11\d3d11_feature_data_format_support2.htm
 tech.root: direct3d11
 ms.assetid: 075cc44a-3c91-4015-af7f-489b3b3c6661
-
 ms.date: 12/05/2018
 ms.keywords: 666f73ad-8c04-9774-e3ed-01d758bb509f, D3D11_FEATURE_DATA_FORMAT_SUPPORT2, D3D11_FEATURE_DATA_FORMAT_SUPPORT2 structure [Direct3D 11], d3d11/D3D11_FEATURE_DATA_FORMAT_SUPPORT2, direct3d11.d3d11_feature_data_format_support2
 ms.topic: struct
-f1_keywords: 
- - "d3d11/D3D11_FEATURE_DATA_FORMAT_SUPPORT2"
+f1_keywords:
+- d3d11/D3D11_FEATURE_DATA_FORMAT_SUPPORT2
 dev_langs:
- - c++
+- c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - D3D11.h
+- D3D11.h
 api_name:
- - D3D11_FEATURE_DATA_FORMAT_SUPPORT2
+- D3D11_FEATURE_DATA_FORMAT_SUPPORT2
 targetos: Windows
 req.typenames: D3D11_FEATURE_DATA_FORMAT_SUPPORT2
 req.redist: 

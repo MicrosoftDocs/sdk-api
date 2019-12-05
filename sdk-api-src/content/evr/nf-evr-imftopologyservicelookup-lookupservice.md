@@ -1,19 +1,17 @@
 ---
 UID: NF:evr.IMFTopologyServiceLookup.LookupService
 title: IMFTopologyServiceLookup::LookupService (evr.h)
-
 description: Retrieves an interface from the enhanced video renderer (EVR), or from the video mixer or video presenter.
 old-location: mf\imftopologyservicelookup_lookupservice.htm
 tech.root: medfound
 ms.assetid: ba0dbfdf-1bab-42ba-910f-04a3f37be955
-
 ms.date: 12/05/2018
 ms.keywords: IMFTopologyServiceLookup interface [Media Foundation],LookupService method, IMFTopologyServiceLookup.LookupService, IMFTopologyServiceLookup::LookupService, LookupService, LookupService method [Media Foundation], LookupService method [Media Foundation],IMFTopologyServiceLookup interface, ba0dbfdf-1bab-42ba-910f-04a3f37be955, evr/IMFTopologyServiceLookup::LookupService, mf.imftopologyservicelookup_lookupservice
 ms.topic: method
-f1_keywords: 
- - "evr/IMFTopologyServiceLookup.LookupService"
+f1_keywords:
+- evr/IMFTopologyServiceLookup.LookupService
 dev_langs:
- - c++
+- c++
 req.header: evr.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - strmiids.lib
- - strmiids.dll
+- strmiids.lib
+- strmiids.dll
 api_name:
- - IMFTopologyServiceLookup.LookupService
+- IMFTopologyServiceLookup.LookupService
 targetos: Windows
 req.typenames: 
 req.redist: 

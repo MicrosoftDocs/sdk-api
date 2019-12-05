@@ -1,19 +1,17 @@
 ---
 UID: NF:netfw.INetFwMgr.RestoreDefaults
 title: INetFwMgr::RestoreDefaults (netfw.h)
-
 description: Restores the local configuration to its default, installed state.
 old-location: ics\inetfwmgr_restoredefaults.htm
 tech.root: ics
 ms.assetid: ed2fd6b6-e449-4bed-aeb4-eb4345f67b12
-
 ms.date: 12/05/2018
 ms.keywords: INetFwMgr interface [ICS/ICF],RestoreDefaults method, INetFwMgr.RestoreDefaults, INetFwMgr::RestoreDefaults, RestoreDefaults, RestoreDefaults method [ICS/ICF], RestoreDefaults method [ICS/ICF],INetFwMgr interface, ics.inetfwmgr_restoredefaults, netfw/INetFwMgr::RestoreDefaults
 ms.topic: method
-f1_keywords: 
- - "netfw/INetFwMgr.RestoreDefaults"
+f1_keywords:
+- netfw/INetFwMgr.RestoreDefaults
 dev_langs:
- - c++
+- c++
 req.header: netfw.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: FirewallAPI.dll; Hnetcfg.dll on Windows XP with SP2
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - FirewallAPI.dll
- - Hnetcfg.dll
+- FirewallAPI.dll
+- Hnetcfg.dll
 api_name:
- - INetFwMgr.RestoreDefaults
+- INetFwMgr.RestoreDefaults
 targetos: Windows
 req.typenames: 
 req.redist: 

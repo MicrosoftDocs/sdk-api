@@ -1,19 +1,17 @@
 ---
 UID: NF:wmlss.IWindowsMediaLibrarySharingServices.put_computerHomeMediaSharingAllowedState
 title: IWindowsMediaLibrarySharingServices::put_computerHomeMediaSharingAllowedState (wmlss.h)
-
 description: The put_computerHomeMediaSharingAllowedState method specifies whether media libraries on the computer are allowed to be shared on the home network.
 old-location: wmlss\IWMLSSput_computerHomeMediaSharingAllowedState.htm
 tech.root: WMLSS
 ms.assetid: f844f79e-ae6f-4f57-abec-2b6d5951961f
-
 ms.date: 12/05/2018
 ms.keywords: IWindowsMediaLibrarySharingServices interface [Windows Media Library Sharing Services],put_computerHomeMediaSharingAllowedState method, IWindowsMediaLibrarySharingServices.put_computerHomeMediaSharingAllowedState, IWindowsMediaLibrarySharingServices::put_computerHomeMediaSharingAllowedState, put_computerHomeMediaSharingAllowedState, put_computerHomeMediaSharingAllowedState method [Windows Media Library Sharing Services], put_computerHomeMediaSharingAllowedState method [Windows Media Library Sharing Services],IWindowsMediaLibrarySharingServices interface, wmlss.IWMLSSput_computerHomeMediaSharingAllowedState, wmlss/IWindowsMediaLibrarySharingServices::put_computerHomeMediaSharingAllowedState
 ms.topic: method
-f1_keywords: 
- - "wmlss/IWindowsMediaLibrarySharingServices.put_computerHomeMediaSharingAllowedState"
+f1_keywords:
+- wmlss/IWindowsMediaLibrarySharingServices.put_computerHomeMediaSharingAllowedState
 dev_langs:
- - c++
+- c++
 req.header: wmlss.h
 req.include-header: Wmlss.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: WMPMediaSharing.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - WMPMediaSharing.dll
+- WMPMediaSharing.dll
 api_name:
- - IWindowsMediaLibrarySharingServices.put_computerHomeMediaSharingAllowedState
+- IWindowsMediaLibrarySharingServices.put_computerHomeMediaSharingAllowedState
 targetos: Windows
 req.typenames: 
 req.redist: 

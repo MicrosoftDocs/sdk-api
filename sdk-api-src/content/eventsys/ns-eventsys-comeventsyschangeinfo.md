@@ -1,19 +1,17 @@
 ---
 UID: NS:eventsys.__MIDL___MIDL_itf_eventsys_0000_0009_0001
 title: COMEVENTSYSCHANGEINFO (eventsys.h)
-
 description: Represents a system event structure, which contains the partition and application ID from which an event originated.
 old-location: cos\comeventsyschangeinfo.htm
 tech.root: cossdk
 ms.assetid: 6c9f143e-bdd4-48be-a635-a382c8c770c1
-
 ms.date: 12/05/2018
 ms.keywords: COMEVENTSYSCHANGEINFO, COMEVENTSYSCHANGEINFO structure [COM+], _cos_COMEVENTSYSCHANGEINFO, cos.comeventsyschangeinfo, eventsys/COMEVENTSYSCHANGEINFO
 ms.topic: struct
-f1_keywords: 
- - "eventsys/COMEVENTSYSCHANGEINFO"
+f1_keywords:
+- eventsys/COMEVENTSYSCHANGEINFO
 dev_langs:
- - c++
+- c++
 req.header: eventsys.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - EventSys.h
+- EventSys.h
 api_name:
- - COMEVENTSYSCHANGEINFO
+- COMEVENTSYSCHANGEINFO
 targetos: Windows
 req.typenames: COMEVENTSYSCHANGEINFO
 req.redist: 

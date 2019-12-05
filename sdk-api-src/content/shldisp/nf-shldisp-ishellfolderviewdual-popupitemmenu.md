@@ -1,19 +1,17 @@
 ---
 UID: NF:shldisp.IShellFolderViewDual.PopupItemMenu
 title: IShellFolderViewDual::PopupItemMenu (shldisp.h)
-
 description: Creates a shortcut menu for the specified item and returns the selected command string.
 old-location: shell\IShellFolderViewDual_PopupItemMenu.htm
 tech.root: shell
 ms.assetid: f44e91b7-b651-4b6f-9583-cd9335ae6369
-
 ms.date: 12/05/2018
 ms.keywords: IShellFolderViewDual interface [Windows Shell],PopupItemMenu method, IShellFolderViewDual.PopupItemMenu, IShellFolderViewDual::PopupItemMenu, PopupItemMenu, PopupItemMenu method [Windows Shell], PopupItemMenu method [Windows Shell],IShellFolderViewDual interface, _shell_IShellFolderViewDual_PopupItemMenu, shell.IShellFolderViewDual_PopupItemMenu, shldisp/IShellFolderViewDual::PopupItemMenu
 ms.topic: method
-f1_keywords: 
- - "shldisp/IShellFolderViewDual.PopupItemMenu"
+f1_keywords:
+- shldisp/IShellFolderViewDual.PopupItemMenu
 dev_langs:
- - c++
+- c++
 req.header: shldisp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shldisp.h
+- Shldisp.h
 api_name:
- - IShellFolderViewDual.PopupItemMenu
+- IShellFolderViewDual.PopupItemMenu
 targetos: Windows
 req.typenames: 
 req.redist: 

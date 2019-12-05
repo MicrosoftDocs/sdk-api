@@ -1,19 +1,17 @@
 ---
 UID: NN:shobjidl.ICommDlgBrowser3
 title: ICommDlgBrowser3 (shobjidl.h)
-
 description: Extends the capabilities of ICommDlgBrowser2, and used by the common file dialog boxes when they host a Shell browser.
 old-location: shell\ICommDlgBrowser3.htm
 tech.root: shell
 ms.assetid: c9286061-8ac8-452b-9204-193bc6b571cb
-
 ms.date: 12/05/2018
 ms.keywords: ICommDlgBrowser3, ICommDlgBrowser3 interface [Windows Shell], ICommDlgBrowser3 interface [Windows Shell],described, _shell_ICommDlgBrowser3, shell.ICommDlgBrowser3, shobjidl/ICommDlgBrowser3
 ms.topic: interface
-f1_keywords: 
- - "shobjidl/ICommDlgBrowser3"
+f1_keywords:
+- shobjidl/ICommDlgBrowser3
 dev_langs:
- - c++
+- c++
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shobjidl.h
+- Shobjidl.h
 api_name:
- - ICommDlgBrowser3
+- ICommDlgBrowser3
 targetos: Windows
 req.typenames: 
 req.redist: 

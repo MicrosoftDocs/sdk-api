@@ -1,19 +1,17 @@
 ---
 UID: NF:sbtsv.ITsSbResourcePluginStore.TestAndSetServerState
 title: ITsSbResourcePluginStore::TestAndSetServerState (sbtsv.h)
-
 description: Conditionally sets a new state on a server.
 old-location: termserv\itssbresourcepluginstore_testandsetserverstate.htm
 tech.root: TermServ
 ms.assetid: 5b209587-090e-4338-95b3-542e50412587
-
 ms.date: 12/05/2018
 ms.keywords: ITsSbResourcePluginStore interface [Remote Desktop Services],TestAndSetServerState method, ITsSbResourcePluginStore.TestAndSetServerState, ITsSbResourcePluginStore::TestAndSetServerState, TestAndSetServerState, TestAndSetServerState method [Remote Desktop Services], TestAndSetServerState method [Remote Desktop Services],ITsSbResourcePluginStore interface, sbtsv/ITsSbResourcePluginStore::TestAndSetServerState, termserv.itssbresourcepluginstore_testandsetserverstate
 ms.topic: method
-f1_keywords: 
- - "sbtsv/ITsSbResourcePluginStore.TestAndSetServerState"
+f1_keywords:
+- sbtsv/ITsSbResourcePluginStore.TestAndSetServerState
 dev_langs:
- - c++
+- c++
 req.header: sbtsv.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - sbtsv.h
+- sbtsv.h
 api_name:
- - ITsSbResourcePluginStore.TestAndSetServerState
+- ITsSbResourcePluginStore.TestAndSetServerState
 targetos: Windows
 req.typenames: 
 req.redist: 

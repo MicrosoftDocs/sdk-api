@@ -1,19 +1,17 @@
 ---
 UID: NF:wcndevice.IWCNDevice.Unadvise
 title: IWCNDevice::Unadvise (wcndevice.h)
-
 description: IWCNDevice::Unadvise method removes any callback previously set via IWCNDevice::Connect.
 old-location: wcn\iwcndevice_unadvise.htm
 tech.root: wcn
 ms.assetid: d76ebc9e-8adc-4640-a377-f69cef43afca
-
 ms.date: 12/05/2018
 ms.keywords: IWCNDevice interface [Windows Connect Now],Unadvise method, IWCNDevice.Unadvise, IWCNDevice::Unadvise, Unadvise, Unadvise method [Windows Connect Now], Unadvise method [Windows Connect Now],IWCNDevice interface, wcn.iwcndevice_unadvise, wcndevice/IWCNDevice::Unadvise
 ms.topic: method
-f1_keywords: 
- - "wcndevice/IWCNDevice.Unadvise"
+f1_keywords:
+- wcndevice/IWCNDevice.Unadvise
 dev_langs:
- - c++
+- c++
 req.header: wcndevice.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - WcnDevice.h
+- WcnDevice.h
 api_name:
- - IWCNDevice.Unadvise
+- IWCNDevice.Unadvise
 targetos: Windows
 req.typenames: 
 req.redist: 

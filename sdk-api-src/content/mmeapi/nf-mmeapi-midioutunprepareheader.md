@@ -1,19 +1,17 @@
 ---
 UID: NF:mmeapi.midiOutUnprepareHeader
 title: midiOutUnprepareHeader function (mmeapi.h)
-
 description: The midiOutUnprepareHeader function cleans up the preparation performed by the midiOutPrepareHeader function.
 old-location: multimedia\midioutunprepareheader.htm
 tech.root: Multimedia
 ms.assetid: c36fdd79-afd4-42ce-b251-d0630243af77
-
 ms.date: 12/05/2018
-ms.keywords: "_win32_midiOutUnprepareHeader, midiOutUnprepareHeader, midiOutUnprepareHeader function [Windows Multimedia], mmeapi/midiOutUnprepareHeader, multimedia.midioutunprepareheader"
+ms.keywords: _win32_midiOutUnprepareHeader, midiOutUnprepareHeader, midiOutUnprepareHeader function [Windows Multimedia], mmeapi/midiOutUnprepareHeader, multimedia.midioutunprepareheader
 ms.topic: function
-f1_keywords: 
- - "mmeapi/midiOutUnprepareHeader"
+f1_keywords:
+- mmeapi/midiOutUnprepareHeader
 dev_langs:
- - c++
+- c++
 req.header: mmeapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Winmm.lib
 req.dll: Winmm.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Winmm.dll
- - API-MS-Win-mm-mme-l1-1-0.dll
- - winmmbase.dll
+- Winmm.dll
+- API-MS-Win-mm-mme-l1-1-0.dll
+- winmmbase.dll
 api_name:
- - midiOutUnprepareHeader
+- midiOutUnprepareHeader
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:msctf.ITfTransitoryExtensionSink.OnTransitoryExtensionUpdated
 title: ITfTransitoryExtensionSink::OnTransitoryExtensionUpdated (msctf.h)
-
 description: ITfTransitoryExtensionSink::OnTransitoryExtensionUpdated method
 old-location: tsf\itftransitoryextensionsink_ontransitoryextensionupdated.htm
 tech.root: TSF
 ms.assetid: 2501e0b7-a1fe-46ee-8b18-b13de875d66b
-
 ms.date: 12/05/2018
 ms.keywords: ITfTransitoryExtensionSink interface [Text Services Framework],OnTransitoryExtensionUpdated method, ITfTransitoryExtensionSink.OnTransitoryExtensionUpdated, ITfTransitoryExtensionSink::OnTransitoryExtensionUpdated, OnTransitoryExtensionUpdated, OnTransitoryExtensionUpdated method [Text Services Framework], OnTransitoryExtensionUpdated method [Text Services Framework],ITfTransitoryExtensionSink interface, msctf/ITfTransitoryExtensionSink::OnTransitoryExtensionUpdated, tsf.itftransitoryextensionsink_ontransitoryextensionupdated
 ms.topic: method
-f1_keywords: 
- - "msctf/ITfTransitoryExtensionSink.OnTransitoryExtensionUpdated"
+f1_keywords:
+- msctf/ITfTransitoryExtensionSink.OnTransitoryExtensionUpdated
 dev_langs:
- - c++
+- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msctf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msctf.dll
+- Msctf.dll
 api_name:
- - ITfTransitoryExtensionSink.OnTransitoryExtensionUpdated
+- ITfTransitoryExtensionSink.OnTransitoryExtensionUpdated
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

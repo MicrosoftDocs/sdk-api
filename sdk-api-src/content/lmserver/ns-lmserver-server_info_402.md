@@ -1,19 +1,17 @@
 ---
 UID: NS:lmserver._SERVER_INFO_402
 title: SERVER_INFO_402 (lmserver.h)
-
 description: Contains information about a specified server.
 old-location: netmgmt\server_info_402_str.htm
 tech.root: NetMgmt
 ms.assetid: 51e5c27e-6a7d-45ac-9cfa-37b1f7f241f9
-
 ms.date: 12/05/2018
-ms.keywords: "*LPSERVER_INFO_402, *PSERVER_INFO_402, LPSERVER_INFO_402, LPSERVER_INFO_402 structure pointer [Network Management], PSERVER_INFO_402, PSERVER_INFO_402 structure pointer [Network Management], SERVER_INFO_402, SERVER_INFO_402 structure [Network Management], SV_SHARESECURITY, SV_USERSECURITY, _win32_server_info_402_str, lmserver/LPSERVER_INFO_402, lmserver/PSERVER_INFO_402, lmserver/SERVER_INFO_402, netmgmt.server_info_402_str"
+ms.keywords: '*LPSERVER_INFO_402, *PSERVER_INFO_402, LPSERVER_INFO_402, LPSERVER_INFO_402 structure pointer [Network Management], PSERVER_INFO_402, PSERVER_INFO_402 structure pointer [Network Management], SERVER_INFO_402, SERVER_INFO_402 structure [Network Management], SV_SHARESECURITY, SV_USERSECURITY, _win32_server_info_402_str, lmserver/LPSERVER_INFO_402, lmserver/PSERVER_INFO_402, lmserver/SERVER_INFO_402, netmgmt.server_info_402_str'
 ms.topic: struct
-f1_keywords: 
- - "lmserver/SERVER_INFO_402"
+f1_keywords:
+- lmserver/SERVER_INFO_402
 dev_langs:
- - c++
+- c++
 req.header: lmserver.h
 req.include-header: Lm.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Lmserver.h
+- Lmserver.h
 api_name:
- - SERVER_INFO_402
+- SERVER_INFO_402
 targetos: Windows
 req.typenames: SERVER_INFO_402, *PSERVER_INFO_402, *LPSERVER_INFO_402
 req.redist: 

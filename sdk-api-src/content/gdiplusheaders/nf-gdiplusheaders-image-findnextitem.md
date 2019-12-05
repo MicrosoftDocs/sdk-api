@@ -1,19 +1,17 @@
 ---
 UID: NF:gdiplusheaders.Image.FindNextItem
 title: Image::FindNextItem (gdiplusheaders.h)
-
 description: The Image::FindNextItem method is used along with the Image::FindFirstItem method to enumerate the metadata items stored in this Image object.
 old-location: gdiplus\_gdiplus_CLASS_Image_FindNextItem_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\imageclass\imagemethods\findnextitem.htm
-
 ms.date: 12/05/2018
 ms.keywords: FindNextItem, FindNextItem method [GDI+], FindNextItem method [GDI+],Image class, Image class [GDI+],FindNextItem method, Image.FindNextItem, Image::FindNextItem, _gdiplus_CLASS_Image_FindNextItem_, gdiplus._gdiplus_CLASS_Image_FindNextItem_
 ms.topic: method
-f1_keywords: 
- - "gdiplusheaders/Image.FindNextItem"
+f1_keywords:
+- gdiplusheaders/Image.FindNextItem
 dev_langs:
- - c++
+- c++
 req.header: gdiplusheaders.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - Image.FindNextItem
+- Image.FindNextItem
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NN:faxcom.IFaxRoutingMethod
 title: IFaxRoutingMethod (faxcom.h)
-
 description: The IFaxRoutingMethod dual interface is used by a fax client application to retrieve fax routing configuration information for a fax port on a connected fax server.
 old-location: fax\_mfax_ifaxroutingmethod.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_4skk.htm
-
 ms.date: 12/05/2018
 ms.keywords: IFaxRoutingMethod, IFaxRoutingMethod interface [Fax Service], IFaxRoutingMethod interface [Fax Service],described, _mfax_ifaxroutingmethod, fax._mfax_ifaxroutingmethod, faxcom/IFaxRoutingMethod
 ms.topic: interface
-f1_keywords: 
- - "faxcom/IFaxRoutingMethod"
+f1_keywords:
+- faxcom/IFaxRoutingMethod
 dev_langs:
- - c++
+- c++
 req.header: faxcom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Faxcom.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Faxcom.dll
+- Faxcom.dll
 api_name:
- - IFaxRoutingMethod
+- IFaxRoutingMethod
 targetos: Windows
 req.typenames: 
 req.redist: 

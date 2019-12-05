@@ -1,19 +1,17 @@
 ---
 UID: NF:d2d1.ID2D1RenderTarget.CreateGradientStopCollection(const D2D1_GRADIENT_STOP,UINT32,D2D1_GAMMA,D2D1_EXTEND_MODE,ID2D1GradientStopCollection)
 title: ID2D1RenderTarget::CreateGradientStopCollection (d2d1.h)
-
 description: Creates an ID2D1GradientStopCollection from the specified array of D2D1_GRADIENT_STOP structures.
 old-location: direct2d\id2d1rendertarget_creategradientstopcollection.htm
 tech.root: Direct2D
 ms.assetid: 674ffba5-18c5-46bf-8813-d8d13e5ba903
-
 ms.date: 12/05/2018
 ms.keywords: CreateGradientStopCollection, CreateGradientStopCollection methods [Direct2D], ID2D1RenderTarget.CreateGradientStopCollection, ID2D1RenderTarget::CreateGradientStopCollection, d2d1_1/CreateGradientStopCollection, direct2d.id2d1rendertarget_creategradientstopcollection
 ms.topic: method
-f1_keywords: 
- - "d2d1/ID2D1RenderTarget::CreateGradientStopCollection"
+f1_keywords:
+- d2d1/ID2D1RenderTarget::CreateGradientStopCollection
 dev_langs:
- - c++
+- c++
 req.header: d2d1.h
 req.include-header: D2d1.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: D2d1.lib
 req.dll: D2d1.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - D2d1.dll
+- D2d1.dll
 api_name:
- - ID2D1RenderTarget::CreateGradientStopCollection
+- ID2D1RenderTarget::CreateGradientStopCollection
 targetos: Windows
 req.typenames: 
 req.redist: 

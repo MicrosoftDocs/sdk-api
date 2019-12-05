@@ -1,19 +1,17 @@
 ---
 UID: NF:certview.ICertView.GetColumnCount
 title: ICertView::GetColumnCount (certview.h)
-
 description: Retrieves the number of columns in the view of the Certificate Services database.
 old-location: security\icertview2_getcolumncount.htm
 tech.root: SecCrypto
 ms.assetid: 0297d8e3-5077-40da-88b7-adac252e0f1b
-
 ms.date: 12/05/2018
 ms.keywords: CCertView object [Security],GetColumnCount method, CVRC_COLUMN_MASK, CVRC_COLUMN_RESULT, CVRC_COLUMN_SCHEMA, CVRC_COLUMN_VALUE, GetColumnCount, GetColumnCount method [Security], GetColumnCount method [Security],CCertView object, GetColumnCount method [Security],ICertView interface, GetColumnCount method [Security],ICertView2 interface, ICertView interface [Security],GetColumnCount method, ICertView.GetColumnCount, ICertView2 interface [Security],GetColumnCount method, ICertView2::GetColumnCount, ICertView::GetColumnCount, certview/ICertView2::GetColumnCount, certview/ICertView::GetColumnCount, security.icertview2_getcolumncount
 ms.topic: method
-f1_keywords: 
- - "certview/ICertView2.GetColumnCount"
+f1_keywords:
+- certview/ICertView2.GetColumnCount
 dev_langs:
- - c++
+- c++
 req.header: certview.h
 req.include-header: Certsrv.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Certidl.lib
 req.dll: Certadm.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Certadm.dll
+- Certadm.dll
 api_name:
- - ICertView2.GetColumnCount
- - ICertView.GetColumnCount
- - CCertView.GetColumnCount
+- ICertView2.GetColumnCount
+- ICertView.GetColumnCount
+- CCertView.GetColumnCount
 targetos: Windows
 req.typenames: 
 req.redist: 

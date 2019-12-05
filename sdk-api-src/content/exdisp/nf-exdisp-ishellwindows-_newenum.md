@@ -1,19 +1,17 @@
 ---
 UID: NF:exdisp.IShellWindows._NewEnum
 title: IShellWindows::_NewEnum (exdisp.h)
-
 description: Retrieves an enumerator for the collection of Shell windows.
 old-location: shell\IShellWindows_NewEnum.htm
 tech.root: shell
 ms.assetid: e91b2be7-2be9-4460-9a2a-57090dcfc961
-
 ms.date: 12/05/2018
 ms.keywords: IShellWindows interface [Windows Shell],_NewEnum method, IShellWindows._NewEnum, IShellWindows::_NewEnum, _NewEnum, _NewEnum method [Windows Shell], _NewEnum method [Windows Shell],IShellWindows interface, _win32_IShellWindows_NewEnum, exdisp/IShellWindows::_NewEnum, shell.IShellWindows_NewEnum
 ms.topic: method
-f1_keywords: 
- - "exdisp/IShellWindows._NewEnum"
+f1_keywords:
+- exdisp/IShellWindows._NewEnum
 dev_langs:
- - c++
+- c++
 req.header: exdisp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Shdocvw.dll (version 5.00.2014.0216 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shdocvw.dll
+- Shdocvw.dll
 api_name:
- - IShellWindows._NewEnum
+- IShellWindows._NewEnum
 targetos: Windows
 req.typenames: 
 req.redist: 

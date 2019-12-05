@@ -1,19 +1,17 @@
 ---
 UID: NN:directmanipulation.IDirectManipulationFrameInfoProvider
 title: IDirectManipulationFrameInfoProvider (directmanipulation.h)
-
 description: Represents a time-keeping object that measures the latency of the composition infrastructure used by the application and provides this data to Direct Manipulation.
 old-location: directmanipulation\idirectmanipulationframeinfoprovider.htm
 tech.root: directmanipulation
 ms.assetid: 15B7CA2A-DEC3-479B-BD41-38A57037002F
-
 ms.date: 12/05/2018
 ms.keywords: IDirectManipulationFrameInfoProvider, IDirectManipulationFrameInfoProvider interface [Direct Manipulation], IDirectManipulationFrameInfoProvider interface [Direct Manipulation],described, directmanipulation.idirectmanipulationframeinfoprovider, directmanipulation/IDirectManipulationFrameInfoProvider
 ms.topic: interface
-f1_keywords: 
- - "directmanipulation/IDirectManipulationFrameInfoProvider"
+f1_keywords:
+- directmanipulation/IDirectManipulationFrameInfoProvider
 dev_langs:
- - c++
+- c++
 req.header: directmanipulation.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - DirectManipulation.h
+- DirectManipulation.h
 api_name:
- - IDirectManipulationFrameInfoProvider
+- IDirectManipulationFrameInfoProvider
 targetos: Windows
 req.typenames: 
 req.redist: 

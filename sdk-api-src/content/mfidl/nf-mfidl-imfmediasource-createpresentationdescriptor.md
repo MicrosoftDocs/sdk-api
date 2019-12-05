@@ -1,19 +1,17 @@
 ---
 UID: NF:mfidl.IMFMediaSource.CreatePresentationDescriptor
 title: IMFMediaSource::CreatePresentationDescriptor (mfidl.h)
-
 description: Retrieves a copy of the media source's presentation descriptor. Applications use the presentation descriptor to select streams and to get information about the source content.
 old-location: mf\imfmediasource_createpresentationdescriptor.htm
 tech.root: medfound
 ms.assetid: b6ac50b7-3ef1-43cf-8126-d9a003ebd825
-
 ms.date: 12/05/2018
 ms.keywords: CreatePresentationDescriptor, CreatePresentationDescriptor method [Media Foundation], CreatePresentationDescriptor method [Media Foundation],IMFMediaSource interface, IMFMediaSource interface [Media Foundation],CreatePresentationDescriptor method, IMFMediaSource.CreatePresentationDescriptor, IMFMediaSource::CreatePresentationDescriptor, b6ac50b7-3ef1-43cf-8126-d9a003ebd825, mf.imfmediasource_createpresentationdescriptor, mfidl/IMFMediaSource::CreatePresentationDescriptor
 ms.topic: method
-f1_keywords: 
- - "mfidl/IMFMediaSource.CreatePresentationDescriptor"
+f1_keywords:
+- mfidl/IMFMediaSource.CreatePresentationDescriptor
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFMediaSource.CreatePresentationDescriptor
+- IMFMediaSource.CreatePresentationDescriptor
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NS:dvdmedia.tagVIDEOINFOHEADER2
 title: VIDEOINFOHEADER2 (dvdmedia.h)
-
 description: The VIDEOINFOHEADER2 structure describes the bitmap and color information for a video image, including interlace, copy protection, and pixel aspect ratio information.
 old-location: dshow\videoinfoheader2.htm
 tech.root: DirectShow
 ms.assetid: 5e3d5bf0-435f-45da-8409-a1463b56a7ae
-
 ms.date: 12/05/2018
 ms.keywords: AMCONTROL_COLORINFO_PRESENT, AMCONTROL_PAD_TO_16x9, AMCONTROL_PAD_TO_4x3, AMCONTROL_USED, AMINTERLACE_1FieldPerSample, AMINTERLACE_DisplayModeBobOnly, AMINTERLACE_DisplayModeBobOrWeave, AMINTERLACE_DisplayModeWeaveOnly, AMINTERLACE_Field1First, AMINTERLACE_FieldPatBothIrregular, AMINTERLACE_FieldPatBothRegular, AMINTERLACE_FieldPatField1Only, AMINTERLACE_FieldPatField2Only, AMINTERLACE_IsInterlaced, VIDEOINFOHEADER2, VIDEOINFOHEADER2 structure [DirectShow], VIDEOINFOHEADER2Structure, dshow.videoinfoheader2, dvdmedia/VIDEOINFOHEADER2, tagVIDEOINFOHEADER2
 ms.topic: struct
-f1_keywords: 
- - "dvdmedia/VIDEOINFOHEADER2"
+f1_keywords:
+- dvdmedia/VIDEOINFOHEADER2
 dev_langs:
- - c++
+- c++
 req.header: dvdmedia.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Dvdmedia.h
+- Dvdmedia.h
 api_name:
- - VIDEOINFOHEADER2
+- VIDEOINFOHEADER2
 targetos: Windows
 req.typenames: VIDEOINFOHEADER2
 req.redist: 

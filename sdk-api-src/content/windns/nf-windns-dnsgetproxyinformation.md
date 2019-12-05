@@ -1,19 +1,17 @@
 ---
 UID: NF:windns.DnsGetProxyInformation
 title: DnsGetProxyInformation function (windns.h)
-
 description: The DnsGetProxyInformation function returns the proxy information for a DNS server's name resolution policy table.
 old-location: dns\dnsgetproxyinformation.htm
 tech.root: DNS
 ms.assetid: fdc8eb09-e071-4f03-974a-2b11a657ab18
-
 ms.date: 12/05/2018
 ms.keywords: DnsGetProxyInformation, DnsGetProxyInformation function [DNS], dns.dnsgetproxyinformation, windns/DnsGetProxyInformation
 ms.topic: function
-f1_keywords: 
- - "windns/DnsGetProxyInformation"
+f1_keywords:
+- windns/DnsGetProxyInformation
 dev_langs:
- - c++
+- c++
 req.header: windns.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dnsapi.lib
 req.dll: Dnsapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Dnsapi.dll
+- Dnsapi.dll
 api_name:
- - DnsGetProxyInformation
+- DnsGetProxyInformation
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NN:winsync.ILoadChangeContext
 title: ILoadChangeContext (winsync.h)
-
 description: Represents information about a change to be loaded from the item store.
 old-location: winsync\iloadchangecontext.htm
 tech.root: winsync
 ms.assetid: 11d8971b-354f-4347-9d3f-6d32df8dc9d2
-
 ms.date: 12/05/2018
 ms.keywords: ILoadChangeContext, ILoadChangeContext interface [Windows Sync], ILoadChangeContext interface [Windows Sync],described, winsync.iloadchangecontext, winsync/ILoadChangeContext
 ms.topic: interface
-f1_keywords: 
- - "winsync/ILoadChangeContext"
+f1_keywords:
+- winsync/ILoadChangeContext
 dev_langs:
- - c++
+- c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - winsync.h
+- winsync.h
 api_name:
- - ILoadChangeContext
+- ILoadChangeContext
 targetos: Windows
 req.typenames: 
 req.redist: 

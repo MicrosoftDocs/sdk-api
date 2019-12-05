@@ -1,19 +1,17 @@
 ---
 UID: NF:ras.RasEnumAutodialAddressesA
 title: RasEnumAutodialAddressesA function (ras.h)
-
 description: The RasEnumAutodialAddresses function returns a list of all addresses in the AutoDial mapping database.
 old-location: rras\rasenumautodialaddresses.htm
 tech.root: RRAS
 ms.assetid: bd4fb897-5cc0-452f-b6a2-ec0540c59b90
-
 ms.date: 12/05/2018
 ms.keywords: RasEnumAutodialAddresses, RasEnumAutodialAddresses function [RAS], RasEnumAutodialAddressesA, RasEnumAutodialAddressesW, _ras_rasenumautodialaddresses, ras/RasEnumAutodialAddresses, ras/RasEnumAutodialAddressesA, ras/RasEnumAutodialAddressesW, rras.rasenumautodialaddresses
 ms.topic: function
-f1_keywords: 
- - "ras/RasEnumAutodialAddresses"
+f1_keywords:
+- ras/RasEnumAutodialAddresses
 dev_langs:
- - c++
+- c++
 req.header: ras.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Rasapi32.lib
 req.dll: Rasapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Rasapi32.dll
+- Rasapi32.dll
 api_name:
- - RasEnumAutodialAddresses
- - RasEnumAutodialAddressesA
- - RasEnumAutodialAddressesW
+- RasEnumAutodialAddresses
+- RasEnumAutodialAddressesA
+- RasEnumAutodialAddressesW
 targetos: Windows
 req.typenames: 
 req.redist: 

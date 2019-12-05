@@ -1,19 +1,17 @@
 ---
 UID: NF:dhcpsapi.DhcpAddSubnetElement
 title: DhcpAddSubnetElement function (dhcpsapi.h)
-
 description: Adds an element describing a feature or aspect of the subnet to the subnet entry in the DHCP database.
 old-location: dhcp\dhcpaddsubnetelement.htm
 tech.root: DHCP
 ms.assetid: 4f93d4e8-f41e-4df8-98cc-70a11be75eab
-
 ms.date: 12/05/2018
 ms.keywords: DhcpAddSubnetElement, DhcpAddSubnetElement function [DHCP], dhcp.dhcpaddsubnetelement, dhcpsapi/DhcpAddSubnetElement
 ms.topic: function
 f1_keywords:
 - dhcpsapi/DhcpAddSubnetElement
 dev_langs:
- - c++
+- c++
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows

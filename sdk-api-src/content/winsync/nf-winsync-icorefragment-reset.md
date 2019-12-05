@@ -1,19 +1,17 @@
 ---
 UID: NF:winsync.ICoreFragment.Reset
 title: ICoreFragment::Reset (winsync.h)
-
 description: Resets both the column and range enumerators to the beginning of their respective sets.
 old-location: winsync\icorefragment_reset.htm
 tech.root: winsync
 ms.assetid: b39e9dee-7437-4480-9050-33bc68b41b00
-
 ms.date: 12/05/2018
 ms.keywords: ICoreFragment interface [Windows Sync],Reset method, ICoreFragment.Reset, ICoreFragment::Reset, Reset, Reset method [Windows Sync], Reset method [Windows Sync],ICoreFragment interface, winsync.icorefragment_reset, winsync/ICoreFragment::Reset
 ms.topic: method
-f1_keywords: 
- - "winsync/ICoreFragment.Reset"
+f1_keywords:
+- winsync/ICoreFragment.Reset
 dev_langs:
- - c++
+- c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - winsync.h
+- winsync.h
 api_name:
- - ICoreFragment.Reset
+- ICoreFragment.Reset
 targetos: Windows
 req.typenames: 
 req.redist: 

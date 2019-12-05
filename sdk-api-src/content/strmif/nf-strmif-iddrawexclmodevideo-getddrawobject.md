@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IDDrawExclModeVideo.GetDDrawObject
 title: IDDrawExclModeVideo::GetDDrawObject (strmif.h)
-
 description: The GetDDrawObject method retrieves the DirectDraw object being used by the Overlay Mixer filter.
 old-location: dshow\iddrawexclmodevideo_getddrawobject.htm
 tech.root: DirectShow
 ms.assetid: b664fbcc-de14-42ca-95d0-97719e381605
-
 ms.date: 12/05/2018
 ms.keywords: GetDDrawObject, GetDDrawObject method [DirectShow], GetDDrawObject method [DirectShow],IDDrawExclModeVideo interface, IDDrawExclModeVideo interface [DirectShow],GetDDrawObject method, IDDrawExclModeVideo.GetDDrawObject, IDDrawExclModeVideo::GetDDrawObject, IDDrawExclModeVideoGetDDrawObject, dshow.iddrawexclmodevideo_getddrawobject, strmif/IDDrawExclModeVideo::GetDDrawObject
 ms.topic: method
-f1_keywords: 
- - "strmif/IDDrawExclModeVideo.GetDDrawObject"
+f1_keywords:
+- strmif/IDDrawExclModeVideo.GetDDrawObject
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IDDrawExclModeVideo.GetDDrawObject
+- IDDrawExclModeVideo.GetDDrawObject
 targetos: Windows
 req.typenames: 
 req.redist: 

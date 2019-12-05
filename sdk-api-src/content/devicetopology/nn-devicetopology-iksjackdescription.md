@@ -1,19 +1,17 @@
 ---
 UID: NN:devicetopology.IKsJackDescription
 title: IKsJackDescription (devicetopology.h)
-
 description: The IKsJackDescription interface provides information about the jacks or internal connectors that provide a physical connection between a device on an audio adapter and an external or internal endpoint device (for example, a microphone or CD player).
 old-location: coreaudio\iksjackdescription.htm
 tech.root: CoreAudio
 ms.assetid: 0ca9e719-7179-4302-99ff-df137141f58f
-
 ms.date: 12/05/2018
 ms.keywords: IKsJackDescription, IKsJackDescription interface [Core Audio], IKsJackDescription interface [Core Audio],described, coreaudio.iksjackdescription, devicetopology/IKsJackDescription
 ms.topic: interface
-f1_keywords: 
- - "devicetopology/IKsJackDescription"
+f1_keywords:
+- devicetopology/IKsJackDescription
 dev_langs:
- - c++
+- c++
 req.header: devicetopology.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Devicetopology.h
+- Devicetopology.h
 api_name:
- - IKsJackDescription
+- IKsJackDescription
 targetos: Windows
 req.typenames: 
 req.redist: 

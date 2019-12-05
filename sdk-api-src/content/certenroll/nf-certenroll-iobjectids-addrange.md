@@ -1,19 +1,17 @@
 ---
 UID: NF:certenroll.IObjectIds.AddRange
 title: IObjectIds::AddRange (certenroll.h)
-
 description: Adds a range of IObjectId objects to the collection.
 old-location: security\iobjectids_addrange_method.htm
 tech.root: seccertenroll
 ms.assetid: bf7a85a3-201b-413e-a1da-1e54b55771cc
-
 ms.date: 12/05/2018
 ms.keywords: AddRange, AddRange method [Security], AddRange method [Security],IObjectIds interface, IObjectIds interface [Security],AddRange method, IObjectIds.AddRange, IObjectIds::AddRange, certenroll/IObjectIds::AddRange, security.iobjectids_addrange_method
 ms.topic: method
-f1_keywords: 
- - "certenroll/IObjectIds.AddRange"
+f1_keywords:
+- certenroll/IObjectIds.AddRange
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: CertEnroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CertEnroll.dll
+- CertEnroll.dll
 api_name:
- - IObjectIds.AddRange
+- IObjectIds.AddRange
 targetos: Windows
 req.typenames: 
 req.redist: 

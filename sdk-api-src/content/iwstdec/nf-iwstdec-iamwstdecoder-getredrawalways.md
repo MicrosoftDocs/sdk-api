@@ -1,19 +1,17 @@
 ---
 UID: NF:iwstdec.IAMWstDecoder.GetRedrawAlways
 title: IAMWstDecoder::GetRedrawAlways (iwstdec.h)
-
 description: Downstream filters use the GetRedrawAlways method to retrieve a value that indicates whether the whole output bitmap is redrawn for each sample.
 old-location: dshow\iamwstdecoder_getredrawalways.htm
 tech.root: DirectShow
 ms.assetid: d4035bd0-9a86-4deb-b4eb-4aa5b4b4ff35
-
 ms.date: 12/05/2018
 ms.keywords: GetRedrawAlways, GetRedrawAlways method [DirectShow], GetRedrawAlways method [DirectShow],IAMWstDecoder interface, IAMWstDecoder interface [DirectShow],GetRedrawAlways method, IAMWstDecoder.GetRedrawAlways, IAMWstDecoder::GetRedrawAlways, IAMWstDecoderGetRedrawAlways, dshow.iamwstdecoder_getredrawalways, iwstdec/IAMWstDecoder::GetRedrawAlways
 ms.topic: method
-f1_keywords: 
- - "iwstdec/IAMWstDecoder.GetRedrawAlways"
+f1_keywords:
+- iwstdec/IAMWstDecoder.GetRedrawAlways
 dev_langs:
- - c++
+- c++
 req.header: iwstdec.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IAMWstDecoder.GetRedrawAlways
+- IAMWstDecoder.GetRedrawAlways
 targetos: Windows
 req.typenames: 
 req.redist: 

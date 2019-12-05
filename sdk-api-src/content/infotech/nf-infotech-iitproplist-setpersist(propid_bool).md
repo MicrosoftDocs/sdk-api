@@ -1,19 +1,17 @@
 ---
 UID: NF:infotech.IITPropList.SetPersist(PROPID,BOOL)
 title: IITPropList::SetPersist (infotech.h)
-
 description: Sets the persistence state on or off for a given property.
 old-location: htmlhelp\iitproplist_setpersist1.htm
 tech.root: htmlhelp
 ms.assetid: VS|htmlhelp|~\html\refiitproplistsetpersistproperty.htm
-
 ms.date: 12/05/2018
 ms.keywords: IITPropList interface [HTML Help Workshop],SetPersist method, IITPropList.SetPersist, IITPropList::SetPersist, IITPropList::SetPersist(PROPID,BOOL), SetPersist, SetPersist method [HTML Help Workshop], SetPersist method [HTML Help Workshop],IITPropList interface, htmlhelp.iitproplist_setpersist1, infotech/IITPropList::SetPersist, refIITPropListSetPersistProperty
 ms.topic: method
-f1_keywords: 
- - "infotech/IITPropList.SetPersist"
+f1_keywords:
+- infotech/IITPropList.SetPersist
 dev_langs:
- - c++
+- c++
 req.header: infotech.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Infotech.h
+- Infotech.h
 api_name:
- - IITPropList.SetPersist
+- IITPropList.SetPersist
 targetos: Windows
 req.typenames: 
 req.redist: 

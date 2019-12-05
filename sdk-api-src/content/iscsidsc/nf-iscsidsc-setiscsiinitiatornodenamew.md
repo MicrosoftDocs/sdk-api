@@ -1,19 +1,17 @@
 ---
 UID: NF:iscsidsc.SetIScsiInitiatorNodeNameW
 title: SetIScsiInitiatorNodeNameW function (iscsidsc.h)
-
 description: SetIscsiInitiatorNodeName function establishes an initiator node name for the computer. This name is utilized by any initiator nodes on the computer that are communicating with other nodes.
 old-location: iscsidisc\setiscsiinitiatornodename.htm
 tech.root: iSCSIDisc
 ms.assetid: 4758fbde-da94-4da2-9c04-d2bec2c61752
-
 ms.date: 12/05/2018
 ms.keywords: SetIScsiInitiatorNodeNameW, SetIscsiInitiatorNodeName, SetIscsiInitiatorNodeName function [iSCSI Discovery Library API], SetIscsiInitiatorNodeNameA, SetIscsiInitiatorNodeNameW, iscsidisc.setiscsiinitiatornodename, iscsidsc/SetIscsiInitiatorNodeName, iscsidsc/SetIscsiInitiatorNodeNameA, iscsidsc/SetIscsiInitiatorNodeNameW
 ms.topic: function
-f1_keywords: 
- - "iscsidsc/SetIscsiInitiatorNodeName"
+f1_keywords:
+- iscsidsc/SetIscsiInitiatorNodeName
 dev_langs:
- - c++
+- c++
 req.header: iscsidsc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Iscsidsc.lib
 req.dll: Iscsidsc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Iscsidsc.dll
+- Iscsidsc.dll
 api_name:
- - SetIscsiInitiatorNodeName
- - SetIscsiInitiatorNodeNameA
- - SetIscsiInitiatorNodeNameW
+- SetIscsiInitiatorNodeName
+- SetIscsiInitiatorNodeNameA
+- SetIscsiInitiatorNodeNameW
 targetos: Windows
 req.typenames: 
 req.redist: 

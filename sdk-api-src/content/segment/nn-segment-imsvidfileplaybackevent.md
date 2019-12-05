@@ -1,19 +1,17 @@
 ---
 UID: NN:segment.IMSVidFilePlaybackEvent
 title: IMSVidFilePlaybackEvent (segment.h)
-
 description: This topic applies to Windows XP or later.
 old-location: mstv\imsvidfileplaybackevent.htm
 tech.root: mstv
 ms.assetid: 7dd435a1-8cd4-45c5-8250-770b629d3f3b
-
 ms.date: 12/05/2018
 ms.keywords: IMSVidFilePlaybackEvent, IMSVidFilePlaybackEvent interface [Microsoft TV Technologies], IMSVidFilePlaybackEvent interface [Microsoft TV Technologies],described, IMSVidFilePlaybackEventInterface, mstv.imsvidfileplaybackevent, segment/IMSVidFilePlaybackEvent
 ms.topic: interface
-f1_keywords: 
- - "segment/IMSVidFilePlaybackEvent"
+f1_keywords:
+- segment/IMSVidFilePlaybackEvent
 dev_langs:
- - c++
+- c++
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - segment.h
+- segment.h
 api_name:
- - IMSVidFilePlaybackEvent
+- IMSVidFilePlaybackEvent
 targetos: Windows
 req.typenames: 
 req.redist: 

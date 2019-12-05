@@ -1,19 +1,17 @@
 ---
 UID: NF:imapi2.IMultisessionSequential.get_StartAddressOfPreviousSession
 title: IMultisessionSequential::get_StartAddressOfPreviousSession (imapi2.h)
-
 description: Retrieves the first sector written in the previous session on the media.
 old-location: imapi\imultisessionsequential_get_startaddressofprevioussession.htm
 tech.root: imapi
 ms.assetid: 97819e2a-c01b-4820-a200-d9e9c6928f1b
-
 ms.date: 12/05/2018
 ms.keywords: IMultisessionSequential interface [IMAPI],get_StartAddressOfPreviousSession method, IMultisessionSequential.get_StartAddressOfPreviousSession, IMultisessionSequential::get_StartAddressOfPreviousSession, get_StartAddressOfPreviousSession, get_StartAddressOfPreviousSession method [IMAPI], get_StartAddressOfPreviousSession method [IMAPI],IMultisessionSequential interface, imapi.imultisessionsequential_get_startaddressofprevioussession, imapi2/IMultisessionSequential::get_StartAddressOfPreviousSession
 ms.topic: method
-f1_keywords: 
- - "imapi2/IMultisessionSequential.get_StartAddressOfPreviousSession"
+f1_keywords:
+- imapi2/IMultisessionSequential.get_StartAddressOfPreviousSession
 dev_langs:
- - c++
+- c++
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - imapi2.h
+- imapi2.h
 api_name:
- - IMultisessionSequential.get_StartAddressOfPreviousSession
+- IMultisessionSequential.get_StartAddressOfPreviousSession
 targetos: Windows
 req.typenames: 
 req.redist: 

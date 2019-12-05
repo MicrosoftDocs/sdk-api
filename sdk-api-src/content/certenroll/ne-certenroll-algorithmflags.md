@@ -1,19 +1,17 @@
 ---
 UID: NE:certenroll.AlgorithmFlags
 title: AlgorithmFlags (certenroll.h)
-
 description: Contains flags that can be used to refine the search for a cryptographic algorithm.
 old-location: security\algorithmflags_enum.htm
 tech.root: seccertenroll
 ms.assetid: 0f067687-ae92-4500-af19-80f537620bb9
-
 ms.date: 12/05/2018
 ms.keywords: AlgorithmFlags, AlgorithmFlags enumeration [Security], AlgorithmFlagsNone, AlgorithmFlagsWrap, certenroll/AlgorithmFlags, certenroll/AlgorithmFlagsNone, certenroll/AlgorithmFlagsWrap, security.algorithmflags_enum
 ms.topic: enum
-f1_keywords: 
- - "certenroll/AlgorithmFlags"
+f1_keywords:
+- certenroll/AlgorithmFlags
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - CertEnroll.h
+- CertEnroll.h
 api_name:
- - AlgorithmFlags
+- AlgorithmFlags
 targetos: Windows
 req.typenames: AlgorithmFlags
 req.redist: 

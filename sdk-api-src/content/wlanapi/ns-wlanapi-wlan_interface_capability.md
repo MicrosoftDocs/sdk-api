@@ -1,19 +1,17 @@
 ---
 UID: NS:wlanapi._WLAN_INTERFACE_CAPABILITY
 title: WLAN_INTERFACE_CAPABILITY (wlanapi.h)
-
 description: Contains information about the capabilities of an interface.
 old-location: nwifi\wlan_interface_capability.htm
 tech.root: NativeWiFi
 ms.assetid: db7a9066-d699-4860-90cd-dc3f4bf42549
-
 ms.date: 12/05/2018
 ms.keywords: '*PWLAN_INTERFACE_CAPABILITY, PWLAN_INTERFACE_CAPABILITY, PWLAN_INTERFACE_CAPABILITY structure pointer [NativeWIFI], WLAN_INTERFACE_CAPABILITY, WLAN_INTERFACE_CAPABILITY structure [NativeWIFI], nwifi.wlan_interface_capability, wlanapi/PWLAN_INTERFACE_CAPABILITY, wlanapi/WLAN_INTERFACE_CAPABILITY'
 ms.topic: struct
 f1_keywords:
 - wlanapi/WLAN_INTERFACE_CAPABILITY
 dev_langs:
- - c++
+- c++
 req.header: wlanapi.h
 req.include-header: 
 req.target-type: Windows

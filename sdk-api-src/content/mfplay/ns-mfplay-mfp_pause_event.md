@@ -1,19 +1,17 @@
 ---
 UID: NS:mfplay.MFP_PAUSE_EVENT
 title: MFP_PAUSE_EVENT (mfplay.h)
-
 description: Event structure for the MFP_EVENT_TYPE_PAUSE event.
 old-location: mf\mfp_pause_event.htm
 tech.root: medfound
 ms.assetid: 8475dca1-2ecd-49dc-97b6-bb2823286c04
-
 ms.date: 12/05/2018
 ms.keywords: MFP_PAUSE_EVENT, MFP_PAUSE_EVENT structure [Media Foundation], mf.mfp_pause_event, mfplay/MFP_PAUSE_EVENT
 ms.topic: struct
-f1_keywords: 
- - "mfplay/MFP_PAUSE_EVENT"
+f1_keywords:
+- mfplay/MFP_PAUSE_EVENT
 dev_langs:
- - c++
+- c++
 req.header: mfplay.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - mfplay.h
+- mfplay.h
 api_name:
- - MFP_PAUSE_EVENT
+- MFP_PAUSE_EVENT
 targetos: Windows
 req.typenames: MFP_PAUSE_EVENT
 req.redist: 

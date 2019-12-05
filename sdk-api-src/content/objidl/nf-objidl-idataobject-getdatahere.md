@@ -1,19 +1,17 @@
 ---
 UID: NF:objidl.IDataObject.GetDataHere
 title: IDataObject::GetDataHere (objidl.h)
-
 description: Called by a data consumer to obtain data from a source data object. This method differs from the GetData method in that the caller must allocate and free the specified storage medium.
 old-location: com\idataobject_getdatahere.htm
 tech.root: com
 ms.assetid: 802fc49a-21c2-4490-9b00-1359ce9c325f
-
 ms.date: 12/05/2018
 ms.keywords: GetDataHere, GetDataHere method [COM], GetDataHere method [COM],IDataObject interface, IDataObject interface [COM],GetDataHere method, IDataObject.GetDataHere, IDataObject::GetDataHere, _ole_idataobject_getdatahere, com.idataobject_getdatahere, objidl/IDataObject::GetDataHere
 ms.topic: method
-f1_keywords: 
- - "objidl/IDataObject.GetDataHere"
+f1_keywords:
+- objidl/IDataObject.GetDataHere
 dev_langs:
- - c++
+- c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ObjIdl.h
+- ObjIdl.h
 api_name:
- - IDataObject.GetDataHere
+- IDataObject.GetDataHere
 targetos: Windows
 req.typenames: 
 req.redist: 

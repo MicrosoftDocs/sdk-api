@@ -1,19 +1,17 @@
 ---
 UID: NF:werapi.WerReportCreate
 title: WerReportCreate function (werapi.h)
-
 description: Creates a problem report that describes an application event.
 old-location: wer\werreportcreate.htm
 tech.root: wer
 ms.assetid: 41f68dde-5e43-45a6-8e0b-3ae0c6180e8b
-
 ms.date: 12/05/2018
 ms.keywords: WerReportApplicationCrash, WerReportApplicationHang, WerReportCreate, WerReportCreate function [Windows Error Reporting], WerReportCritical, WerReportInvalid, WerReportKernel, WerReportNonCritical, base.werreportcreate, wer.werreportcreate, werapi/WerReportCreate
 ms.topic: function
 f1_keywords:
 - werapi/WerReportCreate
 dev_langs:
- - c++
+- c++
 req.header: werapi.h
 req.include-header: 
 req.target-type: Windows

@@ -1,19 +1,17 @@
 ---
 UID: NF:wuapi.IAutomaticUpdates.Pause
 title: IAutomaticUpdates::Pause (wuapi.h)
-
 description: Pauses automatic updates.
 old-location: wua\iautomaticupdates_pause.htm
 tech.root: Wua_Sdk
 ms.assetid: 42985fdf-b3b3-43f0-addb-478298bd8ebd
-
 ms.date: 12/05/2018
 ms.keywords: IAutomaticUpdates interface [Windows Update Agent],Pause method, IAutomaticUpdates.Pause, IAutomaticUpdates::Pause, Pause, Pause method [Windows Update Agent], Pause method [Windows Update Agent],IAutomaticUpdates interface, wua.iautomaticupdates_pause, wuapi/IAutomaticUpdates::Pause
 ms.topic: method
-f1_keywords: 
- - "wuapi/IAutomaticUpdates.Pause"
+f1_keywords:
+- wuapi/IAutomaticUpdates.Pause
 dev_langs:
- - c++
+- c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Wuguid.lib
 req.dll: Wuapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wuapi.dll
+- Wuapi.dll
 api_name:
- - IAutomaticUpdates.Pause
+- IAutomaticUpdates.Pause
 targetos: Windows
 req.typenames: 
 req.redist: 

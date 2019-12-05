@@ -1,19 +1,17 @@
 ---
 UID: NN:activationregistration.IDllServerActivatableClassRegistration
 title: IDllServerActivatableClassRegistration (activationregistration.h)
-
 description: Enables getting the registration info for an in-process server.
 old-location: winrt\idllserveractivatableclassregistration.htm
 tech.root: WinRT
 ms.assetid: 00E9476E-45E0-4D97-9DA4-FD293674BED4
-
 ms.date: 12/05/2018
 ms.keywords: IDllServerActivatableClassRegistration, IDllServerActivatableClassRegistration interface [Windows Runtime], IDllServerActivatableClassRegistration interface [Windows Runtime],described, activationregistration/IDllServerActivatableClassRegistration, winrt.idllserveractivatableclassregistration
 ms.topic: interface
-f1_keywords: 
- - "activationregistration/IDllServerActivatableClassRegistration"
+f1_keywords:
+- activationregistration/IDllServerActivatableClassRegistration
 dev_langs:
- - c++
+- c++
 req.header: activationregistration.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - activationregistration.h
+- activationregistration.h
 api_name:
- - IDllServerActivatableClassRegistration
+- IDllServerActivatableClassRegistration
 targetos: Windows
 req.typenames: 
 req.redist: 

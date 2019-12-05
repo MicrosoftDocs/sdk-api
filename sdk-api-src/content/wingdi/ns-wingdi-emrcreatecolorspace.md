@@ -1,19 +1,17 @@
 ---
 UID: NS:wingdi.tagEMRCREATECOLORSPACE
 title: EMRCREATECOLORSPACE (wingdi.h)
-
 description: The EMRCREATECOLORSPACE structure contains members for the CreateColorSpace enhanced metafile record.
 old-location: gdi\emrcreatecolorspace.htm
 tech.root: gdi
 ms.assetid: ee2e02bb-5bd2-460c-aefe-78a143c72ff6
-
 ms.date: 12/05/2018
-ms.keywords: "*PEMRCREATECOLORSPACE, EMRCREATECOLORSPACE, EMRCREATECOLORSPACE structure [Windows GDI], PEMRCREATECOLORSPACE, PEMRCREATECOLORSPACE structure pointer [Windows GDI], _win32_EMRCREATECOLORSPACE_str, gdi.emrcreatecolorspace, wingdi/EMRCREATECOLORSPACE, wingdi/PEMRCREATECOLORSPACE"
+ms.keywords: '*PEMRCREATECOLORSPACE, EMRCREATECOLORSPACE, EMRCREATECOLORSPACE structure [Windows GDI], PEMRCREATECOLORSPACE, PEMRCREATECOLORSPACE structure pointer [Windows GDI], _win32_EMRCREATECOLORSPACE_str, gdi.emrcreatecolorspace, wingdi/EMRCREATECOLORSPACE, wingdi/PEMRCREATECOLORSPACE'
 ms.topic: struct
-f1_keywords: 
- - "wingdi/EMRCREATECOLORSPACE"
+f1_keywords:
+- wingdi/EMRCREATECOLORSPACE
 dev_langs:
- - c++
+- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wingdi.h
+- Wingdi.h
 api_name:
- - EMRCREATECOLORSPACE
+- EMRCREATECOLORSPACE
 targetos: Windows
 req.typenames: EMRCREATECOLORSPACE, *PEMRCREATECOLORSPACE
 req.redist: 

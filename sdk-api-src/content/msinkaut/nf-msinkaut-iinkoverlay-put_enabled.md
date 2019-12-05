@@ -1,19 +1,17 @@
 ---
 UID: NF:msinkaut.IInkOverlay.put_Enabled
 title: IInkOverlay::put_Enabled (msinkaut.h)
-
 description: Gets or sets a value that specifies whether the InkOverlay object collects pen input (in-air packets, cursor in range events, and so on).
 old-location: tablet\inkoverlay_enabled.htm
 tech.root: tablet
 ms.assetid: c376bf02-ddef-45e5-b041-b7f4b437bb27
-
 ms.date: 12/05/2018
 ms.keywords: Enabled property [Tablet PC], Enabled property [Tablet PC],IInkOverlay interface, IInkOverlay interface [Tablet PC],Enabled property, IInkOverlay.Enabled, IInkOverlay.put_Enabled, IInkOverlay::Enabled, IInkOverlay::get_Enabled, IInkOverlay::put_Enabled, InkOverlay.get_Enabled, InkOverlay.put_Enabled, msinkaut/IInkOverlay::Enabled, msinkaut/IInkOverlay::get_Enabled, msinkaut/IInkOverlay::put_Enabled, put_Enabled, tablet.inkoverlay_enabled
 ms.topic: method
-f1_keywords: 
- - "msinkaut/IInkOverlay.Enabled"
+f1_keywords:
+- msinkaut/IInkOverlay.Enabled
 dev_langs:
- - c++
+- c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows
@@ -32,19 +30,19 @@ req.lib: InkObj.dll
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - InkObj.dll
- - InkObj.dll.dll
+- InkObj.dll
+- InkObj.dll.dll
 api_name:
- - IInkOverlay.Enabled
- - IInkOverlay.get_Enabled
- - IInkOverlay.put_Enabled
- - InkOverlay.get_Enabled
- - InkOverlay.put_Enabled
+- IInkOverlay.Enabled
+- IInkOverlay.get_Enabled
+- IInkOverlay.put_Enabled
+- InkOverlay.get_Enabled
+- InkOverlay.put_Enabled
 targetos: Windows
 req.typenames: 
 req.redist: 

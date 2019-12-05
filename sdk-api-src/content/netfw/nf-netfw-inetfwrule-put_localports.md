@@ -1,19 +1,17 @@
 ---
 UID: NF:netfw.INetFwRule.put_LocalPorts
 title: INetFwRule::put_LocalPorts (netfw.h)
-
 description: Specifies the list of local ports for this rule.
 old-location: ics\inetfwrule_localports.htm
 tech.root: ics
 ms.assetid: 72c4f00c-d5c4-4d93-892b-ec9a63f8df09
-
 ms.date: 12/05/2018
 ms.keywords: RPC, RPC-EPMap, Teredo, INetFwRule interface [ICS/ICF],LocalPorts property, INetFwRule.LocalPorts, INetFwRule.put_LocalPorts, INetFwRule::LocalPorts, INetFwRule::get_LocalPorts, INetFwRule::put_LocalPorts, LocalPorts property [ICS/ICF], LocalPorts property [ICS/ICF],INetFwRule interface, ics.inetfwrule_localports, netfw/INetFwRule::LocalPorts, netfw/INetFwRule::get_LocalPorts, netfw/INetFwRule::put_LocalPorts, put_LocalPorts
 ms.topic: method
-f1_keywords: 
- - "netfw/INetFwRule.LocalPorts"
+f1_keywords:
+- netfw/INetFwRule.LocalPorts
 dev_langs:
- - c++
+- c++
 req.header: netfw.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: FirewallAPI.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - FirewallAPI.dll
+- FirewallAPI.dll
 api_name:
- - INetFwRule.LocalPorts
- - INetFwRule.get_LocalPorts
- - INetFwRule.put_LocalPorts
+- INetFwRule.LocalPorts
+- INetFwRule.get_LocalPorts
+- INetFwRule.put_LocalPorts
 targetos: Windows
 req.typenames: 
 req.redist: 

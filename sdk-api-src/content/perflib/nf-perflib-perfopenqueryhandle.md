@@ -1,19 +1,17 @@
 ---
 UID: NF:perflib.PerfOpenQueryHandle
 title: PerfOpenQueryHandle function (perflib.h)
-
 description: Creates a handle that references a query on the specified system. A query is a list of counter specifications.
 old-location: perf\perfopenqueryhandle.htm
 tech.root: perfctrs
 ms.assetid: 5105F617-9443-451D-B802-C6A241769E65
-
 ms.date: 12/05/2018
 ms.keywords: PerfOpenQueryHandle, PerfOpenQueryHandle function [Perf], perf.perfopenqueryhandle, perflib/PerfOpenQueryHandle
 ms.topic: function
-f1_keywords: 
- - "perflib/PerfOpenQueryHandle"
+f1_keywords:
+- perflib/PerfOpenQueryHandle
 dev_langs:
- - c++
+- c++
 req.header: perflib.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: AdvAPI32.lib
 req.dll: AdvAPI32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - AdvAPI32.dll
+- AdvAPI32.dll
 api_name:
- - PerfOpenQueryHandle
+- PerfOpenQueryHandle
 targetos: Windows
 req.typenames: 
 req.redist: 

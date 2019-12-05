@@ -1,19 +1,17 @@
 ---
 UID: NN:wuapi.IUpdateServiceRegistration
 title: IUpdateServiceRegistration (wuapi.h)
-
 description: Contains information about the registration state of a service.
 old-location: wua\iupdateserviceregistration.htm
 tech.root: Wua_Sdk
 ms.assetid: 729664f2-5f75-4e73-9ccc-150b2e201f66
-
 ms.date: 12/05/2018
 ms.keywords: IUpdateServiceRegistration, IUpdateServiceRegistration interface [Windows Update Agent], IUpdateServiceRegistration interface [Windows Update Agent],described, wua.iupdateserviceregistration, wuapi/IUpdateServiceRegistration
 ms.topic: interface
-f1_keywords: 
- - "wuapi/IUpdateServiceRegistration"
+f1_keywords:
+- wuapi/IUpdateServiceRegistration
 dev_langs:
- - c++
+- c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Wuguid.lib
 req.dll: Wuapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wuapi.dll
+- Wuapi.dll
 api_name:
- - IUpdateServiceRegistration
+- IUpdateServiceRegistration
 targetos: Windows
 req.typenames: 
 req.redist: 

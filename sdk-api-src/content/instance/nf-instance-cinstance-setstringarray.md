@@ -1,19 +1,17 @@
 ---
 UID: NF:instance.CInstance.SetStringArray
 title: CInstance::SetStringArray (instance.h)
-
 description: The SetStringArray method sets a property that represents an array of strings.
 old-location: wmi\cinstance_setstringarray.htm
 tech.root: WmiSdk
 ms.assetid: dcd1e108-4914-43ea-aa41-d38d38e8954a
-
 ms.date: 12/05/2018
-ms.keywords: "?SetStringArray@CInstance@@QAE_NPBGABUtagSAFEARRAY@@@Z, ?SetStringArray@CInstance@@QEAA_NPEBGAEBUtagSAFEARRAY@@@Z, CInstance interface [Windows Management Instrumentation],SetStringArray method, CInstance.SetStringArray, CInstance::SetStringArray, SetStringArray, SetStringArray method [Windows Management Instrumentation], SetStringArray method [Windows Management Instrumentation],CInstance interface, _hmm_cinstance_setstringarray, instance/CInstance::SetStringArray, wmi.cinstance_setstringarray"
+ms.keywords: ?SetStringArray@CInstance@@QAE_NPBGABUtagSAFEARRAY@@@Z, ?SetStringArray@CInstance@@QEAA_NPEBGAEBUtagSAFEARRAY@@@Z, CInstance interface [Windows Management Instrumentation],SetStringArray method, CInstance.SetStringArray, CInstance::SetStringArray, SetStringArray, SetStringArray method [Windows Management Instrumentation], SetStringArray method [Windows Management Instrumentation],CInstance interface, _hmm_cinstance_setstringarray, instance/CInstance::SetStringArray, wmi.cinstance_setstringarray
 ms.topic: method
-f1_keywords: 
- - "instance/CInstance.SetStringArray"
+f1_keywords:
+- instance/CInstance.SetStringArray
 dev_langs:
- - c++
+- c++
 req.header: instance.h
 req.include-header: FwCommon.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: FrameDyn.lib
 req.dll: FrameDynOS.dll; FrameDyn.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - FrameDynOS.dll
- - FrameDyn.dll
+- FrameDynOS.dll
+- FrameDyn.dll
 api_name:
- - CInstance.SetStringArray
- - ?SetStringArray@CInstance@@QAE_NPBGABUtagSAFEARRAY@@@Z
- - ?SetStringArray@CInstance@@QEAA_NPEBGAEBUtagSAFEARRAY@@@Z
+- CInstance.SetStringArray
+- ?SetStringArray@CInstance@@QAE_NPBGABUtagSAFEARRAY@@@Z
+- ?SetStringArray@CInstance@@QEAA_NPEBGAEBUtagSAFEARRAY@@@Z
 targetos: Windows
 req.typenames: 
 req.redist: 

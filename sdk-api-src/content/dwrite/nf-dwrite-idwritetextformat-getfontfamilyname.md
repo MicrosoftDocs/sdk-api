@@ -1,19 +1,17 @@
 ---
 UID: NF:dwrite.IDWriteTextFormat.GetFontFamilyName
 title: IDWriteTextFormat::GetFontFamilyName (dwrite.h)
-
 description: Gets a copy of the font family name.
 old-location: directwrite\IDWriteTextFormat_GetFontFamilyName.htm
 tech.root: DirectWrite
 ms.assetid: 44d294bf-ec0f-4c75-b10a-2f3e4883b58a
-
 ms.date: 12/05/2018
 ms.keywords: GetFontFamilyName, GetFontFamilyName method [Direct Write], GetFontFamilyName method [Direct Write],IDWriteTextFormat interface, IDWriteTextFormat interface [Direct Write],GetFontFamilyName method, IDWriteTextFormat.GetFontFamilyName, IDWriteTextFormat::GetFontFamilyName, directwrite.IDWriteTextFormat_GetFontFamilyName, dwrite/IDWriteTextFormat::GetFontFamilyName
 ms.topic: method
-f1_keywords: 
- - "dwrite/IDWriteTextFormat.GetFontFamilyName"
+f1_keywords:
+- dwrite/IDWriteTextFormat.GetFontFamilyName
 dev_langs:
- - c++
+- c++
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dwrite.lib
 req.dll: Dwrite.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dwrite.dll
+- dwrite.dll
 api_name:
- - IDWriteTextFormat.GetFontFamilyName
+- IDWriteTextFormat.GetFontFamilyName
 targetos: Windows
 req.typenames: 
 req.redist: 

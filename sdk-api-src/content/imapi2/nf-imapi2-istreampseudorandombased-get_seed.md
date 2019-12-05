@@ -1,19 +1,17 @@
 ---
 UID: NF:imapi2.IStreamPseudoRandomBased.get_Seed
 title: IStreamPseudoRandomBased::get_Seed (imapi2.h)
-
 description: Retrieves the seed value used by the random number generator.
 old-location: imapi\istreampseudorandombased_get_seed.htm
 tech.root: imapi
 ms.assetid: c5362760-84c6-4e93-b3cd-2ce568b13102
-
 ms.date: 12/05/2018
 ms.keywords: IStreamPseudoRandomBased interface [IMAPI],get_Seed method, IStreamPseudoRandomBased.get_Seed, IStreamPseudoRandomBased::get_Seed, get_Seed, get_Seed method [IMAPI], get_Seed method [IMAPI],IStreamPseudoRandomBased interface, imapi.istreampseudorandombased_get_seed, imapi2/IStreamPseudoRandomBased::get_Seed
 ms.topic: method
-f1_keywords: 
- - "imapi2/IStreamPseudoRandomBased.get_Seed"
+f1_keywords:
+- imapi2/IStreamPseudoRandomBased.get_Seed
 dev_langs:
- - c++
+- c++
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - imapi2.h
+- imapi2.h
 api_name:
- - IStreamPseudoRandomBased.get_Seed
+- IStreamPseudoRandomBased.get_Seed
 targetos: Windows
 req.typenames: 
 req.redist: 

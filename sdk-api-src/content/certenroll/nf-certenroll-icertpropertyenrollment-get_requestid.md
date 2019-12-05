@@ -1,19 +1,17 @@
 ---
 UID: NF:certenroll.ICertPropertyEnrollment.get_RequestId
 title: ICertPropertyEnrollment::get_RequestId (certenroll.h)
-
 description: Retrieves a unique certificate request identifier.
 old-location: security\icertpropertyenrollment_requestid_property.htm
 tech.root: seccertenroll
 ms.assetid: a9e2000c-7d64-43f1-b891-b5cd6f46201f
-
 ms.date: 12/05/2018
 ms.keywords: ICertPropertyEnrollment interface [Security],RequestId property, ICertPropertyEnrollment.RequestId, ICertPropertyEnrollment.get_RequestId, ICertPropertyEnrollment::RequestId, ICertPropertyEnrollment::get_RequestId, RequestId property [Security], RequestId property [Security],ICertPropertyEnrollment interface, certenroll/ICertPropertyEnrollment::RequestId, certenroll/ICertPropertyEnrollment::get_RequestId, get_RequestId, security.icertpropertyenrollment_requestid_property
 ms.topic: method
-f1_keywords: 
- - "certenroll/ICertPropertyEnrollment.RequestId"
+f1_keywords:
+- certenroll/ICertPropertyEnrollment.RequestId
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: CertEnroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CertEnroll.dll
+- CertEnroll.dll
 api_name:
- - ICertPropertyEnrollment.RequestId
- - ICertPropertyEnrollment.get_RequestId
+- ICertPropertyEnrollment.RequestId
+- ICertPropertyEnrollment.get_RequestId
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:mmc.IComponentData.Notify
 title: IComponentData::Notify (mmc.h)
-
 description: The IComponentData::Notify method notifies the snap-in of actions performed by the user.
 old-location: mmc\icomponentdata_notify.htm
 tech.root: mmc
 ms.assetid: 8679396e-23d0-4418-987a-c72b1508e7b9
-
 ms.date: 12/05/2018
 ms.keywords: IComponentData interface [MMC],Notify method, IComponentData.Notify, IComponentData::Notify, Notify, Notify method [MMC], Notify method [MMC],IComponentData interface, _slate_icomponentdata_notify, mmc.icomponentdata_notify, mmc/IComponentData::Notify
 ms.topic: method
-f1_keywords: 
- - "mmc/IComponentData.Notify"
+f1_keywords:
+- mmc/IComponentData.Notify
 dev_langs:
- - c++
+- c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mmc.h
+- Mmc.h
 api_name:
- - IComponentData.Notify
+- IComponentData.Notify
 targetos: Windows
 req.typenames: 
 req.redist: 

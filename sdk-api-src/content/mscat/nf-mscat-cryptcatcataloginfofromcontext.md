@@ -1,19 +1,17 @@
 ---
 UID: NF:mscat.CryptCATCatalogInfoFromContext
 title: CryptCATCatalogInfoFromContext function (mscat.h)
-
 description: Retrieves catalog information from a specified catalog context.
 old-location: security\cryptcatcataloginfofromcontext.htm
 tech.root: SecCrypto
 ms.assetid: ec195fcc-1cff-4dd6-9075-c4904b653da7
-
 ms.date: 12/05/2018
 ms.keywords: CryptCATCatalogInfoFromContext, CryptCATCatalogInfoFromContext function [Security], mscat/CryptCATCatalogInfoFromContext, security.cryptcatcataloginfofromcontext
 ms.topic: function
-f1_keywords: 
- - "mscat/CryptCATCatalogInfoFromContext"
+f1_keywords:
+- mscat/CryptCATCatalogInfoFromContext
 dev_langs:
- - c++
+- c++
 req.header: mscat.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Wintrust.lib
 req.dll: Wintrust.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Wintrust.dll
- - mscat32.dll
+- Wintrust.dll
+- mscat32.dll
 api_name:
- - CryptCATCatalogInfoFromContext
+- CryptCATCatalogInfoFromContext
 targetos: Windows
 req.typenames: 
 req.redist: 

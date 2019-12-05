@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl.IVisualProperties.SetColor
 title: IVisualProperties::SetColor (shobjidl.h)
-
 description: Sets the color, as specified.
 old-location: shell\IVisualProperties_SetColor.htm
 tech.root: shell
 ms.assetid: 24e351af-687d-454a-9f0a-e7c07175dbd3
-
 ms.date: 12/05/2018
 ms.keywords: IVisualProperties interface [Windows Shell],SetColor method, IVisualProperties.SetColor, IVisualProperties::SetColor, SetColor, SetColor method [Windows Shell], SetColor method [Windows Shell],IVisualProperties interface, _shell_IVisualProperties_SetColor, shell.IVisualProperties_SetColor, shobjidl/IVisualProperties::SetColor
 ms.topic: method
-f1_keywords: 
- - "shobjidl/IVisualProperties.SetColor"
+f1_keywords:
+- shobjidl/IVisualProperties.SetColor
 dev_langs:
- - c++
+- c++
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shobjidl.h
+- Shobjidl.h
 api_name:
- - IVisualProperties.SetColor
+- IVisualProperties.SetColor
 targetos: Windows
 req.typenames: 
 req.redist: 

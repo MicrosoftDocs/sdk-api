@@ -1,19 +1,17 @@
 ---
 UID: NS:winnt._IMAGE_LOAD_CONFIG_DIRECTORY64
 title: IMAGE_LOAD_CONFIG_DIRECTORY64 (winnt.h)
-
 description: Contains the load configuration data of an image.
 old-location: base\image_load_config_directory64_str.htm
 tech.root: Debug
 ms.assetid: ebd42f1a-a5aa-4179-a2d0-61c50469d5c0
-
 ms.date: 12/05/2018
-ms.keywords: "*PIMAGE_LOAD_CONFIG_DIRECTORY64, IMAGE_LOAD_CONFIG_DIRECTORY, IMAGE_LOAD_CONFIG_DIRECTORY32, IMAGE_LOAD_CONFIG_DIRECTORY64, IMAGE_LOAD_CONFIG_DIRECTORY64 structure, PIMAGE_LOAD_CONFIG_DIRECTORY64, PIMAGE_LOAD_CONFIG_DIRECTORY64 structure pointer, _IMAGE_LOAD_CONFIG_DIRECTORY64, base.image_load_config_directory64_str, winnt/IMAGE_LOAD_CONFIG_DIRECTORY64, winnt/PIMAGE_LOAD_CONFIG_DIRECTORY64"
+ms.keywords: '*PIMAGE_LOAD_CONFIG_DIRECTORY64, IMAGE_LOAD_CONFIG_DIRECTORY, IMAGE_LOAD_CONFIG_DIRECTORY32, IMAGE_LOAD_CONFIG_DIRECTORY64, IMAGE_LOAD_CONFIG_DIRECTORY64 structure, PIMAGE_LOAD_CONFIG_DIRECTORY64, PIMAGE_LOAD_CONFIG_DIRECTORY64 structure pointer, _IMAGE_LOAD_CONFIG_DIRECTORY64, base.image_load_config_directory64_str, winnt/IMAGE_LOAD_CONFIG_DIRECTORY64, winnt/PIMAGE_LOAD_CONFIG_DIRECTORY64'
 ms.topic: struct
-f1_keywords: 
- - "winnt/IMAGE_LOAD_CONFIG_DIRECTORY64"
+f1_keywords:
+- winnt/IMAGE_LOAD_CONFIG_DIRECTORY64
 dev_langs:
- - c++
+- c++
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WinNT.h
+- WinNT.h
 api_name:
- - IMAGE_LOAD_CONFIG_DIRECTORY64
- - IMAGE_LOAD_CONFIG_DIRECTORY
+- IMAGE_LOAD_CONFIG_DIRECTORY64
+- IMAGE_LOAD_CONFIG_DIRECTORY
 targetos: Windows
 req.typenames: IMAGE_LOAD_CONFIG_DIRECTORY64, *PIMAGE_LOAD_CONFIG_DIRECTORY64
 req.redist: 

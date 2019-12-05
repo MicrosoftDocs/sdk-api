@@ -1,19 +1,17 @@
 ---
 UID: NN:devicetopology.ISubunit
 title: ISubunit (devicetopology.h)
-
 description: The ISubunit interface represents a hardware subunit (for example, a volume control) that lies in the data path between a client and an audio endpoint device.
 old-location: coreaudio\isubunit.htm
 tech.root: CoreAudio
 ms.assetid: 9ec630bc-bba1-4a44-b66d-404a5221abbf
-
 ms.date: 12/05/2018
 ms.keywords: ISubunit, ISubunit interface [Core Audio], ISubunit interface [Core Audio],described, coreaudio.isubunit, devicetopology/ISubunit
 ms.topic: interface
-f1_keywords: 
- - "devicetopology/ISubunit"
+f1_keywords:
+- devicetopology/ISubunit
 dev_langs:
- - c++
+- c++
 req.header: devicetopology.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Devicetopology.h
+- Devicetopology.h
 api_name:
- - ISubunit
+- ISubunit
 targetos: Windows
 req.typenames: 
 req.redist: 

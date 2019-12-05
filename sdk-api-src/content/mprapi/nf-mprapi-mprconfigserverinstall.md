@@ -1,19 +1,17 @@
 ---
 UID: NF:mprapi.MprConfigServerInstall
 title: MprConfigServerInstall function (mprapi.h)
-
 description: The MprConfigServerInstall function configures Routing and Remote Access Service with a default configuration.
 old-location: rras\mprconfigserverinstall.htm
 tech.root: RRAS
 ms.assetid: a261aaf8-abb0-4580-850b-f447017e07b9
-
 ms.date: 12/05/2018
 ms.keywords: MprConfigServerInstall, MprConfigServerInstall function [RAS], _mpr_mprconfigserverinstall, mprapi/MprConfigServerInstall, rras.mprconfigserverinstall
 ms.topic: function
-f1_keywords: 
- - "mprapi/MprConfigServerInstall"
+f1_keywords:
+- mprapi/MprConfigServerInstall
 dev_langs:
- - c++
+- c++
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Mprapi.lib
 req.dll: Mprapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Mprapi.dll
+- Mprapi.dll
 api_name:
- - MprConfigServerInstall
+- MprConfigServerInstall
 targetos: Windows
 req.typenames: 
 req.redist: 

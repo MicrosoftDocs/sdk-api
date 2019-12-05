@@ -1,19 +1,17 @@
 ---
 UID: NF:mfobjects.IMF2DBuffer.ContiguousCopyFrom
 title: IMF2DBuffer::ContiguousCopyFrom (mfobjects.h)
-
 description: Copies data to this buffer from a buffer that has a contiguous format.
 old-location: mf\imf2dbuffer_contiguouscopyfrom.htm
 tech.root: medfound
 ms.assetid: 84634782-7805-4e2b-a043-7e49adef5c2a
-
 ms.date: 12/05/2018
 ms.keywords: 84634782-7805-4e2b-a043-7e49adef5c2a, ContiguousCopyFrom, ContiguousCopyFrom method [Media Foundation], ContiguousCopyFrom method [Media Foundation],IMF2DBuffer interface, IMF2DBuffer interface [Media Foundation],ContiguousCopyFrom method, IMF2DBuffer.ContiguousCopyFrom, IMF2DBuffer::ContiguousCopyFrom, mf.imf2dbuffer_contiguouscopyfrom, mfobjects/IMF2DBuffer::ContiguousCopyFrom
 ms.topic: method
-f1_keywords: 
- - "mfobjects/IMF2DBuffer.ContiguousCopyFrom"
+f1_keywords:
+- mfobjects/IMF2DBuffer.ContiguousCopyFrom
 dev_langs:
- - c++
+- c++
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMF2DBuffer.ContiguousCopyFrom
+- IMF2DBuffer.ContiguousCopyFrom
 targetos: Windows
 req.typenames: 
 req.redist: 

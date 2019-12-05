@@ -1,19 +1,17 @@
 ---
 UID: NE:mfidl._MFNETSOURCE_CACHE_STATE
 title: MFNETSOURCE_CACHE_STATE (mfidl.h)
-
 description: Defines the status of the cache for a media file or entry.
 old-location: mf\mfnetsource_cache_state.htm
 tech.root: medfound
 ms.assetid: fc7f2f66-02a3-455a-820b-304a53494ef1
-
 ms.date: 12/05/2018
 ms.keywords: MFNETSOURCE_CACHE_ACTIVE_COMPLETE, MFNETSOURCE_CACHE_ACTIVE_WRITING, MFNETSOURCE_CACHE_STATE, MFNETSOURCE_CACHE_STATE enumeration [Media Foundation], MFNETSOURCE_CACHE_UNAVAILABLE, fc7f2f66-02a3-455a-820b-304a53494ef1, mf.mfnetsource_cache_state, mfidl/MFNETSOURCE_CACHE_ACTIVE_COMPLETE, mfidl/MFNETSOURCE_CACHE_ACTIVE_WRITING, mfidl/MFNETSOURCE_CACHE_STATE, mfidl/MFNETSOURCE_CACHE_UNAVAILABLE
 ms.topic: enum
-f1_keywords: 
- - "mfidl/MFNETSOURCE_CACHE_STATE"
+f1_keywords:
+- mfidl/MFNETSOURCE_CACHE_STATE
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - mfidl.h
+- mfidl.h
 api_name:
- - MFNETSOURCE_CACHE_STATE
+- MFNETSOURCE_CACHE_STATE
 targetos: Windows
 req.typenames: MFNETSOURCE_CACHE_STATE
 req.redist: 

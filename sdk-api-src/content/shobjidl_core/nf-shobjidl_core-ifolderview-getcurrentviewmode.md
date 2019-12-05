@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IFolderView.GetCurrentViewMode
 title: IFolderView::GetCurrentViewMode (shobjidl_core.h)
-
 description: Gets an address containing a value representing the folder's current view mode.
 old-location: shell\IFolderView_GetCurrentViewMode.htm
 tech.root: shell
 ms.assetid: e8f69203-f0b4-4537-980c-8e5bbdb49aab
-
 ms.date: 12/05/2018
 ms.keywords: FVM_DETAILS, FVM_ICON, FVM_LIST, FVM_SMALLICON, FVM_THUMBNAIL, FVM_THUMBSTRIP, FVM_TILE, GetCurrentViewMode, GetCurrentViewMode method [Windows Shell], GetCurrentViewMode method [Windows Shell],IFolderView interface, IFolderView interface [Windows Shell],GetCurrentViewMode method, IFolderView.GetCurrentViewMode, IFolderView::GetCurrentViewMode, _shell_IFolderView_GetCurrentViewMode, shell.IFolderView_GetCurrentViewMode, shobjidl_core/IFolderView::GetCurrentViewMode
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IFolderView.GetCurrentViewMode"
+f1_keywords:
+- shobjidl_core/IFolderView.GetCurrentViewMode
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Shell32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - IFolderView.GetCurrentViewMode
+- IFolderView.GetCurrentViewMode
 targetos: Windows
 req.typenames: 
 req.redist: 

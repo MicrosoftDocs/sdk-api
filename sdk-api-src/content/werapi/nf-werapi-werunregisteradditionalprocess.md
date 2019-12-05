@@ -1,19 +1,17 @@
 ---
 UID: NF:werapi.WerUnregisterAdditionalProcess
 title: WerUnregisterAdditionalProcess function (werapi.h)
-
 description: Removes a process from the list of additional processes to be included in the error report.
 old-location: wer\werunregisteradditionalprocess.htm
 tech.root: wer
 ms.assetid: CE840EE8-5EB6-4F0F-935E-5DA9097E950F
-
 ms.date: 12/05/2018
 ms.keywords: WerUnregisterAdditionalProcess, WerUnregisterAdditionalProcess function [Windows Error Reporting], wer.werunregisteradditionalprocess, werapi/WerUnregisterAdditionalProcess
 ms.topic: function
-f1_keywords: 
- - "werapi/WerUnregisterAdditionalProcess"
+f1_keywords:
+- werapi/WerUnregisterAdditionalProcess
 dev_langs:
- - c++
+- c++
 req.header: werapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-Windowserrorreporting-l1-1-0.dll
- - KernelBase.dll
+- Kernel32.dll
+- API-MS-Win-Core-Windowserrorreporting-l1-1-0.dll
+- KernelBase.dll
 api_name:
- - WerUnregisterAdditionalProcess
+- WerUnregisterAdditionalProcess
 targetos: Windows
 req.typenames: 
 req.redist: 

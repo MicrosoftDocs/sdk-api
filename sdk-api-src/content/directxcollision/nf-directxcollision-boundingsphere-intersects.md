@@ -1,15 +1,14 @@
 ---
 UID: NF:directxcollision.BoundingSphere.Intersects
 title: BoundingSphere::Intersects
-
 description: Tests the BoundingSphere for intersection with a BoundingSphere.
 ms.date: 04/22/19
 ms.keywords: BoundingSphere::Intersects
 ms.topic: language-reference
-f1_keywords: 
- - "directxcollision/BoundingSphere::Intersects"
+f1_keywords:
+- directxcollision/BoundingSphere::Intersects
 dev_langs:
- - c++
+- c++
 targetos: Windows
 req.assembly: 
 req.construct-type: function
@@ -31,13 +30,13 @@ req.type-library:
 req.umdf-ver: 
 req.unicode-ansi: 
 topic_type:
- - apiref
+- apiref
 api_type:
- - 
+- 
 api_location:
- - directxcollision.h
+- directxcollision.h
 api_name:
- - BoundingSphere::Intersects
+- BoundingSphere::Intersects
 ---
 
 # BoundingSphere.Intersects(const BoundingSphere&) method

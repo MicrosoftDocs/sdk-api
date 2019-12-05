@@ -1,19 +1,17 @@
 ---
 UID: NN:segment.IMSVidFilePlayback
 title: IMSVidFilePlayback (segment.h)
-
 description: The IMSVidFilePlayback interface enables the client to specify a local file for playback. It is implemented by the MSVidFilePlaybackDevice object.
 old-location: mstv\imsvidfileplayback.htm
 tech.root: mstv
 ms.assetid: d6afaf69-5c1b-4f7f-a3cf-51268d6bc2b5
-
 ms.date: 12/05/2018
 ms.keywords: IMSVidFilePlayback, IMSVidFilePlayback interface [Microsoft TV Technologies], IMSVidFilePlayback interface [Microsoft TV Technologies],described, IMSVidFilePlaybackInterface, mstv.imsvidfileplayback, segment/IMSVidFilePlayback
 ms.topic: interface
-f1_keywords: 
- - "segment/IMSVidFilePlayback"
+f1_keywords:
+- segment/IMSVidFilePlayback
 dev_langs:
- - c++
+- c++
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - segment.h
+- segment.h
 api_name:
- - IMSVidFilePlayback
+- IMSVidFilePlayback
 targetos: Windows
 req.typenames: 
 req.redist: 

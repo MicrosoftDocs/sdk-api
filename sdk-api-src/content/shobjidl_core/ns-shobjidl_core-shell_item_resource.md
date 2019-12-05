@@ -1,19 +1,17 @@
 ---
 UID: NS:shobjidl_core.SHELL_ITEM_RESOURCE
 title: SHELL_ITEM_RESOURCE (shobjidl_core.h)
-
 description: Defines Shell item resource.
 old-location: shell\SHELL_ITEM_RESOURCE.htm
 tech.root: shell
 ms.assetid: 92ca56a2-e2c3-4651-aa29-115eb07119e9
-
 ms.date: 12/05/2018
 ms.keywords: SHELL_ITEM_RESOURCE, SHELL_ITEM_RESOURCE structure [Windows Shell], _shell_SHELL_ITEM_RESOURCE, shell.SHELL_ITEM_RESOURCE, shobjidl_core/SHELL_ITEM_RESOURCE
 ms.topic: struct
-f1_keywords: 
- - "shobjidl_core/SHELL_ITEM_RESOURCE"
+f1_keywords:
+- shobjidl_core/SHELL_ITEM_RESOURCE
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Shobjidl_core.h
+- Shobjidl_core.h
 api_name:
- - SHELL_ITEM_RESOURCE
+- SHELL_ITEM_RESOURCE
 targetos: Windows
 req.typenames: SHELL_ITEM_RESOURCE
 req.redist: 

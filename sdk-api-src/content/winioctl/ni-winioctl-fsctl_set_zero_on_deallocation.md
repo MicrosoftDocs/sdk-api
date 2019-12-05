@@ -1,19 +1,17 @@
 ---
 UID: NI:winioctl.FSCTL_SET_ZERO_ON_DEALLOCATION
 title: FSCTL_SET_ZERO_ON_DEALLOCATION
-
 description: Indicates an NTFS file system file handle should have its clusters filled with zeros when it is deallocated.
 old-location: fs\fsctl_set_zero_on_deallocation.htm
 tech.root: FileIO
 ms.assetid: dc926f24-de52-431b-bac2-f97535de6848
-
 ms.date: 12/05/2018
 ms.keywords: FSCTL_SET_ZERO_ON_DEALLOCATION, FSCTL_SET_ZERO_ON_DEALLOCATION control, FSCTL_SET_ZERO_ON_DEALLOCATION control code [Files], fs.fsctl_set_zero_on_deallocation, winioctl/FSCTL_SET_ZERO_ON_DEALLOCATION
 ms.topic: ioctl
-f1_keywords: 
- - "winioctl/FSCTL_SET_ZERO_ON_DEALLOCATION"
+f1_keywords:
+- winioctl/FSCTL_SET_ZERO_ON_DEALLOCATION
 dev_langs:
- - c++
+- c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WinIoCtl.h
+- WinIoCtl.h
 api_name:
- - FSCTL_SET_ZERO_ON_DEALLOCATION
+- FSCTL_SET_ZERO_ON_DEALLOCATION
 targetos: Windows
 req.typenames: 
 req.redist: 

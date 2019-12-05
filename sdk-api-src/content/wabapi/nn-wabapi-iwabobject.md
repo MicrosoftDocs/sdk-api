@@ -1,19 +1,17 @@
 ---
 UID: NN:wabapi.IWABObject
 title: IWABObject (wabapi.h)
-
 description: Do not use. This interface provides access to the Windows Address Book (WAB) object which contains function pointers to memory allocation functions and database maintenance functions.
 old-location: wab\_wab_IWABObject.htm
 tech.root: wab
 ms.assetid: VS|wab|~\wab\reference\ifaces\iwabobject\iwabobject.htm
-
 ms.date: 12/05/2018
 ms.keywords: IWABObject, IWABObject interface [Windows Address Book], IWABObject interface [Windows Address Book],described, _wab_IWABObject, wab._wab_IWABObject, wabapi/IWABObject
 ms.topic: interface
-f1_keywords: 
- - "wabapi/IWABObject"
+f1_keywords:
+- wabapi/IWABObject
 dev_langs:
- - c++
+- c++
 req.header: wabapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wab32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wab32.dll
+- Wab32.dll
 api_name:
- - IWABObject
+- IWABObject
 targetos: Windows
 req.typenames: 
 req.redist: 

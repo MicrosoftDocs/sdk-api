@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IIOCancelInformation.GetCancelInformation
 title: IIOCancelInformation::GetCancelInformation (shobjidl_core.h)
-
 description: Returns information that is posted when a user selects Cancel from the progress UI.
 old-location: shell\IIOCancelInformation_GetCancelInformation.htm
 tech.root: shell
 ms.assetid: 201537b5-1866-4df6-a51d-3f07c18fe0c8
-
 ms.date: 12/05/2018
 ms.keywords: GetCancelInformation, GetCancelInformation method [Windows Shell], GetCancelInformation method [Windows Shell],IIOCancelInformation interface, IIOCancelInformation interface [Windows Shell],GetCancelInformation method, IIOCancelInformation.GetCancelInformation, IIOCancelInformation::GetCancelInformation, _shell_IIOCancelInformation_GetCancelInformation, shell.IIOCancelInformation_GetCancelInformation, shobjidl_core/IIOCancelInformation::GetCancelInformation
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IIOCancelInformation.GetCancelInformation"
+f1_keywords:
+- shobjidl_core/IIOCancelInformation.GetCancelInformation
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Shell32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - IIOCancelInformation.GetCancelInformation
+- IIOCancelInformation.GetCancelInformation
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:xpsobjectmodel_1.IXpsOMPackage1.GetDocumentType
 title: IXpsOMPackage1::GetDocumentType (xpsobjectmodel_1.h)
-
 description: Gets the document type of the data that was used to initialize this package. This method is used to determine whether a document is the XPS or OpenXPS type. For more information, see XPS Documents.
 old-location: xps\ixpsompackage1_getdocumenttype.htm
 tech.root: printdocs
 ms.assetid: 8f51e5c5-ac80-4f45-a0bb-ef19137fe391
-
 ms.date: 12/05/2018
 ms.keywords: GetDocumentType, GetDocumentType method [XPS Documents and Packaging], GetDocumentType method [XPS Documents and Packaging],IXpsOMPackage1 interface, IXpsOMPackage1 interface [XPS Documents and Packaging],GetDocumentType method, IXpsOMPackage1.GetDocumentType, IXpsOMPackage1::GetDocumentType, xps.ixpsompackage1_getdocumenttype, xpsobjectmodel_1/IXpsOMPackage1::GetDocumentType
 ms.topic: method
-f1_keywords: 
- - "xpsobjectmodel_1/IXpsOMPackage1.GetDocumentType"
+f1_keywords:
+- xpsobjectmodel_1/IXpsOMPackage1.GetDocumentType
 dev_langs:
- - c++
+- c++
 req.header: xpsobjectmodel_1.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: None
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - none
- - none.dll
+- none
+- none.dll
 api_name:
- - IXpsOMPackage1.GetDocumentType
+- IXpsOMPackage1.GetDocumentType
 targetos: Windows
 req.typenames: 
 req.redist: 

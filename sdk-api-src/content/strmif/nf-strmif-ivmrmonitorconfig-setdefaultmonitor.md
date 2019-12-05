@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IVMRMonitorConfig.SetDefaultMonitor
 title: IVMRMonitorConfig::SetDefaultMonitor (strmif.h)
-
 description: The SetDefaultMonitor method specifies the default monitor that all future instances of the VMR should use for video playback.
 old-location: dshow\ivmrmonitorconfig_setdefaultmonitor.htm
 tech.root: DirectShow
 ms.assetid: 85757536-ab7d-4b68-9e04-cf04fc4ebd5e
-
 ms.date: 12/05/2018
 ms.keywords: IVMRMonitorConfig interface [DirectShow],SetDefaultMonitor method, IVMRMonitorConfig.SetDefaultMonitor, IVMRMonitorConfig::SetDefaultMonitor, IVMRMonitorConfigSetDefaultMonitor, SetDefaultMonitor, SetDefaultMonitor method [DirectShow], SetDefaultMonitor method [DirectShow],IVMRMonitorConfig interface, dshow.ivmrmonitorconfig_setdefaultmonitor, strmif/IVMRMonitorConfig::SetDefaultMonitor
 ms.topic: method
-f1_keywords: 
- - "strmif/IVMRMonitorConfig.SetDefaultMonitor"
+f1_keywords:
+- strmif/IVMRMonitorConfig.SetDefaultMonitor
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IVMRMonitorConfig.SetDefaultMonitor
+- IVMRMonitorConfig.SetDefaultMonitor
 targetos: Windows
 req.typenames: 
 req.redist: 

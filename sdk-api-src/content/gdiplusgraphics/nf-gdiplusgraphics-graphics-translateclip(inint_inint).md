@@ -1,19 +1,17 @@
 ---
 UID: NF:gdiplusgraphics.Graphics.TranslateClip(IN INT,IN INT)
 title: Graphics::TranslateClip(IN INT,IN INT) (gdiplusgraphics.h)
-
 description: The Graphics::TranslateClip method translates the clipping region of this Graphics object.
 old-location: gdiplus\_gdiplus_CLASS_Graphics_TranslateClip_INT_dx_INT_dy_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\graphicstranslateclipmethods\translateclip.htm
-
 ms.date: 12/05/2018
 ms.keywords: Graphics class [GDI+],TranslateClip method, Graphics.TranslateClip, Graphics.TranslateClip(IN INT,IN INT), Graphics.TranslateClip(INT,INT), Graphics::TranslateClip, Graphics::TranslateClip(IN INT,IN INT), TranslateClip, TranslateClip method [GDI+], TranslateClip method [GDI+],Graphics class, _gdiplus_CLASS_Graphics_TranslateClip_INT_dx_INT_dy_, gdiplus._gdiplus_CLASS_Graphics_TranslateClip_INT_dx_INT_dy_
 ms.topic: method
-f1_keywords: 
- - "gdiplusgraphics/Graphics.TranslateClip"
+f1_keywords:
+- gdiplusgraphics/Graphics.TranslateClip
 dev_langs:
- - c++
+- c++
 req.header: gdiplusgraphics.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - Graphics.TranslateClip
+- Graphics.TranslateClip
 targetos: Windows
 req.typenames: 
 req.redist: 

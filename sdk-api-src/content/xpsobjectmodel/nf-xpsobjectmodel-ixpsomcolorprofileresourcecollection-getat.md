@@ -1,19 +1,17 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMColorProfileResourceCollection.GetAt
 title: IXpsOMColorProfileResourceCollection::GetAt (xpsobjectmodel.h)
-
 description: Gets an IXpsOMColorProfileResource interface pointer from a specified location in the collection.
 old-location: xps\ixpsomcolorprofileresourcecollection_getat.htm
 tech.root: printdocs
 ms.assetid: ecb8b3e7-182f-446a-bc12-28762da1f930
-
 ms.date: 12/05/2018
 ms.keywords: GetAt, GetAt method [XPS Documents and Packaging], GetAt method [XPS Documents and Packaging],IXpsOMColorProfileResourceCollection interface, IXpsOMColorProfileResourceCollection interface [XPS Documents and Packaging],GetAt method, IXpsOMColorProfileResourceCollection.GetAt, IXpsOMColorProfileResourceCollection::GetAt, xps.ixpsomcolorprofileresourcecollection_getat, xpsobjectmodel/IXpsOMColorProfileResourceCollection::GetAt
 ms.topic: method
-f1_keywords: 
- - "xpsobjectmodel/IXpsOMColorProfileResourceCollection.GetAt"
+f1_keywords:
+- xpsobjectmodel/IXpsOMColorProfileResourceCollection.GetAt
 dev_langs:
- - c++
+- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsobjectmodel.h
+- xpsobjectmodel.h
 api_name:
- - IXpsOMColorProfileResourceCollection.GetAt
+- IXpsOMColorProfileResourceCollection.GetAt
 targetos: Windows
 req.typenames: 
 req.redist: 

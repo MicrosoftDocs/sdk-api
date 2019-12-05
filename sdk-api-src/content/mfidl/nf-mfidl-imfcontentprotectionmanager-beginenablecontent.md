@@ -1,19 +1,17 @@
 ---
 UID: NF:mfidl.IMFContentProtectionManager.BeginEnableContent
 title: IMFContentProtectionManager::BeginEnableContent (mfidl.h)
-
 description: Begins an asynchronous request to perform a content enabling action.
 old-location: mf\imfcontentprotectionmanager_beginenablecontent.htm
 tech.root: medfound
 ms.assetid: 2f422135-8e5f-41fb-a709-77636d1b451b
-
 ms.date: 12/05/2018
 ms.keywords: 2f422135-8e5f-41fb-a709-77636d1b451b, BeginEnableContent, BeginEnableContent method [Media Foundation], BeginEnableContent method [Media Foundation],IMFContentProtectionManager interface, IMFContentProtectionManager interface [Media Foundation],BeginEnableContent method, IMFContentProtectionManager.BeginEnableContent, IMFContentProtectionManager::BeginEnableContent, mf.imfcontentprotectionmanager_beginenablecontent, mfidl/IMFContentProtectionManager::BeginEnableContent
 ms.topic: method
-f1_keywords: 
- - "mfidl/IMFContentProtectionManager.BeginEnableContent"
+f1_keywords:
+- mfidl/IMFContentProtectionManager.BeginEnableContent
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFContentProtectionManager.BeginEnableContent
+- IMFContentProtectionManager.BeginEnableContent
 targetos: Windows
 req.typenames: 
 req.redist: 

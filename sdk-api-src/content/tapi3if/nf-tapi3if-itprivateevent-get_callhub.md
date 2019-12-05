@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi3if.ITPrivateEvent.get_CallHub
 title: ITPrivateEvent::get_CallHub (tapi3if.h)
-
 description: The get_CallHub method returns a pointer to the ITCallHub interface on which the event occurred.
 old-location: tapi3\itprivateevent_get_callhub.htm
 tech.root: Tapi
 ms.assetid: c69f0c96-134f-4b78-91dc-44339aa06a98
-
 ms.date: 12/05/2018
 ms.keywords: ITPrivateEvent interface [TAPI 2.2],get_CallHub method, ITPrivateEvent.get_CallHub, ITPrivateEvent::get_CallHub, _tapi3_itprivateevent_get_callhub, get_CallHub, get_CallHub method [TAPI 2.2], get_CallHub method [TAPI 2.2],ITPrivateEvent interface, tapi3.itprivateevent_get_callhub, tapi3if/ITPrivateEvent::get_CallHub
 ms.topic: method
-f1_keywords: 
- - "tapi3if/ITPrivateEvent.get_CallHub"
+f1_keywords:
+- tapi3if/ITPrivateEvent.get_CallHub
 dev_langs:
- - c++
+- c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Tapi3.dll
+- Tapi3.dll
 api_name:
- - ITPrivateEvent.get_CallHub
+- ITPrivateEvent.get_CallHub
 targetos: Windows
 req.typenames: 
 req.redist: 

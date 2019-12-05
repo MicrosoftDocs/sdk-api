@@ -1,19 +1,17 @@
 ---
 UID: NF:mdmregistration.DiscoverManagementService
 title: DiscoverManagementService function (mdmregistration.h)
-
 description: Discovers the MDM service.
 old-location: mdmreg\discovermanagementservice.htm
 tech.root: MDMReg
 ms.assetid: 0b01225c-83db-4b13-ad7e-52beae05a8ee
-
 ms.date: 12/05/2018
 ms.keywords: DiscoverManagementService, DiscoverManagementService function [MDM Registration], mdmreg.discovermanagementservice, mdmregistration/DiscoverManagementService
 ms.topic: function
-f1_keywords: 
- - "mdmregistration/DiscoverManagementService"
+f1_keywords:
+- mdmregistration/DiscoverManagementService
 dev_langs:
- - c++
+- c++
 req.header: mdmregistration.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: MDMRegistration.lib
 req.dll: MDMRegistration.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - MDMRegistration.dll
+- MDMRegistration.dll
 api_name:
- - DiscoverManagementService
+- DiscoverManagementService
 targetos: Windows
 req.typenames: 
 req.redist: 

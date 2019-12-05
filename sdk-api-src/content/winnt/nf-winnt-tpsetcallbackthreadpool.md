@@ -1,19 +1,17 @@
 ---
 UID: NF:winnt.TpSetCallbackThreadpool
 title: TpSetCallbackThreadpool function (winnt.h)
-
 description: Assigns a thread pool to a callback environment.
 old-location: base\tpsetcallbackthreadpool.htm
 tech.root: ProcThread
 ms.assetid: A1BED20A-9DB5-4B5A-B1AD-60454176AB1D
-
 ms.date: 12/05/2018
 ms.keywords: TpSetCallbackThreadpool, TpSetCallbackThreadpool function, base.tpsetcallbackthreadpool, winnt/TpSetCallbackThreadpool
 ms.topic: function
-f1_keywords: 
- - "winnt/TpSetCallbackThreadpool"
+f1_keywords:
+- winnt/TpSetCallbackThreadpool
 dev_langs:
- - c++
+- c++
 req.header: winnt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - winnt.h
+- winnt.h
 api_name:
- - TpSetCallbackThreadpool
+- TpSetCallbackThreadpool
 targetos: Windows
 req.typenames: 
 req.redist: 

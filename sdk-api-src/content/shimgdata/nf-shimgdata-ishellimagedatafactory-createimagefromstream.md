@@ -1,19 +1,17 @@
 ---
 UID: NF:shimgdata.IShellImageDataFactory.CreateImageFromStream
 title: IShellImageDataFactory::CreateImageFromStream (shimgdata.h)
-
 description: Creates an instance of the IShellImageData interface based on a given file stream.
 old-location: shell\IShellImageDataFactory_CreateImageFromStream.htm
 tech.root: shell
 ms.assetid: 009c4b46-0f2c-43ee-84be-017bf12b28e5
-
 ms.date: 12/05/2018
 ms.keywords: CreateImageFromStream, CreateImageFromStream method [Windows Shell], CreateImageFromStream method [Windows Shell],IShellImageDataFactory interface, IShellImageDataFactory interface [Windows Shell],CreateImageFromStream method, IShellImageDataFactory.CreateImageFromStream, IShellImageDataFactory::CreateImageFromStream, _shell_IShellImageDataFactory_CreateImageFromStream, shell.IShellImageDataFactory_CreateImageFromStream, shimgdata/IShellImageDataFactory::CreateImageFromStream
 ms.topic: method
-f1_keywords: 
- - "shimgdata/IShellImageDataFactory.CreateImageFromStream"
+f1_keywords:
+- shimgdata/IShellImageDataFactory.CreateImageFromStream
 dev_langs:
- - c++
+- c++
 req.header: shimgdata.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Shell32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - IShellImageDataFactory.CreateImageFromStream
+- IShellImageDataFactory.CreateImageFromStream
 targetos: Windows
 req.typenames: 
 req.redist: 

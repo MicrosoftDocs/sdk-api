@@ -1,19 +1,17 @@
 ---
 UID: NF:segment.IMSVidStreamBufferSink.get_SinkName
 title: IMSVidStreamBufferSink::get_SinkName (segment.h)
-
 description: The get_SinkName method retrieves the name of the stub file that points to the backing files.
 old-location: mstv\imsvidstreambuffersink_get_sinkname.htm
 tech.root: mstv
 ms.assetid: a1fda0a0-7b18-4eb8-9555-19fb92fc32f2
-
 ms.date: 12/05/2018
 ms.keywords: IMSVidStreamBufferSink interface [Microsoft TV Technologies],get_SinkName method, IMSVidStreamBufferSink.get_SinkName, IMSVidStreamBufferSink::get_SinkName, IMSVidStreamBufferSinkget_SinkName, get_SinkName, get_SinkName method [Microsoft TV Technologies], get_SinkName method [Microsoft TV Technologies],IMSVidStreamBufferSink interface, mstv.imsvidstreambuffersink_get_sinkname, segment/IMSVidStreamBufferSink::get_SinkName
 ms.topic: method
-f1_keywords: 
- - "segment/IMSVidStreamBufferSink.get_SinkName"
+f1_keywords:
+- segment/IMSVidStreamBufferSink.get_SinkName
 dev_langs:
- - c++
+- c++
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - segment.h
+- segment.h
 api_name:
- - IMSVidStreamBufferSink.get_SinkName
+- IMSVidStreamBufferSink.get_SinkName
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:commctrl.TreeView_MapAccIDToHTREEITEM
 title: TreeView_MapAccIDToHTREEITEM macro (commctrl.h)
-
 description: Maps an accessibility ID to an HTREEITEM. You can use this macro or send the TVM_MAPACCIDTOHTREEITEM message explicitly.
 old-location: controls\TreeView_MapAccIDToHTREEITEM.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\treeview\macros\treeview_mapaccidtohtreeitem.htm
-
 ms.date: 12/05/2018
 ms.keywords: TreeView_MapAccIDToHTREEITEM, TreeView_MapAccIDToHTREEITEM macro [Windows Controls], _win32_TreeView_MapAccIDToHTREEITEM, _win32_TreeView_MapAccIDToHTREEITEM_cpp, commctrl/TreeView_MapAccIDToHTREEITEM, controls.TreeView_MapAccIDToHTREEITEM, controls._win32_TreeView_MapAccIDToHTREEITEM
 ms.topic: macro
-f1_keywords: 
- - "commctrl/TreeView_MapAccIDToHTREEITEM"
+f1_keywords:
+- commctrl/TreeView_MapAccIDToHTREEITEM
 dev_langs:
- - c++
+- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Commctrl.h
+- Commctrl.h
 api_name:
- - TreeView_MapAccIDToHTREEITEM
+- TreeView_MapAccIDToHTREEITEM
 targetos: Windows
 req.typenames: 
 req.redist: 

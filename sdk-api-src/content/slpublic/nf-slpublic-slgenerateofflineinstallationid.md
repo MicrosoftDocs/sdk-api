@@ -1,19 +1,17 @@
 ---
 UID: NF:slpublic.SLGenerateOfflineInstallationId
 title: SLGenerateOfflineInstallationId function (slpublic.h)
-
 description: Generates the Installation ID (IID).
 old-location: security\slgenerateofflineinstallationid.htm
 tech.root: SecSLApi
 ms.assetid: 2bfbedfc-6fac-468b-8314-c856aab856d0
-
 ms.date: 12/05/2018
 ms.keywords: SLGenerateOfflineInstallationId, SLGenerateOfflineInstallationId function [Security], security.slgenerateofflineinstallationid, slpublic/SLGenerateOfflineInstallationId
 ms.topic: function
-f1_keywords: 
- - "slpublic/SLGenerateOfflineInstallationId"
+f1_keywords:
+- slpublic/SLGenerateOfflineInstallationId
 dev_langs:
- - c++
+- c++
 req.header: slpublic.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Slc.lib
 req.dll: Slc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Slc.dll
+- Slc.dll
 api_name:
- - SLGenerateOfflineInstallationId
+- SLGenerateOfflineInstallationId
 targetos: Windows
 req.typenames: 
 req.redist: 

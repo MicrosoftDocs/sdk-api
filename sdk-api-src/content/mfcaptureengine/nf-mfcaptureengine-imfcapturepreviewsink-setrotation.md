@@ -1,19 +1,17 @@
 ---
 UID: NF:mfcaptureengine.IMFCapturePreviewSink.SetRotation
 title: IMFCapturePreviewSink::SetRotation (mfcaptureengine.h)
-
 description: Rotates the video preview stream.
 old-location: mf\imfcapturepreviewsink_setrotation.htm
 tech.root: medfound
 ms.assetid: 84C53A34-B2FB-4D13-9A45-5172E9E3CEE8
-
 ms.date: 12/05/2018
 ms.keywords: IMFCapturePreviewSink interface [Media Foundation],SetRotation method, IMFCapturePreviewSink.SetRotation, IMFCapturePreviewSink::SetRotation, SetRotation, SetRotation method [Media Foundation], SetRotation method [Media Foundation],IMFCapturePreviewSink interface, mf.imfcapturepreviewsink_setrotation, mfcaptureengine/IMFCapturePreviewSink::SetRotation
 ms.topic: method
-f1_keywords: 
- - "mfcaptureengine/IMFCapturePreviewSink.SetRotation"
+f1_keywords:
+- mfcaptureengine/IMFCapturePreviewSink.SetRotation
 dev_langs:
- - c++
+- c++
 req.header: mfcaptureengine.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfcaptureengine.h
+- mfcaptureengine.h
 api_name:
- - IMFCapturePreviewSink.SetRotation
+- IMFCapturePreviewSink.SetRotation
 targetos: Windows
 req.typenames: 
 req.redist: 

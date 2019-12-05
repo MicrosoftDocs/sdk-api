@@ -1,19 +1,17 @@
 ---
 UID: NF:d2d1effectauthor.ID2D1ComputeTransform.SetComputeInfo
 title: ID2D1ComputeTransform::SetComputeInfo (d2d1effectauthor.h)
-
 description: Sets the render information used to specify the compute shader pass.
 old-location: direct2d\id2d1computetransform_setrenderinfo.htm
 tech.root: Direct2D
 ms.assetid: 9FDA98A0-90DC-47A5-8839-33606A12C700
-
 ms.date: 12/05/2018
 ms.keywords: ID2D1ComputeTransform interface [Direct2D],SetComputeInfo method, ID2D1ComputeTransform.SetComputeInfo, ID2D1ComputeTransform::SetComputeInfo, SetComputeInfo, SetComputeInfo method [Direct2D], SetComputeInfo method [Direct2D],ID2D1ComputeTransform interface, d2d1effectauthor/ID2D1ComputeTransform::SetComputeInfo, direct2d.id2d1computetransform_setrenderinfo
 ms.topic: method
-f1_keywords: 
- - "d2d1effectauthor/ID2D1ComputeTransform.SetComputeInfo"
+f1_keywords:
+- d2d1effectauthor/ID2D1ComputeTransform.SetComputeInfo
 dev_langs:
- - c++
+- c++
 req.header: d2d1effectauthor.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: D2d1.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - d2d1.lib
- - d2d1.dll
+- d2d1.lib
+- d2d1.dll
 api_name:
- - ID2D1ComputeTransform.SetComputeInfo
+- ID2D1ComputeTransform.SetComputeInfo
 targetos: Windows
 req.typenames: 
 req.redist: 

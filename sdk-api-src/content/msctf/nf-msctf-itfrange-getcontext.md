@@ -1,19 +1,17 @@
 ---
 UID: NF:msctf.ITfRange.GetContext
 title: ITfRange::GetContext (msctf.h)
-
 description: ITfRange::GetContext method
 old-location: tsf\itfrange_getcontext.htm
 tech.root: TSF
 ms.assetid: c3ba1424-f6c9-41f1-b815-4c315bfba868
-
 ms.date: 12/05/2018
 ms.keywords: GetContext, GetContext method [Text Services Framework], GetContext method [Text Services Framework],ITfRange interface, ITfRange interface [Text Services Framework],GetContext method, ITfRange.GetContext, ITfRange::GetContext, _tsf_itfrange_getcontext_ref, msctf/ITfRange::GetContext, tsf.itfrange_getcontext
 ms.topic: method
-f1_keywords: 
- - "msctf/ITfRange.GetContext"
+f1_keywords:
+- msctf/ITfRange.GetContext
 dev_langs:
- - c++
+- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msctf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msctf.dll
+- Msctf.dll
 api_name:
- - ITfRange.GetContext
+- ITfRange.GetContext
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

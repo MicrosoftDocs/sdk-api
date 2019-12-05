@@ -1,19 +1,17 @@
 ---
 UID: NF:qos2.QOSRemoveSocketFromFlow
 title: QOSRemoveSocketFromFlow function (qos2.h)
-
 description: Notifies the QOS subsystem that a previously added flow has been terminated.
 old-location: qos\qosremovesocketfromflow.htm
 tech.root: QOS
 ms.assetid: c67dc959-2511-4a95-87e4-1689f49c167a
-
 ms.date: 12/05/2018
 ms.keywords: QOSRemoveSocketFromFlow, QOSRemoveSocketFromFlow function [QOS], qos.qosremovesocketfromflow, qos2/QOSRemoveSocketFromFlow
 ms.topic: function
-f1_keywords: 
- - "qos2/QOSRemoveSocketFromFlow"
+f1_keywords:
+- qos2/QOSRemoveSocketFromFlow
 dev_langs:
- - c++
+- c++
 req.header: qos2.h
 req.include-header: Qos2.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Qwave.lib
 req.dll: Qwave.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - qwave.dll
+- qwave.dll
 api_name:
- - QOSRemoveSocketFromFlow
+- QOSRemoveSocketFromFlow
 targetos: Windows
 req.typenames: 
 req.redist: 

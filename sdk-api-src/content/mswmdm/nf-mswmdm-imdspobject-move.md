@@ -1,19 +1,17 @@
 ---
 UID: NF:mswmdm.IMDSPObject.Move
 title: IMDSPObject::Move (mswmdm.h)
-
 description: The Move method moves a file or folder on a media device.
 old-location: wmdm\imdspobject_move.htm
 tech.root: WMDM
 ms.assetid: 0b054233-1792-4845-81c9-cf20c81d135f
-
 ms.date: 12/05/2018
 ms.keywords: IMDSPObject interface [windows Media Device Manager],Move method, IMDSPObject.Move, IMDSPObject::Move, IMDSPObjectMove, Move, Move method [windows Media Device Manager], Move method [windows Media Device Manager],IMDSPObject interface, mswmdm/IMDSPObject::Move, wmdm.imdspobject_move
 ms.topic: method
-f1_keywords: 
- - "mswmdm/IMDSPObject.Move"
+f1_keywords:
+- mswmdm/IMDSPObject.Move
 dev_langs:
- - c++
+- c++
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mssachlp.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mssachlp.lib
- - mssachlp.dll
+- mssachlp.lib
+- mssachlp.dll
 api_name:
- - IMDSPObject.Move
+- IMDSPObject.Move
 targetos: Windows
 req.typenames: 
 req.redist: 

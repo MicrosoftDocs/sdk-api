@@ -1,19 +1,17 @@
 ---
 UID: NF:mprapi.MprAdminMIBEntryGet
 title: MprAdminMIBEntryGet function (mprapi.h)
-
 description: The MprAdminMIBEntryGet function retrieves the value of one of the variables exported by a routing protocol or router manager.
 old-location: rras\mpradminmibentryget.htm
 tech.root: RRAS
 ms.assetid: 98e88364-4757-4b43-8316-6d4d9b3c2f29
-
 ms.date: 12/05/2018
 ms.keywords: MprAdminMIBEntryGet, MprAdminMIBEntryGet function [RAS], _mpr_mpradminmibentryget, mprapi/MprAdminMIBEntryGet, rras.mpradminmibentryget
 ms.topic: function
-f1_keywords: 
- - "mprapi/MprAdminMIBEntryGet"
+f1_keywords:
+- mprapi/MprAdminMIBEntryGet
 dev_langs:
- - c++
+- c++
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Mprapi.lib
 req.dll: Mprapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Mprapi.dll
+- Mprapi.dll
 api_name:
- - MprAdminMIBEntryGet
+- MprAdminMIBEntryGet
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:comsvcs.IComThreadEvents.OnThreadTerminate
 title: IComThreadEvents::OnThreadTerminate (comsvcs.h)
-
 description: Generated when a single-threaded apartment (STA) thread is terminated.
 old-location: cos\icomthreadevents_onthreadterminate.htm
 tech.root: cossdk
 ms.assetid: 8483962c-46c9-4ef1-8c7e-391a04334293
-
 ms.date: 12/05/2018
 ms.keywords: IComThreadEvents interface [COM+],OnThreadTerminate method, IComThreadEvents.OnThreadTerminate, IComThreadEvents::OnThreadTerminate, OnThreadTerminate, OnThreadTerminate method [COM+], OnThreadTerminate method [COM+],IComThreadEvents interface, _dtc_IComThreadEvents_OnThreadTerminate, comsvcs/IComThreadEvents::OnThreadTerminate, cos.icomthreadevents_onthreadterminate
 ms.topic: method
-f1_keywords: 
- - "comsvcs/IComThreadEvents.OnThreadTerminate"
+f1_keywords:
+- comsvcs/IComThreadEvents.OnThreadTerminate
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - IComThreadEvents.OnThreadTerminate
+- IComThreadEvents.OnThreadTerminate
 targetos: Windows
 req.typenames: 
 req.redist: 

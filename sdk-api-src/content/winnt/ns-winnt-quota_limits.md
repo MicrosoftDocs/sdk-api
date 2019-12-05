@@ -1,19 +1,17 @@
 ---
 UID: NS:winnt._QUOTA_LIMITS
 title: QUOTA_LIMITS (winnt.h)
-
 description: Describes the amount of system resources available to a user.
 old-location: security\quota_limits.htm
 tech.root: SecAuthN
 ms.assetid: 7514ec77-34b1-490d-ba21-3b6944942aa7
-
 ms.date: 12/05/2018
-ms.keywords: "*PQUOTA_LIMITS, PQUOTA_LIMITS, PQUOTA_LIMITS structure pointer [Security], QUOTA_LIMITS, QUOTA_LIMITS structure [Security], _QUOTA_LIMITS, _lsa_quota_limits, security.quota_limits, winnt/PQUOTA_LIMITS, winnt/QUOTA_LIMITS"
+ms.keywords: '*PQUOTA_LIMITS, PQUOTA_LIMITS, PQUOTA_LIMITS structure pointer [Security], QUOTA_LIMITS, QUOTA_LIMITS structure [Security], _QUOTA_LIMITS, _lsa_quota_limits, security.quota_limits, winnt/PQUOTA_LIMITS, winnt/QUOTA_LIMITS'
 ms.topic: struct
-f1_keywords: 
- - "winnt/QUOTA_LIMITS"
+f1_keywords:
+- winnt/QUOTA_LIMITS
 dev_langs:
- - c++
+- c++
 req.header: winnt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Winnt.h
+- Winnt.h
 api_name:
- - QUOTA_LIMITS
+- QUOTA_LIMITS
 targetos: Windows
 req.typenames: QUOTA_LIMITS, *PQUOTA_LIMITS
 req.redist: 

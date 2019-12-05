@@ -1,19 +1,17 @@
 ---
 UID: NF:wmsdkidl.IWMStreamConfig.SetBufferWindow
 title: IWMStreamConfig::SetBufferWindow (wmsdkidl.h)
-
 description: The SetBufferWindow method specifies the maximum latency between when a stream is received and when it begins to be displayed.
 old-location: wmformat\iwmstreamconfig_setbufferwindow.htm
 tech.root: wmformat
 ms.assetid: ae14f3df-222a-494c-a171-02aed04490d1
-
 ms.date: 12/05/2018
 ms.keywords: IWMStreamConfig interface [windows Media Format],SetBufferWindow method, IWMStreamConfig.SetBufferWindow, IWMStreamConfig::SetBufferWindow, IWMStreamConfigSetBufferWindow, SetBufferWindow, SetBufferWindow method [windows Media Format], SetBufferWindow method [windows Media Format],IWMStreamConfig interface, wmformat.iwmstreamconfig_setbufferwindow, wmsdkidl/IWMStreamConfig::SetBufferWindow
 ms.topic: method
-f1_keywords: 
- - "wmsdkidl/IWMStreamConfig.SetBufferWindow"
+f1_keywords:
+- wmsdkidl/IWMStreamConfig.SetBufferWindow
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wmvcore.lib
- - Wmvcore.dll
- - WMStubDRM.lib
- - WMStubDRM.dll
+- Wmvcore.lib
+- Wmvcore.dll
+- WMStubDRM.lib
+- WMStubDRM.dll
 api_name:
- - IWMStreamConfig.SetBufferWindow
+- IWMStreamConfig.SetBufferWindow
 targetos: Windows
 req.typenames: 
 req.redist: 

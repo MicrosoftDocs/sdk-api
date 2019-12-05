@@ -1,19 +1,17 @@
 ---
 UID: NF:synchapi.CreateWaitableTimerExW
 title: CreateWaitableTimerExW function (synchapi.h)
-
 description: Creates or opens a waitable timer object and returns a handle to the object.
 old-location: base\createwaitabletimerex.htm
 tech.root: Sync
 ms.assetid: 9ef51567-7d0f-4a2e-a798-289564733410
-
 ms.date: 12/05/2018
 ms.keywords: CREATE_WAITABLE_TIMER_MANUAL_RESET, CreateWaitableTimerEx, CreateWaitableTimerEx function, CreateWaitableTimerExA, CreateWaitableTimerExW, base.createwaitabletimerex, synchapi/CreateWaitableTimerEx, synchapi/CreateWaitableTimerExA, synchapi/CreateWaitableTimerExW
 ms.topic: function
-f1_keywords: 
- - "synchapi/CreateWaitableTimerEx"
+f1_keywords:
+- synchapi/CreateWaitableTimerEx
 dev_langs:
- - c++
+- c++
 req.header: synchapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,24 +30,24 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-Synch-l1-1-0.dll
- - KernelBase.dll
- - API-MS-Win-Core-Synch-l1-2-0.dll
- - API-MS-Win-Core-Synch-l1-2-1.dll
- - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
- - MinKernelBase.dll
- - API-MS-Win-Core-Synch-Ansi-L1-1-0.dll
- - Kernel32Legacy.dll
+- Kernel32.dll
+- API-MS-Win-Core-Synch-l1-1-0.dll
+- KernelBase.dll
+- API-MS-Win-Core-Synch-l1-2-0.dll
+- API-MS-Win-Core-Synch-l1-2-1.dll
+- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+- MinKernelBase.dll
+- API-MS-Win-Core-Synch-Ansi-L1-1-0.dll
+- Kernel32Legacy.dll
 api_name:
- - CreateWaitableTimerEx
- - CreateWaitableTimerExA
- - CreateWaitableTimerExW
+- CreateWaitableTimerEx
+- CreateWaitableTimerExA
+- CreateWaitableTimerExW
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:rpcdce.RpcObjectInqType
 title: RpcObjectInqType function (rpcdce.h)
-
 description: The RpcObjectInqType function returns the type of an object.
 old-location: rpc\rpcobjectinqtype.htm
 tech.root: Rpc
 ms.assetid: 9146d4be-4a8a-4655-bd5b-e12f81fd4d23
-
 ms.date: 12/05/2018
 ms.keywords: RpcObjectInqType, RpcObjectInqType function [RPC], _rpc_rpcobjectinqtype, rpc.rpcobjectinqtype, rpcdce/RpcObjectInqType
 ms.topic: function
-f1_keywords: 
- - "rpcdce/RpcObjectInqType"
+f1_keywords:
+- rpcdce/RpcObjectInqType
 dev_langs:
- - c++
+- c++
 req.header: rpcdce.h
 req.include-header: Rpc.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Rpcrt4.lib
 req.dll: Rpcrt4.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Rpcrt4.dll
+- Rpcrt4.dll
 api_name:
- - RpcObjectInqType
+- RpcObjectInqType
 targetos: Windows
 req.typenames: 
 req.redist: 

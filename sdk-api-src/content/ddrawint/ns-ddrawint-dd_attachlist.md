@@ -1,19 +1,17 @@
 ---
 UID: NS:ddrawint._DD_ATTACHLIST
 title: DD_ATTACHLIST (ddrawint.h)
-
 description: The DD_ATTACHLIST structure maintains a list of attached surfaces for Microsoft DirectDraw.
 old-location: display\dd_attachlist.htm
 tech.root: display
 ms.assetid: d79b9277-ef71-4ef8-804c-d5bc8f772d0f
-
 ms.date: 12/05/2018
 ms.keywords: '*PDD_ATTACHLIST, DD_ATTACHLIST, DD_ATTACHLIST structure [Display Devices], ddrawint/DD_ATTACHLIST, ddstrcts_3c38acaf-5568-4af1-ae84-a6f4752b2a02.xml, display.dd_attachlist'
 ms.topic: struct
 f1_keywords:
 - ddrawint/DD_ATTACHLIST
 dev_langs:
- - c++
+- c++
 req.header: ddrawint.h
 req.include-header: Winddi.h
 req.target-type: Windows

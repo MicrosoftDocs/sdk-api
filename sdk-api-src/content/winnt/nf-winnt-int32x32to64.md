@@ -1,19 +1,17 @@
 ---
 UID: NF:winnt.Int32x32To64
 title: Int32x32To64 macro (winnt.h)
-
 description: Multiplies two signed 32-bit integers, returning a signed 64-bit integer result.
 old-location: winprog\int32x32to64.htm
 tech.root: WinProg
 ms.assetid: 5c0caf42-2a2f-4eae-b0be-e8bb1b87dd9d
-
 ms.date: 12/05/2018
 ms.keywords: Int32x32To64, Int32x32To64 macro [Windows API], _win32_int32x32to64, winnt/Int32x32To64, winprog.int32x32to64
 ms.topic: macro
-f1_keywords: 
- - "winnt/Int32x32To64"
+f1_keywords:
+- winnt/Int32x32To64
 dev_langs:
- - c++
+- c++
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Winnt.h
+- Winnt.h
 api_name:
- - Int32x32To64
+- Int32x32To64
 targetos: Windows
 req.typenames: 
 req.redist: 

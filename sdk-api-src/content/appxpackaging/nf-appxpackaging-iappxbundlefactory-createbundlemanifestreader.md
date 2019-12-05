@@ -1,19 +1,17 @@
 ---
 UID: NF:appxpackaging.IAppxBundleFactory.CreateBundleManifestReader
 title: IAppxBundleFactory::CreateBundleManifestReader (appxpackaging.h)
-
 description: Creates a read-only bundle manifest object from a standalone stream to AppxBundleManifest.xml.
 old-location: appxpkg\iappxbundlefactory_createbundlemanifestreader.htm
 tech.root: appxpkg
 ms.assetid: 8D537830-A8AA-4652-B6F2-F7A545B8877E
-
 ms.date: 12/05/2018
 ms.keywords: CreateBundleManifestReader, CreateBundleManifestReader method [App packaging and management], CreateBundleManifestReader method [App packaging and management],IAppxBundleFactory interface, IAppxBundleFactory interface [App packaging and management],CreateBundleManifestReader method, IAppxBundleFactory.CreateBundleManifestReader, IAppxBundleFactory::CreateBundleManifestReader, appxpackaging/IAppxBundleFactory::CreateBundleManifestReader, appxpkg.iappxbundlefactory_createbundlemanifestreader
 ms.topic: method
-f1_keywords: 
- - "appxpackaging/IAppxBundleFactory.CreateBundleManifestReader"
+f1_keywords:
+- appxpackaging/IAppxBundleFactory.CreateBundleManifestReader
 dev_langs:
- - c++
+- c++
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - AppxPackaging.h
+- AppxPackaging.h
 api_name:
- - IAppxBundleFactory.CreateBundleManifestReader
+- IAppxBundleFactory.CreateBundleManifestReader
 targetos: Windows
 req.typenames: 
 req.redist: 

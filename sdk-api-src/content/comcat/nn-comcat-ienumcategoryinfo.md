@@ -1,19 +1,17 @@
 ---
 UID: NN:comcat.IEnumCATEGORYINFO
 title: IEnumCATEGORYINFO (comcat.h)
-
 description: Enumerates component categories registered in the system.
 old-location: com\ienumcategoryinfo.htm
 tech.root: com
 ms.assetid: 87469ace-ae34-40e5-aab6-f26a4bc50b54
-
 ms.date: 12/05/2018
 ms.keywords: IEnumCATEGORYINFO, IEnumCATEGORYINFO interface [COM], IEnumCATEGORYINFO interface [COM],described, _com_ienumcategoryinfo, com.ienumcategoryinfo, comcat/IEnumCATEGORYINFO
 ms.topic: interface
-f1_keywords: 
- - "comcat/IEnumCATEGORYINFO"
+f1_keywords:
+- comcat/IEnumCATEGORYINFO
 dev_langs:
- - c++
+- c++
 req.header: comcat.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComCat.h
+- ComCat.h
 api_name:
- - IEnumCATEGORYINFO
+- IEnumCATEGORYINFO
 targetos: Windows
 req.typenames: 
 req.redist: 

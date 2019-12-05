@@ -1,19 +1,17 @@
 ---
 UID: NF:directxmath.XMLoadUInt4
 title: XMLoadUInt4 function (directxmath.h)
-
 description: Loads unsigned integer data into an XMVECTOR.
 old-location: dxmath\xmloaduint4.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.loading.XMLoadUInt4(const XMUINT4)
-
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMLoadUInt4, XMLoadUInt4, XMLoadUInt4 method [DirectX Math Support APIs], dxmath.xmloaduint4
 ms.topic: function
-f1_keywords: 
- - "directxmath/XMLoadUInt4"
+f1_keywords:
+- directxmath/XMLoadUInt4
 dev_langs:
- - c++
+- c++
 req.header: directxmath.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - DirectXMath.h
+- DirectXMath.h
 api_name:
- - XMLoadUInt4
+- XMLoadUInt4
 targetos: Windows
 req.typenames: 
 req.redist: 

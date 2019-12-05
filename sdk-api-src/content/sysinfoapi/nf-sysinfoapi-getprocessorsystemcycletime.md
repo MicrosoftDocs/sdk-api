@@ -1,19 +1,17 @@
 ---
 UID: NF:sysinfoapi.GetProcessorSystemCycleTime
 title: GetProcessorSystemCycleTime function (sysinfoapi.h)
-
 description: Retrieves the cycle time each processor in the specified processor group spent executing deferred procedure calls (DPCs) and interrupt service routines (ISRs) since the processor became active.
 old-location: base\getprocessorsystemcycletime.htm
 tech.root: ProcThread
 ms.assetid: 231c2a26-4a2e-4c66-a652-eb9c886369b2
-
 ms.date: 12/05/2018
 ms.keywords: GetProcessorSystemCycleTime, GetProcessorSystemCycleTime function, base.getprocessorsystemcycletime, sysinfoapi/GetProcessorSystemCycleTime
 ms.topic: function
-f1_keywords: 
- - "sysinfoapi/GetProcessorSystemCycleTime"
+f1_keywords:
+- sysinfoapi/GetProcessorSystemCycleTime
 dev_langs:
- - c++
+- c++
 req.header: sysinfoapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - kernel32.dll
- - API-MS-Win-Core-SysInfo-l1-2-2.dll
- - KernelBase.dll
- - MinKernelBase.dll
- - API-MS-Win-Core-SysInfo-l1-2-3.dll
+- kernel32.dll
+- API-MS-Win-Core-SysInfo-l1-2-2.dll
+- KernelBase.dll
+- MinKernelBase.dll
+- API-MS-Win-Core-SysInfo-l1-2-3.dll
 api_name:
- - GetProcessorSystemCycleTime
+- GetProcessorSystemCycleTime
 targetos: Windows
 req.typenames: 
 req.redist: 

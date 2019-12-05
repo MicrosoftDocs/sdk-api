@@ -1,19 +1,17 @@
 ---
 UID: NF:azroles.IAzApplicationGroup.Submit
 title: IAzApplicationGroup::Submit (azroles.h)
-
 description: Persists changes made to the IAzApplicationGroup object.
 old-location: security\iazapplicationgroup_submit.htm
 tech.root: SecAuthZ
 ms.assetid: 51a855dd-4a90-4f7a-b32f-f91e3941655b
-
 ms.date: 12/05/2018
 ms.keywords: AzApplicationGroup object [Security],Submit method, IAzApplicationGroup interface [Security],Submit method, IAzApplicationGroup.Submit, IAzApplicationGroup::Submit, Submit, Submit method [Security], Submit method [Security],AzApplicationGroup object, Submit method [Security],IAzApplicationGroup interface, azroles/IAzApplicationGroup::Submit, security.iazapplicationgroup_submit
 ms.topic: method
-f1_keywords: 
- - "azroles/IAzApplicationGroup.Submit"
+f1_keywords:
+- azroles/IAzApplicationGroup.Submit
 dev_langs:
- - c++
+- c++
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Azroles.lib
 req.dll: Azroles.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Azroles.dll
+- Azroles.dll
 api_name:
- - IAzApplicationGroup.Submit
- - AzApplicationGroup.Submit
+- IAzApplicationGroup.Submit
+- AzApplicationGroup.Submit
 targetos: Windows
 req.typenames: 
 req.redist: Windows Server 2003 Administration Tools Pack on Windows XP

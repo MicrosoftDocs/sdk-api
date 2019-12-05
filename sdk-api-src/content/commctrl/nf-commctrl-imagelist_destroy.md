@@ -1,19 +1,17 @@
 ---
 UID: NF:commctrl.ImageList_Destroy
 title: ImageList_Destroy function (commctrl.h)
-
 description: Destroys an image list.
 old-location: controls\ImageList_Destroy.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\imagelist\functions\imagelist_destroy.htm
-
 ms.date: 12/05/2018
 ms.keywords: ImageList_Destroy, ImageList_Destroy function [Windows Controls], _win32_ImageList_Destroy, _win32_ImageList_Destroy_cpp, commctrl/ImageList_Destroy, controls.ImageList_Destroy, controls._win32_ImageList_Destroy
 ms.topic: function
-f1_keywords: 
- - "commctrl/ImageList_Destroy"
+f1_keywords:
+- commctrl/ImageList_Destroy
 dev_langs:
- - c++
+- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Comctl32.lib
 req.dll: Comctl32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Comctl32.dll
- - Ext-MS-Win-Shell-ComCtl32-Init-L1-1-1.dll
+- Comctl32.dll
+- Ext-MS-Win-Shell-ComCtl32-Init-L1-1-1.dll
 api_name:
- - ImageList_Destroy
+- ImageList_Destroy
 targetos: Windows
 req.typenames: 
 req.redist: 

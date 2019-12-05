@@ -1,19 +1,17 @@
 ---
 UID: NE:d3d12.D3D12_COMMAND_QUEUE_PRIORITY
 title: D3D12_COMMAND_QUEUE_PRIORITY (d3d12.h)
-
 description: Defines priority levels for a command queue.
 old-location: direct3d12\d3d12_command_queue_priority.htm
 tech.root: direct3d12
 ms.assetid: 33C07FE4-D85F-4F94-BF0E-C9E0ED05765C
-
 ms.date: 12/05/2018
 ms.keywords: D3D12_COMMAND_QUEUE_PRIORITY, D3D12_COMMAND_QUEUE_PRIORITY enumeration, D3D12_COMMAND_QUEUE_PRIORITY_GLOBAL_REALTIME, D3D12_COMMAND_QUEUE_PRIORITY_HIGH, D3D12_COMMAND_QUEUE_PRIORITY_NORMAL, d3d12/D3D12_COMMAND_QUEUE_PRIORITY, d3d12/D3D12_COMMAND_QUEUE_PRIORITY_GLOBAL_REALTIME, d3d12/D3D12_COMMAND_QUEUE_PRIORITY_HIGH, d3d12/D3D12_COMMAND_QUEUE_PRIORITY_NORMAL, direct3d12.d3d12_command_queue_priority
 ms.topic: enum
-f1_keywords: 
- - "d3d12/D3D12_COMMAND_QUEUE_PRIORITY"
+f1_keywords:
+- d3d12/D3D12_COMMAND_QUEUE_PRIORITY
 dev_langs:
- - c++
+- c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - d3d12.h
+- d3d12.h
 api_name:
- - D3D12_COMMAND_QUEUE_PRIORITY
+- D3D12_COMMAND_QUEUE_PRIORITY
 targetos: Windows
 req.typenames: D3D12_COMMAND_QUEUE_PRIORITY
 req.redist: 

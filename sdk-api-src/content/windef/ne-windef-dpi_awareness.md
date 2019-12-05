@@ -1,19 +1,17 @@
 ---
 UID: NE:windef.DPI_AWARENESS
 title: DPI_AWARENESS (windef.h)
-
 description: Identifies the dots per inch (dpi) setting for a thread, process, or window.
 old-location: hidpi\dpi_awareness.htm
 tech.root: hidpi
 ms.assetid: 0E7EB331-7D72-4853-8785-03F30263C323
-
 ms.date: 12/05/2018
 ms.keywords: DPI_AWARENESS, DPI_AWARENESS enumeration, DPI_AWARENESS enumeration enumeration [High DPI], DPI_AWARENESS_INVALID, DPI_AWARENESS_PER_MONITOR_AWARE, DPI_AWARENESS_SYSTEM_AWARE, DPI_AWARENESS_UNAWARE, hidpi.dpi_awareness, windef/DPI_AWARENESS enumeration, windef/DPI_AWARENESS_INVALID, windef/DPI_AWARENESS_PER_MONITOR_AWARE, windef/DPI_AWARENESS_SYSTEM_AWARE, windef/DPI_AWARENESS_UNAWARE
 ms.topic: enum
-f1_keywords: 
- - "windef/DPI_AWARENESS"
+f1_keywords:
+- windef/DPI_AWARENESS
 dev_langs:
- - c++
+- c++
 req.header: windef.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - windef.h
+- windef.h
 api_name:
- - DPI_AWARENESS
+- DPI_AWARENESS
 targetos: Windows
 req.typenames: DPI_AWARENESS
 req.redist: 

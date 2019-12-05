@@ -1,19 +1,17 @@
 ---
 UID: NF:netfw.INetFwRules.Add
 title: INetFwRules::Add (netfw.h)
-
 description: The Add method adds a new rule to the collection.
 old-location: ics\inetfwrules_add.htm
 tech.root: ics
 ms.assetid: c81bdf56-df71-425a-93d2-1fbae5ab536e
-
 ms.date: 12/05/2018
 ms.keywords: Add, Add method [ICS/ICF], Add method [ICS/ICF],INetFwRules interface, INetFwRules interface [ICS/ICF],Add method, INetFwRules.Add, INetFwRules::Add, ics.inetfwrules_add, netfw/INetFwRules::Add
 ms.topic: method
-f1_keywords: 
- - "netfw/INetFwRules.Add"
+f1_keywords:
+- netfw/INetFwRules.Add
 dev_langs:
- - c++
+- c++
 req.header: netfw.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: FirewallAPI.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - FirewallAPI.dll
+- FirewallAPI.dll
 api_name:
- - INetFwRules.Add
+- INetFwRules.Add
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:mobsync.ISyncMgrRegister.UnregisterSyncMgrHandler
 title: ISyncMgrRegister::UnregisterSyncMgrHandler (mobsync.h)
-
 description: Removes a handler's class identifier (CLSID) from the registration. A handler should call this when it no longer has any items to synchronize.
 old-location: shell\syncmgr_isyncmgrregister_unregistersyncmgrhandler.htm
 tech.root: shell
 ms.assetid: cd823d73-a07a-4c75-a29c-6c48ad2c23dc
-
 ms.date: 12/05/2018
 ms.keywords: ISyncMgrRegister interface [Windows Shell],UnregisterSyncMgrHandler method, ISyncMgrRegister.UnregisterSyncMgrHandler, ISyncMgrRegister::UnregisterSyncMgrHandler, UnregisterSyncMgrHandler, UnregisterSyncMgrHandler method [Windows Shell], UnregisterSyncMgrHandler method [Windows Shell],ISyncMgrRegister interface, mobsync/ISyncMgrRegister::UnregisterSyncMgrHandler, shell.syncmgr_isyncmgrregister_unregistersyncmgrhandler, syncmgr.isyncmgrregister_unregistersyncmgrhandler
 ms.topic: method
-f1_keywords: 
- - "mobsync/ISyncMgrRegister.UnregisterSyncMgrHandler"
+f1_keywords:
+- mobsync/ISyncMgrRegister.UnregisterSyncMgrHandler
 dev_langs:
- - c++
+- c++
 req.header: mobsync.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Mobsync.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mobsync.dll
+- Mobsync.dll
 api_name:
- - ISyncMgrRegister.UnregisterSyncMgrHandler
+- ISyncMgrRegister.UnregisterSyncMgrHandler
 targetos: Windows
 req.typenames: 
 req.redist: 

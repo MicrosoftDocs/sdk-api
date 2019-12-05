@@ -1,19 +1,17 @@
 ---
 UID: NN:dcomp.IDCompositionEffectGroup
 title: IDCompositionEffectGroup (dcomp.h)
-
 description: Represents a group of bitmap effects that are applied together to modify the rasterization of a visual's subtree.
 old-location: directcomp\idcompositioneffectgroup.htm
 tech.root: directcomp
 ms.assetid: B8C5A4D8-F161-4383-B117-B89E85C65B19
-
 ms.date: 12/05/2018
 ms.keywords: IDCompositionEffectGroup, IDCompositionEffectGroup interface [DirectComposition], IDCompositionEffectGroup interface [DirectComposition],described, dcomp/IDCompositionEffectGroup, directcomp.idcompositioneffectgroup
 ms.topic: interface
-f1_keywords: 
- - "dcomp/IDCompositionEffectGroup"
+f1_keywords:
+- dcomp/IDCompositionEffectGroup
 dev_langs:
- - c++
+- c++
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dcomp.lib
 req.dll: Dcomp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dcomp.dll
+- Dcomp.dll
 api_name:
- - IDCompositionEffectGroup
+- IDCompositionEffectGroup
 targetos: Windows
 req.typenames: 
 req.redist: 

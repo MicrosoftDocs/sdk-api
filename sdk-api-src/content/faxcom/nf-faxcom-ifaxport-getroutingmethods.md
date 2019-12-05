@@ -1,19 +1,17 @@
 ---
 UID: NF:faxcom.IFaxPort.GetRoutingMethods
 title: IFaxPort::GetRoutingMethods (faxcom.h)
-
 description: The IFaxPort::GetRoutingMethods interface method creates a FaxRoutingMethods object for the parent FaxPort object.
 old-location: fax\_mfax_ifaxport_mfax_ifaxport_getroutingmethods_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_619v.htm
-
 ms.date: 12/05/2018
 ms.keywords: GetRoutingMethods, GetRoutingMethods method [Fax Service], GetRoutingMethods method [Fax Service],IFaxPort interface, IFaxPort interface [Fax Service],GetRoutingMethods method, IFaxPort.GetRoutingMethods, IFaxPort::GetRoutingMethods, _mfax_ifaxport_getroutingmethods, fax._mfax_ifaxport_getroutingmethods, fax._mfax_ifaxport_mfax_ifaxport_getroutingmethods_cpp, faxcom/IFaxPort::GetRoutingMethods
 ms.topic: method
-f1_keywords: 
- - "faxcom/IFaxPort.GetRoutingMethods"
+f1_keywords:
+- faxcom/IFaxPort.GetRoutingMethods
 dev_langs:
- - c++
+- c++
 req.header: faxcom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Faxcom.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Faxcom.dll
+- Faxcom.dll
 api_name:
- - IFaxPort.GetRoutingMethods
+- IFaxPort.GetRoutingMethods
 targetos: Windows
 req.typenames: 
 req.redist: 

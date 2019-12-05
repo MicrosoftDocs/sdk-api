@@ -1,19 +1,17 @@
 ---
 UID: NF:effects.IWMPEffects.GetCurrentPreset
 title: IWMPEffects::GetCurrentPreset (effects.h)
-
 description: The GetCurrentPreset method gets the current preset, by number, from the visualization and provides it to Windows Media Player.
 old-location: wmp\iwmpeffects_getcurrentpreset.htm
 tech.root: WMP
 ms.assetid: 09ad671b-612d-4e00-8fa9-d9d76954a010
-
 ms.date: 12/05/2018
 ms.keywords: EffectsGetCurrentPreset, GetCurrentPreset, GetCurrentPreset method [Windows Media Player], GetCurrentPreset method [Windows Media Player],IWMPEffects interface, IWMPEffects interface [Windows Media Player],GetCurrentPreset method, IWMPEffects.GetCurrentPreset, IWMPEffects::GetCurrentPreset, effects/IWMPEffects::GetCurrentPreset, wmp.iwmpeffects_getcurrentpreset
 ms.topic: method
-f1_keywords: 
- - "effects/IWMPEffects.GetCurrentPreset"
+f1_keywords:
+- effects/IWMPEffects.GetCurrentPreset
 dev_langs:
- - c++
+- c++
 req.header: effects.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - effects.h
+- effects.h
 api_name:
- - IWMPEffects.GetCurrentPreset
+- IWMPEffects.GetCurrentPreset
 targetos: Windows
 req.typenames: 
 req.redist: 

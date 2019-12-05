@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi3if.ITCollection2.Remove
 title: ITCollection2::Remove (tapi3if.h)
-
 description: The Remove method deletes an item from the collection at the specified index.
 old-location: tapi3\itcollection2_remove.htm
 tech.root: Tapi
 ms.assetid: 27e46c36-8704-4e33-ad2a-5888d701651c
-
 ms.date: 12/05/2018
 ms.keywords: ITCollection2 interface [TAPI 2.2],Remove method, ITCollection2.Remove, ITCollection2::Remove, Remove, Remove method [TAPI 2.2], Remove method [TAPI 2.2],ITCollection2 interface, _tapi3_itcollection2_remove, tapi3.itcollection2_remove, tapi3if/ITCollection2::Remove
 ms.topic: method
-f1_keywords: 
- - "tapi3if/ITCollection2.Remove"
+f1_keywords:
+- tapi3if/ITCollection2.Remove
 dev_langs:
- - c++
+- c++
 req.header: tapi3if.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Tapi3.dll
+- Tapi3.dll
 api_name:
- - ITCollection2.Remove
+- ITCollection2.Remove
 targetos: Windows
 req.typenames: 
 req.redist: 

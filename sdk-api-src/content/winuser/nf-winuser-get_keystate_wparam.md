@@ -1,19 +1,17 @@
 ---
 UID: NF:winuser.GET_KEYSTATE_WPARAM
 title: GET_KEYSTATE_WPARAM macro (winuser.h)
-
 description: Retrieves the state of certain virtual keys from the specified WPARAM value.
 old-location: inputdev\get_keystate_wparam.htm
 tech.root: inputdev
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\mouseinput\mouseinputreference\mouseinputmacros\get_keystate_wparam.htm
-
 ms.date: 12/05/2018
 ms.keywords: GET_KEYSTATE_WPARAM, GET_KEYSTATE_WPARAM macro [Keyboard and Mouse Input], _win32_GET_KEYSTATE_WPARAM, _win32_get_keystate_wparam_cpp, inputdev.get_keystate_wparam, winui._win32_get_keystate_wparam, winuser/GET_KEYSTATE_WPARAM
 ms.topic: macro
-f1_keywords: 
- - "winuser/GET_KEYSTATE_WPARAM"
+f1_keywords:
+- winuser/GET_KEYSTATE_WPARAM
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Winuser.h
+- Winuser.h
 api_name:
- - GET_KEYSTATE_WPARAM
+- GET_KEYSTATE_WPARAM
 targetos: Windows
 req.typenames: 
 req.redist: 

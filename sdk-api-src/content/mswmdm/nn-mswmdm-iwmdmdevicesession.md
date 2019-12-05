@@ -1,19 +1,17 @@
 ---
 UID: NN:mswmdm.IWMDMDeviceSession
 title: IWMDMDeviceSession (mswmdm.h)
-
 description: The IWMDMDeviceSession interface improves the efficiency of device operations by bundling multiple operations into one session.
 old-location: wmdm\iwmdmdevicesession.htm
 tech.root: WMDM
 ms.assetid: 37a57fbe-d0f8-44ee-b6c5-2c6a34e12f2b
-
 ms.date: 12/05/2018
 ms.keywords: IWMDMDeviceSession, IWMDMDeviceSession interface [windows Media Device Manager], IWMDMDeviceSession interface [windows Media Device Manager],described, IWMDMDeviceSessionInterface, mswmdm/IWMDMDeviceSession, wmdm.iwmdmdevicesession
 ms.topic: interface
-f1_keywords: 
- - "mswmdm/IWMDMDeviceSession"
+f1_keywords:
+- mswmdm/IWMDMDeviceSession
 dev_langs:
- - c++
+- c++
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mswmdm.h
+- mswmdm.h
 api_name:
- - IWMDMDeviceSession
+- IWMDMDeviceSession
 targetos: Windows
 req.typenames: 
 req.redist: 

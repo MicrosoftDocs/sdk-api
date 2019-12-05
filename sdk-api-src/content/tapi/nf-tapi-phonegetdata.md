@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi.phoneGetData
 title: phoneGetData function (tapi.h)
-
 description: The phoneGetData function uploads the information from the specified location in the open phone device to the specified buffer.
 old-location: tapi2\phonegetdata.htm
 tech.root: Tapi
 ms.assetid: 9ad2f99e-73b3-4e4c-a6cd-49ca0fe775ca
-
 ms.date: 12/05/2018
-ms.keywords: "_tapi2_phonegetdata, phoneGetData, phoneGetData function [TAPI 2.2], tapi/phoneGetData, tapi2.phonegetdata"
+ms.keywords: _tapi2_phonegetdata, phoneGetData, phoneGetData function [TAPI 2.2], tapi/phoneGetData, tapi2.phonegetdata
 ms.topic: function
-f1_keywords: 
- - "tapi/phoneGetData"
+f1_keywords:
+- tapi/phoneGetData
 dev_langs:
- - c++
+- c++
 req.header: tapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Tapi32.lib
 req.dll: Tapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Tapi32.dll
+- Tapi32.dll
 api_name:
- - phoneGetData
+- phoneGetData
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NN:vpconfig.IVPBaseConfig
 title: IVPBaseConfig (vpconfig.h)
-
 description: IVPBaseConfig is implemented on a filter that wraps a hardware device such as a decoder or capture device, if the device has a video port to the graphics adapter.
 old-location: dshow\ivpbaseconfig.htm
 tech.root: DirectShow
 ms.assetid: d9a4f395-3d2f-429a-884d-90131927a929
-
 ms.date: 12/05/2018
 ms.keywords: IVPBaseConfig, IVPBaseConfig interface [DirectShow], IVPBaseConfig interface [DirectShow],described, IVPBaseConfigInterface, dshow.ivpbaseconfig, vpconfig/IVPBaseConfig
 ms.topic: interface
-f1_keywords: 
- - "vpconfig/IVPBaseConfig"
+f1_keywords:
+- vpconfig/IVPBaseConfig
 dev_langs:
- - c++
+- c++
 req.header: vpconfig.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Vpconfig.h
+- Vpconfig.h
 api_name:
- - IVPBaseConfig
+- IVPBaseConfig
 targetos: Windows
 req.typenames: 
 req.redist: 

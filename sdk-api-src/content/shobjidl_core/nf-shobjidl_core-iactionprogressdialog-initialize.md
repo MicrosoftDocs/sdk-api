@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IActionProgressDialog.Initialize
 title: IActionProgressDialog::Initialize (shobjidl_core.h)
-
 description: Provides details about the action progress dialog.
 old-location: shell\IActionProgressDialog_Initialize.htm
 tech.root: shell
 ms.assetid: e82f4686-75c6-4f06-8468-937352fe33d3
-
 ms.date: 12/05/2018
 ms.keywords: IActionProgressDialog interface [Windows Shell],Initialize method, IActionProgressDialog.Initialize, IActionProgressDialog::Initialize, Initialize, Initialize method [Windows Shell], Initialize method [Windows Shell],IActionProgressDialog interface, SPINITF_MODAL, SPINITF_NOMINIMIZE, SPINITF_NORMAL, _shell_IActionProgressDialog_Initialize, shell.IActionProgressDialog_Initialize, shobjidl_core/IActionProgressDialog::Initialize
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IActionProgressDialog.Initialize"
+f1_keywords:
+- shobjidl_core/IActionProgressDialog.Initialize
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Browseui.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Browseui.dll
+- Browseui.dll
 api_name:
- - IActionProgressDialog.Initialize
+- IActionProgressDialog.Initialize
 targetos: Windows
 req.typenames: 
 req.redist: 

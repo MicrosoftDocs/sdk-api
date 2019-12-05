@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IExplorerBrowser.FillFromObject
 title: IExplorerBrowser::FillFromObject (shobjidl_core.h)
-
 description: Creates a results folder and fills it with items.
 old-location: shell\IExplorerBrowser_FillFromObject.htm
 tech.root: shell
 ms.assetid: f978d5d1-a597-4e49-9a2a-de23e99bf65e
-
 ms.date: 12/05/2018
 ms.keywords: FillFromObject, FillFromObject method [Windows Shell], FillFromObject method [Windows Shell],IExplorerBrowser interface, IExplorerBrowser interface [Windows Shell],FillFromObject method, IExplorerBrowser.FillFromObject, IExplorerBrowser::FillFromObject, _shell_IExplorerBrowser_FillFromObject, shell.IExplorerBrowser_FillFromObject, shobjidl_core/IExplorerBrowser::FillFromObject
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IExplorerBrowser.FillFromObject"
+f1_keywords:
+- shobjidl_core/IExplorerBrowser.FillFromObject
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - IExplorerBrowser.FillFromObject
+- IExplorerBrowser.FillFromObject
 targetos: Windows
 req.typenames: 
 req.redist: 

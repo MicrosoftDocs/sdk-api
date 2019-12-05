@@ -1,19 +1,17 @@
 ---
 UID: NF:ctfutb.ITfLangBarItemBalloon.GetPreferredSize
 title: ITfLangBarItemBalloon::GetPreferredSize (ctfutb.h)
-
 description: ITfLangBarItemBalloon::GetPreferredSize method
 old-location: tsf\itflangbaritemballoon_getpreferredsize.htm
 tech.root: TSF
 ms.assetid: 73f3a12e-b787-424e-9998-276baee63264
-
 ms.date: 12/05/2018
 ms.keywords: GetPreferredSize, GetPreferredSize method [Text Services Framework], GetPreferredSize method [Text Services Framework],ITfLangBarItemBalloon interface, ITfLangBarItemBalloon interface [Text Services Framework],GetPreferredSize method, ITfLangBarItemBalloon.GetPreferredSize, ITfLangBarItemBalloon::GetPreferredSize, _tsf_itflangbaritemballoon_getpreferredsize_ref, ctfutb/ITfLangBarItemBalloon::GetPreferredSize, tsf.itflangbaritemballoon_getpreferredsize
 ms.topic: method
-f1_keywords: 
- - "ctfutb/ITfLangBarItemBalloon.GetPreferredSize"
+f1_keywords:
+- ctfutb/ITfLangBarItemBalloon.GetPreferredSize
 dev_langs:
- - c++
+- c++
 req.header: ctfutb.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msctf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msctf.dll
+- msctf.dll
 api_name:
- - ITfLangBarItemBalloon.GetPreferredSize
+- ITfLangBarItemBalloon.GetPreferredSize
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

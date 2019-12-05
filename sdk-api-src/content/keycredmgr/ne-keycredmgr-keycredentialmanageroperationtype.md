@@ -1,19 +1,17 @@
 ---
 UID: NE:keycredmgr.KeyCredentialManagerOperationType
 title: KeyCredentialManagerOperationType (keycredmgr.h)
-
 description: These are the operational enum values that are passed to KeyCredentialManagerShowUIOperation.
 old-location: security\keycredentialmanageroperationtype.htm
 tech.root: SecAuthN
 ms.assetid: 871DA6A2-0033-4863-B37E-C75ADD512C3A
-
 ms.date: 12/05/2018
 ms.keywords: KeyCredentialManagerOperationType, KeyCredentialManagerOperationType enumeration [Security], KeyCredentialManagerPinChange, KeyCredentialManagerPinReset, KeyCredentialManagerProvisioning, keycredmgr/KeyCredentialManagerOperationType, keycredmgr/KeyCredentialManagerPinChange, keycredmgr/KeyCredentialManagerPinReset, keycredmgr/KeyCredentialManagerProvisioning, security.keycredentialmanageroperationtype
 ms.topic: enum
-f1_keywords: 
- - "keycredmgr/KeyCredentialManagerOperationType"
+f1_keywords:
+- keycredmgr/KeyCredentialManagerOperationType
 dev_langs:
- - c++
+- c++
 req.header: keycredmgr.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - keycredmgr.h
+- keycredmgr.h
 api_name:
- - KeyCredentialManagerOperationType
+- KeyCredentialManagerOperationType
 targetos: Windows
 req.typenames: KeyCredentialManagerOperationType
 req.redist: 

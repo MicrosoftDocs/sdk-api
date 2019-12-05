@@ -1,19 +1,17 @@
 ---
 UID: NF:oleidl.IViewObject.Freeze
 title: IViewObject::Freeze (oleidl.h)
-
 description: Freezes the drawn representation of an object so that it will not change until the IViewObject::Unfreeze method is called. The most common use of this method is for banded printing.
 old-location: com\iviewobject_freeze.htm
 tech.root: com
 ms.assetid: 943faf31-7de4-45da-887b-7ded479ac732
-
 ms.date: 12/05/2018
 ms.keywords: Freeze, Freeze method [COM], Freeze method [COM],IViewObject interface, IViewObject interface [COM],Freeze method, IViewObject.Freeze, IViewObject::Freeze, _ole_iviewobject_freeze, com.iviewobject_freeze, oleidl/IViewObject::Freeze
 ms.topic: method
-f1_keywords: 
- - "oleidl/IViewObject.Freeze"
+f1_keywords:
+- oleidl/IViewObject.Freeze
 dev_langs:
- - c++
+- c++
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - OleIdl.h
+- OleIdl.h
 api_name:
- - IViewObject.Freeze
+- IViewObject.Freeze
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:mi.MI_SubscriptionDeliveryOptions_SetHeartbeatInterval
 title: MI_SubscriptionDeliveryOptions_SetHeartbeatInterval function (mi.h)
-
 description: Sets the heartbeat interval.
 old-location: wmi_v2\mi_subscriptiondeliveryoptions_setheartbeatinterval.htm
 tech.root: wmi_v2
 ms.assetid: eb747c85-1ad1-4510-b674-7d9cf9fa9021
-
 ms.date: 12/05/2018
 ms.keywords: MI_SubscriptionDeliveryOptions_SetHeartbeatInterval, MI_SubscriptionDeliveryOptions_SetHeartbeatInterval function [Windows Management Infrastructure (MI)], mi/MI_SubscriptionDeliveryOptions_SetHeartbeatInterval, wmi_v2.mi_subscriptiondeliveryoptions_setheartbeatinterval
 ms.topic: function
 f1_keywords:
 - mi/MI_SubscriptionDeliveryOptions_SetHeartbeatInterval
 dev_langs:
- - c++
+- c++
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows

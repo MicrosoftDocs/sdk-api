@@ -1,19 +1,17 @@
 ---
 UID: NF:cluadmex.IGetClusterObjectInfo.GetObjectName
 title: IGetClusterObjectInfo::GetObjectName (cluadmex.h)
-
 description: Returns the name of a cluster object.
 old-location: mscs\igetclusterobjectinfo_getobjectname.htm
 tech.root: MsCS
 ms.assetid: e45f3652-74da-4d93-826d-320ddae10f49
-
 ms.date: 12/05/2018
 ms.keywords: GetObjectName, GetObjectName method [Failover Cluster], GetObjectName method [Failover Cluster],IGetClusterObjectInfo interface, IGetClusterObjectInfo interface [Failover Cluster],GetObjectName method, IGetClusterObjectInfo.GetObjectName, IGetClusterObjectInfo::GetObjectName, _wolf_igetclusterobjectinfo_getobjectname, cluadmex/IGetClusterObjectInfo::GetObjectName, mscs.igetclusterobjectinfo_getobjectname
 ms.topic: method
-f1_keywords: 
- - "cluadmex/IGetClusterObjectInfo.GetObjectName"
+f1_keywords:
+- cluadmex/IGetClusterObjectInfo.GetObjectName
 dev_langs:
- - c++
+- c++
 req.header: cluadmex.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - cluadmex.h
+- cluadmex.h
 api_name:
- - IGetClusterObjectInfo.GetObjectName
+- IGetClusterObjectInfo.GetObjectName
 targetos: Windows
 req.typenames: 
 req.redist: 

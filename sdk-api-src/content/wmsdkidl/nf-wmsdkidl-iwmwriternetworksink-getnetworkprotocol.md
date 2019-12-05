@@ -1,19 +1,17 @@
 ---
 UID: NF:wmsdkidl.IWMWriterNetworkSink.GetNetworkProtocol
 title: IWMWriterNetworkSink::GetNetworkProtocol (wmsdkidl.h)
-
 description: The GetNetworkProtocol method retrieves the network protocol that the network sink uses. Currently, HTTP is the only protocol the network sink supports.
 old-location: wmformat\iwmwriternetworksink_getnetworkprotocol.htm
 tech.root: wmformat
 ms.assetid: 5007b5be-9521-46f4-8e5c-85e70d48e99f
-
 ms.date: 12/05/2018
 ms.keywords: GetNetworkProtocol, GetNetworkProtocol method [windows Media Format], GetNetworkProtocol method [windows Media Format],IWMWriterNetworkSink interface, IWMWriterNetworkSink interface [windows Media Format],GetNetworkProtocol method, IWMWriterNetworkSink.GetNetworkProtocol, IWMWriterNetworkSink::GetNetworkProtocol, IWMWriterNetworkSinkGetNetworkProtocol, wmformat.iwmwriternetworksink_getnetworkprotocol, wmsdkidl/IWMWriterNetworkSink::GetNetworkProtocol
 ms.topic: method
-f1_keywords: 
- - "wmsdkidl/IWMWriterNetworkSink.GetNetworkProtocol"
+f1_keywords:
+- wmsdkidl/IWMWriterNetworkSink.GetNetworkProtocol
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wmvcore.lib
- - Wmvcore.dll
- - WMStubDRM.lib
- - WMStubDRM.dll
+- Wmvcore.lib
+- Wmvcore.dll
+- WMStubDRM.lib
+- WMStubDRM.dll
 api_name:
- - IWMWriterNetworkSink.GetNetworkProtocol
+- IWMWriterNetworkSink.GetNetworkProtocol
 targetos: Windows
 req.typenames: 
 req.redist: 

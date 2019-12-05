@@ -1,19 +1,17 @@
 ---
 UID: NS:commctrl._NM_UPDOWN
 title: NMUPDOWN (commctrl.h)
-
 description: Contains information specific to up-down control notification messages. It is identical to and replaces the NM_UPDOWN structure.
 old-location: controls\NMUPDOWN.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\updown\structures\nmupdown.htm
-
 ms.date: 12/05/2018
 ms.keywords: '*LPNMUPDOWN, LPNMUPDOWN, LPNMUPDOWN structure pointer [Windows Controls], NMUPDOWN, NMUPDOWN structure [Windows Controls], _win32_NMUPDOWN, _win32_NMUPDOWN_cpp, commctrl/LPNMUPDOWN, commctrl/NMUPDOWN, controls.NMUPDOWN, controls._win32_NMUPDOWN'
 ms.topic: struct
 f1_keywords:
 - commctrl/NMUPDOWN
 dev_langs:
- - c++
+- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

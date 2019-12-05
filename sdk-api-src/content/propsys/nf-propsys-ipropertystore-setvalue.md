@@ -1,19 +1,17 @@
 ---
 UID: NF:propsys.IPropertyStore.SetValue
 title: IPropertyStore::SetValue (propsys.h)
-
 description: This method sets a property value or replaces or removes an existing value.
 old-location: audio\ipropertystore_setvalue.htm
 tech.root: audio
 ms.assetid: be21bcb2-6875-4559-abd7-a496f0fcddd6
-
 ms.date: 12/05/2018
 ms.keywords: IPropertyStore interface [Audio Devices],SetValue method, IPropertyStore.SetValue, IPropertyStore::SetValue, SetValue, SetValue (IpropertyStore), SetValue method [Audio Devices], SetValue method [Audio Devices],IPropertyStore interface, audio.ipropertystore_setvalue, audio_syseffects_r_0f840b2a-35e2-4a93-9c50-84671d662b7d.xml, propsys/IPropertyStore::SetValue
 ms.topic: method
-f1_keywords: 
- - "propsys/IPropertyStore.SetValue"
+f1_keywords:
+- propsys/IPropertyStore.SetValue
 dev_langs:
- - c++
+- c++
 req.header: propsys.h
 req.include-header: 
 req.target-type: Universal
@@ -32,15 +30,15 @@ req.lib: Propsys.idl
 req.dll: 
 req.irql: All levels
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Propsys.idl
- - Propsys.idl.dll
+- Propsys.idl
+- Propsys.idl.dll
 api_name:
- - IPropertyStore.SetValue
+- IPropertyStore.SetValue
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:slpublic.SLClose
 title: SLClose function (slpublic.h)
-
 description: Closes the Software Licensing Client (SLC) context handle.
 old-location: security\slclose.htm
 tech.root: SecSLApi
 ms.assetid: a2483fa2-cdd6-48b8-861f-34fd5efc34df
-
 ms.date: 12/05/2018
 ms.keywords: SLClose, SLClose function [Security], security.slclose, slpublic/SLClose
 ms.topic: function
-f1_keywords: 
- - "slpublic/SLClose"
+f1_keywords:
+- slpublic/SLClose
 dev_langs:
- - c++
+- c++
 req.header: slpublic.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Slc.lib
 req.dll: Slc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Slc.dll
+- Slc.dll
 api_name:
- - SLClose
+- SLClose
 targetos: Windows
 req.typenames: 
 req.redist: 

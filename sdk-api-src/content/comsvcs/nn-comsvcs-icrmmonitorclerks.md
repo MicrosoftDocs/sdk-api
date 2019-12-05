@@ -1,19 +1,17 @@
 ---
 UID: NN:comsvcs.ICrmMonitorClerks
 title: ICrmMonitorClerks (comsvcs.h)
-
 description: Retrieves information about the state of clerks.
 old-location: cos\icrmmonitorclerks.htm
 tech.root: cossdk
 ms.assetid: 90403516-f677-4396-8991-ae621c159567
-
 ms.date: 12/05/2018
 ms.keywords: ICrmMonitorClerks, ICrmMonitorClerks interface [COM+], ICrmMonitorClerks interface [COM+],described, _dtc_ICrmMonitorClerks_Interface, comsvcs/ICrmMonitorClerks, cos.icrmmonitorclerks
 ms.topic: interface
-f1_keywords: 
- - "comsvcs/ICrmMonitorClerks"
+f1_keywords:
+- comsvcs/ICrmMonitorClerks
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - ICrmMonitorClerks
+- ICrmMonitorClerks
 targetos: Windows
 req.typenames: 
 req.redist: 

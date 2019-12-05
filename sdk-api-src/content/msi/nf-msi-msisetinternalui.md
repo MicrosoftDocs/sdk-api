@@ -1,19 +1,17 @@
 ---
 UID: NF:msi.MsiSetInternalUI
 title: MsiSetInternalUI function (msi.h)
-
 description: The MsiSetInternalUI function enables the installer's internal user interface. Then this user interface is used for all subsequent calls to user-interface-generating installer functions in this process. For more information, see User Interface Levels.
 old-location: setup\msisetinternalui.htm
 tech.root: Msi
 ms.assetid: 303c2ea9-4c8f-46d3-b587-7c50e2810c28
-
 ms.date: 12/05/2018
 ms.keywords: INSTALLUILEVEL_BASIC, INSTALLUILEVEL_DEFAULT, INSTALLUILEVEL_ENDDIALOG, INSTALLUILEVEL_FULL, INSTALLUILEVEL_HIDECANCEL, INSTALLUILEVEL_NOCHANGE, INSTALLUILEVEL_NONE, INSTALLUILEVEL_PROGRESSONLY, INSTALLUILEVEL_REDUCED, INSTALLUILEVEL_SOURCERESONLY, MsiSetInternalUI, MsiSetInternalUI function, _msi_msisetinternalui, msi/MsiSetInternalUI, setup.msisetinternalui
 ms.topic: function
-f1_keywords: 
- - "msi/MsiSetInternalUI"
+f1_keywords:
+- msi/MsiSetInternalUI
 dev_langs:
- - c++
+- c++
 req.header: msi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Msi.lib
 req.dll: Msi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Msi.dll
- - Ext-MS-Win-MSIltCfg-MSI-l1-1-0.dll
- - msiltcfg.dll
- - Ext-MS-Win-MSi-Misc-L1-1-0.dll
+- Msi.dll
+- Ext-MS-Win-MSIltCfg-MSI-l1-1-0.dll
+- msiltcfg.dll
+- Ext-MS-Win-MSi-Misc-L1-1-0.dll
 api_name:
- - MsiSetInternalUI
+- MsiSetInternalUI
 targetos: Windows
 req.typenames: 
 req.redist: 

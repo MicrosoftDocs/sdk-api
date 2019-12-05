@@ -1,19 +1,17 @@
 ---
 UID: NF:fwpmu.FwpmProviderDeleteByKey0
 title: FwpmProviderDeleteByKey0 function (fwpmu.h)
-
 description: Removes a provider from the system.
 old-location: fwp\fwpmproviderdeletebykey0_func.htm
 tech.root: fwp
 ms.assetid: fe4e8d34-b0fc-4c93-bbde-83cd38625930
-
 ms.date: 12/05/2018
 ms.keywords: FwpmProviderDeleteByKey0, FwpmProviderDeleteByKey0 function [Filtering], fwp.fwpmproviderdeletebykey0_func, fwpmu/FwpmProviderDeleteByKey0
 ms.topic: function
-f1_keywords: 
- - "fwpmu/FwpmProviderDeleteByKey0"
+f1_keywords:
+- fwpmu/FwpmProviderDeleteByKey0
 dev_langs:
- - c++
+- c++
 req.header: fwpmu.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Fwpuclnt.lib
 req.dll: Fwpuclnt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Fwpuclnt.dll
+- Fwpuclnt.dll
 api_name:
- - FwpmProviderDeleteByKey0
+- FwpmProviderDeleteByKey0
 targetos: Windows
 req.typenames: 
 req.redist: 

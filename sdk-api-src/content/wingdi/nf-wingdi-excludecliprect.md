@@ -1,19 +1,17 @@
 ---
 UID: NF:wingdi.ExcludeClipRect
 title: ExcludeClipRect function (wingdi.h)
-
 description: The ExcludeClipRect function creates a new clipping region that consists of the existing clipping region minus the specified rectangle.
 old-location: gdi\excludecliprect.htm
 tech.root: gdi
 ms.assetid: 5b29c44a-3959-498e-8327-c42ef16a8609
-
 ms.date: 12/05/2018
 ms.keywords: ExcludeClipRect, ExcludeClipRect function [Windows GDI], _win32_ExcludeClipRect, gdi.excludecliprect, wingdi/ExcludeClipRect
 ms.topic: function
-f1_keywords: 
- - "wingdi/ExcludeClipRect"
+f1_keywords:
+- wingdi/ExcludeClipRect
 dev_langs:
- - c++
+- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - gdi32.dll
- - ext-ms-win-gdi-clipping-l1-1-0.dll
- - GDI32Full.dll
+- gdi32.dll
+- ext-ms-win-gdi-clipping-l1-1-0.dll
+- GDI32Full.dll
 api_name:
- - ExcludeClipRect
+- ExcludeClipRect
 targetos: Windows
 req.typenames: 
 req.redist: 

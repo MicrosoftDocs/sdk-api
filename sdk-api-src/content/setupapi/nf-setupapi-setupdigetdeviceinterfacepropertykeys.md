@@ -1,19 +1,17 @@
 ---
 UID: NF:setupapi.SetupDiGetDeviceInterfacePropertyKeys
 title: SetupDiGetDeviceInterfacePropertyKeys function (setupapi.h)
-
 description: The SetupDiGetDeviceInterfacePropertyKeys function retrieves an array of device property keys that represent the device properties that are set for a device interface.
 old-location: devinst\setupdigetdeviceinterfacepropertykeys.htm
 tech.root: devinst
 ms.assetid: 46eedc41-17ee-4306-ad34-22bfd98cb96b
-
 ms.date: 12/05/2018
 ms.keywords: SetupDiGetDeviceInterfacePropertyKeys, SetupDiGetDeviceInterfacePropertyKeys function [Device and Driver Installation], devinst.setupdigetdeviceinterfacepropertykeys, di-rtns_0f8848a9-4efc-408e-828a-6279294e6cf5.xml, setupapi/SetupDiGetDeviceInterfacePropertyKeys
 ms.topic: function
 f1_keywords:
 - setupapi/SetupDiGetDeviceInterfacePropertyKeys
 dev_langs:
- - c++
+- c++
 req.header: setupapi.h
 req.include-header: Setupapi.h
 req.target-type: DesktopFor universal, call CM_Get_Device_Interface_Property_Keys

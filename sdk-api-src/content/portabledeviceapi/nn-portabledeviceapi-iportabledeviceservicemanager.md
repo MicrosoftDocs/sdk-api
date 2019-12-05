@@ -1,19 +1,17 @@
 ---
 UID: NN:portabledeviceapi.IPortableDeviceServiceManager
 title: IPortableDeviceServiceManager (portabledeviceapi.h)
-
 description: Retrieves the device associated with a service and the list of services found on a device.
 old-location: wpdsdk\iportabledeviceservicemanager.htm
 tech.root: wpd_sdk
 ms.assetid: 8df23343-26f0-4fb0-90b9-e8b75bcadffa
-
 ms.date: 12/05/2018
 ms.keywords: IPortableDeviceServiceManager, IPortableDeviceServiceManager interface [Windows Portable Devices SDK], IPortableDeviceServiceManager interface [Windows Portable Devices SDK],described, portabledeviceapi/IPortableDeviceServiceManager, wpdsdk.iportabledeviceservicemanager
 ms.topic: interface
-f1_keywords: 
- - "portabledeviceapi/IPortableDeviceServiceManager"
+f1_keywords:
+- portabledeviceapi/IPortableDeviceServiceManager
 dev_langs:
- - c++
+- c++
 req.header: portabledeviceapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - PortableDeviceAPI.h
+- PortableDeviceAPI.h
 api_name:
- - IPortableDeviceServiceManager
+- IPortableDeviceServiceManager
 targetos: Windows
 req.typenames: 
 req.redist: 

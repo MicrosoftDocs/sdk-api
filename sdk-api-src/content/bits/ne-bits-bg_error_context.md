@@ -1,19 +1,17 @@
 ---
 UID: NE:bits.BG_ERROR_CONTEXT
 title: BG_ERROR_CONTEXT (bits.h)
-
 description: Defines constants that specify the context in which the error occurred.
 old-location: bits\bg_error_context.htm
 tech.root: Bits
 ms.assetid: c9d98518-6f2e-4fd1-b0ee-6735c6d6ecd9
-
 ms.date: 02/20/2019
 ms.keywords: BG_ERROR_CONTEXT, BG_ERROR_CONTEXT enumeration [BITS], BG_ERROR_CONTEXT_GENERAL_QUEUE_MANAGER, BG_ERROR_CONTEXT_GENERAL_TRANSPORT, BG_ERROR_CONTEXT_LOCAL_FILE, BG_ERROR_CONTEXT_NONE, BG_ERROR_CONTEXT_QUEUE_MANAGER_NOTIFICATION, BG_ERROR_CONTEXT_REMOTE_APPLICATION, BG_ERROR_CONTEXT_REMOTE_FILE, BG_ERROR_CONTEXT_UNKNOWN, _drz_bg_error_context, bits.bg_error_context, bits/BG_ERROR_CONTEXT, bits/BG_ERROR_CONTEXT_GENERAL_QUEUE_MANAGER, bits/BG_ERROR_CONTEXT_GENERAL_TRANSPORT, bits/BG_ERROR_CONTEXT_LOCAL_FILE, bits/BG_ERROR_CONTEXT_NONE, bits/BG_ERROR_CONTEXT_QUEUE_MANAGER_NOTIFICATION, bits/BG_ERROR_CONTEXT_REMOTE_APPLICATION, bits/BG_ERROR_CONTEXT_REMOTE_FILE, bits/BG_ERROR_CONTEXT_UNKNOWN
 ms.topic: enum
-f1_keywords: 
- - "bits/BG_ERROR_CONTEXT"
+f1_keywords:
+- bits/BG_ERROR_CONTEXT
 dev_langs:
- - c++
+- c++
 req.header: bits.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Bits.h
+- Bits.h
 api_name:
- - BG_ERROR_CONTEXT
+- BG_ERROR_CONTEXT
 targetos: Windows
 req.typenames: BG_ERROR_CONTEXT
 req.redist: 

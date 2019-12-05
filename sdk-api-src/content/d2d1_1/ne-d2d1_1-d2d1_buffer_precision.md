@@ -1,19 +1,17 @@
 ---
 UID: NE:d2d1_1.D2D1_BUFFER_PRECISION
 title: D2D1_BUFFER_PRECISION (d2d1_1.h)
-
 description: Represents the bit depth of the imaging pipeline in Direct2D.
 old-location: direct2d\__d2d1_buffer_precision.htm
 tech.root: Direct2D
 ms.assetid: a2a4b4fd-685d-4068-b1f5-609e6ab024e2
-
 ms.date: 12/05/2018
 ms.keywords: D2D1_BUFFER_PRECISION, D2D1_BUFFER_PRECISION enumeration [Direct2D], D2D1_BUFFER_PRECISION_16BPC_FLOAT, D2D1_BUFFER_PRECISION_16BPC_UNORM, D2D1_BUFFER_PRECISION_32BPC_FLOAT, D2D1_BUFFER_PRECISION_8BPC_UNORM, D2D1_BUFFER_PRECISION_8BPC_UNORM_SRGB, D2D1_BUFFER_PRECISION_FORCE_DWORD, D2D1_BUFFER_PRECISION_UNKNOWN, d2d1_1/D2D1_BUFFER_PRECISION, d2d1_1/D2D1_BUFFER_PRECISION_16BPC_FLOAT, d2d1_1/D2D1_BUFFER_PRECISION_16BPC_UNORM, d2d1_1/D2D1_BUFFER_PRECISION_32BPC_FLOAT, d2d1_1/D2D1_BUFFER_PRECISION_8BPC_UNORM, d2d1_1/D2D1_BUFFER_PRECISION_8BPC_UNORM_SRGB, d2d1_1/D2D1_BUFFER_PRECISION_FORCE_DWORD, d2d1_1/D2D1_BUFFER_PRECISION_UNKNOWN, direct2d.__d2d1_buffer_precision
 ms.topic: enum
-f1_keywords: 
- - "d2d1_1/D2D1_BUFFER_PRECISION"
+f1_keywords:
+- d2d1_1/D2D1_BUFFER_PRECISION
 dev_langs:
- - c++
+- c++
 req.header: d2d1_1.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - D2d1_1.h
+- D2d1_1.h
 api_name:
- - D2D1_BUFFER_PRECISION
+- D2D1_BUFFER_PRECISION
 targetos: Windows
 req.typenames: D2D1_BUFFER_PRECISION
 req.redist: 

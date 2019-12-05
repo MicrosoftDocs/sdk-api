@@ -1,20 +1,18 @@
 ---
 UID: NN:vfw.IAVIStream
 title: IAVIStream (vfw.h)
-
 description: The IAVIStream interface supports creating and manipulating data streams within a file. Uses IUnknown::QueryInterface, IUnknown::AddRef, IUnknown::Release in addition to the following custom methods:\_
 The IAVIStream interface supports creating and manipulating data streams within a file. Uses IUnknown::QueryInterface, IUnknown::AddRef, IUnknown::Release in addition to the following custom methods: 
 old-location: multimedia\iavistream.htm
 tech.root: Multimedia
 ms.assetid: 25f67f04-e005-48ee-89e7-a6ef89f6d6c6
-
 ms.date: 12/05/2018
 ms.keywords: IAVIStream, IAVIStream interface [Windows Multimedia], IAVIStream interface [Windows Multimedia],described, _win32_IAVIStream, multimedia.iavistream, vfw/IAVIStream
 ms.topic: interface
 f1_keywords:
 - vfw/IAVIStream
 dev_langs:
- - c++
+- c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows

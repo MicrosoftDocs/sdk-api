@@ -1,19 +1,17 @@
 ---
 UID: NF:mileffects.IMILBitmapEffectRenderContextImpl.GetOutputBounds
 title: IMILBitmapEffectRenderContextImpl::GetOutputBounds (mileffects.h)
-
 description: Gets the output bounds of the render context.
 old-location: wibe\_wibe_imilbitmapeffectrendercontextimpl_getoutputbounds.htm
 tech.root: wibe
 ms.assetid: VS|wibe|~\wibelh\reference\ifaces\imilbitmapeffectrendercontextimpl\getoutputbounds.htm
-
 ms.date: 12/05/2018
 ms.keywords: GetOutputBounds, GetOutputBounds method [WPF Bitmap Effects], GetOutputBounds method [WPF Bitmap Effects],IMILBitmapEffectRenderContextImpl interface, IMILBitmapEffectRenderContextImpl interface [WPF Bitmap Effects],GetOutputBounds method, IMILBitmapEffectRenderContextImpl.GetOutputBounds, IMILBitmapEffectRenderContextImpl::GetOutputBounds, _wibe_imilbitmapeffectrendercontextimpl_getoutputbounds, mileffects/IMILBitmapEffectRenderContextImpl::GetOutputBounds, wibe._wibe_imilbitmapeffectrendercontextimpl_getoutputbounds
 ms.topic: method
-f1_keywords: 
- - "mileffects/IMILBitmapEffectRenderContextImpl.GetOutputBounds"
+f1_keywords:
+- mileffects/IMILBitmapEffectRenderContextImpl.GetOutputBounds
 dev_langs:
- - c++
+- c++
 req.header: mileffects.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Mileffects.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mileffects.dll
+- Mileffects.dll
 api_name:
- - IMILBitmapEffectRenderContextImpl.GetOutputBounds
+- IMILBitmapEffectRenderContextImpl.GetOutputBounds
 targetos: Windows
 req.typenames: 
 req.redist: Microsoft .Net 3.0

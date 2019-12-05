@@ -1,19 +1,17 @@
 ---
 UID: NN:windows.ui.xaml.media.dxinterop.ISwapChainPanelNative2
 title: ISwapChainPanelNative2 (windows.ui.xaml.media.dxinterop.h)
-
 description: Provides interoperation between XAML and a DirectX swap chain. Unlike SwapChainBackgroundPanel, a SwapChainPanel can appear at any level in the XAML display tree, and more than 1 can be present in any given tree.
 old-location: winrt\iswapchainpanelnative2.htm
 tech.root: WinRT
 ms.assetid: 49d8defd-99c3-f611-ad71-3f78d4efe0d3
-
 ms.date: 12/05/2018
 ms.keywords: ISwapChainPanelNative2, ISwapChainPanelNative2 interface [Windows Runtime], ISwapChainPanelNative2 interface [Windows Runtime],described, windows/ISwapChainPanelNative2, winrt.iswapchainpanelnative2
 ms.topic: interface
-f1_keywords: 
- - "windows.ui.xaml.media.dxinterop/ISwapChainPanelNative2"
+f1_keywords:
+- windows.ui.xaml.media.dxinterop/ISwapChainPanelNative2
 dev_langs:
- - c++
+- c++
 req.header: windows.ui.xaml.media.dxinterop.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Windows.UI.Xaml.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Windows.UI.Xaml.dll
+- Windows.UI.Xaml.dll
 api_name:
- - ISwapChainPanelNative2
+- ISwapChainPanelNative2
 targetos: Windows
 req.typenames: 
 req.redist: 

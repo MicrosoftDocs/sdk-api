@@ -1,19 +1,17 @@
 ---
 UID: NS:wingdi.tagHANDLETABLE
 title: HANDLETABLE (wingdi.h)
-
 description: The HANDLETABLE structure is an array of handles, each of which identifies a graphics device interface (GDI) object.
 old-location: gdi\handletable.htm
 tech.root: gdi
 ms.assetid: c0c03c7d-baac-4b59-ba2f-8f6330651b49
-
 ms.date: 12/05/2018
-ms.keywords: "*LPHANDLETABLE, *PHANDLETABLE, HANDLETABLE, HANDLETABLE structure [Windows GDI], PHANDLETABLE, PHANDLETABLE structure pointer [Windows GDI], _win32_HANDLETABLE_str, gdi.handletable, wingdi/HANDLETABLE, wingdi/PHANDLETABLE"
+ms.keywords: '*LPHANDLETABLE, *PHANDLETABLE, HANDLETABLE, HANDLETABLE structure [Windows GDI], PHANDLETABLE, PHANDLETABLE structure pointer [Windows GDI], _win32_HANDLETABLE_str, gdi.handletable, wingdi/HANDLETABLE, wingdi/PHANDLETABLE'
 ms.topic: struct
-f1_keywords: 
- - "wingdi/HANDLETABLE"
+f1_keywords:
+- wingdi/HANDLETABLE
 dev_langs:
- - c++
+- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wingdi.h
+- Wingdi.h
 api_name:
- - HANDLETABLE
+- HANDLETABLE
 targetos: Windows
 req.typenames: HANDLETABLE, *PHANDLETABLE, *LPHANDLETABLE
 req.redist: 

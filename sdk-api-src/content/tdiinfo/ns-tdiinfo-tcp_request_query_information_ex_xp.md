@@ -1,19 +1,17 @@
 ---
 UID: NS:tdiinfo.tcp_request_query_information_ex_xp
 title: TCP_REQUEST_QUERY_INFORMATION_EX_XP (tdiinfo.h)
-
 description: Contains the input for the IOCTL_TCP_QUERY_INFORMATION_EX control code.
 old-location: winprog\tcp_request_query_information_ex.htm
 tech.root: DevNotes
 ms.assetid: 2a1f3a41-ee18-4a67-9da1-a5b18d32defb
-
 ms.date: 12/05/2018
-ms.keywords: "*PTCP_REQUEST_QUERY_INFORMATION_EX, *PTCP_REQUEST_QUERY_INFORMATION_EX_XP, PTCP_REQUEST_QUERY_INFORMATION_EX, PTCP_REQUEST_QUERY_INFORMATION_EX structure pointer [Windows API], TCP_REQUEST_QUERY_INFORMATION_EX, TCP_REQUEST_QUERY_INFORMATION_EX structure [Windows API], TCP_REQUEST_QUERY_INFORMATION_EX_XP, tdiinfo/PTCP_REQUEST_QUERY_INFORMATION_EX, tdiinfo/TCP_REQUEST_QUERY_INFORMATION_EX, winprog.tcp_request_query_information_ex"
+ms.keywords: '*PTCP_REQUEST_QUERY_INFORMATION_EX, *PTCP_REQUEST_QUERY_INFORMATION_EX_XP, PTCP_REQUEST_QUERY_INFORMATION_EX, PTCP_REQUEST_QUERY_INFORMATION_EX structure pointer [Windows API], TCP_REQUEST_QUERY_INFORMATION_EX, TCP_REQUEST_QUERY_INFORMATION_EX structure [Windows API], TCP_REQUEST_QUERY_INFORMATION_EX_XP, tdiinfo/PTCP_REQUEST_QUERY_INFORMATION_EX, tdiinfo/TCP_REQUEST_QUERY_INFORMATION_EX, winprog.tcp_request_query_information_ex'
 ms.topic: struct
-f1_keywords: 
- - "tdiinfo/TCP_REQUEST_QUERY_INFORMATION_EX"
+f1_keywords:
+- tdiinfo/TCP_REQUEST_QUERY_INFORMATION_EX
 dev_langs:
- - c++
+- c++
 req.header: tdiinfo.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - tdiinfo.h
+- tdiinfo.h
 api_name:
- - TCP_REQUEST_QUERY_INFORMATION_EX
+- TCP_REQUEST_QUERY_INFORMATION_EX
 targetos: Windows
 req.typenames: TCP_REQUEST_QUERY_INFORMATION_EX_XP, *PTCP_REQUEST_QUERY_INFORMATION_EX_XP
 req.redist: 

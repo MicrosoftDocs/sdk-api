@@ -1,19 +1,17 @@
 ---
 UID: NF:wmsdkidl.IWMWatermarkInfo.GetWatermarkEntryCount
 title: IWMWatermarkInfo::GetWatermarkEntryCount (wmsdkidl.h)
-
 description: The GetWatermarkEntryCount method retrieves the total number of installed watermarking systems of a specified type. Use this method in conjunction with IWMWatermarkInfo::GetWatermarkEntry to enumerate the installed watermarking DMOs.
 old-location: wmformat\iwmwatermarkinfo_getwatermarkentrycount.htm
 tech.root: wmformat
 ms.assetid: 27a102b7-a495-49ee-9d65-a0276ca2cf76
-
 ms.date: 12/05/2018
 ms.keywords: GetWatermarkEntryCount, GetWatermarkEntryCount method [windows Media Format], GetWatermarkEntryCount method [windows Media Format],IWMWatermarkInfo interface, IWMWatermarkInfo interface [windows Media Format],GetWatermarkEntryCount method, IWMWatermarkInfo.GetWatermarkEntryCount, IWMWatermarkInfo::GetWatermarkEntryCount, IWMWatermarkInfoGetWatermarkEntryCount, wmformat.iwmwatermarkinfo_getwatermarkentrycount, wmsdkidl/IWMWatermarkInfo::GetWatermarkEntryCount
 ms.topic: method
-f1_keywords: 
- - "wmsdkidl/IWMWatermarkInfo.GetWatermarkEntryCount"
+f1_keywords:
+- wmsdkidl/IWMWatermarkInfo.GetWatermarkEntryCount
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wmvcore.lib
- - Wmvcore.dll
- - WMStubDRM.lib
- - WMStubDRM.dll
+- Wmvcore.lib
+- Wmvcore.dll
+- WMStubDRM.lib
+- WMStubDRM.dll
 api_name:
- - IWMWatermarkInfo.GetWatermarkEntryCount
+- IWMWatermarkInfo.GetWatermarkEntryCount
 targetos: Windows
 req.typenames: 
 req.redist: 

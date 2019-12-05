@@ -1,19 +1,17 @@
 ---
 UID: NN:sbtsv.ITsSbSession
 title: ITsSbSession (sbtsv.h)
-
 description: Exposes properties that store information about a user session.
 old-location: termserv\itssbsession.htm
 tech.root: TermServ
 ms.assetid: d6f4c66a-79c3-4bc1-889d-ec5715e359ce
-
 ms.date: 12/05/2018
 ms.keywords: ITsSbSession, ITsSbSession interface [Remote Desktop Services], ITsSbSession interface [Remote Desktop Services],described, sbtsv/ITsSbSession, termserv.itssbsession
 ms.topic: interface
-f1_keywords: 
- - "sbtsv/ITsSbSession"
+f1_keywords:
+- sbtsv/ITsSbSession
 dev_langs:
- - c++
+- c++
 req.header: sbtsv.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - sbtsv.h
+- sbtsv.h
 api_name:
- - ITsSbSession
+- ITsSbSession
 targetos: Windows
 req.typenames: 
 req.redist: 

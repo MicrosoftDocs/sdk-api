@@ -1,19 +1,17 @@
 ---
 UID: NF:dbghelp.SymSrvStoreFileW
 title: SymSrvStoreFileW function (dbghelp.h)
-
 description: Stores a file in the specified symbol store.
 old-location: base\symsrvstorefile.htm
 tech.root: Debug
 ms.assetid: 308ce0bb-d5ff-4de0-b5b3-9e26aa7b163a
-
 ms.date: 12/05/2018
 ms.keywords: SYMSTOREOPT_COMPRESS, SYMSTOREOPT_OVERWRITE, SYMSTOREOPT_PASS_IF_EXISTS, SYMSTOREOPT_POINTER, SYMSTOREOPT_RETURNINDEX, SymSrvStoreFile, SymSrvStoreFile function, SymSrvStoreFileW, base.symsrvstorefile, dbghelp/SymSrvStoreFile, dbghelp/SymSrvStoreFileW
 ms.topic: function
-f1_keywords: 
- - "dbghelp/SymSrvStoreFile"
+f1_keywords:
+- dbghelp/SymSrvStoreFile
 dev_langs:
- - c++
+- c++
 req.header: dbghelp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Dbghelp.lib
 req.dll: Dbghelp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Dbghelp.dll
+- Dbghelp.dll
 api_name:
- - SymSrvStoreFile
- - SymSrvStoreFile
- - SymSrvStoreFileW
+- SymSrvStoreFile
+- SymSrvStoreFile
+- SymSrvStoreFileW
 targetos: Windows
 req.typenames: 
 req.redist: DbgHelp.dll 6.3 or later

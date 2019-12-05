@@ -1,19 +1,17 @@
 ---
 UID: NF:commctrl.ListView_IsGroupViewEnabled
 title: ListView_IsGroupViewEnabled macro (commctrl.h)
-
 description: Checks whether the list-view control has group view enabled. You can use this macro or send the LVM_ISGROUPVIEWENABLED message explicitly.
 old-location: controls\ListView_IsGroupViewEnabled.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_isgroupviewenabled.htm
-
 ms.date: 12/05/2018
 ms.keywords: ListView_IsGroupViewEnabled, ListView_IsGroupViewEnabled macro [Windows Controls], _win32_ListView_IsGroupViewEnabled, _win32_ListView_IsGroupViewEnabled_cpp, commctrl/ListView_IsGroupViewEnabled, controls.ListView_IsGroupViewEnabled, controls._win32_ListView_IsGroupViewEnabled
 ms.topic: macro
-f1_keywords: 
- - "commctrl/ListView_IsGroupViewEnabled"
+f1_keywords:
+- commctrl/ListView_IsGroupViewEnabled
 dev_langs:
- - c++
+- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Commctrl.h
+- Commctrl.h
 api_name:
- - ListView_IsGroupViewEnabled
+- ListView_IsGroupViewEnabled
 targetos: Windows
 req.typenames: 
 req.redist: 

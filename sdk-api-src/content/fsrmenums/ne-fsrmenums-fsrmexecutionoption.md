@@ -1,19 +1,17 @@
 ---
 UID: NE:fsrmenums._FsrmExecutionOption
 title: FsrmExecutionOption (fsrmenums.h)
-
 description: Defines the options for how to apply the rule to the file.
 old-location: fsrm\fsrmexecutionoption.htm
 tech.root: fsrm
 ms.assetid: 55512fe2-0249-4c6f-90bf-5f769674bedd
-
 ms.date: 12/05/2018
 ms.keywords: FsrmExecutionOption, FsrmExecutionOption enumeration [File Server Resource Manager], FsrmExecutionOption_EvaluateUnset, FsrmExecutionOption_ReEvaluate_ConsiderExistingValue, FsrmExecutionOption_ReEvaluate_IgnoreExistingValue, FsrmExecutionOption_Unknown, fs.fsrmexecutionoption, fsrm.fsrmexecutionoption, fsrmenums/FsrmExecutionOption, fsrmenums/FsrmExecutionOption_EvaluateUnset, fsrmenums/FsrmExecutionOption_ReEvaluate_ConsiderExistingValue, fsrmenums/FsrmExecutionOption_ReEvaluate_IgnoreExistingValue, fsrmenums/FsrmExecutionOption_Unknown
 ms.topic: enum
 f1_keywords:
 - fsrmenums/FsrmExecutionOption
 dev_langs:
- - c++
+- c++
 req.header: fsrmenums.h
 req.include-header: FsrmPipeline.h, FsrmQuota.h, FsrmReports.h, FsrmScreen.h
 req.target-type: Windows

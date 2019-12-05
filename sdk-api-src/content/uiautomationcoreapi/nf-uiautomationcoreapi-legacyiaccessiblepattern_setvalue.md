@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationcoreapi.LegacyIAccessiblePattern_SetValue
 title: LegacyIAccessiblePattern_SetValue function (uiautomationcoreapi.h)
-
 description: Sets the Microsoft Active Accessibility value property for the node.
 old-location: winauto\uiauto_LegacyIAccessiblePattern_SetValue.htm
 tech.root: WinAuto
 ms.assetid: ce3fc72b-ddef-4add-a9ff-42763af7ec48
-
 ms.date: 12/05/2018
 ms.keywords: LegacyIAccessiblePattern_SetValue, LegacyIAccessiblePattern_SetValue function [Windows Accessibility], uiauto.uiauto_LegacyIAccessiblePattern_SetValue, uiauto_LegacyIAccessiblePattern_SetValue, uiautomationcoreapi/LegacyIAccessiblePattern_SetValue, winauto.uiauto_LegacyIAccessiblePattern_SetValue
 ms.topic: function
-f1_keywords: 
- - "uiautomationcoreapi/LegacyIAccessiblePattern_SetValue"
+f1_keywords:
+- uiautomationcoreapi/LegacyIAccessiblePattern_SetValue
 dev_langs:
- - c++
+- c++
 req.header: uiautomationcoreapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uiautomationcore.lib
 req.dll: Uiautomationcore.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Uiautomationcore.dll
+- Uiautomationcore.dll
 api_name:
- - LegacyIAccessiblePattern_SetValue
+- LegacyIAccessiblePattern_SetValue
 targetos: Windows
 req.typenames: 
 req.redist: 

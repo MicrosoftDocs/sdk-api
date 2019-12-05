@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IFolderView.Item
 title: IFolderView::Item (shobjidl_core.h)
-
 description: Gets the identifier of a specific item in the folder view, by index.
 old-location: shell\IFolderView_Item.htm
 tech.root: shell
 ms.assetid: c130ef36-1255-4c57-be31-7fc2029d9f66
-
 ms.date: 12/05/2018
 ms.keywords: IFolderView interface [Windows Shell],Item method, IFolderView.Item, IFolderView::Item, Item, Item method [Windows Shell], Item method [Windows Shell],IFolderView interface, _shell_IFolderView_Item, shell.IFolderView_Item, shobjidl_core/IFolderView::Item
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IFolderView.Item"
+f1_keywords:
+- shobjidl_core/IFolderView.Item
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Shell32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - IFolderView.Item
+- IFolderView.Item
 targetos: Windows
 req.typenames: 
 req.redist: 

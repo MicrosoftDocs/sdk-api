@@ -1,19 +1,17 @@
 ---
 UID: NF:shidfact.CItemIDFactory.GetPropertyFromIDList(PCUIDLIST_RELATIVE,PCWSTR,PROPVARIANT)
 title: CItemIDFactory::GetPropertyFromIDList(PCUIDLIST_RELATIVE,PCWSTR,PROPVARIANT) (shidfact.h)
-
 description: Gets a property from the IPropertyStore within the IDList as a variant, using the key.
 old-location: shell\citemidfactory_getpropertyfromidlist_key.htm
 tech.root: shell
 ms.assetid: 2BC0557F-57B2-4389-ABC6-9186A4FCF814
-
 ms.date: 12/05/2018
 ms.keywords: CItemIDFactory interface [Windows Shell],GetPropertyFromIDList method, CItemIDFactory.GetPropertyFromIDList, CItemIDFactory.GetPropertyFromIDList(PCUIDLIST_RELATIVE,PCWSTR,PROPVARIANT), CItemIDFactory::GetPropertyFromIDList, CItemIDFactory::GetPropertyFromIDList(PCUIDLIST_RELATIVE,PCWSTR,PROPVARIANT), GetPropertyFromIDList, GetPropertyFromIDList method [Windows Shell], GetPropertyFromIDList method [Windows Shell],CItemIDFactory interface, shell.citemidfactory_getpropertyfromidlist_key, shidfact/CItemIDFactory::GetPropertyFromIDList
 ms.topic: method
-f1_keywords: 
- - "shidfact/GetPropertyFromIDList.GetPropertyFromIDList"
+f1_keywords:
+- shidfact/GetPropertyFromIDList.GetPropertyFromIDList
 dev_langs:
- - c++
+- c++
 req.header: shidfact.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shidfact.h
+- shidfact.h
 api_name:
- - GetPropertyFromIDList.GetPropertyFromIDList
- - CItemIDFactory.GetPropertyFromIDList
+- GetPropertyFromIDList.GetPropertyFromIDList
+- CItemIDFactory.GetPropertyFromIDList
 targetos: Windows
 req.typenames: 
 req.redist: 

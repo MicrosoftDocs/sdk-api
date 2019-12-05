@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IFileDialog.GetResult
 title: IFileDialog::GetResult (shobjidl_core.h)
-
 description: Gets the choice that the user made in the dialog.
 old-location: shell\IFileDialog_GetResult.htm
 tech.root: shell
 ms.assetid: 6572f172-8b66-4b42-b087-d0133595b380
-
 ms.date: 12/05/2018
 ms.keywords: GetResult, GetResult method [Windows Shell], GetResult method [Windows Shell],IFileDialog interface, IFileDialog interface [Windows Shell],GetResult method, IFileDialog.GetResult, IFileDialog::GetResult, shell.IFileDialog_GetResult, shell_IFileDialog_GetResult, shobjidl_core/IFileDialog::GetResult
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IFileDialog.GetResult"
+f1_keywords:
+- shobjidl_core/IFileDialog.GetResult
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - IFileDialog.GetResult
+- IFileDialog.GetResult
 targetos: Windows
 req.typenames: 
 req.redist: 

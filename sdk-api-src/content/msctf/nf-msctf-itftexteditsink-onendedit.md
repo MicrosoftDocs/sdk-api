@@ -1,19 +1,17 @@
 ---
 UID: NF:msctf.ITfTextEditSink.OnEndEdit
 title: ITfTextEditSink::OnEndEdit (msctf.h)
-
 description: ITfTextEditSink::OnEndEdit method
 old-location: tsf\itftexteditsink_onendedit.htm
 tech.root: TSF
 ms.assetid: 7763a879-a558-463d-837b-e38e6f84b9f7
-
 ms.date: 12/05/2018
 ms.keywords: ITfTextEditSink interface [Text Services Framework],OnEndEdit method, ITfTextEditSink.OnEndEdit, ITfTextEditSink::OnEndEdit, OnEndEdit, OnEndEdit method [Text Services Framework], OnEndEdit method [Text Services Framework],ITfTextEditSink interface, _tsf_itftexteditsink_onendedit_ref, msctf/ITfTextEditSink::OnEndEdit, tsf.itftexteditsink_onendedit
 ms.topic: method
-f1_keywords: 
- - "msctf/ITfTextEditSink.OnEndEdit"
+f1_keywords:
+- msctf/ITfTextEditSink.OnEndEdit
 dev_langs:
- - c++
+- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Imekrcic.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - imekrcic.dll
+- imekrcic.dll
 api_name:
- - ITfTextEditSink.OnEndEdit
+- ITfTextEditSink.OnEndEdit
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

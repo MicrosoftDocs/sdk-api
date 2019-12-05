@@ -1,19 +1,17 @@
 ---
 UID: NS:webservices._WS_SSL_TRANSPORT_SECURITY_BINDING_TEMPLATE
 title: WS_SSL_TRANSPORT_SECURITY_BINDING_TEMPLATE (webservices.h)
-
 description: The security binding template for specifying the use of SSL/TLS protocol based transport security.
 old-location: wsw\ws_ssl_transport_security_binding_template.htm
 tech.root: wsw
 ms.assetid: 6b7e9ed6-0337-479d-9a83-dec5770c050d
-
 ms.date: 12/05/2018
 ms.keywords: WS_SSL_TRANSPORT_SECURITY_BINDING_TEMPLATE, WS_SSL_TRANSPORT_SECURITY_BINDING_TEMPLATE structure [Web Services for Windows], webservices/WS_SSL_TRANSPORT_SECURITY_BINDING_TEMPLATE, wsw.ws_ssl_transport_security_binding_template
 ms.topic: struct
 f1_keywords:
 - webservices/WS_SSL_TRANSPORT_SECURITY_BINDING_TEMPLATE
 dev_langs:
- - c++
+- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

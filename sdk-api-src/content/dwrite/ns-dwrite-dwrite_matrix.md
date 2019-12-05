@@ -1,19 +1,17 @@
 ---
 UID: NS:dwrite.DWRITE_MATRIX
 title: DWRITE_MATRIX (dwrite.h)
-
 description: The DWRITE_MATRIX structure specifies the graphics transform to be applied to rendered glyphs.
 old-location: directwrite\dwrite_matrix.htm
 tech.root: DirectWrite
 ms.assetid: fe4bd8ba-fc3b-4a04-8a72-9983d52f4404
-
 ms.date: 12/05/2018
 ms.keywords: DWRITE_MATRIX, DWRITE_MATRIX structure [Direct Write], directwrite.dwrite_matrix, dwrite/DWRITE_MATRIX
 ms.topic: struct
-f1_keywords: 
- - "dwrite/DWRITE_MATRIX"
+f1_keywords:
+- dwrite/DWRITE_MATRIX
 dev_langs:
- - c++
+- c++
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - dwrite.h
+- dwrite.h
 api_name:
- - DWRITE_MATRIX
+- DWRITE_MATRIX
 targetos: Windows
 req.typenames: 
 req.redist: 

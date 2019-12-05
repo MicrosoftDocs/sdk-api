@@ -1,19 +1,17 @@
 ---
 UID: NS:winuser.tagPOINTER_INFO
 title: POINTER_INFO (winuser.h)
-
 description: Contains basic pointer information common to all pointer types. Applications can retrieve this information using the GetPointerInfo, GetPointerFrameInfo, GetPointerInfoHistory and GetPointerFrameInfoHistory functions.
 old-location: inputmsg\pointer_info_struct.htm
 tech.root: InputMsg
 ms.assetid: fee176ba-ad07-4145-0b4d-1b8c335fd102
-
 ms.date: 12/05/2018
 ms.keywords: POINTER_INFO, POINTER_INFO structure [Input Messages and Notifications], _POINTER_INFO, inputmsg.pointer_info_struct, winuser/POINTER_INFO
 ms.topic: struct
-f1_keywords: 
- - "winuser/POINTER_INFO"
+f1_keywords:
+- winuser/POINTER_INFO
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Winuser.h
+- Winuser.h
 api_name:
- - POINTER_INFO
+- POINTER_INFO
 targetos: Windows
 req.typenames: POINTER_INFO
 req.redist: 

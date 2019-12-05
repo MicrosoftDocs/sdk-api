@@ -1,19 +1,17 @@
 ---
 UID: NN:iads.IADsSession
 title: IADsSession (iads.h)
-
 description: The IADsSession interface is a dual interface that inherits from IADs. It is designed to represent an active session for file service across a network.
 old-location: adsi\iadssession.htm
 tech.root: adsi
 ms.assetid: 54621f0d-7478-4a6f-a96f-f3f93e64b281
-
 ms.date: 12/05/2018
 ms.keywords: IADsSession, IADsSession interface [ADSI], IADsSession interface [ADSI],described, _ds_iadssession, adsi.iadssession, iads/IADsSession
 ms.topic: interface
-f1_keywords: 
- - "iads/IADsSession"
+f1_keywords:
+- iads/IADsSession
 dev_langs:
- - c++
+- c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Activeds.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Activeds.dll
+- Activeds.dll
 api_name:
- - IADsSession
+- IADsSession
 targetos: Windows
 req.typenames: 
 req.redist: 

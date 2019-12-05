@@ -1,19 +1,17 @@
 ---
 UID: NF:ole.OleSaveToStream
 title: OleSaveToStream function (ole.h)
-
 description: Saves an object with the IPersistStream interface on it to the specified stream.
 old-location: com\olesavetostream.htm
 tech.root: com
 ms.assetid: 0085c6a8-1a94-4379-9937-c8d792d130da
-
 ms.date: 12/05/2018
 ms.keywords: OleSaveToStream, OleSaveToStream function [COM], _ole_OleSaveToStream, com.olesavetostream, ole/OleSaveToStream
 ms.topic: function
-f1_keywords: 
- - "ole/OleSaveToStream"
+f1_keywords:
+- ole/OleSaveToStream
 dev_langs:
- - c++
+- c++
 req.header: ole.h
 req.include-header: Ole2.h
 req.target-type: Windows
@@ -32,19 +30,19 @@ req.lib: Ole32.lib
 req.dll: Ole32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ole32.dll
- - Ext-MS-Win-COM-OLE32-l1-1-1.dll
- - Ext-MS-Win-COM-OLE32-l1-1-2.dll
- - Ext-MS-Win-OLE32-IE-Ext-l1-1-0.dll
- - ext-ms-win-com-ole32-l1-1-3.dll
- - Ext-MS-Win-Com-Ole32-L1-1-4.dll
+- Ole32.dll
+- Ext-MS-Win-COM-OLE32-l1-1-1.dll
+- Ext-MS-Win-COM-OLE32-l1-1-2.dll
+- Ext-MS-Win-OLE32-IE-Ext-l1-1-0.dll
+- ext-ms-win-com-ole32-l1-1-3.dll
+- Ext-MS-Win-Com-Ole32-L1-1-4.dll
 api_name:
- - OleSaveToStream
+- OleSaveToStream
 targetos: Windows
 req.typenames: 
 req.redist: 

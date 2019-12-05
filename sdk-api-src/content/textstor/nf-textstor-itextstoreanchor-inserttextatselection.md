@@ -1,19 +1,17 @@
 ---
 UID: NF:textstor.ITextStoreAnchor.InsertTextAtSelection
 title: ITextStoreAnchor::InsertTextAtSelection (textstor.h)
-
 description: ITextStoreAnchor::InsertTextAtSelection method
 old-location: tsf\itextstoreanchor_inserttextatselection.htm
 tech.root: TSF
 ms.assetid: f5cb512a-d9f5-451f-b6cb-2020ba32e855
-
 ms.date: 12/05/2018
 ms.keywords: ITextStoreAnchor interface [Text Services Framework],InsertTextAtSelection method, ITextStoreAnchor.InsertTextAtSelection, ITextStoreAnchor::InsertTextAtSelection, InsertTextAtSelection, InsertTextAtSelection method [Text Services Framework], InsertTextAtSelection method [Text Services Framework],ITextStoreAnchor interface, TF_IAS_NOQUERY, TF_IAS_QUERYONLY, textstor/ITextStoreAnchor::InsertTextAtSelection, tsf.itextstoreanchor_inserttextatselection
 ms.topic: method
-f1_keywords: 
- - "textstor/ITextStoreAnchor.InsertTextAtSelection"
+f1_keywords:
+- textstor/ITextStoreAnchor.InsertTextAtSelection
 dev_langs:
- - c++
+- c++
 req.header: textstor.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msctf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msctf.dll
+- msctf.dll
 api_name:
- - ITextStoreAnchor.InsertTextAtSelection
+- ITextStoreAnchor.InsertTextAtSelection
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

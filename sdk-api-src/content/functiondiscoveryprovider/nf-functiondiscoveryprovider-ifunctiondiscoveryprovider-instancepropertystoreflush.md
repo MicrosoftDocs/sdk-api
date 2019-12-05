@@ -1,19 +1,17 @@
 ---
 UID: NF:functiondiscoveryprovider.IFunctionDiscoveryProvider.InstancePropertyStoreFlush
 title: IFunctionDiscoveryProvider::InstancePropertyStoreFlush (functiondiscoveryprovider.h)
-
 description: Provides a mechanism for the provider to persist properties.
 old-location: ncd\ifunctiondiscoveryprovider_instancepropertystoreflush.htm
 tech.root: FunDisc
 ms.assetid: 7ad29f46-fb21-4287-9fc9-9ab86d44d298
-
 ms.date: 12/05/2018
 ms.keywords: IFunctionDiscoveryProvider interface,InstancePropertyStoreFlush method, IFunctionDiscoveryProvider.InstancePropertyStoreFlush, IFunctionDiscoveryProvider::InstancePropertyStoreFlush, InstancePropertyStoreFlush, InstancePropertyStoreFlush method, InstancePropertyStoreFlush method,IFunctionDiscoveryProvider interface, functiondiscoveryprovider/IFunctionDiscoveryProvider::InstancePropertyStoreFlush, ncd.ifunctiondiscoveryprovider_instancepropertystoreflush
 ms.topic: method
-f1_keywords: 
- - "functiondiscoveryprovider/IFunctionDiscoveryProvider.InstancePropertyStoreFlush"
+f1_keywords:
+- functiondiscoveryprovider/IFunctionDiscoveryProvider.InstancePropertyStoreFlush
 dev_langs:
- - c++
+- c++
 req.header: functiondiscoveryprovider.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - FunctionDiscoveryProvider.h
+- FunctionDiscoveryProvider.h
 api_name:
- - IFunctionDiscoveryProvider.InstancePropertyStoreFlush
+- IFunctionDiscoveryProvider.InstancePropertyStoreFlush
 targetos: Windows
 req.typenames: 
 req.redist: 

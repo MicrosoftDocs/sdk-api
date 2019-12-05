@@ -1,19 +1,17 @@
 ---
 UID: NN:cscobj.IOfflineFilesPinInfo2
 title: IOfflineFilesPinInfo2 (cscobj.h)
-
 description: Defines a method to determine whether an item in the Offline Files cache is partly pinned.
 old-location: of\iofflinefilespininfo2.htm
 tech.root: offlinefiles
 ms.assetid: 80aa7e38-dbd7-42c6-b4b8-df4f104dfdc8
-
 ms.date: 12/05/2018
 ms.keywords: IOfflineFilesPinInfo2, IOfflineFilesPinInfo2 interface [Offline Files], IOfflineFilesPinInfo2 interface [Offline Files],described, cscobj/IOfflineFilesPinInfo2, of.iofflinefilespininfo2
 ms.topic: interface
-f1_keywords: 
- - "cscobj/IOfflineFilesPinInfo2"
+f1_keywords:
+- cscobj/IOfflineFilesPinInfo2
 dev_langs:
- - c++
+- c++
 req.header: cscobj.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: CscSvc.dll; CscObj.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CscSvc.dll
- - CscObj.dll
+- CscSvc.dll
+- CscObj.dll
 api_name:
- - IOfflineFilesPinInfo2
+- IOfflineFilesPinInfo2
 targetos: Windows
 req.typenames: 
 req.redist: 

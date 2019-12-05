@@ -1,19 +1,17 @@
 ---
 UID: NF:wlanapi.WlanAllocateMemory
 title: WlanAllocateMemory function (wlanapi.h)
-
 description: Allocates memory.
 old-location: nwifi\wlanallocatememory.htm
 tech.root: NativeWiFi
 ms.assetid: 29200450-4ec8-418d-b633-1ea688755711
-
 ms.date: 12/05/2018
 ms.keywords: WlanAllocateMemory, WlanAllocateMemory function [NativeWIFI], nwifi.wlanallocatememory, wlanapi/WlanAllocateMemory
 ms.topic: function
-f1_keywords: 
- - "wlanapi/WlanAllocateMemory"
+f1_keywords:
+- wlanapi/WlanAllocateMemory
 dev_langs:
- - c++
+- c++
 req.header: wlanapi.h
 req.include-header: Wlanapi.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Wlanapi.lib
 req.dll: Wlanapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - wlanapi.dll
+- wlanapi.dll
 api_name:
- - WlanAllocateMemory
+- WlanAllocateMemory
 targetos: Windows
 req.typenames: 
 req.redist: Wireless LAN API for Windows XP with SP2

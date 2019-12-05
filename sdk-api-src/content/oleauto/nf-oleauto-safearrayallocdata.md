@@ -1,19 +1,17 @@
 ---
 UID: NF:oleauto.SafeArrayAllocData
 title: SafeArrayAllocData function (oleauto.h)
-
 description: Allocates memory for a safe array, based on a descriptor created with SafeArrayAllocDescriptor.
 old-location: automat\safearrayallocdata.htm
 tech.root: automat
 ms.assetid: a1f984cd-9638-415d-8582-25b1bdfbd694
-
 ms.date: 12/05/2018
 ms.keywords: SafeArrayAllocData, SafeArrayAllocData function [Automation], _oa96_SafeArrayAllocData, automat.safearrayallocdata, oleauto/SafeArrayAllocData
 ms.topic: function
-f1_keywords: 
- - "oleauto/SafeArrayAllocData"
+f1_keywords:
+- oleauto/SafeArrayAllocData
 dev_langs:
- - c++
+- c++
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: OleAut32.lib
 req.dll: OleAut32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - OleAut32.dll
+- OleAut32.dll
 api_name:
- - SafeArrayAllocData
+- SafeArrayAllocData
 targetos: Windows
 req.typenames: 
 req.redist: 

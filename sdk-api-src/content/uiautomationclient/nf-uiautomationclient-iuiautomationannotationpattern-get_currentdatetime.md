@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationAnnotationPattern.get_CurrentDateTime
 title: IUIAutomationAnnotationPattern::get_CurrentDateTime (uiautomationclient.h)
-
 description: Retrieves the date and time that this annotation was created.
 old-location: winauto\uiauto_IUIAutomationAnnotationPattern_CurrentDateTime.htm
 tech.root: WinAuto
 ms.assetid: 391F6C44-F1AF-4EB7-87F1-593541FFF3A8
-
 ms.date: 12/05/2018
 ms.keywords: CurrentDateTime property [Windows Accessibility], CurrentDateTime property [Windows Accessibility],IUIAutomationAnnotationPattern interface, IUIAutomationAnnotationPattern interface [Windows Accessibility],CurrentDateTime property, IUIAutomationAnnotationPattern.CurrentDateTime, IUIAutomationAnnotationPattern.get_CurrentDateTime, IUIAutomationAnnotationPattern::CurrentDateTime, IUIAutomationAnnotationPattern::get_CurrentDateTime, get_CurrentDateTime, uiautomationclient/IUIAutomationAnnotationPattern::CurrentDateTime, uiautomationclient/IUIAutomationAnnotationPattern::get_CurrentDateTime, winauto.uiauto_IUIAutomationAnnotationPattern_CurrentDateTime
 ms.topic: method
-f1_keywords: 
- - "uiautomationclient/IUIAutomationAnnotationPattern.CurrentDateTime"
+f1_keywords:
+- uiautomationclient/IUIAutomationAnnotationPattern.CurrentDateTime
 dev_langs:
- - c++
+- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationClient.h
+- UIAutomationClient.h
 api_name:
- - IUIAutomationAnnotationPattern.CurrentDateTime
- - IUIAutomationAnnotationPattern.get_CurrentDateTime
+- IUIAutomationAnnotationPattern.CurrentDateTime
+- IUIAutomationAnnotationPattern.get_CurrentDateTime
 targetos: Windows
 req.typenames: 
 req.redist: 

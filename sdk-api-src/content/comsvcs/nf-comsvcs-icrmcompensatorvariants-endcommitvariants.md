@@ -1,19 +1,17 @@
 ---
 UID: NF:comsvcs.ICrmCompensatorVariants.EndCommitVariants
 title: ICrmCompensatorVariants::EndCommitVariants (comsvcs.h)
-
 description: Notifies the CRM Compensator that it has delivered all the log records available during the commit phase.
 old-location: cos\icrmcompensatorvariants_endcommitvariants.htm
 tech.root: cossdk
 ms.assetid: 1004437b-0281-439c-9b6d-0043caeb2844
-
 ms.date: 12/05/2018
 ms.keywords: EndCommitVariants, EndCommitVariants method [COM+], EndCommitVariants method [COM+],ICrmCompensatorVariants interface, ICrmCompensatorVariants interface [COM+],EndCommitVariants method, ICrmCompensatorVariants.EndCommitVariants, ICrmCompensatorVariants::EndCommitVariants, _dtc_ICrmCompensatorVariants_EndCommitVariants, comsvcs/ICrmCompensatorVariants::EndCommitVariants, cos.icrmcompensatorvariants_endcommitvariants
 ms.topic: method
-f1_keywords: 
- - "comsvcs/ICrmCompensatorVariants.EndCommitVariants"
+f1_keywords:
+- comsvcs/ICrmCompensatorVariants.EndCommitVariants
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - ICrmCompensatorVariants.EndCommitVariants
+- ICrmCompensatorVariants.EndCommitVariants
 targetos: Windows
 req.typenames: 
 req.redist: 

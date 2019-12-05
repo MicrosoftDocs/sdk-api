@@ -1,19 +1,17 @@
 ---
 UID: NF:winuser.GetThreadDesktop
 title: GetThreadDesktop function (winuser.h)
-
 description: Retrieves a handle to the desktop assigned to the specified thread.
 old-location: winstation\getthreaddesktop.htm
 tech.root: winstation
 ms.assetid: 51eec935-43c7-495b-b1fc-2bd5ba1e0090
-
 ms.date: 12/05/2018
 ms.keywords: GetThreadDesktop, GetThreadDesktop function [Windows Stations and Desktops], _win32_getthreaddesktop, base.getthreaddesktop, winstation.getthreaddesktop, winuser/GetThreadDesktop
 ms.topic: function
-f1_keywords: 
- - "winuser/GetThreadDesktop"
+f1_keywords:
+- winuser/GetThreadDesktop
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - User32.dll
- - Ext-MS-Win-NTUser-Windowstation-l1-1-0.dll
- - Ext-MS-Win-NTUser-Windowstation-l1-1-1.dll
- - api-ms-win-rtcore-ntuser-windowstation-l1-1-0.dll
- - Ext-MS-Win-NTUser-WindowStation-L1-1-2.dll
+- User32.dll
+- Ext-MS-Win-NTUser-Windowstation-l1-1-0.dll
+- Ext-MS-Win-NTUser-Windowstation-l1-1-1.dll
+- api-ms-win-rtcore-ntuser-windowstation-l1-1-0.dll
+- Ext-MS-Win-NTUser-WindowStation-L1-1-2.dll
 api_name:
- - GetThreadDesktop
+- GetThreadDesktop
 targetos: Windows
 req.typenames: 
 req.redist: 

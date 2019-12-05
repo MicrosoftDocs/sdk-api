@@ -1,19 +1,17 @@
 ---
 UID: NF:mftransform.IMFTransform.DeleteInputStream
 title: IMFTransform::DeleteInputStream (mftransform.h)
-
 description: Removes an input stream from this Media Foundation transform (MFT).
 old-location: mf\imftransform_deleteinputstream.htm
 tech.root: medfound
 ms.assetid: cba37f7f-6ab2-469c-95c2-61d9e4d31d0b
-
 ms.date: 12/05/2018
 ms.keywords: DeleteInputStream, DeleteInputStream method [Media Foundation], DeleteInputStream method [Media Foundation],IMFTransform interface, IMFTransform interface [Media Foundation],DeleteInputStream method, IMFTransform.DeleteInputStream, IMFTransform::DeleteInputStream, cba37f7f-6ab2-469c-95c2-61d9e4d31d0b, mf.imftransform_deleteinputstream, mftransform/IMFTransform::DeleteInputStream
 ms.topic: method
-f1_keywords: 
- - "mftransform/IMFTransform.DeleteInputStream"
+f1_keywords:
+- mftransform/IMFTransform.DeleteInputStream
 dev_langs:
- - c++
+- c++
 req.header: mftransform.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFTransform.DeleteInputStream
+- IMFTransform.DeleteInputStream
 targetos: Windows
 req.typenames: 
 req.redist: 

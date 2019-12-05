@@ -1,19 +1,17 @@
 ---
 UID: NE:segment.DVDSPExt
 title: DVDSPExt (segment.h)
-
 description: The DVDSPExt enumeration type holds a value indicating the default DVD subpicture language extension.
 old-location: mstv\dvdspext.htm
 tech.root: mstv
 ms.assetid: cc33083a-1281-4863-937c-bd4688989a6c
-
 ms.date: 12/05/2018
 ms.keywords: DVDSPExt, DVDSPExt enumeration [Microsoft TV Technologies], dvdSPExt_CC_Big, dvdSPExt_CC_Children, dvdSPExt_CC_Normal, dvdSPExt_Caption_Big, dvdSPExt_Caption_Children, dvdSPExt_Caption_Normal, dvdSPExt_DirectorComments_Big, dvdSPExt_DirectorComments_Children, dvdSPExt_DirectorComments_Normal, dvdSPExt_Forced, dvdSPExt_NotSpecified, enumeration [Microsoft TV Technologies], mstv.dvdspext, segment/DVDSPExt, segment/dvdSPExt_CC_Big, segment/dvdSPExt_CC_Children, segment/dvdSPExt_CC_Normal, segment/dvdSPExt_Caption_Big, segment/dvdSPExt_Caption_Children, segment/dvdSPExt_Caption_Normal, segment/dvdSPExt_DirectorComments_Big, segment/dvdSPExt_DirectorComments_Children, segment/dvdSPExt_DirectorComments_Normal, segment/dvdSPExt_Forced, segment/dvdSPExt_NotSpecified
 ms.topic: enum
-f1_keywords: 
- - "segment/DVDSPExt"
+f1_keywords:
+- segment/DVDSPExt
 dev_langs:
- - c++
+- c++
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - segment.h
+- segment.h
 api_name:
- - DVDSPExt
+- DVDSPExt
 targetos: Windows
 req.typenames: DVDSPExt
 req.redist: 

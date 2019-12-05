@@ -1,19 +1,17 @@
 ---
 UID: NF:gpedit.IGroupPolicyObject.GetRegistryKey
 title: IGroupPolicyObject::GetRegistryKey (gpedit.h)
-
 description: The GetRegistryKey method retrieves a handle to the root of the registry key for the specified GPO section.
 old-location: policy\igrouppolicyobject_getregistrykey.htm
 tech.root: Policy
 ms.assetid: 6d46aeb4-8675-4746-9b80-46a0def184b8
-
 ms.date: 12/05/2018
 ms.keywords: GPO_SECTION_MACHINE, GPO_SECTION_ROOT, GetRegistryKey, GetRegistryKey method [Group Policy], GetRegistryKey method [Group Policy],IGroupPolicyObject interface, IGroupPolicyObject interface [Group Policy],GetRegistryKey method, IGroupPolicyObject.GetRegistryKey, IGroupPolicyObject::GetRegistryKey, _win32_igrouppolicyobject_getregistrykey, gpedit/IGroupPolicyObject::GetRegistryKey, policy.igrouppolicyobject_getregistrykey
 ms.topic: method
-f1_keywords: 
- - "gpedit/IGroupPolicyObject.GetRegistryKey"
+f1_keywords:
+- gpedit/IGroupPolicyObject.GetRegistryKey
 dev_langs:
- - c++
+- c++
 req.header: gpedit.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Gpedit.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gpedit.dll
+- Gpedit.dll
 api_name:
- - IGroupPolicyObject.GetRegistryKey
+- IGroupPolicyObject.GetRegistryKey
 targetos: Windows
 req.typenames: 
 req.redist: 

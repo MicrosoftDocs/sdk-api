@@ -1,19 +1,17 @@
 ---
 UID: NF:searchapi.IUrlAccessor4.ShouldIndexProperty
 title: IUrlAccessor4::ShouldIndexProperty (searchapi.h)
-
 description: Identifies whether a property should be indexed.
 old-location: search\iurlaccessor4_shouldindexproperty.htm
 tech.root: search
 ms.assetid: 44F10BD2-0CE5-4462-A50B-CBD63EE3B802
-
 ms.date: 12/05/2018
 ms.keywords: IUrlAccessor4 interface [search],ShouldIndexProperty method, IUrlAccessor4.ShouldIndexProperty, IUrlAccessor4::ShouldIndexProperty, ShouldIndexProperty, ShouldIndexProperty method [search], ShouldIndexProperty method [search],IUrlAccessor4 interface, search.iurlaccessor4_shouldindexproperty, searchapi/IUrlAccessor4::ShouldIndexProperty
 ms.topic: method
-f1_keywords: 
- - "searchapi/IUrlAccessor4.ShouldIndexProperty"
+f1_keywords:
+- searchapi/IUrlAccessor4.ShouldIndexProperty
 dev_langs:
- - c++
+- c++
 req.header: searchapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Searchapi.h
+- Searchapi.h
 api_name:
- - IUrlAccessor4.ShouldIndexProperty
+- IUrlAccessor4.ShouldIndexProperty
 targetos: Windows
 req.typenames: 
 req.redist: Windows Search (WS) 4.0

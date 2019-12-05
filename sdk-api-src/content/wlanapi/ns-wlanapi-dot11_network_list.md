@@ -1,19 +1,17 @@
 ---
 UID: NS:wlanapi._DOT11_NETWORK_LIST
 title: DOT11_NETWORK_LIST (wlanapi.h)
-
 description: Contains a list of 802.11 wireless networks.
 old-location: nwifi\dot11_network_list.htm
 tech.root: NativeWiFi
 ms.assetid: 607c5795-8168-4c6b-a2f3-65f31aea5cf5
-
 ms.date: 12/05/2018
 ms.keywords: '*PDOT11_NETWORK_LIST, DOT11_NETWORK_LIST, DOT11_NETWORK_LIST structure [NativeWIFI], PDOT11_NETWORK_LIST, PDOT11_NETWORK_LIST structure pointer [NativeWIFI], nwifi.dot11_network_list, wlanapi/DOT11_NETWORK_LIST, wlanapi/PDOT11_NETWORK_LIST'
 ms.topic: struct
 f1_keywords:
 - wlanapi/DOT11_NETWORK_LIST
 dev_langs:
- - c++
+- c++
 req.header: wlanapi.h
 req.include-header: Wlanapi.h
 req.target-type: Windows

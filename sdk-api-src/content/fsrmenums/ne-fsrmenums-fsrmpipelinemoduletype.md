@@ -1,19 +1,17 @@
 ---
 UID: NE:fsrmenums._FsrmPipelineModuleType
 title: FsrmPipelineModuleType (fsrmenums.h)
-
 description: Defines the types of modules that you can define.
 old-location: fsrm\fsrmpipelinemoduletype.htm
 tech.root: fsrm
 ms.assetid: a482c371-a01c-486b-b25b-d22283dba652
-
 ms.date: 12/05/2018
 ms.keywords: FsrmPipelineModuleType, FsrmPipelineModuleType enumeration [File Server Resource Manager], FsrmPipelineModuleType_Classifier, FsrmPipelineModuleType_Storage, FsrmPipelineModuleType_Unknown, fs.fsrmpipelinemoduletype, fsrm.fsrmpipelinemoduletype, fsrmenums/FsrmPipelineModuleType, fsrmenums/FsrmPipelineModuleType_Classifier, fsrmenums/FsrmPipelineModuleType_Storage, fsrmenums/FsrmPipelineModuleType_Unknown
 ms.topic: enum
-f1_keywords: 
- - "fsrmenums/FsrmPipelineModuleType"
+f1_keywords:
+- fsrmenums/FsrmPipelineModuleType
 dev_langs:
- - c++
+- c++
 req.header: fsrmenums.h
 req.include-header: FsrmPipeline.h, FsrmQuota.h, FsrmReports.h, FsrmScreen.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - FsrmEnums.h
+- FsrmEnums.h
 api_name:
- - FsrmPipelineModuleType
+- FsrmPipelineModuleType
 targetos: Windows
 req.typenames: FsrmPipelineModuleType
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:winuser.SetRectEmpty
 title: SetRectEmpty function (winuser.h)
-
 description: The SetRectEmpty function creates an empty rectangle in which all coordinates are set to zero.
 old-location: gdi\setrectempty.htm
 tech.root: gdi
 ms.assetid: d3c677ae-e45c-4d54-8521-75954a466a68
-
 ms.date: 12/05/2018
 ms.keywords: SetRectEmpty, SetRectEmpty function [Windows GDI], _win32_SetRectEmpty, gdi.setrectempty, winuser/SetRectEmpty
 ms.topic: function
-f1_keywords: 
- - "winuser/SetRectEmpty"
+f1_keywords:
+- winuser/SetRectEmpty
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - user32.dll
- - API-MS-Win-NTUser-Rectangle-l1-1-0.dll
- - minuser.dll
- - Ext-MS-Win-NTUser-Rectangle-Ext-l1-1-0.dll
+- user32.dll
+- API-MS-Win-NTUser-Rectangle-l1-1-0.dll
+- minuser.dll
+- Ext-MS-Win-NTUser-Rectangle-Ext-l1-1-0.dll
 api_name:
- - SetRectEmpty
+- SetRectEmpty
 targetos: Windows
 req.typenames: 
 req.redist: 

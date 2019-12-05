@@ -1,19 +1,17 @@
 ---
 UID: NF:callobj.ICallIndirect.CallIndirect
 title: ICallIndirect::CallIndirect (callobj.h)
-
 description: Invokes one of the methods in the interface with an indirect reference to the arguments of the invocation.
 old-location: com\icallindirect_callindirect.htm
 tech.root: com
 ms.assetid: d017ad36-8779-4107-8ee3-f44589f9e802
-
 ms.date: 12/05/2018
 ms.keywords: CallIndirect, CallIndirect method [COM], CallIndirect method [COM],ICallIndirect interface, ICallIndirect interface [COM],CallIndirect method, ICallIndirect.CallIndirect, ICallIndirect::CallIndirect, _com_icallindirect_callindirect, callobj/ICallIndirect::CallIndirect, com.icallindirect_callindirect
 ms.topic: method
-f1_keywords: 
- - "callobj/ICallIndirect.CallIndirect"
+f1_keywords:
+- callobj/ICallIndirect.CallIndirect
 dev_langs:
- - c++
+- c++
 req.header: callobj.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Callobj.h
+- Callobj.h
 api_name:
- - ICallIndirect.CallIndirect
+- ICallIndirect.CallIndirect
 targetos: Windows
 req.typenames: 
 req.redist: 

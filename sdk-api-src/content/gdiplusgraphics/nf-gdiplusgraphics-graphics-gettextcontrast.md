@@ -1,19 +1,17 @@
 ---
 UID: NF:gdiplusgraphics.Graphics.GetTextContrast
 title: Graphics::GetTextContrast (gdiplusgraphics.h)
-
 description: The Graphics::GetTextContrast method gets the contrast value currently set for this Graphics object. The contrast value is used for antialiasing text.
 old-location: gdiplus\_gdiplus_CLASS_Graphics_GetTextContrast_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\gettextcontrast.htm
-
 ms.date: 12/05/2018
 ms.keywords: GetTextContrast, GetTextContrast method [GDI+], GetTextContrast method [GDI+],Graphics class, Graphics class [GDI+],GetTextContrast method, Graphics.GetTextContrast, Graphics::GetTextContrast, _gdiplus_CLASS_Graphics_GetTextContrast_, gdiplus._gdiplus_CLASS_Graphics_GetTextContrast_
 ms.topic: method
-f1_keywords: 
- - "gdiplusgraphics/Graphics.GetTextContrast"
+f1_keywords:
+- gdiplusgraphics/Graphics.GetTextContrast
 dev_langs:
- - c++
+- c++
 req.header: gdiplusgraphics.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - Graphics.GetTextContrast
+- Graphics.GetTextContrast
 targetos: Windows
 req.typenames: 
 req.redist: 

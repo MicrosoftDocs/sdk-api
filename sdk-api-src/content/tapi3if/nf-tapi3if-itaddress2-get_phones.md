@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi3if.ITAddress2.get_Phones
 title: ITAddress2::get_Phones (tapi3if.h)
-
 description: The get_Phones method returns a VARIANT pointer to an ITCollection of phone objects corresponding to the phone devices that can be used with this address.
 old-location: tapi3\itaddress2_get_phones.htm
 tech.root: Tapi
 ms.assetid: 5cd82f34-1f3f-46a2-bad3-954dc5b93d87
-
 ms.date: 12/05/2018
 ms.keywords: ITAddress2 interface [TAPI 2.2],get_Phones method, ITAddress2.get_Phones, ITAddress2::get_Phones, _tapi3_itaddress2_get_phones, get_Phones, get_Phones method [TAPI 2.2], get_Phones method [TAPI 2.2],ITAddress2 interface, tapi3.itaddress2_get_phones, tapi3if/ITAddress2::get_Phones
 ms.topic: method
-f1_keywords: 
- - "tapi3if/ITAddress2.get_Phones"
+f1_keywords:
+- tapi3if/ITAddress2.get_Phones
 dev_langs:
- - c++
+- c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Tapi3.dll
+- Tapi3.dll
 api_name:
- - ITAddress2.get_Phones
+- ITAddress2.get_Phones
 targetos: Windows
 req.typenames: 
 req.redist: 

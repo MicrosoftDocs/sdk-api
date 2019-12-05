@@ -1,19 +1,17 @@
 ---
 UID: NF:directxmath.XMVectorSet
 title: XMVectorSet function (directxmath.h)
-
 description: Creates a vector using four floating-point values.
 old-location: dxmath\xmvectorset.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.initialization.XMVectorSet(float,float,float,float)
-
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMVectorSet, XMVectorSet, XMVectorSet method [DirectX Math Support APIs], dxmath.xmvectorset
 ms.topic: function
-f1_keywords: 
- - "directxmath/XMVectorSet"
+f1_keywords:
+- directxmath/XMVectorSet
 dev_langs:
- - c++
+- c++
 req.header: directxmath.h
 req.include-header: DirectXMath.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - directxmathvector.inl
+- directxmathvector.inl
 api_name:
- - XMVectorSet
+- XMVectorSet
 targetos: Windows
 req.typenames: 
 req.redist: 

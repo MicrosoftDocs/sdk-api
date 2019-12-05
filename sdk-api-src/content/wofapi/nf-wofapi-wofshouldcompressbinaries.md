@@ -1,19 +1,17 @@
 ---
 UID: NF:wofapi.WofShouldCompressBinaries
 title: WofShouldCompressBinaries function (wofapi.h)
-
 description: Indicates whether compression should be used on a particular volume, and if so, which compression algorithm should be used.
 old-location: fs\wofshouldcompressbinaries.htm
 tech.root: FileIO
 ms.assetid: C7A1D76A-2535-46BB-A55B-D1E15A079FF4
-
 ms.date: 12/05/2018
 ms.keywords: WofShouldCompressBinaries, WofShouldCompressBinaries function [Files], fs.wofshouldcompressbinaries, wofapi/WofShouldCompressBinaries
 ms.topic: function
-f1_keywords: 
- - "wofapi/WofShouldCompressBinaries"
+f1_keywords:
+- wofapi/WofShouldCompressBinaries
 dev_langs:
- - c++
+- c++
 req.header: wofapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Wofutil.lib
 req.dll: Wofutil.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - wofutil.dll
+- wofutil.dll
 api_name:
- - WofShouldCompressBinaries
+- WofShouldCompressBinaries
 targetos: Windows
 req.typenames: 
 req.redist: 

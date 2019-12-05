@@ -1,19 +1,17 @@
 ---
 UID: NN:gpmgmt.IGPMSOMCollection
 title: IGPMSOMCollection (gpmgmt.h)
-
 description: The IGPMSOMCollection interface represents a collection of GPMSOM objects.
 old-location: gpmc\igpmsomcollection.htm
 tech.root: gpmc
 ms.assetid: 079f2fd9-7b1e-4bb1-b342-8ed8fb2c773d
-
 ms.date: 12/05/2018
 ms.keywords: GPMSOMCollection, IGPMSOMCollection, IGPMSOMCollection interface [GPMC], IGPMSOMCollection interface [GPMC],described, _win32_igpmsomcollection, gpmc.igpmsomcollection, gpmgmt/IGPMSOMCollection
 ms.topic: interface
-f1_keywords: 
- - "gpmgmt/IGPMSOMCollection"
+f1_keywords:
+- gpmgmt/IGPMSOMCollection
 dev_langs:
- - c++
+- c++
 req.header: gpmgmt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,19 +30,19 @@ req.lib:
 req.dll: Gpmgmt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gpmgmt.dll
+- Gpmgmt.dll
 api_name:
- - IGPMSOMCollection
- - IGPMSOMCollection.Count
- - IGPMSOMCollection.get_Count
- - IGPMSOMCollection.Item
- - IGPMSOMCollection.get_Item
- - GPMSOMCollection
+- IGPMSOMCollection
+- IGPMSOMCollection.Count
+- IGPMSOMCollection.get_Count
+- IGPMSOMCollection.Item
+- IGPMSOMCollection.get_Item
+- GPMSOMCollection
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:certenroll.IX509EnrollmentPolicyServer.GetCAsForTemplate
 title: IX509EnrollmentPolicyServer::GetCAsForTemplate (certenroll.h)
-
 description: Retrieves a collection of certificate enrollment servers that support a specified template.
 old-location: security\ix509enrollmentpolicyserver_getcasfortemplate.htm
 tech.root: seccertenroll
 ms.assetid: 7330aea0-36b3-49fa-8970-2476f2ae9d34
-
 ms.date: 12/05/2018
 ms.keywords: GetCAsForTemplate, GetCAsForTemplate method [Security], GetCAsForTemplate method [Security],IX509EnrollmentPolicyServer interface, IX509EnrollmentPolicyServer interface [Security],GetCAsForTemplate method, IX509EnrollmentPolicyServer.GetCAsForTemplate, IX509EnrollmentPolicyServer::GetCAsForTemplate, certenroll/IX509EnrollmentPolicyServer::GetCAsForTemplate, security.ix509enrollmentpolicyserver_getcasfortemplate
 ms.topic: method
-f1_keywords: 
- - "certenroll/IX509EnrollmentPolicyServer.GetCAsForTemplate"
+f1_keywords:
+- certenroll/IX509EnrollmentPolicyServer.GetCAsForTemplate
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Certenroll.h
+- Certenroll.h
 api_name:
- - IX509EnrollmentPolicyServer.GetCAsForTemplate
+- IX509EnrollmentPolicyServer.GetCAsForTemplate
 targetos: Windows
 req.typenames: 
 req.redist: 

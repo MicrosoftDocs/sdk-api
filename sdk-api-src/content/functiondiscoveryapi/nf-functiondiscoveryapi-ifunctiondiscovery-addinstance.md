@@ -1,19 +1,17 @@
 ---
 UID: NF:functiondiscoveryapi.IFunctionDiscovery.AddInstance
 title: IFunctionDiscovery::AddInstance (functiondiscoveryapi.h)
-
 description: Creates or modifies a function instance.
 old-location: ncd\ifunctiondiscovery_addinstance_method.htm
 tech.root: FunDisc
 ms.assetid: a99213b5-b310-4ce2-99ca-07b343f08c4d
-
 ms.date: 12/05/2018
 ms.keywords: AddInstance, AddInstance method, AddInstance method,IFunctionDiscovery interface, IFunctionDiscovery interface,AddInstance method, IFunctionDiscovery.AddInstance, IFunctionDiscovery::AddInstance, functiondiscoveryapi/IFunctionDiscovery::AddInstance, ncd.ifunctiondiscovery_addinstance_method
 ms.topic: method
-f1_keywords: 
- - "functiondiscoveryapi/IFunctionDiscovery.AddInstance"
+f1_keywords:
+- functiondiscoveryapi/IFunctionDiscovery.AddInstance
 dev_langs:
- - c++
+- c++
 req.header: functiondiscoveryapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: FunDisc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - FunDisc.dll
+- FunDisc.dll
 api_name:
- - IFunctionDiscovery.AddInstance
+- IFunctionDiscovery.AddInstance
 targetos: Windows
 req.typenames: 
 req.redist: 

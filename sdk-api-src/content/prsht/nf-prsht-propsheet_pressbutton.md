@@ -1,19 +1,17 @@
 ---
 UID: NF:prsht.PropSheet_PressButton
 title: PropSheet_PressButton macro (prsht.h)
-
 description: Simulates the selection of a property sheet button. You can use this macro or send the PSM_PRESSBUTTON message explicitly.
 old-location: controls\PropSheet_PressButton.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\propsheet\macros\propsheet_pressbutton.htm
-
 ms.date: 12/05/2018
 ms.keywords: PSBTN_APPLYNOW, PSBTN_BACK, PSBTN_CANCEL, PSBTN_FINISH, PSBTN_HELP, PSBTN_NEXT, PSBTN_OK, PropSheet_PressButton, PropSheet_PressButton macro [Windows Controls], _win32_PropSheet_PressButton, _win32_PropSheet_PressButton_cpp, controls.PropSheet_PressButton, controls._win32_PropSheet_PressButton, prsht/PropSheet_PressButton
 ms.topic: macro
-f1_keywords: 
- - "prsht/PropSheet_PressButton"
+f1_keywords:
+- prsht/PropSheet_PressButton
 dev_langs:
- - c++
+- c++
 req.header: prsht.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Prsht.h
+- Prsht.h
 api_name:
- - PropSheet_PressButton
+- PropSheet_PressButton
 targetos: Windows
 req.typenames: 
 req.redist: 

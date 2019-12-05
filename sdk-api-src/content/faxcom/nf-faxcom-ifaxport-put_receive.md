@@ -1,19 +1,17 @@
 ---
 UID: NF:faxcom.IFaxPort.put_Receive
 title: IFaxPort::put_Receive (faxcom.h)
-
 description: The IFaxPort::get_Receive property is a Boolean value that indicates whether a specified fax port is enabled to receive faxes.
 old-location: fax\_mfax_ifaxport_mfax_ifaxport_get_receive_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_8b1h.htm
-
 ms.date: 12/05/2018
 ms.keywords: IFaxPort interface [Fax Service],Receive property, IFaxPort.Receive, IFaxPort.put_Receive, IFaxPort::Receive, IFaxPort::get_Receive, IFaxPort::put_Receive, Receive property [Fax Service], Receive property [Fax Service],IFaxPort interface, _mfax_ifaxport_get_receive, fax._mfax_ifaxport_get_receive, fax._mfax_ifaxport_mfax_ifaxport_get_receive_cpp, faxcom/IFaxPort::Receive, faxcom/IFaxPort::get_Receive, faxcom/IFaxPort::put_Receive, put_Receive
 ms.topic: method
-f1_keywords: 
- - "faxcom/IFaxPort.Receive"
+f1_keywords:
+- faxcom/IFaxPort.Receive
 dev_langs:
- - c++
+- c++
 req.header: faxcom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: Faxcom.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Faxcom.dll
+- Faxcom.dll
 api_name:
- - IFaxPort.Receive
- - IFaxPort.get_Receive
- - IFaxPort.put_Receive
+- IFaxPort.Receive
+- IFaxPort.get_Receive
+- IFaxPort.put_Receive
 targetos: Windows
 req.typenames: 
 req.redist: 

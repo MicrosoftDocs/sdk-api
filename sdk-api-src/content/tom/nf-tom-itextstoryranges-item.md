@@ -1,19 +1,17 @@
 ---
 UID: NF:tom.ITextStoryRanges.Item
 title: ITextStoryRanges::Item (tom.h)
-
 description: Retrieves an ITextRange object for the Indexth story in this story collection.
 old-location: controls\ITextStoryRanges_Item.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\item.htm
-
 ms.date: 12/05/2018
 ms.keywords: ITextStoryRanges interface [Windows Controls],Item method, ITextStoryRanges.Item, ITextStoryRanges::Item, Item, Item method [Windows Controls], Item method [Windows Controls],ITextStoryRanges interface, _win32_ITextStoryRanges_Item, _win32_ITextStoryRanges_Item_cpp, controls.ITextStoryRanges_Item, controls._win32_ITextStoryRanges_Item, tom/ITextStoryRanges::Item
 ms.topic: method
-f1_keywords: 
- - "tom/ITextStoryRanges.Item"
+f1_keywords:
+- tom/ITextStoryRanges.Item
 dev_langs:
- - c++
+- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msftedit.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msftedit.dll
+- Msftedit.dll
 api_name:
- - ITextStoryRanges.Item
+- ITextStoryRanges.Item
 targetos: Windows
 req.typenames: 
 req.redist: 

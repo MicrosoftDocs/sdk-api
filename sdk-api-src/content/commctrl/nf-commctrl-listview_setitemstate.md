@@ -1,19 +1,17 @@
 ---
 UID: NF:commctrl.ListView_SetItemState
 title: ListView_SetItemState macro (commctrl.h)
-
 description: Changes the state of an item in a list-view control. You can use this macro or send the LVM_SETITEMSTATE message explicitly.
 old-location: controls\ListView_SetItemState.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_setitemstate.htm
-
 ms.date: 12/05/2018
 ms.keywords: LVIS_CUT, LVIS_DROPHILITED, LVIS_FOCUSED, LVIS_SELECTED, ListView_SetItemState, ListView_SetItemState macro [Windows Controls], _win32_ListView_SetItemState, _win32_ListView_SetItemState_cpp, commctrl/ListView_SetItemState, controls.ListView_SetItemState, controls._win32_ListView_SetItemState
 ms.topic: macro
-f1_keywords: 
- - "commctrl/ListView_SetItemState"
+f1_keywords:
+- commctrl/ListView_SetItemState
 dev_langs:
- - c++
+- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Commctrl.h
+- Commctrl.h
 api_name:
- - ListView_SetItemState
+- ListView_SetItemState
 targetos: Windows
 req.typenames: 
 req.redist: 

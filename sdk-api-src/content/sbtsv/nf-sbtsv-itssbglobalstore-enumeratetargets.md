@@ -1,19 +1,17 @@
 ---
 UID: NF:sbtsv.ITsSbGlobalStore.EnumerateTargets
 title: ITsSbGlobalStore::EnumerateTargets (sbtsv.h)
-
 description: Returns an array that contains the specified targets present in the global store.
 old-location: termserv\itssbglobalstore_enumeratetargets.htm
 tech.root: TermServ
 ms.assetid: 939d967f-6846-4ef2-9943-a171eac6cb21
-
 ms.date: 12/05/2018
 ms.keywords: EnumerateTargets, EnumerateTargets method [Remote Desktop Services], EnumerateTargets method [Remote Desktop Services],ITsSbGlobalStore interface, ITsSbGlobalStore interface [Remote Desktop Services],EnumerateTargets method, ITsSbGlobalStore.EnumerateTargets, ITsSbGlobalStore::EnumerateTargets, sbtsv/ITsSbGlobalStore::EnumerateTargets, termserv.itssbglobalstore_enumeratetargets
 ms.topic: method
-f1_keywords: 
- - "sbtsv/ITsSbGlobalStore.EnumerateTargets"
+f1_keywords:
+- sbtsv/ITsSbGlobalStore.EnumerateTargets
 dev_langs:
- - c++
+- c++
 req.header: sbtsv.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - sbtsv.h
+- sbtsv.h
 api_name:
- - ITsSbGlobalStore.EnumerateTargets
+- ITsSbGlobalStore.EnumerateTargets
 targetos: Windows
 req.typenames: 
 req.redist: 

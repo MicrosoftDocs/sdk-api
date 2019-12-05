@@ -1,19 +1,17 @@
 ---
 UID: NF:gdiplusheaders.Metafile.GetDownLevelRasterizationLimit
 title: Metafile::GetDownLevelRasterizationLimit (gdiplusheaders.h)
-
 description: Gets the rasterization limit currently set for this metafile.
 old-location: gdiplus\_gdiplus_CLASS_Metafile_GetDownLevelRasterizationLimit_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\metafileclass\metafilemethods\getdownlevelrasterizationlimit.htm
-
 ms.date: 12/05/2018
 ms.keywords: GetDownLevelRasterizationLimit, GetDownLevelRasterizationLimit method [GDI+], GetDownLevelRasterizationLimit method [GDI+],Metafile class, Metafile class [GDI+],GetDownLevelRasterizationLimit method, Metafile.GetDownLevelRasterizationLimit, Metafile::GetDownLevelRasterizationLimit, _gdiplus_CLASS_Metafile_GetDownLevelRasterizationLimit_, gdiplus._gdiplus_CLASS_Metafile_GetDownLevelRasterizationLimit_
 ms.topic: method
-f1_keywords: 
- - "gdiplusheaders/Metafile.GetDownLevelRasterizationLimit"
+f1_keywords:
+- gdiplusheaders/Metafile.GetDownLevelRasterizationLimit
 dev_langs:
- - c++
+- c++
 req.header: gdiplusheaders.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - Metafile.GetDownLevelRasterizationLimit
+- Metafile.GetDownLevelRasterizationLimit
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:mfidl.IMFTopology.GetNode
 title: IMFTopology::GetNode (mfidl.h)
-
 description: Gets a node in the topology, specified by index.
 old-location: mf\imftopology_getnode.htm
 tech.root: medfound
 ms.assetid: 97053d10-5ac7-40c0-b46b-77d401284d58
-
 ms.date: 12/05/2018
 ms.keywords: 97053d10-5ac7-40c0-b46b-77d401284d58, GetNode, GetNode method [Media Foundation], GetNode method [Media Foundation],IMFTopology interface, IMFTopology interface [Media Foundation],GetNode method, IMFTopology.GetNode, IMFTopology::GetNode, mf.imftopology_getnode, mfidl/IMFTopology::GetNode
 ms.topic: method
-f1_keywords: 
- - "mfidl/IMFTopology.GetNode"
+f1_keywords:
+- mfidl/IMFTopology.GetNode
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFTopology.GetNode
+- IMFTopology.GetNode
 targetos: Windows
 req.typenames: 
 req.redist: 

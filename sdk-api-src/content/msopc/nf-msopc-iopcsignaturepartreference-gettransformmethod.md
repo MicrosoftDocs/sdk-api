@@ -1,19 +1,17 @@
 ---
 UID: NF:msopc.IOpcSignaturePartReference.GetTransformMethod
 title: IOpcSignaturePartReference::GetTransformMethod (msopc.h)
-
 description: Gets the canonicalization method to use on part content of a referenced part when the part is signed.
 old-location: opc\iopcsignaturepartreference_gettransformmethod.htm
 tech.root: OPC
 ms.assetid: 74cf5d3b-a350-4574-972d-1907562aece5
-
 ms.date: 12/05/2018
 ms.keywords: GetTransformMethod, GetTransformMethod method [Open Packaging Conventions], GetTransformMethod method [Open Packaging Conventions],IOpcSignaturePartReference interface, IOpcSignaturePartReference interface [Open Packaging Conventions],GetTransformMethod method, IOpcSignaturePartReference.GetTransformMethod, IOpcSignaturePartReference::GetTransformMethod, msopc/IOpcSignaturePartReference::GetTransformMethod, opc.iopcsignaturepartreference_gettransformmethod
 ms.topic: method
-f1_keywords: 
- - "msopc/IOpcSignaturePartReference.GetTransformMethod"
+f1_keywords:
+- msopc/IOpcSignaturePartReference.GetTransformMethod
 dev_langs:
- - c++
+- c++
 req.header: msopc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msopc.h
+- msopc.h
 api_name:
- - IOpcSignaturePartReference.GetTransformMethod
+- IOpcSignaturePartReference.GetTransformMethod
 targetos: Windows
 req.typenames: 
 req.redist: 

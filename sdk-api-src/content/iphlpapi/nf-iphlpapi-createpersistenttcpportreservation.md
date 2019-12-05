@@ -1,19 +1,17 @@
 ---
 UID: NF:iphlpapi.CreatePersistentTcpPortReservation
 title: CreatePersistentTcpPortReservation function (iphlpapi.h)
-
 description: Creates a persistent TCP port reservation for a consecutive block of TCP ports on the local computer.
 old-location: iphlp\createpersistenttcpportreservation.htm
 tech.root: IpHlp
 ms.assetid: 19DAF828-B0E4-49E2-843D-7350C8083C45
-
 ms.date: 12/05/2018
 ms.keywords: CreatePersistentTcpPortReservation, CreatePersistentTcpPortReservation function [IP Helper], iphlp.createpersistenttcpportreservation, iphlpapi/CreatePersistentTcpPortReservation
 ms.topic: function
-f1_keywords: 
- - "iphlpapi/CreatePersistentTcpPortReservation"
+f1_keywords:
+- iphlpapi/CreatePersistentTcpPortReservation
 dev_langs:
- - c++
+- c++
 req.header: iphlpapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Iphlpapi.lib
 req.dll: Iphlpapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Iphlpapi.dll
+- Iphlpapi.dll
 api_name:
- - CreatePersistentTcpPortReservation
+- CreatePersistentTcpPortReservation
 targetos: Windows
 req.typenames: 
 req.redist: 

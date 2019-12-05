@@ -1,19 +1,17 @@
 ---
 UID: NF:mfreadwrite.MFCreateSinkWriterFromMediaSink
 title: MFCreateSinkWriterFromMediaSink function (mfreadwrite.h)
-
 description: Creates the sink writer from a media sink.
 old-location: mf\mfcreatesinkwriterfrommediasink.htm
 tech.root: medfound
 ms.assetid: 77bd81fe-bcbd-4bcd-9d3a-dd9fe6154337
-
 ms.date: 12/05/2018
 ms.keywords: MFCreateSinkWriterFromMediaSink, MFCreateSinkWriterFromMediaSink function [Media Foundation], mf.mfcreatesinkwriterfrommediasink, mfreadwrite/MFCreateSinkWriterFromMediaSink
 ms.topic: function
-f1_keywords: 
- - "mfreadwrite/MFCreateSinkWriterFromMediaSink"
+f1_keywords:
+- mfreadwrite/MFCreateSinkWriterFromMediaSink
 dev_langs:
- - c++
+- c++
 req.header: mfreadwrite.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Mfreadwrite.lib
 req.dll: Mfreadwrite.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - mfreadwrite.dll
+- mfreadwrite.dll
 api_name:
- - MFCreateSinkWriterFromMediaSink
+- MFCreateSinkWriterFromMediaSink
 targetos: Windows
 req.typenames: 
 req.redist: 

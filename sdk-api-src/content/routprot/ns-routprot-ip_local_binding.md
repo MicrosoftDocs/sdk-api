@@ -1,19 +1,17 @@
 ---
 UID: NS:routprot.IP_LOCAL_BINDING
 title: IP_LOCAL_BINDING (routprot.h)
-
 description: The IP_LOCAL_BINDING structure contains IP address information for an adapter.
 old-location: rras\ip_local_binding.htm
 tech.root: RRAS
 ms.assetid: 121cc415-35eb-4c9b-a02d-c23be468d6bc
-
 ms.date: 12/05/2018
-ms.keywords: "*PIP_LOCAL_BINDING, IP_LOCAL_BINDING, IP_LOCAL_BINDING structure [RAS], PIP_LOCAL_BINDING, PIP_LOCAL_BINDING structure pointer [RAS], _mpr_ip_local_binding, routprot/IP_LOCAL_BINDING, routprot/PIP_LOCAL_BINDING, rras.ip_local_binding"
+ms.keywords: '*PIP_LOCAL_BINDING, IP_LOCAL_BINDING, IP_LOCAL_BINDING structure [RAS], PIP_LOCAL_BINDING, PIP_LOCAL_BINDING structure pointer [RAS], _mpr_ip_local_binding, routprot/IP_LOCAL_BINDING, routprot/PIP_LOCAL_BINDING, rras.ip_local_binding'
 ms.topic: struct
-f1_keywords: 
- - "routprot/IP_LOCAL_BINDING"
+f1_keywords:
+- routprot/IP_LOCAL_BINDING
 dev_langs:
- - c++
+- c++
 req.header: routprot.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Routprot.h
+- Routprot.h
 api_name:
- - IP_LOCAL_BINDING
+- IP_LOCAL_BINDING
 targetos: Windows
 req.typenames: IP_LOCAL_BINDING, *PIP_LOCAL_BINDING
 req.redist: 

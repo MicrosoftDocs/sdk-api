@@ -1,19 +1,17 @@
 ---
 UID: NF:casetup.ICertSrvSetup.InitializeDefaults
 title: ICertSrvSetup::InitializeDefaults (casetup.h)
-
 description: Initializes a CCertSrvSetup object with default values to enable installation of the Certification Authority role.
 old-location: security\icertsrvsetup_initializedefaults.htm
 tech.root: SecCrypto
 ms.assetid: dff7e2e2-291a-4ea9-858a-8d98d96f79ac
-
 ms.date: 12/05/2018
 ms.keywords: ICertSrvSetup interface [Security],InitializeDefaults method, ICertSrvSetup.InitializeDefaults, ICertSrvSetup::InitializeDefaults, InitializeDefaults, InitializeDefaults method [Security], InitializeDefaults method [Security],ICertSrvSetup interface, casetup/ICertSrvSetup::InitializeDefaults, security.icertsrvsetup_initializedefaults
 ms.topic: method
-f1_keywords: 
- - "casetup/ICertSrvSetup.InitializeDefaults"
+f1_keywords:
+- casetup/ICertSrvSetup.InitializeDefaults
 dev_langs:
- - c++
+- c++
 req.header: casetup.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Certocm.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Certocm.dll
+- Certocm.dll
 api_name:
- - ICertSrvSetup.InitializeDefaults
+- ICertSrvSetup.InitializeDefaults
 targetos: Windows
 req.typenames: 
 req.redist: 

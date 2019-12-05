@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi3if.ITPhone.get_ButtonMode
 title: ITPhone::get_ButtonMode (tapi3if.h)
-
 description: The get_ButtonMode method retrieves the button mode associated with a particular button.
 old-location: tapi3\itphone_get_buttonmode.htm
 tech.root: Tapi
 ms.assetid: 5b3173bf-1c79-4c5d-a2bc-3b3ae4f0ae8a
-
 ms.date: 12/05/2018
 ms.keywords: ITPhone interface [TAPI 2.2],get_ButtonMode method, ITPhone.get_ButtonMode, ITPhone::get_ButtonMode, _tapi3_itphone_get_buttonmode, get_ButtonMode, get_ButtonMode method [TAPI 2.2], get_ButtonMode method [TAPI 2.2],ITPhone interface, tapi3.itphone_get_buttonmode, tapi3if/ITPhone::get_ButtonMode
 ms.topic: method
-f1_keywords: 
- - "tapi3if/ITPhone.get_ButtonMode"
+f1_keywords:
+- tapi3if/ITPhone.get_ButtonMode
 dev_langs:
- - c++
+- c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Tapi3.dll
+- Tapi3.dll
 api_name:
- - ITPhone.get_ButtonMode
+- ITPhone.get_ButtonMode
 targetos: Windows
 req.typenames: 
 req.redist: 

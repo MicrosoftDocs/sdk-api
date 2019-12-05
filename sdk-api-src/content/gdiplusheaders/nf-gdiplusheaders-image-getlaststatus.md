@@ -1,19 +1,17 @@
 ---
 UID: NF:gdiplusheaders.Image.GetLastStatus
 title: Image::GetLastStatus (gdiplusheaders.h)
-
 description: The Image::GetLastStatus method returns a value that indicates the nature of this Image object's most recent method failure.
 old-location: gdiplus\_gdiplus_CLASS_Image_GetLastStatus_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\imageclass\imagemethods\getlaststatus_65.htm
-
 ms.date: 12/05/2018
 ms.keywords: GetLastStatus, GetLastStatus method [GDI+], GetLastStatus method [GDI+],Image class, Image class [GDI+],GetLastStatus method, Image.GetLastStatus, Image::GetLastStatus, _gdiplus_CLASS_Image_GetLastStatus_, gdiplus._gdiplus_CLASS_Image_GetLastStatus_
 ms.topic: method
-f1_keywords: 
- - "gdiplusheaders/Image.GetLastStatus"
+f1_keywords:
+- gdiplusheaders/Image.GetLastStatus
 dev_langs:
- - c++
+- c++
 req.header: gdiplusheaders.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - Image.GetLastStatus
+- Image.GetLastStatus
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:winuser.EndMenu
 title: EndMenu function (winuser.h)
-
 description: Ends the calling thread's active menu.
 old-location: menurc\endmenu.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\menus\menureference\menufunctions\endmenu.htm
-
 ms.date: 12/05/2018
 ms.keywords: EndMenu, EndMenu function [Menus and Other Resources], _win32_EndMenu, _win32_endmenu_cpp, menurc.endmenu, winui._win32_endmenu, winuser/EndMenu
 ms.topic: function
-f1_keywords: 
- - "winuser/EndMenu"
+f1_keywords:
+- winuser/EndMenu
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - User32.dll
- - Ext-MS-Win-NTUser-Menu-l1-1-0.dll
- - Ext-MS-Win-NTUser-Menu-l1-1-1.dll
- - ext-ms-win-ntuser-menu-l1-1-2.dll
- - Ext-MS-Win-NTUser-Menu-L1-1-3.dll
+- User32.dll
+- Ext-MS-Win-NTUser-Menu-l1-1-0.dll
+- Ext-MS-Win-NTUser-Menu-l1-1-1.dll
+- ext-ms-win-ntuser-menu-l1-1-2.dll
+- Ext-MS-Win-NTUser-Menu-L1-1-3.dll
 api_name:
- - EndMenu
+- EndMenu
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IParentAndItem.SetParentAndItem
 title: IParentAndItem::SetParentAndItem (shobjidl_core.h)
-
 description: Sets the parent of an item and the parent's child ID.
 old-location: shell\IParentAndItem_SetParentAndItem.htm
 tech.root: shell
 ms.assetid: 398bb0c1-39f1-4a51-9382-421639ab7b8e
-
 ms.date: 12/05/2018
 ms.keywords: IParentAndItem interface [Windows Shell],SetParentAndItem method, IParentAndItem.SetParentAndItem, IParentAndItem::SetParentAndItem, SetParentAndItem, SetParentAndItem method [Windows Shell], SetParentAndItem method [Windows Shell],IParentAndItem interface, _shell_IParentAndItem_SetParentAndItem, shell.IParentAndItem_SetParentAndItem, shobjidl_core/IParentAndItem::SetParentAndItem
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IParentAndItem.SetParentAndItem"
+f1_keywords:
+- shobjidl_core/IParentAndItem.SetParentAndItem
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - IParentAndItem.SetParentAndItem
+- IParentAndItem.SetParentAndItem
 targetos: Windows
 req.typenames: 
 req.redist: 

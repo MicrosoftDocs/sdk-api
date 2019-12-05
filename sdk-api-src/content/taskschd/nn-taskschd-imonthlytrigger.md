@@ -1,19 +1,17 @@
 ---
 UID: NN:taskschd.IMonthlyTrigger
 title: IMonthlyTrigger (taskschd.h)
-
 description: Represents a trigger that starts a job based on a monthly schedule.
 old-location: taskschd\imonthlytrigger.htm
 tech.root: taskschd
 ms.assetid: 2ed206a6-22e0-4131-92ce-29536ad65c6c
-
 ms.date: 12/05/2018
 ms.keywords: IMonthlyTrigger, IMonthlyTrigger interface [Task Scheduler], IMonthlyTrigger interface [Task Scheduler],described, monthly trigger [Task Scheduler],interface, taskschd.imonthlytrigger, taskschd/IMonthlyTrigger
 ms.topic: interface
-f1_keywords: 
- - "taskschd/IMonthlyTrigger"
+f1_keywords:
+- taskschd/IMonthlyTrigger
 dev_langs:
- - c++
+- c++
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Taskschd.lib
 req.dll: Taskschd.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - taskschd.dll
+- taskschd.dll
 api_name:
- - IMonthlyTrigger
+- IMonthlyTrigger
 targetos: Windows
 req.typenames: 
 req.redist: 

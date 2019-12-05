@@ -1,19 +1,17 @@
 ---
 UID: NN:atscpsipparser.IATSC_MGT
 title: IATSC_MGT (atscpsipparser.h)
-
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\iatsc_mgt.htm
 tech.root: mstv
 ms.assetid: 2d6cc17f-7288-468c-a028-31e6e284d8ca
-
 ms.date: 12/05/2018
 ms.keywords: IATSC_MGT, IATSC_MGT interface [Microsoft TV Technologies], IATSC_MGT interface [Microsoft TV Technologies],described, IATSC_MGTInterface, atscpsipparser/IATSC_MGT, mstv.iatsc_mgt
 ms.topic: interface
-f1_keywords: 
- - "atscpsipparser/IATSC_MGT"
+f1_keywords:
+- atscpsipparser/IATSC_MGT
 dev_langs:
- - c++
+- c++
 req.header: atscpsipparser.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - atscpsipparser.h
+- atscpsipparser.h
 api_name:
- - IATSC_MGT
+- IATSC_MGT
 targetos: Windows
 req.typenames: 
 req.redist: 

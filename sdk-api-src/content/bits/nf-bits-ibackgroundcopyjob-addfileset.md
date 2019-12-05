@@ -1,19 +1,17 @@
 ---
 UID: NF:bits.IBackgroundCopyJob.AddFileSet
 title: IBackgroundCopyJob::AddFileSet (bits.h)
-
 description: Adds multiple files to a job.
 old-location: bits\ibackgroundcopyjob_addfileset.htm
 tech.root: Bits
 ms.assetid: fe2f9b47-0f0a-48ab-be0e-658307cfec5f
-
 ms.date: 12/05/2018
 ms.keywords: AddFileSet, AddFileSet method [BITS], AddFileSet method [BITS],IBackgroundCopyJob interface, IBackgroundCopyJob interface [BITS],AddFileSet method, IBackgroundCopyJob.AddFileSet, IBackgroundCopyJob::AddFileSet, _drz_ibackgroundcopyjob_addfileset, bits.ibackgroundcopyjob_addfileset, bits/IBackgroundCopyJob::AddFileSet
 ms.topic: method
 f1_keywords:
 - bits/IBackgroundCopyJob.AddFileSet
 dev_langs:
- - c++
+- c++
 req.header: bits.h
 req.include-header: 
 req.target-type: Windows

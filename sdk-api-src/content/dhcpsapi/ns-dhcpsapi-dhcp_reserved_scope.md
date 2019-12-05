@@ -1,19 +1,17 @@
 ---
 UID: NS:dhcpsapi._DHCP_RESERVED_SCOPE
 title: DHCP_RESERVED_SCOPE (dhcpsapi.h)
-
 description: The DHCP_RESERVED_SCOPE structure defines a reserved DHCP scope.
 old-location: dhcp\dhcp_reserved_scope.htm
 tech.root: DHCP
 ms.assetid: e3b8bcc1-9cdc-499f-840a-3545ec9b46f7
-
 ms.date: 12/05/2018
-ms.keywords: "*LPDHCP_RESERVED_SCOPE, DHCP_RESERVED_SCOPE, DHCP_RESERVED_SCOPE structure [DHCP], LPDHCP_RESERVED_SCOPE, LPDHCP_RESERVED_SCOPE structure pointer [DHCP], dhcp.dhcp_reserved_scope, dhcpsapi/LPDHCP_RESERVED_SCOPE, dhcpsapi/_DHCP_RESERVED_SCOPE"
+ms.keywords: '*LPDHCP_RESERVED_SCOPE, DHCP_RESERVED_SCOPE, DHCP_RESERVED_SCOPE structure [DHCP], LPDHCP_RESERVED_SCOPE, LPDHCP_RESERVED_SCOPE structure pointer [DHCP], dhcp.dhcp_reserved_scope, dhcpsapi/LPDHCP_RESERVED_SCOPE, dhcpsapi/_DHCP_RESERVED_SCOPE'
 ms.topic: struct
-f1_keywords: 
- - "dhcpsapi/DHCP_RESERVED_SCOPE"
+f1_keywords:
+- dhcpsapi/DHCP_RESERVED_SCOPE
 dev_langs:
- - c++
+- c++
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Dhcpsapi.h
+- Dhcpsapi.h
 api_name:
- - DHCP_RESERVED_SCOPE
+- DHCP_RESERVED_SCOPE
 targetos: Windows
 req.typenames: DHCP_RESERVED_SCOPE, *LPDHCP_RESERVED_SCOPE
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:vidcap.ICameraControl.getRange_Roll
 title: ICameraControl::getRange_Roll (vidcap.h)
-
 description: The getRange_Roll method returns the range of roll angles supported by the camera.
 old-location: dshow\icameracontrol_getrange_roll.htm
 tech.root: DirectShow
 ms.assetid: 14400765-d8a2-4ac2-a26b-39949ecd2bda
-
 ms.date: 12/05/2018
 ms.keywords: ICameraControl interface [DirectShow],getRange_Roll method, ICameraControl.getRange_Roll, ICameraControl::getRange_Roll, ICameraControlgetRange_Roll, dshow.icameracontrol_getrange_roll, getRange_Roll, getRange_Roll method [DirectShow], getRange_Roll method [DirectShow],ICameraControl interface, vidcap/ICameraControl::getRange_Roll
 ms.topic: method
-f1_keywords: 
- - "vidcap/ICameraControl.getRange_Roll"
+f1_keywords:
+- vidcap/ICameraControl.getRange_Roll
 dev_langs:
- - c++
+- c++
 req.header: vidcap.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - ICameraControl.getRange_Roll
+- ICameraControl.getRange_Roll
 targetos: Windows
 req.typenames: 
 req.redist: 

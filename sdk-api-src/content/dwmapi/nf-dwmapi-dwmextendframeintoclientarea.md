@@ -1,19 +1,17 @@
 ---
 UID: NF:dwmapi.DwmExtendFrameIntoClientArea
 title: DwmExtendFrameIntoClientArea function (dwmapi.h)
-
 description: Extends the window frame into the client area.
 old-location: dwm\dwmextendframeintoclientarea.htm
 tech.root: dwm
 ms.assetid: VS|winui|~\winui\desktopwindowmanager\reference\functions\dwmextendframeintoclientarea.htm
-
 ms.date: 12/05/2018
 ms.keywords: DwmExtendFrameIntoClientArea, DwmExtendFrameIntoClientArea function [Desktop Window Manager], _udwm_dwmextendframeintoclientarea, _udwm_dwmextendframeintoclientarea_cpp, dwm.dwmextendframeintoclientarea, dwmapi/DwmExtendFrameIntoClientArea, winui._udwm_dwmextendframeintoclientarea
 ms.topic: function
 f1_keywords:
 - dwmapi/DwmExtendFrameIntoClientArea
 dev_langs:
- - c++
+- c++
 req.header: dwmapi.h
 req.include-header: 
 req.target-type: Windows

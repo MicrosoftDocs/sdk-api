@@ -1,19 +1,17 @@
 ---
 UID: NE:uiautomationcore.OrientationType
 title: OrientationType (uiautomationcore.h)
-
 description: Contains values that specify the orientation of a control.
 old-location: winauto\uiauto_orientationtype.htm
 tech.root: WinAuto
 ms.assetid: 2f694be8-4e13-41bd-bb08-4c543baba574
-
 ms.date: 12/05/2018
 ms.keywords: OrientationType, OrientationType enumeration [Windows Accessibility], OrientationType_Horizontal, OrientationType_None, OrientationType_Vertical, uiauto.uiauto_orientationtype, uiauto_orientationtype, uiautomationcore/OrientationType, uiautomationcore/OrientationType_Horizontal, uiautomationcore/OrientationType_None, uiautomationcore/OrientationType_Vertical, winauto.uiauto_orientationtype
 ms.topic: enum
-f1_keywords: 
- - "uiautomationcore/OrientationType"
+f1_keywords:
+- uiautomationcore/OrientationType
 dev_langs:
- - c++
+- c++
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - UIAutomationCore.h
+- UIAutomationCore.h
 api_name:
- - OrientationType
+- OrientationType
 targetos: Windows
 req.typenames: 
 req.redist: 

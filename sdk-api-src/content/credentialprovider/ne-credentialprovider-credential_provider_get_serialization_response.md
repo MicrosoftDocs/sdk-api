@@ -1,19 +1,17 @@
 ---
 UID: NE:credentialprovider._CREDENTIAL_PROVIDER_GET_SERIALIZATION_RESPONSE
 title: CREDENTIAL_PROVIDER_GET_SERIALIZATION_RESPONSE (credentialprovider.h)
-
 description: Describes the response when a credential provider attempts to serialize credentials.
 old-location: shell\CREDENTIAL_PROVIDER_GET_SERIALIZATION_RESPONSE.htm
 tech.root: shell
 ms.assetid: 73615129-62f2-4bc9-acf6-058a6641f4e2
-
 ms.date: 12/05/2018
 ms.keywords: CPGSR_NO_CREDENTIAL_FINISHED, CPGSR_NO_CREDENTIAL_NOT_FINISHED, CPGSR_RETURN_CREDENTIAL_FINISHED, CPGSR_RETURN_NO_CREDENTIAL_FINISHED, CREDENTIAL_PROVIDER_GET_SERIALIZATION_RESPONSE, CREDENTIAL_PROVIDER_GET_SERIALIZATION_RESPONSE enumeration [Windows Shell], _shell_CREDENTIAL_PROVIDER_GET_SERIALIZATION_RESPONSE, credentialprovider/CPGSR_NO_CREDENTIAL_FINISHED, credentialprovider/CPGSR_NO_CREDENTIAL_NOT_FINISHED, credentialprovider/CPGSR_RETURN_CREDENTIAL_FINISHED, credentialprovider/CPGSR_RETURN_NO_CREDENTIAL_FINISHED, credentialprovider/CREDENTIAL_PROVIDER_GET_SERIALIZATION_RESPONSE, shell.CREDENTIAL_PROVIDER_GET_SERIALIZATION_RESPONSE
 ms.topic: enum
-f1_keywords: 
- - "credentialprovider/CREDENTIAL_PROVIDER_GET_SERIALIZATION_RESPONSE"
+f1_keywords:
+- credentialprovider/CREDENTIAL_PROVIDER_GET_SERIALIZATION_RESPONSE
 dev_langs:
- - c++
+- c++
 req.header: credentialprovider.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Credentialprovider.h
+- Credentialprovider.h
 api_name:
- - CREDENTIAL_PROVIDER_GET_SERIALIZATION_RESPONSE
+- CREDENTIAL_PROVIDER_GET_SERIALIZATION_RESPONSE
 targetos: Windows
 req.typenames: CREDENTIAL_PROVIDER_GET_SERIALIZATION_RESPONSE
 req.redist: 

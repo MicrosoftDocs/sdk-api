@@ -1,19 +1,17 @@
 ---
 UID: NE:wmsdkidl.tagWMT_TRANSPORT_TYPE
 title: WMT_TRANSPORT_TYPE (wmsdkidl.h)
-
 description: The WMT_TRANSPORT_TYPE enumeration type defines the transport types supported by this SDK.
 old-location: wmformat\wmt_transport_type.htm
 tech.root: wmformat
 ms.assetid: 1d689487-f71b-4b27-928c-c55bd22579ed
-
 ms.date: 12/05/2018
 ms.keywords: WMT_TRANSPORT_TYPE, WMT_TRANSPORT_TYPE enumeration [windows Media Format], WMT_Transport_Type_Reliable, WMT_Transport_Type_Unreliable, wmformat.wmt_transport_type, wmsdkidl/WMT_TRANSPORT_TYPE, wmsdkidl/WMT_Transport_Type_Reliable, wmsdkidl/WMT_Transport_Type_Unreliable
 ms.topic: enum
-f1_keywords: 
- - "wmsdkidl/WMT_TRANSPORT_TYPE"
+f1_keywords:
+- wmsdkidl/WMT_TRANSPORT_TYPE
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wmsdkidl.h
+- Wmsdkidl.h
 api_name:
- - WMT_TRANSPORT_TYPE
+- WMT_TRANSPORT_TYPE
 targetos: Windows
 req.typenames: WMT_TRANSPORT_TYPE
 req.redist: 

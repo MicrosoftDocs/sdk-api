@@ -1,19 +1,17 @@
 ---
 UID: NS:winnt._TOKEN_ORIGIN
 title: TOKEN_ORIGIN (winnt.h)
-
 description: Contains information about the origin of the logon session.
 old-location: security\token_origin.htm
 tech.root: SecAuthZ
 ms.assetid: b613f76a-7ad1-4066-90a1-244974f10219
-
 ms.date: 12/05/2018
-ms.keywords: "*PTOKEN_ORIGIN, PTOKEN_ORIGIN, PTOKEN_ORIGIN structure pointer [Security], TOKEN_ORIGIN, TOKEN_ORIGIN structure [Security], _TOKEN_ORIGIN, security.token_origin, winnt/PTOKEN_ORIGIN, winnt/TOKEN_ORIGIN"
+ms.keywords: '*PTOKEN_ORIGIN, PTOKEN_ORIGIN, PTOKEN_ORIGIN structure pointer [Security], TOKEN_ORIGIN, TOKEN_ORIGIN structure [Security], _TOKEN_ORIGIN, security.token_origin, winnt/PTOKEN_ORIGIN, winnt/TOKEN_ORIGIN'
 ms.topic: struct
-f1_keywords: 
- - "winnt/TOKEN_ORIGIN"
+f1_keywords:
+- winnt/TOKEN_ORIGIN
 dev_langs:
- - c++
+- c++
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Winnt.h
+- Winnt.h
 api_name:
- - TOKEN_ORIGIN
+- TOKEN_ORIGIN
 targetos: Windows
 req.typenames: TOKEN_ORIGIN, *PTOKEN_ORIGIN
 req.redist: 

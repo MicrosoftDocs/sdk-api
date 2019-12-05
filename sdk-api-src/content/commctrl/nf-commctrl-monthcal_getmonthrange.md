@@ -1,19 +1,17 @@
 ---
 UID: NF:commctrl.MonthCal_GetMonthRange
 title: MonthCal_GetMonthRange macro (commctrl.h)
-
 description: Retrieves date information (using SYSTEMTIME structures) that represents the high and low limits of a month calendar control's display. You can use this macro or send the MCM_GETMONTHRANGE message explicitly.
 old-location: controls\MonthCal_GetMonthRange.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\monthcal\macros\monthcal_getmonthrange.htm
-
 ms.date: 12/05/2018
 ms.keywords: GMR_DAYSTATE, GMR_VISIBLE, MonthCal_GetMonthRange, MonthCal_GetMonthRange macro [Windows Controls], _win32_MonthCal_GetMonthRange, _win32_MonthCal_GetMonthRange_cpp, commctrl/MonthCal_GetMonthRange, controls.MonthCal_GetMonthRange, controls._win32_MonthCal_GetMonthRange
 ms.topic: macro
-f1_keywords: 
- - "commctrl/MonthCal_GetMonthRange"
+f1_keywords:
+- commctrl/MonthCal_GetMonthRange
 dev_langs:
- - c++
+- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Commctrl.h
+- Commctrl.h
 api_name:
- - MonthCal_GetMonthRange
+- MonthCal_GetMonthRange
 targetos: Windows
 req.typenames: 
 req.redist: 

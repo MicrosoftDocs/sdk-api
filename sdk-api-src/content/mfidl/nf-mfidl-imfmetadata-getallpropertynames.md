@@ -1,19 +1,17 @@
 ---
 UID: NF:mfidl.IMFMetadata.GetAllPropertyNames
 title: IMFMetadata::GetAllPropertyNames (mfidl.h)
-
 description: Gets a list of all the metadata property names on this object.
 old-location: mf\imfmetadata_getallpropertynames.htm
 tech.root: medfound
 ms.assetid: e0944d42-d6e6-420d-9980-ca6c62736b3d
-
 ms.date: 12/05/2018
 ms.keywords: GetAllPropertyNames, GetAllPropertyNames method [Media Foundation], GetAllPropertyNames method [Media Foundation],IMFMetadata interface, IMFMetadata interface [Media Foundation],GetAllPropertyNames method, IMFMetadata.GetAllPropertyNames, IMFMetadata::GetAllPropertyNames, e0944d42-d6e6-420d-9980-ca6c62736b3d, mf.imfmetadata_getallpropertynames, mfidl/IMFMetadata::GetAllPropertyNames
 ms.topic: method
-f1_keywords: 
- - "mfidl/IMFMetadata.GetAllPropertyNames"
+f1_keywords:
+- mfidl/IMFMetadata.GetAllPropertyNames
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFMetadata.GetAllPropertyNames
+- IMFMetadata.GetAllPropertyNames
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:winbase.EnableThreadProfiling
 title: EnableThreadProfiling function (winbase.h)
-
 description: Enables thread profiling on the specified thread.
 old-location: hcp\enablethreadprofiling.htm
 tech.root: hcp
 ms.assetid: dbbe5b01-cabf-42cb-9ed9-c2c143f9923b
-
 ms.date: 12/05/2018
 ms.keywords: EnableThreadProfiling, EnableThreadProfiling function [Hardware Counter Profiling], hcp.enablethreadprofiling, winbase/EnableThreadProfiling
 ms.topic: function
-f1_keywords: 
- - "winbase/EnableThreadProfiling"
+f1_keywords:
+- winbase/EnableThreadProfiling
 dev_langs:
- - c++
+- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
+- Kernel32.dll
 api_name:
- - EnableThreadProfiling
+- EnableThreadProfiling
 targetos: Windows
 req.typenames: 
 req.redist: 

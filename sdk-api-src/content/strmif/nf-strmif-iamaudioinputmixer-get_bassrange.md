@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IAMAudioInputMixer.get_BassRange
 title: IAMAudioInputMixer::get_BassRange (strmif.h)
-
 description: The get_BassRange method retrieves the bass range.
 old-location: dshow\iamaudioinputmixer_get_bassrange.htm
 tech.root: DirectShow
 ms.assetid: e0a77f8c-8608-4e16-bc7a-3c90dde2aad8
-
 ms.date: 12/05/2018
 ms.keywords: IAMAudioInputMixer interface [DirectShow],get_BassRange method, IAMAudioInputMixer.get_BassRange, IAMAudioInputMixer::get_BassRange, IAMAudioInputMixerget_BassRange, dshow.iamaudioinputmixer_get_bassrange, get_BassRange, get_BassRange method [DirectShow], get_BassRange method [DirectShow],IAMAudioInputMixer interface, strmif/IAMAudioInputMixer::get_BassRange
 ms.topic: method
-f1_keywords: 
- - "strmif/IAMAudioInputMixer.get_BassRange"
+f1_keywords:
+- strmif/IAMAudioInputMixer.get_BassRange
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IAMAudioInputMixer.get_BassRange
+- IAMAudioInputMixer.get_BassRange
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:slpublic.SLUnregisterEvent
 title: SLUnregisterEvent function (slpublic.h)
-
 description: Unregisters a registered event in the SL service.
 old-location: security\slunregisterevent.htm
 tech.root: SecSLApi
 ms.assetid: 0fd02eb4-16d9-4892-b50c-3f9b0ead8478
-
 ms.date: 12/05/2018
 ms.keywords: SLUnregisterEvent, SLUnregisterEvent function [Security], security.slunregisterevent, slpublic/SLUnregisterEvent
 ms.topic: function
-f1_keywords: 
- - "slpublic/SLUnregisterEvent"
+f1_keywords:
+- slpublic/SLUnregisterEvent
 dev_langs:
- - c++
+- c++
 req.header: slpublic.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Slc.lib
 req.dll: Slc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Slc.dll
+- Slc.dll
 api_name:
- - SLUnregisterEvent
+- SLUnregisterEvent
 targetos: Windows
 req.typenames: 
 req.redist: 

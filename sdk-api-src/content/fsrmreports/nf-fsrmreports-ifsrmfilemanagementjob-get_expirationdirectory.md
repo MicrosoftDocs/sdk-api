@@ -1,19 +1,17 @@
 ---
 UID: NF:fsrmreports.IFsrmFileManagementJob.get_ExpirationDirectory
 title: IFsrmFileManagementJob::get_ExpirationDirectory (fsrmreports.h)
-
 description: The root directory that will contain the expired files.
 old-location: fsrm\ifsrmfilemanagementjob_expirationdirectory.htm
 tech.root: fsrm
 ms.assetid: 7c8a2584-23ff-4839-b426-8f5411955746
-
 ms.date: 12/05/2018
 ms.keywords: ExpirationDirectory property [File Server Resource Manager], ExpirationDirectory property [File Server Resource Manager],IFsrmFileManagementJob interface, IFsrmFileManagementJob interface [File Server Resource Manager],ExpirationDirectory property, IFsrmFileManagementJob.ExpirationDirectory, IFsrmFileManagementJob.get_ExpirationDirectory, IFsrmFileManagementJob::ExpirationDirectory, IFsrmFileManagementJob::get_ExpirationDirectory, IFsrmFileManagementJob::put_ExpirationDirectory, fs.ifsrmfilemanagementjob_expirationdirectory, fsrm.ifsrmfilemanagementjob_expirationdirectory, fsrmreports/IFsrmFileManagementJob::ExpirationDirectory, fsrmreports/IFsrmFileManagementJob::get_ExpirationDirectory, fsrmreports/IFsrmFileManagementJob::put_ExpirationDirectory, get_ExpirationDirectory
 ms.topic: method
-f1_keywords: 
- - "fsrmreports/IFsrmFileManagementJob.ExpirationDirectory"
+f1_keywords:
+- fsrmreports/IFsrmFileManagementJob.ExpirationDirectory
 dev_langs:
- - c++
+- c++
 req.header: fsrmreports.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: SrmSvc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - SrmSvc.dll
+- SrmSvc.dll
 api_name:
- - IFsrmFileManagementJob.ExpirationDirectory
- - IFsrmFileManagementJob.get_ExpirationDirectory
- - IFsrmFileManagementJob.put_ExpirationDirectory
+- IFsrmFileManagementJob.ExpirationDirectory
+- IFsrmFileManagementJob.get_ExpirationDirectory
+- IFsrmFileManagementJob.put_ExpirationDirectory
 targetos: Windows
 req.typenames: 
 req.redist: 

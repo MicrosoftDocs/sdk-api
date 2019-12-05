@@ -1,19 +1,17 @@
 ---
 UID: NF:comppkgsup.GetMediaComponentPackageInfo
 title: GetMediaComponentPackageInfo function (comppkgsup.h)
-
 description: Returns a list of properties for all media codecs installed on the system that meet the specified requirements.
 old-location: winprog\getmediacomponentpackageinfo.htm
 tech.root: DevNotes
 ms.assetid: EDBC9F34-62C3-4256-9AEC-9A743608B5B7
-
 ms.date: 12/05/2018
 ms.keywords: GetMediaComponentPackageInfo, GetMediaComponentPackageInfo function [Windows API], comppkgsup/GetMediaComponentPackageInfo, winprog.getmediacomponentpackageinfo
 ms.topic: function
-f1_keywords: 
- - "comppkgsup/GetMediaComponentPackageInfo"
+f1_keywords:
+- comppkgsup/GetMediaComponentPackageInfo
 dev_langs:
- - c++
+- c++
 req.header: comppkgsup.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Comppkgsup.lib
 req.dll: CompPkgSup.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - CompPkgSup.dll
+- CompPkgSup.dll
 api_name:
- - GetMediaComponentPackageInfo
+- GetMediaComponentPackageInfo
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:evr9.IMFVideoMixerBitmap.GetAlphaBitmapParameters
 title: IMFVideoMixerBitmap::GetAlphaBitmapParameters (evr9.h)
-
 description: Retrieves the current settings that the enhanced video renderer (EVR) uses to alpha-blend the bitmap with the video.
 old-location: mf\imfvideomixerbitmap_getalphabitmapparameters.htm
 tech.root: medfound
 ms.assetid: 0361e340-9de7-47f3-80fd-61d5e914d44e
-
 ms.date: 12/05/2018
 ms.keywords: 0361e340-9de7-47f3-80fd-61d5e914d44e, GetAlphaBitmapParameters, GetAlphaBitmapParameters method [Media Foundation], GetAlphaBitmapParameters method [Media Foundation],IMFVideoMixerBitmap interface, IMFVideoMixerBitmap interface [Media Foundation],GetAlphaBitmapParameters method, IMFVideoMixerBitmap.GetAlphaBitmapParameters, IMFVideoMixerBitmap::GetAlphaBitmapParameters, evr9/IMFVideoMixerBitmap::GetAlphaBitmapParameters, mf.imfvideomixerbitmap_getalphabitmapparameters
 ms.topic: method
-f1_keywords: 
- - "evr9/IMFVideoMixerBitmap.GetAlphaBitmapParameters"
+f1_keywords:
+- evr9/IMFVideoMixerBitmap.GetAlphaBitmapParameters
 dev_langs:
- - c++
+- c++
 req.header: evr9.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - strmiids.lib
- - strmiids.dll
+- strmiids.lib
+- strmiids.dll
 api_name:
- - IMFVideoMixerBitmap.GetAlphaBitmapParameters
+- IMFVideoMixerBitmap.GetAlphaBitmapParameters
 targetos: Windows
 req.typenames: 
 req.redist: 

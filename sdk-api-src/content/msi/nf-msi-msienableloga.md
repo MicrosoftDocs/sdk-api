@@ -1,19 +1,17 @@
 ---
 UID: NF:msi.MsiEnableLogA
 title: MsiEnableLogA function (msi.h)
-
 description: The MsiEnableLog function sets the log mode for all subsequent installations that are initiated in the calling process.
 old-location: setup\msienablelog.htm
 tech.root: Msi
 ms.assetid: 117ccd0b-e434-453f-9602-ff50bc85db6e
-
 ms.date: 12/05/2018
 ms.keywords: INSTALLLOGATTRIBUTES_APPEND, INSTALLLOGATTRIBUTES_FLUSHEACHLINE, INSTALLLOGMODE_ACTIONDATA, INSTALLLOGMODE_ACTIONSTART, INSTALLLOGMODE_COMMONDATA, INSTALLLOGMODE_ERROR, INSTALLLOGMODE_EXTRADEBUG, INSTALLLOGMODE_FATALEXIT, INSTALLLOGMODE_INFO, INSTALLLOGMODE_LOGONLYONERROR, INSTALLLOGMODE_OUTOFDISKSPACE, INSTALLLOGMODE_PROPERTYDUMP, INSTALLLOGMODE_RESOLVESOURCE, INSTALLLOGMODE_USER, INSTALLLOGMODE_VERBOSE, INSTALLLOGMODE_WARNING, MsiEnableLog, MsiEnableLog function, MsiEnableLogA, MsiEnableLogW, _msi_msienablelog, msi/MsiEnableLog, msi/MsiEnableLogA, msi/MsiEnableLogW, setup.msienablelog
 ms.topic: function
-f1_keywords: 
- - "msi/MsiEnableLog"
+f1_keywords:
+- msi/MsiEnableLog
 dev_langs:
- - c++
+- c++
 req.header: msi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Msi.lib
 req.dll: Msi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Msi.dll
+- Msi.dll
 api_name:
- - MsiEnableLog
- - MsiEnableLogA
- - MsiEnableLogW
+- MsiEnableLog
+- MsiEnableLogA
+- MsiEnableLogW
 targetos: Windows
 req.typenames: 
 req.redist: 

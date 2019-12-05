@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi.phoneSetLamp
 title: phoneSetLamp function (tapi.h)
-
 description: The phoneSetLamp function causes the specified lamp to be lit on the specified open phone device in the specified lamp mode.
 old-location: tapi2\phonesetlamp.htm
 tech.root: Tapi
 ms.assetid: 2e21ef29-9c40-4463-8678-028a8772a494
-
 ms.date: 12/05/2018
-ms.keywords: "_tapi2_phonesetlamp, phoneSetLamp, phoneSetLamp function [TAPI 2.2], tapi/phoneSetLamp, tapi2.phonesetlamp"
+ms.keywords: _tapi2_phonesetlamp, phoneSetLamp, phoneSetLamp function [TAPI 2.2], tapi/phoneSetLamp, tapi2.phonesetlamp
 ms.topic: function
-f1_keywords: 
- - "tapi/phoneSetLamp"
+f1_keywords:
+- tapi/phoneSetLamp
 dev_langs:
- - c++
+- c++
 req.header: tapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Tapi32.lib
 req.dll: Tapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Tapi32.dll
+- Tapi32.dll
 api_name:
- - phoneSetLamp
+- phoneSetLamp
 targetos: Windows
 req.typenames: 
 req.redist: 

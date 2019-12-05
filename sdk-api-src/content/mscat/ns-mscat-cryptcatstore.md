@@ -1,19 +1,17 @@
 ---
 UID: NS:mscat.CRYPTCATSTORE_
 title: CRYPTCATSTORE (mscat.h)
-
 description: Represents a catalog file.
 old-location: security\cryptcatstore.htm
 tech.root: SecCrypto
 ms.assetid: 65a15797-453c-4f47-8ea1-c92e616b50aa
-
 ms.date: 12/05/2018
 ms.keywords: CRYPTCATSTORE, CRYPTCATSTORE structure [Security], CRYPTCAT_OPEN_EXCLUDE_PAGE_HASHES, CRYPTCAT_OPEN_FLAGS_MASK, CRYPTCAT_OPEN_INCLUDE_PAGE_HASHES, CRYPTCAT_OPEN_NO_CONTENT_HCRYPTMSG, CRYPTCAT_OPEN_SORTED, CRYPTCAT_OPEN_VERIFYSIGHASH, mscat/CRYPTCATSTORE, security.cryptcatstore
 ms.topic: struct
-f1_keywords: 
- - "mscat/CRYPTCATSTORE"
+f1_keywords:
+- mscat/CRYPTCATSTORE
 dev_langs:
- - c++
+- c++
 req.header: mscat.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Mscat.h
+- Mscat.h
 api_name:
- - CRYPTCATSTORE
+- CRYPTCATSTORE
 targetos: Windows
 req.typenames: CRYPTCATSTORE
 req.redist: 

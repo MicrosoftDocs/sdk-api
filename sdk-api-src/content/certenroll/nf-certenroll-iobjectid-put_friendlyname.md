@@ -1,19 +1,17 @@
 ---
 UID: NF:certenroll.IObjectId.put_FriendlyName
 title: IObjectId::put_FriendlyName (certenroll.h)
-
 description: Specifies and retrieves a display name for the object identifier.
 old-location: security\iobjectid_friendlyname_property.htm
 tech.root: seccertenroll
 ms.assetid: 9360f652-afeb-4f30-a423-402f397b9255
-
 ms.date: 12/05/2018
 ms.keywords: FriendlyName property [Security], FriendlyName property [Security],IObjectId interface, IObjectId interface [Security],FriendlyName property, IObjectId.FriendlyName, IObjectId.put_FriendlyName, IObjectId::FriendlyName, IObjectId::get_FriendlyName, IObjectId::put_FriendlyName, certenroll/IObjectId::FriendlyName, certenroll/IObjectId::get_FriendlyName, certenroll/IObjectId::put_FriendlyName, put_FriendlyName, security.iobjectid_friendlyname_property
 ms.topic: method
-f1_keywords: 
- - "certenroll/IObjectId.FriendlyName"
+f1_keywords:
+- certenroll/IObjectId.FriendlyName
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: CertEnroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CertEnroll.dll
+- CertEnroll.dll
 api_name:
- - IObjectId.FriendlyName
- - IObjectId.get_FriendlyName
- - IObjectId.put_FriendlyName
+- IObjectId.FriendlyName
+- IObjectId.get_FriendlyName
+- IObjectId.put_FriendlyName
 targetos: Windows
 req.typenames: 
 req.redist: 

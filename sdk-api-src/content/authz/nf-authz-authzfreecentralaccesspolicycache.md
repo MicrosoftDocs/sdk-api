@@ -1,19 +1,17 @@
 ---
 UID: NF:authz.AuthzFreeCentralAccessPolicyCache
 title: AuthzFreeCentralAccessPolicyCache function (authz.h)
-
 description: Decreases the CAP cache reference count by one so that the CAP cache can be deallocated.
 old-location: security\authzfreecentralaccesspolicycache.htm
 tech.root: SecAuthZ
 ms.assetid: 0F972A95-3CD7-4C86-99DE-5B3D50CE9A34
-
 ms.date: 12/05/2018
 ms.keywords: AuthzFreeCentralAccessPolicyCache, AuthzFreeCentralAccessPolicyCache function [Security], authz/AuthzFreeCentralAccessPolicyCache, security.authzfreecentralaccesspolicycache
 ms.topic: function
-f1_keywords: 
- - "authz/AuthzFreeCentralAccessPolicyCache"
+f1_keywords:
+- authz/AuthzFreeCentralAccessPolicyCache
 dev_langs:
- - c++
+- c++
 req.header: authz.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Authz.lib
 req.dll: Authz.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Authz.dll
+- Authz.dll
 api_name:
- - AuthzFreeCentralAccessPolicyCache
+- AuthzFreeCentralAccessPolicyCache
 targetos: Windows
 req.typenames: 
 req.redist: 

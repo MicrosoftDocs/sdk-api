@@ -1,19 +1,17 @@
 ---
 UID: NF:faxcomex._IFaxServerNotify2.OnOutgoingQueueConfigChange
 title: _IFaxServerNotify2::OnOutgoingQueueConfigChange (faxcomex.h)
-
 description: The fax service calls the IFaxServerNotify2::OnOutgoingQueueConfigChange method when there is a configuration change related to the outgoing fax job queue.
 old-location: fax\_mfax_ifaxservernotify2_onoutgoingqueueconfigchange.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_onoutgoingqueueconfigchange.htm
-
 ms.date: 12/05/2018
 ms.keywords: IFaxServerNotify2 interface [Fax Service],OnOutgoingQueueConfigChange method, IFaxServerNotify2.OnOutgoingQueueConfigChange, IFaxServerNotify2::OnOutgoingQueueConfigChange, OnOutgoingQueueConfigChange, OnOutgoingQueueConfigChange method [Fax Service], OnOutgoingQueueConfigChange method [Fax Service],IFaxServerNotify2 interface, _IFaxServerNotify2.OnOutgoingQueueConfigChange, _IFaxServerNotify2::OnOutgoingQueueConfigChange, _mfax_ifaxservernotify2_onoutgoingqueueconfigchange, fax._mfax_ifaxservernotify2_onoutgoingqueueconfigchange, faxcomex/IFaxServerNotify2::OnOutgoingQueueConfigChange
 ms.topic: method
-f1_keywords: 
- - "faxcomex/IFaxServerNotify2.OnOutgoingQueueConfigChange"
+f1_keywords:
+- faxcomex/IFaxServerNotify2.OnOutgoingQueueConfigChange
 dev_langs:
- - c++
+- c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: Fxscomex.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Fxscomex.dll
+- Fxscomex.dll
 api_name:
- - IFaxServerNotify2.OnOutgoingQueueConfigChange
- - IFaxServerNotify2.OnOutgoingQueueConfigChange
+- IFaxServerNotify2.OnOutgoingQueueConfigChange
+- IFaxServerNotify2.OnOutgoingQueueConfigChange
 targetos: Windows
 req.typenames: 
 req.redist: 

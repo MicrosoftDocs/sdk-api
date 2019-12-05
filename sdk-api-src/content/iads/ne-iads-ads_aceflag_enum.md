@@ -1,19 +1,17 @@
 ---
 UID: NE:iads.__MIDL___MIDL_itf_ads_0001_0048_0003
 title: ADS_ACEFLAG_ENUM (iads.h)
-
 description: The ADS_ACEFLAG_ENUM enumeration is used to specify the behavior of an Access Control Entry (ACE) for an Active Directory object.
 old-location: adsi\ads_aceflag_enum.htm
 tech.root: adsi
 ms.assetid: 4fd63de4-b699-420b-96f9-28f86d3aca01
-
 ms.date: 12/05/2018
 ms.keywords: ADS_ACEFLAG_ENUM, ADS_ACEFLAG_ENUM enumeration [ADSI], ADS_ACEFLAG_FAILED_ACCESS, ADS_ACEFLAG_INHERITED_ACE, ADS_ACEFLAG_INHERIT_ACE, ADS_ACEFLAG_INHERIT_ONLY_ACE, ADS_ACEFLAG_NO_PROPAGATE_INHERIT_ACE, ADS_ACEFLAG_SUCCESSFUL_ACCESS, ADS_ACEFLAG_VALID_INHERIT_FLAGS, _ds_ads_aceflag_enum, adsi.ads__aceflag__enum, adsi.ads_aceflag_enum, iads/ADS_ACEFLAG_ENUM, iads/ADS_ACEFLAG_FAILED_ACCESS, iads/ADS_ACEFLAG_INHERITED_ACE, iads/ADS_ACEFLAG_INHERIT_ACE, iads/ADS_ACEFLAG_INHERIT_ONLY_ACE, iads/ADS_ACEFLAG_NO_PROPAGATE_INHERIT_ACE, iads/ADS_ACEFLAG_SUCCESSFUL_ACCESS, iads/ADS_ACEFLAG_VALID_INHERIT_FLAGS
 ms.topic: enum
 f1_keywords:
 - iads/ADS_ACEFLAG_ENUM
 dev_langs:
- - c++
+- c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows

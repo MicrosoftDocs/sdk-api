@@ -1,19 +1,17 @@
 ---
 UID: NF:gdiplusbrush.LinearGradientBrush.SetInterpolationColors
 title: LinearGradientBrush::SetInterpolationColors (gdiplusbrush.h)
-
 description: The LinearGradientBrush::SetInterpolationColors method sets the colors to be interpolated for this linear gradient brush and their corresponding blend positions.
 old-location: gdiplus\_gdiplus_CLASS_LinearGradientBrush_SetInterpolationColors_presetColors_blendPositions_count_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\lineargradientbrushclass\lineargradientbrushmethods\setinterpolationcolors.htm
-
 ms.date: 12/05/2018
 ms.keywords: LinearGradientBrush class [GDI+],SetInterpolationColors method, LinearGradientBrush.SetInterpolationColors, LinearGradientBrush::SetInterpolationColors, SetInterpolationColors, SetInterpolationColors method [GDI+], SetInterpolationColors method [GDI+],LinearGradientBrush class, _gdiplus_CLASS_LinearGradientBrush_SetInterpolationColors_presetColors_blendPositions_count_, gdiplus._gdiplus_CLASS_LinearGradientBrush_SetInterpolationColors_presetColors_blendPositions_count_
 ms.topic: method
-f1_keywords: 
- - "gdiplusbrush/LinearGradientBrush.SetInterpolationColors"
+f1_keywords:
+- gdiplusbrush/LinearGradientBrush.SetInterpolationColors
 dev_langs:
- - c++
+- c++
 req.header: gdiplusbrush.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - LinearGradientBrush.SetInterpolationColors
+- LinearGradientBrush.SetInterpolationColors
 targetos: Windows
 req.typenames: 
 req.redist: 

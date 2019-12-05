@@ -1,19 +1,17 @@
 ---
 UID: NF:bits.IBackgroundCopyJob.SetDisplayName
 title: IBackgroundCopyJob::SetDisplayName (bits.h)
-
 description: Specifies a display name for the job. Typically, you use the display name to identify the job in a user interface.
 old-location: bits\ibackgroundcopyjob_setdisplayname.htm
 tech.root: Bits
 ms.assetid: 504b0096-891c-4bf7-a311-9d351b359210
-
 ms.date: 12/05/2018
 ms.keywords: IBackgroundCopyJob interface [BITS],SetDisplayName method, IBackgroundCopyJob.SetDisplayName, IBackgroundCopyJob::SetDisplayName, SetDisplayName, SetDisplayName method [BITS], SetDisplayName method [BITS],IBackgroundCopyJob interface, _drz_ibackgroundcopyjob_setdisplayname, bits.ibackgroundcopyjob_setdisplayname, bits/IBackgroundCopyJob::SetDisplayName
 ms.topic: method
-f1_keywords: 
- - "bits/IBackgroundCopyJob.SetDisplayName"
+f1_keywords:
+- bits/IBackgroundCopyJob.SetDisplayName
 dev_langs:
- - c++
+- c++
 req.header: bits.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Bits.lib
 req.dll: QmgrPrxy.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - QmgrPrxy.dll
+- QmgrPrxy.dll
 api_name:
- - IBackgroundCopyJob.SetDisplayName
+- IBackgroundCopyJob.SetDisplayName
 targetos: Windows
 req.typenames: 
 req.redist: 

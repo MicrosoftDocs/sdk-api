@@ -1,19 +1,17 @@
 ---
 UID: NF:d2d1.ID2D1Resource.GetFactory
 title: ID2D1Resource::GetFactory (d2d1.h)
-
 description: Retrieves the factory associated with this resource.
 old-location: direct2d\ID2D1Resource_GetFactory.htm
 tech.root: Direct2D
 ms.assetid: 93afc187-d1ef-46f8-98b0-efe31345ae98
-
 ms.date: 12/05/2018
 ms.keywords: GetFactory, GetFactory method [Direct2D], GetFactory method [Direct2D],ID2D1Resource interface, ID2D1Resource interface [Direct2D],GetFactory method, ID2D1Resource.GetFactory, ID2D1Resource::GetFactory, d2d1/ID2D1Resource::GetFactory, direct2d.ID2D1Resource_GetFactory
 ms.topic: method
-f1_keywords: 
- - "d2d1/ID2D1Resource.GetFactory"
+f1_keywords:
+- d2d1/ID2D1Resource.GetFactory
 dev_langs:
- - c++
+- c++
 req.header: d2d1.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: D2d1.lib
 req.dll: D2d1.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D2d1.dll
+- D2d1.dll
 api_name:
- - ID2D1Resource.GetFactory
+- ID2D1Resource.GetFactory
 targetos: Windows
 req.typenames: 
 req.redist: 

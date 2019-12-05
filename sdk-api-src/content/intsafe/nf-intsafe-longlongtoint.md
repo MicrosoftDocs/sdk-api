@@ -1,19 +1,17 @@
 ---
 UID: NF:intsafe.LongLongToInt
 title: LongLongToInt function (intsafe.h)
-
 description: Converts a value of type LONGLONG to a value of type INT.
 old-location: shell\LongLongToInt.htm
 tech.root: shell
 ms.assetid: c011e0d1-69bd-446b-a352-ef92dd801f2e
-
 ms.date: 12/05/2018
 ms.keywords: Int64ToInt, LongLongToInt, LongLongToInt function [Windows Shell], intsafe/LongLongToInt, shell.LongLongToInt
 ms.topic: function
-f1_keywords: 
- - "intsafe/LongLongToInt"
+f1_keywords:
+- intsafe/LongLongToInt
 dev_langs:
- - c++
+- c++
 req.header: intsafe.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - intsafe.h
+- intsafe.h
 api_name:
- - LongLongToInt
+- LongLongToInt
 targetos: Windows
 req.typenames: 
 req.redist: 

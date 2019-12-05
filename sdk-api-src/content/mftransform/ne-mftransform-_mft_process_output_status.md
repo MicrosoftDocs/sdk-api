@@ -1,19 +1,17 @@
 ---
 UID: NE:mftransform._MFT_PROCESS_OUTPUT_STATUS
 title: _MFT_PROCESS_OUTPUT_STATUS (mftransform.h)
-
 description: Indicates the status of a call to IMFTransform::ProcessOutput.
 old-location: mf\_mft_process_output_status.htm
 tech.root: medfound
 ms.assetid: 80804b33-1dac-41f8-8446-8f929bf9b931
-
 ms.date: 12/05/2018
 ms.keywords: 80804b33-1dac-41f8-8446-8f929bf9b931, MFT_PROCESS_OUTPUT_STATUS_NEW_STREAMS, _MFT_PROCESS_OUTPUT_STATUS, _MFT_PROCESS_OUTPUT_STATUS enumeration [Media Foundation], mf._mft_process_output_status, mftransform/MFT_PROCESS_OUTPUT_STATUS_NEW_STREAMS, mftransform/_MFT_PROCESS_OUTPUT_STATUS
 ms.topic: enum
-f1_keywords: 
- - "mftransform/_MFT_PROCESS_OUTPUT_STATUS"
+f1_keywords:
+- mftransform/_MFT_PROCESS_OUTPUT_STATUS
 dev_langs:
- - c++
+- c++
 req.header: mftransform.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - mftransform.h
+- mftransform.h
 api_name:
- - _MFT_PROCESS_OUTPUT_STATUS
+- _MFT_PROCESS_OUTPUT_STATUS
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:vfw.ICInstall
 title: ICInstall function (vfw.h)
-
 description: The ICInstall function installs a new compressor or decompressor.
 old-location: multimedia\icinstall.htm
 tech.root: Multimedia
 ms.assetid: 23bbc186-3ef9-479a-94f9-a97269cf6dbc
-
 ms.date: 12/05/2018
 ms.keywords: ICInstall, ICInstall function [Windows Multimedia], _win32_ICInstall, multimedia.icinstall, vfw/ICInstall
 ms.topic: function
-f1_keywords: 
- - "vfw/ICInstall"
+f1_keywords:
+- vfw/ICInstall
 dev_langs:
- - c++
+- c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Vfw32.lib
 req.dll: Msvfw32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Msvfw32.dll
+- Msvfw32.dll
 api_name:
- - ICInstall
+- ICInstall
 targetos: Windows
 req.typenames: 
 req.redist: 

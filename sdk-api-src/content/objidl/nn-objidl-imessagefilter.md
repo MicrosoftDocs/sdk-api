@@ -1,19 +1,17 @@
 ---
 UID: NN:objidl.IMessageFilter
 title: IMessageFilter (objidl.h)
-
 description: Provides COM servers and applications with the ability to selectively handle incoming and outgoing COM messages while waiting for responses from synchronous calls.
 old-location: com\imessagefilter.htm
 tech.root: com
 ms.assetid: e12d48c0-5033-47a8-bdcd-e94c49857248
-
 ms.date: 12/05/2018
 ms.keywords: IMessageFilter, IMessageFilter interface [COM], IMessageFilter interface [COM],described, _com_imessagefilter, com.imessagefilter, objidl/IMessageFilter
 ms.topic: interface
-f1_keywords: 
- - "objidl/IMessageFilter"
+f1_keywords:
+- objidl/IMessageFilter
 dev_langs:
- - c++
+- c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ObjIdl.h
+- ObjIdl.h
 api_name:
- - IMessageFilter
+- IMessageFilter
 targetos: Windows
 req.typenames: 
 req.redist: 

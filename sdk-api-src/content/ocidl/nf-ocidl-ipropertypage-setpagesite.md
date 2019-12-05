@@ -1,19 +1,17 @@
 ---
 UID: NF:ocidl.IPropertyPage.SetPageSite
 title: IPropertyPage::SetPageSite (ocidl.h)
-
 description: Initializes a property page and provides the page with a pointer to the IPropertyPageSite interface through which the property page communicates with the property frame.
 old-location: com\ipropertypage_setpagesite.htm
 tech.root: com
 ms.assetid: a57f3f0c-53c0-4ddf-9827-df912f263a9e
-
 ms.date: 12/05/2018
 ms.keywords: IPropertyPage interface [COM],SetPageSite method, IPropertyPage.SetPageSite, IPropertyPage::SetPageSite, SetPageSite, SetPageSite method [COM], SetPageSite method [COM],IPropertyPage interface, _ctrl_ipropertypage_setpagesite, com.ipropertypage_setpagesite, ocidl/IPropertyPage::SetPageSite
 ms.topic: method
-f1_keywords: 
- - "ocidl/IPropertyPage.SetPageSite"
+f1_keywords:
+- ocidl/IPropertyPage.SetPageSite
 dev_langs:
- - c++
+- c++
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - OCIdl.h
+- OCIdl.h
 api_name:
- - IPropertyPage.SetPageSite
+- IPropertyPage.SetPageSite
 targetos: Windows
 req.typenames: 
 req.redist: 

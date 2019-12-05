@@ -1,19 +1,17 @@
 ---
 UID: NF:wingdi.CreateBitmap
 title: CreateBitmap function (wingdi.h)
-
 description: The CreateBitmap function creates a bitmap with the specified width, height, and color format (color planes and bits-per-pixel).
 old-location: gdi\createbitmap.htm
 tech.root: gdi
 ms.assetid: b52e1baf-6a81-44bc-a061-4d42e6f4ed64
-
 ms.date: 12/05/2018
 ms.keywords: CreateBitmap, CreateBitmap function [Windows GDI], _win32_CreateBitmap, gdi.createbitmap, wingdi/CreateBitmap
 ms.topic: function
-f1_keywords: 
- - "wingdi/CreateBitmap"
+f1_keywords:
+- wingdi/CreateBitmap
 dev_langs:
- - c++
+- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,19 +30,19 @@ req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - gdi32.dll
- - Ext-MS-Win-GDI-Draw-l1-1-0.dll
- - Ext-MS-Win-GDI-Draw-l1-1-1.dll
- - ext-ms-win-gdi-draw-l1-1-2.dll
- - Ext-MS-Win-GDI-Draw-L1-1-3.dll
- - GDI32Full.dll
+- gdi32.dll
+- Ext-MS-Win-GDI-Draw-l1-1-0.dll
+- Ext-MS-Win-GDI-Draw-l1-1-1.dll
+- ext-ms-win-gdi-draw-l1-1-2.dll
+- Ext-MS-Win-GDI-Draw-L1-1-3.dll
+- GDI32Full.dll
 api_name:
- - CreateBitmap
+- CreateBitmap
 targetos: Windows
 req.typenames: 
 req.redist: 

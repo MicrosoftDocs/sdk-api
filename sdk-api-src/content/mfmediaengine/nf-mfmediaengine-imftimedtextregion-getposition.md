@@ -1,19 +1,17 @@
 ---
 UID: NF:mfmediaengine.IMFTimedTextRegion.GetPosition
 title: IMFTimedTextRegion::GetPosition (mfmediaengine.h)
-
 description: Gets the position of the region.
 old-location: mf\imftimedtextregion_getposition.htm
 tech.root: medfound
 ms.assetid: 1DEE0689-A428-4121-9ED5-5E4D1376461E
-
 ms.date: 12/05/2018
 ms.keywords: GetPosition, GetPosition method [Media Foundation], GetPosition method [Media Foundation],IMFTimedTextRegion interface, IMFTimedTextRegion interface [Media Foundation],GetPosition method, IMFTimedTextRegion.GetPosition, IMFTimedTextRegion::GetPosition, mf.imftimedtextregion_getposition, mfmediaengine/IMFTimedTextRegion::GetPosition
 ms.topic: method
-f1_keywords: 
- - "mfmediaengine/IMFTimedTextRegion.GetPosition"
+f1_keywords:
+- mfmediaengine/IMFTimedTextRegion.GetPosition
 dev_langs:
- - c++
+- c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfmediaengine.h
+- mfmediaengine.h
 api_name:
- - IMFTimedTextRegion.GetPosition
+- IMFTimedTextRegion.GetPosition
 targetos: Windows
 req.typenames: 
 req.redist: 

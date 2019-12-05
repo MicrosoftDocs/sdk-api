@@ -1,19 +1,17 @@
 ---
 UID: NF:tuner.IATSCTuningSpace.get_MaxMinorChannel
 title: IATSCTuningSpace::get_MaxMinorChannel (tuner.h)
-
 description: The get_MaxMinorChannel method gets the highest minor channel number for this tuning space.
 old-location: mstv\iatsctuningspace_get_maxminorchannel.htm
 tech.root: mstv
 ms.assetid: 55bfef31-f9c2-4edb-b4a9-369424584316
-
 ms.date: 12/05/2018
 ms.keywords: IATSCTuningSpace interface [Microsoft TV Technologies],get_MaxMinorChannel method, IATSCTuningSpace.get_MaxMinorChannel, IATSCTuningSpace::get_MaxMinorChannel, IATSCTuningSpaceget_MaxMinorChannel, get_MaxMinorChannel, get_MaxMinorChannel method [Microsoft TV Technologies], get_MaxMinorChannel method [Microsoft TV Technologies],IATSCTuningSpace interface, mstv.iatsctuningspace_get_maxminorchannel, tuner/IATSCTuningSpace::get_MaxMinorChannel
 ms.topic: method
-f1_keywords: 
- - "tuner/IATSCTuningSpace.get_MaxMinorChannel"
+f1_keywords:
+- tuner/IATSCTuningSpace.get_MaxMinorChannel
 dev_langs:
- - c++
+- c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - tuner.h
+- tuner.h
 api_name:
- - IATSCTuningSpace.get_MaxMinorChannel
+- IATSCTuningSpace.get_MaxMinorChannel
 targetos: Windows
 req.typenames: 
 req.redist: 

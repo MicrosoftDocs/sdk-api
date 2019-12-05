@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IObjectWithFolderEnumMode.SetMode
 title: IObjectWithFolderEnumMode::SetMode (shobjidl_core.h)
-
 description: Sets the enumeration mode of the parsed item.
 old-location: shell\IObjectWithFolderEnumMode_SetMode.htm
 tech.root: shell
 ms.assetid: 7e7271ec-47a7-42bf-ab02-26cd587448bd
-
 ms.date: 12/05/2018
 ms.keywords: IObjectWithFolderEnumMode interface [Windows Shell],SetMode method, IObjectWithFolderEnumMode.SetMode, IObjectWithFolderEnumMode::SetMode, SetMode, SetMode method [Windows Shell], SetMode method [Windows Shell],IObjectWithFolderEnumMode interface, _shell_IObjectWithFolderEnumMode_SetMode, shell.IObjectWithFolderEnumMode_SetMode, shobjidl_core/IObjectWithFolderEnumMode::SetMode
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IObjectWithFolderEnumMode.SetMode"
+f1_keywords:
+- shobjidl_core/IObjectWithFolderEnumMode.SetMode
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - IObjectWithFolderEnumMode.SetMode
+- IObjectWithFolderEnumMode.SetMode
 targetos: Windows
 req.typenames: 
 req.redist: 

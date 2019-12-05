@@ -1,19 +1,17 @@
 ---
 UID: NF:shlwapi.IQueryAssociations.GetData
 title: IQueryAssociations::GetData (shlwapi.h)
-
 description: Searches for and retrieves file or protocol association-related binary data from the registry.
 old-location: shell\IQueryAssociations_GetData.htm
 tech.root: shell
 ms.assetid: 7f21e564-97c6-4f9d-a4fa-160b78dbfc2f
-
 ms.date: 12/05/2018
 ms.keywords: GetData, GetData method [Windows Shell], GetData method [Windows Shell],IQueryAssociations interface, IQueryAssociations interface [Windows Shell],GetData method, IQueryAssociations.GetData, IQueryAssociations::GetData, _win32_IQueryAssociations_GetData, shell.IQueryAssociations_GetData, shlwapi/IQueryAssociations::GetData
 ms.topic: method
-f1_keywords: 
- - "shlwapi/IQueryAssociations.GetData"
+f1_keywords:
+- shlwapi/IQueryAssociations.GetData
 dev_langs:
- - c++
+- c++
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Shlwapi.lib
 req.dll: Shell32.dll (version 5.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - IQueryAssociations.GetData
+- IQueryAssociations.GetData
 targetos: Windows
 req.typenames: 
 req.redist: 

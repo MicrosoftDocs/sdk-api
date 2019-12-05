@@ -1,19 +1,17 @@
 ---
 UID: NF:dvbsiparser.IDvbSiParser.GetTSDT
 title: IDvbSiParser::GetTSDT (dvbsiparser.h)
-
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\idvbsiparser_gettsdt.htm
 tech.root: mstv
 ms.assetid: 1aae16d0-6852-476b-85a6-6a994400b651
-
 ms.date: 12/05/2018
 ms.keywords: GetTSDT, GetTSDT method [Microsoft TV Technologies], GetTSDT method [Microsoft TV Technologies],IDvbSiParser interface, IDvbSiParser interface [Microsoft TV Technologies],GetTSDT method, IDvbSiParser.GetTSDT, IDvbSiParser::GetTSDT, IDvbSiParserGetTSDT, dvbsiparser/IDvbSiParser::GetTSDT, mstv.idvbsiparser_gettsdt
 ms.topic: method
-f1_keywords: 
- - "dvbsiparser/IDvbSiParser.GetTSDT"
+f1_keywords:
+- dvbsiparser/IDvbSiParser.GetTSDT
 dev_langs:
- - c++
+- c++
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dvbsiparser.h
+- dvbsiparser.h
 api_name:
- - IDvbSiParser.GetTSDT
+- IDvbSiParser.GetTSDT
 targetos: Windows
 req.typenames: 
 req.redist: 

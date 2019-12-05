@@ -1,19 +1,17 @@
 ---
 UID: NF:strsafe.StringCbCopyW
 title: StringCbCopyW function (strsafe.h)
-
 description: Copies one string to another.
 old-location: menurc\stringcbcopy.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\strings\stringreference\stringfunctions\stringcbcopy.htm
-
 ms.date: 12/05/2018
 ms.keywords: StringCbCopy, StringCbCopy function [Menus and Other Resources], StringCbCopyA, StringCbCopyW, _shell_StringCbCopy, _shell_stringcbcopy_cpp, menurc.stringcbcopy, strsafe/StringCbCopy, strsafe/StringCbCopyA, strsafe/StringCbCopyW, winui._shell_stringcbcopy
 ms.topic: function
-f1_keywords: 
- - "strsafe/StringCbCopy"
+f1_keywords:
+- strsafe/StringCbCopy
 dev_langs:
- - c++
+- c++
 req.header: strsafe.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Strsafe.h
+- Strsafe.h
 api_name:
- - StringCbCopy
- - StringCbCopyA
- - StringCbCopyW
+- StringCbCopy
+- StringCbCopyA
+- StringCbCopyW
 targetos: Windows
 req.typenames: 
 req.redist: 

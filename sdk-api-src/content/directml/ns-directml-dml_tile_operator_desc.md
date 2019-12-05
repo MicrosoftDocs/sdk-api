@@ -1,19 +1,17 @@
 ---
 UID: NS:directml.DML_TILE_OPERATOR_DESC
 title: DML_TILE_OPERATOR_DESC
-
 description: Describes a DirectML data reorganization operator that constructs an output tensor by tiling the input tensor.
 old-location: direct3d12\dml_tile_operator_desc.htm
 tech.root: direct3d12
 ms.assetid: 98D39D8F-4165-4642-B139-EE7417403FCA
-
 ms.date: 12/5/2018
 ms.keywords: DML_TILE_OPERATOR_DESC, DML_TILE_OPERATOR_DESC structure, direct3d12.dml_tile_operator_desc, directml/DML_TILE_OPERATOR_DESC
 ms.topic: struct
-f1_keywords: 
- - "directml/DML_TILE_OPERATOR_DESC"
+f1_keywords:
+- directml/DML_TILE_OPERATOR_DESC
 dev_langs:
- - c++
+- c++
 req.header: directml.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - DirectML.h
+- DirectML.h
 api_name:
- - DML_TILE_OPERATOR_DESC
+- DML_TILE_OPERATOR_DESC
 targetos: Windows
 req.typenames: 
 req.redist: 

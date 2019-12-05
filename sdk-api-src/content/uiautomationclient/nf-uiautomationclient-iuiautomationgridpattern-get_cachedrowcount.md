@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationGridPattern.get_CachedRowCount
 title: IUIAutomationGridPattern::get_CachedRowCount (uiautomationclient.h)
-
 description: Retrieves the cached number of rows in the grid.
 old-location: winauto\uiauto_IUIAutomationGridPattern_CachedRowCount.htm
 tech.root: WinAuto
 ms.assetid: 783e48e4-c554-4bc9-bf36-3fcc35d00d22
-
 ms.date: 12/05/2018
 ms.keywords: CachedRowCount property [Windows Accessibility], CachedRowCount property [Windows Accessibility],IUIAutomationGridPattern interface, IUIAutomationGridPattern interface [Windows Accessibility],CachedRowCount property, IUIAutomationGridPattern.CachedRowCount, IUIAutomationGridPattern.get_CachedRowCount, IUIAutomationGridPattern::CachedRowCount, IUIAutomationGridPattern::get_CachedRowCount, get_CachedRowCount, uiauto.uiauto_IUIAutomationGridPattern_CachedRowCount, uiauto_IUIAutomationGridPattern_CachedRowCount, uiautomationclient/IUIAutomationGridPattern::CachedRowCount, uiautomationclient/IUIAutomationGridPattern::get_CachedRowCount, winauto.uiauto_IUIAutomationGridPattern_CachedRowCount
 ms.topic: method
-f1_keywords: 
- - "uiautomationclient/IUIAutomationGridPattern.CachedRowCount"
+f1_keywords:
+- uiautomationclient/IUIAutomationGridPattern.CachedRowCount
 dev_langs:
- - c++
+- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationClient.h
+- UIAutomationClient.h
 api_name:
- - IUIAutomationGridPattern.CachedRowCount
- - IUIAutomationGridPattern.get_CachedRowCount
+- IUIAutomationGridPattern.CachedRowCount
+- IUIAutomationGridPattern.get_CachedRowCount
 targetos: Windows
 req.typenames: 
 req.redist: 

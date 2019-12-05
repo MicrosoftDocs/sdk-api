@@ -1,19 +1,17 @@
 ---
 UID: NF:credentialprovider.ICredentialProviderCredential2.GetUserSid
 title: ICredentialProviderCredential2::GetUserSid (credentialprovider.h)
-
 description: Retrieves the security identifier (SID) of the user that is associated with this credential.
 old-location: shell\ICredentialProviderCredential2_GetUserSid.htm
 tech.root: shell
 ms.assetid: 8BCB9019-40C0-4026-B3C9-ECA02B9AC871
-
 ms.date: 12/05/2018
 ms.keywords: GetUserSid, GetUserSid method [Windows Shell], GetUserSid method [Windows Shell],ICredentialProviderCredential2 interface, ICredentialProviderCredential2 interface [Windows Shell],GetUserSid method, ICredentialProviderCredential2.GetUserSid, ICredentialProviderCredential2::GetUserSid, credentialprovider/ICredentialProviderCredential2::GetUserSid, shell.ICredentialProviderCredential2_GetUserSid
 ms.topic: method
-f1_keywords: 
- - "credentialprovider/ICredentialProviderCredential2.GetUserSid"
+f1_keywords:
+- credentialprovider/ICredentialProviderCredential2.GetUserSid
 dev_langs:
- - c++
+- c++
 req.header: credentialprovider.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CredentialProvider.h
+- CredentialProvider.h
 api_name:
- - ICredentialProviderCredential2.GetUserSid
+- ICredentialProviderCredential2.GetUserSid
 targetos: Windows
 req.typenames: 
 req.redist: 

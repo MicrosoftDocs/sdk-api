@@ -1,19 +1,17 @@
 ---
 UID: NF:tspi.TSPI_lineSetStatusMessages
 title: TSPI_lineSetStatusMessages function (tspi.h)
-
 description: The TSPI_lineSetStatusMessages function enables TAPI to specify which notification messages the service provider should generate for events related to status changes for the specified line or any of its addresses.
 old-location: tspi\tspi_linesetstatusmessages.htm
 tech.root: Tapi
 ms.assetid: 546c4f6e-6bda-4b4b-91ed-51d0b64af677
-
 ms.date: 12/05/2018
 ms.keywords: TSPI_lineSetStatusMessages, TSPI_lineSetStatusMessages function [TAPI 2.2], _tspi_tspi_linesetstatusmessages, tspi.tspi_linesetstatusmessages, tspi/TSPI_lineSetStatusMessages
 ms.topic: function
-f1_keywords: 
- - "tspi/TSPI_lineSetStatusMessages"
+f1_keywords:
+- tspi/TSPI_lineSetStatusMessages
 dev_langs:
- - c++
+- c++
 req.header: tspi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Tspi.h
+- Tspi.h
 api_name:
- - TSPI_lineSetStatusMessages
+- TSPI_lineSetStatusMessages
 targetos: Windows
 req.typenames: 
 req.redist: 

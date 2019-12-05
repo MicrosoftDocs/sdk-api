@@ -1,19 +1,17 @@
 ---
 UID: NF:msrdc.IRdcFileReader.GetFilePosition
 title: IRdcFileReader::GetFilePosition (msrdc.h)
-
 description: Returns the current file position.
 old-location: rdc\irdcfilereader_getfileposition.htm
 tech.root: rdc
 ms.assetid: 3cef6883-29d2-4970-9a96-3500b58449d2
-
 ms.date: 12/05/2018
 ms.keywords: GetFilePosition, GetFilePosition method [Remote Differential Compression], GetFilePosition method [Remote Differential Compression],IRdcFileReader interface, IRdcFileReader interface [Remote Differential Compression],GetFilePosition method, IRdcFileReader.GetFilePosition, IRdcFileReader::GetFilePosition, fs.irdcfilereader_getfileposition, msrdc/IRdcFileReader::GetFilePosition, rdc.irdcfilereader_getfileposition
 ms.topic: method
-f1_keywords: 
- - "msrdc/IRdcFileReader.GetFilePosition"
+f1_keywords:
+- msrdc/IRdcFileReader.GetFilePosition
 dev_langs:
- - c++
+- c++
 req.header: msrdc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: MsRdc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - MsRdc.dll
+- MsRdc.dll
 api_name:
- - IRdcFileReader.GetFilePosition
+- IRdcFileReader.GetFilePosition
 targetos: Windows
 req.typenames: 
 req.redist: 

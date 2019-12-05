@@ -1,19 +1,17 @@
 ---
 UID: NS:mfplay.MFP_ACQUIRE_USER_CREDENTIAL_EVENT
 title: MFP_ACQUIRE_USER_CREDENTIAL_EVENT (mfplay.h)
-
 description: Event structure for the MFP_EVENT_TYPE_ACQUIRE_USER_CREDENTIAL event.
 old-location: mf\mfp_acquire_user_credential_event.htm
 tech.root: medfound
 ms.assetid: 61767b81-8641-43d5-b272-148d52517727
-
 ms.date: 12/05/2018
 ms.keywords: MFP_ACQUIRE_USER_CREDENTIAL_EVENT, MFP_ACQUIRE_USER_CREDENTIAL_EVENT structure [Media Foundation], mf.mfp_acquire_user_credential_event, mfplay/MFP_ACQUIRE_USER_CREDENTIAL_EVENT
 ms.topic: struct
-f1_keywords: 
- - "mfplay/MFP_ACQUIRE_USER_CREDENTIAL_EVENT"
+f1_keywords:
+- mfplay/MFP_ACQUIRE_USER_CREDENTIAL_EVENT
 dev_langs:
- - c++
+- c++
 req.header: mfplay.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - mfplay.h
+- mfplay.h
 api_name:
- - MFP_ACQUIRE_USER_CREDENTIAL_EVENT
+- MFP_ACQUIRE_USER_CREDENTIAL_EVENT
 targetos: Windows
 req.typenames: MFP_ACQUIRE_USER_CREDENTIAL_EVENT
 req.redist: 

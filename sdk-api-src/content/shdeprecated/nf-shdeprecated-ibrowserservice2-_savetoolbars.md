@@ -1,19 +1,17 @@
 ---
 UID: NF:shdeprecated.IBrowserService2._SaveToolbars
 title: IBrowserService2::_SaveToolbars (shdeprecated.h)
-
 description: Deprecated. Saves the state of browser toolbars.
 old-location: shell\IBrowserService2__SaveToolbars.htm
 tech.root: shell
 ms.assetid: 8d05ed3d-13a3-49a2-8248-9976bc492b0f
-
 ms.date: 12/05/2018
 ms.keywords: IBrowserService2 interface [Windows Shell],_SaveToolbars method, IBrowserService2._SaveToolbars, IBrowserService2::_SaveToolbars, _SaveToolbars, _SaveToolbars method [Windows Shell], _SaveToolbars method [Windows Shell],IBrowserService2 interface, shdeprecated/IBrowserService2::_SaveToolbars, shell.IBrowserService2__SaveToolbars, zone_IBrowserService2__SaveToolbars
 ms.topic: method
-f1_keywords: 
- - "shdeprecated/IBrowserService2._SaveToolbars"
+f1_keywords:
+- shdeprecated/IBrowserService2._SaveToolbars
 dev_langs:
- - c++
+- c++
 req.header: shdeprecated.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shdeprecated.h
+- Shdeprecated.h
 api_name:
- - IBrowserService2._SaveToolbars
+- IBrowserService2._SaveToolbars
 targetos: Windows
 req.typenames: 
 req.redist: 

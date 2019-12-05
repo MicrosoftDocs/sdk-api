@@ -1,19 +1,17 @@
 ---
 UID: NN:mfidl.IMFByteStreamCacheControl
 title: IMFByteStreamCacheControl (mfidl.h)
-
 description: Controls how a network byte stream transfers data to a local cache.
 old-location: mf\imfbytestreamcachecontrol.htm
 tech.root: medfound
 ms.assetid: e12a532a-4624-4e06-8e19-6e9daec550ac
-
 ms.date: 12/05/2018
 ms.keywords: IMFByteStreamCacheControl, IMFByteStreamCacheControl interface [Media Foundation], IMFByteStreamCacheControl interface [Media Foundation],described, mf.imfbytestreamcachecontrol, mfidl/IMFByteStreamCacheControl
 ms.topic: interface
-f1_keywords: 
- - "mfidl/IMFByteStreamCacheControl"
+f1_keywords:
+- mfidl/IMFByteStreamCacheControl
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfidl.h
+- mfidl.h
 api_name:
- - IMFByteStreamCacheControl
+- IMFByteStreamCacheControl
 targetos: Windows
 req.typenames: 
 req.redist: 

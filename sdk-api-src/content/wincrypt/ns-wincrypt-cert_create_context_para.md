@@ -1,19 +1,17 @@
 ---
 UID: NS:wincrypt._CERT_CREATE_CONTEXT_PARA
 title: CERT_CREATE_CONTEXT_PARA (wincrypt.h)
-
 description: Defines additional values that can be used when calling the CertCreateContext function.
 old-location: security\cert_create_context_para.htm
 tech.root: SecCrypto
 ms.assetid: 1486cb60-56f0-4ce4-b283-6f92dcbbea26
-
 ms.date: 12/05/2018
-ms.keywords: "*PCERT_CREATE_CONTEXT_PARA, CERT_CREATE_CONTEXT_PARA, CERT_CREATE_CONTEXT_PARA structure [Security], security.cert_create_context_para, wincrypt/CERT_CREATE_CONTEXT_PARA"
+ms.keywords: '*PCERT_CREATE_CONTEXT_PARA, CERT_CREATE_CONTEXT_PARA, CERT_CREATE_CONTEXT_PARA structure [Security], security.cert_create_context_para, wincrypt/CERT_CREATE_CONTEXT_PARA'
 ms.topic: struct
-f1_keywords: 
- - "wincrypt/CERT_CREATE_CONTEXT_PARA"
+f1_keywords:
+- wincrypt/CERT_CREATE_CONTEXT_PARA
 dev_langs:
- - c++
+- c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wincrypt.h
+- Wincrypt.h
 api_name:
- - CERT_CREATE_CONTEXT_PARA
+- CERT_CREATE_CONTEXT_PARA
 targetos: Windows
 req.typenames: CERT_CREATE_CONTEXT_PARA, *PCERT_CREATE_CONTEXT_PARA
 req.redist: 

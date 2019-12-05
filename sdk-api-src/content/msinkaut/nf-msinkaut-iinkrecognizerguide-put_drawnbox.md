@@ -1,19 +1,17 @@
 ---
 UID: NF:msinkaut.IInkRecognizerGuide.put_DrawnBox
 title: IInkRecognizerGuide::put_DrawnBox (msinkaut.h)
-
 description: Gets or sets the box that is physically drawn on the tablet's screen and in which writing takes place.
 old-location: tablet\inkrecognizerguide_drawnbox.htm
 tech.root: tablet
 ms.assetid: f99095e1-8e7f-47eb-9234-70f651ebf793
-
 ms.date: 12/05/2018
 ms.keywords: DrawnBox property [Tablet PC], DrawnBox property [Tablet PC],IInkRecognizerGuide interface, IInkRecognizerGuide interface [Tablet PC],DrawnBox property, IInkRecognizerGuide.DrawnBox, IInkRecognizerGuide.put_DrawnBox, IInkRecognizerGuide::DrawnBox, IInkRecognizerGuide::get_DrawnBox, IInkRecognizerGuide::put_DrawnBox, InkRecognizerGuide.get_DrawnBox, InkRecognizerGuide.put_DrawnBox, f99095e1-8e7f-47eb-9234-70f651ebf793, msinkaut/IInkRecognizerGuide::DrawnBox, msinkaut/IInkRecognizerGuide::get_DrawnBox, msinkaut/IInkRecognizerGuide::put_DrawnBox, put_DrawnBox, tablet.inkrecognizerguide_drawnbox
 ms.topic: method
-f1_keywords: 
- - "msinkaut/IInkRecognizerGuide.DrawnBox"
+f1_keywords:
+- msinkaut/IInkRecognizerGuide.DrawnBox
 dev_langs:
- - c++
+- c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows
@@ -32,19 +30,19 @@ req.lib: InkObj.dll
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - InkObj.dll
- - InkObj.dll.dll
+- InkObj.dll
+- InkObj.dll.dll
 api_name:
- - IInkRecognizerGuide.DrawnBox
- - IInkRecognizerGuide.get_DrawnBox
- - IInkRecognizerGuide.put_DrawnBox
- - InkRecognizerGuide.get_DrawnBox
- - InkRecognizerGuide.put_DrawnBox
+- IInkRecognizerGuide.DrawnBox
+- IInkRecognizerGuide.get_DrawnBox
+- IInkRecognizerGuide.put_DrawnBox
+- InkRecognizerGuide.get_DrawnBox
+- InkRecognizerGuide.put_DrawnBox
 targetos: Windows
 req.typenames: 
 req.redist: 

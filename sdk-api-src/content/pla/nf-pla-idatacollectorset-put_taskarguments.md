@@ -1,19 +1,17 @@
 ---
 UID: NF:pla.IDataCollectorSet.put_TaskArguments
 title: IDataCollectorSet::put_TaskArguments (pla.h)
-
 description: Retrieves or sets the command-line arguments to pass to the Task Scheduler job specified in the IDataCollectorSet::Task property.
 old-location: pla\idatacollectorset_get_taskarguments.htm
 tech.root: PLA
 ms.assetid: 7bd045df-379b-40fb-b309-cec531493018
-
 ms.date: 12/05/2018
 ms.keywords: IDataCollectorSet interface [PLA],TaskArguments property, IDataCollectorSet.TaskArguments, IDataCollectorSet.put_TaskArguments, IDataCollectorSet::TaskArguments, IDataCollectorSet::get_TaskArguments, IDataCollectorSet::put_TaskArguments, TaskArguments property [PLA], TaskArguments property [PLA],IDataCollectorSet interface, base.idatacollectorset_get_taskarguments, pla.idatacollectorset_get_taskarguments, pla/IDataCollectorSet::TaskArguments, pla/IDataCollectorSet::get_TaskArguments, pla/IDataCollectorSet::put_TaskArguments, put_TaskArguments
 ms.topic: method
-f1_keywords: 
- - "pla/IDataCollectorSet.TaskArguments"
+f1_keywords:
+- pla/IDataCollectorSet.TaskArguments
 dev_langs:
- - c++
+- c++
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: Pla.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Pla.dll
+- Pla.dll
 api_name:
- - IDataCollectorSet.TaskArguments
- - IDataCollectorSet.get_TaskArguments
- - IDataCollectorSet.put_TaskArguments
+- IDataCollectorSet.TaskArguments
+- IDataCollectorSet.get_TaskArguments
+- IDataCollectorSet.put_TaskArguments
 targetos: Windows
 req.typenames: 
 req.redist: 

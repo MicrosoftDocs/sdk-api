@@ -1,19 +1,17 @@
 ---
 UID: NS:wmsdkidl._WMAddressAccessEntry
 title: WM_ADDRESS_ACCESSENTRY (wmsdkidl.h)
-
 description: The WM_ADDRESS_ACCESSENTRY structure specifies an entry in an IP address access list.
 old-location: wmformat\wm_address_accessentry.htm
 tech.root: wmformat
 ms.assetid: 670c126f-c94b-4fac-b18c-d764f048f401
-
 ms.date: 12/05/2018
 ms.keywords: WM_ADDRESS_ACCESSENTRY, WM_ADDRESS_ACCESSENTRY structure [windows Media Format], wmformat.wm_address_accessentry, wmsdkidl/WM_ADDRESS_ACCESSENTRY
 ms.topic: struct
-f1_keywords: 
- - "wmsdkidl/WM_ADDRESS_ACCESSENTRY"
+f1_keywords:
+- wmsdkidl/WM_ADDRESS_ACCESSENTRY
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wmsdkidl.h
+- Wmsdkidl.h
 api_name:
- - WM_ADDRESS_ACCESSENTRY
+- WM_ADDRESS_ACCESSENTRY
 targetos: Windows
 req.typenames: WM_ADDRESS_ACCESSENTRY
 req.redist: 

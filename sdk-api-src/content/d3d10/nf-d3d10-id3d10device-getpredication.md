@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d10.ID3D10Device.GetPredication
 title: ID3D10Device::GetPredication (d3d10.h)
-
 description: Get the rendering predicate state.
 old-location: direct3d10\id3d10device_getpredication.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10device_getpredication.htm
-
 ms.date: 12/05/2018
 ms.keywords: 7e48b41e-557d-8a50-cf4b-b3309c77e0af, GetPredication, GetPredication method [Direct3D 10], GetPredication method [Direct3D 10],ID3D10Device interface, ID3D10Device interface [Direct3D 10],GetPredication method, ID3D10Device.GetPredication, ID3D10Device::GetPredication, d3d10/ID3D10Device::GetPredication, direct3d10.id3d10device_getpredication
 ms.topic: method
-f1_keywords: 
- - "d3d10/ID3D10Device.GetPredication"
+f1_keywords:
+- d3d10/ID3D10Device.GetPredication
 dev_langs:
- - c++
+- c++
 req.header: d3d10.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: D3D10.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D10.lib
- - D3D10.dll
+- D3D10.lib
+- D3D10.dll
 api_name:
- - ID3D10Device.GetPredication
+- ID3D10Device.GetPredication
 targetos: Windows
 req.typenames: 
 req.redist: 

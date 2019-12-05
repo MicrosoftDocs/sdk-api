@@ -1,19 +1,17 @@
 ---
 UID: NF:d2d1_3.ID2D1SvgGlyphStyle.GetStrokeDashesCount
 title: ID2D1SvgGlyphStyle::GetStrokeDashesCount (d2d1_3.h)
-
 description: Returns the number of dashes in the dash array.
 old-location: direct2d\id2d1svgglyphstyle_getstrokedashescount.htm
 tech.root: Direct2D
 ms.assetid: 99CCB20B-B7E2-4D53-BB0C-A1996874F0B2
-
 ms.date: 12/05/2018
 ms.keywords: GetStrokeDashesCount, GetStrokeDashesCount method [Direct2D], GetStrokeDashesCount method [Direct2D],ID2D1SvgGlyphStyle interface, ID2D1SvgGlyphStyle interface [Direct2D],GetStrokeDashesCount method, ID2D1SvgGlyphStyle.GetStrokeDashesCount, ID2D1SvgGlyphStyle::GetStrokeDashesCount, d2d1_3/ID2D1SvgGlyphStyle::GetStrokeDashesCount, direct2d.id2d1svgglyphstyle_getstrokedashescount
 ms.topic: method
-f1_keywords: 
- - "d2d1_3/ID2D1SvgGlyphStyle.GetStrokeDashesCount"
+f1_keywords:
+- d2d1_3/ID2D1SvgGlyphStyle.GetStrokeDashesCount
 dev_langs:
- - c++
+- c++
 req.header: d2d1_3.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: D2d1.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D2d1.dll
+- D2d1.dll
 api_name:
- - ID2D1SvgGlyphStyle.GetStrokeDashesCount
+- ID2D1SvgGlyphStyle.GetStrokeDashesCount
 targetos: Windows
 req.typenames: 
 req.redist: 

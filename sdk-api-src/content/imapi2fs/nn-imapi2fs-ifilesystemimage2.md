@@ -1,19 +1,17 @@
 ---
 UID: NN:imapi2fs.IFileSystemImage2
 title: IFileSystemImage2 (imapi2fs.h)
-
 description: Use this interface to write multiple boot entries or boot images required for the EFI/UEFI support. For example, boot media with boot straps for both Windows XP and Windows Vista.
 old-location: imapi\ifilesystemimage2.htm
 tech.root: imapi
 ms.assetid: c38995b7-6f32-4489-bb6c-0e3561b11f81
-
 ms.date: 12/05/2018
 ms.keywords: IFileSystemImage2, IFileSystemImage2 interface [IMAPI], IFileSystemImage2 interface [IMAPI],described, imapi.ifilesystemimage2, imapi2fs/IFileSystemImage2
 ms.topic: interface
-f1_keywords: 
- - "imapi2fs/IFileSystemImage2"
+f1_keywords:
+- imapi2fs/IFileSystemImage2
 dev_langs:
- - c++
+- c++
 req.header: imapi2fs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - imapi2fs.h
+- imapi2fs.h
 api_name:
- - IFileSystemImage2
+- IFileSystemImage2
 targetos: Windows
 req.typenames: 
 req.redist: 

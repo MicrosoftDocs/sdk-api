@@ -1,19 +1,17 @@
 ---
 UID: NF:certenroll.IX509Extensions.get_IndexByObjectId
 title: IX509Extensions::get_IndexByObjectId (certenroll.h)
-
 description: Retrieves the index of an extension in the collection by object identifier (OID).
 old-location: security\ix509extensions_indexbyobjectid_property.htm
 tech.root: seccertenroll
 ms.assetid: 1048c1d8-11f9-4a44-a492-0518cb1782c6
-
 ms.date: 12/05/2018
 ms.keywords: IX509Extensions interface [Security],IndexByObjectId property, IX509Extensions.IndexByObjectId, IX509Extensions.get_IndexByObjectId, IX509Extensions::IndexByObjectId, IX509Extensions::get_IndexByObjectId, IndexByObjectId property [Security], IndexByObjectId property [Security],IX509Extensions interface, certenroll/IX509Extensions::IndexByObjectId, certenroll/IX509Extensions::get_IndexByObjectId, get_IndexByObjectId, security.ix509extensions_indexbyobjectid_property
 ms.topic: method
-f1_keywords: 
- - "certenroll/IX509Extensions.IndexByObjectId"
+f1_keywords:
+- certenroll/IX509Extensions.IndexByObjectId
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: CertEnroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CertEnroll.dll
+- CertEnroll.dll
 api_name:
- - IX509Extensions.IndexByObjectId
- - IX509Extensions.get_IndexByObjectId
+- IX509Extensions.IndexByObjectId
+- IX509Extensions.get_IndexByObjectId
 targetos: Windows
 req.typenames: 
 req.redist: 

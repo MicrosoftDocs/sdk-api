@@ -1,19 +1,17 @@
 ---
 UID: NF:certadm.IOCSPCAConfiguration.put_LocalRevocationInformation
 title: IOCSPCAConfiguration::put_LocalRevocationInformation (certadm.h)
-
 description: Gets or sets the certificate revocation list (CRL) of the local machine.
 old-location: security\iocspcaconfiguration_localrevocationinformation.htm
 tech.root: SecCrypto
 ms.assetid: 76581c1c-9eba-456c-b1cb-ff61e530a53a
-
 ms.date: 12/05/2018
 ms.keywords: IOCSPCAConfiguration interface [Security],LocalRevocationInformation property, IOCSPCAConfiguration.LocalRevocationInformation, IOCSPCAConfiguration.put_LocalRevocationInformation, IOCSPCAConfiguration::LocalRevocationInformation, IOCSPCAConfiguration::get_LocalRevocationInformation, IOCSPCAConfiguration::put_LocalRevocationInformation, LocalRevocationInformation property [Security], LocalRevocationInformation property [Security],IOCSPCAConfiguration interface, certadm/IOCSPCAConfiguration::LocalRevocationInformation, certadm/IOCSPCAConfiguration::get_LocalRevocationInformation, certadm/IOCSPCAConfiguration::put_LocalRevocationInformation, put_LocalRevocationInformation, security.iocspcaconfiguration_localrevocationinformation
 ms.topic: method
-f1_keywords: 
- - "certadm/IOCSPCAConfiguration.LocalRevocationInformation"
+f1_keywords:
+- certadm/IOCSPCAConfiguration.LocalRevocationInformation
 dev_langs:
- - c++
+- c++
 req.header: certadm.h
 req.include-header: Certserv.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Certadm.lib
 req.dll: Certadm.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Certadm.dll
+- Certadm.dll
 api_name:
- - IOCSPCAConfiguration.LocalRevocationInformation
- - IOCSPCAConfiguration.get_LocalRevocationInformation
- - IOCSPCAConfiguration.put_LocalRevocationInformation
+- IOCSPCAConfiguration.LocalRevocationInformation
+- IOCSPCAConfiguration.get_LocalRevocationInformation
+- IOCSPCAConfiguration.put_LocalRevocationInformation
 targetos: Windows
 req.typenames: 
 req.redist: 

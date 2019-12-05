@@ -1,19 +1,17 @@
 ---
 UID: NF:wuapi.IUpdateServiceManager.RegisterServiceWithAU
 title: IUpdateServiceManager::RegisterServiceWithAU (wuapi.h)
-
 description: Registers a service with Automatic Updates.
 old-location: wua\iupdateservicemanager_registerservicewithau.htm
 tech.root: Wua_Sdk
 ms.assetid: ea54d96a-9ffb-4abd-a032-4dfcc7ba6403
-
 ms.date: 12/05/2018
 ms.keywords: IUpdateServiceManager interface [Windows Update Agent],RegisterServiceWithAU method, IUpdateServiceManager.RegisterServiceWithAU, IUpdateServiceManager::RegisterServiceWithAU, RegisterServiceWithAU, RegisterServiceWithAU method [Windows Update Agent], RegisterServiceWithAU method [Windows Update Agent],IUpdateServiceManager interface, wua.iupdateservicemanager_registerservicewithau, wuapi/IUpdateServiceManager::RegisterServiceWithAU
 ms.topic: method
-f1_keywords: 
- - "wuapi/IUpdateServiceManager.RegisterServiceWithAU"
+f1_keywords:
+- wuapi/IUpdateServiceManager.RegisterServiceWithAU
 dev_langs:
- - c++
+- c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Wuguid.lib
 req.dll: Wuapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wuapi.dll
+- Wuapi.dll
 api_name:
- - IUpdateServiceManager.RegisterServiceWithAU
+- IUpdateServiceManager.RegisterServiceWithAU
 targetos: Windows
 req.typenames: 
 req.redist: 

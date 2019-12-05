@@ -1,19 +1,17 @@
 ---
 UID: NF:msinkaut.IInkDisp.AddStrokesAtRectangle
 title: IInkDisp::AddStrokesAtRectangle (msinkaut.h)
-
 description: Adds a specified Strokes collection into this InkDisp object at a specified rectangle.
 old-location: tablet\inkdisp_addstrokesatrectangle.htm
 tech.root: tablet
 ms.assetid: c5a7cbbc-361c-4e99-af31-f7114eb5261b
-
 ms.date: 12/05/2018
 ms.keywords: AddStrokesAtRectangle, AddStrokesAtRectangle method [Tablet PC], AddStrokesAtRectangle method [Tablet PC],IInkDisp interface, IInkDisp interface [Tablet PC],AddStrokesAtRectangle method, IInkDisp.AddStrokesAtRectangle, IInkDisp::AddStrokesAtRectangle, c5a7cbbc-361c-4e99-af31-f7114eb5261b, msinkaut/IInkDisp::AddStrokesAtRectangle, tablet.inkdisp_addstrokesatrectangle
 ms.topic: method
-f1_keywords: 
- - "msinkaut/IInkDisp.AddStrokesAtRectangle"
+f1_keywords:
+- msinkaut/IInkDisp.AddStrokesAtRectangle
 dev_langs:
- - c++
+- c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: InkObj.dll
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - InkObj.dll
- - InkObj.dll.dll
+- InkObj.dll
+- InkObj.dll.dll
 api_name:
- - IInkDisp.AddStrokesAtRectangle
+- IInkDisp.AddStrokesAtRectangle
 targetos: Windows
 req.typenames: 
 req.redist: 

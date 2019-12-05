@@ -1,19 +1,17 @@
 ---
 UID: NS:winscard.__unnamed_struct_5
 title: OPENCARDNAME_EXW (winscard.h)
-
 description: The OPENCARDNAME_EX structure contains the information that the SCardUIDlgSelectCard function uses to initialize a smart card Select Card dialog box.
 old-location: security\opencardname_ex.htm
 tech.root: SecAuthN
 ms.assetid: fb9e64a9-441a-4c7b-b404-79682778c694
-
 ms.date: 12/05/2018
-ms.keywords: "*LPOPENCARDNAME_EXW, *POPENCARDNAME_EXW, LPOPENCARDNAME_EX, LPOPENCARDNAME_EX structure pointer [Security], OPENCARDNAME_EX, OPENCARDNAME_EX structure [Security], OPENCARDNAME_EXA, OPENCARDNAME_EXW, POPENCARDNAME_EX, POPENCARDNAME_EX structure pointer [Security], SC_DLG_FORCE_UI, SC_DLG_MINIMAL_UI, SC_DLG_NO_UI, _smart_opencardname_ex, security.opencardname_ex, winscard/LPOPENCARDNAME_EX, winscard/OPENCARDNAME_EX, winscard/OPENCARDNAME_EXA, winscard/OPENCARDNAME_EXW, winscard/POPENCARDNAME_EX"
+ms.keywords: '*LPOPENCARDNAME_EXW, *POPENCARDNAME_EXW, LPOPENCARDNAME_EX, LPOPENCARDNAME_EX structure pointer [Security], OPENCARDNAME_EX, OPENCARDNAME_EX structure [Security], OPENCARDNAME_EXA, OPENCARDNAME_EXW, POPENCARDNAME_EX, POPENCARDNAME_EX structure pointer [Security], SC_DLG_FORCE_UI, SC_DLG_MINIMAL_UI, SC_DLG_NO_UI, _smart_opencardname_ex, security.opencardname_ex, winscard/LPOPENCARDNAME_EX, winscard/OPENCARDNAME_EX, winscard/OPENCARDNAME_EXA, winscard/OPENCARDNAME_EXW, winscard/POPENCARDNAME_EX'
 ms.topic: struct
-f1_keywords: 
- - "winscard/OPENCARDNAME_EX"
+f1_keywords:
+- winscard/OPENCARDNAME_EX
 dev_langs:
- - c++
+- c++
 req.header: winscard.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Winscard.h
+- Winscard.h
 api_name:
- - OPENCARDNAME_EX
- - OPENCARDNAME_EXA
- - OPENCARDNAME_EXW
+- OPENCARDNAME_EX
+- OPENCARDNAME_EXA
+- OPENCARDNAME_EXW
 targetos: Windows
 req.typenames: OPENCARDNAME_EXW, *POPENCARDNAME_EXW, *LPOPENCARDNAME_EXW
 req.redist: 

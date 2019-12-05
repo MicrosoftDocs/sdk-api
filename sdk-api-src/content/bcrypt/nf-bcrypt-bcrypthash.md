@@ -1,19 +1,17 @@
 ---
 UID: NF:bcrypt.BCryptHash
 title: BCryptHash function (bcrypt.h)
-
 description: Performs a single hash computation. This is a convenience function that wraps calls to BCryptCreateHash, BCryptHashData, BCryptFinishHash, and BCryptDestroyHash.
 old-location: security\bcrypthash.htm
 tech.root: SecCNG
 ms.assetid: F0FF9B6D-1345-480A-BE13-BE90547407BF
-
 ms.date: 12/05/2018
 ms.keywords: BCryptHash, BCryptHash function [Security], bcrypt/BCryptHash, security.bcrypthash
 ms.topic: function
-f1_keywords: 
- - "bcrypt/BCryptHash"
+f1_keywords:
+- bcrypt/BCryptHash
 dev_langs:
- - c++
+- c++
 req.header: bcrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Bcrypt.lib
 req.dll: Bcrypt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - bcrypt.dll
+- bcrypt.dll
 api_name:
- - BCryptHash
+- BCryptHash
 targetos: Windows
 req.typenames: 
 req.redist: 

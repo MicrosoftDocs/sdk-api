@@ -1,19 +1,17 @@
 ---
 UID: NF:wmsdkidl.IWMWriter.GetInputFormat
 title: IWMWriter::GetInputFormat (wmsdkidl.h)
-
 description: The GetInputFormat method retrieves possible media formats for the specified input.
 old-location: wmformat\iwmwriter_getinputformat.htm
 tech.root: wmformat
 ms.assetid: c058de81-a29a-4bcd-a819-3cdef11cae9f
-
 ms.date: 12/05/2018
 ms.keywords: GetInputFormat, GetInputFormat method [windows Media Format], GetInputFormat method [windows Media Format],IWMWriter interface, IWMWriter interface [windows Media Format],GetInputFormat method, IWMWriter.GetInputFormat, IWMWriter::GetInputFormat, IWMWriterGetInputFormat, wmformat.iwmwriter_getinputformat, wmsdkidl/IWMWriter::GetInputFormat
 ms.topic: method
-f1_keywords: 
- - "wmsdkidl/IWMWriter.GetInputFormat"
+f1_keywords:
+- wmsdkidl/IWMWriter.GetInputFormat
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wmvcore.lib
- - Wmvcore.dll
- - WMStubDRM.lib
- - WMStubDRM.dll
+- Wmvcore.lib
+- Wmvcore.dll
+- WMStubDRM.lib
+- WMStubDRM.dll
 api_name:
- - IWMWriter.GetInputFormat
+- IWMWriter.GetInputFormat
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NE:mfobjects.__MIDL___MIDL_itf_mfobjects_0000_0017_0002
 title: MF_FILE_OPENMODE (mfobjects.h)
-
 description: Specifies how to open or create a file.
 old-location: mf\mf_file_openmode.htm
 tech.root: medfound
 ms.assetid: 0c0e94fa-cbcc-4abc-9020-af6d36a4d3b6
-
 ms.date: 12/05/2018
 ms.keywords: 0c0e94fa-cbcc-4abc-9020-af6d36a4d3b6, MF_FILE_OPENMODE, MF_FILE_OPENMODE enumeration [Media Foundation], MF_OPENMODE_APPEND_IF_EXIST, MF_OPENMODE_DELETE_IF_EXIST, MF_OPENMODE_FAIL_IF_EXIST, MF_OPENMODE_FAIL_IF_NOT_EXIST, MF_OPENMODE_RESET_IF_EXIST, __MIDL___MIDL_itf_mfobjects_0000_0017_0002, mf.mf_file_openmode, mfobjects/MF_FILE_OPENMODE, mfobjects/MF_OPENMODE_APPEND_IF_EXIST, mfobjects/MF_OPENMODE_DELETE_IF_EXIST, mfobjects/MF_OPENMODE_FAIL_IF_EXIST, mfobjects/MF_OPENMODE_FAIL_IF_NOT_EXIST, mfobjects/MF_OPENMODE_RESET_IF_EXIST
 ms.topic: enum
-f1_keywords: 
- - "mfobjects/MF_FILE_OPENMODE"
+f1_keywords:
+- mfobjects/MF_FILE_OPENMODE
 dev_langs:
- - c++
+- c++
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - mfobjects.h
+- mfobjects.h
 api_name:
- - MF_FILE_OPENMODE
+- MF_FILE_OPENMODE
 targetos: Windows
 req.typenames: MF_FILE_OPENMODE
 req.redist: 

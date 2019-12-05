@@ -1,19 +1,17 @@
 ---
 UID: NF:manipulations.IInertiaProcessor.put_DesiredExpansionDeceleration
 title: IInertiaProcessor::put_DesiredExpansionDeceleration (manipulations.h)
-
 description: The DesiredExpansionDeceleration property specifies the rate at which the object will stop expanding.
 old-location: wintouch\iinertiaprocessor_desiredexpansiondeceleration.htm
 tech.root: wintouch
 ms.assetid: b21d9aa8-0c86-45fe-9573-023929cf7faa
-
 ms.date: 12/05/2018
 ms.keywords: DesiredExpansionDeceleration property [Windows Touch], DesiredExpansionDeceleration property [Windows Touch],IInertiaProcessor interface, IInertiaProcessor interface [Windows Touch],DesiredExpansionDeceleration property, IInertiaProcessor.DesiredExpansionDeceleration, IInertiaProcessor.put_DesiredExpansionDeceleration, IInertiaProcessor::DesiredExpansionDeceleration, IInertiaProcessor::get_DesiredExpansionDeceleration, IInertiaProcessor::put_DesiredExpansionDeceleration, manipulations/IInertiaProcessor::DesiredExpansionDeceleration, manipulations/IInertiaProcessor::get_DesiredExpansionDeceleration, manipulations/IInertiaProcessor::put_DesiredExpansionDeceleration, put_DesiredExpansionDeceleration, wintouch.iinertiaprocessor_desiredexpansiondeceleration
 ms.topic: method
-f1_keywords: 
- - "manipulations/IInertiaProcessor.DesiredExpansionDeceleration"
+f1_keywords:
+- manipulations/IInertiaProcessor.DesiredExpansionDeceleration
 dev_langs:
- - c++
+- c++
 req.header: manipulations.h
 req.include-header: Manipulations.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - manipulations.h
+- manipulations.h
 api_name:
- - IInertiaProcessor.DesiredExpansionDeceleration
- - IInertiaProcessor.get_DesiredExpansionDeceleration
- - IInertiaProcessor.put_DesiredExpansionDeceleration
+- IInertiaProcessor.DesiredExpansionDeceleration
+- IInertiaProcessor.get_DesiredExpansionDeceleration
+- IInertiaProcessor.put_DesiredExpansionDeceleration
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:intsafe.UIntAdd
 title: UIntAdd function (intsafe.h)
-
 description: Adds two values of type UINT.
 old-location: shell\UIntAdd.htm
 tech.root: shell
 ms.assetid: 387d53e8-3e52-470f-bfd2-ad2b1e0a3d5a
-
 ms.date: 12/05/2018
 ms.keywords: UIntAdd, UIntAdd function [Windows Shell], _shell_UIntAdd, intsafe/UIntAdd, shell.UIntAdd
 ms.topic: function
-f1_keywords: 
- - "intsafe/UIntAdd"
+f1_keywords:
+- intsafe/UIntAdd
 dev_langs:
- - c++
+- c++
 req.header: intsafe.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Intsafe.h
+- Intsafe.h
 api_name:
- - UIntAdd
+- UIntAdd
 targetos: Windows
 req.typenames: 
 req.redist: 

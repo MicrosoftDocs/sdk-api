@@ -1,19 +1,17 @@
 ---
 UID: NF:fwpmu.IPsecDospSetSecurityInfo0
 title: IPsecDospSetSecurityInfo0 function (fwpmu.h)
-
 description: The IPsecDospSetSecurityInfo0 function sets specified security information in the security descriptor of the IPsec DoS Protection database.
 old-location: fwp\ipsecdospsetsecurityinfo0.htm
 tech.root: fwp
 ms.assetid: 46d18b8b-c688-4a41-841e-d952e9b07cf7
-
 ms.date: 12/05/2018
 ms.keywords: IPsecDospSetSecurityInfo0, IPsecDospSetSecurityInfo0 function [Filtering], fwp.ipsecdospsetsecurityinfo0, fwpmu/IPsecDospSetSecurityInfo0
 ms.topic: function
 f1_keywords:
 - fwpmu/IPsecDospSetSecurityInfo0
 dev_langs:
- - c++
+- c++
 req.header: fwpmu.h
 req.include-header: 
 req.target-type: Windows

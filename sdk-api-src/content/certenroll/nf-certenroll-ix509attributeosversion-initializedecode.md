@@ -1,19 +1,17 @@
 ---
 UID: NF:certenroll.IX509AttributeOSVersion.InitializeDecode
 title: IX509AttributeOSVersion::InitializeDecode (certenroll.h)
-
 description: Initializes the object from a Distinguished Encoding Rules (DER) encoded byte array that contains the operating system version information.
 old-location: security\ix509attributeosversioner_initializedecode_method.htm
 tech.root: seccertenroll
 ms.assetid: 2f13002f-bdaa-4c82-859a-da932615dd81
-
 ms.date: 12/05/2018
 ms.keywords: IX509AttributeOSVersion interface [Security],InitializeDecode method, IX509AttributeOSVersion.InitializeDecode, IX509AttributeOSVersion::InitializeDecode, InitializeDecode, InitializeDecode method [Security], InitializeDecode method [Security],IX509AttributeOSVersion interface, certenroll/IX509AttributeOSVersion::InitializeDecode, security.ix509attributeosversioner_initializedecode_method
 ms.topic: method
-f1_keywords: 
- - "certenroll/IX509AttributeOSVersion.InitializeDecode"
+f1_keywords:
+- certenroll/IX509AttributeOSVersion.InitializeDecode
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: CertEnroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CertEnroll.dll
+- CertEnroll.dll
 api_name:
- - IX509AttributeOSVersion.InitializeDecode
+- IX509AttributeOSVersion.InitializeDecode
 targetos: Windows
 req.typenames: 
 req.redist: 

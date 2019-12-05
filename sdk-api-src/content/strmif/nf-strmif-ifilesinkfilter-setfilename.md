@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IFileSinkFilter.SetFileName
 title: IFileSinkFilter::SetFileName (strmif.h)
-
 description: The SetFileName method sets the name of the file into which media samples will be written.
 old-location: dshow\ifilesinkfilter_setfilename.htm
 tech.root: DirectShow
 ms.assetid: d202be46-0a7a-4097-adf6-6ec9c6274449
-
 ms.date: 12/05/2018
 ms.keywords: IFileSinkFilter interface [DirectShow],SetFileName method, IFileSinkFilter.SetFileName, IFileSinkFilter2 interface [DirectShow],SetFileName method, IFileSinkFilter2::SetFileName, IFileSinkFilter::SetFileName, IFileSinkFilterSetFileName, SetFileName, SetFileName method [DirectShow], SetFileName method [DirectShow],IFileSinkFilter interface, SetFileName method [DirectShow],IFileSinkFilter2 interface, dshow.ifilesinkfilter_setfilename, strmif/IFileSinkFilter2::SetFileName, strmif/IFileSinkFilter::SetFileName
 ms.topic: method
-f1_keywords: 
- - "strmif/IFileSinkFilter.SetFileName"
+f1_keywords:
+- strmif/IFileSinkFilter.SetFileName
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IFileSinkFilter.SetFileName
- - IFileSinkFilter2.SetFileName
+- IFileSinkFilter.SetFileName
+- IFileSinkFilter2.SetFileName
 targetos: Windows
 req.typenames: 
 req.redist: 

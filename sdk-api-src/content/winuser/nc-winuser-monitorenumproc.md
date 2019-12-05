@@ -1,19 +1,17 @@
 ---
 UID: NC:winuser.MONITORENUMPROC
 title: MONITORENUMPROC (winuser.h)
-
 description: A MonitorEnumProc function is an application-defined callback function that is called by the EnumDisplayMonitors function.
 old-location: gdi\monitorenumproc.htm
 tech.root: gdi
 ms.assetid: 2d69e363-2b2c-450f-9069-488b80991217
-
 ms.date: 12/05/2018
 ms.keywords: MonitorEnumProc, MonitorEnumProc callback, MonitorEnumProc callback function [Windows GDI], _win32_MonitorEnumProc, gdi.monitorenumproc, winuser/MonitorEnumProc
 ms.topic: callback
-f1_keywords: 
- - "winuser/MonitorEnumProc"
+f1_keywords:
+- winuser/MonitorEnumProc
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Winuser.h
+- Winuser.h
 api_name:
- - MonitorEnumProc
+- MonitorEnumProc
 targetos: Windows
 req.typenames: 
 req.redist: 

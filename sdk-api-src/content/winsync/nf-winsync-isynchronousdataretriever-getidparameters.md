@@ -1,19 +1,17 @@
 ---
 UID: NF:winsync.ISynchronousDataRetriever.GetIdParameters
 title: ISynchronousDataRetriever::GetIdParameters (winsync.h)
-
 description: Gets the ID format schema of the provider.
 old-location: winsync\isynchronousdataretriever_getidparameters.htm
 tech.root: winsync
 ms.assetid: 98273eec-93fd-44ae-a1c9-cf85790dfc1d
-
 ms.date: 12/05/2018
 ms.keywords: GetIdParameters, GetIdParameters method [Windows Sync], GetIdParameters method [Windows Sync],ISynchronousDataRetriever interface, ISynchronousDataRetriever interface [Windows Sync],GetIdParameters method, ISynchronousDataRetriever.GetIdParameters, ISynchronousDataRetriever::GetIdParameters, winsync.isynchronousdataretriever_getidparameters, winsync/ISynchronousDataRetriever::GetIdParameters
 ms.topic: method
-f1_keywords: 
- - "winsync/ISynchronousDataRetriever.GetIdParameters"
+f1_keywords:
+- winsync/ISynchronousDataRetriever.GetIdParameters
 dev_langs:
- - c++
+- c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - winsync.h
+- winsync.h
 api_name:
- - ISynchronousDataRetriever.GetIdParameters
+- ISynchronousDataRetriever.GetIdParameters
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:sbe.IStreamBufferRecordingAttribute.GetAttributeByName
 title: IStreamBufferRecordingAttribute::GetAttributeByName (sbe.h)
-
 description: The GetAttributeByName method retrieves an attribute, specified by name.
 old-location: mstv\istreambufferrecordingattribute_getattributebyname.htm
 tech.root: mstv
 ms.assetid: f1191074-4ded-4e64-9c30-8e4d01390732
-
 ms.date: 12/05/2018
 ms.keywords: GetAttributeByName, GetAttributeByName method [Microsoft TV Technologies], GetAttributeByName method [Microsoft TV Technologies],IStreamBufferRecordingAttribute interface, IStreamBufferRecordingAttribute interface [Microsoft TV Technologies],GetAttributeByName method, IStreamBufferRecordingAttribute.GetAttributeByName, IStreamBufferRecordingAttribute::GetAttributeByName, IStreamBufferRecordingAttributeGetAttributeByName, mstv.istreambufferrecordingattribute_getattributebyname, sbe/IStreamBufferRecordingAttribute::GetAttributeByName
 ms.topic: method
-f1_keywords: 
- - "sbe/IStreamBufferRecordingAttribute.GetAttributeByName"
+f1_keywords:
+- sbe/IStreamBufferRecordingAttribute.GetAttributeByName
 dev_langs:
- - c++
+- c++
 req.header: sbe.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Sbe.h
+- Sbe.h
 api_name:
- - IStreamBufferRecordingAttribute.GetAttributeByName
+- IStreamBufferRecordingAttribute.GetAttributeByName
 targetos: Windows
 req.typenames: 
 req.redist: 

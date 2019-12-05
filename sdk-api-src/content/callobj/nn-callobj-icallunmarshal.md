@@ -1,19 +1,17 @@
 ---
 UID: NN:callobj.ICallUnmarshal
 title: ICallUnmarshal (callobj.h)
-
 description: Is used on the server (receiving) side of a remote invocation.
 old-location: com\icallunmarshal.htm
 tech.root: com
 ms.assetid: 66de8d71-c27c-41bd-a741-02de5c779290
-
 ms.date: 12/05/2018
 ms.keywords: ICallUnmarshal, ICallUnmarshal interface [COM], ICallUnmarshal interface [COM],described, _com_icallunmarshal_interface, callobj/ICallUnmarshal, com.icallunmarshal
 ms.topic: interface
-f1_keywords: 
- - "callobj/ICallUnmarshal"
+f1_keywords:
+- callobj/ICallUnmarshal
 dev_langs:
- - c++
+- c++
 req.header: callobj.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Callobj.h
+- Callobj.h
 api_name:
- - ICallUnmarshal
+- ICallUnmarshal
 targetos: Windows
 req.typenames: 
 req.redist: 

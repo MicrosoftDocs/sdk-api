@@ -1,19 +1,17 @@
 ---
 UID: NC:dpa_dsa.PFNDACOMPARECONST
 title: PFNDACOMPARECONST (dpa_dsa.h)
-
 description: Defines the prototype for the compare function used by DSA_Sort when the items being compared are constant objects.
 old-location: controls\PFNDACOMPARECONST.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\common\functions\pfndacompareconst.htm
-
 ms.date: 12/05/2018
 ms.keywords: PFNDACOMPARECONST, PFNDACOMPARECONST callback, PFNDACOMPARECONST callback function [Windows Controls], PFNDPACOMPARECONST, PFNDSACOMPARECONST, _shell_PFNDACOMPARECONST, _shell_PFNDACOMPARECONST_cpp, controls.PFNDACOMPARECONST, controls._shell_PFNDACOMPARECONST, dpa_dsa/PFNDACOMPARECONST
 ms.topic: callback
-f1_keywords: 
- - "dpa_dsa/PFNDACOMPARECONST"
+f1_keywords:
+- dpa_dsa/PFNDACOMPARECONST
 dev_langs:
- - c++
+- c++
 req.header: dpa_dsa.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - dpa_dsa.h
+- dpa_dsa.h
 api_name:
- - PFNDACOMPARECONST
+- PFNDACOMPARECONST
 targetos: Windows
 req.typenames: 
 req.redist: 

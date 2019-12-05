@@ -1,19 +1,17 @@
 ---
 UID: NF:shlobj.SHCreatePropSheetExtArray
 title: SHCreatePropSheetExtArray function (shlobj.h)
-
 description: SHCreatePropSheetExtArray may be altered or unavailable.
 old-location: shell\SHCreatePropSheetExtArray.htm
 tech.root: shell
 ms.assetid: 88a72529-325d-431e-bc26-bddca787e62b
-
 ms.date: 12/05/2018
 ms.keywords: SHCreatePropSheetExtArray, SHCreatePropSheetExtArray function [Windows Shell], _win32_SHCreatePropSheetExtArray, shell.SHCreatePropSheetExtArray, shlobj/SHCreatePropSheetExtArray
 ms.topic: function
-f1_keywords: 
- - "shlobj/SHCreatePropSheetExtArray"
+f1_keywords:
+- shlobj/SHCreatePropSheetExtArray
 dev_langs:
- - c++
+- c++
 req.header: shlobj.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Shell32.lib
 req.dll: Shell32.dll (version 5.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - SHCreatePropSheetExtArray
+- SHCreatePropSheetExtArray
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NL:gdiplusbrush.HatchBrush
 title: HatchBrush (gdiplusbrush.h)
-
 description: This HatchBrush class defines a rectangular brush with a hatch style, a foreground color, and a background color.
 old-location: gdiplus\_gdiplus_CLASS_HatchBrush_Class.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\hatchbrush.htm
-
 ms.date: 12/05/2018
 ms.keywords: HatchBrush, HatchBrush class [GDI+], HatchBrush class [GDI+],described, _gdiplus_CLASS_HatchBrush_Class, gdiplus._gdiplus_CLASS_HatchBrush_Class, gdiplusbrush/HatchBrush
 ms.topic: class
-f1_keywords: 
- - "gdiplusbrush/HatchBrush"
+f1_keywords:
+- gdiplusbrush/HatchBrush
 dev_langs:
- - c++
+- c++
 req.header: gdiplusbrush.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - gdiplusbrush.h
+- gdiplusbrush.h
 api_name:
- - HatchBrush
+- HatchBrush
 targetos: Windows
 req.typenames: 
 req.redist: 

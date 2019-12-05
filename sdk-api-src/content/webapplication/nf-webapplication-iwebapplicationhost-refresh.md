@@ -1,19 +1,17 @@
 ---
 UID: NF:webapplication.IWebApplicationHost.Refresh
 title: IWebApplicationHost::Refresh (webapplication.h)
-
 description: Refreshes the current document without sending a 'Pragma:no-cache' HTTP header to the server.
 old-location: debug\iwebapplicationhost_refresh.htm
 tech.root: debug_wwahost
 ms.assetid: 66f94cc9-9407-4844-a100-8144fc6f45ce
-
 ms.date: 12/05/2018
 ms.keywords: IWebApplicationHost interface [Debugging Windows Store apps],Refresh method, IWebApplicationHost.Refresh, IWebApplicationHost::Refresh, Refresh, Refresh method [Debugging Windows Store apps], Refresh method [Debugging Windows Store apps],IWebApplicationHost interface, debug.iwebapplicationhost_refresh, webapplication/IWebApplicationHost::Refresh
 ms.topic: method
-f1_keywords: 
- - "webapplication/IWebApplicationHost.Refresh"
+f1_keywords:
+- webapplication/IWebApplicationHost.Refresh
 dev_langs:
- - c++
+- c++
 req.header: webapplication.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - webapplication.h
+- webapplication.h
 api_name:
- - IWebApplicationHost.Refresh
+- IWebApplicationHost.Refresh
 targetos: Windows
 req.typenames: 
 req.redist: 

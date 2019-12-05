@@ -1,19 +1,17 @@
 ---
 UID: NF:ntdsapi.DsServerRegisterSpnW
 title: DsServerRegisterSpnW function (ntdsapi.h)
-
 description: The DsServerRegisterSpn function composes two SPNs for a host-based service.
 old-location: ad\dsserverregisterspn.htm
 tech.root: ad
 ms.assetid: d95dfa55-f978-4d8d-a63d-cd1339769c79
-
 ms.date: 12/05/2018
 ms.keywords: DS_SPN_ADD_SPN_OP, DS_SPN_DELETE_SPN_OP, DS_SPN_REPLACE_SPN_OP, DsServerRegisterSpn, DsServerRegisterSpn function [Active Directory], DsServerRegisterSpnA, DsServerRegisterSpnW, _glines_dsserverregisterspn, ad.dsserverregisterspn, ntdsapi/DsServerRegisterSpn, ntdsapi/DsServerRegisterSpnA, ntdsapi/DsServerRegisterSpnW
 ms.topic: function
-f1_keywords: 
- - "ntdsapi/DsServerRegisterSpn"
+f1_keywords:
+- ntdsapi/DsServerRegisterSpn
 dev_langs:
- - c++
+- c++
 req.header: ntdsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Ntdsapi.lib
 req.dll: Ntdsapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ntdsapi.dll
+- Ntdsapi.dll
 api_name:
- - DsServerRegisterSpn
- - DsServerRegisterSpnA
- - DsServerRegisterSpnW
+- DsServerRegisterSpn
+- DsServerRegisterSpnA
+- DsServerRegisterSpnW
 targetos: Windows
 req.typenames: 
 req.redist: 

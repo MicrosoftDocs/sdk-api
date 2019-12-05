@@ -1,19 +1,17 @@
 ---
 UID: NF:faxcomex.IFaxDevice.get_SendingNow
 title: IFaxDevice::get_SendingNow (faxcomex.h)
-
 description: The IFaxDevice::get_SendingNow property is a Boolean value that indicates whether the fax device is sending a fax at the moment the property is retrieved (the status could change immediately thereafter).
 old-location: fax\_mfax_faxdevice_cpp_mfax_faxdevice_sendingnow_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_3vzr.htm
-
 ms.date: 12/05/2018
 ms.keywords: IFaxDevice interface [Fax Service],SendingNow property, IFaxDevice.SendingNow, IFaxDevice.get_SendingNow, IFaxDevice::SendingNow, IFaxDevice::get_SendingNow, SendingNow property [Fax Service], SendingNow property [Fax Service],IFaxDevice interface, _mfax_faxdevice.sendingnow, fax._mfax_faxdevice_cpp_mfax_faxdevice_sendingnow_cpp, fax._mfax_faxdevice_sendingnow, faxcomex/IFaxDevice::SendingNow, faxcomex/IFaxDevice::get_SendingNow, get_SendingNow
 ms.topic: method
-f1_keywords: 
- - "faxcomex/IFaxDevice.SendingNow"
+f1_keywords:
+- faxcomex/IFaxDevice.SendingNow
 dev_langs:
- - c++
+- c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: Fxscomex.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Fxscomex.dll
+- Fxscomex.dll
 api_name:
- - IFaxDevice.SendingNow
- - IFaxDevice.get_SendingNow
- - IFaxDevice.get_SendingNow
+- IFaxDevice.SendingNow
+- IFaxDevice.get_SendingNow
+- IFaxDevice.get_SendingNow
 targetos: Windows
 req.typenames: 
 req.redist: 

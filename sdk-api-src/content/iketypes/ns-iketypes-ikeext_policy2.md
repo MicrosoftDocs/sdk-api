@@ -1,19 +1,17 @@
 ---
 UID: NS:iketypes.IKEEXT_POLICY2_
 title: IKEEXT_POLICY2 (iketypes.h)
-
 description: Is used to store the IKE/AuthIP main mode negotiation policy.
 old-location: fwp\ikeext_policy2.htm
 tech.root: fwp
 ms.assetid: d6efc1dd-3127-44d0-9f6a-ebf7cba477aa
-
 ms.date: 12/05/2018
 ms.keywords: IKEEXT_POLICY2, IKEEXT_POLICY2 structure [Filtering], IKEEXT_POLICY_FLAG_DISABLE_DIAGNOSTICS, IKEEXT_POLICY_FLAG_ENABLE_OPTIONAL_DH, IKEEXT_POLICY_FLAG_NO_IMPERSONATION_LUID_VERIFY, IKEEXT_POLICY_FLAG_NO_MACHINE_LUID_VERIFY, fwp.ikeext_policy2, iketypes/IKEEXT_POLICY2
 ms.topic: struct
-f1_keywords: 
- - "iketypes/IKEEXT_POLICY2"
+f1_keywords:
+- iketypes/IKEEXT_POLICY2
 dev_langs:
- - c++
+- c++
 req.header: iketypes.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - iketypes.h
+- iketypes.h
 api_name:
- - IKEEXT_POLICY2
+- IKEEXT_POLICY2
 targetos: Windows
 req.typenames: IKEEXT_POLICY2
 req.redist: 

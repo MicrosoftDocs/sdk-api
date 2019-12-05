@@ -1,19 +1,17 @@
 ---
 UID: NE:shobjidl_core.LIBRARYOPTIONFLAGS
 title: LIBRARYOPTIONFLAGS (shobjidl_core.h)
-
 description: Specifies the library options.
 old-location: shell\LIBRARYOPTIONFLAGS.htm
 tech.root: shell
 ms.assetid: 205c40ff-a4dc-4a57-b51a-1e230fc170dd
-
 ms.date: 12/05/2018
 ms.keywords: LIBRARYOPTIONFLAGS, LIBRARYOPTIONFLAGS enumeration [Windows Shell], LOF_DEFAULT, LOF_MASK_ALL, LOF_PINNEDTONAVPANE, _shell_LIBRARYOPTIONFLAGS, shell.LIBRARYOPTIONFLAGS, shobjidl_core/LIBRARYOPTIONFLAGS, shobjidl_core/LOF_DEFAULT, shobjidl_core/LOF_MASK_ALL, shobjidl_core/LOF_PINNEDTONAVPANE
 ms.topic: enum
-f1_keywords: 
- - "shobjidl_core/LIBRARYOPTIONFLAGS"
+f1_keywords:
+- shobjidl_core/LIBRARYOPTIONFLAGS
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - LIBRARYOPTIONFLAGS
+- LIBRARYOPTIONFLAGS
 targetos: Windows
 req.typenames: LIBRARYOPTIONFLAGS
 req.redist: 

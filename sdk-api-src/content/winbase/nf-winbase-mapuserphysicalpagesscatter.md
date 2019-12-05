@@ -1,19 +1,17 @@
 ---
 UID: NF:winbase.MapUserPhysicalPagesScatter
 title: MapUserPhysicalPagesScatter function (winbase.h)
-
 description: Maps previously allocated physical memory pages at a specified address in an Address Windowing Extensions (AWE) region.
 old-location: base\mapuserphysicalpagesscatter.htm
 tech.root: Memory
 ms.assetid: d88eaa75-38df-4498-a4c1-3dad04018c53
-
 ms.date: 12/05/2018
 ms.keywords: MapUserPhysicalPagesScatter, MapUserPhysicalPagesScatter function, _win32_mapuserphysicalpagesscatter, base.mapuserphysicalpagesscatter, winbase/MapUserPhysicalPagesScatter
 ms.topic: function
-f1_keywords: 
- - "winbase/MapUserPhysicalPagesScatter"
+f1_keywords:
+- winbase/MapUserPhysicalPagesScatter
 dev_langs:
- - c++
+- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
+- Kernel32.dll
 api_name:
- - MapUserPhysicalPagesScatter
+- MapUserPhysicalPagesScatter
 targetos: Windows
 req.typenames: 
 req.redist: 

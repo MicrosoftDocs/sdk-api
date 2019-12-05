@@ -1,19 +1,17 @@
 ---
 UID: NF:interactioncontext.BufferPointerPacketsInteractionContext
 title: BufferPointerPacketsInteractionContext function (interactioncontext.h)
-
 description: Adds the history for a single input pointer to the buffer of the Interaction Context object.
 old-location: input_intcontext\bufferpointerpacketsinteractioncontext.htm
 tech.root: Input_IntContext
 ms.assetid: a76c87f9-5811-4a34-9843-f13a0592ddb4
-
 ms.date: 12/05/2018
 ms.keywords: BufferPointerPacketsInteractionContext, BufferPointerPacketsInteractionContext function, input_intcontext.bufferpointerpacketsinteractioncontext, interactioncontext.bufferpointerpacketsinteractioncontext, interactioncontext/BufferPointerPacketsInteractionContext
 ms.topic: function
-f1_keywords: 
- - "interactioncontext/BufferPointerPacketsInteractionContext"
+f1_keywords:
+- interactioncontext/BufferPointerPacketsInteractionContext
 dev_langs:
- - c++
+- c++
 req.header: interactioncontext.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Ninput.lib
 req.dll: Ninput.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - ninput.dll
- - API-MS-Win-Input-IE-InteractionContext-l1-1-0.dll
- - IE_Shims.dll
+- ninput.dll
+- API-MS-Win-Input-IE-InteractionContext-l1-1-0.dll
+- IE_Shims.dll
 api_name:
- - BufferPointerPacketsInteractionContext
+- BufferPointerPacketsInteractionContext
 targetos: Windows
 req.typenames: 
 req.redist: 

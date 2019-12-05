@@ -1,19 +1,17 @@
 ---
 UID: NF:faxcomex.IFaxOutgoingQueue.get_Paused
 title: IFaxOutgoingQueue::get_Paused (faxcomex.h)
-
 description: The IFaxOutgoingQueue::get_Paused property is a Boolean value that indicates whether the job queue for outgoing faxes is paused.
 old-location: fax\_mfax_faxoutgoingqueue_cpp_mfax_faxoutgoingqueue_paused_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_81b8.htm
-
 ms.date: 12/05/2018
 ms.keywords: IFaxOutgoingQueue interface [Fax Service],Paused property, IFaxOutgoingQueue.Paused, IFaxOutgoingQueue.get_Paused, IFaxOutgoingQueue.put_Paused, IFaxOutgoingQueue::Paused, IFaxOutgoingQueue::get_Paused, IFaxOutgoingQueue::put_Paused, Paused property [Fax Service], Paused property [Fax Service],IFaxOutgoingQueue interface, _mfax_faxoutgoingqueue.paused, fax._mfax_faxoutgoingqueue_cpp_mfax_faxoutgoingqueue_paused_cpp, fax._mfax_faxoutgoingqueue_paused, faxcomex/IFaxOutgoingQueue::Paused, faxcomex/IFaxOutgoingQueue::get_Paused, faxcomex/IFaxOutgoingQueue::put_Paused, get_Paused
 ms.topic: method
-f1_keywords: 
- - "faxcomex/IFaxOutgoingQueue.Paused"
+f1_keywords:
+- faxcomex/IFaxOutgoingQueue.Paused
 dev_langs:
- - c++
+- c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib:
 req.dll: Fxscomex.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Fxscomex.dll
+- Fxscomex.dll
 api_name:
- - IFaxOutgoingQueue.Paused
- - IFaxOutgoingQueue.get_Paused
- - IFaxOutgoingQueue.put_Paused
- - IFaxOutgoingQueue.get_Paused
- - IFaxOutgoingQueue.put_Paused
+- IFaxOutgoingQueue.Paused
+- IFaxOutgoingQueue.get_Paused
+- IFaxOutgoingQueue.put_Paused
+- IFaxOutgoingQueue.get_Paused
+- IFaxOutgoingQueue.put_Paused
 targetos: Windows
 req.typenames: 
 req.redist: 

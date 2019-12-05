@@ -1,19 +1,17 @@
 ---
 UID: NF:wininet.InternetCanonicalizeUrlW
 title: InternetCanonicalizeUrlW function (wininet.h)
-
 description: Canonicalizes a URL, which includes converting unsafe characters and spaces into escape sequences.
 old-location: wininet\internetcanonicalizeurl.htm
 tech.root: wininet
 ms.assetid: 3bfde980-e478-4960-b41f-e1c8105ef419
-
 ms.date: 12/05/2018
 ms.keywords: InternetCanonicalizeUrl, InternetCanonicalizeUrl function [WinINet], InternetCanonicalizeUrlA, InternetCanonicalizeUrlW, _inet_internetcanonicalizeurl_function, wininet.internetcanonicalizeurl, wininet/InternetCanonicalizeUrl, wininet/InternetCanonicalizeUrlA, wininet/InternetCanonicalizeUrlW
 ms.topic: function
-f1_keywords: 
- - "wininet/InternetCanonicalizeUrl"
+f1_keywords:
+- wininet/InternetCanonicalizeUrl
 dev_langs:
- - c++
+- c++
 req.header: wininet.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Wininet.lib
 req.dll: Wininet.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Wininet.dll
+- Wininet.dll
 api_name:
- - InternetCanonicalizeUrl
- - InternetCanonicalizeUrlA
- - InternetCanonicalizeUrlW
+- InternetCanonicalizeUrl
+- InternetCanonicalizeUrlA
+- InternetCanonicalizeUrlW
 targetos: Windows
 req.typenames: 
 req.redist: 

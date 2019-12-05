@@ -1,19 +1,17 @@
 ---
 UID: NF:dxgi1_3.IDXGIDecodeSwapChain.SetDestSize
 title: IDXGIDecodeSwapChain::SetDestSize (dxgi1_3.h)
-
 description: Sets the size of the destination surface to use for the video processing blit operation.
 old-location: direct3ddxgi\idxgidecodeswapchain_setdestsize.htm
 tech.root: direct3ddxgi
 ms.assetid: BF35FFFE-89C7-4220-9D9F-5BFFE53D3430
-
 ms.date: 12/05/2018
 ms.keywords: IDXGIDecodeSwapChain interface [DXGI],SetDestSize method, IDXGIDecodeSwapChain.SetDestSize, IDXGIDecodeSwapChain::SetDestSize, SetDestSize, SetDestSize method [DXGI], SetDestSize method [DXGI],IDXGIDecodeSwapChain interface, direct3ddxgi.idxgidecodeswapchain_setdestsize, dxgi1_3/IDXGIDecodeSwapChain::SetDestSize
 ms.topic: method
-f1_keywords: 
- - "dxgi1_3/IDXGIDecodeSwapChain.SetDestSize"
+f1_keywords:
+- dxgi1_3/IDXGIDecodeSwapChain.SetDestSize
 dev_langs:
- - c++
+- c++
 req.header: dxgi1_3.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Dxgi.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dxgi.lib
- - Dxgi.dll
+- Dxgi.lib
+- Dxgi.dll
 api_name:
- - IDXGIDecodeSwapChain.SetDestSize
+- IDXGIDecodeSwapChain.SetDestSize
 targetos: Windows
 req.typenames: 
 req.redist: 

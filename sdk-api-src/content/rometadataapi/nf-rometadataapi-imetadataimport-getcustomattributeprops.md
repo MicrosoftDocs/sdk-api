@@ -1,19 +1,17 @@
 ---
 UID: NF:rometadataapi.IMetaDataImport.GetCustomAttributeProps
 title: IMetaDataImport::GetCustomAttributeProps (rometadataapi.h)
-
 description: Gets the value of the custom attribute, given its metadata token.
 old-location: winrt\imetadataimport_getcustomattributeprops.htm
 tech.root: WinRT
 ms.assetid: ccb8891c-ceef-4897-9ec4-b3008a7d5264
-
 ms.date: 12/05/2018
 ms.keywords: GetCustomAttributeProps, GetCustomAttributeProps method [Windows Runtime], GetCustomAttributeProps method [Windows Runtime],IMetaDataImport interface, IMetaDataImport interface [Windows Runtime],GetCustomAttributeProps method, IMetaDataImport.GetCustomAttributeProps, IMetaDataImport::GetCustomAttributeProps, rometadataapi/IMetaDataImport::GetCustomAttributeProps, winrt.imetadataimport_getcustomattributeprops
 ms.topic: method
-f1_keywords: 
- - "rometadataapi/IMetaDataImport.GetCustomAttributeProps"
+f1_keywords:
+- rometadataapi/IMetaDataImport.GetCustomAttributeProps
 dev_langs:
- - c++
+- c++
 req.header: rometadataapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - rometadataapi.h
+- rometadataapi.h
 api_name:
- - IMetaDataImport.GetCustomAttributeProps
+- IMetaDataImport.GetCustomAttributeProps
 targetos: Windows
 req.typenames: 
 req.redist: 

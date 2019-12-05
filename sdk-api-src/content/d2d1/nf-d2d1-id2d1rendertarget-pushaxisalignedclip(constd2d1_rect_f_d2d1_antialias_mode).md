@@ -1,19 +1,17 @@
 ---
 UID: NF:d2d1.ID2D1RenderTarget.PushAxisAlignedClip(const D2D1_RECT_F,D2D1_ANTIALIAS_MODE)
 title: ID2D1RenderTarget::PushAxisAlignedClip (d2d1.h)
-
 description: Specifies a rectangle to which all subsequent drawing operations are clipped.
 old-location: direct2d\id2d1rendertarget_pushaxisalignedclip.htm
 tech.root: Direct2D
 ms.assetid: 8b777425-07b1-4494-889a-0c947fb61315
-
 ms.date: 12/05/2018
 ms.keywords: ID2D1RenderTarget.PushAxisAlignedClip, ID2D1RenderTarget::PushAxisAlignedClip, PushAxisAlignedClip, PushAxisAlignedClip methods [Direct2D], d2d1_1/PushAxisAlignedClip, direct2d.id2d1rendertarget_pushaxisalignedclip
 ms.topic: method
-f1_keywords: 
- - "d2d1/ID2D1RenderTarget::PushAxisAlignedClip"
+f1_keywords:
+- d2d1/ID2D1RenderTarget::PushAxisAlignedClip
 dev_langs:
- - c++
+- c++
 req.header: d2d1.h
 req.include-header: D2d1.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: D2d1.lib
 req.dll: D2d1.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - D2d1.dll
+- D2d1.dll
 api_name:
- - ID2D1RenderTarget::PushAxisAlignedClip
+- ID2D1RenderTarget::PushAxisAlignedClip
 targetos: Windows
 req.typenames: 
 req.redist: 

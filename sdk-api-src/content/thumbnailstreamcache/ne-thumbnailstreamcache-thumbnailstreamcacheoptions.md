@@ -1,19 +1,17 @@
 ---
 UID: NE:thumbnailstreamcache.ThumbnailStreamCacheOptions
 title: ThumbnailStreamCacheOptions (thumbnailstreamcache.h)
-
 description: Defines the cache options used by the IThumbnailStreamCache interface.
 old-location: shell\thumbnailstreamcacheoptions.htm
 tech.root: shell
 ms.assetid: E148138E-E41F-4274-B40A-7BF49BCF2AB4
-
 ms.date: 12/05/2018
 ms.keywords: AllowSmallerSize, ExtractIfNotCached, ResizeThumbnail, ReturnOnlyIfCached, ThumbnailStreamCacheOptions, ThumbnailStreamCacheOptions enumeration [Windows Shell], shell.thumbnailstreamcacheoptions, thumbnailstreamcache/AllowSmallerSize, thumbnailstreamcache/ExtractIfNotCached, thumbnailstreamcache/ResizeThumbnail, thumbnailstreamcache/ReturnOnlyIfCached, thumbnailstreamcache/ThumbnailStreamCacheOptions
 ms.topic: enum
-f1_keywords: 
- - "thumbnailstreamcache/ThumbnailStreamCacheOptions"
+f1_keywords:
+- thumbnailstreamcache/ThumbnailStreamCacheOptions
 dev_langs:
- - c++
+- c++
 req.header: thumbnailstreamcache.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - thumbnailstreamcache.h
+- thumbnailstreamcache.h
 api_name:
- - ThumbnailStreamCacheOptions
+- ThumbnailStreamCacheOptions
 targetos: Windows
 req.typenames: ThumbnailStreamCacheOptions
 req.redist: 

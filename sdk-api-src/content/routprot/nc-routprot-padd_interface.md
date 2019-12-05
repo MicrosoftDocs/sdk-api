@@ -1,19 +1,17 @@
 ---
 UID: NC:routprot.PADD_INTERFACE
 title: PADD_INTERFACE (routprot.h)
-
 description: The AddInterface function adds an interface to be managed by the routing protocol.
 old-location: rras\addinterface.htm
 tech.root: RRAS
 ms.assetid: d2a90d20-7a1f-4301-adab-76224a4f8310
-
 ms.date: 12/05/2018
 ms.keywords: AddInterface, AddInterface callback function [RAS], DEMAND_DIAL, LOCAL_WORKSTATION_DIAL, PADD_INTERFACE, PADD_INTERFACE callback, PERMANENT, REMOTE_WORKSTATION_DIAL, _mpr_addinterface, routprot/AddInterface, rras.addinterface
 ms.topic: callback
-f1_keywords: 
- - "routprot/AddInterface"
+f1_keywords:
+- routprot/AddInterface
 dev_langs:
- - c++
+- c++
 req.header: routprot.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Routprot.h
+- Routprot.h
 api_name:
- - AddInterface
+- AddInterface
 targetos: Windows
 req.typenames: 
 req.redist: 

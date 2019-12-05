@@ -1,19 +1,17 @@
 ---
 UID: NS:advpub._StrEntryA
 title: STRENTRYA (advpub.h)
-
 description: Represents a registry string replacement.
 old-location: winprog\_strentrya.htm
 tech.root: DevNotes
 ms.assetid: BE4239CA-68D5-4E5A-BA53-087001ACD7BB
-
 ms.date: 12/05/2018
-ms.keywords: "*LPSTRENTRYA, LPSTRENTRYA, LPSTRENTRYA structure pointer [Windows API], STRENTRY, STRENTRYA, STRENTRYA structure [Windows API], _StrEntryA, _StrEntryA structure [Windows API], advpub/LPSTRENTRYA, advpub/_StrEntryA, winprog._strentrya"
+ms.keywords: '*LPSTRENTRYA, LPSTRENTRYA, LPSTRENTRYA structure pointer [Windows API], STRENTRY, STRENTRYA, STRENTRYA structure [Windows API], _StrEntryA, _StrEntryA structure [Windows API], advpub/LPSTRENTRYA, advpub/_StrEntryA, winprog._strentrya'
 ms.topic: struct
-f1_keywords: 
- - "advpub/STRENTRYA"
+f1_keywords:
+- advpub/STRENTRYA
 dev_langs:
- - c++
+- c++
 req.header: advpub.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - LibDef
+- LibDef
 api_location:
- - advpack.lib
+- advpack.lib
 api_name:
- - STRENTRYA
+- STRENTRYA
 targetos: Windows
 req.typenames: STRENTRYA, *LPSTRENTRYA
 req.redist: 

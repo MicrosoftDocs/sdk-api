@@ -1,19 +1,17 @@
 ---
 UID: NN:tapi3if.ITDigitDetectionEvent
 title: ITDigitDetectionEvent (tapi3if.h)
-
 description: The ITDigitDetectionEvent interface contains methods that retrieve the description of DTMF digit events.
 old-location: tapi3\itdigitdetectionevent.htm
 tech.root: Tapi
 ms.assetid: f387f5f5-06e4-45f2-8d93-31ff0da6151a
-
 ms.date: 12/05/2018
 ms.keywords: ITDigitDetectionEvent, ITDigitDetectionEvent interface [TAPI 2.2], ITDigitDetectionEvent interface [TAPI 2.2],described, _tapi3_itdigitdetectionevent, tapi3.itdigitdetectionevent, tapi3if/ITDigitDetectionEvent
 ms.topic: interface
-f1_keywords: 
- - "tapi3if/ITDigitDetectionEvent"
+f1_keywords:
+- tapi3if/ITDigitDetectionEvent
 dev_langs:
- - c++
+- c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Tapi3.dll
+- Tapi3.dll
 api_name:
- - ITDigitDetectionEvent
+- ITDigitDetectionEvent
 targetos: Windows
 req.typenames: 
 req.redist: 

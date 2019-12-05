@@ -1,40 +1,38 @@
 ---
 UID: NS:d3d12video.D3D12_VIDEO_SIZE_RANGE
 title: D3D12_VIDEO_SIZE_RANGE
-
 description: Describes the range of supported sizes for a video scaler.
 tech.root: mf
 ms.assetid: 1dc0ed58-ae25-4c19-81a8-74fd0ad83580
-
-ms.date: 05/28/2019 
+ms.date: 05/28/2019
 ms.topic: struct
 f1_keywords:
- - D3D12_VIDEO_SIZE_RANGE
+- D3D12_VIDEO_SIZE_RANGE
 dev_langs:
- - c++
-ms.keywords: D3D12_VIDEO_SIZE_RANGE, D3D12_VIDEO_SIZE_RANGE, 
+- c++
+ms.keywords: D3D12_VIDEO_SIZE_RANGE, D3D12_VIDEO_SIZE_RANGE,
 req.header: d3d12video.h
-req.include-header:
-req.redist:
-req.target-type:
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
+req.include-header: 
+req.redist: 
+req.target-type: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
 req.dll: d3d12.dll
-req.ddi-compliance:
-req.unicode-ansi:
-req.max-support:
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.max-support: 
 req.typenames: D3D12_VIDEO_SIZE_RANGE
-topic_type: 
- - apiref
-api_type: 
- - HeaderDef
-api_location: 
- - d3d12video.h
-api_name: 
- - D3D12_VIDEO_SIZE_RANGE
+topic_type:
+- apiref
+api_type:
+- HeaderDef
+api_location:
+- d3d12video.h
+api_name:
+- D3D12_VIDEO_SIZE_RANGE
 targetos: Windows
 ---
 

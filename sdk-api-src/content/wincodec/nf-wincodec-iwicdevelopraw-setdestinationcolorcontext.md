@@ -1,19 +1,17 @@
 ---
 UID: NF:wincodec.IWICDevelopRaw.SetDestinationColorContext
 title: IWICDevelopRaw::SetDestinationColorContext (wincodec.h)
-
 description: Sets the destination color context.
 old-location: wic\_wic_codec_iwicdevelopraw_setdestinationcolorcontext.htm
 tech.root: wic
 ms.assetid: c5e82941-b52d-4f5b-8134-c3463464f1ac
-
 ms.date: 12/05/2018
 ms.keywords: IWICDevelopRaw interface [Windows Imaging Component],SetDestinationColorContext method, IWICDevelopRaw.SetDestinationColorContext, IWICDevelopRaw::SetDestinationColorContext, SetDestinationColorContext, SetDestinationColorContext method [Windows Imaging Component], SetDestinationColorContext method [Windows Imaging Component],IWICDevelopRaw interface, _wic_codec_iwicdevelopraw_setdestinationcolorcontext, wic._wic_codec_iwicdevelopraw_setdestinationcolorcontext, wincodec/IWICDevelopRaw::SetDestinationColorContext
 ms.topic: method
-f1_keywords: 
- - "wincodec/IWICDevelopRaw.SetDestinationColorContext"
+f1_keywords:
+- wincodec/IWICDevelopRaw.SetDestinationColorContext
 dev_langs:
- - c++
+- c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Windowscodecs.lib
 req.dll: Windowscodecs.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Windowscodecs.dll
+- Windowscodecs.dll
 api_name:
- - IWICDevelopRaw.SetDestinationColorContext
+- IWICDevelopRaw.SetDestinationColorContext
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:wtsprotocol.IWRdsProtocolLicenseConnection.SendClientLicense
 title: IWRdsProtocolLicenseConnection::SendClientLicense (wtsprotocol.h)
-
 description: Sends a license to the client.
 old-location: termserv\iwrdsprotocollicenseconnection_sendclientlicense.htm
 tech.root: TermServ
 ms.assetid: a758f6c8-1f84-4c20-857c-019cde68915c
-
 ms.date: 12/05/2018
 ms.keywords: IWRdsProtocolLicenseConnection interface [Remote Desktop Services],SendClientLicense method, IWRdsProtocolLicenseConnection.SendClientLicense, IWRdsProtocolLicenseConnection::SendClientLicense, SendClientLicense, SendClientLicense method [Remote Desktop Services], SendClientLicense method [Remote Desktop Services],IWRdsProtocolLicenseConnection interface, termserv.iwrdsprotocollicenseconnection_sendclientlicense, wtsprotocol/IWRdsProtocolLicenseConnection::SendClientLicense
 ms.topic: method
-f1_keywords: 
- - "wtsprotocol/IWRdsProtocolLicenseConnection.SendClientLicense"
+f1_keywords:
+- wtsprotocol/IWRdsProtocolLicenseConnection.SendClientLicense
 dev_langs:
- - c++
+- c++
 req.header: wtsprotocol.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wtsprotocol.h
+- wtsprotocol.h
 api_name:
- - IWRdsProtocolLicenseConnection.SendClientLicense
+- IWRdsProtocolLicenseConnection.SendClientLicense
 targetos: Windows
 req.typenames: 
 req.redist: 

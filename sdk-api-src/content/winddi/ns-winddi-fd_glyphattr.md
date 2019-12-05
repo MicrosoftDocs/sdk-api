@@ -1,19 +1,17 @@
 ---
 UID: NS:winddi._FD_GLYPHATTR
 title: FD_GLYPHATTR (winddi.h)
-
 description: The FD_GLYPHATTR structure is used to specify the return value for the FONTOBJ_pQueryGlyphAttrs and DrvQueryGlyphAttrs functions.
 old-location: display\fd_glyphattr.htm
 tech.root: display
 ms.assetid: 25a5c390-244c-4cff-a6a5-cc61fc5aa40b
-
 ms.date: 12/05/2018
-ms.keywords: "*PFD_GLYPHATTR, FD_GLYPHATTR, FD_GLYPHATTR structure [Display Devices], PFD_GLYPHATTR, PFD_GLYPHATTR structure pointer [Display Devices], display.fd_glyphattr, grstrcts_5edf5620-9123-4fdd-b402-d7e06bdeee2a.xml, winddi/FD_GLYPHATTR, winddi/PFD_GLYPHATTR"
+ms.keywords: '*PFD_GLYPHATTR, FD_GLYPHATTR, FD_GLYPHATTR structure [Display Devices], PFD_GLYPHATTR, PFD_GLYPHATTR structure pointer [Display Devices], display.fd_glyphattr, grstrcts_5edf5620-9123-4fdd-b402-d7e06bdeee2a.xml, winddi/FD_GLYPHATTR, winddi/PFD_GLYPHATTR'
 ms.topic: struct
-f1_keywords: 
- - "winddi/FD_GLYPHATTR"
+f1_keywords:
+- winddi/FD_GLYPHATTR
 dev_langs:
- - c++
+- c++
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - winddi.h
+- winddi.h
 api_name:
- - FD_GLYPHATTR
+- FD_GLYPHATTR
 targetos: Windows
 req.typenames: FD_GLYPHATTR, *PFD_GLYPHATTR
 req.redist: 

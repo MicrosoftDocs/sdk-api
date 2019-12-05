@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationElement.get_CurrentAccessKey
 title: IUIAutomationElement::get_CurrentAccessKey (uiautomationclient.h)
-
 description: Retrieves the access key character for the element.
 old-location: winauto\uiauto_IUIAutomationElement_CurrentAccessKey.htm
 tech.root: WinAuto
 ms.assetid: 0da10db5-a978-4575-86c4-12152691468f
-
 ms.date: 12/05/2018
 ms.keywords: CurrentAccessKey property [Windows Accessibility], CurrentAccessKey property [Windows Accessibility],IUIAutomationElement interface, IUIAutomationElement interface [Windows Accessibility],CurrentAccessKey property, IUIAutomationElement.CurrentAccessKey, IUIAutomationElement.get_CurrentAccessKey, IUIAutomationElement::CurrentAccessKey, IUIAutomationElement::get_CurrentAccessKey, get_CurrentAccessKey, uiauto.uiauto_IUIAutomationElement_CurrentAccessKey, uiauto_IUIAutomationElement_CurrentAccessKey, uiautomationclient/IUIAutomationElement::CurrentAccessKey, uiautomationclient/IUIAutomationElement::get_CurrentAccessKey, winauto.uiauto_IUIAutomationElement_CurrentAccessKey
 ms.topic: method
-f1_keywords: 
- - "uiautomationclient/IUIAutomationElement.CurrentAccessKey"
+f1_keywords:
+- uiautomationclient/IUIAutomationElement.CurrentAccessKey
 dev_langs:
- - c++
+- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationClient.h
+- UIAutomationClient.h
 api_name:
- - IUIAutomationElement.CurrentAccessKey
- - IUIAutomationElement.get_CurrentAccessKey
+- IUIAutomationElement.CurrentAccessKey
+- IUIAutomationElement.get_CurrentAccessKey
 targetos: Windows
 req.typenames: 
 req.redist: 

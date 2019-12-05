@@ -1,19 +1,17 @@
 ---
 UID: NF:rtscom.IRealTimeStylus.GetTablet
 title: IRealTimeStylus::GetTablet (rtscom.h)
-
 description: Retrieves an IInkTablet Interface object to the caller.
 old-location: tablet\irealtimestylus_gettablet.htm
 tech.root: tablet
 ms.assetid: 38970fc0-ec4c-4068-a146-83edaa040c8c
-
 ms.date: 12/05/2018
 ms.keywords: 38970fc0-ec4c-4068-a146-83edaa040c8c, GetTablet, GetTablet method [Tablet PC], GetTablet method [Tablet PC],IRealTimeStylus interface, IRealTimeStylus interface [Tablet PC],GetTablet method, IRealTimeStylus.GetTablet, IRealTimeStylus::GetTablet, rtscom/IRealTimeStylus::GetTablet, tablet.irealtimestylus_gettablet
 ms.topic: method
-f1_keywords: 
- - "rtscom/IRealTimeStylus.GetTablet"
+f1_keywords:
+- rtscom/IRealTimeStylus.GetTablet
 dev_langs:
- - c++
+- c++
 req.header: rtscom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: RTSCom.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - RTSCom.dll
+- RTSCom.dll
 api_name:
- - IRealTimeStylus.GetTablet
+- IRealTimeStylus.GetTablet
 targetos: Windows
 req.typenames: 
 req.redist: 

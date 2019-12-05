@@ -1,19 +1,17 @@
 ---
 UID: NF:windows.foundation.IPropertyValueStatics.CreateUInt8
 title: IPropertyValueStatics::IPropertyValueStatics (windows.foundation.h)
-
 description: Creates a new IPropertyValue object that contains the specified unsigned 8-bit integer value.
 old-location: winrt\ipropertyvaluestatics_createuint8.htm
 tech.root: WinRT
 ms.assetid: 8CDCDB96-7E77-4B63-8417-D669ED4850BF
-
 ms.date: 12/05/2018
 ms.keywords: CreateUInt8, CreateUInt8 method [Windows Runtime], CreateUInt8 method [Windows Runtime],IPropertyValueStatics interface, IPropertyValueStatics interface [Windows Runtime],CreateUInt8 method, IPropertyValueStatics.CreateUInt8, IPropertyValueStatics.IPropertyValueStatics, IPropertyValueStatics::CreateUInt8, IPropertyValueStatics::IPropertyValueStatics, windows/IPropertyValueStatics::CreateUInt8, winrt.ipropertyvaluefactory_createuint8, winrt.ipropertyvaluestatics_createuint8
 ms.topic: method
-f1_keywords: 
- - "windows.foundation/IPropertyValueStatics.CreateUInt8"
+f1_keywords:
+- windows.foundation/IPropertyValueStatics.CreateUInt8
 dev_langs:
- - c++
+- c++
 req.header: windows.foundation.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Windows.Foundation.h
+- Windows.Foundation.h
 api_name:
- - IPropertyValueStatics.CreateUInt8
+- IPropertyValueStatics.CreateUInt8
 targetos: Windows
 req.typenames: 
 req.redist: 

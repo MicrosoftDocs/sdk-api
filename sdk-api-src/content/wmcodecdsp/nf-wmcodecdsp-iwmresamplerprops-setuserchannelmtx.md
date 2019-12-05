@@ -1,19 +1,17 @@
 ---
 UID: NF:wmcodecdsp.IWMResamplerProps.SetUserChannelMtx
 title: IWMResamplerProps::SetUserChannelMtx (wmcodecdsp.h)
-
 description: Specifies the channel matrix.
 old-location: mf\iwmresamplerpropssetuserchannelmtx.htm
 tech.root: medfound
 ms.assetid: d7f225a9-c63d-4b4e-b75a-ed6156e594a0
-
 ms.date: 12/05/2018
 ms.keywords: IWMResamplerProps interface [Media Foundation],SetUserChannelMtx method, IWMResamplerProps.SetUserChannelMtx, IWMResamplerProps::SetUserChannelMtx, SetUserChannelMtx, SetUserChannelMtx method [Media Foundation], SetUserChannelMtx method [Media Foundation],IWMResamplerProps interface, codecapi.iwmresamplerpropssetuserchannelmtx, mf.iwmresamplerpropssetuserchannelmtx, wmcodecdsp/IWMResamplerProps::SetUserChannelMtx
 ms.topic: method
-f1_keywords: 
- - "wmcodecdsp/IWMResamplerProps.SetUserChannelMtx"
+f1_keywords:
+- wmcodecdsp/IWMResamplerProps.SetUserChannelMtx
 dev_langs:
- - c++
+- c++
 req.header: wmcodecdsp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmcodecdsp.h
+- wmcodecdsp.h
 api_name:
- - IWMResamplerProps.SetUserChannelMtx
+- IWMResamplerProps.SetUserChannelMtx
 targetos: Windows
 req.typenames: 
 req.redist: 

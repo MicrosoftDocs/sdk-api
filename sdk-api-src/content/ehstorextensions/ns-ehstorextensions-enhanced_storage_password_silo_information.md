@@ -1,19 +1,17 @@
 ---
 UID: NS:ehstorextensions._ENHANCED_STORAGE_PASSWORD_SILO_INFORMATION
 title: ENHANCED_STORAGE_PASSWORD_SILO_INFORMATION (ehstorextensions.h)
-
 description: ENHANCED_STORAGE_PASSWORD_SILO_INFORMATION structure contains data that defines the capabilities and requirements of a password silo.
 old-location: enstor\enhanced_storage_password_silo_information.htm
 tech.root: enstor
 ms.assetid: b922aca7-d574-497a-bf83-b53a321400a9
-
 ms.date: 12/05/2018
-ms.keywords: "*PENHANCED_STORAGE_PASSWORD_SILO_INFORMATION, ENHANCED_STORAGE_PASSWORD_SILO_INFORMATION, ENHANCED_STORAGE_PASSWORD_SILO_INFORMATION structure [Enhanced Storage], PENHANCED_STORAGE_PASSWORD_SILO_INFORMATION, PENHANCED_STORAGE_PASSWORD_SILO_INFORMATION structure pointer [Enhanced Storage], ehstorextensions/ENHANCED_STORAGE_PASSWORD_SILO_INFORMATION, ehstorextensions/PENHANCED_STORAGE_PASSWORD_SILO_INFORMATION, enstor.enhanced_storage_password_silo_information"
+ms.keywords: '*PENHANCED_STORAGE_PASSWORD_SILO_INFORMATION, ENHANCED_STORAGE_PASSWORD_SILO_INFORMATION, ENHANCED_STORAGE_PASSWORD_SILO_INFORMATION structure [Enhanced Storage], PENHANCED_STORAGE_PASSWORD_SILO_INFORMATION, PENHANCED_STORAGE_PASSWORD_SILO_INFORMATION structure pointer [Enhanced Storage], ehstorextensions/ENHANCED_STORAGE_PASSWORD_SILO_INFORMATION, ehstorextensions/PENHANCED_STORAGE_PASSWORD_SILO_INFORMATION, enstor.enhanced_storage_password_silo_information'
 ms.topic: struct
-f1_keywords: 
- - "ehstorextensions/ENHANCED_STORAGE_PASSWORD_SILO_INFORMATION"
+f1_keywords:
+- ehstorextensions/ENHANCED_STORAGE_PASSWORD_SILO_INFORMATION
 dev_langs:
- - c++
+- c++
 req.header: ehstorextensions.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - EhStorExtensions.h
+- EhStorExtensions.h
 api_name:
- - ENHANCED_STORAGE_PASSWORD_SILO_INFORMATION
+- ENHANCED_STORAGE_PASSWORD_SILO_INFORMATION
 targetos: Windows
 req.typenames: ENHANCED_STORAGE_PASSWORD_SILO_INFORMATION, *PENHANCED_STORAGE_PASSWORD_SILO_INFORMATION
 req.redist: 

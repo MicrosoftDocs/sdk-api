@@ -1,19 +1,17 @@
 ---
 UID: NF:oleidl.IOleLink.Update
 title: IOleLink::Update (oleidl.h)
-
 description: Updates the compound document's cached data for a linked object. This involves binding to the link source, if it is not already bound.
 old-location: com\iolelink_update.htm
 tech.root: com
 ms.assetid: c1da8b95-88e7-42b0-884c-5aa394cc49f4
-
 ms.date: 12/05/2018
 ms.keywords: IOleLink interface [COM],Update method, IOleLink.Update, IOleLink::Update, Update, Update method [COM], Update method [COM],IOleLink interface, _ole_iolelink_update, com.iolelink_update, oleidl/IOleLink::Update
 ms.topic: method
-f1_keywords: 
- - "oleidl/IOleLink.Update"
+f1_keywords:
+- oleidl/IOleLink.Update
 dev_langs:
- - c++
+- c++
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - OleIdl.h
+- OleIdl.h
 api_name:
- - IOleLink.Update
+- IOleLink.Update
 targetos: Windows
 req.typenames: 
 req.redist: 

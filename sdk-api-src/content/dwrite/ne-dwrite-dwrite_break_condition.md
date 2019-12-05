@@ -1,19 +1,17 @@
 ---
 UID: NE:dwrite.DWRITE_BREAK_CONDITION
 title: DWRITE_BREAK_CONDITION (dwrite.h)
-
 description: Indicates the condition at the edges of inline object or text used to determine line-breaking behavior.
 old-location: directwrite\dwrite_break_condition.htm
 tech.root: DirectWrite
 ms.assetid: 26dbe63e-eeee-486f-aa94-74320b190fcb
-
 ms.date: 12/05/2018
 ms.keywords: DWRITE_BREAK_CONDITION, DWRITE_BREAK_CONDITION enumeration [Direct Write], DWRITE_BREAK_CONDITION_CAN_BREAK, DWRITE_BREAK_CONDITION_MAY_NOT_BREAK, DWRITE_BREAK_CONDITION_MUST_BREAK, DWRITE_BREAK_CONDITION_NEUTRAL, directwrite.dwrite_break_condition, dwrite/DWRITE_BREAK_CONDITION, dwrite/DWRITE_BREAK_CONDITION_CAN_BREAK, dwrite/DWRITE_BREAK_CONDITION_MAY_NOT_BREAK, dwrite/DWRITE_BREAK_CONDITION_MUST_BREAK, dwrite/DWRITE_BREAK_CONDITION_NEUTRAL
 ms.topic: enum
-f1_keywords: 
- - "dwrite/DWRITE_BREAK_CONDITION"
+f1_keywords:
+- dwrite/DWRITE_BREAK_CONDITION
 dev_langs:
- - c++
+- c++
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - dwrite.h
+- dwrite.h
 api_name:
- - DWRITE_BREAK_CONDITION
+- DWRITE_BREAK_CONDITION
 targetos: Windows
 req.typenames: 
 req.redist: 

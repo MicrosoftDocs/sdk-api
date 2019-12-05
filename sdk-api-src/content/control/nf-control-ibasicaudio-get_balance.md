@@ -1,19 +1,17 @@
 ---
 UID: NF:control.IBasicAudio.get_Balance
 title: IBasicAudio::get_Balance (control.h)
-
 description: The get_Balance method retrieves the balance for the audio signal.
 old-location: dshow\ibasicaudio_get_balance.htm
 tech.root: DirectShow
 ms.assetid: bb9796c5-0dd2-496a-b5b4-a6614d7770c1
-
 ms.date: 12/05/2018
 ms.keywords: IBasicAudio interface [DirectShow],get_Balance method, IBasicAudio.get_Balance, IBasicAudio::get_Balance, IBasicAudioget_Balance, control/IBasicAudio::get_Balance, dshow.ibasicaudio_get_balance, get_Balance, get_Balance method [DirectShow], get_Balance method [DirectShow],IBasicAudio interface
 ms.topic: method
-f1_keywords: 
- - "control/IBasicAudio.get_Balance"
+f1_keywords:
+- control/IBasicAudio.get_Balance
 dev_langs:
- - c++
+- c++
 req.header: control.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IBasicAudio.get_Balance
+- IBasicAudio.get_Balance
 targetos: Windows
 req.typenames: 
 req.redist: 

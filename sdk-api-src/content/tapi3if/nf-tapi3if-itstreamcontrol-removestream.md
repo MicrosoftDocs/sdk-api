@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi3if.ITStreamControl.RemoveStream
 title: ITStreamControl::RemoveStream (tapi3if.h)
-
 description: The RemoveStream method removes a media stream.
 old-location: tapi3\itstreamcontrol_removestream.htm
 tech.root: Tapi
 ms.assetid: cd432d49-04f6-4f1f-a6a1-937658d615d6
-
 ms.date: 12/05/2018
 ms.keywords: ITStreamControl interface [TAPI 2.2],RemoveStream method, ITStreamControl.RemoveStream, ITStreamControl::RemoveStream, RemoveStream, RemoveStream method [TAPI 2.2], RemoveStream method [TAPI 2.2],ITStreamControl interface, _tapi3_itstreamcontrol_removestream, tapi3.itstreamcontrol_removestream, tapi3if/ITStreamControl::RemoveStream
 ms.topic: method
-f1_keywords: 
- - "tapi3if/ITStreamControl.RemoveStream"
+f1_keywords:
+- tapi3if/ITStreamControl.RemoveStream
 dev_langs:
- - c++
+- c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - tapi3if.h
+- tapi3if.h
 api_name:
- - ITStreamControl.RemoveStream
+- ITStreamControl.RemoveStream
 targetos: Windows
 req.typenames: 
 req.redist: 

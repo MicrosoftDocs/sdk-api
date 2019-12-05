@@ -1,19 +1,17 @@
 ---
 UID: NS:msime._POSTBL
 title: POSTBL (msime.h)
-
 description: An entry in the public POS (Part of Speech) table.
 old-location: intl\postbl.htm
 tech.root: Intl
 ms.assetid: CA6A4E71-651A-44CA-B47D-79888A36BB12
-
 ms.date: 12/05/2018
 ms.keywords: POSTBL, POSTBL structure [Internationalization for Windows Applications], PPOSTBL, PPOSTBL structure pointer [Internationalization for Windows Applications], intl.postbl, msime/POSTBL, msime/PPOSTBL
 ms.topic: struct
-f1_keywords: 
- - "msime/POSTBL"
+f1_keywords:
+- msime/POSTBL
 dev_langs:
- - c++
+- c++
 req.header: msime.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Msime.h
+- Msime.h
 api_name:
- - POSTBL
+- POSTBL
 targetos: Windows
 req.typenames: POSTBL
 req.redist: 

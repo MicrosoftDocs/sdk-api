@@ -1,19 +1,17 @@
 ---
 UID: NF:directmanipulation.IDirectManipulationViewport.AddContent
 title: IDirectManipulationViewport::AddContent (directmanipulation.h)
-
 description: Adds secondary content, such as a panning indicator, to a viewport.
 old-location: directmanipulation\idirectmanipulationviewport_addcontent.htm
 tech.root: directmanipulation
 ms.assetid: 1c404e9a-832d-47af-b162-2783faa05237
-
 ms.date: 12/05/2018
 ms.keywords: AddContent, AddContent method [Direct Manipulation], AddContent method [Direct Manipulation],IDirectManipulationViewport interface, IDirectManipulationViewport interface [Direct Manipulation],AddContent method, IDirectManipulationViewport.AddContent, IDirectManipulationViewport::AddContent, directmanipulation.idirectmanipulationviewport_addcontent, directmanipulation/IDirectManipulationViewport::AddContent
 ms.topic: method
-f1_keywords: 
- - "directmanipulation/IDirectManipulationViewport.AddContent"
+f1_keywords:
+- directmanipulation/IDirectManipulationViewport.AddContent
 dev_langs:
- - c++
+- c++
 req.header: directmanipulation.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - DirectManipulation.h
+- DirectManipulation.h
 api_name:
- - IDirectManipulationViewport.AddContent
+- IDirectManipulationViewport.AddContent
 targetos: Windows
 req.typenames: 
 req.redist: 

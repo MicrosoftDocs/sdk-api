@@ -1,19 +1,17 @@
 ---
 UID: NN:bits5_0.IBackgroundCopyFile5
 title: IBackgroundCopyFile5 (bits5_0.h)
-
 description: Use this interface to get or set generic properties of BITS file transfers.
 old-location: bits\ibackgroundcopyfile5.htm
 tech.root: Bits
 ms.assetid: 548b507a-4874-4ccf-829e-13e1ca6cc958
-
 ms.date: 12/05/2018
 ms.keywords: IBackgroundCopyFile5, IBackgroundCopyFile5 interface [BITS], IBackgroundCopyFile5 interface [BITS],described, bits.ibackgroundcopyfile5, bits5_0/IBackgroundCopyFile5
 ms.topic: interface
-f1_keywords: 
- - "bits5_0/IBackgroundCopyFile5"
+f1_keywords:
+- bits5_0/IBackgroundCopyFile5
 dev_langs:
- - c++
+- c++
 req.header: bits5_0.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Bits5_0.h
+- Bits5_0.h
 api_name:
- - IBackgroundCopyFile5
+- IBackgroundCopyFile5
 targetos: Windows
 req.typenames: 
 req.redist: 

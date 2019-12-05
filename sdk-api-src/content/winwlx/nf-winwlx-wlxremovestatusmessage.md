@@ -1,19 +1,17 @@
 ---
 UID: NF:winwlx.WlxRemoveStatusMessage
 title: WlxRemoveStatusMessage function (winwlx.h)
-
 description: Winlogon calls this function to tell the GINA DLL to stop displaying the status message.
 old-location: security\wlxremovestatusmessage.htm
 tech.root: SecAuthN
 ms.assetid: b8e64f7b-04fc-4dbe-8670-314ff8838ba4
-
 ms.date: 12/05/2018
 ms.keywords: WlxRemoveStatusMessage, WlxRemoveStatusMessage function [Security], _gina_wlxremovestatusmessage, security.wlxremovestatusmessage, winwlx/WlxRemoveStatusMessage
 ms.topic: function
-f1_keywords: 
- - "winwlx/WlxRemoveStatusMessage"
+f1_keywords:
+- winwlx/WlxRemoveStatusMessage
 dev_langs:
- - c++
+- c++
 req.header: winwlx.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Winwlx.h
+- Winwlx.h
 api_name:
- - WlxRemoveStatusMessage
+- WlxRemoveStatusMessage
 targetos: Windows
 req.typenames: 
 req.redist: 

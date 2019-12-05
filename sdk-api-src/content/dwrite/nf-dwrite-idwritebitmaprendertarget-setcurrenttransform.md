@@ -1,19 +1,17 @@
 ---
 UID: NF:dwrite.IDWriteBitmapRenderTarget.SetCurrentTransform
 title: IDWriteBitmapRenderTarget::SetCurrentTransform (dwrite.h)
-
 description: Sets the transform that maps abstract coordinate to DIPs (device-independent pixel). This does not affect the world transform of the underlying device context.
 old-location: directwrite\IDWriteBitmapRenderTarget_SetCurrentTransform.htm
 tech.root: DirectWrite
 ms.assetid: 970092a4-e5f2-4795-aaf9-e0264a8b1845
-
 ms.date: 12/05/2018
 ms.keywords: IDWriteBitmapRenderTarget interface [Direct Write],SetCurrentTransform method, IDWriteBitmapRenderTarget.SetCurrentTransform, IDWriteBitmapRenderTarget::SetCurrentTransform, SetCurrentTransform, SetCurrentTransform method [Direct Write], SetCurrentTransform method [Direct Write],IDWriteBitmapRenderTarget interface, directwrite.IDWriteBitmapRenderTarget_SetCurrentTransform, dwrite/IDWriteBitmapRenderTarget::SetCurrentTransform
 ms.topic: method
-f1_keywords: 
- - "dwrite/IDWriteBitmapRenderTarget.SetCurrentTransform"
+f1_keywords:
+- dwrite/IDWriteBitmapRenderTarget.SetCurrentTransform
 dev_langs:
- - c++
+- c++
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dwrite.lib
 req.dll: Dwrite.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dwrite.dll
+- dwrite.dll
 api_name:
- - IDWriteBitmapRenderTarget.SetCurrentTransform
+- IDWriteBitmapRenderTarget.SetCurrentTransform
 targetos: Windows
 req.typenames: 
 req.redist: 

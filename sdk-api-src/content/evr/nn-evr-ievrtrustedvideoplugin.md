@@ -1,19 +1,17 @@
 ---
 UID: NN:evr.IEVRTrustedVideoPlugin
 title: IEVRTrustedVideoPlugin (evr.h)
-
 description: Enables a plug-in component for the enhanced video renderer (EVR) to work with protected media.
 old-location: mf\ievrtrustedvideoplugin.htm
 tech.root: medfound
 ms.assetid: 1dcaa01c-2596-4a22-9e2a-7f0e26d58ffe
-
 ms.date: 12/05/2018
 ms.keywords: 1dcaa01c-2596-4a22-9e2a-7f0e26d58ffe, IEVRTrustedVideoPlugin, IEVRTrustedVideoPlugin interface [Media Foundation], IEVRTrustedVideoPlugin interface [Media Foundation],described, evr/IEVRTrustedVideoPlugin, mf.ievrtrustedvideoplugin
 ms.topic: interface
-f1_keywords: 
- - "evr/IEVRTrustedVideoPlugin"
+f1_keywords:
+- evr/IEVRTrustedVideoPlugin
 dev_langs:
- - c++
+- c++
 req.header: evr.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IEVRTrustedVideoPlugin
+- IEVRTrustedVideoPlugin
 targetos: Windows
 req.typenames: 
 req.redist: 

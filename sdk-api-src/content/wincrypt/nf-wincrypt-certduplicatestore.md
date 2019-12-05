@@ -1,19 +1,17 @@
 ---
 UID: NF:wincrypt.CertDuplicateStore
 title: CertDuplicateStore function (wincrypt.h)
-
 description: Duplicates a store handle by incrementing the store's reference count.
 old-location: security\certduplicatestore.htm
 tech.root: SecCrypto
 ms.assetid: 628efd30-6e07-4748-82ac-5cdc723be451
-
 ms.date: 12/05/2018
 ms.keywords: CertDuplicateStore, CertDuplicateStore function [Security], _crypto2_certduplicatestore, security.certduplicatestore, wincrypt/CertDuplicateStore
 ms.topic: function
-f1_keywords: 
- - "wincrypt/CertDuplicateStore"
+f1_keywords:
+- wincrypt/CertDuplicateStore
 dev_langs:
- - c++
+- c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Crypt32.lib
 req.dll: Crypt32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Crypt32.dll
+- Crypt32.dll
 api_name:
- - CertDuplicateStore
+- CertDuplicateStore
 targetos: Windows
 req.typenames: 
 req.redist: 

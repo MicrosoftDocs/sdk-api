@@ -1,19 +1,17 @@
 ---
 UID: NS:winddi._FONTINFO
 title: FONTINFO (winddi.h)
-
 description: The FONTINFO structure contains information regarding a specific font.
 old-location: display\fontinfo.htm
 tech.root: display
 ms.assetid: fdb1539a-f8cb-41fd-bad2-d84c6663b1bb
-
 ms.date: 12/05/2018
-ms.keywords: "*PFONTINFO, FONTINFO, FONTINFO structure [Display Devices], PFONTINFO, PFONTINFO structure pointer [Display Devices], display.fontinfo, grstrcts_95e2167e-53ae-44d9-a889-be2139bcac99.xml, winddi/FONTINFO, winddi/PFONTINFO"
+ms.keywords: '*PFONTINFO, FONTINFO, FONTINFO structure [Display Devices], PFONTINFO, PFONTINFO structure pointer [Display Devices], display.fontinfo, grstrcts_95e2167e-53ae-44d9-a889-be2139bcac99.xml, winddi/FONTINFO, winddi/PFONTINFO'
 ms.topic: struct
-f1_keywords: 
- - "winddi/FONTINFO"
+f1_keywords:
+- winddi/FONTINFO
 dev_langs:
- - c++
+- c++
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - winddi.h
+- winddi.h
 api_name:
- - FONTINFO
+- FONTINFO
 targetos: Windows
 req.typenames: FONTINFO, *PFONTINFO
 req.redist: 

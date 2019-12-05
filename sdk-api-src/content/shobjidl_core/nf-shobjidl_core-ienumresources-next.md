@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IEnumResources.Next
 title: IEnumResources::Next (shobjidl_core.h)
-
 description: Gets the next SHELL_ITEM_RESOURCE structure.
 old-location: shell\IEnumResources_Next.htm
 tech.root: shell
 ms.assetid: b5d0d754-4252-476a-b3af-0ba257eab339
-
 ms.date: 12/05/2018
 ms.keywords: IEnumResources interface [Windows Shell],Next method, IEnumResources.Next, IEnumResources::Next, Next, Next method [Windows Shell], Next method [Windows Shell],IEnumResources interface, _shell_IEnumResources_Next, shell.IEnumResources_Next, shobjidl_core/IEnumResources::Next
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IEnumResources.Next"
+f1_keywords:
+- shobjidl_core/IEnumResources.Next
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - IEnumResources.Next
+- IEnumResources.Next
 targetos: Windows
 req.typenames: 
 req.redist: 

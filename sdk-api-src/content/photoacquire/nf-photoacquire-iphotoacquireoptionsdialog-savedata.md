@@ -1,19 +1,17 @@
 ---
 UID: NF:photoacquire.IPhotoAcquireOptionsDialog.SaveData
 title: IPhotoAcquireOptionsDialog::SaveData (photoacquire.h)
-
 description: The SaveData method saves acquisition settings from the options dialog box to the registry so that a subsequent instance of the dialog can be initialized with the same settings.
 old-location: picacq\iphotoacquireoptionsdialog_savedata.htm
 tech.root: acquisition
 ms.assetid: 271c2bfb-67a9-4998-90d1-4ed61f89aa03
-
 ms.date: 12/05/2018
 ms.keywords: IPhotoAcquireOptionsDialog interface [Picture Acquisition],SaveData method, IPhotoAcquireOptionsDialog.SaveData, IPhotoAcquireOptionsDialog::SaveData, IPhotoAcquireOptionsDialogSaveData, SaveData, SaveData method [Picture Acquisition], SaveData method [Picture Acquisition],IPhotoAcquireOptionsDialog interface, photoacquire/IPhotoAcquireOptionsDialog::SaveData, picacq.iphotoacquireoptionsdialog_savedata
 ms.topic: method
-f1_keywords: 
- - "photoacquire/IPhotoAcquireOptionsDialog.SaveData"
+f1_keywords:
+- photoacquire/IPhotoAcquireOptionsDialog.SaveData
 dev_langs:
- - c++
+- c++
 req.header: photoacquire.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: PhotoAcquireUID.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - PhotoAcquireUID.lib
- - PhotoAcquireUID.dll
+- PhotoAcquireUID.lib
+- PhotoAcquireUID.dll
 api_name:
- - IPhotoAcquireOptionsDialog.SaveData
+- IPhotoAcquireOptionsDialog.SaveData
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:oleidl.IOleInPlaceFrame.RemoveMenus
 title: IOleInPlaceFrame::RemoveMenus (oleidl.h)
-
 description: Removes a container's menu elements from the composite menu.
 old-location: com\ioleinplaceframe_removemenus.htm
 tech.root: com
 ms.assetid: 92d9fcda-8ede-4f38-ad56-59c4a75fe45a
-
 ms.date: 12/05/2018
 ms.keywords: IOleInPlaceFrame interface [COM],RemoveMenus method, IOleInPlaceFrame.RemoveMenus, IOleInPlaceFrame::RemoveMenus, RemoveMenus, RemoveMenus method [COM], RemoveMenus method [COM],IOleInPlaceFrame interface, _ole_ioleinplaceframe_removemenus, com.ioleinplaceframe_removemenus, oleidl/IOleInPlaceFrame::RemoveMenus
 ms.topic: method
-f1_keywords: 
- - "oleidl/IOleInPlaceFrame.RemoveMenus"
+f1_keywords:
+- oleidl/IOleInPlaceFrame.RemoveMenus
 dev_langs:
- - c++
+- c++
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - OleIdl.h
+- OleIdl.h
 api_name:
- - IOleInPlaceFrame.RemoveMenus
+- IOleInPlaceFrame.RemoveMenus
 targetos: Windows
 req.typenames: 
 req.redist: 

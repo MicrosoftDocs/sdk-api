@@ -1,19 +1,17 @@
 ---
 UID: NS:ws2ipdef.ip_msfilter
 title: IP_MSFILTER (ws2ipdef.h)
-
 description: The ip_msfilter structure provides multicast filtering parameters for IPv4 addresses.
 old-location: winsock\ip_msfilter.htm
 tech.root: WinSock
 ms.assetid: 8d9d515e-9369-4d71-9614-6cbeb5557a5d
-
 ms.date: 12/05/2018
-ms.keywords: "*PIP_MSFILTER, IP_MSFILTER, IP_MSFILTER [Winsock], IP_MSFILTER structure [Winsock], PIP_MSFILTER, PIP_MSFILTER structure pointer [Winsock], ip_msfilter, ip_msfilter structure [Winsock], winsock.ip_msfilter, ws2ipdef/PIP_MSFILTER, ws2ipdef/ip_msfilter, ws2tcpip/PIP_MSFILTER, ws2tcpip/ip_msfilter"
+ms.keywords: '*PIP_MSFILTER, IP_MSFILTER, IP_MSFILTER [Winsock], IP_MSFILTER structure [Winsock], PIP_MSFILTER, PIP_MSFILTER structure pointer [Winsock], ip_msfilter, ip_msfilter structure [Winsock], winsock.ip_msfilter, ws2ipdef/PIP_MSFILTER, ws2ipdef/ip_msfilter, ws2tcpip/PIP_MSFILTER, ws2tcpip/ip_msfilter'
 ms.topic: struct
-f1_keywords: 
- - "ws2ipdef/IP_MSFILTER"
+f1_keywords:
+- ws2ipdef/IP_MSFILTER
 dev_langs:
- - c++
+- c++
 req.header: ws2ipdef.h
 req.include-header: Ws2tcpip.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Ws2ipdef.h
- - Ws2tcpip.h
+- Ws2ipdef.h
+- Ws2tcpip.h
 api_name:
- - IP_MSFILTER
+- IP_MSFILTER
 targetos: Windows
 req.typenames: IP_MSFILTER, *PIP_MSFILTER
 req.redist: 

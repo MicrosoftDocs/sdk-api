@@ -1,19 +1,17 @@
 ---
 UID: NF:propvarutil.VariantToInt64Array
 title: VariantToInt64Array function (propvarutil.h)
-
 description: Extracts data from a vector structure into an Int64 array.
 old-location: properties\VariantToInt64Array.htm
 tech.root: properties
 ms.assetid: 936e87e8-8102-4da2-b388-147fab6ec16f
-
 ms.date: 12/05/2018
 ms.keywords: VariantToInt64Array, VariantToInt64Array function [Windows Properties], _shell_VariantToInt64Array, properties.VariantToInt64Array, propvarutil/VariantToInt64Array, shell.VariantToInt64Array
 ms.topic: function
-f1_keywords: 
- - "propvarutil/VariantToInt64Array"
+f1_keywords:
+- propvarutil/VariantToInt64Array
 dev_langs:
- - c++
+- c++
 req.header: propvarutil.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Propsys.lib
 req.dll: Propsys.dll (version 6.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Propsys.dll
+- Propsys.dll
 api_name:
- - VariantToInt64Array
+- VariantToInt64Array
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0

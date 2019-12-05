@@ -1,19 +1,17 @@
 ---
 UID: NF:winsnmp.SnmpSetPduData
 title: SnmpSetPduData function (winsnmp.h)
-
 description: The WinSNMP SnmpSetPduData function updates selected data fields in the specified SNMP protocol data unit (PDU).
 old-location: snmp\snmpsetpdudata.htm
 tech.root: SNMP
 ms.assetid: 113c67b4-65d7-418d-9600-d1545e1cb0fb
-
 ms.date: 12/05/2018
 ms.keywords: SnmpSetPduData, SnmpSetPduData function [SNMP], _snmp_snmpsetpdudata, snmp.snmpsetpdudata, winsnmp/SnmpSetPduData
 ms.topic: function
-f1_keywords: 
- - "winsnmp/SnmpSetPduData"
+f1_keywords:
+- winsnmp/SnmpSetPduData
 dev_langs:
- - c++
+- c++
 req.header: winsnmp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Wsnmp32.lib
 req.dll: Wsnmp32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Wsnmp32.dll
+- Wsnmp32.dll
 api_name:
- - SnmpSetPduData
+- SnmpSetPduData
 targetos: Windows
 req.typenames: 
 req.redist: 

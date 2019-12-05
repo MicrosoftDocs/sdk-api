@@ -1,19 +1,17 @@
 ---
 UID: NF:iads.IADsCollection.Add
 title: IADsCollection::Add (iads.h)
-
 description: Adds a named item to the collection.
 old-location: adsi\iadscollection_add.htm
 tech.root: adsi
 ms.assetid: c4f0dc3e-238c-4fd3-adb7-9d467efc8c3d
-
 ms.date: 12/05/2018
 ms.keywords: Add, Add method [ADSI], Add method [ADSI],IADsCollection interface, IADsCollection interface [ADSI],Add method, IADsCollection.Add, IADsCollection::Add, _ds_iadscollection_add, adsi.iadscollection__add, adsi.iadscollection_add, iads/IADsCollection::Add
 ms.topic: method
-f1_keywords: 
- - "iads/IADsCollection.Add"
+f1_keywords:
+- iads/IADsCollection.Add
 dev_langs:
- - c++
+- c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Activeds.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Activeds.dll
+- Activeds.dll
 api_name:
- - IADsCollection.Add
+- IADsCollection.Add
 targetos: Windows
 req.typenames: 
 req.redist: 

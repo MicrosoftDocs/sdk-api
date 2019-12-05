@@ -1,19 +1,17 @@
 ---
 UID: NF:wmp.IWMPDVD.get_isAvailable
 title: IWMPDVD::get_isAvailable (wmp.h)
-
 description: The get_isAvailable method indicates whether a specified type of information is available or a specified action can be performed.
 old-location: wmp\iwmpdvd_get_isavailable.htm
 tech.root: WMP
 ms.assetid: bc8ce504-c387-4e3b-a227-926ae26ea78b
-
 ms.date: 12/05/2018
 ms.keywords: IWMPDVD interface [Windows Media Player],get_isAvailable method, IWMPDVD.get_isAvailable, IWMPDVD::get_isAvailable, IWMPDVDget_isAvailable, get_isAvailable, get_isAvailable method [Windows Media Player], get_isAvailable method [Windows Media Player],IWMPDVD interface, wmp.iwmpdvd_get_isavailable, wmp/IWMPDVD::get_isAvailable
 ms.topic: method
-f1_keywords: 
- - "wmp/IWMPDVD.get_isAvailable"
+f1_keywords:
+- wmp/IWMPDVD.get_isAvailable
 dev_langs:
- - c++
+- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wmp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmp.dll
+- wmp.dll
 api_name:
- - IWMPDVD.get_isAvailable
+- IWMPDVD.get_isAvailable
 targetos: Windows
 req.typenames: 
 req.redist: 

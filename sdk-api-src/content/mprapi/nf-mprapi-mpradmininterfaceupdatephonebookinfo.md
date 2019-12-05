@@ -1,19 +1,17 @@
 ---
 UID: NF:mprapi.MprAdminInterfaceUpdatePhonebookInfo
 title: MprAdminInterfaceUpdatePhonebookInfo function (mprapi.h)
-
 description: The MprAdminInterfaceUpdatePhonebookInfo function forces the router to pick up changes made on a specified demand-dial interface. Call this function after changes are made to a phone-book entry for a demand-dial interface.
 old-location: rras\mpradmininterfaceupdatephonebookinfo.htm
 tech.root: RRAS
 ms.assetid: fa337886-6fae-4e38-a59a-e26036c80d39
-
 ms.date: 12/05/2018
 ms.keywords: MprAdminInterfaceUpdatePhonebookInfo, MprAdminInterfaceUpdatePhonebookInfo function [RAS], _mpr_mpradmininterfaceupdatephonebookinfo, mprapi/MprAdminInterfaceUpdatePhonebookInfo, rras.mpradmininterfaceupdatephonebookinfo
 ms.topic: function
-f1_keywords: 
- - "mprapi/MprAdminInterfaceUpdatePhonebookInfo"
+f1_keywords:
+- mprapi/MprAdminInterfaceUpdatePhonebookInfo
 dev_langs:
- - c++
+- c++
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Mprapi.lib
 req.dll: Mprapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Mprapi.dll
+- Mprapi.dll
 api_name:
- - MprAdminInterfaceUpdatePhonebookInfo
+- MprAdminInterfaceUpdatePhonebookInfo
 targetos: Windows
 req.typenames: 
 req.redist: 

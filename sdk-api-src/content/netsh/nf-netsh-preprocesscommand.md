@@ -1,19 +1,17 @@
 ---
 UID: NF:netsh.PreprocessCommand
 title: PreprocessCommand function (netsh.h)
-
 description: Parses an argument string and verifies that all required tags are present.
 old-location: netshell\preprocesscommand.htm
 tech.root: netshell
 ms.assetid: 6795512e-4b90-47da-962a-d9e6ecfb7ee0
-
 ms.date: 12/05/2018
 ms.keywords: PreprocessCommand, PreprocessCommand function [NetShell], _netsh_preprocesscommand, netsh/PreprocessCommand, netshell.preprocesscommand
 ms.topic: function
-f1_keywords: 
- - "netsh/PreprocessCommand"
+f1_keywords:
+- netsh/PreprocessCommand
 dev_langs:
- - c++
+- c++
 req.header: netsh.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Netsh.lib
 req.dll: Netsh.exe
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Netsh.exe
+- Netsh.exe
 api_name:
- - PreprocessCommand
+- PreprocessCommand
 targetos: Windows
 req.typenames: 
 req.redist: 

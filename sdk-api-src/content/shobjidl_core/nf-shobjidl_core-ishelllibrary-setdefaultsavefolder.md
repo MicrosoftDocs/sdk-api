@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IShellLibrary.SetDefaultSaveFolder
 title: IShellLibrary::SetDefaultSaveFolder (shobjidl_core.h)
-
 description: Sets the default target folder that the library will use for save operations.
 old-location: shell\IShellLibrary_SetDefaultSaveFolder.htm
 tech.root: shell
 ms.assetid: 0c65bd5e-22f4-450b-a1d5-75e564854b5f
-
 ms.date: 12/05/2018
 ms.keywords: IShellLibrary interface [Windows Shell],SetDefaultSaveFolder method, IShellLibrary.SetDefaultSaveFolder, IShellLibrary::SetDefaultSaveFolder, SetDefaultSaveFolder, SetDefaultSaveFolder method [Windows Shell], SetDefaultSaveFolder method [Windows Shell],IShellLibrary interface, _shell_IShellLibrary_SetDefaultSaveFolder, shell.IShellLibrary_SetDefaultSaveFolder, shobjidl_core/IShellLibrary::SetDefaultSaveFolder
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IShellLibrary.SetDefaultSaveFolder"
+f1_keywords:
+- shobjidl_core/IShellLibrary.SetDefaultSaveFolder
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - IShellLibrary.SetDefaultSaveFolder
+- IShellLibrary.SetDefaultSaveFolder
 targetos: Windows
 req.typenames: 
 req.redist: 

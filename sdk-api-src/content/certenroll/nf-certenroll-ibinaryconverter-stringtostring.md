@@ -1,19 +1,17 @@
 ---
 UID: NF:certenroll.IBinaryConverter.StringToString
 title: IBinaryConverter::StringToString (certenroll.h)
-
 description: Modifies the type of Unicode encoding applied to a string.
 old-location: security\ibinaryconverter_stringtostring_method.htm
 tech.root: seccertenroll
 ms.assetid: c584a9bd-4ea3-4df7-8a9a-1f70cf07a213
-
 ms.date: 12/05/2018
 ms.keywords: IBinaryConverter interface [Security],StringToString method, IBinaryConverter.StringToString, IBinaryConverter::StringToString, StringToString, StringToString method [Security], StringToString method [Security],IBinaryConverter interface, certenroll/IBinaryConverter::StringToString, security.ibinaryconverter_stringtostring_method
 ms.topic: method
-f1_keywords: 
- - "certenroll/IBinaryConverter.StringToString"
+f1_keywords:
+- certenroll/IBinaryConverter.StringToString
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: CertEnroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CertEnroll.dll
+- CertEnroll.dll
 api_name:
- - IBinaryConverter.StringToString
+- IBinaryConverter.StringToString
 targetos: Windows
 req.typenames: 
 req.redist: 

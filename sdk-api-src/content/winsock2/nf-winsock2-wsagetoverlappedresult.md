@@ -1,19 +1,17 @@
 ---
 UID: NF:winsock2.WSAGetOverlappedResult
 title: WSAGetOverlappedResult function (winsock2.h)
-
 description: The WSAGetOverlappedResult function retrieves the results of an overlapped operation on the specified socket.
 old-location: winsock\wsagetoverlappedresult_2.htm
 tech.root: WinSock
 ms.assetid: 3c43ccfd-0fe7-4ecc-9517-e0a1c448f7e4
-
 ms.date: 12/05/2018
 ms.keywords: WSAGetOverlappedResult, WSAGetOverlappedResult function [Winsock], _win32_wsagetoverlappedresult_2, winsock.wsagetoverlappedresult_2, winsock2/WSAGetOverlappedResult
 ms.topic: function
 f1_keywords:
 - winsock2/WSAGetOverlappedResult
 dev_langs:
- - c++
+- c++
 req.header: winsock2.h
 req.include-header: 
 req.target-type: Windows

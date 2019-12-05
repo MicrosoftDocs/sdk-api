@@ -1,19 +1,17 @@
 ---
 UID: NF:mftransform.IMFDeviceTransform.GetInputCurrentType
 title: IMFDeviceTransform::GetInputCurrentType (mftransform.h)
-
 description: The GetInputCurrentType method gets the current media type for an input stream on this Media Foundation transform (MFT).
 old-location: stream\imfdevicetransform_getinputcurrenttype.htm
 tech.root: stream
 ms.assetid: 8E2955AD-ECBD-4C24-972A-8F670DC08F0F
-
 ms.date: 12/05/2018
 ms.keywords: GetInputCurrentType, GetInputCurrentType method [Streaming Media Devices], GetInputCurrentType method [Streaming Media Devices],IMFDeviceTransform interface, IMFDeviceTransform interface [Streaming Media Devices],GetInputCurrentType method, IMFDeviceTransform.GetInputCurrentType, IMFDeviceTransform::GetInputCurrentType, mftransform/IMFDeviceTransform::GetInputCurrentType, stream.imfdevicetransform_getinputcurrenttype
 ms.topic: method
-f1_keywords: 
- - "mftransform/IMFDeviceTransform.GetInputCurrentType"
+f1_keywords:
+- mftransform/IMFDeviceTransform.GetInputCurrentType
 dev_langs:
- - c++
+- c++
 req.header: mftransform.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mftransform.h
+- mftransform.h
 api_name:
- - IMFDeviceTransform.GetInputCurrentType
+- IMFDeviceTransform.GetInputCurrentType
 targetos: Windows
 req.typenames: 
 req.redist: 

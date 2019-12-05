@@ -1,19 +1,17 @@
 ---
 UID: NF:audioenginebaseapo.IAudioProcessingObject.GetRegistrationProperties
 title: IAudioProcessingObject::GetRegistrationProperties (audioenginebaseapo.h)
-
 description: GetRegistrationProperties returns the registration properties of the audio processing object (APO).
 old-location: audio\iaudioprocessingobject_getregistrationproperties.htm
 tech.root: audio
 ms.assetid: A0D0BAA9-7942-4952-AC9D-087EE7FE6DD0
-
 ms.date: 12/05/2018
 ms.keywords: GetRegistrationProperties, GetRegistrationProperties method [Audio Devices], GetRegistrationProperties method [Audio Devices],IAudioProcessingObject interface, IAudioProcessingObject interface [Audio Devices],GetRegistrationProperties method, IAudioProcessingObject.GetRegistrationProperties, IAudioProcessingObject::GetRegistrationProperties, audio.iaudioprocessingobject_getregistrationproperties, audioenginebaseapo/IAudioProcessingObject::GetRegistrationProperties
 ms.topic: method
-f1_keywords: 
- - "audioenginebaseapo/IAudioProcessingObject.GetRegistrationProperties"
+f1_keywords:
+- audioenginebaseapo/IAudioProcessingObject.GetRegistrationProperties
 dev_langs:
- - c++
+- c++
 req.header: audioenginebaseapo.h
 req.include-header: 
 req.target-type: Universal
@@ -32,15 +30,15 @@ req.lib: Audioenginebaseapo.idl
 req.dll: 
 req.irql: Any level
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Audioenginebaseapo.idl
- - Audioenginebaseapo.idl.dll
+- Audioenginebaseapo.idl
+- Audioenginebaseapo.idl.dll
 api_name:
- - IAudioProcessingObject.GetRegistrationProperties
+- IAudioProcessingObject.GetRegistrationProperties
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d11.ID3D11DeviceContext.CSGetShader
 title: ID3D11DeviceContext::CSGetShader (d3d11.h)
-
 description: Get the compute shader currently set on the device.
 old-location: direct3d11\id3d11devicecontext_csgetshader.htm
 tech.root: direct3d11
 ms.assetid: ddd09ca8-ab1f-4d1d-a182-44e48bac93c5
-
 ms.date: 12/05/2018
 ms.keywords: CSGetShader, CSGetShader method [Direct3D 11], CSGetShader method [Direct3D 11],ID3D11DeviceContext interface, ID3D11DeviceContext interface [Direct3D 11],CSGetShader method, ID3D11DeviceContext.CSGetShader, ID3D11DeviceContext::CSGetShader, d3d11/ID3D11DeviceContext::CSGetShader, d55a8dcd-a09c-0388-1870-f4bcb519d6b1, direct3d11.id3d11devicecontext_csgetshader
 ms.topic: method
-f1_keywords: 
- - "d3d11/ID3D11DeviceContext.CSGetShader"
+f1_keywords:
+- d3d11/ID3D11DeviceContext.CSGetShader
 dev_langs:
- - c++
+- c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: D3D11.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D11.lib
- - D3D11.dll
+- D3D11.lib
+- D3D11.dll
 api_name:
- - ID3D11DeviceContext.CSGetShader
+- ID3D11DeviceContext.CSGetShader
 targetos: Windows
 req.typenames: 
 req.redist: 

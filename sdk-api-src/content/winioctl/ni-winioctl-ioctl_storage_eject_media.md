@@ -1,19 +1,17 @@
 ---
 UID: NI:winioctl.IOCTL_STORAGE_EJECT_MEDIA
 title: IOCTL_STORAGE_EJECT_MEDIA
-
 description: Ejects media from a SCSI device.
 old-location: base\ioctl_storage_eject_media.htm
 tech.root: devio
 ms.assetid: e1eeb3b8-b52b-4570-a3bc-e245ae58464f
-
 ms.date: 12/05/2018
 ms.keywords: IOCTL_STORAGE_EJECT_MEDIA, IOCTL_STORAGE_EJECT_MEDIA control, IOCTL_STORAGE_EJECT_MEDIA control code, _win32_ioctl_storage_eject_media, base.ioctl_storage_eject_media, winioctl/IOCTL_STORAGE_EJECT_MEDIA
 ms.topic: ioctl
-f1_keywords: 
- - "winioctl/IOCTL_STORAGE_EJECT_MEDIA"
+f1_keywords:
+- winioctl/IOCTL_STORAGE_EJECT_MEDIA
 dev_langs:
- - c++
+- c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WinIoCtl.h
+- WinIoCtl.h
 api_name:
- - IOCTL_STORAGE_EJECT_MEDIA
+- IOCTL_STORAGE_EJECT_MEDIA
 targetos: Windows
 req.typenames: 
 req.redist: 

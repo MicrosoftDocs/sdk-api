@@ -1,19 +1,17 @@
 ---
 UID: NF:dbghelp.SymFindDebugInfoFileW
 title: SymFindDebugInfoFileW function (dbghelp.h)
-
 description: Locates a .dbg file in the process search path.
 old-location: base\symfinddebuginfofile.htm
 tech.root: Debug
 ms.assetid: ea4879b2-edf8-4542-b16a-41777c0068cd
-
 ms.date: 12/05/2018
 ms.keywords: SymFindDebugInfoFile, SymFindDebugInfoFile function, SymFindDebugInfoFileW, base.symfinddebuginfofile, dbghelp/SymFindDebugInfoFile, dbghelp/SymFindDebugInfoFileW
 ms.topic: function
-f1_keywords: 
- - "dbghelp/SymFindDebugInfoFile"
+f1_keywords:
+- dbghelp/SymFindDebugInfoFile
 dev_langs:
- - c++
+- c++
 req.header: dbghelp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Dbghelp.lib
 req.dll: Dbghelp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Dbghelp.dll
+- Dbghelp.dll
 api_name:
- - SymFindDebugInfoFile
- - SymFindDebugInfoFile
- - SymFindDebugInfoFileW
+- SymFindDebugInfoFile
+- SymFindDebugInfoFile
+- SymFindDebugInfoFileW
 targetos: Windows
 req.typenames: 
 req.redist: DbgHelp.dll 6.6 or later

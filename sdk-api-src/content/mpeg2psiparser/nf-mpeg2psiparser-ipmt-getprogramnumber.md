@@ -1,19 +1,17 @@
 ---
 UID: NF:mpeg2psiparser.IPMT.GetProgramNumber
 title: IPMT::GetProgramNumber (mpeg2psiparser.h)
-
 description: The GetProgramNumber method returns the program number for the PMT.
 old-location: mstv\ipmt_getprogramnumber.htm
 tech.root: mstv
 ms.assetid: 39006f8b-7dd4-4f19-badc-3a288a7b6520
-
 ms.date: 12/05/2018
 ms.keywords: GetProgramNumber, GetProgramNumber method [Microsoft TV Technologies], GetProgramNumber method [Microsoft TV Technologies],IPMT interface, IPMT interface [Microsoft TV Technologies],GetProgramNumber method, IPMT.GetProgramNumber, IPMT::GetProgramNumber, IPMTGetProgramNumber, mpeg2psiparser/IPMT::GetProgramNumber, mstv.ipmt_getprogramnumber
 ms.topic: method
-f1_keywords: 
- - "mpeg2psiparser/IPMT.GetProgramNumber"
+f1_keywords:
+- mpeg2psiparser/IPMT.GetProgramNumber
 dev_langs:
- - c++
+- c++
 req.header: mpeg2psiparser.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mpeg2PsiParser.h
+- Mpeg2PsiParser.h
 api_name:
- - IPMT.GetProgramNumber
+- IPMT.GetProgramNumber
 targetos: Windows
 req.typenames: 
 req.redist: 

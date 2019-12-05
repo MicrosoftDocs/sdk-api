@@ -1,19 +1,17 @@
 ---
 UID: NF:mfidl.IMFSensorGroup.GetSymbolicLink
 title: IMFSensorGroup::GetSymbolicLink (mfidl.h)
-
 description: Gets the symbolic link name of the sensor group.
 old-location: mf\imfsensorgroup_getsymboliclink.htm
 tech.root: medfound
 ms.assetid: F71CFD47-6D44-4288-A70E-70040D19DB2D
-
 ms.date: 12/05/2018
 ms.keywords: GetSymbolicLink, GetSymbolicLink method [Media Foundation], GetSymbolicLink method [Media Foundation],IMFSensorGroup interface, IMFSensorGroup interface [Media Foundation],GetSymbolicLink method, IMFSensorGroup.GetSymbolicLink, IMFSensorGroup::GetSymbolicLink, mf.imfsensorgroup_getsymboliclink, mfidl/IMFSensorGroup::GetSymbolicLink
 ms.topic: method
-f1_keywords: 
- - "mfidl/IMFSensorGroup.GetSymbolicLink"
+f1_keywords:
+- mfidl/IMFSensorGroup.GetSymbolicLink
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Mfplat.lib; Mfplat.dll
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfplat.lib
- - mfplat.dll
- - mfplat.dll
- - mfplat.dll.dll
+- mfplat.lib
+- mfplat.dll
+- mfplat.dll
+- mfplat.dll.dll
 api_name:
- - IMFSensorGroup.GetSymbolicLink
+- IMFSensorGroup.GetSymbolicLink
 targetos: Windows
 req.typenames: 
 req.redist: 

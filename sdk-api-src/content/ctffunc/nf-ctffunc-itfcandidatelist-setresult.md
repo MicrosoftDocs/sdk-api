@@ -1,19 +1,17 @@
 ---
 UID: NF:ctffunc.ITfCandidateList.SetResult
 title: ITfCandidateList::SetResult (ctffunc.h)
-
 description: ITfCandidateList::SetResult method
 old-location: tsf\itfcandidatelist_setresult.htm
 tech.root: TSF
 ms.assetid: dcc172f9-4fc3-46f4-a1db-0e75fceafb28
-
 ms.date: 12/05/2018
 ms.keywords: ITfCandidateList interface [Text Services Framework],SetResult method, ITfCandidateList.SetResult, ITfCandidateList::SetResult, SetResult, SetResult method [Text Services Framework], SetResult method [Text Services Framework],ITfCandidateList interface, _tsf_itfcandidatelist_setresult_ref, ctffunc/ITfCandidateList::SetResult, tsf.itfcandidatelist_setresult
 ms.topic: method
-f1_keywords: 
- - "ctffunc/ITfCandidateList.SetResult"
+f1_keywords:
+- ctffunc/ITfCandidateList.SetResult
 dev_langs:
- - c++
+- c++
 req.header: ctffunc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Tiptsf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Tiptsf.dll
+- Tiptsf.dll
 api_name:
- - ITfCandidateList.SetResult
+- ITfCandidateList.SetResult
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

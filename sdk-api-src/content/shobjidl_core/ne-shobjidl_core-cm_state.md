@@ -1,19 +1,17 @@
 ---
 UID: NE:shobjidl_core.CM_STATE
 title: CM_STATE (shobjidl_core.h)
-
 description: Specifies column state values. Used by members of the IColumnManager interface through the CM_COLUMNINFO structure.
 old-location: shell\CM_STATE.htm
 tech.root: shell
 ms.assetid: a614dfdc-9535-40c4-9a17-5ab032113508
-
 ms.date: 12/05/2018
 ms.keywords: CM_STATE, CM_STATE enumeration [Windows Shell], CM_STATE_ALWAYSVISIBLE, CM_STATE_FIXEDWIDTH, CM_STATE_NONE, CM_STATE_NOSORTBYFOLDERNESS, CM_STATE_VISIBLE, shell.CM_STATE, shell_CM_STATE, shobjidl_core/CM_STATE, shobjidl_core/CM_STATE_ALWAYSVISIBLE, shobjidl_core/CM_STATE_FIXEDWIDTH, shobjidl_core/CM_STATE_NONE, shobjidl_core/CM_STATE_NOSORTBYFOLDERNESS, shobjidl_core/CM_STATE_VISIBLE
 ms.topic: enum
-f1_keywords: 
- - "shobjidl_core/CM_STATE"
+f1_keywords:
+- shobjidl_core/CM_STATE
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - CM_STATE
+- CM_STATE
 targetos: Windows
 req.typenames: CM_STATE
 req.redist: 

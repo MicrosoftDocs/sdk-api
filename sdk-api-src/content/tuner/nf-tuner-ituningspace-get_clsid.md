@@ -1,19 +1,17 @@
 ---
 UID: NF:tuner.ITuningSpace.get_CLSID
 title: ITuningSpace::get_CLSID (tuner.h)
-
 description: The get_CLSID method gets the CLSID of the tuning space as a BSTR.
 old-location: mstv\ituningspace_get_clsid.htm
 tech.root: mstv
 ms.assetid: def4aac2-3d0b-4ce6-9f6b-d13e7c3cc86d
-
 ms.date: 12/05/2018
 ms.keywords: ITuningSpace interface [Microsoft TV Technologies],get_CLSID method, ITuningSpace.get_CLSID, ITuningSpace::get_CLSID, ITuningSpaceget_CLSID, get_CLSID, get_CLSID method [Microsoft TV Technologies], get_CLSID method [Microsoft TV Technologies],ITuningSpace interface, mstv.ituningspace_get_clsid, tuner/ITuningSpace::get_CLSID
 ms.topic: method
-f1_keywords: 
- - "tuner/ITuningSpace.get_CLSID"
+f1_keywords:
+- tuner/ITuningSpace.get_CLSID
 dev_langs:
- - c++
+- c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - tuner.h
+- tuner.h
 api_name:
- - ITuningSpace.get_CLSID
+- ITuningSpace.get_CLSID
 targetos: Windows
 req.typenames: 
 req.redist: 

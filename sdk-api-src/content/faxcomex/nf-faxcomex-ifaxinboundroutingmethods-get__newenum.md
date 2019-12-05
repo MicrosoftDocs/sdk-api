@@ -1,19 +1,17 @@
 ---
 UID: NF:faxcomex.IFaxInboundRoutingMethods.get__NewEnum
 title: IFaxInboundRoutingMethods::get__NewEnum (faxcomex.h)
-
 description: The IFaxInboundRoutingMethods::get__NewEnum method returns a reference to an enumerator object that you can use to iterate through the IFaxInboundRoutingMethods collection.
 old-location: fax\_mfax_ifaxinboundroutingmethods_get__newenum.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_2z3h.htm
-
 ms.date: 12/05/2018
 ms.keywords: IFaxInboundRoutingMethods interface [Fax Service],get__NewEnum method, IFaxInboundRoutingMethods.get__NewEnum, IFaxInboundRoutingMethods::get__NewEnum, _mfax_ifaxinboundroutingmethods_get__newenum, fax._mfax_ifaxinboundroutingmethods_get__newenum, faxcomex/IFaxInboundRoutingMethods::get__NewEnum, get__NewEnum, get__NewEnum method [Fax Service], get__NewEnum method [Fax Service],IFaxInboundRoutingMethods interface
 ms.topic: method
-f1_keywords: 
- - "faxcomex/IFaxInboundRoutingMethods.get__NewEnum"
+f1_keywords:
+- faxcomex/IFaxInboundRoutingMethods.get__NewEnum
 dev_langs:
- - c++
+- c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Fxscomex.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Fxscomex.dll
+- Fxscomex.dll
 api_name:
- - IFaxInboundRoutingMethods.get__NewEnum
+- IFaxInboundRoutingMethods.get__NewEnum
 targetos: Windows
 req.typenames: 
 req.redist: 

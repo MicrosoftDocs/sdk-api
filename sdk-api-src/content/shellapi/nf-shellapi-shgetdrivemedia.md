@@ -1,19 +1,17 @@
 ---
 UID: NF:shellapi.SHGetDriveMedia
 title: SHGetDriveMedia function (shellapi.h)
-
 description: Returns the type of media that is in the given drive.
 old-location: shell\SHGetDriveMedia.htm
 tech.root: shell
 ms.assetid: 9b1208cd-3c13-456a-8a7f-0f149cb86d38
-
 ms.date: 12/05/2018
 ms.keywords: SHGetDriveMedia, SHGetDriveMedia function [Windows Shell], _shell_SHGetDriveMedia, shell.SHGetDriveMedia, shellapi/SHGetDriveMedia
 ms.topic: function
-f1_keywords: 
- - "shellapi/SHGetDriveMedia"
+f1_keywords:
+- shellapi/SHGetDriveMedia
 dev_langs:
- - c++
+- c++
 req.header: shellapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Shell32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - SHGetDriveMedia
+- SHGetDriveMedia
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:ndfapi.NdfCreateGroupingIncident
 title: NdfCreateGroupingIncident function (ndfapi.h)
-
 description: Creates a session to diagnose peer-to-peer grouping functionality issues.
 old-location: ndf\ndfcreategroupingincident.htm
 tech.root: NDF
 ms.assetid: 308aa998-5940-4fbd-8bf6-bb14bc907a3f
-
 ms.date: 12/05/2018
 ms.keywords: NdfCreateGroupingIncident, NdfCreateGroupingIncident function [NDF], ndf.ndfcreategroupingincident, ndfapi/NdfCreateGroupingIncident
 ms.topic: function
-f1_keywords: 
- - "ndfapi/NdfCreateGroupingIncident"
+f1_keywords:
+- ndfapi/NdfCreateGroupingIncident
 dev_langs:
- - c++
+- c++
 req.header: ndfapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Ndfapi.lib
 req.dll: Ndfapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ndfapi.dll
+- Ndfapi.dll
 api_name:
- - NdfCreateGroupingIncident
+- NdfCreateGroupingIncident
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NS:wsman._WSMAN_USERNAME_PASSWORD_CREDS
 title: WSMAN_USERNAME_PASSWORD_CREDS (wsman.h)
-
 description: Defines the credentials used for authentication.
 old-location: winrm\wsman_username_password_creds.htm
 tech.root: winrm
 ms.assetid: 5cb2b52f-85a7-4760-9f0d-b515fad86d33
-
 ms.date: 12/05/2018
 ms.keywords: WSMAN_USERNAME_PASSWORD_CREDS, WSMAN_USERNAME_PASSWORD_CREDS structure [Windows Remote Management], winrm.wsman_username_password_creds, wsman/WSMAN_USERNAME_PASSWORD_CREDS
 ms.topic: struct
-f1_keywords: 
- - "wsman/WSMAN_USERNAME_PASSWORD_CREDS"
+f1_keywords:
+- wsman/WSMAN_USERNAME_PASSWORD_CREDS
 dev_langs:
- - c++
+- c++
 req.header: wsman.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wsman.h
+- Wsman.h
 api_name:
- - WSMAN_USERNAME_PASSWORD_CREDS
+- WSMAN_USERNAME_PASSWORD_CREDS
 targetos: Windows
 req.typenames: WSMAN_USERNAME_PASSWORD_CREDS
 req.redist: Windows Management Framework on Windows Server 2008 with SP2, Windows Vista with SP1, and Windows Vista with SP2

@@ -1,19 +1,17 @@
 ---
 UID: NC:mswsock.LPFN_CONNECTEX
 title: LPFN_CONNECTEX (mswsock.h)
-
 description: The ConnectEx function establishes a connection to a specified socket, and optionally sends data once the connection is established.
 old-location: winsock\connectex_2.htm
 tech.root: WinSock
 ms.assetid: a4552366-eafa-4f24-b6c2-e6a7edc4b021
-
 ms.date: 12/05/2018
 ms.keywords: LPFN_CONNECTEX, LPFN_CONNECTEX callback, LPFN_CONNECTEX callback function [Winsock], _win32_connectex_2, mswsock/LPFN_CONNECTEX, winsock.connectex_2
 ms.topic: callback
 f1_keywords:
 - mswsock/LPFN_CONNECTEX
 dev_langs:
- - c++
+- c++
 req.header: mswsock.h
 req.include-header: 
 req.target-type: Windows

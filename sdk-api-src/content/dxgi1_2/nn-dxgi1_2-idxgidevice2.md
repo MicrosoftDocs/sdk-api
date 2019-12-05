@@ -1,19 +1,17 @@
 ---
 UID: NN:dxgi1_2.IDXGIDevice2
 title: IDXGIDevice2 (dxgi1_2.h)
-
 description: The IDXGIDevice2 interface implements a derived class for DXGI objects that produce image data. The interface exposes methods to block CPU processing until the GPU completes processing, and to offer resources to the operating system.
 old-location: direct3ddxgi\idxgidevice2.htm
 tech.root: direct3ddxgi
 ms.assetid: 0AD1E52F-EB9F-473F-AF16-E2E1A7E8946A
-
 ms.date: 12/05/2018
 ms.keywords: IDXGIDevice2, IDXGIDevice2 interface [DXGI], IDXGIDevice2 interface [DXGI],described, direct3ddxgi.idxgidevice2, dxgi1_2/IDXGIDevice2
 ms.topic: interface
-f1_keywords: 
- - "dxgi1_2/IDXGIDevice2"
+f1_keywords:
+- dxgi1_2/IDXGIDevice2
 dev_langs:
- - c++
+- c++
 req.header: dxgi1_2.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Dxgi.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dxgi.lib
- - Dxgi.dll
+- Dxgi.lib
+- Dxgi.dll
 api_name:
- - IDXGIDevice2
+- IDXGIDevice2
 targetos: Windows
 req.typenames: 
 req.redist: 

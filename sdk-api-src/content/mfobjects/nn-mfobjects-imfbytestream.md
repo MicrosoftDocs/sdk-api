@@ -1,19 +1,17 @@
 ---
 UID: NN:mfobjects.IMFByteStream
 title: IMFByteStream (mfobjects.h)
-
 description: Represents a byte stream from some data source, which might be a local file, a network file, or some other source.
 old-location: mf\imfbytestream.htm
 tech.root: medfound
 ms.assetid: 690035b7-2855-4714-938f-f8250ec70d24
-
 ms.date: 12/05/2018
 ms.keywords: 690035b7-2855-4714-938f-f8250ec70d24, IMFByteStream, IMFByteStream interface [Media Foundation], IMFByteStream interface [Media Foundation],described, mf.imfbytestream, mfobjects/IMFByteStream
 ms.topic: interface
-f1_keywords: 
- - "mfobjects/IMFByteStream"
+f1_keywords:
+- mfobjects/IMFByteStream
 dev_langs:
- - c++
+- c++
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFByteStream
+- IMFByteStream
 targetos: Windows
 req.typenames: 
 req.redist: 

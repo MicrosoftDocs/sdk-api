@@ -1,19 +1,17 @@
 ---
 UID: NF:xenroll.ICEnroll3.get_ReuseHardwareKeyIfUnableToGenNew
 title: ICEnroll3::get_ReuseHardwareKeyIfUnableToGenNew (xenroll.h)
-
 description: Sets or retrieves a Boolean value that determines the action taken by the certificate enrollment control object if an error is encountered when generating a new key.
 old-location: security\icenroll4_reusehardwarekeyifunabletogennew.htm
 tech.root: SecCrypto
 ms.assetid: 5a9d5f78-bf88-4e24-9685-7c504f9f2e38
-
 ms.date: 12/05/2018
 ms.keywords: CEnroll object [Security],ReuseHardwareKeyIfUnableToGenNew property, ICEnroll3 interface [Security],ReuseHardwareKeyIfUnableToGenNew property, ICEnroll3.ReuseHardwareKeyIfUnableToGenNew, ICEnroll3.get_ReuseHardwareKeyIfUnableToGenNew, ICEnroll3::get_ReuseHardwareKeyIfUnableToGenNew, ICEnroll3::put_ReuseHardwareKeyIfUnableToGenNew, ICEnroll4 interface [Security],ReuseHardwareKeyIfUnableToGenNew property, ICEnroll4.ReuseHardwareKeyIfUnableToGenNew, ICEnroll4::ReuseHardwareKeyIfUnableToGenNew, ICEnroll4::get_ReuseHardwareKeyIfUnableToGenNew, ICEnroll4::put_ReuseHardwareKeyIfUnableToGenNew, ReuseHardwareKeyIfUnableToGenNew property [Security], ReuseHardwareKeyIfUnableToGenNew property [Security],CEnroll object, ReuseHardwareKeyIfUnableToGenNew property [Security],ICEnroll3 interface, ReuseHardwareKeyIfUnableToGenNew property [Security],ICEnroll4 interface, get_ReuseHardwareKeyIfUnableToGenNew, security.icenroll4_reusehardwarekeyifunabletogennew, xenroll/ICEnroll3::ReuseHardwareKeyIfUnableToGenNew, xenroll/ICEnroll3::get_ReuseHardwareKeyIfUnableToGenNew, xenroll/ICEnroll3::put_ReuseHardwareKeyIfUnableToGenNew, xenroll/ICEnroll4::ReuseHardwareKeyIfUnableToGenNew, xenroll/ICEnroll4::get_ReuseHardwareKeyIfUnableToGenNew, xenroll/ICEnroll4::put_ReuseHardwareKeyIfUnableToGenNew
 ms.topic: method
-f1_keywords: 
- - "xenroll/ICEnroll4.ReuseHardwareKeyIfUnableToGenNew"
+f1_keywords:
+- xenroll/ICEnroll4.ReuseHardwareKeyIfUnableToGenNew
 dev_langs:
- - c++
+- c++
 req.header: xenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,20 +30,20 @@ req.lib: Uuid.lib
 req.dll: Xenroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Xenroll.dll
+- Xenroll.dll
 api_name:
- - ICEnroll4.ReuseHardwareKeyIfUnableToGenNew
- - ICEnroll4.get_ReuseHardwareKeyIfUnableToGenNew
- - ICEnroll4.put_ReuseHardwareKeyIfUnableToGenNew
- - ICEnroll3.ReuseHardwareKeyIfUnableToGenNew
- - ICEnroll3.get_ReuseHardwareKeyIfUnableToGenNew
- - ICEnroll3.put_ReuseHardwareKeyIfUnableToGenNew
- - CEnroll.ReuseHardwareKeyIfUnableToGenNew
+- ICEnroll4.ReuseHardwareKeyIfUnableToGenNew
+- ICEnroll4.get_ReuseHardwareKeyIfUnableToGenNew
+- ICEnroll4.put_ReuseHardwareKeyIfUnableToGenNew
+- ICEnroll3.ReuseHardwareKeyIfUnableToGenNew
+- ICEnroll3.get_ReuseHardwareKeyIfUnableToGenNew
+- ICEnroll3.put_ReuseHardwareKeyIfUnableToGenNew
+- CEnroll.ReuseHardwareKeyIfUnableToGenNew
 targetos: Windows
 req.typenames: 
 req.redist: 

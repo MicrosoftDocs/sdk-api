@@ -1,19 +1,17 @@
 ---
 UID: NF:certbcli.CertSrvIsServerOnlineW
 title: CertSrvIsServerOnlineW function (certbcli.h)
-
 description: Determines if a Certificate Services server is online; if the Certificate Services server is not online, backup operations will not be successful.
 old-location: security\certsrvisserveronline.htm
 tech.root: SecCrypto
 ms.assetid: fce1ea87-6c02-433e-af38-99b33528b1f1
-
 ms.date: 12/05/2018
 ms.keywords: CertSrvIsServerOnline, CertSrvIsServerOnline function [Security], CertSrvIsServerOnlineW, _certsrv_certsrvisserveronline, certbcli/CertSrvIsServerOnline, certbcli/CertSrvIsServerOnlineW, security.certsrvisserveronline
 ms.topic: function
-f1_keywords: 
- - "certbcli/CertSrvIsServerOnline"
+f1_keywords:
+- certbcli/CertSrvIsServerOnline
 dev_langs:
- - c++
+- c++
 req.header: certbcli.h
 req.include-header: Certsrv.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Certadm.lib
 req.dll: Certadm.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Certadm.dll
+- Certadm.dll
 api_name:
- - CertSrvIsServerOnline
- - CertSrvIsServerOnlineW
+- CertSrvIsServerOnline
+- CertSrvIsServerOnlineW
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:mfidl.IMFMediaSink.RemoveStreamSink
 title: IMFMediaSink::RemoveStreamSink (mfidl.h)
-
 description: Removes a stream sink from the media sink.
 old-location: mf\imfmediasink_removestreamsink.htm
 tech.root: medfound
 ms.assetid: f99ee960-7fea-4867-bc24-d7e1d6fcafa5
-
 ms.date: 12/05/2018
 ms.keywords: IMFMediaSink interface [Media Foundation],RemoveStreamSink method, IMFMediaSink.RemoveStreamSink, IMFMediaSink::RemoveStreamSink, RemoveStreamSink, RemoveStreamSink method [Media Foundation], RemoveStreamSink method [Media Foundation],IMFMediaSink interface, f99ee960-7fea-4867-bc24-d7e1d6fcafa5, mf.imfmediasink_removestreamsink, mfidl/IMFMediaSink::RemoveStreamSink
 ms.topic: method
-f1_keywords: 
- - "mfidl/IMFMediaSink.RemoveStreamSink"
+f1_keywords:
+- mfidl/IMFMediaSink.RemoveStreamSink
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFMediaSink.RemoveStreamSink
+- IMFMediaSink.RemoveStreamSink
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -3,14 +3,13 @@ UID: NE:roerrorapi.__unnamed_enum_1
 title: RoErrorReportingFlags
 description: Specifies the behavior of the RoOriginateError and RoTransformError functions.
 ms.assetid: 51C5D2A7-3831-437E-AD7F-AEBC79A7C801
-
 ms.date: 05/20/2019
 ms.keywords: RoErrorReportingFlags
 ms.topic: language-reference
-f1_keywords: 
- - "roerrorapi/RoErrorReportingFlags"
+f1_keywords:
+- roerrorapi/RoErrorReportingFlags
 dev_langs:
- - c++
+- c++
 targetos: Windows
 req.construct-type: enumeration
 req.ddi-compliance: 
@@ -24,13 +23,13 @@ req.target-type:
 req.typenames: 
 req.umdf-ver: 
 topic_type:
- - apiref
+- apiref
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - roerrorapi.h
+- roerrorapi.h
 api_name:
- - RoErrorReportingFlags
+- RoErrorReportingFlags
 ---
 
 # RoErrorReportingFlags

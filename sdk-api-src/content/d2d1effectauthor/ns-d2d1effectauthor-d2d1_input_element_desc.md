@@ -1,19 +1,17 @@
 ---
 UID: NS:d2d1effectauthor.D2D1_INPUT_ELEMENT_DESC
 title: D2D1_INPUT_ELEMENT_DESC (d2d1effectauthor.h)
-
 description: A description of a single element to the vertex layout.
 old-location: direct2d\d2d1_input_element_desc.htm
 tech.root: Direct2D
 ms.assetid: 17e70872-f0cb-4f9d-8188-d6d24770db04
-
 ms.date: 12/05/2018
 ms.keywords: D2D1_INPUT_ELEMENT_DESC, D2D1_INPUT_ELEMENT_DESC structure [Direct2D], d2d1effectauthor/D2D1_INPUT_ELEMENT_DESC, direct2d.d2d1_input_element_desc
 ms.topic: struct
-f1_keywords: 
- - "d2d1effectauthor/D2D1_INPUT_ELEMENT_DESC"
+f1_keywords:
+- d2d1effectauthor/D2D1_INPUT_ELEMENT_DESC
 dev_langs:
- - c++
+- c++
 req.header: d2d1effectauthor.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - LibDef
+- LibDef
 api_location:
- - D2d1.lib
- - D2d1.dll
+- D2d1.lib
+- D2d1.dll
 api_name:
- - D2D1_INPUT_ELEMENT_DESC
+- D2D1_INPUT_ELEMENT_DESC
 targetos: Windows
 req.typenames: D2D1_INPUT_ELEMENT_DESC
 req.redist: 

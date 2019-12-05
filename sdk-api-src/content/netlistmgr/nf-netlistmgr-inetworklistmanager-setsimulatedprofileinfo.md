@@ -1,19 +1,17 @@
 ---
 UID: NF:netlistmgr.INetworkListManager.SetSimulatedProfileInfo
 title: INetworkListManager::SetSimulatedProfileInfo (netlistmgr.h)
-
 description: The SetSimulatedProfileInfo method applies a specific set of connection profile values to the internet connection profile in support of the simulation of specific metered internet connection conditions.
 old-location: nla\inetworklistmanager_setsimulatedprofileinfo.htm
 tech.root: nla
 ms.assetid: 168501A6-F8B2-4635-97BB-538994074D2C
-
 ms.date: 12/05/2018
 ms.keywords: INetworkListManager interface [Network Awareness],SetSimulatedProfileInfo method, INetworkListManager.SetSimulatedProfileInfo, INetworkListManager::SetSimulatedProfileInfo, SetSimulatedProfileInfo, SetSimulatedProfileInfo method [Network Awareness], SetSimulatedProfileInfo method [Network Awareness],INetworkListManager interface, netlistmgr/INetworkListManager::SetSimulatedProfileInfo, nla.inetworklistmanager_setsimulatedprofileinfo
 ms.topic: method
-f1_keywords: 
- - "netlistmgr/INetworkListManager.SetSimulatedProfileInfo"
+f1_keywords:
+- netlistmgr/INetworkListManager.SetSimulatedProfileInfo
 dev_langs:
- - c++
+- c++
 req.header: netlistmgr.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Netlistmgr.h
+- Netlistmgr.h
 api_name:
- - INetworkListManager.SetSimulatedProfileInfo
+- INetworkListManager.SetSimulatedProfileInfo
 targetos: Windows
 req.typenames: 
 req.redist: 

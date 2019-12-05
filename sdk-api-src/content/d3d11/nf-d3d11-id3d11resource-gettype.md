@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d11.ID3D11Resource.GetType
 title: ID3D11Resource::GetType (d3d11.h)
-
 description: Get the type of the resource.
 old-location: direct3d11\id3d11resource_gettype.htm
 tech.root: direct3d11
 ms.assetid: 8358ab9b-acf3-41cd-8812-cc15862928da
-
 ms.date: 12/05/2018
 ms.keywords: 62bac8ef-4d59-ca5c-1bf7-3993d5ecf42e, GetType, GetType method [Direct3D 11], GetType method [Direct3D 11],ID3D11Resource interface, ID3D11Resource interface [Direct3D 11],GetType method, ID3D11Resource.GetType, ID3D11Resource::GetType, d3d11/ID3D11Resource::GetType, direct3d11.id3d11resource_gettype
 ms.topic: method
-f1_keywords: 
- - "d3d11/ID3D11Resource.GetType"
+f1_keywords:
+- d3d11/ID3D11Resource.GetType
 dev_langs:
- - c++
+- c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: D3D11.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D11.lib
- - D3D11.dll
+- D3D11.lib
+- D3D11.dll
 api_name:
- - ID3D11Resource.GetType
+- ID3D11Resource.GetType
 targetos: Windows
 req.typenames: 
 req.redist: 

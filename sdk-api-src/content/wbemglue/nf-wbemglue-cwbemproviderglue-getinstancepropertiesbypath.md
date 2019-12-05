@@ -1,19 +1,17 @@
 ---
 UID: NF:wbemglue.CWbemProviderGlue.GetInstancePropertiesByPath
 title: CWbemProviderGlue::GetInstancePropertiesByPath (wbemglue.h)
-
 description: Retrieves the instance identified by a particular object path, with only the specified properties populated. The properties to be populated are named in a CHString array.
 old-location: wmi\cwbemproviderglue_getinstancepropertiesbypath.htm
 tech.root: WmiSdk
 ms.assetid: d9232dc0-6df9-440d-bf7a-bf524acbe505
-
 ms.date: 12/05/2018
 ms.keywords: CWbemProviderGlue interface [Windows Management Instrumentation],GetInstancePropertiesByPath method, CWbemProviderGlue.GetInstancePropertiesByPath, CWbemProviderGlue::GetInstancePropertiesByPath, GetInstancePropertiesByPath, GetInstancePropertiesByPath method [Windows Management Instrumentation], GetInstancePropertiesByPath method [Windows Management Instrumentation],CWbemProviderGlue interface, _hmm_cwbemproviderglue_getinstancepropertiesbypath, wbemglue/CWbemProviderGlue::GetInstancePropertiesByPath, wmi.cwbemproviderglue_getinstancepropertiesbypath
 ms.topic: method
-f1_keywords: 
- - "wbemglue/CWbemProviderGlue.GetInstancePropertiesByPath"
+f1_keywords:
+- wbemglue/CWbemProviderGlue.GetInstancePropertiesByPath
 dev_langs:
- - c++
+- c++
 req.header: wbemglue.h
 req.include-header: FwCommon.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: FrameDyn.lib
 req.dll: FrameDynOS.dll; FrameDyn.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - FrameDynOS.dll
- - FrameDyn.dll
+- FrameDynOS.dll
+- FrameDyn.dll
 api_name:
- - CWbemProviderGlue.GetInstancePropertiesByPath
+- CWbemProviderGlue.GetInstancePropertiesByPath
 targetos: Windows
 req.typenames: 
 req.redist: 

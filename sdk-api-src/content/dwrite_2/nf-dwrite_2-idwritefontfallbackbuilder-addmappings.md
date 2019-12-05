@@ -1,19 +1,17 @@
 ---
 UID: NF:dwrite_2.IDWriteFontFallbackBuilder.AddMappings
 title: IDWriteFontFallbackBuilder::AddMappings (dwrite_2.h)
-
 description: Add all the mappings from an existing font fallback object.
 old-location: directwrite\idwritefontfallbackbuilder_addmappings.htm
 tech.root: DirectWrite
 ms.assetid: 8CC8BFD3-4177-4CA0-A74C-43CCDEAA7D74
-
 ms.date: 12/05/2018
 ms.keywords: AddMappings, AddMappings method [Direct Write], AddMappings method [Direct Write],IDWriteFontFallbackBuilder interface, IDWriteFontFallbackBuilder interface [Direct Write],AddMappings method, IDWriteFontFallbackBuilder.AddMappings, IDWriteFontFallbackBuilder::AddMappings, directwrite.idwritefontfallbackbuilder_addmappings, dwrite_2/IDWriteFontFallbackBuilder::AddMappings
 ms.topic: method
-f1_keywords: 
- - "dwrite_2/IDWriteFontFallbackBuilder.AddMappings"
+f1_keywords:
+- dwrite_2/IDWriteFontFallbackBuilder.AddMappings
 dev_langs:
- - c++
+- c++
 req.header: dwrite_2.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dwrite.lib
 req.dll: Dwrite.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dwrite.dll
+- dwrite.dll
 api_name:
- - IDWriteFontFallbackBuilder.AddMappings
+- IDWriteFontFallbackBuilder.AddMappings
 targetos: Windows
 req.typenames: 
 req.redist: 

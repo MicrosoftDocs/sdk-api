@@ -1,19 +1,17 @@
 ---
 UID: NS:winuser.tagHELPWININFOA
 title: HELPWININFOA (winuser.h)
-
 description: Contains the size and position of either a primary or secondary Help window. An application can set this information by calling the WinHelp function with the HELP_SETWINPOS value.
 old-location: shell\HELPWININFO_str.htm
 tech.root: shell
 ms.assetid: 0de0bf84-66f3-44bc-b4de-c2de7ca90cb2
-
 ms.date: 12/05/2018
-ms.keywords: "*LPHELPWININFOA, *PHELPWININFOA, HELPWININFO, HELPWININFO structure [Windows Shell], HELPWININFOA, LPHELPWININFO, LPHELPWININFO structure pointer [Windows Shell], PHELPWININFO, PHELPWININFO structure pointer [Windows Shell], SW_HIDE, SW_MINIMIZE, SW_RESTORE, SW_SHOW, SW_SHOWMAXIMIZED, SW_SHOWMINIMIZED, SW_SHOWMINNOACTIVE, SW_SHOWNA, SW_SHOWNOACTIVATE, SW_SHOWNORMAL, _win32_HELPWININFO_str, shell.HELPWININFO_str, tagHELPWININFOA, tagHELPWININFOW, winuser/HELPWININFO, winuser/LPHELPWININFO, winuser/PHELPWININFO"
+ms.keywords: '*LPHELPWININFOA, *PHELPWININFOA, HELPWININFO, HELPWININFO structure [Windows Shell], HELPWININFOA, LPHELPWININFO, LPHELPWININFO structure pointer [Windows Shell], PHELPWININFO, PHELPWININFO structure pointer [Windows Shell], SW_HIDE, SW_MINIMIZE, SW_RESTORE, SW_SHOW, SW_SHOWMAXIMIZED, SW_SHOWMINIMIZED, SW_SHOWMINNOACTIVE, SW_SHOWNA, SW_SHOWNOACTIVATE, SW_SHOWNORMAL, _win32_HELPWININFO_str, shell.HELPWININFO_str, tagHELPWININFOA, tagHELPWININFOW, winuser/HELPWININFO, winuser/LPHELPWININFO, winuser/PHELPWININFO'
 ms.topic: struct
-f1_keywords: 
- - "winuser/HELPWININFO"
+f1_keywords:
+- winuser/HELPWININFO
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Winuser.h
+- Winuser.h
 api_name:
- - HELPWININFO
+- HELPWININFO
 targetos: Windows
 req.typenames: HELPWININFOA, *PHELPWININFOA, *LPHELPWININFOA
 req.redist: 

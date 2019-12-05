@@ -1,19 +1,17 @@
 ---
 UID: NF:wincrypt.CertSetStoreProperty
 title: CertSetStoreProperty function (wincrypt.h)
-
 description: The CertSetStoreProperty function sets a store property.
 old-location: security\certsetstoreproperty.htm
 tech.root: SecCrypto
 ms.assetid: e043486d-9a6e-46c0-b258-6f8d463bf6fe
-
 ms.date: 12/05/2018
 ms.keywords: CertSetStoreProperty, CertSetStoreProperty function [Security], _crypto2_certsetstoreproperty, security.certsetstoreproperty, wincrypt/CertSetStoreProperty
 ms.topic: function
-f1_keywords: 
- - "wincrypt/CertSetStoreProperty"
+f1_keywords:
+- wincrypt/CertSetStoreProperty
 dev_langs:
- - c++
+- c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Crypt32.lib
 req.dll: Crypt32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Crypt32.dll
+- Crypt32.dll
 api_name:
- - CertSetStoreProperty
+- CertSetStoreProperty
 targetos: Windows
 req.typenames: 
 req.redist: 

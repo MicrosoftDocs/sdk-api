@@ -1,19 +1,17 @@
 ---
 UID: NS:lmwksta._WKSTA_INFO_101
 title: WKSTA_INFO_101 (lmwksta.h)
-
 description: Contains information about a workstation environment, including platform-specific information, the name of the domain and the local computer, and information concerning the operating system.
 old-location: netmgmt\wksta_info_101_str.htm
 tech.root: NetMgmt
 ms.assetid: 2b692d40-6229-45ef-9ec6-ee464bba0696
-
 ms.date: 12/05/2018
-ms.keywords: "*LPWKSTA_INFO_101, *PWKSTA_INFO_101, LPWKSTA_INFO_101, LPWKSTA_INFO_101 structure pointer [Network Management], PLATFORM_ID_DOS, PLATFORM_ID_NT, PLATFORM_ID_OS2, PLATFORM_ID_OSF, PLATFORM_ID_VMS, PWKSTA_INFO_101, PWKSTA_INFO_101 structure pointer [Network Management], WKSTA_INFO_101, WKSTA_INFO_101 structure [Network Management], _win32_wksta_info_101_str, lmwksta/LPWKSTA_INFO_101, lmwksta/PWKSTA_INFO_101, lmwksta/WKSTA_INFO_101, netmgmt.wksta_info_101_str"
+ms.keywords: '*LPWKSTA_INFO_101, *PWKSTA_INFO_101, LPWKSTA_INFO_101, LPWKSTA_INFO_101 structure pointer [Network Management], PLATFORM_ID_DOS, PLATFORM_ID_NT, PLATFORM_ID_OS2, PLATFORM_ID_OSF, PLATFORM_ID_VMS, PWKSTA_INFO_101, PWKSTA_INFO_101 structure pointer [Network Management], WKSTA_INFO_101, WKSTA_INFO_101 structure [Network Management], _win32_wksta_info_101_str, lmwksta/LPWKSTA_INFO_101, lmwksta/PWKSTA_INFO_101, lmwksta/WKSTA_INFO_101, netmgmt.wksta_info_101_str'
 ms.topic: struct
-f1_keywords: 
- - "lmwksta/WKSTA_INFO_101"
+f1_keywords:
+- lmwksta/WKSTA_INFO_101
 dev_langs:
- - c++
+- c++
 req.header: lmwksta.h
 req.include-header: Lm.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Lmwksta.h
+- Lmwksta.h
 api_name:
- - WKSTA_INFO_101
+- WKSTA_INFO_101
 targetos: Windows
 req.typenames: WKSTA_INFO_101, *PWKSTA_INFO_101, *LPWKSTA_INFO_101
 req.redist: 

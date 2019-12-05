@@ -1,19 +1,17 @@
 ---
 UID: NF:comsvcs.ISecurityCallContext.get_Count
 title: ISecurityCallContext::get_Count (comsvcs.h)
-
 description: Retrieves the number of properties in the security context collection.
 old-location: cos\isecuritycallcontext_get_count.htm
 tech.root: cossdk
 ms.assetid: aebb28de-79ee-4cec-afb9-cfb067a4fb62
-
 ms.date: 12/05/2018
 ms.keywords: ISecurityCallContext interface [COM+],get_Count method, ISecurityCallContext.get_Count, ISecurityCallContext::get_Count, _cos_ISecurityCallContext_get_Count, comsvcs/ISecurityCallContext::get_Count, cos.isecuritycallcontext_get_count, get_Count, get_Count method [COM+], get_Count method [COM+],ISecurityCallContext interface
 ms.topic: method
-f1_keywords: 
- - "comsvcs/ISecurityCallContext.get_Count"
+f1_keywords:
+- comsvcs/ISecurityCallContext.get_Count
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - ISecurityCallContext.get_Count
+- ISecurityCallContext.get_Count
 targetos: Windows
 req.typenames: 
 req.redist: 

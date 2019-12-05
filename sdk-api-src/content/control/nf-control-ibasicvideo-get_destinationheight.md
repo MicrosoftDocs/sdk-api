@@ -1,19 +1,17 @@
 ---
 UID: NF:control.IBasicVideo.get_DestinationHeight
 title: IBasicVideo::get_DestinationHeight (control.h)
-
 description: The get_DestinationHeight method retrieves the height of the destination rectangle.
 old-location: dshow\ibasicvideo_get_destinationheight.htm
 tech.root: DirectShow
 ms.assetid: 21d6c74a-2adb-4015-b0df-5acb26c22212
-
 ms.date: 12/05/2018
 ms.keywords: IBasicVideo interface [DirectShow],get_DestinationHeight method, IBasicVideo.get_DestinationHeight, IBasicVideo::get_DestinationHeight, IBasicVideoget_DestinationHeight, control/IBasicVideo::get_DestinationHeight, dshow.ibasicvideo_get_destinationheight, get_DestinationHeight, get_DestinationHeight method [DirectShow], get_DestinationHeight method [DirectShow],IBasicVideo interface
 ms.topic: method
-f1_keywords: 
- - "control/IBasicVideo.get_DestinationHeight"
+f1_keywords:
+- control/IBasicVideo.get_DestinationHeight
 dev_langs:
- - c++
+- c++
 req.header: control.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IBasicVideo.get_DestinationHeight
+- IBasicVideo.get_DestinationHeight
 targetos: Windows
 req.typenames: 
 req.redist: 

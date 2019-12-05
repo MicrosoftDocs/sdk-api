@@ -1,19 +1,17 @@
 ---
 UID: NN:adhoc.IDot11AdHocInterface
 title: IDot11AdHocInterface (adhoc.h)
-
 description: Represents a wireless network interface card (NIC).
 old-location: nwifi\idot11adhocinterface.htm
 tech.root: NativeWiFi
 ms.assetid: a4a73ff8-e24a-4f44-9205-c60699d1c27d
-
 ms.date: 12/05/2018
 ms.keywords: IDot11AdHocInterface, IDot11AdHocInterface interface [NativeWIFI], IDot11AdHocInterface interface [NativeWIFI],described, adhoc/IDot11AdHocInterface, nwifi.idot11adhocinterface
 ms.topic: interface
-f1_keywords: 
- - "adhoc/IDot11AdHocInterface"
+f1_keywords:
+- adhoc/IDot11AdHocInterface
 dev_langs:
- - c++
+- c++
 req.header: adhoc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - adhoc.h
+- adhoc.h
 api_name:
- - IDot11AdHocInterface
+- IDot11AdHocInterface
 targetos: Windows
 req.typenames: 
 req.redist: 

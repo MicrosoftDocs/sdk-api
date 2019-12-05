@@ -1,19 +1,17 @@
 ---
 UID: NE:dxvahd._DXVAHD_DEVICE_TYPE
 title: DXVAHD_DEVICE_TYPE (dxvahd.h)
-
 description: Specifies the type of Microsoft DirectX Video Acceleration High Definition (DXVA-HD) device.
 old-location: mf\dxvahd_device_type.htm
 tech.root: medfound
 ms.assetid: c472f2c6-214d-4bb0-ba9d-8dd04ff2a646
-
 ms.date: 12/05/2018
 ms.keywords: DXVAHD_DEVICE_TYPE, DXVAHD_DEVICE_TYPE enumeration [Media Foundation], DXVAHD_DEVICE_TYPE_HARDWARE, DXVAHD_DEVICE_TYPE_OTHER, DXVAHD_DEVICE_TYPE_REFERENCE, DXVAHD_DEVICE_TYPE_SOFTWARE, dxvahd/DXVAHD_DEVICE_TYPE, dxvahd/DXVAHD_DEVICE_TYPE_HARDWARE, dxvahd/DXVAHD_DEVICE_TYPE_OTHER, dxvahd/DXVAHD_DEVICE_TYPE_REFERENCE, dxvahd/DXVAHD_DEVICE_TYPE_SOFTWARE, mf.dxvahd_device_type
 ms.topic: enum
-f1_keywords: 
- - "dxvahd/DXVAHD_DEVICE_TYPE"
+f1_keywords:
+- dxvahd/DXVAHD_DEVICE_TYPE
 dev_langs:
- - c++
+- c++
 req.header: dxvahd.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - dxvahd.h
+- dxvahd.h
 api_name:
- - DXVAHD_DEVICE_TYPE
+- DXVAHD_DEVICE_TYPE
 targetos: Windows
 req.typenames: DXVAHD_DEVICE_TYPE
 req.redist: 

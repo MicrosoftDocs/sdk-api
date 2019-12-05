@@ -1,19 +1,17 @@
 ---
 UID: NN:tuner.IBroadcastEventEx
 title: IBroadcastEventEx (tuner.h)
-
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005.
 old-location: mstv\ibroadcasteventex.htm
 tech.root: mstv
 ms.assetid: c16ad538-afc6-4530-a2fd-18965b63983b
-
 ms.date: 12/05/2018
 ms.keywords: IBroadcastEventEx, IBroadcastEventEx interface [Microsoft TV Technologies], IBroadcastEventEx interface [Microsoft TV Technologies],described, IBroadcastEventExInterface, mstv.ibroadcasteventex, tuner/IBroadcastEventEx
 ms.topic: interface
-f1_keywords: 
- - "tuner/IBroadcastEventEx"
+f1_keywords:
+- tuner/IBroadcastEventEx
 dev_langs:
- - c++
+- c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - tuner.h
+- tuner.h
 api_name:
- - IBroadcastEventEx
+- IBroadcastEventEx
 targetos: Windows
 req.typenames: 
 req.redist: 

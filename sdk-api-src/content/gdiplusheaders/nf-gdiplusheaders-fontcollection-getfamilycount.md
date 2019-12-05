@@ -1,19 +1,17 @@
 ---
 UID: NF:gdiplusheaders.FontCollection.GetFamilyCount
 title: FontCollection::GetFamilyCount (gdiplusheaders.h)
-
 description: The FontCollection::GetFamilyCount method gets the number of font families contained in this font collection.
 old-location: gdiplus\_gdiplus_CLASS_FontCollection_GetFamilyCount_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\fontcollectionclass\fontcollectionmethods\getfamilycount.htm
-
 ms.date: 12/05/2018
 ms.keywords: FontCollection class [GDI+],GetFamilyCount method, FontCollection.GetFamilyCount, FontCollection::GetFamilyCount, GetFamilyCount, GetFamilyCount method [GDI+], GetFamilyCount method [GDI+],FontCollection class, _gdiplus_CLASS_FontCollection_GetFamilyCount_, gdiplus._gdiplus_CLASS_FontCollection_GetFamilyCount_
 ms.topic: method
-f1_keywords: 
- - "gdiplusheaders/FontCollection.GetFamilyCount"
+f1_keywords:
+- gdiplusheaders/FontCollection.GetFamilyCount
 dev_langs:
- - c++
+- c++
 req.header: gdiplusheaders.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - FontCollection.GetFamilyCount
+- FontCollection.GetFamilyCount
 targetos: Windows
 req.typenames: 
 req.redist: 

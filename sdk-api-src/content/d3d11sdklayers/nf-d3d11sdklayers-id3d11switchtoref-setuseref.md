@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d11sdklayers.ID3D11SwitchToRef.SetUseRef
 title: ID3D11SwitchToRef::SetUseRef (d3d11sdklayers.h)
-
 description: ID3D11SwitchToRef::SetUseRef method
 old-location: direct3d11\id3d11switchtoref_setuseref.htm
 tech.root: direct3d11
 ms.assetid: ae687f2c-0db2-41f1-8f6c-4d9f5ee31984
-
 ms.date: 12/05/2018
 ms.keywords: 2c811613-71ac-d7b8-ba99-48b0bdc4d54c, ID3D11SwitchToRef interface [Direct3D 11],SetUseRef method, ID3D11SwitchToRef.SetUseRef, ID3D11SwitchToRef::SetUseRef, SetUseRef, SetUseRef method [Direct3D 11], SetUseRef method [Direct3D 11],ID3D11SwitchToRef interface, d3d11sdklayers/ID3D11SwitchToRef::SetUseRef, direct3d11.id3d11switchtoref_setuseref
 ms.topic: method
-f1_keywords: 
- - "d3d11sdklayers/ID3D11SwitchToRef.SetUseRef"
+f1_keywords:
+- d3d11sdklayers/ID3D11SwitchToRef.SetUseRef
 dev_langs:
- - c++
+- c++
 req.header: d3d11sdklayers.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D11SDKLayers.h
+- D3D11SDKLayers.h
 api_name:
- - ID3D11SwitchToRef.SetUseRef
+- ID3D11SwitchToRef.SetUseRef
 targetos: Windows
 req.typenames: 
 req.redist: 

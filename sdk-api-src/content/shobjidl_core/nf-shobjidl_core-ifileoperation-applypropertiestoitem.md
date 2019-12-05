@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IFileOperation.ApplyPropertiesToItem
 title: IFileOperation::ApplyPropertiesToItem (shobjidl_core.h)
-
 description: Declares a single item whose property values are to be set.
 old-location: shell\IFileOperation_ApplyPropertiesToItem.htm
 tech.root: shell
 ms.assetid: 35330c7c-29fc-4337-a538-863925398b0d
-
 ms.date: 12/05/2018
 ms.keywords: ApplyPropertiesToItem, ApplyPropertiesToItem method [Windows Shell], ApplyPropertiesToItem method [Windows Shell],IFileOperation interface, IFileOperation interface [Windows Shell],ApplyPropertiesToItem method, IFileOperation.ApplyPropertiesToItem, IFileOperation::ApplyPropertiesToItem, _shell_IFileOperation_ApplyPropertiesToItem, shell.IFileOperation_ApplyPropertiesToItem, shobjidl_core/IFileOperation::ApplyPropertiesToItem
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IFileOperation.ApplyPropertiesToItem"
+f1_keywords:
+- shobjidl_core/IFileOperation.ApplyPropertiesToItem
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - IFileOperation.ApplyPropertiesToItem
+- IFileOperation.ApplyPropertiesToItem
 targetos: Windows
 req.typenames: 
 req.redist: 

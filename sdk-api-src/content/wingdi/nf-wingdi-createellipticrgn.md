@@ -1,19 +1,17 @@
 ---
 UID: NF:wingdi.CreateEllipticRgn
 title: CreateEllipticRgn function (wingdi.h)
-
 description: The CreateEllipticRgn function creates an elliptical region.
 old-location: gdi\createellipticrgn.htm
 tech.root: gdi
 ms.assetid: b4e9b210-8e22-42db-bb6e-65f1fb870eff
-
 ms.date: 12/05/2018
 ms.keywords: CreateEllipticRgn, CreateEllipticRgn function [Windows GDI], _win32_CreateEllipticRgn, gdi.createellipticrgn, wingdi/CreateEllipticRgn
 ms.topic: function
-f1_keywords: 
- - "wingdi/CreateEllipticRgn"
+f1_keywords:
+- wingdi/CreateEllipticRgn
 dev_langs:
- - c++
+- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - gdi32.dll
- - Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
- - GDI32Full.dll
+- gdi32.dll
+- Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
+- GDI32Full.dll
 api_name:
- - CreateEllipticRgn
+- CreateEllipticRgn
 targetos: Windows
 req.typenames: 
 req.redist: 

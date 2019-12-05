@@ -1,19 +1,17 @@
 ---
 UID: NS:commctrl.tagLHITTESTINFO
 title: LHITTESTINFO (commctrl.h)
-
 description: Used to get information about the link corresponding to a given location.
 old-location: controls\LHITTESTINFO.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\syslink\structures\lhittestinfo.htm
-
 ms.date: 12/05/2018
-ms.keywords: "*PLHITTESTINFO, LHITTESTINFO, LHITTESTINFO structure [Windows Controls], PLHITTESTINFO, PLHITTESTINFO structure pointer [Windows Controls], commctrl/LHITTESTINFO, commctrl/PLHITTESTINFO, controls.LHITTESTINFO, controls.inet_LHITTESTINFO, inet_LHITTESTINFO, inet_LHITTESTINFO_cpp"
+ms.keywords: '*PLHITTESTINFO, LHITTESTINFO, LHITTESTINFO structure [Windows Controls], PLHITTESTINFO, PLHITTESTINFO structure pointer [Windows Controls], commctrl/LHITTESTINFO, commctrl/PLHITTESTINFO, controls.LHITTESTINFO, controls.inet_LHITTESTINFO, inet_LHITTESTINFO, inet_LHITTESTINFO_cpp'
 ms.topic: struct
-f1_keywords: 
- - "commctrl/LHITTESTINFO"
+f1_keywords:
+- commctrl/LHITTESTINFO
 dev_langs:
- - c++
+- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Commctrl.h
+- Commctrl.h
 api_name:
- - LHITTESTINFO
+- LHITTESTINFO
 targetos: Windows
 req.typenames: LHITTESTINFO, *PLHITTESTINFO
 req.redist: 

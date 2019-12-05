@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IDelegateFolder.SetItemAlloc
 title: IDelegateFolder::SetItemAlloc (shobjidl_core.h)
-
 description: Provides the delegate folder an IMalloc interface used to allocate and free item IDs.
 old-location: shell\IDelegateFolder_SetItemAlloc.htm
 tech.root: shell
 ms.assetid: ce1ee472-e245-4112-858a-1d9739f5a36d
-
 ms.date: 12/05/2018
 ms.keywords: IDelegateFolder interface [Windows Shell],SetItemAlloc method, IDelegateFolder.SetItemAlloc, IDelegateFolder::SetItemAlloc, SetItemAlloc, SetItemAlloc method [Windows Shell], SetItemAlloc method [Windows Shell],IDelegateFolder interface, shell.IDelegateFolder_SetItemAlloc, shell_IDelegateFolder_SetItemAlloc, shobjidl_core/IDelegateFolder::SetItemAlloc
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IDelegateFolder.SetItemAlloc"
+f1_keywords:
+- shobjidl_core/IDelegateFolder.SetItemAlloc
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Shell32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - IDelegateFolder.SetItemAlloc
+- IDelegateFolder.SetItemAlloc
 targetos: Windows
 req.typenames: 
 req.redist: 

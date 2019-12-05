@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d10_1.ID3D10Device1.CreateBlendState1
 title: ID3D10Device1::CreateBlendState1 (d3d10_1.h)
-
 description: Create a blend-state object that encapsules blend state for the output-merger stage.
 old-location: direct3d10\id3d10device1_createblendstate1.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10device1_createblendstate1.htm
-
 ms.date: 12/05/2018
 ms.keywords: CreateBlendState1, CreateBlendState1 method [Direct3D 10], CreateBlendState1 method [Direct3D 10],ID3D10Device1 interface, ID3D10Device1 interface [Direct3D 10],CreateBlendState1 method, ID3D10Device1.CreateBlendState1, ID3D10Device1::CreateBlendState1, b8ad390b-12a5-cfce-2558-a74e808c9358, d3d10_1/ID3D10Device1::CreateBlendState1, direct3d10.id3d10device1_createblendstate1
 ms.topic: method
-f1_keywords: 
- - "d3d10_1/ID3D10Device1.CreateBlendState1"
+f1_keywords:
+- d3d10_1/ID3D10Device1.CreateBlendState1
 dev_langs:
- - c++
+- c++
 req.header: d3d10_1.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D10_1.h
+- D3D10_1.h
 api_name:
- - ID3D10Device1.CreateBlendState1
+- ID3D10Device1.CreateBlendState1
 targetos: Windows
 req.typenames: 
 req.redist: 

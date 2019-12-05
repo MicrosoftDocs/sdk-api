@@ -1,19 +1,17 @@
 ---
 UID: NF:winsync.ISyncKnowledge.ExcludeChangeUnit
 title: ISyncKnowledge::ExcludeChangeUnit (winsync.h)
-
 description: Removes knowledge about the specified change unit from the knowledge.
 old-location: winsync\isyncknowledge_excludechangeunit.htm
 tech.root: winsync
 ms.assetid: 0b9e39a8-6610-468a-a0e6-3950b8c17d58
-
 ms.date: 12/05/2018
 ms.keywords: ExcludeChangeUnit, ExcludeChangeUnit method [Windows Sync], ExcludeChangeUnit method [Windows Sync],ISyncKnowledge interface, ISyncKnowledge interface [Windows Sync],ExcludeChangeUnit method, ISyncKnowledge.ExcludeChangeUnit, ISyncKnowledge::ExcludeChangeUnit, winsync.isyncknowledge_excludechangeunit, winsync/ISyncKnowledge::ExcludeChangeUnit
 ms.topic: method
-f1_keywords: 
- - "winsync/ISyncKnowledge.ExcludeChangeUnit"
+f1_keywords:
+- winsync/ISyncKnowledge.ExcludeChangeUnit
 dev_langs:
- - c++
+- c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - winsync.h
+- winsync.h
 api_name:
- - ISyncKnowledge.ExcludeChangeUnit
+- ISyncKnowledge.ExcludeChangeUnit
 targetos: Windows
 req.typenames: 
 req.redist: 

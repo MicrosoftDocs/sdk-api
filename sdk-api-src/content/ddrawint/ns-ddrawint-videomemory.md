@@ -1,19 +1,17 @@
 ---
 UID: NS:ddrawint._VIDEOMEMORY
 title: VIDEOMEMORY (ddrawint.h)
-
 description: The VIDEOMEMORY structure allows the driver to manage its display memory into heaps.
 old-location: display\videomemory.htm
 tech.root: display
 ms.assetid: a472a9f6-d85e-429b-9b0d-efce576b6330
-
 ms.date: 12/05/2018
-ms.keywords: "*LPVIDEOMEMORY, LPVIDEOMEMORY, LPVIDEOMEMORY structure pointer [Display Devices], VIDEOMEMORY, VIDEOMEMORY structure [Display Devices], ddrawint/LPVIDEOMEMORY, ddrawint/VIDEOMEMORY, ddstrcts_f00d50c3-df1a-46c6-8822-1be4a5cef837.xml, display.videomemory"
+ms.keywords: '*LPVIDEOMEMORY, LPVIDEOMEMORY, LPVIDEOMEMORY structure pointer [Display Devices], VIDEOMEMORY, VIDEOMEMORY structure [Display Devices], ddrawint/LPVIDEOMEMORY, ddrawint/VIDEOMEMORY, ddstrcts_f00d50c3-df1a-46c6-8822-1be4a5cef837.xml, display.videomemory'
 ms.topic: struct
-f1_keywords: 
- - "ddrawint/VIDEOMEMORY"
+f1_keywords:
+- ddrawint/VIDEOMEMORY
 dev_langs:
- - c++
+- c++
 req.header: ddrawint.h
 req.include-header: Winddi.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - ddrawint.h
+- ddrawint.h
 api_name:
- - VIDEOMEMORY
+- VIDEOMEMORY
 targetos: Windows
 req.typenames: VIDEOMEMORY
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:winreg.RegDisableReflectionKey
 title: RegDisableReflectionKey function (winreg.h)
-
 description: Disables registry reflection for the specified key. Disabling reflection for a key does not affect reflection of any subkeys.
 old-location: base\regdisablereflectionkey.htm
 tech.root: SysInfo
 ms.assetid: 294a1d28-d09f-44a3-8bc0-6fae50c3a8f8
-
 ms.date: 12/05/2018
 ms.keywords: RegDisableReflectionKey, RegDisableReflectionKey function, base.regdisablereflectionkey, winreg/RegDisableReflectionKey
 ms.topic: function
-f1_keywords: 
- - "winreg/RegDisableReflectionKey"
+f1_keywords:
+- winreg/RegDisableReflectionKey
 dev_langs:
- - c++
+- c++
 req.header: winreg.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Advapi32.dll
+- Advapi32.dll
 api_name:
- - RegDisableReflectionKey
+- RegDisableReflectionKey
 targetos: Windows
 req.typenames: 
 req.redist: 

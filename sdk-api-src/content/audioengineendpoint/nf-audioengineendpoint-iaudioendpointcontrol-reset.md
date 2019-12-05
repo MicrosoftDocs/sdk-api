@@ -1,19 +1,17 @@
 ---
 UID: NF:audioengineendpoint.IAudioEndpointControl.Reset
 title: IAudioEndpointControl::Reset (audioengineendpoint.h)
-
 description: Resets the endpoint stream.
 old-location: termserv\iaudioendpointcontrol_reset.htm
 tech.root: TermServ
 ms.assetid: f21a245c-b47b-425d-8054-330e265f16f1
-
 ms.date: 12/05/2018
 ms.keywords: IAudioEndpointControl interface [Remote Desktop Services],Reset method, IAudioEndpointControl.Reset, IAudioEndpointControl::Reset, Reset, Reset method [Remote Desktop Services], Reset method [Remote Desktop Services],IAudioEndpointControl interface, audioengineendpoint/IAudioEndpointControl::Reset, termserv.iaudioendpointcontrol_reset
 ms.topic: method
-f1_keywords: 
- - "audioengineendpoint/IAudioEndpointControl.Reset"
+f1_keywords:
+- audioengineendpoint/IAudioEndpointControl.Reset
 dev_langs:
- - c++
+- c++
 req.header: audioengineendpoint.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Audioengineendpoint.h
+- Audioengineendpoint.h
 api_name:
- - IAudioEndpointControl.Reset
+- IAudioEndpointControl.Reset
 targetos: Windows
 req.typenames: 
 req.redist: 

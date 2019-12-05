@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationcoreapi.SelectionItemPattern_Select
 title: SelectionItemPattern_Select function (uiautomationcoreapi.h)
-
 description: Selects an element in a selection container.
 old-location: winauto\uiauto_SelectionItemPattern_SelectConPat.htm
 tech.root: WinAuto
 ms.assetid: 73cc27bd-b309-4de1-9249-23b0b209db3c
-
 ms.date: 12/05/2018
 ms.keywords: SelectionItemPattern_Select, SelectionItemPattern_Select function [Windows Accessibility], uiauto.uiauto_SelectionItemPattern_SelectConPat, uiauto_SelectionItemPattern_SelectConPat, uiautomationcoreapi/SelectionItemPattern_Select, winauto.uiauto_SelectionItemPattern_SelectConPat
 ms.topic: function
-f1_keywords: 
- - "uiautomationcoreapi/SelectionItemPattern_Select"
+f1_keywords:
+- uiautomationcoreapi/SelectionItemPattern_Select
 dev_langs:
- - c++
+- c++
 req.header: uiautomationcoreapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uiautomationcore.lib
 req.dll: Uiautomationcore.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Uiautomationcore.dll
+- Uiautomationcore.dll
 api_name:
- - SelectionItemPattern_Select
+- SelectionItemPattern_Select
 targetos: Windows
 req.typenames: 
 req.redist: 

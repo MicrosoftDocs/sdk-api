@@ -1,19 +1,17 @@
 ---
 UID: NF:vswriter.CVssWriter.OnPostRestore
 title: CVssWriter::OnPostRestore (vswriter.h)
-
 description: The OnPostRestore method is called by a writer following a PostRestore event. It is used to perform operations considered necessary after files are restored to disk by a requester. These operations cannot, however, modify the Backup Components Document.
 old-location: base\cvsswriter_onpostrestore.htm
 tech.root: VSS
 ms.assetid: ad07753c-1592-4fc8-9899-a73e798c158c
-
 ms.date: 12/05/2018
 ms.keywords: CVssWriter interface [VSS],OnPostRestore method, CVssWriter.OnPostRestore, CVssWriter::OnPostRestore, OnPostRestore, OnPostRestore method [VSS], OnPostRestore method [VSS],CVssWriter interface, _win32_cvsswriter_onpostrestore, base.cvsswriter_onpostrestore, vswriter/CVssWriter::OnPostRestore
 ms.topic: method
-f1_keywords: 
- - "vswriter/CVssWriter.OnPostRestore"
+f1_keywords:
+- vswriter/CVssWriter.OnPostRestore
 dev_langs:
- - c++
+- c++
 req.header: vswriter.h
 req.include-header: Vss.h, VsWriter.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: VssApi.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - VssApi.lib
- - VssApi.dll
+- VssApi.lib
+- VssApi.dll
 api_name:
- - CVssWriter.OnPostRestore
+- CVssWriter.OnPostRestore
 targetos: Windows
 req.typenames: 
 req.redist: 

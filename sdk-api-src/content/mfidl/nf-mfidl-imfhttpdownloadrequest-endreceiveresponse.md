@@ -1,19 +1,17 @@
 ---
 UID: NF:mfidl.IMFHttpDownloadRequest.EndReceiveResponse
 title: IMFHttpDownloadRequest::EndReceiveResponse (mfidl.h)
-
 description: Invoked by Microsoft Media Foundation to complete the asynchronous operation started by BeginReceiveResponse.
 old-location: mf\imfhttpdownloadrequest_endreceiveresponse.htm
 tech.root: medfound
 ms.assetid: FC342FB9-930F-4EA7-9057-51AF10D13ED9
-
 ms.date: 12/05/2018
 ms.keywords: EndReceiveResponse, EndReceiveResponse method [Media Foundation], EndReceiveResponse method [Media Foundation],IMFHttpDownloadRequest interface, IMFHttpDownloadRequest interface [Media Foundation],EndReceiveResponse method, IMFHttpDownloadRequest.EndReceiveResponse, IMFHttpDownloadRequest::EndReceiveResponse, mf.imfhttpdownloadrequest_endreceiveresponse, mfidl/IMFHttpDownloadRequest::EndReceiveResponse
 ms.topic: method
-f1_keywords: 
- - "mfidl/IMFHttpDownloadRequest.EndReceiveResponse"
+f1_keywords:
+- mfidl/IMFHttpDownloadRequest.EndReceiveResponse
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Mfplat.lib; Mfplat.dll
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfplat.lib
- - mfplat.dll
- - mfplat.dll
- - mfplat.dll.dll
+- mfplat.lib
+- mfplat.dll
+- mfplat.dll
+- mfplat.dll.dll
 api_name:
- - IMFHttpDownloadRequest.EndReceiveResponse
+- IMFHttpDownloadRequest.EndReceiveResponse
 targetos: Windows
 req.typenames: 
 req.redist: 

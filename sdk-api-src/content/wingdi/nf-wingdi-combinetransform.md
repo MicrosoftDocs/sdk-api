@@ -1,19 +1,17 @@
 ---
 UID: NF:wingdi.CombineTransform
 title: CombineTransform function (wingdi.h)
-
 description: The CombineTransform function concatenates two world-space to page-space transformations.
 old-location: gdi\combinetransform.htm
 tech.root: gdi
 ms.assetid: 6ccd7828-7aa6-4c86-a340-b93e50cf3a2a
-
 ms.date: 12/05/2018
 ms.keywords: CombineTransform, CombineTransform function [Windows GDI], _win32_CombineTransform, gdi.combinetransform, wingdi/CombineTransform
 ms.topic: function
-f1_keywords: 
- - "wingdi/CombineTransform"
+f1_keywords:
+- wingdi/CombineTransform
 dev_langs:
- - c++
+- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - gdi32.dll
- - Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
- - GDI32Full.dll
+- gdi32.dll
+- Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
+- GDI32Full.dll
 api_name:
- - CombineTransform
+- CombineTransform
 targetos: Windows
 req.typenames: 
 req.redist: 

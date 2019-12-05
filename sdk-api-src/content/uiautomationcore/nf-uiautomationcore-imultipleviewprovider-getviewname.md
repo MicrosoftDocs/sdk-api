@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationcore.IMultipleViewProvider.GetViewName
 title: IMultipleViewProvider::GetViewName (uiautomationcore.h)
-
 description: Retrieves the name of a control-specific view.
 old-location: winauto\uiauto_IMultipleViewProvider_GetViewName.htm
 tech.root: WinAuto
 ms.assetid: 72e9bca3-22cd-4f5b-9481-289bdfaf58e8
-
 ms.date: 12/05/2018
 ms.keywords: GetViewName, GetViewName method [Windows Accessibility], GetViewName method [Windows Accessibility],IMultipleViewProvider interface, IMultipleViewProvider interface [Windows Accessibility],GetViewName method, IMultipleViewProvider.GetViewName, IMultipleViewProvider::GetViewName, uiauto.uiauto_IMultipleViewProvider_GetViewName, uiauto_IMultipleViewProvider_GetViewName, uiautomationcore/IMultipleViewProvider::GetViewName, winauto.uiauto_IMultipleViewProvider_GetViewName
 ms.topic: method
-f1_keywords: 
- - "uiautomationcore/IMultipleViewProvider.GetViewName"
+f1_keywords:
+- uiautomationcore/IMultipleViewProvider.GetViewName
 dev_langs:
- - c++
+- c++
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Uiautomationcore.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Uiautomationcore.dll
+- Uiautomationcore.dll
 api_name:
- - IMultipleViewProvider.GetViewName
+- IMultipleViewProvider.GetViewName
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:amvideo.IFullScreenVideoEx.GetMonitor
 title: IFullScreenVideoEx::GetMonitor (amvideo.h)
-
 description: The GetMonitor method queries which monitor the Full Screen Renderer is using. The Full Screen Renderer only supports the primary monitor, so the returned value is always zero.
 old-location: dshow\ifullscreenvideoex_getmonitor.htm
 tech.root: DirectShow
 ms.assetid: 18825029-2035-46b3-a6a5-9edd8e0437c6
-
 ms.date: 12/05/2018
 ms.keywords: GetMonitor, GetMonitor method [DirectShow], GetMonitor method [DirectShow],IFullScreenVideoEx interface, IFullScreenVideoEx interface [DirectShow],GetMonitor method, IFullScreenVideoEx.GetMonitor, IFullScreenVideoEx::GetMonitor, IFullScreenVideoGetMonitor, amvideo/IFullScreenVideoEx::GetMonitor, dshow.ifullscreenvideoex_getmonitor
 ms.topic: method
-f1_keywords: 
- - "amvideo/IFullScreenVideoEx.GetMonitor"
+f1_keywords:
+- amvideo/IFullScreenVideoEx.GetMonitor
 dev_langs:
- - c++
+- c++
 req.header: amvideo.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IFullScreenVideoEx.GetMonitor
+- IFullScreenVideoEx.GetMonitor
 targetos: Windows
 req.typenames: 
 req.redist: 

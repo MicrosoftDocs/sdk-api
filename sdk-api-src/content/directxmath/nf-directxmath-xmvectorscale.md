@@ -1,19 +1,17 @@
 ---
 UID: NF:directxmath.XMVectorScale
 title: XMVectorScale function (directxmath.h)
-
 description: Scalar multiplies a vector by a floating-point value.
 old-location: dxmath\xmvectorscale.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.arithmetic.XMVectorScale(XMVECTOR,float)
-
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMVectorScale, XMVectorScale, XMVectorScale method [DirectX Math Support APIs], dxmath.xmvectorscale
 ms.topic: function
-f1_keywords: 
- - "directxmath/XMVectorScale"
+f1_keywords:
+- directxmath/XMVectorScale
 dev_langs:
- - c++
+- c++
 req.header: directxmath.h
 req.include-header: DirectXMath.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - directxmathvector.inl
+- directxmathvector.inl
 api_name:
- - XMVectorScale
+- XMVectorScale
 targetos: Windows
 req.typenames: 
 req.redist: 

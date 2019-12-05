@@ -1,19 +1,17 @@
 ---
 UID: NN:wuapi.IAutomaticUpdates2
 title: IAutomaticUpdates2 (wuapi.h)
-
 description: Contains the functionality of Automatic Updates.
 old-location: wua\iautomaticupdates2.htm
 tech.root: Wua_Sdk
 ms.assetid: 9cb09bb2-5532-446b-9441-0987d50c6228
-
 ms.date: 12/05/2018
 ms.keywords: IAutomaticUpdates2, IAutomaticUpdates2 interface [Windows Update Agent], IAutomaticUpdates2 interface [Windows Update Agent],described, wua.iautomaticupdates2, wuapi/IAutomaticUpdates2
 ms.topic: interface
-f1_keywords: 
- - "wuapi/IAutomaticUpdates2"
+f1_keywords:
+- wuapi/IAutomaticUpdates2
 dev_langs:
- - c++
+- c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Wuguid.lib
 req.dll: Wuapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wuapi.dll
+- Wuapi.dll
 api_name:
- - IAutomaticUpdates2
+- IAutomaticUpdates2
 targetos: Windows
 req.typenames: 
 req.redist: 

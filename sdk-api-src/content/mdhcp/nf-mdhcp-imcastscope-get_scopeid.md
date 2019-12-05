@@ -1,19 +1,17 @@
 ---
 UID: NF:mdhcp.IMcastScope.get_ScopeID
 title: IMcastScope::get_ScopeID (mdhcp.h)
-
 description: The get_ScopeID method obtains an identifier for the scope of multicast addresses.
 old-location: tapi3\imcastscope_get_scopeid.htm
 tech.root: Tapi
 ms.assetid: 9c0ba8ab-1022-40c6-9d89-74250c149681
-
 ms.date: 12/05/2018
 ms.keywords: IMcastScope interface [TAPI 2.2],get_ScopeID method, IMcastScope.get_ScopeID, IMcastScope::get_ScopeID, _tapi3_imcastscope_get_scopeid, get_ScopeID, get_ScopeID method [TAPI 2.2], get_ScopeID method [TAPI 2.2],IMcastScope interface, mdhcp/IMcastScope::get_ScopeID, tapi3.imcastscope_get_scopeid
 ms.topic: method
-f1_keywords: 
- - "mdhcp/IMcastScope.get_ScopeID"
+f1_keywords:
+- mdhcp/IMcastScope.get_ScopeID
 dev_langs:
- - c++
+- c++
 req.header: mdhcp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Mdhcp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mdhcp.dll
+- Mdhcp.dll
 api_name:
- - IMcastScope.get_ScopeID
+- IMcastScope.get_ScopeID
 targetos: Windows
 req.typenames: 
 req.redist: 

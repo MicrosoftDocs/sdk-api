@@ -1,19 +1,17 @@
 ---
 UID: NF:ole2.OleTranslateAccelerator
 title: OleTranslateAccelerator function (ole2.h)
-
 description: Called by the object application, allows an object's container to translate accelerators according to the container's accelerator table.
 old-location: com\oletranslateaccelerator.htm
 tech.root: com
 ms.assetid: c590efef-7f03-4ae6-a35f-eff2fc4da3d9
-
 ms.date: 12/05/2018
 ms.keywords: OleTranslateAccelerator, OleTranslateAccelerator function [COM], _ole_OleTranslateAccelerator, com.oletranslateaccelerator, ole2/OleTranslateAccelerator
 ms.topic: function
-f1_keywords: 
- - "ole2/OleTranslateAccelerator"
+f1_keywords:
+- ole2/OleTranslateAccelerator
 dev_langs:
- - c++
+- c++
 req.header: ole2.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Ole32.lib
 req.dll: Ole32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ole32.dll
- - Ext-MS-Win-Com-OLE32-l1-1-3.dll
- - Ext-MS-Win-Com-Ole32-L1-1-4.dll
+- Ole32.dll
+- Ext-MS-Win-Com-OLE32-l1-1-3.dll
+- Ext-MS-Win-Com-Ole32-L1-1-4.dll
 api_name:
- - OleTranslateAccelerator
+- OleTranslateAccelerator
 targetos: Windows
 req.typenames: 
 req.redist: 

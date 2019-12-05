@@ -1,19 +1,17 @@
 ---
 UID: NS:shlobj_core.__unnamed_struct_15
 title: SHELLFLAGSTATE (shlobj_core.h)
-
 description: Contains a set of flags that indicate the current Shell settings. This structure is used with the SHGetSettings function.
 old-location: shell\SHELLFLAGSTATE.htm
 tech.root: shell
 ms.assetid: 9968c7c9-79d9-4fb1-bda2-d6a2504cd3a3
-
 ms.date: 12/05/2018
-ms.keywords: "*LPSHELLFLAGSTATE, LPSHELLFLAGSTATE, LPSHELLFLAGSTATE structure pointer [Windows Shell], SHELLFLAGSTATE, SHELLFLAGSTATE structure [Windows Shell], _win32_SHELLFLAGSTATE, shell.SHELLFLAGSTATE, shlobj_core/LPSHELLFLAGSTATE, shlobj_core/SHELLFLAGSTATE"
+ms.keywords: '*LPSHELLFLAGSTATE, LPSHELLFLAGSTATE, LPSHELLFLAGSTATE structure pointer [Windows Shell], SHELLFLAGSTATE, SHELLFLAGSTATE structure [Windows Shell], _win32_SHELLFLAGSTATE, shell.SHELLFLAGSTATE, shlobj_core/LPSHELLFLAGSTATE, shlobj_core/SHELLFLAGSTATE'
 ms.topic: struct
-f1_keywords: 
- - "shlobj_core/SHELLFLAGSTATE"
+f1_keywords:
+- shlobj_core/SHELLFLAGSTATE
 dev_langs:
- - c++
+- c++
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - shlobj_core.h
+- shlobj_core.h
 api_name:
- - SHELLFLAGSTATE
+- SHELLFLAGSTATE
 targetos: Windows
 req.typenames: SHELLFLAGSTATE, *LPSHELLFLAGSTATE
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMGeometryFigureCollection.SetAt
 title: IXpsOMGeometryFigureCollection::SetAt (xpsobjectmodel.h)
-
 description: Replaces an IXpsOMGeometryFigure interface pointer at a specified location in the collection.
 old-location: xps\ixpsomgeometryfigurecollection_setat.htm
 tech.root: printdocs
 ms.assetid: 59612109-8500-4bd9-a37c-120ef12aded4
-
 ms.date: 12/05/2018
 ms.keywords: IXpsOMGeometryFigureCollection interface [XPS Documents and Packaging],SetAt method, IXpsOMGeometryFigureCollection.SetAt, IXpsOMGeometryFigureCollection::SetAt, SetAt, SetAt method [XPS Documents and Packaging], SetAt method [XPS Documents and Packaging],IXpsOMGeometryFigureCollection interface, xps.ixpsomgeometryfigurecollection_setat, xpsobjectmodel/IXpsOMGeometryFigureCollection::SetAt
 ms.topic: method
-f1_keywords: 
- - "xpsobjectmodel/IXpsOMGeometryFigureCollection.SetAt"
+f1_keywords:
+- xpsobjectmodel/IXpsOMGeometryFigureCollection.SetAt
 dev_langs:
- - c++
+- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsobjectmodel.h
+- xpsobjectmodel.h
 api_name:
- - IXpsOMGeometryFigureCollection.SetAt
+- IXpsOMGeometryFigureCollection.SetAt
 targetos: Windows
 req.typenames: 
 req.redist: 

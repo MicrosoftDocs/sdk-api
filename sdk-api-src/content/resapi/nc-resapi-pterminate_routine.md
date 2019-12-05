@@ -1,19 +1,17 @@
 ---
 UID: NC:resapi.PTERMINATE_ROUTINE
 title: PTERMINATE_ROUTINE (resapi.h)
-
 description: Immediately marks a resource as unavailable for use without waiting for cleanup processing to be completed.
 old-location: mscs\terminate.htm
 tech.root: MsCS
 ms.assetid: b53ab7db-ed17-4386-8a5f-5d0b0d1cb1b3
-
 ms.date: 12/05/2018
 ms.keywords: PTERMINATE_ROUTINE, PTERMINATE_ROUTINE callback function [Failover Cluster], Terminate, Terminate callback, Terminate callback function [Failover Cluster], _wolf_terminate, mscs.terminate, resapi/PTERMINATE_ROUTINE, resapi/Terminate
 ms.topic: callback
-f1_keywords: 
- - "resapi/Terminate"
+f1_keywords:
+- resapi/Terminate
 dev_langs:
- - c++
+- c++
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - ResApi.h
+- ResApi.h
 api_name:
- - Terminate
+- Terminate
 targetos: Windows
 req.typenames: 
 req.redist: 

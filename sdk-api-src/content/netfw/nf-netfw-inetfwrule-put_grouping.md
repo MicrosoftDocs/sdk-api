@@ -1,19 +1,17 @@
 ---
 UID: NF:netfw.INetFwRule.put_Grouping
 title: INetFwRule::put_Grouping (netfw.h)
-
 description: Specifies the group to which an individual rule belongs.
 old-location: ics\inetfwrule_grouping.htm
 tech.root: ics
 ms.assetid: 325b0c1d-3988-44ed-931c-6eed835f8c50
-
 ms.date: 12/05/2018
 ms.keywords: Grouping property [ICS/ICF], Grouping property [ICS/ICF],INetFwRule interface, INetFwRule interface [ICS/ICF],Grouping property, INetFwRule.Grouping, INetFwRule.put_Grouping, INetFwRule::Grouping, INetFwRule::get_Grouping, INetFwRule::put_Grouping, ics.inetfwrule_grouping, netfw/INetFwRule::Grouping, netfw/INetFwRule::get_Grouping, netfw/INetFwRule::put_Grouping, put_Grouping
 ms.topic: method
-f1_keywords: 
- - "netfw/INetFwRule.Grouping"
+f1_keywords:
+- netfw/INetFwRule.Grouping
 dev_langs:
- - c++
+- c++
 req.header: netfw.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: FirewallAPI.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - FirewallAPI.dll
+- FirewallAPI.dll
 api_name:
- - INetFwRule.Grouping
- - INetFwRule.get_Grouping
- - INetFwRule.put_Grouping
+- INetFwRule.Grouping
+- INetFwRule.get_Grouping
+- INetFwRule.put_Grouping
 targetos: Windows
 req.typenames: 
 req.redist: 

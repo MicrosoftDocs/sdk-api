@@ -1,19 +1,17 @@
 ---
 UID: NF:upnp.IUPnPServiceAsync.BeginSCPDDownload
 title: IUPnPServiceAsync::BeginSCPDDownload (upnp.h)
-
 description: BeginSCPDDownload method initiates the asynchronous download of an Service Control Protocol Description (SCPD) document.
 old-location: upnp\iupnpserviceasync_beginscpddownload.htm
 tech.root: upnp
 ms.assetid: CA573855-6D86-4C6C-B557-F8E8776BDBD3
-
 ms.date: 12/05/2018
 ms.keywords: BeginSCPDDownload, BeginSCPDDownload method [UPnP APIs], BeginSCPDDownload method [UPnP APIs],IUPnPServiceAsync interface, IUPnPServiceAsync interface [UPnP APIs],BeginSCPDDownload method, IUPnPServiceAsync.BeginSCPDDownload, IUPnPServiceAsync::BeginSCPDDownload, upnp.iupnpserviceasync_beginscpddownload, upnp/IUPnPServiceAsync::BeginSCPDDownload
 ms.topic: method
-f1_keywords: 
- - "upnp/IUPnPServiceAsync.BeginSCPDDownload"
+f1_keywords:
+- upnp/IUPnPServiceAsync.BeginSCPDDownload
 dev_langs:
- - c++
+- c++
 req.header: upnp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Upnp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Upnp.dll
+- Upnp.dll
 api_name:
- - IUPnPServiceAsync.BeginSCPDDownload
+- IUPnPServiceAsync.BeginSCPDDownload
 targetos: Windows
 req.typenames: 
 req.redist: 

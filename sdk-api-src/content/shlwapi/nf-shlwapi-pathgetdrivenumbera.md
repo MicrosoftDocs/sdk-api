@@ -1,19 +1,17 @@
 ---
 UID: NF:shlwapi.PathGetDriveNumberA
 title: PathGetDriveNumberA function (shlwapi.h)
-
 description: Searches a path for a drive letter within the range of 'A' to 'Z' and returns the corresponding drive number.
 old-location: shell\PathGetDriveNumber.htm
 tech.root: shell
 ms.assetid: 38914866-fdd4-47f2-b0e7-d09d1cfb0eee
-
 ms.date: 12/05/2018
 ms.keywords: PathGetDriveNumber, PathGetDriveNumber function [Windows Shell], PathGetDriveNumberA, PathGetDriveNumberW, _win32_PathGetDriveNumber, shell.PathGetDriveNumber, shlwapi/PathGetDriveNumber, shlwapi/PathGetDriveNumberA, shlwapi/PathGetDriveNumberW
 ms.topic: function
-f1_keywords: 
- - "shlwapi/PathGetDriveNumber"
+f1_keywords:
+- shlwapi/PathGetDriveNumber
 dev_langs:
- - c++
+- c++
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,20 +30,20 @@ req.lib: Shlwapi.lib
 req.dll: Shlwapi.dll (version 4.71 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Shlwapi.dll
- - API-MS-Win-Core-shlwapi-legacy-l1-1-0.dll
- - KernelBase.dll
- - API-MS-Win-DownLevel-shlwapi-l1-1-0.dll
- - API-MS-Win-DownLevel-shlwapi-l1-1-1.dll
+- Shlwapi.dll
+- API-MS-Win-Core-shlwapi-legacy-l1-1-0.dll
+- KernelBase.dll
+- API-MS-Win-DownLevel-shlwapi-l1-1-0.dll
+- API-MS-Win-DownLevel-shlwapi-l1-1-1.dll
 api_name:
- - PathGetDriveNumber
- - PathGetDriveNumberA
- - PathGetDriveNumberW
+- PathGetDriveNumber
+- PathGetDriveNumberA
+- PathGetDriveNumberW
 targetos: Windows
 req.typenames: 
 req.redist: 

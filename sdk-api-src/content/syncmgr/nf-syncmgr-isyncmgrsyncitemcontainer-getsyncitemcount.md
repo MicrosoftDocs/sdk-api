@@ -1,19 +1,17 @@
 ---
 UID: NF:syncmgr.ISyncMgrSyncItemContainer.GetSyncItemCount
 title: ISyncMgrSyncItemContainer::GetSyncItemCount (syncmgr.h)
-
 description: Gets a count of the sync items in the container.
 old-location: shell\ISyncMgrSyncItemContainer_GetSyncItemCount.htm
 tech.root: shell
 ms.assetid: bbe37dff-d758-41ca-872d-4607d605011d
-
 ms.date: 12/05/2018
 ms.keywords: GetSyncItemCount, GetSyncItemCount method [Windows Shell], GetSyncItemCount method [Windows Shell],ISyncMgrSyncItemContainer interface, ISyncMgrSyncItemContainer interface [Windows Shell],GetSyncItemCount method, ISyncMgrSyncItemContainer.GetSyncItemCount, ISyncMgrSyncItemContainer::GetSyncItemCount, _shell_ISyncMgrSyncItemContainer_GetSyncItemCount, shell.ISyncMgrSyncItemContainer_GetSyncItemCount, syncmgr/ISyncMgrSyncItemContainer::GetSyncItemCount
 ms.topic: method
-f1_keywords: 
- - "syncmgr/ISyncMgrSyncItemContainer.GetSyncItemCount"
+f1_keywords:
+- syncmgr/ISyncMgrSyncItemContainer.GetSyncItemCount
 dev_langs:
- - c++
+- c++
 req.header: syncmgr.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Syncmgr.h
+- Syncmgr.h
 api_name:
- - ISyncMgrSyncItemContainer.GetSyncItemCount
+- ISyncMgrSyncItemContainer.GetSyncItemCount
 targetos: Windows
 req.typenames: 
 req.redist: 

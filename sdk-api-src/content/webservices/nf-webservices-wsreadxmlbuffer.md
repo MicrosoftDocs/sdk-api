@@ -1,19 +1,17 @@
 ---
 UID: NF:webservices.WsReadXmlBuffer
 title: WsReadXmlBuffer function (webservices.h)
-
 description: Reads the current node from a reader into a WS_XML_BUFFER.
 old-location: wsw\wsreadxmlbuffer.htm
 tech.root: wsw
 ms.assetid: d8d849b7-6acf-4007-a904-144200c934f6
-
 ms.date: 12/05/2018
 ms.keywords: WsReadXmlBuffer, WsReadXmlBuffer function [Web Services for Windows], webservices/WsReadXmlBuffer, wsw.wsreadxmlbuffer
 ms.topic: function
-f1_keywords: 
- - "webservices/WsReadXmlBuffer"
+f1_keywords:
+- webservices/WsReadXmlBuffer
 dev_langs:
- - c++
+- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: WebServices.lib
 req.dll: WebServices.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - WebServices.dll
+- WebServices.dll
 api_name:
- - WsReadXmlBuffer
+- WsReadXmlBuffer
 targetos: Windows
 req.typenames: 
 req.redist: 

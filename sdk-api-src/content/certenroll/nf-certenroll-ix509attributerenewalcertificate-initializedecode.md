@@ -1,19 +1,17 @@
 ---
 UID: NF:certenroll.IX509AttributeRenewalCertificate.InitializeDecode
 title: IX509AttributeRenewalCertificate::InitializeDecode (certenroll.h)
-
 description: Initializes the object from a Distinguished Encoding Rules (DER) encoded byte array that contains the certificate to be renewed.
 old-location: security\ix509attributerenewalcertificate_initializedecode_method.htm
 tech.root: seccertenroll
 ms.assetid: dd5a43c3-5244-43da-a6d5-87b109baea09
-
 ms.date: 12/05/2018
 ms.keywords: IX509AttributeRenewalCertificate interface [Security],InitializeDecode method, IX509AttributeRenewalCertificate.InitializeDecode, IX509AttributeRenewalCertificate::InitializeDecode, InitializeDecode, InitializeDecode method [Security], InitializeDecode method [Security],IX509AttributeRenewalCertificate interface, certenroll/IX509AttributeRenewalCertificate::InitializeDecode, security.ix509attributerenewalcertificate_initializedecode_method
 ms.topic: method
-f1_keywords: 
- - "certenroll/IX509AttributeRenewalCertificate.InitializeDecode"
+f1_keywords:
+- certenroll/IX509AttributeRenewalCertificate.InitializeDecode
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: CertEnroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CertEnroll.dll
+- CertEnroll.dll
 api_name:
- - IX509AttributeRenewalCertificate.InitializeDecode
+- IX509AttributeRenewalCertificate.InitializeDecode
 targetos: Windows
 req.typenames: 
 req.redist: 

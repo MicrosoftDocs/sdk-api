@@ -1,19 +1,17 @@
 ---
 UID: NF:docobj.IOleDocument.CreateView
 title: IOleDocument::CreateView (docobj.h)
-
 description: Creates a document view object in the caller's process and obtains a pointer to that object's IOleDocumentView interface.
 old-location: com\ioledocument_createview.htm
 tech.root: com
 ms.assetid: 709d7ff4-d32d-405f-8839-b05df49ef751
-
 ms.date: 12/05/2018
 ms.keywords: CreateView, CreateView method [COM], CreateView method [COM],IOleDocument interface, IOleDocument interface [COM],CreateView method, IOleDocument.CreateView, IOleDocument::CreateView, _ole_ioledocument_createview, com.ioledocument_createview, docobj/IOleDocument::CreateView
 ms.topic: method
-f1_keywords: 
- - "docobj/IOleDocument.CreateView"
+f1_keywords:
+- docobj/IOleDocument.CreateView
 dev_langs:
- - c++
+- c++
 req.header: docobj.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - DocObj.h
+- DocObj.h
 api_name:
- - IOleDocument.CreateView
+- IOleDocument.CreateView
 targetos: Windows
 req.typenames: 
 req.redist: 

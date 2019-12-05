@@ -1,19 +1,17 @@
 ---
 UID: NF:utilapiset.Beep
 title: Beep function (utilapiset.h)
-
 description: Generates simple tones on the speaker.
 old-location: base\beep.htm
 tech.root: Debug
 ms.assetid: ea74fe2a-759e-4466-bef4-6061643ddd26
-
 ms.date: 12/05/2018
 ms.keywords: Beep, Beep function, _win32_beep, base.beep, utilapiset/Beep
 ms.topic: function
-f1_keywords: 
- - "utilapiset/Beep"
+f1_keywords:
+- utilapiset/Beep
 dev_langs:
- - c++
+- c++
 req.header: utilapiset.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,19 +30,19 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-util-l1-1-0.dll
- - KernelBase.dll
- - MinKernelBase.dll
- - api-ms-win-downlevel-kernel32-l1-1-0.dll
- - api-ms-win-core-util-l1-1-1.dll
+- Kernel32.dll
+- API-MS-Win-Core-util-l1-1-0.dll
+- KernelBase.dll
+- MinKernelBase.dll
+- api-ms-win-downlevel-kernel32-l1-1-0.dll
+- api-ms-win-core-util-l1-1-1.dll
 api_name:
- - Beep
+- Beep
 targetos: Windows
 req.typenames: 
 req.redist: 

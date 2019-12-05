@@ -1,19 +1,17 @@
 ---
 UID: NS:wdstpdi._WDS_TRANSPORTPROVIDER_INIT_PARAMS
 title: WDS_TRANSPORTPROVIDER_INIT_PARAMS (wdstpdi.h)
-
 description: This structure is used by the WdsTransportProviderInitialize callback function.
 old-location: wds\wds_transportprovider_init_params.htm
 tech.root: wds
 ms.assetid: 5d89d192-7e60-4b5a-ba87-d5b30971a8a6
-
 ms.date: 12/05/2018
-ms.keywords: "*PWDS_TRANSPORTPROVIDER_INIT_PARAMS, PWDS_TRANSPORTPROVIDER_INIT_PARAMS, PWDS_TRANSPORTPROVIDER_INIT_PARAMS structure pointer [Windows Deployment Services], WDS_TRANSPORTPROVIDER_INIT_PARAMS, WDS_TRANSPORTPROVIDER_INIT_PARAMS structure [Windows Deployment Services], wds.wds_transportprovider_init_params, wdstpdi/PWDS_TRANSPORTPROVIDER_INIT_PARAMS, wdstpdi/WDS_TRANSPORTPROVIDER_INIT_PARAMS"
+ms.keywords: '*PWDS_TRANSPORTPROVIDER_INIT_PARAMS, PWDS_TRANSPORTPROVIDER_INIT_PARAMS, PWDS_TRANSPORTPROVIDER_INIT_PARAMS structure pointer [Windows Deployment Services], WDS_TRANSPORTPROVIDER_INIT_PARAMS, WDS_TRANSPORTPROVIDER_INIT_PARAMS structure [Windows Deployment Services], wds.wds_transportprovider_init_params, wdstpdi/PWDS_TRANSPORTPROVIDER_INIT_PARAMS, wdstpdi/WDS_TRANSPORTPROVIDER_INIT_PARAMS'
 ms.topic: struct
-f1_keywords: 
- - "wdstpdi/WDS_TRANSPORTPROVIDER_INIT_PARAMS"
+f1_keywords:
+- wdstpdi/WDS_TRANSPORTPROVIDER_INIT_PARAMS
 dev_langs:
- - c++
+- c++
 req.header: wdstpdi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wdstpdi.h
+- Wdstpdi.h
 api_name:
- - WDS_TRANSPORTPROVIDER_INIT_PARAMS
+- WDS_TRANSPORTPROVIDER_INIT_PARAMS
 targetos: Windows
 req.typenames: WDS_TRANSPORTPROVIDER_INIT_PARAMS, *PWDS_TRANSPORTPROVIDER_INIT_PARAMS
 req.redist: 

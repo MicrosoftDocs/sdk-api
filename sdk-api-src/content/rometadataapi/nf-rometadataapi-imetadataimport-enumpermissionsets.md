@@ -1,19 +1,17 @@
 ---
 UID: NF:rometadataapi.IMetaDataImport.EnumPermissionSets
 title: IMetaDataImport::EnumPermissionSets (rometadataapi.h)
-
 description: Enumerates permissions for the objects in a specified metadata scope.
 old-location: winrt\imetadataimport_enumpermissionsets.htm
 tech.root: WinRT
 ms.assetid: 20fec6e8-02f8-4158-8d61-550653e99dad
-
 ms.date: 12/05/2018
 ms.keywords: EnumPermissionSets, EnumPermissionSets method [Windows Runtime], EnumPermissionSets method [Windows Runtime],IMetaDataImport interface, IMetaDataImport interface [Windows Runtime],EnumPermissionSets method, IMetaDataImport.EnumPermissionSets, IMetaDataImport::EnumPermissionSets, rometadataapi/IMetaDataImport::EnumPermissionSets, winrt.imetadataimport_enumpermissionsets
 ms.topic: method
-f1_keywords: 
- - "rometadataapi/IMetaDataImport.EnumPermissionSets"
+f1_keywords:
+- rometadataapi/IMetaDataImport.EnumPermissionSets
 dev_langs:
- - c++
+- c++
 req.header: rometadataapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - rometadataapi.h
+- rometadataapi.h
 api_name:
- - IMetaDataImport.EnumPermissionSets
+- IMetaDataImport.EnumPermissionSets
 targetos: Windows
 req.typenames: 
 req.redist: 

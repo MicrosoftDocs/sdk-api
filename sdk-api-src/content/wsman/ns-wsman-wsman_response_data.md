@@ -1,19 +1,17 @@
 ---
 UID: NS:wsman._WSMAN_RESPONSE_DATA
 title: WSMAN_RESPONSE_DATA (wsman.h)
-
 description: Represents the output data received from a WSMan operation.
 old-location: winrm\wsman_response_data.htm
 tech.root: winrm
 ms.assetid: 397AAE6C-8878-44B6-A025-4BC04514F6A7
-
 ms.date: 12/05/2018
 ms.keywords: WSMAN_RESPONSE_DATA, WSMAN_RESPONSE_DATA union [Windows Remote Management], winrm.wsman_response_data, wsman/WSMAN_RESPONSE_DATA
 ms.topic: struct
-f1_keywords: 
- - "wsman/WSMAN_RESPONSE_DATA"
+f1_keywords:
+- wsman/WSMAN_RESPONSE_DATA
 dev_langs:
- - c++
+- c++
 req.header: wsman.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wsman.h
+- Wsman.h
 api_name:
- - WSMAN_RESPONSE_DATA
+- WSMAN_RESPONSE_DATA
 targetos: Windows
 req.typenames: WSMAN_RESPONSE_DATA
 req.redist: 

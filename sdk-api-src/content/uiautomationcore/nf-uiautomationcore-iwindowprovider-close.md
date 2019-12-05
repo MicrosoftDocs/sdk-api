@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationcore.IWindowProvider.Close
 title: IWindowProvider::Close (uiautomationcore.h)
-
 description: Attempts to close the window.
 old-location: winauto\uiauto_IWindowProvider_Close.htm
 tech.root: WinAuto
 ms.assetid: 3bfd7801-c296-4f59-8094-c13c8f044038
-
 ms.date: 12/05/2018
 ms.keywords: Close, Close method [Windows Accessibility], Close method [Windows Accessibility],IWindowProvider interface, IWindowProvider interface [Windows Accessibility],Close method, IWindowProvider.Close, IWindowProvider::Close, uiauto.uiauto_IWindowProvider_Close, uiauto_IWindowProvider_Close, uiautomationcore/IWindowProvider::Close, winauto.uiauto_IWindowProvider_Close
 ms.topic: method
-f1_keywords: 
- - "uiautomationcore/IWindowProvider.Close"
+f1_keywords:
+- uiautomationcore/IWindowProvider.Close
 dev_langs:
- - c++
+- c++
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationCore.h
+- UIAutomationCore.h
 api_name:
- - IWindowProvider.Close
+- IWindowProvider.Close
 targetos: Windows
 req.typenames: 
 req.redist: 

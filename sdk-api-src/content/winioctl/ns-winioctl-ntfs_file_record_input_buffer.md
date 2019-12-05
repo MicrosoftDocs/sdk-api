@@ -1,19 +1,17 @@
 ---
 UID: NS:winioctl.__unnamed_struct_8
 title: NTFS_FILE_RECORD_INPUT_BUFFER
-
 description: Contains data for the FSCTL_GET_NTFS_FILE_RECORD control code.
 old-location: fs\ntfs_file_record_input_buffer_str.htm
 tech.root: FileIO
 ms.assetid: 8b0317ca-6d0e-4a04-a05a-1627d22171e3
-
 ms.date: 12/05/2018
-ms.keywords: "*PNTFS_FILE_RECORD_INPUT_BUFFER, NTFS_FILE_RECORD_INPUT_BUFFER, NTFS_FILE_RECORD_INPUT_BUFFER structure [Files], PNTFS_FILE_RECORD_INPUT_BUFFER, PNTFS_FILE_RECORD_INPUT_BUFFER structure pointer [Files], _win32_ntfs_file_record_input_buffer_str, base.ntfs_file_record_input_buffer_str, fs.ntfs_file_record_input_buffer_str, winioctl/NTFS_FILE_RECORD_INPUT_BUFFER, winioctl/PNTFS_FILE_RECORD_INPUT_BUFFER"
+ms.keywords: '*PNTFS_FILE_RECORD_INPUT_BUFFER, NTFS_FILE_RECORD_INPUT_BUFFER, NTFS_FILE_RECORD_INPUT_BUFFER structure [Files], PNTFS_FILE_RECORD_INPUT_BUFFER, PNTFS_FILE_RECORD_INPUT_BUFFER structure pointer [Files], _win32_ntfs_file_record_input_buffer_str, base.ntfs_file_record_input_buffer_str, fs.ntfs_file_record_input_buffer_str, winioctl/NTFS_FILE_RECORD_INPUT_BUFFER, winioctl/PNTFS_FILE_RECORD_INPUT_BUFFER'
 ms.topic: struct
-f1_keywords: 
- - "winioctl/NTFS_FILE_RECORD_INPUT_BUFFER"
+f1_keywords:
+- winioctl/NTFS_FILE_RECORD_INPUT_BUFFER
 dev_langs:
- - c++
+- c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WinIoCtl.h
+- WinIoCtl.h
 api_name:
- - NTFS_FILE_RECORD_INPUT_BUFFER
+- NTFS_FILE_RECORD_INPUT_BUFFER
 targetos: Windows
 req.typenames: NTFS_FILE_RECORD_INPUT_BUFFER, *PNTFS_FILE_RECORD_INPUT_BUFFER
 req.redist: 

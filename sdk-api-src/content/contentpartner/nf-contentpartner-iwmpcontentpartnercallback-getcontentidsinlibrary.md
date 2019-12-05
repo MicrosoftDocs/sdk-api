@@ -1,19 +1,17 @@
 ---
 UID: NF:contentpartner.IWMPContentPartnerCallback.GetContentIDsInLibrary
 title: IWMPContentPartnerCallback::GetContentIDsInLibrary (contentpartner.h)
-
 description: Note  This section describes functionality designed for use by online stores.
 old-location: wmp\iwmpcontentpartnercallback_getcontentidsinlibrary.htm
 tech.root: WMP
 ms.assetid: c8fbac82-77dc-4316-860d-cdf53e8bb9a7
-
 ms.date: 12/05/2018
 ms.keywords: GetContentIDsInLibrary, GetContentIDsInLibrary method [Windows Media Player], GetContentIDsInLibrary method [Windows Media Player],IWMPContentPartnerCallback interface, IWMPContentPartnerCallback interface [Windows Media Player],GetContentIDsInLibrary method, IWMPContentPartnerCallback.GetContentIDsInLibrary, IWMPContentPartnerCallback::GetContentIDsInLibrary, IWMPContentPartnerCallbackGetContentIDsInLibrary, contentpartner/IWMPContentPartnerCallback::GetContentIDsInLibrary, wmp.iwmpcontentpartnercallback_getcontentidsinlibrary
 ms.topic: method
-f1_keywords: 
- - "contentpartner/IWMPContentPartnerCallback.GetContentIDsInLibrary"
+f1_keywords:
+- contentpartner/IWMPContentPartnerCallback.GetContentIDsInLibrary
 dev_langs:
- - c++
+- c++
 req.header: contentpartner.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - contentpartner.h
+- contentpartner.h
 api_name:
- - IWMPContentPartnerCallback.GetContentIDsInLibrary
+- IWMPContentPartnerCallback.GetContentIDsInLibrary
 targetos: Windows
 req.typenames: 
 req.redist: 

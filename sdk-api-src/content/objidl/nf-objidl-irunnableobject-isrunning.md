@@ -1,19 +1,17 @@
 ---
 UID: NF:objidl.IRunnableObject.IsRunning
 title: IRunnableObject::IsRunning (objidl.h)
-
 description: Determines whether an object is currently in the running state.
 old-location: com\irunnableobject_isrunning.htm
 tech.root: com
 ms.assetid: 0a4cdd21-8256-4533-9cad-d9e8450a17e9
-
 ms.date: 12/05/2018
 ms.keywords: IRunnableObject interface [COM],IsRunning method, IRunnableObject.IsRunning, IRunnableObject::IsRunning, IsRunning, IsRunning method [COM], IsRunning method [COM],IRunnableObject interface, _com_irunnableobject_isrunning, com.irunnableobject_isrunning, objidl/IRunnableObject::IsRunning
 ms.topic: method
-f1_keywords: 
- - "objidl/IRunnableObject.IsRunning"
+f1_keywords:
+- objidl/IRunnableObject.IsRunning
 dev_langs:
- - c++
+- c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ObjIdl.h
+- ObjIdl.h
 api_name:
- - IRunnableObject.IsRunning
+- IRunnableObject.IsRunning
 targetos: Windows
 req.typenames: 
 req.redist: 

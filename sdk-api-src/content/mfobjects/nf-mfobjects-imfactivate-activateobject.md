@@ -1,19 +1,17 @@
 ---
 UID: NF:mfobjects.IMFActivate.ActivateObject
 title: IMFActivate::ActivateObject (mfobjects.h)
-
 description: Creates the object associated with this activation object.
 old-location: mf\imfactivate_activateobject.htm
 tech.root: medfound
 ms.assetid: 120b8070-6732-450d-8334-b3910f7bb4d2
-
 ms.date: 12/05/2018
 ms.keywords: 120b8070-6732-450d-8334-b3910f7bb4d2, ActivateObject, ActivateObject method [Media Foundation], ActivateObject method [Media Foundation],IMFActivate interface, IMFActivate interface [Media Foundation],ActivateObject method, IMFActivate.ActivateObject, IMFActivate::ActivateObject, mf.imfactivate_activateobject, mfobjects/IMFActivate::ActivateObject
 ms.topic: method
-f1_keywords: 
- - "mfobjects/IMFActivate.ActivateObject"
+f1_keywords:
+- mfobjects/IMFActivate.ActivateObject
 dev_langs:
- - c++
+- c++
 req.header: mfobjects.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFActivate.ActivateObject
+- IMFActivate.ActivateObject
 targetos: Windows
 req.typenames: 
 req.redist: 

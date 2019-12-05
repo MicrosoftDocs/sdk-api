@@ -1,19 +1,17 @@
 ---
 UID: NE:strmif.VMRMode
 title: VMRMode (strmif.h)
-
 description: The VMRMode enumeration type is used in calls to the IVMRFilterConfig::GetRenderingMode and IVMRFilterConfig::SetRenderingMode methods to retrieve or specify the Video Mixing Renderer Filter 7 (VMR-7) rendering mode.
 old-location: dshow\vmrmode.htm
 tech.root: DirectShow
 ms.assetid: cc924b1a-561f-4d62-8cc8-03ba5e5e8d5b
-
 ms.date: 12/05/2018
 ms.keywords: VMRMode, VMRMode enumeration [DirectShow], VMRModeEnumeration, VMRMode_Mask, VMRMode_Renderless, VMRMode_Windowed, VMRMode_Windowless, dshow.vmrmode, strmif/VMRMode, strmif/VMRMode_Mask, strmif/VMRMode_Renderless, strmif/VMRMode_Windowed, strmif/VMRMode_Windowless
 ms.topic: enum
-f1_keywords: 
- - "strmif/VMRMode"
+f1_keywords:
+- strmif/VMRMode
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - strmif.h
+- strmif.h
 api_name:
- - VMRMode
+- VMRMode
 targetos: Windows
 req.typenames: VMRMode
 req.redist: 

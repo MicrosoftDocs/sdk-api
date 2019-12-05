@@ -1,19 +1,17 @@
 ---
 UID: NF:ntmsapi.SwapNtmsMedia
 title: SwapNtmsMedia function (ntmsapi.h)
-
 description: The SwapNtmsMedia function swaps the sides associated with the two specified LMIDs. The specified LMIDs must be in the same media pool.
 old-location: fs\swapntmsmedia.htm
 tech.root: Rsm
 ms.assetid: 1e931ae0-b15c-48c8-b6a0-6fa1689263a2
-
 ms.date: 12/05/2018
 ms.keywords: SwapNtmsMedia, SwapNtmsMedia function [Files], _zaw_swapntmsmedia, base.swapntmsmedia, fs.swapntmsmedia, ntmsapi/SwapNtmsMedia
 ms.topic: function
-f1_keywords: 
- - "ntmsapi/SwapNtmsMedia"
+f1_keywords:
+- ntmsapi/SwapNtmsMedia
 dev_langs:
- - c++
+- c++
 req.header: ntmsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Ntmsapi.lib
 req.dll: Ntmsapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ntmsapi.dll
+- Ntmsapi.dll
 api_name:
- - SwapNtmsMedia
+- SwapNtmsMedia
 targetos: Windows
 req.typenames: 
 req.redist: 

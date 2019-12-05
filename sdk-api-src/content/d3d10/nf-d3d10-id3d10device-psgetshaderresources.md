@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d10.ID3D10Device.PSGetShaderResources
 title: ID3D10Device::PSGetShaderResources (d3d10.h)
-
 description: Get the pixel shader resources.
 old-location: direct3d10\id3d10device_psgetshaderresources.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10device_psgetshaderresources.htm
-
 ms.date: 12/05/2018
 ms.keywords: 54b6aa73-f39a-9734-0be4-f47362f38b2f, ID3D10Device interface [Direct3D 10],PSGetShaderResources method, ID3D10Device.PSGetShaderResources, ID3D10Device::PSGetShaderResources, PSGetShaderResources, PSGetShaderResources method [Direct3D 10], PSGetShaderResources method [Direct3D 10],ID3D10Device interface, d3d10/ID3D10Device::PSGetShaderResources, direct3d10.id3d10device_psgetshaderresources
 ms.topic: method
-f1_keywords: 
- - "d3d10/ID3D10Device.PSGetShaderResources"
+f1_keywords:
+- d3d10/ID3D10Device.PSGetShaderResources
 dev_langs:
- - c++
+- c++
 req.header: d3d10.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: D3D10.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D10.lib
- - D3D10.dll
+- D3D10.lib
+- D3D10.dll
 api_name:
- - ID3D10Device.PSGetShaderResources
+- ID3D10Device.PSGetShaderResources
 targetos: Windows
 req.typenames: 
 req.redist: 

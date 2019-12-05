@@ -1,19 +1,17 @@
 ---
 UID: NF:gdipluspath.PathGradientBrush.SetGraphicsPath
 title: PathGradientBrush::SetGraphicsPath (gdipluspath.h)
-
 description: The PathGradientBrush::SetGraphicsPath method is not implemented in Windows GDI+ version 1.0.
 old-location: gdiplus\_gdiplus_CLASS_PathGradientBrush_SetGraphicsPath_path_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\pathgradientbrushclass\pathgradientbrushmethods\setgraphicspath.htm
-
 ms.date: 12/05/2018
 ms.keywords: PathGradientBrush class [GDI+],SetGraphicsPath method, PathGradientBrush.SetGraphicsPath, PathGradientBrush::SetGraphicsPath, SetGraphicsPath, SetGraphicsPath method [GDI+], SetGraphicsPath method [GDI+],PathGradientBrush class, _gdiplus_CLASS_PathGradientBrush_SetGraphicsPath_path_, gdiplus._gdiplus_CLASS_PathGradientBrush_SetGraphicsPath_path_
 ms.topic: method
-f1_keywords: 
- - "gdipluspath/PathGradientBrush.SetGraphicsPath"
+f1_keywords:
+- gdipluspath/PathGradientBrush.SetGraphicsPath
 dev_langs:
- - c++
+- c++
 req.header: gdipluspath.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - PathGradientBrush.SetGraphicsPath
+- PathGradientBrush.SetGraphicsPath
 targetos: Windows
 req.typenames: 
 req.redist: 

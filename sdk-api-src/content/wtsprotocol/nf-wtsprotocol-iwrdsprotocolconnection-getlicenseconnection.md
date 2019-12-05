@@ -1,19 +1,17 @@
 ---
 UID: NF:wtsprotocol.IWRdsProtocolConnection.GetLicenseConnection
 title: IWRdsProtocolConnection::GetLicenseConnection (wtsprotocol.h)
-
 description: Retrieves an IWRdsProtocolLicenseConnection object that is used to begin the client licensing process.
 old-location: termserv\iwrdsprotocolconnection_getlicenseconnection.htm
 tech.root: TermServ
 ms.assetid: 6c75f80a-0d47-489d-b684-f718326e2b0d
-
 ms.date: 12/05/2018
 ms.keywords: GetLicenseConnection, GetLicenseConnection method [Remote Desktop Services], GetLicenseConnection method [Remote Desktop Services],IWRdsProtocolConnection interface, IWRdsProtocolConnection interface [Remote Desktop Services],GetLicenseConnection method, IWRdsProtocolConnection.GetLicenseConnection, IWRdsProtocolConnection::GetLicenseConnection, termserv.iwrdsprotocolconnection_getlicenseconnection, wtsprotocol/IWRdsProtocolConnection::GetLicenseConnection
 ms.topic: method
-f1_keywords: 
- - "wtsprotocol/IWRdsProtocolConnection.GetLicenseConnection"
+f1_keywords:
+- wtsprotocol/IWRdsProtocolConnection.GetLicenseConnection
 dev_langs:
- - c++
+- c++
 req.header: wtsprotocol.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wtsprotocol.h
+- wtsprotocol.h
 api_name:
- - IWRdsProtocolConnection.GetLicenseConnection
+- IWRdsProtocolConnection.GetLicenseConnection
 targetos: Windows
 req.typenames: 
 req.redist: 

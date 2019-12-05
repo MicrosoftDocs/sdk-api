@@ -1,19 +1,17 @@
 ---
 UID: NS:tapi.lineagentstatus_tag
 title: LINEAGENTSTATUS (tapi.h)
-
 description: The LINEAGENTSTATUS structure describes the current status of an ACD agent. The lineGetAgentStatus function returns the LINEAGENTSTATUS structure.
 old-location: tapi2\lineagentstatus_str.htm
 tech.root: Tapi
 ms.assetid: c846bd16-79d2-4af0-b3ad-7432c28c542b
-
 ms.date: 12/05/2018
-ms.keywords: "*LPLINEAGENTSTATUS, LINEAGENTSTATUS, LINEAGENTSTATUS structure [TAPI 2.2], LPLINEAGENTSTATUS, LPLINEAGENTSTATUS structure pointer [TAPI 2.2], _tapi2_lineagentstatus_str, tapi/LINEAGENTSTATUS, tapi/LPLINEAGENTSTATUS, tapi2.lineagentstatus_str"
+ms.keywords: '*LPLINEAGENTSTATUS, LINEAGENTSTATUS, LINEAGENTSTATUS structure [TAPI 2.2], LPLINEAGENTSTATUS, LPLINEAGENTSTATUS structure pointer [TAPI 2.2], _tapi2_lineagentstatus_str, tapi/LINEAGENTSTATUS, tapi/LPLINEAGENTSTATUS, tapi2.lineagentstatus_str'
 ms.topic: struct
-f1_keywords: 
- - "tapi/LINEAGENTSTATUS"
+f1_keywords:
+- tapi/LINEAGENTSTATUS
 dev_langs:
- - c++
+- c++
 req.header: tapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Tapi.h
+- Tapi.h
 api_name:
- - LINEAGENTSTATUS
+- LINEAGENTSTATUS
 targetos: Windows
 req.typenames: LINEAGENTSTATUS, *LPLINEAGENTSTATUS
 req.redist: 

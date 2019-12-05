@@ -1,19 +1,17 @@
 ---
 UID: NF:photoacquire.IPhotoAcquireProgressCB.GetDeleteAfterAcquire
 title: IPhotoAcquireProgressCB::GetDeleteAfterAcquire (photoacquire.h)
-
 description: The GetDeleteAfterAcquire method returns a value indicating whether photos should be deleted after acquisition.
 old-location: picacq\iphotoacquireprogresscb_getdeleteafteracquire.htm
 tech.root: acquisition
 ms.assetid: a9e3fb54-e152-4fbd-b745-852719aabeec
-
 ms.date: 12/05/2018
 ms.keywords: GetDeleteAfterAcquire, GetDeleteAfterAcquire method [Picture Acquisition], GetDeleteAfterAcquire method [Picture Acquisition],IPhotoAcquireProgressCB interface, IPhotoAcquireProgressCB interface [Picture Acquisition],GetDeleteAfterAcquire method, IPhotoAcquireProgressCB.GetDeleteAfterAcquire, IPhotoAcquireProgressCB::GetDeleteAfterAcquire, IPhotoAcquireProgressCBGetDeleteAfterAcquire, photoacquire/IPhotoAcquireProgressCB::GetDeleteAfterAcquire, picacq.iphotoacquireprogresscb_getdeleteafteracquire
 ms.topic: method
-f1_keywords: 
- - "photoacquire/IPhotoAcquireProgressCB.GetDeleteAfterAcquire"
+f1_keywords:
+- photoacquire/IPhotoAcquireProgressCB.GetDeleteAfterAcquire
 dev_langs:
- - c++
+- c++
 req.header: photoacquire.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: PhotoAcquireUID.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - PhotoAcquireUID.lib
- - PhotoAcquireUID.dll
+- PhotoAcquireUID.lib
+- PhotoAcquireUID.dll
 api_name:
- - IPhotoAcquireProgressCB.GetDeleteAfterAcquire
+- IPhotoAcquireProgressCB.GetDeleteAfterAcquire
 targetos: Windows
 req.typenames: 
 req.redist: 

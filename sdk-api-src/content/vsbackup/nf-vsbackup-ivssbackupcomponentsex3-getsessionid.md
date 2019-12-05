@@ -1,19 +1,17 @@
 ---
 UID: NF:vsbackup.IVssBackupComponentsEx3.GetSessionId
 title: IVssBackupComponentsEx3::GetSessionId (vsbackup.h)
-
 description: Returns the requester's session identifier.
 old-location: base\ivssbackupcomponentsex3_getsessionid.htm
 tech.root: VSS
 ms.assetid: ad7e548a-9f7a-4e35-9811-edb68458a1df
-
 ms.date: 12/05/2018
 ms.keywords: GetSessionId, GetSessionId method, GetSessionId method,IVssBackupComponentsEx3 interface, IVssBackupComponentsEx3 interface,GetSessionId method, IVssBackupComponentsEx3.GetSessionId, IVssBackupComponentsEx3::GetSessionId, base.ivssbackupcomponentsex3_getsessionid, vsbackup/IVssBackupComponentsEx3::GetSessionId
 ms.topic: method
-f1_keywords: 
- - "vsbackup/IVssBackupComponentsEx3.GetSessionId"
+f1_keywords:
+- vsbackup/IVssBackupComponentsEx3.GetSessionId
 dev_langs:
- - c++
+- c++
 req.header: vsbackup.h
 req.include-header: VsBackup.h, Vss.h, VsWriter.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - VsBackup.h
+- VsBackup.h
 api_name:
- - IVssBackupComponentsEx3.GetSessionId
+- IVssBackupComponentsEx3.GetSessionId
 targetos: Windows
 req.typenames: 
 req.redist: 

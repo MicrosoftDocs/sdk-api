@@ -1,19 +1,17 @@
 ---
 UID: NF:rtworkq.RtwqAllocateWorkQueue
 title: RtwqAllocateWorkQueue function (rtworkq.h)
-
 description: Creates a new work queue.
 old-location: base\rtwqallocateworkqueue.htm
 tech.root: ProcThread
 ms.assetid: B8FF907A-1448-43A4-B249-9D3D859D8F95
-
 ms.date: 12/05/2018
 ms.keywords: RTWQ_MULTITHREADED_WORKQUEUE, RTWQ_STANDARD_WORKQUEUE, RTWQ_WINDOW_WORKQUEUE, RtwqAllocateWorkQueue, RtwqAllocateWorkQueue function, base.rtwqallocateworkqueue, rtworkq/RtwqAllocateWorkQueue
 ms.topic: function
-f1_keywords: 
- - "rtworkq/RtwqAllocateWorkQueue"
+f1_keywords:
+- rtworkq/RtwqAllocateWorkQueue
 dev_langs:
- - c++
+- c++
 req.header: rtworkq.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Rtworkq.lib
 req.dll: RTWorkQ.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - RTWorkQ.dll
+- RTWorkQ.dll
 api_name:
- - RtwqAllocateWorkQueue
+- RtwqAllocateWorkQueue
 targetos: Windows
 req.typenames: 
 req.redist: 

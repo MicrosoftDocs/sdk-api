@@ -1,19 +1,17 @@
 ---
 UID: NF:wmp.IWMPSyncDevice.deletePartnership
 title: IWMPSyncDevice::deletePartnership (wmp.h)
-
 description: The deletePartnership method terminates the partnership between Windows Media Player and the device.
 old-location: wmp\iwmpsyncdevice_deletepartnership.htm
 tech.root: WMP
 ms.assetid: ecb525b4-c804-47e6-8d6c-7d943010077a
-
 ms.date: 12/05/2018
 ms.keywords: IWMPSyncDevice interface [Windows Media Player],deletePartnership method, IWMPSyncDevice.deletePartnership, IWMPSyncDevice::deletePartnership, IWMPSyncDevicedeletePartnership, deletePartnership, deletePartnership method [Windows Media Player], deletePartnership method [Windows Media Player],IWMPSyncDevice interface, wmp.iwmpsyncdevice_deletepartnership, wmp/IWMPSyncDevice::deletePartnership
 ms.topic: method
-f1_keywords: 
- - "wmp/IWMPSyncDevice.deletePartnership"
+f1_keywords:
+- wmp/IWMPSyncDevice.deletePartnership
 dev_langs:
- - c++
+- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wmp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmp.dll
+- wmp.dll
 api_name:
- - IWMPSyncDevice.deletePartnership
+- IWMPSyncDevice.deletePartnership
 targetos: Windows
 req.typenames: 
 req.redist: 

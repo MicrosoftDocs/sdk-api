@@ -1,19 +1,17 @@
 ---
 UID: NF:provider.Provider.GetLocalComputerName
 title: Provider::GetLocalComputerName (provider.h)
-
 description: The GetLocalComputerName method returns a constant reference to the computer name in CHString format.
 old-location: wmi\provider_getlocalcomputername.htm
 tech.root: WmiSdk
 ms.assetid: 20470353-417d-4067-8df1-c2ec6b330853
-
 ms.date: 12/05/2018
 ms.keywords: GetLocalComputerName, GetLocalComputerName method [Windows Management Instrumentation], GetLocalComputerName method [Windows Management Instrumentation],Provider interface, Provider interface [Windows Management Instrumentation],GetLocalComputerName method, Provider.GetLocalComputerName, Provider::GetLocalComputerName, _hmm_provider_getlocalcomputername, provider/Provider::GetLocalComputerName, wmi.provider_getlocalcomputername
 ms.topic: method
-f1_keywords: 
- - "provider/Provider.GetLocalComputerName"
+f1_keywords:
+- provider/Provider.GetLocalComputerName
 dev_langs:
- - c++
+- c++
 req.header: provider.h
 req.include-header: FwCommon.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: FrameDyn.lib
 req.dll: FrameDynOS.dll; FrameDyn.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - FrameDynOS.dll
- - FrameDyn.dll
+- FrameDynOS.dll
+- FrameDyn.dll
 api_name:
- - Provider.GetLocalComputerName
+- Provider.GetLocalComputerName
 targetos: Windows
 req.typenames: 
 req.redist: 

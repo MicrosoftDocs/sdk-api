@@ -1,19 +1,17 @@
 ---
 UID: NF:functiondiscoveryprovider.IFunctionDiscoveryProvider.Query
 title: IFunctionDiscoveryProvider::Query (functiondiscoveryprovider.h)
-
 description: Retrieves a collection of function instances that meet the specified constraints.
 old-location: ncd\ifunctiondiscoveryprovider_query_method.htm
 tech.root: FunDisc
 ms.assetid: 8c368ea7-c9db-4e80-a080-eef8068f7402
-
 ms.date: 12/05/2018
 ms.keywords: IFunctionDiscoveryProvider interface,Query method, IFunctionDiscoveryProvider.Query, IFunctionDiscoveryProvider::Query, Query, Query method, Query method,IFunctionDiscoveryProvider interface, functiondiscoveryprovider/IFunctionDiscoveryProvider::Query, ncd.ifunctiondiscoveryprovider_query_method
 ms.topic: method
-f1_keywords: 
- - "functiondiscoveryprovider/IFunctionDiscoveryProvider.Query"
+f1_keywords:
+- functiondiscoveryprovider/IFunctionDiscoveryProvider.Query
 dev_langs:
- - c++
+- c++
 req.header: functiondiscoveryprovider.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - FunctionDiscoveryProvider.h
+- FunctionDiscoveryProvider.h
 api_name:
- - IFunctionDiscoveryProvider.Query
+- IFunctionDiscoveryProvider.Query
 targetos: Windows
 req.typenames: 
 req.redist: 

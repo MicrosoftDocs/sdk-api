@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IAMTuner.RegisterNotificationCallBack
 title: IAMTuner::RegisterNotificationCallBack (strmif.h)
-
 description: The RegisterNotificationCallBack method enables an object to receive event notifications when the tuner changes state.
 old-location: dshow\iamtuner_registernotificationcallback.htm
 tech.root: DirectShow
 ms.assetid: e169039f-bce7-495a-a40f-385fa3d3d2ab
-
 ms.date: 12/05/2018
 ms.keywords: IAMTuner interface [DirectShow],RegisterNotificationCallBack method, IAMTuner.RegisterNotificationCallBack, IAMTuner::RegisterNotificationCallBack, IAMTunerRegisterNotificationCallBack, RegisterNotificationCallBack, RegisterNotificationCallBack method [DirectShow], RegisterNotificationCallBack method [DirectShow],IAMTuner interface, dshow.iamtuner_registernotificationcallback, strmif/IAMTuner::RegisterNotificationCallBack
 ms.topic: method
-f1_keywords: 
- - "strmif/IAMTuner.RegisterNotificationCallBack"
+f1_keywords:
+- strmif/IAMTuner.RegisterNotificationCallBack
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IAMTuner.RegisterNotificationCallBack
+- IAMTuner.RegisterNotificationCallBack
 targetos: Windows
 req.typenames: 
 req.redist: 

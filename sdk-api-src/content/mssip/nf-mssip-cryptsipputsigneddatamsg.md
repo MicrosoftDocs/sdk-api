@@ -1,19 +1,17 @@
 ---
 UID: NF:mssip.CryptSIPPutSignedDataMsg
 title: CryptSIPPutSignedDataMsg function (mssip.h)
-
 description: Stores an Authenticode signature in the target file.
 old-location: security\cryptsipputsigneddatamsg.htm
 tech.root: SecCrypto
 ms.assetid: 731f64bf-49f0-4799-b84a-9ca04292aa91
-
 ms.date: 12/05/2018
 ms.keywords: CryptSIPPutSignedDataMsg, CryptSIPPutSignedDataMsg function [Security], PKCS_7_ASN_ENCODING, X509_ASN_ENCODING, mssip/CryptSIPPutSignedDataMsg, security.cryptsipputsigneddatamsg
 ms.topic: function
-f1_keywords: 
- - "mssip/CryptSIPPutSignedDataMsg"
+f1_keywords:
+- mssip/CryptSIPPutSignedDataMsg
 dev_langs:
- - c++
+- c++
 req.header: mssip.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Crypt32.lib
 req.dll: Crypt32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Crypt32.dll
+- Crypt32.dll
 api_name:
- - CryptSIPPutSignedDataMsg
+- CryptSIPPutSignedDataMsg
 targetos: Windows
 req.typenames: 
 req.redist: 

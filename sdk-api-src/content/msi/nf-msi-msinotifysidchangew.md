@@ -1,19 +1,17 @@
 ---
 UID: NF:msi.MsiNotifySidChangeW
 title: MsiNotifySidChangeW function (msi.h)
-
 description: The MsiNotifySidChange function notifies and updates the Windows Installer internal information with changes to user SIDs.
 old-location: setup\msinotifysidchange.htm
 tech.root: Msi
 ms.assetid: f35e503e-0bc0-4895-8e88-fc5636774e75
-
 ms.date: 12/05/2018
 ms.keywords: MsiNotifySidChange, MsiNotifySidChange function, MsiNotifySidChangeA, MsiNotifySidChangeW, msi/MsiNotifySidChange, msi/MsiNotifySidChangeA, msi/MsiNotifySidChangeW, setup.msinotifysidchange
 ms.topic: function
-f1_keywords: 
- - "msi/MsiNotifySidChange"
+f1_keywords:
+- msi/MsiNotifySidChange
 dev_langs:
- - c++
+- c++
 req.header: msi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Msi.lib
 req.dll: Msi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Msi.dll
+- Msi.dll
 api_name:
- - MsiNotifySidChange
- - MsiNotifySidChangeA
- - MsiNotifySidChangeW
+- MsiNotifySidChange
+- MsiNotifySidChangeA
+- MsiNotifySidChangeW
 targetos: Windows
 req.typenames: 
 req.redist: 

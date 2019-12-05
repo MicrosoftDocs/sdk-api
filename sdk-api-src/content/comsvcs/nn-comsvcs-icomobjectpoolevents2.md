@@ -1,19 +1,17 @@
 ---
 UID: NN:comsvcs.IComObjectPoolEvents2
 title: IComObjectPoolEvents2 (comsvcs.h)
-
 description: Notifies the subscriber when a new object is created for or removed from the pool.
 old-location: cos\icomobjectpoolevents2.htm
 tech.root: cossdk
 ms.assetid: f1891d8b-e3d0-4378-ac67-c2c0ddd65602
-
 ms.date: 12/05/2018
 ms.keywords: IComObjectPoolEvents2, IComObjectPoolEvents2 interface [COM+], IComObjectPoolEvents2 interface [COM+],described, _dtc_IComObjectPoolEvents2, comsvcs/IComObjectPoolEvents2, cos.icomobjectpoolevents2
 ms.topic: interface
-f1_keywords: 
- - "comsvcs/IComObjectPoolEvents2"
+f1_keywords:
+- comsvcs/IComObjectPoolEvents2
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - IComObjectPoolEvents2
+- IComObjectPoolEvents2
 targetos: Windows
 req.typenames: 
 req.redist: 

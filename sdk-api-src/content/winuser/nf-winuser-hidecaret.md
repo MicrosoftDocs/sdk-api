@@ -1,19 +1,17 @@
 ---
 UID: NF:winuser.HideCaret
 title: HideCaret function (winuser.h)
-
 description: Removes the caret from the screen. Hiding a caret does not destroy its current shape or invalidate the insertion point.
 old-location: menurc\hidecaret.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\carets\caretreference\caretfunctions\hidecaret.htm
-
 ms.date: 12/05/2018
 ms.keywords: HideCaret, HideCaret function [Menus and Other Resources], _win32_HideCaret, _win32_hidecaret_cpp, menurc.hidecaret, winui._win32_hidecaret, winuser/HideCaret
 ms.topic: function
-f1_keywords: 
- - "winuser/HideCaret"
+f1_keywords:
+- winuser/HideCaret
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - User32.dll
- - Ext-MS-Win-NTUser-caret-l1-1-0.dll
- - api-ms-win-ntuser-ie-caret-l1-1-0.dll
- - ie_stubs.dll
+- User32.dll
+- Ext-MS-Win-NTUser-caret-l1-1-0.dll
+- api-ms-win-ntuser-ie-caret-l1-1-0.dll
+- ie_stubs.dll
 api_name:
- - HideCaret
+- HideCaret
 targetos: Windows
 req.typenames: 
 req.redist: 

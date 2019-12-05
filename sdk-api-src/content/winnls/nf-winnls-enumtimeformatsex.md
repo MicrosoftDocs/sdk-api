@@ -1,19 +1,17 @@
 ---
 UID: NF:winnls.EnumTimeFormatsEx
 title: EnumTimeFormatsEx function (winnls.h)
-
 description: Enumerates the time formats that are available for a locale specified by name.Note  The application should call this function in preference to EnumTimeFormats if designed to run only on Windows Vista and later. Note  This function can enumerate data that changes between releases, for example, due to a custom locale. If your application must persist or transmit data, see Using Persistent Locale Data.
 old-location: intl\enumtimeformatsex.htm
 tech.root: Intl
 ms.assetid: db2e297e-98db-4e34-b44c-c0ddcddf2a6e
-
 ms.date: 12/05/2018
 ms.keywords: EnumTimeFormatsEx, EnumTimeFormatsEx function [Internationalization for Windows Applications], _win32_EnumTimeFormatsEx, intl.enumtimeformatsex, winnls/EnumTimeFormatsEx
 ms.topic: function
-f1_keywords: 
- - "winnls/EnumTimeFormatsEx"
+f1_keywords:
+- winnls/EnumTimeFormatsEx
 dev_langs:
- - c++
+- c++
 req.header: winnls.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-Localization-l2-1-0.dll
- - KernelBase.dll
+- Kernel32.dll
+- API-MS-Win-Core-Localization-l2-1-0.dll
+- KernelBase.dll
 api_name:
- - EnumTimeFormatsEx
+- EnumTimeFormatsEx
 targetos: Windows
 req.typenames: 
 req.redist: 

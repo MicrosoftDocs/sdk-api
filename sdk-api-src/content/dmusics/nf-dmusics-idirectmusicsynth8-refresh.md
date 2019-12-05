@@ -1,19 +1,17 @@
 ---
 UID: NF:dmusics.IDirectMusicSynth8.Refresh
 title: IDirectMusicSynth8::Refresh (dmusics.h)
-
 description: Refresh is unsupported and may be altered or unavailable in the future.
 old-location: audio\idirectmusicsynth8_refresh.htm
 tech.root: audio
 ms.assetid: BA04A6F5-19D9-471D-9F53-DAB555E9F1A5
-
 ms.date: 12/05/2018
 ms.keywords: IDirectMusicSynth8 interface [Audio Devices],Refresh method, IDirectMusicSynth8.Refresh, IDirectMusicSynth8::Refresh, Refresh, Refresh method [Audio Devices], Refresh method [Audio Devices],IDirectMusicSynth8 interface, audio.idirectmusicsynth8_refresh, dmusics/IDirectMusicSynth8::Refresh
 ms.topic: method
-f1_keywords: 
- - "dmusics/IDirectMusicSynth8.Refresh"
+f1_keywords:
+- dmusics/IDirectMusicSynth8.Refresh
 dev_langs:
- - c++
+- c++
 req.header: dmusics.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dmusics.h
+- Dmusics.h
 api_name:
- - IDirectMusicSynth8.Refresh
+- IDirectMusicSynth8.Refresh
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationElement4.get_CurrentPositionInSet
 title: IUIAutomationElement4::get_CurrentPositionInSet (uiautomationclient.h)
-
 description: Returns the current 1-based integer for the ordinal position in the set for the element.
 old-location: winauto\uiauto_IUIAutomationElement4_CurrentPositionInSet.htm
 tech.root: WinAuto
 ms.assetid: 29AAA407-B21B-452F-8887-91FF3E97E0C7
-
 ms.date: 12/05/2018
 ms.keywords: CurrentPositionInSet property [Windows Accessibility], CurrentPositionInSet property [Windows Accessibility],IUIAutomationElement4 interface, IUIAutomationElement4 interface [Windows Accessibility],CurrentPositionInSet property, IUIAutomationElement4.CurrentPositionInSet, IUIAutomationElement4.get_CurrentPositionInSet, IUIAutomationElement4::CurrentPositionInSet, IUIAutomationElement4::get_CurrentPositionInSet, get_CurrentPositionInSet, uiautomationclient/IUIAutomationElement4::CurrentPositionInSet, uiautomationclient/IUIAutomationElement4::get_CurrentPositionInSet, winauto.uiauto_IUIAutomationElement4_CurrentPositionInSet
 ms.topic: method
-f1_keywords: 
- - "uiautomationclient/IUIAutomationElement4.CurrentPositionInSet"
+f1_keywords:
+- uiautomationclient/IUIAutomationElement4.CurrentPositionInSet
 dev_langs:
- - c++
+- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: UIAutomationCore.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationCore.dll
+- UIAutomationCore.dll
 api_name:
- - IUIAutomationElement4.CurrentPositionInSet
- - IUIAutomationElement4.get_CurrentPositionInSet
+- IUIAutomationElement4.CurrentPositionInSet
+- IUIAutomationElement4.get_CurrentPositionInSet
 targetos: Windows
 req.typenames: 
 req.redist: 

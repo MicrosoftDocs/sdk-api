@@ -1,19 +1,17 @@
 ---
 UID: NL:gdiplusheaders.Metafile
 title: Metafile (gdiplusheaders.h)
-
 description: The Metafile class defines a graphic metafile. A metafile contains records that describe a sequence of graphics API calls. Metafiles can be recorded (constructed) and played back (displayed).
 old-location: gdiplus\_gdiplus_CLASS_Metafile_Class.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\metafile.htm
-
 ms.date: 12/05/2018
 ms.keywords: Metafile, Metafile class [GDI+], Metafile class [GDI+],described, _gdiplus_CLASS_Metafile_Class, gdiplus._gdiplus_CLASS_Metafile_Class, gdiplusheaders/Metafile
 ms.topic: class
-f1_keywords: 
- - "gdiplusheaders/Metafile"
+f1_keywords:
+- gdiplusheaders/Metafile
 dev_langs:
- - c++
+- c++
 req.header: gdiplusheaders.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - gdiplusheaders.h
+- gdiplusheaders.h
 api_name:
- - Metafile
+- Metafile
 targetos: Windows
 req.typenames: 
 req.redist: 

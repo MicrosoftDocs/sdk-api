@@ -1,19 +1,17 @@
 ---
 UID: NF:memoryapi.FreeUserPhysicalPages
 title: FreeUserPhysicalPages function (memoryapi.h)
-
 description: Frees physical memory pages that are allocated previously by using AllocateUserPhysicalPages or AllocateUserPhysicalPagesNuma.
 old-location: base\freeuserphysicalpages.htm
 tech.root: Memory
 ms.assetid: c01da9f1-1d24-4b7e-8c6b-50aa6f558384
-
 ms.date: 12/05/2018
 ms.keywords: FreeUserPhysicalPages, FreeUserPhysicalPages function, _win32_freeuserphysicalpages, base.freeuserphysicalpages, winbase/FreeUserPhysicalPages
 ms.topic: function
-f1_keywords: 
- - "memoryapi/FreeUserPhysicalPages"
+f1_keywords:
+- memoryapi/FreeUserPhysicalPages
 dev_langs:
- - c++
+- c++
 req.header: memoryapi.h
 req.include-header: Windows.h, Memoryapi.h
 req.target-type: Windows
@@ -32,20 +30,20 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-memory-l1-1-2.dll
- - KernelBase.dll
- - API-MS-Win-Core-memory-l1-1-3.dll
- - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
- - MinKernelBase.dll
- - API-MS-Win-Core-Memory-L1-1-4.dll
+- Kernel32.dll
+- API-MS-Win-Core-memory-l1-1-2.dll
+- KernelBase.dll
+- API-MS-Win-Core-memory-l1-1-3.dll
+- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+- MinKernelBase.dll
+- API-MS-Win-Core-Memory-L1-1-4.dll
 api_name:
- - FreeUserPhysicalPages
+- FreeUserPhysicalPages
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:wmp.IWMPEvents.SwitchedToPlayerApplication
 title: IWMPEvents::SwitchedToPlayerApplication (wmp.h)
-
 description: The SwitchedToPlayerApplication event occurs when a remoted Windows Media Player control switches to the full mode of the Player.
 old-location: wmp\iwmpevents_iwmpevents__switchedtoplayerapplication.htm
 tech.root: WMP
 ms.assetid: b77a1d6a-8bfb-4548-9347-ab098a5fcfd9
-
 ms.date: 12/05/2018
 ms.keywords: IWMPEvents interface [Windows Media Player],SwitchedToPlayerApplication method, IWMPEvents.SwitchedToPlayerApplication, IWMPEvents::SwitchedToPlayerApplication, IWMPEventsSwitchedToPlayerApplication, SwitchedToPlayerApplication, SwitchedToPlayerApplication method [Windows Media Player], SwitchedToPlayerApplication method [Windows Media Player],IWMPEvents interface, wmp.iwmpevents_iwmpevents__switchedtoplayerapplication, wmp/IWMPEvents::SwitchedToPlayerApplication
 ms.topic: method
-f1_keywords: 
- - "wmp/IWMPEvents.SwitchedToPlayerApplication"
+f1_keywords:
+- wmp/IWMPEvents.SwitchedToPlayerApplication
 dev_langs:
- - c++
+- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wmp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmp.dll
+- wmp.dll
 api_name:
- - IWMPEvents.SwitchedToPlayerApplication
+- IWMPEvents.SwitchedToPlayerApplication
 targetos: Windows
 req.typenames: 
 req.redist: 

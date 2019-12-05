@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.ICategorizer.GetDescription
 title: ICategorizer::GetDescription (shobjidl_core.h)
-
 description: Gets the name of a categorizer, such as Group By Device Type, that can be displayed in the UI.
 old-location: shell\ICategorizer_GetDescription.htm
 tech.root: shell
 ms.assetid: fc457b03-ccc2-4455-9f53-77d47537c0b6
-
 ms.date: 12/05/2018
 ms.keywords: GetDescription, GetDescription method [Windows Shell], GetDescription method [Windows Shell],ICategorizer interface, ICategorizer interface [Windows Shell],GetDescription method, ICategorizer.GetDescription, ICategorizer::GetDescription, inet_ICategorizer_GetDescription, shell.ICategorizer_GetDescription, shobjidl_core/ICategorizer::GetDescription
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/ICategorizer.GetDescription"
+f1_keywords:
+- shobjidl_core/ICategorizer.GetDescription
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Shell32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - ICategorizer.GetDescription
+- ICategorizer.GetDescription
 targetos: Windows
 req.typenames: 
 req.redist: 

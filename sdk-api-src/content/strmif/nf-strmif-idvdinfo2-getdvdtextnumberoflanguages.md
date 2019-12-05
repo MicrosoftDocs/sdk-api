@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IDvdInfo2.GetDVDTextNumberOfLanguages
 title: IDvdInfo2::GetDVDTextNumberOfLanguages (strmif.h)
-
 description: The GetDVDTextNumberOfLanguages method retrieves the number of languages in which DVD text strings appear.
 old-location: dshow\idvdinfo2_getdvdtextnumberoflanguages.htm
 tech.root: DirectShow
 ms.assetid: 20c6ee1f-f20b-40c5-bc84-5ec1c07c0681
-
 ms.date: 12/05/2018
 ms.keywords: GetDVDTextNumberOfLanguages, GetDVDTextNumberOfLanguages method [DirectShow], GetDVDTextNumberOfLanguages method [DirectShow],IDvdInfo2 interface, IDvdInfo2 interface [DirectShow],GetDVDTextNumberOfLanguages method, IDvdInfo2.GetDVDTextNumberOfLanguages, IDvdInfo2::GetDVDTextNumberOfLanguages, IDvdInfo2GetDVDTextNumberOfLanguages, dshow.idvdinfo2_getdvdtextnumberoflanguages, strmif/IDvdInfo2::GetDVDTextNumberOfLanguages
 ms.topic: method
-f1_keywords: 
- - "strmif/IDvdInfo2.GetDVDTextNumberOfLanguages"
+f1_keywords:
+- strmif/IDvdInfo2.GetDVDTextNumberOfLanguages
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IDvdInfo2.GetDVDTextNumberOfLanguages
+- IDvdInfo2.GetDVDTextNumberOfLanguages
 targetos: Windows
 req.typenames: 
 req.redist: 

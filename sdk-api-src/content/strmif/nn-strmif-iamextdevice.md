@@ -1,19 +1,17 @@
 ---
 UID: NN:strmif.IAMExtDevice
 title: IAMExtDevice (strmif.h)
-
 description: The IAMExtDevice interface controls an external device, such as a DV camera or video tape recoder (VTR).
 old-location: dshow\iamextdevice.htm
 tech.root: DirectShow
 ms.assetid: 0423e888-39d1-45cb-9bcf-722240a31fbd
-
 ms.date: 12/05/2018
 ms.keywords: IAMExtDevice, IAMExtDevice interface [DirectShow], IAMExtDevice interface [DirectShow],described, IAMExtDeviceInterface, dshow.iamextdevice, strmif/IAMExtDevice
 ms.topic: interface
-f1_keywords: 
- - "strmif/IAMExtDevice"
+f1_keywords:
+- strmif/IAMExtDevice
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IAMExtDevice
+- IAMExtDevice
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:audiopolicy.IAudioSessionEnumerator.GetSession
 title: IAudioSessionEnumerator::GetSession (audiopolicy.h)
-
 description: The GetSession method gets the audio session specified by an audio session number.
 old-location: coreaudio\iaudiosessionenumerator_getsession.htm
 tech.root: CoreAudio
 ms.assetid: 45b7af16-aca0-49f8-b977-f7e4f1885687
-
 ms.date: 12/05/2018
 ms.keywords: GetSession, GetSession method [Core Audio], GetSession method [Core Audio],IAudioSessionEnumerator interface, IAudioSessionEnumerator interface [Core Audio],GetSession method, IAudioSessionEnumerator.GetSession, IAudioSessionEnumerator::GetSession, audiopolicy/IAudioSessionEnumerator::GetSession, coreaudio.iaudiosessionenumerator_getsession
 ms.topic: method
-f1_keywords: 
- - "audiopolicy/IAudioSessionEnumerator.GetSession"
+f1_keywords:
+- audiopolicy/IAudioSessionEnumerator.GetSession
 dev_langs:
- - c++
+- c++
 req.header: audiopolicy.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - audiopolicy.h
+- audiopolicy.h
 api_name:
- - IAudioSessionEnumerator.GetSession
+- IAudioSessionEnumerator.GetSession
 targetos: Windows
 req.typenames: 
 req.redist: 

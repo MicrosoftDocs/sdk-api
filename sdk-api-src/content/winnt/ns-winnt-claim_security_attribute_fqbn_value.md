@@ -1,19 +1,17 @@
 ---
 UID: NS:winnt._CLAIM_SECURITY_ATTRIBUTE_FQBN_VALUE
 title: CLAIM_SECURITY_ATTRIBUTE_FQBN_VALUE (winnt.h)
-
 description: Specifies the fully qualified binary name.
 old-location: security\claim_security_attribute_fqbn_value.htm
 tech.root: SecAuthZ
 ms.assetid: 1FD9A519-40EA-4780-90F5-C9DF4ADAE72C
-
 ms.date: 12/05/2018
-ms.keywords: "*PCLAIM_SECURITY_ATTRIBUTE_FQBN_VALUE, CLAIM_SECURITY_ATTRIBUTE_FQBN_VALUE, CLAIM_SECURITY_ATTRIBUTE_FQBN_VALUE structure [Security], PCLAIM_SECURITY_ATTRIBUTE_FQBN_VALUE, PCLAIM_SECURITY_ATTRIBUTE_FQBN_VALUE structure pointer [Security], _CLAIM_SECURITY_ATTRIBUTE_FQBN_VALUE, security.claim_security_attribute_fqbn_value, winnt/CLAIM_SECURITY_ATTRIBUTE_FQBN_VALUE, winnt/PCLAIM_SECURITY_ATTRIBUTE_FQBN_VALUE"
+ms.keywords: '*PCLAIM_SECURITY_ATTRIBUTE_FQBN_VALUE, CLAIM_SECURITY_ATTRIBUTE_FQBN_VALUE, CLAIM_SECURITY_ATTRIBUTE_FQBN_VALUE structure [Security], PCLAIM_SECURITY_ATTRIBUTE_FQBN_VALUE, PCLAIM_SECURITY_ATTRIBUTE_FQBN_VALUE structure pointer [Security], _CLAIM_SECURITY_ATTRIBUTE_FQBN_VALUE, security.claim_security_attribute_fqbn_value, winnt/CLAIM_SECURITY_ATTRIBUTE_FQBN_VALUE, winnt/PCLAIM_SECURITY_ATTRIBUTE_FQBN_VALUE'
 ms.topic: struct
-f1_keywords: 
- - "winnt/CLAIM_SECURITY_ATTRIBUTE_FQBN_VALUE"
+f1_keywords:
+- winnt/CLAIM_SECURITY_ATTRIBUTE_FQBN_VALUE
 dev_langs:
- - c++
+- c++
 req.header: winnt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Winnt.h
+- Winnt.h
 api_name:
- - CLAIM_SECURITY_ATTRIBUTE_FQBN_VALUE
+- CLAIM_SECURITY_ATTRIBUTE_FQBN_VALUE
 targetos: Windows
 req.typenames: CLAIM_SECURITY_ATTRIBUTE_FQBN_VALUE, *PCLAIM_SECURITY_ATTRIBUTE_FQBN_VALUE
 req.redist: 

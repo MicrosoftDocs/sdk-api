@@ -1,19 +1,17 @@
 ---
 UID: NF:atscpsipparser.ISCTE_EAS.GetEASEventCodeLen
 title: ISCTE_EAS::GetEASEventCodeLen (atscpsipparser.h)
-
 description: The GetEASEventCodeLen method returns the size of the EAS event code.
 old-location: mstv\iscte_eas_geteaseventcodelen.htm
 tech.root: mstv
 ms.assetid: d6e05cd0-d043-4f15-b25b-28402035943b
-
 ms.date: 12/05/2018
 ms.keywords: GetEASEventCodeLen, GetEASEventCodeLen method [Microsoft TV Technologies], GetEASEventCodeLen method [Microsoft TV Technologies],ISCTE_EAS interface, ISCTE_EAS interface [Microsoft TV Technologies],GetEASEventCodeLen method, ISCTE_EAS.GetEASEventCodeLen, ISCTE_EAS::GetEASEventCodeLen, ISCTE_EASGetEASEventCodeLen, atscpsipparser/ISCTE_EAS::GetEASEventCodeLen, mstv.iscte_eas_geteaseventcodelen
 ms.topic: method
-f1_keywords: 
- - "atscpsipparser/ISCTE_EAS.GetEASEventCodeLen"
+f1_keywords:
+- atscpsipparser/ISCTE_EAS.GetEASEventCodeLen
 dev_langs:
- - c++
+- c++
 req.header: atscpsipparser.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - atscpsipparser.h
+- atscpsipparser.h
 api_name:
- - ISCTE_EAS.GetEASEventCodeLen
+- ISCTE_EAS.GetEASEventCodeLen
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:winstring.WindowsGetStringRawBuffer
 title: WindowsGetStringRawBuffer function (winstring.h)
-
 description: Gets the backing buffer for the specified string.
 old-location: winrt\windowsgetstringrawbuffer.htm
 tech.root: WinRT
 ms.assetid: D2906CD0-7529-459E-A0E9-66D29A5DD1B0
-
 ms.date: 12/05/2018
 ms.keywords: WindowsGetStringRawBuffer, WindowsGetStringRawBuffer function [Windows Runtime], winrt.windowsgetstringrawbuffer, winstring/WindowsGetStringRawBuffer
 ms.topic: function
-f1_keywords: 
- - "winstring/WindowsGetStringRawBuffer"
+f1_keywords:
+- winstring/WindowsGetStringRawBuffer
 dev_langs:
- - c++
+- c++
 req.header: winstring.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - winstring.h
- - API-MS-Win-Core-WinRT-String-l1-1-0.dll
- - ComBase.dll
- - API-MS-Win-Core-WinRT-String-L1-1-1.dll
+- winstring.h
+- API-MS-Win-Core-WinRT-String-l1-1-0.dll
+- ComBase.dll
+- API-MS-Win-Core-WinRT-String-L1-1-1.dll
 api_name:
- - WindowsGetStringRawBuffer
+- WindowsGetStringRawBuffer
 targetos: Windows
 req.typenames: 
 req.redist: 

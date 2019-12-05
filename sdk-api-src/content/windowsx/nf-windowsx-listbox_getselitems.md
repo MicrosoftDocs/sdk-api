@@ -1,19 +1,17 @@
 ---
 UID: NF:windowsx.ListBox_GetSelItems
 title: ListBox_GetSelItems macro (windowsx.h)
-
 description: Gets the indexes of selected items in a multiple-selection list box. You can use this macro or send the LB_GETSELITEMS message explicitly.
 old-location: controls\ListBox_GetSelItems.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listboxes\listboxreference\listboxmacros\listbox_getselitems.htm
-
 ms.date: 12/05/2018
 ms.keywords: ListBox_GetSelItems, ListBox_GetSelItems macro [Windows Controls], _win32_ListBox_GetSelItems, _win32_ListBox_GetSelItems_cpp, controls.ListBox_GetSelItems, controls._win32_ListBox_GetSelItems, windowsx/ListBox_GetSelItems
 ms.topic: macro
-f1_keywords: 
- - "windowsx/ListBox_GetSelItems"
+f1_keywords:
+- windowsx/ListBox_GetSelItems
 dev_langs:
- - c++
+- c++
 req.header: windowsx.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Windowsx.h
+- Windowsx.h
 api_name:
- - ListBox_GetSelItems
+- ListBox_GetSelItems
 targetos: Windows
 req.typenames: 
 req.redist: 

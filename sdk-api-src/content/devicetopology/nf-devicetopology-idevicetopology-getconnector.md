@@ -1,19 +1,17 @@
 ---
 UID: NF:devicetopology.IDeviceTopology.GetConnector
 title: IDeviceTopology::GetConnector (devicetopology.h)
-
 description: The GetConnector method gets the connector that is specified by a connector number.
 old-location: coreaudio\idevicetopology_getconnector.htm
 tech.root: CoreAudio
 ms.assetid: a2da5d1e-ecd3-411e-8428-f529569cc11d
-
 ms.date: 12/05/2018
 ms.keywords: GetConnector, GetConnector method [Core Audio], GetConnector method [Core Audio],IDeviceTopology interface, IDeviceTopology interface [Core Audio],GetConnector method, IDeviceTopology.GetConnector, IDeviceTopology::GetConnector, IDeviceTopologyGetConnector, coreaudio.idevicetopology_getconnector, devicetopology/IDeviceTopology::GetConnector
 ms.topic: method
-f1_keywords: 
- - "devicetopology/IDeviceTopology.GetConnector"
+f1_keywords:
+- devicetopology/IDeviceTopology.GetConnector
 dev_langs:
- - c++
+- c++
 req.header: devicetopology.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Devicetopology.h
+- Devicetopology.h
 api_name:
- - IDeviceTopology.GetConnector
+- IDeviceTopology.GetConnector
 targetos: Windows
 req.typenames: 
 req.redist: 

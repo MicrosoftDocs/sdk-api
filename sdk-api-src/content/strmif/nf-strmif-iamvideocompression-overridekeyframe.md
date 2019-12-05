@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IAMVideoCompression.OverrideKeyFrame
 title: IAMVideoCompression::OverrideKeyFrame (strmif.h)
-
 description: The OverrideKeyFrame method instructs the filter to compress a particular frame as a key frame.
 old-location: dshow\iamvideocompression_overridekeyframe.htm
 tech.root: DirectShow
 ms.assetid: 2e8e52b9-cc66-42f5-a0ea-110188bfcf8b
-
 ms.date: 12/05/2018
 ms.keywords: IAMVideoCompression interface [DirectShow],OverrideKeyFrame method, IAMVideoCompression.OverrideKeyFrame, IAMVideoCompression::OverrideKeyFrame, IAMVideoCompressionOverrideKeyFrame, OverrideKeyFrame, OverrideKeyFrame method [DirectShow], OverrideKeyFrame method [DirectShow],IAMVideoCompression interface, dshow.iamvideocompression_overridekeyframe, strmif/IAMVideoCompression::OverrideKeyFrame
 ms.topic: method
-f1_keywords: 
- - "strmif/IAMVideoCompression.OverrideKeyFrame"
+f1_keywords:
+- strmif/IAMVideoCompression.OverrideKeyFrame
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IAMVideoCompression.OverrideKeyFrame
+- IAMVideoCompression.OverrideKeyFrame
 targetos: Windows
 req.typenames: 
 req.redist: 

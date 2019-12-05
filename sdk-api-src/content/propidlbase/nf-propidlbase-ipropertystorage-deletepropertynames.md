@@ -1,19 +1,17 @@
 ---
 UID: NF:propidlbase.IPropertyStorage.DeletePropertyNames
 title: IPropertyStorage::DeletePropertyNames (propidlbase.h)
-
 description: The DeletePropertyNames method deletes specified string names from the current property set.
 old-location: stg\ipropertystorage_deletepropertynames.htm
 tech.root: Stg
 ms.assetid: fedeb7fb-b84a-44a4-82d8-3a365296af69
-
 ms.date: 12/05/2018
 ms.keywords: DeletePropertyNames, DeletePropertyNames method [Structured Storage], DeletePropertyNames method [Structured Storage],IPropertyStorage interface, IPropertyStorage [Strctd Stg],DeletePropertyNames, IPropertyStorage interface [Structured Storage],DeletePropertyNames method, IPropertyStorage.DeletePropertyNames, IPropertyStorage::DeletePropertyNames, _stg_ipropertystorage_deletepropertynames, propidl/IPropertyStorage::DeletePropertyNames, stg.ipropertystorage_deletepropertynames
 ms.topic: method
-f1_keywords: 
- - "propidlbase/IPropertyStorage.DeletePropertyNames"
+f1_keywords:
+- propidlbase/IPropertyStorage.DeletePropertyNames
 dev_langs:
- - c++
+- c++
 req.header: propidlbase.h
 req.include-header: Objbase.h, Propidlbase.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Ole32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Ole32.dll
+- Ole32.dll
 api_name:
- - IPropertyStorage.DeletePropertyNames
+- IPropertyStorage.DeletePropertyNames
 targetos: Windows
 req.typenames: 
 req.redist: 

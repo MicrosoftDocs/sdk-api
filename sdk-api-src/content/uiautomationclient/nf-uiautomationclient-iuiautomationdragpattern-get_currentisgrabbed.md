@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationDragPattern.get_CurrentIsGrabbed
 title: IUIAutomationDragPattern::get_CurrentIsGrabbed (uiautomationclient.h)
-
 description: Indicates whether the user has grabbed this element as part of a drag-and-drop operation.
 old-location: winauto\uiauto_iuiautomationdragpattern_currentisgrabbed.htm
 tech.root: WinAuto
 ms.assetid: 4A528EA2-4E0D-458B-9EC1-ACF5964F0874
-
 ms.date: 12/05/2018
 ms.keywords: CurrentIsGrabbed property [Windows Accessibility], CurrentIsGrabbed property [Windows Accessibility],IUIAutomationDragPattern interface, IUIAutomationDragPattern interface [Windows Accessibility],CurrentIsGrabbed property, IUIAutomationDragPattern.CurrentIsGrabbed, IUIAutomationDragPattern.get_CurrentIsGrabbed, IUIAutomationDragPattern::CurrentIsGrabbed, IUIAutomationDragPattern::get_CurrentIsGrabbed, get_CurrentIsGrabbed, uiautomationclient/IUIAutomationDragPattern::CurrentIsGrabbed, uiautomationclient/IUIAutomationDragPattern::get_CurrentIsGrabbed, winauto.uiauto_iuiautomationdragpattern_currentisgrabbed
 ms.topic: method
-f1_keywords: 
- - "uiautomationclient/IUIAutomationDragPattern.CurrentIsGrabbed"
+f1_keywords:
+- uiautomationclient/IUIAutomationDragPattern.CurrentIsGrabbed
 dev_langs:
- - c++
+- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationClient.h
+- UIAutomationClient.h
 api_name:
- - IUIAutomationDragPattern.CurrentIsGrabbed
- - IUIAutomationDragPattern.get_CurrentIsGrabbed
+- IUIAutomationDragPattern.CurrentIsGrabbed
+- IUIAutomationDragPattern.get_CurrentIsGrabbed
 targetos: Windows
 req.typenames: 
 req.redist: 

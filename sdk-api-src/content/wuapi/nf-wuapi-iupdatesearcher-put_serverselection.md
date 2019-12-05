@@ -1,19 +1,17 @@
 ---
 UID: NF:wuapi.IUpdateSearcher.put_ServerSelection
 title: IUpdateSearcher::put_ServerSelection (wuapi.h)
-
 description: Gets and sets a ServerSelection value that indicates the server to search for updates.
 old-location: wua\iupdatesearcherserverselection.htm
 tech.root: Wua_Sdk
 ms.assetid: b514545a-d983-491b-9a28-540bd5c4c128
-
 ms.date: 12/05/2018
 ms.keywords: IUpdateSearcher interface [Windows Update Agent],ServerSelection property, IUpdateSearcher.ServerSelection, IUpdateSearcher.put_ServerSelection, IUpdateSearcher::ServerSelection, IUpdateSearcher::get_ServerSelection, IUpdateSearcher::put_ServerSelection, ServerSelection property [Windows Update Agent], ServerSelection property [Windows Update Agent],IUpdateSearcher interface, put_ServerSelection, wua.iupdatesearcherserverselection, wuapi/IUpdateSearcher::ServerSelection, wuapi/IUpdateSearcher::get_ServerSelection, wuapi/IUpdateSearcher::put_ServerSelection
 ms.topic: method
-f1_keywords: 
- - "wuapi/IUpdateSearcher.ServerSelection"
+f1_keywords:
+- wuapi/IUpdateSearcher.ServerSelection
 dev_langs:
- - c++
+- c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Wuguid.lib
 req.dll: Wuapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wuapi.dll
+- Wuapi.dll
 api_name:
- - IUpdateSearcher.ServerSelection
- - IUpdateSearcher.get_ServerSelection
- - IUpdateSearcher.put_ServerSelection
+- IUpdateSearcher.ServerSelection
+- IUpdateSearcher.get_ServerSelection
+- IUpdateSearcher.put_ServerSelection
 targetos: Windows
 req.typenames: 
 req.redist: 

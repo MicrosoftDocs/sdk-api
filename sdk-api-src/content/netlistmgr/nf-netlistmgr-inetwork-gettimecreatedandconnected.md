@@ -1,19 +1,17 @@
 ---
 UID: NF:netlistmgr.INetwork.GetTimeCreatedAndConnected
 title: INetwork::GetTimeCreatedAndConnected (netlistmgr.h)
-
 description: The GetTimeCreatedAndConnected method returns the local date and time when the network was created and connected.
 old-location: nla\inetwork_gettimecreatedandconnected.htm
 tech.root: nla
 ms.assetid: 607ce0be-fe7e-4969-b9d0-db1def054f67
-
 ms.date: 12/05/2018
 ms.keywords: GetTimeCreatedAndConnected, GetTimeCreatedAndConnected method [Network Awareness], GetTimeCreatedAndConnected method [Network Awareness],INetwork interface, INetwork interface [Network Awareness],GetTimeCreatedAndConnected method, INetwork.GetTimeCreatedAndConnected, INetwork::GetTimeCreatedAndConnected, netlistmgr/INetwork::GetTimeCreatedAndConnected, nla.inetwork_gettimecreatedandconnected
 ms.topic: method
-f1_keywords: 
- - "netlistmgr/INetwork.GetTimeCreatedAndConnected"
+f1_keywords:
+- netlistmgr/INetwork.GetTimeCreatedAndConnected
 dev_langs:
- - c++
+- c++
 req.header: netlistmgr.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Netlistmgr.h
+- Netlistmgr.h
 api_name:
- - INetwork.GetTimeCreatedAndConnected
+- INetwork.GetTimeCreatedAndConnected
 targetos: Windows
 req.typenames: 
 req.redist: 

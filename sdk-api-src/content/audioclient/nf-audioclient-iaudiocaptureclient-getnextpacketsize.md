@@ -1,19 +1,17 @@
 ---
 UID: NF:audioclient.IAudioCaptureClient.GetNextPacketSize
 title: IAudioCaptureClient::GetNextPacketSize (audioclient.h)
-
 description: The GetNextPacketSize method retrieves the number of frames in the next data packet in the capture endpoint buffer.
 old-location: coreaudio\iaudiocaptureclient_getnextpacketsize.htm
 tech.root: CoreAudio
 ms.assetid: 352dcd7d-a7e1-493f-b9ce-c125f9d45fa8
-
 ms.date: 12/05/2018
 ms.keywords: GetNextPacketSize, GetNextPacketSize method [Core Audio], GetNextPacketSize method [Core Audio],IAudioCaptureClient interface, IAudioCaptureClient interface [Core Audio],GetNextPacketSize method, IAudioCaptureClient.GetNextPacketSize, IAudioCaptureClient::GetNextPacketSize, IAudioCaptureClientGetNextPacketSize, audioclient/IAudioCaptureClient::GetNextPacketSize, coreaudio.iaudiocaptureclient_getnextpacketsize
 ms.topic: method
-f1_keywords: 
- - "audioclient/IAudioCaptureClient.GetNextPacketSize"
+f1_keywords:
+- audioclient/IAudioCaptureClient.GetNextPacketSize
 dev_langs:
- - c++
+- c++
 req.header: audioclient.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Audioclient.h
+- Audioclient.h
 api_name:
- - IAudioCaptureClient.GetNextPacketSize
+- IAudioCaptureClient.GetNextPacketSize
 targetos: Windows
 req.typenames: 
 req.redist: 

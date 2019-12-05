@@ -1,19 +1,17 @@
 ---
 UID: NF:mswmdm.IWMDMObjectInfo.SetPlayOffset
 title: IWMDMObjectInfo::SetPlayOffset (mswmdm.h)
-
 description: The SetPlayOffset method sets the play offset of the object, in the units appropriate to the format. This specifies the starting point for the next invocation of Play.
 old-location: wmdm\iwmdmobjectinfo_setplayoffset.htm
 tech.root: WMDM
 ms.assetid: b47cf5e8-1d5c-4a47-bb9a-0bec7203f497
-
 ms.date: 12/05/2018
 ms.keywords: IWMDMObjectInfo interface [windows Media Device Manager],SetPlayOffset method, IWMDMObjectInfo.SetPlayOffset, IWMDMObjectInfo::SetPlayOffset, IWMDMObjectInfoSetPlayOffset, SetPlayOffset, SetPlayOffset method [windows Media Device Manager], SetPlayOffset method [windows Media Device Manager],IWMDMObjectInfo interface, mswmdm/IWMDMObjectInfo::SetPlayOffset, wmdm.iwmdmobjectinfo_setplayoffset
 ms.topic: method
-f1_keywords: 
- - "mswmdm/IWMDMObjectInfo.SetPlayOffset"
+f1_keywords:
+- mswmdm/IWMDMObjectInfo.SetPlayOffset
 dev_langs:
- - c++
+- c++
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mssachlp.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mssachlp.lib
- - mssachlp.dll
+- mssachlp.lib
+- mssachlp.dll
 api_name:
- - IWMDMObjectInfo.SetPlayOffset
+- IWMDMObjectInfo.SetPlayOffset
 targetos: Windows
 req.typenames: 
 req.redist: 

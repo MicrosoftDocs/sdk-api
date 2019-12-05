@@ -1,19 +1,17 @@
 ---
 UID: NS:qmgr._FILESETINFO
 title: FILESETINFO (qmgr.h)
-
 description: The FILESETINFO structure identifies the remote and local names of the file to download.
 old-location: bits\filesetinfo.htm
 tech.root: Bits
 ms.assetid: 1a1d6683-5317-4a34-828d-55142f64f19f
-
 ms.date: 12/05/2018
 ms.keywords: FILESETINFO, FILESETINFO structure [BITS], bits.filesetinfo, qmgr/FILESETINFO
 ms.topic: struct
-f1_keywords: 
- - "qmgr/FILESETINFO"
+f1_keywords:
+- qmgr/FILESETINFO
 dev_langs:
- - c++
+- c++
 req.header: qmgr.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Qmgr.h
+- Qmgr.h
 api_name:
- - FILESETINFO
+- FILESETINFO
 targetos: Windows
 req.typenames: FILESETINFO
 req.redist: 

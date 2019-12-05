@@ -1,19 +1,17 @@
 ---
 UID: NF:certenroll.ICspStatuses.Add
 title: ICspStatuses::Add (certenroll.h)
-
 description: Adds an ICspStatus object to the collection.
 old-location: security\icspstatuses_add_method.htm
 tech.root: seccertenroll
 ms.assetid: f8238071-f2e4-4533-b9bc-a86cea8086a5
-
 ms.date: 12/05/2018
 ms.keywords: Add, Add method [Security], Add method [Security],ICspStatuses interface, ICspStatuses interface [Security],Add method, ICspStatuses.Add, ICspStatuses::Add, certenroll/ICspStatuses::Add, security.icspstatuses_add_method
 ms.topic: method
-f1_keywords: 
- - "certenroll/ICspStatuses.Add"
+f1_keywords:
+- certenroll/ICspStatuses.Add
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: CertEnroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CertEnroll.dll
+- CertEnroll.dll
 api_name:
- - ICspStatuses.Add
+- ICspStatuses.Add
 targetos: Windows
 req.typenames: 
 req.redist: 

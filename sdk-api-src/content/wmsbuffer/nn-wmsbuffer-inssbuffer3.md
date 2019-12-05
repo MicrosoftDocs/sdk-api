@@ -1,19 +1,17 @@
 ---
 UID: NN:wmsbuffer.INSSBuffer3
 title: INSSBuffer3 (wmsbuffer.h)
-
 description: The INSSBuffer3 interface enhances the INSSBuffer interface by adding the ability to set and retrieve single properties for a sample.
 old-location: wmformat\inssbuffer3.htm
 tech.root: wmformat
 ms.assetid: 3ebf80d0-b5b0-4024-805d-e0a3855574bf
-
 ms.date: 12/05/2018
 ms.keywords: INSSBuffer3, INSSBuffer3 interface [windows Media Format], INSSBuffer3 interface [windows Media Format],described, INSSBuffer3Interface, wmformat.inssbuffer3, wmsbuffer/INSSBuffer3
 ms.topic: interface
-f1_keywords: 
- - "wmsbuffer/INSSBuffer3"
+f1_keywords:
+- wmsbuffer/INSSBuffer3
 dev_langs:
- - c++
+- c++
 req.header: wmsbuffer.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmsbuffer.h
+- wmsbuffer.h
 api_name:
- - INSSBuffer3
+- INSSBuffer3
 targetos: Windows
 req.typenames: 
 req.redist: 

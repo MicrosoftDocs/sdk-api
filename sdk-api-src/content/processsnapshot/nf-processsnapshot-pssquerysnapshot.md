@@ -1,19 +1,17 @@
 ---
 UID: NF:processsnapshot.PssQuerySnapshot
 title: PssQuerySnapshot function (processsnapshot.h)
-
 description: Queries the snapshot.
 old-location: proc_snap\pssquerysnapshot.htm
 tech.root: proc_snap
 ms.assetid: D9580147-28ED-4FF5-B7DB-844ACB19769F
-
 ms.date: 12/05/2018
 ms.keywords: PssQuerySnapshot, PssQuerySnapshot function, proc_snap.pssquerysnapshot, processsnapshot/PssQuerySnapshot
 ms.topic: function
-f1_keywords: 
- - "processsnapshot/PssQuerySnapshot"
+f1_keywords:
+- processsnapshot/PssQuerySnapshot
 dev_langs:
- - c++
+- c++
 req.header: processsnapshot.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - kernel32.dll
- - API-MS-Win-Core-Processsnapshot-l1-1-0.dll
- - KernelBase.dll
+- kernel32.dll
+- API-MS-Win-Core-Processsnapshot-l1-1-0.dll
+- KernelBase.dll
 api_name:
- - PssQuerySnapshot
+- PssQuerySnapshot
 targetos: Windows
 req.typenames: 
 req.redist: 

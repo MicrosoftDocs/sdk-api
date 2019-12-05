@@ -1,19 +1,17 @@
 ---
 UID: NF:ws2spi.WSCEnableNSProvider32
 title: WSCEnableNSProvider32 function (ws2spi.h)
-
 description: Enables or disables a specified 32-bit namespace provider.
 old-location: winsock\wscenablensprovider32.htm
 tech.root: WinSock
 ms.assetid: 5ab4f8bd-d32d-4962-aac7-2d92847d0e03
-
 ms.date: 12/05/2018
 ms.keywords: WSCEnableNSProvider32, WSCEnableNSProvider32 function [Winsock], winsock.wscenablensprovider32, ws2spi/WSCEnableNSProvider32
 ms.topic: function
-f1_keywords: 
- - "ws2spi/WSCEnableNSProvider32"
+f1_keywords:
+- ws2spi/WSCEnableNSProvider32
 dev_langs:
- - c++
+- c++
 req.header: ws2spi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Ws2_32.lib
 req.dll: Ws2_32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ws2_32.dll
+- Ws2_32.dll
 api_name:
- - WSCEnableNSProvider32
+- WSCEnableNSProvider32
 targetos: Windows
 req.typenames: 
 req.redist: 

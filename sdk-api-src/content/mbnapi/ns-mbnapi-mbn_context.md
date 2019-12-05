@@ -1,19 +1,17 @@
 ---
 UID: NS:mbnapi.MBN_CONTEXT
 title: MBN_CONTEXT (mbnapi.h)
-
 description: The MBN_CONTEXT structure stores information about the connection context.
 old-location: mbn\mbn_context.htm
 tech.root: mbn
 ms.assetid: 949b1bb3-8cad-45b4-81b7-1f70a76b6c8c
-
 ms.date: 12/05/2018
 ms.keywords: MBN_CONTEXT, MBN_CONTEXT structure [Microsoft Broadband Networks], mbn.mbn_context, mbnapi/MBN_CONTEXT
 ms.topic: struct
-f1_keywords: 
- - "mbnapi/MBN_CONTEXT"
+f1_keywords:
+- mbnapi/MBN_CONTEXT
 dev_langs:
- - c++
+- c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - mbnapi.h
+- mbnapi.h
 api_name:
- - MBN_CONTEXT
+- MBN_CONTEXT
 targetos: Windows
 req.typenames: MBN_CONTEXT
 req.redist: 

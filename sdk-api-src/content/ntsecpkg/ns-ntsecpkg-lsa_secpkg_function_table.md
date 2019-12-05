@@ -1,19 +1,17 @@
 ---
 UID: NS:ntsecpkg._LSA_SECPKG_FUNCTION_TABLE
 title: LSA_SECPKG_FUNCTION_TABLE (ntsecpkg.h)
-
 description: Contains pointers to the LSA functions that a security package can call. The Local Security Authority (LSA) passes this structure to a security package when it calls the package's SpInitialize function.
 old-location: security\lsa_secpkg_function_table.htm
 tech.root: SecAuthN
 ms.assetid: 85f04072-8634-454a-9038-737d86c5597d
-
 ms.date: 12/05/2018
-ms.keywords: "*PLSA_SECPKG_FUNCTION_TABLE, LSA_SECPKG_FUNCTION_TABLE, LSA_SECPKG_FUNCTION_TABLE structure [Security], PLSA_SECPKG_FUNCTION_TABLE, PLSA_SECPKG_FUNCTION_TABLE structure pointer [Security], _ssp_lsa_secpkg_function_table, ntsecpkg/LSA_SECPKG_FUNCTION_TABLE, ntsecpkg/PLSA_SECPKG_FUNCTION_TABLE, security.lsa_secpkg_function_table"
+ms.keywords: '*PLSA_SECPKG_FUNCTION_TABLE, LSA_SECPKG_FUNCTION_TABLE, LSA_SECPKG_FUNCTION_TABLE structure [Security], PLSA_SECPKG_FUNCTION_TABLE, PLSA_SECPKG_FUNCTION_TABLE structure pointer [Security], _ssp_lsa_secpkg_function_table, ntsecpkg/LSA_SECPKG_FUNCTION_TABLE, ntsecpkg/PLSA_SECPKG_FUNCTION_TABLE, security.lsa_secpkg_function_table'
 ms.topic: struct
-f1_keywords: 
- - "ntsecpkg/LSA_SECPKG_FUNCTION_TABLE"
+f1_keywords:
+- ntsecpkg/LSA_SECPKG_FUNCTION_TABLE
 dev_langs:
- - c++
+- c++
 req.header: ntsecpkg.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Ntsecpkg.h
+- Ntsecpkg.h
 api_name:
- - LSA_SECPKG_FUNCTION_TABLE
+- LSA_SECPKG_FUNCTION_TABLE
 targetos: Windows
 req.typenames: LSA_SECPKG_FUNCTION_TABLE, *PLSA_SECPKG_FUNCTION_TABLE
 req.redist: 

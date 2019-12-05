@@ -1,19 +1,17 @@
 ---
 UID: NF:wbemcli.IWbemServices.PutInstance
 title: IWbemServices::PutInstance (wbemcli.h)
-
 description: The IWbemServices::PutInstance method creates or updates an instance of an existing class. The instance is written to the WMI repository.
 old-location: wmi\iwbemservices_putinstance.htm
 tech.root: WmiSdk
 ms.assetid: 1e07b328-40f7-4e14-bf53-9a5cebfc23f6
-
 ms.date: 12/05/2018
 ms.keywords: IWbemServices interface [Windows Management Instrumentation],PutInstance method, IWbemServices.PutInstance, IWbemServices::PutInstance, PutInstance, PutInstance method [Windows Management Instrumentation], PutInstance method [Windows Management Instrumentation],IWbemServices interface, WBEM_FLAG_CREATE_ONLY, WBEM_FLAG_CREATE_OR_UPDATE, WBEM_FLAG_RETURN_IMMEDIATELY, WBEM_FLAG_UPDATE_ONLY, WBEM_FLAG_USE_AMENDED_QUALIFIERS, _hmm_iwbemservices_putinstance, wbemcli/IWbemServices::PutInstance, wmi.iwbemservices_putinstance
 ms.topic: method
-f1_keywords: 
- - "wbemcli/IWbemServices.PutInstance"
+f1_keywords:
+- wbemcli/IWbemServices.PutInstance
 dev_langs:
- - c++
+- c++
 req.header: wbemcli.h
 req.include-header: Wbemidl.h
 req.target-type: Windows
@@ -32,28 +30,28 @@ req.lib: Wbemuuid.lib
 req.dll: Fastprox.dll; Esscli.dll; FrameDyn.dll; FrameDynOS.dll; Ntevt.dll; Stdprov.dll; Viewprov.dll; Wbemcomn.dll; Wbemcore.dll; Wbemess.dll; Wbemsvc.dll; Wmipicmp.dll; Wmidcprv.dll; Wmipjobj.dll; Wmiprvsd.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Fastprox.dll
- - Esscli.dll
- - FrameDyn.dll
- - FrameDynOS.dll
- - Ntevt.dll
- - Stdprov.dll
- - Viewprov.dll
- - Wbemcomn.dll
- - Wbemcore.dll
- - Wbemess.dll
- - Wbemsvc.dll
- - Wmipicmp.dll
- - Wmidcprv.dll
- - Wmipjobj.dll
- - Wmiprvsd.dll
+- Fastprox.dll
+- Esscli.dll
+- FrameDyn.dll
+- FrameDynOS.dll
+- Ntevt.dll
+- Stdprov.dll
+- Viewprov.dll
+- Wbemcomn.dll
+- Wbemcore.dll
+- Wbemess.dll
+- Wbemsvc.dll
+- Wmipicmp.dll
+- Wmidcprv.dll
+- Wmipjobj.dll
+- Wmiprvsd.dll
 api_name:
- - IWbemServices.PutInstance
+- IWbemServices.PutInstance
 targetos: Windows
 req.typenames: 
 req.redist: 

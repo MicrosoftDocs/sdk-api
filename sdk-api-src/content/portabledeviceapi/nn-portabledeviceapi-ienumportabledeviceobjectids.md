@@ -1,19 +1,17 @@
 ---
 UID: NN:portabledeviceapi.IEnumPortableDeviceObjectIDs
 title: IEnumPortableDeviceObjectIDs (portabledeviceapi.h)
-
 description: The IEnumPortableDeviceObjectIDs interface enumerates the objects on a portable device. Get this interface initially by calling IPortableDeviceContent::EnumObjects on a device.
 old-location: wpdsdk\ienumportabledeviceobjectids.htm
 tech.root: wpd_sdk
 ms.assetid: 0e9a65cc-819c-494e-9c7c-8f5fec78a2ee
-
 ms.date: 12/05/2018
 ms.keywords: IEnumPortableDeviceObjectIDs, IEnumPortableDeviceObjectIDs interface [Windows Portable Devices SDK], IEnumPortableDeviceObjectIDs interface [Windows Portable Devices SDK],described, IEnumPortableDeviceObjectIDsInterface, portabledeviceapi/IEnumPortableDeviceObjectIDs, wpdsdk.ienumportabledeviceobjectids
 ms.topic: interface
-f1_keywords: 
- - "portabledeviceapi/IEnumPortableDeviceObjectIDs"
+f1_keywords:
+- portabledeviceapi/IEnumPortableDeviceObjectIDs
 dev_langs:
- - c++
+- c++
 req.header: portabledeviceapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: PortableDeviceGUIDs.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - PortableDeviceGUIDs.lib
- - PortableDeviceGUIDs.dll
+- PortableDeviceGUIDs.lib
+- PortableDeviceGUIDs.dll
 api_name:
- - IEnumPortableDeviceObjectIDs
+- IEnumPortableDeviceObjectIDs
 targetos: Windows
 req.typenames: 
 req.redist: 

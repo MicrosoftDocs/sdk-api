@@ -1,19 +1,17 @@
 ---
 UID: NF:dwrite_1.IDWriteTextAnalyzer1.ApplyCharacterSpacing
 title: IDWriteTextAnalyzer1::ApplyCharacterSpacing (dwrite_1.h)
-
 description: Applies spacing between characters, properly adjusting glyph clusters and diacritics.
 old-location: directwrite\idwritetextanalyzer1_applycharacterspacing.htm
 tech.root: DirectWrite
 ms.assetid: E4BACB7E-0032-450C-AEA8-87434329F33C
-
 ms.date: 12/05/2018
 ms.keywords: ApplyCharacterSpacing, ApplyCharacterSpacing method [Direct Write], ApplyCharacterSpacing method [Direct Write],IDWriteTextAnalyzer1 interface, IDWriteTextAnalyzer1 interface [Direct Write],ApplyCharacterSpacing method, IDWriteTextAnalyzer1.ApplyCharacterSpacing, IDWriteTextAnalyzer1::ApplyCharacterSpacing, directwrite.idwritetextanalyzer1_applycharacterspacing, dwrite_1/IDWriteTextAnalyzer1::ApplyCharacterSpacing
 ms.topic: method
-f1_keywords: 
- - "dwrite_1/IDWriteTextAnalyzer1.ApplyCharacterSpacing"
+f1_keywords:
+- dwrite_1/IDWriteTextAnalyzer1.ApplyCharacterSpacing
 dev_langs:
- - c++
+- c++
 req.header: dwrite_1.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dwrite.lib
 req.dll: Dwrite.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dwrite.dll
+- dwrite.dll
 api_name:
- - IDWriteTextAnalyzer1.ApplyCharacterSpacing
+- IDWriteTextAnalyzer1.ApplyCharacterSpacing
 targetos: Windows
 req.typenames: 
 req.redist: 

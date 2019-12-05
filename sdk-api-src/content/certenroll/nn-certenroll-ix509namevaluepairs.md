@@ -1,19 +1,17 @@
 ---
 UID: NN:certenroll.IX509NameValuePairs
 title: IX509NameValuePairs (certenroll.h)
-
 description: The IX509NameValuePairs interface defines the following methods and properties to manage a collection of IX509NameValuePair objects.
 old-location: security\ix509namevaluepairs.htm
 tech.root: seccertenroll
 ms.assetid: c881dc9f-4187-4ba1-9f3a-e1564e4f37c7
-
 ms.date: 12/05/2018
 ms.keywords: IX509NameValuePairs, IX509NameValuePairs interface [Security], IX509NameValuePairs interface [Security],described, certenroll/IX509NameValuePairs, security.ix509namevaluepairs
 ms.topic: interface
-f1_keywords: 
- - "certenroll/IX509NameValuePairs"
+f1_keywords:
+- certenroll/IX509NameValuePairs
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: CertEnroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CertEnroll.dll
+- CertEnroll.dll
 api_name:
- - IX509NameValuePairs
+- IX509NameValuePairs
 targetos: Windows
 req.typenames: 
 req.redist: 

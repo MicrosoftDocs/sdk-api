@@ -1,19 +1,17 @@
 ---
 UID: NE:fsrmenums._FsrmPropertyDefinitionAppliesTo
 title: FsrmPropertyDefinitionAppliesTo (fsrmenums.h)
-
 description: Flags that indicate what a FSRM classification property can be applied to.
 old-location: fsrm\fsrmpropertydefinitionappliesto.htm
 tech.root: fsrm
 ms.assetid: deca10b5-fd5f-446f-ab88-1731402a550c
-
 ms.date: 12/05/2018
 ms.keywords: FsrmPropertyDefinitionAppliesTo, FsrmPropertyDefinitionAppliesTo enumeration [File Server Resource Manager], FsrmPropertyDefinitionAppliesTo_Files, FsrmPropertyDefinitionAppliesTo_Folders, fs.fsrmpropertydefinitionappliesto, fsrm.fsrmpropertydefinitionappliesto, fsrmenums/FsrmPropertyDefinitionAppliesTo, fsrmenums/FsrmPropertyDefinitionAppliesTo_Files, fsrmenums/FsrmPropertyDefinitionAppliesTo_Folders
 ms.topic: enum
-f1_keywords: 
- - "fsrmenums/FsrmPropertyDefinitionAppliesTo"
+f1_keywords:
+- fsrmenums/FsrmPropertyDefinitionAppliesTo
 dev_langs:
- - c++
+- c++
 req.header: fsrmenums.h
 req.include-header: FsrmPipeline.h, FsrmQuota.h, FsrmReports.h, FsrmScreen.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - FsrmEnums.h
+- FsrmEnums.h
 api_name:
- - FsrmPropertyDefinitionAppliesTo
+- FsrmPropertyDefinitionAppliesTo
 targetos: Windows
 req.typenames: FsrmPropertyDefinitionAppliesTo
 req.redist: 

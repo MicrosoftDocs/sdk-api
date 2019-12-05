@@ -1,19 +1,17 @@
 ---
 UID: NF:wuapi.IUpdateDownloader.EndDownload
 title: IUpdateDownloader::EndDownload (wuapi.h)
-
 description: Completes an asynchronous download.
 old-location: wua\iupdatedownloader_enddownload.htm
 tech.root: Wua_Sdk
 ms.assetid: b89ec12a-8a51-46e6-9911-2535abc3925b
-
 ms.date: 12/05/2018
 ms.keywords: EndDownload, EndDownload method [Windows Update Agent], EndDownload method [Windows Update Agent],IUpdateDownloader interface, IUpdateDownloader interface [Windows Update Agent],EndDownload method, IUpdateDownloader.EndDownload, IUpdateDownloader::EndDownload, wua.iupdatedownloader_enddownload, wuapi/IUpdateDownloader::EndDownload
 ms.topic: method
-f1_keywords: 
- - "wuapi/IUpdateDownloader.EndDownload"
+f1_keywords:
+- wuapi/IUpdateDownloader.EndDownload
 dev_langs:
- - c++
+- c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Wuguid.lib
 req.dll: Wuapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wuapi.dll
+- Wuapi.dll
 api_name:
- - IUpdateDownloader.EndDownload
+- IUpdateDownloader.EndDownload
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NS:searchapi._ITEM_INFO
 title: ITEM_INFO (searchapi.h)
-
 description: Contains information passed to the IUrlAccessor object about the current item; for example, the application name and catalog name.
 old-location: search\_search_ITEM_INFO.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\structures\item_info.htm
-
 ms.date: 12/05/2018
 ms.keywords: ITEM_INFO, ITEM_INFO structure [search], _search_ITEM_INFO, search._search_ITEM_INFO, searchapi/ITEM_INFO
 ms.topic: struct
-f1_keywords: 
- - "searchapi/ITEM_INFO"
+f1_keywords:
+- searchapi/ITEM_INFO
 dev_langs:
- - c++
+- c++
 req.header: searchapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Searchapi.h
+- Searchapi.h
 api_name:
- - ITEM_INFO
+- ITEM_INFO
 targetos: Windows
 req.typenames: ITEM_INFO
 req.redist: Windows Desktop Search (WDS) 3.0

@@ -1,19 +1,17 @@
 ---
 UID: NF:appxpackaging.IAppxBundleManifestPackageInfo2.GetIsNonQualifiedResourcePackage
 title: IAppxBundleManifestPackageInfo2::GetIsNonQualifiedResourcePackage (appxpackaging.h)
-
 description: Determines whether the app package is a non-qualified resource package.
 old-location: appxpkg\iappxbundlemanifestpackageinfo2_getisnonqualifiedresourcepackage.htm
 tech.root: appxpkg
 ms.assetid: C6AA5EE3-DE41-41DD-8804-70CDCA817C7A
-
 ms.date: 12/05/2018
 ms.keywords: GetIsNonQualifiedResourcePackage, GetIsNonQualifiedResourcePackage method [App packaging and management], GetIsNonQualifiedResourcePackage method [App packaging and management],IAppxBundleManifestPackageInfo2 interface, IAppxBundleManifestPackageInfo2 interface [App packaging and management],GetIsNonQualifiedResourcePackage method, IAppxBundleManifestPackageInfo2.GetIsNonQualifiedResourcePackage, IAppxBundleManifestPackageInfo2::GetIsNonQualifiedResourcePackage, appxpackaging/IAppxBundleManifestPackageInfo2::GetIsNonQualifiedResourcePackage, appxpkg.iappxbundlemanifestpackageinfo2_getisnonqualifiedresourcepackage
 ms.topic: method
-f1_keywords: 
- - "appxpackaging/IAppxBundleManifestPackageInfo2.GetIsNonQualifiedResourcePackage"
+f1_keywords:
+- appxpackaging/IAppxBundleManifestPackageInfo2.GetIsNonQualifiedResourcePackage
 dev_langs:
- - c++
+- c++
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - AppxPackaging.h
+- AppxPackaging.h
 api_name:
- - IAppxBundleManifestPackageInfo2.GetIsNonQualifiedResourcePackage
+- IAppxBundleManifestPackageInfo2.GetIsNonQualifiedResourcePackage
 targetos: Windows
 req.typenames: 
 req.redist: 

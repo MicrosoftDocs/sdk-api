@@ -1,19 +1,17 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMGlyphsEditor.SetProhibitedCaretStops
 title: IXpsOMGlyphsEditor::SetProhibitedCaretStops (xpsobjectmodel.h)
-
 description: Sets an array of prohibited caret stop locations.
 old-location: xps\ixpsomglyphseditor_setprohibitedcaretstops.htm
 tech.root: printdocs
 ms.assetid: 5f2e1014-d50b-4755-a533-239b6ba9009e
-
 ms.date: 12/05/2018
 ms.keywords: IXpsOMGlyphsEditor interface [XPS Documents and Packaging],SetProhibitedCaretStops method, IXpsOMGlyphsEditor.SetProhibitedCaretStops, IXpsOMGlyphsEditor::SetProhibitedCaretStops, SetProhibitedCaretStops, SetProhibitedCaretStops method [XPS Documents and Packaging], SetProhibitedCaretStops method [XPS Documents and Packaging],IXpsOMGlyphsEditor interface, xps.ixpsomglyphseditor_setprohibitedcaretstops, xpsobjectmodel/IXpsOMGlyphsEditor::SetProhibitedCaretStops
 ms.topic: method
-f1_keywords: 
- - "xpsobjectmodel/IXpsOMGlyphsEditor.SetProhibitedCaretStops"
+f1_keywords:
+- xpsobjectmodel/IXpsOMGlyphsEditor.SetProhibitedCaretStops
 dev_langs:
- - c++
+- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsobjectmodel.h
+- xpsobjectmodel.h
 api_name:
- - IXpsOMGlyphsEditor.SetProhibitedCaretStops
+- IXpsOMGlyphsEditor.SetProhibitedCaretStops
 targetos: Windows
 req.typenames: 
 req.redist: 

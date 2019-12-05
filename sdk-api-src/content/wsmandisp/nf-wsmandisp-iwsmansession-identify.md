@@ -1,19 +1,17 @@
 ---
 UID: NF:wsmandisp.IWSManSession.Identify
 title: IWSManSession::Identify (wsmandisp.h)
-
 description: Queries a remote computer to determine if it supports the WS-Management protocol.
 old-location: winrm\iwsmansession_identify.htm
 tech.root: winrm
 ms.assetid: d3f4e33e-436b-4f05-8696-321a3bfbacd5
-
 ms.date: 12/05/2018
 ms.keywords: IWSManSession interface [Windows Remote Management],Identify method, IWSManSession.Identify, IWSManSession::Identify, Identify, Identify method [Windows Remote Management], Identify method [Windows Remote Management],IWSManSession interface, winrm.iwsmansession_identify, wsmandisp/IWSManSession::Identify
 ms.topic: method
-f1_keywords: 
- - "wsmandisp/IWSManSession.Identify"
+f1_keywords:
+- wsmandisp/IWSManSession.Identify
 dev_langs:
- - c++
+- c++
 req.header: wsmandisp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: WSManDisp.tlb
 req.dll: WSMAuto.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - WSMAuto.dll
+- WSMAuto.dll
 api_name:
- - IWSManSession.Identify
+- IWSManSession.Identify
 targetos: Windows
 req.typenames: 
 req.redist: 

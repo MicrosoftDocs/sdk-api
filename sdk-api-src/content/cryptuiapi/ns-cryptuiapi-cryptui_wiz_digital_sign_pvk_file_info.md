@@ -1,19 +1,17 @@
 ---
 UID: NS:cryptuiapi._CRYPTUI_WIZ_DIGITAL_SIGN_PVK_FILE_INFO
 title: CRYPTUI_WIZ_DIGITAL_SIGN_PVK_FILE_INFO (cryptuiapi.h)
-
 description: Used with the CRYPTUI_WIZ_DIGITAL_SIGN_INFO structure to contain information about the PVK file used by the digital signature wizard.
 old-location: security\cryptui_wiz_digital_sign_pvk_file_info.htm
 tech.root: SecCrypto
 ms.assetid: 0e737661-2cc3-47be-ab32-0efbc18fefbd
-
 ms.date: 12/05/2018
-ms.keywords: "*PCRYPTUI_WIZ_DIGITAL_SIGN_PVK_FILE_INFO, CRYPTUI_WIZ_DIGITAL_SIGN_PVK_FILE_INFO, CRYPTUI_WIZ_DIGITAL_SIGN_PVK_FILE_INFO structure [Security], PCRYPTUI_WIZ_DIGITAL_SIGN_PVK_FILE_INFO, PCRYPTUI_WIZ_DIGITAL_SIGN_PVK_FILE_INFO structure pointer [Security], cryptuiapi/CRYPTUI_WIZ_DIGITAL_SIGN_PVK_FILE_INFO, cryptuiapi/PCRYPTUI_WIZ_DIGITAL_SIGN_PVK_FILE_INFO, security.cryptui_wiz_digital_sign_pvk_file_info"
+ms.keywords: '*PCRYPTUI_WIZ_DIGITAL_SIGN_PVK_FILE_INFO, CRYPTUI_WIZ_DIGITAL_SIGN_PVK_FILE_INFO, CRYPTUI_WIZ_DIGITAL_SIGN_PVK_FILE_INFO structure [Security], PCRYPTUI_WIZ_DIGITAL_SIGN_PVK_FILE_INFO, PCRYPTUI_WIZ_DIGITAL_SIGN_PVK_FILE_INFO structure pointer [Security], cryptuiapi/CRYPTUI_WIZ_DIGITAL_SIGN_PVK_FILE_INFO, cryptuiapi/PCRYPTUI_WIZ_DIGITAL_SIGN_PVK_FILE_INFO, security.cryptui_wiz_digital_sign_pvk_file_info'
 ms.topic: struct
-f1_keywords: 
- - "cryptuiapi/CRYPTUI_WIZ_DIGITAL_SIGN_PVK_FILE_INFO"
+f1_keywords:
+- cryptuiapi/CRYPTUI_WIZ_DIGITAL_SIGN_PVK_FILE_INFO
 dev_langs:
- - c++
+- c++
 req.header: cryptuiapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Cryptuiapi.h
+- Cryptuiapi.h
 api_name:
- - CRYPTUI_WIZ_DIGITAL_SIGN_PVK_FILE_INFO
+- CRYPTUI_WIZ_DIGITAL_SIGN_PVK_FILE_INFO
 targetos: Windows
 req.typenames: CRYPTUI_WIZ_DIGITAL_SIGN_PVK_FILE_INFO, *PCRYPTUI_WIZ_DIGITAL_SIGN_PVK_FILE_INFO
 req.redist: 

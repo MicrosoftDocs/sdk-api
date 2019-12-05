@@ -1,19 +1,17 @@
 ---
 UID: NF:msctf.ITfContext.SetSelection
 title: ITfContext::SetSelection (msctf.h)
-
 description: ITfContext::SetSelection method
 old-location: tsf\itfcontext_setselection.htm
 tech.root: TSF
 ms.assetid: 1cf50b5e-6ec2-4649-9acc-743a2e3d8096
-
 ms.date: 12/05/2018
 ms.keywords: ITfContext interface [Text Services Framework],SetSelection method, ITfContext.SetSelection, ITfContext::SetSelection, SetSelection, SetSelection method [Text Services Framework], SetSelection method [Text Services Framework],ITfContext interface, _tsf_itfcontext_setselection_ref, msctf/ITfContext::SetSelection, tsf.itfcontext_setselection
 ms.topic: method
-f1_keywords: 
- - "msctf/ITfContext.SetSelection"
+f1_keywords:
+- msctf/ITfContext.SetSelection
 dev_langs:
- - c++
+- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msctf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msctf.dll
+- msctf.dll
 api_name:
- - ITfContext.SetSelection
+- ITfContext.SetSelection
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

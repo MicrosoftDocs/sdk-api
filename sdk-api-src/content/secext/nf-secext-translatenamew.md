@@ -1,19 +1,17 @@
 ---
 UID: NF:secext.TranslateNameW
 title: TranslateNameW function (secext.h)
-
 description: Converts a directory service object name from one format to another.
 old-location: base\translatename.htm
 tech.root: SysInfo
 ms.assetid: 4df25519-e7d6-46ea-b0e8-ba1f82e5f94f
-
 ms.date: 12/05/2018
 ms.keywords: TranslateName, TranslateName function, TranslateNameA, TranslateNameW, _win32_translatename, base.translatename, secext/TranslateName, secext/TranslateNameA, secext/TranslateNameW
 ms.topic: function
-f1_keywords: 
- - "secext/TranslateName"
+f1_keywords:
+- secext/TranslateName
 dev_langs:
- - c++
+- c++
 req.header: secext.h
 req.include-header: Security.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Secur32.lib
 req.dll: Secur32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Secur32.dll
+- Secur32.dll
 api_name:
- - TranslateName
- - TranslateNameA
- - TranslateNameW
+- TranslateName
+- TranslateNameA
+- TranslateNameW
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:wmp.IWMPMedia.getMarkerName
 title: IWMPMedia::getMarkerName (wmp.h)
-
 description: The getMarkerName method retrieves the name of the marker at the specified index.
 old-location: wmp\iwmpmedia_getmarkername.htm
 tech.root: WMP
 ms.assetid: 86c3931f-5790-43f5-896d-1728c38247a9
-
 ms.date: 12/05/2018
 ms.keywords: IWMPMedia interface [Windows Media Player],getMarkerName method, IWMPMedia.getMarkerName, IWMPMedia2 interface [Windows Media Player],getMarkerName method, IWMPMedia2::getMarkerName, IWMPMedia3 interface [Windows Media Player],getMarkerName method, IWMPMedia3::getMarkerName, IWMPMedia::getMarkerName, IWMPMediagetMarkerName, getMarkerName, getMarkerName method [Windows Media Player], getMarkerName method [Windows Media Player],IWMPMedia interface, getMarkerName method [Windows Media Player],IWMPMedia2 interface, getMarkerName method [Windows Media Player],IWMPMedia3 interface, wmp.iwmpmedia_getmarkername, wmp/IWMPMedia2::getMarkerName, wmp/IWMPMedia3::getMarkerName, wmp/IWMPMedia::getMarkerName
 ms.topic: method
-f1_keywords: 
- - "wmp/IWMPMedia.getMarkerName"
+f1_keywords:
+- wmp/IWMPMedia.getMarkerName
 dev_langs:
- - c++
+- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: Wmp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmp.dll
+- wmp.dll
 api_name:
- - IWMPMedia.getMarkerName
- - IWMPMedia2.getMarkerName
- - IWMPMedia3.getMarkerName
+- IWMPMedia.getMarkerName
+- IWMPMedia2.getMarkerName
+- IWMPMedia3.getMarkerName
 targetos: Windows
 req.typenames: 
 req.redist: 

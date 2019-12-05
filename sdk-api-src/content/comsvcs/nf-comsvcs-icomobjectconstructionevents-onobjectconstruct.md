@@ -1,19 +1,17 @@
 ---
 UID: NF:comsvcs.IComObjectConstructionEvents.OnObjectConstruct
 title: IComObjectConstructionEvents::OnObjectConstruct (comsvcs.h)
-
 description: Generated when a constructed object is created.
 old-location: cos\icomobjectconstructionevents_onobjectconstruct.htm
 tech.root: cossdk
 ms.assetid: 8a90e561-79a0-4490-bbc8-f376e4278ab9
-
 ms.date: 12/05/2018
 ms.keywords: IComObjectConstructionEvents interface [COM+],OnObjectConstruct method, IComObjectConstructionEvents.OnObjectConstruct, IComObjectConstructionEvents::OnObjectConstruct, OnObjectConstruct, OnObjectConstruct method [COM+], OnObjectConstruct method [COM+],IComObjectConstructionEvents interface, _dtc_IComObjectConstructionEvents_OnObjectConstruct, comsvcs/IComObjectConstructionEvents::OnObjectConstruct, cos.icomobjectconstructionevents_onobjectconstruct
 ms.topic: method
-f1_keywords: 
- - "comsvcs/IComObjectConstructionEvents.OnObjectConstruct"
+f1_keywords:
+- comsvcs/IComObjectConstructionEvents.OnObjectConstruct
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - IComObjectConstructionEvents.OnObjectConstruct
+- IComObjectConstructionEvents.OnObjectConstruct
 targetos: Windows
 req.typenames: 
 req.redist: 

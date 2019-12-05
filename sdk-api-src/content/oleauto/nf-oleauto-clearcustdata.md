@@ -1,19 +1,17 @@
 ---
 UID: NF:oleauto.ClearCustData
 title: ClearCustData function (oleauto.h)
-
 description: Releases memory used to hold the custom data item.
 old-location: automat\clearcustdata.htm
 tech.root: automat
 ms.assetid: 14556107-3b22-48c8-b480-280b9dee9b17
-
 ms.date: 12/05/2018
 ms.keywords: ClearCustData, ClearCustData function [Automation], _oa96_ClearCustData, automat.clearcustdata, oleauto/ClearCustData
 ms.topic: function
-f1_keywords: 
- - "oleauto/ClearCustData"
+f1_keywords:
+- oleauto/ClearCustData
 dev_langs:
- - c++
+- c++
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: OleAut32.lib
 req.dll: OleAut32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - OleAut32.dll
+- OleAut32.dll
 api_name:
- - ClearCustData
+- ClearCustData
 targetos: Windows
 req.typenames: 
 req.redist: 

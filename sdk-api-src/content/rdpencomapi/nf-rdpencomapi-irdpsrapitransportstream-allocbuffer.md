@@ -1,19 +1,17 @@
 ---
 UID: NF:rdpencomapi.IRDPSRAPITransportStream.AllocBuffer
 title: IRDPSRAPITransportStream::AllocBuffer (rdpencomapi.h)
-
 description: Called by the Remote Desktop Protocol (RDP) stack to allocate a stream buffer.
 old-location: rdp\irdpsrapitransportstream_allocbuffer.htm
 tech.root: rdp
 ms.assetid: 5e53aedb-d3a2-4468-9df9-f058485d7bc4
-
 ms.date: 12/05/2018
 ms.keywords: AllocBuffer, AllocBuffer method [RDP], AllocBuffer method [RDP],IRDPSRAPITransportStream interface, IRDPSRAPITransportStream interface [RDP],AllocBuffer method, IRDPSRAPITransportStream.AllocBuffer, IRDPSRAPITransportStream::AllocBuffer, rdp.irdpsrapitransportstream_allocbuffer, rdpencomapi/IRDPSRAPITransportStream::AllocBuffer
 ms.topic: method
-f1_keywords: 
- - "rdpencomapi/IRDPSRAPITransportStream.AllocBuffer"
+f1_keywords:
+- rdpencomapi/IRDPSRAPITransportStream.AllocBuffer
 dev_langs:
- - c++
+- c++
 req.header: rdpencomapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: RdpEncom.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - RdpEncom.dll
+- RdpEncom.dll
 api_name:
- - IRDPSRAPITransportStream.AllocBuffer
+- IRDPSRAPITransportStream.AllocBuffer
 targetos: Windows
 req.typenames: 
 req.redist: 

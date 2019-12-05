@@ -1,19 +1,17 @@
 ---
 UID: NF:textstor.ITextStoreAnchor.GetText
 title: ITextStoreAnchor::GetText (textstor.h)
-
 description: The ITextStoreAnchor::GetText method returns information about text at a specified anchor position. This method returns the visible and hidden text and indicates if embedded data is attached to the text.
 old-location: tsf\itextstoreanchor_gettext.htm
 tech.root: TSF
 ms.assetid: fd3f91df-b107-4284-8435-d859c843555f
-
 ms.date: 12/05/2018
 ms.keywords: GetText, GetText method [Text Services Framework], GetText method [Text Services Framework],ITextStoreAnchor interface, ITextStoreAnchor interface [Text Services Framework],GetText method, ITextStoreAnchor.GetText, ITextStoreAnchor::GetText, textstor/ITextStoreAnchor::GetText, tsf.itextstoreanchor_gettext
 ms.topic: method
-f1_keywords: 
- - "textstor/ITextStoreAnchor.GetText"
+f1_keywords:
+- textstor/ITextStoreAnchor.GetText
 dev_langs:
- - c++
+- c++
 req.header: textstor.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msctf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msctf.dll
+- msctf.dll
 api_name:
- - ITextStoreAnchor.GetText
+- ITextStoreAnchor.GetText
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

@@ -1,19 +1,17 @@
 ---
 UID: NE:d3d11_1.D3D11_VIDEO_DECODER_CAPS
 title: D3D11_VIDEO_DECODER_CAPS (d3d11_1.h)
-
 description: Specifies capabilities of the video decoder.
 old-location: mf\d3d11_video_decoder_caps.htm
 tech.root: medfound
 ms.assetid: 8E3C86A4-5F73-4E6F-8F93-5564EA0BC113
-
 ms.date: 12/05/2018
 ms.keywords: D3D11_VIDEO_DECODER_CAPS, D3D11_VIDEO_DECODER_CAPS enumeration [Media Foundation], D3D11_VIDEO_DECODER_CAPS_DOWNSAMPLE, D3D11_VIDEO_DECODER_CAPS_DOWNSAMPLE_DYNAMIC, D3D11_VIDEO_DECODER_CAPS_NON_REAL_TIME, d3d11_1/D3D11_VIDEO_DECODER_CAPS, d3d11_1/D3D11_VIDEO_DECODER_CAPS_DOWNSAMPLE, d3d11_1/D3D11_VIDEO_DECODER_CAPS_DOWNSAMPLE_DYNAMIC, d3d11_1/D3D11_VIDEO_DECODER_CAPS_NON_REAL_TIME, mf.d3d11_video_decoder_caps
 ms.topic: enum
-f1_keywords: 
- - "d3d11_1/D3D11_VIDEO_DECODER_CAPS"
+f1_keywords:
+- d3d11_1/D3D11_VIDEO_DECODER_CAPS
 dev_langs:
- - c++
+- c++
 req.header: d3d11_1.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - d3d11_1.h
+- d3d11_1.h
 api_name:
- - D3D11_VIDEO_DECODER_CAPS
+- D3D11_VIDEO_DECODER_CAPS
 targetos: Windows
 req.typenames: D3D11_VIDEO_DECODER_CAPS
 req.redist: 

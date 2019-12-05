@@ -1,19 +1,17 @@
 ---
 UID: NF:wsdhost.IWSDDeviceHost.RetireService
 title: IWSDDeviceHost::RetireService (wsdhost.h)
-
 description: Unregisters a service object that was registered using RegisterService and removes the service from the device host metadata.
 old-location: ncd\iwsddevicehost_retireservice_method.htm
 tech.root: WsdApi
 ms.assetid: 7832c787-f268-44e3-b394-363299b6a823
-
 ms.date: 12/05/2018
 ms.keywords: IWSDDeviceHost interface,RetireService method, IWSDDeviceHost.RetireService, IWSDDeviceHost::RetireService, RetireService, RetireService method, RetireService method,IWSDDeviceHost interface, ncd.iwsddevicehost_retireservice_method, wsdhost/IWSDDeviceHost::RetireService
 ms.topic: method
-f1_keywords: 
- - "wsdhost/IWSDDeviceHost.RetireService"
+f1_keywords:
+- wsdhost/IWSDDeviceHost.RetireService
 dev_langs:
- - c++
+- c++
 req.header: wsdhost.h
 req.include-header: Wsdapi.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wsdapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wsdapi.dll
+- Wsdapi.dll
 api_name:
- - IWSDDeviceHost.RetireService
+- IWSDDeviceHost.RetireService
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:mileffects.IMILBitmapEffectImpl.GetInputSource
 title: IMILBitmapEffectImpl::GetInputSource (mileffects.h)
-
 description: Retrieves the input IWICBitmapSource Interface.
 old-location: wibe\_wibe_imilbitmapeffectimpl_getinputsource.htm
 tech.root: wibe
 ms.assetid: VS|wibe|~\wibelh\reference\ifaces\imilbitmapeffectimpl\getinputsource.htm
-
 ms.date: 12/05/2018
 ms.keywords: GetInputSource, GetInputSource method [WPF Bitmap Effects], GetInputSource method [WPF Bitmap Effects],IMILBitmapEffectImpl interface, IMILBitmapEffectImpl interface [WPF Bitmap Effects],GetInputSource method, IMILBitmapEffectImpl.GetInputSource, IMILBitmapEffectImpl::GetInputSource, _wibe_imilbitmapeffectimpl_getinputsource, mileffects/IMILBitmapEffectImpl::GetInputSource, wibe._wibe_imilbitmapeffectimpl_getinputsource
 ms.topic: method
-f1_keywords: 
- - "mileffects/IMILBitmapEffectImpl.GetInputSource"
+f1_keywords:
+- mileffects/IMILBitmapEffectImpl.GetInputSource
 dev_langs:
- - c++
+- c++
 req.header: mileffects.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mileffects.h
+- Mileffects.h
 api_name:
- - IMILBitmapEffectImpl.GetInputSource
+- IMILBitmapEffectImpl.GetInputSource
 targetos: Windows
 req.typenames: 
 req.redist: Microsoft .Net 3.0

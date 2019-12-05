@@ -1,19 +1,17 @@
 ---
 UID: NF:propsys.IPropertySystem.UnregisterPropertySchema
 title: IPropertySystem::UnregisterPropertySchema (propsys.h)
-
 description: Informs the schema subsystem of the removal of a property description schema (.propdesc) file, using a file path to the .propdesc file on the local machine.
 old-location: properties\IPropertySystem_UnregisterPropertySchema.htm
 tech.root: properties
 ms.assetid: de81e174-9c32-455f-a7ba-a3d1b2223b84
-
 ms.date: 12/05/2018
 ms.keywords: IPropertySystem interface [Windows Properties],UnregisterPropertySchema method, IPropertySystem.UnregisterPropertySchema, IPropertySystem::UnregisterPropertySchema, UnregisterPropertySchema, UnregisterPropertySchema method [Windows Properties], UnregisterPropertySchema method [Windows Properties],IPropertySystem interface, properties.IPropertySystem_UnregisterPropertySchema, propsys/IPropertySystem::UnregisterPropertySchema, shell.IPropertySystem_UnregisterPropertySchema, shell_IPropertySystem_UnregisterPropertySchema
 ms.topic: method
-f1_keywords: 
- - "propsys/IPropertySystem.UnregisterPropertySchema"
+f1_keywords:
+- propsys/IPropertySystem.UnregisterPropertySchema
 dev_langs:
- - c++
+- c++
 req.header: propsys.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Propsys.dll (version 5.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Propsys.dll
+- Propsys.dll
 api_name:
- - IPropertySystem.UnregisterPropertySchema
+- IPropertySystem.UnregisterPropertySchema
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0

@@ -1,19 +1,17 @@
 ---
 UID: NS:vdshwprv._VDS_ISCSI_PORTALGROUP_PROP
 title: VDS_ISCSI_PORTALGROUP_PROP (vdshwprv.h)
-
 description: Defines the properties of an iSCSI portal group.
 old-location: base\vds_iscsi_portalgroup_prop.htm
 tech.root: VDS
 ms.assetid: 82f891a2-432b-4503-8b5a-a79bea800525
-
 ms.date: 12/05/2018
-ms.keywords: "*PVDS_ISCSI_PORTALGROUP_PROP, VDS_ISCSI_PORTALGROUP_PROP, VDS_ISCSI_PORTALGROUP_PROP structure [VDS], base.vds_iscsi_portalgroup_prop, vds/VDS_ISCSI_PORTALGROUP_PROP, vdshwprv/VDS_ISCSI_PORTALGROUP_PROP"
+ms.keywords: '*PVDS_ISCSI_PORTALGROUP_PROP, VDS_ISCSI_PORTALGROUP_PROP, VDS_ISCSI_PORTALGROUP_PROP structure [VDS], base.vds_iscsi_portalgroup_prop, vds/VDS_ISCSI_PORTALGROUP_PROP, vdshwprv/VDS_ISCSI_PORTALGROUP_PROP'
 ms.topic: struct
-f1_keywords: 
- - "vdshwprv/VDS_ISCSI_PORTALGROUP_PROP"
+f1_keywords:
+- vdshwprv/VDS_ISCSI_PORTALGROUP_PROP
 dev_langs:
- - c++
+- c++
 req.header: vdshwprv.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Vds.h
- - VdsHwPrv.h
+- Vds.h
+- VdsHwPrv.h
 api_name:
- - VDS_ISCSI_PORTALGROUP_PROP
+- VDS_ISCSI_PORTALGROUP_PROP
 targetos: Windows
 req.typenames: VDS_ISCSI_PORTALGROUP_PROP, *PVDS_ISCSI_PORTALGROUP_PROP
 req.redist: VDS 1.1

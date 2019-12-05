@@ -1,19 +1,17 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMPart.SetPartName
 title: IXpsOMPart::SetPartName (xpsobjectmodel.h)
-
 description: Sets the name that will be used when the part is serialized.
 old-location: xps\ixpsompart_setpartname.htm
 tech.root: printdocs
 ms.assetid: d17083f3-38b2-43bd-8e87-1092cf397f29
-
 ms.date: 12/05/2018
 ms.keywords: IXpsOMPart interface [XPS Documents and Packaging],SetPartName method, IXpsOMPart.SetPartName, IXpsOMPart::SetPartName, SetPartName, SetPartName method [XPS Documents and Packaging], SetPartName method [XPS Documents and Packaging],IXpsOMPart interface, xps.ixpsompart_setpartname, xpsobjectmodel/IXpsOMPart::SetPartName
 ms.topic: method
-f1_keywords: 
- - "xpsobjectmodel/IXpsOMPart.SetPartName"
+f1_keywords:
+- xpsobjectmodel/IXpsOMPart.SetPartName
 dev_langs:
- - c++
+- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsobjectmodel.h
+- xpsobjectmodel.h
 api_name:
- - IXpsOMPart.SetPartName
+- IXpsOMPart.SetPartName
 targetos: Windows
 req.typenames: 
 req.redist: 

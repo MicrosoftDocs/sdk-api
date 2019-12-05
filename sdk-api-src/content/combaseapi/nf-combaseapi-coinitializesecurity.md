@@ -1,19 +1,17 @@
 ---
 UID: NF:combaseapi.CoInitializeSecurity
 title: CoInitializeSecurity function (combaseapi.h)
-
 description: Registers security and sets the default security values for the process.
 old-location: com\coinitializesecurity.htm
 tech.root: com
 ms.assetid: e0933741-6b75-4ce1-aa63-6240e4a7130f
-
 ms.date: 12/05/2018
 ms.keywords: CoInitializeSecurity, CoInitializeSecurity function [COM], _com_CoInitializeSecurity, com.coinitializesecurity, combaseapi/CoInitializeSecurity
 ms.topic: function
 f1_keywords:
 - combaseapi/CoInitializeSecurity
 dev_langs:
- - c++
+- c++
 req.header: combaseapi.h
 req.include-header: Objbase.h
 req.target-type: Windows

@@ -1,19 +1,17 @@
 ---
 UID: NE:iscsidsc.__unnamed_enum_0
 title: ISCSI_DIGEST_TYPES (iscsidsc.h)
-
 description: ISCSI_DIGEST_TYPES enumeration indicates the digest type.
 old-location: iscsidisc\iscsi_digest_types.htm
 tech.root: iSCSIDisc
 ms.assetid: 7c89cc19-28ae-472f-9400-9bd8d0f10c63
-
 ms.date: 12/05/2018
-ms.keywords: "*PISCSI_DIGEST_TYPES, ISCSI_DIGEST_TYPES, ISCSI_DIGEST_TYPES enumeration [iSCSI Discovery Library API], ISCSI_DIGEST_TYPE_CRC32C, ISCSI_DIGEST_TYPE_NONE, iscsidisc.iscsi_digest_types, iscsidsc/ISCSI_DIGEST_TYPES, iscsidsc/ISCSI_DIGEST_TYPE_CRC32C, iscsidsc/ISCSI_DIGEST_TYPE_NONE"
+ms.keywords: '*PISCSI_DIGEST_TYPES, ISCSI_DIGEST_TYPES, ISCSI_DIGEST_TYPES enumeration [iSCSI Discovery Library API], ISCSI_DIGEST_TYPE_CRC32C, ISCSI_DIGEST_TYPE_NONE, iscsidisc.iscsi_digest_types, iscsidsc/ISCSI_DIGEST_TYPES, iscsidsc/ISCSI_DIGEST_TYPE_CRC32C, iscsidsc/ISCSI_DIGEST_TYPE_NONE'
 ms.topic: enum
-f1_keywords: 
- - "iscsidsc/ISCSI_DIGEST_TYPES"
+f1_keywords:
+- iscsidsc/ISCSI_DIGEST_TYPES
 dev_langs:
- - c++
+- c++
 req.header: iscsidsc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Iscsidsc.h
+- Iscsidsc.h
 api_name:
- - ISCSI_DIGEST_TYPES
+- ISCSI_DIGEST_TYPES
 targetos: Windows
 req.typenames: ISCSI_DIGEST_TYPES, *PISCSI_DIGEST_TYPES
 req.redist: 

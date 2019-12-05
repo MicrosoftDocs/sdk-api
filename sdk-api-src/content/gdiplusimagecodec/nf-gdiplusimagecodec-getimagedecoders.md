@@ -1,19 +1,17 @@
 ---
 UID: NF:gdiplusimagecodec.GetImageDecoders
 title: GetImageDecoders function (gdiplusimagecodec.h)
-
 description: The GetImageDecoders function gets an array of ImageCodecInfo objects that contain information about the available image decoders.
 old-location: gdiplus\_gdiplus_FUNC_GetImageDecoders_numDecoders_size_decoders_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\functions\getimagedecoders.htm
-
 ms.date: 12/05/2018
 ms.keywords: GetImageDecoders, GetImageDecoders function [GDI+], _gdiplus_FUNC_GetImageDecoders_numDecoders_size_decoders_, gdiplus._gdiplus_FUNC_GetImageDecoders_numDecoders_size_decoders_, gdiplusimagecodec/GetImageDecoders
 ms.topic: function
-f1_keywords: 
- - "gdiplusimagecodec/GetImageDecoders"
+f1_keywords:
+- gdiplusimagecodec/GetImageDecoders
 dev_langs:
- - c++
+- c++
 req.header: gdiplusimagecodec.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Gdiplus.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - LibDef
+- LibDef
 api_location:
- - Gdiplus.lib
- - Gdiplus.dll
+- Gdiplus.lib
+- Gdiplus.dll
 api_name:
- - GetImageDecoders
+- GetImageDecoders
 targetos: Windows
 req.typenames: 
 req.redist: 

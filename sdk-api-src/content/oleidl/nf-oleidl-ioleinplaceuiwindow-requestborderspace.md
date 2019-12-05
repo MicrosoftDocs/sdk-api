@@ -1,19 +1,17 @@
 ---
 UID: NF:oleidl.IOleInPlaceUIWindow.RequestBorderSpace
 title: IOleInPlaceUIWindow::RequestBorderSpace (oleidl.h)
-
 description: Determines whether there is space available for tools to be installed around the object's window frame while the object is active in place.
 old-location: com\ioleinplaceuiwindow_requestborderspace.htm
 tech.root: com
 ms.assetid: fd477b1d-e9a5-4b99-adf1-8e62de975730
-
 ms.date: 12/05/2018
 ms.keywords: IOleInPlaceUIWindow interface [COM],RequestBorderSpace method, IOleInPlaceUIWindow.RequestBorderSpace, IOleInPlaceUIWindow::RequestBorderSpace, RequestBorderSpace, RequestBorderSpace method [COM], RequestBorderSpace method [COM],IOleInPlaceUIWindow interface, _ole_ioleinplaceuiwindow_requestborderspace, com.ioleinplaceuiwindow_requestborderspace, oleidl/IOleInPlaceUIWindow::RequestBorderSpace
 ms.topic: method
-f1_keywords: 
- - "oleidl/IOleInPlaceUIWindow.RequestBorderSpace"
+f1_keywords:
+- oleidl/IOleInPlaceUIWindow.RequestBorderSpace
 dev_langs:
- - c++
+- c++
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - OleIdl.h
+- OleIdl.h
 api_name:
- - IOleInPlaceUIWindow.RequestBorderSpace
+- IOleInPlaceUIWindow.RequestBorderSpace
 targetos: Windows
 req.typenames: 
 req.redist: 

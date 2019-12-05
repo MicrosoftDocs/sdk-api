@@ -1,19 +1,17 @@
 ---
 UID: NF:dwrite.IDWriteTextLayout.GetInlineObject
 title: IDWriteTextLayout::GetInlineObject (dwrite.h)
-
 description: Gets the inline object at the specified position.
 old-location: directwrite\IDWriteTextLayout_GetInlineObject.htm
 tech.root: DirectWrite
 ms.assetid: 0d86f2a4-d046-4d27-b128-40f2a3dd359a
-
 ms.date: 12/05/2018
 ms.keywords: GetInlineObject, GetInlineObject method [Direct Write], GetInlineObject method [Direct Write],IDWriteTextLayout interface, IDWriteTextLayout interface [Direct Write],GetInlineObject method, IDWriteTextLayout.GetInlineObject, IDWriteTextLayout::GetInlineObject, directwrite.IDWriteTextLayout_GetInlineObject, dwrite/IDWriteTextLayout::GetInlineObject
 ms.topic: method
-f1_keywords: 
- - "dwrite/IDWriteTextLayout.GetInlineObject"
+f1_keywords:
+- dwrite/IDWriteTextLayout.GetInlineObject
 dev_langs:
- - c++
+- c++
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dwrite.lib
 req.dll: Dwrite.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dwrite.dll
+- dwrite.dll
 api_name:
- - IDWriteTextLayout.GetInlineObject
+- IDWriteTextLayout.GetInlineObject
 targetos: Windows
 req.typenames: 
 req.redist: 

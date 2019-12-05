@@ -1,19 +1,17 @@
 ---
 UID: NF:comadmin.ICOMAdminCatalog2.CopyApplications
 title: ICOMAdminCatalog2::CopyApplications (comadmin.h)
-
 description: Copies the specified COM+ applications from one partition to another.
 old-location: cos\icomadmincatalog2_copyapplications.htm
 tech.root: cossdk
 ms.assetid: 4ddb9cab-2e02-4b96-9216-d6cb064f8107
-
 ms.date: 12/05/2018
 ms.keywords: CopyApplications, CopyApplications method [COM+], CopyApplications method [COM+],ICOMAdminCatalog2 interface, ICOMAdminCatalog2 interface [COM+],CopyApplications method, ICOMAdminCatalog2.CopyApplications, ICOMAdminCatalog2::CopyApplications, _cos_icomadmincatalog2_CopyApplications, comadmin/ICOMAdminCatalog2::CopyApplications, cos.icomadmincatalog2_copyapplications
 ms.topic: method
-f1_keywords: 
- - "comadmin/ICOMAdminCatalog2.CopyApplications"
+f1_keywords:
+- comadmin/ICOMAdminCatalog2.CopyApplications
 dev_langs:
- - c++
+- c++
 req.header: comadmin.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComAdmin.h
+- ComAdmin.h
 api_name:
- - ICOMAdminCatalog2.CopyApplications
+- ICOMAdminCatalog2.CopyApplications
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NS:iketypes.IKEEXT_SA_ENUM_TEMPLATE0_
 title: IKEEXT_SA_ENUM_TEMPLATE0 (iketypes.h)
-
 description: Is an enumeration template used for enumerating IKE/AuthIP security associations (SAs).
 old-location: fwp\ikeext_sa_enum_template0.htm
 tech.root: fwp
 ms.assetid: 69bb80de-e512-4fbd-a62f-40bb211e6b26
-
 ms.date: 12/05/2018
 ms.keywords: IKEEXT_SA_ENUM_TEMPLATE0, IKEEXT_SA_ENUM_TEMPLATE0 structure [Filtering], fwp.ikeext_sa_enum_template0, iketypes/IKEEXT_SA_ENUM_TEMPLATE0
 ms.topic: struct
-f1_keywords: 
- - "iketypes/IKEEXT_SA_ENUM_TEMPLATE0"
+f1_keywords:
+- iketypes/IKEEXT_SA_ENUM_TEMPLATE0
 dev_langs:
- - c++
+- c++
 req.header: iketypes.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Iketypes.h
+- Iketypes.h
 api_name:
- - IKEEXT_SA_ENUM_TEMPLATE0
+- IKEEXT_SA_ENUM_TEMPLATE0
 targetos: Windows
 req.typenames: IKEEXT_SA_ENUM_TEMPLATE0
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:dcomp.IDCompositionDevice3.CreateHueRotationEffect
 title: IDCompositionDevice3::CreateHueRotationEffect (dcomp.h)
-
 description: Creates an instance of IDCompositionHueRotationEffect.
 old-location: directcomp\idcompositiondevice3_createhuerotationeffect.htm
 tech.root: directcomp
 ms.assetid: 4DA99723-CC21-454B-A24A-3988A15861D2
-
 ms.date: 12/05/2018
 ms.keywords: CreateHueRotationEffect, CreateHueRotationEffect method [DirectComposition], CreateHueRotationEffect method [DirectComposition],IDCompositionDevice3 interface, IDCompositionDevice3 interface [DirectComposition],CreateHueRotationEffect method, IDCompositionDevice3.CreateHueRotationEffect, IDCompositionDevice3::CreateHueRotationEffect, dcomp/IDCompositionDevice3::CreateHueRotationEffect, directcomp.idcompositiondevice3_createhuerotationeffect
 ms.topic: method
-f1_keywords: 
- - "dcomp/IDCompositionDevice3.CreateHueRotationEffect"
+f1_keywords:
+- dcomp/IDCompositionDevice3.CreateHueRotationEffect
 dev_langs:
- - c++
+- c++
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dcomp.lib
 req.dll: Dcomp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dcomp.dll
+- dcomp.dll
 api_name:
- - IDCompositionDevice3.CreateHueRotationEffect
+- IDCompositionDevice3.CreateHueRotationEffect
 targetos: Windows
 req.typenames: 
 req.redist: 

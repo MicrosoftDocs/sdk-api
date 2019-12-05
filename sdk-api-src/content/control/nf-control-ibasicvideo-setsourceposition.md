@@ -1,19 +1,17 @@
 ---
 UID: NF:control.IBasicVideo.SetSourcePosition
 title: IBasicVideo::SetSourcePosition (control.h)
-
 description: The SetSourcePosition method sets the source rectangle.
 old-location: dshow\ibasicvideo_setsourceposition.htm
 tech.root: DirectShow
 ms.assetid: afe78775-f2b0-4d10-a702-f0329fe79c6d
-
 ms.date: 12/05/2018
 ms.keywords: IBasicVideo interface [DirectShow],SetSourcePosition method, IBasicVideo.SetSourcePosition, IBasicVideo::SetSourcePosition, IBasicVideoSetSourcePosition, SetSourcePosition, SetSourcePosition method [DirectShow], SetSourcePosition method [DirectShow],IBasicVideo interface, control/IBasicVideo::SetSourcePosition, dshow.ibasicvideo_setsourceposition
 ms.topic: method
-f1_keywords: 
- - "control/IBasicVideo.SetSourcePosition"
+f1_keywords:
+- control/IBasicVideo.SetSourcePosition
 dev_langs:
- - c++
+- c++
 req.header: control.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IBasicVideo.SetSourcePosition
+- IBasicVideo.SetSourcePosition
 targetos: Windows
 req.typenames: 
 req.redist: 

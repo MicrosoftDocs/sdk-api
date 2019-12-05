@@ -1,19 +1,17 @@
 ---
 UID: NF:msopc.IOpcDigitalSignature.GetNamespaces
 title: IOpcDigitalSignature::GetNamespaces (msopc.h)
-
 description: Gets the prefix and namespace mapping of the Signature element of the signature markup.
 old-location: opc\iopcdigitalsignature_getnamespaces.htm
 tech.root: OPC
 ms.assetid: c9360d23-1eac-4bb1-ae40-c157f1a79621
-
 ms.date: 12/05/2018
 ms.keywords: GetNamespaces, GetNamespaces method [Open Packaging Conventions], GetNamespaces method [Open Packaging Conventions],IOpcDigitalSignature interface, IOpcDigitalSignature interface [Open Packaging Conventions],GetNamespaces method, IOpcDigitalSignature.GetNamespaces, IOpcDigitalSignature::GetNamespaces, msopc/IOpcDigitalSignature::GetNamespaces, opc.iopcdigitalsignature_getnamespaces
 ms.topic: method
-f1_keywords: 
- - "msopc/IOpcDigitalSignature.GetNamespaces"
+f1_keywords:
+- msopc/IOpcDigitalSignature.GetNamespaces
 dev_langs:
- - c++
+- c++
 req.header: msopc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msopc.h
+- msopc.h
 api_name:
- - IOpcDigitalSignature.GetNamespaces
+- IOpcDigitalSignature.GetNamespaces
 targetos: Windows
 req.typenames: 
 req.redist: 

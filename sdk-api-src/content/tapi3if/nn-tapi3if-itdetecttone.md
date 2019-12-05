@@ -1,19 +1,17 @@
 ---
 UID: NN:tapi3if.ITDetectTone
 title: ITDetectTone (tapi3if.h)
-
 description: The ITDetectTone interface exposes methods that allow an application to specify the tones and tone characteristics that should cause the TAPI Server to generate a tone event.
 old-location: tapi3\itdetecttone.htm
 tech.root: Tapi
 ms.assetid: c03db3e2-3dc9-443f-8acf-66c06940e0b9
-
 ms.date: 12/05/2018
 ms.keywords: ITDetectTone, ITDetectTone interface [TAPI 2.2], ITDetectTone interface [TAPI 2.2],described, _tapi3_itdetecttone, tapi3.itdetecttone, tapi3if/ITDetectTone
 ms.topic: interface
-f1_keywords: 
- - "tapi3if/ITDetectTone"
+f1_keywords:
+- tapi3if/ITDetectTone
 dev_langs:
- - c++
+- c++
 req.header: tapi3if.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Tapi3.dll
+- Tapi3.dll
 api_name:
- - ITDetectTone
+- ITDetectTone
 targetos: Windows
 req.typenames: 
 req.redist: 

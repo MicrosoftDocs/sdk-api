@@ -1,19 +1,17 @@
 ---
 UID: NF:cscobj.IOfflineFilesChangeInfo.IsDeletedOffline
 title: IOfflineFilesChangeInfo::IsDeletedOffline (cscobj.h)
-
 description: Determines whether an item has been deleted from the Offline Files cache while working offline.
 old-location: of\iofflinefileschangeinfo_isdeletedoffline.htm
 tech.root: offlinefiles
 ms.assetid: c6a739f3-0c3d-46f1-8548-89be0660ef59
-
 ms.date: 12/05/2018
 ms.keywords: IOfflineFilesChangeInfo interface [Offline Files],IsDeletedOffline method, IOfflineFilesChangeInfo.IsDeletedOffline, IOfflineFilesChangeInfo::IsDeletedOffline, IsDeletedOffline, IsDeletedOffline method [Offline Files], IsDeletedOffline method [Offline Files],IOfflineFilesChangeInfo interface, cscobj/IOfflineFilesChangeInfo::IsDeletedOffline, of.iofflinefileschangeinfo_isdeletedoffline
 ms.topic: method
-f1_keywords: 
- - "cscobj/IOfflineFilesChangeInfo.IsDeletedOffline"
+f1_keywords:
+- cscobj/IOfflineFilesChangeInfo.IsDeletedOffline
 dev_langs:
- - c++
+- c++
 req.header: cscobj.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: CscSvc.dll; CscObj.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CscSvc.dll
- - CscObj.dll
+- CscSvc.dll
+- CscObj.dll
 api_name:
- - IOfflineFilesChangeInfo.IsDeletedOffline
+- IOfflineFilesChangeInfo.IsDeletedOffline
 targetos: Windows
 req.typenames: 
 req.redist: 

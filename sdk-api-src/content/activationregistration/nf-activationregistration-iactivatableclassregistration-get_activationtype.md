@@ -1,19 +1,17 @@
 ---
 UID: NF:activationregistration.IActivatableClassRegistration.get_ActivationType
 title: IActivatableClassRegistration::get_ActivationType (activationregistration.h)
-
 description: Gets the kind of activation for the current activatable class.
 old-location: winrt\iactivatableclassregistration_activationtype.htm
 tech.root: WinRT
 ms.assetid: 145DF7F2-839A-4B94-B4DC-BA2103A04D2F
-
 ms.date: 12/05/2018
 ms.keywords: IActivatableClassRegistration interface [Windows Runtime],get_ActivationType method, IActivatableClassRegistration.get_ActivationType, IActivatableClassRegistration::get_ActivationType, activationregistration/IActivatableClassRegistration::get_ActivationType, get_ActivationType, get_ActivationType method [Windows Runtime], get_ActivationType method [Windows Runtime],IActivatableClassRegistration interface, winrt.iactivatableclassregistration_activationtype
 ms.topic: method
-f1_keywords: 
- - "activationregistration/IActivatableClassRegistration.get_ActivationType"
+f1_keywords:
+- activationregistration/IActivatableClassRegistration.get_ActivationType
 dev_langs:
- - c++
+- c++
 req.header: activationregistration.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - activationregistration.h
+- activationregistration.h
 api_name:
- - IActivatableClassRegistration.get_ActivationType
+- IActivatableClassRegistration.get_ActivationType
 targetos: Windows
 req.typenames: 
 req.redist: 

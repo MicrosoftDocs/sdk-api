@@ -1,19 +1,17 @@
 ---
 UID: NF:tuner.IATSCChannelTuneRequest.put_MinorChannel
 title: IATSCChannelTuneRequest::put_MinorChannel (tuner.h)
-
 description: The put_MinorChannel method sets the minor channel to be tuned.
 old-location: mstv\iatscchanneltunerequest_put_minorchannel.htm
 tech.root: mstv
 ms.assetid: 1288d249-58de-410e-852b-233133f56da5
-
 ms.date: 12/05/2018
 ms.keywords: IATSCChannelTuneRequest interface [Microsoft TV Technologies],put_MinorChannel method, IATSCChannelTuneRequest.put_MinorChannel, IATSCChannelTuneRequest::put_MinorChannel, IATSCChannelTuneRequestput_MinorChannel, mstv.iatscchanneltunerequest_put_minorchannel, put_MinorChannel, put_MinorChannel method [Microsoft TV Technologies], put_MinorChannel method [Microsoft TV Technologies],IATSCChannelTuneRequest interface, tuner/IATSCChannelTuneRequest::put_MinorChannel
 ms.topic: method
-f1_keywords: 
- - "tuner/IATSCChannelTuneRequest.put_MinorChannel"
+f1_keywords:
+- tuner/IATSCChannelTuneRequest.put_MinorChannel
 dev_langs:
- - c++
+- c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - tuner.h
+- tuner.h
 api_name:
- - IATSCChannelTuneRequest.put_MinorChannel
+- IATSCChannelTuneRequest.put_MinorChannel
 targetos: Windows
 req.typenames: 
 req.redist: 

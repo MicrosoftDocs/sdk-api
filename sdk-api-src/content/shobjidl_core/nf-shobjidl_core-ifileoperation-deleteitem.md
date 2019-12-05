@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IFileOperation.DeleteItem
 title: IFileOperation::DeleteItem (shobjidl_core.h)
-
 description: Declares a single item that is to be deleted.
 old-location: shell\IFileOperation_DeleteItem.htm
 tech.root: shell
 ms.assetid: 177ce480-0309-4ec8-a6f2-0be9196bd2c8
-
 ms.date: 12/05/2018
 ms.keywords: DeleteItem, DeleteItem method [Windows Shell], DeleteItem method [Windows Shell],IFileOperation interface, IFileOperation interface [Windows Shell],DeleteItem method, IFileOperation.DeleteItem, IFileOperation::DeleteItem, _shell_IFileOperation_DeleteItem, shell.IFileOperation_DeleteItem, shobjidl_core/IFileOperation::DeleteItem
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IFileOperation.DeleteItem"
+f1_keywords:
+- shobjidl_core/IFileOperation.DeleteItem
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - IFileOperation.DeleteItem
+- IFileOperation.DeleteItem
 targetos: Windows
 req.typenames: 
 req.redist: 

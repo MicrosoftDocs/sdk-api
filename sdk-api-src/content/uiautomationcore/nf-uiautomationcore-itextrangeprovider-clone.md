@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationcore.ITextRangeProvider.Clone
 title: ITextRangeProvider::Clone (uiautomationcore.h)
-
 description: Returns a new ITextRangeProvider identical to the original ITextRangeProvider and inheriting all properties of the original.
 old-location: winauto\uiauto_ITextRangeProvider_Clone.htm
 tech.root: WinAuto
 ms.assetid: fe55f57b-a803-4008-adfb-b1900550d4cb
-
 ms.date: 12/05/2018
 ms.keywords: Clone, Clone method [Windows Accessibility], Clone method [Windows Accessibility],ITextRangeProvider interface, ITextRangeProvider interface [Windows Accessibility],Clone method, ITextRangeProvider.Clone, ITextRangeProvider::Clone, uiauto.uiauto_ITextRangeProvider_Clone, uiauto_ITextRangeProvider_Clone, uiautomationcore/ITextRangeProvider::Clone, winauto.uiauto_ITextRangeProvider_Clone
 ms.topic: method
-f1_keywords: 
- - "uiautomationcore/ITextRangeProvider.Clone"
+f1_keywords:
+- uiautomationcore/ITextRangeProvider.Clone
 dev_langs:
- - c++
+- c++
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationCore.h
+- UIAutomationCore.h
 api_name:
- - ITextRangeProvider.Clone
+- ITextRangeProvider.Clone
 targetos: Windows
 req.typenames: 
 req.redist: 

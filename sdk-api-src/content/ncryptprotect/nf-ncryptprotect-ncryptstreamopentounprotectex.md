@@ -1,19 +1,17 @@
 ---
 UID: NF:ncryptprotect.NCryptStreamOpenToUnprotectEx
 title: NCryptStreamOpenToUnprotectEx function (ncryptprotect.h)
-
 description: Opens a stream object that can be used to decrypt large amounts of data to the same protection descriptor used for encryption.
 old-location: security\ncryptstreamopentounprotectex.htm
 tech.root: SecCNG
 ms.assetid: 8E607F4F-4A0F-4796-8F40-D232687815AF
-
 ms.date: 12/05/2018
 ms.keywords: NCryptStreamOpenToUnprotectEx, NCryptStreamOpenToUnprotectEx function [Security], ncryptprotect/NCryptStreamOpenToUnprotectEx, security.ncryptstreamopentounprotectex
 ms.topic: function
-f1_keywords: 
- - "ncryptprotect/NCryptStreamOpenToUnprotectEx"
+f1_keywords:
+- ncryptprotect/NCryptStreamOpenToUnprotectEx
 dev_langs:
- - c++
+- c++
 req.header: ncryptprotect.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Ncrypt.lib
 req.dll: Ncrypt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - ncrypt.dll
+- ncrypt.dll
 api_name:
- - NCryptStreamOpenToUnprotectEx
+- NCryptStreamOpenToUnprotectEx
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NS:wmsdkidl._WMWriterStatistics
 title: WM_WRITER_STATISTICS (wmsdkidl.h)
-
 description: The WM_WRITER_STATISTICS structure describes the performance of a writing operation.
 old-location: wmformat\wm_writer_statistics.htm
 tech.root: wmformat
 ms.assetid: 907711c9-2ae1-4049-afd8-768912778e37
-
 ms.date: 12/05/2018
 ms.keywords: WM_WRITER_STATISTICS, WM_WRITER_STATISTICS structure [windows Media Format], wmformat.wm_writer_statistics, wmsdkidl/WM_WRITER_STATISTICS
 ms.topic: struct
-f1_keywords: 
- - "wmsdkidl/WM_WRITER_STATISTICS"
+f1_keywords:
+- wmsdkidl/WM_WRITER_STATISTICS
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wmsdkidl.h
+- Wmsdkidl.h
 api_name:
- - WM_WRITER_STATISTICS
+- WM_WRITER_STATISTICS
 targetos: Windows
 req.typenames: WM_WRITER_STATISTICS
 req.redist: 

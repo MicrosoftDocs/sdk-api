@@ -1,19 +1,17 @@
 ---
 UID: NF:werapi.WerReportCloseHandle
 title: WerReportCloseHandle function (werapi.h)
-
 description: Closes the specified report.
 old-location: wer\werreportclosehandle.htm
 tech.root: wer
 ms.assetid: b7326003-cd25-4988-9ed4-31c2e030beec
-
 ms.date: 12/05/2018
 ms.keywords: WerReportCloseHandle, WerReportCloseHandle function [Windows Error Reporting], base.werreportclosehandle, wer.werreportclosehandle, werapi/WerReportCloseHandle
 ms.topic: function
-f1_keywords: 
- - "werapi/WerReportCloseHandle"
+f1_keywords:
+- werapi/WerReportCloseHandle
 dev_langs:
- - c++
+- c++
 req.header: werapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Wer.lib
 req.dll: Wer.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Wer.dll
- - Ext-MS-Win-wer-reporting-l1-1-0.dll
- - errorhandlingext.dll
- - Ext-MS-Win-Wer-Reporting-L1-1-1.dll
+- Wer.dll
+- Ext-MS-Win-wer-reporting-l1-1-0.dll
+- errorhandlingext.dll
+- Ext-MS-Win-Wer-Reporting-L1-1-1.dll
 api_name:
- - WerReportCloseHandle
+- WerReportCloseHandle
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:mileffects.IMILBitmapEffectPrimitive.GetOutput
 title: IMILBitmapEffectPrimitive::GetOutput (mileffects.h)
-
 description: Performs pixel processing for the bitmap effect.
 old-location: wibe\_wibe_imilbitmapeffectprimitive_getoutput.htm
 tech.root: wibe
 ms.assetid: VS|wibe|~\wibelh\reference\ifaces\imilbitmapeffectprimitive\getoutput.htm
-
 ms.date: 12/05/2018
 ms.keywords: GetOutput, GetOutput method [WPF Bitmap Effects], GetOutput method [WPF Bitmap Effects],IMILBitmapEffectPrimitive interface, IMILBitmapEffectPrimitive interface [WPF Bitmap Effects],GetOutput method, IMILBitmapEffectPrimitive.GetOutput, IMILBitmapEffectPrimitive::GetOutput, _wibe_imilbitmapeffectprimitive_getoutput, mileffects/IMILBitmapEffectPrimitive::GetOutput, wibe._wibe_imilbitmapeffectprimitive_getoutput
 ms.topic: method
-f1_keywords: 
- - "mileffects/IMILBitmapEffectPrimitive.GetOutput"
+f1_keywords:
+- mileffects/IMILBitmapEffectPrimitive.GetOutput
 dev_langs:
- - c++
+- c++
 req.header: mileffects.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mileffects.h
+- Mileffects.h
 api_name:
- - IMILBitmapEffectPrimitive.GetOutput
+- IMILBitmapEffectPrimitive.GetOutput
 targetos: Windows
 req.typenames: 
 req.redist: Microsoft .Net 3.0

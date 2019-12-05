@@ -1,19 +1,17 @@
 ---
 UID: NN:xpsobjectmodel.IXpsOMGradientStop
 title: IXpsOMGradientStop (xpsobjectmodel.h)
-
 description: Represents a single color and location within a gradient.
 old-location: xps\ixpsomgradientstop.htm
 tech.root: printdocs
 ms.assetid: e115d806-70c1-4c6a-810e-e6a058628b44
-
 ms.date: 12/05/2018
 ms.keywords: IXpsOMGradientStop, IXpsOMGradientStop interface [XPS Documents and Packaging], IXpsOMGradientStop interface [XPS Documents and Packaging],described, xps.ixpsomgradientstop, xpsobjectmodel/IXpsOMGradientStop
 ms.topic: interface
-f1_keywords: 
- - "xpsobjectmodel/IXpsOMGradientStop"
+f1_keywords:
+- xpsobjectmodel/IXpsOMGradientStop
 dev_langs:
- - c++
+- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsobjectmodel.h
+- xpsobjectmodel.h
 api_name:
- - IXpsOMGradientStop
+- IXpsOMGradientStop
 targetos: Windows
 req.typenames: 
 req.redist: 

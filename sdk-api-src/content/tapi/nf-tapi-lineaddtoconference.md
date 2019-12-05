@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi.lineAddToConference
 title: lineAddToConference function (tapi.h)
-
 description: The lineAddToConference function adds the call specified by hConsultCall to the conference call specified by hConfCall.
 old-location: tapi2\lineaddtoconference.htm
 tech.root: Tapi
 ms.assetid: fbbaea96-727c-46b9-91d1-31d3f89d8ad8
-
 ms.date: 12/05/2018
-ms.keywords: "_tapi2_lineaddtoconference, lineAddToConference, lineAddToConference function [TAPI 2.2], tapi/lineAddToConference, tapi2.lineaddtoconference"
+ms.keywords: _tapi2_lineaddtoconference, lineAddToConference, lineAddToConference function [TAPI 2.2], tapi/lineAddToConference, tapi2.lineaddtoconference
 ms.topic: function
-f1_keywords: 
- - "tapi/lineAddToConference"
+f1_keywords:
+- tapi/lineAddToConference
 dev_langs:
- - c++
+- c++
 req.header: tapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Tapi32.lib
 req.dll: Tapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Tapi32.dll
+- Tapi32.dll
 api_name:
- - lineAddToConference
+- lineAddToConference
 targetos: Windows
 req.typenames: 
 req.redist: 

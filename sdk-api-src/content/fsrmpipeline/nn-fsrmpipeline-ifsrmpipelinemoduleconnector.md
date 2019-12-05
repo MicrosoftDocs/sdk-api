@@ -1,19 +1,17 @@
 ---
 UID: NN:fsrmpipeline.IFsrmPipelineModuleConnector
 title: IFsrmPipelineModuleConnector (fsrmpipeline.h)
-
 description: Creates the communication channel between FSRM and your pipeline module implementation.
 old-location: fsrm\ifsrmpipelinemoduleconnector.htm
 tech.root: fsrm
 ms.assetid: 7debbe8c-b687-42e1-b9b7-1b5f6f16a159
-
 ms.date: 12/05/2018
 ms.keywords: IFsrmPipelineModuleConnector, IFsrmPipelineModuleConnector interface [File Server Resource Manager], IFsrmPipelineModuleConnector interface [File Server Resource Manager],described, fs.ifsrmpipelinemoduleconnector, fsrm.ifsrmpipelinemoduleconnector, fsrmpipeline/IFsrmPipelineModuleConnector
 ms.topic: interface
-f1_keywords: 
- - "fsrmpipeline/IFsrmPipelineModuleConnector"
+f1_keywords:
+- fsrmpipeline/IFsrmPipelineModuleConnector
 dev_langs:
- - c++
+- c++
 req.header: fsrmpipeline.h
 req.include-header: FsrmPipeline.h, FsrmTlb.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: SrmSvc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - SrmSvc.dll
+- SrmSvc.dll
 api_name:
- - IFsrmPipelineModuleConnector
+- IFsrmPipelineModuleConnector
 targetos: Windows
 req.typenames: 
 req.redist: 

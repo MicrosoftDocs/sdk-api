@@ -1,19 +1,17 @@
 ---
 UID: NF:p2p.PeerGraphEnumNodes
 title: PeerGraphEnumNodes function (p2p.h)
-
 description: The PeerGraphEnumNodes function creates and returns an enumeration handle used to enumerate the nodes in a peer graph.
 old-location: p2p\peergraphenumnodes.htm
 tech.root: P2PSdk
 ms.assetid: 68231b0a-6002-4974-84d7-08b0629f3622
-
 ms.date: 12/05/2018
 ms.keywords: PeerGraphEnumNodes, PeerGraphEnumNodes function [Peer Networking], p2p.peergraphenumnodes, p2p/PeerGraphEnumNodes
 ms.topic: function
-f1_keywords: 
- - "p2p/PeerGraphEnumNodes"
+f1_keywords:
+- p2p/PeerGraphEnumNodes
 dev_langs:
- - c++
+- c++
 req.header: p2p.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: P2PGraph.lib
 req.dll: P2PGraph.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - P2PGraph.dll
+- P2PGraph.dll
 api_name:
- - PeerGraphEnumNodes
+- PeerGraphEnumNodes
 targetos: Windows
 req.typenames: 
 req.redist: 

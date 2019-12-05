@@ -1,19 +1,17 @@
 ---
 UID: NF:shlwapi.SHUnicodeToUnicode
 title: SHUnicodeToUnicode function (shlwapi.h)
-
 description: Copies a Unicode string.
 old-location: shell\SHUnicodeToUnicode.htm
 tech.root: shell
 ms.assetid: 1a208c2d-e627-4aac-9a28-b579c734a2a8
-
 ms.date: 12/05/2018
 ms.keywords: SHUnicodeToUnicode, SHUnicodeToUnicode function [Windows Shell], _win32_SHUnicodeToUnicode, shell.SHUnicodeToUnicode, shlwapi/SHUnicodeToUnicode
 ms.topic: function
-f1_keywords: 
- - "shlwapi/SHUnicodeToUnicode"
+f1_keywords:
+- shlwapi/SHUnicodeToUnicode
 dev_langs:
- - c++
+- c++
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib:
 req.dll: Shlwapi.dll (version 5.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Shlwapi.dll
- - API-MS-Win-DownLevel-shlwapi-l2-1-0.dll
- - ShCore.dll
- - API-MS-Win-DownLevel-shlwapi-l2-1-1.dll
- - API-MS-Win-ShCore-unicodeansi-l1-1-0.dll
+- Shlwapi.dll
+- API-MS-Win-DownLevel-shlwapi-l2-1-0.dll
+- ShCore.dll
+- API-MS-Win-DownLevel-shlwapi-l2-1-1.dll
+- API-MS-Win-ShCore-unicodeansi-l1-1-0.dll
 api_name:
- - SHUnicodeToUnicode
+- SHUnicodeToUnicode
 targetos: Windows
 req.typenames: 
 req.redist: 

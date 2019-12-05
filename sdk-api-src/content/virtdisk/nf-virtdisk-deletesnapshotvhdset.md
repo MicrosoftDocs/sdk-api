@@ -1,19 +1,17 @@
 ---
 UID: NF:virtdisk.DeleteSnapshotVhdSet
 title: DeleteSnapshotVhdSet function (virtdisk.h)
-
 description: Deletes a snapshot from a VHD Set file.
 old-location: vhd\deletesnapshotvhdset.htm
 tech.root: VStor
 ms.assetid: F6A65E00-857A-44CF-A827-747518564DAB
-
 ms.date: 12/05/2018
 ms.keywords: DeleteSnapshotVhdSet, DeleteSnapshotVhdSet function [VHD], vdssys/DeleteSnapshotVhdSet, vhd.deletesnapshotvhdset, virtdisk/DeleteSnapshotVhdSet
 ms.topic: function
-f1_keywords: 
- - "virtdisk/DeleteSnapshotVhdSet"
+f1_keywords:
+- virtdisk/DeleteSnapshotVhdSet
 dev_langs:
- - c++
+- c++
 req.header: virtdisk.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: VirtDisk.lib
 req.dll: VirtDisk.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - VirtDisk.dll
+- VirtDisk.dll
 api_name:
- - DeleteSnapshotVhdSet
+- DeleteSnapshotVhdSet
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:commctrl.TreeView_ShowInfoTip
 title: TreeView_ShowInfoTip macro (commctrl.h)
-
 description: Shows the infotip for a specified item in a tree-view control. Use this macro or send the TVM_SHOWINFOTIP message explicitly.
 old-location: controls\TreeView_ShowInfoTip.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\treeview\macros\treeview_showinfotip.htm
-
 ms.date: 12/05/2018
 ms.keywords: TreeView_ShowInfoTip, TreeView_ShowInfoTip macro [Windows Controls], _shell_TreeView_ShowInfoTip, _shell_TreeView_ShowInfoTip_cpp, commctrl/TreeView_ShowInfoTip, controls.TreeView_ShowInfoTip, controls._shell_TreeView_ShowInfoTip
 ms.topic: macro
-f1_keywords: 
- - "commctrl/TreeView_ShowInfoTip"
+f1_keywords:
+- commctrl/TreeView_ShowInfoTip
 dev_langs:
- - c++
+- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Commctrl.h
+- Commctrl.h
 api_name:
- - TreeView_ShowInfoTip
+- TreeView_ShowInfoTip
 targetos: Windows
 req.typenames: 
 req.redist: 

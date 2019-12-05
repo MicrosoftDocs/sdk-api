@@ -1,19 +1,17 @@
 ---
 UID: NF:xaudio2.IXAudio2Voice.SetOutputVoices
 title: IXAudio2Voice::SetOutputVoices (xaudio2.h)
-
 description: Designates a new set of submix or mastering voices to receive the output of the voice.
 old-location: xaudio2\ixaudio2voice_interface_setoutputvoices.htm
 tech.root: xaudio2
 ms.assetid: M:Microsoft.directx_sdk.ixaudio2voice.IXAudio2Voice.SetOutputVoices(const XAUDIO2_VOICE_SENDS)
-
 ms.date: 12/05/2018
 ms.keywords: IXAudio2Voice interface [XAudio2 Audio Mixing APIs],SetOutputVoices method, IXAudio2Voice.SetOutputVoices, IXAudio2Voice::SetOutputVoices, SetOutputVoices, SetOutputVoices method [XAudio2 Audio Mixing APIs], SetOutputVoices method [XAudio2 Audio Mixing APIs],IXAudio2Voice interface, xaudio2.ixaudio2voice_interface_setoutputvoices, xaudio2/IXAudio2Voice::SetOutputVoices
 ms.topic: method
-f1_keywords: 
- - "xaudio2/IXAudio2Voice.SetOutputVoices"
+f1_keywords:
+- xaudio2/IXAudio2Voice.SetOutputVoices
 dev_langs:
- - c++
+- c++
 req.header: xaudio2.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xaudio2.h
+- xaudio2.h
 api_name:
- - IXAudio2Voice.SetOutputVoices
+- IXAudio2Voice.SetOutputVoices
 targetos: Windows
 req.typenames: 
 req.redist: 

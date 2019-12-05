@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationTextRange.FindAttribute
 title: IUIAutomationTextRange::FindAttribute (uiautomationclient.h)
-
 description: Retrieves a text range subset that has the specified text attribute value.
 old-location: winauto\uiauto_IUIAutomationTextRange_FindAttribute.htm
 tech.root: WinAuto
 ms.assetid: 12722d22-79ca-4390-8155-61234b821256
-
 ms.date: 12/05/2018
 ms.keywords: FindAttribute, FindAttribute method [Windows Accessibility], FindAttribute method [Windows Accessibility],IUIAutomationTextRange interface, IUIAutomationTextRange interface [Windows Accessibility],FindAttribute method, IUIAutomationTextRange.FindAttribute, IUIAutomationTextRange::FindAttribute, uiauto.uiauto_IUIAutomationTextRange_FindAttribute, uiauto_IUIAutomationTextRange_FindAttribute, uiautomationclient/IUIAutomationTextRange::FindAttribute, winauto.uiauto_IUIAutomationTextRange_FindAttribute
 ms.topic: method
-f1_keywords: 
- - "uiautomationclient/IUIAutomationTextRange.FindAttribute"
+f1_keywords:
+- uiautomationclient/IUIAutomationTextRange.FindAttribute
 dev_langs:
- - c++
+- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationClient.h
+- UIAutomationClient.h
 api_name:
- - IUIAutomationTextRange.FindAttribute
+- IUIAutomationTextRange.FindAttribute
 targetos: Windows
 req.typenames: 
 req.redist: 

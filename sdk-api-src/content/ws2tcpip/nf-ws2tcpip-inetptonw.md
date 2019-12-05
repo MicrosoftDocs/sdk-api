@@ -1,19 +1,17 @@
 ---
 UID: NF:ws2tcpip.InetPtonW
 title: InetPtonW function (ws2tcpip.h)
-
 description: The InetPton function converts an IPv4 or IPv6 Internet network address in its standard text presentation form into its numeric binary form. The ANSI version of this function is inet_pton.
 old-location: winsock\inet_pton.htm
 tech.root: WinSock
 ms.assetid: d0705997-0dc7-443b-a43f-611301cc9169
-
 ms.date: 12/05/2018
 ms.keywords: AF_INET, AF_INET6, InetPton, InetPton function [Winsock], InetPtonA, InetPtonA or inet_pton, InetPtonW, inet_pton, winsock.inet_pton, ws2tcpip/InetPton, ws2tcpip/InetPtonA or inet_pton, ws2tcpip/InetPtonW
 ms.topic: function
-f1_keywords: 
- - "ws2tcpip/InetPton"
+f1_keywords:
+- ws2tcpip/InetPton
 dev_langs:
- - c++
+- c++
 req.header: ws2tcpip.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Ws2_32.lib
 req.dll: Ws2_32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ws2_32.dll
+- Ws2_32.dll
 api_name:
- - InetPton
- - InetPtonA or inet_pton
- - InetPtonW
+- InetPton
+- InetPtonA or inet_pton
+- InetPtonW
 targetos: Windows
 req.typenames: 
 req.redist: 

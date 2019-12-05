@@ -1,19 +1,17 @@
 ---
 UID: NF:evr.IEVRFilterConfig.SetNumberOfStreams
 title: IEVRFilterConfig::SetNumberOfStreams (evr.h)
-
 description: Sets the number of input pins on the EVR filter.
 old-location: mf\ievrfilterconfig_setnumberofstreams.htm
 tech.root: medfound
 ms.assetid: 72777c3d-b098-43b9-80ea-ef180b7f1a4a
-
 ms.date: 12/05/2018
 ms.keywords: 72777c3d-b098-43b9-80ea-ef180b7f1a4a, IEVRFilterConfig interface [Media Foundation],SetNumberOfStreams method, IEVRFilterConfig.SetNumberOfStreams, IEVRFilterConfig::SetNumberOfStreams, SetNumberOfStreams, SetNumberOfStreams method [Media Foundation], SetNumberOfStreams method [Media Foundation],IEVRFilterConfig interface, evr/IEVRFilterConfig::SetNumberOfStreams, mf.ievrfilterconfig_setnumberofstreams
 ms.topic: method
-f1_keywords: 
- - "evr/IEVRFilterConfig.SetNumberOfStreams"
+f1_keywords:
+- evr/IEVRFilterConfig.SetNumberOfStreams
 dev_langs:
- - c++
+- c++
 req.header: evr.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - strmiids.lib
- - strmiids.dll
+- strmiids.lib
+- strmiids.dll
 api_name:
- - IEVRFilterConfig.SetNumberOfStreams
+- IEVRFilterConfig.SetNumberOfStreams
 targetos: Windows
 req.typenames: 
 req.redist: 

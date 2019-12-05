@@ -1,19 +1,17 @@
 ---
 UID: NF:d2d1_1.ID2D1DeviceContext.IsDxgiFormatSupported
 title: ID2D1DeviceContext::IsDxgiFormatSupported (d2d1_1.h)
-
 description: Indicates whether the format is supported by the device context.
 old-location: direct2d\id2d1devicecontext_isdxgiformatsupported.htm
 tech.root: Direct2D
 ms.assetid: AA70292A-7B1C-4916-91CA-80263839BC3F
-
 ms.date: 12/05/2018
 ms.keywords: ID2D1DeviceContext interface [Direct2D],IsDxgiFormatSupported method, ID2D1DeviceContext.IsDxgiFormatSupported, ID2D1DeviceContext::IsDxgiFormatSupported, IsDxgiFormatSupported, IsDxgiFormatSupported method [Direct2D], IsDxgiFormatSupported method [Direct2D],ID2D1DeviceContext interface, d2d1_1/ID2D1DeviceContext::IsDxgiFormatSupported, direct2d.id2d1devicecontext_isdxgiformatsupported
 ms.topic: method
-f1_keywords: 
- - "d2d1_1/ID2D1DeviceContext.IsDxgiFormatSupported"
+f1_keywords:
+- d2d1_1/ID2D1DeviceContext.IsDxgiFormatSupported
 dev_langs:
- - c++
+- c++
 req.header: d2d1_1.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: D2d1.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D2d1.dll
+- D2d1.dll
 api_name:
- - ID2D1DeviceContext.IsDxgiFormatSupported
+- ID2D1DeviceContext.IsDxgiFormatSupported
 targetos: Windows
 req.typenames: 
 req.redist: 

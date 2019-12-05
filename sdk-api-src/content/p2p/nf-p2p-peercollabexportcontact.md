@@ -1,19 +1,17 @@
 ---
 UID: NF:p2p.PeerCollabExportContact
 title: PeerCollabExportContact function (p2p.h)
-
 description: Exports the contact data associated with a peer name to a string buffer. The buffer contains contact data in XML format.
 old-location: p2p\peercollabexportcontact.htm
 tech.root: P2PSdk
 ms.assetid: 8239e42f-3d86-416e-ad1b-93a37091811f
-
 ms.date: 12/05/2018
 ms.keywords: PeerCollabExportContact, PeerCollabExportContact function [Peer Networking], p2p.peercollabexportcontact, p2p/PeerCollabExportContact
 ms.topic: function
-f1_keywords: 
- - "p2p/PeerCollabExportContact"
+f1_keywords:
+- p2p/PeerCollabExportContact
 dev_langs:
- - c++
+- c++
 req.header: p2p.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: P2P.lib
 req.dll: P2P.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - P2P.dll
+- P2P.dll
 api_name:
- - PeerCollabExportContact
+- PeerCollabExportContact
 targetos: Windows
 req.typenames: 
 req.redist: 

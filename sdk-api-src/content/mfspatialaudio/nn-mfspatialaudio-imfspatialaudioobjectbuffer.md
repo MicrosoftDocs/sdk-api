@@ -1,19 +1,17 @@
 ---
 UID: NN:mfspatialaudio.IMFSpatialAudioObjectBuffer
 title: IMFSpatialAudioObjectBuffer (mfspatialaudio.h)
-
 description: Represents a section of audio data with associated positional and rendering metadata. Spatial audio objects are stored in IMFSpatialAudioSample instances, and allow passing of spatial audio information between Media Foundation components.
 old-location: mf\imfspatialaudioobjectbuffer.htm
 tech.root: medfound
 ms.assetid: 61E9BC6A-2120-4874-9053-E1D232DF1CCA
-
 ms.date: 12/05/2018
 ms.keywords: IMFSpatialAudioObjectBuffer, IMFSpatialAudioObjectBuffer interface [Media Foundation], IMFSpatialAudioObjectBuffer interface [Media Foundation],described, mf.imfspatialaudioobjectbuffer, mfspatialaudio/IMFSpatialAudioObjectBuffer
 ms.topic: interface
-f1_keywords: 
- - "mfspatialaudio/IMFSpatialAudioObjectBuffer"
+f1_keywords:
+- mfspatialaudio/IMFSpatialAudioObjectBuffer
 dev_langs:
- - c++
+- c++
 req.header: mfspatialaudio.h
 req.include-header: Mfobjects.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfobjects.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfobjects.lib
- - mfobjects.dll
+- mfobjects.lib
+- mfobjects.dll
 api_name:
- - IMFSpatialAudioObjectBuffer
+- IMFSpatialAudioObjectBuffer
 targetos: Windows
 req.typenames: 
 req.redist: 

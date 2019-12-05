@@ -1,19 +1,17 @@
 ---
 UID: NF:functiondiscoveryapi.IFunctionInstance.GetID
 title: IFunctionInstance::GetID (functiondiscoveryapi.h)
-
 description: Gets the identifier string for the function instance.
 old-location: ncd\ifunctioninstance_getid_method.htm
 tech.root: FunDisc
 ms.assetid: 8a198bc4-cdec-4d46-a1a2-3952d4dc2a7d
-
 ms.date: 12/05/2018
 ms.keywords: GetID, GetID method, GetID method,IFunctionInstance interface, IFunctionInstance interface,GetID method, IFunctionInstance.GetID, IFunctionInstance::GetID, functiondiscoveryapi/IFunctionInstance::GetID, ncd.ifunctioninstance_getid_method
 ms.topic: method
-f1_keywords: 
- - "functiondiscoveryapi/IFunctionInstance.GetID"
+f1_keywords:
+- functiondiscoveryapi/IFunctionInstance.GetID
 dev_langs:
- - c++
+- c++
 req.header: functiondiscoveryapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: FunDisc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - FunDisc.dll
+- FunDisc.dll
 api_name:
- - IFunctionInstance.GetID
+- IFunctionInstance.GetID
 targetos: Windows
 req.typenames: 
 req.redist: 

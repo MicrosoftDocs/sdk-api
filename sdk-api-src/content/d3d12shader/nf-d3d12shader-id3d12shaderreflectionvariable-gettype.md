@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d12shader.ID3D12ShaderReflectionVariable.GetType
 title: ID3D12ShaderReflectionVariable::GetType (d3d12shader.h)
-
 description: Gets a shader-variable type.
 old-location: direct3d12\id3d12shaderreflectionvariable_gettype.htm
 tech.root: direct3d12
 ms.assetid: DE2BBC9F-3519-4896-96E1-40C2E726D8A1
-
 ms.date: 12/05/2018
 ms.keywords: GetType, GetType method, GetType method,ID3D12ShaderReflectionVariable interface, ID3D12ShaderReflectionVariable interface,GetType method, ID3D12ShaderReflectionVariable.GetType, ID3D12ShaderReflectionVariable::GetType, d3d12shader/ID3D12ShaderReflectionVariable::GetType, direct3d12.id3d12shaderreflectionvariable_gettype
 ms.topic: method
-f1_keywords: 
- - "d3d12shader/ID3D12ShaderReflectionVariable.GetType"
+f1_keywords:
+- d3d12shader/ID3D12ShaderReflectionVariable.GetType
 dev_langs:
- - c++
+- c++
 req.header: d3d12shader.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - d3d12shader.h
+- d3d12shader.h
 api_name:
- - ID3D12ShaderReflectionVariable.GetType
+- ID3D12ShaderReflectionVariable.GetType
 targetos: Windows
 req.typenames: 
 req.redist: 

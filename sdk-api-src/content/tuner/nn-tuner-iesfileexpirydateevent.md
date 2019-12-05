@@ -1,19 +1,17 @@
 ---
 UID: NN:tuner.IESFileExpiryDateEvent
 title: IESFileExpiryDateEvent (tuner.h)
-
 description: Gets information from a FileExpiryDate event.
 old-location: mstv\iesfileexpirydateevent.htm
 tech.root: mstv
 ms.assetid: 6c89a3ee-7d69-4cde-b1e5-b566fa1c2ca3
-
 ms.date: 12/05/2018
 ms.keywords: IESFileExpiryDateEvent, IESFileExpiryDateEvent interface [Microsoft TV Technologies], IESFileExpiryDateEvent interface [Microsoft TV Technologies],described, mstv.iesfileexpirydateevent, tuner/IESFileExpiryDateEvent
 ms.topic: interface
-f1_keywords: 
- - "tuner/IESFileExpiryDateEvent"
+f1_keywords:
+- tuner/IESFileExpiryDateEvent
 dev_langs:
- - c++
+- c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - tuner.h
+- tuner.h
 api_name:
- - IESFileExpiryDateEvent
+- IESFileExpiryDateEvent
 targetos: Windows
 req.typenames: 
 req.redist: 

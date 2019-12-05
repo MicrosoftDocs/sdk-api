@@ -1,19 +1,17 @@
 ---
 UID: NF:segment.IMSVidVideoRendererDevices.Remove
 title: IMSVidVideoRendererDevices::Remove (segment.h)
-
 description: The Remove method removes an item from the collection.
 old-location: mstv\imsvidvideorendererdevices_remove.htm
 tech.root: mstv
 ms.assetid: 0a1d8f8b-1e62-470d-8f94-afc238755cad
-
 ms.date: 12/05/2018
 ms.keywords: IMSVidVideoRendererDevices interface [Microsoft TV Technologies],Remove method, IMSVidVideoRendererDevices.Remove, IMSVidVideoRendererDevices::Remove, IMSVidVideoRendererDevicesRemove, Remove, Remove method [Microsoft TV Technologies], Remove method [Microsoft TV Technologies],IMSVidVideoRendererDevices interface, mstv.imsvidvideorendererdevices_remove, segment/IMSVidVideoRendererDevices::Remove
 ms.topic: method
-f1_keywords: 
- - "segment/IMSVidVideoRendererDevices.Remove"
+f1_keywords:
+- segment/IMSVidVideoRendererDevices.Remove
 dev_langs:
- - c++
+- c++
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - segment.h
+- segment.h
 api_name:
- - IMSVidVideoRendererDevices.Remove
+- IMSVidVideoRendererDevices.Remove
 targetos: Windows
 req.typenames: 
 req.redist: 

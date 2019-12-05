@@ -1,19 +1,17 @@
 ---
 UID: NF:oaidl.ICreateTypeInfo2.SetHelpStringContext
 title: ICreateTypeInfo2::SetHelpStringContext (oaidl.h)
-
 description: Sets the context number for the specified Help string.
 old-location: automat\icreatetypeinfo2_sethelpstringcontext.htm
 tech.root: automat
 ms.assetid: 2f8ed63a-1cbb-4fd3-a848-aeb8123adf04
-
 ms.date: 12/05/2018
 ms.keywords: ICreateTypeInfo2 interface [Automation],SetHelpStringContext method, ICreateTypeInfo2.SetHelpStringContext, ICreateTypeInfo2::SetHelpStringContext, SetHelpStringContext, SetHelpStringContext method [Automation], SetHelpStringContext method [Automation],ICreateTypeInfo2 interface, _oa96_ICreateTypeInfo2_SetHelpStringContext, automat.icreatetypeinfo2_sethelpstringcontext, oaidl/ICreateTypeInfo2::SetHelpStringContext
 ms.topic: method
-f1_keywords: 
- - "oaidl/ICreateTypeInfo2.SetHelpStringContext"
+f1_keywords:
+- oaidl/ICreateTypeInfo2.SetHelpStringContext
 dev_langs:
- - c++
+- c++
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - oaidl.h
+- oaidl.h
 api_name:
- - ICreateTypeInfo2.SetHelpStringContext
+- ICreateTypeInfo2.SetHelpStringContext
 targetos: Windows
 req.typenames: 
 req.redist: 

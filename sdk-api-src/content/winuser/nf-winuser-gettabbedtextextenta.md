@@ -1,19 +1,17 @@
 ---
 UID: NF:winuser.GetTabbedTextExtentA
 title: GetTabbedTextExtentA function (winuser.h)
-
 description: The GetTabbedTextExtent function computes the width and height of a character string.
 old-location: gdi\gettabbedtextextent.htm
 tech.root: gdi
 ms.assetid: 3444bb8d-4a30-47d4-b211-01f7cba39975
-
 ms.date: 12/05/2018
 ms.keywords: GetTabbedTextExtent, GetTabbedTextExtent function [Windows GDI], GetTabbedTextExtentA, GetTabbedTextExtentW, _win32_GetTabbedTextExtent, gdi.gettabbedtextextent, winuser/GetTabbedTextExtent, winuser/GetTabbedTextExtentA, winuser/GetTabbedTextExtentW
 ms.topic: function
-f1_keywords: 
- - "winuser/GetTabbedTextExtent"
+f1_keywords:
+- winuser/GetTabbedTextExtent
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - user32.dll
+- user32.dll
 api_name:
- - GetTabbedTextExtent
- - GetTabbedTextExtentA
- - GetTabbedTextExtentW
+- GetTabbedTextExtent
+- GetTabbedTextExtentA
+- GetTabbedTextExtentW
 targetos: Windows
 req.typenames: 
 req.redist: 

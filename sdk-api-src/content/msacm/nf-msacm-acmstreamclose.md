@@ -1,19 +1,17 @@
 ---
 UID: NF:msacm.acmStreamClose
 title: acmStreamClose function (msacm.h)
-
 description: The acmStreamClose function closes an ACM conversion stream. If the function is successful, the handle is invalidated.
 old-location: multimedia\acmstreamclose.htm
 tech.root: Multimedia
 ms.assetid: 6ec2b90e-7103-4606-b7fb-e2320c3825ca
-
 ms.date: 12/05/2018
-ms.keywords: "_win32_acmStreamClose, acmStreamClose, acmStreamClose function [Windows Multimedia], msacm/acmStreamClose, multimedia.acmstreamclose"
+ms.keywords: _win32_acmStreamClose, acmStreamClose, acmStreamClose function [Windows Multimedia], msacm/acmStreamClose, multimedia.acmstreamclose
 ms.topic: function
-f1_keywords: 
- - "msacm/acmStreamClose"
+f1_keywords:
+- msacm/acmStreamClose
 dev_langs:
- - c++
+- c++
 req.header: msacm.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Msacm32.lib
 req.dll: Msacm32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Msacm32.dll
- - Ext-MS-Win-mm-msacm-l1-1-0.dll
+- Msacm32.dll
+- Ext-MS-Win-mm-msacm-l1-1-0.dll
 api_name:
- - acmStreamClose
+- acmStreamClose
 targetos: Windows
 req.typenames: 
 req.redist: 

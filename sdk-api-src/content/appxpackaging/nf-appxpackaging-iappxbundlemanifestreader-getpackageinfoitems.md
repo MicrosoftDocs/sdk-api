@@ -1,19 +1,17 @@
 ---
 UID: NF:appxpackaging.IAppxBundleManifestReader.GetPackageInfoItems
 title: IAppxBundleManifestReader::GetPackageInfoItems (appxpackaging.h)
-
 description: Retrieves an enumerator over all the &lt;Package&gt; elements under the &lt;Packages&gt; element.
 old-location: appxpkg\iappxbundlemanifestreader_getpackageinfoitems.htm
 tech.root: appxpkg
 ms.assetid: D216C27E-5B73-49B5-90A8-11187C129264
-
 ms.date: 12/05/2018
 ms.keywords: GetPackageInfoItems, GetPackageInfoItems method [App packaging and management], GetPackageInfoItems method [App packaging and management],IAppxBundleManifestReader interface, IAppxBundleManifestReader interface [App packaging and management],GetPackageInfoItems method, IAppxBundleManifestReader.GetPackageInfoItems, IAppxBundleManifestReader::GetPackageInfoItems, appxpackaging/IAppxBundleManifestReader::GetPackageInfoItems, appxpkg.iappxbundlemanifestreader_getpackageinfoitems
 ms.topic: method
-f1_keywords: 
- - "appxpackaging/IAppxBundleManifestReader.GetPackageInfoItems"
+f1_keywords:
+- appxpackaging/IAppxBundleManifestReader.GetPackageInfoItems
 dev_langs:
- - c++
+- c++
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - AppxPackaging.h
+- AppxPackaging.h
 api_name:
- - IAppxBundleManifestReader.GetPackageInfoItems
+- IAppxBundleManifestReader.GetPackageInfoItems
 targetos: Windows
 req.typenames: 
 req.redist: 

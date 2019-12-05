@@ -1,19 +1,17 @@
 ---
 UID: NF:amvideo.IDirectDrawVideo.GetEmulatedCaps
 title: IDirectDrawVideo::GetEmulatedCaps (amvideo.h)
-
 description: The GetEmulatedCaps method retrieves a DirectDraw-defined DDCAPS structure containing the emulated capabilities.
 old-location: dshow\idirectdrawvideo_getemulatedcaps.htm
 tech.root: DirectShow
 ms.assetid: 623cd000-6194-458d-8ef1-5eca202756c1
-
 ms.date: 12/05/2018
 ms.keywords: GetEmulatedCaps, GetEmulatedCaps method [DirectShow], GetEmulatedCaps method [DirectShow],IDirectDrawVideo interface, IDirectDrawVideo interface [DirectShow],GetEmulatedCaps method, IDirectDrawVideo.GetEmulatedCaps, IDirectDrawVideo::GetEmulatedCaps, IDirectDrawVideoGetEmulatedCaps, amvideo/IDirectDrawVideo::GetEmulatedCaps, dshow.idirectdrawvideo_getemulatedcaps
 ms.topic: method
-f1_keywords: 
- - "amvideo/IDirectDrawVideo.GetEmulatedCaps"
+f1_keywords:
+- amvideo/IDirectDrawVideo.GetEmulatedCaps
 dev_langs:
- - c++
+- c++
 req.header: amvideo.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IDirectDrawVideo.GetEmulatedCaps
+- IDirectDrawVideo.GetEmulatedCaps
 targetos: Windows
 req.typenames: 
 req.redist: 

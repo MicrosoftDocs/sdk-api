@@ -1,19 +1,17 @@
 ---
 UID: NF:mediaobj.IMediaObject.GetOutputCurrentType
 title: IMediaObject::GetOutputCurrentType (mediaobj.h)
-
 description: The GetOutputCurrentType method retrieves the media type that was set for an output stream, if any.
 old-location: dshow\imediaobject_getoutputcurrenttype.htm
 tech.root: DirectShow
 ms.assetid: f5ebcf96-d008-448e-852b-39bdf1f39c4b
-
 ms.date: 12/05/2018
 ms.keywords: GetOutputCurrentType, GetOutputCurrentType method [DirectShow], GetOutputCurrentType method [DirectShow],IMediaObject interface, IMediaObject interface [DirectShow],GetOutputCurrentType method, IMediaObject.GetOutputCurrentType, IMediaObject::GetOutputCurrentType, IMediaObjectGetOutputCurrentType, dshow.imediaobject_getoutputcurrenttype, mediaobj/IMediaObject::GetOutputCurrentType
 ms.topic: method
-f1_keywords: 
- - "mediaobj/IMediaObject.GetOutputCurrentType"
+f1_keywords:
+- mediaobj/IMediaObject.GetOutputCurrentType
 dev_langs:
- - c++
+- c++
 req.header: mediaobj.h
 req.include-header: Dmo.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Dmoguids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dmoguids.lib
- - Dmoguids.dll
+- Dmoguids.lib
+- Dmoguids.dll
 api_name:
- - IMediaObject.GetOutputCurrentType
+- IMediaObject.GetOutputCurrentType
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:winuser.GetPointerFrameTouchInfoHistory
 title: GetPointerFrameTouchInfoHistory function (winuser.h)
-
 description: Gets the entire frame of touch-based information (including coalesced input frames) for the specified pointers (of type PT_TOUCH) associated with the current message.
 old-location: inputmsg\getpointerframetouchinfohistory.htm
 tech.root: InputMsg
 ms.assetid: f2521a67-9850-46e9-bc8b-75bf5b6cc263
-
 ms.date: 12/05/2018
 ms.keywords: GetPointerFrameTouchInfoHistory, GetPointerFrameTouchInfoHistory function [Input Messages and Notifications], inputmsg.getpointerframetouchinfohistory, winuser/GetPointerFrameTouchInfoHistory
 ms.topic: function
-f1_keywords: 
- - "winuser/GetPointerFrameTouchInfoHistory"
+f1_keywords:
+- winuser/GetPointerFrameTouchInfoHistory
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,21 +30,21 @@ req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - User32.dll
- - API-MS-Win-NTUser-IE-WMPointer-l1-1-0.dll
- - ie_shims.dll
- - API-MS-Win-RTCore-NTUser-WMPointer-l1-1-0.dll
- - MinUser.dll
- - API-MS-Win-RTCore-NTUser-WMPointer-l1-1-1.dll
- - API-Ms-Win-RTCore-NTUser-WMPointer-L1-1-2.dll
- - API-MS-Win-RTCore-NTUser-WMPointer-L1-1-3.dll
+- User32.dll
+- API-MS-Win-NTUser-IE-WMPointer-l1-1-0.dll
+- ie_shims.dll
+- API-MS-Win-RTCore-NTUser-WMPointer-l1-1-0.dll
+- MinUser.dll
+- API-MS-Win-RTCore-NTUser-WMPointer-l1-1-1.dll
+- API-Ms-Win-RTCore-NTUser-WMPointer-L1-1-2.dll
+- API-MS-Win-RTCore-NTUser-WMPointer-L1-1-3.dll
 api_name:
- - GetPointerFrameTouchInfoHistory
+- GetPointerFrameTouchInfoHistory
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:wsmandisp.IWSManResourceLocator.put_MustUnderstandOptions
 title: IWSManResourceLocator::put_MustUnderstandOptions (wsmandisp.h)
-
 description: Gets or sets the MustUnderstandOptions value for the ResourceLocator object.
 old-location: winrm\iwsmanresourcelocator_mustunderstandoptions.htm
 tech.root: winrm
 ms.assetid: fff64708-faef-4f61-b569-17d9ff52dc64
-
 ms.date: 12/05/2018
 ms.keywords: IWSManResourceLocator interface [Windows Remote Management],MustUnderstandOptions property, IWSManResourceLocator.MustUnderstandOptions, IWSManResourceLocator.put_MustUnderstandOptions, IWSManResourceLocator::MustUnderstandOptions, IWSManResourceLocator::get_MustUnderstandOptions, IWSManResourceLocator::put_MustUnderstandOptions, MustUnderstandOptions property [Windows Remote Management], MustUnderstandOptions property [Windows Remote Management],IWSManResourceLocator interface, put_MustUnderstandOptions, winrm.iwsmanresourcelocator_mustunderstandoptions, wsmandisp/IWSManResourceLocator::MustUnderstandOptions, wsmandisp/IWSManResourceLocator::get_MustUnderstandOptions, wsmandisp/IWSManResourceLocator::put_MustUnderstandOptions
 ms.topic: method
-f1_keywords: 
- - "wsmandisp/IWSManResourceLocator.MustUnderstandOptions"
+f1_keywords:
+- wsmandisp/IWSManResourceLocator.MustUnderstandOptions
 dev_langs:
- - c++
+- c++
 req.header: wsmandisp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: WSManDisp.tlb
 req.dll: WSMAuto.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - WSMAuto.dll
+- WSMAuto.dll
 api_name:
- - IWSManResourceLocator.MustUnderstandOptions
- - IWSManResourceLocator.get_MustUnderstandOptions
- - IWSManResourceLocator.put_MustUnderstandOptions
+- IWSManResourceLocator.MustUnderstandOptions
+- IWSManResourceLocator.get_MustUnderstandOptions
+- IWSManResourceLocator.put_MustUnderstandOptions
 targetos: Windows
 req.typenames: 
 req.redist: 

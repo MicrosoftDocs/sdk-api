@@ -1,19 +1,17 @@
 ---
 UID: NS:winfax._FAX_COVERPAGE_INFOA
 title: FAX_COVERPAGE_INFOA (winfax.h)
-
 description: The FAX_COVERPAGE_INFO structure contains data to display on the cover page of a fax transmission. The SizeOfStruct and CoverPageName members are required; other members are optional.
 old-location: fax\_mfax_fax_coverpage_info_str.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_3zaq.htm
-
 ms.date: 12/05/2018
-ms.keywords: "*PFAX_COVERPAGE_INFOA, FAX_COVERPAGE_INFO, FAX_COVERPAGE_INFO structure [Fax Service], FAX_COVERPAGE_INFOA, FAX_COVERPAGE_INFOW, PFAX_COVERPAGE_INFO, PFAX_COVERPAGE_INFO structure pointer [Fax Service], _mfax_fax_coverpage_info_str, fax._mfax_fax_coverpage_info_str, winfax/FAX_COVERPAGE_INFO, winfax/FAX_COVERPAGE_INFOA, winfax/FAX_COVERPAGE_INFOW, winfax/PFAX_COVERPAGE_INFO"
+ms.keywords: '*PFAX_COVERPAGE_INFOA, FAX_COVERPAGE_INFO, FAX_COVERPAGE_INFO structure [Fax Service], FAX_COVERPAGE_INFOA, FAX_COVERPAGE_INFOW, PFAX_COVERPAGE_INFO, PFAX_COVERPAGE_INFO structure pointer [Fax Service], _mfax_fax_coverpage_info_str, fax._mfax_fax_coverpage_info_str, winfax/FAX_COVERPAGE_INFO, winfax/FAX_COVERPAGE_INFOA, winfax/FAX_COVERPAGE_INFOW, winfax/PFAX_COVERPAGE_INFO'
 ms.topic: struct
-f1_keywords: 
- - "winfax/FAX_COVERPAGE_INFO"
+f1_keywords:
+- winfax/FAX_COVERPAGE_INFO
 dev_langs:
- - c++
+- c++
 req.header: winfax.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Winfax.h
+- Winfax.h
 api_name:
- - FAX_COVERPAGE_INFO
- - FAX_COVERPAGE_INFOA
- - FAX_COVERPAGE_INFOW
+- FAX_COVERPAGE_INFO
+- FAX_COVERPAGE_INFOA
+- FAX_COVERPAGE_INFOW
 targetos: Windows
 req.typenames: FAX_COVERPAGE_INFOA, *PFAX_COVERPAGE_INFOA
 req.redist: 

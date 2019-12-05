@@ -1,19 +1,17 @@
 ---
 UID: NF:winbase.WTSGetActiveConsoleSessionId
 title: WTSGetActiveConsoleSessionId function (winbase.h)
-
 description: Retrieves the session identifier of the console session.
 old-location: termserv\wtsgetactiveconsolesessionid.htm
 tech.root: TermServ
 ms.assetid: 9aa43cfa-9518-428b-95a1-004fa23df90b
-
 ms.date: 12/05/2018
 ms.keywords: WTSGetActiveConsoleSessionId, WTSGetActiveConsoleSessionId function [Remote Desktop Services], _win32_wtsgetactiveconsolesessionid, termserv.wtsgetactiveconsolesessionid, winbase/WTSGetActiveConsoleSessionId
 ms.topic: function
-f1_keywords: 
- - "winbase/WTSGetActiveConsoleSessionId"
+f1_keywords:
+- winbase/WTSGetActiveConsoleSessionId
 dev_langs:
- - c++
+- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,22 +30,22 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - api-ms-win-core-kernel32-legacy-l1-1-0.dll
- - kernel32legacy.dll
- - api-ms-win-core-kernel32-legacy-l1-1-1.dll
- - api-ms-win-core-kernel32-legacy-l1-1-2.dll
- - api-ms-win-downlevel-kernel32-l2-1-0.dll
- - API-MS-Win-Core-Kernel32-Legacy-L1-1-3.dll
- - API-MS-Win-Core-Kernel32-Legacy-L1-1-4.dll
- - API-MS-Win-Core-Kernel32-Legacy-L1-1-5.dll
+- Kernel32.dll
+- api-ms-win-core-kernel32-legacy-l1-1-0.dll
+- kernel32legacy.dll
+- api-ms-win-core-kernel32-legacy-l1-1-1.dll
+- api-ms-win-core-kernel32-legacy-l1-1-2.dll
+- api-ms-win-downlevel-kernel32-l2-1-0.dll
+- API-MS-Win-Core-Kernel32-Legacy-L1-1-3.dll
+- API-MS-Win-Core-Kernel32-Legacy-L1-1-4.dll
+- API-MS-Win-Core-Kernel32-Legacy-L1-1-5.dll
 api_name:
- - WTSGetActiveConsoleSessionId
+- WTSGetActiveConsoleSessionId
 targetos: Windows
 req.typenames: 
 req.redist: 

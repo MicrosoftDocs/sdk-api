@@ -3,14 +3,13 @@ UID: NF:gdipluspath.GraphicsPath.AddArc(IN const RectF &,IN REAL,IN REAL)
 title: GraphicsPath::AddArc
 description: The GraphicsPath::AddArc method adds an elliptical arc to the current figure of this path.
 ms.assetid: 2616a8ff-8193-413b-ab7f-56c0dd82c17b
-
 ms.date: 05/13/2019
 ms.keywords: GraphicsPath::AddArc
 ms.topic: language-reference
-f1_keywords: 
- - "gdipluspath/GraphicsPath::AddArc"
+f1_keywords:
+- gdipluspath/GraphicsPath::AddArc
 dev_langs:
- - c++
+- c++
 targetos: Windows
 req.assembly: 
 req.construct-type: function
@@ -32,13 +31,13 @@ req.type-library:
 req.umdf-ver: 
 req.unicode-ansi: 
 topic_type:
- - apiref
+- apiref
 api_type:
- - COM
+- COM
 api_location:
- - gdipluspath.h
+- gdipluspath.h
 api_name:
- - GraphicsPath::AddArc
+- GraphicsPath::AddArc
 ---
 
 #  GraphicsPath::AddArc

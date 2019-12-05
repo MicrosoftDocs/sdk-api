@@ -1,19 +1,17 @@
 ---
 UID: NF:mediaobj.IMediaObject.GetInputCurrentType
 title: IMediaObject::GetInputCurrentType (mediaobj.h)
-
 description: The GetInputCurrentType method retrieves the media type that was set for an input stream, if any.
 old-location: dshow\imediaobject_getinputcurrenttype.htm
 tech.root: DirectShow
 ms.assetid: 81d5c1b8-086c-422d-b2d7-85728507888d
-
 ms.date: 12/05/2018
 ms.keywords: GetInputCurrentType, GetInputCurrentType method [DirectShow], GetInputCurrentType method [DirectShow],IMediaObject interface, IMediaObject interface [DirectShow],GetInputCurrentType method, IMediaObject.GetInputCurrentType, IMediaObject::GetInputCurrentType, IMediaObjectGetInputCurrentType, dshow.imediaobject_getinputcurrenttype, mediaobj/IMediaObject::GetInputCurrentType
 ms.topic: method
-f1_keywords: 
- - "mediaobj/IMediaObject.GetInputCurrentType"
+f1_keywords:
+- mediaobj/IMediaObject.GetInputCurrentType
 dev_langs:
- - c++
+- c++
 req.header: mediaobj.h
 req.include-header: Dmo.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Dmoguids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dmoguids.lib
- - Dmoguids.dll
+- Dmoguids.lib
+- Dmoguids.dll
 api_name:
- - IMediaObject.GetInputCurrentType
+- IMediaObject.GetInputCurrentType
 targetos: Windows
 req.typenames: 
 req.redist: 

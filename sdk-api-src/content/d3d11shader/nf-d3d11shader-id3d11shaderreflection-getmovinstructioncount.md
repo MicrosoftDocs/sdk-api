@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d11shader.ID3D11ShaderReflection.GetMovInstructionCount
 title: ID3D11ShaderReflection::GetMovInstructionCount (d3d11shader.h)
-
 description: Gets the number of Mov instructions.
 old-location: direct3d11\id3d11shaderreflection_getmovinstructioncount.htm
 tech.root: direct3d11
 ms.assetid: de12c547-90a8-48c5-911a-3b0c91001038
-
 ms.date: 12/05/2018
 ms.keywords: 20955c0b-492f-da0d-78a5-77ffb3621389, GetMovInstructionCount, GetMovInstructionCount method [Direct3D 11], GetMovInstructionCount method [Direct3D 11],ID3D11ShaderReflection interface, ID3D11ShaderReflection interface [Direct3D 11],GetMovInstructionCount method, ID3D11ShaderReflection.GetMovInstructionCount, ID3D11ShaderReflection::GetMovInstructionCount, d3d11shader/ID3D11ShaderReflection::GetMovInstructionCount, direct3d11.id3d11shaderreflection_getmovinstructioncount
 ms.topic: method
-f1_keywords: 
- - "d3d11shader/ID3D11ShaderReflection.GetMovInstructionCount"
+f1_keywords:
+- d3d11shader/ID3D11ShaderReflection.GetMovInstructionCount
 dev_langs:
- - c++
+- c++
 req.header: d3d11shader.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: D3DCompiler.lib
 req.dll: D3DCompiler_47.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3DCompiler_47.dll
+- D3DCompiler_47.dll
 api_name:
- - ID3D11ShaderReflection.GetMovInstructionCount
+- ID3D11ShaderReflection.GetMovInstructionCount
 targetos: Windows
 req.typenames: 
 req.redist: 

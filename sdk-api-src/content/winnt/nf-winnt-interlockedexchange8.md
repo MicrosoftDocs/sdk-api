@@ -1,19 +1,17 @@
 ---
 UID: NF:winnt.InterlockedExchange8
 title: InterlockedExchange8 function (winnt.h)
-
 description: Sets an 8-bit variable to the specified value as an atomic operation.
 old-location: base\interlockedexchange8.htm
 tech.root: Sync
 ms.assetid: fe07fac0-b9f2-419e-a086-09bc73125c4e
-
 ms.date: 12/05/2018
 ms.keywords: InterlockedExchange8, InterlockedExchange8 function, base.interlockedexchange8, winnt/InterlockedExchange8
 ms.topic: function
-f1_keywords: 
- - "winnt/InterlockedExchange8"
+f1_keywords:
+- winnt/InterlockedExchange8
 dev_langs:
- - c++
+- c++
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Winnt.h
+- Winnt.h
 api_name:
- - InterlockedExchange8
+- InterlockedExchange8
 targetos: Windows
 req.typenames: 
 req.redist: 

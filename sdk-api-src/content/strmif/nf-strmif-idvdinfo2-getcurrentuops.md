@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IDvdInfo2.GetCurrentUOPS
 title: IDvdInfo2::GetCurrentUOPS (strmif.h)
-
 description: The GetCurrentUOPS method retrieves a set of flags indicating which navigation commands, if any, the content authors have explicitly disabled for the current disc location.
 old-location: dshow\idvdinfo2_getcurrentuops.htm
 tech.root: DirectShow
 ms.assetid: 71ae88f0-17ad-4530-b2e7-6a8155c14a97
-
 ms.date: 12/05/2018
 ms.keywords: GetCurrentUOPS, GetCurrentUOPS method [DirectShow], GetCurrentUOPS method [DirectShow],IDvdInfo2 interface, IDvdInfo2 interface [DirectShow],GetCurrentUOPS method, IDvdInfo2.GetCurrentUOPS, IDvdInfo2::GetCurrentUOPS, IDvdInfo2GetCurrentUOPS, dshow.idvdinfo2_getcurrentuops, strmif/IDvdInfo2::GetCurrentUOPS
 ms.topic: method
-f1_keywords: 
- - "strmif/IDvdInfo2.GetCurrentUOPS"
+f1_keywords:
+- strmif/IDvdInfo2.GetCurrentUOPS
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IDvdInfo2.GetCurrentUOPS
+- IDvdInfo2.GetCurrentUOPS
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:iads.IADs.Get
 title: IADs::Get (iads.h)
-
 description: Retrieves a property of a given name from the property cache.
 old-location: adsi\iads_get.htm
 tech.root: adsi
 ms.assetid: fd6d79b6-46f8-42dd-8525-a72a6e0a7672
-
 ms.date: 12/05/2018
 ms.keywords: Get, Get method [ADSI], Get method [ADSI],IADs interface, IADs interface [ADSI],Get method, IADs.Get, IADs::Get, _ds_iads_get, adsi.iads__get, adsi.iads_get, iads/IADs::Get
 ms.topic: method
-f1_keywords: 
- - "iads/IADs.Get"
+f1_keywords:
+- iads/IADs.Get
 dev_langs:
- - c++
+- c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Activeds.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Activeds.dll
+- Activeds.dll
 api_name:
- - IADs.Get
+- IADs.Get
 targetos: Windows
 req.typenames: 
 req.redist: 

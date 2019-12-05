@@ -1,19 +1,17 @@
 ---
 UID: NN:wmp.IWMPPlayer3
 title: IWMPPlayer3 (wmp.h)
-
 description: The IWMPPlayer3 interface provides methods for modifying the basic behavior of the control user interface. These methods supplement the IWMPCore2 interface.
 old-location: wmp\iwmpplayer3.htm
 tech.root: WMP
 ms.assetid: 0d8a9414-5c5c-40e0-a34c-430ead01ef26
-
 ms.date: 12/05/2018
 ms.keywords: IWMPPlayer3, IWMPPlayer3 interface [Windows Media Player], IWMPPlayer3 interface [Windows Media Player],described, IWMPPlayer3Interface, wmp.iwmpplayer3, wmp/IWMPPlayer3
 ms.topic: interface
-f1_keywords: 
- - "wmp/IWMPPlayer3"
+f1_keywords:
+- wmp/IWMPPlayer3
 dev_langs:
- - c++
+- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmp.h
+- wmp.h
 api_name:
- - IWMPPlayer3
+- IWMPPlayer3
 targetos: Windows
 req.typenames: 
 req.redist: 

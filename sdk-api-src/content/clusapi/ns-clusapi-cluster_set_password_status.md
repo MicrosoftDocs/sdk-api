@@ -1,19 +1,17 @@
 ---
 UID: NS:clusapi.CLUSTER_SET_PASSWORD_STATUS
 title: CLUSTER_SET_PASSWORD_STATUS (clusapi.h)
-
 description: Used by the SetClusterServiceAccountPassword function to return the results of a Cluster service user account password change for each cluster node.
 old-location: mscs\cluster_set_password_status.htm
 tech.root: MsCS
 ms.assetid: a9e0e99f-b57b-4bf1-93d5-6f09d907aed1
-
 ms.date: 12/05/2018
-ms.keywords: "*PCLUSTER_SET_PASSWORD_STATUS, CLUSTER_SET_PASSWORD_STATUS, CLUSTER_SET_PASSWORD_STATUS structure [Failover Cluster], PCLUSTER_SET_PASSWORD_STATUS, PCLUSTER_SET_PASSWORD_STATUS structure pointer [Failover Cluster], _wolf_cluster_set_password_status, clusapi/CLUSTER_SET_PASSWORD_STATUS, clusapi/PCLUSTER_SET_PASSWORD_STATUS, mscs.cluster_set_password_status"
+ms.keywords: '*PCLUSTER_SET_PASSWORD_STATUS, CLUSTER_SET_PASSWORD_STATUS, CLUSTER_SET_PASSWORD_STATUS structure [Failover Cluster], PCLUSTER_SET_PASSWORD_STATUS, PCLUSTER_SET_PASSWORD_STATUS structure pointer [Failover Cluster], _wolf_cluster_set_password_status, clusapi/CLUSTER_SET_PASSWORD_STATUS, clusapi/PCLUSTER_SET_PASSWORD_STATUS, mscs.cluster_set_password_status'
 ms.topic: struct
-f1_keywords: 
- - "clusapi/CLUSTER_SET_PASSWORD_STATUS"
+f1_keywords:
+- clusapi/CLUSTER_SET_PASSWORD_STATUS
 dev_langs:
- - c++
+- c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - ClusAPI.h
+- ClusAPI.h
 api_name:
- - CLUSTER_SET_PASSWORD_STATUS
+- CLUSTER_SET_PASSWORD_STATUS
 targetos: Windows
 req.typenames: CLUSTER_SET_PASSWORD_STATUS, *PCLUSTER_SET_PASSWORD_STATUS
 req.redist: 

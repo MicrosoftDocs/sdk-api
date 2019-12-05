@@ -1,19 +1,17 @@
 ---
 UID: NF:vfw.ICDrawSuggestFormat
 title: ICDrawSuggestFormat function (vfw.h)
-
 description: The ICDrawSuggestFormat function notifies the drawing handler to suggest the input data format.
 old-location: multimedia\icdrawsuggestformat.htm
 tech.root: Multimedia
 ms.assetid: 748d09a6-52db-4bd0-9006-6ee96f07a74b
-
 ms.date: 12/05/2018
 ms.keywords: ICDrawSuggestFormat, ICDrawSuggestFormat function [Windows Multimedia], _win32_ICDrawSuggestFormat, multimedia.icdrawsuggestformat, vfw/ICDrawSuggestFormat
 ms.topic: function
-f1_keywords: 
- - "vfw/ICDrawSuggestFormat"
+f1_keywords:
+- vfw/ICDrawSuggestFormat
 dev_langs:
- - c++
+- c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Vfw.h
+- Vfw.h
 api_name:
- - ICDrawSuggestFormat
+- ICDrawSuggestFormat
 targetos: Windows
 req.typenames: 
 req.redist: 

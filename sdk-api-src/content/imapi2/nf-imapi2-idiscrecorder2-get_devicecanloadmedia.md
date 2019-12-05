@@ -1,19 +1,17 @@
 ---
 UID: NF:imapi2.IDiscRecorder2.get_DeviceCanLoadMedia
 title: IDiscRecorder2::get_DeviceCanLoadMedia (imapi2.h)
-
 description: Determines if the device can eject and subsequently reload media.
 old-location: imapi\idiscrecorder2_get_devicecanloadmedia.htm
 tech.root: imapi
 ms.assetid: aa6790aa-2999-4895-83fa-3967cb411741
-
 ms.date: 12/05/2018
 ms.keywords: IDiscRecorder2 interface [IMAPI],get_DeviceCanLoadMedia method, IDiscRecorder2.get_DeviceCanLoadMedia, IDiscRecorder2::get_DeviceCanLoadMedia, get_DeviceCanLoadMedia, get_DeviceCanLoadMedia method [IMAPI], get_DeviceCanLoadMedia method [IMAPI],IDiscRecorder2 interface, imapi.idiscrecorder2_get_devicecanloadmedia, imapi2/IDiscRecorder2::get_DeviceCanLoadMedia
 ms.topic: method
-f1_keywords: 
- - "imapi2/IDiscRecorder2.get_DeviceCanLoadMedia"
+f1_keywords:
+- imapi2/IDiscRecorder2.get_DeviceCanLoadMedia
 dev_langs:
- - c++
+- c++
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - imapi2.h
+- imapi2.h
 api_name:
- - IDiscRecorder2.get_DeviceCanLoadMedia
+- IDiscRecorder2.get_DeviceCanLoadMedia
 targetos: Windows
 req.typenames: 
 req.redist: 

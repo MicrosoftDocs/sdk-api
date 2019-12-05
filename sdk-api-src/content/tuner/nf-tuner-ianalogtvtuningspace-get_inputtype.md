@@ -1,19 +1,17 @@
 ---
 UID: NF:tuner.IAnalogTVTuningSpace.get_InputType
 title: IAnalogTVTuningSpace::get_InputType (tuner.h)
-
 description: The get_InputType method gets the input type (antenna or cable) intended for the tuning space.
 old-location: mstv\ianalogtvtuningspace_get_inputtype.htm
 tech.root: mstv
 ms.assetid: c016a61b-6b4f-4101-a357-38b8be754a57
-
 ms.date: 12/05/2018
 ms.keywords: IAnalogTVTuningSpace interface [Microsoft TV Technologies],get_InputType method, IAnalogTVTuningSpace.get_InputType, IAnalogTVTuningSpace::get_InputType, IAnalogTVTuningSpaceget_InputType, get_InputType, get_InputType method [Microsoft TV Technologies], get_InputType method [Microsoft TV Technologies],IAnalogTVTuningSpace interface, mstv.ianalogtvtuningspace_get_inputtype, tuner/IAnalogTVTuningSpace::get_InputType
 ms.topic: method
-f1_keywords: 
- - "tuner/IAnalogTVTuningSpace.get_InputType"
+f1_keywords:
+- tuner/IAnalogTVTuningSpace.get_InputType
 dev_langs:
- - c++
+- c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - tuner.h
+- tuner.h
 api_name:
- - IAnalogTVTuningSpace.get_InputType
+- IAnalogTVTuningSpace.get_InputType
 targetos: Windows
 req.typenames: 
 req.redist: 

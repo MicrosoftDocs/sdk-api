@@ -1,19 +1,17 @@
 ---
 UID: NF:oleidl.IOleObject.SetHostNames
 title: IOleObject::SetHostNames (oleidl.h)
-
 description: Provides an object with the names of its container application and the compound document in which it is embedded.
 old-location: com\ioleobject_sethostnames.htm
 tech.root: com
 ms.assetid: 38cccb3d-e198-4996-991b-6c56451d25e3
-
 ms.date: 12/05/2018
 ms.keywords: IOleObject interface [COM],SetHostNames method, IOleObject.SetHostNames, IOleObject::SetHostNames, SetHostNames, SetHostNames method [COM], SetHostNames method [COM],IOleObject interface, _ole_ioleobject_sethostnames, com.ioleobject_sethostnames, oleidl/IOleObject::SetHostNames
 ms.topic: method
-f1_keywords: 
- - "oleidl/IOleObject.SetHostNames"
+f1_keywords:
+- oleidl/IOleObject.SetHostNames
 dev_langs:
- - c++
+- c++
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - OleIdl.h
+- OleIdl.h
 api_name:
- - IOleObject.SetHostNames
+- IOleObject.SetHostNames
 targetos: Windows
 req.typenames: 
 req.redist: 

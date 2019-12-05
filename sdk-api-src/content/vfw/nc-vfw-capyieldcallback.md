@@ -1,19 +1,17 @@
 ---
 UID: NC:vfw.CAPYIELDCALLBACK
 title: CAPYIELDCALLBACK (vfw.h)
-
 description: The capYieldCallback function is the yield callback function used with video capture. The name capYieldCallback is a placeholder for the application-supplied function name.
 old-location: multimedia\capyieldcallback.htm
 tech.root: Multimedia
 ms.assetid: 4d92ab5e-5cde-4fed-a661-0458b5399c2a
-
 ms.date: 12/05/2018
-ms.keywords: "_win32_capYieldCallback, capYieldCallback, capYieldCallback callback, capYieldCallback callback function [Windows Multimedia], multimedia.capyieldcallback, vfw/capYieldCallback"
+ms.keywords: _win32_capYieldCallback, capYieldCallback, capYieldCallback callback, capYieldCallback callback function [Windows Multimedia], multimedia.capyieldcallback, vfw/capYieldCallback
 ms.topic: callback
-f1_keywords: 
- - "vfw/capYieldCallback"
+f1_keywords:
+- vfw/capYieldCallback
 dev_langs:
- - c++
+- c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Vfw.h
+- Vfw.h
 api_name:
- - capYieldCallback
+- capYieldCallback
 targetos: Windows
 req.typenames: 
 req.redist: 

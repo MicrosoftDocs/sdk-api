@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.ISharingConfigurationManager.CreateShare
 title: ISharingConfigurationManager::CreateShare (shobjidl_core.h)
-
 description: Shares the Users or Public folder. If the folder is already shared, this method updates its sharing status.
 old-location: shell\ISharingConfigurationManager_CreateShare.htm
 tech.root: shell
 ms.assetid: 81bcd470-3fb8-4c6d-af4f-6f11206fa40a
-
 ms.date: 12/05/2018
 ms.keywords: CreateShare, CreateShare method [Windows Shell], CreateShare method [Windows Shell],ISharingConfigurationManager interface, ISharingConfigurationManager interface [Windows Shell],CreateShare method, ISharingConfigurationManager.CreateShare, ISharingConfigurationManager::CreateShare, SHARE_ROLE_CO_OWNER, SHARE_ROLE_READER, _shell_ISharingConfigurationManager_CreateShare, shell.ISharingConfigurationManager_CreateShare, shobjidl_core/ISharingConfigurationManager::CreateShare
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/ISharingConfigurationManager.CreateShare"
+f1_keywords:
+- shobjidl_core/ISharingConfigurationManager.CreateShare
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - ISharingConfigurationManager.CreateShare
+- ISharingConfigurationManager.CreateShare
 targetos: Windows
 req.typenames: 
 req.redist: 

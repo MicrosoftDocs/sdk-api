@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d12.ID3D12Device.CreateRenderTargetView
 title: ID3D12Device::CreateRenderTargetView (d3d12.h)
-
 description: Creates a render-target view for accessing resource data.
 old-location: direct3d12\id3d12device_createrendertargetview.htm
 tech.root: direct3d12
 ms.assetid: B5BFAE54-4FAC-47E5-A7F1-3F9E78FED3B4
-
 ms.date: 12/05/2018
 ms.keywords: CreateRenderTargetView, CreateRenderTargetView method, CreateRenderTargetView method,ID3D12Device interface, ID3D12Device interface,CreateRenderTargetView method, ID3D12Device.CreateRenderTargetView, ID3D12Device::CreateRenderTargetView, d3d12/ID3D12Device::CreateRenderTargetView, direct3d12.id3d12device_createrendertargetview
 ms.topic: method
-f1_keywords: 
- - "d3d12/ID3D12Device.CreateRenderTargetView"
+f1_keywords:
+- d3d12/ID3D12Device.CreateRenderTargetView
 dev_langs:
- - c++
+- c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: D3D12.lib
 req.dll: D3D12.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D12.dll
+- D3D12.dll
 api_name:
- - ID3D12Device.CreateRenderTargetView
+- ID3D12Device.CreateRenderTargetView
 targetos: Windows
 req.typenames: 
 req.redist: 

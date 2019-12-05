@@ -1,19 +1,17 @@
 ---
 UID: NF:netlistmgr.INetworkListManager.GetNetworkConnection
 title: INetworkListManager::GetNetworkConnection (netlistmgr.h)
-
 description: The GetNetworkConnection method retrieves a network based on a supplied Network Connection ID.
 old-location: nla\inetworklistmanager_getnetworkconnection.htm
 tech.root: nla
 ms.assetid: d57341f1-5f73-4d6d-964f-cb80cfbedf1b
-
 ms.date: 12/05/2018
 ms.keywords: GetNetworkConnection, GetNetworkConnection method [Network Awareness], GetNetworkConnection method [Network Awareness],INetworkListManager interface, INetworkListManager interface [Network Awareness],GetNetworkConnection method, INetworkListManager.GetNetworkConnection, INetworkListManager::GetNetworkConnection, netlistmgr/INetworkListManager::GetNetworkConnection, nla.inetworklistmanager_getnetworkconnection
 ms.topic: method
-f1_keywords: 
- - "netlistmgr/INetworkListManager.GetNetworkConnection"
+f1_keywords:
+- netlistmgr/INetworkListManager.GetNetworkConnection
 dev_langs:
- - c++
+- c++
 req.header: netlistmgr.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Netlistmgr.h
+- Netlistmgr.h
 api_name:
- - INetworkListManager.GetNetworkConnection
+- INetworkListManager.GetNetworkConnection
 targetos: Windows
 req.typenames: 
 req.redist: 

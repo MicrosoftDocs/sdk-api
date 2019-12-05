@@ -1,19 +1,17 @@
 ---
 UID: NF:syncregistration.ISyncProviderRegistration.UnregisterSyncProvider
 title: ISyncProviderRegistration::UnregisterSyncProvider (syncregistration.h)
-
 description: Unregisters and removes the specified synchronization provider from the registration store.
 old-location: winsync\isyncproviderregistration_unregistersyncprovider.htm
 tech.root: winsync
 ms.assetid: d5b651b2-a0a5-404f-afbe-3256bf52f25f
-
 ms.date: 12/05/2018
 ms.keywords: ISyncProviderRegistration interface [Windows Sync],UnregisterSyncProvider method, ISyncProviderRegistration.UnregisterSyncProvider, ISyncProviderRegistration::UnregisterSyncProvider, UnregisterSyncProvider, UnregisterSyncProvider method [Windows Sync], UnregisterSyncProvider method [Windows Sync],ISyncProviderRegistration interface, syncregistration/ISyncProviderRegistration::UnregisterSyncProvider, winsync.isyncproviderregistration_unregistersyncprovider
 ms.topic: method
-f1_keywords: 
- - "syncregistration/ISyncProviderRegistration.UnregisterSyncProvider"
+f1_keywords:
+- syncregistration/ISyncProviderRegistration.UnregisterSyncProvider
 dev_langs:
- - c++
+- c++
 req.header: syncregistration.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Syncregistration.h
+- Syncregistration.h
 api_name:
- - ISyncProviderRegistration.UnregisterSyncProvider
+- ISyncProviderRegistration.UnregisterSyncProvider
 targetos: Windows
 req.typenames: 
 req.redist: 

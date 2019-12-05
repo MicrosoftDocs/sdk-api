@@ -1,19 +1,17 @@
 ---
 UID: NF:rtworkq.IRtwqAsyncCallback.Invoke
 title: IRtwqAsyncCallback::Invoke (rtworkq.h)
-
 description: Called when an asynchronous operation is completed.
 old-location: base\irtwqasynccallback_invoke.htm
 tech.root: ProcThread
 ms.assetid: 1798C338-4C82-42A7-AE15-ADFD356604BD
-
 ms.date: 12/05/2018
 ms.keywords: IRtwqAsyncCallback interface,Invoke method, IRtwqAsyncCallback.Invoke, IRtwqAsyncCallback::Invoke, Invoke, Invoke method, Invoke method,IRtwqAsyncCallback interface, base.irtwqasynccallback_invoke, rtworkq/IRtwqAsyncCallback::Invoke
 ms.topic: method
-f1_keywords: 
- - "rtworkq/IRtwqAsyncCallback.Invoke"
+f1_keywords:
+- rtworkq/IRtwqAsyncCallback.Invoke
 dev_langs:
- - c++
+- c++
 req.header: rtworkq.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Rtworkq.lib
 req.dll: RTWorkQ.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - RTWorkQ.dll
+- RTWorkQ.dll
 api_name:
- - IRtwqAsyncCallback.Invoke
+- IRtwqAsyncCallback.Invoke
 targetos: Windows
 req.typenames: 
 req.redist: 

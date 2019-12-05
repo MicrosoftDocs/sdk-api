@@ -1,19 +1,17 @@
 ---
 UID: NF:shlobj_core.PickIconDlg
 title: PickIconDlg function (shlobj_core.h)
-
 description: PickIconDlg may be altered or unavailable.
 old-location: shell\PickIconDlg.htm
 tech.root: shell
 ms.assetid: 3dfcda10-26d8-495d-8c92-7ff16da098c1
-
 ms.date: 12/05/2018
 ms.keywords: PickIconDlg, PickIconDlg function [Windows Shell], _win32_PickIconDlg, shell.PickIconDlg, shlobj_core/PickIconDlg
 ms.topic: function
-f1_keywords: 
- - "shlobj_core/PickIconDlg"
+f1_keywords:
+- shlobj_core/PickIconDlg
 dev_langs:
- - c++
+- c++
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Shell32.lib
 req.dll: Shell32.dll (version 6.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Shell32.dll
- - ext-ms-win-shell-shell32-l1-2-1.dll
- - Ext-MS-Win-Shell-Shell32-L1-2-2.dll
+- Shell32.dll
+- ext-ms-win-shell-shell32-l1-2-1.dll
+- Ext-MS-Win-Shell-Shell32-L1-2-2.dll
 api_name:
- - PickIconDlg
+- PickIconDlg
 targetos: Windows
 req.typenames: 
 req.redist: 

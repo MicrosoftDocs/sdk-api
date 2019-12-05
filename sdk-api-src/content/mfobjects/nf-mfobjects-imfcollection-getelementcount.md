@@ -1,19 +1,17 @@
 ---
 UID: NF:mfobjects.IMFCollection.GetElementCount
 title: IMFCollection::GetElementCount (mfobjects.h)
-
 description: Retrieves the number of objects in the collection.
 old-location: mf\imfcollection_getelementcount.htm
 tech.root: medfound
 ms.assetid: 4bd46f66-0542-4185-b50e-163cc3b4e2f8
-
 ms.date: 12/05/2018
 ms.keywords: 4bd46f66-0542-4185-b50e-163cc3b4e2f8, GetElementCount, GetElementCount method [Media Foundation], GetElementCount method [Media Foundation],IMFCollection interface, IMFCollection interface [Media Foundation],GetElementCount method, IMFCollection.GetElementCount, IMFCollection::GetElementCount, mf.imfcollection_getelementcount, mfobjects/IMFCollection::GetElementCount
 ms.topic: method
-f1_keywords: 
- - "mfobjects/IMFCollection.GetElementCount"
+f1_keywords:
+- mfobjects/IMFCollection.GetElementCount
 dev_langs:
- - c++
+- c++
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFCollection.GetElementCount
+- IMFCollection.GetElementCount
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:imagehlp.GetImageUnusedHeaderBytes
 title: GetImageUnusedHeaderBytes function (imagehlp.h)
-
 description: Retrieves the offset and size of the part of the PE header that is currently unused.
 old-location: base\getimageunusedheaderbytes.htm
 tech.root: Debug
 ms.assetid: 4ad9c833-693b-4c19-b397-f97f166efadc
-
 ms.date: 12/05/2018
 ms.keywords: GetImageUnusedHeaderBytes, GetImageUnusedHeaderBytes function, _win32_getimageunusedheaderbytes, base.getimageunusedheaderbytes, imagehlp/GetImageUnusedHeaderBytes
 ms.topic: function
 f1_keywords:
 - imagehlp/GetImageUnusedHeaderBytes
 dev_langs:
- - c++
+- c++
 req.header: imagehlp.h
 req.include-header: 
 req.target-type: Windows

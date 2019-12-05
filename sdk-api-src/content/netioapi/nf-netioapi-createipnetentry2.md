@@ -1,19 +1,17 @@
 ---
 UID: NF:netioapi.CreateIpNetEntry2
 title: CreateIpNetEntry2 function (netioapi.h)
-
 description: Creates a new neighbor IP address entry on the local computer.
 old-location: iphlp\createipnetentry2.htm
 tech.root: IpHlp
 ms.assetid: ca92b9f8-ec3c-4889-b649-f606c3920f92
-
 ms.date: 12/05/2018
 ms.keywords: CreateIpNetEntry2, CreateIpNetEntry2 function [IP Helper], iphlp.createipnetentry2, netioapi/CreateIpNetEntry2
 ms.topic: function
-f1_keywords: 
- - "netioapi/CreateIpNetEntry2"
+f1_keywords:
+- netioapi/CreateIpNetEntry2
 dev_langs:
- - c++
+- c++
 req.header: netioapi.h
 req.include-header: Iphlpapi.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Iphlpapi.lib
 req.dll: Iphlpapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Iphlpapi.dll
+- Iphlpapi.dll
 api_name:
- - CreateIpNetEntry2
+- CreateIpNetEntry2
 targetos: Windows
 req.typenames: 
 req.redist: 

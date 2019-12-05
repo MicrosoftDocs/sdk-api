@@ -1,19 +1,17 @@
 ---
 UID: NF:segment.IMSVidVideoRenderer.get_DecimateInput
 title: IMSVidVideoRenderer::get_DecimateInput (segment.h)
-
 description: The get_DecimateInput method queries whether the Video Mixing Renderer (VMR) is currently configured to decimate the video (that is, reduce the native video size) before processing it.
 old-location: mstv\imsvidvideorenderer_get_decimateinput.htm
 tech.root: mstv
 ms.assetid: 1f533b85-175b-4381-b7a9-eac0d8e313ed
-
 ms.date: 12/05/2018
 ms.keywords: IMSVidVideoRenderer interface [Microsoft TV Technologies],get_DecimateInput method, IMSVidVideoRenderer.get_DecimateInput, IMSVidVideoRenderer::get_DecimateInput, IMSVidVideoRendererget_DecimateInput, get_DecimateInput, get_DecimateInput method [Microsoft TV Technologies], get_DecimateInput method [Microsoft TV Technologies],IMSVidVideoRenderer interface, mstv.imsvidvideorenderer_get_decimateinput, segment/IMSVidVideoRenderer::get_DecimateInput
 ms.topic: method
-f1_keywords: 
- - "segment/IMSVidVideoRenderer.get_DecimateInput"
+f1_keywords:
+- segment/IMSVidVideoRenderer.get_DecimateInput
 dev_langs:
- - c++
+- c++
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - segment.h
+- segment.h
 api_name:
- - IMSVidVideoRenderer.get_DecimateInput
+- IMSVidVideoRenderer.get_DecimateInput
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:wmsdkidl.IWMIndexer.StartIndexing
 title: IWMIndexer::StartIndexing (wmsdkidl.h)
-
 description: The StartIndexing method initiates indexing.
 old-location: wmformat\iwmindexer_startindexing.htm
 tech.root: wmformat
 ms.assetid: 67dfb0df-4883-49e1-a085-0b78db3967d0
-
 ms.date: 12/05/2018
 ms.keywords: IWMIndexer interface [windows Media Format],StartIndexing method, IWMIndexer.StartIndexing, IWMIndexer::StartIndexing, IWMIndexerStartIndexing, StartIndexing, StartIndexing method [windows Media Format], StartIndexing method [windows Media Format],IWMIndexer interface, wmformat.iwmindexer_startindexing, wmsdkidl/IWMIndexer::StartIndexing
 ms.topic: method
-f1_keywords: 
- - "wmsdkidl/IWMIndexer.StartIndexing"
+f1_keywords:
+- wmsdkidl/IWMIndexer.StartIndexing
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wmvcore.lib
- - Wmvcore.dll
- - WMStubDRM.lib
- - WMStubDRM.dll
+- Wmvcore.lib
+- Wmvcore.dll
+- WMStubDRM.lib
+- WMStubDRM.dll
 api_name:
- - IWMIndexer.StartIndexing
+- IWMIndexer.StartIndexing
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:msctf.ITfCategoryMgr.RegisterCategory
 title: ITfCategoryMgr::RegisterCategory (msctf.h)
-
 description: ITfCategoryMgr::RegisterCategory method
 old-location: tsf\itfcategorymgr_registercategory.htm
 tech.root: TSF
 ms.assetid: 9e9a72a8-ea9b-4438-992c-5a7db64f7d82
-
 ms.date: 12/05/2018
 ms.keywords: ITfCategoryMgr interface [Text Services Framework],RegisterCategory method, ITfCategoryMgr.RegisterCategory, ITfCategoryMgr::RegisterCategory, RegisterCategory, RegisterCategory method [Text Services Framework], RegisterCategory method [Text Services Framework],ITfCategoryMgr interface, _tsf_itfcategorymgr_registercategory_ref, msctf/ITfCategoryMgr::RegisterCategory, tsf.itfcategorymgr_registercategory
 ms.topic: method
-f1_keywords: 
- - "msctf/ITfCategoryMgr.RegisterCategory"
+f1_keywords:
+- msctf/ITfCategoryMgr.RegisterCategory
 dev_langs:
- - c++
+- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msctf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msctf.dll
+- msctf.dll
 api_name:
- - ITfCategoryMgr.RegisterCategory
+- ITfCategoryMgr.RegisterCategory
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

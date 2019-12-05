@@ -1,19 +1,17 @@
 ---
 UID: NF:mfmp2dlna.IMFDLNASinkInit.Initialize
 title: IMFDLNASinkInit::Initialize (mfmp2dlna.h)
-
 description: Initializes the Digital Living Network Alliance (DLNA) media sink.
 old-location: mf\imfdlnasinkinit_initialize.htm
 tech.root: medfound
 ms.assetid: 48c3842c-7d88-4232-b882-363d9310ffe8
-
 ms.date: 12/05/2018
 ms.keywords: IMFDLNASinkInit interface [Media Foundation],Initialize method, IMFDLNASinkInit.Initialize, IMFDLNASinkInit::Initialize, Initialize, Initialize method [Media Foundation], Initialize method [Media Foundation],IMFDLNASinkInit interface, mf.imfdlnasinkinit_initialize, mfmp2dlna/IMFDLNASinkInit::Initialize
 ms.topic: method
-f1_keywords: 
- - "mfmp2dlna/IMFDLNASinkInit.Initialize"
+f1_keywords:
+- mfmp2dlna/IMFDLNASinkInit.Initialize
 dev_langs:
- - c++
+- c++
 req.header: mfmp2dlna.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfmp2dlna.h
+- mfmp2dlna.h
 api_name:
- - IMFDLNASinkInit.Initialize
+- IMFDLNASinkInit.Initialize
 targetos: Windows
 req.typenames: 
 req.redist: 

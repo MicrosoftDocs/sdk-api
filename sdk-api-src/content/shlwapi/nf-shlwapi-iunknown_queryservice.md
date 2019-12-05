@@ -1,19 +1,17 @@
 ---
 UID: NF:shlwapi.IUnknown_QueryService
 title: IUnknown_QueryService function (shlwapi.h)
-
 description: Retrieves an interface for a service from a specified object.
 old-location: shell\IUnknown_QueryService.htm
 tech.root: shell
 ms.assetid: 3e3f3ed0-ad36-40ef-b30c-8c85ff159f21
-
 ms.date: 12/05/2018
 ms.keywords: IUnknown_QueryService, IUnknown_QueryService function [Windows Shell], _shell_IUnknown_QueryService, shell.IUnknown_QueryService, shlwapi/IUnknown_QueryService
 ms.topic: function
-f1_keywords: 
- - "shlwapi/IUnknown_QueryService"
+f1_keywords:
+- shlwapi/IUnknown_QueryService
 dev_langs:
- - c++
+- c++
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,19 +30,19 @@ req.lib:
 req.dll: Shlwapi.dll (version 5.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Shlwapi.dll
- - API-MS-Win-shlwapi-IE-l1-1-0.dll
- - API-MS-Win-DownLevel-shlwapi-l2-1-0.dll
- - ShCore.dll
- - API-MS-Win-DownLevel-shlwapi-l2-1-1.dll
- - API-MS-Win-ShCore-comhelpers-l1-1-0.dll
+- Shlwapi.dll
+- API-MS-Win-shlwapi-IE-l1-1-0.dll
+- API-MS-Win-DownLevel-shlwapi-l2-1-0.dll
+- ShCore.dll
+- API-MS-Win-DownLevel-shlwapi-l2-1-1.dll
+- API-MS-Win-ShCore-comhelpers-l1-1-0.dll
 api_name:
- - IUnknown_QueryService
+- IUnknown_QueryService
 targetos: Windows
 req.typenames: 
 req.redist: 

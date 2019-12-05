@@ -1,19 +1,17 @@
 ---
 UID: NF:winbase.GetNamedPipeClientComputerNameA
 title: GetNamedPipeClientComputerNameA function (winbase.h)
-
 description: Retrieves the client computer name for the specified named pipe.
 old-location: base\getnamedpipeclientcomputername.htm
 tech.root: ipc
 ms.assetid: 8daa97fe-0ef7-4ada-a99c-aff487ad27e5
-
 ms.date: 12/05/2018
 ms.keywords: GetNamedPipeClientComputerName, GetNamedPipeClientComputerName function, GetNamedPipeClientComputerNameA, GetNamedPipeClientComputerNameW, base.getnamedpipeclientcomputername, winbase/GetNamedPipeClientComputerName, winbase/GetNamedPipeClientComputerNameA, winbase/GetNamedPipeClientComputerNameW
 ms.topic: function
-f1_keywords: 
- - "winbase/GetNamedPipeClientComputerName"
+f1_keywords:
+- winbase/GetNamedPipeClientComputerName
 dev_langs:
- - c++
+- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,26 +30,26 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-NamedPipe-l1-1-0.dll
- - KernelBase.dll
- - API-MS-Win-Core-NamedPipe-l1-2-0.dll
- - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
- - MinKernelBase.dll
- - API-MS-Win-Core-NamedPipe-l1-2-1.dll
- - API-Ms-Win-Core-Namedpipe-Ansi-L1-1-0.dll
- - Kernel32Legacy.dll
- - API-MS-Win-Core-NamedPipe-Ansi-L1-1-1.dll
- - API-MS-Win-Core-NamedPipe-L1-2-2.dll
+- Kernel32.dll
+- API-MS-Win-Core-NamedPipe-l1-1-0.dll
+- KernelBase.dll
+- API-MS-Win-Core-NamedPipe-l1-2-0.dll
+- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+- MinKernelBase.dll
+- API-MS-Win-Core-NamedPipe-l1-2-1.dll
+- API-Ms-Win-Core-Namedpipe-Ansi-L1-1-0.dll
+- Kernel32Legacy.dll
+- API-MS-Win-Core-NamedPipe-Ansi-L1-1-1.dll
+- API-MS-Win-Core-NamedPipe-L1-2-2.dll
 api_name:
- - GetNamedPipeClientComputerName
- - GetNamedPipeClientComputerNameA
- - GetNamedPipeClientComputerNameW
+- GetNamedPipeClientComputerName
+- GetNamedPipeClientComputerNameA
+- GetNamedPipeClientComputerNameW
 targetos: Windows
 req.typenames: 
 req.redist: 

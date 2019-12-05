@@ -1,19 +1,17 @@
 ---
 UID: NF:spatialaudiometadata.ISpatialAudioMetadataReader.ReadNextItem
 title: ISpatialAudioMetadataReader::ReadNextItem (spatialaudiometadata.h)
-
 description: Gets the number of commands and the sample offset for the metadata item being read.
 old-location: coreaudio\ispatialaudiometadatareader_readnextitem.htm
 tech.root: CoreAudio
 ms.assetid: AC1D5FD6-EFF1-410F-95C7-B13EACBED5D1
-
 ms.date: 12/05/2018
 ms.keywords: ISpatialAudioMetadataReader interface [Core Audio],ReadNextItem method, ISpatialAudioMetadataReader.ReadNextItem, ISpatialAudioMetadataReader::ReadNextItem, ReadNextItem, ReadNextItem method [Core Audio], ReadNextItem method [Core Audio],ISpatialAudioMetadataReader interface, coreaudio.ispatialaudiometadatareader_readnextitem, spatialaudiometadata/ISpatialAudioMetadataReader::ReadNextItem
 ms.topic: method
-f1_keywords: 
- - "spatialaudiometadata/ISpatialAudioMetadataReader.ReadNextItem"
+f1_keywords:
+- spatialaudiometadata/ISpatialAudioMetadataReader.ReadNextItem
 dev_langs:
- - c++
+- c++
 req.header: spatialaudiometadata.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - SpatialAudioMetadata.h
+- SpatialAudioMetadata.h
 api_name:
- - ISpatialAudioMetadataReader.ReadNextItem
+- ISpatialAudioMetadataReader.ReadNextItem
 targetos: Windows
 req.typenames: 
 req.redist: 

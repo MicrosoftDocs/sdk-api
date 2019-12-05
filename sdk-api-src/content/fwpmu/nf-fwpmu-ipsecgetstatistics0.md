@@ -1,19 +1,17 @@
 ---
 UID: NF:fwpmu.IPsecGetStatistics0
 title: IPsecGetStatistics0 function (fwpmu.h)
-
 description: Retrieves Internet Protocol Security (IPsec) statistics.
 old-location: fwp\ipsecgetstatistics0_func.htm
 tech.root: fwp
 ms.assetid: f33aad79-bc42-4f75-bc24-5d9838c02745
-
 ms.date: 12/05/2018
 ms.keywords: IPsecGetStatistics0, IPsecGetStatistics0 function [Filtering], fwp.ipsecgetstatistics0_func, fwpmu/IPsecGetStatistics0
 ms.topic: function
-f1_keywords: 
- - "fwpmu/IPsecGetStatistics0"
+f1_keywords:
+- fwpmu/IPsecGetStatistics0
 dev_langs:
- - c++
+- c++
 req.header: fwpmu.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Fwpuclnt.lib
 req.dll: Fwpuclnt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Fwpuclnt.dll
+- Fwpuclnt.dll
 api_name:
- - IPsecGetStatistics0
+- IPsecGetStatistics0
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:xinput.XInputEnable
 title: XInputEnable function (xinput.h)
-
 description: Sets the reporting state of XInput.
 old-location: xinput\xinputenable.htm
 tech.root: xinput
 ms.assetid: M:Microsoft.directx_sdk.reference.XInputEnable(BOOL)
-
 ms.date: 12/05/2018
 ms.keywords: XInputEnable, XInputEnable function [XInput Game Controller APIs], xinput.xinputenable, xinput/XInputEnable
 ms.topic: function
 f1_keywords:
 - xinput/XInputEnable
 dev_langs:
- - c++
+- c++
 req.header: xinput.h
 req.include-header: 
 req.target-type: Windows

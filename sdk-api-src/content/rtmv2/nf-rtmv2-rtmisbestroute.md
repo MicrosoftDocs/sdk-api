@@ -1,19 +1,17 @@
 ---
 UID: NF:rtmv2.RtmIsBestRoute
 title: RtmIsBestRoute function (rtmv2.h)
-
 description: The RtmIsBestRoute function returns the set of views in which the specified route is the best route to a destination.
 old-location: rras\rtmisbestroute.htm
 tech.root: RRAS
 ms.assetid: 4c4b72a8-7a6c-4216-af2d-8dee55b910af
-
 ms.date: 12/05/2018
 ms.keywords: RtmIsBestRoute, RtmIsBestRoute function [RAS], _rtmv2ref_rtmisbestroute, rras.rtmisbestroute, rtmv2/RtmIsBestRoute
 ms.topic: function
-f1_keywords: 
- - "rtmv2/RtmIsBestRoute"
+f1_keywords:
+- rtmv2/RtmIsBestRoute
 dev_langs:
- - c++
+- c++
 req.header: rtmv2.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Rtm.lib
 req.dll: Rtm.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Rtm.dll
+- Rtm.dll
 api_name:
- - RtmIsBestRoute
+- RtmIsBestRoute
 targetos: Windows
 req.typenames: 
 req.redist: 

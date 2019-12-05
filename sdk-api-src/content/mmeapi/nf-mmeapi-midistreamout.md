@@ -1,19 +1,17 @@
 ---
 UID: NF:mmeapi.midiStreamOut
 title: midiStreamOut function (mmeapi.h)
-
 description: The midiStreamOut function plays or queues a stream (buffer) of MIDI data to a MIDI output device.
 old-location: multimedia\midistreamout.htm
 tech.root: Multimedia
 ms.assetid: f2ebc646-7d8b-4fde-a6fc-2455b02d3d8b
-
 ms.date: 12/05/2018
-ms.keywords: "_win32_midiStreamOut, midiStreamOut, midiStreamOut function [Windows Multimedia], mmeapi/midiStreamOut, multimedia.midistreamout"
+ms.keywords: _win32_midiStreamOut, midiStreamOut, midiStreamOut function [Windows Multimedia], mmeapi/midiStreamOut, multimedia.midistreamout
 ms.topic: function
-f1_keywords: 
- - "mmeapi/midiStreamOut"
+f1_keywords:
+- mmeapi/midiStreamOut
 dev_langs:
- - c++
+- c++
 req.header: mmeapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Winmm.lib
 req.dll: Winmm.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Winmm.dll
- - API-MS-Win-mm-mme-l1-1-0.dll
- - winmmbase.dll
+- Winmm.dll
+- API-MS-Win-mm-mme-l1-1-0.dll
+- winmmbase.dll
 api_name:
- - midiStreamOut
+- midiStreamOut
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IShellBrowser.TranslateAcceleratorSB
 title: IShellBrowser::TranslateAcceleratorSB (shobjidl_core.h)
-
 description: Translates accelerator keystrokes intended for the browser's frame while the view is active.
 old-location: shell\IShellBrowser_TranslateAcceleratorSB.htm
 tech.root: shell
 ms.assetid: dda5c085-7199-4b83-b03e-e4c715665157
-
 ms.date: 12/05/2018
 ms.keywords: IShellBrowser interface [Windows Shell],TranslateAcceleratorSB method, IShellBrowser.TranslateAcceleratorSB, IShellBrowser::TranslateAcceleratorSB, TranslateAcceleratorSB, TranslateAcceleratorSB method [Windows Shell], TranslateAcceleratorSB method [Windows Shell],IShellBrowser interface, _win32_IShellBrowser_TranslateAcceleratorSB, shell.IShellBrowser_TranslateAcceleratorSB, shobjidl_core/IShellBrowser::TranslateAcceleratorSB
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IShellBrowser.TranslateAcceleratorSB"
+f1_keywords:
+- shobjidl_core/IShellBrowser.TranslateAcceleratorSB
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Shell32.dll (version 4.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - IShellBrowser.TranslateAcceleratorSB
+- IShellBrowser.TranslateAcceleratorSB
 targetos: Windows
 req.typenames: 
 req.redist: 

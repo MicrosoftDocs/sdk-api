@@ -1,19 +1,17 @@
 ---
 UID: NS:msime._IMESHF
 title: IMESHF (msime.h)
-
 description: The header of an opened user dictionary file. Used to get the user dictionary's properties, such as version, title, description, and copyright.
 old-location: intl\imeshf.htm
 tech.root: Intl
 ms.assetid: CFFEFEDC-F614-4DD4-B1A1-4D236339E817
-
 ms.date: 12/05/2018
 ms.keywords: IMESHF, IMESHF structure [Internationalization for Windows Applications], PIMESHF, PIMESHF structure pointer [Internationalization for Windows Applications], intl.imeshf, msime/IMESHF, msime/PIMESHF
 ms.topic: struct
-f1_keywords: 
- - "msime/IMESHF"
+f1_keywords:
+- msime/IMESHF
 dev_langs:
- - c++
+- c++
 req.header: msime.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Msime.h
+- Msime.h
 api_name:
- - IMESHF
+- IMESHF
 targetos: Windows
 req.typenames: IMESHF
 req.redist: 

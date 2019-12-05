@@ -1,19 +1,17 @@
 ---
 UID: NI:winioctl.FSCTL_IS_VOLUME_OWNED_BYCSVFS
 title: FSCTL_IS_VOLUME_OWNED_BYCSVFS
-
 description: Determines whether a volume is locked by CSVFS.
 old-location: fs\fsctl_is_volume_owned_bycsvfs.htm
 tech.root: FileIO
 ms.assetid: AA9D31DD-352C-4509-A5F3-55DC1C685E33
-
 ms.date: 12/05/2018
 ms.keywords: FSCTL_IS_VOLUME_OWNED_BYCSVFS, FSCTL_IS_VOLUME_OWNED_BYCSVFS control, FSCTL_IS_VOLUME_OWNED_BYCSVFS control code [Files], fs.fsctl_is_volume_owned_bycsvfs, winioctl/FSCTL_IS_VOLUME_OWNED_BYCSVFS
 ms.topic: ioctl
 f1_keywords:
 - winioctl/FSCTL_IS_VOLUME_OWNED_BYCSVFS
 dev_langs:
- - c++
+- c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -1,19 +1,17 @@
 ---
 UID: NF:msiquery.MsiEnumComponentCostsA
 title: MsiEnumComponentCostsA function (msiquery.h)
-
 description: The MsiEnumComponentCosts function enumerates the disk-space per drive required to install a component.
 old-location: setup\msienumcomponentcosts.htm
 tech.root: Msi
 ms.assetid: 3de3a044-2780-445b-a09f-f08ff82f91f3
-
 ms.date: 12/05/2018
 ms.keywords: MsiEnumComponentCosts, MsiEnumComponentCosts function, MsiEnumComponentCostsA, MsiEnumComponentCostsW, _msi_msienumcomponentcosts, msiquery/MsiEnumComponentCosts, msiquery/MsiEnumComponentCostsA, msiquery/MsiEnumComponentCostsW, setup.msienumcomponentcosts
 ms.topic: function
-f1_keywords: 
- - "msiquery/MsiEnumComponentCosts"
+f1_keywords:
+- msiquery/MsiEnumComponentCosts
 dev_langs:
- - c++
+- c++
 req.header: msiquery.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Msi.lib
 req.dll: Msi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Msi.dll
+- Msi.dll
 api_name:
- - MsiEnumComponentCosts
- - MsiEnumComponentCostsA
- - MsiEnumComponentCostsW
+- MsiEnumComponentCosts
+- MsiEnumComponentCostsA
+- MsiEnumComponentCostsW
 targetos: Windows
 req.typenames: 
 req.redist: 

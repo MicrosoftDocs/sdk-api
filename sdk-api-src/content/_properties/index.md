@@ -1,7 +1,6 @@
 ---
 UID: TP:properties
 ms.assetid: ad4462be-c0de-3130-918e-217804db0bf6
-
 ms.date: 01/11/2019
 ms.keywords: 
 ms.topic: portal

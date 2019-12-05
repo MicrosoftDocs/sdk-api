@@ -1,19 +1,17 @@
 ---
 UID: NF:vfw.AVIStreamPrevSampleTime
 title: AVIStreamPrevSampleTime macro (vfw.h)
-
 description: The AVIStreamPrevSampleTime macro determines the time of the nearest nonempty sample that precedes a specified time in a stream.
 old-location: multimedia\avistreamprevsampletime.htm
 tech.root: Multimedia
 ms.assetid: b116e33f-de51-4251-83be-96afceb99a69
-
 ms.date: 12/05/2018
 ms.keywords: AVIStreamPrevSampleTime, AVIStreamPrevSampleTime macro [Windows Multimedia], _win32_AVIStreamPrevSampleTime, multimedia.avistreamprevsampletime, vfw/AVIStreamPrevSampleTime
 ms.topic: macro
-f1_keywords: 
- - "vfw/AVIStreamPrevSampleTime"
+f1_keywords:
+- vfw/AVIStreamPrevSampleTime
 dev_langs:
- - c++
+- c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Vfw.h
+- Vfw.h
 api_name:
- - AVIStreamPrevSampleTime
+- AVIStreamPrevSampleTime
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:wmsdkidl.IWMHeaderInfo.GetMarker
 title: IWMHeaderInfo::GetMarker (wmsdkidl.h)
-
 description: The GetMarker method returns the name and time of a marker.
 old-location: wmformat\iwmheaderinfo_getmarker.htm
 tech.root: wmformat
 ms.assetid: ae035991-86c8-4ffc-b819-5a5ce81a980f
-
 ms.date: 12/05/2018
 ms.keywords: GetMarker, GetMarker method [windows Media Format], GetMarker method [windows Media Format],IWMHeaderInfo interface, GetMarker method [windows Media Format],IWMHeaderInfo2 interface, GetMarker method [windows Media Format],IWMHeaderInfo3 interface, IWMHeaderInfo interface [windows Media Format],GetMarker method, IWMHeaderInfo.GetMarker, IWMHeaderInfo2 interface [windows Media Format],GetMarker method, IWMHeaderInfo2::GetMarker, IWMHeaderInfo3 interface [windows Media Format],GetMarker method, IWMHeaderInfo3::GetMarker, IWMHeaderInfo::GetMarker, IWMHeaderInfoGetMarker, wmformat.iwmheaderinfo_getmarker, wmsdkidl/IWMHeaderInfo2::GetMarker, wmsdkidl/IWMHeaderInfo3::GetMarker, wmsdkidl/IWMHeaderInfo::GetMarker
 ms.topic: method
-f1_keywords: 
- - "wmsdkidl/IWMHeaderInfo.GetMarker"
+f1_keywords:
+- wmsdkidl/IWMHeaderInfo.GetMarker
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -32,20 +30,20 @@ req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wmvcore.lib
- - Wmvcore.dll
- - WMStubDRM.lib
- - WMStubDRM.dll
- - qasf.dll
+- Wmvcore.lib
+- Wmvcore.dll
+- WMStubDRM.lib
+- WMStubDRM.dll
+- qasf.dll
 api_name:
- - IWMHeaderInfo.GetMarker
- - IWMHeaderInfo2.GetMarker
- - IWMHeaderInfo3.GetMarker
+- IWMHeaderInfo.GetMarker
+- IWMHeaderInfo2.GetMarker
+- IWMHeaderInfo3.GetMarker
 targetos: Windows
 req.typenames: 
 req.redist: 

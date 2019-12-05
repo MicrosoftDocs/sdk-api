@@ -1,19 +1,17 @@
 ---
 UID: NF:gdiplusstringformat.StringFormat.SetDigitSubstitution
 title: StringFormat::SetDigitSubstitution (gdiplusstringformat.h)
-
 description: The StringFormat::SetDigitSubstitution method sets the digit substitution method and the language that corresponds to the digit substitutes.
 old-location: gdiplus\_gdiplus_CLASS_StringFormat_SetDigitSubstitution_language_substitute_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\stringformatclass\stringformatmethods\setdigitsubstitution.htm
-
 ms.date: 12/05/2018
 ms.keywords: SetDigitSubstitution, SetDigitSubstitution method [GDI+], SetDigitSubstitution method [GDI+],StringFormat class, StringFormat class [GDI+],SetDigitSubstitution method, StringFormat.SetDigitSubstitution, StringFormat::SetDigitSubstitution, _gdiplus_CLASS_StringFormat_SetDigitSubstitution_language_substitute_, gdiplus._gdiplus_CLASS_StringFormat_SetDigitSubstitution_language_substitute_
 ms.topic: method
-f1_keywords: 
- - "gdiplusstringformat/StringFormat.SetDigitSubstitution"
+f1_keywords:
+- gdiplusstringformat/StringFormat.SetDigitSubstitution
 dev_langs:
- - c++
+- c++
 req.header: gdiplusstringformat.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - StringFormat.SetDigitSubstitution
+- StringFormat.SetDigitSubstitution
 targetos: Windows
 req.typenames: 
 req.redist: 

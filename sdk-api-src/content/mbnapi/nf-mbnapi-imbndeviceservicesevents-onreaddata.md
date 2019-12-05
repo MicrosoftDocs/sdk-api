@@ -1,19 +1,17 @@
 ---
 UID: NF:mbnapi.IMbnDeviceServicesEvents.OnReadData
 title: IMbnDeviceServicesEvents::OnReadData (mbnapi.h)
-
 description: Notification for data being read from a device service data session.
 old-location: mbn\imbndeviceservicesevents_onreaddata.htm
 tech.root: mbn
 ms.assetid: 14D2A2A3-E3E0-4C8B-B4FE-F85CA1316877
-
 ms.date: 12/05/2018
 ms.keywords: IMbnDeviceServicesEvents interface [Microsoft Broadband Networks],OnReadData method, IMbnDeviceServicesEvents.OnReadData, IMbnDeviceServicesEvents::OnReadData, OnReadData, OnReadData method [Microsoft Broadband Networks], OnReadData method [Microsoft Broadband Networks],IMbnDeviceServicesEvents interface, mbn.imbndeviceservicesevents_onreaddata, mbnapi/IMbnDeviceServicesEvents::OnReadData
 ms.topic: method
-f1_keywords: 
- - "mbnapi/IMbnDeviceServicesEvents.OnReadData"
+f1_keywords:
+- mbnapi/IMbnDeviceServicesEvents.OnReadData
 dev_langs:
- - c++
+- c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mbnapi.h
+- mbnapi.h
 api_name:
- - IMbnDeviceServicesEvents.OnReadData
+- IMbnDeviceServicesEvents.OnReadData
 targetos: Windows
 req.typenames: 
 req.redist: 

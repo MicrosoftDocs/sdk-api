@@ -1,19 +1,17 @@
 ---
 UID: NF:msinkaut.IInkCollector.get_DesiredPacketDescription
 title: IInkCollector::get_DesiredPacketDescription (msinkaut.h)
-
 description: Gets or sets the desired packet description of the InkCollector.
 old-location: tablet\inkcollector_desiredpacketdescription.htm
 tech.root: tablet
 ms.assetid: 320cc215-e4e5-4196-8e1b-ca0a30d01d37
-
 ms.date: 12/05/2018
 ms.keywords: 320cc215-e4e5-4196-8e1b-ca0a30d01d37, DesiredPacketDescription property [Tablet PC], DesiredPacketDescription property [Tablet PC],IInkCollector interface, IInkCollector interface [Tablet PC],DesiredPacketDescription property, IInkCollector.DesiredPacketDescription, IInkCollector.get_DesiredPacketDescription, IInkCollector::DesiredPacketDescription, IInkCollector::get_DesiredPacketDescription, IInkCollector::put_DesiredPacketDescription, InkCollector.get_DesiredPacketDescription, InkCollector.put_DesiredPacketDescription, get_DesiredPacketDescription, msinkaut/IInkCollector::DesiredPacketDescription, msinkaut/IInkCollector::get_DesiredPacketDescription, msinkaut/IInkCollector::put_DesiredPacketDescription, put_DesiredPacketDescription, tablet.inkcollector_desiredpacketdescription
 ms.topic: method
-f1_keywords: 
- - "msinkaut/IInkCollector.DesiredPacketDescription"
+f1_keywords:
+- msinkaut/IInkCollector.DesiredPacketDescription
 dev_langs:
- - c++
+- c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows
@@ -32,19 +30,19 @@ req.lib: InkObj.dll
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - InkObj.dll
- - InkObj.dll.dll
+- InkObj.dll
+- InkObj.dll.dll
 api_name:
- - IInkCollector.DesiredPacketDescription
- - IInkCollector.get_DesiredPacketDescription
- - IInkCollector.put_DesiredPacketDescription
- - InkCollector.get_DesiredPacketDescription
- - InkCollector.put_DesiredPacketDescription
+- IInkCollector.DesiredPacketDescription
+- IInkCollector.get_DesiredPacketDescription
+- IInkCollector.put_DesiredPacketDescription
+- InkCollector.get_DesiredPacketDescription
+- InkCollector.put_DesiredPacketDescription
 targetos: Windows
 req.typenames: 
 req.redist: 

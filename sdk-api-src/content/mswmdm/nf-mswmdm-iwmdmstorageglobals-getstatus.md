@@ -1,19 +1,17 @@
 ---
 UID: NF:mswmdm.IWMDMStorageGlobals.GetStatus
 title: IWMDMStorageGlobals::GetStatus (mswmdm.h)
-
 description: The GetStatus method retrieves the current status of a storage medium.
 old-location: wmdm\iwmdmstorageglobals_getstatus.htm
 tech.root: WMDM
 ms.assetid: cfb6d233-6fc0-4589-9324-f4242798afc5
-
 ms.date: 12/05/2018
 ms.keywords: GetStatus, GetStatus method [windows Media Device Manager], GetStatus method [windows Media Device Manager],IWMDMStorageGlobals interface, IWMDMStorageGlobals interface [windows Media Device Manager],GetStatus method, IWMDMStorageGlobals.GetStatus, IWMDMStorageGlobals::GetStatus, IWMDMStorageGlobalsGetStatus, mswmdm/IWMDMStorageGlobals::GetStatus, wmdm.iwmdmstorageglobals_getstatus
 ms.topic: method
-f1_keywords: 
- - "mswmdm/IWMDMStorageGlobals.GetStatus"
+f1_keywords:
+- mswmdm/IWMDMStorageGlobals.GetStatus
 dev_langs:
- - c++
+- c++
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mssachlp.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mssachlp.lib
- - mssachlp.dll
+- mssachlp.lib
+- mssachlp.dll
 api_name:
- - IWMDMStorageGlobals.GetStatus
+- IWMDMStorageGlobals.GetStatus
 targetos: Windows
 req.typenames: 
 req.redist: 

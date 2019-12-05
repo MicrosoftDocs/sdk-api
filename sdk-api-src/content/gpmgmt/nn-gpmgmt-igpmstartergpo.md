@@ -1,19 +1,17 @@
 ---
 UID: NN:gpmgmt.IGPMStarterGPO
 title: IGPMStarterGPO (gpmgmt.h)
-
 description: The IGPMStarterGPO interface supports methods that enable you to manage Starter Group Policy Objects (GPOs) in the directory service.
 old-location: gpmc\igpmstartergpo.htm
 tech.root: gpmc
 ms.assetid: 5ce7a7b4-e1c0-4e76-98c2-41462ec4ea17
-
 ms.date: 12/05/2018
 ms.keywords: IGPMStarterGPO, IGPMStarterGPO interface [GPMC], IGPMStarterGPO interface [GPMC],described, gpmc.igpmstartergpo, gpmgmt/IGPMStarterGPO
 ms.topic: interface
-f1_keywords: 
- - "gpmgmt/IGPMStarterGPO"
+f1_keywords:
+- gpmgmt/IGPMStarterGPO
 dev_langs:
- - c++
+- c++
 req.header: gpmgmt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Gpmgmt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gpmgmt.dll
+- Gpmgmt.dll
 api_name:
- - IGPMStarterGPO
+- IGPMStarterGPO
 targetos: Windows
 req.typenames: 
 req.redist: 

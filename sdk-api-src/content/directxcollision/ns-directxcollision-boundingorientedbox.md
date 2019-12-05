@@ -1,19 +1,17 @@
 ---
 UID: NS:directxcollision.BoundingOrientedBox
 title: BoundingOrientedBox
-
 description: An oriented bounding box object.
 old-location: dxmath\boundingorientedbox.htm
 tech.root: dxmath
 ms.assetid: T:Microsoft.directx_sdk.directxmath.BoundingOrientedBox
-
 ms.date: 12/05/2018
 ms.keywords: BoundingOrientedBox, BoundingOrientedBox structure [DirectX Math Support APIs], directxcollision/BoundingOrientedBox, dxmath.boundingorientedbox
 ms.topic: struct
-f1_keywords: 
- - "directxcollision/BoundingOrientedBox"
+f1_keywords:
+- directxcollision/BoundingOrientedBox
 dev_langs:
- - c++
+- c++
 req.header: directxcollision.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - DirectXCollision.h
+- DirectXCollision.h
 api_name:
- - BoundingOrientedBox
+- BoundingOrientedBox
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:d2d1effectauthor.ID2D1EffectContext.CreateOffsetTransform
 title: ID2D1EffectContext::CreateOffsetTransform (d2d1effectauthor.h)
-
 description: Creates and returns an offset transform.
 old-location: direct2d\id2d1contextinternal_createoffsettransform.htm
 tech.root: Direct2D
 ms.assetid: A0A479F7-CB2C-4A9A-B482-2383A3A1A841
-
 ms.date: 12/05/2018
 ms.keywords: CreateOffsetTransform, CreateOffsetTransform method [Direct2D], CreateOffsetTransform method [Direct2D],ID2D1EffectContext interface, ID2D1EffectContext interface [Direct2D],CreateOffsetTransform method, ID2D1EffectContext.CreateOffsetTransform, ID2D1EffectContext::CreateOffsetTransform, d2d1effectauthor/ID2D1EffectContext::CreateOffsetTransform, direct2d.id2d1contextinternal_createoffsettransform
 ms.topic: method
-f1_keywords: 
- - "d2d1effectauthor/ID2D1EffectContext.CreateOffsetTransform"
+f1_keywords:
+- d2d1effectauthor/ID2D1EffectContext.CreateOffsetTransform
 dev_langs:
- - c++
+- c++
 req.header: d2d1effectauthor.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: D2D1.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D2D1.lib
- - D2D1.dll
+- D2D1.lib
+- D2D1.dll
 api_name:
- - ID2D1EffectContext.CreateOffsetTransform
+- ID2D1EffectContext.CreateOffsetTransform
 targetos: Windows
 req.typenames: 
 req.redist: 

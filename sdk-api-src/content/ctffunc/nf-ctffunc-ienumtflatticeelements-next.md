@@ -1,19 +1,17 @@
 ---
 UID: NF:ctffunc.IEnumTfLatticeElements.Next
 title: IEnumTfLatticeElements::Next (ctffunc.h)
-
 description: IEnumTfLatticeElements::Next method
 old-location: tsf\ienumtflatticeelements_next.htm
 tech.root: TSF
 ms.assetid: 066493c9-6597-43f4-9f65-51578af00a9b
-
 ms.date: 12/05/2018
 ms.keywords: IEnumTfLatticeElements interface [Text Services Framework],Next method, IEnumTfLatticeElements.Next, IEnumTfLatticeElements::Next, Next, Next method [Text Services Framework], Next method [Text Services Framework],IEnumTfLatticeElements interface, _tsf_ienumtflatticeelements_next_ref, ctffunc/IEnumTfLatticeElements::Next, tsf.ienumtflatticeelements_next
 ms.topic: method
-f1_keywords: 
- - "ctffunc/IEnumTfLatticeElements.Next"
+f1_keywords:
+- ctffunc/IEnumTfLatticeElements.Next
 dev_langs:
- - c++
+- c++
 req.header: ctffunc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Sptip.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Sptip.dll
+- Sptip.dll
 api_name:
- - IEnumTfLatticeElements.Next
+- IEnumTfLatticeElements.Next
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

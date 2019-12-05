@@ -1,19 +1,17 @@
 ---
 UID: NF:imapi2fs.IFsiItem.put_CreationTime
 title: IFsiItem::put_CreationTime (imapi2fs.h)
-
 description: Sets the date and time that the directory or file item was created and added to the file system image.
 old-location: imapi\ifsiitem_put_creationtime.htm
 tech.root: imapi
 ms.assetid: 242e6f68-d9bc-4881-adf3-22d7b32a1dfe
-
 ms.date: 12/05/2018
 ms.keywords: IFsiItem interface [IMAPI],put_CreationTime method, IFsiItem.put_CreationTime, IFsiItem::put_CreationTime, imapi.ifsiitem_put_creationtime, imapi2fs/IFsiItem::put_CreationTime, put_CreationTime, put_CreationTime method [IMAPI], put_CreationTime method [IMAPI],IFsiItem interface
 ms.topic: method
-f1_keywords: 
- - "imapi2fs/IFsiItem.put_CreationTime"
+f1_keywords:
+- imapi2fs/IFsiItem.put_CreationTime
 dev_langs:
- - c++
+- c++
 req.header: imapi2fs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - imapi2fs.h
+- imapi2fs.h
 api_name:
- - IFsiItem.put_CreationTime
+- IFsiItem.put_CreationTime
 targetos: Windows
 req.typenames: 
 req.redist: 

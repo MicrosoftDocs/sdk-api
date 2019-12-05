@@ -1,19 +1,17 @@
 ---
 UID: NS:wingdi.tagENUMLOGFONTW
 title: ENUMLOGFONTW (wingdi.h)
-
 description: The ENUMLOGFONT structure defines the attributes of a font, the complete name of a font, and the style of a font.
 old-location: gdi\enumlogfont.htm
 tech.root: gdi
 ms.assetid: cfae9e97-c714-40fb-88ab-95e12ea3ffa9
-
 ms.date: 12/05/2018
-ms.keywords: "*LPENUMLOGFONTW, ENUMLOGFONT, ENUMLOGFONT structure [Windows GDI], ENUMLOGFONTA, ENUMLOGFONTW, LPENUMLOGFONT, LPENUMLOGFONT structure pointer [Windows GDI], _win32_ENUMLOGFONT_str, gdi.enumlogfont, wingdi/ENUMLOGFONT, wingdi/ENUMLOGFONTA, wingdi/ENUMLOGFONTW, wingdi/LPENUMLOGFONT"
+ms.keywords: '*LPENUMLOGFONTW, ENUMLOGFONT, ENUMLOGFONT structure [Windows GDI], ENUMLOGFONTA, ENUMLOGFONTW, LPENUMLOGFONT, LPENUMLOGFONT structure pointer [Windows GDI], _win32_ENUMLOGFONT_str, gdi.enumlogfont, wingdi/ENUMLOGFONT, wingdi/ENUMLOGFONTA, wingdi/ENUMLOGFONTW, wingdi/LPENUMLOGFONT'
 ms.topic: struct
-f1_keywords: 
- - "wingdi/ENUMLOGFONT"
+f1_keywords:
+- wingdi/ENUMLOGFONT
 dev_langs:
- - c++
+- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wingdi.h
+- Wingdi.h
 api_name:
- - ENUMLOGFONT
- - ENUMLOGFONTA
- - ENUMLOGFONTW
+- ENUMLOGFONT
+- ENUMLOGFONTA
+- ENUMLOGFONTW
 targetos: Windows
 req.typenames: ENUMLOGFONTW, *LPENUMLOGFONTW
 req.redist: 

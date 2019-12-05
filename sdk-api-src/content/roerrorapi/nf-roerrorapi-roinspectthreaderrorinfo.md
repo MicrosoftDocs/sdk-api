@@ -1,19 +1,17 @@
 ---
 UID: NF:roerrorapi.RoInspectThreadErrorInfo
 title: RoInspectThreadErrorInfo function
-
 description: Gets the error object that represents the call stack at the point where the error originated.
 old-location: winrt\roinspectthreaderrorinfo.htm
 tech.root: WinRT
 ms.assetid: DE7A930A-89CD-45C0-A232-800E5A5648F8
-
 ms.date: 12/5/2018
 ms.keywords: RoInspectThreadErrorInfo, RoInspectThreadErrorInfo function [Windows Runtime], roerrorapi/RoInspectThreadErrorInfo, winrt.roinspectthreaderrorinfo
 ms.topic: function
-f1_keywords: 
- - "roerrorapi/RoInspectThreadErrorInfo"
+f1_keywords:
+- roerrorapi/RoInspectThreadErrorInfo
 dev_langs:
- - c++
+- c++
 req.header: roerrorapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: RuntimeObject.lib
 req.dll: ComBase.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - ComBase.dll
- - API-MS-Win-Core-WinRT-error-l1-1-1.dll
+- ComBase.dll
+- API-MS-Win-Core-WinRT-error-l1-1-1.dll
 api_name:
- - RoInspectThreadErrorInfo
+- RoInspectThreadErrorInfo
 targetos: Windows
 req.typenames: 
 req.redist: 

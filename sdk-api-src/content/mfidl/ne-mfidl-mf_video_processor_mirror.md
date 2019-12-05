@@ -1,19 +1,17 @@
 ---
 UID: NE:mfidl._MF_VIDEO_PROCESSOR_MIRROR
 title: MF_VIDEO_PROCESSOR_MIRROR (mfidl.h)
-
 description: Specifies how to flip a video image.
 old-location: mf\mf_video_processor_mirror.htm
 tech.root: medfound
 ms.assetid: AFD29AD7-8DC9-4834-8F8E-D062A3A19BD0
-
 ms.date: 12/05/2018
 ms.keywords: MF_VIDEO_PROCESSOR_MIRROR, MF_VIDEO_PROCESSOR_MIRROR enumeration [Media Foundation], MIRROR_HORIZONTAL, MIRROR_NONE, MIRROR_VERTICAL, mf.mf_video_processor_mirror, mfidl/MF_VIDEO_PROCESSOR_MIRROR, mfidl/MIRROR_HORIZONTAL, mfidl/MIRROR_NONE, mfidl/MIRROR_VERTICAL
 ms.topic: enum
-f1_keywords: 
- - "mfidl/MF_VIDEO_PROCESSOR_MIRROR"
+f1_keywords:
+- mfidl/MF_VIDEO_PROCESSOR_MIRROR
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - mfidl.h
+- mfidl.h
 api_name:
- - MF_VIDEO_PROCESSOR_MIRROR
+- MF_VIDEO_PROCESSOR_MIRROR
 targetos: Windows
 req.typenames: MF_VIDEO_PROCESSOR_MIRROR
 req.redist: 

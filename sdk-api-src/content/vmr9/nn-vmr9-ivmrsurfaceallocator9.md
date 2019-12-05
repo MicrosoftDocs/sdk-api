@@ -1,19 +1,17 @@
 ---
 UID: NN:vmr9.IVMRSurfaceAllocator9
 title: IVMRSurfaceAllocator9 (vmr9.h)
-
 description: The IVMRSurfaceAllocator9 interface is implemented by the default allocator-presenter for the Video Mixing Renderer Filter 9 (VMR-9).
 old-location: dshow\ivmrsurfaceallocator9.htm
 tech.root: DirectShow
 ms.assetid: dd187168-19c7-414c-a764-f180d1d310f2
-
 ms.date: 12/05/2018
 ms.keywords: IVMRSurfaceAllocator9, IVMRSurfaceAllocator9 interface [DirectShow], IVMRSurfaceAllocator9 interface [DirectShow],described, IVMRSurfaceAllocator9Interface, dshow.ivmrsurfaceallocator9, vmr9/IVMRSurfaceAllocator9
 ms.topic: interface
-f1_keywords: 
- - "vmr9/IVMRSurfaceAllocator9"
+f1_keywords:
+- vmr9/IVMRSurfaceAllocator9
 dev_langs:
- - c++
+- c++
 req.header: vmr9.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IVMRSurfaceAllocator9
+- IVMRSurfaceAllocator9
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:shdeprecated.IBrowserService2.CreateViewWindow
 title: IBrowserService2::CreateViewWindow (shdeprecated.h)
-
 description: Deprecated. Coordinates the updating of state when creating a new browser view window.
 old-location: shell\IBrowserService2_CreateViewWindow.htm
 tech.root: shell
 ms.assetid: f5e7f18b-86b3-4a30-bbb0-8c7f615c7186
-
 ms.date: 12/05/2018
 ms.keywords: CreateViewWindow, CreateViewWindow method [Windows Shell], CreateViewWindow method [Windows Shell],IBrowserService2 interface, IBrowserService2 interface [Windows Shell],CreateViewWindow method, IBrowserService2.CreateViewWindow, IBrowserService2::CreateViewWindow, shdeprecated/IBrowserService2::CreateViewWindow, shell.IBrowserService2_CreateViewWindow, zone_IBrowserService2_CreateViewWindow
 ms.topic: method
-f1_keywords: 
- - "shdeprecated/IBrowserService2.CreateViewWindow"
+f1_keywords:
+- shdeprecated/IBrowserService2.CreateViewWindow
 dev_langs:
- - c++
+- c++
 req.header: shdeprecated.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shdeprecated.h
+- Shdeprecated.h
 api_name:
- - IBrowserService2.CreateViewWindow
+- IBrowserService2.CreateViewWindow
 targetos: Windows
 req.typenames: 
 req.redist: 

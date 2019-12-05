@@ -1,19 +1,17 @@
 ---
 UID: NE:pla.__MIDL___MIDL_itf_pla_0001_0043_0012
 title: FolderActionSteps (pla.h)
-
 description: Defines the action that the data manager takes when both the age and size limits are met.
 old-location: pla\folderactionsteps.htm
 tech.root: PLA
 ms.assetid: 94d199a1-36f7-4064-a4fb-90dd26c37960
-
 ms.date: 12/05/2018
 ms.keywords: FolderActionSteps, FolderActionSteps enumeration [PLA], __MIDL___MIDL_itf_pla_0001_0043_0012, base.folderactionsteps, pla.folderactionsteps, pla/FolderActionSteps, pla/plaCreateCab, pla/plaDeleteCab, pla/plaDeleteData, pla/plaDeleteReport, pla/plaSendCab, plaCreateCab, plaDeleteCab, plaDeleteData, plaDeleteReport, plaSendCab
 ms.topic: enum
-f1_keywords: 
- - "pla/FolderActionSteps"
+f1_keywords:
+- pla/FolderActionSteps
 dev_langs:
- - c++
+- c++
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Pla.h
+- Pla.h
 api_name:
- - FolderActionSteps
+- FolderActionSteps
 targetos: Windows
 req.typenames: FolderActionSteps
 req.redist: 

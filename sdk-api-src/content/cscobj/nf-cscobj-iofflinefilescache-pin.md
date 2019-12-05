@@ -1,19 +1,17 @@
 ---
 UID: NF:cscobj.IOfflineFilesCache.Pin
 title: IOfflineFilesCache::Pin (cscobj.h)
-
 description: Pins files, directories, and network shared folders.
 old-location: of\iofflinefilescache_pin.htm
 tech.root: offlinefiles
 ms.assetid: 6005d755-5e1b-4eba-95a2-b6c9c00b1a64
-
 ms.date: 12/05/2018
 ms.keywords: IOfflineFilesCache interface [Offline Files],Pin method, IOfflineFilesCache.Pin, IOfflineFilesCache::Pin, OFFLINEFILES_PIN_CONTROL_FLAG_ASYNCPROGRESS, OFFLINEFILES_PIN_CONTROL_FLAG_BACKGROUND, OFFLINEFILES_PIN_CONTROL_FLAG_CONSOLE, OFFLINEFILES_PIN_CONTROL_FLAG_FILL, OFFLINEFILES_PIN_CONTROL_FLAG_FORALL, OFFLINEFILES_PIN_CONTROL_FLAG_FORREDIR, OFFLINEFILES_PIN_CONTROL_FLAG_FORUSER, OFFLINEFILES_PIN_CONTROL_FLAG_FORUSER_POLICY, OFFLINEFILES_PIN_CONTROL_FLAG_INTERACTIVE, OFFLINEFILES_PIN_CONTROL_FLAG_LOWPRIORITY, OFFLINEFILES_PIN_CONTROL_PINLINKTARGETS, Pin, Pin method [Offline Files], Pin method [Offline Files],IOfflineFilesCache interface, cscobj/IOfflineFilesCache::Pin, of.iofflinefilescache_pin
 ms.topic: method
-f1_keywords: 
- - "cscobj/IOfflineFilesCache.Pin"
+f1_keywords:
+- cscobj/IOfflineFilesCache.Pin
 dev_langs:
- - c++
+- c++
 req.header: cscobj.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: CscSvc.dll; CscObj.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CscSvc.dll
- - CscObj.dll
+- CscSvc.dll
+- CscObj.dll
 api_name:
- - IOfflineFilesCache.Pin
+- IOfflineFilesCache.Pin
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:stringapiset.CompareStringEx
 title: CompareStringEx function (stringapiset.h)
-
 description: Compares two Unicode (wide character) strings, for a locale specified by name.Caution  Using CompareStringEx incorrectly can compromise the security of your application.
 old-location: intl\comparestringex.htm
 tech.root: Intl
 ms.assetid: 264c67b6-848d-48ef-9bfa-4990bfa2fbf5
-
 ms.date: 12/05/2018
 ms.keywords: CompareStringEx, CompareStringEx function [Internationalization for Windows Applications], LINGUISTIC_IGNORECASE, LINGUISTIC_IGNOREDIACRITIC, NORM_IGNORECASE, NORM_IGNOREKANATYPE, NORM_IGNORENONSPACE, NORM_IGNORESYMBOLS, NORM_IGNOREWIDTH, NORM_LINGUISTIC_CASING, SORT_DIGITSASNUMBERS, SORT_STRINGSORT, _win32_CompareStringEx, _win32_CompareStringEx_cpp, intl.comparestringex, stringapiset/CompareStringEx, winui._win32_CompareStringEx
 ms.topic: function
 f1_keywords:
 - stringapiset/CompareStringEx
 dev_langs:
- - c++
+- c++
 req.header: stringapiset.h
 req.include-header: Windows.h
 req.target-type: Windows

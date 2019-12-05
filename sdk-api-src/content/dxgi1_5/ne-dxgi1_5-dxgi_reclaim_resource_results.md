@@ -1,19 +1,17 @@
 ---
 UID: NE:dxgi1_5._DXGI_RECLAIM_RESOURCE_RESULTS
 title: DXGI_RECLAIM_RESOURCE_RESULTS (dxgi1_5.h)
-
 description: Specifies result flags for the ReclaimResources1 method.
 old-location: direct3ddxgi\dxgi_reclaim_resource_results.htm
 tech.root: direct3ddxgi
 ms.assetid: AF7082A5-6280-4602-9944-EC2DFF91BBB9
-
 ms.date: 12/05/2018
 ms.keywords: DXGI_RECLAIM_RESOURCE_RESULTS, DXGI_RECLAIM_RESOURCE_RESULTS enumeration [DXGI], DXGI_RECLAIM_RESOURCE_RESULT_DISCARDED, DXGI_RECLAIM_RESOURCE_RESULT_NOT_COMMITTED, DXGI_RECLAIM_RESOURCE_RESULT_OK, direct3ddxgi.dxgi_reclaim_resource_results, dxgi1_5/DXGI_RECLAIM_RESOURCE_RESULTS, dxgi1_5/DXGI_RECLAIM_RESOURCE_RESULT_DISCARDED, dxgi1_5/DXGI_RECLAIM_RESOURCE_RESULT_NOT_COMMITTED, dxgi1_5/DXGI_RECLAIM_RESOURCE_RESULT_OK
 ms.topic: enum
-f1_keywords: 
- - "dxgi1_5/DXGI_RECLAIM_RESOURCE_RESULTS"
+f1_keywords:
+- dxgi1_5/DXGI_RECLAIM_RESOURCE_RESULTS
 dev_langs:
- - c++
+- c++
 req.header: dxgi1_5.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - dxgi1_5.h
+- dxgi1_5.h
 api_name:
- - DXGI_RECLAIM_RESOURCE_RESULTS
+- DXGI_RECLAIM_RESOURCE_RESULTS
 targetos: Windows
 req.typenames: DXGI_RECLAIM_RESOURCE_RESULTS
 req.redist: 

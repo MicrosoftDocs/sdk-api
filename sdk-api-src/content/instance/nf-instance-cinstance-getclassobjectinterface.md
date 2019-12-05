@@ -1,19 +1,17 @@
 ---
 UID: NF:instance.CInstance.GetClassObjectInterface
 title: CInstance::GetClassObjectInterface (instance.h)
-
 description: The GetClassObjectInterface method returns an IWbemClassObject interface pointer.
 old-location: wmi\cinstance_getclassobjectinterface.htm
 tech.root: WmiSdk
 ms.assetid: 2b5e5c14-c036-4ed5-8a47-9a67860e5585
-
 ms.date: 12/05/2018
-ms.keywords: "?GetClassObjectInterface@CInstance@@QAEPAUIWbemClassObject@@XZ, ?GetClassObjectInterface@CInstance@@QEAAPEAUIWbemClassObject@@XZ, CInstance interface [Windows Management Instrumentation],GetClassObjectInterface method, CInstance.GetClassObjectInterface, CInstance::GetClassObjectInterface, GetClassObjectInterface, GetClassObjectInterface method [Windows Management Instrumentation], GetClassObjectInterface method [Windows Management Instrumentation],CInstance interface, _hmm_cinstance_getclassobjectinterface, instance/CInstance::GetClassObjectInterface, wmi.cinstance_getclassobjectinterface"
+ms.keywords: ?GetClassObjectInterface@CInstance@@QAEPAUIWbemClassObject@@XZ, ?GetClassObjectInterface@CInstance@@QEAAPEAUIWbemClassObject@@XZ, CInstance interface [Windows Management Instrumentation],GetClassObjectInterface method, CInstance.GetClassObjectInterface, CInstance::GetClassObjectInterface, GetClassObjectInterface, GetClassObjectInterface method [Windows Management Instrumentation], GetClassObjectInterface method [Windows Management Instrumentation],CInstance interface, _hmm_cinstance_getclassobjectinterface, instance/CInstance::GetClassObjectInterface, wmi.cinstance_getclassobjectinterface
 ms.topic: method
-f1_keywords: 
- - "instance/CInstance.GetClassObjectInterface"
+f1_keywords:
+- instance/CInstance.GetClassObjectInterface
 dev_langs:
- - c++
+- c++
 req.header: instance.h
 req.include-header: FwCommon.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: FrameDyn.lib
 req.dll: FrameDynOS.dll; FrameDyn.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - FrameDynOS.dll
- - FrameDyn.dll
+- FrameDynOS.dll
+- FrameDyn.dll
 api_name:
- - CInstance.GetClassObjectInterface
- - ?GetClassObjectInterface@CInstance@@QAEPAUIWbemClassObject@@XZ
- - ?GetClassObjectInterface@CInstance@@QEAAPEAUIWbemClassObject@@XZ
+- CInstance.GetClassObjectInterface
+- ?GetClassObjectInterface@CInstance@@QAEPAUIWbemClassObject@@XZ
+- ?GetClassObjectInterface@CInstance@@QEAAPEAUIWbemClassObject@@XZ
 targetos: Windows
 req.typenames: 
 req.redist: 

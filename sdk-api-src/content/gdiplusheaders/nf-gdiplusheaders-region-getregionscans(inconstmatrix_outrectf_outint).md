@@ -3,14 +3,13 @@ UID: NF:gdiplusheaders.Region.GetRegionScans(IN const Matrix,OUT RectF,OUT INT)
 title: Region::GetRegionScans
 description: The Region::GetRegionScans method gets an array of rectangles that approximate this region.
 ms.assetid: 0bfb4eed-80f8-4a98-a264-1f47c60f58b8
-
 ms.date: 05/20/2019
 ms.keywords: Region::GetRegionScans
 ms.topic: language-reference
-f1_keywords: 
- - "gdiplusheaders/Region::GetRegionScans"
+f1_keywords:
+- gdiplusheaders/Region::GetRegionScans
 dev_langs:
- - c++
+- c++
 targetos: Windows
 req.assembly: 
 req.construct-type: function
@@ -32,13 +31,13 @@ req.type-library:
 req.umdf-ver: 
 req.unicode-ansi: 
 topic_type:
- - apiref
+- apiref
 api_type:
- - COM
+- COM
 api_location:
- - gdiplusheaders.h
+- gdiplusheaders.h
 api_name:
- - Region::GetRegionScans
+- Region::GetRegionScans
 ---
 
 # Region::GetRegionScans(Matrix*,RectF*,INT*)

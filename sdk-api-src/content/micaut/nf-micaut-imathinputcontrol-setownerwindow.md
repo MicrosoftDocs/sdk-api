@@ -1,19 +1,17 @@
 ---
 UID: NF:micaut.IMathInputControl.SetOwnerWindow
 title: IMathInputControl::SetOwnerWindow (micaut.h)
-
 description: Modifies the window that owns this control.
 old-location: tablet\imathinputcontrol_setownerwindow.htm
 tech.root: tablet
 ms.assetid: 2f92f731-3297-4da3-a2b9-18e1583c8b1d
-
 ms.date: 12/05/2018
 ms.keywords: IMathInputControl interface [Tablet PC],SetOwnerWindow method, IMathInputControl.SetOwnerWindow, IMathInputControl::SetOwnerWindow, SetOwnerWindow, SetOwnerWindow method [Tablet PC], SetOwnerWindow method [Tablet PC],IMathInputControl interface, micaut/IMathInputControl::SetOwnerWindow, tablet.imathinputcontrol_setownerwindow
 ms.topic: method
-f1_keywords: 
- - "micaut/IMathInputControl.SetOwnerWindow"
+f1_keywords:
+- micaut/IMathInputControl.SetOwnerWindow
 dev_langs:
- - c++
+- c++
 req.header: micaut.h
 req.include-header: Micaut.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - micaut.h
+- micaut.h
 api_name:
- - IMathInputControl.SetOwnerWindow
+- IMathInputControl.SetOwnerWindow
 targetos: Windows
 req.typenames: 
 req.redist: 

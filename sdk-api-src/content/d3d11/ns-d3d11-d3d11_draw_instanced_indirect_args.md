@@ -1,19 +1,17 @@
 ---
 UID: NS:d3d11.D3D11_DRAW_INSTANCED_INDIRECT_ARGS
 title: D3D11_DRAW_INSTANCED_INDIRECT_ARGS (d3d11.h)
-
 description: Arguments for draw instanced indirect.
 old-location: direct3d11\d3d11_draw_instanced_indirect_args.htm
 tech.root: direct3d11
 ms.assetid: B83B9D3C-3C64-4F42-A08A-4276F09DA9EC
-
 ms.date: 12/05/2018
 ms.keywords: D3D11_DRAW_INSTANCED_INDIRECT_ARGS, D3D11_DRAW_INSTANCED_INDIRECT_ARGS structure [Direct3D 11], d3d11/D3D11_DRAW_INSTANCED_INDIRECT_ARGS, direct3d11.d3d11_draw_instanced_indirect_args
 ms.topic: struct
-f1_keywords: 
- - "d3d11/D3D11_DRAW_INSTANCED_INDIRECT_ARGS"
+f1_keywords:
+- d3d11/D3D11_DRAW_INSTANCED_INDIRECT_ARGS
 dev_langs:
- - c++
+- c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - d3d11.h
+- d3d11.h
 api_name:
- - D3D11_DRAW_INSTANCED_INDIRECT_ARGS
+- D3D11_DRAW_INSTANCED_INDIRECT_ARGS
 targetos: Windows
 req.typenames: D3D11_DRAW_INSTANCED_INDIRECT_ARGS
 req.redist: 

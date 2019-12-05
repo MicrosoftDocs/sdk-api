@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d12.ID3D12GraphicsCommandList.OMSetBlendFactor
 title: ID3D12GraphicsCommandList::OMSetBlendFactor (d3d12.h)
-
 description: Sets the blend factor that modulate values for a pixel shader, render target, or both.
 old-location: direct3d12\id3d12graphicscommandlist_omsetblendfactor.htm
 tech.root: direct3d12
 ms.assetid: 344FD8B5-7225-4BEC-9D1F-C9CEDFE8C60F
-
 ms.date: 12/05/2018
 ms.keywords: ID3D12GraphicsCommandList interface,OMSetBlendFactor method, ID3D12GraphicsCommandList.OMSetBlendFactor, ID3D12GraphicsCommandList::OMSetBlendFactor, OMSetBlendFactor, OMSetBlendFactor method, OMSetBlendFactor method,ID3D12GraphicsCommandList interface, d3d12/ID3D12GraphicsCommandList::OMSetBlendFactor, direct3d12.id3d12graphicscommandlist_omsetblendfactor
 ms.topic: method
-f1_keywords: 
- - "d3d12/ID3D12GraphicsCommandList.OMSetBlendFactor"
+f1_keywords:
+- d3d12/ID3D12GraphicsCommandList.OMSetBlendFactor
 dev_langs:
- - c++
+- c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: D3d12.lib
 req.dll: D3d12.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - d3d12.dll
+- d3d12.dll
 api_name:
- - ID3D12GraphicsCommandList.OMSetBlendFactor
+- ID3D12GraphicsCommandList.OMSetBlendFactor
 targetos: Windows
 req.typenames: 
 req.redist: 

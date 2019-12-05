@@ -1,19 +1,17 @@
 ---
 UID: NF:tdh.TdhLoadManifest
 title: TdhLoadManifest function (tdh.h)
-
 description: Loads the manifest used to decode a log file.
 old-location: etw\tdhloadmanifest.htm
 tech.root: ETW
 ms.assetid: 85dfcf73-ea3a-47e2-ad1a-3891b3917ecf
-
 ms.date: 12/05/2018
 ms.keywords: TdhLoadManifest, TdhLoadManifest function [ETW], etw.tdhloadmanifest, tdh/TdhLoadManifest
 ms.topic: function
-f1_keywords: 
- - "tdh/TdhLoadManifest"
+f1_keywords:
+- tdh/TdhLoadManifest
 dev_langs:
- - c++
+- c++
 req.header: tdh.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Tdh.lib
 req.dll: Tdh.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Tdh.dll
- - API-MS-Win-Eventing-Tdh-L1-1-0.dll
- - MinTdh.dll
+- Tdh.dll
+- API-MS-Win-Eventing-Tdh-L1-1-0.dll
+- MinTdh.dll
 api_name:
- - TdhLoadManifest
+- TdhLoadManifest
 targetos: Windows
 req.typenames: 
 req.redist: 

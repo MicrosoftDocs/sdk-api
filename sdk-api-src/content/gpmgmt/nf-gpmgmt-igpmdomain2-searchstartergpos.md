@@ -1,19 +1,17 @@
 ---
 UID: NF:gpmgmt.IGPMDomain2.SearchStarterGPOs
 title: IGPMDomain2::SearchStarterGPOs (gpmgmt.h)
-
 description: Executes a search for GPMStarterGPO objects.
 old-location: gpmc\igpmdomain2_searchstartergpos.htm
 tech.root: gpmc
 ms.assetid: 30a325e8-372a-4e30-a420-10f5b6ef295d
-
 ms.date: 12/05/2018
 ms.keywords: IGPMDomain2 interface [GPMC],SearchStarterGPOs method, IGPMDomain2.SearchStarterGPOs, IGPMDomain2::SearchStarterGPOs, SearchStarterGPOs, SearchStarterGPOs method [GPMC], SearchStarterGPOs method [GPMC],IGPMDomain2 interface, gpmc.igpmdomain2_searchstartergpos, gpmgmt/IGPMDomain2::SearchStarterGPOs, starterGPODisplayName, starterGPOEffectivePermissions, starterGPOID, starterGPOPermissions
 ms.topic: method
-f1_keywords: 
- - "gpmgmt/IGPMDomain2.SearchStarterGPOs"
+f1_keywords:
+- gpmgmt/IGPMDomain2.SearchStarterGPOs
 dev_langs:
- - c++
+- c++
 req.header: gpmgmt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Gpmgmt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - gpmgmt.dll
+- gpmgmt.dll
 api_name:
- - IGPMDomain2.SearchStarterGPOs
+- IGPMDomain2.SearchStarterGPOs
 targetos: Windows
 req.typenames: 
 req.redist: 

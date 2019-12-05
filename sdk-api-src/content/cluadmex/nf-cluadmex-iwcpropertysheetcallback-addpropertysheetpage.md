@@ -1,19 +1,17 @@
 ---
 UID: NF:cluadmex.IWCPropertySheetCallback.AddPropertySheetPage
 title: IWCPropertySheetCallback::AddPropertySheetPage (cluadmex.h)
-
 description: Adds a property page to a Failover Cluster Administrator property sheet.
 old-location: mscs\iwcpropertysheetcallback_addpropertysheetpage.htm
 tech.root: MsCS
 ms.assetid: ccd87d3a-c9da-4d61-9e9b-f25a52724166
-
 ms.date: 12/05/2018
 ms.keywords: AddPropertySheetPage, AddPropertySheetPage method [Failover Cluster], AddPropertySheetPage method [Failover Cluster],IWCPropertySheetCallback interface, IWCPropertySheetCallback interface [Failover Cluster],AddPropertySheetPage method, IWCPropertySheetCallback.AddPropertySheetPage, IWCPropertySheetCallback::AddPropertySheetPage, _wolf_iwcpropertysheetcallback_addpropertysheetpage, cluadmex/IWCPropertySheetCallback::AddPropertySheetPage, mscs.iwcpropertysheetcallback_addpropertysheetpage
 ms.topic: method
-f1_keywords: 
- - "cluadmex/IWCPropertySheetCallback.AddPropertySheetPage"
+f1_keywords:
+- cluadmex/IWCPropertySheetCallback.AddPropertySheetPage
 dev_langs:
- - c++
+- c++
 req.header: cluadmex.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - cluadmex.h
+- cluadmex.h
 api_name:
- - IWCPropertySheetCallback.AddPropertySheetPage
+- IWCPropertySheetCallback.AddPropertySheetPage
 targetos: Windows
 req.typenames: 
 req.redist: 

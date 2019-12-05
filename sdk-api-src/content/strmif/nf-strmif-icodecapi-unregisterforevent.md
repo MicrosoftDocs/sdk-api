@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.ICodecAPI.UnregisterForEvent
 title: ICodecAPI::UnregisterForEvent (strmif.h)
-
 description: The UnregisterForEvent method unregisters the application for a specified encoder event.
 old-location: dshow\icodecapi_unregisterforevent.htm
 tech.root: DirectShow
 ms.assetid: d6f48379-664a-498f-8872-2272778588db
-
 ms.date: 12/05/2018
 ms.keywords: ICodecAPI interface [DirectShow],UnregisterForEvent method, ICodecAPI.UnregisterForEvent, ICodecAPI::UnregisterForEvent, ICodecAPIUnregisterForEvent, UnregisterForEvent, UnregisterForEvent method [DirectShow], UnregisterForEvent method [DirectShow],ICodecAPI interface, dshow.icodecapi_unregisterforevent, strmif/ICodecAPI::UnregisterForEvent
 ms.topic: method
-f1_keywords: 
- - "strmif/ICodecAPI.UnregisterForEvent"
+f1_keywords:
+- strmif/ICodecAPI.UnregisterForEvent
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - ICodecAPI.UnregisterForEvent
+- ICodecAPI.UnregisterForEvent
 targetos: Windows
 req.typenames: 
 req.redist: 

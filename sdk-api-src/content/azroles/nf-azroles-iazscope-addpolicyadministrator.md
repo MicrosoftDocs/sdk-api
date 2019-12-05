@@ -1,19 +1,17 @@
 ---
 UID: NF:azroles.IAzScope.AddPolicyAdministrator
 title: IAzScope::AddPolicyAdministrator (azroles.h)
-
 description: The AddPolicyAdministrator method of IAzScope adds the specified security identifier in text form to the list of principals that act as policy administrators.
 old-location: security\iazscope_addpolicyadministrator.htm
 tech.root: SecAuthZ
 ms.assetid: 7aa77615-1f12-4641-877e-87b26343db4d
-
 ms.date: 12/05/2018
 ms.keywords: AddPolicyAdministrator, AddPolicyAdministrator method [Security], AddPolicyAdministrator method [Security],AzScope object, AddPolicyAdministrator method [Security],IAzScope interface, AzScope object [Security],AddPolicyAdministrator method, IAzScope interface [Security],AddPolicyAdministrator method, IAzScope.AddPolicyAdministrator, IAzScope::AddPolicyAdministrator, azroles/IAzScope::AddPolicyAdministrator, security.iazscope_addpolicyadministrator
 ms.topic: method
-f1_keywords: 
- - "azroles/IAzScope.AddPolicyAdministrator"
+f1_keywords:
+- azroles/IAzScope.AddPolicyAdministrator
 dev_langs:
- - c++
+- c++
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Azroles.lib
 req.dll: Azroles.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Azroles.dll
+- Azroles.dll
 api_name:
- - IAzScope.AddPolicyAdministrator
- - AzScope.AddPolicyAdministrator
+- IAzScope.AddPolicyAdministrator
+- AzScope.AddPolicyAdministrator
 targetos: Windows
 req.typenames: 
 req.redist: Windows Server 2003 Administration Tools Pack on Windows XP

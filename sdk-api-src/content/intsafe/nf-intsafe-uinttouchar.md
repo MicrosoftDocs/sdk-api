@@ -1,19 +1,17 @@
 ---
 UID: NF:intsafe.UIntToUChar
 title: UIntToUChar function (intsafe.h)
-
 description: Converts a value of type UINT to a value of type UCHAR.
 old-location: shell\UIntToUChar.htm
 tech.root: shell
 ms.assetid: 9308c933-a8f4-45eb-81cf-31a0b8c0e032
-
 ms.date: 12/05/2018
 ms.keywords: UIntToUChar, UIntToUChar function [Windows Shell], _shell_UIntToUChar, intsafe/UIntToUChar, shell.UIntToUChar
 ms.topic: function
-f1_keywords: 
- - "intsafe/UIntToUChar"
+f1_keywords:
+- intsafe/UIntToUChar
 dev_langs:
- - c++
+- c++
 req.header: intsafe.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Intsafe.h
+- Intsafe.h
 api_name:
- - UIntToUChar
+- UIntToUChar
 targetos: Windows
 req.typenames: 
 req.redist: 

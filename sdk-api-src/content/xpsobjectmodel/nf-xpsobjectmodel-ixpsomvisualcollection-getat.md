@@ -1,19 +1,17 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMVisualCollection.GetAt
 title: IXpsOMVisualCollection::GetAt (xpsobjectmodel.h)
-
 description: Gets an IXpsOMVisual interface pointer from a specified location in the collection.
 old-location: xps\ixpsomvisualcollection_getat.htm
 tech.root: printdocs
 ms.assetid: 8bd54fab-64e8-42a5-ac9d-fa19328b1acb
-
 ms.date: 12/05/2018
 ms.keywords: GetAt, GetAt method [XPS Documents and Packaging], GetAt method [XPS Documents and Packaging],IXpsOMVisualCollection interface, IXpsOMVisualCollection interface [XPS Documents and Packaging],GetAt method, IXpsOMVisualCollection.GetAt, IXpsOMVisualCollection::GetAt, xps.ixpsomvisualcollection_getat, xpsobjectmodel/IXpsOMVisualCollection::GetAt
 ms.topic: method
-f1_keywords: 
- - "xpsobjectmodel/IXpsOMVisualCollection.GetAt"
+f1_keywords:
+- xpsobjectmodel/IXpsOMVisualCollection.GetAt
 dev_langs:
- - c++
+- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsobjectmodel.h
+- xpsobjectmodel.h
 api_name:
- - IXpsOMVisualCollection.GetAt
+- IXpsOMVisualCollection.GetAt
 targetos: Windows
 req.typenames: 
 req.redist: 

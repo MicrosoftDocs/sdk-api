@@ -1,19 +1,17 @@
 ---
 UID: NF:winineti.InternetAutodialHangup
 title: InternetAutodialHangup function (winineti.h)
-
 description: Disconnects an automatic dial-up connection.
 old-location: wininet\internetautodialhangup.htm
 tech.root: wininet
 ms.assetid: 8aa8ecb8-cacd-4cd9-a00b-5293b28dd6bf
-
 ms.date: 12/05/2018
 ms.keywords: InternetAutodialHangup, InternetAutodialHangup function [WinINet], _inet_internetautodialhangup_function, wininet.internetautodialhangup, winineti/InternetAutodialHangup
 ms.topic: function
-f1_keywords: 
- - "winineti/InternetAutodialHangup"
+f1_keywords:
+- winineti/InternetAutodialHangup
 dev_langs:
- - c++
+- c++
 req.header: winineti.h
 req.include-header: Wininet.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Wininet.lib
 req.dll: Wininet.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Wininet.dll
+- Wininet.dll
 api_name:
- - InternetAutodialHangup
+- InternetAutodialHangup
 targetos: Windows
 req.typenames: 
 req.redist: 

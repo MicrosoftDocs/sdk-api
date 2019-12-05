@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationElement.get_CurrentLocalizedControlType
 title: IUIAutomationElement::get_CurrentLocalizedControlType (uiautomationclient.h)
-
 description: Retrieves a localized description of the control type of the element.
 old-location: winauto\uiauto_IUIAutomationElement_CurrentLocalizedControlType.htm
 tech.root: WinAuto
 ms.assetid: 72e60876-ecda-411a-8d90-a96827c66453
-
 ms.date: 12/05/2018
 ms.keywords: CurrentLocalizedControlType property [Windows Accessibility], CurrentLocalizedControlType property [Windows Accessibility],IUIAutomationElement interface, IUIAutomationElement interface [Windows Accessibility],CurrentLocalizedControlType property, IUIAutomationElement.CurrentLocalizedControlType, IUIAutomationElement.get_CurrentLocalizedControlType, IUIAutomationElement::CurrentLocalizedControlType, IUIAutomationElement::get_CurrentLocalizedControlType, get_CurrentLocalizedControlType, uiauto.uiauto_IUIAutomationElement_CurrentLocalizedControlType, uiauto_IUIAutomationElement_CurrentLocalizedControlType, uiautomationclient/IUIAutomationElement::CurrentLocalizedControlType, uiautomationclient/IUIAutomationElement::get_CurrentLocalizedControlType, winauto.uiauto_IUIAutomationElement_CurrentLocalizedControlType
 ms.topic: method
-f1_keywords: 
- - "uiautomationclient/IUIAutomationElement.CurrentLocalizedControlType"
+f1_keywords:
+- uiautomationclient/IUIAutomationElement.CurrentLocalizedControlType
 dev_langs:
- - c++
+- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationClient.h
+- UIAutomationClient.h
 api_name:
- - IUIAutomationElement.CurrentLocalizedControlType
- - IUIAutomationElement.get_CurrentLocalizedControlType
+- IUIAutomationElement.CurrentLocalizedControlType
+- IUIAutomationElement.get_CurrentLocalizedControlType
 targetos: Windows
 req.typenames: 
 req.redist: 

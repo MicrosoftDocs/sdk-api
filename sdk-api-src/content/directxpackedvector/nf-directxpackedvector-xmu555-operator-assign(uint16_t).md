@@ -1,19 +1,17 @@
 ---
 UID: NF:directxpackedvector.XMU555.operator-assign(uint16_t)
 title: XMU555::operator-assign(uint16_t) (directxpackedvector.h)
-
 description: Assigns the vector component data packed in an instance of uint16_t to the current instance of XMU555.
 old-location: dxmath\xmu555_operator_eq_2.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.reference.XMU555.operator = (const uint16_t)
-
 ms.date: 12/05/2018
 ms.keywords: XMU555 structure [DirectX Math Support APIs],operator = method, XMU555.operator =(const uint16_t), XMU555.operator-assign(uint16_t), XMU555.operator=, XMU555::operator-assign(uint16_t), XMU555::operator=, dxmath.xmu555_operator_eq_2, operator = method [DirectX Math Support APIs], operator = method [DirectX Math Support APIs],XMU555 structure, operator=
 ms.topic: method
-f1_keywords: 
- - "directxpackedvector/XMU555.operator ="
+f1_keywords:
+- directxpackedvector/XMU555.operator =
 dev_langs:
- - c++
+- c++
 req.header: directxpackedvector.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - DirectXPackedVector.h
+- DirectXPackedVector.h
 api_name:
- - XMU555.operator =
+- XMU555.operator =
 targetos: Windows
 req.typenames: 
 req.redist: 

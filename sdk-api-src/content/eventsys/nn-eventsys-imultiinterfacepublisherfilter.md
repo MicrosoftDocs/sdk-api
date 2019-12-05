@@ -1,19 +1,17 @@
 ---
 UID: NN:eventsys.IMultiInterfacePublisherFilter
 title: IMultiInterfacePublisherFilter (eventsys.h)
-
 description: Manages a filtered subscription cache for an event method.
 old-location: cos\imultiinterfacepublisherfilter.htm
 tech.root: cossdk
 ms.assetid: f20f778b-fdd5-4c34-871b-d03cd1cd31cc
-
 ms.date: 12/05/2018
 ms.keywords: IMultiInterfacePublisherFilter, IMultiInterfacePublisherFilter interface [COM+], IMultiInterfacePublisherFilter interface [COM+],described, _cos_IMultiInterfacePublisherFilter, cos.imultiinterfacepublisherfilter, eventsys/IMultiInterfacePublisherFilter
 ms.topic: interface
-f1_keywords: 
- - "eventsys/IMultiInterfacePublisherFilter"
+f1_keywords:
+- eventsys/IMultiInterfacePublisherFilter
 dev_langs:
- - c++
+- c++
 req.header: eventsys.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - EventSys.h
+- EventSys.h
 api_name:
- - IMultiInterfacePublisherFilter
+- IMultiInterfacePublisherFilter
 targetos: Windows
 req.typenames: 
 req.redist: 

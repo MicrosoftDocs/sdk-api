@@ -1,19 +1,17 @@
 ---
 UID: NF:tom.ITextPara.ClearAllTabs
 title: ITextPara::ClearAllTabs (tom.h)
-
 description: Clears all tabs, reverting to equally spaced tabs with the default tab spacing.
 old-location: controls\ITextPara_ClearAllTabs.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\clearalltabs.htm
-
 ms.date: 12/05/2018
 ms.keywords: ClearAllTabs, ClearAllTabs method [Windows Controls], ClearAllTabs method [Windows Controls],ITextPara interface, ITextPara interface [Windows Controls],ClearAllTabs method, ITextPara.ClearAllTabs, ITextPara::ClearAllTabs, _win32_ITextPara_ClearAllTabs, _win32_ITextPara_ClearAllTabs_cpp, controls.ITextPara_ClearAllTabs, controls._win32_ITextPara_ClearAllTabs, tom/ITextPara::ClearAllTabs
 ms.topic: method
-f1_keywords: 
- - "tom/ITextPara.ClearAllTabs"
+f1_keywords:
+- tom/ITextPara.ClearAllTabs
 dev_langs:
- - c++
+- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msftedit.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msftedit.dll
+- Msftedit.dll
 api_name:
- - ITextPara.ClearAllTabs
+- ITextPara.ClearAllTabs
 targetos: Windows
 req.typenames: 
 req.redist: 

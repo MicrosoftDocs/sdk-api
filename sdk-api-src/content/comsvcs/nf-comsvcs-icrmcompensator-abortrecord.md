@@ -1,19 +1,17 @@
 ---
 UID: NF:comsvcs.ICrmCompensator.AbortRecord
 title: ICrmCompensator::AbortRecord (comsvcs.h)
-
 description: Delivers a log record to the CRM Compensator during the abort phase.
 old-location: cos\icrmcompensator_abortrecord.htm
 tech.root: cossdk
 ms.assetid: 79dcf391-7ec9-4c9c-9f91-0e806d7c278c
-
 ms.date: 12/05/2018
 ms.keywords: AbortRecord, AbortRecord method [COM+], AbortRecord method [COM+],ICrmCompensator interface, ICrmCompensator interface [COM+],AbortRecord method, ICrmCompensator.AbortRecord, ICrmCompensator::AbortRecord, _dtc_ICrmCompensator_AbortRecord, comsvcs/ICrmCompensator::AbortRecord, cos.icrmcompensator_abortrecord
 ms.topic: method
-f1_keywords: 
- - "comsvcs/ICrmCompensator.AbortRecord"
+f1_keywords:
+- comsvcs/ICrmCompensator.AbortRecord
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - ICrmCompensator.AbortRecord
+- ICrmCompensator.AbortRecord
 targetos: Windows
 req.typenames: 
 req.redist: 

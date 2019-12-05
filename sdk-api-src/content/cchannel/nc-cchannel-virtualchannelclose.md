@@ -1,19 +1,17 @@
 ---
 UID: NC:cchannel.VIRTUALCHANNELCLOSE
 title: VIRTUALCHANNELCLOSE (cchannel.h)
-
 description: Closes the client end of a virtual channel.
 old-location: termserv\virtualchannelclose.htm
 tech.root: TermServ
 ms.assetid: 96fd8910-6cc7-460c-9f63-3363fbbae0b1
-
 ms.date: 12/05/2018
 ms.keywords: VirtualChannelClose, VirtualChannelClose callback, VirtualChannelClose callback function [Remote Desktop Services], _win32_virtualchannelclose, cchannel/VirtualChannelClose, termserv.virtualchannelclose
 ms.topic: callback
-f1_keywords: 
- - "cchannel/VirtualChannelClose"
+f1_keywords:
+- cchannel/VirtualChannelClose
 dev_langs:
- - c++
+- c++
 req.header: cchannel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Cchannel.h
+- Cchannel.h
 api_name:
- - VirtualChannelClose
+- VirtualChannelClose
 targetos: Windows
 req.typenames: 
 req.redist: 

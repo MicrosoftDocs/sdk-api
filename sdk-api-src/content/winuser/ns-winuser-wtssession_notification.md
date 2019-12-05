@@ -1,19 +1,17 @@
 ---
 UID: NS:winuser.tagWTSSESSION_NOTIFICATION
 title: WTSSESSION_NOTIFICATION (winuser.h)
-
 description: Provides information about the session change notification. A service receives this structure in its HandlerEx function in response to a session change event.
 old-location: termserv\wtssession_notification_str.htm
 tech.root: TermServ
 ms.assetid: 863bd689-796b-4875-81bf-f853354b08b5
-
 ms.date: 12/05/2018
-ms.keywords: "*PWTSSESSION_NOTIFICATION, PWTSSESSION_NOTIFICATION, PWTSSESSION_NOTIFICATION structure pointer [Remote Desktop Services], WTSSESSION_NOTIFICATION, WTSSESSION_NOTIFICATION structure [Remote Desktop Services], _win32_wtssession_notification_str, termserv.wtssession_notification_str, winuser/PWTSSESSION_NOTIFICATION, winuser/WTSSESSION_NOTIFICATION"
+ms.keywords: '*PWTSSESSION_NOTIFICATION, PWTSSESSION_NOTIFICATION, PWTSSESSION_NOTIFICATION structure pointer [Remote Desktop Services], WTSSESSION_NOTIFICATION, WTSSESSION_NOTIFICATION structure [Remote Desktop Services], _win32_wtssession_notification_str, termserv.wtssession_notification_str, winuser/PWTSSESSION_NOTIFICATION, winuser/WTSSESSION_NOTIFICATION'
 ms.topic: struct
-f1_keywords: 
- - "winuser/WTSSESSION_NOTIFICATION"
+f1_keywords:
+- winuser/WTSSESSION_NOTIFICATION
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Winuser.h
+- Winuser.h
 api_name:
- - WTSSESSION_NOTIFICATION
+- WTSSESSION_NOTIFICATION
 targetos: Windows
 req.typenames: WTSSESSION_NOTIFICATION, *PWTSSESSION_NOTIFICATION
 req.redist: 

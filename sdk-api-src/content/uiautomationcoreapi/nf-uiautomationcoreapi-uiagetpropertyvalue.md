@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationcoreapi.UiaGetPropertyValue
 title: UiaGetPropertyValue function (uiautomationcoreapi.h)
-
 description: Retrieves the value of a UI Automation property.
 old-location: winauto\uiauto_UiaGetPropertyValueAutoMeth.htm
 tech.root: WinAuto
 ms.assetid: 17d5450c-0894-412f-a8d1-44ea0364a606
-
 ms.date: 12/05/2018
 ms.keywords: UiaGetPropertyValue, UiaGetPropertyValue function [Windows Accessibility], uiauto.uiauto_UiaGetPropertyValueAutoMeth, uiauto_UiaGetPropertyValueAutoMeth, uiautomationcoreapi/UiaGetPropertyValue, winauto.uiauto_UiaGetPropertyValueAutoMeth
 ms.topic: function
-f1_keywords: 
- - "uiautomationcoreapi/UiaGetPropertyValue"
+f1_keywords:
+- uiautomationcoreapi/UiaGetPropertyValue
 dev_langs:
- - c++
+- c++
 req.header: uiautomationcoreapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uiautomationcore.lib
 req.dll: Uiautomationcore.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Uiautomationcore.dll
+- Uiautomationcore.dll
 api_name:
- - UiaGetPropertyValue
+- UiaGetPropertyValue
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NS:tapi.linedialparams_tag
 title: LINEDIALPARAMS (tapi.h)
-
 description: The LINEDIALPARAMS structure specifies a collection of dialing-related fields. Call the lineSetCallParams function or the TSPI_lineSetCallParams function to set parameters for a call using the LINEDIALPARAMS structure.
 old-location: tapi2\linedialparams_str.htm
 tech.root: Tapi
 ms.assetid: efb65462-abe5-46db-9299-97871e0d011e
-
 ms.date: 12/05/2018
-ms.keywords: "*LPLINEDIALPARAMS, LINEDIALPARAMS, LINEDIALPARAMS structure [TAPI 2.2], LPLINEDIALPARAMS, LPLINEDIALPARAMS structure pointer [TAPI 2.2], _tapi2_linedialparams_str, tapi/LINEDIALPARAMS, tapi/LPLINEDIALPARAMS, tapi2.linedialparams_str"
+ms.keywords: '*LPLINEDIALPARAMS, LINEDIALPARAMS, LINEDIALPARAMS structure [TAPI 2.2], LPLINEDIALPARAMS, LPLINEDIALPARAMS structure pointer [TAPI 2.2], _tapi2_linedialparams_str, tapi/LINEDIALPARAMS, tapi/LPLINEDIALPARAMS, tapi2.linedialparams_str'
 ms.topic: struct
-f1_keywords: 
- - "tapi/LINEDIALPARAMS"
+f1_keywords:
+- tapi/LINEDIALPARAMS
 dev_langs:
- - c++
+- c++
 req.header: tapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Tapi.h
+- Tapi.h
 api_name:
- - LINEDIALPARAMS
+- LINEDIALPARAMS
 targetos: Windows
 req.typenames: LINEDIALPARAMS, *LPLINEDIALPARAMS
 req.redist: 

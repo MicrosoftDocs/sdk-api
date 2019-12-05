@@ -1,19 +1,17 @@
 ---
 UID: NE:naptypes.tagRemoteConfigurationType
 title: RemoteConfigurationType (naptypes.h)
-
 description: Describes the type of remote configuration possible for a component.
 old-location: nap\remoteconfigurationtype.htm
 tech.root: NAP
 ms.assetid: 951fbae2-48cb-4e3f-a03f-bf55bf017ec5
-
 ms.date: 12/05/2018
 ms.keywords: RemoteConfigurationType, RemoteConfigurationType enumeration [NAP], nap.remoteconfigurationtype, naptypes/RemoteConfigurationType, naptypes/remoteConfigTypeConfigBlob, naptypes/remoteConfigTypeMachine, remoteConfigTypeConfigBlob, remoteConfigTypeMachine
 ms.topic: enum
-f1_keywords: 
- - "naptypes/RemoteConfigurationType"
+f1_keywords:
+- naptypes/RemoteConfigurationType
 dev_langs:
- - c++
+- c++
 req.header: naptypes.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - NapTypes.h
+- NapTypes.h
 api_name:
- - RemoteConfigurationType
+- RemoteConfigurationType
 targetos: Windows
 req.typenames: RemoteConfigurationType
 req.redist: 

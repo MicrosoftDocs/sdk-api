@@ -1,19 +1,17 @@
 ---
 UID: NF:uianimation.IUIAnimationManager2.Shutdown
 title: IUIAnimationManager2::Shutdown (uianimation.h)
-
 description: Shuts down the animation manager and all its associated objects.
 old-location: uianimation\iuianimationmanager2_shutdown.htm
 tech.root: UIAnimation
 ms.assetid: F66A987C-E020-4CD6-BE3F-440C3F8B8CF2
-
 ms.date: 12/05/2018
 ms.keywords: IUIAnimationManager2 interface [Windows Animation],Shutdown method, IUIAnimationManager2.Shutdown, IUIAnimationManager2::Shutdown, Shutdown, Shutdown method [Windows Animation], Shutdown method [Windows Animation],IUIAnimationManager2 interface, uianimation.iuianimationmanager2_shutdown, uianimation/IUIAnimationManager2::Shutdown
 ms.topic: method
-f1_keywords: 
- - "uianimation/IUIAnimationManager2.Shutdown"
+f1_keywords:
+- uianimation/IUIAnimationManager2.Shutdown
 dev_langs:
- - c++
+- c++
 req.header: uianimation.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: UIAnimation.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAnimation.dll
+- UIAnimation.dll
 api_name:
- - IUIAnimationManager2.Shutdown
+- IUIAnimationManager2.Shutdown
 targetos: Windows
 req.typenames: 
 req.redist: 

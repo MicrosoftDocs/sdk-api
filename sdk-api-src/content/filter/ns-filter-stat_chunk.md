@@ -1,19 +1,17 @@
 ---
 UID: NS:filter.tagSTAT_CHUNK
 title: STAT_CHUNK (filter.h)
-
 description: Describes the characteristics of a chunk.
 old-location: indexsrv\stat_chunk.htm
 tech.root: IndexSrv
 ms.assetid: VS|indexsrv|~\html\ixrefint_6a5n.htm
-
 ms.date: 12/05/2018
 ms.keywords: STAT_CHUNK, STAT_CHUNK structure [Indexing Service], _idxs_STAT_CHUNK, filter/STAT_CHUNK, indexsrv.stat_chunk, tagSTAT_CHUNK
 ms.topic: struct
-f1_keywords: 
- - "filter/STAT_CHUNK"
+f1_keywords:
+- filter/STAT_CHUNK
 dev_langs:
- - c++
+- c++
 req.header: filter.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Filter.h
+- Filter.h
 api_name:
- - STAT_CHUNK
+- STAT_CHUNK
 targetos: Windows
 req.typenames: STAT_CHUNK
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:traffic.TcOpenInterfaceW
 title: TcOpenInterfaceW function (traffic.h)
-
 description: The TcOpenInterface function opens an interface.
 old-location: qos\tcopeninterface.htm
 tech.root: QOS
 ms.assetid: 8c7e658c-862f-4715-9ba5-ac079db924a1
-
 ms.date: 12/05/2018
 ms.keywords: TcOpenInterface, TcOpenInterface function [QOS], TcOpenInterfaceA, TcOpenInterfaceW, _gqos_tcopeninterface, qos.tcopeninterface, traffic/TcOpenInterface, traffic/TcOpenInterfaceA, traffic/TcOpenInterfaceW
 ms.topic: function
-f1_keywords: 
- - "traffic/TcOpenInterface"
+f1_keywords:
+- traffic/TcOpenInterface
 dev_langs:
- - c++
+- c++
 req.header: traffic.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: Traffic.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Traffic.dll
+- Traffic.dll
 api_name:
- - TcOpenInterface
- - TcOpenInterfaceA
- - TcOpenInterfaceW
+- TcOpenInterface
+- TcOpenInterfaceA
+- TcOpenInterfaceW
 targetos: Windows
 req.typenames: 
 req.redist: 

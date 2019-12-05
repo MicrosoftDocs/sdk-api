@@ -1,19 +1,17 @@
 ---
 UID: NF:webservices.WsCreateHeap
 title: WsCreateHeap function (webservices.h)
-
 description: Creates a heap object.
 old-location: wsw\wscreateheap.htm
 tech.root: wsw
 ms.assetid: 459b7146-3b32-4df8-87e1-4ac7ad33ed0e
-
 ms.date: 12/05/2018
 ms.keywords: WsCreateHeap, WsCreateHeap function [Web Services for Windows], webservices/WsCreateHeap, wsw.wscreateheap
 ms.topic: function
-f1_keywords: 
- - "webservices/WsCreateHeap"
+f1_keywords:
+- webservices/WsCreateHeap
 dev_langs:
- - c++
+- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: WebServices.lib
 req.dll: WebServices.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - WebServices.dll
+- WebServices.dll
 api_name:
- - WsCreateHeap
+- WsCreateHeap
 targetos: Windows
 req.typenames: 
 req.redist: 

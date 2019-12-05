@@ -1,19 +1,17 @@
 ---
 UID: NS:d3d11.D3D11_AUTHENTICATED_QUERY_OUTPUT_ID_INPUT
 title: D3D11_AUTHENTICATED_QUERY_OUTPUT_ID_INPUT (d3d11.h)
-
 description: Contains input data for a D3D11_AUTHENTICATED_QUERY_OUTPUT_ID query.
 old-location: mf\d3d11_authenticated_query_output_id_input.htm
 tech.root: medfound
 ms.assetid: 2F4A6248-77DB-479B-B16C-81C3EE22937A
-
 ms.date: 12/05/2018
 ms.keywords: D3D11_AUTHENTICATED_QUERY_OUTPUT_ID_INPUT, D3D11_AUTHENTICATED_QUERY_OUTPUT_ID_INPUT structure [Media Foundation], d3d11/D3D11_AUTHENTICATED_QUERY_OUTPUT_ID_INPUT, mf.d3d11_authenticated_query_output_id_input
 ms.topic: struct
-f1_keywords: 
- - "d3d11/D3D11_AUTHENTICATED_QUERY_OUTPUT_ID_INPUT"
+f1_keywords:
+- d3d11/D3D11_AUTHENTICATED_QUERY_OUTPUT_ID_INPUT
 dev_langs:
- - c++
+- c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - d3d11.h
+- d3d11.h
 api_name:
- - D3D11_AUTHENTICATED_QUERY_OUTPUT_ID_INPUT
+- D3D11_AUTHENTICATED_QUERY_OUTPUT_ID_INPUT
 targetos: Windows
 req.typenames: D3D11_AUTHENTICATED_QUERY_OUTPUT_ID_INPUT
 req.redist: 

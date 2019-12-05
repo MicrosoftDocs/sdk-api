@@ -1,19 +1,17 @@
 ---
 UID: NF:intsafe.LongPtrMult
 title: LongPtrMult function (intsafe.h)
-
 description: Multiplies two values of type LONG_PTR.
 old-location: shell\LongPtrMult.htm
 tech.root: shell
 ms.assetid: c2b86515-fe03-439a-bfe4-d92750b29279
-
 ms.date: 12/05/2018
 ms.keywords: LongPtrMult, LongPtrMult function [Windows Shell], intsafe/LongPtrMult, shell.LongPtrMult
 ms.topic: function
-f1_keywords: 
- - "intsafe/LongPtrMult"
+f1_keywords:
+- intsafe/LongPtrMult
 dev_langs:
- - c++
+- c++
 req.header: intsafe.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - intsafe.h
+- intsafe.h
 api_name:
- - LongPtrMult
+- LongPtrMult
 targetos: Windows
 req.typenames: 
 req.redist: 

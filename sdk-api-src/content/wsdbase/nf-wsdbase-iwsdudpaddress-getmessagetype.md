@@ -1,19 +1,17 @@
 ---
 UID: NF:wsdbase.IWSDUdpAddress.GetMessageType
 title: IWSDUdpAddress::GetMessageType (wsdbase.h)
-
 description: Gets the message type for this UDP address configuration.
 old-location: ncd\iwsdudpaddress_getmessagetype.htm
 tech.root: WsdApi
 ms.assetid: 258d7067-9b2b-4375-8b1a-c1d45cf55788
-
 ms.date: 12/05/2018
 ms.keywords: GetMessageType, GetMessageType method, GetMessageType method,IWSDUdpAddress interface, IWSDUdpAddress interface,GetMessageType method, IWSDUdpAddress.GetMessageType, IWSDUdpAddress::GetMessageType, ncd.iwsdudpaddress_getmessagetype, wsdbase/IWSDUdpAddress::GetMessageType
 ms.topic: method
 f1_keywords:
 - wsdbase/IWSDUdpAddress.GetMessageType
 dev_langs:
- - c++
+- c++
 req.header: wsdbase.h
 req.include-header: Wsdapi.h
 req.target-type: Windows

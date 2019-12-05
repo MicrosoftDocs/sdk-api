@@ -1,19 +1,17 @@
 ---
 UID: NS:mi._MI_ObjectDecl
 title: MI_ObjectDecl (mi.h)
-
 description: Contains properties common to the MI_ClassDecl and MI_PropertyDecl structures.
 old-location: wmi_v2\mi_objectdecl.htm
 tech.root: wmi_v2
 ms.assetid: 8759FEE5-9703-443E-9A2D-982158BC2EFA
-
 ms.date: 12/05/2018
 ms.keywords: MI_ObjectDecl, MI_ObjectDecl structure [Windows Management Infrastructure (MI)], mi/MI_ObjectDecl, wmi_v2.mi_objectdecl
 ms.topic: struct
 f1_keywords:
 - mi/MI_ObjectDecl
 dev_langs:
- - c++
+- c++
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows

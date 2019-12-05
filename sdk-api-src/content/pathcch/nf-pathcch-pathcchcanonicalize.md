@@ -1,19 +1,17 @@
 ---
 UID: NF:pathcch.PathCchCanonicalize
 title: PathCchCanonicalize function (pathcch.h)
-
 description: Converts a path string into a canonical form.This function differs from PathCchCanonicalizeEx in that you are restricted to a final path of length MAX_PATH.This function differs from PathAllocCanonicalize in that the caller must declare the size of the returned string, which is stored on the stack.This function differs from PathCanonicalize in that it accepts paths with &#0034;\\&#0034;, &#0034;\\?\&#0034; and &#0034;\\?\UNC\&#0034; prefixes.
 old-location: shell\PathCchCanonicalize.htm
 tech.root: shell
 ms.assetid: 25ff08b2-5978-4d44-9877-ba4230ef7d12
-
 ms.date: 12/05/2018
 ms.keywords: PathCchCanonicalize, PathCchCanonicalize function [Windows Shell], pathcch/PathCchCanonicalize, shell.PathCchCanonicalize
 ms.topic: function
-f1_keywords: 
- - "pathcch/PathCchCanonicalize"
+f1_keywords:
+- pathcch/PathCchCanonicalize
 dev_langs:
- - c++
+- c++
 req.header: pathcch.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Pathcch.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - pathcch.lib
- - API-MS-Win-Core-Path-l1-1-0.dll
- - KernelBase.dll
+- pathcch.lib
+- API-MS-Win-Core-Path-l1-1-0.dll
+- KernelBase.dll
 api_name:
- - PathCchCanonicalize
+- PathCchCanonicalize
 targetos: Windows
 req.typenames: 
 req.redist: 

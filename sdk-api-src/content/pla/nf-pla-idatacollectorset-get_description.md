@@ -1,19 +1,17 @@
 ---
 UID: NF:pla.IDataCollectorSet.get_Description
 title: IDataCollectorSet::get_Description (pla.h)
-
 description: Retrieves or sets the description of the data collector set. The description will be added to all output files as metadata and inserted into Performance Data Helper logs as a comment.
 old-location: pla\idatacollectorset_get_description.htm
 tech.root: PLA
 ms.assetid: d36deb28-09fa-4efd-bfe8-055757f4273a
-
 ms.date: 12/05/2018
 ms.keywords: Description property [PLA], Description property [PLA],IDataCollectorSet interface, IDataCollectorSet interface [PLA],Description property, IDataCollectorSet.Description, IDataCollectorSet.get_Description, IDataCollectorSet::Description, IDataCollectorSet::get_Description, IDataCollectorSet::put_Description, base.idatacollectorset_get_description, get_Description, pla.idatacollectorset_get_description, pla/IDataCollectorSet::Description, pla/IDataCollectorSet::get_Description, pla/IDataCollectorSet::put_Description
 ms.topic: method
-f1_keywords: 
- - "pla/IDataCollectorSet.Description"
+f1_keywords:
+- pla/IDataCollectorSet.Description
 dev_langs:
- - c++
+- c++
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: Pla.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Pla.dll
+- Pla.dll
 api_name:
- - IDataCollectorSet.Description
- - IDataCollectorSet.get_Description
- - IDataCollectorSet.put_Description
+- IDataCollectorSet.Description
+- IDataCollectorSet.get_Description
+- IDataCollectorSet.put_Description
 targetos: Windows
 req.typenames: 
 req.redist: 

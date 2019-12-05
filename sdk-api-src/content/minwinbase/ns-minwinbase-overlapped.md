@@ -1,19 +1,17 @@
 ---
 UID: NS:minwinbase._OVERLAPPED
 title: OVERLAPPED (minwinbase.h)
-
 description: Contains information used in asynchronous (or overlapped) input and output (I/O).
 old-location: base\overlapped_str.htm
 tech.root: Sync
 ms.assetid: 5037f6b9-e316-483b-a8e2-b58d2587ebd9
-
 ms.date: 12/05/2018
-ms.keywords: "*LPOVERLAPPED, LPOVERLAPPED, LPOVERLAPPED structure pointer, OVERLAPPED, OVERLAPPED structure, _win32_overlapped_str, base.overlapped_str, minwinbase/LPOVERLAPPED, minwinbase/OVERLAPPED, winbase/LPOVERLAPPED, winbase/OVERLAPPED"
+ms.keywords: '*LPOVERLAPPED, LPOVERLAPPED, LPOVERLAPPED structure pointer, OVERLAPPED, OVERLAPPED structure, _win32_overlapped_str, base.overlapped_str, minwinbase/LPOVERLAPPED, minwinbase/OVERLAPPED, winbase/LPOVERLAPPED, winbase/OVERLAPPED'
 ms.topic: struct
-f1_keywords: 
- - "minwinbase/OVERLAPPED"
+f1_keywords:
+- minwinbase/OVERLAPPED
 dev_langs:
- - c++
+- c++
 req.header: minwinbase.h
 req.include-header: Windows Server 2003, Windows Vista, Windows 7, Windows Server 2008  Windows Server 2008 R2, Windows.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WinBase.h
- - minWinBase.h
+- WinBase.h
+- minWinBase.h
 api_name:
- - OVERLAPPED
+- OVERLAPPED
 targetos: Windows
 req.typenames: OVERLAPPED, *LPOVERLAPPED
 req.redist: 

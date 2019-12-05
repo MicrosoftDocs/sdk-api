@@ -1,19 +1,17 @@
 ---
 UID: NF:cmnquery.IQueryForm.AddForms
 title: IQueryForm::AddForms (cmnquery.h)
-
 description: Called to allow a query form extension object to add forms to the query dialog box.
 old-location: ad\iqueryform_addforms.htm
 tech.root: ad
 ms.assetid: fadaa7e6-ccf2-42cd-a26e-19db107ce56c
-
 ms.date: 12/05/2018
 ms.keywords: AddForms, AddForms method [Active Directory], AddForms method [Active Directory],IQueryForm interface, IQueryForm interface [Active Directory],AddForms method, IQueryForm.AddForms, IQueryForm::AddForms, _glines_iqueryform_addforms, ad.iqueryform__addforms, ad.iqueryform_addforms, cmnquery/IQueryForm::AddForms
 ms.topic: method
-f1_keywords: 
- - "cmnquery/IQueryForm.AddForms"
+f1_keywords:
+- cmnquery/IQueryForm.AddForms
 dev_langs:
- - c++
+- c++
 req.header: cmnquery.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Dsquery.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dsquery.dll
+- Dsquery.dll
 api_name:
- - IQueryForm.AddForms
+- IQueryForm.AddForms
 targetos: Windows
 req.typenames: 
 req.redist: 

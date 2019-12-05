@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d12.ID3D12GraphicsCommandList.BeginEvent
 title: ID3D12GraphicsCommandList::BeginEvent (d3d12.h)
-
 description: Not intended to be called directly.  Use the PIX event runtime to insert events into a command list.
 old-location: direct3d12\id3d12graphicscommandlist_beginevent.htm
 tech.root: direct3d12
 ms.assetid: 2A5292C0-ED9B-4E3C-87E4-88EA2FF09B28
-
 ms.date: 12/05/2018
 ms.keywords: BeginEvent, BeginEvent method, BeginEvent method,ID3D12GraphicsCommandList interface, ID3D12GraphicsCommandList interface,BeginEvent method, ID3D12GraphicsCommandList.BeginEvent, ID3D12GraphicsCommandList::BeginEvent, d3d12/ID3D12GraphicsCommandList::BeginEvent, direct3d12.id3d12graphicscommandlist_beginevent
 ms.topic: method
-f1_keywords: 
- - "d3d12/ID3D12GraphicsCommandList.BeginEvent"
+f1_keywords:
+- d3d12/ID3D12GraphicsCommandList.BeginEvent
 dev_langs:
- - c++
+- c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: D3d12.lib
 req.dll: D3d12.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - d3d12.dll
+- d3d12.dll
 api_name:
- - ID3D12GraphicsCommandList.BeginEvent
+- ID3D12GraphicsCommandList.BeginEvent
 targetos: Windows
 req.typenames: 
 req.redist: 

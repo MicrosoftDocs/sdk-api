@@ -1,19 +1,17 @@
 ---
 UID: NF:evr.IEVRTrustedVideoPlugin.SetConstriction
 title: IEVRTrustedVideoPlugin::SetConstriction (evr.h)
-
 description: Limits the effective video resolution.
 old-location: mf\ievrtrustedvideoplugin_setconstriction.htm
 tech.root: medfound
 ms.assetid: f2e9b199-969f-453c-8714-fa85c89a191a
-
 ms.date: 12/05/2018
 ms.keywords: IEVRTrustedVideoPlugin interface [Media Foundation],SetConstriction method, IEVRTrustedVideoPlugin.SetConstriction, IEVRTrustedVideoPlugin::SetConstriction, SetConstriction, SetConstriction method [Media Foundation], SetConstriction method [Media Foundation],IEVRTrustedVideoPlugin interface, evr/IEVRTrustedVideoPlugin::SetConstriction, f2e9b199-969f-453c-8714-fa85c89a191a, mf.ievrtrustedvideoplugin_setconstriction
 ms.topic: method
-f1_keywords: 
- - "evr/IEVRTrustedVideoPlugin.SetConstriction"
+f1_keywords:
+- evr/IEVRTrustedVideoPlugin.SetConstriction
 dev_langs:
- - c++
+- c++
 req.header: evr.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IEVRTrustedVideoPlugin.SetConstriction
+- IEVRTrustedVideoPlugin.SetConstriction
 targetos: Windows
 req.typenames: 
 req.redist: 

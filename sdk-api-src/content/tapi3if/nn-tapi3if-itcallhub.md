@@ -1,19 +1,17 @@
 ---
 UID: NN:tapi3if.ITCallHub
 title: ITCallHub (tapi3if.h)
-
 description: The ITCallHub interface provides methods to retrieve information concerning a CallHub object. The IEnumCallHub::Next and ITTapi::get_CallHubs methods create the ITCallHub interface.
 old-location: tapi3\itcallhub.htm
 tech.root: Tapi
 ms.assetid: bdc91cac-c0ec-4484-a415-8cd1aa1e18e8
-
 ms.date: 12/05/2018
 ms.keywords: ITCallHub, ITCallHub interface [TAPI 2.2], ITCallHub interface [TAPI 2.2],described, _tapi3_itcallhub, tapi3.itcallhub, tapi3if/ITCallHub
 ms.topic: interface
-f1_keywords: 
- - "tapi3if/ITCallHub"
+f1_keywords:
+- tapi3if/ITCallHub
 dev_langs:
- - c++
+- c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Tapi3.dll
+- Tapi3.dll
 api_name:
- - ITCallHub
+- ITCallHub
 targetos: Windows
 req.typenames: 
 req.redist: 

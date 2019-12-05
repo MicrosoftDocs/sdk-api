@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d10.ID3D10Device.SOSetTargets
 title: ID3D10Device::SOSetTargets (d3d10.h)
-
 description: Set the target output buffers for the StreamOutput stage, which enables/disables the pipeline to stream-out data.
 old-location: direct3d10\id3d10device_sosettargets.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10device_sosettargets.htm
-
 ms.date: 12/05/2018
 ms.keywords: ID3D10Device interface [Direct3D 10],SOSetTargets method, ID3D10Device.SOSetTargets, ID3D10Device::SOSetTargets, SOSetTargets, SOSetTargets method [Direct3D 10], SOSetTargets method [Direct3D 10],ID3D10Device interface, d3d10/ID3D10Device::SOSetTargets, direct3d10.id3d10device_sosettargets, ff1f3d28-095a-2fa4-65ed-d7fd2370cc17
 ms.topic: method
-f1_keywords: 
- - "d3d10/ID3D10Device.SOSetTargets"
+f1_keywords:
+- d3d10/ID3D10Device.SOSetTargets
 dev_langs:
- - c++
+- c++
 req.header: d3d10.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: D3D10.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D10.lib
- - D3D10.dll
+- D3D10.lib
+- D3D10.dll
 api_name:
- - ID3D10Device.SOSetTargets
+- ID3D10Device.SOSetTargets
 targetos: Windows
 req.typenames: 
 req.redist: 

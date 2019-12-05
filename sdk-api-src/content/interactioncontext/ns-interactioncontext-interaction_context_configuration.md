@@ -1,19 +1,17 @@
 ---
 UID: NS:interactioncontext.INTERACTION_CONTEXT_CONFIGURATION
 title: INTERACTION_CONTEXT_CONFIGURATION (interactioncontext.h)
-
 description: Defines the configuration of an Interaction Context object that enables, disables, or modifies the behavior of an interaction.
 old-location: input_intcontext\interaction_context_configuration.htm
 tech.root: Input_IntContext
 ms.assetid: 0cbae801-d6d9-412b-ab8a-0b6c9d7c103e
-
 ms.date: 12/05/2018
 ms.keywords: INTERACTION_CONTEXT_CONFIGURATION, INTERACTION_CONTEXT_CONFIGURATION structure, input_intcontext.interaction_context_configuration, interactioncontext.interaction_context_configuration, interactioncontext/INTERACTION_CONTEXT_CONFIGURATION
 ms.topic: struct
-f1_keywords: 
- - "interactioncontext/INTERACTION_CONTEXT_CONFIGURATION"
+f1_keywords:
+- interactioncontext/INTERACTION_CONTEXT_CONFIGURATION
 dev_langs:
- - c++
+- c++
 req.header: interactioncontext.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - interactioncontext.h
+- interactioncontext.h
 api_name:
- - INTERACTION_CONTEXT_CONFIGURATION
+- INTERACTION_CONTEXT_CONFIGURATION
 targetos: Windows
 req.typenames: INTERACTION_CONTEXT_CONFIGURATION
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:netsh.PrintError
 title: PrintError function (netsh.h)
-
 description: Displays a system or application error message to the NetShell console.
 old-location: netshell\printerror.htm
 tech.root: netshell
 ms.assetid: de48b797-9cb5-4bc0-89d4-86dd7f56a610
-
 ms.date: 12/05/2018
 ms.keywords: PrintError, PrintError function [NetShell], _netsh_printerror, netsh/PrintError, netshell.printerror
 ms.topic: function
-f1_keywords: 
- - "netsh/PrintError"
+f1_keywords:
+- netsh/PrintError
 dev_langs:
- - c++
+- c++
 req.header: netsh.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Netsh.lib
 req.dll: Netsh.exe
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Netsh.exe
+- Netsh.exe
 api_name:
- - PrintError
+- PrintError
 targetos: Windows
 req.typenames: 
 req.redist: 

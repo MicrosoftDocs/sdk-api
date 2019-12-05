@@ -1,19 +1,17 @@
 ---
 UID: NL:vswriter.IVssExpressWriter
 title: IVssExpressWriter (vswriter.h)
-
 description: Defines methods to manage metadata for a VSS express writer.
 old-location: base\ivssexpresswriter.htm
 tech.root: VSS
 ms.assetid: debb0731-6e24-4320-8236-220e07ec37c3
-
 ms.date: 12/05/2018
 ms.keywords: IVssExpressWriter, IVssExpressWriter interface, IVssExpressWriter interface,described, base.ivssexpresswriter, vswriter/IVssExpressWriter
 ms.topic: class
-f1_keywords: 
- - "vswriter/IVssExpressWriter"
+f1_keywords:
+- vswriter/IVssExpressWriter
 dev_langs:
- - c++
+- c++
 req.header: vswriter.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - VsWriter.h
+- VsWriter.h
 api_name:
- - IVssExpressWriter
+- IVssExpressWriter
 targetos: Windows
 req.typenames: 
 req.redist: 

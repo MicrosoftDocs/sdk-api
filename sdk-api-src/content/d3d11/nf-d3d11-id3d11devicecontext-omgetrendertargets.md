@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d11.ID3D11DeviceContext.OMGetRenderTargets
 title: ID3D11DeviceContext::OMGetRenderTargets (d3d11.h)
-
 description: Get pointers to the resources bound to the output-merger stage.
 old-location: direct3d11\id3d11devicecontext_omgetrendertargets.htm
 tech.root: direct3d11
 ms.assetid: 27ac656a-0906-43ad-8089-b41639b55ecf
-
 ms.date: 12/05/2018
 ms.keywords: ID3D11DeviceContext interface [Direct3D 11],OMGetRenderTargets method, ID3D11DeviceContext.OMGetRenderTargets, ID3D11DeviceContext::OMGetRenderTargets, OMGetRenderTargets, OMGetRenderTargets method [Direct3D 11], OMGetRenderTargets method [Direct3D 11],ID3D11DeviceContext interface, b914865b-766f-62c4-e7e9-5b7590860668, d3d11/ID3D11DeviceContext::OMGetRenderTargets, direct3d11.id3d11devicecontext_omgetrendertargets
 ms.topic: method
-f1_keywords: 
- - "d3d11/ID3D11DeviceContext.OMGetRenderTargets"
+f1_keywords:
+- d3d11/ID3D11DeviceContext.OMGetRenderTargets
 dev_langs:
- - c++
+- c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: D3D11.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D11.lib
- - D3D11.dll
+- D3D11.lib
+- D3D11.dll
 api_name:
- - ID3D11DeviceContext.OMGetRenderTargets
+- ID3D11DeviceContext.OMGetRenderTargets
 targetos: Windows
 req.typenames: 
 req.redist: 

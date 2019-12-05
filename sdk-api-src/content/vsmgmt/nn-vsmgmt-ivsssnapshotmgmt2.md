@@ -1,19 +1,17 @@
 ---
 UID: NN:vsmgmt.IVssSnapshotMgmt2
 title: IVssSnapshotMgmt2 (vsmgmt.h)
-
 description: Provides a method to retrieve the minimum size of the shadow copy storage area.
 old-location: base\ivsssnapshotmgmt2.htm
 tech.root: VSS
 ms.assetid: 92c8c960-d548-4a44-8b10-b6180c974473
-
 ms.date: 12/05/2018
 ms.keywords: IVssSnapshotMgmt2, IVssSnapshotMgmt2 interface [Files], IVssSnapshotMgmt2 interface [Files],described, base.ivsssnapshotmgmt2, vsmgmt/IVssSnapshotMgmt2
 ms.topic: interface
-f1_keywords: 
- - "vsmgmt/IVssSnapshotMgmt2"
+f1_keywords:
+- vsmgmt/IVssSnapshotMgmt2
 dev_langs:
- - c++
+- c++
 req.header: vsmgmt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - VsMgmt.h
+- VsMgmt.h
 api_name:
- - IVssSnapshotMgmt2
+- IVssSnapshotMgmt2
 targetos: Windows
 req.typenames: 
 req.redist: 

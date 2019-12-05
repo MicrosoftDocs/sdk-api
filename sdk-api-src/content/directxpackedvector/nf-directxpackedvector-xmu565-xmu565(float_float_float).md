@@ -1,19 +1,17 @@
 ---
 UID: NF:directxpackedvector.XMU565.XMU565(float,float,float)
 title: XMU565::XMU565(float,float,float) (directxpackedvector.h)
-
 description: Initializes a new instance of XMU565 from three float arguments.
 old-location: dxmath\xmu565_ctor_5.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.reference.XMU565.#ctor(float,float,float)
-
 ms.date: 12/05/2018
 ms.keywords: XMU565, XMU565 constructor [DirectX Math Support APIs], XMU565 constructor [DirectX Math Support APIs],XMU565 structure, XMU565 structure [DirectX Math Support APIs],XMU565 constructor, XMU565.XMU565, XMU565.XMU565(float,float,float), XMU565::XMU565, XMU565::XMU565(float,float,float), dxmath.xmu565_ctor_5
 ms.topic: method
-f1_keywords: 
- - "directxpackedvector/XMU565.XMU565"
+f1_keywords:
+- directxpackedvector/XMU565.XMU565
 dev_langs:
- - c++
+- c++
 req.header: directxpackedvector.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - DirectXPackedVector.h
+- DirectXPackedVector.h
 api_name:
- - XMU565.XMU565
+- XMU565.XMU565
 targetos: Windows
 req.typenames: 
 req.redist: 

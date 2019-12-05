@@ -1,19 +1,17 @@
 ---
 UID: NE:eventsys.__MIDL_IEventObjectChange_0001
 title: EOC_ChangeType (eventsys.h)
-
 description: Indicates the nature of the change to an event object.
 old-location: com\eoc_changetype.htm
 tech.root: com
 ms.assetid: 1dad5849-4c6c-4632-953c-1bb18f14e8c1
-
 ms.date: 12/05/2018
 ms.keywords: EOC_ChangeType, EOC_ChangeType enumeration [COM], EOC_DeletedObject, EOC_ModifiedObject, EOC_NewObject, _com_EOC_ChangeType, com.eoc_changetype, eventsys/EOC_ChangeType, eventsys/EOC_DeletedObject, eventsys/EOC_ModifiedObject, eventsys/EOC_NewObject
 ms.topic: enum
-f1_keywords: 
- - "eventsys/EOC_ChangeType"
+f1_keywords:
+- eventsys/EOC_ChangeType
 dev_langs:
- - c++
+- c++
 req.header: eventsys.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - EventSys.h
+- EventSys.h
 api_name:
- - EOC_ChangeType
+- EOC_ChangeType
 targetos: Windows
 req.typenames: EOC_ChangeType
 req.redist: 

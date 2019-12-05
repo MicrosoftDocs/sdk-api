@@ -1,19 +1,17 @@
 ---
 UID: NF:wlanapi.WlanHostedNetworkQuerySecondaryKey
 title: WlanHostedNetworkQuerySecondaryKey function (wlanapi.h)
-
 description: Queries the secondary security key that is configured to be used by the wireless Hosted Network.
 old-location: nwifi\wlanhostednetworkquerysecondarykey.htm
 tech.root: NativeWiFi
 ms.assetid: 5989977a-7a2f-43b8-a958-058db01fd24f
-
 ms.date: 12/05/2018
 ms.keywords: WlanHostedNetworkQuerySecondaryKey, WlanHostedNetworkQuerySecondaryKey function [NativeWIFI], nwifi.wlanhostednetworkquerysecondarykey, wlanapi/WlanHostedNetworkQuerySecondaryKey
 ms.topic: function
 f1_keywords:
 - wlanapi/WlanHostedNetworkQuerySecondaryKey
 dev_langs:
- - c++
+- c++
 req.header: wlanapi.h
 req.include-header: Wlanapi.h
 req.target-type: Windows

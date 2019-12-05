@@ -1,19 +1,17 @@
 ---
 UID: NF:imapi2fs.IFileSystemImage.put_StageFiles
 title: IFileSystemImage::put_StageFiles (imapi2fs.h)
-
 description: Determines if the files being added to the file system image should be staged before the burn.
 old-location: imapi\ifilesystemimage_put_stagefiles.htm
 tech.root: imapi
 ms.assetid: 1040831b-0bda-40b7-ab6d-c914515f4e69
-
 ms.date: 12/05/2018
 ms.keywords: IFileSystemImage interface [IMAPI],put_StageFiles method, IFileSystemImage.put_StageFiles, IFileSystemImage::put_StageFiles, imapi.ifilesystemimage_put_stagefiles, imapi2fs/IFileSystemImage::put_StageFiles, put_StageFiles, put_StageFiles method [IMAPI], put_StageFiles method [IMAPI],IFileSystemImage interface
 ms.topic: method
-f1_keywords: 
- - "imapi2fs/IFileSystemImage.put_StageFiles"
+f1_keywords:
+- imapi2fs/IFileSystemImage.put_StageFiles
 dev_langs:
- - c++
+- c++
 req.header: imapi2fs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - imapi2fs.h
+- imapi2fs.h
 api_name:
- - IFileSystemImage.put_StageFiles
+- IFileSystemImage.put_StageFiles
 targetos: Windows
 req.typenames: 
 req.redist: 

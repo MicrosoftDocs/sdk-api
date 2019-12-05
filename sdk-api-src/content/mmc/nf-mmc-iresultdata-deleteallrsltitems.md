@@ -1,19 +1,17 @@
 ---
 UID: NF:mmc.IResultData.DeleteAllRsltItems
 title: IResultData::DeleteAllRsltItems (mmc.h)
-
 description: The IResultData::DeleteAllRsltItems method enables the snap-in to remove all user-inserted items and subitems from the result view pane.
 old-location: mmc\iresultdata_deleteallrsltitems.htm
 tech.root: mmc
 ms.assetid: 07514672-2973-40f1-864a-066e256bd76a
-
 ms.date: 12/05/2018
 ms.keywords: DeleteAllRsltItems, DeleteAllRsltItems method [MMC], DeleteAllRsltItems method [MMC],IResultData interface, DeleteAllRsltItems method [MMC],IResultData2 interface, IResultData interface [MMC],DeleteAllRsltItems method, IResultData.DeleteAllRsltItems, IResultData2 interface [MMC],DeleteAllRsltItems method, IResultData2::DeleteAllRsltItems, IResultData::DeleteAllRsltItems, _slate_iresultdata_deleteallrsltitems, mmc.iresultdata_deleteallrsltitems, mmc/IResultData2::DeleteAllRsltItems, mmc/IResultData::DeleteAllRsltItems
 ms.topic: method
-f1_keywords: 
- - "mmc/IResultData.DeleteAllRsltItems"
+f1_keywords:
+- mmc/IResultData.DeleteAllRsltItems
 dev_langs:
- - c++
+- c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: Mmcndmgr.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mmcndmgr.dll
+- Mmcndmgr.dll
 api_name:
- - IResultData.DeleteAllRsltItems
- - IResultData2.DeleteAllRsltItems
+- IResultData.DeleteAllRsltItems
+- IResultData2.DeleteAllRsltItems
 targetos: Windows
 req.typenames: 
 req.redist: 

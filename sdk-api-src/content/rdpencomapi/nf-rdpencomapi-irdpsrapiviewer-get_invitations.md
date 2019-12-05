@@ -1,19 +1,17 @@
 ---
 UID: NF:rdpencomapi.IRDPSRAPIViewer.get_Invitations
 title: IRDPSRAPIViewer::get_Invitations (rdpencomapi.h)
-
 description: Returns an object implementing the IRDPSRAPIInvitationManager interface.
 old-location: rdp\irdpsrapiviewer_invitations.htm
 tech.root: rdp
 ms.assetid: 2657e79a-de3a-44e1-90af-81242ac123f6
-
 ms.date: 12/05/2018
 ms.keywords: IRDPSRAPIViewer interface [RDP],Invitations property, IRDPSRAPIViewer.Invitations, IRDPSRAPIViewer.get_Invitations, IRDPSRAPIViewer::Invitations, IRDPSRAPIViewer::get_Invitations, Invitations property [RDP], Invitations property [RDP],IRDPSRAPIViewer interface, Invitations property [RDP],RDPViewer object, RDPViewer object [RDP],Invitations property, get_Invitations, rdp.irdpsrapiviewer_invitations, rdpencomapi/IRDPSRAPIViewer::Invitations, rdpencomapi/IRDPSRAPIViewer::get_Invitations
 ms.topic: method
-f1_keywords: 
- - "rdpencomapi/IRDPSRAPIViewer.Invitations"
+f1_keywords:
+- rdpencomapi/IRDPSRAPIViewer.Invitations
 dev_langs:
- - c++
+- c++
 req.header: rdpencomapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: RdpEncom.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - RdpEncom.dll
+- RdpEncom.dll
 api_name:
- - IRDPSRAPIViewer.Invitations
- - IRDPSRAPIViewer.get_Invitations
- - RDPViewer.Invitations
+- IRDPSRAPIViewer.Invitations
+- IRDPSRAPIViewer.get_Invitations
+- RDPViewer.Invitations
 targetos: Windows
 req.typenames: 
 req.redist: 

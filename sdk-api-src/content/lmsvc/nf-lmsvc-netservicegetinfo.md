@@ -1,19 +1,17 @@
 ---
 UID: NF:lmsvc.NetServiceGetInfo
 title: NetServiceGetInfo function (lmsvc.h)
-
 description: The NetServiceGetInfo function is obsolete. It is included for compatibility with 16-bit versions of Windows. Other applications should use the service functions.
 old-location: netmgmt\netservicegetinfo.htm
 tech.root: NetMgmt
 ms.assetid: dcbea171-75fd-4d92-a2a0-ebd2867b233e
-
 ms.date: 12/05/2018
 ms.keywords: NetServiceGetInfo, NetServiceGetInfo function [Network Management], _win32_netservicegetinfo, lmsvc/NetServiceGetInfo, netmgmt.netservicegetinfo
 ms.topic: function
-f1_keywords: 
- - "lmsvc/NetServiceGetInfo"
+f1_keywords:
+- lmsvc/NetServiceGetInfo
 dev_langs:
- - c++
+- c++
 req.header: lmsvc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - lmsvc.h
+- lmsvc.h
 api_name:
- - NetServiceGetInfo
+- NetServiceGetInfo
 targetos: Windows
 req.typenames: 
 req.redist: 

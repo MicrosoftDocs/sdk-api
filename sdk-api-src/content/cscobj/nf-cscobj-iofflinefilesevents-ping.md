@@ -1,19 +1,17 @@
 ---
 UID: NF:cscobj.IOfflineFilesEvents.Ping
 title: IOfflineFilesEvents::Ping (cscobj.h)
-
 description: This event is delivered to all registered event subscribers on a periodic basis.
 old-location: of\iofflinefilesevents_ping.htm
 tech.root: offlinefiles
 ms.assetid: edde2f37-f082-4382-8908-181bc42d30ef
-
 ms.date: 12/05/2018
 ms.keywords: IOfflineFilesEvents interface [Offline Files],Ping method, IOfflineFilesEvents.Ping, IOfflineFilesEvents::Ping, Ping, Ping method [Offline Files], Ping method [Offline Files],IOfflineFilesEvents interface, cscobj/IOfflineFilesEvents::Ping, of.iofflinefilesevents_ping
 ms.topic: method
-f1_keywords: 
- - "cscobj/IOfflineFilesEvents.Ping"
+f1_keywords:
+- cscobj/IOfflineFilesEvents.Ping
 dev_langs:
- - c++
+- c++
 req.header: cscobj.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: CscSvc.dll; CscObj.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CscSvc.dll
- - CscObj.dll
+- CscSvc.dll
+- CscObj.dll
 api_name:
- - IOfflineFilesEvents.Ping
+- IOfflineFilesEvents.Ping
 targetos: Windows
 req.typenames: 
 req.redist: 

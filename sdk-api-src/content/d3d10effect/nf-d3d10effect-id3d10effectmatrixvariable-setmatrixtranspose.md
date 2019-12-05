@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d10effect.ID3D10EffectMatrixVariable.SetMatrixTranspose
 title: ID3D10EffectMatrixVariable::SetMatrixTranspose (d3d10effect.h)
-
 description: Transpose and set a floating-point matrix.
 old-location: direct3d10\id3d10effectmatrixvariable_setmatrixtranspose.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10effectmatrixvariable_setmatrixtranspose.htm
-
 ms.date: 12/05/2018
 ms.keywords: 8561664e-7026-5fcc-43aa-11163abdb56f, ID3D10EffectMatrixVariable interface [Direct3D 10],SetMatrixTranspose method, ID3D10EffectMatrixVariable.SetMatrixTranspose, ID3D10EffectMatrixVariable::SetMatrixTranspose, SetMatrixTranspose, SetMatrixTranspose method [Direct3D 10], SetMatrixTranspose method [Direct3D 10],ID3D10EffectMatrixVariable interface, d3d10effect/ID3D10EffectMatrixVariable::SetMatrixTranspose, direct3d10.id3d10effectmatrixvariable_setmatrixtranspose
 ms.topic: method
-f1_keywords: 
- - "d3d10effect/ID3D10EffectMatrixVariable.SetMatrixTranspose"
+f1_keywords:
+- d3d10effect/ID3D10EffectMatrixVariable.SetMatrixTranspose
 dev_langs:
- - c++
+- c++
 req.header: d3d10effect.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D10Effect.h
+- D3D10Effect.h
 api_name:
- - ID3D10EffectMatrixVariable.SetMatrixTranspose
+- ID3D10EffectMatrixVariable.SetMatrixTranspose
 targetos: Windows
 req.typenames: 
 req.redist: 

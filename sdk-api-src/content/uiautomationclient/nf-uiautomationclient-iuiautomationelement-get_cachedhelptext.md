@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationElement.get_CachedHelpText
 title: IUIAutomationElement::get_CachedHelpText (uiautomationclient.h)
-
 description: Retrieves the cached help text for the element.
 old-location: winauto\uiauto_IUIAutomationElement_CachedHelpText.htm
 tech.root: WinAuto
 ms.assetid: 39ca5d50-808c-4a8b-a662-0a7724519b2c
-
 ms.date: 12/05/2018
 ms.keywords: CachedHelpText property [Windows Accessibility], CachedHelpText property [Windows Accessibility],IUIAutomationElement interface, IUIAutomationElement interface [Windows Accessibility],CachedHelpText property, IUIAutomationElement.CachedHelpText, IUIAutomationElement.get_CachedHelpText, IUIAutomationElement::CachedHelpText, IUIAutomationElement::get_CachedHelpText, get_CachedHelpText, uiauto.uiauto_IUIAutomationElement_CachedHelpText, uiauto_IUIAutomationElement_CachedHelpText, uiautomationclient/IUIAutomationElement::CachedHelpText, uiautomationclient/IUIAutomationElement::get_CachedHelpText, winauto.uiauto_IUIAutomationElement_CachedHelpText
 ms.topic: method
-f1_keywords: 
- - "uiautomationclient/IUIAutomationElement.CachedHelpText"
+f1_keywords:
+- uiautomationclient/IUIAutomationElement.CachedHelpText
 dev_langs:
- - c++
+- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationClient.h
+- UIAutomationClient.h
 api_name:
- - IUIAutomationElement.CachedHelpText
- - IUIAutomationElement.get_CachedHelpText
+- IUIAutomationElement.CachedHelpText
+- IUIAutomationElement.get_CachedHelpText
 targetos: Windows
 req.typenames: 
 req.redist: 

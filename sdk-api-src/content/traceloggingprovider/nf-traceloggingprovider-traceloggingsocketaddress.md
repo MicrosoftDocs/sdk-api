@@ -1,19 +1,17 @@
 ---
 UID: NF:traceloggingprovider.TraceLoggingSocketAddress
 title: TraceLoggingSocketAddress macro (traceloggingprovider.h)
-
 description: A wrapper macro that provides trace logging for socket addresses.
 old-location: tracelogging\traceloggingsocketaddress.htm
 tech.root: tracelogging
 ms.assetid: 7965C10A-2C19-4AA3-A9E3-7219EFB2D3A0
-
 ms.date: 12/05/2018
 ms.keywords: TraceLoggingSocketAddress, TraceLoggingSocketAddress macro, tracelogging.traceloggingsocketaddress, traceloggingprovider/TraceLoggingSocketAddress
 ms.topic: macro
-f1_keywords: 
- - "traceloggingprovider/TraceLoggingSocketAddress"
+f1_keywords:
+- traceloggingprovider/TraceLoggingSocketAddress
 dev_langs:
- - c++
+- c++
 req.header: traceloggingprovider.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - traceloggingprovider.h
+- traceloggingprovider.h
 api_name:
- - TraceLoggingSocketAddress
+- TraceLoggingSocketAddress
 targetos: Windows
 req.typenames: 
 req.redist: 

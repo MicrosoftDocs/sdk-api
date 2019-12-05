@@ -1,19 +1,17 @@
 ---
 UID: NF:netfw.INetFwServiceRestriction.ServiceRestricted
 title: INetFwServiceRestriction::ServiceRestricted (netfw.h)
-
 description: The ServiceRestricted method indicates whether service restriction rules are enabled to limit traffic to the resources specified by the firewall rules.
 old-location: ics\inetfwservicerestriction_servicerestricted.htm
 tech.root: ics
 ms.assetid: 38fe5a68-44ab-4bcb-8673-ebb1e87e446f
-
 ms.date: 12/05/2018
 ms.keywords: INetFwServiceRestriction interface [ICS/ICF],ServiceRestricted method, INetFwServiceRestriction.ServiceRestricted, INetFwServiceRestriction::ServiceRestricted, ServiceRestricted, ServiceRestricted method [ICS/ICF], ServiceRestricted method [ICS/ICF],INetFwServiceRestriction interface, ics.inetfwservicerestriction_servicerestricted, netfw/INetFwServiceRestriction::ServiceRestricted
 ms.topic: method
-f1_keywords: 
- - "netfw/INetFwServiceRestriction.ServiceRestricted"
+f1_keywords:
+- netfw/INetFwServiceRestriction.ServiceRestricted
 dev_langs:
- - c++
+- c++
 req.header: netfw.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: FirewallAPI.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - FirewallAPI.dll
+- FirewallAPI.dll
 api_name:
- - INetFwServiceRestriction.ServiceRestricted
+- INetFwServiceRestriction.ServiceRestricted
 targetos: Windows
 req.typenames: 
 req.redist: 

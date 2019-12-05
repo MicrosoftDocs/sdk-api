@@ -1,19 +1,17 @@
 ---
 UID: NF:wmp.IWMPMedia.get_isIdentical
 title: IWMPMedia::get_isIdentical (wmp.h)
-
 description: The get_isIdentical method retrieves a value indicating whether the specified object is the same as the current one.
 old-location: wmp\iwmpmedia_get_isidentical.htm
 tech.root: WMP
 ms.assetid: 6ec54350-0359-4759-a6ba-6132ce33feff
-
 ms.date: 12/05/2018
 ms.keywords: IWMPMedia interface [Windows Media Player],get_isIdentical method, IWMPMedia.get_isIdentical, IWMPMedia2 interface [Windows Media Player],get_isIdentical method, IWMPMedia2::get_isIdentical, IWMPMedia3 interface [Windows Media Player],get_isIdentical method, IWMPMedia3::get_isIdentical, IWMPMedia::get_isIdentical, IWMPMediaget_isIdentical, get_isIdentical, get_isIdentical method [Windows Media Player], get_isIdentical method [Windows Media Player],IWMPMedia interface, get_isIdentical method [Windows Media Player],IWMPMedia2 interface, get_isIdentical method [Windows Media Player],IWMPMedia3 interface, wmp.iwmpmedia_get_isidentical, wmp/IWMPMedia2::get_isIdentical, wmp/IWMPMedia3::get_isIdentical, wmp/IWMPMedia::get_isIdentical
 ms.topic: method
-f1_keywords: 
- - "wmp/IWMPMedia.get_isIdentical"
+f1_keywords:
+- wmp/IWMPMedia.get_isIdentical
 dev_langs:
- - c++
+- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: Wmp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmp.dll
+- wmp.dll
 api_name:
- - IWMPMedia.get_isIdentical
- - IWMPMedia2.get_isIdentical
- - IWMPMedia3.get_isIdentical
+- IWMPMedia.get_isIdentical
+- IWMPMedia2.get_isIdentical
+- IWMPMedia3.get_isIdentical
 targetos: Windows
 req.typenames: 
 req.redist: 

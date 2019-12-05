@@ -1,19 +1,17 @@
 ---
 UID: NF:wmcodecdsp.IWMResizerProps.SetInterlaceMode
 title: IWMResizerProps::SetInterlaceMode (wmcodecdsp.h)
-
 description: The SetInterlaceMode method specifies whether the input video stream is interlaced.
 old-location: mf\iwmresizerpropssetinterlacemode.htm
 tech.root: medfound
 ms.assetid: a5ce36aa-d46c-4c17-bc8d-4840ea496980
-
 ms.date: 12/05/2018
 ms.keywords: IWMResizerProps interface [Media Foundation],SetInterlaceMode method, IWMResizerProps.SetInterlaceMode, IWMResizerProps::SetInterlaceMode, SetInterlaceMode, SetInterlaceMode method [Media Foundation], SetInterlaceMode method [Media Foundation],IWMResizerProps interface, codecapi.iwmresizerpropssetinterlacemode, mf.iwmresizerpropssetinterlacemode, wmcodecdsp/IWMResizerProps::SetInterlaceMode
 ms.topic: method
-f1_keywords: 
- - "wmcodecdsp/IWMResizerProps.SetInterlaceMode"
+f1_keywords:
+- wmcodecdsp/IWMResizerProps.SetInterlaceMode
 dev_langs:
- - c++
+- c++
 req.header: wmcodecdsp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmcodecdsp.h
+- wmcodecdsp.h
 api_name:
- - IWMResizerProps.SetInterlaceMode
+- IWMResizerProps.SetInterlaceMode
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:d2d1.ID2D1RenderTarget.Clear(const D2D1_COLOR_F &)
 title: ID2D1RenderTarget::Clear(const D2D1_COLOR_F &) (d2d1.h)
-
 description: Clears the drawing area to the specified color.
 old-location: direct2d\ID2D1RenderTarget_Clear_ptr_COLOR_F.htm
 tech.root: Direct2D
 ms.assetid: c39b83e0-4cde-4e94-94e9-37b5c36f7877
-
 ms.date: 12/05/2018
 ms.keywords: Clear, Clear method [Direct2D], Clear method [Direct2D],ID2D1RenderTarget interface, ID2D1RenderTarget interface [Direct2D],Clear method, ID2D1RenderTarget.Clear, ID2D1RenderTarget.Clear(const D2D1_COLOR_F &), ID2D1RenderTarget::Clear, ID2D1RenderTarget::Clear(const D2D1_COLOR_F &), ID2D1RenderTarget::Clear(const D2D1_COLOR_F), d2d1/ID2D1RenderTarget::Clear, direct2d.ID2D1RenderTarget_Clear_ptr_COLOR_F
 ms.topic: method
-f1_keywords: 
- - "d2d1/ID2D1RenderTarget.Clear"
+f1_keywords:
+- d2d1/ID2D1RenderTarget.Clear
 dev_langs:
- - c++
+- c++
 req.header: d2d1.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: D2d1.lib
 req.dll: D2d1.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D2d1.dll
+- D2d1.dll
 api_name:
- - ID2D1RenderTarget.Clear
+- ID2D1RenderTarget.Clear
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d12.D3D12CreateRootSignatureDeserializer
 title: D3D12CreateRootSignatureDeserializer function (d3d12.h)
-
 description: Deserializes a root signature so you can determine the layout definition (D3D12_ROOT_SIGNATURE_DESC).
 old-location: direct3d12\d3d12createrootsignaturedeserializer.htm
 tech.root: direct3d12
 ms.assetid: 96E58C9B-569F-41B8-A799-E87D849C045C
-
 ms.date: 12/05/2018
 ms.keywords: D3D12CreateRootSignatureDeserializer, D3D12CreateRootSignatureDeserializer function, d3d12/D3D12CreateRootSignatureDeserializer, direct3d12.d3d12createrootsignaturedeserializer
 ms.topic: function
-f1_keywords: 
- - "d3d12/D3D12CreateRootSignatureDeserializer"
+f1_keywords:
+- d3d12/D3D12CreateRootSignatureDeserializer
 dev_langs:
- - c++
+- c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: D3D12.lib
 req.dll: D3D12.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - D3D12.dll
+- D3D12.dll
 api_name:
- - D3D12CreateRootSignatureDeserializer
+- D3D12CreateRootSignatureDeserializer
 targetos: Windows
 req.typenames: 
 req.redist: 

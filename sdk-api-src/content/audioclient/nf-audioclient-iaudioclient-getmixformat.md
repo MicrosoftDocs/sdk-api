@@ -1,19 +1,17 @@
 ---
 UID: NF:audioclient.IAudioClient.GetMixFormat
 title: IAudioClient::GetMixFormat (audioclient.h)
-
 description: The GetMixFormat method retrieves the stream format that the audio engine uses for its internal processing of shared-mode streams.
 old-location: coreaudio\iaudioclient_getmixformat.htm
 tech.root: CoreAudio
 ms.assetid: 63f3e593-3904-44f9-a912-78c6c98e7597
-
 ms.date: 12/05/2018
 ms.keywords: GetMixFormat, GetMixFormat method [Core Audio], GetMixFormat method [Core Audio],IAudioClient interface, IAudioClient interface [Core Audio],GetMixFormat method, IAudioClient.GetMixFormat, IAudioClient::GetMixFormat, IAudioClientGetMixFormat, audioclient/IAudioClient::GetMixFormat, coreaudio.iaudioclient_getmixformat
 ms.topic: method
-f1_keywords: 
- - "audioclient/IAudioClient.GetMixFormat"
+f1_keywords:
+- audioclient/IAudioClient.GetMixFormat
 dev_langs:
- - c++
+- c++
 req.header: audioclient.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Audioclient.h
+- Audioclient.h
 api_name:
- - IAudioClient.GetMixFormat
+- IAudioClient.GetMixFormat
 targetos: Windows
 req.typenames: 
 req.redist: 

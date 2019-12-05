@@ -1,19 +1,17 @@
 ---
 UID: NF:dxgi1_3.IDXGISwapChainMedia.CheckPresentDurationSupport
 title: IDXGISwapChainMedia::CheckPresentDurationSupport (dxgi1_3.h)
-
 description: Queries the graphics driver for a supported frame present duration corresponding to a custom refresh rate.
 old-location: direct3ddxgi\idxgiswapchainmedia_checkpresentdurationsupport.htm
 tech.root: direct3ddxgi
 ms.assetid: 3334E761-745E-4476-9AB4-4FC6DABC78E8
-
 ms.date: 12/05/2018
 ms.keywords: CheckPresentDurationSupport, CheckPresentDurationSupport method [DXGI], CheckPresentDurationSupport method [DXGI],IDXGISwapChainMedia interface, IDXGISwapChainMedia interface [DXGI],CheckPresentDurationSupport method, IDXGISwapChainMedia.CheckPresentDurationSupport, IDXGISwapChainMedia::CheckPresentDurationSupport, direct3ddxgi.idxgiswapchainmedia_checkpresentdurationsupport, dxgi1_3/IDXGISwapChainMedia::CheckPresentDurationSupport
 ms.topic: method
-f1_keywords: 
- - "dxgi1_3/IDXGISwapChainMedia.CheckPresentDurationSupport"
+f1_keywords:
+- dxgi1_3/IDXGISwapChainMedia.CheckPresentDurationSupport
 dev_langs:
- - c++
+- c++
 req.header: dxgi1_3.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Dxgi.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dxgi.lib
- - Dxgi.dll
+- Dxgi.lib
+- Dxgi.dll
 api_name:
- - IDXGISwapChainMedia.CheckPresentDurationSupport
+- IDXGISwapChainMedia.CheckPresentDurationSupport
 targetos: Windows
 req.typenames: 
 req.redist: 

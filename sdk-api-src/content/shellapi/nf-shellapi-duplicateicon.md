@@ -1,19 +1,17 @@
 ---
 UID: NF:shellapi.DuplicateIcon
 title: DuplicateIcon function (shellapi.h)
-
 description: Creates a duplicate of a specified icon.
 old-location: shell\DuplicateIcon.htm
 tech.root: shell
 ms.assetid: 488a24e1-f6f0-4bbd-9487-2b4c650f4879
-
 ms.date: 12/05/2018
 ms.keywords: DuplicateIcon, DuplicateIcon function [Windows Shell], _shell_DuplicateIcon, shell.DuplicateIcon, shellapi/DuplicateIcon
 ms.topic: function
-f1_keywords: 
- - "shellapi/DuplicateIcon"
+f1_keywords:
+- shellapi/DuplicateIcon
 dev_langs:
- - c++
+- c++
 req.header: shellapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: Shell32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Shell32.dll
- - ext-ms-win-shell-shell32-l1-2-1.dll
- - Ext-MS-Win-Shell-Shell32-L1-2-2.dll
+- Shell32.dll
+- ext-ms-win-shell-shell32-l1-2-1.dll
+- Ext-MS-Win-Shell-Shell32-L1-2-2.dll
 api_name:
- - DuplicateIcon
+- DuplicateIcon
 targetos: Windows
 req.typenames: 
 req.redist: 

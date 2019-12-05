@@ -1,19 +1,17 @@
 ---
 UID: NF:d2d1effectauthor.ID2D1SourceTransform.Draw
 title: ID2D1SourceTransform::Draw (d2d1effectauthor.h)
-
 description: Draws the transform to the graphics processing unit (GPU)–based Direct2D pipeline.
 old-location: direct2d\id2d1sourcetransform_draw.htm
 tech.root: Direct2D
 ms.assetid: 38EBBFB2-7A49-4386-80B3-86B44BF2FC39
-
 ms.date: 12/05/2018
 ms.keywords: Draw, Draw method [Direct2D], Draw method [Direct2D],ID2D1SourceTransform interface, ID2D1SourceTransform interface [Direct2D],Draw method, ID2D1SourceTransform.Draw, ID2D1SourceTransform::Draw, d2d1effectauthor/ID2D1SourceTransform::Draw, direct2d.id2d1sourcetransform_draw
 ms.topic: method
-f1_keywords: 
- - "d2d1effectauthor/ID2D1SourceTransform.Draw"
+f1_keywords:
+- d2d1effectauthor/ID2D1SourceTransform.Draw
 dev_langs:
- - c++
+- c++
 req.header: d2d1effectauthor.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: D2d1.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - d2d1.lib
- - d2d1.dll
+- d2d1.lib
+- d2d1.dll
 api_name:
- - ID2D1SourceTransform.Draw
+- ID2D1SourceTransform.Draw
 targetos: Windows
 req.typenames: 
 req.redist: 

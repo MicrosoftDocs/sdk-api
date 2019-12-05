@@ -1,19 +1,17 @@
 ---
 UID: NN:tsvirtualchannels.IWTSBitmapRendererCallback
 title: IWTSBitmapRendererCallback (tsvirtualchannels.h)
-
 description: A dynamic virtual channel plug-in implements this interface to be notified when the size of the rendering area changes.
 old-location: termserv\iwtsbitmaprenderercallback.htm
 tech.root: TermServ
 ms.assetid: bdb8280b-6ebc-47e4-9789-47e3bda96efc
-
 ms.date: 12/05/2018
 ms.keywords: IWTSBitmapRendererCallback, IWTSBitmapRendererCallback interface [Remote Desktop Services], IWTSBitmapRendererCallback interface [Remote Desktop Services],described, termserv.iwtsbitmaprenderercallback, tsvirtualchannels/IWTSBitmapRendererCallback
 ms.topic: interface
-f1_keywords: 
- - "tsvirtualchannels/IWTSBitmapRendererCallback"
+f1_keywords:
+- tsvirtualchannels/IWTSBitmapRendererCallback
 dev_langs:
- - c++
+- c++
 req.header: tsvirtualchannels.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - tsvirtualchannels.h
+- tsvirtualchannels.h
 api_name:
- - IWTSBitmapRendererCallback
+- IWTSBitmapRendererCallback
 targetos: Windows
 req.typenames: 
 req.redist: 

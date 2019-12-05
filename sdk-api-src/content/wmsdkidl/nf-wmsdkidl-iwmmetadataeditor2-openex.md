@@ -1,19 +1,17 @@
 ---
 UID: NF:wmsdkidl.IWMMetadataEditor2.OpenEx
 title: IWMMetadataEditor2::OpenEx (wmsdkidl.h)
-
 description: The OpenEx method opens a file for use by the metadata editor object. OpenEx opens ASF files and MP3 files, though the metadata editor has limited capabilities when working with MP3 files.
 old-location: wmformat\iwmmetadataeditor2_openex.htm
 tech.root: wmformat
 ms.assetid: e35f5f85-659e-4a1f-8bfd-4ad3e946d733
-
 ms.date: 12/05/2018
 ms.keywords: IWMMetadataEditor2 interface [windows Media Format],OpenEx method, IWMMetadataEditor2.OpenEx, IWMMetadataEditor2::OpenEx, IWMMetadataEditor2OpenEx, OpenEx, OpenEx method [windows Media Format], OpenEx method [windows Media Format],IWMMetadataEditor2 interface, wmformat.iwmmetadataeditor2_openex, wmsdkidl/IWMMetadataEditor2::OpenEx
 ms.topic: method
-f1_keywords: 
- - "wmsdkidl/IWMMetadataEditor2.OpenEx"
+f1_keywords:
+- wmsdkidl/IWMMetadataEditor2.OpenEx
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wmvcore.lib
- - Wmvcore.dll
- - WMStubDRM.lib
- - WMStubDRM.dll
+- Wmvcore.lib
+- Wmvcore.dll
+- WMStubDRM.lib
+- WMStubDRM.dll
 api_name:
- - IWMMetadataEditor2.OpenEx
+- IWMMetadataEditor2.OpenEx
 targetos: Windows
 req.typenames: 
 req.redist: 

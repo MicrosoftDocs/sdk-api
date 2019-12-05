@@ -1,19 +1,17 @@
 ---
 UID: NN:manipulations.IManipulationProcessor
 title: IManipulationProcessor (manipulations.h)
-
 description: The IManipulationProcessor provides functionality for monitoring and responding to multitouch input.
 old-location: wintouch\imanipulationprocessor.htm
 tech.root: wintouch
 ms.assetid: 963f87c1-e128-4bd5-9f28-d49418f768fb
-
 ms.date: 12/05/2018
 ms.keywords: IManipulationProcessor, IManipulationProcessor interface [Windows Touch], IManipulationProcessor interface [Windows Touch],described, manipulations/IManipulationProcessor, wintouch.imanipulationprocessor
 ms.topic: interface
-f1_keywords: 
- - "manipulations/IManipulationProcessor"
+f1_keywords:
+- manipulations/IManipulationProcessor
 dev_langs:
- - c++
+- c++
 req.header: manipulations.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - manipulations.h
+- manipulations.h
 api_name:
- - IManipulationProcessor
+- IManipulationProcessor
 targetos: Windows
 req.typenames: 
 req.redist: 

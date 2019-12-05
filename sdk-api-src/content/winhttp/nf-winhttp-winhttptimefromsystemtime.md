@@ -1,19 +1,17 @@
 ---
 UID: NF:winhttp.WinHttpTimeFromSystemTime
 title: WinHttpTimeFromSystemTime function (winhttp.h)
-
 description: Formats a date and time according to the HTTP version 1.0 specification.
 old-location: http\winhttptimefromsystemtime.htm
 tech.root: WinHttp
 ms.assetid: 8d55e3bb-0b86-41d9-ba39-62feb2acc707
-
 ms.date: 12/05/2018
 ms.keywords: WinHttpTimeFromSystemTime, WinHttpTimeFromSystemTime function [WinHTTP], http.winhttptimefromsystemtime, winhttp.winhttptimefromsystemtime_function, winhttp/WinHttpTimeFromSystemTime
 ms.topic: function
-f1_keywords: 
- - "winhttp/WinHttpTimeFromSystemTime"
+f1_keywords:
+- winhttp/WinHttpTimeFromSystemTime
 dev_langs:
- - c++
+- c++
 req.header: winhttp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Winhttp.lib
 req.dll: Winhttp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Winhttp.dll
+- Winhttp.dll
 api_name:
- - WinHttpTimeFromSystemTime
+- WinHttpTimeFromSystemTime
 targetos: Windows
 req.typenames: 
 req.redist: WinHTTP 5.0 and Internet Explorer 5.01 or later on Windows XP and Windows 2000.

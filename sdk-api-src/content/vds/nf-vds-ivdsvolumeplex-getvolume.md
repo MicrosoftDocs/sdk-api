@@ -1,19 +1,17 @@
 ---
 UID: NF:vds.IVdsVolumePlex.GetVolume
 title: IVdsVolumePlex::GetVolume (vds.h)
-
 description: Returns the volume to which the current plex is a member.
 old-location: base\ivdsvolumeplex_getvolume.htm
 tech.root: VDS
 ms.assetid: ddf6102b-81d4-4604-942e-ffb1c2c4730f
-
 ms.date: 12/05/2018
 ms.keywords: GetVolume, GetVolume method [VDS], GetVolume method [VDS],IVdsVolumePlex interface, IVdsVolumePlex interface [VDS],GetVolume method, IVdsVolumePlex.GetVolume, IVdsVolumePlex::GetVolume, base.ivdsvolumeplex_getvolume, vds/IVdsVolumePlex::GetVolume
 ms.topic: method
-f1_keywords: 
- - "vds/IVdsVolumePlex.GetVolume"
+f1_keywords:
+- vds/IVdsVolumePlex.GetVolume
 dev_langs:
- - c++
+- c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Uuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Uuid.lib
- - Uuid.dll
+- Uuid.lib
+- Uuid.dll
 api_name:
- - IVdsVolumePlex.GetVolume
+- IVdsVolumePlex.GetVolume
 targetos: Windows
 req.typenames: 
 req.redist: 

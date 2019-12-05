@@ -1,19 +1,17 @@
 ---
 UID: NE:d2d1.D2D1_OPACITY_MASK_CONTENT
 title: D2D1_OPACITY_MASK_CONTENT (d2d1.h)
-
 description: Describes whether an opacity mask contains graphics or text. Direct2D uses this information to determine which gamma space to use when blending the opacity mask.
 old-location: direct2d\d2d1_opacity_mask_content.htm
 tech.root: Direct2D
 ms.assetid: ea14d7eb-b8cc-4ab8-8f51-9174748ee6a2
-
 ms.date: 12/05/2018
 ms.keywords: D2D1_OPACITY_MASK_CONTENT, D2D1_OPACITY_MASK_CONTENT enumeration [Direct2D], D2D1_OPACITY_MASK_CONTENT_GRAPHICS, D2D1_OPACITY_MASK_CONTENT_TEXT_GDI_COMPATIBLE, D2D1_OPACITY_MASK_CONTENT_TEXT_NATURAL, d2d1/D2D1_OPACITY_MASK_CONTENT, d2d1/D2D1_OPACITY_MASK_CONTENT_GRAPHICS, d2d1/D2D1_OPACITY_MASK_CONTENT_TEXT_GDI_COMPATIBLE, d2d1/D2D1_OPACITY_MASK_CONTENT_TEXT_NATURAL, direct2d.d2d1_opacity_mask_content
 ms.topic: enum
-f1_keywords: 
- - "d2d1/D2D1_OPACITY_MASK_CONTENT"
+f1_keywords:
+- d2d1/D2D1_OPACITY_MASK_CONTENT
 dev_langs:
- - c++
+- c++
 req.header: d2d1.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - d2d1.h
+- d2d1.h
 api_name:
- - D2D1_OPACITY_MASK_CONTENT
+- D2D1_OPACITY_MASK_CONTENT
 targetos: Windows
 req.typenames: D2D1_OPACITY_MASK_CONTENT
 req.redist: 

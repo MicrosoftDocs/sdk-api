@@ -1,19 +1,17 @@
 ---
 UID: NF:wincrypt.CryptInstallDefaultContext
 title: CryptInstallDefaultContext function (wincrypt.h)
-
 description: Installs a specific provider to be the default context provider for the specified algorithm.
 old-location: security\cryptinstalldefaultcontext.htm
 tech.root: SecCrypto
 ms.assetid: 79d121df-0699-424e-a8de-5fc2b396afc2
-
 ms.date: 12/05/2018
 ms.keywords: CRYPT_DEFAULT_CONTEXT_AUTO_RELEASE_FLAG, CRYPT_DEFAULT_CONTEXT_CERT_SIGN_OID, CRYPT_DEFAULT_CONTEXT_MULTI_CERT_SIGN_OID, CRYPT_DEFAULT_CONTEXT_PROCESS_FLAG, CryptInstallDefaultContext, CryptInstallDefaultContext function [Security], _crypto2_cryptinstalldefaultcontext, security.cryptinstalldefaultcontext, wincrypt/CryptInstallDefaultContext
 ms.topic: function
-f1_keywords: 
- - "wincrypt/CryptInstallDefaultContext"
+f1_keywords:
+- wincrypt/CryptInstallDefaultContext
 dev_langs:
- - c++
+- c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Crypt32.lib
 req.dll: Crypt32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Crypt32.dll
+- Crypt32.dll
 api_name:
- - CryptInstallDefaultContext
+- CryptInstallDefaultContext
 targetos: Windows
 req.typenames: 
 req.redist: 

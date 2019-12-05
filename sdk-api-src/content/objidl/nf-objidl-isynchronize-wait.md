@@ -1,19 +1,17 @@
 ---
 UID: NF:objidl.ISynchronize.Wait
 title: ISynchronize::Wait (objidl.h)
-
 description: Waits for the synchronization object to be signaled or for a specified timeout period to elapse, whichever comes first.
 old-location: com\isynchronize_wait.htm
 tech.root: com
 ms.assetid: 1abed0be-b4e3-41f4-af6c-e327ce934b59
-
 ms.date: 12/05/2018
 ms.keywords: ISynchronize interface [COM],Wait method, ISynchronize.Wait, ISynchronize::Wait, Wait, Wait method [COM], Wait method [COM],ISynchronize interface, _com_isynchronize_wait, com.isynchronize_wait, objidlbase/ISynchronize::Wait
 ms.topic: method
-f1_keywords: 
- - "objidl/ISynchronize.Wait"
+f1_keywords:
+- objidl/ISynchronize.Wait
 dev_langs:
- - c++
+- c++
 req.header: objidl.h
 req.include-header: ObjIdl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - objidlbase.h
+- objidlbase.h
 api_name:
- - ISynchronize.Wait
+- ISynchronize.Wait
 targetos: Windows
 req.typenames: 
 req.redist: 

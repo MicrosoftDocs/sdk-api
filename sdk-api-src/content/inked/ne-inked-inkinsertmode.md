@@ -1,19 +1,17 @@
 ---
 UID: NE:inked.InkInsertMode
 title: InkInsertMode (inked.h)
-
 description: Specifies how ink is inserted onto the InkEdit control.
 old-location: tablet\inkinsertmode.htm
 tech.root: tablet
 ms.assetid: ab15cf9f-c3c8-4cdb-9350-ffa734e4da35
-
 ms.date: 12/05/2018
 ms.keywords: IEM_InsertAsInk, IEM_InsertAsText, InkInsertMode, InkInsertMode enumeration [Tablet PC], ab15cf9f-c3c8-4cdb-9350-ffa734e4da35, inked/IEM_InsertAsInk, inked/IEM_InsertAsText, inked/InkInsertMode, tablet.inkinsertmode
 ms.topic: enum
-f1_keywords: 
- - "inked/InkInsertMode"
+f1_keywords:
+- inked/InkInsertMode
 dev_langs:
- - c++
+- c++
 req.header: inked.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - inked.h
+- inked.h
 api_name:
- - InkInsertMode
+- InkInsertMode
 targetos: Windows
 req.typenames: InkInsertMode
 req.redist: 

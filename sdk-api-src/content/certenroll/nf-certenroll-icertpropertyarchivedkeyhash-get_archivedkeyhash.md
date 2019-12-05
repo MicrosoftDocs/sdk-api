@@ -1,19 +1,17 @@
 ---
 UID: NF:certenroll.ICertPropertyArchivedKeyHash.get_ArchivedKeyHash
 title: ICertPropertyArchivedKeyHash::get_ArchivedKeyHash (certenroll.h)
-
 description: Retrieves a SHA-1 hash of the private key.
 old-location: security\icertpropertyarchivedkeyhash_archivedkeyhash.htm
 tech.root: seccertenroll
 ms.assetid: b5f38bfc-58aa-42c6-a457-44bdfd013ce7
-
 ms.date: 12/05/2018
 ms.keywords: ArchivedKeyHash property [Security], ArchivedKeyHash property [Security],ICertPropertyArchivedKeyHash interface, ICertPropertyArchivedKeyHash interface [Security],ArchivedKeyHash property, ICertPropertyArchivedKeyHash.ArchivedKeyHash, ICertPropertyArchivedKeyHash.get_ArchivedKeyHash, ICertPropertyArchivedKeyHash::ArchivedKeyHash, ICertPropertyArchivedKeyHash::get_ArchivedKeyHash, certenroll/ICertPropertyArchivedKeyHash::ArchivedKeyHash, certenroll/ICertPropertyArchivedKeyHash::get_ArchivedKeyHash, get_ArchivedKeyHash, security.icertpropertyarchivedkeyhash_archivedkeyhash
 ms.topic: method
-f1_keywords: 
- - "certenroll/ICertPropertyArchivedKeyHash.ArchivedKeyHash"
+f1_keywords:
+- certenroll/ICertPropertyArchivedKeyHash.ArchivedKeyHash
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: CertEnroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CertEnroll.dll
+- CertEnroll.dll
 api_name:
- - ICertPropertyArchivedKeyHash.ArchivedKeyHash
- - ICertPropertyArchivedKeyHash.get_ArchivedKeyHash
+- ICertPropertyArchivedKeyHash.ArchivedKeyHash
+- ICertPropertyArchivedKeyHash.get_ArchivedKeyHash
 targetos: Windows
 req.typenames: 
 req.redist: 

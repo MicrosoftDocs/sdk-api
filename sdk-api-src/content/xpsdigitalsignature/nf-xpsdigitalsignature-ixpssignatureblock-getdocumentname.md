@@ -1,19 +1,17 @@
 ---
 UID: NF:xpsdigitalsignature.IXpsSignatureBlock.GetDocumentName
 title: IXpsSignatureBlock::GetDocumentName (xpsdigitalsignature.h)
-
 description: Gets a pointer to the IOpcPartUri interface that contains the URI of the document part.
 old-location: xps\ixpssignatureblock_getdocumentname.htm
 tech.root: printdocs
 ms.assetid: f93e94ff-c56f-4b3c-8af8-983253bd5657
-
 ms.date: 12/05/2018
 ms.keywords: GetDocumentName, GetDocumentName method [XPS Documents and Packaging], GetDocumentName method [XPS Documents and Packaging],IXpsSignatureBlock interface, IXpsSignatureBlock interface [XPS Documents and Packaging],GetDocumentName method, IXpsSignatureBlock.GetDocumentName, IXpsSignatureBlock::GetDocumentName, xps.ixpssignatureblock_getdocumentname, xpsdigitalsignature/IXpsSignatureBlock::GetDocumentName
 ms.topic: method
-f1_keywords: 
- - "xpsdigitalsignature/IXpsSignatureBlock.GetDocumentName"
+f1_keywords:
+- xpsdigitalsignature/IXpsSignatureBlock.GetDocumentName
 dev_langs:
- - c++
+- c++
 req.header: xpsdigitalsignature.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsdigitalsignature.h
+- xpsdigitalsignature.h
 api_name:
- - IXpsSignatureBlock.GetDocumentName
+- IXpsSignatureBlock.GetDocumentName
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:docobj.IOleDocumentView.SaveViewState
 title: IOleDocumentView::SaveViewState (docobj.h)
-
 description: Saves the view state into the specified stream.
 old-location: com\ioledocumentview_saveviewstate.htm
 tech.root: com
 ms.assetid: d270b441-d0d5-4dd5-995b-6ca5738747c5
-
 ms.date: 12/05/2018
 ms.keywords: IOleDocumentView interface [COM],SaveViewState method, IOleDocumentView.SaveViewState, IOleDocumentView::SaveViewState, SaveViewState, SaveViewState method [COM], SaveViewState method [COM],IOleDocumentView interface, _ole_ioledocumentview_saveviewstate, com.ioledocumentview_saveviewstate, docobj/IOleDocumentView::SaveViewState
 ms.topic: method
-f1_keywords: 
- - "docobj/IOleDocumentView.SaveViewState"
+f1_keywords:
+- docobj/IOleDocumentView.SaveViewState
 dev_langs:
- - c++
+- c++
 req.header: docobj.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - DocObj.h
+- DocObj.h
 api_name:
- - IOleDocumentView.SaveViewState
+- IOleDocumentView.SaveViewState
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:vidcap.IVideoProcAmp.get_Brightness
 title: IVideoProcAmp::get_Brightness (vidcap.h)
-
 description: The get_Brightness method returns the camera's brightness setting.
 old-location: dshow\ivideoprocamp_get_brightness.htm
 tech.root: DirectShow
 ms.assetid: b0e3b7cf-c133-4b47-8209-1014d1e3d671
-
 ms.date: 12/05/2018
 ms.keywords: IVideoProcAmp interface [DirectShow],get_Brightness method, IVideoProcAmp.get_Brightness, IVideoProcAmp::get_Brightness, IVideoProcAmpget_Brightness, dshow.ivideoprocamp_get_brightness, get_Brightness, get_Brightness method [DirectShow], get_Brightness method [DirectShow],IVideoProcAmp interface, vidcap/IVideoProcAmp::get_Brightness
 ms.topic: method
-f1_keywords: 
- - "vidcap/IVideoProcAmp.get_Brightness"
+f1_keywords:
+- vidcap/IVideoProcAmp.get_Brightness
 dev_langs:
- - c++
+- c++
 req.header: vidcap.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Vidcap.h
+- Vidcap.h
 api_name:
- - IVideoProcAmp.get_Brightness
+- IVideoProcAmp.get_Brightness
 targetos: Windows
 req.typenames: 
 req.redist: 

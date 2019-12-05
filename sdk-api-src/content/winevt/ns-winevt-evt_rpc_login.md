@@ -1,19 +1,17 @@
 ---
 UID: NS:winevt._EVT_RPC_LOGIN
 title: EVT_RPC_LOGIN (winevt.h)
-
 description: Contains the information used to connect to a remote computer.
 old-location: wes\evt_rpc_login.htm
 tech.root: wes
 ms.assetid: 38f74619-1643-461f-b04b-c15567c06ca8
-
 ms.date: 12/05/2018
 ms.keywords: EVT_RPC_LOGIN, EVT_RPC_LOGIN structure [EventLog], wes.evt_rpc_login, winevt/_EVT_RPC_LOGIN
 ms.topic: struct
 f1_keywords:
 - winevt/EVT_RPC_LOGIN
 dev_langs:
- - c++
+- c++
 req.header: winevt.h
 req.include-header: 
 req.target-type: Windows

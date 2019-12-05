@@ -1,19 +1,17 @@
 ---
 UID: NF:certenroll.ICspInformation.get_IsHardwareDevice
 title: ICspInformation::get_IsHardwareDevice (certenroll.h)
-
 description: Retrieves a Boolean value that determines whether the provider is implemented in a hardware device.
 old-location: security\icspinformation_ishardwaredevice_property.htm
 tech.root: seccertenroll
 ms.assetid: d69ade8c-3b74-4391-9048-6511f3d7e9fa
-
 ms.date: 12/05/2018
 ms.keywords: ICspInformation interface [Security],IsHardwareDevice property, ICspInformation.IsHardwareDevice, ICspInformation.get_IsHardwareDevice, ICspInformation::IsHardwareDevice, ICspInformation::get_IsHardwareDevice, IsHardwareDevice property [Security], IsHardwareDevice property [Security],ICspInformation interface, certenroll/ICspInformation::IsHardwareDevice, certenroll/ICspInformation::get_IsHardwareDevice, get_IsHardwareDevice, security.icspinformation_ishardwaredevice_property
 ms.topic: method
-f1_keywords: 
- - "certenroll/ICspInformation.IsHardwareDevice"
+f1_keywords:
+- certenroll/ICspInformation.IsHardwareDevice
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: CertEnroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CertEnroll.dll
+- CertEnroll.dll
 api_name:
- - ICspInformation.IsHardwareDevice
- - ICspInformation.get_IsHardwareDevice
+- ICspInformation.IsHardwareDevice
+- ICspInformation.get_IsHardwareDevice
 targetos: Windows
 req.typenames: 
 req.redist: 

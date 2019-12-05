@@ -1,19 +1,17 @@
 ---
 UID: NF:d2d1_1helper.RenderingControls
 title: RenderingControls function (d2d1_1helper.h)
-
 description: Returns a filled D2D1_RENDERING_CONTROLS structure.
 old-location: direct2d\renderingcontrols.htm
 tech.root: Direct2D
 ms.assetid: 5004EA84-216C-4758-8AA1-7E823583871E
-
 ms.date: 12/05/2018
 ms.keywords: RenderingControls, RenderingControls function [Direct2D], d2d1_1helper/RenderingControls, direct2d.renderingcontrols
 ms.topic: function
-f1_keywords: 
- - "d2d1_1helper/RenderingControls"
+f1_keywords:
+- d2d1_1helper/RenderingControls
 dev_langs:
- - c++
+- c++
 req.header: d2d1_1helper.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: D2d1.lib
 req.dll: D2d1.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - D2d1.dll
+- D2d1.dll
 api_name:
- - RenderingControls
+- RenderingControls
 targetos: Windows
 req.typenames: 
 req.redist: 

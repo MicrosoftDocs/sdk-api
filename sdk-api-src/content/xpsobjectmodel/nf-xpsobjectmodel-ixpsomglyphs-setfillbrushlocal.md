@@ -1,19 +1,17 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMGlyphs.SetFillBrushLocal
 title: IXpsOMGlyphs::SetFillBrushLocal (xpsobjectmodel.h)
-
 description: Sets the IXpsOMBrush interface pointer to a local, unshared fill brush.
 old-location: xps\ixpsomglyphs_setfillbrushlocal.htm
 tech.root: printdocs
 ms.assetid: 73d1b0c2-81f9-4b1e-85fa-22e1e1c221f3
-
 ms.date: 12/05/2018
 ms.keywords: IXpsOMGlyphs interface [XPS Documents and Packaging],SetFillBrushLocal method, IXpsOMGlyphs.SetFillBrushLocal, IXpsOMGlyphs::SetFillBrushLocal, SetFillBrushLocal, SetFillBrushLocal method [XPS Documents and Packaging], SetFillBrushLocal method [XPS Documents and Packaging],IXpsOMGlyphs interface, xps.ixpsomglyphs_setfillbrushlocal, xpsobjectmodel/IXpsOMGlyphs::SetFillBrushLocal
 ms.topic: method
-f1_keywords: 
- - "xpsobjectmodel/IXpsOMGlyphs.SetFillBrushLocal"
+f1_keywords:
+- xpsobjectmodel/IXpsOMGlyphs.SetFillBrushLocal
 dev_langs:
- - c++
+- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsobjectmodel.h
+- xpsobjectmodel.h
 api_name:
- - IXpsOMGlyphs.SetFillBrushLocal
+- IXpsOMGlyphs.SetFillBrushLocal
 targetos: Windows
 req.typenames: 
 req.redist: 

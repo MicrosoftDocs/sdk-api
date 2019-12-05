@@ -1,19 +1,17 @@
 ---
 UID: NF:propvarutil.VariantToBuffer
 title: VariantToBuffer function (propvarutil.h)
-
 description: Extracts the contents of a buffer stored in a VARIANT structure of type VT_ARRRAY | VT_UI1.
 old-location: properties\VariantToBuffer.htm
 tech.root: properties
 ms.assetid: 2d310156-c274-4aaf-aee2-ac311a952889
-
 ms.date: 12/05/2018
 ms.keywords: VariantToBuffer, VariantToBuffer function [Windows Properties], _shell_VariantToBuffer, properties.VariantToBuffer, propvarutil/VariantToBuffer, shell.VariantToBuffer
 ms.topic: function
-f1_keywords: 
- - "propvarutil/VariantToBuffer"
+f1_keywords:
+- propvarutil/VariantToBuffer
 dev_langs:
- - c++
+- c++
 req.header: propvarutil.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Propsys.lib
 req.dll: Propsys.dll (version 6.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Propsys.dll
+- Propsys.dll
 api_name:
- - VariantToBuffer
+- VariantToBuffer
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0

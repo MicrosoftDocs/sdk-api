@@ -1,19 +1,17 @@
 ---
 UID: NF:d2d1effectauthor.ID2D1TransformGraph.ConnectNode
 title: ID2D1TransformGraph::ConnectNode (d2d1effectauthor.h)
-
 description: Connects two nodes inside the transform graph.
 old-location: direct2d\id2d1transformgraph_connectnode.htm
 tech.root: Direct2D
 ms.assetid: 59C7A366-804F-4CB3-A8CB-8617F226CE6B
-
 ms.date: 12/05/2018
 ms.keywords: ConnectNode, ConnectNode method [Direct2D], ConnectNode method [Direct2D],ID2D1TransformGraph interface, ID2D1TransformGraph interface [Direct2D],ConnectNode method, ID2D1TransformGraph.ConnectNode, ID2D1TransformGraph::ConnectNode, d2d1effectauthor/ID2D1TransformGraph::ConnectNode, direct2d.id2d1transformgraph_connectnode
 ms.topic: method
-f1_keywords: 
- - "d2d1effectauthor/ID2D1TransformGraph.ConnectNode"
+f1_keywords:
+- d2d1effectauthor/ID2D1TransformGraph.ConnectNode
 dev_langs:
- - c++
+- c++
 req.header: d2d1effectauthor.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: D2d1.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - d2d1.lib
- - d2d1.dll
+- d2d1.lib
+- d2d1.dll
 api_name:
- - ID2D1TransformGraph.ConnectNode
+- ID2D1TransformGraph.ConnectNode
 targetos: Windows
 req.typenames: 
 req.redist: 

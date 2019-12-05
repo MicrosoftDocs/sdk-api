@@ -1,19 +1,17 @@
 ---
 UID: NE:propsys.PROPDESC_AGGREGATION_TYPE
 title: PROPDESC_AGGREGATION_TYPE (propsys.h)
-
 description: Describes how property values are displayed when multiple items are selected.
 old-location: properties\PROPDESC_AGGREGATION_TYPE.htm
 tech.root: properties
 ms.assetid: 7f42d7dd-cc8e-444f-a4df-2d67362486f2
-
 ms.date: 12/05/2018
 ms.keywords: PDAT_AVERAGE, PDAT_DATERANGE, PDAT_DEFAULT, PDAT_FIRST, PDAT_MAX, PDAT_MIN, PDAT_SUM, PDAT_UNION, PROPDESC_AGGREGATION_TYPE, PROPDESC_AGGREGATION_TYPE enumeration [Windows Properties], _shell_PROPDESC_AGGREGATION_TYPE, properties.PROPDESC_AGGREGATION_TYPE, propsys/PDAT_AVERAGE, propsys/PDAT_DATERANGE, propsys/PDAT_DEFAULT, propsys/PDAT_FIRST, propsys/PDAT_MAX, propsys/PDAT_MIN, propsys/PDAT_SUM, propsys/PDAT_UNION, propsys/PROPDESC_AGGREGATION_TYPE, shell.PROPDESC_AGGREGATION_TYPE
 ms.topic: enum
-f1_keywords: 
- - "propsys/PROPDESC_AGGREGATION_TYPE"
+f1_keywords:
+- propsys/PROPDESC_AGGREGATION_TYPE
 dev_langs:
- - c++
+- c++
 req.header: propsys.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Propsys.h
+- Propsys.h
 api_name:
- - PROPDESC_AGGREGATION_TYPE
+- PROPDESC_AGGREGATION_TYPE
 targetos: Windows
 req.typenames: PROPDESC_AGGREGATION_TYPE
 req.redist: 

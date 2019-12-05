@@ -1,19 +1,17 @@
 ---
 UID: NF:mfspatialaudio.IMFSpatialAudioSample.GetObjectCount
 title: IMFSpatialAudioSample::GetObjectCount (mfspatialaudio.h)
-
 description: Gets the count of spatial audio objects, represented by IMFSpatialAudioObjectBuffer objects, in the sample.
 old-location: mf\imfspatialaudiosample_getobjectcount.htm
 tech.root: medfound
 ms.assetid: D386E482-4C5A-4F8A-801F-EA1AD4C9157C
-
 ms.date: 12/05/2018
 ms.keywords: GetObjectCount, GetObjectCount method [Media Foundation], GetObjectCount method [Media Foundation],IMFSpatialAudioSample interface, IMFSpatialAudioSample interface [Media Foundation],GetObjectCount method, IMFSpatialAudioSample.GetObjectCount, IMFSpatialAudioSample::GetObjectCount, mf.imfspatialaudiosample_getobjectcount, mfspatialaudio/IMFSpatialAudioSample::GetObjectCount
 ms.topic: method
-f1_keywords: 
- - "mfspatialaudio/IMFSpatialAudioSample.GetObjectCount"
+f1_keywords:
+- mfspatialaudio/IMFSpatialAudioSample.GetObjectCount
 dev_langs:
- - c++
+- c++
 req.header: mfspatialaudio.h
 req.include-header: Mfobjects.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfobjects.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfobjects.lib
- - mfobjects.dll
+- mfobjects.lib
+- mfobjects.dll
 api_name:
- - IMFSpatialAudioSample.GetObjectCount
+- IMFSpatialAudioSample.GetObjectCount
 targetos: Windows
 req.typenames: 
 req.redist: 

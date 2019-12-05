@@ -1,19 +1,17 @@
 ---
 UID: NN:photoacquire.IPhotoAcquireItem
 title: IPhotoAcquireItem (photoacquire.h)
-
 description: The IPhotoAcquireItem interface provides methods for working with items as they are acquired from a device.
 old-location: picacq\iphotoacquireitem.htm
 tech.root: acquisition
 ms.assetid: 57e099eb-bf8d-4465-af4d-fcfc3eee3b5b
-
 ms.date: 12/05/2018
 ms.keywords: IPhotoAcquireItem, IPhotoAcquireItem interface [Picture Acquisition], IPhotoAcquireItem interface [Picture Acquisition],described, IPhotoAcquireItemInterface, photoacquire/IPhotoAcquireItem, picacq.iphotoacquireitem
 ms.topic: interface
-f1_keywords: 
- - "photoacquire/IPhotoAcquireItem"
+f1_keywords:
+- photoacquire/IPhotoAcquireItem
 dev_langs:
- - c++
+- c++
 req.header: photoacquire.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - photoacquire.h
+- photoacquire.h
 api_name:
- - IPhotoAcquireItem
+- IPhotoAcquireItem
 targetos: Windows
 req.typenames: 
 req.redist: 

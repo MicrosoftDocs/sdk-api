@@ -1,19 +1,17 @@
 ---
 UID: NN:fsrm.IFsrmObject
 title: IFsrmObject (fsrm.h)
-
 description: Base class for all FSRM objects.
 old-location: fsrm\ifsrmobject.htm
 tech.root: fsrm
 ms.assetid: bb08ea40-6f0e-4ad5-ad57-78f17bbbd4b7
-
 ms.date: 12/05/2018
 ms.keywords: IFsrmObject, IFsrmObject interface [File Server Resource Manager], IFsrmObject interface [File Server Resource Manager],described, fs.ifsrmobject, fsrm.ifsrmobject, fsrm/IFsrmObject
 ms.topic: interface
-f1_keywords: 
- - "fsrm/IFsrmObject"
+f1_keywords:
+- fsrm/IFsrmObject
 dev_langs:
- - c++
+- c++
 req.header: fsrm.h
 req.include-header: FsrmPipeline.h, FsrmQuota.h, FsrmReports.h, FsrmScreen.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: SrmSvc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - SrmSvc.dll
+- SrmSvc.dll
 api_name:
- - IFsrmObject
+- IFsrmObject
 targetos: Windows
 req.typenames: 
 req.redist: 

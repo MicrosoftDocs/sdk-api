@@ -1,19 +1,17 @@
 ---
 UID: NS:dhcpsapi._DHCP_OPTION_VALUE_ARRAY
 title: DHCP_OPTION_VALUE_ARRAY (dhcpsapi.h)
-
 description: The DHCP_OPTION_VALUE_ARRAY structure defines a list of DHCP option values (just the option data with associated ID tags).
 old-location: dhcp\dhcp_option_value_array.htm
 tech.root: DHCP
 ms.assetid: c68b9543-0d7a-46ab-babd-3868c1338d67
-
 ms.date: 12/05/2018
 ms.keywords: '*LPDHCP_OPTION_VALUE_ARRAY, DHCP_OPTION_VALUE_ARRAY, DHCP_OPTION_VALUE_ARRAY structure [DHCP], LPDHCP_OPTION_VALUE_ARRAY, LPDHCP_OPTION_VALUE_ARRAY structure pointer [DHCP], dhcp.dhcp_option_value_array, dhcpsapi/LPDHCP_OPTION_VALUE_ARRAY, dhcpsapi/_DHCP_OPTION_VALUE_ARRAY'
 ms.topic: struct
 f1_keywords:
 - dhcpsapi/DHCP_OPTION_VALUE_ARRAY
 dev_langs:
- - c++
+- c++
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows

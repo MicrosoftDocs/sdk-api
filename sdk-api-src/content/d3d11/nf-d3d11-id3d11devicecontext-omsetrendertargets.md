@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d11.ID3D11DeviceContext.OMSetRenderTargets
 title: ID3D11DeviceContext::OMSetRenderTargets (d3d11.h)
-
 description: Bind one or more render targets atomically and the depth-stencil buffer to the output-merger stage.
 old-location: direct3d11\id3d11devicecontext_omsetrendertargets.htm
 tech.root: direct3d11
 ms.assetid: 65514812-7433-4c13-a6cb-53980dacdf65
-
 ms.date: 12/05/2018
 ms.keywords: 57e16a81-6543-5ac7-d96c-aac3ca8504f8, ID3D11DeviceContext interface [Direct3D 11],OMSetRenderTargets method, ID3D11DeviceContext.OMSetRenderTargets, ID3D11DeviceContext::OMSetRenderTargets, OMSetRenderTargets, OMSetRenderTargets method [Direct3D 11], OMSetRenderTargets method [Direct3D 11],ID3D11DeviceContext interface, d3d11/ID3D11DeviceContext::OMSetRenderTargets, direct3d11.id3d11devicecontext_omsetrendertargets
 ms.topic: method
-f1_keywords: 
- - "d3d11/ID3D11DeviceContext.OMSetRenderTargets"
+f1_keywords:
+- d3d11/ID3D11DeviceContext.OMSetRenderTargets
 dev_langs:
- - c++
+- c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: D3D11.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D11.lib
- - D3D11.dll
+- D3D11.lib
+- D3D11.dll
 api_name:
- - ID3D11DeviceContext.OMSetRenderTargets
+- ID3D11DeviceContext.OMSetRenderTargets
 targetos: Windows
 req.typenames: 
 req.redist: 

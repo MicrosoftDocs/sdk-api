@@ -1,19 +1,17 @@
 ---
 UID: NF:evcoll.EcDeleteSubscription
 title: EcDeleteSubscription function (evcoll.h)
-
 description: Deletes an existing subscription.
 old-location: wec\ecdeletesubscription.htm
 tech.root: WEC
 ms.assetid: 301b982e-a7ab-47ef-99a7-bd63dded792b
-
 ms.date: 12/05/2018
 ms.keywords: EcDeleteSubscription, EcDeleteSubscription function, evcoll/EcDeleteSubscription, wec.ecdeletesubscription, wes.ecdeletesubscription
 ms.topic: function
-f1_keywords: 
- - "evcoll/EcDeleteSubscription"
+f1_keywords:
+- evcoll/EcDeleteSubscription
 dev_langs:
- - c++
+- c++
 req.header: evcoll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Wecapi.lib
 req.dll: Wecapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Wecapi.dll
+- Wecapi.dll
 api_name:
- - EcDeleteSubscription
+- EcDeleteSubscription
 targetos: Windows
 req.typenames: 
 req.redist: 

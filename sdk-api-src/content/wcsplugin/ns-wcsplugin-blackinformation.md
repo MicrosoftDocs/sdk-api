@@ -1,19 +1,17 @@
 ---
 UID: NS:wcsplugin._BlackInformation
 title: BlackInformation (wcsplugin.h)
-
 description: Contains information for device models that have a black color channel.
 old-location: wcs\blackinformation.htm
 tech.root: WCS
 ms.assetid: b90699f6-b42e-4848-947b-76633dc35802
-
 ms.date: 12/05/2018
 ms.keywords: BlackInformation, BlackInformation structure [Windows Color System], _color_BlackInformation_str, wcs.blackinformation, wcsplugin/BlackInformation
 ms.topic: struct
-f1_keywords: 
- - "wcsplugin/BlackInformation"
+f1_keywords:
+- wcsplugin/BlackInformation
 dev_langs:
- - c++
+- c++
 req.header: wcsplugin.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WcsPlugIn.h
+- WcsPlugIn.h
 api_name:
- - BlackInformation
+- BlackInformation
 targetos: Windows
 req.typenames: BlackInformation
 req.redist: 

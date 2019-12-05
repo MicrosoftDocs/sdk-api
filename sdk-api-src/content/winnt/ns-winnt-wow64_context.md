@@ -1,19 +1,17 @@
 ---
 UID: NS:winnt._WOW64_CONTEXT
 title: WOW64_CONTEXT (winnt.h)
-
 description: Represents a context frame on WOW64.
 old-location: base\wow64_context.htm
 tech.root: Debug
 ms.assetid: b27205a2-2c33-4f45-8948-9919bcd2355a
-
 ms.date: 12/05/2018
 ms.keywords: '*PWOW64_CONTEXT, PWOW64_CONTEXT, PWOW64_CONTEXT structure pointer, WOW64_CONTEXT, WOW64_CONTEXT structure, _WOW64_CONTEXT, base.wow64_context, winnt/PWOW64_CONTEXT, winnt/WOW64_CONTEXT'
 ms.topic: struct
 f1_keywords:
 - winnt/WOW64_CONTEXT
 dev_langs:
- - c++
+- c++
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows

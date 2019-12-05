@@ -1,19 +1,17 @@
 ---
 UID: NS:audioengineendpoint.AE_CURRENT_POSITION
 title: AE_CURRENT_POSITION (audioengineendpoint.h)
-
 description: Reports the current frame position from the device to the clients.
 old-location: termserv\ae_current_position.htm
 tech.root: TermServ
 ms.assetid: 2e239114-1af7-455a-a60f-2054b05e1414
-
 ms.date: 12/05/2018
-ms.keywords: "*PAE_CURRENT_POSITION, AE_CURRENT_POSITION, AE_CURRENT_POSITION structure [Remote Desktop Services], PAE_CURRENT_POSITION, PAE_CURRENT_POSITION structure pointer [Remote Desktop Services], audioengineendpoint/AE_CURRENT_POSITION, audioengineendpoint/PAE_CURRENT_POSITION, termserv.ae_current_position"
+ms.keywords: '*PAE_CURRENT_POSITION, AE_CURRENT_POSITION, AE_CURRENT_POSITION structure [Remote Desktop Services], PAE_CURRENT_POSITION, PAE_CURRENT_POSITION structure pointer [Remote Desktop Services], audioengineendpoint/AE_CURRENT_POSITION, audioengineendpoint/PAE_CURRENT_POSITION, termserv.ae_current_position'
 ms.topic: struct
-f1_keywords: 
- - "audioengineendpoint/AE_CURRENT_POSITION"
+f1_keywords:
+- audioengineendpoint/AE_CURRENT_POSITION
 dev_langs:
- - c++
+- c++
 req.header: audioengineendpoint.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Audioengineendpoint.h
+- Audioengineendpoint.h
 api_name:
- - AE_CURRENT_POSITION
+- AE_CURRENT_POSITION
 targetos: Windows
 req.typenames: AE_CURRENT_POSITION, *PAE_CURRENT_POSITION
 req.redist: 

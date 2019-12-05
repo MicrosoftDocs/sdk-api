@@ -1,19 +1,17 @@
 ---
 UID: NF:certenroll.IX509NameValuePairs.Add
 title: IX509NameValuePairs::Add (certenroll.h)
-
 description: Adds an IX509NameValuePair object to the collection.
 old-location: security\ix509namevaluepairs_add_method.htm
 tech.root: seccertenroll
 ms.assetid: 2b5592d4-4f3b-4cea-8c59-15529cc53efa
-
 ms.date: 12/05/2018
 ms.keywords: Add, Add method [Security], Add method [Security],IX509NameValuePairs interface, IX509NameValuePairs interface [Security],Add method, IX509NameValuePairs.Add, IX509NameValuePairs::Add, certenroll/IX509NameValuePairs::Add, security.ix509namevaluepairs_add_method
 ms.topic: method
-f1_keywords: 
- - "certenroll/IX509NameValuePairs.Add"
+f1_keywords:
+- certenroll/IX509NameValuePairs.Add
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: CertEnroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CertEnroll.dll
+- CertEnroll.dll
 api_name:
- - IX509NameValuePairs.Add
+- IX509NameValuePairs.Add
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:certenroll.ISignerCertificate.put_Pin
 title: ISignerCertificate::put_Pin (certenroll.h)
-
 description: Specifies a personal identification number (PIN) used to authenticate a smart card user.
 old-location: security\isignercertificate_pin_property.htm
 tech.root: seccertenroll
 ms.assetid: 695d895e-0646-4a2e-a699-86674f919bad
-
 ms.date: 12/05/2018
 ms.keywords: ISignerCertificate interface [Security],Pin property, ISignerCertificate.Pin, ISignerCertificate.put_Pin, ISignerCertificate::Pin, ISignerCertificate::put_Pin, Pin property [Security], Pin property [Security],ISignerCertificate interface, certenroll/ISignerCertificate::Pin, certenroll/ISignerCertificate::put_Pin, put_Pin, security.isignercertificate_pin_property
 ms.topic: method
-f1_keywords: 
- - "certenroll/ISignerCertificate.Pin"
+f1_keywords:
+- certenroll/ISignerCertificate.Pin
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: CertEnroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CertEnroll.dll
+- CertEnroll.dll
 api_name:
- - ISignerCertificate.Pin
- - ISignerCertificate.put_Pin
+- ISignerCertificate.Pin
+- ISignerCertificate.put_Pin
 targetos: Windows
 req.typenames: 
 req.redist: 

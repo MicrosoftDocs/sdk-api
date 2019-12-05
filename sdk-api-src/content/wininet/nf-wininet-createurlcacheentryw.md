@@ -1,19 +1,17 @@
 ---
 UID: NF:wininet.CreateUrlCacheEntryW
 title: CreateUrlCacheEntryW function (wininet.h)
-
 description: Creates a local file name for saving the cache entry based on the specified URL and the file name extension.
 old-location: wininet\createurlcacheentry.htm
 tech.root: wininet
 ms.assetid: 9a58cf05-2306-4a0f-876d-85f5e91c5a2b
-
 ms.date: 12/05/2018
 ms.keywords: CreateUrlCacheEntry, CreateUrlCacheEntry function [WinINet], CreateUrlCacheEntryA, CreateUrlCacheEntryW, _inet_createurlcacheentry_function, wininet.createurlcacheentry, wininet/CreateUrlCacheEntry, wininet/CreateUrlCacheEntryA, wininet/CreateUrlCacheEntryW
 ms.topic: function
-f1_keywords: 
- - "wininet/CreateUrlCacheEntry"
+f1_keywords:
+- wininet/CreateUrlCacheEntry
 dev_langs:
- - c++
+- c++
 req.header: wininet.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Wininet.lib
 req.dll: Wininet.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Wininet.dll
+- Wininet.dll
 api_name:
- - CreateUrlCacheEntry
- - CreateUrlCacheEntryA
- - CreateUrlCacheEntryW
+- CreateUrlCacheEntry
+- CreateUrlCacheEntryA
+- CreateUrlCacheEntryW
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NS:commctrl.tagLVGROUPMETRICS
 title: LVGROUPMETRICS (commctrl.h)
-
 description: Contains information about the display of groups in a list-view control.
 old-location: controls\LVGROUPMETRICS.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\structures\lvgroupmetrics.htm
-
 ms.date: 12/05/2018
-ms.keywords: "*PLVGROUPMETRICS, LVGROUPMETRICS, LVGROUPMETRICS structure [Windows Controls], PLVGROUPMETRICS, PLVGROUPMETRICS structure pointer [Windows Controls], commctrl/LVGROUPMETRICS, commctrl/PLVGROUPMETRICS, controls.LVGROUPMETRICS, controls.inet_LVGROUPMETRICS, inet_LVGROUPMETRICS, inet_LVGROUPMETRICS_cpp"
+ms.keywords: '*PLVGROUPMETRICS, LVGROUPMETRICS, LVGROUPMETRICS structure [Windows Controls], PLVGROUPMETRICS, PLVGROUPMETRICS structure pointer [Windows Controls], commctrl/LVGROUPMETRICS, commctrl/PLVGROUPMETRICS, controls.LVGROUPMETRICS, controls.inet_LVGROUPMETRICS, inet_LVGROUPMETRICS, inet_LVGROUPMETRICS_cpp'
 ms.topic: struct
-f1_keywords: 
- - "commctrl/LVGROUPMETRICS"
+f1_keywords:
+- commctrl/LVGROUPMETRICS
 dev_langs:
- - c++
+- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Commctrl.h
+- Commctrl.h
 api_name:
- - LVGROUPMETRICS
+- LVGROUPMETRICS
 targetos: Windows
 req.typenames: LVGROUPMETRICS, *PLVGROUPMETRICS
 req.redist: 

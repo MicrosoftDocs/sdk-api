@@ -1,19 +1,17 @@
 ---
 UID: NS:shlobj_core.SHARDAPPIDINFOIDLIST
 title: SHARDAPPIDINFOIDLIST (shlobj_core.h)
-
 description: Contains data used by SHAddToRecentDocs to identify both an item&#8212;in this case by an absolute pointer to an item identifier list (PIDL)&#8212;and the process that it is associated with.
 old-location: shell\SHARDAPPIDINFOIDLIST.htm
 tech.root: shell
 ms.assetid: 11c69ff9-b8a0-4168-8036-f45a9f7813ba
-
 ms.date: 12/05/2018
 ms.keywords: SHARDAPPIDINFOIDLIST, SHARDAPPIDINFOIDLIST structure [Windows Shell], _shell_SHARDAPPIDINFOIDLIST, shell.SHARDAPPIDINFOIDLIST, shlobj_core/SHARDAPPIDINFOIDLIST
 ms.topic: struct
-f1_keywords: 
- - "shlobj_core/SHARDAPPIDINFOIDLIST"
+f1_keywords:
+- shlobj_core/SHARDAPPIDINFOIDLIST
 dev_langs:
- - c++
+- c++
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - shlobj_core.h
+- shlobj_core.h
 api_name:
- - SHARDAPPIDINFOIDLIST
+- SHARDAPPIDINFOIDLIST
 targetos: Windows
 req.typenames: SHARDAPPIDINFOIDLIST
 req.redist: 

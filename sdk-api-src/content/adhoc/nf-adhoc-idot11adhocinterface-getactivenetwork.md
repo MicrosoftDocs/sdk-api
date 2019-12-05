@@ -1,19 +1,17 @@
 ---
 UID: NF:adhoc.IDot11AdHocInterface.GetActiveNetwork
 title: IDot11AdHocInterface::GetActiveNetwork (adhoc.h)
-
 description: Gets the network that is currently active on the interface.
 old-location: nwifi\idot11adhocinterface_getactivenetwork.htm
 tech.root: NativeWiFi
 ms.assetid: aefe605a-720d-40da-8d0f-b1d5dd5b306e
-
 ms.date: 12/05/2018
 ms.keywords: GetActiveNetwork, GetActiveNetwork method [NativeWIFI], GetActiveNetwork method [NativeWIFI],IDot11AdHocInterface interface, IDot11AdHocInterface interface [NativeWIFI],GetActiveNetwork method, IDot11AdHocInterface.GetActiveNetwork, IDot11AdHocInterface::GetActiveNetwork, adhoc/IDot11AdHocInterface::GetActiveNetwork, nwifi.idot11adhocinterface_getactivenetwork
 ms.topic: method
-f1_keywords: 
- - "adhoc/IDot11AdHocInterface.GetActiveNetwork"
+f1_keywords:
+- adhoc/IDot11AdHocInterface.GetActiveNetwork
 dev_langs:
- - c++
+- c++
 req.header: adhoc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - adhoc.h
+- adhoc.h
 api_name:
- - IDot11AdHocInterface.GetActiveNetwork
+- IDot11AdHocInterface.GetActiveNetwork
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationcore.IRawElementProviderFragment.get_BoundingRectangle
 title: IRawElementProviderFragment::get_BoundingRectangle (uiautomationcore.h)
-
 description: Specifies the bounding rectangle of this element.
 old-location: winauto\uiauto_IRawElementProviderFragment_BoundingRectangle.htm
 tech.root: WinAuto
 ms.assetid: 443df4af-06cd-4866-bdeb-b1770ccb9060
-
 ms.date: 12/05/2018
 ms.keywords: BoundingRectangle property [Windows Accessibility], BoundingRectangle property [Windows Accessibility],IRawElementProviderFragment interface, IRawElementProviderFragment interface [Windows Accessibility],BoundingRectangle property, IRawElementProviderFragment.BoundingRectangle, IRawElementProviderFragment.get_BoundingRectangle, IRawElementProviderFragment::BoundingRectangle, IRawElementProviderFragment::get_BoundingRectangle, get_BoundingRectangle, uiauto.uiauto_IRawElementProviderFragment_BoundingRectangle, uiauto_IRawElementProviderFragment_BoundingRectangle, uiautomationcore/IRawElementProviderFragment::BoundingRectangle, uiautomationcore/IRawElementProviderFragment::get_BoundingRectangle, winauto.uiauto_IRawElementProviderFragment_BoundingRectangle
 ms.topic: method
-f1_keywords: 
- - "uiautomationcore/IRawElementProviderFragment.BoundingRectangle"
+f1_keywords:
+- uiautomationcore/IRawElementProviderFragment.BoundingRectangle
 dev_langs:
- - c++
+- c++
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationCore.h
+- UIAutomationCore.h
 api_name:
- - IRawElementProviderFragment.BoundingRectangle
- - IRawElementProviderFragment.get_BoundingRectangle
+- IRawElementProviderFragment.BoundingRectangle
+- IRawElementProviderFragment.get_BoundingRectangle
 targetos: Windows
 req.typenames: 
 req.redist: 

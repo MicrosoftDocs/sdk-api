@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IShellMenuCallback.CallbackSM
 title: IShellMenuCallback::CallbackSM (shobjidl_core.h)
-
 description: Receives messages from a menu band object.
 old-location: shell\IShellMenuCallback_CallbackSM.htm
 tech.root: shell
 ms.assetid: 06809b61-041b-41bd-82dd-0d64edf8bbae
-
 ms.date: 12/05/2018
 ms.keywords: CallbackSM, CallbackSM method [Windows Shell], CallbackSM method [Windows Shell],IShellMenuCallback interface, IShellMenuCallback interface [Windows Shell],CallbackSM method, IShellMenuCallback.CallbackSM, IShellMenuCallback::CallbackSM, _win32_IShellMenuCallback_CallbackSM, shell.IShellMenuCallback_CallbackSM, shobjidl_core/IShellMenuCallback::CallbackSM
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IShellMenuCallback.CallbackSM"
+f1_keywords:
+- shobjidl_core/IShellMenuCallback.CallbackSM
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Shell32.lib
 req.dll: Shell32.dll (version 4.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - IShellMenuCallback.CallbackSM
+- IShellMenuCallback.CallbackSM
 targetos: Windows
 req.typenames: 
 req.redist: 

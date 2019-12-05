@@ -1,19 +1,17 @@
 ---
 UID: NF:vfw.MCIWndSetOwner
 title: MCIWndSetOwner macro (vfw.h)
-
 description: The MCIWndSetOwner macro sets the window to receive notification messages associated with the MCIWnd window. You can use this macro or explicitly send the MCIWNDM_SETOWNER message.
 old-location: multimedia\mciwndsetowner.htm
 tech.root: Multimedia
 ms.assetid: 909f5cba-9078-47e8-bc14-a42f1689a2c5
-
 ms.date: 12/05/2018
 ms.keywords: MCIWndSetOwner, MCIWndSetOwner macro [Windows Multimedia], _win32_MCIWndSetOwner, multimedia.mciwndsetowner, vfw/MCIWndSetOwner
 ms.topic: macro
-f1_keywords: 
- - "vfw/MCIWndSetOwner"
+f1_keywords:
+- vfw/MCIWndSetOwner
 dev_langs:
- - c++
+- c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Vfw.h
+- Vfw.h
 api_name:
- - MCIWndSetOwner
+- MCIWndSetOwner
 targetos: Windows
 req.typenames: 
 req.redist: 

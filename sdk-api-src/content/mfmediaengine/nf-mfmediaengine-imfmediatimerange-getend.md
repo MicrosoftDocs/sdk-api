@@ -1,19 +1,17 @@
 ---
 UID: NF:mfmediaengine.IMFMediaTimeRange.GetEnd
 title: IMFMediaTimeRange::GetEnd (mfmediaengine.h)
-
 description: Gets the end time for a specified time range.
 old-location: mf\imfmediatimerange_getend.htm
 tech.root: medfound
 ms.assetid: 864C0DEE-A1F7-488C-9A9D-366602667DE9
-
 ms.date: 12/05/2018
 ms.keywords: GetEnd, GetEnd method [Media Foundation], GetEnd method [Media Foundation],IMFMediaTimeRange interface, IMFMediaTimeRange interface [Media Foundation],GetEnd method, IMFMediaTimeRange.GetEnd, IMFMediaTimeRange::GetEnd, mf.imfmediatimerange_getend, mfmediaengine/IMFMediaTimeRange::GetEnd
 ms.topic: method
-f1_keywords: 
- - "mfmediaengine/IMFMediaTimeRange.GetEnd"
+f1_keywords:
+- mfmediaengine/IMFMediaTimeRange.GetEnd
 dev_langs:
- - c++
+- c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfmediaengine.h
+- mfmediaengine.h
 api_name:
- - IMFMediaTimeRange.GetEnd
+- IMFMediaTimeRange.GetEnd
 targetos: Windows
 req.typenames: 
 req.redist: 

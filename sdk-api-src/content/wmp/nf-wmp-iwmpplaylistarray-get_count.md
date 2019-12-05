@@ -1,19 +1,17 @@
 ---
 UID: NF:wmp.IWMPPlaylistArray.get_count
 title: IWMPPlaylistArray::get_count (wmp.h)
-
 description: The get_count method retrieves the number of playlists in the playlist array.
 old-location: wmp\iwmpplaylistarray_get_count.htm
 tech.root: WMP
 ms.assetid: 2ce0058c-8839-43da-aad8-4bc423ff3cde
-
 ms.date: 12/05/2018
 ms.keywords: IWMPPlaylistArray interface [Windows Media Player],get_count method, IWMPPlaylistArray.get_count, IWMPPlaylistArray::get_count, IWMPPlaylistArrayget_count, get_count, get_count method [Windows Media Player], get_count method [Windows Media Player],IWMPPlaylistArray interface, wmp.iwmpplaylistarray_get_count, wmp/IWMPPlaylistArray::get_count
 ms.topic: method
-f1_keywords: 
- - "wmp/IWMPPlaylistArray.get_count"
+f1_keywords:
+- wmp/IWMPPlaylistArray.get_count
 dev_langs:
- - c++
+- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wmp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmp.dll
+- wmp.dll
 api_name:
- - IWMPPlaylistArray.get_count
+- IWMPPlaylistArray.get_count
 targetos: Windows
 req.typenames: 
 req.redist: 

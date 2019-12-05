@@ -1,19 +1,17 @@
 ---
 UID: NF:ctffunc.ITfLMLattice.QueryType
 title: ITfLMLattice::QueryType (ctffunc.h)
-
 description: ITfLMLattice::QueryType method
 old-location: tsf\itflmlattice_querytype.htm
 tech.root: TSF
 ms.assetid: 199032f7-b97f-4475-9ce3-9af952e13f12
-
 ms.date: 12/05/2018
 ms.keywords: ITfLMLattice interface [Text Services Framework],QueryType method, ITfLMLattice.QueryType, ITfLMLattice::QueryType, QueryType, QueryType method [Text Services Framework], QueryType method [Text Services Framework],ITfLMLattice interface, _tsf_itflmlattice_querytype_ref, ctffunc/ITfLMLattice::QueryType, tsf.itflmlattice_querytype
 ms.topic: method
-f1_keywords: 
- - "ctffunc/ITfLMLattice.QueryType"
+f1_keywords:
+- ctffunc/ITfLMLattice.QueryType
 dev_langs:
- - c++
+- c++
 req.header: ctffunc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msctf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msctf.dll
+- Msctf.dll
 api_name:
- - ITfLMLattice.QueryType
+- ITfLMLattice.QueryType
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

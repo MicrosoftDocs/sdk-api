@@ -1,19 +1,17 @@
 ---
 UID: NF:comsvcs.IManagedActivationEvents.DestroyManagedStub
 title: IManagedActivationEvents::DestroyManagedStub (comsvcs.h)
-
 description: Destroys a stub that was created by CreateManagedStub.
 old-location: cos\imanagedactivationevents_destroymanagedstub.htm
 tech.root: cossdk
 ms.assetid: aabc8192-d499-441e-be5d-9a51108bd344
-
 ms.date: 12/05/2018
 ms.keywords: DestroyManagedStub, DestroyManagedStub method [COM+], DestroyManagedStub method [COM+],IManagedActivationEvents interface, IManagedActivationEvents interface [COM+],DestroyManagedStub method, IManagedActivationEvents.DestroyManagedStub, IManagedActivationEvents::DestroyManagedStub, _cos_IManagedActivationEvents_DestroyManagedStub, comsvcs/IManagedActivationEvents::DestroyManagedStub, cos.imanagedactivationevents_destroymanagedstub
 ms.topic: method
-f1_keywords: 
- - "comsvcs/IManagedActivationEvents.DestroyManagedStub"
+f1_keywords:
+- comsvcs/IManagedActivationEvents.DestroyManagedStub
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - IManagedActivationEvents.DestroyManagedStub
+- IManagedActivationEvents.DestroyManagedStub
 targetos: Windows
 req.typenames: 
 req.redist: 

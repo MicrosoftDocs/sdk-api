@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IShellMenu.SetMenuToolbar
 title: IShellMenu::SetMenuToolbar (shobjidl_core.h)
-
 description: Adds a menu to the menuband.
 old-location: shell\IShellMenu_SetMenuToolbar.htm
 tech.root: shell
 ms.assetid: 6067f2be-883a-4271-95ad-16fd868b37a0
-
 ms.date: 12/05/2018
 ms.keywords: IShellMenu interface [Windows Shell],SetMenuToolbar method, IShellMenu.SetMenuToolbar, IShellMenu::SetMenuToolbar, SMSET_BOTTOM, SMSET_DONTOWN, SMSET_TOP, SetMenuToolbar, SetMenuToolbar method [Windows Shell], SetMenuToolbar method [Windows Shell],IShellMenu interface, _shell_IShellMenu_SetMenuToolbar, shell.IShellMenu_SetMenuToolbar, shobjidl_core/IShellMenu::SetMenuToolbar
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IShellMenu.SetMenuToolbar"
+f1_keywords:
+- shobjidl_core/IShellMenu.SetMenuToolbar
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Shell32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - IShellMenu.SetMenuToolbar
+- IShellMenu.SetMenuToolbar
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NN:gpmgmt.IGPMConstants
 title: IGPMConstants (gpmgmt.h)
-
 description: The IGPMConstants interface supports methods that retrieve the value of multiple Group Policy Management Console (GPMC) constants. To create a GPMConstants object, call the IGPM::GetConstants method.
 old-location: gpmc\igpmconstants.htm
 tech.root: gpmc
 ms.assetid: e9137167-4a2d-4cc4-940e-20f9991c4187
-
 ms.date: 12/05/2018
 ms.keywords: GPMConstants, IGPMConstants, IGPMConstants interface [GPMC], IGPMConstants interface [GPMC],described, _win32_igpmconstants, gpmc.igpmconstants, gpmgmt/IGPMConstants
 ms.topic: interface
-f1_keywords: 
- - "gpmgmt/IGPMConstants"
+f1_keywords:
+- gpmgmt/IGPMConstants
 dev_langs:
- - c++
+- c++
 req.header: gpmgmt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: Gpmgmt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gpmgmt.dll
+- Gpmgmt.dll
 api_name:
- - IGPMConstants
- - GPMConstants
+- IGPMConstants
+- GPMConstants
 targetos: Windows
 req.typenames: 
 req.redist: 

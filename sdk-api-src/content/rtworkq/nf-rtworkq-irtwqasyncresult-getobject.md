@@ -1,19 +1,17 @@
 ---
 UID: NF:rtworkq.IRtwqAsyncResult.GetObject
 title: IRtwqAsyncResult::GetObject (rtworkq.h)
-
 description: Returns an object associated with the asynchronous operation. The type of object, if any, depends on the asynchronous method that was called.
 old-location: base\irtwqasyncresult_getobject.htm
 tech.root: ProcThread
 ms.assetid: EF872EDD-4263-4835-81E4-0A61F18E9202
-
 ms.date: 12/05/2018
 ms.keywords: GetObject, GetObject method, GetObject method,IRtwqAsyncResult interface, IRtwqAsyncResult interface,GetObject method, IRtwqAsyncResult.GetObject, IRtwqAsyncResult::GetObject, base.irtwqasyncresult_getobject, rtworkq/IRtwqAsyncResult::GetObject
 ms.topic: method
-f1_keywords: 
- - "rtworkq/IRtwqAsyncResult.GetObject"
+f1_keywords:
+- rtworkq/IRtwqAsyncResult.GetObject
 dev_langs:
- - c++
+- c++
 req.header: rtworkq.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Rtworkq.lib
 req.dll: RTWorkQ.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - RTWorkQ.dll
+- RTWorkQ.dll
 api_name:
- - IRtwqAsyncResult.GetObject
+- IRtwqAsyncResult.GetObject
 targetos: Windows
 req.typenames: 
 req.redist: 

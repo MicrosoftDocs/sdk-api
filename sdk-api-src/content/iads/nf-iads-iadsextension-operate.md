@@ -1,19 +1,17 @@
 ---
 UID: NF:iads.IADsExtension.Operate
 title: IADsExtension::Operate (iads.h)
-
 description: Interprets the control code and input parameters according to the specifications of the provider.
 old-location: adsi\iadsextension_operate.htm
 tech.root: adsi
 ms.assetid: c3cab311-6717-4d95-ad46-9da6047f84b8
-
 ms.date: 12/05/2018
 ms.keywords: ADS_EXT_INITCREDENTIALS, IADsExtension interface [ADSI],Operate method, IADsExtension.Operate, IADsExtension::Operate, Operate, Operate method [ADSI], Operate method [ADSI],IADsExtension interface, _ds_iadsextension_operate, adsi.iadsextension__operate, adsi.iadsextension_operate, iads/IADsExtension::Operate
 ms.topic: method
-f1_keywords: 
- - "iads/IADsExtension.Operate"
+f1_keywords:
+- iads/IADsExtension.Operate
 dev_langs:
- - c++
+- c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Activeds.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Activeds.dll
+- Activeds.dll
 api_name:
- - IADsExtension.Operate
+- IADsExtension.Operate
 targetos: Windows
 req.typenames: 
 req.redist: 

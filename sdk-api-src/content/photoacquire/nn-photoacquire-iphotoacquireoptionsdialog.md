@@ -1,19 +1,17 @@
 ---
 UID: NN:photoacquire.IPhotoAcquireOptionsDialog
 title: IPhotoAcquireOptionsDialog (photoacquire.h)
-
 description: The IPhotoAcquireOptionsDialog interface is used to display an options dialog box in which the user can select photo acquisition settings such as file name formats, as well as whether or not to rotate images, to prompt for a tag name, or to erase photos from the camera after importing.
 old-location: picacq\iphotoacquireoptionsdialog.htm
 tech.root: acquisition
 ms.assetid: 075e188f-e533-403d-be06-6a3260479f1a
-
 ms.date: 12/05/2018
 ms.keywords: IPhotoAcquireOptionsDialog, IPhotoAcquireOptionsDialog interface [Picture Acquisition], IPhotoAcquireOptionsDialog interface [Picture Acquisition],described, IPhotoAcquireOptionsDialogInterface, photoacquire/IPhotoAcquireOptionsDialog, picacq.iphotoacquireoptionsdialog
 ms.topic: interface
-f1_keywords: 
- - "photoacquire/IPhotoAcquireOptionsDialog"
+f1_keywords:
+- photoacquire/IPhotoAcquireOptionsDialog
 dev_langs:
- - c++
+- c++
 req.header: photoacquire.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - photoacquire.h
+- photoacquire.h
 api_name:
- - IPhotoAcquireOptionsDialog
+- IPhotoAcquireOptionsDialog
 targetos: Windows
 req.typenames: 
 req.redist: 

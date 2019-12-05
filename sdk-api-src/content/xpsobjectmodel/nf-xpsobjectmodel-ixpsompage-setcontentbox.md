@@ -1,19 +1,17 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMPage.SetContentBox
 title: IXpsOMPage::SetContentBox (xpsobjectmodel.h)
-
 description: Sets the dimensions of the page's content box.
 old-location: xps\ixpsompage_setcontentbox.htm
 tech.root: printdocs
 ms.assetid: 5262ce99-8112-4f4f-a173-5927341b4a2e
-
 ms.date: 12/05/2018
 ms.keywords: IXpsOMPage interface [XPS Documents and Packaging],SetContentBox method, IXpsOMPage.SetContentBox, IXpsOMPage::SetContentBox, SetContentBox, SetContentBox method [XPS Documents and Packaging], SetContentBox method [XPS Documents and Packaging],IXpsOMPage interface, xps.ixpsompage_setcontentbox, xpsobjectmodel/IXpsOMPage::SetContentBox
 ms.topic: method
-f1_keywords: 
- - "xpsobjectmodel/IXpsOMPage.SetContentBox"
+f1_keywords:
+- xpsobjectmodel/IXpsOMPage.SetContentBox
 dev_langs:
- - c++
+- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsobjectmodel.h
+- xpsobjectmodel.h
 api_name:
- - IXpsOMPage.SetContentBox
+- IXpsOMPage.SetContentBox
 targetos: Windows
 req.typenames: 
 req.redist: 

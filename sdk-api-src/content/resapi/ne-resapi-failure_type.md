@@ -1,19 +1,17 @@
 ---
 UID: NE:resapi._FAILURE_TYPE
 title: FAILURE_TYPE (resapi.h)
-
 description: Defines the failure types for cluster resources.
 old-location: mscs\failure_type.htm
 tech.root: MsCS
 ms.assetid: C838BE66-5CAB-4884-AC64-EC5EC3A87679
-
 ms.date: 12/05/2018
-ms.keywords: "*PFAILURE_TYPE, FAILURE_TYPE, FAILURE_TYPE enumeration [Failover Cluster], FAILURE_TYPE_EMBEDDED, FAILURE_TYPE_GENERAL, FAILURE_TYPE_NETWORK_LOSS, PFAILURE_TYPE, PFAILURE_TYPE enumeration pointer [Failover Cluster], mscs.failure_type, resapi/FAILURE_TYPE, resapi/FAILURE_TYPE_EMBEDDED, resapi/FAILURE_TYPE_GENERAL, resapi/FAILURE_TYPE_NETWORK_LOSS, resapi/PFAILURE_TYPE"
+ms.keywords: '*PFAILURE_TYPE, FAILURE_TYPE, FAILURE_TYPE enumeration [Failover Cluster], FAILURE_TYPE_EMBEDDED, FAILURE_TYPE_GENERAL, FAILURE_TYPE_NETWORK_LOSS, PFAILURE_TYPE, PFAILURE_TYPE enumeration pointer [Failover Cluster], mscs.failure_type, resapi/FAILURE_TYPE, resapi/FAILURE_TYPE_EMBEDDED, resapi/FAILURE_TYPE_GENERAL, resapi/FAILURE_TYPE_NETWORK_LOSS, resapi/PFAILURE_TYPE'
 ms.topic: enum
-f1_keywords: 
- - "resapi/FAILURE_TYPE"
+f1_keywords:
+- resapi/FAILURE_TYPE
 dev_langs:
- - c++
+- c++
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - ResApi.h
+- ResApi.h
 api_name:
- - FAILURE_TYPE
+- FAILURE_TYPE
 targetos: Windows
 req.typenames: FAILURE_TYPE, *PFAILURE_TYPE
 req.redist: 

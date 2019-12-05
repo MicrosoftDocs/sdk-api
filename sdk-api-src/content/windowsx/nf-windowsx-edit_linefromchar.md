@@ -1,19 +1,17 @@
 ---
 UID: NF:windowsx.Edit_LineFromChar
 title: Edit_LineFromChar macro (windowsx.h)
-
 description: Gets the index of the line that contains the specified character index in a multiline edit or rich edit control. You can use this macro or send the EM_LINEFROMCHAR message explicitly.
 old-location: controls\Edit_LineFromChar.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\editcontrols\editcontrolreference\editcontrolmacros\edit_linefromchar.htm
-
 ms.date: 12/05/2018
 ms.keywords: Edit_LineFromChar, Edit_LineFromChar macro [Windows Controls], _win32_Edit_LineFromChar, _win32_Edit_LineFromChar_cpp, controls.Edit_LineFromChar, controls._win32_Edit_LineFromChar, windowsx/Edit_LineFromChar
 ms.topic: macro
-f1_keywords: 
- - "windowsx/Edit_LineFromChar"
+f1_keywords:
+- windowsx/Edit_LineFromChar
 dev_langs:
- - c++
+- c++
 req.header: windowsx.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Windowsx.h
+- Windowsx.h
 api_name:
- - Edit_LineFromChar
+- Edit_LineFromChar
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:propvarutil.PropVariantGetBooleanElem
 title: PropVariantGetBooleanElem function (propvarutil.h)
-
 description: Extracts a single Boolean element from a PROPVARIANT structure of type VT_BOOL, VT_VECTOR | VT_BOOL, or VT_ARRAY | VT_BOOL.
 old-location: properties\PropVariantGetBooleanElem.htm
 tech.root: properties
 ms.assetid: 830dca70-1777-418d-b3ac-78028411700e
-
 ms.date: 12/05/2018
 ms.keywords: PropVariantGetBooleanElem, PropVariantGetBooleanElem function [Windows Properties], _shell_PropVariantGetBooleanElem, properties.PropVariantGetBooleanElem, propvarutil/PropVariantGetBooleanElem, shell.PropVariantGetBooleanElem
 ms.topic: function
-f1_keywords: 
- - "propvarutil/PropVariantGetBooleanElem"
+f1_keywords:
+- propvarutil/PropVariantGetBooleanElem
 dev_langs:
- - c++
+- c++
 req.header: propvarutil.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Propsys.lib
 req.dll: Propsys.dll (version 6.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Propsys.dll
+- Propsys.dll
 api_name:
- - PropVariantGetBooleanElem
+- PropVariantGetBooleanElem
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0

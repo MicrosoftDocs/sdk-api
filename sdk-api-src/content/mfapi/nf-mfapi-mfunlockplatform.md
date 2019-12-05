@@ -1,19 +1,17 @@
 ---
 UID: NF:mfapi.MFUnlockPlatform
 title: MFUnlockPlatform function (mfapi.h)
-
 description: Unlocks the Media Foundation platform after it was locked by a call to the MFLockPlatform function.
 old-location: mf\mfunlockplatform.htm
 tech.root: medfound
 ms.assetid: d4ce5315-4bb2-4ca4-a9a0-20b638a43040
-
 ms.date: 12/05/2018
 ms.keywords: MFUnlockPlatform, MFUnlockPlatform function [Media Foundation], d4ce5315-4bb2-4ca4-a9a0-20b638a43040, mf.mfunlockplatform, mfapi/MFUnlockPlatform
 ms.topic: function
-f1_keywords: 
- - "mfapi/MFUnlockPlatform"
+f1_keywords:
+- mfapi/MFUnlockPlatform
 dev_langs:
- - c++
+- c++
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Mfplat.lib
 req.dll: Mfplat.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - mfplat.dll
+- mfplat.dll
 api_name:
- - MFUnlockPlatform
+- MFUnlockPlatform
 targetos: Windows
 req.typenames: 
 req.redist: 

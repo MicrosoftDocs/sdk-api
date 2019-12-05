@@ -1,19 +1,17 @@
 ---
 UID: NE:gdiplusenums.WarpMode
 title: WarpMode (gdiplusenums.h)
-
 description: The WarpMode enumeration specifies warp modes that can be used to transform images.
 old-location: gdiplus\_gdiplus_ENUM_WarpMode.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\enumerations\warpmode.htm
-
 ms.date: 12/05/2018
 ms.keywords: WarpMode, WarpMode enumeration [GDI+], WarpModeBilinear, WarpModePerspective, _gdiplus_ENUM_WarpMode, gdiplus._gdiplus_ENUM_WarpMode, gdiplusenums/WarpMode, gdiplusenums/WarpModeBilinear, gdiplusenums/WarpModePerspective
 ms.topic: enum
-f1_keywords: 
- - "gdiplusenums/WarpMode"
+f1_keywords:
+- gdiplusenums/WarpMode
 dev_langs:
- - c++
+- c++
 req.header: gdiplusenums.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Gdiplusenums.h
+- Gdiplusenums.h
 api_name:
- - WarpMode
+- WarpMode
 targetos: Windows
 req.typenames: 
 req.redist: 

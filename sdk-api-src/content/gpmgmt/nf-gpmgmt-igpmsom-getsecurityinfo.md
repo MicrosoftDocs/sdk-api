@@ -1,19 +1,17 @@
 ---
 UID: NF:gpmgmt.IGPMSOM.GetSecurityInfo
 title: IGPMSOM::GetSecurityInfo (gpmgmt.h)
-
 description: Returns an object that represents the collection of GPMPermission objects for the scope of management (SOM).
 old-location: gpmc\igpmsom_getsecurityinfo.htm
 tech.root: gpmc
 ms.assetid: 7b120bf6-17f8-43d7-a27c-b7674535c1d3
-
 ms.date: 12/05/2018
 ms.keywords: GPMSOM class [GPMC],GetSecurityInfo method, GetSecurityInfo, GetSecurityInfo method [GPMC], GetSecurityInfo method [GPMC],GPMSOM class, GetSecurityInfo method [GPMC],IGPMSOM interface, IGPMSOM interface [GPMC],GetSecurityInfo method, IGPMSOM.GetSecurityInfo, IGPMSOM::GetSecurityInfo, _win32_igpmsom_getsecurityinfo, gpmc.igpmsom_getsecurityinfo, gpmgmt/IGPMSOM::GetSecurityInfo
 ms.topic: method
-f1_keywords: 
- - "gpmgmt/IGPMSOM.GetSecurityInfo"
+f1_keywords:
+- gpmgmt/IGPMSOM.GetSecurityInfo
 dev_langs:
- - c++
+- c++
 req.header: gpmgmt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: Gpmgmt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gpmgmt.dll
+- Gpmgmt.dll
 api_name:
- - IGPMSOM.GetSecurityInfo
- - GPMSOM.GetSecurityInfo
+- IGPMSOM.GetSecurityInfo
+- GPMSOM.GetSecurityInfo
 targetos: Windows
 req.typenames: 
 req.redist: 

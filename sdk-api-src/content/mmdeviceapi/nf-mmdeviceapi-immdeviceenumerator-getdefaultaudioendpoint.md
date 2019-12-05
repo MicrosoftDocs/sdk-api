@@ -1,19 +1,17 @@
 ---
 UID: NF:mmdeviceapi.IMMDeviceEnumerator.GetDefaultAudioEndpoint
 title: IMMDeviceEnumerator::GetDefaultAudioEndpoint (mmdeviceapi.h)
-
 description: The GetDefaultAudioEndpoint method retrieves the default audio endpoint for the specified data-flow direction and role.
 old-location: coreaudio\immdeviceenumerator_getdefaultaudioendpoint.htm
 tech.root: CoreAudio
 ms.assetid: 96776d2a-27b7-490a-b3a8-04782ec34f91
-
 ms.date: 12/05/2018
 ms.keywords: GetDefaultAudioEndpoint, GetDefaultAudioEndpoint method [Core Audio], GetDefaultAudioEndpoint method [Core Audio],IMMDeviceEnumerator interface, IMMDeviceEnumerator interface [Core Audio],GetDefaultAudioEndpoint method, IMMDeviceEnumerator.GetDefaultAudioEndpoint, IMMDeviceEnumerator::GetDefaultAudioEndpoint, IMMDeviceEnumeratorGetDefaultAudioEndpoint, coreaudio.immdeviceenumerator_getdefaultaudioendpoint, mmdeviceapi/IMMDeviceEnumerator::GetDefaultAudioEndpoint
 ms.topic: method
-f1_keywords: 
- - "mmdeviceapi/IMMDeviceEnumerator.GetDefaultAudioEndpoint"
+f1_keywords:
+- mmdeviceapi/IMMDeviceEnumerator.GetDefaultAudioEndpoint
 dev_langs:
- - c++
+- c++
 req.header: mmdeviceapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mmdeviceapi.h
+- Mmdeviceapi.h
 api_name:
- - IMMDeviceEnumerator.GetDefaultAudioEndpoint
+- IMMDeviceEnumerator.GetDefaultAudioEndpoint
 targetos: Windows
 req.typenames: 
 req.redist: 

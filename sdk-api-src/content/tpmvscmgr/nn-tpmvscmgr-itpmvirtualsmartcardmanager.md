@@ -1,19 +1,17 @@
 ---
 UID: NN:tpmvscmgr.ITpmVirtualSmartCardManager
 title: ITpmVirtualSmartCardManager (tpmvscmgr.h)
-
 description: Manages the TPM virtual smart cards.
 old-location: security\itpmvirtualsmartcardmanager.htm
 tech.root: SecAuthN
 ms.assetid: 46CC703B-14A2-4588-BA13-837C76B70F07
-
 ms.date: 12/05/2018
 ms.keywords: ITpmVirtualSmartCardManager, ITpmVirtualSmartCardManager interface [Security], ITpmVirtualSmartCardManager interface [Security],described, security.itpmvirtualsmartcardmanager, tpmvscmgr/ITpmVirtualSmartCardManager
 ms.topic: interface
-f1_keywords: 
- - "tpmvscmgr/ITpmVirtualSmartCardManager"
+f1_keywords:
+- tpmvscmgr/ITpmVirtualSmartCardManager
 dev_langs:
- - c++
+- c++
 req.header: tpmvscmgr.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Vscmgr.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Vscmgr.lib
- - Vscmgr.dll
+- Vscmgr.lib
+- Vscmgr.dll
 api_name:
- - ITpmVirtualSmartCardManager
+- ITpmVirtualSmartCardManager
 targetos: Windows
 req.typenames: 
 req.redist: 

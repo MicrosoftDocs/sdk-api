@@ -1,19 +1,17 @@
 ---
 UID: NF:dvbsiparser.IISDB_BIT.GetVersionHash
 title: IISDB_BIT::GetVersionHash (dvbsiparser.h)
-
 description: Returns a hash value for this instance of an Integrated Services Digital Broadcasting (ISDB) broadcaster information table (BIT).
 old-location: mstv\iisdb_bit_getversionhash.htm
 tech.root: mstv
 ms.assetid: 26423a5f-710b-405f-acf2-1aafbeb304d2
-
 ms.date: 12/05/2018
 ms.keywords: GetVersionHash, GetVersionHash method [Microsoft TV Technologies], GetVersionHash method [Microsoft TV Technologies],IISDB_BIT interface, IISDB_BIT interface [Microsoft TV Technologies],GetVersionHash method, IISDB_BIT.GetVersionHash, IISDB_BIT::GetVersionHash, dvbsiparser/IISDB_BIT::GetVersionHash, mstv.iisdb_bit_getversionhash
 ms.topic: method
-f1_keywords: 
- - "dvbsiparser/IISDB_BIT.GetVersionHash"
+f1_keywords:
+- dvbsiparser/IISDB_BIT.GetVersionHash
 dev_langs:
- - c++
+- c++
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dvbsiparser.h
+- dvbsiparser.h
 api_name:
- - IISDB_BIT.GetVersionHash
+- IISDB_BIT.GetVersionHash
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:winsync.ISyncChangeBatchBase.SetRemainingWorkEstimateForSession
 title: ISyncChangeBatchBase::SetRemainingWorkEstimateForSession (winsync.h)
-
 description: Sets the estimate of the remaining work for the session.
 old-location: winsync\isyncchangebatchbase_setremainingworkestimateforsession.htm
 tech.root: winsync
 ms.assetid: f73d13d9-244e-4ec1-aacd-047331b13a4d
-
 ms.date: 12/05/2018
 ms.keywords: ISyncChangeBatchBase interface [Windows Sync],SetRemainingWorkEstimateForSession method, ISyncChangeBatchBase.SetRemainingWorkEstimateForSession, ISyncChangeBatchBase::SetRemainingWorkEstimateForSession, SetRemainingWorkEstimateForSession, SetRemainingWorkEstimateForSession method [Windows Sync], SetRemainingWorkEstimateForSession method [Windows Sync],ISyncChangeBatchBase interface, winsync.isyncchangebatchbase_setremainingworkestimateforsession, winsync/ISyncChangeBatchBase::SetRemainingWorkEstimateForSession
 ms.topic: method
-f1_keywords: 
- - "winsync/ISyncChangeBatchBase.SetRemainingWorkEstimateForSession"
+f1_keywords:
+- winsync/ISyncChangeBatchBase.SetRemainingWorkEstimateForSession
 dev_langs:
- - c++
+- c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - winsync.h
+- winsync.h
 api_name:
- - ISyncChangeBatchBase.SetRemainingWorkEstimateForSession
+- ISyncChangeBatchBase.SetRemainingWorkEstimateForSession
 targetos: Windows
 req.typenames: 
 req.redist: 

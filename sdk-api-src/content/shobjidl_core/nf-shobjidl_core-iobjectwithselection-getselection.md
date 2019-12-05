@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IObjectWithSelection.GetSelection
 title: IObjectWithSelection::GetSelection (shobjidl_core.h)
-
 description: Gets the Shell item array that contains the selected items.
 old-location: shell\IObjectWithSelection_GetSelection.htm
 tech.root: shell
 ms.assetid: cc0c2c79-a475-4384-8255-809dc8bdb869
-
 ms.date: 12/05/2018
 ms.keywords: GetSelection, GetSelection method [Windows Shell], GetSelection method [Windows Shell],IObjectWithSelection interface, IObjectWithSelection interface [Windows Shell],GetSelection method, IObjectWithSelection.GetSelection, IObjectWithSelection::GetSelection, _shell_IObjectWithSelection_GetSelection, shell.IObjectWithSelection_GetSelection, shobjidl_core/IObjectWithSelection::GetSelection
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IObjectWithSelection.GetSelection"
+f1_keywords:
+- shobjidl_core/IObjectWithSelection.GetSelection
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - IObjectWithSelection.GetSelection
+- IObjectWithSelection.GetSelection
 targetos: Windows
 req.typenames: 
 req.redist: 

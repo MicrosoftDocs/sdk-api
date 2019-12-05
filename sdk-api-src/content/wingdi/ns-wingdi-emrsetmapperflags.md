@@ -1,19 +1,17 @@
 ---
 UID: NS:wingdi.tagEMRSETMAPPERFLAGS
 title: EMRSETMAPPERFLAGS (wingdi.h)
-
 description: The EMRSETMAPPERFLAGS structure contains members for the SetMapperFlags enhanced metafile record.
 old-location: gdi\emrsetmapperflags.htm
 tech.root: gdi
 ms.assetid: d8a01e0a-6da9-43e2-9910-87503b5c851e
-
 ms.date: 12/05/2018
-ms.keywords: "*PEMRSETMAPPERFLAGS, EMRSETMAPPERFLAGS, EMRSETMAPPERFLAGS structure [Windows GDI], PEMRSETMAPPERFLAGS, PEMRSETMAPPERFLAGS structure pointer [Windows GDI], _win32_EMRSETMAPPERFLAGS_str, gdi.emrsetmapperflags, wingdi/EMRSETMAPPERFLAGS, wingdi/PEMRSETMAPPERFLAGS"
+ms.keywords: '*PEMRSETMAPPERFLAGS, EMRSETMAPPERFLAGS, EMRSETMAPPERFLAGS structure [Windows GDI], PEMRSETMAPPERFLAGS, PEMRSETMAPPERFLAGS structure pointer [Windows GDI], _win32_EMRSETMAPPERFLAGS_str, gdi.emrsetmapperflags, wingdi/EMRSETMAPPERFLAGS, wingdi/PEMRSETMAPPERFLAGS'
 ms.topic: struct
-f1_keywords: 
- - "wingdi/EMRSETMAPPERFLAGS"
+f1_keywords:
+- wingdi/EMRSETMAPPERFLAGS
 dev_langs:
- - c++
+- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wingdi.h
+- Wingdi.h
 api_name:
- - EMRSETMAPPERFLAGS
+- EMRSETMAPPERFLAGS
 targetos: Windows
 req.typenames: EMRSETMAPPERFLAGS, *PEMRSETMAPPERFLAGS
 req.redist: 

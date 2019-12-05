@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi3if.ITCallingCard.get_LongDistanceDialingRule
 title: ITCallingCard::get_LongDistanceDialingRule (tapi3if.h)
-
 description: The get_LongDistanceDialingRule method gets the long distance dialing rules for this calling card.
 old-location: tapi3\itcallingcard_get_longdistancedialingrule.htm
 tech.root: Tapi
 ms.assetid: 97ad3528-ee84-4b61-9d08-55d3500432dd
-
 ms.date: 12/05/2018
 ms.keywords: ITCallingCard interface [TAPI 2.2],get_LongDistanceDialingRule method, ITCallingCard.get_LongDistanceDialingRule, ITCallingCard::get_LongDistanceDialingRule, _tapi3_itcallingcard_get_longdistancedialingrule, get_LongDistanceDialingRule, get_LongDistanceDialingRule method [TAPI 2.2], get_LongDistanceDialingRule method [TAPI 2.2],ITCallingCard interface, tapi3.itcallingcard_get_longdistancedialingrule, tapi3if/ITCallingCard::get_LongDistanceDialingRule
 ms.topic: method
-f1_keywords: 
- - "tapi3if/ITCallingCard.get_LongDistanceDialingRule"
+f1_keywords:
+- tapi3if/ITCallingCard.get_LongDistanceDialingRule
 dev_langs:
- - c++
+- c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Tapi3.dll
+- Tapi3.dll
 api_name:
- - ITCallingCard.get_LongDistanceDialingRule
+- ITCallingCard.get_LongDistanceDialingRule
 targetos: Windows
 req.typenames: 
 req.redist: 

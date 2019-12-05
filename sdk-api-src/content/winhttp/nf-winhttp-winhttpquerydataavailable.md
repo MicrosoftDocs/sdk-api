@@ -1,19 +1,17 @@
 ---
 UID: NF:winhttp.WinHttpQueryDataAvailable
 title: WinHttpQueryDataAvailable function (winhttp.h)
-
 description: Returns the amount of data, in bytes, available to be read with WinHttpReadData.
 old-location: http\winhttpquerydataavailable.htm
 tech.root: WinHttp
 ms.assetid: 041ec571-10ed-48d0-9a99-e0b5d9e08f70
-
 ms.date: 12/05/2018
 ms.keywords: WinHttpQueryDataAvailable, WinHttpQueryDataAvailable function [WinHTTP], http.winhttpquerydataavailable, winhttp.winhttpquerydataavailable_function, winhttp/WinHttpQueryDataAvailable
 ms.topic: function
-f1_keywords: 
- - "winhttp/WinHttpQueryDataAvailable"
+f1_keywords:
+- winhttp/WinHttpQueryDataAvailable
 dev_langs:
- - c++
+- c++
 req.header: winhttp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Winhttp.lib
 req.dll: Winhttp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Winhttp.dll
+- Winhttp.dll
 api_name:
- - WinHttpQueryDataAvailable
+- WinHttpQueryDataAvailable
 targetos: Windows
 req.typenames: 
 req.redist: WinHTTP 5.0 and Internet Explorer 5.01 or later on Windows XP and Windows 2000.

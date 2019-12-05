@@ -1,19 +1,17 @@
 ---
 UID: NS:ipsectypes.IPSEC_SA_CONTEXT0_
 title: IPSEC_SA_CONTEXT0 (ipsectypes.h)
-
 description: Encapsulates an inbound and outbound SA pair.
 old-location: fwp\ipsec_sa_context0.htm
 tech.root: fwp
 ms.assetid: 1cf191f0-5052-40f6-8665-747ae3f38fb1
-
 ms.date: 12/05/2018
 ms.keywords: IPSEC_SA_CONTEXT0, IPSEC_SA_CONTEXT0 structure [Filtering], fwp.ipsec_sa_context0, ipsectypes/IPSEC_SA_CONTEXT0
 ms.topic: struct
-f1_keywords: 
- - "ipsectypes/IPSEC_SA_CONTEXT0"
+f1_keywords:
+- ipsectypes/IPSEC_SA_CONTEXT0
 dev_langs:
- - c++
+- c++
 req.header: ipsectypes.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Ipsectypes.h
+- Ipsectypes.h
 api_name:
- - IPSEC_SA_CONTEXT0
+- IPSEC_SA_CONTEXT0
 targetos: Windows
 req.typenames: IPSEC_SA_CONTEXT0
 req.redist: 

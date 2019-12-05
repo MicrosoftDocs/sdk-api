@@ -1,19 +1,17 @@
 ---
 UID: NE:mfapi._MFVideo3DFormat
 title: MFVideo3DFormat (mfapi.h)
-
 description: Specifies how 3D video frames are stored in memory.
 old-location: mf\mfvideo3dformat.htm
 tech.root: medfound
 ms.assetid: 0E31BC98-E69D-405E-9EA6-026916123091
-
 ms.date: 12/05/2018
 ms.keywords: MFVideo3DFormat, MFVideo3DFormat enumeration [Media Foundation], MFVideo3DSampleFormat_BaseView, MFVideo3DSampleFormat_MultiView, MFVideo3DSampleFormat_Packed_LeftRight, MFVideo3DSampleFormat_Packed_TopBottom, mf.mfvideo3dformat, mfapi/MFVideo3DFormat, mfapi/MFVideo3DSampleFormat_BaseView, mfapi/MFVideo3DSampleFormat_MultiView, mfapi/MFVideo3DSampleFormat_Packed_LeftRight, mfapi/MFVideo3DSampleFormat_Packed_TopBottom
 ms.topic: enum
-f1_keywords: 
- - "mfapi/MFVideo3DFormat"
+f1_keywords:
+- mfapi/MFVideo3DFormat
 dev_langs:
- - c++
+- c++
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - mfapi.h
+- mfapi.h
 api_name:
- - MFVideo3DFormat
+- MFVideo3DFormat
 targetos: Windows
 req.typenames: MFVideo3DFormat
 req.redist: 

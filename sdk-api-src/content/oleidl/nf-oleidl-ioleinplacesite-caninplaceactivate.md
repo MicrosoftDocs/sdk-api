@@ -1,19 +1,17 @@
 ---
 UID: NF:oleidl.IOleInPlaceSite.CanInPlaceActivate
 title: IOleInPlaceSite::CanInPlaceActivate (oleidl.h)
-
 description: Determines whether the container can activate the object in place.
 old-location: com\ioleinplacesite_caninplaceactivate.htm
 tech.root: com
 ms.assetid: ac960359-7e02-43b6-ac42-0000af15b1a4
-
 ms.date: 12/05/2018
 ms.keywords: CanInPlaceActivate, CanInPlaceActivate method [COM], CanInPlaceActivate method [COM],IOleInPlaceSite interface, IOleInPlaceSite interface [COM],CanInPlaceActivate method, IOleInPlaceSite.CanInPlaceActivate, IOleInPlaceSite::CanInPlaceActivate, _ole_ioleinplacesite_caninplaceactivate, com.ioleinplacesite_caninplaceactivate, oleidl/IOleInPlaceSite::CanInPlaceActivate
 ms.topic: method
-f1_keywords: 
- - "oleidl/IOleInPlaceSite.CanInPlaceActivate"
+f1_keywords:
+- oleidl/IOleInPlaceSite.CanInPlaceActivate
 dev_langs:
- - c++
+- c++
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - OleIdl.h
+- OleIdl.h
 api_name:
- - IOleInPlaceSite.CanInPlaceActivate
+- IOleInPlaceSite.CanInPlaceActivate
 targetos: Windows
 req.typenames: 
 req.redist: 

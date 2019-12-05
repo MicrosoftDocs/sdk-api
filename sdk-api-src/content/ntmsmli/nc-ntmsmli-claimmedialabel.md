@@ -1,19 +1,17 @@
 ---
 UID: NC:ntmsmli.CLAIMMEDIALABEL
 title: CLAIMMEDIALABEL (ntmsmli.h)
-
 description: The ClaimMediaLabel callback function determines whether a specified media label was created by the media's associated application.
 old-location: fs\claimmedialabel.htm
 tech.root: Rsm
 ms.assetid: ac957769-0513-436b-94f0-e3894f7a703b
-
 ms.date: 12/05/2018
 ms.keywords: ClaimMediaLabel, ClaimMediaLabel callback, ClaimMediaLabel callback function [Files], _zaw_claimmedialabel, base.claimmedialabel, fs.claimmedialabel, ntmsmli/ClaimMediaLabel
 ms.topic: callback
-f1_keywords: 
- - "ntmsmli/ClaimMediaLabel"
+f1_keywords:
+- ntmsmli/ClaimMediaLabel
 dev_langs:
- - c++
+- c++
 req.header: ntmsmli.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - NtmsMli.h
+- NtmsMli.h
 api_name:
- - ClaimMediaLabel
+- ClaimMediaLabel
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NN:iads.IADsComputerOperations
 title: IADsComputerOperations (iads.h)
-
 description: The IADsComputerOperations interface is a dual interface that inherits from IADs.
 old-location: adsi\iadscomputeroperations.htm
 tech.root: adsi
 ms.assetid: 9b0155ce-f313-43fa-8605-650aa8f38587
-
 ms.date: 12/05/2018
 ms.keywords: IADsComputerOperations, IADsComputerOperations interface [ADSI], IADsComputerOperations interface [ADSI],described, _ds_iadscomputeroperations, adsi.iadscomputeroperations, iads/IADsComputerOperations
 ms.topic: interface
-f1_keywords: 
- - "iads/IADsComputerOperations"
+f1_keywords:
+- iads/IADsComputerOperations
 dev_langs:
- - c++
+- c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Activeds.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Activeds.dll
+- Activeds.dll
 api_name:
- - IADsComputerOperations
+- IADsComputerOperations
 targetos: Windows
 req.typenames: 
 req.redist: 

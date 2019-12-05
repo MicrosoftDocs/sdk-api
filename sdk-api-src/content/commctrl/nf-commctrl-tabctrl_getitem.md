@@ -1,19 +1,17 @@
 ---
 UID: NF:commctrl.TabCtrl_GetItem
 title: TabCtrl_GetItem macro (commctrl.h)
-
 description: Retrieves information about a tab in a tab control. You can use this macro or send the TCM_GETITEM message explicitly.
 old-location: controls\TabCtrl_GetItem.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\tab\macros\tabctrl_getitem.htm
-
 ms.date: 12/05/2018
 ms.keywords: TabCtrl_GetItem, TabCtrl_GetItem macro [Windows Controls], _win32_TabCtrl_GetItem, _win32_TabCtrl_GetItem_cpp, commctrl/TabCtrl_GetItem, controls.TabCtrl_GetItem, controls._win32_TabCtrl_GetItem
 ms.topic: macro
-f1_keywords: 
- - "commctrl/TabCtrl_GetItem"
+f1_keywords:
+- commctrl/TabCtrl_GetItem
 dev_langs:
- - c++
+- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Commctrl.h
+- Commctrl.h
 api_name:
- - TabCtrl_GetItem
+- TabCtrl_GetItem
 targetos: Windows
 req.typenames: 
 req.redist: 

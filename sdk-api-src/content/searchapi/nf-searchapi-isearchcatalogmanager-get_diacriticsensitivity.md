@@ -1,19 +1,17 @@
 ---
 UID: NF:searchapi.ISearchCatalogManager.get_DiacriticSensitivity
 title: ISearchCatalogManager::get_DiacriticSensitivity (searchapi.h)
-
 description: Gets a value that indicates whether the catalog is sensitive to diacritics. A diacritic is a mark added to a letter to indicate a special phonetic value or pronunciation.
 old-location: search\_search_ISearchCatalogManager_get_DiacriticSensitivity.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\indexmanagement\isearchcatalogmanager\get_diacriticsensitivity.htm
-
 ms.date: 12/05/2018
 ms.keywords: ISearchCatalogManager interface [search],get_DiacriticSensitivity method, ISearchCatalogManager.get_DiacriticSensitivity, ISearchCatalogManager::get_DiacriticSensitivity, _search_ISearchCatalogManager_get_DiacriticSensitivity, get_DiacriticSensitivity, get_DiacriticSensitivity method [search], get_DiacriticSensitivity method [search],ISearchCatalogManager interface, search._search_ISearchCatalogManager_get_DiacriticSensitivity, searchapi/ISearchCatalogManager::get_DiacriticSensitivity
 ms.topic: method
-f1_keywords: 
- - "searchapi/ISearchCatalogManager.get_DiacriticSensitivity"
+f1_keywords:
+- searchapi/ISearchCatalogManager.get_DiacriticSensitivity
 dev_langs:
- - c++
+- c++
 req.header: searchapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Searchapi.h
+- Searchapi.h
 api_name:
- - ISearchCatalogManager.get_DiacriticSensitivity
+- ISearchCatalogManager.get_DiacriticSensitivity
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0

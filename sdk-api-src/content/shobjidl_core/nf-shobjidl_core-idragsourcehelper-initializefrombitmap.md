@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IDragSourceHelper.InitializeFromBitmap
 title: IDragSourceHelper::InitializeFromBitmap (shobjidl_core.h)
-
 description: Initializes the drag-image manager for a windowless control.
 old-location: shell\IDragSourceHelper_InitializeFromBitmap.htm
 tech.root: shell
 ms.assetid: d50be9c9-f407-4386-bb8f-04c849205359
-
 ms.date: 12/05/2018
 ms.keywords: IDragSourceHelper interface [Windows Shell],InitializeFromBitmap method, IDragSourceHelper.InitializeFromBitmap, IDragSourceHelper::InitializeFromBitmap, InitializeFromBitmap, InitializeFromBitmap method [Windows Shell], InitializeFromBitmap method [Windows Shell],IDragSourceHelper interface, _win32_IDragSourceHelper_InitializeFromBitmap, shell.IDragSourceHelper_InitializeFromBitmap, shobjidl_core/IDragSourceHelper::InitializeFromBitmap
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IDragSourceHelper.InitializeFromBitmap"
+f1_keywords:
+- shobjidl_core/IDragSourceHelper.InitializeFromBitmap
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Shell32.dll (version 5.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - IDragSourceHelper.InitializeFromBitmap
+- IDragSourceHelper.InitializeFromBitmap
 targetos: Windows
 req.typenames: 
 req.redist: 

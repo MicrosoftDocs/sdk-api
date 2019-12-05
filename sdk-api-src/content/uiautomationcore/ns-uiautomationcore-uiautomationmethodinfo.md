@@ -1,19 +1,17 @@
 ---
 UID: NS:uiautomationcore.UIAutomationMethodInfo
 title: UIAutomationMethodInfo (uiautomationcore.h)
-
 description: Contains information about a method that is supported by a custom control pattern.
 old-location: winauto\uiauto_UIAutomationMethodInfoStruct.htm
 tech.root: WinAuto
 ms.assetid: 33a52126-8757-44d0-91e1-758f51e3d0f8
-
 ms.date: 12/05/2018
 ms.keywords: UIAutomationMethodInfo, UIAutomationMethodInfo structure [Windows Accessibility], uiauto.uiauto_UIAutomationMethodInfoStruct, uiauto_UIAutomationMethodInfoStruct, uiautomationcore/UIAutomationMethodInfo, winauto.uiauto_UIAutomationMethodInfoStruct
 ms.topic: struct
-f1_keywords: 
- - "uiautomationcore/UIAutomationMethodInfo"
+f1_keywords:
+- uiautomationcore/UIAutomationMethodInfo
 dev_langs:
- - c++
+- c++
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - UIAutomationCore.h
+- UIAutomationCore.h
 api_name:
- - UIAutomationMethodInfo
+- UIAutomationMethodInfo
 targetos: Windows
 req.typenames: 
 req.redist: 

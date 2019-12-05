@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d12.ID3D12Device.CreateCommandQueue
 title: ID3D12Device::CreateCommandQueue (d3d12.h)
-
 description: Creates a command queue.
 old-location: direct3d12\id3d12device_createcommandqueue.htm
 tech.root: direct3d12
 ms.assetid: 556D068C-9939-4B42-AFC2-4EBB2D7B553B
-
 ms.date: 12/05/2018
 ms.keywords: CreateCommandQueue, CreateCommandQueue method, CreateCommandQueue method,ID3D12Device interface, ID3D12Device interface,CreateCommandQueue method, ID3D12Device.CreateCommandQueue, ID3D12Device::CreateCommandQueue, d3d12/ID3D12Device::CreateCommandQueue, direct3d12.id3d12device_createcommandqueue
 ms.topic: method
-f1_keywords: 
- - "d3d12/ID3D12Device.CreateCommandQueue"
+f1_keywords:
+- d3d12/ID3D12Device.CreateCommandQueue
 dev_langs:
- - c++
+- c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: D3D12.lib
 req.dll: D3D12.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D12.dll
+- D3D12.dll
 api_name:
- - ID3D12Device.CreateCommandQueue
+- ID3D12Device.CreateCommandQueue
 targetos: Windows
 req.typenames: 
 req.redist: 

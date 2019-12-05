@@ -1,19 +1,17 @@
 ---
 UID: NF:wincodec.IWICBitmapFlipRotator.Initialize
 title: IWICBitmapFlipRotator::Initialize (wincodec.h)
-
 description: Initializes the bitmap flip rotator with the provided parameters.
 old-location: wic\_wic_codec_iwicbitmapfliprotator_initialize.htm
 tech.root: wic
 ms.assetid: 8c70d25d-b591-4ef4-91b5-b8350da99df1
-
 ms.date: 12/05/2018
 ms.keywords: IWICBitmapFlipRotator interface [Windows Imaging Component],Initialize method, IWICBitmapFlipRotator.Initialize, IWICBitmapFlipRotator::Initialize, Initialize, Initialize method [Windows Imaging Component], Initialize method [Windows Imaging Component],IWICBitmapFlipRotator interface, _wic_codec_iwicbitmapfliprotator_initialize, wic._wic_codec_iwicbitmapfliprotator_initialize, wincodec/IWICBitmapFlipRotator::Initialize
 ms.topic: method
-f1_keywords: 
- - "wincodec/IWICBitmapFlipRotator.Initialize"
+f1_keywords:
+- wincodec/IWICBitmapFlipRotator.Initialize
 dev_langs:
- - c++
+- c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Windowscodecs.lib
 req.dll: Windowscodecs.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Windowscodecs.dll
+- Windowscodecs.dll
 api_name:
- - IWICBitmapFlipRotator.Initialize
+- IWICBitmapFlipRotator.Initialize
 targetos: Windows
 req.typenames: 
 req.redist: 

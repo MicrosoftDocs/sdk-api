@@ -1,19 +1,17 @@
 ---
 UID: NF:msctf.ITfContextComposition.StartComposition
 title: ITfContextComposition::StartComposition (msctf.h)
-
 description: ITfContextComposition::StartComposition method
 old-location: tsf\itfcontextcomposition_startcomposition.htm
 tech.root: TSF
 ms.assetid: aab84e6c-39c7-438e-b4f0-1d174473aa02
-
 ms.date: 12/05/2018
 ms.keywords: ITfContextComposition interface [Text Services Framework],StartComposition method, ITfContextComposition.StartComposition, ITfContextComposition::StartComposition, StartComposition, StartComposition method [Text Services Framework], StartComposition method [Text Services Framework],ITfContextComposition interface, _tsf_itfcontextcomposition_startcomposition_ref, msctf/ITfContextComposition::StartComposition, tsf.itfcontextcomposition_startcomposition
 ms.topic: method
-f1_keywords: 
- - "msctf/ITfContextComposition.StartComposition"
+f1_keywords:
+- msctf/ITfContextComposition.StartComposition
 dev_langs:
- - c++
+- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msctf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msctf.dll
+- Msctf.dll
 api_name:
- - ITfContextComposition.StartComposition
+- ITfContextComposition.StartComposition
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

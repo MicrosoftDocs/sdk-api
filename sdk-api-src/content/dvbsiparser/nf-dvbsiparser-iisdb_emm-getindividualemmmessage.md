@@ -1,19 +1,17 @@
 ---
 UID: NF:dvbsiparser.IISDB_EMM.GetIndividualEmmMessage
 title: IISDB_EMM::GetIndividualEmmMessage (dvbsiparser.h)
-
 description: Gets an individual message from an Integrated Services Digital Broadcasting (ISDB) entitlement management message (EMM) table.
 old-location: mstv\iisdb_emm_getindividualemmmessage.htm
 tech.root: mstv
 ms.assetid: 311b4efb-dacb-41e1-a798-913e3f99b168
-
 ms.date: 12/05/2018
 ms.keywords: GetIndividualEmmMessage, GetIndividualEmmMessage method [Microsoft TV Technologies], GetIndividualEmmMessage method [Microsoft TV Technologies],IISDB_EMM interface, IISDB_EMM interface [Microsoft TV Technologies],GetIndividualEmmMessage method, IISDB_EMM.GetIndividualEmmMessage, IISDB_EMM::GetIndividualEmmMessage, dvbsiparser/IISDB_EMM::GetIndividualEmmMessage, mstv.iisdb_emm_getindividualemmmessage
 ms.topic: method
-f1_keywords: 
- - "dvbsiparser/IISDB_EMM.GetIndividualEmmMessage"
+f1_keywords:
+- dvbsiparser/IISDB_EMM.GetIndividualEmmMessage
 dev_langs:
- - c++
+- c++
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dvbsiparser.h
+- dvbsiparser.h
 api_name:
- - IISDB_EMM.GetIndividualEmmMessage
+- IISDB_EMM.GetIndividualEmmMessage
 targetos: Windows
 req.typenames: 
 req.redist: 

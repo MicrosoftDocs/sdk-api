@@ -1,19 +1,17 @@
 ---
 UID: NF:mspstrm.CMSPStream.HandleTSPData
 title: CMSPStream::HandleTSPData (mspstrm.h)
-
 description: The HandleTSPData method may be called by the derived call object to let the stream handle the TSP commands.
 old-location: tapi3\cmspstream_handletspdata.htm
 tech.root: Tapi
 ms.assetid: 2b02690f-9821-488e-b061-916c6338e813
-
 ms.date: 12/05/2018
 ms.keywords: CMSPStream interface [TAPI 2.2],HandleTSPData method, CMSPStream.HandleTSPData, CMSPStream::HandleTSPData, HandleTSPData, HandleTSPData method [TAPI 2.2], HandleTSPData method [TAPI 2.2],CMSPStream interface, _tapi3_cmspstream_handletspdata, mspstrm/CMSPStream::HandleTSPData, tapi3.cmspstream_handletspdata
 ms.topic: method
-f1_keywords: 
- - "mspstrm/CMSPStream.HandleTSPData"
+f1_keywords:
+- mspstrm/CMSPStream.HandleTSPData
 dev_langs:
- - c++
+- c++
 req.header: mspstrm.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mspstrm.h
+- Mspstrm.h
 api_name:
- - CMSPStream.HandleTSPData
+- CMSPStream.HandleTSPData
 targetos: Windows
 req.typenames: 
 req.redist: 

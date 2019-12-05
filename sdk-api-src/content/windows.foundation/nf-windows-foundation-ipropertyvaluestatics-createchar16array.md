@@ -1,19 +1,17 @@
 ---
 UID: NF:windows.foundation.IPropertyValueStatics.CreateChar16Array
 title: IPropertyValueStatics::IPropertyValueStatics (windows.foundation.h)
-
 description: Creates a new IPropertyValue object that contains the specified array of Unicode characters.
 old-location: winrt\ipropertyvaluestatics_createchar16array.htm
 tech.root: WinRT
 ms.assetid: 4d78015a-dfe1-49be-8523-a5b0f96f7c58
-
 ms.date: 12/05/2018
 ms.keywords: CreateChar16Array, CreateChar16Array method [Windows Runtime], CreateChar16Array method [Windows Runtime],IPropertyValueStatics interface, IPropertyValueStatics interface [Windows Runtime],CreateChar16Array method, IPropertyValueStatics.CreateChar16Array, IPropertyValueStatics.IPropertyValueStatics, IPropertyValueStatics::CreateChar16Array, IPropertyValueStatics::IPropertyValueStatics, windows/IPropertyValueStatics::CreateChar16Array, winrt.ipropertyvaluefactory_createchar16array, winrt.ipropertyvaluestatics_createchar16array
 ms.topic: method
-f1_keywords: 
- - "windows.foundation/IPropertyValueStatics.CreateChar16Array"
+f1_keywords:
+- windows.foundation/IPropertyValueStatics.CreateChar16Array
 dev_langs:
- - c++
+- c++
 req.header: windows.foundation.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Windows.Foundation.h
+- Windows.Foundation.h
 api_name:
- - IPropertyValueStatics.CreateChar16Array
+- IPropertyValueStatics.CreateChar16Array
 targetos: Windows
 req.typenames: 
 req.redist: 

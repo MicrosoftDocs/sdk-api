@@ -1,19 +1,17 @@
 ---
 UID: NF:clusapi.CancelClusterGroupOperation
 title: CancelClusterGroupOperation function (clusapi.h)
-
 description: Enables a client to cancel a MoveClusterGroup or MoveClusterGroupEx operation that is pending for a group. The group is then returned to its persistent state.
 old-location: mscs\cancelclustergroupoperation.htm
 tech.root: MsCS
 ms.assetid: F7710CD6-2B02-48A5-B089-7F174B18463C
-
 ms.date: 12/05/2018
 ms.keywords: CancelClusterGroupOperation, CancelClusterGroupOperation function [Failover Cluster], clusapi/CancelClusterGroupOperation, mscs.cancelclustergroupoperation
 ms.topic: function
-f1_keywords: 
- - "clusapi/CancelClusterGroupOperation"
+f1_keywords:
+- clusapi/CancelClusterGroupOperation
 dev_langs:
- - c++
+- c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: ClusAPI.lib
 req.dll: ClusAPI.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - ClusAPI.dll
+- ClusAPI.dll
 api_name:
- - CancelClusterGroupOperation
+- CancelClusterGroupOperation
 targetos: Windows
 req.typenames: 
 req.redist: 

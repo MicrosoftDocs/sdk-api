@@ -1,19 +1,17 @@
 ---
 UID: NS:msapofxproxy.tagKSP_PINMODE
 title: KSP_PINMODE (msapofxproxy.h)
-
 description: The KSP_PINMODE structure specifies the pin property and the supported audio processing modes for a pin factory.
 old-location: audio\ksp_pinmode.htm
 tech.root: audio
 ms.assetid: 179517E8-BFC7-4B63-8F9E-A57D0C881102
-
 ms.date: 12/05/2018
-ms.keywords: "*PKSP_PINMODE, KSP_PINMODE, KSP_PINMODE structure [Audio Devices], PKSP_PINMODE, PKSP_PINMODE structure pointer [Audio Devices], audio.ksp_pinmode, msapofxproxy/KSP_PINMODE, msapofxproxy/PKSP_PINMODE"
+ms.keywords: '*PKSP_PINMODE, KSP_PINMODE, KSP_PINMODE structure [Audio Devices], PKSP_PINMODE, PKSP_PINMODE structure pointer [Audio Devices], audio.ksp_pinmode, msapofxproxy/KSP_PINMODE, msapofxproxy/PKSP_PINMODE'
 ms.topic: struct
-f1_keywords: 
- - "msapofxproxy/KSP_PINMODE"
+f1_keywords:
+- msapofxproxy/KSP_PINMODE
 dev_langs:
- - c++
+- c++
 req.header: msapofxproxy.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Msapofxproxy.h
+- Msapofxproxy.h
 api_name:
- - KSP_PINMODE
+- KSP_PINMODE
 targetos: Windows
 req.typenames: KSP_PINMODE, *PKSP_PINMODE
 req.redist: 

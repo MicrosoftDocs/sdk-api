@@ -1,19 +1,17 @@
 ---
 UID: NS:oaidl.tagCUSTDATA
 title: CUSTDATA (oaidl.h)
-
 description: Represents custom data.
 old-location: automat\custdata.htm
 tech.root: automat
 ms.assetid: 992199f2-1bac-428e-9699-0740654e1922
-
 ms.date: 12/05/2018
-ms.keywords: "*LPCUSTDATA, CUSTDATA, CUSTDATA structure [Automation], LPCUSTDATA, LPCUSTDATA structure pointer [Automation], _oa96_CUSTDATA, automat.custdata, oaidl/CUSTDATA, oaidl/LPCUSTDATA"
+ms.keywords: '*LPCUSTDATA, CUSTDATA, CUSTDATA structure [Automation], LPCUSTDATA, LPCUSTDATA structure pointer [Automation], _oa96_CUSTDATA, automat.custdata, oaidl/CUSTDATA, oaidl/LPCUSTDATA'
 ms.topic: struct
-f1_keywords: 
- - "oaidl/CUSTDATA"
+f1_keywords:
+- oaidl/CUSTDATA
 dev_langs:
- - c++
+- c++
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - OaIdl.h
+- OaIdl.h
 api_name:
- - CUSTDATA
+- CUSTDATA
 targetos: Windows
 req.typenames: CUSTDATA, *LPCUSTDATA
 req.redist: 

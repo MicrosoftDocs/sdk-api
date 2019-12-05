@@ -1,19 +1,17 @@
 ---
 UID: NF:mfidl.IMFVideoSampleAllocator.InitializeSampleAllocator
 title: IMFVideoSampleAllocator::InitializeSampleAllocator (mfidl.h)
-
 description: Specifies the number of samples to allocate and the media type for the samples.
 old-location: mf\imfvideosampleallocator_initializesampleallocator.htm
 tech.root: medfound
 ms.assetid: b1e4557e-990c-4239-b9ec-5c7c46072e54
-
 ms.date: 12/05/2018
 ms.keywords: IMFVideoSampleAllocator interface [Media Foundation],InitializeSampleAllocator method, IMFVideoSampleAllocator.InitializeSampleAllocator, IMFVideoSampleAllocator::InitializeSampleAllocator, InitializeSampleAllocator, InitializeSampleAllocator method [Media Foundation], InitializeSampleAllocator method [Media Foundation],IMFVideoSampleAllocator interface, b1e4557e-990c-4239-b9ec-5c7c46072e54, mf.imfvideosampleallocator_initializesampleallocator, mfidl/IMFVideoSampleAllocator::InitializeSampleAllocator
 ms.topic: method
-f1_keywords: 
- - "mfidl/IMFVideoSampleAllocator.InitializeSampleAllocator"
+f1_keywords:
+- mfidl/IMFVideoSampleAllocator.InitializeSampleAllocator
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFVideoSampleAllocator.InitializeSampleAllocator
+- IMFVideoSampleAllocator.InitializeSampleAllocator
 targetos: Windows
 req.typenames: 
 req.redist: 

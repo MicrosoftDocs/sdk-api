@@ -6,9 +6,9 @@ ms.date: 4/26/2019
 ms.keywords: TxfLogCreateRangeReadContext
 ms.topic: language-reference
 f1_keywords:
- - TxfLogCreateRangeReadContext
+- TxfLogCreateRangeReadContext
 dev_langs:
- - c++
+- c++
 targetos: Windows
 req.assembly: 
 req.construct-type: function
@@ -30,14 +30,14 @@ req.type-library:
 req.umdf-ver: 
 req.unicode-ansi: 
 topic_type:
- - apiref
- - kbSyntax
+- apiref
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - TxfW32.dll
+- TxfW32.dll
 api_name:
- - TxfLogCreateRangeReadContext
+- TxfLogCreateRangeReadContext
 ---
 
 ## -description

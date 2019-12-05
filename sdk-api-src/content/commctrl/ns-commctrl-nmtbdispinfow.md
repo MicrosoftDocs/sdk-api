@@ -1,19 +1,17 @@
 ---
 UID: NS:commctrl.__unnamed_struct_6
 title: NMTBDISPINFOW (commctrl.h)
-
 description: Contains and receives display information for a toolbar item. This structure is used with the TBN_GETDISPINFO notification code.
 old-location: controls\NMTBDISPINFO.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\toolbar\structures\nmtbdispinfo.htm
-
 ms.date: 12/05/2018
 ms.keywords: '*LPNMTBDISPINFOW, LPNMTBDISPINFO, LPNMTBDISPINFO structure pointer [Windows Controls], NMTBDISPINFO, NMTBDISPINFO structure [Windows Controls], NMTBDISPINFOA, NMTBDISPINFOW, TBNF_DI_SETITEM, TBNF_IMAGE, TBNF_TEXT, _win32_NMTBDISPINFO, _win32_NMTBDISPINFO_cpp, commctrl/LPNMTBDISPINFO, commctrl/NMTBDISPINFO, commctrl/NMTBDISPINFOA, commctrl/NMTBDISPINFOW, controls.NMTBDISPINFO, controls._win32_NMTBDISPINFO'
 ms.topic: struct
 f1_keywords:
 - commctrl/NMTBDISPINFO
 dev_langs:
- - c++
+- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

@@ -1,19 +1,17 @@
 ---
 UID: NF:shellapi.SHAppBarMessage
 title: SHAppBarMessage function (shellapi.h)
-
 description: Sends an appbar message to the system.
 old-location: shell\SHAppBarMessage.htm
 tech.root: shell
 ms.assetid: 173d6eff-b33b-4d7d-bedd-5ebfb1e45954
-
 ms.date: 12/05/2018
 ms.keywords: ABM_ACTIVATE, ABM_GETAUTOHIDEBAR, ABM_GETAUTOHIDEBAREX, ABM_GETSTATE, ABM_GETTASKBARPOS, ABM_NEW, ABM_QUERYPOS, ABM_REMOVE, ABM_SETAUTOHIDEBAR, ABM_SETAUTOHIDEBAREX, ABM_SETPOS, ABM_SETSTATE, ABM_WINDOWPOSCHANGED, SHAppBarMessage, SHAppBarMessage function [Windows Shell], _win32_SHAppBarMessage, shell.SHAppBarMessage, shellapi/SHAppBarMessage
 ms.topic: function
 f1_keywords:
 - shellapi/SHAppBarMessage
 dev_langs:
- - c++
+- c++
 req.header: shellapi.h
 req.include-header: 
 req.target-type: Windows

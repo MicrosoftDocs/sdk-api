@@ -27,13 +27,13 @@ req.type-library:
 req.umdf-ver: 
 req.unicode-ansi: 
 topic_type:
- - apiref
+- apiref
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - roerrorapi.h
+- roerrorapi.h
 api_name:
- - roerrorapi
+- roerrorapi
 ---
 
 ## -description

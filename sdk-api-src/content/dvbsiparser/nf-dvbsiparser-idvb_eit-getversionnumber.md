@@ -1,19 +1,17 @@
 ---
 UID: NF:dvbsiparser.IDVB_EIT.GetVersionNumber
 title: IDVB_EIT::GetVersionNumber (dvbsiparser.h)
-
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\idvb_eit_getversionnumber.htm
 tech.root: mstv
 ms.assetid: 3dbd072d-0b48-4ce9-80ec-67f4c3b74915
-
 ms.date: 12/05/2018
 ms.keywords: GetVersionNumber, GetVersionNumber method [Microsoft TV Technologies], GetVersionNumber method [Microsoft TV Technologies],IDVB_EIT interface, IDVB_EIT interface [Microsoft TV Technologies],GetVersionNumber method, IDVB_EIT.GetVersionNumber, IDVB_EIT::GetVersionNumber, IDVB_EITGetVersionNumber, dvbsiparser/IDVB_EIT::GetVersionNumber, mstv.idvb_eit_getversionnumber
 ms.topic: method
-f1_keywords: 
- - "dvbsiparser/IDVB_EIT.GetVersionNumber"
+f1_keywords:
+- dvbsiparser/IDVB_EIT.GetVersionNumber
 dev_langs:
- - c++
+- c++
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dvbsiparser.h
+- dvbsiparser.h
 api_name:
- - IDVB_EIT.GetVersionNumber
+- IDVB_EIT.GetVersionNumber
 targetos: Windows
 req.typenames: 
 req.redist: 

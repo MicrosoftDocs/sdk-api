@@ -1,19 +1,17 @@
 ---
 UID: NS:elscore._MAPPING_SERVICE_INFO
 title: MAPPING_SERVICE_INFO (elscore.h)
-
 description: Contains information about an ELS service.
 old-location: intl\mappingserviceinfo.htm
 tech.root: Intl
 ms.assetid: 444102a7-0da9-44be-989e-7a5139320034
-
 ms.date: 12/05/2018
-ms.keywords: "*PMAPPING_SERVICE_INFO, 0, 1, MAPPING_SERVICE_INFO, MAPPING_SERVICE_INFO structure [Internationalization for Windows Applications], PMAPPING_SERVICE_INFO, PMAPPING_SERVICE_INFO structure pointer [Internationalization for Windows Applications], elscore/MAPPING_SERVICE_INFO, elscore/PMAPPING_SERVICE_INFO, intl.mappingserviceinfo"
+ms.keywords: '*PMAPPING_SERVICE_INFO, 0, 1, MAPPING_SERVICE_INFO, MAPPING_SERVICE_INFO structure [Internationalization for Windows Applications], PMAPPING_SERVICE_INFO, PMAPPING_SERVICE_INFO structure pointer [Internationalization for Windows Applications], elscore/MAPPING_SERVICE_INFO, elscore/PMAPPING_SERVICE_INFO, intl.mappingserviceinfo'
 ms.topic: struct
-f1_keywords: 
- - "elscore/MAPPING_SERVICE_INFO"
+f1_keywords:
+- elscore/MAPPING_SERVICE_INFO
 dev_langs:
- - c++
+- c++
 req.header: elscore.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Elscore.h
+- Elscore.h
 api_name:
- - MAPPING_SERVICE_INFO
+- MAPPING_SERVICE_INFO
 targetos: Windows
 req.typenames: MAPPING_SERVICE_INFO, *PMAPPING_SERVICE_INFO
 req.redist: 

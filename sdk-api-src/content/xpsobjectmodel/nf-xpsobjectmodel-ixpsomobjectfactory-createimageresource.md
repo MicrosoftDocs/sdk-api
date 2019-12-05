@@ -1,19 +1,17 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMObjectFactory.CreateImageResource
 title: IXpsOMObjectFactory::CreateImageResource (xpsobjectmodel.h)
-
 description: Creates an IXpsOMImageResource interface, which is used to access an image resource stream.
 old-location: xps\ixpsomobjectfactory_createimageresource.htm
 tech.root: printdocs
 ms.assetid: 267f6e3e-ed1d-4ce7-a554-a943ac3f469d
-
 ms.date: 12/05/2018
 ms.keywords: CreateImageResource, CreateImageResource method [XPS Documents and Packaging], CreateImageResource method [XPS Documents and Packaging],IXpsOMObjectFactory interface, IXpsOMObjectFactory interface [XPS Documents and Packaging],CreateImageResource method, IXpsOMObjectFactory.CreateImageResource, IXpsOMObjectFactory::CreateImageResource, xps.ixpsomobjectfactory_createimageresource, xpsobjectmodel/IXpsOMObjectFactory::CreateImageResource
 ms.topic: method
-f1_keywords: 
- - "xpsobjectmodel/IXpsOMObjectFactory.CreateImageResource"
+f1_keywords:
+- xpsobjectmodel/IXpsOMObjectFactory.CreateImageResource
 dev_langs:
- - c++
+- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsobjectmodel.h
+- xpsobjectmodel.h
 api_name:
- - IXpsOMObjectFactory.CreateImageResource
+- IXpsOMObjectFactory.CreateImageResource
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d10.ID3D10Device.RSGetState
 title: ID3D10Device::RSGetState (d3d10.h)
-
 description: Get the rasterizer state from the rasterizer stage of the pipeline.
 old-location: direct3d10\id3d10device_rsgetstate.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10device_rsgetstate.htm
-
 ms.date: 12/05/2018
 ms.keywords: ID3D10Device interface [Direct3D 10],RSGetState method, ID3D10Device.RSGetState, ID3D10Device::RSGetState, RSGetState, RSGetState method [Direct3D 10], RSGetState method [Direct3D 10],ID3D10Device interface, d3d10/ID3D10Device::RSGetState, direct3d10.id3d10device_rsgetstate, e6855c5c-5337-9573-7375-39d3e0d3e83c
 ms.topic: method
-f1_keywords: 
- - "d3d10/ID3D10Device.RSGetState"
+f1_keywords:
+- d3d10/ID3D10Device.RSGetState
 dev_langs:
- - c++
+- c++
 req.header: d3d10.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: D3D10.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D10.lib
- - D3D10.dll
+- D3D10.lib
+- D3D10.dll
 api_name:
- - ID3D10Device.RSGetState
+- ID3D10Device.RSGetState
 targetos: Windows
 req.typenames: 
 req.redist: 

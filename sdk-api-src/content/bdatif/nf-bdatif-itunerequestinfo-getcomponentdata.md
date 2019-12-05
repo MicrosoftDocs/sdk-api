@@ -1,19 +1,17 @@
 ---
 UID: NF:bdatif.ITuneRequestInfo.GetComponentData
 title: ITuneRequestInfo::GetComponentData (bdatif.h)
-
 description: The GetComponentData method fills in all network-specific component data for the existing Components collection on the specified tune request.
 old-location: mstv\itunerequestinfo_getcomponentdata.htm
 tech.root: mstv
 ms.assetid: 769d112e-4df7-451c-ac12-440b16c33e88
-
 ms.date: 12/05/2018
 ms.keywords: GetComponentData, GetComponentData method [Microsoft TV Technologies], GetComponentData method [Microsoft TV Technologies],ITuneRequestInfo interface, ITuneRequestInfo interface [Microsoft TV Technologies],GetComponentData method, ITuneRequestInfo.GetComponentData, ITuneRequestInfo::GetComponentData, ITuneRequestInfoGetComponentData, bdatif/ITuneRequestInfo::GetComponentData, mstv.itunerequestinfo_getcomponentdata
 ms.topic: method
-f1_keywords: 
- - "bdatif/ITuneRequestInfo.GetComponentData"
+f1_keywords:
+- bdatif/ITuneRequestInfo.GetComponentData
 dev_langs:
- - c++
+- c++
 req.header: bdatif.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - bdatif.h
+- bdatif.h
 api_name:
- - ITuneRequestInfo.GetComponentData
+- ITuneRequestInfo.GetComponentData
 targetos: Windows
 req.typenames: 
 req.redist: 

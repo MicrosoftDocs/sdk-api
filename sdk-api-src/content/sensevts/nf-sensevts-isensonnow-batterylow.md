@@ -1,19 +1,17 @@
 ---
 UID: NF:sensevts.ISensOnNow.BatteryLow
 title: ISensOnNow::BatteryLow (sensevts.h)
-
 description: The BatteryLow method notifies an application that battery power is low. SENS calls the BatteryLow method to notify an application that a computer is using battery power.
 old-location: sens\isensonnow_batterylow.htm
 tech.root: Sens
 ms.assetid: 78b305ef-761b-48b8-8f1b-371a75df4edb
-
 ms.date: 12/05/2018
 ms.keywords: BatteryLow, BatteryLow method [SENS], BatteryLow method [SENS],ISensOnNow interface, ISensOnNow interface [SENS],BatteryLow method, ISensOnNow.BatteryLow, ISensOnNow::BatteryLow, _zaw_isensonnow_batterylow, sens.isensonnow_batterylow, sensevts/ISensOnNow::BatteryLow, syncmgr.isensonnow_batterylow
 ms.topic: method
-f1_keywords: 
- - "sensevts/ISensOnNow.BatteryLow"
+f1_keywords:
+- sensevts/ISensOnNow.BatteryLow
 dev_langs:
- - c++
+- c++
 req.header: sensevts.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Sens.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Sens.dll
+- Sens.dll
 api_name:
- - ISensOnNow.BatteryLow
+- ISensOnNow.BatteryLow
 targetos: Windows
 req.typenames: 
 req.redist: 

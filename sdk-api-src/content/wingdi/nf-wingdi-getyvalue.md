@@ -1,19 +1,17 @@
 ---
 UID: NF:wingdi.GetYValue
 title: GetYValue macro (wingdi.h)
-
 description: The GetYValue macro retrieves the yellow color value from a CMYK color value.
 old-location: wcs\getyvalue.htm
 tech.root: WCS
 ms.assetid: 5948db59-649f-4940-afb6-5bdb84544915
-
 ms.date: 12/05/2018
 ms.keywords: GetYValue, GetYValue macro [Windows Color System], _color_GetYValue, wcs.getyvalue, wingdi/GetYValue
 ms.topic: macro
-f1_keywords: 
- - "wingdi/GetYValue"
+f1_keywords:
+- wingdi/GetYValue
 dev_langs:
- - c++
+- c++
 req.header: wingdi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wingdi.h
+- Wingdi.h
 api_name:
- - GetYValue
+- GetYValue
 targetos: Windows
 req.typenames: 
 req.redist: 

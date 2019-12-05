@@ -1,19 +1,17 @@
 ---
 UID: NE:faxcomex.FAX_COVERPAGE_TYPE_ENUM
 title: FAX_COVERPAGE_TYPE_ENUM (faxcomex.h)
-
 description: The FAX_COVERPAGE_TYPE_ENUM enumeration defines whether a cover page template file is a local computer cover page or a server-based cover page. It can also specify that no file is used.
 old-location: fax\_mfax_fax_coverpage_type_enum.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_7lm5.htm
-
 ms.date: 12/05/2018
 ms.keywords: FAX_COVERPAGE_TYPE_ENUM, FAX_COVERPAGE_TYPE_ENUM enumeration [Fax Service], _mfax_fax_coverpage_type_enum, fax._mfax_fax_coverpage_type_enum, faxcomex/FAX_COVERPAGE_TYPE_ENUM, faxcomex/fcptLOCAL, faxcomex/fcptNONE, faxcomex/fcptSERVER, fcptLOCAL, fcptNONE, fcptSERVER
 ms.topic: enum
-f1_keywords: 
- - "faxcomex/FAX_COVERPAGE_TYPE_ENUM"
+f1_keywords:
+- faxcomex/FAX_COVERPAGE_TYPE_ENUM
 dev_langs:
- - c++
+- c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - FaxComex.h
+- FaxComex.h
 api_name:
- - FAX_COVERPAGE_TYPE_ENUM
+- FAX_COVERPAGE_TYPE_ENUM
 targetos: Windows
 req.typenames: FAX_COVERPAGE_TYPE_ENUM
 req.redist: 

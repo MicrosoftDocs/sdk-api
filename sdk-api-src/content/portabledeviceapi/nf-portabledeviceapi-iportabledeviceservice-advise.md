@@ -1,19 +1,17 @@
 ---
 UID: NF:portabledeviceapi.IPortableDeviceService.Advise
 title: IPortableDeviceService::Advise (portabledeviceapi.h)
-
 description: Registers an application-defined callback object that receives service events.
 old-location: wpdsdk\iportabledeviceservice_advise.htm
 tech.root: wpd_sdk
 ms.assetid: 128b1ee9-fd1f-4480-ae9a-b1d0bc86cf1b
-
 ms.date: 12/05/2018
 ms.keywords: Advise, Advise method [Windows Portable Devices SDK], Advise method [Windows Portable Devices SDK],IPortableDeviceService interface, IPortableDeviceService interface [Windows Portable Devices SDK],Advise method, IPortableDeviceService.Advise, IPortableDeviceService::Advise, portabledeviceapi/IPortableDeviceService::Advise, wpdsdk.iportabledeviceservice_advise
 ms.topic: method
-f1_keywords: 
- - "portabledeviceapi/IPortableDeviceService.Advise"
+f1_keywords:
+- portabledeviceapi/IPortableDeviceService.Advise
 dev_langs:
- - c++
+- c++
 req.header: portabledeviceapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - PortableDeviceAPI.h
+- PortableDeviceAPI.h
 api_name:
- - IPortableDeviceService.Advise
+- IPortableDeviceService.Advise
 targetos: Windows
 req.typenames: 
 req.redist: 

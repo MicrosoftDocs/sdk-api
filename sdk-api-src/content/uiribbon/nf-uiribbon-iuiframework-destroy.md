@@ -1,19 +1,17 @@
 ---
 UID: NF:uiribbon.IUIFramework.Destroy
 title: IUIFramework::Destroy (uiribbon.h)
-
 description: Terminates and releases all objects, hooks, and references for an instance of the Windows Ribbon framework.
 old-location: windowsribbon\windowsribbon_iuiframework_destroy.htm
 tech.root: windowsribbon
 ms.assetid: VS|scenicintent|~\scenicintent\reference\ifaces\iuiframework\destroy.htm
-
 ms.date: 12/05/2018
 ms.keywords: Destroy, Destroy method [Windows Ribbon], Destroy method [Windows Ribbon],IUIFramework interface, IUIFramework interface [Windows Ribbon],Destroy method, IUIFramework.Destroy, IUIFramework::Destroy, scenicintent_IUIFramework_Destroy, uiribbon/IUIFramework::Destroy, windowsribbon.windowsribbon_iuiframework_destroy
 ms.topic: method
-f1_keywords: 
- - "uiribbon/IUIFramework.Destroy"
+f1_keywords:
+- uiribbon/IUIFramework.Destroy
 dev_langs:
- - c++
+- c++
 req.header: uiribbon.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Mshtml.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mshtml.dll
+- Mshtml.dll
 api_name:
- - IUIFramework.Destroy
+- IUIFramework.Destroy
 targetos: Windows
 req.typenames: 
 req.redist: 

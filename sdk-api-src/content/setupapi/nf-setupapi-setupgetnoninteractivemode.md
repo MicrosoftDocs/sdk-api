@@ -1,19 +1,17 @@
 ---
 UID: NF:setupapi.SetupGetNonInteractiveMode
 title: SetupGetNonInteractiveMode function (setupapi.h)
-
 description: The SetupGetNonInteractiveMode function returns the value of a SetupAPI non-interactive flag that indicates whether the caller's process can interact with a user through user interface components, such as dialog boxes.
 old-location: devinst\setupgetnoninteractivemode.htm
 tech.root: devinst
 ms.assetid: 0978851d-18a6-47a3-8ac9-0c03c469cbef
-
 ms.date: 12/05/2018
 ms.keywords: SetupGetNonInteractiveMode, SetupGetNonInteractiveMode function [Device and Driver Installation], devinst.setupgetnoninteractivemode, setup-ref_c292cd64-d95d-4e1a-a28b-183ad013bbd3.xml, setupapi/SetupGetNonInteractiveMode
 ms.topic: function
-f1_keywords: 
- - "setupapi/SetupGetNonInteractiveMode"
+f1_keywords:
+- setupapi/SetupGetNonInteractiveMode
 dev_langs:
- - c++
+- c++
 req.header: setupapi.h
 req.include-header: Setupapi.h
 req.target-type: Desktop
@@ -32,14 +30,14 @@ req.lib: Setupapi.lib
 req.dll: Setupapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Setupapi.dll
+- Setupapi.dll
 api_name:
- - SetupGetNonInteractiveMode
+- SetupGetNonInteractiveMode
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NS:ctfutb.TF_LBBALLOONINFO
 title: TF_LBBALLOONINFO (ctfutb.h)
-
 description: The TF_LBBALLOONINFO structure contains information about a language bar balloon item.
 old-location: tsf\tf_lbballooninfo.htm
 tech.root: TSF
 ms.assetid: 8ceed1ae-27f9-4998-b950-52865bfa2f79
-
 ms.date: 12/05/2018
 ms.keywords: TF_LBBALLOONINFO, TF_LBBALLOONINFO structure [Text Services Framework], _tsf_tf_lbballooninfo_ref, ctfutb/TF_LBBALLOONINFO, tsf.tf_lbballooninfo
 ms.topic: struct
-f1_keywords: 
- - "ctfutb/TF_LBBALLOONINFO"
+f1_keywords:
+- ctfutb/TF_LBBALLOONINFO
 dev_langs:
- - c++
+- c++
 req.header: ctfutb.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Ctfutb.h
+- Ctfutb.h
 api_name:
- - TF_LBBALLOONINFO
+- TF_LBBALLOONINFO
 targetos: Windows
 req.typenames: TF_LBBALLOONINFO
 req.redist: TSF 1.0 on Windows 2000 Professional

@@ -1,19 +1,17 @@
 ---
 UID: NF:oleauto.VarCat
 title: VarCat function (oleauto.h)
-
 description: Concatenates two variants and returns the result.
 old-location: automat\varcat.htm
 tech.root: automat
 ms.assetid: 2e94516e-de36-407a-a1fe-6a6e66641c17
-
 ms.date: 12/05/2018
 ms.keywords: VarCat, VarCat function [Automation], _oa96_VarCat, automat.varcat, oleauto/VarCat
 ms.topic: function
-f1_keywords: 
- - "oleauto/VarCat"
+f1_keywords:
+- oleauto/VarCat
 dev_langs:
- - c++
+- c++
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: OleAut32.lib
 req.dll: OleAut32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - OleAut32.dll
+- OleAut32.dll
 api_name:
- - VarCat
+- VarCat
 targetos: Windows
 req.typenames: 
 req.redist: 

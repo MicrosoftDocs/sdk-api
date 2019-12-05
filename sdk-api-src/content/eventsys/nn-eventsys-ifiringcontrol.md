@@ -1,19 +1,17 @@
 ---
 UID: NN:eventsys.IFiringControl
 title: IFiringControl (eventsys.h)
-
 description: Fires an event to a single subscription.
 old-location: cos\ifiringcontrol.htm
 tech.root: cossdk
 ms.assetid: 1db216b8-f334-4fa2-81db-0f6c1646b320
-
 ms.date: 12/05/2018
 ms.keywords: IFiringControl, IFiringControl interface [COM+], IFiringControl interface [COM+],described, _cos_IFiringControl, cos.ifiringcontrol, eventsys/IFiringControl
 ms.topic: interface
-f1_keywords: 
- - "eventsys/IFiringControl"
+f1_keywords:
+- eventsys/IFiringControl
 dev_langs:
- - c++
+- c++
 req.header: eventsys.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - EventSys.h
+- EventSys.h
 api_name:
- - IFiringControl
+- IFiringControl
 targetos: Windows
 req.typenames: 
 req.redist: 

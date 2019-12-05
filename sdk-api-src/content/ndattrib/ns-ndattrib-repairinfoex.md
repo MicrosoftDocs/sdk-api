@@ -1,19 +1,17 @@
 ---
 UID: NS:ndattrib.tagRepairInfoEx
 title: RepairInfoEx (ndattrib.h)
-
 description: Contains detailed repair information that can be used to help resolve the root cause of an incident.
 old-location: ndf\repairinfoex.htm
 tech.root: NDF
 ms.assetid: 9357f463-946c-47ad-bb8d-ff9de210e7e1
-
 ms.date: 12/05/2018
-ms.keywords: "*PRepairInfoEx, PRepairInfoEx, PRepairInfoEx structure pointer [NDF], RepairInfoEx, RepairInfoEx structure [NDF], ndattrib/PRepairInfoEx, ndattrib/RepairInfoEx, ndf.repairinfoex"
+ms.keywords: '*PRepairInfoEx, PRepairInfoEx, PRepairInfoEx structure pointer [NDF], RepairInfoEx, RepairInfoEx structure [NDF], ndattrib/PRepairInfoEx, ndattrib/RepairInfoEx, ndf.repairinfoex'
 ms.topic: struct
-f1_keywords: 
- - "ndattrib/RepairInfoEx"
+f1_keywords:
+- ndattrib/RepairInfoEx
 dev_langs:
- - c++
+- c++
 req.header: ndattrib.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - ndattrib.h
+- ndattrib.h
 api_name:
- - RepairInfoEx
+- RepairInfoEx
 targetos: Windows
 req.typenames: RepairInfoEx, *PRepairInfoEx
 req.redist: 

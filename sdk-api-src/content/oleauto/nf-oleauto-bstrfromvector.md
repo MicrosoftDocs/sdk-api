@@ -1,19 +1,17 @@
 ---
 UID: NF:oleauto.BstrFromVector
 title: BstrFromVector function (oleauto.h)
-
 description: Returns a BSTR, assigning each element of the vector to a character in the BSTR.
 old-location: automat\bstrfromvector.htm
 tech.root: automat
 ms.assetid: 26955616-698b-4f63-b652-af7dfaa23e43
-
 ms.date: 12/05/2018
 ms.keywords: BstrFromVector, BstrFromVector function [Automation], _oa96_BstrFromVector, automat.bstrfromvector, oleauto/BstrFromVector
 ms.topic: function
-f1_keywords: 
- - "oleauto/BstrFromVector"
+f1_keywords:
+- oleauto/BstrFromVector
 dev_langs:
- - c++
+- c++
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: OleAut32.lib
 req.dll: OleAut32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - OleAut32.dll
+- OleAut32.dll
 api_name:
- - BstrFromVector
+- BstrFromVector
 targetos: Windows
 req.typenames: 
 req.redist: 

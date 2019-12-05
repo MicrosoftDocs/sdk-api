@@ -1,19 +1,17 @@
 ---
 UID: NF:wmp.IWMPSyncDevice.get_partnershipIndex
 title: IWMPSyncDevice::get_partnershipIndex (wmp.h)
-
 description: The get_partnershipIndex method retrieves the index of the device partnership.
 old-location: wmp\iwmpsyncdevice_get_partnershipindex.htm
 tech.root: WMP
 ms.assetid: a7f04b97-8a09-4feb-b776-649aa9d6f407
-
 ms.date: 12/05/2018
 ms.keywords: IWMPSyncDevice interface [Windows Media Player],get_partnershipIndex method, IWMPSyncDevice.get_partnershipIndex, IWMPSyncDevice::get_partnershipIndex, IWMPSyncDeviceget_partnershipIndex, get_partnershipIndex, get_partnershipIndex method [Windows Media Player], get_partnershipIndex method [Windows Media Player],IWMPSyncDevice interface, wmp.iwmpsyncdevice_get_partnershipindex, wmp/IWMPSyncDevice::get_partnershipIndex
 ms.topic: method
-f1_keywords: 
- - "wmp/IWMPSyncDevice.get_partnershipIndex"
+f1_keywords:
+- wmp/IWMPSyncDevice.get_partnershipIndex
 dev_langs:
- - c++
+- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wmp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmp.dll
+- wmp.dll
 api_name:
- - IWMPSyncDevice.get_partnershipIndex
+- IWMPSyncDevice.get_partnershipIndex
 targetos: Windows
 req.typenames: 
 req.redist: 

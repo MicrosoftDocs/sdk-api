@@ -1,19 +1,17 @@
 ---
 UID: NF:directxcollision.BoundingSphere.Transform(BoundingSphere &,float,FXMVECTOR,FXMVECTOR)
 title: BoundingSphere::Transform(BoundingSphere &,float,FXMVECTOR,FXMVECTOR)
-
 description: Transforms the BoundingSphere using the specified scale, rotation and translation vectors.
 old-location: dxmath\boundingsphere_transform_2.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.directxcollision.BoundingSphere.Transform(BoundingSphere@,float,XMVECTOR,XMVECTOR)
-
 ms.date: 12/05/2018
 ms.keywords: BoundingSphere interface [DirectX Math Support APIs],Transform method, BoundingSphere.Transform, BoundingSphere.Transform(BoundingSphere &,float,FXMVECTOR,FXMVECTOR), BoundingSphere.Transform(BoundingSphere&,float,XMVECTOR,XMVECTOR), BoundingSphere::Transform, BoundingSphere::Transform(BoundingSphere &,float,FXMVECTOR,FXMVECTOR), Transform, Transform method [DirectX Math Support APIs], Transform method [DirectX Math Support APIs],BoundingSphere interface, dxmath.boundingsphere_transform_2
 ms.topic: method
-f1_keywords: 
- - "directxcollision/BoundingSphere.Transform"
+f1_keywords:
+- directxcollision/BoundingSphere.Transform
 dev_langs:
- - c++
+- c++
 req.header: directxcollision.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - DirectXCollision.h
+- DirectXCollision.h
 api_name:
- - BoundingSphere.Transform
+- BoundingSphere.Transform
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:directxmath.XMMatrixPerspectiveOffCenterLH
 title: XMMatrixPerspectiveOffCenterLH function (directxmath.h)
-
 description: Builds a custom version of a left-handed perspective projection matrix.
 old-location: dxmath\xmmatrixperspectiveoffcenterlh.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.matrix.XMMatrixPerspectiveOffCenterLH(float,float,float,float,float,float)
-
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMMatrixPerspectiveOffCenterLH, XMMatrixPerspectiveOffCenterLH, XMMatrixPerspectiveOffCenterLH method [DirectX Math Support APIs], dxmath.xmmatrixperspectiveoffcenterlh
 ms.topic: function
-f1_keywords: 
- - "directxmath/XMMatrixPerspectiveOffCenterLH"
+f1_keywords:
+- directxmath/XMMatrixPerspectiveOffCenterLH
 dev_langs:
- - c++
+- c++
 req.header: directxmath.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - DirectXMath.h
+- DirectXMath.h
 api_name:
- - XMMatrixPerspectiveOffCenterLH
+- XMMatrixPerspectiveOffCenterLH
 targetos: Windows
 req.typenames: 
 req.redist: 

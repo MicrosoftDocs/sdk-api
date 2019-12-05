@@ -1,19 +1,17 @@
 ---
 UID: NF:processthreadsapi.SetProcessAffinityUpdateMode
 title: SetProcessAffinityUpdateMode function (processthreadsapi.h)
-
 description: Sets the affinity update mode of the specified process.
 old-location: base\setprocessaffinityupdatemode.htm
 tech.root: ProcThread
 ms.assetid: 46e8f7d2-89b9-42cb-9171-d5ae2ec870da
-
 ms.date: 12/05/2018
 ms.keywords: PROCESS_AFFINITY_ENABLE_AUTO_UPDATE, SetProcessAffinityUpdateMode, SetProcessAffinityUpdateMode function, base.setprocessaffinityupdatemode, processthreadsapi/SetProcessAffinityUpdateMode, winbase/SetProcessAffinityUpdateMode
 ms.topic: function
-f1_keywords: 
- - "processthreadsapi/SetProcessAffinityUpdateMode"
+f1_keywords:
+- processthreadsapi/SetProcessAffinityUpdateMode
 dev_langs:
- - c++
+- c++
 req.header: processthreadsapi.h
 req.include-header: Windows 7, Windows Server 2008  Windows Server 2008 R2, Windows.h
 req.target-type: Windows
@@ -32,21 +30,21 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-ProcessThreads-l1-1-0.dll
- - KernelBase.dll
- - MinKernelBase.dll
- - API-MS-Win-Core-ProcessThreads-l1-1-1.dll
- - API-MS-Win-Core-ProcessThreads-l1-1-2.dll
- - api-ms-win-downlevel-kernel32-l1-1-0.dll
- - API-MS-Win-Core-ProcessThreads-L1-1-3.dll
+- Kernel32.dll
+- API-MS-Win-Core-ProcessThreads-l1-1-0.dll
+- KernelBase.dll
+- MinKernelBase.dll
+- API-MS-Win-Core-ProcessThreads-l1-1-1.dll
+- API-MS-Win-Core-ProcessThreads-l1-1-2.dll
+- api-ms-win-downlevel-kernel32-l1-1-0.dll
+- API-MS-Win-Core-ProcessThreads-L1-1-3.dll
 api_name:
- - SetProcessAffinityUpdateMode
+- SetProcessAffinityUpdateMode
 targetos: Windows
 req.typenames: 
 req.redist: 

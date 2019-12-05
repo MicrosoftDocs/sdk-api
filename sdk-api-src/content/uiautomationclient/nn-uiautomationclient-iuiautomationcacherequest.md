@@ -1,19 +1,17 @@
 ---
 UID: NN:uiautomationclient.IUIAutomationCacheRequest
 title: IUIAutomationCacheRequest (uiautomationclient.h)
-
 description: Exposes properties and methods of a cache request. Client applications use this interface to specify the properties and control patterns to be cached when a Microsoft UI Automation element is obtained.
 old-location: winauto\uiauto_IUIAutomationCacheRequest.htm
 tech.root: WinAuto
 ms.assetid: 8e5d7f6e-c4c7-4bb9-ba33-959e098ecd41
-
 ms.date: 12/05/2018
 ms.keywords: IUIAutomationCacheRequest, IUIAutomationCacheRequest interface [Windows Accessibility], IUIAutomationCacheRequest interface [Windows Accessibility],described, uiauto.uiauto_IUIAutomationCacheRequest, uiauto_IUIAutomationCacheRequest, uiautomationclient/IUIAutomationCacheRequest, winauto.uiauto_IUIAutomationCacheRequest
 ms.topic: interface
-f1_keywords: 
- - "uiautomationclient/IUIAutomationCacheRequest"
+f1_keywords:
+- uiautomationclient/IUIAutomationCacheRequest
 dev_langs:
- - c++
+- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: UIAutomationCore.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationCore.dll
+- UIAutomationCore.dll
 api_name:
- - IUIAutomationCacheRequest
+- IUIAutomationCacheRequest
 targetos: Windows
 req.typenames: 
 req.redist: 

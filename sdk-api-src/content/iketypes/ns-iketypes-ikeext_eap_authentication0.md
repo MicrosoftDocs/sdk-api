@@ -1,19 +1,17 @@
 ---
 UID: NS:iketypes.IKEEXT_EAP_AUTHENTICATION0__
 title: IKEEXT_EAP_AUTHENTICATION0 (iketypes.h)
-
 description: Stores information needed for Extensible Authentication Protocol (EAP) authentication.
 old-location: fwp\ikeext_eap_authentication0.htm
 tech.root: fwp
 ms.assetid: 86029526-ea87-4962-b5f5-f535c7034c60
-
 ms.date: 12/05/2018
 ms.keywords: IKEEXT_EAP_AUTHENTICATION0, IKEEXT_EAP_AUTHENTICATION0 structure [Filtering], IKEEXT_EAP_FLAG_LOCAL_AUTH_ONLY, IKEEXT_EAP_FLAG_REMOTE_AUTH_ONLY, fwp.ikeext_eap_authentication0, iketypes/IKEEXT_EAP_AUTHENTICATION0
 ms.topic: struct
-f1_keywords: 
- - "iketypes/IKEEXT_EAP_AUTHENTICATION0"
+f1_keywords:
+- iketypes/IKEEXT_EAP_AUTHENTICATION0
 dev_langs:
- - c++
+- c++
 req.header: iketypes.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Iketypes.h
+- Iketypes.h
 api_name:
- - IKEEXT_EAP_AUTHENTICATION0
+- IKEEXT_EAP_AUTHENTICATION0
 targetos: Windows
 req.typenames: IKEEXT_EAP_AUTHENTICATION0
 req.redist: 

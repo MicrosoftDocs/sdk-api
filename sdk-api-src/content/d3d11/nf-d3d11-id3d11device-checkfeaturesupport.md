@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d11.ID3D11Device.CheckFeatureSupport
 title: ID3D11Device::CheckFeatureSupport (d3d11.h)
-
 description: Gets information about the features that are supported by the current graphics driver.
 old-location: direct3d11\id3d11device_checkfeaturesupport.htm
 tech.root: direct3d11
 ms.assetid: 7edf2ffd-908a-4cf8-9ac6-8fd14d7a0ea1
-
 ms.date: 12/05/2018
 ms.keywords: CheckFeatureSupport, CheckFeatureSupport method [Direct3D 11], CheckFeatureSupport method [Direct3D 11],ID3D11Device interface, ID3D11Device interface [Direct3D 11],CheckFeatureSupport method, ID3D11Device.CheckFeatureSupport, ID3D11Device::CheckFeatureSupport, cf1b66c2-5336-35b5-28c8-154fc99a01ee, d3d11/ID3D11Device::CheckFeatureSupport, direct3d11.id3d11device_checkfeaturesupport
 ms.topic: method
-f1_keywords: 
- - "d3d11/ID3D11Device.CheckFeatureSupport"
+f1_keywords:
+- d3d11/ID3D11Device.CheckFeatureSupport
 dev_langs:
- - c++
+- c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: D3d11.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - d3d11.lib
- - d3d11.dll
+- d3d11.lib
+- d3d11.dll
 api_name:
- - ID3D11Device.CheckFeatureSupport
+- ID3D11Device.CheckFeatureSupport
 targetos: Windows
 req.typenames: 
 req.redist: 

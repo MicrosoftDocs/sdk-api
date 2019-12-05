@@ -1,19 +1,17 @@
 ---
 UID: NF:mmiscapi.OpenDriver
 title: OpenDriver function (mmiscapi.h)
-
 description: Opens an instance of an installable driver and initializes the instance using either the driver's default settings or a driver-specific value.
 old-location: multimedia\opendriver.htm
 tech.root: Multimedia
 ms.assetid: 882146f7-cd42-45fd-8a5f-7078b64c7ea8
-
 ms.date: 12/05/2018
 ms.keywords: OpenDriver, OpenDriver function [Windows Multimedia], _win32_OpenDriver, mmsystem/OpenDriver, multimedia.opendriver
 ms.topic: function
-f1_keywords: 
- - "mmiscapi/OpenDriver"
+f1_keywords:
+- mmiscapi/OpenDriver
 dev_langs:
- - c++
+- c++
 req.header: mmiscapi.h
 req.include-header: Mmiscapi.h, Windows.h
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib: Winmm.lib
 req.dll: Winmm.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Winmm.dll
- - API-MS-Win-mm-misc-l1-1-0.dll
- - winmmbase.dll
- - API-MS-Win-mm-misc-l1-1-1.dll
- - ext-ms-win-mf-winmm-l1-1-0.dll
+- Winmm.dll
+- API-MS-Win-mm-misc-l1-1-0.dll
+- winmmbase.dll
+- API-MS-Win-mm-misc-l1-1-1.dll
+- ext-ms-win-mf-winmm-l1-1-0.dll
 api_name:
- - OpenDriver
+- OpenDriver
 targetos: Windows
 req.typenames: 
 req.redist: 

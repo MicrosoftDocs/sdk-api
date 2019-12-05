@@ -1,19 +1,17 @@
 ---
 UID: NF:gdipluspath.GraphicsPath.AddString(IN const WCHAR,IN INT,IN const FontFamily,IN INT,IN REAL,IN const Point &,IN const StringFormat)
 title: GraphicsPath::AddString(IN const WCHAR,IN INT,IN const FontFamily,IN INT,IN REAL,IN const Point &,IN const StringFormat) (gdipluspath.h)
-
 description: The GraphicsPath::AddString method adds the outlines of a string to this path.
 old-location: gdiplus\_gdiplus_CLASS_GraphicsPath_AddString_WCHAR_string_INT_length_FontFamily_family_INT_style_REAL_emSiz.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicspathclass\graphicspathmethods\graphicspathaddstringmethods\addstring_58wcharstring_intlength_fontfamilyfamily.htm
-
 ms.date: 12/05/2018
 ms.keywords: AddString, AddString method [GDI+], AddString method [GDI+],GraphicsPath class, GraphicsPath class [GDI+],AddString method, GraphicsPath.AddString, GraphicsPath.AddString(IN const WCHAR,IN INT,IN const FontFamily,IN INT,IN REAL,IN const Point &,IN const StringFormat), GraphicsPath.AddString(const WCHAR*,INT,const FontFamily*,INT,REAL,const Point&,const StringFormat*), GraphicsPath::AddString, GraphicsPath::AddString(IN const WCHAR,IN INT,IN const FontFamily,IN INT,IN REAL,IN const Point &,IN const StringFormat), _gdiplus_CLASS_GraphicsPath_AddString_WCHAR_string_INT_length_FontFamily_family_INT_style_REAL_emSiz, gdiplus._gdiplus_CLASS_GraphicsPath_AddString_WCHAR_string_INT_length_FontFamily_family_INT_style_REAL_emSiz
 ms.topic: method
-f1_keywords: 
- - "gdipluspath/GraphicsPath.AddString"
+f1_keywords:
+- gdipluspath/GraphicsPath.AddString
 dev_langs:
- - c++
+- c++
 req.header: gdipluspath.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - GraphicsPath.AddString
+- GraphicsPath.AddString
 targetos: Windows
 req.typenames: 
 req.redist: 

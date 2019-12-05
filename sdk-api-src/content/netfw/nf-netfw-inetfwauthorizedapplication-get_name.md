@@ -1,19 +1,17 @@
 ---
 UID: NF:netfw.INetFwAuthorizedApplication.get_Name
 title: INetFwAuthorizedApplication::get_Name (netfw.h)
-
 description: Specifies the friendly name of this application.
 old-location: ics\inetfwauthorizedapplication_name.htm
 tech.root: ics
 ms.assetid: 4937e0a5-089f-404f-b0dc-bba8e8a332a5
-
 ms.date: 12/05/2018
 ms.keywords: INetFwAuthorizedApplication interface [ICS/ICF],Name property, INetFwAuthorizedApplication.Name, INetFwAuthorizedApplication.get_Name, INetFwAuthorizedApplication::Name, INetFwAuthorizedApplication::get_Name, INetFwAuthorizedApplication::put_Name, Name property [ICS/ICF], Name property [ICS/ICF],INetFwAuthorizedApplication interface, get_Name, ics.inetfwauthorizedapplication_name, netfw/INetFwAuthorizedApplication::Name, netfw/INetFwAuthorizedApplication::get_Name, netfw/INetFwAuthorizedApplication::put_Name
 ms.topic: method
-f1_keywords: 
- - "netfw/INetFwAuthorizedApplication.Name"
+f1_keywords:
+- netfw/INetFwAuthorizedApplication.Name
 dev_langs:
- - c++
+- c++
 req.header: netfw.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib:
 req.dll: FirewallAPI.dll; Hnetcfg.dll on Windows XP with SP2
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - FirewallAPI.dll
- - Hnetcfg.dll
+- FirewallAPI.dll
+- Hnetcfg.dll
 api_name:
- - INetFwAuthorizedApplication.Name
- - INetFwAuthorizedApplication.get_Name
- - INetFwAuthorizedApplication.put_Name
+- INetFwAuthorizedApplication.Name
+- INetFwAuthorizedApplication.get_Name
+- INetFwAuthorizedApplication.put_Name
 targetos: Windows
 req.typenames: 
 req.redist: 

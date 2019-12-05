@@ -1,19 +1,17 @@
 ---
 UID: NF:comadmin.ICOMAdminCatalog2.MoveComponents
 title: ICOMAdminCatalog2::MoveComponents (comadmin.h)
-
 description: Moves the specified components from one application to another.
 old-location: cos\icomadmincatalog2_movecomponents.htm
 tech.root: cossdk
 ms.assetid: 38cc4726-4b61-4f4b-9719-161297361f45
-
 ms.date: 12/05/2018
 ms.keywords: ICOMAdminCatalog2 interface [COM+],MoveComponents method, ICOMAdminCatalog2.MoveComponents, ICOMAdminCatalog2::MoveComponents, MoveComponents, MoveComponents method [COM+], MoveComponents method [COM+],ICOMAdminCatalog2 interface, _cos_icomadmincatalog2_MoveComponents, comadmin/ICOMAdminCatalog2::MoveComponents, cos.icomadmincatalog2_movecomponents
 ms.topic: method
-f1_keywords: 
- - "comadmin/ICOMAdminCatalog2.MoveComponents"
+f1_keywords:
+- comadmin/ICOMAdminCatalog2.MoveComponents
 dev_langs:
- - c++
+- c++
 req.header: comadmin.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComAdmin.h
+- ComAdmin.h
 api_name:
- - ICOMAdminCatalog2.MoveComponents
+- ICOMAdminCatalog2.MoveComponents
 targetos: Windows
 req.typenames: 
 req.redist: 

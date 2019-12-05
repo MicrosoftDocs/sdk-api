@@ -1,19 +1,17 @@
 ---
 UID: NF:exdisp.IShellWindows.OnActivated
 title: IShellWindows::OnActivated (exdisp.h)
-
 description: Occurs when a Shell window's activation state changes.
 old-location: shell\IShellWindows_OnActivated.htm
 tech.root: shell
 ms.assetid: ccd93f0f-3cd2-4b18-b6d2-834665d8b658
-
 ms.date: 12/05/2018
 ms.keywords: IShellWindows interface [Windows Shell],OnActivated method, IShellWindows.OnActivated, IShellWindows::OnActivated, OnActivated, OnActivated method [Windows Shell], OnActivated method [Windows Shell],IShellWindows interface, _win32_IShellWindows_OnActivated, exdisp/IShellWindows::OnActivated, shell.IShellWindows_OnActivated
 ms.topic: method
-f1_keywords: 
- - "exdisp/IShellWindows.OnActivated"
+f1_keywords:
+- exdisp/IShellWindows.OnActivated
 dev_langs:
- - c++
+- c++
 req.header: exdisp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Shdocvw.dll (version 5.00.2014.0216 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shdocvw.dll
+- Shdocvw.dll
 api_name:
- - IShellWindows.OnActivated
+- IShellWindows.OnActivated
 targetos: Windows
 req.typenames: 
 req.redist: 

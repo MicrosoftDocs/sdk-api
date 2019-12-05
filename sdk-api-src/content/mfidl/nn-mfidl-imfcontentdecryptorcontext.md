@@ -1,19 +1,17 @@
 ---
 UID: NN:mfidl.IMFContentDecryptorContext
 title: IMFContentDecryptorContext (mfidl.h)
-
 description: Allows a decryptor to manage hardware keys and decrypt hardware samples.
 old-location: mf\imfcontentdecryptorcontext.htm
 tech.root: medfound
 ms.assetid: 94DB835F-3D2A-4CC8-A1CF-10215E3D30D6
-
 ms.date: 12/05/2018
 ms.keywords: IMFContentDecryptorContext, IMFContentDecryptorContext interface [Media Foundation], IMFContentDecryptorContext interface [Media Foundation],described, mf.imfcontentdecryptorcontext, mfidl/IMFContentDecryptorContext
 ms.topic: interface
-f1_keywords: 
- - "mfidl/IMFContentDecryptorContext"
+f1_keywords:
+- mfidl/IMFContentDecryptorContext
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Mfplat.lib
 req.dll: Mfplat.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfplat.dll
+- mfplat.dll
 api_name:
- - IMFContentDecryptorContext
+- IMFContentDecryptorContext
 targetos: Windows
 req.typenames: 
 req.redist: 

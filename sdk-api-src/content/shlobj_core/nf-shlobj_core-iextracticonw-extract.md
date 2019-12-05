@@ -1,19 +1,17 @@
 ---
 UID: NF:shlobj_core.IExtractIconW.Extract
 title: IExtractIconW::Extract (shlobj_core.h)
-
 description: Extracts an icon image from the specified location.
 old-location: shell\IExtractIcon_Extract.htm
 tech.root: shell
 ms.assetid: 3ce54876-e4f8-4f9a-8e1c-ec1db691f020
-
 ms.date: 12/05/2018
 ms.keywords: Extract, Extract method [Windows Shell], Extract method [Windows Shell],IExtractIcon interface, IExtractIcon interface [Windows Shell],Extract method, IExtractIcon::Extract, IExtractIconA, IExtractIconA::Extract, IExtractIconW, IExtractIconW.Extract, IExtractIconW::Extract, _win32_IExtractIcon_Extract, shell.IExtractIcon_Extract, shlobj_core/IExtractIcon::Extract
 ms.topic: method
-f1_keywords: 
- - "shlobj_core/IExtractIcon.Extract"
+f1_keywords:
+- shlobj_core/IExtractIcon.Extract
 dev_langs:
- - c++
+- c++
 req.header: shlobj_core.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: Shell32.dll (version 4.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - IExtractIcon.Extract
- - IExtractIconA::Extract
- - IExtractIconW::Extract
+- IExtractIcon.Extract
+- IExtractIconA::Extract
+- IExtractIconW::Extract
 targetos: Windows
 req.typenames: 
 req.redist: 

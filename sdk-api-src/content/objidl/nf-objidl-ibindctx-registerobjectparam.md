@@ -1,19 +1,17 @@
 ---
 UID: NF:objidl.IBindCtx.RegisterObjectParam
 title: IBindCtx::RegisterObjectParam (objidl.h)
-
 description: Associates an object with a string key in the bind context's string-keyed table of pointers.
 old-location: com\ibindctx_registerobjectparam.htm
 tech.root: com
 ms.assetid: 7ee2b5b2-9b9c-41f1-8e58-7432ebc0f9ed
-
 ms.date: 12/05/2018
 ms.keywords: IBindCtx interface [COM],RegisterObjectParam method, IBindCtx.RegisterObjectParam, IBindCtx::RegisterObjectParam, RegisterObjectParam, RegisterObjectParam method [COM], RegisterObjectParam method [COM],IBindCtx interface, _com_ibindctx_registerobjectparam, com.ibindctx_registerobjectparam, objidl/IBindCtx::RegisterObjectParam
 ms.topic: method
-f1_keywords: 
- - "objidl/IBindCtx.RegisterObjectParam"
+f1_keywords:
+- objidl/IBindCtx.RegisterObjectParam
 dev_langs:
- - c++
+- c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ObjIdl.h
+- ObjIdl.h
 api_name:
- - IBindCtx.RegisterObjectParam
+- IBindCtx.RegisterObjectParam
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:winsync.ISyncChange.GetMadeWithKnowledge
 title: ISyncChange::GetMadeWithKnowledge (winsync.h)
-
 description: Gets the made-with knowledge for this change.
 old-location: winsync\isyncchange_getmadewithknowledge.htm
 tech.root: winsync
 ms.assetid: 536e7575-e3c7-4f40-83f4-6fb7a7c2d2ba
-
 ms.date: 12/05/2018
 ms.keywords: GetMadeWithKnowledge, GetMadeWithKnowledge method [Windows Sync], GetMadeWithKnowledge method [Windows Sync],ISyncChange interface, ISyncChange interface [Windows Sync],GetMadeWithKnowledge method, ISyncChange.GetMadeWithKnowledge, ISyncChange::GetMadeWithKnowledge, winsync.isyncchange_getmadewithknowledge, winsync/ISyncChange::GetMadeWithKnowledge
 ms.topic: method
-f1_keywords: 
- - "winsync/ISyncChange.GetMadeWithKnowledge"
+f1_keywords:
+- winsync/ISyncChange.GetMadeWithKnowledge
 dev_langs:
- - c++
+- c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - winsync.h
+- winsync.h
 api_name:
- - ISyncChange.GetMadeWithKnowledge
+- ISyncChange.GetMadeWithKnowledge
 targetos: Windows
 req.typenames: 
 req.redist: 

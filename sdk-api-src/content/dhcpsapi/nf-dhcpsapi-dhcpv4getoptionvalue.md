@@ -1,19 +1,17 @@
 ---
 UID: NF:dhcpsapi.DhcpV4GetOptionValue
 title: DhcpV4GetOptionValue function (dhcpsapi.h)
-
 description: Retrieves a DHCP option value (the option code and associated data) for a particular scope. This function extends the functionality provided by DhcpGetOptionValueV5 by allowing the caller to specify a policy for the option.
 old-location: dhcp\dhcpv4getoptionvalue.htm
 tech.root: DHCP
 ms.assetid: eadb26ec-50d5-474f-b6fe-1a586889bd23
-
 ms.date: 12/05/2018
 ms.keywords: DHCP_FLAGS_OPTION_IS_VENDOR, DhcpV4GetOptionValue, DhcpV4GetOptionValue function [DHCP], dhcp.dhcpv4getoptionvalue, dhcpsapi/DhcpV4GetOptionValue
 ms.topic: function
 f1_keywords:
 - dhcpsapi/DhcpV4GetOptionValue
 dev_langs:
- - c++
+- c++
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows

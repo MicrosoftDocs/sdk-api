@@ -1,19 +1,17 @@
 ---
 UID: NF:pathcch.PathCchAddExtension
 title: PathCchAddExtension function (pathcch.h)
-
 description: Adds a file name extension to a path string.This function differs from PathAddExtension in that it accepts paths with &#0034;\\&#0034;, &#0034;\\?\&#0034; and &#0034;\\?\UNC\&#0034; prefixes.
 old-location: shell\PathCchAddExtension.htm
 tech.root: shell
 ms.assetid: c37b438b-39e7-4f24-b076-2401900dab71
-
 ms.date: 12/05/2018
 ms.keywords: PathCchAddExtension, PathCchAddExtension function [Windows Shell], pathcch/PathCchAddExtension, shell.PathCchAddExtension
 ms.topic: function
-f1_keywords: 
- - "pathcch/PathCchAddExtension"
+f1_keywords:
+- pathcch/PathCchAddExtension
 dev_langs:
- - c++
+- c++
 req.header: pathcch.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Pathcch.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - pathcch.lib
- - API-MS-Win-Core-Path-l1-1-0.dll
- - KernelBase.dll
+- pathcch.lib
+- API-MS-Win-Core-Path-l1-1-0.dll
+- KernelBase.dll
 api_name:
- - PathCchAddExtension
+- PathCchAddExtension
 targetos: Windows
 req.typenames: 
 req.redist: 

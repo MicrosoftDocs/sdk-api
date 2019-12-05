@@ -1,19 +1,17 @@
 ---
 UID: NF:gpedit.IGroupPolicyObject.Delete
 title: IGroupPolicyObject::Delete (gpedit.h)
-
 description: The Delete method deletes the GPO.
 old-location: policy\igrouppolicyobject_delete.htm
 tech.root: Policy
 ms.assetid: 34afb04e-47f9-4d7c-9fa6-9d76188d7e05
-
 ms.date: 12/05/2018
 ms.keywords: Delete, Delete method [Group Policy], Delete method [Group Policy],IGroupPolicyObject interface, IGroupPolicyObject interface [Group Policy],Delete method, IGroupPolicyObject.Delete, IGroupPolicyObject::Delete, _win32_igrouppolicyobject_delete, gpedit/IGroupPolicyObject::Delete, policy.igrouppolicyobject_delete
 ms.topic: method
-f1_keywords: 
- - "gpedit/IGroupPolicyObject.Delete"
+f1_keywords:
+- gpedit/IGroupPolicyObject.Delete
 dev_langs:
- - c++
+- c++
 req.header: gpedit.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Gpedit.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gpedit.dll
+- Gpedit.dll
 api_name:
- - IGroupPolicyObject.Delete
+- IGroupPolicyObject.Delete
 targetos: Windows
 req.typenames: 
 req.redist: 

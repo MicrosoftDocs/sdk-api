@@ -1,19 +1,17 @@
 ---
 UID: NF:gpmgmt.IGPMSitesContainer.GetSite
 title: IGPMSitesContainer::GetSite (gpmgmt.h)
-
 description: Returns the scope of management (SOM) object that corresponds to the site.
 old-location: gpmc\igpmsitescontainer_getsite.htm
 tech.root: gpmc
 ms.assetid: f8b459d0-d0f5-48b1-8870-487a1645ae7a
-
 ms.date: 12/05/2018
 ms.keywords: GPMSitesContainer class [GPMC],GetSite method, GetSite, GetSite method [GPMC], GetSite method [GPMC],GPMSitesContainer class, GetSite method [GPMC],IGPMSitesContainer interface, IGPMSitesContainer interface [GPMC],GetSite method, IGPMSitesContainer.GetSite, IGPMSitesContainer::GetSite, _win32_igpmsitescontainer_getsite, gpmc.igpmsitescontainer_getsite, gpmgmt/IGPMSitesContainer::GetSite
 ms.topic: method
-f1_keywords: 
- - "gpmgmt/IGPMSitesContainer.GetSite"
+f1_keywords:
+- gpmgmt/IGPMSitesContainer.GetSite
 dev_langs:
- - c++
+- c++
 req.header: gpmgmt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: Gpmgmt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gpmgmt.dll
+- Gpmgmt.dll
 api_name:
- - IGPMSitesContainer.GetSite
- - GPMSitesContainer.GetSite
+- IGPMSitesContainer.GetSite
+- GPMSitesContainer.GetSite
 targetos: Windows
 req.typenames: 
 req.redist: 

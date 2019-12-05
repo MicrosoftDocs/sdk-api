@@ -1,19 +1,17 @@
 ---
 UID: NF:wdsclientapi.WdsCliTransferImage
 title: WdsCliTransferImage function (wdsclientapi.h)
-
 description: Transfers an image from a WDS server to the WDS client.
 old-location: wds\wdsclitransferimage.htm
 tech.root: wds
 ms.assetid: 43590cee-20d5-47da-8e35-fa4fda1da175
-
 ms.date: 12/05/2018
 ms.keywords: WDS_CLI_TRANSFER_ASYNCHRONOUS, WdsCliTransferImage, WdsCliTransferImage function [Windows Deployment Services], wds.wdsclitransferimage, wdsclientapi/WdsCliTransferImage
 ms.topic: function
-f1_keywords: 
- - "wdsclientapi/WdsCliTransferImage"
+f1_keywords:
+- wdsclientapi/WdsCliTransferImage
 dev_langs:
- - c++
+- c++
 req.header: wdsclientapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: WdsClientAPI.lib
 req.dll: WdsClientAPI.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - WdsClientAPI.dll
+- WdsClientAPI.dll
 api_name:
- - WdsCliTransferImage
+- WdsCliTransferImage
 targetos: Windows
 req.typenames: 
 req.redist: 

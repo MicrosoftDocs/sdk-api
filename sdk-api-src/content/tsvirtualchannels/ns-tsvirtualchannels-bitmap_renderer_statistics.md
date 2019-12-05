@@ -1,19 +1,17 @@
 ---
 UID: NS:tsvirtualchannels.__BITMAP_RENDERER_STATISTICS
 title: BITMAP_RENDERER_STATISTICS (tsvirtualchannels.h)
-
 description: Contains statistics for the RemoteFX media redirection bitmap renderer.
 old-location: termserv\bitmap_renderer_statistics.htm
 tech.root: TermServ
 ms.assetid: 111FA0B3-BFC1-4BD7-8BF0-C0C746A39C5D
-
 ms.date: 12/05/2018
-ms.keywords: "*PBITMAP_RENDERER_STATISTICS, BITMAP_RENDERER_STATISTICS, BITMAP_RENDERER_STATISTICS structure [Remote Desktop Services], PBITMAP_RENDERER_STATISTICS, PBITMAP_RENDERER_STATISTICS structure pointer [Remote Desktop Services], termserv.bitmap_renderer_statistics, tsvirtualchannels/BITMAP_RENDERER_STATISTICS, tsvirtualchannels/PBITMAP_RENDERER_STATISTICS"
+ms.keywords: '*PBITMAP_RENDERER_STATISTICS, BITMAP_RENDERER_STATISTICS, BITMAP_RENDERER_STATISTICS structure [Remote Desktop Services], PBITMAP_RENDERER_STATISTICS, PBITMAP_RENDERER_STATISTICS structure pointer [Remote Desktop Services], termserv.bitmap_renderer_statistics, tsvirtualchannels/BITMAP_RENDERER_STATISTICS, tsvirtualchannels/PBITMAP_RENDERER_STATISTICS'
 ms.topic: struct
-f1_keywords: 
- - "tsvirtualchannels/BITMAP_RENDERER_STATISTICS"
+f1_keywords:
+- tsvirtualchannels/BITMAP_RENDERER_STATISTICS
 dev_langs:
- - c++
+- c++
 req.header: tsvirtualchannels.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - tsvirtualchannels.h
+- tsvirtualchannels.h
 api_name:
- - BITMAP_RENDERER_STATISTICS
+- BITMAP_RENDERER_STATISTICS
 targetos: Windows
 req.typenames: BITMAP_RENDERER_STATISTICS, *PBITMAP_RENDERER_STATISTICS
 req.redist: 

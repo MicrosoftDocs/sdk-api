@@ -1,19 +1,17 @@
 ---
 UID: NF:bits3_0.IBitsPeerCacheAdministration.EnumPeers
 title: IBitsPeerCacheAdministration::EnumPeers (bits3_0.h)
-
 description: Gets an IEnumBitsPeers interface pointer that you use to enumerate the peers that can serve content. The enumeration is a snapshot of the records in the cache.
 old-location: bits\ibitspeercacheadministration_enumpeers.htm
 tech.root: Bits
 ms.assetid: 8786d7d8-9ffb-4492-9834-90b97f97e4cf
-
 ms.date: 12/05/2018
 ms.keywords: EnumPeers, EnumPeers method [BITS], EnumPeers method [BITS],IBitsPeerCacheAdministration interface, IBitsPeerCacheAdministration interface [BITS],EnumPeers method, IBitsPeerCacheAdministration.EnumPeers, IBitsPeerCacheAdministration::EnumPeers, bits.ibitspeercacheadministration_enumpeers, bits3_0/IBitsPeerCacheAdministration::EnumPeers
 ms.topic: method
-f1_keywords: 
- - "bits3_0/IBitsPeerCacheAdministration.EnumPeers"
+f1_keywords:
+- bits3_0/IBitsPeerCacheAdministration.EnumPeers
 dev_langs:
- - c++
+- c++
 req.header: bits3_0.h
 req.include-header: Bits.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Bits.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Bits.lib
- - Bits.dll
+- Bits.lib
+- Bits.dll
 api_name:
- - IBitsPeerCacheAdministration.EnumPeers
+- IBitsPeerCacheAdministration.EnumPeers
 targetos: Windows
 req.typenames: 
 req.redist: 

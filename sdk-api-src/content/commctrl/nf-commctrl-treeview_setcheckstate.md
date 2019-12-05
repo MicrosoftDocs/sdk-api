@@ -1,19 +1,17 @@
 ---
 UID: NF:commctrl.TreeView_SetCheckState
 title: TreeView_SetCheckState macro (commctrl.h)
-
 description: Sets the item's state image to &#0034;checked&#0034; or &#0034;unchecked.&#0034; You can also use the TVM_SETITEM message directly.
 old-location: controls\TreeView_SetCheckState.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\treeview\macros\treeview_setcheckstate.htm
-
 ms.date: 12/05/2018
 ms.keywords: TreeView_SetCheckState, TreeView_SetCheckState macro [Windows Controls], _win32_TreeView_SetCheckState, _win32_TreeView_SetCheckState_cpp, commctrl/TreeView_SetCheckState, controls.TreeView_SetCheckState, controls._win32_TreeView_SetCheckState
 ms.topic: macro
-f1_keywords: 
- - "commctrl/TreeView_SetCheckState"
+f1_keywords:
+- commctrl/TreeView_SetCheckState
 dev_langs:
- - c++
+- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Commctrl.h
+- Commctrl.h
 api_name:
- - TreeView_SetCheckState
+- TreeView_SetCheckState
 targetos: Windows
 req.typenames: 
 req.redist: 

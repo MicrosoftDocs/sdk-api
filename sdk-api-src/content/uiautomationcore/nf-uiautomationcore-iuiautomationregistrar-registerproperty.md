@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationcore.IUIAutomationRegistrar.RegisterProperty
 title: IUIAutomationRegistrar::RegisterProperty (uiautomationcore.h)
-
 description: Registers a third-party property.
 old-location: winauto\uiauto_IUIAutomationRegistrar_RegisterProperty.htm
 tech.root: WinAuto
 ms.assetid: 225bbbec-5910-4711-b713-3409c9925be2
-
 ms.date: 12/05/2018
 ms.keywords: IUIAutomationRegistrar interface [Windows Accessibility],RegisterProperty method, IUIAutomationRegistrar.RegisterProperty, IUIAutomationRegistrar::RegisterProperty, RegisterProperty, RegisterProperty method [Windows Accessibility], RegisterProperty method [Windows Accessibility],IUIAutomationRegistrar interface, uiauto.uiauto_IUIAutomationRegistrar_RegisterProperty, uiauto_IUIAutomationRegistrar_RegisterProperty, uiautomationcore/IUIAutomationRegistrar::RegisterProperty, winauto.uiauto_IUIAutomationRegistrar_RegisterProperty
 ms.topic: method
-f1_keywords: 
- - "uiautomationcore/IUIAutomationRegistrar.RegisterProperty"
+f1_keywords:
+- uiautomationcore/IUIAutomationRegistrar.RegisterProperty
 dev_langs:
- - c++
+- c++
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationCore.h
+- UIAutomationCore.h
 api_name:
- - IUIAutomationRegistrar.RegisterProperty
+- IUIAutomationRegistrar.RegisterProperty
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:mprapi.MprConfigTransportCreate
 title: MprConfigTransportCreate function (mprapi.h)
-
 description: The MprConfigTransportCreate function adds the specified transport to the list of transport protocols present in the specified router configuration.
 old-location: rras\mprconfigtransportcreate.htm
 tech.root: RRAS
 ms.assetid: a4cc4519-ce76-4619-b6dc-a5dfa18134e6
-
 ms.date: 12/05/2018
 ms.keywords: MprConfigTransportCreate, MprConfigTransportCreate function [RAS], _mpr_mprconfigtransportcreate, mprapi/MprConfigTransportCreate, rras.mprconfigtransportcreate
 ms.topic: function
-f1_keywords: 
- - "mprapi/MprConfigTransportCreate"
+f1_keywords:
+- mprapi/MprConfigTransportCreate
 dev_langs:
- - c++
+- c++
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Mprapi.lib
 req.dll: Mprapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Mprapi.dll
+- Mprapi.dll
 api_name:
- - MprConfigTransportCreate
+- MprConfigTransportCreate
 targetos: Windows
 req.typenames: 
 req.redist: 

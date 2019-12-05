@@ -1,19 +1,17 @@
 ---
 UID: NF:gdipluseffects.ColorLUT.GetParameters
 title: ColorLUT::GetParameters (gdipluseffects.h)
-
 description: The ColorLUT::GetParameters method gets the current values of the parameters of this ColorLUT object.
 old-location: gdiplus\_gdiplus_CLASS_ColorLUT_GetParameters_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\colorlutclass\colorlutmethods\getparameters.htm
-
 ms.date: 12/05/2018
 ms.keywords: ColorLUT class [GDI+],GetParameters method, ColorLUT.GetParameters, ColorLUT::GetParameters, GetParameters, GetParameters method [GDI+], GetParameters method [GDI+],ColorLUT class, _gdiplus_CLASS_ColorLUT_GetParameters_, gdiplus._gdiplus_CLASS_ColorLUT_GetParameters_
 ms.topic: method
-f1_keywords: 
- - "gdipluseffects/ColorLUT.GetParameters"
+f1_keywords:
+- gdipluseffects/ColorLUT.GetParameters
 dev_langs:
- - c++
+- c++
 req.header: gdipluseffects.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - ColorLUT.GetParameters
+- ColorLUT.GetParameters
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:gdiplustypes.Point.Point
 title: Point::Point (gdiplustypes.h)
-
 description: Creates a Point object and initializes the X and Y data members to zero. This is the default constructor.
 old-location: gdiplus\_gdiplus_CLASS_Point_Point_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\pointclass\pointconstructors\point_14.htm
-
 ms.date: 12/05/2018
 ms.keywords: Point, Point class [GDI+],Point constructor, Point constructor [GDI+], Point constructor [GDI+],Point class, Point.Point, Point.Point(), Point::Point, _gdiplus_CLASS_Point_Point_, gdiplus._gdiplus_CLASS_Point_Point_
 ms.topic: method
-f1_keywords: 
- - "gdiplustypes/Point.Point"
+f1_keywords:
+- gdiplustypes/Point.Point
 dev_langs:
- - c++
+- c++
 req.header: gdiplustypes.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - Point.Point
+- Point.Point
 targetos: Windows
 req.typenames: 
 req.redist: 

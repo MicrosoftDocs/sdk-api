@@ -1,19 +1,17 @@
 ---
 UID: NF:gpedit.IGPEInformation.GetFileSysPath
 title: IGPEInformation::GetFileSysPath (gpedit.h)
-
 description: The GetFileSysPath method returns the file system path for the specified section of the GPO. The path is in UNC format.
 old-location: policy\igpeinformation_getfilesyspath.htm
 tech.root: Policy
 ms.assetid: 6fcdc7f8-61bf-4d3e-b0aa-ff730d6730cb
-
 ms.date: 12/05/2018
 ms.keywords: GPO_SECTION_MACHINE, GPO_SECTION_ROOT, GPO_SECTION_USER, GetFileSysPath, GetFileSysPath method [Group Policy], GetFileSysPath method [Group Policy],IGPEInformation interface, IGPEInformation interface [Group Policy],GetFileSysPath method, IGPEInformation.GetFileSysPath, IGPEInformation::GetFileSysPath, _win32_igpeinformation_getfilesyspath, gpedit/IGPEInformation::GetFileSysPath, policy.igpeinformation_getfilesyspath
 ms.topic: method
-f1_keywords: 
- - "gpedit/IGPEInformation.GetFileSysPath"
+f1_keywords:
+- gpedit/IGPEInformation.GetFileSysPath
 dev_langs:
- - c++
+- c++
 req.header: gpedit.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Gpedit.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gpedit.dll
+- Gpedit.dll
 api_name:
- - IGPEInformation.GetFileSysPath
+- IGPEInformation.GetFileSysPath
 targetos: Windows
 req.typenames: 
 req.redist: 

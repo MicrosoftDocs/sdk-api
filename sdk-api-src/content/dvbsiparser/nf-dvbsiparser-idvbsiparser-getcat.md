@@ -1,19 +1,17 @@
 ---
 UID: NF:dvbsiparser.IDvbSiParser.GetCAT
 title: IDvbSiParser::GetCAT (dvbsiparser.h)
-
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\idvbsiparser_getcat.htm
 tech.root: mstv
 ms.assetid: afd6286a-1b05-408f-a752-6fc3a2667e31
-
 ms.date: 12/05/2018
 ms.keywords: GetCAT, GetCAT method [Microsoft TV Technologies], GetCAT method [Microsoft TV Technologies],IDvbSiParser interface, IDvbSiParser interface [Microsoft TV Technologies],GetCAT method, IDvbSiParser.GetCAT, IDvbSiParser::GetCAT, IDvbSiParserGetCAT, dvbsiparser/IDvbSiParser::GetCAT, mstv.idvbsiparser_getcat
 ms.topic: method
-f1_keywords: 
- - "dvbsiparser/IDvbSiParser.GetCAT"
+f1_keywords:
+- dvbsiparser/IDvbSiParser.GetCAT
 dev_langs:
- - c++
+- c++
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dvbsiparser.h
+- dvbsiparser.h
 api_name:
- - IDvbSiParser.GetCAT
+- IDvbSiParser.GetCAT
 targetos: Windows
 req.typenames: 
 req.redist: 

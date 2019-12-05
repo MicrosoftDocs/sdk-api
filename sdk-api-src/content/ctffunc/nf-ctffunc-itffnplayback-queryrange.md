@@ -1,19 +1,17 @@
 ---
 UID: NF:ctffunc.ITfFnPlayBack.QueryRange
 title: ITfFnPlayBack::QueryRange (ctffunc.h)
-
 description: ITfFnPlayBack::QueryRange method
 old-location: tsf\itffnplayback_queryrange.htm
 tech.root: TSF
 ms.assetid: d6113703-5515-4f1a-8e2e-1373077dafc2
-
 ms.date: 12/05/2018
 ms.keywords: ITfFnPlayBack interface [Text Services Framework],QueryRange method, ITfFnPlayBack.QueryRange, ITfFnPlayBack::QueryRange, QueryRange, QueryRange method [Text Services Framework], QueryRange method [Text Services Framework],ITfFnPlayBack interface, _tsf_itffnplayback_queryrange_ref, ctffunc/ITfFnPlayBack::QueryRange, tsf.itffnplayback_queryrange
 ms.topic: method
-f1_keywords: 
- - "ctffunc/ITfFnPlayBack.QueryRange"
+f1_keywords:
+- ctffunc/ITfFnPlayBack.QueryRange
 dev_langs:
- - c++
+- c++
 req.header: ctffunc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msctf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msctf.dll
+- Msctf.dll
 api_name:
- - ITfFnPlayBack.QueryRange
+- ITfFnPlayBack.QueryRange
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

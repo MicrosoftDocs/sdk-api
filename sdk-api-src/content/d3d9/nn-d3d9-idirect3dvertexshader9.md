@@ -1,19 +1,17 @@
 ---
 UID: NN:d3d9.IDirect3DVertexShader9
 title: IDirect3DVertexShader9 (d3d9.h)
-
 description: Applications use the methods of the IDirect3DVertexShader9 interface to encapsulate the functionality of a vertex shader.
 old-location: direct3d9\idirect3dvertexshader9.htm
 tech.root: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3dvertexshader9.htm
-
 ms.date: 12/05/2018
 ms.keywords: 09169d01-44dc-55c7-a6bd-28349bbc3b06, IDirect3DVertexShader9, IDirect3DVertexShader9 interface [Direct3D 9], IDirect3DVertexShader9 interface [Direct3D 9],described, d3d9helper/IDirect3DVertexShader9, direct3d9.idirect3dvertexshader9
 ms.topic: interface
-f1_keywords: 
- - "d3d9/IDirect3DVertexShader9"
+f1_keywords:
+- d3d9/IDirect3DVertexShader9
 dev_langs:
- - c++
+- c++
 req.header: d3d9.h
 req.include-header: D3D9.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: D3d9.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - d3d9.lib
- - d3d9.dll
+- d3d9.lib
+- d3d9.dll
 api_name:
- - IDirect3DVertexShader9
+- IDirect3DVertexShader9
 targetos: Windows
 req.typenames: 
 req.redist: 

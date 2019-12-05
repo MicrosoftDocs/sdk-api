@@ -1,19 +1,17 @@
 ---
 UID: NF:wincrypt.CryptHashCertificate
 title: CryptHashCertificate function (wincrypt.h)
-
 description: The CryptHashCertificate function hashes the entire encoded content of a certificate including its signature.
 old-location: security\crypthashcertificate.htm
 tech.root: SecCrypto
 ms.assetid: a5beba30-f32b-4d57-8a54-7d9096459c50
-
 ms.date: 12/05/2018
 ms.keywords: CryptHashCertificate, CryptHashCertificate function [Security], _crypto2_crypthashcertificate, security.crypthashcertificate, wincrypt/CryptHashCertificate
 ms.topic: function
-f1_keywords: 
- - "wincrypt/CryptHashCertificate"
+f1_keywords:
+- wincrypt/CryptHashCertificate
 dev_langs:
- - c++
+- c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Crypt32.lib
 req.dll: Crypt32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Crypt32.dll
+- Crypt32.dll
 api_name:
- - CryptHashCertificate
+- CryptHashCertificate
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NS:ws2ipdef.ip_mreq
 title: IP_MREQ (ws2ipdef.h)
-
 description: The ip_mreq structure provides multicast group information for IPv4 addresses.
 old-location: winsock\ip_mreq.htm
 tech.root: WinSock
 ms.assetid: 0bcf4c17-679d-42fc-b77e-722ce955d01f
-
 ms.date: 12/05/2018
-ms.keywords: "*PIP_MREQ, IP_MREQ, IP_MREQ [Winsock], IP_MREQ structure [Winsock], PIP_MREQ, PIP_MREQ structure pointer [Winsock], ip_mreq, ip_mreq structure [Winsock], winsock.ip_mreq, ws2ipdef/PIP_MREQ, ws2ipdef/ip_mreq, ws2tcpip/PIP_MREQ, ws2tcpip/ip_mreq"
+ms.keywords: '*PIP_MREQ, IP_MREQ, IP_MREQ [Winsock], IP_MREQ structure [Winsock], PIP_MREQ, PIP_MREQ structure pointer [Winsock], ip_mreq, ip_mreq structure [Winsock], winsock.ip_mreq, ws2ipdef/PIP_MREQ, ws2ipdef/ip_mreq, ws2tcpip/PIP_MREQ, ws2tcpip/ip_mreq'
 ms.topic: struct
-f1_keywords: 
- - "ws2ipdef/IP_MREQ"
+f1_keywords:
+- ws2ipdef/IP_MREQ
 dev_langs:
- - c++
+- c++
 req.header: ws2ipdef.h
 req.include-header: Ws2tcpip.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Ws2ipdef.h
- - Ws2tcpip.h
+- Ws2ipdef.h
+- Ws2tcpip.h
 api_name:
- - IP_MREQ
+- IP_MREQ
 targetos: Windows
 req.typenames: IP_MREQ, *PIP_MREQ
 req.redist: 

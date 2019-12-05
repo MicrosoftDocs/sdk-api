@@ -1,19 +1,17 @@
 ---
 UID: NE:dwrite_1.DWRITE_PANOSE_CHARACTER_RANGES
 title: DWRITE_PANOSE_CHARACTER_RANGES (dwrite_1.h)
-
 description: The DWRITE_PANOSE_CHARACTER_RANGES enumeration contains values that specify the type of characters available in the font.
 old-location: directwrite\dwrite_panose_character_ranges.htm
 tech.root: DirectWrite
 ms.assetid: A50F0296-D977-47C5-9E41-9567980B16A6
-
 ms.date: 12/05/2018
 ms.keywords: DWRITE_PANOSE_CHARACTER_RANGES, DWRITE_PANOSE_CHARACTER_RANGES enumeration [Direct Write], DWRITE_PANOSE_CHARACTER_RANGES_ANY, DWRITE_PANOSE_CHARACTER_RANGES_EXTENDED_COLLECTION, DWRITE_PANOSE_CHARACTER_RANGES_LITERALS, DWRITE_PANOSE_CHARACTER_RANGES_NO_FIT, DWRITE_PANOSE_CHARACTER_RANGES_NO_LOWER_CASE, DWRITE_PANOSE_CHARACTER_RANGES_SMALL_CAPS, directwrite.dwrite_panose_character_ranges, dwrite_1/DWRITE_PANOSE_CHARACTER_RANGES, dwrite_1/DWRITE_PANOSE_CHARACTER_RANGES_ANY, dwrite_1/DWRITE_PANOSE_CHARACTER_RANGES_EXTENDED_COLLECTION, dwrite_1/DWRITE_PANOSE_CHARACTER_RANGES_LITERALS, dwrite_1/DWRITE_PANOSE_CHARACTER_RANGES_NO_FIT, dwrite_1/DWRITE_PANOSE_CHARACTER_RANGES_NO_LOWER_CASE, dwrite_1/DWRITE_PANOSE_CHARACTER_RANGES_SMALL_CAPS
 ms.topic: enum
-f1_keywords: 
- - "dwrite_1/DWRITE_PANOSE_CHARACTER_RANGES"
+f1_keywords:
+- dwrite_1/DWRITE_PANOSE_CHARACTER_RANGES
 dev_langs:
- - c++
+- c++
 req.header: dwrite_1.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Dwrite_1.h
+- Dwrite_1.h
 api_name:
- - DWRITE_PANOSE_CHARACTER_RANGES
+- DWRITE_PANOSE_CHARACTER_RANGES
 targetos: Windows
 req.typenames: 
 req.redist: 

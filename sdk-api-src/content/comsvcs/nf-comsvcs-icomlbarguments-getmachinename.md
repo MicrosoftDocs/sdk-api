@@ -1,19 +1,17 @@
 ---
 UID: NF:comsvcs.ICOMLBArguments.GetMachineName
 title: ICOMLBArguments::GetMachineName (comsvcs.h)
-
 description: Retrieves the computer name for the load balancing server.
 old-location: cos\icomlbarguments_getmachinename.htm
 tech.root: cossdk
 ms.assetid: b1f6adc8-2e89-4f64-9694-2342c967a142
-
 ms.date: 12/05/2018
 ms.keywords: GetMachineName, GetMachineName method [COM+], GetMachineName method [COM+],ICOMLBArguments interface, ICOMLBArguments interface [COM+],GetMachineName method, ICOMLBArguments.GetMachineName, ICOMLBArguments::GetMachineName, _cos_ICOMLBArguments_GetMachineName, comsvcs/ICOMLBArguments::GetMachineName, cos.icomlbarguments_getmachinename
 ms.topic: method
-f1_keywords: 
- - "comsvcs/ICOMLBArguments.GetMachineName"
+f1_keywords:
+- comsvcs/ICOMLBArguments.GetMachineName
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - ICOMLBArguments.GetMachineName
+- ICOMLBArguments.GetMachineName
 targetos: Windows
 req.typenames: 
 req.redist: 

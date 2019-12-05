@@ -1,19 +1,17 @@
 ---
 UID: NS:dbghelp._IMAGEHLP_CBA_READ_MEMORY
 title: IMAGEHLP_CBA_READ_MEMORY (dbghelp.h)
-
 description: Contains information about a memory read operation.
 old-location: base\imagehlp_cba_read_memory_str.htm
 tech.root: Debug
 ms.assetid: c5115fdc-aca6-4293-9c2b-82fd64ec7cb6
-
 ms.date: 12/05/2018
-ms.keywords: "*PIMAGEHLP_CBA_READ_MEMORY, IMAGEHLP_CBA_READ_MEMORY, IMAGEHLP_CBA_READ_MEMORY structure, PIMAGEHLP_CBA_READ_MEMORY, PIMAGEHLP_CBA_READ_MEMORY structure pointer, _IMAGEHLP_CBA_READ_MEMORY, _win32_imagehlp_cba_read_memory_str, base.imagehlp_cba_read_memory_str, dbghelp/IMAGEHLP_CBA_READ_MEMORY, dbghelp/PIMAGEHLP_CBA_READ_MEMORY"
+ms.keywords: '*PIMAGEHLP_CBA_READ_MEMORY, IMAGEHLP_CBA_READ_MEMORY, IMAGEHLP_CBA_READ_MEMORY structure, PIMAGEHLP_CBA_READ_MEMORY, PIMAGEHLP_CBA_READ_MEMORY structure pointer, _IMAGEHLP_CBA_READ_MEMORY, _win32_imagehlp_cba_read_memory_str, base.imagehlp_cba_read_memory_str, dbghelp/IMAGEHLP_CBA_READ_MEMORY, dbghelp/PIMAGEHLP_CBA_READ_MEMORY'
 ms.topic: struct
-f1_keywords: 
- - "dbghelp/IMAGEHLP_CBA_READ_MEMORY"
+f1_keywords:
+- dbghelp/IMAGEHLP_CBA_READ_MEMORY
 dev_langs:
- - c++
+- c++
 req.header: dbghelp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - DbgHelp.h
+- DbgHelp.h
 api_name:
- - IMAGEHLP_CBA_READ_MEMORY
+- IMAGEHLP_CBA_READ_MEMORY
 targetos: Windows
 req.typenames: IMAGEHLP_CBA_READ_MEMORY, *PIMAGEHLP_CBA_READ_MEMORY
 req.redist: DbgHelp.dll 5.1 or later

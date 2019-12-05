@@ -1,19 +1,17 @@
 ---
 UID: NS:commctrl.tagLVFOOTERITEM
 title: LVFOOTERITEM (commctrl.h)
-
 description: Contains information on a footer item.
 old-location: controls\LVFOOTERITEM.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\structures\lvfooteritem.htm
-
 ms.date: 12/05/2018
-ms.keywords: "*LPLVFOOTERITEM, LPLVFOOTERITEM, LPLVFOOTERITEM structure pointer [Windows Controls], LVFIF_STATE, LVFIF_TEXT, LVFIS_FOCUSED, LVFOOTERITEM, LVFOOTERITEM structure [Windows Controls], _shell_LVFOOTERITEM, _shell_LVFOOTERITEM_cpp, commctrl/LPLVFOOTERITEM, commctrl/LVFOOTERITEM, controls.LVFOOTERITEM, controls._shell_LVFOOTERITEM"
+ms.keywords: '*LPLVFOOTERITEM, LPLVFOOTERITEM, LPLVFOOTERITEM structure pointer [Windows Controls], LVFIF_STATE, LVFIF_TEXT, LVFIS_FOCUSED, LVFOOTERITEM, LVFOOTERITEM structure [Windows Controls], _shell_LVFOOTERITEM, _shell_LVFOOTERITEM_cpp, commctrl/LPLVFOOTERITEM, commctrl/LVFOOTERITEM, controls.LVFOOTERITEM, controls._shell_LVFOOTERITEM'
 ms.topic: struct
-f1_keywords: 
- - "commctrl/LVFOOTERITEM"
+f1_keywords:
+- commctrl/LVFOOTERITEM
 dev_langs:
- - c++
+- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Commctrl.h
+- Commctrl.h
 api_name:
- - LVFOOTERITEM
+- LVFOOTERITEM
 targetos: Windows
 req.typenames: LVFOOTERITEM, *LPLVFOOTERITEM
 req.redist: 

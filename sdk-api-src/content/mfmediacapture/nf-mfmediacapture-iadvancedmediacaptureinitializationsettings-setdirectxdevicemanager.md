@@ -1,19 +1,17 @@
 ---
 UID: NF:mfmediacapture.IAdvancedMediaCaptureInitializationSettings.SetDirectxDeviceManager
 title: IAdvancedMediaCaptureInitializationSettings::SetDirectxDeviceManager (mfmediacapture.h)
-
 description: Sets the DirectX Device Manager.
 old-location: mf\iadvancedmediacaptureInitializationsettings_setdirectxdevicemanager.htm
 tech.root: medfound
 ms.assetid: 556923c5-711e-4ace-8657-298be55dd7b0
-
 ms.date: 12/05/2018
 ms.keywords: IAdvancedMediaCaptureInitializationSettings interface [Media Foundation],SetDirectxDeviceManager method, IAdvancedMediaCaptureInitializationSettings.SetDirectxDeviceManager, IAdvancedMediaCaptureInitializationSettings::SetDirectxDeviceManager, SetDirectxDeviceManager, SetDirectxDeviceManager method [Media Foundation], SetDirectxDeviceManager method [Media Foundation],IAdvancedMediaCaptureInitializationSettings interface, mf.iadvancedmediacaptureInitializationsettings_setdirectxdevicemanager, mfmediacapture/IAdvancedMediaCaptureInitializationSettings::SetDirectxDeviceManager
 ms.topic: method
-f1_keywords: 
- - "mfmediacapture/IAdvancedMediaCaptureInitializationSettings.SetDirectxDeviceManager"
+f1_keywords:
+- mfmediacapture/IAdvancedMediaCaptureInitializationSettings.SetDirectxDeviceManager
 dev_langs:
- - c++
+- c++
 req.header: mfmediacapture.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mfmediacapture.h
+- Mfmediacapture.h
 api_name:
- - IAdvancedMediaCaptureInitializationSettings.SetDirectxDeviceManager
+- IAdvancedMediaCaptureInitializationSettings.SetDirectxDeviceManager
 targetos: Windows
 req.typenames: 
 req.redist: 

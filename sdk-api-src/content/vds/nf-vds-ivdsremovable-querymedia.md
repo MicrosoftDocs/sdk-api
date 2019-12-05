@@ -1,19 +1,17 @@
 ---
 UID: NF:vds.IVdsRemovable.QueryMedia
 title: IVdsRemovable::QueryMedia (vds.h)
-
 description: Updates the disk properties in the cache. Call IVdsDisk::GetProperties to get updated details about the current media.
 old-location: base\ivdsremovable_querymedia.htm
 tech.root: VDS
 ms.assetid: 6a56be84-ddf3-4c82-9465-4cb683e993f6
-
 ms.date: 12/05/2018
 ms.keywords: IVdsRemovable interface [VDS],QueryMedia method, IVdsRemovable.QueryMedia, IVdsRemovable::QueryMedia, QueryMedia, QueryMedia method [VDS], QueryMedia method [VDS],IVdsRemovable interface, base.ivdsremovable_querymedia, vds/IVdsRemovable::QueryMedia
 ms.topic: method
-f1_keywords: 
- - "vds/IVdsRemovable.QueryMedia"
+f1_keywords:
+- vds/IVdsRemovable.QueryMedia
 dev_langs:
- - c++
+- c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Uuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Uuid.lib
- - Uuid.dll
+- Uuid.lib
+- Uuid.dll
 api_name:
- - IVdsRemovable.QueryMedia
+- IVdsRemovable.QueryMedia
 targetos: Windows
 req.typenames: 
 req.redist: 

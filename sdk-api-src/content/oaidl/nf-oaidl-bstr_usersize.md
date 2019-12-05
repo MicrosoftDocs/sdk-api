@@ -1,19 +1,17 @@
 ---
 UID: NF:oaidl.BSTR_UserSize
 title: BSTR_UserSize function (oaidl.h)
-
 description: Calculates the wire size of the BSTR object, and gets its handle and data.
 old-location: automat\bstr_usersize.htm
 tech.root: automat
 ms.assetid: 16c349b4-21e1-45bb-8b24-d299adb36e14
-
 ms.date: 12/05/2018
 ms.keywords: BSTR_UserSize, BSTR_UserSize function [Automation], _oa96_BSTR_UserSize, automat.bstr_usersize, oaidl/BSTR_UserSize
 ms.topic: function
-f1_keywords: 
- - "oaidl/BSTR_UserSize"
+f1_keywords:
+- oaidl/BSTR_UserSize
 dev_langs:
- - c++
+- c++
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: OleAut32.lib
 req.dll: OleAut32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - OleAut32.dll
+- OleAut32.dll
 api_name:
- - BSTR_UserSize
+- BSTR_UserSize
 targetos: Windows
 req.typenames: 
 req.redist: 

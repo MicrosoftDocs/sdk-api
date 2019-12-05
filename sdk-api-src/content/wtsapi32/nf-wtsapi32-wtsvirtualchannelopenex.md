@@ -1,19 +1,17 @@
 ---
 UID: NF:wtsapi32.WTSVirtualChannelOpenEx
 title: WTSVirtualChannelOpenEx function (wtsapi32.h)
-
 description: Creates a virtual channel in a manner similar to WTSVirtualChannelOpen.
 old-location: termserv\wtsvirtualchannelopenex.htm
 tech.root: TermServ
 ms.assetid: 5694c4b6-3d0f-4a48-8d15-1e404cbb6164
-
 ms.date: 12/05/2018
 ms.keywords: WTSVirtualChannelOpenEx, WTSVirtualChannelOpenEx function [Remote Desktop Services], WTS_CHANNEL_OPTION_DYNAMIC_NO_COMPRESS, WTS_CHANNEL_OPTION_DYNAMIC_PRI_HIGH, WTS_CHANNEL_OPTION_DYNAMIC_PRI_LOW (default), WTS_CHANNEL_OPTION_DYNAMIC_PRI_MED, WTS_CHANNEL_OPTION_DYNAMIC_PRI_REAL, termserv.wtsvirtualchannelopenex, wtsapi32/WTSVirtualChannelOpenEx
 ms.topic: function
-f1_keywords: 
- - "wtsapi32/WTSVirtualChannelOpenEx"
+f1_keywords:
+- wtsapi32/WTSVirtualChannelOpenEx
 dev_langs:
- - c++
+- c++
 req.header: wtsapi32.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Wtsapi32.lib
 req.dll: Wtsapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Wtsapi32.dll
- - Ext-MS-Win-Session-WtsApi32-l1-1-0.dll
+- Wtsapi32.dll
+- Ext-MS-Win-Session-WtsApi32-l1-1-0.dll
 api_name:
- - WTSVirtualChannelOpenEx
+- WTSVirtualChannelOpenEx
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NE:d2d1svg.D2D1_SVG_DISPLAY
 title: D2D1_SVG_DISPLAY (d2d1svg.h)
-
 description: Specifies a value for the SVG display property.
 old-location: direct2d\d2d1_svg_display.htm
 tech.root: Direct2D
 ms.assetid: 028B78B3-FCDA-4260-8720-3DC5C2557DE5
-
 ms.date: 12/05/2018
 ms.keywords: D2D1_SVG_DISPLAY, D2D1_SVG_DISPLAY enumeration [Direct2D], D2D1_SVG_DISPLAY_FORCE_DWORD, D2D1_SVG_DISPLAY_INLINE, D2D1_SVG_DISPLAY_NONE, d2d1svg/D2D1_SVG_DISPLAY, d2d1svg/D2D1_SVG_DISPLAY_FORCE_DWORD, d2d1svg/D2D1_SVG_DISPLAY_INLINE, d2d1svg/D2D1_SVG_DISPLAY_NONE, direct2d.d2d1_svg_display
 ms.topic: enum
-f1_keywords: 
- - "d2d1svg/D2D1_SVG_DISPLAY"
+f1_keywords:
+- d2d1svg/D2D1_SVG_DISPLAY
 dev_langs:
- - c++
+- c++
 req.header: d2d1svg.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - d2d1svg.h
+- d2d1svg.h
 api_name:
- - D2D1_SVG_DISPLAY
+- D2D1_SVG_DISPLAY
 targetos: Windows
 req.typenames: D2D1_SVG_DISPLAY
 req.redist: 

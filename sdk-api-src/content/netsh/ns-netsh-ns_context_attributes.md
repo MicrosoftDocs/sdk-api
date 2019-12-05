@@ -1,19 +1,17 @@
 ---
 UID: NS:netsh._NS_CONTEXT_ATTRIBUTES
 title: NS_CONTEXT_ATTRIBUTES (netsh.h)
-
 description: Defines attributes of a context.
 old-location: netshell\ns_context_attributes.htm
 tech.root: netshell
 ms.assetid: 5041801d-384d-4faf-b0df-2a76b083facd
-
 ms.date: 12/05/2018
 ms.keywords: '*PNS_CONTEXT_ATTRIBUTES, CMD_FLAG_INTERACTIVE, CMD_FLAG_LOCAL, CMD_FLAG_ONLINE, CMD_FLAG_PRIORITY, NS_CONTEXT_ATTRIBUTES, NS_CONTEXT_ATTRIBUTES structure [NetShell], PNS_CONTEXT_ATTRIBUTES, PNS_CONTEXT_ATTRIBUTES structure pointer [NetShell], _netsh_ns_context_attributes, netsh/NS_CONTEXT_ATTRIBUTES, netsh/PNS_CONTEXT_ATTRIBUTES, netshell.ns_context_attributes'
 ms.topic: struct
 f1_keywords:
 - netsh/NS_CONTEXT_ATTRIBUTES
 dev_langs:
- - c++
+- c++
 req.header: netsh.h
 req.include-header: 
 req.target-type: Windows

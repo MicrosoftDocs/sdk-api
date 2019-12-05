@@ -1,19 +1,17 @@
 ---
 UID: NF:bdatif.IEnumGuideDataProperties.Clone
 title: IEnumGuideDataProperties::Clone (bdatif.h)
-
 description: Not implemented for this release.
 old-location: mstv\ienumguidedataproperties_clone.htm
 tech.root: mstv
 ms.assetid: 4956b37c-a39f-4f5d-bc2d-9746a98660ec
-
 ms.date: 12/05/2018
 ms.keywords: Clone, Clone method [Microsoft TV Technologies], Clone method [Microsoft TV Technologies],IEnumGuideDataProperties interface, IEnumGuideDataProperties interface [Microsoft TV Technologies],Clone method, IEnumGuideDataProperties.Clone, IEnumGuideDataProperties::Clone, IEnumGuideDataPropertiesClone, bdatif/IEnumGuideDataProperties::Clone, mstv.ienumguidedataproperties_clone
 ms.topic: method
-f1_keywords: 
- - "bdatif/IEnumGuideDataProperties.Clone"
+f1_keywords:
+- bdatif/IEnumGuideDataProperties.Clone
 dev_langs:
- - c++
+- c++
 req.header: bdatif.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - bdatif.h
+- bdatif.h
 api_name:
- - IEnumGuideDataProperties.Clone
+- IEnumGuideDataProperties.Clone
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:directxcollision.BoundingFrustum.Intersects(FXMVECTOR,FXMVECTOR,float &)
 title: BoundingFrustum::Intersects(FXMVECTOR,FXMVECTOR,float &)
-
 description: Test the BoundingFrustum for intersection with a ray.
 old-location: dxmath\boundingfrustum_intersects_2.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.directxmath.BoundingFrustum.Intersects(XMVECTOR,XMVECTOR,float@)
-
 ms.date: 12/05/2018
 ms.keywords: BoundingFrustum interface [DirectX Math Support APIs],Intersects method, BoundingFrustum.Intersects, BoundingFrustum.Intersects(FXMVECTOR,FXMVECTOR,float &), BoundingFrustum.Intersects(XMVECTOR,XMVECTOR,float&), BoundingFrustum::Intersects, BoundingFrustum::Intersects(FXMVECTOR,FXMVECTOR,float &), Intersects, Intersects method [DirectX Math Support APIs], Intersects method [DirectX Math Support APIs],BoundingFrustum interface, dxmath.boundingfrustum_intersects_2
 ms.topic: method
-f1_keywords: 
- - "directxcollision/BoundingFrustum.Intersects"
+f1_keywords:
+- directxcollision/BoundingFrustum.Intersects
 dev_langs:
- - c++
+- c++
 req.header: directxcollision.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - DirectXCollision.h
+- DirectXCollision.h
 api_name:
- - BoundingFrustum.Intersects
+- BoundingFrustum.Intersects
 targetos: Windows
 req.typenames: 
 req.redist: 

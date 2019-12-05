@@ -1,19 +1,17 @@
 ---
 UID: NF:webservices.WsWriteBytes
 title: WsWriteBytes function (webservices.h)
-
 description: Writes bytes to the writer in a format optimized for the encoding. When writing in a text encoding, it will emit the bytes encoded in base64. When writing to a binary format, it will emit the bytes directly.
 old-location: wsw\wswritebytes.htm
 tech.root: wsw
 ms.assetid: 1fa9ecfc-c791-459f-ae11-ffcdc82b7145
-
 ms.date: 12/05/2018
 ms.keywords: WsWriteBytes, WsWriteBytes function [Web Services for Windows], webservices/WsWriteBytes, wsw.wswritebytes
 ms.topic: function
-f1_keywords: 
- - "webservices/WsWriteBytes"
+f1_keywords:
+- webservices/WsWriteBytes
 dev_langs:
- - c++
+- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: WebServices.lib
 req.dll: WebServices.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - WebServices.dll
+- WebServices.dll
 api_name:
- - WsWriteBytes
+- WsWriteBytes
 targetos: Windows
 req.typenames: 
 req.redist: 

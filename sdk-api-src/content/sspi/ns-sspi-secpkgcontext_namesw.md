@@ -1,19 +1,17 @@
 ---
 UID: NS:sspi._SecPkgContext_NamesW
 title: SecPkgContext_NamesW (sspi.h)
-
 description: The SecPkgContext_Names structure indicates the name of the user associated with a security context. The QueryContextAttributes (General) function uses this structure.
 old-location: security\secpkgcontext_names.htm
 tech.root: SecAuthN
 ms.assetid: 9df0bf7c-ad5f-4cb8-8934-76062789735f
-
 ms.date: 12/05/2018
-ms.keywords: "*PSecPkgContext_NamesW, SecPkgContext_Names, SecPkgContext_Names structure [Security], SecPkgContext_NamesA, SecPkgContext_NamesW, _ssp_secpkgcontext_names, pSecPkgContext_Names, pSecPkgContext_Names structure pointer [Security], security.secpkgcontext_names, sspi/SecPkgContext_Names, sspi/SecPkgContext_NamesA, sspi/SecPkgContext_NamesW, sspi/pSecPkgContext_Names"
+ms.keywords: '*PSecPkgContext_NamesW, SecPkgContext_Names, SecPkgContext_Names structure [Security], SecPkgContext_NamesA, SecPkgContext_NamesW, _ssp_secpkgcontext_names, pSecPkgContext_Names, pSecPkgContext_Names structure pointer [Security], security.secpkgcontext_names, sspi/SecPkgContext_Names, sspi/SecPkgContext_NamesA, sspi/SecPkgContext_NamesW, sspi/pSecPkgContext_Names'
 ms.topic: struct
-f1_keywords: 
- - "sspi/SecPkgContext_Names"
+f1_keywords:
+- sspi/SecPkgContext_Names
 dev_langs:
- - c++
+- c++
 req.header: sspi.h
 req.include-header: Security.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Sspi.h
+- Sspi.h
 api_name:
- - SecPkgContext_Names
- - SecPkgContext_NamesA
- - SecPkgContext_NamesW
+- SecPkgContext_Names
+- SecPkgContext_NamesA
+- SecPkgContext_NamesW
 targetos: Windows
 req.typenames: SecPkgContext_NamesW, *PSecPkgContext_NamesW
 req.redist: 

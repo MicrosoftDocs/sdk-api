@@ -1,19 +1,17 @@
 ---
 UID: NC:dbghelp.PENUMLOADED_MODULES_CALLBACKW64
 title: PENUMLOADED_MODULES_CALLBACKW64 (dbghelp.h)
-
 description: An application-defined callback function used with the EnumerateLoadedModules64 function.
 old-location: base\enumerateloadedmodulesproc64.htm
 tech.root: Debug
 ms.assetid: f6acb9cf-81f7-4b05-95e2-9628855f6b51
-
 ms.date: 12/05/2018
 ms.keywords: EnumerateLoadedModulesProc64, EnumerateLoadedModulesProc64 callback, EnumerateLoadedModulesProc64 callback function, PENUMLOADED_MODULES_CALLBACK, PENUMLOADED_MODULES_CALLBACK64, PENUMLOADED_MODULES_CALLBACKW64, _win32_enumerateloadedmodulesproc64, base.enumerateloadedmodulesproc64, dbghelp/EnumerateLoadedModulesProc64
 ms.topic: callback
-f1_keywords: 
- - "dbghelp/EnumerateLoadedModulesProc64"
+f1_keywords:
+- dbghelp/EnumerateLoadedModulesProc64
 dev_langs:
- - c++
+- c++
 req.header: dbghelp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - DbgHelp.h
+- DbgHelp.h
 api_name:
- - EnumerateLoadedModulesProc64
+- EnumerateLoadedModulesProc64
 targetos: Windows
 req.typenames: 
 req.redist: DbgHelp.dll 5.1 or later

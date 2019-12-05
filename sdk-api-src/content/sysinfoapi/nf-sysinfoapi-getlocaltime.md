@@ -1,19 +1,17 @@
 ---
 UID: NF:sysinfoapi.GetLocalTime
 title: GetLocalTime function (sysinfoapi.h)
-
 description: Retrieves the current local date and time.
 old-location: base\getlocaltime.htm
 tech.root: SysInfo
 ms.assetid: a63fcd36-de48-4437-a823-837884cc2bf9
-
 ms.date: 12/05/2018
 ms.keywords: GetLocalTime, GetLocalTime function, _win32_getlocaltime, base.getlocaltime, sysinfoapi/GetLocalTime
 ms.topic: function
-f1_keywords: 
- - "sysinfoapi/GetLocalTime"
+f1_keywords:
+- sysinfoapi/GetLocalTime
 dev_langs:
- - c++
+- c++
 req.header: sysinfoapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,22 +30,22 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-SysInfo-l1-1-0.dll
- - KernelBase.dll
- - API-MS-Win-Core-SysInfo-l1-2-0.dll
- - API-MS-Win-Core-SysInfo-l1-2-1.dll
- - API-MS-Win-Core-SysInfo-l1-2-2.dll
- - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
- - MinKernelBase.dll
- - API-MS-Win-Core-SysInfo-l1-2-3.dll
+- Kernel32.dll
+- API-MS-Win-Core-SysInfo-l1-1-0.dll
+- KernelBase.dll
+- API-MS-Win-Core-SysInfo-l1-2-0.dll
+- API-MS-Win-Core-SysInfo-l1-2-1.dll
+- API-MS-Win-Core-SysInfo-l1-2-2.dll
+- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+- MinKernelBase.dll
+- API-MS-Win-Core-SysInfo-l1-2-3.dll
 api_name:
- - GetLocalTime
+- GetLocalTime
 targetos: Windows
 req.typenames: 
 req.redist: 

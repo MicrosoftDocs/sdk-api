@@ -1,19 +1,17 @@
 ---
 UID: NF:mfcaptureengine.IMFCaptureRecordSink.SetOutputFileName
 title: IMFCaptureRecordSink::SetOutputFileName (mfcaptureengine.h)
-
 description: Specifies the name of the output file for the recording.
 old-location: mf\imfcapturerecordsink_setoutputfilename.htm
 tech.root: medfound
 ms.assetid: 96BEE09C-1B17-4857-B0DC-553D14B908E7
-
 ms.date: 12/05/2018
 ms.keywords: IMFCaptureRecordSink interface [Media Foundation],SetOutputFileName method, IMFCaptureRecordSink.SetOutputFileName, IMFCaptureRecordSink::SetOutputFileName, SetOutputFileName, SetOutputFileName method [Media Foundation], SetOutputFileName method [Media Foundation],IMFCaptureRecordSink interface, mf.imfcapturerecordsink_setoutputfilename, mfcaptureengine/IMFCaptureRecordSink::SetOutputFileName
 ms.topic: method
-f1_keywords: 
- - "mfcaptureengine/IMFCaptureRecordSink.SetOutputFileName"
+f1_keywords:
+- mfcaptureengine/IMFCaptureRecordSink.SetOutputFileName
 dev_langs:
- - c++
+- c++
 req.header: mfcaptureengine.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfcaptureengine.h
+- mfcaptureengine.h
 api_name:
- - IMFCaptureRecordSink.SetOutputFileName
+- IMFCaptureRecordSink.SetOutputFileName
 targetos: Windows
 req.typenames: 
 req.redist: 

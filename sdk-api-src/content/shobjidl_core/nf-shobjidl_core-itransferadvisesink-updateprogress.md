@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.ITransferAdviseSink.UpdateProgress
 title: ITransferAdviseSink::UpdateProgress (shobjidl_core.h)
-
 description: Updates the transfer progress status in the UI.
 old-location: shell\ITransferAdviseSink_UpdateProgress.htm
 tech.root: shell
 ms.assetid: 931029e8-48ff-4d24-8818-57b7103fffdf
-
 ms.date: 12/05/2018
 ms.keywords: ITransferAdviseSink interface [Windows Shell],UpdateProgress method, ITransferAdviseSink.UpdateProgress, ITransferAdviseSink::UpdateProgress, UpdateProgress, UpdateProgress method [Windows Shell], UpdateProgress method [Windows Shell],ITransferAdviseSink interface, _shell_ITransferAdviseSink_UpdateProgress, shell.ITransferAdviseSink_UpdateProgress, shobjidl_core/ITransferAdviseSink::UpdateProgress
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/ITransferAdviseSink.UpdateProgress"
+f1_keywords:
+- shobjidl_core/ITransferAdviseSink.UpdateProgress
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - ITransferAdviseSink.UpdateProgress
+- ITransferAdviseSink.UpdateProgress
 targetos: Windows
 req.typenames: 
 req.redist: 

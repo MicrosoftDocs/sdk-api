@@ -1,19 +1,17 @@
 ---
 UID: NN:shimgdata.IShellImageData
 title: IShellImageData (shimgdata.h)
-
 description: Exposes methods and properties that display, manipulate, and describe image data.
 old-location: shell\IShellImageData.htm
 tech.root: shell
 ms.assetid: 935e651c-4dcd-4317-847e-34adf656035c
-
 ms.date: 12/05/2018
 ms.keywords: IShellImageData, IShellImageData interface [Windows Shell], IShellImageData interface [Windows Shell],described, _shell_IShellImageData, shell.IShellImageData, shimgdata/IShellImageData
 ms.topic: interface
-f1_keywords: 
- - "shimgdata/IShellImageData"
+f1_keywords:
+- shimgdata/IShellImageData
 dev_langs:
- - c++
+- c++
 req.header: shimgdata.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Shell32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - IShellImageData
+- IShellImageData
 targetos: Windows
 req.typenames: 
 req.redist: 

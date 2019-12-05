@@ -1,19 +1,17 @@
 ---
 UID: NS:mfplay.MFP_EVENT_HEADER
 title: MFP_EVENT_HEADER (mfplay.h)
-
 description: Contains information that is common to every type of MFPlay event.
 old-location: mf\mfp_event_header.htm
 tech.root: medfound
 ms.assetid: ed9d3790-845a-4392-b755-6a5ce6e20de5
-
 ms.date: 12/05/2018
 ms.keywords: MFP_EVENT_HEADER, MFP_EVENT_HEADER structure [Media Foundation], mf.mfp_event_header, mfplay/MFP_EVENT_HEADER
 ms.topic: struct
-f1_keywords: 
- - "mfplay/MFP_EVENT_HEADER"
+f1_keywords:
+- mfplay/MFP_EVENT_HEADER
 dev_langs:
- - c++
+- c++
 req.header: mfplay.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - mfplay.h
+- mfplay.h
 api_name:
- - MFP_EVENT_HEADER
+- MFP_EVENT_HEADER
 targetos: Windows
 req.typenames: MFP_EVENT_HEADER
 req.redist: 

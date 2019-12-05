@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IFolderView2.SetRedraw
 title: IFolderView2::SetRedraw (shobjidl_core.h)
-
 description: Sets redraw on and off.
 old-location: shell\IFolderView2_SetRedraw.htm
 tech.root: shell
 ms.assetid: 870a72e2-25fc-421f-bd46-961bf71981cc
-
 ms.date: 12/05/2018
 ms.keywords: IFolderView2 interface [Windows Shell],SetRedraw method, IFolderView2.SetRedraw, IFolderView2::SetRedraw, SetRedraw, SetRedraw method [Windows Shell], SetRedraw method [Windows Shell],IFolderView2 interface, _shell_IFolderView2_SetRedraw, shell.IFolderView2_SetRedraw, shobjidl_core/IFolderView2::SetRedraw
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IFolderView2.SetRedraw"
+f1_keywords:
+- shobjidl_core/IFolderView2.SetRedraw
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - IFolderView2.SetRedraw
+- IFolderView2.SetRedraw
 targetos: Windows
 req.typenames: 
 req.redist: 

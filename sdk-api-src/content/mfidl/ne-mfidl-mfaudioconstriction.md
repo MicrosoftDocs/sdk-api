@@ -1,19 +1,17 @@
 ---
 UID: NE:mfidl._MFAudioConstriction
 title: MFAudioConstriction (mfidl.h)
-
 description: Specifies values for audio constriction.
 old-location: mf\mfaudioconstriction.htm
 tech.root: medfound
 ms.assetid: EAFE3AA5-EF63-471A-9A67-A2EB298B0C0F
-
 ms.date: 12/05/2018
 ms.keywords: MFAudioConstriction, MFAudioConstriction enumeration [Media Foundation], MFaudioConstriction14_14, MFaudioConstriction44_16, MFaudioConstriction48_16, MFaudioConstrictionMute, MFaudioConstrictionOff, mf.mfaudioconstriction, mfidl/MFAudioConstriction, mfidl/MFaudioConstriction14_14, mfidl/MFaudioConstriction44_16, mfidl/MFaudioConstriction48_16, mfidl/MFaudioConstrictionMute, mfidl/MFaudioConstrictionOff
 ms.topic: enum
-f1_keywords: 
- - "mfidl/MFAudioConstriction"
+f1_keywords:
+- mfidl/MFAudioConstriction
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - mfidl.h
+- mfidl.h
 api_name:
- - MFAudioConstriction
+- MFAudioConstriction
 targetos: Windows
 req.typenames: MFAudioConstriction
 req.redist: 

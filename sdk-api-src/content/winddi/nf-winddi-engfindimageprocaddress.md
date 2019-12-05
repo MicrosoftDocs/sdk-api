@@ -1,19 +1,17 @@
 ---
 UID: NF:winddi.EngFindImageProcAddress
 title: EngFindImageProcAddress macro (winddi.h)
-
 description: The EngFindImageProcAddress function returns the address of a function within an executable module.
 old-location: display\engfindimageprocaddress.htm
 tech.root: display
 ms.assetid: a81c0814-3210-40dd-969f-20593353e54c
-
 ms.date: 12/05/2018
 ms.keywords: EngFindImageProcAddress, EngFindImageProcAddress function [Display Devices], display.engfindimageprocaddress, gdifncs_7680e4bd-d5d2-4365-84a0-131ea7a38b22.xml, winddi/EngFindImageProcAddress
 ms.topic: macro
-f1_keywords: 
- - "winddi/EngFindImageProcAddress"
+f1_keywords:
+- winddi/EngFindImageProcAddress
 dev_langs:
- - c++
+- c++
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Universal
@@ -32,14 +30,14 @@ req.lib: Win32k.lib
 req.dll: Win32k.sys
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Win32k.sys
+- Win32k.sys
 api_name:
- - EngFindImageProcAddress
+- EngFindImageProcAddress
 targetos: Windows
 req.typenames: 
 req.redist: 

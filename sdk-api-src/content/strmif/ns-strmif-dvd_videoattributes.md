@@ -1,19 +1,17 @@
 ---
 UID: NS:strmif.tagDVD_VideoAttributes
 title: DVD_VideoAttributes (strmif.h)
-
 description: The DVD_VideoAttributes structure describes the attributes of the video stream for the current title or menu.
 old-location: dshow\dvd_videoattributes.htm
 tech.root: DirectShow
 ms.assetid: b395a322-d63e-41a0-b97a-88f99aeba0e5
-
 ms.date: 12/05/2018
 ms.keywords: DVD_VideoAttributes, DVD_VideoAttributes structure [DirectShow], DVD_VideoAttributesStructure, dshow.dvd_videoattributes, strmif/DVD_VideoAttributes
 ms.topic: struct
-f1_keywords: 
- - "strmif/DVD_VideoAttributes"
+f1_keywords:
+- strmif/DVD_VideoAttributes
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - strmif.h
+- strmif.h
 api_name:
- - DVD_VideoAttributes
+- DVD_VideoAttributes
 targetos: Windows
 req.typenames: DVD_VideoAttributes
 req.redist: 

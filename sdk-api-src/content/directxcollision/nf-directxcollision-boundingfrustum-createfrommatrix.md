@@ -1,19 +1,17 @@
 ---
 UID: NF:directxcollision.BoundingFrustum.CreateFromMatrix
 title: BoundingFrustum::CreateFromMatrix
-
 description: Creates a BoundingFrustum from the specified projection matrix.
 old-location: dxmath\boundingfrustum_createfrommatrix.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.directxmath.BoundingFrustum.CreateFromMatrix(BoundingFrustum@,XMMATRIX)
-
 ms.date: 12/05/2018
 ms.keywords: BoundingFrustum interface [DirectX Math Support APIs],CreateFromMatrix method, BoundingFrustum.CreateFromMatrix, BoundingFrustum::CreateFromMatrix, CreateFromMatrix, CreateFromMatrix method [DirectX Math Support APIs], CreateFromMatrix method [DirectX Math Support APIs],BoundingFrustum interface, dxmath.boundingfrustum_createfrommatrix
 ms.topic: method
-f1_keywords: 
- - "directxcollision/BoundingFrustum.CreateFromMatrix"
+f1_keywords:
+- directxcollision/BoundingFrustum.CreateFromMatrix
 dev_langs:
- - c++
+- c++
 req.header: directxcollision.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - DirectXCollision.h
+- DirectXCollision.h
 api_name:
- - BoundingFrustum.CreateFromMatrix
+- BoundingFrustum.CreateFromMatrix
 targetos: Windows
 req.typenames: 
 req.redist: 

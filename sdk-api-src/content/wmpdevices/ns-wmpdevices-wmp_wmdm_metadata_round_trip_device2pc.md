@@ -1,19 +1,17 @@
 ---
 UID: NS:wmpdevices._WMP_WMDM_METADATA_ROUND_TRIP_DEVICE2PC
 title: WMP_WMDM_METADATA_ROUND_TRIP_DEVICE2PC (wmpdevices.h)
-
 description: The WMP_WMDM_METADATA_ROUND_TRIP_DEVICE2PC structure is used by Windows Media Player to receive accelerated metadata synchronization information from portable devices that do not support MTP.
 old-location: wmp\wmp_wmdm_metadata_round_trip_device2pc.htm
 tech.root: WMP
 ms.assetid: aadcbeda-97c4-4902-a1c4-31e71d27ae40
-
 ms.date: 12/05/2018
 ms.keywords: WMP_MDRT_FLAGS_UNREPORTED_ADDED_ITEMS, WMP_MDRT_FLAGS_UNREPORTED_DELETED_ITEMS, WMP_WMDM_DEVICE2PC, WMP_WMDM_METADATA_ROUND_TRIP_DEVICE2PC, WMP_WMDM_METADATA_ROUND_TRIP_DEVICE2PC structure [Windows Media Player], wmp.wmp_wmdm_metadata_round_trip_device2pc, wmpdevices/WMP_WMDM_METADATA_ROUND_TRIP_DEVICE2PC
 ms.topic: struct
-f1_keywords: 
- - "wmpdevices/WMP_WMDM_METADATA_ROUND_TRIP_DEVICE2PC"
+f1_keywords:
+- wmpdevices/WMP_WMDM_METADATA_ROUND_TRIP_DEVICE2PC
 dev_langs:
- - c++
+- c++
 req.header: wmpdevices.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - wmpdevices.h
+- wmpdevices.h
 api_name:
- - WMP_WMDM_METADATA_ROUND_TRIP_DEVICE2PC
+- WMP_WMDM_METADATA_ROUND_TRIP_DEVICE2PC
 targetos: Windows
 req.typenames: WMP_WMDM_METADATA_ROUND_TRIP_DEVICE2PC
 req.redist: 

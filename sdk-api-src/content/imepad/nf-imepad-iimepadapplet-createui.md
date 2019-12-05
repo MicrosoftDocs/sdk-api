@@ -1,19 +1,17 @@
 ---
 UID: NF:imepad.IImePadApplet.CreateUI
 title: IImePadApplet::CreateUI (imepad.h)
-
 description: Called from IImePad to get the applet's window handle, style, and size.
 old-location: intl\iimepadapplet_createui.htm
 tech.root: Intl
 ms.assetid: B4F79A20-E69E-4EA0-A992-4415B8AA4790
-
 ms.date: 12/05/2018
 ms.keywords: CreateUI, CreateUI method [Internationalization for Windows Applications], CreateUI method [Internationalization for Windows Applications],IImePadApplet interface, IImePadApplet interface [Internationalization for Windows Applications],CreateUI method, IImePadApplet.CreateUI, IImePadApplet::CreateUI, imepad/IImePadApplet::CreateUI, intl.iimepadapplet_createui
 ms.topic: method
-f1_keywords: 
- - "imepad/IImePadApplet.CreateUI"
+f1_keywords:
+- imepad/IImePadApplet.CreateUI
 dev_langs:
- - c++
+- c++
 req.header: imepad.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Imepad.h
+- Imepad.h
 api_name:
- - IImePadApplet.CreateUI
+- IImePadApplet.CreateUI
 targetos: Windows
 req.typenames: 
 req.redist: 

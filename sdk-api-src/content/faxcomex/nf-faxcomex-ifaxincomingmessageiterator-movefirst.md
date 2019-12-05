@@ -1,19 +1,17 @@
 ---
 UID: NF:faxcomex.IFaxIncomingMessageIterator.MoveFirst
 title: IFaxIncomingMessageIterator::MoveFirst (faxcomex.h)
-
 description: The MoveFirst method moves the archive cursor to the first fax message in the archive of inbound faxes.
 old-location: fax\_mfax_faxincomingmessageiterator_cpp_mfax_faxincomingmessageiterator_movefirst_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_6p84.htm
-
 ms.date: 12/05/2018
 ms.keywords: IFaxIncomingMessageIterator interface [Fax Service],MoveFirst method, IFaxIncomingMessageIterator.MoveFirst, IFaxIncomingMessageIterator::MoveFirst, MoveFirst, MoveFirst method [Fax Service], MoveFirst method [Fax Service],IFaxIncomingMessageIterator interface, _mfax_faxincomingmessageiterator.movefirst, fax._mfax_faxincomingmessageiterator_cpp_mfax_faxincomingmessageiterator_movefirst_cpp, fax._mfax_faxincomingmessageiterator_movefirst, faxcomex/IFaxIncomingMessageIterator::MoveFirst
 ms.topic: method
-f1_keywords: 
- - "faxcomex/IFaxIncomingMessageIterator.MoveFirst"
+f1_keywords:
+- faxcomex/IFaxIncomingMessageIterator.MoveFirst
 dev_langs:
- - c++
+- c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: Fxscomex.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Fxscomex.dll
+- Fxscomex.dll
 api_name:
- - IFaxIncomingMessageIterator.MoveFirst
- - IFaxIncomingMessageIterator.MoveFirst
+- IFaxIncomingMessageIterator.MoveFirst
+- IFaxIncomingMessageIterator.MoveFirst
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NE:tspubplugin2com._TSPUB_PLUGIN_PD_ASSIGNMENT_TYPE
 title: TSPUB_PLUGIN_PD_ASSIGNMENT_TYPE (tspubplugin2com.h)
-
 description: Specifies the type of assignment for a personal desktop resolution.
 old-location: termserv\tspub_plugin_pd_assignment_type.htm
 tech.root: TermServ
 ms.assetid: 8a55d72c-215e-4f72-90dd-0f68c107a635
-
 ms.date: 12/05/2018
 ms.keywords: TSPUB_PLUGIN_PD_ASSIGNMENT_EXISTING, TSPUB_PLUGIN_PD_ASSIGNMENT_NEW, TSPUB_PLUGIN_PD_ASSIGNMENT_TYPE, TSPUB_PLUGIN_PD_ASSIGNMENT_TYPE enumeration [Remote Desktop Services], termserv.tspub_plugin_pd_assignment_type, tspubplugin2com/TSPUB_PLUGIN_PD_ASSIGNMENT_EXISTING, tspubplugin2com/TSPUB_PLUGIN_PD_ASSIGNMENT_NEW, tspubplugin2com/TSPUB_PLUGIN_PD_ASSIGNMENT_TYPE
 ms.topic: enum
-f1_keywords: 
- - "tspubplugin2com/TSPUB_PLUGIN_PD_ASSIGNMENT_TYPE"
+f1_keywords:
+- tspubplugin2com/TSPUB_PLUGIN_PD_ASSIGNMENT_TYPE
 dev_langs:
- - c++
+- c++
 req.header: tspubplugin2com.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - tspubplugin2com.h
+- tspubplugin2com.h
 api_name:
- - TSPUB_PLUGIN_PD_ASSIGNMENT_TYPE
+- TSPUB_PLUGIN_PD_ASSIGNMENT_TYPE
 targetos: Windows
 req.typenames: TSPUB_PLUGIN_PD_ASSIGNMENT_TYPE
 req.redist: 

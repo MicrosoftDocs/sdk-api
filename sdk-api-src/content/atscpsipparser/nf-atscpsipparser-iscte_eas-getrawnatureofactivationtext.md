@@ -1,19 +1,17 @@
 ---
 UID: NF:atscpsipparser.ISCTE_EAS.GetRawNatureOfActivationText
 title: ISCTE_EAS::GetRawNatureOfActivationText (atscpsipparser.h)
-
 description: Gets the raw nature_of_activation_text field from the EAS table.
 old-location: mstv\iscte_eas_getrawnatureofactivationtext.htm
 tech.root: mstv
 ms.assetid: 11ada9ab-b55f-41c1-9d7d-1c856a17a3a9
-
 ms.date: 12/05/2018
 ms.keywords: GetRawNatureOfActivationText, GetRawNatureOfActivationText method [Microsoft TV Technologies], GetRawNatureOfActivationText method [Microsoft TV Technologies],ISCTE_EAS interface, ISCTE_EAS interface [Microsoft TV Technologies],GetRawNatureOfActivationText method, ISCTE_EAS.GetRawNatureOfActivationText, ISCTE_EAS::GetRawNatureOfActivationText, atscpsipparser/ISCTE_EAS::GetRawNatureOfActivationText, mstv.iscte_eas_getrawnatureofactivationtext
 ms.topic: method
-f1_keywords: 
- - "atscpsipparser/ISCTE_EAS.GetRawNatureOfActivationText"
+f1_keywords:
+- atscpsipparser/ISCTE_EAS.GetRawNatureOfActivationText
 dev_langs:
- - c++
+- c++
 req.header: atscpsipparser.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - atscpsipparser.h
+- atscpsipparser.h
 api_name:
- - ISCTE_EAS.GetRawNatureOfActivationText
+- ISCTE_EAS.GetRawNatureOfActivationText
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NN:dxva2api.IDirectXVideoAccelerationService
 title: IDirectXVideoAccelerationService (dxva2api.h)
-
 description: Provides DirectX Video Acceleration (DXVA) services from a Direct3D device.
 old-location: mf\idirectxvideoaccelerationservice.htm
 tech.root: medfound
 ms.assetid: 50a2d8f7-d7c9-4d50-88cc-f6c8562fbb17
-
 ms.date: 12/05/2018
 ms.keywords: 50a2d8f7-d7c9-4d50-88cc-f6c8562fbb17, IDirectXVideoAccelerationService, IDirectXVideoAccelerationService interface [Media Foundation], IDirectXVideoAccelerationService interface [Media Foundation],described, dxva2api/IDirectXVideoAccelerationService, mf.idirectxvideoaccelerationservice
 ms.topic: interface
-f1_keywords: 
- - "dxva2api/IDirectXVideoAccelerationService"
+f1_keywords:
+- dxva2api/IDirectXVideoAccelerationService
 dev_langs:
- - c++
+- c++
 req.header: dxva2api.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dxva2api.h
+- dxva2api.h
 api_name:
- - IDirectXVideoAccelerationService
+- IDirectXVideoAccelerationService
 targetos: Windows
 req.typenames: 
 req.redist: 

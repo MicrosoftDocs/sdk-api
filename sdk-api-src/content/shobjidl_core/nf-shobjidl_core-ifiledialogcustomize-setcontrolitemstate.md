@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IFileDialogCustomize.SetControlItemState
 title: IFileDialogCustomize::SetControlItemState (shobjidl_core.h)
-
 description: Sets the current state of an item in a container control found in the dialog.
 old-location: shell\IFileDialogCustomize_SetControlItemState.htm
 tech.root: shell
 ms.assetid: 2570b717-b886-4139-837b-5d71ec16c21e
-
 ms.date: 12/05/2018
 ms.keywords: IFileDialogCustomize interface [Windows Shell],SetControlItemState method, IFileDialogCustomize.SetControlItemState, IFileDialogCustomize::SetControlItemState, SetControlItemState, SetControlItemState method [Windows Shell], SetControlItemState method [Windows Shell],IFileDialogCustomize interface, shell.IFileDialogCustomize_SetControlItemState, shell_IFileDialogCustomize_SetControlItemState, shobjidl_core/IFileDialogCustomize::SetControlItemState
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IFileDialogCustomize.SetControlItemState"
+f1_keywords:
+- shobjidl_core/IFileDialogCustomize.SetControlItemState
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - IFileDialogCustomize.SetControlItemState
+- IFileDialogCustomize.SetControlItemState
 targetos: Windows
 req.typenames: 
 req.redist: 

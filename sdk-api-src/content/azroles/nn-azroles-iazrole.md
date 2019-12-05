@@ -1,19 +1,17 @@
 ---
 UID: NN:azroles.IAzRole
 title: IAzRole (azroles.h)
-
 description: Defines the set of operations that can be performed by a set of users within a scope.
 old-location: security\iazrole.htm
 tech.root: SecAuthZ
 ms.assetid: 2934d783-b379-486c-80e7-e7650b89dc1a
-
 ms.date: 12/05/2018
 ms.keywords: IAzRole, IAzRole interface [Security], IAzRole interface [Security],described, azroles/IAzRole, security.iazrole
 ms.topic: interface
-f1_keywords: 
- - "azroles/IAzRole"
+f1_keywords:
+- azroles/IAzRole
 dev_langs:
- - c++
+- c++
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Azroles.lib
 req.dll: Azroles.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Azroles.dll
+- Azroles.dll
 api_name:
- - IAzRole
+- IAzRole
 targetos: Windows
 req.typenames: 
 req.redist: Windows Server 2003 Administration Tools Pack on Windows XP

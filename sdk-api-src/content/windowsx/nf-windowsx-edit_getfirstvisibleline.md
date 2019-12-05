@@ -1,19 +1,17 @@
 ---
 UID: NF:windowsx.Edit_GetFirstVisibleLine
 title: Edit_GetFirstVisibleLine macro (windowsx.h)
-
 description: Gets the index of the uppermost visible line in a multiline edit or rich edit control. You can use this macro or send the EM_GETFIRSTVISIBLELINE message explicitly.
 old-location: controls\Edit_GetFirstVisibleLine.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\editcontrols\editcontrolreference\editcontrolmacros\edit_getfirstvisibleline.htm
-
 ms.date: 12/05/2018
 ms.keywords: Edit_GetFirstVisibleLine, Edit_GetFirstVisibleLine macro [Windows Controls], _win32_Edit_GetFirstVisibleLine, _win32_Edit_GetFirstVisibleLine_cpp, controls.Edit_GetFirstVisibleLine, controls._win32_Edit_GetFirstVisibleLine, windowsx/Edit_GetFirstVisibleLine
 ms.topic: macro
-f1_keywords: 
- - "windowsx/Edit_GetFirstVisibleLine"
+f1_keywords:
+- windowsx/Edit_GetFirstVisibleLine
 dev_langs:
- - c++
+- c++
 req.header: windowsx.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Windowsx.h
+- Windowsx.h
 api_name:
- - Edit_GetFirstVisibleLine
+- Edit_GetFirstVisibleLine
 targetos: Windows
 req.typenames: 
 req.redist: 

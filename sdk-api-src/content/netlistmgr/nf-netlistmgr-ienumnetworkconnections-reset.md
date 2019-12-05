@@ -1,19 +1,17 @@
 ---
 UID: NF:netlistmgr.IEnumNetworkConnections.Reset
 title: IEnumNetworkConnections::Reset (netlistmgr.h)
-
 description: The Reset method resets the enumeration sequence to the beginning.
 old-location: nla\ienumnetworkconnections_reset.htm
 tech.root: nla
 ms.assetid: 5596f7bb-97c8-4751-92fc-1b1ce584ca49
-
 ms.date: 12/05/2018
 ms.keywords: IEnumNetworkConnections interface [Network Awareness],Reset method, IEnumNetworkConnections.Reset, IEnumNetworkConnections::Reset, Reset, Reset method [Network Awareness], Reset method [Network Awareness],IEnumNetworkConnections interface, netlistmgr/IEnumNetworkConnections::Reset, nla.ienumnetworkconnections_reset
 ms.topic: method
-f1_keywords: 
- - "netlistmgr/IEnumNetworkConnections.Reset"
+f1_keywords:
+- netlistmgr/IEnumNetworkConnections.Reset
 dev_langs:
- - c++
+- c++
 req.header: netlistmgr.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Netlistmgr.h
+- Netlistmgr.h
 api_name:
- - IEnumNetworkConnections.Reset
+- IEnumNetworkConnections.Reset
 targetos: Windows
 req.typenames: 
 req.redist: 

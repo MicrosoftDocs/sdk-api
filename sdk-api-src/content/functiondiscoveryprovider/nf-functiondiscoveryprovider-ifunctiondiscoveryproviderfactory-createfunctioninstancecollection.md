@@ -1,19 +1,17 @@
 ---
 UID: NF:functiondiscoveryprovider.IFunctionDiscoveryProviderFactory.CreateFunctionInstanceCollection
 title: IFunctionDiscoveryProviderFactory::CreateFunctionInstanceCollection (functiondiscoveryprovider.h)
-
 description: Creates a function instance collection.
 old-location: ncd\ifunctiondiscoveryproviderfactory_createfunctioninstancecollection.htm
 tech.root: FunDisc
 ms.assetid: c49f6be1-1789-4415-8898-ad74e0148c47
-
 ms.date: 12/05/2018
 ms.keywords: CreateFunctionInstanceCollection, CreateFunctionInstanceCollection method, CreateFunctionInstanceCollection method,IFunctionDiscoveryProviderFactory interface, IFunctionDiscoveryProviderFactory interface,CreateFunctionInstanceCollection method, IFunctionDiscoveryProviderFactory.CreateFunctionInstanceCollection, IFunctionDiscoveryProviderFactory::CreateFunctionInstanceCollection, functiondiscoveryprovider/IFunctionDiscoveryProviderFactory::CreateFunctionInstanceCollection, ncd.ifunctiondiscoveryproviderfactory_createfunctioninstancecollection
 ms.topic: method
-f1_keywords: 
- - "functiondiscoveryprovider/IFunctionDiscoveryProviderFactory.CreateFunctionInstanceCollection"
+f1_keywords:
+- functiondiscoveryprovider/IFunctionDiscoveryProviderFactory.CreateFunctionInstanceCollection
 dev_langs:
- - c++
+- c++
 req.header: functiondiscoveryprovider.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - FunctionDiscoveryProvider.h
+- FunctionDiscoveryProvider.h
 api_name:
- - IFunctionDiscoveryProviderFactory.CreateFunctionInstanceCollection
+- IFunctionDiscoveryProviderFactory.CreateFunctionInstanceCollection
 targetos: Windows
 req.typenames: 
 req.redist: 

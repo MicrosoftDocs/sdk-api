@@ -1,19 +1,17 @@
 ---
 UID: NF:msopc.IOpcDigitalSignatureEnumerator.MoveNext
 title: IOpcDigitalSignatureEnumerator::MoveNext (msopc.h)
-
 description: Moves the current position of the enumerator to the next IOpcDigitalSignature interface pointer.
 old-location: opc\iopcdigitalsignatureenumerator_movenext.htm
 tech.root: OPC
 ms.assetid: 1dd6321c-b9dc-4c09-8874-31f891c37146
-
 ms.date: 12/05/2018
 ms.keywords: IOpcDigitalSignatureEnumerator interface [Open Packaging Conventions],MoveNext method, IOpcDigitalSignatureEnumerator.MoveNext, IOpcDigitalSignatureEnumerator::MoveNext, MoveNext, MoveNext method [Open Packaging Conventions], MoveNext method [Open Packaging Conventions],IOpcDigitalSignatureEnumerator interface, msopc/IOpcDigitalSignatureEnumerator::MoveNext, opc.iopcdigitalsignatureenumerator_movenext
 ms.topic: method
-f1_keywords: 
- - "msopc/IOpcDigitalSignatureEnumerator.MoveNext"
+f1_keywords:
+- msopc/IOpcDigitalSignatureEnumerator.MoveNext
 dev_langs:
- - c++
+- c++
 req.header: msopc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msopc.h
+- msopc.h
 api_name:
- - IOpcDigitalSignatureEnumerator.MoveNext
+- IOpcDigitalSignatureEnumerator.MoveNext
 targetos: Windows
 req.typenames: 
 req.redist: 

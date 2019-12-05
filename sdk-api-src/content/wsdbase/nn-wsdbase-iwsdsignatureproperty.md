@@ -1,19 +1,17 @@
 ---
 UID: NN:wsdbase.IWSDSignatureProperty
 title: IWSDSignatureProperty (wsdbase.h)
-
 description: Provides properties of signed messages.
 old-location: ncd\iwsdsignatureproperty.htm
 tech.root: WsdApi
 ms.assetid: 10e95100-4890-4c00-b231-bb7125fed197
-
 ms.date: 12/05/2018
 ms.keywords: IWSDSignatureProperty, IWSDSignatureProperty interface, IWSDSignatureProperty interface,described, ncd.iwsdsignatureproperty, wsdbase/IWSDSignatureProperty
 ms.topic: interface
-f1_keywords: 
- - "wsdbase/IWSDSignatureProperty"
+f1_keywords:
+- wsdbase/IWSDSignatureProperty
 dev_langs:
- - c++
+- c++
 req.header: wsdbase.h
 req.include-header: Wsdapi.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wsdapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wsdapi.dll
+- wsdapi.dll
 api_name:
- - IWSDSignatureProperty
+- IWSDSignatureProperty
 targetos: Windows
 req.typenames: 
 req.redist: 

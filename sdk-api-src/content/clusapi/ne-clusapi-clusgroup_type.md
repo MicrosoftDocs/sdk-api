@@ -1,19 +1,17 @@
 ---
 UID: NE:clusapi.__unnamed_enum_0
 title: CLUSGROUP_TYPE (clusapi.h)
-
 description: Specifies the type of cluster group to create.
 old-location: mscs\clusgroup_type.htm
 tech.root: MsCS
 ms.assetid: E3937C18-A0B6-44ED-AA75-69940ACCBFAA
-
 ms.date: 12/05/2018
-ms.keywords: "*PCLUSGROUP_TYPE, CLUSGROUP_TYPE, CLUSGROUP_TYPE enumeration [Failover Cluster], ClusGroupTypeAvailableStorage, ClusGroupTypeClusterUpdateAgent, ClusGroupTypeCoreCluster, ClusGroupTypeCrossClusterOrchestrator, ClusGroupTypeDhcpServer, ClusGroupTypeDtc, ClusGroupTypeFileServer, ClusGroupTypeGenericApplication, ClusGroupTypeGenericScript, ClusGroupTypeGenericService, ClusGroupTypeIScsiNameService, ClusGroupTypeIScsiTarget, ClusGroupTypeMsmq, ClusGroupTypePrintServer, ClusGroupTypeScaleoutCluster, ClusGroupTypeScaleoutFileServer, ClusGroupTypeSharedVolume, ClusGroupTypeStandAloneDfs, ClusGroupTypeStoragePool, ClusGroupTypeStorageReplica, ClusGroupTypeTaskScheduler, ClusGroupTypeTemporary, ClusGroupTypeTsSessionBroker, ClusGroupTypeUnknown, ClusGroupTypeVMReplicaBroker, ClusGroupTypeVMReplicaCoordinator, ClusGroupTypeVirtualMachine, ClusGroupTypeWins, PCLUSGROUP_TYPE, PCLUSGROUP_TYPE enumeration pointer [Failover Cluster], clusapi/CLUSGROUP_TYPE, clusapi/ClusGroupTypeAvailableStorage, clusapi/ClusGroupTypeClusterUpdateAgent, clusapi/ClusGroupTypeCoreCluster, clusapi/ClusGroupTypeCrossClusterOrchestrator, clusapi/ClusGroupTypeDhcpServer, clusapi/ClusGroupTypeDtc, clusapi/ClusGroupTypeFileServer, clusapi/ClusGroupTypeGenericApplication, clusapi/ClusGroupTypeGenericScript, clusapi/ClusGroupTypeGenericService, clusapi/ClusGroupTypeIScsiNameService, clusapi/ClusGroupTypeIScsiTarget, clusapi/ClusGroupTypeMsmq, clusapi/ClusGroupTypePrintServer, clusapi/ClusGroupTypeScaleoutCluster, clusapi/ClusGroupTypeScaleoutFileServer, clusapi/ClusGroupTypeSharedVolume, clusapi/ClusGroupTypeStandAloneDfs, clusapi/ClusGroupTypeStoragePool, clusapi/ClusGroupTypeStorageReplica, clusapi/ClusGroupTypeTaskScheduler, clusapi/ClusGroupTypeTemporary, clusapi/ClusGroupTypeTsSessionBroker, clusapi/ClusGroupTypeUnknown, clusapi/ClusGroupTypeVMReplicaBroker, clusapi/ClusGroupTypeVMReplicaCoordinator, clusapi/ClusGroupTypeVirtualMachine, clusapi/ClusGroupTypeWins, clusapi/PCLUSGROUP_TYPE, msclus/CLUSGROUP_TYPE, msclus/ClusGroupTypeAvailableStorage, msclus/ClusGroupTypeClusterUpdateAgent, msclus/ClusGroupTypeCoreCluster, msclus/ClusGroupTypeCrossClusterOrchestrator, msclus/ClusGroupTypeDhcpServer, msclus/ClusGroupTypeDtc, msclus/ClusGroupTypeFileServer, msclus/ClusGroupTypeGenericApplication, msclus/ClusGroupTypeGenericScript, msclus/ClusGroupTypeGenericService, msclus/ClusGroupTypeIScsiNameService, msclus/ClusGroupTypeIScsiTarget, msclus/ClusGroupTypeMsmq, msclus/ClusGroupTypePrintServer, msclus/ClusGroupTypeScaleoutCluster, msclus/ClusGroupTypeScaleoutFileServer, msclus/ClusGroupTypeSharedVolume, msclus/ClusGroupTypeStandAloneDfs, msclus/ClusGroupTypeStoragePool, msclus/ClusGroupTypeStorageReplica, msclus/ClusGroupTypeTaskScheduler, msclus/ClusGroupTypeTemporary, msclus/ClusGroupTypeTsSessionBroker, msclus/ClusGroupTypeUnknown, msclus/ClusGroupTypeVMReplicaBroker, msclus/ClusGroupTypeVMReplicaCoordinator, msclus/ClusGroupTypeVirtualMachine, msclus/ClusGroupTypeWins, msclus/PCLUSGROUP_TYPE, mscs.clusgroup_type"
+ms.keywords: '*PCLUSGROUP_TYPE, CLUSGROUP_TYPE, CLUSGROUP_TYPE enumeration [Failover Cluster], ClusGroupTypeAvailableStorage, ClusGroupTypeClusterUpdateAgent, ClusGroupTypeCoreCluster, ClusGroupTypeCrossClusterOrchestrator, ClusGroupTypeDhcpServer, ClusGroupTypeDtc, ClusGroupTypeFileServer, ClusGroupTypeGenericApplication, ClusGroupTypeGenericScript, ClusGroupTypeGenericService, ClusGroupTypeIScsiNameService, ClusGroupTypeIScsiTarget, ClusGroupTypeMsmq, ClusGroupTypePrintServer, ClusGroupTypeScaleoutCluster, ClusGroupTypeScaleoutFileServer, ClusGroupTypeSharedVolume, ClusGroupTypeStandAloneDfs, ClusGroupTypeStoragePool, ClusGroupTypeStorageReplica, ClusGroupTypeTaskScheduler, ClusGroupTypeTemporary, ClusGroupTypeTsSessionBroker, ClusGroupTypeUnknown, ClusGroupTypeVMReplicaBroker, ClusGroupTypeVMReplicaCoordinator, ClusGroupTypeVirtualMachine, ClusGroupTypeWins, PCLUSGROUP_TYPE, PCLUSGROUP_TYPE enumeration pointer [Failover Cluster], clusapi/CLUSGROUP_TYPE, clusapi/ClusGroupTypeAvailableStorage, clusapi/ClusGroupTypeClusterUpdateAgent, clusapi/ClusGroupTypeCoreCluster, clusapi/ClusGroupTypeCrossClusterOrchestrator, clusapi/ClusGroupTypeDhcpServer, clusapi/ClusGroupTypeDtc, clusapi/ClusGroupTypeFileServer, clusapi/ClusGroupTypeGenericApplication, clusapi/ClusGroupTypeGenericScript, clusapi/ClusGroupTypeGenericService, clusapi/ClusGroupTypeIScsiNameService, clusapi/ClusGroupTypeIScsiTarget, clusapi/ClusGroupTypeMsmq, clusapi/ClusGroupTypePrintServer, clusapi/ClusGroupTypeScaleoutCluster, clusapi/ClusGroupTypeScaleoutFileServer, clusapi/ClusGroupTypeSharedVolume, clusapi/ClusGroupTypeStandAloneDfs, clusapi/ClusGroupTypeStoragePool, clusapi/ClusGroupTypeStorageReplica, clusapi/ClusGroupTypeTaskScheduler, clusapi/ClusGroupTypeTemporary, clusapi/ClusGroupTypeTsSessionBroker, clusapi/ClusGroupTypeUnknown, clusapi/ClusGroupTypeVMReplicaBroker, clusapi/ClusGroupTypeVMReplicaCoordinator, clusapi/ClusGroupTypeVirtualMachine, clusapi/ClusGroupTypeWins, clusapi/PCLUSGROUP_TYPE, msclus/CLUSGROUP_TYPE, msclus/ClusGroupTypeAvailableStorage, msclus/ClusGroupTypeClusterUpdateAgent, msclus/ClusGroupTypeCoreCluster, msclus/ClusGroupTypeCrossClusterOrchestrator, msclus/ClusGroupTypeDhcpServer, msclus/ClusGroupTypeDtc, msclus/ClusGroupTypeFileServer, msclus/ClusGroupTypeGenericApplication, msclus/ClusGroupTypeGenericScript, msclus/ClusGroupTypeGenericService, msclus/ClusGroupTypeIScsiNameService, msclus/ClusGroupTypeIScsiTarget, msclus/ClusGroupTypeMsmq, msclus/ClusGroupTypePrintServer, msclus/ClusGroupTypeScaleoutCluster, msclus/ClusGroupTypeScaleoutFileServer, msclus/ClusGroupTypeSharedVolume, msclus/ClusGroupTypeStandAloneDfs, msclus/ClusGroupTypeStoragePool, msclus/ClusGroupTypeStorageReplica, msclus/ClusGroupTypeTaskScheduler, msclus/ClusGroupTypeTemporary, msclus/ClusGroupTypeTsSessionBroker, msclus/ClusGroupTypeUnknown, msclus/ClusGroupTypeVMReplicaBroker, msclus/ClusGroupTypeVMReplicaCoordinator, msclus/ClusGroupTypeVirtualMachine, msclus/ClusGroupTypeWins, msclus/PCLUSGROUP_TYPE, mscs.clusgroup_type'
 ms.topic: enum
-f1_keywords: 
- - "clusapi/CLUSGROUP_TYPE"
+f1_keywords:
+- clusapi/CLUSGROUP_TYPE
 dev_langs:
- - c++
+- c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - ClusApi.h
- - MsClus.h
+- ClusApi.h
+- MsClus.h
 api_name:
- - CLUSGROUP_TYPE
+- CLUSGROUP_TYPE
 targetos: Windows
 req.typenames: CLUSGROUP_TYPE, *PCLUSGROUP_TYPE
 req.redist: 

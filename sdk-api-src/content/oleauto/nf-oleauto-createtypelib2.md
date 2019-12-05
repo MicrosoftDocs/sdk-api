@@ -1,19 +1,17 @@
 ---
 UID: NF:oleauto.CreateTypeLib2
 title: CreateTypeLib2 function (oleauto.h)
-
 description: Creates a type library in the current file format.
 old-location: automat\createtypelib2.htm
 tech.root: automat
 ms.assetid: 73df6ef2-fae1-4cfb-ba59-3812e3a2e3b9
-
 ms.date: 12/05/2018
 ms.keywords: CreateTypeLib2, CreateTypeLib2 function [Automation], _oa96_CreateTypeLib2, automat.createtypelib2, oleauto/CreateTypeLib2
 ms.topic: function
-f1_keywords: 
- - "oleauto/CreateTypeLib2"
+f1_keywords:
+- oleauto/CreateTypeLib2
 dev_langs:
- - c++
+- c++
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: OleAut32.lib
 req.dll: OleAut32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - OleAut32.dll
+- OleAut32.dll
 api_name:
- - CreateTypeLib2
+- CreateTypeLib2
 targetos: Windows
 req.typenames: 
 req.redist: 

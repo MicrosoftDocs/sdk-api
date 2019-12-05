@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d11_4.ID3D11Multithread.GetMultithreadProtected
 title: ID3D11Multithread::GetMultithreadProtected (d3d11_4.h)
-
 description: Find out if multithread protection is turned on or not.
 old-location: direct3d11\id3d11multithread_getmultithreadprotected.htm
 tech.root: direct3d11
 ms.assetid: 1BCB0021-9C92-425D-97C1-6EDB1D2127A8
-
 ms.date: 12/05/2018
 ms.keywords: GetMultithreadProtected, GetMultithreadProtected method [Direct3D 11], GetMultithreadProtected method [Direct3D 11],ID3D11Multithread interface, ID3D11Multithread interface [Direct3D 11],GetMultithreadProtected method, ID3D11Multithread.GetMultithreadProtected, ID3D11Multithread::GetMultithreadProtected, d3d11_4/ID3D11Multithread::GetMultithreadProtected, direct3d11.id3d11multithread_getmultithreadprotected
 ms.topic: method
-f1_keywords: 
- - "d3d11_4/ID3D11Multithread.GetMultithreadProtected"
+f1_keywords:
+- d3d11_4/ID3D11Multithread.GetMultithreadProtected
 dev_langs:
- - c++
+- c++
 req.header: d3d11_4.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: D3d11_4.lib
 req.dll: D3d11_4.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - d3d11_4.dll
+- d3d11_4.dll
 api_name:
- - ID3D11Multithread.GetMultithreadProtected
+- ID3D11Multithread.GetMultithreadProtected
 targetos: Windows
 req.typenames: 
 req.redist: 

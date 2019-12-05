@@ -1,19 +1,17 @@
 ---
 UID: NN:bdaiface.IBDA_NullTransform
 title: IBDA_NullTransform (bdaiface.h)
-
 description: The IBDA_NullTransform interface is implemented on all BDA device filters.
 old-location: mstv\ibda_nulltransform.htm
 tech.root: mstv
 ms.assetid: f13350cb-5064-405d-aeb6-25f684d0bdbb
-
 ms.date: 12/05/2018
 ms.keywords: IBDA_NullTransform, IBDA_NullTransform interface [Microsoft TV Technologies], IBDA_NullTransform interface [Microsoft TV Technologies],described, IBDA_NullTransformInterface, bdaiface/IBDA_NullTransform, mstv.ibda_nulltransform
 ms.topic: interface
-f1_keywords: 
- - "bdaiface/IBDA_NullTransform"
+f1_keywords:
+- bdaiface/IBDA_NullTransform
 dev_langs:
- - c++
+- c++
 req.header: bdaiface.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - bdaiface.h
+- bdaiface.h
 api_name:
- - IBDA_NullTransform
+- IBDA_NullTransform
 targetos: Windows
 req.typenames: 
 req.redist: 

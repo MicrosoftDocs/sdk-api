@@ -1,19 +1,17 @@
 ---
 UID: NF:comsvcs.IComTrackingInfoCollection.Count
 title: IComTrackingInfoCollection::Count (comsvcs.h)
-
 description: Retrieves the number of objects in a tracking information collection.
 old-location: cos\icomtrackinginfocollection_count.htm
 tech.root: cossdk
 ms.assetid: 72578a4e-bc23-4bc8-ab40-346ba9c5a6d7
-
 ms.date: 12/05/2018
 ms.keywords: Count, Count method [COM+], Count method [COM+],IComTrackingInfoCollection interface, IComTrackingInfoCollection interface [COM+],Count method, IComTrackingInfoCollection.Count, IComTrackingInfoCollection::Count, _dtc_IComTrackingInfoCollection_Count, comsvcs/IComTrackingInfoCollection::Count, cos.icomtrackinginfocollection_count
 ms.topic: method
-f1_keywords: 
- - "comsvcs/IComTrackingInfoCollection.Count"
+f1_keywords:
+- comsvcs/IComTrackingInfoCollection.Count
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - IComTrackingInfoCollection.Count
+- IComTrackingInfoCollection.Count
 targetos: Windows
 req.typenames: 
 req.redist: 

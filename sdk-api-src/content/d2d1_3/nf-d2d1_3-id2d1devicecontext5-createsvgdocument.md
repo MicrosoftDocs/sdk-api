@@ -1,19 +1,17 @@
 ---
 UID: NF:d2d1_3.ID2D1DeviceContext5.CreateSvgDocument
 title: ID2D1DeviceContext5::CreateSvgDocument (d2d1_3.h)
-
 description: Creates an SVG document from a stream.
 old-location: direct2d\id2d1devicecontext5_createsvgdocument.htm
 tech.root: Direct2D
 ms.assetid: B7965388-EFF0-40B4-AE00-3AB28DEA800B
-
 ms.date: 12/05/2018
 ms.keywords: CreateSvgDocument, CreateSvgDocument method [Direct2D], CreateSvgDocument method [Direct2D],ID2D1DeviceContext5 interface, ID2D1DeviceContext5 interface [Direct2D],CreateSvgDocument method, ID2D1DeviceContext5.CreateSvgDocument, ID2D1DeviceContext5::CreateSvgDocument, d2d1_3/ID2D1DeviceContext5::CreateSvgDocument, direct2d.id2d1devicecontext5_createsvgdocument
 ms.topic: method
-f1_keywords: 
- - "d2d1_3/ID2D1DeviceContext5.CreateSvgDocument"
+f1_keywords:
+- d2d1_3/ID2D1DeviceContext5.CreateSvgDocument
 dev_langs:
- - c++
+- c++
 req.header: d2d1_3.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: D2d1.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D2d1.dll
+- D2d1.dll
 api_name:
- - ID2D1DeviceContext5.CreateSvgDocument
+- ID2D1DeviceContext5.CreateSvgDocument
 targetos: Windows
 req.typenames: 
 req.redist: 

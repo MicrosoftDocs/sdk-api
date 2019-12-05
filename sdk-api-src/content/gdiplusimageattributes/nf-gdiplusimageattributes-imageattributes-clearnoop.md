@@ -1,19 +1,17 @@
 ---
 UID: NF:gdiplusimageattributes.ImageAttributes.ClearNoOp
 title: ImageAttributes::ClearNoOp (gdiplusimageattributes.h)
-
 description: The ImageAttributes::ClearNoOp method clears the NoOp setting for a specified category.
 old-location: gdiplus\_gdiplus_CLASS_ImageAttributes_ClearNoOp_type_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\imageattributesclass\imageattributesmethods\clearnoop.htm
-
 ms.date: 12/05/2018
 ms.keywords: ClearNoOp, ClearNoOp method [GDI+], ClearNoOp method [GDI+],ImageAttributes class, ImageAttributes class [GDI+],ClearNoOp method, ImageAttributes.ClearNoOp, ImageAttributes::ClearNoOp, _gdiplus_CLASS_ImageAttributes_ClearNoOp_type_, gdiplus._gdiplus_CLASS_ImageAttributes_ClearNoOp_type_
 ms.topic: method
-f1_keywords: 
- - "gdiplusimageattributes/ImageAttributes.ClearNoOp"
+f1_keywords:
+- gdiplusimageattributes/ImageAttributes.ClearNoOp
 dev_langs:
- - c++
+- c++
 req.header: gdiplusimageattributes.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - ImageAttributes.ClearNoOp
+- ImageAttributes.ClearNoOp
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NN:rdpencomapi.IRDPSRAPIWindowList
 title: IRDPSRAPIWindowList (rdpencomapi.h)
-
 description: Manages the window list.
 old-location: rdp\irdpsrapiwindowlist.htm
 tech.root: rdp
 ms.assetid: 9ea90838-6de3-4b21-8db8-ff96e026505a
-
 ms.date: 12/05/2018
 ms.keywords: IRDPSRAPIWindowList, IRDPSRAPIWindowList interface [RDP], IRDPSRAPIWindowList interface [RDP],described, rdp.irdpsrapiwindowlist, rdpencomapi/IRDPSRAPIWindowList
 ms.topic: interface
-f1_keywords: 
- - "rdpencomapi/IRDPSRAPIWindowList"
+f1_keywords:
+- rdpencomapi/IRDPSRAPIWindowList
 dev_langs:
- - c++
+- c++
 req.header: rdpencomapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: RdpEncom.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - RdpEncom.dll
+- RdpEncom.dll
 api_name:
- - IRDPSRAPIWindowList
+- IRDPSRAPIWindowList
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:appxpackaging.IAppxPackageEditor.CreateDeltaPackageUsingBaselineBlockMap
 title: IAppxPackageEditor::CreateDeltaPackageUsingBaselineBlockMap (appxpackaging.h)
-
 description: Creates a delta package from the differences in the updated package and the baseline block map.
 old-location: appxpkg\iappxpackageeditor_createdeltapackageusingbaselineblockmap.htm
 tech.root: appxpkg
 ms.assetid: 33D1CEBA-A7F4-4506-B467-3610A3737B87
-
 ms.date: 12/05/2018
 ms.keywords: CreateDeltaPackageUsingBaselineBlockMap, CreateDeltaPackageUsingBaselineBlockMap method [App packaging and management], CreateDeltaPackageUsingBaselineBlockMap method [App packaging and management],IAppxPackageEditor interface, IAppxPackageEditor interface [App packaging and management],CreateDeltaPackageUsingBaselineBlockMap method, IAppxPackageEditor.CreateDeltaPackageUsingBaselineBlockMap, IAppxPackageEditor::CreateDeltaPackageUsingBaselineBlockMap, appxpackaging/IAppxPackageEditor::CreateDeltaPackageUsingBaselineBlockMap, appxpkg.iappxpackageeditor_createdeltapackageusingbaselineblockmap
 ms.topic: method
-f1_keywords: 
- - "appxpackaging/IAppxPackageEditor.CreateDeltaPackageUsingBaselineBlockMap"
+f1_keywords:
+- appxpackaging/IAppxPackageEditor.CreateDeltaPackageUsingBaselineBlockMap
 dev_langs:
- - c++
+- c++
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - AppxPackaging.h
+- AppxPackaging.h
 api_name:
- - IAppxPackageEditor.CreateDeltaPackageUsingBaselineBlockMap
+- IAppxPackageEditor.CreateDeltaPackageUsingBaselineBlockMap
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:certenroll.IX509EndorsementKey.AddCertificate
 title: IX509EndorsementKey::AddCertificate (certenroll.h)
-
 description: Add an endorsement key certificate to the key storage provider (KSP) that supports endorsement keys.
 old-location: security\ix509endorsementkey_addcertificate.htm
 tech.root: seccertenroll
 ms.assetid: 24621d53-c435-43e9-b709-619908f09f3b
-
 ms.date: 12/05/2018
 ms.keywords: AddCertificate, AddCertificate method [Security], AddCertificate method [Security],IX509EndorsementKey interface, IX509EndorsementKey interface [Security],AddCertificate method, IX509EndorsementKey.AddCertificate, IX509EndorsementKey::AddCertificate, certenroll/IX509EndorsementKey::AddCertificate, security.ix509endorsementkey_addcertificate
 ms.topic: method
-f1_keywords: 
- - "certenroll/IX509EndorsementKey.AddCertificate"
+f1_keywords:
+- certenroll/IX509EndorsementKey.AddCertificate
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Certenroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Certenroll.dll
+- Certenroll.dll
 api_name:
- - IX509EndorsementKey.AddCertificate
+- IX509EndorsementKey.AddCertificate
 targetos: Windows
 req.typenames: 
 req.redist: 

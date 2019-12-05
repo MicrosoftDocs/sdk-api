@@ -1,19 +1,17 @@
 ---
 UID: NC:ras.PFNRASSENDBUFFER
 title: PFNRASSENDBUFFER (ras.h)
-
 description: The custom-scripting DLL calls the RasSendBuffer function to send data to the server over the specified port.
 old-location: rras\rassendbuffer.htm
 tech.root: RRAS
 ms.assetid: 157a2bc7-351f-4170-b85b-ed789b4997ab
-
 ms.date: 12/05/2018
 ms.keywords: PFNRASSENDBUFFER, PFNRASSENDBUFFER callback, RasSendBuffer, RasSendBuffer callback function [RAS], _ras_rassendbuffer, ras/RasSendBuffer, rras.rassendbuffer
 ms.topic: callback
-f1_keywords: 
- - "ras/RasSendBuffer"
+f1_keywords:
+- ras/RasSendBuffer
 dev_langs:
- - c++
+- c++
 req.header: ras.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Ras.h
+- Ras.h
 api_name:
- - RasSendBuffer
+- RasSendBuffer
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NS:wincrypt._CERT_SYSTEM_STORE_INFO
 title: CERT_SYSTEM_STORE_INFO (wincrypt.h)
-
 description: The CERT_SYSTEM_STORE_INFO structure contains information used by functions that work with system stores. Currently, no essential information is contained in this structure.
 old-location: security\cert_system_store_info.htm
 tech.root: SecCrypto
 ms.assetid: 9c17ebd9-423b-4063-bdc3-6be70ceb8623
-
 ms.date: 12/05/2018
-ms.keywords: "*PCERT_SYSTEM_STORE_INFO, CERT_SYSTEM_STORE_INFO, CERT_SYSTEM_STORE_INFO structure [Security], PCERT_SYSTEM_STORE_INFO, PCERT_SYSTEM_STORE_INFO structure pointer [Security], _crypto2_cert_system_store_info, security.cert_system_store_info, wincrypt/CERT_SYSTEM_STORE_INFO, wincrypt/PCERT_SYSTEM_STORE_INFO"
+ms.keywords: '*PCERT_SYSTEM_STORE_INFO, CERT_SYSTEM_STORE_INFO, CERT_SYSTEM_STORE_INFO structure [Security], PCERT_SYSTEM_STORE_INFO, PCERT_SYSTEM_STORE_INFO structure pointer [Security], _crypto2_cert_system_store_info, security.cert_system_store_info, wincrypt/CERT_SYSTEM_STORE_INFO, wincrypt/PCERT_SYSTEM_STORE_INFO'
 ms.topic: struct
-f1_keywords: 
- - "wincrypt/CERT_SYSTEM_STORE_INFO"
+f1_keywords:
+- wincrypt/CERT_SYSTEM_STORE_INFO
 dev_langs:
- - c++
+- c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wincrypt.h
+- Wincrypt.h
 api_name:
- - CERT_SYSTEM_STORE_INFO
+- CERT_SYSTEM_STORE_INFO
 targetos: Windows
 req.typenames: CERT_SYSTEM_STORE_INFO, *PCERT_SYSTEM_STORE_INFO
 req.redist: 

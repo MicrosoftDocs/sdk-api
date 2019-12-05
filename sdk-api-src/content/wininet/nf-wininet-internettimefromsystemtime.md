@@ -1,19 +1,17 @@
 ---
 UID: NF:wininet.InternetTimeFromSystemTime
 title: InternetTimeFromSystemTime function (wininet.h)
-
 description: Formats a date and time according to the HTTP version 1.0 specification.
 old-location: wininet\internettimefromsystemtime.htm
 tech.root: wininet
 ms.assetid: b52ba402-bad1-4005-b9d0-7630194272d1
-
 ms.date: 12/05/2018
 ms.keywords: InternetTimeFromSystemTime, InternetTimeFromSystemTime function [WinINet], InternetTimeFromSystemTimeA, InternetTimeFromSystemTimeW, _inet_internettimefromsystemtime_function, wininet.internettimefromsystemtime, wininet/InternetTimeFromSystemTime, wininet/InternetTimeFromSystemTimeA, wininet/InternetTimeFromSystemTimeW
 ms.topic: function
-f1_keywords: 
- - "wininet/InternetTimeFromSystemTime"
+f1_keywords:
+- wininet/InternetTimeFromSystemTime
 dev_langs:
- - c++
+- c++
 req.header: wininet.h
 req.include-header: 
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib: Wininet.lib
 req.dll: Wininet.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Wininet.dll
- - API-MS-Win-Http-Time-l1-1-0.dll
- - KernelBase.dll
+- Wininet.dll
+- API-MS-Win-Http-Time-l1-1-0.dll
+- KernelBase.dll
 api_name:
- - InternetTimeFromSystemTime
- - InternetTimeFromSystemTimeA
- - InternetTimeFromSystemTimeW
+- InternetTimeFromSystemTime
+- InternetTimeFromSystemTimeA
+- InternetTimeFromSystemTimeW
 targetos: Windows
 req.typenames: 
 req.redist: 

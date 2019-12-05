@@ -1,19 +1,17 @@
 ---
 UID: NF:wmsdkidl.IWMDRMWriter.GenerateSigningKeyPair
 title: IWMDRMWriter::GenerateSigningKeyPair (wmsdkidl.h)
-
 description: The GenerateSigningKeyPair method generates a public and private key pair that are used to sign the DRM header object.
 old-location: wmformat\iwmdrmwriter_generatesigningkeypair.htm
 tech.root: wmformat
 ms.assetid: 2ad66a22-b088-423c-b726-63bc6372f3c2
-
 ms.date: 12/05/2018
 ms.keywords: GenerateSigningKeyPair, GenerateSigningKeyPair method [windows Media Format], GenerateSigningKeyPair method [windows Media Format],IWMDRMWriter interface, IWMDRMWriter interface [windows Media Format],GenerateSigningKeyPair method, IWMDRMWriter.GenerateSigningKeyPair, IWMDRMWriter::GenerateSigningKeyPair, IWMDRMWriterGenerateSigningKeyPair, wmformat.iwmdrmwriter_generatesigningkeypair, wmsdkidl/IWMDRMWriter::GenerateSigningKeyPair
 ms.topic: method
-f1_keywords: 
- - "wmsdkidl/IWMDRMWriter.GenerateSigningKeyPair"
+f1_keywords:
+- wmsdkidl/IWMDRMWriter.GenerateSigningKeyPair
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wmvcore.lib
- - Wmvcore.dll
- - WMStubDRM.lib
- - WMStubDRM.dll
+- Wmvcore.lib
+- Wmvcore.dll
+- WMStubDRM.lib
+- WMStubDRM.dll
 api_name:
- - IWMDRMWriter.GenerateSigningKeyPair
+- IWMDRMWriter.GenerateSigningKeyPair
 targetos: Windows
 req.typenames: 
 req.redist: 

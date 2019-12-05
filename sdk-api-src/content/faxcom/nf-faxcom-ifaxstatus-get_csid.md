@@ -1,19 +1,17 @@
 ---
 UID: NF:faxcom.IFaxStatus.get_Csid
 title: IFaxStatus::get_Csid (faxcom.h)
-
 description: Retrieves the Csid property for the FaxStatus object of a parent FaxPort object. The Csid property is a string that contains called station identifier (CSID) information, typically the fax number of the receiving device.
 old-location: fax\_mfax_ifaxstatus_mfax_ifaxstatus_get_csid_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_6k2s.htm
-
 ms.date: 12/05/2018
 ms.keywords: Csid property [Fax Service], Csid property [Fax Service],IFaxStatus interface, IFaxStatus interface [Fax Service],Csid property, IFaxStatus.Csid, IFaxStatus.get_Csid, IFaxStatus::Csid, IFaxStatus::get_Csid, _mfax_ifaxstatus_get_csid, fax._mfax_ifaxstatus_get_csid, fax._mfax_ifaxstatus_mfax_ifaxstatus_get_csid_cpp, faxcom/IFaxStatus::Csid, faxcom/IFaxStatus::get_Csid, get_Csid
 ms.topic: method
-f1_keywords: 
- - "faxcom/IFaxStatus.Csid"
+f1_keywords:
+- faxcom/IFaxStatus.Csid
 dev_langs:
- - c++
+- c++
 req.header: faxcom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: Faxcom.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Faxcom.dll
+- Faxcom.dll
 api_name:
- - IFaxStatus.Csid
- - IFaxStatus.get_Csid
+- IFaxStatus.Csid
+- IFaxStatus.get_Csid
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:azroles.IAzRole.get_Writable
 title: IAzRole::get_Writable (azroles.h)
-
 description: Retrieves a value that indicates whether the role can be modified by the user context that initialized it.
 old-location: security\iazrole_writable.htm
 tech.root: SecAuthZ
 ms.assetid: 053b0ec4-143b-449d-bbbd-8ec8f00b0f2e
-
 ms.date: 12/05/2018
 ms.keywords: AzRole object [Security],Writable property, IAzRole interface [Security],Writable property, IAzRole.Writable, IAzRole.get_Writable, IAzRole::Writable, IAzRole::get_Writable, Writable property [Security], Writable property [Security],AzRole object, Writable property [Security],IAzRole interface, azroles/IAzRole::Writable, azroles/IAzRole::get_Writable, get_Writable, security.iazrole_writable
 ms.topic: method
-f1_keywords: 
- - "azroles/IAzRole.Writable"
+f1_keywords:
+- azroles/IAzRole.Writable
 dev_langs:
- - c++
+- c++
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Azroles.lib
 req.dll: Azroles.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Azroles.dll
+- Azroles.dll
 api_name:
- - IAzRole.Writable
- - IAzRole.get_Writable
- - AzRole.Writable
+- IAzRole.Writable
+- IAzRole.get_Writable
+- AzRole.Writable
 targetos: Windows
 req.typenames: 
 req.redist: Windows Server 2003 Administration Tools Pack on Windows XP

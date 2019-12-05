@@ -1,19 +1,17 @@
 ---
 UID: NF:certexit.ICertExit2.GetManageModule
 title: ICertExit2::GetManageModule (certexit.h)
-
 description: Retrieves the ICertManageModule interface associated with the ICertExit2 interface by calling GetManageModule and passing in the address of a pointer to an ICertManageModule.
 old-location: security\icertexit2_getmanagemodule.htm
 tech.root: SecCrypto
 ms.assetid: 7f0c1b63-fd09-43b9-9f88-fab154d94e94
-
 ms.date: 12/05/2018
 ms.keywords: CCertExit object [Security],GetManageModule method, GetManageModule, GetManageModule method [Security], GetManageModule method [Security],CCertExit object, GetManageModule method [Security],ICertExit2 interface, ICertExit2 interface [Security],GetManageModule method, ICertExit2.GetManageModule, ICertExit2::GetManageModule, certexit/ICertExit2::GetManageModule, security.icertexit2_getmanagemodule
 ms.topic: method
-f1_keywords: 
- - "certexit/ICertExit2.GetManageModule"
+f1_keywords:
+- certexit/ICertExit2.GetManageModule
 dev_langs:
- - c++
+- c++
 req.header: certexit.h
 req.include-header: Certsrv.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Certexit.h
+- Certexit.h
 api_name:
- - ICertExit2.GetManageModule
- - CCertExit.GetManageModule
+- ICertExit2.GetManageModule
+- CCertExit.GetManageModule
 targetos: Windows
 req.typenames: 
 req.redist: 

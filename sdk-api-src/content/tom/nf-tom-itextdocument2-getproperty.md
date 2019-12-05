@@ -1,19 +1,17 @@
 ---
 UID: NF:tom.ITextDocument2.GetProperty
 title: ITextDocument2::GetProperty (tom.h)
-
 description: Retrieves the value of a property.
 old-location: controls\itextdocument2_getproperty.htm
 tech.root: Controls
 ms.assetid: 30775a51-0e63-453e-ac94-39d4510002f0
-
 ms.date: 12/05/2018
 ms.keywords: GetProperty, GetProperty method [Windows Controls], GetProperty method [Windows Controls],ITextDocument2 interface, ITextDocument2 interface [Windows Controls],GetProperty method, ITextDocument2.GetProperty, ITextDocument2::GetProperty, controls.itextdocument2_getproperty, tom/ITextDocument2::GetProperty, tomCanCopy, tomCanRedo, tomCanUndo, tomDocMathBuild, tomEllipsisMode, tomEllipsisState, tomMathInterSpace, tomMathIntraSpace, tomMathLMargin, tomMathPostSpace, tomMathPreSpace, tomMathRMargin, tomMathWrapIndent, tomMathWrapRight, tomUndoLimit
 ms.topic: method
-f1_keywords: 
- - "tom/ITextDocument2.GetProperty"
+f1_keywords:
+- tom/ITextDocument2.GetProperty
 dev_langs:
- - c++
+- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msftedit.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msftedit.dll
+- Msftedit.dll
 api_name:
- - ITextDocument2.GetProperty
+- ITextDocument2.GetProperty
 targetos: Windows
 req.typenames: 
 req.redist: 

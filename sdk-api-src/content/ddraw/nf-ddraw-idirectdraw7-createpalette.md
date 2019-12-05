@@ -1,19 +1,17 @@
 ---
 UID: NF:ddraw.IDirectDraw7.CreatePalette
 title: IDirectDraw7::CreatePalette (ddraw.h)
-
 description: Creates a DirectDrawPalette object for this DirectDraw object.
 old-location: directdraw\idirectdraw7_createpalette.htm
 tech.root: directdraw
 ms.assetid: 3e9eec72-b9c7-4c9f-b9ea-177605fedf96
-
 ms.date: 12/05/2018
 ms.keywords: CreatePalette, CreatePalette method [DirectDraw], CreatePalette method [DirectDraw],IDirectDraw7 interface, DDPCAPS_1BIT, DDPCAPS_2BIT, DDPCAPS_4BIT, DDPCAPS_8BIT, DDPCAPS_8BITENTRIES, DDPCAPS_ALLOW256, DDPCAPS_ALPHA, DDPCAPS_INITIALIZE, DDPCAPS_PRIMARYSURFACE, DDPCAPS_PRIMARYSURFACELEFT, DDPCAPS_VSYNC, IDirectDraw7 interface [DirectDraw],CreatePalette method, IDirectDraw7.CreatePalette, IDirectDraw7::CreatePalette, ddraw/IDirectDraw7::CreatePalette, directdraw.idirectdraw7_createpalette
 ms.topic: method
-f1_keywords: 
- - "ddraw/IDirectDraw7.CreatePalette"
+f1_keywords:
+- ddraw/IDirectDraw7.CreatePalette
 dev_langs:
- - c++
+- c++
 req.header: ddraw.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Ddraw.lib
 req.dll: Ddraw.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Ddraw.dll
+- Ddraw.dll
 api_name:
- - IDirectDraw7.CreatePalette
+- IDirectDraw7.CreatePalette
 targetos: Windows
 req.typenames: 
 req.redist: 

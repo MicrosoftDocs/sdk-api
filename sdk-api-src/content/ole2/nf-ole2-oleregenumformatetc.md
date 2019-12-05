@@ -1,19 +1,17 @@
 ---
 UID: NF:ole2.OleRegEnumFormatEtc
 title: OleRegEnumFormatEtc function (ole2.h)
-
 description: Creates an enumeration object that can be used to enumerate data formats that an OLE object server has registered in the system registry.
 old-location: com\oleregenumformatetc.htm
 tech.root: com
 ms.assetid: 6caebc68-a136-40f2-92d8-7f8003c18e5c
-
 ms.date: 12/05/2018
 ms.keywords: OleRegEnumFormatEtc, OleRegEnumFormatEtc function [COM], _ole_OleRegEnumFormatEtc, com.oleregenumformatetc, ole2/OleRegEnumFormatEtc
 ms.topic: function
-f1_keywords: 
- - "ole2/OleRegEnumFormatEtc"
+f1_keywords:
+- ole2/OleRegEnumFormatEtc
 dev_langs:
- - c++
+- c++
 req.header: ole2.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Ole32.lib
 req.dll: Ole32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ole32.dll
+- Ole32.dll
 api_name:
- - OleRegEnumFormatEtc
+- OleRegEnumFormatEtc
 targetos: Windows
 req.typenames: 
 req.redist: 

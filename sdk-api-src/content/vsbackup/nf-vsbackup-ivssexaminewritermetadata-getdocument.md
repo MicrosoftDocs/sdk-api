@@ -1,19 +1,17 @@
 ---
 UID: NF:vsbackup.IVssExamineWriterMetadata.GetDocument
 title: IVssExamineWriterMetadata::GetDocument (vsbackup.h)
-
 description: Not supported.
 old-location: base\ivssexaminewritermetadata_getdocument.htm
 tech.root: VSS
 ms.assetid: 3ade4232-147b-4e56-b45c-e692d08cfcdc
-
 ms.date: 12/05/2018
 ms.keywords: GetDocument, GetDocument method [VSS], GetDocument method [VSS],IVssExamineWriterMetadata interface, IVssExamineWriterMetadata interface [VSS],GetDocument method, IVssExamineWriterMetadata.GetDocument, IVssExamineWriterMetadata::GetDocument, _win32_ivssexaminewritermetadata_getdocument, base.ivssexaminewritermetadata_getdocument, vsbackup/IVssExamineWriterMetadata::GetDocument
 ms.topic: method
-f1_keywords: 
- - "vsbackup/IVssExamineWriterMetadata.GetDocument"
+f1_keywords:
+- vsbackup/IVssExamineWriterMetadata.GetDocument
 dev_langs:
- - c++
+- c++
 req.header: vsbackup.h
 req.include-header: VsBackup.h, Vss.h, VsWriter.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: VssApi.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - VssApi.lib
- - VssApi.dll
+- VssApi.lib
+- VssApi.dll
 api_name:
- - IVssExamineWriterMetadata.GetDocument
+- IVssExamineWriterMetadata.GetDocument
 targetos: Windows
 req.typenames: 
 req.redist: 

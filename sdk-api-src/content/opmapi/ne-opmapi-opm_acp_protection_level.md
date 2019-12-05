@@ -1,19 +1,17 @@
 ---
 UID: NE:opmapi._OPM_ACP_PROTECTION_LEVEL
 title: OPM_ACP_PROTECTION_LEVEL (opmapi.h)
-
 description: Specifies the protection level for Analog Copy Protection (ACP).
 old-location: mf\opm_acp_protection_level.htm
 tech.root: medfound
 ms.assetid: f52b4ee6-1ab3-4153-86e3-5ae69fd8a958
-
 ms.date: 12/05/2018
 ms.keywords: OPM_ACP_FORCE_ULONG, OPM_ACP_LEVEL_ONE, OPM_ACP_LEVEL_THREE, OPM_ACP_LEVEL_TWO, OPM_ACP_OFF, OPM_ACP_PROTECTION_LEVEL, OPM_ACP_PROTECTION_LEVEL enumeration [Media Foundation], mf.opm_acp_protection_level, opmapi/OPM_ACP_FORCE_ULONG, opmapi/OPM_ACP_LEVEL_ONE, opmapi/OPM_ACP_LEVEL_THREE, opmapi/OPM_ACP_LEVEL_TWO, opmapi/OPM_ACP_OFF, opmapi/OPM_ACP_PROTECTION_LEVEL
 ms.topic: enum
-f1_keywords: 
- - "opmapi/OPM_ACP_PROTECTION_LEVEL"
+f1_keywords:
+- opmapi/OPM_ACP_PROTECTION_LEVEL
 dev_langs:
- - c++
+- c++
 req.header: opmapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - opmapi.h
+- opmapi.h
 api_name:
- - OPM_ACP_PROTECTION_LEVEL
+- OPM_ACP_PROTECTION_LEVEL
 targetos: Windows
 req.typenames: OPM_ACP_PROTECTION_LEVEL
 req.redist: 

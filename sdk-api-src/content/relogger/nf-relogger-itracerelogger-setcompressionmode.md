@@ -1,19 +1,17 @@
 ---
 UID: NF:relogger.ITraceRelogger.SetCompressionMode
 title: ITraceRelogger::SetCompressionMode (relogger.h)
-
 description: Enables or disables compression on the relogged trace.
 old-location: etw\itracerelogger_setcompressionmode.htm
 tech.root: ETW
 ms.assetid: 2a758af0-2316-4c4b-8717-ee1ebad205ee
-
 ms.date: 12/05/2018
 ms.keywords: ITraceRelogger interface [ETW],SetCompressionMode method, ITraceRelogger.SetCompressionMode, ITraceRelogger::SetCompressionMode, SetCompressionMode, SetCompressionMode method [ETW], SetCompressionMode method [ETW],ITraceRelogger interface, etw.itracerelogger_setcompressionmode, relogger/ITraceRelogger::SetCompressionMode
 ms.topic: method
-f1_keywords: 
- - "relogger/ITraceRelogger.SetCompressionMode"
+f1_keywords:
+- relogger/ITraceRelogger.SetCompressionMode
 dev_langs:
- - c++
+- c++
 req.header: relogger.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Relogger.h
+- Relogger.h
 api_name:
- - ITraceRelogger.SetCompressionMode
+- ITraceRelogger.SetCompressionMode
 targetos: Windows
 req.typenames: 
 req.redist: 

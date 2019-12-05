@@ -1,19 +1,17 @@
 ---
 UID: NF:d2d1_1.ID2D1CommandList.Stream
 title: ID2D1CommandList::Stream (d2d1_1.h)
-
 description: Streams the contents of the command list to the specified command sink.
 old-location: direct2d\id2d1commandlist_stream.htm
 tech.root: Direct2D
 ms.assetid: 52e6da86-c7c6-48e7-b0ff-a54770663f14
-
 ms.date: 12/05/2018
 ms.keywords: ID2D1CommandList interface [Direct2D],Stream method, ID2D1CommandList.Stream, ID2D1CommandList::Stream, Stream, Stream method [Direct2D], Stream method [Direct2D],ID2D1CommandList interface, d2d1_1/ID2D1CommandList::Stream, direct2d.id2d1commandlist_stream
 ms.topic: method
-f1_keywords: 
- - "d2d1_1/ID2D1CommandList.Stream"
+f1_keywords:
+- d2d1_1/ID2D1CommandList.Stream
 dev_langs:
- - c++
+- c++
 req.header: d2d1_1.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: D2d1.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D2d1.dll
+- D2d1.dll
 api_name:
- - ID2D1CommandList.Stream
+- ID2D1CommandList.Stream
 targetos: Windows
 req.typenames: 
 req.redist: 

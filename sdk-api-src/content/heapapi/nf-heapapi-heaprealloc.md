@@ -1,19 +1,17 @@
 ---
 UID: NF:heapapi.HeapReAlloc
 title: HeapReAlloc function (heapapi.h)
-
 description: Reallocates a block of memory from a heap. This function enables you to resize a memory block and change other memory block properties.
 old-location: base\heaprealloc.htm
 tech.root: Memory
 ms.assetid: 21d711d9-3b16-4537-a830-1a2fa049a471
-
 ms.date: 12/05/2018
 ms.keywords: HEAP_GENERATE_EXCEPTIONS, HEAP_NO_SERIALIZE, HEAP_REALLOC_IN_PLACE_ONLY, HEAP_ZERO_MEMORY, HeapReAlloc, HeapReAlloc function, _win32_heaprealloc, base.heaprealloc, heapapi/HeapReAlloc, winbase/HeapReAlloc
 ms.topic: function
-f1_keywords: 
- - "heapapi/HeapReAlloc"
+f1_keywords:
+- heapapi/HeapReAlloc
 dev_langs:
- - c++
+- c++
 req.header: heapapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,19 +30,19 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-heap-l1-1-0.dll
- - KernelBase.dll
- - API-MS-Win-Core-heap-l1-2-0.dll
- - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
- - MinKernelBase.dll
+- Kernel32.dll
+- API-MS-Win-Core-heap-l1-1-0.dll
+- KernelBase.dll
+- API-MS-Win-Core-heap-l1-2-0.dll
+- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+- MinKernelBase.dll
 api_name:
- - HeapReAlloc
+- HeapReAlloc
 targetos: Windows
 req.typenames: 
 req.redist: 

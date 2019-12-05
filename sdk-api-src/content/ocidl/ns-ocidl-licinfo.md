@@ -1,19 +1,17 @@
 ---
 UID: NS:ocidl.tagLICINFO
 title: LICINFO (ocidl.h)
-
 description: Contains parameters that describe the licensing behavior of a class factory that supports licensing. The structure is filled by calling the IClassFactory2::GetLicInfo method.
 old-location: com\licinfo.htm
 tech.root: com
 ms.assetid: a90d82f3-8dc4-4b1d-81f7-9d3a19e74314
-
 ms.date: 12/05/2018
-ms.keywords: "*LPLICINFO, LICINFO, LICINFO structure [COM], LPLICINFO, LPLICINFO structure pointer [COM], _ctrl_LICINFO, com.licinfo, ocidl/LICINFO, ocidl/LPLICINFO"
+ms.keywords: '*LPLICINFO, LICINFO, LICINFO structure [COM], LPLICINFO, LPLICINFO structure pointer [COM], _ctrl_LICINFO, com.licinfo, ocidl/LICINFO, ocidl/LPLICINFO'
 ms.topic: struct
-f1_keywords: 
- - "ocidl/LICINFO"
+f1_keywords:
+- ocidl/LICINFO
 dev_langs:
- - c++
+- c++
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - OCIdl.h
+- OCIdl.h
 api_name:
- - LICINFO
+- LICINFO
 targetos: Windows
 req.typenames: LICINFO, *LPLICINFO
 req.redist: 

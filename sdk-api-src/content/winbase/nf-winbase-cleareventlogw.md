@@ -1,19 +1,17 @@
 ---
 UID: NF:winbase.ClearEventLogW
 title: ClearEventLogW function (winbase.h)
-
 description: Clears the specified event log, and optionally saves the current copy of the log to a backup file.
 old-location: base\cleareventlog.htm
 tech.root: EventLog
 ms.assetid: b66896f6-baee-43c4-9d9b-5663c164d092
-
 ms.date: 12/05/2018
 ms.keywords: ClearEventLog, ClearEventLog function, ClearEventLogA, ClearEventLogW, _win32_cleareventlog, base.cleareventlog, winbase/ClearEventLog, winbase/ClearEventLogA, winbase/ClearEventLogW
 ms.topic: function
-f1_keywords: 
- - "winbase/ClearEventLog"
+f1_keywords:
+- winbase/ClearEventLog
 dev_langs:
- - c++
+- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Advapi32.dll
- - Ext-Ms-Win-AdvAPI32-EventLog-Ansi-L1-1-0.dll
+- Advapi32.dll
+- Ext-Ms-Win-AdvAPI32-EventLog-Ansi-L1-1-0.dll
 api_name:
- - ClearEventLog
- - ClearEventLogA
- - ClearEventLogW
+- ClearEventLog
+- ClearEventLogA
+- ClearEventLogW
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:msctf.ITfThreadMgr2.Activate
 title: ITfThreadMgr2::Activate (msctf.h)
-
 description: Activates TSF for the calling thread.
 old-location: tsf\itfthreadmgr2_activate.htm
 tech.root: TSF
 ms.assetid: FD1548F5-15F6-4BBC-A7D1-B0F4B881D9F8
-
 ms.date: 12/05/2018
 ms.keywords: Activate, Activate method [Text Services Framework], Activate method [Text Services Framework],ITfThreadMgr2 interface, ITfThreadMgr2 interface [Text Services Framework],Activate method, ITfThreadMgr2.Activate, ITfThreadMgr2::Activate, msctf/ITfThreadMgr2::Activate, tsf.itfthreadmgr2_activate
 ms.topic: method
-f1_keywords: 
- - "msctf/ITfThreadMgr2.Activate"
+f1_keywords:
+- msctf/ITfThreadMgr2.Activate
 dev_langs:
- - c++
+- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msctf.h
+- msctf.h
 api_name:
- - ITfThreadMgr2.Activate
+- ITfThreadMgr2.Activate
 targetos: Windows
 req.typenames: 
 req.redist: 

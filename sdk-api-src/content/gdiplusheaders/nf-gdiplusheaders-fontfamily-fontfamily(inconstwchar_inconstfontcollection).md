@@ -1,19 +1,17 @@
 ---
 UID: NF:gdiplusheaders.FontFamily.FontFamily(IN const WCHAR,IN const FontCollection)
 title: FontFamily::FontFamily(IN const WCHAR,IN const FontCollection) (gdiplusheaders.h)
-
 description: Creates a FontFamily::FontFamily object based on a specified font family.
 old-location: gdiplus\_gdiplus_CLASS_FontFamily_FontFamily_name_fontCollection_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\fontfamilyclass\fontfamilyconstructors\fontfamily_44name_fontcollection.htm
-
 ms.date: 12/05/2018
 ms.keywords: FontFamily, FontFamily class [GDI+],FontFamily constructor, FontFamily constructor [GDI+], FontFamily constructor [GDI+],FontFamily class, FontFamily.FontFamily, FontFamily.FontFamily(IN const WCHAR,IN const FontCollection), FontFamily.FontFamily(const WCHAR*,const FontCollection*), FontFamily::FontFamily, FontFamily::FontFamily(IN const WCHAR,IN const FontCollection), _gdiplus_CLASS_FontFamily_FontFamily_name_fontCollection_, gdiplus._gdiplus_CLASS_FontFamily_FontFamily_name_fontCollection_
 ms.topic: method
-f1_keywords: 
- - "gdiplusheaders/FontFamily.FontFamily"
+f1_keywords:
+- gdiplusheaders/FontFamily.FontFamily
 dev_langs:
- - c++
+- c++
 req.header: gdiplusheaders.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - FontFamily.FontFamily
+- FontFamily.FontFamily
 targetos: Windows
 req.typenames: 
 req.redist: 

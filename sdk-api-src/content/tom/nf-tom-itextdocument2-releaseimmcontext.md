@@ -1,19 +1,17 @@
 ---
 UID: NF:tom.ITextDocument2.ReleaseImmContext
 title: ITextDocument2::ReleaseImmContext (tom.h)
-
 description: Releases an Input Method Manager (IMM) input context.
 old-location: controls\itextdocument2_releaseimmcontext.htm
 tech.root: Controls
 ms.assetid: 2172e20b-2343-4a65-a08e-0d8b8c101860
-
 ms.date: 12/05/2018
 ms.keywords: ITextDocument2 interface [Windows Controls],ReleaseImmContext method, ITextDocument2.ReleaseImmContext, ITextDocument2::ReleaseImmContext, ReleaseImmContext, ReleaseImmContext method [Windows Controls], ReleaseImmContext method [Windows Controls],ITextDocument2 interface, controls.itextdocument2_releaseimmcontext, tom/ITextDocument2::ReleaseImmContext
 ms.topic: method
-f1_keywords: 
- - "tom/ITextDocument2.ReleaseImmContext"
+f1_keywords:
+- tom/ITextDocument2.ReleaseImmContext
 dev_langs:
- - c++
+- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msftedit.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msftedit.dll
+- Msftedit.dll
 api_name:
- - ITextDocument2.ReleaseImmContext
+- ITextDocument2.ReleaseImmContext
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:wuapi.IInstallationAgent.RecordInstallationResult
 title: IInstallationAgent::RecordInstallationResult (wuapi.h)
-
 description: Records the result for an update. The result is specified by an IStringCollection object.
 old-location: wua\iinstallationagent_recordinstallationresult.htm
 tech.root: Wua_Sdk
 ms.assetid: E2DD54E3-741E-4647-9993-A9476279BD6C
-
 ms.date: 12/05/2018
 ms.keywords: IInstallationAgent interface [Windows Update Agent],RecordInstallationResult method, IInstallationAgent.RecordInstallationResult, IInstallationAgent::RecordInstallationResult, RecordInstallationResult, RecordInstallationResult method [Windows Update Agent], RecordInstallationResult method [Windows Update Agent],IInstallationAgent interface, wua.iinstallationagent_recordinstallationresult, wuapi/IInstallationAgent::RecordInstallationResult
 ms.topic: method
-f1_keywords: 
- - "wuapi/IInstallationAgent.RecordInstallationResult"
+f1_keywords:
+- wuapi/IInstallationAgent.RecordInstallationResult
 dev_langs:
- - c++
+- c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Wuguid.lib
 req.dll: Wuapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wuapi.dll
+- Wuapi.dll
 api_name:
- - IInstallationAgent.RecordInstallationResult
+- IInstallationAgent.RecordInstallationResult
 targetos: Windows
 req.typenames: 
 req.redist: 

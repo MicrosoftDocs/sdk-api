@@ -1,19 +1,17 @@
 ---
 UID: NE:uianimation.__MIDL___MIDL_itf_UIAnimation_0000_0010_0001
 title: UI_ANIMATION_DEPENDENCIES (uianimation.h)
-
 description: Defines which aspects of an interpolator depend on a given input.
 old-location: uianimation\ui_animation_dependencies.htm
 tech.root: UIAnimation
 ms.assetid: 3620723e-5c9b-4d6a-8576-9017fa449a5d
-
 ms.date: 12/05/2018
 ms.keywords: UI_ANIMATION_DEPENDENCIES, UI_ANIMATION_DEPENDENCIES enumeration [Windows Animation], UI_ANIMATION_DEPENDENCY_DURATION, UI_ANIMATION_DEPENDENCY_FINAL_VALUE, UI_ANIMATION_DEPENDENCY_FINAL_VELOCITY, UI_ANIMATION_DEPENDENCY_INTERMEDIATE_VALUES, UI_ANIMATION_DEPENDENCY_NONE, uianimation.ui_animation_dependencies, uianimation/UI_ANIMATION_DEPENDENCIES, uianimation/UI_ANIMATION_DEPENDENCY_DURATION, uianimation/UI_ANIMATION_DEPENDENCY_FINAL_VALUE, uianimation/UI_ANIMATION_DEPENDENCY_FINAL_VELOCITY, uianimation/UI_ANIMATION_DEPENDENCY_INTERMEDIATE_VALUES, uianimation/UI_ANIMATION_DEPENDENCY_NONE
 ms.topic: enum
-f1_keywords: 
- - "uianimation/UI_ANIMATION_DEPENDENCIES"
+f1_keywords:
+- uianimation/UI_ANIMATION_DEPENDENCIES
 dev_langs:
- - c++
+- c++
 req.header: uianimation.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - UIAnimation.h
+- UIAnimation.h
 api_name:
- - UI_ANIMATION_DEPENDENCIES
+- UI_ANIMATION_DEPENDENCIES
 targetos: Windows
 req.typenames: UI_ANIMATION_DEPENDENCIES
 req.redist: 

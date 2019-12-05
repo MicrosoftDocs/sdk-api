@@ -1,19 +1,17 @@
 ---
 UID: NF:ntmsapi.DecommissionNtmsMedia
 title: DecommissionNtmsMedia function (ntmsapi.h)
-
 description: The DecommissionNtmsMedia function moves a side from the Available state to the Decommissioned state.
 old-location: fs\decommissionntmsmedia.htm
 tech.root: Rsm
 ms.assetid: 2bb1a54b-6308-4ccd-9fc6-1b11f4432a3f
-
 ms.date: 12/05/2018
 ms.keywords: DecommissionNtmsMedia, DecommissionNtmsMedia function [Files], _zaw_decommissionntmsmedia, base.decommissionntmsmedia, fs.decommissionntmsmedia, ntmsapi/DecommissionNtmsMedia
 ms.topic: function
-f1_keywords: 
- - "ntmsapi/DecommissionNtmsMedia"
+f1_keywords:
+- ntmsapi/DecommissionNtmsMedia
 dev_langs:
- - c++
+- c++
 req.header: ntmsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Ntmsapi.lib
 req.dll: Ntmsapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ntmsapi.dll
+- Ntmsapi.dll
 api_name:
- - DecommissionNtmsMedia
+- DecommissionNtmsMedia
 targetos: Windows
 req.typenames: 
 req.redist: 

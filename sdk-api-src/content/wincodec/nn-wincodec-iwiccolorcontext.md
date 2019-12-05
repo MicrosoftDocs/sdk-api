@@ -1,19 +1,17 @@
 ---
 UID: NN:wincodec.IWICColorContext
 title: IWICColorContext (wincodec.h)
-
 description: Exposes methods for color management.
 old-location: wic\_wic_codec_iwiccolorcontext.htm
 tech.root: wic
 ms.assetid: b6817676-affb-4bb3-adba-e24e0b75ad10
-
 ms.date: 12/05/2018
 ms.keywords: IWICColorContext, IWICColorContext interface [Windows Imaging Component], IWICColorContext interface [Windows Imaging Component],described, _wic_codec_iwiccolorcontext, wic._wic_codec_iwiccolorcontext, wincodec/IWICColorContext
 ms.topic: interface
-f1_keywords: 
- - "wincodec/IWICColorContext"
+f1_keywords:
+- wincodec/IWICColorContext
 dev_langs:
- - c++
+- c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Windowscodecs.lib
 req.dll: Windowscodecs.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Windowscodecs.dll
+- Windowscodecs.dll
 api_name:
- - IWICColorContext
+- IWICColorContext
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:imapi2.IDiscFormat2Data.get_LastWrittenAddressOfPreviousSession
 title: IDiscFormat2Data::get_LastWrittenAddressOfPreviousSession (imapi2.h)
-
 description: Retrieves the last sector of the previous write session.
 old-location: imapi\idiscformat2data_get_lastwrittenaddressofprevioussession.htm
 tech.root: imapi
 ms.assetid: cfc9ba42-25a2-49a3-8047-7aaf331332ad
-
 ms.date: 12/05/2018
 ms.keywords: IDiscFormat2Data interface [IMAPI],get_LastWrittenAddressOfPreviousSession method, IDiscFormat2Data.get_LastWrittenAddressOfPreviousSession, IDiscFormat2Data::get_LastWrittenAddressOfPreviousSession, get_LastWrittenAddressOfPreviousSession, get_LastWrittenAddressOfPreviousSession method [IMAPI], get_LastWrittenAddressOfPreviousSession method [IMAPI],IDiscFormat2Data interface, imapi.idiscformat2data_get_lastwrittenaddressofprevioussession, imapi2/IDiscFormat2Data::get_LastWrittenAddressOfPreviousSession
 ms.topic: method
-f1_keywords: 
- - "imapi2/IDiscFormat2Data.get_LastWrittenAddressOfPreviousSession"
+f1_keywords:
+- imapi2/IDiscFormat2Data.get_LastWrittenAddressOfPreviousSession
 dev_langs:
- - c++
+- c++
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - imapi2.h
+- imapi2.h
 api_name:
- - IDiscFormat2Data.get_LastWrittenAddressOfPreviousSession
+- IDiscFormat2Data.get_LastWrittenAddressOfPreviousSession
 targetos: Windows
 req.typenames: 
 req.redist: 

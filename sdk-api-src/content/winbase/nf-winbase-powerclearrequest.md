@@ -1,19 +1,17 @@
 ---
 UID: NF:winbase.PowerClearRequest
 title: PowerClearRequest function (winbase.h)
-
 description: Decrements the count of power requests of the specified type for a power request object.
 old-location: base\powerclearrequest.htm
 tech.root: power
 ms.assetid: 794248b1-5aa8-495e-aca6-1a1f35dc9c7f
-
 ms.date: 12/05/2018
 ms.keywords: PowerClearRequest, PowerClearRequest function, PowerRequestAwayModeRequired, PowerRequestDisplayRequired, PowerRequestExecutionRequired, PowerRequestSystemRequired, base.powerclearrequest, winbase/PowerClearRequest
 ms.topic: function
-f1_keywords: 
- - "winbase/PowerClearRequest"
+f1_keywords:
+- winbase/PowerClearRequest
 dev_langs:
- - c++
+- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,20 +30,20 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - kernel32.dll
- - API-MS-Win-Core-Kernel32-Legacy-l1-1-1.dll
- - kernel32legacy.dll
- - API-MS-Win-Core-Kernel32-Legacy-l1-1-2.dll
- - API-MS-Win-Core-Kernel32-Legacy-L1-1-3.dll
- - API-MS-Win-Core-Kernel32-Legacy-L1-1-4.dll
- - API-MS-Win-Core-Kernel32-Legacy-L1-1-5.dll
+- kernel32.dll
+- API-MS-Win-Core-Kernel32-Legacy-l1-1-1.dll
+- kernel32legacy.dll
+- API-MS-Win-Core-Kernel32-Legacy-l1-1-2.dll
+- API-MS-Win-Core-Kernel32-Legacy-L1-1-3.dll
+- API-MS-Win-Core-Kernel32-Legacy-L1-1-4.dll
+- API-MS-Win-Core-Kernel32-Legacy-L1-1-5.dll
 api_name:
- - PowerClearRequest
+- PowerClearRequest
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:winuser.TrackPopupMenuEx
 title: TrackPopupMenuEx function (winuser.h)
-
 description: Displays a shortcut menu at the specified location and tracks the selection of items on the shortcut menu. The shortcut menu can appear anywhere on the screen.
 old-location: menurc\trackpopupmenuex.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\menus\menureference\menufunctions\trackpopupmenuex.htm
-
 ms.date: 12/05/2018
 ms.keywords: TPM_BOTTOMALIGN, TPM_CENTERALIGN, TPM_HORIZONTAL, TPM_HORNEGANIMATION, TPM_HORPOSANIMATION, TPM_LEFTALIGN, TPM_LEFTBUTTON, TPM_NOANIMATION, TPM_NONOTIFY, TPM_RETURNCMD, TPM_RIGHTALIGN, TPM_RIGHTBUTTON, TPM_TOPALIGN, TPM_VCENTERALIGN, TPM_VERNEGANIMATION, TPM_VERPOSANIMATION, TPM_VERTICAL, TrackPopupMenuEx, TrackPopupMenuEx function [Menus and Other Resources], _win32_TrackPopupMenuEx, _win32_trackpopupmenuex_cpp, menurc.trackpopupmenuex, winui._win32_trackpopupmenuex, winuser/TrackPopupMenuEx
 ms.topic: function
-f1_keywords: 
- - "winuser/TrackPopupMenuEx"
+f1_keywords:
+- winuser/TrackPopupMenuEx
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - User32.dll
- - Ext-MS-Win-NTUser-Menu-l1-1-1.dll
- - ext-ms-win-ntuser-menu-l1-1-2.dll
- - Ext-MS-Win-NTUser-Menu-L1-1-3.dll
+- User32.dll
+- Ext-MS-Win-NTUser-Menu-l1-1-1.dll
+- ext-ms-win-ntuser-menu-l1-1-2.dll
+- Ext-MS-Win-NTUser-Menu-L1-1-3.dll
 api_name:
- - TrackPopupMenuEx
+- TrackPopupMenuEx
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:windows.ui.xaml.hosting.referencetracker.IReferenceTracker.ConnectFromTrackerSource
 title: IReferenceTracker::xaml (windows.ui.xaml.hosting.referencetracker.h)
-
 description: Indicates that a reference tracker source has created its first COM reference on a reference tracker object.
 old-location: winrt\ireferencetracker_connectfromtrackersource.htm
 tech.root: WinRT
 ms.assetid: 7c5a0eaf-01a9-476c-8c71-1c817aa41fae
-
 ms.date: 12/05/2018
 ms.keywords: ConnectFromTrackerSource, ConnectFromTrackerSource method [Windows Runtime], ConnectFromTrackerSource method [Windows Runtime],IReferenceTracker interface, IReferenceTracker interface [Windows Runtime],ConnectFromTrackerSource method, IReferenceTracker.ConnectFromTrackerSource, IReferenceTracker.xaml, IReferenceTracker::ConnectFromTrackerSource, IReferenceTracker::xaml, windows/IReferenceTracker::ConnectFromTrackerSource, winrt.ireferencetracker_connectfromtrackersource
 ms.topic: method
-f1_keywords: 
- - "windows.ui.xaml.hosting.referencetracker/IReferenceTracker.ConnectFromTrackerSource"
+f1_keywords:
+- windows.ui.xaml.hosting.referencetracker/IReferenceTracker.ConnectFromTrackerSource
 dev_langs:
- - c++
+- c++
 req.header: windows.ui.xaml.hosting.referencetracker.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Windows.ui.xaml.hosting.referencetracker.h
+- Windows.ui.xaml.hosting.referencetracker.h
 api_name:
- - IReferenceTracker.ConnectFromTrackerSource
+- IReferenceTracker.ConnectFromTrackerSource
 targetos: Windows
 req.typenames: 
 req.redist: 

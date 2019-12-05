@@ -1,19 +1,17 @@
 ---
 UID: NF:pla.IDataCollectorSet.get_RootPath
 title: IDataCollectorSet::get_RootPath (pla.h)
-
 description: Retrieves or sets the base path where the subdirectories are created.
 old-location: pla\idatacollectorset_get_rootpath.htm
 tech.root: PLA
 ms.assetid: 42940cec-c76a-433c-9308-f030dacb05a4
-
 ms.date: 12/05/2018
 ms.keywords: IDataCollectorSet interface [PLA],RootPath property, IDataCollectorSet.RootPath, IDataCollectorSet.get_RootPath, IDataCollectorSet::RootPath, IDataCollectorSet::get_RootPath, IDataCollectorSet::put_RootPath, RootPath property [PLA], RootPath property [PLA],IDataCollectorSet interface, base.idatacollectorset_get_rootpath, get_RootPath, pla.idatacollectorset_get_rootpath, pla/IDataCollectorSet::RootPath, pla/IDataCollectorSet::get_RootPath, pla/IDataCollectorSet::put_RootPath
 ms.topic: method
-f1_keywords: 
- - "pla/IDataCollectorSet.RootPath"
+f1_keywords:
+- pla/IDataCollectorSet.RootPath
 dev_langs:
- - c++
+- c++
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: Pla.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Pla.dll
+- Pla.dll
 api_name:
- - IDataCollectorSet.RootPath
- - IDataCollectorSet.get_RootPath
- - IDataCollectorSet.put_RootPath
+- IDataCollectorSet.RootPath
+- IDataCollectorSet.get_RootPath
+- IDataCollectorSet.put_RootPath
 targetos: Windows
 req.typenames: 
 req.redist: 

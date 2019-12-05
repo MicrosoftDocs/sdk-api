@@ -1,19 +1,17 @@
 ---
 UID: NF:termmgr.ITPluggableTerminalClassRegistration.put_Company
 title: ITPluggableTerminalClassRegistration::put_Company (termmgr.h)
-
 description: The put_Company method sets the name of the company that issued this pluggable terminal.
 old-location: tapi3\itpluggableterminalclassregistration_put_company.htm
 tech.root: Tapi
 ms.assetid: e68539dc-0ebe-41f7-a9fe-941e2f941225
-
 ms.date: 12/05/2018
 ms.keywords: ITPluggableTerminalClassRegistration interface [TAPI 2.2],put_Company method, ITPluggableTerminalClassRegistration.put_Company, ITPluggableTerminalClassRegistration::put_Company, _tapi3_itpluggableterminalclassregistration_put_company, put_Company, put_Company method [TAPI 2.2], put_Company method [TAPI 2.2],ITPluggableTerminalClassRegistration interface, tapi3.itpluggableterminalclassregistration_put_company, termmgr/ITPluggableTerminalClassRegistration::put_Company
 ms.topic: method
-f1_keywords: 
- - "termmgr/ITPluggableTerminalClassRegistration.put_Company"
+f1_keywords:
+- termmgr/ITPluggableTerminalClassRegistration.put_Company
 dev_langs:
- - c++
+- c++
 req.header: termmgr.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Tapi3.dll
+- Tapi3.dll
 api_name:
- - ITPluggableTerminalClassRegistration.put_Company
+- ITPluggableTerminalClassRegistration.put_Company
 targetos: Windows
 req.typenames: 
 req.redist: 

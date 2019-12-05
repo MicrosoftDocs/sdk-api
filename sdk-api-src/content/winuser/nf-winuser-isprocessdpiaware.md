@@ -1,19 +1,17 @@
 ---
 UID: NF:winuser.IsProcessDPIAware
 title: IsProcessDPIAware function (winuser.h)
-
 description: IsProcessDPIAware may be altered or unavailable. Instead, use GetProcessDPIAwareness.
 old-location: winmsg\isprocessdpiaware.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowfunctions\isprocessdpiaware.htm
-
 ms.date: 12/05/2018
 ms.keywords: IsProcessDPIAware, IsProcessDPIAware function [Windows and Messages], _win32_IsProcessDPIAware, _win32_isprocessdpiaware_cpp, winmsg.isprocessdpiaware, winui._win32_isprocessdpiaware, winuser/IsProcessDPIAware
 ms.topic: function
-f1_keywords: 
- - "winuser/IsProcessDPIAware"
+f1_keywords:
+- winuser/IsProcessDPIAware
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - User32.dll
- - Ext-MS-Win-RTCore-NTUser-sysparams-l1-1-0.dll
- - minuser.dll
+- User32.dll
+- Ext-MS-Win-RTCore-NTUser-sysparams-l1-1-0.dll
+- minuser.dll
 api_name:
- - IsProcessDPIAware
+- IsProcessDPIAware
 targetos: Windows
 req.typenames: 
 req.redist: 

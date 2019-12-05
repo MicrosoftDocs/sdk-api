@@ -1,19 +1,17 @@
 ---
 UID: NF:imapi2.IDiscFormat2RawCD.get_Recorder
 title: IDiscFormat2RawCD::get_Recorder (imapi2.h)
-
 description: Retrieves the recording device to use for the write operation.
 old-location: imapi\idiscformat2rawcd_get_recorder.htm
 tech.root: imapi
 ms.assetid: 1f36e5b5-4875-4ba1-8084-c0aaf6b170b9
-
 ms.date: 12/05/2018
 ms.keywords: IDiscFormat2RawCD interface [IMAPI],get_Recorder method, IDiscFormat2RawCD.get_Recorder, IDiscFormat2RawCD::get_Recorder, get_Recorder, get_Recorder method [IMAPI], get_Recorder method [IMAPI],IDiscFormat2RawCD interface, imapi.idiscformat2rawcd_get_recorder, imapi2/IDiscFormat2RawCD::get_Recorder
 ms.topic: method
-f1_keywords: 
- - "imapi2/IDiscFormat2RawCD.get_Recorder"
+f1_keywords:
+- imapi2/IDiscFormat2RawCD.get_Recorder
 dev_langs:
- - c++
+- c++
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - imapi2.h
+- imapi2.h
 api_name:
- - IDiscFormat2RawCD.get_Recorder
+- IDiscFormat2RawCD.get_Recorder
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:sbtsv.ITsSbPluginNotifySink.OnTerminated
 title: ITsSbPluginNotifySink::OnTerminated (sbtsv.h)
-
 description: Notifies Remote Desktop Connection Broker (RD Connection Broker) that the plug-in has completed a call of Terminate.
 old-location: termserv\itssbpluginnotifysink_onterminated.htm
 tech.root: TermServ
 ms.assetid: 554139f5-dd20-4bca-8eae-4621535616e6
-
 ms.date: 12/05/2018
 ms.keywords: ITsSbPluginNotifySink interface [Remote Desktop Services],OnTerminated method, ITsSbPluginNotifySink.OnTerminated, ITsSbPluginNotifySink::OnTerminated, OnTerminated, OnTerminated method [Remote Desktop Services], OnTerminated method [Remote Desktop Services],ITsSbPluginNotifySink interface, sbtsv/ITsSbPluginNotifySink::OnTerminated, termserv.itssbpluginnotifysink_onterminated
 ms.topic: method
-f1_keywords: 
- - "sbtsv/ITsSbPluginNotifySink.OnTerminated"
+f1_keywords:
+- sbtsv/ITsSbPluginNotifySink.OnTerminated
 dev_langs:
- - c++
+- c++
 req.header: sbtsv.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - sbtsv.h
+- sbtsv.h
 api_name:
- - ITsSbPluginNotifySink.OnTerminated
+- ITsSbPluginNotifySink.OnTerminated
 targetos: Windows
 req.typenames: 
 req.redist: 

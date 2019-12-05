@@ -1,19 +1,17 @@
 ---
 UID: NF:winuser.SetWindowRgn
 title: SetWindowRgn function (winuser.h)
-
 description: The SetWindowRgn function sets the window region of a window.
 old-location: gdi\setwindowrgn.htm
 tech.root: gdi
 ms.assetid: 06209d0c-14f9-45ec-ae2c-9cc596b5bbaa
-
 ms.date: 12/05/2018
 ms.keywords: SetWindowRgn, SetWindowRgn function [Windows GDI], _win32_SetWindowRgn, gdi.setwindowrgn, winuser/SetWindowRgn
 ms.topic: function
-f1_keywords: 
- - "winuser/SetWindowRgn"
+f1_keywords:
+- winuser/SetWindowRgn
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - user32.dll
- - Ext-MS-Win-NTUser-Draw-l1-1-0.dll
- - Ext-MS-Win-NTUser-Draw-l1-1-1.dll
- - ext-ms-win-ntuser-draw-l1-1-2.dll
+- user32.dll
+- Ext-MS-Win-NTUser-Draw-l1-1-0.dll
+- Ext-MS-Win-NTUser-Draw-l1-1-1.dll
+- ext-ms-win-ntuser-draw-l1-1-2.dll
 api_name:
- - SetWindowRgn
+- SetWindowRgn
 targetos: Windows
 req.typenames: 
 req.redist: 

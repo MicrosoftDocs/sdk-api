@@ -1,19 +1,17 @@
 ---
 UID: NF:webservices.WsWriteQualifiedName
 title: WsWriteQualifiedName function (webservices.h)
-
 description: Writes an XML qualified name to the Writer.
 old-location: wsw\wswritequalifiedname.htm
 tech.root: wsw
 ms.assetid: 1e0f6419-ef76-4465-bd1d-a92f4bf11903
-
 ms.date: 12/05/2018
 ms.keywords: WsWriteQualifiedName, WsWriteQualifiedName function [Web Services for Windows], webservices/WsWriteQualifiedName, wsw.wswritequalifiedname
 ms.topic: function
-f1_keywords: 
- - "webservices/WsWriteQualifiedName"
+f1_keywords:
+- webservices/WsWriteQualifiedName
 dev_langs:
- - c++
+- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: WebServices.lib
 req.dll: WebServices.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - WebServices.dll
+- WebServices.dll
 api_name:
- - WsWriteQualifiedName
+- WsWriteQualifiedName
 targetos: Windows
 req.typenames: 
 req.redist: 

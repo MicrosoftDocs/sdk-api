@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi3if.ITLegacyCallMediaControl2.GetIDAsVariant
 title: ITLegacyCallMediaControl2::GetIDAsVariant (tapi3if.h)
-
 description: The GetIDAsVariant method gets the identifier for the device associated with the current call.
 old-location: tapi3\itlegacycallmediacontrol2_getidasvariant.htm
 tech.root: Tapi
 ms.assetid: 6c28889f-3768-4136-ac73-80c6c5ffeac3
-
 ms.date: 12/05/2018
 ms.keywords: GetIDAsVariant, GetIDAsVariant method [TAPI 2.2], GetIDAsVariant method [TAPI 2.2],ITLegacyCallMediaControl2 interface, ITLegacyCallMediaControl2 interface [TAPI 2.2],GetIDAsVariant method, ITLegacyCallMediaControl2.GetIDAsVariant, ITLegacyCallMediaControl2::GetIDAsVariant, _tapi3_itlegacycallmediacontrol2_getidasvariant, tapi3.itlegacycallmediacontrol2_getidasvariant, tapi3if/ITLegacyCallMediaControl2::GetIDAsVariant
 ms.topic: method
-f1_keywords: 
- - "tapi3if/ITLegacyCallMediaControl2.GetIDAsVariant"
+f1_keywords:
+- tapi3if/ITLegacyCallMediaControl2.GetIDAsVariant
 dev_langs:
- - c++
+- c++
 req.header: tapi3if.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Tapi3.dll
+- Tapi3.dll
 api_name:
- - ITLegacyCallMediaControl2.GetIDAsVariant
+- ITLegacyCallMediaControl2.GetIDAsVariant
 targetos: Windows
 req.typenames: 
 req.redist: 

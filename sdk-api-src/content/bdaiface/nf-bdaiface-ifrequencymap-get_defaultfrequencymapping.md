@@ -1,19 +1,17 @@
 ---
 UID: NF:bdaiface.IFrequencyMap.get_DefaultFrequencyMapping
 title: IFrequencyMap::get_DefaultFrequencyMapping (bdaiface.h)
-
 description: The get_DefaultFrequencyMapping method returns the default frequency table for a given country/region code.
 old-location: mstv\ifrequencymap_get_defaultfrequencymapping.htm
 tech.root: mstv
 ms.assetid: 67057c70-cb4d-4828-ad97-cf0181bd8cfe
-
 ms.date: 12/05/2018
 ms.keywords: IFrequencyMap interface [Microsoft TV Technologies],get_DefaultFrequencyMapping method, IFrequencyMap.get_DefaultFrequencyMapping, IFrequencyMap::get_DefaultFrequencyMapping, IFrequencyMapget_DefaultMapping, bdaiface/IFrequencyMap::get_DefaultFrequencyMapping, get_DefaultFrequencyMapping, get_DefaultFrequencyMapping method [Microsoft TV Technologies], get_DefaultFrequencyMapping method [Microsoft TV Technologies],IFrequencyMap interface, mstv.ifrequencymap_get_defaultfrequencymapping
 ms.topic: method
-f1_keywords: 
- - "bdaiface/IFrequencyMap.get_DefaultFrequencyMapping"
+f1_keywords:
+- bdaiface/IFrequencyMap.get_DefaultFrequencyMapping
 dev_langs:
- - c++
+- c++
 req.header: bdaiface.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - bdaiface.h
+- bdaiface.h
 api_name:
- - IFrequencyMap.get_DefaultFrequencyMapping
+- IFrequencyMap.get_DefaultFrequencyMapping
 targetos: Windows
 req.typenames: 
 req.redist: 

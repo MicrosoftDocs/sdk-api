@@ -1,19 +1,17 @@
 ---
 UID: NF:setupapi.SetupDiSetClassPropertyExW
 title: SetupDiSetClassPropertyExW function (setupapi.h)
-
 description: The SetupDiSetClassPropertyEx function sets a device property for a device setup class or a device interface class on a local or remote computer.
 old-location: devinst\setupdisetclasspropertyex.htm
 tech.root: devinst
 ms.assetid: 99b58da2-0398-4dc1-8c9e-0eefaf03bf91
-
 ms.date: 12/05/2018
 ms.keywords: SetupDiSetClassPropertyEx, SetupDiSetClassPropertyEx function [Device and Driver Installation], SetupDiSetClassPropertyExW, devinst.setupdisetclasspropertyex, di-rtns_1366f35d-3801-4b88-b8e3-9ea25292558e.xml, setupapi/SetupDiSetClassPropertyEx
 ms.topic: function
 f1_keywords:
 - setupapi/SetupDiSetClassPropertyEx
 dev_langs:
- - c++
+- c++
 req.header: setupapi.h
 req.include-header: Setupapi.h
 req.target-type: Desktop

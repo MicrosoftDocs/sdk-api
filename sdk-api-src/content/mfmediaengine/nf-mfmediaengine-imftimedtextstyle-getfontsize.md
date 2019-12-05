@@ -1,19 +1,17 @@
 ---
 UID: NF:mfmediaengine.IMFTimedTextStyle.GetFontSize
 title: IMFTimedTextStyle::GetFontSize (mfmediaengine.h)
-
 description: Gets the font size of the timed-text style.
 old-location: mf\imftimedtextstyle_getfontsize.htm
 tech.root: medfound
 ms.assetid: A640F042-80BE-4454-B974-F7D076E72737
-
 ms.date: 12/05/2018
 ms.keywords: GetFontSize, GetFontSize method [Media Foundation], GetFontSize method [Media Foundation],IMFTimedTextStyle interface, IMFTimedTextStyle interface [Media Foundation],GetFontSize method, IMFTimedTextStyle.GetFontSize, IMFTimedTextStyle::GetFontSize, mf.imftimedtextstyle_getfontsize, mfmediaengine/IMFTimedTextStyle::GetFontSize
 ms.topic: method
-f1_keywords: 
- - "mfmediaengine/IMFTimedTextStyle.GetFontSize"
+f1_keywords:
+- mfmediaengine/IMFTimedTextStyle.GetFontSize
 dev_langs:
- - c++
+- c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfmediaengine.h
+- mfmediaengine.h
 api_name:
- - IMFTimedTextStyle.GetFontSize
+- IMFTimedTextStyle.GetFontSize
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:mswmdm.IWMDMOperation.BeginRead
 title: IWMDMOperation::BeginRead (mswmdm.h)
-
 description: The BeginRead method indicates that a &#0034;read from device&#0034; action is beginning. Windows Media Device Manager only calls this method if the application calls IWMDMStorageControl::Read and passes in this IWMDMOperation interface.
 old-location: wmdm\iwmdmoperation_beginread.htm
 tech.root: WMDM
 ms.assetid: e72caaac-8992-4f11-8020-0455b3d730ad
-
 ms.date: 12/05/2018
 ms.keywords: BeginRead, BeginRead method [windows Media Device Manager], BeginRead method [windows Media Device Manager],IWMDMOperation interface, IWMDMOperation interface [windows Media Device Manager],BeginRead method, IWMDMOperation.BeginRead, IWMDMOperation::BeginRead, IWMDMOperationBeginRead, mswmdm/IWMDMOperation::BeginRead, wmdm.iwmdmoperation_beginread
 ms.topic: method
-f1_keywords: 
- - "mswmdm/IWMDMOperation.BeginRead"
+f1_keywords:
+- mswmdm/IWMDMOperation.BeginRead
 dev_langs:
- - c++
+- c++
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mssachlp.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mssachlp.lib
- - mssachlp.dll
+- mssachlp.lib
+- mssachlp.dll
 api_name:
- - IWMDMOperation.BeginRead
+- IWMDMOperation.BeginRead
 targetos: Windows
 req.typenames: 
 req.redist: 

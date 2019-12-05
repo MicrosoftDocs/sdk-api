@@ -1,19 +1,17 @@
 ---
 UID: NF:msinkaut.IInkCursorButtons.get_Count
 title: IInkCursorButtons::get_Count (msinkaut.h)
-
 description: Gets the number of objects or collections contained in a collection.
 old-location: tablet\iinkcursorbuttons_count.htm
 tech.root: tablet
 ms.assetid: 4c22d9bf-51a9-4c30-9e5d-ea166fce8bc8
-
 ms.date: 12/05/2018
 ms.keywords: 4c22d9bf-51a9-4c30-9e5d-ea166fce8bc8, Count property [Tablet PC], Count property [Tablet PC],IInkCursorButtons interface, IInkCursorButtons interface [Tablet PC],Count property, IInkCursorButtons.Count, IInkCursorButtons.get_Count, IInkCursorButtons::Count, IInkCursorButtons::get_Count, get_Count, msinkaut/IInkCursorButtons::Count, msinkaut/IInkCursorButtons::get_Count, tablet.iinkcursorbuttons_count
 ms.topic: method
-f1_keywords: 
- - "msinkaut/IInkCursorButtons.Count"
+f1_keywords:
+- msinkaut/IInkCursorButtons.Count
 dev_langs:
- - c++
+- c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: InkObj.dll
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - InkObj.dll
- - InkObj.dll.dll
+- InkObj.dll
+- InkObj.dll.dll
 api_name:
- - IInkCursorButtons.Count
- - IInkCursorButtons.get_Count
- - IInkCursorButtons.get_Count
+- IInkCursorButtons.Count
+- IInkCursorButtons.get_Count
+- IInkCursorButtons.get_Count
 targetos: Windows
 req.typenames: 
 req.redist: 

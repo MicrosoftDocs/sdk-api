@@ -1,19 +1,17 @@
 ---
 UID: NS:wingdi.tagEMRGDICOMMENT
 title: EMRGDICOMMENT (wingdi.h)
-
 description: The EMRGDICOMMENT structure contains application-specific data.
 old-location: gdi\emrgdicomment.htm
 tech.root: gdi
 ms.assetid: aac18154-bd50-45a4-a1ba-390b59525fa9
-
 ms.date: 12/05/2018
-ms.keywords: "*PEMRGDICOMMENT, EMRGDICOMMENT, EMRGDICOMMENT structure [Windows GDI], PEMRGDICOMMENT, PEMRGDICOMMENT structure pointer [Windows GDI], _win32_EMRGDICOMMENT_str, gdi.emrgdicomment, wingdi/EMRGDICOMMENT, wingdi/PEMRGDICOMMENT"
+ms.keywords: '*PEMRGDICOMMENT, EMRGDICOMMENT, EMRGDICOMMENT structure [Windows GDI], PEMRGDICOMMENT, PEMRGDICOMMENT structure pointer [Windows GDI], _win32_EMRGDICOMMENT_str, gdi.emrgdicomment, wingdi/EMRGDICOMMENT, wingdi/PEMRGDICOMMENT'
 ms.topic: struct
-f1_keywords: 
- - "wingdi/EMRGDICOMMENT"
+f1_keywords:
+- wingdi/EMRGDICOMMENT
 dev_langs:
- - c++
+- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wingdi.h
+- Wingdi.h
 api_name:
- - EMRGDICOMMENT
+- EMRGDICOMMENT
 targetos: Windows
 req.typenames: EMRGDICOMMENT, *PEMRGDICOMMENT
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:combaseapi.CreateStreamOnHGlobal
 title: CreateStreamOnHGlobal function (combaseapi.h)
-
 description: Creates a stream object that uses an HGLOBAL memory handle to store the stream contents.
 old-location: stg\createstreamonhglobal.htm
 tech.root: Stg
 ms.assetid: 413c107b-a943-4c02-9c00-aea708e876d7
-
 ms.date: 12/05/2018
 ms.keywords: CreateStreamOnHGlobal, CreateStreamOnHGlobal function [Structured Storage], _stg_createstreamonhglobal, combaseapi/CreateStreamOnHGlobal, stg.createstreamonhglobal
 ms.topic: function
-f1_keywords: 
- - "combaseapi/CreateStreamOnHGlobal"
+f1_keywords:
+- combaseapi/CreateStreamOnHGlobal
 dev_langs:
- - c++
+- c++
 req.header: combaseapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,19 +30,19 @@ req.lib: Ole32.lib
 req.dll: Ole32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ole32.dll
- - API-MS-Win-Core-Com-l1-1-0.dll
- - ComBase.dll
- - API-MS-Win-Core-Com-l1-1-1.dll
- - API-MS-Win-DownLevel-Ole32-l1-1-0.dll
- - API-MS-Win-DownLevel-Ole32-l1-1-1.dll
+- Ole32.dll
+- API-MS-Win-Core-Com-l1-1-0.dll
+- ComBase.dll
+- API-MS-Win-Core-Com-l1-1-1.dll
+- API-MS-Win-DownLevel-Ole32-l1-1-0.dll
+- API-MS-Win-DownLevel-Ole32-l1-1-1.dll
 api_name:
- - CreateStreamOnHGlobal
+- CreateStreamOnHGlobal
 targetos: Windows
 req.typenames: 
 req.redist: 

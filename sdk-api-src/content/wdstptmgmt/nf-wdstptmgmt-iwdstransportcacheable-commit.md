@@ -1,19 +1,17 @@
 ---
 UID: NF:wdstptmgmt.IWdsTransportCacheable.Commit
 title: IWdsTransportCacheable::Commit (wdstptmgmt.h)
-
 description: Commits object data members to the underlying data store if the IWdsTransportCacheable::Dirty property has been set. Otherwise, the method returns with no action.
 old-location: wds\iwdstransportcacheable_commit.htm
 tech.root: wds
 ms.assetid: bd651e56-3945-48ca-a490-e20db88eb2fb
-
 ms.date: 12/05/2018
 ms.keywords: Commit, Commit method [Windows Deployment Services], Commit method [Windows Deployment Services],IWdsTransportCacheable interface, IWdsTransportCacheable interface [Windows Deployment Services],Commit method, IWdsTransportCacheable.Commit, IWdsTransportCacheable::Commit, wds.iwdstransportcacheable_commit, wdstptmgmt/IWdsTransportCacheable::Commit
 ms.topic: method
-f1_keywords: 
- - "wdstptmgmt/IWdsTransportCacheable.Commit"
+f1_keywords:
+- wdstptmgmt/IWdsTransportCacheable.Commit
 dev_langs:
- - c++
+- c++
 req.header: wdstptmgmt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wdstptmgmt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wdstptmgmt.dll
+- Wdstptmgmt.dll
 api_name:
- - IWdsTransportCacheable.Commit
+- IWdsTransportCacheable.Commit
 targetos: Windows
 req.typenames: 
 req.redist: 

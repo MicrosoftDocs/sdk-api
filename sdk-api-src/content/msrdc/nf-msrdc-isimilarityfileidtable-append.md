@@ -1,19 +1,17 @@
 ---
 UID: NF:msrdc.ISimilarityFileIdTable.Append
 title: ISimilarityFileIdTable::Append (msrdc.h)
-
 description: Adds the file ID to the similarity file ID table.
 old-location: rdc\isimilarityfileidtable_append.htm
 tech.root: rdc
 ms.assetid: 2157d6e6-0d60-45a2-9f5c-4096088cb2bb
-
 ms.date: 12/05/2018
 ms.keywords: Append, Append method [Remote Differential Compression], Append method [Remote Differential Compression],ISimilarityFileIdTable interface, ISimilarityFileIdTable interface [Remote Differential Compression],Append method, ISimilarityFileIdTable.Append, ISimilarityFileIdTable::Append, fs.isimilarityfileidtable_append, msrdc/ISimilarityFileIdTable::Append, rdc.isimilarityfileidtable_append
 ms.topic: method
-f1_keywords: 
- - "msrdc/ISimilarityFileIdTable.Append"
+f1_keywords:
+- msrdc/ISimilarityFileIdTable.Append
 dev_langs:
- - c++
+- c++
 req.header: msrdc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: MsRdc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - MsRdc.dll
+- MsRdc.dll
 api_name:
- - ISimilarityFileIdTable.Append
+- ISimilarityFileIdTable.Append
 targetos: Windows
 req.typenames: 
 req.redist: 

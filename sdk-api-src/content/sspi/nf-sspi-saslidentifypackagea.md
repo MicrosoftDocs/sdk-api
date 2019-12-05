@@ -1,19 +1,17 @@
 ---
 UID: NF:sspi.SaslIdentifyPackageA
 title: SaslIdentifyPackageA function (sspi.h)
-
 description: Returns the negotiate prefix that matches the specified SASL negotiation buffer.
 old-location: security\saslidentifypackage.htm
 tech.root: SecAuthN
 ms.assetid: df6f4749-8f28-4ee5-8165-f7aeb3bea7ab
-
 ms.date: 12/05/2018
 ms.keywords: SaslIdentifyPackage, SaslIdentifyPackage function [Security], SaslIdentifyPackageA, SaslIdentifyPackageW, security.saslidentifypackage, sspi/SaslIdentifyPackage, sspi/SaslIdentifyPackageA, sspi/SaslIdentifyPackageW
 ms.topic: function
 f1_keywords:
 - sspi/SaslIdentifyPackage
 dev_langs:
- - c++
+- c++
 req.header: sspi.h
 req.include-header: Security.h
 req.target-type: Windows

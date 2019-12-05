@@ -1,19 +1,17 @@
 ---
 UID: NS:oledlg.tagOLEUIEDITLINKSA
 title: OLEUIEDITLINKSA (oledlg.h)
-
 description: Contains information that the OLE User Interface Library uses to initialize the Edit Links dialog box, and contains space for the library to return information when the dialog box is dismissed.
 old-location: com\oleuieditlinks_struct.htm
 tech.root: com
 ms.assetid: 0a139936-bda4-40c8-85d6-b52ff042f2d9
-
 ms.date: 12/05/2018
-ms.keywords: "*LPOLEUIEDITLINKSA, *POLEUIEDITLINKSA, ELF_DISABLECANCELLINK, ELF_DISABLECHANGESOURCE, ELF_DISABLEOPENSOURCE, ELF_DISABLEUPDATENOW, ELF_SHOWHELP, LPOLEUIEDITLINKS, LPOLEUIEDITLINKS structure pointer [COM], OLEUIEDITLINKS, OLEUIEDITLINKS structure [COM], OLEUIEDITLINKSA, OLEUIEDITLINKSW, POLEUIEDITLINKS, POLEUIEDITLINKS structure pointer [COM], _ole_OLEUIEDITLINKS_str, com.oleuieditlinks_struct, oledlg/LPOLEUIEDITLINKS, oledlg/OLEUIEDITLINKS, oledlg/OLEUIEDITLINKSA, oledlg/OLEUIEDITLINKSW, oledlg/POLEUIEDITLINKS"
+ms.keywords: '*LPOLEUIEDITLINKSA, *POLEUIEDITLINKSA, ELF_DISABLECANCELLINK, ELF_DISABLECHANGESOURCE, ELF_DISABLEOPENSOURCE, ELF_DISABLEUPDATENOW, ELF_SHOWHELP, LPOLEUIEDITLINKS, LPOLEUIEDITLINKS structure pointer [COM], OLEUIEDITLINKS, OLEUIEDITLINKS structure [COM], OLEUIEDITLINKSA, OLEUIEDITLINKSW, POLEUIEDITLINKS, POLEUIEDITLINKS structure pointer [COM], _ole_OLEUIEDITLINKS_str, com.oleuieditlinks_struct, oledlg/LPOLEUIEDITLINKS, oledlg/OLEUIEDITLINKS, oledlg/OLEUIEDITLINKSA, oledlg/OLEUIEDITLINKSW, oledlg/POLEUIEDITLINKS'
 ms.topic: struct
-f1_keywords: 
- - "oledlg/OLEUIEDITLINKS"
+f1_keywords:
+- oledlg/OLEUIEDITLINKS
 dev_langs:
- - c++
+- c++
 req.header: oledlg.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - OleDlg.h
+- OleDlg.h
 api_name:
- - OLEUIEDITLINKS
- - OLEUIEDITLINKSA
- - OLEUIEDITLINKSW
+- OLEUIEDITLINKS
+- OLEUIEDITLINKSA
+- OLEUIEDITLINKSW
 targetos: Windows
 req.typenames: OLEUIEDITLINKSA, *POLEUIEDITLINKSA, *LPOLEUIEDITLINKSA
 req.redist: 

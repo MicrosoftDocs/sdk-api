@@ -1,19 +1,17 @@
 ---
 UID: NF:rtworkq.RtwqLockWorkQueue
 title: RtwqLockWorkQueue function (rtworkq.h)
-
 description: Locks a work queue.
 old-location: base\rtwqlockworkqueue.htm
 tech.root: ProcThread
 ms.assetid: 8befdfea-1a09-4591-97d1-0f20ae7bab7c
-
 ms.date: 12/05/2018
 ms.keywords: RtwqLockWorkQueue, RtwqLockWorkQueue function, base.rtwqlockworkqueue, rtworkq/RtwqLockWorkQueue
 ms.topic: function
-f1_keywords: 
- - "rtworkq/RtwqLockWorkQueue"
+f1_keywords:
+- rtworkq/RtwqLockWorkQueue
 dev_langs:
- - c++
+- c++
 req.header: rtworkq.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Rtworkq.lib
 req.dll: RTWorkQ.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - RTWorkQ.dll
+- RTWorkQ.dll
 api_name:
- - RtwqLockWorkQueue
+- RtwqLockWorkQueue
 targetos: Windows
 req.typenames: 
 req.redist: 

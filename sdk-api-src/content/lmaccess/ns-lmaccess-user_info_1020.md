@@ -1,19 +1,17 @@
 ---
 UID: NS:lmaccess._USER_INFO_1020
 title: USER_INFO_1020 (lmaccess.h)
-
 description: The USER_INFO_1020 structure contains the times during which a user can log on to the network. This information level is valid only when you call the NetUserSetInfo function.
 old-location: netmgmt\user_info_1020_str.htm
 tech.root: NetMgmt
 ms.assetid: 959ed1f4-d5ee-4d77-abd7-bb681778f0b1
-
 ms.date: 12/05/2018
-ms.keywords: "*LPUSER_INFO_1020, *PUSER_INFO_1020, LPUSER_INFO_1020, LPUSER_INFO_1020 structure pointer [Network Management], PUSER_INFO_1020, PUSER_INFO_1020 structure pointer [Network Management], USER_INFO_1020, USER_INFO_1020 structure [Network Management], _win32_user_info_1020_str, lmaccess/LPUSER_INFO_1020, lmaccess/PUSER_INFO_1020, lmaccess/USER_INFO_1020, netmgmt.user_info_1020_str"
+ms.keywords: '*LPUSER_INFO_1020, *PUSER_INFO_1020, LPUSER_INFO_1020, LPUSER_INFO_1020 structure pointer [Network Management], PUSER_INFO_1020, PUSER_INFO_1020 structure pointer [Network Management], USER_INFO_1020, USER_INFO_1020 structure [Network Management], _win32_user_info_1020_str, lmaccess/LPUSER_INFO_1020, lmaccess/PUSER_INFO_1020, lmaccess/USER_INFO_1020, netmgmt.user_info_1020_str'
 ms.topic: struct
-f1_keywords: 
- - "lmaccess/USER_INFO_1020"
+f1_keywords:
+- lmaccess/USER_INFO_1020
 dev_langs:
- - c++
+- c++
 req.header: lmaccess.h
 req.include-header: Lm.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Lmaccess.h
+- Lmaccess.h
 api_name:
- - USER_INFO_1020
+- USER_INFO_1020
 targetos: Windows
 req.typenames: USER_INFO_1020, *PUSER_INFO_1020, *LPUSER_INFO_1020
 req.redist: 

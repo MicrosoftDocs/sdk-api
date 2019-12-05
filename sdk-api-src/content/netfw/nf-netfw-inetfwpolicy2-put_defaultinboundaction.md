@@ -1,19 +1,17 @@
 ---
 UID: NF:netfw.INetFwPolicy2.put_DefaultInboundAction
 title: INetFwPolicy2::put_DefaultInboundAction (netfw.h)
-
 description: Specifies the default action for inbound traffic. These settings are Block by default.
 old-location: ics\inetfwpolicy2_defaultinboundaction.htm
 tech.root: ics
 ms.assetid: d9251979-0479-4245-8a29-a161acbf591f
-
 ms.date: 12/05/2018
 ms.keywords: DefaultInboundAction property [ICS/ICF], DefaultInboundAction property [ICS/ICF],INetFwPolicy2 interface, INetFwPolicy2 interface [ICS/ICF],DefaultInboundAction property, INetFwPolicy2.DefaultInboundAction, INetFwPolicy2.put_DefaultInboundAction, INetFwPolicy2::DefaultInboundAction, INetFwPolicy2::get_DefaultInboundAction, INetFwPolicy2::put_DefaultInboundAction, ics.inetfwpolicy2_defaultinboundaction, netfw/INetFwPolicy2::DefaultInboundAction, netfw/INetFwPolicy2::get_DefaultInboundAction, netfw/INetFwPolicy2::put_DefaultInboundAction, put_DefaultInboundAction
 ms.topic: method
-f1_keywords: 
- - "netfw/INetFwPolicy2.DefaultInboundAction"
+f1_keywords:
+- netfw/INetFwPolicy2.DefaultInboundAction
 dev_langs:
- - c++
+- c++
 req.header: netfw.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: FirewallAPI.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - FirewallAPI.dll
+- FirewallAPI.dll
 api_name:
- - INetFwPolicy2.DefaultInboundAction
- - INetFwPolicy2.get_DefaultInboundAction
- - INetFwPolicy2.put_DefaultInboundAction
+- INetFwPolicy2.DefaultInboundAction
+- INetFwPolicy2.get_DefaultInboundAction
+- INetFwPolicy2.put_DefaultInboundAction
 targetos: Windows
 req.typenames: 
 req.redist: 

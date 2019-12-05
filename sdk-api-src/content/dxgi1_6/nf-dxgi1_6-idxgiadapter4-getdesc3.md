@@ -1,19 +1,17 @@
 ---
 UID: NF:dxgi1_6.IDXGIAdapter4.GetDesc3
 title: IDXGIAdapter4::GetDesc3 (dxgi1_6.h)
-
 description: Gets a Microsoft DirectX Graphics Infrastructure (DXGI) 1.6 description of an adapter or video card. This description includes information about ACG compatibility.
 old-location: direct3ddxgi\idxgiadapter4_getdesc3.htm
 tech.root: direct3ddxgi
 ms.assetid: 2C6C215C-8CD6-4650-A851-B82068E0F252
-
 ms.date: 12/05/2018
 ms.keywords: GetDesc3, GetDesc3 method [DXGI], GetDesc3 method [DXGI],IDXGIAdapter4 interface, IDXGIAdapter4 interface [DXGI],GetDesc3 method, IDXGIAdapter4.GetDesc3, IDXGIAdapter4::GetDesc3, direct3ddxgi.idxgiadapter4_getdesc3, dxgi1_6/IDXGIAdapter4::GetDesc3
 ms.topic: method
-f1_keywords: 
- - "dxgi1_6/IDXGIAdapter4.GetDesc3"
+f1_keywords:
+- dxgi1_6/IDXGIAdapter4.GetDesc3
 dev_langs:
- - c++
+- c++
 req.header: dxgi1_6.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: DXGI.lib
 req.dll: Dxgi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dxgi.dll
+- dxgi.dll
 api_name:
- - IDXGIAdapter4.GetDesc3
+- IDXGIAdapter4.GetDesc3
 targetos: Windows
 req.typenames: 
 req.redist: 

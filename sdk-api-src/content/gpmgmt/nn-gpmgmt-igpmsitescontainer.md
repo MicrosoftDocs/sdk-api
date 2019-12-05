@@ -1,19 +1,17 @@
 ---
 UID: NN:gpmgmt.IGPMSitesContainer
 title: IGPMSitesContainer (gpmgmt.h)
-
 description: The IGPMSitesContainer interface provides the methods required to access the scope of management (SOM) objects that represent sites in a forest.
 old-location: gpmc\igpmsitescontainer.htm
 tech.root: gpmc
 ms.assetid: e3fdfd44-9e90-4206-b7e9-97d4ed6eb8af
-
 ms.date: 12/05/2018
 ms.keywords: GPMSitesContainer, IGPMSitesContainer, IGPMSitesContainer interface [GPMC], IGPMSitesContainer interface [GPMC],described, _win32_igpmsitescontainer, gpmc.igpmsitescontainer, gpmgmt/IGPMSitesContainer
 ms.topic: interface
-f1_keywords: 
- - "gpmgmt/IGPMSitesContainer"
+f1_keywords:
+- gpmgmt/IGPMSitesContainer
 dev_langs:
- - c++
+- c++
 req.header: gpmgmt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: Gpmgmt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gpmgmt.dll
+- Gpmgmt.dll
 api_name:
- - IGPMSitesContainer
- - GPMSitesContainer
+- IGPMSitesContainer
+- GPMSitesContainer
 targetos: Windows
 req.typenames: 
 req.redist: 

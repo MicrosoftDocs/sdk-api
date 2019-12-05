@@ -1,19 +1,17 @@
 ---
 UID: NF:taskschd.ITaskDefinition.get_Actions
 title: ITaskDefinition::get_Actions (taskschd.h)
-
 description: Gets or sets a collection of actions performed by the task.
 old-location: taskschd\itaskdefinition_actions.htm
 tech.root: taskschd
 ms.assetid: 24c00a2a-9b1e-4ef2-a28d-9faf39d53a06
-
 ms.date: 12/05/2018
 ms.keywords: Actions property [Task Scheduler], Actions property [Task Scheduler],ITaskDefinition interface, ITaskDefinition interface [Task Scheduler],Actions property, ITaskDefinition.Actions, ITaskDefinition.get_Actions, ITaskDefinition::Actions, ITaskDefinition::get_Actions, ITaskDefinition::put_Actions, get_Actions, taskschd.itaskdefinition_actions, taskschd/ITaskDefinition::Actions, taskschd/ITaskDefinition::get_Actions, taskschd/ITaskDefinition::put_Actions
 ms.topic: method
-f1_keywords: 
- - "taskschd/ITaskDefinition.Actions"
+f1_keywords:
+- taskschd/ITaskDefinition.Actions
 dev_langs:
- - c++
+- c++
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Taskschd.lib
 req.dll: Taskschd.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - taskschd.dll
+- taskschd.dll
 api_name:
- - ITaskDefinition.Actions
- - ITaskDefinition.get_Actions
- - ITaskDefinition.put_Actions
+- ITaskDefinition.Actions
+- ITaskDefinition.get_Actions
+- ITaskDefinition.put_Actions
 targetos: Windows
 req.typenames: 
 req.redist: 

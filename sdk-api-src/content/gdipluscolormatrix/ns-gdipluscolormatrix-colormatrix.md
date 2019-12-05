@@ -1,19 +1,17 @@
 ---
 UID: NS:gdipluscolormatrix.ColorMatrix
 title: ColorMatrix (gdipluscolormatrix.h)
-
 description: The ColorMatrix structure contains a 5&#215;5 matrix of real numbers. Several methods of the ImageAttributes class adjust image colors by using a color matrix.
 old-location: gdiplus\_gdiplus_STRUC_ColorMatrix.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\structures\colormatrix.htm
-
 ms.date: 12/05/2018
 ms.keywords: ColorMatrix, ColorMatrix structure [GDI+], _gdiplus_STRUC_ColorMatrix, gdiplus._gdiplus_STRUC_ColorMatrix, gdipluscolormatrix/ColorMatrix
 ms.topic: struct
-f1_keywords: 
- - "gdipluscolormatrix/ColorMatrix"
+f1_keywords:
+- gdipluscolormatrix/ColorMatrix
 dev_langs:
- - c++
+- c++
 req.header: gdipluscolormatrix.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Gdipluscolormatrix.h
+- Gdipluscolormatrix.h
 api_name:
- - ColorMatrix
+- ColorMatrix
 targetos: Windows
 req.typenames: 
 req.redist: 

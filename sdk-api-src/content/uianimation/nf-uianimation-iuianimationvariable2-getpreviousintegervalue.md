@@ -1,19 +1,17 @@
 ---
 UID: NF:uianimation.IUIAnimationVariable2.GetPreviousIntegerValue
 title: IUIAnimationVariable2::GetPreviousIntegerValue (uianimation.h)
-
 description: Gets the previous integer value of the animation variable in the specified dimension. This is the value of the animation variable before the most recent update.
 old-location: uianimation\iuianimationvariable2_getpreviousintegervalue.htm
 tech.root: UIAnimation
 ms.assetid: 8B25BE8D-B12F-44B4-AFBF-3E6994BA0771
-
 ms.date: 12/05/2018
 ms.keywords: GetPreviousIntegerValue, GetPreviousIntegerValue method [Windows Animation], GetPreviousIntegerValue method [Windows Animation],IUIAnimationVariable2 interface, IUIAnimationVariable2 interface [Windows Animation],GetPreviousIntegerValue method, IUIAnimationVariable2.GetPreviousIntegerValue, IUIAnimationVariable2::GetPreviousIntegerValue, uianimation.iuianimationvariable2_getpreviousintegervalue, uianimation/IUIAnimationVariable2::GetPreviousIntegerValue
 ms.topic: method
-f1_keywords: 
- - "uianimation/IUIAnimationVariable2.GetPreviousIntegerValue"
+f1_keywords:
+- uianimation/IUIAnimationVariable2.GetPreviousIntegerValue
 dev_langs:
- - c++
+- c++
 req.header: uianimation.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: UIAnimation.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAnimation.dll
+- UIAnimation.dll
 api_name:
- - IUIAnimationVariable2.GetPreviousIntegerValue
+- IUIAnimationVariable2.GetPreviousIntegerValue
 targetos: Windows
 req.typenames: 
 req.redist: 

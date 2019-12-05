@@ -1,19 +1,17 @@
 ---
 UID: NS:wincodecsdk.WICMetadataPattern
 title: WICMetadataPattern (wincodecsdk.h)
-
 description: Represents a metadata pattern.
 old-location: wic\_wic_codec_wicmetadatapattern.htm
 tech.root: wic
 ms.assetid: cea9e07d-5e55-4320-9744-b5864b58cfd6
-
 ms.date: 12/05/2018
 ms.keywords: WICMetadataPattern, WICMetadataPattern structure [Windows Imaging Component], _wic_codec_wicmetadatapattern, wic._wic_codec_wicmetadatapattern, wincodecsdk/WICMetadataPattern
 ms.topic: struct
-f1_keywords: 
- - "wincodecsdk/WICMetadataPattern"
+f1_keywords:
+- wincodecsdk/WICMetadataPattern
 dev_langs:
- - c++
+- c++
 req.header: wincodecsdk.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wincodecsdk.h
+- Wincodecsdk.h
 api_name:
- - WICMetadataPattern
+- WICMetadataPattern
 targetos: Windows
 req.typenames: WICMetadataPattern
 req.redist: 

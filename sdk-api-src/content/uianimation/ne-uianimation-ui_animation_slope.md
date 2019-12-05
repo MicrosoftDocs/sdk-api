@@ -1,19 +1,17 @@
 ---
 UID: NE:uianimation.__MIDL___MIDL_itf_UIAnimation_0000_0009_0001
 title: UI_ANIMATION_SLOPE (uianimation.h)
-
 description: Defines animation slope characteristics.
 old-location: uianimation\ui_animation_slope.htm
 tech.root: UIAnimation
 ms.assetid: 17076489-4b66-44ae-87ac-39b02da0b542
-
 ms.date: 12/05/2018
 ms.keywords: UI_ANIMATION_SLOPE, UI_ANIMATION_SLOPE enumeration [Windows Animation], UI_ANIMATION_SLOPE_DECREASING, UI_ANIMATION_SLOPE_INCREASING, uianimation.ui_animation_slope, uianimation/UI_ANIMATION_SLOPE, uianimation/UI_ANIMATION_SLOPE_DECREASING, uianimation/UI_ANIMATION_SLOPE_INCREASING
 ms.topic: enum
-f1_keywords: 
- - "uianimation/UI_ANIMATION_SLOPE"
+f1_keywords:
+- uianimation/UI_ANIMATION_SLOPE
 dev_langs:
- - c++
+- c++
 req.header: uianimation.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - UIAnimation.h
+- UIAnimation.h
 api_name:
- - UI_ANIMATION_SLOPE
+- UI_ANIMATION_SLOPE
 targetos: Windows
 req.typenames: UI_ANIMATION_SLOPE
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:winscard.SCardBeginTransaction
 title: SCardBeginTransaction function (winscard.h)
-
 description: Starts a transaction.
 old-location: security\scardbegintransaction.htm
 tech.root: SecAuthN
 ms.assetid: 91f61060-4b0b-4890-9372-25ba0aacb642
-
 ms.date: 12/05/2018
 ms.keywords: SCardBeginTransaction, SCardBeginTransaction function [Security], _smart_scardbegintransaction, security.scardbegintransaction, winscard/SCardBeginTransaction
 ms.topic: function
-f1_keywords: 
- - "winscard/SCardBeginTransaction"
+f1_keywords:
+- winscard/SCardBeginTransaction
 dev_langs:
- - c++
+- c++
 req.header: winscard.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Winscard.lib
 req.dll: Winscard.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Winscard.dll
- - Ext-MS-Win-Security-WinSCard-L1-1-0.dll
+- Winscard.dll
+- Ext-MS-Win-Security-WinSCard-L1-1-0.dll
 api_name:
- - SCardBeginTransaction
+- SCardBeginTransaction
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:wmdmlog.IWMDMLogger.SetSizeParams
 title: IWMDMLogger::SetSizeParams (wmdmlog.h)
-
 description: The SetSizeParams method sets the current size parameters for the current log file.
 old-location: wmdm\iwmdmlogger_setsizeparams.htm
 tech.root: WMDM
 ms.assetid: f602efb8-7b00-4a9d-a61a-06e2f15e9185
-
 ms.date: 12/05/2018
 ms.keywords: IWMDMLogger interface [windows Media Device Manager],SetSizeParams method, IWMDMLogger.SetSizeParams, IWMDMLogger::SetSizeParams, IWMDMLoggerSetSizeParams, SetSizeParams, SetSizeParams method [windows Media Device Manager], SetSizeParams method [windows Media Device Manager],IWMDMLogger interface, wmdm.iwmdmlogger_setsizeparams, wmdmlog/IWMDMLogger::SetSizeParams
 ms.topic: method
-f1_keywords: 
- - "wmdmlog/IWMDMLogger.SetSizeParams"
+f1_keywords:
+- wmdmlog/IWMDMLogger.SetSizeParams
 dev_langs:
- - c++
+- c++
 req.header: wmdmlog.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mssachlp.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mssachlp.lib
- - mssachlp.dll
+- mssachlp.lib
+- mssachlp.dll
 api_name:
- - IWMDMLogger.SetSizeParams
+- IWMDMLogger.SetSizeParams
 targetos: Windows
 req.typenames: 
 req.redist: 

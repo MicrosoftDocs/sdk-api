@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d9.IDirect3DCryptoSession9.StartSessionKeyRefresh
 title: IDirect3DCryptoSession9::StartSessionKeyRefresh (d3d9.h)
-
 description: Gets a random number that can be used to refresh the session key.
 old-location: mf\idirect3dcryptosession9_startsessionkeyrefresh.htm
 tech.root: medfound
 ms.assetid: f25ad491-9ffb-40d1-94c3-af0cbae553bf
-
 ms.date: 12/05/2018
 ms.keywords: IDirect3DCryptoSession9 interface [Media Foundation],StartSessionKeyRefresh method, IDirect3DCryptoSession9.StartSessionKeyRefresh, IDirect3DCryptoSession9::StartSessionKeyRefresh, StartSessionKeyRefresh, StartSessionKeyRefresh method [Media Foundation], StartSessionKeyRefresh method [Media Foundation],IDirect3DCryptoSession9 interface, d3d9/IDirect3DCryptoSession9::StartSessionKeyRefresh, mf.idirect3dcryptosession9_startsessionkeyrefresh
 ms.topic: method
-f1_keywords: 
- - "d3d9/IDirect3DCryptoSession9.StartSessionKeyRefresh"
+f1_keywords:
+- d3d9/IDirect3DCryptoSession9.StartSessionKeyRefresh
 dev_langs:
- - c++
+- c++
 req.header: d3d9.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - d3d9.h
+- d3d9.h
 api_name:
- - IDirect3DCryptoSession9.StartSessionKeyRefresh
+- IDirect3DCryptoSession9.StartSessionKeyRefresh
 targetos: Windows
 req.typenames: 
 req.redist: 

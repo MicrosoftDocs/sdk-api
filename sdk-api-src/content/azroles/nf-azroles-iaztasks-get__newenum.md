@@ -1,19 +1,17 @@
 ---
 UID: NF:azroles.IAzTasks.get__NewEnum
 title: IAzTasks::get__NewEnum (azroles.h)
-
 description: The _NewEnum property of IAzTasks retrieves an IEnumVARIANT interface on an object that can be used to enumerate the collection. This property is hidden within Visual Basic and Visual Basic Scripting Edition (VBScript).
 old-location: security\iaztasks_newenum.htm
 tech.root: SecAuthZ
 ms.assetid: 2598295f-da23-4eb2-aefc-e8e43f8c0f60
-
 ms.date: 12/05/2018
 ms.keywords: AzTasks object [Security],_NewEnum property, IAzTasks interface [Security],_NewEnum property, IAzTasks._NewEnum, IAzTasks.get__NewEnum, IAzTasks::_NewEnum, IAzTasks::get__NewEnum, _NewEnum property [Security], _NewEnum property [Security],AzTasks object, _NewEnum property [Security],IAzTasks interface, azroles/IAzTasks::_NewEnum, azroles/IAzTasks::get__NewEnum, get__NewEnum, security.iaztasks_newenum
 ms.topic: method
-f1_keywords: 
- - "azroles/IAzTasks._NewEnum"
+f1_keywords:
+- azroles/IAzTasks._NewEnum
 dev_langs:
- - c++
+- c++
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Azroles.lib
 req.dll: Azroles.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Azroles.dll
+- Azroles.dll
 api_name:
- - IAzTasks._NewEnum
- - IAzTasks.get__NewEnum
- - AzTasks._NewEnum
+- IAzTasks._NewEnum
+- IAzTasks.get__NewEnum
+- AzTasks._NewEnum
 targetos: Windows
 req.typenames: 
 req.redist: Windows Server 2003 Administration Tools Pack on Windows XP

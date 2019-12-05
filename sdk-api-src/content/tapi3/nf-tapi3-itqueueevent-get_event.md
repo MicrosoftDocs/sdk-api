@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi3.ITQueueEvent.get_Event
 title: ITQueueEvent::get_Event (tapi3.h)
-
 description: The get_Event method gets the descriptor of the event that occurred.
 old-location: tapi3\itqueueevent_get_event.htm
 tech.root: Tapi
 ms.assetid: 704a9601-e8c3-42d4-86bc-be59c44a05b3
-
 ms.date: 12/05/2018
 ms.keywords: ITQueueEvent interface [TAPI 2.2],get_Event method, ITQueueEvent.get_Event, ITQueueEvent::get_Event, _tapi3_itqueueevent_get_event, get_Event, get_Event method [TAPI 2.2], get_Event method [TAPI 2.2],ITQueueEvent interface, tapi3.itqueueevent_get_event, tapi3cc/ITQueueEvent::get_Event
 ms.topic: method
-f1_keywords: 
- - "tapi3/ITQueueEvent.get_Event"
+f1_keywords:
+- tapi3/ITQueueEvent.get_Event
 dev_langs:
- - c++
+- c++
 req.header: tapi3.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Tapi3.dll
+- Tapi3.dll
 api_name:
- - ITQueueEvent.get_Event
+- ITQueueEvent.get_Event
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:vfw.GetSaveFileNamePreviewA
 title: GetSaveFileNamePreviewA function (vfw.h)
-
 description: The GetSaveFileNamePreview function selects a file by using the Save As dialog box. The dialog box also allows the user to preview the currently specified file. This function augments the capability found in the GetSaveFileName function.
 old-location: multimedia\getsavefilenamepreview.htm
 tech.root: Multimedia
 ms.assetid: f6dd3127-b3fb-40bc-892c-34bacb47d9a6
-
 ms.date: 12/05/2018
 ms.keywords: GetSaveFileNamePreview, GetSaveFileNamePreview function [Windows Multimedia], GetSaveFileNamePreviewA, GetSaveFileNamePreviewW, _win32_GetSaveFileNamePreview, multimedia.getsavefilenamepreview, vfw/GetSaveFileNamePreview, vfw/GetSaveFileNamePreviewA, vfw/GetSaveFileNamePreviewW
 ms.topic: function
-f1_keywords: 
- - "vfw/GetSaveFileNamePreview"
+f1_keywords:
+- vfw/GetSaveFileNamePreview
 dev_langs:
- - c++
+- c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Vfw32.lib
 req.dll: Msvfw32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Msvfw32.dll
+- Msvfw32.dll
 api_name:
- - GetSaveFileNamePreview
- - GetSaveFileNamePreviewA
- - GetSaveFileNamePreviewW
+- GetSaveFileNamePreview
+- GetSaveFileNamePreviewA
+- GetSaveFileNamePreviewW
 targetos: Windows
 req.typenames: 
 req.redist: 

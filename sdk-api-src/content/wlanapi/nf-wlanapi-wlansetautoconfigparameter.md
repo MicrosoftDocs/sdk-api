@@ -1,19 +1,17 @@
 ---
 UID: NF:wlanapi.WlanSetAutoConfigParameter
 title: WlanSetAutoConfigParameter function (wlanapi.h)
-
 description: Sets parameters for the automatic configuration service.
 old-location: nwifi\wlansetautoconfigparameter.htm
 tech.root: NativeWiFi
 ms.assetid: 4f2514be-f05e-4be6-8c74-ef7a9ffe1c53
-
 ms.date: 12/05/2018
 ms.keywords: WlanSetAutoConfigParameter, WlanSetAutoConfigParameter function [NativeWIFI], nwifi.wlansetautoconfigparameter, wlan_autoconf_opcode_allow_explicit_creds, wlan_autoconf_opcode_allow_virtual_station_extensibility, wlan_autoconf_opcode_block_period, wlan_autoconf_opcode_show_denied_networks, wlanapi/WlanSetAutoConfigParameter
 ms.topic: function
-f1_keywords: 
- - "wlanapi/WlanSetAutoConfigParameter"
+f1_keywords:
+- wlanapi/WlanSetAutoConfigParameter
 dev_langs:
- - c++
+- c++
 req.header: wlanapi.h
 req.include-header: Wlanapi.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Wlanapi.lib
 req.dll: Wlanapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Wlanapi.dll
+- Wlanapi.dll
 api_name:
- - WlanSetAutoConfigParameter
+- WlanSetAutoConfigParameter
 targetos: Windows
 req.typenames: 
 req.redist: 

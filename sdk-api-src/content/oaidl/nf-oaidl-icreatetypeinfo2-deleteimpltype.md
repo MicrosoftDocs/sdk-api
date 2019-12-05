@@ -1,19 +1,17 @@
 ---
 UID: NF:oaidl.ICreateTypeInfo2.DeleteImplType
 title: ICreateTypeInfo2::DeleteImplType (oaidl.h)
-
 description: Deletes the IMPLTYPE flags for the indexed interface.
 old-location: automat\icreatetypeinfo2_deleteimpltype.htm
 tech.root: automat
 ms.assetid: c64b70eb-6047-4572-9d5e-f40b3c302f31
-
 ms.date: 12/05/2018
 ms.keywords: DeleteImplType, DeleteImplType method [Automation], DeleteImplType method [Automation],ICreateTypeInfo2 interface, ICreateTypeInfo2 interface [Automation],DeleteImplType method, ICreateTypeInfo2.DeleteImplType, ICreateTypeInfo2::DeleteImplType, _oa96_ICreateTypeInfo2_DeleteImplType, automat.icreatetypeinfo2_deleteimpltype, oaidl/ICreateTypeInfo2::DeleteImplType
 ms.topic: method
-f1_keywords: 
- - "oaidl/ICreateTypeInfo2.DeleteImplType"
+f1_keywords:
+- oaidl/ICreateTypeInfo2.DeleteImplType
 dev_langs:
- - c++
+- c++
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - oaidl.h
+- oaidl.h
 api_name:
- - ICreateTypeInfo2.DeleteImplType
+- ICreateTypeInfo2.DeleteImplType
 targetos: Windows
 req.typenames: 
 req.redist: 

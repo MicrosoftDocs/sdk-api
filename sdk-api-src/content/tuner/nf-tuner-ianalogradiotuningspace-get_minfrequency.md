@@ -1,19 +1,17 @@
 ---
 UID: NF:tuner.IAnalogRadioTuningSpace.get_MinFrequency
 title: IAnalogRadioTuningSpace::get_MinFrequency (tuner.h)
-
 description: The get_MinFrequency method retrieves the minimum frequency for this tuning space.
 old-location: mstv\ianalogradiotuningspace_get_minfrequency.htm
 tech.root: mstv
 ms.assetid: 9e26360b-b00b-4741-a3c6-814843ff93e7
-
 ms.date: 12/05/2018
 ms.keywords: IAnalogRadioTuningSpace interface [Microsoft TV Technologies],get_MinFrequency method, IAnalogRadioTuningSpace.get_MinFrequency, IAnalogRadioTuningSpace::get_MinFrequency, IAnalogRadioTuningSpaceget_MinFrequency, get_MinFrequency, get_MinFrequency method [Microsoft TV Technologies], get_MinFrequency method [Microsoft TV Technologies],IAnalogRadioTuningSpace interface, mstv.ianalogradiotuningspace_get_minfrequency, tuner/IAnalogRadioTuningSpace::get_MinFrequency
 ms.topic: method
-f1_keywords: 
- - "tuner/IAnalogRadioTuningSpace.get_MinFrequency"
+f1_keywords:
+- tuner/IAnalogRadioTuningSpace.get_MinFrequency
 dev_langs:
- - c++
+- c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - tuner.h
+- tuner.h
 api_name:
- - IAnalogRadioTuningSpace.get_MinFrequency
+- IAnalogRadioTuningSpace.get_MinFrequency
 targetos: Windows
 req.typenames: 
 req.redist: 

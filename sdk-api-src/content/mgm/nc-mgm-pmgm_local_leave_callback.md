@@ -1,19 +1,17 @@
 ---
 UID: NC:mgm.PMGM_LOCAL_LEAVE_CALLBACK
 title: PMGM_LOCAL_LEAVE_CALLBACK (mgm.h)
-
 description: The PMGM_LOCAL_LEAVE_CALLBACK callback is a call into a routing protocol to notify the routing protocol that the IGMP has detected that it no longer has receivers for a group on an interface that is currently owned by the routing protocol.
 old-location: rras\pmgm_local_leave_callback.htm
 tech.root: RRAS
 ms.assetid: 9569c0e5-f9bb-4dc9-9689-f97d107697b5
-
 ms.date: 12/05/2018
 ms.keywords: MgmLocalLeaveCallback, PMGM_LOCAL_LEAVE_CALLBACK, PMGM_LOCAL_LEAVE_CALLBACK callback, PMGM_LOCAL_LEAVE_CALLBACK callback function [RAS], _mpr_pmgm_local_leave_callback, mgm/PMGM_LOCAL_LEAVE_CALLBACK, rras.pmgm_local_leave_callback
 ms.topic: callback
-f1_keywords: 
- - "mgm/PMGM_LOCAL_LEAVE_CALLBACK"
+f1_keywords:
+- mgm/PMGM_LOCAL_LEAVE_CALLBACK
 dev_langs:
- - c++
+- c++
 req.header: mgm.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Mgm.h
+- Mgm.h
 api_name:
- - PMGM_LOCAL_LEAVE_CALLBACK
+- PMGM_LOCAL_LEAVE_CALLBACK
 targetos: Windows
 req.typenames: 
 req.redist: 

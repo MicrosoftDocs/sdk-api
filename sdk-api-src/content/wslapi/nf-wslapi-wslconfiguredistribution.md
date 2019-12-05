@@ -1,19 +1,17 @@
 ---
 UID: NF:wslapi.WslConfigureDistribution
 title: WslConfigureDistribution function (wslapi.h)
-
 description: Modifies the behavior of a distribution registered with the Windows Subsystem for Linux (WSL).
 old-location: wsl\wslconfiguredistribution.htm
 tech.root: wsl
 ms.assetid: 4E89F367-4E10-4E76-93BC-FD5E2450D430
-
 ms.date: 12/05/2018
 ms.keywords: WslConfigureDistribution, WslConfigureDistribution function, wsl.wslconfiguredistribution, wslapi/WslConfigureDistribution
 ms.topic: function
-f1_keywords: 
- - "wslapi/WslConfigureDistribution"
+f1_keywords:
+- wslapi/WslConfigureDistribution
 dev_langs:
- - c++
+- c++
 req.header: wslapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Wslapi.lib
 req.dll: Api-ms-win-wsl-api-l1-1-0.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - api-ms-win-wsl-api-l1-1-0.dll
+- api-ms-win-wsl-api-l1-1-0.dll
 api_name:
- - WslConfigureDistribution
+- WslConfigureDistribution
 targetos: Windows
 req.typenames: 
 req.redist: 

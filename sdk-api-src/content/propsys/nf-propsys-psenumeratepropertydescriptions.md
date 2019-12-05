@@ -1,19 +1,17 @@
 ---
 UID: NF:propsys.PSEnumeratePropertyDescriptions
 title: PSEnumeratePropertyDescriptions function (propsys.h)
-
 description: A wrapper API that calls the schema subsystem's IPropertySystem::EnumeratePropertyDescriptions.
 old-location: properties\PSEnumeratePropertyDescriptions.htm
 tech.root: properties
 ms.assetid: 687d5a32-3a2e-4b9b-b06c-ca06a6cd1595
-
 ms.date: 12/05/2018
 ms.keywords: PSEnumeratePropertyDescriptions, PSEnumeratePropertyDescriptions function [Windows Properties], properties.PSEnumeratePropertyDescriptions, propsys/PSEnumeratePropertyDescriptions, shell.PSEnumeratePropertyDescriptions, shell_PSEnumeratePropertyDescriptions
 ms.topic: function
-f1_keywords: 
- - "propsys/PSEnumeratePropertyDescriptions"
+f1_keywords:
+- propsys/PSEnumeratePropertyDescriptions
 dev_langs:
- - c++
+- c++
 req.header: propsys.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Propsys.lib
 req.dll: Propsys.dll (version 6.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Propsys.dll
+- Propsys.dll
 api_name:
- - PSEnumeratePropertyDescriptions
+- PSEnumeratePropertyDescriptions
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0

@@ -1,19 +1,17 @@
 ---
 UID: NF:ocidl.IOleUndoUnit.GetUnitType
 title: IOleUndoUnit::GetUnitType (ocidl.h)
-
 description: Retrieves the CLSID and a type identifier for the undo unit.
 old-location: com\ioleundounit_getunittype.htm
 tech.root: com
 ms.assetid: 1f0c719e-75cd-48dd-8bd8-78eb63cc141a
-
 ms.date: 12/05/2018
 ms.keywords: GetUnitType, GetUnitType method [COM], GetUnitType method [COM],IOleUndoUnit interface, IOleUndoUnit interface [COM],GetUnitType method, IOleUndoUnit.GetUnitType, IOleUndoUnit::GetUnitType, _ole_ioleundounit_getunittype, com.ioleundounit_getunittype, ocidl/IOleUndoUnit::GetUnitType
 ms.topic: method
-f1_keywords: 
- - "ocidl/IOleUndoUnit.GetUnitType"
+f1_keywords:
+- ocidl/IOleUndoUnit.GetUnitType
 dev_langs:
- - c++
+- c++
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - OCIdl.h
+- OCIdl.h
 api_name:
- - IOleUndoUnit.GetUnitType
+- IOleUndoUnit.GetUnitType
 targetos: Windows
 req.typenames: 
 req.redist: 

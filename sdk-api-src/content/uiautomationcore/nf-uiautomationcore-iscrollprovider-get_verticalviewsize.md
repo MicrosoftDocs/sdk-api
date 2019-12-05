@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationcore.IScrollProvider.get_VerticalViewSize
 title: IScrollProvider::get_VerticalViewSize (uiautomationcore.h)
-
 description: Specifies the vertical size of the viewable region.
 old-location: winauto\uiauto_IScrollProvider_VerticalViewSize.htm
 tech.root: WinAuto
 ms.assetid: 9ddf60c9-68d4-4bec-8bbe-cb9bb13711e6
-
 ms.date: 12/05/2018
 ms.keywords: IScrollProvider interface [Windows Accessibility],VerticalViewSize property, IScrollProvider.VerticalViewSize, IScrollProvider.get_VerticalViewSize, IScrollProvider::VerticalViewSize, IScrollProvider::get_VerticalViewSize, VerticalViewSize property [Windows Accessibility], VerticalViewSize property [Windows Accessibility],IScrollProvider interface, get_VerticalViewSize, uiauto.uiauto_IScrollProvider_VerticalViewSize, uiauto_IScrollProvider_VerticalViewSize, uiautomationcore/IScrollProvider::VerticalViewSize, uiautomationcore/IScrollProvider::get_VerticalViewSize, winauto.uiauto_IScrollProvider_VerticalViewSize
 ms.topic: method
-f1_keywords: 
- - "uiautomationcore/IScrollProvider.VerticalViewSize"
+f1_keywords:
+- uiautomationcore/IScrollProvider.VerticalViewSize
 dev_langs:
- - c++
+- c++
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationCore.h
+- UIAutomationCore.h
 api_name:
- - IScrollProvider.VerticalViewSize
- - IScrollProvider.get_VerticalViewSize
+- IScrollProvider.VerticalViewSize
+- IScrollProvider.get_VerticalViewSize
 targetos: Windows
 req.typenames: 
 req.redist: 

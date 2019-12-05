@@ -1,19 +1,17 @@
 ---
 UID: NN:rdpencomapi.IRDPSRAPISharingSession2
 title: IRDPSRAPISharingSession2 (rdpencomapi.h)
-
 description: The main object that an application must create to start a collaboration session.
 old-location: rdp\irdpsrapisharingsession2.htm
 tech.root: rdp
 ms.assetid: 3ac68be7-e6fd-42c7-b2f3-b90bb5097b07
-
 ms.date: 12/05/2018
 ms.keywords: IRDPSRAPISharingSession2, IRDPSRAPISharingSession2 interface [RDP], IRDPSRAPISharingSession2 interface [RDP],described, rdp.irdpsrapisharingsession2, rdpencomapi/IRDPSRAPISharingSession2
 ms.topic: interface
-f1_keywords: 
- - "rdpencomapi/IRDPSRAPISharingSession2"
+f1_keywords:
+- rdpencomapi/IRDPSRAPISharingSession2
 dev_langs:
- - c++
+- c++
 req.header: rdpencomapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: RdpEncom.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - RdpEncom.dll
+- RdpEncom.dll
 api_name:
- - IRDPSRAPISharingSession2
+- IRDPSRAPISharingSession2
 targetos: Windows
 req.typenames: 
 req.redist: 

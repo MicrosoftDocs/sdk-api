@@ -1,19 +1,17 @@
 ---
 UID: NF:segment.IMSVidVideoRenderer2._SetAllocator
 title: IMSVidVideoRenderer2::_SetAllocator (segment.h)
-
 description: The _SetAllocator method specifies an allocator-presenter for the VMR. Applications can use this method to provide their own custom allocator-presenter objects.
 old-location: mstv\imsvidvideorenderer2__setallocator.htm
 tech.root: mstv
 ms.assetid: dc0983c0-440d-453a-95c9-41a859a7dd9a
-
 ms.date: 12/05/2018
 ms.keywords: IMSVidVideoRenderer2 interface [Microsoft TV Technologies],_SetAllocator method, IMSVidVideoRenderer2._SetAllocator, IMSVidVideoRenderer2::_SetAllocator, IMSVidVideoRenderer2_SetAllocator, _SetAllocator, _SetAllocator method [Microsoft TV Technologies], _SetAllocator method [Microsoft TV Technologies],IMSVidVideoRenderer2 interface, mstv.imsvidvideorenderer2__setallocator, segment/IMSVidVideoRenderer2::_SetAllocator
 ms.topic: method
-f1_keywords: 
- - "segment/IMSVidVideoRenderer2._SetAllocator"
+f1_keywords:
+- segment/IMSVidVideoRenderer2._SetAllocator
 dev_langs:
- - c++
+- c++
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - segment.h
+- segment.h
 api_name:
- - IMSVidVideoRenderer2._SetAllocator
+- IMSVidVideoRenderer2._SetAllocator
 targetos: Windows
 req.typenames: 
 req.redist: 

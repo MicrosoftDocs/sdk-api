@@ -1,19 +1,17 @@
 ---
 UID: NS:tapi.linemessage_tag
 title: LINEMESSAGE (tapi.h)
-
 description: The LINEMESSAGE structure contains parameter values specifying a change in status of the line the application currently has open. The lineGetMessage function returns the LINEMESSAGE structure.
 old-location: tapi2\linemessage_str.htm
 tech.root: Tapi
 ms.assetid: 1d184948-4ba2-4c8c-8771-d1aea6c4f565
-
 ms.date: 12/05/2018
-ms.keywords: "*LPLINEMESSAGE, LINEMESSAGE, LINEMESSAGE structure [TAPI 2.2], LPLINEMESSAGE, LPLINEMESSAGE structure pointer [TAPI 2.2], _tapi2_linemessage_str, tapi/LINEMESSAGE, tapi/LPLINEMESSAGE, tapi2.linemessage_str"
+ms.keywords: '*LPLINEMESSAGE, LINEMESSAGE, LINEMESSAGE structure [TAPI 2.2], LPLINEMESSAGE, LPLINEMESSAGE structure pointer [TAPI 2.2], _tapi2_linemessage_str, tapi/LINEMESSAGE, tapi/LPLINEMESSAGE, tapi2.linemessage_str'
 ms.topic: struct
-f1_keywords: 
- - "tapi/LINEMESSAGE"
+f1_keywords:
+- tapi/LINEMESSAGE
 dev_langs:
- - c++
+- c++
 req.header: tapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Tapi.h
+- Tapi.h
 api_name:
- - LINEMESSAGE
+- LINEMESSAGE
 targetos: Windows
 req.typenames: LINEMESSAGE, *LPLINEMESSAGE
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:segment.IMSVidAudioRenderer.get_Balance
 title: IMSVidAudioRenderer::get_Balance (segment.h)
-
-description: "."
+description: .
 old-location: mstv\imsvidaudiorenderer_get_balance.htm
 tech.root: mstv
 ms.assetid: 59def393-ab3d-41a8-968a-cd22429874a0
-
 ms.date: 12/05/2018
 ms.keywords: IMSVidAudioRenderer interface [Microsoft TV Technologies],get_Balance method, IMSVidAudioRenderer.get_Balance, IMSVidAudioRenderer::get_Balance, IMSVidAudioRendererget_Balance, get_Balance, get_Balance method [Microsoft TV Technologies], get_Balance method [Microsoft TV Technologies],IMSVidAudioRenderer interface, mstv.imsvidaudiorenderer_get_balance, segment/IMSVidAudioRenderer::get_Balance
 ms.topic: method
-f1_keywords: 
- - "segment/IMSVidAudioRenderer.get_Balance"
+f1_keywords:
+- segment/IMSVidAudioRenderer.get_Balance
 dev_langs:
- - c++
+- c++
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - segment.h
+- segment.h
 api_name:
- - IMSVidAudioRenderer.get_Balance
+- IMSVidAudioRenderer.get_Balance
 targetos: Windows
 req.typenames: 
 req.redist: 

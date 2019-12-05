@@ -1,19 +1,17 @@
 ---
 UID: NF:aclapi.BuildTrusteeWithNameW
 title: BuildTrusteeWithNameW function (aclapi.h)
-
 description: Initializes a TRUSTEE structure. The caller specifies the trustee name. The function sets other members of the structure to default values.
 old-location: security\buildtrusteewithname.htm
 tech.root: SecAuthZ
 ms.assetid: a66c23ac-8211-40fd-bfe8-ef9089bf3745
-
 ms.date: 12/05/2018
 ms.keywords: BuildTrusteeWithName, BuildTrusteeWithName function [Security], BuildTrusteeWithNameA, BuildTrusteeWithNameW, MultipleTrusteeOperation, TrusteeForm, TrusteeType, _win32_buildtrusteewithname, aclapi/BuildTrusteeWithName, aclapi/BuildTrusteeWithNameA, aclapi/BuildTrusteeWithNameW, pMultipleTrustee, security.buildtrusteewithname
 ms.topic: function
-f1_keywords: 
- - "aclapi/BuildTrusteeWithName"
+f1_keywords:
+- aclapi/BuildTrusteeWithName
 dev_langs:
- - c++
+- c++
 req.header: aclapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Advapi32.dll
- - API-MS-Win-security-trustee-l1-1-1.dll
- - advapi32legacy.dll
+- Advapi32.dll
+- API-MS-Win-security-trustee-l1-1-1.dll
+- advapi32legacy.dll
 api_name:
- - BuildTrusteeWithName
- - BuildTrusteeWithNameA
- - BuildTrusteeWithNameW
+- BuildTrusteeWithName
+- BuildTrusteeWithNameA
+- BuildTrusteeWithNameW
 targetos: Windows
 req.typenames: 
 req.redist: 

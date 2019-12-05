@@ -1,19 +1,17 @@
 ---
 UID: NF:audioclient.IAudioClient2.SetClientProperties
 title: IAudioClient2::SetClientProperties (audioclient.h)
-
 description: Sets the properties of the audio stream by populating an AudioClientProperties structure.
 old-location: coreaudio\iaudioclient2_setclientproperties.htm
 tech.root: CoreAudio
 ms.assetid: B9B98EF9-C0E1-430A-9C79-1B414F4D67B5
-
 ms.date: 12/05/2018
 ms.keywords: IAudioClient2 interface [Core Audio],SetClientProperties method, IAudioClient2.SetClientProperties, IAudioClient2::SetClientProperties, SetClientProperties, SetClientProperties method [Core Audio], SetClientProperties method [Core Audio],IAudioClient2 interface, audioclient/IAudioClient2::SetClientProperties, coreaudio.iaudioclient2_setclientproperties
 ms.topic: method
-f1_keywords: 
- - "audioclient/IAudioClient2.SetClientProperties"
+f1_keywords:
+- audioclient/IAudioClient2.SetClientProperties
 dev_langs:
- - c++
+- c++
 req.header: audioclient.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Audioclient.h
+- Audioclient.h
 api_name:
- - IAudioClient2.SetClientProperties
+- IAudioClient2.SetClientProperties
 targetos: Windows
 req.typenames: 
 req.redist: 

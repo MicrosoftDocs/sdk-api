@@ -1,19 +1,17 @@
 ---
 UID: NS:wincrypt._CRL_ENTRY
 title: CRL_ENTRY (wincrypt.h)
-
 description: Contains information about a single revoked certificate. It is a member of a CRL_INFO structure.
 old-location: security\crl_entry.htm
 tech.root: SecCrypto
 ms.assetid: 30e7952a-a408-404f-9058-8197539387f6
-
 ms.date: 12/05/2018
 ms.keywords: '*PCRL_ENTRY, CRL_ENTRY, CRL_ENTRY structure [Security], PCRL_ENTRY, PCRL_ENTRY structure pointer [Security], _crypto2_crl_entry, security.crl_entry, wincrypt/CRL_ENTRY, wincrypt/PCRL_ENTRY'
 ms.topic: struct
 f1_keywords:
 - wincrypt/CRL_ENTRY
 dev_langs:
- - c++
+- c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

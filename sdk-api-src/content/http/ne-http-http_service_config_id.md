@@ -1,19 +1,17 @@
 ---
 UID: NE:http._HTTP_SERVICE_CONFIG_ID
 title: HTTP_SERVICE_CONFIG_ID (http.h)
-
 description: Defines service configuration options.
 old-location: http\http_service_config_id.htm
 tech.root: http
 ms.assetid: 1b250408-4e3b-4cec-a31e-2c7f7ebad23b
-
 ms.date: 12/05/2018
-ms.keywords: "*PHTTP_SERVICE_CONFIG_ID, HTTP_SERVICE_CONFIG_ID, HTTP_SERVICE_CONFIG_ID enumeration [HTTP], HttpServiceConfigCache, HttpServiceConfigIPListenList, HttpServiceConfigMax, HttpServiceConfigSSLCertInfo, HttpServiceConfigSslCcsCertInfo, HttpServiceConfigSslSniCertInfo, HttpServiceConfigTimeout, HttpServiceConfigUrlAclInfo, PHTTP_SERVICE_CONFIG_ID, PHTTP_SERVICE_CONFIG_ID enumeration pointer [HTTP], _http_http_service_config_id, http.http_service_config_id, http/HTTP_SERVICE_CONFIG_ID, http/HttpServiceConfigCache, http/HttpServiceConfigIPListenList, http/HttpServiceConfigMax, http/HttpServiceConfigSSLCertInfo, http/HttpServiceConfigSslCcsCertInfo, http/HttpServiceConfigSslSniCertInfo, http/HttpServiceConfigTimeout, http/HttpServiceConfigUrlAclInfo, http/PHTTP_SERVICE_CONFIG_ID"
+ms.keywords: '*PHTTP_SERVICE_CONFIG_ID, HTTP_SERVICE_CONFIG_ID, HTTP_SERVICE_CONFIG_ID enumeration [HTTP], HttpServiceConfigCache, HttpServiceConfigIPListenList, HttpServiceConfigMax, HttpServiceConfigSSLCertInfo, HttpServiceConfigSslCcsCertInfo, HttpServiceConfigSslSniCertInfo, HttpServiceConfigTimeout, HttpServiceConfigUrlAclInfo, PHTTP_SERVICE_CONFIG_ID, PHTTP_SERVICE_CONFIG_ID enumeration pointer [HTTP], _http_http_service_config_id, http.http_service_config_id, http/HTTP_SERVICE_CONFIG_ID, http/HttpServiceConfigCache, http/HttpServiceConfigIPListenList, http/HttpServiceConfigMax, http/HttpServiceConfigSSLCertInfo, http/HttpServiceConfigSslCcsCertInfo, http/HttpServiceConfigSslSniCertInfo, http/HttpServiceConfigTimeout, http/HttpServiceConfigUrlAclInfo, http/PHTTP_SERVICE_CONFIG_ID'
 ms.topic: enum
-f1_keywords: 
- - "http/HTTP_SERVICE_CONFIG_ID"
+f1_keywords:
+- http/HTTP_SERVICE_CONFIG_ID
 dev_langs:
- - c++
+- c++
 req.header: http.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Http.h
+- Http.h
 api_name:
- - HTTP_SERVICE_CONFIG_ID
+- HTTP_SERVICE_CONFIG_ID
 targetos: Windows
 req.typenames: HTTP_SERVICE_CONFIG_ID, *PHTTP_SERVICE_CONFIG_ID
 req.redist: 

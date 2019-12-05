@@ -1,19 +1,17 @@
 ---
 UID: NF:smbclnt.SetAppInstanceCsvFlags
 title: SetAppInstanceCsvFlags function (smbclnt.h)
-
 description: Sets the flags that affect connections from the application instance.
 old-location: mscs\setappinstancecsvflags.htm
 tech.root: MsCS
 ms.assetid: 37FDAB0A-1593-47D6-B4CE-A667EBA01680
-
 ms.date: 12/05/2018
 ms.keywords: SET_APP_INSTANCE_CSV_FLAGS, SET_APP_INSTANCE_CSV_FLAGS function [Failover Cluster], SetAppInstanceCsvFlags, SetAppInstanceCsvFlags function [Failover Cluster], mscs.setappinstancecsvflags, smbclnt/SET_APP_INSTANCE_CSV_FLAGS, smbclnt/SetAppInstanceCsvFlags
 ms.topic: function
-f1_keywords: 
- - "smbclnt/SetAppInstanceCsvFlags"
+f1_keywords:
+- smbclnt/SetAppInstanceCsvFlags
 dev_langs:
- - c++
+- c++
 req.header: smbclnt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: NTLanMan.lib
 req.dll: NTLanMan.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - NTLanMan.dll
+- NTLanMan.dll
 api_name:
- - SetAppInstanceCsvFlags
+- SetAppInstanceCsvFlags
 targetos: Windows
 req.typenames: 
 req.redist: 

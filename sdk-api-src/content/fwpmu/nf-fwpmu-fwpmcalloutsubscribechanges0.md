@@ -1,19 +1,17 @@
 ---
 UID: NF:fwpmu.FwpmCalloutSubscribeChanges0
 title: FwpmCalloutSubscribeChanges0 function (fwpmu.h)
-
 description: Is used to request the delivery of notifications regarding changes in a particular callout.
 old-location: fwp\fwpmcalloutsubscribechanges0_func.htm
 tech.root: fwp
 ms.assetid: 1460603c-6897-4559-b376-b87a6c2f4309
-
 ms.date: 12/05/2018
 ms.keywords: FwpmCalloutSubscribeChanges0, FwpmCalloutSubscribeChanges0 function [Filtering], fwp.fwpmcalloutsubscribechanges0_func, fwpmu/FwpmCalloutSubscribeChanges0
 ms.topic: function
-f1_keywords: 
- - "fwpmu/FwpmCalloutSubscribeChanges0"
+f1_keywords:
+- fwpmu/FwpmCalloutSubscribeChanges0
 dev_langs:
- - c++
+- c++
 req.header: fwpmu.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Fwpuclnt.lib
 req.dll: Fwpuclnt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Fwpuclnt.dll
+- Fwpuclnt.dll
 api_name:
- - FwpmCalloutSubscribeChanges0
+- FwpmCalloutSubscribeChanges0
 targetos: Windows
 req.typenames: 
 req.redist: 

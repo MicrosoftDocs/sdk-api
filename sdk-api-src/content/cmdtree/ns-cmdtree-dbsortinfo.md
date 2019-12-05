@@ -1,19 +1,17 @@
 ---
 UID: NS:cmdtree.tagDBSORTINFO
 title: DBSORTINFO (cmdtree.h)
-
 description: The DBSORTINFO structure stores the order in which a column will be sorted (that is, ascending or descending). This information is stored inside a DBOP_sort_list_element node.
 old-location: indexsrv\dbsortinfo.htm
 tech.root: IndexSrv
 ms.assetid: VS|indexsrv|~\html\ixoledb_2mpb.htm
-
 ms.date: 12/05/2018
 ms.keywords: DBSORTINFO, DBSORTINFO structure [Indexing Service], _idxs_DBSORTINFO, cmdtree/DBSORTINFO, indexsrv.dbsortinfo, tagDBSORTINFO
 ms.topic: struct
-f1_keywords: 
- - "cmdtree/DBSORTINFO"
+f1_keywords:
+- cmdtree/DBSORTINFO
 dev_langs:
- - c++
+- c++
 req.header: cmdtree.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - cmdtree.h
+- cmdtree.h
 api_name:
- - DBSORTINFO
+- DBSORTINFO
 targetos: Windows
 req.typenames: DBSORTINFO
 req.redist: 

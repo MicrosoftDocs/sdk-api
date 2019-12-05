@@ -1,19 +1,17 @@
 ---
 UID: NF:wuapi.IUpdateServiceCollection.get_Item
 title: IUpdateServiceCollection::get_Item (wuapi.h)
-
 description: Gets and sets an IUpdateService interface in a collection.
 old-location: wua\iupdateservicecollection_item.htm
 tech.root: Wua_Sdk
 ms.assetid: 581f532d-a973-4b66-9e9e-d8229a3b28b4
-
 ms.date: 12/05/2018
 ms.keywords: IUpdateServiceCollection interface [Windows Update Agent],Item property, IUpdateServiceCollection.Item, IUpdateServiceCollection.get_Item, IUpdateServiceCollection::Item, IUpdateServiceCollection::get_Item, Item property [Windows Update Agent], Item property [Windows Update Agent],IUpdateServiceCollection interface, get_Item, wua.iupdateservicecollection_item, wuapi/IUpdateServiceCollection::Item, wuapi/IUpdateServiceCollection::get_Item
 ms.topic: method
-f1_keywords: 
- - "wuapi/IUpdateServiceCollection.Item"
+f1_keywords:
+- wuapi/IUpdateServiceCollection.Item
 dev_langs:
- - c++
+- c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Wuguid.lib
 req.dll: Wuapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wuapi.dll
+- Wuapi.dll
 api_name:
- - IUpdateServiceCollection.Item
- - IUpdateServiceCollection.get_Item
+- IUpdateServiceCollection.Item
+- IUpdateServiceCollection.get_Item
 targetos: Windows
 req.typenames: 
 req.redist: 

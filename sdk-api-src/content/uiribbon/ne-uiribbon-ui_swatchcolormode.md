@@ -1,19 +1,17 @@
 ---
 UID: NE:uiribbon.UI_SWATCHCOLORMODE
 title: UI_SWATCHCOLORMODE (uiribbon.h)
-
 description: Specifies whether a swatch has normal or monochrome mode.
 old-location: windowsribbon\ui_swatchcolormode.htm
 tech.root: windowsribbon
 ms.assetid: 9ACDE308-B8AE-4986-8B85-190B690A4374
-
 ms.date: 12/05/2018
 ms.keywords: UI_SWATCHCOLORMODE, UI_SWATCHCOLORMODE enumeration [Windows Ribbon], UI_SWATCHCOLORMODE_MONOCHROME, UI_SWATCHCOLORMODE_NORMAL, uiribbon/UI_SWATCHCOLORMODE, uiribbon/UI_SWATCHCOLORMODE_MONOCHROME, uiribbon/UI_SWATCHCOLORMODE_NORMAL, windowsribbon.ui_swatchcolormode
 ms.topic: enum
-f1_keywords: 
- - "uiribbon/UI_SWATCHCOLORMODE"
+f1_keywords:
+- uiribbon/UI_SWATCHCOLORMODE
 dev_langs:
- - c++
+- c++
 req.header: uiribbon.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Uiribbon.h
+- Uiribbon.h
 api_name:
- - UI_SWATCHCOLORMODE
+- UI_SWATCHCOLORMODE
 targetos: Windows
 req.typenames: UI_SWATCHCOLORMODE
 req.redist: 

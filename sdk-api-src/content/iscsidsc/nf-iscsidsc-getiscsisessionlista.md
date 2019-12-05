@@ -1,19 +1,17 @@
 ---
 UID: NF:iscsidsc.GetIScsiSessionListA
 title: GetIScsiSessionListA function (iscsidsc.h)
-
 description: GetIscsiSessionList function retrieves the list of active iSCSI sessions.
 old-location: iscsidisc\getiscsisessionlist.htm
 tech.root: iSCSIDisc
 ms.assetid: b16b9e52-67af-4745-ac67-a2096dafe94e
-
 ms.date: 12/05/2018
 ms.keywords: GetIScsiSessionListA, GetIscsiSessionList, GetIscsiSessionList function [iSCSI Discovery Library API], GetIscsiSessionListA, GetIscsiSessionListW, iscsidisc.getiscsisessionlist, iscsidsc/GetIscsiSessionList, iscsidsc/GetIscsiSessionListA, iscsidsc/GetIscsiSessionListW
 ms.topic: function
-f1_keywords: 
- - "iscsidsc/GetIscsiSessionList"
+f1_keywords:
+- iscsidsc/GetIscsiSessionList
 dev_langs:
- - c++
+- c++
 req.header: iscsidsc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Iscsidsc.lib
 req.dll: Iscsidsc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Iscsidsc.dll
+- Iscsidsc.dll
 api_name:
- - GetIscsiSessionList
- - GetIscsiSessionListA
- - GetIscsiSessionListW
+- GetIscsiSessionList
+- GetIscsiSessionListA
+- GetIscsiSessionListW
 targetos: Windows
 req.typenames: 
 req.redist: 

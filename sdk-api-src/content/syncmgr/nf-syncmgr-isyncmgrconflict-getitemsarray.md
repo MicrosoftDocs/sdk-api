@@ -1,19 +1,17 @@
 ---
 UID: NF:syncmgr.ISyncMgrConflict.GetItemsArray
 title: ISyncMgrConflict::GetItemsArray (syncmgr.h)
-
 description: Retrieves a conflict items array.
 old-location: shell\ISyncMgrConflict_GetItemsArray.htm
 tech.root: shell
 ms.assetid: 6c836522-fb04-4176-a9b3-7602ae2d71a1
-
 ms.date: 12/05/2018
 ms.keywords: GetItemsArray, GetItemsArray method [Windows Shell], GetItemsArray method [Windows Shell],ISyncMgrConflict interface, ISyncMgrConflict interface [Windows Shell],GetItemsArray method, ISyncMgrConflict.GetItemsArray, ISyncMgrConflict::GetItemsArray, _shell_ISyncMgrConflict_GetItemsArray, shell.ISyncMgrConflict_GetItemsArray, syncmgr/ISyncMgrConflict::GetItemsArray
 ms.topic: method
-f1_keywords: 
- - "syncmgr/ISyncMgrConflict.GetItemsArray"
+f1_keywords:
+- syncmgr/ISyncMgrConflict.GetItemsArray
 dev_langs:
- - c++
+- c++
 req.header: syncmgr.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Syncmgr.h
+- Syncmgr.h
 api_name:
- - ISyncMgrConflict.GetItemsArray
+- ISyncMgrConflict.GetItemsArray
 targetos: Windows
 req.typenames: 
 req.redist: 

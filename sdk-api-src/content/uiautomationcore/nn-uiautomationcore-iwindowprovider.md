@@ -1,19 +1,17 @@
 ---
 UID: NN:uiautomationcore.IWindowProvider
 title: IWindowProvider (uiautomationcore.h)
-
 description: Provides access to the fundamental window-based functionality of a control.
 old-location: winauto\uiauto_IWindowProvider.htm
 tech.root: WinAuto
 ms.assetid: cf09ad4e-fd5b-4304-b5fb-165205bff1f3
-
 ms.date: 12/05/2018
 ms.keywords: IWindowProvider, IWindowProvider interface [Windows Accessibility], IWindowProvider interface [Windows Accessibility],described, uiauto.uiauto_IWindowProvider, uiauto_IWindowProvider, uiautomationcore/IWindowProvider, winauto.uiauto_IWindowProvider
 ms.topic: interface
-f1_keywords: 
- - "uiautomationcore/IWindowProvider"
+f1_keywords:
+- uiautomationcore/IWindowProvider
 dev_langs:
- - c++
+- c++
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: UIAutomationCore.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationCore.dll
+- UIAutomationCore.dll
 api_name:
- - IWindowProvider
+- IWindowProvider
 targetos: Windows
 req.typenames: 
 req.redist: 

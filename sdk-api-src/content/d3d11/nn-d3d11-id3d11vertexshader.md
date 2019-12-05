@@ -1,19 +1,17 @@
 ---
 UID: NN:d3d11.ID3D11VertexShader
 title: ID3D11VertexShader (d3d11.h)
-
 description: A vertex-shader interface manages an executable program (a vertex shader) that controls the vertex-shader stage.
 old-location: direct3d11\id3d11vertexshader.htm
 tech.root: direct3d11
 ms.assetid: 8300ec12-ecf5-49c2-9313-b542a7d971f3
-
 ms.date: 12/05/2018
 ms.keywords: ID3D11VertexShader, ID3D11VertexShader interface [Direct3D 11], ID3D11VertexShader interface [Direct3D 11],described, b9c949e5-8c3e-0e31-c320-230e1c67dfaf, d3d11/ID3D11VertexShader, direct3d11.id3d11vertexshader
 ms.topic: interface
-f1_keywords: 
- - "d3d11/ID3D11VertexShader"
+f1_keywords:
+- d3d11/ID3D11VertexShader
 dev_langs:
- - c++
+- c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: D3D11.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D11.lib
- - D3D11.dll
+- D3D11.lib
+- D3D11.dll
 api_name:
- - ID3D11VertexShader
+- ID3D11VertexShader
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:wlanapi.WFDCloseSession
 title: WFDCloseSession function (wlanapi.h)
-
 description: Closes a session after a previously successful call to the WFDStartOpenSession function.
 old-location: nwifi\wfdclosesession.htm
 tech.root: NativeWiFi
 ms.assetid: DEAF32C9-64A6-419A-A466-DE2313AE534C
-
 ms.date: 12/05/2018
 ms.keywords: WFDCloseSession, WFDCloseSession function [NativeWIFI], nwifi.wfdclosesession, wlanapi/WFDCloseSession
 ms.topic: function
-f1_keywords: 
- - "wlanapi/WFDCloseSession"
+f1_keywords:
+- wlanapi/WFDCloseSession
 dev_langs:
- - c++
+- c++
 req.header: wlanapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Wlanapi.lib
 req.dll: Wlanapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - wlanapi.dll
+- wlanapi.dll
 api_name:
- - WFDCloseSession
+- WFDCloseSession
 targetos: Windows
 req.typenames: 
 req.redist: 

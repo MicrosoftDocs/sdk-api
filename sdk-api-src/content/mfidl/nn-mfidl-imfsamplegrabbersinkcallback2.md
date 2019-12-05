@@ -1,19 +1,17 @@
 ---
 UID: NN:mfidl.IMFSampleGrabberSinkCallback2
 title: IMFSampleGrabberSinkCallback2 (mfidl.h)
-
 description: Extends the IMFSampleGrabberSinkCallback interface.
 old-location: mf\imfsamplegrabbersinkcallback2.htm
 tech.root: medfound
 ms.assetid: b303361b-baaf-4d64-aa5b-a26dd70413f2
-
 ms.date: 12/05/2018
 ms.keywords: IMFSampleGrabberSinkCallback2, IMFSampleGrabberSinkCallback2 interface [Media Foundation], IMFSampleGrabberSinkCallback2 interface [Media Foundation],described, mf.imfsamplegrabbersinkcallback2, mfidl/IMFSampleGrabberSinkCallback2
 ms.topic: interface
-f1_keywords: 
- - "mfidl/IMFSampleGrabberSinkCallback2"
+f1_keywords:
+- mfidl/IMFSampleGrabberSinkCallback2
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfidl.h
+- mfidl.h
 api_name:
- - IMFSampleGrabberSinkCallback2
+- IMFSampleGrabberSinkCallback2
 targetos: Windows
 req.typenames: 
 req.redist: 

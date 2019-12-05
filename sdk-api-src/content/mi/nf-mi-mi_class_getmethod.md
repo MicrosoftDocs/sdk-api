@@ -1,19 +1,17 @@
 ---
 UID: NF:mi.MI_Class_GetMethod
 title: MI_Class_GetMethod function (mi.h)
-
 description: Gets details of a method based on the method name.
 old-location: wmi_v2\mi_class_getmethod.htm
 tech.root: wmi_v2
 ms.assetid: 9e6f6ef0-ca19-4416-baf7-bb2ab1d6d33d
-
 ms.date: 12/05/2018
 ms.keywords: MI_Class_GetMethod, MI_Class_GetMethod function [Windows Management Infrastructure (MI)], mi/MI_Class_GetMethod, wmi_v2.mi_class_getmethod
 ms.topic: function
-f1_keywords: 
- - "mi/MI_Class_GetMethod"
+f1_keywords:
+- mi/MI_Class_GetMethod
 dev_langs:
- - c++
+- c++
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Mi.h
+- Mi.h
 api_name:
- - MI_Class_GetMethod
+- MI_Class_GetMethod
 targetos: Windows
 req.typenames: 
 req.redist: Windows Management Framework 3.0 on Windows Server 2008 R2 with SP1, Windows 7 with SP1, and Windows Server 2008 with SP2

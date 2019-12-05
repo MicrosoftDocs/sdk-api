@@ -1,19 +1,17 @@
 ---
 UID: NF:tom.ITextFont2.SetCookie
 title: ITextFont2::SetCookie (tom.h)
-
 description: Sets the client cookie.
 old-location: controls\itextfont2_setcookie.htm
 tech.root: Controls
 ms.assetid: d1b4c7a8-ba4c-482f-8431-14d45474ccc0
-
 ms.date: 12/05/2018
 ms.keywords: ITextFont2 interface [Windows Controls],SetCookie method, ITextFont2.SetCookie, ITextFont2::SetCookie, SetCookie, SetCookie method [Windows Controls], SetCookie method [Windows Controls],ITextFont2 interface, controls.itextfont2_setcookie, tom/ITextFont2::SetCookie
 ms.topic: method
-f1_keywords: 
- - "tom/ITextFont2.SetCookie"
+f1_keywords:
+- tom/ITextFont2.SetCookie
 dev_langs:
- - c++
+- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msftedit.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msftedit.dll
+- Msftedit.dll
 api_name:
- - ITextFont2.SetCookie
+- ITextFont2.SetCookie
 targetos: Windows
 req.typenames: 
 req.redist: 

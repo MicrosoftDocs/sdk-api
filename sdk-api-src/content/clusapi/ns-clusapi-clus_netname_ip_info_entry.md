@@ -1,19 +1,17 @@
 ---
 UID: NS:clusapi.CLUS_NETNAME_IP_INFO_ENTRY
 title: CLUS_NETNAME_IP_INFO_ENTRY (clusapi.h)
-
 description: Represents IP information for a NetName resource.
 old-location: mscs\clus_netname_ip_info_entry.htm
 tech.root: MsCS
 ms.assetid: 9631BDB9-6B7C-4BFF-9654-20C77F851A22
-
 ms.date: 12/05/2018
-ms.keywords: "*PCLUS_NETNAME_IP_INFO_ENTRY, CLUS_NETNAME_IP_INFO_ENTRY, CLUS_NETNAME_IP_INFO_ENTRY structure [Failover Cluster], PCLUS_NETNAME_IP_INFO_ENTRY, PCLUS_NETNAME_IP_INFO_ENTRY structure pointer [Failover Cluster], clusapi/CLUS_NETNAME_IP_INFO_ENTRY, clusapi/PCLUS_NETNAME_IP_INFO_ENTRY, mscs.clus_netname_ip_info_entry"
+ms.keywords: '*PCLUS_NETNAME_IP_INFO_ENTRY, CLUS_NETNAME_IP_INFO_ENTRY, CLUS_NETNAME_IP_INFO_ENTRY structure [Failover Cluster], PCLUS_NETNAME_IP_INFO_ENTRY, PCLUS_NETNAME_IP_INFO_ENTRY structure pointer [Failover Cluster], clusapi/CLUS_NETNAME_IP_INFO_ENTRY, clusapi/PCLUS_NETNAME_IP_INFO_ENTRY, mscs.clus_netname_ip_info_entry'
 ms.topic: struct
-f1_keywords: 
- - "clusapi/CLUS_NETNAME_IP_INFO_ENTRY"
+f1_keywords:
+- clusapi/CLUS_NETNAME_IP_INFO_ENTRY
 dev_langs:
- - c++
+- c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - ClusApi.h
+- ClusApi.h
 api_name:
- - CLUS_NETNAME_IP_INFO_ENTRY
+- CLUS_NETNAME_IP_INFO_ENTRY
 targetos: Windows
 req.typenames: CLUS_NETNAME_IP_INFO_ENTRY, *PCLUS_NETNAME_IP_INFO_ENTRY
 req.redist: 

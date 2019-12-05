@@ -1,24 +1,22 @@
 ---
 UID: NF:unknwn.IUnknown.QueryInterface(Q)
 title: IUnknown::QueryInterface(Q,)
-
 description: A helper function template that infers an interface identifier, and calls [QueryInterface(REFIID,void)](/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(refiid_void)).
 old-location: com\iunknown_queryinterface.htm
 tech.root: com
 ms.assetid: 54d5ff80-18db-43f2-b636-f93ac053146d
-
 ms.date: 05/31/2019
 ms.keywords: IUnknown interface [COM],QueryInterface method, IUnknown.QueryInterface, IUnknown.QueryInterface(Q,), IUnknown::QueryInterface, IUnknown::QueryInterface(Q,), QueryInterface, QueryInterface method [COM], QueryInterface method [COM],IUnknown interface, _com_iunknown_queryinterface, com.iunknown_queryinterface, unknwn/IUnknown::QueryInterface
 ms.topic: method
-f1_keywords: 
- - "unknwn/IUnknown.QueryInterface"
+f1_keywords:
+- unknwn/IUnknown.QueryInterface
 dev_langs:
- - c++
+- c++
 req.header: unknwn.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
-req.target-min-winversvr: Windows 2000 Server [desktop apps only]
+req.target-min-winverclnt: Windowsï¿½2000 Professional [desktop apps only]
+req.target-min-winversvr: Windowsï¿½2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Unknwn.h
+- Unknwn.h
 api_name:
- - IUnknown.QueryInterface
+- IUnknown.QueryInterface
 targetos: Windows
 req.typenames: 
 req.redist: 

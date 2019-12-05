@@ -1,19 +1,17 @@
 ---
 UID: NE:d3d11_2.D3D11_CHECK_MULTISAMPLE_QUALITY_LEVELS_FLAG
 title: D3D11_CHECK_MULTISAMPLE_QUALITY_LEVELS_FLAG (d3d11_2.h)
-
 description: Identifies how to check multisample quality levels.
 old-location: direct3d11\d3d11_check_multisample_quality_levels_flags.htm
 tech.root: direct3d11
 ms.assetid: 756AD5B2-3B6A-4F28-B034-93F59C41D02B
-
 ms.date: 12/05/2018
 ms.keywords: D3D11_CHECK_MULTISAMPLE_QUALITY_LEVELS_FLAG, D3D11_CHECK_MULTISAMPLE_QUALITY_LEVELS_FLAG enumeration [Direct3D 11], D3D11_CHECK_MULTISAMPLE_QUALITY_LEVELS_TILED_RESOURCE, d3d11_2/D3D11_CHECK_MULTISAMPLE_QUALITY_LEVELS_FLAG, d3d11_2/D3D11_CHECK_MULTISAMPLE_QUALITY_LEVELS_TILED_RESOURCE, direct3d11.d3d11_check_multisample_quality_levels_flags
 ms.topic: enum
-f1_keywords: 
- - "d3d11_2/D3D11_CHECK_MULTISAMPLE_QUALITY_LEVELS_FLAG"
+f1_keywords:
+- d3d11_2/D3D11_CHECK_MULTISAMPLE_QUALITY_LEVELS_FLAG
 dev_langs:
- - c++
+- c++
 req.header: d3d11_2.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - D3D11_2.h
+- D3D11_2.h
 api_name:
- - D3D11_CHECK_MULTISAMPLE_QUALITY_LEVELS_FLAG
+- D3D11_CHECK_MULTISAMPLE_QUALITY_LEVELS_FLAG
 targetos: Windows
 req.typenames: D3D11_CHECK_MULTISAMPLE_QUALITY_LEVELS_FLAG
 req.redist: 

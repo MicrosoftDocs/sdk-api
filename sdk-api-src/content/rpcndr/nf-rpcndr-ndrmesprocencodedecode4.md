@@ -1,19 +1,17 @@
 ---
 UID: NF:rpcndr.NdrMesProcEncodeDecode4
 title: NdrMesProcEncodeDecode4 function (rpcndr.h)
-
 description: NdrMesProcEncodeDecode4 may be altered or unavailable.
 old-location: rpc\ndrmesprocencodedecode4.htm
 tech.root: Rpc
 ms.assetid: 53A24D77-0C23-4C06-AAB8-521528297E4F
-
 ms.date: 12/05/2018
 ms.keywords: NdrMesProcEncodeDecode4, NdrMesProcEncodeDecode4 function [RPC], rpc.ndrmesprocencodedecode4, rpcndr/NdrMesProcEncodeDecode4
 ms.topic: function
-f1_keywords: 
- - "rpcndr/NdrMesProcEncodeDecode4"
+f1_keywords:
+- rpcndr/NdrMesProcEncodeDecode4
 dev_langs:
- - c++
+- c++
 req.header: rpcndr.h
 req.include-header: Rpc.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: RpcRT4.lib
 req.dll: RpcRT4.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - RpcRT4.dll
+- RpcRT4.dll
 api_name:
- - NdrMesProcEncodeDecode4
+- NdrMesProcEncodeDecode4
 targetos: Windows
 req.typenames: 
 req.redist: 

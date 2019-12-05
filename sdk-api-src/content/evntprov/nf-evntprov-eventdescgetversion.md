@@ -1,19 +1,17 @@
 ---
 UID: NF:evntprov.EventDescGetVersion
 title: EventDescGetVersion function (evntprov.h)
-
 description: Retrieves the version from the event descriptor.
 old-location: etw\eventdescgetversion_func.htm
 tech.root: ETW
 ms.assetid: 3881f089-d0c6-4d46-929a-09777df13f61
-
 ms.date: 12/05/2018
 ms.keywords: EventDescGetVersion, EventDescGetVersion function [ETW], base.eventdescgetversion_func, etw.eventdescgetversion_func, evntprov/EventDescGetVersion
 ms.topic: function
 f1_keywords:
 - evntprov/EventDescGetVersion
 dev_langs:
- - c++
+- c++
 req.header: evntprov.h
 req.include-header: 
 req.target-type: Windows

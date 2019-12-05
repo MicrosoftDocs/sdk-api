@@ -1,19 +1,17 @@
 ---
 UID: NN:uiautomationcore.IRawElementProviderHostingAccessibles
 title: IRawElementProviderHostingAccessibles (uiautomationcore.h)
-
 description: This interface is implemented by a Microsoft UI Automation provider when the provider is the root of an accessibility tree that includes windowless controls that support Microsoft Active Accessibility.
 old-location: winauto\uiauto_IRawElementProviderHostingAccessibles.htm
 tech.root: WinAuto
 ms.assetid: 2DBD5B1A-127A-4D71-8117-5FCCE653698C
-
 ms.date: 12/05/2018
 ms.keywords: IRawElementProviderHostingAccessibles, IRawElementProviderHostingAccessibles interface [Windows Accessibility], IRawElementProviderHostingAccessibles interface [Windows Accessibility],described, uiautomationcore/IRawElementProviderHostingAccessibles, winauto.uiauto_IRawElementProviderHostingAccessibles
 ms.topic: interface
-f1_keywords: 
- - "uiautomationcore/IRawElementProviderHostingAccessibles"
+f1_keywords:
+- uiautomationcore/IRawElementProviderHostingAccessibles
 dev_langs:
- - c++
+- c++
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: UIAutomationCore.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationCore.dll
+- UIAutomationCore.dll
 api_name:
- - IRawElementProviderHostingAccessibles
+- IRawElementProviderHostingAccessibles
 targetos: Windows
 req.typenames: 
 req.redist: 

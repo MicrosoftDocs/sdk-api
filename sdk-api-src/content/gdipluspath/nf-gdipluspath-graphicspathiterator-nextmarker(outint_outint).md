@@ -3,14 +3,13 @@ UID: NF:gdipluspath.GraphicsPathIterator.NextMarker(OUT INT,OUT INT)
 title: GraphicsPathIterator::NextMarker
 description: The GraphicsPathIterator::NextMarker method gets the starting index and the ending index of a section.
 ms.assetid: 42272823-7990-4c6e-bb47-4065f568d4bd
-
 ms.date: 05/13/2019
 ms.keywords: GraphicsPathIterator::NextMarker
 ms.topic: language-reference
-f1_keywords: 
- - "gdipluspath/GraphicsPathIterator::NextMarker"
+f1_keywords:
+- gdipluspath/GraphicsPathIterator::NextMarker
 dev_langs:
- - c++
+- c++
 targetos: Windows
 req.assembly: 
 req.construct-type: function
@@ -32,13 +31,13 @@ req.type-library:
 req.umdf-ver: 
 req.unicode-ansi: 
 topic_type:
- - apiref
+- apiref
 api_type:
- - COM
+- COM
 api_location:
- - gdipluspath.h
+- gdipluspath.h
 api_name:
- - GraphicsPathIterator::NextMarker
+- GraphicsPathIterator::NextMarker
 ---
 
 # GraphicsPathIterator::NextMarker

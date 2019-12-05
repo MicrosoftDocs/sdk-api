@@ -1,19 +1,17 @@
 ---
 UID: NF:ctfutb.ITfLangBarItemBalloon.GetBalloonInfo
 title: ITfLangBarItemBalloon::GetBalloonInfo (ctfutb.h)
-
 description: ITfLangBarItemBalloon::GetBalloonInfo method
 old-location: tsf\itflangbaritemballoon_getballooninfo.htm
 tech.root: TSF
 ms.assetid: 4cf695dc-dfb7-4541-a364-4395650f9419
-
 ms.date: 12/05/2018
 ms.keywords: GetBalloonInfo, GetBalloonInfo method [Text Services Framework], GetBalloonInfo method [Text Services Framework],ITfLangBarItemBalloon interface, ITfLangBarItemBalloon interface [Text Services Framework],GetBalloonInfo method, ITfLangBarItemBalloon.GetBalloonInfo, ITfLangBarItemBalloon::GetBalloonInfo, _tsf_itflangbaritemballoon_getballooninfo_ref, ctfutb/ITfLangBarItemBalloon::GetBalloonInfo, tsf.itflangbaritemballoon_getballooninfo
 ms.topic: method
-f1_keywords: 
- - "ctfutb/ITfLangBarItemBalloon.GetBalloonInfo"
+f1_keywords:
+- ctfutb/ITfLangBarItemBalloon.GetBalloonInfo
 dev_langs:
- - c++
+- c++
 req.header: ctfutb.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msctf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msctf.dll
+- msctf.dll
 api_name:
- - ITfLangBarItemBalloon.GetBalloonInfo
+- ITfLangBarItemBalloon.GetBalloonInfo
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

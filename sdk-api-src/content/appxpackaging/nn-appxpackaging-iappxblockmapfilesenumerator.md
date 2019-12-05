@@ -1,19 +1,17 @@
 ---
 UID: NN:appxpackaging.IAppxBlockMapFilesEnumerator
 title: IAppxBlockMapFilesEnumerator (appxpackaging.h)
-
 description: Enumerates the files from a block map.
 old-location: appxpkg\iappxblockmapfilesenumerator.htm
 tech.root: appxpkg
 ms.assetid: AC2E55C3-1EEF-4867-BECC-37F6269029D6
-
 ms.date: 12/05/2018
 ms.keywords: IAppxBlockMapFilesEnumerator, IAppxBlockMapFilesEnumerator interface [App packaging and management], IAppxBlockMapFilesEnumerator interface [App packaging and management],described, appxpackaging/IAppxBlockMapFilesEnumerator, appxpkg.iappxblockmapfilesenumerator
 ms.topic: interface
-f1_keywords: 
- - "appxpackaging/IAppxBlockMapFilesEnumerator"
+f1_keywords:
+- appxpackaging/IAppxBlockMapFilesEnumerator
 dev_langs:
- - c++
+- c++
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - AppxPackaging.h
+- AppxPackaging.h
 api_name:
- - IAppxBlockMapFilesEnumerator
+- IAppxBlockMapFilesEnumerator
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NS:vidcap.__MIDL___MIDL_itf_vidcap_0000_0000_0001
 title: KSTOPOLOGY_CONNECTION (vidcap.h)
-
 description: This topic applies to Windows XP Service Pack 2 or later. The KSTOPOLOGY_CONNECTION structure describes a node connection within a kernel-streaming (KS) filter. A node can be connected to another node within the filter, or to a pin on the filter.
 old-location: dshow\kstopology_connection.htm
 tech.root: DirectShow
 ms.assetid: 8fca47b7-4c52-46db-809c-77a0e3414276
-
 ms.date: 12/05/2018
-ms.keywords: "*PKSTOPOLOGY_CONNECTION, KSTOPOLOGY_CONNECTION, KSTOPOLOGY_CONNECTION structure [DirectShow], KSTOPOLOGY_CONNECTIONStructure, PKSTOPOLOGY_CONNECTION, PKSTOPOLOGY_CONNECTION structure pointer [DirectShow], dshow.kstopology_connection, vidcap/KSTOPOLOGY_CONNECTION, vidcap/PKSTOPOLOGY_CONNECTION"
+ms.keywords: '*PKSTOPOLOGY_CONNECTION, KSTOPOLOGY_CONNECTION, KSTOPOLOGY_CONNECTION structure [DirectShow], KSTOPOLOGY_CONNECTIONStructure, PKSTOPOLOGY_CONNECTION, PKSTOPOLOGY_CONNECTION structure pointer [DirectShow], dshow.kstopology_connection, vidcap/KSTOPOLOGY_CONNECTION, vidcap/PKSTOPOLOGY_CONNECTION'
 ms.topic: struct
-f1_keywords: 
- - "vidcap/KSTOPOLOGY_CONNECTION"
+f1_keywords:
+- vidcap/KSTOPOLOGY_CONNECTION
 dev_langs:
- - c++
+- c++
 req.header: vidcap.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - vidcap.h
+- vidcap.h
 api_name:
- - KSTOPOLOGY_CONNECTION
+- KSTOPOLOGY_CONNECTION
 targetos: Windows
 req.typenames: KSTOPOLOGY_CONNECTION, *PKSTOPOLOGY_CONNECTION
 req.redist: 

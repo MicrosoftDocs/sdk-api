@@ -1,19 +1,17 @@
 ---
 UID: NF:comsvcs.IComQCEvents.OnQCQueueOpen
 title: IComQCEvents::OnQCQueueOpen (comsvcs.h)
-
 description: Generated when a queued components queue is opened.
 old-location: cos\icomqcevents_onqcqueueopen.htm
 tech.root: cossdk
 ms.assetid: 7dcd1726-650a-4bb5-ae12-48c6989e1692
-
 ms.date: 12/05/2018
 ms.keywords: IComQCEvents interface [COM+],OnQCQueueOpen method, IComQCEvents.OnQCQueueOpen, IComQCEvents::OnQCQueueOpen, OnQCQueueOpen, OnQCQueueOpen method [COM+], OnQCQueueOpen method [COM+],IComQCEvents interface, _dtc_IComQCEvents_OnQCQueueOpen, comsvcs/IComQCEvents::OnQCQueueOpen, cos.icomqcevents_onqcqueueopen
 ms.topic: method
-f1_keywords: 
- - "comsvcs/IComQCEvents.OnQCQueueOpen"
+f1_keywords:
+- comsvcs/IComQCEvents.OnQCQueueOpen
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - IComQCEvents.OnQCQueueOpen
+- IComQCEvents.OnQCQueueOpen
 targetos: Windows
 req.typenames: 
 req.redist: 

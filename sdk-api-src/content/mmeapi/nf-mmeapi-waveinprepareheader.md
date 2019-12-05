@@ -1,19 +1,17 @@
 ---
 UID: NF:mmeapi.waveInPrepareHeader
 title: waveInPrepareHeader function (mmeapi.h)
-
 description: The waveInPrepareHeader function prepares a buffer for waveform-audio input.
 old-location: multimedia\waveinprepareheader.htm
 tech.root: Multimedia
 ms.assetid: 2b99eb91-2cc6-4394-af57-4b1276f08974
-
 ms.date: 12/05/2018
-ms.keywords: "_win32_waveInPrepareHeader, mmeapi/waveInPrepareHeader, multimedia.waveinprepareheader, waveInPrepareHeader, waveInPrepareHeader function [Windows Multimedia]"
+ms.keywords: _win32_waveInPrepareHeader, mmeapi/waveInPrepareHeader, multimedia.waveinprepareheader, waveInPrepareHeader, waveInPrepareHeader function [Windows Multimedia]
 ms.topic: function
-f1_keywords: 
- - "mmeapi/waveInPrepareHeader"
+f1_keywords:
+- mmeapi/waveInPrepareHeader
 dev_langs:
- - c++
+- c++
 req.header: mmeapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Winmm.lib
 req.dll: Winmm.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Winmm.dll
- - API-MS-Win-mm-mme-l1-1-0.dll
- - winmmbase.dll
+- Winmm.dll
+- API-MS-Win-mm-mme-l1-1-0.dll
+- winmmbase.dll
 api_name:
- - waveInPrepareHeader
+- waveInPrepareHeader
 targetos: Windows
 req.typenames: 
 req.redist: 

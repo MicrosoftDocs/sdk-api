@@ -1,19 +1,17 @@
 ---
 UID: NS:msacm.tACMFORMATTAGDETAILS
 title: ACMFORMATTAGDETAILS (msacm.h)
-
 description: The ACMFORMATTAGDETAILS structure details a waveform-audio format tag for an ACM driver.
 old-location: multimedia\acmformattagdetails_struct.htm
 tech.root: Multimedia
 ms.assetid: 134cccb1-4065-407f-a02b-7bd340b4a8cf
-
 ms.date: 12/05/2018
-ms.keywords: "*LPACMFORMATTAGDETAILS, *PACMFORMATTAGDETAILS, ACMDRIVERDETAILS_SUPPORTF_ASYNC, ACMDRIVERDETAILS_SUPPORTF_CODEC, ACMDRIVERDETAILS_SUPPORTF_CONVERTER, ACMDRIVERDETAILS_SUPPORTF_FILTER, ACMDRIVERDETAILS_SUPPORTF_HARDWARE, ACMFORMATTAGDETAILS, ACMFORMATTAGDETAILS structure [Windows Multimedia], msacm/ACMFORMATTAGDETAILS, multimedia.acmformattagdetails_COLLISION956, multimedia.acmformattagdetails_struct"
+ms.keywords: '*LPACMFORMATTAGDETAILS, *PACMFORMATTAGDETAILS, ACMDRIVERDETAILS_SUPPORTF_ASYNC, ACMDRIVERDETAILS_SUPPORTF_CODEC, ACMDRIVERDETAILS_SUPPORTF_CONVERTER, ACMDRIVERDETAILS_SUPPORTF_FILTER, ACMDRIVERDETAILS_SUPPORTF_HARDWARE, ACMFORMATTAGDETAILS, ACMFORMATTAGDETAILS structure [Windows Multimedia], msacm/ACMFORMATTAGDETAILS, multimedia.acmformattagdetails_COLLISION956, multimedia.acmformattagdetails_struct'
 ms.topic: struct
-f1_keywords: 
- - "msacm/ACMFORMATTAGDETAILS"
+f1_keywords:
+- msacm/ACMFORMATTAGDETAILS
 dev_langs:
- - c++
+- c++
 req.header: msacm.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Msacm.h
+- Msacm.h
 api_name:
- - ACMFORMATTAGDETAILS
+- ACMFORMATTAGDETAILS
 targetos: Windows
 req.typenames: ACMFORMATTAGDETAILS, *PACMFORMATTAGDETAILS, *LPACMFORMATTAGDETAILS
 req.redist: 

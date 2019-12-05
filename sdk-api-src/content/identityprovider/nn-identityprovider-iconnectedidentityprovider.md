@@ -1,19 +1,17 @@
 ---
 UID: NN:identityprovider.IConnectedIdentityProvider
 title: IConnectedIdentityProvider (identityprovider.h)
-
 description: Provides methods of interaction with a connected identity provider.
 old-location: security\iconnectedidentityprovider.htm
 tech.root: SecAuthN
 ms.assetid: 0AF5036B-326E-4FBE-9F26-18F532EF0BB3
-
 ms.date: 12/05/2018
 ms.keywords: IConnectedIdentityProvider, IConnectedIdentityProvider interface [Security], IConnectedIdentityProvider interface [Security],described, identityprovider/IConnectedIdentityProvider, security.iconnectedidentityprovider
 ms.topic: interface
-f1_keywords: 
- - "identityprovider/IConnectedIdentityProvider"
+f1_keywords:
+- identityprovider/IConnectedIdentityProvider
 dev_langs:
- - c++
+- c++
 req.header: identityprovider.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Identityprovider.h
+- Identityprovider.h
 api_name:
- - IConnectedIdentityProvider
+- IConnectedIdentityProvider
 targetos: Windows
 req.typenames: 
 req.redist: 

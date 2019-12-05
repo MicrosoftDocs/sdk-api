@@ -1,19 +1,17 @@
 ---
 UID: NN:mdhcp.IMcastScope
 title: IMcastScope (mdhcp.h)
-
 description: The IMcastScope interface is obtained by calling IMcastAddressAllocation::EnumerateScopes or IMcastAddressAllocation::get_Scopes.
 old-location: tapi3\imcastscope.htm
 tech.root: Tapi
 ms.assetid: b0252ac4-856e-4aa7-aa3b-37b92472e864
-
 ms.date: 12/05/2018
 ms.keywords: IMcastScope, IMcastScope interface [TAPI 2.2], IMcastScope interface [TAPI 2.2],described, _tapi3_imcastscope, mdhcp/IMcastScope, tapi3.imcastscope
 ms.topic: interface
-f1_keywords: 
- - "mdhcp/IMcastScope"
+f1_keywords:
+- mdhcp/IMcastScope
 dev_langs:
- - c++
+- c++
 req.header: mdhcp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Mdhcp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mdhcp.dll
+- Mdhcp.dll
 api_name:
- - IMcastScope
+- IMcastScope
 targetos: Windows
 req.typenames: 
 req.redist: 

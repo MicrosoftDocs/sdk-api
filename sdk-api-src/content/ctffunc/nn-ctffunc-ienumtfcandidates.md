@@ -1,19 +1,17 @@
 ---
 UID: NN:ctffunc.IEnumTfCandidates
 title: IEnumTfCandidates (ctffunc.h)
-
 description: The IEnumTfCandidates interface is implemented by a text service and used by the TSF manager to provide an enumeration of candidate string objects.
 old-location: tsf\ienumtfcandidates.htm
 tech.root: TSF
 ms.assetid: 4daef7e9-e5ab-4eb8-acb6-a475b84d4de6
-
 ms.date: 12/05/2018
 ms.keywords: IEnumTfCandidates, IEnumTfCandidates interface [Text Services Framework], IEnumTfCandidates interface [Text Services Framework],described, _tsf_ienumtfcandidates_ref, ctffunc/IEnumTfCandidates, tsf.ienumtfcandidates
 ms.topic: interface
-f1_keywords: 
- - "ctffunc/IEnumTfCandidates"
+f1_keywords:
+- ctffunc/IEnumTfCandidates
 dev_langs:
- - c++
+- c++
 req.header: ctffunc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msctf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msctf.dll
+- Msctf.dll
 api_name:
- - IEnumTfCandidates
+- IEnumTfCandidates
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

@@ -1,19 +1,17 @@
 ---
 UID: NF:directxcollision.BoundingBox.Transform(BoundingBox &,float,FXMVECTOR,FXMVECTOR)
 title: BoundingBox::Transform(BoundingBox &,float,FXMVECTOR,FXMVECTOR)
-
 description: Transforms the BoundingBox.
 old-location: dxmath\boundingbox_transform_1.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.directxcollision.BoundingBox.Transform(BoundingBox@,float,XMVECTOR,XMVECTOR)
-
 ms.date: 12/05/2018
 ms.keywords: BoundingBox interface [DirectX Math Support APIs],Transform method, BoundingBox.Transform, BoundingBox.Transform(BoundingBox &,float,FXMVECTOR,FXMVECTOR), BoundingBox.Transform(BoundingBox&,float,XMVECTOR,XMVECTOR), BoundingBox::Transform, BoundingBox::Transform(BoundingBox &,float,FXMVECTOR,FXMVECTOR), Transform, Transform method [DirectX Math Support APIs], Transform method [DirectX Math Support APIs],BoundingBox interface, dxmath.boundingbox_transform_1
 ms.topic: method
-f1_keywords: 
- - "directxcollision/BoundingBox.Transform"
+f1_keywords:
+- directxcollision/BoundingBox.Transform
 dev_langs:
- - c++
+- c++
 req.header: directxcollision.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - DirectXCollision.h
+- DirectXCollision.h
 api_name:
- - BoundingBox.Transform
+- BoundingBox.Transform
 targetos: Windows
 req.typenames: 
 req.redist: 

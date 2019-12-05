@@ -1,19 +1,17 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMVisual.SetTransformLocal
 title: IXpsOMVisual::SetTransformLocal (xpsobjectmodel.h)
-
 description: Sets the local, unshared matrix transform.
 old-location: xps\ixpsomvisual_settransformlocal.htm
 tech.root: printdocs
 ms.assetid: ac087cb0-dd3c-4f4b-a6e0-6f0f0a219d8a
-
 ms.date: 12/05/2018
 ms.keywords: IXpsOMVisual interface [XPS Documents and Packaging],SetTransformLocal method, IXpsOMVisual.SetTransformLocal, IXpsOMVisual::SetTransformLocal, SetTransformLocal, SetTransformLocal method [XPS Documents and Packaging], SetTransformLocal method [XPS Documents and Packaging],IXpsOMVisual interface, xps.ixpsomvisual_settransformlocal, xpsobjectmodel/IXpsOMVisual::SetTransformLocal
 ms.topic: method
-f1_keywords: 
- - "xpsobjectmodel/IXpsOMVisual.SetTransformLocal"
+f1_keywords:
+- xpsobjectmodel/IXpsOMVisual.SetTransformLocal
 dev_langs:
- - c++
+- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsobjectmodel.h
+- xpsobjectmodel.h
 api_name:
- - IXpsOMVisual.SetTransformLocal
+- IXpsOMVisual.SetTransformLocal
 targetos: Windows
 req.typenames: 
 req.redist: 

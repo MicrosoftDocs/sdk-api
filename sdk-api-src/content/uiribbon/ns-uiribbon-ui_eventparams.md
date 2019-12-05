@@ -1,19 +1,17 @@
 ---
 UID: NS:uiribbon._UI_EVENTPARAMS
 title: UI_EVENTPARAMS (uiribbon.h)
-
 description: Contains information about a Ribbon event.
 old-location: windowsribbon\ui_eventparams.htm
 tech.root: windowsribbon
 ms.assetid: 438ACF91-3C83-4E2D-B919-4CCAE65BCD3E
-
 ms.date: 12/05/2018
 ms.keywords: PUI_EVENTPARAMS, PUI_EVENTPARAMS structure pointer [Windows Ribbon], UI_EVENTPARAMS, UI_EVENTPARAMS structure [Windows Ribbon], uiribbon/PUI_EVENTPARAMS, uiribbon/UI_EVENTPARAMS, windowsribbon.ui_eventparams
 ms.topic: struct
-f1_keywords: 
- - "uiribbon/UI_EVENTPARAMS"
+f1_keywords:
+- uiribbon/UI_EVENTPARAMS
 dev_langs:
- - c++
+- c++
 req.header: uiribbon.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Uiribbon.h
+- Uiribbon.h
 api_name:
- - UI_EVENTPARAMS
+- UI_EVENTPARAMS
 targetos: Windows
 req.typenames: UI_EVENTPARAMS
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:msinkaut.IInkRecognizerContext.get_Strokes
 title: IInkRecognizerContext::get_Strokes (msinkaut.h)
-
 description: Gets or sets the InkStrokes collection associated with the InkRecognizerContext object.
 old-location: tablet\inkrecognizercontext_strokes.htm
 tech.root: tablet
 ms.assetid: af31559b-741e-4af2-8c35-9e34ad1af85f
-
 ms.date: 12/05/2018
 ms.keywords: IInkRecognizerContext interface [Tablet PC],Strokes property, IInkRecognizerContext.Strokes, IInkRecognizerContext.get_Strokes, IInkRecognizerContext::Strokes, IInkRecognizerContext::get_Strokes, IInkRecognizerContext::putref_Strokes, InkRecognizerContext.get_Strokes, Strokes property [Tablet PC], Strokes property [Tablet PC],IInkRecognizerContext interface, af31559b-741e-4af2-8c35-9e34ad1af85f, get_Strokes, msinkaut/IInkRecognizerContext::Strokes, msinkaut/IInkRecognizerContext::get_Strokes, msinkaut/IInkRecognizerContext::putref_Strokes, putref_Strokes, tablet.inkrecognizercontext_strokes
 ms.topic: method
-f1_keywords: 
- - "msinkaut/IInkRecognizerContext.Strokes"
+f1_keywords:
+- msinkaut/IInkRecognizerContext.Strokes
 dev_langs:
- - c++
+- c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: InkObj.dll
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - InkObj.dll
- - InkObj.dll.dll
+- InkObj.dll
+- InkObj.dll.dll
 api_name:
- - IInkRecognizerContext.Strokes
- - IInkRecognizerContext.get_Strokes
- - InkRecognizerContext.get_Strokes
+- IInkRecognizerContext.Strokes
+- IInkRecognizerContext.get_Strokes
+- InkRecognizerContext.get_Strokes
 targetos: Windows
 req.typenames: 
 req.redist: 

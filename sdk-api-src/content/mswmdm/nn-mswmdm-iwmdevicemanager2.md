@@ -1,19 +1,17 @@
 ---
 UID: NN:mswmdm.IWMDeviceManager2
 title: IWMDeviceManager2 (mswmdm.h)
-
 description: The IWMDeviceManager2 interface extends IWMDeviceManager interface.
 old-location: wmdm\iwmdevicemanager2.htm
 tech.root: WMDM
 ms.assetid: ea4bf623-c93a-4c0f-a84f-e3a979b37d60
-
 ms.date: 12/05/2018
 ms.keywords: IWMDeviceManager2, IWMDeviceManager2 interface [windows Media Device Manager], IWMDeviceManager2 interface [windows Media Device Manager],described, IWMDeviceManager2Interface, mswmdm/IWMDeviceManager2, wmdm.iwmdevicemanager2
 ms.topic: interface
-f1_keywords: 
- - "mswmdm/IWMDeviceManager2"
+f1_keywords:
+- mswmdm/IWMDeviceManager2
 dev_langs:
- - c++
+- c++
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mswmdm.h
+- mswmdm.h
 api_name:
- - IWMDeviceManager2
+- IWMDeviceManager2
 targetos: Windows
 req.typenames: 
 req.redist: 

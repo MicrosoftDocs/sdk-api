@@ -1,19 +1,17 @@
 ---
 UID: NF:comsvcs.ISecurityCallContext.get__NewEnum
 title: ISecurityCallContext::get__NewEnum (comsvcs.h)
-
 description: Retrieves an enumerator for the security call context collection.
 old-location: cos\isecuritycallcontext_get__newenum.htm
 tech.root: cossdk
 ms.assetid: b449a373-2d14-43c5-98b5-ba8119b61e4c
-
 ms.date: 12/05/2018
 ms.keywords: ISecurityCallContext interface [COM+],get__NewEnum method, ISecurityCallContext.get__NewEnum, ISecurityCallContext::get__NewEnum, _cos_ISecurityCallContext_get__NewEnum, comsvcs/ISecurityCallContext::get__NewEnum, cos.isecuritycallcontext_get__newenum, get__NewEnum, get__NewEnum method [COM+], get__NewEnum method [COM+],ISecurityCallContext interface
 ms.topic: method
-f1_keywords: 
- - "comsvcs/ISecurityCallContext.get__NewEnum"
+f1_keywords:
+- comsvcs/ISecurityCallContext.get__NewEnum
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - ISecurityCallContext.get__NewEnum
+- ISecurityCallContext.get__NewEnum
 targetos: Windows
 req.typenames: 
 req.redist: 

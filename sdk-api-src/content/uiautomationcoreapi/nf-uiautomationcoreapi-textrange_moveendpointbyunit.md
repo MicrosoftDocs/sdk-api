@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationcoreapi.TextRange_MoveEndpointByUnit
 title: TextRange_MoveEndpointByUnit function (uiautomationcoreapi.h)
-
 description: Moves an endpoint of the range the specified number of units.
 old-location: winauto\uiauto_TextRange_MoveEndpointByUnitConPat.htm
 tech.root: WinAuto
 ms.assetid: 15afd438-c662-4cc1-b6b5-87e5bf82ccaa
-
 ms.date: 12/05/2018
 ms.keywords: TextRange_MoveEndpointByUnit, TextRange_MoveEndpointByUnit function [Windows Accessibility], uiauto.uiauto_TextRange_MoveEndpointByUnitConPat, uiauto_TextRange_MoveEndpointByUnitConPat, uiautomationcoreapi/TextRange_MoveEndpointByUnit, winauto.uiauto_TextRange_MoveEndpointByUnitConPat
 ms.topic: function
-f1_keywords: 
- - "uiautomationcoreapi/TextRange_MoveEndpointByUnit"
+f1_keywords:
+- uiautomationcoreapi/TextRange_MoveEndpointByUnit
 dev_langs:
- - c++
+- c++
 req.header: uiautomationcoreapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uiautomationcore.lib
 req.dll: Uiautomationcore.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Uiautomationcore.dll
+- Uiautomationcore.dll
 api_name:
- - TextRange_MoveEndpointByUnit
+- TextRange_MoveEndpointByUnit
 targetos: Windows
 req.typenames: 
 req.redist: 

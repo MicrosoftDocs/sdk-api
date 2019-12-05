@@ -1,19 +1,17 @@
 ---
 UID: NN:xpsobjectmodel.IXpsOMColorProfileResource
 title: IXpsOMColorProfileResource (xpsobjectmodel.h)
-
 description: Provides an IStream interface to a color profile resource.
 old-location: xps\ixpsomcolorprofileresource.htm
 tech.root: printdocs
 ms.assetid: 8a344300-c3fc-4225-bfa5-d5d33798a094
-
 ms.date: 12/05/2018
 ms.keywords: IXpsOMColorProfileResource, IXpsOMColorProfileResource interface [XPS Documents and Packaging], IXpsOMColorProfileResource interface [XPS Documents and Packaging],described, xps.ixpsomcolorprofileresource, xpsobjectmodel/IXpsOMColorProfileResource
 ms.topic: interface
-f1_keywords: 
- - "xpsobjectmodel/IXpsOMColorProfileResource"
+f1_keywords:
+- xpsobjectmodel/IXpsOMColorProfileResource
 dev_langs:
- - c++
+- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsobjectmodel.h
+- xpsobjectmodel.h
 api_name:
- - IXpsOMColorProfileResource
+- IXpsOMColorProfileResource
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:vfw.AVIFileCreateStreamW
 title: AVIFileCreateStreamW function (vfw.h)
-
 description: The AVIFileCreateStream function creates a new stream in an existing file and creates an interface to the new stream.
 old-location: multimedia\avifilecreatestream.htm
 tech.root: Multimedia
 ms.assetid: bff87fbb-fcd8-4dd4-93d0-9cab39c30409
-
 ms.date: 12/05/2018
 ms.keywords: AVIFileCreateStream, AVIFileCreateStream function [Windows Multimedia], AVIFileCreateStreamA, AVIFileCreateStreamW, _win32_AVIFileCreateStream, multimedia.avifilecreatestream, vfw/AVIFileCreateStream, vfw/AVIFileCreateStreamA, vfw/AVIFileCreateStreamW
 ms.topic: function
-f1_keywords: 
- - "vfw/AVIFileCreateStream"
+f1_keywords:
+- vfw/AVIFileCreateStream
 dev_langs:
- - c++
+- c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Vfw32.lib
 req.dll: Avifil32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Avifil32.dll
+- Avifil32.dll
 api_name:
- - AVIFileCreateStream
- - AVIFileCreateStreamA
- - AVIFileCreateStreamW
+- AVIFileCreateStream
+- AVIFileCreateStreamA
+- AVIFileCreateStreamW
 targetos: Windows
 req.typenames: 
 req.redist: 

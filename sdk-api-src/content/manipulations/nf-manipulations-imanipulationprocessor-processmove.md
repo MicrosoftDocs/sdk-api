@@ -1,19 +1,17 @@
 ---
 UID: NF:manipulations.IManipulationProcessor.ProcessMove
 title: IManipulationProcessor::ProcessMove (manipulations.h)
-
 description: The ProcessMove method feeds movement data for the target object to its manipulation processor.
 old-location: wintouch\imanipulationprocessor_processmove.htm
 tech.root: wintouch
 ms.assetid: e2c0e975-3edd-43d5-8a58-2d8166413c76
-
 ms.date: 12/05/2018
 ms.keywords: IManipulationProcessor interface [Windows Touch],ProcessMove method, IManipulationProcessor.ProcessMove, IManipulationProcessor::ProcessMove, ProcessMove, ProcessMove method [Windows Touch], ProcessMove method [Windows Touch],IManipulationProcessor interface, manipulations/IManipulationProcessor::ProcessMove, wintouch.imanipulationprocessor_processmove
 ms.topic: method
-f1_keywords: 
- - "manipulations/IManipulationProcessor.ProcessMove"
+f1_keywords:
+- manipulations/IManipulationProcessor.ProcessMove
 dev_langs:
- - c++
+- c++
 req.header: manipulations.h
 req.include-header: Manipulations_i.c
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - manipulations.h
+- manipulations.h
 api_name:
- - IManipulationProcessor.ProcessMove
+- IManipulationProcessor.ProcessMove
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:wmiutils.IWbemPath.SetText
 title: IWbemPath::SetText (wmiutils.h)
-
 description: The IWbemPath::SetText method parses a path so that information on the path can be returned by the path parser.
 old-location: wmi\iwbempath_settext.htm
 tech.root: WmiSdk
 ms.assetid: a3ff2aa9-ffa8-4048-ac07-4b815b620d1f
-
 ms.date: 12/05/2018
 ms.keywords: IWbemPath interface [Windows Management Instrumentation],SetText method, IWbemPath.SetText, IWbemPath::SetText, SetText, SetText method [Windows Management Instrumentation], SetText method [Windows Management Instrumentation],IWbemPath interface, WBEMPATH_CREATE_ACCEPT_ABSOLUTE, WBEMPATH_CREATE_ACCEPT_ALL, WBEMPATH_CREATE_ACCEPT_RELATIVE, WBEMPATH_TREAT_SINGLE_IDENT_AS_NS, _hmm_iwbempath_settext, wmi.iwbempath_settext, wmiutils/IWbemPath::SetText
 ms.topic: method
-f1_keywords: 
- - "wmiutils/IWbemPath.SetText"
+f1_keywords:
+- wmiutils/IWbemPath.SetText
 dev_langs:
- - c++
+- c++
 req.header: wmiutils.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Wbemuuid.lib
 req.dll: Wmiutils.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wmiutils.dll
+- Wmiutils.dll
 api_name:
- - IWbemPath.SetText
+- IWbemPath.SetText
 targetos: Windows
 req.typenames: 
 req.redist: 

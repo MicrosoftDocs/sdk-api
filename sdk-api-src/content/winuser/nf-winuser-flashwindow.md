@@ -1,19 +1,17 @@
 ---
 UID: NF:winuser.FlashWindow
 title: FlashWindow function (winuser.h)
-
 description: Flashes the specified window one time. It does not change the active state of the window.
 old-location: base\flashwindow.htm
 tech.root: Debug
 ms.assetid: c4af997d-5cb8-4d5d-ae8d-1e0cc724fe02
-
 ms.date: 12/05/2018
 ms.keywords: FlashWindow, FlashWindow function, _win32_flashwindow, base.flashwindow, winuser/FlashWindow
 ms.topic: function
-f1_keywords: 
- - "winuser/FlashWindow"
+f1_keywords:
+- winuser/FlashWindow
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - User32.dll
+- User32.dll
 api_name:
- - FlashWindow
+- FlashWindow
 targetos: Windows
 req.typenames: 
 req.redist: 

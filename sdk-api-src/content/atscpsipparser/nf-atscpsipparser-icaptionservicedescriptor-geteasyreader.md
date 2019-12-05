@@ -1,19 +1,17 @@
 ---
 UID: NF:atscpsipparser.ICaptionServiceDescriptor.GetEasyReader
 title: ICaptionServiceDescriptor::GetEasyReader (atscpsipparser.h)
-
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\icaptionservicedescriptor_geteasyreader.htm
 tech.root: mstv
 ms.assetid: 7ecf31c8-b93e-4c6c-991c-33ce942757ec
-
 ms.date: 12/05/2018
 ms.keywords: GetEasyReader, GetEasyReader method [Microsoft TV Technologies], GetEasyReader method [Microsoft TV Technologies],ICaptionServiceDescriptor interface, ICaptionServiceDescriptor interface [Microsoft TV Technologies],GetEasyReader method, ICaptionServiceDescriptor.GetEasyReader, ICaptionServiceDescriptor::GetEasyReader, ICaptionServiceDescriptorGetEasyReader, atscpsipparser/ICaptionServiceDescriptor::GetEasyReader, mstv.icaptionservicedescriptor_geteasyreader
 ms.topic: method
-f1_keywords: 
- - "atscpsipparser/ICaptionServiceDescriptor.GetEasyReader"
+f1_keywords:
+- atscpsipparser/ICaptionServiceDescriptor.GetEasyReader
 dev_langs:
- - c++
+- c++
 req.header: atscpsipparser.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - atscpsipparser.h
+- atscpsipparser.h
 api_name:
- - ICaptionServiceDescriptor.GetEasyReader
+- ICaptionServiceDescriptor.GetEasyReader
 targetos: Windows
 req.typenames: 
 req.redist: 

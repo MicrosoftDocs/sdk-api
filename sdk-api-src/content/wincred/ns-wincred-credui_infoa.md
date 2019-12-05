@@ -1,19 +1,17 @@
 ---
 UID: NS:wincred._CREDUI_INFOA
 title: CREDUI_INFOA (wincred.h)
-
 description: The CREDUI_INFO structure is used to pass information to the CredUIPromptForCredentials function that creates a dialog box used to obtain credentials information.
 old-location: security\credui_info.htm
 tech.root: SecAuthN
 ms.assetid: b21f8a42-3707-409c-b62a-9bbb29137b9b
-
 ms.date: 12/05/2018
-ms.keywords: "*PCREDUI_INFOA, CREDUI_INFO, CREDUI_INFO structure [Security], CREDUI_INFOA, PCREDUI_INFO, PCREDUI_INFO structure pointer [Security], _cred_credui_info, security.credui_info, wincred/CREDUI_INFO, wincred/PCREDUI_INFO"
+ms.keywords: '*PCREDUI_INFOA, CREDUI_INFO, CREDUI_INFO structure [Security], CREDUI_INFOA, PCREDUI_INFO, PCREDUI_INFO structure pointer [Security], _cred_credui_info, security.credui_info, wincred/CREDUI_INFO, wincred/PCREDUI_INFO'
 ms.topic: struct
-f1_keywords: 
- - "wincred/CREDUI_INFO"
+f1_keywords:
+- wincred/CREDUI_INFO
 dev_langs:
- - c++
+- c++
 req.header: wincred.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WinCred.h
+- WinCred.h
 api_name:
- - CREDUI_INFO
+- CREDUI_INFO
 targetos: Windows
 req.typenames: CREDUI_INFOA, *PCREDUI_INFOA
 req.redist: 

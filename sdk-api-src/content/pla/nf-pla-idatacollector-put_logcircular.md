@@ -1,19 +1,17 @@
 ---
 UID: NF:pla.IDataCollector.put_LogCircular
 title: IDataCollector::put_LogCircular (pla.h)
-
 description: Retrieves or sets a value that indicates if PLA should create a circular file.
 old-location: pla\idatacollector_logcircular.htm
 tech.root: PLA
 ms.assetid: d1b35b02-cfda-42a4-bd1d-d837a91861d6
-
 ms.date: 12/05/2018
 ms.keywords: IDataCollector interface [PLA],LogCircular property, IDataCollector.LogCircular, IDataCollector.put_LogCircular, IDataCollector::LogCircular, IDataCollector::get_LogCircular, IDataCollector::put_LogCircular, LogCircular property [PLA], LogCircular property [PLA],IDataCollector interface, base.idatacollector_logcircular, pla.idatacollector_logcircular, pla/IDataCollector::LogCircular, pla/IDataCollector::get_LogCircular, pla/IDataCollector::put_LogCircular, put_LogCircular
 ms.topic: method
-f1_keywords: 
- - "pla/IDataCollector.LogCircular"
+f1_keywords:
+- pla/IDataCollector.LogCircular
 dev_langs:
- - c++
+- c++
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: Pla.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Pla.dll
+- Pla.dll
 api_name:
- - IDataCollector.LogCircular
- - IDataCollector.get_LogCircular
- - IDataCollector.put_LogCircular
+- IDataCollector.LogCircular
+- IDataCollector.get_LogCircular
+- IDataCollector.put_LogCircular
 targetos: Windows
 req.typenames: 
 req.redist: 

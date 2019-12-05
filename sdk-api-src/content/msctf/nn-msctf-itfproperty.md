@@ -1,19 +1,17 @@
 ---
 UID: NN:msctf.ITfProperty
 title: ITfProperty (msctf.h)
-
 description: The ITfProperty interface is implemented by the TSF manager and used by a client (application or text service) to modify a property value.
 old-location: tsf\itfproperty.htm
 tech.root: TSF
 ms.assetid: 72bd92f9-d82e-4994-82ad-0989e987903b
-
 ms.date: 12/05/2018
 ms.keywords: ITfProperty, ITfProperty interface [Text Services Framework], ITfProperty interface [Text Services Framework],described, _tsf_itfproperty_ref, msctf/ITfProperty, tsf.itfproperty
 ms.topic: interface
-f1_keywords: 
- - "msctf/ITfProperty"
+f1_keywords:
+- msctf/ITfProperty
 dev_langs:
- - c++
+- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msctf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msctf.dll
+- msctf.dll
 api_name:
- - ITfProperty
+- ITfProperty
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

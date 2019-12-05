@@ -1,19 +1,17 @@
 ---
 UID: NF:tspi.TSPI_lineGetExtensionID
 title: TSPI_lineGetExtensionID function (tspi.h)
-
 description: The TSPI_lineGetExtensionID function returns the extension identifier that the service provider supports for the indicated line device.
 old-location: tspi\tspi_linegetextensionid.htm
 tech.root: Tapi
 ms.assetid: aaea0a6a-bf22-491f-b1bf-d2195fba6af5
-
 ms.date: 12/05/2018
 ms.keywords: TSPI_lineGetExtensionID, TSPI_lineGetExtensionID function [TAPI 2.2], _tspi_tspi_linegetextensionid, tspi.tspi_linegetextensionid, tspi/TSPI_lineGetExtensionID
 ms.topic: function
-f1_keywords: 
- - "tspi/TSPI_lineGetExtensionID"
+f1_keywords:
+- tspi/TSPI_lineGetExtensionID
 dev_langs:
- - c++
+- c++
 req.header: tspi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Tspi.h
+- Tspi.h
 api_name:
- - TSPI_lineGetExtensionID
+- TSPI_lineGetExtensionID
 targetos: Windows
 req.typenames: 
 req.redist: 

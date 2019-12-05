@@ -1,19 +1,17 @@
 ---
 UID: NE:wpcevent.tagWPC_ARGS_EMAILSENTEVENT
 title: WPC_ARGS_EMAILSENTEVENT (wpcevent.h)
-
 description: Indicates information about an email message that has been sent.
 old-location: parcon\wpc_args_emailsentevent.htm
 tech.root: parcon
 ms.assetid: e142c9a6-c8a1-4895-b923-e80e62570fb9
-
 ms.date: 12/05/2018
 ms.keywords: WPC_ARGS_EMAILSENTEVENT, WPC_ARGS_EMAILSENTEVENT enumeration, WPC_ARGS_EMAILSENTEVENT_APPNAME, WPC_ARGS_EMAILSENTEVENT_APPVERSION, WPC_ARGS_EMAILSENTEVENT_ATTACHCOUNT, WPC_ARGS_EMAILSENTEVENT_ATTACHMENTNAME, WPC_ARGS_EMAILSENTEVENT_CARGS, WPC_ARGS_EMAILSENTEVENT_EMAILACCOUNT, WPC_ARGS_EMAILSENTEVENT_REASON, WPC_ARGS_EMAILSENTEVENT_RECIPCOUNT, WPC_ARGS_EMAILSENTEVENT_RECIPIENT, WPC_ARGS_EMAILSENTEVENT_SENDER, WPC_ARGS_EMAILSENTEVENT_SUBJECT, parcon.wpc_args_emailsentevent, wpcevent/WPC_ARGS_EMAILSENTEVENT, wpcevent/WPC_ARGS_EMAILSENTEVENT_APPNAME, wpcevent/WPC_ARGS_EMAILSENTEVENT_APPVERSION, wpcevent/WPC_ARGS_EMAILSENTEVENT_ATTACHCOUNT, wpcevent/WPC_ARGS_EMAILSENTEVENT_ATTACHMENTNAME, wpcevent/WPC_ARGS_EMAILSENTEVENT_CARGS, wpcevent/WPC_ARGS_EMAILSENTEVENT_EMAILACCOUNT, wpcevent/WPC_ARGS_EMAILSENTEVENT_REASON, wpcevent/WPC_ARGS_EMAILSENTEVENT_RECIPCOUNT, wpcevent/WPC_ARGS_EMAILSENTEVENT_RECIPIENT, wpcevent/WPC_ARGS_EMAILSENTEVENT_SENDER, wpcevent/WPC_ARGS_EMAILSENTEVENT_SUBJECT
 ms.topic: enum
-f1_keywords: 
- - "wpcevent/WPC_ARGS_EMAILSENTEVENT"
+f1_keywords:
+- wpcevent/WPC_ARGS_EMAILSENTEVENT
 dev_langs:
- - c++
+- c++
 req.header: wpcevent.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wpcevent.h
+- Wpcevent.h
 api_name:
- - WPC_ARGS_EMAILSENTEVENT
+- WPC_ARGS_EMAILSENTEVENT
 targetos: Windows
 req.typenames: WPC_ARGS_EMAILSENTEVENT
 req.redist: 

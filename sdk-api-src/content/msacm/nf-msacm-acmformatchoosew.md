@@ -1,19 +1,17 @@
 ---
 UID: NF:msacm.acmFormatChooseW
 title: acmFormatChooseW function (msacm.h)
-
 description: The acmFormatChoose function creates an ACM-defined dialog box that enables the user to select a waveform-audio format.
 old-location: multimedia\acmformatchoose.htm
 tech.root: Multimedia
 ms.assetid: 9be8311a-f6ad-4007-a254-841ee99ff3b6
-
 ms.date: 12/05/2018
-ms.keywords: "_win32_acmFormatChoose, acmFormatChoose, acmFormatChoose function [Windows Multimedia], acmFormatChooseA, acmFormatChooseW, msacm/acmFormatChoose, msacm/acmFormatChooseA, msacm/acmFormatChooseW, multimedia.acmformatchoose"
+ms.keywords: _win32_acmFormatChoose, acmFormatChoose, acmFormatChoose function [Windows Multimedia], acmFormatChooseA, acmFormatChooseW, msacm/acmFormatChoose, msacm/acmFormatChooseA, msacm/acmFormatChooseW, multimedia.acmformatchoose
 ms.topic: function
-f1_keywords: 
- - "msacm/acmFormatChoose"
+f1_keywords:
+- msacm/acmFormatChoose
 dev_langs:
- - c++
+- c++
 req.header: msacm.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Msacm32.lib
 req.dll: Msacm32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Msacm32.dll
- - Ext-MS-Win-mm-msacm-l1-1-0.dll
+- Msacm32.dll
+- Ext-MS-Win-mm-msacm-l1-1-0.dll
 api_name:
- - acmFormatChoose
- - acmFormatChooseA
- - acmFormatChooseW
+- acmFormatChoose
+- acmFormatChooseA
+- acmFormatChooseW
 targetos: Windows
 req.typenames: 
 req.redist: 

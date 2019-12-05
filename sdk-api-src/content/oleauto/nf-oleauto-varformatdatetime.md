@@ -1,19 +1,17 @@
 ---
 UID: NF:oleauto.VarFormatDateTime
 title: VarFormatDateTime function (oleauto.h)
-
 description: Formats a variant containing named date and time information into a string.
 old-location: automat\varformatdatetime.htm
 tech.root: automat
 ms.assetid: ae97d984-fc08-4e4d-a711-9ceb38aebe1e
-
 ms.date: 12/05/2018
 ms.keywords: VarFormatDateTime, VarFormatDateTime function [Automation], _oa96_VarFormatDateTime, automat.varformatdatetime, oleauto/VarFormatDateTime
 ms.topic: function
-f1_keywords: 
- - "oleauto/VarFormatDateTime"
+f1_keywords:
+- oleauto/VarFormatDateTime
 dev_langs:
- - c++
+- c++
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: OleAut32.lib
 req.dll: OleAut32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - OleAut32.dll
+- OleAut32.dll
 api_name:
- - VarFormatDateTime
+- VarFormatDateTime
 targetos: Windows
 req.typenames: 
 req.redist: 

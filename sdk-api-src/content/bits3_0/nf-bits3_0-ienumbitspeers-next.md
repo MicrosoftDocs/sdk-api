@@ -1,19 +1,17 @@
 ---
 UID: NF:bits3_0.IEnumBitsPeers.Next
 title: IEnumBitsPeers::Next (bits3_0.h)
-
 description: Retrieves a specified number of items in the enumeration sequence. If there are fewer than the requested number of elements left in the sequence, it retrieves the remaining elements.
 old-location: bits\ienumbitspeers_next.htm
 tech.root: Bits
 ms.assetid: b5bc254d-d74e-4076-a22a-93abf9023068
-
 ms.date: 12/05/2018
 ms.keywords: IEnumBitsPeers interface [BITS],Next method, IEnumBitsPeers.Next, IEnumBitsPeers::Next, Next, Next method [BITS], Next method [BITS],IEnumBitsPeers interface, bits.ienumbitspeers_next, bits3_0/IEnumBitsPeers::Next
 ms.topic: method
-f1_keywords: 
- - "bits3_0/IEnumBitsPeers.Next"
+f1_keywords:
+- bits3_0/IEnumBitsPeers.Next
 dev_langs:
- - c++
+- c++
 req.header: bits3_0.h
 req.include-header: Bits.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Bits.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Bits.lib
- - Bits.dll
+- Bits.lib
+- Bits.dll
 api_name:
- - IEnumBitsPeers.Next
+- IEnumBitsPeers.Next
 targetos: Windows
 req.typenames: 
 req.redist: 

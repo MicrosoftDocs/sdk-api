@@ -1,19 +1,17 @@
 ---
 UID: NF:dcomp.IDCompositionSurfaceFactory.CreateVirtualSurface
 title: IDCompositionSurfaceFactory::CreateVirtualSurface (dcomp.h)
-
 description: Creates a sparsely populated surface that can be associated with one or more visuals for composition.
 old-location: directcomp\idcompositionsurfacefactory_createvirtualsurface.htm
 tech.root: directcomp
 ms.assetid: 0C74CDA5-4491-4D16-B972-C9C54007A2FB
-
 ms.date: 12/05/2018
 ms.keywords: CreateVirtualSurface, CreateVirtualSurface method [DirectComposition], CreateVirtualSurface method [DirectComposition],IDCompositionSurfaceFactory interface, IDCompositionSurfaceFactory interface [DirectComposition],CreateVirtualSurface method, IDCompositionSurfaceFactory.CreateVirtualSurface, IDCompositionSurfaceFactory::CreateVirtualSurface, dcomp/IDCompositionSurfaceFactory::CreateVirtualSurface, directcomp.idcompositionsurfacefactory_createvirtualsurface
 ms.topic: method
-f1_keywords: 
- - "dcomp/IDCompositionSurfaceFactory.CreateVirtualSurface"
+f1_keywords:
+- dcomp/IDCompositionSurfaceFactory.CreateVirtualSurface
 dev_langs:
- - c++
+- c++
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dcomp.lib
 req.dll: Dcomp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dcomp.dll
+- Dcomp.dll
 api_name:
- - IDCompositionSurfaceFactory.CreateVirtualSurface
+- IDCompositionSurfaceFactory.CreateVirtualSurface
 targetos: Windows
 req.typenames: 
 req.redist: 

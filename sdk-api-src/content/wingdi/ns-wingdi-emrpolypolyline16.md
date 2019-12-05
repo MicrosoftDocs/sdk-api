@@ -1,19 +1,17 @@
 ---
 UID: NS:wingdi.tagEMRPOLYPOLYLINE16
 title: EMRPOLYPOLYLINE16 (wingdi.h)
-
 description: The EMRPOLYPOLYLINE16 and EMRPOLYPOLYGON16 structures contain members for the PolyPolyline and PolyPolygon enhanced metafile records.
 old-location: gdi\emrpolypolyline16__emrpolypolygon16.htm
 tech.root: gdi
 ms.assetid: efdd4ed1-5c0e-43ae-980d-fe3a5e8d480f
-
 ms.date: 12/05/2018
-ms.keywords: "*PEMRPOLYPOLYGON16, *PEMRPOLYPOLYLINE16, EMRPOLYPOLYGON16, EMRPOLYPOLYGON16 structure [Windows GDI], EMRPOLYPOLYLINE16, EMRPOLYPOLYLINE16 structure [Windows GDI], EMRPOLYPOLYLINE16,EMRPOLYPOLYGON16, EMRPOLYPOLYLINE16,EMRPOLYPOLYGON16 structure [Windows GDI], PEMRPOLYPOLYGON16, PEMRPOLYPOLYGON16 structure pointer [Windows GDI], PEMRPOLYPOLYLINE16, PEMRPOLYPOLYLINE16 structure pointer [Windows GDI], _win32_EMRPOLYPOLYLINE16_str, gdi.emrpolypolyline16__emrpolypolygon16, wingdi/EMRPOLYPOLYGON16, wingdi/EMRPOLYPOLYLINE16,EMRPOLYPOLYGON16, wingdi/PEMRPOLYPOLYGON16, wingdi/PEMRPOLYPOLYLINE16"
+ms.keywords: '*PEMRPOLYPOLYGON16, *PEMRPOLYPOLYLINE16, EMRPOLYPOLYGON16, EMRPOLYPOLYGON16 structure [Windows GDI], EMRPOLYPOLYLINE16, EMRPOLYPOLYLINE16 structure [Windows GDI], EMRPOLYPOLYLINE16,EMRPOLYPOLYGON16, EMRPOLYPOLYLINE16,EMRPOLYPOLYGON16 structure [Windows GDI], PEMRPOLYPOLYGON16, PEMRPOLYPOLYGON16 structure pointer [Windows GDI], PEMRPOLYPOLYLINE16, PEMRPOLYPOLYLINE16 structure pointer [Windows GDI], _win32_EMRPOLYPOLYLINE16_str, gdi.emrpolypolyline16__emrpolypolygon16, wingdi/EMRPOLYPOLYGON16, wingdi/EMRPOLYPOLYLINE16,EMRPOLYPOLYGON16, wingdi/PEMRPOLYPOLYGON16, wingdi/PEMRPOLYPOLYLINE16'
 ms.topic: struct
-f1_keywords: 
- - "wingdi/EMRPOLYPOLYLINE16"
+f1_keywords:
+- wingdi/EMRPOLYPOLYLINE16
 dev_langs:
- - c++
+- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wingdi.h
+- Wingdi.h
 api_name:
- - EMRPOLYPOLYLINE16
+- EMRPOLYPOLYLINE16
 targetos: Windows
 req.typenames: EMRPOLYPOLYLINE16, *PEMRPOLYPOLYLINE16, EMRPOLYPOLYGON16, *PEMRPOLYPOLYGON16
 req.redist: 

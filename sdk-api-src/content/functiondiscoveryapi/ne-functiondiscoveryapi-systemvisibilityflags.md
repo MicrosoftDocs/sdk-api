@@ -1,19 +1,17 @@
 ---
 UID: NE:functiondiscoveryapi.tagSystemVisibilityFlags
 title: SystemVisibilityFlags (functiondiscoveryapi.h)
-
 description: Determines the visibility of the function instance's data.
 old-location: ncd\systemvisibilityflags_enum.htm
 tech.root: FunDisc
 ms.assetid: a3388293-150c-417a-a4a6-0d5020e0ae82
-
 ms.date: 12/05/2018
 ms.keywords: SVF_SYSTEM, SVF_USER, SystemVisibilityFlags, SystemVisibilityFlags enumeration, functiondiscoveryapi/SVF_SYSTEM, functiondiscoveryapi/SVF_USER, functiondiscoveryapi/SystemVisibilityFlags, ncd.systemvisibilityflags_enum
 ms.topic: enum
-f1_keywords: 
- - "functiondiscoveryapi/SystemVisibilityFlags"
+f1_keywords:
+- functiondiscoveryapi/SystemVisibilityFlags
 dev_langs:
- - c++
+- c++
 req.header: functiondiscoveryapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - FunctionDiscoveryAPI.h
+- FunctionDiscoveryAPI.h
 api_name:
- - SystemVisibilityFlags
+- SystemVisibilityFlags
 targetos: Windows
 req.typenames: SystemVisibilityFlags
 req.redist: 

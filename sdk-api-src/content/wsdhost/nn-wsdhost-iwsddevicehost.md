@@ -1,19 +1,17 @@
 ---
 UID: NN:wsdhost.IWSDDeviceHost
 title: IWSDDeviceHost (wsdhost.h)
-
 description: Represents a DPWS-compliant device.
 old-location: ncd\iwsddevicehost.htm
 tech.root: WsdApi
 ms.assetid: 497d0331-c88d-4381-8990-94227a9b9659
-
 ms.date: 12/05/2018
 ms.keywords: IWSDDeviceHost, IWSDDeviceHost interface, IWSDDeviceHost interface,described, ncd.iwsddevicehost, wsdhost/IWSDDeviceHost
 ms.topic: interface
-f1_keywords: 
- - "wsdhost/IWSDDeviceHost"
+f1_keywords:
+- wsdhost/IWSDDeviceHost
 dev_langs:
- - c++
+- c++
 req.header: wsdhost.h
 req.include-header: Wsdapi.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wsdapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wsdapi.dll
+- Wsdapi.dll
 api_name:
- - IWSDDeviceHost
+- IWSDDeviceHost
 targetos: Windows
 req.typenames: 
 req.redist: 

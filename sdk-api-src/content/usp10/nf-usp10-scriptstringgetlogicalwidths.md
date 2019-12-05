@@ -1,19 +1,17 @@
 ---
 UID: NF:usp10.ScriptStringGetLogicalWidths
 title: ScriptStringGetLogicalWidths function (usp10.h)
-
 description: Converts visual widths into logical widths.
 old-location: intl\scriptstringgetlogicalwidths.htm
 tech.root: Intl
 ms.assetid: 8d9a13c7-bb28-4ed3-9335-f99c50d96f6f
-
 ms.date: 12/05/2018
 ms.keywords: ScriptStringGetLogicalWidths, ScriptStringGetLogicalWidths function [Internationalization for Windows Applications], _win32_ScriptStringGetLogicalWidths, intl.scriptstringgetlogicalwidths, usp10/ScriptStringGetLogicalWidths
 ms.topic: function
-f1_keywords: 
- - "usp10/ScriptStringGetLogicalWidths"
+f1_keywords:
+- usp10/ScriptStringGetLogicalWidths
 dev_langs:
- - c++
+- c++
 req.header: usp10.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Usp10.lib
 req.dll: Usp10.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Usp10.dll
- - Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
- - GDI32.dll
- - GDI32Full.dll
+- Usp10.dll
+- Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
+- GDI32.dll
+- GDI32Full.dll
 api_name:
- - ScriptStringGetLogicalWidths
+- ScriptStringGetLogicalWidths
 targetos: Windows
 req.typenames: 
 req.redist: Internet Explorer 5 or later on Windows Me/98/95

@@ -1,19 +1,17 @@
 ---
 UID: NF:mswmdm.IWMDMMetaData.AddItem
 title: IWMDMMetaData::AddItem (mswmdm.h)
-
 description: The AddItem method adds a metadata property to the interface.
 old-location: wmdm\iwmdmmetadata_additem.htm
 tech.root: WMDM
 ms.assetid: fb8dee5f-034f-4e1d-86fe-34a2d9439e5f
-
 ms.date: 12/05/2018
 ms.keywords: AddItem, AddItem method [windows Media Device Manager], AddItem method [windows Media Device Manager],IWMDMMetaData interface, IWMDMMetaData interface [windows Media Device Manager],AddItem method, IWMDMMetaData.AddItem, IWMDMMetaData::AddItem, IWMDMMetaDataAddItem, mswmdm/IWMDMMetaData::AddItem, wmdm.iwmdmmetadata_additem
 ms.topic: method
-f1_keywords: 
- - "mswmdm/IWMDMMetaData.AddItem"
+f1_keywords:
+- mswmdm/IWMDMMetaData.AddItem
 dev_langs:
- - c++
+- c++
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mssachlp.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mssachlp.lib
- - mssachlp.dll
+- mssachlp.lib
+- mssachlp.dll
 api_name:
- - IWMDMMetaData.AddItem
+- IWMDMMetaData.AddItem
 targetos: Windows
 req.typenames: 
 req.redist: 

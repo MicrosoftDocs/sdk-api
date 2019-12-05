@@ -1,19 +1,17 @@
 ---
 UID: NF:memoryapi.WriteProcessMemory
 title: WriteProcessMemory function (memoryapi.h)
-
 description: Writes data to an area of memory in a specified process. The entire area to be written to must be accessible or the operation fails.
 old-location: base\writeprocessmemory.htm
 tech.root: Debug
 ms.assetid: 9cd91f1c-58ce-4adc-b027-45748543eb06
-
 ms.date: 12/05/2018
 ms.keywords: WriteProcessMemory, WriteProcessMemory function, _win32_writeprocessmemory, base.writeprocessmemory, memoryapi/WriteProcessMemory
 ms.topic: function
-f1_keywords: 
- - "memoryapi/WriteProcessMemory"
+f1_keywords:
+- memoryapi/WriteProcessMemory
 dev_langs:
- - c++
+- c++
 req.header: memoryapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,22 +30,22 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-memory-l1-1-0.dll
- - KernelBase.dll
- - API-MS-Win-Core-memory-l1-1-1.dll
- - API-MS-Win-Core-memory-l1-1-2.dll
- - API-MS-Win-Core-memory-l1-1-3.dll
- - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
- - MinKernelBase.dll
- - API-MS-Win-Core-Memory-L1-1-4.dll
+- Kernel32.dll
+- API-MS-Win-Core-memory-l1-1-0.dll
+- KernelBase.dll
+- API-MS-Win-Core-memory-l1-1-1.dll
+- API-MS-Win-Core-memory-l1-1-2.dll
+- API-MS-Win-Core-memory-l1-1-3.dll
+- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+- MinKernelBase.dll
+- API-MS-Win-Core-Memory-L1-1-4.dll
 api_name:
- - WriteProcessMemory
+- WriteProcessMemory
 targetos: Windows
 req.typenames: 
 req.redist: 

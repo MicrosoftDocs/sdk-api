@@ -1,19 +1,17 @@
 ---
 UID: NE:virtdisk._OPEN_VIRTUAL_DISK_VERSION
 title: OPEN_VIRTUAL_DISK_VERSION (virtdisk.h)
-
 description: Contains the version of the virtual disk OPEN_VIRTUAL_DISK_PARAMETERS structure to use in calls to virtual disk functions.
 old-location: vhd\open_virtual_disk_version.htm
 tech.root: VStor
 ms.assetid: 3f45324a-6e31-43d6-9fc9-65c85e6c3493
-
 ms.date: 12/05/2018
 ms.keywords: OPEN_VIRTUAL_DISK_VERSION, OPEN_VIRTUAL_DISK_VERSION enumeration [VHD], OPEN_VIRTUAL_DISK_VERSION_1, OPEN_VIRTUAL_DISK_VERSION_2, OPEN_VIRTUAL_DISK_VERSION_UNSPECIFIED, vdssys/OPEN_VIRTUAL_DISK_VERSION, vdssys/OPEN_VIRTUAL_DISK_VERSION_1, vdssys/OPEN_VIRTUAL_DISK_VERSION_2, vdssys/OPEN_VIRTUAL_DISK_VERSION_UNSPECIFIED, vhd.open_virtual_disk_version, virtdisk/OPEN_VIRTUAL_DISK_VERSION, virtdisk/OPEN_VIRTUAL_DISK_VERSION_1, virtdisk/OPEN_VIRTUAL_DISK_VERSION_2, virtdisk/OPEN_VIRTUAL_DISK_VERSION_UNSPECIFIED
 ms.topic: enum
-f1_keywords: 
- - "virtdisk/OPEN_VIRTUAL_DISK_VERSION"
+f1_keywords:
+- virtdisk/OPEN_VIRTUAL_DISK_VERSION
 dev_langs:
- - c++
+- c++
 req.header: virtdisk.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - VirtDisk.h
- - vdssys.h
+- VirtDisk.h
+- vdssys.h
 api_name:
- - OPEN_VIRTUAL_DISK_VERSION
+- OPEN_VIRTUAL_DISK_VERSION
 targetos: Windows
 req.typenames: OPEN_VIRTUAL_DISK_VERSION
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:winsync.ISyncKnowledge.GetSingleItemExceptions
 title: ISyncKnowledge::GetSingleItemExceptions (winsync.h)
-
 description: Gets an object that can enumerate the ISingleItemException objects that are stored in the knowledge.
 old-location: winsync\isyncknowledge_getsingleitemexceptions.htm
 tech.root: winsync
 ms.assetid: d224d2b8-343d-48f9-ac87-cd6e8682987a
-
 ms.date: 12/05/2018
 ms.keywords: GetSingleItemExceptions, GetSingleItemExceptions method [Windows Sync], GetSingleItemExceptions method [Windows Sync],ISyncKnowledge interface, ISyncKnowledge interface [Windows Sync],GetSingleItemExceptions method, ISyncKnowledge.GetSingleItemExceptions, ISyncKnowledge::GetSingleItemExceptions, winsync.isyncknowledge_getsingleitemexceptions, winsync/ISyncKnowledge::GetSingleItemExceptions
 ms.topic: method
-f1_keywords: 
- - "winsync/ISyncKnowledge.GetSingleItemExceptions"
+f1_keywords:
+- winsync/ISyncKnowledge.GetSingleItemExceptions
 dev_langs:
- - c++
+- c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - winsync.h
+- winsync.h
 api_name:
- - ISyncKnowledge.GetSingleItemExceptions
+- ISyncKnowledge.GetSingleItemExceptions
 targetos: Windows
 req.typenames: 
 req.redist: 

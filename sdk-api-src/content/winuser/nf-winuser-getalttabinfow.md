@@ -1,19 +1,17 @@
 ---
 UID: NF:winuser.GetAltTabInfoW
 title: GetAltTabInfoW function (winuser.h)
-
 description: Retrieves status information for the specified window if it is the application-switching (ALT+TAB) window.
 old-location: winmsg\getalttabinfo.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowfunctions\getalttabinfo.htm
-
 ms.date: 12/05/2018
 ms.keywords: GetAltTabInfo, GetAltTabInfo function [Windows and Messages], GetAltTabInfoA, GetAltTabInfoW, _win32_GetAltTabInfo, _win32_getalttabinfo_cpp, winmsg.getalttabinfo, winui._win32_getalttabinfo, winuser/GetAltTabInfo, winuser/GetAltTabInfoA, winuser/GetAltTabInfoW
 ms.topic: function
-f1_keywords: 
- - "winuser/GetAltTabInfo"
+f1_keywords:
+- winuser/GetAltTabInfo
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - User32.dll
+- User32.dll
 api_name:
- - GetAltTabInfo
- - GetAltTabInfoA
- - GetAltTabInfoW
+- GetAltTabInfo
+- GetAltTabInfoA
+- GetAltTabInfoW
 targetos: Windows
 req.typenames: 
 req.redist: 

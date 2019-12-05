@@ -1,19 +1,17 @@
 ---
 UID: NF:wmp.IWMPClosedCaption.put_SAMIFileName
 title: IWMPClosedCaption::put_SAMIFileName (wmp.h)
-
 description: The put_SAMIFileName method specifies the name of the file containing the information needed for closed captioning.
 old-location: wmp\iwmpclosedcaption_put_samifilename.htm
 tech.root: WMP
 ms.assetid: ebc05983-3375-4ace-b192-f427b9685310
-
 ms.date: 12/05/2018
 ms.keywords: IWMPClosedCaption interface [Windows Media Player],put_SAMIFileName method, IWMPClosedCaption.put_SAMIFileName, IWMPClosedCaption::put_SAMIFileName, IWMPClosedCaptionput_SAMIFileName, put_SAMIFileName, put_SAMIFileName method [Windows Media Player], put_SAMIFileName method [Windows Media Player],IWMPClosedCaption interface, wmp.iwmpclosedcaption_put_samifilename, wmp/IWMPClosedCaption::put_SAMIFileName
 ms.topic: method
-f1_keywords: 
- - "wmp/IWMPClosedCaption.put_SAMIFileName"
+f1_keywords:
+- wmp/IWMPClosedCaption.put_SAMIFileName
 dev_langs:
- - c++
+- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wmp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmp.dll
+- wmp.dll
 api_name:
- - IWMPClosedCaption.put_SAMIFileName
+- IWMPClosedCaption.put_SAMIFileName
 targetos: Windows
 req.typenames: 
 req.redist: 

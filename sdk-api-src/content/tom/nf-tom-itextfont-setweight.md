@@ -1,19 +1,17 @@
 ---
 UID: NF:tom.ITextFont.SetWeight
 title: ITextFont::SetWeight (tom.h)
-
 description: Sets the font weight for the characters in a range.
 old-location: controls\ITextFont_SetWeight.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\setweight.htm
-
 ms.date: 12/05/2018
 ms.keywords: ITextFont interface [Windows Controls],SetWeight method, ITextFont.SetWeight, ITextFont::SetWeight, SetWeight, SetWeight method [Windows Controls], SetWeight method [Windows Controls],ITextFont interface, _win32_ITextFont_SetWeight, _win32_ITextFont_SetWeight_cpp, controls.ITextFont_SetWeight, controls._win32_ITextFont_SetWeight, tom/ITextFont::SetWeight
 ms.topic: method
-f1_keywords: 
- - "tom/ITextFont.SetWeight"
+f1_keywords:
+- tom/ITextFont.SetWeight
 dev_langs:
- - c++
+- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msftedit.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msftedit.dll
+- Msftedit.dll
 api_name:
- - ITextFont.SetWeight
+- ITextFont.SetWeight
 targetos: Windows
 req.typenames: 
 req.redist: 

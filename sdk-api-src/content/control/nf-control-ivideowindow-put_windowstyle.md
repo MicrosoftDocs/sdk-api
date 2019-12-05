@@ -1,19 +1,17 @@
 ---
 UID: NF:control.IVideoWindow.put_WindowStyle
 title: IVideoWindow::put_WindowStyle (control.h)
-
 description: The put_WindowStyle method sets the window styles on the video window.
 old-location: dshow\ivideowindow_put_windowstyle.htm
 tech.root: DirectShow
 ms.assetid: cd1422d1-16a3-4aae-aadb-772a06173ba3
-
 ms.date: 12/05/2018
 ms.keywords: IVideoWindow interface [DirectShow],put_WindowStyle method, IVideoWindow.put_WindowStyle, IVideoWindow::put_WindowStyle, IVideoWindowput_WindowStyle, control/IVideoWindow::put_WindowStyle, dshow.ivideowindow_put_windowstyle, put_WindowStyle, put_WindowStyle method [DirectShow], put_WindowStyle method [DirectShow],IVideoWindow interface
 ms.topic: method
-f1_keywords: 
- - "control/IVideoWindow.put_WindowStyle"
+f1_keywords:
+- control/IVideoWindow.put_WindowStyle
 dev_langs:
- - c++
+- c++
 req.header: control.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IVideoWindow.put_WindowStyle
+- IVideoWindow.put_WindowStyle
 targetos: Windows
 req.typenames: 
 req.redist: 

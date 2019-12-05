@@ -1,19 +1,17 @@
 ---
 UID: NE:wincodec.WICComponentType
 title: WICComponentType (wincodec.h)
-
 description: Specifies the type of Windows Imaging Component (WIC) component.
 old-location: wic\_wic_codec_wiccomponenttype.htm
 tech.root: wic
 ms.assetid: eff6b77c-ea4b-4476-8d75-dec5bb2e1745
-
 ms.date: 12/05/2018
 ms.keywords: WICAllComponents, WICComponentType, WICComponentType enumeration [Windows Imaging Component], WICDecoder, WICEncoder, WICMetadataReader, WICMetadataWriter, WICPixelFormat, WICPixelFormatConverter, _wic_codec_wiccomponenttype, wic._wic_codec_wiccomponenttype, wincodec/WICAllComponents, wincodec/WICComponentType, wincodec/WICDecoder, wincodec/WICEncoder, wincodec/WICMetadataReader, wincodec/WICMetadataWriter, wincodec/WICPixelFormat, wincodec/WICPixelFormatConverter
 ms.topic: enum
-f1_keywords: 
- - "wincodec/WICComponentType"
+f1_keywords:
+- wincodec/WICComponentType
 dev_langs:
- - c++
+- c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wincodec.h
+- Wincodec.h
 api_name:
- - WICComponentType
+- WICComponentType
 targetos: Windows
 req.typenames: WICComponentType
 req.redist: 

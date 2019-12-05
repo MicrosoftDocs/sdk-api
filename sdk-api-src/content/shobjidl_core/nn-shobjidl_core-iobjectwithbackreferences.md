@@ -1,19 +1,17 @@
 ---
 UID: NN:shobjidl_core.IObjectWithBackReferences
 title: IObjectWithBackReferences (shobjidl_core.h)
-
 description: Provides a method for interacting with back references held by an object.
 old-location: shell\IObjectWithBackReferences.htm
 tech.root: shell
 ms.assetid: 9ce0edc6-c2b1-4222-a12b-daf94efcb233
-
 ms.date: 12/05/2018
 ms.keywords: IObjectWithBackReferences, IObjectWithBackReferences interface [Windows Shell], IObjectWithBackReferences interface [Windows Shell],described, _shell_IObjectWithBackReferences, shell.IObjectWithBackReferences, shobjidl_core/IObjectWithBackReferences
 ms.topic: interface
-f1_keywords: 
- - "shobjidl_core/IObjectWithBackReferences"
+f1_keywords:
+- shobjidl_core/IObjectWithBackReferences
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - IObjectWithBackReferences
+- IObjectWithBackReferences
 targetos: Windows
 req.typenames: 
 req.redist: 

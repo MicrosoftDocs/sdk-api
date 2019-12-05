@@ -1,19 +1,17 @@
 ---
 UID: NF:bcrypt.BCRYPT_INIT_AUTH_MODE_INFO
 title: BCRYPT_INIT_AUTH_MODE_INFO macro (bcrypt.h)
-
 description: Initializes a BCRYPT_AUTHENTICATED_CIPHER_MODE_INFO structure for use in calls to BCryptEncrypt and BCryptDecrypt functions.
 old-location: security\bcrypt_init_auth_mode_info.htm
 tech.root: SecCNG
 ms.assetid: 5c825337-bd60-48e4-9d71-bfd1d38ab171
-
 ms.date: 12/05/2018
 ms.keywords: BCRYPT_INIT_AUTH_MODE_INFO, BCRYPT_INIT_AUTH_MODE_INFO macro [Security], bcrypt/BCRYPT_INIT_AUTH_MODE_INFO, security.bcrypt_init_auth_mode_info
 ms.topic: macro
-f1_keywords: 
- - "bcrypt/BCRYPT_INIT_AUTH_MODE_INFO"
+f1_keywords:
+- bcrypt/BCRYPT_INIT_AUTH_MODE_INFO
 dev_langs:
- - c++
+- c++
 req.header: bcrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Bcrypt.h
+- Bcrypt.h
 api_name:
- - BCRYPT_INIT_AUTH_MODE_INFO
+- BCRYPT_INIT_AUTH_MODE_INFO
 targetos: Windows
 req.typenames: 
 req.redist: 

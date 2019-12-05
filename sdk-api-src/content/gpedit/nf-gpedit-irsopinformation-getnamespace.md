@@ -1,19 +1,17 @@
 ---
 UID: NF:gpedit.IRSOPInformation.GetNamespace
 title: IRSOPInformation::GetNamespace (gpedit.h)
-
 description: The GetNameSpace method retrieves the namespace from which the RSoP data is being displayed.
 old-location: policy\irsopinformation_getnamespace.htm
 tech.root: Policy
 ms.assetid: 3575072c-88d7-482c-bc8b-dca9f6d68577
-
 ms.date: 12/05/2018
 ms.keywords: GPO_SECTION_MACHINE, GPO_SECTION_ROOT, GPO_SECTION_USER, GetNameSpace method [Group Policy], GetNameSpace method [Group Policy],IRSOPInformation interface, GetNamespace, IRSOPInformation interface [Group Policy],GetNameSpace method, IRSOPInformation.GetNamespace, IRSOPInformation::GetNameSpace, IRSOPInformation::GetNamespace, _win32_irsopinformation_getnamespace, gpedit/IRSOPInformation::GetNameSpace, policy.irsopinformation_getnamespace
 ms.topic: method
-f1_keywords: 
- - "gpedit/IRSOPInformation.GetNameSpace"
+f1_keywords:
+- gpedit/IRSOPInformation.GetNameSpace
 dev_langs:
- - c++
+- c++
 req.header: gpedit.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Gpedit.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gpedit.dll
+- Gpedit.dll
 api_name:
- - IRSOPInformation.GetNameSpace
+- IRSOPInformation.GetNameSpace
 targetos: Windows
 req.typenames: 
 req.redist: 

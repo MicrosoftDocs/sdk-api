@@ -1,19 +1,17 @@
 ---
 UID: NE:cscobj.tagOFFLINEFILES_PATHFILTER_MATCH
 title: OFFLINEFILES_PATHFILTER_MATCH (cscobj.h)
-
 description: Specifies how closely an event must match a filter.
 old-location: of\offlinefiles_pathfilter_match.htm
 tech.root: offlinefiles
 ms.assetid: fae3d36d-b5f3-45ae-97f2-41fd6045d976
-
 ms.date: 12/05/2018
 ms.keywords: OFFLINEFILES_PATHFILTER_CHILD, OFFLINEFILES_PATHFILTER_DESCENDENT, OFFLINEFILES_PATHFILTER_MATCH, OFFLINEFILES_PATHFILTER_MATCH enumeration [Offline Files], OFFLINEFILES_PATHFILTER_SELF, OFFLINEFILES_PATHFILTER_SELFORCHILD, OFFLINEFILES_PATHFILTER_SELFORDESCENDENT, cscobj/OFFLINEFILES_PATHFILTER_CHILD, cscobj/OFFLINEFILES_PATHFILTER_DESCENDENT, cscobj/OFFLINEFILES_PATHFILTER_MATCH, cscobj/OFFLINEFILES_PATHFILTER_SELF, cscobj/OFFLINEFILES_PATHFILTER_SELFORCHILD, cscobj/OFFLINEFILES_PATHFILTER_SELFORDESCENDENT, of.offlinefiles_pathfilter_match
 ms.topic: enum
-f1_keywords: 
- - "cscobj/OFFLINEFILES_PATHFILTER_MATCH"
+f1_keywords:
+- cscobj/OFFLINEFILES_PATHFILTER_MATCH
 dev_langs:
- - c++
+- c++
 req.header: cscobj.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - CscObj.h
+- CscObj.h
 api_name:
- - OFFLINEFILES_PATHFILTER_MATCH
+- OFFLINEFILES_PATHFILTER_MATCH
 targetos: Windows
 req.typenames: OFFLINEFILES_PATHFILTER_MATCH
 req.redist: 

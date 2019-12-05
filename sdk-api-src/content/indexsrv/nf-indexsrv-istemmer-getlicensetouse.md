@@ -1,19 +1,17 @@
 ---
 UID: NF:indexsrv.IStemmer.GetLicenseToUse
 title: IStemmer::GetLicenseToUse (indexsrv.h)
-
 description: Gets the license information for this IStemmer implementation.
 old-location: search\_search_IStemmer_GetLicenseToUse.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\dataaddins\istemmer\getlicensetouse.htm
-
 ms.date: 12/05/2018
 ms.keywords: GetLicenseToUse, GetLicenseToUse method [search], GetLicenseToUse method [search],IStemmer interface, IStemmer interface [search],GetLicenseToUse method, IStemmer.GetLicenseToUse, IStemmer::GetLicenseToUse, _search_IStemmer_GetLicenseToUse, indexsrv/IStemmer::GetLicenseToUse, search._search_IStemmer_GetLicenseToUse
 ms.topic: method
-f1_keywords: 
- - "indexsrv/IStemmer.GetLicenseToUse"
+f1_keywords:
+- indexsrv/IStemmer.GetLicenseToUse
 dev_langs:
- - c++
+- c++
 req.header: indexsrv.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Indexsrv.h
+- Indexsrv.h
 api_name:
- - IStemmer.GetLicenseToUse
+- IStemmer.GetLicenseToUse
 targetos: Windows
 req.typenames: 
 req.redist: Windows NT 4.0 Option Pack

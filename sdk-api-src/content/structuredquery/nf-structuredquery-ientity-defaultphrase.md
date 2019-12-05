@@ -1,19 +1,17 @@
 ---
 UID: NF:structuredquery.IEntity.DefaultPhrase
 title: IEntity::DefaultPhrase (structuredquery.h)
-
 description: Retrieves a default phrase to use for this entity in restatements.
 old-location: search\_search_IEntity_DefaultPhrase.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\ientity\defaultphrase.htm
-
 ms.date: 12/05/2018
 ms.keywords: DefaultPhrase, DefaultPhrase method [search], DefaultPhrase method [search],IEntity interface, IEntity interface [search],DefaultPhrase method, IEntity.DefaultPhrase, IEntity::DefaultPhrase, _search_IEntity_DefaultPhrase, search._search_IEntity_DefaultPhrase, structuredquery/IEntity::DefaultPhrase
 ms.topic: method
-f1_keywords: 
- - "structuredquery/IEntity.DefaultPhrase"
+f1_keywords:
+- structuredquery/IEntity.DefaultPhrase
 dev_langs:
- - c++
+- c++
 req.header: structuredquery.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Structuredquery.h
+- Structuredquery.h
 api_name:
- - IEntity.DefaultPhrase
+- IEntity.DefaultPhrase
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0

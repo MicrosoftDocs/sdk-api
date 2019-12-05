@@ -1,19 +1,17 @@
 ---
 UID: NF:netfw.NetworkIsolationGetEnterpriseIdClose
 title: NetworkIsolationGetEnterpriseIdClose function (netfw.h)
-
 description: This API is used for closing the handle returned by NetworkIsolationGetEnterpriseIdAsync as well as for synchronizing the operation.
 old-location: ics\networkisolationgetenterpriseidclose.htm
 tech.root: ics
 ms.assetid: 85FE7431-CC20-4CD2-9853-9B81BB8B7160
-
 ms.date: 12/05/2018
 ms.keywords: NetworkIsolationGetEnterpriseIdClose, NetworkIsolationGetEnterpriseIdClose function [ICS/ICF], ics.networkisolationgetenterpriseidclose, netfw/NetworkIsolationGetEnterpriseIdClose
 ms.topic: function
-f1_keywords: 
- - "netfw/NetworkIsolationGetEnterpriseIdClose"
+f1_keywords:
+- netfw/NetworkIsolationGetEnterpriseIdClose
 dev_langs:
- - c++
+- c++
 req.header: netfw.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Firewallapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - firewallapi.dll
+- firewallapi.dll
 api_name:
- - NetworkIsolationGetEnterpriseIdClose
+- NetworkIsolationGetEnterpriseIdClose
 targetos: Windows
 req.typenames: 
 req.redist: 

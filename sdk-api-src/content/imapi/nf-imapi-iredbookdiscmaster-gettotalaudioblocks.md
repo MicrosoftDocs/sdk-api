@@ -1,19 +1,17 @@
 ---
 UID: NF:imapi.IRedbookDiscMaster.GetTotalAudioBlocks
 title: IRedbookDiscMaster::GetTotalAudioBlocks (imapi.h)
-
 description: Retrieves the total number of blocks available for staging audio tracks. The total includes all block types, including blocks that may need to be allocated for track gaps.
 old-location: imapi\iredbookdiscmaster_gettotalaudioblocks.htm
 tech.root: imapi
 ms.assetid: c4b0f02e-d881-4a4f-9356-d8232ef4c297
-
 ms.date: 12/05/2018
 ms.keywords: GetTotalAudioBlocks, GetTotalAudioBlocks method [IMAPI], GetTotalAudioBlocks method [IMAPI],IRedbookDiscMaster interface, IRedbookDiscMaster interface [IMAPI],GetTotalAudioBlocks method, IRedbookDiscMaster.GetTotalAudioBlocks, IRedbookDiscMaster::GetTotalAudioBlocks, _win32_iredbookdiscmaster_gettotalaudioblocks, base.iredbookdiscmaster_gettotalaudioblocks, imapi.iredbookdiscmaster_gettotalaudioblocks, imapi/IRedbookDiscMaster::GetTotalAudioBlocks
 ms.topic: method
-f1_keywords: 
- - "imapi/IRedbookDiscMaster.GetTotalAudioBlocks"
+f1_keywords:
+- imapi/IRedbookDiscMaster.GetTotalAudioBlocks
 dev_langs:
- - c++
+- c++
 req.header: imapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Actxprxy.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Actxprxy.dll
+- Actxprxy.dll
 api_name:
- - IRedbookDiscMaster.GetTotalAudioBlocks
+- IRedbookDiscMaster.GetTotalAudioBlocks
 targetos: Windows
 req.typenames: 
 req.redist: 

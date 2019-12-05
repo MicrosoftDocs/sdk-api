@@ -1,19 +1,17 @@
 ---
 UID: NF:shdeprecated.IBrowserService2._GetEffectiveClientArea
 title: IBrowserService2::_GetEffectiveClientArea (shdeprecated.h)
-
 description: Deprecated. Used with IBrowserService2::_GetViewBorderRect to negotiate the dimensions of the browser view.
 old-location: shell\IBrowserService2__GetEffectiveClientArea.htm
 tech.root: shell
 ms.assetid: c0c53cd4-4b85-42d5-98c3-22ef46644a3f
-
 ms.date: 12/05/2018
 ms.keywords: IBrowserService2 interface [Windows Shell],_GetEffectiveClientArea method, IBrowserService2._GetEffectiveClientArea, IBrowserService2::_GetEffectiveClientArea, _GetEffectiveClientArea, _GetEffectiveClientArea method [Windows Shell], _GetEffectiveClientArea method [Windows Shell],IBrowserService2 interface, shdeprecated/IBrowserService2::_GetEffectiveClientArea, shell.IBrowserService2__GetEffectiveClientArea, zone_IBrowserService2__GetEffectiveClientArea
 ms.topic: method
-f1_keywords: 
- - "shdeprecated/IBrowserService2._GetEffectiveClientArea"
+f1_keywords:
+- shdeprecated/IBrowserService2._GetEffectiveClientArea
 dev_langs:
- - c++
+- c++
 req.header: shdeprecated.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shdeprecated.h
+- Shdeprecated.h
 api_name:
- - IBrowserService2._GetEffectiveClientArea
+- IBrowserService2._GetEffectiveClientArea
 targetos: Windows
 req.typenames: 
 req.redist: 

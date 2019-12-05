@@ -1,19 +1,17 @@
 ---
 UID: NF:oleauto.VarDecFromStr
 title: VarDecFromStr function (oleauto.h)
-
 description: Converts an OLECHAR string to a decimal value.
 old-location: automat\vardecfromstr.htm
 tech.root: automat
 ms.assetid: 6e036c9c-3b5d-4b5c-9992-526380bb544d
-
 ms.date: 12/05/2018
 ms.keywords: LOCALE_NOUSEROVERRIDE, VAR_DATEVALUEONLY, VAR_TIMEVALUEONLY, VarDecFromStr, VarDecFromStr function [Automation], _oa96_VarDecFromStr, automat.vardecfromstr, oleauto/VarDecFromStr
 ms.topic: function
-f1_keywords: 
- - "oleauto/VarDecFromStr"
+f1_keywords:
+- oleauto/VarDecFromStr
 dev_langs:
- - c++
+- c++
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: OleAut32.lib
 req.dll: OleAut32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - OleAut32.dll
+- OleAut32.dll
 api_name:
- - VarDecFromStr
+- VarDecFromStr
 targetos: Windows
 req.typenames: 
 req.redist: 

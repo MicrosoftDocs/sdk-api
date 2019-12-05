@@ -1,19 +1,17 @@
 ---
 UID: NF:winsync.IEnumFeedClockVector.Clone
 title: IEnumFeedClockVector::Clone (winsync.h)
-
 description: Clones the enumerator and returns a new enumerator that is in the same state as the current one.
 old-location: winsync\ienumfeedclockvector_clone.htm
 tech.root: winsync
 ms.assetid: ad2664d2-c36c-46bf-9f80-001c2e5d4251
-
 ms.date: 12/05/2018
 ms.keywords: Clone, Clone method [Windows Sync], Clone method [Windows Sync],IEnumFeedClockVector interface, IEnumFeedClockVector interface [Windows Sync],Clone method, IEnumFeedClockVector.Clone, IEnumFeedClockVector::Clone, winsync.ienumfeedclockvector_clone, winsync/IEnumFeedClockVector::Clone
 ms.topic: method
-f1_keywords: 
- - "winsync/IEnumFeedClockVector.Clone"
+f1_keywords:
+- winsync/IEnumFeedClockVector.Clone
 dev_langs:
- - c++
+- c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - winsync.h
+- winsync.h
 api_name:
- - IEnumFeedClockVector.Clone
+- IEnumFeedClockVector.Clone
 targetos: Windows
 req.typenames: 
 req.redist: 

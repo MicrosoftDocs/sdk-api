@@ -1,19 +1,17 @@
 ---
 UID: NF:msctf.ITfContext.GetSelection
 title: ITfContext::GetSelection (msctf.h)
-
 description: ITfContext::GetSelection method
 old-location: tsf\itfcontext_getselection.htm
 tech.root: TSF
 ms.assetid: 08b67fd5-aebe-49f7-af78-6f49c8f47f64
-
 ms.date: 12/05/2018
 ms.keywords: GetSelection, GetSelection method [Text Services Framework], GetSelection method [Text Services Framework],ITfContext interface, ITfContext interface [Text Services Framework],GetSelection method, ITfContext.GetSelection, ITfContext::GetSelection, _tsf_itfcontext_getselection_ref, msctf/ITfContext::GetSelection, tsf.itfcontext_getselection
 ms.topic: method
-f1_keywords: 
- - "msctf/ITfContext.GetSelection"
+f1_keywords:
+- msctf/ITfContext.GetSelection
 dev_langs:
- - c++
+- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msctf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msctf.dll
+- msctf.dll
 api_name:
- - ITfContext.GetSelection
+- ITfContext.GetSelection
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

@@ -1,19 +1,17 @@
 ---
 UID: NN:oaidl.ITypeInfo
 title: ITypeInfo (oaidl.h)
-
 description: Used for reading information about objects.
 old-location: automat\itypeinfo.htm
 tech.root: automat
 ms.assetid: f3356463-3373-4279-bae1-953378aa2680
-
 ms.date: 12/05/2018
 ms.keywords: ITypeInfo, ITypeInfo interface [Automation], ITypeInfo interface [Automation],described, _oa96_ITypeInfo_Interface, automat.itypeinfo, oaidl/ITypeInfo
 ms.topic: interface
-f1_keywords: 
- - "oaidl/ITypeInfo"
+f1_keywords:
+- oaidl/ITypeInfo
 dev_langs:
- - c++
+- c++
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - oaidl.h
+- oaidl.h
 api_name:
- - ITypeInfo
+- ITypeInfo
 targetos: Windows
 req.typenames: 
 req.redist: 

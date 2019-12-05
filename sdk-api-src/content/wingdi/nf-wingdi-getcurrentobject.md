@@ -1,19 +1,17 @@
 ---
 UID: NF:wingdi.GetCurrentObject
 title: GetCurrentObject function (wingdi.h)
-
 description: The GetCurrentObject function retrieves a handle to an object of the specified type that has been selected into the specified device context (DC).
 old-location: gdi\getcurrentobject.htm
 tech.root: gdi
 ms.assetid: d7e2310c-6a9e-4195-824c-1a83382a5c5b
-
 ms.date: 12/05/2018
 ms.keywords: GetCurrentObject, GetCurrentObject function [Windows GDI], OBJ_BITMAP, OBJ_BRUSH, OBJ_COLORSPACE, OBJ_FONT, OBJ_PAL, OBJ_PEN, _win32_GetCurrentObject, gdi.getcurrentobject, wingdi/GetCurrentObject
 ms.topic: function
-f1_keywords: 
- - "wingdi/GetCurrentObject"
+f1_keywords:
+- wingdi/GetCurrentObject
 dev_langs:
- - c++
+- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - gdi32.dll
- - Ext-MS-Win-GDI-DC-l1-2-0.dll
- - ext-ms-win-gdi-dc-l1-1-0.dll
- - ext-ms-win-gdi-dc-l1-2-1.dll
- - GDI32Full.dll
+- gdi32.dll
+- Ext-MS-Win-GDI-DC-l1-2-0.dll
+- ext-ms-win-gdi-dc-l1-1-0.dll
+- ext-ms-win-gdi-dc-l1-2-1.dll
+- GDI32Full.dll
 api_name:
- - GetCurrentObject
+- GetCurrentObject
 targetos: Windows
 req.typenames: 
 req.redist: 

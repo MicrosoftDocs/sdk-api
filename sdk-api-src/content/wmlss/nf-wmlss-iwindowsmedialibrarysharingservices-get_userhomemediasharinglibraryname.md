@@ -1,19 +1,17 @@
 ---
 UID: NF:wmlss.IWindowsMediaLibrarySharingServices.get_userHomeMediaSharingLibraryName
 title: IWindowsMediaLibrarySharingServices::get_userHomeMediaSharingLibraryName (wmlss.h)
-
 description: The get_userHomeMediaSharingLibraryName method retrieves the name of the current user's shared media library.
 old-location: wmlss\IWMLSSget_userHomeMediaSharingLibraryName.htm
 tech.root: WMLSS
 ms.assetid: e41d5918-f554-4863-9ea6-11f562ac4d0f
-
 ms.date: 12/05/2018
 ms.keywords: IWindowsMediaLibrarySharingServices interface [Windows Media Library Sharing Services],get_userHomeMediaSharingLibraryName method, IWindowsMediaLibrarySharingServices.get_userHomeMediaSharingLibraryName, IWindowsMediaLibrarySharingServices::get_userHomeMediaSharingLibraryName, get_userHomeMediaSharingLibraryName, get_userHomeMediaSharingLibraryName method [Windows Media Library Sharing Services], get_userHomeMediaSharingLibraryName method [Windows Media Library Sharing Services],IWindowsMediaLibrarySharingServices interface, wmlss.IWMLSSget_userHomeMediaSharingLibraryName, wmlss/IWindowsMediaLibrarySharingServices::get_userHomeMediaSharingLibraryName
 ms.topic: method
-f1_keywords: 
- - "wmlss/IWindowsMediaLibrarySharingServices.get_userHomeMediaSharingLibraryName"
+f1_keywords:
+- wmlss/IWindowsMediaLibrarySharingServices.get_userHomeMediaSharingLibraryName
 dev_langs:
- - c++
+- c++
 req.header: wmlss.h
 req.include-header: Wmlss.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: WMPMediaSharing.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - WMPMediaSharing.dll
+- WMPMediaSharing.dll
 api_name:
- - IWindowsMediaLibrarySharingServices.get_userHomeMediaSharingLibraryName
+- IWindowsMediaLibrarySharingServices.get_userHomeMediaSharingLibraryName
 targetos: Windows
 req.typenames: 
 req.redist: 

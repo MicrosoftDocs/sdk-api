@@ -1,19 +1,17 @@
 ---
 UID: NS:ddraw._DDOVERLAYFX
 title: DDOVERLAYFX (ddraw.h)
-
 description: The DDOVERLAYFX structure passes overlay information to the IDirectDrawSurface7::UpdateOverlay method.
 old-location: directdraw\ddoverlayfx.htm
 tech.root: directdraw
 ms.assetid: 83b56211-0483-4e22-90b4-83ac5eaaa2f4
-
 ms.date: 12/05/2018
-ms.keywords: "*LPDDOVERLAYFX, DDOVERFX_ARITHSTRETCHY, DDOVERFX_MIRRORLEFTRIGHT, DDOVERFX_MIRRORUPDOWN, DDOVERLAYFX, DDOVERLAYFX structure [DirectDraw], LPDDOVERLAYFX, LPDDOVERLAYFX structure pointer [DirectDraw], ddraw/DDOVERLAYFX, ddraw/LPDDOVERLAYFX, directdraw.ddoverlayfx"
+ms.keywords: '*LPDDOVERLAYFX, DDOVERFX_ARITHSTRETCHY, DDOVERFX_MIRRORLEFTRIGHT, DDOVERFX_MIRRORUPDOWN, DDOVERLAYFX, DDOVERLAYFX structure [DirectDraw], LPDDOVERLAYFX, LPDDOVERLAYFX structure pointer [DirectDraw], ddraw/DDOVERLAYFX, ddraw/LPDDOVERLAYFX, directdraw.ddoverlayfx'
 ms.topic: struct
-f1_keywords: 
- - "ddraw/DDOVERLAYFX"
+f1_keywords:
+- ddraw/DDOVERLAYFX
 dev_langs:
- - c++
+- c++
 req.header: ddraw.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Ddraw.h
+- Ddraw.h
 api_name:
- - DDOVERLAYFX
+- DDOVERLAYFX
 targetos: Windows
 req.typenames: DDOVERLAYFX
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:sdoias.ISdoCollection.Remove
 title: ISdoCollection::Remove (sdoias.h)
-
 description: The Remove method removes the specified item from the collection.
 old-location: nps\SDO_isdocollection_remove.htm
 tech.root: Nps
 ms.assetid: f390377d-b78e-4548-9602-c0eb363765c7
-
 ms.date: 12/05/2018
 ms.keywords: ISdoCollection interface [Network Policy Server],Remove method, ISdoCollection.Remove, ISdoCollection::Remove, Remove, Remove method [Network Policy Server], Remove method [Network Policy Server],ISdoCollection interface, _sdo_isdocollection_remove, nps.SDO_isdocollection_remove, sdo.isdocollection_remove, sdoias/ISdoCollection::Remove
 ms.topic: method
-f1_keywords: 
- - "sdoias/ISdoCollection.Remove"
+f1_keywords:
+- sdoias/ISdoCollection.Remove
 dev_langs:
- - c++
+- c++
 req.header: sdoias.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Iassdo.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Iassdo.dll
+- Iassdo.dll
 api_name:
- - ISdoCollection.Remove
+- ISdoCollection.Remove
 targetos: Windows
 req.typenames: 
 req.redist: 

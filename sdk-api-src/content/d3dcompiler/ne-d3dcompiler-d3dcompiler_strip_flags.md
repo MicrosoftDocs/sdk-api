@@ -1,19 +1,17 @@
 ---
 UID: NE:d3dcompiler.D3DCOMPILER_STRIP_FLAGS
 title: D3DCOMPILER_STRIP_FLAGS (d3dcompiler.h)
-
 description: Strip flag options.
 old-location: direct3dhlsl\d3dcompiler_strip_flags.htm
 tech.root: direct3dhlsl
 ms.assetid: VS|directx_sdk|~\d3dcompiler_strip_flags.htm
-
 ms.date: 12/05/2018
 ms.keywords: D3DCOMPILER_STRIP_DEBUG_INFO, D3DCOMPILER_STRIP_FLAGS, D3DCOMPILER_STRIP_FLAGS enumeration [HLSL], D3DCOMPILER_STRIP_FORCE_DWORD, D3DCOMPILER_STRIP_PRIVATE_DATA, D3DCOMPILER_STRIP_REFLECTION_DATA, D3DCOMPILER_STRIP_ROOT_SIGNATURE, D3DCOMPILER_STRIP_TEST_BLOBS, d2322971-23ee-a7bd-cf13-8a393a03e8a9, d3dcompiler/D3DCOMPILER_STRIP_DEBUG_INFO, d3dcompiler/D3DCOMPILER_STRIP_FLAGS, d3dcompiler/D3DCOMPILER_STRIP_FORCE_DWORD, d3dcompiler/D3DCOMPILER_STRIP_PRIVATE_DATA, d3dcompiler/D3DCOMPILER_STRIP_REFLECTION_DATA, d3dcompiler/D3DCOMPILER_STRIP_ROOT_SIGNATURE, d3dcompiler/D3DCOMPILER_STRIP_TEST_BLOBS, direct3dhlsl.d3dcompiler_strip_flags
 ms.topic: enum
-f1_keywords: 
- - "d3dcompiler/D3DCOMPILER_STRIP_FLAGS"
+f1_keywords:
+- d3dcompiler/D3DCOMPILER_STRIP_FLAGS
 dev_langs:
- - c++
+- c++
 req.header: d3dcompiler.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - D3Dcompiler.h
+- D3Dcompiler.h
 api_name:
- - D3DCOMPILER_STRIP_FLAGS
+- D3DCOMPILER_STRIP_FLAGS
 targetos: Windows
 req.typenames: D3DCOMPILER_STRIP_FLAGS
 req.redist: 

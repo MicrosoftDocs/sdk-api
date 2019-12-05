@@ -1,19 +1,17 @@
 ---
 UID: NN:mfobjects.IMFMediaEventGenerator
 title: IMFMediaEventGenerator (mfobjects.h)
-
 description: Retrieves events from any Media Foundation object that generates events.
 old-location: mf\imfmediaeventgenerator.htm
 tech.root: medfound
 ms.assetid: a37d0840-c896-43a0-b3d1-c2a6aaff1b25
-
 ms.date: 12/05/2018
 ms.keywords: IMFMediaEventGenerator, IMFMediaEventGenerator interface [Media Foundation], IMFMediaEventGenerator interface [Media Foundation],described, a37d0840-c896-43a0-b3d1-c2a6aaff1b25, mf.imfmediaeventgenerator, mfobjects/IMFMediaEventGenerator
 ms.topic: interface
-f1_keywords: 
- - "mfobjects/IMFMediaEventGenerator"
+f1_keywords:
+- mfobjects/IMFMediaEventGenerator
 dev_langs:
- - c++
+- c++
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFMediaEventGenerator
+- IMFMediaEventGenerator
 targetos: Windows
 req.typenames: 
 req.redist: 

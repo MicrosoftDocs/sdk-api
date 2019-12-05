@@ -1,19 +1,17 @@
 ---
 UID: NN:functiondiscoveryprovider.IFunctionDiscoveryProviderQuery
 title: IFunctionDiscoveryProviderQuery (functiondiscoveryprovider.h)
-
 description: This interface is passed to all IFunctionDiscoveryProvider::Query method calls and contains query definition information. Providers should use this to determine what the constraints are for each query request they receive.
 old-location: ncd\ifunctiondiscoveryproviderquery.htm
 tech.root: FunDisc
 ms.assetid: 97468045-faa5-4690-8db5-50ee9656517b
-
 ms.date: 12/05/2018
 ms.keywords: IFunctionDiscoveryProviderQuery, IFunctionDiscoveryProviderQuery interface, IFunctionDiscoveryProviderQuery interface,described, functiondiscoveryprovider/IFunctionDiscoveryProviderQuery, ncd.ifunctiondiscoveryproviderquery
 ms.topic: interface
-f1_keywords: 
- - "functiondiscoveryprovider/IFunctionDiscoveryProviderQuery"
+f1_keywords:
+- functiondiscoveryprovider/IFunctionDiscoveryProviderQuery
 dev_langs:
- - c++
+- c++
 req.header: functiondiscoveryprovider.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - FunctionDiscoveryProvider.h
+- FunctionDiscoveryProvider.h
 api_name:
- - IFunctionDiscoveryProviderQuery
+- IFunctionDiscoveryProviderQuery
 targetos: Windows
 req.typenames: 
 req.redist: 

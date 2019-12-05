@@ -1,19 +1,17 @@
 ---
 UID: NF:tuner.IDVBTuningSpace.put_SystemType
 title: IDVBTuningSpace::put_SystemType (tuner.h)
-
 description: The put_SystemType method sets the system type.
 old-location: mstv\idvbtuningspace_put_systemtype.htm
 tech.root: mstv
 ms.assetid: 559f882a-4d1c-4fe1-af21-b3ad7ccd3ff2
-
 ms.date: 12/05/2018
 ms.keywords: IDVBTuningSpace interface [Microsoft TV Technologies],put_SystemType method, IDVBTuningSpace.put_SystemType, IDVBTuningSpace::put_SystemType, IDVBTuningSpaceput_SystemType, mstv.idvbtuningspace_put_systemtype, put_SystemType, put_SystemType method [Microsoft TV Technologies], put_SystemType method [Microsoft TV Technologies],IDVBTuningSpace interface, tuner/IDVBTuningSpace::put_SystemType
 ms.topic: method
-f1_keywords: 
- - "tuner/IDVBTuningSpace.put_SystemType"
+f1_keywords:
+- tuner/IDVBTuningSpace.put_SystemType
 dev_langs:
- - c++
+- c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - tuner.h
+- tuner.h
 api_name:
- - IDVBTuningSpace.put_SystemType
+- IDVBTuningSpace.put_SystemType
 targetos: Windows
 req.typenames: 
 req.redist: 

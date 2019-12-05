@@ -1,19 +1,17 @@
 ---
 UID: NN:d2d1_2.ID2D1GeometryRealization
 title: ID2D1GeometryRealization (d2d1_2.h)
-
 description: Encapsulates a device- and transform-dependent representation of a filled or stroked geometry.
 old-location: direct2d\id2d1geometryrealization.htm
 tech.root: Direct2D
 ms.assetid: EC2CF78B-5CED-494A-9ED3-407A4B6CD113
-
 ms.date: 12/05/2018
 ms.keywords: ID2D1GeometryRealization, ID2D1GeometryRealization interface [Direct2D], ID2D1GeometryRealization interface [Direct2D],described, d2d1_2/ID2D1GeometryRealization, direct2d.id2d1geometryrealization
 ms.topic: interface
-f1_keywords: 
- - "d2d1_2/ID2D1GeometryRealization"
+f1_keywords:
+- d2d1_2/ID2D1GeometryRealization
 dev_langs:
- - c++
+- c++
 req.header: d2d1_2.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: D2d1.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D2d1.lib
- - D2d1.dll
+- D2d1.lib
+- D2d1.dll
 api_name:
- - ID2D1GeometryRealization
+- ID2D1GeometryRealization
 targetos: Windows
 req.typenames: 
 req.redist: 

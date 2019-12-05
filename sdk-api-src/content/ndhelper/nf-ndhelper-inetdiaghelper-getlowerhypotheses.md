@@ -1,19 +1,17 @@
 ---
 UID: NF:ndhelper.INetDiagHelper.GetLowerHypotheses
 title: INetDiagHelper::GetLowerHypotheses (ndhelper.h)
-
 description: Generate hypotheses for possible causes of low health in the local components.
 old-location: ndf\inetdiaghelpe_getlowerhypotheses.htm
 tech.root: NDF
 ms.assetid: d17f5241-6efb-45a7-b355-8343e48b3261
-
 ms.date: 12/05/2018
 ms.keywords: GetLowerHypotheses, GetLowerHypotheses method [NDF], GetLowerHypotheses method [NDF],INetDiagHelper interface, INetDiagHelper interface [NDF],GetLowerHypotheses method, INetDiagHelper.GetLowerHypotheses, INetDiagHelper::GetLowerHypotheses, ndf.inetdiaghelpe_getlowerhypotheses, ndhelper/INetDiagHelper::GetLowerHypotheses
 ms.topic: method
-f1_keywords: 
- - "ndhelper/INetDiagHelper.GetLowerHypotheses"
+f1_keywords:
+- ndhelper/INetDiagHelper.GetLowerHypotheses
 dev_langs:
- - c++
+- c++
 req.header: ndhelper.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ndhelper.h
+- ndhelper.h
 api_name:
- - INetDiagHelper.GetLowerHypotheses
+- INetDiagHelper.GetLowerHypotheses
 targetos: Windows
 req.typenames: 
 req.redist: 

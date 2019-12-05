@@ -1,19 +1,17 @@
 ---
 UID: NN:mixerocx.IMixerOCXNotify
 title: IMixerOCXNotify (mixerocx.h)
-
 description: The IMixerOCXNotify interface is implemented by clients and called by the Overlay Mixer to send notifications of events affecting the video display rectangle.
 old-location: dshow\imixerocxnotify.htm
 tech.root: DirectShow
 ms.assetid: b73416c0-2312-4164-8a6d-f8776dc1447f
-
 ms.date: 12/05/2018
 ms.keywords: IMixerOCXNotify, IMixerOCXNotify interface [DirectShow], IMixerOCXNotify interface [DirectShow],described, IMixerOCXNotifyInterface, dshow.imixerocxnotify, mixerocx/IMixerOCXNotify
 ms.topic: interface
-f1_keywords: 
- - "mixerocx/IMixerOCXNotify"
+f1_keywords:
+- mixerocx/IMixerOCXNotify
 dev_langs:
- - c++
+- c++
 req.header: mixerocx.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IMixerOCXNotify
+- IMixerOCXNotify
 targetos: Windows
 req.typenames: 
 req.redist: 

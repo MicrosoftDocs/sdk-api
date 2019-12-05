@@ -1,19 +1,17 @@
 ---
 UID: NF:msctf.ITfContextOwnerServices.Unserialize
 title: ITfContextOwnerServices::Unserialize (msctf.h)
-
 description: ITfContextOwnerServices::Unserialize method
 old-location: tsf\itfcontextownerservices_unserialize.htm
 tech.root: TSF
 ms.assetid: b02ffedf-83c5-48ff-8116-801aaec6dc71
-
 ms.date: 12/05/2018
 ms.keywords: ITfContextOwnerServices interface [Text Services Framework],Unserialize method, ITfContextOwnerServices.Unserialize, ITfContextOwnerServices::Unserialize, Unserialize, Unserialize method [Text Services Framework], Unserialize method [Text Services Framework],ITfContextOwnerServices interface, _tsf_itfcontextownerservices_unserialize_ref, msctf/ITfContextOwnerServices::Unserialize, tsf.itfcontextownerservices_unserialize
 ms.topic: method
-f1_keywords: 
- - "msctf/ITfContextOwnerServices.Unserialize"
+f1_keywords:
+- msctf/ITfContextOwnerServices.Unserialize
 dev_langs:
- - c++
+- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msctf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msctf.dll
+- msctf.dll
 api_name:
- - ITfContextOwnerServices.Unserialize
+- ITfContextOwnerServices.Unserialize
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

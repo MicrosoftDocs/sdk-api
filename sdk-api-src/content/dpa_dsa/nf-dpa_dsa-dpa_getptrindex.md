@@ -1,19 +1,17 @@
 ---
 UID: NF:dpa_dsa.DPA_GetPtrIndex
 title: DPA_GetPtrIndex function (dpa_dsa.h)
-
 description: Gets the index of a matching item found in a dynamic pointer array (DPA).
 old-location: controls\DPA_GetPtrIndex.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\common\functions\dpa_getptrindex.htm
-
 ms.date: 12/05/2018
 ms.keywords: DPA_GetPtrIndex, DPA_GetPtrIndex function [Windows Controls], _shell_DPA_GetPtrIndex, _shell_DPA_GetPtrIndex_cpp, controls.DPA_GetPtrIndex, controls._shell_DPA_GetPtrIndex, dpa_dsa/DPA_GetPtrIndex
 ms.topic: function
-f1_keywords: 
- - "dpa_dsa/DPA_GetPtrIndex"
+f1_keywords:
+- dpa_dsa/DPA_GetPtrIndex
 dev_langs:
- - c++
+- c++
 req.header: dpa_dsa.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Comctl32.dll (version 4.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Comctl32.dll
+- Comctl32.dll
 api_name:
- - DPA_GetPtrIndex
+- DPA_GetPtrIndex
 targetos: Windows
 req.typenames: 
 req.redist: 

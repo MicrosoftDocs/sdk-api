@@ -1,19 +1,17 @@
 ---
 UID: NF:wingdi.GetFontLanguageInfo
 title: GetFontLanguageInfo function (wingdi.h)
-
 description: The GetFontLanguageInfo function returns information about the currently selected font for the specified display context. Applications typically use this information and the GetCharacterPlacement function to prepare a character string for display.
 old-location: gdi\getfontlanguageinfo.htm
 tech.root: gdi
 ms.assetid: c2f19423-4410-44dd-83f1-5b858852051d
-
 ms.date: 12/05/2018
 ms.keywords: GetFontLanguageInfo, GetFontLanguageInfo function [Windows GDI], _win32_GetFontLanguageInfo, gdi.getfontlanguageinfo, wingdi/GetFontLanguageInfo
 ms.topic: function
-f1_keywords: 
- - "wingdi/GetFontLanguageInfo"
+f1_keywords:
+- wingdi/GetFontLanguageInfo
 dev_langs:
- - c++
+- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - gdi32.dll
- - Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
- - GDI32Full.dll
+- gdi32.dll
+- Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
+- GDI32Full.dll
 api_name:
- - GetFontLanguageInfo
+- GetFontLanguageInfo
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:windows.foundation.IPropertyValueStatics.CreateUInt32
 title: IPropertyValueStatics::IPropertyValueStatics (windows.foundation.h)
-
 description: Creates a new IPropertyValue object that contains the specified unsigned 32-bit integer value.
 old-location: winrt\ipropertyvaluestatics_createuint32.htm
 tech.root: WinRT
 ms.assetid: E2ABD665-0BBD-4EA3-A265-D5EB12667F0A
-
 ms.date: 12/05/2018
 ms.keywords: CreateUInt32, CreateUInt32 method [Windows Runtime], CreateUInt32 method [Windows Runtime],IPropertyValueStatics interface, IPropertyValueStatics interface [Windows Runtime],CreateUInt32 method, IPropertyValueStatics.CreateUInt32, IPropertyValueStatics.IPropertyValueStatics, IPropertyValueStatics::CreateUInt32, IPropertyValueStatics::IPropertyValueStatics, windows/IPropertyValueStatics::CreateUInt32, winrt.ipropertyvaluefactory_createuint32, winrt.ipropertyvaluestatics_createuint32
 ms.topic: method
-f1_keywords: 
- - "windows.foundation/IPropertyValueStatics.CreateUInt32"
+f1_keywords:
+- windows.foundation/IPropertyValueStatics.CreateUInt32
 dev_langs:
- - c++
+- c++
 req.header: windows.foundation.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Windows.Foundation.h
+- Windows.Foundation.h
 api_name:
- - IPropertyValueStatics.CreateUInt32
+- IPropertyValueStatics.CreateUInt32
 targetos: Windows
 req.typenames: 
 req.redist: 

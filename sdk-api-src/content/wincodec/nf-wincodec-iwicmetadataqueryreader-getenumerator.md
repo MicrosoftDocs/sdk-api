@@ -1,19 +1,17 @@
 ---
 UID: NF:wincodec.IWICMetadataQueryReader.GetEnumerator
 title: IWICMetadataQueryReader::GetEnumerator (wincodec.h)
-
 description: Gets an enumerator of all metadata items at the current relative location within the metadata hierarchy.
 old-location: wic\_wic_codec_iwicmetadataqueryreader_getenumerator.htm
 tech.root: wic
 ms.assetid: 8e9b0da5-90e3-4398-9113-0fb86a94cb0c
-
 ms.date: 12/05/2018
 ms.keywords: GetEnumerator, GetEnumerator method [Windows Imaging Component], GetEnumerator method [Windows Imaging Component],IWICMetadataQueryReader interface, IWICMetadataQueryReader interface [Windows Imaging Component],GetEnumerator method, IWICMetadataQueryReader.GetEnumerator, IWICMetadataQueryReader::GetEnumerator, _wic_codec_iwicmetadataqueryreader_getenumerator, wic._wic_codec_iwicmetadataqueryreader_getenumerator, wincodec/IWICMetadataQueryReader::GetEnumerator
 ms.topic: method
-f1_keywords: 
- - "wincodec/IWICMetadataQueryReader.GetEnumerator"
+f1_keywords:
+- wincodec/IWICMetadataQueryReader.GetEnumerator
 dev_langs:
- - c++
+- c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Windowscodecs.lib
 req.dll: Windowscodecs.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Windowscodecs.dll
+- Windowscodecs.dll
 api_name:
- - IWICMetadataQueryReader.GetEnumerator
+- IWICMetadataQueryReader.GetEnumerator
 targetos: Windows
 req.typenames: 
 req.redist: 

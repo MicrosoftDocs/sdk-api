@@ -1,19 +1,17 @@
 ---
 UID: NF:combaseapi.CoReleaseServerProcess
 title: CoReleaseServerProcess function (combaseapi.h)
-
 description: Decrements the global per-process reference count.
 old-location: com\coreleaseserverprocess.htm
 tech.root: com
 ms.assetid: b28d41e2-4144-413d-9963-14f2d4dc8876
-
 ms.date: 12/05/2018
 ms.keywords: CoReleaseServerProcess, CoReleaseServerProcess function [COM], _com_CoReleaseServerProcess, com.coreleaseserverprocess, combaseapi/CoReleaseServerProcess
 ms.topic: function
-f1_keywords: 
- - "combaseapi/CoReleaseServerProcess"
+f1_keywords:
+- combaseapi/CoReleaseServerProcess
 dev_langs:
- - c++
+- c++
 req.header: combaseapi.h
 req.include-header: Objbase.h
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib: Ole32.lib
 req.dll: Ole32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ole32.dll
- - API-MS-Win-Core-Com-l1-1-0.dll
- - ComBase.dll
- - API-MS-Win-Core-Com-l1-1-1.dll
- - API-MS-Win-DownLevel-Ole32-l1-1-1.dll
+- Ole32.dll
+- API-MS-Win-Core-Com-l1-1-0.dll
+- ComBase.dll
+- API-MS-Win-Core-Com-l1-1-1.dll
+- API-MS-Win-DownLevel-Ole32-l1-1-1.dll
 api_name:
- - CoReleaseServerProcess
+- CoReleaseServerProcess
 targetos: Windows
 req.typenames: 
 req.redist: 

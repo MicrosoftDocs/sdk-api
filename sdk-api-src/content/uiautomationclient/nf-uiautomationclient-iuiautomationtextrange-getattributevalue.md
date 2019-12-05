@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationTextRange.GetAttributeValue
 title: IUIAutomationTextRange::GetAttributeValue (uiautomationclient.h)
-
 description: Retrieves the value of the specified text attribute across the entire text range.
 old-location: winauto\uiauto_IUIAutomationTextRange_GetAttributeValue.htm
 tech.root: WinAuto
 ms.assetid: 7a77774e-7be0-473e-a0c9-e1aa108549e1
-
 ms.date: 12/05/2018
 ms.keywords: GetAttributeValue, GetAttributeValue method [Windows Accessibility], GetAttributeValue method [Windows Accessibility],IUIAutomationTextRange interface, IUIAutomationTextRange interface [Windows Accessibility],GetAttributeValue method, IUIAutomationTextRange.GetAttributeValue, IUIAutomationTextRange::GetAttributeValue, uiauto.uiauto_IUIAutomationTextRange_GetAttributeValue, uiauto_IUIAutomationTextRange_GetAttributeValue, uiautomationclient/IUIAutomationTextRange::GetAttributeValue, winauto.uiauto_IUIAutomationTextRange_GetAttributeValue
 ms.topic: method
-f1_keywords: 
- - "uiautomationclient/IUIAutomationTextRange.GetAttributeValue"
+f1_keywords:
+- uiautomationclient/IUIAutomationTextRange.GetAttributeValue
 dev_langs:
- - c++
+- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationClient.h
+- UIAutomationClient.h
 api_name:
- - IUIAutomationTextRange.GetAttributeValue
+- IUIAutomationTextRange.GetAttributeValue
 targetos: Windows
 req.typenames: 
 req.redist: 

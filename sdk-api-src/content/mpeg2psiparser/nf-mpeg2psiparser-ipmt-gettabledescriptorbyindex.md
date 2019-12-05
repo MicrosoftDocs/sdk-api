@@ -1,19 +1,17 @@
 ---
 UID: NF:mpeg2psiparser.IPMT.GetTableDescriptorByIndex
 title: IPMT::GetTableDescriptorByIndex (mpeg2psiparser.h)
-
 description: The GetTableDescriptorByIndex method retrieves a table-wide descriptor for the PMT.
 old-location: mstv\ipmt_gettabledescriptorbyindex.htm
 tech.root: mstv
 ms.assetid: 31442c1f-0921-49b8-ab38-d75ccc2c4f0e
-
 ms.date: 12/05/2018
 ms.keywords: GetTableDescriptorByIndex, GetTableDescriptorByIndex method [Microsoft TV Technologies], GetTableDescriptorByIndex method [Microsoft TV Technologies],IPMT interface, IPMT interface [Microsoft TV Technologies],GetTableDescriptorByIndex method, IPMT.GetTableDescriptorByIndex, IPMT::GetTableDescriptorByIndex, IPMTGetTableDescriptorByIndex, mpeg2psiparser/IPMT::GetTableDescriptorByIndex, mstv.ipmt_gettabledescriptorbyindex
 ms.topic: method
-f1_keywords: 
- - "mpeg2psiparser/IPMT.GetTableDescriptorByIndex"
+f1_keywords:
+- mpeg2psiparser/IPMT.GetTableDescriptorByIndex
 dev_langs:
- - c++
+- c++
 req.header: mpeg2psiparser.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mpeg2PsiParser.h
+- Mpeg2PsiParser.h
 api_name:
- - IPMT.GetTableDescriptorByIndex
+- IPMT.GetTableDescriptorByIndex
 targetos: Windows
 req.typenames: 
 req.redist: 

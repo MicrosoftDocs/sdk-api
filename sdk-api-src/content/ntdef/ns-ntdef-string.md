@@ -1,19 +1,17 @@
 ---
 UID: NS:ntdef._STRING
 title: STRING (ntdef.h)
-
 description: The ANSI_STRING structure defines a counted string used for ANSI strings.
 old-location: kernel\ansi_string.htm
 tech.root: Kernel
 ms.assetid: 80bd569a-ed6f-4227-9d14-c011623678a0
-
 ms.date: 12/05/2018
-ms.keywords: "*PSTRING, ANSI_STRING, ANSI_STRING structure [Kernel-Mode Driver Architecture], CANSI_STRING, OEM_STRING, PANSI_STRING, PANSI_STRING structure pointer [Kernel-Mode Driver Architecture], STRING, kernel.ansi_string, kstruct_a_0b84d0be-6b91-48b6-87cf-2fd99f043bc4.xml, ntdef/ANSI_STRING, ntdef/PANSI_STRING"
+ms.keywords: '*PSTRING, ANSI_STRING, ANSI_STRING structure [Kernel-Mode Driver Architecture], CANSI_STRING, OEM_STRING, PANSI_STRING, PANSI_STRING structure pointer [Kernel-Mode Driver Architecture], STRING, kernel.ansi_string, kstruct_a_0b84d0be-6b91-48b6-87cf-2fd99f043bc4.xml, ntdef/ANSI_STRING, ntdef/PANSI_STRING'
 ms.topic: struct
-f1_keywords: 
- - "ntdef/ANSI_STRING"
+f1_keywords:
+- ntdef/ANSI_STRING
 dev_langs:
- - c++
+- c++
 req.header: ntdef.h
 req.include-header: Wdm.h, Ntddk.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Ntdef.h
+- Ntdef.h
 api_name:
- - ANSI_STRING
+- ANSI_STRING
 targetos: Windows
 req.typenames: STRING
 req.redist: 

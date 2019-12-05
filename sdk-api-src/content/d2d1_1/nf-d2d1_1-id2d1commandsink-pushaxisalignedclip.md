@@ -1,19 +1,17 @@
 ---
 UID: NF:d2d1_1.ID2D1CommandSink.PushAxisAlignedClip
 title: ID2D1CommandSink::PushAxisAlignedClip (d2d1_1.h)
-
 description: Pushes a clipping rectangle onto the clip and layer stack.
 old-location: direct2d\id2d1commandsink_pushaxisalignedclip.htm
 tech.root: Direct2D
 ms.assetid: 09e20780-2ebd-417e-9953-421f49dba4dd
-
 ms.date: 12/05/2018
 ms.keywords: ID2D1CommandSink interface [Direct2D],PushAxisAlignedClip method, ID2D1CommandSink.PushAxisAlignedClip, ID2D1CommandSink::PushAxisAlignedClip, PushAxisAlignedClip, PushAxisAlignedClip method [Direct2D], PushAxisAlignedClip method [Direct2D],ID2D1CommandSink interface, d2d1_1/ID2D1CommandSink::PushAxisAlignedClip, direct2d.id2d1commandsink_pushaxisalignedclip
 ms.topic: method
-f1_keywords: 
- - "d2d1_1/ID2D1CommandSink.PushAxisAlignedClip"
+f1_keywords:
+- d2d1_1/ID2D1CommandSink.PushAxisAlignedClip
 dev_langs:
- - c++
+- c++
 req.header: d2d1_1.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: D2d1.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D2d1.dll
+- D2d1.dll
 api_name:
- - ID2D1CommandSink.PushAxisAlignedClip
+- ID2D1CommandSink.PushAxisAlignedClip
 targetos: Windows
 req.typenames: 
 req.redist: 

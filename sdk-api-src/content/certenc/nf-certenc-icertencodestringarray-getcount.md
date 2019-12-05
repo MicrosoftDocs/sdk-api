@@ -1,19 +1,17 @@
 ---
 UID: NF:certenc.ICertEncodeStringArray.GetCount
 title: ICertEncodeStringArray::GetCount (certenc.h)
-
 description: Returns the number of string values in the string array.
 old-location: security\icertencodestringarray_getcount.htm
 tech.root: SecCrypto
 ms.assetid: c02a23ea-87c2-4458-8b1a-b010e8103a90
-
 ms.date: 12/05/2018
 ms.keywords: CCertEncodeStringArray object [Security],GetCount method, GetCount, GetCount method [Security], GetCount method [Security],CCertEncodeStringArray object, GetCount method [Security],ICertEncodeStringArray interface, ICertEncodeStringArray interface [Security],GetCount method, ICertEncodeStringArray.GetCount, ICertEncodeStringArray::GetCount, _certsrv_icertencodestringarray_getcount, certenc/ICertEncodeStringArray::GetCount, security.icertencodestringarray_getcount
 ms.topic: method
-f1_keywords: 
- - "certenc/ICertEncodeStringArray.GetCount"
+f1_keywords:
+- certenc/ICertEncodeStringArray.GetCount
 dev_langs:
- - c++
+- c++
 req.header: certenc.h
 req.include-header: Certsrv.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Certidl.lib
 req.dll: Certenc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Certenc.dll
+- Certenc.dll
 api_name:
- - ICertEncodeStringArray.GetCount
- - CCertEncodeStringArray.GetCount
+- ICertEncodeStringArray.GetCount
+- CCertEncodeStringArray.GetCount
 targetos: Windows
 req.typenames: 
 req.redist: 

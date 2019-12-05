@@ -1,19 +1,17 @@
 ---
 UID: NF:wbemcli.IEnumWbemClassObject.Reset
 title: IEnumWbemClassObject::Reset (wbemcli.h)
-
 description: The IEnumWbemClassObject::Reset method resets an enumeration sequence back to the beginning. Because CIM objects are dynamic, calling this method does not necessarily return the same list of objects that you obtained previously.
 old-location: wmi\ienumwbemclassobject_reset.htm
 tech.root: WmiSdk
 ms.assetid: 571b7067-676f-4e9e-9694-268ec10dc60b
-
 ms.date: 12/05/2018
 ms.keywords: IEnumWbemClassObject interface [Windows Management Instrumentation],Reset method, IEnumWbemClassObject.Reset, IEnumWbemClassObject::Reset, Reset, Reset method [Windows Management Instrumentation], Reset method [Windows Management Instrumentation],IEnumWbemClassObject interface, _hmm_ienumwbemclassobject_reset, wbemcli/IEnumWbemClassObject::Reset, wmi.ienumwbemclassobject_reset
 ms.topic: method
-f1_keywords: 
- - "wbemcli/IEnumWbemClassObject.Reset"
+f1_keywords:
+- wbemcli/IEnumWbemClassObject.Reset
 dev_langs:
- - c++
+- c++
 req.header: wbemcli.h
 req.include-header: Wbemidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Wbemuuid.lib
 req.dll: Fastprox.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Fastprox.dll
+- Fastprox.dll
 api_name:
- - IEnumWbemClassObject.Reset
+- IEnumWbemClassObject.Reset
 targetos: Windows
 req.typenames: 
 req.redist: 

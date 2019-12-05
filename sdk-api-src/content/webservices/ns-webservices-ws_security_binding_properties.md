@@ -1,19 +1,17 @@
 ---
 UID: NS:webservices._WS_SECURITY_BINDING_PROPERTIES
 title: WS_SECURITY_BINDING_PROPERTIES (webservices.h)
-
 description: Specifies an array of security binding settings.
 old-location: wsw\ws_security_binding_properties.htm
 tech.root: wsw
 ms.assetid: 4b36e801-dea9-44fe-ae12-104ea7dce1ee
-
 ms.date: 12/05/2018
 ms.keywords: WS_SECURITY_BINDING_PROPERTIES, WS_SECURITY_BINDING_PROPERTIES structure [Web Services for Windows], webservices/WS_SECURITY_BINDING_PROPERTIES, wsw.ws_security_binding_properties
 ms.topic: struct
-f1_keywords: 
- - "webservices/WS_SECURITY_BINDING_PROPERTIES"
+f1_keywords:
+- webservices/WS_SECURITY_BINDING_PROPERTIES
 dev_langs:
- - c++
+- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WebServices.h
+- WebServices.h
 api_name:
- - WS_SECURITY_BINDING_PROPERTIES
+- WS_SECURITY_BINDING_PROPERTIES
 targetos: Windows
 req.typenames: WS_SECURITY_BINDING_PROPERTIES
 req.redist: 

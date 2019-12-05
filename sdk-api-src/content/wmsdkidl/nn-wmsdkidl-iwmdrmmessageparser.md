@@ -1,19 +1,17 @@
 ---
 UID: NN:wmsdkidl.IWMDRMMessageParser
 title: IWMDRMMessageParser (wmsdkidl.h)
-
 description: The IWMDRMMessageParser interface parses pertinent information from messages received from a device.An IWMDRMMessageParser interface exists for every device registration object.
 old-location: wmformat\iwmdrmmessageparser.htm
 tech.root: wmformat
 ms.assetid: 76e504e2-5978-4afd-9556-68f78c49a313
-
 ms.date: 12/05/2018
 ms.keywords: IWMDRMMessageParser, IWMDRMMessageParser interface [windows Media Format], IWMDRMMessageParser interface [windows Media Format],described, IWMDRMMessageParserInterface, wmformat.iwmdrmmessageparser, wmsdkidl/IWMDRMMessageParser
 ms.topic: interface
-f1_keywords: 
- - "wmsdkidl/IWMDRMMessageParser"
+f1_keywords:
+- wmsdkidl/IWMDRMMessageParser
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmsdkidl.h
+- wmsdkidl.h
 api_name:
- - IWMDRMMessageParser
+- IWMDRMMessageParser
 targetos: Windows
 req.typenames: 
 req.redist: 

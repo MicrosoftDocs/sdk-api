@@ -1,19 +1,17 @@
 ---
 UID: NS:lpmapi.__unnamed_struct_15
 title: IntServMainHdr (lpmapi.h)
-
 description: The IntServMainHdr structure is a header for Integrated Services RSVP objects.
 old-location: qos\intservmainhdr.htm
 tech.root: QOS
 ms.assetid: b67fdf53-322b-4a70-ae83-63d4365e9b57
-
 ms.date: 12/05/2018
 ms.keywords: IntServMainHdr, IntServMainHdr structure [QOS], lpmapi/IntServMainHdr, qos.intservmainhdr
 ms.topic: struct
-f1_keywords: 
- - "lpmapi/IntServMainHdr"
+f1_keywords:
+- lpmapi/IntServMainHdr
 dev_langs:
- - c++
+- c++
 req.header: lpmapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Lpmapi.h
+- Lpmapi.h
 api_name:
- - IntServMainHdr
+- IntServMainHdr
 targetos: Windows
 req.typenames: IntServMainHdr
 req.redist: 

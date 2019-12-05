@@ -1,19 +1,17 @@
 ---
 UID: NN:xpsdigitalsignature.IXpsSignatureBlock
 title: IXpsSignatureBlock (xpsdigitalsignature.h)
-
 description: Represents a block of signature requests that are stored in a SignatureDefinitions part.
 old-location: xps\ixpssignatureblock.htm
 tech.root: printdocs
 ms.assetid: cb2b7fe2-f3d9-4542-958f-5412d2498a9f
-
 ms.date: 12/05/2018
 ms.keywords: IXpsSignatureBlock, IXpsSignatureBlock interface [XPS Documents and Packaging], IXpsSignatureBlock interface [XPS Documents and Packaging],described, xps.ixpssignatureblock, xpsdigitalsignature/IXpsSignatureBlock
 ms.topic: interface
-f1_keywords: 
- - "xpsdigitalsignature/IXpsSignatureBlock"
+f1_keywords:
+- xpsdigitalsignature/IXpsSignatureBlock
 dev_langs:
- - c++
+- c++
 req.header: xpsdigitalsignature.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsdigitalsignature.h
+- xpsdigitalsignature.h
 api_name:
- - IXpsSignatureBlock
+- IXpsSignatureBlock
 targetos: Windows
 req.typenames: 
 req.redist: 

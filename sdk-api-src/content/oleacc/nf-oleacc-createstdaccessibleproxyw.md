@@ -1,19 +1,17 @@
 ---
 UID: NF:oleacc.CreateStdAccessibleProxyW
 title: CreateStdAccessibleProxyW function (oleacc.h)
-
 description: Creates an accessible object that has the properties and methods of the specified class of system-provided user interface element.
 old-location: winauto\createstdaccessibleproxy.htm
 tech.root: WinAuto
 ms.assetid: 724b2a38-f7ca-4423-acd4-0871623d1201
-
 ms.date: 12/05/2018
 ms.keywords: CreateStdAccessibleProxy, CreateStdAccessibleProxy function [Windows Accessibility], CreateStdAccessibleProxyA, CreateStdAccessibleProxyW, _msaa_CreateStdAccessibleProxy, msaa.createstdaccessibleproxy, oleacc/CreateStdAccessibleProxy, oleacc/CreateStdAccessibleProxyA, oleacc/CreateStdAccessibleProxyW, winauto.createstdaccessibleproxy
 ms.topic: function
-f1_keywords: 
- - "oleacc/CreateStdAccessibleProxy"
+f1_keywords:
+- oleacc/CreateStdAccessibleProxy
 dev_langs:
- - c++
+- c++
 req.header: oleacc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Oleacc.lib
 req.dll: Oleacc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Oleacc.dll
+- Oleacc.dll
 api_name:
- - CreateStdAccessibleProxy
- - CreateStdAccessibleProxyA
- - CreateStdAccessibleProxyW
+- CreateStdAccessibleProxy
+- CreateStdAccessibleProxyA
+- CreateStdAccessibleProxyW
 targetos: Windows
 req.typenames: 
 req.redist: Active Accessibility 1.3 RDK on Windows NT 4.0 with SP6 and later and Windows 95

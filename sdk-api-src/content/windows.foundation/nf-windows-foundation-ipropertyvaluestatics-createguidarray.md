@@ -1,19 +1,17 @@
 ---
 UID: NF:windows.foundation.IPropertyValueStatics.CreateGuidArray
 title: IPropertyValueStatics::IPropertyValueStatics (windows.foundation.h)
-
 description: Creates a new IPropertyValue object that contains the specified array of Guid values.
 old-location: winrt\ipropertyvaluestatics_createguidarray.htm
 tech.root: WinRT
 ms.assetid: 8284b582-2bba-4afd-9f8c-3b2169e0adbf
-
 ms.date: 12/05/2018
 ms.keywords: CreateGuidArray, CreateGuidArray method [Windows Runtime], CreateGuidArray method [Windows Runtime],IPropertyValueStatics interface, IPropertyValueStatics interface [Windows Runtime],CreateGuidArray method, IPropertyValueStatics.CreateGuidArray, IPropertyValueStatics.IPropertyValueStatics, IPropertyValueStatics::CreateGuidArray, IPropertyValueStatics::IPropertyValueStatics, windows/IPropertyValueStatics::CreateGuidArray, winrt.ipropertyvaluefactory_createguidarray, winrt.ipropertyvaluestatics_createguidarray
 ms.topic: method
-f1_keywords: 
- - "windows.foundation/IPropertyValueStatics.CreateGuidArray"
+f1_keywords:
+- windows.foundation/IPropertyValueStatics.CreateGuidArray
 dev_langs:
- - c++
+- c++
 req.header: windows.foundation.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Windows.Foundation.h
+- Windows.Foundation.h
 api_name:
- - IPropertyValueStatics.CreateGuidArray
+- IPropertyValueStatics.CreateGuidArray
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:sdoias.ISdoServiceControl.StartService
 title: ISdoServiceControl::StartService (sdoias.h)
-
 description: The StartService method starts the service administered through SDO.
 old-location: nps\SDO_isdoservicecontrol_startservice.htm
 tech.root: Nps
 ms.assetid: f024a3b8-c527-4a43-99df-c5b146dae1b8
-
 ms.date: 12/05/2018
 ms.keywords: ISdoServiceControl interface [Network Policy Server],StartService method, ISdoServiceControl.StartService, ISdoServiceControl::StartService, StartService, StartService method [Network Policy Server], StartService method [Network Policy Server],ISdoServiceControl interface, _sdo_isdoservicecontrol_startservice, nps.SDO_isdoservicecontrol_startservice, sdo.isdoservicecontrol_startservice, sdoias/ISdoServiceControl::StartService
 ms.topic: method
-f1_keywords: 
- - "sdoias/ISdoServiceControl.StartService"
+f1_keywords:
+- sdoias/ISdoServiceControl.StartService
 dev_langs:
- - c++
+- c++
 req.header: sdoias.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Iassdo.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Iassdo.dll
+- Iassdo.dll
 api_name:
- - ISdoServiceControl.StartService
+- ISdoServiceControl.StartService
 targetos: Windows
 req.typenames: 
 req.redist: 

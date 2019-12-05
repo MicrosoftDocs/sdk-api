@@ -1,19 +1,17 @@
 ---
 UID: NF:tuner.ITuningSpaceContainer.put_Item
 title: ITuningSpaceContainer::put_Item (tuner.h)
-
 description: The put_Item method saves changes to an existing tuning space in the collection.
 old-location: mstv\ituningspacecontainer_put_item.htm
 tech.root: mstv
 ms.assetid: 44e82ec9-ffd0-4bc9-88da-b6c135cbd98f
-
 ms.date: 12/05/2018
 ms.keywords: ITuningSpaceContainer interface [Microsoft TV Technologies],put_Item method, ITuningSpaceContainer.put_Item, ITuningSpaceContainer::put_Item, ITuningSpaceContainerput_Item, mstv.ituningspacecontainer_put_item, put_Item, put_Item method [Microsoft TV Technologies], put_Item method [Microsoft TV Technologies],ITuningSpaceContainer interface, tuner/ITuningSpaceContainer::put_Item
 ms.topic: method
-f1_keywords: 
- - "tuner/ITuningSpaceContainer.put_Item"
+f1_keywords:
+- tuner/ITuningSpaceContainer.put_Item
 dev_langs:
- - c++
+- c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - tuner.h
+- tuner.h
 api_name:
- - ITuningSpaceContainer.put_Item
+- ITuningSpaceContainer.put_Item
 targetos: Windows
 req.typenames: 
 req.redist: 

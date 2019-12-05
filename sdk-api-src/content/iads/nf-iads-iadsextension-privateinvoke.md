@@ -1,19 +1,17 @@
 ---
 UID: NF:iads.IADsExtension.PrivateInvoke
 title: IADsExtension::PrivateInvoke (iads.h)
-
 description: The IADsExtension::PrivateInvoke method is normally called by ADSI after the IADsExtension::PrivateGetIDsOfNames method. This method can either have a custom implementation or it can delegate the operation to IDispatch::DispInvoke method.
 old-location: adsi\iadsextension_privateinvoke.htm
 tech.root: adsi
 ms.assetid: 5af74a05-df64-4679-890b-a5a031633fd8
-
 ms.date: 12/05/2018
 ms.keywords: DISPATCH_METHOD, DISPATCH_PROPERTYGET, DISPATCH_PROPERTYPUT, DISPATCH_PROPERTYPUTREF, IADsExtension interface [ADSI],PrivateInvoke method, IADsExtension.PrivateInvoke, IADsExtension::PrivateInvoke, PrivateInvoke, PrivateInvoke method [ADSI], PrivateInvoke method [ADSI],IADsExtension interface, _ds_iadsextension_privateinvoke, adsi.iadsextension__privateinvoke, adsi.iadsextension_privateinvoke, iads/IADsExtension::PrivateInvoke
 ms.topic: method
-f1_keywords: 
- - "iads/IADsExtension.PrivateInvoke"
+f1_keywords:
+- iads/IADsExtension.PrivateInvoke
 dev_langs:
- - c++
+- c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Activeds.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Activeds.dll
+- Activeds.dll
 api_name:
- - IADsExtension.PrivateInvoke
+- IADsExtension.PrivateInvoke
 targetos: Windows
 req.typenames: 
 req.redist: 

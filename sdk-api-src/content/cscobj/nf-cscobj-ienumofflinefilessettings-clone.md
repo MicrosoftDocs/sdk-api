@@ -1,19 +1,17 @@
 ---
 UID: NF:cscobj.IEnumOfflineFilesSettings.Clone
 title: IEnumOfflineFilesSettings::Clone (cscobj.h)
-
 description: Creates a new instance of the enumerator with the same enumeration state as the current one.
 old-location: of\ienumofflinefilessettings_clone.htm
 tech.root: offlinefiles
 ms.assetid: 85c2e5a3-4b1c-4a21-8693-804c088a7a56
-
 ms.date: 12/05/2018
 ms.keywords: Clone, Clone method [Offline Files], Clone method [Offline Files],IEnumOfflineFilesSettings interface, IEnumOfflineFilesSettings interface [Offline Files],Clone method, IEnumOfflineFilesSettings.Clone, IEnumOfflineFilesSettings::Clone, cscobj/IEnumOfflineFilesSettings::Clone, of.ienumofflinefilessettings_clone
 ms.topic: method
-f1_keywords: 
- - "cscobj/IEnumOfflineFilesSettings.Clone"
+f1_keywords:
+- cscobj/IEnumOfflineFilesSettings.Clone
 dev_langs:
- - c++
+- c++
 req.header: cscobj.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: CscSvc.dll; CscObj.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CscSvc.dll
- - CscObj.dll
+- CscSvc.dll
+- CscObj.dll
 api_name:
- - IEnumOfflineFilesSettings.Clone
+- IEnumOfflineFilesSettings.Clone
 targetos: Windows
 req.typenames: 
 req.redist: 

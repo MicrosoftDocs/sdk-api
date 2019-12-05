@@ -1,19 +1,17 @@
 ---
 UID: NF:dshowasf.IConfigAsfWriter.GetCurrentProfileId
 title: IConfigAsfWriter::GetCurrentProfileId (dshowasf.h)
-
 description: The GetCurrentProfileId method retrieves the identifier of the WM ASF Writer filter's profile, only when the filter is using a Windows Media Format 4.0 profile. (Deprecated.).
 old-location: dshow\iconfigasfwriter_getcurrentprofileid.htm
 tech.root: DirectShow
 ms.assetid: 37288625-368f-41d4-bfdc-bb2fd144f455
-
 ms.date: 12/05/2018
 ms.keywords: GetCurrentProfileId, GetCurrentProfileId method [DirectShow], GetCurrentProfileId method [DirectShow],IConfigAsfWriter interface, IConfigAsfWriter interface [DirectShow],GetCurrentProfileId method, IConfigAsfWriter.GetCurrentProfileId, IConfigAsfWriter::GetCurrentProfileId, IConfigAsfWriterGetCurrentProfileId, dshow.iconfigasfwriter_getcurrentprofileid, dshowasf/IConfigAsfWriter::GetCurrentProfileId
 ms.topic: method
-f1_keywords: 
- - "dshowasf/IConfigAsfWriter.GetCurrentProfileId"
+f1_keywords:
+- dshowasf/IConfigAsfWriter.GetCurrentProfileId
 dev_langs:
- - c++
+- c++
 req.header: dshowasf.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dshowasf.h
+- Dshowasf.h
 api_name:
- - IConfigAsfWriter.GetCurrentProfileId
+- IConfigAsfWriter.GetCurrentProfileId
 targetos: Windows
 req.typenames: 
 req.redist: 

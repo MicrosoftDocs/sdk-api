@@ -1,19 +1,17 @@
 ---
 UID: NF:mfcaptureengine.IMFCaptureSource.GetCurrentDeviceMediaType
 title: IMFCaptureSource::GetCurrentDeviceMediaType (mfcaptureengine.h)
-
 description: Gets the current media type for a capture stream.
 old-location: mf\imfcapturesource_getcurrentdevicemediatype.htm
 tech.root: medfound
 ms.assetid: 8F263F5C-D1B4-4DF7-AFCB-E27575FBAAA2
-
 ms.date: 12/05/2018
 ms.keywords: GetCurrentDeviceMediaType, GetCurrentDeviceMediaType method [Media Foundation], GetCurrentDeviceMediaType method [Media Foundation],IMFCaptureSource interface, IMFCaptureSource interface [Media Foundation],GetCurrentDeviceMediaType method, IMFCaptureSource.GetCurrentDeviceMediaType, IMFCaptureSource::GetCurrentDeviceMediaType, MF_CAPTURE_ENGINE_FIRST_SOURCE_AUDIO_STREAM, MF_CAPTURE_ENGINE_FIRST_SOURCE_PHOTO_STREAM, MF_CAPTURE_ENGINE_FIRST_SOURCE_VIDEO_STREAM, mf.imfcapturesource_getcurrentdevicemediatype, mfcaptureengine/IMFCaptureSource::GetCurrentDeviceMediaType
 ms.topic: method
-f1_keywords: 
- - "mfcaptureengine/IMFCaptureSource.GetCurrentDeviceMediaType"
+f1_keywords:
+- mfcaptureengine/IMFCaptureSource.GetCurrentDeviceMediaType
 dev_langs:
- - c++
+- c++
 req.header: mfcaptureengine.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfcaptureengine.h
+- mfcaptureengine.h
 api_name:
- - IMFCaptureSource.GetCurrentDeviceMediaType
+- IMFCaptureSource.GetCurrentDeviceMediaType
 targetos: Windows
 req.typenames: 
 req.redist: 

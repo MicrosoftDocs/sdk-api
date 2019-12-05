@@ -1,19 +1,17 @@
 ---
 UID: NF:sbtsv.ITsSbResourcePluginStore.RemoveEnvironmentFromStore
 title: ITsSbResourcePluginStore::RemoveEnvironmentFromStore (sbtsv.h)
-
 description: Removes the specified environment from the resource plug-in store.
 old-location: termserv\itssbresourcepluginstore_removeenvironmentfromstore.htm
 tech.root: TermServ
 ms.assetid: b1922ff2-6322-4868-ab7b-2f18386d7d08
-
 ms.date: 12/05/2018
 ms.keywords: ITsSbResourcePluginStore interface [Remote Desktop Services],RemoveEnvironmentFromStore method, ITsSbResourcePluginStore.RemoveEnvironmentFromStore, ITsSbResourcePluginStore::RemoveEnvironmentFromStore, ITsSbResourcePluginStoreEx interface [Remote Desktop Services],RemoveEnvironmentFromStore method, ITsSbResourcePluginStoreEx::RemoveEnvironmentFromStore, RemoveEnvironmentFromStore, RemoveEnvironmentFromStore method [Remote Desktop Services], RemoveEnvironmentFromStore method [Remote Desktop Services],ITsSbResourcePluginStore interface, RemoveEnvironmentFromStore method [Remote Desktop Services],ITsSbResourcePluginStoreEx interface, sbtsv/ITsSbResourcePluginStore::RemoveEnvironmentFromStore, sbtsv/ITsSbResourcePluginStoreEx::RemoveEnvironmentFromStore, termserv.itssbresourcepluginstore_removeenvironmentfromstore
 ms.topic: method
-f1_keywords: 
- - "sbtsv/ITsSbResourcePluginStore.RemoveEnvironmentFromStore"
+f1_keywords:
+- sbtsv/ITsSbResourcePluginStore.RemoveEnvironmentFromStore
 dev_langs:
- - c++
+- c++
 req.header: sbtsv.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - sbtsv.h
+- sbtsv.h
 api_name:
- - ITsSbResourcePluginStore.RemoveEnvironmentFromStore
- - ITsSbResourcePluginStoreEx.RemoveEnvironmentFromStore
+- ITsSbResourcePluginStore.RemoveEnvironmentFromStore
+- ITsSbResourcePluginStoreEx.RemoveEnvironmentFromStore
 targetos: Windows
 req.typenames: 
 req.redist: 

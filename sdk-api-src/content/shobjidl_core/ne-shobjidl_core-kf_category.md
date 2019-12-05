@@ -1,19 +1,17 @@
 ---
 UID: NE:shobjidl_core.KF_CATEGORY
 title: KF_CATEGORY (shobjidl_core.h)
-
 description: Value that represent a category by which a folder registered with the Known Folder system can be classified.
 old-location: shell\KF_CATEGORY.htm
 tech.root: shell
 ms.assetid: 2ca0d3e2-bb4c-4a28-90d6-fe2852373b88
-
 ms.date: 12/05/2018
 ms.keywords: KF_CATEGORY, KF_CATEGORY enumeration [Windows Shell], KF_CATEGORY_COMMON, KF_CATEGORY_FIXED, KF_CATEGORY_PERUSER, KF_CATEGORY_VIRTUAL, _shell_KF_CATEGORY, shell.KF_CATEGORY, shobjidl_core/KF_CATEGORY, shobjidl_core/KF_CATEGORY_COMMON, shobjidl_core/KF_CATEGORY_FIXED, shobjidl_core/KF_CATEGORY_PERUSER, shobjidl_core/KF_CATEGORY_VIRTUAL
 ms.topic: enum
-f1_keywords: 
- - "shobjidl_core/KF_CATEGORY"
+f1_keywords:
+- shobjidl_core/KF_CATEGORY
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - KF_CATEGORY
+- KF_CATEGORY
 targetos: Windows
 req.typenames: KF_CATEGORY
 req.redist: 

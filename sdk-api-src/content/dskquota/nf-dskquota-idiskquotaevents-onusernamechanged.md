@@ -1,19 +1,17 @@
 ---
 UID: NF:dskquota.IDiskQuotaEvents.OnUserNameChanged
 title: IDiskQuotaEvents::OnUserNameChanged (dskquota.h)
-
 description: Notifies the client's connection sink whenever a user's SID has been asynchronously resolved.
 old-location: fs\idiskquotaevents_onusernamechanged.htm
 tech.root: FileIO
 ms.assetid: d01cb679-03e2-4b76-b068-f64e576709fb
-
 ms.date: 12/05/2018
 ms.keywords: IDiskQuotaEvents interface [Files],OnUserNameChanged method, IDiskQuotaEvents.OnUserNameChanged, IDiskQuotaEvents::OnUserNameChanged, OnUserNameChanged, OnUserNameChanged method [Files], OnUserNameChanged method [Files],IDiskQuotaEvents interface, _win32_idiskquotaevents_onusernamechanged, base.idiskquotaevents_onusernamechanged, dskquota/IDiskQuotaEvents::OnUserNameChanged, fs.idiskquotaevents_onusernamechanged
 ms.topic: method
-f1_keywords: 
- - "dskquota/IDiskQuotaEvents.OnUserNameChanged"
+f1_keywords:
+- dskquota/IDiskQuotaEvents.OnUserNameChanged
 dev_langs:
- - c++
+- c++
 req.header: dskquota.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Dskquota.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dskquota.dll
+- Dskquota.dll
 api_name:
- - IDiskQuotaEvents.OnUserNameChanged
+- IDiskQuotaEvents.OnUserNameChanged
 targetos: Windows
 req.typenames: 
 req.redist: 

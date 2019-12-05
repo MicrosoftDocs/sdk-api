@@ -1,19 +1,17 @@
 ---
 UID: NF:oleauto.VarR4FromUI1
 title: VarR4FromUI1 function (oleauto.h)
-
 description: Converts an unsigned char value to a float value.
 old-location: automat\varr4fromui1.htm
 tech.root: automat
 ms.assetid: f14cb5ff-8d73-46e5-8a57-7d6e69c4ee64
-
 ms.date: 12/05/2018
 ms.keywords: VarR4FromUI1, VarR4FromUI1 function [Automation], _oa96_VarR4FromUI1, automat.varr4fromui1, oleauto/VarR4FromUI1
 ms.topic: function
-f1_keywords: 
- - "oleauto/VarR4FromUI1"
+f1_keywords:
+- oleauto/VarR4FromUI1
 dev_langs:
- - c++
+- c++
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: OleAut32.lib
 req.dll: OleAut32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - OleAut32.dll
+- OleAut32.dll
 api_name:
- - VarR4FromUI1
+- VarR4FromUI1
 targetos: Windows
 req.typenames: 
 req.redist: 

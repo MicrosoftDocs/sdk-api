@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d11.ID3D11DeviceContext.IASetInputLayout
 title: ID3D11DeviceContext::IASetInputLayout (d3d11.h)
-
 description: Bind an input-layout object to the input-assembler stage.
 old-location: direct3d11\id3d11devicecontext_iasetinputlayout.htm
 tech.root: direct3d11
 ms.assetid: 54562ece-db8d-4e31-bde2-36391792e259
-
 ms.date: 12/05/2018
 ms.keywords: IASetInputLayout, IASetInputLayout method [Direct3D 11], IASetInputLayout method [Direct3D 11],ID3D11DeviceContext interface, ID3D11DeviceContext interface [Direct3D 11],IASetInputLayout method, ID3D11DeviceContext.IASetInputLayout, ID3D11DeviceContext::IASetInputLayout, d3d11/ID3D11DeviceContext::IASetInputLayout, direct3d11.id3d11devicecontext_iasetinputlayout, f3e6f365-7707-18d4-cb39-e78b1f31d4c8
 ms.topic: method
-f1_keywords: 
- - "d3d11/ID3D11DeviceContext.IASetInputLayout"
+f1_keywords:
+- d3d11/ID3D11DeviceContext.IASetInputLayout
 dev_langs:
- - c++
+- c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: D3D11.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D11.lib
- - D3D11.dll
+- D3D11.lib
+- D3D11.dll
 api_name:
- - ID3D11DeviceContext.IASetInputLayout
+- ID3D11DeviceContext.IASetInputLayout
 targetos: Windows
 req.typenames: 
 req.redist: 

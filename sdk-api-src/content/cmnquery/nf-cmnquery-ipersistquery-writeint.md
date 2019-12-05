@@ -1,19 +1,17 @@
 ---
 UID: NF:cmnquery.IPersistQuery.WriteInt
 title: IPersistQuery::WriteInt (cmnquery.h)
-
 description: Writes an integer value to the query store.
 old-location: ad\ipersistquery_writeint.htm
 tech.root: ad
 ms.assetid: 5f68865a-dd9f-4428-9cbc-f998f0f1f4a7
-
 ms.date: 12/05/2018
 ms.keywords: IPersistQuery interface [Active Directory],WriteInt method, IPersistQuery.WriteInt, IPersistQuery::WriteInt, WriteInt, WriteInt method [Active Directory], WriteInt method [Active Directory],IPersistQuery interface, _glines_ipersistquery_writeint, ad.ipersistquery__writeint, ad.ipersistquery_writeint, cmnquery/IPersistQuery::WriteInt
 ms.topic: method
-f1_keywords: 
- - "cmnquery/IPersistQuery.WriteInt"
+f1_keywords:
+- cmnquery/IPersistQuery.WriteInt
 dev_langs:
- - c++
+- c++
 req.header: cmnquery.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Dsquery.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dsquery.dll
+- Dsquery.dll
 api_name:
- - IPersistQuery.WriteInt
+- IPersistQuery.WriteInt
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:pla.IScheduleCollection.get_Count
 title: IScheduleCollection::get_Count (pla.h)
-
 description: Retrieves the number of schedules in the collection.
 old-location: pla\ischedulecollection_count.htm
 tech.root: PLA
 ms.assetid: ade49ca4-3cd6-4d42-bf2c-50bdc6301dbb
-
 ms.date: 12/05/2018
 ms.keywords: Count property [PLA], Count property [PLA],IScheduleCollection interface, IScheduleCollection interface [PLA],Count property, IScheduleCollection.Count, IScheduleCollection.get_Count, IScheduleCollection::Count, IScheduleCollection::get_Count, base.ischedulecollection_count, get_Count, pla.ischedulecollection_count, pla/IScheduleCollection::Count, pla/IScheduleCollection::get_Count
 ms.topic: method
-f1_keywords: 
- - "pla/IScheduleCollection.Count"
+f1_keywords:
+- pla/IScheduleCollection.Count
 dev_langs:
- - c++
+- c++
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: Pla.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Pla.dll
+- Pla.dll
 api_name:
- - IScheduleCollection.Count
- - IScheduleCollection.get_Count
+- IScheduleCollection.Count
+- IScheduleCollection.get_Count
 targetos: Windows
 req.typenames: 
 req.redist: 

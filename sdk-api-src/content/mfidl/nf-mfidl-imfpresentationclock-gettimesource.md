@@ -1,19 +1,17 @@
 ---
 UID: NF:mfidl.IMFPresentationClock.GetTimeSource
 title: IMFPresentationClock::GetTimeSource (mfidl.h)
-
 description: Retrieves the clock's presentation time source.
 old-location: mf\imfpresentationclock_gettimesource.htm
 tech.root: medfound
 ms.assetid: e6b6851b-f5b3-40c2-9160-59f2a68c9131
-
 ms.date: 12/05/2018
 ms.keywords: GetTimeSource, GetTimeSource method [Media Foundation], GetTimeSource method [Media Foundation],IMFPresentationClock interface, IMFPresentationClock interface [Media Foundation],GetTimeSource method, IMFPresentationClock.GetTimeSource, IMFPresentationClock::GetTimeSource, e6b6851b-f5b3-40c2-9160-59f2a68c9131, mf.imfpresentationclock_gettimesource, mfidl/IMFPresentationClock::GetTimeSource
 ms.topic: method
-f1_keywords: 
- - "mfidl/IMFPresentationClock.GetTimeSource"
+f1_keywords:
+- mfidl/IMFPresentationClock.GetTimeSource
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFPresentationClock.GetTimeSource
+- IMFPresentationClock.GetTimeSource
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NN:shobjidl_core.IHomeGroup
 title: IHomeGroup (shobjidl_core.h)
-
 description: Exposes methods that determine a computer's HomeGroup membership status and display the sharing wizard.
 old-location: shell\IHomeGroup.htm
 tech.root: shell
 ms.assetid: 97d693c0-1126-4cd3-8aee-b5499b538403
-
 ms.date: 12/05/2018
 ms.keywords: IHomeGroup, IHomeGroup interface [Windows Shell], IHomeGroup interface [Windows Shell],described, _shell_IHomeGroup, shell.IHomeGroup, shobjidl_core/IHomeGroup
 ms.topic: interface
-f1_keywords: 
- - "shobjidl_core/IHomeGroup"
+f1_keywords:
+- shobjidl_core/IHomeGroup
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Provsvc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Provsvc.dll
+- Provsvc.dll
 api_name:
- - IHomeGroup
+- IHomeGroup
 targetos: Windows
 req.typenames: 
 req.redist: 

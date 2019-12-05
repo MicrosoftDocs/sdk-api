@@ -1,19 +1,17 @@
 ---
 UID: NE:codecapi.eAVDSPLoudnessEqualization
 title: eAVDSPLoudnessEqualization (codecapi.h)
-
 description: Specifies whether loudness equalization is enabled in an audio decoder or digital signal processor (DSP).
 old-location: dshow\eavdsploudnessequalization.htm
 tech.root: DirectShow
 ms.assetid: bb46653e-d17d-4899-8a0b-cee8c4d68993
-
 ms.date: 12/05/2018
 ms.keywords: codecapi/eAVDSPLoudnessEqualization, codecapi/eAVDSPLoudnessEqualization_AUTO, codecapi/eAVDSPLoudnessEqualization_OFF, codecapi/eAVDSPLoudnessEqualization_ON, dshow.eavdsploudnessequalization, eAVDSPLoudnessEqualization, eAVDSPLoudnessEqualization enumeration [DirectShow], eAVDSPLoudnessEqualization_AUTO, eAVDSPLoudnessEqualization_OFF, eAVDSPLoudnessEqualization_ON
 ms.topic: enum
-f1_keywords: 
- - "codecapi/eAVDSPLoudnessEqualization"
+f1_keywords:
+- codecapi/eAVDSPLoudnessEqualization
 dev_langs:
- - c++
+- c++
 req.header: codecapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - codecapi.h
+- codecapi.h
 api_name:
- - eAVDSPLoudnessEqualization
+- eAVDSPLoudnessEqualization
 targetos: Windows
 req.typenames: 
 req.redist: 

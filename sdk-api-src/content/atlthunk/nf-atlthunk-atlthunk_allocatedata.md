@@ -1,19 +1,17 @@
 ---
 UID: NF:atlthunk.AtlThunk_AllocateData
 title: AtlThunk_AllocateData function (atlthunk.h)
-
 description: Allocates space in memory for an ATL thunk.
 old-location: base\atlthunk_allocatedata.htm
 tech.root: Memory
 ms.assetid: D306E6CB-72D4-4820-885E-175FC8500954
-
 ms.date: 12/05/2018
 ms.keywords: AtlThunk_AllocateData, AtlThunk_AllocateData function, atlthunk/AtlThunk_AllocateData, base.atlthunk_allocatedata
 ms.topic: function
-f1_keywords: 
- - "atlthunk/AtlThunk_AllocateData"
+f1_keywords:
+- atlthunk/AtlThunk_AllocateData
 dev_langs:
- - c++
+- c++
 req.header: atlthunk.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Atlthunk.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - atlthunk.dll
+- atlthunk.dll
 api_name:
- - AtlThunk_AllocateData
+- AtlThunk_AllocateData
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d12.ID3D12Resource.ReadFromSubresource
 title: ID3D12Resource::ReadFromSubresource (d3d12.h)
-
 description: Uses the CPU to copy data from a subresource, enabling the CPU to read the contents of most textures with undefined layouts.
 old-location: direct3d12\id3d12resource_readfromsubresource.htm
 tech.root: direct3d12
 ms.assetid: A1F61217-A383-49BF-B675-FBC7F6D015DB
-
 ms.date: 12/05/2018
 ms.keywords: ID3D12Resource interface,ReadFromSubresource method, ID3D12Resource.ReadFromSubresource, ID3D12Resource::ReadFromSubresource, ReadFromSubresource, ReadFromSubresource method, ReadFromSubresource method,ID3D12Resource interface, d3d12/ID3D12Resource::ReadFromSubresource, direct3d12.id3d12resource_readfromsubresource
 ms.topic: method
-f1_keywords: 
- - "d3d12/ID3D12Resource.ReadFromSubresource"
+f1_keywords:
+- d3d12/ID3D12Resource.ReadFromSubresource
 dev_langs:
- - c++
+- c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: D3d12.lib
 req.dll: D3d12.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - d3d12.dll
+- d3d12.dll
 api_name:
- - ID3D12Resource.ReadFromSubresource
+- ID3D12Resource.ReadFromSubresource
 targetos: Windows
 req.typenames: 
 req.redist: 

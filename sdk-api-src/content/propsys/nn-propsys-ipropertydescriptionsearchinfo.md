@@ -1,19 +1,17 @@
 ---
 UID: NN:propsys.IPropertyDescriptionSearchInfo
 title: IPropertyDescriptionSearchInfo (propsys.h)
-
 description: Exposes search-related information for a property.
 old-location: properties\IPropertyDescriptionSearchInfo.htm
 tech.root: properties
 ms.assetid: 7bd4be80-7459-4c3d-9da4-0580995e6db6
-
 ms.date: 12/05/2018
 ms.keywords: IPropertyDescriptionSearchInfo, IPropertyDescriptionSearchInfo interface [Windows Properties], IPropertyDescriptionSearchInfo interface [Windows Properties],described, _shell_IPropertyDescriptionSearchInfo, properties.IPropertyDescriptionSearchInfo, propsys/IPropertyDescriptionSearchInfo, shell.IPropertyDescriptionSearchInfo
 ms.topic: interface
-f1_keywords: 
- - "propsys/IPropertyDescriptionSearchInfo"
+f1_keywords:
+- propsys/IPropertyDescriptionSearchInfo
 dev_langs:
- - c++
+- c++
 req.header: propsys.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Propsys.h
+- Propsys.h
 api_name:
- - IPropertyDescriptionSearchInfo
+- IPropertyDescriptionSearchInfo
 targetos: Windows
 req.typenames: 
 req.redist: 

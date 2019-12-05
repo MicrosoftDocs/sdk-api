@@ -1,19 +1,17 @@
 ---
 UID: NS:wingdi.tagCHARSETINFO
 title: CHARSETINFO (wingdi.h)
-
 description: Contains information about a character set.
 old-location: intl\charsetinfo.htm
 tech.root: Intl
 ms.assetid: 4f815f53-9fac-41f3-9493-bd8d68cff543
-
 ms.date: 12/05/2018
-ms.keywords: "*LPCHARSETINFO, *NPCHARSETINFO, *PCHARSETINFO, CHARSETINFO, CHARSETINFO structure [Internationalization for Windows Applications], PCHARSETINFO, PCHARSETINFO structure pointer [Internationalization for Windows Applications], _win32_CHARSETINFO_str, intl.charsetinfo, wingdi/CHARSETINFO, wingdi/PCHARSETINFO"
+ms.keywords: '*LPCHARSETINFO, *NPCHARSETINFO, *PCHARSETINFO, CHARSETINFO, CHARSETINFO structure [Internationalization for Windows Applications], PCHARSETINFO, PCHARSETINFO structure pointer [Internationalization for Windows Applications], _win32_CHARSETINFO_str, intl.charsetinfo, wingdi/CHARSETINFO, wingdi/PCHARSETINFO'
 ms.topic: struct
-f1_keywords: 
- - "wingdi/CHARSETINFO"
+f1_keywords:
+- wingdi/CHARSETINFO
 dev_langs:
- - c++
+- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wingdi.h
+- Wingdi.h
 api_name:
- - CHARSETINFO
+- CHARSETINFO
 targetos: Windows
 req.typenames: CHARSETINFO, *PCHARSETINFO, *NPCHARSETINFO, *LPCHARSETINFO
 req.redist: 

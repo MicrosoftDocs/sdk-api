@@ -1,19 +1,17 @@
 ---
 UID: NF:mmdeviceapi.IMMNotificationClient.OnDeviceRemoved
 title: IMMNotificationClient::OnDeviceRemoved (mmdeviceapi.h)
-
 description: The OnDeviceRemoved method indicates that an audio endpoint device has been removed.
 old-location: coreaudio\immnotificationclient_ondeviceremoved.htm
 tech.root: CoreAudio
 ms.assetid: 0adacdd2-5fa3-4d27-a299-fa0d41b6d285
-
 ms.date: 12/05/2018
 ms.keywords: IMMNotificationClient interface [Core Audio],OnDeviceRemoved method, IMMNotificationClient.OnDeviceRemoved, IMMNotificationClient::OnDeviceRemoved, IMMNotificationClientOnDeviceRemoved, OnDeviceRemoved, OnDeviceRemoved method [Core Audio], OnDeviceRemoved method [Core Audio],IMMNotificationClient interface, coreaudio.immnotificationclient_ondeviceremoved, mmdeviceapi/IMMNotificationClient::OnDeviceRemoved
 ms.topic: method
-f1_keywords: 
- - "mmdeviceapi/IMMNotificationClient.OnDeviceRemoved"
+f1_keywords:
+- mmdeviceapi/IMMNotificationClient.OnDeviceRemoved
 dev_langs:
- - c++
+- c++
 req.header: mmdeviceapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mmdeviceapi.h
+- Mmdeviceapi.h
 api_name:
- - IMMNotificationClient.OnDeviceRemoved
+- IMMNotificationClient.OnDeviceRemoved
 targetos: Windows
 req.typenames: 
 req.redist: 

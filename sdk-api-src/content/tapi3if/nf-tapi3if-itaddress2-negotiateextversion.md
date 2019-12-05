@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi3if.ITAddress2.NegotiateExtVersion
 title: ITAddress2::NegotiateExtVersion (tapi3if.h)
-
 description: The NegotiateExtVersion method allows an application to negotiate an extension version to use with the specified line device. This method need not be called if the application does not support provider-specific extensions.
 old-location: tapi3\itaddress2_negotiateextversion.htm
 tech.root: Tapi
 ms.assetid: 219b5c74-f999-4bb7-9e13-59c6ade9da46
-
 ms.date: 12/05/2018
 ms.keywords: ITAddress2 interface [TAPI 2.2],NegotiateExtVersion method, ITAddress2.NegotiateExtVersion, ITAddress2::NegotiateExtVersion, NegotiateExtVersion, NegotiateExtVersion method [TAPI 2.2], NegotiateExtVersion method [TAPI 2.2],ITAddress2 interface, _tapi3_itaddress2_negotiateextversion, tapi3.itaddress2_negotiateextversion, tapi3if/ITAddress2::NegotiateExtVersion
 ms.topic: method
-f1_keywords: 
- - "tapi3if/ITAddress2.NegotiateExtVersion"
+f1_keywords:
+- tapi3if/ITAddress2.NegotiateExtVersion
 dev_langs:
- - c++
+- c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Tapi3.dll
+- Tapi3.dll
 api_name:
- - ITAddress2.NegotiateExtVersion
+- ITAddress2.NegotiateExtVersion
 targetos: Windows
 req.typenames: 
 req.redist: 

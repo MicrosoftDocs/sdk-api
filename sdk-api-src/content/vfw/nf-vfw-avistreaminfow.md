@@ -1,19 +1,17 @@
 ---
 UID: NF:vfw.AVIStreamInfoW
 title: AVIStreamInfoW function (vfw.h)
-
 description: The AVIStreamInfo function obtains stream header information.
 old-location: multimedia\avistreaminfo.htm
 tech.root: Multimedia
 ms.assetid: 7a1ba29b-e8ba-435d-a551-c9184631971c
-
 ms.date: 12/05/2018
 ms.keywords: AVIStreamInfo, AVIStreamInfo function [Windows Multimedia], AVIStreamInfoA, AVIStreamInfoW, _win32_AVIStreamInfo, multimedia.avistreaminfo, vfw/AVIStreamInfo, vfw/AVIStreamInfoA, vfw/AVIStreamInfoW
 ms.topic: function
-f1_keywords: 
- - "vfw/AVIStreamInfo"
+f1_keywords:
+- vfw/AVIStreamInfo
 dev_langs:
- - c++
+- c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Vfw32.lib
 req.dll: Avifil32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Avifil32.dll
- - Ext-MS-Win-Media-Avi-L1-1-0.dll
+- Avifil32.dll
+- Ext-MS-Win-Media-Avi-L1-1-0.dll
 api_name:
- - AVIStreamInfo
- - AVIStreamInfoA
- - AVIStreamInfoW
+- AVIStreamInfo
+- AVIStreamInfoA
+- AVIStreamInfoW
 targetos: Windows
 req.typenames: 
 req.redist: 

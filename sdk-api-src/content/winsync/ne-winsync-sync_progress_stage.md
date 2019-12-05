@@ -1,19 +1,17 @@
 ---
 UID: NE:winsync.__MIDL___MIDL_itf_winsync_0000_0000_0003
 title: SYNC_PROGRESS_STAGE (winsync.h)
-
 description: Represents the stages of a synchronization session.
 old-location: winsync\sync_progress_stage.htm
 tech.root: winsync
 ms.assetid: 06f8542a-d742-4cbb-bb44-c107b59ad38f
-
 ms.date: 12/05/2018
 ms.keywords: SPS_CHANGE_APPLICATION, SPS_CHANGE_DETECTION, SPS_CHANGE_ENUMERATION, SYNC_PROGRESS_STAGE, SYNC_PROGRESS_STAGE enumeration [Windows Sync], winsync.sync_progress_stage, winsync/SPS_CHANGE_APPLICATION, winsync/SPS_CHANGE_DETECTION, winsync/SPS_CHANGE_ENUMERATION, winsync/SYNC_PROGRESS_STAGE
 ms.topic: enum
-f1_keywords: 
- - "winsync/SYNC_PROGRESS_STAGE"
+f1_keywords:
+- winsync/SYNC_PROGRESS_STAGE
 dev_langs:
- - c++
+- c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - winsync.h
+- winsync.h
 api_name:
- - SYNC_PROGRESS_STAGE
+- SYNC_PROGRESS_STAGE
 targetos: Windows
 req.typenames: SYNC_PROGRESS_STAGE
 req.redist: 

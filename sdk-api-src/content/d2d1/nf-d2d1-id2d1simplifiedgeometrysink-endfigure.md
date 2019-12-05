@@ -1,19 +1,17 @@
 ---
 UID: NF:d2d1.ID2D1SimplifiedGeometrySink.EndFigure
 title: ID2D1SimplifiedGeometrySink::EndFigure (d2d1.h)
-
 description: Ends the current figure; optionally, closes it.
 old-location: direct2d\ID2D1SimplifiedGeometrySink_EndFigure.htm
 tech.root: Direct2D
 ms.assetid: 31f6aeba-2e81-4b8d-b734-0c501eae331f
-
 ms.date: 12/05/2018
 ms.keywords: EndFigure, EndFigure method [Direct2D], EndFigure method [Direct2D],ID2D1SimplifiedGeometrySink interface, ID2D1SimplifiedGeometrySink interface [Direct2D],EndFigure method, ID2D1SimplifiedGeometrySink.EndFigure, ID2D1SimplifiedGeometrySink::EndFigure, d2d1/ID2D1SimplifiedGeometrySink::EndFigure, direct2d.ID2D1SimplifiedGeometrySink_EndFigure
 ms.topic: method
-f1_keywords: 
- - "d2d1/ID2D1SimplifiedGeometrySink.EndFigure"
+f1_keywords:
+- d2d1/ID2D1SimplifiedGeometrySink.EndFigure
 dev_langs:
- - c++
+- c++
 req.header: d2d1.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: D2d1.lib
 req.dll: D2d1.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D2d1.dll
+- D2d1.dll
 api_name:
- - ID2D1SimplifiedGeometrySink.EndFigure
+- ID2D1SimplifiedGeometrySink.EndFigure
 targetos: Windows
 req.typenames: 
 req.redist: 

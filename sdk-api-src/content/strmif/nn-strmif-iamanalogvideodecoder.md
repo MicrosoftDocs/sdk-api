@@ -1,19 +1,17 @@
 ---
 UID: NN:strmif.IAMAnalogVideoDecoder
 title: IAMAnalogVideoDecoder (strmif.h)
-
 description: The IAMAnalogVideoDecoder interface sets and retrieves information about the analog-to-digital conversion process in a video capture filter.The WDM Video Capture filter exposes this interface if the device is an analog video capture device.
 old-location: dshow\iamanalogvideodecoder.htm
 tech.root: DirectShow
 ms.assetid: 81d43941-7c81-4220-915f-0b373a7455e5
-
 ms.date: 12/05/2018
 ms.keywords: IAMAnalogVideoDecoder, IAMAnalogVideoDecoder interface [DirectShow], IAMAnalogVideoDecoder interface [DirectShow],described, IAMAnalogVideoDecoderInterface, dshow.iamanalogvideodecoder, strmif/IAMAnalogVideoDecoder
 ms.topic: interface
-f1_keywords: 
- - "strmif/IAMAnalogVideoDecoder"
+f1_keywords:
+- strmif/IAMAnalogVideoDecoder
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IAMAnalogVideoDecoder
+- IAMAnalogVideoDecoder
 targetos: Windows
 req.typenames: 
 req.redist: 

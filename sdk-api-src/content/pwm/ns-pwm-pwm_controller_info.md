@@ -1,19 +1,17 @@
 ---
 UID: NS:pwm._PWM_CONTROLLER_INFO
 title: PWM_CONTROLLER_INFO (pwm.h)
-
 description: Represents the static information that characterizes a Pulse Width Modulation (PWM) controller.
 old-location: base\pwm_controller_info.htm
 tech.root: devio
 ms.assetid: 64002D7B-0752-4EC9-88E7-D166CBDE0AB5
-
 ms.date: 12/05/2018
 ms.keywords: PWM_CONTROLLER_GET_INFO_OUTPUT, PWM_CONTROLLER_INFO, PWM_CONTROLLER_INFO structure, base.pwm_controller_info, pwm/PWM_CONTROLLER_INFO
 ms.topic: struct
-f1_keywords: 
- - "pwm/PWM_CONTROLLER_INFO"
+f1_keywords:
+- pwm/PWM_CONTROLLER_INFO
 dev_langs:
- - c++
+- c++
 req.header: pwm.h
 req.include-header: Pwm.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Pwm.h
+- Pwm.h
 api_name:
- - PWM_CONTROLLER_INFO
+- PWM_CONTROLLER_INFO
 targetos: Windows
 req.typenames: PWM_CONTROLLER_INFO
 req.redist: 

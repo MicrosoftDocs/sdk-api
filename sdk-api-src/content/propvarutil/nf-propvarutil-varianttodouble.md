@@ -1,19 +1,17 @@
 ---
 UID: NF:propvarutil.VariantToDouble
 title: VariantToDouble function (propvarutil.h)
-
 description: Extracts a DOUBLE value from a VARIANT structure. If no value can be extracted, then a default value is assigned.
 old-location: properties\VariantToDouble.htm
 tech.root: properties
 ms.assetid: 7bd756c6-f02a-4cf4-9458-b3304e2da2db
-
 ms.date: 12/05/2018
 ms.keywords: VariantToDouble, VariantToDouble function [Windows Properties], _shell_VariantToDouble, properties.VariantToDouble, propvarutil/VariantToDouble, shell.VariantToDouble
 ms.topic: function
-f1_keywords: 
- - "propvarutil/VariantToDouble"
+f1_keywords:
+- propvarutil/VariantToDouble
 dev_langs:
- - c++
+- c++
 req.header: propvarutil.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Propsys.lib
 req.dll: Propsys.dll (version 6.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Propsys.dll
+- Propsys.dll
 api_name:
- - VariantToDouble
+- VariantToDouble
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0

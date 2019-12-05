@@ -1,19 +1,17 @@
 ---
 UID: NF:wmsdkidl.IWMStreamPrioritization.GetPriorityRecords
 title: IWMStreamPrioritization::GetPriorityRecords (wmsdkidl.h)
-
 description: The GetPriorityRecords method retrieves the list of streams and their priorities from the profile.
 old-location: wmformat\iwmstreamprioritization_getpriorityrecords.htm
 tech.root: wmformat
 ms.assetid: 50b105c7-1e4f-435c-8bb6-643ea4d065bb
-
 ms.date: 12/05/2018
 ms.keywords: GetPriorityRecords, GetPriorityRecords method [windows Media Format], GetPriorityRecords method [windows Media Format],IWMStreamPrioritization interface, IWMStreamPrioritization interface [windows Media Format],GetPriorityRecords method, IWMStreamPrioritization.GetPriorityRecords, IWMStreamPrioritization::GetPriorityRecords, IWMStreamPrioritizationGetPriorityRecords, wmformat.iwmstreamprioritization_getpriorityrecords, wmsdkidl/IWMStreamPrioritization::GetPriorityRecords
 ms.topic: method
-f1_keywords: 
- - "wmsdkidl/IWMStreamPrioritization.GetPriorityRecords"
+f1_keywords:
+- wmsdkidl/IWMStreamPrioritization.GetPriorityRecords
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wmvcore.lib
- - Wmvcore.dll
- - WMStubDRM.lib
- - WMStubDRM.dll
+- Wmvcore.lib
+- Wmvcore.dll
+- WMStubDRM.lib
+- WMStubDRM.dll
 api_name:
- - IWMStreamPrioritization.GetPriorityRecords
+- IWMStreamPrioritization.GetPriorityRecords
 targetos: Windows
 req.typenames: 
 req.redist: 

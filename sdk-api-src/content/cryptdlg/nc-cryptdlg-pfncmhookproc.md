@@ -1,19 +1,17 @@
 ---
 UID: NC:cryptdlg.PFNCMHOOKPROC
 title: PFNCMHOOKPROC (cryptdlg.h)
-
 description: Called before messages are processed by the certificate selection dialog box produced by the CertSelectCertificate function.
 old-location: security\pfncmhookproc.htm
 tech.root: SecCrypto
 ms.assetid: 7172c995-a46b-437b-beaf-a0649cb8ec3d
-
 ms.date: 12/05/2018
 ms.keywords: PFNCMHOOKPROC, PFNCMHOOKPROC callback, PFNCMHOOKPROC callback function [Security], cryptdlg/PFNCMHOOKPROC, security.pfncmhookproc
 ms.topic: callback
-f1_keywords: 
- - "cryptdlg/PFNCMHOOKPROC"
+f1_keywords:
+- cryptdlg/PFNCMHOOKPROC
 dev_langs:
- - c++
+- c++
 req.header: cryptdlg.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - CryptDlg.h
+- CryptDlg.h
 api_name:
- - PFNCMHOOKPROC
+- PFNCMHOOKPROC
 targetos: Windows
 req.typenames: 
 req.redist: 

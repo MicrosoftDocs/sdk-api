@@ -1,19 +1,17 @@
 ---
 UID: NF:gdipluspen.Pen.SetAlignment
 title: Pen::SetAlignment (gdipluspen.h)
-
 description: The Pen::SetAlignment method sets the alignment for this Pen object relative to the line.
 old-location: gdiplus\_gdiplus_CLASS_Pen_SetAlignment_penAlignment_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\penclass\penmethods\setalignment.htm
-
 ms.date: 12/05/2018
 ms.keywords: Pen class [GDI+],SetAlignment method, Pen.SetAlignment, Pen::SetAlignment, SetAlignment, SetAlignment method [GDI+], SetAlignment method [GDI+],Pen class, _gdiplus_CLASS_Pen_SetAlignment_penAlignment_, gdiplus._gdiplus_CLASS_Pen_SetAlignment_penAlignment_
 ms.topic: method
-f1_keywords: 
- - "gdipluspen/Pen.SetAlignment"
+f1_keywords:
+- gdipluspen/Pen.SetAlignment
 dev_langs:
- - c++
+- c++
 req.header: gdipluspen.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - Pen.SetAlignment
+- Pen.SetAlignment
 targetos: Windows
 req.typenames: 
 req.redist: 

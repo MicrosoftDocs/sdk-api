@@ -1,19 +1,17 @@
 ---
 UID: NF:imapi2.IDiscFormat2Erase.put_FullErase
 title: IDiscFormat2Erase::put_FullErase (imapi2.h)
-
 description: Determines the quality of the disc erasure.
 old-location: imapi\idiscformat2erase_put_fullerase.htm
 tech.root: imapi
 ms.assetid: 9a76ebbe-69c5-46a4-b620-220957220e53
-
 ms.date: 12/05/2018
 ms.keywords: IDiscFormat2Erase interface [IMAPI],put_FullErase method, IDiscFormat2Erase.put_FullErase, IDiscFormat2Erase::put_FullErase, imapi.idiscformat2erase_put_fullerase, imapi2/IDiscFormat2Erase::put_FullErase, put_FullErase, put_FullErase method [IMAPI], put_FullErase method [IMAPI],IDiscFormat2Erase interface
 ms.topic: method
-f1_keywords: 
- - "imapi2/IDiscFormat2Erase.put_FullErase"
+f1_keywords:
+- imapi2/IDiscFormat2Erase.put_FullErase
 dev_langs:
- - c++
+- c++
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - imapi2.h
+- imapi2.h
 api_name:
- - IDiscFormat2Erase.put_FullErase
+- IDiscFormat2Erase.put_FullErase
 targetos: Windows
 req.typenames: 
 req.redist: 

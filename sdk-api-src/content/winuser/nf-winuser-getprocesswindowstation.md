@@ -1,19 +1,17 @@
 ---
 UID: NF:winuser.GetProcessWindowStation
 title: GetProcessWindowStation function (winuser.h)
-
 description: Retrieves a handle to the current window station for the calling process.
 old-location: winstation\getprocesswindowstation.htm
 tech.root: winstation
 ms.assetid: f8929122-d277-4260-b2a7-5e76eb3ca876
-
 ms.date: 12/05/2018
 ms.keywords: GetProcessWindowStation, GetProcessWindowStation function [Windows Stations and Desktops], _win32_getprocesswindowstation, base.getprocesswindowstation, winstation.getprocesswindowstation, winuser/GetProcessWindowStation
 ms.topic: function
-f1_keywords: 
- - "winuser/GetProcessWindowStation"
+f1_keywords:
+- winuser/GetProcessWindowStation
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - User32.dll
- - Ext-MS-Win-NTUser-Windowstation-l1-1-0.dll
- - Ext-MS-Win-NTUser-Windowstation-l1-1-1.dll
- - api-ms-win-rtcore-ntuser-windowstation-l1-1-0.dll
- - Ext-MS-Win-NTUser-WindowStation-L1-1-2.dll
+- User32.dll
+- Ext-MS-Win-NTUser-Windowstation-l1-1-0.dll
+- Ext-MS-Win-NTUser-Windowstation-l1-1-1.dll
+- api-ms-win-rtcore-ntuser-windowstation-l1-1-0.dll
+- Ext-MS-Win-NTUser-WindowStation-L1-1-2.dll
 api_name:
- - GetProcessWindowStation
+- GetProcessWindowStation
 targetos: Windows
 req.typenames: 
 req.redist: 

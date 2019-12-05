@@ -1,19 +1,17 @@
 ---
 UID: NF:tom.ITextPara.SetRightIndent
 title: ITextPara::SetRightIndent (tom.h)
-
 description: Sets the right margin of paragraph.
 old-location: controls\ITextPara_SetRightIndent.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\setrightindent.htm
-
 ms.date: 12/05/2018
 ms.keywords: ITextPara interface [Windows Controls],SetRightIndent method, ITextPara.SetRightIndent, ITextPara::SetRightIndent, SetRightIndent, SetRightIndent method [Windows Controls], SetRightIndent method [Windows Controls],ITextPara interface, _win32_ITextPara_SetRightIndent, _win32_ITextPara_SetRightIndent_cpp, controls.ITextPara_SetRightIndent, controls._win32_ITextPara_SetRightIndent, tom/ITextPara::SetRightIndent
 ms.topic: method
-f1_keywords: 
- - "tom/ITextPara.SetRightIndent"
+f1_keywords:
+- tom/ITextPara.SetRightIndent
 dev_langs:
- - c++
+- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msftedit.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msftedit.dll
+- Msftedit.dll
 api_name:
- - ITextPara.SetRightIndent
+- ITextPara.SetRightIndent
 targetos: Windows
 req.typenames: 
 req.redist: 

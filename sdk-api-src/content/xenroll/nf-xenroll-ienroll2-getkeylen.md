@@ -1,19 +1,17 @@
 ---
 UID: NF:xenroll.IEnroll2.GetKeyLen
 title: IEnroll2::GetKeyLen (xenroll.h)
-
 description: The IEnroll4::GetKeyLen method retrieves the minimum and maximum key lengths for the signature and exchange keys.
 old-location: security\ienroll4_getkeylen.htm
 tech.root: SecCrypto
 ms.assetid: ece7f5a3-e982-48b2-a249-a9c5b5a8a493
-
 ms.date: 12/05/2018
 ms.keywords: GetKeyLen, GetKeyLen method [Security], GetKeyLen method [Security],IEnroll2 interface, IEnroll2 interface [Security],GetKeyLen method, IEnroll2.GetKeyLen, IEnroll2::GetKeyLen, security.ienroll4_getkeylen, xenroll/IEnroll2::GetKeyLen
 ms.topic: method
-f1_keywords: 
- - "xenroll/IEnroll2.GetKeyLen"
+f1_keywords:
+- xenroll/IEnroll2.GetKeyLen
 dev_langs:
- - c++
+- c++
 req.header: xenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Xenroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Xenroll.dll
+- Xenroll.dll
 api_name:
- - IEnroll2.GetKeyLen
+- IEnroll2.GetKeyLen
 targetos: Windows
 req.typenames: 
 req.redist: 

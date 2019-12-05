@@ -1,19 +1,17 @@
 ---
 UID: NF:control.IMediaEvent.CancelDefaultHandling
 title: IMediaEvent::CancelDefaultHandling (control.h)
-
 description: The CancelDefaultHandling method cancels the Filter Graph Manager's default handling for a specified event. The event notification is passed to the application.
 old-location: dshow\imediaevent_canceldefaulthandling.htm
 tech.root: DirectShow
 ms.assetid: 955d0494-8418-42a1-ab6e-2c779165f578
-
 ms.date: 12/05/2018
 ms.keywords: CancelDefaultHandling, CancelDefaultHandling method [DirectShow], CancelDefaultHandling method [DirectShow],IMediaEvent interface, IMediaEvent interface [DirectShow],CancelDefaultHandling method, IMediaEvent.CancelDefaultHandling, IMediaEvent::CancelDefaultHandling, IMediaEventCancelDefaultHandling, control/IMediaEvent::CancelDefaultHandling, dshow.imediaevent_canceldefaulthandling
 ms.topic: method
-f1_keywords: 
- - "control/IMediaEvent.CancelDefaultHandling"
+f1_keywords:
+- control/IMediaEvent.CancelDefaultHandling
 dev_langs:
- - c++
+- c++
 req.header: control.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IMediaEvent.CancelDefaultHandling
+- IMediaEvent.CancelDefaultHandling
 targetos: Windows
 req.typenames: 
 req.redist: 

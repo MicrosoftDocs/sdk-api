@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationTextRange.Move
 title: IUIAutomationTextRange::Move (uiautomationclient.h)
-
 description: Moves the text range forward or backward by the specified number of text units .
 old-location: winauto\uiauto_IUIAutomationTextRange_Move.htm
 tech.root: WinAuto
 ms.assetid: b59ffdb5-6c05-4139-84ae-10ca5c543c3c
-
 ms.date: 12/05/2018
 ms.keywords: IUIAutomationTextRange interface [Windows Accessibility],Move method, IUIAutomationTextRange.Move, IUIAutomationTextRange::Move, Move, Move method [Windows Accessibility], Move method [Windows Accessibility],IUIAutomationTextRange interface, uiauto.uiauto_IUIAutomationTextRange_Move, uiauto_IUIAutomationTextRange_Move, uiautomationclient/IUIAutomationTextRange::Move, winauto.uiauto_IUIAutomationTextRange_Move
 ms.topic: method
-f1_keywords: 
- - "uiautomationclient/IUIAutomationTextRange.Move"
+f1_keywords:
+- uiautomationclient/IUIAutomationTextRange.Move
 dev_langs:
- - c++
+- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationClient.h
+- UIAutomationClient.h
 api_name:
- - IUIAutomationTextRange.Move
+- IUIAutomationTextRange.Move
 targetos: Windows
 req.typenames: 
 req.redist: 

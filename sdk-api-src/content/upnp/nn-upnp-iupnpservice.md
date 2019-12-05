@@ -1,19 +1,17 @@
 ---
 UID: NN:upnp.IUPnPService
 title: IUPnPService (upnp.h)
-
 description: The IUPnPService interface enables an application to query state variables and invoke actions on an instance of a service.
 old-location: upnp\iupnpservice.htm
 tech.root: upnp
 ms.assetid: 48b20b03-62a4-4dcd-8eda-f1bfef1eef38
-
 ms.date: 12/05/2018
 ms.keywords: IUPnPService, IUPnPService interface [UPnP APIs], IUPnPService interface [UPnP APIs],described, _upnp_iupnpservice, upnp.iupnpservice, upnp/IUPnPService
 ms.topic: interface
-f1_keywords: 
- - "upnp/IUPnPService"
+f1_keywords:
+- upnp/IUPnPService
 dev_langs:
- - c++
+- c++
 req.header: upnp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Upnp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Upnp.dll
+- Upnp.dll
 api_name:
- - IUPnPService
+- IUPnPService
 targetos: Windows
 req.typenames: 
 req.redist: 

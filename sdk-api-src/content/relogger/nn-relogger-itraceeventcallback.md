@@ -1,19 +1,17 @@
 ---
 UID: NN:relogger.ITraceEventCallback
 title: ITraceEventCallback (relogger.h)
-
 description: Used by ETW to provide information to the relogger as the tracing process starts, ends, and logs events.
 old-location: etw\ieventcallback.htm
 tech.root: ETW
 ms.assetid: 70139402-86e6-43b4-9016-42854ef998fd
-
 ms.date: 12/05/2018
 ms.keywords: IEventCallback, IEventCallback interface [ETW], IEventCallback interface [ETW],described, ITraceEventCallback, etw.ieventcallback, relogger/ITraceEventCallback
 ms.topic: interface
-f1_keywords: 
- - "relogger/IEventCallback"
+f1_keywords:
+- relogger/IEventCallback
 dev_langs:
- - c++
+- c++
 req.header: relogger.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Relogger.h
+- Relogger.h
 api_name:
- - IEventCallback
+- IEventCallback
 targetos: Windows
 req.typenames: 
 req.redist: 

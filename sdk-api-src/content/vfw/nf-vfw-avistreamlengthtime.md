@@ -1,19 +1,17 @@
 ---
 UID: NF:vfw.AVIStreamLengthTime
 title: AVIStreamLengthTime macro (vfw.h)
-
 description: The AVIStreamLengthTime macro returns the length of a stream in time.
 old-location: multimedia\avistreamlengthtime.htm
 tech.root: Multimedia
 ms.assetid: 550d04b2-d5d4-4acc-97d3-8cd180de1545
-
 ms.date: 12/05/2018
 ms.keywords: AVIStreamLengthTime, AVIStreamLengthTime macro [Windows Multimedia], _win32_AVIStreamLengthTime, multimedia.avistreamlengthtime, vfw/AVIStreamLengthTime
 ms.topic: macro
-f1_keywords: 
- - "vfw/AVIStreamLengthTime"
+f1_keywords:
+- vfw/AVIStreamLengthTime
 dev_langs:
- - c++
+- c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Vfw.h
+- Vfw.h
 api_name:
- - AVIStreamLengthTime
+- AVIStreamLengthTime
 targetos: Windows
 req.typenames: 
 req.redist: 

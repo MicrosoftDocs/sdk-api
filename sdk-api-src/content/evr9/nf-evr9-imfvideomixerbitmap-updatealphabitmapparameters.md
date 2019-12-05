@@ -1,19 +1,17 @@
 ---
 UID: NF:evr9.IMFVideoMixerBitmap.UpdateAlphaBitmapParameters
 title: IMFVideoMixerBitmap::UpdateAlphaBitmapParameters (evr9.h)
-
 description: Updates the current alpha-blending settings, including the source and destination rectangles, the color key, and other information. You can update some or all of the blending parameters.
 old-location: mf\imfvideomixerbitmap_updatealphabitmapparameters.htm
 tech.root: medfound
 ms.assetid: 369bf934-b0a0-44b2-bea2-e8575404d36d
-
 ms.date: 12/05/2018
 ms.keywords: 369bf934-b0a0-44b2-bea2-e8575404d36d, IMFVideoMixerBitmap interface [Media Foundation],UpdateAlphaBitmapParameters method, IMFVideoMixerBitmap.UpdateAlphaBitmapParameters, IMFVideoMixerBitmap::UpdateAlphaBitmapParameters, UpdateAlphaBitmapParameters, UpdateAlphaBitmapParameters method [Media Foundation], UpdateAlphaBitmapParameters method [Media Foundation],IMFVideoMixerBitmap interface, evr9/IMFVideoMixerBitmap::UpdateAlphaBitmapParameters, mf.imfvideomixerbitmap_updatealphabitmapparameters
 ms.topic: method
-f1_keywords: 
- - "evr9/IMFVideoMixerBitmap.UpdateAlphaBitmapParameters"
+f1_keywords:
+- evr9/IMFVideoMixerBitmap.UpdateAlphaBitmapParameters
 dev_langs:
- - c++
+- c++
 req.header: evr9.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - strmiids.lib
- - strmiids.dll
+- strmiids.lib
+- strmiids.dll
 api_name:
- - IMFVideoMixerBitmap.UpdateAlphaBitmapParameters
+- IMFVideoMixerBitmap.UpdateAlphaBitmapParameters
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:winddi.EngEraseSurface
 title: EngEraseSurface function (winddi.h)
-
 description: The EngEraseSurface function calls GDI to erase the surface; a given rectangle on the surface will be filled with the given color.
 old-location: display\engerasesurface.htm
 tech.root: display
 ms.assetid: 3dace2e1-2a6b-42e5-a556-a3952cf4786c
-
 ms.date: 12/05/2018
 ms.keywords: EngEraseSurface, EngEraseSurface function [Display Devices], display.engerasesurface, gdifncs_49673ad2-d8a0-4c8b-bf0f-c1fab9f3c519.xml, winddi/EngEraseSurface
 ms.topic: function
 f1_keywords:
 - winddi/EngEraseSurface
 dev_langs:
- - c++
+- c++
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Universal

@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d10.ID3D10Device.OMSetDepthStencilState
 title: ID3D10Device::OMSetDepthStencilState (d3d10.h)
-
 description: Sets the depth-stencil state of the output-merger stage.
 old-location: direct3d10\id3d10device_omsetdepthstencilstate.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10device_omsetdepthstencilstate.htm
-
 ms.date: 12/05/2018
 ms.keywords: 75af58f4-0720-3b37-1633-f4ae71d23ebd, ID3D10Device interface [Direct3D 10],OMSetDepthStencilState method, ID3D10Device.OMSetDepthStencilState, ID3D10Device::OMSetDepthStencilState, OMSetDepthStencilState, OMSetDepthStencilState method [Direct3D 10], OMSetDepthStencilState method [Direct3D 10],ID3D10Device interface, d3d10/ID3D10Device::OMSetDepthStencilState, direct3d10.id3d10device_omsetdepthstencilstate
 ms.topic: method
-f1_keywords: 
- - "d3d10/ID3D10Device.OMSetDepthStencilState"
+f1_keywords:
+- d3d10/ID3D10Device.OMSetDepthStencilState
 dev_langs:
- - c++
+- c++
 req.header: d3d10.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: D3D10.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D10.lib
- - D3D10.dll
+- D3D10.lib
+- D3D10.dll
 api_name:
- - ID3D10Device.OMSetDepthStencilState
+- ID3D10Device.OMSetDepthStencilState
 targetos: Windows
 req.typenames: 
 req.redist: 

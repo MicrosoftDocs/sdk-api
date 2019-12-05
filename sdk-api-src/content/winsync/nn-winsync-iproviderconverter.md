@@ -1,19 +1,17 @@
 ---
 UID: NN:winsync.IProviderConverter
 title: IProviderConverter (winsync.h)
-
 description: When implemented by a derived class, represents an object that can convert an ISyncProvider object to an IKnowledgeSyncProvider object.
 old-location: winsync\iproviderconverter.htm
 tech.root: winsync
 ms.assetid: 67dc6290-00e8-457a-97be-efe8e731619d
-
 ms.date: 12/05/2018
 ms.keywords: IProviderConverter, IProviderConverter interface [Windows Sync], IProviderConverter interface [Windows Sync],described, winsync.iproviderconverter, winsync/IProviderConverter
 ms.topic: interface
-f1_keywords: 
- - "winsync/IProviderConverter"
+f1_keywords:
+- winsync/IProviderConverter
 dev_langs:
- - c++
+- c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - winsync.h
+- winsync.h
 api_name:
- - IProviderConverter
+- IProviderConverter
 targetos: Windows
 req.typenames: 
 req.redist: 

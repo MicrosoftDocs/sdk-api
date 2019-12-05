@@ -1,19 +1,17 @@
 ---
 UID: NF:oleidl.IOleLink.SetUpdateOptions
 title: IOleLink::SetUpdateOptions (oleidl.h)
-
 description: Specifies how often a linked object should update its cached data.
 old-location: com\iolelink_setupdateoptions.htm
 tech.root: com
 ms.assetid: 310c25b5-a2f6-4ed7-8673-c53809fad32f
-
 ms.date: 12/05/2018
 ms.keywords: IOleLink interface [COM],SetUpdateOptions method, IOleLink.SetUpdateOptions, IOleLink::SetUpdateOptions, SetUpdateOptions, SetUpdateOptions method [COM], SetUpdateOptions method [COM],IOleLink interface, _ole_iolelink_setupdateoptions, com.iolelink_setupdateoptions, oleidl/IOleLink::SetUpdateOptions
 ms.topic: method
-f1_keywords: 
- - "oleidl/IOleLink.SetUpdateOptions"
+f1_keywords:
+- oleidl/IOleLink.SetUpdateOptions
 dev_langs:
- - c++
+- c++
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - OleIdl.h
+- OleIdl.h
 api_name:
- - IOleLink.SetUpdateOptions
+- IOleLink.SetUpdateOptions
 targetos: Windows
 req.typenames: 
 req.redist: 

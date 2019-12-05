@@ -1,19 +1,17 @@
 ---
 UID: NF:winddi.EngSetPrinterData
 title: EngSetPrinterData function (winddi.h)
-
 description: The EngSetPrinterData function is obsolete in Windows 2000 and later. In earlier versions of Windows EngSetPrinterData sets the configuration data for the specified printer.
 old-location: display\engsetprinterdata.htm
 tech.root: display
 ms.assetid: 8e6ff116-8735-49b1-a67c-70f5d65efb0f
-
 ms.date: 12/05/2018
 ms.keywords: EngSetPrinterData, EngSetPrinterData function [Display Devices], display.engsetprinterdata, gdifncs_5d3c9c7e-f688-4361-8aee-545c7244921a.xml, winddi/EngSetPrinterData
 ms.topic: function
-f1_keywords: 
- - "winddi/EngSetPrinterData"
+f1_keywords:
+- winddi/EngSetPrinterData
 dev_langs:
- - c++
+- c++
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Universal
@@ -32,14 +30,14 @@ req.lib: Win32k.lib
 req.dll: Win32k.sys
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Win32k.sys
+- Win32k.sys
 api_name:
- - EngSetPrinterData
+- EngSetPrinterData
 targetos: Windows
 req.typenames: 
 req.redist: 

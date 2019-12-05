@@ -1,19 +1,17 @@
 ---
 UID: NF:winsnmp.SnmpFreeEntity
 title: SnmpFreeEntity function (winsnmp.h)
-
 description: The WinSNMP SnmpFreeEntity function releases resources associated with an SNMP management entity.
 old-location: snmp\snmpfreeentity.htm
 tech.root: SNMP
 ms.assetid: 82f331e8-1768-470f-b924-16262e06f099
-
 ms.date: 12/05/2018
 ms.keywords: SnmpFreeEntity, SnmpFreeEntity function [SNMP], _snmp_snmpfreeentity, snmp.snmpfreeentity, winsnmp/SnmpFreeEntity
 ms.topic: function
-f1_keywords: 
- - "winsnmp/SnmpFreeEntity"
+f1_keywords:
+- winsnmp/SnmpFreeEntity
 dev_langs:
- - c++
+- c++
 req.header: winsnmp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Wsnmp32.lib
 req.dll: Wsnmp32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Wsnmp32.dll
+- Wsnmp32.dll
 api_name:
- - SnmpFreeEntity
+- SnmpFreeEntity
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:certenroll.ICspAlgorithm.get_IncrementLength
 title: ICspAlgorithm::get_IncrementLength (certenroll.h)
-
 description: Retrieves a value, in bits, that can be used to determine valid incremental key lengths for algorithms that support multiple key sizes.
 old-location: security\icspalgorithm_incrementlength_property.htm
 tech.root: seccertenroll
 ms.assetid: 296ad5b4-d0c1-4fd8-ab55-6ee15b5599b7
-
 ms.date: 12/05/2018
 ms.keywords: ICspAlgorithm interface [Security],IncrementLength property, ICspAlgorithm.IncrementLength, ICspAlgorithm.get_IncrementLength, ICspAlgorithm::IncrementLength, ICspAlgorithm::get_IncrementLength, IncrementLength property [Security], IncrementLength property [Security],ICspAlgorithm interface, certenroll/ICspAlgorithm::IncrementLength, certenroll/ICspAlgorithm::get_IncrementLength, get_IncrementLength, security.icspalgorithm_incrementlength_property
 ms.topic: method
-f1_keywords: 
- - "certenroll/ICspAlgorithm.IncrementLength"
+f1_keywords:
+- certenroll/ICspAlgorithm.IncrementLength
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: CertEnroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CertEnroll.dll
+- CertEnroll.dll
 api_name:
- - ICspAlgorithm.IncrementLength
- - ICspAlgorithm.get_IncrementLength
+- ICspAlgorithm.IncrementLength
+- ICspAlgorithm.get_IncrementLength
 targetos: Windows
 req.typenames: 
 req.redist: 

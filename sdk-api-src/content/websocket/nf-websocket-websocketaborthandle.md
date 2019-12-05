@@ -1,19 +1,17 @@
 ---
 UID: NF:websocket.WebSocketAbortHandle
 title: WebSocketAbortHandle function (websocket.h)
-
 description: Aborts a WebSocket session handle created by WebSocketCreateClientHandle or WebSocketCreateServerHandle.
 old-location: websock\websocketaborthandle.htm
 tech.root: WebSock
 ms.assetid: fcfa67cf-9121-4f65-bba9-31ebca1291bd
-
 ms.date: 12/05/2018
 ms.keywords: WebSocketAbortHandle, WebSocketAbortHandle function [Websocket Protocol Component API], websock.websocketaborthandle, websocket/WebSocketAbortHandle
 ms.topic: function
-f1_keywords: 
- - "websocket/WebSocketAbortHandle"
+f1_keywords:
+- websocket/WebSocketAbortHandle
 dev_langs:
- - c++
+- c++
 req.header: websocket.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Websocket.lib
 req.dll: Websocket.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - websocket.dll
+- websocket.dll
 api_name:
- - WebSocketAbortHandle
+- WebSocketAbortHandle
 targetos: Windows
 req.typenames: 
 req.redist: 

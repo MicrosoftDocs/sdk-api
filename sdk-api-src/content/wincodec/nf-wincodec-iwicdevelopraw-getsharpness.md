@@ -1,19 +1,17 @@
 ---
 UID: NF:wincodec.IWICDevelopRaw.GetSharpness
 title: IWICDevelopRaw::GetSharpness (wincodec.h)
-
 description: Gets the sharpness value of the raw image.
 old-location: wic\_wic_codec_iwicdevelopraw_getsharpness.htm
 tech.root: wic
 ms.assetid: a3cb0749-5ec6-4c29-824f-ae44f554d494
-
 ms.date: 12/05/2018
 ms.keywords: GetSharpness, GetSharpness method [Windows Imaging Component], GetSharpness method [Windows Imaging Component],IWICDevelopRaw interface, IWICDevelopRaw interface [Windows Imaging Component],GetSharpness method, IWICDevelopRaw.GetSharpness, IWICDevelopRaw::GetSharpness, _wic_codec_iwicdevelopraw_getsharpness, wic._wic_codec_iwicdevelopraw_getsharpness, wincodec/IWICDevelopRaw::GetSharpness
 ms.topic: method
-f1_keywords: 
- - "wincodec/IWICDevelopRaw.GetSharpness"
+f1_keywords:
+- wincodec/IWICDevelopRaw.GetSharpness
 dev_langs:
- - c++
+- c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Windowscodecs.lib
 req.dll: Windowscodecs.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Windowscodecs.dll
+- Windowscodecs.dll
 api_name:
- - IWICDevelopRaw.GetSharpness
+- IWICDevelopRaw.GetSharpness
 targetos: Windows
 req.typenames: 
 req.redist: 

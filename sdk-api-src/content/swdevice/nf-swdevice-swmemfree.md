@@ -1,19 +1,17 @@
 ---
 UID: NF:swdevice.SwMemFree
 title: SwMemFree function (swdevice.h)
-
 description: Frees memory that other Software Device API functions allocated.
 old-location: swdevice\swmemfree.htm
 tech.root: swdevice
 ms.assetid: DBA39124-D93A-4865-B4CB-B2FA66FBD417
-
 ms.date: 12/05/2018
 ms.keywords: SwMemFree, SwMemFree function, swdevice.swmemfree, swdevice/SwMemFree
 ms.topic: function
-f1_keywords: 
- - "swdevice/SwMemFree"
+f1_keywords:
+- swdevice/SwMemFree
 dev_langs:
- - c++
+- c++
 req.header: swdevice.h
 req.include-header: 
 req.target-type: Universal
@@ -32,16 +30,16 @@ req.lib: Swdevice.lib; OneCoreUAP.lib on Windows 10
 req.dll: Cfgmgr32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Cfgmgr32.dll
- - API-MS-Win-devices-swdevice-l1-1-0.dll
- - API-MS-Win-devices-swdevice-l1-1-1.dll
+- Cfgmgr32.dll
+- API-MS-Win-devices-swdevice-l1-1-0.dll
+- API-MS-Win-devices-swdevice-l1-1-1.dll
 api_name:
- - SwMemFree
+- SwMemFree
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:vswriter.IVssComponent.GetRestoreSubcomponent
 title: IVssComponent::GetRestoreSubcomponent (vswriter.h)
-
 description: The GetRestoreSubcomponent method returns the specified subcomponent associated with a given component.
 old-location: base\ivsscomponent_getrestoresubcomponent.htm
 tech.root: VSS
 ms.assetid: 23c37342-fcbd-4401-83d5-a52d4a69b908
-
 ms.date: 12/05/2018
 ms.keywords: GetRestoreSubcomponent, GetRestoreSubcomponent method [VSS], GetRestoreSubcomponent method [VSS],IVssComponent interface, IVssComponent interface [VSS],GetRestoreSubcomponent method, IVssComponent.GetRestoreSubcomponent, IVssComponent::GetRestoreSubcomponent, _win32_ivsscomponent_getrestoresubcomponent, base.ivsscomponent_getrestoresubcomponent, vswriter/IVssComponent::GetRestoreSubcomponent
 ms.topic: method
-f1_keywords: 
- - "vswriter/IVssComponent.GetRestoreSubcomponent"
+f1_keywords:
+- vswriter/IVssComponent.GetRestoreSubcomponent
 dev_langs:
- - c++
+- c++
 req.header: vswriter.h
 req.include-header: Vss.h, VsWriter.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: VssApi.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - VssApi.lib
- - VssApi.dll
+- VssApi.lib
+- VssApi.dll
 api_name:
- - IVssComponent.GetRestoreSubcomponent
+- IVssComponent.GetRestoreSubcomponent
 targetos: Windows
 req.typenames: 
 req.redist: 

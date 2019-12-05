@@ -1,19 +1,17 @@
 ---
 UID: NE:wmcontainer._MFSINK_WMDRMACTION
 title: MFSINK_WMDRMACTION (wmcontainer.h)
-
 description: Specifies how the ASF file sink should apply Windows Media DRM.
 old-location: mf\mfsink_wmdrmaction.htm
 tech.root: medfound
 ms.assetid: d7c0e63f-236c-4d3c-b5fd-51befa2b54e7
-
 ms.date: 12/05/2018
 ms.keywords: MFSINK_WMDRMACTION, MFSINK_WMDRMACTION enumeration [Media Foundation], MFSINK_WMDRMACTION_ENCODE, MFSINK_WMDRMACTION_LAST, MFSINK_WMDRMACTION_TRANSCODE, MFSINK_WMDRMACTION_TRANSCRYPT, MFSINK_WMDRMACTION_UNDEFINED, d7c0e63f-236c-4d3c-b5fd-51befa2b54e7, mf.mfsink_wmdrmaction, wmcontainer/MFSINK_WMDRMACTION, wmcontainer/MFSINK_WMDRMACTION_ENCODE, wmcontainer/MFSINK_WMDRMACTION_LAST, wmcontainer/MFSINK_WMDRMACTION_TRANSCODE, wmcontainer/MFSINK_WMDRMACTION_TRANSCRYPT, wmcontainer/MFSINK_WMDRMACTION_UNDEFINED
 ms.topic: enum
-f1_keywords: 
- - "wmcontainer/MFSINK_WMDRMACTION"
+f1_keywords:
+- wmcontainer/MFSINK_WMDRMACTION
 dev_langs:
- - c++
+- c++
 req.header: wmcontainer.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - wmcontainer.h
+- wmcontainer.h
 api_name:
- - MFSINK_WMDRMACTION
+- MFSINK_WMDRMACTION
 targetos: Windows
 req.typenames: MFSINK_WMDRMACTION
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:dvbsiparser.IIsdbDigitalCopyControlDescriptor.GetCountOfRecords
 title: IIsdbDigitalCopyControlDescriptor::GetCountOfRecords (dvbsiparser.h)
-
 description: Gets the number of records in an Integrated Services Digital Broadcasting (ISDB) digital copy control descriptor.
 old-location: mstv\iisdbdigitalcopycontroldescriptor_getcountofrecords.htm
 tech.root: mstv
 ms.assetid: cc4e190e-8dd9-4e87-9f85-ed5ecea6eadc
-
 ms.date: 12/05/2018
 ms.keywords: GetCountOfRecords, GetCountOfRecords method [Microsoft TV Technologies], GetCountOfRecords method [Microsoft TV Technologies],IIsdbDigitalCopyControlDescriptor interface, IIsdbDigitalCopyControlDescriptor interface [Microsoft TV Technologies],GetCountOfRecords method, IIsdbDigitalCopyControlDescriptor.GetCountOfRecords, IIsdbDigitalCopyControlDescriptor::GetCountOfRecords, dvbsiparser/IIsdbDigitalCopyControlDescriptor::GetCountOfRecords, mstv.iisdbdigitalcopycontroldescriptor_getcountofrecords
 ms.topic: method
-f1_keywords: 
- - "dvbsiparser/IIsdbDigitalCopyControlDescriptor.GetCountOfRecords"
+f1_keywords:
+- dvbsiparser/IIsdbDigitalCopyControlDescriptor.GetCountOfRecords
 dev_langs:
- - c++
+- c++
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dvbsiparser.h
+- dvbsiparser.h
 api_name:
- - IIsdbDigitalCopyControlDescriptor.GetCountOfRecords
+- IIsdbDigitalCopyControlDescriptor.GetCountOfRecords
 targetos: Windows
 req.typenames: 
 req.redist: 

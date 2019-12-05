@@ -1,19 +1,17 @@
 ---
 UID: NF:wbemcli.IWbemBackupRestoreEx.Pause
 title: IWbemBackupRestoreEx::Pause (wbemcli.h)
-
 description: The IWbemBackupRestoreEx::Pause method locks out write operations from the Windows Management Instrumentation (WMI) repository, and may cause read operations to be blocked.
 old-location: wmi\iwbembackuprestoreex_pause.htm
 tech.root: WmiSdk
 ms.assetid: ce4f2637-cf30-4087-bd49-b26554f434ca
-
 ms.date: 12/05/2018
 ms.keywords: IWbemBackupRestoreEx interface [Windows Management Instrumentation],Pause method, IWbemBackupRestoreEx.Pause, IWbemBackupRestoreEx::Pause, Pause, Pause method [Windows Management Instrumentation], Pause method [Windows Management Instrumentation],IWbemBackupRestoreEx interface, wbemcli/IWbemBackupRestoreEx::Pause, wmi.iwbembackuprestoreex_pause
 ms.topic: method
-f1_keywords: 
- - "wbemcli/IWbemBackupRestoreEx.Pause"
+f1_keywords:
+- wbemcli/IWbemBackupRestoreEx.Pause
 dev_langs:
- - c++
+- c++
 req.header: wbemcli.h
 req.include-header: Wbemidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Wbemuuid.lib
 req.dll: Wbemsvc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wbemsvc.dll
+- Wbemsvc.dll
 api_name:
- - IWbemBackupRestoreEx.Pause
+- IWbemBackupRestoreEx.Pause
 targetos: Windows
 req.typenames: 
 req.redist: 

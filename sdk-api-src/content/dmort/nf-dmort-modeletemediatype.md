@@ -1,19 +1,17 @@
 ---
 UID: NF:dmort.MoDeleteMediaType
 title: MoDeleteMediaType function (dmort.h)
-
 description: The MoDeleteMediaType function deletes a media type structure that was previously allocated.
 old-location: dshow\modeletemediatype.htm
 tech.root: DirectShow
 ms.assetid: adbfe1e1-e956-48de-9ed1-9f8f4c66ff1c
-
 ms.date: 12/05/2018
 ms.keywords: MoDeleteMediaType, MoDeleteMediaType function [DirectShow], dmort/MoDeleteMediaType, dshow.modeletemediatype
 ms.topic: function
-f1_keywords: 
- - "dmort/MoDeleteMediaType"
+f1_keywords:
+- dmort/MoDeleteMediaType
 dev_langs:
- - c++
+- c++
 req.header: dmort.h
 req.include-header: Dmo.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Msdmo.lib
 req.dll: Msdmo.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Msdmo.dll
+- Msdmo.dll
 api_name:
- - MoDeleteMediaType
+- MoDeleteMediaType
 targetos: Windows
 req.typenames: 
 req.redist: 

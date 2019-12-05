@@ -1,19 +1,17 @@
 ---
 UID: NE:naptypes.tagIsolationState
 title: IsolationState (naptypes.h)
-
 description: Describes the isolation state of a connection.
 old-location: nap\isolationstate_enum.htm
 tech.root: NAP
 ms.assetid: 79f81e8e-a105-4cc9-b175-8a364648f3a6
-
 ms.date: 12/05/2018
 ms.keywords: IsolationState, IsolationState enumeration [NAP], isolationStateInProbation, isolationStateNotRestricted, isolationStateRestrictedAccess, nap.isolationstate_enum, naptypes/IsolationState, naptypes/isolationStateInProbation, naptypes/isolationStateNotRestricted, naptypes/isolationStateRestrictedAccess
 ms.topic: enum
-f1_keywords: 
- - "naptypes/IsolationState"
+f1_keywords:
+- naptypes/IsolationState
 dev_langs:
- - c++
+- c++
 req.header: naptypes.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - NapTypes.h
+- NapTypes.h
 api_name:
- - IsolationState
+- IsolationState
 targetos: Windows
 req.typenames: IsolationState
 req.redist: 

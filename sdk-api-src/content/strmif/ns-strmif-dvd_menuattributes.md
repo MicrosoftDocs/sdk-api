@@ -1,19 +1,17 @@
 ---
 UID: NS:strmif.tagDVD_MenuAttributes
 title: DVD_MenuAttributes (strmif.h)
-
 description: The DVD_MenuAttributes structure contains information about a DVD menu. The IDvdInfo2::GetTitleAttributes method fills in a DVD_MenuAttributes structure for a specified stream.
 old-location: dshow\dvd_menuattributes.htm
 tech.root: DirectShow
 ms.assetid: 074593e2-f4f4-44d3-a37c-209b4e798a52
-
 ms.date: 12/05/2018
 ms.keywords: DVD_MenuAttributes, DVD_MenuAttributes structure [DirectShow], DVD_MenuAttributesStructure, dshow.dvd_menuattributes, strmif/DVD_MenuAttributes
 ms.topic: struct
-f1_keywords: 
- - "strmif/DVD_MenuAttributes"
+f1_keywords:
+- strmif/DVD_MenuAttributes
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - strmif.h
+- strmif.h
 api_name:
- - DVD_MenuAttributes
+- DVD_MenuAttributes
 targetos: Windows
 req.typenames: DVD_MenuAttributes
 req.redist: 

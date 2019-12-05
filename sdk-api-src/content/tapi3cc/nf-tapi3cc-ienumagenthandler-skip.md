@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi3cc.IEnumAgentHandler.Skip
 title: IEnumAgentHandler::Skip (tapi3cc.h)
-
 description: The Skip method skips over the next specified number of elements in the enumeration sequence.
 old-location: tapi3\ienumagenthandler_skip.htm
 tech.root: Tapi
 ms.assetid: cf6b7003-13f1-4203-b341-2c9796cffdd2
-
 ms.date: 12/05/2018
 ms.keywords: IEnumAgentHandler interface [TAPI 2.2],Skip method, IEnumAgentHandler.Skip, IEnumAgentHandler::Skip, Skip, Skip method [TAPI 2.2], Skip method [TAPI 2.2],IEnumAgentHandler interface, _tapi3_ienumagenthandler_skip, tapi3.ienumagenthandler_skip, tapi3cc/IEnumAgentHandler::Skip
 ms.topic: method
-f1_keywords: 
- - "tapi3cc/IEnumAgentHandler.Skip"
+f1_keywords:
+- tapi3cc/IEnumAgentHandler.Skip
 dev_langs:
- - c++
+- c++
 req.header: tapi3cc.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Tapi3.dll
+- Tapi3.dll
 api_name:
- - IEnumAgentHandler.Skip
+- IEnumAgentHandler.Skip
 targetos: Windows
 req.typenames: 
 req.redist: 

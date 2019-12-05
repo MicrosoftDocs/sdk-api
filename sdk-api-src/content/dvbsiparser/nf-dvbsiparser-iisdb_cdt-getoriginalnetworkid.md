@@ -1,19 +1,17 @@
 ---
 UID: NF:dvbsiparser.IISDB_CDT.GetOriginalNetworkId
 title: IISDB_CDT::GetOriginalNetworkId (dvbsiparser.h)
-
 description: Gets an identifier that identifies the broadcaster that originated the MPEG-2 transport stream from an Integrated Services Digital Broadcasting (ISDB) common data table (CDT).
 old-location: mstv\iisdb_cdt_getoriginalnetworkid.htm
 tech.root: mstv
 ms.assetid: 67adf536-1163-45e3-893c-e9501fefafe7
-
 ms.date: 12/05/2018
 ms.keywords: GetOriginalNetworkId, GetOriginalNetworkId method [Microsoft TV Technologies], GetOriginalNetworkId method [Microsoft TV Technologies],IISDB_CDT interface, IISDB_CDT interface [Microsoft TV Technologies],GetOriginalNetworkId method, IISDB_CDT.GetOriginalNetworkId, IISDB_CDT::GetOriginalNetworkId, dvbsiparser/IISDB_CDT::GetOriginalNetworkId, mstv.iisdb_cdt_getoriginalnetworkid
 ms.topic: method
-f1_keywords: 
- - "dvbsiparser/IISDB_CDT.GetOriginalNetworkId"
+f1_keywords:
+- dvbsiparser/IISDB_CDT.GetOriginalNetworkId
 dev_langs:
- - c++
+- c++
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dvbsiparser.h
+- dvbsiparser.h
 api_name:
- - IISDB_CDT.GetOriginalNetworkId
+- IISDB_CDT.GetOriginalNetworkId
 targetos: Windows
 req.typenames: 
 req.redist: 

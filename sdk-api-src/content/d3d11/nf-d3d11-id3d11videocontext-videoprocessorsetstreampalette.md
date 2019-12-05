@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d11.ID3D11VideoContext.VideoProcessorSetStreamPalette
 title: ID3D11VideoContext::VideoProcessorSetStreamPalette (d3d11.h)
-
 description: Sets the color-palette entries for an input stream on the video processor.
 old-location: mf\id3d11videocontext_videoprocessorsetstreampalette.htm
 tech.root: medfound
 ms.assetid: E2816D5F-0541-45B0-A90A-7C26530D064C
-
 ms.date: 12/05/2018
 ms.keywords: ID3D11VideoContext interface [Media Foundation],VideoProcessorSetStreamPalette method, ID3D11VideoContext.VideoProcessorSetStreamPalette, ID3D11VideoContext::VideoProcessorSetStreamPalette, VideoProcessorSetStreamPalette, VideoProcessorSetStreamPalette method [Media Foundation], VideoProcessorSetStreamPalette method [Media Foundation],ID3D11VideoContext interface, d3d11/ID3D11VideoContext::VideoProcessorSetStreamPalette, mf.id3d11videocontext_videoprocessorsetstreampalette
 ms.topic: method
-f1_keywords: 
- - "d3d11/ID3D11VideoContext.VideoProcessorSetStreamPalette"
+f1_keywords:
+- d3d11/ID3D11VideoContext.VideoProcessorSetStreamPalette
 dev_langs:
- - c++
+- c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - d3d11.h
+- d3d11.h
 api_name:
- - ID3D11VideoContext.VideoProcessorSetStreamPalette
+- ID3D11VideoContext.VideoProcessorSetStreamPalette
 targetos: Windows
 req.typenames: 
 req.redist: 

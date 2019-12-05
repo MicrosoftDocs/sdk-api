@@ -1,19 +1,17 @@
 ---
 UID: NE:searchapi.__MIDL___MIDL_itf_searchapi_0000_0023_0001
 title: ROWSETEVENT_ITEMSTATE (searchapi.h)
-
 description: Describes whether an item that matches the search criteria of a rowset is currently in that rowset.
 old-location: search\_search_ROWSETEVENT_ITEMSTATE.htm
 tech.root: search
 ms.assetid: VS|SEARCH|~\search\wds3x\reference\enums\rowsetevent_itemstate.htm
-
 ms.date: 12/05/2018
 ms.keywords: ROWSETEVENT_ITEMSTATE, ROWSETEVENT_ITEMSTATE enumeration [search], ROWSETEVENT_ITEMSTATE_INROWSET, ROWSETEVENT_ITEMSTATE_NOTINROWSET, ROWSETEVENT_ITEMSTATE_UNKNOWN, _search_ROWSETEVENT_ITEMSTATE, search._search_ROWSETEVENT_ITEMSTATE, searchapi/ROWSETEVENT_ITEMSTATE, searchapi/ROWSETEVENT_ITEMSTATE_INROWSET, searchapi/ROWSETEVENT_ITEMSTATE_NOTINROWSET, searchapi/ROWSETEVENT_ITEMSTATE_UNKNOWN
 ms.topic: enum
-f1_keywords: 
- - "searchapi/ROWSETEVENT_ITEMSTATE"
+f1_keywords:
+- searchapi/ROWSETEVENT_ITEMSTATE
 dev_langs:
- - c++
+- c++
 req.header: searchapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Searchapi.h
+- Searchapi.h
 api_name:
- - ROWSETEVENT_ITEMSTATE
+- ROWSETEVENT_ITEMSTATE
 targetos: Windows
 req.typenames: ROWSETEVENT_ITEMSTATE
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:winbase.LookupPrivilegeNameW
 title: LookupPrivilegeNameW function (winbase.h)
-
 description: Retrieves the name that corresponds to the privilege represented on a specific system by a specified locally unique identifier (LUID).
 old-location: security\lookupprivilegename.htm
 tech.root: SecAuthZ
 ms.assetid: 580fb58f-1470-4389-9f07-8f37403e2bdf
-
 ms.date: 12/05/2018
 ms.keywords: LookupPrivilegeName, LookupPrivilegeName function [Security], LookupPrivilegeNameA, LookupPrivilegeNameW, _win32_lookupprivilegename, security.lookupprivilegename, winbase/LookupPrivilegeName, winbase/LookupPrivilegeNameA, winbase/LookupPrivilegeNameW
 ms.topic: function
-f1_keywords: 
- - "winbase/LookupPrivilegeName"
+f1_keywords:
+- winbase/LookupPrivilegeName
 dev_langs:
- - c++
+- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,22 +30,22 @@ req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Advapi32.dll
- - API-MS-Win-DownLevel-AdvAPI32-l4-1-0.dll
- - advapi32legacy.dll
- - API-MS-Win-security-lsalookup-l2-1-0.dll
- - API-MS-Win-security-lsalookup-l2-1-1.dll
- - API-MS-Win-Security-LSALookup-L2-1-2.dll
- - API-MS-Win-Security-LSALookup-Ansi-L2-1-0.dll
+- Advapi32.dll
+- API-MS-Win-DownLevel-AdvAPI32-l4-1-0.dll
+- advapi32legacy.dll
+- API-MS-Win-security-lsalookup-l2-1-0.dll
+- API-MS-Win-security-lsalookup-l2-1-1.dll
+- API-MS-Win-Security-LSALookup-L2-1-2.dll
+- API-MS-Win-Security-LSALookup-Ansi-L2-1-0.dll
 api_name:
- - LookupPrivilegeName
- - LookupPrivilegeNameA
- - LookupPrivilegeNameW
+- LookupPrivilegeName
+- LookupPrivilegeNameA
+- LookupPrivilegeNameW
 targetos: Windows
 req.typenames: 
 req.redist: 

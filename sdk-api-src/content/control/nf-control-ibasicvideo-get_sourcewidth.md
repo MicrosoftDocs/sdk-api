@@ -1,19 +1,17 @@
 ---
 UID: NF:control.IBasicVideo.get_SourceWidth
 title: IBasicVideo::get_SourceWidth (control.h)
-
 description: The get_SourceWidth method retrieves the width of the source rectangle.
 old-location: dshow\ibasicvideo_get_sourcewidth.htm
 tech.root: DirectShow
 ms.assetid: 6c6f7e01-5f93-4277-b664-c5be0ea42004
-
 ms.date: 12/05/2018
 ms.keywords: IBasicVideo interface [DirectShow],get_SourceWidth method, IBasicVideo.get_SourceWidth, IBasicVideo::get_SourceWidth, IBasicVideoget_SourceWidth, control/IBasicVideo::get_SourceWidth, dshow.ibasicvideo_get_sourcewidth, get_SourceWidth, get_SourceWidth method [DirectShow], get_SourceWidth method [DirectShow],IBasicVideo interface
 ms.topic: method
-f1_keywords: 
- - "control/IBasicVideo.get_SourceWidth"
+f1_keywords:
+- control/IBasicVideo.get_SourceWidth
 dev_langs:
- - c++
+- c++
 req.header: control.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IBasicVideo.get_SourceWidth
+- IBasicVideo.get_SourceWidth
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:msacm.acmDriverPriority
 title: acmDriverPriority function (msacm.h)
-
 description: The acmDriverPriority function modifies the priority and state of an ACM driver.
 old-location: multimedia\acmdriverpriority.htm
 tech.root: Multimedia
 ms.assetid: 62ab009e-b8fe-4b92-ba0f-a98cd761307b
-
 ms.date: 12/05/2018
-ms.keywords: "_win32_acmDriverPriority, acmDriverPriority, acmDriverPriority function [Windows Multimedia], msacm/acmDriverPriority, multimedia.acmdriverpriority"
+ms.keywords: _win32_acmDriverPriority, acmDriverPriority, acmDriverPriority function [Windows Multimedia], msacm/acmDriverPriority, multimedia.acmdriverpriority
 ms.topic: function
-f1_keywords: 
- - "msacm/acmDriverPriority"
+f1_keywords:
+- msacm/acmDriverPriority
 dev_langs:
- - c++
+- c++
 req.header: msacm.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Msacm32.lib
 req.dll: Msacm32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Msacm32.dll
- - Ext-MS-Win-mm-msacm-l1-1-0.dll
+- Msacm32.dll
+- Ext-MS-Win-mm-msacm-l1-1-0.dll
 api_name:
- - acmDriverPriority
+- acmDriverPriority
 targetos: Windows
 req.typenames: 
 req.redist: 

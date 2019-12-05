@@ -1,19 +1,17 @@
 ---
 UID: NF:windows.foundation.IPropertyValueStatics.CreateBooleanArray
 title: IPropertyValueStatics::IPropertyValueStatics (windows.foundation.h)
-
 description: Creates a new IPropertyValue object that contains the specified array of 8-bit Boolean values.
 old-location: winrt\ipropertyvaluestatics_createbooleanarray.htm
 tech.root: WinRT
 ms.assetid: 54289d10-8393-4c49-9087-873519b32aa8
-
 ms.date: 12/05/2018
 ms.keywords: CreateBooleanArray, CreateBooleanArray method [Windows Runtime], CreateBooleanArray method [Windows Runtime],IPropertyValueStatics interface, IPropertyValueStatics interface [Windows Runtime],CreateBooleanArray method, IPropertyValueStatics.CreateBooleanArray, IPropertyValueStatics.IPropertyValueStatics, IPropertyValueStatics::CreateBooleanArray, IPropertyValueStatics::IPropertyValueStatics, windows/IPropertyValueStatics::CreateBooleanArray, winrt.ipropertyvaluefactory_createbooleanarray, winrt.ipropertyvaluestatics_createbooleanarray
 ms.topic: method
-f1_keywords: 
- - "windows.foundation/IPropertyValueStatics.CreateBooleanArray"
+f1_keywords:
+- windows.foundation/IPropertyValueStatics.CreateBooleanArray
 dev_langs:
- - c++
+- c++
 req.header: windows.foundation.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Windows.Foundation.h
+- Windows.Foundation.h
 api_name:
- - IPropertyValueStatics.CreateBooleanArray
+- IPropertyValueStatics.CreateBooleanArray
 targetos: Windows
 req.typenames: 
 req.redist: 

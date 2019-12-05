@@ -1,19 +1,17 @@
 ---
 UID: NF:wuapi.IDownloadJob.get_IsCompleted
 title: IDownloadJob::get_IsCompleted (wuapi.h)
-
 description: Gets the setting that indicates whether the call to IUpdateDownloader.BeginDownload was processed completely.
 old-location: wua\idownloadjob_iscompleted.htm
 tech.root: Wua_Sdk
 ms.assetid: d63f1bfc-589c-4cd2-95dd-e8c88e7f593c
-
 ms.date: 12/05/2018
 ms.keywords: IDownloadJob interface [Windows Update Agent],IsCompleted property, IDownloadJob.IsCompleted, IDownloadJob.get_IsCompleted, IDownloadJob::IsCompleted, IDownloadJob::get_IsCompleted, IsCompleted property [Windows Update Agent], IsCompleted property [Windows Update Agent],IDownloadJob interface, get_IsCompleted, wua.idownloadjob_iscompleted, wuapi/IDownloadJob::IsCompleted, wuapi/IDownloadJob::get_IsCompleted
 ms.topic: method
-f1_keywords: 
- - "wuapi/IDownloadJob.IsCompleted"
+f1_keywords:
+- wuapi/IDownloadJob.IsCompleted
 dev_langs:
- - c++
+- c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Wuguid.lib
 req.dll: Wuapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wuapi.dll
+- Wuapi.dll
 api_name:
- - IDownloadJob.IsCompleted
- - IDownloadJob.get_IsCompleted
+- IDownloadJob.IsCompleted
+- IDownloadJob.get_IsCompleted
 targetos: Windows
 req.typenames: 
 req.redist: 

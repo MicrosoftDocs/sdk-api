@@ -1,19 +1,17 @@
 ---
 UID: NF:certenroll.ICspAlgorithms.Clear
 title: ICspAlgorithms::Clear (certenroll.h)
-
 description: Removes all ICspAlgorithm objects from the collection.
 old-location: security\icspalgorithms_clear_method.htm
 tech.root: seccertenroll
 ms.assetid: 22b8e3a3-48b3-41a1-a135-0f23dd0060f8
-
 ms.date: 12/05/2018
 ms.keywords: Clear, Clear method [Security], Clear method [Security],ICspAlgorithms interface, ICspAlgorithms interface [Security],Clear method, ICspAlgorithms.Clear, ICspAlgorithms::Clear, certenroll/ICspAlgorithms::Clear, security.icspalgorithms_clear_method
 ms.topic: method
-f1_keywords: 
- - "certenroll/ICspAlgorithms.Clear"
+f1_keywords:
+- certenroll/ICspAlgorithms.Clear
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: CertEnroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CertEnroll.dll
+- CertEnroll.dll
 api_name:
- - ICspAlgorithms.Clear
+- ICspAlgorithms.Clear
 targetos: Windows
 req.typenames: 
 req.redist: 

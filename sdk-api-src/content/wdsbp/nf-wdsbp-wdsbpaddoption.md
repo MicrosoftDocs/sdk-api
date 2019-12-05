@@ -1,19 +1,17 @@
 ---
 UID: NF:wdsbp.WdsBpAddOption
 title: WdsBpAddOption function (wdsbp.h)
-
 description: Adds an option to the packet.
 old-location: wds\wdsbpaddoption.htm
 tech.root: wds
 ms.assetid: 4418fe47-4d54-4874-9ab1-6747f9d9eb72
-
 ms.date: 12/05/2018
 ms.keywords: WdsBpAddOption, WdsBpAddOption function [Windows Deployment Services], wds.wdsbpaddoption, wdsbp/WdsBpAddOption
 ms.topic: function
-f1_keywords: 
- - "wdsbp/WdsBpAddOption"
+f1_keywords:
+- wdsbp/WdsBpAddOption
 dev_langs:
- - c++
+- c++
 req.header: wdsbp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Wdsbp.lib
 req.dll: Wdsbp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Wdsbp.dll
+- Wdsbp.dll
 api_name:
- - WdsBpAddOption
+- WdsBpAddOption
 targetos: Windows
 req.typenames: 
 req.redist: 

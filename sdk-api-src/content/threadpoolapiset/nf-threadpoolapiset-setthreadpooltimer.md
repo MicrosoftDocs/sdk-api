@@ -1,19 +1,17 @@
 ---
 UID: NF:threadpoolapiset.SetThreadpoolTimer
 title: SetThreadpoolTimer function (threadpoolapiset.h)
-
 description: Sets the timer object&#8212;, replacing the previous timer, if any. A worker thread calls the timer object's callback after the specified timeout expires.
 old-location: base\setthreadpooltimer.htm
 tech.root: ProcThread
 ms.assetid: 017f88c6-e14c-47ba-94d2-e7bb0dc95d12
-
 ms.date: 12/05/2018
 ms.keywords: SetThreadpoolTimer, SetThreadpoolTimer function, base.setthreadpooltimer, threadpoolapiset/SetThreadpoolTimer, winbase/SetThreadpoolTimer
 ms.topic: function
-f1_keywords: 
- - "threadpoolapiset/SetThreadpoolTimer"
+f1_keywords:
+- threadpoolapiset/SetThreadpoolTimer
 dev_langs:
- - c++
+- c++
 req.header: threadpoolapiset.h
 req.include-header: Windows 7, Windows Server 2008  Windows Server 2008 R2, Windows.h
 req.target-type: Windows
@@ -32,19 +30,19 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-threadpool-l1-1-0.dll
- - KernelBase.dll
- - API-MS-Win-Core-threadpool-l1-2-0.dll
- - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
- - MinKernelBase.dll
+- Kernel32.dll
+- API-MS-Win-Core-threadpool-l1-1-0.dll
+- KernelBase.dll
+- API-MS-Win-Core-threadpool-l1-2-0.dll
+- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+- MinKernelBase.dll
 api_name:
- - SetThreadpoolTimer
+- SetThreadpoolTimer
 targetos: Windows
 req.typenames: 
 req.redist: 

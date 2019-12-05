@@ -1,19 +1,17 @@
 ---
 UID: NF:workspaceax.IWorkspaceResTypeRegistry.GetResourceTypeInfo
 title: IWorkspaceResTypeRegistry::GetResourceTypeInfo (workspaceax.h)
-
 description: Retrieves information about a third-party file name extension that is registered with the RemoteApp and Desktop Connections runtime.
 old-location: termserv\iworkspacerestyperegistry_getresourcetypeinfo.htm
 tech.root: TermServ
 ms.assetid: 60fa6676-c098-41b6-bebd-0a600ca37954
-
 ms.date: 12/05/2018
 ms.keywords: GetResourceTypeInfo, GetResourceTypeInfo method [Remote Desktop Services], GetResourceTypeInfo method [Remote Desktop Services],IWorkspaceResTypeRegistry interface, GetResourceTypeInfo method [Remote Desktop Services],Workspace object, IWorkspaceResTypeRegistry interface [Remote Desktop Services],GetResourceTypeInfo method, IWorkspaceResTypeRegistry.GetResourceTypeInfo, IWorkspaceResTypeRegistry::GetResourceTypeInfo, Workspace object [Remote Desktop Services],GetResourceTypeInfo method, termserv.iworkspacerestyperegistry_getresourcetypeinfo, workspaceax/IWorkspaceResTypeRegistry::GetResourceTypeInfo
 ms.topic: method
-f1_keywords: 
- - "workspaceax/IWorkspaceResTypeRegistry.GetResourceTypeInfo"
+f1_keywords:
+- workspaceax/IWorkspaceResTypeRegistry.GetResourceTypeInfo
 dev_langs:
- - c++
+- c++
 req.header: workspaceax.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: TSWorkspace.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - TSWorkspace.dll
+- TSWorkspace.dll
 api_name:
- - IWorkspaceResTypeRegistry.GetResourceTypeInfo
- - Workspace.GetResourceTypeInfo
+- IWorkspaceResTypeRegistry.GetResourceTypeInfo
+- Workspace.GetResourceTypeInfo
 targetos: Windows
 req.typenames: 
 req.redist: 

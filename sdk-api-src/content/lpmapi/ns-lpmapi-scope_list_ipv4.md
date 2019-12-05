@@ -1,19 +1,17 @@
 ---
 UID: NS:lpmapi.__unnamed_struct_9
 title: Scope_list_ipv4 (lpmapi.h)
-
 description: The Scope_list_ipv4 structure contains RSVP SCOPE object information.
 old-location: qos\scope_list_ipv4.htm
 tech.root: QOS
 ms.assetid: f1651371-d192-45d9-9a9e-d272b624f40d
-
 ms.date: 12/05/2018
 ms.keywords: Scope_list_ipv4, Scope_list_ipv4 structure [QOS], lpmapi/Scope_list_ipv4, qos.scope_list_ipv4
 ms.topic: struct
-f1_keywords: 
- - "lpmapi/Scope_list_ipv4"
+f1_keywords:
+- lpmapi/Scope_list_ipv4
 dev_langs:
- - c++
+- c++
 req.header: lpmapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Lpmapi.h
+- Lpmapi.h
 api_name:
- - Scope_list_ipv4
+- Scope_list_ipv4
 targetos: Windows
 req.typenames: Scope_list_ipv4
 req.redist: 

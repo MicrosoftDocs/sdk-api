@@ -1,19 +1,17 @@
 ---
 UID: NF:powersetting.PowerGetActiveScheme
 title: PowerGetActiveScheme function (powersetting.h)
-
 description: Retrieves the active power scheme and returns a GUID that identifies the scheme.
 old-location: base\powergetactivescheme.htm
 tech.root: power
 ms.assetid: cd72562c-8987-40c1-89c7-04a95b5f1fd0
-
 ms.date: 12/05/2018
 ms.keywords: PowerGetActiveScheme, PowerGetActiveScheme function, base.powergetactivescheme, powersetting/PowerGetActiveScheme, powrprof/PowerGetActiveScheme
 ms.topic: function
-f1_keywords: 
- - "powersetting/PowerGetActiveScheme"
+f1_keywords:
+- powersetting/PowerGetActiveScheme
 dev_langs:
- - c++
+- c++
 req.header: powersetting.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: PowrProf.lib
 req.dll: PowrProf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - PowrProf.dll
- - API-MS-Win-power-setting-l1-1-0.dll
+- PowrProf.dll
+- API-MS-Win-power-setting-l1-1-0.dll
 api_name:
- - PowerGetActiveScheme
+- PowerGetActiveScheme
 targetos: Windows
 req.typenames: 
 req.redist: 

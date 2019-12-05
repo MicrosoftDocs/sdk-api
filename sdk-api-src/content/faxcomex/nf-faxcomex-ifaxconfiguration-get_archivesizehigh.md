@@ -1,19 +1,17 @@
 ---
 UID: NF:faxcomex.IFaxConfiguration.get_ArchiveSizeHigh
 title: IFaxConfiguration::get_ArchiveSizeHigh (faxcomex.h)
-
 description: The value that specifies the high-order 32-bit value (in bytes) for the size of the fax message archive.
 old-location: fax\_mfax_ifaxconfiguration_archivesizehigh.htm
 tech.root: Fax
 ms.assetid: 3386ec80-be4e-4105-ab57-dd634b57f67f
-
 ms.date: 12/05/2018
 ms.keywords: ArchiveSizeHigh property [Fax Service], ArchiveSizeHigh property [Fax Service],IFaxConfiguration interface, IFaxConfiguration interface [Fax Service],ArchiveSizeHigh property, IFaxConfiguration.ArchiveSizeHigh, IFaxConfiguration.get_ArchiveSizeHigh, IFaxConfiguration::ArchiveSizeHigh, IFaxConfiguration::get_ArchiveSizeHigh, fax._mfax_ifaxconfiguration_archivesizehigh, faxcomex/IFaxConfiguration::ArchiveSizeHigh, faxcomex/IFaxConfiguration::get_ArchiveSizeHigh, get_ArchiveSizeHigh
 ms.topic: method
-f1_keywords: 
- - "faxcomex/IFaxConfiguration.ArchiveSizeHigh"
+f1_keywords:
+- faxcomex/IFaxConfiguration.ArchiveSizeHigh
 dev_langs:
- - c++
+- c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: Fxscomex.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Fxscomex.dll
+- Fxscomex.dll
 api_name:
- - IFaxConfiguration.ArchiveSizeHigh
- - IFaxConfiguration.get_ArchiveSizeHigh
+- IFaxConfiguration.ArchiveSizeHigh
+- IFaxConfiguration.get_ArchiveSizeHigh
 targetos: Windows
 req.typenames: 
 req.redist: 

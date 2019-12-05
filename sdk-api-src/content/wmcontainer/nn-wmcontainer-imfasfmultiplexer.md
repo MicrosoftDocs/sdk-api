@@ -1,19 +1,17 @@
 ---
 UID: NN:wmcontainer.IMFASFMultiplexer
 title: IMFASFMultiplexer (wmcontainer.h)
-
 description: Provides methods to create Advanced Systems Format (ASF) data packets.
 old-location: mf\imfasfmultiplexer.htm
 tech.root: medfound
 ms.assetid: bdb549b5-425b-4f77-b413-723ceb7acd11
-
 ms.date: 12/05/2018
 ms.keywords: IMFASFMultiplexer, IMFASFMultiplexer interface [Media Foundation], IMFASFMultiplexer interface [Media Foundation],described, bdb549b5-425b-4f77-b413-723ceb7acd11, mf.imfasfmultiplexer, wmcontainer/IMFASFMultiplexer
 ms.topic: interface
-f1_keywords: 
- - "wmcontainer/IMFASFMultiplexer"
+f1_keywords:
+- wmcontainer/IMFASFMultiplexer
 dev_langs:
- - c++
+- c++
 req.header: wmcontainer.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFASFMultiplexer
+- IMFASFMultiplexer
 targetos: Windows
 req.typenames: 
 req.redist: 

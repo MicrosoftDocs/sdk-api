@@ -1,19 +1,17 @@
 ---
 UID: NN:ddstream.IDirectDrawStreamSample
 title: IDirectDrawStreamSample (ddstream.h)
-
 description: Note  This interface is deprecated.
 old-location: dshow\idirectdrawstreamsample.htm
 tech.root: DirectShow
 ms.assetid: afc8ac84-4629-4c5d-b4b2-59c1eb1af35d
-
 ms.date: 12/05/2018
 ms.keywords: IDirectDrawStreamSample, IDirectDrawStreamSample interface [DirectShow], IDirectDrawStreamSample interface [DirectShow],described, IDirectDrawStreamSampleInterface, ddstream/IDirectDrawStreamSample, dshow.idirectdrawstreamsample
 ms.topic: interface
-f1_keywords: 
- - "ddstream/IDirectDrawStreamSample"
+f1_keywords:
+- ddstream/IDirectDrawStreamSample
 dev_langs:
- - c++
+- c++
 req.header: ddstream.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ddstream.h
+- ddstream.h
 api_name:
- - IDirectDrawStreamSample
+- IDirectDrawStreamSample
 targetos: Windows
 req.typenames: 
 req.redist: 

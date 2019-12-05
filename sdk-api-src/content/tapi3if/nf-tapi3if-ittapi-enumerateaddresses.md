@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi3if.ITTAPI.EnumerateAddresses
 title: ITTAPI::EnumerateAddresses (tapi3if.h)
-
 description: The EnumerateAddresses method enumerates the addresses that are currently available. Provided for C and C++ applications. Automation client applications, such as those written in Visual Basic, must use the get_Addresses method.
 old-location: tapi3\ittapi_enumerateaddresses.htm
 tech.root: Tapi
 ms.assetid: b40a2071-24bf-470c-bfba-de23317e8652
-
 ms.date: 12/05/2018
 ms.keywords: EnumerateAddresses, EnumerateAddresses method [TAPI 2.2], EnumerateAddresses method [TAPI 2.2],ITTAPI interface, ITTAPI interface [TAPI 2.2],EnumerateAddresses method, ITTAPI.EnumerateAddresses, ITTAPI::EnumerateAddresses, _tapi3_ittapi_enumerateaddresses, tapi3.ittapi_enumerateaddresses, tapi3if/ITTAPI::EnumerateAddresses
 ms.topic: method
-f1_keywords: 
- - "tapi3if/ITTAPI.EnumerateAddresses"
+f1_keywords:
+- tapi3if/ITTAPI.EnumerateAddresses
 dev_langs:
- - c++
+- c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Tapi3.dll
+- Tapi3.dll
 api_name:
- - ITTAPI.EnumerateAddresses
+- ITTAPI.EnumerateAddresses
 targetos: Windows
 req.typenames: 
 req.redist: 

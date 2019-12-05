@@ -1,19 +1,17 @@
 ---
 UID: NF:cscobj.IOfflineFilesConnectionInfo.GetConnectState
 title: IOfflineFilesConnectionInfo::GetConnectState (cscobj.h)
-
 description: Determines whether an item is online or offline and, if offline, why.
 old-location: of\iofflinefilesconnectioninfo_getconnectstate.htm
 tech.root: offlinefiles
 ms.assetid: 83b082b4-5845-44b7-9456-f00b357e345a
-
 ms.date: 12/05/2018
 ms.keywords: GetConnectState, GetConnectState method [Offline Files], GetConnectState method [Offline Files],IOfflineFilesConnectionInfo interface, IOfflineFilesConnectionInfo interface [Offline Files],GetConnectState method, IOfflineFilesConnectionInfo.GetConnectState, IOfflineFilesConnectionInfo::GetConnectState, cscobj/IOfflineFilesConnectionInfo::GetConnectState, of.iofflinefilesconnectioninfo_getconnectstate
 ms.topic: method
-f1_keywords: 
- - "cscobj/IOfflineFilesConnectionInfo.GetConnectState"
+f1_keywords:
+- cscobj/IOfflineFilesConnectionInfo.GetConnectState
 dev_langs:
- - c++
+- c++
 req.header: cscobj.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: CscSvc.dll; CscObj.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CscSvc.dll
- - CscObj.dll
+- CscSvc.dll
+- CscObj.dll
 api_name:
- - IOfflineFilesConnectionInfo.GetConnectState
+- IOfflineFilesConnectionInfo.GetConnectState
 targetos: Windows
 req.typenames: 
 req.redist: 

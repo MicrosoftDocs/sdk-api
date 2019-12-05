@@ -1,19 +1,17 @@
 ---
 UID: NF:dxgidebug.IDXGIInfoQueue.GetNumMessagesDeniedByStorageFilter
 title: IDXGIInfoQueue::GetNumMessagesDeniedByStorageFilter (dxgidebug.h)
-
 description: Gets the number of messages that were denied passage through a storage filter.
 old-location: direct3ddxgi\idxgiinfoqueue_getnummessagesdeniedbystoragefilter.htm
 tech.root: direct3ddxgi
 ms.assetid: 98A71D07-8E9A-403D-B02B-70B7F4112246
-
 ms.date: 12/05/2018
 ms.keywords: GetNumMessagesDeniedByStorageFilter, GetNumMessagesDeniedByStorageFilter method [DXGI], GetNumMessagesDeniedByStorageFilter method [DXGI],IDXGIInfoQueue interface, IDXGIInfoQueue interface [DXGI],GetNumMessagesDeniedByStorageFilter method, IDXGIInfoQueue.GetNumMessagesDeniedByStorageFilter, IDXGIInfoQueue::GetNumMessagesDeniedByStorageFilter, direct3ddxgi.idxgiinfoqueue_getnummessagesdeniedbystoragefilter, dxgidebug/IDXGIInfoQueue::GetNumMessagesDeniedByStorageFilter
 ms.topic: method
-f1_keywords: 
- - "dxgidebug/IDXGIInfoQueue.GetNumMessagesDeniedByStorageFilter"
+f1_keywords:
+- dxgidebug/IDXGIInfoQueue.GetNumMessagesDeniedByStorageFilter
 dev_langs:
- - c++
+- c++
 req.header: dxgidebug.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: DXGIDebug.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - DXGIDebug.dll
+- DXGIDebug.dll
 api_name:
- - IDXGIInfoQueue.GetNumMessagesDeniedByStorageFilter
+- IDXGIInfoQueue.GetNumMessagesDeniedByStorageFilter
 targetos: Windows
 req.typenames: 
 req.redist: 

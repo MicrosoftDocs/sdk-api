@@ -1,19 +1,17 @@
 ---
 UID: NS:ntddkbd._KEYBOARD_INPUT_DATA
 title: KEYBOARD_INPUT_DATA (ntddkbd.h)
-
 description: KEYBOARD_INPUT_DATA contains one packet of keyboard input data.
 old-location: hid\keyboard_input_data.htm
 tech.root: hid
 ms.assetid: ea0b592a-51d1-4407-9c66-b069af336e54
-
 ms.date: 12/05/2018
-ms.keywords: "*PKEYBOARD_INPUT_DATA, KEYBOARD_INPUT_DATA, KEYBOARD_INPUT_DATA structure [Human Input Devices], PKEYBOARD_INPUT_DATA, PKEYBOARD_INPUT_DATA structure pointer [Human Input Devices], hid.keyboard_input_data, kref_5fd34b1f-6ad2-4eaf-971a-8adedb3bada9.xml, ntddkbd/KEYBOARD_INPUT_DATA, ntddkbd/PKEYBOARD_INPUT_DATA"
+ms.keywords: '*PKEYBOARD_INPUT_DATA, KEYBOARD_INPUT_DATA, KEYBOARD_INPUT_DATA structure [Human Input Devices], PKEYBOARD_INPUT_DATA, PKEYBOARD_INPUT_DATA structure pointer [Human Input Devices], hid.keyboard_input_data, kref_5fd34b1f-6ad2-4eaf-971a-8adedb3bada9.xml, ntddkbd/KEYBOARD_INPUT_DATA, ntddkbd/PKEYBOARD_INPUT_DATA'
 ms.topic: struct
-f1_keywords: 
- - "ntddkbd/KEYBOARD_INPUT_DATA"
+f1_keywords:
+- ntddkbd/KEYBOARD_INPUT_DATA
 dev_langs:
- - c++
+- c++
 req.header: ntddkbd.h
 req.include-header: Ntddkbd.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - ntddkbd.h
+- ntddkbd.h
 api_name:
- - KEYBOARD_INPUT_DATA
+- KEYBOARD_INPUT_DATA
 targetos: Windows
 req.typenames: KEYBOARD_INPUT_DATA, *PKEYBOARD_INPUT_DATA
 req.redist: 

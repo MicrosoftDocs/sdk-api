@@ -1,19 +1,17 @@
 ---
 UID: NF:certenroll.IX509EnrollmentPolicyServer.GetIsDefaultCEP
 title: IX509EnrollmentPolicyServer::GetIsDefaultCEP (certenroll.h)
-
 description: Retrieves a Boolean value that specifies whether this is the default certificate enrollment policy (CEP) server.
 old-location: security\ix509enrollmentpolicyserver_getisdefaultcep.htm
 tech.root: seccertenroll
 ms.assetid: 9c84993b-5d08-45c1-8139-458b047028aa
-
 ms.date: 12/05/2018
 ms.keywords: GetIsDefaultCEP, GetIsDefaultCEP method [Security], GetIsDefaultCEP method [Security],IX509EnrollmentPolicyServer interface, IX509EnrollmentPolicyServer interface [Security],GetIsDefaultCEP method, IX509EnrollmentPolicyServer.GetIsDefaultCEP, IX509EnrollmentPolicyServer::GetIsDefaultCEP, certenroll/IX509EnrollmentPolicyServer::GetIsDefaultCEP, security.ix509enrollmentpolicyserver_getisdefaultcep
 ms.topic: method
-f1_keywords: 
- - "certenroll/IX509EnrollmentPolicyServer.GetIsDefaultCEP"
+f1_keywords:
+- certenroll/IX509EnrollmentPolicyServer.GetIsDefaultCEP
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Certenroll.h
+- Certenroll.h
 api_name:
- - IX509EnrollmentPolicyServer.GetIsDefaultCEP
+- IX509EnrollmentPolicyServer.GetIsDefaultCEP
 targetos: Windows
 req.typenames: 
 req.redist: 

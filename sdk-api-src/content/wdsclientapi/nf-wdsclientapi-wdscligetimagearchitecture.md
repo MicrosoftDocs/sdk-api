@@ -1,19 +1,17 @@
 ---
 UID: NF:wdsclientapi.WdsCliGetImageArchitecture
 title: WdsCliGetImageArchitecture function (wdsclientapi.h)
-
 description: Returns the processor architecture for the current image.
 old-location: wds\wdscligetimagearchitecture.htm
 tech.root: wds
 ms.assetid: 69df2926-e0f1-4c52-bc91-7d2e1391f835
-
 ms.date: 12/05/2018
 ms.keywords: PROCESSOR_ARCHITECTURE_AMD64, PROCESSOR_ARCHITECTURE_IA64, PROCESSOR_ARCHITECTURE_INTEL, WdsCliGetImageArchitecture, WdsCliGetImageArchitecture function [Windows Deployment Services], wds.wdscligetimagearchitecture, wdsclientapi/WdsCliGetImageArchitecture
 ms.topic: function
-f1_keywords: 
- - "wdsclientapi/WdsCliGetImageArchitecture"
+f1_keywords:
+- wdsclientapi/WdsCliGetImageArchitecture
 dev_langs:
- - c++
+- c++
 req.header: wdsclientapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: WdsClientAPI.lib
 req.dll: WdsClientAPI.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - WdsClientAPI.dll
+- WdsClientAPI.dll
 api_name:
- - WdsCliGetImageArchitecture
+- WdsCliGetImageArchitecture
 targetos: Windows
 req.typenames: 
 req.redist: 

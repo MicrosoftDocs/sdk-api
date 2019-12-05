@@ -1,19 +1,17 @@
 ---
 UID: NF:commctrl.MAKEIPRANGE
 title: MAKEIPRANGE macro (commctrl.h)
-
 description: Packs two byte-values into a single LPARAM suitable for use with the IPM_SETRANGE message.
 old-location: controls\MAKEIPRANGE.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\ipaddress\macros\makeiprange.htm
-
 ms.date: 12/05/2018
 ms.keywords: MAKEIPRANGE, MAKEIPRANGE macro [Windows Controls], _win32_MAKEIPRANGE, _win32_MAKEIPRANGE_cpp, commctrl/MAKEIPRANGE, controls.MAKEIPRANGE, controls._win32_MAKEIPRANGE
 ms.topic: macro
-f1_keywords: 
- - "commctrl/MAKEIPRANGE"
+f1_keywords:
+- commctrl/MAKEIPRANGE
 dev_langs:
- - c++
+- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Commctrl.h
+- Commctrl.h
 api_name:
- - MAKEIPRANGE
+- MAKEIPRANGE
 targetos: Windows
 req.typenames: 
 req.redist: 

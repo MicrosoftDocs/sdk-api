@@ -1,19 +1,17 @@
 ---
 UID: NF:tom.ITextRow.GetCellBorderColors
 title: ITextRow::GetCellBorderColors (tom.h)
-
 description: Gets the border colors of the active cell.
 old-location: controls\itextrow_getcellbordercolors.htm
 tech.root: Controls
 ms.assetid: 2cc0a3b0-3988-4dff-9553-a86d37f4011f
-
 ms.date: 12/05/2018
 ms.keywords: GetCellBorderColors, GetCellBorderColors method [Windows Controls], GetCellBorderColors method [Windows Controls],ITextRow interface, ITextRow interface [Windows Controls],GetCellBorderColors method, ITextRow.GetCellBorderColors, ITextRow::GetCellBorderColors, controls.itextrow_getcellbordercolors, tom/ITextRow::GetCellBorderColors
 ms.topic: method
-f1_keywords: 
- - "tom/ITextRow.GetCellBorderColors"
+f1_keywords:
+- tom/ITextRow.GetCellBorderColors
 dev_langs:
- - c++
+- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msftedit.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msftedit.dll
+- Msftedit.dll
 api_name:
- - ITextRow.GetCellBorderColors
+- ITextRow.GetCellBorderColors
 targetos: Windows
 req.typenames: 
 req.redist: 

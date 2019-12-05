@@ -1,19 +1,17 @@
 ---
 UID: NE:adhoc.tagDOT11_ADHOC_AUTH_ALGORITHM
 title: DOT11_ADHOC_AUTH_ALGORITHM (adhoc.h)
-
 description: Specifies the authentication algorithm for user or machine authentication on an ad hoc network.
 old-location: nwifi\dot11_adhoc_auth_algorithm.htm
 tech.root: NativeWiFi
 ms.assetid: 6e28fb8f-a429-4b6c-a057-737bbadb0a95
-
 ms.date: 12/05/2018
 ms.keywords: DOT11_ADHOC_AUTH_ALGORITHM, DOT11_ADHOC_AUTH_ALGORITHM enumeration [NativeWIFI], DOT11_ADHOC_AUTH_ALGO_80211_OPEN, DOT11_ADHOC_AUTH_ALGO_INVALID, DOT11_ADHOC_AUTH_ALGO_RSNA_PSK, adhoc/DOT11_ADHOC_AUTH_ALGORITHM, adhoc/DOT11_ADHOC_AUTH_ALGO_80211_OPEN, adhoc/DOT11_ADHOC_AUTH_ALGO_INVALID, adhoc/DOT11_ADHOC_AUTH_ALGO_RSNA_PSK, nwifi.dot11_adhoc_auth_algorithm
 ms.topic: enum
-f1_keywords: 
- - "adhoc/DOT11_ADHOC_AUTH_ALGORITHM"
+f1_keywords:
+- adhoc/DOT11_ADHOC_AUTH_ALGORITHM
 dev_langs:
- - c++
+- c++
 req.header: adhoc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - adhoc.h
+- adhoc.h
 api_name:
- - DOT11_ADHOC_AUTH_ALGORITHM
+- DOT11_ADHOC_AUTH_ALGORITHM
 targetos: Windows
 req.typenames: DOT11_ADHOC_AUTH_ALGORITHM
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:rtscom.IStylusPlugin.StylusUp
 title: IStylusPlugin::StylusUp (rtscom.h)
-
 description: Notifies the implementing plug-in that the user has raised the tablet pen from the tablet digitizer surface.
 old-location: tablet\istylusplugin_stylusup.htm
 tech.root: tablet
 ms.assetid: b0f9e49c-6a16-43c5-a653-d6142e58019a
-
 ms.date: 12/05/2018
 ms.keywords: IStylusPlugin interface [Tablet PC],StylusUp method, IStylusPlugin.StylusUp, IStylusPlugin::StylusUp, StylusUp, StylusUp method [Tablet PC], StylusUp method [Tablet PC],IStylusPlugin interface, b0f9e49c-6a16-43c5-a653-d6142e58019a, rtscom/IStylusPlugin::StylusUp, tablet.istylusplugin_stylusup
 ms.topic: method
-f1_keywords: 
- - "rtscom/IStylusPlugin.StylusUp"
+f1_keywords:
+- rtscom/IStylusPlugin.StylusUp
 dev_langs:
- - c++
+- c++
 req.header: rtscom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: RTSCom.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - RTSCom.dll
+- RTSCom.dll
 api_name:
- - IStylusPlugin.StylusUp
+- IStylusPlugin.StylusUp
 targetos: Windows
 req.typenames: 
 req.redist: 

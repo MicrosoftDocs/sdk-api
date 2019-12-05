@@ -1,19 +1,17 @@
 ---
 UID: NF:rpcdce.RpcBindingInqAuthInfoExA
 title: RpcBindingInqAuthInfoExA function (rpcdce.h)
-
 description: The RpcBindingInqAuthInfoEx function returns authentication, authorization, and security quality-of-service information from a binding handle.
 old-location: rpc\rpcbindinginqauthinfoex.htm
 tech.root: Rpc
 ms.assetid: e75f5ba6-7a1c-4069-8810-05aa38a47e9c
-
 ms.date: 12/05/2018
 ms.keywords: RpcBindingInqAuthInfoEx, RpcBindingInqAuthInfoEx function [RPC], RpcBindingInqAuthInfoExA, RpcBindingInqAuthInfoExW, _rpc_rpcbindinginqauthinfoex, rpc.rpcbindinginqauthinfoex, rpcdce/RpcBindingInqAuthInfoEx, rpcdce/RpcBindingInqAuthInfoExA, rpcdce/RpcBindingInqAuthInfoExW
 ms.topic: function
 f1_keywords:
 - rpcdce/RpcBindingInqAuthInfoEx
 dev_langs:
- - c++
+- c++
 req.header: rpcdce.h
 req.include-header: Rpc.h
 req.target-type: Windows

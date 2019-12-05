@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IShellLinkA.SetDescription
 title: IShellLinkA::SetDescription (shobjidl_core.h)
-
 description: Sets the description for a Shell link object. The description can be any application-defined string.
 old-location: shell\IShellLink_SetDescription.htm
 tech.root: shell
 ms.assetid: 4bec482e-04e6-4cde-ab8e-23c5a1463bdf
-
 ms.date: 12/05/2018
 ms.keywords: IShellLink interface [Windows Shell],SetDescription method, IShellLink::SetDescription, IShellLinkA interface [Windows Shell],SetDescription method, IShellLinkA.SetDescription, IShellLinkA::SetDescription, IShellLinkW interface [Windows Shell],SetDescription method, IShellLinkW::SetDescription, SetDescription, SetDescription method [Windows Shell], SetDescription method [Windows Shell],IShellLink interface, SetDescription method [Windows Shell],IShellLinkA interface, SetDescription method [Windows Shell],IShellLinkW interface, _win32_IShellLink_SetDescription, shell.IShellLink_SetDescription, shobjidl_core/IShellLink::SetDescription, shobjidl_core/IShellLinkA::SetDescription, shobjidl_core/IShellLinkW::SetDescription
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IShellLink.SetDescription"
+f1_keywords:
+- shobjidl_core/IShellLink.SetDescription
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: Shell32.dll (version 4.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - IShellLink.SetDescription
- - IShellLinkA.SetDescription
- - IShellLinkW.SetDescription
+- IShellLink.SetDescription
+- IShellLinkA.SetDescription
+- IShellLinkW.SetDescription
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NS:netfw._INET_FIREWALL_AC_CAPABILITIES
 title: INET_FIREWALL_AC_CAPABILITIES (netfw.h)
-
 description: Contains information about the capabilities of an app container.
 old-location: ics\inet_firewall_ac_capabilities.htm
 tech.root: ics
 ms.assetid: 37386225-0c64-49c0-a21c-cecd8bdb1f1f
-
 ms.date: 12/05/2018
-ms.keywords: "*PINET_FIREWALL_AC_CAPABILITIES, INET_FIREWALL_AC_CAPABILITIES, INET_FIREWALL_AC_CAPABILITIES structure [ICS/ICF], PINET_FIREWALL_AC_CAPABILITIES, PINET_FIREWALL_AC_CAPABILITIES structure pointer [ICS/ICF], _INET_FIREWALL_AC_CAPABILITIES, ics.inet_firewall_ac_capabilities, networkisolation/INET_FIREWALL_AC_CAPABILITIES, networkisolation/PINET_FIREWALL_AC_CAPABILITIES"
+ms.keywords: '*PINET_FIREWALL_AC_CAPABILITIES, INET_FIREWALL_AC_CAPABILITIES, INET_FIREWALL_AC_CAPABILITIES structure [ICS/ICF], PINET_FIREWALL_AC_CAPABILITIES, PINET_FIREWALL_AC_CAPABILITIES structure pointer [ICS/ICF], _INET_FIREWALL_AC_CAPABILITIES, ics.inet_firewall_ac_capabilities, networkisolation/INET_FIREWALL_AC_CAPABILITIES, networkisolation/PINET_FIREWALL_AC_CAPABILITIES'
 ms.topic: struct
-f1_keywords: 
- - "netfw/INET_FIREWALL_AC_CAPABILITIES"
+f1_keywords:
+- netfw/INET_FIREWALL_AC_CAPABILITIES
 dev_langs:
- - c++
+- c++
 req.header: netfw.h
 req.include-header: Netfw.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - networkisolation.h
+- networkisolation.h
 api_name:
- - INET_FIREWALL_AC_CAPABILITIES
+- INET_FIREWALL_AC_CAPABILITIES
 targetos: Windows
 req.typenames: INET_FIREWALL_AC_CAPABILITIES, *PINET_FIREWALL_AC_CAPABILITIES
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d11.ID3D11DeviceContext.SOGetTargets
 title: ID3D11DeviceContext::SOGetTargets (d3d11.h)
-
 description: Get the target output buffers for the stream-output stage of the pipeline.
 old-location: direct3d11\id3d11devicecontext_sogettargets.htm
 tech.root: direct3d11
 ms.assetid: 878402ed-0c89-42db-8210-d9a90b347226
-
 ms.date: 12/05/2018
 ms.keywords: 90e06f28-a9a0-3b66-9901-3e60886b896d, ID3D11DeviceContext interface [Direct3D 11],SOGetTargets method, ID3D11DeviceContext.SOGetTargets, ID3D11DeviceContext::SOGetTargets, SOGetTargets, SOGetTargets method [Direct3D 11], SOGetTargets method [Direct3D 11],ID3D11DeviceContext interface, d3d11/ID3D11DeviceContext::SOGetTargets, direct3d11.id3d11devicecontext_sogettargets
 ms.topic: method
-f1_keywords: 
- - "d3d11/ID3D11DeviceContext.SOGetTargets"
+f1_keywords:
+- d3d11/ID3D11DeviceContext.SOGetTargets
 dev_langs:
- - c++
+- c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: D3D11.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D11.lib
- - D3D11.dll
+- D3D11.lib
+- D3D11.dll
 api_name:
- - ID3D11DeviceContext.SOGetTargets
+- ID3D11DeviceContext.SOGetTargets
 targetos: Windows
 req.typenames: 
 req.redist: 

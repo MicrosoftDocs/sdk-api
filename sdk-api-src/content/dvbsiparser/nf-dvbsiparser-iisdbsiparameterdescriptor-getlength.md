@@ -1,19 +1,17 @@
 ---
 UID: NF:dvbsiparser.IIsdbSIParameterDescriptor.GetLength
 title: IIsdbSIParameterDescriptor::GetLength (dvbsiparser.h)
-
 description: Gets the body length of a service information (SI) parameter descriptor, in bytes.
 old-location: mstv\iisdbsiparameterdescriptor_getlength.htm
 tech.root: mstv
 ms.assetid: 6e4ac80d-30a9-4879-9cd3-a3964c675b27
-
 ms.date: 12/05/2018
 ms.keywords: GetLength, GetLength method [Microsoft TV Technologies], GetLength method [Microsoft TV Technologies],IIsdbSIParameterDescriptor interface, IIsdbSIParameterDescriptor interface [Microsoft TV Technologies],GetLength method, IIsdbSIParameterDescriptor.GetLength, IIsdbSIParameterDescriptor::GetLength, dvbsiparser/IIsdbSIParameterDescriptor::GetLength, mstv.iisdbsiparameterdescriptor_getlength
 ms.topic: method
-f1_keywords: 
- - "dvbsiparser/IIsdbSIParameterDescriptor.GetLength"
+f1_keywords:
+- dvbsiparser/IIsdbSIParameterDescriptor.GetLength
 dev_langs:
- - c++
+- c++
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dvbsiparser.h
+- dvbsiparser.h
 api_name:
- - IIsdbSIParameterDescriptor.GetLength
+- IIsdbSIParameterDescriptor.GetLength
 targetos: Windows
 req.typenames: 
 req.redist: 

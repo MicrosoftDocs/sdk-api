@@ -1,19 +1,17 @@
 ---
 UID: NN:bits3_0.IBackgroundCopyFile3
 title: IBackgroundCopyFile3 (bits3_0.h)
-
 description: Use this interface to retrieve the name of the temporary file that contains the downloaded content and to validate the file so that peers can request its content.
 old-location: bits\ibackgroundcopyfile3.htm
 tech.root: Bits
 ms.assetid: 5304f93a-993a-4327-9fdb-fb2ef1dafecb
-
 ms.date: 12/05/2018
 ms.keywords: IBackgroundCopyFile3, IBackgroundCopyFile3 interface [BITS], IBackgroundCopyFile3 interface [BITS],described, bits.ibackgroundcopyfile3, bits3_0/IBackgroundCopyFile3
 ms.topic: interface
-f1_keywords: 
- - "bits3_0/IBackgroundCopyFile3"
+f1_keywords:
+- bits3_0/IBackgroundCopyFile3
 dev_langs:
- - c++
+- c++
 req.header: bits3_0.h
 req.include-header: Bits.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Bits.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Bits.lib
- - Bits.dll
+- Bits.lib
+- Bits.dll
 api_name:
- - IBackgroundCopyFile3
+- IBackgroundCopyFile3
 targetos: Windows
 req.typenames: 
 req.redist: 

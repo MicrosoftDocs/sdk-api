@@ -1,19 +1,17 @@
 ---
 UID: NF:mpeg2psiparser.ITSDT.GetNextTable
 title: ITSDT::GetNextTable (mpeg2psiparser.h)
-
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005.
 old-location: mstv\itsdt_getnexttable.htm
 tech.root: mstv
 ms.assetid: 7b60647a-b668-4884-967d-044ff0d149c2
-
 ms.date: 12/05/2018
 ms.keywords: GetNextTable, GetNextTable method [Microsoft TV Technologies], GetNextTable method [Microsoft TV Technologies],ITSDT interface, ITSDT interface [Microsoft TV Technologies],GetNextTable method, ITSDT.GetNextTable, ITSDT::GetNextTable, ITSDTGetNextTable, mpeg2psiparser/ITSDT::GetNextTable, mstv.itsdt_getnexttable
 ms.topic: method
-f1_keywords: 
- - "mpeg2psiparser/ITSDT.GetNextTable"
+f1_keywords:
+- mpeg2psiparser/ITSDT.GetNextTable
 dev_langs:
- - c++
+- c++
 req.header: mpeg2psiparser.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mpeg2PsiParser.h
+- Mpeg2PsiParser.h
 api_name:
- - ITSDT.GetNextTable
+- ITSDT.GetNextTable
 targetos: Windows
 req.typenames: 
 req.redist: 

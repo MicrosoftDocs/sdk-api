@@ -1,19 +1,17 @@
 ---
 UID: NN:rdpappcontainerclient.IRemoteDesktopClientTouchPointer
 title: IRemoteDesktopClientTouchPointer (rdpappcontainerclient.h)
-
 description: Provides the properties needed to control the touch pointer feature of the Remote Desktop Protocol (RDP) app container client control.
 old-location: termserv\iremotedesktopclienttouchpointer.htm
 tech.root: TermServ
 ms.assetid: 98c47e41-ecda-45cb-94e9-de51edc7af08
-
 ms.date: 12/05/2018
 ms.keywords: IRemoteDesktopClientTouchPointer, IRemoteDesktopClientTouchPointer interface [Remote Desktop Services], IRemoteDesktopClientTouchPointer interface [Remote Desktop Services],described, rdpappcontainerclient/IRemoteDesktopClientTouchPointer, termserv.iremotedesktopclienttouchpointer
 ms.topic: interface
-f1_keywords: 
- - "rdpappcontainerclient/IRemoteDesktopClientTouchPointer"
+f1_keywords:
+- rdpappcontainerclient/IRemoteDesktopClientTouchPointer
 dev_langs:
- - c++
+- c++
 req.header: rdpappcontainerclient.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: MsTscAx.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - MsTscAx.dll
+- MsTscAx.dll
 api_name:
- - IRemoteDesktopClientTouchPointer
+- IRemoteDesktopClientTouchPointer
 targetos: Windows
 req.typenames: 
 req.redist: 

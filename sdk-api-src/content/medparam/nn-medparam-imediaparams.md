@@ -1,19 +1,17 @@
 ---
 UID: NN:medparam.IMediaParams
 title: IMediaParams (medparam.h)
-
 description: The IMediaParams interface sets and retrieves envelope-following parameters on an object.
 old-location: dshow\imediaparams.htm
 tech.root: DirectShow
 ms.assetid: 68ea8f6a-4b6d-4d79-a986-6032b767147b
-
 ms.date: 12/05/2018
 ms.keywords: IMediaParams, IMediaParams interface [DirectShow], IMediaParams interface [DirectShow],described, IMediaParamsInterface, dshow.imediaparams, medparam/IMediaParams
 ms.topic: interface
-f1_keywords: 
- - "medparam/IMediaParams"
+f1_keywords:
+- medparam/IMediaParams
 dev_langs:
- - c++
+- c++
 req.header: medparam.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Dmoguids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dmoguids.lib
- - Dmoguids.dll
+- Dmoguids.lib
+- Dmoguids.dll
 api_name:
- - IMediaParams
+- IMediaParams
 targetos: Windows
 req.typenames: 
 req.redist: 

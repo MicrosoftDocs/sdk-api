@@ -1,19 +1,17 @@
 ---
 UID: NN:rtscom.IStrokeBuilder
 title: IStrokeBuilder (rtscom.h)
-
 description: Use interface to programmatically create strokes from packet data.
 old-location: tablet\istrokebuilder.htm
 tech.root: tablet
 ms.assetid: 309fcc8a-6a14-4ee3-b340-5e47ff249bf8
-
 ms.date: 12/05/2018
 ms.keywords: 309fcc8a-6a14-4ee3-b340-5e47ff249bf8, IStrokeBuilder, IStrokeBuilder interface [Tablet PC], IStrokeBuilder interface [Tablet PC],described, rtscom/IStrokeBuilder, tablet.istrokebuilder
 ms.topic: interface
-f1_keywords: 
- - "rtscom/IStrokeBuilder"
+f1_keywords:
+- rtscom/IStrokeBuilder
 dev_langs:
- - c++
+- c++
 req.header: rtscom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: RTSCom.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - RTSCom.dll
+- RTSCom.dll
 api_name:
- - IStrokeBuilder
+- IStrokeBuilder
 targetos: Windows
 req.typenames: 
 req.redist: 

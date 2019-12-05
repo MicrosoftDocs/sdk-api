@@ -1,19 +1,17 @@
 ---
 UID: NF:contentpartner.IWMPContentPartnerCallback.UpdateDeviceComplete
 title: IWMPContentPartnerCallback::UpdateDeviceComplete (contentpartner.h)
-
 description: Note  This section describes functionality designed for use by online stores.
 old-location: wmp\iwmpcontentpartnercallback_updatedevicecomplete.htm
 tech.root: WMP
 ms.assetid: 0d21d9a0-1a7c-4f4e-9c9d-36a0d30ea63f
-
 ms.date: 12/05/2018
 ms.keywords: IWMPContentPartnerCallback interface [Windows Media Player],UpdateDeviceComplete method, IWMPContentPartnerCallback.UpdateDeviceComplete, IWMPContentPartnerCallback::UpdateDeviceComplete, IWMPContentPartnerCallbackUpdateDeviceComplete, UpdateDeviceComplete, UpdateDeviceComplete method [Windows Media Player], UpdateDeviceComplete method [Windows Media Player],IWMPContentPartnerCallback interface, contentpartner/IWMPContentPartnerCallback::UpdateDeviceComplete, wmp.iwmpcontentpartnercallback_updatedevicecomplete
 ms.topic: method
-f1_keywords: 
- - "contentpartner/IWMPContentPartnerCallback.UpdateDeviceComplete"
+f1_keywords:
+- contentpartner/IWMPContentPartnerCallback.UpdateDeviceComplete
 dev_langs:
- - c++
+- c++
 req.header: contentpartner.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - contentpartner.h
+- contentpartner.h
 api_name:
- - IWMPContentPartnerCallback.UpdateDeviceComplete
+- IWMPContentPartnerCallback.UpdateDeviceComplete
 targetos: Windows
 req.typenames: 
 req.redist: 

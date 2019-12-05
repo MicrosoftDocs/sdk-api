@@ -1,19 +1,17 @@
 ---
 UID: NF:uianimation.IUIAnimationStoryboardEventHandler.OnStoryboardUpdated
 title: IUIAnimationStoryboardEventHandler::OnStoryboardUpdated (uianimation.h)
-
 description: Handles events that occur when a storyboard is updated.
 old-location: uianimation\iuianimationstoryboardeventhandler_onstoryboardupdated.htm
 tech.root: UIAnimation
 ms.assetid: e1a6349e-9c3f-49e5-8e50-b51bf260e9be
-
 ms.date: 12/05/2018
 ms.keywords: IUIAnimationStoryboardEventHandler interface [Windows Animation],OnStoryboardUpdated method, IUIAnimationStoryboardEventHandler.OnStoryboardUpdated, IUIAnimationStoryboardEventHandler::OnStoryboardUpdated, OnStoryboardUpdated, OnStoryboardUpdated method [Windows Animation], OnStoryboardUpdated method [Windows Animation],IUIAnimationStoryboardEventHandler interface, uianimation.iuianimationstoryboardeventhandler_onstoryboardupdated, uianimation/IUIAnimationStoryboardEventHandler::OnStoryboardUpdated
 ms.topic: method
-f1_keywords: 
- - "uianimation/IUIAnimationStoryboardEventHandler.OnStoryboardUpdated"
+f1_keywords:
+- uianimation/IUIAnimationStoryboardEventHandler.OnStoryboardUpdated
 dev_langs:
- - c++
+- c++
 req.header: uianimation.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: UIAnimation.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAnimation.dll
+- UIAnimation.dll
 api_name:
- - IUIAnimationStoryboardEventHandler.OnStoryboardUpdated
+- IUIAnimationStoryboardEventHandler.OnStoryboardUpdated
 targetos: Windows
 req.typenames: 
 req.redist: 

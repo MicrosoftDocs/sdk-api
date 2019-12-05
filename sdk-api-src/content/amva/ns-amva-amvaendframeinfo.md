@@ -1,19 +1,17 @@
 ---
 UID: NS:amva._tag_AMVAEndFrameInfo
 title: AMVAEndFrameInfo (amva.h)
-
 description: The AMVAEndFrameInfo structure contains information for the IAMVideoAccelerator::EndFrame method.
 old-location: dshow\amvaendframeinfo.htm
 tech.root: DirectShow
 ms.assetid: 7f9308c1-0426-4c0f-97aa-4d946ac2403a
-
 ms.date: 12/05/2018
-ms.keywords: "*LPAMVAEndFrameInfo, AMVAEndFrameInfo, AMVAEndFrameInfo structure [DirectShow], AMVAEndFrameInfoStructure, LPAMVAEndFrameInfo, LPAMVAEndFrameInfo structure pointer [DirectShow], amva/AMVAEndFrameInfo, amva/LPAMVAEndFrameInfo, dshow.amvaendframeinfo"
+ms.keywords: '*LPAMVAEndFrameInfo, AMVAEndFrameInfo, AMVAEndFrameInfo structure [DirectShow], AMVAEndFrameInfoStructure, LPAMVAEndFrameInfo, LPAMVAEndFrameInfo structure pointer [DirectShow], amva/AMVAEndFrameInfo, amva/LPAMVAEndFrameInfo, dshow.amvaendframeinfo'
 ms.topic: struct
-f1_keywords: 
- - "amva/AMVAEndFrameInfo"
+f1_keywords:
+- amva/AMVAEndFrameInfo
 dev_langs:
- - c++
+- c++
 req.header: amva.h
 req.include-header: Videoacc.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - amva.h
+- amva.h
 api_name:
- - AMVAEndFrameInfo
+- AMVAEndFrameInfo
 targetos: Windows
 req.typenames: AMVAEndFrameInfo, *LPAMVAEndFrameInfo
 req.redist: 

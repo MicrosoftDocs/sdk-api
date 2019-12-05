@@ -1,19 +1,17 @@
 ---
 UID: NF:wmsdkidl.IWMReaderAdvanced2.GetPlayMode
 title: IWMReaderAdvanced2::GetPlayMode (wmsdkidl.h)
-
 description: The GetPlayMode method retrieves the current play mode.
 old-location: wmformat\iwmreaderadvanced2_getplaymode.htm
 tech.root: wmformat
 ms.assetid: 45c7e2c2-fff4-41a9-b5ce-76d8d6257e77
-
 ms.date: 12/05/2018
 ms.keywords: GetPlayMode, GetPlayMode method [windows Media Format], GetPlayMode method [windows Media Format],IWMReaderAdvanced2 interface, IWMReaderAdvanced2 interface [windows Media Format],GetPlayMode method, IWMReaderAdvanced2.GetPlayMode, IWMReaderAdvanced2::GetPlayMode, IWMReaderAdvanced2GetPlayMode, wmformat.iwmreaderadvanced2_getplaymode, wmsdkidl/IWMReaderAdvanced2::GetPlayMode
 ms.topic: method
-f1_keywords: 
- - "wmsdkidl/IWMReaderAdvanced2.GetPlayMode"
+f1_keywords:
+- wmsdkidl/IWMReaderAdvanced2.GetPlayMode
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wmvcore.lib
- - Wmvcore.dll
- - WMStubDRM.lib
- - WMStubDRM.dll
+- Wmvcore.lib
+- Wmvcore.dll
+- WMStubDRM.lib
+- WMStubDRM.dll
 api_name:
- - IWMReaderAdvanced2.GetPlayMode
+- IWMReaderAdvanced2.GetPlayMode
 targetos: Windows
 req.typenames: 
 req.redist: 

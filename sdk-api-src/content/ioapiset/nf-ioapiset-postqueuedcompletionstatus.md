@@ -1,19 +1,17 @@
 ---
 UID: NF:ioapiset.PostQueuedCompletionStatus
 title: PostQueuedCompletionStatus function (ioapiset.h)
-
 description: Posts an I/O completion packet to an I/O completion port.
 old-location: fs\postqueuedcompletionstatus.htm
 tech.root: FileIO
 ms.assetid: 69a9b1e5-2d40-42de-a14a-f7b6f29bf571
-
 ms.date: 12/05/2018
 ms.keywords: PostQueuedCompletionStatus, PostQueuedCompletionStatus function [Files], _win32_postqueuedcompletionstatus, base.postqueuedcompletionstatus, fs.postqueuedcompletionstatus, ioapiset/PostQueuedCompletionStatus, winbase/PostQueuedCompletionStatus
 ms.topic: function
 f1_keywords:
 - ioapiset/PostQueuedCompletionStatus
 dev_langs:
- - c++
+- c++
 req.header: ioapiset.h
 req.include-header: Windows.h
 req.target-type: Windows

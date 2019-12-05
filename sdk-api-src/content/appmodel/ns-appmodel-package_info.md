@@ -1,19 +1,17 @@
 ---
 UID: NS:appmodel.PACKAGE_INFO
 title: PACKAGE_INFO (appmodel.h)
-
 description: Represents package identification information that includes the package identifier, full name, and install location.
 old-location: appxpkg\package_info.htm
 tech.root: appxpkg
 ms.assetid: 0DDE00D1-9C5F-4F2B-8110-A92B1FFA1B64
-
 ms.date: 12/05/2018
 ms.keywords: PACKAGE_INFO, PACKAGE_INFO structure [App packaging and management], appmodel/PACKAGE_INFO, appxpkg.package_info
 ms.topic: struct
-f1_keywords: 
- - "appmodel/PACKAGE_INFO"
+f1_keywords:
+- appmodel/PACKAGE_INFO
 dev_langs:
- - c++
+- c++
 req.header: appmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - AppModel.h
+- AppModel.h
 api_name:
- - PACKAGE_INFO
+- PACKAGE_INFO
 targetos: Windows
 req.typenames: PACKAGE_INFO
 req.redist: 

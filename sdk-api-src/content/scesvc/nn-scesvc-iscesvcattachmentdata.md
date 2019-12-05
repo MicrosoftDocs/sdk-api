@@ -1,19 +1,17 @@
 ---
 UID: NN:scesvc.ISceSvcAttachmentData
 title: ISceSvcAttachmentData (scesvc.h)
-
 description: The ISceSvcAttachmentData interface retrieves configuration and analysis data about a specified security service from the Security Configuration snap-ins.
 old-location: security\iscesvcattachmentdata.htm
 tech.root: SecMgmt
 ms.assetid: 385acdb9-5642-47c1-b2ac-be388edaac12
-
 ms.date: 12/05/2018
 ms.keywords: ISceSvcAttachmentData, ISceSvcAttachmentData interface [Security], ISceSvcAttachmentData interface [Security],described, _config_iscesvcattachmentdata, scesvc/ISceSvcAttachmentData, security.iscesvcattachmentdata
 ms.topic: interface
-f1_keywords: 
- - "scesvc/ISceSvcAttachmentData"
+f1_keywords:
+- scesvc/ISceSvcAttachmentData
 dev_langs:
- - c++
+- c++
 req.header: scesvc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wsecedit.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wsecedit.dll
+- Wsecedit.dll
 api_name:
- - ISceSvcAttachmentData
+- ISceSvcAttachmentData
 targetos: Windows
 req.typenames: 
 req.redist: 

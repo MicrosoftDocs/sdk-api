@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d12.ID3D12GraphicsCommandList4.EndRenderPass
 title: ID3D12GraphicsCommandList4::EndRenderPass (d3d12.h)
-
 description: Marks the ending of a render pass.
 old-location: direct3d12\id3d12graphicscommandlist4_endrenderpass.htm
 tech.root: direct3d12
 ms.assetid: 6CFF2A67-F2F0-41F8-8BEC-D52003DE2767
-
 ms.date: 12/05/2018
 ms.keywords: EndRenderPass, EndRenderPass method, EndRenderPass method,ID3D12GraphicsCommandList4 interface, ID3D12GraphicsCommandList4 interface,EndRenderPass method, ID3D12GraphicsCommandList4.EndRenderPass, ID3D12GraphicsCommandList4::EndRenderPass, d3d12/ID3D12GraphicsCommandList4::EndRenderPass, direct3d12.id3d12graphicscommandlist4_endrenderpass
 ms.topic: method
-f1_keywords: 
- - "d3d12/ID3D12GraphicsCommandList4.EndRenderPass"
+f1_keywords:
+- d3d12/ID3D12GraphicsCommandList4.EndRenderPass
 dev_langs:
- - c++
+- c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: D3D12.lib
 req.dll: D3D12.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D12.dll
+- D3D12.dll
 api_name:
- - ID3D12GraphicsCommandList4.EndRenderPass
+- ID3D12GraphicsCommandList4.EndRenderPass
 targetos: Windows
 req.typenames: 
 req.redist: 

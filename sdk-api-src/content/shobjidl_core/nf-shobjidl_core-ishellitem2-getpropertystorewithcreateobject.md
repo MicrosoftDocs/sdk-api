@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IShellItem2.GetPropertyStoreWithCreateObject
 title: IShellItem2::GetPropertyStoreWithCreateObject (shobjidl_core.h)
-
 description: Uses the specified ICreateObject instead of CoCreateInstance to create an instance of the property handler associated with the Shell item on which this method is called.
 old-location: shell\IShellItem2_GetPropertyStoreWithCreateObject.htm
 tech.root: shell
 ms.assetid: 6a90ea62-e4d7-4876-802a-9c1f6c296714
-
 ms.date: 12/05/2018
 ms.keywords: GetPropertyStoreWithCreateObject, GetPropertyStoreWithCreateObject method [Windows Shell], GetPropertyStoreWithCreateObject method [Windows Shell],IShellItem2 interface, IShellItem2 interface [Windows Shell],GetPropertyStoreWithCreateObject method, IShellItem2.GetPropertyStoreWithCreateObject, IShellItem2::GetPropertyStoreWithCreateObject, _shell_IShellItem2_GetPropertyStoreWithCreateObject, shell.IShellItem2_GetPropertyStoreWithCreateObject, shobjidl_core/IShellItem2::GetPropertyStoreWithCreateObject
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IShellItem2.GetPropertyStoreWithCreateObject"
+f1_keywords:
+- shobjidl_core/IShellItem2.GetPropertyStoreWithCreateObject
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - IShellItem2.GetPropertyStoreWithCreateObject
+- IShellItem2.GetPropertyStoreWithCreateObject
 targetos: Windows
 req.typenames: 
 req.redist: 

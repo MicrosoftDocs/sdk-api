@@ -1,19 +1,17 @@
 ---
 UID: NF:wmp.IWMPFolderMonitorServices.add
 title: IWMPFolderMonitorServices::add (wmp.h)
-
 description: This method and all other methods of the IWMPFolderMonitorServices interface are deprecated.The add method adds a folder to the list of monitored folders.
 old-location: wmp\iwmpfoldermonitorservices_add.htm
 tech.root: WMP
 ms.assetid: f12bbc31-ce9d-4d0c-af1e-9078e7948eeb
-
 ms.date: 12/05/2018
 ms.keywords: IWMPFolderMonitorServices interface [Windows Media Player],add method, IWMPFolderMonitorServices.add, IWMPFolderMonitorServices::add, IWMPFolderMonitorServicesadd, add, add method [Windows Media Player], add method [Windows Media Player],IWMPFolderMonitorServices interface, wmp.iwmpfoldermonitorservices_add, wmp/IWMPFolderMonitorServices::add
 ms.topic: method
-f1_keywords: 
- - "wmp/IWMPFolderMonitorServices.add"
+f1_keywords:
+- wmp/IWMPFolderMonitorServices.add
 dev_langs:
- - c++
+- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wmp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmp.dll
+- wmp.dll
 api_name:
- - IWMPFolderMonitorServices.add
+- IWMPFolderMonitorServices.add
 targetos: Windows
 req.typenames: 
 req.redist: 

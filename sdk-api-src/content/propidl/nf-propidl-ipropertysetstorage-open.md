@@ -1,19 +1,17 @@
 ---
 UID: NF:propidl.IPropertySetStorage.Open
 title: IPropertySetStorage::Open (propidl.h)
-
 description: Opens a property set contained in the property set storage object.
 old-location: stg\ipropertysetstorage_open.htm
 tech.root: Stg
 ms.assetid: a0e2239f-b908-460a-98e8-c805c1d84def
-
 ms.date: 12/05/2018
 ms.keywords: IPropertySetStorage interface [Structured Storage],Open method, IPropertySetStorage.Open, IPropertySetStorage::Open, Open, Open method [Structured Storage], Open method [Structured Storage],IPropertySetStorage interface, _stg_ipropertysetstorage_open, propidl/IPropertySetStorage::Open, stg.ipropertysetstorage_open
 ms.topic: method
-f1_keywords: 
- - "propidl/IPropertySetStorage.Open"
+f1_keywords:
+- propidl/IPropertySetStorage.Open
 dev_langs:
- - c++
+- c++
 req.header: propidl.h
 req.include-header: Objbase.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Ole32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Ole32.dll
+- Ole32.dll
 api_name:
- - IPropertySetStorage.Open
+- IPropertySetStorage.Open
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d9helper.IDirect3DDevice9.GetVertexShaderConstantB
 title: IDirect3DDevice9::GetVertexShaderConstantB (d3d9helper.h)
-
 description: Gets a Boolean vertex shader constant.
 old-location: direct3d9\idirect3ddevice9__getvertexshaderconstantb.htm
 tech.root: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3ddevice9__getvertexshaderconstantb.htm
-
 ms.date: 12/05/2018
 ms.keywords: 5d231bd1-6d2d-7685-724d-33578c0a400d, GetVertexShaderConstantB, GetVertexShaderConstantB method [Direct3D 9], GetVertexShaderConstantB method [Direct3D 9],IDirect3DDevice9 interface, IDirect3DDevice9 interface [Direct3D 9],GetVertexShaderConstantB method, IDirect3DDevice9.GetVertexShaderConstantB, IDirect3DDevice9::GetVertexShaderConstantB, d3d9helper/IDirect3DDevice9::GetVertexShaderConstantB, direct3d9.idirect3ddevice9__getvertexshaderconstantb
 ms.topic: method
-f1_keywords: 
- - "d3d9helper/IDirect3DDevice9.GetVertexShaderConstantB"
+f1_keywords:
+- d3d9helper/IDirect3DDevice9.GetVertexShaderConstantB
 dev_langs:
- - c++
+- c++
 req.header: d3d9helper.h
 req.include-header: D3D9.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: D3D9.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D9.lib
- - D3D9.dll
+- D3D9.lib
+- D3D9.dll
 api_name:
- - IDirect3DDevice9.GetVertexShaderConstantB
+- IDirect3DDevice9.GetVertexShaderConstantB
 targetos: Windows
 req.typenames: 
 req.redist: 

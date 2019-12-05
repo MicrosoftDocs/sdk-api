@@ -1,19 +1,17 @@
 ---
 UID: NC:cmnquery.LPCQADDPAGESPROC
 title: LPCQADDPAGESPROC (cmnquery.h)
-
 description: Called by a query form extension to add a page to a query form in the query dialog box.
 old-location: ad\cqaddpagesproc.htm
 tech.root: ad
 ms.assetid: 2b62c1aa-ace7-4083-8eb3-7c5c499762c9
-
 ms.date: 12/05/2018
 ms.keywords: CQAddPagesProc, CQAddPagesProc callback, CQAddPagesProc callback function [Active Directory], LPCQADDPAGESPROC, LPCQADDPAGESPROC callback function pointer [Active Directory], ad.cqaddpagesproc, cmnquery/CQAddPagesProc
 ms.topic: callback
 f1_keywords:
 - cmnquery/LPCQADDPAGESPROC
 dev_langs:
- - c++
+- c++
 req.header: cmnquery.h
 req.include-header: 
 req.target-type: Windows

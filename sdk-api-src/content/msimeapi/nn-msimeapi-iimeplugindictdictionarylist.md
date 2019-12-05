@@ -1,19 +1,17 @@
 ---
 UID: NN:msimeapi.IImePlugInDictDictionaryList
 title: IImePlugInDictDictionaryList (msimeapi.h)
-
 description: Provides access to the list of IME plug-in dictionaries.
 old-location: intl\iimeplugindictdictionarylist.htm
 tech.root: Intl
 ms.assetid: EF14E963-26DF-4E72-9BDF-3AE99D0B7273
-
 ms.date: 12/05/2018
 ms.keywords: IImePlugInDictDictionaryList, IImePlugInDictDictionaryList interface [Internationalization for Windows Applications], IImePlugInDictDictionaryList interface [Internationalization for Windows Applications],described, intl.iimeplugindictdictionarylist, msimeapi/IImePlugInDictDictionaryList
 ms.topic: interface
-f1_keywords: 
- - "msimeapi/IImePlugInDictDictionaryList"
+f1_keywords:
+- msimeapi/IImePlugInDictDictionaryList
 dev_langs:
- - c++
+- c++
 req.header: msimeapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msimeapi.h
+- Msimeapi.h
 api_name:
- - IImePlugInDictDictionaryList
+- IImePlugInDictDictionaryList
 targetos: Windows
 req.typenames: 
 req.redist: 

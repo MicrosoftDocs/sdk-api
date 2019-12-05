@@ -1,19 +1,17 @@
 ---
 UID: NF:il21dec.IAMLine21Decoder.GetOutputFormat
 title: IAMLine21Decoder::GetOutputFormat (il21dec.h)
-
 description: The GetOutputFormat method retrieves the Line 21 Decoder filter's output format.
 old-location: dshow\iamline21decoder_getoutputformat.htm
 tech.root: DirectShow
 ms.assetid: 3d1ded3c-fdeb-4e02-92ee-d0986711c335
-
 ms.date: 12/05/2018
 ms.keywords: GetOutputFormat, GetOutputFormat method [DirectShow], GetOutputFormat method [DirectShow],IAMLine21Decoder interface, IAMLine21Decoder interface [DirectShow],GetOutputFormat method, IAMLine21Decoder.GetOutputFormat, IAMLine21Decoder::GetOutputFormat, IAMLine21DecoderGetOutputFormat, dshow.iamline21decoder_getoutputformat, il21dec/IAMLine21Decoder::GetOutputFormat
 ms.topic: method
-f1_keywords: 
- - "il21dec/IAMLine21Decoder.GetOutputFormat"
+f1_keywords:
+- il21dec/IAMLine21Decoder.GetOutputFormat
 dev_langs:
- - c++
+- c++
 req.header: il21dec.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IAMLine21Decoder.GetOutputFormat
+- IAMLine21Decoder.GetOutputFormat
 targetos: Windows
 req.typenames: 
 req.redist: 

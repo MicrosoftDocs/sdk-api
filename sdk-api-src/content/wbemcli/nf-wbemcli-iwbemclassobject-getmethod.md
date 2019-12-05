@@ -1,19 +1,17 @@
 ---
 UID: NF:wbemcli.IWbemClassObject.GetMethod
 title: IWbemClassObject::GetMethod (wbemcli.h)
-
 description: Returns information about the requested method.
 old-location: wmi\iwbemclassobject_getmethod.htm
 tech.root: WmiSdk
 ms.assetid: d4775fe0-62bf-40a6-8e2c-7bc8c3d92e1f
-
 ms.date: 12/05/2018
 ms.keywords: GetMethod, GetMethod method [Windows Management Instrumentation], GetMethod method [Windows Management Instrumentation],IWbemClassObject interface, IWbemClassObject interface [Windows Management Instrumentation],GetMethod method, IWbemClassObject.GetMethod, IWbemClassObject::GetMethod, _hmm_iwbemclassobject_getmethod, wbemcli/IWbemClassObject::GetMethod, wmi.iwbemclassobject_getmethod
 ms.topic: method
-f1_keywords: 
- - "wbemcli/IWbemClassObject.GetMethod"
+f1_keywords:
+- wbemcli/IWbemClassObject.GetMethod
 dev_langs:
- - c++
+- c++
 req.header: wbemcli.h
 req.include-header: Wbemidl.h
 req.target-type: Windows
@@ -32,23 +30,23 @@ req.lib: WbemUuid.lib
 req.dll: CIMWin32.dll; Esscli.dll; Fastprox.dll; FrameDyn.dll; FrameDynOS.dll; Krnlprov.dll; Ncprov.dll; Wbemcore.dll; Wbemess.dll; Wmipiprt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CIMWin32.dll
- - Esscli.dll
- - Fastprox.dll
- - FrameDyn.dll
- - FrameDynOS.dll
- - Krnlprov.dll
- - Ncprov.dll
- - Wbemcore.dll
- - Wbemess.dll
- - Wmipiprt.dll
+- CIMWin32.dll
+- Esscli.dll
+- Fastprox.dll
+- FrameDyn.dll
+- FrameDynOS.dll
+- Krnlprov.dll
+- Ncprov.dll
+- Wbemcore.dll
+- Wbemess.dll
+- Wmipiprt.dll
 api_name:
- - IWbemClassObject.GetMethod
+- IWbemClassObject.GetMethod
 targetos: Windows
 req.typenames: 
 req.redist: 

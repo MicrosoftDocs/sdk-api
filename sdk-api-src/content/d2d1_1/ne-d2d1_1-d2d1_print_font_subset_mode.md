@@ -1,19 +1,17 @@
 ---
 UID: NE:d2d1_1.D2D1_PRINT_FONT_SUBSET_MODE
 title: D2D1_PRINT_FONT_SUBSET_MODE (d2d1_1.h)
-
 description: Defines when font resources should be subset during printing.
 old-location: direct2d\d2d1_cprint_font_subset_mode.htm
 tech.root: Direct2D
 ms.assetid: B8361117-6018-48EE-AD3D-2A37F6B71293
-
 ms.date: 12/05/2018
 ms.keywords: D2D1_PRINT_FONT_SUBSET_DEFAULT, D2D1_PRINT_FONT_SUBSET_EACHPAGE, D2D1_PRINT_FONT_SUBSET_MODE, D2D1_PRINT_FONT_SUBSET_MODE enumeration [Direct2D], D2D1_PRINT_FONT_SUBSET_NONE, d2d1_1/D2D1_PRINT_FONT_SUBSET_DEFAULT, d2d1_1/D2D1_PRINT_FONT_SUBSET_EACHPAGE, d2d1_1/D2D1_PRINT_FONT_SUBSET_MODE, d2d1_1/D2D1_PRINT_FONT_SUBSET_NONE, direct2d.d2d1_cprint_font_subset_mode
 ms.topic: enum
-f1_keywords: 
- - "d2d1_1/D2D1_PRINT_FONT_SUBSET_MODE"
+f1_keywords:
+- d2d1_1/D2D1_PRINT_FONT_SUBSET_MODE
 dev_langs:
- - c++
+- c++
 req.header: d2d1_1.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - d2d1_1.h
+- d2d1_1.h
 api_name:
- - D2D1_PRINT_FONT_SUBSET_MODE
+- D2D1_PRINT_FONT_SUBSET_MODE
 targetos: Windows
 req.typenames: D2D1_PRINT_FONT_SUBSET_MODE
 req.redist: 

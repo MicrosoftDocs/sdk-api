@@ -1,19 +1,17 @@
 ---
 UID: NF:netioapi.ConvertInterfaceIndexToLuid
 title: ConvertInterfaceIndexToLuid function (netioapi.h)
-
 description: Converts a local index for a network interface to the locally unique identifier (LUID) for the interface.
 old-location: iphlp\convertinterfaceindextoluid.htm
 tech.root: IpHlp
 ms.assetid: c757228c-93f1-4545-8921-9d048bca580c
-
 ms.date: 12/05/2018
 ms.keywords: ConvertInterfaceIndexToLuid, ConvertInterfaceIndexToLuid function [IP Helper], iphlp.convertinterfaceindextoluid, netioapi/ConvertInterfaceIndexToLuid
 ms.topic: function
-f1_keywords: 
- - "netioapi/ConvertInterfaceIndexToLuid"
+f1_keywords:
+- netioapi/ConvertInterfaceIndexToLuid
 dev_langs:
- - c++
+- c++
 req.header: netioapi.h
 req.include-header: Iphlpapi.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Iphlpapi.lib
 req.dll: Iphlpapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Iphlpapi.dll
+- Iphlpapi.dll
 api_name:
- - ConvertInterfaceIndexToLuid
+- ConvertInterfaceIndexToLuid
 targetos: Windows
 req.typenames: 
 req.redist: 

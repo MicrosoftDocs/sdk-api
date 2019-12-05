@@ -1,19 +1,17 @@
 ---
 UID: NF:wct.OpenThreadWaitChainSession
 title: OpenThreadWaitChainSession function (wct.h)
-
 description: Creates a new WCT session.
 old-location: base\openthreadwaitchainsession.htm
 tech.root: Debug
 ms.assetid: 405d9f3d-c11b-4e20-acc8-9c4f7989685d
-
 ms.date: 12/05/2018
 ms.keywords: OpenThreadWaitChainSession, OpenThreadWaitChainSession function, WCT_ASYNC_OPEN_FLAG, base.openthreadwaitchainsession, wct/OpenThreadWaitChainSession
 ms.topic: function
-f1_keywords: 
- - "wct/OpenThreadWaitChainSession"
+f1_keywords:
+- wct/OpenThreadWaitChainSession
 dev_langs:
- - c++
+- c++
 req.header: wct.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Advapi32.dll
- - Ext-MS-Win-wer-wct-l1-1-0.dll
- - wer.dll
+- Advapi32.dll
+- Ext-MS-Win-wer-wct-l1-1-0.dll
+- wer.dll
 api_name:
- - OpenThreadWaitChainSession
+- OpenThreadWaitChainSession
 targetos: Windows
 req.typenames: 
 req.redist: 

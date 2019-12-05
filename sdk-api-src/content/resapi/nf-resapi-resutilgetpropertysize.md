@@ -1,19 +1,17 @@
 ---
 UID: NF:resapi.ResUtilGetPropertySize
 title: ResUtilGetPropertySize function (resapi.h)
-
 description: Returns the total number of bytes required for a specified property.
 old-location: mscs\resutilgetpropertysize.htm
 tech.root: MsCS
 ms.assetid: 0f21ef2b-747c-4fb3-a13c-16bcb7bfd46e
-
 ms.date: 12/05/2018
 ms.keywords: PRESUTIL_GET_PROPERTY_SIZE, PRESUTIL_GET_PROPERTY_SIZE function [Failover Cluster], ResUtilGetPropertySize, ResUtilGetPropertySize function [Failover Cluster], _wolf_resutilgetpropertysize, mscs.resutilgetpropertysize, resapi/PRESUTIL_GET_PROPERTY_SIZE, resapi/ResUtilGetPropertySize
 ms.topic: function
-f1_keywords: 
- - "resapi/ResUtilGetPropertySize"
+f1_keywords:
+- resapi/ResUtilGetPropertySize
 dev_langs:
- - c++
+- c++
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: ResUtils.lib
 req.dll: ResUtils.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - ResUtils.dll
+- ResUtils.dll
 api_name:
- - ResUtilGetPropertySize
+- ResUtilGetPropertySize
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:xpsobjectmodel_2.IXpsOMPackageWriter3D.AddModelTexture
 title: IXpsOMPackageWriter3D::AddModelTexture (xpsobjectmodel_2.h)
-
 description: Creates a new 3D model texture from the specified texture part and stream.
 old-location: xps\ixpsompackagewriter3d_addmodeltexture.htm
 tech.root: printdocs
 ms.assetid: 76FC9938-914C-4328-BE71-DC898241D9EA
-
 ms.date: 12/05/2018
 ms.keywords: AddModelTexture, AddModelTexture method [XPS Documents and Packaging], AddModelTexture method [XPS Documents and Packaging],IXpsOMPackageWriter3D interface, IXpsOMPackageWriter3D interface [XPS Documents and Packaging],AddModelTexture method, IXpsOMPackageWriter3D.AddModelTexture, IXpsOMPackageWriter3D::AddModelTexture, xps.ixpsompackagewriter3d_addmodeltexture, xpsobjectmodel_2/IXpsOMPackageWriter3D::AddModelTexture
 ms.topic: method
-f1_keywords: 
- - "xpsobjectmodel_2/IXpsOMPackageWriter3D.AddModelTexture"
+f1_keywords:
+- xpsobjectmodel_2/IXpsOMPackageWriter3D.AddModelTexture
 dev_langs:
- - c++
+- c++
 req.header: xpsobjectmodel_2.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - XpsObjectModel_2.h
+- XpsObjectModel_2.h
 api_name:
- - IXpsOMPackageWriter3D.AddModelTexture
+- IXpsOMPackageWriter3D.AddModelTexture
 targetos: Windows
 req.typenames: 
 req.redist: 

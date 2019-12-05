@@ -1,19 +1,17 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMTileBrush.GetTransformLookup
 title: IXpsOMTileBrush::GetTransformLookup (xpsobjectmodel.h)
-
 description: Gets the lookup key that identifies the IXpsOMMatrixTransform interface in a resource dictionary that contains the resolved matrix transform for the brush.
 old-location: xps\ixpsomtilebrush_gettransformlookup.htm
 tech.root: printdocs
 ms.assetid: bebed09b-7af7-4da1-aaa3-e8e2a45f2717
-
 ms.date: 12/05/2018
 ms.keywords: GetTransformLookup, GetTransformLookup method [XPS Documents and Packaging], GetTransformLookup method [XPS Documents and Packaging],IXpsOMTileBrush interface, IXpsOMTileBrush interface [XPS Documents and Packaging],GetTransformLookup method, IXpsOMTileBrush.GetTransformLookup, IXpsOMTileBrush::GetTransformLookup, xps.ixpsomtilebrush_gettransformlookup, xpsobjectmodel/IXpsOMTileBrush::GetTransformLookup
 ms.topic: method
-f1_keywords: 
- - "xpsobjectmodel/IXpsOMTileBrush.GetTransformLookup"
+f1_keywords:
+- xpsobjectmodel/IXpsOMTileBrush.GetTransformLookup
 dev_langs:
- - c++
+- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsobjectmodel.h
+- xpsobjectmodel.h
 api_name:
- - IXpsOMTileBrush.GetTransformLookup
+- IXpsOMTileBrush.GetTransformLookup
 targetos: Windows
 req.typenames: 
 req.redist: 

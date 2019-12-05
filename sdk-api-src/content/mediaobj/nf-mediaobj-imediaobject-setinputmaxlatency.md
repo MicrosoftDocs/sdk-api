@@ -1,19 +1,17 @@
 ---
 UID: NF:mediaobj.IMediaObject.SetInputMaxLatency
 title: IMediaObject::SetInputMaxLatency (mediaobj.h)
-
 description: The SetInputMaxLatency method sets the maximum latency on a specified input stream. For the definition of maximum latency, see IMediaObject::GetInputMaxLatency.
 old-location: dshow\imediaobject_setinputmaxlatency.htm
 tech.root: DirectShow
 ms.assetid: 45fb0caa-cd12-4847-a646-f6fd90c50b81
-
 ms.date: 12/05/2018
 ms.keywords: IMediaObject interface [DirectShow],SetInputMaxLatency method, IMediaObject.SetInputMaxLatency, IMediaObject::SetInputMaxLatency, IMediaObjectSetInputMaxLatency, SetInputMaxLatency, SetInputMaxLatency method [DirectShow], SetInputMaxLatency method [DirectShow],IMediaObject interface, dshow.imediaobject_setinputmaxlatency, mediaobj/IMediaObject::SetInputMaxLatency
 ms.topic: method
-f1_keywords: 
- - "mediaobj/IMediaObject.SetInputMaxLatency"
+f1_keywords:
+- mediaobj/IMediaObject.SetInputMaxLatency
 dev_langs:
- - c++
+- c++
 req.header: mediaobj.h
 req.include-header: Dmo.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Dmoguids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dmoguids.lib
- - Dmoguids.dll
+- Dmoguids.lib
+- Dmoguids.dll
 api_name:
- - IMediaObject.SetInputMaxLatency
+- IMediaObject.SetInputMaxLatency
 targetos: Windows
 req.typenames: 
 req.redist: 

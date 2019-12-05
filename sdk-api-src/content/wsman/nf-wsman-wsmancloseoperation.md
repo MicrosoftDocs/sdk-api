@@ -1,19 +1,17 @@
 ---
 UID: NF:wsman.WSManCloseOperation
 title: WSManCloseOperation function (wsman.h)
-
 description: Cancels or closes an asynchronous operation.
 old-location: winrm\wsmancloseoperation.htm
 tech.root: winrm
 ms.assetid: 4fd51026-6a48-42ef-a245-7593a615c103
-
 ms.date: 12/05/2018
 ms.keywords: WSManCloseOperation, WSManCloseOperation function [Windows Remote Management], winrm.wsmancloseoperation, wsman/WSManCloseOperation
 ms.topic: function
-f1_keywords: 
- - "wsman/WSManCloseOperation"
+f1_keywords:
+- wsman/WSManCloseOperation
 dev_langs:
- - c++
+- c++
 req.header: wsman.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: WsmSvc.lib
 req.dll: WsmSvc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - WsmSvc.dll
+- WsmSvc.dll
 api_name:
- - WSManCloseOperation
+- WSManCloseOperation
 targetos: Windows
 req.typenames: 
 req.redist: Windows Management Framework on Windows Server 2008 with SP2 and Windows Vista with SP2

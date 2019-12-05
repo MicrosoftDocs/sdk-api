@@ -1,19 +1,17 @@
 ---
 UID: NF:gdiplusstringformat.StringFormat.Clone
 title: StringFormat::Clone (gdiplusstringformat.h)
-
 description: The StringFormat::Clone method creates a new StringFormat object and initializes it with the contents of this StringFormat object.
 old-location: gdiplus\_gdiplus_CLASS_StringFormat_Clone_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\stringformatclass\stringformatmethods\clone_35.htm
-
 ms.date: 12/05/2018
 ms.keywords: Clone, Clone method [GDI+], Clone method [GDI+],StringFormat class, StringFormat class [GDI+],Clone method, StringFormat.Clone, StringFormat::Clone, _gdiplus_CLASS_StringFormat_Clone_, gdiplus._gdiplus_CLASS_StringFormat_Clone_
 ms.topic: method
-f1_keywords: 
- - "gdiplusstringformat/StringFormat.Clone"
+f1_keywords:
+- gdiplusstringformat/StringFormat.Clone
 dev_langs:
- - c++
+- c++
 req.header: gdiplusstringformat.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - StringFormat.Clone
+- StringFormat.Clone
 targetos: Windows
 req.typenames: 
 req.redist: 

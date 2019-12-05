@@ -1,19 +1,17 @@
 ---
 UID: NF:wmp.IWMPNetwork.get_downloadProgress
 title: IWMPNetwork::get_downloadProgress (wmp.h)
-
 description: The get_downloadProgress method retrieves the percentage of the download completed.
 old-location: wmp\iwmpnetwork_get_downloadprogress.htm
 tech.root: WMP
 ms.assetid: e9ed2027-cba4-4701-a416-a2190b51570c
-
 ms.date: 12/05/2018
 ms.keywords: IWMPNetwork interface [Windows Media Player],get_downloadProgress method, IWMPNetwork.get_downloadProgress, IWMPNetwork::get_downloadProgress, IWMPNetworkget_downloadProgress, get_downloadProgress, get_downloadProgress method [Windows Media Player], get_downloadProgress method [Windows Media Player],IWMPNetwork interface, wmp.iwmpnetwork_get_downloadprogress, wmp/IWMPNetwork::get_downloadProgress
 ms.topic: method
-f1_keywords: 
- - "wmp/IWMPNetwork.get_downloadProgress"
+f1_keywords:
+- wmp/IWMPNetwork.get_downloadProgress
 dev_langs:
- - c++
+- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wmp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmp.dll
+- wmp.dll
 api_name:
- - IWMPNetwork.get_downloadProgress
+- IWMPNetwork.get_downloadProgress
 targetos: Windows
 req.typenames: 
 req.redist: 

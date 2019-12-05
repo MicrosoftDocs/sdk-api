@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d11.ID3D11VideoDevice.CreateCryptoSession
 title: ID3D11VideoDevice::CreateCryptoSession (d3d11.h)
-
 description: Creates a cryptographic session to encrypt video content that is sent to the graphics driver.
 old-location: mf\id3d11videodevice_createcryptosession.htm
 tech.root: medfound
 ms.assetid: 384EE3E1-2B62-477B-8A3F-FDCD06959B74
-
 ms.date: 12/05/2018
 ms.keywords: CreateCryptoSession, CreateCryptoSession method [Media Foundation], CreateCryptoSession method [Media Foundation],ID3D11VideoDevice interface, D3D11_CRYPTO_TYPE_AES128_CTR, D3D11_KEY_EXCHANGE_RSAES_OAEP, ID3D11VideoDevice interface [Media Foundation],CreateCryptoSession method, ID3D11VideoDevice.CreateCryptoSession, ID3D11VideoDevice::CreateCryptoSession, d3d11/ID3D11VideoDevice::CreateCryptoSession, mf.id3d11videodevice_createcryptosession
 ms.topic: method
-f1_keywords: 
- - "d3d11/ID3D11VideoDevice.CreateCryptoSession"
+f1_keywords:
+- d3d11/ID3D11VideoDevice.CreateCryptoSession
 dev_langs:
- - c++
+- c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - d3d11.h
+- d3d11.h
 api_name:
- - ID3D11VideoDevice.CreateCryptoSession
+- ID3D11VideoDevice.CreateCryptoSession
 targetos: Windows
 req.typenames: 
 req.redist: 

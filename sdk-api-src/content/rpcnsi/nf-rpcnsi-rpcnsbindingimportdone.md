@@ -1,19 +1,17 @@
 ---
 UID: NF:rpcnsi.RpcNsBindingImportDone
 title: RpcNsBindingImportDone function (rpcnsi.h)
-
 description: The RpcNsBindingImportDone function signals that a client has finished looking for a compatible server and deletes the import context.
 old-location: rpc\rpcnsbindingimportdone.htm
 tech.root: Rpc
 ms.assetid: 093c988a-5d88-45b5-b69a-f26962118fdb
-
 ms.date: 12/05/2018
 ms.keywords: RpcNsBindingImportDone, RpcNsBindingImportDone function [RPC], _rpc_rpcnsbindingimportdone, rpc.rpcnsbindingimportdone, rpcnsi/RpcNsBindingImportDone
 ms.topic: function
-f1_keywords: 
- - "rpcnsi/RpcNsBindingImportDone"
+f1_keywords:
+- rpcnsi/RpcNsBindingImportDone
 dev_langs:
- - c++
+- c++
 req.header: rpcnsi.h
 req.include-header: Rpc.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Rpcns4.lib
 req.dll: Rpcns4.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Rpcns4.dll
+- Rpcns4.dll
 api_name:
- - RpcNsBindingImportDone
+- RpcNsBindingImportDone
 targetos: Windows
 req.typenames: 
 req.redist: 

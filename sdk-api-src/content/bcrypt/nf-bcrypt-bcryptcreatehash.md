@@ -1,19 +1,17 @@
 ---
 UID: NF:bcrypt.BCryptCreateHash
 title: BCryptCreateHash function (bcrypt.h)
-
 description: Called to create a hash or Message Authentication Code (MAC) object.
 old-location: security\bcryptcreatehash_func.htm
 tech.root: SecCNG
 ms.assetid: deb02f67-f3d3-4542-8245-fd4982c3190b
-
 ms.date: 12/05/2018
 ms.keywords: BCRYPT_HASH_REUSABLE_FLAG, BCryptCreateHash, BCryptCreateHash function [Security], bcrypt/BCryptCreateHash, security.bcryptcreatehash_func
 ms.topic: function
-f1_keywords: 
- - "bcrypt/BCryptCreateHash"
+f1_keywords:
+- bcrypt/BCryptCreateHash
 dev_langs:
- - c++
+- c++
 req.header: bcrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Bcrypt.lib
 req.dll: Bcrypt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Bcrypt.dll
- - Ksecdd.sys
+- Bcrypt.dll
+- Ksecdd.sys
 api_name:
- - BCryptCreateHash
+- BCryptCreateHash
 targetos: Windows
 req.typenames: 
 req.redist: 

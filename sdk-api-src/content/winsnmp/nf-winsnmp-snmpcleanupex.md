@@ -1,19 +1,17 @@
 ---
 UID: NF:winsnmp.SnmpCleanupEx
 title: SnmpCleanupEx function (winsnmp.h)
-
 description: The SnmpCleanupEx function performs cleanup when there are no outstanding successful calls to SnmpStartup or SnmpStartupEx within a Windows SNMP (WinSNMP) application.
 old-location: snmp\snmpcleanupex.htm
 tech.root: SNMP
 ms.assetid: e6521c35-a58e-4b8e-b415-b49954187736
-
 ms.date: 12/05/2018
 ms.keywords: SnmpCleanupEx, SnmpCleanupEx function [SNMP], _snmp_snmpcleanupex, snmp.snmpcleanupex, winsnmp/SnmpCleanupEx
 ms.topic: function
-f1_keywords: 
- - "winsnmp/SnmpCleanupEx"
+f1_keywords:
+- winsnmp/SnmpCleanupEx
 dev_langs:
- - c++
+- c++
 req.header: winsnmp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Wsnmp32.lib
 req.dll: Wsnmp32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Wsnmp32.dll
+- Wsnmp32.dll
 api_name:
- - SnmpCleanupEx
+- SnmpCleanupEx
 targetos: Windows
 req.typenames: 
 req.redist: 

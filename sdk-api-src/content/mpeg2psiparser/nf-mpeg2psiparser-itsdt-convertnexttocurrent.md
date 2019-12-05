@@ -1,19 +1,17 @@
 ---
 UID: NF:mpeg2psiparser.ITSDT.ConvertNextToCurrent
 title: ITSDT::ConvertNextToCurrent (mpeg2psiparser.h)
-
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005.
 old-location: mstv\itsdt_convertnexttocurrent.htm
 tech.root: mstv
 ms.assetid: a8ce79ed-516a-44bf-b9c9-ff6d693cdd30
-
 ms.date: 12/05/2018
 ms.keywords: ConvertNextToCurrent, ConvertNextToCurrent method [Microsoft TV Technologies], ConvertNextToCurrent method [Microsoft TV Technologies],ITSDT interface, ITSDT interface [Microsoft TV Technologies],ConvertNextToCurrent method, ITSDT.ConvertNextToCurrent, ITSDT::ConvertNextToCurrent, ITSDTConvertNextToCurrent, mpeg2psiparser/ITSDT::ConvertNextToCurrent, mstv.itsdt_convertnexttocurrent
 ms.topic: method
-f1_keywords: 
- - "mpeg2psiparser/ITSDT.ConvertNextToCurrent"
+f1_keywords:
+- mpeg2psiparser/ITSDT.ConvertNextToCurrent
 dev_langs:
- - c++
+- c++
 req.header: mpeg2psiparser.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mpeg2PsiParser.h
+- Mpeg2PsiParser.h
 api_name:
- - ITSDT.ConvertNextToCurrent
+- ITSDT.ConvertNextToCurrent
 targetos: Windows
 req.typenames: 
 req.redist: 

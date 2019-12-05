@@ -1,19 +1,17 @@
 ---
 UID: NF:commoncontrols.IImageList2.Initialize
 title: IImageList2::Initialize (commoncontrols.h)
-
 description: Initializes an image list.
 old-location: controls\IImageList2_Initialize.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\imagelist\ifaces\iimagelist2\initialize.htm
-
 ms.date: 12/05/2018
 ms.keywords: IImageList2 interface [Windows Controls],Initialize method, IImageList2.Initialize, IImageList2::Initialize, Initialize, Initialize method [Windows Controls], Initialize method [Windows Controls],IImageList2 interface, _shell_IImageList2_Initialize, _shell_IImageList2_Initialize_cpp, commoncontrols/IImageList2::Initialize, controls.IImageList2_Initialize, controls._shell_IImageList2_Initialize
 ms.topic: method
-f1_keywords: 
- - "commoncontrols/IImageList2.Initialize"
+f1_keywords:
+- commoncontrols/IImageList2.Initialize
 dev_langs:
- - c++
+- c++
 req.header: commoncontrols.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Comctl32.dll (version 6.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Comctl32.dll
+- Comctl32.dll
 api_name:
- - IImageList2.Initialize
+- IImageList2.Initialize
 targetos: Windows
 req.typenames: 
 req.redist: 

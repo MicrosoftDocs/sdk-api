@@ -1,19 +1,17 @@
 ---
 UID: NN:segment.IMSVidClosedCaptioning
 title: IMSVidClosedCaptioning (segment.h)
-
 description: The IMSVidClosedCaptioning interface enables or disables closed captions.
 old-location: mstv\imsvidclosedcaptioning.htm
 tech.root: mstv
 ms.assetid: 070a208b-cf4c-41e1-9a5f-76cc444285c9
-
 ms.date: 12/05/2018
 ms.keywords: IMSVidClosedCaptioning, IMSVidClosedCaptioning interface [Microsoft TV Technologies], IMSVidClosedCaptioning interface [Microsoft TV Technologies],described, IMSVidClosedCaptioningInterface, mstv.imsvidclosedcaptioning, segment/IMSVidClosedCaptioning
 ms.topic: interface
-f1_keywords: 
- - "segment/IMSVidClosedCaptioning"
+f1_keywords:
+- segment/IMSVidClosedCaptioning
 dev_langs:
- - c++
+- c++
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - segment.h
+- segment.h
 api_name:
- - IMSVidClosedCaptioning
+- IMSVidClosedCaptioning
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:mfplay.IMFPMediaPlayer.CreateMediaItemFromObject
 title: IMFPMediaPlayer::CreateMediaItemFromObject (mfplay.h)
-
 description: Creates a media item from an object.
 old-location: mf\imfpmediaplayer_createmediaitemfromobject.htm
 tech.root: medfound
 ms.assetid: d647df89-b874-448e-ae41-ee3bcb55521f
-
 ms.date: 12/05/2018
 ms.keywords: CreateMediaItemFromObject, CreateMediaItemFromObject method [Media Foundation], CreateMediaItemFromObject method [Media Foundation],IMFPMediaPlayer interface, IMFPMediaPlayer interface [Media Foundation],CreateMediaItemFromObject method, IMFPMediaPlayer.CreateMediaItemFromObject, IMFPMediaPlayer::CreateMediaItemFromObject, mf.imfpmediaplayer_createmediaitemfromobject, mfplay/IMFPMediaPlayer::CreateMediaItemFromObject
 ms.topic: method
-f1_keywords: 
- - "mfplay/IMFPMediaPlayer.CreateMediaItemFromObject"
+f1_keywords:
+- mfplay/IMFPMediaPlayer.CreateMediaItemFromObject
 dev_langs:
- - c++
+- c++
 req.header: mfplay.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfplay.h
+- mfplay.h
 api_name:
- - IMFPMediaPlayer.CreateMediaItemFromObject
+- IMFPMediaPlayer.CreateMediaItemFromObject
 targetos: Windows
 req.typenames: 
 req.redist: 

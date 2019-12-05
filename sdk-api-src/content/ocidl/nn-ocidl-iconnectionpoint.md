@@ -1,19 +1,17 @@
 ---
 UID: NN:ocidl.IConnectionPoint
 title: IConnectionPoint (ocidl.h)
-
 description: Supports connection points for connectable objects.
 old-location: com\iconnectionpoint.htm
 tech.root: com
 ms.assetid: ef5a917c-b57f-4000-8daa-86fdbfb47579
-
 ms.date: 12/05/2018
 ms.keywords: IConnectionPoint, IConnectionPoint interface [COM], IConnectionPoint interface [COM],described, _com_iconnectionpoint, com.iconnectionpoint, ocidl/IConnectionPoint
 ms.topic: interface
-f1_keywords: 
- - "ocidl/IConnectionPoint"
+f1_keywords:
+- ocidl/IConnectionPoint
 dev_langs:
- - c++
+- c++
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - OCIdl.h
+- OCIdl.h
 api_name:
- - IConnectionPoint
+- IConnectionPoint
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NS:wininet.__unnamed_struct_0
 title: INTERNET_ASYNC_RESULT (wininet.h)
-
 description: Contains the result of a call to an asynchronous function. This structure is used with InternetStatusCallback.
 old-location: wininet\internet_async_result.htm
 tech.root: wininet
 ms.assetid: e86fb4fd-8601-42e1-8c8e-9747a24459f9
-
 ms.date: 12/05/2018
-ms.keywords: "*LPINTERNET_ASYNC_RESULT, INTERNET_ASYNC_RESULT, INTERNET_ASYNC_RESULT structure [WinINet], LPINTERNET_ASYNC_RESULT, LPINTERNET_ASYNC_RESULT structure pointer [WinINet], _inet_internet_async_result_structure, wininet.internet_async_result, wininet/ LPINTERNET_ASYNC_RESULT, wininet/INTERNET_ASYNC_RESULT"
+ms.keywords: '*LPINTERNET_ASYNC_RESULT, INTERNET_ASYNC_RESULT, INTERNET_ASYNC_RESULT structure [WinINet], LPINTERNET_ASYNC_RESULT, LPINTERNET_ASYNC_RESULT structure pointer [WinINet], _inet_internet_async_result_structure, wininet.internet_async_result, wininet/ LPINTERNET_ASYNC_RESULT, wininet/INTERNET_ASYNC_RESULT'
 ms.topic: struct
-f1_keywords: 
- - "wininet/INTERNET_ASYNC_RESULT"
+f1_keywords:
+- wininet/INTERNET_ASYNC_RESULT
 dev_langs:
- - c++
+- c++
 req.header: wininet.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wininet.h
+- Wininet.h
 api_name:
- - INTERNET_ASYNC_RESULT
+- INTERNET_ASYNC_RESULT
 targetos: Windows
 req.typenames: INTERNET_ASYNC_RESULT, *LPINTERNET_ASYNC_RESULT
 req.redist: 

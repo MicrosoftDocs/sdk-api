@@ -1,19 +1,17 @@
 ---
 UID: NE:searchapi.tagPRIORITIZE_FLAGS
 title: tagPRIORITIZE_FLAGS (searchapi.h)
-
 description: Used by PrioritizeMatchingURLs to specify how to process items the indexer has previously failed to index.
 old-location: search\_search_PRIORITIZE_FLAGS.htm
 tech.root: search
 ms.assetid: VS|SEARCH|~\search\wds3x\reference\enums\prioritize_flags.htm
-
 ms.date: 12/05/2018
 ms.keywords: PRIORITIZE_FLAGS, PRIORITIZE_FLAGS enumeration [search], PRIORITIZE_FLAG_IGNOREFAILURECOUNT, PRIORITIZE_FLAG_RETRYFAILEDITEMS, _search_PRIORITIZE_FLAGS, search._search_PRIORITIZE_FLAGS, searchapi/PRIORITIZE_FLAGS, searchapi/PRIORITIZE_FLAG_IGNOREFAILURECOUNT, searchapi/PRIORITIZE_FLAG_RETRYFAILEDITEMS, tagPRIORITIZE_FLAGS
 ms.topic: enum
-f1_keywords: 
- - "searchapi/PRIORITIZE_FLAGS"
+f1_keywords:
+- searchapi/PRIORITIZE_FLAGS
 dev_langs:
- - c++
+- c++
 req.header: searchapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Searchapi.h
+- Searchapi.h
 api_name:
- - PRIORITIZE_FLAGS
+- PRIORITIZE_FLAGS
 targetos: Windows
 req.typenames: 
 req.redist: Windows Search (WS) 4.0

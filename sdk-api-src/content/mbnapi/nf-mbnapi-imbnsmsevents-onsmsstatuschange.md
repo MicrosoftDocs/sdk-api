@@ -1,19 +1,17 @@
 ---
 UID: NF:mbnapi.IMbnSmsEvents.OnSmsStatusChange
 title: IMbnSmsEvents::OnSmsStatusChange (mbnapi.h)
-
 description: Notification method indicating a change in the status of the message store.
 old-location: mbn\imbnsmsevents_onsmsstatuschange.htm
 tech.root: mbn
 ms.assetid: 8a3027e2-f8ee-476a-96e2-29ef4d87db38
-
 ms.date: 12/05/2018
 ms.keywords: IMbnSmsEvents interface [Microsoft Broadband Networks],OnSmsStatusChange method, IMbnSmsEvents.OnSmsStatusChange, IMbnSmsEvents::OnSmsStatusChange, OnSmsStatusChange, OnSmsStatusChange method [Microsoft Broadband Networks], OnSmsStatusChange method [Microsoft Broadband Networks],IMbnSmsEvents interface, mbn.imbnsmsevents_onsmsstatuschange, mbnapi/IMbnSmsEvents::OnSmsStatusChange
 ms.topic: method
-f1_keywords: 
- - "mbnapi/IMbnSmsEvents.OnSmsStatusChange"
+f1_keywords:
+- mbnapi/IMbnSmsEvents.OnSmsStatusChange
 dev_langs:
- - c++
+- c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mbnapi.h
+- mbnapi.h
 api_name:
- - IMbnSmsEvents.OnSmsStatusChange
+- IMbnSmsEvents.OnSmsStatusChange
 targetos: Windows
 req.typenames: 
 req.redist: 

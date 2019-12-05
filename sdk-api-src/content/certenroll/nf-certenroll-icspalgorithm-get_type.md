@@ -1,19 +1,17 @@
 ---
 UID: NF:certenroll.ICspAlgorithm.get_Type
 title: ICspAlgorithm::get_Type (certenroll.h)
-
 description: Retrieves the algorithm type.
 old-location: security\icspalgorithm_type_property.htm
 tech.root: seccertenroll
 ms.assetid: 28bffe60-10f2-462e-8067-943b12285982
-
 ms.date: 12/05/2018
 ms.keywords: ICspAlgorithm interface [Security],Type property, ICspAlgorithm.Type, ICspAlgorithm.get_Type, ICspAlgorithm::Type, ICspAlgorithm::get_Type, Type property [Security], Type property [Security],ICspAlgorithm interface, XCN_BCRYPT_ASYMMETRIC_ENCRYPTION_INTERFACE, XCN_BCRYPT_CIPHER_INTERFACE, XCN_BCRYPT_HASH_INTERFACE, XCN_BCRYPT_RNG_INTERFACE, XCN_BCRYPT_SECRET_AGREEMENT_INTERFACE, XCN_BCRYPT_SIGNATURE_INTERFACE, XCN_BCRYPT_UNKNOWN_INTERFACE, certenroll/ICspAlgorithm::Type, certenroll/ICspAlgorithm::get_Type, get_Type, security.icspalgorithm_type_property
 ms.topic: method
-f1_keywords: 
- - "certenroll/ICspAlgorithm.Type"
+f1_keywords:
+- certenroll/ICspAlgorithm.Type
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: CertEnroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CertEnroll.dll
+- CertEnroll.dll
 api_name:
- - ICspAlgorithm.Type
- - ICspAlgorithm.get_Type
+- ICspAlgorithm.Type
+- ICspAlgorithm.get_Type
 targetos: Windows
 req.typenames: 
 req.redist: 

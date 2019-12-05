@@ -1,19 +1,17 @@
 ---
 UID: NF:winbase.RegisterEventSourceW
 title: RegisterEventSourceW function (winbase.h)
-
 description: Retrieves a registered handle to the specified event log.
 old-location: base\registereventsource.htm
 tech.root: EventLog
 ms.assetid: 53706f83-6bc9-45d6-981c-bd0680d7bc08
-
 ms.date: 12/05/2018
 ms.keywords: RegisterEventSource, RegisterEventSource function, RegisterEventSourceA, RegisterEventSourceW, _win32_registereventsource, base.registereventsource, winbase/RegisterEventSource, winbase/RegisterEventSourceA, winbase/RegisterEventSourceW
 ms.topic: function
-f1_keywords: 
- - "winbase/RegisterEventSource"
+f1_keywords:
+- winbase/RegisterEventSource
 dev_langs:
- - c++
+- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,20 +30,20 @@ req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Advapi32.dll
- - API-MS-Win-EventLog-Legacy-l1-1-0.dll
- - advapi32legacy.dll
- - Ext-MS-Win-AdvAPI32-EventLog-l1-1-0.dll
- - Ext-Ms-Win-AdvAPI32-EventLog-L1-1-1.dll
+- Advapi32.dll
+- API-MS-Win-EventLog-Legacy-l1-1-0.dll
+- advapi32legacy.dll
+- Ext-MS-Win-AdvAPI32-EventLog-l1-1-0.dll
+- Ext-Ms-Win-AdvAPI32-EventLog-L1-1-1.dll
 api_name:
- - RegisterEventSource
- - RegisterEventSourceA
- - RegisterEventSourceW
+- RegisterEventSource
+- RegisterEventSourceA
+- RegisterEventSourceW
 targetos: Windows
 req.typenames: 
 req.redist: 

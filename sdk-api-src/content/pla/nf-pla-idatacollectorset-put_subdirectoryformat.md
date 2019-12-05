@@ -1,19 +1,17 @@
 ---
 UID: NF:pla.IDataCollectorSet.put_SubdirectoryFormat
 title: IDataCollectorSet::put_SubdirectoryFormat (pla.h)
-
 description: Retrieves or sets flags that describe how to decorate the subdirectory name.
 old-location: pla\idatacollectorset_get_subdirectoryformat.htm
 tech.root: PLA
 ms.assetid: f9e6eb88-ac38-4b99-ab64-a408f75f7969
-
 ms.date: 12/05/2018
 ms.keywords: IDataCollectorSet interface [PLA],SubdirectoryFormat property, IDataCollectorSet.SubdirectoryFormat, IDataCollectorSet.put_SubdirectoryFormat, IDataCollectorSet::SubdirectoryFormat, IDataCollectorSet::get_SubdirectoryFormat, IDataCollectorSet::put_SubdirectoryFormat, SubdirectoryFormat property [PLA], SubdirectoryFormat property [PLA],IDataCollectorSet interface, base.idatacollectorset_get_subdirectoryformat, pla.idatacollectorset_get_subdirectoryformat, pla/IDataCollectorSet::SubdirectoryFormat, pla/IDataCollectorSet::get_SubdirectoryFormat, pla/IDataCollectorSet::put_SubdirectoryFormat, put_SubdirectoryFormat
 ms.topic: method
-f1_keywords: 
- - "pla/IDataCollectorSet.SubdirectoryFormat"
+f1_keywords:
+- pla/IDataCollectorSet.SubdirectoryFormat
 dev_langs:
- - c++
+- c++
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: Pla.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Pla.dll
+- Pla.dll
 api_name:
- - IDataCollectorSet.SubdirectoryFormat
- - IDataCollectorSet.get_SubdirectoryFormat
- - IDataCollectorSet.put_SubdirectoryFormat
+- IDataCollectorSet.SubdirectoryFormat
+- IDataCollectorSet.get_SubdirectoryFormat
+- IDataCollectorSet.put_SubdirectoryFormat
 targetos: Windows
 req.typenames: 
 req.redist: 

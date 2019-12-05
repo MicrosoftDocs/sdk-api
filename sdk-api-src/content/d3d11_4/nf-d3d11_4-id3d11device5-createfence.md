@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d11_4.ID3D11Device5.CreateFence
 title: ID3D11Device5::CreateFence (d3d11_4.h)
-
 description: Creates a fence object.
 old-location: direct3d11\id3d11device5_createfence.htm
 tech.root: direct3d11
 ms.assetid: B4AA9E0D-AAF4-4632-A98F-A3212764D5E1
-
 ms.date: 12/05/2018
 ms.keywords: CreateFence, CreateFence method [Direct3D 11], CreateFence method [Direct3D 11],ID3D11Device5 interface, ID3D11Device5 interface [Direct3D 11],CreateFence method, ID3D11Device5.CreateFence, ID3D11Device5::CreateFence, d3d11_4/ID3D11Device5::CreateFence, direct3d11.id3d11device5_createfence
 ms.topic: method
-f1_keywords: 
- - "d3d11_4/ID3D11Device5.CreateFence"
+f1_keywords:
+- d3d11_4/ID3D11Device5.CreateFence
 dev_langs:
- - c++
+- c++
 req.header: d3d11_4.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: D3d11.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - d3d11.lib
- - d3d11.dll
+- d3d11.lib
+- d3d11.dll
 api_name:
- - ID3D11Device5.CreateFence
+- ID3D11Device5.CreateFence
 targetos: Windows
 req.typenames: 
 req.redist: 

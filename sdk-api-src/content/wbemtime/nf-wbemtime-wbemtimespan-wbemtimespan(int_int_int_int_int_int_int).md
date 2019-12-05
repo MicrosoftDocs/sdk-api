@@ -1,19 +1,17 @@
 ---
 UID: NF:wbemtime.WBEMTimeSpan.WBEMTimeSpan(int,int,int,int,int,int,int)
 title: WBEMTimeSpan::WBEMTimeSpan(int,int,int,int,int,int,int) (wbemtime.h)
-
 description: This WBEMTimeSpan class constructor creates a time span object from an integer number of elapsed days.
 old-location: wmi\wbemtimespan_wbemtimespan_int_int_int_int_int_int_int_.htm
 tech.root: WmiSdk
 ms.assetid: b1bd1421-81f6-478a-8ec3-dfacdac3c85f
-
 ms.date: 12/05/2018
-ms.keywords: "??0WBEMTimeSpan@@QAE@HHHHHHH@Z, WBEMTimeSpan, WBEMTimeSpan constructor [Windows Management Instrumentation], WBEMTimeSpan constructor [Windows Management Instrumentation],WBEMTimeSpan interface, WBEMTimeSpan interface [Windows Management Instrumentation],WBEMTimeSpan constructor, WBEMTimeSpan.WBEMTimeSpan, WBEMTimeSpan.WBEMTimeSpan(int,int,int,int,int,int,int), WBEMTimeSpan::WBEMTimeSpan, WBEMTimeSpan::WBEMTimeSpan(int,int,int,int,int,int,int), wbemtime/WBEMTimeSpan::WBEMTimeSpan, wmi.wbemtimespan_wbemtimespan_int_int_int_int_int_int_int_"
+ms.keywords: ??0WBEMTimeSpan@@QAE@HHHHHHH@Z, WBEMTimeSpan, WBEMTimeSpan constructor [Windows Management Instrumentation], WBEMTimeSpan constructor [Windows Management Instrumentation],WBEMTimeSpan interface, WBEMTimeSpan interface [Windows Management Instrumentation],WBEMTimeSpan constructor, WBEMTimeSpan.WBEMTimeSpan, WBEMTimeSpan.WBEMTimeSpan(int,int,int,int,int,int,int), WBEMTimeSpan::WBEMTimeSpan, WBEMTimeSpan::WBEMTimeSpan(int,int,int,int,int,int,int), wbemtime/WBEMTimeSpan::WBEMTimeSpan, wmi.wbemtimespan_wbemtimespan_int_int_int_int_int_int_int_
 ms.topic: method
-f1_keywords: 
- - "wbemtime/WBEMTimeSpan.WBEMTimeSpan"
+f1_keywords:
+- wbemtime/WBEMTimeSpan.WBEMTimeSpan
 dev_langs:
- - c++
+- c++
 req.header: wbemtime.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: FrameDynOS.dll; FrameDyn.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - FrameDynOS.dll
- - FrameDyn.dll
+- FrameDynOS.dll
+- FrameDyn.dll
 api_name:
- - WBEMTimeSpan.WBEMTimeSpan
- - ??0WBEMTimeSpan@@QAE@HHHHHHH@Z
+- WBEMTimeSpan.WBEMTimeSpan
+- ??0WBEMTimeSpan@@QAE@HHHHHHH@Z
 targetos: Windows
 req.typenames: 
 req.redist: 

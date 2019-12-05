@@ -1,19 +1,17 @@
 ---
 UID: NF:dssec.DSCreateSecurityPage
 title: DSCreateSecurityPage function (dssec.h)
-
 description: Creates a security property page for an Active Directory object.
 old-location: security\dscreatesecuritypage.htm
 tech.root: SecAuthZ
 ms.assetid: 1ebb531f-84a0-4ace-88d1-89e65e18c34a
-
 ms.date: 12/05/2018
 ms.keywords: DSCreateSecurityPage, DSCreateSecurityPage function [Security], DSSI_IS_ROOT, DSSI_NO_ACCESS_CHECK, DSSI_NO_EDIT_OWNER, DSSI_NO_EDIT_SACL, DSSI_NO_FILTER, DSSI_NO_READONLY_MESSAGE, DSSI_READ_ONLY, dssec/DSCreateSecurityPage, security.dscreatesecuritypage
 ms.topic: function
-f1_keywords: 
- - "dssec/DSCreateSecurityPage"
+f1_keywords:
+- dssec/DSCreateSecurityPage
 dev_langs:
- - c++
+- c++
 req.header: dssec.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: DSSec.lib
 req.dll: DSSec.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - DSSec.dll
+- DSSec.dll
 api_name:
- - DSCreateSecurityPage
+- DSCreateSecurityPage
 targetos: Windows
 req.typenames: 
 req.redist: 

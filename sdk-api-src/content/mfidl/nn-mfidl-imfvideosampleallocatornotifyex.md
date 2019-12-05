@@ -1,19 +1,17 @@
 ---
 UID: NN:mfidl.IMFVideoSampleAllocatorNotifyEx
 title: IMFVideoSampleAllocatorNotifyEx (mfidl.h)
-
 description: The callback for the IMFVideoSampleAllocatorCallback interface.
 old-location: mf\imfvideosampleallocatornotifyex.htm
 tech.root: medfound
 ms.assetid: 5B3EA486-A45F-4C7B-8E36-80C9C2FD64F2
-
 ms.date: 12/05/2018
 ms.keywords: IMFVideoSampleAllocatorNotifyEx, IMFVideoSampleAllocatorNotifyEx interface [Media Foundation], IMFVideoSampleAllocatorNotifyEx interface [Media Foundation],described, mf.imfvideosampleallocatornotifyex, mfidl/IMFVideoSampleAllocatorNotifyEx
 ms.topic: interface
-f1_keywords: 
- - "mfidl/IMFVideoSampleAllocatorNotifyEx"
+f1_keywords:
+- mfidl/IMFVideoSampleAllocatorNotifyEx
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfidl.h
+- mfidl.h
 api_name:
- - IMFVideoSampleAllocatorNotifyEx
+- IMFVideoSampleAllocatorNotifyEx
 targetos: Windows
 req.typenames: 
 req.redist: 

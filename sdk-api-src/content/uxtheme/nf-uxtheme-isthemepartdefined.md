@@ -1,19 +1,17 @@
 ---
 UID: NF:uxtheme.IsThemePartDefined
 title: IsThemePartDefined function (uxtheme.h)
-
 description: Retrieves whether a visual style has defined parameters for the specified part and state.
 old-location: controls\IsThemePartDefined.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\userex\functions\isthemepartdefined.htm
-
 ms.date: 12/05/2018
 ms.keywords: IsThemePartDefined, IsThemePartDefined function [Windows Controls], controls.IsThemePartDefined, controls.inet_IsThemePartDefined, inet_IsThemePartDefined, inet_IsThemePartDefined_cpp, uxtheme/IsThemePartDefined
 ms.topic: function
-f1_keywords: 
- - "uxtheme/IsThemePartDefined"
+f1_keywords:
+- uxtheme/IsThemePartDefined
 dev_langs:
- - c++
+- c++
 req.header: uxtheme.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: UxTheme.lib
 req.dll: UxTheme.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - UxTheme.dll
- - Ext-MS-Win-UXTheme-Themes-l1-1-0.dll
- - xamlpalwp.dll
- - ext-ms-win-uxtheme-themes-l1-1-1.dll
+- UxTheme.dll
+- Ext-MS-Win-UXTheme-Themes-l1-1-0.dll
+- xamlpalwp.dll
+- ext-ms-win-uxtheme-themes-l1-1-1.dll
 api_name:
- - IsThemePartDefined
+- IsThemePartDefined
 targetos: Windows
 req.typenames: 
 req.redist: 

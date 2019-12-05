@@ -1,19 +1,17 @@
 ---
 UID: NF:azroles.IAzApplication3.CreateRoleAssignment
 title: IAzApplication3::CreateRoleAssignment (azroles.h)
-
 description: Creates a new IAzRoleAssignment object with the specified name.
 old-location: security\iazapplication3_createroleassignment.htm
 tech.root: SecAuthZ
 ms.assetid: 0646601d-97e6-437a-abfe-99fdb5bb1354
-
 ms.date: 12/05/2018
 ms.keywords: CreateRoleAssignment, CreateRoleAssignment method [Security], CreateRoleAssignment method [Security],IAzApplication3 interface, IAzApplication3 interface [Security],CreateRoleAssignment method, IAzApplication3.CreateRoleAssignment, IAzApplication3::CreateRoleAssignment, azroles/IAzApplication3::CreateRoleAssignment, security.iazapplication3_createroleassignment
 ms.topic: method
-f1_keywords: 
- - "azroles/IAzApplication3.CreateRoleAssignment"
+f1_keywords:
+- azroles/IAzApplication3.CreateRoleAssignment
 dev_langs:
- - c++
+- c++
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Azroles.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Azroles.dll
+- Azroles.dll
 api_name:
- - IAzApplication3.CreateRoleAssignment
+- IAzApplication3.CreateRoleAssignment
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:dhcpsapi.DhcpDeleteFilterV4
 title: DhcpDeleteFilterV4 function (dhcpsapi.h)
-
 description: Deletes a link-layer address or address pattern from a DHCP server's allow/deny lists.
 old-location: dhcp\dhcpdeletefilterv4.htm
 tech.root: DHCP
 ms.assetid: ba59bfed-63dd-4468-bc2a-ed47d093c23c
-
 ms.date: 12/05/2018
 ms.keywords: DhcpDeleteFilterV4, DhcpDeleteFilterV4 function [DHCP], dhcp.dhcpdeletefilterv4, dhcpsapi/DhcpDeleteFilterV4
 ms.topic: function
 f1_keywords:
 - dhcpsapi/DhcpDeleteFilterV4
 dev_langs:
- - c++
+- c++
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows

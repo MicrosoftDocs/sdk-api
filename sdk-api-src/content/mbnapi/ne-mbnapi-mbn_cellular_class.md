@@ -1,19 +1,17 @@
 ---
 UID: NE:mbnapi.MBN_CELLULAR_CLASS
 title: MBN_CELLULAR_CLASS (mbnapi.h)
-
 description: The MBN_CELLULAR_CLASS enumerated type defines the type of cellular device.
 old-location: mbn\mbn_cellular_class.htm
 tech.root: mbn
 ms.assetid: 2d75c20b-1ae4-4824-8918-41c20327a007
-
 ms.date: 12/05/2018
 ms.keywords: MBN_CELLULAR_CLASS, MBN_CELLULAR_CLASS enumeration [Microsoft Broadband Networks], MBN_CELLULAR_CLASS_CDMA, MBN_CELLULAR_CLASS_GSM, MBN_CELLULAR_CLASS_NONE, mbn.mbn_cellular_class, mbnapi/MBN_CELLULAR_CLASS, mbnapi/MBN_CELLULAR_CLASS_CDMA, mbnapi/MBN_CELLULAR_CLASS_GSM, mbnapi/MBN_CELLULAR_CLASS_NONE
 ms.topic: enum
-f1_keywords: 
- - "mbnapi/MBN_CELLULAR_CLASS"
+f1_keywords:
+- mbnapi/MBN_CELLULAR_CLASS
 dev_langs:
- - c++
+- c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - mbnapi.h
+- mbnapi.h
 api_name:
- - MBN_CELLULAR_CLASS
+- MBN_CELLULAR_CLASS
 targetos: Windows
 req.typenames: MBN_CELLULAR_CLASS
 req.redist: 

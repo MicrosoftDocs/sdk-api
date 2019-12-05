@@ -1,19 +1,17 @@
 ---
 UID: NF:gdiplusheaders.Image.GetPropertyCount
 title: Image::GetPropertyCount (gdiplusheaders.h)
-
 description: The Image::GetPropertyCount method gets the number of properties (pieces of metadata) stored in this Image object.
 old-location: gdiplus\_gdiplus_CLASS_Image_GetPropertyCount_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\imageclass\imagemethods\getpropertycount.htm
-
 ms.date: 12/05/2018
 ms.keywords: GetPropertyCount, GetPropertyCount method [GDI+], GetPropertyCount method [GDI+],Image class, Image class [GDI+],GetPropertyCount method, Image.GetPropertyCount, Image::GetPropertyCount, _gdiplus_CLASS_Image_GetPropertyCount_, gdiplus._gdiplus_CLASS_Image_GetPropertyCount_
 ms.topic: method
-f1_keywords: 
- - "gdiplusheaders/Image.GetPropertyCount"
+f1_keywords:
+- gdiplusheaders/Image.GetPropertyCount
 dev_langs:
- - c++
+- c++
 req.header: gdiplusheaders.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - Image.GetPropertyCount
+- Image.GetPropertyCount
 targetos: Windows
 req.typenames: 
 req.redist: 

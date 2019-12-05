@@ -1,19 +1,17 @@
 ---
 UID: NN:directmanipulation.IDirectManipulationManager2
 title: IDirectManipulationManager2 (directmanipulation.h)
-
 description: Extends the IDirectManipulationManager interface that provides access to all the Direct Manipulation features and APIs available to the client application.
 old-location: directmanipulation\idirectmanipulationmanager2.htm
 tech.root: directmanipulation
 ms.assetid: 094C6C7D-F973-45AC-9B83-43DB9D46AF23
-
 ms.date: 12/05/2018
 ms.keywords: IDirectManipulationManager2, IDirectManipulationManager2 interface [Direct Manipulation], IDirectManipulationManager2 interface [Direct Manipulation],described, directmanipulation.idirectmanipulationmanager2, directmanipulation/IDirectManipulationManager2
 ms.topic: interface
-f1_keywords: 
- - "directmanipulation/IDirectManipulationManager2"
+f1_keywords:
+- directmanipulation/IDirectManipulationManager2
 dev_langs:
- - c++
+- c++
 req.header: directmanipulation.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - DirectManipulation.h
+- DirectManipulation.h
 api_name:
- - IDirectManipulationManager2
+- IDirectManipulationManager2
 targetos: Windows
 req.typenames: 
 req.redist: 

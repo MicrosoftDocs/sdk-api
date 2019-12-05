@@ -1,19 +1,17 @@
 ---
 UID: NF:winsatcominterfacei.IProvideWinSATVisuals.get_Bitmap
 title: IProvideWinSATVisuals::get_Bitmap (winsatcominterfacei.h)
-
 description: Retrieves a bitmap for the WinSAT base score.
 old-location: winsat\iprovidewinsatvisuals_get_bitmap.htm
 tech.root: WinSAT
 ms.assetid: 90188fb1-3125-459e-a475-5042c2ee0a5c
-
 ms.date: 12/05/2018
 ms.keywords: IProvideWinSATVisuals interface [WinSAT],get_Bitmap method, IProvideWinSATVisuals.get_Bitmap, IProvideWinSATVisuals::get_Bitmap, get_Bitmap, get_Bitmap method [WinSAT], get_Bitmap method [WinSAT],IProvideWinSATVisuals interface, winsat.iprovidewinsatvisuals_get_bitmap, winsatcominterfacei/IProvideWinSATVisuals::get_Bitmap
 ms.topic: method
-f1_keywords: 
- - "winsatcominterfacei/IProvideWinSATVisuals.get_Bitmap"
+f1_keywords:
+- winsatcominterfacei/IProvideWinSATVisuals.get_Bitmap
 dev_langs:
- - c++
+- c++
 req.header: winsatcominterfacei.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Winsatapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Winsatapi.dll
+- Winsatapi.dll
 api_name:
- - IProvideWinSATVisuals.get_Bitmap
+- IProvideWinSATVisuals.get_Bitmap
 targetos: Windows
 req.typenames: 
 req.redist: 

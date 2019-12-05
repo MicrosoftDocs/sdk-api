@@ -1,19 +1,17 @@
 ---
 UID: NE:richedit._undonameid
 title: UNDONAMEID (richedit.h)
-
 description: Contains values that indicate types of rich edit control actions that can be undone or redone. The EM_GETREDONAME and EM_GETUNDONAME messages use this enumeration type to return a value.
 old-location: controls\UNDONAMEID.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\richeditcontrols\richeditcontrolreference\richeditenumerationtypes\undonameid.htm
-
 ms.date: 12/05/2018
 ms.keywords: UID_AUTOTABLE, UID_CUT, UID_DELETE, UID_DRAGDROP, UID_PASTE, UID_TYPING, UID_UNKNOWN, UNDONAMEID, UNDONAMEID enumeration [Windows Controls], _win32_UNDONAMEID_str, _win32_UNDONAMEID_str_cpp, controls.UNDONAMEID, controls._win32_UNDONAMEID_str, richedit/UID_AUTOTABLE, richedit/UID_CUT, richedit/UID_DELETE, richedit/UID_DRAGDROP, richedit/UID_PASTE, richedit/UID_TYPING, richedit/UID_UNKNOWN, richedit/UNDONAMEID
 ms.topic: enum
-f1_keywords: 
- - "richedit/UNDONAMEID"
+f1_keywords:
+- richedit/UNDONAMEID
 dev_langs:
- - c++
+- c++
 req.header: richedit.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Richedit.h
+- Richedit.h
 api_name:
- - UNDONAMEID
+- UNDONAMEID
 targetos: Windows
 req.typenames: UNDONAMEID
 req.redist: 

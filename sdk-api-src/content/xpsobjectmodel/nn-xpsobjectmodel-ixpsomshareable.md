@@ -1,19 +1,17 @@
 ---
 UID: NN:xpsobjectmodel.IXpsOMShareable
 title: IXpsOMShareable (xpsobjectmodel.h)
-
 description: The base interface for sharable interfaces.
 old-location: xps\ixpsomshareable.htm
 tech.root: printdocs
 ms.assetid: 2071292f-b898-4ec8-99f7-294c8d820965
-
 ms.date: 12/05/2018
 ms.keywords: IXpsOMShareable, IXpsOMShareable interface [XPS Documents and Packaging], IXpsOMShareable interface [XPS Documents and Packaging],described, xps.ixpsomshareable, xpsobjectmodel/IXpsOMShareable
 ms.topic: interface
-f1_keywords: 
- - "xpsobjectmodel/IXpsOMShareable"
+f1_keywords:
+- xpsobjectmodel/IXpsOMShareable
 dev_langs:
- - c++
+- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsobjectmodel.h
+- xpsobjectmodel.h
 api_name:
- - IXpsOMShareable
+- IXpsOMShareable
 targetos: Windows
 req.typenames: 
 req.redist: 

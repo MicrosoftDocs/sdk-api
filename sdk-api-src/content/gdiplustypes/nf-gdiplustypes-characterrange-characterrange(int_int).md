@@ -1,19 +1,17 @@
 ---
 UID: NF:gdiplustypes.CharacterRange.CharacterRange(INT,INT)
 title: CharacterRange::CharacterRange(INT,INT) (gdiplustypes.h)
-
 description: Creates a CharacterRange::CharacterRange object and initializes the data members to the values specified.
 old-location: gdiplus\_gdiplus_CLASS_CharacterRange_CharacterRange_first_length_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\characterrangeclass\characterrangeconstructors\characterrange_68first_length.htm
-
 ms.date: 12/05/2018
 ms.keywords: CharacterRange, CharacterRange class [GDI+],CharacterRange constructor, CharacterRange constructor [GDI+], CharacterRange constructor [GDI+],CharacterRange class, CharacterRange.CharacterRange, CharacterRange.CharacterRange(INT,INT), CharacterRange::CharacterRange, CharacterRange::CharacterRange(INT,INT), _gdiplus_CLASS_CharacterRange_CharacterRange_first_length_, gdiplus._gdiplus_CLASS_CharacterRange_CharacterRange_first_length_
 ms.topic: method
-f1_keywords: 
- - "gdiplustypes/CharacterRange.CharacterRange"
+f1_keywords:
+- gdiplustypes/CharacterRange.CharacterRange
 dev_langs:
- - c++
+- c++
 req.header: gdiplustypes.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - CharacterRange.CharacterRange
+- CharacterRange.CharacterRange
 targetos: Windows
 req.typenames: 
 req.redist: 

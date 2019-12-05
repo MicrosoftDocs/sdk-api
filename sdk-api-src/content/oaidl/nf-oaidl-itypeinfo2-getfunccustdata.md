@@ -1,19 +1,17 @@
 ---
 UID: NF:oaidl.ITypeInfo2.GetFuncCustData
 title: ITypeInfo2::GetFuncCustData (oaidl.h)
-
 description: Gets the custom data from the specified function.
 old-location: automat\itypeinfo2_getfunccustdata.htm
 tech.root: automat
 ms.assetid: d3a7b13f-6296-45ee-9697-4d52b5965c4b
-
 ms.date: 12/05/2018
 ms.keywords: GetFuncCustData, GetFuncCustData method [Automation], GetFuncCustData method [Automation],ITypeInfo2 interface, ITypeInfo2 interface [Automation],GetFuncCustData method, ITypeInfo2.GetFuncCustData, ITypeInfo2::GetFuncCustData, _oa96_ITypeInfo2_GetFuncCustData, automat.itypeinfo2_getfunccustdata, oaidl/ITypeInfo2::GetFuncCustData
 ms.topic: method
-f1_keywords: 
- - "oaidl/ITypeInfo2.GetFuncCustData"
+f1_keywords:
+- oaidl/ITypeInfo2.GetFuncCustData
 dev_langs:
- - c++
+- c++
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - oaidl.h
+- oaidl.h
 api_name:
- - ITypeInfo2.GetFuncCustData
+- ITypeInfo2.GetFuncCustData
 targetos: Windows
 req.typenames: 
 req.redist: 

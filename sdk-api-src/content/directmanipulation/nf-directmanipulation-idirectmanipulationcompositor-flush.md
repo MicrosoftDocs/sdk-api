@@ -1,19 +1,17 @@
 ---
 UID: NF:directmanipulation.IDirectManipulationCompositor.Flush
 title: IDirectManipulationCompositor::Flush (directmanipulation.h)
-
 description: Commits all pending updates in the compositor to the system for rendering.
 old-location: directmanipulation\idirectmanipulationcompositor_flush.htm
 tech.root: directmanipulation
 ms.assetid: E6D1BD41-6D5A-4BC0-983E-CBE79613FCF8
-
 ms.date: 12/05/2018
 ms.keywords: Flush, Flush method [Direct Manipulation], Flush method [Direct Manipulation],IDirectManipulationCompositor interface, IDirectManipulationCompositor interface [Direct Manipulation],Flush method, IDirectManipulationCompositor.Flush, IDirectManipulationCompositor::Flush, directmanipulation.idirectmanipulationcompositor_flush, directmanipulation/IDirectManipulationCompositor::Flush
 ms.topic: method
-f1_keywords: 
- - "directmanipulation/IDirectManipulationCompositor.Flush"
+f1_keywords:
+- directmanipulation/IDirectManipulationCompositor.Flush
 dev_langs:
- - c++
+- c++
 req.header: directmanipulation.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - DirectManipulation.h
+- DirectManipulation.h
 api_name:
- - IDirectManipulationCompositor.Flush
+- IDirectManipulationCompositor.Flush
 targetos: Windows
 req.typenames: 
 req.redist: 

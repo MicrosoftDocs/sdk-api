@@ -1,19 +1,17 @@
 ---
 UID: NF:windows.media.core.interop.IVideoFrameNative.GetDevice
 title: IVideoFrameNative::core (windows.media.core.interop.h)
-
 description: This method returns a device associated with the video data.
 old-location: winrt\ivideoframenative_getdevice.htm
 tech.root: WinRT
 ms.assetid: 9A61159B-C383-4770-AD8F-9F69F720E3E2
-
 ms.date: 12/05/2018
 ms.keywords: GetDevice, GetDevice method [Windows Runtime], GetDevice method [Windows Runtime],IVideoFrameNative interface, IVideoFrameNative interface [Windows Runtime],GetDevice method, IVideoFrameNative.GetDevice, IVideoFrameNative.core, IVideoFrameNative::GetDevice, IVideoFrameNative::core, windows/IVideoFrameNative::GetDevice, winrt.ivideoframenative_getdevice
 ms.topic: method
-f1_keywords: 
- - "windows.media.core.interop/IVideoFrameNative.GetDevice"
+f1_keywords:
+- windows.media.core.interop/IVideoFrameNative.GetDevice
 dev_langs:
- - c++
+- c++
 req.header: windows.media.core.interop.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - windows.media.core.interop.h
+- windows.media.core.interop.h
 api_name:
- - IVideoFrameNative.GetDevice
+- IVideoFrameNative.GetDevice
 targetos: Windows
 req.typenames: 
 req.redist: 

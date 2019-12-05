@@ -1,19 +1,17 @@
 ---
 UID: NS:dinputd.DIJOYTYPEINFO
 title: DIJOYTYPEINFO (dinputd.h)
-
 description: The DIJOYTYPEINFO structure contains information about a joystick type.
 old-location: hid\dijoytypeinfo.htm
 tech.root: hid
 ms.assetid: 54f52839-59ed-4edd-8d28-e3504f9900d0
-
 ms.date: 12/05/2018
-ms.keywords: "*LPDIJOYTYPEINFO, DIJOYTYPEINFO, DIJOYTYPEINFO structure [Human Input Devices], DIJOYTYPEINFO,*LPDIJOYTYPEINFO, DIJOYTYPEINFO,*LPDIJOYTYPEINFO structure [Human Input Devices], di_ref_5b0a815b-710c-4f46-afa7-b8d051c7a5d6.xml, dinputd/DIJOYTYPEINFO, hid.dijoytypeinfo"
+ms.keywords: '*LPDIJOYTYPEINFO, DIJOYTYPEINFO, DIJOYTYPEINFO structure [Human Input Devices], DIJOYTYPEINFO,*LPDIJOYTYPEINFO, DIJOYTYPEINFO,*LPDIJOYTYPEINFO structure [Human Input Devices], di_ref_5b0a815b-710c-4f46-afa7-b8d051c7a5d6.xml, dinputd/DIJOYTYPEINFO, hid.dijoytypeinfo'
 ms.topic: struct
-f1_keywords: 
- - "dinputd/DIJOYTYPEINFO, *LPDIJOYTYPEINFO"
+f1_keywords:
+- dinputd/DIJOYTYPEINFO, *LPDIJOYTYPEINFO
 dev_langs:
- - c++
+- c++
 req.header: dinputd.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Dinputd.h
+- Dinputd.h
 api_name:
- - DIJOYTYPEINFO, *LPDIJOYTYPEINFO
+- DIJOYTYPEINFO, *LPDIJOYTYPEINFO
 targetos: Windows
 req.typenames: DIJOYTYPEINFO, *LPDIJOYTYPEINFO
 req.redist: 

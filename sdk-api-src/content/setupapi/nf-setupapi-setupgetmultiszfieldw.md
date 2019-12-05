@@ -1,19 +1,17 @@
 ---
 UID: NF:setupapi.SetupGetMultiSzFieldW
 title: SetupGetMultiSzFieldW function (setupapi.h)
-
 description: The SetupGetMultiSzField function retrieves multiple strings stored in a line of an INF file, from the specified field to the end of the line.
 old-location: setup\setupgetmultiszfield.htm
 tech.root: SetupApi
 ms.assetid: d884037c-a8d0-47a8-8b3f-70408866be05
-
 ms.date: 12/05/2018
 ms.keywords: SetupGetMultiSzField, SetupGetMultiSzField function [Setup API], SetupGetMultiSzFieldA, SetupGetMultiSzFieldW, _setupapi_setupgetmultiszfield, setup.setupgetmultiszfield, setupapi/SetupGetMultiSzField, setupapi/SetupGetMultiSzFieldA, setupapi/SetupGetMultiSzFieldW
 ms.topic: function
-f1_keywords: 
- - "setupapi/SetupGetMultiSzField"
+f1_keywords:
+- setupapi/SetupGetMultiSzField
 dev_langs:
- - c++
+- c++
 req.header: setupapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Setupapi.lib
 req.dll: Setupapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Setupapi.dll
- - Ext-MS-Win-SetupAPI-Inf-L1-1-1.dll
+- Setupapi.dll
+- Ext-MS-Win-SetupAPI-Inf-L1-1-1.dll
 api_name:
- - SetupGetMultiSzField
- - SetupGetMultiSzFieldA
- - SetupGetMultiSzFieldW
+- SetupGetMultiSzField
+- SetupGetMultiSzFieldA
+- SetupGetMultiSzFieldW
 targetos: Windows
 req.typenames: 
 req.redist: 

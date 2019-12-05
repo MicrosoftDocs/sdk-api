@@ -1,19 +1,17 @@
 ---
 UID: NF:authz.AuthzFreeHandle
 title: AuthzFreeHandle function (authz.h)
-
 description: Finds and deletes a handle from the handle list.
 old-location: security\authzfreehandle.htm
 tech.root: SecAuthZ
 ms.assetid: 8d2e2ae9-b515-4a02-b366-5b107b4f7ffa
-
 ms.date: 12/05/2018
 ms.keywords: AuthzFreeHandle, AuthzFreeHandle function [Security], _win32_authzfreehandle, authz/AuthzFreeHandle, security.authzfreehandle
 ms.topic: function
-f1_keywords: 
- - "authz/AuthzFreeHandle"
+f1_keywords:
+- authz/AuthzFreeHandle
 dev_langs:
- - c++
+- c++
 req.header: authz.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Authz.lib
 req.dll: Authz.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Authz.dll
+- Authz.dll
 api_name:
- - AuthzFreeHandle
+- AuthzFreeHandle
 targetos: Windows
 req.typenames: 
 req.redist: Windows Server 2003 Administration Tools Pack on Windows XP

@@ -1,19 +1,17 @@
 ---
 UID: NF:wmsdkidl.IWMWriterFileSink2.GetFileSize
 title: IWMWriterFileSink2::GetFileSize (wmsdkidl.h)
-
 description: The GetFileSize method retrieves the size of the file.
 old-location: wmformat\iwmwriterfilesink2_getfilesize.htm
 tech.root: wmformat
 ms.assetid: 3a5f0c18-f73a-461e-b3cf-48742e74fed3
-
 ms.date: 12/05/2018
 ms.keywords: GetFileSize, GetFileSize method [windows Media Format], GetFileSize method [windows Media Format],IWMWriterFileSink2 interface, IWMWriterFileSink2 interface [windows Media Format],GetFileSize method, IWMWriterFileSink2.GetFileSize, IWMWriterFileSink2::GetFileSize, IWMWriterFileSink2GetFileSize, wmformat.iwmwriterfilesink2_getfilesize, wmsdkidl/IWMWriterFileSink2::GetFileSize
 ms.topic: method
-f1_keywords: 
- - "wmsdkidl/IWMWriterFileSink2.GetFileSize"
+f1_keywords:
+- wmsdkidl/IWMWriterFileSink2.GetFileSize
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wmvcore.lib
- - Wmvcore.dll
- - WMStubDRM.lib
- - WMStubDRM.dll
+- Wmvcore.lib
+- Wmvcore.dll
+- WMStubDRM.lib
+- WMStubDRM.dll
 api_name:
- - IWMWriterFileSink2.GetFileSize
+- IWMWriterFileSink2.GetFileSize
 targetos: Windows
 req.typenames: 
 req.redist: 

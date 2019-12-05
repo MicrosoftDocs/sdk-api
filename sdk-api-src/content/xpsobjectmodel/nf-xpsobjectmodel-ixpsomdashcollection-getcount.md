@@ -1,19 +1,17 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMDashCollection.GetCount
 title: IXpsOMDashCollection::GetCount (xpsobjectmodel.h)
-
 description: Gets the number of XPS_DASH structures in the collection.
 old-location: xps\ixpsomdashcollection_getcount.htm
 tech.root: printdocs
 ms.assetid: 51393b2f-6658-4268-bcfc-5647ef2c8406
-
 ms.date: 12/05/2018
 ms.keywords: GetCount, GetCount method [XPS Documents and Packaging], GetCount method [XPS Documents and Packaging],IXpsOMDashCollection interface, IXpsOMDashCollection interface [XPS Documents and Packaging],GetCount method, IXpsOMDashCollection.GetCount, IXpsOMDashCollection::GetCount, xps.ixpsomdashcollection_getcount, xpsobjectmodel/IXpsOMDashCollection::GetCount
 ms.topic: method
-f1_keywords: 
- - "xpsobjectmodel/IXpsOMDashCollection.GetCount"
+f1_keywords:
+- xpsobjectmodel/IXpsOMDashCollection.GetCount
 dev_langs:
- - c++
+- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsobjectmodel.h
+- xpsobjectmodel.h
 api_name:
- - IXpsOMDashCollection.GetCount
+- IXpsOMDashCollection.GetCount
 targetos: Windows
 req.typenames: 
 req.redist: 

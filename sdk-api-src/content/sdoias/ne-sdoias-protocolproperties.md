@@ -1,19 +1,17 @@
 ---
 UID: NE:sdoias._PROTOCOLPROPERTIES
 title: PROTOCOLPROPERTIES (sdoias.h)
-
 description: The values of the PROTOCOLPROPERTIES enumeration type enumerate properties of an authentication protocol.
 old-location: nps\SDO_protocolproperties.htm
 tech.root: Nps
 ms.assetid: d4767047-3e33-4ae7-a05d-e0e5037cb103
-
 ms.date: 12/05/2018
 ms.keywords: PROPERTY_PROTOCOL_REQUEST_HANDLER, PROPERTY_PROTOCOL_START, PROTOCOLPROPERTIES, PROTOCOLPROPERTIES enumeration [Network Policy Server], _sdo_protocolproperties, nps.SDO_protocolproperties, sdo.protocolproperties, sdoias/PROPERTY_PROTOCOL_REQUEST_HANDLER, sdoias/PROPERTY_PROTOCOL_START, sdoias/PROTOCOLPROPERTIES
 ms.topic: enum
-f1_keywords: 
- - "sdoias/PROTOCOLPROPERTIES"
+f1_keywords:
+- sdoias/PROTOCOLPROPERTIES
 dev_langs:
- - c++
+- c++
 req.header: sdoias.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - SdoIas.h
+- SdoIas.h
 api_name:
- - PROTOCOLPROPERTIES
+- PROTOCOLPROPERTIES
 targetos: Windows
 req.typenames: PROTOCOLPROPERTIES
 req.redist: 

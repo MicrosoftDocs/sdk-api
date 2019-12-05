@@ -1,19 +1,17 @@
 ---
 UID: NF:amstream.IAMMediaTypeSample.GetTime
 title: IAMMediaTypeSample::GetTime (amstream.h)
-
 description: Note  This interface is deprecated. New applications should not use it. The GetTime method retrieves the stream times at which the sample should start and stop.
 old-location: dshow\iammediatypesample_gettime.htm
 tech.root: DirectShow
 ms.assetid: ffbbc857-ddcc-4625-b591-b95a256d40ba
-
 ms.date: 12/05/2018
 ms.keywords: GetTime, GetTime method [DirectShow], GetTime method [DirectShow],IAMMediaTypeSample interface, IAMMediaTypeSample interface [DirectShow],GetTime method, IAMMediaTypeSample.GetTime, IAMMediaTypeSample::GetTime, IAMMediaTypeSampleGetTime, amstream/IAMMediaTypeSample::GetTime, dshow.iammediatypesample_gettime
 ms.topic: method
-f1_keywords: 
- - "amstream/IAMMediaTypeSample.GetTime"
+f1_keywords:
+- amstream/IAMMediaTypeSample.GetTime
 dev_langs:
- - c++
+- c++
 req.header: amstream.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - amstream.h
+- amstream.h
 api_name:
- - IAMMediaTypeSample.GetTime
+- IAMMediaTypeSample.GetTime
 targetos: Windows
 req.typenames: 
 req.redist: 

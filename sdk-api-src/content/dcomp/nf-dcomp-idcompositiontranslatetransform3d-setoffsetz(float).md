@@ -1,19 +1,17 @@
 ---
 UID: NF:dcomp.IDCompositionTranslateTransform3D.SetOffsetZ(float)
 title: IDCompositionTranslateTransform3D::SetOffsetZ (dcomp.h)
-
 description: Changes the value of the OffsetZ property of a 3D translation transform effect. The OffsetZ property specifies the distance to translate along the z-axis.
 old-location: directcomp\idcompositiontranslatetransform3d_setoffsetz_float.htm
 tech.root: directcomp
 ms.assetid: 98FC07F4-BD13-448A-8421-9049CF9C0850
-
 ms.date: 12/05/2018
 ms.keywords: IDCompositionTranslateTransform3D interface [DirectComposition],SetOffsetZ method, IDCompositionTranslateTransform3D.SetOffsetZ, IDCompositionTranslateTransform3D::SetOffsetZ, IDCompositionTranslateTransform3D::SetOffsetZ(float), SetOffsetZ, SetOffsetZ method [DirectComposition], SetOffsetZ method [DirectComposition],IDCompositionTranslateTransform3D interface, dcomp/IDCompositionTranslateTransform3D::SetOffsetZ, directcomp.idcompositiontranslatetransform3d_setoffsetz_float
 ms.topic: method
-f1_keywords: 
- - "dcomp/IDCompositionTranslateTransform3D.SetOffsetZ"
+f1_keywords:
+- dcomp/IDCompositionTranslateTransform3D.SetOffsetZ
 dev_langs:
- - c++
+- c++
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dcomp.lib
 req.dll: Dcomp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dcomp.dll
+- Dcomp.dll
 api_name:
- - IDCompositionTranslateTransform3D.SetOffsetZ
+- IDCompositionTranslateTransform3D.SetOffsetZ
 targetos: Windows
 req.typenames: 
 req.redist: 

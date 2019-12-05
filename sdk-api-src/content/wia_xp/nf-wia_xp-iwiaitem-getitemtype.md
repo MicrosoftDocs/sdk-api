@@ -1,19 +1,17 @@
 ---
 UID: NF:wia_xp.IWiaItem.GetItemType
 title: IWiaItem::GetItemType (wia_xp.h)
-
 description: The IWiaItem::GetItemType method is called by applications to obtain the type information of an item.
 old-location: wia\_wia_IWiaItem_GetItemType.htm
 tech.root: wia
 ms.assetid: VS|wia|~\wia\refwia\ifaces\iwiaitem\getitemtype.htm
-
 ms.date: 12/05/2018
 ms.keywords: GetItemType, GetItemType method [WIA], GetItemType method [WIA],IWiaItem interface, IWiaItem interface [WIA],GetItemType method, IWiaItem.GetItemType, IWiaItem::GetItemType, _wia_IWiaItem_GetItemType, wia._wia_IWiaItem_GetItemType, wia_xp/IWiaItem::GetItemType
 ms.topic: method
-f1_keywords: 
- - "wia_xp/IWiaItem.GetItemType"
+f1_keywords:
+- wia_xp/IWiaItem.GetItemType
 dev_langs:
- - c++
+- c++
 req.header: wia_xp.h
 req.include-header: Wia.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Wiaguid.lib
 req.dll: Wiaservc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wiaservc.dll
+- Wiaservc.dll
 api_name:
- - IWiaItem.GetItemType
+- IWiaItem.GetItemType
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NE:d2d1effects.D2D1_COLORMANAGEMENT_QUALITY
 title: D2D1_COLORMANAGEMENT_QUALITY (d2d1effects.h)
-
 description: The quality level of the transform for the Color management effect.
 old-location: direct2d\d2d1_colormanagement_quality.htm
 tech.root: Direct2D
 ms.assetid: 99BB95AE-E5C6-4D56-9EB9-740DD7D0EFEF
-
 ms.date: 12/05/2018
 ms.keywords: D2D1_COLORMANAGEMENT_QUALITY, D2D1_COLORMANAGEMENT_QUALITY enumeration [Direct2D], D2D1_COLORMANAGEMENT_QUALITY_BEST, D2D1_COLORMANAGEMENT_QUALITY_NORMAL, D2D1_COLORMANAGEMENT_QUALITY_PROOF, d2d1effects/D2D1_COLORMANAGEMENT_QUALITY, d2d1effects/D2D1_COLORMANAGEMENT_QUALITY_BEST, d2d1effects/D2D1_COLORMANAGEMENT_QUALITY_NORMAL, d2d1effects/D2D1_COLORMANAGEMENT_QUALITY_PROOF, direct2d.d2d1_colormanagement_quality
 ms.topic: enum
-f1_keywords: 
- - "d2d1effects/D2D1_COLORMANAGEMENT_QUALITY"
+f1_keywords:
+- d2d1effects/D2D1_COLORMANAGEMENT_QUALITY
 dev_langs:
- - c++
+- c++
 req.header: d2d1effects.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - d2d1effects.h
+- d2d1effects.h
 api_name:
- - D2D1_COLORMANAGEMENT_QUALITY
+- D2D1_COLORMANAGEMENT_QUALITY
 targetos: Windows
 req.typenames: D2D1_COLORMANAGEMENT_QUALITY
 req.redist: 

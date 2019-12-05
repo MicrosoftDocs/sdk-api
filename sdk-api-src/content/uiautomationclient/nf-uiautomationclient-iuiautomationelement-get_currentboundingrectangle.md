@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationElement.get_CurrentBoundingRectangle
 title: IUIAutomationElement::get_CurrentBoundingRectangle (uiautomationclient.h)
-
 description: Retrieves the coordinates of the rectangle that completely encloses the element.
 old-location: winauto\uiauto_IUIAutomationElement_CurrentBoundingRectangle.htm
 tech.root: WinAuto
 ms.assetid: bf3e96ca-1fda-417a-9614-6a1a3923ce7e
-
 ms.date: 12/05/2018
 ms.keywords: CurrentBoundingRectangle property [Windows Accessibility], CurrentBoundingRectangle property [Windows Accessibility],IUIAutomationElement interface, IUIAutomationElement interface [Windows Accessibility],CurrentBoundingRectangle property, IUIAutomationElement.CurrentBoundingRectangle, IUIAutomationElement.get_CurrentBoundingRectangle, IUIAutomationElement::CurrentBoundingRectangle, IUIAutomationElement::get_CurrentBoundingRectangle, get_CurrentBoundingRectangle, uiauto.uiauto_IUIAutomationElement_CurrentBoundingRectangle, uiauto_IUIAutomationElement_CurrentBoundingRectangle, uiautomationclient/IUIAutomationElement::CurrentBoundingRectangle, uiautomationclient/IUIAutomationElement::get_CurrentBoundingRectangle, winauto.uiauto_IUIAutomationElement_CurrentBoundingRectangle
 ms.topic: method
-f1_keywords: 
- - "uiautomationclient/IUIAutomationElement.CurrentBoundingRectangle"
+f1_keywords:
+- uiautomationclient/IUIAutomationElement.CurrentBoundingRectangle
 dev_langs:
- - c++
+- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationClient.h
+- UIAutomationClient.h
 api_name:
- - IUIAutomationElement.CurrentBoundingRectangle
- - IUIAutomationElement.get_CurrentBoundingRectangle
+- IUIAutomationElement.CurrentBoundingRectangle
+- IUIAutomationElement.get_CurrentBoundingRectangle
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMPackage.SetCoreProperties
 title: IXpsOMPackage::SetCoreProperties (xpsobjectmodel.h)
-
 description: Sets the IXpsOMCoreProperties interface of the XPS package.
 old-location: xps\ixpsompackage_setcoreproperties.htm
 tech.root: printdocs
 ms.assetid: e1be5c48-1e2b-4f94-98ec-b61bc255e63b
-
 ms.date: 12/05/2018
 ms.keywords: IXpsOMPackage interface [XPS Documents and Packaging],SetCoreProperties method, IXpsOMPackage.SetCoreProperties, IXpsOMPackage::SetCoreProperties, SetCoreProperties, SetCoreProperties method [XPS Documents and Packaging], SetCoreProperties method [XPS Documents and Packaging],IXpsOMPackage interface, xps.ixpsompackage_setcoreproperties, xpsobjectmodel/IXpsOMPackage::SetCoreProperties
 ms.topic: method
-f1_keywords: 
- - "xpsobjectmodel/IXpsOMPackage.SetCoreProperties"
+f1_keywords:
+- xpsobjectmodel/IXpsOMPackage.SetCoreProperties
 dev_langs:
- - c++
+- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsobjectmodel.h
+- xpsobjectmodel.h
 api_name:
- - IXpsOMPackage.SetCoreProperties
+- IXpsOMPackage.SetCoreProperties
 targetos: Windows
 req.typenames: 
 req.redist: 

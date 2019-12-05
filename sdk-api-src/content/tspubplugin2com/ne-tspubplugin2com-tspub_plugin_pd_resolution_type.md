@@ -1,19 +1,17 @@
 ---
 UID: NE:tspubplugin2com._TSPUB_PLUGIN_PD_RESOLUTION_TYPE
 title: TSPUB_PLUGIN_PD_RESOLUTION_TYPE (tspubplugin2com.h)
-
 description: Specifies the type of personal desktop resolution being requested.
 old-location: termserv\tspub_plugin_pd_resolution_type.htm
 tech.root: TermServ
 ms.assetid: 8cba4e6a-3508-4f9f-a206-4a0b41a933c1
-
 ms.date: 12/05/2018
 ms.keywords: TSPUB_PLUGIN_PD_QUERY_EXISTING, TSPUB_PLUGIN_PD_QUERY_OR_CREATE, TSPUB_PLUGIN_PD_RESOLUTION_TYPE, TSPUB_PLUGIN_PD_RESOLUTION_TYPE enumeration [Remote Desktop Services], termserv.tspub_plugin_pd_resolution_type, tspubplugin2com/TSPUB_PLUGIN_PD_QUERY_EXISTING, tspubplugin2com/TSPUB_PLUGIN_PD_QUERY_OR_CREATE, tspubplugin2com/TSPUB_PLUGIN_PD_RESOLUTION_TYPE
 ms.topic: enum
-f1_keywords: 
- - "tspubplugin2com/TSPUB_PLUGIN_PD_RESOLUTION_TYPE"
+f1_keywords:
+- tspubplugin2com/TSPUB_PLUGIN_PD_RESOLUTION_TYPE
 dev_langs:
- - c++
+- c++
 req.header: tspubplugin2com.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - tspubplugin2com.h
+- tspubplugin2com.h
 api_name:
- - TSPUB_PLUGIN_PD_RESOLUTION_TYPE
+- TSPUB_PLUGIN_PD_RESOLUTION_TYPE
 targetos: Windows
 req.typenames: TSPUB_PLUGIN_PD_RESOLUTION_TYPE
 req.redist: 

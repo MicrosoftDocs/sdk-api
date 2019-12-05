@@ -1,19 +1,17 @@
 ---
 UID: NN:msctf.ITfRangeACP
 title: ITfRangeACP (msctf.h)
-
 description: The ITfRangeACP interface is implemented by the TSF manager and is used by an application character position (ACP)-based application to access and manipulate range objects.
 old-location: tsf\itfrangeacp.htm
 tech.root: TSF
 ms.assetid: aaa497ca-4cf2-401a-a6d8-cc8a75479cc4
-
 ms.date: 12/05/2018
 ms.keywords: ITfRangeACP, ITfRangeACP interface [Text Services Framework], ITfRangeACP interface [Text Services Framework],described, _tsf_itfrangeacp_ref, msctf/ITfRangeACP, tsf.itfrangeacp
 ms.topic: interface
-f1_keywords: 
- - "msctf/ITfRangeACP"
+f1_keywords:
+- msctf/ITfRangeACP
 dev_langs:
- - c++
+- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msctf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msctf.dll
+- msctf.dll
 api_name:
- - ITfRangeACP
+- ITfRangeACP
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

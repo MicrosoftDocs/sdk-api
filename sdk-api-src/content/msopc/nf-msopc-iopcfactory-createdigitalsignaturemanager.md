@@ -1,19 +1,17 @@
 ---
 UID: NF:msopc.IOpcFactory.CreateDigitalSignatureManager
 title: IOpcFactory::CreateDigitalSignatureManager (msopc.h)
-
 description: Creates a digital signature manager object for a package object.
 old-location: opc\iopcfactory_createdigitalsignaturemanager.htm
 tech.root: OPC
 ms.assetid: ec0fe8b6-e968-4bcb-b468-bbf72ffce675
-
 ms.date: 12/05/2018
 ms.keywords: CreateDigitalSignatureManager, CreateDigitalSignatureManager method [Open Packaging Conventions], CreateDigitalSignatureManager method [Open Packaging Conventions],IOpcFactory interface, IOpcFactory interface [Open Packaging Conventions],CreateDigitalSignatureManager method, IOpcFactory.CreateDigitalSignatureManager, IOpcFactory::CreateDigitalSignatureManager, msopc/IOpcFactory::CreateDigitalSignatureManager, opc.iopcfactory_createdigitalsignaturemanager
 ms.topic: method
-f1_keywords: 
- - "msopc/IOpcFactory.CreateDigitalSignatureManager"
+f1_keywords:
+- msopc/IOpcFactory.CreateDigitalSignatureManager
 dev_langs:
- - c++
+- c++
 req.header: msopc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msopc.h
+- msopc.h
 api_name:
- - IOpcFactory.CreateDigitalSignatureManager
+- IOpcFactory.CreateDigitalSignatureManager
 targetos: Windows
 req.typenames: 
 req.redist: 

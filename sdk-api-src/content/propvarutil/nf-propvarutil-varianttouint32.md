@@ -1,19 +1,17 @@
 ---
 UID: NF:propvarutil.VariantToUInt32
 title: VariantToUInt32 function (propvarutil.h)
-
 description: Extracts unsigned Int32 property value of a variant structure. If no value can be extracted, then a default value is assigned.
 old-location: properties\VariantToUInt32.htm
 tech.root: properties
 ms.assetid: 24421477-8930-4c8f-8fee-5d8367123c7e
-
 ms.date: 12/05/2018
 ms.keywords: VariantToUInt32, VariantToUInt32 function [Windows Properties], _shell_VariantToUInt32, properties.VariantToUInt32, propvarutil/VariantToUInt32, shell.VariantToUInt32
 ms.topic: function
-f1_keywords: 
- - "propvarutil/VariantToUInt32"
+f1_keywords:
+- propvarutil/VariantToUInt32
 dev_langs:
- - c++
+- c++
 req.header: propvarutil.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Propsys.lib
 req.dll: Propsys.dll (version 6.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Propsys.dll
+- Propsys.dll
 api_name:
- - VariantToUInt32
+- VariantToUInt32
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0

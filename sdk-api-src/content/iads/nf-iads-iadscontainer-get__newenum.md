@@ -1,19 +1,17 @@
 ---
 UID: NF:iads.IADsContainer.get__NewEnum
 title: IADsContainer::get__NewEnum (iads.h)
-
 description: Retrieves an enumerator object for the container.
 old-location: adsi\iadscontainer_get__newenum.htm
 tech.root: adsi
 ms.assetid: b268efb8-59cd-41ef-b96c-583ae476432e
-
 ms.date: 12/05/2018
 ms.keywords: IADsContainer interface [ADSI],get__NewEnum method, IADsContainer.get__NewEnum, IADsContainer::get__NewEnum, _ds_iadscontainer_get__newenum, adsi.iadscontainer__get____newenum, adsi.iadscontainer_get__newenum, get__NewEnum, get__NewEnum method [ADSI], get__NewEnum method [ADSI],IADsContainer interface, iads/IADsContainer::get__NewEnum
 ms.topic: method
-f1_keywords: 
- - "iads/IADsContainer.get__NewEnum"
+f1_keywords:
+- iads/IADsContainer.get__NewEnum
 dev_langs:
- - c++
+- c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Activeds.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Activeds.dll
+- Activeds.dll
 api_name:
- - IADsContainer.get__NewEnum
+- IADsContainer.get__NewEnum
 targetos: Windows
 req.typenames: 
 req.redist: 

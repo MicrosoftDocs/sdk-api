@@ -1,19 +1,17 @@
 ---
 UID: NE:peninputpanel.__MIDL___MIDL_itf_peninputpanel_0000_0000_0005
 title: CorrectionPosition (peninputpanel.h)
-
 description: Specifies the direction, relative to Input Panel, that the post insertion correction comb displays.
 old-location: tablet\correctionposition.htm
 tech.root: tablet
 ms.assetid: 0750128e-f3f0-444a-abe0-2dc360a3685b
-
 ms.date: 12/05/2018
 ms.keywords: 0750128e-f3f0-444a-abe0-2dc360a3685b, CorrectionPosition, CorrectionPosition enumeration [Tablet PC], CorrectionPosition_Auto, CorrectionPosition_Bottom, CorrectionPosition_Top, peninputpanel/CorrectionPosition, peninputpanel/CorrectionPosition_Auto, peninputpanel/CorrectionPosition_Bottom, peninputpanel/CorrectionPosition_Top, tablet.correctionposition
 ms.topic: enum
-f1_keywords: 
- - "peninputpanel/CorrectionPosition"
+f1_keywords:
+- peninputpanel/CorrectionPosition
 dev_langs:
- - c++
+- c++
 req.header: peninputpanel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - peninputpanel.h
+- peninputpanel.h
 api_name:
- - CorrectionPosition
+- CorrectionPosition
 targetos: Windows
 req.typenames: CorrectionPosition
 req.redist: 

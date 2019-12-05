@@ -1,19 +1,17 @@
 ---
 UID: NS:winuser.tagPOINTER_TOUCH_INFO
 title: POINTER_TOUCH_INFO (winuser.h)
-
 description: Defines basic touch information common to all pointer types.
 old-location: inputmsg\pointer_touch_info_struct.htm
 tech.root: InputMsg
 ms.assetid: fee176ba-ad07-3141-ab4d-1b8c335fd102
-
 ms.date: 12/05/2018
 ms.keywords: POINTER_TOUCH_INFO, POINTER_TOUCH_INFO structure [Input Messages and Notifications], _POINTER_TOUCH_INFO, inputmsg.pointer_touch_info_struct, winuser/POINTER_TOUCH_INFO
 ms.topic: struct
-f1_keywords: 
- - "winuser/POINTER_TOUCH_INFO"
+f1_keywords:
+- winuser/POINTER_TOUCH_INFO
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Winuser.h
+- Winuser.h
 api_name:
- - POINTER_TOUCH_INFO
+- POINTER_TOUCH_INFO
 targetos: Windows
 req.typenames: POINTER_TOUCH_INFO
 req.redist: 

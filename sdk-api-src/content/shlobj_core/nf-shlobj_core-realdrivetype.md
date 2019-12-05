@@ -1,19 +1,17 @@
 ---
 UID: NF:shlobj_core.RealDriveType
 title: RealDriveType function (shlobj_core.h)
-
 description: RealDriveType may be altered or unavailable.
 old-location: shell\RealDriveType.htm
 tech.root: shell
 ms.assetid: c4e55b50-637a-446f-aa9c-7d8c71d8071c
-
 ms.date: 12/05/2018
 ms.keywords: RealDriveType, RealDriveType function [Windows Shell], _win32_RealDriveType, shell.RealDriveType, shlobj_core/RealDriveType
 ms.topic: function
-f1_keywords: 
- - "shlobj_core/RealDriveType"
+f1_keywords:
+- shlobj_core/RealDriveType
 dev_langs:
- - c++
+- c++
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Shell32.lib
 req.dll: Shell32.dll (version 5.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - RealDriveType
+- RealDriveType
 targetos: Windows
 req.typenames: 
 req.redist: 

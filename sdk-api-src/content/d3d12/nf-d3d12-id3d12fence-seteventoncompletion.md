@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d12.ID3D12Fence.SetEventOnCompletion
 title: ID3D12Fence::SetEventOnCompletion (d3d12.h)
-
 description: Specifies an event that should be fired when the fence reaches a certain value.
 old-location: direct3d12\id3d12fence_seteventoncompletion.htm
 tech.root: direct3d12
 ms.assetid: DBC5A1FD-F3D0-4C9B-965B-1967151093F7
-
 ms.date: 12/05/2018
 ms.keywords: ID3D12Fence interface,SetEventOnCompletion method, ID3D12Fence.SetEventOnCompletion, ID3D12Fence::SetEventOnCompletion, SetEventOnCompletion, SetEventOnCompletion method, SetEventOnCompletion method,ID3D12Fence interface, d3d12/ID3D12Fence::SetEventOnCompletion, direct3d12.id3d12fence_seteventoncompletion
 ms.topic: method
-f1_keywords: 
- - "d3d12/ID3D12Fence.SetEventOnCompletion"
+f1_keywords:
+- d3d12/ID3D12Fence.SetEventOnCompletion
 dev_langs:
- - c++
+- c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: D3D12.lib
 req.dll: D3D12.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D12.dll
+- D3D12.dll
 api_name:
- - ID3D12Fence.SetEventOnCompletion
+- ID3D12Fence.SetEventOnCompletion
 targetos: Windows
 req.typenames: 
 req.redist: 

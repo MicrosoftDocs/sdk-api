@@ -1,19 +1,17 @@
 ---
 UID: NN:amstream.IMediaStreamFilter
 title: IMediaStreamFilter (amstream.h)
-
 description: Note  This interface is deprecated. New applications should not use it. The IMediaStreamFilter interface is supported by the Media Stream filter, which is used internally by the multimedia stream object. Applications should not use this interface.
 old-location: dshow\imediastreamfilter.htm
 tech.root: DirectShow
 ms.assetid: 1ac4976b-7088-47ac-9689-58c143746f05
-
 ms.date: 12/05/2018
 ms.keywords: IMediaStreamFilter, IMediaStreamFilter interface [DirectShow], IMediaStreamFilter interface [DirectShow],described, IMediaStreamFilterInterface, amstream/IMediaStreamFilter, dshow.imediastreamfilter
 ms.topic: interface
-f1_keywords: 
- - "amstream/IMediaStreamFilter"
+f1_keywords:
+- amstream/IMediaStreamFilter
 dev_langs:
- - c++
+- c++
 req.header: amstream.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - amstream.h
+- amstream.h
 api_name:
- - IMediaStreamFilter
+- IMediaStreamFilter
 targetos: Windows
 req.typenames: 
 req.redist: 

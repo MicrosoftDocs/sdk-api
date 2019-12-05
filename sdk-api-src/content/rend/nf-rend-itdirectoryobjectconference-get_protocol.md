@@ -1,19 +1,17 @@
 ---
 UID: NF:rend.ITDirectoryObjectConference.get_Protocol
 title: ITDirectoryObjectConference::get_Protocol (rend.h)
-
 description: The get_Protocol method gets protocol identification.
 old-location: tapi3\itdirectoryobjectconference_get_protocol.htm
 tech.root: Tapi
 ms.assetid: 2a9d1b8e-1ebc-4a67-87cf-f88aaf25c309
-
 ms.date: 12/05/2018
 ms.keywords: ITDirectoryObjectConference interface [TAPI 2.2],get_Protocol method, ITDirectoryObjectConference.get_Protocol, ITDirectoryObjectConference::get_Protocol, _tapi3_itdirectoryobjectconference_get_protocol, get_Protocol, get_Protocol method [TAPI 2.2], get_Protocol method [TAPI 2.2],ITDirectoryObjectConference interface, rend/ITDirectoryObjectConference::get_Protocol, tapi3.itdirectoryobjectconference_get_protocol
 ms.topic: method
-f1_keywords: 
- - "rend/ITDirectoryObjectConference.get_Protocol"
+f1_keywords:
+- rend/ITDirectoryObjectConference.get_Protocol
 dev_langs:
- - c++
+- c++
 req.header: rend.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Rend.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Rend.dll
+- Rend.dll
 api_name:
- - ITDirectoryObjectConference.get_Protocol
+- ITDirectoryObjectConference.get_Protocol
 targetos: Windows
 req.typenames: 
 req.redist: 

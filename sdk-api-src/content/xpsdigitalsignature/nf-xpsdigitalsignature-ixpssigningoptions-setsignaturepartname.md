@@ -1,19 +1,17 @@
 ---
 UID: NF:xpsdigitalsignature.IXpsSigningOptions.SetSignaturePartName
 title: IXpsSigningOptions::SetSignaturePartName (xpsdigitalsignature.h)
-
 description: Sets the part name of the document's signature part.
 old-location: xps\ixpssigningoptions_setsignaturepartname.htm
 tech.root: printdocs
 ms.assetid: 24addd5c-09a5-4f1b-90eb-c398aa7dd9a1
-
 ms.date: 12/05/2018
 ms.keywords: IXpsSigningOptions interface [XPS Documents and Packaging],SetSignaturePartName method, IXpsSigningOptions.SetSignaturePartName, IXpsSigningOptions::SetSignaturePartName, SetSignaturePartName, SetSignaturePartName method [XPS Documents and Packaging], SetSignaturePartName method [XPS Documents and Packaging],IXpsSigningOptions interface, xps.ixpssigningoptions_setsignaturepartname, xpsdigitalsignature/IXpsSigningOptions::SetSignaturePartName
 ms.topic: method
-f1_keywords: 
- - "xpsdigitalsignature/IXpsSigningOptions.SetSignaturePartName"
+f1_keywords:
+- xpsdigitalsignature/IXpsSigningOptions.SetSignaturePartName
 dev_langs:
- - c++
+- c++
 req.header: xpsdigitalsignature.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsdigitalsignature.h
+- xpsdigitalsignature.h
 api_name:
- - IXpsSigningOptions.SetSignaturePartName
+- IXpsSigningOptions.SetSignaturePartName
 targetos: Windows
 req.typenames: 
 req.redist: 

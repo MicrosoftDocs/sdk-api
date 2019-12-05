@@ -1,19 +1,17 @@
 ---
 UID: NE:d3dcsx.D3DX11_SCAN_OPCODE
 title: D3DX11_SCAN_OPCODE (d3dcsx.h)
-
 description: Scan opcodes.
 old-location: direct3d11\d3dx11_scan_opcode.htm
 tech.root: direct3d11
 ms.assetid: eba6912b-0e24-4c61-9c8e-fe801bf709e2
-
 ms.date: 12/05/2018
 ms.keywords: 89459212-6bc9-40e6-1512-0b759d4b5126, D3DX11_SCAN_OPCODE, D3DX11_SCAN_OPCODE enumeration [Direct3D 11], D3DX11_SCAN_OPCODE_ADD, D3DX11_SCAN_OPCODE_AND, D3DX11_SCAN_OPCODE_MAX, D3DX11_SCAN_OPCODE_MIN, D3DX11_SCAN_OPCODE_MUL, D3DX11_SCAN_OPCODE_OR, D3DX11_SCAN_OPCODE_XOR, d3dcsx/D3DX11_SCAN_OPCODE, d3dcsx/D3DX11_SCAN_OPCODE_ADD, d3dcsx/D3DX11_SCAN_OPCODE_AND, d3dcsx/D3DX11_SCAN_OPCODE_MAX, d3dcsx/D3DX11_SCAN_OPCODE_MIN, d3dcsx/D3DX11_SCAN_OPCODE_MUL, d3dcsx/D3DX11_SCAN_OPCODE_OR, d3dcsx/D3DX11_SCAN_OPCODE_XOR, direct3d11.d3dx11_scan_opcode
 ms.topic: enum
-f1_keywords: 
- - "d3dcsx/D3DX11_SCAN_OPCODE"
+f1_keywords:
+- d3dcsx/D3DX11_SCAN_OPCODE
 dev_langs:
- - c++
+- c++
 req.header: d3dcsx.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - d3dcsx.h
+- d3dcsx.h
 api_name:
- - D3DX11_SCAN_OPCODE
+- D3DX11_SCAN_OPCODE
 targetos: Windows
 req.typenames: D3DX11_SCAN_OPCODE
 req.redist: 

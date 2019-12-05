@@ -1,19 +1,17 @@
 ---
 UID: NF:upnp.IUPnPDevice.get_IsRootDevice
 title: IUPnPDevice::get_IsRootDevice (upnp.h)
-
 description: The IsRootDevice property specifies whether the device is the topmost device in the device tree.
 old-location: upnp\iupnpdevice_isrootdevice.htm
 tech.root: upnp
 ms.assetid: 0416c4f0-1289-4e91-be34-23f8b80df5c3
-
 ms.date: 12/05/2018
 ms.keywords: IUPnPDevice interface [UPnP APIs],get_IsRootDevice method, IUPnPDevice.get_IsRootDevice, IUPnPDevice::get_IsRootDevice, _upnp_iupnpdevice_isrootdevice, get_IsRootDevice, get_IsRootDevice method [UPnP APIs], get_IsRootDevice method [UPnP APIs],IUPnPDevice interface, upnp.iupnpdevice_isrootdevice, upnp/IUPnPDevice::get_IsRootDevice
 ms.topic: method
-f1_keywords: 
- - "upnp/IUPnPDevice.get_IsRootDevice"
+f1_keywords:
+- upnp/IUPnPDevice.get_IsRootDevice
 dev_langs:
- - c++
+- c++
 req.header: upnp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Upnp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Upnp.dll
+- Upnp.dll
 api_name:
- - IUPnPDevice.get_IsRootDevice
+- IUPnPDevice.get_IsRootDevice
 targetos: Windows
 req.typenames: 
 req.redist: 

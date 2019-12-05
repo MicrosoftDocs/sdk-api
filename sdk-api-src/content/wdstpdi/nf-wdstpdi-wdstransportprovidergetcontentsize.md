@@ -1,19 +1,17 @@
 ---
 UID: NF:wdstpdi.WdsTransportProviderGetContentSize
 title: WdsTransportProviderGetContentSize function (wdstpdi.h)
-
 description: Retrieves the size of an open content stream.
 old-location: wds\wdstransportprovidergetcontentsize.htm
 tech.root: wds
 ms.assetid: 2ab55723-b55a-454e-92f8-164a07c86028
-
 ms.date: 12/05/2018
 ms.keywords: WdsTransportProviderGetContentSize, WdsTransportProviderGetContentSize callback, WdsTransportProviderGetContentSize callback function [Windows Deployment Services], wds.wdstransportprovidergetcontentsize, wdstpdi/WdsTransportProviderGetContentSize
 ms.topic: function
-f1_keywords: 
- - "wdstpdi/WdsTransportProviderGetContentSize"
+f1_keywords:
+- wdstpdi/WdsTransportProviderGetContentSize
 dev_langs:
- - c++
+- c++
 req.header: wdstpdi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - wdstpdi.h
+- wdstpdi.h
 api_name:
- - WdsTransportProviderGetContentSize
+- WdsTransportProviderGetContentSize
 targetos: Windows
 req.typenames: 
 req.redist: 

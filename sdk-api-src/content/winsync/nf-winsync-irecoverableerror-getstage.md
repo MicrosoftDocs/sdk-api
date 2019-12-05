@@ -1,19 +1,17 @@
 ---
 UID: NF:winsync.IRecoverableError.GetStage
 title: IRecoverableError::GetStage (winsync.h)
-
 description: Gets the stage in the synchronization session when the error occurred.
 old-location: winsync\irecoverableerror_getstage.htm
 tech.root: winsync
 ms.assetid: 4ddfb151-37f1-4df2-827a-11bc6f23ace6
-
 ms.date: 12/05/2018
 ms.keywords: GetStage, GetStage method [Windows Sync], GetStage method [Windows Sync],IRecoverableError interface, IRecoverableError interface [Windows Sync],GetStage method, IRecoverableError.GetStage, IRecoverableError::GetStage, winsync.irecoverableerror_getstage, winsync/IRecoverableError::GetStage
 ms.topic: method
-f1_keywords: 
- - "winsync/IRecoverableError.GetStage"
+f1_keywords:
+- winsync/IRecoverableError.GetStage
 dev_langs:
- - c++
+- c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - winsync.h
+- winsync.h
 api_name:
- - IRecoverableError.GetStage
+- IRecoverableError.GetStage
 targetos: Windows
 req.typenames: 
 req.redist: 

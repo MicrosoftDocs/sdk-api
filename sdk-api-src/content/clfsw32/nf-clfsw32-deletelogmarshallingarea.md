@@ -1,19 +1,17 @@
 ---
 UID: NF:clfsw32.DeleteLogMarshallingArea
 title: DeleteLogMarshallingArea function (clfsw32.h)
-
 description: Deletes a marshaling area that is created by a successful call to CreateLogMarshallingArea.
 old-location: fs\deletelogmarshallingarea.htm
 tech.root: Clfs
 ms.assetid: d58bd64f-fa76-4ab3-9660-e31e9029171c
-
 ms.date: 12/05/2018
 ms.keywords: DeleteLogMarshallingArea, DeleteLogMarshallingArea function [Files], clfsw32/DeleteLogMarshallingArea, fs.deletelogmarshalingarea, fs.deletelogmarshallingarea
 ms.topic: function
-f1_keywords: 
- - "clfsw32/DeleteLogMarshallingArea"
+f1_keywords:
+- clfsw32/DeleteLogMarshallingArea
 dev_langs:
- - c++
+- c++
 req.header: clfsw32.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Clfsw32.lib
 req.dll: Clfsw32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Clfsw32.dll
+- Clfsw32.dll
 api_name:
- - DeleteLogMarshallingArea
+- DeleteLogMarshallingArea
 targetos: Windows
 req.typenames: 
 req.redist: 

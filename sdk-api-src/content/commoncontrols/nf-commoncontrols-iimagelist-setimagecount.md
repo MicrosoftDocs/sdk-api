@@ -1,19 +1,17 @@
 ---
 UID: NF:commoncontrols.IImageList.SetImageCount
 title: IImageList::SetImageCount (commoncontrols.h)
-
 description: Resizes an existing image list.
 old-location: controls\IImageList_SetImageCount.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\imagelist\ifaces\iimagelist\setimagecount.htm
-
 ms.date: 12/05/2018
 ms.keywords: IImageList interface [Windows Controls],SetImageCount method, IImageList.SetImageCount, IImageList::SetImageCount, SetImageCount, SetImageCount method [Windows Controls], SetImageCount method [Windows Controls],IImageList interface, comctl_IImageList_SetImageCount, comctl_IImageList_SetImageCount_cpp, commoncontrols/IImageList::SetImageCount, controls.IImageList_SetImageCount, controls.comctl_IImageList_SetImageCount
 ms.topic: method
-f1_keywords: 
- - "commoncontrols/IImageList.SetImageCount"
+f1_keywords:
+- commoncontrols/IImageList.SetImageCount
 dev_langs:
- - c++
+- c++
 req.header: commoncontrols.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Comctl32.dll (version 6.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Comctl32.dll
+- Comctl32.dll
 api_name:
- - IImageList.SetImageCount
+- IImageList.SetImageCount
 targetos: Windows
 req.typenames: 
 req.redist: 

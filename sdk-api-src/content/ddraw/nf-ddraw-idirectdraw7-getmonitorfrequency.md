@@ -1,19 +1,17 @@
 ---
 UID: NF:ddraw.IDirectDraw7.GetMonitorFrequency
 title: IDirectDraw7::GetMonitorFrequency (ddraw.h)
-
 description: Retrieves the frequency of the monitor that the DirectDraw object controls.
 old-location: directdraw\idirectdraw7_getmonitorfrequency.htm
 tech.root: directdraw
 ms.assetid: 13f8e5c2-b957-43ce-9fc8-5554c2321bdd
-
 ms.date: 12/05/2018
 ms.keywords: GetMonitorFrequency, GetMonitorFrequency method [DirectDraw], GetMonitorFrequency method [DirectDraw],IDirectDraw7 interface, IDirectDraw7 interface [DirectDraw],GetMonitorFrequency method, IDirectDraw7.GetMonitorFrequency, IDirectDraw7::GetMonitorFrequency, ddraw/IDirectDraw7::GetMonitorFrequency, directdraw.idirectdraw7_getmonitorfrequency
 ms.topic: method
-f1_keywords: 
- - "ddraw/IDirectDraw7.GetMonitorFrequency"
+f1_keywords:
+- ddraw/IDirectDraw7.GetMonitorFrequency
 dev_langs:
- - c++
+- c++
 req.header: ddraw.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Ddraw.lib
 req.dll: Ddraw.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Ddraw.dll
+- Ddraw.dll
 api_name:
- - IDirectDraw7.GetMonitorFrequency
+- IDirectDraw7.GetMonitorFrequency
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:d2d1_1.ID2D1CommandSink.FillRectangle
 title: ID2D1CommandSink::FillRectangle (d2d1_1.h)
-
 description: Indicates to the command sink a rectangle to be filled.
 old-location: direct2d\id2d1commandsink_fillrectangle.htm
 tech.root: Direct2D
 ms.assetid: c970a962-8d03-4de8-9252-9babfa411e5f
-
 ms.date: 12/05/2018
 ms.keywords: FillRectangle, FillRectangle method [Direct2D], FillRectangle method [Direct2D],ID2D1CommandSink interface, ID2D1CommandSink interface [Direct2D],FillRectangle method, ID2D1CommandSink.FillRectangle, ID2D1CommandSink::FillRectangle, d2d1_1/ID2D1CommandSink::FillRectangle, direct2d.id2d1commandsink_fillrectangle
 ms.topic: method
-f1_keywords: 
- - "d2d1_1/ID2D1CommandSink.FillRectangle"
+f1_keywords:
+- d2d1_1/ID2D1CommandSink.FillRectangle
 dev_langs:
- - c++
+- c++
 req.header: d2d1_1.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: D2d1.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D2d1.dll
+- D2d1.dll
 api_name:
- - ID2D1CommandSink.FillRectangle
+- ID2D1CommandSink.FillRectangle
 targetos: Windows
 req.typenames: 
 req.redist: 

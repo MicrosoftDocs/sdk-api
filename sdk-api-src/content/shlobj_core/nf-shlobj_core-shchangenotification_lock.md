@@ -1,19 +1,17 @@
 ---
 UID: NF:shlobj_core.SHChangeNotification_Lock
 title: SHChangeNotification_Lock function (shlobj_core.h)
-
 description: Locks the shared memory associated with a Shell change notification event.
 old-location: shell\SHChangeNotification_Lock.htm
 tech.root: shell
 ms.assetid: 8e22d5d0-64be-403c-982d-c23705d85223
-
 ms.date: 12/05/2018
 ms.keywords: SHChangeNotification_Lock, SHChangeNotification_Lock function [Windows Shell], _win32_SHChangeNotification_Lock, shell.SHChangeNotification_Lock, shlobj_core/SHChangeNotification_Lock
 ms.topic: function
-f1_keywords: 
- - "shlobj_core/SHChangeNotification_Lock"
+f1_keywords:
+- shlobj_core/SHChangeNotification_Lock
 dev_langs:
- - c++
+- c++
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Shell32.lib
 req.dll: Shell32.dll (version 6.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Shell32.dll
- - ext-ms-win-shell-shell32-l1-2-1.dll
- - Ext-MS-Win-Shell-Shell32-L1-2-2.dll
+- Shell32.dll
+- ext-ms-win-shell-shell32-l1-2-1.dll
+- Ext-MS-Win-Shell-Shell32-L1-2-2.dll
 api_name:
- - SHChangeNotification_Lock
+- SHChangeNotification_Lock
 targetos: Windows
 req.typenames: 
 req.redist: 

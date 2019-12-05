@@ -1,19 +1,17 @@
 ---
 UID: NF:mobsync.ISyncMgrSynchronizeCallback.EnableModeless
 title: ISyncMgrSynchronizeCallback::EnableModeless (mobsync.h)
-
 description: Called by the registered application before and after any dialog boxes are displayed from within the PrepareForSync and Synchronize methods.
 old-location: shell\syncmgr_isyncmgrsynchronizecallback_enablemodeless.htm
 tech.root: shell
 ms.assetid: 00102220-3734-40f2-ae6c-2807e44e17a1
-
 ms.date: 12/05/2018
 ms.keywords: EnableModeless, EnableModeless method [Windows Shell], EnableModeless method [Windows Shell],ISyncMgrSynchronizeCallback interface, ISyncMgrSynchronizeCallback interface [Windows Shell],EnableModeless method, ISyncMgrSynchronizeCallback.EnableModeless, ISyncMgrSynchronizeCallback::EnableModeless, mobsync/ISyncMgrSynchronizeCallback::EnableModeless, shell.syncmgr_isyncmgrsynchronizecallback_enablemodeless, syncmgr.isyncmgrsynchronizecallback_enablemodeless
 ms.topic: method
-f1_keywords: 
- - "mobsync/ISyncMgrSynchronizeCallback.EnableModeless"
+f1_keywords:
+- mobsync/ISyncMgrSynchronizeCallback.EnableModeless
 dev_langs:
- - c++
+- c++
 req.header: mobsync.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Mobsync.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mobsync.dll
+- Mobsync.dll
 api_name:
- - ISyncMgrSynchronizeCallback.EnableModeless
+- ISyncMgrSynchronizeCallback.EnableModeless
 targetos: Windows
 req.typenames: 
 req.redist: 

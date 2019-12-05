@@ -1,19 +1,17 @@
 ---
 UID: NF:sensevts.ISensOnNow.OnACPower
 title: ISensOnNow::OnACPower (sensevts.h)
-
 description: SENS calls the OnACPower method to notify your application that the computer is using AC power.
 old-location: sens\isensonnow_onacpower.htm
 tech.root: Sens
 ms.assetid: 4d9e8de9-a329-4f8c-883b-e4baab04729b
-
 ms.date: 12/05/2018
 ms.keywords: ISensOnNow interface [SENS],OnACPower method, ISensOnNow.OnACPower, ISensOnNow::OnACPower, OnACPower, OnACPower method [SENS], OnACPower method [SENS],ISensOnNow interface, _zaw_isensonnow_onacpower, sens.isensonnow_onacpower, sensevts/ISensOnNow::OnACPower, syncmgr.isensonnow_onacpower
 ms.topic: method
-f1_keywords: 
- - "sensevts/ISensOnNow.OnACPower"
+f1_keywords:
+- sensevts/ISensOnNow.OnACPower
 dev_langs:
- - c++
+- c++
 req.header: sensevts.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Sens.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Sens.dll
+- Sens.dll
 api_name:
- - ISensOnNow.OnACPower
+- ISensOnNow.OnACPower
 targetos: Windows
 req.typenames: 
 req.redist: 

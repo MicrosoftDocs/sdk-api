@@ -1,19 +1,17 @@
 ---
 UID: NF:mswmdm.IWMDMStorage.GetRights
 title: IWMDMStorage::GetRights (mswmdm.h)
-
 description: The GetRights method retrieves rights information for a licensed storage.
 old-location: wmdm\iwmdmstorage_getrights.htm
 tech.root: WMDM
 ms.assetid: 5b654d32-b72a-44cf-a8d9-63fc0ae76171
-
 ms.date: 12/05/2018
 ms.keywords: GetRights, GetRights method [windows Media Device Manager], GetRights method [windows Media Device Manager],IWMDMStorage interface, IWMDMStorage interface [windows Media Device Manager],GetRights method, IWMDMStorage.GetRights, IWMDMStorage::GetRights, IWMDMStorageGetRights, mswmdm/IWMDMStorage::GetRights, wmdm.iwmdmstorage_getrights
 ms.topic: method
-f1_keywords: 
- - "mswmdm/IWMDMStorage.GetRights"
+f1_keywords:
+- mswmdm/IWMDMStorage.GetRights
 dev_langs:
- - c++
+- c++
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mssachlp.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mssachlp.lib
- - mssachlp.dll
+- mssachlp.lib
+- mssachlp.dll
 api_name:
- - IWMDMStorage.GetRights
+- IWMDMStorage.GetRights
 targetos: Windows
 req.typenames: 
 req.redist: 

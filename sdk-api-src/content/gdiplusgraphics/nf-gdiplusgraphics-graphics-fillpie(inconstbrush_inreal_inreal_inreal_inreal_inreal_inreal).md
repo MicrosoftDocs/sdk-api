@@ -1,19 +1,17 @@
 ---
 UID: NF:gdiplusgraphics.Graphics.FillPie(IN const Brush,IN REAL,IN REAL,IN REAL,IN REAL,IN REAL,IN REAL)
 title: Graphics::FillPie(IN const Brush,IN REAL,IN REAL,IN REAL,IN REAL,IN REAL,IN REAL) (gdiplusgraphics.h)
-
 description: The Graphics::FillPie method uses a brush to fill the interior of a pie.
 old-location: gdiplus\_gdiplus_CLASS_Graphics_FillPie_Brush_brush_REAL_x_REAL_y_REAL_width_REAL_height_REAL_startAngle_REA.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\graphicsfillpiemethods\fillpie_76brushbrush_realx_realy_realwidth_realh.htm
-
 ms.date: 12/05/2018
 ms.keywords: FillPie, FillPie method [GDI+], FillPie method [GDI+],Graphics class, Graphics class [GDI+],FillPie method, Graphics.FillPie, Graphics.FillPie(IN const Brush,IN REAL,IN REAL,IN REAL,IN REAL,IN REAL,IN REAL), Graphics.FillPie(const Brush*,REAL,REAL,REAL,REAL,REAL,REAL), Graphics::FillPie, Graphics::FillPie(IN const Brush,IN REAL,IN REAL,IN REAL,IN REAL,IN REAL,IN REAL), _gdiplus_CLASS_Graphics_FillPie_Brush_brush_REAL_x_REAL_y_REAL_width_REAL_height_REAL_startAngle_REA, gdiplus._gdiplus_CLASS_Graphics_FillPie_Brush_brush_REAL_x_REAL_y_REAL_width_REAL_height_REAL_startAngle_REA
 ms.topic: method
-f1_keywords: 
- - "gdiplusgraphics/Graphics.FillPie"
+f1_keywords:
+- gdiplusgraphics/Graphics.FillPie
 dev_langs:
- - c++
+- c++
 req.header: gdiplusgraphics.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - Graphics.FillPie
+- Graphics.FillPie
 targetos: Windows
 req.typenames: 
 req.redist: 

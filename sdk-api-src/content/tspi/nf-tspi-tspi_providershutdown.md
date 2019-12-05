@@ -1,19 +1,17 @@
 ---
 UID: NF:tspi.TSPI_providerShutdown
 title: TSPI_providerShutdown function (tspi.h)
-
 description: The TSPI_providerShutdown function shuts down the service provider. The service provider terminates any activities it has in progress and releases any resources it has allocated.
 old-location: tspi\tspi_providershutdown.htm
 tech.root: Tapi
 ms.assetid: b13e0ed6-c053-4290-bc4c-5f66e4a376b7
-
 ms.date: 12/05/2018
 ms.keywords: TSPI_providerShutdown, TSPI_providerShutdown function [TAPI 2.2], _tspi_tspi_providershutdown, tspi.tspi_providershutdown, tspi/TSPI_providerShutdown
 ms.topic: function
-f1_keywords: 
- - "tspi/TSPI_providerShutdown"
+f1_keywords:
+- tspi/TSPI_providerShutdown
 dev_langs:
- - c++
+- c++
 req.header: tspi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Tspi.h
+- Tspi.h
 api_name:
- - TSPI_providerShutdown
+- TSPI_providerShutdown
 targetos: Windows
 req.typenames: 
 req.redist: 

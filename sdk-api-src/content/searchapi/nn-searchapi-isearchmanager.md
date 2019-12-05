@@ -1,19 +1,17 @@
 ---
 UID: NN:searchapi.ISearchManager
 title: ISearchManager (searchapi.h)
-
 description: Provides methods for controlling the Search service. This interface manages settings and objects that affect the search engine across catalogs.
 old-location: search\_search_ISearchManager.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\indexmanagement\isearchmanager\isearchmanager.htm
-
 ms.date: 12/05/2018
 ms.keywords: ISearchManager, ISearchManager interface [search], ISearchManager interface [search],described, _search_ISearchManager, search._search_ISearchManager, searchapi/ISearchManager
 ms.topic: interface
-f1_keywords: 
- - "searchapi/ISearchManager"
+f1_keywords:
+- searchapi/ISearchManager
 dev_langs:
- - c++
+- c++
 req.header: searchapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Searchapi.h
+- Searchapi.h
 api_name:
- - ISearchManager
+- ISearchManager
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0

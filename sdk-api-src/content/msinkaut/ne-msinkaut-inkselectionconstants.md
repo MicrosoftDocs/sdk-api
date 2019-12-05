@@ -1,19 +1,17 @@
 ---
 UID: NE:msinkaut.ItemSelectionConstants
 title: InkSelectionConstants (msinkaut.h)
-
 description: Specifies whether the first element or all elements within a group of points or packet values are used.
 old-location: tablet\itemselectionconstants.htm
 tech.root: tablet
 ms.assetid: 785b5ac7-b629-4948-a8bf-e92b74dacdb7
-
 ms.date: 12/05/2018
 ms.keywords: 785b5ac7-b629-4948-a8bf-e92b74dacdb7, ISC_AllElements, ISC_FirstElement, InkSelectionConstants, InkSelectionConstants enumeration [Tablet PC], ItemSelectionConstants, ItemSelectionConstants enumeration [Tablet PC], msinkaut/ISC_AllElements, msinkaut/ISC_FirstElement, msinkaut/ItemSelectionConstants, tablet.itemselectionconstants
 ms.topic: enum
-f1_keywords: 
- - "msinkaut/InkSelectionConstants"
+f1_keywords:
+- msinkaut/InkSelectionConstants
 dev_langs:
- - c++
+- c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - msinkaut.h
+- msinkaut.h
 api_name:
- - InkSelectionConstants
+- InkSelectionConstants
 targetos: Windows
 req.typenames: InkSelectionConstants
 req.redist: 

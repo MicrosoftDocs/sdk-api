@@ -1,19 +1,17 @@
 ---
 UID: NF:spellcheck.ISpellChecker.GetOptionDescription
 title: ISpellChecker::GetOptionDescription (spellcheck.h)
-
 description: Retrieves the information (id, description, heading and labels) of a specific option.
 old-location: intl\ispellchecker_getoptiondescription.htm
 tech.root: Intl
 ms.assetid: 5947f6ee-ad52-4d4d-a013-0c7dced273c3
-
 ms.date: 12/05/2018
 ms.keywords: GetOptionDescription, GetOptionDescription method [Internationalization for Windows Applications], GetOptionDescription method [Internationalization for Windows Applications],ISpellChecker interface, ISpellChecker interface [Internationalization for Windows Applications],GetOptionDescription method, ISpellChecker.GetOptionDescription, ISpellChecker::GetOptionDescription, intl.ispellchecker_getoptiondescription, spellcheck/ISpellChecker::GetOptionDescription
 ms.topic: method
-f1_keywords: 
- - "spellcheck/ISpellChecker.GetOptionDescription"
+f1_keywords:
+- spellcheck/ISpellChecker.GetOptionDescription
 dev_langs:
- - c++
+- c++
 req.header: spellcheck.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Spellcheck.h
+- Spellcheck.h
 api_name:
- - ISpellChecker.GetOptionDescription
+- ISpellChecker.GetOptionDescription
 targetos: Windows
 req.typenames: 
 req.redist: 

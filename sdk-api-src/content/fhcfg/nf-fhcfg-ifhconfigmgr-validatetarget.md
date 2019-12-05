@@ -1,19 +1,17 @@
 ---
 UID: NF:fhcfg.IFhConfigMgr.ValidateTarget
 title: IFhConfigMgr::ValidateTarget (fhcfg.h)
-
 description: Checks whether a certain storage device or network share can be used as a File History backup target.
 old-location: winprog\ifhconfigmgr_validatetarget.htm
 tech.root: DevNotes
 ms.assetid: EC41C4EE-A909-4DD4-AA32-5054BBEAF421
-
 ms.date: 12/05/2018
 ms.keywords: FhConfigMgr class [Windows API],ValidateTarget method, IFhConfigMgr interface [Windows API],ValidateTarget method, IFhConfigMgr.ValidateTarget, IFhConfigMgr::ValidateTarget, ValidateTarget, ValidateTarget method [Windows API], ValidateTarget method [Windows API],FhConfigMgr class, ValidateTarget method [Windows API],IFhConfigMgr interface, fhcfg/IFhConfigMgr::ValidateTarget, winprog.ifhconfigmgr_validatetarget
 ms.topic: method
 f1_keywords:
 - fhcfg/IFhConfigMgr.ValidateTarget
 dev_langs:
- - c++
+- c++
 req.header: fhcfg.h
 req.include-header: 
 req.target-type: Windows

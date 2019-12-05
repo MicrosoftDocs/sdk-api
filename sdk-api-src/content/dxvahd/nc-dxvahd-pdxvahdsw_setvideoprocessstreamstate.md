@@ -1,19 +1,17 @@
 ---
 UID: NC:dxvahd.PDXVAHDSW_SetVideoProcessStreamState
 title: PDXVAHDSW_SetVideoProcessStreamState (dxvahd.h)
-
 description: Sets a state parameter for an input stream on a software Microsoft DirectX Video Acceleration High Definition (DXVA-HD) video processor.
 old-location: mf\pdxvahdsw_setvideoprocessstreamstate.htm
 tech.root: medfound
 ms.assetid: 1fbecdbd-9f04-4d1e-82a6-4c6ce522cdaf
-
 ms.date: 12/05/2018
 ms.keywords: PDXVAHDSW_SetVideoProcessStreamState, PDXVAHDSW_SetVideoProcessStreamState callback, PDXVAHDSW_SetVideoProcessStreamState callback function [Media Foundation], dxvahd/PDXVAHDSW_SetVideoProcessStreamState, mf.pdxvahdsw_setvideoprocessstreamstate
 ms.topic: callback
 f1_keywords:
 - dxvahd/PDXVAHDSW_SetVideoProcessStreamState
 dev_langs:
- - c++
+- c++
 req.header: dxvahd.h
 req.include-header: 
 req.target-type: Windows

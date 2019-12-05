@@ -1,19 +1,17 @@
 ---
 UID: NF:rpcdce.RpcRevertToSelf
 title: RpcRevertToSelf function (rpcdce.h)
-
 description: After calling RpcImpersonateClient and completing any tasks that require client impersonation, the server calls RpcRevertToSelf to end impersonation and to reestablish its own security identity.
 old-location: rpc\rpcreverttoself.htm
 tech.root: Rpc
 ms.assetid: 07bbf6fa-f1df-4d9c-ae67-e79e2ccc12c8
-
 ms.date: 12/05/2018
 ms.keywords: RpcRevertToSelf, RpcRevertToSelf function [RPC], _rpc_rpcreverttoself, rpc.rpcreverttoself, rpcdce/RpcRevertToSelf
 ms.topic: function
-f1_keywords: 
- - "rpcdce/RpcRevertToSelf"
+f1_keywords:
+- rpcdce/RpcRevertToSelf
 dev_langs:
- - c++
+- c++
 req.header: rpcdce.h
 req.include-header: Rpc.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Rpcrt4.lib
 req.dll: Rpcrt4.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Rpcrt4.dll
+- Rpcrt4.dll
 api_name:
- - RpcRevertToSelf
+- RpcRevertToSelf
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:comsvcs.ISecurityCallContext.IsUserInRole
 title: ISecurityCallContext::IsUserInRole (comsvcs.h)
-
 description: Determines whether the specified user is in the specified role.
 old-location: cos\isecuritycallcontext_isuserinrole.htm
 tech.root: cossdk
 ms.assetid: aae5d89a-be46-40c8-ad5d-21f9b3a9c04f
-
 ms.date: 12/05/2018
 ms.keywords: ISecurityCallContext interface [COM+],IsUserInRole method, ISecurityCallContext.IsUserInRole, ISecurityCallContext::IsUserInRole, IsUserInRole, IsUserInRole method [COM+], IsUserInRole method [COM+],ISecurityCallContext interface, _cos_ISecurityCallContext_IsUserInRole, comsvcs/ISecurityCallContext::IsUserInRole, cos.isecuritycallcontext_isuserinrole
 ms.topic: method
-f1_keywords: 
- - "comsvcs/ISecurityCallContext.IsUserInRole"
+f1_keywords:
+- comsvcs/ISecurityCallContext.IsUserInRole
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - ISecurityCallContext.IsUserInRole
+- ISecurityCallContext.IsUserInRole
 targetos: Windows
 req.typenames: 
 req.redist: 

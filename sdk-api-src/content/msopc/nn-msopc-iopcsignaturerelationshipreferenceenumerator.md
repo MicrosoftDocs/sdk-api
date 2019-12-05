@@ -1,19 +1,17 @@
 ---
 UID: NN:msopc.IOpcSignatureRelationshipReferenceEnumerator
 title: IOpcSignatureRelationshipReferenceEnumerator (msopc.h)
-
 description: A read-only enumerator of IOpcSignatureRelationshipReference interface pointers.
 old-location: opc\iopcsignaturerelationshipreferenceenumerator.htm
 tech.root: OPC
 ms.assetid: aa4c6e8b-1a1f-464b-885e-bee0976afafc
-
 ms.date: 12/05/2018
 ms.keywords: IOpcSignatureRelationshipReferenceEnumerator, IOpcSignatureRelationshipReferenceEnumerator interface [Open Packaging Conventions], IOpcSignatureRelationshipReferenceEnumerator interface [Open Packaging Conventions],described, msopc/IOpcSignatureRelationshipReferenceEnumerator, opc.iopcsignaturerelationshipreferenceenumerator
 ms.topic: interface
-f1_keywords: 
- - "msopc/IOpcSignatureRelationshipReferenceEnumerator"
+f1_keywords:
+- msopc/IOpcSignatureRelationshipReferenceEnumerator
 dev_langs:
- - c++
+- c++
 req.header: msopc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msopc.h
+- msopc.h
 api_name:
- - IOpcSignatureRelationshipReferenceEnumerator
+- IOpcSignatureRelationshipReferenceEnumerator
 targetos: Windows
 req.typenames: 
 req.redist: 

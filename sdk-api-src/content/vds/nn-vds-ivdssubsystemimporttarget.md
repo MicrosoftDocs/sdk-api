@@ -1,19 +1,17 @@
 ---
 UID: NN:vds.IVdsSubSystemImportTarget
 title: IVdsSubSystemImportTarget (vds.h)
-
 description: Provides methods to query and configure the default VSS import target for the subsystem.
 old-location: base\ivdssubsystemimporttarget.htm
 tech.root: VDS
 ms.assetid: c9e2f353-d5d4-47a2-8398-5cbd9d499fb7
-
 ms.date: 12/05/2018
 ms.keywords: IVdsSubSystemImportTarget, IVdsSubSystemImportTarget interface [VDS], IVdsSubSystemImportTarget interface [VDS],described, base.ivdssubsystemimporttarget, vds/IVdsSubSystemImportTarget
 ms.topic: interface
-f1_keywords: 
- - "vds/IVdsSubSystemImportTarget"
+f1_keywords:
+- vds/IVdsSubSystemImportTarget
 dev_langs:
- - c++
+- c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Uuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Uuid.lib
- - Uuid.dll
+- Uuid.lib
+- Uuid.dll
 api_name:
- - IVdsSubSystemImportTarget
+- IVdsSubSystemImportTarget
 targetos: Windows
 req.typenames: 
 req.redist: VDS 1.1

@@ -1,19 +1,17 @@
 ---
 UID: NF:rpcnsi.RpcNsProfileEltRemoveA
 title: RpcNsProfileEltRemoveA function (rpcnsi.h)
-
 description: The RpcNsProfileEltRemove function removes an element from a profile.
 old-location: rpc\rpcnsprofileeltremove.htm
 tech.root: Rpc
 ms.assetid: 303df924-73ad-4e2f-aa30-e600bb5594c2
-
 ms.date: 12/05/2018
 ms.keywords: RpcNsProfileEltRemove, RpcNsProfileEltRemove function [RPC], RpcNsProfileEltRemoveA, RpcNsProfileEltRemoveW, _rpc_rpcnsprofileeltremove, rpc.rpcnsprofileeltremove, rpcnsi/RpcNsProfileEltRemove, rpcnsi/RpcNsProfileEltRemoveA, rpcnsi/RpcNsProfileEltRemoveW
 ms.topic: function
-f1_keywords: 
- - "rpcnsi/RpcNsProfileEltRemove"
+f1_keywords:
+- rpcnsi/RpcNsProfileEltRemove
 dev_langs:
- - c++
+- c++
 req.header: rpcnsi.h
 req.include-header: Rpc.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Rpcns4.lib
 req.dll: Rpcns4.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Rpcns4.dll
+- Rpcns4.dll
 api_name:
- - RpcNsProfileEltRemove
- - RpcNsProfileEltRemoveA
- - RpcNsProfileEltRemoveW
+- RpcNsProfileEltRemove
+- RpcNsProfileEltRemoveA
+- RpcNsProfileEltRemoveW
 targetos: Windows
 req.typenames: 
 req.redist: 

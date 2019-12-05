@@ -1,19 +1,17 @@
 ---
 UID: NN:wmcontainer.IMFDRMNetHelper
 title: IMFDRMNetHelper (wmcontainer.h)
-
 description: Configures Windows Media Digital Rights Management (DRM) for Network Devices on a network sink.
 old-location: mf\imfdrmnethelper.htm
 tech.root: medfound
 ms.assetid: 6f4ac19a-0972-4152-a64c-6c719efb396c
-
 ms.date: 12/05/2018
 ms.keywords: IMFDRMNetHelper, IMFDRMNetHelper interface [Media Foundation], IMFDRMNetHelper interface [Media Foundation],described, mf.imfdrmnethelper, wmcontainer/IMFDRMNetHelper
 ms.topic: interface
-f1_keywords: 
- - "wmcontainer/IMFDRMNetHelper"
+f1_keywords:
+- wmcontainer/IMFDRMNetHelper
 dev_langs:
- - c++
+- c++
 req.header: wmcontainer.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmcontainer.h
+- wmcontainer.h
 api_name:
- - IMFDRMNetHelper
+- IMFDRMNetHelper
 targetos: Windows
 req.typenames: 
 req.redist: 

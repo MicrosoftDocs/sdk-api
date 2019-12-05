@@ -1,19 +1,17 @@
 ---
 UID: NF:tom.ITextRange2.GetColumn
 title: ITextRange2::GetColumn (tom.h)
-
 description: Gets the column properties for the currently selected column.
 old-location: controls\itextrange2_getcolumn.htm
 tech.root: Controls
 ms.assetid: d8e2c985-9799-42c9-b23d-43c16bae5c69
-
 ms.date: 12/05/2018
 ms.keywords: GetColumn, GetColumn method [Windows Controls], GetColumn method [Windows Controls],ITextRange2 interface, ITextRange2 interface [Windows Controls],GetColumn method, ITextRange2.GetColumn, ITextRange2::GetColumn, controls.itextrange2_getcolumn, tom/ITextRange2::GetColumn
 ms.topic: method
-f1_keywords: 
- - "tom/ITextRange2.GetColumn"
+f1_keywords:
+- tom/ITextRange2.GetColumn
 dev_langs:
- - c++
+- c++
 req.header: tom.h
 req.include-header: Tom.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msftedit.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msftedit.dll
+- Msftedit.dll
 api_name:
- - ITextRange2.GetColumn
+- ITextRange2.GetColumn
 targetos: Windows
 req.typenames: 
 req.redist: 

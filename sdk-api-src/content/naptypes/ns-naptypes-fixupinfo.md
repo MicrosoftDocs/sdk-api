@@ -1,19 +1,17 @@
 ---
 UID: NS:naptypes.tagFixupInfo
 title: FixupInfo (naptypes.h)
-
 description: Contains fix-up information for the Sysytem Health Agent (SHA).
 old-location: nap\fixupinfo_struct.htm
 tech.root: NAP
 ms.assetid: 8f91534e-3281-4d5a-9af7-5f08eb0243f0
-
 ms.date: 12/05/2018
 ms.keywords: FixupInfo, FixupInfo structure [NAP], nap.fixupinfo_struct, naptypes/FixupInfo
 ms.topic: struct
-f1_keywords: 
- - "naptypes/FixupInfo"
+f1_keywords:
+- naptypes/FixupInfo
 dev_langs:
- - c++
+- c++
 req.header: naptypes.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - NapTypes.h
+- NapTypes.h
 api_name:
- - FixupInfo
+- FixupInfo
 targetos: Windows
 req.typenames: FixupInfo
 req.redist: 

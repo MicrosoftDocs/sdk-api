@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi3if.ITLegacyCallMediaControl2.GenerateCustomTonesByCollection
 title: ITLegacyCallMediaControl2::GenerateCustomTonesByCollection (tapi3if.h)
-
 description: The GenerateCustomTonesByCollection method generates the specified custom tone.
 old-location: tapi3\itlegacycallmediacontrol2_generatecustomtonesbycollection.htm
 tech.root: Tapi
 ms.assetid: 5115192e-68de-4779-92dc-7cf63585faae
-
 ms.date: 12/05/2018
 ms.keywords: GenerateCustomTonesByCollection, GenerateCustomTonesByCollection method [TAPI 2.2], GenerateCustomTonesByCollection method [TAPI 2.2],ITLegacyCallMediaControl2 interface, ITLegacyCallMediaControl2 interface [TAPI 2.2],GenerateCustomTonesByCollection method, ITLegacyCallMediaControl2.GenerateCustomTonesByCollection, ITLegacyCallMediaControl2::GenerateCustomTonesByCollection, _tapi3_itlegacycallmediacontrol2_generatecustomtonesbycollection, tapi3.itlegacycallmediacontrol2_generatecustomtonesbycollection, tapi3if/ITLegacyCallMediaControl2::GenerateCustomTonesByCollection
 ms.topic: method
-f1_keywords: 
- - "tapi3if/ITLegacyCallMediaControl2.GenerateCustomTonesByCollection"
+f1_keywords:
+- tapi3if/ITLegacyCallMediaControl2.GenerateCustomTonesByCollection
 dev_langs:
- - c++
+- c++
 req.header: tapi3if.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Tapi3.dll
+- Tapi3.dll
 api_name:
- - ITLegacyCallMediaControl2.GenerateCustomTonesByCollection
+- ITLegacyCallMediaControl2.GenerateCustomTonesByCollection
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NE:oleidl.tagOLECONTF
 title: OLECONTF (oleidl.h)
-
 description: Indicates the type of objects to be enumerated.
 old-location: com\olecontf.htm
 tech.root: com
 ms.assetid: 9c70fc86-7166-47dd-a424-741f18e381e3
-
 ms.date: 12/05/2018
 ms.keywords: OLECONTF, OLECONTF enumeration [COM], OLECONTF_EMBEDDINGS, OLECONTF_LINKS, OLECONTF_ONLYIFRUNNING, OLECONTF_ONLYUSER, OLECONTF_OTHERS, _ole_OLECONTF, com.olecontf, oleidl/OLECONTF, oleidl/OLECONTF_EMBEDDINGS, oleidl/OLECONTF_LINKS, oleidl/OLECONTF_ONLYIFRUNNING, oleidl/OLECONTF_ONLYUSER, oleidl/OLECONTF_OTHERS
 ms.topic: enum
-f1_keywords: 
- - "oleidl/OLECONTF"
+f1_keywords:
+- oleidl/OLECONTF
 dev_langs:
- - c++
+- c++
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - OleIdl.h
+- OleIdl.h
 api_name:
- - OLECONTF
+- OLECONTF
 targetos: Windows
 req.typenames: OLECONTF
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NS:sspi._SecPkgContext_Sizes
 title: SecPkgContext_Sizes (sspi.h)
-
 description: The SecPkgContext_Sizes structure indicates the sizes of important structures used in the message support functions. The QueryContextAttributes (General) function uses this structure.
 old-location: security\secpkgcontext_sizes.htm
 tech.root: SecAuthN
 ms.assetid: 46b6a155-8855-4aa0-a513-aa5b3760fcd4
-
 ms.date: 12/05/2018
-ms.keywords: "*PSecPkgContext_Sizes, PSecPkgContext_Sizes, PSecPkgContext_Sizes structure pointer [Security], SecPkgContext_Sizes, SecPkgContext_Sizes structure [Security], _ssp_secpkgcontext_sizes, security.secpkgcontext_sizes, sspi/PSecPkgContext_Sizes, sspi/SecPkgContext_Sizes"
+ms.keywords: '*PSecPkgContext_Sizes, PSecPkgContext_Sizes, PSecPkgContext_Sizes structure pointer [Security], SecPkgContext_Sizes, SecPkgContext_Sizes structure [Security], _ssp_secpkgcontext_sizes, security.secpkgcontext_sizes, sspi/PSecPkgContext_Sizes, sspi/SecPkgContext_Sizes'
 ms.topic: struct
-f1_keywords: 
- - "sspi/SecPkgContext_Sizes"
+f1_keywords:
+- sspi/SecPkgContext_Sizes
 dev_langs:
- - c++
+- c++
 req.header: sspi.h
 req.include-header: Security.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Sspi.h
+- Sspi.h
 api_name:
- - SecPkgContext_Sizes
+- SecPkgContext_Sizes
 targetos: Windows
 req.typenames: SecPkgContext_Sizes, *PSecPkgContext_Sizes
 req.redist: 

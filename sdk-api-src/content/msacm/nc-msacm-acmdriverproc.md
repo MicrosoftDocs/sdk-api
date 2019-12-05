@@ -1,19 +1,17 @@
 ---
 UID: NC:msacm.ACMDRIVERPROC
 title: ACMDRIVERPROC (msacm.h)
-
 description: The acmDriverProc function specifies a callback function used with the ACM driver.
 old-location: multimedia\acmdriverproc.htm
 tech.root: Multimedia
 ms.assetid: e29c157d-e56e-4242-abb8-2736d5599caa
-
 ms.date: 12/05/2018
-ms.keywords: "_win32_acmDriverProc, acmDriverProc, acmDriverProc callback, acmDriverProc callback function [Windows Multimedia], msacm/acmDriverProc, multimedia.acmdriverproc"
+ms.keywords: _win32_acmDriverProc, acmDriverProc, acmDriverProc callback, acmDriverProc callback function [Windows Multimedia], msacm/acmDriverProc, multimedia.acmdriverproc
 ms.topic: callback
-f1_keywords: 
- - "msacm/acmDriverProc"
+f1_keywords:
+- msacm/acmDriverProc
 dev_langs:
- - c++
+- c++
 req.header: msacm.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Msacm.h
+- Msacm.h
 api_name:
- - acmDriverProc
+- acmDriverProc
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:audioengineendpoint.IHardwareAudioEngineBase.GetGfxState
 title: IHardwareAudioEngineBase::GetGfxState (audioengineendpoint.h)
-
 description: The GetGfxState method retrieves the GFX state of the offloaded audio stream.
 old-location: coreaudio\ihardwareaudioenginebase_getgfxstate.htm
 tech.root: CoreAudio
 ms.assetid: 519D3BF1-B5C3-469A-A188-7D741E288337
-
 ms.date: 12/05/2018
 ms.keywords: GetGfxState, GetGfxState method [Core Audio], GetGfxState method [Core Audio],IHardwareAudioEngineBase interface, IHardwareAudioEngineBase interface [Core Audio],GetGfxState method, IHardwareAudioEngineBase.GetGfxState, IHardwareAudioEngineBase::GetGfxState, audioengineendpoint/IHardwareAudioEngineBase::GetGfxState, coreaudio.ihardwareaudioenginebase_getgfxstate
 ms.topic: method
-f1_keywords: 
- - "audioengineendpoint/IHardwareAudioEngineBase.GetGfxState"
+f1_keywords:
+- audioengineendpoint/IHardwareAudioEngineBase.GetGfxState
 dev_langs:
- - c++
+- c++
 req.header: audioengineendpoint.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - audioengineendpoint.h
+- audioengineendpoint.h
 api_name:
- - IHardwareAudioEngineBase.GetGfxState
+- IHardwareAudioEngineBase.GetGfxState
 targetos: Windows
 req.typenames: 
 req.redist: 

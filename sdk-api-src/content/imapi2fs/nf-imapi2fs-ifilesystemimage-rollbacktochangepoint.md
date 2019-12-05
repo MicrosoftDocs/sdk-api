@@ -1,19 +1,17 @@
 ---
 UID: NF:imapi2fs.IFileSystemImage.RollbackToChangePoint
 title: IFileSystemImage::RollbackToChangePoint (imapi2fs.h)
-
 description: Reverts the image back to the specified change point.
 old-location: imapi\ifilesystemimage_rollbacktochangepoint.htm
 tech.root: imapi
 ms.assetid: 852b88ed-6af7-4fe6-bf5f-831d55423130
-
 ms.date: 12/05/2018
 ms.keywords: IFileSystemImage interface [IMAPI],RollbackToChangePoint method, IFileSystemImage.RollbackToChangePoint, IFileSystemImage::RollbackToChangePoint, RollbackToChangePoint, RollbackToChangePoint method [IMAPI], RollbackToChangePoint method [IMAPI],IFileSystemImage interface, imapi.ifilesystemimage_rollbacktochangepoint, imapi2fs/IFileSystemImage::RollbackToChangePoint
 ms.topic: method
-f1_keywords: 
- - "imapi2fs/IFileSystemImage.RollbackToChangePoint"
+f1_keywords:
+- imapi2fs/IFileSystemImage.RollbackToChangePoint
 dev_langs:
- - c++
+- c++
 req.header: imapi2fs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - imapi2fs.h
+- imapi2fs.h
 api_name:
- - IFileSystemImage.RollbackToChangePoint
+- IFileSystemImage.RollbackToChangePoint
 targetos: Windows
 req.typenames: 
 req.redist: 

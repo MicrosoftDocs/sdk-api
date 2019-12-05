@@ -1,19 +1,17 @@
 ---
 UID: NE:objidl.tagSERVERCALL
 title: SERVERCALL (objidl.h)
-
 description: Indicates the status of server call.
 old-location: com\servercall.htm
 tech.root: com
 ms.assetid: 2a9b5e85-44b9-43c1-b3e5-a8f2c140b674
-
 ms.date: 12/05/2018
 ms.keywords: SERVERCALL, SERVERCALL enumeration [COM], SERVERCALL_ISHANDLED, SERVERCALL_REJECTED, SERVERCALL_RETRYLATER, _com_SERVERCALL, com.servercall, objidl/SERVERCALL, objidl/SERVERCALL_ISHANDLED, objidl/SERVERCALL_REJECTED, objidl/SERVERCALL_RETRYLATER
 ms.topic: enum
-f1_keywords: 
- - "objidl/SERVERCALL"
+f1_keywords:
+- objidl/SERVERCALL
 dev_langs:
- - c++
+- c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Objidl.h
+- Objidl.h
 api_name:
- - SERVERCALL
+- SERVERCALL
 targetos: Windows
 req.typenames: SERVERCALL
 req.redist: 

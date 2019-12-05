@@ -1,19 +1,17 @@
 ---
 UID: NF:wincodec.IWICBitmapEncoder.SetPreview
 title: IWICBitmapEncoder::SetPreview (wincodec.h)
-
 description: Sets the global preview for the image.
 old-location: wic\_wic_codec_iwicbitmapencoder_setpreview.htm
 tech.root: wic
 ms.assetid: ca02236d-9434-4db5-84af-9331f23e20a7
-
 ms.date: 12/05/2018
 ms.keywords: IWICBitmapEncoder interface [Windows Imaging Component],SetPreview method, IWICBitmapEncoder.SetPreview, IWICBitmapEncoder::SetPreview, SetPreview, SetPreview method [Windows Imaging Component], SetPreview method [Windows Imaging Component],IWICBitmapEncoder interface, _wic_codec_iwicbitmapencoder_setpreview, wic._wic_codec_iwicbitmapencoder_setpreview, wincodec/IWICBitmapEncoder::SetPreview
 ms.topic: method
-f1_keywords: 
- - "wincodec/IWICBitmapEncoder.SetPreview"
+f1_keywords:
+- wincodec/IWICBitmapEncoder.SetPreview
 dev_langs:
- - c++
+- c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Windowscodecs.lib
 req.dll: Windowscodecs.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Windowscodecs.dll
+- Windowscodecs.dll
 api_name:
- - IWICBitmapEncoder.SetPreview
+- IWICBitmapEncoder.SetPreview
 targetos: Windows
 req.typenames: 
 req.redist: 

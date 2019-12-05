@@ -1,19 +1,17 @@
 ---
 UID: NF:shldisp.IShellFolderViewDual.SelectItem
 title: IShellFolderViewDual::SelectItem (shldisp.h)
-
 description: Sets the selection state of an item in the view.
 old-location: shell\IShellFolderViewDual_SelectItem.htm
 tech.root: shell
 ms.assetid: fb9bc12f-bf5f-42f2-a1cd-160298f7c73a
-
 ms.date: 12/05/2018
 ms.keywords: IShellFolderViewDual interface [Windows Shell],SelectItem method, IShellFolderViewDual.SelectItem, IShellFolderViewDual::SelectItem, SelectItem, SelectItem method [Windows Shell], SelectItem method [Windows Shell],IShellFolderViewDual interface, _shell_IShellFolderViewDual_SelectItem, shell.IShellFolderViewDual_SelectItem, shldisp/IShellFolderViewDual::SelectItem
 ms.topic: method
-f1_keywords: 
- - "shldisp/IShellFolderViewDual.SelectItem"
+f1_keywords:
+- shldisp/IShellFolderViewDual.SelectItem
 dev_langs:
- - c++
+- c++
 req.header: shldisp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shldisp.h
+- Shldisp.h
 api_name:
- - IShellFolderViewDual.SelectItem
+- IShellFolderViewDual.SelectItem
 targetos: Windows
 req.typenames: 
 req.redist: 

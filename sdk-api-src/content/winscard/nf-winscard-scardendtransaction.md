@@ -1,19 +1,17 @@
 ---
 UID: NF:winscard.SCardEndTransaction
 title: SCardEndTransaction function (winscard.h)
-
 description: Completes a previously declared transaction, allowing other applications to resume interactions with the card.
 old-location: security\scardendtransaction.htm
 tech.root: SecAuthN
 ms.assetid: 0acaff20-006a-47d3-bc7a-834b3281cde6
-
 ms.date: 12/05/2018
 ms.keywords: SCARD_EJECT_CARD, SCARD_LEAVE_CARD, SCARD_RESET_CARD, SCARD_UNPOWER_CARD, SCardEndTransaction, SCardEndTransaction function [Security], _smart_scardendtransaction, security.scardendtransaction, winscard/SCardEndTransaction
 ms.topic: function
-f1_keywords: 
- - "winscard/SCardEndTransaction"
+f1_keywords:
+- winscard/SCardEndTransaction
 dev_langs:
- - c++
+- c++
 req.header: winscard.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Winscard.lib
 req.dll: Winscard.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Winscard.dll
- - Ext-MS-Win-Security-WinSCard-L1-1-0.dll
+- Winscard.dll
+- Ext-MS-Win-Security-WinSCard-L1-1-0.dll
 api_name:
- - SCardEndTransaction
+- SCardEndTransaction
 targetos: Windows
 req.typenames: 
 req.redist: 

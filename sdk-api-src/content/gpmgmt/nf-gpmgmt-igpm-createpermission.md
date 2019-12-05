@@ -1,19 +1,17 @@
 ---
 UID: NF:gpmgmt.IGPM.CreatePermission
 title: IGPM::CreatePermission (gpmgmt.h)
-
 description: Creates and returns an interface or object that represents the trustee (such as a user, computer or security group) and permission that applies to a single object; for example, to a GPO, SOM or a WMI filter.
 old-location: gpmc\igpm_createpermission.htm
 tech.root: gpmc
 ms.assetid: 8da90ca3-1c81-414f-b1a0-a0dfcae745ba
-
 ms.date: 12/05/2018
 ms.keywords: CreatePermission, CreatePermission method [GPMC], CreatePermission method [GPMC],GPM object, CreatePermission method [GPMC],IGPM interface, GPM object [GPMC],CreatePermission method, IGPM interface [GPMC],CreatePermission method, IGPM.CreatePermission, IGPM::CreatePermission, _win32_igpm_createpermission, gpmc.igpm_createpermission, gpmgmt/IGPM::CreatePermission, permGPOApply, permGPOEdit, permGPOEditSecurityAndDelete, permGPORead, permSOMGPOCreate, permSOMLink, permSOMLogging, permSOMPlanning, permSOMWMICreate, permSOMWMIFullControl, permWMIFilterEdit, permWMIFilterFullControl
 ms.topic: method
-f1_keywords: 
- - "gpmgmt/IGPM.CreatePermission"
+f1_keywords:
+- gpmgmt/IGPM.CreatePermission
 dev_langs:
- - c++
+- c++
 req.header: gpmgmt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: Gpmgmt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gpmgmt.dll
+- Gpmgmt.dll
 api_name:
- - IGPM.CreatePermission
- - GPM.CreatePermission
+- IGPM.CreatePermission
+- GPM.CreatePermission
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NN:comsvcs.IServiceSxsConfig
 title: IServiceSxsConfig (comsvcs.h)
-
 description: Configures side-by-side assemblies for the work that is done when calling either CoCreateActivity or CoEnterServiceDomain.
 old-location: cos\iservicesxsconfig.htm
 tech.root: cossdk
 ms.assetid: 24d4a22b-0a01-4bf2-9cc6-4a1b31897d05
-
 ms.date: 12/05/2018
 ms.keywords: IServiceSxSConfig, IServiceSxSConfig interface [COM+], IServiceSxSConfig interface [COM+],described, _cos_IServiceSxsConfig, comsvcs/IServiceSxSConfig, cos.iservicesxsconfig
 ms.topic: interface
-f1_keywords: 
- - "comsvcs/IServiceSxSConfig"
+f1_keywords:
+- comsvcs/IServiceSxSConfig
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - IServiceSxSConfig
+- IServiceSxSConfig
 targetos: Windows
 req.typenames: 
 req.redist: 

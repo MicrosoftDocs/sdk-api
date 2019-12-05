@@ -1,19 +1,17 @@
 ---
 UID: NF:appmodel.GetStagedPackageOrigin
 title: GetStagedPackageOrigin function (appmodel.h)
-
 description: Gets the origin of the specified package.
 old-location: appxpkg\getstagedpackageorigin.htm
 tech.root: appxpkg
 ms.assetid: 7A1EE2CA-83CE-4E03-85A5-0061E29EB49B
-
 ms.date: 12/05/2018
 ms.keywords: GetStagedPackageOrigin, GetStagedPackageOrigin function [App packaging and management], appmodel/GetStagedPackageOrigin, appxpkg.getstagedpackageorigin
 ms.topic: function
-f1_keywords: 
- - "appmodel/GetStagedPackageOrigin"
+f1_keywords:
+- appmodel/GetStagedPackageOrigin
 dev_langs:
- - c++
+- c++
 req.header: appmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,19 +30,19 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-AppModel-RunTime-l1-1-1.dll
- - Kernel.AppCore.dll
- - Ext-MS-Win-Kernel32-package-l1-1-2.dll
- - ext-ms-win-kernel32-package-l1-1-1.dll
- - API-MS-Win-AppModel-Runtime-L1-1-2.dll
+- Kernel32.dll
+- API-MS-Win-AppModel-RunTime-l1-1-1.dll
+- Kernel.AppCore.dll
+- Ext-MS-Win-Kernel32-package-l1-1-2.dll
+- ext-ms-win-kernel32-package-l1-1-1.dll
+- API-MS-Win-AppModel-Runtime-L1-1-2.dll
 api_name:
- - GetStagedPackageOrigin
+- GetStagedPackageOrigin
 targetos: Windows
 req.typenames: 
 req.redist: 

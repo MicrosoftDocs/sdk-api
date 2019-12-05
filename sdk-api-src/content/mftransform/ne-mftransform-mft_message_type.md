@@ -1,19 +1,17 @@
 ---
 UID: NE:mftransform._MFT_MESSAGE_TYPE
 title: MFT_MESSAGE_TYPE (mftransform.h)
-
 description: Defines messages for a Media Foundation transform (MFT).
 old-location: mf\mft_message_type.htm
 tech.root: medfound
 ms.assetid: 55b0aa32-53af-4f19-9d99-9885c1e28588
-
 ms.date: 12/05/2018
 ms.keywords: 55b0aa32-53af-4f19-9d99-9885c1e28588, MFT_MESSAGE_COMMAND_DRAIN, MFT_MESSAGE_COMMAND_FLUSH, MFT_MESSAGE_COMMAND_MARKER, MFT_MESSAGE_COMMAND_TICK, MFT_MESSAGE_DROP_SAMPLES, MFT_MESSAGE_NOTIFY_BEGIN_STREAMING, MFT_MESSAGE_NOTIFY_END_OF_STREAM, MFT_MESSAGE_NOTIFY_END_STREAMING, MFT_MESSAGE_NOTIFY_START_OF_STREAM, MFT_MESSAGE_SET_D3D_MANAGER, MFT_MESSAGE_TYPE, MFT_MESSAGE_TYPE enumeration [Media Foundation], mf.mft_message_type, mftransform/MFT_MESSAGE_COMMAND_DRAIN, mftransform/MFT_MESSAGE_COMMAND_FLUSH, mftransform/MFT_MESSAGE_COMMAND_MARKER, mftransform/MFT_MESSAGE_COMMAND_TICK, mftransform/MFT_MESSAGE_DROP_SAMPLES, mftransform/MFT_MESSAGE_NOTIFY_BEGIN_STREAMING, mftransform/MFT_MESSAGE_NOTIFY_END_OF_STREAM, mftransform/MFT_MESSAGE_NOTIFY_END_STREAMING, mftransform/MFT_MESSAGE_NOTIFY_START_OF_STREAM, mftransform/MFT_MESSAGE_SET_D3D_MANAGER, mftransform/MFT_MESSAGE_TYPE
 ms.topic: enum
-f1_keywords: 
- - "mftransform/MFT_MESSAGE_TYPE"
+f1_keywords:
+- mftransform/MFT_MESSAGE_TYPE
 dev_langs:
- - c++
+- c++
 req.header: mftransform.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - mftransform.h
+- mftransform.h
 api_name:
- - MFT_MESSAGE_TYPE
+- MFT_MESSAGE_TYPE
 targetos: Windows
 req.typenames: MFT_MESSAGE_TYPE
 req.redist: 

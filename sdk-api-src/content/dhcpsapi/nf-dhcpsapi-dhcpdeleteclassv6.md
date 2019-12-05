@@ -1,19 +1,17 @@
 ---
 UID: NF:dhcpsapi.DhcpDeleteClassV6
 title: DhcpDeleteClassV6 function (dhcpsapi.h)
-
 description: Deletes a DHCP class from the DHCPv6 server.
 old-location: dhcp\dhcpdeleteclassv6.htm
 tech.root: DHCP
 ms.assetid: b818ed6f-16a3-4259-be40-001875809c78
-
 ms.date: 12/05/2018
 ms.keywords: DhcpDeleteClassV6, DhcpDeleteClassV6 function [DHCP], dhcp.dhcpdeleteclassv6, dhcpsapi/DhcpDeleteClassV6
 ms.topic: function
-f1_keywords: 
- - "dhcpsapi/DhcpDeleteClassV6"
+f1_keywords:
+- dhcpsapi/DhcpDeleteClassV6
 dev_langs:
- - c++
+- c++
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dhcpsapi.lib
 req.dll: Dhcpsapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Dhcpsapi.dll
+- Dhcpsapi.dll
 api_name:
- - DhcpDeleteClassV6
+- DhcpDeleteClassV6
 targetos: Windows
 req.typenames: 
 req.redist: 

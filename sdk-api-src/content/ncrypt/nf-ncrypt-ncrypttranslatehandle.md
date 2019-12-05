@@ -1,19 +1,17 @@
 ---
 UID: NF:ncrypt.NCryptTranslateHandle
 title: NCryptTranslateHandle function (ncrypt.h)
-
 description: Translates a CryptoAPI handle into a CNG key handle.
 old-location: security\ncrypttranslatehandle.htm
 tech.root: SecCNG
 ms.assetid: 0c339864-b598-430c-a597-09d3571fdbb2
-
 ms.date: 12/05/2018
 ms.keywords: AT_KEYEXCHANGE, AT_SIGNATURE, NCryptTranslateHandle, NCryptTranslateHandle function [Security], ncrypt/NCryptTranslateHandle, security.ncrypttranslatehandle
 ms.topic: function
-f1_keywords: 
- - "ncrypt/NCryptTranslateHandle"
+f1_keywords:
+- ncrypt/NCryptTranslateHandle
 dev_langs:
- - c++
+- c++
 req.header: ncrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Ncrypt.lib
 req.dll: Ncrypt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ncrypt.dll
+- Ncrypt.dll
 api_name:
- - NCryptTranslateHandle
+- NCryptTranslateHandle
 targetos: Windows
 req.typenames: 
 req.redist: 

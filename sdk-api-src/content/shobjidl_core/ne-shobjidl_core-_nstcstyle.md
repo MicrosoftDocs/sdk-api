@@ -1,19 +1,17 @@
 ---
 UID: NE:shobjidl_core._NSTCSTYLE
 title: _NSTCSTYLE (shobjidl_core.h)
-
 description: Describes the characteristics of a given namespace tree control.
 old-location: shell\NSTCSTYLE.htm
 tech.root: shell
 ms.assetid: 879af1be-2eea-4ebd-b9ea-64b1db40682d
-
 ms.date: 12/05/2018
 ms.keywords: NSTCSTYLE, NSTCSTYLE enumeration [Windows Shell], NSTCS_ALLOWJUNCTIONS, NSTCS_AUTOHSCROLL, NSTCS_BORDER, NSTCS_CHECKBOXES, NSTCS_DIMMEDCHECKBOXES, NSTCS_DISABLEDRAGDROP, NSTCS_EMPTYTEXT, NSTCS_EVENHEIGHT, NSTCS_EXCLUSIONCHECKBOXES, NSTCS_FADEINOUTEXPANDOS, NSTCS_FAVORITESMODE, NSTCS_FULLROWSELECT, NSTCS_HASEXPANDOS, NSTCS_HASLINES, NSTCS_HORIZONTALSCROLL, NSTCS_NOEDITLABELS, NSTCS_NOINDENTCHECKS, NSTCS_NOINFOTIP, NSTCS_NOORDERSTREAM, NSTCS_NOREPLACEOPEN, NSTCS_PARTIALCHECKBOXES, NSTCS_RICHTOOLTIP, NSTCS_ROOTHASEXPANDO, NSTCS_SHOWDELETEBUTTON, NSTCS_SHOWREFRESHBUTTON, NSTCS_SHOWSELECTIONALWAYS, NSTCS_SHOWTABSBUTTON, NSTCS_SINGLECLICKEXPAND, NSTCS_SPRINGEXPAND, NSTCS_TABSTOP, _NSTCSTYLE, _shell_NSTCSTYLE, shell.NSTCSTYLE, shobjidl_core/NSTCSTYLE, shobjidl_core/NSTCS_ALLOWJUNCTIONS, shobjidl_core/NSTCS_AUTOHSCROLL, shobjidl_core/NSTCS_BORDER, shobjidl_core/NSTCS_CHECKBOXES, shobjidl_core/NSTCS_DIMMEDCHECKBOXES, shobjidl_core/NSTCS_DISABLEDRAGDROP, shobjidl_core/NSTCS_EMPTYTEXT, shobjidl_core/NSTCS_EVENHEIGHT, shobjidl_core/NSTCS_EXCLUSIONCHECKBOXES, shobjidl_core/NSTCS_FADEINOUTEXPANDOS, shobjidl_core/NSTCS_FAVORITESMODE, shobjidl_core/NSTCS_FULLROWSELECT, shobjidl_core/NSTCS_HASEXPANDOS, shobjidl_core/NSTCS_HASLINES, shobjidl_core/NSTCS_HORIZONTALSCROLL, shobjidl_core/NSTCS_NOEDITLABELS, shobjidl_core/NSTCS_NOINDENTCHECKS, shobjidl_core/NSTCS_NOINFOTIP, shobjidl_core/NSTCS_NOORDERSTREAM, shobjidl_core/NSTCS_NOREPLACEOPEN, shobjidl_core/NSTCS_PARTIALCHECKBOXES, shobjidl_core/NSTCS_RICHTOOLTIP, shobjidl_core/NSTCS_ROOTHASEXPANDO, shobjidl_core/NSTCS_SHOWDELETEBUTTON, shobjidl_core/NSTCS_SHOWREFRESHBUTTON, shobjidl_core/NSTCS_SHOWSELECTIONALWAYS, shobjidl_core/NSTCS_SHOWTABSBUTTON, shobjidl_core/NSTCS_SINGLECLICKEXPAND, shobjidl_core/NSTCS_SPRINGEXPAND, shobjidl_core/NSTCS_TABSTOP
 ms.topic: enum
-f1_keywords: 
- - "shobjidl_core/NSTCSTYLE"
+f1_keywords:
+- shobjidl_core/NSTCSTYLE
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - NSTCSTYLE
+- NSTCSTYLE
 targetos: Windows
 req.typenames: 
 req.redist: 

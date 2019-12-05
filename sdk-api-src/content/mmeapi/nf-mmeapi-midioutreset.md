@@ -1,19 +1,17 @@
 ---
 UID: NF:mmeapi.midiOutReset
 title: midiOutReset function (mmeapi.h)
-
 description: The midiOutReset function turns off all notes on all MIDI channels for the specified MIDI output device.
 old-location: multimedia\midioutreset.htm
 tech.root: Multimedia
 ms.assetid: 75abf36d-906f-48d1-b91d-c3fcef586693
-
 ms.date: 12/05/2018
-ms.keywords: "_win32_midiOutReset, midiOutReset, midiOutReset function [Windows Multimedia], mmeapi/midiOutReset, multimedia.midioutreset"
+ms.keywords: _win32_midiOutReset, midiOutReset, midiOutReset function [Windows Multimedia], mmeapi/midiOutReset, multimedia.midioutreset
 ms.topic: function
-f1_keywords: 
- - "mmeapi/midiOutReset"
+f1_keywords:
+- mmeapi/midiOutReset
 dev_langs:
- - c++
+- c++
 req.header: mmeapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Winmm.lib
 req.dll: Winmm.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Winmm.dll
- - API-MS-Win-mm-mme-l1-1-0.dll
- - winmmbase.dll
+- Winmm.dll
+- API-MS-Win-mm-mme-l1-1-0.dll
+- winmmbase.dll
 api_name:
- - midiOutReset
+- midiOutReset
 targetos: Windows
 req.typenames: 
 req.redist: 

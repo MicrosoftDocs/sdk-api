@@ -1,19 +1,17 @@
 ---
 UID: NF:xapobase.CXAPOBase.ValidateFormatPair
 title: CXAPOBase::ValidateFormatPair (xapobase.h)
-
 description: Verifies that an input and output format pair configuration is supported by the XAPO.
 old-location: xaudio2\cxapobase_validateformatpair.htm
 tech.root: xaudio2
 ms.assetid: M:Microsoft.directx_sdk.cxapobase.CXAPOBase.ValidateFormatPair(const WAVEFORMATEX,WAVEFORMATEX,BOOL)
-
 ms.date: 12/05/2018
 ms.keywords: CXAPOBase interface [XAudio2 Audio Mixing APIs],ValidateFormatPair method, CXAPOBase.ValidateFormatPair, CXAPOBase::ValidateFormatPair, ValidateFormatPair, ValidateFormatPair method [XAudio2 Audio Mixing APIs], ValidateFormatPair method [XAudio2 Audio Mixing APIs],CXAPOBase interface, xapobase/CXAPOBase::ValidateFormatPair, xaudio2.cxapobase_validateformatpair
 ms.topic: method
-f1_keywords: 
- - "xapobase/CXAPOBase.ValidateFormatPair"
+f1_keywords:
+- xapobase/CXAPOBase.ValidateFormatPair
 dev_langs:
- - c++
+- c++
 req.header: xapobase.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: XAPOBase.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - XAPOBase.lib
- - XAPOBase.dll
+- XAPOBase.lib
+- XAPOBase.dll
 api_name:
- - CXAPOBase.ValidateFormatPair
+- CXAPOBase.ValidateFormatPair
 targetos: Windows
 req.typenames: 
 req.redist: 

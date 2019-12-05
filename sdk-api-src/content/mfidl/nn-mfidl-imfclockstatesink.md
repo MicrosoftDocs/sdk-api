@@ -1,19 +1,17 @@
 ---
 UID: NN:mfidl.IMFClockStateSink
 title: IMFClockStateSink (mfidl.h)
-
 description: Receives state-change notifications from the presentation clock.
 old-location: mf\imfclockstatesink.htm
 tech.root: medfound
 ms.assetid: 9aa0d2cd-a687-4b3a-834d-ccc8d3a03196
-
 ms.date: 12/05/2018
 ms.keywords: 9aa0d2cd-a687-4b3a-834d-ccc8d3a03196, IMFClockStateSink, IMFClockStateSink interface [Media Foundation], IMFClockStateSink interface [Media Foundation],described, mf.imfclockstatesink, mfidl/IMFClockStateSink
 ms.topic: interface
-f1_keywords: 
- - "mfidl/IMFClockStateSink"
+f1_keywords:
+- mfidl/IMFClockStateSink
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFClockStateSink
+- IMFClockStateSink
 targetos: Windows
 req.typenames: 
 req.redist: 

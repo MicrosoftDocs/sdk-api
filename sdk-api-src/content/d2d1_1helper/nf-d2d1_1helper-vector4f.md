@@ -1,19 +1,17 @@
 ---
 UID: NF:d2d1_1helper.Vector4F
 title: Vector4F function (d2d1_1helper.h)
-
 description: Returns a filled D2D1_VECTOR_4F structure.
 old-location: direct2d\vector4f.htm
 tech.root: Direct2D
 ms.assetid: 0664EEFB-E3F7-4393-A595-D2BEF74E0492
-
 ms.date: 12/05/2018
 ms.keywords: Vector4F, Vector4F function [Direct2D], d2d1_1helper/Vector4F, direct2d.vector4f
 ms.topic: function
-f1_keywords: 
- - "d2d1_1helper/Vector4F"
+f1_keywords:
+- d2d1_1helper/Vector4F
 dev_langs:
- - c++
+- c++
 req.header: d2d1_1helper.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: D2d1.lib
 req.dll: D2d1.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - D2d1.dll
+- D2d1.dll
 api_name:
- - Vector4F
+- Vector4F
 targetos: Windows
 req.typenames: 
 req.redist: 

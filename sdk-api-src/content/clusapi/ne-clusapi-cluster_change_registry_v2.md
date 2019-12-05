@@ -1,19 +1,17 @@
 ---
 UID: NE:clusapi.CLUSTER_CHANGE_REGISTRY_V2
 title: CLUSTER_CHANGE_REGISTRY_V2 (clusapi.h)
-
 description: Defines the notifications that are generated for a registry key.
 old-location: mscs\cluster_change_registry_v2.htm
 tech.root: MsCS
 ms.assetid: 830A866B-D260-406B-B8E7-651F5149078E
-
 ms.date: 12/05/2018
 ms.keywords: CLUSTER_CHANGE_REGISTRY_ALL_V2, CLUSTER_CHANGE_REGISTRY_ATTRIBUTES_V2, CLUSTER_CHANGE_REGISTRY_HANDLE_CLOSE_V2, CLUSTER_CHANGE_REGISTRY_NAME_V2, CLUSTER_CHANGE_REGISTRY_SUBTREE_V2, CLUSTER_CHANGE_REGISTRY_V2, CLUSTER_CHANGE_REGISTRY_V2 enumeration [Failover Cluster], CLUSTER_CHANGE_REGISTRY_VALUE_V2, clusapi/CLUSTER_CHANGE_REGISTRY_ALL_V2, clusapi/CLUSTER_CHANGE_REGISTRY_ATTRIBUTES_V2, clusapi/CLUSTER_CHANGE_REGISTRY_HANDLE_CLOSE_V2, clusapi/CLUSTER_CHANGE_REGISTRY_NAME_V2, clusapi/CLUSTER_CHANGE_REGISTRY_SUBTREE_V2, clusapi/CLUSTER_CHANGE_REGISTRY_V2, clusapi/CLUSTER_CHANGE_REGISTRY_VALUE_V2, msclus/CLUSTER_CHANGE_REGISTRY_ALL_V2, msclus/CLUSTER_CHANGE_REGISTRY_ATTRIBUTES_V2, msclus/CLUSTER_CHANGE_REGISTRY_HANDLE_CLOSE_V2, msclus/CLUSTER_CHANGE_REGISTRY_NAME_V2, msclus/CLUSTER_CHANGE_REGISTRY_SUBTREE_V2, msclus/CLUSTER_CHANGE_REGISTRY_V2, msclus/CLUSTER_CHANGE_REGISTRY_VALUE_V2, mscs.cluster_change_registry_v2
 ms.topic: enum
-f1_keywords: 
- - "clusapi/CLUSTER_CHANGE_REGISTRY_V2"
+f1_keywords:
+- clusapi/CLUSTER_CHANGE_REGISTRY_V2
 dev_langs:
- - c++
+- c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - ClusAPI.h
- - MsClus.h
+- ClusAPI.h
+- MsClus.h
 api_name:
- - CLUSTER_CHANGE_REGISTRY_V2
+- CLUSTER_CHANGE_REGISTRY_V2
 targetos: Windows
 req.typenames: CLUSTER_CHANGE_REGISTRY_V2
 req.redist: 

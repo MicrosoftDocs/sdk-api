@@ -1,19 +1,17 @@
 ---
 UID: NF:objidl.IDataAdviseHolder.EnumAdvise
 title: IDataAdviseHolder::EnumAdvise (objidl.h)
-
 description: Returns an object that can be used to enumerate the current advisory connections.
 old-location: com\idataadviseholder_enumadvise.htm
 tech.root: com
 ms.assetid: 0863d013-6f55-40ce-92d2-68bb0455a911
-
 ms.date: 12/05/2018
 ms.keywords: EnumAdvise, EnumAdvise method [COM], EnumAdvise method [COM],IDataAdviseHolder interface, IDataAdviseHolder interface [COM],EnumAdvise method, IDataAdviseHolder.EnumAdvise, IDataAdviseHolder::EnumAdvise, _ole_idataadviseholder_enumadvise, com.idataadviseholder_enumadvise, objidl/IDataAdviseHolder::EnumAdvise
 ms.topic: method
-f1_keywords: 
- - "objidl/IDataAdviseHolder.EnumAdvise"
+f1_keywords:
+- objidl/IDataAdviseHolder.EnumAdvise
 dev_langs:
- - c++
+- c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ObjIdl.h
+- ObjIdl.h
 api_name:
- - IDataAdviseHolder.EnumAdvise
+- IDataAdviseHolder.EnumAdvise
 targetos: Windows
 req.typenames: 
 req.redist: 

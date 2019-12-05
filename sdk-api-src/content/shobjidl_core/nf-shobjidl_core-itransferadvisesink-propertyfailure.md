@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.ITransferAdviseSink.PropertyFailure
 title: ITransferAdviseSink::PropertyFailure (shobjidl_core.h)
-
 description: Called when there is a failure that involves file properties and user interaction is needed.
 old-location: shell\ITransferAdviseSink_PropertyFailure.htm
 tech.root: shell
 ms.assetid: c43cb166-6edf-4c45-93c1-16cb9b5c2d30
-
 ms.date: 12/05/2018
 ms.keywords: ITransferAdviseSink interface [Windows Shell],PropertyFailure method, ITransferAdviseSink.PropertyFailure, ITransferAdviseSink::PropertyFailure, PropertyFailure, PropertyFailure method [Windows Shell], PropertyFailure method [Windows Shell],ITransferAdviseSink interface, _shell_ITransferAdviseSink_PropertyFailure, shell.ITransferAdviseSink_PropertyFailure, shobjidl_core/ITransferAdviseSink::PropertyFailure
 ms.topic: method
 f1_keywords:
 - shobjidl_core/ITransferAdviseSink.PropertyFailure
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

@@ -1,19 +1,17 @@
 ---
 UID: NF:ddraw.DirectDrawEnumerateW
 title: DirectDrawEnumerateW function (ddraw.h)
-
 description: This function is superseded by the DirectDrawEnumerateEx function.
 old-location: directdraw\directdrawenumerate.htm
 tech.root: directdraw
 ms.assetid: 1f994adb-79ff-4cc1-8769-0faeed893503
-
 ms.date: 12/05/2018
 ms.keywords: DirectDrawEnumerate, DirectDrawEnumerate function [DirectDraw], DirectDrawEnumerateW, ddraw/DirectDrawEnumerate, ddraw/DirectDrawEnumerateW, directdraw.directdrawenumerate
 ms.topic: function
-f1_keywords: 
- - "ddraw/DirectDrawEnumerate"
+f1_keywords:
+- ddraw/DirectDrawEnumerate
 dev_langs:
- - c++
+- c++
 req.header: ddraw.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Ddraw.lib
 req.dll: Ddraw.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ddraw.dll
+- Ddraw.dll
 api_name:
- - DirectDrawEnumerate
- - DirectDrawEnumerate
- - DirectDrawEnumerateW
+- DirectDrawEnumerate
+- DirectDrawEnumerate
+- DirectDrawEnumerateW
 targetos: Windows
 req.typenames: 
 req.redist: 

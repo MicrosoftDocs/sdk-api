@@ -1,19 +1,17 @@
 ---
 UID: NF:dcomp.IDCompositionTurbulenceEffect.SetOffset
 title: IDCompositionTurbulenceEffect::SetOffset (dcomp.h)
-
 description: Sets the coordinates where the turbulence output is generated.
 old-location: directcomp\idcompositionturbulenceeffect_setoffset.htm
 tech.root: directcomp
 ms.assetid: 6C27C707-93CE-4EAD-ACFB-2DA36EFB1FB5
-
 ms.date: 12/05/2018
 ms.keywords: IDCompositionTurbulenceEffect interface [DirectComposition],SetOffset method, IDCompositionTurbulenceEffect.SetOffset, IDCompositionTurbulenceEffect::SetOffset, SetOffset, SetOffset method [DirectComposition], SetOffset method [DirectComposition],IDCompositionTurbulenceEffect interface, dcomp/IDCompositionTurbulenceEffect::SetOffset, directcomp.idcompositionturbulenceeffect_setoffset
 ms.topic: method
-f1_keywords: 
- - "dcomp/IDCompositionTurbulenceEffect.SetOffset"
+f1_keywords:
+- dcomp/IDCompositionTurbulenceEffect.SetOffset
 dev_langs:
- - c++
+- c++
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dcomp.lib
 req.dll: Dcomp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dcomp.dll
+- Dcomp.dll
 api_name:
- - IDCompositionTurbulenceEffect.SetOffset
+- IDCompositionTurbulenceEffect.SetOffset
 targetos: Windows
 req.typenames: 
 req.redist: 

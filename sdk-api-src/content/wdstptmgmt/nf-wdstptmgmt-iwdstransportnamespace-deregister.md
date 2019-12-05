@@ -1,19 +1,17 @@
 ---
 UID: NF:wdstptmgmt.IWdsTransportNamespace.Deregister
 title: IWdsTransportNamespace::Deregister (wdstptmgmt.h)
-
 description: Deregisters the namespace on the server.
 old-location: wds\iwdstransportnamespace_deregister.htm
 tech.root: wds
 ms.assetid: 32881121-b5aa-4ccf-9884-431dbd283e4c
-
 ms.date: 12/05/2018
 ms.keywords: Deregister, Deregister method [Windows Deployment Services], Deregister method [Windows Deployment Services],IWdsTransportNamespace interface, IWdsTransportNamespace interface [Windows Deployment Services],Deregister method, IWdsTransportNamespace.Deregister, IWdsTransportNamespace::Deregister, wds.iwdstransportnamespace_deregister, wdstptmgmt/IWdsTransportNamespace::Deregister
 ms.topic: method
-f1_keywords: 
- - "wdstptmgmt/IWdsTransportNamespace.Deregister"
+f1_keywords:
+- wdstptmgmt/IWdsTransportNamespace.Deregister
 dev_langs:
- - c++
+- c++
 req.header: wdstptmgmt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wdstptmgmt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wdstptmgmt.dll
+- Wdstptmgmt.dll
 api_name:
- - IWdsTransportNamespace.Deregister
+- IWdsTransportNamespace.Deregister
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:photoacquire.IPhotoProgressDialog.SetImage
 title: IPhotoProgressDialog::SetImage (photoacquire.h)
-
 description: Sets either the thumbnail image displayed in the progress dialog box, the icon in the title bar of the progress dialog box, or the icon in ALT+TAB key combination windows.
 old-location: picacq\iphotoprogressdialog_setimage.htm
 tech.root: acquisition
 ms.assetid: 45b795c4-4f95-4132-86a7-cda47e534e9c
-
 ms.date: 12/05/2018
 ms.keywords: IPhotoProgressDialog interface [Picture Acquisition],SetImage method, IPhotoProgressDialog.SetImage, IPhotoProgressDialog::SetImage, IPhotoProgressDialogSetImage, PROGRESS_DIALOG_BITMAP_THUMBNAIL, PROGRESS_DIALOG_ICON_LARGE, PROGRESS_DIALOG_ICON_SMALL, PROGRESS_DIALOG_ICON_THUMBNAIL, SetImage, SetImage method [Picture Acquisition], SetImage method [Picture Acquisition],IPhotoProgressDialog interface, photoacquire/IPhotoProgressDialog::SetImage, picacq.iphotoprogressdialog_setimage
 ms.topic: method
-f1_keywords: 
- - "photoacquire/IPhotoProgressDialog.SetImage"
+f1_keywords:
+- photoacquire/IPhotoProgressDialog.SetImage
 dev_langs:
- - c++
+- c++
 req.header: photoacquire.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: PhotoAcquireUID.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - PhotoAcquireUID.lib
- - PhotoAcquireUID.dll
+- PhotoAcquireUID.lib
+- PhotoAcquireUID.dll
 api_name:
- - IPhotoProgressDialog.SetImage
+- IPhotoProgressDialog.SetImage
 targetos: Windows
 req.typenames: 
 req.redist: 

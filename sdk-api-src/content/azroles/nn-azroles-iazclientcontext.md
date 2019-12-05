@@ -1,19 +1,17 @@
 ---
 UID: NN:azroles.IAzClientContext
 title: IAzClientContext (azroles.h)
-
 description: Maintains the state that describes a particular client.
 old-location: security\iazclientcontext.htm
 tech.root: SecAuthZ
 ms.assetid: e24184d2-a77b-4a8b-b2f3-78f1e0b902f9
-
 ms.date: 12/05/2018
 ms.keywords: IAzClientContext, IAzClientContext interface [Security], IAzClientContext interface [Security],described, azroles/IAzClientContext, security.iazclientcontext
 ms.topic: interface
-f1_keywords: 
- - "azroles/IAzClientContext"
+f1_keywords:
+- azroles/IAzClientContext
 dev_langs:
- - c++
+- c++
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Azroles.lib
 req.dll: Azroles.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Azroles.dll
+- Azroles.dll
 api_name:
- - IAzClientContext
+- IAzClientContext
 targetos: Windows
 req.typenames: 
 req.redist: Windows Server 2003 Administration Tools Pack on Windows XP

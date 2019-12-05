@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IMediaSeeking.ConvertTimeFormat
 title: IMediaSeeking::ConvertTimeFormat (strmif.h)
-
 description: The ConvertTimeFormat method converts from one time format to another.
 old-location: dshow\imediaseeking_converttimeformat.htm
 tech.root: DirectShow
 ms.assetid: 868ec03e-d4e5-4a1e-914a-6be8933f1c7c
-
 ms.date: 12/05/2018
 ms.keywords: ConvertTimeFormat, ConvertTimeFormat method [DirectShow], ConvertTimeFormat method [DirectShow],IMediaSeeking interface, IMediaSeeking interface [DirectShow],ConvertTimeFormat method, IMediaSeeking.ConvertTimeFormat, IMediaSeeking::ConvertTimeFormat, IMediaSeekingConvertTimeFormat, dshow.imediaseeking_converttimeformat, strmif/IMediaSeeking::ConvertTimeFormat
 ms.topic: method
-f1_keywords: 
- - "strmif/IMediaSeeking.ConvertTimeFormat"
+f1_keywords:
+- strmif/IMediaSeeking.ConvertTimeFormat
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IMediaSeeking.ConvertTimeFormat
+- IMediaSeeking.ConvertTimeFormat
 targetos: Windows
 req.typenames: 
 req.redist: 

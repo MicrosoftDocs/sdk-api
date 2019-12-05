@@ -1,19 +1,17 @@
 ---
 UID: NF:wmsdkidl.IWMWriterPostView.SetPostViewProps
 title: IWMWriterPostView::SetPostViewProps (wmsdkidl.h)
-
 description: The SetPostViewProps method specifies the format for the specified output stream.
 old-location: wmformat\iwmwriterpostview_setpostviewprops.htm
 tech.root: wmformat
 ms.assetid: e5b92065-fff3-41d2-b263-375ae14869e5
-
 ms.date: 12/05/2018
 ms.keywords: IWMWriterPostView interface [windows Media Format],SetPostViewProps method, IWMWriterPostView.SetPostViewProps, IWMWriterPostView::SetPostViewProps, IWMWriterPostViewSetPostViewProps, SetPostViewProps, SetPostViewProps method [windows Media Format], SetPostViewProps method [windows Media Format],IWMWriterPostView interface, wmformat.iwmwriterpostview_setpostviewprops, wmsdkidl/IWMWriterPostView::SetPostViewProps
 ms.topic: method
-f1_keywords: 
- - "wmsdkidl/IWMWriterPostView.SetPostViewProps"
+f1_keywords:
+- wmsdkidl/IWMWriterPostView.SetPostViewProps
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wmvcore.lib
- - Wmvcore.dll
- - WMStubDRM.lib
- - WMStubDRM.dll
+- Wmvcore.lib
+- Wmvcore.dll
+- WMStubDRM.lib
+- WMStubDRM.dll
 api_name:
- - IWMWriterPostView.SetPostViewProps
+- IWMWriterPostView.SetPostViewProps
 targetos: Windows
 req.typenames: 
 req.redist: 

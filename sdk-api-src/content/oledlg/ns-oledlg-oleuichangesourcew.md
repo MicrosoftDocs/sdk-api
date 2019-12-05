@@ -1,19 +1,17 @@
 ---
 UID: NS:oledlg.tagOLEUICHANGESOURCEW
 title: OLEUICHANGESOURCEW (oledlg.h)
-
 description: Contains information that is used to initialize the standard Change Source dialog box.
 old-location: com\oleuichangesource_struct.htm
 tech.root: com
 ms.assetid: 440d120c-a121-471b-bee1-f23af136a664
-
 ms.date: 12/05/2018
-ms.keywords: "*LPOLEUICHANGESOURCEW, *POLEUICHANGESOURCEW, CSF_ONLYGETSOURCE, CSF_SHOWHELP, CSF_VALIDSOURCE, LPOLEUICHANGESOURCE, LPOLEUICHANGESOURCE structure pointer [COM], OLEUICHANGESOURCE, OLEUICHANGESOURCE structure [COM], OLEUICHANGESOURCEA, OLEUICHANGESOURCEW, POLEUICHANGESOURCE, POLEUICHANGESOURCE structure pointer [COM], _ole_OLEUICHANGESOURCE_str, com.oleuichangesource_struct, oledlg/LPOLEUICHANGESOURCE, oledlg/OLEUICHANGESOURCE, oledlg/OLEUICHANGESOURCEA, oledlg/OLEUICHANGESOURCEW, oledlg/POLEUICHANGESOURCE"
+ms.keywords: '*LPOLEUICHANGESOURCEW, *POLEUICHANGESOURCEW, CSF_ONLYGETSOURCE, CSF_SHOWHELP, CSF_VALIDSOURCE, LPOLEUICHANGESOURCE, LPOLEUICHANGESOURCE structure pointer [COM], OLEUICHANGESOURCE, OLEUICHANGESOURCE structure [COM], OLEUICHANGESOURCEA, OLEUICHANGESOURCEW, POLEUICHANGESOURCE, POLEUICHANGESOURCE structure pointer [COM], _ole_OLEUICHANGESOURCE_str, com.oleuichangesource_struct, oledlg/LPOLEUICHANGESOURCE, oledlg/OLEUICHANGESOURCE, oledlg/OLEUICHANGESOURCEA, oledlg/OLEUICHANGESOURCEW, oledlg/POLEUICHANGESOURCE'
 ms.topic: struct
-f1_keywords: 
- - "oledlg/OLEUICHANGESOURCE"
+f1_keywords:
+- oledlg/OLEUICHANGESOURCE
 dev_langs:
- - c++
+- c++
 req.header: oledlg.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - OleDlg.h
+- OleDlg.h
 api_name:
- - OLEUICHANGESOURCE
- - OLEUICHANGESOURCEA
- - OLEUICHANGESOURCEW
+- OLEUICHANGESOURCE
+- OLEUICHANGESOURCEA
+- OLEUICHANGESOURCEW
 targetos: Windows
 req.typenames: OLEUICHANGESOURCEW, *POLEUICHANGESOURCEW, *LPOLEUICHANGESOURCEW
 req.redist: 

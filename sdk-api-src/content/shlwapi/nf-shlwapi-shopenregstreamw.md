@@ -1,19 +1,17 @@
 ---
 UID: NF:shlwapi.SHOpenRegStreamW
 title: SHOpenRegStreamW function (shlwapi.h)
-
 description: Deprecated.
 old-location: shell\SHOpenRegStream.htm
 tech.root: shell
 ms.assetid: 2f839b89-8584-4b4d-91e7-166b6e2b6892
-
 ms.date: 12/05/2018
 ms.keywords: SHOpenRegStream, SHOpenRegStream function [Windows Shell], SHOpenRegStreamA, SHOpenRegStreamW, STGM_READ, STGM_READWRITE, STGM_WRITE, _win32_SHOpenRegStream, shell.SHOpenRegStream, shlwapi/SHOpenRegStream, shlwapi/SHOpenRegStreamA, shlwapi/SHOpenRegStreamW
 ms.topic: function
-f1_keywords: 
- - "shlwapi/SHOpenRegStream"
+f1_keywords:
+- shlwapi/SHOpenRegStream
 dev_langs:
- - c++
+- c++
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,20 +30,20 @@ req.lib: Shlwapi.lib
 req.dll: Shlwapi.dll (version 4.71 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Shlwapi.dll
- - API-MS-Win-DownLevel-shlwapi-l2-1-0.dll
- - ShCore.dll
- - API-MS-Win-DownLevel-shlwapi-l2-1-1.dll
- - API-MS-Win-ShCore-stream-l1-1-0.dll
+- Shlwapi.dll
+- API-MS-Win-DownLevel-shlwapi-l2-1-0.dll
+- ShCore.dll
+- API-MS-Win-DownLevel-shlwapi-l2-1-1.dll
+- API-MS-Win-ShCore-stream-l1-1-0.dll
 api_name:
- - SHOpenRegStream
- - SHOpenRegStreamA
- - SHOpenRegStreamW
+- SHOpenRegStream
+- SHOpenRegStreamA
+- SHOpenRegStreamW
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationCacheRequest.Clone
 title: IUIAutomationCacheRequest::Clone (uiautomationclient.h)
-
 description: Creates a copy of the cache request.
 old-location: winauto\uiauto_IUIAutomationCacheRequest_Clone.htm
 tech.root: WinAuto
 ms.assetid: e7ba5cb0-a4a5-4556-ba28-899e9635af5d
-
 ms.date: 12/05/2018
 ms.keywords: Clone, Clone method [Windows Accessibility], Clone method [Windows Accessibility],IUIAutomationCacheRequest interface, IUIAutomationCacheRequest interface [Windows Accessibility],Clone method, IUIAutomationCacheRequest.Clone, IUIAutomationCacheRequest::Clone, uiauto.uiauto_IUIAutomationCacheRequest_Clone, uiauto_IUIAutomationCacheRequest_Clone, uiautomationclient/IUIAutomationCacheRequest::Clone, winauto.uiauto_IUIAutomationCacheRequest_Clone
 ms.topic: method
-f1_keywords: 
- - "uiautomationclient/IUIAutomationCacheRequest.Clone"
+f1_keywords:
+- uiautomationclient/IUIAutomationCacheRequest.Clone
 dev_langs:
- - c++
+- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationClient.h
+- UIAutomationClient.h
 api_name:
- - IUIAutomationCacheRequest.Clone
+- IUIAutomationCacheRequest.Clone
 targetos: Windows
 req.typenames: 
 req.redist: 

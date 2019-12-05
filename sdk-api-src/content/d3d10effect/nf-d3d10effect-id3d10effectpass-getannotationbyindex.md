@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d10effect.ID3D10EffectPass.GetAnnotationByIndex
 title: ID3D10EffectPass::GetAnnotationByIndex (d3d10effect.h)
-
 description: Get an annotation by index.
 old-location: direct3d10\id3d10effectpass_getannotationbyindex.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10effectpass_getannotationbyindex.htm
-
 ms.date: 12/05/2018
 ms.keywords: GetAnnotationByIndex, GetAnnotationByIndex method [Direct3D 10], GetAnnotationByIndex method [Direct3D 10],ID3D10EffectPass interface, ID3D10EffectPass interface [Direct3D 10],GetAnnotationByIndex method, ID3D10EffectPass.GetAnnotationByIndex, ID3D10EffectPass::GetAnnotationByIndex, b11d6e71-cc4e-38a9-fd93-a67effc5a2b5, d3d10effect/ID3D10EffectPass::GetAnnotationByIndex, direct3d10.id3d10effectpass_getannotationbyindex
 ms.topic: method
-f1_keywords: 
- - "d3d10effect/ID3D10EffectPass.GetAnnotationByIndex"
+f1_keywords:
+- d3d10effect/ID3D10EffectPass.GetAnnotationByIndex
 dev_langs:
- - c++
+- c++
 req.header: d3d10effect.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D10Effect.h
+- D3D10Effect.h
 api_name:
- - ID3D10EffectPass.GetAnnotationByIndex
+- ID3D10EffectPass.GetAnnotationByIndex
 targetos: Windows
 req.typenames: 
 req.redist: 

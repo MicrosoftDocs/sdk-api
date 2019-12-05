@@ -1,19 +1,17 @@
 ---
 UID: NF:wmiutils.IWbemPath.GetText
 title: IWbemPath::GetText (wmiutils.h)
-
 description: The IWbemPath::GetText method returns a textual representation of a path that has previously been placed into a parser object.
 old-location: wmi\iwbempath_gettext.htm
 tech.root: WmiSdk
 ms.assetid: 427ff33a-3b46-481e-bf46-57b13d19332e
-
 ms.date: 12/05/2018
 ms.keywords: GetText, GetText method [Windows Management Instrumentation], GetText method [Windows Management Instrumentation],IWbemPath interface, IWbemPath interface [Windows Management Instrumentation],GetText method, IWbemPath.GetText, IWbemPath::GetText, WBEMPATH_COMPRESSED, WBEMPATH_GET_NAMESPACE_ONLY, WBEMPATH_GET_ORIGINAL, WBEMPATH_GET_RELATIVE_ONLY, WBEMPATH_GET_SERVER_AND_NAMESPACE_ONLY, WBEMPATH_GET_SERVER_TOO, _hmm_iwbempath_gettext, wmi.iwbempath_gettext, wmiutils/IWbemPath::GetText
 ms.topic: method
-f1_keywords: 
- - "wmiutils/IWbemPath.GetText"
+f1_keywords:
+- wmiutils/IWbemPath.GetText
 dev_langs:
- - c++
+- c++
 req.header: wmiutils.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Wbemuuid.lib
 req.dll: Wmiutils.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wmiutils.dll
+- Wmiutils.dll
 api_name:
- - IWbemPath.GetText
+- IWbemPath.GetText
 targetos: Windows
 req.typenames: 
 req.redist: 

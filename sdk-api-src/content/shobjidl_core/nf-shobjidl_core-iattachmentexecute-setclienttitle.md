@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IAttachmentExecute.SetClientTitle
 title: IAttachmentExecute::SetClientTitle (shobjidl_core.h)
-
 description: Specifies and stores the title of the prompt window.
 old-location: shell\IAttachmentExecute_SetClientTitle.htm
 tech.root: shell
 ms.assetid: 24840acd-c2d1-43d8-99aa-8614e55d6604
-
 ms.date: 12/05/2018
 ms.keywords: IAttachmentExecute interface [Windows Shell],SetClientTitle method, IAttachmentExecute.SetClientTitle, IAttachmentExecute::SetClientTitle, SetClientTitle, SetClientTitle method [Windows Shell], SetClientTitle method [Windows Shell],IAttachmentExecute interface, _win32_IAttachmentExecute_SetClientTitle, shell.IAttachmentExecute_SetClientTitle, shobjidl_core/IAttachmentExecute::SetClientTitle
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IAttachmentExecute.SetClientTitle"
+f1_keywords:
+- shobjidl_core/IAttachmentExecute.SetClientTitle
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Shdocvw.dll (version 6.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shdocvw.dll
+- Shdocvw.dll
 api_name:
- - IAttachmentExecute.SetClientTitle
+- IAttachmentExecute.SetClientTitle
 targetos: Windows
 req.typenames: 
 req.redist: 

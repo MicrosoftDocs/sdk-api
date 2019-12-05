@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl.IUserAccountChangeCallback.OnPictureChange
 title: IUserAccountChangeCallback::OnPictureChange (shobjidl.h)
-
 description: Called to send notifications when the picture that represents a user account is changed.
 old-location: shell\IUserAccountChangeCallback_OnPictureChange.htm
 tech.root: shell
 ms.assetid: 9e524edc-3921-4fec-9999-4fd9f51f347b
-
 ms.date: 12/05/2018
 ms.keywords: IUserAccountChangeCallback interface [Windows Shell],OnPictureChange method, IUserAccountChangeCallback.OnPictureChange, IUserAccountChangeCallback::OnPictureChange, OnPictureChange, OnPictureChange method [Windows Shell], OnPictureChange method [Windows Shell],IUserAccountChangeCallback interface, _shell_IUserAccountChangeCallback_OnPictureChange, shell.IUserAccountChangeCallback_OnPictureChange, shobjidl/IUserAccountChangeCallback::OnPictureChange
 ms.topic: method
-f1_keywords: 
- - "shobjidl/IUserAccountChangeCallback.OnPictureChange"
+f1_keywords:
+- shobjidl/IUserAccountChangeCallback.OnPictureChange
 dev_langs:
- - c++
+- c++
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shobjidl.h
+- Shobjidl.h
 api_name:
- - IUserAccountChangeCallback.OnPictureChange
+- IUserAccountChangeCallback.OnPictureChange
 targetos: Windows
 req.typenames: 
 req.redist: 

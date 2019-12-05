@@ -1,19 +1,17 @@
 ---
 UID: NF:wsdbase.IWSDTransportAddress.GetTransportAddress
 title: IWSDTransportAddress::GetTransportAddress (wsdbase.h)
-
 description: Gets a pointer to a string representation of the address object.
 old-location: ncd\iwsdtransportaddress_gettransportaddress.htm
 tech.root: WsdApi
 ms.assetid: 090b009d-0cca-4925-bf90-cb3d0975d271
-
 ms.date: 12/05/2018
 ms.keywords: GetTransportAddress, GetTransportAddress method, GetTransportAddress method,IWSDTransportAddress interface, IWSDTransportAddress interface,GetTransportAddress method, IWSDTransportAddress.GetTransportAddress, IWSDTransportAddress::GetTransportAddress, ncd.iwsdtransportaddress_gettransportaddress, wsdbase/IWSDTransportAddress::GetTransportAddress
 ms.topic: method
-f1_keywords: 
- - "wsdbase/IWSDTransportAddress.GetTransportAddress"
+f1_keywords:
+- wsdbase/IWSDTransportAddress.GetTransportAddress
 dev_langs:
- - c++
+- c++
 req.header: wsdbase.h
 req.include-header: Wsdapi.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wsdapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wsdapi.dll
+- wsdapi.dll
 api_name:
- - IWSDTransportAddress.GetTransportAddress
+- IWSDTransportAddress.GetTransportAddress
 targetos: Windows
 req.typenames: 
 req.redist: 

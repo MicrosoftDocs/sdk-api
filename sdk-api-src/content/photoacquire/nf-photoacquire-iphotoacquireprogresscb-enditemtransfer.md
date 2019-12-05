@@ -1,19 +1,17 @@
 ---
 UID: NF:photoacquire.IPhotoAcquireProgressCB.EndItemTransfer
 title: IPhotoAcquireProgressCB::EndItemTransfer (photoacquire.h)
-
 description: The EndItemTransfer method provides extended functionality each time a file is transferred from the image source. The application provides the implementation of the EndItemTransfer method.
 old-location: picacq\iphotoacquireprogresscb_enditemtransfer.htm
 tech.root: acquisition
 ms.assetid: 8d2c0773-cb0b-4cc3-b61f-9ad4153bcf96
-
 ms.date: 12/05/2018
 ms.keywords: EndItemTransfer, EndItemTransfer method [Picture Acquisition], EndItemTransfer method [Picture Acquisition],IPhotoAcquireProgressCB interface, IPhotoAcquireProgressCB interface [Picture Acquisition],EndItemTransfer method, IPhotoAcquireProgressCB.EndItemTransfer, IPhotoAcquireProgressCB::EndItemTransfer, IPhotoAcquireProgressCBEndItemTransfer, photoacquire/IPhotoAcquireProgressCB::EndItemTransfer, picacq.iphotoacquireprogresscb_enditemtransfer
 ms.topic: method
-f1_keywords: 
- - "photoacquire/IPhotoAcquireProgressCB.EndItemTransfer"
+f1_keywords:
+- photoacquire/IPhotoAcquireProgressCB.EndItemTransfer
 dev_langs:
- - c++
+- c++
 req.header: photoacquire.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: PhotoAcquireUID.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - PhotoAcquireUID.lib
- - PhotoAcquireUID.dll
+- PhotoAcquireUID.lib
+- PhotoAcquireUID.dll
 api_name:
- - IPhotoAcquireProgressCB.EndItemTransfer
+- IPhotoAcquireProgressCB.EndItemTransfer
 targetos: Windows
 req.typenames: 
 req.redist: 

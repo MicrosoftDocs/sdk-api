@@ -1,19 +1,17 @@
 ---
 UID: NF:mstask.ITask.SetTaskFlags
 title: ITask::SetTaskFlags (mstask.h)
-
 description: This method sets the flags that modify the behavior of a scheduled task.
 old-location: taskschd\itask_settaskflags.htm
 tech.root: taskschd
 ms.assetid: 32231145-241a-46ff-9c49-94f5bf7cc532
-
 ms.date: 12/05/2018
 ms.keywords: ITask interface [Task Scheduler],SetTaskFlags method, ITask.SetTaskFlags, ITask::SetTaskFlags, SetTaskFlags, SetTaskFlags method [Task Scheduler], SetTaskFlags method [Task Scheduler],ITask interface, _msb_itask_settaskflags, mstask/ITask::SetTaskFlags, taskschd.itask_settaskflags
 ms.topic: method
-f1_keywords: 
- - "mstask/ITask.SetTaskFlags"
+f1_keywords:
+- mstask/ITask.SetTaskFlags
 dev_langs:
- - c++
+- c++
 req.header: mstask.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Mstask.lib
 req.dll: Mstask.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mstask.dll
+- Mstask.dll
 api_name:
- - ITask.SetTaskFlags
+- ITask.SetTaskFlags
 targetos: Windows
 req.typenames: 
 req.redist: Internet Explorer 4.0 or later on Windows NT 4.0 and Windows 95

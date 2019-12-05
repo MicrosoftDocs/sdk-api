@@ -1,19 +1,17 @@
 ---
 UID: NF:commdlg.FindTextA
 title: FindTextA function (commdlg.h)
-
 description: Creates a system-defined modeless Find dialog box that lets the user specify a string to search for and options to use when searching for text in a document.
 old-location: dlgbox\findtext.htm
 tech.root: dlgbox
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\commondialogboxlibrary\commondialogboxreference\commondialogboxfunctions\findtext.htm
-
 ms.date: 12/05/2018
 ms.keywords: FindText, FindText function [Dialog Boxes], FindTextA, FindTextW, _win32_FindText, _win32_findtext_cpp, commdlg/FindText, commdlg/FindTextA, commdlg/FindTextW, dlgbox.findtext, winui._win32_findtext
 ms.topic: function
-f1_keywords: 
- - "commdlg/FindText"
+f1_keywords:
+- commdlg/FindText
 dev_langs:
- - c++
+- c++
 req.header: commdlg.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Comdlg32.lib
 req.dll: Comdlg32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Comdlg32.dll
+- Comdlg32.dll
 api_name:
- - FindText
- - FindTextA
- - FindTextW
+- FindText
+- FindTextA
+- FindTextW
 targetos: Windows
 req.typenames: 
 req.redist: 

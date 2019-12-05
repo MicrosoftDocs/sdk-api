@@ -1,19 +1,17 @@
 ---
 UID: NE:appxpackaging.APPX_PACKAGE_ARCHITECTURE2
 title: APPX_PACKAGE_ARCHITECTURE2 (appxpackaging.h)
-
 description: Specifies the processor architectures supported by a package.
 old-location: appxpkg\appx_package_architecture2.htm
 tech.root: appxpkg
 ms.assetid: 86E1C7DE-01AD-4682-89C3-20A5A699CBE7
-
 ms.date: 12/05/2018
 ms.keywords: APPX_PACKAGE_ARCHITECTURE2, APPX_PACKAGE_ARCHITECTURE2 enumeration [App packaging and management], APPX_PACKAGE_ARCHITECTURE2_ARM, APPX_PACKAGE_ARCHITECTURE2_ARM64, APPX_PACKAGE_ARCHITECTURE2_NEUTRAL, APPX_PACKAGE_ARCHITECTURE2_UNKNOWN, APPX_PACKAGE_ARCHITECTURE2_X64, APPX_PACKAGE_ARCHITECTURE2_X86, APPX_PACKAGE_ARCHITECTURE2_X86_ON_ARM64, appxpackaging/APPX_PACKAGE_ARCHITECTURE2, appxpackaging/APPX_PACKAGE_ARCHITECTURE2_ARM, appxpackaging/APPX_PACKAGE_ARCHITECTURE2_ARM64, appxpackaging/APPX_PACKAGE_ARCHITECTURE2_NEUTRAL, appxpackaging/APPX_PACKAGE_ARCHITECTURE2_UNKNOWN, appxpackaging/APPX_PACKAGE_ARCHITECTURE2_X64, appxpackaging/APPX_PACKAGE_ARCHITECTURE2_X86, appxpackaging/APPX_PACKAGE_ARCHITECTURE2_X86_ON_ARM64, appxpkg.appx_package_architecture2
 ms.topic: enum
-f1_keywords: 
- - "appxpackaging/APPX_PACKAGE_ARCHITECTURE2"
+f1_keywords:
+- appxpackaging/APPX_PACKAGE_ARCHITECTURE2
 dev_langs:
- - c++
+- c++
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - AppxPackaging.h
+- AppxPackaging.h
 api_name:
- - APPX_PACKAGE_ARCHITECTURE2
+- APPX_PACKAGE_ARCHITECTURE2
 targetos: Windows
 req.typenames: APPX_PACKAGE_ARCHITECTURE2
 req.redist: 

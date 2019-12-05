@@ -1,19 +1,17 @@
 ---
 UID: NS:prsht._PROPSHEETPAGEA_V3
 title: PROPSHEETPAGEA_V3 (prsht.h)
-
 description: Defines a page in a property sheet.
 old-location: controls\PROPSHEETPAGE.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\propsheet\structures\propsheetpage.htm
-
 ms.date: 12/05/2018
 ms.keywords: '*LPPROPSHEETPAGEA_V3, LPPROPSHEETPAGE, LPPROPSHEETPAGE structure pointer [Windows Controls], PROPSHEETPAGE, PROPSHEETPAGE structure [Windows Controls], PROPSHEETPAGEA, PROPSHEETPAGEA_LATEST, PROPSHEETPAGEA_V3, PROPSHEETPAGEW, PSP_DEFAULT, PSP_DLGINDIRECT, PSP_HASHELP, PSP_HIDEHEADER, PSP_PREMATURE, PSP_RTLREADING, PSP_USECALLBACK, PSP_USEFUSIONCONTEXT, PSP_USEHEADERSUBTITLE, PSP_USEHEADERTITLE, PSP_USEHICON, PSP_USEICONID, PSP_USEREFPARENT, PSP_USETITLE, _win32_PROPSHEETPAGE_str, _win32_PROPSHEETPAGE_str_cpp, controls.PROPSHEETPAGE, controls._win32_PROPSHEETPAGE_str, prsht/LPPROPSHEETPAGE, prsht/PROPSHEETPAGE, prsht/PROPSHEETPAGEA, prsht/PROPSHEETPAGEW'
 ms.topic: struct
 f1_keywords:
 - prsht/PROPSHEETPAGE
 dev_langs:
- - c++
+- c++
 req.header: prsht.h
 req.include-header: 
 req.target-type: Windows

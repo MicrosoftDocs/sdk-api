@@ -1,19 +1,17 @@
 ---
 UID: NE:gamingdeviceinformation.GAMING_DEVICE_DEVICE_ID
 title: GAMING_DEVICE_DEVICE_ID (gamingdeviceinformation.h)
-
 description: Indicates the type of device that the game is running on.
 old-location: gamingdvcinfo\gaming_device_device_id.htm
 tech.root: gamingdvcinfo
 ms.assetid: DA196767-940E-47CF-8444-4A2C37E3718B
-
 ms.date: 12/05/2018
 ms.keywords: GAMING_DEVICE_DEVICE_ID, GAMING_DEVICE_DEVICE_ID enumeration, GAMING_DEVICE_DEVICE_ID_NONE, GAMING_DEVICE_DEVICE_ID_XBOX_ONE, GAMING_DEVICE_DEVICE_ID_XBOX_ONE_S, GAMING_DEVICE_DEVICE_ID_XBOX_ONE_X, GAMING_DEVICE_DEVICE_ID_XBOX_ONE_X_DEVKIT, gamingdeviceinformation/GAMING_DEVICE_DEVICE_ID, gamingdeviceinformation/GAMING_DEVICE_DEVICE_ID_NONE, gamingdeviceinformation/GAMING_DEVICE_DEVICE_ID_XBOX_ONE, gamingdeviceinformation/GAMING_DEVICE_DEVICE_ID_XBOX_ONE_S, gamingdeviceinformation/GAMING_DEVICE_DEVICE_ID_XBOX_ONE_X, gamingdeviceinformation/GAMING_DEVICE_DEVICE_ID_XBOX_ONE_X_DEVKIT, gamingdvcinfo.gaming_device_device_id
 ms.topic: enum
-f1_keywords: 
- - "gamingdeviceinformation/GAMING_DEVICE_DEVICE_ID"
+f1_keywords:
+- gamingdeviceinformation/GAMING_DEVICE_DEVICE_ID
 dev_langs:
- - c++
+- c++
 req.header: gamingdeviceinformation.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - gamingdeviceinformation.h
+- gamingdeviceinformation.h
 api_name:
- - GAMING_DEVICE_DEVICE_ID
+- GAMING_DEVICE_DEVICE_ID
 targetos: Windows
 req.typenames: GAMING_DEVICE_DEVICE_ID
 req.redist: 

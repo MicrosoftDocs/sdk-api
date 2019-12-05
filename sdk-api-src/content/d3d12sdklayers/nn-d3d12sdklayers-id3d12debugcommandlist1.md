@@ -1,19 +1,17 @@
 ---
 UID: NN:d3d12sdklayers.ID3D12DebugCommandList1
 title: ID3D12DebugCommandList1 (d3d12sdklayers.h)
-
 description: This interface enables modification of additional command list debug layer settings.
 old-location: direct3d12\id3d12debugcommandlist1.htm
 tech.root: direct3d12
 ms.assetid: 2DF22383-768C-4D23-9ED8-F0CFD6BA6EE7
-
 ms.date: 12/05/2018
 ms.keywords: ID3D12DebugCommandList1, ID3D12DebugCommandList1 interface, ID3D12DebugCommandList1 interface,described, d3d12sdklayers/ID3D12DebugCommandList1, direct3d12.id3d12debugcommandlist1
 ms.topic: interface
-f1_keywords: 
- - "d3d12sdklayers/ID3D12DebugCommandList1"
+f1_keywords:
+- d3d12sdklayers/ID3D12DebugCommandList1
 dev_langs:
- - c++
+- c++
 req.header: d3d12sdklayers.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - d3d12sdklayers.h
+- d3d12sdklayers.h
 api_name:
- - ID3D12DebugCommandList1
+- ID3D12DebugCommandList1
 targetos: Windows
 req.typenames: 
 req.redist: 

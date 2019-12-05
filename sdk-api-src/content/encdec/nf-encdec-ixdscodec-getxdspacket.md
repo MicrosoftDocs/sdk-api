@@ -1,19 +1,17 @@
 ---
 UID: NF:encdec.IXDSCodec.GetXDSPacket
 title: IXDSCodec::GetXDSPacket (encdec.h)
-
 description: The GetXDSPacket method retrieves the most recent XDS packet.
 old-location: mstv\ixdscodec_getxdspacket.htm
 tech.root: mstv
 ms.assetid: 44a74489-4ed7-42f0-b8d5-bf86e0f7072c
-
 ms.date: 12/05/2018
 ms.keywords: GetXDSPacket, GetXDSPacket method [Microsoft TV Technologies], GetXDSPacket method [Microsoft TV Technologies],IXDSCodec interface, IXDSCodec interface [Microsoft TV Technologies],GetXDSPacket method, IXDSCodec.GetXDSPacket, IXDSCodec::GetXDSPacket, IXDSCodecGetXDSPacket, encdec/IXDSCodec::GetXDSPacket, mstv.ixdscodec_getxdspacket
 ms.topic: method
-f1_keywords: 
- - "encdec/IXDSCodec.GetXDSPacket"
+f1_keywords:
+- encdec/IXDSCodec.GetXDSPacket
 dev_langs:
- - c++
+- c++
 req.header: encdec.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - EncDec.h
+- EncDec.h
 api_name:
- - IXDSCodec.GetXDSPacket
+- IXDSCodec.GetXDSPacket
 targetos: Windows
 req.typenames: 
 req.redist: 

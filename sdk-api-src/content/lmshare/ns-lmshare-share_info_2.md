@@ -1,19 +1,17 @@
 ---
 UID: NS:lmshare._SHARE_INFO_2
 title: SHARE_INFO_2 (lmshare.h)
-
 description: Contains information about the shared resource, including name of the resource, type and permissions, and the number of current connections.
 old-location: fs\share_info_2_str.htm
 tech.root: NetShare
 ms.assetid: cd152ccd-cd60-455f-b25c-c4939c65e0ab
-
 ms.date: 12/05/2018
-ms.keywords: "*LPSHARE_INFO_2, *PSHARE_INFO_2, ACCESS_ALL, ACCESS_ATRIB, ACCESS_CREATE, ACCESS_DELETE, ACCESS_EXEC, ACCESS_PERM, ACCESS_READ, ACCESS_WRITE, LPSHARE_INFO_2, LPSHARE_INFO_2 structure pointer [Files], PSHARE_INFO_2, PSHARE_INFO_2 structure pointer [Files], SHARE_INFO_2, SHARE_INFO_2 structure [Files], STYPE_DEVICE, STYPE_DISKTREE, STYPE_IPC, STYPE_PRINTQ, STYPE_SPECIAL, STYPE_TEMPORARY, _win32_share_info_2_str, fs.share_info_2_str, lmshare/LPSHARE_INFO_2, lmshare/PSHARE_INFO_2, lmshare/SHARE_INFO_2, netmgmt.share_info_2_str"
+ms.keywords: '*LPSHARE_INFO_2, *PSHARE_INFO_2, ACCESS_ALL, ACCESS_ATRIB, ACCESS_CREATE, ACCESS_DELETE, ACCESS_EXEC, ACCESS_PERM, ACCESS_READ, ACCESS_WRITE, LPSHARE_INFO_2, LPSHARE_INFO_2 structure pointer [Files], PSHARE_INFO_2, PSHARE_INFO_2 structure pointer [Files], SHARE_INFO_2, SHARE_INFO_2 structure [Files], STYPE_DEVICE, STYPE_DISKTREE, STYPE_IPC, STYPE_PRINTQ, STYPE_SPECIAL, STYPE_TEMPORARY, _win32_share_info_2_str, fs.share_info_2_str, lmshare/LPSHARE_INFO_2, lmshare/PSHARE_INFO_2, lmshare/SHARE_INFO_2, netmgmt.share_info_2_str'
 ms.topic: struct
-f1_keywords: 
- - "lmshare/SHARE_INFO_2"
+f1_keywords:
+- lmshare/SHARE_INFO_2
 dev_langs:
- - c++
+- c++
 req.header: lmshare.h
 req.include-header: Lm.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Lmshare.h
+- Lmshare.h
 api_name:
- - SHARE_INFO_2
+- SHARE_INFO_2
 targetos: Windows
 req.typenames: SHARE_INFO_2, *PSHARE_INFO_2, *LPSHARE_INFO_2
 req.redist: 

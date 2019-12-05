@@ -1,19 +1,17 @@
 ---
 UID: NF:windowsx.ComboBox_GetText
 title: ComboBox_GetText macro (windowsx.h)
-
 description: Retrieves the text from a combo box control.
 old-location: controls\ComboBox_GetText.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listboxes\listboxreference\listboxmacros\combobox_gettext.htm
-
 ms.date: 12/05/2018
 ms.keywords: ComboBox_GetText, ComboBox_GetText macro [Windows Controls], _win32_ComboBox_GetText, _win32_ComboBox_GetText_cpp, controls.ComboBox_GetText, controls._win32_ComboBox_GetText, windowsx/ComboBox_GetText
 ms.topic: macro
-f1_keywords: 
- - "windowsx/ComboBox_GetText"
+f1_keywords:
+- windowsx/ComboBox_GetText
 dev_langs:
- - c++
+- c++
 req.header: windowsx.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Windowsx.h
+- Windowsx.h
 api_name:
- - ComboBox_GetText
+- ComboBox_GetText
 targetos: Windows
 req.typenames: 
 req.redist: 

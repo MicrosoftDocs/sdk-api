@@ -1,19 +1,17 @@
 ---
 UID: NE:eapmethodtypes.tagEapCode
 title: EapCode (eapmethodtypes.h)
-
 description: Defines the set of EAP packet types.
 old-location: eaphost\eapcode.htm
 tech.root: eaphost
 ms.assetid: 19d424a1-91d6-4ebd-acb8-912b4900a4cd
-
 ms.date: 12/05/2018
 ms.keywords: EapCode, EapCode enumeration [EAPHost], EapCodeFailure, EapCodeMaximum, EapCodeMinimum, EapCodeRequest, EapCodeResponse, EapCodeSuccess, eaphost.eapcode, eapmethodtypes/EapCode, eapmethodtypes/EapCodeFailure, eapmethodtypes/EapCodeMaximum, eapmethodtypes/EapCodeMinimum, eapmethodtypes/EapCodeRequest, eapmethodtypes/EapCodeResponse, eapmethodtypes/EapCodeSuccess
 ms.topic: enum
-f1_keywords: 
- - "eapmethodtypes/EapCode"
+f1_keywords:
+- eapmethodtypes/EapCode
 dev_langs:
- - c++
+- c++
 req.header: eapmethodtypes.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - eapmethodtypes.h
+- eapmethodtypes.h
 api_name:
- - EapCode
+- EapCode
 targetos: Windows
 req.typenames: EapCode
 req.redist: 

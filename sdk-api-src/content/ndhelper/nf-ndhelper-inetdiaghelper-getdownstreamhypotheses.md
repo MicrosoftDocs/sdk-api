@@ -1,19 +1,17 @@
 ---
 UID: NF:ndhelper.INetDiagHelper.GetDownStreamHypotheses
 title: INetDiagHelper::GetDownStreamHypotheses (ndhelper.h)
-
 description: Asks the Helper Class Extension to generate hypotheses.
 old-location: ndf\inetdiaghelpe_getdownstreamhypotheses.htm
 tech.root: NDF
 ms.assetid: ac26fbb5-d30f-4b1f-b432-043a07bfa853
-
 ms.date: 12/05/2018
 ms.keywords: GetDownStreamHypotheses, GetDownStreamHypotheses method [NDF], GetDownStreamHypotheses method [NDF],INetDiagHelper interface, INetDiagHelper interface [NDF],GetDownStreamHypotheses method, INetDiagHelper.GetDownStreamHypotheses, INetDiagHelper::GetDownStreamHypotheses, ndf.inetdiaghelpe_getdownstreamhypotheses, ndhelper/INetDiagHelper::GetDownStreamHypotheses
 ms.topic: method
-f1_keywords: 
- - "ndhelper/INetDiagHelper.GetDownStreamHypotheses"
+f1_keywords:
+- ndhelper/INetDiagHelper.GetDownStreamHypotheses
 dev_langs:
- - c++
+- c++
 req.header: ndhelper.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ndhelper.h
+- ndhelper.h
 api_name:
- - INetDiagHelper.GetDownStreamHypotheses
+- INetDiagHelper.GetDownStreamHypotheses
 targetos: Windows
 req.typenames: 
 req.redist: 

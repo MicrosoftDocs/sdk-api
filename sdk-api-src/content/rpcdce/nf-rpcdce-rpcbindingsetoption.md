@@ -1,19 +1,17 @@
 ---
 UID: NF:rpcdce.RpcBindingSetOption
 title: RpcBindingSetOption function (rpcdce.h)
-
 description: The RpcBindingSetOption function enables client applications to specify message-queuing options on a binding handle.
 old-location: rpc\rpcbindingsetoption.htm
 tech.root: Rpc
 ms.assetid: bc721fb0-2271-4658-995b-a41e8eefc5d5
-
 ms.date: 12/05/2018
 ms.keywords: RpcBindingSetOption, RpcBindingSetOption function [RPC], _rpc_rpcbindingsetoption, rpc.rpcbindingsetoption, rpcdce/RpcBindingSetOption
 ms.topic: function
-f1_keywords: 
- - "rpcdce/RpcBindingSetOption"
+f1_keywords:
+- rpcdce/RpcBindingSetOption
 dev_langs:
- - c++
+- c++
 req.header: rpcdce.h
 req.include-header: Rpc.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Rpcrt4.lib
 req.dll: Rpcrt4.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Rpcrt4.dll
+- Rpcrt4.dll
 api_name:
- - RpcBindingSetOption
+- RpcBindingSetOption
 targetos: Windows
 req.typenames: 
 req.redist: 

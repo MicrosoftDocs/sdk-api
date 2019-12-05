@@ -1,19 +1,17 @@
 ---
 UID: NN:msrdc.ISimilarityReportProgress
 title: ISimilarityReportProgress (msrdc.h)
-
 description: Defines a method for RDC to report the current completion percentage of a similarity operation.
 old-location: rdc\isimilarityreportprogress.htm
 tech.root: rdc
 ms.assetid: 813bda93-08d5-456c-9bde-ce6dd53fb8bf
-
 ms.date: 12/05/2018
 ms.keywords: ISimilarityReportProgress, ISimilarityReportProgress interface [Remote Differential Compression], ISimilarityReportProgress interface [Remote Differential Compression],described, fs.isimilarityreportprogress, msrdc/ISimilarityReportProgress, rdc.isimilarityreportprogress
 ms.topic: interface
-f1_keywords: 
- - "msrdc/ISimilarityReportProgress"
+f1_keywords:
+- msrdc/ISimilarityReportProgress
 dev_langs:
- - c++
+- c++
 req.header: msrdc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: MsRdc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - MsRdc.dll
+- MsRdc.dll
 api_name:
- - ISimilarityReportProgress
+- ISimilarityReportProgress
 targetos: Windows
 req.typenames: 
 req.redist: 

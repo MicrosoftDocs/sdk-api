@@ -1,19 +1,17 @@
 ---
 UID: NN:iads.IADsMembers
 title: IADsMembers (iads.h)
-
 description: The IADsMembers interface is a dual interface.
 old-location: adsi\iadsmembers.htm
 tech.root: adsi
 ms.assetid: 889e8fc1-61a6-4a3a-82ac-85d41f664149
-
 ms.date: 12/05/2018
 ms.keywords: IADsMembers, IADsMembers interface [ADSI], IADsMembers interface [ADSI],described, _ds_iadsmembers, adsi.iadsmembers, iads/IADsMembers
 ms.topic: interface
-f1_keywords: 
- - "iads/IADsMembers"
+f1_keywords:
+- iads/IADsMembers
 dev_langs:
- - c++
+- c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Activeds.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Activeds.dll
+- Activeds.dll
 api_name:
- - IADsMembers
+- IADsMembers
 targetos: Windows
 req.typenames: 
 req.redist: 

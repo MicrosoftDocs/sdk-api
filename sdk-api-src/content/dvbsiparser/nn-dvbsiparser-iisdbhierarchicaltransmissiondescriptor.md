@@ -1,19 +1,17 @@
 ---
 UID: NN:dvbsiparser.IIsdbHierarchicalTransmissionDescriptor
 title: IIsdbHierarchicalTransmissionDescriptor (dvbsiparser.h)
-
 description: Implements methods that get data from an Integrated Services Digital Broadcasting (ISDB) hierarchical transmission descriptor.
 old-location: mstv\iisdbhierarchicaltransmissiondescriptor.htm
 tech.root: mstv
 ms.assetid: 6586360b-60d8-4c3c-aa6e-b657e1784b6d
-
 ms.date: 12/05/2018
 ms.keywords: IIsdbHierarchicalTransmissionDescriptor, IIsdbHierarchicalTransmissionDescriptor interface [Microsoft TV Technologies], IIsdbHierarchicalTransmissionDescriptor interface [Microsoft TV Technologies],described, dvbsiparser/IIsdbHierarchicalTransmissionDescriptor, mstv.iisdbhierarchicaltransmissiondescriptor
 ms.topic: interface
-f1_keywords: 
- - "dvbsiparser/IIsdbHierarchicalTransmissionDescriptor"
+f1_keywords:
+- dvbsiparser/IIsdbHierarchicalTransmissionDescriptor
 dev_langs:
- - c++
+- c++
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dvbsiparser.h
+- dvbsiparser.h
 api_name:
- - IIsdbHierarchicalTransmissionDescriptor
+- IIsdbHierarchicalTransmissionDescriptor
 targetos: Windows
 req.typenames: 
 req.redist: 

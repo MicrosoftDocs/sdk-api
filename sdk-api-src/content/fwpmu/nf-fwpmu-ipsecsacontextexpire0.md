@@ -1,19 +1,17 @@
 ---
 UID: NF:fwpmu.IPsecSaContextExpire0
 title: IPsecSaContextExpire0 function (fwpmu.h)
-
 description: Indicates that an IPsec security association (SA) context should be expired.
 old-location: fwp\ipsecsacontextexpire0.htm
 tech.root: fwp
 ms.assetid: 7e249e61-ba40-4dd9-b675-c3c86e8dd1bf
-
 ms.date: 12/05/2018
 ms.keywords: IPsecSaContextExpire0, IPsecSaContextExpire0 function [Filtering], fwp.ipsecsacontextexpire0, fwpmu/IPsecSaContextExpire0
 ms.topic: function
-f1_keywords: 
- - "fwpmu/IPsecSaContextExpire0"
+f1_keywords:
+- fwpmu/IPsecSaContextExpire0
 dev_langs:
- - c++
+- c++
 req.header: fwpmu.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Fwpuclnt.lib
 req.dll: Fwpuclnt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Fwpuclnt.dll
+- Fwpuclnt.dll
 api_name:
- - IPsecSaContextExpire0
+- IPsecSaContextExpire0
 targetos: Windows
 req.typenames: 
 req.redist: 

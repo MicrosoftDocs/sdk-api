@@ -1,19 +1,17 @@
 ---
 UID: NF:wmsdkidl.IWMReaderNetworkConfig.GetProxySettings
 title: IWMReaderNetworkConfig::GetProxySettings (wmsdkidl.h)
-
 description: The GetProxySettings method retrieves the current proxy settings.
 old-location: wmformat\iwmreadernetworkconfig_getproxysettings.htm
 tech.root: wmformat
 ms.assetid: 5fdfc651-05f5-48b3-aeaf-4557c72bc0c0
-
 ms.date: 12/05/2018
 ms.keywords: GetProxySettings, GetProxySettings method [windows Media Format], GetProxySettings method [windows Media Format],IWMReaderNetworkConfig interface, IWMReaderNetworkConfig interface [windows Media Format],GetProxySettings method, IWMReaderNetworkConfig.GetProxySettings, IWMReaderNetworkConfig::GetProxySettings, IWMReaderNetworkConfigGetProxySettings, wmformat.iwmreadernetworkconfig_getproxysettings, wmsdkidl/IWMReaderNetworkConfig::GetProxySettings
 ms.topic: method
-f1_keywords: 
- - "wmsdkidl/IWMReaderNetworkConfig.GetProxySettings"
+f1_keywords:
+- wmsdkidl/IWMReaderNetworkConfig.GetProxySettings
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wmvcore.lib
- - Wmvcore.dll
- - WMStubDRM.lib
- - WMStubDRM.dll
+- Wmvcore.lib
+- Wmvcore.dll
+- WMStubDRM.lib
+- WMStubDRM.dll
 api_name:
- - IWMReaderNetworkConfig.GetProxySettings
+- IWMReaderNetworkConfig.GetProxySettings
 targetos: Windows
 req.typenames: 
 req.redist: 

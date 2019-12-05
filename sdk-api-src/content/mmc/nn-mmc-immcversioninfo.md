@@ -1,19 +1,17 @@
 ---
 UID: NN:mmc.IMMCVersionInfo
 title: IMMCVersionInfo (mmc.h)
-
 description: The IMMCVersionInfo interface provides version information about the installed MMC application.
 old-location: mmc\immcversioninfo.htm
 tech.root: mmc
 ms.assetid: 13cc0cef-3548-4f9f-b150-4f13be23d0ca
-
 ms.date: 12/05/2018
 ms.keywords: IMMCVersionInfo, IMMCVersionInfo interface [MMC], IMMCVersionInfo interface [MMC],described, MMCVersionInfo, _slate_immcversioninfo, mmc.immcversioninfo, mmc/IMMCVersionInfo
 ms.topic: interface
-f1_keywords: 
- - "mmc/IMMCVersionInfo"
+f1_keywords:
+- mmc/IMMCVersionInfo
 dev_langs:
- - c++
+- c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mmc.lib
 req.dll: Mmcndmgr.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mmcndmgr.dll
+- Mmcndmgr.dll
 api_name:
- - IMMCVersionInfo
- - MMCVersionInfo
+- IMMCVersionInfo
+- MMCVersionInfo
 targetos: Windows
 req.typenames: 
 req.redist: 

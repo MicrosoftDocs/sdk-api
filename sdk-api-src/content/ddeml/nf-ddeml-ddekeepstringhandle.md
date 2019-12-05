@@ -1,19 +1,17 @@
 ---
 UID: NF:ddeml.DdeKeepStringHandle
 title: DdeKeepStringHandle function (ddeml.h)
-
 description: Increments the usage count associated with the specified handle.
 old-location: dataxchg\ddekeepstringhandle.htm
 tech.root: dataxchg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\dataexchange\dynamicdataexchangemanagementlibrary\dynamicdataexchangemanagementreference\dynamicdataexchangemanagementfunctions\ddekeepstringhandle.htm
-
 ms.date: 12/05/2018
 ms.keywords: DdeKeepStringHandle, DdeKeepStringHandle function [Data Exchange], _win32_DdeKeepStringHandle, _win32_ddekeepstringhandle_cpp, dataxchg.ddekeepstringhandle, ddeml/DdeKeepStringHandle, winui._win32_ddekeepstringhandle
 ms.topic: function
-f1_keywords: 
- - "ddeml/DdeKeepStringHandle"
+f1_keywords:
+- ddeml/DdeKeepStringHandle
 dev_langs:
- - c++
+- c++
 req.header: ddeml.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - User32.dll
+- User32.dll
 api_name:
- - DdeKeepStringHandle
+- DdeKeepStringHandle
 targetos: Windows
 req.typenames: 
 req.redist: 

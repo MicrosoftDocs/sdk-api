@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationTextRange3.GetAttributeValues
 title: IUIAutomationTextRange3::GetAttributeValues (uiautomationclient.h)
-
 description: Returns all of the requested text attribute values for a text range in a single cross-process call. This is equivalent to calling GetAttributeValue, except it can retrieve multiple values instead of just one.
 old-location: winauto\uiauto_IUIAutomationTextRange3_GetAttributeValues.htm
 tech.root: WinAuto
 ms.assetid: 1AF29BF1-A074-4054-B338-7B6922B1415C
-
 ms.date: 12/05/2018
 ms.keywords: GetAttributeValues, GetAttributeValues method [Windows Accessibility], GetAttributeValues method [Windows Accessibility],IUIAutomationTextRange3 interface, IUIAutomationTextRange3 interface [Windows Accessibility],GetAttributeValues method, IUIAutomationTextRange3.GetAttributeValues, IUIAutomationTextRange3::GetAttributeValues, uiautomationclient/IUIAutomationTextRange3::GetAttributeValues, winauto.uiauto_IUIAutomationTextRange3_GetAttributeValues
 ms.topic: method
-f1_keywords: 
- - "uiautomationclient/IUIAutomationTextRange3.GetAttributeValues"
+f1_keywords:
+- uiautomationclient/IUIAutomationTextRange3.GetAttributeValues
 dev_langs:
- - c++
+- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationClient.h
+- UIAutomationClient.h
 api_name:
- - IUIAutomationTextRange3.GetAttributeValues
+- IUIAutomationTextRange3.GetAttributeValues
 targetos: Windows
 req.typenames: 
 req.redist: 

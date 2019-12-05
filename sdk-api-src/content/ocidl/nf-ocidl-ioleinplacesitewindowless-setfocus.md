@@ -1,19 +1,17 @@
 ---
 UID: NF:ocidl.IOleInPlaceSiteWindowless.SetFocus
 title: IOleInPlaceSiteWindowless::SetFocus (ocidl.h)
-
 description: Sets the keyboard focus for a UI-active, windowless object.
 old-location: com\ioleinplacesitewindowless_setfocus.htm
 tech.root: com
 ms.assetid: 1ea9bade-5e41-49a0-a770-3a5cfc56d0f6
-
 ms.date: 12/05/2018
 ms.keywords: IOleInPlaceSiteWindowless interface [COM],SetFocus method, IOleInPlaceSiteWindowless.SetFocus, IOleInPlaceSiteWindowless::SetFocus, SetFocus, SetFocus method [COM], SetFocus method [COM],IOleInPlaceSiteWindowless interface, _ole_ioleinplacesitewindowless_setfocus, com.ioleinplacesitewindowless_setfocus, ocidl/IOleInPlaceSiteWindowless::SetFocus
 ms.topic: method
-f1_keywords: 
- - "ocidl/IOleInPlaceSiteWindowless.SetFocus"
+f1_keywords:
+- ocidl/IOleInPlaceSiteWindowless.SetFocus
 dev_langs:
- - c++
+- c++
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - OCIdl.h
+- OCIdl.h
 api_name:
- - IOleInPlaceSiteWindowless.SetFocus
+- IOleInPlaceSiteWindowless.SetFocus
 targetos: Windows
 req.typenames: 
 req.redist: 

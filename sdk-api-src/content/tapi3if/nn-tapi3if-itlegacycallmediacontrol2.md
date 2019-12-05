@@ -1,19 +1,17 @@
 ---
 UID: NN:tapi3if.ITLegacyCallMediaControl2
 title: ITLegacyCallMediaControl2 (tapi3if.h)
-
 description: The ITLegacyCallMediaControl2 interface is an extension of the ITLegacyCallMediaControl interface. ITLegacyCallMediaControl2 provides additional methods, primarily for tone detection and generation.
 old-location: tapi3\itlegacycallmediacontrol2.htm
 tech.root: Tapi
 ms.assetid: 47fa5669-1c74-4c18-8370-3efe35b3573e
-
 ms.date: 12/05/2018
 ms.keywords: ITLegacyCallMediaControl2, ITLegacyCallMediaControl2 interface [TAPI 2.2], ITLegacyCallMediaControl2 interface [TAPI 2.2],described, _tapi3_itlegacycallmediacontrol2, tapi3.itlegacycallmediacontrol2, tapi3if/ITLegacyCallMediaControl2
 ms.topic: interface
-f1_keywords: 
- - "tapi3if/ITLegacyCallMediaControl2"
+f1_keywords:
+- tapi3if/ITLegacyCallMediaControl2
 dev_langs:
- - c++
+- c++
 req.header: tapi3if.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Tapi3.dll
+- Tapi3.dll
 api_name:
- - ITLegacyCallMediaControl2
+- ITLegacyCallMediaControl2
 targetos: Windows
 req.typenames: 
 req.redist: 

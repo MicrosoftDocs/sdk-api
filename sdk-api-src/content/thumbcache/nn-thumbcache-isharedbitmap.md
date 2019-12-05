@@ -1,19 +1,17 @@
 ---
 UID: NN:thumbcache.ISharedBitmap
 title: ISharedBitmap (thumbcache.h)
-
 description: Exposes memory-efficient methods for accessing bitmaps. This interface is used as a thin wrapper around HBITMAP objects, allowing those objects to be reference counted and protected from having their underlying data changed.
 old-location: shell\ISharedBitmap.htm
 tech.root: shell
 ms.assetid: 72be7757-f969-4f4f-ada1-71789b8d1de0
-
 ms.date: 12/05/2018
 ms.keywords: ISharedBitmap, ISharedBitmap interface [Windows Shell], ISharedBitmap interface [Windows Shell],described, _shell_ISharedBitmap, shell.ISharedBitmap, thumbcache/ISharedBitmap
 ms.topic: interface
-f1_keywords: 
- - "thumbcache/ISharedBitmap"
+f1_keywords:
+- thumbcache/ISharedBitmap
 dev_langs:
- - c++
+- c++
 req.header: thumbcache.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Thumbcache.h
+- Thumbcache.h
 api_name:
- - ISharedBitmap
+- ISharedBitmap
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:prsht.PropSheet_SetCurSelByID
 title: PropSheet_SetCurSelByID macro (prsht.h)
-
 description: Activates the specified page in a property sheet based on the resource identifier of the page. You can use this macro or send the PSM_SETCURSELID message explicitly.
 old-location: controls\PropSheet_SetCurSelByID.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\propsheet\macros\propsheet_setcurselbyid.htm
-
 ms.date: 12/05/2018
 ms.keywords: PropSheet_SetCurSelByID, PropSheet_SetCurSelByID macro [Windows Controls], _win32_PropSheet_SetCurSelByID, _win32_PropSheet_SetCurSelByID_cpp, controls.PropSheet_SetCurSelByID, controls._win32_PropSheet_SetCurSelByID, prsht/PropSheet_SetCurSelByID
 ms.topic: macro
-f1_keywords: 
- - "prsht/PropSheet_SetCurSelByID"
+f1_keywords:
+- prsht/PropSheet_SetCurSelByID
 dev_langs:
- - c++
+- c++
 req.header: prsht.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Prsht.h
+- Prsht.h
 api_name:
- - PropSheet_SetCurSelByID
+- PropSheet_SetCurSelByID
 targetos: Windows
 req.typenames: 
 req.redist: 

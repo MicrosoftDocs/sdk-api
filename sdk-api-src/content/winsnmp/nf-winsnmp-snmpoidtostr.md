@@ -1,19 +1,17 @@
 ---
 UID: NF:winsnmp.SnmpOidToStr
 title: SnmpOidToStr function (winsnmp.h)
-
 description: The WinSNMP SnmpOidToStr function converts the internal binary representation of an SNMP object identifier to its dotted numeric string format, for example, to &#0034;1.2.3.4.5.6&#0034;.
 old-location: snmp\snmpoidtostr.htm
 tech.root: SNMP
 ms.assetid: 20f0af32-8f4f-4326-ab6a-389dc95be73f
-
 ms.date: 12/05/2018
 ms.keywords: SnmpOidToStr, SnmpOidToStr function [SNMP], _snmp_snmpoidtostr, snmp.snmpoidtostr, winsnmp/SnmpOidToStr
 ms.topic: function
-f1_keywords: 
- - "winsnmp/SnmpOidToStr"
+f1_keywords:
+- winsnmp/SnmpOidToStr
 dev_langs:
- - c++
+- c++
 req.header: winsnmp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Wsnmp32.lib
 req.dll: Wsnmp32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Wsnmp32.dll
+- Wsnmp32.dll
 api_name:
- - SnmpOidToStr
+- SnmpOidToStr
 targetos: Windows
 req.typenames: 
 req.redist: 

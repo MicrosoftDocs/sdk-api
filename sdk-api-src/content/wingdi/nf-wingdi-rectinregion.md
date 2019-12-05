@@ -1,19 +1,17 @@
 ---
 UID: NF:wingdi.RectInRegion
 title: RectInRegion function (wingdi.h)
-
 description: The RectInRegion function determines whether any part of the specified rectangle is within the boundaries of a region.
 old-location: gdi\rectinregion.htm
 tech.root: gdi
 ms.assetid: 198a02f1-120c-4f65-aa7c-a41f2e5e81a9
-
 ms.date: 12/05/2018
 ms.keywords: RectInRegion, RectInRegion function [Windows GDI], _win32_RectInRegion, gdi.rectinregion, wingdi/RectInRegion
 ms.topic: function
-f1_keywords: 
- - "wingdi/RectInRegion"
+f1_keywords:
+- wingdi/RectInRegion
 dev_langs:
- - c++
+- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - gdi32.dll
- - Ext-MS-Win-RTCore-GDI-rgn-l1-1-0.dll
- - api-ms-win-gdi-ie-rgn-l1-1-0.dll
- - ie_shims.dll
- - ext-ms-win-rtcore-gdi-rgn-l1-1-1.dll
+- gdi32.dll
+- Ext-MS-Win-RTCore-GDI-rgn-l1-1-0.dll
+- api-ms-win-gdi-ie-rgn-l1-1-0.dll
+- ie_shims.dll
+- ext-ms-win-rtcore-gdi-rgn-l1-1-1.dll
 api_name:
- - RectInRegion
+- RectInRegion
 targetos: Windows
 req.typenames: 
 req.redist: 

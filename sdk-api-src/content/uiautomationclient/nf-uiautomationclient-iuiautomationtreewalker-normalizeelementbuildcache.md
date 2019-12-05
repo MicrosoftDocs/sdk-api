@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationTreeWalker.NormalizeElementBuildCache
 title: IUIAutomationTreeWalker::NormalizeElementBuildCache (uiautomationclient.h)
-
 description: Retrieves the ancestor element nearest to the specified Microsoft UI Automation element in the tree view, prefetches the requested properties and control patterns, and stores the prefetched items in the cache.
 old-location: winauto\uiauto_IUIAutomationTreeWalker_NormalizeBuildCache.htm
 tech.root: WinAuto
 ms.assetid: 62306545-1c5f-48ab-87c3-35bb6c3d94fa
-
 ms.date: 12/05/2018
 ms.keywords: IUIAutomationTreeWalker interface [Windows Accessibility],NormalizeElementBuildCache method, IUIAutomationTreeWalker.NormalizeElementBuildCache, IUIAutomationTreeWalker::NormalizeElementBuildCache, NormalizeElementBuildCache, NormalizeElementBuildCache method [Windows Accessibility], NormalizeElementBuildCache method [Windows Accessibility],IUIAutomationTreeWalker interface, uiauto.uiauto_IUIAutomationTreeWalker_NormalizeBuildCache, uiauto_IUIAutomationTreeWalker_NormalizeBuildCache, uiautomationclient/IUIAutomationTreeWalker::NormalizeElementBuildCache, winauto.uiauto_IUIAutomationTreeWalker_NormalizeBuildCache
 ms.topic: method
-f1_keywords: 
- - "uiautomationclient/IUIAutomationTreeWalker.NormalizeElementBuildCache"
+f1_keywords:
+- uiautomationclient/IUIAutomationTreeWalker.NormalizeElementBuildCache
 dev_langs:
- - c++
+- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationClient.h
+- UIAutomationClient.h
 api_name:
- - IUIAutomationTreeWalker.NormalizeElementBuildCache
+- IUIAutomationTreeWalker.NormalizeElementBuildCache
 targetos: Windows
 req.typenames: 
 req.redist: 

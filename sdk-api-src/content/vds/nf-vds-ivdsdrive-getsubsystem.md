@@ -1,19 +1,17 @@
 ---
 UID: NF:vds.IVdsDrive.GetSubSystem
 title: IVdsDrive::GetSubSystem (vds.h)
-
 description: Returns the subsystem to which the drive belongs.
 old-location: base\ivdsdrive_getsubsystem.htm
 tech.root: VDS
 ms.assetid: e407cf77-93a7-48f6-85d3-007369316041
-
 ms.date: 12/05/2018
 ms.keywords: GetSubSystem, GetSubSystem method [VDS], GetSubSystem method [VDS],IVdsDrive interface, IVdsDrive interface [VDS],GetSubSystem method, IVdsDrive.GetSubSystem, IVdsDrive::GetSubSystem, base.ivdsdrive_getsubsystem, vds/IVdsDrive::GetSubSystem, vdshwprv/IVdsDrive::GetSubSystem
 ms.topic: method
-f1_keywords: 
- - "vds/IVdsDrive.GetSubSystem"
+f1_keywords:
+- vds/IVdsDrive.GetSubSystem
 dev_langs:
- - c++
+- c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Uuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Uuid.lib
- - Uuid.dll
+- Uuid.lib
+- Uuid.dll
 api_name:
- - IVdsDrive.GetSubSystem
+- IVdsDrive.GetSubSystem
 targetos: Windows
 req.typenames: 
 req.redist: 

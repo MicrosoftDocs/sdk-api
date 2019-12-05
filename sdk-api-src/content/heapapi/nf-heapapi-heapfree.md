@@ -1,19 +1,17 @@
 ---
 UID: NF:heapapi.HeapFree
 title: HeapFree function (heapapi.h)
-
 description: Frees a memory block allocated from a heap by the HeapAlloc or HeapReAlloc function.
 old-location: base\heapfree.htm
 tech.root: Memory
 ms.assetid: 6139e55f-9dda-42b5-bc9b-8d9bbfeaa619
-
 ms.date: 12/05/2018
 ms.keywords: HEAP_NO_SERIALIZE, HeapFree, HeapFree function, _win32_heapfree, base.heapfree, heapapi/HeapFree, winbase/HeapFree
 ms.topic: function
-f1_keywords: 
- - "heapapi/HeapFree"
+f1_keywords:
+- heapapi/HeapFree
 dev_langs:
- - c++
+- c++
 req.header: heapapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,20 +30,20 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-heap-l1-1-0.dll
- - KernelBase.dll
- - API-MS-Win-Core-heap-l1-2-0.dll
- - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
- - MinKernelBase.dll
- - vertdll.dll
+- Kernel32.dll
+- API-MS-Win-Core-heap-l1-1-0.dll
+- KernelBase.dll
+- API-MS-Win-Core-heap-l1-2-0.dll
+- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+- MinKernelBase.dll
+- vertdll.dll
 api_name:
- - HeapFree
+- HeapFree
 targetos: Windows
 req.typenames: 
 req.redist: 

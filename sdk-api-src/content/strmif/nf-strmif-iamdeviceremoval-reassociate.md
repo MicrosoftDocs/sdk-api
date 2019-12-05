@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IAMDeviceRemoval.Reassociate
 title: IAMDeviceRemoval::Reassociate (strmif.h)
-
 description: The Reassociate method reassociates the KsProxy filter with the device. The Filter Graph Manager calls this method if it receives a notification that the device has returned after being removed.
 old-location: dshow\iamdeviceremoval_reassociate.htm
 tech.root: DirectShow
 ms.assetid: 214b98c7-4143-4466-a359-1e9c9e4c778d
-
 ms.date: 12/05/2018
 ms.keywords: IAMDeviceRemoval interface [DirectShow],Reassociate method, IAMDeviceRemoval.Reassociate, IAMDeviceRemoval::Reassociate, IAMDeviceRemovalReassociate, Reassociate, Reassociate method [DirectShow], Reassociate method [DirectShow],IAMDeviceRemoval interface, dshow.iamdeviceremoval_reassociate, strmif/IAMDeviceRemoval::Reassociate
 ms.topic: method
-f1_keywords: 
- - "strmif/IAMDeviceRemoval.Reassociate"
+f1_keywords:
+- strmif/IAMDeviceRemoval.Reassociate
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IAMDeviceRemoval.Reassociate
+- IAMDeviceRemoval.Reassociate
 targetos: Windows
 req.typenames: 
 req.redist: 

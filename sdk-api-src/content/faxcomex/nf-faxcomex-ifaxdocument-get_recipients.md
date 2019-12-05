@@ -1,19 +1,17 @@
 ---
 UID: NF:faxcomex.IFaxDocument.get_Recipients
 title: IFaxDocument::get_Recipients (faxcomex.h)
-
 description: The IFaxDocument::get_Recipients property retrieves a collection of one or more recipients for the fax document.
 old-location: fax\_mfax_faxdocument_cpp_mfax_faxdocument_recipients_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_8foz.htm
-
 ms.date: 12/05/2018
 ms.keywords: IFaxDocument interface [Fax Service],Recipients property, IFaxDocument.Recipients, IFaxDocument.get_Recipients, IFaxDocument::Recipients, IFaxDocument::get_Recipients, Recipients property [Fax Service], Recipients property [Fax Service],IFaxDocument interface, _mfax_faxdocument.recipients, fax._mfax_faxdocument_cpp_mfax_faxdocument_recipients_cpp, fax._mfax_faxdocument_recipients, faxcomex/IFaxDocument::Recipients, faxcomex/IFaxDocument::get_Recipients, get_Recipients
 ms.topic: method
-f1_keywords: 
- - "faxcomex/IFaxDocument.Recipients"
+f1_keywords:
+- faxcomex/IFaxDocument.Recipients
 dev_langs:
- - c++
+- c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: Fxscomex.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Fxscomex.dll
+- Fxscomex.dll
 api_name:
- - IFaxDocument.Recipients
- - IFaxDocument.get_Recipients
- - IFaxDocument.get_Recipients
+- IFaxDocument.Recipients
+- IFaxDocument.get_Recipients
+- IFaxDocument.get_Recipients
 targetos: Windows
 req.typenames: 
 req.redist: 

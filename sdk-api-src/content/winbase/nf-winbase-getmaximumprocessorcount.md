@@ -1,19 +1,17 @@
 ---
 UID: NF:winbase.GetMaximumProcessorCount
 title: GetMaximumProcessorCount function (winbase.h)
-
 description: Returns the maximum number of logical processors that a processor group or the system can have.
 old-location: base\getmaximumprocessorcount.htm
 tech.root: ProcThread
 ms.assetid: 71ce4fb4-ef63-4750-a842-bbfb1a5b0543
-
 ms.date: 12/05/2018
 ms.keywords: GetMaximumProcessorCount, GetMaximumProcessorCount function, base.getmaximumprocessorcount, winbase/GetMaximumProcessorCount
 ms.topic: function
-f1_keywords: 
- - "winbase/GetMaximumProcessorCount"
+f1_keywords:
+- winbase/GetMaximumProcessorCount
 dev_langs:
- - c++
+- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - kernel32.dll
+- kernel32.dll
 api_name:
- - GetMaximumProcessorCount
+- GetMaximumProcessorCount
 targetos: Windows
 req.typenames: 
 req.redist: 

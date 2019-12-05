@@ -1,19 +1,17 @@
 ---
 UID: NF:setupapi.SetupTerminateFileLog
 title: SetupTerminateFileLog function (setupapi.h)
-
 description: The SetupTerminateFileLog function releases resources associated with a file log.
 old-location: setup\setupterminatefilelog.htm
 tech.root: SetupApi
 ms.assetid: a230063a-2b4a-4ed3-8624-4859a17f8ccc
-
 ms.date: 12/05/2018
 ms.keywords: SetupTerminateFileLog, SetupTerminateFileLog function [Setup API], _setupapi_setupterminatefilelog, setup.setupterminatefilelog, setupapi/SetupTerminateFileLog
 ms.topic: function
-f1_keywords: 
- - "setupapi/SetupTerminateFileLog"
+f1_keywords:
+- setupapi/SetupTerminateFileLog
 dev_langs:
- - c++
+- c++
 req.header: setupapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Setupapi.lib
 req.dll: Setupapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Setupapi.dll
+- Setupapi.dll
 api_name:
- - SetupTerminateFileLog
+- SetupTerminateFileLog
 targetos: Windows
 req.typenames: 
 req.redist: 

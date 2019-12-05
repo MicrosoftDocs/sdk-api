@@ -1,19 +1,17 @@
 ---
 UID: NF:dxgidebug.IDXGIInfoQueue.SetBreakOnSeverity
 title: IDXGIInfoQueue::SetBreakOnSeverity (dxgidebug.h)
-
 description: Sets a message severity level to break on when a message with that severity level passes through the storage filter.
 old-location: direct3ddxgi\idxgiinfoqueue_setbreakonseverity.htm
 tech.root: direct3ddxgi
 ms.assetid: 3316A9E5-F65B-4162-9A5E-CDB5CD65FBF8
-
 ms.date: 12/05/2018
 ms.keywords: IDXGIInfoQueue interface [DXGI],SetBreakOnSeverity method, IDXGIInfoQueue.SetBreakOnSeverity, IDXGIInfoQueue::SetBreakOnSeverity, SetBreakOnSeverity, SetBreakOnSeverity method [DXGI], SetBreakOnSeverity method [DXGI],IDXGIInfoQueue interface, direct3ddxgi.idxgiinfoqueue_setbreakonseverity, dxgidebug/IDXGIInfoQueue::SetBreakOnSeverity
 ms.topic: method
-f1_keywords: 
- - "dxgidebug/IDXGIInfoQueue.SetBreakOnSeverity"
+f1_keywords:
+- dxgidebug/IDXGIInfoQueue.SetBreakOnSeverity
 dev_langs:
- - c++
+- c++
 req.header: dxgidebug.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: DXGIDebug.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - DXGIDebug.dll
+- DXGIDebug.dll
 api_name:
- - IDXGIInfoQueue.SetBreakOnSeverity
+- IDXGIInfoQueue.SetBreakOnSeverity
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IRegTreeItem.SetCheckState
 title: IRegTreeItem::SetCheckState (shobjidl_core.h)
-
 description: Sets the state of a check box item in a tree-view control.
 old-location: shell\IRegTreeItem_SetCheckState.htm
 tech.root: shell
 ms.assetid: 0ba25491-8d18-4040-a256-9078b91e4f3f
-
 ms.date: 12/05/2018
 ms.keywords: FALSE, IRegTreeItem interface [Windows Shell],SetCheckState method, IRegTreeItem.SetCheckState, IRegTreeItem::SetCheckState, SetCheckState, SetCheckState method [Windows Shell], SetCheckState method [Windows Shell],IRegTreeItem interface, TRUE, _win32_IRegTreeItem_SetCheckState, shell.IRegTreeItem_SetCheckState, shobjidl_core/IRegTreeItem::SetCheckState
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IRegTreeItem.SetCheckState"
+f1_keywords:
+- shobjidl_core/IRegTreeItem.SetCheckState
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Shell32.dll (version 5.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - IRegTreeItem.SetCheckState
+- IRegTreeItem.SetCheckState
 targetos: Windows
 req.typenames: 
 req.redist: 

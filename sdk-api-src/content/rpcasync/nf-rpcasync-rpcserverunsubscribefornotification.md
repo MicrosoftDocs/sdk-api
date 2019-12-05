@@ -1,19 +1,17 @@
 ---
 UID: NF:rpcasync.RpcServerUnsubscribeForNotification
 title: RpcServerUnsubscribeForNotification function (rpcasync.h)
-
 description: Unsubscribes the server from RPC notifications.
 old-location: rpc\rpcserverunsubscribefornotification.htm
 tech.root: Rpc
 ms.assetid: 7ca59f00-41ac-4771-a465-6185e17abe80
-
 ms.date: 12/05/2018
 ms.keywords: RpcServerUnsubscribeForNotification, RpcServerUnsubscribeForNotification function [RPC], rpc.rpcserverunsubscribefornotification, rpcasync/RpcServerUnsubscribeForNotification
 ms.topic: function
 f1_keywords:
 - rpcasync/RpcServerUnsubscribeForNotification
 dev_langs:
- - c++
+- c++
 req.header: rpcasync.h
 req.include-header: Rpc.h
 req.target-type: Windows

@@ -1,19 +1,17 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMGradientBrush.GetTransform
 title: IXpsOMGradientBrush::GetTransform (xpsobjectmodel.h)
-
 description: Gets a pointer to the IXpsOMMatrixTransform interface that contains the resolved matrix transform for the brush.
 old-location: xps\ixpsomgradientbrush_gettransform.htm
 tech.root: printdocs
 ms.assetid: 6b5474d2-a97e-4446-b4a9-7efb51c31ad3
-
 ms.date: 12/05/2018
 ms.keywords: GetTransform, GetTransform method [XPS Documents and Packaging], GetTransform method [XPS Documents and Packaging],IXpsOMGradientBrush interface, IXpsOMGradientBrush interface [XPS Documents and Packaging],GetTransform method, IXpsOMGradientBrush.GetTransform, IXpsOMGradientBrush::GetTransform, xps.ixpsomgradientbrush_gettransform, xpsobjectmodel/IXpsOMGradientBrush::GetTransform
 ms.topic: method
-f1_keywords: 
- - "xpsobjectmodel/IXpsOMGradientBrush.GetTransform"
+f1_keywords:
+- xpsobjectmodel/IXpsOMGradientBrush.GetTransform
 dev_langs:
- - c++
+- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsobjectmodel.h
+- xpsobjectmodel.h
 api_name:
- - IXpsOMGradientBrush.GetTransform
+- IXpsOMGradientBrush.GetTransform
 targetos: Windows
 req.typenames: 
 req.redist: 

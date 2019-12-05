@@ -1,19 +1,17 @@
 ---
 UID: NN:mileffects.IMILBitmapEffectFactory
 title: IMILBitmapEffectFactory (mileffects.h)
-
 description: Exposes methods used to create Windows Presentation Foundation (WPF) Microsoft Win32 bitmap effect objects.
 old-location: wibe\_wibe_imilbitmapeffectfactory.htm
 tech.root: wibe
 ms.assetid: VS|wibe|~\wibelh\reference\ifaces\imilbitmapeffectfactory\imilbitmapeffectfactory.htm
-
 ms.date: 12/05/2018
 ms.keywords: IMILBitmapEffectFactory, IMILBitmapEffectFactory interface [WPF Bitmap Effects], IMILBitmapEffectFactory interface [WPF Bitmap Effects],described, _wibe_imilbitmapeffectfactory, mileffects/IMILBitmapEffectFactory, wibe._wibe_imilbitmapeffectfactory
 ms.topic: interface
-f1_keywords: 
- - "mileffects/IMILBitmapEffectFactory"
+f1_keywords:
+- mileffects/IMILBitmapEffectFactory
 dev_langs:
- - c++
+- c++
 req.header: mileffects.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Mileffects.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mileffects.dll
+- Mileffects.dll
 api_name:
- - IMILBitmapEffectFactory
+- IMILBitmapEffectFactory
 targetos: Windows
 req.typenames: 
 req.redist: Microsoft .Net 3.0

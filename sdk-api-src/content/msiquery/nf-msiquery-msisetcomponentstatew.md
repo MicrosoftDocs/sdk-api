@@ -1,19 +1,17 @@
 ---
 UID: NF:msiquery.MsiSetComponentStateW
 title: MsiSetComponentStateW function (msiquery.h)
-
 description: The MsiSetComponentState function sets a component to the requested state.
 old-location: setup\msisetcomponentstate.htm
 tech.root: Msi
 ms.assetid: d538c81f-130b-4522-9f85-47f04e24f125
-
 ms.date: 12/05/2018
 ms.keywords: INSTALLSTATE_ABSENT, INSTALLSTATE_LOCAL, INSTALLSTATE_SOURCE, MsiSetComponentState, MsiSetComponentState function, MsiSetComponentStateA, MsiSetComponentStateW, _msi_msisetcomponentstate, msiquery/MsiSetComponentState, msiquery/MsiSetComponentStateA, msiquery/MsiSetComponentStateW, setup.msisetcomponentstate
 ms.topic: function
-f1_keywords: 
- - "msiquery/MsiSetComponentState"
+f1_keywords:
+- msiquery/MsiSetComponentState
 dev_langs:
- - c++
+- c++
 req.header: msiquery.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Msi.lib
 req.dll: Msi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Msi.dll
+- Msi.dll
 api_name:
- - MsiSetComponentState
- - MsiSetComponentStateA
- - MsiSetComponentStateW
+- MsiSetComponentState
+- MsiSetComponentStateA
+- MsiSetComponentStateW
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:clusapi.GetClusterNodeState
 title: GetClusterNodeState function (clusapi.h)
-
 description: Returns the current state of a node.
 old-location: mscs\getclusternodestate.htm
 tech.root: MsCS
 ms.assetid: 94c83582-3d99-4a20-ad58-1af4e8190781
-
 ms.date: 12/05/2018
 ms.keywords: GetClusterNodeState, GetClusterNodeState function [Failover Cluster], PCLUSAPI_GET_CLUSTER_NODE_STATE, PCLUSAPI_GET_CLUSTER_NODE_STATE function [Failover Cluster], _wolf_getclusternodestate, clusapi/GetClusterNodeState, clusapi/PCLUSAPI_GET_CLUSTER_NODE_STATE, mscs.getclusternodestate
 ms.topic: function
-f1_keywords: 
- - "clusapi/GetClusterNodeState"
+f1_keywords:
+- clusapi/GetClusterNodeState
 dev_langs:
- - c++
+- c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib: ClusAPI.lib
 req.dll: ClusAPI.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - ClusAPI.dll
- - Ext-MS-Win-Cluster-ClusAPI-l1-1-0.dll
- - Ext-MS-Win-Cluster-ClusAPI-l1-1-1.dll
- - Ext-MS-Win-Cluster-ClusAPI-l1-1-2.dll
- - ext-ms-win-cluster-clusapi-l1-1-3.dll
+- ClusAPI.dll
+- Ext-MS-Win-Cluster-ClusAPI-l1-1-0.dll
+- Ext-MS-Win-Cluster-ClusAPI-l1-1-1.dll
+- Ext-MS-Win-Cluster-ClusAPI-l1-1-2.dll
+- ext-ms-win-cluster-clusapi-l1-1-3.dll
 api_name:
- - GetClusterNodeState
+- GetClusterNodeState
 targetos: Windows
 req.typenames: 
 req.redist: 

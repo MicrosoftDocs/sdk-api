@@ -1,19 +1,17 @@
 ---
 UID: NF:sbtsv.ITsSbSession.get_CreateTime
 title: ITsSbSession::get_CreateTime (sbtsv.h)
-
 description: Retrieves or specifies the time the session was created.
 old-location: termserv\itssbsession_createtime.htm
 tech.root: TermServ
 ms.assetid: 227ac94a-2d04-4b94-9ba4-e0cc6e2496cf
-
 ms.date: 12/05/2018
 ms.keywords: CreateTime property [Remote Desktop Services], CreateTime property [Remote Desktop Services],ITsSbSession interface, ITsSbSession interface [Remote Desktop Services],CreateTime property, ITsSbSession.CreateTime, ITsSbSession.get_CreateTime, ITsSbSession::CreateTime, ITsSbSession::get_CreateTime, ITsSbSession::put_CreateTime, get_CreateTime, sbtsv/ITsSbSession::CreateTime, sbtsv/ITsSbSession::get_CreateTime, sbtsv/ITsSbSession::put_CreateTime, termserv.itssbsession_createtime
 ms.topic: method
-f1_keywords: 
- - "sbtsv/ITsSbSession.CreateTime"
+f1_keywords:
+- sbtsv/ITsSbSession.CreateTime
 dev_langs:
- - c++
+- c++
 req.header: sbtsv.h
 req.include-header: Sbtsv.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - sbtsv.h
+- sbtsv.h
 api_name:
- - ITsSbSession.CreateTime
- - ITsSbSession.get_CreateTime
- - ITsSbSession.put_CreateTime
+- ITsSbSession.CreateTime
+- ITsSbSession.get_CreateTime
+- ITsSbSession.put_CreateTime
 targetos: Windows
 req.typenames: 
 req.redist: 

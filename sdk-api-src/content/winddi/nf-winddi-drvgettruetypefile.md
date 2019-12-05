@@ -1,19 +1,17 @@
 ---
 UID: NF:winddi.DrvGetTrueTypeFile
 title: DrvGetTrueTypeFile function (winddi.h)
-
 description: The DrvGetTrueTypeFile function accesses a memory-mapped TrueType font file.
 old-location: display\drvgettruetypefile.htm
 tech.root: display
 ms.assetid: a9e83067-1fd2-4f31-ac6e-545623613f88
-
 ms.date: 12/05/2018
 ms.keywords: DrvGetTrueTypeFile, DrvGetTrueTypeFile function [Display Devices], ddifncs_ce14ab7e-837a-4e44-bae6-7630912ff16a.xml, display.drvgettruetypefile, winddi/DrvGetTrueTypeFile
 ms.topic: function
-f1_keywords: 
- - "winddi/DrvGetTrueTypeFile"
+f1_keywords:
+- winddi/DrvGetTrueTypeFile
 dev_langs:
- - c++
+- c++
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Desktop
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - winddi.h
+- winddi.h
 api_name:
- - DrvGetTrueTypeFile
+- DrvGetTrueTypeFile
 targetos: Windows
 req.typenames: 
 req.redist: 

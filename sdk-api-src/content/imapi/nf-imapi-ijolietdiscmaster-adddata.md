@@ -1,19 +1,17 @@
 ---
 UID: NF:imapi.IJolietDiscMaster.AddData
 title: IJolietDiscMaster::AddData (imapi.h)
-
 description: Adds the contents of a root storage to the staged image file. This storage will be enumerated to place all substorages and streams in the root file system of the stage image file. Substorages become folders and streams become files.
 old-location: imapi\ijolietdiscmaster_adddata.htm
 tech.root: imapi
 ms.assetid: 91517103-71c5-450c-9d93-584f94cd2c45
-
 ms.date: 12/05/2018
 ms.keywords: AddData, AddData method [IMAPI], AddData method [IMAPI],IJolietDiscMaster interface, IJolietDiscMaster interface [IMAPI],AddData method, IJolietDiscMaster.AddData, IJolietDiscMaster::AddData, _win32_ijolietdiscmaster_adddata, base.ijolietdiscmaster_adddata, imapi.ijolietdiscmaster_adddata, imapi/IJolietDiscMaster::AddData
 ms.topic: method
-f1_keywords: 
- - "imapi/IJolietDiscMaster.AddData"
+f1_keywords:
+- imapi/IJolietDiscMaster.AddData
 dev_langs:
- - c++
+- c++
 req.header: imapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Actxprxy.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Actxprxy.dll
+- Actxprxy.dll
 api_name:
- - IJolietDiscMaster.AddData
+- IJolietDiscMaster.AddData
 targetos: Windows
 req.typenames: 
 req.redist: 

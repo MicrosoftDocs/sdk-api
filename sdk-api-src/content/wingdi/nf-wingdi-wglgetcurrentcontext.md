@@ -1,19 +1,17 @@
 ---
 UID: NF:wingdi.wglGetCurrentContext
 title: wglGetCurrentContext function (wingdi.h)
-
 description: The wglGetCurrentContext function obtains a handle to the current OpenGL rendering context of the calling thread.
 old-location: opengl\wglgetcurrentcontext.htm
 tech.root: OpenGL
 ms.assetid: 8e2a4f24-689c-48b7-a06e-fc57d65b5567
-
 ms.date: 12/05/2018
-ms.keywords: "_ogl_wglGetCurrentContext, opengl.wglgetcurrentcontext, wglGetCurrentContext, wglGetCurrentContext function [OpenGL], wingdi/wglGetCurrentContext"
+ms.keywords: _ogl_wglGetCurrentContext, opengl.wglgetcurrentcontext, wglGetCurrentContext, wglGetCurrentContext function [OpenGL], wingdi/wglGetCurrentContext
 ms.topic: function
-f1_keywords: 
- - "wingdi/wglGetCurrentContext"
+f1_keywords:
+- wingdi/wglGetCurrentContext
 dev_langs:
- - c++
+- c++
 req.header: wingdi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Opengl32.lib
 req.dll: Opengl32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - opengl32.dll
+- opengl32.dll
 api_name:
- - wglGetCurrentContext
+- wglGetCurrentContext
 targetos: Windows
 req.typenames: 
 req.redist: 

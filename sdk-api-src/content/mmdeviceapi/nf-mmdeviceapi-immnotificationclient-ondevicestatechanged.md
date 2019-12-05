@@ -1,19 +1,17 @@
 ---
 UID: NF:mmdeviceapi.IMMNotificationClient.OnDeviceStateChanged
 title: IMMNotificationClient::OnDeviceStateChanged (mmdeviceapi.h)
-
 description: The OnDeviceStateChanged method indicates that the state of an audio endpoint device has changed.
 old-location: coreaudio\immnotificationclient_ondevicestatechanged.htm
 tech.root: CoreAudio
 ms.assetid: 4725a300-c84b-40cd-93a6-6ef6c8e89708
-
 ms.date: 12/05/2018
 ms.keywords: IMMNotificationClient interface [Core Audio],OnDeviceStateChanged method, IMMNotificationClient.OnDeviceStateChanged, IMMNotificationClient::OnDeviceStateChanged, IMMNotificationClientOnDeviceStateChanged, OnDeviceStateChanged, OnDeviceStateChanged method [Core Audio], OnDeviceStateChanged method [Core Audio],IMMNotificationClient interface, coreaudio.immnotificationclient_ondevicestatechanged, mmdeviceapi/IMMNotificationClient::OnDeviceStateChanged
 ms.topic: method
-f1_keywords: 
- - "mmdeviceapi/IMMNotificationClient.OnDeviceStateChanged"
+f1_keywords:
+- mmdeviceapi/IMMNotificationClient.OnDeviceStateChanged
 dev_langs:
- - c++
+- c++
 req.header: mmdeviceapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mmdeviceapi.h
+- Mmdeviceapi.h
 api_name:
- - IMMNotificationClient.OnDeviceStateChanged
+- IMMNotificationClient.OnDeviceStateChanged
 targetos: Windows
 req.typenames: 
 req.redist: 

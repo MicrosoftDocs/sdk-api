@@ -1,19 +1,17 @@
 ---
 UID: NS:vdshwprv._VDS_ISCSI_IPSEC_KEY
 title: VDS_ISCSI_IPSEC_KEY (vdshwprv.h)
-
 description: Not supported.This structure is reserved for future use.
 old-location: base\vds_iscsi_ipsec_key.htm
 tech.root: VDS
 ms.assetid: a2428142-4dd0-467d-bb7c-3d7fca31111e
-
 ms.date: 12/05/2018
 ms.keywords: VDS_ISCSI_IPSEC_KEY, VDS_ISCSI_IPSEC_KEY structure [VDS], base.vds_iscsi_ipsec_key, vds/VDS_ISCSI_IPSEC_KEY, vdshwprv/VDS_ISCSI_IPSEC_KEY
 ms.topic: struct
-f1_keywords: 
- - "vdshwprv/VDS_ISCSI_IPSEC_KEY"
+f1_keywords:
+- vdshwprv/VDS_ISCSI_IPSEC_KEY
 dev_langs:
- - c++
+- c++
 req.header: vdshwprv.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Vds.h
- - VdsHwPrv.h
+- Vds.h
+- VdsHwPrv.h
 api_name:
- - VDS_ISCSI_IPSEC_KEY
+- VDS_ISCSI_IPSEC_KEY
 targetos: Windows
 req.typenames: VDS_ISCSI_IPSEC_KEY
 req.redist: VDS 1.1

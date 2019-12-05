@@ -1,19 +1,17 @@
 ---
 UID: NF:mmc.IConsole.UpdateAllViews
 title: IConsole::UpdateAllViews (mmc.h)
-
 description: Called by a snap-in when there is a content change in the result pane. This method can be called either by IComponent or IComponentData.
 old-location: mmc\iconsole_updateallviews.htm
 tech.root: mmc
 ms.assetid: 72A0FFF3-4084-4AD0-94E4-A7EB03F40BF2
-
 ms.date: 12/05/2018
 ms.keywords: IConsole interface [MMC],UpdateAllViews method, IConsole.UpdateAllViews, IConsole::UpdateAllViews, UpdateAllViews, UpdateAllViews method [MMC], UpdateAllViews method [MMC],IConsole interface, mmc.iconsole_updateallviews, mmc/IConsole::UpdateAllViews
 ms.topic: method
-f1_keywords: 
- - "mmc/IConsole.UpdateAllViews"
+f1_keywords:
+- mmc/IConsole.UpdateAllViews
 dev_langs:
- - c++
+- c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Mmcndmgr.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mmcndmgr.dll
+- Mmcndmgr.dll
 api_name:
- - IConsole.UpdateAllViews
+- IConsole.UpdateAllViews
 targetos: Windows
 req.typenames: 
 req.redist: 

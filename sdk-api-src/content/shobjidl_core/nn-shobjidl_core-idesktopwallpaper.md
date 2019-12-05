@@ -1,19 +1,17 @@
 ---
 UID: NN:shobjidl_core.IDesktopWallpaper
 title: IDesktopWallpaper (shobjidl_core.h)
-
-description: "."
+description: .
 old-location: shell\IDesktopWallpaper.htm
 tech.root: shell
 ms.assetid: A83903B5-314B-4a8b-8D37-F8A8995DE0CB
-
 ms.date: 12/05/2018
 ms.keywords: IDesktopWallpaper, IDesktopWallpaper interface [Windows Shell], IDesktopWallpaper interface [Windows Shell],described, shell.IDesktopWallpaper, shobjidl_core/IDesktopWallpaper
 ms.topic: interface
-f1_keywords: 
- - "shobjidl_core/IDesktopWallpaper"
+f1_keywords:
+- shobjidl_core/IDesktopWallpaper
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - IDesktopWallpaper
+- IDesktopWallpaper
 targetos: Windows
 req.typenames: 
 req.redist: 

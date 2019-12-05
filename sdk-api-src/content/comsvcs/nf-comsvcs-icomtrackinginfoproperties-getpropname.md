@@ -1,19 +1,17 @@
 ---
 UID: NF:comsvcs.IComTrackingInfoProperties.GetPropName
 title: IComTrackingInfoProperties::GetPropName (comsvcs.h)
-
 description: Retrieves the name of the property corresponding to the specified index number.
 old-location: cos\icomtrackinginfoproperties_getpropname.htm
 tech.root: cossdk
 ms.assetid: 9a26bd3d-89e2-46fd-b9d1-b65ed12ae2ee
-
 ms.date: 12/05/2018
 ms.keywords: GetPropName, GetPropName method [COM+], GetPropName method [COM+],IComTrackingInfoProperties interface, IComTrackingInfoProperties interface [COM+],GetPropName method, IComTrackingInfoProperties.GetPropName, IComTrackingInfoProperties::GetPropName, _dtc_IComTrackingInfoProperties_GetPropName, comsvcs/IComTrackingInfoProperties::GetPropName, cos.icomtrackinginfoproperties_getpropname
 ms.topic: method
-f1_keywords: 
- - "comsvcs/IComTrackingInfoProperties.GetPropName"
+f1_keywords:
+- comsvcs/IComTrackingInfoProperties.GetPropName
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - IComTrackingInfoProperties.GetPropName
+- IComTrackingInfoProperties.GetPropName
 targetos: Windows
 req.typenames: 
 req.redist: 

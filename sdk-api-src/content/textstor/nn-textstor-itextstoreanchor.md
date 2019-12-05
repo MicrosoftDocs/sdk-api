@@ -1,19 +1,17 @@
 ---
 UID: NN:textstor.ITextStoreAnchor
 title: ITextStoreAnchor (textstor.h)
-
 description: The ITextStoreAnchor interface is implemented by a Microsoft Active Accessibility client and is used by the TSF manager to manipulate text streams.
 old-location: tsf\itextstoreanchor.htm
 tech.root: TSF
 ms.assetid: 62730a6d-4dc8-4207-9818-ab95e6537854
-
 ms.date: 12/05/2018
 ms.keywords: ITextStoreAnchor, ITextStoreAnchor interface [Text Services Framework], ITextStoreAnchor interface [Text Services Framework],described, _tsf_itextstoreanchor_ref, textstor/ITextStoreAnchor, tsf.itextstoreanchor
 ms.topic: interface
-f1_keywords: 
- - "textstor/ITextStoreAnchor"
+f1_keywords:
+- textstor/ITextStoreAnchor
 dev_langs:
- - c++
+- c++
 req.header: textstor.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msctf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msctf.dll
+- msctf.dll
 api_name:
- - ITextStoreAnchor
+- ITextStoreAnchor
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationcore.IRawElementProviderWindowlessSite.GetRuntimeIdPrefix
 title: IRawElementProviderWindowlessSite::GetRuntimeIdPrefix (uiautomationcore.h)
-
 description: Retrieves a Microsoft UI Automation runtime ID that is unique to the windowless Microsoft ActiveX control site.
 old-location: winauto\uiauto_IRawElementProviderWindowlessSite_getRuntimeIdPrefix.htm
 tech.root: WinAuto
 ms.assetid: E10BBE53-5AAB-4BAB-AFC8-866224011E43
-
 ms.date: 12/05/2018
 ms.keywords: GetRuntimeIdPrefix, GetRuntimeIdPrefix method [Windows Accessibility], GetRuntimeIdPrefix method [Windows Accessibility],IRawElementProviderWindowlessSite interface, IRawElementProviderWindowlessSite interface [Windows Accessibility],GetRuntimeIdPrefix method, IRawElementProviderWindowlessSite.GetRuntimeIdPrefix, IRawElementProviderWindowlessSite::GetRuntimeIdPrefix, uiautomationcore/IRawElementProviderWindowlessSite::GetRuntimeIdPrefix, winauto.uiauto_IRawElementProviderWindowlessSite_getRuntimeIdPrefix
 ms.topic: method
-f1_keywords: 
- - "uiautomationcore/IRawElementProviderWindowlessSite.GetRuntimeIdPrefix"
+f1_keywords:
+- uiautomationcore/IRawElementProviderWindowlessSite.GetRuntimeIdPrefix
 dev_langs:
- - c++
+- c++
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationCore.h
+- UIAutomationCore.h
 api_name:
- - IRawElementProviderWindowlessSite.GetRuntimeIdPrefix
+- IRawElementProviderWindowlessSite.GetRuntimeIdPrefix
 targetos: Windows
 req.typenames: 
 req.redist: 

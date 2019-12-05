@@ -1,19 +1,17 @@
 ---
 UID: NF:comsvcs.ISendMethodEvents.SendMethodReturn
 title: ISendMethodEvents::SendMethodReturn (comsvcs.h)
-
 description: Generated when a method called through a component interface returns control to the caller.
 old-location: cos\isendmethodevents_sendmethodreturn.htm
 tech.root: cossdk
 ms.assetid: f9c8a680-644a-4617-866f-36e721bbc7aa
-
 ms.date: 12/05/2018
 ms.keywords: ISendMethodEvents interface [COM+],SendMethodReturn method, ISendMethodEvents.SendMethodReturn, ISendMethodEvents::SendMethodReturn, SendMethodReturn, SendMethodReturn method [COM+], SendMethodReturn method [COM+],ISendMethodEvents interface, _cos_ISendMethodEvents_SendMethodReturn, comsvcs/ISendMethodEvents::SendMethodReturn, cos.isendmethodevents_sendmethodreturn
 ms.topic: method
-f1_keywords: 
- - "comsvcs/ISendMethodEvents.SendMethodReturn"
+f1_keywords:
+- comsvcs/ISendMethodEvents.SendMethodReturn
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - ISendMethodEvents.SendMethodReturn
+- ISendMethodEvents.SendMethodReturn
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IAMTVAudio.GetAvailableTVAudioModes
 title: IAMTVAudio::GetAvailableTVAudioModes (strmif.h)
-
 description: The GetAvailableTVAudioModes method retrieves a bitmask of the possible modes.
 old-location: dshow\iamtvaudio_getavailabletvaudiomodes.htm
 tech.root: DirectShow
 ms.assetid: c64dc038-7ebf-4aa4-a7ae-b3eb0e8eaf1a
-
 ms.date: 12/05/2018
 ms.keywords: GetAvailableTVAudioModes, GetAvailableTVAudioModes method [DirectShow], GetAvailableTVAudioModes method [DirectShow],IAMTVAudio interface, IAMTVAudio interface [DirectShow],GetAvailableTVAudioModes method, IAMTVAudio.GetAvailableTVAudioModes, IAMTVAudio::GetAvailableTVAudioModes, IAMTVAudioGetAvailableTVAudioModes, dshow.iamtvaudio_getavailabletvaudiomodes, strmif/IAMTVAudio::GetAvailableTVAudioModes
 ms.topic: method
-f1_keywords: 
- - "strmif/IAMTVAudio.GetAvailableTVAudioModes"
+f1_keywords:
+- strmif/IAMTVAudio.GetAvailableTVAudioModes
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IAMTVAudio.GetAvailableTVAudioModes
+- IAMTVAudio.GetAvailableTVAudioModes
 targetos: Windows
 req.typenames: 
 req.redist: 

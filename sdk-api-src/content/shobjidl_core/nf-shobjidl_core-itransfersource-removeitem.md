@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.ITransferSource.RemoveItem
 title: ITransferSource::RemoveItem (shobjidl_core.h)
-
 description: Removes the item without moving the item to the Recycle Bin.
 old-location: shell\ITransferSource_RemoveItem.htm
 tech.root: shell
 ms.assetid: 53084f0d-cf78-437a-ae04-43fd78cb9839
-
 ms.date: 12/05/2018
 ms.keywords: ITransferSource interface [Windows Shell],RemoveItem method, ITransferSource.RemoveItem, ITransferSource::RemoveItem, RemoveItem, RemoveItem method [Windows Shell], RemoveItem method [Windows Shell],ITransferSource interface, _shell_ITransferSource_RemoveItem, shell.ITransferSource_RemoveItem, shobjidl_core/ITransferSource::RemoveItem
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/ITransferSource.RemoveItem"
+f1_keywords:
+- shobjidl_core/ITransferSource.RemoveItem
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - ITransferSource.RemoveItem
+- ITransferSource.RemoveItem
 targetos: Windows
 req.typenames: 
 req.redist: 

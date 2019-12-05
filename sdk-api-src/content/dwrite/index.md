@@ -1,7 +1,6 @@
 ---
 UID: NA:dwrite
 ms.assetid: 12f59fc4-1aa3-339a-b92a-b52be912b188
-
 ms.date: 01/11/2019
 ms.keywords: 
 ms.topic: portal

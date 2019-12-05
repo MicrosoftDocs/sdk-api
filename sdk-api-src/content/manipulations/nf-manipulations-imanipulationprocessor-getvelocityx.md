@@ -1,19 +1,17 @@
 ---
 UID: NF:manipulations.IManipulationProcessor.GetVelocityX
 title: IManipulationProcessor::GetVelocityX (manipulations.h)
-
 description: Calculates and returns the horizontal velocity for the target object.
 old-location: wintouch\imanipulationprocessor_getvelocityx.htm
 tech.root: wintouch
 ms.assetid: 64524f01-f7b2-4e78-97b8-20686018469f
-
 ms.date: 12/05/2018
 ms.keywords: GetVelocityX, GetVelocityX method [Windows Touch], GetVelocityX method [Windows Touch],IManipulationProcessor interface, IManipulationProcessor interface [Windows Touch],GetVelocityX method, IManipulationProcessor.GetVelocityX, IManipulationProcessor::GetVelocityX, manipulations/IManipulationProcessor::GetVelocityX, wintouch.imanipulationprocessor_getvelocityx
 ms.topic: method
-f1_keywords: 
- - "manipulations/IManipulationProcessor.GetVelocityX"
+f1_keywords:
+- manipulations/IManipulationProcessor.GetVelocityX
 dev_langs:
- - c++
+- c++
 req.header: manipulations.h
 req.include-header: Manipulations_i.c
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - manipulations.h
+- manipulations.h
 api_name:
- - IManipulationProcessor.GetVelocityX
+- IManipulationProcessor.GetVelocityX
 targetos: Windows
 req.typenames: 
 req.redist: 

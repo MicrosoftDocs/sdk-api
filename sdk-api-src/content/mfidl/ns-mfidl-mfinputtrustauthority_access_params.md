@@ -1,19 +1,17 @@
 ---
 UID: NS:mfidl._MFINPUTTRUSTAUTHORITY_ACCESS_PARAMS
 title: MFINPUTTRUSTAUTHORITY_ACCESS_PARAMS (mfidl.h)
-
 description: Contains parameters for the IMFInputTrustAuthority::BindAccess or IMFInputTrustAuthority::UpdateAccess method.
 old-location: mf\mfinputtrustauthority_access_params.htm
 tech.root: medfound
 ms.assetid: 5ff3ec3a-a7b1-4378-8e8b-d59a6f5bb28d
-
 ms.date: 12/05/2018
 ms.keywords: 5ff3ec3a-a7b1-4378-8e8b-d59a6f5bb28d, MFINPUTTRUSTAUTHORITY_ACCESS_PARAMS, MFINPUTTRUSTAUTHORITY_ACCESS_PARAMS structure [Media Foundation], mf.mfinputtrustauthority_access_params, mfidl/MFINPUTTRUSTAUTHORITY_ACCESS_PARAMS
 ms.topic: struct
-f1_keywords: 
- - "mfidl/MFINPUTTRUSTAUTHORITY_ACCESS_PARAMS"
+f1_keywords:
+- mfidl/MFINPUTTRUSTAUTHORITY_ACCESS_PARAMS
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - mfidl.h
+- mfidl.h
 api_name:
- - MFINPUTTRUSTAUTHORITY_ACCESS_PARAMS
+- MFINPUTTRUSTAUTHORITY_ACCESS_PARAMS
 targetos: Windows
 req.typenames: MFINPUTTRUSTAUTHORITY_ACCESS_PARAMS
 req.redist: 

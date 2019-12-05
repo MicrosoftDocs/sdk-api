@@ -1,19 +1,17 @@
 ---
 UID: NN:ocidl.IOleControlSite
 title: IOleControlSite (ocidl.h)
-
 description: Provides the methods that enable a site object to manage each embedded control within a container.
 old-location: com\iolecontrolsite.htm
 tech.root: com
 ms.assetid: 8b022f2c-d4b4-44ca-8e69-46e9aa20b3f9
-
 ms.date: 12/05/2018
 ms.keywords: IOleControlSite, IOleControlSite interface [COM], IOleControlSite interface [COM],described, _ctrl_iolecontrolsite, com.iolecontrolsite, ocidl/IOleControlSite
 ms.topic: interface
-f1_keywords: 
- - "ocidl/IOleControlSite"
+f1_keywords:
+- ocidl/IOleControlSite
 dev_langs:
- - c++
+- c++
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - OCIdl.h
+- OCIdl.h
 api_name:
- - IOleControlSite
+- IOleControlSite
 targetos: Windows
 req.typenames: 
 req.redist: 

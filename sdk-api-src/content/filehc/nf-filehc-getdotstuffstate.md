@@ -1,19 +1,17 @@
 ---
 UID: NF:filehc.GetDotStuffState
 title: GetDotStuffState function (filehc.h)
-
 description: Determines whether dots are added to the file when any dot stuffing mechanisms are turned on.
 old-location: winprog\_getdotstuffstate.htm
 tech.root: DevNotes
 ms.assetid: 069d9cc9-0478-457a-826b-2e4d1e1b0b05
-
 ms.date: 12/05/2018
 ms.keywords: GetDotStuffState, GetDotStuffState function [Windows API], filehc/GetDotStuffState, winprog._getdotstuffstate
 ms.topic: function
-f1_keywords: 
- - "filehc/GetDotStuffState"
+f1_keywords:
+- filehc/GetDotStuffState
 dev_langs:
- - c++
+- c++
 req.header: filehc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Fcachdll.lib
 req.dll: Fcachdll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Fcachdll.dll
+- Fcachdll.dll
 api_name:
- - GetDotStuffState
+- GetDotStuffState
 targetos: Windows
 req.typenames: 
 req.redist: 

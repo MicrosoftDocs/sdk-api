@@ -1,19 +1,17 @@
 ---
 UID: NN:shobjidl_core.IDataObjectProvider
 title: IDataObjectProvider (shobjidl_core.h)
-
 description: Provides methods that enable you to set or retrieve a DataPackage object's IDataObject interface, which the DataPackage uses to support interoperability. The DataPackage object is used by an app to provide data to another app.
 old-location: shell\IDataObjectProvider.htm
 tech.root: shell
 ms.assetid: 57A5003A-11DF-42c2-9C00-7DE35898B64D
-
 ms.date: 12/05/2018
 ms.keywords: IDataObjectProvider, IDataObjectProvider interface [Windows Shell], IDataObjectProvider interface [Windows Shell],described, shell.IDataObjectProvider, shobjidl_core/IDataObjectProvider
 ms.topic: interface
-f1_keywords: 
- - "shobjidl_core/IDataObjectProvider"
+f1_keywords:
+- shobjidl_core/IDataObjectProvider
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - IDataObjectProvider
+- IDataObjectProvider
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:intsafe.Int8ToULongPtr
 title: Int8ToULongPtr function (intsafe.h)
-
 description: Converts a value of type INT8 to a value of type ULONG_PTR.
 old-location: shell\Int8ToULongPtr.htm
 tech.root: shell
 ms.assetid: 84a9003a-1f80-4dea-8062-888097963e47
-
 ms.date: 12/05/2018
 ms.keywords: Int8ToULongPtr, Int8ToULongPtr function [Windows Shell], intsafe/Int8ToULongPtr, shell.Int8ToULongPtr
 ms.topic: function
-f1_keywords: 
- - "intsafe/Int8ToULongPtr"
+f1_keywords:
+- intsafe/Int8ToULongPtr
 dev_langs:
- - c++
+- c++
 req.header: intsafe.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - intsafe.h
+- intsafe.h
 api_name:
- - Int8ToULongPtr
+- Int8ToULongPtr
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:windowsx.GET_X_LPARAM
 title: GET_X_LPARAM macro (windowsx.h)
-
 description: Retrieves the signed x-coordinate from the specified LPARAM value.
 old-location: winmsg\get_x_lparam.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowmacros\get_x_lparam.htm
-
 ms.date: 12/05/2018
 ms.keywords: GET_X_LPARAM, GET_X_LPARAM macro [Windows and Messages], _win32_GET_X_LPARAM, _win32_get_x_lparam_cpp, windowsx/GET_X_LPARAM, winmsg.get_x_lparam, winui._win32_get_x_lparam
 ms.topic: macro
-f1_keywords: 
- - "windowsx/GET_X_LPARAM"
+f1_keywords:
+- windowsx/GET_X_LPARAM
 dev_langs:
- - c++
+- c++
 req.header: windowsx.h
 req.include-header: Windowsx.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Windowsx.h
+- Windowsx.h
 api_name:
- - GET_X_LPARAM
+- GET_X_LPARAM
 targetos: Windows
 req.typenames: 
 req.redist: 

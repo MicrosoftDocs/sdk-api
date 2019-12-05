@@ -1,19 +1,17 @@
 ---
 UID: NF:wsmandisp.IWSManResourceLocator.AddSelector
 title: IWSManResourceLocator::AddSelector (wsmandisp.h)
-
 description: Adds a selector to the ResourceLocator object. The selector specifies a particular instance of a resource.
 old-location: winrm\iwsmanresourcelocator_addselector.htm
 tech.root: winrm
 ms.assetid: 2f6c1169-8e2a-4919-9a1a-856dbe41a9ce
-
 ms.date: 12/05/2018
 ms.keywords: AddSelector, AddSelector method [Windows Remote Management], AddSelector method [Windows Remote Management],IWSManResourceLocator interface, IWSManResourceLocator interface [Windows Remote Management],AddSelector method, IWSManResourceLocator.AddSelector, IWSManResourceLocator::AddSelector, winrm.iwsmanresourcelocator_addselector, wsmandisp/IWSManResourceLocator::AddSelector
 ms.topic: method
-f1_keywords: 
- - "wsmandisp/IWSManResourceLocator.AddSelector"
+f1_keywords:
+- wsmandisp/IWSManResourceLocator.AddSelector
 dev_langs:
- - c++
+- c++
 req.header: wsmandisp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: WSManDisp.tlb
 req.dll: WSMAuto.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - WSMAuto.dll
+- WSMAuto.dll
 api_name:
- - IWSManResourceLocator.AddSelector
+- IWSManResourceLocator.AddSelector
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NN:mfmediaengine.IMFSourceBuffer
 title: IMFSourceBuffer (mfmediaengine.h)
-
 description: Represents a buffer which contains media data for a IMFMediaSourceExtension.
 old-location: mf\imfsourcebuffer.htm
 tech.root: medfound
 ms.assetid: f241e232-9013-46d0-be97-2d6b5246cff3
-
 ms.date: 12/05/2018
 ms.keywords: IMFSourceBuffer, IMFSourceBuffer interface [Media Foundation], IMFSourceBuffer interface [Media Foundation],described, mf.imfsourcebuffer, mfmediaengine/IMFSourceBuffer
 ms.topic: interface
-f1_keywords: 
- - "mfmediaengine/IMFSourceBuffer"
+f1_keywords:
+- mfmediaengine/IMFSourceBuffer
 dev_langs:
- - c++
+- c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfmediaengine.h
+- mfmediaengine.h
 api_name:
- - IMFSourceBuffer
+- IMFSourceBuffer
 targetos: Windows
 req.typenames: 
 req.redist: 

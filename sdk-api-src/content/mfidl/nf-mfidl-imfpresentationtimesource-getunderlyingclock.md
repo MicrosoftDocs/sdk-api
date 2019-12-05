@@ -1,19 +1,17 @@
 ---
 UID: NF:mfidl.IMFPresentationTimeSource.GetUnderlyingClock
 title: IMFPresentationTimeSource::GetUnderlyingClock (mfidl.h)
-
 description: Retrieves the underlying clock that the presentation time source uses to generate its clock times.
 old-location: mf\imfpresentationtimesource_getunderlyingclock.htm
 tech.root: medfound
 ms.assetid: 09c8fef8-7288-4356-9671-4c927c0cf502
-
 ms.date: 12/05/2018
 ms.keywords: 09c8fef8-7288-4356-9671-4c927c0cf502, GetUnderlyingClock, GetUnderlyingClock method [Media Foundation], GetUnderlyingClock method [Media Foundation],IMFPresentationTimeSource interface, IMFPresentationTimeSource interface [Media Foundation],GetUnderlyingClock method, IMFPresentationTimeSource.GetUnderlyingClock, IMFPresentationTimeSource::GetUnderlyingClock, mf.imfpresentationtimesource_getunderlyingclock, mfidl/IMFPresentationTimeSource::GetUnderlyingClock
 ms.topic: method
-f1_keywords: 
- - "mfidl/IMFPresentationTimeSource.GetUnderlyingClock"
+f1_keywords:
+- mfidl/IMFPresentationTimeSource.GetUnderlyingClock
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFPresentationTimeSource.GetUnderlyingClock
+- IMFPresentationTimeSource.GetUnderlyingClock
 targetos: Windows
 req.typenames: 
 req.redist: 

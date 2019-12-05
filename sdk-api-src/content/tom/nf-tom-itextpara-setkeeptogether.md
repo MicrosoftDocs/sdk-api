@@ -1,19 +1,17 @@
 ---
 UID: NF:tom.ITextPara.SetKeepTogether
 title: ITextPara::SetKeepTogether (tom.h)
-
 description: Controls whether page breaks are allowed within a paragraph in a range.
 old-location: controls\ITextPara_SetKeepTogether.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\setkeeptogether.htm
-
 ms.date: 12/05/2018
 ms.keywords: ITextPara interface [Windows Controls],SetKeepTogether method, ITextPara.SetKeepTogether, ITextPara::SetKeepTogether, SetKeepTogether, SetKeepTogether method [Windows Controls], SetKeepTogether method [Windows Controls],ITextPara interface, _win32_ITextPara_SetKeepTogether, _win32_ITextPara_SetKeepTogether_cpp, controls.ITextPara_SetKeepTogether, controls._win32_ITextPara_SetKeepTogether, tom/ITextPara::SetKeepTogether
 ms.topic: method
-f1_keywords: 
- - "tom/ITextPara.SetKeepTogether"
+f1_keywords:
+- tom/ITextPara.SetKeepTogether
 dev_langs:
- - c++
+- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msftedit.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msftedit.dll
+- Msftedit.dll
 api_name:
- - ITextPara.SetKeepTogether
+- ITextPara.SetKeepTogether
 targetos: Windows
 req.typenames: 
 req.redist: 

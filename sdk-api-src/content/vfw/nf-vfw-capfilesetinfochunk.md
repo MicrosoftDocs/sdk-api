@@ -1,19 +1,17 @@
 ---
 UID: NF:vfw.capFileSetInfoChunk
 title: capFileSetInfoChunk macro (vfw.h)
-
 description: The capFileSetInfoChunk macro sets and clears information chunks. Information chunks can be inserted in an AVI file during capture to embed text strings or custom data. You can use this macro or explicitly call the WM_CAP_FILE_SET_INFOCHUNK message.
 old-location: multimedia\capfilesetinfochunk.htm
 tech.root: Multimedia
 ms.assetid: b0772aa7-944c-450e-a703-0057a3230cb0
-
 ms.date: 12/05/2018
-ms.keywords: "_win32_capFileSetInfoChunk, capFileSetInfoChunk, capFileSetInfoChunk macro [Windows Multimedia], multimedia.capfilesetinfochunk, vfw/capFileSetInfoChunk"
+ms.keywords: _win32_capFileSetInfoChunk, capFileSetInfoChunk, capFileSetInfoChunk macro [Windows Multimedia], multimedia.capfilesetinfochunk, vfw/capFileSetInfoChunk
 ms.topic: macro
-f1_keywords: 
- - "vfw/capFileSetInfoChunk"
+f1_keywords:
+- vfw/capFileSetInfoChunk
 dev_langs:
- - c++
+- c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Vfw.h
+- Vfw.h
 api_name:
- - capFileSetInfoChunk
+- capFileSetInfoChunk
 targetos: Windows
 req.typenames: 
 req.redist: 

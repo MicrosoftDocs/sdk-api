@@ -1,19 +1,17 @@
 ---
 UID: NF:namedpipeapi.ImpersonateNamedPipeClient
 title: ImpersonateNamedPipeClient function (namedpipeapi.h)
-
 description: Impersonates a named-pipe client application.
 old-location: security\impersonatenamedpipeclient.htm
 tech.root: SecAuthZ
 ms.assetid: 63fc90ac-536a-4d9b-ba0d-19dc0cc09e6b
-
 ms.date: 12/05/2018
 ms.keywords: ImpersonateNamedPipeClient, ImpersonateNamedPipeClient function [Security], _win32_impersonatenamedpipeclient, namedpipeapi/ImpersonateNamedPipeClient, security.impersonatenamedpipeclient
 ms.topic: function
-f1_keywords: 
- - "namedpipeapi/ImpersonateNamedPipeClient"
+f1_keywords:
+- namedpipeapi/ImpersonateNamedPipeClient
 dev_langs:
- - c++
+- c++
 req.header: namedpipeapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,23 +30,23 @@ req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Advapi32.dll
- - API-MS-Win-Core-NamedPipe-l1-1-0.dll
- - KernelBase.dll
- - API-MS-Win-Core-NamedPipe-l1-2-0.dll
- - API-MS-Win-Core-Processsecurity-l1-1-0.dll
- - Kernel32.dll
- - API-MS-Win-DownLevel-AdvApi32-l1-1-1.dll
- - MinKernelBase.dll
- - API-MS-Win-Core-NamedPipe-l1-2-1.dll
- - API-MS-Win-Core-NamedPipe-L1-2-2.dll
+- Advapi32.dll
+- API-MS-Win-Core-NamedPipe-l1-1-0.dll
+- KernelBase.dll
+- API-MS-Win-Core-NamedPipe-l1-2-0.dll
+- API-MS-Win-Core-Processsecurity-l1-1-0.dll
+- Kernel32.dll
+- API-MS-Win-DownLevel-AdvApi32-l1-1-1.dll
+- MinKernelBase.dll
+- API-MS-Win-Core-NamedPipe-l1-2-1.dll
+- API-MS-Win-Core-NamedPipe-L1-2-2.dll
 api_name:
- - ImpersonateNamedPipeClient
+- ImpersonateNamedPipeClient
 targetos: Windows
 req.typenames: 
 req.redist: 

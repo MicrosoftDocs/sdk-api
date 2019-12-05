@@ -1,19 +1,17 @@
 ---
 UID: NF:joystickapi.joyConfigChanged
 title: joyConfigChanged function (joystickapi.h)
-
 description: The joyConfigChanged function informs the joystick driver that the configuration has changed and should be reloaded from the registry.
 old-location: multimedia\joyconfigchanged.htm
 tech.root: Multimedia
 ms.assetid: 3cdc7888-2d66-4fb9-abad-86e891f4ebe4
-
 ms.date: 12/05/2018
-ms.keywords: "_win32_joyConfigChanged, joyConfigChanged, joyConfigChanged function [Windows Multimedia], joystickapi/joyConfigChanged, multimedia.joyconfigchanged"
+ms.keywords: _win32_joyConfigChanged, joyConfigChanged, joyConfigChanged function [Windows Multimedia], joystickapi/joyConfigChanged, multimedia.joyconfigchanged
 ms.topic: function
-f1_keywords: 
- - "joystickapi/joyConfigChanged"
+f1_keywords:
+- joystickapi/joyConfigChanged
 dev_langs:
- - c++
+- c++
 req.header: joystickapi.h
 req.include-header: Dinput.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Winmm.lib
 req.dll: Winmm.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Winmm.dll
- - API-MS-Win-mm-joystick-l1-1-0.dll
- - winmmbase.dll
+- Winmm.dll
+- API-MS-Win-mm-joystick-l1-1-0.dll
+- winmmbase.dll
 api_name:
- - joyConfigChanged
+- joyConfigChanged
 targetos: Windows
 req.typenames: 
 req.redist: 

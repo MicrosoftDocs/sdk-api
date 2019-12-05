@@ -1,19 +1,17 @@
 ---
 UID: NN:shlobj_core.IDockingWindowSite
 title: IDockingWindowSite (shlobj_core.h)
-
 description: Exposes methods that manage the border space for one or more IDockingWindow objects. This interface is implemented by the browser and is similar to the IOleInPlaceUIWindow interface.
 old-location: shell\IDockingWindowSite.htm
 tech.root: shell
 ms.assetid: 7418a6af-74ce-4435-8ed9-af106df0f95b
-
 ms.date: 12/05/2018
 ms.keywords: IDockingWindowSite, IDockingWindowSite interface [Windows Shell], IDockingWindowSite interface [Windows Shell],described, _win32_IDockingWindowSite, shell.IDockingWindowSite, shlobj_core/IDockingWindowSite
 ms.topic: interface
-f1_keywords: 
- - "shlobj_core/IDockingWindowSite"
+f1_keywords:
+- shlobj_core/IDockingWindowSite
 dev_langs:
- - c++
+- c++
 req.header: shlobj_core.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Shell32.dll (version 4.71 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - IDockingWindowSite
+- IDockingWindowSite
 targetos: Windows
 req.typenames: 
 req.redist: 

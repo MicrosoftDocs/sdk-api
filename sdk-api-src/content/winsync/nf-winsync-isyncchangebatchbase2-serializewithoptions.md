@@ -1,19 +1,17 @@
 ---
 UID: NF:winsync.ISyncChangeBatchBase2.SerializeWithOptions
 title: ISyncChangeBatchBase2::SerializeWithOptions (winsync.h)
-
 description: Serializes the change batch object data to a byte array, based on the specified version and serialization options.
 old-location: winsync\isyncchangebatchbase2_serializewithoptions.htm
 tech.root: winsync
 ms.assetid: 6e686e6f-08b1-4a58-ac0f-30c48f70dd60
-
 ms.date: 12/05/2018
 ms.keywords: ISyncChangeBatchBase2 interface [Windows Sync],SerializeWithOptions method, ISyncChangeBatchBase2.SerializeWithOptions, ISyncChangeBatchBase2::SerializeWithOptions, SerializeWithOptions, SerializeWithOptions method [Windows Sync], SerializeWithOptions method [Windows Sync],ISyncChangeBatchBase2 interface, winsync.isyncchangebatchbase2_serializewithoptions, winsync/ISyncChangeBatchBase2::SerializeWithOptions
 ms.topic: method
-f1_keywords: 
- - "winsync/ISyncChangeBatchBase2.SerializeWithOptions"
+f1_keywords:
+- winsync/ISyncChangeBatchBase2.SerializeWithOptions
 dev_langs:
- - c++
+- c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - winsync.h
+- winsync.h
 api_name:
- - ISyncChangeBatchBase2.SerializeWithOptions
+- ISyncChangeBatchBase2.SerializeWithOptions
 targetos: Windows
 req.typenames: 
 req.redist: 

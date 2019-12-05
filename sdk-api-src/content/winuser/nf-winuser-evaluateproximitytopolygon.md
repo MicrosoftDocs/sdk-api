@@ -1,19 +1,17 @@
 ---
 UID: NF:winuser.EvaluateProximityToPolygon
 title: EvaluateProximityToPolygon function (winuser.h)
-
 description: Returns the score of a polygon as the probable touch target (compared to all other polygons that intersect the touch contact area) and an adjusted touch point within the polygon.
 old-location: input_touchhittest\evaluateproximitytopolygon.htm
 tech.root: Input_TouchHitTest
 ms.assetid: 443d12f2-9f26-4e1e-9bf3-cd97b4026399
-
 ms.date: 12/05/2018
 ms.keywords: EvaluateProximityToPolygon, EvaluateProximityToPolygon function, input_touchhittest.evaluateproximitytopolygon, touch_hittest.evaluateproximitytopolygon, winuser/EvaluateProximityToPolygon
 ms.topic: function
-f1_keywords: 
- - "winuser/EvaluateProximityToPolygon"
+f1_keywords:
+- winuser/EvaluateProximityToPolygon
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - User32.dll
- - Ext-MS-Win-NTUser-Touch-HitTest-l1-1-0.dll
- - MinUser.dll
+- User32.dll
+- Ext-MS-Win-NTUser-Touch-HitTest-l1-1-0.dll
+- MinUser.dll
 api_name:
- - EvaluateProximityToPolygon
+- EvaluateProximityToPolygon
 targetos: Windows
 req.typenames: 
 req.redist: 

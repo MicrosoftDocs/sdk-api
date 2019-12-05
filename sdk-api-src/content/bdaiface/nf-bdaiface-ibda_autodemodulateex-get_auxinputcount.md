@@ -1,19 +1,17 @@
 ---
 UID: NF:bdaiface.IBDA_AutoDemodulateEx.get_AuxInputCount
 title: IBDA_AutoDemodulateEx::get_AuxInputCount (bdaiface.h)
-
 description: The get_AuxInputCount method retrieves a count of the number of auxiliary inputs on the demodulator.
 old-location: mstv\ibda_autodemodulateex_get_auxinputcount.htm
 tech.root: mstv
 ms.assetid: a23a1d54-377e-48cb-a4ff-dfd5a6972677
-
 ms.date: 12/05/2018
 ms.keywords: IBDA_AutoDemodulateEx interface [Microsoft TV Technologies],get_AuxInputCount method, IBDA_AutoDemodulateEx.get_AuxInputCount, IBDA_AutoDemodulateEx::get_AuxInputCount, IBDA_AutoDemodulateExget_AuxInputCount, bdaiface/IBDA_AutoDemodulateEx::get_AuxInputCount, get_AuxInputCount, get_AuxInputCount method [Microsoft TV Technologies], get_AuxInputCount method [Microsoft TV Technologies],IBDA_AutoDemodulateEx interface, mstv.ibda_autodemodulateex_get_auxinputcount
 ms.topic: method
-f1_keywords: 
- - "bdaiface/IBDA_AutoDemodulateEx.get_AuxInputCount"
+f1_keywords:
+- bdaiface/IBDA_AutoDemodulateEx.get_AuxInputCount
 dev_langs:
- - c++
+- c++
 req.header: bdaiface.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Bdaiface.h
+- Bdaiface.h
 api_name:
- - IBDA_AutoDemodulateEx.get_AuxInputCount
+- IBDA_AutoDemodulateEx.get_AuxInputCount
 targetos: Windows
 req.typenames: 
 req.redist: 

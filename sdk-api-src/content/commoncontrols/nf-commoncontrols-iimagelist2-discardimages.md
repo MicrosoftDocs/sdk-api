@@ -1,19 +1,17 @@
 ---
 UID: NF:commoncontrols.IImageList2.DiscardImages
 title: IImageList2::DiscardImages (commoncontrols.h)
-
 description: Discards images from list, as specified.
 old-location: controls\IImageList2_DiscardImages.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\imagelist\ifaces\iimagelist2\discardimages.htm
-
 ms.date: 12/05/2018
 ms.keywords: DiscardImages, DiscardImages method [Windows Controls], DiscardImages method [Windows Controls],IImageList2 interface, IImageList2 interface [Windows Controls],DiscardImages method, IImageList2.DiscardImages, IImageList2::DiscardImages, ILDI_PURGE, ILDI_QUERYACCESS, ILDI_RESETACCESS, ILDI_STANDBY, _shell_IImageList2_DiscardImages, _shell_IImageList2_DiscardImages_cpp, commoncontrols/IImageList2::DiscardImages, controls.IImageList2_DiscardImages, controls._shell_IImageList2_DiscardImages
 ms.topic: method
-f1_keywords: 
- - "commoncontrols/IImageList2.DiscardImages"
+f1_keywords:
+- commoncontrols/IImageList2.DiscardImages
 dev_langs:
- - c++
+- c++
 req.header: commoncontrols.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Comctl32.dll (version 6.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Comctl32.dll
+- Comctl32.dll
 api_name:
- - IImageList2.DiscardImages
+- IImageList2.DiscardImages
 targetos: Windows
 req.typenames: 
 req.redist: 

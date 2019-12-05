@@ -1,19 +1,17 @@
 ---
 UID: NF:projectedfslib.PrjStartVirtualizing
 title: PrjStartVirtualizing function (projectedfslib.h)
-
 description: Configures a ProjFS virtualization instance and starts it, making it available to service I/O and invoke callbacks on the provider.
 old-location: projfs\prjstartvirtualizing.htm
 tech.root: ProjFS
 ms.assetid: 466347B7-1D7D-4C7D-B17C-1E5E1A2223C1
-
 ms.date: 12/05/2018
 ms.keywords: PrjStartVirtualizing, PrjStartVirtualizing function, ProjFS.prjstartvirtualizing, projectedfslib/PrjStartVirtualizing
 ms.topic: function
-f1_keywords: 
- - "projectedfslib/PrjStartVirtualizing"
+f1_keywords:
+- projectedfslib/PrjStartVirtualizing
 dev_langs:
- - c++
+- c++
 req.header: projectedfslib.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - projectedfslib.h
+- projectedfslib.h
 api_name:
- - PrjStartVirtualizing
+- PrjStartVirtualizing
 targetos: Windows
 req.typenames: 
 req.redist: 

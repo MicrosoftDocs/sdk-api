@@ -1,19 +1,17 @@
 ---
 UID: NN:qmgr.IBackgroundCopyCallback1
 title: IBackgroundCopyCallback1 (qmgr.h)
-
 description: Implement the IBackgroundCopyCallback1 interface to receive notification when events occur.
 old-location: bits\ibackgroundcopycallback1.htm
 tech.root: Bits
 ms.assetid: d5d22cf6-d9b5-4001-a0ac-f67d59dde779
-
 ms.date: 12/05/2018
 ms.keywords: IBackgroundCopyCallback1, IBackgroundCopyCallback1 interface [BITS], IBackgroundCopyCallback1 interface [BITS],described, bits.ibackgroundcopycallback1, qmgr/IBackgroundCopyCallback1
 ms.topic: interface
-f1_keywords: 
- - "qmgr/IBackgroundCopyCallback1"
+f1_keywords:
+- qmgr/IBackgroundCopyCallback1
 dev_langs:
- - c++
+- c++
 req.header: qmgr.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Qmgr.h
+- Qmgr.h
 api_name:
- - IBackgroundCopyCallback1
- - IBackgroundCopyCallback1.OnProgress
- - IBackgroundCopyCallback1.OnProgressEx
+- IBackgroundCopyCallback1
+- IBackgroundCopyCallback1.OnProgress
+- IBackgroundCopyCallback1.OnProgressEx
 targetos: Windows
 req.typenames: 
 req.redist: 

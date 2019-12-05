@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d11.ID3D11Device.CreateClassLinkage
 title: ID3D11Device::CreateClassLinkage (d3d11.h)
-
 description: Creates class linkage libraries to enable dynamic shader linkage.
 old-location: direct3d11\id3d11device_createclasslinkage.htm
 tech.root: direct3d11
 ms.assetid: 1d68e977-bcdc-4aab-9434-29200553a69e
-
 ms.date: 12/05/2018
 ms.keywords: 411c8228-de78-2b45-6754-17ebcd3ef8de, CreateClassLinkage, CreateClassLinkage method [Direct3D 11], CreateClassLinkage method [Direct3D 11],ID3D11Device interface, ID3D11Device interface [Direct3D 11],CreateClassLinkage method, ID3D11Device.CreateClassLinkage, ID3D11Device::CreateClassLinkage, d3d11/ID3D11Device::CreateClassLinkage, direct3d11.id3d11device_createclasslinkage
 ms.topic: method
-f1_keywords: 
- - "d3d11/ID3D11Device.CreateClassLinkage"
+f1_keywords:
+- d3d11/ID3D11Device.CreateClassLinkage
 dev_langs:
- - c++
+- c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: D3D11.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D11.lib
- - D3D11.dll
+- D3D11.lib
+- D3D11.dll
 api_name:
- - ID3D11Device.CreateClassLinkage
+- ID3D11Device.CreateClassLinkage
 targetos: Windows
 req.typenames: 
 req.redist: 

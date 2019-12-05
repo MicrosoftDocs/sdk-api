@@ -1,19 +1,17 @@
 ---
 UID: NF:wmp.IWMPEvents.PlaylistCollectionChange
 title: IWMPEvents::PlaylistCollectionChange (wmp.h)
-
 description: The PlaylistCollectionChange event occurs when something changes in the playlist collection.
 old-location: wmp\iwmpevents_iwmpevents__playlistcollectionchange.htm
 tech.root: WMP
 ms.assetid: dcef72f0-3b56-466b-9431-17a7b8130292
-
 ms.date: 12/05/2018
 ms.keywords: IWMPEvents interface [Windows Media Player],PlaylistCollectionChange method, IWMPEvents.PlaylistCollectionChange, IWMPEvents::PlaylistCollectionChange, IWMPEventsPlaylistCollectionChange, PlaylistCollectionChange, PlaylistCollectionChange method [Windows Media Player], PlaylistCollectionChange method [Windows Media Player],IWMPEvents interface, wmp.iwmpevents_iwmpevents__playlistcollectionchange, wmp/IWMPEvents::PlaylistCollectionChange
 ms.topic: method
-f1_keywords: 
- - "wmp/IWMPEvents.PlaylistCollectionChange"
+f1_keywords:
+- wmp/IWMPEvents.PlaylistCollectionChange
 dev_langs:
- - c++
+- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wmp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmp.dll
+- wmp.dll
 api_name:
- - IWMPEvents.PlaylistCollectionChange
+- IWMPEvents.PlaylistCollectionChange
 targetos: Windows
 req.typenames: 
 req.redist: 

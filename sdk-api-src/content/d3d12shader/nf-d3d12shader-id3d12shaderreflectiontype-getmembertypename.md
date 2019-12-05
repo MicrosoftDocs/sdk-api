@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d12shader.ID3D12ShaderReflectionType.GetMemberTypeName
 title: ID3D12ShaderReflectionType::GetMemberTypeName (d3d12shader.h)
-
 description: Gets a shader-reflection-variable type.
 old-location: direct3d12\id3d12shaderreflectiontype_getmembertypename.htm
 tech.root: direct3d12
 ms.assetid: 113510A0-6F0D-4B30-8C6A-D0266570160E
-
 ms.date: 12/05/2018
 ms.keywords: GetMemberTypeName, GetMemberTypeName method, GetMemberTypeName method,ID3D12ShaderReflectionType interface, ID3D12ShaderReflectionType interface,GetMemberTypeName method, ID3D12ShaderReflectionType.GetMemberTypeName, ID3D12ShaderReflectionType::GetMemberTypeName, d3d12shader/ID3D12ShaderReflectionType::GetMemberTypeName, direct3d12.id3d12shaderreflectiontype_getmembertypename
 ms.topic: method
-f1_keywords: 
- - "d3d12shader/ID3D12ShaderReflectionType.GetMemberTypeName"
+f1_keywords:
+- d3d12shader/ID3D12ShaderReflectionType.GetMemberTypeName
 dev_langs:
- - c++
+- c++
 req.header: d3d12shader.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - d3d12shader.h
+- d3d12shader.h
 api_name:
- - ID3D12ShaderReflectionType.GetMemberTypeName
+- ID3D12ShaderReflectionType.GetMemberTypeName
 targetos: Windows
 req.typenames: 
 req.redist: 

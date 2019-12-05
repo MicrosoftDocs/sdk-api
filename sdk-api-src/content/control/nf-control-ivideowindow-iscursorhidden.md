@@ -1,19 +1,17 @@
 ---
 UID: NF:control.IVideoWindow.IsCursorHidden
 title: IVideoWindow::IsCursorHidden (control.h)
-
 description: The IsCursorHidden method queries whether the cursor is hidden.
 old-location: dshow\ivideowindow_iscursorhidden.htm
 tech.root: DirectShow
 ms.assetid: 240040d8-433e-4398-a20a-66cc5a27bdae
-
 ms.date: 12/05/2018
 ms.keywords: IVideoWindow interface [DirectShow],IsCursorHidden method, IVideoWindow.IsCursorHidden, IVideoWindow::IsCursorHidden, IVideoWindowIsCursorHidden, IsCursorHidden, IsCursorHidden method [DirectShow], IsCursorHidden method [DirectShow],IVideoWindow interface, control/IVideoWindow::IsCursorHidden, dshow.ivideowindow_iscursorhidden
 ms.topic: method
-f1_keywords: 
- - "control/IVideoWindow.IsCursorHidden"
+f1_keywords:
+- control/IVideoWindow.IsCursorHidden
 dev_langs:
- - c++
+- c++
 req.header: control.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IVideoWindow.IsCursorHidden
+- IVideoWindow.IsCursorHidden
 targetos: Windows
 req.typenames: 
 req.redist: 

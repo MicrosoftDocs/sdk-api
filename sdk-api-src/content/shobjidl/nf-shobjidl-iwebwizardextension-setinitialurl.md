@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl.IWebWizardExtension.SetInitialURL
 title: IWebWizardExtension::SetInitialURL (shobjidl.h)
-
 description: Sets the URL of the initial server-provided HTML page in a hosted wizard.
 old-location: shell\IWebWizardExtension_SetInitialURL.htm
 tech.root: shell
 ms.assetid: 3fd0979f-2f45-4281-80df-72a4322ee219
-
 ms.date: 12/05/2018
 ms.keywords: IWebWizardExtension interface [Windows Shell],SetInitialURL method, IWebWizardExtension.SetInitialURL, IWebWizardExtension::SetInitialURL, SetInitialURL, SetInitialURL method [Windows Shell], SetInitialURL method [Windows Shell],IWebWizardExtension interface, _shell_IWebWizardExtension_SetInitialURL, shell.IWebWizardExtension_SetInitialURL, shobjidl/IWebWizardExtension::SetInitialURL
 ms.topic: method
-f1_keywords: 
- - "shobjidl/IWebWizardExtension.SetInitialURL"
+f1_keywords:
+- shobjidl/IWebWizardExtension.SetInitialURL
 dev_langs:
- - c++
+- c++
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Shell32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - IWebWizardExtension.SetInitialURL
+- IWebWizardExtension.SetInitialURL
 targetos: Windows
 req.typenames: 
 req.redist: 

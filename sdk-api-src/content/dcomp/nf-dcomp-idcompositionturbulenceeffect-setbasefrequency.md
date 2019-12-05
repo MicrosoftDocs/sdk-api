@@ -1,19 +1,17 @@
 ---
 UID: NF:dcomp.IDCompositionTurbulenceEffect.SetBaseFrequency
 title: IDCompositionTurbulenceEffect::SetBaseFrequency (dcomp.h)
-
 description: Sets the base frequencies in the X and Y direction.
 old-location: directcomp\idcompositionturbulenceeffect_setbasefrequency.htm
 tech.root: directcomp
 ms.assetid: 4231DC9C-3CF3-405C-80BB-6DABCA40B4CD
-
 ms.date: 12/05/2018
 ms.keywords: IDCompositionTurbulenceEffect interface [DirectComposition],SetBaseFrequency method, IDCompositionTurbulenceEffect.SetBaseFrequency, IDCompositionTurbulenceEffect::SetBaseFrequency, SetBaseFrequency, SetBaseFrequency method [DirectComposition], SetBaseFrequency method [DirectComposition],IDCompositionTurbulenceEffect interface, dcomp/IDCompositionTurbulenceEffect::SetBaseFrequency, directcomp.idcompositionturbulenceeffect_setbasefrequency
 ms.topic: method
-f1_keywords: 
- - "dcomp/IDCompositionTurbulenceEffect.SetBaseFrequency"
+f1_keywords:
+- dcomp/IDCompositionTurbulenceEffect.SetBaseFrequency
 dev_langs:
- - c++
+- c++
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dcomp.lib
 req.dll: Dcomp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dcomp.dll
+- Dcomp.dll
 api_name:
- - IDCompositionTurbulenceEffect.SetBaseFrequency
+- IDCompositionTurbulenceEffect.SetBaseFrequency
 targetos: Windows
 req.typenames: 
 req.redist: 

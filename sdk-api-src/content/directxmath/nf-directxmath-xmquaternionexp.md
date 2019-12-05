@@ -1,19 +1,17 @@
 ---
 UID: NF:directxmath.XMQuaternionExp
 title: XMQuaternionExp function (directxmath.h)
-
 description: Computes the exponential of a given pure quaternion.
 old-location: dxmath\xmquaternionexp.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.quaternion.XMQuaternionExp(XMVECTOR)
-
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMQuaternionExp, XMQuaternionExp, XMQuaternionExp method [DirectX Math Support APIs], dxmath.xmquaternionexp
 ms.topic: function
-f1_keywords: 
- - "directxmath/XMQuaternionExp"
+f1_keywords:
+- directxmath/XMQuaternionExp
 dev_langs:
- - c++
+- c++
 req.header: directxmath.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - DirectXMath.h
+- DirectXMath.h
 api_name:
- - XMQuaternionExp
+- XMQuaternionExp
 targetos: Windows
 req.typenames: 
 req.redist: 

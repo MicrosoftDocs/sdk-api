@@ -1,19 +1,17 @@
 ---
 UID: NF:winuser.OffsetRect
 title: OffsetRect function (winuser.h)
-
 description: The OffsetRect function moves the specified rectangle by the specified offsets.
 old-location: gdi\offsetrect.htm
 tech.root: gdi
 ms.assetid: 14101ad3-8c6e-459a-974a-1a8a4d8d7906
-
 ms.date: 12/05/2018
 ms.keywords: OffsetRect, OffsetRect function [Windows GDI], _win32_OffsetRect, gdi.offsetrect, winuser/OffsetRect
 ms.topic: function
-f1_keywords: 
- - "winuser/OffsetRect"
+f1_keywords:
+- winuser/OffsetRect
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - user32.dll
- - API-MS-Win-NTUser-Rectangle-l1-1-0.dll
- - minuser.dll
- - Ext-MS-Win-NTUser-Rectangle-Ext-l1-1-0.dll
+- user32.dll
+- API-MS-Win-NTUser-Rectangle-l1-1-0.dll
+- minuser.dll
+- Ext-MS-Win-NTUser-Rectangle-Ext-l1-1-0.dll
 api_name:
- - OffsetRect
+- OffsetRect
 targetos: Windows
 req.typenames: 
 req.redist: 

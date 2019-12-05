@@ -1,19 +1,17 @@
 ---
 UID: NF:wmp.IWMPFolderMonitorServices.get_currentFolder
 title: IWMPFolderMonitorServices::get_currentFolder (wmp.h)
-
 description: This method and all other methods of the IWMPFolderMonitorServices interface are deprecated.The get_currentFolder method retrieves the path of the folder currently being scanned.
 old-location: wmp\iwmpfoldermonitorservices_get_currentfolder.htm
 tech.root: WMP
 ms.assetid: b0bc2f6a-c5ab-4dc5-a574-5b0fde16449a
-
 ms.date: 12/05/2018
 ms.keywords: IWMPFolderMonitorServices interface [Windows Media Player],get_currentFolder method, IWMPFolderMonitorServices.get_currentFolder, IWMPFolderMonitorServices::get_currentFolder, IWMPFolderMonitorServicesget_currentFolder, get_currentFolder, get_currentFolder method [Windows Media Player], get_currentFolder method [Windows Media Player],IWMPFolderMonitorServices interface, wmp.iwmpfoldermonitorservices_get_currentfolder, wmp/IWMPFolderMonitorServices::get_currentFolder
 ms.topic: method
-f1_keywords: 
- - "wmp/IWMPFolderMonitorServices.get_currentFolder"
+f1_keywords:
+- wmp/IWMPFolderMonitorServices.get_currentFolder
 dev_langs:
- - c++
+- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wmp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmp.dll
+- wmp.dll
 api_name:
- - IWMPFolderMonitorServices.get_currentFolder
+- IWMPFolderMonitorServices.get_currentFolder
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:resapi.ClusWorkerTerminateEx
 title: ClusWorkerTerminateEx function (resapi.h)
-
 description: Waits for a worker thread to terminate up to the specified timeout.
 old-location: mscs\clusworkerterminateex.htm
 tech.root: MsCS
 ms.assetid: e2dda7c0-01d4-49e5-bc57-3fa07495d536
-
 ms.date: 12/05/2018
 ms.keywords: ClusWorkerTerminateEx, ClusWorkerTerminateEx function [Failover Cluster], mscs.clusworkerterminateex, resapi/ClusWorkerTerminateEx
 ms.topic: function
-f1_keywords: 
- - "resapi/ClusWorkerTerminateEx"
+f1_keywords:
+- resapi/ClusWorkerTerminateEx
 dev_langs:
- - c++
+- c++
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: ResUtils.lib
 req.dll: ResUtils.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - ResUtils.dll
+- ResUtils.dll
 api_name:
- - ClusWorkerTerminateEx
+- ClusWorkerTerminateEx
 targetos: Windows
 req.typenames: 
 req.redist: 

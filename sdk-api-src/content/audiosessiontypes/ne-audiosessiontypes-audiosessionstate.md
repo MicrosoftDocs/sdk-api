@@ -1,19 +1,17 @@
 ---
 UID: NE:audiosessiontypes._AudioSessionState
 title: AudioSessionState (audiosessiontypes.h)
-
 description: The AudioSessionState enumeration defines constants that indicate the current state of an audio session.
 old-location: coreaudio\audiosessionstate.htm
 tech.root: CoreAudio
 ms.assetid: a972fed6-425f-46c8-b0cc-6538460bb104
-
 ms.date: 12/05/2018
 ms.keywords: AudioSessionState, AudioSessionState , AudioSessionState enumeration [Core Audio], AudioSessionStateActive, AudioSessionStateExpired, AudioSessionStateInactive, audiosessiontypes/AudioSessionState, audiosessiontypes/AudioSessionStateActive, audiosessiontypes/AudioSessionStateExpired, audiosessiontypes/AudioSessionStateInactive, coreaudio.audiosessionstate
 ms.topic: enum
-f1_keywords: 
- - "audiosessiontypes/AudioSessionState"
+f1_keywords:
+- audiosessiontypes/AudioSessionState
 dev_langs:
- - c++
+- c++
 req.header: audiosessiontypes.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Audiosessiontypes.h
+- Audiosessiontypes.h
 api_name:
- - AudioSessionState
+- AudioSessionState
 targetos: Windows
 req.typenames: AudioSessionState
 req.redist: 

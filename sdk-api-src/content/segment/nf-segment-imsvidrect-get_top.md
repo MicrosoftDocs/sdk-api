@@ -1,19 +1,17 @@
 ---
 UID: NF:segment.IMSVidRect.get_Top
 title: IMSVidRect::get_Top (segment.h)
-
 description: The get_Top method retrieves the top y-coordinate of the rectangle. This coordinate is relative to the rectangle's associated window.
 old-location: mstv\imsvidrect_get_top.htm
 tech.root: mstv
 ms.assetid: 3596141c-e359-4ea5-8d6a-9ec374c1f854
-
 ms.date: 12/05/2018
 ms.keywords: IMSVidRect interface [Microsoft TV Technologies],get_Top method, IMSVidRect.get_Top, IMSVidRect::get_Top, IMSVidRectget_Top, get_Top, get_Top method [Microsoft TV Technologies], get_Top method [Microsoft TV Technologies],IMSVidRect interface, mstv.imsvidrect_get_top, segment/IMSVidRect::get_Top
 ms.topic: method
-f1_keywords: 
- - "segment/IMSVidRect.get_Top"
+f1_keywords:
+- segment/IMSVidRect.get_Top
 dev_langs:
- - c++
+- c++
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - segment.h
+- segment.h
 api_name:
- - IMSVidRect.get_Top
+- IMSVidRect.get_Top
 targetos: Windows
 req.typenames: 
 req.redist: 

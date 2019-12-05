@@ -1,19 +1,17 @@
 ---
 UID: NF:certenroll.IX509Enrollment.CreatePFX
 title: IX509Enrollment::CreatePFX (certenroll.h)
-
 description: Creates a Personal Information Exchange (PFX) message.
 old-location: security\ix509enrollment_createpfx_method.htm
 tech.root: seccertenroll
 ms.assetid: 4a51bea0-e7f8-4a4e-b612-95616b126466
-
 ms.date: 12/05/2018
 ms.keywords: CreatePFX, CreatePFX method [Security], CreatePFX method [Security],IX509Enrollment interface, IX509Enrollment interface [Security],CreatePFX method, IX509Enrollment.CreatePFX, IX509Enrollment::CreatePFX, certenroll/IX509Enrollment::CreatePFX, security.ix509enrollment_createpfx_method
 ms.topic: method
-f1_keywords: 
- - "certenroll/IX509Enrollment.CreatePFX"
+f1_keywords:
+- certenroll/IX509Enrollment.CreatePFX
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: CertEnroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CertEnroll.dll
+- CertEnroll.dll
 api_name:
- - IX509Enrollment.CreatePFX
+- IX509Enrollment.CreatePFX
 targetos: Windows
 req.typenames: 
 req.redist: 

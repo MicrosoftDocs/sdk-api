@@ -1,19 +1,17 @@
 ---
 UID: NF:vds.IVdsLunNaming.SetFriendlyName
 title: IVdsLunNaming::SetFriendlyName (vds.h)
-
 description: Sets the friendly name of a LUN.
 old-location: base\ivdslunnaming_setfriendlyname.htm
 tech.root: VDS
 ms.assetid: 233b19f6-dd0e-4033-a03d-0f1f597287a1
-
 ms.date: 12/05/2018
 ms.keywords: IVdsLunNaming interface [VDS],SetFriendlyName method, IVdsLunNaming.SetFriendlyName, IVdsLunNaming::SetFriendlyName, SetFriendlyName, SetFriendlyName method [VDS], SetFriendlyName method [VDS],IVdsLunNaming interface, base.ivdslunnaming_setfriendlyname, vds/IVdsLunNaming::SetFriendlyName, vdshwprv/IVdsLunNaming::SetFriendlyName
 ms.topic: method
-f1_keywords: 
- - "vds/IVdsLunNaming.SetFriendlyName"
+f1_keywords:
+- vds/IVdsLunNaming.SetFriendlyName
 dev_langs:
- - c++
+- c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Vds.h
- - VdsHwPrv.h
+- Vds.h
+- VdsHwPrv.h
 api_name:
- - IVdsLunNaming.SetFriendlyName
+- IVdsLunNaming.SetFriendlyName
 targetos: Windows
 req.typenames: 
 req.redist: 

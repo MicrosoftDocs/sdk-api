@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d11_2.ID3D11DeviceContext2.CopyTileMappings
 title: ID3D11DeviceContext2::CopyTileMappings (d3d11_2.h)
-
 description: Copies mappings from a source tiled resource to a destination tiled resource.
 old-location: direct3d11\id3d11devicecontext2_copytilemappings.htm
 tech.root: direct3d11
 ms.assetid: 03EBF4F5-CEC3-485D-8124-AAB90DA4D6E1
-
 ms.date: 12/05/2018
 ms.keywords: CopyTileMappings, CopyTileMappings method [Direct3D 11], CopyTileMappings method [Direct3D 11],ID3D11DeviceContext2 interface, ID3D11DeviceContext2 interface [Direct3D 11],CopyTileMappings method, ID3D11DeviceContext2.CopyTileMappings, ID3D11DeviceContext2::CopyTileMappings, d3d11_2/ID3D11DeviceContext2::CopyTileMappings, direct3d11.id3d11devicecontext2_copytilemappings
 ms.topic: method
-f1_keywords: 
- - "d3d11_2/ID3D11DeviceContext2.CopyTileMappings"
+f1_keywords:
+- d3d11_2/ID3D11DeviceContext2.CopyTileMappings
 dev_langs:
- - c++
+- c++
 req.header: d3d11_2.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: D3D11.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D11.lib
- - D3D11.dll
+- D3D11.lib
+- D3D11.dll
 api_name:
- - ID3D11DeviceContext2.CopyTileMappings
+- ID3D11DeviceContext2.CopyTileMappings
 targetos: Windows
 req.typenames: 
 req.redist: 

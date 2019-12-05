@@ -1,19 +1,17 @@
 ---
 UID: NN:d2d1_3.ID2D1Device3
 title: ID2D1Device3 (d2d1_3.h)
-
 description: Represents a resource domain whose objects and device contexts can be used together. This interface performs all the same functions as the ID2D1Device2 interface. It also enables the creation of ID2D1DeviceContext3 objects.
 old-location: direct2d\id2d1device3.htm
 tech.root: Direct2D
 ms.assetid: 60CB6308-85BE-424B-9950-1C8617D08A09
-
 ms.date: 12/05/2018
 ms.keywords: ID2D1Device3, ID2D1Device3 interface [Direct2D], ID2D1Device3 interface [Direct2D],described, d2d1_3/ID2D1Device3, direct2d.id2d1device3
 ms.topic: interface
-f1_keywords: 
- - "d2d1_3/ID2D1Device3"
+f1_keywords:
+- d2d1_3/ID2D1Device3
 dev_langs:
- - c++
+- c++
 req.header: d2d1_3.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: D2d1.lib
 req.dll: D2d1.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D2d1.dll
+- D2d1.dll
 api_name:
- - ID2D1Device3
+- ID2D1Device3
 targetos: Windows
 req.typenames: 
 req.redist: 

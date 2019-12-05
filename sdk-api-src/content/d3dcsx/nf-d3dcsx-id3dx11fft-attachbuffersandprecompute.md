@@ -1,19 +1,17 @@
 ---
 UID: NF:d3dcsx.ID3DX11FFT.AttachBuffersAndPrecompute
 title: ID3DX11FFT::AttachBuffersAndPrecompute (d3dcsx.h)
-
 description: Attaches buffers to an FFT context and performs any required precomputations.
 old-location: direct3d11\id3dx11fft_attachbuffersandprecompute.htm
 tech.root: direct3d11
 ms.assetid: 50c714fc-91fb-4a7d-a430-40ff221a1a14
-
 ms.date: 12/05/2018
 ms.keywords: AttachBuffersAndPrecompute, AttachBuffersAndPrecompute method [Direct3D 11], AttachBuffersAndPrecompute method [Direct3D 11],ID3DX11FFT interface, ID3DX11FFT interface [Direct3D 11],AttachBuffersAndPrecompute method, ID3DX11FFT.AttachBuffersAndPrecompute, ID3DX11FFT::AttachBuffersAndPrecompute, d035d5bc-194b-3f37-2b54-5d5f4ae0fbc8, d3dcsx/ID3DX11FFT::AttachBuffersAndPrecompute, direct3d11.id3dx11fft_attachbuffersandprecompute
 ms.topic: method
-f1_keywords: 
- - "d3dcsx/ID3DX11FFT.AttachBuffersAndPrecompute"
+f1_keywords:
+- d3dcsx/ID3DX11FFT.AttachBuffersAndPrecompute
 dev_langs:
- - c++
+- c++
 req.header: d3dcsx.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: D3dcsx.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - d3dcsx.lib
- - d3dcsx.dll
+- d3dcsx.lib
+- d3dcsx.dll
 api_name:
- - ID3DX11FFT.AttachBuffersAndPrecompute
+- ID3DX11FFT.AttachBuffersAndPrecompute
 targetos: Windows
 req.typenames: 
 req.redist: 

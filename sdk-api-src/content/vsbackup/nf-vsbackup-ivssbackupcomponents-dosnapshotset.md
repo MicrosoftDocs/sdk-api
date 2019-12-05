@@ -1,19 +1,17 @@
 ---
 UID: NF:vsbackup.IVssBackupComponents.DoSnapshotSet
 title: IVssBackupComponents::DoSnapshotSet (vsbackup.h)
-
 description: Commits all shadow copies in this set simultaneously.
 old-location: base\ivssbackupcomponents_dosnapshotset.htm
 tech.root: VSS
 ms.assetid: 3cc6c375-8a24-4af3-b4ad-5a695cc2645c
-
 ms.date: 12/05/2018
 ms.keywords: DoSnapshotSet, DoSnapshotSet method [VSS], DoSnapshotSet method [VSS],IVssBackupComponents interface, IVssBackupComponents interface [VSS],DoSnapshotSet method, IVssBackupComponents.DoSnapshotSet, IVssBackupComponents::DoSnapshotSet, _win32_ivssbackupcomponents_dosnapshotset, base.ivssbackupcomponents_dosnapshotset, vsbackup/IVssBackupComponents::DoSnapshotSet
 ms.topic: method
-f1_keywords: 
- - "vsbackup/IVssBackupComponents.DoSnapshotSet"
+f1_keywords:
+- vsbackup/IVssBackupComponents.DoSnapshotSet
 dev_langs:
- - c++
+- c++
 req.header: vsbackup.h
 req.include-header: VsBackup.h, Vss.h, VsWriter.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: VssApi.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - VssApi.lib
- - VssApi.dll
+- VssApi.lib
+- VssApi.dll
 api_name:
- - IVssBackupComponents.DoSnapshotSet
+- IVssBackupComponents.DoSnapshotSet
 targetos: Windows
 req.typenames: 
 req.redist: 

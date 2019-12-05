@@ -1,19 +1,17 @@
 ---
 UID: NF:rpcnsi.RpcNsMgmtSetExpAge
 title: RpcNsMgmtSetExpAge function (rpcnsi.h)
-
 description: The RpcNsMgmtSetExpAge function modifies the application's global expiration age for local copies of name-service data.
 old-location: rpc\rpcnsmgmtsetexpage.htm
 tech.root: Rpc
 ms.assetid: 9433e8c3-2c52-4994-8661-6af089fa9bc9
-
 ms.date: 12/05/2018
 ms.keywords: RpcNsMgmtSetExpAge, RpcNsMgmtSetExpAge function [RPC], _rpc_rpcnsmgmtsetexpage, rpc.rpcnsmgmtsetexpage, rpcnsi/RpcNsMgmtSetExpAge
 ms.topic: function
-f1_keywords: 
- - "rpcnsi/RpcNsMgmtSetExpAge"
+f1_keywords:
+- rpcnsi/RpcNsMgmtSetExpAge
 dev_langs:
- - c++
+- c++
 req.header: rpcnsi.h
 req.include-header: Rpc.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Rpcns4.lib
 req.dll: Rpcns4.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Rpcns4.dll
+- Rpcns4.dll
 api_name:
- - RpcNsMgmtSetExpAge
+- RpcNsMgmtSetExpAge
 targetos: Windows
 req.typenames: 
 req.redist: 

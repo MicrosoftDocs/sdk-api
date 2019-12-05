@@ -1,19 +1,17 @@
 ---
 UID: NN:msrdc.IRdcFileReader
 title: IRdcFileReader (msrdc.h)
-
 description: The IRdcFileReader interface is used to provide the equivalent of a file handle, because the data being synchronized may not exist as a file on disk.
 old-location: rdc\irdcfilereader.htm
 tech.root: rdc
 ms.assetid: 9684efca-37fd-45ce-a24e-d5276b8ea6af
-
 ms.date: 12/05/2018
 ms.keywords: IRdcFileReader, IRdcFileReader interface [Remote Differential Compression], IRdcFileReader interface [Remote Differential Compression],described, fs.irdcfilereader, msrdc/IRdcFileReader, rdc.irdcfilereader
 ms.topic: interface
-f1_keywords: 
- - "msrdc/IRdcFileReader"
+f1_keywords:
+- msrdc/IRdcFileReader
 dev_langs:
- - c++
+- c++
 req.header: msrdc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: MsRdc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - MsRdc.dll
+- MsRdc.dll
 api_name:
- - IRdcFileReader
+- IRdcFileReader
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:msinkaut.IInkPicture.get_SizeMode
 title: IInkPicture::get_SizeMode (msinkaut.h)
-
 description: Gets or sets how the InkPicture control handles image placement and sizing.
 old-location: tablet\inkpicture_sizemode.htm
 tech.root: tablet
 ms.assetid: 3ce10b92-80d4-4517-92cb-eff10fc8c0ba
-
 ms.date: 12/05/2018
 ms.keywords: IInkPicture interface [Tablet PC],SizeMode property, IInkPicture.SizeMode, IInkPicture.get_SizeMode, IInkPicture::SizeMode, IInkPicture::get_SizeMode, IInkPicture::put_SizeMode, InkPicture.get_SizeMode, InkPicture.put_SizeMode, SizeMode property [Tablet PC], SizeMode property [Tablet PC],IInkPicture interface, get_SizeMode, msinkaut/IInkPicture::SizeMode, msinkaut/IInkPicture::get_SizeMode, msinkaut/IInkPicture::put_SizeMode, put_SizeMode, tablet.inkpicture_sizemode
 ms.topic: method
-f1_keywords: 
- - "msinkaut/IInkPicture.SizeMode"
+f1_keywords:
+- msinkaut/IInkPicture.SizeMode
 dev_langs:
- - c++
+- c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows
@@ -32,19 +30,19 @@ req.lib: InkObj.dll
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - InkObj.dll
- - InkObj.dll.dll
+- InkObj.dll
+- InkObj.dll.dll
 api_name:
- - IInkPicture.SizeMode
- - IInkPicture.get_SizeMode
- - IInkPicture.put_SizeMode
- - InkPicture.get_SizeMode
- - InkPicture.put_SizeMode
+- IInkPicture.SizeMode
+- IInkPicture.get_SizeMode
+- IInkPicture.put_SizeMode
+- InkPicture.get_SizeMode
+- InkPicture.put_SizeMode
 targetos: Windows
 req.typenames: 
 req.redist: 

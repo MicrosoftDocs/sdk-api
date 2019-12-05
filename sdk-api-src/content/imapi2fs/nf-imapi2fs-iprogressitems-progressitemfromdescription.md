@@ -1,19 +1,17 @@
 ---
 UID: NF:imapi2fs.IProgressItems.ProgressItemFromDescription
 title: IProgressItems::ProgressItemFromDescription (imapi2fs.h)
-
 description: Retrieves a progress item based on the specified file name.
 old-location: imapi\iprogressitems_progressitemfromdescription.htm
 tech.root: imapi
 ms.assetid: c27e9f30-e3f1-4436-b33a-fa3130baf374
-
 ms.date: 12/05/2018
 ms.keywords: IProgressItems interface [IMAPI],ProgressItemFromDescription method, IProgressItems.ProgressItemFromDescription, IProgressItems::ProgressItemFromDescription, ProgressItemFromDescription, ProgressItemFromDescription method [IMAPI], ProgressItemFromDescription method [IMAPI],IProgressItems interface, imapi.iprogressitems_progressitemfromdescription, imapi2fs/IProgressItems::ProgressItemFromDescription
 ms.topic: method
-f1_keywords: 
- - "imapi2fs/IProgressItems.ProgressItemFromDescription"
+f1_keywords:
+- imapi2fs/IProgressItems.ProgressItemFromDescription
 dev_langs:
- - c++
+- c++
 req.header: imapi2fs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - imapi2fs.h
+- imapi2fs.h
 api_name:
- - IProgressItems.ProgressItemFromDescription
+- IProgressItems.ProgressItemFromDescription
 targetos: Windows
 req.typenames: 
 req.redist: 

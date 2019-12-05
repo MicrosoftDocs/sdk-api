@@ -1,19 +1,17 @@
 ---
 UID: NS:dwmapi._DWM_THUMBNAIL_PROPERTIES
 title: DWM_THUMBNAIL_PROPERTIES (dwmapi.h)
-
 description: Specifies Desktop Window Manager (DWM) thumbnail properties. Used by the DwmUpdateThumbnailProperties function.
 old-location: dwm\dwm_thumbnail_properties.htm
 tech.root: dwm
 ms.assetid: VS|winui|~\winui\desktopwindowmanager\reference\structures\dwm_thumbnail_properties.htm
-
 ms.date: 12/05/2018
-ms.keywords: "*PDWM_THUMBNAIL_PROPERTIES, DWM_THUMBNAIL_PROPERTIES, DWM_THUMBNAIL_PROPERTIES structure [Desktop Window Manager], PDWM_THUMBNAIL_PROPERTIES, PDWM_THUMBNAIL_PROPERTIES structure pointer [Desktop Window Manager], _udwm_dwm_thumbnail_properties, _udwm_dwm_thumbnail_properties_cpp, dwm.dwm_thumbnail_properties, dwmapi/DWM_THUMBNAIL_PROPERTIES, dwmapi/PDWM_THUMBNAIL_PROPERTIES, winui._udwm_dwm_thumbnail_properties"
+ms.keywords: '*PDWM_THUMBNAIL_PROPERTIES, DWM_THUMBNAIL_PROPERTIES, DWM_THUMBNAIL_PROPERTIES structure [Desktop Window Manager], PDWM_THUMBNAIL_PROPERTIES, PDWM_THUMBNAIL_PROPERTIES structure pointer [Desktop Window Manager], _udwm_dwm_thumbnail_properties, _udwm_dwm_thumbnail_properties_cpp, dwm.dwm_thumbnail_properties, dwmapi/DWM_THUMBNAIL_PROPERTIES, dwmapi/PDWM_THUMBNAIL_PROPERTIES, winui._udwm_dwm_thumbnail_properties'
 ms.topic: struct
-f1_keywords: 
- - "dwmapi/DWM_THUMBNAIL_PROPERTIES"
+f1_keywords:
+- dwmapi/DWM_THUMBNAIL_PROPERTIES
 dev_langs:
- - c++
+- c++
 req.header: dwmapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Dwmapi.h
+- Dwmapi.h
 api_name:
- - DWM_THUMBNAIL_PROPERTIES
+- DWM_THUMBNAIL_PROPERTIES
 targetos: Windows
 req.typenames: DWM_THUMBNAIL_PROPERTIES, *PDWM_THUMBNAIL_PROPERTIES
 req.redist: 

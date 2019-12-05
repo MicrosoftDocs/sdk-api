@@ -1,19 +1,17 @@
 ---
 UID: NF:gpmgmt.IGPMMigrationTable.Add
 title: IGPMMigrationTable::Add (gpmgmt.h)
-
 description: Adds entries from the IGPMGPO and IGPMBackup interfaces. The method updates any entries that are already present in the migration table.
 old-location: gpmc\igpmmigrationtable_add.htm
 tech.root: gpmc
 ms.assetid: e7be82b5-acb5-4e08-9771-d2698df3d0df
-
 ms.date: 12/05/2018
 ms.keywords: Add, Add method [GPMC], Add method [GPMC],GPMMigrationTable class, Add method [GPMC],IGPMMigrationTable interface, GPMMigrationTable class [GPMC],Add method, GPM_PROCESS_SECURITY, IGPMMigrationTable interface [GPMC],Add method, IGPMMigrationTable.Add, IGPMMigrationTable::Add, gpmc.igpmmigrationtable_add, gpmgmt/IGPMMigrationTable::Add
 ms.topic: method
-f1_keywords: 
- - "gpmgmt/IGPMMigrationTable.Add"
+f1_keywords:
+- gpmgmt/IGPMMigrationTable.Add
 dev_langs:
- - c++
+- c++
 req.header: gpmgmt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: Gpmgmt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gpmgmt.dll
+- Gpmgmt.dll
 api_name:
- - IGPMMigrationTable.Add
- - GPMMigrationTable.Add
+- IGPMMigrationTable.Add
+- GPMMigrationTable.Add
 targetos: Windows
 req.typenames: 
 req.redist: 

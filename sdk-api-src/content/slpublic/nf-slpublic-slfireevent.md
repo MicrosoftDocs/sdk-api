@@ -1,19 +1,17 @@
 ---
 UID: NF:slpublic.SLFireEvent
 title: SLFireEvent function (slpublic.h)
-
 description: Sends a specified event to a registered listener.
 old-location: security\slfireevent.htm
 tech.root: SecSLApi
 ms.assetid: 7d66526a-f83a-4a7d-9691-e8ee9ec9a135
-
 ms.date: 12/05/2018
 ms.keywords: SLFireEvent, SLFireEvent function [Security], security.slfireevent, slpublic/SLFireEvent
 ms.topic: function
-f1_keywords: 
- - "slpublic/SLFireEvent"
+f1_keywords:
+- slpublic/SLFireEvent
 dev_langs:
- - c++
+- c++
 req.header: slpublic.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Slc.lib
 req.dll: Slc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Slc.dll
+- Slc.dll
 api_name:
- - SLFireEvent
+- SLFireEvent
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NS:cmdtree.tagDBLIKE
 title: DBLIKE (cmdtree.h)
-
 description: The DBLIKE structure represents specific information required by the DBOP_like operator.
 old-location: indexsrv\dblike.htm
 tech.root: IndexSrv
 ms.assetid: VS|indexsrv|~\html\ixoledb_84rp.htm
-
 ms.date: 12/05/2018
 ms.keywords: DBLIKE, DBLIKE structure [Indexing Service], _idxs_DBLIKE, cmdtree/DBLIKE, indexsrv.dblike, tagDBLIKE
 ms.topic: struct
-f1_keywords: 
- - "cmdtree/DBLIKE"
+f1_keywords:
+- cmdtree/DBLIKE
 dev_langs:
- - c++
+- c++
 req.header: cmdtree.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - cmdtree.h
+- cmdtree.h
 api_name:
- - DBLIKE
+- DBLIKE
 targetos: Windows
 req.typenames: DBLIKE
 req.redist: 

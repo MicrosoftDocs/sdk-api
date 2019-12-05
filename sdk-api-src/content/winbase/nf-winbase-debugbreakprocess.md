@@ -1,19 +1,17 @@
 ---
 UID: NF:winbase.DebugBreakProcess
 title: DebugBreakProcess function (winbase.h)
-
 description: Causes a breakpoint exception to occur in the specified process. This allows the calling thread to signal the debugger to handle the exception.
 old-location: base\debugbreakprocess.htm
 tech.root: Debug
 ms.assetid: db90d46b-fdbc-49c9-ac99-6b1db1db708c
-
 ms.date: 12/05/2018
 ms.keywords: DebugBreakProcess, DebugBreakProcess function, _win32_debugbreakprocess, base.debugbreakprocess, winbase/DebugBreakProcess
 ms.topic: function
-f1_keywords: 
- - "winbase/DebugBreakProcess"
+f1_keywords:
+- winbase/DebugBreakProcess
 dev_langs:
- - c++
+- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
+- Kernel32.dll
 api_name:
- - DebugBreakProcess
+- DebugBreakProcess
 targetos: Windows
 req.typenames: 
 req.redist: 

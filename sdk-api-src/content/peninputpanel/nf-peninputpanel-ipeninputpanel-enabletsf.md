@@ -1,19 +1,17 @@
 ---
 UID: NF:peninputpanel.IPenInputPanel.EnableTsf
 title: IPenInputPanel::EnableTsf (peninputpanel.h)
-
 description: Deprecated. Gets or sets a Boolean value that indicates whether the PenInputPanel object attempts to send text to the attached control through the Text Services Framework (TSF) and enables the use of the correction user interface.
 old-location: tablet\peninputpanel_enabletsf.htm
 tech.root: tablet
 ms.assetid: 2c28e007-f06b-4d04-91a5-10e4b087fb2f
-
 ms.date: 12/05/2018
 ms.keywords: 2c28e007-f06b-4d04-91a5-10e4b087fb2f, EnableTsf, EnableTsf method [Tablet PC], EnableTsf method [Tablet PC],IPenInputPanel interface, IPenInputPanel interface [Tablet PC],EnableTsf method, IPenInputPanel.EnableTsf, IPenInputPanel::EnableTsf, peninputpanel/IPenInputPanel::EnableTsf, tablet.peninputpanel_enabletsf
 ms.topic: method
-f1_keywords: 
- - "peninputpanel/IPenInputPanel.EnableTsf"
+f1_keywords:
+- peninputpanel/IPenInputPanel.EnableTsf
 dev_langs:
- - c++
+- c++
 req.header: peninputpanel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: InkObj.dll
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - InkObj.dll
- - InkObj.dll.dll
+- InkObj.dll
+- InkObj.dll.dll
 api_name:
- - IPenInputPanel.EnableTsf
+- IPenInputPanel.EnableTsf
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:mstask.ITask.GetTaskFlags
 title: ITask::GetTaskFlags (mstask.h)
-
 description: This method returns the flags that modify the behavior of a task.
 old-location: taskschd\itask_gettaskflags.htm
 tech.root: taskschd
 ms.assetid: fd919375-c903-45eb-a8f4-45baf5b42203
-
 ms.date: 12/05/2018
 ms.keywords: GetTaskFlags, GetTaskFlags method [Task Scheduler], GetTaskFlags method [Task Scheduler],ITask interface, ITask interface [Task Scheduler],GetTaskFlags method, ITask.GetTaskFlags, ITask::GetTaskFlags, _msb_itask_gettaskflags, mstask/ITask::GetTaskFlags, taskschd.itask_gettaskflags
 ms.topic: method
-f1_keywords: 
- - "mstask/ITask.GetTaskFlags"
+f1_keywords:
+- mstask/ITask.GetTaskFlags
 dev_langs:
- - c++
+- c++
 req.header: mstask.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Mstask.lib
 req.dll: Mstask.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mstask.dll
+- Mstask.dll
 api_name:
- - ITask.GetTaskFlags
+- ITask.GetTaskFlags
 targetos: Windows
 req.typenames: 
 req.redist: Internet Explorer 4.0 or later on Windows NT 4.0 and Windows 95

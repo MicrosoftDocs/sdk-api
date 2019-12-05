@@ -1,19 +1,17 @@
 ---
 UID: NS:tokenbinding.TOKENBINDING_RESULT_DATA
 title: TOKENBINDING_RESULT_DATA (tokenbinding.h)
-
 description: Contains data about the result of generating a token binding or verifying one of the token bindings in a token binding message.
 old-location: security\tokenbinding_result_data.htm
 tech.root: SecCNG
 ms.assetid: 6C34E174-CCC4-451D-82C3-C410C8C92C8C
-
 ms.date: 12/05/2018
 ms.keywords: TOKENBINDING_RESULT_DATA, TOKENBINDING_RESULT_DATA structure [Security], security.tokenbinding_result_data, tokenbinding/TOKENBINDING_RESULT_DATA
 ms.topic: struct
-f1_keywords: 
- - "tokenbinding/TOKENBINDING_RESULT_DATA"
+f1_keywords:
+- tokenbinding/TOKENBINDING_RESULT_DATA
 dev_langs:
- - c++
+- c++
 req.header: tokenbinding.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - tokenbinding.h
+- tokenbinding.h
 api_name:
- - TOKENBINDING_RESULT_DATA
+- TOKENBINDING_RESULT_DATA
 targetos: Windows
 req.typenames: TOKENBINDING_RESULT_DATA
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:mssip.CryptSIPAddProvider
 title: CryptSIPAddProvider function (mssip.h)
-
 description: The CryptSIPAddProvider function registers functions that are exported by a given DLL file that implements a Subject Interface Package (SIP).
 old-location: security\cryptsipaddprovider.htm
 tech.root: SecCrypto
 ms.assetid: 99633c2f-e5ed-49e4-9c98-7501f66e5571
-
 ms.date: 12/05/2018
 ms.keywords: CryptSIPAddProvider, CryptSIPAddProvider function [Security], mssip/CryptSIPAddProvider, security.cryptsipaddprovider
 ms.topic: function
-f1_keywords: 
- - "mssip/CryptSIPAddProvider"
+f1_keywords:
+- mssip/CryptSIPAddProvider
 dev_langs:
- - c++
+- c++
 req.header: mssip.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Crypt32.lib
 req.dll: Crypt32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Crypt32.dll
+- Crypt32.dll
 api_name:
- - CryptSIPAddProvider
+- CryptSIPAddProvider
 targetos: Windows
 req.typenames: 
 req.redist: 

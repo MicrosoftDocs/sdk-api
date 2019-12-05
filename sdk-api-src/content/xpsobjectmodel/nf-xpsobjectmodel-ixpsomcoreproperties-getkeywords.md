@@ -1,19 +1,17 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMCoreProperties.GetKeywords
 title: IXpsOMCoreProperties::GetKeywords (xpsobjectmodel.h)
-
 description: Gets the keywords property.
 old-location: xps\ixpsomcoreproperties_getkeywords.htm
 tech.root: printdocs
 ms.assetid: f0bac4c7-5bb6-4a9d-8f16-db97e7efee5a
-
 ms.date: 12/05/2018
 ms.keywords: GetKeywords, GetKeywords method [XPS Documents and Packaging], GetKeywords method [XPS Documents and Packaging],IXpsOMCoreProperties interface, IXpsOMCoreProperties interface [XPS Documents and Packaging],GetKeywords method, IXpsOMCoreProperties.GetKeywords, IXpsOMCoreProperties::GetKeywords, xps.ixpsomcoreproperties_getkeywords, xpsobjectmodel/IXpsOMCoreProperties::GetKeywords
 ms.topic: method
-f1_keywords: 
- - "xpsobjectmodel/IXpsOMCoreProperties.GetKeywords"
+f1_keywords:
+- xpsobjectmodel/IXpsOMCoreProperties.GetKeywords
 dev_langs:
- - c++
+- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsobjectmodel.h
+- xpsobjectmodel.h
 api_name:
- - IXpsOMCoreProperties.GetKeywords
+- IXpsOMCoreProperties.GetKeywords
 targetos: Windows
 req.typenames: 
 req.redist: 

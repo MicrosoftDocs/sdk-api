@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IFileOperationProgressSink.PreDeleteItem
 title: IFileOperationProgressSink::PreDeleteItem (shobjidl_core.h)
-
 description: Performs caller-implemented actions before the delete process for each item begins.
 old-location: shell\IFileOperationProgressSink_PreDeleteItem.htm
 tech.root: shell
 ms.assetid: bf54f2da-4861-4546-9b1e-35b5983e836c
-
 ms.date: 12/05/2018
 ms.keywords: IFileOperationProgressSink interface [Windows Shell],PreDeleteItem method, IFileOperationProgressSink.PreDeleteItem, IFileOperationProgressSink::PreDeleteItem, PreDeleteItem, PreDeleteItem method [Windows Shell], PreDeleteItem method [Windows Shell],IFileOperationProgressSink interface, _shell_IFileOperationProgressSink_PreDeleteItem, shell.IFileOperationProgressSink_PreDeleteItem, shobjidl_core/IFileOperationProgressSink::PreDeleteItem
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IFileOperationProgressSink.PreDeleteItem"
+f1_keywords:
+- shobjidl_core/IFileOperationProgressSink.PreDeleteItem
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - IFileOperationProgressSink.PreDeleteItem
+- IFileOperationProgressSink.PreDeleteItem
 targetos: Windows
 req.typenames: 
 req.redist: 

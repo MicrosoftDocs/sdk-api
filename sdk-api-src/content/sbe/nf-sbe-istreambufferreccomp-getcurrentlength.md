@@ -1,19 +1,17 @@
 ---
 UID: NF:sbe.IStreamBufferRecComp.GetCurrentLength
 title: IStreamBufferRecComp::GetCurrentLength (sbe.h)
-
 description: The GetCurrentLength method retrieves the length of the target file.
 old-location: mstv\istreambufferreccomp_getcurrentlength.htm
 tech.root: mstv
 ms.assetid: d482bddc-3754-4d3c-8a9b-c0dc0afb00bb
-
 ms.date: 12/05/2018
 ms.keywords: GetCurrentLength, GetCurrentLength method [Microsoft TV Technologies], GetCurrentLength method [Microsoft TV Technologies],IStreamBufferRecComp interface, IStreamBufferRecComp interface [Microsoft TV Technologies],GetCurrentLength method, IStreamBufferRecComp.GetCurrentLength, IStreamBufferRecComp::GetCurrentLength, IStreamBufferRecCompGetCurrentLength, mstv.istreambufferreccomp_getcurrentlength, sbe/IStreamBufferRecComp::GetCurrentLength
 ms.topic: method
-f1_keywords: 
- - "sbe/IStreamBufferRecComp.GetCurrentLength"
+f1_keywords:
+- sbe/IStreamBufferRecComp.GetCurrentLength
 dev_langs:
- - c++
+- c++
 req.header: sbe.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Sbe.h
+- Sbe.h
 api_name:
- - IStreamBufferRecComp.GetCurrentLength
+- IStreamBufferRecComp.GetCurrentLength
 targetos: Windows
 req.typenames: 
 req.redist: 

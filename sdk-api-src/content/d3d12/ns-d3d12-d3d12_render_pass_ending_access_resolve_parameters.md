@@ -1,19 +1,17 @@
 ---
 UID: NS:d3d12.D3D12_RENDER_PASS_ENDING_ACCESS_RESOLVE_PARAMETERS
 title: D3D12_RENDER_PASS_ENDING_ACCESS_RESOLVE_PARAMETERS (d3d12.h)
-
 description: Describes a resource to resolve to at the conclusion of a render pass.
 old-location: direct3d12\d3d12_render_pass_ending_access_resolve_parameters.htm
 tech.root: direct3d12
 ms.assetid: AF081936-CF83-4FFF-BA81-83CEE6F85BFF
-
 ms.date: 12/05/2018
 ms.keywords: D3D12_RENDER_PASS_ENDING_ACCESS_RESOLVE_PARAMETERS, D3D12_RENDER_PASS_ENDING_ACCESS_RESOLVE_PARAMETERS structure, d3d12/D3D12_RENDER_PASS_ENDING_ACCESS_RESOLVE_PARAMETERS, direct3d12.d3d12_render_pass_ending_access_resolve_parameters
 ms.topic: struct
-f1_keywords: 
- - "d3d12/D3D12_RENDER_PASS_ENDING_ACCESS_RESOLVE_PARAMETERS"
+f1_keywords:
+- d3d12/D3D12_RENDER_PASS_ENDING_ACCESS_RESOLVE_PARAMETERS
 dev_langs:
- - c++
+- c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - d3d12.h
+- d3d12.h
 api_name:
- - D3D12_RENDER_PASS_ENDING_ACCESS_RESOLVE_PARAMETERS
+- D3D12_RENDER_PASS_ENDING_ACCESS_RESOLVE_PARAMETERS
 targetos: Windows
 req.typenames: D3D12_RENDER_PASS_ENDING_ACCESS_RESOLVE_PARAMETERS
 req.redist: 

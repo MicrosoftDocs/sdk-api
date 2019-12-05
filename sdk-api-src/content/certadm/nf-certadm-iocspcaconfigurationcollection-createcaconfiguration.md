@@ -1,19 +1,17 @@
 ---
 UID: NF:certadm.IOCSPCAConfigurationCollection.CreateCAConfiguration
 title: IOCSPCAConfigurationCollection::CreateCAConfiguration (certadm.h)
-
 description: Creates a new certification authority (CA) configuration and adds it to the configuration set.
 old-location: security\iocspcaconfigurationcollection_createcaconfiguration_method.htm
 tech.root: SecCrypto
 ms.assetid: d1c47402-77b1-4c43-8d57-20b9dd2682f7
-
 ms.date: 12/05/2018
 ms.keywords: CreateCAConfiguration, CreateCAConfiguration method [Security], CreateCAConfiguration method [Security],IOCSPCAConfigurationCollection interface, IOCSPCAConfigurationCollection interface [Security],CreateCAConfiguration method, IOCSPCAConfigurationCollection.CreateCAConfiguration, IOCSPCAConfigurationCollection::CreateCAConfiguration, certadm/IOCSPCAConfigurationCollection::CreateCAConfiguration, security.iocspcaconfigurationcollection_createcaconfiguration_method
 ms.topic: method
-f1_keywords: 
- - "certadm/IOCSPCAConfigurationCollection.CreateCAConfiguration"
+f1_keywords:
+- certadm/IOCSPCAConfigurationCollection.CreateCAConfiguration
 dev_langs:
- - c++
+- c++
 req.header: certadm.h
 req.include-header: Certsrv.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Certadm.lib
 req.dll: Certadm.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Certadm.dll
+- Certadm.dll
 api_name:
- - IOCSPCAConfigurationCollection.CreateCAConfiguration
+- IOCSPCAConfigurationCollection.CreateCAConfiguration
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NS:projectedfslib.PRJ_CALLBACKS
 title: PRJ_CALLBACKS (projectedfslib.h)
-
 description: A set of callback routines to where the provider stores its implementation of the callback.
 old-location: projfs\prj_callbacks.htm
 tech.root: ProjFS
 ms.assetid: 2FFF6A39-92C0-4BD1-B293-AC5650B2575C
-
 ms.date: 12/05/2018
 ms.keywords: PRJ_CALLBACKS, PRJ_CALLBACKS structure, ProjFS.prj_callbacks, projectedfslib/PRJ_CALLBACKS
 ms.topic: struct
-f1_keywords: 
- - "projectedfslib/PRJ_CALLBACKS"
+f1_keywords:
+- projectedfslib/PRJ_CALLBACKS
 dev_langs:
- - c++
+- c++
 req.header: projectedfslib.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - projectedfslib.h
+- projectedfslib.h
 api_name:
- - PRJ_CALLBACKS
+- PRJ_CALLBACKS
 targetos: Windows
 req.typenames: PRJ_CALLBACKS
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:dwrite_2.IDWriteTextLayout2.SetOpticalAlignment
 title: IDWriteTextLayout2::SetOpticalAlignment (dwrite_2.h)
-
 description: Set how the glyphs align to the edges the margin.
 old-location: directwrite\idwritetextlayout2_setopticalalignment.htm
 tech.root: DirectWrite
 ms.assetid: 10C9C3E7-4556-4848-A4CB-F822A689CAB0
-
 ms.date: 12/05/2018
 ms.keywords: IDWriteTextLayout2 interface [Direct Write],SetOpticalAlignment method, IDWriteTextLayout2.SetOpticalAlignment, IDWriteTextLayout2::SetOpticalAlignment, SetOpticalAlignment, SetOpticalAlignment method [Direct Write], SetOpticalAlignment method [Direct Write],IDWriteTextLayout2 interface, directwrite.idwritetextlayout2_setopticalalignment, dwrite_2/IDWriteTextLayout2::SetOpticalAlignment
 ms.topic: method
-f1_keywords: 
- - "dwrite_2/IDWriteTextLayout2.SetOpticalAlignment"
+f1_keywords:
+- dwrite_2/IDWriteTextLayout2.SetOpticalAlignment
 dev_langs:
- - c++
+- c++
 req.header: dwrite_2.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dwrite.lib
 req.dll: Dwrite.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dwrite.dll
+- dwrite.dll
 api_name:
- - IDWriteTextLayout2.SetOpticalAlignment
+- IDWriteTextLayout2.SetOpticalAlignment
 targetos: Windows
 req.typenames: 
 req.redist: 

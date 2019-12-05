@@ -1,19 +1,17 @@
 ---
 UID: NF:webservices.WsEndReaderCanonicalization
 title: WsEndReaderCanonicalization function (webservices.h)
-
 description: This function stops XML canonicalization started by a preceding WsStartReaderCanonicalization function call. Any remaining canonical bytes buffered by the reader will be written to the callback function.
 old-location: wsw\wsendreadercanonicalization.htm
 tech.root: wsw
 ms.assetid: 5cacad47-8581-4713-96cb-3b3a863e6327
-
 ms.date: 12/05/2018
 ms.keywords: WsEndReaderCanonicalization, WsEndReaderCanonicalization function [Web Services for Windows], webservices/WsEndReaderCanonicalization, wsw.wsendreadercanonicalization
 ms.topic: function
-f1_keywords: 
- - "webservices/WsEndReaderCanonicalization"
+f1_keywords:
+- webservices/WsEndReaderCanonicalization
 dev_langs:
- - c++
+- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: WebServices.lib
 req.dll: WebServices.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - WebServices.dll
+- WebServices.dll
 api_name:
- - WsEndReaderCanonicalization
+- WsEndReaderCanonicalization
 targetos: Windows
 req.typenames: 
 req.redist: 

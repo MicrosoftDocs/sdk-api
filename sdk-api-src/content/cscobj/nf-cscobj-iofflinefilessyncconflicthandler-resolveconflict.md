@@ -1,19 +1,17 @@
 ---
 UID: NF:cscobj.IOfflineFilesSyncConflictHandler.ResolveConflict
 title: IOfflineFilesSyncConflictHandler::ResolveConflict (cscobj.h)
-
 description: Provides a resolution decision for a sync conflict.
 old-location: of\iofflinefilessyncconflicthandler_resolveconflict.htm
 tech.root: offlinefiles
 ms.assetid: eb6fbdcf-1833-4ada-880e-f2dbfce64d99
-
 ms.date: 12/05/2018
 ms.keywords: IOfflineFilesSyncConflictHandler interface [Offline Files],ResolveConflict method, IOfflineFilesSyncConflictHandler.ResolveConflict, IOfflineFilesSyncConflictHandler::ResolveConflict, OFFLINEFILES_CHANGES_LOCAL_ATTRIBUTES, OFFLINEFILES_CHANGES_LOCAL_SIZE, OFFLINEFILES_CHANGES_LOCAL_TIME, OFFLINEFILES_CHANGES_REMOTE_ATTRIBUTES, OFFLINEFILES_CHANGES_REMOTE_SIZE, OFFLINEFILES_CHANGES_REMOTE_TIME, OFFLINEFILES_SYNC_STATE_LOCAL_KNOWN, OFFLINEFILES_SYNC_STATE_REMOTE_KNOWN, ResolveConflict, ResolveConflict method [Offline Files], ResolveConflict method [Offline Files],IOfflineFilesSyncConflictHandler interface, cscobj/IOfflineFilesSyncConflictHandler::ResolveConflict, of.iofflinefilessyncconflicthandler_resolveconflict
 ms.topic: method
-f1_keywords: 
- - "cscobj/IOfflineFilesSyncConflictHandler.ResolveConflict"
+f1_keywords:
+- cscobj/IOfflineFilesSyncConflictHandler.ResolveConflict
 dev_langs:
- - c++
+- c++
 req.header: cscobj.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: CscSvc.dll; CscObj.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CscSvc.dll
- - CscObj.dll
+- CscSvc.dll
+- CscObj.dll
 api_name:
- - IOfflineFilesSyncConflictHandler.ResolveConflict
+- IOfflineFilesSyncConflictHandler.ResolveConflict
 targetos: Windows
 req.typenames: 
 req.redist: 

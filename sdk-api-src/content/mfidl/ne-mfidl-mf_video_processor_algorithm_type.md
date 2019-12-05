@@ -1,19 +1,17 @@
 ---
 UID: NE:mfidl._MF_VIDEO_PROCESSOR_ALGORITHM_TYPE
 title: MF_VIDEO_PROCESSOR_ALGORITHM_TYPE (mfidl.h)
-
 description: Defines algorithms for the video processor which is use by MF_VIDEO_PROCESSOR_ALGORITHM.
 old-location: mf\mf_video_processor_algorithm_type.htm
 tech.root: medfound
 ms.assetid: 3BB0836E-39E6-40FA-9BA0-C986EB587CF1
-
 ms.date: 12/05/2018
 ms.keywords: MF_VIDEO_PROCESSOR_ALGORITHM_DEFAULT, MF_VIDEO_PROCESSOR_ALGORITHM_MRF_CRF_444, MF_VIDEO_PROCESSOR_ALGORITHM_TYPE, MF_VIDEO_PROCESSOR_ALGORITHM_TYPE enumeration [Media Foundation], mf.mf_video_processor_algorithm_type, mfidl/MF_VIDEO_PROCESSOR_ALGORITHM_DEFAULT, mfidl/MF_VIDEO_PROCESSOR_ALGORITHM_MRF_CRF_444, mfidl/MF_VIDEO_PROCESSOR_ALGORITHM_TYPE
 ms.topic: enum
-f1_keywords: 
- - "mfidl/MF_VIDEO_PROCESSOR_ALGORITHM_TYPE"
+f1_keywords:
+- mfidl/MF_VIDEO_PROCESSOR_ALGORITHM_TYPE
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - mfidl.h
+- mfidl.h
 api_name:
- - MF_VIDEO_PROCESSOR_ALGORITHM_TYPE
+- MF_VIDEO_PROCESSOR_ALGORITHM_TYPE
 targetos: Windows
 req.typenames: MF_VIDEO_PROCESSOR_ALGORITHM_TYPE
 req.redist: 

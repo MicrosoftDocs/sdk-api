@@ -1,19 +1,17 @@
 ---
 UID: NF:wininet.InternetLockRequestFile
 title: InternetLockRequestFile function (wininet.h)
-
 description: Places a lock on the file that is being used.
 old-location: wininet\internetlockrequestfile.htm
 tech.root: wininet
 ms.assetid: 5924d117-1dcd-43d8-817e-02bda302bdd4
-
 ms.date: 12/05/2018
 ms.keywords: InternetLockRequestFile, InternetLockRequestFile function [WinINet], _inet_internetlockrequestfile_function, wininet.internetlockrequestfile, wininet/InternetLockRequestFile
 ms.topic: function
-f1_keywords: 
- - "wininet/InternetLockRequestFile"
+f1_keywords:
+- wininet/InternetLockRequestFile
 dev_langs:
- - c++
+- c++
 req.header: wininet.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Wininet.lib
 req.dll: Wininet.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Wininet.dll
+- Wininet.dll
 api_name:
- - InternetLockRequestFile
+- InternetLockRequestFile
 targetos: Windows
 req.typenames: 
 req.redist: 

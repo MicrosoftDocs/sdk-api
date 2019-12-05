@@ -1,19 +1,17 @@
 ---
 UID: NE:minidumpapiset._MINIDUMP_SECONDARY_FLAGS
 title: MINIDUMP_SECONDARY_FLAGS (minidumpapiset.h)
-
 description: Specifies the secondary flags for the minidump.
 old-location: base\minidump_secondary_flags.htm
 tech.root: Debug
 ms.assetid: c8485db1-0cc0-4baa-90fb-b5c1f9236b80
-
 ms.date: 12/05/2018
 ms.keywords: MINIDUMP_SECONDARY_FLAGS, MINIDUMP_SECONDARY_FLAGS enumeration, MiniSecondaryWithoutPowerInfo, base.minidump_secondary_flags, minidumpapiset/MINIDUMP_SECONDARY_FLAGS, minidumpapiset/MiniSecondaryWithoutPowerInfo
 ms.topic: enum
 f1_keywords:
 - minidumpapiset/MINIDUMP_SECONDARY_FLAGS
 dev_langs:
- - c++
+- c++
 req.header: minidumpapiset.h
 req.include-header: Dbghelp.h
 req.target-type: Windows

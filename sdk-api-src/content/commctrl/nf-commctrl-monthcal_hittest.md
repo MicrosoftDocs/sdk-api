@@ -1,19 +1,17 @@
 ---
 UID: NF:commctrl.MonthCal_HitTest
 title: MonthCal_HitTest macro (commctrl.h)
-
 description: Determines which portion of a month calendar control is at a given point on the screen. You can use this macro or send the MCM_HITTEST message explicitly.
 old-location: controls\MonthCal_HitTest.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\monthcal\macros\monthcal_hittest.htm
-
 ms.date: 12/05/2018
 ms.keywords: MonthCal_HitTest, MonthCal_HitTest macro [Windows Controls], _win32_MonthCal_HitTest, _win32_MonthCal_HitTest_cpp, commctrl/MonthCal_HitTest, controls.MonthCal_HitTest, controls._win32_MonthCal_HitTest
 ms.topic: macro
-f1_keywords: 
- - "commctrl/MonthCal_HitTest"
+f1_keywords:
+- commctrl/MonthCal_HitTest
 dev_langs:
- - c++
+- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Commctrl.h
+- Commctrl.h
 api_name:
- - MonthCal_HitTest
+- MonthCal_HitTest
 targetos: Windows
 req.typenames: 
 req.redist: 

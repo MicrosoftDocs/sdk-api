@@ -1,19 +1,17 @@
 ---
 UID: NF:wuapi.IUpdateServiceRegistration.get_IsPendingRegistrationWithAU
 title: IUpdateServiceRegistration::get_IsPendingRegistrationWithAU (wuapi.h)
-
 description: Gets a Boolean value that indicates whether the service will also be registered with Automatic Updates, when added.
 old-location: wua\iupdateserviceregistration_ispendingregistrationwithau.htm
 tech.root: Wua_Sdk
 ms.assetid: abd90925-979a-49ef-b071-ea48b537fee7
-
 ms.date: 12/05/2018
 ms.keywords: IUpdateServiceRegistration interface [Windows Update Agent],IsPendingRegistrationWithAU property, IUpdateServiceRegistration.IsPendingRegistrationWithAU, IUpdateServiceRegistration.get_IsPendingRegistrationWithAU, IUpdateServiceRegistration::IsPendingRegistrationWithAU, IUpdateServiceRegistration::get_IsPendingRegistrationWithAU, IsPendingRegistrationWithAU property [Windows Update Agent], IsPendingRegistrationWithAU property [Windows Update Agent],IUpdateServiceRegistration interface, get_IsPendingRegistrationWithAU, wua.iupdateserviceregistration_ispendingregistrationwithau, wuapi/IUpdateServiceRegistration::IsPendingRegistrationWithAU, wuapi/IUpdateServiceRegistration::get_IsPendingRegistrationWithAU
 ms.topic: method
-f1_keywords: 
- - "wuapi/IUpdateServiceRegistration.IsPendingRegistrationWithAU"
+f1_keywords:
+- wuapi/IUpdateServiceRegistration.IsPendingRegistrationWithAU
 dev_langs:
- - c++
+- c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Wuguid.lib
 req.dll: Wuapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wuapi.dll
+- Wuapi.dll
 api_name:
- - IUpdateServiceRegistration.IsPendingRegistrationWithAU
- - IUpdateServiceRegistration.get_IsPendingRegistrationWithAU
+- IUpdateServiceRegistration.IsPendingRegistrationWithAU
+- IUpdateServiceRegistration.get_IsPendingRegistrationWithAU
 targetos: Windows
 req.typenames: 
 req.redist: 

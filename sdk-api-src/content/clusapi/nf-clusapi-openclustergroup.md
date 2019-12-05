@@ -1,19 +1,17 @@
 ---
 UID: NF:clusapi.OpenClusterGroup
 title: OpenClusterGroup function (clusapi.h)
-
 description: Opens a failover cluster group and returns a handle to it.
 old-location: mscs\openclustergroup.htm
 tech.root: MsCS
 ms.assetid: 0c7ef9d9-d32b-448e-9e07-6befb9b3e338
-
 ms.date: 12/05/2018
 ms.keywords: OpenClusterGroup, OpenClusterGroup function [Failover Cluster], PCLUSAPI_OPEN_CLUSTER_GROUP, PCLUSAPI_OPEN_CLUSTER_GROUP function [Failover Cluster], _wolf_openclustergroup, clusapi/OpenClusterGroup, clusapi/PCLUSAPI_OPEN_CLUSTER_GROUP, mscs.openclustergroup
 ms.topic: function
-f1_keywords: 
- - "clusapi/OpenClusterGroup"
+f1_keywords:
+- clusapi/OpenClusterGroup
 dev_langs:
- - c++
+- c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib: ClusAPI.lib
 req.dll: ClusAPI.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - ClusAPI.dll
- - Ext-MS-Win-Cluster-ClusAPI-l1-1-0.dll
- - Ext-MS-Win-Cluster-ClusAPI-l1-1-1.dll
- - Ext-MS-Win-Cluster-ClusAPI-l1-1-2.dll
- - ext-ms-win-cluster-clusapi-l1-1-3.dll
+- ClusAPI.dll
+- Ext-MS-Win-Cluster-ClusAPI-l1-1-0.dll
+- Ext-MS-Win-Cluster-ClusAPI-l1-1-1.dll
+- Ext-MS-Win-Cluster-ClusAPI-l1-1-2.dll
+- ext-ms-win-cluster-clusapi-l1-1-3.dll
 api_name:
- - OpenClusterGroup
+- OpenClusterGroup
 targetos: Windows
 req.typenames: 
 req.redist: 

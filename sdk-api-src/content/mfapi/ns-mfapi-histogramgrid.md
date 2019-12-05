@@ -1,19 +1,17 @@
 ---
 UID: NS:mfapi.tagHistogramGrid
 title: HistogramGrid (mfapi.h)
-
 description: The HistogramGrid structure describes the blob format for MF_CAPTURE_METADATA_HISTOGRAM.
 old-location: stream\histogramgrid.htm
 tech.root: stream
 ms.assetid: 2B0BA5EC-3120-41A2-B06A-B63E57DC8766
-
 ms.date: 12/05/2018
 ms.keywords: HistogramGrid, HistogramGrid structure [Streaming Media Devices], mfapi/HistogramGrid, stream.histogramgrid
 ms.topic: struct
-f1_keywords: 
- - "mfapi/HistogramGrid"
+f1_keywords:
+- mfapi/HistogramGrid
 dev_langs:
- - c++
+- c++
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - mfapi.h
+- mfapi.h
 api_name:
- - HistogramGrid
+- HistogramGrid
 targetos: Windows
 req.typenames: HistogramGrid
 req.redist: 

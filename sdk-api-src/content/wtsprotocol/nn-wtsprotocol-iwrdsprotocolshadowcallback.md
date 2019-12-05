@@ -1,19 +1,17 @@
 ---
 UID: NN:wtsprotocol.IWRdsProtocolShadowCallback
 title: IWRdsProtocolShadowCallback (wtsprotocol.h)
-
 description: Exposes methods called by the protocol to notify the Remote Desktop Services service to start or stop the target side of a shadow.
 old-location: termserv\iwrdsprotocolshadowcallback.htm
 tech.root: TermServ
 ms.assetid: 47727d33-df3d-49da-bc82-a4ed5ce0a381
-
 ms.date: 12/05/2018
 ms.keywords: IWRdsProtocolShadowCallback, IWRdsProtocolShadowCallback interface [Remote Desktop Services], IWRdsProtocolShadowCallback interface [Remote Desktop Services],described, termserv.iwrdsprotocolshadowcallback, wtsprotocol/IWRdsProtocolShadowCallback
 ms.topic: interface
-f1_keywords: 
- - "wtsprotocol/IWRdsProtocolShadowCallback"
+f1_keywords:
+- wtsprotocol/IWRdsProtocolShadowCallback
 dev_langs:
- - c++
+- c++
 req.header: wtsprotocol.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wtsprotocol.h
+- wtsprotocol.h
 api_name:
- - IWRdsProtocolShadowCallback
+- IWRdsProtocolShadowCallback
 targetos: Windows
 req.typenames: 
 req.redist: 

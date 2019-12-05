@@ -1,19 +1,17 @@
 ---
 UID: NN:dskquota.IDiskQuotaUserBatch
 title: IDiskQuotaUserBatch (dskquota.h)
-
 description: Adds multiple quota user objects to a container that is then submitted for update in a single call.
 old-location: fs\idiskquotauserbatch.htm
 tech.root: FileIO
 ms.assetid: 6cb3da5d-8e4c-45de-b9cf-0f6abf3f1932
-
 ms.date: 12/05/2018
 ms.keywords: IDiskQuotaUserBatch, IDiskQuotaUserBatch interface [Files], IDiskQuotaUserBatch interface [Files],described, _win32_idiskquotauserbatch, base.idiskquotauserbatch, dskquota/IDiskQuotaUserBatch, fs.idiskquotauserbatch
 ms.topic: interface
-f1_keywords: 
- - "dskquota/IDiskQuotaUserBatch"
+f1_keywords:
+- dskquota/IDiskQuotaUserBatch
 dev_langs:
- - c++
+- c++
 req.header: dskquota.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Dskquota.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dskquota.dll
+- Dskquota.dll
 api_name:
- - IDiskQuotaUserBatch
+- IDiskQuotaUserBatch
 targetos: Windows
 req.typenames: 
 req.redist: 

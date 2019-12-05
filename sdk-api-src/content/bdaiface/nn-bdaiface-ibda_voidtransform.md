@@ -1,19 +1,17 @@
 ---
 UID: NN:bdaiface.IBDA_VoidTransform
 title: IBDA_VoidTransform (bdaiface.h)
-
 description: The IBDA_VoidTransform interface is implemented on a BDA device filter. It is used by the Network Provider to inactivate a portion of a filter graph without stopping the graph.
 old-location: mstv\ibda_voidtransform.htm
 tech.root: mstv
 ms.assetid: 120638ce-b35f-450e-9675-708495ddd082
-
 ms.date: 12/05/2018
 ms.keywords: IBDA_VoidTransform, IBDA_VoidTransform interface [Microsoft TV Technologies], IBDA_VoidTransform interface [Microsoft TV Technologies],described, IBDA_VoidTransformInterface, bdaiface/IBDA_VoidTransform, mstv.ibda_voidtransform
 ms.topic: interface
-f1_keywords: 
- - "bdaiface/IBDA_VoidTransform"
+f1_keywords:
+- bdaiface/IBDA_VoidTransform
 dev_langs:
- - c++
+- c++
 req.header: bdaiface.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - bdaiface.h
+- bdaiface.h
 api_name:
- - IBDA_VoidTransform
+- IBDA_VoidTransform
 targetos: Windows
 req.typenames: 
 req.redist: 

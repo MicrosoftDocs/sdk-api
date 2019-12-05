@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl.IDesktopGadget.RunGadget
 title: IDesktopGadget::RunGadget (shobjidl.h)
-
 description: Adds an installed gadget to the desktop.
 old-location: shell\IDesktopGadget_RunGadget.htm
 tech.root: shell
 ms.assetid: 9243fd88-122f-40be-ab71-66c52fa99168
-
 ms.date: 12/05/2018
 ms.keywords: IDesktopGadget interface [Windows Shell],RunGadget method, IDesktopGadget.RunGadget, IDesktopGadget::RunGadget, RunGadget, RunGadget method [Windows Shell], RunGadget method [Windows Shell],IDesktopGadget interface, _shell_IDesktopGadget_RunGadget, shell.IDesktopGadget_RunGadget, shobjidl/IDesktopGadget::RunGadget
 ms.topic: method
-f1_keywords: 
- - "shobjidl/IDesktopGadget.RunGadget"
+f1_keywords:
+- shobjidl/IDesktopGadget.RunGadget
 dev_langs:
- - c++
+- c++
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shobjidl.h
+- Shobjidl.h
 api_name:
- - IDesktopGadget.RunGadget
+- IDesktopGadget.RunGadget
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:npapi.NPSearchDialog
 title: NPSearchDialog function (npapi.h)
-
 description: Enables network vendors to supply their own form of browsing and search, beyond the hierarchical view presented in the Connection dialog box.
 old-location: security\npsearchdialog.htm
 tech.root: SecAuthN
 ms.assetid: df0d7149-4fb3-41b9-8037-d3c89eee0241
-
 ms.date: 12/05/2018
 ms.keywords: NPSearchDialog, NPSearchDialog function [Security], _mnp_npsearchdialog, npapi/NPSearchDialog, security.npsearchdialog
 ms.topic: function
-f1_keywords: 
- - "npapi/NPSearchDialog"
+f1_keywords:
+- npapi/NPSearchDialog
 dev_langs:
- - c++
+- c++
 req.header: npapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Npapi.h
+- Npapi.h
 api_name:
- - NPSearchDialog
+- NPSearchDialog
 targetos: Windows
 req.typenames: 
 req.redist: 

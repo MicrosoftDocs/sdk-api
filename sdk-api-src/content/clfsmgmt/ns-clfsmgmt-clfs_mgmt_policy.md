@@ -1,19 +1,17 @@
 ---
 UID: NS:clfsmgmt._CLFS_MGMT_POLICY
 title: CLFS_MGMT_POLICY (clfsmgmt.h)
-
 description: The CLFS_MGMT_POLICY structure specifies a Common Log File System (CLFS) management policy. The PolicyType member specifies the members used for a policy.
 old-location: fs\clfs_mgmt_policy.htm
 tech.root: Clfs
 ms.assetid: 3f5d9c38-b299-4102-9786-115ece5b0928
-
 ms.date: 12/05/2018
 ms.keywords: '*PCLFS_MGMT_POLICY, CLFS_MGMT_POLICY, CLFS_MGMT_POLICY structure [Files], PCLFS_MGMT_POLICY, PCLFS_MGMT_POLICY structure pointer [Files], clfsmgmt/CLFS_MGMT_POLICY, clfsmgmt/PCLFS_MGMT_POLICY, fs.clfs_mgmt_policy'
 ms.topic: struct
 f1_keywords:
 - clfsmgmt/CLFS_MGMT_POLICY
 dev_langs:
- - c++
+- c++
 req.header: clfsmgmt.h
 req.include-header: 
 req.target-type: Windows

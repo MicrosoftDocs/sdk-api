@@ -1,19 +1,17 @@
 ---
 UID: NF:videoacc.IAMVideoAccelerator.DisplayFrame
 title: IAMVideoAccelerator::DisplayFrame (videoacc.h)
-
 description: The DisplayFrame method causes the video renderer to display a decoded frame.
 old-location: dshow\iamvideoaccelerator_displayframe.htm
 tech.root: DirectShow
 ms.assetid: 7913401f-881a-4364-8504-b02e85a5e343
-
 ms.date: 12/05/2018
 ms.keywords: DisplayFrame, DisplayFrame method [DirectShow], DisplayFrame method [DirectShow],IAMVideoAccelerator interface, IAMVideoAccelerator interface [DirectShow],DisplayFrame method, IAMVideoAccelerator.DisplayFrame, IAMVideoAccelerator::DisplayFrame, IAMVideoAcceleratorDisplayFrame, dshow.iamvideoaccelerator_displayframe, videoacc/IAMVideoAccelerator::DisplayFrame
 ms.topic: method
-f1_keywords: 
- - "videoacc/IAMVideoAccelerator.DisplayFrame"
+f1_keywords:
+- videoacc/IAMVideoAccelerator.DisplayFrame
 dev_langs:
- - c++
+- c++
 req.header: videoacc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IAMVideoAccelerator.DisplayFrame
+- IAMVideoAccelerator.DisplayFrame
 targetos: Windows
 req.typenames: 
 req.redist: 

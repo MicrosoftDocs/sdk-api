@@ -3,14 +3,13 @@ UID: NF:gdipluspath.GraphicsPath.GetBounds(OUT RectF,IN const Matrix,IN const Pe
 title: GraphicsPath::GetBounds
 description: The GraphicsPath::GetBounds method gets a bounding rectangle for this path.
 ms.assetid: a6a44cf0-78a9-4a1c-95f8-06d2ac32339b
-
 ms.date: 05/13/2019
 ms.keywords: GraphicsPath::GetBounds
 ms.topic: language-reference
-f1_keywords: 
- - "gdipluspath/GraphicsPath::GetBounds"
+f1_keywords:
+- gdipluspath/GraphicsPath::GetBounds
 dev_langs:
- - c++
+- c++
 targetos: Windows
 req.assembly: 
 req.construct-type: function
@@ -32,13 +31,13 @@ req.type-library:
 req.umdf-ver: 
 req.unicode-ansi: 
 topic_type:
- - apiref
+- apiref
 api_type:
- - COM
+- COM
 api_location:
- - gdipluspath.h
+- gdipluspath.h
 api_name:
- - GraphicsPath::GetBounds
+- GraphicsPath::GetBounds
 ---
 
 # GraphicsPath::GetBounds

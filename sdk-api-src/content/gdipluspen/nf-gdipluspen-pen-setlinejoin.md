@@ -1,19 +1,17 @@
 ---
 UID: NF:gdipluspen.Pen.SetLineJoin
 title: Pen::SetLineJoin (gdipluspen.h)
-
 description: The Pen::SetLineJoin method sets the line join for this Pen object.
 old-location: gdiplus\_gdiplus_CLASS_Pen_SetLineJoin_lineJoin_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\penclass\penmethods\setlinejoin.htm
-
 ms.date: 12/05/2018
 ms.keywords: Pen class [GDI+],SetLineJoin method, Pen.SetLineJoin, Pen::SetLineJoin, SetLineJoin, SetLineJoin method [GDI+], SetLineJoin method [GDI+],Pen class, _gdiplus_CLASS_Pen_SetLineJoin_lineJoin_, gdiplus._gdiplus_CLASS_Pen_SetLineJoin_lineJoin_
 ms.topic: method
-f1_keywords: 
- - "gdipluspen/Pen.SetLineJoin"
+f1_keywords:
+- gdipluspen/Pen.SetLineJoin
 dev_langs:
- - c++
+- c++
 req.header: gdipluspen.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - Pen.SetLineJoin
+- Pen.SetLineJoin
 targetos: Windows
 req.typenames: 
 req.redist: 

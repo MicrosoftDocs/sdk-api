@@ -1,19 +1,17 @@
 ---
 UID: NF:mfcaptureengine.IMFCaptureSource.SetCurrentDeviceMediaType
 title: IMFCaptureSource::SetCurrentDeviceMediaType (mfcaptureengine.h)
-
 description: Sets the output format for a capture stream.
 old-location: mf\imfcapturesource_setcurrentdevicemediatype.htm
 tech.root: medfound
 ms.assetid: 2B88BBAE-E837-4F4A-B697-64772F25C89D
-
 ms.date: 12/05/2018
 ms.keywords: IMFCaptureSource interface [Media Foundation],SetCurrentDeviceMediaType method, IMFCaptureSource.SetCurrentDeviceMediaType, IMFCaptureSource::SetCurrentDeviceMediaType, MF_CAPTURE_ENGINE_FIRST_SOURCE_AUDIO_STREAM, MF_CAPTURE_ENGINE_FIRST_SOURCE_PHOTO_STREAM, MF_CAPTURE_ENGINE_FIRST_SOURCE_VIDEO_STREAM, SetCurrentDeviceMediaType, SetCurrentDeviceMediaType method [Media Foundation], SetCurrentDeviceMediaType method [Media Foundation],IMFCaptureSource interface, mf.imfcapturesource_setcurrentdevicemediatype, mfcaptureengine/IMFCaptureSource::SetCurrentDeviceMediaType
 ms.topic: method
-f1_keywords: 
- - "mfcaptureengine/IMFCaptureSource.SetCurrentDeviceMediaType"
+f1_keywords:
+- mfcaptureengine/IMFCaptureSource.SetCurrentDeviceMediaType
 dev_langs:
- - c++
+- c++
 req.header: mfcaptureengine.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfcaptureengine.h
+- mfcaptureengine.h
 api_name:
- - IMFCaptureSource.SetCurrentDeviceMediaType
+- IMFCaptureSource.SetCurrentDeviceMediaType
 targetos: Windows
 req.typenames: 
 req.redist: 

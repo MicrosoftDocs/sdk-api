@@ -1,19 +1,17 @@
 ---
 UID: NF:wuapi.IUpdate.get_UninstallationSteps
 title: IUpdate::get_UninstallationSteps (wuapi.h)
-
 description: Gets an interface that contains the uninstallation steps for the update.
 old-location: wua\iupdate_uninstallationsteps.htm
 tech.root: Wua_Sdk
 ms.assetid: f112ce5b-9f94-4fdc-96d8-1f216e3729d0
-
 ms.date: 12/05/2018
 ms.keywords: IUpdate interface [Windows Update Agent],UninstallationSteps property, IUpdate.UninstallationSteps, IUpdate.get_UninstallationSteps, IUpdate::UninstallationSteps, IUpdate::get_UninstallationSteps, UninstallationSteps property [Windows Update Agent], UninstallationSteps property [Windows Update Agent],IUpdate interface, get_UninstallationSteps, wua.iupdate_uninstallationsteps, wuapi/IUpdate::UninstallationSteps, wuapi/IUpdate::get_UninstallationSteps
 ms.topic: method
-f1_keywords: 
- - "wuapi/IUpdate.UninstallationSteps"
+f1_keywords:
+- wuapi/IUpdate.UninstallationSteps
 dev_langs:
- - c++
+- c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Wuguid.lib
 req.dll: Wuapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wuapi.dll
+- Wuapi.dll
 api_name:
- - IUpdate.UninstallationSteps
- - IUpdate.get_UninstallationSteps
+- IUpdate.UninstallationSteps
+- IUpdate.get_UninstallationSteps
 targetos: Windows
 req.typenames: 
 req.redist: 

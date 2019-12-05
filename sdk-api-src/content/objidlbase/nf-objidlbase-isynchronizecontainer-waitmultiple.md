@@ -1,19 +1,17 @@
 ---
 UID: NF:objidlbase.ISynchronizeContainer.WaitMultiple
 title: ISynchronizeContainer::WaitMultiple (objidlbase.h)
-
 description: Waits for any synchronization object in the container to be signaled or for a specified timeout period to elapse, whichever comes first.
 old-location: com\isynchronizecontainer_waitmultiple.htm
 tech.root: com
 ms.assetid: 2754b744-3ba8-4e60-9847-1d0eb3c24180
-
 ms.date: 12/05/2018
 ms.keywords: ISynchronizeContainer interface [COM],WaitMultiple method, ISynchronizeContainer.WaitMultiple, ISynchronizeContainer::WaitMultiple, WaitMultiple, WaitMultiple method [COM], WaitMultiple method [COM],ISynchronizeContainer interface, _com_isynchronizecontainer_waitmultiple, com.isynchronizecontainer_waitmultiple, objidlbase/ISynchronizeContainer::WaitMultiple
 ms.topic: method
-f1_keywords: 
- - "objidlbase/ISynchronizeContainer.WaitMultiple"
+f1_keywords:
+- objidlbase/ISynchronizeContainer.WaitMultiple
 dev_langs:
- - c++
+- c++
 req.header: objidlbase.h
 req.include-header: ObjIdl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - objidlbase.h
+- objidlbase.h
 api_name:
- - ISynchronizeContainer.WaitMultiple
+- ISynchronizeContainer.WaitMultiple
 targetos: Windows
 req.typenames: 
 req.redist: 

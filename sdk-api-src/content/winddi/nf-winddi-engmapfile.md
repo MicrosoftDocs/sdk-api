@@ -1,19 +1,17 @@
 ---
 UID: NF:winddi.EngMapFile
 title: EngMapFile function (winddi.h)
-
 description: The EngMapFile function creates or opens a file and maps it into system space.
 old-location: display\engmapfile.htm
 tech.root: display
 ms.assetid: 6887f7e1-f94f-421c-be7a-14a41d621ce1
-
 ms.date: 12/05/2018
 ms.keywords: EngMapFile, EngMapFile function [Display Devices], display.engmapfile, gdifncs_efc9de46-c5dc-446b-9686-8cf868bfa1e9.xml, winddi/EngMapFile
 ms.topic: function
-f1_keywords: 
- - "winddi/EngMapFile"
+f1_keywords:
+- winddi/EngMapFile
 dev_langs:
- - c++
+- c++
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Universal
@@ -32,14 +30,14 @@ req.lib: Win32k.lib
 req.dll: Win32k.sys
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Win32k.sys
+- Win32k.sys
 api_name:
- - EngMapFile
+- EngMapFile
 targetos: Windows
 req.typenames: 
 req.redist: 

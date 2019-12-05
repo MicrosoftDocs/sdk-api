@@ -1,19 +1,17 @@
 ---
 UID: NF:windowsx.Button_SetText
 title: Button_SetText macro (windowsx.h)
-
 description: Sets the text of a button.
 old-location: controls\Button_SetText.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\buttons\buttonreference\buttonmacros\button_settext.htm
-
 ms.date: 12/05/2018
 ms.keywords: Button_SetText, Button_SetText macro [Windows Controls], _win32_Button_SetText, _win32_Button_SetText_cpp, controls.Button_SetText, controls._win32_Button_SetText, windowsx/Button_SetText
 ms.topic: macro
-f1_keywords: 
- - "windowsx/Button_SetText"
+f1_keywords:
+- windowsx/Button_SetText
 dev_langs:
- - c++
+- c++
 req.header: windowsx.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Windowsx.h
+- Windowsx.h
 api_name:
- - Button_SetText
+- Button_SetText
 targetos: Windows
 req.typenames: 
 req.redist: 

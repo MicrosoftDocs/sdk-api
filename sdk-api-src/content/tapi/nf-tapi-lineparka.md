@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi.lineParkA
 title: lineParkA function (tapi.h)
-
 description: The linePark function parks the specified call according to the specified park mode.
 old-location: tapi2\linepark.htm
 tech.root: Tapi
 ms.assetid: a6198229-a6db-43ef-9ef6-957429f270cc
-
 ms.date: 12/05/2018
-ms.keywords: "_tapi2_linepark, linePark, linePark function [TAPI 2.2], lineParkA, lineParkW, tapi/linePark, tapi/lineParkA, tapi/lineParkW, tapi2.linepark"
+ms.keywords: _tapi2_linepark, linePark, linePark function [TAPI 2.2], lineParkA, lineParkW, tapi/linePark, tapi/lineParkA, tapi/lineParkW, tapi2.linepark
 ms.topic: function
-f1_keywords: 
- - "tapi/linePark"
+f1_keywords:
+- tapi/linePark
 dev_langs:
- - c++
+- c++
 req.header: tapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Tapi32.lib
 req.dll: Tapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Tapi32.dll
+- Tapi32.dll
 api_name:
- - linePark
- - lineParkA
- - lineParkW
+- linePark
+- lineParkA
+- lineParkW
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NS:dxva2api._DXVA2_AYUVSample16
 title: DXVA2_AYUVSample16 (dxva2api.h)
-
 description: Defines a 16-bit AYUV pixel value.
 old-location: mf\dxva2_ayuvsample16.htm
 tech.root: medfound
 ms.assetid: 3e25182a-fd5d-437c-9441-44094a3450cb
-
 ms.date: 12/05/2018
 ms.keywords: 3e25182a-fd5d-437c-9441-44094a3450cb, DXVA2_AYUVSample16, DXVA2_AYUVSample16 structure [Media Foundation], dxva2api/DXVA2_AYUVSample16, mf.dxva2_ayuvsample16
 ms.topic: struct
 f1_keywords:
 - dxva2api/DXVA2_AYUVSample16
 dev_langs:
- - c++
+- c++
 req.header: dxva2api.h
 req.include-header: 
 req.target-type: Windows

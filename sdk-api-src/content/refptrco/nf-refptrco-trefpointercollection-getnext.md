@@ -1,19 +1,17 @@
 ---
 UID: NF:refptrco.TRefPointerCollection.GetNext
 title: TRefPointerCollection::GetNext (refptrco.h)
-
 description: The GetNext method gets a pointer to the next instance in the collection.
 old-location: wmi\trefpointercollection_getnext.htm
 tech.root: WmiSdk
 ms.assetid: c0dfb2c7-71f6-4870-8018-145e890d4928
-
 ms.date: 12/05/2018
 ms.keywords: GetNext, GetNext method [Windows Management Instrumentation], GetNext method [Windows Management Instrumentation],TRefPointerCollection interface, TRefPointerCollection interface [Windows Management Instrumentation],GetNext method, TRefPointerCollection.GetNext, TRefPointerCollection::GetNext, _hmm_trefpointercollection_getnext, refptrco/TRefPointerCollection::GetNext, wmi.trefpointercollection_getnext
 ms.topic: method
-f1_keywords: 
- - "refptrco/TRefPointerCollection.GetNext"
+f1_keywords:
+- refptrco/TRefPointerCollection.GetNext
 dev_langs:
- - c++
+- c++
 req.header: refptrco.h
 req.include-header: FwCommon.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: FrameDyn.lib
 req.dll: FrameDynOS.dll; FrameDyn.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - FrameDynOS.dll
- - FrameDyn.dll
+- FrameDynOS.dll
+- FrameDyn.dll
 api_name:
- - TRefPointerCollection.GetNext
+- TRefPointerCollection.GetNext
 targetos: Windows
 req.typenames: 
 req.redist: 

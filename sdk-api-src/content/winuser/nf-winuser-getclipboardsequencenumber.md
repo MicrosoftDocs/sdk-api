@@ -1,19 +1,17 @@
 ---
 UID: NF:winuser.GetClipboardSequenceNumber
 title: GetClipboardSequenceNumber function (winuser.h)
-
 description: Retrieves the clipboard sequence number for the current window station.
 old-location: dataxchg\getclipboardsequencenumber.htm
 tech.root: dataxchg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\dataexchange\clipboard\clipboardreference\clipboardfunctions\getclipboardsequencenumber.htm
-
 ms.date: 12/05/2018
 ms.keywords: GetClipboardSequenceNumber, GetClipboardSequenceNumber function [Data Exchange], _win32_GetClipboardSequenceNumber, _win32_getclipboardsequencenumber_cpp, dataxchg.getclipboardsequencenumber, winui._win32_getclipboardsequencenumber, winuser/GetClipboardSequenceNumber
 ms.topic: function
-f1_keywords: 
- - "winuser/GetClipboardSequenceNumber"
+f1_keywords:
+- winuser/GetClipboardSequenceNumber
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - User32.dll
- - Ext-MS-Win-NTUser-Misc-L1-5-1.dll
+- User32.dll
+- Ext-MS-Win-NTUser-Misc-L1-5-1.dll
 api_name:
- - GetClipboardSequenceNumber
+- GetClipboardSequenceNumber
 targetos: Windows
 req.typenames: 
 req.redist: 

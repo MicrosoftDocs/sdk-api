@@ -1,19 +1,17 @@
 ---
 UID: NS:winnt._TOKEN_APPCONTAINER_INFORMATION
 title: TOKEN_APPCONTAINER_INFORMATION (winnt.h)
-
 description: Specifies all the information in a token that is necessary for an app container.
 old-location: security\token_appcontainer_information.htm
 tech.root: SecAuthZ
 ms.assetid: 6038C7E9-AED6-49D2-8D96-907E973A64B1
-
 ms.date: 12/05/2018
-ms.keywords: "*PTOKEN_APPCONTAINER_INFORMATION, PTOKEN_APPCONTAINER_INFORMATION, PTOKEN_APPCONTAINER_INFORMATION structure pointer [Security], TOKEN_APPCONTAINER_INFORMATION, TOKEN_APPCONTAINER_INFORMATION structure [Security], _TOKEN_APPCONTAINER_INFORMATION, security.token_appcontainer_information, winnt/PTOKEN_APPCONTAINER_INFORMATION, winnt/TOKEN_APPCONTAINER_INFORMATION"
+ms.keywords: '*PTOKEN_APPCONTAINER_INFORMATION, PTOKEN_APPCONTAINER_INFORMATION, PTOKEN_APPCONTAINER_INFORMATION structure pointer [Security], TOKEN_APPCONTAINER_INFORMATION, TOKEN_APPCONTAINER_INFORMATION structure [Security], _TOKEN_APPCONTAINER_INFORMATION, security.token_appcontainer_information, winnt/PTOKEN_APPCONTAINER_INFORMATION, winnt/TOKEN_APPCONTAINER_INFORMATION'
 ms.topic: struct
-f1_keywords: 
- - "winnt/TOKEN_APPCONTAINER_INFORMATION"
+f1_keywords:
+- winnt/TOKEN_APPCONTAINER_INFORMATION
 dev_langs:
- - c++
+- c++
 req.header: winnt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Winnt.h
+- Winnt.h
 api_name:
- - TOKEN_APPCONTAINER_INFORMATION
+- TOKEN_APPCONTAINER_INFORMATION
 targetos: Windows
 req.typenames: TOKEN_APPCONTAINER_INFORMATION, *PTOKEN_APPCONTAINER_INFORMATION
 req.redist: 

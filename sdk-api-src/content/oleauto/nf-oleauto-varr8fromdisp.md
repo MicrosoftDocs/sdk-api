@@ -1,19 +1,17 @@
 ---
 UID: NF:oleauto.VarR8FromDisp
 title: VarR8FromDisp function (oleauto.h)
-
 description: Converts the default property of an IDispatch instance to a double value.
 old-location: automat\varr8fromdisp.htm
 tech.root: automat
 ms.assetid: d342ef5a-eb5f-431a-9ea2-f6361836c92e
-
 ms.date: 12/05/2018
 ms.keywords: VarR8FromDisp, VarR8FromDisp function [Automation], _oa96_VarR8FromDisp, automat.varr8fromdisp, oleauto/VarR8FromDisp
 ms.topic: function
-f1_keywords: 
- - "oleauto/VarR8FromDisp"
+f1_keywords:
+- oleauto/VarR8FromDisp
 dev_langs:
- - c++
+- c++
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: OleAut32.lib
 req.dll: OleAut32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - OleAut32.dll
+- OleAut32.dll
 api_name:
- - VarR8FromDisp
+- VarR8FromDisp
 targetos: Windows
 req.typenames: 
 req.redist: 

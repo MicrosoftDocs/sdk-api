@@ -1,19 +1,17 @@
 ---
 UID: NF:vidcap.IVideoProcAmp.get_Gamma
 title: IVideoProcAmp::get_Gamma (vidcap.h)
-
 description: The get_Gamma method returns the camera's gamma setting.
 old-location: dshow\ivideoprocamp_get_gamma.htm
 tech.root: DirectShow
 ms.assetid: a8d62862-5509-4401-affe-68dfa96ae60f
-
 ms.date: 12/05/2018
 ms.keywords: IVideoProcAmp interface [DirectShow],get_Gamma method, IVideoProcAmp.get_Gamma, IVideoProcAmp::get_Gamma, IVideoProcAmpget_Gamma, dshow.ivideoprocamp_get_gamma, get_Gamma, get_Gamma method [DirectShow], get_Gamma method [DirectShow],IVideoProcAmp interface, vidcap/IVideoProcAmp::get_Gamma
 ms.topic: method
-f1_keywords: 
- - "vidcap/IVideoProcAmp.get_Gamma"
+f1_keywords:
+- vidcap/IVideoProcAmp.get_Gamma
 dev_langs:
- - c++
+- c++
 req.header: vidcap.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Vidcap.h
+- Vidcap.h
 api_name:
- - IVideoProcAmp.get_Gamma
+- IVideoProcAmp.get_Gamma
 targetos: Windows
 req.typenames: 
 req.redist: 

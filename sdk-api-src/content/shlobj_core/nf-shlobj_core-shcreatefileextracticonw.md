@@ -1,19 +1,17 @@
 ---
 UID: NF:shlobj_core.SHCreateFileExtractIconW
 title: SHCreateFileExtractIconW function (shlobj_core.h)
-
 description: SHCreateFileExtractIcon may be altered or unavailable.
 old-location: shell\SHCreateFileExtractIcon.htm
 tech.root: shell
 ms.assetid: af3beb0a-892b-43e5-b5b8-8005f497b6e5
-
 ms.date: 12/05/2018
 ms.keywords: SHCreateFileExtractIcon, SHCreateFileExtractIcon function [Windows Shell], SHCreateFileExtractIconW, _win32_SHCreateFileExtractIcon, shell.SHCreateFileExtractIcon, shlobj_core/SHCreateFileExtractIcon, shlobj_core/SHCreateFileExtractIconW
 ms.topic: function
-f1_keywords: 
- - "shlobj_core/SHCreateFileExtractIcon"
+f1_keywords:
+- shlobj_core/SHCreateFileExtractIcon
 dev_langs:
- - c++
+- c++
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Shell32.lib
 req.dll: Shell32.dll (version 5.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - SHCreateFileExtractIcon
- - SHCreateFileExtractIconW
+- SHCreateFileExtractIcon
+- SHCreateFileExtractIconW
 targetos: Windows
 req.typenames: 
 req.redist: 

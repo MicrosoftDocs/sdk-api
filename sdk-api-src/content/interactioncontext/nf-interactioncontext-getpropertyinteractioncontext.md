@@ -1,19 +1,17 @@
 ---
 UID: NF:interactioncontext.GetPropertyInteractionContext
 title: GetPropertyInteractionContext function (interactioncontext.h)
-
 description: Gets Interaction Context object properties.
 old-location: input_intcontext\getpropertyinteractioncontext.htm
 tech.root: Input_IntContext
 ms.assetid: c54a3632-aa7a-416b-b9ed-5ad552403985
-
 ms.date: 12/05/2018
 ms.keywords: GetPropertyInteractionContext, GetPropertyInteractionContext function, INTERACTION_CONTEXT_PROPERTY_FILTER_POINTERS_OFF, INTERACTION_CONTEXT_PROPERTY_FILTER_POINTERS_ON, INTERACTION_CONTEXT_PROPERTY_MEASUREMENT_UNITS_HIMETRIC, INTERACTION_CONTEXT_PROPERTY_MEASUREMENT_UNITS_SCREEN, INTERACTION_CONTEXT_PROPERTY_UI_FEEDBACK_OFF, INTERACTION_CONTEXT_PROPERTY_UI_FEEDBACK_ON, input_intcontext.getpropertyinteractioncontext, interactioncontext.getpropertyinteractioncontext, interactioncontext/GetPropertyInteractionContext
 ms.topic: function
-f1_keywords: 
- - "interactioncontext/GetPropertyInteractionContext"
+f1_keywords:
+- interactioncontext/GetPropertyInteractionContext
 dev_langs:
- - c++
+- c++
 req.header: interactioncontext.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Ninput.lib
 req.dll: Ninput.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - ninput.dll
- - API-MS-Win-Input-IE-InteractionContext-l1-1-0.dll
- - IE_Shims.dll
+- ninput.dll
+- API-MS-Win-Input-IE-InteractionContext-l1-1-0.dll
+- IE_Shims.dll
 api_name:
- - GetPropertyInteractionContext
+- GetPropertyInteractionContext
 targetos: Windows
 req.typenames: 
 req.redist: 

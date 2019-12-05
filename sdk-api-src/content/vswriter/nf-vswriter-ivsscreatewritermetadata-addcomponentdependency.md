@@ -1,19 +1,17 @@
 ---
 UID: NF:vswriter.IVssCreateWriterMetadata.AddComponentDependency
 title: IVssCreateWriterMetadata::AddComponentDependency (vswriter.h)
-
 description: The AddComponentDependency method allows a writer to indicate that a component it manages has an explicit writer-component dependency; that is, another component in another writer must be backed up and restored with it.
 old-location: base\ivsscreatewritermetadata_addcomponentdependency.htm
 tech.root: VSS
 ms.assetid: cc6c8ab6-3706-4c75-ba31-cc8c1dc4dd06
-
 ms.date: 12/05/2018
 ms.keywords: AddComponentDependency, AddComponentDependency method [VSS], AddComponentDependency method [VSS],IVssCreateWriterMetadata interface, IVssCreateWriterMetadata interface [VSS],AddComponentDependency method, IVssCreateWriterMetadata.AddComponentDependency, IVssCreateWriterMetadata::AddComponentDependency, _win32_ivsscreatewritermetadata_addcomponentdependency, base.ivsscreatewritermetadata_addcomponentdependency, vswriter/IVssCreateWriterMetadata::AddComponentDependency
 ms.topic: method
-f1_keywords: 
- - "vswriter/IVssCreateWriterMetadata.AddComponentDependency"
+f1_keywords:
+- vswriter/IVssCreateWriterMetadata.AddComponentDependency
 dev_langs:
- - c++
+- c++
 req.header: vswriter.h
 req.include-header: Vss.h, VsWriter.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: VssApi.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - VssApi.lib
- - VssApi.dll
+- VssApi.lib
+- VssApi.dll
 api_name:
- - IVssCreateWriterMetadata.AddComponentDependency
+- IVssCreateWriterMetadata.AddComponentDependency
 targetos: Windows
 req.typenames: 
 req.redist: 

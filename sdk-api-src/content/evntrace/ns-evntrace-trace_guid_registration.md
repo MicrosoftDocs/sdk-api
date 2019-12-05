@@ -1,19 +1,17 @@
 ---
 UID: NS:evntrace._TRACE_GUID_REGISTRATION
 title: TRACE_GUID_REGISTRATION (evntrace.h)
-
 description: The TRACE_GUID_REGISTRATION structure is used to register event trace classes.
 old-location: etw\trace_guid_registration.htm
 tech.root: ETW
 ms.assetid: fc7b61fb-ef1c-48ec-8523-5f3114b5407a
-
 ms.date: 12/05/2018
-ms.keywords: "*PTRACE_GUID_REGISTRATION, TRACE_GUID_REGISTRATION, TRACE_GUID_REGISTRATION structure [ETW], _TRACE_GUID_REGISTRATION, _evt_trace_guid_registration, base.trace_guid_registration, etw.trace_guid_registration, evntrace/TRACE_GUID_REGISTRATION"
+ms.keywords: '*PTRACE_GUID_REGISTRATION, TRACE_GUID_REGISTRATION, TRACE_GUID_REGISTRATION structure [ETW], _TRACE_GUID_REGISTRATION, _evt_trace_guid_registration, base.trace_guid_registration, etw.trace_guid_registration, evntrace/TRACE_GUID_REGISTRATION'
 ms.topic: struct
-f1_keywords: 
- - "evntrace/TRACE_GUID_REGISTRATION"
+f1_keywords:
+- evntrace/TRACE_GUID_REGISTRATION
 dev_langs:
- - c++
+- c++
 req.header: evntrace.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Evntrace.h
+- Evntrace.h
 api_name:
- - TRACE_GUID_REGISTRATION
+- TRACE_GUID_REGISTRATION
 targetos: Windows
 req.typenames: TRACE_GUID_REGISTRATION, *PTRACE_GUID_REGISTRATION
 req.redist: 

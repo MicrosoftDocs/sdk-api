@@ -1,19 +1,17 @@
 ---
 UID: NF:oleidl.IOleAdviseHolder.SendOnRename
 title: IOleAdviseHolder::SendOnRename (oleidl.h)
-
 description: Sends notification to all advisory sinks currently registered with the advise holder that the name of object has changed.
 old-location: com\ioleadviseholder_sendonrename.htm
 tech.root: com
 ms.assetid: 64e44cab-b618-49af-bf0e-966b9eaa198a
-
 ms.date: 12/05/2018
 ms.keywords: IOleAdviseHolder interface [COM],SendOnRename method, IOleAdviseHolder.SendOnRename, IOleAdviseHolder::SendOnRename, SendOnRename, SendOnRename method [COM], SendOnRename method [COM],IOleAdviseHolder interface, _ole_ioleadviseholder_sendonrename, com.ioleadviseholder_sendonrename, oleidl/IOleAdviseHolder::SendOnRename
 ms.topic: method
-f1_keywords: 
- - "oleidl/IOleAdviseHolder.SendOnRename"
+f1_keywords:
+- oleidl/IOleAdviseHolder.SendOnRename
 dev_langs:
- - c++
+- c++
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - OleIdl.h
+- OleIdl.h
 api_name:
- - IOleAdviseHolder.SendOnRename
+- IOleAdviseHolder.SendOnRename
 targetos: Windows
 req.typenames: 
 req.redist: 

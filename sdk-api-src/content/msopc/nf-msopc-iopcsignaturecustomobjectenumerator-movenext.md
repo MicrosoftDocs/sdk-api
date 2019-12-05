@@ -1,19 +1,17 @@
 ---
 UID: NF:msopc.IOpcSignatureCustomObjectEnumerator.MoveNext
 title: IOpcSignatureCustomObjectEnumerator::MoveNext (msopc.h)
-
 description: Moves the current position of the enumerator to the next IOpcSignatureCustomObject interface pointer.
 old-location: opc\iopcsignaturecustomobjectenumerator_movenext.htm
 tech.root: OPC
 ms.assetid: 8b74d1e3-0a57-407c-bf05-f17aa84923e5
-
 ms.date: 12/05/2018
 ms.keywords: IOpcSignatureCustomObjectEnumerator interface [Open Packaging Conventions],MoveNext method, IOpcSignatureCustomObjectEnumerator.MoveNext, IOpcSignatureCustomObjectEnumerator::MoveNext, MoveNext, MoveNext method [Open Packaging Conventions], MoveNext method [Open Packaging Conventions],IOpcSignatureCustomObjectEnumerator interface, msopc/IOpcSignatureCustomObjectEnumerator::MoveNext, opc.iopcsignaturecustomobjectenumerator_movenext
 ms.topic: method
-f1_keywords: 
- - "msopc/IOpcSignatureCustomObjectEnumerator.MoveNext"
+f1_keywords:
+- msopc/IOpcSignatureCustomObjectEnumerator.MoveNext
 dev_langs:
- - c++
+- c++
 req.header: msopc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msopc.h
+- msopc.h
 api_name:
- - IOpcSignatureCustomObjectEnumerator.MoveNext
+- IOpcSignatureCustomObjectEnumerator.MoveNext
 targetos: Windows
 req.typenames: 
 req.redist: 

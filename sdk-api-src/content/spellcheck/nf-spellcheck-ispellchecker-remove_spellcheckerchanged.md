@@ -1,19 +1,17 @@
 ---
 UID: NF:spellcheck.ISpellChecker.remove_SpellCheckerChanged
 title: ISpellChecker::remove_SpellCheckerChanged (spellcheck.h)
-
 description: Removes an event handler (ISpellCheckerChangedEventHandler) that has been added for the SpellCheckerChanged event.
 old-location: intl\ispellchecker_remove_spellcheckerchanged.htm
 tech.root: Intl
 ms.assetid: 66f62590-2d86-4747-a9e8-ea02f26eeb4d
-
 ms.date: 12/05/2018
 ms.keywords: ISpellChecker interface [Internationalization for Windows Applications],remove_SpellCheckerChanged method, ISpellChecker.remove_SpellCheckerChanged, ISpellChecker::remove_SpellCheckerChanged, intl.ispellchecker_remove_spellcheckerchanged, remove_SpellCheckerChanged, remove_SpellCheckerChanged method [Internationalization for Windows Applications], remove_SpellCheckerChanged method [Internationalization for Windows Applications],ISpellChecker interface, spellcheck/ISpellChecker::remove_SpellCheckerChanged
 ms.topic: method
-f1_keywords: 
- - "spellcheck/ISpellChecker.remove_SpellCheckerChanged"
+f1_keywords:
+- spellcheck/ISpellChecker.remove_SpellCheckerChanged
 dev_langs:
- - c++
+- c++
 req.header: spellcheck.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Spellcheck.h
+- Spellcheck.h
 api_name:
- - ISpellChecker.remove_SpellCheckerChanged
+- ISpellChecker.remove_SpellCheckerChanged
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NS:d2d1effectauthor.D2D1_VERTEX_BUFFER_PROPERTIES
 title: D2D1_VERTEX_BUFFER_PROPERTIES (d2d1effectauthor.h)
-
 description: Defines the properties of a vertex buffer that are standard for all vertex shader definitions.
 old-location: direct2d\d2d1_vertex_buffer_properties.htm
 tech.root: Direct2D
 ms.assetid: d2f46c31-10f3-4318-8185-40a6bbd8ef8a
-
 ms.date: 12/05/2018
 ms.keywords: D2D1_VERTEX_BUFFER_PROPERTIES, D2D1_VERTEX_BUFFER_PROPERTIES structure [Direct2D], d2d1effectauthor/D2D1_VERTEX_BUFFER_PROPERTIES, direct2d.d2d1_vertex_buffer_properties
 ms.topic: struct
-f1_keywords: 
- - "d2d1effectauthor/D2D1_VERTEX_BUFFER_PROPERTIES"
+f1_keywords:
+- d2d1effectauthor/D2D1_VERTEX_BUFFER_PROPERTIES
 dev_langs:
- - c++
+- c++
 req.header: d2d1effectauthor.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - LibDef
+- LibDef
 api_location:
- - D2d1.lib
- - D2d1.dll
+- D2d1.lib
+- D2d1.dll
 api_name:
- - D2D1_VERTEX_BUFFER_PROPERTIES
+- D2D1_VERTEX_BUFFER_PROPERTIES
 targetos: Windows
 req.typenames: D2D1_VERTEX_BUFFER_PROPERTIES
 req.redist: 

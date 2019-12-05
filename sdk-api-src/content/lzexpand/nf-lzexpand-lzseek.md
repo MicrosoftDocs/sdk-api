@@ -1,19 +1,17 @@
 ---
 UID: NF:lzexpand.LZSeek
 title: LZSeek function (lzexpand.h)
-
 description: Moves a file pointer the specified number of bytes from a starting position.
 old-location: fs\lzseek.htm
 tech.root: FileIO
 ms.assetid: eb3d8546-6280-4e4b-8ca4-3697b9339d86
-
 ms.date: 12/05/2018
 ms.keywords: LZSeek, LZSeek function [Files], _win32_lzseek, base.lzseek, fs.lzseek, lzexpand/LZSeek
 ms.topic: function
-f1_keywords: 
- - "lzexpand/LZSeek"
+f1_keywords:
+- lzexpand/LZSeek
 dev_langs:
- - c++
+- c++
 req.header: lzexpand.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Lz32.lib
 req.dll: Lz32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Lz32.dll
+- Lz32.dll
 api_name:
- - LZSeek
+- LZSeek
 targetos: Windows
 req.typenames: 
 req.redist: 

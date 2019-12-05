@@ -1,19 +1,17 @@
 ---
 UID: NF:directxpackedvector.XMLoadUNibble4
 title: XMLoadUNibble4 function (directxpackedvector.h)
-
 description: Loads an XMUNIBBLE4 into an XMVECTOR.
 old-location: dxmath\xmloadunibble4.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.loading.XMLoadUNibble4(const XMUNIBBLE4)
-
 ms.date: 12/05/2018
 ms.keywords: DirectX::PackedVector.XMLoadUNibble4, XMLoadUNibble4, XMLoadUNibble4 method [DirectX Math Support APIs], dxmath.xmloadunibble4
 ms.topic: function
-f1_keywords: 
- - "directxpackedvector/XMLoadUNibble4"
+f1_keywords:
+- directxpackedvector/XMLoadUNibble4
 dev_langs:
- - c++
+- c++
 req.header: directxpackedvector.h
 req.include-header: DirectXPackedVector.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - directxpackedvector.inl
+- directxpackedvector.inl
 api_name:
- - XMLoadUNibble4
+- XMLoadUNibble4
 targetos: Windows
 req.typenames: 
 req.redist: 

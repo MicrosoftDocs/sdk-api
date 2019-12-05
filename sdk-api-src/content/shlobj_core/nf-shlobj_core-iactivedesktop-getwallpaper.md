@@ -1,19 +1,17 @@
 ---
 UID: NF:shlobj_core.IActiveDesktop.GetWallpaper
 title: IActiveDesktop::GetWallpaper (shlobj_core.h)
-
 description: Gets the current wallpaper.
 old-location: lwef\iactivedesktop_getwallpaper.htm
 tech.root: lwef
 ms.assetid: b56cf857-5f3c-47f0-a1c2-e578c44c971b
-
 ms.date: 12/05/2018
 ms.keywords: AD_GETWP_BMP, AD_GETWP_IMAGE, AD_GETWP_LAST_APPLIED, GetWallpaper, GetWallpaper method [Legacy Windows Environment Features], GetWallpaper method [Legacy Windows Environment Features],IActiveDesktop interface, IActiveDesktop interface [Legacy Windows Environment Features],GetWallpaper method, IActiveDesktop.GetWallpaper, IActiveDesktop::GetWallpaper, _win32_IActiveDesktop_GetWallpaper, lwef.iactivedesktop_getwallpaper, shell.iactivedesktop_getwallpaper, shlobj_core/IActiveDesktop::GetWallpaper
 ms.topic: method
-f1_keywords: 
- - "shlobj_core/IActiveDesktop.GetWallpaper"
+f1_keywords:
+- shlobj_core/IActiveDesktop.GetWallpaper
 dev_langs:
- - c++
+- c++
 req.header: shlobj_core.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Shell32.dll (version 4.71 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - IActiveDesktop.GetWallpaper
+- IActiveDesktop.GetWallpaper
 targetos: Windows
 req.typenames: 
 req.redist: 

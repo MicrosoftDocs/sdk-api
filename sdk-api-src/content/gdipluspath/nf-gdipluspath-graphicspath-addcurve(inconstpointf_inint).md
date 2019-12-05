@@ -3,14 +3,13 @@ UID: NF:gdipluspath.GraphicsPath.AddCurve(IN const PointF,IN INT)
 title: GraphicsPath::AddCurve
 description: The GraphicsPath::AddCurve method adds a cardinal spline to the current figure of this path.
 ms.assetid: bcd96b35-e6f5-42c6-8e08-185aad503453
-
 ms.date: 05/13/2019
 ms.keywords: GraphicsPath::AddCurve
 ms.topic: language-reference
-f1_keywords: 
- - "gdipluspath/GraphicsPath::AddCurve"
+f1_keywords:
+- gdipluspath/GraphicsPath::AddCurve
 dev_langs:
- - c++
+- c++
 targetos: Windows
 req.assembly: 
 req.construct-type: function
@@ -32,13 +31,13 @@ req.type-library:
 req.umdf-ver: 
 req.unicode-ansi: 
 topic_type:
- - apiref
+- apiref
 api_type:
- - COM
+- COM
 api_location:
- - gdipluspath.h
+- gdipluspath.h
 api_name:
- - GraphicsPath::AddCurve
+- GraphicsPath::AddCurve
 ---
 
 # GraphicsPath::AddCurve

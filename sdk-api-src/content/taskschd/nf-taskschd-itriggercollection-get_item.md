@@ -1,19 +1,17 @@
 ---
 UID: NF:taskschd.ITriggerCollection.get_Item
 title: ITriggerCollection::get_Item (taskschd.h)
-
 description: Gets the specified trigger from the collection.
 old-location: taskschd\itriggercollection_item.htm
 tech.root: taskschd
 ms.assetid: 007e5792-bb91-435f-abe9-27366e6ec58a
-
 ms.date: 12/05/2018
 ms.keywords: ITriggerCollection interface [Task Scheduler],Item property, ITriggerCollection.Item, ITriggerCollection.get_Item, ITriggerCollection::Item, ITriggerCollection::get_Item, Item property [Task Scheduler], Item property [Task Scheduler],ITriggerCollection interface, get_Item, taskschd.itriggercollection_item, taskschd/ITriggerCollection::Item, taskschd/ITriggerCollection::get_Item
 ms.topic: method
-f1_keywords: 
- - "taskschd/ITriggerCollection.Item"
+f1_keywords:
+- taskschd/ITriggerCollection.Item
 dev_langs:
- - c++
+- c++
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Taskschd.lib
 req.dll: Taskschd.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - taskschd.dll
+- taskschd.dll
 api_name:
- - ITriggerCollection.Item
- - ITriggerCollection.get_Item
+- ITriggerCollection.Item
+- ITriggerCollection.get_Item
 targetos: Windows
 req.typenames: 
 req.redist: 

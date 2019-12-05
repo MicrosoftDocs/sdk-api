@@ -1,19 +1,17 @@
 ---
 UID: NF:wcndevice.IWCNDevice.GetIntegerAttribute
 title: IWCNDevice::GetIntegerAttribute (wcndevice.h)
-
 description: The GetIntegerAttribute method gets a cached attribute from the device as an integer.
 old-location: wcn\iwcndevice_getintegerattribute.htm
 tech.root: wcn
 ms.assetid: 95ad3427-c8c9-4ac9-8c8e-c9bedf855a37
-
 ms.date: 12/05/2018
 ms.keywords: GetIntegerAttribute, GetIntegerAttribute method [Windows Connect Now], GetIntegerAttribute method [Windows Connect Now],IWCNDevice interface, IWCNDevice interface [Windows Connect Now],GetIntegerAttribute method, IWCNDevice.GetIntegerAttribute, IWCNDevice::GetIntegerAttribute, wcn.iwcndevice_getintegerattribute, wcndevice/IWCNDevice::GetIntegerAttribute
 ms.topic: method
-f1_keywords: 
- - "wcndevice/IWCNDevice.GetIntegerAttribute"
+f1_keywords:
+- wcndevice/IWCNDevice.GetIntegerAttribute
 dev_langs:
- - c++
+- c++
 req.header: wcndevice.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - WcnDevice.h
+- WcnDevice.h
 api_name:
- - IWCNDevice.GetIntegerAttribute
+- IWCNDevice.GetIntegerAttribute
 targetos: Windows
 req.typenames: 
 req.redist: 

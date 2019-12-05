@@ -1,19 +1,17 @@
 ---
 UID: NF:comsvcs.IGetAppTrackerData.GetApplicationsInProcess
 title: IGetAppTrackerData::GetApplicationsInProcess (comsvcs.h)
-
 description: Retrieves summary information for all COM+ applications hosted in a single process, or for a specified subset of these applications.
 old-location: cos\igetapptrackerdata_getapplicationsinprocess.htm
 tech.root: cossdk
 ms.assetid: c193a00f-9899-4c26-9357-22603bb195d1
-
 ms.date: 12/05/2018
 ms.keywords: GetApplicationsInProcess, GetApplicationsInProcess method [COM+], GetApplicationsInProcess method [COM+],IGetAppTrackerData interface, IGetAppTrackerData interface [COM+],GetApplicationsInProcess method, IGetAppTrackerData.GetApplicationsInProcess, IGetAppTrackerData::GetApplicationsInProcess, comsvcs/IGetAppTrackerData::GetApplicationsInProcess, cos.igetapptrackerdata_getapplicationsinprocess
 ms.topic: method
 f1_keywords:
 - comsvcs/IGetAppTrackerData.GetApplicationsInProcess
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

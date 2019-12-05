@@ -1,19 +1,17 @@
 ---
 UID: NF:memoryapi.SetSystemFileCacheSize
 title: SetSystemFileCacheSize function (memoryapi.h)
-
 description: Limits the size of the working set for the file system cache.
 old-location: base\setsystemfilecachesize.htm
 tech.root: Memory
 ms.assetid: bb0a65d6-d04a-4805-80d5-61fc53eb2726
-
 ms.date: 12/05/2018
 ms.keywords: FILE_CACHE_MAX_HARD_DISABLE, FILE_CACHE_MAX_HARD_ENABLE, FILE_CACHE_MIN_HARD_DISABLE, FILE_CACHE_MIN_HARD_ENABLE, SetSystemFileCacheSize, SetSystemFileCacheSize function, base.setsystemfilecachesize, winbase/SetSystemFileCacheSize
 ms.topic: function
-f1_keywords: 
- - "memoryapi/SetSystemFileCacheSize"
+f1_keywords:
+- memoryapi/SetSystemFileCacheSize
 dev_langs:
- - c++
+- c++
 req.header: memoryapi.h
 req.include-header: Windows.h, Memoryapi.h
 req.target-type: Windows
@@ -32,21 +30,21 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-memory-l1-1-1.dll
- - KernelBase.dll
- - API-MS-Win-Core-memory-l1-1-2.dll
- - API-MS-Win-Core-memory-l1-1-3.dll
- - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
- - MinKernelBase.dll
- - API-MS-Win-Core-Memory-L1-1-4.dll
+- Kernel32.dll
+- API-MS-Win-Core-memory-l1-1-1.dll
+- KernelBase.dll
+- API-MS-Win-Core-memory-l1-1-2.dll
+- API-MS-Win-Core-memory-l1-1-3.dll
+- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+- MinKernelBase.dll
+- API-MS-Win-Core-Memory-L1-1-4.dll
 api_name:
- - SetSystemFileCacheSize
+- SetSystemFileCacheSize
 targetos: Windows
 req.typenames: 
 req.redist: 

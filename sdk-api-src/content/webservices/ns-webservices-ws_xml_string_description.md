@@ -1,19 +1,17 @@
 ---
 UID: NS:webservices._WS_XML_STRING_DESCRIPTION
 title: WS_XML_STRING_DESCRIPTION (webservices.h)
-
 description: This type description is used with WS_XML_STRING_TYPE and is optional. It is used to specify constraints on the set of values which can be deserialized.
 old-location: wsw\ws_xml_string_description.htm
 tech.root: wsw
 ms.assetid: 5b3c28ed-ed2c-4d65-a641-a653eddd021e
-
 ms.date: 12/05/2018
 ms.keywords: WS_XML_STRING_DESCRIPTION, WS_XML_STRING_DESCRIPTION structure [Web Services for Windows], webservices/WS_XML_STRING_DESCRIPTION, wsw.ws_xml_string_description
 ms.topic: struct
-f1_keywords: 
- - "webservices/WS_XML_STRING_DESCRIPTION"
+f1_keywords:
+- webservices/WS_XML_STRING_DESCRIPTION
 dev_langs:
- - c++
+- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WebServices.h
+- WebServices.h
 api_name:
- - WS_XML_STRING_DESCRIPTION
+- WS_XML_STRING_DESCRIPTION
 targetos: Windows
 req.typenames: WS_XML_STRING_DESCRIPTION
 req.redist: 

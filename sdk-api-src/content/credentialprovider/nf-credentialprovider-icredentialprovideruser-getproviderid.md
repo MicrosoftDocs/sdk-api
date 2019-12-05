@@ -1,19 +1,17 @@
 ---
 UID: NF:credentialprovider.ICredentialProviderUser.GetProviderID
 title: ICredentialProviderUser::GetProviderID (credentialprovider.h)
-
 description: Retrieves the ID of the account provider for this user.
 old-location: shell\ICredentialProviderUser_GetProviderID.htm
 tech.root: shell
 ms.assetid: 7BD6C532-0266-4579-96FA-91D0AF7E6C4C
-
 ms.date: 12/05/2018
 ms.keywords: GetProviderID, GetProviderID method [Windows Shell], GetProviderID method [Windows Shell],ICredentialProviderUser interface, ICredentialProviderUser interface [Windows Shell],GetProviderID method, ICredentialProviderUser.GetProviderID, ICredentialProviderUser::GetProviderID, credentialprovider/ICredentialProviderUser::GetProviderID, shell.ICredentialProviderUser_GetProviderID
 ms.topic: method
-f1_keywords: 
- - "credentialprovider/ICredentialProviderUser.GetProviderID"
+f1_keywords:
+- credentialprovider/ICredentialProviderUser.GetProviderID
 dev_langs:
- - c++
+- c++
 req.header: credentialprovider.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: CredentialProvider.lib
 req.dll: Authui.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Authui.dll
+- Authui.dll
 api_name:
- - ICredentialProviderUser.GetProviderID
+- ICredentialProviderUser.GetProviderID
 targetos: Windows
 req.typenames: 
 req.redist: 

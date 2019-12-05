@@ -1,19 +1,17 @@
 ---
 UID: NF:d2d1.D2D1MakeRotateMatrix
 title: D2D1MakeRotateMatrix function (d2d1.h)
-
 description: Creates a rotation transformation that rotates by the specified angle about the specified point.
 old-location: direct2d\d2d1makerotatematrix.htm
 tech.root: Direct2D
 ms.assetid: 5e066328-5b0f-4e7a-9bf4-df55521fcc2b
-
 ms.date: 12/05/2018
 ms.keywords: D2D1MakeRotateMatrix, D2D1MakeRotateMatrix function [Direct2D], d2d1/D2D1MakeRotateMatrix, direct2d.d2d1makerotatematrix
 ms.topic: function
-f1_keywords: 
- - "d2d1/D2D1MakeRotateMatrix"
+f1_keywords:
+- d2d1/D2D1MakeRotateMatrix
 dev_langs:
- - c++
+- c++
 req.header: d2d1.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: D2d1.lib
 req.dll: D2d1.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - D2d1.dll
+- D2d1.dll
 api_name:
- - D2D1MakeRotateMatrix
+- D2D1MakeRotateMatrix
 targetos: Windows
 req.typenames: 
 req.redist: 

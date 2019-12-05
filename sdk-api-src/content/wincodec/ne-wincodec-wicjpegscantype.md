@@ -1,19 +1,17 @@
 ---
 UID: NE:wincodec.WICJpegScanType
 title: WICJpegScanType (wincodec.h)
-
 description: Specifies the memory layout of pixel data in a JPEG image scan.
 old-location: wic\wicjpegscantype.htm
 tech.root: wic
 ms.assetid: DC8B42F0-66D3-4425-9AA8-6B8F0D9B8568
-
 ms.date: 12/05/2018
 ms.keywords: WICJpegScanType, WICJpegScanType enumeration [Windows Imaging Component], WICJpegScanTypeInterleaved, WICJpegScanTypePlanarComponents, WICJpegScanTypeProgressive, WICJpegScanType_FORCE_DWORD, wic.wicjpegscantype, wincodec/WICJpegScanType, wincodec/WICJpegScanTypeInterleaved, wincodec/WICJpegScanTypePlanarComponents, wincodec/WICJpegScanTypeProgressive, wincodec/WICJpegScanType_FORCE_DWORD
 ms.topic: enum
-f1_keywords: 
- - "wincodec/WICJpegScanType"
+f1_keywords:
+- wincodec/WICJpegScanType
 dev_langs:
- - c++
+- c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - wincodec.h
+- wincodec.h
 api_name:
- - WICJpegScanType
+- WICJpegScanType
 targetos: Windows
 req.typenames: WICJpegScanType
 req.redist: 

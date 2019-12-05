@@ -1,19 +1,17 @@
 ---
 UID: NF:wmp.IWMPSyncDevice.stop
 title: IWMPSyncDevice::stop (wmp.h)
-
 description: The stop method ends synchronization.
 old-location: wmp\iwmpsyncdevice_stop.htm
 tech.root: WMP
 ms.assetid: 30e6787e-851b-420c-934c-5f8e5e4d83df
-
 ms.date: 12/05/2018
 ms.keywords: IWMPSyncDevice interface [Windows Media Player],stop method, IWMPSyncDevice.stop, IWMPSyncDevice::stop, IWMPSyncDevicestop, stop, stop method [Windows Media Player], stop method [Windows Media Player],IWMPSyncDevice interface, wmp.iwmpsyncdevice_stop, wmp/IWMPSyncDevice::stop
 ms.topic: method
-f1_keywords: 
- - "wmp/IWMPSyncDevice.stop"
+f1_keywords:
+- wmp/IWMPSyncDevice.stop
 dev_langs:
- - c++
+- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wmp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmp.dll
+- wmp.dll
 api_name:
- - IWMPSyncDevice.stop
+- IWMPSyncDevice.stop
 targetos: Windows
 req.typenames: 
 req.redist: 

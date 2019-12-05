@@ -1,19 +1,17 @@
 ---
 UID: NF:winuser.DlgDirListComboBoxA
 title: DlgDirListComboBoxA function (winuser.h)
-
 description: Replaces the contents of a combo box with the names of the subdirectories and files in a specified directory. You can filter the list of names by specifying a set of file attributes. The list of names can include mapped drive letters.
 old-location: controls\DlgDirListComboBox.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\comboboxes\comboboxreference\comboboxfunctions\dlgdirlistcombobox.htm
-
 ms.date: 12/05/2018
 ms.keywords: DDL_ARCHIVE, DDL_DIRECTORY, DDL_DRIVES, DDL_EXCLUSIVE, DDL_HIDDEN, DDL_POSTMSGS, DDL_READONLY, DDL_READWRITE, DDL_SYSTEM, DlgDirListComboBox, DlgDirListComboBox function [Windows Controls], DlgDirListComboBoxA, DlgDirListComboBoxW, _win32_DlgDirListComboBox, _win32_DlgDirListComboBox_cpp, controls.DlgDirListComboBox, controls._win32_DlgDirListComboBox, winuser/DlgDirListComboBox, winuser/DlgDirListComboBoxA, winuser/DlgDirListComboBoxW
 ms.topic: function
-f1_keywords: 
- - "winuser/DlgDirListComboBox"
+f1_keywords:
+- winuser/DlgDirListComboBox
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - User32.dll
+- User32.dll
 api_name:
- - DlgDirListComboBox
- - DlgDirListComboBoxA
- - DlgDirListComboBoxW
+- DlgDirListComboBox
+- DlgDirListComboBoxA
+- DlgDirListComboBoxW
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:sbtsv.ITsSbTaskInfo.get_TargetId
 title: ITsSbTaskInfo::get_TargetId (sbtsv.h)
-
 description: Retrieves the target identifier.
 old-location: termserv\itssbtaskinfo_targetid.htm
 tech.root: TermServ
 ms.assetid: eb34b8b4-1130-4148-aea5-eb6ad00c64d2
-
 ms.date: 12/05/2018
 ms.keywords: ITsSbTaskInfo interface [Remote Desktop Services],TargetId property, ITsSbTaskInfo.TargetId, ITsSbTaskInfo.get_TargetId, ITsSbTaskInfo::TargetId, ITsSbTaskInfo::get_TargetId, TargetId property [Remote Desktop Services], TargetId property [Remote Desktop Services],ITsSbTaskInfo interface, get_TargetId, sbtsv/ITsSbTaskInfo::TargetId, sbtsv/ITsSbTaskInfo::get_TargetId, termserv.itssbtaskinfo_targetid
 ms.topic: method
-f1_keywords: 
- - "sbtsv/ITsSbTaskInfo.TargetId"
+f1_keywords:
+- sbtsv/ITsSbTaskInfo.TargetId
 dev_langs:
- - c++
+- c++
 req.header: sbtsv.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - sbtsv.h
+- sbtsv.h
 api_name:
- - ITsSbTaskInfo.TargetId
- - ITsSbTaskInfo.get_TargetId
+- ITsSbTaskInfo.TargetId
+- ITsSbTaskInfo.get_TargetId
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:wmp.IWMPSyncDevice.createPartnership
 title: IWMPSyncDevice::createPartnership (wmp.h)
-
 description: The createPartnership method creates a partnership between Windows Media Player and the device.
 old-location: wmp\iwmpsyncdevice_createpartnership.htm
 tech.root: WMP
 ms.assetid: 734a8717-3b7f-4a40-895f-b55cfabd665c
-
 ms.date: 12/05/2018
 ms.keywords: IWMPSyncDevice interface [Windows Media Player],createPartnership method, IWMPSyncDevice.createPartnership, IWMPSyncDevice::createPartnership, IWMPSyncDevicecreatePartnership, createPartnership, createPartnership method [Windows Media Player], createPartnership method [Windows Media Player],IWMPSyncDevice interface, wmp.iwmpsyncdevice_createpartnership, wmp/IWMPSyncDevice::createPartnership
 ms.topic: method
-f1_keywords: 
- - "wmp/IWMPSyncDevice.createPartnership"
+f1_keywords:
+- wmp/IWMPSyncDevice.createPartnership
 dev_langs:
- - c++
+- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wmp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmp.dll
+- wmp.dll
 api_name:
- - IWMPSyncDevice.createPartnership
+- IWMPSyncDevice.createPartnership
 targetos: Windows
 req.typenames: 
 req.redist: 

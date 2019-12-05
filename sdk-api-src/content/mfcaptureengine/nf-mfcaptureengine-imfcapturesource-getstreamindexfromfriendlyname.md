@@ -1,19 +1,17 @@
 ---
 UID: NF:mfcaptureengine.IMFCaptureSource.GetStreamIndexFromFriendlyName
 title: IMFCaptureSource::GetStreamIndexFromFriendlyName (mfcaptureengine.h)
-
 description: Gets the actual device stream index translated from a friendly stream name.
 old-location: mf\imfcapturesource_getstreamindexfromfriendlyname.htm
 tech.root: medfound
 ms.assetid: 38bc2ca8-29ff-4a23-9b78-693aaab6767f
-
 ms.date: 12/05/2018
 ms.keywords: GetStreamIndexFromFriendlyName, GetStreamIndexFromFriendlyName method [Media Foundation], GetStreamIndexFromFriendlyName method [Media Foundation],IMFCaptureSource interface, IMFCaptureSource interface [Media Foundation],GetStreamIndexFromFriendlyName method, IMFCaptureSource.GetStreamIndexFromFriendlyName, IMFCaptureSource::GetStreamIndexFromFriendlyName, mf.imfcapturesource_getstreamindexfromfriendlyname, mfcaptureengine/IMFCaptureSource::GetStreamIndexFromFriendlyName
 ms.topic: method
-f1_keywords: 
- - "mfcaptureengine/IMFCaptureSource.GetStreamIndexFromFriendlyName"
+f1_keywords:
+- mfcaptureengine/IMFCaptureSource.GetStreamIndexFromFriendlyName
 dev_langs:
- - c++
+- c++
 req.header: mfcaptureengine.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mfcaptureengine.h
+- Mfcaptureengine.h
 api_name:
- - IMFCaptureSource.GetStreamIndexFromFriendlyName
+- IMFCaptureSource.GetStreamIndexFromFriendlyName
 targetos: Windows
 req.typenames: 
 req.redist: 

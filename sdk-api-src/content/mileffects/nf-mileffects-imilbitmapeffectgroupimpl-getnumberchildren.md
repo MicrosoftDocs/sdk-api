@@ -1,19 +1,17 @@
 ---
 UID: NF:mileffects.IMILBitmapEffectGroupImpl.GetNumberChildren
 title: IMILBitmapEffectGroupImpl::GetNumberChildren (mileffects.h)
-
 description: Retrieves the number of children in an effect group.
 old-location: wibe\_wibe_imilbitmapeffectgroupimpl_getnumberchildren.htm
 tech.root: wibe
 ms.assetid: VS|wibe|~\wibelh\reference\ifaces\imilbitmapeffectgroupimpl\getnumberchildren.htm
-
 ms.date: 12/05/2018
 ms.keywords: GetNumberChildren, GetNumberChildren method [WPF Bitmap Effects], GetNumberChildren method [WPF Bitmap Effects],IMILBitmapEffectGroupImpl interface, IMILBitmapEffectGroupImpl interface [WPF Bitmap Effects],GetNumberChildren method, IMILBitmapEffectGroupImpl.GetNumberChildren, IMILBitmapEffectGroupImpl::GetNumberChildren, _wibe_imilbitmapeffectgroupimpl_getnumberchildren, mileffects/IMILBitmapEffectGroupImpl::GetNumberChildren, wibe._wibe_imilbitmapeffectgroupimpl_getnumberchildren
 ms.topic: method
-f1_keywords: 
- - "mileffects/IMILBitmapEffectGroupImpl.GetNumberChildren"
+f1_keywords:
+- mileffects/IMILBitmapEffectGroupImpl.GetNumberChildren
 dev_langs:
- - c++
+- c++
 req.header: mileffects.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mileffects.h
+- Mileffects.h
 api_name:
- - IMILBitmapEffectGroupImpl.GetNumberChildren
+- IMILBitmapEffectGroupImpl.GetNumberChildren
 targetos: Windows
 req.typenames: 
 req.redist: Microsoft .Net 3.0

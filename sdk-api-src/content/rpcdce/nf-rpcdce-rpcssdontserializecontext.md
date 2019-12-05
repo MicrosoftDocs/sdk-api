@@ -1,19 +1,17 @@
 ---
 UID: NF:rpcdce.RpcSsDontSerializeContext
 title: RpcSsDontSerializeContext function (rpcdce.h)
-
 description: The RpcSsDontSerializeContext function disables run-time serialization of multiple calls dispatched to server-manager routines on the same context handle.
 old-location: rpc\rpcssdontserializecontext.htm
 tech.root: Rpc
 ms.assetid: 75c8bf34-1522-4db2-9c33-e1ca5ac11e4c
-
 ms.date: 12/05/2018
 ms.keywords: RpcSsDontSerializeContext, RpcSsDontSerializeContext function [RPC], _rpc_rpcssdontserializecontext, rpc.rpcssdontserializecontext, rpcdce/RpcSsDontSerializeContext
 ms.topic: function
-f1_keywords: 
- - "rpcdce/RpcSsDontSerializeContext"
+f1_keywords:
+- rpcdce/RpcSsDontSerializeContext
 dev_langs:
- - c++
+- c++
 req.header: rpcdce.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Rpcrt4.lib
 req.dll: Rpcrt4.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Rpcrt4.dll
+- Rpcrt4.dll
 api_name:
- - RpcSsDontSerializeContext
+- RpcSsDontSerializeContext
 targetos: Windows
 req.typenames: 
 req.redist: 

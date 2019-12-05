@@ -1,19 +1,17 @@
 ---
 UID: NF:uianimation.IUIAnimationTransitionLibrary2.CreateInstantaneousVectorTransition
 title: IUIAnimationTransitionLibrary2::CreateInstantaneousVectorTransition (uianimation.h)
-
 description: Creates an instantaneous vector transition for each specified dimension.
 old-location: uianimation\iuianimationtransitionlibrary2_createinstantaneousvectortransition.htm
 tech.root: UIAnimation
 ms.assetid: C4E97F25-85BD-4548-950D-06BD5E6C4831
-
 ms.date: 12/05/2018
 ms.keywords: CreateInstantaneousVectorTransition, CreateInstantaneousVectorTransition method [Windows Animation], CreateInstantaneousVectorTransition method [Windows Animation],IUIAnimationTransitionLibrary2 interface, IUIAnimationTransitionLibrary2 interface [Windows Animation],CreateInstantaneousVectorTransition method, IUIAnimationTransitionLibrary2.CreateInstantaneousVectorTransition, IUIAnimationTransitionLibrary2::CreateInstantaneousVectorTransition, uianimation.iuianimationtransitionlibrary2_createinstantaneousvectortransition, uianimation/IUIAnimationTransitionLibrary2::CreateInstantaneousVectorTransition
 ms.topic: method
-f1_keywords: 
- - "uianimation/IUIAnimationTransitionLibrary2.CreateInstantaneousVectorTransition"
+f1_keywords:
+- uianimation/IUIAnimationTransitionLibrary2.CreateInstantaneousVectorTransition
 dev_langs:
- - c++
+- c++
 req.header: uianimation.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: UIAnimation.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAnimation.dll
+- UIAnimation.dll
 api_name:
- - IUIAnimationTransitionLibrary2.CreateInstantaneousVectorTransition
+- IUIAnimationTransitionLibrary2.CreateInstantaneousVectorTransition
 targetos: Windows
 req.typenames: 
 req.redist: 

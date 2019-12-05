@@ -1,19 +1,17 @@
 ---
 UID: NF:xpsobjectmodel_1.IXpsDocumentPackageTarget.GetXpsType
 title: IXpsDocumentPackageTarget::GetXpsType (xpsobjectmodel_1.h)
-
 description: Gets the XPS_DOCUMENT_TYPE enumerated value for the document package.
 old-location: xps\ixpsdocumentpackagetarget_getxpstype.htm
 tech.root: printdocs
 ms.assetid: A2B2523F-2F07-4331-A8EA-84BB6636B948
-
 ms.date: 12/05/2018
 ms.keywords: GetXpsType, GetXpsType method [XPS Documents and Packaging], GetXpsType method [XPS Documents and Packaging],IXpsDocumentPackageTarget interface, IXpsDocumentPackageTarget interface [XPS Documents and Packaging],GetXpsType method, IXpsDocumentPackageTarget.GetXpsType, IXpsDocumentPackageTarget::GetXpsType, xps.ixpsdocumentpackagetarget_getxpstype, xpsobjectmodel_1/IXpsDocumentPackageTarget::GetXpsType
 ms.topic: method
-f1_keywords: 
- - "xpsobjectmodel_1/IXpsDocumentPackageTarget.GetXpsType"
+f1_keywords:
+- xpsobjectmodel_1/IXpsDocumentPackageTarget.GetXpsType
 dev_langs:
- - c++
+- c++
 req.header: xpsobjectmodel_1.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Xpsobjectmodel_1.h
+- Xpsobjectmodel_1.h
 api_name:
- - IXpsDocumentPackageTarget.GetXpsType
+- IXpsDocumentPackageTarget.GetXpsType
 targetos: Windows
 req.typenames: 
 req.redist: 

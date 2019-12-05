@@ -1,19 +1,17 @@
 ---
 UID: NN:d3d10shader.ID3D10ShaderReflectionVariable
 title: ID3D10ShaderReflectionVariable (d3d10shader.h)
-
 description: This shader-reflection interface provides access to a variable.
 old-location: direct3d10\id3d10shaderreflectionvariable.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10shaderreflectionvariable.htm
-
 ms.date: 12/05/2018
 ms.keywords: ID3D10ShaderReflectionVariable, ID3D10ShaderReflectionVariable interface [Direct3D 10], ID3D10ShaderReflectionVariable interface [Direct3D 10],described, d3d10shader/ID3D10ShaderReflectionVariable, direct3d10.id3d10shaderreflectionvariable, e8b67520-bfa7-7e41-f594-a51d5ad0301e
 ms.topic: interface
-f1_keywords: 
- - "d3d10shader/ID3D10ShaderReflectionVariable"
+f1_keywords:
+- d3d10shader/ID3D10ShaderReflectionVariable
 dev_langs:
- - c++
+- c++
 req.header: d3d10shader.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: D3D10.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D10.lib
- - D3D10.dll
+- D3D10.lib
+- D3D10.dll
 api_name:
- - ID3D10ShaderReflectionVariable
+- ID3D10ShaderReflectionVariable
 targetos: Windows
 req.typenames: 
 req.redist: 

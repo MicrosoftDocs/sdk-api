@@ -1,19 +1,17 @@
 ---
 UID: NE:tssbx.__MIDL_IWTSSBPlugin_0003
 title: WTSSBX_ADDRESS_FAMILY (tssbx.h)
-
 description: Contains values that indicate the address family of a network address that is being used for redirection.
 old-location: termserv\wtssbx_address_family.htm
 tech.root: TermServ
 ms.assetid: 8fe243ef-f52b-4b1a-8300-0b8a5a8a4c8d
-
 ms.date: 12/05/2018
 ms.keywords: WTSSBX_ADDRESS_FAMILY, WTSSBX_ADDRESS_FAMILY enumeration [Remote Desktop Services], WTSSBX_ADDRESS_FAMILY_AF_INET, WTSSBX_ADDRESS_FAMILY_AF_INET6, WTSSBX_ADDRESS_FAMILY_AF_IPX, WTSSBX_ADDRESS_FAMILY_AF_NETBIOS, WTSSBX_ADDRESS_FAMILY_AF_UNSPEC, termserv.wtssbx_address_family, tssbx/WTSSBX_ADDRESS_FAMILY, tssbx/WTSSBX_ADDRESS_FAMILY_AF_INET, tssbx/WTSSBX_ADDRESS_FAMILY_AF_INET6, tssbx/WTSSBX_ADDRESS_FAMILY_AF_IPX, tssbx/WTSSBX_ADDRESS_FAMILY_AF_NETBIOS, tssbx/WTSSBX_ADDRESS_FAMILY_AF_UNSPEC
 ms.topic: enum
-f1_keywords: 
- - "tssbx/WTSSBX_ADDRESS_FAMILY"
+f1_keywords:
+- tssbx/WTSSBX_ADDRESS_FAMILY
 dev_langs:
- - c++
+- c++
 req.header: tssbx.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Tssbx.h
+- Tssbx.h
 api_name:
- - WTSSBX_ADDRESS_FAMILY
+- WTSSBX_ADDRESS_FAMILY
 targetos: Windows
 req.typenames: WTSSBX_ADDRESS_FAMILY
 req.redist: 

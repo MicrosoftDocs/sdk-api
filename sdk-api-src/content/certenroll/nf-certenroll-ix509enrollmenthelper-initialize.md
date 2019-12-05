@@ -1,19 +1,17 @@
 ---
 UID: NF:certenroll.IX509EnrollmentHelper.Initialize
 title: IX509EnrollmentHelper::Initialize (certenroll.h)
-
 description: Initializes an IX509EnrollmentHelper object.
 old-location: security\ix509enrollmenthelper_initialize.htm
 tech.root: seccertenroll
 ms.assetid: 83cb603b-9396-4983-8707-12d1c5b8b234
-
 ms.date: 12/05/2018
 ms.keywords: ContextAdministratorForceMachine, ContextMachine, ContextUser, IX509EnrollmentHelper interface [Security],Initialize method, IX509EnrollmentHelper.Initialize, IX509EnrollmentHelper::Initialize, Initialize, Initialize method [Security], Initialize method [Security],IX509EnrollmentHelper interface, certenroll/IX509EnrollmentHelper::Initialize, security.ix509enrollmenthelper_initialize
 ms.topic: method
-f1_keywords: 
- - "certenroll/IX509EnrollmentHelper.Initialize"
+f1_keywords:
+- certenroll/IX509EnrollmentHelper.Initialize
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Certenroll.h
+- Certenroll.h
 api_name:
- - IX509EnrollmentHelper.Initialize
+- IX509EnrollmentHelper.Initialize
 targetos: Windows
 req.typenames: 
 req.redist: 

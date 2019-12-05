@@ -1,19 +1,17 @@
 ---
 UID: NF:certenroll.IX509ExtensionTemplate.InitializeEncode
 title: IX509ExtensionTemplate::InitializeEncode (certenroll.h)
-
 description: Initializes the extension from a template object identifier (OID) and from major and minor version numbers.
 old-location: security\ix509extensiontemplate_initializeencode_method.htm
 tech.root: seccertenroll
 ms.assetid: 93590649-78b4-4f78-81b8-5c21cf91608d
-
 ms.date: 12/05/2018
 ms.keywords: IX509ExtensionTemplate interface [Security],InitializeEncode method, IX509ExtensionTemplate.InitializeEncode, IX509ExtensionTemplate::InitializeEncode, InitializeEncode, InitializeEncode method [Security], InitializeEncode method [Security],IX509ExtensionTemplate interface, certenroll/IX509ExtensionTemplate::InitializeEncode, security.ix509extensiontemplate_initializeencode_method
 ms.topic: method
-f1_keywords: 
- - "certenroll/IX509ExtensionTemplate.InitializeEncode"
+f1_keywords:
+- certenroll/IX509ExtensionTemplate.InitializeEncode
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: CertEnroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CertEnroll.dll
+- CertEnroll.dll
 api_name:
- - IX509ExtensionTemplate.InitializeEncode
+- IX509ExtensionTemplate.InitializeEncode
 targetos: Windows
 req.typenames: 
 req.redist: 

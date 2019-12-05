@@ -1,19 +1,17 @@
 ---
 UID: NF:msctf.ITfKeystrokeMgr.KeyDown
 title: ITfKeystrokeMgr::KeyDown (msctf.h)
-
 description: ITfKeystrokeMgr::KeyDown method
 old-location: tsf\itfkeystrokemgr_keydown.htm
 tech.root: TSF
 ms.assetid: 6eb4ad91-9431-4dec-b6cb-e58707318095
-
 ms.date: 12/05/2018
 ms.keywords: ITfKeystrokeMgr interface [Text Services Framework],KeyDown method, ITfKeystrokeMgr.KeyDown, ITfKeystrokeMgr::KeyDown, KeyDown, KeyDown method [Text Services Framework], KeyDown method [Text Services Framework],ITfKeystrokeMgr interface, _tsf_itfkeystrokemgr_keydown_ref, msctf/ITfKeystrokeMgr::KeyDown, tsf.itfkeystrokemgr_keydown
 ms.topic: method
-f1_keywords: 
- - "msctf/ITfKeystrokeMgr.KeyDown"
+f1_keywords:
+- msctf/ITfKeystrokeMgr.KeyDown
 dev_langs:
- - c++
+- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msctf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msctf.dll
+- Msctf.dll
 api_name:
- - ITfKeystrokeMgr.KeyDown
+- ITfKeystrokeMgr.KeyDown
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

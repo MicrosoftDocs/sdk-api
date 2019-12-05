@@ -1,19 +1,17 @@
 ---
 UID: NN:strmif.IAMCrossbar
 title: IAMCrossbar (strmif.h)
-
 description: The IAMCrossbar interface routes signals from an analog or digital source to a video capture filter.This interface is implemented by the Analog Video Crossbar Filter.
 old-location: dshow\iamcrossbar.htm
 tech.root: DirectShow
 ms.assetid: 9eef4923-62e7-475e-85e6-de8c1eefe483
-
 ms.date: 12/05/2018
 ms.keywords: IAMCrossbar, IAMCrossbar interface [DirectShow], IAMCrossbar interface [DirectShow],described, IAMCrossbarInterface, dshow.iamcrossbar, strmif/IAMCrossbar
 ms.topic: interface
-f1_keywords: 
- - "strmif/IAMCrossbar"
+f1_keywords:
+- strmif/IAMCrossbar
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IAMCrossbar
+- IAMCrossbar
 targetos: Windows
 req.typenames: 
 req.redist: 

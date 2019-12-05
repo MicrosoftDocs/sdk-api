@@ -1,19 +1,17 @@
 ---
 UID: NN:mfidl.IMFPresentationTimeSource
 title: IMFPresentationTimeSource (mfidl.h)
-
 description: Provides the clock times for the presentation clock.
 old-location: mf\imfpresentationtimesource.htm
 tech.root: medfound
 ms.assetid: e5fab6b7-0abc-4ad7-89a9-33c673e97ce2
-
 ms.date: 12/05/2018
 ms.keywords: IMFPresentationTimeSource, IMFPresentationTimeSource interface [Media Foundation], IMFPresentationTimeSource interface [Media Foundation],described, e5fab6b7-0abc-4ad7-89a9-33c673e97ce2, mf.imfpresentationtimesource, mfidl/IMFPresentationTimeSource
 ms.topic: interface
-f1_keywords: 
- - "mfidl/IMFPresentationTimeSource"
+f1_keywords:
+- mfidl/IMFPresentationTimeSource
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFPresentationTimeSource
+- IMFPresentationTimeSource
 targetos: Windows
 req.typenames: 
 req.redist: 

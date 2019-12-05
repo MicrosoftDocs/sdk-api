@@ -1,19 +1,17 @@
 ---
 UID: NF:ddeml.DdeQueryStringW
 title: DdeQueryStringW function (ddeml.h)
-
 description: Copies text associated with a string handle into a buffer.
 old-location: dataxchg\ddequerystring.htm
 tech.root: dataxchg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\dataexchange\dynamicdataexchangemanagementlibrary\dynamicdataexchangemanagementreference\dynamicdataexchangemanagementfunctions\ddequerystring.htm
-
 ms.date: 12/05/2018
 ms.keywords: DdeQueryString, DdeQueryString function [Data Exchange], DdeQueryStringA, DdeQueryStringW, _win32_DdeQueryString, _win32_ddequerystring_cpp, dataxchg.ddequerystring, ddeml/DdeQueryString, ddeml/DdeQueryStringA, ddeml/DdeQueryStringW, winui._win32_ddequerystring
 ms.topic: function
-f1_keywords: 
- - "ddeml/DdeQueryString"
+f1_keywords:
+- ddeml/DdeQueryString
 dev_langs:
- - c++
+- c++
 req.header: ddeml.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - User32.dll
+- User32.dll
 api_name:
- - DdeQueryString
- - DdeQueryStringA
- - DdeQueryStringW
+- DdeQueryString
+- DdeQueryStringA
+- DdeQueryStringW
 targetos: Windows
 req.typenames: 
 req.redist: 

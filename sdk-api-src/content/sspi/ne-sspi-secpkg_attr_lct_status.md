@@ -1,19 +1,17 @@
 ---
 UID: NE:sspi._SECPKG_ATTR_LCT_STATUS
 title: SECPKG_ATTR_LCT_STATUS (sspi.h)
-
 description: Indicates whether the token from the most recent call to the InitializeSecurityContext function is the last token from the client.
 old-location: security\secpkg_attr_lct_status.htm
 tech.root: SecAuthN
 ms.assetid: b9067862-2339-4543-a8cd-610e6f921bfd
-
 ms.date: 12/05/2018
 ms.keywords: '*PSECPKG_ATTR_LCT_STATUS, SECPKG_ATTR_LCT_STATUS, SECPKG_ATTR_LCT_STATUS enumeration [Security], SecPkgAttrLastClientTokenMaybe, SecPkgAttrLastClientTokenNo, SecPkgAttrLastClientTokenYes, security.secpkg_attr_lct_status, sspi/SECPKG_ATTR_LCT_STATUS, sspi/SecPkgAttrLastClientTokenMaybe, sspi/SecPkgAttrLastClientTokenNo, sspi/SecPkgAttrLastClientTokenYes'
 ms.topic: enum
 f1_keywords:
 - sspi/SECPKG_ATTR_LCT_STATUS
 dev_langs:
- - c++
+- c++
 req.header: sspi.h
 req.include-header: 
 req.target-type: Windows

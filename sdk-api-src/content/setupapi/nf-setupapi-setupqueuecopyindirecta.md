@@ -1,19 +1,17 @@
 ---
 UID: NF:setupapi.SetupQueueCopyIndirectA
 title: SetupQueueCopyIndirectA function (setupapi.h)
-
 description: The SetupQueueCopyIndirect function is an extended form of SetupQueueCopy passing additional parameters as a structure (SP_FILE_COPY_PARAMS). Other than this, the behavior is identical.
 old-location: setup\setupqueuecopyindirect.htm
 tech.root: SetupApi
 ms.assetid: 5c81e83c-7ee3-489f-9d4c-f7c8a1c5cc5b
-
 ms.date: 12/05/2018
 ms.keywords: SetupQueueCopyIndirect, SetupQueueCopyIndirect function [Setup API], SetupQueueCopyIndirectA, SetupQueueCopyIndirectW, _setupapi_setupqueuecopyindirect, setup.setupqueuecopyindirect, setupapi/SetupQueueCopyIndirect, setupapi/SetupQueueCopyIndirectA, setupapi/SetupQueueCopyIndirectW
 ms.topic: function
 f1_keywords:
 - setupapi/SetupQueueCopyIndirect
 dev_langs:
- - c++
+- c++
 req.header: setupapi.h
 req.include-header: 
 req.target-type: Windows

@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IShellBrowser.SetMenuSB
 title: IShellBrowser::SetMenuSB (shobjidl_core.h)
-
 description: Installs the composite menu in the view window.
 old-location: shell\IShellBrowser_SetMenuSB.htm
 tech.root: shell
 ms.assetid: ae6fe864-7fa1-4c74-a27f-d428bdeccc3d
-
 ms.date: 12/05/2018
 ms.keywords: IShellBrowser interface [Windows Shell],SetMenuSB method, IShellBrowser.SetMenuSB, IShellBrowser::SetMenuSB, SetMenuSB, SetMenuSB method [Windows Shell], SetMenuSB method [Windows Shell],IShellBrowser interface, _win32_IShellBrowser_SetMenuSB, shell.IShellBrowser_SetMenuSB, shobjidl_core/IShellBrowser::SetMenuSB
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IShellBrowser.SetMenuSB"
+f1_keywords:
+- shobjidl_core/IShellBrowser.SetMenuSB
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Shell32.dll (version 4.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - IShellBrowser.SetMenuSB
+- IShellBrowser.SetMenuSB
 targetos: Windows
 req.typenames: 
 req.redist: 

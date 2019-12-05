@@ -1,19 +1,17 @@
 ---
 UID: NF:ctfutb.ITfLangBarEventSink.OnThreadItemChange
 title: ITfLangBarEventSink::OnThreadItemChange (ctfutb.h)
-
 description: ITfLangBarEventSink::OnThreadItemChange method
 old-location: tsf\itflangbareventsink_onthreaditemchange.htm
 tech.root: TSF
 ms.assetid: b59688f9-feb0-4598-bf4a-b0661dda5fad
-
 ms.date: 12/05/2018
 ms.keywords: ITfLangBarEventSink interface [Text Services Framework],OnThreadItemChange method, ITfLangBarEventSink.OnThreadItemChange, ITfLangBarEventSink::OnThreadItemChange, OnThreadItemChange, OnThreadItemChange method [Text Services Framework], OnThreadItemChange method [Text Services Framework],ITfLangBarEventSink interface, _tsf_itflangbareventsink_onthreaditemchange_ref, ctfutb/ITfLangBarEventSink::OnThreadItemChange, tsf.itflangbareventsink_onthreaditemchange
 ms.topic: method
-f1_keywords: 
- - "ctfutb/ITfLangBarEventSink.OnThreadItemChange"
+f1_keywords:
+- ctfutb/ITfLangBarEventSink.OnThreadItemChange
 dev_langs:
- - c++
+- c++
 req.header: ctfutb.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msutb.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msutb.dll
+- msutb.dll
 api_name:
- - ITfLangBarEventSink.OnThreadItemChange
+- ITfLangBarEventSink.OnThreadItemChange
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

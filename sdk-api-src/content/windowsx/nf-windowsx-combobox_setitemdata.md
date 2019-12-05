@@ -1,19 +1,17 @@
 ---
 UID: NF:windowsx.ComboBox_SetItemData
 title: ComboBox_SetItemData macro (windowsx.h)
-
 description: Sets the application-defined value associated with the specified list item in a combo box. You can use this macro or send the CB_SETITEMDATA message explicitly.
 old-location: controls\ComboBox_SetItemData.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\comboboxes\comboboxreference\comboboxmacros\combobox_setitemdata.htm
-
 ms.date: 12/05/2018
 ms.keywords: ComboBox_SetItemData, ComboBox_SetItemData macro [Windows Controls], _win32_ComboBox_SetItemData, _win32_ComboBox_SetItemData_cpp, controls.ComboBox_SetItemData, controls._win32_ComboBox_SetItemData, windowsx/ComboBox_SetItemData
 ms.topic: macro
-f1_keywords: 
- - "windowsx/ComboBox_SetItemData"
+f1_keywords:
+- windowsx/ComboBox_SetItemData
 dev_langs:
- - c++
+- c++
 req.header: windowsx.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Windowsx.h
+- Windowsx.h
 api_name:
- - ComboBox_SetItemData
+- ComboBox_SetItemData
 targetos: Windows
 req.typenames: 
 req.redist: 

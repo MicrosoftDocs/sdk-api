@@ -1,19 +1,17 @@
 ---
 UID: NF:netfw.INetFwPolicy2.get_Rules
 title: INetFwPolicy2::get_Rules (netfw.h)
-
 description: Retrieves the collection of firewall rules.
 old-location: ics\inetfwpolicy2_rules.htm
 tech.root: ics
 ms.assetid: 1a3f2846-63c0-4790-b44f-654a34faa974
-
 ms.date: 12/05/2018
 ms.keywords: INetFwPolicy2 interface [ICS/ICF],Rules property, INetFwPolicy2.Rules, INetFwPolicy2.get_Rules, INetFwPolicy2::Rules, INetFwPolicy2::get_Rules, Rules property [ICS/ICF], Rules property [ICS/ICF],INetFwPolicy2 interface, get_Rules, ics.inetfwpolicy2_rules, netfw/INetFwPolicy2::Rules, netfw/INetFwPolicy2::get_Rules
 ms.topic: method
-f1_keywords: 
- - "netfw/INetFwPolicy2.Rules"
+f1_keywords:
+- netfw/INetFwPolicy2.Rules
 dev_langs:
- - c++
+- c++
 req.header: netfw.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: FirewallAPI.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - FirewallAPI.dll
+- FirewallAPI.dll
 api_name:
- - INetFwPolicy2.Rules
- - INetFwPolicy2.get_Rules
+- INetFwPolicy2.Rules
+- INetFwPolicy2.get_Rules
 targetos: Windows
 req.typenames: 
 req.redist: 

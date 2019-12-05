@@ -1,19 +1,17 @@
 ---
 UID: NF:tspi.TSPI_phoneSetRing
 title: TSPI_phoneSetRing function (tspi.h)
-
 description: The TSPI_phoneSetRing function rings the specified open phone device using the specified ring mode and volume.
 old-location: tspi\tspi_phonesetring.htm
 tech.root: Tapi
 ms.assetid: 8540f39e-4891-48d9-a5b0-b928eeb4be0d
-
 ms.date: 12/05/2018
 ms.keywords: TSPI_phoneSetRing, TSPI_phoneSetRing function [TAPI 2.2], _tspi_tspi_phonesetring, tspi.tspi_phonesetring, tspi/TSPI_phoneSetRing
 ms.topic: function
-f1_keywords: 
- - "tspi/TSPI_phoneSetRing"
+f1_keywords:
+- tspi/TSPI_phoneSetRing
 dev_langs:
- - c++
+- c++
 req.header: tspi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Tspi.h
+- Tspi.h
 api_name:
- - TSPI_phoneSetRing
+- TSPI_phoneSetRing
 targetos: Windows
 req.typenames: 
 req.redist: 

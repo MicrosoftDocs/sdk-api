@@ -1,19 +1,17 @@
 ---
 UID: NF:tsuserex.IADsTSUserEx.put_TerminalServicesHomeDirectory
 title: IADsTSUserEx::put_TerminalServicesHomeDirectory (tsuserex.h)
-
 description: The root directory for the user. Each user on a Remote Desktop Session Host (RD Session Host) server has a unique root directory. This ensures that application information is stored separately for each user in a multiuser environment.
 old-location: termserv\iadstsuserex_terminalserviceshomedirectory.htm
 tech.root: TermServ
 ms.assetid: 3993b664-82bb-4419-a06f-2a4e24003170
-
 ms.date: 12/05/2018
 ms.keywords: IADsTSUserEx interface [Remote Desktop Services],TerminalServicesHomeDirectory property, IADsTSUserEx.TerminalServicesHomeDirectory, IADsTSUserEx.put_TerminalServicesHomeDirectory, IADsTSUserEx::TerminalServicesHomeDirectory, IADsTSUserEx::get_TerminalServicesHomeDirectory, IADsTSUserEx::put_TerminalServicesHomeDirectory, TerminalServicesHomeDirectory property [Remote Desktop Services], TerminalServicesHomeDirectory property [Remote Desktop Services],IADsTSUserEx interface, put_TerminalServicesHomeDirectory, termserv.iadstsuserex_terminalserviceshomedirectory, tsuserex/IADsTSUserEx::TerminalServicesHomeDirectory, tsuserex/IADsTSUserEx::get_TerminalServicesHomeDirectory, tsuserex/IADsTSUserEx::put_TerminalServicesHomeDirectory
 ms.topic: method
-f1_keywords: 
- - "tsuserex/IADsTSUserEx.TerminalServicesHomeDirectory"
+f1_keywords:
+- tsuserex/IADsTSUserEx.TerminalServicesHomeDirectory
 dev_langs:
- - c++
+- c++
 req.header: tsuserex.h
 req.include-header: Tsuserex.h, Tsuserex_i.c
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: Tsuserex.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Tsuserex.dll
+- Tsuserex.dll
 api_name:
- - IADsTSUserEx.TerminalServicesHomeDirectory
- - IADsTSUserEx.get_TerminalServicesHomeDirectory
- - IADsTSUserEx.put_TerminalServicesHomeDirectory
+- IADsTSUserEx.TerminalServicesHomeDirectory
+- IADsTSUserEx.get_TerminalServicesHomeDirectory
+- IADsTSUserEx.put_TerminalServicesHomeDirectory
 targetos: Windows
 req.typenames: 
 req.redist: 

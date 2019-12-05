@@ -1,19 +1,17 @@
 ---
 UID: NF:d2d1svg.ID2D1SvgStrokeDashArray.GetDashes(D2D1_SVG_LENGTH,UINT32,UINT32)
 title: ID2D1SvgStrokeDashArray::GetDashes(D2D1_SVG_LENGTH,UINT32,UINT32) (d2d1svg.h)
-
 description: Gets dashes from the array.
 old-location: direct2d\id2d1svgstrokedasharray_getdashes_2.htm
 tech.root: Direct2D
 ms.assetid: D439F7ED-608B-4A3B-891E-02A9ABD7C537
-
 ms.date: 12/05/2018
 ms.keywords: GetDashes, GetDashes method [Direct2D], GetDashes method [Direct2D],ID2D1SvgStrokeDashArray interface, ID2D1SvgStrokeDashArray interface [Direct2D],GetDashes method, ID2D1SvgStrokeDashArray.GetDashes, ID2D1SvgStrokeDashArray.GetDashes(D2D1_SVG_LENGTH,UINT32,UINT32), ID2D1SvgStrokeDashArray::GetDashes, ID2D1SvgStrokeDashArray::GetDashes(D2D1_SVG_LENGTH,UINT32,UINT32), d2d1svg/ID2D1SvgStrokeDashArray::GetDashes, direct2d.id2d1svgstrokedasharray_getdashes_2
 ms.topic: method
-f1_keywords: 
- - "d2d1svg/ID2D1SvgStrokeDashArray.GetDashes"
+f1_keywords:
+- d2d1svg/ID2D1SvgStrokeDashArray.GetDashes
 dev_langs:
- - c++
+- c++
 req.header: d2d1svg.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Direct2d.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - direct2d.dll
+- direct2d.dll
 api_name:
- - ID2D1SvgStrokeDashArray.GetDashes
+- ID2D1SvgStrokeDashArray.GetDashes
 targetos: Windows
 req.typenames: 
 req.redist: 

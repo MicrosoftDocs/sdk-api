@@ -1,19 +1,17 @@
 ---
 UID: NF:ncryptprotect.NCryptStreamOpenToProtect
 title: NCryptStreamOpenToProtect function (ncryptprotect.h)
-
 description: Opens a stream object that can be used to encrypt large amounts of data to a given protection descriptor.
 old-location: security\ncryptstreamopentoprotect.htm
 tech.root: SecCNG
 ms.assetid: 7DE74BB1-1B84-4721-BE4A-4D2661E93E00
-
 ms.date: 12/05/2018
 ms.keywords: NCRYPT_SILENT_FLAG, NCryptStreamOpenToProtect, NCryptStreamOpenToProtect function [Security], ncryptprotect/NCryptStreamOpenToProtect, security.ncryptstreamopentoprotect
 ms.topic: function
-f1_keywords: 
- - "ncryptprotect/NCryptStreamOpenToProtect"
+f1_keywords:
+- ncryptprotect/NCryptStreamOpenToProtect
 dev_langs:
- - c++
+- c++
 req.header: ncryptprotect.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: NCrypt.lib
 req.dll: NCrypt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - NCrypt.dll
+- NCrypt.dll
 api_name:
- - NCryptStreamOpenToProtect
+- NCryptStreamOpenToProtect
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:snmp.SnmpUtilAsnAnyCpy
 title: SnmpUtilAsnAnyCpy function (snmp.h)
-
 description: The SnmpUtilAsnAnyCpy function copies the variable pointed to by the pAnySrc parameter to the pAnyDst parameter. The function allocates any necessary memory for the destination's copy. The SnmpUtilAsnAnyCpy function is an element of the SNMP Utility API.
 old-location: snmp\snmputilasnanycpy.htm
 tech.root: SNMP
 ms.assetid: 0a8743da-ef4a-4b00-b9be-5550896d147a
-
 ms.date: 12/05/2018
 ms.keywords: SnmpUtilAsnAnyCpy, SnmpUtilAsnAnyCpy function [SNMP], _snmp_snmputilasnanycpy, snmp.snmputilasnanycpy, snmp/SnmpUtilAsnAnyCpy
 ms.topic: function
-f1_keywords: 
- - "snmp/SnmpUtilAsnAnyCpy"
+f1_keywords:
+- snmp/SnmpUtilAsnAnyCpy
 dev_langs:
- - c++
+- c++
 req.header: snmp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Snmpapi.lib
 req.dll: Snmpapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Snmpapi.dll
+- Snmpapi.dll
 api_name:
- - SnmpUtilAsnAnyCpy
+- SnmpUtilAsnAnyCpy
 targetos: Windows
 req.typenames: 
 req.redist: 

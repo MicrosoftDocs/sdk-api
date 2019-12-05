@@ -1,19 +1,17 @@
 ---
 UID: NF:bits2_5.IBackgroundCopyJobHttpOptions.SetCustomHeaders
 title: IBackgroundCopyJobHttpOptions::SetCustomHeaders (bits2_5.h)
-
 description: Specifies one or more custom HTTP headers to include in HTTP requests.
 old-location: bits\ibackgroundcopyjobhttpoptions_setcustomheaders.htm
 tech.root: Bits
 ms.assetid: 422a331d-5b6b-48ec-b040-43a88be43ac3
-
 ms.date: 12/05/2018
 ms.keywords: IBackgroundCopyJobHttpOptions interface [BITS],SetCustomHeaders method, IBackgroundCopyJobHttpOptions.SetCustomHeaders, IBackgroundCopyJobHttpOptions::SetCustomHeaders, SetCustomHeaders, SetCustomHeaders method [BITS], SetCustomHeaders method [BITS],IBackgroundCopyJobHttpOptions interface, bits.ibackgroundcopyjobhttpoptions_setcustomheaders, bits2_5/IBackgroundCopyJobHttpOptions::SetCustomHeaders
 ms.topic: method
-f1_keywords: 
- - "bits2_5/IBackgroundCopyJobHttpOptions.SetCustomHeaders"
+f1_keywords:
+- bits2_5/IBackgroundCopyJobHttpOptions.SetCustomHeaders
 dev_langs:
- - c++
+- c++
 req.header: bits2_5.h
 req.include-header: Bits.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Bits.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Bits.lib
- - Bits.dll
+- Bits.lib
+- Bits.dll
 api_name:
- - IBackgroundCopyJobHttpOptions.SetCustomHeaders
+- IBackgroundCopyJobHttpOptions.SetCustomHeaders
 targetos: Windows
 req.typenames: 
 req.redist: 

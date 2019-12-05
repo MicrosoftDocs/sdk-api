@@ -1,19 +1,17 @@
 ---
 UID: NF:searchapi.ISearchQueryHelper.get_QuerySelectColumns
 title: ISearchQueryHelper::get_QuerySelectColumns (searchapi.h)
-
 description: Gets the columns (or properties) requested in the SELECT statement of the query.
 old-location: search\_search_ISearchQueryHelper_get_QuerySelectColumns.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\isearchqueryhelper\get_queryselectcolumns.htm
-
 ms.date: 12/05/2018
 ms.keywords: ISearchQueryHelper interface [search],get_QuerySelectColumns method, ISearchQueryHelper.get_QuerySelectColumns, ISearchQueryHelper::get_QuerySelectColumns, _search_ISearchQueryHelper_get_QuerySelectColumns, get_QuerySelectColumns, get_QuerySelectColumns method [search], get_QuerySelectColumns method [search],ISearchQueryHelper interface, search._search_ISearchQueryHelper_get_QuerySelectColumns, searchapi/ISearchQueryHelper::get_QuerySelectColumns
 ms.topic: method
-f1_keywords: 
- - "searchapi/ISearchQueryHelper.get_QuerySelectColumns"
+f1_keywords:
+- searchapi/ISearchQueryHelper.get_QuerySelectColumns
 dev_langs:
- - c++
+- c++
 req.header: searchapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Searchapi.h
+- Searchapi.h
 api_name:
- - ISearchQueryHelper.get_QuerySelectColumns
+- ISearchQueryHelper.get_QuerySelectColumns
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0

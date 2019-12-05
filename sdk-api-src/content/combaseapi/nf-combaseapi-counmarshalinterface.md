@@ -1,19 +1,17 @@
 ---
 UID: NF:combaseapi.CoUnmarshalInterface
 title: CoUnmarshalInterface function (combaseapi.h)
-
 description: Initializes a newly created proxy using data written into the stream by a previous call to the CoMarshalInterface function, and returns an interface pointer to that proxy.
 old-location: com\counmarshalinterface.htm
 tech.root: com
 ms.assetid: d0eac0da-2f41-40c4-b756-31bc22752c17
-
 ms.date: 12/05/2018
 ms.keywords: CoUnmarshalInterface, CoUnmarshalInterface function [COM], _com_CoUnmarshalInterface, com.counmarshalinterface, combaseapi/CoUnmarshalInterface
 ms.topic: function
-f1_keywords: 
- - "combaseapi/CoUnmarshalInterface"
+f1_keywords:
+- combaseapi/CoUnmarshalInterface
 dev_langs:
- - c++
+- c++
 req.header: combaseapi.h
 req.include-header: Objbase.h
 req.target-type: Windows
@@ -32,19 +30,19 @@ req.lib: Ole32.lib
 req.dll: Ole32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ole32.dll
- - API-MS-Win-Core-Com-l1-1-0.dll
- - ComBase.dll
- - API-MS-Win-Core-Com-l1-1-1.dll
- - API-MS-Win-DownLevel-Ole32-l1-1-0.dll
- - API-MS-Win-DownLevel-Ole32-l1-1-1.dll
+- Ole32.dll
+- API-MS-Win-Core-Com-l1-1-0.dll
+- ComBase.dll
+- API-MS-Win-Core-Com-l1-1-1.dll
+- API-MS-Win-DownLevel-Ole32-l1-1-0.dll
+- API-MS-Win-DownLevel-Ole32-l1-1-1.dll
 api_name:
- - CoUnmarshalInterface
+- CoUnmarshalInterface
 targetos: Windows
 req.typenames: 
 req.redist: 

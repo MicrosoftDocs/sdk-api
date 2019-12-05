@@ -1,19 +1,17 @@
 ---
 UID: NF:projectedfslib.PrjAllocateAlignedBuffer
 title: PrjAllocateAlignedBuffer function (projectedfslib.h)
-
 description: Allocates a buffer that meets the memory alignment requirements of the virtualization instance's storage device.
 old-location: projfs\prjallocatealignedbuffer.htm
 tech.root: ProjFS
 ms.assetid: 49B723CC-976D-44C6-91D9-0FB26CFD45CA
-
 ms.date: 12/05/2018
 ms.keywords: PrjAllocateAlignedBuffer, PrjAllocateAlignedBuffer function, ProjFS.prjallocatealignedbuffer, projectedfslib/PrjAllocateAlignedBuffer
 ms.topic: function
-f1_keywords: 
- - "projectedfslib/PrjAllocateAlignedBuffer"
+f1_keywords:
+- projectedfslib/PrjAllocateAlignedBuffer
 dev_langs:
- - c++
+- c++
 req.header: projectedfslib.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - projectedfslib.h
+- projectedfslib.h
 api_name:
- - PrjAllocateAlignedBuffer
+- PrjAllocateAlignedBuffer
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NS:clfsmgmt._CLFS_MGMT_NOTIFICATION
 title: CLFS_MGMT_NOTIFICATION (clfsmgmt.h)
-
 description: The CLFS_MGMT_NOTIFICATION structure specifies information about the notifications that the client receives.
 old-location: fs\clfs_mgmt_notification.htm
 tech.root: Clfs
 ms.assetid: ba7f7414-885f-40d0-ab61-2348d7f6125b
-
 ms.date: 12/05/2018
-ms.keywords: "*PCLFS_MGMT_NOTIFICATION, CLFS_MGMT_NOTIFICATION, CLFS_MGMT_NOTIFICATION structure [Files], ClfsMgmtAdvanceTailNotification, ClfsMgmtLogFullHandlerNotification, ClfsMgmtLogUnpinnedNotification, ClfsMgmtLogWriteNotification, PCLFS_MGMT_NOTIFICATION, PCLFS_MGMT_NOTIFICATION structure pointer [Files], clfsmgmt/CLFS_MGMT_NOTIFICATION, clfsmgmt/PCLFS_MGMT_NOTIFICATION, fs.clfs_mgmt_notification"
+ms.keywords: '*PCLFS_MGMT_NOTIFICATION, CLFS_MGMT_NOTIFICATION, CLFS_MGMT_NOTIFICATION structure [Files], ClfsMgmtAdvanceTailNotification, ClfsMgmtLogFullHandlerNotification, ClfsMgmtLogUnpinnedNotification, ClfsMgmtLogWriteNotification, PCLFS_MGMT_NOTIFICATION, PCLFS_MGMT_NOTIFICATION structure pointer [Files], clfsmgmt/CLFS_MGMT_NOTIFICATION, clfsmgmt/PCLFS_MGMT_NOTIFICATION, fs.clfs_mgmt_notification'
 ms.topic: struct
-f1_keywords: 
- - "clfsmgmt/CLFS_MGMT_NOTIFICATION"
+f1_keywords:
+- clfsmgmt/CLFS_MGMT_NOTIFICATION
 dev_langs:
- - c++
+- c++
 req.header: clfsmgmt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - ClfsMgmt.h
+- ClfsMgmt.h
 api_name:
- - CLFS_MGMT_NOTIFICATION
+- CLFS_MGMT_NOTIFICATION
 targetos: Windows
 req.typenames: CLFS_MGMT_NOTIFICATION, *PCLFS_MGMT_NOTIFICATION
 req.redist: 

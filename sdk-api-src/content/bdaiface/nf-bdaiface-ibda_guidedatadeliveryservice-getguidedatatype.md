@@ -1,19 +1,17 @@
 ---
 UID: NF:bdaiface.IBDA_GuideDataDeliveryService.GetGuideDataType
 title: IBDA_GuideDataDeliveryService::GetGuideDataType (bdaiface.h)
-
 description: Gets the format UUID for the data that is retrieved on this service.
 old-location: mstv\ibda_guidedatadeliveryservice_getguidedatatype.htm
 tech.root: mstv
 ms.assetid: 74370ba8-2104-41f9-aa02-02b6790236da
-
 ms.date: 12/05/2018
 ms.keywords: CLSID_PBDA_GDDS_DATA_TYPE, GetGuideDataType, GetGuideDataType method [Microsoft TV Technologies], GetGuideDataType method [Microsoft TV Technologies],IBDA_GuideDataDeliveryService interface, IBDA_GuideDataDeliveryService interface [Microsoft TV Technologies],GetGuideDataType method, IBDA_GuideDataDeliveryService.GetGuideDataType, IBDA_GuideDataDeliveryService::GetGuideDataType, bdaiface/IBDA_GuideDataDeliveryService::GetGuideDataType, mstv.ibda_guidedatadeliveryservice_getguidedatatype
 ms.topic: method
-f1_keywords: 
- - "bdaiface/IBDA_GuideDataDeliveryService.GetGuideDataType"
+f1_keywords:
+- bdaiface/IBDA_GuideDataDeliveryService.GetGuideDataType
 dev_langs:
- - c++
+- c++
 req.header: bdaiface.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - bdaiface.h
+- bdaiface.h
 api_name:
- - IBDA_GuideDataDeliveryService.GetGuideDataType
+- IBDA_GuideDataDeliveryService.GetGuideDataType
 targetos: Windows
 req.typenames: 
 req.redist: 

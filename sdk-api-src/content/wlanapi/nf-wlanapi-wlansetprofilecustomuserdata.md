@@ -1,19 +1,17 @@
 ---
 UID: NF:wlanapi.WlanSetProfileCustomUserData
 title: WlanSetProfileCustomUserData function (wlanapi.h)
-
 description: Sets the custom user data associated with a profile.
 old-location: nwifi\wlansetuserdata.htm
 tech.root: NativeWiFi
 ms.assetid: 3b37ff29-4c9b-42c8-b00a-a9dfca1d3fed
-
 ms.date: 12/05/2018
 ms.keywords: WlanSetProfileCustomUserData, WlanSetProfileCustomUserData function [NativeWIFI], nwifi.wlansetuserdata, wlanapi/WlanSetProfileCustomUserData
 ms.topic: function
-f1_keywords: 
- - "wlanapi/WlanSetProfileCustomUserData"
+f1_keywords:
+- wlanapi/WlanSetProfileCustomUserData
 dev_langs:
- - c++
+- c++
 req.header: wlanapi.h
 req.include-header: Wlanapi.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Wlanapi.lib
 req.dll: Wlanapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - wlanapi.dll
+- wlanapi.dll
 api_name:
- - WlanSetProfileCustomUserData
+- WlanSetProfileCustomUserData
 targetos: Windows
 req.typenames: 
 req.redist: 

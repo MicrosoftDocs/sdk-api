@@ -1,19 +1,17 @@
 ---
 UID: NF:directmanipulation.IDirectManipulationCompositor.SetUpdateManager
 title: IDirectManipulationCompositor::SetUpdateManager (directmanipulation.h)
-
 description: Sets the update manager used to send compositor updates to Direct Manipulation.
 old-location: directmanipulation\idirectmanipulationcompositor_setupdatemanager.htm
 tech.root: directmanipulation
 ms.assetid: 8efab95b-2e06-4a3f-9b1b-171c1aada40a
-
 ms.date: 12/05/2018
 ms.keywords: IDirectManipulationCompositor interface [Direct Manipulation],SetUpdateManager method, IDirectManipulationCompositor.SetUpdateManager, IDirectManipulationCompositor::SetUpdateManager, SetUpdateManager, SetUpdateManager method [Direct Manipulation], SetUpdateManager method [Direct Manipulation],IDirectManipulationCompositor interface, directmanipulation.idirectmanipulationcompositor_setupdatemanager, directmanipulation/IDirectManipulationCompositor::SetUpdateManager
 ms.topic: method
-f1_keywords: 
- - "directmanipulation/IDirectManipulationCompositor.SetUpdateManager"
+f1_keywords:
+- directmanipulation/IDirectManipulationCompositor.SetUpdateManager
 dev_langs:
- - c++
+- c++
 req.header: directmanipulation.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - DirectManipulation.h
+- DirectManipulation.h
 api_name:
- - IDirectManipulationCompositor.SetUpdateManager
+- IDirectManipulationCompositor.SetUpdateManager
 targetos: Windows
 req.typenames: 
 req.redist: 

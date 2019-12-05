@@ -1,19 +1,17 @@
 ---
 UID: NN:gpmgmt.IGPMStarterGPOBackup
 title: IGPMStarterGPOBackup (gpmgmt.h)
-
 description: The IGPMStarterGPOBackup interface supports methods that allow you to delete GPMStarterGPOBackup objects and to retrieve various properties of GPMStarterGPOBackup objects.
 old-location: gpmc\igpmstartergpobackup.htm
 tech.root: gpmc
 ms.assetid: b062da03-6d9c-42b3-a4aa-5a7a6a38e4c9
-
 ms.date: 12/05/2018
 ms.keywords: GPMStarterGPOBackup, IGPMStarterGPOBackup, IGPMStarterGPOBackup interface [GPMC], IGPMStarterGPOBackup interface [GPMC],described, gpmc.igpmstartergpobackup, gpmgmt/IGPMStarterGPOBackup
 ms.topic: interface
-f1_keywords: 
- - "gpmgmt/IGPMStarterGPOBackup"
+f1_keywords:
+- gpmgmt/IGPMStarterGPOBackup
 dev_langs:
- - c++
+- c++
 req.header: gpmgmt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: Gpmgmt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gpmgmt.dll
+- Gpmgmt.dll
 api_name:
- - IGPMStarterGPOBackup
- - GPMStarterGPOBackup
+- IGPMStarterGPOBackup
+- GPMStarterGPOBackup
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NN:d3d10.ID3D10DepthStencilState
 title: ID3D10DepthStencilState (d3d10.h)
-
 description: A depth-stencil-state interface accesses depth-stencil state which sets up the depth-stencil test for the output-merger stage.
 old-location: direct3d10\id3d10depthstencilstate.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10depthstencilstate.htm
-
 ms.date: 12/05/2018
 ms.keywords: 756bea1e-80cb-6163-33a9-bbedb02e57da, ID3D10DepthStencilState, ID3D10DepthStencilState interface [Direct3D 10], ID3D10DepthStencilState interface [Direct3D 10],described, d3d10/ID3D10DepthStencilState, direct3d10.id3d10depthstencilstate
 ms.topic: interface
-f1_keywords: 
- - "d3d10/ID3D10DepthStencilState"
+f1_keywords:
+- d3d10/ID3D10DepthStencilState
 dev_langs:
- - c++
+- c++
 req.header: d3d10.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: D3D10.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D10.lib
- - D3D10.dll
+- D3D10.lib
+- D3D10.dll
 api_name:
- - ID3D10DepthStencilState
+- ID3D10DepthStencilState
 targetos: Windows
 req.typenames: 
 req.redist: 

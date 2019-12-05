@@ -1,19 +1,17 @@
 ---
 UID: NF:mfidl.IMFTrustedOutput.IsFinal
 title: IMFTrustedOutput::IsFinal (mfidl.h)
-
 description: Queries whether this output is a policy sink, meaning it handles the rights and restrictions required by the input trust authority (ITA).
 old-location: mf\imftrustedoutput_isfinal.htm
 tech.root: medfound
 ms.assetid: 085cac9c-f8c1-45b9-a8fe-c2c5cc941439
-
 ms.date: 12/05/2018
 ms.keywords: 085cac9c-f8c1-45b9-a8fe-c2c5cc941439, IMFTrustedOutput interface [Media Foundation],IsFinal method, IMFTrustedOutput.IsFinal, IMFTrustedOutput::IsFinal, IsFinal, IsFinal method [Media Foundation], IsFinal method [Media Foundation],IMFTrustedOutput interface, mf.imftrustedoutput_isfinal, mfidl/IMFTrustedOutput::IsFinal
 ms.topic: method
-f1_keywords: 
- - "mfidl/IMFTrustedOutput.IsFinal"
+f1_keywords:
+- mfidl/IMFTrustedOutput.IsFinal
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFTrustedOutput.IsFinal
+- IMFTrustedOutput.IsFinal
 targetos: Windows
 req.typenames: 
 req.redist: 

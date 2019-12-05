@@ -1,19 +1,17 @@
 ---
 UID: NF:segment.IMSVidAnalogTuner.put_CountryCode
 title: IMSVidAnalogTuner::put_CountryCode (segment.h)
-
 description: The put_CountryCode method specifies the tuner's country/region code.
 old-location: mstv\imsvidanalogtuner_put_countrycode.htm
 tech.root: mstv
 ms.assetid: e6ec6975-8953-45df-9d86-cf8b8888bba6
-
 ms.date: 12/05/2018
 ms.keywords: IMSVidAnalogTuner interface [Microsoft TV Technologies],put_CountryCode method, IMSVidAnalogTuner.put_CountryCode, IMSVidAnalogTuner::put_CountryCode, IMSVidAnalogTunerput_CountryCode, mstv.imsvidanalogtuner_put_countrycode, put_CountryCode, put_CountryCode method [Microsoft TV Technologies], put_CountryCode method [Microsoft TV Technologies],IMSVidAnalogTuner interface, segment/IMSVidAnalogTuner::put_CountryCode
 ms.topic: method
-f1_keywords: 
- - "segment/IMSVidAnalogTuner.put_CountryCode"
+f1_keywords:
+- segment/IMSVidAnalogTuner.put_CountryCode
 dev_langs:
- - c++
+- c++
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - segment.h
+- segment.h
 api_name:
- - IMSVidAnalogTuner.put_CountryCode
+- IMSVidAnalogTuner.put_CountryCode
 targetos: Windows
 req.typenames: 
 req.redist: 

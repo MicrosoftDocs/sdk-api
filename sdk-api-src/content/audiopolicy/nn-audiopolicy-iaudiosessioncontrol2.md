@@ -1,19 +1,17 @@
 ---
 UID: NN:audiopolicy.IAudioSessionControl2
 title: IAudioSessionControl2 (audiopolicy.h)
-
 description: The IAudioSessionControl2 interface can be used by a client to get information about the audio session.
 old-location: coreaudio\iaudiosessioncontrol2.htm
 tech.root: CoreAudio
 ms.assetid: 3bb65edf-103c-4eeb-82b4-7c571cddfcf3
-
 ms.date: 12/05/2018
 ms.keywords: IAudioSessionControl2, IAudioSessionControl2 interface [Core Audio], IAudioSessionControl2 interface [Core Audio],described, audiopolicy/IAudioSessionControl2, coreaudio.iaudiosessioncontrol2
 ms.topic: interface
-f1_keywords: 
- - "audiopolicy/IAudioSessionControl2"
+f1_keywords:
+- audiopolicy/IAudioSessionControl2
 dev_langs:
- - c++
+- c++
 req.header: audiopolicy.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - audiopolicy.h
+- audiopolicy.h
 api_name:
- - IAudioSessionControl2
+- IAudioSessionControl2
 targetos: Windows
 req.typenames: 
 req.redist: 

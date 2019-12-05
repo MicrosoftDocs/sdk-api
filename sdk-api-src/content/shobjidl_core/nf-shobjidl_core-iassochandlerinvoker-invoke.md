@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IAssocHandlerInvoker.Invoke
 title: IAssocHandlerInvoker::Invoke (shobjidl_core.h)
-
 description: Invokes an associated application handler.
 old-location: shell\IAssocHandlerInvoker_Invoke.htm
 tech.root: shell
 ms.assetid: 9b5de945-b177-4cbc-817c-447b2174323e
-
 ms.date: 12/05/2018
 ms.keywords: IAssocHandlerInvoker interface [Windows Shell],Invoke method, IAssocHandlerInvoker.Invoke, IAssocHandlerInvoker::Invoke, Invoke, Invoke method [Windows Shell], Invoke method [Windows Shell],IAssocHandlerInvoker interface, _shell_IAssocHandlerInvoker_Invoke, shell.IAssocHandlerInvoker_Invoke, shobjidl_core/IAssocHandlerInvoker::Invoke
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IAssocHandlerInvoker.Invoke"
+f1_keywords:
+- shobjidl_core/IAssocHandlerInvoker.Invoke
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - IAssocHandlerInvoker.Invoke
+- IAssocHandlerInvoker.Invoke
 targetos: Windows
 req.typenames: 
 req.redist: 

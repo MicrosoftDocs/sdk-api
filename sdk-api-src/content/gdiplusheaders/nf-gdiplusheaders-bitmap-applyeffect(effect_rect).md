@@ -3,14 +3,13 @@ UID: NF:gdiplusheaders.Bitmap.ApplyEffect(Effect,RECT)
 title: Bitmap::ApplyEffect
 description: The Bitmap::ApplyEffect method alters this Bitmap object by applying a specified effect.
 ms.assetid: fff2c151-92df-477e-aafd-6aaca27df414
-
 ms.date: 05/20/2019
 ms.keywords: Bitmap::ApplyEffect
 ms.topic: language-reference
-f1_keywords: 
- - "gdiplusheaders/Bitmap::ApplyEffect"
+f1_keywords:
+- gdiplusheaders/Bitmap::ApplyEffect
 dev_langs:
- - c++
+- c++
 targetos: Windows
 req.assembly: 
 req.construct-type: function
@@ -32,13 +31,13 @@ req.type-library:
 req.umdf-ver: 
 req.unicode-ansi: 
 topic_type:
- - apiref
+- apiref
 api_type:
- - COM
+- COM
 api_location:
- - gdiplusheaders.h
+- gdiplusheaders.h
 api_name:
- - Bitmap::ApplyEffect
+- Bitmap::ApplyEffect
 ---
 
 # ApplyEffect(Effect*,RECT*)

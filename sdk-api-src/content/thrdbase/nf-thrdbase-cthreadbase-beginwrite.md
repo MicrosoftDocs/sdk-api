@@ -1,19 +1,17 @@
 ---
 UID: NF:thrdbase.CThreadBase.BeginWrite
 title: CThreadBase::BeginWrite (thrdbase.h)
-
 description: The BeginWrite method provides thread safety by indicating the beginning of a data write operation when the provider is built on the WMI Provider Framework. CThreadBase is called internally.
 old-location: wmi\cthreadbase_beginwrite.htm
 tech.root: WmiSdk
 ms.assetid: 51ae6b39-b524-4bf9-ac71-45c812ad1680
-
 ms.date: 12/05/2018
-ms.keywords: "?BeginWrite@CThreadBase@@QAEHK@Z, BeginWrite, BeginWrite method [Windows Management Instrumentation], BeginWrite method [Windows Management Instrumentation],CThreadBase interface, CThreadBase interface [Windows Management Instrumentation],BeginWrite method, CThreadBase.BeginWrite, CThreadBase::BeginWrite, thrdbase/CThreadBase::BeginWrite, wmi.cthreadbase_beginwrite"
+ms.keywords: ?BeginWrite@CThreadBase@@QAEHK@Z, BeginWrite, BeginWrite method [Windows Management Instrumentation], BeginWrite method [Windows Management Instrumentation],CThreadBase interface, CThreadBase interface [Windows Management Instrumentation],BeginWrite method, CThreadBase.BeginWrite, CThreadBase::BeginWrite, thrdbase/CThreadBase::BeginWrite, wmi.cthreadbase_beginwrite
 ms.topic: method
-f1_keywords: 
- - "thrdbase/CThreadBase.BeginWrite"
+f1_keywords:
+- thrdbase/CThreadBase.BeginWrite
 dev_langs:
- - c++
+- c++
 req.header: thrdbase.h
 req.include-header: FwCommon.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: FrameDyn.lib
 req.dll: FrameDynOS.dll; FrameDyn.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - FrameDynOS.dll
- - FrameDyn.dll
+- FrameDynOS.dll
+- FrameDyn.dll
 api_name:
- - CThreadBase.BeginWrite
- - ?BeginWrite@CThreadBase@@QAEHK@Z
+- CThreadBase.BeginWrite
+- ?BeginWrite@CThreadBase@@QAEHK@Z
 targetos: Windows
 req.typenames: 
 req.redist: 

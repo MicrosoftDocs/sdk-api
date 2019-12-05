@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IAMTuner.ChannelMinMax
 title: IAMTuner::ChannelMinMax (strmif.h)
-
 description: The ChannelMinMax method retrieves the highest and lowest channels available.
 old-location: dshow\iamtuner_channelminmax.htm
 tech.root: DirectShow
 ms.assetid: f46bf0ff-cdb3-41b1-829e-4e1b348bd808
-
 ms.date: 12/05/2018
 ms.keywords: ChannelMinMax, ChannelMinMax method [DirectShow], ChannelMinMax method [DirectShow],IAMTuner interface, IAMTuner interface [DirectShow],ChannelMinMax method, IAMTuner.ChannelMinMax, IAMTuner::ChannelMinMax, IAMTunerChannelMinMax, dshow.iamtuner_channelminmax, strmif/IAMTuner::ChannelMinMax
 ms.topic: method
-f1_keywords: 
- - "strmif/IAMTuner.ChannelMinMax"
+f1_keywords:
+- strmif/IAMTuner.ChannelMinMax
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IAMTuner.ChannelMinMax
+- IAMTuner.ChannelMinMax
 targetos: Windows
 req.typenames: 
 req.redist: 

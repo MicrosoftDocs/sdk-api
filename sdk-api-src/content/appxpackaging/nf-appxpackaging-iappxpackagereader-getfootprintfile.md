@@ -1,19 +1,17 @@
 ---
 UID: NF:appxpackaging.IAppxPackageReader.GetFootprintFile
 title: IAppxPackageReader::GetFootprintFile (appxpackaging.h)
-
 description: Retrieves a footprint file from the package.
 old-location: appxpkg\iappxpackagereader_getfootprintfile.htm
 tech.root: appxpkg
 ms.assetid: 8CCF9135-308F-4BDC-A67F-1E3ED2ACF565
-
 ms.date: 12/05/2018
 ms.keywords: GetFootprintFile, GetFootprintFile method [App packaging and management], GetFootprintFile method [App packaging and management],IAppxPackageReader interface, IAppxPackageReader interface [App packaging and management],GetFootprintFile method, IAppxPackageReader.GetFootprintFile, IAppxPackageReader::GetFootprintFile, appxpackaging/IAppxPackageReader::GetFootprintFile, appxpkg.iappxpackagereader_getfootprintfile
 ms.topic: method
-f1_keywords: 
- - "appxpackaging/IAppxPackageReader.GetFootprintFile"
+f1_keywords:
+- appxpackaging/IAppxPackageReader.GetFootprintFile
 dev_langs:
- - c++
+- c++
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - AppxPackaging.h
+- AppxPackaging.h
 api_name:
- - IAppxPackageReader.GetFootprintFile
+- IAppxPackageReader.GetFootprintFile
 targetos: Windows
 req.typenames: 
 req.redist: 

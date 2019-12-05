@@ -1,19 +1,17 @@
 ---
 UID: NF:msctf.ITfContextComposition.EnumCompositions
 title: ITfContextComposition::EnumCompositions (msctf.h)
-
 description: ITfContextComposition::EnumCompositions method
 old-location: tsf\itfcontextcomposition_enumcompositions.htm
 tech.root: TSF
 ms.assetid: 230daf27-2655-4d67-b183-cd0f0c855298
-
 ms.date: 12/05/2018
 ms.keywords: EnumCompositions, EnumCompositions method [Text Services Framework], EnumCompositions method [Text Services Framework],ITfContextComposition interface, ITfContextComposition interface [Text Services Framework],EnumCompositions method, ITfContextComposition.EnumCompositions, ITfContextComposition::EnumCompositions, _tsf_itfcontextcomposition_enumcompositions_ref, msctf/ITfContextComposition::EnumCompositions, tsf.itfcontextcomposition_enumcompositions
 ms.topic: method
-f1_keywords: 
- - "msctf/ITfContextComposition.EnumCompositions"
+f1_keywords:
+- msctf/ITfContextComposition.EnumCompositions
 dev_langs:
- - c++
+- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msctf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msctf.dll
+- Msctf.dll
 api_name:
- - ITfContextComposition.EnumCompositions
+- ITfContextComposition.EnumCompositions
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

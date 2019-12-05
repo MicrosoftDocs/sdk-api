@@ -1,19 +1,17 @@
 ---
 UID: NS:pdh._PDH_FMT_COUNTERVALUE
 title: PDH_FMT_COUNTERVALUE (pdh.h)
-
 description: The PDH_FMT_COUNTERVALUE structure contains the computed value of the counter and its status.
 old-location: perf\pdh_fmt_countervalue_str.htm
 tech.root: perfctrs
 ms.assetid: 68ccd722-94d2-4610-ba64-f51318f5436e
-
 ms.date: 12/05/2018
-ms.keywords: "*PPDH_FMT_COUNTERVALUE, PDH_FMT_COUNTERVALUE, PDH_FMT_COUNTERVALUE structure [Perf], PPDH_FMT_COUNTERVALUE, PPDH_FMT_COUNTERVALUE structure pointer [Perf], _win32_pdh_fmt_countervalue_str, base.pdh_fmt_countervalue_str, pdh/PDH_FMT_COUNTERVALUE, pdh/PPDH_FMT_COUNTERVALUE, perf.pdh_fmt_countervalue_str"
+ms.keywords: '*PPDH_FMT_COUNTERVALUE, PDH_FMT_COUNTERVALUE, PDH_FMT_COUNTERVALUE structure [Perf], PPDH_FMT_COUNTERVALUE, PPDH_FMT_COUNTERVALUE structure pointer [Perf], _win32_pdh_fmt_countervalue_str, base.pdh_fmt_countervalue_str, pdh/PDH_FMT_COUNTERVALUE, pdh/PPDH_FMT_COUNTERVALUE, perf.pdh_fmt_countervalue_str'
 ms.topic: struct
-f1_keywords: 
- - "pdh/PDH_FMT_COUNTERVALUE"
+f1_keywords:
+- pdh/PDH_FMT_COUNTERVALUE
 dev_langs:
- - c++
+- c++
 req.header: pdh.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Pdh.h
+- Pdh.h
 api_name:
- - PDH_FMT_COUNTERVALUE
+- PDH_FMT_COUNTERVALUE
 targetos: Windows
 req.typenames: PDH_FMT_COUNTERVALUE, *PPDH_FMT_COUNTERVALUE
 req.redist: 

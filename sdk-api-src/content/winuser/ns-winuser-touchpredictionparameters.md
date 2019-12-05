@@ -1,19 +1,17 @@
 ---
 UID: NS:winuser.tagTouchPredictionParameters
 title: TOUCHPREDICTIONPARAMETERS (winuser.h)
-
 description: Contains hardware input details that can be used to predict touch targets and help compensate for hardware latency when processing touch and gesture input that contains distance and velocity data.
 old-location: inputmsg\touchpredictionparameters_struct.htm
 tech.root: InputMsg
 ms.assetid: 4F7F2B51-B65E-4699-A0FF-55A9A3AF4B61
-
 ms.date: 12/05/2018
-ms.keywords: "*PTOUCHPREDICTIONPARAMETERS, PTouchPredictionParameters, PTouchPredictionParameters structure pointer [Input Messages and Notifications], TOUCHPREDICTIONPARAMETERS, TouchPredictionParameters, TouchPredictionParameters structure [Input Messages and Notifications], _TouchPredictionParameters, inputmsg.touchpredictionparameters_struct, winuser/PTouchPredictionParameters, winuser/TouchPredictionParameters"
+ms.keywords: '*PTOUCHPREDICTIONPARAMETERS, PTouchPredictionParameters, PTouchPredictionParameters structure pointer [Input Messages and Notifications], TOUCHPREDICTIONPARAMETERS, TouchPredictionParameters, TouchPredictionParameters structure [Input Messages and Notifications], _TouchPredictionParameters, inputmsg.touchpredictionparameters_struct, winuser/PTouchPredictionParameters, winuser/TouchPredictionParameters'
 ms.topic: struct
-f1_keywords: 
- - "winuser/TouchPredictionParameters"
+f1_keywords:
+- winuser/TouchPredictionParameters
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Winuser.h
+- Winuser.h
 api_name:
- - TouchPredictionParameters
+- TouchPredictionParameters
 targetos: Windows
 req.typenames: TOUCHPREDICTIONPARAMETERS, *PTOUCHPREDICTIONPARAMETERS
 req.redist: 

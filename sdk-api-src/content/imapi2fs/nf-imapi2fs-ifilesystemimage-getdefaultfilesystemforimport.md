@@ -1,19 +1,17 @@
 ---
 UID: NF:imapi2fs.IFileSystemImage.GetDefaultFileSystemForImport
 title: IFileSystemImage::GetDefaultFileSystemForImport (imapi2fs.h)
-
 description: Retrieves the file system to import by default.
 old-location: imapi\ifilesystemimage_getdefaultfilesystemforimport.htm
 tech.root: imapi
 ms.assetid: bbac5b93-669f-45ea-9a3d-e2dd7f8bdcf6
-
 ms.date: 12/05/2018
 ms.keywords: GetDefaultFileSystemForImport, GetDefaultFileSystemForImport method [IMAPI], GetDefaultFileSystemForImport method [IMAPI],IFileSystemImage interface, IFileSystemImage interface [IMAPI],GetDefaultFileSystemForImport method, IFileSystemImage.GetDefaultFileSystemForImport, IFileSystemImage::GetDefaultFileSystemForImport, imapi.ifilesystemimage_getdefaultfilesystemforimport, imapi2fs/IFileSystemImage::GetDefaultFileSystemForImport
 ms.topic: method
-f1_keywords: 
- - "imapi2fs/IFileSystemImage.GetDefaultFileSystemForImport"
+f1_keywords:
+- imapi2fs/IFileSystemImage.GetDefaultFileSystemForImport
 dev_langs:
- - c++
+- c++
 req.header: imapi2fs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - imapi2fs.h
+- imapi2fs.h
 api_name:
- - IFileSystemImage.GetDefaultFileSystemForImport
+- IFileSystemImage.GetDefaultFileSystemForImport
 targetos: Windows
 req.typenames: 
 req.redist: 

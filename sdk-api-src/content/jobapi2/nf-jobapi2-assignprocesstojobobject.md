@@ -1,19 +1,17 @@
 ---
 UID: NF:jobapi2.AssignProcessToJobObject
 title: AssignProcessToJobObject function (jobapi2.h)
-
 description: Assigns a process to an existing job object.
 old-location: base\assignprocesstojobobject.htm
 tech.root: ProcThread
 ms.assetid: f5d7a39f-6afe-4e4a-a802-e7f875ea6e5b
-
 ms.date: 12/05/2018
 ms.keywords: AssignProcessToJobObject, AssignProcessToJobObject function, _win32_assignprocesstojobobject, base.assignprocesstojobobject, jobapi2/AssignProcessToJobObject
 ms.topic: function
-f1_keywords: 
- - "jobapi2/AssignProcessToJobObject"
+f1_keywords:
+- jobapi2/AssignProcessToJobObject
 dev_langs:
- - c++
+- c++
 req.header: jobapi2.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-job-l2-1-0.dll
- - kernel32legacy.dll
- - API-MS-Win-Core-Job-L2-1-1.dll
+- Kernel32.dll
+- API-MS-Win-Core-job-l2-1-0.dll
+- kernel32legacy.dll
+- API-MS-Win-Core-Job-L2-1-1.dll
 api_name:
- - AssignProcessToJobObject
+- AssignProcessToJobObject
 targetos: Windows
 req.typenames: 
 req.redist: 

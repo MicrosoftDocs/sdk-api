@@ -1,19 +1,17 @@
 ---
 UID: NF:sbtsv.ITsSbClientConnection.get_InitialProgram
 title: ITsSbClientConnection::get_InitialProgram (sbtsv.h)
-
 description: Retrieves a value that indicates the program that is launched when the user logs on to the target computer.
 old-location: termserv\itssbclientconnection_initialprogram.htm
 tech.root: TermServ
 ms.assetid: 8734b130-f1fd-4107-b0cc-482b78647ac7
-
 ms.date: 12/05/2018
 ms.keywords: ITsSbClientConnection interface [Remote Desktop Services],InitialProgram property, ITsSbClientConnection.InitialProgram, ITsSbClientConnection.get_InitialProgram, ITsSbClientConnection::InitialProgram, ITsSbClientConnection::get_InitialProgram, InitialProgram property [Remote Desktop Services], InitialProgram property [Remote Desktop Services],ITsSbClientConnection interface, get_InitialProgram, sbtsv/ITsSbClientConnection::InitialProgram, sbtsv/ITsSbClientConnection::get_InitialProgram, termserv.itssbclientconnection_initialprogram
 ms.topic: method
-f1_keywords: 
- - "sbtsv/ITsSbClientConnection.InitialProgram"
+f1_keywords:
+- sbtsv/ITsSbClientConnection.InitialProgram
 dev_langs:
- - c++
+- c++
 req.header: sbtsv.h
 req.include-header: Sbtsv.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - sbtsv.h
+- sbtsv.h
 api_name:
- - ITsSbClientConnection.InitialProgram
- - ITsSbClientConnection.get_InitialProgram
+- ITsSbClientConnection.InitialProgram
+- ITsSbClientConnection.get_InitialProgram
 targetos: Windows
 req.typenames: 
 req.redist: 

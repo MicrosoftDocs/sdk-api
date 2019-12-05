@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IFolderView2.GetViewProperty
 title: IFolderView2::GetViewProperty (shobjidl_core.h)
-
 description: Gets a property value for a given property key from the view's cache.
 old-location: shell\IFolderView2_GetViewProperty.htm
 tech.root: shell
 ms.assetid: 26749aa8-9c5d-4b6b-b5af-bf52d4e8c8ce
-
 ms.date: 12/05/2018
 ms.keywords: GetViewProperty, GetViewProperty method [Windows Shell], GetViewProperty method [Windows Shell],IFolderView2 interface, IFolderView2 interface [Windows Shell],GetViewProperty method, IFolderView2.GetViewProperty, IFolderView2::GetViewProperty, _shell_IFolderView2_GetViewProperty, shell.IFolderView2_GetViewProperty, shobjidl_core/IFolderView2::GetViewProperty
 ms.topic: method
 f1_keywords:
 - shobjidl_core/IFolderView2.GetViewProperty
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

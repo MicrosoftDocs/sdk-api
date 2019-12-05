@@ -1,19 +1,17 @@
 ---
 UID: NF:ras.RasCreatePhonebookEntryW
 title: RasCreatePhonebookEntryW function (ras.h)
-
 description: The RasCreatePhonebookEntry function creates a new phone-book entry. The function displays a dialog box in which the user types information for the phone-book entry.
 old-location: rras\rascreatephonebookentry.htm
 tech.root: RRAS
 ms.assetid: da8bd49f-e890-4e8a-ab4d-7366c6f2b361
-
 ms.date: 12/05/2018
 ms.keywords: RasCreatePhonebookEntry, RasCreatePhonebookEntry function [RAS], RasCreatePhonebookEntryA, RasCreatePhonebookEntryW, _ras_rascreatephonebookentry, ras/RasCreatePhonebookEntry, ras/RasCreatePhonebookEntryA, ras/RasCreatePhonebookEntryW, rras.rascreatephonebookentry
 ms.topic: function
-f1_keywords: 
- - "ras/RasCreatePhonebookEntry"
+f1_keywords:
+- ras/RasCreatePhonebookEntry
 dev_langs:
- - c++
+- c++
 req.header: ras.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Rasapi32.lib
 req.dll: Rasapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Rasapi32.dll
+- Rasapi32.dll
 api_name:
- - RasCreatePhonebookEntry
- - RasCreatePhonebookEntryA
- - RasCreatePhonebookEntryW
+- RasCreatePhonebookEntry
+- RasCreatePhonebookEntryA
+- RasCreatePhonebookEntryW
 targetos: Windows
 req.typenames: 
 req.redist: 

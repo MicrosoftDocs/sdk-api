@@ -1,19 +1,17 @@
 ---
 UID: NF:d2d1.ID2D1RenderTarget.BeginDraw
 title: ID2D1RenderTarget::BeginDraw (d2d1.h)
-
 description: Initiates drawing on this render target.
 old-location: direct2d\ID2D1RenderTarget_BeginDraw.htm
 tech.root: Direct2D
 ms.assetid: 0562b286-7427-4d76-b699-a39356496a0f
-
 ms.date: 12/05/2018
 ms.keywords: BeginDraw, BeginDraw method [Direct2D], BeginDraw method [Direct2D],ID2D1RenderTarget interface, ID2D1RenderTarget interface [Direct2D],BeginDraw method, ID2D1RenderTarget.BeginDraw, ID2D1RenderTarget::BeginDraw, d2d1/ID2D1RenderTarget::BeginDraw, direct2d.ID2D1RenderTarget_BeginDraw
 ms.topic: method
-f1_keywords: 
- - "d2d1/ID2D1RenderTarget.BeginDraw"
+f1_keywords:
+- d2d1/ID2D1RenderTarget.BeginDraw
 dev_langs:
- - c++
+- c++
 req.header: d2d1.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: D2d1.lib
 req.dll: D2d1.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D2d1.dll
+- D2d1.dll
 api_name:
- - ID2D1RenderTarget.BeginDraw
+- ID2D1RenderTarget.BeginDraw
 targetos: Windows
 req.typenames: 
 req.redist: 

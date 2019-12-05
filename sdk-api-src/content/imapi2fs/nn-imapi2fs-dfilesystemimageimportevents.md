@@ -1,19 +1,17 @@
 ---
 UID: NN:imapi2fs.DFileSystemImageImportEvents
 title: DFileSystemImageImportEvents (imapi2fs.h)
-
 description: Use this interface to receives notifications regarding the current file system import operation.
 old-location: imapi\dfilesystemimageimportevents.htm
 tech.root: imapi
 ms.assetid: 972ab985-17c5-4458-a7f4-59ac25c0dca4
-
 ms.date: 12/05/2018
 ms.keywords: DFileSystemImageImportEvents, DFileSystemImageImportEvents interface [IMAPI], DFileSystemImageImportEvents interface [IMAPI],described, imapi.dfilesystemimageimportevents, imapi2fs/DFileSystemImageImportEvents
 ms.topic: interface
-f1_keywords: 
- - "imapi2fs/DFileSystemImageImportEvents"
+f1_keywords:
+- imapi2fs/DFileSystemImageImportEvents
 dev_langs:
- - c++
+- c++
 req.header: imapi2fs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - imapi2fs.h
+- imapi2fs.h
 api_name:
- - DFileSystemImageImportEvents
+- DFileSystemImageImportEvents
 targetos: Windows
 req.typenames: 
 req.redist: 

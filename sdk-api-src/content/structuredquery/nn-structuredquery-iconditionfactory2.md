@@ -1,19 +1,17 @@
 ---
 UID: NN:structuredquery.IConditionFactory2
 title: IConditionFactory2 (structuredquery.h)
-
 description: Extends the functionality of IConditionFactory. IConditionFactory2 provides methods for creating or resolving a condition tree that was obtained by parsing a query string.
 old-location: search\_search_IConditionFactory2.htm
 tech.root: search
 ms.assetid: VS|SEARCH|~\search\wds3x\reference\ifaces\querying\iconditionfactory2\iconditionfactory2.htm
-
 ms.date: 12/05/2018
 ms.keywords: IConditionFactory2, IConditionFactory2 interface [search], IConditionFactory2 interface [search],described, _search_IConditionFactory2, search._search_IConditionFactory2, structuredquery/IConditionFactory2
 ms.topic: interface
-f1_keywords: 
- - "structuredquery/IConditionFactory2"
+f1_keywords:
+- structuredquery/IConditionFactory2
 dev_langs:
- - c++
+- c++
 req.header: structuredquery.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Structuredquery.h
+- Structuredquery.h
 api_name:
- - IConditionFactory2
+- IConditionFactory2
 targetos: Windows
 req.typenames: 
 req.redist: 

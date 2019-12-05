@@ -1,19 +1,17 @@
 ---
 UID: NF:wmdxva.IWMCodecAMVideoAccelerator.SetPlayerNotify
 title: IWMCodecAMVideoAccelerator::SetPlayerNotify (wmdxva.h)
-
 description: The SetPlayerNotify method is called by the output pin on the source filter to provide the decoder DMO with the source filter's IWMPlayerTimestampHook interface to enable the source filter to update the time stamps on the samples before they are delivered to the renderer.
 old-location: wmformat\iwmcodecamvideoaccelerator_setplayernotify.htm
 tech.root: wmformat
 ms.assetid: 3be015c4-a641-44b9-9be8-a76b5dd4f998
-
 ms.date: 12/05/2018
 ms.keywords: IWMCodecAMVideoAccelerator interface [windows Media Format],SetPlayerNotify method, IWMCodecAMVideoAccelerator.SetPlayerNotify, IWMCodecAMVideoAccelerator::SetPlayerNotify, IWMCodecAMVideoAcceleratorSetPlayerNotify, SetPlayerNotify, SetPlayerNotify method [windows Media Format], SetPlayerNotify method [windows Media Format],IWMCodecAMVideoAccelerator interface, wmdxva/IWMCodecAMVideoAccelerator::SetPlayerNotify, wmformat.iwmcodecamvideoaccelerator_setplayernotify
 ms.topic: method
-f1_keywords: 
- - "wmdxva/IWMCodecAMVideoAccelerator.SetPlayerNotify"
+f1_keywords:
+- wmdxva/IWMCodecAMVideoAccelerator.SetPlayerNotify
 dev_langs:
- - c++
+- c++
 req.header: wmdxva.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wmvcore.lib
- - Wmvcore.dll
- - WMStubDRM.lib
- - WMStubDRM.dll
+- Wmvcore.lib
+- Wmvcore.dll
+- WMStubDRM.lib
+- WMStubDRM.dll
 api_name:
- - IWMCodecAMVideoAccelerator.SetPlayerNotify
+- IWMCodecAMVideoAccelerator.SetPlayerNotify
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:wmsdkidl.IWMWriterFileSink.Open
 title: IWMWriterFileSink::Open (wmsdkidl.h)
-
 description: The Open method opens a file that acts as the writer sink.
 old-location: wmformat\iwmwriterfilesink_open.htm
 tech.root: wmformat
 ms.assetid: 14a36fe9-8293-4079-8189-8a8e0720c100
-
 ms.date: 12/05/2018
 ms.keywords: IWMWriterFileSink interface [windows Media Format],Open method, IWMWriterFileSink.Open, IWMWriterFileSink::Open, IWMWriterFileSinkOpen, Open, Open method [windows Media Format], Open method [windows Media Format],IWMWriterFileSink interface, wmformat.iwmwriterfilesink_open, wmsdkidl/IWMWriterFileSink::Open
 ms.topic: method
-f1_keywords: 
- - "wmsdkidl/IWMWriterFileSink.Open"
+f1_keywords:
+- wmsdkidl/IWMWriterFileSink.Open
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wmvcore.lib
- - Wmvcore.dll
- - WMStubDRM.lib
- - WMStubDRM.dll
+- Wmvcore.lib
+- Wmvcore.dll
+- WMStubDRM.lib
+- WMStubDRM.dll
 api_name:
- - IWMWriterFileSink.Open
+- IWMWriterFileSink.Open
 targetos: Windows
 req.typenames: 
 req.redist: 

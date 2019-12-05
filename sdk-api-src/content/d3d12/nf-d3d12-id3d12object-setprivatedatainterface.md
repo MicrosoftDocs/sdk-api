@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d12.ID3D12Object.SetPrivateDataInterface
 title: ID3D12Object::SetPrivateDataInterface (d3d12.h)
-
 description: Associates an IUnknown-derived interface with the device object and associates that interface with an application-defined GUID.
 old-location: direct3d12\id3d12object_setprivatedatainterface.htm
 tech.root: direct3d12
 ms.assetid: B03B9420-7E85-4C1A-858C-37B20E4D9B52
-
 ms.date: 12/05/2018
 ms.keywords: ID3D12Object interface,SetPrivateDataInterface method, ID3D12Object.SetPrivateDataInterface, ID3D12Object::SetPrivateDataInterface, SetPrivateDataInterface, SetPrivateDataInterface method, SetPrivateDataInterface method,ID3D12Object interface, d3d12/ID3D12Object::SetPrivateDataInterface, direct3d12.id3d12object_setprivatedatainterface
 ms.topic: method
-f1_keywords: 
- - "d3d12/ID3D12Object.SetPrivateDataInterface"
+f1_keywords:
+- d3d12/ID3D12Object.SetPrivateDataInterface
 dev_langs:
- - c++
+- c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: D3D12.lib
 req.dll: D3D12.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D12.dll
+- D3D12.dll
 api_name:
- - ID3D12Object.SetPrivateDataInterface
+- ID3D12Object.SetPrivateDataInterface
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NN:mbnapi.IMbnDeviceService
 title: IMbnDeviceService (mbnapi.h)
-
 description: Allows for communicating with a device service on a particular Mobile Broadband device.
 old-location: mbn\imbndeviceservice.htm
 tech.root: mbn
 ms.assetid: 5C587408-DF03-4123-BA5A-C2CCC378F60A
-
 ms.date: 12/05/2018
 ms.keywords: IMbnDeviceService, IMbnDeviceService interface [Microsoft Broadband Networks], IMbnDeviceService interface [Microsoft Broadband Networks],described, mbn.imbndeviceservice, mbnapi/IMbnDeviceService
 ms.topic: interface
-f1_keywords: 
- - "mbnapi/IMbnDeviceService"
+f1_keywords:
+- mbnapi/IMbnDeviceService
 dev_langs:
- - c++
+- c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mbnapi.h
+- mbnapi.h
 api_name:
- - IMbnDeviceService
+- IMbnDeviceService
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:imapi2.IDiscRecorder2.DisableMcn
 title: IDiscRecorder2::DisableMcn (imapi2.h)
-
 description: Disables Media Change Notification (MCN) for the device.
 old-location: imapi\idiscrecorder2_disablemcn.htm
 tech.root: imapi
 ms.assetid: 3111863e-64bf-467c-ac73-7a16c9aeb3df
-
 ms.date: 12/05/2018
 ms.keywords: DisableMcn, DisableMcn method [IMAPI], DisableMcn method [IMAPI],IDiscRecorder2 interface, IDiscRecorder2 interface [IMAPI],DisableMcn method, IDiscRecorder2.DisableMcn, IDiscRecorder2::DisableMcn, imapi.idiscrecorder2_disablemcn, imapi2/IDiscRecorder2::DisableMcn
 ms.topic: method
-f1_keywords: 
- - "imapi2/IDiscRecorder2.DisableMcn"
+f1_keywords:
+- imapi2/IDiscRecorder2.DisableMcn
 dev_langs:
- - c++
+- c++
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - imapi2.h
+- imapi2.h
 api_name:
- - IDiscRecorder2.DisableMcn
+- IDiscRecorder2.DisableMcn
 targetos: Windows
 req.typenames: 
 req.redist: 

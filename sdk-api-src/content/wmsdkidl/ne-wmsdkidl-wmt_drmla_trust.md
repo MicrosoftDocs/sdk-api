@@ -1,19 +1,17 @@
 ---
 UID: NE:wmsdkidl.tagWMT_DRMLA_TRUST
 title: WMT_DRMLA_TRUST (wmsdkidl.h)
-
 description: Defines the trust state of a DRM license acquisition URL.
 old-location: wmformat\wmt_drmla_trust.htm
 tech.root: wmformat
 ms.assetid: 48c62532-1cb5-4073-8fa9-cab5a8355bc3
-
 ms.date: 12/05/2018
 ms.keywords: WMT_DRMLA_TAMPERED, WMT_DRMLA_TRUST, WMT_DRMLA_TRUST enumeration [windows Media Format], WMT_DRMLA_TRUSTED, WMT_DRMLA_UNTRUSTED, wmformat.wmt_drmla_trust, wmsdkidl/WMT_DRMLA_TAMPERED, wmsdkidl/WMT_DRMLA_TRUST, wmsdkidl/WMT_DRMLA_TRUSTED, wmsdkidl/WMT_DRMLA_UNTRUSTED
 ms.topic: enum
-f1_keywords: 
- - "wmsdkidl/WMT_DRMLA_TRUST"
+f1_keywords:
+- wmsdkidl/WMT_DRMLA_TRUST
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wmsdkidl.h
+- Wmsdkidl.h
 api_name:
- - WMT_DRMLA_TRUST
+- WMT_DRMLA_TRUST
 targetos: Windows
 req.typenames: WMT_DRMLA_TRUST
 req.redist: 

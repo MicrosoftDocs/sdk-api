@@ -1,19 +1,17 @@
 ---
 UID: NF:qmgr.IEnumBackgroundCopyJobs1.Skip
 title: IEnumBackgroundCopyJobs1::Skip (qmgr.h)
-
 description: Use the Skip method to skip the next specified number of elements in the enumeration sequence. If there are fewer elements left in the sequence than the requested number of elements to skip, it skips past the last element in the sequence.
 old-location: bits\ienumbackgroundcopyjobs1_skip.htm
 tech.root: Bits
 ms.assetid: b388530c-688a-46a9-ae23-370f902b870e
-
 ms.date: 12/05/2018
 ms.keywords: IEnumBackgroundCopyJobs1 interface [BITS],Skip method, IEnumBackgroundCopyJobs1.Skip, IEnumBackgroundCopyJobs1::Skip, Skip, Skip method [BITS], Skip method [BITS],IEnumBackgroundCopyJobs1 interface, bits.ienumbackgroundcopyjobs1_skip, qmgr/IEnumBackgroundCopyJobs1::Skip
 ms.topic: method
-f1_keywords: 
- - "qmgr/IEnumBackgroundCopyJobs1.Skip"
+f1_keywords:
+- qmgr/IEnumBackgroundCopyJobs1.Skip
 dev_langs:
- - c++
+- c++
 req.header: qmgr.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: QmgrPrxy.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - QmgrPrxy.dll
+- QmgrPrxy.dll
 api_name:
- - IEnumBackgroundCopyJobs1.Skip
+- IEnumBackgroundCopyJobs1.Skip
 targetos: Windows
 req.typenames: 
 req.redist: 

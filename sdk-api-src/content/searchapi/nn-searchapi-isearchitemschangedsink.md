@@ -1,19 +1,17 @@
 ---
 UID: NN:searchapi.ISearchItemsChangedSink
 title: ISearchItemsChangedSink (searchapi.h)
-
 description: Provides notifications for changes to indexed items. Also provides notification of the hierarchical scope that is being monitored for changed items.
 old-location: search\_search_ISearchItemsChangedSink.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\notifications\isearchitemschangedsink\isearchitemschangedsink.htm
-
 ms.date: 12/05/2018
 ms.keywords: ISearchItemsChangedSink, ISearchItemsChangedSink interface [search], ISearchItemsChangedSink interface [search],described, _search_ISearchItemsChangedSink, search._search_ISearchItemsChangedSink, searchapi/ISearchItemsChangedSink
 ms.topic: interface
-f1_keywords: 
- - "searchapi/ISearchItemsChangedSink"
+f1_keywords:
+- searchapi/ISearchItemsChangedSink
 dev_langs:
- - c++
+- c++
 req.header: searchapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Searchapi.h
+- Searchapi.h
 api_name:
- - ISearchItemsChangedSink
+- ISearchItemsChangedSink
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0

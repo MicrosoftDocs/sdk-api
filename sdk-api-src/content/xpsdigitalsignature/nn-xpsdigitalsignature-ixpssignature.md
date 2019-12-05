@@ -1,19 +1,17 @@
 ---
 UID: NN:xpsdigitalsignature.IXpsSignature
 title: IXpsSignature (xpsdigitalsignature.h)
-
 description: Represents a single digital signature.
 old-location: xps\ixpssignature.htm
 tech.root: printdocs
 ms.assetid: 23e2f9bd-7b0b-46ef-8ce3-a0c63be554e5
-
 ms.date: 12/05/2018
 ms.keywords: IXpsSignature, IXpsSignature interface [XPS Documents and Packaging], IXpsSignature interface [XPS Documents and Packaging],described, xps.ixpssignature, xpsdigitalsignature/IXpsSignature
 ms.topic: interface
-f1_keywords: 
- - "xpsdigitalsignature/IXpsSignature"
+f1_keywords:
+- xpsdigitalsignature/IXpsSignature
 dev_langs:
- - c++
+- c++
 req.header: xpsdigitalsignature.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsdigitalsignature.h
+- xpsdigitalsignature.h
 api_name:
- - IXpsSignature
+- IXpsSignature
 targetos: Windows
 req.typenames: 
 req.redist: 

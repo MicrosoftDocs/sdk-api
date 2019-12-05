@@ -1,19 +1,17 @@
 ---
 UID: NN:mbnapi.IMbnConnectionProfileManager
 title: IMbnConnectionProfileManager (mbnapi.h)
-
 description: Provides access to connection profiles and connection notifications.
 old-location: mbn\imbnconnectionprofilemanager.htm
 tech.root: mbn
 ms.assetid: a55e4183-f914-4064-a391-3bd31ca59160
-
 ms.date: 12/05/2018
 ms.keywords: IMbnConnectionProfileManager, IMbnConnectionProfileManager interface [Microsoft Broadband Networks], IMbnConnectionProfileManager interface [Microsoft Broadband Networks],described, mbn.imbnconnectionprofilemanager, mbnapi/IMbnConnectionProfileManager
 ms.topic: interface
-f1_keywords: 
- - "mbnapi/IMbnConnectionProfileManager"
+f1_keywords:
+- mbnapi/IMbnConnectionProfileManager
 dev_langs:
- - c++
+- c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mbnapi.h
+- mbnapi.h
 api_name:
- - IMbnConnectionProfileManager
+- IMbnConnectionProfileManager
 targetos: Windows
 req.typenames: 
 req.redist: 

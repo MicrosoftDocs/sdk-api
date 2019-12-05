@@ -1,19 +1,17 @@
 ---
 UID: NF:cfapi.CfGetPlaceholderRangeInfo
 title: CfGetPlaceholderRangeInfo function (cfapi.h)
-
 description: Gets range information about a placeholder file or folder.
 old-location: cloudapi\cfgetplaceholderrangeinfo.htm
 tech.root: cfApi
 ms.assetid: B7FE94BC-DC59-407D-85A6-9657E38975AB
-
 ms.date: 12/05/2018
 ms.keywords: CfGetPlaceholderRangeInfo, CfGetPlaceholderRangeInfo function, cfapi/CfGetPlaceholderRangeInfo, cloudApi.cfgetplaceholderrangeinfo
 ms.topic: function
-f1_keywords: 
- - "cfapi/CfGetPlaceholderRangeInfo"
+f1_keywords:
+- cfapi/CfGetPlaceholderRangeInfo
 dev_langs:
- - c++
+- c++
 req.header: cfapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: CldApi.lib
 req.dll: CldApi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - CldApi.dll
+- CldApi.dll
 api_name:
- - CfGetPlaceholderRangeInfo
+- CfGetPlaceholderRangeInfo
 targetos: Windows
 req.typenames: 
 req.redist: 

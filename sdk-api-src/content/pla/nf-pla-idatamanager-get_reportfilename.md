@@ -1,19 +1,17 @@
 ---
 UID: NF:pla.IDataManager.get_ReportFileName
 title: IDataManager::get_ReportFileName (pla.h)
-
 description: Retrieves or sets the name of the HTML file that results from converting the file in the IDataManager::RuleTargetFileName property from XML to HTML.
 old-location: pla\idatamanager_reportfilename.htm
 tech.root: PLA
 ms.assetid: 5b4c1d99-2f41-423a-b019-845dcd61d516
-
 ms.date: 12/05/2018
 ms.keywords: IDataManager interface [PLA],ReportFileName property, IDataManager.ReportFileName, IDataManager.get_ReportFileName, IDataManager::ReportFileName, IDataManager::get_ReportFileName, IDataManager::put_ReportFileName, ReportFileName property [PLA], ReportFileName property [PLA],IDataManager interface, base.idatamanager_reportfilename, get_ReportFileName, pla.idatamanager_reportfilename, pla/IDataManager::ReportFileName, pla/IDataManager::get_ReportFileName, pla/IDataManager::put_ReportFileName
 ms.topic: method
-f1_keywords: 
- - "pla/IDataManager.ReportFileName"
+f1_keywords:
+- pla/IDataManager.ReportFileName
 dev_langs:
- - c++
+- c++
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: Pla.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Pla.dll
+- Pla.dll
 api_name:
- - IDataManager.ReportFileName
- - IDataManager.get_ReportFileName
- - IDataManager.put_ReportFileName
+- IDataManager.ReportFileName
+- IDataManager.get_ReportFileName
+- IDataManager.put_ReportFileName
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:wbemtime.WBEMTime.GetStructtm
 title: WBEMTime::GetStructtm (wbemtime.h)
-
 description: The GetStructtm method gets the time as an ANSI C run-time struct tm structure.
 old-location: wmi\wbemtime_getstructtm.htm
 tech.root: WmiSdk
 ms.assetid: 569e64c5-1b7e-49ef-abaa-be9b2f85269b
-
 ms.date: 12/05/2018
-ms.keywords: "?GetStructtm@WBEMTime@@QBEHPAUtm@@@Z, ?GetStructtm@WBEMTime@@QEBAHPEAUtm@@@Z, GetStructtm, GetStructtm method [Windows Management Instrumentation], GetStructtm method [Windows Management Instrumentation],WBEMTime interface, WBEMTime interface [Windows Management Instrumentation],GetStructtm method, WBEMTime.GetStructtm, WBEMTime::GetStructtm, _hmm_wbemtime_getstructtm, wbemtime/WBEMTime::GetStructtm, wmi.wbemtime_getstructtm"
+ms.keywords: ?GetStructtm@WBEMTime@@QBEHPAUtm@@@Z, ?GetStructtm@WBEMTime@@QEBAHPEAUtm@@@Z, GetStructtm, GetStructtm method [Windows Management Instrumentation], GetStructtm method [Windows Management Instrumentation],WBEMTime interface, WBEMTime interface [Windows Management Instrumentation],GetStructtm method, WBEMTime.GetStructtm, WBEMTime::GetStructtm, _hmm_wbemtime_getstructtm, wbemtime/WBEMTime::GetStructtm, wmi.wbemtime_getstructtm
 ms.topic: method
-f1_keywords: 
- - "wbemtime/WBEMTime.GetStructtm"
+f1_keywords:
+- wbemtime/WBEMTime.GetStructtm
 dev_langs:
- - c++
+- c++
 req.header: wbemtime.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib:
 req.dll: FrameDynOS.dll; FrameDyn.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - FrameDynOS.dll
- - FrameDyn.dll
+- FrameDynOS.dll
+- FrameDyn.dll
 api_name:
- - WBEMTime.GetStructtm
- - ?GetStructtm@WBEMTime@@QEBAHPEAUtm@@@Z
- - ?GetStructtm@WBEMTime@@QBEHPAUtm@@@Z
+- WBEMTime.GetStructtm
+- ?GetStructtm@WBEMTime@@QEBAHPEAUtm@@@Z
+- ?GetStructtm@WBEMTime@@QBEHPAUtm@@@Z
 targetos: Windows
 req.typenames: 
 req.redist: 

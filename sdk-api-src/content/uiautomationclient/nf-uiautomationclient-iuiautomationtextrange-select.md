@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationTextRange.Select
 title: IUIAutomationTextRange::Select (uiautomationclient.h)
-
 description: Selects the span of text that corresponds to this text range, and removes any previous selection.
 old-location: winauto\uiauto_IUIAutomationTextRange_Select.htm
 tech.root: WinAuto
 ms.assetid: 19e8dfe2-bf58-4ea1-8274-4e914f86ba07
-
 ms.date: 12/05/2018
 ms.keywords: IUIAutomationTextRange interface [Windows Accessibility],Select method, IUIAutomationTextRange.Select, IUIAutomationTextRange::Select, Select, Select method [Windows Accessibility], Select method [Windows Accessibility],IUIAutomationTextRange interface, uiauto.uiauto_IUIAutomationTextRange_Select, uiauto_IUIAutomationTextRange_Select, uiautomationclient/IUIAutomationTextRange::Select, winauto.uiauto_IUIAutomationTextRange_Select
 ms.topic: method
-f1_keywords: 
- - "uiautomationclient/IUIAutomationTextRange.Select"
+f1_keywords:
+- uiautomationclient/IUIAutomationTextRange.Select
 dev_langs:
- - c++
+- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationClient.h
+- UIAutomationClient.h
 api_name:
- - IUIAutomationTextRange.Select
+- IUIAutomationTextRange.Select
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NS:dwrite_3.DWRITE_LINE_METRICS1
 title: DWRITE_LINE_METRICS1 (dwrite_3.h)
-
 description: Contains information about a formatted line of text.
 old-location: directwrite\dwrite_line_metrics1.htm
 tech.root: DirectWrite
 ms.assetid: 7b5cc425-8a7e-0bff-3fe1-73984872b60b
-
 ms.date: 12/05/2018
 ms.keywords: DWRITE_LINE_METRICS1, DWRITE_LINE_METRICS1 structure [Direct Write], directwrite.dwrite_line_metrics1, dwrite_3/DWRITE_LINE_METRICS1
 ms.topic: struct
-f1_keywords: 
- - "dwrite_3/DWRITE_LINE_METRICS1"
+f1_keywords:
+- dwrite_3/DWRITE_LINE_METRICS1
 dev_langs:
- - c++
+- c++
 req.header: dwrite_3.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - dwrite_3.h
+- dwrite_3.h
 api_name:
- - DWRITE_LINE_METRICS1
+- DWRITE_LINE_METRICS1
 targetos: Windows
 req.typenames: 
 req.redist: 

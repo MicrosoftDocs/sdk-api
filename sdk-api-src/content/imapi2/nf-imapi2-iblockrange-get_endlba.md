@@ -1,19 +1,17 @@
 ---
 UID: NF:imapi2.IBlockRange.get_EndLba
 title: IBlockRange::get_EndLba (imapi2.h)
-
 description: Retrieves the end sector of the range specified by the IBlockRange interface.
 old-location: imapi\iblockrange_get_endlba.htm
 tech.root: imapi
 ms.assetid: e2260241-5922-4cf5-8aff-1dd7431a44c2
-
 ms.date: 12/05/2018
 ms.keywords: IBlockRange interface [IMAPI],get_EndLba method, IBlockRange.get_EndLba, IBlockRange::get_EndLba, get_EndLba, get_EndLba method [IMAPI], get_EndLba method [IMAPI],IBlockRange interface, imapi.iblockrange_get_endlba, imapi2/IBlockRange::get_EndLba
 ms.topic: method
-f1_keywords: 
- - "imapi2/IBlockRange.get_EndLba"
+f1_keywords:
+- imapi2/IBlockRange.get_EndLba
 dev_langs:
- - c++
+- c++
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - imapi2.h
+- imapi2.h
 api_name:
- - IBlockRange.get_EndLba
+- IBlockRange.get_EndLba
 targetos: Windows
 req.typenames: 
 req.redist: 

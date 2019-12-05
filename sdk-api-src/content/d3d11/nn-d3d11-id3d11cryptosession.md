@@ -1,19 +1,17 @@
 ---
 UID: NN:d3d11.ID3D11CryptoSession
 title: ID3D11CryptoSession (d3d11.h)
-
 description: Represents a cryptographic session.
 old-location: mf\id3d11cryptosession.htm
 tech.root: medfound
 ms.assetid: E17F39CB-61E3-44EF-805D-AD386743744E
-
 ms.date: 12/05/2018
 ms.keywords: ID3D11CryptoSession, ID3D11CryptoSession interface [Media Foundation], ID3D11CryptoSession interface [Media Foundation],described, d3d11/ID3D11CryptoSession, mf.id3d11cryptosession
 ms.topic: interface
-f1_keywords: 
- - "d3d11/ID3D11CryptoSession"
+f1_keywords:
+- d3d11/ID3D11CryptoSession
 dev_langs:
- - c++
+- c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - d3d11.h
+- d3d11.h
 api_name:
- - ID3D11CryptoSession
+- ID3D11CryptoSession
 targetos: Windows
 req.typenames: 
 req.redist: 

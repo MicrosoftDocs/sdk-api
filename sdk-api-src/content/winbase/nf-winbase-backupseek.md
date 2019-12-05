@@ -1,19 +1,17 @@
 ---
 UID: NF:winbase.BackupSeek
 title: BackupSeek function (winbase.h)
-
 description: Seeks forward in a data stream initially accessed by using the BackupRead or BackupWrite function.
 old-location: backup\backupseek.htm
 tech.root: Backup
 ms.assetid: d5ffba3d-f744-49b4-83e0-e32bd45ecc4c
-
 ms.date: 12/05/2018
 ms.keywords: BackupSeek, BackupSeek function [Backup], _win32_backupseek, backup.backupseek, base.backupseek, winbase/BackupSeek
 ms.topic: function
-f1_keywords: 
- - "winbase/BackupSeek"
+f1_keywords:
+- winbase/BackupSeek
 dev_langs:
- - c++
+- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
+- Kernel32.dll
 api_name:
- - BackupSeek
+- BackupSeek
 targetos: Windows
 req.typenames: 
 req.redist: 

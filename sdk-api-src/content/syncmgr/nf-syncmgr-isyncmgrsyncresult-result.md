@@ -1,19 +1,17 @@
 ---
 UID: NF:syncmgr.ISyncMgrSyncResult.Result
 title: ISyncMgrSyncResult::Result (syncmgr.h)
-
 description: Gets the result of a StartHandlerSync or StartItemSync call.
 old-location: shell\ISyncMgrSyncResult_Result.htm
 tech.root: shell
 ms.assetid: 8ba7de05-0703-4bab-bf64-ae84f42fad69
-
 ms.date: 12/05/2018
 ms.keywords: ISyncMgrSyncResult interface [Windows Shell],Result method, ISyncMgrSyncResult.Result, ISyncMgrSyncResult::Result, Result, Result method [Windows Shell], Result method [Windows Shell],ISyncMgrSyncResult interface, _shell_ISyncMgrSyncResult_Result, shell.ISyncMgrSyncResult_Result, syncmgr/ISyncMgrSyncResult::Result
 ms.topic: method
-f1_keywords: 
- - "syncmgr/ISyncMgrSyncResult.Result"
+f1_keywords:
+- syncmgr/ISyncMgrSyncResult.Result
 dev_langs:
- - c++
+- c++
 req.header: syncmgr.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Syncmgr.h
+- Syncmgr.h
 api_name:
- - ISyncMgrSyncResult.Result
+- ISyncMgrSyncResult.Result
 targetos: Windows
 req.typenames: 
 req.redist: 

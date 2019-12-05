@@ -1,19 +1,17 @@
 ---
 UID: NC:rpcdce.RPC_MGMT_AUTHORIZATION_FN
 title: RPC_MGMT_AUTHORIZATION_FN (rpcdce.h)
-
 description: The RPC_MGMT_AUTHORIZATION_FN enables server programs to implement custom RPC authorization techniques.
 old-location: rpc\rpc_mgmt_authorization_fn.htm
 tech.root: Rpc
 ms.assetid: 9b7ab901-1dcf-458c-858f-f411825f324b
-
 ms.date: 12/05/2018
 ms.keywords: RPC_MGMT_AUTHORIZATION_FN, RPC_MGMT_AUTHORIZATION_FN callback, RPC_MGMT_AUTHORIZATION_FN callback function [RPC], RpcMgmtInqIfIds, RpcMgmtInqServerPrincName, RpcMgmtInqStats, RpcMgmtIsServerListening, RpcMgmtStopServerListening, _rpc_rpc_mgmt_authorization_fn, rpc.rpc_mgmt_authorization_fn, rpcdce/RPC_MGMT_AUTHORIZATION_FN
 ms.topic: callback
-f1_keywords: 
- - "rpcdce/RPC_MGMT_AUTHORIZATION_FN"
+f1_keywords:
+- rpcdce/RPC_MGMT_AUTHORIZATION_FN
 dev_langs:
- - c++
+- c++
 req.header: rpcdce.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Rpcdce.h
+- Rpcdce.h
 api_name:
- - RPC_MGMT_AUTHORIZATION_FN
+- RPC_MGMT_AUTHORIZATION_FN
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:pla.IDataCollector.get_LogOverwrite
 title: IDataCollector::get_LogOverwrite (pla.h)
-
 description: Retrieves or sets a value that indicates if PLA should overwrite the current file.
 old-location: pla\idatacollector_logoverwrite.htm
 tech.root: PLA
 ms.assetid: 17f40639-2e24-4a7e-b934-036d8595bdbf
-
 ms.date: 12/05/2018
 ms.keywords: IDataCollector interface [PLA],LogOverwrite property, IDataCollector.LogOverwrite, IDataCollector.get_LogOverwrite, IDataCollector::LogOverwrite, IDataCollector::get_LogOverwrite, IDataCollector::put_LogOverwrite, LogOverwrite property [PLA], LogOverwrite property [PLA],IDataCollector interface, base.idatacollector_logoverwrite, get_LogOverwrite, pla.idatacollector_logoverwrite, pla/IDataCollector::LogOverwrite, pla/IDataCollector::get_LogOverwrite, pla/IDataCollector::put_LogOverwrite
 ms.topic: method
-f1_keywords: 
- - "pla/IDataCollector.LogOverwrite"
+f1_keywords:
+- pla/IDataCollector.LogOverwrite
 dev_langs:
- - c++
+- c++
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: Pla.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Pla.dll
+- Pla.dll
 api_name:
- - IDataCollector.LogOverwrite
- - IDataCollector.get_LogOverwrite
- - IDataCollector.put_LogOverwrite
+- IDataCollector.LogOverwrite
+- IDataCollector.get_LogOverwrite
+- IDataCollector.put_LogOverwrite
 targetos: Windows
 req.typenames: 
 req.redist: 

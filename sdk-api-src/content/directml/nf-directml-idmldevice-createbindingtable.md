@@ -1,19 +1,17 @@
 ---
 UID: NF:directml.IDMLDevice.CreateBindingTable
 title: IDMLDevice::CreateBindingTable
-
 description: Creates a binding table, which is an object that can be used to bind resources (such as tensors) to the pipeline.
 old-location: direct3d12\idmldevice_createbindingtable.htm
 tech.root: direct3d12
 ms.assetid: 04E981C1-833C-4359-A30F-A2727DD015BC
-
 ms.date: 12/5/2018
 ms.keywords: CreateBindingTable, CreateBindingTable method, CreateBindingTable method,IDMLDevice interface, IDMLDevice interface,CreateBindingTable method, IDMLDevice.CreateBindingTable, IDMLDevice::CreateBindingTable, direct3d12.idmldevice_createbindingtable, directml/IDMLDevice::CreateBindingTable
 ms.topic: method
-f1_keywords: 
- - "directml/IDMLDevice.CreateBindingTable"
+f1_keywords:
+- directml/IDMLDevice.CreateBindingTable
 dev_langs:
- - c++
+- c++
 req.header: directml.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: DirectML.lib
 req.dll: DirectML.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - DirectML.dll
+- DirectML.dll
 api_name:
- - IDMLDevice.CreateBindingTable
+- IDMLDevice.CreateBindingTable
 targetos: Windows
 req.typenames: 
 req.redist: 

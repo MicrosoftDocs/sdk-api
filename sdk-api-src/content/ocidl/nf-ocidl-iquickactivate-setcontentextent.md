@@ -1,19 +1,17 @@
 ---
 UID: NF:ocidl.IQuickActivate.SetContentExtent
 title: IQuickActivate::SetContentExtent (ocidl.h)
-
 description: Sets the content extent of a control.
 old-location: com\iquickactivate_setcontentextent.htm
 tech.root: com
 ms.assetid: 0f763bd3-08b9-4804-8e52-2c8014428a45
-
 ms.date: 12/05/2018
 ms.keywords: IQuickActivate interface [COM],SetContentExtent method, IQuickActivate.SetContentExtent, IQuickActivate::SetContentExtent, SetContentExtent, SetContentExtent method [COM], SetContentExtent method [COM],IQuickActivate interface, _ctrl_iquickactivate_setcontentextent, com.iquickactivate_setcontentextent, ocidl/IQuickActivate::SetContentExtent
 ms.topic: method
-f1_keywords: 
- - "ocidl/IQuickActivate.SetContentExtent"
+f1_keywords:
+- ocidl/IQuickActivate.SetContentExtent
 dev_langs:
- - c++
+- c++
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - OCIdl.h
+- OCIdl.h
 api_name:
- - IQuickActivate.SetContentExtent
+- IQuickActivate.SetContentExtent
 targetos: Windows
 req.typenames: 
 req.redist: 

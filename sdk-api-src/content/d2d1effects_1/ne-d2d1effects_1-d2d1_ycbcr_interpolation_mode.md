@@ -1,19 +1,17 @@
 ---
 UID: NE:d2d1effects_1.D2D1_YCBCR_INTERPOLATION_MODE
 title: D2D1_YCBCR_INTERPOLATION_MODE (d2d1effects_1.h)
-
 description: Specifies the interpolation mode for the YCbCr effect.
 old-location: direct2d\d2d1_ycbcr_interpolation_mode.htm
 tech.root: Direct2D
 ms.assetid: 30F27963-DF93-46B6-A30E-F89AD634C987
-
 ms.date: 12/05/2018
 ms.keywords: D2D1_YCBCR_INTERPOLATION_MODE, D2D1_YCBCR_INTERPOLATION_MODE enumeration [Direct2D], D2D1_YCBCR_INTERPOLATION_MODE_ANISOTROPIC, D2D1_YCBCR_INTERPOLATION_MODE_CUBIC, D2D1_YCBCR_INTERPOLATION_MODE_HIGH_QUALITY_CUBIC, D2D1_YCBCR_INTERPOLATION_MODE_LINEAR, D2D1_YCBCR_INTERPOLATION_MODE_MULTI_SAMPLE_LINEAR, D2D1_YCBCR_INTERPOLATION_MODE_NEAREST_NEIGHBOR, d2d1effects_1/D2D1_YCBCR_INTERPOLATION_MODE, d2d1effects_1/D2D1_YCBCR_INTERPOLATION_MODE_ANISOTROPIC, d2d1effects_1/D2D1_YCBCR_INTERPOLATION_MODE_CUBIC, d2d1effects_1/D2D1_YCBCR_INTERPOLATION_MODE_HIGH_QUALITY_CUBIC, d2d1effects_1/D2D1_YCBCR_INTERPOLATION_MODE_LINEAR, d2d1effects_1/D2D1_YCBCR_INTERPOLATION_MODE_MULTI_SAMPLE_LINEAR, d2d1effects_1/D2D1_YCBCR_INTERPOLATION_MODE_NEAREST_NEIGHBOR, direct2d.d2d1_ycbcr_interpolation_mode
 ms.topic: enum
-f1_keywords: 
- - "d2d1effects_1/D2D1_YCBCR_INTERPOLATION_MODE"
+f1_keywords:
+- d2d1effects_1/D2D1_YCBCR_INTERPOLATION_MODE
 dev_langs:
- - c++
+- c++
 req.header: d2d1effects_1.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - d2d1effects_1.h
+- d2d1effects_1.h
 api_name:
- - D2D1_YCBCR_INTERPOLATION_MODE
+- D2D1_YCBCR_INTERPOLATION_MODE
 targetos: Windows
 req.typenames: D2D1_YCBCR_INTERPOLATION_MODE
 req.redist: 

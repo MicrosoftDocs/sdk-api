@@ -1,19 +1,17 @@
 ---
 UID: NF:wmcontainer.MFCreateASFSplitter
 title: MFCreateASFSplitter function (wmcontainer.h)
-
 description: Creates the ASF Splitter.
 old-location: mf\mfcreateasfsplitter.htm
 tech.root: medfound
 ms.assetid: 05936a66-ed39-4645-adfb-5816b9981771
-
 ms.date: 12/05/2018
 ms.keywords: 05936a66-ed39-4645-adfb-5816b9981771, MFCreateASFSplitter, MFCreateASFSplitter function [Media Foundation], mf.mfcreateasfsplitter, wmcontainer/MFCreateASFSplitter
 ms.topic: function
-f1_keywords: 
- - "wmcontainer/MFCreateASFSplitter"
+f1_keywords:
+- wmcontainer/MFCreateASFSplitter
 dev_langs:
- - c++
+- c++
 req.header: wmcontainer.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Mf.lib
 req.dll: Mf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - mf.dll
+- mf.dll
 api_name:
- - MFCreateASFSplitter
+- MFCreateASFSplitter
 targetos: Windows
 req.typenames: 
 req.redist: 

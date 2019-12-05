@@ -1,19 +1,17 @@
 ---
 UID: NF:wingdi.SetICMProfileA
 title: SetICMProfileA function (wingdi.h)
-
 description: The SetICMProfile function sets a specified color profile as the output profile for a specified device context (DC).
 old-location: wcs\seticmprofile.htm
 tech.root: WCS
 ms.assetid: c95f6536-9377-4766-9eb6-004a41bcf6c5
-
 ms.date: 12/05/2018
 ms.keywords: SetICMProfile, SetICMProfile function [Windows Color System], SetICMProfileA, SetICMProfileW, _color_SetICMProfile, wcs.seticmprofile, wingdi/SetICMProfile, wingdi/SetICMProfileA, wingdi/SetICMProfileW
 ms.topic: function
-f1_keywords: 
- - "wingdi/SetICMProfile"
+f1_keywords:
+- wingdi/SetICMProfile
 dev_langs:
- - c++
+- c++
 req.header: wingdi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Gdi32.dll
- - Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
- - GDI32Full.dll
+- Gdi32.dll
+- Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
+- GDI32Full.dll
 api_name:
- - SetICMProfile
- - SetICMProfileA
- - SetICMProfileW
+- SetICMProfile
+- SetICMProfileA
+- SetICMProfileW
 targetos: Windows
 req.typenames: 
 req.redist: 

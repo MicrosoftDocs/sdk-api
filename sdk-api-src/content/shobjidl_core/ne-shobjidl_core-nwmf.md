@@ -1,19 +1,17 @@
 ---
 UID: NE:shobjidl_core.NWMF
 title: NWMF (shobjidl_core.h)
-
 description: Flags used by INewWindowManager::EvaluateNewWindow. These values are factors in the decision of whether to display a pop-up window.
 old-location: shell\NWMF.htm
 tech.root: shell
 ms.assetid: b55b60ae-fb56-4525-8113-35c417b28954
-
 ms.date: 12/05/2018
 ms.keywords: NWMF, NWMF enumeration [Windows Shell], NWMF_FIRST, NWMF_FORCETAB, NWMF_FORCEWINDOW, NWMF_FROMDIALOGCHILD, NWMF_HTMLDIALOG, NWMF_INACTIVETAB, NWMF_OVERRIDEKEY, NWMF_SHOWHELP, NWMF_SUGGESTTAB, NWMF_SUGGESTWINDOW, NWMF_UNLOADING, NWMF_USERALLOWED, NWMF_USERINITED, NWMF_USERREQUESTED, _shell_NWMF, shell.NWMF, shobjidl_core/NWMF, shobjidl_core/NWMF_FIRST, shobjidl_core/NWMF_FORCETAB, shobjidl_core/NWMF_FORCEWINDOW, shobjidl_core/NWMF_FROMDIALOGCHILD, shobjidl_core/NWMF_HTMLDIALOG, shobjidl_core/NWMF_INACTIVETAB, shobjidl_core/NWMF_OVERRIDEKEY, shobjidl_core/NWMF_SHOWHELP, shobjidl_core/NWMF_SUGGESTTAB, shobjidl_core/NWMF_SUGGESTWINDOW, shobjidl_core/NWMF_UNLOADING, shobjidl_core/NWMF_USERALLOWED, shobjidl_core/NWMF_USERINITED, shobjidl_core/NWMF_USERREQUESTED
 ms.topic: enum
-f1_keywords: 
- - "shobjidl_core/NWMF"
+f1_keywords:
+- shobjidl_core/NWMF
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - NWMF
+- NWMF
 targetos: Windows
 req.typenames: NWMF
 req.redist: 

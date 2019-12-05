@@ -1,19 +1,17 @@
 ---
 UID: NE:prntvpt.tagEDefaultDevmodeType
 title: EDefaultDevmodeType (prntvpt.h)
-
 description: Enables users to specify which DEVMODE to use as the source of default values when a print ticket does not specify all possible settings.
 old-location: gdi\edefaultdevmodetype.htm
 tech.root: printdocs
 ms.assetid: f3144ff6-1228-4e17-b118-fe70136edeea
-
 ms.date: 12/05/2018
 ms.keywords: EDefaultDevmodeType, EDefaultDevmodeType enumeration [Windows GDI], _win32_EDefaultDevmodeType, gdi.edefaultdevmodetype, kPrinterDefaultDevmode, kUserDefaultDevmode, prntvpt/EDefaultDevmodeType, prntvpt/kPrinterDefaultDevmode, prntvpt/kUserDefaultDevmode
 ms.topic: enum
-f1_keywords: 
- - "prntvpt/EDefaultDevmodeType"
+f1_keywords:
+- prntvpt/EDefaultDevmodeType
 dev_langs:
- - c++
+- c++
 req.header: prntvpt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - prntvpt.h
+- prntvpt.h
 api_name:
- - EDefaultDevmodeType
+- EDefaultDevmodeType
 targetos: Windows
 req.typenames: EDefaultDevmodeType
 req.redist: 

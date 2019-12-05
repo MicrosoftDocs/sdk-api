@@ -1,19 +1,17 @@
 ---
 UID: NE:shlobj_core.__unnamed_enum_8
 title: SCNRT_STATUS (shlobj_core.h)
-
 description: Indicates whether to enable or disable Async Register and Deregister for SHChangeNotifyRegisterThread.
 old-location: shell\SCNRT_STATUS.htm
 tech.root: shell
 ms.assetid: 31fd993b-d8cb-40cc-9f31-15711dba1b10
-
 ms.date: 12/05/2018
 ms.keywords: SCNRT_DISABLE, SCNRT_ENABLE, SCNRT_STATUS, SCNRT_STATUS enumeration [Windows Shell], _shell_SCNRT_STATUS, shell.SCNRT_STATUS, shlobj_core/SCNRT_DISABLE, shlobj_core/SCNRT_ENABLE, shlobj_core/SCNRT_STATUS
 ms.topic: enum
-f1_keywords: 
- - "shlobj_core/SCNRT_STATUS"
+f1_keywords:
+- shlobj_core/SCNRT_STATUS
 dev_langs:
- - c++
+- c++
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - shlobj_core.h
+- shlobj_core.h
 api_name:
- - SCNRT_STATUS
+- SCNRT_STATUS
 targetos: Windows
 req.typenames: SCNRT_STATUS
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:msinkaut.IInkStrokeDisp.GetPacketData
 title: IInkStrokeDisp::GetPacketData (msinkaut.h)
-
 description: Retrieves the packet data for a range of packets within the IInkStrokeDisp object.
 old-location: tablet\iinkstrokedisp_getpacketdata.htm
 tech.root: tablet
 ms.assetid: 015ca2ca-3bcc-443c-a38c-7f67b69c5907
-
 ms.date: 12/05/2018
 ms.keywords: 015ca2ca-3bcc-443c-a38c-7f67b69c5907, GetPacketData, GetPacketData method [Tablet PC], GetPacketData method [Tablet PC],IInkStrokeDisp interface, IInkStrokeDisp interface [Tablet PC],GetPacketData method, IInkStrokeDisp.GetPacketData, IInkStrokeDisp::GetPacketData, msinkaut/IInkStrokeDisp::GetPacketData, tablet.iinkstrokedisp_getpacketdata
 ms.topic: method
-f1_keywords: 
- - "msinkaut/IInkStrokeDisp.GetPacketData"
+f1_keywords:
+- msinkaut/IInkStrokeDisp.GetPacketData
 dev_langs:
- - c++
+- c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: InkObj.dll
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - InkObj.dll
- - InkObj.dll.dll
+- InkObj.dll
+- InkObj.dll.dll
 api_name:
- - IInkStrokeDisp.GetPacketData
+- IInkStrokeDisp.GetPacketData
 targetos: Windows
 req.typenames: 
 req.redist: 

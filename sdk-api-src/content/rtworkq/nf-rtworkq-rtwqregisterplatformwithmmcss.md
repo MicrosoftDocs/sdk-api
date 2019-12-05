@@ -1,19 +1,17 @@
 ---
 UID: NF:rtworkq.RtwqRegisterPlatformWithMMCSS
 title: RtwqRegisterPlatformWithMMCSS function (rtworkq.h)
-
 description: Registers the standard platform work queues with the Multimedia Class Scheduler Service (MMCSS).
 old-location: base\rtwqregisterplatformwithmmcss.htm
 tech.root: ProcThread
 ms.assetid: 17ba1e77-f1b0-4575-b96c-bf42813279ce
-
 ms.date: 12/05/2018
 ms.keywords: RtwqRegisterPlatformWithMMCSS, RtwqRegisterPlatformWithMMCSS function, base.rtwqregisterplatformwithmmcss, rtworkq/RtwqRegisterPlatformWithMMCSS
 ms.topic: function
-f1_keywords: 
- - "rtworkq/RtwqRegisterPlatformWithMMCSS"
+f1_keywords:
+- rtworkq/RtwqRegisterPlatformWithMMCSS
 dev_langs:
- - c++
+- c++
 req.header: rtworkq.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Rtworkq.lib
 req.dll: RTWorkQ.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - RTWorkQ.dll
+- RTWorkQ.dll
 api_name:
- - RtwqRegisterPlatformWithMMCSS
+- RtwqRegisterPlatformWithMMCSS
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:imapi2fs.IFileSystemImage.put_WorkingDirectory
 title: IFileSystemImage::put_WorkingDirectory (imapi2fs.h)
-
 description: Sets the temporary directory in which stash files are built.
 old-location: imapi\ifilesystemimage_put_workingdirectory.htm
 tech.root: imapi
 ms.assetid: bfe37cfe-654d-4923-b667-e44be7ce4715
-
 ms.date: 12/05/2018
 ms.keywords: IFileSystemImage interface [IMAPI],put_WorkingDirectory method, IFileSystemImage.put_WorkingDirectory, IFileSystemImage::put_WorkingDirectory, imapi.ifilesystemimage_put_workingdirectory, imapi2fs/IFileSystemImage::put_WorkingDirectory, put_WorkingDirectory, put_WorkingDirectory method [IMAPI], put_WorkingDirectory method [IMAPI],IFileSystemImage interface
 ms.topic: method
-f1_keywords: 
- - "imapi2fs/IFileSystemImage.put_WorkingDirectory"
+f1_keywords:
+- imapi2fs/IFileSystemImage.put_WorkingDirectory
 dev_langs:
- - c++
+- c++
 req.header: imapi2fs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - imapi2fs.h
+- imapi2fs.h
 api_name:
- - IFileSystemImage.put_WorkingDirectory
+- IFileSystemImage.put_WorkingDirectory
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IAMCrossbar.CanRoute
 title: IAMCrossbar::CanRoute (strmif.h)
-
 description: The CanRoute method queries whether a specified input pin can be routed to a specified output pin.
 old-location: dshow\iamcrossbar_canroute.htm
 tech.root: DirectShow
 ms.assetid: 13be4b35-14d9-4565-8939-e6e755f256ab
-
 ms.date: 12/05/2018
 ms.keywords: CanRoute, CanRoute method [DirectShow], CanRoute method [DirectShow],IAMCrossbar interface, IAMCrossbar interface [DirectShow],CanRoute method, IAMCrossbar.CanRoute, IAMCrossbar::CanRoute, IAMCrossbarCanRoute, dshow.iamcrossbar_canroute, strmif/IAMCrossbar::CanRoute
 ms.topic: method
-f1_keywords: 
- - "strmif/IAMCrossbar.CanRoute"
+f1_keywords:
+- strmif/IAMCrossbar.CanRoute
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IAMCrossbar.CanRoute
+- IAMCrossbar.CanRoute
 targetos: Windows
 req.typenames: 
 req.redist: 

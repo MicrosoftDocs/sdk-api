@@ -1,19 +1,17 @@
 ---
 UID: NF:gpmgmt.IGPMGPOLinksCollection.get_Count
 title: IGPMGPOLinksCollection::get_Count (gpmgmt.h)
-
 description: Returns the number of GPO links in the collection.
 old-location: gpmc\igpmgpolinkscollection_get_count.htm
 tech.root: gpmc
 ms.assetid: 09307f35-d90f-4ef8-9eee-2ef33b765c19
-
 ms.date: 12/05/2018
 ms.keywords: Count property [GPMC], Count property [GPMC],GPMGPOLinksCollection class, Count property [GPMC],IGPMGPOLinksCollection interface, GPMGPOLinksCollection class [GPMC],Count property, IGPMGPOLinksCollection interface [GPMC],Count property, IGPMGPOLinksCollection.Count, IGPMGPOLinksCollection.get_Count, IGPMGPOLinksCollection::Count, IGPMGPOLinksCollection::get_Count, _win32_igpmgpolinkscollection_get_count, get_Count, gpmc.igpmgpolinkscollection_get_count, gpmgmt/IGPMGPOLinksCollection::Count, gpmgmt/IGPMGPOLinksCollection::get_Count
 ms.topic: method
-f1_keywords: 
- - "gpmgmt/IGPMGPOLinksCollection.Count"
+f1_keywords:
+- gpmgmt/IGPMGPOLinksCollection.Count
 dev_langs:
- - c++
+- c++
 req.header: gpmgmt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: Gpmgmt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gpmgmt.dll
+- Gpmgmt.dll
 api_name:
- - IGPMGPOLinksCollection.Count
- - IGPMGPOLinksCollection.get_Count
- - GPMGPOLinksCollection.Count
+- IGPMGPOLinksCollection.Count
+- IGPMGPOLinksCollection.get_Count
+- GPMGPOLinksCollection.Count
 targetos: Windows
 req.typenames: 
 req.redist: 

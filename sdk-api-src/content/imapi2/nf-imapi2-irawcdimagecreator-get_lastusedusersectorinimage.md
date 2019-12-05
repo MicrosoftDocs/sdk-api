@@ -1,19 +1,17 @@
 ---
 UID: NF:imapi2.IRawCDImageCreator.get_LastUsedUserSectorInImage
 title: IRawCDImageCreator::get_LastUsedUserSectorInImage (imapi2.h)
-
 description: Retrieves the number of total used sectors on the current media, including any overhead between existing tracks.
 old-location: imapi\irawcdimagecreator_get_lastusedusersectorinimage.htm
 tech.root: imapi
 ms.assetid: 4a6b907a-2475-48c8-afd7-e212144bc165
-
 ms.date: 12/05/2018
 ms.keywords: IRawCDImageCreator interface [IMAPI],get_LastUsedUserSectorInImage method, IRawCDImageCreator.get_LastUsedUserSectorInImage, IRawCDImageCreator::get_LastUsedUserSectorInImage, get_LastUsedUserSectorInImage, get_LastUsedUserSectorInImage method [IMAPI], get_LastUsedUserSectorInImage method [IMAPI],IRawCDImageCreator interface, imapi.irawcdimagecreator_get_lastusedusersectorinimage, imapi2/IRawCDImageCreator::get_LastUsedUserSectorInImage
 ms.topic: method
-f1_keywords: 
- - "imapi2/IRawCDImageCreator.get_LastUsedUserSectorInImage"
+f1_keywords:
+- imapi2/IRawCDImageCreator.get_LastUsedUserSectorInImage
 dev_langs:
- - c++
+- c++
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - imapi2.h
+- imapi2.h
 api_name:
- - IRawCDImageCreator.get_LastUsedUserSectorInImage
+- IRawCDImageCreator.get_LastUsedUserSectorInImage
 targetos: Windows
 req.typenames: 
 req.redist: 

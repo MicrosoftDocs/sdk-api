@@ -1,19 +1,17 @@
 ---
 UID: NF:msi.MsiProcessAdvertiseScriptA
 title: MsiProcessAdvertiseScriptA function (msi.h)
-
 description: The MsiProcessAdvertiseScript function processes an advertise script file into the specified locations.
 old-location: setup\msiprocessadvertisescript.htm
 tech.root: Msi
 ms.assetid: 2c418552-2c06-4797-9fa3-d36e69ef0d53
-
 ms.date: 12/05/2018
 ms.keywords: MsiProcessAdvertiseScript, MsiProcessAdvertiseScript function, MsiProcessAdvertiseScriptA, MsiProcessAdvertiseScriptW, _msi_msiprocessadvertisescript, msi/MsiProcessAdvertiseScript, msi/MsiProcessAdvertiseScriptA, msi/MsiProcessAdvertiseScriptW, setup.msiprocessadvertisescript
 ms.topic: function
-f1_keywords: 
- - "msi/MsiProcessAdvertiseScript"
+f1_keywords:
+- msi/MsiProcessAdvertiseScript
 dev_langs:
- - c++
+- c++
 req.header: msi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Msi.lib
 req.dll: Msi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Msi.dll
+- Msi.dll
 api_name:
- - MsiProcessAdvertiseScript
- - MsiProcessAdvertiseScriptA
- - MsiProcessAdvertiseScriptW
+- MsiProcessAdvertiseScript
+- MsiProcessAdvertiseScriptA
+- MsiProcessAdvertiseScriptW
 targetos: Windows
 req.typenames: 
 req.redist: 

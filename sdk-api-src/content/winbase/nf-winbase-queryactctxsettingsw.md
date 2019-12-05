@@ -1,19 +1,17 @@
 ---
 UID: NF:winbase.QueryActCtxSettingsW
 title: QueryActCtxSettingsW function (winbase.h)
-
 description: The QueryActCtxSettingsW function specifies the activation context, and the namespace and name of the attribute that is to be queried.
 old-location: setup\queryactctxsettingsw.htm
 tech.root: SbsCs
 ms.assetid: 80e419a5-7b57-488a-90bc-1d38d063b1ee
-
 ms.date: 12/05/2018
 ms.keywords: QueryActCtxSettingsW, QueryActCtxSettingsW function [Side-by-side Assemblies], setup.queryactctxsettingsw, winbase/QueryActCtxSettingsW
 ms.topic: function
-f1_keywords: 
- - "winbase/QueryActCtxSettingsW"
+f1_keywords:
+- winbase/QueryActCtxSettingsW
 dev_langs:
- - c++
+- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-sidebyside-l1-1-0.dll
- - KernelBase.dll
+- Kernel32.dll
+- API-MS-Win-Core-sidebyside-l1-1-0.dll
+- KernelBase.dll
 api_name:
- - QueryActCtxSettingsW
+- QueryActCtxSettingsW
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:dbghelp.SymGetLinePrev
 title: SymGetLinePrev function (dbghelp.h)
-
 description: Retrieves the line information for the previous source line.
 old-location: base\symgetlineprev64.htm
 tech.root: Debug
 ms.assetid: 7f6d0f20-5dfa-4d6c-8551-1dbc3cc54176
-
 ms.date: 12/05/2018
 ms.keywords: SymGetLinePrev, SymGetLinePrev function, SymGetLinePrev64, SymGetLinePrev64 function, SymGetLinePrevW64, _win32_symgetlineprev64, base.symgetlineprev64, dbghelp/SymGetLinePrev, dbghelp/SymGetLinePrev64, dbghelp/SymGetLinePrevW64
 ms.topic: function
 f1_keywords:
 - dbghelp/SymGetLinePrev64
 dev_langs:
- - c++
+- c++
 req.header: dbghelp.h
 req.include-header: 
 req.target-type: Windows

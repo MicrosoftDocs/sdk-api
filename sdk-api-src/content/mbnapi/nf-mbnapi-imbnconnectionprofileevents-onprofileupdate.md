@@ -1,19 +1,17 @@
 ---
 UID: NF:mbnapi.IMbnConnectionProfileEvents.OnProfileUpdate
 title: IMbnConnectionProfileEvents::OnProfileUpdate (mbnapi.h)
-
 description: A notification method that indicates that profile update operation has completed.
 old-location: mbn\imbnconnectionprofileevents_onprofileupdatecomplete.htm
 tech.root: mbn
 ms.assetid: eb113544-0c89-4b38-a2f4-c67c639fe8a3
-
 ms.date: 12/05/2018
 ms.keywords: IMbnConnectionProfileEvents interface [Microsoft Broadband Networks],OnProfileUpdate method, IMbnConnectionProfileEvents.OnProfileUpdate, IMbnConnectionProfileEvents::OnProfileUpdate, OnProfileUpdate, OnProfileUpdate method [Microsoft Broadband Networks], OnProfileUpdate method [Microsoft Broadband Networks],IMbnConnectionProfileEvents interface, mbn.imbnconnectionprofileevents_onprofileupdatecomplete, mbnapi/IMbnConnectionProfileEvents::OnProfileUpdate
 ms.topic: method
-f1_keywords: 
- - "mbnapi/IMbnConnectionProfileEvents.OnProfileUpdate"
+f1_keywords:
+- mbnapi/IMbnConnectionProfileEvents.OnProfileUpdate
 dev_langs:
- - c++
+- c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mbnapi.h
+- mbnapi.h
 api_name:
- - IMbnConnectionProfileEvents.OnProfileUpdate
+- IMbnConnectionProfileEvents.OnProfileUpdate
 targetos: Windows
 req.typenames: 
 req.redist: 

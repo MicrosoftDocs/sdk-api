@@ -1,19 +1,17 @@
 ---
 UID: NF:rtmv2.RtmReleaseEntityInfo
 title: RtmReleaseEntityInfo function (rtmv2.h)
-
 description: The RtmReleaseEntityInfo function releases a client structure.
 old-location: rras\rtmreleaseentityinfo.htm
 tech.root: RRAS
 ms.assetid: ea72dde4-2d04-4ceb-b718-3ee96bf70464
-
 ms.date: 12/05/2018
 ms.keywords: RtmReleaseEntityInfo, RtmReleaseEntityInfo function [RAS], _rtmv2ref_rtmreleaseentityinfo, rras.rtmreleaseentityinfo, rtmv2/RtmReleaseEntityInfo
 ms.topic: function
 f1_keywords:
 - rtmv2/RtmReleaseEntityInfo
 dev_langs:
- - c++
+- c++
 req.header: rtmv2.h
 req.include-header: 
 req.target-type: Windows

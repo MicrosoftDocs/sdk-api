@@ -1,19 +1,17 @@
 ---
 UID: NF:wcsplugin.IDeviceModelPlugIn.GetGamutBoundaryMeshSize
 title: IDeviceModelPlugIn::GetGamutBoundaryMeshSize (wcsplugin.h)
-
 description: Returns the required data structure sizes for the GetGamutBoundaryMesh function.
 old-location: wcs\IDeviceModelPlugIn_GetGamutBoundaryMeshSize.htm
 tech.root: WCS
 ms.assetid: 302f8008-c65d-4794-9297-8b47e29e36ce
-
 ms.date: 12/05/2018
 ms.keywords: GetGamutBoundaryMeshSize, GetGamutBoundaryMeshSize method [Windows Color System], GetGamutBoundaryMeshSize method [Windows Color System],IDeviceModelPlugIn interface, IDeviceModelPlugIn interface [Windows Color System],GetGamutBoundaryMeshSize method, IDeviceModelPlugIn.GetGamutBoundaryMeshSize, IDeviceModelPlugIn::GetGamutBoundaryMeshSize, _color_IDeviceModelPlugIn::GetGamutBoundaryMeshSize, wcs.IDeviceModelPlugIn_GetGamutBoundaryMeshSize, wcsplugin/IDeviceModelPlugIn::GetGamutBoundaryMeshSize
 ms.topic: method
-f1_keywords: 
- - "wcsplugin/IDeviceModelPlugIn.GetGamutBoundaryMeshSize"
+f1_keywords:
+- wcsplugin/IDeviceModelPlugIn.GetGamutBoundaryMeshSize
 dev_langs:
- - c++
+- c++
 req.header: wcsplugin.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - WcsPlugIn.h
+- WcsPlugIn.h
 api_name:
- - IDeviceModelPlugIn.GetGamutBoundaryMeshSize
+- IDeviceModelPlugIn.GetGamutBoundaryMeshSize
 targetos: Windows
 req.typenames: 
 req.redist: 

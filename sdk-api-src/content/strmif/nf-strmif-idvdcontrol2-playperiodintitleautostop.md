@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IDvdControl2.PlayPeriodInTitleAutoStop
 title: IDvdControl2::PlayPeriodInTitleAutoStop (strmif.h)
-
 description: The PlayPeriodInTitleAutoStop method starts playback in the specified title from the specified start time until the specified end time.
 old-location: dshow\idvdcontrol2_playperiodintitleautostop.htm
 tech.root: DirectShow
 ms.assetid: 6c0d647c-a0c3-428e-8368-9204049dfea8
-
 ms.date: 12/05/2018
 ms.keywords: IDvdControl2 interface [DirectShow],PlayPeriodInTitleAutoStop method, IDvdControl2.PlayPeriodInTitleAutoStop, IDvdControl2::PlayPeriodInTitleAutoStop, IDvdControl2PlayPeriodInTitleAutoStop, PlayPeriodInTitleAutoStop, PlayPeriodInTitleAutoStop method [DirectShow], PlayPeriodInTitleAutoStop method [DirectShow],IDvdControl2 interface, dshow.idvdcontrol2_playperiodintitleautostop, strmif/IDvdControl2::PlayPeriodInTitleAutoStop
 ms.topic: method
-f1_keywords: 
- - "strmif/IDvdControl2.PlayPeriodInTitleAutoStop"
+f1_keywords:
+- strmif/IDvdControl2.PlayPeriodInTitleAutoStop
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IDvdControl2.PlayPeriodInTitleAutoStop
+- IDvdControl2.PlayPeriodInTitleAutoStop
 targetos: Windows
 req.typenames: 
 req.redist: 

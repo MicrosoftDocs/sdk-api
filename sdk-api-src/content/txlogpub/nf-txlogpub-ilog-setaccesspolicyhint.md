@@ -1,19 +1,17 @@
 ---
 UID: NF:txlogpub.ILog.SetAccessPolicyHint
 title: ILog::SetAccessPolicyHint (txlogpub.h)
-
 description: Provides a hint to the implementation about the pattern in which records will be read.
 old-location: com\ilog_setaccesspolicyhint.htm
 tech.root: com
 ms.assetid: a0a34300-e5de-4e47-9c61-389272283b61
-
 ms.date: 12/05/2018
 ms.keywords: ILog interface [COM],SetAccessPolicyHint method, ILog.SetAccessPolicyHint, ILog::SetAccessPolicyHint, SetAccessPolicyHint, SetAccessPolicyHint method [COM], SetAccessPolicyHint method [COM],ILog interface, _com_ilog_setaccesspolicyhint, com.ilog_setaccesspolicyhint, txlogpub/ILog::SetAccessPolicyHint
 ms.topic: method
-f1_keywords: 
- - "txlogpub/ILog.SetAccessPolicyHint"
+f1_keywords:
+- txlogpub/ILog.SetAccessPolicyHint
 dev_langs:
- - c++
+- c++
 req.header: txlogpub.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Txlogpub.h
+- Txlogpub.h
 api_name:
- - ILog.SetAccessPolicyHint
+- ILog.SetAccessPolicyHint
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:dcomp.IDCompositionSkewTransform.SetAngleX(float)
 title: IDCompositionSkewTransform::SetAngleX(float) (dcomp.h)
-
 description: Changes the value of the AngleX property of a 2D skew transform.
 old-location: directcomp\idcompositionskewtransform_setanglex_float.htm
 tech.root: directcomp
 ms.assetid: FE38F14B-69EA-4129-A944-DBBF784B53DE
-
 ms.date: 12/05/2018
 ms.keywords: IDCompositionSkewTransform interface [DirectComposition],SetAngleX method, IDCompositionSkewTransform.SetAngleX, IDCompositionSkewTransform.SetAngleX(float), IDCompositionSkewTransform::SetAngleX, IDCompositionSkewTransform::SetAngleX(float), SetAngleX, SetAngleX method [DirectComposition], SetAngleX method [DirectComposition],IDCompositionSkewTransform interface, dcomp/IDCompositionSkewTransform::SetAngleX, directcomp.idcompositionskewtransform_setanglex_float
 ms.topic: method
-f1_keywords: 
- - "dcomp/IDCompositionSkewTransform.SetAngleX"
+f1_keywords:
+- dcomp/IDCompositionSkewTransform.SetAngleX
 dev_langs:
- - c++
+- c++
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dcomp.lib
 req.dll: Dcomp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dcomp.dll
+- Dcomp.dll
 api_name:
- - IDCompositionSkewTransform.SetAngleX
+- IDCompositionSkewTransform.SetAngleX
 targetos: Windows
 req.typenames: 
 req.redist: 

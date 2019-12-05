@@ -1,19 +1,17 @@
 ---
 UID: NF:audiopolicy.IAudioSessionEvents.OnSimpleVolumeChanged
 title: IAudioSessionEvents::OnSimpleVolumeChanged (audiopolicy.h)
-
 description: The OnSimpleVolumeChanged method notifies the client that the volume level or muting state of the audio session has changed.
 old-location: coreaudio\iaudiosessionevents_onsimplevolumechanged.htm
 tech.root: CoreAudio
 ms.assetid: e60e8996-3c01-4458-88f2-cd6cb118bd76
-
 ms.date: 12/05/2018
 ms.keywords: IAudioSessionEvents interface [Core Audio],OnSimpleVolumeChanged method, IAudioSessionEvents.OnSimpleVolumeChanged, IAudioSessionEvents::OnSimpleVolumeChanged, IAudioSessionEventsOnSimpleVolumeChanged, OnSimpleVolumeChanged, OnSimpleVolumeChanged method [Core Audio], OnSimpleVolumeChanged method [Core Audio],IAudioSessionEvents interface, audiopolicy/IAudioSessionEvents::OnSimpleVolumeChanged, coreaudio.iaudiosessionevents_onsimplevolumechanged
 ms.topic: method
-f1_keywords: 
- - "audiopolicy/IAudioSessionEvents.OnSimpleVolumeChanged"
+f1_keywords:
+- audiopolicy/IAudioSessionEvents.OnSimpleVolumeChanged
 dev_langs:
- - c++
+- c++
 req.header: audiopolicy.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Audiopolicy.h
+- Audiopolicy.h
 api_name:
- - IAudioSessionEvents.OnSimpleVolumeChanged
+- IAudioSessionEvents.OnSimpleVolumeChanged
 targetos: Windows
 req.typenames: 
 req.redist: 

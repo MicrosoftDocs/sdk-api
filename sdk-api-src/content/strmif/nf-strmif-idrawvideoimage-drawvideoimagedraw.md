@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IDrawVideoImage.DrawVideoImageDraw
 title: IDrawVideoImage::DrawVideoImageDraw (strmif.h)
-
 description: Note  This interface has been deprecated. New applications should not use it. The DrawVideoImageDraw method draws the specified source rectangle to the specified destination rectangle in the specified GDI device context.
 old-location: dshow\idrawvideoimage_drawvideoimagedraw.htm
 tech.root: DirectShow
 ms.assetid: cecc3ae4-f1fa-437e-b967-c54fca10b27c
-
 ms.date: 12/05/2018
 ms.keywords: DrawVideoImageDraw, DrawVideoImageDraw method [DirectShow], DrawVideoImageDraw method [DirectShow],IDrawVideoImage interface, IDrawVideoImage interface [DirectShow],DrawVideoImageDraw method, IDrawVideoImage.DrawVideoImageDraw, IDrawVideoImage::DrawVideoImageDraw, IDrawVideoImageDrawVideoImageDraw, dshow.idrawvideoimage_drawvideoimagedraw, strmif/IDrawVideoImage::DrawVideoImageDraw
 ms.topic: method
-f1_keywords: 
- - "strmif/IDrawVideoImage.DrawVideoImageDraw"
+f1_keywords:
+- strmif/IDrawVideoImage.DrawVideoImageDraw
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmif.h
+- Strmif.h
 api_name:
- - IDrawVideoImage.DrawVideoImageDraw
+- IDrawVideoImage.DrawVideoImageDraw
 targetos: Windows
 req.typenames: 
 req.redist: 

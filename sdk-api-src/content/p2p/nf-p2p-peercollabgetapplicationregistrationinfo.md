@@ -1,19 +1,17 @@
 ---
 UID: NF:p2p.PeerCollabGetApplicationRegistrationInfo
 title: PeerCollabGetApplicationRegistrationInfo function (p2p.h)
-
 description: Obtains application-specific registration information.
 old-location: p2p\peercollabgetapplicationregistrationinfo.htm
 tech.root: P2PSdk
 ms.assetid: d1a8888e-4153-4486-9384-615ae7ed7031
-
 ms.date: 12/05/2018
 ms.keywords: PeerCollabGetApplicationRegistrationInfo, PeerCollabGetApplicationRegistrationInfo function [Peer Networking], p2p.peercollabgetapplicationregistrationinfo, p2p/PeerCollabGetApplicationRegistrationInfo
 ms.topic: function
-f1_keywords: 
- - "p2p/PeerCollabGetApplicationRegistrationInfo"
+f1_keywords:
+- p2p/PeerCollabGetApplicationRegistrationInfo
 dev_langs:
- - c++
+- c++
 req.header: p2p.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: P2P.lib
 req.dll: P2P.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - P2P.dll
+- P2P.dll
 api_name:
- - PeerCollabGetApplicationRegistrationInfo
+- PeerCollabGetApplicationRegistrationInfo
 targetos: Windows
 req.typenames: 
 req.redist: 

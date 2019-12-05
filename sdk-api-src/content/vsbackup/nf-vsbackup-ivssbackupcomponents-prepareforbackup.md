@@ -1,19 +1,17 @@
 ---
 UID: NF:vsbackup.IVssBackupComponents.PrepareForBackup
 title: IVssBackupComponents::PrepareForBackup (vsbackup.h)
-
 description: The PrepareForBackup method will cause VSS to generate a PrepareForBackup event, signaling writers to prepare for an upcoming backup operation. This makes a requester's Backup Components Document available to writers.
 old-location: base\ivssbackupcomponents_prepareforbackup.htm
 tech.root: VSS
 ms.assetid: 46ce8282-a434-4b0b-b66e-40810052b34b
-
 ms.date: 12/05/2018
 ms.keywords: IVssBackupComponents interface [VSS],PrepareForBackup method, IVssBackupComponents.PrepareForBackup, IVssBackupComponents::PrepareForBackup, PrepareForBackup, PrepareForBackup method [VSS], PrepareForBackup method [VSS],IVssBackupComponents interface, _win32_ivssbackupcomponents_prepareforbackup, base.ivssbackupcomponents_prepareforbackup, vsbackup/IVssBackupComponents::PrepareForBackup
 ms.topic: method
-f1_keywords: 
- - "vsbackup/IVssBackupComponents.PrepareForBackup"
+f1_keywords:
+- vsbackup/IVssBackupComponents.PrepareForBackup
 dev_langs:
- - c++
+- c++
 req.header: vsbackup.h
 req.include-header: VsBackup.h, Vss.h, VsWriter.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: VssApi.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - VssApi.lib
- - VssApi.dll
+- VssApi.lib
+- VssApi.dll
 api_name:
- - IVssBackupComponents.PrepareForBackup
+- IVssBackupComponents.PrepareForBackup
 targetos: Windows
 req.typenames: 
 req.redist: 

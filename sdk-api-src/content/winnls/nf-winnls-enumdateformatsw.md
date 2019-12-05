@@ -1,19 +1,17 @@
 ---
 UID: NF:winnls.EnumDateFormatsW
 title: EnumDateFormatsW function (winnls.h)
-
 description: Enumerates the long date, short date, or year/month formats that are available for a specified locale.
 old-location: intl\enumdateformats.htm
 tech.root: Intl
 ms.assetid: 77b5e753-aee9-42d8-a0fa-27b065fc3b20
-
 ms.date: 12/05/2018
 ms.keywords: EnumDateFormats, EnumDateFormats function [Internationalization for Windows Applications], EnumDateFormatsA, EnumDateFormatsW, _win32_EnumDateFormats, intl.enumdateformats, winnls/EnumDateFormats, winnls/EnumDateFormatsA, winnls/EnumDateFormatsW
 ms.topic: function
-f1_keywords: 
- - "winnls/EnumDateFormats"
+f1_keywords:
+- winnls/EnumDateFormats
 dev_langs:
- - c++
+- c++
 req.header: winnls.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,20 +30,20 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-Localization-l2-1-0.dll
- - KernelBase.dll
- - API-MS-Win-Core-Localization-Ansi-L1-1-0.dll
- - Kernel32Legacy.dll
+- Kernel32.dll
+- API-MS-Win-Core-Localization-l2-1-0.dll
+- KernelBase.dll
+- API-MS-Win-Core-Localization-Ansi-L1-1-0.dll
+- Kernel32Legacy.dll
 api_name:
- - EnumDateFormats
- - EnumDateFormatsA
- - EnumDateFormatsW
+- EnumDateFormats
+- EnumDateFormatsA
+- EnumDateFormatsW
 targetos: Windows
 req.typenames: 
 req.redist: 

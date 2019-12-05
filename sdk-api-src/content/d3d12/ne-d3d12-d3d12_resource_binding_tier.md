@@ -1,19 +1,17 @@
 ---
 UID: NE:d3d12.D3D12_RESOURCE_BINDING_TIER
 title: D3D12_RESOURCE_BINDING_TIER (d3d12.h)
-
 description: Identifies the tier of resource binding being used.
 old-location: direct3d12\d3d12_resource_binding_tier.htm
 tech.root: direct3d12
 ms.assetid: D09EB3C3-9FE6-416C-91C5-E04C869C757D
-
 ms.date: 12/05/2018
 ms.keywords: D3D12_RESOURCE_BINDING_TIER, D3D12_RESOURCE_BINDING_TIER enumeration, D3D12_RESOURCE_BINDING_TIER_1, D3D12_RESOURCE_BINDING_TIER_2, D3D12_RESOURCE_BINDING_TIER_3, d3d12/D3D12_RESOURCE_BINDING_TIER, d3d12/D3D12_RESOURCE_BINDING_TIER_1, d3d12/D3D12_RESOURCE_BINDING_TIER_2, d3d12/D3D12_RESOURCE_BINDING_TIER_3, direct3d12.d3d12_resource_binding_tier
 ms.topic: enum
-f1_keywords: 
- - "d3d12/D3D12_RESOURCE_BINDING_TIER"
+f1_keywords:
+- d3d12/D3D12_RESOURCE_BINDING_TIER
 dev_langs:
- - c++
+- c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - D3D12.h
+- D3D12.h
 api_name:
- - D3D12_RESOURCE_BINDING_TIER
+- D3D12_RESOURCE_BINDING_TIER
 targetos: Windows
 req.typenames: D3D12_RESOURCE_BINDING_TIER
 req.redist: 

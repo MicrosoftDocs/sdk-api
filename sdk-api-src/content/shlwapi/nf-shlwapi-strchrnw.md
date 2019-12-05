@@ -1,19 +1,17 @@
 ---
 UID: NF:shlwapi.StrChrNW
 title: StrChrNW function (shlwapi.h)
-
 description: Searches a string for the first occurrence of a specified character. The comparison is case-sensitive.
 old-location: shell\StrChrNW.htm
 tech.root: shell
 ms.assetid: f90470c3-62db-4fbb-a045-8fdd300a6aa4
-
 ms.date: 12/05/2018
 ms.keywords: StrChrNW, StrChrNW function [Windows Shell], _win32_StrChrNW, shell.StrChrNW, shlwapi/StrChrNW
 ms.topic: function
-f1_keywords: 
- - "shlwapi/StrChrNW"
+f1_keywords:
+- shlwapi/StrChrNW
 dev_langs:
- - c++
+- c++
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,19 +30,19 @@ req.lib: Shlwapi.lib
 req.dll: Shlwapi.dll (version 6.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Shlwapi.dll
- - API-MS-Win-Core-shlwapi-Obsolete-l1-1-0.dll
- - KernelBase.dll
- - API-MS-Win-Core-shlwapi-Obsolete-l1-2-0.dll
- - API-MS-Win-DownLevel-shlwapi-l1-1-0.dll
- - API-MS-Win-DownLevel-shlwapi-l1-1-1.dll
+- Shlwapi.dll
+- API-MS-Win-Core-shlwapi-Obsolete-l1-1-0.dll
+- KernelBase.dll
+- API-MS-Win-Core-shlwapi-Obsolete-l1-2-0.dll
+- API-MS-Win-DownLevel-shlwapi-l1-1-0.dll
+- API-MS-Win-DownLevel-shlwapi-l1-1-1.dll
 api_name:
- - StrChrNW
+- StrChrNW
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NE:d3d11.D3D11_FILTER_REDUCTION_TYPE
 title: D3D11_FILTER_REDUCTION_TYPE (d3d11.h)
-
 description: Specifies the type of sampler filter reduction.
 old-location: direct3d11\d3d11_filter_reduction_type.htm
 tech.root: direct3d11
 ms.assetid: 9124D1DE-8045-49DA-83A6-634083C79C84
-
 ms.date: 12/05/2018
 ms.keywords: D3D11_FILTER_REDUCTION_TYPE, D3D11_FILTER_REDUCTION_TYPE enumeration [Direct3D 11], D3D11_FILTER_REDUCTION_TYPE_COMPARISON, D3D11_FILTER_REDUCTION_TYPE_MAXIMUM, D3D11_FILTER_REDUCTION_TYPE_MINIMUM, D3D11_FILTER_REDUCTION_TYPE_STANDARD, d3d11/D3D11_FILTER_REDUCTION_TYPE, d3d11/D3D11_FILTER_REDUCTION_TYPE_COMPARISON, d3d11/D3D11_FILTER_REDUCTION_TYPE_MAXIMUM, d3d11/D3D11_FILTER_REDUCTION_TYPE_MINIMUM, d3d11/D3D11_FILTER_REDUCTION_TYPE_STANDARD, direct3d11.d3d11_filter_reduction_type
 ms.topic: enum
-f1_keywords: 
- - "d3d11/D3D11_FILTER_REDUCTION_TYPE"
+f1_keywords:
+- d3d11/D3D11_FILTER_REDUCTION_TYPE
 dev_langs:
- - c++
+- c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - d3d11.h
+- d3d11.h
 api_name:
- - D3D11_FILTER_REDUCTION_TYPE
+- D3D11_FILTER_REDUCTION_TYPE
 targetos: Windows
 req.typenames: D3D11_FILTER_REDUCTION_TYPE
 req.redist: 

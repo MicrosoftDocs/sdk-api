@@ -1,19 +1,17 @@
 ---
 UID: NF:gdiplusbrush.LinearGradientBrush.ScaleTransform
 title: LinearGradientBrush::ScaleTransform (gdiplusbrush.h)
-
 description: The LinearGradientBrush::ScaleTransform method updates this brush's current transformation matrix with the product of itself and a scaling matrix.
 old-location: gdiplus\_gdiplus_CLASS_LinearGradientBrush_ScaleTransform_sx_sy_order_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\lineargradientbrushclass\lineargradientbrushmethods\scaletransform_12sx_sy_order.htm
-
 ms.date: 12/05/2018
 ms.keywords: LinearGradientBrush class [GDI+],ScaleTransform method, LinearGradientBrush.ScaleTransform, LinearGradientBrush::ScaleTransform, ScaleTransform, ScaleTransform method [GDI+], ScaleTransform method [GDI+],LinearGradientBrush class, _gdiplus_CLASS_LinearGradientBrush_ScaleTransform_sx_sy_order_, gdiplus._gdiplus_CLASS_LinearGradientBrush_ScaleTransform_sx_sy_order_
 ms.topic: method
-f1_keywords: 
- - "gdiplusbrush/LinearGradientBrush.ScaleTransform"
+f1_keywords:
+- gdiplusbrush/LinearGradientBrush.ScaleTransform
 dev_langs:
- - c++
+- c++
 req.header: gdiplusbrush.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - LinearGradientBrush.ScaleTransform
+- LinearGradientBrush.ScaleTransform
 targetos: Windows
 req.typenames: 
 req.redist: 

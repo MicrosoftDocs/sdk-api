@@ -1,19 +1,17 @@
 ---
 UID: NF:comsvcs.ICrmCompensator.BeginAbort
 title: ICrmCompensator::BeginAbort (comsvcs.h)
-
 description: Notifies the CRM Compensator of the abort phase of the transaction completion and that records are about to be delivered.
 old-location: cos\icrmcompensator_beginabort.htm
 tech.root: cossdk
 ms.assetid: 443d0a09-0f5f-4237-870b-5cc47c80e2fe
-
 ms.date: 12/05/2018
 ms.keywords: BeginAbort, BeginAbort method [COM+], BeginAbort method [COM+],ICrmCompensator interface, ICrmCompensator interface [COM+],BeginAbort method, ICrmCompensator.BeginAbort, ICrmCompensator::BeginAbort, _dtc_ICrmCompensator_BeginAbort, comsvcs/ICrmCompensator::BeginAbort, cos.icrmcompensator_beginabort
 ms.topic: method
-f1_keywords: 
- - "comsvcs/ICrmCompensator.BeginAbort"
+f1_keywords:
+- comsvcs/ICrmCompensator.BeginAbort
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - ICrmCompensator.BeginAbort
+- ICrmCompensator.BeginAbort
 targetos: Windows
 req.typenames: 
 req.redist: 

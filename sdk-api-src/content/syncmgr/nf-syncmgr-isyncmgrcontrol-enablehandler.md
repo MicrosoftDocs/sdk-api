@@ -1,19 +1,17 @@
 ---
 UID: NF:syncmgr.ISyncMgrControl.EnableHandler
 title: ISyncMgrControl::EnableHandler (syncmgr.h)
-
 description: Enables or disables a handler.
 old-location: shell\ISyncMgrControl_EnableHandler.htm
 tech.root: shell
 ms.assetid: 92a9525c-bf06-4720-a3e2-5352fa693c8e
-
 ms.date: 12/05/2018
 ms.keywords: EnableHandler, EnableHandler method [Windows Shell], EnableHandler method [Windows Shell],ISyncMgrControl interface, ISyncMgrControl interface [Windows Shell],EnableHandler method, ISyncMgrControl.EnableHandler, ISyncMgrControl::EnableHandler, _shell_ISyncMgrControl_EnableHandler, shell.ISyncMgrControl_EnableHandler, syncmgr/ISyncMgrControl::EnableHandler
 ms.topic: method
-f1_keywords: 
- - "syncmgr/ISyncMgrControl.EnableHandler"
+f1_keywords:
+- syncmgr/ISyncMgrControl.EnableHandler
 dev_langs:
- - c++
+- c++
 req.header: syncmgr.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Syncmgr.h
+- Syncmgr.h
 api_name:
- - ISyncMgrControl.EnableHandler
+- ISyncMgrControl.EnableHandler
 targetos: Windows
 req.typenames: 
 req.redist: 

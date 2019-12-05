@@ -1,19 +1,17 @@
 ---
 UID: NF:wmsdkidl.IWMImageInfo.GetImage
 title: IWMImageInfo::GetImage (wmsdkidl.h)
-
 description: The GetImage method retrieves an image stored in a file as an ID3v2 &#0034;APIC&#0034; metadata frame.
 old-location: wmformat\iwmimageinfo_getimage.htm
 tech.root: wmformat
 ms.assetid: fe1dcd53-fcdd-4190-9a07-65d0b34112d0
-
 ms.date: 12/05/2018
 ms.keywords: GetImage, GetImage method [windows Media Format], GetImage method [windows Media Format],IWMImageInfo interface, IWMImageInfo interface [windows Media Format],GetImage method, IWMImageInfo.GetImage, IWMImageInfo::GetImage, IWMImageInfoGetImage, wmformat.iwmimageinfo_getimage, wmsdkidl/IWMImageInfo::GetImage
 ms.topic: method
-f1_keywords: 
- - "wmsdkidl/IWMImageInfo.GetImage"
+f1_keywords:
+- wmsdkidl/IWMImageInfo.GetImage
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wmvcore.lib
- - Wmvcore.dll
- - WMStubDRM.lib
- - WMStubDRM.dll
+- Wmvcore.lib
+- Wmvcore.dll
+- WMStubDRM.lib
+- WMStubDRM.dll
 api_name:
- - IWMImageInfo.GetImage
+- IWMImageInfo.GetImage
 targetos: Windows
 req.typenames: 
 req.redist: 

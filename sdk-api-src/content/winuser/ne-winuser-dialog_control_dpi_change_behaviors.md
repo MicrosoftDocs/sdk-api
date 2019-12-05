@@ -1,19 +1,17 @@
 ---
 UID: NE:winuser.DIALOG_CONTROL_DPI_CHANGE_BEHAVIORS
 title: DIALOG_CONTROL_DPI_CHANGE_BEHAVIORS (winuser.h)
-
 description: Describes per-monitor DPI scaling behavior overrides for child windows within dialogs. The values in this enumeration are bitfields and can be combined.
 old-location: hidpi\dialog_scaling_behavior.htm
 tech.root: hidpi
 ms.assetid: B368D997-F409-491A-8578-004C7408A160
-
 ms.date: 12/05/2018
 ms.keywords: DCDC_DEFAULT, DCDC_DISABLE_FONT_UPDATE, DCDC_DISABLE_RELAYOUT, DIALOG_CONTROL_DPI_CHANGE_BEHAVIOR, DIALOG_CONTROL_DPI_CHANGE_BEHAVIOR enumeration [High DPI], DIALOG_CONTROL_DPI_CHANGE_BEHAVIORS, DIALOG_SCALING_BEHAVIOR, DIALOG_SCALING_BEHAVIOR enumeration [High DPI], hidpi.dialog_scaling_behavior, winuser/DCDC_DEFAULT, winuser/DCDC_DISABLE_FONT_UPDATE, winuser/DCDC_DISABLE_RELAYOUT, winuser/DIALOG_CONTROL_DPI_CHANGE_BEHAVIOR
 ms.topic: enum
-f1_keywords: 
- - "winuser/DIALOG_SCALING_BEHAVIOR"
+f1_keywords:
+- winuser/DIALOG_SCALING_BEHAVIOR
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - winuser.h
+- winuser.h
 api_name:
- - DIALOG_SCALING_BEHAVIOR
+- DIALOG_SCALING_BEHAVIOR
 targetos: Windows
 req.typenames: DIALOG_CONTROL_DPI_CHANGE_BEHAVIORS
 req.redist: 

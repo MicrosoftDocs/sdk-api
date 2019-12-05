@@ -1,19 +1,17 @@
 ---
 UID: NE:lowlevelmonitorconfigurationapi._MC_VCP_CODE_TYPE
 title: MC_VCP_CODE_TYPE (lowlevelmonitorconfigurationapi.h)
-
 description: Describes a Virtual Control Panel (VCP) code type.
 old-location: monitor\mc_vcp_code_type.htm
 tech.root: Monitor
 ms.assetid: 2ccfd6d0-7885-45b7-b44f-edefa320b881
-
 ms.date: 12/05/2018
-ms.keywords: "*LPMC_VCP_CODE_TYPE, LPMC_VCP_CODE_TYPE, LPMC_VCP_CODE_TYPE enumeration pointer [Monitor Configuration], MC_MOMENTARY, MC_SET_PARAMETER, MC_VCP_CODE_TYPE, MC_VCP_CODE_TYPE , MC_VCP_CODE_TYPE enumeration [Monitor Configuration], lowlevelmonitorconfigurationapi/LPMC_VCP_CODE_TYPE, lowlevelmonitorconfigurationapi/MC_MOMENTARY, lowlevelmonitorconfigurationapi/MC_SET_PARAMETER, lowlevelmonitorconfigurationapi/MC_VCP_CODE_TYPE, monitor.mc_vcp_code_type"
+ms.keywords: '*LPMC_VCP_CODE_TYPE, LPMC_VCP_CODE_TYPE, LPMC_VCP_CODE_TYPE enumeration pointer [Monitor Configuration], MC_MOMENTARY, MC_SET_PARAMETER, MC_VCP_CODE_TYPE, MC_VCP_CODE_TYPE , MC_VCP_CODE_TYPE enumeration [Monitor Configuration], lowlevelmonitorconfigurationapi/LPMC_VCP_CODE_TYPE, lowlevelmonitorconfigurationapi/MC_MOMENTARY, lowlevelmonitorconfigurationapi/MC_SET_PARAMETER, lowlevelmonitorconfigurationapi/MC_VCP_CODE_TYPE, monitor.mc_vcp_code_type'
 ms.topic: enum
-f1_keywords: 
- - "lowlevelmonitorconfigurationapi/MC_VCP_CODE_TYPE"
+f1_keywords:
+- lowlevelmonitorconfigurationapi/MC_VCP_CODE_TYPE
 dev_langs:
- - c++
+- c++
 req.header: lowlevelmonitorconfigurationapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - LowLevelMonitorConfigurationAPI.h
+- LowLevelMonitorConfigurationAPI.h
 api_name:
- - MC_VCP_CODE_TYPE
+- MC_VCP_CODE_TYPE
 targetos: Windows
 req.typenames: MC_VCP_CODE_TYPE, *LPMC_VCP_CODE_TYPE
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:dvbsiparser.IIsdbDownloadContentDescriptor.GetComponentTag
 title: IIsdbDownloadContentDescriptor::GetComponentTag (dvbsiparser.h)
-
 description: Gets the tag that identifies a stream component from an Integrated Services Digital Broadcasting (ISDB) download content descriptor. This tag also identifies the stream in the program map table (PMT).
 old-location: mstv\iisdbdownloadcontentdescriptor_getcomponenttag.htm
 tech.root: mstv
 ms.assetid: d4ba2fbd-4349-48e3-81dd-622442409060
-
 ms.date: 12/05/2018
 ms.keywords: GetComponentTag, GetComponentTag method [Microsoft TV Technologies], GetComponentTag method [Microsoft TV Technologies],IIsdbDownloadContentDescriptor interface, IIsdbDownloadContentDescriptor interface [Microsoft TV Technologies],GetComponentTag method, IIsdbDownloadContentDescriptor.GetComponentTag, IIsdbDownloadContentDescriptor::GetComponentTag, dvbsiparser/IIsdbDownloadContentDescriptor::GetComponentTag, mstv.iisdbdownloadcontentdescriptor_getcomponenttag
 ms.topic: method
-f1_keywords: 
- - "dvbsiparser/IIsdbDownloadContentDescriptor.GetComponentTag"
+f1_keywords:
+- dvbsiparser/IIsdbDownloadContentDescriptor.GetComponentTag
 dev_langs:
- - c++
+- c++
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dvbsiparser.h
+- dvbsiparser.h
 api_name:
- - IIsdbDownloadContentDescriptor.GetComponentTag
+- IIsdbDownloadContentDescriptor.GetComponentTag
 targetos: Windows
 req.typenames: 
 req.redist: 

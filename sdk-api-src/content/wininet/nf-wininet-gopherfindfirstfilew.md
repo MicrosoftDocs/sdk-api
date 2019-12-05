@@ -1,19 +1,17 @@
 ---
 UID: NF:wininet.GopherFindFirstFileW
 title: GopherFindFirstFileW function (wininet.h)
-
 description: Uses a Gopher locator and search criteria to create a session with the server and locate the requested documents, binary files, index servers, or directory trees.
 old-location: wininet\gopherfindfirstfile.htm
 tech.root: wininet
 ms.assetid: 801dc601-9d1d-4f7d-acf0-b36ea2314d70
-
 ms.date: 12/05/2018
 ms.keywords: GopherFindFirstFile, GopherFindFirstFile function [WinINet], GopherFindFirstFileA, GopherFindFirstFileW, _inet_gopherfindfirstfile_function, wininet.gopherfindfirstfile, wininet/GopherFindFirstFile, wininet/GopherFindFirstFileA, wininet/GopherFindFirstFileW
 ms.topic: function
-f1_keywords: 
- - "wininet/GopherFindFirstFile"
+f1_keywords:
+- wininet/GopherFindFirstFile
 dev_langs:
- - c++
+- c++
 req.header: wininet.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Wininet.lib
 req.dll: Wininet.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Wininet.dll
+- Wininet.dll
 api_name:
- - GopherFindFirstFile
- - GopherFindFirstFileA
- - GopherFindFirstFileW
+- GopherFindFirstFile
+- GopherFindFirstFileA
+- GopherFindFirstFileW
 targetos: Windows
 req.typenames: 
 req.redist: 

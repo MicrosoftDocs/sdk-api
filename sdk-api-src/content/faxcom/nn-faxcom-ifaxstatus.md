@@ -1,19 +1,17 @@
 ---
 UID: NN:faxcom.IFaxStatus
 title: IFaxStatus (faxcom.h)
-
 description: The FaxStatus dual interface is used by a fax client application to retrieve status information for a specific port on a connected fax server.
 old-location: fax\_mfax_ifaxstatus.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_0ckz.htm
-
 ms.date: 12/05/2018
 ms.keywords: IFaxStatus, IFaxStatus interface [Fax Service], IFaxStatus interface [Fax Service],described, _mfax_ifaxstatus, fax._mfax_ifaxstatus, faxcom/IFaxStatus
 ms.topic: interface
-f1_keywords: 
- - "faxcom/IFaxStatus"
+f1_keywords:
+- faxcom/IFaxStatus
 dev_langs:
- - c++
+- c++
 req.header: faxcom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Faxcom.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Faxcom.dll
+- Faxcom.dll
 api_name:
- - IFaxStatus
+- IFaxStatus
 targetos: Windows
 req.typenames: 
 req.redist: 

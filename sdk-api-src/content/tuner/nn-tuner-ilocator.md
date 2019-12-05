@@ -1,19 +1,17 @@
 ---
 UID: NN:tuner.ILocator
 title: ILocator (tuner.h)
-
 description: The ILocator interface is implemented (through derived interfaces such as IATSCLocator) on Locator objects that contain tuning information about the tuning space.
 old-location: mstv\ilocator.htm
 tech.root: mstv
 ms.assetid: 1d6c18f0-e7f1-4a1c-9edb-e4b66297becf
-
 ms.date: 12/05/2018
 ms.keywords: ILocator, ILocator interface [Microsoft TV Technologies], ILocator interface [Microsoft TV Technologies],described, ILocatorInterface, mstv.ilocator, tuner/ILocator
 ms.topic: interface
-f1_keywords: 
- - "tuner/ILocator"
+f1_keywords:
+- tuner/ILocator
 dev_langs:
- - c++
+- c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - tuner.h
+- tuner.h
 api_name:
- - ILocator
+- ILocator
 targetos: Windows
 req.typenames: 
 req.redist: 

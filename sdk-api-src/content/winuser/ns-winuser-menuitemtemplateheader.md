@@ -1,19 +1,17 @@
 ---
 UID: NS:winuser.__unnamed_struct_6
 title: MENUITEMTEMPLATEHEADER (winuser.h)
-
 description: Defines the header for a menu template. A complete menu template consists of a header and one or more menu item lists.
 old-location: menurc\menuitemtemplateheader.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\menus\menureference\menustructures\menuitemtemplateheader.htm
-
 ms.date: 12/05/2018
-ms.keywords: "*PMENUITEMTEMPLATEHEADER, MENUITEMTEMPLATEHEADER, MENUITEMTEMPLATEHEADER structure [Menus and Other Resources], PMENUITEMTEMPLATEHEADER, PMENUITEMTEMPLATEHEADER structure pointer [Menus and Other Resources], _win32_MENUITEMTEMPLATEHEADER_str, _win32_menuitemtemplateheader_str_cpp, menurc.menuitemtemplateheader, winui._win32_menuitemtemplateheader_str, winuser/MENUITEMTEMPLATEHEADER, winuser/PMENUITEMTEMPLATEHEADER"
+ms.keywords: '*PMENUITEMTEMPLATEHEADER, MENUITEMTEMPLATEHEADER, MENUITEMTEMPLATEHEADER structure [Menus and Other Resources], PMENUITEMTEMPLATEHEADER, PMENUITEMTEMPLATEHEADER structure pointer [Menus and Other Resources], _win32_MENUITEMTEMPLATEHEADER_str, _win32_menuitemtemplateheader_str_cpp, menurc.menuitemtemplateheader, winui._win32_menuitemtemplateheader_str, winuser/MENUITEMTEMPLATEHEADER, winuser/PMENUITEMTEMPLATEHEADER'
 ms.topic: struct
-f1_keywords: 
- - "winuser/MENUITEMTEMPLATEHEADER"
+f1_keywords:
+- winuser/MENUITEMTEMPLATEHEADER
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Winuser.h
+- Winuser.h
 api_name:
- - MENUITEMTEMPLATEHEADER
+- MENUITEMTEMPLATEHEADER
 targetos: Windows
 req.typenames: MENUITEMTEMPLATEHEADER, *PMENUITEMTEMPLATEHEADER
 req.redist: 

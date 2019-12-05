@@ -1,19 +1,17 @@
 ---
 UID: NN:vds.IVdsHwProviderType2
 title: IVdsHwProviderType2 (vds.h)
-
 description: This interface is not implemented. Use IVdsHwProviderType instead.
 old-location: base\ivdshwprovidertype2.htm
 tech.root: VDS
 ms.assetid: b75b455a-0b1e-49f4-9181-5cbbf1b5d98c
-
 ms.date: 12/05/2018
 ms.keywords: IVdsHwProviderType2, IVdsHwProviderType2 interface, IVdsHwProviderType2 interface,described, base.ivdshwprovidertype2, vds/IVdsHwProviderType2, vdshwprv/IVdsHwProviderType2
 ms.topic: interface
-f1_keywords: 
- - "vds/IVdsHwProviderType2"
+f1_keywords:
+- vds/IVdsHwProviderType2
 dev_langs:
- - c++
+- c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Uuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Uuid.lib
- - Uuid.dll
+- Uuid.lib
+- Uuid.dll
 api_name:
- - IVdsHwProviderType2
+- IVdsHwProviderType2
 targetos: Windows
 req.typenames: 
 req.redist: 

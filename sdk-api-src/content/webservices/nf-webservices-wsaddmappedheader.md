@@ -1,19 +1,17 @@
 ---
 UID: NF:webservices.WsAddMappedHeader
 title: WsAddMappedHeader function (webservices.h)
-
 description: Adds a specified mapped header to the message.
 old-location: wsw\wsaddmappedheader.htm
 tech.root: wsw
 ms.assetid: f91dac8e-606e-4a9f-a598-8f8136c6b386
-
 ms.date: 12/05/2018
 ms.keywords: WsAddMappedHeader, WsAddMappedHeader function [Web Services for Windows], webservices/WsAddMappedHeader, wsw.wsaddmappedheader
 ms.topic: function
 f1_keywords:
 - webservices/WsAddMappedHeader
 dev_langs:
- - c++
+- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

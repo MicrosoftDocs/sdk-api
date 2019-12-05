@@ -1,19 +1,17 @@
 ---
 UID: NF:vsmgmt.IVssSnapshotMgmt.QueryVolumesSupportedForSnapshots
 title: IVssSnapshotMgmt::QueryVolumesSupportedForSnapshots (vsmgmt.h)
-
 description: Reserved for system use.
 old-location: base\ivsssnapshotmgmt_queryvolumessupportedforsnapshots.htm
 tech.root: VSS
 ms.assetid: c3c4f0a1-eff5-4e83-8a1d-16e007bd119a
-
 ms.date: 12/05/2018
 ms.keywords: IVssSnapshotMgmt interface [VSS],QueryVolumesSupportedForSnapshots method, IVssSnapshotMgmt.QueryVolumesSupportedForSnapshots, IVssSnapshotMgmt::QueryVolumesSupportedForSnapshots, QueryVolumesSupportedForSnapshots, QueryVolumesSupportedForSnapshots method [VSS], QueryVolumesSupportedForSnapshots method [VSS],IVssSnapshotMgmt interface, base.ivsssnapshotmgmt_queryvolumessupportedforsnapshots, vsmgmt/IVssSnapshotMgmt::QueryVolumesSupportedForSnapshots
 ms.topic: method
-f1_keywords: 
- - "vsmgmt/IVssSnapshotMgmt.QueryVolumesSupportedForSnapshots"
+f1_keywords:
+- vsmgmt/IVssSnapshotMgmt.QueryVolumesSupportedForSnapshots
 dev_langs:
- - c++
+- c++
 req.header: vsmgmt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - VsMgmt.h
+- VsMgmt.h
 api_name:
- - IVssSnapshotMgmt.QueryVolumesSupportedForSnapshots
+- IVssSnapshotMgmt.QueryVolumesSupportedForSnapshots
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NN:dcomp.IDCompositionLinearTransferEffect
 title: IDCompositionLinearTransferEffect (dcomp.h)
-
 description: The linear transfer effect is used to map the color intensities of an image using a linear function created from a list of values you provide for each channel.
 old-location: directcomp\idcompositionlineartransfereffect.htm
 tech.root: directcomp
 ms.assetid: 516CD029-DBB1-4AD7-92BB-8B6EF6C733FA
-
 ms.date: 12/05/2018
 ms.keywords: IDCompositionLinearTransferEffect, IDCompositionLinearTransferEffect interface [DirectComposition], IDCompositionLinearTransferEffect interface [DirectComposition],described, dcomp/IDCompositionLinearTransferEffect, directcomp.idcompositionlineartransfereffect
 ms.topic: interface
-f1_keywords: 
- - "dcomp/IDCompositionLinearTransferEffect"
+f1_keywords:
+- dcomp/IDCompositionLinearTransferEffect
 dev_langs:
- - c++
+- c++
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dcomp.lib
 req.dll: Dcomp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dcomp.dll
+- Dcomp.dll
 api_name:
- - IDCompositionLinearTransferEffect
+- IDCompositionLinearTransferEffect
 targetos: Windows
 req.typenames: 
 req.redist: 

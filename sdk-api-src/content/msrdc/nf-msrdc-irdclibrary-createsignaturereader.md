@@ -1,19 +1,17 @@
 ---
 UID: NF:msrdc.IRdcLibrary.CreateSignatureReader
 title: IRdcLibrary::CreateSignatureReader (msrdc.h)
-
 description: Creates a signature reader to allow an application to decode the contents of a signature file.
 old-location: rdc\irdclibrary_createsignaturereader.htm
 tech.root: rdc
 ms.assetid: 08627c9d-7470-47ab-9209-32734082c393
-
 ms.date: 12/05/2018
 ms.keywords: CreateSignatureReader, CreateSignatureReader method [Remote Differential Compression], CreateSignatureReader method [Remote Differential Compression],IRdcLibrary interface, IRdcLibrary interface [Remote Differential Compression],CreateSignatureReader method, IRdcLibrary.CreateSignatureReader, IRdcLibrary::CreateSignatureReader, fs.irdclibrary_createsignaturereader, msrdc/IRdcLibrary::CreateSignatureReader, rdc.irdclibrary_createsignaturereader
 ms.topic: method
-f1_keywords: 
- - "msrdc/IRdcLibrary.CreateSignatureReader"
+f1_keywords:
+- msrdc/IRdcLibrary.CreateSignatureReader
 dev_langs:
- - c++
+- c++
 req.header: msrdc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: MsRdc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - MsRdc.dll
+- MsRdc.dll
 api_name:
- - IRdcLibrary.CreateSignatureReader
+- IRdcLibrary.CreateSignatureReader
 targetos: Windows
 req.typenames: 
 req.redist: 

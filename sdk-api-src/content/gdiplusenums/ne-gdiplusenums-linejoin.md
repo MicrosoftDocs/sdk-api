@@ -1,19 +1,17 @@
 ---
 UID: NE:gdiplusenums.LineJoin
 title: LineJoin (gdiplusenums.h)
-
 description: The LineJoin enumeration specifies how to join two lines that are drawn by the same pen and whose ends meet. At the intersection of the two line ends, a line join makes the join look more continuous.
 old-location: gdiplus\_gdiplus_ENUM_LineJoin.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\enumerations\linejoin.htm
-
 ms.date: 12/05/2018
 ms.keywords: LineJoin, LineJoin enumeration [GDI+], LineJoinBevel, LineJoinMiter, LineJoinMiterClipped, LineJoinRound, _gdiplus_ENUM_LineJoin, gdiplus._gdiplus_ENUM_LineJoin, gdiplusenums/LineJoin, gdiplusenums/LineJoinBevel, gdiplusenums/LineJoinMiter, gdiplusenums/LineJoinMiterClipped, gdiplusenums/LineJoinRound
 ms.topic: enum
-f1_keywords: 
- - "gdiplusenums/LineJoin"
+f1_keywords:
+- gdiplusenums/LineJoin
 dev_langs:
- - c++
+- c++
 req.header: gdiplusenums.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Gdiplusenums.h
+- Gdiplusenums.h
 api_name:
- - LineJoin
+- LineJoin
 targetos: Windows
 req.typenames: 
 req.redist: 

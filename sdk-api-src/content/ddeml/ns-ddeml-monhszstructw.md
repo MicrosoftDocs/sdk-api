@@ -1,19 +1,17 @@
 ---
 UID: NS:ddeml.tagMONHSZSTRUCTW
 title: MONHSZSTRUCTW (ddeml.h)
-
 description: Contains information about a Dynamic Data Exchange (DDE) string handle. A DDE monitoring application can use this structure when monitoring the activity of the string manager component of the DDE Management Library.
 old-location: dataxchg\monhszstruct_str.htm
 tech.root: dataxchg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\dataexchange\dynamicdataexchangemanagementlibrary\dynamicdataexchangemanagementreference\dynamicdataexchangemanagementstructures\monhszstruct.htm
-
 ms.date: 12/05/2018
-ms.keywords: "*PMONHSZSTRUCTW, MH_CLEANUP, MH_CREATE, MH_DELETE, MH_KEEP, MONHSZSTRUCT, MONHSZSTRUCT structure [Data Exchange], MONHSZSTRUCTA, MONHSZSTRUCTW, PMONHSZSTRUCT, PMONHSZSTRUCT structure pointer [Data Exchange], _win32_MONHSZSTRUCT_str, _win32_monhszstruct_str_cpp, dataxchg.monhszstruct_str, ddeml/MONHSZSTRUCT, ddeml/MONHSZSTRUCTA, ddeml/MONHSZSTRUCTW, ddeml/PMONHSZSTRUCT, winui._win32_monhszstruct_str"
+ms.keywords: '*PMONHSZSTRUCTW, MH_CLEANUP, MH_CREATE, MH_DELETE, MH_KEEP, MONHSZSTRUCT, MONHSZSTRUCT structure [Data Exchange], MONHSZSTRUCTA, MONHSZSTRUCTW, PMONHSZSTRUCT, PMONHSZSTRUCT structure pointer [Data Exchange], _win32_MONHSZSTRUCT_str, _win32_monhszstruct_str_cpp, dataxchg.monhszstruct_str, ddeml/MONHSZSTRUCT, ddeml/MONHSZSTRUCTA, ddeml/MONHSZSTRUCTW, ddeml/PMONHSZSTRUCT, winui._win32_monhszstruct_str'
 ms.topic: struct
-f1_keywords: 
- - "ddeml/MONHSZSTRUCT"
+f1_keywords:
+- ddeml/MONHSZSTRUCT
 dev_langs:
- - c++
+- c++
 req.header: ddeml.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Ddeml.h
+- Ddeml.h
 api_name:
- - MONHSZSTRUCT
- - MONHSZSTRUCTA
- - MONHSZSTRUCTW
+- MONHSZSTRUCT
+- MONHSZSTRUCTA
+- MONHSZSTRUCTW
 targetos: Windows
 req.typenames: MONHSZSTRUCTW, *PMONHSZSTRUCTW
 req.redist: 

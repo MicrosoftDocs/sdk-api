@@ -1,19 +1,17 @@
 ---
 UID: NE:vmr9.__MIDL___MIDL_itf_vmr9_0000_0005_0001
 title: VMR9MixerPrefs (vmr9.h)
-
 description: The VMR9MixerPrefs enumeration type contains flags that specify how the Video Mixing Render 9 filter (VMR-9) mixes the video streams. Settings include decimation, filtering, and render target preferences.
 old-location: dshow\vmr9mixerprefs.htm
 tech.root: DirectShow
 ms.assetid: 59d3af89-248e-43cd-b6dc-e6c0a4d5f5fb
-
 ms.date: 12/05/2018
 ms.keywords: MixerPref9_ARAdjustXorY, MixerPref9_AnisotropicFiltering, MixerPref9_BiLinearFiltering, MixerPref9_DecimateMask, MixerPref9_DecimateOutput, MixerPref9_DynamicDecimateBy2, MixerPref9_DynamicMask, MixerPref9_DynamicReserved, MixerPref9_DynamicSwitchToBOB, MixerPref9_FilteringMask, MixerPref9_FilteringReserved, MixerPref9_GaussianQuadFiltering, MixerPref9_NoDecimation, MixerPref9_NonSquareMixing, MixerPref9_PointFiltering, MixerPref9_PyramidalQuadFiltering, MixerPref9_RenderTargetMask, MixerPref9_RenderTargetRGB, MixerPref9_RenderTargetReserved, MixerPref9_RenderTargetYUV, VMR9MixerPrefs, VMR9MixerPrefs , VMR9MixerPrefs enumeration [DirectShow], VMR9MixerPrefsEnumeration, dshow.vmr9mixerprefs, vmr9/MixerPref9_ARAdjustXorY, vmr9/MixerPref9_AnisotropicFiltering, vmr9/MixerPref9_BiLinearFiltering, vmr9/MixerPref9_DecimateMask, vmr9/MixerPref9_DecimateOutput, vmr9/MixerPref9_DynamicDecimateBy2, vmr9/MixerPref9_DynamicMask, vmr9/MixerPref9_DynamicReserved, vmr9/MixerPref9_DynamicSwitchToBOB, vmr9/MixerPref9_FilteringMask, vmr9/MixerPref9_FilteringReserved, vmr9/MixerPref9_GaussianQuadFiltering, vmr9/MixerPref9_NoDecimation, vmr9/MixerPref9_NonSquareMixing, vmr9/MixerPref9_PointFiltering, vmr9/MixerPref9_PyramidalQuadFiltering, vmr9/MixerPref9_RenderTargetMask, vmr9/MixerPref9_RenderTargetRGB, vmr9/MixerPref9_RenderTargetReserved, vmr9/MixerPref9_RenderTargetYUV, vmr9/VMR9MixerPrefs
 ms.topic: enum
-f1_keywords: 
- - "vmr9/VMR9MixerPrefs"
+f1_keywords:
+- vmr9/VMR9MixerPrefs
 dev_langs:
- - c++
+- c++
 req.header: vmr9.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Vmr9.h
+- Vmr9.h
 api_name:
- - VMR9MixerPrefs
+- VMR9MixerPrefs
 targetos: Windows
 req.typenames: VMR9MixerPrefs
 req.redist: 

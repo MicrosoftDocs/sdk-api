@@ -1,19 +1,17 @@
 ---
 UID: NF:shdeprecated.IBrowserService2.ReleaseShellView
 title: IBrowserService2::ReleaseShellView (shdeprecated.h)
-
 description: Deprecated. Coordinates the view lifetime between the base class and its derived class.
 old-location: shell\IBrowserService2_ReleaseShellView.htm
 tech.root: shell
 ms.assetid: 722aee91-6a30-4818-95aa-ecb88b5ef215
-
 ms.date: 12/05/2018
 ms.keywords: IBrowserService2 interface [Windows Shell],ReleaseShellView method, IBrowserService2.ReleaseShellView, IBrowserService2::ReleaseShellView, ReleaseShellView, ReleaseShellView method [Windows Shell], ReleaseShellView method [Windows Shell],IBrowserService2 interface, shdeprecated/IBrowserService2::ReleaseShellView, shell.IBrowserService2_ReleaseShellView, zone_IBrowserService2_ReleaseShellView
 ms.topic: method
-f1_keywords: 
- - "shdeprecated/IBrowserService2.ReleaseShellView"
+f1_keywords:
+- shdeprecated/IBrowserService2.ReleaseShellView
 dev_langs:
- - c++
+- c++
 req.header: shdeprecated.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shdeprecated.h
+- Shdeprecated.h
 api_name:
- - IBrowserService2.ReleaseShellView
+- IBrowserService2.ReleaseShellView
 targetos: Windows
 req.typenames: 
 req.redist: 

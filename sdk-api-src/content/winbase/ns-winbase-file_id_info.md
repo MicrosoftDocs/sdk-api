@@ -1,19 +1,17 @@
 ---
 UID: NS:winbase._FILE_ID_INFO
 title: FILE_ID_INFO (winbase.h)
-
 description: Contains identification information for a file.
 old-location: fs\file_id_info.htm
 tech.root: FileIO
 ms.assetid: e2774e29-1a90-44d6-9001-f73a98be6624
-
 ms.date: 12/05/2018
 ms.keywords: '*PFILE_ID_INFO, FILE_ID_INFO, FILE_ID_INFO structure [Files], PFILE_ID_INFO, PFILE_ID_INFO structure pointer [Files], _FILE_ID_INFO, fs.file_id_info, winbase/FILE_ID_INFO, winbase/PFILE_ID_INFO'
 ms.topic: struct
 f1_keywords:
 - winbase/FILE_ID_INFO
 dev_langs:
- - c++
+- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

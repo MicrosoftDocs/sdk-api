@@ -1,19 +1,17 @@
 ---
 UID: NF:dhcpsapi.DhcpRemoveOptionV5
 title: DhcpRemoveOptionV5 function (dhcpsapi.h)
-
 description: Removes the definition of a specific option for a specific user class and vendor class at the default option level on the DHCP server. This extends the functionality in DhcpRemoveOption with support for specific class and vendor names.
 old-location: dhcp\dhcpremoveoptionv5.htm
 tech.root: DHCP
 ms.assetid: 53b57879-7533-4e92-a179-d6786052ad46
-
 ms.date: 12/05/2018
 ms.keywords: DHCP_FLAGS_OPTION_IS_VENDOR, DhcpRemoveOptionV5, DhcpRemoveOptionV5 function [DHCP], dhcp.dhcpremoveoptionv5, dhcpsapi/DhcpRemoveOptionV5
 ms.topic: function
-f1_keywords: 
- - "dhcpsapi/DhcpRemoveOptionV5"
+f1_keywords:
+- dhcpsapi/DhcpRemoveOptionV5
 dev_langs:
- - c++
+- c++
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dhcpsapi.lib
 req.dll: Dhcpsapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Dhcpsapi.dll
+- Dhcpsapi.dll
 api_name:
- - DhcpRemoveOptionV5
+- DhcpRemoveOptionV5
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -4,10 +4,10 @@ title: BCryptUnregisterConfigChangeNotify
 ms.date: 01/30/19
 ms.keywords: BCryptUnregisterConfigChangeNotify
 ms.topic: language-reference
-f1_keywords: 
- - "bcrypt/BCryptUnregisterConfigChangeNotify"
+f1_keywords:
+- bcrypt/BCryptUnregisterConfigChangeNotify
 dev_langs:
- - c++
+- c++
 targetos: Windows
 req.assembly: 
 req.construct-type: function
@@ -29,16 +29,14 @@ req.type-library:
 req.umdf-ver: 
 req.unicode-ansi: 
 topic_type:
- - apiref
+- apiref
 api_type:
- - DllExport
+- DllExport
 api_location:
- - bcrypt.h
+- bcrypt.h
 api_name:
- - BCryptUnregisterConfigChangeNotify
-targetos: Windows
+- BCryptUnregisterConfigChangeNotify
 req.typenames: 
-req.redist: 
 ---
 
 # BCryptUnregisterConfigChangeNotify function

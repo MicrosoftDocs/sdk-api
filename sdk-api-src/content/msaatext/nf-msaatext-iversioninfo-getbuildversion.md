@@ -1,19 +1,17 @@
 ---
 UID: NF:msaatext.IVersionInfo.GetBuildVersion
 title: IVersionInfo::GetBuildVersion (msaatext.h)
-
 description: Clients call IVersionInfo::GetBuildVersion to retrieve build information for a specified component.
 old-location: winauto\iversioninfo_iversioninfo__getbuildversion.htm
 tech.root: WinAuto
 ms.assetid: ae54ad59-665c-494c-8054-3f19aec9968f
-
 ms.date: 12/05/2018
 ms.keywords: GetBuildVersion, GetBuildVersion method [Windows Accessibility], GetBuildVersion method [Windows Accessibility],IVersionInfo interface, IVersionInfo interface [Windows Accessibility],GetBuildVersion method, IVersionInfo.GetBuildVersion, IVersionInfo::GetBuildVersion, _msaa_IVersionInfo_GetBuildVersion, msaa.iversioninfo_iversioninfo__getbuildversion, msaatext/IVersionInfo::GetBuildVersion, winauto.iversioninfo_iversioninfo__getbuildversion
 ms.topic: method
-f1_keywords: 
- - "msaatext/IVersionInfo.GetBuildVersion"
+f1_keywords:
+- msaatext/IVersionInfo.GetBuildVersion
 dev_langs:
- - c++
+- c++
 req.header: msaatext.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msaatext.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msaatext.dll
+- msaatext.dll
 api_name:
- - IVersionInfo.GetBuildVersion
+- IVersionInfo.GetBuildVersion
 targetos: Windows
 req.typenames: 
 req.redist: Active Accessibility 2.0 RDK on Windows NT 4.0 with SP6 and later and Windows 98

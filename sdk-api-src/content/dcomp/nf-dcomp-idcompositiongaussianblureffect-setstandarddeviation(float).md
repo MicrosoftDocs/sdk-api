@@ -1,19 +1,17 @@
 ---
 UID: NF:dcomp.IDCompositionGaussianBlurEffect.SetStandardDeviation(float)
 title: IDCompositionGaussianBlurEffect::SetStandardDeviation(float) (dcomp.h)
-
 description: Sets the amount of blur to be applied to the image.
 old-location: directcomp\idcompositiongaussianblureffect_setstandarddeviation.htm
 tech.root: directcomp
 ms.assetid: 8C4BD86D-F15A-4F5C-9411-2C89A74E8370
-
 ms.date: 12/05/2018
 ms.keywords: IDCompositionGaussianBlurEffect interface [DirectComposition],SetStandardDeviation method, IDCompositionGaussianBlurEffect.SetStandardDeviation, IDCompositionGaussianBlurEffect.SetStandardDeviation(float), IDCompositionGaussianBlurEffect::SetStandardDeviation, IDCompositionGaussianBlurEffect::SetStandardDeviation(float), SetStandardDeviation, SetStandardDeviation method [DirectComposition], SetStandardDeviation method [DirectComposition],IDCompositionGaussianBlurEffect interface, dcomp/IDCompositionGaussianBlurEffect::SetStandardDeviation, directcomp.idcompositiongaussianblureffect_setstandarddeviation
 ms.topic: method
-f1_keywords: 
- - "dcomp/IDCompositionGaussianBlurEffect.SetStandardDeviation"
+f1_keywords:
+- dcomp/IDCompositionGaussianBlurEffect.SetStandardDeviation
 dev_langs:
- - c++
+- c++
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dcomp.lib
 req.dll: Dcomp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dcomp.dll
+- Dcomp.dll
 api_name:
- - IDCompositionGaussianBlurEffect.SetStandardDeviation
+- IDCompositionGaussianBlurEffect.SetStandardDeviation
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:winbase.FatalExit
 title: FatalExit function (winbase.h)
-
 description: Transfers execution control to the debugger. The behavior of the debugger thereafter is specific to the type of debugger used.
 old-location: base\fatalexit.htm
 tech.root: Debug
 ms.assetid: 6015e025-872f-455a-89f9-0ff96e59ef15
-
 ms.date: 12/05/2018
 ms.keywords: FatalExit, FatalExit function, _win32_fatalexit, base.fatalexit, winbase/FatalExit
 ms.topic: function
-f1_keywords: 
- - "winbase/FatalExit"
+f1_keywords:
+- winbase/FatalExit
 dev_langs:
- - c++
+- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
+- Kernel32.dll
 api_name:
- - FatalExit
+- FatalExit
 targetos: Windows
 req.typenames: 
 req.redist: 

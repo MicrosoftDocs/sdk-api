@@ -1,19 +1,17 @@
 ---
 UID: NF:mfplay.IMFPMediaItem.GetStreamAttribute
 title: IMFPMediaItem::GetStreamAttribute (mfplay.h)
-
 description: Queries the media item for a stream attribute.
 old-location: mf\imfpmediaitem_getstreamattribute.htm
 tech.root: medfound
 ms.assetid: 8c40ce33-2077-4e7b-8a1c-c080e82df078
-
 ms.date: 12/05/2018
 ms.keywords: GetStreamAttribute, GetStreamAttribute method [Media Foundation], GetStreamAttribute method [Media Foundation],IMFPMediaItem interface, IMFPMediaItem interface [Media Foundation],GetStreamAttribute method, IMFPMediaItem.GetStreamAttribute, IMFPMediaItem::GetStreamAttribute, mf.imfpmediaitem_getstreamattribute, mfplay/IMFPMediaItem::GetStreamAttribute
 ms.topic: method
-f1_keywords: 
- - "mfplay/IMFPMediaItem.GetStreamAttribute"
+f1_keywords:
+- mfplay/IMFPMediaItem.GetStreamAttribute
 dev_langs:
- - c++
+- c++
 req.header: mfplay.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfplay.h
+- mfplay.h
 api_name:
- - IMFPMediaItem.GetStreamAttribute
+- IMFPMediaItem.GetStreamAttribute
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NN:certenroll.IBinaryConverter
 title: IBinaryConverter (certenroll.h)
-
 description: Contains general methods that enable you to create a Unicode-encoded string from a byte array, create a byte array from a Unicode-encoded string, and modify the type of Unicode encoding applied to a string.
 old-location: security\ibinaryconverter.htm
 tech.root: seccertenroll
 ms.assetid: 495a321a-3005-4537-b082-5003e437d21f
-
 ms.date: 12/05/2018
 ms.keywords: IBinaryConverter, IBinaryConverter interface [Security], IBinaryConverter interface [Security],described, certenroll/IBinaryConverter, security.ibinaryconverter
 ms.topic: interface
-f1_keywords: 
- - "certenroll/IBinaryConverter"
+f1_keywords:
+- certenroll/IBinaryConverter
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: CertEnroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CertEnroll.dll
+- CertEnroll.dll
 api_name:
- - IBinaryConverter
+- IBinaryConverter
 targetos: Windows
 req.typenames: 
 req.redist: 

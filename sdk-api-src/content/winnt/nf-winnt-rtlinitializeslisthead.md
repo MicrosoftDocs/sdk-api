@@ -1,19 +1,17 @@
 ---
 UID: NF:winnt.RtlInitializeSListHead
 title: RtlInitializeSListHead function (winnt.h)
-
 description: Initializes the head of a singly linked list.
 old-location: base\rtlinitializeslisthead.htm
 tech.root: Sync
 ms.assetid: 0f5467e0-6fba-418d-8f00-cb4fa475f7e2
-
 ms.date: 12/05/2018
 ms.keywords: RtlInitializeSListHead, RtlInitializeSListHead function, base.rtlinitializeslisthead, winnt/RtlInitializeSListHead
 ms.topic: function
-f1_keywords: 
- - "winnt/RtlInitializeSListHead"
+f1_keywords:
+- winnt/RtlInitializeSListHead
 dev_langs:
- - c++
+- c++
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Ntdll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ntdll.dll
+- Ntdll.dll
 api_name:
- - RtlInitializeSListHead
+- RtlInitializeSListHead
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:audioenginebaseapo.IAudioProcessingObject.Initialize
 title: IAudioProcessingObject::Initialize (audioenginebaseapo.h)
-
 description: The Initialize method initializes the APO and supports data of variable length.
 old-location: audio\iaudioprocessingobject_initialize.htm
 tech.root: audio
 ms.assetid: b73c2e18-ab7b-4e34-9440-f38891f99bf7
-
 ms.date: 12/05/2018
 ms.keywords: IAudioProcessingObject interface [Audio Devices],Initialize method, IAudioProcessingObject.Initialize, IAudioProcessingObject::Initialize, Initialize, Initialize method [Audio Devices], Initialize method [Audio Devices],IAudioProcessingObject interface, audio.iaudioprocessingobject_initialize, audio_syseffects_r_00c2b464-0c56-4357-ab5f-fdcdfb6a2414.xml, audioenginebaseapo/IAudioProcessingObject::Initialize
 ms.topic: method
-f1_keywords: 
- - "audioenginebaseapo/IAudioProcessingObject.Initialize"
+f1_keywords:
+- audioenginebaseapo/IAudioProcessingObject.Initialize
 dev_langs:
- - c++
+- c++
 req.header: audioenginebaseapo.h
 req.include-header: 
 req.target-type: Universal
@@ -32,15 +30,15 @@ req.lib: Audioenginebaseapo.idl
 req.dll: 
 req.irql: Any level
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Audioenginebaseapo.idl
- - Audioenginebaseapo.idl.dll
+- Audioenginebaseapo.idl
+- Audioenginebaseapo.idl.dll
 api_name:
- - IAudioProcessingObject.Initialize
+- IAudioProcessingObject.Initialize
 targetos: Windows
 req.typenames: 
 req.redist: 

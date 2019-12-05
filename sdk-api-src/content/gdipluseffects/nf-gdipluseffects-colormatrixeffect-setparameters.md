@@ -1,19 +1,17 @@
 ---
 UID: NF:gdipluseffects.ColorMatrixEffect.SetParameters
 title: ColorMatrixEffect::SetParameters (gdipluseffects.h)
-
 description: The ColorMatrixEffect::SetParameters method sets the 5x5 color matrix of this ColorMatrixEffect object.
 old-location: gdiplus\_gdiplus_CLASS_ColorMatrixEffect_SetParameters_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\colormatrixeffectclass\colormatrixeffectmethods\setparameters.htm
-
 ms.date: 12/05/2018
 ms.keywords: ColorMatrixEffect class [GDI+],SetParameters method, ColorMatrixEffect.SetParameters, ColorMatrixEffect::SetParameters, SetParameters, SetParameters method [GDI+], SetParameters method [GDI+],ColorMatrixEffect class, _gdiplus_CLASS_ColorMatrixEffect_SetParameters_, gdiplus._gdiplus_CLASS_ColorMatrixEffect_SetParameters_
 ms.topic: method
-f1_keywords: 
- - "gdipluseffects/ColorMatrixEffect.SetParameters"
+f1_keywords:
+- gdipluseffects/ColorMatrixEffect.SetParameters
 dev_langs:
- - c++
+- c++
 req.header: gdipluseffects.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - ColorMatrixEffect.SetParameters
+- ColorMatrixEffect.SetParameters
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NE:mmstream.__MIDL___MIDL_itf_mmstream_0000_0000_0002
 title: STREAM_STATE (mmstream.h)
-
 description: Note  This API is deprecated. New applications should not use it. Describes the state of the stream.
 old-location: dshow\stream_state.htm
 tech.root: DirectShow
 ms.assetid: 0be95819-0a42-4459-a891-194aacd26e2e
-
 ms.date: 12/05/2018
 ms.keywords: STREAMSTATE_RUN, STREAMSTATE_STOP, STREAM_STATE, STREAM_STATE enumeration [DirectShow], dshow.stream_state, mmstream/STREAMSTATE_RUN, mmstream/STREAMSTATE_STOP, mmstream/STREAM_STATE
 ms.topic: enum
-f1_keywords: 
- - "mmstream/STREAM_STATE"
+f1_keywords:
+- mmstream/STREAM_STATE
 dev_langs:
- - c++
+- c++
 req.header: mmstream.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Mmstream.h
+- Mmstream.h
 api_name:
- - STREAM_STATE
+- STREAM_STATE
 targetos: Windows
 req.typenames: STREAM_STATE
 req.redist: 

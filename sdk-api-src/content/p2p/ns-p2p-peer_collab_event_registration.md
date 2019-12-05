@@ -1,19 +1,17 @@
 ---
 UID: NS:p2p.peer_collab_event_registration_tag
 title: PEER_COLLAB_EVENT_REGISTRATION (p2p.h)
-
 description: The PEER_COLLAB_EVENT_REGISTRATION structure contains the data used by a peer to register for specific peer collaboration network events.
 old-location: p2p\peer_collab_event_registration.htm
 tech.root: P2PSdk
 ms.assetid: dfc55346-99ef-441e-ba49-e7463581ebbb
-
 ms.date: 12/05/2018
-ms.keywords: "*PPEER_COLLAB_EVENT_REGISTRATION, PCPEER_COLLAB_EVENT_REGISTRATION, PCPEER_COLLAB_EVENT_REGISTRATION structure pointer [Peer Networking], PEER_COLLAB_EVENT_REGISTRATION, PEER_COLLAB_EVENT_REGISTRATION structure [Peer Networking], PPEER_COLLAB_EVENT_REGISTRATION, PPEER_COLLAB_EVENT_REGISTRATION structure pointer [Peer Networking], p2p.peer_collab_event_registration, p2p/PCPEER_COLLAB_EVENT_REGISTRATION, p2p/PEER_COLLAB_EVENT_REGISTRATION, p2p/PPEER_COLLAB_EVENT_REGISTRATION"
+ms.keywords: '*PPEER_COLLAB_EVENT_REGISTRATION, PCPEER_COLLAB_EVENT_REGISTRATION, PCPEER_COLLAB_EVENT_REGISTRATION structure pointer [Peer Networking], PEER_COLLAB_EVENT_REGISTRATION, PEER_COLLAB_EVENT_REGISTRATION structure [Peer Networking], PPEER_COLLAB_EVENT_REGISTRATION, PPEER_COLLAB_EVENT_REGISTRATION structure pointer [Peer Networking], p2p.peer_collab_event_registration, p2p/PCPEER_COLLAB_EVENT_REGISTRATION, p2p/PEER_COLLAB_EVENT_REGISTRATION, p2p/PPEER_COLLAB_EVENT_REGISTRATION'
 ms.topic: struct
-f1_keywords: 
- - "p2p/PEER_COLLAB_EVENT_REGISTRATION"
+f1_keywords:
+- p2p/PEER_COLLAB_EVENT_REGISTRATION
 dev_langs:
- - c++
+- c++
 req.header: p2p.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - P2P.h
+- P2P.h
 api_name:
- - PEER_COLLAB_EVENT_REGISTRATION
+- PEER_COLLAB_EVENT_REGISTRATION
 targetos: Windows
 req.typenames: PEER_COLLAB_EVENT_REGISTRATION, *PPEER_COLLAB_EVENT_REGISTRATION
 req.redist: 

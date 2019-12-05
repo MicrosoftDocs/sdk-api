@@ -1,19 +1,17 @@
 ---
 UID: NF:wininet.FtpCommandW
 title: FtpCommandW function (wininet.h)
-
 description: Sends commands directly to an FTP server.
 old-location: wininet\ftpcommand.htm
 tech.root: wininet
 ms.assetid: cd12f52c-80d6-4aee-96c8-cb3cafcf0a6a
-
 ms.date: 12/05/2018
 ms.keywords: FTP_TRANSFER_TYPE_ASCII, FTP_TRANSFER_TYPE_BINARY, FtpCommand, FtpCommand function [WinINet], FtpCommandA, FtpCommandW, _inet_ftpcommand_function, wininet.ftpcommand, wininet/FtpCommand, wininet/FtpCommandA, wininet/FtpCommandW
 ms.topic: function
-f1_keywords: 
- - "wininet/FtpCommand"
+f1_keywords:
+- wininet/FtpCommand
 dev_langs:
- - c++
+- c++
 req.header: wininet.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Wininet.lib
 req.dll: Wininet.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Wininet.dll
+- Wininet.dll
 api_name:
- - FtpCommand
- - FtpCommandA
- - FtpCommandW
+- FtpCommand
+- FtpCommandA
+- FtpCommandW
 targetos: Windows
 req.typenames: 
 req.redist: 

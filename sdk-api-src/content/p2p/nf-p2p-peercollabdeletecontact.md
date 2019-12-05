@@ -1,19 +1,17 @@
 ---
 UID: NF:p2p.PeerCollabDeleteContact
 title: PeerCollabDeleteContact function (p2p.h)
-
 description: Deletes a contact from the local contact store associated with the caller.
 old-location: p2p\peercollabdeletecontact.htm
 tech.root: P2PSdk
 ms.assetid: b901ec82-69d2-4a1c-b316-37f209af2b19
-
 ms.date: 12/05/2018
 ms.keywords: PeerCollabDeleteContact, PeerCollabDeleteContact function [Peer Networking], p2p.peercollabdeletecontact, p2p/PeerCollabDeleteContact
 ms.topic: function
-f1_keywords: 
- - "p2p/PeerCollabDeleteContact"
+f1_keywords:
+- p2p/PeerCollabDeleteContact
 dev_langs:
- - c++
+- c++
 req.header: p2p.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: P2P.lib
 req.dll: P2P.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - P2P.dll
+- P2P.dll
 api_name:
- - PeerCollabDeleteContact
+- PeerCollabDeleteContact
 targetos: Windows
 req.typenames: 
 req.redist: 

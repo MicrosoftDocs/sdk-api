@@ -1,19 +1,17 @@
 ---
 UID: NN:dsadmin.IDsAdminCreateObj
 title: IDsAdminCreateObj (dsadmin.h)
-
 description: Used by an application or component to programmatically start a creation wizard for a specified object class.
 old-location: ad\idsadmincreateobj.htm
 tech.root: ad
 ms.assetid: 93673b29-744a-4100-86b7-8a2eec861c47
-
 ms.date: 12/05/2018
 ms.keywords: IDsAdminCreateObj, IDsAdminCreateObj interface [Active Directory], IDsAdminCreateObj interface [Active Directory],described, _glines_idsadmincreateobj, ad.idsadmincreateobj, dsadmin/IDsAdminCreateObj
 ms.topic: interface
-f1_keywords: 
- - "dsadmin/IDsAdminCreateObj"
+f1_keywords:
+- dsadmin/IDsAdminCreateObj
 dev_langs:
- - c++
+- c++
 req.header: dsadmin.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: DSAdmin.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - DSAdmin.dll
+- DSAdmin.dll
 api_name:
- - IDsAdminCreateObj
+- IDsAdminCreateObj
 targetos: Windows
 req.typenames: 
 req.redist: 

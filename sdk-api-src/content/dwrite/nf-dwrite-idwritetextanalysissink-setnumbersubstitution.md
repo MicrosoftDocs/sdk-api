@@ -1,19 +1,17 @@
 ---
 UID: NF:dwrite.IDWriteTextAnalysisSink.SetNumberSubstitution
 title: IDWriteTextAnalysisSink::SetNumberSubstitution (dwrite.h)
-
 description: Sets the number substitution on the text range affected by the text analysis.
 old-location: directwrite\idwritetextanalysissink_setnumbersubstitution.htm
 tech.root: DirectWrite
 ms.assetid: 09b00b49-702e-4cef-bf1c-397c5d572513
-
 ms.date: 12/05/2018
 ms.keywords: IDWriteTextAnalysisSink interface [Direct Write],SetNumberSubstitution method, IDWriteTextAnalysisSink.SetNumberSubstitution, IDWriteTextAnalysisSink::SetNumberSubstitution, SetNumberSubstitution, SetNumberSubstitution method [Direct Write], SetNumberSubstitution method [Direct Write],IDWriteTextAnalysisSink interface, directwrite.idwritetextanalysissink_setnumbersubstitution, dwrite/IDWriteTextAnalysisSink::SetNumberSubstitution
 ms.topic: method
-f1_keywords: 
- - "dwrite/IDWriteTextAnalysisSink.SetNumberSubstitution"
+f1_keywords:
+- dwrite/IDWriteTextAnalysisSink.SetNumberSubstitution
 dev_langs:
- - c++
+- c++
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dwrite.lib
 req.dll: Dwrite.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dwrite.dll
+- dwrite.dll
 api_name:
- - IDWriteTextAnalysisSink.SetNumberSubstitution
+- IDWriteTextAnalysisSink.SetNumberSubstitution
 targetos: Windows
 req.typenames: 
 req.redist: 

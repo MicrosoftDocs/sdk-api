@@ -1,19 +1,17 @@
 ---
 UID: NF:bdaiface.IBDA_DigitalDemodulator.put_SpectralInversion
 title: IBDA_DigitalDemodulator::put_SpectralInversion (bdaiface.h)
-
 description: The put_SpectralInversion method specifies the spectral inversion value for the signal.
 old-location: mstv\ibda_digitaldemodulator_put_spectralinversion.htm
 tech.root: mstv
 ms.assetid: 6aabb829-5198-407f-a8f7-f99f87229560
-
 ms.date: 12/05/2018
 ms.keywords: IBDA_DigitalDemodulator interface [Microsoft TV Technologies],put_SpectralInversion method, IBDA_DigitalDemodulator.put_SpectralInversion, IBDA_DigitalDemodulator::put_SpectralInversion, IBDA_DigitalDemodulatorput_SpectralInversion, bdaiface/IBDA_DigitalDemodulator::put_SpectralInversion, mstv.ibda_digitaldemodulator_put_spectralinversion, put_SpectralInversion, put_SpectralInversion method [Microsoft TV Technologies], put_SpectralInversion method [Microsoft TV Technologies],IBDA_DigitalDemodulator interface
 ms.topic: method
-f1_keywords: 
- - "bdaiface/IBDA_DigitalDemodulator.put_SpectralInversion"
+f1_keywords:
+- bdaiface/IBDA_DigitalDemodulator.put_SpectralInversion
 dev_langs:
- - c++
+- c++
 req.header: bdaiface.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - bdaiface.h
+- bdaiface.h
 api_name:
- - IBDA_DigitalDemodulator.put_SpectralInversion
+- IBDA_DigitalDemodulator.put_SpectralInversion
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:vds.IVdsServiceIscsi.QueryInitiatorAdapters
 title: IVdsServiceIscsi::QueryInitiatorAdapters (vds.h)
-
 description: Returns an object that enumerates the iSCSI initiator adapters of the initiator.
 old-location: base\ivdsserviceiscsi_queryinitiatoradapters.htm
 tech.root: VDS
 ms.assetid: 427d33e1-d2a5-46f3-a3be-d3589685f6af
-
 ms.date: 12/05/2018
 ms.keywords: IVdsServiceIscsi interface [VDS],QueryInitiatorAdapters method, IVdsServiceIscsi.QueryInitiatorAdapters, IVdsServiceIscsi::QueryInitiatorAdapters, QueryInitiatorAdapters, QueryInitiatorAdapters method [VDS], QueryInitiatorAdapters method [VDS],IVdsServiceIscsi interface, base.ivdsserviceiscsi_queryinitiatoradapters, vds/IVdsServiceIscsi::QueryInitiatorAdapters
 ms.topic: method
-f1_keywords: 
- - "vds/IVdsServiceIscsi.QueryInitiatorAdapters"
+f1_keywords:
+- vds/IVdsServiceIscsi.QueryInitiatorAdapters
 dev_langs:
- - c++
+- c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Uuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Uuid.lib
- - Uuid.dll
+- Uuid.lib
+- Uuid.dll
 api_name:
- - IVdsServiceIscsi.QueryInitiatorAdapters
+- IVdsServiceIscsi.QueryInitiatorAdapters
 targetos: Windows
 req.typenames: 
 req.redist: VDS 1.1

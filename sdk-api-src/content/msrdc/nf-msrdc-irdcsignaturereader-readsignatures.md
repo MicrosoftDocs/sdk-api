@@ -1,19 +1,17 @@
 ---
 UID: NF:msrdc.IRdcSignatureReader.ReadSignatures
 title: IRdcSignatureReader::ReadSignatures (msrdc.h)
-
 description: Reads a block of signatures from the current position.
 old-location: rdc\irdcsignaturereader_readsignatures.htm
 tech.root: rdc
 ms.assetid: 566a5442-b186-4aac-94fa-5784736a30c3
-
 ms.date: 12/05/2018
 ms.keywords: IRdcSignatureReader interface [Remote Differential Compression],ReadSignatures method, IRdcSignatureReader.ReadSignatures, IRdcSignatureReader::ReadSignatures, ReadSignatures, ReadSignatures method [Remote Differential Compression], ReadSignatures method [Remote Differential Compression],IRdcSignatureReader interface, fs.irdcsignaturereader_readsignatures, msrdc/IRdcSignatureReader::ReadSignatures, rdc.irdcsignaturereader_readsignatures
 ms.topic: method
-f1_keywords: 
- - "msrdc/IRdcSignatureReader.ReadSignatures"
+f1_keywords:
+- msrdc/IRdcSignatureReader.ReadSignatures
 dev_langs:
- - c++
+- c++
 req.header: msrdc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: MsRdc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - MsRdc.dll
+- MsRdc.dll
 api_name:
- - IRdcSignatureReader.ReadSignatures
+- IRdcSignatureReader.ReadSignatures
 targetos: Windows
 req.typenames: 
 req.redist: 

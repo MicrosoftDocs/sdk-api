@@ -1,19 +1,17 @@
 ---
 UID: NF:wdstptmgmt.IWdsTransportSetupManager.DeregisterContentProvider
 title: IWdsTransportSetupManager::DeregisterContentProvider (wdstptmgmt.h)
-
 description: Enables an application run on a client computer to deregister a content provider. This makes the provider no longer available for use by the WDS transport server.
 old-location: wds\iwdstransportsetupmanager_deregistercontentprovider.htm
 tech.root: wds
 ms.assetid: 56ec14a8-db20-41e5-8bd2-73b5a64e5542
-
 ms.date: 12/05/2018
 ms.keywords: DeregisterContentProvider, DeregisterContentProvider method [Windows Deployment Services], DeregisterContentProvider method [Windows Deployment Services],IWdsTransportSetupManager interface, IWdsTransportSetupManager interface [Windows Deployment Services],DeregisterContentProvider method, IWdsTransportSetupManager.DeregisterContentProvider, IWdsTransportSetupManager::DeregisterContentProvider, wds.iwdstransportsetupmanager_deregistercontentprovider, wdstptmgmt/IWdsTransportSetupManager::DeregisterContentProvider
 ms.topic: method
-f1_keywords: 
- - "wdstptmgmt/IWdsTransportSetupManager.DeregisterContentProvider"
+f1_keywords:
+- wdstptmgmt/IWdsTransportSetupManager.DeregisterContentProvider
 dev_langs:
- - c++
+- c++
 req.header: wdstptmgmt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wdstptmgmt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wdstptmgmt.dll
+- Wdstptmgmt.dll
 api_name:
- - IWdsTransportSetupManager.DeregisterContentProvider
+- IWdsTransportSetupManager.DeregisterContentProvider
 targetos: Windows
 req.typenames: 
 req.redist: 

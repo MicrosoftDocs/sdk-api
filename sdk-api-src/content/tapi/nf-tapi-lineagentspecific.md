@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi.lineAgentSpecific
 title: lineAgentSpecific function (tapi.h)
-
 description: The lineAgentSpecific function allows the application to access proprietary handler-specific functions of the agent handler associated with the address.
 old-location: tapi2\lineagentspecific.htm
 tech.root: Tapi
 ms.assetid: 4a1f2be4-4465-418a-9717-3857acf930a4
-
 ms.date: 12/05/2018
-ms.keywords: "_tapi2_lineagentspecific, lineAgentSpecific, lineAgentSpecific function [TAPI 2.2], tapi/lineAgentSpecific, tapi2.lineagentspecific"
+ms.keywords: _tapi2_lineagentspecific, lineAgentSpecific, lineAgentSpecific function [TAPI 2.2], tapi/lineAgentSpecific, tapi2.lineagentspecific
 ms.topic: function
-f1_keywords: 
- - "tapi/lineAgentSpecific"
+f1_keywords:
+- tapi/lineAgentSpecific
 dev_langs:
- - c++
+- c++
 req.header: tapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Tapi32.lib
 req.dll: Tapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Tapi32.dll
+- Tapi32.dll
 api_name:
- - lineAgentSpecific
+- lineAgentSpecific
 targetos: Windows
 req.typenames: 
 req.redist: 

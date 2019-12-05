@@ -1,19 +1,17 @@
 ---
 UID: NF:p2p.PeerGraphSearchRecords
 title: PeerGraphSearchRecords function (p2p.h)
-
 description: The PeerGraphSearchRecords function searches the peer graph for specific records.
 old-location: p2p\peergraphsearchrecords.htm
 tech.root: P2PSdk
 ms.assetid: 0f20c738-ae56-4352-a1fb-5aa469a58bc8
-
 ms.date: 12/05/2018
 ms.keywords: PeerGraphSearchRecords, PeerGraphSearchRecords function [Peer Networking], p2p.peergraphsearchrecords, p2p/PeerGraphSearchRecords
 ms.topic: function
-f1_keywords: 
- - "p2p/PeerGraphSearchRecords"
+f1_keywords:
+- p2p/PeerGraphSearchRecords
 dev_langs:
- - c++
+- c++
 req.header: p2p.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: P2PGraph.lib
 req.dll: P2PGraph.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - P2PGraph.dll
+- P2PGraph.dll
 api_name:
- - PeerGraphSearchRecords
+- PeerGraphSearchRecords
 targetos: Windows
 req.typenames: 
 req.redist: 

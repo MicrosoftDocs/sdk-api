@@ -1,19 +1,17 @@
 ---
 UID: NE:certpol.X509SCEPDisposition
 title: X509SCEPDisposition (certpol.h)
-
 description: Describes the resulting disposition of a request to process a response message.
 old-location: security\x509scepdisposition.htm
 tech.root: seccertenroll
 ms.assetid: 635AAD37-261F-4F38-AD00-B3E8A5C55ABF
-
 ms.date: 12/05/2018
 ms.keywords: SCEPDispositionFailure, SCEPDispositionPending, SCEPDispositionSuccess, X509SCEPDisposition, X509SCEPDisposition enumeration [Security], certpol/SCEPDispositionFailure, certpol/SCEPDispositionPending, certpol/SCEPDispositionSuccess, certpol/X509SCEPDisposition, security.x509scepdisposition
 ms.topic: enum
-f1_keywords: 
- - "certpol/X509SCEPDisposition"
+f1_keywords:
+- certpol/X509SCEPDisposition
 dev_langs:
- - c++
+- c++
 req.header: certpol.h
 req.include-header: CertEnroll.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - certpol.h
+- certpol.h
 api_name:
- - X509SCEPDisposition
+- X509SCEPDisposition
 targetos: Windows
 req.typenames: X509SCEPDisposition
 req.redist: 

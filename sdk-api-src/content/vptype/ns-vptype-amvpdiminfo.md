@@ -1,19 +1,17 @@
 ---
 UID: NS:vptype._AMVPDIMINFO
 title: AMVPDIMINFO (vptype.h)
-
 description: The AMVPDIMINFO structure specifies the dimensional characteristics of a video port (VP) input stream.
 old-location: dshow\amvpdiminfo.htm
 tech.root: DirectShow
 ms.assetid: e39cbb85-33f0-4810-aa32-cc96676da123
-
 ms.date: 12/05/2018
-ms.keywords: "*LPAMVPDIMINFO, AMVPDIMINFO, AMVPDIMINFO structure [DirectShow], AMVPDIMINFOStructure, LPAMVPDIMINFO, LPAMVPDIMINFO structure pointer [DirectShow], dshow.amvpdiminfo, vptype/AMVPDIMINFO, vptype/LPAMVPDIMINFO"
+ms.keywords: '*LPAMVPDIMINFO, AMVPDIMINFO, AMVPDIMINFO structure [DirectShow], AMVPDIMINFOStructure, LPAMVPDIMINFO, LPAMVPDIMINFO structure pointer [DirectShow], dshow.amvpdiminfo, vptype/AMVPDIMINFO, vptype/LPAMVPDIMINFO'
 ms.topic: struct
-f1_keywords: 
- - "vptype/AMVPDIMINFO"
+f1_keywords:
+- vptype/AMVPDIMINFO
 dev_langs:
- - c++
+- c++
 req.header: vptype.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - vptype.h
+- vptype.h
 api_name:
- - AMVPDIMINFO
+- AMVPDIMINFO
 targetos: Windows
 req.typenames: AMVPDIMINFO, *LPAMVPDIMINFO
 req.redist: 

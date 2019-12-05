@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationElement.get_CachedHasKeyboardFocus
 title: IUIAutomationElement::get_CachedHasKeyboardFocus (uiautomationclient.h)
-
 description: A cached value that indicates whether the element has keyboard focus.
 old-location: winauto\uiauto_IUIAutomationElement_CachedHasKeyboardFocus.htm
 tech.root: WinAuto
 ms.assetid: 89c69ac7-4b2e-44a4-a516-0403448c61b4
-
 ms.date: 12/05/2018
 ms.keywords: CachedHasKeyboardFocus property [Windows Accessibility], CachedHasKeyboardFocus property [Windows Accessibility],IUIAutomationElement interface, IUIAutomationElement interface [Windows Accessibility],CachedHasKeyboardFocus property, IUIAutomationElement.CachedHasKeyboardFocus, IUIAutomationElement.get_CachedHasKeyboardFocus, IUIAutomationElement::CachedHasKeyboardFocus, IUIAutomationElement::get_CachedHasKeyboardFocus, get_CachedHasKeyboardFocus, uiauto.uiauto_IUIAutomationElement_CachedHasKeyboardFocus, uiauto_IUIAutomationElement_CachedHasKeyboardFocus, uiautomationclient/IUIAutomationElement::CachedHasKeyboardFocus, uiautomationclient/IUIAutomationElement::get_CachedHasKeyboardFocus, winauto.uiauto_IUIAutomationElement_CachedHasKeyboardFocus
 ms.topic: method
-f1_keywords: 
- - "uiautomationclient/IUIAutomationElement.CachedHasKeyboardFocus"
+f1_keywords:
+- uiautomationclient/IUIAutomationElement.CachedHasKeyboardFocus
 dev_langs:
- - c++
+- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationClient.h
+- UIAutomationClient.h
 api_name:
- - IUIAutomationElement.CachedHasKeyboardFocus
- - IUIAutomationElement.get_CachedHasKeyboardFocus
+- IUIAutomationElement.CachedHasKeyboardFocus
+- IUIAutomationElement.get_CachedHasKeyboardFocus
 targetos: Windows
 req.typenames: 
 req.redist: 

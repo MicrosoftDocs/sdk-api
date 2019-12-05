@@ -1,19 +1,17 @@
 ---
 UID: NF:textserv.ITextServices.OnTxUIDeactivate
 title: ITextServices::OnTxUIDeactivate (textserv.h)
-
 description: Informs the text services object that the control is no longer UI active.
 old-location: controls\ITextServices_OnTxUIDeactivate.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\windowlessricheditcontrols\windowlessricheditcontrolsreference\windowlessricheditcontrolinterfaces\ontxuideactivate.htm
-
 ms.date: 12/05/2018
 ms.keywords: ITextServices interface [Windows Controls],OnTxUIDeactivate method, ITextServices.OnTxUIDeactivate, ITextServices::OnTxUIDeactivate, OnTxUIDeactivate, OnTxUIDeactivate method [Windows Controls], OnTxUIDeactivate method [Windows Controls],ITextServices interface, _win32_ITextServices_OnTxUIDeactivate, _win32_ITextServices_OnTxUIDeactivate_cpp, controls.ITextServices_OnTxUIDeactivate, controls._win32_ITextServices_OnTxUIDeactivate, textserv/ITextServices::OnTxUIDeactivate
 ms.topic: method
-f1_keywords: 
- - "textserv/ITextServices.OnTxUIDeactivate"
+f1_keywords:
+- textserv/ITextServices.OnTxUIDeactivate
 dev_langs:
- - c++
+- c++
 req.header: textserv.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msftedit.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msftedit.dll
+- Msftedit.dll
 api_name:
- - ITextServices.OnTxUIDeactivate
+- ITextServices.OnTxUIDeactivate
 targetos: Windows
 req.typenames: 
 req.redist: 

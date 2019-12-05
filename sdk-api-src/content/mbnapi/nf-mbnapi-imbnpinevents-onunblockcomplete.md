@@ -1,19 +1,17 @@
 ---
 UID: NF:mbnapi.IMbnPinEvents.OnUnblockComplete
 title: IMbnPinEvents::OnUnblockComplete (mbnapi.h)
-
 description: Notification method called by the Mobile Broadband service to indicate that a PIN unblock operation has completed.
 old-location: mbn\imbnpinevents_onunblockcomplete.htm
 tech.root: mbn
 ms.assetid: 65a18fee-6d20-42fc-b1cb-ed0a440d76a5
-
 ms.date: 12/05/2018
 ms.keywords: E_FAIL, E_MBN_BAD_SIM, E_MBN_PIN_REQUIRED, E_MBN_SIM_NOT_INSERTED, HRESULT_FROM_WIN32(ERROR_NOT_SUPPORTED), IMbnPinEvents interface [Microsoft Broadband Networks],OnUnblockComplete method, IMbnPinEvents.OnUnblockComplete, IMbnPinEvents::OnUnblockComplete, OnUnblockComplete, OnUnblockComplete method [Microsoft Broadband Networks], OnUnblockComplete method [Microsoft Broadband Networks],IMbnPinEvents interface, S_OK, mbn.imbnpinevents_onunblockcomplete, mbnapi/IMbnPinEvents::OnUnblockComplete
 ms.topic: method
-f1_keywords: 
- - "mbnapi/IMbnPinEvents.OnUnblockComplete"
+f1_keywords:
+- mbnapi/IMbnPinEvents.OnUnblockComplete
 dev_langs:
- - c++
+- c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mbnapi.h
+- mbnapi.h
 api_name:
- - IMbnPinEvents.OnUnblockComplete
+- IMbnPinEvents.OnUnblockComplete
 targetos: Windows
 req.typenames: 
 req.redist: 

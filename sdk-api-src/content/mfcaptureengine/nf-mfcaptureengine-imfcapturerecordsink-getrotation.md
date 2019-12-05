@@ -1,19 +1,17 @@
 ---
 UID: NF:mfcaptureengine.IMFCaptureRecordSink.GetRotation
 title: IMFCaptureRecordSink::GetRotation (mfcaptureengine.h)
-
 description: Gets the rotation that is currently being applied to the recorded video stream.
 old-location: mf\imfcapturerecordsink_getrotation.htm
 tech.root: medfound
 ms.assetid: E582ED9C-D7B8-4DF9-B72F-361E682DB93F
-
 ms.date: 12/05/2018
 ms.keywords: GetRotation, GetRotation method [Media Foundation], GetRotation method [Media Foundation],IMFCaptureRecordSink interface, IMFCaptureRecordSink interface [Media Foundation],GetRotation method, IMFCaptureRecordSink.GetRotation, IMFCaptureRecordSink::GetRotation, mf.imfcapturerecordsink_getrotation, mfcaptureengine/IMFCaptureRecordSink::GetRotation
 ms.topic: method
-f1_keywords: 
- - "mfcaptureengine/IMFCaptureRecordSink.GetRotation"
+f1_keywords:
+- mfcaptureengine/IMFCaptureRecordSink.GetRotation
 dev_langs:
- - c++
+- c++
 req.header: mfcaptureengine.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfcaptureengine.h
+- mfcaptureengine.h
 api_name:
- - IMFCaptureRecordSink.GetRotation
+- IMFCaptureRecordSink.GetRotation
 targetos: Windows
 req.typenames: 
 req.redist: 

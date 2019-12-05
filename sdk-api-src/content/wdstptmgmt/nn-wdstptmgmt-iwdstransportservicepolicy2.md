@@ -1,19 +1,17 @@
 ---
 UID: NN:wdstptmgmt.IWdsTransportServicePolicy2
 title: IWdsTransportServicePolicy2 (wdstptmgmt.h)
-
 description: This interface inherits from the IWdsTransportServicePolicy interface and extends it beginning with Windows Server 2012.
 old-location: wds\iwdstransportservicepolicy2.htm
 tech.root: wds
 ms.assetid: F03FC0C8-D589-4C3C-A6C1-AD631839ED26
-
 ms.date: 12/05/2018
 ms.keywords: IWdsTransportServicePolicy2, IWdsTransportServicePolicy2 interface [Windows Deployment Services], IWdsTransportServicePolicy2 interface [Windows Deployment Services],described, wds.iwdstransportservicepolicy2, wdstptmgmt/IWdsTransportServicePolicy2
 ms.topic: interface
-f1_keywords: 
- - "wdstptmgmt/IWdsTransportServicePolicy2"
+f1_keywords:
+- wdstptmgmt/IWdsTransportServicePolicy2
 dev_langs:
- - c++
+- c++
 req.header: wdstptmgmt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wdstptmgmt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wdstptmgmt.dll
+- Wdstptmgmt.dll
 api_name:
- - IWdsTransportServicePolicy2
+- IWdsTransportServicePolicy2
 targetos: Windows
 req.typenames: 
 req.redist: 

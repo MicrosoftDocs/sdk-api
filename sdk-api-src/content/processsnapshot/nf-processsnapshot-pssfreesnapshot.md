@@ -1,19 +1,17 @@
 ---
 UID: NF:processsnapshot.PssFreeSnapshot
 title: PssFreeSnapshot function (processsnapshot.h)
-
 description: Frees a snapshot.
 old-location: proc_snap\pssfreesnapshot.htm
 tech.root: proc_snap
 ms.assetid: 5D062AE6-2F7C-4121-AB6E-9BFA06AB36C6
-
 ms.date: 12/05/2018
 ms.keywords: PssFreeSnapshot, PssFreeSnapshot function, proc_snap.pssfreesnapshot, processsnapshot/PssFreeSnapshot
 ms.topic: function
-f1_keywords: 
- - "processsnapshot/PssFreeSnapshot"
+f1_keywords:
+- processsnapshot/PssFreeSnapshot
 dev_langs:
- - c++
+- c++
 req.header: processsnapshot.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - kernel32.dll
- - API-MS-Win-Core-Processsnapshot-l1-1-0.dll
- - KernelBase.dll
+- kernel32.dll
+- API-MS-Win-Core-Processsnapshot-l1-1-0.dll
+- KernelBase.dll
 api_name:
- - PssFreeSnapshot
+- PssFreeSnapshot
 targetos: Windows
 req.typenames: 
 req.redist: 

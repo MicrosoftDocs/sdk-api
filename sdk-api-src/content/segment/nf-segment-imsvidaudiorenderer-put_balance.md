@@ -1,19 +1,17 @@
 ---
 UID: NF:segment.IMSVidAudioRenderer.put_Balance
 title: IMSVidAudioRenderer::put_Balance (segment.h)
-
 description: The put_Balance method specifies the audio renderer's balance level.
 old-location: mstv\imsvidaudiorenderer_put_balance.htm
 tech.root: mstv
 ms.assetid: 25a9231a-d34a-4657-be0a-fcc979d1745d
-
 ms.date: 12/05/2018
 ms.keywords: IMSVidAudioRenderer interface [Microsoft TV Technologies],put_Balance method, IMSVidAudioRenderer.put_Balance, IMSVidAudioRenderer::put_Balance, IMSVidAudioRendererput_Balance, mstv.imsvidaudiorenderer_put_balance, put_Balance, put_Balance method [Microsoft TV Technologies], put_Balance method [Microsoft TV Technologies],IMSVidAudioRenderer interface, segment/IMSVidAudioRenderer::put_Balance
 ms.topic: method
-f1_keywords: 
- - "segment/IMSVidAudioRenderer.put_Balance"
+f1_keywords:
+- segment/IMSVidAudioRenderer.put_Balance
 dev_langs:
- - c++
+- c++
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - segment.h
+- segment.h
 api_name:
- - IMSVidAudioRenderer.put_Balance
+- IMSVidAudioRenderer.put_Balance
 targetos: Windows
 req.typenames: 
 req.redist: 

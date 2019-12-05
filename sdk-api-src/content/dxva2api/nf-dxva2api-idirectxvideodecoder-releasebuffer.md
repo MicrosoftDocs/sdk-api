@@ -1,19 +1,17 @@
 ---
 UID: NF:dxva2api.IDirectXVideoDecoder.ReleaseBuffer
 title: IDirectXVideoDecoder::ReleaseBuffer (dxva2api.h)
-
 description: Releases a buffer that was obtained by calling IDirectXVideoDecoder::GetBuffer.
 old-location: mf\idirectxvideodecoder_releasebuffer.htm
 tech.root: medfound
 ms.assetid: e828a8e0-b9ec-4b86-abea-cbd8e0fd3a90
-
 ms.date: 12/05/2018
 ms.keywords: IDirectXVideoDecoder interface [Media Foundation],ReleaseBuffer method, IDirectXVideoDecoder.ReleaseBuffer, IDirectXVideoDecoder::ReleaseBuffer, ReleaseBuffer, ReleaseBuffer method [Media Foundation], ReleaseBuffer method [Media Foundation],IDirectXVideoDecoder interface, dxva2api/IDirectXVideoDecoder::ReleaseBuffer, e828a8e0-b9ec-4b86-abea-cbd8e0fd3a90, mf.idirectxvideodecoder_releasebuffer
 ms.topic: method
-f1_keywords: 
- - "dxva2api/IDirectXVideoDecoder.ReleaseBuffer"
+f1_keywords:
+- dxva2api/IDirectXVideoDecoder.ReleaseBuffer
 dev_langs:
- - c++
+- c++
 req.header: dxva2api.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dxva2api.h
+- dxva2api.h
 api_name:
- - IDirectXVideoDecoder.ReleaseBuffer
+- IDirectXVideoDecoder.ReleaseBuffer
 targetos: Windows
 req.typenames: 
 req.redist: 

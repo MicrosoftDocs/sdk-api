@@ -1,19 +1,17 @@
 ---
 UID: NF:gdipluscolor.Color.GetBlue
 title: Color::GetBlue (gdipluscolor.h)
-
 description: The Color::GetBlue method gets the blue component of this Color object.
 old-location: gdiplus\_gdiplus_CLASS_Color_GetBlue_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\colorclass\colormethods\getblue.htm
-
 ms.date: 12/05/2018
 ms.keywords: Color class [GDI+],GetBlue method, Color.GetBlue, Color::GetBlue, GetBlue, GetBlue method [GDI+], GetBlue method [GDI+],Color class, _gdiplus_CLASS_Color_GetBlue_, gdiplus._gdiplus_CLASS_Color_GetBlue_
 ms.topic: method
-f1_keywords: 
- - "gdipluscolor/Color.GetBlue"
+f1_keywords:
+- gdipluscolor/Color.GetBlue
 dev_langs:
- - c++
+- c++
 req.header: gdipluscolor.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - Color.GetBlue
+- Color.GetBlue
 targetos: Windows
 req.typenames: 
 req.redist: 

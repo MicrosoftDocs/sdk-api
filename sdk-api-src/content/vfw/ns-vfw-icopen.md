@@ -1,19 +1,17 @@
 ---
 UID: NS:vfw.__unnamed_struct_0
 title: ICOPEN (vfw.h)
-
 description: The ICOPEN structure contains information about the data stream being compressed or decompressed, the version number of the driver, and how the driver is used.
 old-location: multimedia\icopen_struct.htm
 tech.root: Multimedia
 ms.assetid: 6c29961c-7f9c-49e5-84aa-a5f4ff1cbbd1
-
 ms.date: 12/05/2018
 ms.keywords: ICMODE_COMPRESS, ICMODE_DECOMPRESS, ICMODE_DRAW, ICMODE_QUERY, ICOPEN, ICOPEN structure [Windows Multimedia], multimedia.icopen_COLLISION563, multimedia.icopen_struct, vfw/ICOPEN
 ms.topic: struct
-f1_keywords: 
- - "vfw/ICOPEN"
+f1_keywords:
+- vfw/ICOPEN
 dev_langs:
- - c++
+- c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Vfw.h
+- Vfw.h
 api_name:
- - ICOPEN
+- ICOPEN
 targetos: Windows
 req.typenames: ICOPEN
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:taskschd.IPrincipal.get_Id
 title: IPrincipal::get_Id (taskschd.h)
-
 description: Gets or sets the identifier of the principal.
 old-location: taskschd\iprincipal_id.htm
 tech.root: taskschd
 ms.assetid: 70c31ea8-508a-4971-b62a-b94e87a8857d
-
 ms.date: 12/05/2018
 ms.keywords: IPrincipal interface [Task Scheduler],Id property, IPrincipal.Id, IPrincipal.get_Id, IPrincipal::Id, IPrincipal::get_Id, IPrincipal::put_Id, Id property [Task Scheduler], Id property [Task Scheduler],IPrincipal interface, get_Id, taskschd.iprincipal_id, taskschd/IPrincipal::Id, taskschd/IPrincipal::get_Id, taskschd/IPrincipal::put_Id
 ms.topic: method
-f1_keywords: 
- - "taskschd/IPrincipal.Id"
+f1_keywords:
+- taskschd/IPrincipal.Id
 dev_langs:
- - c++
+- c++
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Taskschd.lib
 req.dll: Taskschd.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - taskschd.dll
+- taskschd.dll
 api_name:
- - IPrincipal.Id
- - IPrincipal.get_Id
- - IPrincipal.put_Id
+- IPrincipal.Id
+- IPrincipal.get_Id
+- IPrincipal.put_Id
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:gpmgmt.IGPMDomain.GetSOM
 title: IGPMDomain::GetSOM (gpmgmt.h)
-
 description: Retrieves the IGPMSOM interface that represents the domain or the organizational unit (OU) at the specified path.
 old-location: gpmc\igpmdomain_getsom.htm
 tech.root: gpmc
 ms.assetid: cbacd900-26ea-4554-97d8-8f33d2f5dd2b
-
 ms.date: 12/05/2018
 ms.keywords: GPMDomain class [GPMC],GetSOM method, GetSOM, GetSOM method [GPMC], GetSOM method [GPMC],GPMDomain class, GetSOM method [GPMC],IGPMDomain interface, IGPMDomain interface [GPMC],GetSOM method, IGPMDomain.GetSOM, IGPMDomain::GetSOM, _win32_igpmdomain_getsom, gpmc.igpmdomain_getsom, gpmgmt/IGPMDomain::GetSOM
 ms.topic: method
-f1_keywords: 
- - "gpmgmt/IGPMDomain.GetSOM"
+f1_keywords:
+- gpmgmt/IGPMDomain.GetSOM
 dev_langs:
- - c++
+- c++
 req.header: gpmgmt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: Gpmgmt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gpmgmt.dll
+- Gpmgmt.dll
 api_name:
- - IGPMDomain.GetSOM
- - GPMDomain.GetSOM
+- IGPMDomain.GetSOM
+- GPMDomain.GetSOM
 targetos: Windows
 req.typenames: 
 req.redist: 

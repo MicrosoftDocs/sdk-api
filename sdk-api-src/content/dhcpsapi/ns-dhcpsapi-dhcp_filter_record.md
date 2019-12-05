@@ -1,19 +1,17 @@
 ---
 UID: NS:dhcpsapi._DHCP_FILTER_RECORD
 title: DHCP_FILTER_RECORD (dhcpsapi.h)
-
 description: Contains information for a specific link-layer filter.
 old-location: dhcp\dhcp_filter_record.htm
 tech.root: DHCP
 ms.assetid: 5f8531fe-cc30-4baf-904b-15627d1ff750
-
 ms.date: 12/05/2018
 ms.keywords: '*LPDHCP_FILTER_RECORD, DHCP_FILTER_RECORD, DHCP_FILTER_RECORD structure [DHCP], PDHCP_FILTER_RECORD, PDHCP_FILTER_RECORD structure pointer [DHCP], dhcp.dhcp_filter_record, dhcpsapi/DHCP_FILTER_RECORD, dhcpsapi/PDHCP_FILTER_RECORD'
 ms.topic: struct
 f1_keywords:
 - dhcpsapi/DHCP_FILTER_RECORD
 dev_langs:
- - c++
+- c++
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows

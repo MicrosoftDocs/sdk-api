@@ -1,19 +1,17 @@
 ---
 UID: NF:imapi2.IDiscFormat2.get_MediaPhysicallyBlank
 title: IDiscFormat2::get_MediaPhysicallyBlank (imapi2.h)
-
 description: Determines if the current media is reported as physically blank by the drive.
 old-location: imapi\idiscformat2_get_mediaphysicallyblank.htm
 tech.root: imapi
 ms.assetid: 5a797742-9142-415b-896b-09526894c2a6
-
 ms.date: 12/05/2018
 ms.keywords: IDiscFormat2 interface [IMAPI],get_MediaPhysicallyBlank method, IDiscFormat2.get_MediaPhysicallyBlank, IDiscFormat2::get_MediaPhysicallyBlank, get_MediaPhysicallyBlank, get_MediaPhysicallyBlank method [IMAPI], get_MediaPhysicallyBlank method [IMAPI],IDiscFormat2 interface, imapi.idiscformat2_get_mediaphysicallyblank, imapi2/IDiscFormat2::get_MediaPhysicallyBlank
 ms.topic: method
-f1_keywords: 
- - "imapi2/IDiscFormat2.get_MediaPhysicallyBlank"
+f1_keywords:
+- imapi2/IDiscFormat2.get_MediaPhysicallyBlank
 dev_langs:
- - c++
+- c++
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - imapi2.h
+- imapi2.h
 api_name:
- - IDiscFormat2.get_MediaPhysicallyBlank
+- IDiscFormat2.get_MediaPhysicallyBlank
 targetos: Windows
 req.typenames: 
 req.redist: 

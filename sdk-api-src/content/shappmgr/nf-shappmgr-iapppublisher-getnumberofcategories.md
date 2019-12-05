@@ -1,19 +1,17 @@
 ---
 UID: NF:shappmgr.IAppPublisher.GetNumberOfCategories
 title: IAppPublisher::GetNumberOfCategories (shappmgr.h)
-
 description: Obsolete. Clients of the Add/Remove Programs Control Panel Application may return E_NOTIMPL.
 old-location: shell\IAppPublisher_GetNumberOfCategories.htm
 tech.root: shell
 ms.assetid: 5f03b2e6-7202-477f-84ef-2dfaaa484880
-
 ms.date: 12/05/2018
 ms.keywords: GetNumberOfCategories, GetNumberOfCategories method [Windows Shell], GetNumberOfCategories method [Windows Shell],IAppPublisher interface, IAppPublisher interface [Windows Shell],GetNumberOfCategories method, IAppPublisher.GetNumberOfCategories, IAppPublisher::GetNumberOfCategories, inet_IAppPublisher_GetNumberOfCategories, shappmgr/IAppPublisher::GetNumberOfCategories, shell.IAppPublisher_GetNumberOfCategories
 ms.topic: method
-f1_keywords: 
- - "shappmgr/IAppPublisher.GetNumberOfCategories"
+f1_keywords:
+- shappmgr/IAppPublisher.GetNumberOfCategories
 dev_langs:
- - c++
+- c++
 req.header: shappmgr.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shappmgr.h
+- Shappmgr.h
 api_name:
- - IAppPublisher.GetNumberOfCategories
+- IAppPublisher.GetNumberOfCategories
 targetos: Windows
 req.typenames: 
 req.redist: 

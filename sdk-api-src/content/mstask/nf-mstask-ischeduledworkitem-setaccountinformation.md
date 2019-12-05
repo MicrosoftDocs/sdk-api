@@ -1,19 +1,17 @@
 ---
 UID: NF:mstask.IScheduledWorkItem.SetAccountInformation
 title: IScheduledWorkItem::SetAccountInformation (mstask.h)
-
 description: Sets the account name and password used to run the work item.
 old-location: taskschd\ischeduledworkitem_setaccountinformation.htm
 tech.root: taskschd
 ms.assetid: fae1299f-2f3f-48cf-91d9-1057ce62172b
-
 ms.date: 12/05/2018
 ms.keywords: IScheduledWorkItem interface [Task Scheduler],SetAccountInformation method, IScheduledWorkItem.SetAccountInformation, IScheduledWorkItem::SetAccountInformation, SetAccountInformation, SetAccountInformation method [Task Scheduler], SetAccountInformation method [Task Scheduler],IScheduledWorkItem interface, _msb_ischeduledworkitem_setaccountinformation, mstask/IScheduledWorkItem::SetAccountInformation, taskschd.ischeduledworkitem_setaccountinformation
 ms.topic: method
-f1_keywords: 
- - "mstask/IScheduledWorkItem.SetAccountInformation"
+f1_keywords:
+- mstask/IScheduledWorkItem.SetAccountInformation
 dev_langs:
- - c++
+- c++
 req.header: mstask.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Mstask.lib
 req.dll: Mstask.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mstask.dll
+- Mstask.dll
 api_name:
- - IScheduledWorkItem.SetAccountInformation
+- IScheduledWorkItem.SetAccountInformation
 targetos: Windows
 req.typenames: 
 req.redist: 

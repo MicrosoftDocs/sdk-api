@@ -1,19 +1,17 @@
 ---
 UID: NS:tbs._TPM_DEVICE_INFO
 title: TPM_DEVICE_INFO (tbs.h)
-
 description: Provides information about the version of the TPM.
 old-location: tbs\tpm_device_info.htm
 tech.root: TBS
 ms.assetid: 59B8AB6D-82D8-4B15-AB62-AB2B9CA7B5E3
-
 ms.date: 12/05/2018
-ms.keywords: "*PTPM_DEVICE_INFO, PTPM_DEVICE_INFO, PTPM_DEVICE_INFO structure pointer [TBS], TPM_DEVICE_INFO, TPM_DEVICE_INFO structure [TBS], tbs.tpm_device_info, tbs/PTPM_DEVICE_INFO, tbs/TPM_DEVICE_INFO"
+ms.keywords: '*PTPM_DEVICE_INFO, PTPM_DEVICE_INFO, PTPM_DEVICE_INFO structure pointer [TBS], TPM_DEVICE_INFO, TPM_DEVICE_INFO structure [TBS], tbs.tpm_device_info, tbs/PTPM_DEVICE_INFO, tbs/TPM_DEVICE_INFO'
 ms.topic: struct
-f1_keywords: 
- - "tbs/TPM_DEVICE_INFO"
+f1_keywords:
+- tbs/TPM_DEVICE_INFO
 dev_langs:
- - c++
+- c++
 req.header: tbs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Tbs.h
+- Tbs.h
 api_name:
- - TPM_DEVICE_INFO
+- TPM_DEVICE_INFO
 targetos: Windows
 req.typenames: TPM_DEVICE_INFO, *PTPM_DEVICE_INFO
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NN:uianimation.IUIAnimationStoryboard
 title: IUIAnimationStoryboard (uianimation.h)
-
 description: Defines a storyboard, which contains a group of transitions that are synchronized relative to one another.
 old-location: uianimation\iuianimationstoryboard.htm
 tech.root: UIAnimation
 ms.assetid: 6b30b660-dfa4-410f-a8de-58ea5c9a104d
-
 ms.date: 12/05/2018
 ms.keywords: IUIAnimationStoryboard, IUIAnimationStoryboard interface [Windows Animation], IUIAnimationStoryboard interface [Windows Animation],described, uianimation.iuianimationstoryboard, uianimation/IUIAnimationStoryboard
 ms.topic: interface
-f1_keywords: 
- - "uianimation/IUIAnimationStoryboard"
+f1_keywords:
+- uianimation/IUIAnimationStoryboard
 dev_langs:
- - c++
+- c++
 req.header: uianimation.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: UIAnimation.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAnimation.dll
+- UIAnimation.dll
 api_name:
- - IUIAnimationStoryboard
+- IUIAnimationStoryboard
 targetos: Windows
 req.typenames: 
 req.redist: 

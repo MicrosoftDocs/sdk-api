@@ -1,19 +1,17 @@
 ---
 UID: NF:wuapi.IWindowsUpdateAgentInfo.GetInfo
 title: IWindowsUpdateAgentInfo::GetInfo (wuapi.h)
-
 description: Retrieves version information about Windows Update Agent (WUA).
 old-location: wua\iwindowsupdateagentinfo_getinfo.htm
 tech.root: Wua_Sdk
 ms.assetid: 7798032c-b0a3-4f2a-958a-f98192204832
-
 ms.date: 12/05/2018
 ms.keywords: GetInfo, GetInfo method [Windows Update Agent], GetInfo method [Windows Update Agent],IWindowsUpdateAgentInfo interface, IWindowsUpdateAgentInfo interface [Windows Update Agent],GetInfo method, IWindowsUpdateAgentInfo.GetInfo, IWindowsUpdateAgentInfo::GetInfo, wua.iwindowsupdateagentinfo_getinfo, wuapi/IWindowsUpdateAgentInfo::GetInfo
 ms.topic: method
-f1_keywords: 
- - "wuapi/IWindowsUpdateAgentInfo.GetInfo"
+f1_keywords:
+- wuapi/IWindowsUpdateAgentInfo.GetInfo
 dev_langs:
- - c++
+- c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Wuguid.lib
 req.dll: Wuapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wuapi.dll
+- Wuapi.dll
 api_name:
- - IWindowsUpdateAgentInfo.GetInfo
+- IWindowsUpdateAgentInfo.GetInfo
 targetos: Windows
 req.typenames: 
 req.redist: 

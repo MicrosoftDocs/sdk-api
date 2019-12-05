@@ -1,19 +1,17 @@
 ---
 UID: NF:tom.ITextPara2.SetTrimPunctuationAtStart
 title: ITextPara2::SetTrimPunctuationAtStart (tom.h)
-
 description: Sets whether to trim the leading space of a punctuation symbol at the start of a line.
 old-location: controls\itextpara2_settrimpunctuationatstart.htm
 tech.root: Controls
 ms.assetid: f08f67ca-5767-4986-8af1-b3a11a1065aa
-
 ms.date: 12/05/2018
 ms.keywords: ITextPara2 interface [Windows Controls],SetTrimPunctuationAtStart method, ITextPara2.SetTrimPunctuationAtStart, ITextPara2::SetTrimPunctuationAtStart, SetTrimPunctuationAtStart, SetTrimPunctuationAtStart method [Windows Controls], SetTrimPunctuationAtStart method [Windows Controls],ITextPara2 interface, controls.itextpara2_settrimpunctuationatstart, tom/ITextPara2::SetTrimPunctuationAtStart
 ms.topic: method
-f1_keywords: 
- - "tom/ITextPara2.SetTrimPunctuationAtStart"
+f1_keywords:
+- tom/ITextPara2.SetTrimPunctuationAtStart
 dev_langs:
- - c++
+- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msftedit.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msftedit.dll
+- Msftedit.dll
 api_name:
- - ITextPara2.SetTrimPunctuationAtStart
+- ITextPara2.SetTrimPunctuationAtStart
 targetos: Windows
 req.typenames: 
 req.redist: 

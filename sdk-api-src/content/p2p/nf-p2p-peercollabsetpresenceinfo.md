@@ -1,19 +1,17 @@
 ---
 UID: NF:p2p.PeerCollabSetPresenceInfo
 title: PeerCollabSetPresenceInfo function (p2p.h)
-
 description: Updates the caller's presence information to any contacts watching it.
 old-location: p2p\peercollabsetpresenceinfo.htm
 tech.root: P2PSdk
 ms.assetid: fd90e7d2-5126-4bcf-b633-466855abd60a
-
 ms.date: 12/05/2018
 ms.keywords: PeerCollabSetPresenceInfo, PeerCollabSetPresenceInfo function [Peer Networking], p2p.peercollabsetpresenceinfo, p2p/PeerCollabSetPresenceInfo
 ms.topic: function
-f1_keywords: 
- - "p2p/PeerCollabSetPresenceInfo"
+f1_keywords:
+- p2p/PeerCollabSetPresenceInfo
 dev_langs:
- - c++
+- c++
 req.header: p2p.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: P2P.lib
 req.dll: P2P.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - P2P.dll
+- P2P.dll
 api_name:
- - PeerCollabSetPresenceInfo
+- PeerCollabSetPresenceInfo
 targetos: Windows
 req.typenames: 
 req.redist: 

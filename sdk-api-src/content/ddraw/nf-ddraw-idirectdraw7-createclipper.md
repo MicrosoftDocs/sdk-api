@@ -1,19 +1,17 @@
 ---
 UID: NF:ddraw.IDirectDraw7.CreateClipper
 title: IDirectDraw7::CreateClipper (ddraw.h)
-
 description: Creates a DirectDrawClipper object.
 old-location: directdraw\idirectdraw7_createclipper.htm
 tech.root: directdraw
 ms.assetid: 123a07c0-d371-4d10-bff8-b5640bd3b920
-
 ms.date: 12/05/2018
 ms.keywords: CreateClipper, CreateClipper method [DirectDraw], CreateClipper method [DirectDraw],IDirectDraw7 interface, IDirectDraw7 interface [DirectDraw],CreateClipper method, IDirectDraw7.CreateClipper, IDirectDraw7::CreateClipper, ddraw/IDirectDraw7::CreateClipper, directdraw.idirectdraw7_createclipper
 ms.topic: method
-f1_keywords: 
- - "ddraw/IDirectDraw7.CreateClipper"
+f1_keywords:
+- ddraw/IDirectDraw7.CreateClipper
 dev_langs:
- - c++
+- c++
 req.header: ddraw.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Ddraw.lib
 req.dll: Ddraw.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Ddraw.dll
+- Ddraw.dll
 api_name:
- - IDirectDraw7.CreateClipper
+- IDirectDraw7.CreateClipper
 targetos: Windows
 req.typenames: 
 req.redist: 

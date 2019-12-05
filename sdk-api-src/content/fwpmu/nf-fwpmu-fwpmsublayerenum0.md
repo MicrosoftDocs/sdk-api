@@ -1,19 +1,17 @@
 ---
 UID: NF:fwpmu.FwpmSubLayerEnum0
 title: FwpmSubLayerEnum0 function (fwpmu.h)
-
 description: Returns the next page of results from the sublayer enumerator.
 old-location: fwp\fwpmsublayerenum0_func.htm
 tech.root: fwp
 ms.assetid: 2f370d6f-4670-401e-840e-11f775dbd873
-
 ms.date: 12/05/2018
 ms.keywords: FwpmSubLayerEnum0, FwpmSubLayerEnum0 function [Filtering], fwp.fwpmsublayerenum0_func, fwpmu/FwpmSubLayerEnum0
 ms.topic: function
-f1_keywords: 
- - "fwpmu/FwpmSubLayerEnum0"
+f1_keywords:
+- fwpmu/FwpmSubLayerEnum0
 dev_langs:
- - c++
+- c++
 req.header: fwpmu.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Fwpuclnt.lib
 req.dll: Fwpuclnt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Fwpuclnt.dll
+- Fwpuclnt.dll
 api_name:
- - FwpmSubLayerEnum0
+- FwpmSubLayerEnum0
 targetos: Windows
 req.typenames: 
 req.redist: 

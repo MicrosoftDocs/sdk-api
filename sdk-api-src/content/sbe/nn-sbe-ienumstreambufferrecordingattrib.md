@@ -1,19 +1,17 @@
 ---
 UID: NN:sbe.IEnumStreamBufferRecordingAttrib
 title: IEnumStreamBufferRecordingAttrib (sbe.h)
-
 description: The IEnumStreamBufferRecordingAttrib interface enumerates a collection of attributes on a stream buffer file.
 old-location: mstv\ienumstreambufferrecordingattrib.htm
 tech.root: mstv
 ms.assetid: 668d2e04-74fa-41d7-b238-ec737a4441ca
-
 ms.date: 12/05/2018
 ms.keywords: IEnumStreamBufferRecordingAttrib, IEnumStreamBufferRecordingAttrib interface [Microsoft TV Technologies], IEnumStreamBufferRecordingAttrib interface [Microsoft TV Technologies],described, IEnumStreamBufferRecordingAttribInterface, mstv.ienumstreambufferrecordingattrib, sbe/IEnumStreamBufferRecordingAttrib
 ms.topic: interface
-f1_keywords: 
- - "sbe/IEnumStreamBufferRecordingAttrib"
+f1_keywords:
+- sbe/IEnumStreamBufferRecordingAttrib
 dev_langs:
- - c++
+- c++
 req.header: sbe.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Sbe.h
+- Sbe.h
 api_name:
- - IEnumStreamBufferRecordingAttrib
+- IEnumStreamBufferRecordingAttrib
 targetos: Windows
 req.typenames: 
 req.redist: 

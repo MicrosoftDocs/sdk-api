@@ -1,19 +1,17 @@
 ---
 UID: NF:searchapi.ISearchManager.get_UserAgent
 title: ISearchManager::get_UserAgent (searchapi.h)
-
 description: Retrieves the user agent string.
 old-location: search\_search_ISearchManager_get_UserAgent.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\indexmanagement\isearchmanager\get_useragent.htm
-
 ms.date: 12/05/2018
 ms.keywords: ISearchManager interface [search],get_UserAgent method, ISearchManager.get_UserAgent, ISearchManager::get_UserAgent, _search_ISearchManager_get_UserAgent, get_UserAgent, get_UserAgent method [search], get_UserAgent method [search],ISearchManager interface, search._search_ISearchManager_get_UserAgent, searchapi/ISearchManager::get_UserAgent
 ms.topic: method
-f1_keywords: 
- - "searchapi/ISearchManager.get_UserAgent"
+f1_keywords:
+- searchapi/ISearchManager.get_UserAgent
 dev_langs:
- - c++
+- c++
 req.header: searchapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Searchapi.h
+- Searchapi.h
 api_name:
- - ISearchManager.get_UserAgent
+- ISearchManager.get_UserAgent
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0

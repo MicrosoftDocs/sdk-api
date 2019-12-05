@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IGraphConfig.GetFilterFlags
 title: IGraphConfig::GetFilterFlags (strmif.h)
-
 description: The GetFilterFlags method retrieves a filter's configuration information.
 old-location: dshow\igraphconfig_getfilterflags.htm
 tech.root: DirectShow
 ms.assetid: 747c3865-1969-45e8-a2c9-dbd72a9ea463
-
 ms.date: 12/05/2018
 ms.keywords: GetFilterFlags, GetFilterFlags method [DirectShow], GetFilterFlags method [DirectShow],IGraphConfig interface, IGraphConfig interface [DirectShow],GetFilterFlags method, IGraphConfig.GetFilterFlags, IGraphConfig::GetFilterFlags, IGraphConfigGetFilterFlags, dshow.igraphconfig_getfilterflags, strmif/IGraphConfig::GetFilterFlags
 ms.topic: method
-f1_keywords: 
- - "strmif/IGraphConfig.GetFilterFlags"
+f1_keywords:
+- strmif/IGraphConfig.GetFilterFlags
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IGraphConfig.GetFilterFlags
+- IGraphConfig.GetFilterFlags
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:wincodec.IWICBitmapFrameEncode.SetPixelFormat
 title: IWICBitmapFrameEncode::SetPixelFormat (wincodec.h)
-
 description: Requests that the encoder use the specified pixel format.
 old-location: wic\_wic_codec_iwicbitmapframeencode_setpixelformat.htm
 tech.root: wic
 ms.assetid: 9327b5dd-18a3-40c6-8bb4-245fcc7fb582
-
 ms.date: 12/05/2018
 ms.keywords: IWICBitmapFrameEncode interface [Windows Imaging Component],SetPixelFormat method, IWICBitmapFrameEncode.SetPixelFormat, IWICBitmapFrameEncode::SetPixelFormat, SetPixelFormat, SetPixelFormat method [Windows Imaging Component], SetPixelFormat method [Windows Imaging Component],IWICBitmapFrameEncode interface, _wic_codec_iwicbitmapframeencode_setpixelformat, wic._wic_codec_iwicbitmapframeencode_setpixelformat, wincodec/IWICBitmapFrameEncode::SetPixelFormat
 ms.topic: method
-f1_keywords: 
- - "wincodec/IWICBitmapFrameEncode.SetPixelFormat"
+f1_keywords:
+- wincodec/IWICBitmapFrameEncode.SetPixelFormat
 dev_langs:
- - c++
+- c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Windowscodecs.lib
 req.dll: Windowscodecs.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Windowscodecs.dll
+- Windowscodecs.dll
 api_name:
- - IWICBitmapFrameEncode.SetPixelFormat
+- IWICBitmapFrameEncode.SetPixelFormat
 targetos: Windows
 req.typenames: 
 req.redist: 

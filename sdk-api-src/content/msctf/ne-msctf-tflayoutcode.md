@@ -1,19 +1,17 @@
 ---
 UID: NE:msctf.__MIDL_ITfTextLayoutSink_0001
 title: TfLayoutCode (msctf.h)
-
 description: Elements of the TfLayoutCode enumeration specify the type of layout change in an ITfTextLayoutSink::OnLayoutChange notification.
 old-location: tsf\tflayoutcode.htm
 tech.root: TSF
 ms.assetid: b9ff6d11-68f2-47c5-b8d7-b3bc2533fdbb
-
 ms.date: 12/05/2018
 ms.keywords: TF_LC_CHANGE, TF_LC_CREATE, TF_LC_DESTROY, TfLayoutCode, TfLayoutCode enumeration [Text Services Framework], _tsf_tflayoutcode_ref, msctf/TF_LC_CHANGE, msctf/TF_LC_CREATE, msctf/TF_LC_DESTROY, msctf/TfLayoutCode, tsf.tflayoutcode
 ms.topic: enum
-f1_keywords: 
- - "msctf/TfLayoutCode"
+f1_keywords:
+- msctf/TfLayoutCode
 dev_langs:
- - c++
+- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Msctf.h
+- Msctf.h
 api_name:
- - TfLayoutCode
+- TfLayoutCode
 targetos: Windows
 req.typenames: TfLayoutCode
 req.redist: TSF 1.0 on Windows 2000 Professional

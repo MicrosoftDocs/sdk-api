@@ -1,19 +1,17 @@
 ---
 UID: NF:processthreadsapi.GetThreadPriority
 title: GetThreadPriority function (processthreadsapi.h)
-
 description: Retrieves the priority value for the specified thread. This value, together with the priority class of the thread's process, determines the thread's base-priority level.
 old-location: base\getthreadpriority.htm
 tech.root: ProcThread
 ms.assetid: 9e5ce4e8-bdd1-48c3-aa1d-b24b2b7bfb00
-
 ms.date: 12/05/2018
 ms.keywords: GetThreadPriority, GetThreadPriority function, _win32_getthreadpriority, base.getthreadpriority, processthreadsapi/GetThreadPriority, winbase/GetThreadPriority
 ms.topic: function
-f1_keywords: 
- - "processthreadsapi/GetThreadPriority"
+f1_keywords:
+- processthreadsapi/GetThreadPriority
 dev_langs:
- - c++
+- c++
 req.header: processthreadsapi.h
 req.include-header: Windows Server 2003, Windows Vista, Windows 7, Windows Server 2008  Windows Server 2008 R2, Windows.h
 req.target-type: Windows
@@ -32,21 +30,21 @@ req.lib: Kernel32.lib; WindowsPhoneCore.lib on Windows Phone 8.1
 req.dll: Kernel32.dll; KernelBase.dll on Windows Phone 8.1
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - KernelBase.dll
- - API-MS-Win-Core-ProcessThreads-l1-1-0.dll
- - MinKernelBase.dll
- - API-MS-Win-Core-ProcessThreads-l1-1-1.dll
- - API-MS-Win-Core-ProcessThreads-l1-1-2.dll
- - api-ms-win-downlevel-kernel32-l1-1-0.dll
- - API-MS-Win-Core-ProcessThreads-L1-1-3.dll
+- Kernel32.dll
+- KernelBase.dll
+- API-MS-Win-Core-ProcessThreads-l1-1-0.dll
+- MinKernelBase.dll
+- API-MS-Win-Core-ProcessThreads-l1-1-1.dll
+- API-MS-Win-Core-ProcessThreads-l1-1-2.dll
+- api-ms-win-downlevel-kernel32-l1-1-0.dll
+- API-MS-Win-Core-ProcessThreads-L1-1-3.dll
 api_name:
- - GetThreadPriority
+- GetThreadPriority
 targetos: Windows
 req.typenames: 
 req.redist: 

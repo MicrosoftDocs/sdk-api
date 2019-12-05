@@ -1,19 +1,17 @@
 ---
 UID: NF:mfidl.IMFByteStreamTimeSeek.IsTimeSeekSupported
 title: IMFByteStreamTimeSeek::IsTimeSeekSupported (mfidl.h)
-
 description: Queries whether the byte stream supports time-based seeking.
 old-location: mf\imfbytestreamtimeseek_istimeseeksupported.htm
 tech.root: medfound
 ms.assetid: 92FCE0EF-046C-4639-958E-731795C5A123
-
 ms.date: 12/05/2018
 ms.keywords: IMFByteStreamTimeSeek interface [Media Foundation],IsTimeSeekSupported method, IMFByteStreamTimeSeek.IsTimeSeekSupported, IMFByteStreamTimeSeek::IsTimeSeekSupported, IsTimeSeekSupported, IsTimeSeekSupported method [Media Foundation], IsTimeSeekSupported method [Media Foundation],IMFByteStreamTimeSeek interface, mf.imfbytestreamtimeseek_istimeseeksupported, mfidl/IMFByteStreamTimeSeek::IsTimeSeekSupported
 ms.topic: method
-f1_keywords: 
- - "mfidl/IMFByteStreamTimeSeek.IsTimeSeekSupported"
+f1_keywords:
+- mfidl/IMFByteStreamTimeSeek.IsTimeSeekSupported
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfidl.h
+- mfidl.h
 api_name:
- - IMFByteStreamTimeSeek.IsTimeSeekSupported
+- IMFByteStreamTimeSeek.IsTimeSeekSupported
 targetos: Windows
 req.typenames: 
 req.redist: 

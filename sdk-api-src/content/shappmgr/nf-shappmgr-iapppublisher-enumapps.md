@@ -1,19 +1,17 @@
 ---
 UID: NF:shappmgr.IAppPublisher.EnumApps
 title: IAppPublisher::EnumApps (shappmgr.h)
-
 description: Creates an enumerator for enumerating all applications published by an application publisher for a given category.
 old-location: shell\IAppPublisher_EnumApps.htm
 tech.root: shell
 ms.assetid: b24c3007-662a-4c42-9ca7-367180152deb
-
 ms.date: 12/05/2018
 ms.keywords: EnumApps, EnumApps method [Windows Shell], EnumApps method [Windows Shell],IAppPublisher interface, IAppPublisher interface [Windows Shell],EnumApps method, IAppPublisher.EnumApps, IAppPublisher::EnumApps, inet_IAppPublisher_EnumApps, shappmgr/IAppPublisher::EnumApps, shell.IAppPublisher_EnumApps
 ms.topic: method
-f1_keywords: 
- - "shappmgr/IAppPublisher.EnumApps"
+f1_keywords:
+- shappmgr/IAppPublisher.EnumApps
 dev_langs:
- - c++
+- c++
 req.header: shappmgr.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shappmgr.h
+- Shappmgr.h
 api_name:
- - IAppPublisher.EnumApps
+- IAppPublisher.EnumApps
 targetos: Windows
 req.typenames: 
 req.redist: 

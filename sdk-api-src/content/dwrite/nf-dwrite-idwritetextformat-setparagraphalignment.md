@@ -1,19 +1,17 @@
 ---
 UID: NF:dwrite.IDWriteTextFormat.SetParagraphAlignment
 title: IDWriteTextFormat::SetParagraphAlignment (dwrite.h)
-
 description: Sets the alignment option of a paragraph relative to the layout box's top and bottom edge.
 old-location: directwrite\IDWriteTextFormat_SetParagraphAlignment.htm
 tech.root: DirectWrite
 ms.assetid: a6eb8aea-3945-471d-a34a-c2f3221dfeaf
-
 ms.date: 12/05/2018
 ms.keywords: IDWriteTextFormat interface [Direct Write],SetParagraphAlignment method, IDWriteTextFormat.SetParagraphAlignment, IDWriteTextFormat::SetParagraphAlignment, SetParagraphAlignment, SetParagraphAlignment method [Direct Write], SetParagraphAlignment method [Direct Write],IDWriteTextFormat interface, directwrite.IDWriteTextFormat_SetParagraphAlignment, dwrite/IDWriteTextFormat::SetParagraphAlignment
 ms.topic: method
-f1_keywords: 
- - "dwrite/IDWriteTextFormat.SetParagraphAlignment"
+f1_keywords:
+- dwrite/IDWriteTextFormat.SetParagraphAlignment
 dev_langs:
- - c++
+- c++
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dwrite.lib
 req.dll: Dwrite.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dwrite.dll
+- dwrite.dll
 api_name:
- - IDWriteTextFormat.SetParagraphAlignment
+- IDWriteTextFormat.SetParagraphAlignment
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:winnt.RtlGrowFunctionTable
 title: RtlGrowFunctionTable function (winnt.h)
-
 description: Reports that a dynamic function table has increased in size.
 old-location: base\rtlgrowfunctiontable.htm
 tech.root: Debug
 ms.assetid: b917b732-4017-4365-b312-90bebfdd877b
-
 ms.date: 12/05/2018
 ms.keywords: RtlGrowFunctionTable, RtlGrowFunctionTable function, base.rtlgrowfunctiontable, winnt/RtlGrowFunctionTable
 ms.topic: function
-f1_keywords: 
- - "winnt/RtlGrowFunctionTable"
+f1_keywords:
+- winnt/RtlGrowFunctionTable
 dev_langs:
- - c++
+- c++
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Ntdll.lib
 req.dll: Ntdll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - ntdll.dll
- - API-MS-Win-Core-RTLSupport-l1-2-0.dll
+- ntdll.dll
+- API-MS-Win-Core-RTLSupport-l1-2-0.dll
 api_name:
- - RtlGrowFunctionTable
+- RtlGrowFunctionTable
 targetos: Windows
 req.typenames: 
 req.redist: 

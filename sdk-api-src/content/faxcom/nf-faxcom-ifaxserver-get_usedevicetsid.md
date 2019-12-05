@@ -1,19 +1,17 @@
 ---
 UID: NF:faxcom.IFaxServer.get_UseDeviceTsid
 title: IFaxServer::get_UseDeviceTsid (faxcom.h)
-
 description: Sets or retrieves the UseDeviceTsid property for a FaxServer object. The UseDeviceTsid property is a Boolean value that indicates whether the fax server uses the device's transmitting station identifier (TSID) instead of a user-specified TSID.
 old-location: fax\_mfax_ifaxserver_client_mfax_ifaxserver_get_usedevicetsid_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_0xb8.htm
-
 ms.date: 12/05/2018
 ms.keywords: IFaxServer interface [Fax Service],UseDeviceTsid property, IFaxServer.UseDeviceTsid, IFaxServer.get_UseDeviceTsid, IFaxServer.put_UseDeviceTsid, IFaxServer::UseDeviceTsid, IFaxServer::get_UseDeviceTsid, IFaxServer::put_UseDeviceTsid, UseDeviceTsid property [Fax Service], UseDeviceTsid property [Fax Service],IFaxServer interface, _mfax_ifaxserver_get_usedevicetsid, fax._mfax_ifaxserver_client_mfax_ifaxserver_get_usedevicetsid_cpp, fax._mfax_ifaxserver_get_usedevicetsid, faxcom/IFaxServer::UseDeviceTsid, faxcom/IFaxServer::get_UseDeviceTsid, faxcom/IFaxServer::put_UseDeviceTsid, get_UseDeviceTsid
 ms.topic: method
-f1_keywords: 
- - "faxcom/IFaxServer.UseDeviceTsid"
+f1_keywords:
+- faxcom/IFaxServer.UseDeviceTsid
 dev_langs:
- - c++
+- c++
 req.header: faxcom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib:
 req.dll: Faxcom.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Faxcom.dll
+- Faxcom.dll
 api_name:
- - IFaxServer.UseDeviceTsid
- - IFaxServer.get_UseDeviceTsid
- - IFaxServer.put_UseDeviceTsid
- - IFaxServer.get_UseDeviceTsid
- - IFaxServer.put_UseDeviceTsid
+- IFaxServer.UseDeviceTsid
+- IFaxServer.get_UseDeviceTsid
+- IFaxServer.put_UseDeviceTsid
+- IFaxServer.get_UseDeviceTsid
+- IFaxServer.put_UseDeviceTsid
 targetos: Windows
 req.typenames: 
 req.redist: 

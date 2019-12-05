@@ -1,19 +1,17 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMPage.SetPageDimensions
 title: IXpsOMPage::SetPageDimensions (xpsobjectmodel.h)
-
 description: Sets dimensions of the page.
 old-location: xps\ixpsompage_setpagedimensions.htm
 tech.root: printdocs
 ms.assetid: 4ae0a584-afa2-4288-82f8-c52c46de390f
-
 ms.date: 12/05/2018
 ms.keywords: IXpsOMPage interface [XPS Documents and Packaging],SetPageDimensions method, IXpsOMPage.SetPageDimensions, IXpsOMPage::SetPageDimensions, SetPageDimensions, SetPageDimensions method [XPS Documents and Packaging], SetPageDimensions method [XPS Documents and Packaging],IXpsOMPage interface, pageDimensions.height, pageDimensions.width, xps.ixpsompage_setpagedimensions, xpsobjectmodel/IXpsOMPage::SetPageDimensions
 ms.topic: method
-f1_keywords: 
- - "xpsobjectmodel/IXpsOMPage.SetPageDimensions"
+f1_keywords:
+- xpsobjectmodel/IXpsOMPage.SetPageDimensions
 dev_langs:
- - c++
+- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsobjectmodel.h
+- xpsobjectmodel.h
 api_name:
- - IXpsOMPage.SetPageDimensions
+- IXpsOMPage.SetPageDimensions
 targetos: Windows
 req.typenames: 
 req.redist: 

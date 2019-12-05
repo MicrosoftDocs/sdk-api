@@ -1,19 +1,17 @@
 ---
 UID: NF:objidl.IStorage.SetStateBits
 title: IStorage::SetStateBits (objidl.h)
-
 description: The SetStateBits method stores up to 32 bits of state information in this storage object.
 old-location: stg\istorage_setstatebits.htm
 tech.root: Stg
 ms.assetid: 52606df8-10ea-40e7-bb61-c86c7b7262d2
-
 ms.date: 12/05/2018
 ms.keywords: IStorage interface [Structured Storage],SetStateBits method, IStorage.SetStateBits, IStorage::SetStateBits, SetStateBits, SetStateBits method [Structured Storage], SetStateBits method [Structured Storage],IStorage interface, _stg_istorage_setstatebits, objidl/IStorage::SetStateBits, stg.istorage_setstatebits
 ms.topic: method
-f1_keywords: 
- - "objidl/IStorage.SetStateBits"
+f1_keywords:
+- objidl/IStorage.SetStateBits
 dev_langs:
- - c++
+- c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Ole32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Ole32.dll
+- Ole32.dll
 api_name:
- - IStorage.SetStateBits
+- IStorage.SetStateBits
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NS:d3d10.D3D10_VIEWPORT
 title: D3D10_VIEWPORT (d3d10.h)
-
 description: Defines the dimensions of a viewport.
 old-location: direct3d10\d3d10_viewport.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\d3d10_viewport.htm
-
 ms.date: 12/05/2018
 ms.keywords: D3D10_VIEWPORT, D3D10_VIEWPORT structure [Direct3D 10], d3d10/D3D10_VIEWPORT, direct3d10.d3d10_viewport, fabe1f82-a825-d3c2-8bfb-f2f706d1c57d
 ms.topic: struct
-f1_keywords: 
- - "d3d10/D3D10_VIEWPORT"
+f1_keywords:
+- d3d10/D3D10_VIEWPORT
 dev_langs:
- - c++
+- c++
 req.header: d3d10.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - D3D10.h
+- D3D10.h
 api_name:
- - D3D10_VIEWPORT
+- D3D10_VIEWPORT
 targetos: Windows
 req.typenames: D3D10_VIEWPORT
 req.redist: 

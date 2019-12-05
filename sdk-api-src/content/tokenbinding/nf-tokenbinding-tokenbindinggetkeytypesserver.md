@@ -1,19 +1,17 @@
 ---
 UID: NF:tokenbinding.TokenBindingGetKeyTypesServer
 title: TokenBindingGetKeyTypesServer function (tokenbinding.h)
-
 description: Retrieves a list of the key types that the server supports.
 old-location: security\tokenbindinggetkeytypesserver.htm
 tech.root: SecCNG
 ms.assetid: 8ABAC0AF-AF68-4742-9C36-3FB17D303409
-
 ms.date: 12/05/2018
 ms.keywords: TokenBindingGetKeyTypesServer, TokenBindingGetKeyTypesServer function [Security], security.tokenbindinggetkeytypesserver, tokenbinding/TokenBindingGetKeyTypesServer
 ms.topic: function
-f1_keywords: 
- - "tokenbinding/TokenBindingGetKeyTypesServer"
+f1_keywords:
+- tokenbinding/TokenBindingGetKeyTypesServer
 dev_langs:
- - c++
+- c++
 req.header: tokenbinding.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Tokenbinding.lib
 req.dll: Tokenbinding.dll (user mode); Ksecdd.sys (kernel mode)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - tokenbinding.dll
- - Ksecdd.sys
+- tokenbinding.dll
+- Ksecdd.sys
 api_name:
- - TokenBindingGetKeyTypesServer
+- TokenBindingGetKeyTypesServer
 targetos: Windows
 req.typenames: 
 req.redist: 

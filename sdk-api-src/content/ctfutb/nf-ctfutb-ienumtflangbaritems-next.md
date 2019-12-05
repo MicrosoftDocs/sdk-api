@@ -1,19 +1,17 @@
 ---
 UID: NF:ctfutb.IEnumTfLangBarItems.Next
 title: IEnumTfLangBarItems::Next (ctfutb.h)
-
 description: IEnumTfLangBarItems::Next method
 old-location: tsf\ienumtflangbaritems_next.htm
 tech.root: TSF
 ms.assetid: 46e24685-581c-4c68-80df-4465e90e3e36
-
 ms.date: 12/05/2018
 ms.keywords: IEnumTfLangBarItems interface [Text Services Framework],Next method, IEnumTfLangBarItems.Next, IEnumTfLangBarItems::Next, Next, Next method [Text Services Framework], Next method [Text Services Framework],IEnumTfLangBarItems interface, _tsf_ienumtflangbaritems_next_ref, ctfutb/IEnumTfLangBarItems::Next, tsf.ienumtflangbaritems_next
 ms.topic: method
-f1_keywords: 
- - "ctfutb/IEnumTfLangBarItems.Next"
+f1_keywords:
+- ctfutb/IEnumTfLangBarItems.Next
 dev_langs:
- - c++
+- c++
 req.header: ctfutb.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msctf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msctf.dll
+- msctf.dll
 api_name:
- - IEnumTfLangBarItems.Next
+- IEnumTfLangBarItems.Next
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

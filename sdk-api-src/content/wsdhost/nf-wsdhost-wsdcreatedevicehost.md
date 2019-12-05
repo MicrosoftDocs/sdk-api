@@ -1,19 +1,17 @@
 ---
 UID: NF:wsdhost.WSDCreateDeviceHost
 title: WSDCreateDeviceHost function (wsdhost.h)
-
 description: Creates a device host and returns a pointer to the IWSDDeviceHost interface.
 old-location: ncd\wsdcreatedevicehost.htm
 tech.root: WsdApi
 ms.assetid: dbe7ccd0-494d-4f6c-90f6-e729839d7008
-
 ms.date: 12/05/2018
 ms.keywords: WSDCreateDeviceHost, WSDCreateDeviceHost function, ncd.wsdcreatedevicehost, wsdhost/WSDCreateDeviceHost
 ms.topic: function
-f1_keywords: 
- - "wsdhost/WSDCreateDeviceHost"
+f1_keywords:
+- wsdhost/WSDCreateDeviceHost
 dev_langs:
- - c++
+- c++
 req.header: wsdhost.h
 req.include-header: Wsdapi.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Wsdapi.lib
 req.dll: Wsdapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Wsdapi.dll
+- Wsdapi.dll
 api_name:
- - WSDCreateDeviceHost
+- WSDCreateDeviceHost
 targetos: Windows
 req.typenames: 
 req.redist: 

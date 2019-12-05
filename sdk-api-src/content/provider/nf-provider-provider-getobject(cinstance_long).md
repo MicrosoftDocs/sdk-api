@@ -1,19 +1,17 @@
 ---
 UID: NF:provider.Provider.GetObject(CInstance,long)
 title: Provider::GetObject (provider.h)
-
 description: The GetObject method is called by WMI to retrieve an instance of a class.
 old-location: wmi\provider_getobject.htm
 tech.root: WmiSdk
 ms.assetid: c8e2633a-cbea-422c-9598-1b1b1104bbc2
-
 ms.date: 12/05/2018
-ms.keywords: "?GetObject@Provider@@MAEJPAVCInstance@@JAAVCFrameworkQuery@@@Z, ?GetObject@Provider@@MEAAJPEAVCInstance@@JAEAVCFrameworkQuery@@@Z, GetObject, GetObject method [Windows Management Instrumentation], GetObject method [Windows Management Instrumentation],Provider interface, Provider interface [Windows Management Instrumentation],GetObject method, Provider.GetObject, Provider::GetObject, _hmm_provider_getobject, provider/Provider::GetObject, wmi.provider_getobject"
+ms.keywords: ?GetObject@Provider@@MAEJPAVCInstance@@JAAVCFrameworkQuery@@@Z, ?GetObject@Provider@@MEAAJPEAVCInstance@@JAEAVCFrameworkQuery@@@Z, GetObject, GetObject method [Windows Management Instrumentation], GetObject method [Windows Management Instrumentation],Provider interface, Provider interface [Windows Management Instrumentation],GetObject method, Provider.GetObject, Provider::GetObject, _hmm_provider_getobject, provider/Provider::GetObject, wmi.provider_getobject
 ms.topic: method
-f1_keywords: 
- - "provider/Provider.GetObject"
+f1_keywords:
+- provider/Provider.GetObject
 dev_langs:
- - c++
+- c++
 req.header: provider.h
 req.include-header: FwCommon.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: FrameDyn.lib
 req.dll: FrameDynOS.dll; FrameDyn.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - FrameDynOS.dll
- - FrameDyn.dll
+- FrameDynOS.dll
+- FrameDyn.dll
 api_name:
- - Provider.GetObject
- - ?GetObject@Provider@@MAEJPAVCInstance@@JAAVCFrameworkQuery@@@Z
- - ?GetObject@Provider@@MEAAJPEAVCInstance@@JAEAVCFrameworkQuery@@@Z
+- Provider.GetObject
+- ?GetObject@Provider@@MAEJPAVCInstance@@JAAVCFrameworkQuery@@@Z
+- ?GetObject@Provider@@MEAAJPEAVCInstance@@JAEAVCFrameworkQuery@@@Z
 targetos: Windows
 req.typenames: 
 req.redist: 

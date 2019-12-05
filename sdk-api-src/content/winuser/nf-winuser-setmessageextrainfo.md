@@ -1,19 +1,17 @@
 ---
 UID: NF:winuser.SetMessageExtraInfo
 title: SetMessageExtraInfo function (winuser.h)
-
 description: Sets the extra message information for the current thread.
 old-location: winmsg\setmessageextrainfo.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\messagesandmessagequeues\messagesandmessagequeuesreference\messagesandmessagequeuesfunctions\setmessageextrainfo.htm
-
 ms.date: 12/05/2018
 ms.keywords: SetMessageExtraInfo, SetMessageExtraInfo function [Windows and Messages], _win32_SetMessageExtraInfo, _win32_setmessageextrainfo_cpp, winmsg.setmessageextrainfo, winui._win32_setmessageextrainfo, winuser/SetMessageExtraInfo
 ms.topic: function
-f1_keywords: 
- - "winuser/SetMessageExtraInfo"
+f1_keywords:
+- winuser/SetMessageExtraInfo
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - User32.dll
- - API-MS-Win-RTCore-NTUser-Window-l1-1-0.dll
- - minuser.dll
- - Ext-MS-Win-RTCore-NTUser-Window-Ext-l1-1-0.dll
+- User32.dll
+- API-MS-Win-RTCore-NTUser-Window-l1-1-0.dll
+- minuser.dll
+- Ext-MS-Win-RTCore-NTUser-Window-Ext-l1-1-0.dll
 api_name:
- - SetMessageExtraInfo
+- SetMessageExtraInfo
 targetos: Windows
 req.typenames: 
 req.redist: 

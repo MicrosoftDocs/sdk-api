@@ -1,19 +1,17 @@
 ---
 UID: NF:infotech.IITDatabase.Open
 title: IITDatabase::Open (infotech.h)
-
 description: Opens a database.
 old-location: htmlhelp\iitdatabase_open.htm
 tech.root: htmlhelp
 ms.assetid: VS|htmlhelp|~\html\refiitdatabaseopen.htm
-
 ms.date: 12/05/2018
 ms.keywords: IITDatabase interface [HTML Help Workshop],Open method, IITDatabase.Open, IITDatabase::Open, Open, Open method [HTML Help Workshop], Open method [HTML Help Workshop],IITDatabase interface, htmlhelp.iitdatabase_open, infotech/IITDatabase::Open, refIITDatabaseOpen
 ms.topic: method
-f1_keywords: 
- - "infotech/IITDatabase.Open"
+f1_keywords:
+- infotech/IITDatabase.Open
 dev_langs:
- - c++
+- c++
 req.header: infotech.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Infotech.h
+- Infotech.h
 api_name:
- - IITDatabase.Open
+- IITDatabase.Open
 targetos: Windows
 req.typenames: 
 req.redist: 

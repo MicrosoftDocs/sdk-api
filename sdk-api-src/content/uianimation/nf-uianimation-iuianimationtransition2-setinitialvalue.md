@@ -1,19 +1,17 @@
 ---
 UID: NF:uianimation.IUIAnimationTransition2.SetInitialValue
 title: IUIAnimationTransition2::SetInitialValue (uianimation.h)
-
 description: Sets the initial value of the transition.
 old-location: uianimation\iuianimationtransition2_setinitialvalue.htm
 tech.root: UIAnimation
 ms.assetid: 813224BE-369D-4D65-AA12-AEE590627F40
-
 ms.date: 12/05/2018
 ms.keywords: IUIAnimationTransition2 interface [Windows Animation],SetInitialValue method, IUIAnimationTransition2.SetInitialValue, IUIAnimationTransition2::SetInitialValue, SetInitialValue, SetInitialValue method [Windows Animation], SetInitialValue method [Windows Animation],IUIAnimationTransition2 interface, uianimation.iuianimationtransition2_setinitialvalue, uianimation/IUIAnimationTransition2::SetInitialValue
 ms.topic: method
-f1_keywords: 
- - "uianimation/IUIAnimationTransition2.SetInitialValue"
+f1_keywords:
+- uianimation/IUIAnimationTransition2.SetInitialValue
 dev_langs:
- - c++
+- c++
 req.header: uianimation.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: UIAnimation.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAnimation.dll
+- UIAnimation.dll
 api_name:
- - IUIAnimationTransition2.SetInitialValue
+- IUIAnimationTransition2.SetInitialValue
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:wincodec.IWICComponentInfo.GetSpecVersion
 title: IWICComponentInfo::GetSpecVersion (wincodec.h)
-
 description: Retrieves the component's specification version.
 old-location: wic\_wic_codec_iwiccomponentinfo_getspecversion.htm
 tech.root: wic
 ms.assetid: 18a771c7-8764-4694-be05-29c5eda27e93
-
 ms.date: 12/05/2018
 ms.keywords: GetSpecVersion, GetSpecVersion method [Windows Imaging Component], GetSpecVersion method [Windows Imaging Component],IWICComponentInfo interface, IWICComponentInfo interface [Windows Imaging Component],GetSpecVersion method, IWICComponentInfo.GetSpecVersion, IWICComponentInfo::GetSpecVersion, _wic_codec_iwiccomponentinfo_getspecversion, wic._wic_codec_iwiccomponentinfo_getspecversion, wincodec/IWICComponentInfo::GetSpecVersion
 ms.topic: method
-f1_keywords: 
- - "wincodec/IWICComponentInfo.GetSpecVersion"
+f1_keywords:
+- wincodec/IWICComponentInfo.GetSpecVersion
 dev_langs:
- - c++
+- c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Windowscodecs.lib
 req.dll: Windowscodecs.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Windowscodecs.dll
+- Windowscodecs.dll
 api_name:
- - IWICComponentInfo.GetSpecVersion
+- IWICComponentInfo.GetSpecVersion
 targetos: Windows
 req.typenames: 
 req.redist: 

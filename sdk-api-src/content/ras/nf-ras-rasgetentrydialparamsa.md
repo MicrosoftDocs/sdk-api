@@ -1,19 +1,17 @@
 ---
 UID: NF:ras.RasGetEntryDialParamsA
 title: RasGetEntryDialParamsA function (ras.h)
-
 description: The RasGetEntryDialParams function retrieves the connection information saved by the last successful call to the RasDial or RasSetEntryDialParams function for a specified phone-book entry.
 old-location: rras\rasgetentrydialparams.htm
 tech.root: RRAS
 ms.assetid: c6752f95-c7e8-44d9-9dbd-9f03cc4778fa
-
 ms.date: 12/05/2018
 ms.keywords: RasGetEntryDialParams, RasGetEntryDialParams function [RAS], RasGetEntryDialParamsA, RasGetEntryDialParamsW, _ras_rasgetentrydialparams, ras/RasGetEntryDialParams, ras/RasGetEntryDialParamsA, ras/RasGetEntryDialParamsW, rras.rasgetentrydialparams
 ms.topic: function
-f1_keywords: 
- - "ras/RasGetEntryDialParams"
+f1_keywords:
+- ras/RasGetEntryDialParams
 dev_langs:
- - c++
+- c++
 req.header: ras.h
 req.include-header: 
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib: Rasapi32.lib
 req.dll: Rasapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Rasapi32.dll
- - Ext-MS-Win-ras-rasapi32-l1-1-0.dll
- - Ext-MS-Win-ras-rasapi32-l1-1-1.dll
+- Rasapi32.dll
+- Ext-MS-Win-ras-rasapi32-l1-1-0.dll
+- Ext-MS-Win-ras-rasapi32-l1-1-1.dll
 api_name:
- - RasGetEntryDialParams
- - RasGetEntryDialParamsA
- - RasGetEntryDialParamsW
+- RasGetEntryDialParams
+- RasGetEntryDialParamsA
+- RasGetEntryDialParamsW
 targetos: Windows
 req.typenames: 
 req.redist: 

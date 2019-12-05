@@ -1,19 +1,17 @@
 ---
 UID: NE:virtdisk._CREATE_VIRTUAL_DISK_VERSION
 title: CREATE_VIRTUAL_DISK_VERSION (virtdisk.h)
-
 description: Contains the version of the virtual disk CREATE_VIRTUAL_DISK_PARAMETERS structure to use in calls to virtual disk functions.
 old-location: vhd\create_virtual_disk_version.htm
 tech.root: VStor
 ms.assetid: 8a9f186a-88aa-43dc-97e0-2ffa43d7ffe5
-
 ms.date: 12/05/2018
 ms.keywords: CREATE_VIRTUAL_DISK_VERSION, CREATE_VIRTUAL_DISK_VERSION enumeration [VHD], CREATE_VIRTUAL_DISK_VERSION_1, CREATE_VIRTUAL_DISK_VERSION_2, CREATE_VIRTUAL_DISK_VERSION_UNSPECIFIED, vdssys/CREATE_VIRTUAL_DISK_VERSION, vdssys/CREATE_VIRTUAL_DISK_VERSION_1, vdssys/CREATE_VIRTUAL_DISK_VERSION_2, vdssys/CREATE_VIRTUAL_DISK_VERSION_UNSPECIFIED, vhd.create_virtual_disk_version, virtdisk/CREATE_VIRTUAL_DISK_VERSION, virtdisk/CREATE_VIRTUAL_DISK_VERSION_1, virtdisk/CREATE_VIRTUAL_DISK_VERSION_2, virtdisk/CREATE_VIRTUAL_DISK_VERSION_UNSPECIFIED
 ms.topic: enum
-f1_keywords: 
- - "virtdisk/CREATE_VIRTUAL_DISK_VERSION"
+f1_keywords:
+- virtdisk/CREATE_VIRTUAL_DISK_VERSION
 dev_langs:
- - c++
+- c++
 req.header: virtdisk.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - VirtDisk.h
- - vdssys.h
+- VirtDisk.h
+- vdssys.h
 api_name:
- - CREATE_VIRTUAL_DISK_VERSION
+- CREATE_VIRTUAL_DISK_VERSION
 targetos: Windows
 req.typenames: CREATE_VIRTUAL_DISK_VERSION
 req.redist: 

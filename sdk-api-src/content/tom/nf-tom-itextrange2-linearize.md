@@ -1,19 +1,17 @@
 ---
 UID: NF:tom.ITextRange2.Linearize
 title: ITextRange2::Linearize (tom.h)
-
 description: Translates the built-up math, ruby, and other inline objects in this range to linearized form.
 old-location: controls\itextrange2_linearize.htm
 tech.root: Controls
 ms.assetid: 9906547b-e31c-48a6-961e-0b7f5c0c0506
-
 ms.date: 12/05/2018
 ms.keywords: ITextRange2 interface [Windows Controls],Linearize method, ITextRange2.Linearize, ITextRange2::Linearize, Linearize, Linearize method [Windows Controls], Linearize method [Windows Controls],ITextRange2 interface, controls.itextrange2_linearize, tom/ITextRange2::Linearize, tomMathAlphabetics, tomMathBuildDownOutermost, tomMathBuildUpArgOrZone, tomMathRemoveOutermost, tomPlain, tomTeX
 ms.topic: method
-f1_keywords: 
- - "tom/ITextRange2.Linearize"
+f1_keywords:
+- tom/ITextRange2.Linearize
 dev_langs:
- - c++
+- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msftedit.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msftedit.dll
+- Msftedit.dll
 api_name:
- - ITextRange2.Linearize
+- ITextRange2.Linearize
 targetos: Windows
 req.typenames: 
 req.redist: 

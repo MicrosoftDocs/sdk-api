@@ -1,19 +1,17 @@
 ---
 UID: NF:natupnp.IStaticPortMapping.EditInternalClient
 title: IStaticPortMapping::EditInternalClient (natupnp.h)
-
 description: The EditInternalClient method sets the internal client property of this port mapping to the specified value.
 old-location: ics\istaticportmapping_editinternalclient.htm
 tech.root: ics
 ms.assetid: 864d0edf-c9fd-4ea0-b950-119dc4a630dc
-
 ms.date: 12/05/2018
 ms.keywords: EditInternalClient, EditInternalClient method [ICS/ICF], EditInternalClient method [ICS/ICF],IStaticPortMapping interface, IStaticPortMapping interface [ICS/ICF],EditInternalClient method, IStaticPortMapping.EditInternalClient, IStaticPortMapping::EditInternalClient, _ics_istaticportmapping_editinternalclient, ics.istaticportmapping_editinternalclient, natupnp/IStaticPortMapping::EditInternalClient
 ms.topic: method
-f1_keywords: 
- - "natupnp/IStaticPortMapping.EditInternalClient"
+f1_keywords:
+- natupnp/IStaticPortMapping.EditInternalClient
 dev_langs:
- - c++
+- c++
 req.header: natupnp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Hnetcfg.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Hnetcfg.dll
+- Hnetcfg.dll
 api_name:
- - IStaticPortMapping.EditInternalClient
+- IStaticPortMapping.EditInternalClient
 targetos: Windows
 req.typenames: 
 req.redist: 

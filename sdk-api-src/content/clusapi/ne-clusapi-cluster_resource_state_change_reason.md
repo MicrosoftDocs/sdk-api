@@ -1,19 +1,17 @@
 ---
 UID: NE:clusapi.CLUSTER_RESOURCE_STATE_CHANGE_REASON
 title: CLUSTER_RESOURCE_STATE_CHANGE_REASON (clusapi.h)
-
 description: Used by the CLUSCTL_RESOURCE_STATE_CHANGE_REASON_STRUCT and CLUSCTL_RESOURCE_STATE_CHANGE_REASON control codes to describe the reason for a resource state change.
 old-location: mscs\cluster_resource_state_change_reason.htm
 tech.root: MsCS
 ms.assetid: f9071688-24c2-4b00-ac66-6cf0363bccf2
-
 ms.date: 12/05/2018
 ms.keywords: CLUSTER_RESOURCE_STATE_CHANGE_REASON, CLUSTER_RESOURCE_STATE_CHANGE_REASON enumeration [Failover Cluster], _CLUSTER_RESOURCE_STATE_CHANGE_REASON, _CLUSTER_RESOURCE_STATE_CHANGE_REASON enumeration [Failover Cluster], clusapi/CLUSTER_RESOURCE_STATE_CHANGE_REASON, clusapi/_CLUSTER_RESOURCE_STATE_CHANGE_REASON, clusapi/eResourceStateChangeReasonFailedMove, clusapi/eResourceStateChangeReasonFailover, clusapi/eResourceStateChangeReasonMove, clusapi/eResourceStateChangeReasonRundown, clusapi/eResourceStateChangeReasonShutdown, clusapi/eResourceStateChangeReasonUnknown, eResourceStateChangeReasonFailedMove, eResourceStateChangeReasonFailover, eResourceStateChangeReasonMove, eResourceStateChangeReasonRundown, eResourceStateChangeReasonShutdown, eResourceStateChangeReasonUnknown, msclus/CLUSTER_RESOURCE_STATE_CHANGE_REASON, msclus/_CLUSTER_RESOURCE_STATE_CHANGE_REASON, msclus/eResourceStateChangeReasonFailedMove, msclus/eResourceStateChangeReasonFailover, msclus/eResourceStateChangeReasonMove, msclus/eResourceStateChangeReasonRundown, msclus/eResourceStateChangeReasonShutdown, msclus/eResourceStateChangeReasonUnknown, mscs.cluster_resource_state_change_reason
 ms.topic: enum
-f1_keywords: 
- - "clusapi/CLUSTER_RESOURCE_STATE_CHANGE_REASON"
+f1_keywords:
+- clusapi/CLUSTER_RESOURCE_STATE_CHANGE_REASON
 dev_langs:
- - c++
+- c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - ClusAPI.h
- - MsClus.h
+- ClusAPI.h
+- MsClus.h
 api_name:
- - CLUSTER_RESOURCE_STATE_CHANGE_REASON
+- CLUSTER_RESOURCE_STATE_CHANGE_REASON
 targetos: Windows
 req.typenames: CLUSTER_RESOURCE_STATE_CHANGE_REASON
 req.redist: 

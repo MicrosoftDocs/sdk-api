@@ -1,19 +1,17 @@
 ---
 UID: NF:wsbapp.IWsbApplicationRestoreSupport.PostRestore
 title: IWsbApplicationRestoreSupport::PostRestore (wsbapp.h)
-
 description: Performs application-specific PostRestore operations.
 old-location: wsb\iwsbapplicationrestoresupport_postrestore.htm
 tech.root: wsb
 ms.assetid: 8be7975e-9b94-4a6e-b1f5-794b8749ccbe
-
 ms.date: 12/05/2018
 ms.keywords: IWsbApplicationRestoreSupport interface [Windows Server Backup],PostRestore method, IWsbApplicationRestoreSupport.PostRestore, IWsbApplicationRestoreSupport::PostRestore, PostRestore, PostRestore method [Windows Server Backup], PostRestore method [Windows Server Backup],IWsbApplicationRestoreSupport interface, wsb.iwsbapplicationrestoresupport_postrestore, wsbapp/IWsbApplicationRestoreSupport::PostRestore
 ms.topic: method
-f1_keywords: 
- - "wsbapp/IWsbApplicationRestoreSupport.PostRestore"
+f1_keywords:
+- wsbapp/IWsbApplicationRestoreSupport.PostRestore
 dev_langs:
- - c++
+- c++
 req.header: wsbapp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - WsbApp.h
+- WsbApp.h
 api_name:
- - IWsbApplicationRestoreSupport.PostRestore
+- IWsbApplicationRestoreSupport.PostRestore
 targetos: Windows
 req.typenames: 
 req.redist: 

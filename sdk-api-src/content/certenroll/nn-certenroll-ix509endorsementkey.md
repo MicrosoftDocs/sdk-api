@@ -1,19 +1,17 @@
 ---
 UID: NN:certenroll.IX509EndorsementKey
 title: IX509EndorsementKey (certenroll.h)
-
 description: X.509 Endorsement Key Interface
 old-location: security\ix509endorsementkey.htm
 tech.root: seccertenroll
 ms.assetid: 24f063a7-02e3-47cf-89ca-ebc63bf3e2dc
-
 ms.date: 12/05/2018
 ms.keywords: IX509EndorsementKey, IX509EndorsementKey interface [Security], IX509EndorsementKey interface [Security],described, certenroll/IX509EndorsementKey, security.ix509endorsementkey
 ms.topic: interface
-f1_keywords: 
- - "certenroll/IX509EndorsementKey"
+f1_keywords:
+- certenroll/IX509EndorsementKey
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Certenroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Certenroll.dll
+- Certenroll.dll
 api_name:
- - IX509EndorsementKey
+- IX509EndorsementKey
 targetos: Windows
 req.typenames: 
 req.redist: 

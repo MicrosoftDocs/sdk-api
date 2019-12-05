@@ -1,19 +1,17 @@
 ---
 UID: NF:propsys.PSGetPropertyDescriptionListFromString
 title: PSGetPropertyDescriptionListFromString function (propsys.h)
-
 description: Gets an instance of a property description list interface for a specified property list.
 old-location: properties\PSGetPropertyDescriptionListFromString.htm
 tech.root: properties
 ms.assetid: 348253ed-46ac-4643-bbf8-2d286ae97f07
-
 ms.date: 12/05/2018
 ms.keywords: PSGetPropertyDescriptionListFromString, PSGetPropertyDescriptionListFromString function [Windows Properties], properties.PSGetPropertyDescriptionListFromString, propsys/PSGetPropertyDescriptionListFromString, shell.PSGetPropertyDescriptionListFromString, shell_PSGetPropertyDescriptionListFromString
 ms.topic: function
-f1_keywords: 
- - "propsys/PSGetPropertyDescriptionListFromString"
+f1_keywords:
+- propsys/PSGetPropertyDescriptionListFromString
 dev_langs:
- - c++
+- c++
 req.header: propsys.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Propsys.lib
 req.dll: Propsys.dll (version 5.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Propsys.dll
+- Propsys.dll
 api_name:
- - PSGetPropertyDescriptionListFromString
+- PSGetPropertyDescriptionListFromString
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0

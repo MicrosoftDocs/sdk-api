@@ -1,19 +1,17 @@
 ---
 UID: NF:cscobj.IOfflineFilesItemFilter.GetTimeFilter
 title: IOfflineFilesItemFilter::GetTimeFilter (cscobj.h)
-
 description: Provides time-value-comparison semantics to control filtering of items based on time.
 old-location: of\iofflinefilesitemfilter_gettimefilter.htm
 tech.root: offlinefiles
 ms.assetid: 397611e7-60e5-46d6-b90b-5aed7fff6a43
-
 ms.date: 12/05/2018
 ms.keywords: GetTimeFilter, GetTimeFilter method [Offline Files], GetTimeFilter method [Offline Files],IOfflineFilesItemFilter interface, IOfflineFilesItemFilter interface [Offline Files],GetTimeFilter method, IOfflineFilesItemFilter.GetTimeFilter, IOfflineFilesItemFilter::GetTimeFilter, cscobj/IOfflineFilesItemFilter::GetTimeFilter, of.iofflinefilesitemfilter_gettimefilter
 ms.topic: method
-f1_keywords: 
- - "cscobj/IOfflineFilesItemFilter.GetTimeFilter"
+f1_keywords:
+- cscobj/IOfflineFilesItemFilter.GetTimeFilter
 dev_langs:
- - c++
+- c++
 req.header: cscobj.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: CscSvc.dll; CscObj.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CscSvc.dll
- - CscObj.dll
+- CscSvc.dll
+- CscObj.dll
 api_name:
- - IOfflineFilesItemFilter.GetTimeFilter
+- IOfflineFilesItemFilter.GetTimeFilter
 targetos: Windows
 req.typenames: 
 req.redist: 

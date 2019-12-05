@@ -1,19 +1,17 @@
 ---
 UID: NE:codecapi.eAVEncDDService
 title: eAVEncDDService (codecapi.h)
-
 description: Specifies the audio service contained in a Dolby Digital audio stream. This enumeration is used with the AVEncDDService property.
 old-location: dshow\eavencddservice.htm
 tech.root: DirectShow
 ms.assetid: 25673019-6c26-4b2c-a394-81177a6c00c0
-
 ms.date: 12/05/2018
 ms.keywords: codecapi/eAVEncDDService, codecapi/eAVEncDDService_C, codecapi/eAVEncDDService_CM, codecapi/eAVEncDDService_D, codecapi/eAVEncDDService_E, codecapi/eAVEncDDService_HI, codecapi/eAVEncDDService_ME, codecapi/eAVEncDDService_VI, codecapi/eAVEncDDService_VO, dshow.eavencddservice, eAVEncDDService, eAVEncDDService enumeration [DirectShow], eAVEncDDServiceEnumeration, eAVEncDDService_C, eAVEncDDService_CM, eAVEncDDService_D, eAVEncDDService_E, eAVEncDDService_HI, eAVEncDDService_ME, eAVEncDDService_VI, eAVEncDDService_VO
 ms.topic: enum
-f1_keywords: 
- - "codecapi/eAVEncDDService"
+f1_keywords:
+- codecapi/eAVEncDDService
 dev_langs:
- - c++
+- c++
 req.header: codecapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - codecapi.h
+- codecapi.h
 api_name:
- - eAVEncDDService
+- eAVEncDDService
 targetos: Windows
 req.typenames: 
 req.redist: 

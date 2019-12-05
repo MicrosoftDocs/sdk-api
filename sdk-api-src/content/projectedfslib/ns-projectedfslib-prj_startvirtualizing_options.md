@@ -1,19 +1,17 @@
 ---
 UID: NS:projectedfslib.PRJ_STARTVIRTUALIZING_OPTIONS
 title: PRJ_STARTVIRTUALIZING_OPTIONS (projectedfslib.h)
-
 description: Options to provide when starting a virtualization instance.
 old-location: projfs\prj_startvirtualizing_options.htm
 tech.root: ProjFS
 ms.assetid: 5FF20B04-29A6-4310-ACD6-35E189B87C9E
-
 ms.date: 12/05/2018
 ms.keywords: PRJ_STARTVIRTUALIZING_OPTIONS, PRJ_STARTVIRTUALIZING_OPTIONS structure, ProjFS.prj_startvirtualizing_options, projectedfslib/PRJ_STARTVIRTUALIZING_OPTIONS
 ms.topic: struct
-f1_keywords: 
- - "projectedfslib/PRJ_STARTVIRTUALIZING_OPTIONS"
+f1_keywords:
+- projectedfslib/PRJ_STARTVIRTUALIZING_OPTIONS
 dev_langs:
- - c++
+- c++
 req.header: projectedfslib.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - projectedfslib.h
+- projectedfslib.h
 api_name:
- - PRJ_STARTVIRTUALIZING_OPTIONS
+- PRJ_STARTVIRTUALIZING_OPTIONS
 targetos: Windows
 req.typenames: PRJ_STARTVIRTUALIZING_OPTIONS
 req.redist: 

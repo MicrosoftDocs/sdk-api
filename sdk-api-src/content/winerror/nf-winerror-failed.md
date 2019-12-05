@@ -1,19 +1,17 @@
 ---
 UID: NF:winerror.FAILED
 title: FAILED macro (winerror.h)
-
 description: Provides a generic test for failure on any status value.
 old-location: com\failed_macro.htm
 tech.root: com
 ms.assetid: d9c4ff73-c255-4a82-b901-23bd5b41ee6c
-
 ms.date: 12/05/2018
 ms.keywords: FAILED, FAILED macro [COM], _com_FAILED, com.failed, com.failed_macro, winerror/FAILED
 ms.topic: macro
-f1_keywords: 
- - "winerror/FAILED"
+f1_keywords:
+- winerror/FAILED
 dev_langs:
- - c++
+- c++
 req.header: winerror.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Winerror.h
+- Winerror.h
 api_name:
- - FAILED
+- FAILED
 targetos: Windows
 req.typenames: 
 req.redist: 

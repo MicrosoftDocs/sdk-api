@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IFilterMapper.UnregisterFilter
 title: IFilterMapper::UnregisterFilter (strmif.h)
-
 description: Note  The IFilterMapper interface is deprecated. Use IFilterMapper2 instead. Removes the registration of this filter from the registry.
 old-location: dshow\ifiltermapper_unregisterfilter.htm
 tech.root: DirectShow
 ms.assetid: 9b5941d4-d0e7-4f4a-b273-e0fa4a1e1c2e
-
 ms.date: 12/05/2018
 ms.keywords: IFilterMapper interface [DirectShow],UnregisterFilter method, IFilterMapper.UnregisterFilter, IFilterMapper::UnregisterFilter, IFilterMapperUnregisterFilter, UnregisterFilter, UnregisterFilter method [DirectShow], UnregisterFilter method [DirectShow],IFilterMapper interface, dshow.ifiltermapper_unregisterfilter, strmif/IFilterMapper::UnregisterFilter
 ms.topic: method
-f1_keywords: 
- - "strmif/IFilterMapper.UnregisterFilter"
+f1_keywords:
+- strmif/IFilterMapper.UnregisterFilter
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmif.h
+- Strmif.h
 api_name:
- - IFilterMapper.UnregisterFilter
+- IFilterMapper.UnregisterFilter
 targetos: Windows
 req.typenames: 
 req.redist: 

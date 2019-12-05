@@ -1,19 +1,17 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMPackage.WriteToFile
 title: IXpsOMPackage::WriteToFile (xpsobjectmodel.h)
-
 description: Writes the XPS package to a specified file.
 old-location: xps\ixpsompackage_writetofile.htm
 tech.root: printdocs
 ms.assetid: 89accde7-989e-4a87-b96e-e47cc6c6954a
-
 ms.date: 12/05/2018
 ms.keywords: FALSE, IXpsOMPackage interface [XPS Documents and Packaging],WriteToFile method, IXpsOMPackage.WriteToFile, IXpsOMPackage::WriteToFile, TRUE, WriteToFile, WriteToFile method [XPS Documents and Packaging], WriteToFile method [XPS Documents and Packaging],IXpsOMPackage interface, xps.ixpsompackage_writetofile, xpsobjectmodel/IXpsOMPackage::WriteToFile
 ms.topic: method
-f1_keywords: 
- - "xpsobjectmodel/IXpsOMPackage.WriteToFile"
+f1_keywords:
+- xpsobjectmodel/IXpsOMPackage.WriteToFile
 dev_langs:
- - c++
+- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsobjectmodel.h
+- xpsobjectmodel.h
 api_name:
- - IXpsOMPackage.WriteToFile
+- IXpsOMPackage.WriteToFile
 targetos: Windows
 req.typenames: 
 req.redist: 

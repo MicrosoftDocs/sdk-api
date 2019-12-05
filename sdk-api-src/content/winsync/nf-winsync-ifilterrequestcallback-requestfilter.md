@@ -1,19 +1,17 @@
 ---
 UID: NF:winsync.IFilterRequestCallback.RequestFilter
 title: IFilterRequestCallback::RequestFilter (winsync.h)
-
 description: Requests that the filter that is specified by the destination provider be used by the source provider during change enumeration.
 old-location: winsync\ifilterrequestcallback_requestfilter.htm
 tech.root: winsync
 ms.assetid: f7dea17e-ab13-4eb3-8354-3dfefea16062
-
 ms.date: 12/05/2018
 ms.keywords: IFilterRequestCallback interface [Windows Sync],RequestFilter method, IFilterRequestCallback.RequestFilter, IFilterRequestCallback::RequestFilter, RequestFilter, RequestFilter method [Windows Sync], RequestFilter method [Windows Sync],IFilterRequestCallback interface, winsync.ifilterrequestcallback_requestfilter, winsync/IFilterRequestCallback::RequestFilter
 ms.topic: method
-f1_keywords: 
- - "winsync/IFilterRequestCallback.RequestFilter"
+f1_keywords:
+- winsync/IFilterRequestCallback.RequestFilter
 dev_langs:
- - c++
+- c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - winsync.h
+- winsync.h
 api_name:
- - IFilterRequestCallback.RequestFilter
+- IFilterRequestCallback.RequestFilter
 targetos: Windows
 req.typenames: 
 req.redist: 

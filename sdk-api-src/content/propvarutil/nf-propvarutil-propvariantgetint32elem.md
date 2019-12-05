@@ -1,19 +1,17 @@
 ---
 UID: NF:propvarutil.PropVariantGetInt32Elem
 title: PropVariantGetInt32Elem function (propvarutil.h)
-
 description: Extracts a single Int32 element from a PROPVARIANT of type VT_I4, VT_VECTOR | VT_I4, or VT_ARRAY | VT_I4.
 old-location: properties\PropVariantGetInt32Elem.htm
 tech.root: properties
 ms.assetid: de7dc6d4-d85a-44cb-8af7-840fd6e68d5c
-
 ms.date: 12/05/2018
 ms.keywords: PropVariantGetInt32Elem, PropVariantGetInt32Elem function [Windows Properties], _shell_PropVariantGetInt32Elem, properties.PropVariantGetInt32Elem, propvarutil/PropVariantGetInt32Elem, shell.PropVariantGetInt32Elem
 ms.topic: function
-f1_keywords: 
- - "propvarutil/PropVariantGetInt32Elem"
+f1_keywords:
+- propvarutil/PropVariantGetInt32Elem
 dev_langs:
- - c++
+- c++
 req.header: propvarutil.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Propsys.lib
 req.dll: Propsys.dll (version 6.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Propsys.dll
+- Propsys.dll
 api_name:
- - PropVariantGetInt32Elem
+- PropVariantGetInt32Elem
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0

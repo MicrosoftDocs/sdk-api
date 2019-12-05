@@ -1,19 +1,17 @@
 ---
 UID: NF:winuser.GetSysColorBrush
 title: GetSysColorBrush function (winuser.h)
-
 description: The GetSysColorBrush function retrieves a handle identifying a logical brush that corresponds to the specified color index.
 old-location: gdi\getsyscolorbrush.htm
 tech.root: gdi
 ms.assetid: 07a1d8e3-eae8-40ab-9d0f-4efa9fac0117
-
 ms.date: 12/05/2018
 ms.keywords: GetSysColorBrush, GetSysColorBrush function [Windows GDI], _win32_GetSysColorBrush, gdi.getsyscolorbrush, winuser/GetSysColorBrush
 ms.topic: function
-f1_keywords: 
- - "winuser/GetSysColorBrush"
+f1_keywords:
+- winuser/GetSysColorBrush
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - user32.dll
- - Ext-MS-Win-NTUser-GUI-l1-1-1.dll
- - Ext-MS-Win-NTUser-GUI-l1-2-0.dll
- - ext-ms-win-ntuser-gui-l1-2-1.dll
- - Ext-MS-Win-NTUser-Gui-L1-3-0.dll
+- user32.dll
+- Ext-MS-Win-NTUser-GUI-l1-1-1.dll
+- Ext-MS-Win-NTUser-GUI-l1-2-0.dll
+- ext-ms-win-ntuser-gui-l1-2-1.dll
+- Ext-MS-Win-NTUser-Gui-L1-3-0.dll
 api_name:
- - GetSysColorBrush
+- GetSysColorBrush
 targetos: Windows
 req.typenames: 
 req.redist: 

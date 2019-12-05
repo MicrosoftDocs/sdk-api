@@ -1,19 +1,17 @@
 ---
 UID: NF:coml2api.StgOpenStorageOnILockBytes
 title: StgOpenStorageOnILockBytes function (coml2api.h)
-
 description: The StgOpenStorageOnILockBytes function opens an existing storage object that does not reside in a disk file, but instead has an underlying byte array provided by the caller.
 old-location: stg\stgopenstorageonilockbytes.htm
 tech.root: Stg
 ms.assetid: 7920bd46-0a8f-42e0-9988-59d85edb64e2
-
 ms.date: 12/05/2018
 ms.keywords: StgOpenStorageOnILockBytes, StgOpenStorageOnILockBytes function [Structured Storage], _stg_stgopenstorageonilockbytes, coml2api/StgOpenStorageOnILockBytes, stg.stgopenstorageonilockbytes
 ms.topic: function
-f1_keywords: 
- - "coml2api/StgOpenStorageOnILockBytes"
+f1_keywords:
+- coml2api/StgOpenStorageOnILockBytes
 dev_langs:
- - c++
+- c++
 req.header: coml2api.h
 req.include-header: Objbase.h
 req.target-type: Windows
@@ -32,21 +30,21 @@ req.lib: Ole32.lib
 req.dll: Ole32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ole32.dll
- - Ext-MS-Win-COM-OLE32-l1-1-0.dll
- - Ext-MS-Win-COM-OLE32-l1-1-1.dll
- - Ext-MS-Win-COM-OLE32-l1-1-2.dll
- - ext-ms-win-com-ole32-l1-1-3.dll
- - API-MS-Win-Core-Com-l2-1-1.dll
- - coml2.dll
- - Ext-MS-Win-Com-Ole32-L1-1-4.dll
+- Ole32.dll
+- Ext-MS-Win-COM-OLE32-l1-1-0.dll
+- Ext-MS-Win-COM-OLE32-l1-1-1.dll
+- Ext-MS-Win-COM-OLE32-l1-1-2.dll
+- ext-ms-win-com-ole32-l1-1-3.dll
+- API-MS-Win-Core-Com-l2-1-1.dll
+- coml2.dll
+- Ext-MS-Win-Com-Ole32-L1-1-4.dll
 api_name:
- - StgOpenStorageOnILockBytes
+- StgOpenStorageOnILockBytes
 targetos: Windows
 req.typenames: 
 req.redist: 

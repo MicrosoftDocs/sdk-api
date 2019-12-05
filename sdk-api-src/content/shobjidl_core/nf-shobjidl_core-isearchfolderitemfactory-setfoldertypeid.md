@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.ISearchFolderItemFactory.SetFolderTypeID
 title: ISearchFolderItemFactory::SetFolderTypeID (shobjidl_core.h)
-
 description: Sets a search folder type ID, as specified.
 old-location: shell\ISearchFolderItemFactory_SetFolderTypeID.htm
 tech.root: shell
 ms.assetid: a9b09dc6-751e-4d5f-b016-0b26c15c68f6
-
 ms.date: 12/05/2018
 ms.keywords: ISearchFolderItemFactory interface [Windows Shell],SetFolderTypeID method, ISearchFolderItemFactory.SetFolderTypeID, ISearchFolderItemFactory::SetFolderTypeID, SetFolderTypeID, SetFolderTypeID method [Windows Shell], SetFolderTypeID method [Windows Shell],ISearchFolderItemFactory interface, _shell_ISearchFolderItemFactory_SetFolderTypeID, shell.ISearchFolderItemFactory_SetFolderTypeID, shobjidl_core/ISearchFolderItemFactory::SetFolderTypeID
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/ISearchFolderItemFactory.SetFolderTypeID"
+f1_keywords:
+- shobjidl_core/ISearchFolderItemFactory.SetFolderTypeID
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - ISearchFolderItemFactory.SetFolderTypeID
+- ISearchFolderItemFactory.SetFolderTypeID
 targetos: Windows
 req.typenames: 
 req.redist: 

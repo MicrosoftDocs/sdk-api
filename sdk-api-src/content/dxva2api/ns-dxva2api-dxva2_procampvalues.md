@@ -1,19 +1,17 @@
 ---
 UID: NS:dxva2api._DXVA2_ProcAmpValues
 title: DXVA2_ProcAmpValues (dxva2api.h)
-
 description: Contains values for DirectX Video Acceleration (DXVA) video processing operations.
 old-location: mf\dxva2_procampvalues.htm
 tech.root: medfound
 ms.assetid: c84acd34-e922-46bb-9913-0f94c7c47155
-
 ms.date: 12/05/2018
 ms.keywords: DXVA2_ProcAmpValues, DXVA2_ProcAmpValues structure [Media Foundation], c84acd34-e922-46bb-9913-0f94c7c47155, dxva2api/DXVA2_ProcAmpValues, mf.dxva2_procampvalues
 ms.topic: struct
 f1_keywords:
 - dxva2api/DXVA2_ProcAmpValues
 dev_langs:
- - c++
+- c++
 req.header: dxva2api.h
 req.include-header: 
 req.target-type: Windows

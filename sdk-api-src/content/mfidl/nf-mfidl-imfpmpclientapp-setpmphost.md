@@ -1,19 +1,17 @@
 ---
 UID: NF:mfidl.IMFPMPClientApp.SetPMPHost
 title: IMFPMPClientApp::SetPMPHost (mfidl.h)
-
 description: Sets a pointer to the IMFPMPHostApp interface allowing a media source to create objects in the PMP process.
 old-location: mf\imfpmpclientapp_setpmphost.htm
 tech.root: medfound
 ms.assetid: 8809e691-f0cf-4c1f-8409-5e7fbac46b16
-
 ms.date: 12/05/2018
 ms.keywords: IMFPMPClientApp interface [Media Foundation],SetPMPHost method, IMFPMPClientApp.SetPMPHost, IMFPMPClientApp::SetPMPHost, SetPMPHost, SetPMPHost method [Media Foundation], SetPMPHost method [Media Foundation],IMFPMPClientApp interface, mf.imfpmpclientapp_setpmphost, mfidl/IMFPMPClientApp::SetPMPHost
 ms.topic: method
-f1_keywords: 
- - "mfidl/IMFPMPClientApp.SetPMPHost"
+f1_keywords:
+- mfidl/IMFPMPClientApp.SetPMPHost
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfidl.h
- - Mfidl.idl
+- mfidl.h
+- Mfidl.idl
 api_name:
- - IMFPMPClientApp.SetPMPHost
+- IMFPMPClientApp.SetPMPHost
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NS:d3d10effect._D3D10_PASS_DESC
 title: D3D10_PASS_DESC (d3d10effect.h)
-
 description: Describes an effect pass, which contains pipeline state.
 old-location: direct3d10\d3d10_pass_desc.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\d3d10_pass_desc.htm
-
 ms.date: 12/05/2018
 ms.keywords: 5373c44b-9837-094e-9520-1b3a2078a9d6, D3D10_PASS_DESC, D3D10_PASS_DESC structure [Direct3D 10], d3d10effect/D3D10_PASS_DESC, direct3d10.d3d10_pass_desc
 ms.topic: struct
-f1_keywords: 
- - "d3d10effect/D3D10_PASS_DESC"
+f1_keywords:
+- d3d10effect/D3D10_PASS_DESC
 dev_langs:
- - c++
+- c++
 req.header: d3d10effect.h
 req.include-header: D3D10.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - d3d10effect.h
+- d3d10effect.h
 api_name:
- - D3D10_PASS_DESC
+- D3D10_PASS_DESC
 targetos: Windows
 req.typenames: D3D10_PASS_DESC
 req.redist: 

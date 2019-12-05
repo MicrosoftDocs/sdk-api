@@ -1,19 +1,17 @@
 ---
 UID: NS:winbase._FILE_RENAME_INFO
 title: FILE_RENAME_INFO (winbase.h)
-
 description: Contains the name to which the file should be renamed.
 old-location: fs\file_rename_info.htm
 tech.root: FileIO
 ms.assetid: f4de0130-66fd-4847-bb6f-3f16fe17ca6e
-
 ms.date: 12/05/2018
-ms.keywords: "*PFILE_RENAME_INFO, FILE_RENAME_INFO, FILE_RENAME_INFO structure [Files], PFILE_RENAME_INFO, PFILE_RENAME_INFO structure pointer [Files], fileextd/FILE_RENAME_INFO, fileextd/PFILE_RENAME_INFO, fs.file_rename_info, winbase/FILE_RENAME_INFO, winbase/PFILE_RENAME_INFO"
+ms.keywords: '*PFILE_RENAME_INFO, FILE_RENAME_INFO, FILE_RENAME_INFO structure [Files], PFILE_RENAME_INFO, PFILE_RENAME_INFO structure pointer [Files], fileextd/FILE_RENAME_INFO, fileextd/PFILE_RENAME_INFO, fs.file_rename_info, winbase/FILE_RENAME_INFO, winbase/PFILE_RENAME_INFO'
 ms.topic: struct
-f1_keywords: 
- - "winbase/FILE_RENAME_INFO"
+f1_keywords:
+- winbase/FILE_RENAME_INFO
 dev_langs:
- - c++
+- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WinBase.h
- - FileExtd.h
+- WinBase.h
+- FileExtd.h
 api_name:
- - FILE_RENAME_INFO
+- FILE_RENAME_INFO
 targetos: Windows
 req.typenames: FILE_RENAME_INFO, *PFILE_RENAME_INFO
 req.redist: Windows SDK on Windows Server 2003 and Windows XP.

@@ -1,19 +1,17 @@
 ---
 UID: NF:wtsprotocol.IWTSProtocolConnection.LogonNotify
 title: IWTSProtocolConnection::LogonNotify (wtsprotocol.h)
-
 description: IWTSProtocolConnection::LogonNotify is no longer available. Instead, use IWRdsProtocolConnection::LogonNotify.
 old-location: termserv\iwtsprotocolconnection_logonnotify.htm
 tech.root: TermServ
 ms.assetid: 6065e827-23a5-4150-bda5-999b7acede65
-
 ms.date: 12/05/2018
 ms.keywords: IWTSProtocolConnection interface [Remote Desktop Services],LogonNotify method, IWTSProtocolConnection.LogonNotify, IWTSProtocolConnection::LogonNotify, LogonNotify, LogonNotify method [Remote Desktop Services], LogonNotify method [Remote Desktop Services],IWTSProtocolConnection interface, termserv.iwtsprotocolconnection_logonnotify, wtsprotocol/IWTSProtocolConnection::LogonNotify
 ms.topic: method
 f1_keywords:
 - wtsprotocol/IWTSProtocolConnection.LogonNotify
 dev_langs:
- - c++
+- c++
 req.header: wtsprotocol.h
 req.include-header: 
 req.target-type: Windows

@@ -1,19 +1,17 @@
 ---
 UID: NF:natupnp.IStaticPortMapping.get_ExternalIPAddress
 title: IStaticPortMapping::get_ExternalIPAddress (natupnp.h)
-
 description: The get_ExternalIPAddress method retrieves the external IP address for this port mapping on the NAT computer.
 old-location: ics\istaticportmapping_get_externalipaddress.htm
 tech.root: ics
 ms.assetid: 4641f827-5408-4a4b-8454-41e960926621
-
 ms.date: 12/05/2018
 ms.keywords: IStaticPortMapping interface [ICS/ICF],get_ExternalIPAddress method, IStaticPortMapping.get_ExternalIPAddress, IStaticPortMapping::get_ExternalIPAddress, _ics_istaticportmapping_get_externalipaddress, get_ExternalIPAddress, get_ExternalIPAddress method [ICS/ICF], get_ExternalIPAddress method [ICS/ICF],IStaticPortMapping interface, ics.istaticportmapping_get_externalipaddress, natupnp/IStaticPortMapping::get_ExternalIPAddress
 ms.topic: method
-f1_keywords: 
- - "natupnp/IStaticPortMapping.get_ExternalIPAddress"
+f1_keywords:
+- natupnp/IStaticPortMapping.get_ExternalIPAddress
 dev_langs:
- - c++
+- c++
 req.header: natupnp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Hnetcfg.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Hnetcfg.dll
+- Hnetcfg.dll
 api_name:
- - IStaticPortMapping.get_ExternalIPAddress
+- IStaticPortMapping.get_ExternalIPAddress
 targetos: Windows
 req.typenames: 
 req.redist: 

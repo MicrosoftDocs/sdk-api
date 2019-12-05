@@ -1,19 +1,17 @@
 ---
 UID: NF:rend.ITILSConfig.put_Port
 title: ITILSConfig::put_Port (rend.h)
-
 description: The put_Port method sets the port number used to connect to the server of a specified ILS directory.
 old-location: tapi3\itilsconfig_put_port.htm
 tech.root: Tapi
 ms.assetid: 9d911a9c-6538-4919-9110-0425c53f91c4
-
 ms.date: 12/05/2018
 ms.keywords: ITILSConfig interface [TAPI 2.2],put_Port method, ITILSConfig.put_Port, ITILSConfig::put_Port, _tapi3_itilsconfig_put_port, put_Port, put_Port method [TAPI 2.2], put_Port method [TAPI 2.2],ITILSConfig interface, rend/ITILSConfig::put_Port, tapi3.itilsconfig_put_port
 ms.topic: method
-f1_keywords: 
- - "rend/ITILSConfig.put_Port"
+f1_keywords:
+- rend/ITILSConfig.put_Port
 dev_langs:
- - c++
+- c++
 req.header: rend.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Rend.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Rend.dll
+- Rend.dll
 api_name:
- - ITILSConfig.put_Port
+- ITILSConfig.put_Port
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:certadm.IOCSPPropertyCollection.get_Item
 title: IOCSPPropertyCollection::get_Item (certadm.h)
-
 description: Gets the property identified by index in a property set.
 old-location: security\iocsppropertycollection_item_method.htm
 tech.root: SecCrypto
 ms.assetid: 33fce781-f65d-433a-b2ba-0f694cee1220
-
 ms.date: 12/05/2018
 ms.keywords: IOCSPPropertyCollection interface [Security],Item property, IOCSPPropertyCollection.Item, IOCSPPropertyCollection.get_Item, IOCSPPropertyCollection::Item, IOCSPPropertyCollection::get_Item, Item property [Security], Item property [Security],IOCSPPropertyCollection interface, certadm/IOCSPPropertyCollection::Item, certadm/IOCSPPropertyCollection::get_Item, get_Item, security.iocsppropertycollection_item_method
 ms.topic: method
-f1_keywords: 
- - "certadm/IOCSPPropertyCollection.Item"
+f1_keywords:
+- certadm/IOCSPPropertyCollection.Item
 dev_langs:
- - c++
+- c++
 req.header: certadm.h
 req.include-header: Certserv.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Certadm.lib
 req.dll: Certadm.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Certadm.dll
+- Certadm.dll
 api_name:
- - IOCSPPropertyCollection.Item
- - IOCSPPropertyCollection.get_Item
+- IOCSPPropertyCollection.Item
+- IOCSPPropertyCollection.get_Item
 targetos: Windows
 req.typenames: 
 req.redist: 

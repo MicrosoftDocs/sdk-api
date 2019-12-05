@@ -1,19 +1,17 @@
 ---
 UID: NF:wincodecsdk.IWICMetadataBlockWriter.InitializeFromBlockReader
 title: IWICMetadataBlockWriter::InitializeFromBlockReader (wincodecsdk.h)
-
 description: Initializes an IWICMetadataBlockWriter from the given IWICMetadataBlockReader. This will prepopulate the metadata block writer with all the metadata in the metadata block reader.
 old-location: wic\_wic_codec_iwicmetadatablockwriter_initializefromblockreader.htm
 tech.root: wic
 ms.assetid: 9ad9d818-7b3e-47eb-bc99-e26e7664383c
-
 ms.date: 12/05/2018
 ms.keywords: IWICMetadataBlockWriter interface [Windows Imaging Component],InitializeFromBlockReader method, IWICMetadataBlockWriter.InitializeFromBlockReader, IWICMetadataBlockWriter::InitializeFromBlockReader, InitializeFromBlockReader, InitializeFromBlockReader method [Windows Imaging Component], InitializeFromBlockReader method [Windows Imaging Component],IWICMetadataBlockWriter interface, _wic_codec_iwicmetadatablockwriter_initializefromblockreader, wic._wic_codec_iwicmetadatablockwriter_initializefromblockreader, wincodecsdk/IWICMetadataBlockWriter::InitializeFromBlockReader
 ms.topic: method
-f1_keywords: 
- - "wincodecsdk/IWICMetadataBlockWriter.InitializeFromBlockReader"
+f1_keywords:
+- wincodecsdk/IWICMetadataBlockWriter.InitializeFromBlockReader
 dev_langs:
- - c++
+- c++
 req.header: wincodecsdk.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Windowscodecs.lib
 req.dll: Windowscodecs.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Windowscodecs.dll
+- Windowscodecs.dll
 api_name:
- - IWICMetadataBlockWriter.InitializeFromBlockReader
+- IWICMetadataBlockWriter.InitializeFromBlockReader
 targetos: Windows
 req.typenames: 
 req.redist: 

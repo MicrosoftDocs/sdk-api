@@ -1,19 +1,17 @@
 ---
 UID: NE:wincodec.WICProgressOperation
 title: WICProgressOperation (wincodec.h)
-
 description: Specifies the progress operations to receive notifications for.
 old-location: wic\_wic_codec_wicprogressoperation.htm
 tech.root: wic
 ms.assetid: 407b982d-7232-42ce-9ff5-7029b7d922a4
-
 ms.date: 12/05/2018
 ms.keywords: WICProgressOperation, WICProgressOperation enumeration [Windows Imaging Component], WICProgressOperationAll, WICProgressOperationCopyPixels, WICProgressOperationWritePixels, _wic_codec_wicprogressoperation, wic._wic_codec_wicprogressoperation, wincodec/WICProgressOperation, wincodec/WICProgressOperationAll, wincodec/WICProgressOperationCopyPixels, wincodec/WICProgressOperationWritePixels
 ms.topic: enum
-f1_keywords: 
- - "wincodec/WICProgressOperation"
+f1_keywords:
+- wincodec/WICProgressOperation
 dev_langs:
- - c++
+- c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wincodec.h
+- Wincodec.h
 api_name:
- - WICProgressOperation
+- WICProgressOperation
 targetos: Windows
 req.typenames: WICProgressOperation
 req.redist: 

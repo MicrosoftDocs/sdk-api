@@ -1,19 +1,17 @@
 ---
 UID: NN:mswmdm.ISCPSecureAuthenticate
 title: ISCPSecureAuthenticate (mswmdm.h)
-
 description: The ISCPSecureAuthenticate interface is the primary interface of the secure content provider, which Windows Media Device Manager queries to authenticate the secure content provider and to be authenticated by the secure content provider.
 old-location: wmdm\iscpsecureauthenticate.htm
 tech.root: WMDM
 ms.assetid: dfe37b41-f80b-4992-84c1-c23581cc4b69
-
 ms.date: 12/05/2018
 ms.keywords: ISCPSecureAuthenticate, ISCPSecureAuthenticate interface [windows Media Device Manager], ISCPSecureAuthenticate interface [windows Media Device Manager],described, ISCPSecureAuthenticateInterface, mswmdm/ISCPSecureAuthenticate, wmdm.iscpsecureauthenticate
 ms.topic: interface
-f1_keywords: 
- - "mswmdm/ISCPSecureAuthenticate"
+f1_keywords:
+- mswmdm/ISCPSecureAuthenticate
 dev_langs:
- - c++
+- c++
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mswmdm.h
+- mswmdm.h
 api_name:
- - ISCPSecureAuthenticate
+- ISCPSecureAuthenticate
 targetos: Windows
 req.typenames: 
 req.redist: 

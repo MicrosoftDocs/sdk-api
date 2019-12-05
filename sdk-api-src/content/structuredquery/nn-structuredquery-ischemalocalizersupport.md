@@ -1,19 +1,17 @@
 ---
 UID: NN:structuredquery.ISchemaLocalizerSupport
 title: ISchemaLocalizerSupport (structuredquery.h)
-
 description: Provides a method for localizing keywords in a specified string.
 old-location: search\_search_ISchemaLocalizerSupport.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\ischemalocalizersupport\ischemalocalizersupport.htm
-
 ms.date: 12/05/2018
 ms.keywords: ISchemaLocalizerSupport, ISchemaLocalizerSupport interface [search], ISchemaLocalizerSupport interface [search],described, _search_ISchemaLocalizerSupport, search._search_ISchemaLocalizerSupport, structuredquery/ISchemaLocalizerSupport
 ms.topic: interface
-f1_keywords: 
- - "structuredquery/ISchemaLocalizerSupport"
+f1_keywords:
+- structuredquery/ISchemaLocalizerSupport
 dev_langs:
- - c++
+- c++
 req.header: structuredquery.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Structuredquery.h
+- Structuredquery.h
 api_name:
- - ISchemaLocalizerSupport
+- ISchemaLocalizerSupport
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0

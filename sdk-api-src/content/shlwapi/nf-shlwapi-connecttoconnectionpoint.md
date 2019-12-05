@@ -1,19 +1,17 @@
 ---
 UID: NF:shlwapi.ConnectToConnectionPoint
 title: ConnectToConnectionPoint function (shlwapi.h)
-
 description: Establishes or terminates a connection between a client's sink and a connection point container.
 old-location: shell\ConnectToConnectionPoint.htm
 tech.root: shell
 ms.assetid: f0c6051e-cced-4f38-a35d-d4c184d39084
-
 ms.date: 12/05/2018
 ms.keywords: ConnectToConnectionPoint, ConnectToConnectionPoint function [Windows Shell], _win32_ConnectToConnectionPoint, shell.ConnectToConnectionPoint, shlwapi/ConnectToConnectionPoint
 ms.topic: function
-f1_keywords: 
- - "shlwapi/ConnectToConnectionPoint"
+f1_keywords:
+- shlwapi/ConnectToConnectionPoint
 dev_langs:
- - c++
+- c++
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: Shlwapi.dll (version 5.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Shlwapi.dll
- - API-MS-Win-shlwapi-IE-l1-1-0.dll
+- Shlwapi.dll
+- API-MS-Win-shlwapi-IE-l1-1-0.dll
 api_name:
- - ConnectToConnectionPoint
+- ConnectToConnectionPoint
 targetos: Windows
 req.typenames: 
 req.redist: 

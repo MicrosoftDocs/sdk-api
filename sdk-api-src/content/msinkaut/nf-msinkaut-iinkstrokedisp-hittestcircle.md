@@ -1,19 +1,17 @@
 ---
 UID: NF:msinkaut.IInkStrokeDisp.HitTestCircle
 title: IInkStrokeDisp::HitTestCircle (msinkaut.h)
-
 description: Determines whether a stroke is either completely inside or intersected by a given circle.
 old-location: tablet\iinkstrokedisp_hittestcircle.htm
 tech.root: tablet
 ms.assetid: b87a1bc0-b17b-419b-947e-48746f4903e8
-
 ms.date: 12/05/2018
 ms.keywords: HitTestCircle, HitTestCircle method [Tablet PC], HitTestCircle method [Tablet PC],IInkStrokeDisp interface, IInkStrokeDisp interface [Tablet PC],HitTestCircle method, IInkStrokeDisp.HitTestCircle, IInkStrokeDisp::HitTestCircle, b87a1bc0-b17b-419b-947e-48746f4903e8, msinkaut/IInkStrokeDisp::HitTestCircle, tablet.iinkstrokedisp_hittestcircle
 ms.topic: method
-f1_keywords: 
- - "msinkaut/IInkStrokeDisp.HitTestCircle"
+f1_keywords:
+- msinkaut/IInkStrokeDisp.HitTestCircle
 dev_langs:
- - c++
+- c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: InkObj.dll
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - InkObj.dll
- - InkObj.dll.dll
+- InkObj.dll
+- InkObj.dll.dll
 api_name:
- - IInkStrokeDisp.HitTestCircle
+- IInkStrokeDisp.HitTestCircle
 targetos: Windows
 req.typenames: 
 req.redist: 

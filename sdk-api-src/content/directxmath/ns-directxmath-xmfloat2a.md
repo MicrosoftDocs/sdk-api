@@ -3,14 +3,13 @@ UID: NS:directxmath.XMFLOAT2A
 title: XMFLOAT2A
 description: Describes an XMFLOAT2 structure aligned on a 16-byte boundary.
 ms.assetid: 9717e83e-b8d8-4855-9e53-e54f946fdd97
-
 ms.date: 05/20/2019
 ms.keywords: XMFLOAT2A
 ms.topic: language-reference
-f1_keywords: 
- - "directxmath/XMFLOAT2A"
+f1_keywords:
+- directxmath/XMFLOAT2A
 dev_langs:
- - c++
+- c++
 targetos: Windows
 req.construct-type: structure
 req.ddi-compliance: 
@@ -28,13 +27,13 @@ req.typenames:
 req.umdf-ver: 
 req.unicode-ansi: 
 topic_type:
- - apiref
+- apiref
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - directxmath.h
+- directxmath.h
 api_name:
- - XMFLOAT2A
+- XMFLOAT2A
 ---
 
 # XMFLOAT2A Structure

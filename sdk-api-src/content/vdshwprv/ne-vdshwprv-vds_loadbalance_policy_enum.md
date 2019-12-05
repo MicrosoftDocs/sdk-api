@@ -1,19 +1,17 @@
 ---
 UID: NE:vdshwprv._VDS_LOADBALANCE_POLICY_ENUM
 title: VDS_LOADBALANCE_POLICY_ENUM (vdshwprv.h)
-
 description: Defines a set of valid load balance policies for a path.
 old-location: base\vds_loadbalance_policy_enum.htm
 tech.root: VDS
 ms.assetid: 0391c605-3808-4c24-8638-77b1fe3342bf
-
 ms.date: 12/05/2018
 ms.keywords: VDS_LBP_DYN_LEAST_QUEUE_DEPTH, VDS_LBP_FAILOVER, VDS_LBP_LEAST_BLOCKS, VDS_LBP_ROUND_ROBIN, VDS_LBP_ROUND_ROBIN_WITH_SUBSET, VDS_LBP_UNKNOWN, VDS_LBP_VENDOR_SPECIFIC, VDS_LBP_WEIGHTED_PATHS, VDS_LOADBALANCE_POLICY_ENUM, VDS_LOADBALANCE_POLICY_ENUM enumeration [VDS], base.vds_loadbalance_policy_enum, vds/VDS_LBP_DYN_LEAST_QUEUE_DEPTH, vds/VDS_LBP_FAILOVER, vds/VDS_LBP_LEAST_BLOCKS, vds/VDS_LBP_ROUND_ROBIN, vds/VDS_LBP_ROUND_ROBIN_WITH_SUBSET, vds/VDS_LBP_UNKNOWN, vds/VDS_LBP_VENDOR_SPECIFIC, vds/VDS_LBP_WEIGHTED_PATHS, vds/VDS_LOADBALANCE_POLICY_ENUM, vdshwprv/VDS_LBP_DYN_LEAST_QUEUE_DEPTH, vdshwprv/VDS_LBP_FAILOVER, vdshwprv/VDS_LBP_LEAST_BLOCKS, vdshwprv/VDS_LBP_ROUND_ROBIN, vdshwprv/VDS_LBP_ROUND_ROBIN_WITH_SUBSET, vdshwprv/VDS_LBP_UNKNOWN, vdshwprv/VDS_LBP_VENDOR_SPECIFIC, vdshwprv/VDS_LBP_WEIGHTED_PATHS, vdshwprv/VDS_LOADBALANCE_POLICY_ENUM
 ms.topic: enum
-f1_keywords: 
- - "vdshwprv/VDS_LOADBALANCE_POLICY_ENUM"
+f1_keywords:
+- vdshwprv/VDS_LOADBALANCE_POLICY_ENUM
 dev_langs:
- - c++
+- c++
 req.header: vdshwprv.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Vds.h
- - VdsHwPrv.h
+- Vds.h
+- VdsHwPrv.h
 api_name:
- - VDS_LOADBALANCE_POLICY_ENUM
+- VDS_LOADBALANCE_POLICY_ENUM
 targetos: Windows
 req.typenames: VDS_LOADBALANCE_POLICY_ENUM
 req.redist: 

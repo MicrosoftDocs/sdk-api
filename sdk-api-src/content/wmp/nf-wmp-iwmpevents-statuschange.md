@@ -1,19 +1,17 @@
 ---
 UID: NF:wmp.IWMPEvents.StatusChange
 title: IWMPEvents::StatusChange (wmp.h)
-
 description: The StatusChange event occurs when the status property changes value.
 old-location: wmp\iwmpevents_iwmpevents__statuschange.htm
 tech.root: WMP
 ms.assetid: 0397ae20-bc8b-4b7e-8d5d-2b1fb427355a
-
 ms.date: 12/05/2018
 ms.keywords: IWMPEvents interface [Windows Media Player],StatusChange method, IWMPEvents.StatusChange, IWMPEvents::StatusChange, IWMPEventsStatusChange, StatusChange, StatusChange method [Windows Media Player], StatusChange method [Windows Media Player],IWMPEvents interface, wmp.iwmpevents_iwmpevents__statuschange, wmp/IWMPEvents::StatusChange
 ms.topic: method
-f1_keywords: 
- - "wmp/IWMPEvents.StatusChange"
+f1_keywords:
+- wmp/IWMPEvents.StatusChange
 dev_langs:
- - c++
+- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wmp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmp.dll
+- wmp.dll
 api_name:
- - IWMPEvents.StatusChange
+- IWMPEvents.StatusChange
 targetos: Windows
 req.typenames: 
 req.redist: 

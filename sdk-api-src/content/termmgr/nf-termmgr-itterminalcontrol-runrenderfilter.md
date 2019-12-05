@@ -1,19 +1,17 @@
 ---
 UID: NF:termmgr.ITTerminalControl.RunRenderFilter
 title: ITTerminalControl::RunRenderFilter (termmgr.h)
-
 description: The RunRenderFilter method starts the rightmost render filter in the terminal. Needed for dynamic filter graphs.
 old-location: tapi3\itterminalcontrol_runrenderfilter.htm
 tech.root: Tapi
 ms.assetid: ed02ed04-3665-47be-a77b-7804a2197767
-
 ms.date: 12/05/2018
 ms.keywords: ITTerminalControl interface [TAPI 2.2],RunRenderFilter method, ITTerminalControl.RunRenderFilter, ITTerminalControl::RunRenderFilter, RunRenderFilter, RunRenderFilter method [TAPI 2.2], RunRenderFilter method [TAPI 2.2],ITTerminalControl interface, _tapi3_itterminalcontrol_runrenderfilter, tapi3.itterminalcontrol_runrenderfilter, termmgr/ITTerminalControl::RunRenderFilter
 ms.topic: method
-f1_keywords: 
- - "termmgr/ITTerminalControl.RunRenderFilter"
+f1_keywords:
+- termmgr/ITTerminalControl.RunRenderFilter
 dev_langs:
- - c++
+- c++
 req.header: termmgr.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Termmgr.h
+- Termmgr.h
 api_name:
- - ITTerminalControl.RunRenderFilter
+- ITTerminalControl.RunRenderFilter
 targetos: Windows
 req.typenames: 
 req.redist: 

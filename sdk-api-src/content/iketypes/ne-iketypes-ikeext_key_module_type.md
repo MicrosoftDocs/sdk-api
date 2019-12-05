@@ -1,19 +1,17 @@
 ---
 UID: NE:iketypes.IKEEXT_KEY_MODULE_TYPE_
 title: IKEEXT_KEY_MODULE_TYPE (iketypes.h)
-
 description: Specifies the type of keying module.
 old-location: fwp\ikeext_key_module_type.htm
 tech.root: fwp
 ms.assetid: a9268b07-343a-4a51-bc70-3e624facf617
-
 ms.date: 12/05/2018
 ms.keywords: IKEEXT_KEY_MODULE_AUTHIP, IKEEXT_KEY_MODULE_IKE, IKEEXT_KEY_MODULE_IKEV2, IKEEXT_KEY_MODULE_MAX, IKEEXT_KEY_MODULE_TYPE, IKEEXT_KEY_MODULE_TYPE enumeration [Filtering], fwp.ikeext_key_module_type, iketypes/IKEEXT_KEY_MODULE_AUTHIP, iketypes/IKEEXT_KEY_MODULE_IKE, iketypes/IKEEXT_KEY_MODULE_IKEV2, iketypes/IKEEXT_KEY_MODULE_MAX, iketypes/IKEEXT_KEY_MODULE_TYPE
 ms.topic: enum
-f1_keywords: 
- - "iketypes/IKEEXT_KEY_MODULE_TYPE"
+f1_keywords:
+- iketypes/IKEEXT_KEY_MODULE_TYPE
 dev_langs:
- - c++
+- c++
 req.header: iketypes.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Iketypes.h
+- Iketypes.h
 api_name:
- - IKEEXT_KEY_MODULE_TYPE
+- IKEEXT_KEY_MODULE_TYPE
 targetos: Windows
 req.typenames: IKEEXT_KEY_MODULE_TYPE
 req.redist: 

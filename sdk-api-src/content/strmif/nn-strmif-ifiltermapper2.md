@@ -1,19 +1,17 @@
 ---
 UID: NN:strmif.IFilterMapper2
 title: IFilterMapper2 (strmif.h)
-
 description: Registers and unregisters filters, and locates filters in the registry.
 old-location: dshow\ifiltermapper2.htm
 tech.root: DirectShow
 ms.assetid: 6a3db838-cee3-4a9f-a924-fb55931acc83
-
 ms.date: 12/05/2018
 ms.keywords: IFilterMapper2, IFilterMapper2 interface [DirectShow], IFilterMapper2 interface [DirectShow],described, IFilterMapper2Interface, dshow.ifiltermapper2, strmif/IFilterMapper2
 ms.topic: interface
-f1_keywords: 
- - "strmif/IFilterMapper2"
+f1_keywords:
+- strmif/IFilterMapper2
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IFilterMapper2
+- IFilterMapper2
 targetos: Windows
 req.typenames: 
 req.redist: 

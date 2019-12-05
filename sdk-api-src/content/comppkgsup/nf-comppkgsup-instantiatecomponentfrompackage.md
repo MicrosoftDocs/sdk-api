@@ -1,19 +1,17 @@
 ---
 UID: NF:comppkgsup.InstantiateComponentFromPackage
 title: InstantiateComponentFromPackage function (comppkgsup.h)
-
 description: Creates an instance of a class in an application package.
 old-location: winprog\instantiatecomponentfrompackage.htm
 tech.root: DevNotes
 ms.assetid: 831324BC-854B-4070-9DAE-55E68304D608
-
 ms.date: 12/05/2018
 ms.keywords: InstantiateComponentFromPackage, InstantiateComponentFromPackage function [Windows API], comppkgsup/InstantiateComponentFromPackage, winprog.instantiatecomponentfrompackage
 ms.topic: function
-f1_keywords: 
- - "comppkgsup/InstantiateComponentFromPackage"
+f1_keywords:
+- comppkgsup/InstantiateComponentFromPackage
 dev_langs:
- - c++
+- c++
 req.header: comppkgsup.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Comppkgsup.lib
 req.dll: CompPkgSup.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - CompPkgSup.dll
+- CompPkgSup.dll
 api_name:
- - InstantiateComponentFromPackage
+- InstantiateComponentFromPackage
 targetos: Windows
 req.typenames: 
 req.redist: 

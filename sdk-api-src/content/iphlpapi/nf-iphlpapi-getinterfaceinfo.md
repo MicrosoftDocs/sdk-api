@@ -1,19 +1,17 @@
 ---
 UID: NF:iphlpapi.GetInterfaceInfo
 title: GetInterfaceInfo function (iphlpapi.h)
-
 description: The GetInterfaceInfo function obtains the list of the network interface adapters with IPv4 enabled on the local system.
 old-location: iphlp\getinterfaceinfo.htm
 tech.root: IpHlp
 ms.assetid: efc0d175-2c6d-4608-b385-1623a9e0375c
-
 ms.date: 12/05/2018
 ms.keywords: GetInterfaceInfo, GetInterfaceInfo function [IP Helper], _iphlp_getinterfaceinfo, iphlp.getinterfaceinfo, iphlpapi/GetInterfaceInfo
 ms.topic: function
-f1_keywords: 
- - "iphlpapi/GetInterfaceInfo"
+f1_keywords:
+- iphlpapi/GetInterfaceInfo
 dev_langs:
- - c++
+- c++
 req.header: iphlpapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Iphlpapi.lib
 req.dll: Iphlpapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Iphlpapi.dll
+- Iphlpapi.dll
 api_name:
- - GetInterfaceInfo
+- GetInterfaceInfo
 targetos: Windows
 req.typenames: 
 req.redist: 

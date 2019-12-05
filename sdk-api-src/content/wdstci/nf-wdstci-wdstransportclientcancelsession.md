@@ -1,19 +1,17 @@
 ---
 UID: NF:wdstci.WdsTransportClientCancelSession
 title: WdsTransportClientCancelSession function (wdstci.h)
-
 description: Releases the resources associated with a session in the client.
 old-location: wds\wdstransportclientcancelsession.htm
 tech.root: wds
 ms.assetid: 96348bbf-e1b6-4889-a2a6-59d265c1a031
-
 ms.date: 12/05/2018
 ms.keywords: WdsTransportClientCancelSession, WdsTransportClientCancelSession function [Windows Deployment Services], wds.wdstransportclientcancelsession, wdstci/WdsTransportClientCancelSession
 ms.topic: function
-f1_keywords: 
- - "wdstci/WdsTransportClientCancelSession"
+f1_keywords:
+- wdstci/WdsTransportClientCancelSession
 dev_langs:
- - c++
+- c++
 req.header: wdstci.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Wdstptc.lib
 req.dll: Wdstptc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Wdstptc.dll
+- Wdstptc.dll
 api_name:
- - WdsTransportClientCancelSession
+- WdsTransportClientCancelSession
 targetos: Windows
 req.typenames: 
 req.redist: 

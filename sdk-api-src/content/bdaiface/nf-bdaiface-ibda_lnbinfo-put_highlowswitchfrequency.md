@@ -1,19 +1,17 @@
 ---
 UID: NF:bdaiface.IBDA_LNBInfo.put_HighLowSwitchFrequency
 title: IBDA_LNBInfo::put_HighLowSwitchFrequency (bdaiface.h)
-
 description: The put_HighLowSwitchFrequency method specifies the frequency of the high-low switch.
 old-location: mstv\ibda_lnbinfo_put_highlowswitchfrequency.htm
 tech.root: mstv
 ms.assetid: 3edde05f-1cdb-4648-a34b-ba95e4fcff12
-
 ms.date: 12/05/2018
 ms.keywords: IBDA_LNBInfo interface [Microsoft TV Technologies],put_HighLowSwitchFrequency method, IBDA_LNBInfo.put_HighLowSwitchFrequency, IBDA_LNBInfo::put_HighLowSwitchFrequency, IBDA_LNBInfoput_HighLowSwitchFrequency, bdaiface/IBDA_LNBInfo::put_HighLowSwitchFrequency, mstv.ibda_lnbinfo_put_highlowswitchfrequency, put_HighLowSwitchFrequency, put_HighLowSwitchFrequency method [Microsoft TV Technologies], put_HighLowSwitchFrequency method [Microsoft TV Technologies],IBDA_LNBInfo interface
 ms.topic: method
-f1_keywords: 
- - "bdaiface/IBDA_LNBInfo.put_HighLowSwitchFrequency"
+f1_keywords:
+- bdaiface/IBDA_LNBInfo.put_HighLowSwitchFrequency
 dev_langs:
- - c++
+- c++
 req.header: bdaiface.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - bdaiface.h
+- bdaiface.h
 api_name:
- - IBDA_LNBInfo.put_HighLowSwitchFrequency
+- IBDA_LNBInfo.put_HighLowSwitchFrequency
 targetos: Windows
 req.typenames: 
 req.redist: 

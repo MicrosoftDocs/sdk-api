@@ -1,19 +1,17 @@
 ---
 UID: NF:mfidl.IMFSourceResolver.CancelObjectCreation
 title: IMFSourceResolver::CancelObjectCreation (mfidl.h)
-
 description: Cancels an asynchronous request to create an object.
 old-location: mf\imfsourceresolver_cancelobjectcreation.htm
 tech.root: medfound
 ms.assetid: 6a30ac92-a281-4293-8975-987fa25a5318
-
 ms.date: 12/05/2018
 ms.keywords: 6a30ac92-a281-4293-8975-987fa25a5318, CancelObjectCreation, CancelObjectCreation method [Media Foundation], CancelObjectCreation method [Media Foundation],IMFSourceResolver interface, IMFSourceResolver interface [Media Foundation],CancelObjectCreation method, IMFSourceResolver.CancelObjectCreation, IMFSourceResolver::CancelObjectCreation, mf.imfsourceresolver_cancelobjectcreation, mfidl/IMFSourceResolver::CancelObjectCreation
 ms.topic: method
-f1_keywords: 
- - "mfidl/IMFSourceResolver.CancelObjectCreation"
+f1_keywords:
+- mfidl/IMFSourceResolver.CancelObjectCreation
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFSourceResolver.CancelObjectCreation
+- IMFSourceResolver.CancelObjectCreation
 targetos: Windows
 req.typenames: 
 req.redist: 

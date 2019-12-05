@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.GetCurrentProcessExplicitAppUserModelID
 title: GetCurrentProcessExplicitAppUserModelID function (shobjidl_core.h)
-
 description: Retrieves the application-defined, explicit Application User Model ID (AppUserModelID) for the current process.
 old-location: shell\GetCurrentProcessExplicitAppUserModelID.htm
 tech.root: shell
 ms.assetid: d3af052b-1f58-4c56-914b-a8283aceef5b
-
 ms.date: 12/05/2018
 ms.keywords: GetCurrentProcessExplicitAppUserModelID, GetCurrentProcessExplicitAppUserModelID function [Windows Shell], _shell_GetCurrentProcessExplicitAppUserModelID, _shell_GetCurrentProcessExplicitAppUserModelID_cpp, shell.GetCurrentProcessExplicitAppUserModelID, shobjidl_core/GetCurrentProcessExplicitAppUserModelID
 ms.topic: function
-f1_keywords: 
- - "shobjidl_core/GetCurrentProcessExplicitAppUserModelID"
+f1_keywords:
+- shobjidl_core/GetCurrentProcessExplicitAppUserModelID
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Shell32.lib
 req.dll: Shell32.dll (version 6.1 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Shell32.dll
- - API-MS-Win-DownLevel-shell32-l1-1-0.dll
- - ShCore.dll
- - API-MS-Win-ShCore-SysInfo-l1-1-0.dll
+- Shell32.dll
+- API-MS-Win-DownLevel-shell32-l1-1-0.dll
+- ShCore.dll
+- API-MS-Win-ShCore-SysInfo-l1-1-0.dll
 api_name:
- - GetCurrentProcessExplicitAppUserModelID
+- GetCurrentProcessExplicitAppUserModelID
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NN:tapi3if.ITPhoneEvent
 title: ITPhoneEvent (tapi3if.h)
-
 description: The ITPhoneEvent interface contains methods that retrieve the description of phone events that have occurred.
 old-location: tapi3\itphoneevent.htm
 tech.root: Tapi
 ms.assetid: cc3ca533-d523-4889-b3c7-bb306e49b85b
-
 ms.date: 12/05/2018
 ms.keywords: ITPhoneEvent, ITPhoneEvent interface [TAPI 2.2], ITPhoneEvent interface [TAPI 2.2],described, _tapi3_itphoneevent, tapi3.itphoneevent, tapi3if/ITPhoneEvent
 ms.topic: interface
-f1_keywords: 
- - "tapi3if/ITPhoneEvent"
+f1_keywords:
+- tapi3if/ITPhoneEvent
 dev_langs:
- - c++
+- c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Tapi3.dll
+- Tapi3.dll
 api_name:
- - ITPhoneEvent
+- ITPhoneEvent
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IPackageDebugSettings.StartServicing
 title: IPackageDebugSettings::StartServicing (shobjidl_core.h)
-
 description: Suspends and terminates the non-background portion of the apps associated with the specified package and cancels the background tasks associated with the package.
 old-location: shell\IPackageDebugSettings_StartServicing.htm
 tech.root: shell
 ms.assetid: 40f5331d-194f-4beb-9c59-f6899186b393
-
 ms.date: 12/05/2018
 ms.keywords: IPackageDebugSettings interface [Windows Shell],StartServicing method, IPackageDebugSettings.StartServicing, IPackageDebugSettings::StartServicing, StartServicing, StartServicing method [Windows Shell], StartServicing method [Windows Shell],IPackageDebugSettings interface, shell.IPackageDebugSettings_StartServicing, shobjidl_core/IPackageDebugSettings::StartServicing
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IPackageDebugSettings.StartServicing"
+f1_keywords:
+- shobjidl_core/IPackageDebugSettings.StartServicing
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shobjidl_core.h
+- Shobjidl_core.h
 api_name:
- - IPackageDebugSettings.StartServicing
+- IPackageDebugSettings.StartServicing
 targetos: Windows
 req.typenames: 
 req.redist: 

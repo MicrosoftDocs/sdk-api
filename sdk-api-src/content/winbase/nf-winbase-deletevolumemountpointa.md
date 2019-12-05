@@ -1,19 +1,17 @@
 ---
 UID: NF:winbase.DeleteVolumeMountPointA
 title: DeleteVolumeMountPointA function (winbase.h)
-
 description: Deletes a drive letter or mounted folder.
 old-location: fs\deletevolumemountpoint.htm
 tech.root: FileIO
 ms.assetid: b1a0a273-fa7f-4794-8b50-c74f00b0228d
-
 ms.date: 12/05/2018
 ms.keywords: DeleteVolumeMountPoint, DeleteVolumeMountPoint function [Files], DeleteVolumeMountPointA, DeleteVolumeMountPointW, _win32_deletevolumemountpoint, base.deletevolumemountpoint, fileapi/DeleteVolumeMountPoint, fileapi/DeleteVolumeMountPointA, fileapi/DeleteVolumeMountPointW, fs.deletevolumemountpoint, winbase/DeleteVolumeMountPoint, winbase/DeleteVolumeMountPointA, winbase/DeleteVolumeMountPointW
 ms.topic: function
-f1_keywords: 
- - "winbase/DeleteVolumeMountPoint"
+f1_keywords:
+- winbase/DeleteVolumeMountPoint
 dev_langs:
- - c++
+- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,25 +30,25 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-File-l1-1-0.dll
- - KernelBase.dll
- - API-MS-Win-Core-File-l1-2-0.dll
- - API-MS-Win-Core-File-l1-2-1.dll
- - API-MS-Win-Core-File-l1-2-2.dll
- - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
- - MinKernelBase.dll
- - API-Ms-Win-Core-File-Ansi-L1-1-0.dll
- - Kernel32Legacy.dll
+- Kernel32.dll
+- API-MS-Win-Core-File-l1-1-0.dll
+- KernelBase.dll
+- API-MS-Win-Core-File-l1-2-0.dll
+- API-MS-Win-Core-File-l1-2-1.dll
+- API-MS-Win-Core-File-l1-2-2.dll
+- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+- MinKernelBase.dll
+- API-Ms-Win-Core-File-Ansi-L1-1-0.dll
+- Kernel32Legacy.dll
 api_name:
- - DeleteVolumeMountPoint
- - DeleteVolumeMountPointA
- - DeleteVolumeMountPointW
+- DeleteVolumeMountPoint
+- DeleteVolumeMountPointA
+- DeleteVolumeMountPointW
 targetos: Windows
 req.typenames: 
 req.redist: 

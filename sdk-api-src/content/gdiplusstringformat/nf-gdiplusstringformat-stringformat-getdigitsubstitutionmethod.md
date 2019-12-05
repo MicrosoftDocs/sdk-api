@@ -1,19 +1,17 @@
 ---
 UID: NF:gdiplusstringformat.StringFormat.GetDigitSubstitutionMethod
 title: StringFormat::GetDigitSubstitutionMethod (gdiplusstringformat.h)
-
 description: The StringFormat::GetDigitSubstitutionMethod method gets an element of the StringDigitSubstitute enumeration that indicates the digit substitution method that is used by this StringFormat object.
 old-location: gdiplus\_gdiplus_CLASS_StringFormat_GetDigitSubstitutionMethod_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\stringformatclass\stringformatmethods\getdigitsubstitutionmethod.htm
-
 ms.date: 12/05/2018
 ms.keywords: GetDigitSubstitutionMethod, GetDigitSubstitutionMethod method [GDI+], GetDigitSubstitutionMethod method [GDI+],StringFormat class, StringFormat class [GDI+],GetDigitSubstitutionMethod method, StringFormat.GetDigitSubstitutionMethod, StringFormat::GetDigitSubstitutionMethod, _gdiplus_CLASS_StringFormat_GetDigitSubstitutionMethod_, gdiplus._gdiplus_CLASS_StringFormat_GetDigitSubstitutionMethod_
 ms.topic: method
-f1_keywords: 
- - "gdiplusstringformat/StringFormat.GetDigitSubstitutionMethod"
+f1_keywords:
+- gdiplusstringformat/StringFormat.GetDigitSubstitutionMethod
 dev_langs:
- - c++
+- c++
 req.header: gdiplusstringformat.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - StringFormat.GetDigitSubstitutionMethod
+- StringFormat.GetDigitSubstitutionMethod
 targetos: Windows
 req.typenames: 
 req.redist: 

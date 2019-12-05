@@ -1,19 +1,17 @@
 ---
 UID: NF:gdiplusinit.GdiplusStartup
 title: GdiplusStartup function (gdiplusinit.h)
-
 description: The GdiplusStartup function initializes Windows GDI+. Call GdiplusStartup before making any other GDI+ calls, and call GdiplusShutdown when you have finished using GDI+.
 old-location: gdiplus\_gdiplus_FUNC_GdiplusStartup_token_input_output_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\functions\gdiplusstartup.htm
-
 ms.date: 12/05/2018
 ms.keywords: GdiplusStartup, GdiplusStartup function [GDI+], _gdiplus_FUNC_GdiplusStartup_token_input_output_, gdiplus._gdiplus_FUNC_GdiplusStartup_token_input_output_, gdiplusinit/GdiplusStartup
 ms.topic: function
-f1_keywords: 
- - "gdiplusinit/GdiplusStartup"
+f1_keywords:
+- gdiplusinit/GdiplusStartup
 dev_langs:
- - c++
+- c++
 req.header: gdiplusinit.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - GdiplusStartup
+- GdiplusStartup
 targetos: Windows
 req.typenames: 
 req.redist: 

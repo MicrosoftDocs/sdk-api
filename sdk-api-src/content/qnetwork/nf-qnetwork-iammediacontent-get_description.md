@@ -1,19 +1,17 @@
 ---
 UID: NF:qnetwork.IAMMediaContent.get_Description
 title: IAMMediaContent::get_Description (qnetwork.h)
-
 description: The get_Description method retrieves a description of the content.
 old-location: dshow\iammediacontent_get_description.htm
 tech.root: DirectShow
 ms.assetid: fc0c14f3-2764-4897-8ddb-ed1146d98597
-
 ms.date: 12/05/2018
 ms.keywords: IAMMediaContent interface [DirectShow],get_Description method, IAMMediaContent.get_Description, IAMMediaContent::get_Description, IAMMediaContentget_Description, dshow.iammediacontent_get_description, get_Description, get_Description method [DirectShow], get_Description method [DirectShow],IAMMediaContent interface, qnetwork/IAMMediaContent::get_Description
 ms.topic: method
-f1_keywords: 
- - "qnetwork/IAMMediaContent.get_Description"
+f1_keywords:
+- qnetwork/IAMMediaContent.get_Description
 dev_langs:
- - c++
+- c++
 req.header: qnetwork.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Qnetwork.h
+- Qnetwork.h
 api_name:
- - IAMMediaContent.get_Description
+- IAMMediaContent.get_Description
 targetos: Windows
 req.typenames: 
 req.redist: 

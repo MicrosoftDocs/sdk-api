@@ -1,19 +1,17 @@
 ---
 UID: NF:tspi.TSPI_phoneClose
 title: TSPI_phoneClose function (tspi.h)
-
 description: The TSPI_phoneClose function closes the specified open phone device after completing or aborting all outstanding asynchronous operations on the device.
 old-location: tspi\tspi_phoneclose.htm
 tech.root: Tapi
 ms.assetid: 1db4c460-8afa-4420-9c51-ba276693656e
-
 ms.date: 12/05/2018
 ms.keywords: TSPI_phoneClose, TSPI_phoneClose function [TAPI 2.2], _tspi_tspi_phoneclose, tspi.tspi_phoneclose, tspi/TSPI_phoneClose
 ms.topic: function
-f1_keywords: 
- - "tspi/TSPI_phoneClose"
+f1_keywords:
+- tspi/TSPI_phoneClose
 dev_langs:
- - c++
+- c++
 req.header: tspi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Tspi.h
+- Tspi.h
 api_name:
- - TSPI_phoneClose
+- TSPI_phoneClose
 targetos: Windows
 req.typenames: 
 req.redist: 

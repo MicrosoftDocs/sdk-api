@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IDesktopWallpaper.GetPosition
 title: IDesktopWallpaper::GetPosition (shobjidl_core.h)
-
 description: Retrieves the current display value for the desktop background image.
 old-location: shell\IDesktopWallpaper_GetPosition.htm
 tech.root: shell
 ms.assetid: 28D057DD-63CF-4078-9E0C-7DB61E1683EF
-
 ms.date: 12/05/2018
 ms.keywords: GetPosition, GetPosition method [Windows Shell], GetPosition method [Windows Shell],IDesktopWallpaper interface, IDesktopWallpaper interface [Windows Shell],GetPosition method, IDesktopWallpaper.GetPosition, IDesktopWallpaper::GetPosition, shell.IDesktopWallpaper_GetPosition, shobjidl_core/IDesktopWallpaper::GetPosition
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IDesktopWallpaper.GetPosition"
+f1_keywords:
+- shobjidl_core/IDesktopWallpaper.GetPosition
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - IDesktopWallpaper.GetPosition
+- IDesktopWallpaper.GetPosition
 targetos: Windows
 req.typenames: 
 req.redist: 

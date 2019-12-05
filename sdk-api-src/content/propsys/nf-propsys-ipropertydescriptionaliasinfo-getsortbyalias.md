@@ -1,19 +1,17 @@
 ---
 UID: NF:propsys.IPropertyDescriptionAliasInfo.GetSortByAlias
 title: IPropertyDescriptionAliasInfo::GetSortByAlias (propsys.h)
-
 description: Gets the address of a pointer to the IPropertyDescription interface containing the primary sort column.
 old-location: properties\IPropertyDescriptionAliasInfo_GetSortByAlias.htm
 tech.root: properties
 ms.assetid: 22a60d4e-d7e7-4a14-a56a-5325a5dae2eb
-
 ms.date: 12/05/2018
 ms.keywords: GetSortByAlias, GetSortByAlias method [Windows Properties], GetSortByAlias method [Windows Properties],IPropertyDescriptionAliasInfo interface, IPropertyDescriptionAliasInfo interface [Windows Properties],GetSortByAlias method, IPropertyDescriptionAliasInfo.GetSortByAlias, IPropertyDescriptionAliasInfo::GetSortByAlias, _shell_IPropertyDescriptionAliasInfo_GetSortByAlias, properties.IPropertyDescriptionAliasInfo_GetSortByAlias, propsys/IPropertyDescriptionAliasInfo::GetSortByAlias, shell.IPropertyDescriptionAliasInfo_GetSortByAlias
 ms.topic: method
-f1_keywords: 
- - "propsys/IPropertyDescriptionAliasInfo.GetSortByAlias"
+f1_keywords:
+- propsys/IPropertyDescriptionAliasInfo.GetSortByAlias
 dev_langs:
- - c++
+- c++
 req.header: propsys.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Propsys.h
+- Propsys.h
 api_name:
- - IPropertyDescriptionAliasInfo.GetSortByAlias
+- IPropertyDescriptionAliasInfo.GetSortByAlias
 targetos: Windows
 req.typenames: 
 req.redist: 

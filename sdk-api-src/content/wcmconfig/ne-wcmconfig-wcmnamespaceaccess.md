@@ -1,19 +1,17 @@
 ---
 UID: NE:wcmconfig.__MIDL___MIDL_itf_wcmconfig_0000_0000_0007
 title: WcmNamespaceAccess (wcmconfig.h)
-
 description: Describes the options passed to the ISettingsEngine::GetNamespace method to choose how the namespace must be accessed.
 old-location: smi\wcmnamespaceaccess.htm
 tech.root: SMI
 ms.assetid: 11918eab-2f5d-4050-81c6-d4c465b68ce3
-
 ms.date: 12/05/2018
 ms.keywords: ReadOnlyAccess, ReadWriteAccess, WcmNamespaceAccess, WcmNamespaceAccess enumeration [SMI], smi.wcmnamespaceaccess, wcmconfig/ReadOnlyAccess, wcmconfig/ReadWriteAccess, wcmconfig/WcmNamespaceAccess
 ms.topic: enum
-f1_keywords: 
- - "wcmconfig/WcmNamespaceAccess"
+f1_keywords:
+- wcmconfig/WcmNamespaceAccess
 dev_langs:
- - c++
+- c++
 req.header: wcmconfig.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WcmConfig.h
+- WcmConfig.h
 api_name:
- - WcmNamespaceAccess
+- WcmNamespaceAccess
 targetos: Windows
 req.typenames: WcmNamespaceAccess
 req.redist: 

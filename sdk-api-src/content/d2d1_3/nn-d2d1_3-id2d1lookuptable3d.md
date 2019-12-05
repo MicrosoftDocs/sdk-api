@@ -1,19 +1,17 @@
 ---
 UID: NN:d2d1_3.ID2D1LookupTable3D
 title: ID2D1LookupTable3D (d2d1_3.h)
-
 description: A container for 3D lookup table data that can be passed to the LookupTable3D effect.
 old-location: direct2d\id2d1lookuptable3d.htm
 tech.root: Direct2D
 ms.assetid: 778D2F30-0328-4AA2-8ECA-F443D57809D7
-
 ms.date: 12/05/2018
 ms.keywords: ID2D1LookupTable3D, ID2D1LookupTable3D interface [Direct2D], ID2D1LookupTable3D interface [Direct2D],described, d2d1_3/ID2D1LookupTable3D, direct2d.id2d1lookuptable3d
 ms.topic: interface
-f1_keywords: 
- - "d2d1_3/ID2D1LookupTable3D"
+f1_keywords:
+- d2d1_3/ID2D1LookupTable3D
 dev_langs:
- - c++
+- c++
 req.header: d2d1_3.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: D2d1_3.lib
 req.dll: D2d1_3.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - d2d1_3.dll
+- d2d1_3.dll
 api_name:
- - ID2D1LookupTable3D
+- ID2D1LookupTable3D
 targetos: Windows
 req.typenames: 
 req.redist: 

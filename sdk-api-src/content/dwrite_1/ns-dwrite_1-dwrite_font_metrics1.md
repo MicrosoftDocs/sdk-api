@@ -1,19 +1,17 @@
 ---
 UID: NS:dwrite_1.DWRITE_FONT_METRICS1
 title: DWRITE_FONT_METRICS1 (dwrite_1.h)
-
 description: The DWRITE_FONT_METRICS1 structure specifies the metrics that are applicable to all glyphs within the font face.
 old-location: directwrite\dwrite_font_metrics1.htm
 tech.root: DirectWrite
 ms.assetid: F06033F4-2312-48C2-AF70-BDB83700B4E0
-
 ms.date: 12/05/2018
 ms.keywords: DWRITE_FONT_METRICS1, DWRITE_FONT_METRICS1 structure [Direct Write], directwrite.dwrite_font_metrics1, dwrite_1/DWRITE_FONT_METRICS1
 ms.topic: struct
-f1_keywords: 
- - "dwrite_1/DWRITE_FONT_METRICS1"
+f1_keywords:
+- dwrite_1/DWRITE_FONT_METRICS1
 dev_langs:
- - c++
+- c++
 req.header: dwrite_1.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Dwrite_1.h
+- Dwrite_1.h
 api_name:
- - DWRITE_FONT_METRICS1
+- DWRITE_FONT_METRICS1
 targetos: Windows
 req.typenames: 
 req.redist: 

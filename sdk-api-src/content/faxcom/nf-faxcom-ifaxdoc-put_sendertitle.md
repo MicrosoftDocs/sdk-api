@@ -1,19 +1,17 @@
 ---
 UID: NF:faxcom.IFaxDoc.put_SenderTitle
 title: IFaxDoc::put_SenderTitle (faxcom.h)
-
 description: Sets or retrieves the SenderTitle property of a FaxDoc object. The SenderTitle property is a null-terminated string that contains the title of the sender of the fax transmission.
 old-location: fax\_mfax_ifaxdoc_mfax_ifaxdoc_get_sendertitle_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_3obp.htm
-
 ms.date: 12/05/2018
 ms.keywords: IFaxDoc interface [Fax Service],SenderTitle property, IFaxDoc.SenderTitle, IFaxDoc.put_SenderTitle, IFaxDoc::SenderTitle, IFaxDoc::get_SenderTitle, IFaxDoc::put_SenderTitle, SenderTitle property [Fax Service], SenderTitle property [Fax Service],IFaxDoc interface, _mfax_ifaxdoc_get_sendertitle, fax._mfax_ifaxdoc_get_sendertitle, fax._mfax_ifaxdoc_mfax_ifaxdoc_get_sendertitle_cpp, faxcom/IFaxDoc::SenderTitle, faxcom/IFaxDoc::get_SenderTitle, faxcom/IFaxDoc::put_SenderTitle, put_SenderTitle
 ms.topic: method
-f1_keywords: 
- - "faxcom/IFaxDoc.SenderTitle"
+f1_keywords:
+- faxcom/IFaxDoc.SenderTitle
 dev_langs:
- - c++
+- c++
 req.header: faxcom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: Faxcom.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Faxcom.dll
+- Faxcom.dll
 api_name:
- - IFaxDoc.SenderTitle
- - IFaxDoc.get_SenderTitle
- - IFaxDoc.put_SenderTitle
+- IFaxDoc.SenderTitle
+- IFaxDoc.get_SenderTitle
+- IFaxDoc.put_SenderTitle
 targetos: Windows
 req.typenames: 
 req.redist: 

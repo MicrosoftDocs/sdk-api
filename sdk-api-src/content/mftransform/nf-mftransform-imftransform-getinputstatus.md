@@ -1,19 +1,17 @@
 ---
 UID: NF:mftransform.IMFTransform.GetInputStatus
 title: IMFTransform::GetInputStatus (mftransform.h)
-
 description: Queries whether an input stream on this Media Foundation transform (MFT) can accept more data.
 old-location: mf\imftransform_getinputstatus.htm
 tech.root: medfound
 ms.assetid: 6205dc1a-f209-49aa-8632-837783ef5f04
-
 ms.date: 12/05/2018
 ms.keywords: 6205dc1a-f209-49aa-8632-837783ef5f04, GetInputStatus, GetInputStatus method [Media Foundation], GetInputStatus method [Media Foundation],IMFTransform interface, IMFTransform interface [Media Foundation],GetInputStatus method, IMFTransform.GetInputStatus, IMFTransform::GetInputStatus, mf.imftransform_getinputstatus, mftransform/IMFTransform::GetInputStatus
 ms.topic: method
-f1_keywords: 
- - "mftransform/IMFTransform.GetInputStatus"
+f1_keywords:
+- mftransform/IMFTransform.GetInputStatus
 dev_langs:
- - c++
+- c++
 req.header: mftransform.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFTransform.GetInputStatus
+- IMFTransform.GetInputStatus
 targetos: Windows
 req.typenames: 
 req.redist: 

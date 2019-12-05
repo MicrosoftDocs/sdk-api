@@ -1,19 +1,17 @@
 ---
 UID: NC:winwlx.PWLX_SET_RETURN_DESKTOP
 title: PWLX_SET_RETURN_DESKTOP (winwlx.h)
-
 description: Called by GINA to specify the alternate application desktop that Winlogon will switch to when the current secure attention sequence (SAS) event processing function is complete.
 old-location: security\wlxsetreturndesktop.htm
 tech.root: SecAuthN
 ms.assetid: 539e81d9-6362-4476-bdbc-849fb905b268
-
 ms.date: 12/05/2018
 ms.keywords: PWLX_SET_RETURN_DESKTOP, PWLX_SET_RETURN_DESKTOP callback, WlxSetReturnDesktop, WlxSetReturnDesktop callback function [Security], _gina_wlxsetreturndesktop, security.wlxsetreturndesktop, winwlx/WlxSetReturnDesktop
 ms.topic: callback
-f1_keywords: 
- - "winwlx/WlxSetReturnDesktop"
+f1_keywords:
+- winwlx/WlxSetReturnDesktop
 dev_langs:
- - c++
+- c++
 req.header: winwlx.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - winwlx.h
+- winwlx.h
 api_name:
- - WlxSetReturnDesktop
+- WlxSetReturnDesktop
 targetos: Windows
 req.typenames: 
 req.redist: 

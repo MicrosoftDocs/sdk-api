@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d12sdklayers.ID3D12InfoQueue.GetNumMessagesDeniedByStorageFilter
 title: ID3D12InfoQueue::GetNumMessagesDeniedByStorageFilter (d3d12sdklayers.h)
-
 description: Get the number of messages that were denied passage through a storage filter.
 old-location: direct3d12\id3d12infoqueue_getnummessagesdeniedbystoragefilter.htm
 tech.root: direct3d12
 ms.assetid: A1702C92-516C-4ECF-AD75-3D2CCFE360D2
-
 ms.date: 12/05/2018
 ms.keywords: GetNumMessagesDeniedByStorageFilter, GetNumMessagesDeniedByStorageFilter method, GetNumMessagesDeniedByStorageFilter method,ID3D12InfoQueue interface, ID3D12InfoQueue interface,GetNumMessagesDeniedByStorageFilter method, ID3D12InfoQueue.GetNumMessagesDeniedByStorageFilter, ID3D12InfoQueue::GetNumMessagesDeniedByStorageFilter, d3d12sdklayers/ID3D12InfoQueue::GetNumMessagesDeniedByStorageFilter, direct3d12.id3d12infoqueue_getnummessagesdeniedbystoragefilter
 ms.topic: method
-f1_keywords: 
- - "d3d12sdklayers/ID3D12InfoQueue.GetNumMessagesDeniedByStorageFilter"
+f1_keywords:
+- d3d12sdklayers/ID3D12InfoQueue.GetNumMessagesDeniedByStorageFilter
 dev_langs:
- - c++
+- c++
 req.header: d3d12sdklayers.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - d3d12sdklayers.h
+- d3d12sdklayers.h
 api_name:
- - ID3D12InfoQueue.GetNumMessagesDeniedByStorageFilter
+- ID3D12InfoQueue.GetNumMessagesDeniedByStorageFilter
 targetos: Windows
 req.typenames: 
 req.redist: 

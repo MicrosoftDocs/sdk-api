@@ -1,19 +1,17 @@
 ---
 UID: NF:vds.IVdsAdvancedDisk.FormatPartition
 title: IVdsAdvancedDisk::FormatPartition (vds.h)
-
 description: Formats an existing OEM, ESP, or unknown partition.
 old-location: base\ivdsadvanceddisk_formatpartition.htm
 tech.root: VDS
 ms.assetid: 9b7015c2-a85d-4a56-8aec-208933640185
-
 ms.date: 12/05/2018
 ms.keywords: FormatPartition, FormatPartition method [VDS], FormatPartition method [VDS],IVdsAdvancedDisk interface, IVdsAdvancedDisk interface [VDS],FormatPartition method, IVdsAdvancedDisk.FormatPartition, IVdsAdvancedDisk::FormatPartition, base.ivdsadvanceddisk_formatpartition, vds/IVdsAdvancedDisk::FormatPartition
 ms.topic: method
 f1_keywords:
 - vds/IVdsAdvancedDisk.FormatPartition
 dev_langs:
- - c++
+- c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

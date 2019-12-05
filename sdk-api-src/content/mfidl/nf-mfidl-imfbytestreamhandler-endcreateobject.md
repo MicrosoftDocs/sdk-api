@@ -1,19 +1,17 @@
 ---
 UID: NF:mfidl.IMFByteStreamHandler.EndCreateObject
 title: IMFByteStreamHandler::EndCreateObject (mfidl.h)
-
 description: Completes an asynchronous request to create a media source.
 old-location: mf\imfbytestreamhandler_endcreateobject.htm
 tech.root: medfound
 ms.assetid: 8fd9797a-8dfb-4e59-8bcb-52dc53b5bb2e
-
 ms.date: 12/05/2018
 ms.keywords: 8fd9797a-8dfb-4e59-8bcb-52dc53b5bb2e, EndCreateObject, EndCreateObject method [Media Foundation], EndCreateObject method [Media Foundation],IMFByteStreamHandler interface, IMFByteStreamHandler interface [Media Foundation],EndCreateObject method, IMFByteStreamHandler.EndCreateObject, IMFByteStreamHandler::EndCreateObject, mf.imfbytestreamhandler_endcreateobject, mfidl/IMFByteStreamHandler::EndCreateObject
 ms.topic: method
-f1_keywords: 
- - "mfidl/IMFByteStreamHandler.EndCreateObject"
+f1_keywords:
+- mfidl/IMFByteStreamHandler.EndCreateObject
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFByteStreamHandler.EndCreateObject
+- IMFByteStreamHandler.EndCreateObject
 targetos: Windows
 req.typenames: 
 req.redist: 

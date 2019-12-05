@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d12.ID3D12GraphicsCommandList.SetComputeRootDescriptorTable
 title: ID3D12GraphicsCommandList::SetComputeRootDescriptorTable (d3d12.h)
-
 description: Sets a descriptor table into the compute root signature.
 old-location: direct3d12\id3d12graphicscommandlist_setcomputerootdescriptortable.htm
 tech.root: direct3d12
 ms.assetid: DC05D64A-39D0-4EF2-A9FE-956B499386F2
-
 ms.date: 12/05/2018
 ms.keywords: ID3D12GraphicsCommandList interface,SetComputeRootDescriptorTable method, ID3D12GraphicsCommandList.SetComputeRootDescriptorTable, ID3D12GraphicsCommandList::SetComputeRootDescriptorTable, SetComputeRootDescriptorTable, SetComputeRootDescriptorTable method, SetComputeRootDescriptorTable method,ID3D12GraphicsCommandList interface, d3d12/ID3D12GraphicsCommandList::SetComputeRootDescriptorTable, direct3d12.id3d12graphicscommandlist_setcomputerootdescriptortable
 ms.topic: method
-f1_keywords: 
- - "d3d12/ID3D12GraphicsCommandList.SetComputeRootDescriptorTable"
+f1_keywords:
+- d3d12/ID3D12GraphicsCommandList.SetComputeRootDescriptorTable
 dev_langs:
- - c++
+- c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: D3d12.lib
 req.dll: D3d12.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - d3d12.dll
+- d3d12.dll
 api_name:
- - ID3D12GraphicsCommandList.SetComputeRootDescriptorTable
+- ID3D12GraphicsCommandList.SetComputeRootDescriptorTable
 targetos: Windows
 req.typenames: 
 req.redist: 

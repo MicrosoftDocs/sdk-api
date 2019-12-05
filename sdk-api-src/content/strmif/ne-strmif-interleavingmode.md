@@ -1,19 +1,17 @@
 ---
 UID: NE:strmif.InterleavingMode
 title: InterleavingMode (strmif.h)
-
 description: Specifies how video frames and audio samples will be written to disk.
 old-location: dshow\interleavingmode.htm
 tech.root: DirectShow
 ms.assetid: 4011b1e4-4bcf-4a2e-9d9a-ccdc8e12cd5a
-
 ms.date: 12/05/2018
 ms.keywords: INTERLEAVE_CAPTURE, INTERLEAVE_FULL, INTERLEAVE_NONE, INTERLEAVE_NONE_BUFFERED, InterleavingMode, InterleavingMode enumeration [DirectShow], InterleavingModeEnumeration, dshow.interleavingmode, strmif/INTERLEAVE_CAPTURE, strmif/INTERLEAVE_FULL, strmif/INTERLEAVE_NONE, strmif/INTERLEAVE_NONE_BUFFERED, strmif/InterleavingMode
 ms.topic: enum
-f1_keywords: 
- - "strmif/InterleavingMode"
+f1_keywords:
+- strmif/InterleavingMode
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - strmif.h
+- strmif.h
 api_name:
- - InterleavingMode
+- InterleavingMode
 targetos: Windows
 req.typenames: InterleavingMode
 req.redist: 

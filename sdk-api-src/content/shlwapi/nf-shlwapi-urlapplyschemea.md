@@ -1,19 +1,17 @@
 ---
 UID: NF:shlwapi.UrlApplySchemeA
 title: UrlApplySchemeA function (shlwapi.h)
-
 description: Determines a scheme for a specified URL string, and returns a string with an appropriate prefix.
 old-location: shell\UrlApplyScheme.htm
 tech.root: shell
 ms.assetid: af60643e-b1a4-4013-b116-dd9fad4e90bf
-
 ms.date: 12/05/2018
 ms.keywords: URL_APPLY_DEFAULT, URL_APPLY_FORCEAPPLY, URL_APPLY_GUESSFILE, URL_APPLY_GUESSSCHEME, UrlApplyScheme, UrlApplyScheme function [Windows Shell], UrlApplySchemeA, UrlApplySchemeW, _win32_UrlApplyScheme, shell.UrlApplyScheme, shlwapi/UrlApplyScheme, shlwapi/UrlApplySchemeA, shlwapi/UrlApplySchemeW
 ms.topic: function
-f1_keywords: 
- - "shlwapi/UrlApplyScheme"
+f1_keywords:
+- shlwapi/UrlApplyScheme
 dev_langs:
- - c++
+- c++
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,20 +30,20 @@ req.lib: Shlwapi.lib
 req.dll: Shlwapi.dll (version 5.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Shlwapi.dll
- - API-MS-Win-Core-url-l1-1-0.dll
- - KernelBase.dll
- - API-MS-Win-DownLevel-shlwapi-l1-1-0.dll
- - API-MS-Win-DownLevel-shlwapi-l1-1-1.dll
+- Shlwapi.dll
+- API-MS-Win-Core-url-l1-1-0.dll
+- KernelBase.dll
+- API-MS-Win-DownLevel-shlwapi-l1-1-0.dll
+- API-MS-Win-DownLevel-shlwapi-l1-1-1.dll
 api_name:
- - UrlApplyScheme
- - UrlApplySchemeA
- - UrlApplySchemeW
+- UrlApplyScheme
+- UrlApplySchemeA
+- UrlApplySchemeW
 targetos: Windows
 req.typenames: 
 req.redist: 

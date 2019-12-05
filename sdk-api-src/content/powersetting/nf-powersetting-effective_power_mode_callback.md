@@ -1,19 +1,17 @@
 ---
 UID: NF:powersetting.EFFECTIVE_POWER_MODE_CALLBACK
 title: EFFECTIVE_POWER_MODE_CALLBACK function (powersetting.h)
-
 description: Function class for effective power mode callback.
 old-location: base\effective_power_mode_callback.htm
 tech.root: power
 ms.assetid: 47DD6801-5120-44D3-9EE4-58CCDB4B933A
-
 ms.date: 12/05/2018
 ms.keywords: EFFECTIVE_POWER_MODE_CALLBACK, EFFECTIVE_POWER_MODE_CALLBACK function, base.effective_power_mode_callback, powersetting/EFFECTIVE_POWER_MODE_CALLBACK
 ms.topic: function
-f1_keywords: 
- - "powersetting/EFFECTIVE_POWER_MODE_CALLBACK"
+f1_keywords:
+- powersetting/EFFECTIVE_POWER_MODE_CALLBACK
 dev_langs:
- - c++
+- c++
 req.header: powersetting.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Powrprof.lib
 req.dll: Powrprof.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Powrprof.dll
+- Powrprof.dll
 api_name:
- - EFFECTIVE_POWER_MODE_CALLBACK
+- EFFECTIVE_POWER_MODE_CALLBACK
 targetos: Windows
 req.typenames: 
 req.redist: 

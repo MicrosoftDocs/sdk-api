@@ -1,19 +1,17 @@
 ---
 UID: NF:vswriter.CVssWriterEx.OnIdentifyEx
 title: CVssWriterEx::OnIdentifyEx (vswriter.h)
-
 description: Returns a pointer to an IVssCreateWriterMetadataEx object.
 old-location: base\cvsswriterex_onidentifyex.htm
 tech.root: VSS
 ms.assetid: 4cb3b8f6-f702-4fba-a3cc-af84897cfd82
-
 ms.date: 12/05/2018
 ms.keywords: CVssWriterEx interface,OnIdentifyEx method, CVssWriterEx.OnIdentifyEx, CVssWriterEx::OnIdentifyEx, OnIdentifyEx, OnIdentifyEx method, OnIdentifyEx method,CVssWriterEx interface, base.cvsswriterex_onidentifyex, vswriter/CVssWriterEx::OnIdentifyEx
 ms.topic: method
-f1_keywords: 
- - "vswriter/CVssWriterEx.OnIdentifyEx"
+f1_keywords:
+- vswriter/CVssWriterEx.OnIdentifyEx
 dev_langs:
- - c++
+- c++
 req.header: vswriter.h
 req.include-header: Vss.h, VsWriter.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: VssApi.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - VssApi.lib
- - VssApi.dll
+- VssApi.lib
+- VssApi.dll
 api_name:
- - CVssWriterEx.OnIdentifyEx
+- CVssWriterEx.OnIdentifyEx
 targetos: Windows
 req.typenames: 
 req.redist: 

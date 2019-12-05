@@ -1,19 +1,17 @@
 ---
 UID: NF:vds.IVdsVolumeMF.Mount
 title: IVdsVolumeMF::Mount (vds.h)
-
 description: Mounts a volume.
 old-location: base\ivdsvolumemf_mount.htm
 tech.root: VDS
 ms.assetid: 1de3bbd7-cd81-42f9-9e25-48a0a07e9ccc
-
 ms.date: 12/05/2018
 ms.keywords: IVdsVolumeMF interface [VDS],Mount method, IVdsVolumeMF.Mount, IVdsVolumeMF::Mount, Mount, Mount method [VDS], Mount method [VDS],IVdsVolumeMF interface, base.ivdsvolumemf_mount, vds/IVdsVolumeMF::Mount
 ms.topic: method
-f1_keywords: 
- - "vds/IVdsVolumeMF.Mount"
+f1_keywords:
+- vds/IVdsVolumeMF.Mount
 dev_langs:
- - c++
+- c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Uuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Uuid.lib
- - Uuid.dll
+- Uuid.lib
+- Uuid.dll
 api_name:
- - IVdsVolumeMF.Mount
+- IVdsVolumeMF.Mount
 targetos: Windows
 req.typenames: 
 req.redist: 

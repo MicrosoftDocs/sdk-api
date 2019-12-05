@@ -1,19 +1,17 @@
 ---
 UID: NN:mileffects.IMILBitmapEffectConnectionsInfo
 title: IMILBitmapEffectConnectionsInfo (mileffects.h)
-
 description: Exposes methods that retrieves information about what input and output pins are exposed by the bitmap effect.
 old-location: wibe\_wibe_imilbitmapeffectconnectionsinfo.htm
 tech.root: wibe
 ms.assetid: VS|wibe|~\wibelh\reference\ifaces\imilbitmapeffectconnectionsinfo\imilbitmapeffectconnectionsinfo.htm
-
 ms.date: 12/05/2018
 ms.keywords: IMILBitmapEffectConnectionsInfo, IMILBitmapEffectConnectionsInfo interface [WPF Bitmap Effects], IMILBitmapEffectConnectionsInfo interface [WPF Bitmap Effects],described, _wibe_imilbitmapeffectconnectionsinfo, mileffects/IMILBitmapEffectConnectionsInfo, wibe._wibe_imilbitmapeffectconnectionsinfo
 ms.topic: interface
-f1_keywords: 
- - "mileffects/IMILBitmapEffectConnectionsInfo"
+f1_keywords:
+- mileffects/IMILBitmapEffectConnectionsInfo
 dev_langs:
- - c++
+- c++
 req.header: mileffects.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mileffects.h
+- Mileffects.h
 api_name:
- - IMILBitmapEffectConnectionsInfo
+- IMILBitmapEffectConnectionsInfo
 targetos: Windows
 req.typenames: 
 req.redist: Microsoft .Net 3.0

@@ -1,19 +1,17 @@
 ---
 UID: NF:termmgr.ITPluggableTerminalSuperclassRegistration.GetTerminalSuperclassInfo
 title: ITPluggableTerminalSuperclassRegistration::GetTerminalSuperclassInfo (termmgr.h)
-
 description: The GetTerminalSuperclassInfo method gets class information from the registry for the current terminal superclass.
 old-location: tapi3\itpluggableterminalsuperclassregistration_getterminalsuperclassinfo.htm
 tech.root: Tapi
 ms.assetid: 2e7ac968-c8b7-4af9-95b1-522e1b37c23a
-
 ms.date: 12/05/2018
 ms.keywords: GetTerminalSuperclassInfo, GetTerminalSuperclassInfo method [TAPI 2.2], GetTerminalSuperclassInfo method [TAPI 2.2],ITPluggableTerminalSuperclassRegistration interface, ITPluggableTerminalSuperclassRegistration interface [TAPI 2.2],GetTerminalSuperclassInfo method, ITPluggableTerminalSuperclassRegistration.GetTerminalSuperclassInfo, ITPluggableTerminalSuperclassRegistration::GetTerminalSuperclassInfo, _tapi3_itpluggableterminalsuperclassregistration_getterminalsuperclassinfo, tapi3.itpluggableterminalsuperclassregistration_getterminalsuperclassinfo, termmgr/ITPluggableTerminalSuperclassRegistration::GetTerminalSuperclassInfo
 ms.topic: method
-f1_keywords: 
- - "termmgr/ITPluggableTerminalSuperclassRegistration.GetTerminalSuperclassInfo"
+f1_keywords:
+- termmgr/ITPluggableTerminalSuperclassRegistration.GetTerminalSuperclassInfo
 dev_langs:
- - c++
+- c++
 req.header: termmgr.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Tapi3.dll
+- Tapi3.dll
 api_name:
- - ITPluggableTerminalSuperclassRegistration.GetTerminalSuperclassInfo
+- ITPluggableTerminalSuperclassRegistration.GetTerminalSuperclassInfo
 targetos: Windows
 req.typenames: 
 req.redist: 

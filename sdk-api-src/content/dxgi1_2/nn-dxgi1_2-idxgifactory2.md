@@ -1,19 +1,17 @@
 ---
 UID: NN:dxgi1_2.IDXGIFactory2
 title: IDXGIFactory2 (dxgi1_2.h)
-
 description: The IDXGIFactory2 interface includes methods to create a newer version swap chain with more features than IDXGISwapChain and to monitor stereoscopic 3D capabilities.
 old-location: direct3ddxgi\idxgifactory2.htm
 tech.root: direct3ddxgi
 ms.assetid: D4F210E1-E184-410A-947A-22ED47B3E9F3
-
 ms.date: 12/05/2018
 ms.keywords: IDXGIFactory2, IDXGIFactory2 interface [DXGI], IDXGIFactory2 interface [DXGI],described, direct3ddxgi.idxgifactory2, dxgi1_2/IDXGIFactory2
 ms.topic: interface
-f1_keywords: 
- - "dxgi1_2/IDXGIFactory2"
+f1_keywords:
+- dxgi1_2/IDXGIFactory2
 dev_langs:
- - c++
+- c++
 req.header: dxgi1_2.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Dxgi.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dxgi.lib
- - Dxgi.dll
+- Dxgi.lib
+- Dxgi.dll
 api_name:
- - IDXGIFactory2
+- IDXGIFactory2
 targetos: Windows
 req.typenames: 
 req.redist: 

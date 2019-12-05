@@ -1,19 +1,17 @@
 ---
 UID: NS:mpeg2structs.__MIDL___MIDL_itf_mpeg2structs_0000_0000_0019
 title: MPEG2_FILTER (mpeg2structs.h)
-
 description: The MPEG2_FILTER structure specifies criteria for matching MPEG-2 section headers.
 old-location: mstv\mpeg2_filter.htm
 tech.root: mstv
 ms.assetid: a7e66de7-d67b-4814-9849-076c3dd5afb1
-
 ms.date: 12/05/2018
-ms.keywords: "*PMPEG2_FILTER, MPEG2_FILTER, MPEG2_FILTER structure [Microsoft TV Technologies], PMPEG2_FILTER, PMPEG2_FILTER structure pointer [Microsoft TV Technologies], mpeg2structs/MPEG2_FILTER, mpeg2structs/PMPEG2_FILTER, mstv.mpeg2_filter"
+ms.keywords: '*PMPEG2_FILTER, MPEG2_FILTER, MPEG2_FILTER structure [Microsoft TV Technologies], PMPEG2_FILTER, PMPEG2_FILTER structure pointer [Microsoft TV Technologies], mpeg2structs/MPEG2_FILTER, mpeg2structs/PMPEG2_FILTER, mstv.mpeg2_filter'
 ms.topic: struct
-f1_keywords: 
- - "mpeg2structs/MPEG2_FILTER"
+f1_keywords:
+- mpeg2structs/MPEG2_FILTER
 dev_langs:
- - c++
+- c++
 req.header: mpeg2structs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Mpeg2Structs.h
+- Mpeg2Structs.h
 api_name:
- - MPEG2_FILTER
+- MPEG2_FILTER
 targetos: Windows
 req.typenames: MPEG2_FILTER, *PMPEG2_FILTER
 req.redist: 

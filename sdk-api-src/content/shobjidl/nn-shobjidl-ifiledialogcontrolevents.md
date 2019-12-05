@@ -1,19 +1,17 @@
 ---
 UID: NN:shobjidl.IFileDialogControlEvents
 title: IFileDialogControlEvents (shobjidl.h)
-
 description: Exposes methods that allow an application to be notified of events that are related to controls that the application has added to a common file dialog.
 old-location: shell\IFileDialogControlEvents.htm
 tech.root: shell
 ms.assetid: 745ee176-53bc-4388-beaa-a0856a438ee6
-
 ms.date: 12/05/2018
 ms.keywords: IFileDialogControlEvents, IFileDialogControlEvents interface [Windows Shell], IFileDialogControlEvents interface [Windows Shell],described, shell.IFileDialogControlEvents, shell_IFileDialogControlEvents, shobjidl/IFileDialogControlEvents
 ms.topic: interface
-f1_keywords: 
- - "shobjidl/IFileDialogControlEvents"
+f1_keywords:
+- shobjidl/IFileDialogControlEvents
 dev_langs:
- - c++
+- c++
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shobjidl.h
+- Shobjidl.h
 api_name:
- - IFileDialogControlEvents
+- IFileDialogControlEvents
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NN:certenroll.IX509EnrollmentHelper
 title: IX509EnrollmentHelper (certenroll.h)
-
 description: The IX509EnrollmentHelper interface defines methods that enable a web application to enroll a certificate, store policy server credentials in the credential cache, and register policy servers and enrollment servers.
 old-location: security\ix509enrollmenthelper.htm
 tech.root: seccertenroll
 ms.assetid: 19124591-be1a-401e-9b83-c640d00de34a
-
 ms.date: 12/05/2018
 ms.keywords: IX509EnrollmentHelper, IX509EnrollmentHelper interface [Security], IX509EnrollmentHelper interface [Security],described, certenroll/IX509EnrollmentHelper, security.ix509enrollmenthelper
 ms.topic: interface
-f1_keywords: 
- - "certenroll/IX509EnrollmentHelper"
+f1_keywords:
+- certenroll/IX509EnrollmentHelper
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CertEnroll.dll
+- CertEnroll.dll
 api_name:
- - IX509EnrollmentHelper
+- IX509EnrollmentHelper
 targetos: Windows
 req.typenames: 
 req.redist: 

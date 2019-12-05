@@ -1,19 +1,17 @@
 ---
 UID: NF:mfapi.MFCancelCreateFile
 title: MFCancelCreateFile function (mfapi.h)
-
 description: Cancels an asynchronous request to create a byte stream from a file.
 old-location: mf\mfcancelcreatefile.htm
 tech.root: medfound
 ms.assetid: b3c0cad8-d578-4752-a2ea-0aa5c35a181a
-
 ms.date: 12/05/2018
 ms.keywords: MFCancelCreateFile, MFCancelCreateFile function [Media Foundation], b3c0cad8-d578-4752-a2ea-0aa5c35a181a, mf.mfcancelcreatefile, mfapi/MFCancelCreateFile
 ms.topic: function
-f1_keywords: 
- - "mfapi/MFCancelCreateFile"
+f1_keywords:
+- mfapi/MFCancelCreateFile
 dev_langs:
- - c++
+- c++
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Mfplat.lib
 req.dll: Mfplat.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - mfplat.dll
+- mfplat.dll
 api_name:
- - MFCancelCreateFile
+- MFCancelCreateFile
 targetos: Windows
 req.typenames: 
 req.redist: 

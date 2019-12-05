@@ -1,19 +1,17 @@
 ---
 UID: NF:fsrmreports.IFsrmReportScheduler.VerifyNamespaces
 title: IFsrmReportScheduler::VerifyNamespaces (fsrmreports.h)
-
 description: Verifies that the specified local directory paths that are used as the source for the reports are valid.
 old-location: fsrm\ifsrmreportscheduler_verifynamespaces.htm
 tech.root: fsrm
 ms.assetid: bb5139c8-e01f-48cf-a8a9-d3a3e5b86238
-
 ms.date: 12/05/2018
 ms.keywords: FsrmReportScheduler class [File Server Resource Manager],VerifyNamespaces method, IFsrmReportScheduler interface [File Server Resource Manager],VerifyNamespaces method, IFsrmReportScheduler.VerifyNamespaces, IFsrmReportScheduler::VerifyNamespaces, VerifyNamespaces, VerifyNamespaces method [File Server Resource Manager], VerifyNamespaces method [File Server Resource Manager],FsrmReportScheduler class, VerifyNamespaces method [File Server Resource Manager],IFsrmReportScheduler interface, fs.ifsrmreportscheduler_verifynamespaces, fsrm.ifsrmreportscheduler_verifynamespaces, fsrmreports/IFsrmReportScheduler::VerifyNamespaces
 ms.topic: method
-f1_keywords: 
- - "fsrmreports/IFsrmReportScheduler.VerifyNamespaces"
+f1_keywords:
+- fsrmreports/IFsrmReportScheduler.VerifyNamespaces
 dev_langs:
- - c++
+- c++
 req.header: fsrmreports.h
 req.include-header: FsrmReports.h, FsrmTlb.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: SrmSvc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - SrmSvc.dll
+- SrmSvc.dll
 api_name:
- - IFsrmReportScheduler.VerifyNamespaces
- - FsrmReportScheduler.VerifyNamespaces
+- IFsrmReportScheduler.VerifyNamespaces
+- FsrmReportScheduler.VerifyNamespaces
 targetos: Windows
 req.typenames: 
 req.redist: 

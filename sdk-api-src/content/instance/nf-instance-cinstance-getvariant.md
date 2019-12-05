@@ -1,19 +1,17 @@
 ---
 UID: NF:instance.CInstance.GetVariant
 title: CInstance::GetVariant (instance.h)
-
 description: The GetVariant method retrieves a VARIANT property.
 old-location: wmi\cinstance_getvariant.htm
 tech.root: WmiSdk
 ms.assetid: 84160043-bb63-422b-99be-3f55df4c15be
-
 ms.date: 12/05/2018
-ms.keywords: "?GetVariant@CInstance@@QBE_NPBGAAUtagVARIANT@@@Z, CInstance interface [Windows Management Instrumentation],GetVariant method, CInstance.GetVariant, CInstance::GetVariant, GetVariant, GetVariant method [Windows Management Instrumentation], GetVariant method [Windows Management Instrumentation],CInstance interface, _hmm_cinstance_getvariant, instance/CInstance::GetVariant, wmi.cinstance_getvariant"
+ms.keywords: ?GetVariant@CInstance@@QBE_NPBGAAUtagVARIANT@@@Z, CInstance interface [Windows Management Instrumentation],GetVariant method, CInstance.GetVariant, CInstance::GetVariant, GetVariant, GetVariant method [Windows Management Instrumentation], GetVariant method [Windows Management Instrumentation],CInstance interface, _hmm_cinstance_getvariant, instance/CInstance::GetVariant, wmi.cinstance_getvariant
 ms.topic: method
-f1_keywords: 
- - "instance/CInstance.GetVariant"
+f1_keywords:
+- instance/CInstance.GetVariant
 dev_langs:
- - c++
+- c++
 req.header: instance.h
 req.include-header: FwCommon.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: FrameDyn.lib
 req.dll: FrameDynOS.dll; FrameDyn.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - FrameDynOS.dll
- - FrameDyn.dll
+- FrameDynOS.dll
+- FrameDyn.dll
 api_name:
- - CInstance.GetVariant
- - ?GetVariant@CInstance@@QBE_NPBGAAUtagVARIANT@@@Z
+- CInstance.GetVariant
+- ?GetVariant@CInstance@@QBE_NPBGAAUtagVARIANT@@@Z
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NS:winuser.tagWNDCLASSW
 title: WNDCLASSW (winuser.h)
-
 description: Contains the window class attributes that are registered by the RegisterClass function.
 old-location: winmsg\wndclass.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windowclasses\windowclassreference\windowclassstructures\wndclass.htm
-
 ms.date: 12/05/2018
-ms.keywords: "*LPWNDCLASSW, *NPWNDCLASSW, *PWNDCLASSW, PWNDCLASS, PWNDCLASS structure pointer [Windows and Messages], WNDCLASS, WNDCLASS structure [Windows and Messages], WNDCLASSA, WNDCLASSW, _win32_WNDCLASS_str, _win32_wndclass_str_cpp, winmsg.wndclass, winui._win32_wndclass_str, winuser/PWNDCLASS, winuser/WNDCLASS, winuser/WNDCLASSA, winuser/WNDCLASSW"
+ms.keywords: '*LPWNDCLASSW, *NPWNDCLASSW, *PWNDCLASSW, PWNDCLASS, PWNDCLASS structure pointer [Windows and Messages], WNDCLASS, WNDCLASS structure [Windows and Messages], WNDCLASSA, WNDCLASSW, _win32_WNDCLASS_str, _win32_wndclass_str_cpp, winmsg.wndclass, winui._win32_wndclass_str, winuser/PWNDCLASS, winuser/WNDCLASS, winuser/WNDCLASSA, winuser/WNDCLASSW'
 ms.topic: struct
-f1_keywords: 
- - "winuser/WNDCLASS"
+f1_keywords:
+- winuser/WNDCLASS
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Winuser.h
+- Winuser.h
 api_name:
- - WNDCLASS
- - WNDCLASSA
- - WNDCLASSW
+- WNDCLASS
+- WNDCLASSA
+- WNDCLASSW
 targetos: Windows
 req.typenames: WNDCLASSW, *PWNDCLASSW, *NPWNDCLASSW, *LPWNDCLASSW
 req.redist: 

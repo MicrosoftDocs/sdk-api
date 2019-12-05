@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d9.IDirect3D9.CheckDeviceType
 title: IDirect3D9::CheckDeviceType (d3d9.h)
-
 description: Verifies whether a hardware accelerated device type can be used on this adapter.
 old-location: direct3d9\idirect3d9__checkdevicetype.htm
 tech.root: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3d9__checkdevicetype.htm
-
 ms.date: 12/05/2018
 ms.keywords: 74a3aa81-9498-9ce0-0ae8-0bc9d18d553b, CheckDeviceType, CheckDeviceType method [Direct3D 9], CheckDeviceType method [Direct3D 9],IDirect3D9 interface, IDirect3D9 interface [Direct3D 9],CheckDeviceType method, IDirect3D9.CheckDeviceType, IDirect3D9::CheckDeviceType, d3d9helper/IDirect3D9::CheckDeviceType, direct3d9.idirect3d9__checkdevicetype
 ms.topic: method
-f1_keywords: 
- - "d3d9/IDirect3D9.CheckDeviceType"
+f1_keywords:
+- d3d9/IDirect3D9.CheckDeviceType
 dev_langs:
- - c++
+- c++
 req.header: d3d9.h
 req.include-header: D3D9.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: D3D9.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D9.lib
- - D3D9.dll
+- D3D9.lib
+- D3D9.dll
 api_name:
- - IDirect3D9.CheckDeviceType
+- IDirect3D9.CheckDeviceType
 targetos: Windows
 req.typenames: 
 req.redist: 

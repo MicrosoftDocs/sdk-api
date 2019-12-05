@@ -1,19 +1,17 @@
 ---
 UID: NF:appmodel.AppPolicyGetProcessTerminationMethod
 title: AppPolicyGetProcessTerminationMethod function (appmodel.h)
-
 description: Retrieves the method used to end a process.
 old-location: appxpkg\apppolicygetprocessterminationmethod_function.htm
 tech.root: appxpkg
 ms.assetid: 7278DF60-A656-4FEE-A5D1-8C159A0B076D
-
 ms.date: 12/05/2018
 ms.keywords: AppPolicyGetProcessTerminationMethod, AppPolicyGetProcessTerminationMethod function [App packaging and management], appmodel/AppPolicyGetProcessTerminationMethod, appxpkg.apppolicygetprocessterminationmethod_function
 ms.topic: function
-f1_keywords: 
- - "appmodel/AppPolicyGetProcessTerminationMethod"
+f1_keywords:
+- appmodel/AppPolicyGetProcessTerminationMethod
 dev_langs:
- - c++
+- c++
 req.header: appmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: OneCoreUap.lib
 req.dll: Api-ms-win-appmodel-runtime-l1-1-2.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - api-ms-win-appmodel-runtime-l1-1-2.dll
- - kernel.appcore.dll
- - kernel32.dll
- - kernelbase.dll
+- api-ms-win-appmodel-runtime-l1-1-2.dll
+- kernel.appcore.dll
+- kernel32.dll
+- kernelbase.dll
 api_name:
- - AppPolicyGetProcessTerminationMethod
+- AppPolicyGetProcessTerminationMethod
 targetos: Windows
 req.typenames: 
 req.redist: 

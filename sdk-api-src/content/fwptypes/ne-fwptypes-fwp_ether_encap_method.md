@@ -1,19 +1,17 @@
 ---
 UID: NE:fwptypes.FWP_ETHER_ENCAP_METHOD_
 title: FWP_ETHER_ENCAP_METHOD (fwptypes.h)
-
 description: Specifies the method of encapsulating Ethernet II and SNAP traffic. Reserved.
 old-location: fwp\fwp_ether_encap_method.htm
 tech.root: fwp
 ms.assetid: fd94a02e-ba2d-4f99-a340-11f2e594f319
-
 ms.date: 12/05/2018
 ms.keywords: FWP_ETHER_ENCAP_METHOD, FWP_ETHER_ENCAP_METHOD enumeration [Filtering], FWP_ETHER_ENCAP_METHOD_ETHER_V2, FWP_ETHER_ENCAP_METHOD_SNAP, FWP_ETHER_ENCAP_METHOD_SNAP_W_OUI_ZERO, fwp.fwp_ether_encap_method, fwptypes/FWP_ETHER_ENCAP_METHOD, fwptypes/FWP_ETHER_ENCAP_METHOD_ETHER_V2, fwptypes/FWP_ETHER_ENCAP_METHOD_SNAP, fwptypes/FWP_ETHER_ENCAP_METHOD_SNAP_W_OUI_ZERO
 ms.topic: enum
-f1_keywords: 
- - "fwptypes/FWP_ETHER_ENCAP_METHOD"
+f1_keywords:
+- fwptypes/FWP_ETHER_ENCAP_METHOD
 dev_langs:
- - c++
+- c++
 req.header: fwptypes.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Fwptypes.h
+- Fwptypes.h
 api_name:
- - FWP_ETHER_ENCAP_METHOD
+- FWP_ETHER_ENCAP_METHOD
 targetos: Windows
 req.typenames: FWP_ETHER_ENCAP_METHOD
 req.redist: 

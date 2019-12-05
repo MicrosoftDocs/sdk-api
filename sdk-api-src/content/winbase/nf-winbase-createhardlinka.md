@@ -1,19 +1,17 @@
 ---
 UID: NF:winbase.CreateHardLinkA
 title: CreateHardLinkA function (winbase.h)
-
 description: Establishes a hard link between an existing file and a new file.
 old-location: fs\createhardlink.htm
 tech.root: FileIO
 ms.assetid: 9b0d3f04-775f-44ea-b563-93dee29a278a
-
 ms.date: 12/05/2018
 ms.keywords: CreateHardLink, CreateHardLink function [Files], CreateHardLinkA, CreateHardLinkW, _win32_createhardlink, base.createhardlink, fs.createhardlink, winbase/CreateHardLink, winbase/CreateHardLinkA, winbase/CreateHardLinkW
 ms.topic: function
-f1_keywords: 
- - "winbase/CreateHardLink"
+f1_keywords:
+- winbase/CreateHardLink
 dev_langs:
- - c++
+- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,21 +30,21 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-File-l2-1-0.dll
- - KernelBase.dll
- - API-MS-Win-Core-File-l2-1-1.dll
- - API-MS-Win-Core-File-l2-1-2.dll
- - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+- Kernel32.dll
+- API-MS-Win-Core-File-l2-1-0.dll
+- KernelBase.dll
+- API-MS-Win-Core-File-l2-1-1.dll
+- API-MS-Win-Core-File-l2-1-2.dll
+- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
 api_name:
- - CreateHardLink
- - CreateHardLinkA
- - CreateHardLinkW
+- CreateHardLink
+- CreateHardLinkA
+- CreateHardLinkW
 targetos: Windows
 req.typenames: 
 req.redist: 

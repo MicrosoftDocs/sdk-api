@@ -1,19 +1,17 @@
 ---
 UID: NF:shlwapi.SHRegGetPathW
 title: SHRegGetPathW function (shlwapi.h)
-
 description: Retrieves a file path from the registry, expanding environment variables as needed.
 old-location: shell\SHRegGetPath.htm
 tech.root: shell
 ms.assetid: 2874b868-33f9-4f20-9e0b-136125cf268c
-
 ms.date: 12/05/2018
 ms.keywords: SHRegGetPath, SHRegGetPath function [Windows Shell], SHRegGetPathA, SHRegGetPathW, _win32_SHRegGetPath, shell.SHRegGetPath, shlwapi/SHRegGetPath, shlwapi/SHRegGetPathA, shlwapi/SHRegGetPathW
 ms.topic: function
-f1_keywords: 
- - "shlwapi/SHRegGetPath"
+f1_keywords:
+- shlwapi/SHRegGetPath
 dev_langs:
- - c++
+- c++
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,21 +30,21 @@ req.lib: Shlwapi.lib
 req.dll: Shlwapi.dll (version 5.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Shlwapi.dll
- - API-MS-Win-DownLevel-shlwapi-l2-1-0.dll
- - ShCore.dll
- - API-MS-Win-DownLevel-shlwapi-l2-1-1.dll
- - API-MS-Win-ShCore-Registry-l1-1-0.dll
- - API-MS-Win-ShCore-Registry-l1-1-1.dll
+- Shlwapi.dll
+- API-MS-Win-DownLevel-shlwapi-l2-1-0.dll
+- ShCore.dll
+- API-MS-Win-DownLevel-shlwapi-l2-1-1.dll
+- API-MS-Win-ShCore-Registry-l1-1-0.dll
+- API-MS-Win-ShCore-Registry-l1-1-1.dll
 api_name:
- - SHRegGetPath
- - SHRegGetPathA
- - SHRegGetPathW
+- SHRegGetPath
+- SHRegGetPathA
+- SHRegGetPathW
 targetos: Windows
 req.typenames: 
 req.redist: 

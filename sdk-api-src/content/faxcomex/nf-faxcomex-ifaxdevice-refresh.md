@@ -1,19 +1,17 @@
 ---
 UID: NF:faxcomex.IFaxDevice.Refresh
 title: IFaxDevice::Refresh (faxcomex.h)
-
 description: The IFaxDevice::Refresh method refreshes FaxDevice object information from the fax server. When the IFaxDevice::Refresh method is called, any configuration changes made after the last IFaxDevice::Save method call are lost.
 old-location: fax\_mfax_faxdevice_cpp_mfax_faxdevice_refresh_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_6ka0.htm
-
 ms.date: 12/05/2018
 ms.keywords: IFaxDevice interface [Fax Service],Refresh method, IFaxDevice.Refresh, IFaxDevice::Refresh, Refresh, Refresh method [Fax Service], Refresh method [Fax Service],IFaxDevice interface, _mfax_faxdevice.refresh, fax._mfax_faxdevice_cpp_mfax_faxdevice_refresh_cpp, fax._mfax_faxdevice_refresh, faxcomex/IFaxDevice::Refresh
 ms.topic: method
-f1_keywords: 
- - "faxcomex/IFaxDevice.Refresh"
+f1_keywords:
+- faxcomex/IFaxDevice.Refresh
 dev_langs:
- - c++
+- c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: Fxscomex.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Fxscomex.dll
+- Fxscomex.dll
 api_name:
- - IFaxDevice.Refresh
- - IFaxDevice.Refresh
+- IFaxDevice.Refresh
+- IFaxDevice.Refresh
 targetos: Windows
 req.typenames: 
 req.redist: 

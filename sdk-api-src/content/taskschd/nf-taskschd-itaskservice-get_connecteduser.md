@@ -1,19 +1,17 @@
 ---
 UID: NF:taskschd.ITaskService.get_ConnectedUser
 title: ITaskService::get_ConnectedUser (taskschd.h)
-
 description: Gets the name of the user that is connected to the Task Scheduler service.
 old-location: taskschd\itaskservice_connecteduser.htm
 tech.root: taskschd
 ms.assetid: 2fdff427-a363-4ce2-b1fe-a1ed945cae8b
-
 ms.date: 12/05/2018
 ms.keywords: ConnectedUser property [Task Scheduler], ConnectedUser property [Task Scheduler],ITaskService interface, ITaskService interface [Task Scheduler],ConnectedUser property, ITaskService.ConnectedUser, ITaskService.get_ConnectedUser, ITaskService::ConnectedUser, ITaskService::get_ConnectedUser, get_ConnectedUser, taskschd.itaskservice_connecteduser, taskschd/ITaskService::ConnectedUser, taskschd/ITaskService::get_ConnectedUser
 ms.topic: method
-f1_keywords: 
- - "taskschd/ITaskService.ConnectedUser"
+f1_keywords:
+- taskschd/ITaskService.ConnectedUser
 dev_langs:
- - c++
+- c++
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Taskschd.lib
 req.dll: Taskschd.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - taskschd.dll
+- taskschd.dll
 api_name:
- - ITaskService.ConnectedUser
- - ITaskService.get_ConnectedUser
+- ITaskService.ConnectedUser
+- ITaskService.get_ConnectedUser
 targetos: Windows
 req.typenames: 
 req.redist: 

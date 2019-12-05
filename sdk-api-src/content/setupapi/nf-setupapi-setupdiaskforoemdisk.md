@@ -1,19 +1,17 @@
 ---
 UID: NF:setupapi.SetupDiAskForOEMDisk
 title: SetupDiAskForOEMDisk function (setupapi.h)
-
 description: The SetupDiAskForOEMDisk function displays a dialog that asks the user for the path of an OEM installation disk.
 old-location: devinst\setupdiaskforoemdisk.htm
 tech.root: devinst
 ms.assetid: 5be03143-3de0-43ed-a027-832f1e275527
-
 ms.date: 12/05/2018
 ms.keywords: SetupDiAskForOEMDisk, SetupDiAskForOEMDisk function [Device and Driver Installation], devinst.setupdiaskforoemdisk, di-rtns_4b903984-cb48-48d3-9de8-dc68a79128c2.xml, setupapi/SetupDiAskForOEMDisk
 ms.topic: function
 f1_keywords:
 - setupapi/SetupDiAskForOEMDisk
 dev_langs:
- - c++
+- c++
 req.header: setupapi.h
 req.include-header: Setupapi.h
 req.target-type: Desktop

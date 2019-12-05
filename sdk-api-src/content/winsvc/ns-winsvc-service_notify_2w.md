@@ -1,19 +1,17 @@
 ---
 UID: NS:winsvc._SERVICE_NOTIFY_2W
 title: SERVICE_NOTIFY_2W (winsvc.h)
-
 description: Represents service status notification information.
 old-location: base\service_notify.htm
 tech.root: Services
 ms.assetid: 52ede72e-eb50-48e2-b5c1-125816f6fe57
-
 ms.date: 12/05/2018
 ms.keywords: '*PSERVICE_NOTIFYW, *PSERVICE_NOTIFY_2W, PSERVICE_NOTIFY, PSERVICE_NOTIFY structure pointer, SERVICE_NOTIFY, SERVICE_NOTIFY structure, SERVICE_NOTIFYA, SERVICE_NOTIFYW, SERVICE_NOTIFY_2, SERVICE_NOTIFY_2W, base.service_notify, winsvc/PSERVICE_NOTIFY, winsvc/SERVICE_NOTIFY, winsvc/SERVICE_NOTIFYA, winsvc/SERVICE_NOTIFYW'
 ms.topic: struct
 f1_keywords:
 - winsvc/SERVICE_NOTIFY
 dev_langs:
- - c++
+- c++
 req.header: winsvc.h
 req.include-header: Windows.h
 req.target-type: Windows

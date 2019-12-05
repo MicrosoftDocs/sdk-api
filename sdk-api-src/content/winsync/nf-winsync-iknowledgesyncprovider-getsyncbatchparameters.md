@@ -1,19 +1,17 @@
 ---
 UID: NF:winsync.IKnowledgeSyncProvider.GetSyncBatchParameters
 title: IKnowledgeSyncProvider::GetSyncBatchParameters (winsync.h)
-
 description: Gets the requested number of item changes that will be included in change batches, and the current knowledge for the synchronization scope.
 old-location: winsync\iknowledgesyncprovider_getsyncbatchparameters.htm
 tech.root: winsync
 ms.assetid: 25ebd3f7-8b62-44f3-83cd-c67c5e4f6617
-
 ms.date: 12/05/2018
 ms.keywords: GetSyncBatchParameters, GetSyncBatchParameters method [Windows Sync], GetSyncBatchParameters method [Windows Sync],IKnowledgeSyncProvider interface, IKnowledgeSyncProvider interface [Windows Sync],GetSyncBatchParameters method, IKnowledgeSyncProvider.GetSyncBatchParameters, IKnowledgeSyncProvider::GetSyncBatchParameters, winsync.iknowledgesyncprovider_getsyncbatchparameters, winsync/IKnowledgeSyncProvider::GetSyncBatchParameters
 ms.topic: method
-f1_keywords: 
- - "winsync/IKnowledgeSyncProvider.GetSyncBatchParameters"
+f1_keywords:
+- winsync/IKnowledgeSyncProvider.GetSyncBatchParameters
 dev_langs:
- - c++
+- c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - winsync.h
+- winsync.h
 api_name:
- - IKnowledgeSyncProvider.GetSyncBatchParameters
+- IKnowledgeSyncProvider.GetSyncBatchParameters
 targetos: Windows
 req.typenames: 
 req.redist: 

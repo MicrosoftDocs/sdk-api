@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl.IBandHost.SetBandAvailability
 title: IBandHost::SetBandAvailability (shobjidl.h)
-
 description: Sets the availability of a specified band.
 old-location: shell\IBandHost_SetBandAvailability.htm
 tech.root: shell
 ms.assetid: a3e41e8f-45dd-4160-8a65-ec82b7e9abe7
-
 ms.date: 12/05/2018
 ms.keywords: IBandHost interface [Windows Shell],SetBandAvailability method, IBandHost.SetBandAvailability, IBandHost::SetBandAvailability, SetBandAvailability, SetBandAvailability method [Windows Shell], SetBandAvailability method [Windows Shell],IBandHost interface, _shell_IBandHost_SetBandAvailability, shell.IBandHost_SetBandAvailability, shobjidl/IBandHost::SetBandAvailability
 ms.topic: method
-f1_keywords: 
- - "shobjidl/IBandHost.SetBandAvailability"
+f1_keywords:
+- shobjidl/IBandHost.SetBandAvailability
 dev_langs:
- - c++
+- c++
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shobjidl.h
+- Shobjidl.h
 api_name:
- - IBandHost.SetBandAvailability
+- IBandHost.SetBandAvailability
 targetos: Windows
 req.typenames: 
 req.redist: 

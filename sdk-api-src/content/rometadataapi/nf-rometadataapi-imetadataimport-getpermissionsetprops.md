@@ -1,19 +1,17 @@
 ---
 UID: NF:rometadataapi.IMetaDataImport.GetPermissionSetProps
 title: IMetaDataImport::GetPermissionSetProps (rometadataapi.h)
-
 description: Gets the metadata associated with the System.Security.PermissionSet represented by the specified Permission token.
 old-location: winrt\imetadataimport_getpermissionsetprops.htm
 tech.root: WinRT
 ms.assetid: db10bdb6-3150-4eb9-872a-3f56089812fa
-
 ms.date: 12/05/2018
 ms.keywords: GetPermissionSetProps, GetPermissionSetProps method [Windows Runtime], GetPermissionSetProps method [Windows Runtime],IMetaDataImport interface, IMetaDataImport interface [Windows Runtime],GetPermissionSetProps method, IMetaDataImport.GetPermissionSetProps, IMetaDataImport::GetPermissionSetProps, rometadataapi/IMetaDataImport::GetPermissionSetProps, winrt.imetadataimport_getpermissionsetprops
 ms.topic: method
-f1_keywords: 
- - "rometadataapi/IMetaDataImport.GetPermissionSetProps"
+f1_keywords:
+- rometadataapi/IMetaDataImport.GetPermissionSetProps
 dev_langs:
- - c++
+- c++
 req.header: rometadataapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - rometadataapi.h
+- rometadataapi.h
 api_name:
- - IMetaDataImport.GetPermissionSetProps
+- IMetaDataImport.GetPermissionSetProps
 targetos: Windows
 req.typenames: 
 req.redist: 

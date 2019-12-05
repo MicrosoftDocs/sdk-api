@@ -1,19 +1,17 @@
 ---
 UID: NF:segment.IMSVidFeatures.get_Item
 title: IMSVidFeatures::get_Item (segment.h)
-
 description: The get_Item method retrieves the specified item from the collection.
 old-location: mstv\imsvidfeatures_get_item.htm
 tech.root: mstv
 ms.assetid: f5656ba2-7ba6-44ba-bcab-3678fbd10b07
-
 ms.date: 12/05/2018
 ms.keywords: IMSVidFeatures interface [Microsoft TV Technologies],get_Item method, IMSVidFeatures.get_Item, IMSVidFeatures::get_Item, IMSVidFeaturesget_Item, get_Item, get_Item method [Microsoft TV Technologies], get_Item method [Microsoft TV Technologies],IMSVidFeatures interface, mstv.imsvidfeatures_get_item, segment/IMSVidFeatures::get_Item
 ms.topic: method
-f1_keywords: 
- - "segment/IMSVidFeatures.get_Item"
+f1_keywords:
+- segment/IMSVidFeatures.get_Item
 dev_langs:
- - c++
+- c++
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - segment.h
+- segment.h
 api_name:
- - IMSVidFeatures.get_Item
+- IMSVidFeatures.get_Item
 targetos: Windows
 req.typenames: 
 req.redist: 

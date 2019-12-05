@@ -1,19 +1,17 @@
 ---
 UID: NF:searchapi.IOpLockStatus.GetOplockEventHandle
 title: IOpLockStatus::GetOplockEventHandle (searchapi.h)
-
 description: Gets the event handle of the opportunistic lock (OpLock). The event object is set to the signaled state when the OpLock is broken, enabling the indexer to stop all operations on the underlying IUrlAccessor object.
 old-location: search\_search_IOpLockStatus_GetOplockEventHandle.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\protocolhandlers\ioplockstatus\getoplockeventhandle.htm
-
 ms.date: 12/05/2018
 ms.keywords: GetOplockEventHandle, GetOplockEventHandle method [search], GetOplockEventHandle method [search],IOpLockStatus interface, IOpLockStatus interface [search],GetOplockEventHandle method, IOpLockStatus.GetOplockEventHandle, IOpLockStatus::GetOplockEventHandle, _search_IOpLockStatus_GetOplockEventHandle, search._search_IOpLockStatus_GetOplockEventHandle, searchapi/IOpLockStatus::GetOplockEventHandle
 ms.topic: method
-f1_keywords: 
- - "searchapi/IOpLockStatus.GetOplockEventHandle"
+f1_keywords:
+- searchapi/IOpLockStatus.GetOplockEventHandle
 dev_langs:
- - c++
+- c++
 req.header: searchapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Searchapi.h
+- Searchapi.h
 api_name:
- - IOpLockStatus.GetOplockEventHandle
+- IOpLockStatus.GetOplockEventHandle
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0

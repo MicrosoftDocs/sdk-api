@@ -1,19 +1,17 @@
 ---
 UID: NN:wcmconfig.ISettingsIdentity
 title: ISettingsIdentity (wcmconfig.h)
-
 description: Identifies a namespace to open or use.
 old-location: smi\isettingsidentity.htm
 tech.root: SMI
 ms.assetid: aa9d5604-5b94-47d9-9e68-d708a656a5ea
-
 ms.date: 12/05/2018
 ms.keywords: ISettingsIdentity, ISettingsIdentity interface [SMI], ISettingsIdentity interface [SMI],described, smi.isettingsidentity, wcmconfig/ISettingsIdentity
 ms.topic: interface
-f1_keywords: 
- - "wcmconfig/ISettingsIdentity"
+f1_keywords:
+- wcmconfig/ISettingsIdentity
 dev_langs:
- - c++
+- c++
 req.header: wcmconfig.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: SMIEngine.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - SMIEngine.dll
+- SMIEngine.dll
 api_name:
- - ISettingsIdentity
+- ISettingsIdentity
 targetos: Windows
 req.typenames: 
 req.redist: 

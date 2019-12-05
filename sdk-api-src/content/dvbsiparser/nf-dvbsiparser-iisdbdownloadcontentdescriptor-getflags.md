@@ -1,19 +1,17 @@
 ---
 UID: NF:dvbsiparser.IIsdbDownloadContentDescriptor.GetFlags
 title: IIsdbDownloadContentDescriptor::GetFlags (dvbsiparser.h)
-
 description: Gets flag values from an Integrated Services Digital Broadcasting (ISDB) download content descriptor.
 old-location: mstv\iisdbdownloadcontentdescriptor_getflags.htm
 tech.root: mstv
 ms.assetid: df104d6d-1436-4c7d-b250-b740e1f70c07
-
 ms.date: 12/05/2018
 ms.keywords: GetFlags, GetFlags method [Microsoft TV Technologies], GetFlags method [Microsoft TV Technologies],IIsdbDownloadContentDescriptor interface, IIsdbDownloadContentDescriptor interface [Microsoft TV Technologies],GetFlags method, IIsdbDownloadContentDescriptor.GetFlags, IIsdbDownloadContentDescriptor::GetFlags, dvbsiparser/IIsdbDownloadContentDescriptor::GetFlags, mstv.iisdbdownloadcontentdescriptor_getflags
 ms.topic: method
-f1_keywords: 
- - "dvbsiparser/IIsdbDownloadContentDescriptor.GetFlags"
+f1_keywords:
+- dvbsiparser/IIsdbDownloadContentDescriptor.GetFlags
 dev_langs:
- - c++
+- c++
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dvbsiparser.h
+- dvbsiparser.h
 api_name:
- - IIsdbDownloadContentDescriptor.GetFlags
+- IIsdbDownloadContentDescriptor.GetFlags
 targetos: Windows
 req.typenames: 
 req.redist: 

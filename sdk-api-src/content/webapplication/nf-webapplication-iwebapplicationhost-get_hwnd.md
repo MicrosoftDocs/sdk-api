@@ -1,19 +1,17 @@
 ---
 UID: NF:webapplication.IWebApplicationHost.get_HWND
 title: IWebApplicationHost::get_HWND (webapplication.h)
-
 description: Gets the handle of the current WWAHost window.
 old-location: debug\iwebapplicationhost_hwnd.htm
 tech.root: debug_wwahost
 ms.assetid: 7c013f82-6d1f-494d-9f7a-77c7ff72f0d4
-
 ms.date: 12/05/2018
 ms.keywords: HWND property [Debugging Windows Store apps], HWND property [Debugging Windows Store apps],IWebApplicationHost interface, IWebApplicationHost interface [Debugging Windows Store apps],HWND property, IWebApplicationHost.HWND, IWebApplicationHost.get_HWND, IWebApplicationHost::HWND, IWebApplicationHost::get_HWND, debug.iwebapplicationhost_hwnd, get_HWND, webapplication/IWebApplicationHost::HWND, webapplication/IWebApplicationHost::get_HWND
 ms.topic: method
-f1_keywords: 
- - "webapplication/IWebApplicationHost.HWND"
+f1_keywords:
+- webapplication/IWebApplicationHost.HWND
 dev_langs:
- - c++
+- c++
 req.header: webapplication.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - webapplication.h
+- webapplication.h
 api_name:
- - IWebApplicationHost.HWND
- - IWebApplicationHost.get_HWND
+- IWebApplicationHost.HWND
+- IWebApplicationHost.get_HWND
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:winbio.WinBioGetEnabledSetting
 title: WinBioGetEnabledSetting function (winbio.h)
-
 description: Retrieves a value that specifies whether the Windows Biometric Framework is currently enabled.
 old-location: secbiomet\winbiogetenabledsetting.htm
 tech.root: SecBioMet
 ms.assetid: 5f66ba51-f84e-458b-9561-535871cbb24d
-
 ms.date: 12/05/2018
 ms.keywords: WINBIO_SETTING_SOURCE_DEFAULT, WINBIO_SETTING_SOURCE_INVALID, WINBIO_SETTING_SOURCE_LOCAL, WINBIO_SETTING_SOURCE_POLICY, WinBioGetEnabledSetting, WinBioGetEnabledSetting function [Windows Biometric Framework API], secbiomet.winbiogetenabledsetting, winbio/WinBioGetEnabledSetting
 ms.topic: function
-f1_keywords: 
- - "winbio/WinBioGetEnabledSetting"
+f1_keywords:
+- winbio/WinBioGetEnabledSetting
 dev_langs:
- - c++
+- c++
 req.header: winbio.h
 req.include-header: Winbio.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Winbio.lib
 req.dll: Winbio.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Winbio.dll
- - Ext-MS-Win-BioMetrics-WinBio-l1-2-0.dll
- - winbioext.dll
- - Ext-MS-Win-BioMetrics-WinBio-Core-L1-1-1.dll
+- Winbio.dll
+- Ext-MS-Win-BioMetrics-WinBio-l1-2-0.dll
+- winbioext.dll
+- Ext-MS-Win-BioMetrics-WinBio-Core-L1-1-1.dll
 api_name:
- - WinBioGetEnabledSetting
+- WinBioGetEnabledSetting
 targetos: Windows
 req.typenames: 
 req.redist: 

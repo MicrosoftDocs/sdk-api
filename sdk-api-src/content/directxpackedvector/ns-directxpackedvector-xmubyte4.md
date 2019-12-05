@@ -1,19 +1,17 @@
 ---
 UID: NS:directxpackedvector.XMUBYTE4
 title: XMUBYTE4 (directxpackedvector.h)
-
 description: Describes a 4D vector where each component is a unsigned integer, 8-bits (1 byte) in length.
 old-location: dxmath\xmubyte4.htm
 tech.root: dxmath
 ms.assetid: T:Microsoft.directx_sdk.reference.XMUBYTE4
-
 ms.date: 12/05/2018
 ms.keywords: XMUBYTE4, XMUBYTE4 structure [DirectX Math Support APIs], directxpackedvector/XMUBYTE4, dxmath.xmubyte4
 ms.topic: struct
-f1_keywords: 
- - "directxpackedvector/XMUBYTE4"
+f1_keywords:
+- directxpackedvector/XMUBYTE4
 dev_langs:
- - c++
+- c++
 req.header: directxpackedvector.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - DirectXPackedVector.h
+- DirectXPackedVector.h
 api_name:
- - XMUBYTE4
+- XMUBYTE4
 targetos: Windows
 req.typenames: 
 req.redist: 

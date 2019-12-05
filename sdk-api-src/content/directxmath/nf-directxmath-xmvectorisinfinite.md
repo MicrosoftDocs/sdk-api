@@ -1,19 +1,17 @@
 ---
 UID: NF:directxmath.XMVectorIsInfinite
 title: XMVectorIsInfinite function (directxmath.h)
-
 description: Performs a per-component test for +/- infinity on a vector.
 old-location: dxmath\xmvectorisinfinite.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.comparison.XMVectorIsInfinite(XMVECTOR)
-
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMVectorIsInfinite, XMVectorIsInfinite, XMVectorIsInfinite method [DirectX Math Support APIs], dxmath.xmvectorisinfinite
 ms.topic: function
-f1_keywords: 
- - "directxmath/XMVectorIsInfinite"
+f1_keywords:
+- directxmath/XMVectorIsInfinite
 dev_langs:
- - c++
+- c++
 req.header: directxmath.h
 req.include-header: DirectXMath.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - directxmathvector.inl
+- directxmathvector.inl
 api_name:
- - XMVectorIsInfinite
+- XMVectorIsInfinite
 targetos: Windows
 req.typenames: 
 req.redist: 

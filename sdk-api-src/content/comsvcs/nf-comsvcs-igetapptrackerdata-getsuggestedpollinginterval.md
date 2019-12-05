@@ -1,19 +1,17 @@
 ---
 UID: NF:comsvcs.IGetAppTrackerData.GetSuggestedPollingInterval
 title: IGetAppTrackerData::GetSuggestedPollingInterval (comsvcs.h)
-
 description: Retrieves the minimum interval for polling suggested by the Tracker Server.
 old-location: cos\igetapptrackerdata_getsuggestedpollinginterval.htm
 tech.root: cossdk
 ms.assetid: fcc65fd3-debf-4b5c-aaf2-3e7234510d35
-
 ms.date: 12/05/2018
 ms.keywords: GetSuggestedPollingInterval, GetSuggestedPollingInterval method [COM+], GetSuggestedPollingInterval method [COM+],IGetAppTrackerData interface, IGetAppTrackerData interface [COM+],GetSuggestedPollingInterval method, IGetAppTrackerData.GetSuggestedPollingInterval, IGetAppTrackerData::GetSuggestedPollingInterval, comsvcs/IGetAppTrackerData::GetSuggestedPollingInterval, cos.igetapptrackerdata_getsuggestedpollinginterval
 ms.topic: method
-f1_keywords: 
- - "comsvcs/IGetAppTrackerData.GetSuggestedPollingInterval"
+f1_keywords:
+- comsvcs/IGetAppTrackerData.GetSuggestedPollingInterval
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - IGetAppTrackerData.GetSuggestedPollingInterval
+- IGetAppTrackerData.GetSuggestedPollingInterval
 targetos: Windows
 req.typenames: 
 req.redist: 

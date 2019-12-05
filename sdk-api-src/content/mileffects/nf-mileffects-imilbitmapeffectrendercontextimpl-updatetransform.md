@@ -1,19 +1,17 @@
 ---
 UID: NF:mileffects.IMILBitmapEffectRenderContextImpl.UpdateTransform
 title: IMILBitmapEffectRenderContextImpl::UpdateTransform (mileffects.h)
-
 description: Updates the output transform with the new matrix.
 old-location: wibe\_wibe_imilbitmapeffectrendercontextimpl_updatetransform.htm
 tech.root: wibe
 ms.assetid: VS|wibe|~\wibelh\reference\ifaces\imilbitmapeffectrendercontextimpl\updatetransform.htm
-
 ms.date: 12/05/2018
 ms.keywords: IMILBitmapEffectRenderContextImpl interface [WPF Bitmap Effects],UpdateTransform method, IMILBitmapEffectRenderContextImpl.UpdateTransform, IMILBitmapEffectRenderContextImpl::UpdateTransform, UpdateTransform, UpdateTransform method [WPF Bitmap Effects], UpdateTransform method [WPF Bitmap Effects],IMILBitmapEffectRenderContextImpl interface, _wibe_imilbitmapeffectrendercontextimpl_updatetransform, mileffects/IMILBitmapEffectRenderContextImpl::UpdateTransform, wibe._wibe_imilbitmapeffectrendercontextimpl_updatetransform
 ms.topic: method
-f1_keywords: 
- - "mileffects/IMILBitmapEffectRenderContextImpl.UpdateTransform"
+f1_keywords:
+- mileffects/IMILBitmapEffectRenderContextImpl.UpdateTransform
 dev_langs:
- - c++
+- c++
 req.header: mileffects.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Mileffects.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mileffects.dll
+- Mileffects.dll
 api_name:
- - IMILBitmapEffectRenderContextImpl.UpdateTransform
+- IMILBitmapEffectRenderContextImpl.UpdateTransform
 targetos: Windows
 req.typenames: 
 req.redist: Microsoft .Net 3.0

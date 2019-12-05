@@ -1,19 +1,17 @@
 ---
 UID: NN:shobjidl_core.IOperationsProgressDialog
 title: IOperationsProgressDialog (shobjidl_core.h)
-
 description: Exposes methods to get, set, and query a progress dialog.
 old-location: shell\IOperationsProgressDialog.htm
 tech.root: shell
 ms.assetid: 0d95f407-0e09-441d-b9e2-665995ea1362
-
 ms.date: 12/05/2018
 ms.keywords: IOperationsProgressDialog, IOperationsProgressDialog interface [Windows Shell], IOperationsProgressDialog interface [Windows Shell],described, _shell_IOperationsProgressDialog, shell.IOperationsProgressDialog, shobjidl_core/IOperationsProgressDialog
 ms.topic: interface
-f1_keywords: 
- - "shobjidl_core/IOperationsProgressDialog"
+f1_keywords:
+- shobjidl_core/IOperationsProgressDialog
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - IOperationsProgressDialog
+- IOperationsProgressDialog
 targetos: Windows
 req.typenames: 
 req.redist: 

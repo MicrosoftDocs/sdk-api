@@ -1,19 +1,17 @@
 ---
 UID: NN:wuapi.IUpdateExceptionCollection
 title: IUpdateExceptionCollection (wuapi.h)
-
 description: Represents an ordered read-only list of IUpdateException interfaces.
 old-location: wua\iupdateexceptioncollection.htm
 tech.root: Wua_Sdk
 ms.assetid: 3f1a0290-5915-4ba4-8a59-855ab5a02e3e
-
 ms.date: 12/05/2018
 ms.keywords: IUpdateExceptionCollection, IUpdateExceptionCollection interface [Windows Update Agent], IUpdateExceptionCollection interface [Windows Update Agent],described, wua.iupdateexceptioncollection, wuapi/IUpdateExceptionCollection
 ms.topic: interface
-f1_keywords: 
- - "wuapi/IUpdateExceptionCollection"
+f1_keywords:
+- wuapi/IUpdateExceptionCollection
 dev_langs:
- - c++
+- c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Wuguid.lib
 req.dll: Wuapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wuapi.dll
+- Wuapi.dll
 api_name:
- - IUpdateExceptionCollection
+- IUpdateExceptionCollection
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:oleidl.IOleCacheControl.OnRun
 title: IOleCacheControl::OnRun (oleidl.h)
-
 description: Notifies the cache that the data source object has entered the running state so that the cache object can establish advise sinks as needed.
 old-location: com\iolecachecontrol_onrun.htm
 tech.root: com
 ms.assetid: 8d155c3f-115c-41fe-985f-ed60a565341f
-
 ms.date: 12/05/2018
 ms.keywords: IOleCacheControl interface [COM],OnRun method, IOleCacheControl.OnRun, IOleCacheControl::OnRun, OnRun, OnRun method [COM], OnRun method [COM],IOleCacheControl interface, _ole_iolecachecontrol_onrun, com.iolecachecontrol_onrun, oleidl/IOleCacheControl::OnRun
 ms.topic: method
-f1_keywords: 
- - "oleidl/IOleCacheControl.OnRun"
+f1_keywords:
+- oleidl/IOleCacheControl.OnRun
 dev_langs:
- - c++
+- c++
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - OleIdl.h
+- OleIdl.h
 api_name:
- - IOleCacheControl.OnRun
+- IOleCacheControl.OnRun
 targetos: Windows
 req.typenames: 
 req.redist: 

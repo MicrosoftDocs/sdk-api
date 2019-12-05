@@ -1,19 +1,17 @@
 ---
 UID: NF:tom.ITextRange.EndOf
 title: ITextRange::EndOf (tom.h)
-
 description: Moves this range's ends to the end of the last overlapping Unit in the range.
 old-location: controls\ITextRange_EndOf.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\endof.htm
-
 ms.date: 12/05/2018
 ms.keywords: EndOf, EndOf method [Windows Controls], EndOf method [Windows Controls],ITextRange interface, ITextRange interface [Windows Controls],EndOf method, ITextRange.EndOf, ITextRange::EndOf, _win32_ITextRange_EndOf, _win32_ITextRange_EndOf_cpp, controls.ITextRange_EndOf, controls._win32_ITextRange_EndOf, tom/ITextRange::EndOf
 ms.topic: method
-f1_keywords: 
- - "tom/ITextRange.EndOf"
+f1_keywords:
+- tom/ITextRange.EndOf
 dev_langs:
- - c++
+- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msftedit.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msftedit.dll
+- Msftedit.dll
 api_name:
- - ITextRange.EndOf
+- ITextRange.EndOf
 targetos: Windows
 req.typenames: 
 req.redist: 

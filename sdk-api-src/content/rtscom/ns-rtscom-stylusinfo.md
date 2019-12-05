@@ -1,19 +1,17 @@
 ---
 UID: NS:rtscom.StylusInfo
 title: StylusInfo (rtscom.h)
-
 description: Provides information about the stylus.
 old-location: tablet\stylusinfo.htm
 tech.root: tablet
 ms.assetid: d2642082-e18c-4f91-b08c-e25aa388a2a3
-
 ms.date: 12/05/2018
 ms.keywords: StylusInfo, StylusInfo structure [Tablet PC], d2642082-e18c-4f91-b08c-e25aa388a2a3, rtscom/StylusInfo, tablet.stylusinfo
 ms.topic: struct
-f1_keywords: 
- - "rtscom/StylusInfo"
+f1_keywords:
+- rtscom/StylusInfo
 dev_langs:
- - c++
+- c++
 req.header: rtscom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - RTSCom.h
+- RTSCom.h
 api_name:
- - StylusInfo
+- StylusInfo
 targetos: Windows
 req.typenames: StylusInfo
 req.redist: 

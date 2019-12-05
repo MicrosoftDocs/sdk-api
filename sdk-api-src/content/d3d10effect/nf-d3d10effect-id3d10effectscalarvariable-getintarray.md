@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d10effect.ID3D10EffectScalarVariable.GetIntArray
 title: ID3D10EffectScalarVariable::GetIntArray (d3d10effect.h)
-
 description: Get an array of integer variables.
 old-location: direct3d10\id3d10effectscalarvariable_getintarray.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10effectscalarvariable_getintarray.htm
-
 ms.date: 12/05/2018
 ms.keywords: 3b56ed87-da9a-3aec-33c5-66ed69d44a04, GetIntArray, GetIntArray method [Direct3D 10], GetIntArray method [Direct3D 10],ID3D10EffectScalarVariable interface, ID3D10EffectScalarVariable interface [Direct3D 10],GetIntArray method, ID3D10EffectScalarVariable.GetIntArray, ID3D10EffectScalarVariable::GetIntArray, d3d10effect/ID3D10EffectScalarVariable::GetIntArray, direct3d10.id3d10effectscalarvariable_getintarray
 ms.topic: method
-f1_keywords: 
- - "d3d10effect/ID3D10EffectScalarVariable.GetIntArray"
+f1_keywords:
+- d3d10effect/ID3D10EffectScalarVariable.GetIntArray
 dev_langs:
- - c++
+- c++
 req.header: d3d10effect.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D10Effect.h
+- D3D10Effect.h
 api_name:
- - ID3D10EffectScalarVariable.GetIntArray
+- ID3D10EffectScalarVariable.GetIntArray
 targetos: Windows
 req.typenames: 
 req.redist: 

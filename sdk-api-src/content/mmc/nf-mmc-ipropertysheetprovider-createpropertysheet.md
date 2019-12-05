@@ -1,19 +1,17 @@
 ---
 UID: NF:mmc.IPropertySheetProvider.CreatePropertySheet
 title: IPropertySheetProvider::CreatePropertySheet (mmc.h)
-
 description: Creates a property sheet frame.
 old-location: mmc\ipropertysheetprovider_createpropertysheet.htm
 tech.root: mmc
 ms.assetid: 8d53083a-d578-4a88-bd3f-d43c88d697e5
-
 ms.date: 12/05/2018
 ms.keywords: CreatePropertySheet, CreatePropertySheet method [MMC], CreatePropertySheet method [MMC],IPropertySheetProvider interface, IPropertySheetProvider interface [MMC],CreatePropertySheet method, IPropertySheetProvider.CreatePropertySheet, IPropertySheetProvider::CreatePropertySheet, MMC_PSO_HASHELP, MMC_PSO_NEWWIZARDTYPE, MMC_PSO_NOAPPLYNOW, MMC_PSO_NO_PROPTITLE, _slate_ipropertysheetprovider_createpropertysheet, mmc.ipropertysheetprovider_createpropertysheet, mmc/IPropertySheetProvider::CreatePropertySheet
 ms.topic: method
-f1_keywords: 
- - "mmc/IPropertySheetProvider.CreatePropertySheet"
+f1_keywords:
+- mmc/IPropertySheetProvider.CreatePropertySheet
 dev_langs:
- - c++
+- c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Mmcndmgr.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mmcndmgr.dll
+- Mmcndmgr.dll
 api_name:
- - IPropertySheetProvider.CreatePropertySheet
+- IPropertySheetProvider.CreatePropertySheet
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:evr9.IMFVideoProcessor.SetBackgroundColor
 title: IMFVideoProcessor::SetBackgroundColor (evr9.h)
-
 description: Sets the background color for the composition rectangle. The background color is used for letterboxing the video image.
 old-location: mf\imfvideoprocessor_setbackgroundcolor.htm
 tech.root: medfound
 ms.assetid: fb654dba-1f03-48a7-ac8e-fa0c82f29849
-
 ms.date: 12/05/2018
 ms.keywords: IMFVideoProcessor interface [Media Foundation],SetBackgroundColor method, IMFVideoProcessor.SetBackgroundColor, IMFVideoProcessor::SetBackgroundColor, SetBackgroundColor, SetBackgroundColor method [Media Foundation], SetBackgroundColor method [Media Foundation],IMFVideoProcessor interface, evr9/IMFVideoProcessor::SetBackgroundColor, fb654dba-1f03-48a7-ac8e-fa0c82f29849, mf.imfvideoprocessor_setbackgroundcolor
 ms.topic: method
-f1_keywords: 
- - "evr9/IMFVideoProcessor.SetBackgroundColor"
+f1_keywords:
+- evr9/IMFVideoProcessor.SetBackgroundColor
 dev_langs:
- - c++
+- c++
 req.header: evr9.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - strmiids.lib
- - strmiids.dll
+- strmiids.lib
+- strmiids.dll
 api_name:
- - IMFVideoProcessor.SetBackgroundColor
+- IMFVideoProcessor.SetBackgroundColor
 targetos: Windows
 req.typenames: 
 req.redist: 

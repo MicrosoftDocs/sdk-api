@@ -1,19 +1,17 @@
 ---
 UID: NF:directxpackedvector.XMFLOAT3SE.XMFLOAT3SE(float,float,float)
 title: XMFLOAT3SE::XMFLOAT3SE(float,float,float) (directxpackedvector.h)
-
 description: Initializes a new instance of XMFLOAT3SE from three float arguments.
 old-location: dxmath\xmfloat3se_ctor_2.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.reference.XMFLOAT3SE.#ctor(float,float,float)
-
 ms.date: 12/05/2018
 ms.keywords: XMFLOAT3SE, XMFLOAT3SE constructor [DirectX Math Support APIs], XMFLOAT3SE constructor [DirectX Math Support APIs],XMFLOAT3SE structure, XMFLOAT3SE structure [DirectX Math Support APIs],XMFLOAT3SE constructor, XMFLOAT3SE.XMFLOAT3SE, XMFLOAT3SE.XMFLOAT3SE(float,float,float), XMFLOAT3SE::XMFLOAT3SE, XMFLOAT3SE::XMFLOAT3SE(float,float,float), dxmath.xmfloat3se_ctor_2
 ms.topic: method
-f1_keywords: 
- - "directxpackedvector/XMFLOAT3SE.XMFLOAT3SE"
+f1_keywords:
+- directxpackedvector/XMFLOAT3SE.XMFLOAT3SE
 dev_langs:
- - c++
+- c++
 req.header: directxpackedvector.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - DirectXPackedVector.h
+- DirectXPackedVector.h
 api_name:
- - XMFLOAT3SE.XMFLOAT3SE
+- XMFLOAT3SE.XMFLOAT3SE
 targetos: Windows
 req.typenames: 
 req.redist: 

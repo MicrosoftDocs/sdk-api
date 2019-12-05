@@ -1,19 +1,17 @@
 ---
 UID: NF:certif.ICertServerExit.SetContext
 title: ICertServerExit::SetContext (certif.h)
-
 description: Causes the current instantiation of the interface to operate on the request referenced by Context.
 old-location: security\icertserverexit_setcontext.htm
 tech.root: SecCrypto
 ms.assetid: 8d317114-17bd-4b22-8e37-99db72740538
-
 ms.date: 12/05/2018
 ms.keywords: CCertServerExit object [Security],SetContext method, ICertServerExit interface [Security],SetContext method, ICertServerExit.SetContext, ICertServerExit::SetContext, SetContext, SetContext method [Security], SetContext method [Security],CCertServerExit object, SetContext method [Security],ICertServerExit interface, _certsrv_icertserverexit_setcontext, certif/ICertServerExit::SetContext, security.icertserverexit_setcontext
 ms.topic: method
-f1_keywords: 
- - "certif/ICertServerExit.SetContext"
+f1_keywords:
+- certif/ICertServerExit.SetContext
 dev_langs:
- - c++
+- c++
 req.header: certif.h
 req.include-header: Certsrv.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Certidl.lib
 req.dll: Certcli.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Certcli.dll
+- Certcli.dll
 api_name:
- - ICertServerExit.SetContext
- - CCertServerExit.SetContext
+- ICertServerExit.SetContext
+- CCertServerExit.SetContext
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NN:wmp.IWMPPlayerServices2
 title: IWMPPlayerServices2 (wmp.h)
-
 description: The IWMPPlayerServices2 interface provides a method used by the host of a remoted Windows Media Player control to manipulate the full mode of the Player.
 old-location: wmp\iwmpplayerservices2.htm
 tech.root: WMP
 ms.assetid: abbce425-9185-4235-8d8e-28be591be8e5
-
 ms.date: 12/05/2018
 ms.keywords: IWMPPlayerServices2, IWMPPlayerServices2 interface [Windows Media Player], IWMPPlayerServices2 interface [Windows Media Player],described, IWMPPlayerServices2Interface, wmp.iwmpplayerservices2, wmp/IWMPPlayerServices2
 ms.topic: interface
-f1_keywords: 
- - "wmp/IWMPPlayerServices2"
+f1_keywords:
+- wmp/IWMPPlayerServices2
 dev_langs:
- - c++
+- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmp.h
+- wmp.h
 api_name:
- - IWMPPlayerServices2
+- IWMPPlayerServices2
 targetos: Windows
 req.typenames: 
 req.redist: 

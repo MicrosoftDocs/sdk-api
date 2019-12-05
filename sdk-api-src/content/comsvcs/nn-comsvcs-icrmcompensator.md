@@ -1,19 +1,17 @@
 ---
 UID: NN:comsvcs.ICrmCompensator
 title: ICrmCompensator (comsvcs.h)
-
 description: Delivers unstructured log records to the CRM Compensator when using Microsoft Visual C++.
 old-location: cos\icrmcompensator.htm
 tech.root: cossdk
 ms.assetid: 9e5a8f2c-4115-42bd-a541-d0ce75c45b72
-
 ms.date: 12/05/2018
 ms.keywords: ICrmCompensator, ICrmCompensator interface [COM+], ICrmCompensator interface [COM+],described, _dtc_ICrmCompensator_Interface, comsvcs/ICrmCompensator, cos.icrmcompensator
 ms.topic: interface
-f1_keywords: 
- - "comsvcs/ICrmCompensator"
+f1_keywords:
+- comsvcs/ICrmCompensator
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - ICrmCompensator
+- ICrmCompensator
 targetos: Windows
 req.typenames: 
 req.redist: 

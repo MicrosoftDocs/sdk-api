@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IAMTunerNotification.OnEvent
 title: IAMTunerNotification::OnEvent (strmif.h)
-
 description: Note  The IAMTunerNotification interface is deprecated. The OnEvent method handles events from the TV tuner card.
 old-location: dshow\iamtunernotification_onevent.htm
 tech.root: DirectShow
 ms.assetid: ac28a445-dfa0-4e88-861d-3364106c2b20
-
 ms.date: 12/05/2018
 ms.keywords: IAMTunerNotification interface [DirectShow],OnEvent method, IAMTunerNotification.OnEvent, IAMTunerNotification::OnEvent, IAMTunerNotificationOnEvent, OnEvent, OnEvent method [DirectShow], OnEvent method [DirectShow],IAMTunerNotification interface, dshow.iamtunernotification_onevent, strmif/IAMTunerNotification::OnEvent
 ms.topic: method
-f1_keywords: 
- - "strmif/IAMTunerNotification.OnEvent"
+f1_keywords:
+- strmif/IAMTunerNotification.OnEvent
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmif.h
+- Strmif.h
 api_name:
- - IAMTunerNotification.OnEvent
+- IAMTunerNotification.OnEvent
 targetos: Windows
 req.typenames: 
 req.redist: 

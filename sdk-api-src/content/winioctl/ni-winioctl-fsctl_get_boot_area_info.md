@@ -1,19 +1,17 @@
 ---
 UID: NI:winioctl.FSCTL_GET_BOOT_AREA_INFO
 title: FSCTL_GET_BOOT_AREA_INFO
-
 description: Retrieves the locations of boot sectors for a volume.
 old-location: fs\fsctl_get_boot_area_info.htm
 tech.root: FileIO
 ms.assetid: 5739354b-5342-4be9-ac50-bb983d51587c
-
 ms.date: 12/05/2018
 ms.keywords: FSCTL_GET_BOOT_AREA_INFO, FSCTL_GET_BOOT_AREA_INFO control, FSCTL_GET_BOOT_AREA_INFO control code [Files], fs.fsctl_get_boot_area_info, winioctl/FSCTL_GET_BOOT_AREA_INFO
 ms.topic: ioctl
-f1_keywords: 
- - "winioctl/FSCTL_GET_BOOT_AREA_INFO"
+f1_keywords:
+- winioctl/FSCTL_GET_BOOT_AREA_INFO
 dev_langs:
- - c++
+- c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WinIoCtl.h
+- WinIoCtl.h
 api_name:
- - FSCTL_GET_BOOT_AREA_INFO
+- FSCTL_GET_BOOT_AREA_INFO
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NN:ctffunc.ITfFnBalloon
 title: ITfFnBalloon (ctffunc.h)
-
 description: The ITfFnBalloon interface is implemented by a text service and is used by an application or other text service to update the balloon item that the text service adds to the language bar.
 old-location: tsf\itffnballoon.htm
 tech.root: TSF
 ms.assetid: 9b79526b-b7e1-41a2-b32e-88124347d77d
-
 ms.date: 12/05/2018
 ms.keywords: ITfFnBalloon, ITfFnBalloon interface [Text Services Framework], ITfFnBalloon interface [Text Services Framework],described, _tsf_itffnballoon_ref, ctffunc/ITfFnBalloon, tsf.itffnballoon
 ms.topic: interface
-f1_keywords: 
- - "ctffunc/ITfFnBalloon"
+f1_keywords:
+- ctffunc/ITfFnBalloon
 dev_langs:
- - c++
+- c++
 req.header: ctffunc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msctf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msctf.dll
+- Msctf.dll
 api_name:
- - ITfFnBalloon
+- ITfFnBalloon
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

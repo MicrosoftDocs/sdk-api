@@ -1,19 +1,17 @@
 ---
 UID: NS:powrprof._DEVICE_NOTIFY_SUBSCRIBE_PARAMETERS
 title: DEVICE_NOTIFY_SUBSCRIBE_PARAMETERS (powrprof.h)
-
 description: Contains parameters used when registering for a power notification.
 old-location: base\device_notify_subscribe_parameters.htm
 tech.root: power
 ms.assetid: 749F7C6F-1A42-43DE-921E-C3654034570D
-
 ms.date: 12/05/2018
-ms.keywords: "*PDEVICE_NOTIFY_SUBSCRIBE_PARAMETERS, DEVICE_NOTIFY_SUBSCRIBE_PARAMETERS, DEVICE_NOTIFY_SUBSCRIBE_PARAMETERS structure, PDEVICE_NOTIFY_SUBSCRIBE_PARAMETERS, PDEVICE_NOTIFY_SUBSCRIBE_PARAMETERS structure pointer, base.device_notify_subscribe_parameters, powrprof/DEVICE_NOTIFY_SUBSCRIBE_PARAMETERS, powrprof/PDEVICE_NOTIFY_SUBSCRIBE_PARAMETERS"
+ms.keywords: '*PDEVICE_NOTIFY_SUBSCRIBE_PARAMETERS, DEVICE_NOTIFY_SUBSCRIBE_PARAMETERS, DEVICE_NOTIFY_SUBSCRIBE_PARAMETERS structure, PDEVICE_NOTIFY_SUBSCRIBE_PARAMETERS, PDEVICE_NOTIFY_SUBSCRIBE_PARAMETERS structure pointer, base.device_notify_subscribe_parameters, powrprof/DEVICE_NOTIFY_SUBSCRIBE_PARAMETERS, powrprof/PDEVICE_NOTIFY_SUBSCRIBE_PARAMETERS'
 ms.topic: struct
-f1_keywords: 
- - "powrprof/DEVICE_NOTIFY_SUBSCRIBE_PARAMETERS"
+f1_keywords:
+- powrprof/DEVICE_NOTIFY_SUBSCRIBE_PARAMETERS
 dev_langs:
- - c++
+- c++
 req.header: powrprof.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Powrprof.h
+- Powrprof.h
 api_name:
- - DEVICE_NOTIFY_SUBSCRIBE_PARAMETERS
+- DEVICE_NOTIFY_SUBSCRIBE_PARAMETERS
 targetos: Windows
 req.typenames: DEVICE_NOTIFY_SUBSCRIBE_PARAMETERS, *PDEVICE_NOTIFY_SUBSCRIBE_PARAMETERS
 req.redist: 

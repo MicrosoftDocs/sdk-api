@@ -1,19 +1,17 @@
 ---
 UID: NF:mmdeviceapi.IMMNotificationClient.OnDefaultDeviceChanged
 title: IMMNotificationClient::OnDefaultDeviceChanged (mmdeviceapi.h)
-
 description: The OnDefaultDeviceChanged method notifies the client that the default audio endpoint device for a particular device role has changed.
 old-location: coreaudio\immnotificationclient_ondefaultdevicechanged.htm
 tech.root: CoreAudio
 ms.assetid: 3d484e5d-bdc6-41f1-bd94-ab0c9e109222
-
 ms.date: 12/05/2018
 ms.keywords: IMMNotificationClient interface [Core Audio],OnDefaultDeviceChanged method, IMMNotificationClient.OnDefaultDeviceChanged, IMMNotificationClient::OnDefaultDeviceChanged, IMMNotificationClientOnDefaultDeviceChanged, OnDefaultDeviceChanged, OnDefaultDeviceChanged method [Core Audio], OnDefaultDeviceChanged method [Core Audio],IMMNotificationClient interface, coreaudio.immnotificationclient_ondefaultdevicechanged, mmdeviceapi/IMMNotificationClient::OnDefaultDeviceChanged
 ms.topic: method
-f1_keywords: 
- - "mmdeviceapi/IMMNotificationClient.OnDefaultDeviceChanged"
+f1_keywords:
+- mmdeviceapi/IMMNotificationClient.OnDefaultDeviceChanged
 dev_langs:
- - c++
+- c++
 req.header: mmdeviceapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mmdeviceapi.h
+- Mmdeviceapi.h
 api_name:
- - IMMNotificationClient.OnDefaultDeviceChanged
+- IMMNotificationClient.OnDefaultDeviceChanged
 targetos: Windows
 req.typenames: 
 req.redist: 

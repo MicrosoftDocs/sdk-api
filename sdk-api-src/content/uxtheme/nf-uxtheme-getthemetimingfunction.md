@@ -1,19 +1,17 @@
 ---
 UID: NF:uxtheme.GetThemeTimingFunction
 title: GetThemeTimingFunction function (uxtheme.h)
-
 description: Gets a predefined timing function based on a timing function identifier.
 old-location: controls\getthemetimingfunction.htm
 tech.root: Controls
 ms.assetid: 640E1933-E23D-4852-95A2-4FD630162D2C
-
 ms.date: 12/05/2018
 ms.keywords: GetThemeTimingFunction, GetThemeTimingFunction function [Windows Controls], controls.getthemetimingfunction, uxtheme/GetThemeTimingFunction
 ms.topic: function
-f1_keywords: 
- - "uxtheme/GetThemeTimingFunction"
+f1_keywords:
+- uxtheme/GetThemeTimingFunction
 dev_langs:
- - c++
+- c++
 req.header: uxtheme.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: UxTheme.lib
 req.dll: UxTheme.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - UxTheme.dll
- - Ext-MS-Win-UXTheme-Themes-l1-1-0.dll
- - xamlpalwp.dll
- - ext-ms-win-uxtheme-themes-l1-1-1.dll
+- UxTheme.dll
+- Ext-MS-Win-UXTheme-Themes-l1-1-0.dll
+- xamlpalwp.dll
+- ext-ms-win-uxtheme-themes-l1-1-1.dll
 api_name:
- - GetThemeTimingFunction
+- GetThemeTimingFunction
 targetos: Windows
 req.typenames: 
 req.redist: 

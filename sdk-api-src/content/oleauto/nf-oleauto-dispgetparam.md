@@ -1,19 +1,17 @@
 ---
 UID: NF:oleauto.DispGetParam
 title: DispGetParam function (oleauto.h)
-
 description: Retrieves a parameter from the DISPPARAMS structure, checking both named parameters and positional parameters, and coerces the parameter to the specified type.
 old-location: automat\dispgetparam.htm
 tech.root: automat
 ms.assetid: 72cdb768-4791-4606-8e5d-72cd003e854a
-
 ms.date: 12/05/2018
 ms.keywords: DispGetParam, DispGetParam function [Automation], _oa96_DispGetParam, automat.dispgetparam, oleauto/DispGetParam
 ms.topic: function
-f1_keywords: 
- - "oleauto/DispGetParam"
+f1_keywords:
+- oleauto/DispGetParam
 dev_langs:
- - c++
+- c++
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: OleAut32.lib
 req.dll: OleAut32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - OleAut32.dll
+- OleAut32.dll
 api_name:
- - DispGetParam
+- DispGetParam
 targetos: Windows
 req.typenames: 
 req.redist: 

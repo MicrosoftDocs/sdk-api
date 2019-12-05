@@ -1,19 +1,17 @@
 ---
 UID: NN:msopc.IOpcCertificateEnumerator
 title: IOpcCertificateEnumerator (msopc.h)
-
 description: A read-only enumerator of pointers to CERT_CONTEXT structures.
 old-location: opc\iopccertificateenumerator.htm
 tech.root: OPC
 ms.assetid: a66ad728-9d20-44d9-a363-1d2a7927d810
-
 ms.date: 12/05/2018
 ms.keywords: IOpcCertificateEnumerator, IOpcCertificateEnumerator interface [Open Packaging Conventions], IOpcCertificateEnumerator interface [Open Packaging Conventions],described, msopc/IOpcCertificateEnumerator, opc.iopccertificateenumerator
 ms.topic: interface
 f1_keywords:
 - msopc/IOpcCertificateEnumerator
 dev_langs:
- - c++
+- c++
 req.header: msopc.h
 req.include-header: 
 req.target-type: Windows

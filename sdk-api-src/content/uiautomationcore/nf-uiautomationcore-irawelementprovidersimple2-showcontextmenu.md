@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationcore.IRawElementProviderSimple2.ShowContextMenu
 title: IRawElementProviderSimple2::ShowContextMenu (uiautomationcore.h)
-
 description: Programmatically invokes a context menu on the target element.
 old-location: winauto\uiauto_IRawElementProviderSimple2_ShowContextMenu.htm
 tech.root: WinAuto
 ms.assetid: DAC75974-4B3E-4C95-F0D7-90D5709EFD93
-
 ms.date: 12/05/2018
 ms.keywords: IRawElementProviderSimple2 interface [Windows Accessibility],ShowContextMenu method, IRawElementProviderSimple2.ShowContextMenu, IRawElementProviderSimple2::ShowContextMenu, ShowContextMenu, ShowContextMenu method [Windows Accessibility], ShowContextMenu method [Windows Accessibility],IRawElementProviderSimple2 interface, uiautomationcore/IRawElementProviderSimple2::ShowContextMenu, winauto.uiauto_IRawElementProviderSimple2_ShowContextMenu
 ms.topic: method
-f1_keywords: 
- - "uiautomationcore/IRawElementProviderSimple2.ShowContextMenu"
+f1_keywords:
+- uiautomationcore/IRawElementProviderSimple2.ShowContextMenu
 dev_langs:
- - c++
+- c++
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationCore.h
+- UIAutomationCore.h
 api_name:
- - IRawElementProviderSimple2.ShowContextMenu
+- IRawElementProviderSimple2.ShowContextMenu
 targetos: Windows
 req.typenames: 
 req.redist: 

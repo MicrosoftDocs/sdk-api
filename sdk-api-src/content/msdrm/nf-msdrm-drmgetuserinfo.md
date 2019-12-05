@@ -1,19 +1,17 @@
 ---
 UID: NF:msdrm.DRMGetUserInfo
 title: DRMGetUserInfo function (msdrm.h)
-
 description: Obtains information about a user.
 old-location: rm\drmgetuserinfo.htm
 tech.root: AdRms_Sdk
 ms.assetid: 98c0640d-8ee1-4072-989d-16a2e8ba09b3
-
 ms.date: 12/05/2018
 ms.keywords: DRMGetUserInfo, DRMGetUserInfo function [Active Directory Rights Management Services SDK 1.0], msdrm/DRMGetUserInfo, rm.drmgetuserinfo
 ms.topic: function
-f1_keywords: 
- - "msdrm/DRMGetUserInfo"
+f1_keywords:
+- msdrm/DRMGetUserInfo
 dev_langs:
- - c++
+- c++
 req.header: msdrm.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Msdrm.lib
 req.dll: Msdrm.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Msdrm.dll
+- Msdrm.dll
 api_name:
- - DRMGetUserInfo
+- DRMGetUserInfo
 targetos: Windows
 req.typenames: 
 req.redist: 

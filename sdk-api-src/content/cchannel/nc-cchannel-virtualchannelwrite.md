@@ -1,19 +1,17 @@
 ---
 UID: NC:cchannel.VIRTUALCHANNELWRITE
 title: VIRTUALCHANNELWRITE (cchannel.h)
-
 description: Sends data from the client end of a virtual channel to a partner application on the server end.
 old-location: termserv\virtualchannelwrite.htm
 tech.root: TermServ
 ms.assetid: bd7bc65e-403c-4e29-bdb4-f2f5a957d6ab
-
 ms.date: 12/05/2018
 ms.keywords: VirtualChannelWrite, VirtualChannelWrite callback, VirtualChannelWrite callback function [Remote Desktop Services], _win32_virtualchannelwrite, cchannel/VirtualChannelWrite, termserv.virtualchannelwrite
 ms.topic: callback
-f1_keywords: 
- - "cchannel/VirtualChannelWrite"
+f1_keywords:
+- cchannel/VirtualChannelWrite
 dev_langs:
- - c++
+- c++
 req.header: cchannel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Cchannel.h
+- Cchannel.h
 api_name:
- - VirtualChannelWrite
+- VirtualChannelWrite
 targetos: Windows
 req.typenames: 
 req.redist: 

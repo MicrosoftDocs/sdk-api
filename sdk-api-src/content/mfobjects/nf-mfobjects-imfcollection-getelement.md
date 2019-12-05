@@ -1,19 +1,17 @@
 ---
 UID: NF:mfobjects.IMFCollection.GetElement
 title: IMFCollection::GetElement (mfobjects.h)
-
 description: Retrieves an object in the collection.
 old-location: mf\imfcollection_getelement.htm
 tech.root: medfound
 ms.assetid: a45983a8-4061-40e1-a11a-67de0867e553
-
 ms.date: 12/05/2018
 ms.keywords: GetElement, GetElement method [Media Foundation], GetElement method [Media Foundation],IMFCollection interface, IMFCollection interface [Media Foundation],GetElement method, IMFCollection.GetElement, IMFCollection::GetElement, a45983a8-4061-40e1-a11a-67de0867e553, mf.imfcollection_getelement, mfobjects/IMFCollection::GetElement
 ms.topic: method
-f1_keywords: 
- - "mfobjects/IMFCollection.GetElement"
+f1_keywords:
+- mfobjects/IMFCollection.GetElement
 dev_langs:
- - c++
+- c++
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFCollection.GetElement
+- IMFCollection.GetElement
 targetos: Windows
 req.typenames: 
 req.redist: 

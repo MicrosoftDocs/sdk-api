@@ -1,19 +1,17 @@
 ---
 UID: NF:certenroll.IX509CertificateRequestPkcs7V2.CheckCertificateSignature
 title: IX509CertificateRequestPkcs7V2::CheckCertificateSignature (certenroll.h)
-
 description: Verifies the certificate signature.
 old-location: security\ix509certificaterequestpkcs7v2_checkcertificatesignature.htm
 tech.root: seccertenroll
 ms.assetid: 6ee30e16-1901-45dc-8023-ef605d8a4d21
-
 ms.date: 12/05/2018
 ms.keywords: CheckCertificateSignature, CheckCertificateSignature method [Security], CheckCertificateSignature method [Security],IX509CertificateRequestPkcs7V2 interface, IX509CertificateRequestPkcs7V2 interface [Security],CheckCertificateSignature method, IX509CertificateRequestPkcs7V2.CheckCertificateSignature, IX509CertificateRequestPkcs7V2::CheckCertificateSignature, certenroll/IX509CertificateRequestPkcs7V2::CheckCertificateSignature, security.ix509certificaterequestpkcs7v2_checkcertificatesignature
 ms.topic: method
-f1_keywords: 
- - "certenroll/IX509CertificateRequestPkcs7V2.CheckCertificateSignature"
+f1_keywords:
+- certenroll/IX509CertificateRequestPkcs7V2.CheckCertificateSignature
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Certenroll.h
+- Certenroll.h
 api_name:
- - IX509CertificateRequestPkcs7V2.CheckCertificateSignature
+- IX509CertificateRequestPkcs7V2.CheckCertificateSignature
 targetos: Windows
 req.typenames: 
 req.redist: 

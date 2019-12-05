@@ -1,19 +1,17 @@
 ---
 UID: NE:certenroll.EnrollmentEnrollStatus
 title: EnrollmentEnrollStatus (certenroll.h)
-
 description: Specifies the enrollment status of a certificate request.
 old-location: security\enrollmentenrollstatus_enum.htm
 tech.root: seccertenroll
 ms.assetid: ed27cc77-7ff2-4f22-87c4-c6edc0709813
-
 ms.date: 12/05/2018
 ms.keywords: EnrollDenied, EnrollError, EnrollPended, EnrollSkipped, EnrollUIDeferredEnrollmentRequired, EnrollUnknown, Enrolled, EnrollmentEnrollStatus, EnrollmentEnrollStatus enumeration [Security], certenroll/EnrollDenied, certenroll/EnrollError, certenroll/EnrollPended, certenroll/EnrollSkipped, certenroll/EnrollUIDeferredEnrollmentRequired, certenroll/EnrollUnknown, certenroll/Enrolled, certenroll/EnrollmentEnrollStatus, security.enrollmentenrollstatus_enum
 ms.topic: enum
-f1_keywords: 
- - "certenroll/EnrollmentEnrollStatus"
+f1_keywords:
+- certenroll/EnrollmentEnrollStatus
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - CertEnroll.h
+- CertEnroll.h
 api_name:
- - EnrollmentEnrollStatus
+- EnrollmentEnrollStatus
 targetos: Windows
 req.typenames: EnrollmentEnrollStatus
 req.redist: 

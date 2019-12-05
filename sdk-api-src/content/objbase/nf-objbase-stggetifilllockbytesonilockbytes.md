@@ -1,19 +1,17 @@
 ---
 UID: NF:objbase.StgGetIFillLockBytesOnILockBytes
 title: StgGetIFillLockBytesOnILockBytes function (objbase.h)
-
 description: Creates a new wrapper object on a byte array object provided by the caller.
 old-location: stg\stggetifilllockbytesonilockbytes.htm
 tech.root: Stg
 ms.assetid: 87159472-3b80-4c0f-b2d4-7635dfcf2121
-
 ms.date: 12/05/2018
 ms.keywords: StgGetIFillLockBytesOnILockBytes, StgGetIFillLockBytesOnILockBytes function [Structured Storage], _stg_stggetifilllockbytesonilockbytes, objbase/StgGetIFillLockBytesOnILockBytes, stg.stggetifilllockbytesonilockbytes
 ms.topic: function
-f1_keywords: 
- - "objbase/StgGetIFillLockBytesOnILockBytes"
+f1_keywords:
+- objbase/StgGetIFillLockBytesOnILockBytes
 dev_langs:
- - c++
+- c++
 req.header: objbase.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Ole32.lib
 req.dll: Ole32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ole32.dll
+- Ole32.dll
 api_name:
- - StgGetIFillLockBytesOnILockBytes
+- StgGetIFillLockBytesOnILockBytes
 targetos: Windows
 req.typenames: 
 req.redist: 

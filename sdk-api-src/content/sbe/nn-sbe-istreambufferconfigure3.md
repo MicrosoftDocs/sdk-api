@@ -1,19 +1,17 @@
 ---
 UID: NN:sbe.IStreamBufferConfigure3
 title: IStreamBufferConfigure3 (sbe.h)
-
 description: The IStreamBufferConfigure3 interface is exposed by the StreamBufferConfig object.
 old-location: mstv\istreambufferconfigure3.htm
 tech.root: mstv
 ms.assetid: 73f3cd43-11d1-4eff-861d-087bfda7d135
-
 ms.date: 12/05/2018
 ms.keywords: IStreamBufferConfigure3, IStreamBufferConfigure3 interface [Microsoft TV Technologies], IStreamBufferConfigure3 interface [Microsoft TV Technologies],described, IStreamBufferConfigure3Interface, mstv.istreambufferconfigure3, sbe/IStreamBufferConfigure3
 ms.topic: interface
-f1_keywords: 
- - "sbe/IStreamBufferConfigure3"
+f1_keywords:
+- sbe/IStreamBufferConfigure3
 dev_langs:
- - c++
+- c++
 req.header: sbe.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Sbe.h
+- Sbe.h
 api_name:
- - IStreamBufferConfigure3
+- IStreamBufferConfigure3
 targetos: Windows
 req.typenames: 
 req.redist: 

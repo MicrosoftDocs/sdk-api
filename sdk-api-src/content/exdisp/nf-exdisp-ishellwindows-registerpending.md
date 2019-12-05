@@ -1,19 +1,17 @@
 ---
 UID: NF:exdisp.IShellWindows.RegisterPending
 title: IShellWindows::RegisterPending (exdisp.h)
-
 description: Registers a pending window as a Shell window; the window is specified by an absolute PIDL.
 old-location: shell\IShellWindows_RegisterPending.htm
 tech.root: shell
 ms.assetid: 75e8b82c-a94e-4aad-a224-f12b22b8a4b2
-
 ms.date: 12/05/2018
 ms.keywords: IShellWindows interface [Windows Shell],RegisterPending method, IShellWindows.RegisterPending, IShellWindows::RegisterPending, RegisterPending, RegisterPending method [Windows Shell], RegisterPending method [Windows Shell],IShellWindows interface, _win32_IShellWindows_RegisterPending, exdisp/IShellWindows::RegisterPending, shell.IShellWindows_RegisterPending
 ms.topic: method
 f1_keywords:
 - exdisp/IShellWindows.RegisterPending
 dev_langs:
- - c++
+- c++
 req.header: exdisp.h
 req.include-header: 
 req.target-type: Windows

@@ -1,19 +1,17 @@
 ---
 UID: NF:highlevelmonitorconfigurationapi.SetMonitorDisplayAreaPosition
 title: SetMonitorDisplayAreaPosition function (highlevelmonitorconfigurationapi.h)
-
 description: Sets the horizontal or vertical position of a monitor's display area.
 old-location: monitor\setmonitordisplayareaposition.htm
 tech.root: Monitor
 ms.assetid: ad7604e5-5ede-479b-881e-0a6060182e5b
-
 ms.date: 12/05/2018
 ms.keywords: SetMonitorDisplayAreaPosition, SetMonitorDisplayAreaPosition function [Monitor Configuration], highlevelmonitorconfigurationapi/SetMonitorDisplayAreaPosition, monitor.setmonitordisplayareaposition
 ms.topic: function
-f1_keywords: 
- - "highlevelmonitorconfigurationapi/SetMonitorDisplayAreaPosition"
+f1_keywords:
+- highlevelmonitorconfigurationapi/SetMonitorDisplayAreaPosition
 dev_langs:
- - c++
+- c++
 req.header: highlevelmonitorconfigurationapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dxva2.lib
 req.dll: Dxva2.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - dxva2.dll
+- dxva2.dll
 api_name:
- - SetMonitorDisplayAreaPosition
+- SetMonitorDisplayAreaPosition
 targetos: Windows
 req.typenames: 
 req.redist: 

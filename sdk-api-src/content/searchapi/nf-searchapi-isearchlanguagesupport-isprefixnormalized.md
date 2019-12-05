@@ -1,19 +1,17 @@
 ---
 UID: NF:searchapi.ISearchLanguageSupport.IsPrefixNormalized
 title: ISearchLanguageSupport::IsPrefixNormalized (searchapi.h)
-
 description: Determines whether the query token is a prefix of the document token, disregarding case, width, and (optionally) diacritics.
 old-location: search\_search_ISearchLanguageSupport_IsPrefixNormalized.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\dataaddins\isearchlanguagesupport\isprefixnormalized.htm
-
 ms.date: 12/05/2018
 ms.keywords: ISearchLanguageSupport interface [search],IsPrefixNormalized method, ISearchLanguageSupport.IsPrefixNormalized, ISearchLanguageSupport::IsPrefixNormalized, IsPrefixNormalized, IsPrefixNormalized method [search], IsPrefixNormalized method [search],ISearchLanguageSupport interface, _search_ISearchLanguageSupport_IsPrefixNormalized, search._search_ISearchLanguageSupport_IsPrefixNormalized, searchapi/ISearchLanguageSupport::IsPrefixNormalized
 ms.topic: method
-f1_keywords: 
- - "searchapi/ISearchLanguageSupport.IsPrefixNormalized"
+f1_keywords:
+- searchapi/ISearchLanguageSupport.IsPrefixNormalized
 dev_langs:
- - c++
+- c++
 req.header: searchapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Searchapi.h
+- Searchapi.h
 api_name:
- - ISearchLanguageSupport.IsPrefixNormalized
+- ISearchLanguageSupport.IsPrefixNormalized
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0

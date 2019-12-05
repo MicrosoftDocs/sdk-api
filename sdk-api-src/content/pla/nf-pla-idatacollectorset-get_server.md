@@ -1,19 +1,17 @@
 ---
 UID: NF:pla.IDataCollectorSet.get_Server
 title: IDataCollectorSet::get_Server (pla.h)
-
 description: Retrieves the name of the server where the data collector set is run.
 old-location: pla\idatacollectorset_get_server.htm
 tech.root: PLA
 ms.assetid: 43098848-1b1f-4ce1-a34c-62bb493aaf0e
-
 ms.date: 12/05/2018
 ms.keywords: IDataCollectorSet interface [PLA],Server property, IDataCollectorSet.Server, IDataCollectorSet.get_Server, IDataCollectorSet::Server, IDataCollectorSet::get_Server, Server property [PLA], Server property [PLA],IDataCollectorSet interface, base.idatacollectorset_get_server, get_Server, pla.idatacollectorset_get_server, pla/IDataCollectorSet::Server, pla/IDataCollectorSet::get_Server
 ms.topic: method
-f1_keywords: 
- - "pla/IDataCollectorSet.Server"
+f1_keywords:
+- pla/IDataCollectorSet.Server
 dev_langs:
- - c++
+- c++
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: Pla.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Pla.dll
+- Pla.dll
 api_name:
- - IDataCollectorSet.Server
- - IDataCollectorSet.get_Server
+- IDataCollectorSet.Server
+- IDataCollectorSet.get_Server
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi3.ITACDGroup.get_Name
 title: ITACDGroup::get_Name (tapi3.h)
-
 description: The get_Name method gets the ACD group name. This string can be a displayable name for the group.
 old-location: tapi3\itacdgroup_get_name.htm
 tech.root: Tapi
 ms.assetid: 93e61a42-3e60-4d52-bb19-68842f6947da
-
 ms.date: 12/05/2018
 ms.keywords: ITACDGroup interface [TAPI 2.2],get_Name method, ITACDGroup.get_Name, ITACDGroup::get_Name, _tapi3_itacdgroup_get_name, get_Name, get_Name method [TAPI 2.2], get_Name method [TAPI 2.2],ITACDGroup interface, tapi3.itacdgroup_get_name, tapi3cc/ITACDGroup::get_Name
 ms.topic: method
-f1_keywords: 
- - "tapi3/ITACDGroup.get_Name"
+f1_keywords:
+- tapi3/ITACDGroup.get_Name
 dev_langs:
- - c++
+- c++
 req.header: tapi3.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Tapi3.dll
+- Tapi3.dll
 api_name:
- - ITACDGroup.get_Name
+- ITACDGroup.get_Name
 targetos: Windows
 req.typenames: 
 req.redist: 

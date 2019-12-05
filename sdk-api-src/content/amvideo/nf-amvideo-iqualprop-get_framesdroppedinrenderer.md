@@ -1,19 +1,17 @@
 ---
 UID: NF:amvideo.IQualProp.get_FramesDroppedInRenderer
 title: IQualProp::get_FramesDroppedInRenderer (amvideo.h)
-
 description: The get_FramesDroppedInRenderer method retrieves the number of frames dropped by the renderer.
 old-location: dshow\iqualprop_get_framesdroppedinrenderer.htm
 tech.root: DirectShow
 ms.assetid: 342aff30-ed1c-406d-8fbe-0524acbcd2d7
-
 ms.date: 12/05/2018
 ms.keywords: IQualProp interface [DirectShow],get_FramesDroppedInRenderer method, IQualProp.get_FramesDroppedInRenderer, IQualProp::get_FramesDroppedInRenderer, IQualPropget_FramesDroppedInRenderer, amvideo/IQualProp::get_FramesDroppedInRenderer, dshow.iqualprop_get_framesdroppedinrenderer, get_FramesDroppedInRenderer, get_FramesDroppedInRenderer method [DirectShow], get_FramesDroppedInRenderer method [DirectShow],IQualProp interface
 ms.topic: method
-f1_keywords: 
- - "amvideo/IQualProp.get_FramesDroppedInRenderer"
+f1_keywords:
+- amvideo/IQualProp.get_FramesDroppedInRenderer
 dev_langs:
- - c++
+- c++
 req.header: amvideo.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IQualProp.get_FramesDroppedInRenderer
+- IQualProp.get_FramesDroppedInRenderer
 targetos: Windows
 req.typenames: 
 req.redist: 

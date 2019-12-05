@@ -1,19 +1,17 @@
 ---
 UID: NF:tspi.TSPI_lineSetMediaMode
 title: TSPI_lineSetMediaMode function (tspi.h)
-
 description: The TSPI_lineSetMediaMode function changes the call's media as stored in the call's LINECALLINFO structure.
 old-location: tspi\tspi_linesetmediamode.htm
 tech.root: Tapi
 ms.assetid: 3a0a5daf-eb4a-4e60-b343-8a47d342a86a
-
 ms.date: 12/05/2018
 ms.keywords: TSPI_lineSetMediaMode, TSPI_lineSetMediaMode function [TAPI 2.2], _tspi_tspi_linesetmediamode, tspi.tspi_linesetmediamode, tspi/TSPI_lineSetMediaMode
 ms.topic: function
-f1_keywords: 
- - "tspi/TSPI_lineSetMediaMode"
+f1_keywords:
+- tspi/TSPI_lineSetMediaMode
 dev_langs:
- - c++
+- c++
 req.header: tspi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Tspi.h
+- Tspi.h
 api_name:
- - TSPI_lineSetMediaMode
+- TSPI_lineSetMediaMode
 targetos: Windows
 req.typenames: 
 req.redist: 

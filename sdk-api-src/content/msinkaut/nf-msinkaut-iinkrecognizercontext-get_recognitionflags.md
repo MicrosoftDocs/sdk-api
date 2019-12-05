@@ -1,19 +1,17 @@
 ---
 UID: NF:msinkaut.IInkRecognizerContext.get_RecognitionFlags
 title: IInkRecognizerContext::get_RecognitionFlags (msinkaut.h)
-
 description: Gets or sets the flags that specify how the recognizer interprets the ink and determines the result string.
 old-location: tablet\inkrecognizercontext_recognitionflags.htm
 tech.root: tablet
 ms.assetid: 71b02f99-4076-4c56-b88a-4201b7033411
-
 ms.date: 12/05/2018
 ms.keywords: 71b02f99-4076-4c56-b88a-4201b7033411, IInkRecognizerContext interface [Tablet PC],RecognitionFlags property, IInkRecognizerContext.RecognitionFlags, IInkRecognizerContext.get_RecognitionFlags, IInkRecognizerContext::RecognitionFlags, IInkRecognizerContext::get_RecognitionFlags, IInkRecognizerContext::put_RecognitionFlags, InkRecognizerContext.get_RecognitionFlags, InkRecognizerContext.put_RecognitionFlags, RecognitionFlags property [Tablet PC], RecognitionFlags property [Tablet PC],IInkRecognizerContext interface, get_RecognitionFlags, msinkaut/IInkRecognizerContext::RecognitionFlags, msinkaut/IInkRecognizerContext::get_RecognitionFlags, msinkaut/IInkRecognizerContext::put_RecognitionFlags, put_RecognitionFlags, tablet.inkrecognizercontext_recognitionflags
 ms.topic: method
-f1_keywords: 
- - "msinkaut/IInkRecognizerContext.RecognitionFlags"
+f1_keywords:
+- msinkaut/IInkRecognizerContext.RecognitionFlags
 dev_langs:
- - c++
+- c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows
@@ -32,19 +30,19 @@ req.lib: InkObj.dll
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - InkObj.dll
- - InkObj.dll.dll
+- InkObj.dll
+- InkObj.dll.dll
 api_name:
- - IInkRecognizerContext.RecognitionFlags
- - IInkRecognizerContext.get_RecognitionFlags
- - IInkRecognizerContext.put_RecognitionFlags
- - InkRecognizerContext.get_RecognitionFlags
- - InkRecognizerContext.put_RecognitionFlags
+- IInkRecognizerContext.RecognitionFlags
+- IInkRecognizerContext.get_RecognitionFlags
+- IInkRecognizerContext.put_RecognitionFlags
+- InkRecognizerContext.get_RecognitionFlags
+- InkRecognizerContext.put_RecognitionFlags
 targetos: Windows
 req.typenames: 
 req.redist: 

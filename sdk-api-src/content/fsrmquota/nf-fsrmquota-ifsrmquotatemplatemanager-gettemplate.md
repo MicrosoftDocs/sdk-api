@@ -1,19 +1,17 @@
 ---
 UID: NF:fsrmquota.IFsrmQuotaTemplateManager.GetTemplate
 title: IFsrmQuotaTemplateManager::GetTemplate (fsrmquota.h)
-
 description: Retrieves the specified quota template.
 old-location: fsrm\ifsrmquotatemplatemanager_gettemplate.htm
 tech.root: fsrm
 ms.assetid: 2877c453-aad7-42ea-a66d-b49ab1f8f854
-
 ms.date: 12/05/2018
 ms.keywords: FsrmQuotaTemplateManager class [File Server Resource Manager],GetTemplate method, GetTemplate, GetTemplate method [File Server Resource Manager], GetTemplate method [File Server Resource Manager],FsrmQuotaTemplateManager class, GetTemplate method [File Server Resource Manager],IFsrmQuotaTemplateManager interface, IFsrmQuotaTemplateManager interface [File Server Resource Manager],GetTemplate method, IFsrmQuotaTemplateManager.GetTemplate, IFsrmQuotaTemplateManager::GetTemplate, fs.ifsrmquotatemplatemanager_gettemplate, fsrm.ifsrmquotatemplatemanager_gettemplate, fsrmquota/IFsrmQuotaTemplateManager::GetTemplate
 ms.topic: method
-f1_keywords: 
- - "fsrmquota/IFsrmQuotaTemplateManager.GetTemplate"
+f1_keywords:
+- fsrmquota/IFsrmQuotaTemplateManager.GetTemplate
 dev_langs:
- - c++
+- c++
 req.header: fsrmquota.h
 req.include-header: FsrmQuota.h, FsrmTlb.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: SrmSvc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - SrmSvc.dll
+- SrmSvc.dll
 api_name:
- - IFsrmQuotaTemplateManager.GetTemplate
- - FsrmQuotaTemplateManager.GetTemplate
+- IFsrmQuotaTemplateManager.GetTemplate
+- FsrmQuotaTemplateManager.GetTemplate
 targetos: Windows
 req.typenames: 
 req.redist: 

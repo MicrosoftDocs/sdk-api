@@ -1,19 +1,17 @@
 ---
 UID: NF:winsvc.LockServiceDatabase
 title: LockServiceDatabase function (winsvc.h)
-
 description: Requests ownership of the service control manager (SCM) database lock. Only one process can own the lock at any specified time.
 old-location: base\lockservicedatabase.htm
 tech.root: Services
 ms.assetid: 87861465-c966-479a-b906-27ae36cc83c8
-
 ms.date: 12/05/2018
 ms.keywords: LockServiceDatabase, LockServiceDatabase function, _win32_lockservicedatabase, base.lockservicedatabase, winsvc/LockServiceDatabase
 ms.topic: function
-f1_keywords: 
- - "winsvc/LockServiceDatabase"
+f1_keywords:
+- winsvc/LockServiceDatabase
 dev_langs:
- - c++
+- c++
 req.header: winsvc.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Advapi32.dll
+- Advapi32.dll
 api_name:
- - LockServiceDatabase
+- LockServiceDatabase
 targetos: Windows
 req.typenames: 
 req.redist: 

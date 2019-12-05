@@ -1,19 +1,17 @@
 ---
 UID: NF:wmcontainer.IMFASFMutualExclusion.GetType
 title: IMFASFMutualExclusion::GetType (wmcontainer.h)
-
 description: Retrieves the type of mutual exclusion represented by the Advanced Systems Format (ASF) mutual exclusion object.
 old-location: mf\imfasfmutualexclusion_gettype.htm
 tech.root: medfound
 ms.assetid: c6af870e-2ef8-4dea-b76b-7a78ceaaa3d3
-
 ms.date: 12/05/2018
 ms.keywords: GetType, GetType method [Media Foundation], GetType method [Media Foundation],IMFASFMutualExclusion interface, IMFASFMutualExclusion interface [Media Foundation],GetType method, IMFASFMutualExclusion.GetType, IMFASFMutualExclusion::GetType, c6af870e-2ef8-4dea-b76b-7a78ceaaa3d3, mf.imfasfmutualexclusion_gettype, wmcontainer/IMFASFMutualExclusion::GetType
 ms.topic: method
-f1_keywords: 
- - "wmcontainer/IMFASFMutualExclusion.GetType"
+f1_keywords:
+- wmcontainer/IMFASFMutualExclusion.GetType
 dev_langs:
- - c++
+- c++
 req.header: wmcontainer.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFASFMutualExclusion.GetType
+- IMFASFMutualExclusion.GetType
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NN:comsvcs.IDispenserManager
 title: IDispenserManager (comsvcs.h)
-
 description: Connects to the dispenser manager.
 old-location: cos\idispensermanager.htm
 tech.root: cossdk
 ms.assetid: a0465d78-f8b7-4934-9dc6-c8f0ead04bf1
-
 ms.date: 12/05/2018
 ms.keywords: IDispenserManager, IDispenserManager interface [COM+], IDispenserManager interface [COM+],described, _dtc_IDispenserManager_Interface, comsvcs/IDispenserManager, cos.idispensermanager
 ms.topic: interface
-f1_keywords: 
- - "comsvcs/IDispenserManager"
+f1_keywords:
+- comsvcs/IDispenserManager
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - IDispenserManager
+- IDispenserManager
 targetos: Windows
 req.typenames: 
 req.redist: 

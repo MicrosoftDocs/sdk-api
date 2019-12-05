@@ -1,19 +1,17 @@
 ---
 UID: NF:azroles.IAzRoleAssignments.get_Item
 title: IAzRoleAssignments::get_Item (azroles.h)
-
 description: Retrieves the IAzRoleAssignment object at the specified index in the IAzRoleAssignments collection.
 old-location: security\iazroleassignments_item.htm
 tech.root: SecAuthZ
 ms.assetid: 68685b4e-6451-4243-990d-5302d478210f
-
 ms.date: 12/05/2018
 ms.keywords: IAzRoleAssignments interface [Security],Item property, IAzRoleAssignments.Item, IAzRoleAssignments.get_Item, IAzRoleAssignments::Item, IAzRoleAssignments::get_Item, Item property [Security], Item property [Security],IAzRoleAssignments interface, azroles/IAzRoleAssignments::Item, azroles/IAzRoleAssignments::get_Item, get_Item, security.iazroleassignments_item
 ms.topic: method
-f1_keywords: 
- - "azroles/IAzRoleAssignments.Item"
+f1_keywords:
+- azroles/IAzRoleAssignments.Item
 dev_langs:
- - c++
+- c++
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: Azroles.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Azroles.dll
+- Azroles.dll
 api_name:
- - IAzRoleAssignments.Item
- - IAzRoleAssignments.get_Item
+- IAzRoleAssignments.Item
+- IAzRoleAssignments.get_Item
 targetos: Windows
 req.typenames: 
 req.redist: 

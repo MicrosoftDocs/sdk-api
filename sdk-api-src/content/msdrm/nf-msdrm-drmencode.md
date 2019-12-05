@@ -1,19 +1,17 @@
 ---
 UID: NF:msdrm.DRMEncode
 title: DRMEncode function (msdrm.h)
-
 description: Encodes data using a public encoding method, such as base64.
 old-location: rm\drmencode.htm
 tech.root: AdRms_Sdk
 ms.assetid: 5fc0275c-098b-43a6-a52a-871321b0e4f3
-
 ms.date: 12/05/2018
 ms.keywords: DRMEncode, DRMEncode function [Active Directory Rights Management Services SDK 1.0], msdrm/DRMEncode, rm.drmencode
 ms.topic: function
-f1_keywords: 
- - "msdrm/DRMEncode"
+f1_keywords:
+- msdrm/DRMEncode
 dev_langs:
- - c++
+- c++
 req.header: msdrm.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Msdrm.lib
 req.dll: Msdrm.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Msdrm.dll
+- Msdrm.dll
 api_name:
- - DRMEncode
+- DRMEncode
 targetos: Windows
 req.typenames: 
 req.redist: 

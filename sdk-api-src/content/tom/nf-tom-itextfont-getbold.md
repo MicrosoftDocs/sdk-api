@@ -1,19 +1,17 @@
 ---
 UID: NF:tom.ITextFont.GetBold
 title: ITextFont::GetBold (tom.h)
-
 description: Gets whether the characters are bold.
 old-location: controls\ITextFont_GetBold.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\getbold.htm
-
 ms.date: 12/05/2018
 ms.keywords: GetBold, GetBold method [Windows Controls], GetBold method [Windows Controls],ITextFont interface, ITextFont interface [Windows Controls],GetBold method, ITextFont.GetBold, ITextFont::GetBold, _win32_ITextFont_GetBold, _win32_ITextFont_GetBold_cpp, controls.ITextFont_GetBold, controls._win32_ITextFont_GetBold, tom/ITextFont::GetBold
 ms.topic: method
-f1_keywords: 
- - "tom/ITextFont.GetBold"
+f1_keywords:
+- tom/ITextFont.GetBold
 dev_langs:
- - c++
+- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msftedit.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msftedit.dll
+- Msftedit.dll
 api_name:
- - ITextFont.GetBold
+- ITextFont.GetBold
 targetos: Windows
 req.typenames: 
 req.redist: 

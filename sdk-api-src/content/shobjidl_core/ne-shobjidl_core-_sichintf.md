@@ -1,19 +1,17 @@
 ---
 UID: NE:shobjidl_core._SICHINTF
 title: _SICHINTF (shobjidl_core.h)
-
 description: Used to determine how to compare two Shell items. IShellItem::Compare uses this enumerated type.
 old-location: shell\SICHINT.htm
 tech.root: shell
 ms.assetid: 4d333302-5be3-4e8d-9018-e42729df0cc3
-
 ms.date: 12/05/2018
 ms.keywords: SICHINTF, SICHINTF enumeration [Windows Shell], SICHINT_ALLFIELDS, SICHINT_CANONICAL, SICHINT_DISPLAY, SICHINT_TEST_FILESYSPATH_IF_NOT_EQUAL, _SICHINTF, inet_SICHINT, shell.SICHINT, shobjidl_core/SICHINTF, shobjidl_core/SICHINT_ALLFIELDS, shobjidl_core/SICHINT_CANONICAL, shobjidl_core/SICHINT_DISPLAY, shobjidl_core/SICHINT_TEST_FILESYSPATH_IF_NOT_EQUAL
 ms.topic: enum
-f1_keywords: 
- - "shobjidl_core/SICHINTF"
+f1_keywords:
+- shobjidl_core/SICHINTF
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - SICHINTF
+- SICHINTF
 targetos: Windows
 req.typenames: 
 req.redist: 

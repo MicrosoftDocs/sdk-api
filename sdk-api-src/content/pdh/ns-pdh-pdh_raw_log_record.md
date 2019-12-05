@@ -1,19 +1,17 @@
 ---
 UID: NS:pdh._PDH_RAW_LOG_RECORD
 title: PDH_RAW_LOG_RECORD (pdh.h)
-
 description: The PDH_RAW_LOG_RECORD structure contains information about a binary trace log file record.
 old-location: perf\pdh_raw_log_record_str.htm
 tech.root: perfctrs
 ms.assetid: ae96515f-ea3f-4578-a249-fb8f41cdfa69
-
 ms.date: 12/05/2018
-ms.keywords: "*PPDH_RAW_LOG_RECORD, PDH_LOG_TYPE_BINARY, PDH_LOG_TYPE_CSV, PDH_LOG_TYPE_PERFMON, PDH_LOG_TYPE_SQL, PDH_LOG_TYPE_TSV, PDH_RAW_LOG_RECORD, PDH_RAW_LOG_RECORD structure [Perf], PPDH_RAW_LOG_RECORD, PPDH_RAW_LOG_RECORD structure pointer [Perf], _win32_pdh_raw_log_record_str, base.pdh_raw_log_record_str, pdh/PDH_RAW_LOG_RECORD, pdh/PPDH_RAW_LOG_RECORD, perf.pdh_raw_log_record_str"
+ms.keywords: '*PPDH_RAW_LOG_RECORD, PDH_LOG_TYPE_BINARY, PDH_LOG_TYPE_CSV, PDH_LOG_TYPE_PERFMON, PDH_LOG_TYPE_SQL, PDH_LOG_TYPE_TSV, PDH_RAW_LOG_RECORD, PDH_RAW_LOG_RECORD structure [Perf], PPDH_RAW_LOG_RECORD, PPDH_RAW_LOG_RECORD structure pointer [Perf], _win32_pdh_raw_log_record_str, base.pdh_raw_log_record_str, pdh/PDH_RAW_LOG_RECORD, pdh/PPDH_RAW_LOG_RECORD, perf.pdh_raw_log_record_str'
 ms.topic: struct
-f1_keywords: 
- - "pdh/PDH_RAW_LOG_RECORD"
+f1_keywords:
+- pdh/PDH_RAW_LOG_RECORD
 dev_langs:
- - c++
+- c++
 req.header: pdh.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Pdh.h
+- Pdh.h
 api_name:
- - PDH_RAW_LOG_RECORD
+- PDH_RAW_LOG_RECORD
 targetos: Windows
 req.typenames: PDH_RAW_LOG_RECORD, *PPDH_RAW_LOG_RECORD
 req.redist: 

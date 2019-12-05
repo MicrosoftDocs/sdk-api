@@ -1,19 +1,17 @@
 ---
 UID: NE:xpsprint.__MIDL___MIDL_itf_xpsprint_0000_0000_0001
 title: XPS_JOB_COMPLETION (xpsprint.h)
-
 description: Indicates the completion status of a print job.
 old-location: gdi\xps_job_completion.htm
 tech.root: printdocs
 ms.assetid: a0bfb708-033a-4493-a878-0ebdcaae672f
-
 ms.date: 12/05/2018
 ms.keywords: XPS_JOB_CANCELLED, XPS_JOB_COMPLETED, XPS_JOB_COMPLETION, XPS_JOB_COMPLETION enumeration [Windows GDI], XPS_JOB_FAILED, XPS_JOB_IN_PROGRESS, gdi.xps_job_completion, xpsprint/XPS_JOB_CANCELLED, xpsprint/XPS_JOB_COMPLETED, xpsprint/XPS_JOB_COMPLETION, xpsprint/XPS_JOB_FAILED, xpsprint/XPS_JOB_IN_PROGRESS
 ms.topic: enum
-f1_keywords: 
- - "xpsprint/XPS_JOB_COMPLETION"
+f1_keywords:
+- xpsprint/XPS_JOB_COMPLETION
 dev_langs:
- - c++
+- c++
 req.header: xpsprint.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - XpsPrint.h
+- XpsPrint.h
 api_name:
- - XPS_JOB_COMPLETION
+- XPS_JOB_COMPLETION
 targetos: Windows
 req.typenames: XPS_JOB_COMPLETION
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IFolderView2.SetTileViewProperties
 title: IFolderView2::SetTileViewProperties (shobjidl_core.h)
-
 description: Set the list of tile properties for an item.
 old-location: shell\IFolderView2_SetTileViewProperties.htm
 tech.root: shell
 ms.assetid: 44abbbbb-8d4d-4a09-9c17-a2255467de44
-
 ms.date: 12/05/2018
 ms.keywords: IFolderView2 interface [Windows Shell],SetTileViewProperties method, IFolderView2.SetTileViewProperties, IFolderView2::SetTileViewProperties, SetTileViewProperties, SetTileViewProperties method [Windows Shell], SetTileViewProperties method [Windows Shell],IFolderView2 interface, _shell_IFolderView2_SetTileViewProperties, shell.IFolderView2_SetTileViewProperties, shobjidl_core/IFolderView2::SetTileViewProperties
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IFolderView2.SetTileViewProperties"
+f1_keywords:
+- shobjidl_core/IFolderView2.SetTileViewProperties
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - IFolderView2.SetTileViewProperties
+- IFolderView2.SetTileViewProperties
 targetos: Windows
 req.typenames: 
 req.redist: 

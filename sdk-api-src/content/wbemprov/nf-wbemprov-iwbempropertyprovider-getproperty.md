@@ -1,19 +1,17 @@
 ---
 UID: NF:wbemprov.IWbemPropertyProvider.GetProperty
 title: IWbemPropertyProvider::GetProperty (wbemprov.h)
-
 description: The IWbemPropertyProvider::GetProperty method is called by Windows Management to retrieve an individual property value.
 old-location: wmi\iwbempropertyprovider_getproperty.htm
 tech.root: WmiSdk
 ms.assetid: 6ee0e904-7f4c-4b32-8a90-d727340b481e
-
 ms.date: 12/05/2018
 ms.keywords: GetProperty, GetProperty method [Windows Management Instrumentation], GetProperty method [Windows Management Instrumentation],IWbemPropertyProvider interface, IWbemPropertyProvider interface [Windows Management Instrumentation],GetProperty method, IWbemPropertyProvider.GetProperty, IWbemPropertyProvider::GetProperty, _hmm_iwbempropertyprovider_getproperty, wbemprov/IWbemPropertyProvider::GetProperty, wmi.iwbempropertyprovider_getproperty
 ms.topic: method
-f1_keywords: 
- - "wbemprov/IWbemPropertyProvider.GetProperty"
+f1_keywords:
+- wbemprov/IWbemPropertyProvider.GetProperty
 dev_langs:
- - c++
+- c++
 req.header: wbemprov.h
 req.include-header: Wbemidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Wbemuuid.lib
 req.dll: Wbemsvc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wbemsvc.dll
+- Wbemsvc.dll
 api_name:
- - IWbemPropertyProvider.GetProperty
+- IWbemPropertyProvider.GetProperty
 targetos: Windows
 req.typenames: 
 req.redist: 

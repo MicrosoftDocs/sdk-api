@@ -1,19 +1,17 @@
 ---
 UID: NF:certenroll.ICspInformations.get_ItemByIndex
 title: ICspInformations::get_ItemByIndex (certenroll.h)
-
 description: Retrieves an ICspInformation object from the collection by index number.
 old-location: security\icspinformations_itembyindex_property.htm
 tech.root: seccertenroll
 ms.assetid: 9891dc5d-ebd6-4347-b47b-2def9c2d28a4
-
 ms.date: 12/05/2018
 ms.keywords: ICspInformations interface [Security],ItemByIndex property, ICspInformations.ItemByIndex, ICspInformations.get_ItemByIndex, ICspInformations::ItemByIndex, ICspInformations::get_ItemByIndex, ItemByIndex property [Security], ItemByIndex property [Security],ICspInformations interface, certenroll/ICspInformations::ItemByIndex, certenroll/ICspInformations::get_ItemByIndex, get_ItemByIndex, security.icspinformations_itembyindex_property
 ms.topic: method
-f1_keywords: 
- - "certenroll/ICspInformations.ItemByIndex"
+f1_keywords:
+- certenroll/ICspInformations.ItemByIndex
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: CertEnroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CertEnroll.dll
+- CertEnroll.dll
 api_name:
- - ICspInformations.ItemByIndex
- - ICspInformations.get_ItemByIndex
+- ICspInformations.ItemByIndex
+- ICspInformations.get_ItemByIndex
 targetos: Windows
 req.typenames: 
 req.redist: 

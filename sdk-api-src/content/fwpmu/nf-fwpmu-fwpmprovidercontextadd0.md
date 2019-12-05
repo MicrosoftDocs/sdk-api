@@ -1,19 +1,17 @@
 ---
 UID: NF:fwpmu.FwpmProviderContextAdd0
 title: FwpmProviderContextAdd0 function (fwpmu.h)
-
 description: Adds a new provider context to the system.
 old-location: fwp\fwpmprovidercontextadd0_func.htm
 tech.root: fwp
 ms.assetid: c31595b8-81e4-4399-b2a3-d228c35875fe
-
 ms.date: 12/05/2018
 ms.keywords: FwpmProviderContextAdd0, FwpmProviderContextAdd0 function [Filtering], fwp.fwpmprovidercontextadd0_func, fwpmu/FwpmProviderContextAdd0
 ms.topic: function
 f1_keywords:
 - fwpmu/FwpmProviderContextAdd0
 dev_langs:
- - c++
+- c++
 req.header: fwpmu.h
 req.include-header: 
 req.target-type: Windows

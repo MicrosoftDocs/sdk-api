@@ -1,19 +1,17 @@
 ---
 UID: NF:gdiplusbrush.LinearGradientBrush.LinearGradientBrush(IN const PointF &,IN const PointF &,IN const Color &,IN const Color &)
 title: LinearGradientBrush::LinearGradientBrush(IN const PointF &,IN const PointF &,IN const Color &,IN const Color &) (gdiplusbrush.h)
-
 description: Creates a LinearGradientBrush::LinearGradientBrush object from a set of boundary points and boundary colors.
 old-location: gdiplus\_gdiplus_CLASS_LinearGradientBrush_LinearGradientBrush_PointF_point1_PointF_point2_Color_color1_Colo.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\lineargradientbrushclass\lineargradientbrushconstructors\lineargradientbrush_22pointfamppoint1_pointfamppoint2_colora.htm
-
 ms.date: 12/05/2018
 ms.keywords: LinearGradientBrush, LinearGradientBrush class [GDI+],LinearGradientBrush constructor, LinearGradientBrush constructor [GDI+], LinearGradientBrush constructor [GDI+],LinearGradientBrush class, LinearGradientBrush.LinearGradientBrush, LinearGradientBrush.LinearGradientBrush(IN const PointF &,IN const PointF &,IN const Color &,IN const Color &), LinearGradientBrush.LinearGradientBrush(const PointF&,const PointF&,const Color&,const Color&), LinearGradientBrush::LinearGradientBrush, LinearGradientBrush::LinearGradientBrush(IN const PointF &,IN const PointF &,IN const Color &,IN const Color &), _gdiplus_CLASS_LinearGradientBrush_LinearGradientBrush_PointF_point1_PointF_point2_Color_color1_Colo, gdiplus._gdiplus_CLASS_LinearGradientBrush_LinearGradientBrush_PointF_point1_PointF_point2_Color_color1_Colo
 ms.topic: method
-f1_keywords: 
- - "gdiplusbrush/LinearGradientBrush.LinearGradientBrush"
+f1_keywords:
+- gdiplusbrush/LinearGradientBrush.LinearGradientBrush
 dev_langs:
- - c++
+- c++
 req.header: gdiplusbrush.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - LinearGradientBrush.LinearGradientBrush
+- LinearGradientBrush.LinearGradientBrush
 targetos: Windows
 req.typenames: 
 req.redist: 

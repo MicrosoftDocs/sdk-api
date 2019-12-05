@@ -1,19 +1,17 @@
 ---
 UID: NF:msdrm.DRMSetUsagePolicy
 title: DRMSetUsagePolicy function (msdrm.h)
-
 description: Sets a usage policy that requires or denies access to content based on application name, version, or other environment characteristics.
 old-location: rm\drmsetusagepolicy.htm
 tech.root: AdRms_Sdk
 ms.assetid: 8c270824-ff2a-4b04-b8b0-7cc4a82d042d
-
 ms.date: 12/05/2018
 ms.keywords: DRMSetUsagePolicy, DRMSetUsagePolicy function [Active Directory Rights Management Services SDK 1.0], msdrm/DRMSetUsagePolicy, rm.drmsetusagepolicy
 ms.topic: function
 f1_keywords:
 - msdrm/DRMSetUsagePolicy
 dev_langs:
- - c++
+- c++
 req.header: msdrm.h
 req.include-header: 
 req.target-type: Windows

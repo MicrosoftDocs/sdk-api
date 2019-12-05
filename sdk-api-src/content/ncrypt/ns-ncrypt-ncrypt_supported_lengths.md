@@ -1,19 +1,17 @@
 ---
 UID: NS:ncrypt.__NCRYPT_SUPPORTED_LENGTHS
 title: NCRYPT_SUPPORTED_LENGTHS (ncrypt.h)
-
 description: Used with the NCRYPT_LENGTHS_PROPERTY property to contain length information for a key.
 old-location: security\ncrypt_supported_lengths.htm
 tech.root: SecCNG
 ms.assetid: 11bb3669-d536-4c8f-a30b-1826ccdbe275
-
 ms.date: 12/05/2018
 ms.keywords: NCRYPT_SUPPORTED_LENGTHS, NCRYPT_SUPPORTED_LENGTHS structure [Security], ncrypt/NCRYPT_SUPPORTED_LENGTHS, security.ncrypt_supported_lengths
 ms.topic: struct
-f1_keywords: 
- - "ncrypt/NCRYPT_SUPPORTED_LENGTHS"
+f1_keywords:
+- ncrypt/NCRYPT_SUPPORTED_LENGTHS
 dev_langs:
- - c++
+- c++
 req.header: ncrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Ncrypt.h
+- Ncrypt.h
 api_name:
- - NCRYPT_SUPPORTED_LENGTHS
+- NCRYPT_SUPPORTED_LENGTHS
 targetos: Windows
 req.typenames: NCRYPT_SUPPORTED_LENGTHS
 req.redist: 

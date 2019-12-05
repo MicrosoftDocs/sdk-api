@@ -1,19 +1,17 @@
 ---
 UID: NN:unknwn.IUnknown
 title: IUnknown
-
 description: Enables clients to get pointers to other interfaces on a given object through the QueryInterface method, and manage the existence of the object through the AddRef and Release methods.
 old-location: com\iunknown.htm
 tech.root: com
 ms.assetid: 33f1d79a-33fc-4ce5-a372-e08bda378332
-
 ms.date: 06/05/2019
 ms.keywords: IUnknown, IUnknown interface [COM], IUnknown interface [COM],described, _com_iunknown, com.iunknown, unknwn/IUnknown
 ms.topic: interface
-f1_keywords: 
- - "unknwn/IUnknown"
+f1_keywords:
+- unknwn/IUnknown
 dev_langs:
- - c++
+- c++
 req.header: unknwn.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Unknwn.h
+- Unknwn.h
 api_name:
- - IUnknown
+- IUnknown
 targetos: Windows
 req.typenames: 
 req.redist: 

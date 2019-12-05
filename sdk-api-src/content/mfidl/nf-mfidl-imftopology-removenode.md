@@ -1,19 +1,17 @@
 ---
 UID: NF:mfidl.IMFTopology.RemoveNode
 title: IMFTopology::RemoveNode (mfidl.h)
-
 description: Removes a node from the topology.
 old-location: mf\imftopology_removenode.htm
 tech.root: medfound
 ms.assetid: 0dbafd3f-315b-4135-aecd-ad46f2c19886
-
 ms.date: 12/05/2018
 ms.keywords: 0dbafd3f-315b-4135-aecd-ad46f2c19886, IMFTopology interface [Media Foundation],RemoveNode method, IMFTopology.RemoveNode, IMFTopology::RemoveNode, RemoveNode, RemoveNode method [Media Foundation], RemoveNode method [Media Foundation],IMFTopology interface, mf.imftopology_removenode, mfidl/IMFTopology::RemoveNode
 ms.topic: method
-f1_keywords: 
- - "mfidl/IMFTopology.RemoveNode"
+f1_keywords:
+- mfidl/IMFTopology.RemoveNode
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFTopology.RemoveNode
+- IMFTopology.RemoveNode
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:photoacquire.IPhotoAcquireOptionsDialog.Initialize
 title: IPhotoAcquireOptionsDialog::Initialize (photoacquire.h)
-
 description: Initializes the options dialog box and reads any saved options from the registry.
 old-location: picacq\iphotoacquireoptionsdialog_initialize.htm
 tech.root: acquisition
 ms.assetid: 6e3c7876-28a6-4d5f-afca-7c0421df8c02
-
 ms.date: 12/05/2018
 ms.keywords: IPhotoAcquireOptionsDialog interface [Picture Acquisition],Initialize method, IPhotoAcquireOptionsDialog.Initialize, IPhotoAcquireOptionsDialog::Initialize, IPhotoAcquireOptionsDialogInitialize, Initialize, Initialize method [Picture Acquisition], Initialize method [Picture Acquisition],IPhotoAcquireOptionsDialog interface, photoacquire/IPhotoAcquireOptionsDialog::Initialize, picacq.iphotoacquireoptionsdialog_initialize
 ms.topic: method
-f1_keywords: 
- - "photoacquire/IPhotoAcquireOptionsDialog.Initialize"
+f1_keywords:
+- photoacquire/IPhotoAcquireOptionsDialog.Initialize
 dev_langs:
- - c++
+- c++
 req.header: photoacquire.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: PhotoAcquireUID.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - PhotoAcquireUID.lib
- - PhotoAcquireUID.dll
+- PhotoAcquireUID.lib
+- PhotoAcquireUID.dll
 api_name:
- - IPhotoAcquireOptionsDialog.Initialize
+- IPhotoAcquireOptionsDialog.Initialize
 targetos: Windows
 req.typenames: 
 req.redist: 

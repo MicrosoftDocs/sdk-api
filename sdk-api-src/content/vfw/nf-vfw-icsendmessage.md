@@ -1,19 +1,17 @@
 ---
 UID: NF:vfw.ICSendMessage
 title: ICSendMessage function (vfw.h)
-
 description: The ICSendMessage function sends a message to a compressor.
 old-location: multimedia\icsendmessage.htm
 tech.root: Multimedia
 ms.assetid: 0f9c37a9-4bf7-4c49-8a6a-81fbfa76d096
-
 ms.date: 12/05/2018
 ms.keywords: ICSendMessage, ICSendMessage function [Windows Multimedia], _win32_ICSendMessage, multimedia.icsendmessage, vfw/ICSendMessage
 ms.topic: function
-f1_keywords: 
- - "vfw/ICSendMessage"
+f1_keywords:
+- vfw/ICSendMessage
 dev_langs:
- - c++
+- c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Vfw32.lib
 req.dll: Msvfw32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Msvfw32.dll
+- Msvfw32.dll
 api_name:
- - ICSendMessage
+- ICSendMessage
 targetos: Windows
 req.typenames: 
 req.redist: 

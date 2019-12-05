@@ -1,19 +1,17 @@
 ---
 UID: NF:ndfapi.NdfCloseIncident
 title: NdfCloseIncident function (ndfapi.h)
-
 description: Used to close an Network Diagnostics Framework (NDF) incident following its resolution.
 old-location: ndf\ndfcloseincident.htm
 tech.root: NDF
 ms.assetid: 5e5caf41-ca24-42e0-ac22-3b569400c383
-
 ms.date: 12/05/2018
 ms.keywords: NdfCloseIncident, NdfCloseIncident function [NDF], ndf.ndfcloseincident, ndfapi/NdfCloseIncident
 ms.topic: function
-f1_keywords: 
- - "ndfapi/NdfCloseIncident"
+f1_keywords:
+- ndfapi/NdfCloseIncident
 dev_langs:
- - c++
+- c++
 req.header: ndfapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Ndfapi.lib
 req.dll: Ndfapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ndfapi.dll
+- Ndfapi.dll
 api_name:
- - NdfCloseIncident
+- NdfCloseIncident
 targetos: Windows
 req.typenames: 
 req.redist: 

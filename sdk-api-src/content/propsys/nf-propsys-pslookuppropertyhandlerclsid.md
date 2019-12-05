@@ -1,19 +1,17 @@
 ---
 UID: NF:propsys.PSLookupPropertyHandlerCLSID
 title: PSLookupPropertyHandlerCLSID function (propsys.h)
-
 description: Gets the class identifier (CLSID) of a per-computer, registered file property handler.
 old-location: properties\PSLookupPropertyHandlerCLSID.htm
 tech.root: properties
 ms.assetid: 43f90a33-9bd6-4e47-ab92-5e0d01ba268a
-
 ms.date: 12/05/2018
 ms.keywords: PSLookupPropertyHandlerCLSID, PSLookupPropertyHandlerCLSID function [Windows Properties], _shell_PSLookupPropertyHandlerCLSID, properties.PSLookupPropertyHandlerCLSID, propsys/PSLookupPropertyHandlerCLSID, shell.PSLookupPropertyHandlerCLSID
 ms.topic: function
-f1_keywords: 
- - "propsys/PSLookupPropertyHandlerCLSID"
+f1_keywords:
+- propsys/PSLookupPropertyHandlerCLSID
 dev_langs:
- - c++
+- c++
 req.header: propsys.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Propsys.lib
 req.dll: Propsys.dll (version 6.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Propsys.dll
+- Propsys.dll
 api_name:
- - PSLookupPropertyHandlerCLSID
+- PSLookupPropertyHandlerCLSID
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0

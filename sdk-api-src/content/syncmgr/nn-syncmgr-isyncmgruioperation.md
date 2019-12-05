@@ -1,19 +1,17 @@
 ---
 UID: NN:syncmgr.ISyncMgrUIOperation
 title: ISyncMgrUIOperation (syncmgr.h)
-
 description: Exposes a method through which a sync handler or sync item can display a UI object when requested to do so by Sync Center.
 old-location: shell\ISyncMgrUIOperation.htm
 tech.root: shell
 ms.assetid: 6fa4b0ac-3c75-4cda-b20d-582a3e18fb28
-
 ms.date: 12/05/2018
 ms.keywords: ISyncMgrUIOperation, ISyncMgrUIOperation interface [Windows Shell], ISyncMgrUIOperation interface [Windows Shell],described, _shell_ISyncMgrUIOperation, shell.ISyncMgrUIOperation, syncmgr/ISyncMgrUIOperation
 ms.topic: interface
-f1_keywords: 
- - "syncmgr/ISyncMgrUIOperation"
+f1_keywords:
+- syncmgr/ISyncMgrUIOperation
 dev_langs:
- - c++
+- c++
 req.header: syncmgr.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Syncmgr.h
+- Syncmgr.h
 api_name:
- - ISyncMgrUIOperation
+- ISyncMgrUIOperation
 targetos: Windows
 req.typenames: 
 req.redist: 

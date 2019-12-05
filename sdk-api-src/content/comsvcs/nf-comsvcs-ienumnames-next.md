@@ -1,19 +1,17 @@
 ---
 UID: NF:comsvcs.IEnumNames.Next
 title: IEnumNames::Next (comsvcs.h)
-
 description: Retrieves the specified number of items in the enumeration sequence.
 old-location: cos\ienumnames_next.htm
 tech.root: cossdk
 ms.assetid: fa20453f-f170-442d-a927-6872ca75dbed
-
 ms.date: 12/05/2018
 ms.keywords: IEnumNames interface [COM+],Next method, IEnumNames.Next, IEnumNames::Next, Next, Next method [COM+], Next method [COM+],IEnumNames interface, _cos_IEnumNames_Next, comsvcs/IEnumNames::Next, cos.ienumnames_next
 ms.topic: method
-f1_keywords: 
- - "comsvcs/IEnumNames.Next"
+f1_keywords:
+- comsvcs/IEnumNames.Next
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - IEnumNames.Next
+- IEnumNames.Next
 targetos: Windows
 req.typenames: 
 req.redist: 

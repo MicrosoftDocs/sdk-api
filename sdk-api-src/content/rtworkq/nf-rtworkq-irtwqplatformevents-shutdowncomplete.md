@@ -1,19 +1,17 @@
 ---
 UID: NF:rtworkq.IRtwqPlatformEvents.ShutdownComplete
 title: IRtwqPlatformEvents::ShutdownComplete (rtworkq.h)
-
 description: Called after the platform has shutdown.
 old-location: base\irtwqplatformevents_shutdowncomplete.htm
 tech.root: ProcThread
 ms.assetid: 03F4F1D8-8A90-4DDE-B0BC-8F10EBA9691E
-
 ms.date: 12/05/2018
 ms.keywords: IRtwqPlatformEvents interface,ShutdownComplete method, IRtwqPlatformEvents.ShutdownComplete, IRtwqPlatformEvents::ShutdownComplete, ShutdownComplete, ShutdownComplete method, ShutdownComplete method,IRtwqPlatformEvents interface, base.irtwqplatformevents_shutdowncomplete, rtworkq/IRtwqPlatformEvents::ShutdownComplete
 ms.topic: method
-f1_keywords: 
- - "rtworkq/IRtwqPlatformEvents.ShutdownComplete"
+f1_keywords:
+- rtworkq/IRtwqPlatformEvents.ShutdownComplete
 dev_langs:
- - c++
+- c++
 req.header: rtworkq.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Rtworkq.lib
 req.dll: RTWorkQ.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - RTWorkQ.dll
+- RTWorkQ.dll
 api_name:
- - IRtwqPlatformEvents.ShutdownComplete
+- IRtwqPlatformEvents.ShutdownComplete
 targetos: Windows
 req.typenames: 
 req.redist: 

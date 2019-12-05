@@ -1,19 +1,17 @@
 ---
 UID: NS:bthledef._BTH_LE_GATT_CHARACTERISTIC_VALUE
 title: BTH_LE_GATT_CHARACTERISTIC_VALUE (bthledef.h)
-
 description: The BTH_LE_GATT_CHARACTERISTIC_VALUE structure describes a Bluetooth Low Energy (LE) generic attribute (GATT) profile characteristic value.
 old-location: bltooth\bth_le_gatt_characteristic_value.htm
 tech.root: bltooth
 ms.assetid: AF36BC9A-5EB7-4495-870A-40BF5E0A57A3
-
 ms.date: 12/05/2018
-ms.keywords: "*PBTH_LE_GATT_CHARACTERISTIC_VALUE, BTH_LE_GATT_CHARACTERISTIC_VALUE, BTH_LE_GATT_CHARACTERISTIC_VALUE structure [Bluetooth Devices], PBTH_LE_GATT_CHARACTERISTIC_VALUE, PBTH_LE_GATT_CHARACTERISTIC_VALUE structure pointer [Bluetooth Devices], bltooth.bth_le_gatt_characteristic_value, bthledef/BTH_LE_GATT_CHARACTERISTIC_VALUE, bthledef/PBTH_LE_GATT_CHARACTERISTIC_VALUE"
+ms.keywords: '*PBTH_LE_GATT_CHARACTERISTIC_VALUE, BTH_LE_GATT_CHARACTERISTIC_VALUE, BTH_LE_GATT_CHARACTERISTIC_VALUE structure [Bluetooth Devices], PBTH_LE_GATT_CHARACTERISTIC_VALUE, PBTH_LE_GATT_CHARACTERISTIC_VALUE structure pointer [Bluetooth Devices], bltooth.bth_le_gatt_characteristic_value, bthledef/BTH_LE_GATT_CHARACTERISTIC_VALUE, bthledef/PBTH_LE_GATT_CHARACTERISTIC_VALUE'
 ms.topic: struct
-f1_keywords: 
- - "bthledef/BTH_LE_GATT_CHARACTERISTIC_VALUE"
+f1_keywords:
+- bthledef/BTH_LE_GATT_CHARACTERISTIC_VALUE
 dev_langs:
- - c++
+- c++
 req.header: bthledef.h
 req.include-header: BthLEDef.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - BthLEDef.h
+- BthLEDef.h
 api_name:
- - BTH_LE_GATT_CHARACTERISTIC_VALUE
+- BTH_LE_GATT_CHARACTERISTIC_VALUE
 targetos: Windows
 req.typenames: BTH_LE_GATT_CHARACTERISTIC_VALUE, *PBTH_LE_GATT_CHARACTERISTIC_VALUE
 req.redist: 

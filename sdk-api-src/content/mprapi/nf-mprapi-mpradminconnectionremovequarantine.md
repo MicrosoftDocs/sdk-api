@@ -1,19 +1,17 @@
 ---
 UID: NF:mprapi.MprAdminConnectionRemoveQuarantine
 title: MprAdminConnectionRemoveQuarantine function (mprapi.h)
-
 description: The MprAdminConnectionRemoveQuarantine function removes quarantine filters on a dialed-in RAS client if the filters were applied as a result of Internet Authentication Service (IAS) policies.
 old-location: rras\mpradminconnectionremovequarantine.htm
 tech.root: RRAS
 ms.assetid: 9d8c33b4-4227-4538-bc0e-f663d1d560f1
-
 ms.date: 12/05/2018
 ms.keywords: MprAdminConnectionRemoveQuarantine, MprAdminConnectionRemoveQuarantine function [RAS], _mpr_mpradminconnectionremovequarantine, mprapi/MprAdminConnectionRemoveQuarantine, rras.mpradminconnectionremovequarantine
 ms.topic: function
-f1_keywords: 
- - "mprapi/MprAdminConnectionRemoveQuarantine"
+f1_keywords:
+- mprapi/MprAdminConnectionRemoveQuarantine
 dev_langs:
- - c++
+- c++
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Mprapi.lib
 req.dll: Mprapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Mprapi.dll
+- Mprapi.dll
 api_name:
- - MprAdminConnectionRemoveQuarantine
+- MprAdminConnectionRemoveQuarantine
 targetos: Windows
 req.typenames: 
 req.redist: 

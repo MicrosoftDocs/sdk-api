@@ -1,19 +1,17 @@
 ---
 UID: NN:amstream.IAMMediaStream
 title: IAMMediaStream (amstream.h)
-
 description: Note  This interface is deprecated.
 old-location: dshow\iammediastream.htm
 tech.root: DirectShow
 ms.assetid: 14185e7d-d08d-4fd8-a255-075eaf12a708
-
 ms.date: 12/05/2018
 ms.keywords: IAMMediaStream, IAMMediaStream interface [DirectShow], IAMMediaStream interface [DirectShow],described, IAMMediaStreamInterface, amstream/IAMMediaStream, dshow.iammediastream
 ms.topic: interface
-f1_keywords: 
- - "amstream/IAMMediaStream"
+f1_keywords:
+- amstream/IAMMediaStream
 dev_langs:
- - c++
+- c++
 req.header: amstream.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - amstream.h
+- amstream.h
 api_name:
- - IAMMediaStream
+- IAMMediaStream
 targetos: Windows
 req.typenames: 
 req.redist: 

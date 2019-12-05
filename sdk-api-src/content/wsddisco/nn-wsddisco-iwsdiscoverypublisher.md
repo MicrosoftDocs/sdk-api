@@ -1,19 +1,17 @@
 ---
 UID: NN:wsddisco.IWSDiscoveryPublisher
 title: IWSDiscoveryPublisher (wsddisco.h)
-
 description: Provides methods for announcing hosts and managing incoming queries to hosts.
 old-location: ncd\iwsdiscoverypublisher.htm
 tech.root: WsdApi
 ms.assetid: 4fff1328-d315-4a26-b7d8-43a273133e08
-
 ms.date: 12/05/2018
 ms.keywords: IWSDiscoveryPublisher, IWSDiscoveryPublisher interface, IWSDiscoveryPublisher interface,described, ncd.iwsdiscoverypublisher, wsddisco/IWSDiscoveryPublisher
 ms.topic: interface
-f1_keywords: 
- - "wsddisco/IWSDiscoveryPublisher"
+f1_keywords:
+- wsddisco/IWSDiscoveryPublisher
 dev_langs:
- - c++
+- c++
 req.header: wsddisco.h
 req.include-header: Wsdapi.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wsdapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wsdapi.dll
+- Wsdapi.dll
 api_name:
- - IWSDiscoveryPublisher
+- IWSDiscoveryPublisher
 targetos: Windows
 req.typenames: 
 req.redist: 

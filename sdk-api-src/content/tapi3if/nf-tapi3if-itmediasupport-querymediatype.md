@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi3if.ITMediaSupport.QueryMediaType
 title: ITMediaSupport::QueryMediaType (tapi3if.h)
-
 description: The QueryMediaType method indicates whether the service provider associated with the current address supports the media type or types indicated by lMediaType.
 old-location: tapi3\itmediasupport_querymediatype.htm
 tech.root: Tapi
 ms.assetid: 684bfd94-5bef-415b-b548-49f564ce8a83
-
 ms.date: 12/05/2018
 ms.keywords: ITMediaSupport interface [TAPI 2.2],QueryMediaType method, ITMediaSupport.QueryMediaType, ITMediaSupport::QueryMediaType, QueryMediaType, QueryMediaType method [TAPI 2.2], QueryMediaType method [TAPI 2.2],ITMediaSupport interface, _tapi3_itmediasupport_querymediatype, tapi3.itmediasupport_querymediatype, tapi3if/ITMediaSupport::QueryMediaType
 ms.topic: method
-f1_keywords: 
- - "tapi3if/ITMediaSupport.QueryMediaType"
+f1_keywords:
+- tapi3if/ITMediaSupport.QueryMediaType
 dev_langs:
- - c++
+- c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Tapi3.dll
+- Tapi3.dll
 api_name:
- - ITMediaSupport.QueryMediaType
+- ITMediaSupport.QueryMediaType
 targetos: Windows
 req.typenames: 
 req.redist: 

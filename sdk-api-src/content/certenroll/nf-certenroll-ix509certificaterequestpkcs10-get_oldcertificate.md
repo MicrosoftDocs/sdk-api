@@ -1,19 +1,17 @@
 ---
 UID: NF:certenroll.IX509CertificateRequestPkcs10.get_OldCertificate
 title: IX509CertificateRequestPkcs10::get_OldCertificate (certenroll.h)
-
 description: Retrieves the certificate passed to the InitializeFromCertificate method.
 old-location: security\ix509certificaterequestpkcs10_oldcertificate_property.htm
 tech.root: seccertenroll
 ms.assetid: 8bb15b5c-e642-477d-bcec-772748e336ef
-
 ms.date: 12/05/2018
 ms.keywords: IX509CertificateRequestPkcs10 interface [Security],OldCertificate property, IX509CertificateRequestPkcs10.OldCertificate, IX509CertificateRequestPkcs10.get_OldCertificate, IX509CertificateRequestPkcs10::OldCertificate, IX509CertificateRequestPkcs10::get_OldCertificate, OldCertificate property [Security], OldCertificate property [Security],IX509CertificateRequestPkcs10 interface, certenroll/IX509CertificateRequestPkcs10::OldCertificate, certenroll/IX509CertificateRequestPkcs10::get_OldCertificate, get_OldCertificate, security.ix509certificaterequestpkcs10_oldcertificate_property
 ms.topic: method
-f1_keywords: 
- - "certenroll/IX509CertificateRequestPkcs10.OldCertificate"
+f1_keywords:
+- certenroll/IX509CertificateRequestPkcs10.OldCertificate
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: CertEnroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CertEnroll.dll
+- CertEnroll.dll
 api_name:
- - IX509CertificateRequestPkcs10.OldCertificate
- - IX509CertificateRequestPkcs10.get_OldCertificate
+- IX509CertificateRequestPkcs10.OldCertificate
+- IX509CertificateRequestPkcs10.get_OldCertificate
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:imagehlp.ImageAddCertificate
 title: ImageAddCertificate function (imagehlp.h)
-
 description: Adds a certificate to the specified file.
 old-location: base\imageaddcertificate.htm
 tech.root: Debug
 ms.assetid: c0cf3845-749b-4d20-ab67-6ace2ac30793
-
 ms.date: 12/05/2018
 ms.keywords: ImageAddCertificate, ImageAddCertificate function, _win32_imageaddcertificate, base.imageaddcertificate, imagehlp/ImageAddCertificate
 ms.topic: function
-f1_keywords: 
- - "imagehlp/ImageAddCertificate"
+f1_keywords:
+- imagehlp/ImageAddCertificate
 dev_langs:
- - c++
+- c++
 req.header: imagehlp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Imagehlp.lib
 req.dll: Imagehlp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Imagehlp.dll
+- Imagehlp.dll
 api_name:
- - ImageAddCertificate
+- ImageAddCertificate
 targetos: Windows
 req.typenames: 
 req.redist: 

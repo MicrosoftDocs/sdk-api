@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi3if.ITSubStreamControl.EnumerateSubStreams
 title: ITSubStreamControl::EnumerateSubStreams (tapi3if.h)
-
 description: The EnumerateSubStreams method enumerates currently available media substreams. Provided for C and C++ applications. Automation client applications such as Visual Basic must use the get_SubStreams method.
 old-location: tapi3\itsubstreamcontrol_enumeratesubstreams.htm
 tech.root: Tapi
 ms.assetid: 848d31e8-f878-4d33-b2b9-2d28e96bd14a
-
 ms.date: 12/05/2018
 ms.keywords: EnumerateSubStreams, EnumerateSubStreams method [TAPI 2.2], EnumerateSubStreams method [TAPI 2.2],ITSubStreamControl interface, ITSubStreamControl interface [TAPI 2.2],EnumerateSubStreams method, ITSubStreamControl.EnumerateSubStreams, ITSubStreamControl::EnumerateSubStreams, _tapi3_itsubstreamcontrol_enumeratesubstreams, tapi3.itsubstreamcontrol_enumeratesubstreams, tapi3if/ITSubStreamControl::EnumerateSubStreams
 ms.topic: method
-f1_keywords: 
- - "tapi3if/ITSubStreamControl.EnumerateSubStreams"
+f1_keywords:
+- tapi3if/ITSubStreamControl.EnumerateSubStreams
 dev_langs:
- - c++
+- c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - tapi3if.h
+- tapi3if.h
 api_name:
- - ITSubStreamControl.EnumerateSubStreams
+- ITSubStreamControl.EnumerateSubStreams
 targetos: Windows
 req.typenames: 
 req.redist: 

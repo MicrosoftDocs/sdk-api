@@ -1,19 +1,17 @@
 ---
 UID: NF:eventsys.IPublisherFilter.PrepareToFire
 title: IPublisherFilter::PrepareToFire (eventsys.h)
-
 description: Prepares a publisher filter to begin firing a filtered list of subscriptions using a provided firing control. The firing control is contained in the event class object.
 old-location: cos\ipublisherfilter_preparetofire.htm
 tech.root: cossdk
 ms.assetid: 78faa83f-ee73-4034-9be1-5576e5a909e3
-
 ms.date: 12/05/2018
 ms.keywords: IPublisherFilter interface [COM+],PrepareToFire method, IPublisherFilter.PrepareToFire, IPublisherFilter::PrepareToFire, PrepareToFire, PrepareToFire method [COM+], PrepareToFire method [COM+],IPublisherFilter interface, _cos_IPublisherFilter_PrepareToFire, cos.ipublisherfilter_preparetofire, eventsys/IPublisherFilter::PrepareToFire
 ms.topic: method
-f1_keywords: 
- - "eventsys/IPublisherFilter.PrepareToFire"
+f1_keywords:
+- eventsys/IPublisherFilter.PrepareToFire
 dev_langs:
- - c++
+- c++
 req.header: eventsys.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - EventSys.h
+- EventSys.h
 api_name:
- - IPublisherFilter.PrepareToFire
+- IPublisherFilter.PrepareToFire
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:mssip.CryptSIPRetrieveSubjectGuidForCatalogFile
 title: CryptSIPRetrieveSubjectGuidForCatalogFile function (mssip.h)
-
 description: Retrieves the subject GUID associated with the specified file.
 old-location: security\cryptsipretrievesubjectguidforcatalogfile.htm
 tech.root: SecCrypto
 ms.assetid: 7f757dc8-948c-476e-aca3-a9051e962ed4
-
 ms.date: 12/05/2018
 ms.keywords: CryptSIPRetrieveSubjectGuidForCatalogFile, CryptSIPRetrieveSubjectGuidForCatalogFile function [Security], mssip/CryptSIPRetrieveSubjectGuidForCatalogFile, security.cryptsipretrievesubjectguidforcatalogfile
 ms.topic: function
-f1_keywords: 
- - "mssip/CryptSIPRetrieveSubjectGuidForCatalogFile"
+f1_keywords:
+- mssip/CryptSIPRetrieveSubjectGuidForCatalogFile
 dev_langs:
- - c++
+- c++
 req.header: mssip.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Crypt32.lib
 req.dll: Crypt32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Crypt32.dll
+- Crypt32.dll
 api_name:
- - CryptSIPRetrieveSubjectGuidForCatalogFile
+- CryptSIPRetrieveSubjectGuidForCatalogFile
 targetos: Windows
 req.typenames: 
 req.redist: 

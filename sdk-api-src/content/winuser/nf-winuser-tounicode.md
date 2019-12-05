@@ -1,19 +1,17 @@
 ---
 UID: NF:winuser.ToUnicode
 title: ToUnicode function (winuser.h)
-
 description: Translates the specified virtual-key code and keyboard state to the corresponding Unicode character or characters.
 old-location: inputdev\tounicode.htm
 tech.root: inputdev
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\keyboardinput\keyboardinputreference\keyboardinputfunctions\tounicode.htm
-
 ms.date: 12/05/2018
 ms.keywords: ToUnicode, ToUnicode function [Keyboard and Mouse Input], _win32_ToUnicode, _win32_tounicode_cpp, inputdev.tounicode, winui._win32_tounicode, winuser/ToUnicode
 ms.topic: function
-f1_keywords: 
- - "winuser/ToUnicode"
+f1_keywords:
+- winuser/ToUnicode
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - User32.dll
+- User32.dll
 api_name:
- - ToUnicode
+- ToUnicode
 targetos: Windows
 req.typenames: 
 req.redist: 

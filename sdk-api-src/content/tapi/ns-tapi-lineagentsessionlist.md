@@ -1,19 +1,17 @@
 ---
 UID: NS:tapi.lineagentsessionlist_tag
 title: LINEAGENTSESSIONLIST (tapi.h)
-
 description: The LINEAGENTSESSIONLIST structure describes a list of ACD agent sessions. This structure can contain an array of LINEAGENTSESSIONENTRY structures. The lineGetAgentSessionList function returns the LINEAGENTSESSIONLIST structure.
 old-location: tapi2\lineagentsessionlist_str.htm
 tech.root: Tapi
 ms.assetid: b14df70c-1630-46e7-a675-feb5c71dcd14
-
 ms.date: 12/05/2018
-ms.keywords: "*LPLINEAGENTSESSIONLIST, LINEAGENTSESSIONLIST, LINEAGENTSESSIONLIST structure [TAPI 2.2], LPLINEAGENTSESSIONLIST, LPLINEAGENTSESSIONLIST structure pointer [TAPI 2.2], _tapi2_lineagentsessionlist_str, tapi/LINEAGENTSESSIONLIST, tapi/LPLINEAGENTSESSIONLIST, tapi2.lineagentsessionlist_str"
+ms.keywords: '*LPLINEAGENTSESSIONLIST, LINEAGENTSESSIONLIST, LINEAGENTSESSIONLIST structure [TAPI 2.2], LPLINEAGENTSESSIONLIST, LPLINEAGENTSESSIONLIST structure pointer [TAPI 2.2], _tapi2_lineagentsessionlist_str, tapi/LINEAGENTSESSIONLIST, tapi/LPLINEAGENTSESSIONLIST, tapi2.lineagentsessionlist_str'
 ms.topic: struct
-f1_keywords: 
- - "tapi/LINEAGENTSESSIONLIST"
+f1_keywords:
+- tapi/LINEAGENTSESSIONLIST
 dev_langs:
- - c++
+- c++
 req.header: tapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Tapi.h
+- Tapi.h
 api_name:
- - LINEAGENTSESSIONLIST
+- LINEAGENTSESSIONLIST
 targetos: Windows
 req.typenames: LINEAGENTSESSIONLIST, *LPLINEAGENTSESSIONLIST
 req.redist: 

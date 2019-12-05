@@ -1,7 +1,6 @@
 ---
 UID: NA:mspcall
 ms.assetid: 8223b3d5-d86e-3afb-8594-f41a5c0f0eee
-
 ms.date: 01/11/2019
 ms.keywords: 
 ms.topic: portal

@@ -1,19 +1,17 @@
 ---
 UID: NS:mapi.__unnamed_struct_2
 title: MapiFileTagExt (mapi.h)
-
 description: A MapiFileTagExt structure specifies a message attachment's type at its creation and its current form of encoding so that it can be restored to its original type at its destination.
 old-location: mapi\mapifiletagext.htm
 tech.root: WindowsMAPI
 ms.assetid: 5f6de637-14a8-46bb-a53e-f355d7592222
-
 ms.date: 12/05/2018
-ms.keywords: "*lpMapiFileTagExt, MapiFileTagExt, MapiFileTagExt structure, lpMapiFileTagExt, lpMapiFileTagExt structure pointer, mapi.mapifiletagext, mapi/MapiFileTagExt, mapi/lpMapiFileTagExt"
+ms.keywords: '*lpMapiFileTagExt, MapiFileTagExt, MapiFileTagExt structure, lpMapiFileTagExt, lpMapiFileTagExt structure pointer, mapi.mapifiletagext, mapi/MapiFileTagExt, mapi/lpMapiFileTagExt'
 ms.topic: struct
-f1_keywords: 
- - "mapi/MapiFileTagExt"
+f1_keywords:
+- mapi/MapiFileTagExt
 dev_langs:
- - c++
+- c++
 req.header: mapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Mapi.h
+- Mapi.h
 api_name:
- - MapiFileTagExt
+- MapiFileTagExt
 targetos: Windows
 req.typenames: MapiFileTagExt, *lpMapiFileTagExt
 req.redist: 

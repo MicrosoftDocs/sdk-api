@@ -1,19 +1,17 @@
 ---
 UID: NF:spellcheck.IEnumSpellingError.Next
 title: IEnumSpellingError::Next (spellcheck.h)
-
 description: Gets the next spelling error.
 old-location: intl\ienumspellingerror_next.htm
 tech.root: Intl
 ms.assetid: c0fba585-2511-4162-8232-4e0510dc9261
-
 ms.date: 12/05/2018
 ms.keywords: IEnumSpellingError interface [Internationalization for Windows Applications],Next method, IEnumSpellingError.Next, IEnumSpellingError::Next, Next, Next method [Internationalization for Windows Applications], Next method [Internationalization for Windows Applications],IEnumSpellingError interface, intl.ienumspellingerror_next, spellcheck/IEnumSpellingError::Next
 ms.topic: method
-f1_keywords: 
- - "spellcheck/IEnumSpellingError.Next"
+f1_keywords:
+- spellcheck/IEnumSpellingError.Next
 dev_langs:
- - c++
+- c++
 req.header: spellcheck.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Spellcheck.h
+- Spellcheck.h
 api_name:
- - IEnumSpellingError.Next
+- IEnumSpellingError.Next
 targetos: Windows
 req.typenames: 
 req.redist: 

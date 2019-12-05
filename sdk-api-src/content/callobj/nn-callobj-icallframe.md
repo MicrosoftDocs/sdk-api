@@ -1,19 +1,17 @@
 ---
 UID: NN:callobj.ICallFrame
 title: ICallFrame (callobj.h)
-
 description: Enables manipulation of call frames such as stack frames.
 old-location: com\icallframe.htm
 tech.root: com
 ms.assetid: 56a75123-f402-4187-af13-d31f72a5f094
-
 ms.date: 12/05/2018
 ms.keywords: ICallFrame, ICallFrame interface [COM], ICallFrame interface [COM],described, _com_icallframe_interface, callobj/ICallFrame, com.icallframe
 ms.topic: interface
-f1_keywords: 
- - "callobj/ICallFrame"
+f1_keywords:
+- callobj/ICallFrame
 dev_langs:
- - c++
+- c++
 req.header: callobj.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Callobj.h
+- Callobj.h
 api_name:
- - ICallFrame
+- ICallFrame
 targetos: Windows
 req.typenames: 
 req.redist: 

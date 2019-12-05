@@ -1,19 +1,17 @@
 ---
 UID: NF:dvbsiparser.IDVB_NIT.GetNetworkId
 title: IDVB_NIT::GetNetworkId (dvbsiparser.h)
-
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\idvb_nit_getnetworkid.htm
 tech.root: mstv
 ms.assetid: 86841b62-d6c0-4911-baf7-dd6d1a08a770
-
 ms.date: 12/05/2018
 ms.keywords: GetNetworkId, GetNetworkId method [Microsoft TV Technologies], GetNetworkId method [Microsoft TV Technologies],IDVB_NIT interface, IDVB_NIT interface [Microsoft TV Technologies],GetNetworkId method, IDVB_NIT.GetNetworkId, IDVB_NIT::GetNetworkId, IDVB_NITGetNetworkId, dvbsiparser/IDVB_NIT::GetNetworkId, mstv.idvb_nit_getnetworkid
 ms.topic: method
-f1_keywords: 
- - "dvbsiparser/IDVB_NIT.GetNetworkId"
+f1_keywords:
+- dvbsiparser/IDVB_NIT.GetNetworkId
 dev_langs:
- - c++
+- c++
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dvbsiparser.h
+- dvbsiparser.h
 api_name:
- - IDVB_NIT.GetNetworkId
+- IDVB_NIT.GetNetworkId
 targetos: Windows
 req.typenames: 
 req.redist: 

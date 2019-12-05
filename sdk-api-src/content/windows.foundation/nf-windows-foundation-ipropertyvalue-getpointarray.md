@@ -1,19 +1,17 @@
 ---
 UID: NF:windows.foundation.IPropertyValue.GetPointArray
 title: IPropertyValue::IPropertyValue (windows.foundation.h)
-
 description: Gets the array of Point values that is stored in the current IPropertyValue object.
 old-location: winrt\ipropertyvalue_getpointarray.htm
 tech.root: WinRT
 ms.assetid: 7df4ad4e-3ca6-4956-b907-02c2cb6e481b
-
 ms.date: 12/05/2018
 ms.keywords: GetPointArray, GetPointArray method [Windows Runtime], GetPointArray method [Windows Runtime],IPropertyValue interface, IPropertyValue interface [Windows Runtime],GetPointArray method, IPropertyValue.GetPointArray, IPropertyValue.IPropertyValue, IPropertyValue::GetPointArray, IPropertyValue::IPropertyValue, windows/IPropertyValue::GetPointArray, winrt.ipropertyvalue_getpointarray
 ms.topic: method
-f1_keywords: 
- - "windows.foundation/IPropertyValue.GetPointArray"
+f1_keywords:
+- windows.foundation/IPropertyValue.GetPointArray
 dev_langs:
- - c++
+- c++
 req.header: windows.foundation.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Windows.Foundation.h
+- Windows.Foundation.h
 api_name:
- - IPropertyValue.GetPointArray
+- IPropertyValue.GetPointArray
 targetos: Windows
 req.typenames: 
 req.redist: 

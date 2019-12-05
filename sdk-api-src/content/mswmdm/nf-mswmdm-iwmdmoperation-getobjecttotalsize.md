@@ -1,19 +1,17 @@
 ---
 UID: NF:mswmdm.IWMDMOperation.GetObjectTotalSize
 title: IWMDMOperation::GetObjectTotalSize (mswmdm.h)
-
 description: Windows Media Device Manager calls GetObjectTotalSize before a file is written to the device in order to retrieve the total size of the object, in bytes.
 old-location: wmdm\iwmdmoperation_getobjecttotalsize.htm
 tech.root: WMDM
 ms.assetid: 50ab01f9-0f38-485e-b7d9-98bc95948427
-
 ms.date: 12/05/2018
 ms.keywords: GetObjectTotalSize, GetObjectTotalSize method [windows Media Device Manager], GetObjectTotalSize method [windows Media Device Manager],IWMDMOperation interface, IWMDMOperation interface [windows Media Device Manager],GetObjectTotalSize method, IWMDMOperation.GetObjectTotalSize, IWMDMOperation::GetObjectTotalSize, IWMDMOperationGetObjectTotalSize, mswmdm/IWMDMOperation::GetObjectTotalSize, wmdm.iwmdmoperation_getobjecttotalsize
 ms.topic: method
-f1_keywords: 
- - "mswmdm/IWMDMOperation.GetObjectTotalSize"
+f1_keywords:
+- mswmdm/IWMDMOperation.GetObjectTotalSize
 dev_langs:
- - c++
+- c++
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mssachlp.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mssachlp.lib
- - mssachlp.dll
+- mssachlp.lib
+- mssachlp.dll
 api_name:
- - IWMDMOperation.GetObjectTotalSize
+- IWMDMOperation.GetObjectTotalSize
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NN:shobjidl_core.IShellItem2
 title: IShellItem2 (shobjidl_core.h)
-
 description: Extends IShellItem with methods that retrieve various property values of the item. IShellItem and IShellItem2 are the preferred representations of items in any new code.
 old-location: shell\IShellItem2.htm
 tech.root: shell
 ms.assetid: e54d8385-ec67-4825-ad7c-431807a4fcb4
-
 ms.date: 12/05/2018
 ms.keywords: IShellItem2, IShellItem2 interface [Windows Shell], IShellItem2 interface [Windows Shell],described, _shell_IShellItem2, shell.IShellItem2, shobjidl_core/IShellItem2
 ms.topic: interface
-f1_keywords: 
- - "shobjidl_core/IShellItem2"
+f1_keywords:
+- shobjidl_core/IShellItem2
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - IShellItem2
+- IShellItem2
 targetos: Windows
 req.typenames: 
 req.redist: 

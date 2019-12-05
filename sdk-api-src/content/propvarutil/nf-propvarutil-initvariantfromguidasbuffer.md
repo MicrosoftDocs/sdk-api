@@ -1,19 +1,17 @@
 ---
 UID: NF:propvarutil.InitVariantFromGUIDAsBuffer
 title: InitVariantFromGUIDAsBuffer function (propvarutil.h)
-
 description: Initializes a VARIANT structure based on a GUID. The structure is initialized as VT_ARRAY | VT_UI1.
 old-location: properties\InitVariantFromGUIDAsBuffer.htm
 tech.root: properties
 ms.assetid: c46c1263-527a-4a64-b4c9-4c4779b271c7
-
 ms.date: 12/05/2018
 ms.keywords: InitVariantFromGUIDAsBuffer, InitVariantFromGUIDAsBuffer function [Windows Properties], properties.InitVariantFromGUIDAsBuffer, propvarutil/InitVariantFromGUIDAsBuffer, shell.InitVariantFromGUIDAsBuffer, shell_InitVariantFromGUIDAsBuffer
 ms.topic: function
-f1_keywords: 
- - "propvarutil/InitVariantFromGUIDAsBuffer"
+f1_keywords:
+- propvarutil/InitVariantFromGUIDAsBuffer
 dev_langs:
- - c++
+- c++
 req.header: propvarutil.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Propvarutil.h
+- Propvarutil.h
 api_name:
- - InitVariantFromGUIDAsBuffer
+- InitVariantFromGUIDAsBuffer
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0

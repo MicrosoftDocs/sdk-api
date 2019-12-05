@@ -1,19 +1,17 @@
 ---
 UID: NF:gdipluspen.Pen.SetLineCap
 title: Pen::SetLineCap (gdipluspen.h)
-
 description: The Pen::SetLineCap method sets the cap styles for the start, end, and dashes in a line drawn with this pen.
 old-location: gdiplus\_gdiplus_CLASS_Pen_SetLineCap_startCap_endCap_dashCap_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\penclass\penmethods\setlinecap.htm
-
 ms.date: 12/05/2018
 ms.keywords: Pen class [GDI+],SetLineCap method, Pen.SetLineCap, Pen::SetLineCap, SetLineCap, SetLineCap method [GDI+], SetLineCap method [GDI+],Pen class, _gdiplus_CLASS_Pen_SetLineCap_startCap_endCap_dashCap_, gdiplus._gdiplus_CLASS_Pen_SetLineCap_startCap_endCap_dashCap_
 ms.topic: method
-f1_keywords: 
- - "gdipluspen/Pen.SetLineCap"
+f1_keywords:
+- gdipluspen/Pen.SetLineCap
 dev_langs:
- - c++
+- c++
 req.header: gdipluspen.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - Pen.SetLineCap
+- Pen.SetLineCap
 targetos: Windows
 req.typenames: 
 req.redist: 

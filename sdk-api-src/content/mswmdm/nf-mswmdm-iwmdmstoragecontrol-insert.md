@@ -1,19 +1,17 @@
 ---
 UID: NF:mswmdm.IWMDMStorageControl.Insert
 title: IWMDMStorageControl::Insert (mswmdm.h)
-
 description: The Insert method puts content into the storage on the device.
 old-location: wmdm\iwmdmstoragecontrol_insert.htm
 tech.root: WMDM
 ms.assetid: 909b94fd-99de-4e26-87d6-d074a6eb5da3
-
 ms.date: 12/05/2018
 ms.keywords: IWMDMStorageControl interface [windows Media Device Manager],Insert method, IWMDMStorageControl.Insert, IWMDMStorageControl::Insert, IWMDMStorageControlInsert, Insert, Insert method [windows Media Device Manager], Insert method [windows Media Device Manager],IWMDMStorageControl interface, mswmdm/IWMDMStorageControl::Insert, wmdm.iwmdmstoragecontrol_insert
 ms.topic: method
-f1_keywords: 
- - "mswmdm/IWMDMStorageControl.Insert"
+f1_keywords:
+- mswmdm/IWMDMStorageControl.Insert
 dev_langs:
- - c++
+- c++
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mssachlp.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mssachlp.lib
- - mssachlp.dll
+- mssachlp.lib
+- mssachlp.dll
 api_name:
- - IWMDMStorageControl.Insert
+- IWMDMStorageControl.Insert
 targetos: Windows
 req.typenames: 
 req.redist: 

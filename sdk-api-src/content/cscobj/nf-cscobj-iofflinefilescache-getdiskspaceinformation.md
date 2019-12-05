@@ -1,19 +1,17 @@
 ---
 UID: NF:cscobj.IOfflineFilesCache.GetDiskSpaceInformation
 title: IOfflineFilesCache::GetDiskSpaceInformation (cscobj.h)
-
 description: Retrieves the amount of disk space used by the Offline Files cache as well as the space limits applied to cache usage.
 old-location: of\iofflinefilescache_getdiskspaceinformation.htm
 tech.root: offlinefiles
 ms.assetid: 94ea826a-bfc4-4010-a57f-c3a1af985d03
-
 ms.date: 12/05/2018
 ms.keywords: GetDiskSpaceInformation, GetDiskSpaceInformation method [Offline Files], GetDiskSpaceInformation method [Offline Files],IOfflineFilesCache interface, IOfflineFilesCache interface [Offline Files],GetDiskSpaceInformation method, IOfflineFilesCache.GetDiskSpaceInformation, IOfflineFilesCache::GetDiskSpaceInformation, cscobj/IOfflineFilesCache::GetDiskSpaceInformation, of.iofflinefilescache_getdiskspaceinformation
 ms.topic: method
-f1_keywords: 
- - "cscobj/IOfflineFilesCache.GetDiskSpaceInformation"
+f1_keywords:
+- cscobj/IOfflineFilesCache.GetDiskSpaceInformation
 dev_langs:
- - c++
+- c++
 req.header: cscobj.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: CscSvc.dll; CscObj.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CscSvc.dll
- - CscObj.dll
+- CscSvc.dll
+- CscObj.dll
 api_name:
- - IOfflineFilesCache.GetDiskSpaceInformation
+- IOfflineFilesCache.GetDiskSpaceInformation
 targetos: Windows
 req.typenames: 
 req.redist: 

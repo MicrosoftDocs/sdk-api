@@ -1,19 +1,17 @@
 ---
 UID: NE:comsvcs.tagCRMFLAGS
 title: CRMFLAGS (comsvcs.h)
-
 description: Provides information about when a particular log record to the CRM compensator was written.
 old-location: cos\crmflags.htm
 tech.root: cossdk
 ms.assetid: ef41c99c-9f57-430f-af43-ba0ee1eb7a03
-
 ms.date: 12/05/2018
 ms.keywords: CRMFLAGS, CRMFLAGS enumeration [COM+], CRMFLAG_FORGETTARGET, CRMFLAG_REPLAYINPROGRESS, CRMFLAG_WRITTENDURINGABORT, CRMFLAG_WRITTENDURINGCOMMIT, CRMFLAG_WRITTENDURINGPREPARE, CRMFLAG_WRITTENDURINGRECOVERY, CRMFLAG_WRITTENDURINGREPLAY, _cos_CRMFLAGS, comsvcs/CRMFLAGS, comsvcs/CRMFLAG_FORGETTARGET, comsvcs/CRMFLAG_REPLAYINPROGRESS, comsvcs/CRMFLAG_WRITTENDURINGABORT, comsvcs/CRMFLAG_WRITTENDURINGCOMMIT, comsvcs/CRMFLAG_WRITTENDURINGPREPARE, comsvcs/CRMFLAG_WRITTENDURINGRECOVERY, comsvcs/CRMFLAG_WRITTENDURINGREPLAY, cos.crmflags
 ms.topic: enum
-f1_keywords: 
- - "comsvcs/CRMFLAGS"
+f1_keywords:
+- comsvcs/CRMFLAGS
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - CRMFLAGS
+- CRMFLAGS
 targetos: Windows
 req.typenames: CRMFLAGS
 req.redist: 

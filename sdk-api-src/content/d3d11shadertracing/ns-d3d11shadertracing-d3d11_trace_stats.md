@@ -1,19 +1,17 @@
 ---
 UID: NS:d3d11shadertracing.D3D11_TRACE_STATS
 title: D3D11_TRACE_STATS (d3d11shadertracing.h)
-
 description: Specifies statistics about a trace.
 old-location: direct3d11\d3d11_trace_stats.htm
 tech.root: direct3d11
 ms.assetid: E4E44F7F-3760-490D-9BA3-677F63B93AA6
-
 ms.date: 12/05/2018
 ms.keywords: D3D11_TRACE_STATS, D3D11_TRACE_STATS structure [Direct3D 11], d3d11shadertracing/D3D11_TRACE_STATS, direct3d11.d3d11_trace_stats
 ms.topic: struct
-f1_keywords: 
- - "d3d11shadertracing/D3D11_TRACE_STATS"
+f1_keywords:
+- d3d11shadertracing/D3D11_TRACE_STATS
 dev_langs:
- - c++
+- c++
 req.header: d3d11shadertracing.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - D3D11ShaderTracing.h
+- D3D11ShaderTracing.h
 api_name:
- - D3D11_TRACE_STATS
+- D3D11_TRACE_STATS
 targetos: Windows
 req.typenames: D3D11_TRACE_STATS
 req.redist: 

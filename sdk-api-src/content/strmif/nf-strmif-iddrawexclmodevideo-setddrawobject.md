@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IDDrawExclModeVideo.SetDDrawObject
 title: IDDrawExclModeVideo::SetDDrawObject (strmif.h)
-
 description: The SetDDrawObject method sets the DirectDraw object to be used in subsequent drawing.
 old-location: dshow\iddrawexclmodevideo_setddrawobject.htm
 tech.root: DirectShow
 ms.assetid: fce1b5df-c3df-475c-adde-392c25d05e4c
-
 ms.date: 12/05/2018
 ms.keywords: IDDrawExclModeVideo interface [DirectShow],SetDDrawObject method, IDDrawExclModeVideo.SetDDrawObject, IDDrawExclModeVideo::SetDDrawObject, IDDrawExclModeVideoSetDDrawObject, SetDDrawObject, SetDDrawObject method [DirectShow], SetDDrawObject method [DirectShow],IDDrawExclModeVideo interface, dshow.iddrawexclmodevideo_setddrawobject, strmif/IDDrawExclModeVideo::SetDDrawObject
 ms.topic: method
-f1_keywords: 
- - "strmif/IDDrawExclModeVideo.SetDDrawObject"
+f1_keywords:
+- strmif/IDDrawExclModeVideo.SetDDrawObject
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IDDrawExclModeVideo.SetDDrawObject
+- IDDrawExclModeVideo.SetDDrawObject
 targetos: Windows
 req.typenames: 
 req.redist: 

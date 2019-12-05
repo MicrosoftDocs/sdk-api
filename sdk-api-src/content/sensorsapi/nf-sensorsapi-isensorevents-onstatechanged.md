@@ -1,19 +1,17 @@
 ---
 UID: NF:sensorsapi.ISensorEvents.OnStateChanged
 title: ISensorEvents::OnStateChanged (sensorsapi.h)
-
 description: Provides a notification that a sensor state has changed.
 old-location: winsensors_com_ref\isensorevents_onstatechanged.htm
 tech.root: SensorsAPI
 ms.assetid: fb995dba-23aa-4a09-b411-7e95019535ce
-
 ms.date: 12/05/2018
 ms.keywords: ISensorEvents interface,OnStateChanged method, ISensorEvents.OnStateChanged, ISensorEvents::OnStateChanged, OnStateChanged, OnStateChanged method, OnStateChanged method,ISensorEvents interface, sensorsapi/ISensorEvents::OnStateChanged, winsensors_com_ref.isensorevents_onstatechanged
 ms.topic: method
-f1_keywords: 
- - "sensorsapi/ISensorEvents.OnStateChanged"
+f1_keywords:
+- sensorsapi/ISensorEvents.OnStateChanged
 dev_langs:
- - c++
+- c++
 req.header: sensorsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Sensorsapi.lib
 req.dll: Sensorsapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - sensorsapi.dll
+- sensorsapi.dll
 api_name:
- - ISensorEvents.OnStateChanged
+- ISensorEvents.OnStateChanged
 targetos: Windows
 req.typenames: 
 req.redist: 

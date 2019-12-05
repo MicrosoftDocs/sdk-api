@@ -1,19 +1,17 @@
 ---
 UID: NF:vds.IVdsControllerPort.Reset
 title: IVdsControllerPort::Reset (vds.h)
-
 description: Reinitializes the controller port.
 old-location: base\ivdscontrollerport_reset.htm
 tech.root: VDS
 ms.assetid: e298ef9d-8abb-450b-97d3-e97d64f0e734
-
 ms.date: 12/05/2018
 ms.keywords: IVdsControllerPort interface [VDS],Reset method, IVdsControllerPort.Reset, IVdsControllerPort::Reset, Reset, Reset method [VDS], Reset method [VDS],IVdsControllerPort interface, base.ivdscontrollerport_reset, vds/IVdsControllerPort::Reset, vdshwprv/IVdsControllerPort::Reset
 ms.topic: method
-f1_keywords: 
- - "vds/IVdsControllerPort.Reset"
+f1_keywords:
+- vds/IVdsControllerPort.Reset
 dev_langs:
- - c++
+- c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Vds.h
- - VdsHwPrv.h
+- Vds.h
+- VdsHwPrv.h
 api_name:
- - IVdsControllerPort.Reset
+- IVdsControllerPort.Reset
 targetos: Windows
 req.typenames: 
 req.redist: 

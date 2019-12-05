@@ -1,19 +1,17 @@
 ---
 UID: NF:directxmath.XMComparisonAllTrue
 title: XMComparisonAllTrue function (directxmath.h)
-
 description: Tests the comparison value to determine if all of the compared components are true.
 old-location: dxmath\xmcomparisonalltrue.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.reference.XMComparisonAllTrue(uint32_t)
-
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMComparisonAllTrue, XMComparisonAllTrue, XMComparisonAllTrue method [DirectX Math Support APIs], dxmath.xmcomparisonalltrue
 ms.topic: function
-f1_keywords: 
- - "directxmath/XMComparisonAllTrue"
+f1_keywords:
+- directxmath/XMComparisonAllTrue
 dev_langs:
- - c++
+- c++
 req.header: directxmath.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - DirectXMath.h
+- DirectXMath.h
 api_name:
- - XMComparisonAllTrue
+- XMComparisonAllTrue
 targetos: Windows
 req.typenames: 
 req.redist: 

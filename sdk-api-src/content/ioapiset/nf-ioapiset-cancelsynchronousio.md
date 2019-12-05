@@ -1,19 +1,17 @@
 ---
 UID: NF:ioapiset.CancelSynchronousIo
 title: CancelSynchronousIo function (ioapiset.h)
-
 description: Marks pending synchronous I/O operations that are issued by the specified thread as canceled.
 old-location: fs\cancelsynchronousio_func.htm
 tech.root: FileIO
 ms.assetid: f362c8b2-2193-443e-bb69-78f8b4147117
-
 ms.date: 12/05/2018
 ms.keywords: CancelSynchronousIo, CancelSynchronousIo function [Files], fs.cancelsynchronousio_func, ioapiset/CancelSynchronousIo, winbase/CancelSynchronousIo
 ms.topic: function
-f1_keywords: 
- - "ioapiset/CancelSynchronousIo"
+f1_keywords:
+- ioapiset/CancelSynchronousIo
 dev_langs:
- - c++
+- c++
 req.header: ioapiset.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-io-l1-1-1.dll
- - KernelBase.dll
- - MinKernelBase.dll
- - api-ms-win-downlevel-kernel32-l1-1-0.dll
+- Kernel32.dll
+- API-MS-Win-Core-io-l1-1-1.dll
+- KernelBase.dll
+- MinKernelBase.dll
+- api-ms-win-downlevel-kernel32-l1-1-0.dll
 api_name:
- - CancelSynchronousIo
+- CancelSynchronousIo
 targetos: Windows
 req.typenames: 
 req.redist: 

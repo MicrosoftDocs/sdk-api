@@ -1,19 +1,17 @@
 ---
 UID: NF:rometadataapi.IMetaDataTables.GetUserString
 title: IMetaDataTables::GetUserString (rometadataapi.h)
-
 description: Gets the hard-coded string at the specified index in the string column in the current scope.
 old-location: winrt\imetadatatables_getuserstring.htm
 tech.root: WinRT
 ms.assetid: 868f6be3-1baf-4f7c-be10-12b79a45e9c7
-
 ms.date: 12/05/2018
 ms.keywords: GetUserString, GetUserString method [Windows Runtime], GetUserString method [Windows Runtime],IMetaDataTables interface, IMetaDataTables interface [Windows Runtime],GetUserString method, IMetaDataTables.GetUserString, IMetaDataTables::GetUserString, rometadataapi/IMetaDataTables::GetUserString, winrt.imetadatatables_getuserstring
 ms.topic: method
-f1_keywords: 
- - "rometadataapi/IMetaDataTables.GetUserString"
+f1_keywords:
+- rometadataapi/IMetaDataTables.GetUserString
 dev_langs:
- - c++
+- c++
 req.header: rometadataapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - rometadataapi.h
+- rometadataapi.h
 api_name:
- - IMetaDataTables.GetUserString
+- IMetaDataTables.GetUserString
 targetos: Windows
 req.typenames: 
 req.redist: 

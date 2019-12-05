@@ -1,19 +1,17 @@
 ---
 UID: NF:mfobjects.IMFSampleOutputStream.EndWriteSample
 title: IMFSampleOutputStream::EndWriteSample (mfobjects.h)
-
 description: Completes an asynchronous request to write a media sample to the stream.
 old-location: mf\imfsampleoutputstream_endwritesample.htm
 tech.root: medfound
 ms.assetid: AE65CE63-B7FF-403B-ABB8-5E6C53CAD314
-
 ms.date: 12/05/2018
 ms.keywords: EndWriteSample, EndWriteSample method [Media Foundation], EndWriteSample method [Media Foundation],IMFSampleOutputStream interface, IMFSampleOutputStream interface [Media Foundation],EndWriteSample method, IMFSampleOutputStream.EndWriteSample, IMFSampleOutputStream::EndWriteSample, mf.imfsampleoutputstream_endwritesample, mfobjects/IMFSampleOutputStream::EndWriteSample
 ms.topic: method
-f1_keywords: 
- - "mfobjects/IMFSampleOutputStream.EndWriteSample"
+f1_keywords:
+- mfobjects/IMFSampleOutputStream.EndWriteSample
 dev_langs:
- - c++
+- c++
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfobjects.h
+- mfobjects.h
 api_name:
- - IMFSampleOutputStream.EndWriteSample
+- IMFSampleOutputStream.EndWriteSample
 targetos: Windows
 req.typenames: 
 req.redist: 

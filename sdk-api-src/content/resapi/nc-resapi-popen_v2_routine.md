@@ -1,19 +1,17 @@
 ---
 UID: NC:resapi.POPEN_V2_ROUTINE
 title: POPEN_V2_ROUTINE (resapi.h)
-
 description: Opens a resource.
 old-location: mscs\openv2.htm
 tech.root: MsCS
 ms.assetid: EA798D15-9458-4F66-8D0E-13DA383552F7
-
 ms.date: 12/05/2018
 ms.keywords: CLUS_RESDLL_OPEN_RECOVER_MONITOR_STATE, OpenV2, OpenV2 callback, OpenV2 callback function [Failover Cluster], POPEN_V2_ROUTINE, POPEN_V2_ROUTINE callback function [Failover Cluster], mscs.openv2, resapi/OpenV2, resapi/POPEN_V2_ROUTINE
 ms.topic: callback
-f1_keywords: 
- - "resapi/OpenV2 callback"
+f1_keywords:
+- resapi/OpenV2 callback
 dev_langs:
- - c++
+- c++
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,13 +30,13 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - kbSyntax
+- kbSyntax
 api_type:
- - <TBD>
+- <TBD>
 api_location:
- -
+- 
 api_name:
- - OpenV2 callback
+- OpenV2 callback
 targetos: Windows
 req.typenames: 
 req.redist: 

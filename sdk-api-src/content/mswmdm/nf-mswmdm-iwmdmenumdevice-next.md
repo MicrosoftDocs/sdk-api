@@ -1,19 +1,17 @@
 ---
 UID: NF:mswmdm.IWMDMEnumDevice.Next
 title: IWMDMEnumDevice::Next (mswmdm.h)
-
 description: The Next method returns a pointer to the next device, represented by an IWMDMDevice interface.
 old-location: wmdm\iwmdmenumdevice_next.htm
 tech.root: WMDM
 ms.assetid: 75a5961f-2c61-4e10-a570-7ebfabb97367
-
 ms.date: 12/05/2018
 ms.keywords: IWMDMEnumDevice interface [windows Media Device Manager],Next method, IWMDMEnumDevice.Next, IWMDMEnumDevice::Next, IWMDMEnumDeviceNext, Next, Next method [windows Media Device Manager], Next method [windows Media Device Manager],IWMDMEnumDevice interface, mswmdm/IWMDMEnumDevice::Next, wmdm.iwmdmenumdevice_next
 ms.topic: method
-f1_keywords: 
- - "mswmdm/IWMDMEnumDevice.Next"
+f1_keywords:
+- mswmdm/IWMDMEnumDevice.Next
 dev_langs:
- - c++
+- c++
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mssachlp.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mssachlp.lib
- - mssachlp.dll
+- mssachlp.lib
+- mssachlp.dll
 api_name:
- - IWMDMEnumDevice.Next
+- IWMDMEnumDevice.Next
 targetos: Windows
 req.typenames: 
 req.redist: 

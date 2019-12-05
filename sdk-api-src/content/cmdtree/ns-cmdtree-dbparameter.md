@@ -1,19 +1,17 @@
 ---
 UID: NS:cmdtree.tagDBPARAMETER
 title: DBPARAMETER (cmdtree.h)
-
 description: The DBPARAMETER structure is used to define values for scalar parameters.
 old-location: indexsrv\dbparameter.htm
 tech.root: IndexSrv
 ms.assetid: VS|indexsrv|~\html\ixoledb_2p0y.htm
-
 ms.date: 12/05/2018
 ms.keywords: DBPARAMETER, DBPARAMETER structure [Indexing Service], _idxs_DBPARAMETER, cmdtree/DBPARAMETER, indexsrv.dbparameter, tagDBPARAMETER
 ms.topic: struct
-f1_keywords: 
- - "cmdtree/DBPARAMETER"
+f1_keywords:
+- cmdtree/DBPARAMETER
 dev_langs:
- - c++
+- c++
 req.header: cmdtree.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - cmdtree.h
+- cmdtree.h
 api_name:
- - DBPARAMETER
+- DBPARAMETER
 targetos: Windows
 req.typenames: DBPARAMETER
 req.redist: 

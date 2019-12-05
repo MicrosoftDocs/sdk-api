@@ -1,19 +1,17 @@
 ---
 UID: NF:clusapi.GetClusterResourceNetworkName
 title: GetClusterResourceNetworkName function (clusapi.h)
-
 description: Retrieves the Name private property of the Network Name resource on which a resource is dependent.
 old-location: mscs\getclusterresourcenetworkname.htm
 tech.root: MsCS
 ms.assetid: db3cdaa6-d686-48be-be4a-468910813d6d
-
 ms.date: 12/05/2018
 ms.keywords: GetClusterResourceNetworkName, GetClusterResourceNetworkName function [Failover Cluster], PCLUSAPI_GET_CLUSTER_RESOURCE_NETWORK_NAME, PCLUSAPI_GET_CLUSTER_RESOURCE_NETWORK_NAME function [Failover Cluster], _wolf_getclusterresourcenetworkname, clusapi/GetClusterResourceNetworkName, clusapi/PCLUSAPI_GET_CLUSTER_RESOURCE_NETWORK_NAME, mscs.getclusterresourcenetworkname
 ms.topic: function
-f1_keywords: 
- - "clusapi/GetClusterResourceNetworkName"
+f1_keywords:
+- clusapi/GetClusterResourceNetworkName
 dev_langs:
- - c++
+- c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: ClusAPI.lib
 req.dll: ClusAPI.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - ClusAPI.dll
+- ClusAPI.dll
 api_name:
- - GetClusterResourceNetworkName
+- GetClusterResourceNetworkName
 targetos: Windows
 req.typenames: 
 req.redist: 

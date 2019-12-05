@@ -1,19 +1,17 @@
 ---
 UID: NN:tapi3.ITAgentEvent
 title: ITAgentEvent (tapi3.h)
-
 description: The ITAgentEvent interface contains methods that retrieve the description of agent events.
 old-location: tapi3\itagentevent.htm
 tech.root: Tapi
 ms.assetid: adfb58f7-b02c-4a64-92c1-a1b29c9f7143
-
 ms.date: 12/05/2018
 ms.keywords: ITAgentEvent, ITAgentEvent interface [TAPI 2.2], ITAgentEvent interface [TAPI 2.2],described, _tapi3_itagentevent, tapi3.itagentevent, tapi3cc/ITAgentEvent
 ms.topic: interface
-f1_keywords: 
- - "tapi3/ITAgentEvent"
+f1_keywords:
+- tapi3/ITAgentEvent
 dev_langs:
- - c++
+- c++
 req.header: tapi3.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Tapi3.dll
+- Tapi3.dll
 api_name:
- - ITAgentEvent
+- ITAgentEvent
 targetos: Windows
 req.typenames: 
 req.redist: 

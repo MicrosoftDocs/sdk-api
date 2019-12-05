@@ -1,19 +1,17 @@
 ---
 UID: NF:portabledeviceapi.IPortableDeviceService.SendCommand
 title: IPortableDeviceService::SendCommand (portabledeviceapi.h)
-
 description: Sends a standard WPD command and its parameters to the service.
 old-location: wpdsdk\iportabledeviceservice_sendcommand.htm
 tech.root: wpd_sdk
 ms.assetid: c6c42347-145c-4be7-bea6-34b13c211cb1
-
 ms.date: 12/05/2018
 ms.keywords: IPortableDeviceService interface [Windows Portable Devices SDK],SendCommand method, IPortableDeviceService.SendCommand, IPortableDeviceService::SendCommand, SendCommand, SendCommand method [Windows Portable Devices SDK], SendCommand method [Windows Portable Devices SDK],IPortableDeviceService interface, portabledeviceapi/IPortableDeviceService::SendCommand, wpdsdk.iportabledeviceservice_sendcommand
 ms.topic: method
-f1_keywords: 
- - "portabledeviceapi/IPortableDeviceService.SendCommand"
+f1_keywords:
+- portabledeviceapi/IPortableDeviceService.SendCommand
 dev_langs:
- - c++
+- c++
 req.header: portabledeviceapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - PortableDeviceAPI.h
+- PortableDeviceAPI.h
 api_name:
- - IPortableDeviceService.SendCommand
+- IPortableDeviceService.SendCommand
 targetos: Windows
 req.typenames: 
 req.redist: 

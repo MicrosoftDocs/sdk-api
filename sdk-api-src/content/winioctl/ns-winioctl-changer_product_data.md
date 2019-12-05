@@ -1,19 +1,17 @@
 ---
 UID: NS:winioctl._CHANGER_PRODUCT_DATA
 title: CHANGER_PRODUCT_DATA
-
 description: Represents product data for a changer device. It is used by the IOCTL_CHANGER_GET_PRODUCT_DATA control code.
 old-location: base\changer_product_data_str.htm
 tech.root: devio
 ms.assetid: b6756994-2c6f-4797-8fad-823d63632372
-
 ms.date: 12/05/2018
-ms.keywords: "*PCHANGER_PRODUCT_DATA, CHANGER_PRODUCT_DATA, CHANGER_PRODUCT_DATA structure, PCHANGER_PRODUCT_DATA, PCHANGER_PRODUCT_DATA structure pointer, _win32_changer_product_data_str, base.changer_product_data_str, winioctl/CHANGER_PRODUCT_DATA, winioctl/PCHANGER_PRODUCT_DATA"
+ms.keywords: '*PCHANGER_PRODUCT_DATA, CHANGER_PRODUCT_DATA, CHANGER_PRODUCT_DATA structure, PCHANGER_PRODUCT_DATA, PCHANGER_PRODUCT_DATA structure pointer, _win32_changer_product_data_str, base.changer_product_data_str, winioctl/CHANGER_PRODUCT_DATA, winioctl/PCHANGER_PRODUCT_DATA'
 ms.topic: struct
-f1_keywords: 
- - "winioctl/CHANGER_PRODUCT_DATA"
+f1_keywords:
+- winioctl/CHANGER_PRODUCT_DATA
 dev_langs:
- - c++
+- c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WinIoCtl.h
+- WinIoCtl.h
 api_name:
- - CHANGER_PRODUCT_DATA
+- CHANGER_PRODUCT_DATA
 targetos: Windows
 req.typenames: CHANGER_PRODUCT_DATA, *PCHANGER_PRODUCT_DATA
 req.redist: 

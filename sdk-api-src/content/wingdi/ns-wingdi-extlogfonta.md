@@ -1,19 +1,17 @@
 ---
 UID: NS:wingdi.tagEXTLOGFONTA
 title: EXTLOGFONTA (wingdi.h)
-
 description: The EXTLOGFONT structure defines the attributes of a font.
 old-location: gdi\extlogfont.htm
 tech.root: gdi
 ms.assetid: 19f6364e-3347-45b6-be02-e2cc69a7145a
-
 ms.date: 12/05/2018
-ms.keywords: "*LPEXTLOGFONTA, *NPEXTLOGFONTA, *PEXTLOGFONTA, EXTLOGFONT, EXTLOGFONT structure [Windows GDI], EXTLOGFONTA, EXTLOGFONTW, PEXTLOGFONT, PEXTLOGFONT structure pointer [Windows GDI], _win32_EXTLOGFONT_str, gdi.extlogfont, wingdi/EXTLOGFONT, wingdi/EXTLOGFONTA, wingdi/EXTLOGFONTW, wingdi/PEXTLOGFONT"
+ms.keywords: '*LPEXTLOGFONTA, *NPEXTLOGFONTA, *PEXTLOGFONTA, EXTLOGFONT, EXTLOGFONT structure [Windows GDI], EXTLOGFONTA, EXTLOGFONTW, PEXTLOGFONT, PEXTLOGFONT structure pointer [Windows GDI], _win32_EXTLOGFONT_str, gdi.extlogfont, wingdi/EXTLOGFONT, wingdi/EXTLOGFONTA, wingdi/EXTLOGFONTW, wingdi/PEXTLOGFONT'
 ms.topic: struct
-f1_keywords: 
- - "wingdi/EXTLOGFONT"
+f1_keywords:
+- wingdi/EXTLOGFONT
 dev_langs:
- - c++
+- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wingdi.h
+- Wingdi.h
 api_name:
- - EXTLOGFONT
- - EXTLOGFONTA
- - EXTLOGFONTW
+- EXTLOGFONT
+- EXTLOGFONTA
+- EXTLOGFONTW
 targetos: Windows
 req.typenames: EXTLOGFONTA, *PEXTLOGFONTA, *NPEXTLOGFONTA, *LPEXTLOGFONTA
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:msinkaut.IInkCustomStrokes.Item
 title: IInkCustomStrokes::Item (msinkaut.h)
-
 description: Retrieves the InkStrokes Collection at the location specified within the IInkCustomStrokes Interface.
 old-location: tablet\iinkcustomstrokes_item.htm
 tech.root: tablet
 ms.assetid: 14cdc466-2acf-4af0-8fbc-74233edf3884
-
 ms.date: 12/05/2018
 ms.keywords: 14cdc466-2acf-4af0-8fbc-74233edf3884, IInkCustomStrokes interface [Tablet PC],Item method, IInkCustomStrokes.Item, IInkCustomStrokes::Item, Item, Item method [Tablet PC], Item method [Tablet PC],IInkCustomStrokes interface, msinkaut/IInkCustomStrokes::Item, tablet.iinkcustomstrokes_item
 ms.topic: method
-f1_keywords: 
- - "msinkaut/IInkCustomStrokes.Item"
+f1_keywords:
+- msinkaut/IInkCustomStrokes.Item
 dev_langs:
- - c++
+- c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: InkObj.dll
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - InkObj.dll
- - InkObj.dll.dll
+- InkObj.dll
+- InkObj.dll.dll
 api_name:
- - IInkCustomStrokes.Item
+- IInkCustomStrokes.Item
 targetos: Windows
 req.typenames: 
 req.redist: 

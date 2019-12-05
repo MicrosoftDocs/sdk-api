@@ -1,19 +1,17 @@
 ---
 UID: NF:comsvcs.ICrmMonitorClerks.Item
 title: ICrmMonitorClerks::Item (comsvcs.h)
-
 description: Retrieves the instance CLSID of the CRM clerk for the specified index.
 old-location: cos\icrmmonitorclerks_item.htm
 tech.root: cossdk
 ms.assetid: af25d159-95e6-4695-9350-9a3c1bc034e9
-
 ms.date: 12/05/2018
 ms.keywords: ICrmMonitorClerks interface [COM+],Item method, ICrmMonitorClerks.Item, ICrmMonitorClerks::Item, Item, Item method [COM+], Item method [COM+],ICrmMonitorClerks interface, _dtc_ICrmMonitorClerks_Item, comsvcs/ICrmMonitorClerks::Item, cos.icrmmonitorclerks_item
 ms.topic: method
-f1_keywords: 
- - "comsvcs/ICrmMonitorClerks.Item"
+f1_keywords:
+- comsvcs/ICrmMonitorClerks.Item
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - ICrmMonitorClerks.Item
+- ICrmMonitorClerks.Item
 targetos: Windows
 req.typenames: 
 req.redist: 

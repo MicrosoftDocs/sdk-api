@@ -1,19 +1,17 @@
 ---
 UID: NF:upnphost.IUPnPDeviceProvider.Start
 title: IUPnPDeviceProvider::Start (upnphost.h)
-
 description: The Start method starts the device provider. The device host invokes this method after it loads the device provider This method performs any initialization required by the device provider.
 old-location: upnp\iupnpdeviceprovider_start.htm
 tech.root: upnp
 ms.assetid: a76c7063-bad5-4f59-a5ca-8a8a4a79787e
-
 ms.date: 12/05/2018
 ms.keywords: IUPnPDeviceProvider interface [UPnP APIs],Start method, IUPnPDeviceProvider.Start, IUPnPDeviceProvider::Start, Start, Start method [UPnP APIs], Start method [UPnP APIs],IUPnPDeviceProvider interface, _upnp_iupnpdeviceprovider_start, upnp.iupnpdeviceprovider_start, upnphost/IUPnPDeviceProvider::Start
 ms.topic: method
-f1_keywords: 
- - "upnphost/IUPnPDeviceProvider.Start"
+f1_keywords:
+- upnphost/IUPnPDeviceProvider.Start
 dev_langs:
- - c++
+- c++
 req.header: upnphost.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Upnphost.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Upnphost.dll
+- Upnphost.dll
 api_name:
- - IUPnPDeviceProvider.Start
+- IUPnPDeviceProvider.Start
 targetos: Windows
 req.typenames: 
 req.redist: 

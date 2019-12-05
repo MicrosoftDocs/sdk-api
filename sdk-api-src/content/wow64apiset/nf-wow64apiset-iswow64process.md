@@ -1,19 +1,17 @@
 ---
 UID: NF:wow64apiset.IsWow64Process
 title: IsWow64Process function (wow64apiset.h)
-
 description: Determines whether the specified process is running under WOW64 or an Intel64 of x64 processor.
 old-location: base\iswow64process.htm
 tech.root: ProcThread
 ms.assetid: 5a237542-e432-487c-aa59-2ede427dd1eb
-
 ms.date: 12/05/2018
 ms.keywords: IsWow64Process, IsWow64Process function, _win32_iswow64process, base.iswow64process, winbase/IsWow64Process, wow64apiset/IsWow64Process
 ms.topic: function
-f1_keywords: 
- - "wow64apiset/IsWow64Process"
+f1_keywords:
+- wow64apiset/IsWow64Process
 dev_langs:
- - c++
+- c++
 req.header: wow64apiset.h
 req.include-header: Windows Server 2003, Windows Vista, Windows 7, Windows Server 2008  Windows Server 2008 R2, Windows.h
 req.target-type: Windows
@@ -32,21 +30,21 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-misc-l1-1-0.dll
- - KernelBase.dll
- - API-MS-Win-Core-Wow64-l1-1-0.dll
- - API-MS-Win-Core-Wow64-l1-1-1.dll
- - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
- - MinKernelBase.dll
- - bcrypt.dll
+- Kernel32.dll
+- API-MS-Win-Core-misc-l1-1-0.dll
+- KernelBase.dll
+- API-MS-Win-Core-Wow64-l1-1-0.dll
+- API-MS-Win-Core-Wow64-l1-1-1.dll
+- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+- MinKernelBase.dll
+- bcrypt.dll
 api_name:
- - IsWow64Process
+- IsWow64Process
 targetos: Windows
 req.typenames: 
 req.redist: 

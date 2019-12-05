@@ -1,19 +1,17 @@
 ---
 UID: NF:mileffects.IMILBitmapEffectImpl.GetInputSourceBounds
 title: IMILBitmapEffectImpl::GetInputSourceBounds (mileffects.h)
-
 description: Gets the bounds of the input source.
 old-location: wibe\_wibe_imilbitmapeffectimpl_getinputsourcebounds.htm
 tech.root: wibe
 ms.assetid: VS|wibe|~\wibelh\reference\ifaces\imilbitmapeffectimpl\getinputsourcebounds.htm
-
 ms.date: 12/05/2018
 ms.keywords: GetInputSourceBounds, GetInputSourceBounds method [WPF Bitmap Effects], GetInputSourceBounds method [WPF Bitmap Effects],IMILBitmapEffectImpl interface, IMILBitmapEffectImpl interface [WPF Bitmap Effects],GetInputSourceBounds method, IMILBitmapEffectImpl.GetInputSourceBounds, IMILBitmapEffectImpl::GetInputSourceBounds, _wibe_imilbitmapeffectimpl_getinputsourcebounds, mileffects/IMILBitmapEffectImpl::GetInputSourceBounds, wibe._wibe_imilbitmapeffectimpl_getinputsourcebounds
 ms.topic: method
-f1_keywords: 
- - "mileffects/IMILBitmapEffectImpl.GetInputSourceBounds"
+f1_keywords:
+- mileffects/IMILBitmapEffectImpl.GetInputSourceBounds
 dev_langs:
- - c++
+- c++
 req.header: mileffects.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mileffects.h
+- Mileffects.h
 api_name:
- - IMILBitmapEffectImpl.GetInputSourceBounds
+- IMILBitmapEffectImpl.GetInputSourceBounds
 targetos: Windows
 req.typenames: 
 req.redist: Microsoft .Net 3.0

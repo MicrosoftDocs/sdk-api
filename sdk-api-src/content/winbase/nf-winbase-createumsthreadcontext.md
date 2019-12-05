@@ -1,19 +1,17 @@
 ---
 UID: NF:winbase.CreateUmsThreadContext
 title: CreateUmsThreadContext function (winbase.h)
-
 description: Creates a user-mode scheduling (UMS) thread context to represent a UMS worker thread.
 old-location: base\createumsthreadcontext.htm
 tech.root: ProcThread
 ms.assetid: b27ce81a-8463-46af-8acf-2de091f625df
-
 ms.date: 12/05/2018
 ms.keywords: CreateUmsThreadContext, CreateUmsThreadContext function, base.createumsthreadcontext, winbase/CreateUmsThreadContext
 ms.topic: function
-f1_keywords: 
- - "winbase/CreateUmsThreadContext"
+f1_keywords:
+- winbase/CreateUmsThreadContext
 dev_langs:
- - c++
+- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - kernel32.dll
- - API-MS-Win-Core-ums-l1-1-0.dll
+- kernel32.dll
+- API-MS-Win-Core-ums-l1-1-0.dll
 api_name:
- - CreateUmsThreadContext
+- CreateUmsThreadContext
 targetos: Windows
 req.typenames: 
 req.redist: 

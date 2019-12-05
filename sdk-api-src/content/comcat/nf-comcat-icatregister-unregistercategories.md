@@ -1,19 +1,17 @@
 ---
 UID: NF:comcat.ICatRegister.UnRegisterCategories
 title: ICatRegister::UnRegisterCategories (comcat.h)
-
 description: Removes the registration of one or more component categories. Each component category consists of a CATID and a list of locale-dependent description strings.
 old-location: com\icatregister_unregistercategories.htm
 tech.root: com
 ms.assetid: 29b7df20-bab0-419c-a13b-132ee5b0272d
-
 ms.date: 12/05/2018
 ms.keywords: ICatRegister interface [COM],UnRegisterCategories method, ICatRegister.UnRegisterCategories, ICatRegister::UnRegisterCategories, UnRegisterCategories, UnRegisterCategories method [COM], UnRegisterCategories method [COM],ICatRegister interface, _com_icatregister_unregistercategories, com.icatregister_unregistercategories, comcat/ICatRegister::UnRegisterCategories
 ms.topic: method
-f1_keywords: 
- - "comcat/ICatRegister.UnRegisterCategories"
+f1_keywords:
+- comcat/ICatRegister.UnRegisterCategories
 dev_langs:
- - c++
+- c++
 req.header: comcat.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComCat.h
+- ComCat.h
 api_name:
- - ICatRegister.UnRegisterCategories
+- ICatRegister.UnRegisterCategories
 targetos: Windows
 req.typenames: 
 req.redist: 

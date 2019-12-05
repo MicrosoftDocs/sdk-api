@@ -1,19 +1,17 @@
 ---
 UID: NS:lpmapi.__unnamed_struct_34
 title: ID_ERROR_OBJECT (lpmapi.h)
-
 description: The ID_ERROR_OBJECT structure contains error message information for Identity Policy Elements for RSVP.
 old-location: qos\id_error_object.htm
 tech.root: QOS
 ms.assetid: de6e8eaa-4436-4b82-8c47-76da53116ff2
-
 ms.date: 12/05/2018
 ms.keywords: ID_ERROR_OBJECT, ID_ERROR_OBJECT structure [QOS], lpmapi/ID_ERROR_OBJECT, qos.id_error_object
 ms.topic: struct
-f1_keywords: 
- - "lpmapi/ID_ERROR_OBJECT"
+f1_keywords:
+- lpmapi/ID_ERROR_OBJECT
 dev_langs:
- - c++
+- c++
 req.header: lpmapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Lpmapi.h
+- Lpmapi.h
 api_name:
- - ID_ERROR_OBJECT
+- ID_ERROR_OBJECT
 targetos: Windows
 req.typenames: ID_ERROR_OBJECT
 req.redist: 

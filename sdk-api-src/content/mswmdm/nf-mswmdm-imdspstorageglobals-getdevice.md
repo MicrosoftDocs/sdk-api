@@ -1,19 +1,17 @@
 ---
 UID: NF:mswmdm.IMDSPStorageGlobals.GetDevice
 title: IMDSPStorageGlobals::GetDevice (mswmdm.h)
-
 description: The GetDevice method retrieves a pointer to the device on which the storage medium with which this interface is associated is mounted.
 old-location: wmdm\imdspstorageglobals_getdevice.htm
 tech.root: WMDM
 ms.assetid: 5c35b426-f7fd-46f7-b92d-12a0c22b50e9
-
 ms.date: 12/05/2018
 ms.keywords: GetDevice, GetDevice method [windows Media Device Manager], GetDevice method [windows Media Device Manager],IMDSPStorageGlobals interface, IMDSPStorageGlobals interface [windows Media Device Manager],GetDevice method, IMDSPStorageGlobals.GetDevice, IMDSPStorageGlobals::GetDevice, IMDSPStorageGlobalsGetDevice, mswmdm/IMDSPStorageGlobals::GetDevice, wmdm.imdspstorageglobals_getdevice
 ms.topic: method
-f1_keywords: 
- - "mswmdm/IMDSPStorageGlobals.GetDevice"
+f1_keywords:
+- mswmdm/IMDSPStorageGlobals.GetDevice
 dev_langs:
- - c++
+- c++
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mssachlp.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mssachlp.lib
- - mssachlp.dll
+- mssachlp.lib
+- mssachlp.dll
 api_name:
- - IMDSPStorageGlobals.GetDevice
+- IMDSPStorageGlobals.GetDevice
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:wmsecure.IWMSecureChannel.WMSC_Connect
 title: IWMSecureChannel::WMSC_Connect (wmsecure.h)
-
 description: The WMSC_Connect method initializes the secure connection.
 old-location: wmformat\iwmsecurechannel_wmsc_connect.htm
 tech.root: wmformat
 ms.assetid: d8386b23-6319-4687-9de2-a81e661a60e6
-
 ms.date: 12/05/2018
 ms.keywords: IWMSecureChannel interface [windows Media Format],WMSC_Connect method, IWMSecureChannel.WMSC_Connect, IWMSecureChannel::WMSC_Connect, WMSC_Connect, WMSC_Connect method [windows Media Format], WMSC_Connect method [windows Media Format],IWMSecureChannel interface, wmformat.iwmsecurechannel_wmsc_connect, wmsecure/IWMSecureChannel::WMSC_Connect
 ms.topic: method
-f1_keywords: 
- - "wmsecure/IWMSecureChannel.WMSC_Connect"
+f1_keywords:
+- wmsecure/IWMSecureChannel.WMSC_Connect
 dev_langs:
- - c++
+- c++
 req.header: wmsecure.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wmsecure.h
+- Wmsecure.h
 api_name:
- - IWMSecureChannel.WMSC_Connect
+- IWMSecureChannel.WMSC_Connect
 targetos: Windows
 req.typenames: 
 req.redist: 

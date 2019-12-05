@@ -1,19 +1,17 @@
 ---
 UID: NF:gdiplusimageattributes.ImageAttributes.SetRemapTable
 title: ImageAttributes::SetRemapTable (gdiplusimageattributes.h)
-
 description: The ImageAttributes::SetRemapTable method sets the color-remap table for a specified category.
 old-location: gdiplus\_gdiplus_CLASS_ImageAttributes_SetRemapTable_mapSize_map_type_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\imageattributesclass\imageattributesmethods\setremaptable.htm
-
 ms.date: 12/05/2018
 ms.keywords: ImageAttributes class [GDI+],SetRemapTable method, ImageAttributes.SetRemapTable, ImageAttributes::SetRemapTable, SetRemapTable, SetRemapTable method [GDI+], SetRemapTable method [GDI+],ImageAttributes class, _gdiplus_CLASS_ImageAttributes_SetRemapTable_mapSize_map_type_, gdiplus._gdiplus_CLASS_ImageAttributes_SetRemapTable_mapSize_map_type_
 ms.topic: method
-f1_keywords: 
- - "gdiplusimageattributes/ImageAttributes.SetRemapTable"
+f1_keywords:
+- gdiplusimageattributes/ImageAttributes.SetRemapTable
 dev_langs:
- - c++
+- c++
 req.header: gdiplusimageattributes.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - ImageAttributes.SetRemapTable
+- ImageAttributes.SetRemapTable
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:dvbsiparser.IDvbDefaultAuthorityDescriptor.GetLength
 title: IDvbDefaultAuthorityDescriptor::GetLength (dvbsiparser.h)
-
 description: Gets the body length of a default authority descriptor from a Digital Video Broadcast (DVB) content reference identifier (CRID).
 old-location: mstv\idvbdefaultauthoritydescriptor_getlength.htm
 tech.root: mstv
 ms.assetid: 9eb76e79-d7a3-419b-9c3e-6d4e16486ff3
-
 ms.date: 12/05/2018
 ms.keywords: GetLength, GetLength method [Microsoft TV Technologies], GetLength method [Microsoft TV Technologies],IDvbDefaultAuthorityDescriptor interface, IDvbDefaultAuthorityDescriptor interface [Microsoft TV Technologies],GetLength method, IDvbDefaultAuthorityDescriptor.GetLength, IDvbDefaultAuthorityDescriptor::GetLength, dvbsiparser/IDvbDefaultAuthorityDescriptor::GetLength, mstv.idvbdefaultauthoritydescriptor_getlength
 ms.topic: method
-f1_keywords: 
- - "dvbsiparser/IDvbDefaultAuthorityDescriptor.GetLength"
+f1_keywords:
+- dvbsiparser/IDvbDefaultAuthorityDescriptor.GetLength
 dev_langs:
- - c++
+- c++
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dvbsiparser.h
+- dvbsiparser.h
 api_name:
- - IDvbDefaultAuthorityDescriptor.GetLength
+- IDvbDefaultAuthorityDescriptor.GetLength
 targetos: Windows
 req.typenames: 
 req.redist: 

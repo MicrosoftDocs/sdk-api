@@ -1,19 +1,17 @@
 ---
 UID: NN:comsvcs.IComSecurityEvents
 title: IComSecurityEvents (comsvcs.h)
-
 description: Notifies the subscriber if the authentication of a method call succeeded or failed.
 old-location: cos\icomsecurityevents.htm
 tech.root: cossdk
 ms.assetid: 83366f18-8dd4-4c3d-8362-4fbcc4c33b95
-
 ms.date: 12/05/2018
 ms.keywords: IComSecurityEvents, IComSecurityEvents interface [COM+], IComSecurityEvents interface [COM+],described, _dtc_IComSecurityEvents, comsvcs/IComSecurityEvents, cos.icomsecurityevents
 ms.topic: interface
-f1_keywords: 
- - "comsvcs/IComSecurityEvents"
+f1_keywords:
+- comsvcs/IComSecurityEvents
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - IComSecurityEvents
+- IComSecurityEvents
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:wmp.IWMPEvents.CurrentItemChange
 title: IWMPEvents::CurrentItemChange (wmp.h)
-
 description: The CurrentItemChange event occurs when the user or the IWMPControls::put_CurrentItem method changes the current item value.
 old-location: wmp\iwmpevents_iwmpevents__currentitemchange.htm
 tech.root: WMP
 ms.assetid: 3669fe6e-233e-4214-9f84-763a06835f48
-
 ms.date: 12/05/2018
 ms.keywords: CurrentItemChange, CurrentItemChange method [Windows Media Player], CurrentItemChange method [Windows Media Player],IWMPEvents interface, IWMPEvents interface [Windows Media Player],CurrentItemChange method, IWMPEvents.CurrentItemChange, IWMPEvents::CurrentItemChange, IWMPEventsCurrentItemChange, wmp.iwmpevents_iwmpevents__currentitemchange, wmp/IWMPEvents::CurrentItemChange
 ms.topic: method
-f1_keywords: 
- - "wmp/IWMPEvents.CurrentItemChange"
+f1_keywords:
+- wmp/IWMPEvents.CurrentItemChange
 dev_langs:
- - c++
+- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wmp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmp.dll
+- wmp.dll
 api_name:
- - IWMPEvents.CurrentItemChange
+- IWMPEvents.CurrentItemChange
 targetos: Windows
 req.typenames: 
 req.redist: 

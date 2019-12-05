@@ -1,19 +1,17 @@
 ---
 UID: NF:msiquery.MsiSummaryInfoPersist
 title: MsiSummaryInfoPersist function (msiquery.h)
-
 description: The MsiSummaryInfoPersist function writes changed summary information back to the summary information stream.
 old-location: setup\msisummaryinfopersist.htm
 tech.root: Msi
 ms.assetid: 76fd8339-2c57-4695-83c7-dcd3cd642f55
-
 ms.date: 12/05/2018
 ms.keywords: MsiSummaryInfoPersist, MsiSummaryInfoPersist function, _msi_msisummaryinfopersist, msiquery/MsiSummaryInfoPersist, setup.msisummaryinfopersist
 ms.topic: function
-f1_keywords: 
- - "msiquery/MsiSummaryInfoPersist"
+f1_keywords:
+- msiquery/MsiSummaryInfoPersist
 dev_langs:
- - c++
+- c++
 req.header: msiquery.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Msi.lib
 req.dll: Msi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Msi.dll
+- Msi.dll
 api_name:
- - MsiSummaryInfoPersist
+- MsiSummaryInfoPersist
 targetos: Windows
 req.typenames: 
 req.redist: 

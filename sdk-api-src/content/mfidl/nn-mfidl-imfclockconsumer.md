@@ -1,19 +1,17 @@
 ---
 UID: NN:mfidl.IMFClockConsumer
 title: IMFClockConsumer (mfidl.h)
-
 description: Implemented by an app in order to get access to the IMFPresentationClock.
 old-location: mf\imfclockconsumer.htm
 tech.root: medfound
 ms.assetid: B21D3797-695F-4794-80A2-05D381F288C2
-
 ms.date: 12/05/2018
 ms.keywords: IMFClockConsumer, IMFClockConsumer interface [Media Foundation], IMFClockConsumer interface [Media Foundation],described, mf.imfclockconsumer, mfidl/IMFClockConsumer
 ms.topic: interface
-f1_keywords: 
- - "mfidl/IMFClockConsumer"
+f1_keywords:
+- mfidl/IMFClockConsumer
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Mfplat.lib; Mfplat.dll
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfplat.lib
- - mfplat.dll
- - mfplat.dll
- - mfplat.dll.dll
+- mfplat.lib
+- mfplat.dll
+- mfplat.dll
+- mfplat.dll.dll
 api_name:
- - IMFClockConsumer
+- IMFClockConsumer
 targetos: Windows
 req.typenames: 
 req.redist: 

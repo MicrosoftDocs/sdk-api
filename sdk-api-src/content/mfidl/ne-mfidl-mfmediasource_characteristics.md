@@ -1,19 +1,17 @@
 ---
 UID: NE:mfidl._MFMEDIASOURCE_CHARACTERISTICS
 title: MFMEDIASOURCE_CHARACTERISTICS (mfidl.h)
-
 description: Defines the characteristics of a media source.
 old-location: mf\mfmediasource_characteristics.htm
 tech.root: medfound
 ms.assetid: 115f4a6b-99c2-436e-9483-c44003e61a7d
-
 ms.date: 12/05/2018
 ms.keywords: 115f4a6b-99c2-436e-9483-c44003e61a7d, MFMEDIASOURCE_CAN_PAUSE, MFMEDIASOURCE_CAN_SEEK, MFMEDIASOURCE_CAN_SKIPBACKWARD, MFMEDIASOURCE_CAN_SKIPFORWARD, MFMEDIASOURCE_CHARACTERISTICS, MFMEDIASOURCE_CHARACTERISTICS enumeration [Media Foundation], MFMEDIASOURCE_DOES_NOT_USE_NETWORK, MFMEDIASOURCE_HAS_MULTIPLE_PRESENTATIONS, MFMEDIASOURCE_HAS_SLOW_SEEK, MFMEDIASOURCE_IS_LIVE, mf.mfmediasource_characteristics, mfidl/MFMEDIASOURCE_CAN_PAUSE, mfidl/MFMEDIASOURCE_CAN_SEEK, mfidl/MFMEDIASOURCE_CAN_SKIPBACKWARD, mfidl/MFMEDIASOURCE_CAN_SKIPFORWARD, mfidl/MFMEDIASOURCE_CHARACTERISTICS, mfidl/MFMEDIASOURCE_DOES_NOT_USE_NETWORK, mfidl/MFMEDIASOURCE_HAS_MULTIPLE_PRESENTATIONS, mfidl/MFMEDIASOURCE_HAS_SLOW_SEEK, mfidl/MFMEDIASOURCE_IS_LIVE
 ms.topic: enum
-f1_keywords: 
- - "mfidl/MFMEDIASOURCE_CHARACTERISTICS"
+f1_keywords:
+- mfidl/MFMEDIASOURCE_CHARACTERISTICS
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - mfidl.h
+- mfidl.h
 api_name:
- - MFMEDIASOURCE_CHARACTERISTICS
+- MFMEDIASOURCE_CHARACTERISTICS
 targetos: Windows
 req.typenames: MFMEDIASOURCE_CHARACTERISTICS
 req.redist: 

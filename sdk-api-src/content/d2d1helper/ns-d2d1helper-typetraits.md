@@ -1,19 +1,17 @@
 ---
 UID: NS:d2d1helper.TypeTraits
 title: TypeTraits (d2d1helper.h)
-
 description: Contains implementations of Point, Size, and Rect that store their data using the specified type.
 old-location: direct2d\typetraits_t_.htm
 tech.root: Direct2D
 ms.assetid: 18003d9f-4202-4bea-9580-bbf8fcdbca8f
-
 ms.date: 12/05/2018
 ms.keywords: TypeTraits, TypeTraits structure [Direct2D], TypeTraits<Type>, d2d1helper/TypeTraits, direct2d.typetraits_t_
 ms.topic: struct
-f1_keywords: 
- - "d2d1helper/TypeTraits"
+f1_keywords:
+- d2d1helper/TypeTraits
 dev_langs:
- - c++
+- c++
 req.header: d2d1helper.h
 req.include-header: D2d1_1helper.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - d2d1helper.h
+- d2d1helper.h
 api_name:
- - TypeTraits
+- TypeTraits
 targetos: Windows
 req.typenames: 
 req.redist: 

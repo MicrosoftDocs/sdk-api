@@ -1,19 +1,17 @@
 ---
 UID: NF:resourceindexer.CreateResourceIndexer
 title: CreateResourceIndexer function (resourceindexer.h)
-
 description: Creates a new resource indexer for the specified paths of the root of the project files and the extension DLL.
 old-location: menurc\createresourceindexer.htm
 tech.root: menurc
 ms.assetid: 240C94B6-DF61-4C84-9047-9CD81A6FF4B4
-
 ms.date: 12/05/2018
 ms.keywords: CreateResourceIndexer, CreateResourceIndexer function [Menus and Other Resources], menurc.createresourceindexer, resourceindexer/CreateResourceIndexer
 ms.topic: function
-f1_keywords: 
- - "resourceindexer/CreateResourceIndexer"
+f1_keywords:
+- resourceindexer/CreateResourceIndexer
 dev_langs:
- - c++
+- c++
 req.header: resourceindexer.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Mrmsupport.lib
 req.dll: Mrmsupport.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - mrmsupport.dll
+- mrmsupport.dll
 api_name:
- - CreateResourceIndexer
+- CreateResourceIndexer
 targetos: Windows
 req.typenames: 
 req.redist: 

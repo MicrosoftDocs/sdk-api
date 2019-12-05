@@ -1,19 +1,17 @@
 ---
 UID: NF:oleauto.VarBoolFromI4
 title: VarBoolFromI4 function (oleauto.h)
-
 description: Converts a long value to a Boolean value.
 old-location: automat\varboolfromi4.htm
 tech.root: automat
 ms.assetid: 1f59fa17-7e09-4763-816a-44faf89986f1
-
 ms.date: 12/05/2018
 ms.keywords: VarBoolFromI4, VarBoolFromI4 function [Automation], _oa96_VarBoolFromI4, automat.varboolfromi4, oleauto/VarBoolFromI4
 ms.topic: function
-f1_keywords: 
- - "oleauto/VarBoolFromI4"
+f1_keywords:
+- oleauto/VarBoolFromI4
 dev_langs:
- - c++
+- c++
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: OleAut32.lib
 req.dll: OleAut32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - OleAut32.dll
+- OleAut32.dll
 api_name:
- - VarBoolFromI4
+- VarBoolFromI4
 targetos: Windows
 req.typenames: 
 req.redist: 

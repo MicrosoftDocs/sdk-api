@@ -1,19 +1,17 @@
 ---
 UID: NF:gdiplustypes.Rect.IsEmptyArea
 title: Rect::IsEmptyArea (gdiplustypes.h)
-
 description: The Rect::IsEmptyArea method determines whether this rectangle is empty.
 old-location: gdiplus\_gdiplus_CLASS_Rect_IsEmptyArea_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\rectclass\rectmethods\isemptyarea.htm
-
 ms.date: 12/05/2018
 ms.keywords: IsEmptyArea, IsEmptyArea method [GDI+], IsEmptyArea method [GDI+],Rect class, Rect class [GDI+],IsEmptyArea method, Rect.IsEmptyArea, Rect::IsEmptyArea, _gdiplus_CLASS_Rect_IsEmptyArea_, gdiplus._gdiplus_CLASS_Rect_IsEmptyArea_
 ms.topic: method
-f1_keywords: 
- - "gdiplustypes/Rect.IsEmptyArea"
+f1_keywords:
+- gdiplustypes/Rect.IsEmptyArea
 dev_langs:
- - c++
+- c++
 req.header: gdiplustypes.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - Rect.IsEmptyArea
+- Rect.IsEmptyArea
 targetos: Windows
 req.typenames: 
 req.redist: 

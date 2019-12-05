@@ -1,19 +1,17 @@
 ---
 UID: NF:winnls.LoadStringByReference
 title: LoadStringByReference function (winnls.h)
-
 description: Unsupported. LoadStringByReference may be altered or unavailable. Instead, use SHLoadIndirectString.
 old-location: intl\loadstringbyreference.htm
 tech.root: Intl
 ms.assetid: 4E0470ED-512F-4B76-A3E4-31C8B269CD5C
-
 ms.date: 12/05/2018
 ms.keywords: LoadStringByReference, LoadStringByReference function [Internationalization for Windows Applications], intl.loadstringbyreference, winnls/LoadStringByReference
 ms.topic: function
-f1_keywords: 
- - "winnls/LoadStringByReference"
+f1_keywords:
+- winnls/LoadStringByReference
 dev_langs:
- - c++
+- c++
 req.header: winnls.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-Localization-private-l1-1-0.dll
- - KernelBase.dll
- - MinKernelBase.dll
+- Kernel32.dll
+- API-MS-Win-Core-Localization-private-l1-1-0.dll
+- KernelBase.dll
+- MinKernelBase.dll
 api_name:
- - LoadStringByReference
+- LoadStringByReference
 targetos: Windows
 req.typenames: 
 req.redist: 

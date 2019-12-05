@@ -1,19 +1,17 @@
 ---
 UID: NF:mfobjects.IMFSample.GetTotalLength
 title: IMFSample::GetTotalLength (mfobjects.h)
-
 description: Retrieves the total length of the valid data in all of the buffers in the sample. The length is calculated as the sum of the values retrieved by the IMFMediaBuffer::GetCurrentLength method.
 old-location: mf\imfsample_gettotallength.htm
 tech.root: medfound
 ms.assetid: e0dfc1d2-ec78-4d1c-992d-3a876b600ca6
-
 ms.date: 12/05/2018
 ms.keywords: GetTotalLength, GetTotalLength method [Media Foundation], GetTotalLength method [Media Foundation],IMFSample interface, IMFSample interface [Media Foundation],GetTotalLength method, IMFSample.GetTotalLength, IMFSample::GetTotalLength, e0dfc1d2-ec78-4d1c-992d-3a876b600ca6, mf.imfsample_gettotallength, mfobjects/IMFSample::GetTotalLength
 ms.topic: method
-f1_keywords: 
- - "mfobjects/IMFSample.GetTotalLength"
+f1_keywords:
+- mfobjects/IMFSample.GetTotalLength
 dev_langs:
- - c++
+- c++
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFSample.GetTotalLength
+- IMFSample.GetTotalLength
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.ISearchFolderItemFactory.SetCondition
 title: ISearchFolderItemFactory::SetCondition (shobjidl_core.h)
-
 description: Sets the ICondition of the search. When this method is not called, the resulting search will have no filters applied.
 old-location: shell\ISearchFolderItemFactory_SetCondition.htm
 tech.root: shell
 ms.assetid: 6ac5acc3-e522-4b6f-a31c-c0850445e00c
-
 ms.date: 12/05/2018
 ms.keywords: ISearchFolderItemFactory interface [Windows Shell],SetCondition method, ISearchFolderItemFactory.SetCondition, ISearchFolderItemFactory::SetCondition, SetCondition, SetCondition method [Windows Shell], SetCondition method [Windows Shell],ISearchFolderItemFactory interface, _shell_ISearchFolderItemFactory_SetCondition, shell.ISearchFolderItemFactory_SetCondition, shobjidl_core/ISearchFolderItemFactory::SetCondition
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/ISearchFolderItemFactory.SetCondition"
+f1_keywords:
+- shobjidl_core/ISearchFolderItemFactory.SetCondition
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - ISearchFolderItemFactory.SetCondition
+- ISearchFolderItemFactory.SetCondition
 targetos: Windows
 req.typenames: 
 req.redist: 

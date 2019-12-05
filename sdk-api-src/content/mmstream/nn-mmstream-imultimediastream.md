@@ -1,19 +1,17 @@
 ---
 UID: NN:mmstream.IMultiMediaStream
 title: IMultiMediaStream (mmstream.h)
-
 description: Note  This interface is deprecated.
 old-location: dshow\imultimediastream.htm
 tech.root: DirectShow
 ms.assetid: 8be6c74f-9290-48b4-ad66-8d7d7cc94174
-
 ms.date: 12/05/2018
 ms.keywords: IMultiMediaStream, IMultiMediaStream interface [DirectShow], IMultiMediaStream interface [DirectShow],described, IMultiMediaStreamInterface, dshow.imultimediastream, mmstream/IMultiMediaStream
 ms.topic: interface
-f1_keywords: 
- - "mmstream/IMultiMediaStream"
+f1_keywords:
+- mmstream/IMultiMediaStream
 dev_langs:
- - c++
+- c++
 req.header: mmstream.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mmstream.h
+- mmstream.h
 api_name:
- - IMultiMediaStream
+- IMultiMediaStream
 targetos: Windows
 req.typenames: 
 req.redist: 

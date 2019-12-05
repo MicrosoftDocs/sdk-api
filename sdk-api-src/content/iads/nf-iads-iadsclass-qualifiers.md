@@ -1,19 +1,17 @@
 ---
 UID: NF:iads.IADsClass.Qualifiers
 title: IADsClass::Qualifiers (iads.h)
-
 description: Returns a collection of ADSI objects that describe additional qualifiers for this schema class.
 old-location: adsi\iadsclass_qualifiers.htm
 tech.root: adsi
 ms.assetid: d05e4278-2dfb-4832-a97d-eb35253ae535
-
 ms.date: 12/05/2018
 ms.keywords: IADsClass interface [ADSI],Qualifiers method, IADsClass.Qualifiers, IADsClass::Qualifiers, Qualifiers, Qualifiers method [ADSI], Qualifiers method [ADSI],IADsClass interface, _ds_iadsclass_qualifiers, adsi.iadsclass__qualifiers, adsi.iadsclass_qualifiers, iads/IADsClass::Qualifiers
 ms.topic: method
-f1_keywords: 
- - "iads/IADsClass.Qualifiers"
+f1_keywords:
+- iads/IADsClass.Qualifiers
 dev_langs:
- - c++
+- c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Activeds.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Activeds.dll
+- Activeds.dll
 api_name:
- - IADsClass.Qualifiers
+- IADsClass.Qualifiers
 targetos: Windows
 req.typenames: 
 req.redist: 

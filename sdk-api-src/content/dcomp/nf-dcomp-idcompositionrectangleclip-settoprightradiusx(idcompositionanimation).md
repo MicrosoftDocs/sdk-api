@@ -1,19 +1,17 @@
 ---
 UID: NF:dcomp.IDCompositionRectangleClip.SetTopRightRadiusX(IDCompositionAnimation)
 title: IDCompositionRectangleClip::SetTopRightRadiusX(IDCompositionAnimation) (dcomp.h)
-
 description: Animates the value of the TopRightRadiusX property of this clip. The TopRightRadiusX property specifies the x radius of the ellipse that rounds the top-right corner of the clip.
 old-location: directcomp\idcompositionrectangleclip_settoprightradiusx_idcompositionanimation.htm
 tech.root: directcomp
 ms.assetid: B147E2AD-D8BD-4DB6-9253-05CEEA22879C
-
 ms.date: 12/05/2018
 ms.keywords: IDCompositionRectangleClip interface [DirectComposition],SetTopRightRadiusX method, IDCompositionRectangleClip.SetTopRightRadiusX, IDCompositionRectangleClip.SetTopRightRadiusX(IDCompositionAnimation), IDCompositionRectangleClip::SetTopRightRadiusX, IDCompositionRectangleClip::SetTopRightRadiusX(IDCompositionAnimation), IDCompositionRectangleClip::SetTopRightRadiusX(IDCompositionAnimation*), SetTopRightRadiusX, SetTopRightRadiusX method [DirectComposition], SetTopRightRadiusX method [DirectComposition],IDCompositionRectangleClip interface, dcomp/IDCompositionRectangleClip::SetTopRightRadiusX, directcomp.idcompositionrectangleclip_settoprightradiusx_idcompositionanimation
 ms.topic: method
-f1_keywords: 
- - "dcomp/IDCompositionRectangleClip.SetTopRightRadiusX"
+f1_keywords:
+- dcomp/IDCompositionRectangleClip.SetTopRightRadiusX
 dev_langs:
- - c++
+- c++
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dcomp.lib
 req.dll: Dcomp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dcomp.dll
+- Dcomp.dll
 api_name:
- - IDCompositionRectangleClip.SetTopRightRadiusX
+- IDCompositionRectangleClip.SetTopRightRadiusX
 targetos: Windows
 req.typenames: 
 req.redist: 

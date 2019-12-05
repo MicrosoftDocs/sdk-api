@@ -1,19 +1,17 @@
 ---
 UID: NF:iads.IADsAccessControlList.get__NewEnum
 title: IADsAccessControlList::get__NewEnum (iads.h)
-
 description: The IADsAccessControlList::get__NewEnum method is used to obtain an enumerator object for the ACL to enumerate ACEs.
 old-location: adsi\iadsaccesscontrollist_get__newenum.htm
 tech.root: adsi
 ms.assetid: 569f3bfa-3933-43b3-9d16-c3d4382cfa9f
-
 ms.date: 12/05/2018
 ms.keywords: IADsAccessControlList interface [ADSI],get__NewEnum method, IADsAccessControlList.get__NewEnum, IADsAccessControlList::get__NewEnum, _ds_iadsaccesscontrollist_get__newenum, adsi.iadsaccesscontrollist__get____newenum, adsi.iadsaccesscontrollist_get__newenum, get__NewEnum, get__NewEnum method [ADSI], get__NewEnum method [ADSI],IADsAccessControlList interface, iads/IADsAccessControlList::get__NewEnum
 ms.topic: method
-f1_keywords: 
- - "iads/IADsAccessControlList.get__NewEnum"
+f1_keywords:
+- iads/IADsAccessControlList.get__NewEnum
 dev_langs:
- - c++
+- c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Activeds.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Activeds.dll
+- Activeds.dll
 api_name:
- - IADsAccessControlList.get__NewEnum
+- IADsAccessControlList.get__NewEnum
 targetos: Windows
 req.typenames: 
 req.redist: 

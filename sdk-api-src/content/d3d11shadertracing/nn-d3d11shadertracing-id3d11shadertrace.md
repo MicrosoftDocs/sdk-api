@@ -1,19 +1,17 @@
 ---
 UID: NN:d3d11shadertracing.ID3D11ShaderTrace
 title: ID3D11ShaderTrace (d3d11shadertracing.h)
-
 description: An ID3D11ShaderTrace interface implements methods for obtaining traces of shader executions.
 old-location: direct3d11\id3d11shadertrace.htm
 tech.root: direct3d11
 ms.assetid: 27FF1E53-262A-4642-A4A8-7E21163C6DF9
-
 ms.date: 12/05/2018
 ms.keywords: ID3D11ShaderTrace, ID3D11ShaderTrace interface [Direct3D 11], ID3D11ShaderTrace interface [Direct3D 11],described, d3d11shadertracing/ID3D11ShaderTrace, direct3d11.id3d11shadertrace
 ms.topic: interface
-f1_keywords: 
- - "d3d11shadertracing/ID3D11ShaderTrace"
+f1_keywords:
+- d3d11shadertracing/ID3D11ShaderTrace
 dev_langs:
- - c++
+- c++
 req.header: d3d11shadertracing.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: D3D11SDKLayers.dll; D3D11_1SDKLayers.dll; D3D11_2SDKLayers.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D11SDKLayers.dll
- - D3D11_1SDKLayers.dll
- - D3D11_2SDKLayers.dll
+- D3D11SDKLayers.dll
+- D3D11_1SDKLayers.dll
+- D3D11_2SDKLayers.dll
 api_name:
- - ID3D11ShaderTrace
+- ID3D11ShaderTrace
 targetos: Windows
 req.typenames: 
 req.redist: 

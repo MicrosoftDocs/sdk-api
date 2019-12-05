@@ -1,19 +1,17 @@
 ---
 UID: NF:mfapi.MFShutdown
 title: MFShutdown function (mfapi.h)
-
 description: Shuts down the Microsoft Media Foundation platform.
 old-location: mf\mfshutdown.htm
 tech.root: medfound
 ms.assetid: 10be2361-b5b4-4c10-92a1-527ca22c74e4
-
 ms.date: 12/05/2018
 ms.keywords: 10be2361-b5b4-4c10-92a1-527ca22c74e4, MFShutdown, MFShutdown function [Media Foundation], mf.mfshutdown, mfapi/MFShutdown
 ms.topic: function
-f1_keywords: 
- - "mfapi/MFShutdown"
+f1_keywords:
+- mfapi/MFShutdown
 dev_langs:
- - c++
+- c++
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Mfplat.lib
 req.dll: Mfplat.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - mfplat.dll
+- mfplat.dll
 api_name:
- - MFShutdown
+- MFShutdown
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:wmsdkidl.IWMReaderAdvanced5.SetPlayerHook
 title: IWMReaderAdvanced5::SetPlayerHook (wmsdkidl.h)
-
 description: The SetPlayerHook method assigns a player-hook callback to the reader. The reader calls the callback method before sending each sample to the graphics processor for decompression.
 old-location: wmformat\iwmreaderadvanced5_setplayerhook.htm
 tech.root: wmformat
 ms.assetid: 499c6c31-8cdf-4b99-964a-1fd51c14c5bd
-
 ms.date: 12/05/2018
 ms.keywords: IWMReaderAdvanced5 interface [windows Media Format],SetPlayerHook method, IWMReaderAdvanced5.SetPlayerHook, IWMReaderAdvanced5::SetPlayerHook, IWMReaderAdvanced5SetPlayerHook, SetPlayerHook, SetPlayerHook method [windows Media Format], SetPlayerHook method [windows Media Format],IWMReaderAdvanced5 interface, wmformat.iwmreaderadvanced5_setplayerhook, wmsdkidl/IWMReaderAdvanced5::SetPlayerHook
 ms.topic: method
-f1_keywords: 
- - "wmsdkidl/IWMReaderAdvanced5.SetPlayerHook"
+f1_keywords:
+- wmsdkidl/IWMReaderAdvanced5.SetPlayerHook
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wmvcore.lib
- - Wmvcore.dll
- - WMStubDRM.lib
- - WMStubDRM.dll
+- Wmvcore.lib
+- Wmvcore.dll
+- WMStubDRM.lib
+- WMStubDRM.dll
 api_name:
- - IWMReaderAdvanced5.SetPlayerHook
+- IWMReaderAdvanced5.SetPlayerHook
 targetos: Windows
 req.typenames: 
 req.redist: 

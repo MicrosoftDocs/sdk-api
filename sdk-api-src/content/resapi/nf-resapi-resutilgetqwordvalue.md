@@ -1,19 +1,17 @@
 ---
 UID: NF:resapi.ResUtilGetQwordValue
 title: ResUtilGetQwordValue function (resapi.h)
-
 description: TBD.
 old-location: mscs\resutilgetqwordvalue.htm
 tech.root: MsCS
 ms.assetid: 22017258-a71c-4167-b134-0cfd57f1ea08
-
 ms.date: 12/05/2018
 ms.keywords: PRESUTIL_GET_QWORD_VALUE, PRESUTIL_GET_QWORD_VALUE function [Failover Cluster], ResUtilGetQwordValue, ResUtilGetQwordValue function [Failover Cluster], mscs.resutilgetqwordvalue, resapi/PRESUTIL_GET_QWORD_VALUE, resapi/ResUtilGetQwordValue
 ms.topic: function
-f1_keywords: 
- - "resapi/ResUtilGetQwordValue"
+f1_keywords:
+- resapi/ResUtilGetQwordValue
 dev_langs:
- - c++
+- c++
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,13 +30,13 @@ req.lib: ResUtils.lib; ResApi.lib on Windows Server 2008 R2 and Windows Server
 req.dll: ResUtils.dll
 req.irql: 
 topic_type:
- - kbSyntax
+- kbSyntax
 api_type:
- - <TBD>
+- <TBD>
 api_location:
- -
+- 
 api_name:
- - ResUtilGetQwordValue
+- ResUtilGetQwordValue
 targetos: Windows
 req.typenames: 
 req.redist: 

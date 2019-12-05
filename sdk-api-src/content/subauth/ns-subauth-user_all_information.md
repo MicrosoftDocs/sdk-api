@@ -1,19 +1,17 @@
 ---
 UID: NS:subauth._USER_ALL_INFORMATION
 title: USER_ALL_INFORMATION (subauth.h)
-
 description: Contains information on the session user.
 old-location: security\user_all_information.htm
 tech.root: SecAuthN
 ms.assetid: 18cf7194-4309-47b6-bfd1-9fb52bfddd56
-
 ms.date: 12/05/2018
 ms.keywords: '*PUSER_ALL_INFORMATION, PUSER_ALL_INFORMATION, PUSER_ALL_INFORMATION structure pointer [Security], USER_ALL_INFORMATION, USER_ALL_INFORMATION structure [Security], _lsa_user_all_information, security.user_all_information, subauth/PUSER_ALL_INFORMATION, subauth/USER_ALL_INFORMATION'
 ms.topic: struct
 f1_keywords:
 - subauth/USER_ALL_INFORMATION
 dev_langs:
- - c++
+- c++
 req.header: subauth.h
 req.include-header: 
 req.target-type: Windows

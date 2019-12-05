@@ -1,19 +1,17 @@
 ---
 UID: NF:bits.IBackgroundCopyFile.GetRemoteName
 title: IBackgroundCopyFile::GetRemoteName (bits.h)
-
 description: Retrieves the remote name of the file.
 old-location: bits\ibackgroundcopyfile_getremotename.htm
 tech.root: Bits
 ms.assetid: b6b1b1dc-776e-4369-bd39-d159e4edfe38
-
 ms.date: 12/05/2018
 ms.keywords: GetRemoteName, GetRemoteName method [BITS], GetRemoteName method [BITS],IBackgroundCopyFile interface, IBackgroundCopyFile interface [BITS],GetRemoteName method, IBackgroundCopyFile.GetRemoteName, IBackgroundCopyFile::GetRemoteName, _drz_ibackgroundcopyfile_getremotename, bits.ibackgroundcopyfile_getremotename, bits/IBackgroundCopyFile::GetRemoteName
 ms.topic: method
-f1_keywords: 
- - "bits/IBackgroundCopyFile.GetRemoteName"
+f1_keywords:
+- bits/IBackgroundCopyFile.GetRemoteName
 dev_langs:
- - c++
+- c++
 req.header: bits.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Bits.lib
 req.dll: QmgrPrxy.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - QmgrPrxy.dll
+- QmgrPrxy.dll
 api_name:
- - IBackgroundCopyFile.GetRemoteName
+- IBackgroundCopyFile.GetRemoteName
 targetos: Windows
 req.typenames: 
 req.redist: 

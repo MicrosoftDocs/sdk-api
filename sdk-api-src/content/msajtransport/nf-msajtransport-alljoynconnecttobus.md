@@ -1,19 +1,17 @@
 ---
 UID: NF:msajtransport.AllJoynConnectToBus
 title: AllJoynConnectToBus function (msajtransport.h)
-
 description: Opens the AllJoyn Router Node Service named pipe, and sets it to PIPE_NOWAIT.
 old-location: alljoyn\alljoynconnecttobus.htm
 tech.root: AllJoyn
 ms.assetid: B1929CE6-3707-4660-92CA-E267B1E5B9CC
-
 ms.date: 12/05/2018
 ms.keywords: AllJoynConnectToBus, AllJoynConnectToBus function [AllJoyn API], alljoyn.alljoynconnecttobus, msajtransport/AllJoynConnectToBus
 ms.topic: function
-f1_keywords: 
- - "msajtransport/AllJoynConnectToBus"
+f1_keywords:
+- msajtransport/AllJoynConnectToBus
 dev_langs:
- - c++
+- c++
 req.header: msajtransport.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: MSAJApi.lib
 req.dll: MSAJApi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - MSAJApi.dll
+- MSAJApi.dll
 api_name:
- - AllJoynConnectToBus
+- AllJoynConnectToBus
 targetos: Windows
 req.typenames: 
 req.redist: 

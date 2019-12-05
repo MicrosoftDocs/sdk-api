@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl.INameSpaceTreeControlCustomDraw.ItemPrePaint
 title: INameSpaceTreeControlCustomDraw::ItemPrePaint (shobjidl.h)
-
 description: Called before an item in the namespace tree control is drawn.
 old-location: shell\INameSpaceTreeControlCustomDraw_ItemPrePaint.htm
 tech.root: shell
 ms.assetid: 0245ecfd-2617-481a-9d34-8fc4eb0ea012
-
 ms.date: 12/05/2018
 ms.keywords: INameSpaceTreeControlCustomDraw interface [Windows Shell],ItemPrePaint method, INameSpaceTreeControlCustomDraw.ItemPrePaint, INameSpaceTreeControlCustomDraw::ItemPrePaint, ItemPrePaint, ItemPrePaint method [Windows Shell], ItemPrePaint method [Windows Shell],INameSpaceTreeControlCustomDraw interface, _shell_INameSpaceTreeControlCustomDraw_ItemPrePaint, shell.INameSpaceTreeControlCustomDraw_ItemPrePaint, shobjidl/INameSpaceTreeControlCustomDraw::ItemPrePaint
 ms.topic: method
-f1_keywords: 
- - "shobjidl/INameSpaceTreeControlCustomDraw.ItemPrePaint"
+f1_keywords:
+- shobjidl/INameSpaceTreeControlCustomDraw.ItemPrePaint
 dev_langs:
- - c++
+- c++
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shobjidl.h
+- Shobjidl.h
 api_name:
- - INameSpaceTreeControlCustomDraw.ItemPrePaint
+- INameSpaceTreeControlCustomDraw.ItemPrePaint
 targetos: Windows
 req.typenames: 
 req.redist: 

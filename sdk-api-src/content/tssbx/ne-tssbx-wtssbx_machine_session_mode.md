@@ -1,19 +1,17 @@
 ---
 UID: NE:tssbx.__MIDL_IWTSSBPlugin_0002
 title: WTSSBX_MACHINE_SESSION_MODE (tssbx.h)
-
 description: Contains values that indicate the session mode of a Remote Desktop Session Host (RD Session Host) server.
 old-location: termserv\wtssbx_machine_session_mode.htm
 tech.root: TermServ
 ms.assetid: 38894819-a39f-4c1f-aef9-ec3036b42877
-
 ms.date: 12/05/2018
 ms.keywords: WTSSBX_MACHINE_SESSION_MODE, WTSSBX_MACHINE_SESSION_MODE enumeration [Remote Desktop Services], WTSSBX_MACHINE_SESSION_MODE_MULTIPLE, WTSSBX_MACHINE_SESSION_MODE_SINGLE, WTSSBX_MACHINE_SESSION_MODE_UNSPEC, termserv.wtssbx_machine_session_mode, tssbx/WTSSBX_MACHINE_SESSION_MODE, tssbx/WTSSBX_MACHINE_SESSION_MODE_MULTIPLE, tssbx/WTSSBX_MACHINE_SESSION_MODE_SINGLE, tssbx/WTSSBX_MACHINE_SESSION_MODE_UNSPEC
 ms.topic: enum
-f1_keywords: 
- - "tssbx/WTSSBX_MACHINE_SESSION_MODE"
+f1_keywords:
+- tssbx/WTSSBX_MACHINE_SESSION_MODE
 dev_langs:
- - c++
+- c++
 req.header: tssbx.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Tssbx.h
+- Tssbx.h
 api_name:
- - WTSSBX_MACHINE_SESSION_MODE
+- WTSSBX_MACHINE_SESSION_MODE
 targetos: Windows
 req.typenames: WTSSBX_MACHINE_SESSION_MODE
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:pla.ITraceDataCollector.get_EventsLost
 title: ITraceDataCollector::get_EventsLost (pla.h)
-
 description: Retrieves the number of events that were not written to the buffer.
 old-location: pla\itracedatacollector_eventslost.htm
 tech.root: PLA
 ms.assetid: f11cf095-405b-4129-aaad-d1558f01606e
-
 ms.date: 12/05/2018
 ms.keywords: EventsLost property [PLA], EventsLost property [PLA],ITraceDataCollector interface, ITraceDataCollector interface [PLA],EventsLost property, ITraceDataCollector.EventsLost, ITraceDataCollector.get_EventsLost, ITraceDataCollector::EventsLost, ITraceDataCollector::get_EventsLost, base.itracedatacollector_eventslost, get_EventsLost, pla.itracedatacollector_eventslost, pla/ITraceDataCollector::EventsLost, pla/ITraceDataCollector::get_EventsLost
 ms.topic: method
-f1_keywords: 
- - "pla/ITraceDataCollector.EventsLost"
+f1_keywords:
+- pla/ITraceDataCollector.EventsLost
 dev_langs:
- - c++
+- c++
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: Pla.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Pla.dll
+- Pla.dll
 api_name:
- - ITraceDataCollector.EventsLost
- - ITraceDataCollector.get_EventsLost
+- ITraceDataCollector.EventsLost
+- ITraceDataCollector.get_EventsLost
 targetos: Windows
 req.typenames: 
 req.redist: 

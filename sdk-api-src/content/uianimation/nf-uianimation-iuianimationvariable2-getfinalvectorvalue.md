@@ -1,19 +1,17 @@
 ---
 UID: NF:uianimation.IUIAnimationVariable2.GetFinalVectorValue
 title: IUIAnimationVariable2::GetFinalVectorValue (uianimation.h)
-
 description: Gets the final value of the animation variable for the specified dimension. This is the value after all currently scheduled animations have completed.
 old-location: uianimation\iuianimationvariable2_getfinalvectorvalue.htm
 tech.root: UIAnimation
 ms.assetid: 2794B65F-0461-4E0F-832D-CEC9BEE60B6E
-
 ms.date: 12/05/2018
 ms.keywords: GetFinalVectorValue, GetFinalVectorValue method [Windows Animation], GetFinalVectorValue method [Windows Animation],IUIAnimationVariable2 interface, IUIAnimationVariable2 interface [Windows Animation],GetFinalVectorValue method, IUIAnimationVariable2.GetFinalVectorValue, IUIAnimationVariable2::GetFinalVectorValue, uianimation.iuianimationvariable2_getfinalvectorvalue, uianimation/IUIAnimationVariable2::GetFinalVectorValue
 ms.topic: method
-f1_keywords: 
- - "uianimation/IUIAnimationVariable2.GetFinalVectorValue"
+f1_keywords:
+- uianimation/IUIAnimationVariable2.GetFinalVectorValue
 dev_langs:
- - c++
+- c++
 req.header: uianimation.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: UIAnimation.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAnimation.dll
+- UIAnimation.dll
 api_name:
- - IUIAnimationVariable2.GetFinalVectorValue
+- IUIAnimationVariable2.GetFinalVectorValue
 targetos: Windows
 req.typenames: 
 req.redist: 

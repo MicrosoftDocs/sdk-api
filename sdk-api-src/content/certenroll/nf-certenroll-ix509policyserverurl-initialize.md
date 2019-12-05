@@ -1,19 +1,17 @@
 ---
 UID: NF:certenroll.IX509PolicyServerUrl.Initialize
 title: IX509PolicyServerUrl::Initialize (certenroll.h)
-
 description: Initializes an IX509PolicyServerUrl object for a computer or user context.
 old-location: security\ix509policyserverurl_initialize.htm
 tech.root: seccertenroll
 ms.assetid: 693c3a29-0d12-4603-a06a-4277db3b8b8b
-
 ms.date: 12/05/2018
 ms.keywords: ContextAdministratorForceMachine, ContextMachine, ContextUser, IX509PolicyServerUrl interface [Security],Initialize method, IX509PolicyServerUrl.Initialize, IX509PolicyServerUrl::Initialize, Initialize, Initialize method [Security], Initialize method [Security],IX509PolicyServerUrl interface, certenroll/IX509PolicyServerUrl::Initialize, security.ix509policyserverurl_initialize
 ms.topic: method
-f1_keywords: 
- - "certenroll/IX509PolicyServerUrl.Initialize"
+f1_keywords:
+- certenroll/IX509PolicyServerUrl.Initialize
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Certenroll.h
+- Certenroll.h
 api_name:
- - IX509PolicyServerUrl.Initialize
+- IX509PolicyServerUrl.Initialize
 targetos: Windows
 req.typenames: 
 req.redist: 

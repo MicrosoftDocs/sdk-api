@@ -1,19 +1,17 @@
 ---
 UID: NE:directml.DML_TENSOR_TYPE
 title: DML_TENSOR_TYPE
-
 description: Identifies a type of tensor description.
 old-location: direct3d12\dml_tensor_type.htm
 tech.root: direct3d12
 ms.assetid: 954549FD-70C4-42D7-99C9-8AE33304CDBE
-
 ms.date: 12/5/2018
 ms.keywords: DML_TENSOR_TYPE, DML_TENSOR_TYPE enumeration, DML_TENSOR_TYPE_BUFFER, DML_TENSOR_TYPE_INVALID, direct3d12.dml_tensor_type, directml/DML_TENSOR_TYPE, directml/DML_TENSOR_TYPE_BUFFER, directml/DML_TENSOR_TYPE_INVALID
 ms.topic: enum
-f1_keywords: 
- - "directml/DML_TENSOR_TYPE"
+f1_keywords:
+- directml/DML_TENSOR_TYPE
 dev_langs:
- - c++
+- c++
 req.header: directml.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - DirectML.h
+- DirectML.h
 api_name:
- - DML_TENSOR_TYPE
+- DML_TENSOR_TYPE
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:windows.ui.xaml.media.dxinterop.ISwapChainPanelNative2.SetSwapChainHandle
 title: ISwapChainPanelNative2::xaml (windows.ui.xaml.media.dxinterop.h)
-
 description: Sets the DirectX swap chain for SwapChainPanel using a handle to the swap chain.
 old-location: winrt\iswapchainpanelnative2_setswapchainhandle.htm
 tech.root: WinRT
 ms.assetid: eda636d8-a07d-aea5-f81e-0489acc006ef
-
 ms.date: 12/05/2018
 ms.keywords: ISwapChainPanelNative2 interface [Windows Runtime],SetSwapChainHandle method, ISwapChainPanelNative2.SetSwapChainHandle, ISwapChainPanelNative2.xaml, ISwapChainPanelNative2::SetSwapChainHandle, ISwapChainPanelNative2::xaml, SetSwapChainHandle, SetSwapChainHandle method [Windows Runtime], SetSwapChainHandle method [Windows Runtime],ISwapChainPanelNative2 interface, windows/ISwapChainPanelNative2::SetSwapChainHandle, winrt.iswapchainpanelnative2_setswapchainhandle
 ms.topic: method
-f1_keywords: 
- - "windows.ui.xaml.media.dxinterop/ISwapChainPanelNative2.SetSwapChainHandle"
+f1_keywords:
+- windows.ui.xaml.media.dxinterop/ISwapChainPanelNative2.SetSwapChainHandle
 dev_langs:
- - c++
+- c++
 req.header: windows.ui.xaml.media.dxinterop.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Windows.UI.Xaml.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Windows.UI.Xaml.dll
+- Windows.UI.Xaml.dll
 api_name:
- - ISwapChainPanelNative2.SetSwapChainHandle
+- ISwapChainPanelNative2.SetSwapChainHandle
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:winbase.LogonUserA
 title: LogonUserA function (winbase.h)
-
 description: The Win32 LogonUser function attempts to log a user on to the local computer. LogonUser returns a handle to a user token that you can use to impersonate user.
 old-location: security\logonuser.htm
 tech.root: SecAuthN
 ms.assetid: a6d880a0-0aed-4bdb-89c9-4f667ecb510e
-
 ms.date: 12/05/2018
 ms.keywords: LOGON32_LOGON_BATCH, LOGON32_LOGON_INTERACTIVE, LOGON32_LOGON_NETWORK, LOGON32_LOGON_NETWORK_CLEARTEXT, LOGON32_LOGON_NEW_CREDENTIALS, LOGON32_LOGON_SERVICE, LOGON32_LOGON_UNLOCK, LOGON32_PROVIDER_DEFAULT, LOGON32_PROVIDER_WINNT40, LOGON32_PROVIDER_WINNT50, LogonUser, LogonUser function [Security], LogonUserA, LogonUserW, _win32_logonuser, security.logonuser, winbase/LogonUser, winbase/LogonUserA, winbase/LogonUserW
 ms.topic: function
-f1_keywords: 
- - "winbase/LogonUser"
+f1_keywords:
+- winbase/LogonUser
 dev_langs:
- - c++
+- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Advapi32.dll
- - AdvApi32Legacy.dll
- - API-MS-Win-Security-Logon-L1-1-1.dll
+- Advapi32.dll
+- AdvApi32Legacy.dll
+- API-MS-Win-Security-Logon-L1-1-1.dll
 api_name:
- - LogonUser
- - LogonUserA
- - LogonUserW
+- LogonUser
+- LogonUserA
+- LogonUserW
 targetos: Windows
 req.typenames: 
 req.redist: 

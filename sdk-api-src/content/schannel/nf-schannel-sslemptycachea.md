@@ -1,19 +1,17 @@
 ---
 UID: NF:schannel.SslEmptyCacheA
 title: SslEmptyCacheA function (schannel.h)
-
 description: Removes the specified string from the Schannel cache.
 old-location: security\sslemptycache.htm
 tech.root: SecAuthN
 ms.assetid: c914d4e3-657e-45ef-ace8-2cea900a8a76
-
 ms.date: 12/05/2018
 ms.keywords: SslEmptyCache, SslEmptyCache function [Security], SslEmptyCacheA, SslEmptyCacheW, schannel/SslEmptyCache, schannel/SslEmptyCacheA, schannel/SslEmptyCacheW, security.sslemptycache
 ms.topic: function
-f1_keywords: 
- - "schannel/SslEmptyCache"
+f1_keywords:
+- schannel/SslEmptyCache
 dev_langs:
- - c++
+- c++
 req.header: schannel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: Schannel.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Schannel.dll
+- Schannel.dll
 api_name:
- - SslEmptyCache
- - SslEmptyCacheA
- - SslEmptyCacheW
+- SslEmptyCache
+- SslEmptyCacheA
+- SslEmptyCacheW
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NE:wuapi.tagUpdateServiceOption
 title: UpdateServiceOption (wuapi.h)
-
 description: Defines the options that affect how the service registration for a scan package service is removed.
 old-location: wua\updateserviceoption.htm
 tech.root: Wua_Sdk
 ms.assetid: c03ee4e7-b8d4-46bb-bc57-20b35d779e07
-
 ms.date: 12/05/2018
 ms.keywords: UpdateServiceOption, UpdateServiceOption enumeration [Windows Update Agent], usoNonVolatileService, wua.updateserviceoption, wuapi/UpdateServiceOption, wuapi/usoNonVolatileService
 ms.topic: enum
-f1_keywords: 
- - "wuapi/UpdateServiceOption"
+f1_keywords:
+- wuapi/UpdateServiceOption
 dev_langs:
- - c++
+- c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wuapi.h
+- Wuapi.h
 api_name:
- - UpdateServiceOption
+- UpdateServiceOption
 targetos: Windows
 req.typenames: UpdateServiceOption
 req.redist: 

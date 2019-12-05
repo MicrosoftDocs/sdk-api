@@ -1,19 +1,17 @@
 ---
 UID: NE:eapauthenticatoractiondefine.tagEapPeerMethodResponseAction
 title: EapPeerMethodResponseAction (eapauthenticatoractiondefine.h)
-
 description: Defines the set of actions an EAP authenticator can indicate to a supplicant or EAP peer method during authentication.
 old-location: eaphost\eappeermethodresponseaction.htm
 tech.root: eaphost
 ms.assetid: def7e04e-ed0c-46f0-97d6-4c0ab021fa8b
-
 ms.date: 12/05/2018
 ms.keywords: EapPeerMethodResponseAction, EapPeerMethodResponseAction enumeration [EAPHost], EapPeerMethodResponseActionDiscard, EapPeerMethodResponseActionInvokeUI, EapPeerMethodResponseActionNone, EapPeerMethodResponseActionRespond, EapPeerMethodResponseActionResult, EapPeerMethodResponseActionSend, eapauthenticatoractiondefine/EapPeerMethodResponseAction, eapauthenticatoractiondefine/EapPeerMethodResponseActionDiscard, eapauthenticatoractiondefine/EapPeerMethodResponseActionInvokeUI, eapauthenticatoractiondefine/EapPeerMethodResponseActionNone, eapauthenticatoractiondefine/EapPeerMethodResponseActionRespond, eapauthenticatoractiondefine/EapPeerMethodResponseActionResult, eapauthenticatoractiondefine/EapPeerMethodResponseActionSend, eaphost.eappeermethodresponseaction
 ms.topic: enum
-f1_keywords: 
- - "eapauthenticatoractiondefine/EapPeerMethodResponseAction"
+f1_keywords:
+- eapauthenticatoractiondefine/EapPeerMethodResponseAction
 dev_langs:
- - c++
+- c++
 req.header: eapauthenticatoractiondefine.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - EapAuthenticatorActionDefine.h
+- EapAuthenticatorActionDefine.h
 api_name:
- - EapPeerMethodResponseAction
+- EapPeerMethodResponseAction
 targetos: Windows
 req.typenames: EapPeerMethodResponseAction
 req.redist: 

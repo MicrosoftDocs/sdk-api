@@ -1,19 +1,17 @@
 ---
 UID: NF:wbemcli.IWbemClassObject.SpawnInstance
 title: IWbemClassObject::SpawnInstance (wbemcli.h)
-
 description: Use the IWbemClassObject::SpawnInstance method to create a new instance of a class.
 old-location: wmi\iwbemclassobject_spawninstance.htm
 tech.root: WmiSdk
 ms.assetid: 3f244c1b-60ed-41ff-8464-5ac66737a5da
-
 ms.date: 12/05/2018
 ms.keywords: IWbemClassObject interface [Windows Management Instrumentation],SpawnInstance method, IWbemClassObject.SpawnInstance, IWbemClassObject::SpawnInstance, SpawnInstance, SpawnInstance method [Windows Management Instrumentation], SpawnInstance method [Windows Management Instrumentation],IWbemClassObject interface, _hmm_iwbemclassobject_spawninstance, wbemcli/IWbemClassObject::SpawnInstance, wmi.iwbemclassobject_spawninstance
 ms.topic: method
-f1_keywords: 
- - "wbemcli/IWbemClassObject.SpawnInstance"
+f1_keywords:
+- wbemcli/IWbemClassObject.SpawnInstance
 dev_langs:
- - c++
+- c++
 req.header: wbemcli.h
 req.include-header: Wbemidl.h
 req.target-type: Windows
@@ -32,23 +30,23 @@ req.lib: WbemUuid.lib
 req.dll: CIMWin32.dll; Esscli.dll; Fastprox.dll; FrameDyn.dll; FrameDynOS.dll; Krnlprov.dll; Ncprov.dll; Wbemcore.dll; Wbemess.dll; Wmipiprt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CIMWin32.dll
- - Esscli.dll
- - Fastprox.dll
- - FrameDyn.dll
- - FrameDynOS.dll
- - Krnlprov.dll
- - Ncprov.dll
- - Wbemcore.dll
- - Wbemess.dll
- - Wmipiprt.dll
+- CIMWin32.dll
+- Esscli.dll
+- Fastprox.dll
+- FrameDyn.dll
+- FrameDynOS.dll
+- Krnlprov.dll
+- Ncprov.dll
+- Wbemcore.dll
+- Wbemess.dll
+- Wmipiprt.dll
 api_name:
- - IWbemClassObject.SpawnInstance
+- IWbemClassObject.SpawnInstance
 targetos: Windows
 req.typenames: 
 req.redist: 

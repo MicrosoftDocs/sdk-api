@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IShellItemArray.GetAttributes
 title: IShellItemArray::GetAttributes (shobjidl_core.h)
-
 description: Gets the attributes of the set of items contained in an IShellItemArray.
 old-location: shell\IShellItemArray_GetAttributes.htm
 tech.root: shell
 ms.assetid: 0498ce03-9949-48bb-a1eb-b569f4171884
-
 ms.date: 12/05/2018
 ms.keywords: GetAttributes, GetAttributes method [Windows Shell], GetAttributes method [Windows Shell],IShellItemArray interface, IShellItemArray interface [Windows Shell],GetAttributes method, IShellItemArray.GetAttributes, IShellItemArray::GetAttributes, SIATTRIBFLAGS_ALLITEMS, SIATTRIBFLAGS_AND, SIATTRIBFLAGS_APPCOMPAT, SIATTRIBFLAGS_MASK, SIATTRIBFLAGS_OR, _shell_IShellItemArray_GetAttributes, shell.IShellItemArray_GetAttributes, shobjidl_core/IShellItemArray::GetAttributes
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IShellItemArray.GetAttributes"
+f1_keywords:
+- shobjidl_core/IShellItemArray.GetAttributes
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - IShellItemArray.GetAttributes
+- IShellItemArray.GetAttributes
 targetos: Windows
 req.typenames: 
 req.redist: 

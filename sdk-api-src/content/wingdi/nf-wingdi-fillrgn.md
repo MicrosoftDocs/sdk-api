@@ -1,19 +1,17 @@
 ---
 UID: NF:wingdi.FillRgn
 title: FillRgn function (wingdi.h)
-
 description: The FillRgn function fills a region by using the specified brush.
 old-location: gdi\fillrgn.htm
 tech.root: gdi
 ms.assetid: c4e0eca5-442b-462b-a4f2-0c628b6d3d38
-
 ms.date: 12/05/2018
 ms.keywords: FillRgn, FillRgn function [Windows GDI], _win32_FillRgn, gdi.fillrgn, wingdi/FillRgn
 ms.topic: function
-f1_keywords: 
- - "wingdi/FillRgn"
+f1_keywords:
+- wingdi/FillRgn
 dev_langs:
- - c++
+- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,20 +30,20 @@ req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - gdi32.dll
- - Ext-MS-Win-GDI-rgn-l1-1-0.dll
- - Ext-MS-Win-RTCore-GDI-rgn-l1-1-0.dll
- - ext-ms-win-rtcore-gdi-rgn-l1-1-1.dll
- - API-MS-Win-GDI-Internal-Uap-L1-1-0.dll
- - GDI32Full.dll
- - GDI32Min.dll
+- gdi32.dll
+- Ext-MS-Win-GDI-rgn-l1-1-0.dll
+- Ext-MS-Win-RTCore-GDI-rgn-l1-1-0.dll
+- ext-ms-win-rtcore-gdi-rgn-l1-1-1.dll
+- API-MS-Win-GDI-Internal-Uap-L1-1-0.dll
+- GDI32Full.dll
+- GDI32Min.dll
 api_name:
- - FillRgn
+- FillRgn
 targetos: Windows
 req.typenames: 
 req.redist: 

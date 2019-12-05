@@ -1,19 +1,17 @@
 ---
 UID: NF:manipulations._IManipulationEvents.ManipulationDelta
 title: _IManipulationEvents::ManipulationDelta (manipulations.h)
-
 description: Handles events that happen when a manipulated object changes.
 old-location: wintouch\_imanipulationevents_manipulationdelta.htm
 tech.root: wintouch
 ms.assetid: bebac896-c48d-4e6e-98ce-4b7d1dec101c
-
 ms.date: 12/05/2018
 ms.keywords: ManipulationDelta, ManipulationDelta method [Windows Touch], ManipulationDelta method [Windows Touch],_IManipulationEvents interface, _IManipulationEvents interface [Windows Touch],ManipulationDelta method, _IManipulationEvents.ManipulationDelta, _IManipulationEvents::ManipulationDelta, manipulations/_IManipulationEvents::ManipulationDelta, wintouch._imanipulationevents_manipulationdelta
 ms.topic: method
-f1_keywords: 
- - "manipulations/_IManipulationEvents.ManipulationDelta"
+f1_keywords:
+- manipulations/_IManipulationEvents.ManipulationDelta
 dev_langs:
- - c++
+- c++
 req.header: manipulations.h
 req.include-header: Manipulations.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - manipulations.h
+- manipulations.h
 api_name:
- - _IManipulationEvents.ManipulationDelta
+- _IManipulationEvents.ManipulationDelta
 targetos: Windows
 req.typenames: 
 req.redist: 

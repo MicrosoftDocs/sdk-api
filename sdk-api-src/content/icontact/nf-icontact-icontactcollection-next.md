@@ -1,19 +1,17 @@
 ---
 UID: NF:icontact.IContactCollection.Next
 title: IContactCollection::Next (icontact.h)
-
 description: Moves to the next contact.
 old-location: wincontacts\_wincontacts_IContactCollection_Next.htm
 tech.root: wincontacts
 ms.assetid: f7d47643-4ef2-41fb-9f75-2fe79fec2385
-
 ms.date: 12/05/2018
 ms.keywords: IContactCollection interface [Windows Contacts],Next method, IContactCollection.Next, IContactCollection::Next, Next, Next method [Windows Contacts], Next method [Windows Contacts],IContactCollection interface, _wincontacts_IContactCollection_Next, icontact/IContactCollection::Next, wincontacts._wincontacts_IContactCollection_Next
 ms.topic: method
-f1_keywords: 
- - "icontact/IContactCollection.Next"
+f1_keywords:
+- icontact/IContactCollection.Next
 dev_langs:
- - c++
+- c++
 req.header: icontact.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wab32.dll (Version 6.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wab32.dll
+- Wab32.dll
 api_name:
- - IContactCollection.Next
+- IContactCollection.Next
 targetos: Windows
 req.typenames: 
 req.redist: 

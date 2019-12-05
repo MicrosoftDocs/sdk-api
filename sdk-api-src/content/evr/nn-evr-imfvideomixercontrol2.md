@@ -1,19 +1,17 @@
 ---
 UID: NN:evr.IMFVideoMixerControl2
 title: IMFVideoMixerControl2 (evr.h)
-
 description: Controls preferences for video deinterlacing.
 old-location: mf\imfvideomixercontrol2.htm
 tech.root: medfound
 ms.assetid: a238b050-101d-4b8a-9479-984b889823f4
-
 ms.date: 12/05/2018
 ms.keywords: IMFVideoMixerControl2, IMFVideoMixerControl2 interface [Media Foundation], IMFVideoMixerControl2 interface [Media Foundation],described, evr/IMFVideoMixerControl2, mf.imfvideomixercontrol2
 ms.topic: interface
-f1_keywords: 
- - "evr/IMFVideoMixerControl2"
+f1_keywords:
+- evr/IMFVideoMixerControl2
 dev_langs:
- - c++
+- c++
 req.header: evr.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - evr.h
+- evr.h
 api_name:
- - IMFVideoMixerControl2
+- IMFVideoMixerControl2
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:dwrite.IDWriteTextLayout.GetStrikethrough
 title: IDWriteTextLayout::GetStrikethrough (dwrite.h)
-
 description: Get the strikethrough presence of the text at the specified position.
 old-location: directwrite\IDWriteTextLayout_GetStrikethrough.htm
 tech.root: DirectWrite
 ms.assetid: 39a1af39-a8b3-47b2-b3cb-8e807ae202c9
-
 ms.date: 12/05/2018
 ms.keywords: GetStrikethrough, GetStrikethrough method [Direct Write], GetStrikethrough method [Direct Write],IDWriteTextLayout interface, IDWriteTextLayout interface [Direct Write],GetStrikethrough method, IDWriteTextLayout.GetStrikethrough, IDWriteTextLayout::GetStrikethrough, directwrite.IDWriteTextLayout_GetStrikethrough, dwrite/IDWriteTextLayout::GetStrikethrough
 ms.topic: method
-f1_keywords: 
- - "dwrite/IDWriteTextLayout.GetStrikethrough"
+f1_keywords:
+- dwrite/IDWriteTextLayout.GetStrikethrough
 dev_langs:
- - c++
+- c++
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dwrite.lib
 req.dll: Dwrite.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dwrite.dll
+- dwrite.dll
 api_name:
- - IDWriteTextLayout.GetStrikethrough
+- IDWriteTextLayout.GetStrikethrough
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:winuser.QueryDisplayConfig
 title: QueryDisplayConfig function (winuser.h)
-
 description: The QueryDisplayConfig function retrieves information about all possible display paths for all display devices, or views, in the current setting.
 old-location: display\querydisplayconfig.htm
 tech.root: display
 ms.assetid: b1792d7f-f216-4250-a6b6-a11b251a9cec
-
 ms.date: 12/05/2018
 ms.keywords: CCD_Functions_4fc57ba2-e10b-4d28-bbaf-a5ded2264e59.xml, QueryDisplayConfig, QueryDisplayConfig function [Display Devices], display.querydisplayconfig, winuser/QueryDisplayConfig
 ms.topic: function
-f1_keywords: 
- - "winuser/QueryDisplayConfig"
+f1_keywords:
+- winuser/QueryDisplayConfig
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Universal
@@ -32,17 +30,17 @@ req.lib: User32.lib; OneCoreUAP.lib on Windows 10
 req.dll: User32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - User32.dll
- - API-MS-Win-NTUser-SysParams-l1-1-0.dll
- - Ext-MS-Win-RTCore-NTUser-SysParams-l1-1-0.dll
- - MinUser.dll
+- User32.dll
+- API-MS-Win-NTUser-SysParams-l1-1-0.dll
+- Ext-MS-Win-RTCore-NTUser-SysParams-l1-1-0.dll
+- MinUser.dll
 api_name:
- - QueryDisplayConfig
+- QueryDisplayConfig
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:dhcpsapi.DhcpRemoveOption
 title: DhcpRemoveOption function (dhcpsapi.h)
-
 description: Removes the definition of a specific option for the default user class and vendor class at the default option level on the DHCP server.
 old-location: dhcp\dhcpremoveoption.htm
 tech.root: DHCP
 ms.assetid: a165d88c-113c-41ed-920e-f8f434578158
-
 ms.date: 12/05/2018
 ms.keywords: DhcpRemoveOption, DhcpRemoveOption function [DHCP], dhcp.dhcpremoveoption, dhcpsapi/DhcpRemoveOption
 ms.topic: function
-f1_keywords: 
- - "dhcpsapi/DhcpRemoveOption"
+f1_keywords:
+- dhcpsapi/DhcpRemoveOption
 dev_langs:
- - c++
+- c++
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dhcpsapi.lib
 req.dll: Dhcpsapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Dhcpsapi.dll
+- Dhcpsapi.dll
 api_name:
- - DhcpRemoveOption
+- DhcpRemoveOption
 targetos: Windows
 req.typenames: 
 req.redist: 

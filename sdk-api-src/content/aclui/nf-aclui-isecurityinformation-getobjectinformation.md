@@ -1,19 +1,17 @@
 ---
 UID: NF:aclui.ISecurityInformation.GetObjectInformation
 title: ISecurityInformation::GetObjectInformation (aclui.h)
-
 description: The GetObjectInformation method requests information that the access control editor uses to initialize its pages and to determine the editing options available to the user.
 old-location: security\isecurityinformation_getobjectinformation.htm
 tech.root: SecAuthZ
 ms.assetid: 2bc63aa0-dada-4962-a381-6b0f8332e564
-
 ms.date: 12/05/2018
 ms.keywords: GetObjectInformation, GetObjectInformation method [Security], GetObjectInformation method [Security],ISecurityInformation interface, ISecurityInformation interface [Security],GetObjectInformation method, ISecurityInformation.GetObjectInformation, ISecurityInformation::GetObjectInformation, _win32_isecurityinformation_getobjectinformation, aclui/ISecurityInformation::GetObjectInformation, security.isecurityinformation_getobjectinformation
 ms.topic: method
 f1_keywords:
 - aclui/ISecurityInformation.GetObjectInformation
 dev_langs:
- - c++
+- c++
 req.header: aclui.h
 req.include-header: 
 req.target-type: Windows

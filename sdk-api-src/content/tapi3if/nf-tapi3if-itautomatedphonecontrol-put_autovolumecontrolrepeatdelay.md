@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi3if.ITAutomatedPhoneControl.put_AutoVolumeControlRepeatDelay
 title: ITAutomatedPhoneControl::put_AutoVolumeControlRepeatDelay (tapi3if.h)
-
 description: The put_AutoVolumeControlRepeatDelay method sets the AutoVolumeControlRepeatDelay property. The property specifies the delay, in milliseconds (ms), before a volume button starts repeating when it is held down.
 old-location: tapi3\itautomatedphonecontrol_put_autovolumecontrolrepeatdelay.htm
 tech.root: Tapi
 ms.assetid: a00993af-2ff2-4f91-889e-b0d3ae550642
-
 ms.date: 12/05/2018
 ms.keywords: ITAutomatedPhoneControl interface [TAPI 2.2],put_AutoVolumeControlRepeatDelay method, ITAutomatedPhoneControl.put_AutoVolumeControlRepeatDelay, ITAutomatedPhoneControl::put_AutoVolumeControlRepeatDelay, _tapi3_itautomatedphonecontrol_put_autovolumecontrolrepeatdelay, put_AutoVolumeControlRepeatDelay, put_AutoVolumeControlRepeatDelay method [TAPI 2.2], put_AutoVolumeControlRepeatDelay method [TAPI 2.2],ITAutomatedPhoneControl interface, tapi3.itautomatedphonecontrol_put_autovolumecontrolrepeatdelay, tapi3if/ITAutomatedPhoneControl::put_AutoVolumeControlRepeatDelay
 ms.topic: method
-f1_keywords: 
- - "tapi3if/ITAutomatedPhoneControl.put_AutoVolumeControlRepeatDelay"
+f1_keywords:
+- tapi3if/ITAutomatedPhoneControl.put_AutoVolumeControlRepeatDelay
 dev_langs:
- - c++
+- c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Tapi3.dll
+- Tapi3.dll
 api_name:
- - ITAutomatedPhoneControl.put_AutoVolumeControlRepeatDelay
+- ITAutomatedPhoneControl.put_AutoVolumeControlRepeatDelay
 targetos: Windows
 req.typenames: 
 req.redist: 

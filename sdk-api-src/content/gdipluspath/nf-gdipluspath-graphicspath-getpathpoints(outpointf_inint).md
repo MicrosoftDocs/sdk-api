@@ -3,14 +3,13 @@ UID: NF:gdipluspath.GraphicsPath.GetPathPoints(OUT PointF,IN INT)
 title: GraphicsPath::GetPathPoints
 description: The GraphicsPath::GetPathPoints method gets this path's array of points.
 ms.assetid: b8477156-4557-4aa7-900e-61eb9108ec38
-
 ms.date: 05/13/2019
 ms.keywords: GraphicsPath::GetPathPoints
 ms.topic: language-reference
-f1_keywords: 
- - "gdipluspath/GraphicsPath::GetPathPoints"
+f1_keywords:
+- gdipluspath/GraphicsPath::GetPathPoints
 dev_langs:
- - c++
+- c++
 targetos: Windows
 req.assembly: 
 req.construct-type: function
@@ -32,13 +31,13 @@ req.type-library:
 req.umdf-ver: 
 req.unicode-ansi: 
 topic_type:
- - apiref
+- apiref
 api_type:
- - COM
+- COM
 api_location:
- - gdipluspath.h
+- gdipluspath.h
 api_name:
- - GraphicsPath::GetPathPoints
+- GraphicsPath::GetPathPoints
 ---
 
 # GraphicsPath::GetPathPoints

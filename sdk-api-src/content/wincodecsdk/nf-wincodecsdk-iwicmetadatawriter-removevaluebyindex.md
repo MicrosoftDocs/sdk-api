@@ -1,19 +1,17 @@
 ---
 UID: NF:wincodecsdk.IWICMetadataWriter.RemoveValueByIndex
 title: IWICMetadataWriter::RemoveValueByIndex (wincodecsdk.h)
-
 description: Removes the metadata item at the specified index.
 old-location: wic\_wic_codec_iwicmetadatawriter_removevaluebyindex.htm
 tech.root: wic
 ms.assetid: 65cf7e21-e474-4652-9ee1-0802362f65ca
-
 ms.date: 12/05/2018
 ms.keywords: IWICMetadataWriter interface [Windows Imaging Component],RemoveValueByIndex method, IWICMetadataWriter.RemoveValueByIndex, IWICMetadataWriter::RemoveValueByIndex, RemoveValueByIndex, RemoveValueByIndex method [Windows Imaging Component], RemoveValueByIndex method [Windows Imaging Component],IWICMetadataWriter interface, _wic_codec_iwicmetadatawriter_removevaluebyindex, wic._wic_codec_iwicmetadatawriter_removevaluebyindex, wincodecsdk/IWICMetadataWriter::RemoveValueByIndex
 ms.topic: method
-f1_keywords: 
- - "wincodecsdk/IWICMetadataWriter.RemoveValueByIndex"
+f1_keywords:
+- wincodecsdk/IWICMetadataWriter.RemoveValueByIndex
 dev_langs:
- - c++
+- c++
 req.header: wincodecsdk.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Windowscodecs.lib
 req.dll: Windowscodecs.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Windowscodecs.dll
+- Windowscodecs.dll
 api_name:
- - IWICMetadataWriter.RemoveValueByIndex
+- IWICMetadataWriter.RemoveValueByIndex
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMTileBrush.SetViewbox
 title: IXpsOMTileBrush::SetViewbox (xpsobjectmodel.h)
-
 description: Sets the portion of the source content to be used as the tile image.
 old-location: xps\ixpsomtilebrush_setviewbox.htm
 tech.root: printdocs
 ms.assetid: a4a0a9c7-15d5-493e-8ed3-9644f59796fd
-
 ms.date: 12/05/2018
 ms.keywords: IXpsOMTileBrush interface [XPS Documents and Packaging],SetViewbox method, IXpsOMTileBrush.SetViewbox, IXpsOMTileBrush::SetViewbox, SetViewbox, SetViewbox method [XPS Documents and Packaging], SetViewbox method [XPS Documents and Packaging],IXpsOMTileBrush interface, xps.ixpsomtilebrush_setviewbox, xpsobjectmodel/IXpsOMTileBrush::SetViewbox
 ms.topic: method
-f1_keywords: 
- - "xpsobjectmodel/IXpsOMTileBrush.SetViewbox"
+f1_keywords:
+- xpsobjectmodel/IXpsOMTileBrush.SetViewbox
 dev_langs:
- - c++
+- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsobjectmodel.h
+- xpsobjectmodel.h
 api_name:
- - IXpsOMTileBrush.SetViewbox
+- IXpsOMTileBrush.SetViewbox
 targetos: Windows
 req.typenames: 
 req.redist: 

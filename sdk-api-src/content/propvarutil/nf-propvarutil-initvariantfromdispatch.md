@@ -1,19 +1,17 @@
 ---
 UID: NF:propvarutil.InitVariantFromDispatch
 title: InitVariantFromDispatch function (propvarutil.h)
-
 description: Initializes a VARIANT structure based on an instance of an IDispatch object.
 old-location: properties\InitVariantFromDispatch.htm
 tech.root: properties
 ms.assetid: d42c48b5-cfd9-4de8-b0aa-b108d242e2e9
-
 ms.date: 12/05/2018
 ms.keywords: InitVariantFromDispatch, InitVariantFromDispatch function [Windows Properties], _shell_InitVariantFromDispatch, properties.InitVariantFromDispatch, propvarutil/InitVariantFromDispatch, shell.InitVariantFromDispatch
 ms.topic: function
-f1_keywords: 
- - "propvarutil/InitVariantFromDispatch"
+f1_keywords:
+- propvarutil/InitVariantFromDispatch
 dev_langs:
- - c++
+- c++
 req.header: propvarutil.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Propvarutil.h
+- Propvarutil.h
 api_name:
- - InitVariantFromDispatch
+- InitVariantFromDispatch
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0

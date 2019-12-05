@@ -1,19 +1,17 @@
 ---
 UID: NN:certenroll.ICertPropertyEnrollment
 title: ICertPropertyEnrollment (certenroll.h)
-
 description: Represents a certificate property that contains certificate and certification authority (CA) information created when the client calls the Enroll method on the IX509Enrollment interface.
 old-location: security\icertpropertyenrollment.htm
 tech.root: seccertenroll
 ms.assetid: 7530998b-b59c-426b-a74a-ead4bca55c3b
-
 ms.date: 12/05/2018
 ms.keywords: ICertPropertyEnrollment, ICertPropertyEnrollment interface [Security], ICertPropertyEnrollment interface [Security],described, certenroll/ICertPropertyEnrollment, security.icertpropertyenrollment
 ms.topic: interface
-f1_keywords: 
- - "certenroll/ICertPropertyEnrollment"
+f1_keywords:
+- certenroll/ICertPropertyEnrollment
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: CertEnroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CertEnroll.dll
+- CertEnroll.dll
 api_name:
- - ICertPropertyEnrollment
+- ICertPropertyEnrollment
 targetos: Windows
 req.typenames: 
 req.redist: 

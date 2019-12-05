@@ -1,19 +1,17 @@
 ---
 UID: NN:vds.IVdsLun2
 title: IVdsLun2 (vds.h)
-
 description: Provides methods for applying and querying logical unit number (LUN) hints.
 old-location: base\ivdslun2.htm
 tech.root: VDS
 ms.assetid: 1cc26b91-d77b-4f8d-8c01-40b58cb03038
-
 ms.date: 12/05/2018
 ms.keywords: IVdsLun2, IVdsLun2 interface, IVdsLun2 interface,described, base.ivdslun2, vds/IVdsLun2, vdshwprv/IVdsLun2
 ms.topic: interface
 f1_keywords:
 - vds/IVdsLun2
 dev_langs:
- - c++
+- c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

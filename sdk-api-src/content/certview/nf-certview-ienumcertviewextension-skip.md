@@ -1,19 +1,17 @@
 ---
 UID: NF:certview.IEnumCERTVIEWEXTENSION.Skip
 title: IEnumCERTVIEWEXTENSION::Skip (certview.h)
-
 description: Skips a specified number of extensions in the extension-enumeration sequence.
 old-location: security\ienumcertviewextension_skip.htm
 tech.root: SecCrypto
 ms.assetid: b354cf0e-2f15-42a5-8e84-4db9bc4e6a8d
-
 ms.date: 12/05/2018
 ms.keywords: IEnumCERTVIEWEXTENSION interface [Security],Skip method, IEnumCERTVIEWEXTENSION object [Security],Skip method, IEnumCERTVIEWEXTENSION.Skip, IEnumCERTVIEWEXTENSION::Skip, Skip, Skip method [Security], Skip method [Security],IEnumCERTVIEWEXTENSION interface, Skip method [Security],IEnumCERTVIEWEXTENSION object, _certsrv_ienumcertviewextension_skip, certview/IEnumCERTVIEWEXTENSION::Skip, security.ienumcertviewextension_skip
 ms.topic: method
-f1_keywords: 
- - "certview/IEnumCERTVIEWEXTENSION.Skip"
+f1_keywords:
+- certview/IEnumCERTVIEWEXTENSION.Skip
 dev_langs:
- - c++
+- c++
 req.header: certview.h
 req.include-header: Certsrv.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Certidl.lib
 req.dll: Certadm.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Certadm.dll
+- Certadm.dll
 api_name:
- - IEnumCERTVIEWEXTENSION.Skip
- - IEnumCERTVIEWEXTENSION.Skip
+- IEnumCERTVIEWEXTENSION.Skip
+- IEnumCERTVIEWEXTENSION.Skip
 targetos: Windows
 req.typenames: 
 req.redist: 

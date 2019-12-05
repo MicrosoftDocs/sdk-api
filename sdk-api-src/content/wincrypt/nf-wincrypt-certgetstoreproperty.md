@@ -1,19 +1,17 @@
 ---
 UID: NF:wincrypt.CertGetStoreProperty
 title: CertGetStoreProperty function (wincrypt.h)
-
 description: Retrieves a store property.
 old-location: security\certgetstoreproperty.htm
 tech.root: SecCrypto
 ms.assetid: 0df4f18b-3b0f-498e-90a5-74d686af83e0
-
 ms.date: 12/05/2018
 ms.keywords: CertGetStoreProperty, CertGetStoreProperty function [Security], _crypto2_certgetstoreproperty, security.certgetstoreproperty, wincrypt/CertGetStoreProperty
 ms.topic: function
-f1_keywords: 
- - "wincrypt/CertGetStoreProperty"
+f1_keywords:
+- wincrypt/CertGetStoreProperty
 dev_langs:
- - c++
+- c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Crypt32.lib
 req.dll: Crypt32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Crypt32.dll
+- Crypt32.dll
 api_name:
- - CertGetStoreProperty
+- CertGetStoreProperty
 targetos: Windows
 req.typenames: 
 req.redist: 

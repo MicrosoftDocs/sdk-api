@@ -1,19 +1,17 @@
 ---
 UID: NF:oaidl.ICreateTypeInfo.SetFuncHelpContext
 title: ICreateTypeInfo::SetFuncHelpContext (oaidl.h)
-
 description: Sets the Help context ID for the function with the specified index.
 old-location: automat\icreatetypeinfo_setfunchelpcontext.htm
 tech.root: automat
 ms.assetid: 945d2faa-f35d-488f-a0df-ace3fbb85971
-
 ms.date: 12/05/2018
 ms.keywords: ICreateTypeInfo interface [Automation],SetFuncHelpContext method, ICreateTypeInfo.SetFuncHelpContext, ICreateTypeInfo::SetFuncHelpContext, SetFuncHelpContext, SetFuncHelpContext method [Automation], SetFuncHelpContext method [Automation],ICreateTypeInfo interface, _oa96_ICreateTypeInfo_SetFuncHelpContext, automat.icreatetypeinfo_setfunchelpcontext, oaidl/ICreateTypeInfo::SetFuncHelpContext
 ms.topic: method
-f1_keywords: 
- - "oaidl/ICreateTypeInfo.SetFuncHelpContext"
+f1_keywords:
+- oaidl/ICreateTypeInfo.SetFuncHelpContext
 dev_langs:
- - c++
+- c++
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - oaidl.h
+- oaidl.h
 api_name:
- - ICreateTypeInfo.SetFuncHelpContext
+- ICreateTypeInfo.SetFuncHelpContext
 targetos: Windows
 req.typenames: 
 req.redist: 

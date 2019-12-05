@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d11.ID3D11DeviceContext.IAGetVertexBuffers
 title: ID3D11DeviceContext::IAGetVertexBuffers (d3d11.h)
-
 description: Get the vertex buffers bound to the input-assembler stage.
 old-location: direct3d11\id3d11devicecontext_iagetvertexbuffers.htm
 tech.root: direct3d11
 ms.assetid: 13b1eb06-effa-4483-993a-da47ee0b916f
-
 ms.date: 12/05/2018
 ms.keywords: IAGetVertexBuffers, IAGetVertexBuffers method [Direct3D 11], IAGetVertexBuffers method [Direct3D 11],ID3D11DeviceContext interface, ID3D11DeviceContext interface [Direct3D 11],IAGetVertexBuffers method, ID3D11DeviceContext.IAGetVertexBuffers, ID3D11DeviceContext::IAGetVertexBuffers, d3d11/ID3D11DeviceContext::IAGetVertexBuffers, direct3d11.id3d11devicecontext_iagetvertexbuffers, e62a4871-bb0d-3c8a-9fba-aa0c0dff15b6
 ms.topic: method
-f1_keywords: 
- - "d3d11/ID3D11DeviceContext.IAGetVertexBuffers"
+f1_keywords:
+- d3d11/ID3D11DeviceContext.IAGetVertexBuffers
 dev_langs:
- - c++
+- c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: D3D11.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D11.lib
- - D3D11.dll
+- D3D11.lib
+- D3D11.dll
 api_name:
- - ID3D11DeviceContext.IAGetVertexBuffers
+- ID3D11DeviceContext.IAGetVertexBuffers
 targetos: Windows
 req.typenames: 
 req.redist: 

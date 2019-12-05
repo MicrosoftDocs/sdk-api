@@ -1,19 +1,17 @@
 ---
 UID: NF:vfw.capPreviewScale
 title: capPreviewScale macro (vfw.h)
-
 description: The capPreviewScale macro enables or disables scaling of the preview video images.
 old-location: multimedia\cappreviewscale.htm
 tech.root: Multimedia
 ms.assetid: 32f432a7-76be-4b75-8863-bc67cdcda781
-
 ms.date: 12/05/2018
-ms.keywords: "_win32_capPreviewScale, capPreviewScale, capPreviewScale macro [Windows Multimedia], multimedia.cappreviewscale, vfw/capPreviewScale"
+ms.keywords: _win32_capPreviewScale, capPreviewScale, capPreviewScale macro [Windows Multimedia], multimedia.cappreviewscale, vfw/capPreviewScale
 ms.topic: macro
-f1_keywords: 
- - "vfw/capPreviewScale"
+f1_keywords:
+- vfw/capPreviewScale
 dev_langs:
- - c++
+- c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Vfw.h
+- Vfw.h
 api_name:
- - capPreviewScale
+- capPreviewScale
 targetos: Windows
 req.typenames: 
 req.redist: 

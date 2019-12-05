@@ -1,19 +1,17 @@
 ---
 UID: NF:recapis.CreateContext
 title: CreateContext function (recapis.h)
-
 description: Creates a recognizer context.
 old-location: tablet\createcontext.htm
 tech.root: tablet
 ms.assetid: 4e599157-93d6-486f-9498-899e5b53f24b
-
 ms.date: 12/05/2018
 ms.keywords: 4e599157-93d6-486f-9498-899e5b53f24b, CreateContext, CreateContext function [Tablet PC], recapis/CreateContext, tablet.createcontext
 ms.topic: function
-f1_keywords: 
- - "recapis/CreateContext"
+f1_keywords:
+- recapis/CreateContext
 dev_langs:
- - c++
+- c++
 req.header: recapis.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - recapis.h
+- recapis.h
 api_name:
- - CreateContext
+- CreateContext
 targetos: Windows
 req.typenames: 
 req.redist: 

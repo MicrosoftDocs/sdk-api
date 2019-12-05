@@ -1,19 +1,17 @@
 ---
 UID: NF:dwmapi.DwmShowContact
 title: DwmShowContact function (dwmapi.h)
-
 description: Called by an app or framework to specify the visual feedback type to draw in response to a particular touch or pen contact.
 old-location: dwm\DwmShowContact.htm
 tech.root: dwm
 ms.assetid: E9C302AA-D622-483d-83AC-0D0D7D23719E
-
 ms.date: 12/05/2018
 ms.keywords: DWMSC_ALL, DWMSC_DOWN, DWMSC_DRAG, DWMSC_HOLD, DWMSC_NONE, DWMSC_PENBARREL, DWMSC_UP, DwmShowContact, DwmShowContact function [Desktop Window Manager], dwm.DwmShowContact, dwmapi/DwmShowContact
 ms.topic: function
-f1_keywords: 
- - "dwmapi/DwmShowContact"
+f1_keywords:
+- dwmapi/DwmShowContact
 dev_langs:
- - c++
+- c++
 req.header: dwmapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Dwmapi.lib
 req.dll: Dwmapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Dwmapi.dll
- - API-MS-Win-dwmapi-l1-1-0.dll
- - Ext-Ms-Win-DwmAPI-Ext-L1-1-0.dll
+- Dwmapi.dll
+- API-MS-Win-dwmapi-l1-1-0.dll
+- Ext-Ms-Win-DwmAPI-Ext-L1-1-0.dll
 api_name:
- - DwmShowContact
+- DwmShowContact
 targetos: Windows
 req.typenames: 
 req.redist: 

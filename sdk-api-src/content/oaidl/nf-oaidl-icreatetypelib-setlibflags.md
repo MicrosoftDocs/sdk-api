@@ -1,19 +1,17 @@
 ---
 UID: NF:oaidl.ICreateTypeLib.SetLibFlags
 title: ICreateTypeLib::SetLibFlags (oaidl.h)
-
 description: Sets library flags.
 old-location: automat\icreatetypelib_setlibflags.htm
 tech.root: automat
 ms.assetid: fc72635c-853f-4a0a-9869-263e4aa39b8b
-
 ms.date: 12/05/2018
 ms.keywords: ICreateTypeLib interface [Automation],SetLibFlags method, ICreateTypeLib.SetLibFlags, ICreateTypeLib::SetLibFlags, SetLibFlags, SetLibFlags method [Automation], SetLibFlags method [Automation],ICreateTypeLib interface, _oa96_ICreateTypeLib_SetLibFlags, automat.icreatetypelib_setlibflags, oaidl/ICreateTypeLib::SetLibFlags
 ms.topic: method
-f1_keywords: 
- - "oaidl/ICreateTypeLib.SetLibFlags"
+f1_keywords:
+- oaidl/ICreateTypeLib.SetLibFlags
 dev_langs:
- - c++
+- c++
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - oaidl.h
+- oaidl.h
 api_name:
- - ICreateTypeLib.SetLibFlags
+- ICreateTypeLib.SetLibFlags
 targetos: Windows
 req.typenames: 
 req.redist: 

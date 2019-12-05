@@ -1,19 +1,17 @@
 ---
 UID: NF:mfidl.IMFQualityAdvise.DropTime
 title: IMFQualityAdvise::DropTime (mfidl.h)
-
 description: Drops samples over a specified interval of time.
 old-location: mf\imfqualityadvise_droptime.htm
 tech.root: medfound
 ms.assetid: 60d27190-7bed-427c-9018-2926c85815fe
-
 ms.date: 12/05/2018
 ms.keywords: 60d27190-7bed-427c-9018-2926c85815fe, DropTime, DropTime method [Media Foundation], DropTime method [Media Foundation],IMFQualityAdvise interface, IMFQualityAdvise interface [Media Foundation],DropTime method, IMFQualityAdvise.DropTime, IMFQualityAdvise::DropTime, mf.imfqualityadvise_droptime, mfidl/IMFQualityAdvise::DropTime
 ms.topic: method
-f1_keywords: 
- - "mfidl/IMFQualityAdvise.DropTime"
+f1_keywords:
+- mfidl/IMFQualityAdvise.DropTime
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFQualityAdvise.DropTime
+- IMFQualityAdvise.DropTime
 targetos: Windows
 req.typenames: 
 req.redist: 

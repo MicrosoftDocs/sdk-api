@@ -1,19 +1,17 @@
 ---
 UID: NF:wmsdkidl.IWMProfile.GetName
 title: IWMProfile::GetName (wmsdkidl.h)
-
 description: The GetName method retrieves the name of a profile.
 old-location: wmformat\iwmprofile_getname.htm
 tech.root: wmformat
 ms.assetid: c5993e47-842d-4392-9b54-2bf6f09c377c
-
 ms.date: 12/05/2018
 ms.keywords: GetName, GetName method [windows Media Format], GetName method [windows Media Format],IWMProfile interface, GetName method [windows Media Format],IWMProfile2 interface, GetName method [windows Media Format],IWMProfile3 interface, IWMProfile interface [windows Media Format],GetName method, IWMProfile.GetName, IWMProfile2 interface [windows Media Format],GetName method, IWMProfile2::GetName, IWMProfile3 interface [windows Media Format],GetName method, IWMProfile3::GetName, IWMProfile::GetName, IWMProfileGetName, wmformat.iwmprofile_getname, wmsdkidl/IWMProfile2::GetName, wmsdkidl/IWMProfile3::GetName, wmsdkidl/IWMProfile::GetName
 ms.topic: method
-f1_keywords: 
- - "wmsdkidl/IWMProfile.GetName"
+f1_keywords:
+- wmsdkidl/IWMProfile.GetName
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -32,20 +30,20 @@ req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wmvcore.lib
- - Wmvcore.dll
- - WMStubDRM.lib
- - WMStubDRM.dll
- - qasf.dll
+- Wmvcore.lib
+- Wmvcore.dll
+- WMStubDRM.lib
+- WMStubDRM.dll
+- qasf.dll
 api_name:
- - IWMProfile.GetName
- - IWMProfile2.GetName
- - IWMProfile3.GetName
+- IWMProfile.GetName
+- IWMProfile2.GetName
+- IWMProfile3.GetName
 targetos: Windows
 req.typenames: 
 req.redist: 

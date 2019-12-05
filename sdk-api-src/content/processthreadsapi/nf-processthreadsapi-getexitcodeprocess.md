@@ -1,19 +1,17 @@
 ---
 UID: NF:processthreadsapi.GetExitCodeProcess
 title: GetExitCodeProcess function (processthreadsapi.h)
-
 description: Retrieves the termination status of the specified process.
 old-location: base\getexitcodeprocess.htm
 tech.root: ProcThread
 ms.assetid: 210f7595-ac12-4bb2-bd77-819649ebec10
-
 ms.date: 12/05/2018
 ms.keywords: GetExitCodeProcess, GetExitCodeProcess function, _win32_getexitcodeprocess, base.getexitcodeprocess, processthreadsapi/GetExitCodeProcess, winbase/GetExitCodeProcess
 ms.topic: function
-f1_keywords: 
- - "processthreadsapi/GetExitCodeProcess"
+f1_keywords:
+- processthreadsapi/GetExitCodeProcess
 dev_langs:
- - c++
+- c++
 req.header: processthreadsapi.h
 req.include-header: Windows Server 2003, Windows Vista, Windows 7, Windows Server 2008  Windows Server 2008 R2, Windows.h
 req.target-type: Windows
@@ -32,21 +30,21 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-ProcessThreads-l1-1-0.dll
- - KernelBase.dll
- - MinKernelBase.dll
- - API-MS-Win-Core-ProcessThreads-l1-1-1.dll
- - API-MS-Win-Core-ProcessThreads-l1-1-2.dll
- - api-ms-win-downlevel-kernel32-l1-1-0.dll
- - API-MS-Win-Core-ProcessThreads-L1-1-3.dll
+- Kernel32.dll
+- API-MS-Win-Core-ProcessThreads-l1-1-0.dll
+- KernelBase.dll
+- MinKernelBase.dll
+- API-MS-Win-Core-ProcessThreads-l1-1-1.dll
+- API-MS-Win-Core-ProcessThreads-l1-1-2.dll
+- api-ms-win-downlevel-kernel32-l1-1-0.dll
+- API-MS-Win-Core-ProcessThreads-L1-1-3.dll
 api_name:
- - GetExitCodeProcess
+- GetExitCodeProcess
 targetos: Windows
 req.typenames: 
 req.redist: 

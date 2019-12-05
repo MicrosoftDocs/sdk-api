@@ -1,19 +1,17 @@
 ---
 UID: NF:aclapi.LookupSecurityDescriptorPartsA
 title: LookupSecurityDescriptorPartsA function (aclapi.h)
-
 description: Retrieves security information from a self-relative security descriptor.
 old-location: security\lookupsecuritydescriptorparts.htm
 tech.root: SecAuthZ
 ms.assetid: 68c3f56b-6c48-4f4b-bd38-9f4e346c663b
-
 ms.date: 12/05/2018
 ms.keywords: LookupSecurityDescriptorParts, LookupSecurityDescriptorParts function [Security], LookupSecurityDescriptorPartsA, LookupSecurityDescriptorPartsW, _win32_lookupsecuritydescriptorparts, aclapi/LookupSecurityDescriptorParts, aclapi/LookupSecurityDescriptorPartsA, aclapi/LookupSecurityDescriptorPartsW, security.lookupsecuritydescriptorparts
 ms.topic: function
 f1_keywords:
 - aclapi/LookupSecurityDescriptorParts
 dev_langs:
- - c++
+- c++
 req.header: aclapi.h
 req.include-header: 
 req.target-type: Windows

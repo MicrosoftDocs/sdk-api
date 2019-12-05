@@ -1,19 +1,17 @@
 ---
 UID: NI:winioctl.IOCTL_CHANGER_QUERY_VOLUME_TAGS
 title: IOCTL_CHANGER_QUERY_VOLUME_TAGS
-
 description: Retrieves the volume tag information for the specified elements.
 old-location: base\ioctl_changer_query_volume_tags.htm
 tech.root: devio
 ms.assetid: 67c440e1-cef8-459d-b811-0b483ff51e7e
-
 ms.date: 12/05/2018
 ms.keywords: IOCTL_CHANGER_QUERY_VOLUME_TAGS, IOCTL_CHANGER_QUERY_VOLUME_TAGS control, IOCTL_CHANGER_QUERY_VOLUME_TAGS control code, _win32_ioctl_changer_query_volume_tags, base.ioctl_changer_query_volume_tags, winioctl/IOCTL_CHANGER_QUERY_VOLUME_TAGS
 ms.topic: ioctl
 f1_keywords:
 - winioctl/IOCTL_CHANGER_QUERY_VOLUME_TAGS
 dev_langs:
- - c++
+- c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

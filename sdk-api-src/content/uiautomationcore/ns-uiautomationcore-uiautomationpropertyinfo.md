@@ -1,19 +1,17 @@
 ---
 UID: NS:uiautomationcore.UIAutomationPropertyInfo
 title: UIAutomationPropertyInfo (uiautomationcore.h)
-
 description: Contains information about a custom property.
 old-location: winauto\uiauto_UIAutomationPropertyInfoStruct.htm
 tech.root: WinAuto
 ms.assetid: ea5b4cbe-5a39-407c-9c61-8e9ac4f3398f
-
 ms.date: 12/05/2018
 ms.keywords: UIAutomationPropertyInfo, UIAutomationPropertyInfo structure [Windows Accessibility], uiauto.uiauto_UIAutomationPropertyInfoStruct, uiauto_UIAutomationPropertyInfoStruct, uiautomationcore/UIAutomationPropertyInfo, winauto.uiauto_UIAutomationPropertyInfoStruct
 ms.topic: struct
-f1_keywords: 
- - "uiautomationcore/UIAutomationPropertyInfo"
+f1_keywords:
+- uiautomationcore/UIAutomationPropertyInfo
 dev_langs:
- - c++
+- c++
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - UIAutomationCore.h
+- UIAutomationCore.h
 api_name:
- - UIAutomationPropertyInfo
+- UIAutomationPropertyInfo
 targetos: Windows
 req.typenames: 
 req.redist: 

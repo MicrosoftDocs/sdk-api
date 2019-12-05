@@ -1,19 +1,17 @@
 ---
 UID: NF:d2d1svg.ID2D1SvgDocument.Deserialize
 title: ID2D1SvgDocument::Deserialize (d2d1svg.h)
-
 description: Deserializes a subtree from the stream. The stream must have only one root element, but that root element need not be an 'svg' element. The output element is not inserted into this document tree.
 old-location: direct2d\id2d1svgdocument_deserialize.htm
 tech.root: Direct2D
 ms.assetid: 576A1D80-3FB5-4495-85CD-2E1DDBCA1C99
-
 ms.date: 12/05/2018
 ms.keywords: Deserialize, Deserialize method [Direct2D], Deserialize method [Direct2D],ID2D1SvgDocument interface, ID2D1SvgDocument interface [Direct2D],Deserialize method, ID2D1SvgDocument.Deserialize, ID2D1SvgDocument::Deserialize, d2d1svg/ID2D1SvgDocument::Deserialize, direct2d.id2d1svgdocument_deserialize
 ms.topic: method
-f1_keywords: 
- - "d2d1svg/ID2D1SvgDocument.Deserialize"
+f1_keywords:
+- d2d1svg/ID2D1SvgDocument.Deserialize
 dev_langs:
- - c++
+- c++
 req.header: d2d1svg.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Direct2d.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - direct2d.dll
+- direct2d.dll
 api_name:
- - ID2D1SvgDocument.Deserialize
+- ID2D1SvgDocument.Deserialize
 targetos: Windows
 req.typenames: 
 req.redist: 

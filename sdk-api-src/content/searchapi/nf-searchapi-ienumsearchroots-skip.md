@@ -1,19 +1,17 @@
 ---
 UID: NF:searchapi.IEnumSearchRoots.Skip
 title: IEnumSearchRoots::Skip (searchapi.h)
-
 description: Skips the specified number of elements.
 old-location: search\_search_IEnumSearchRoots_Skip.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\crawlscope\ienumsearchroots\skip.htm
-
 ms.date: 12/05/2018
 ms.keywords: IEnumSearchRoots interface [search],Skip method, IEnumSearchRoots.Skip, IEnumSearchRoots::Skip, Skip, Skip method [search], Skip method [search],IEnumSearchRoots interface, _search_IEnumSearchRoots_Skip, search._search_IEnumSearchRoots_Skip, searchapi/IEnumSearchRoots::Skip
 ms.topic: method
-f1_keywords: 
- - "searchapi/IEnumSearchRoots.Skip"
+f1_keywords:
+- searchapi/IEnumSearchRoots.Skip
 dev_langs:
- - c++
+- c++
 req.header: searchapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Searchapi.h
+- Searchapi.h
 api_name:
- - IEnumSearchRoots.Skip
+- IEnumSearchRoots.Skip
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0

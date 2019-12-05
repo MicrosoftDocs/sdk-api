@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IExplorerBrowser.Destroy
 title: IExplorerBrowser::Destroy (shobjidl_core.h)
-
 description: Destroys the browser.
 old-location: shell\IExplorerBrowser_Destroy.htm
 tech.root: shell
 ms.assetid: b6fc4aa6-f689-4b3e-a922-f8361d33b6dd
-
 ms.date: 12/05/2018
 ms.keywords: Destroy, Destroy method [Windows Shell], Destroy method [Windows Shell],IExplorerBrowser interface, IExplorerBrowser interface [Windows Shell],Destroy method, IExplorerBrowser.Destroy, IExplorerBrowser::Destroy, _shell_IExplorerBrowser_Destroy, shell.IExplorerBrowser_Destroy, shobjidl_core/IExplorerBrowser::Destroy
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IExplorerBrowser.Destroy"
+f1_keywords:
+- shobjidl_core/IExplorerBrowser.Destroy
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - IExplorerBrowser.Destroy
+- IExplorerBrowser.Destroy
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:gdiplusmatrix.Matrix.Reset
 title: Matrix::Reset (gdiplusmatrix.h)
-
 description: The Matrix::Reset method updates this matrix with the elements of the identity matrix.
 old-location: gdiplus\_gdiplus_CLASS_Matrix_Reset_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\matrixclass\matrixmethods\reset_41.htm
-
 ms.date: 12/05/2018
 ms.keywords: Matrix class [GDI+],Reset method, Matrix.Reset, Matrix::Reset, Reset, Reset method [GDI+], Reset method [GDI+],Matrix class, _gdiplus_CLASS_Matrix_Reset_, gdiplus._gdiplus_CLASS_Matrix_Reset_
 ms.topic: method
-f1_keywords: 
- - "gdiplusmatrix/Matrix.Reset"
+f1_keywords:
+- gdiplusmatrix/Matrix.Reset
 dev_langs:
- - c++
+- c++
 req.header: gdiplusmatrix.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - Matrix.Reset
+- Matrix.Reset
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NN:taskschd.IDailyTrigger
 title: IDailyTrigger (taskschd.h)
-
 description: Represents a trigger that starts a task based on a daily schedule.
 old-location: taskschd\idailytrigger.htm
 tech.root: taskschd
 ms.assetid: 9980ddb1-9873-46d2-8dea-bfc3fd78bba8
-
 ms.date: 12/05/2018
 ms.keywords: IDailyTrigger, IDailyTrigger interface [Task Scheduler], IDailyTrigger interface [Task Scheduler],described, daily trigger [Task Scheduler],interface, taskschd.idailytrigger, taskschd/IDailyTrigger
 ms.topic: interface
-f1_keywords: 
- - "taskschd/IDailyTrigger"
+f1_keywords:
+- taskschd/IDailyTrigger
 dev_langs:
- - c++
+- c++
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Taskschd.lib
 req.dll: Taskschd.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - taskschd.dll
+- taskschd.dll
 api_name:
- - IDailyTrigger
+- IDailyTrigger
 targetos: Windows
 req.typenames: 
 req.redist: 

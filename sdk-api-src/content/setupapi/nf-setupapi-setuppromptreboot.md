@@ -1,19 +1,17 @@
 ---
 UID: NF:setupapi.SetupPromptReboot
 title: SetupPromptReboot function (setupapi.h)
-
 description: The SetupPromptReboot function asks the user if he wants to reboot the system, optionally dependent on whether any files in a committed file queue were in use during a file operation.
 old-location: setup\setuppromptreboot.htm
 tech.root: SetupApi
 ms.assetid: 14b34fd9-ae96-4552-b99d-488bae5c7644
-
 ms.date: 12/05/2018
 ms.keywords: SetupPromptReboot, SetupPromptReboot function [Setup API], _setupapi_setuppromptreboot, setup.setuppromptreboot, setupapi/SetupPromptReboot
 ms.topic: function
-f1_keywords: 
- - "setupapi/SetupPromptReboot"
+f1_keywords:
+- setupapi/SetupPromptReboot
 dev_langs:
- - c++
+- c++
 req.header: setupapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Setupapi.lib
 req.dll: Setupapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Setupapi.dll
+- Setupapi.dll
 api_name:
- - SetupPromptReboot
+- SetupPromptReboot
 targetos: Windows
 req.typenames: 
 req.redist: 

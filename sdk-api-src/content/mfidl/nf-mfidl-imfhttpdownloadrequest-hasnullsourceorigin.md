@@ -1,19 +1,17 @@
 ---
 UID: NF:mfidl.IMFHttpDownloadRequest.HasNullSourceOrigin
 title: IMFHttpDownloadRequest::HasNullSourceOrigin (mfidl.h)
-
 description: Invoked by Microsoft Media Foundation to detect the case when a HTTP or HTTPS request has been redirected to a different server of different &#0034;origin&#0034;.
 old-location: mf\imfhttpdownloadrequest_hasnullsourceorigin.htm
 tech.root: medfound
 ms.assetid: D83F079F-605A-4F62-B037-3C5D0487D778
-
 ms.date: 12/05/2018
 ms.keywords: HasNullSourceOrigin, HasNullSourceOrigin method [Media Foundation], HasNullSourceOrigin method [Media Foundation],IMFHttpDownloadRequest interface, IMFHttpDownloadRequest interface [Media Foundation],HasNullSourceOrigin method, IMFHttpDownloadRequest.HasNullSourceOrigin, IMFHttpDownloadRequest::HasNullSourceOrigin, mf.imfhttpdownloadrequest_hasnullsourceorigin, mfidl/IMFHttpDownloadRequest::HasNullSourceOrigin
 ms.topic: method
-f1_keywords: 
- - "mfidl/IMFHttpDownloadRequest.HasNullSourceOrigin"
+f1_keywords:
+- mfidl/IMFHttpDownloadRequest.HasNullSourceOrigin
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Mfplat.lib; Mfplat.dll
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfplat.lib
- - mfplat.dll
- - mfplat.dll
- - mfplat.dll.dll
+- mfplat.lib
+- mfplat.dll
+- mfplat.dll
+- mfplat.dll.dll
 api_name:
- - IMFHttpDownloadRequest.HasNullSourceOrigin
+- IMFHttpDownloadRequest.HasNullSourceOrigin
 targetos: Windows
 req.typenames: 
 req.redist: 

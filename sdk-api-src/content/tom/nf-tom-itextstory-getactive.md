@@ -1,19 +1,17 @@
 ---
 UID: NF:tom.ITextStory.GetActive
 title: ITextStory::GetActive (tom.h)
-
 description: Sets the active state of a story.
 old-location: controls\itextstory_getactive.htm
 tech.root: Controls
 ms.assetid: 7bae9458-ee68-486a-a37f-2cc899400882
-
 ms.date: 12/05/2018
 ms.keywords: GetActive, GetActive method [Windows Controls], GetActive method [Windows Controls],ITextStory interface, ITextStory interface [Windows Controls],GetActive method, ITextStory.GetActive, ITextStory::GetActive, controls.itextstory_getactive, tom/ITextStory::GetActive, tomDisplayActive, tomDisplayUIActive, tomInactive, tomUIActive
 ms.topic: method
-f1_keywords: 
- - "tom/ITextStory.GetActive"
+f1_keywords:
+- tom/ITextStory.GetActive
 dev_langs:
- - c++
+- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - tom.h
+- tom.h
 api_name:
- - ITextStory.GetActive
+- ITextStory.GetActive
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:directxpackedvector.XMLoadUShortN2
 title: XMLoadUShortN2 function (directxpackedvector.h)
-
 description: Loads an XMUSHORTN2 into an XMVECTOR.
 old-location: dxmath\xmloadushortn2.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.loading.XMLoadUShortN2(const XMUSHORTN2)
-
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMLoadUShortN2, XMLoadUShortN2, XMLoadUShortN2 method [DirectX Math Support APIs], dxmath.xmloadushortn2
 ms.topic: function
-f1_keywords: 
- - "directxpackedvector/XMLoadUShortN2"
+f1_keywords:
+- directxpackedvector/XMLoadUShortN2
 dev_langs:
- - c++
+- c++
 req.header: directxpackedvector.h
 req.include-header: DirectXMath.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - directxpackedvector.h
+- directxpackedvector.h
 api_name:
- - XMLoadUShortN2
+- XMLoadUShortN2
 targetos: Windows
 req.typenames: 
 req.redist: 

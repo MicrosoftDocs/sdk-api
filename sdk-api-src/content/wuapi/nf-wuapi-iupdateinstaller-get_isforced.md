@@ -1,19 +1,17 @@
 ---
 UID: NF:wuapi.IUpdateInstaller.get_IsForced
 title: IUpdateInstaller::get_IsForced (wuapi.h)
-
 description: Gets or sets a Boolean value that indicates whether to forcibly install or uninstall an update.
 old-location: wua\iupdateinstaller_isforced.htm
 tech.root: Wua_Sdk
 ms.assetid: 80a30a21-9369-44bb-984a-2fdf2c1810e4
-
 ms.date: 12/05/2018
 ms.keywords: IUpdateInstaller interface [Windows Update Agent],IsForced property, IUpdateInstaller.IsForced, IUpdateInstaller.get_IsForced, IUpdateInstaller::IsForced, IUpdateInstaller::get_IsForced, IUpdateInstaller::put_IsForced, IsForced property [Windows Update Agent], IsForced property [Windows Update Agent],IUpdateInstaller interface, get_IsForced, wua.iupdateinstaller_isforced, wuapi/IUpdateInstaller::IsForced, wuapi/IUpdateInstaller::get_IsForced, wuapi/IUpdateInstaller::put_IsForced
 ms.topic: method
-f1_keywords: 
- - "wuapi/IUpdateInstaller.IsForced"
+f1_keywords:
+- wuapi/IUpdateInstaller.IsForced
 dev_langs:
- - c++
+- c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Wuguid.lib
 req.dll: Wuapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wuapi.dll
+- Wuapi.dll
 api_name:
- - IUpdateInstaller.IsForced
- - IUpdateInstaller.get_IsForced
- - IUpdateInstaller.put_IsForced
+- IUpdateInstaller.IsForced
+- IUpdateInstaller.get_IsForced
+- IUpdateInstaller.put_IsForced
 targetos: Windows
 req.typenames: 
 req.redist: 

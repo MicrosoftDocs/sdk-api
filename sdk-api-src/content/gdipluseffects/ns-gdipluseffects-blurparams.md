@@ -1,19 +1,17 @@
 ---
 UID: NS:gdipluseffects.BlurParams
 title: BlurParams (gdipluseffects.h)
-
 description: A BlurParams structure contains members that specify the nature of a Gaussian blur.
 old-location: gdiplus\_gdiplus_STRUC_BlurParams.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\structures\blurparams.htm
-
 ms.date: 12/05/2018
 ms.keywords: BlurParams, BlurParams structure [GDI+], _gdiplus_STRUC_BlurParams, gdiplus._gdiplus_STRUC_BlurParams, gdipluseffects/BlurParams
 ms.topic: struct
-f1_keywords: 
- - "gdipluseffects/BlurParams"
+f1_keywords:
+- gdipluseffects/BlurParams
 dev_langs:
- - c++
+- c++
 req.header: gdipluseffects.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Gdipluseffects.h
+- Gdipluseffects.h
 api_name:
- - BlurParams
+- BlurParams
 targetos: Windows
 req.typenames: 
 req.redist: 

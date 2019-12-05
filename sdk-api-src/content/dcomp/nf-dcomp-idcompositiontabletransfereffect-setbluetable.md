@@ -1,19 +1,17 @@
 ---
 UID: NF:dcomp.IDCompositionTableTransferEffect.SetBlueTable
 title: IDCompositionTableTransferEffect::SetBlueTable (dcomp.h)
-
 description: Sets the list of values used to define the transfer function for the blue channel.
 old-location: directcomp\idcompositiontabletransfereffect_setbluetable.htm
 tech.root: directcomp
 ms.assetid: D6E5D8CB-8E69-4E33-AC2E-4995F9D4283A
-
 ms.date: 12/05/2018
 ms.keywords: IDCompositionTableTransferEffect interface [DirectComposition],SetBlueTable method, IDCompositionTableTransferEffect.SetBlueTable, IDCompositionTableTransferEffect::SetBlueTable, SetBlueTable, SetBlueTable method [DirectComposition], SetBlueTable method [DirectComposition],IDCompositionTableTransferEffect interface, dcomp/IDCompositionTableTransferEffect::SetBlueTable, directcomp.idcompositiontabletransfereffect_setbluetable
 ms.topic: method
-f1_keywords: 
- - "dcomp/IDCompositionTableTransferEffect.SetBlueTable"
+f1_keywords:
+- dcomp/IDCompositionTableTransferEffect.SetBlueTable
 dev_langs:
- - c++
+- c++
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dcomp.lib
 req.dll: Dcomp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dcomp.dll
+- Dcomp.dll
 api_name:
- - IDCompositionTableTransferEffect.SetBlueTable
+- IDCompositionTableTransferEffect.SetBlueTable
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NS:opmapi._OPM_CONNECTED_HDCP_DEVICE_INFORMATION
 title: OPM_CONNECTED_HDCP_DEVICE_INFORMATION (opmapi.h)
-
 description: Contains the result from an OPM_GET_CONNECTED_HDCP_DEVICE_INFORMATION query.
 old-location: mf\opm_connected_hdcp_device_information.htm
 tech.root: medfound
 ms.assetid: 1fb59959-782b-44e8-81b1-eca3c32a0783
-
 ms.date: 12/05/2018
 ms.keywords: OPM_CONNECTED_HDCP_DEVICE_INFORMATION, OPM_CONNECTED_HDCP_DEVICE_INFORMATION structure [Media Foundation], OPM_HDCP_FLAG_NONE, OPM_HDCP_FLAG_REPEATER, mf.opm_connected_hdcp_device_information, opmapi/OPM_CONNECTED_HDCP_DEVICE_INFORMATION
 ms.topic: struct
 f1_keywords:
 - opmapi/OPM_CONNECTED_HDCP_DEVICE_INFORMATION
 dev_langs:
- - c++
+- c++
 req.header: opmapi.h
 req.include-header: 
 req.target-type: Windows

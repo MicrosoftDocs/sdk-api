@@ -1,19 +1,17 @@
 ---
 UID: NF:clusapi.OpenClusterNode
 title: OpenClusterNode function (clusapi.h)
-
 description: Opens a node and returns a handle to it.
 old-location: mscs\openclusternode.htm
 tech.root: MsCS
 ms.assetid: 7658a030-d4b2-407c-829f-61491b5907e6
-
 ms.date: 12/05/2018
 ms.keywords: OpenClusterNode, OpenClusterNode function [Failover Cluster], PCLUSAPI_OPEN_CLUSTER_NODE, PCLUSAPI_OPEN_CLUSTER_NODE function [Failover Cluster], _wolf_openclusternode, clusapi/OpenClusterNode, clusapi/PCLUSAPI_OPEN_CLUSTER_NODE, mscs.openclusternode
 ms.topic: function
-f1_keywords: 
- - "clusapi/OpenClusterNode"
+f1_keywords:
+- clusapi/OpenClusterNode
 dev_langs:
- - c++
+- c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib: ClusAPI.lib
 req.dll: ClusAPI.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - ClusAPI.dll
- - Ext-MS-Win-Cluster-ClusAPI-l1-1-0.dll
- - Ext-MS-Win-Cluster-ClusAPI-l1-1-1.dll
- - Ext-MS-Win-Cluster-ClusAPI-l1-1-2.dll
- - ext-ms-win-cluster-clusapi-l1-1-3.dll
+- ClusAPI.dll
+- Ext-MS-Win-Cluster-ClusAPI-l1-1-0.dll
+- Ext-MS-Win-Cluster-ClusAPI-l1-1-1.dll
+- Ext-MS-Win-Cluster-ClusAPI-l1-1-2.dll
+- ext-ms-win-cluster-clusapi-l1-1-3.dll
 api_name:
- - OpenClusterNode
+- OpenClusterNode
 targetos: Windows
 req.typenames: 
 req.redist: 

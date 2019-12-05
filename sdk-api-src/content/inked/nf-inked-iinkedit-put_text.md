@@ -1,19 +1,17 @@
 ---
 UID: NF:inked.IInkEdit.put_Text
 title: IInkEdit::put_Text (inked.h)
-
 description: Gets or sets the current text in the InkEdit control.
 old-location: tablet\inkedit_text.htm
 tech.root: tablet
 ms.assetid: 1b0b2354-7aa5-4e3f-8f7f-9e613c923f9f
-
 ms.date: 12/05/2018
 ms.keywords: IInkEdit interface [Tablet PC],Text property, IInkEdit.Text, IInkEdit.put_Text, IInkEdit::Text, IInkEdit::get_Text, IInkEdit::put_Text, InkEdit.get_Text, InkEdit.put_Text, Text property [Tablet PC], Text property [Tablet PC],IInkEdit interface, get_Text, inked/IInkEdit::Text, inked/IInkEdit::get_Text, inked/IInkEdit::put_Text, put_Text, tablet.inkedit_text
 ms.topic: method
-f1_keywords: 
- - "inked/IInkEdit.Text"
+f1_keywords:
+- inked/IInkEdit.Text
 dev_langs:
- - c++
+- c++
 req.header: inked.h
 req.include-header: 
 req.target-type: Windows
@@ -32,19 +30,19 @@ req.lib: InkEd.dll
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - InkEd.dll
- - InkEd.dll.dll
+- InkEd.dll
+- InkEd.dll.dll
 api_name:
- - IInkEdit.Text
- - IInkEdit.get_Text
- - IInkEdit.put_Text
- - InkEdit.get_Text
- - InkEdit.put_Text
+- IInkEdit.Text
+- IInkEdit.get_Text
+- IInkEdit.put_Text
+- InkEdit.get_Text
+- InkEdit.put_Text
 targetos: Windows
 req.typenames: 
 req.redist: 

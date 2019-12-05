@@ -1,19 +1,17 @@
 ---
 UID: NF:bluetoothapis.BluetoothFindRadioClose
 title: BluetoothFindRadioClose function (bluetoothapis.h)
-
 description: The BluetoothFindRadioClose function closes the enumeration handle associated with finding Bluetooth radios.
 old-location: bluetooth\bluetoothfindradioclose.htm
 tech.root: bluetooth
 ms.assetid: 859771b1-d06c-414b-81cb-bb3913fd0380
-
 ms.date: 12/05/2018
 ms.keywords: BluetoothFindRadioClose, BluetoothFindRadioClose function [Bluetooth], bluetooth.bluetoothfindradioclose, bluetoothapis/BluetoothFindRadioClose
 ms.topic: function
-f1_keywords: 
- - "bluetoothapis/BluetoothFindRadioClose"
+f1_keywords:
+- bluetoothapis/BluetoothFindRadioClose
 dev_langs:
- - c++
+- c++
 req.header: bluetoothapis.h
 req.include-header: Bthsdpdef.h, BluetoothAPIs.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Bthprops.lib
 req.dll: Bthprops.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Bthprops.dll
- - BluetoothAPIs.dll
- - Ext-MS-Win-Bluetooth-APIs-l1-1-0.dll
+- Bthprops.dll
+- BluetoothAPIs.dll
+- Ext-MS-Win-Bluetooth-APIs-l1-1-0.dll
 api_name:
- - BluetoothFindRadioClose
+- BluetoothFindRadioClose
 targetos: Windows
 req.typenames: 
 req.redist: 

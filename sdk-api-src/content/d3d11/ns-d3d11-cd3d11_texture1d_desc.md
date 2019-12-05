@@ -1,19 +1,17 @@
 ---
 UID: NS:d3d11.CD3D11_TEXTURE1D_DESC
 title: CD3D11_TEXTURE1D_DESC (d3d11.h)
-
 description: Represents a 1D texture and provides convenience methods for creating 1D textures.
 old-location: direct3d11\cd3d11_texture1d_desc.htm
 tech.root: direct3d11
 ms.assetid: 71ED0CD5-6EDC-474C-B131-62C42EF0D261
-
 ms.date: 12/05/2018
 ms.keywords: CD3D11_TEXTURE1D_DESC, CD3D11_TEXTURE1D_DESC structure [Direct3D 11], d3d11/CD3D11_TEXTURE1D_DESC, direct3d11.cd3d11_texture1d_desc
 ms.topic: struct
-f1_keywords: 
- - "d3d11/CD3D11_TEXTURE1D_DESC"
+f1_keywords:
+- d3d11/CD3D11_TEXTURE1D_DESC
 dev_langs:
- - c++
+- c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - D3D11.h
+- D3D11.h
 api_name:
- - CD3D11_TEXTURE1D_DESC
+- CD3D11_TEXTURE1D_DESC
 targetos: Windows
 req.typenames: 
 req.redist: 

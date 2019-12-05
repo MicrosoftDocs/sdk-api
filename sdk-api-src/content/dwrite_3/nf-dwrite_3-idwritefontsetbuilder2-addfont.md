@@ -1,17 +1,15 @@
 ---
 UID: NF:dwrite_3.IDWriteFontSetBuilder2.AddFont
 title: IDWriteFontSetBuilder2::AddFont
-
 description: Adds a font to the set being built.
 tech.root: DirectWrite
-
 ms.date: 09/16/2019
 ms.keywords: IDWriteFontSetBuilder2 interface [Direct Write],AddFont method, IDWriteFontSetBuilder2.AddFont, IDWriteFontSetBuilder2::AddFont, AddFont, AddFont method [Direct Write], AddFont method [Direct Write],IDWriteFontSetBuilder2 interface, directwrite.idwritefontsetbuilder2_addfont, dwrite_3/IDWriteFontSetBuilder2::AddFont
 ms.topic: method
-f1_keywords: 
- - "dwrite_3/IDWriteFontSetBuilder2.AddFont"
+f1_keywords:
+- dwrite_3/IDWriteFontSetBuilder2.AddFont
 dev_langs:
- - c++
+- c++
 req.construct-type: function
 req.header: dwrite_3.h
 req.include-header: 
@@ -31,15 +29,15 @@ req.lib: Dwrite.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dwrite.lib
- - Dwrite.dll
+- Dwrite.lib
+- Dwrite.dll
 api_name:
- - IDWriteFontSetBuilder2::AddFont
+- IDWriteFontSetBuilder2::AddFont
 targetos: Windows
 req.typenames: 
 req.redist: 

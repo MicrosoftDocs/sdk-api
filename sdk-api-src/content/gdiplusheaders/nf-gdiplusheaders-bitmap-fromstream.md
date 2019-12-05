@@ -1,19 +1,17 @@
 ---
 UID: NF:gdiplusheaders.Bitmap.FromStream
 title: Bitmap::FromStream (gdiplusheaders.h)
-
 description: The Bitmap::FromStream method creates a Bitmap object based on a stream.
 old-location: gdiplus\_gdiplus_CLASS_Bitmap_FromStream_stream_useEmbeddedColorManagement_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\bitmapclass\bitmapmethods\fromstream.htm
-
 ms.date: 12/05/2018
 ms.keywords: Bitmap class [GDI+],FromStream method, Bitmap.FromStream, Bitmap::FromStream, FromStream, FromStream method [GDI+], FromStream method [GDI+],Bitmap class, _gdiplus_CLASS_Bitmap_FromStream_stream_useEmbeddedColorManagement_, gdiplus._gdiplus_CLASS_Bitmap_FromStream_stream_useEmbeddedColorManagement_
 ms.topic: method
-f1_keywords: 
- - "gdiplusheaders/Bitmap.FromStream"
+f1_keywords:
+- gdiplusheaders/Bitmap.FromStream
 dev_langs:
- - c++
+- c++
 req.header: gdiplusheaders.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - Bitmap.FromStream
+- Bitmap.FromStream
 targetos: Windows
 req.typenames: 
 req.redist: 

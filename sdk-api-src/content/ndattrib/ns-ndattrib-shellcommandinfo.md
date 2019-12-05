@@ -1,19 +1,17 @@
 ---
 UID: NS:ndattrib.tagShellCommandInfo
 title: ShellCommandInfo (ndattrib.h)
-
 description: The ShellCommandInfo structure contains data required to launch an additional application for manual repair options.
 old-location: ndf\shellcommandinfo.htm
 tech.root: NDF
 ms.assetid: 54e23cfc-52bf-482a-a3e8-49fd6aa505e3
-
 ms.date: 12/05/2018
-ms.keywords: "*PShellCommandInfo, ShellCommandInfo, ShellCommandInfo structure [NDF], ShellCommandInfo,*PShellCommandInfo, ShellCommandInfo,*PShellCommandInfo structure [NDF], ndattrib/ShellCommandInfo, ndf.shellcommandinfo"
+ms.keywords: '*PShellCommandInfo, ShellCommandInfo, ShellCommandInfo structure [NDF], ShellCommandInfo,*PShellCommandInfo, ShellCommandInfo,*PShellCommandInfo structure [NDF], ndattrib/ShellCommandInfo, ndf.shellcommandinfo'
 ms.topic: struct
-f1_keywords: 
- - "ndattrib/ShellCommandInfo, *PShellCommandInfo"
+f1_keywords:
+- ndattrib/ShellCommandInfo, *PShellCommandInfo
 dev_langs:
- - c++
+- c++
 req.header: ndattrib.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - ndattrib.h
+- ndattrib.h
 api_name:
- - ShellCommandInfo, *PShellCommandInfo
+- ShellCommandInfo, *PShellCommandInfo
 targetos: Windows
 req.typenames: ShellCommandInfo, *PShellCommandInfo
 req.redist: 

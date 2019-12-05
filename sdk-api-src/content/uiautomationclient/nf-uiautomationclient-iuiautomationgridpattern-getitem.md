@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationGridPattern.GetItem
 title: IUIAutomationGridPattern::GetItem (uiautomationclient.h)
-
 description: Retrieves a UI Automation element representing an item in the grid.
 old-location: winauto\uiauto_IUIAutomationGridPattern_GetItem.htm
 tech.root: WinAuto
 ms.assetid: e18fd4ba-7fe2-4acb-97cd-c446d359dc38
-
 ms.date: 12/05/2018
 ms.keywords: GetItem, GetItem method [Windows Accessibility], GetItem method [Windows Accessibility],IUIAutomationGridPattern interface, IUIAutomationGridPattern interface [Windows Accessibility],GetItem method, IUIAutomationGridPattern.GetItem, IUIAutomationGridPattern::GetItem, uiauto.uiauto_IUIAutomationGridPattern_GetItem, uiauto_IUIAutomationGridPattern_GetItem, uiautomationclient/IUIAutomationGridPattern::GetItem, winauto.uiauto_IUIAutomationGridPattern_GetItem
 ms.topic: method
-f1_keywords: 
- - "uiautomationclient/IUIAutomationGridPattern.GetItem"
+f1_keywords:
+- uiautomationclient/IUIAutomationGridPattern.GetItem
 dev_langs:
- - c++
+- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationClient.h
+- UIAutomationClient.h
 api_name:
- - IUIAutomationGridPattern.GetItem
+- IUIAutomationGridPattern.GetItem
 targetos: Windows
 req.typenames: 
 req.redist: 

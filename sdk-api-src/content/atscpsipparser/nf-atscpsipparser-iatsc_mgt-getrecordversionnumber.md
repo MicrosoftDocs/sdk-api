@@ -1,19 +1,17 @@
 ---
 UID: NF:atscpsipparser.IATSC_MGT.GetRecordVersionNumber
 title: IATSC_MGT::GetRecordVersionNumber (atscpsipparser.h)
-
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\iatsc_mgt_getrecordversionnumber.htm
 tech.root: mstv
 ms.assetid: 1a5ec8e9-d1e6-4514-8d0d-7992be52ba8c
-
 ms.date: 12/05/2018
 ms.keywords: GetRecordVersionNumber, GetRecordVersionNumber method [Microsoft TV Technologies], GetRecordVersionNumber method [Microsoft TV Technologies],IATSC_MGT interface, IATSC_MGT interface [Microsoft TV Technologies],GetRecordVersionNumber method, IATSC_MGT.GetRecordVersionNumber, IATSC_MGT::GetRecordVersionNumber, IATSC_MGTGetRecordVersionNumber, atscpsipparser/IATSC_MGT::GetRecordVersionNumber, mstv.iatsc_mgt_getrecordversionnumber
 ms.topic: method
-f1_keywords: 
- - "atscpsipparser/IATSC_MGT.GetRecordVersionNumber"
+f1_keywords:
+- atscpsipparser/IATSC_MGT.GetRecordVersionNumber
 dev_langs:
- - c++
+- c++
 req.header: atscpsipparser.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - atscpsipparser.h
+- atscpsipparser.h
 api_name:
- - IATSC_MGT.GetRecordVersionNumber
+- IATSC_MGT.GetRecordVersionNumber
 targetos: Windows
 req.typenames: 
 req.redist: 

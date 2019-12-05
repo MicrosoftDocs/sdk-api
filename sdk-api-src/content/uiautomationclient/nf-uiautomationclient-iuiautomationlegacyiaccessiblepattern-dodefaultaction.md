@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationLegacyIAccessiblePattern.DoDefaultAction
 title: IUIAutomationLegacyIAccessiblePattern::DoDefaultAction (uiautomationclient.h)
-
 description: Performs the Microsoft Active Accessibility default action for the element.
 old-location: winauto\uiauto_IUIAutomationLegacyIAccessiblePattern_DoDefaultAction.htm
 tech.root: WinAuto
 ms.assetid: b518a835-02f5-48ce-a70b-792abf8b4306
-
 ms.date: 12/05/2018
 ms.keywords: DoDefaultAction, DoDefaultAction method [Windows Accessibility], DoDefaultAction method [Windows Accessibility],IUIAutomationLegacyIAccessiblePattern interface, IUIAutomationLegacyIAccessiblePattern interface [Windows Accessibility],DoDefaultAction method, IUIAutomationLegacyIAccessiblePattern.DoDefaultAction, IUIAutomationLegacyIAccessiblePattern::DoDefaultAction, uiauto.uiauto_IUIAutomationLegacyIAccessiblePattern_DoDefaultAction, uiauto_IUIAutomationLegacyIAccessiblePattern_DoDefaultAction, uiautomationclient/IUIAutomationLegacyIAccessiblePattern::DoDefaultAction, winauto.uiauto_IUIAutomationLegacyIAccessiblePattern_DoDefaultAction
 ms.topic: method
-f1_keywords: 
- - "uiautomationclient/IUIAutomationLegacyIAccessiblePattern.DoDefaultAction"
+f1_keywords:
+- uiautomationclient/IUIAutomationLegacyIAccessiblePattern.DoDefaultAction
 dev_langs:
- - c++
+- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationClient.h
+- UIAutomationClient.h
 api_name:
- - IUIAutomationLegacyIAccessiblePattern.DoDefaultAction
+- IUIAutomationLegacyIAccessiblePattern.DoDefaultAction
 targetos: Windows
 req.typenames: 
 req.redist: 

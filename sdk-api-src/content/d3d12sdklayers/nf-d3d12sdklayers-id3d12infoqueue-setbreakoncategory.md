@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d12sdklayers.ID3D12InfoQueue.SetBreakOnCategory
 title: ID3D12InfoQueue::SetBreakOnCategory (d3d12sdklayers.h)
-
 description: Set a message category to break on when a message with that category passes through the storage filter.
 old-location: direct3d12\id3d12infoqueue_setbreakoncategory.htm
 tech.root: direct3d12
 ms.assetid: BE56C85A-3FCE-4EC6-B42C-DF0187237AC5
-
 ms.date: 12/05/2018
 ms.keywords: ID3D12InfoQueue interface,SetBreakOnCategory method, ID3D12InfoQueue.SetBreakOnCategory, ID3D12InfoQueue::SetBreakOnCategory, SetBreakOnCategory, SetBreakOnCategory method, SetBreakOnCategory method,ID3D12InfoQueue interface, d3d12sdklayers/ID3D12InfoQueue::SetBreakOnCategory, direct3d12.id3d12infoqueue_setbreakoncategory
 ms.topic: method
-f1_keywords: 
- - "d3d12sdklayers/ID3D12InfoQueue.SetBreakOnCategory"
+f1_keywords:
+- d3d12sdklayers/ID3D12InfoQueue.SetBreakOnCategory
 dev_langs:
- - c++
+- c++
 req.header: d3d12sdklayers.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - d3d12sdklayers.h
+- d3d12sdklayers.h
 api_name:
- - ID3D12InfoQueue.SetBreakOnCategory
+- ID3D12InfoQueue.SetBreakOnCategory
 targetos: Windows
 req.typenames: 
 req.redist: 

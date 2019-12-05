@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IFileOperation.SetProgressMessage
 title: IFileOperation::SetProgressMessage (shobjidl_core.h)
-
 description: Not implemented.
 old-location: shell\IFileOperation_SetProgressMessage.htm
 tech.root: shell
 ms.assetid: fd8b4b00-3f41-41c4-aee0-89239ab70075
-
 ms.date: 12/05/2018
 ms.keywords: IFileOperation interface [Windows Shell],SetProgressMessage method, IFileOperation.SetProgressMessage, IFileOperation::SetProgressMessage, SetProgressMessage, SetProgressMessage method [Windows Shell], SetProgressMessage method [Windows Shell],IFileOperation interface, _shell_IFileOperation_SetProgressMessage, shell.IFileOperation_SetProgressMessage, shobjidl_core/IFileOperation::SetProgressMessage
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IFileOperation.SetProgressMessage"
+f1_keywords:
+- shobjidl_core/IFileOperation.SetProgressMessage
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - IFileOperation.SetProgressMessage
+- IFileOperation.SetProgressMessage
 targetos: Windows
 req.typenames: 
 req.redist: 

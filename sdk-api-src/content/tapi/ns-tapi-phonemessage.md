@@ -1,19 +1,17 @@
 ---
 UID: NS:tapi.phonemessage_tag
 title: PHONEMESSAGE (tapi.h)
-
 description: The PHONEMESSAGE structure contains the next message queued for delivery to the application. The phoneGetMessage function returns this structure.
 old-location: tapi2\phonemessage_str.htm
 tech.root: Tapi
 ms.assetid: 3655efef-d24c-4d67-b1dc-29d1948a1869
-
 ms.date: 12/05/2018
-ms.keywords: "*LPPHONEMESSAGE, LPPHONEMESSAGE, LPPHONEMESSAGE structure pointer [TAPI 2.2], PHONEMESSAGE, PHONEMESSAGE structure [TAPI 2.2], _tapi2_phonemessage_str, tapi/LPPHONEMESSAGE, tapi/PHONEMESSAGE, tapi2.phonemessage_str"
+ms.keywords: '*LPPHONEMESSAGE, LPPHONEMESSAGE, LPPHONEMESSAGE structure pointer [TAPI 2.2], PHONEMESSAGE, PHONEMESSAGE structure [TAPI 2.2], _tapi2_phonemessage_str, tapi/LPPHONEMESSAGE, tapi/PHONEMESSAGE, tapi2.phonemessage_str'
 ms.topic: struct
-f1_keywords: 
- - "tapi/PHONEMESSAGE"
+f1_keywords:
+- tapi/PHONEMESSAGE
 dev_langs:
- - c++
+- c++
 req.header: tapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Tapi.h
+- Tapi.h
 api_name:
- - PHONEMESSAGE
+- PHONEMESSAGE
 targetos: Windows
 req.typenames: PHONEMESSAGE, *LPPHONEMESSAGE
 req.redist: 

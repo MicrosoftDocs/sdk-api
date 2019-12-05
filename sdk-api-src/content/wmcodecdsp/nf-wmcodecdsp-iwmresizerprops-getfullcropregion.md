@@ -1,19 +1,17 @@
 ---
 UID: NF:wmcodecdsp.IWMResizerProps.GetFullCropRegion
 title: IWMResizerProps::GetFullCropRegion (wmcodecdsp.h)
-
 description: Retrieves the source and destination rectangles.
 old-location: mf\iwmresizerpropsgetfullcropregion.htm
 tech.root: medfound
 ms.assetid: 91c37040-a698-489b-95fd-f3088f62e4c9
-
 ms.date: 12/05/2018
 ms.keywords: GetFullCropRegion, GetFullCropRegion method [Media Foundation], GetFullCropRegion method [Media Foundation],IWMResizerProps interface, IWMResizerProps interface [Media Foundation],GetFullCropRegion method, IWMResizerProps.GetFullCropRegion, IWMResizerProps::GetFullCropRegion, codecapi.iwmresizerpropsgetfullcropregion, mf.iwmresizerpropsgetfullcropregion, wmcodecdsp/IWMResizerProps::GetFullCropRegion
 ms.topic: method
-f1_keywords: 
- - "wmcodecdsp/IWMResizerProps.GetFullCropRegion"
+f1_keywords:
+- wmcodecdsp/IWMResizerProps.GetFullCropRegion
 dev_langs:
- - c++
+- c++
 req.header: wmcodecdsp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmcodecdsp.h
+- wmcodecdsp.h
 api_name:
- - IWMResizerProps.GetFullCropRegion
+- IWMResizerProps.GetFullCropRegion
 targetos: Windows
 req.typenames: 
 req.redist: 

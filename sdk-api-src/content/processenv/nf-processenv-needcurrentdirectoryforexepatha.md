@@ -1,19 +1,17 @@
 ---
 UID: NF:processenv.NeedCurrentDirectoryForExePathA
 title: NeedCurrentDirectoryForExePathA function (processenv.h)
-
 description: Determines whether the current directory should be included in the search path for the specified executable.
 old-location: base\needcurrentdirectoryforexepath.htm
 tech.root: ProcThread
 ms.assetid: 2bdc07b9-bb83-48c2-a668-fda5c69d54ee
-
 ms.date: 12/05/2018
 ms.keywords: NeedCurrentDirectoryForExePath, NeedCurrentDirectoryForExePath function, NeedCurrentDirectoryForExePathA, NeedCurrentDirectoryForExePathW, base.needcurrentdirectoryforexepath, processenv/NeedCurrentDirectoryForExePath, processenv/NeedCurrentDirectoryForExePathA, processenv/NeedCurrentDirectoryForExePathW, winbase/NeedCurrentDirectoryForExePath, winbase/NeedCurrentDirectoryForExePathA, winbase/NeedCurrentDirectoryForExePathW
 ms.topic: function
-f1_keywords: 
- - "processenv/NeedCurrentDirectoryForExePath"
+f1_keywords:
+- processenv/NeedCurrentDirectoryForExePath
 dev_langs:
- - c++
+- c++
 req.header: processenv.h
 req.include-header: Windows Vista, Windows 7, Windows Server 2008  Windows Server 2008 R2, Windows.h
 req.target-type: Windows
@@ -32,21 +30,21 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-misc-l1-1-0.dll
- - KernelBase.dll
- - API-MS-Win-Core-ProcessEnvironment-l1-2-0.dll
- - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
- - MinKernelBase.dll
+- Kernel32.dll
+- API-MS-Win-Core-misc-l1-1-0.dll
+- KernelBase.dll
+- API-MS-Win-Core-ProcessEnvironment-l1-2-0.dll
+- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+- MinKernelBase.dll
 api_name:
- - NeedCurrentDirectoryForExePath
- - NeedCurrentDirectoryForExePathA
- - NeedCurrentDirectoryForExePathW
+- NeedCurrentDirectoryForExePath
+- NeedCurrentDirectoryForExePathA
+- NeedCurrentDirectoryForExePathW
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:mfidl.MFCreateDeviceSource
 title: MFCreateDeviceSource function (mfidl.h)
-
 description: Creates a media source for a hardware capture device.
 old-location: mf\mfcreatedevicesource.htm
 tech.root: medfound
 ms.assetid: 9f80b604-1cc2-4d0d-b94e-a2b9dab1fdde
-
 ms.date: 12/05/2018
 ms.keywords: MFCreateDeviceSource, MFCreateDeviceSource function [Media Foundation], mf.mfcreatedevicesource, mfidl/MFCreateDeviceSource
 ms.topic: function
-f1_keywords: 
- - "mfidl/MFCreateDeviceSource"
+f1_keywords:
+- mfidl/MFCreateDeviceSource
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Mf.lib
 req.dll: Mf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - mf.dll
+- mf.dll
 api_name:
- - MFCreateDeviceSource
+- MFCreateDeviceSource
 targetos: Windows
 req.typenames: 
 req.redist: 

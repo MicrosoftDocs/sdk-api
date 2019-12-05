@@ -1,19 +1,17 @@
 ---
 UID: NF:upnp.IUPnPDevice.get_RootDevice
 title: IUPnPDevice::get_RootDevice (upnp.h)
-
 description: The RootDevice property specifies the topmost device in the device tree. The root device represents a physical object.
 old-location: upnp\iupnpdevice_rootdevice.htm
 tech.root: upnp
 ms.assetid: 6c6d1782-693a-4b23-b9e0-7e379ba7f96c
-
 ms.date: 12/05/2018
 ms.keywords: IUPnPDevice interface [UPnP APIs],get_RootDevice method, IUPnPDevice.get_RootDevice, IUPnPDevice::get_RootDevice, _upnp_iupnpdevice_rootdevice, get_RootDevice, get_RootDevice method [UPnP APIs], get_RootDevice method [UPnP APIs],IUPnPDevice interface, upnp.iupnpdevice_rootdevice, upnp/IUPnPDevice::get_RootDevice
 ms.topic: method
-f1_keywords: 
- - "upnp/IUPnPDevice.get_RootDevice"
+f1_keywords:
+- upnp/IUPnPDevice.get_RootDevice
 dev_langs:
- - c++
+- c++
 req.header: upnp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Upnp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Upnp.dll
+- Upnp.dll
 api_name:
- - IUPnPDevice.get_RootDevice
+- IUPnPDevice.get_RootDevice
 targetos: Windows
 req.typenames: 
 req.redist: 

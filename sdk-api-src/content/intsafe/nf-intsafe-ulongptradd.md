@@ -1,19 +1,17 @@
 ---
 UID: NF:intsafe.ULongPtrAdd
 title: ULongPtrAdd function (intsafe.h)
-
 description: Adds two values of type ULONG_PTR.
 old-location: shell\ULongPtrAdd.htm
 tech.root: shell
 ms.assetid: 83f89ca7-0625-4705-9645-b2b739a9d664
-
 ms.date: 12/05/2018
 ms.keywords: ULongPtrAdd, ULongPtrAdd function [Windows Shell], _shell_ULongPtrAdd, intsafe/ULongPtrAdd, shell.ULongPtrAdd
 ms.topic: function
-f1_keywords: 
- - "intsafe/ULongPtrAdd"
+f1_keywords:
+- intsafe/ULongPtrAdd
 dev_langs:
- - c++
+- c++
 req.header: intsafe.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Intsafe.h
+- Intsafe.h
 api_name:
- - ULongPtrAdd
+- ULongPtrAdd
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:wmsdkidl.IWMProfile3.GetStreamPrioritization
 title: IWMProfile3::GetStreamPrioritization (wmsdkidl.h)
-
 description: The GetStreamPrioritization method retrieves the stream prioritization that exists in the profile.
 old-location: wmformat\iwmprofile3_getstreamprioritization.htm
 tech.root: wmformat
 ms.assetid: 09545c1e-8090-4526-9faf-6cb2cb369208
-
 ms.date: 12/05/2018
 ms.keywords: GetStreamPrioritization, GetStreamPrioritization method [windows Media Format], GetStreamPrioritization method [windows Media Format],IWMProfile3 interface, IWMProfile3 interface [windows Media Format],GetStreamPrioritization method, IWMProfile3.GetStreamPrioritization, IWMProfile3::GetStreamPrioritization, IWMProfile3GetStreamPrioritization, wmformat.iwmprofile3_getstreamprioritization, wmsdkidl/IWMProfile3::GetStreamPrioritization
 ms.topic: method
-f1_keywords: 
- - "wmsdkidl/IWMProfile3.GetStreamPrioritization"
+f1_keywords:
+- wmsdkidl/IWMProfile3.GetStreamPrioritization
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wmvcore.lib
- - Wmvcore.dll
- - WMStubDRM.lib
- - WMStubDRM.dll
+- Wmvcore.lib
+- Wmvcore.dll
+- WMStubDRM.lib
+- WMStubDRM.dll
 api_name:
- - IWMProfile3.GetStreamPrioritization
+- IWMProfile3.GetStreamPrioritization
 targetos: Windows
 req.typenames: 
 req.redist: 

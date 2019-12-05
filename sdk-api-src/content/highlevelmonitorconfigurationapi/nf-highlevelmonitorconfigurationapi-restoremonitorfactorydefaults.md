@@ -1,19 +1,17 @@
 ---
 UID: NF:highlevelmonitorconfigurationapi.RestoreMonitorFactoryDefaults
 title: RestoreMonitorFactoryDefaults function (highlevelmonitorconfigurationapi.h)
-
 description: Restores a monitor's settings to their factory defaults.
 old-location: monitor\restoremonitorfactorydefaults.htm
 tech.root: Monitor
 ms.assetid: e7ce81c6-28a5-4371-8fc6-d13de33c2e80
-
 ms.date: 12/05/2018
 ms.keywords: RestoreMonitorFactoryDefaults, RestoreMonitorFactoryDefaults function [Monitor Configuration], highlevelmonitorconfigurationapi/RestoreMonitorFactoryDefaults, monitor.restoremonitorfactorydefaults
 ms.topic: function
-f1_keywords: 
- - "highlevelmonitorconfigurationapi/RestoreMonitorFactoryDefaults"
+f1_keywords:
+- highlevelmonitorconfigurationapi/RestoreMonitorFactoryDefaults
 dev_langs:
- - c++
+- c++
 req.header: highlevelmonitorconfigurationapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dxva2.lib
 req.dll: Dxva2.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - dxva2.dll
+- dxva2.dll
 api_name:
- - RestoreMonitorFactoryDefaults
+- RestoreMonitorFactoryDefaults
 targetos: Windows
 req.typenames: 
 req.redist: 

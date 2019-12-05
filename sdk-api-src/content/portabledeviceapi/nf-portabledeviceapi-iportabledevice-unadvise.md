@@ -1,19 +1,17 @@
 ---
 UID: NF:portabledeviceapi.IPortableDevice.Unadvise
 title: IPortableDevice::Unadvise (portabledeviceapi.h)
-
 description: The Unadvise method unregisters a client from receiving callback notifications. You must call this method if you called Advise previously.
 old-location: wpdsdk\iportabledevice_unadvise.htm
 tech.root: wpd_sdk
 ms.assetid: 6720e92b-35cd-4e3f-bd21-36337cf80140
-
 ms.date: 12/05/2018
 ms.keywords: IPortableDevice interface [Windows Portable Devices SDK],Unadvise method, IPortableDevice.Unadvise, IPortableDevice::Unadvise, IPortableDeviceUnadvise, Unadvise, Unadvise method [Windows Portable Devices SDK], Unadvise method [Windows Portable Devices SDK],IPortableDevice interface, portabledeviceapi/IPortableDevice::Unadvise, wpdsdk.iportabledevice_unadvise
 ms.topic: method
-f1_keywords: 
- - "portabledeviceapi/IPortableDevice.Unadvise"
+f1_keywords:
+- portabledeviceapi/IPortableDevice.Unadvise
 dev_langs:
- - c++
+- c++
 req.header: portabledeviceapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: PortableDeviceGUIDs.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - PortableDeviceGUIDs.lib
- - PortableDeviceGUIDs.dll
+- PortableDeviceGUIDs.lib
+- PortableDeviceGUIDs.dll
 api_name:
- - IPortableDevice.Unadvise
+- IPortableDevice.Unadvise
 targetos: Windows
 req.typenames: 
 req.redist: 

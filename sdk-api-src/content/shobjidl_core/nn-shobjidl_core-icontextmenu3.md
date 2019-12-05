@@ -1,19 +1,17 @@
 ---
 UID: NN:shobjidl_core.IContextMenu3
 title: IContextMenu3 (shobjidl_core.h)
-
 description: Exposes methods that either create or merge a shortcut menu associated with a Shell object. Allows client objects to handle messages associated with owner-drawn menu items and extends IContextMenu2 by accepting a return value from that message handling.
 old-location: shell\IContextMenu3.htm
 tech.root: shell
 ms.assetid: c08e1b98-2b8b-41f6-93c5-3a5937bd3b2c
-
 ms.date: 12/05/2018
 ms.keywords: IContextMenu3, IContextMenu3 interface [Windows Shell], IContextMenu3 interface [Windows Shell],described, _win32_IContextMenu3, shell.IContextMenu3, shobjidl_core/IContextMenu3
 ms.topic: interface
-f1_keywords: 
- - "shobjidl_core/IContextMenu3"
+f1_keywords:
+- shobjidl_core/IContextMenu3
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Shell32.dll (version 4.71 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - IContextMenu3
+- IContextMenu3
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:dcomp.IDCompositionDevice.CreateRectangleClip
 title: IDCompositionDevice::CreateRectangleClip (dcomp.h)
-
 description: Creates a clip object that can be used to restrict the rendering of a visual subtree to a rectangular area.
 old-location: directcomp\idcompositiondevice_createrectangleclip.htm
 tech.root: directcomp
 ms.assetid: b937fbf0-b920-413a-a184-ebe08ee893e5
-
 ms.date: 12/05/2018
 ms.keywords: CreateRectangleClip, CreateRectangleClip method [DirectComposition], CreateRectangleClip method [DirectComposition],IDCompositionDevice interface, IDCompositionDevice interface [DirectComposition],CreateRectangleClip method, IDCompositionDevice.CreateRectangleClip, IDCompositionDevice::CreateRectangleClip, dcomp/IDCompositionDevice::CreateRectangleClip, directcomp.idcompositiondevice_createrectangleclip
 ms.topic: method
-f1_keywords: 
- - "dcomp/IDCompositionDevice.CreateRectangleClip"
+f1_keywords:
+- dcomp/IDCompositionDevice.CreateRectangleClip
 dev_langs:
- - c++
+- c++
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dcomp.lib
 req.dll: Dcomp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dcomp.dll
+- Dcomp.dll
 api_name:
- - IDCompositionDevice.CreateRectangleClip
+- IDCompositionDevice.CreateRectangleClip
 targetos: Windows
 req.typenames: 
 req.redist: 

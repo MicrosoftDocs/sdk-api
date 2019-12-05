@@ -1,19 +1,17 @@
 ---
 UID: NF:searchapi.ISearchManager.GetParameter
 title: ISearchManager::GetParameter (searchapi.h)
-
 description: Not supported.This method returns E_INVALIDARG when called.
 old-location: search\_search_ISearchManager_GetParameter.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\indexmanagement\isearchmanager\getparameter.htm
-
 ms.date: 12/05/2018
 ms.keywords: GetParameter, GetParameter method [search], GetParameter method [search],ISearchManager interface, ISearchManager interface [search],GetParameter method, ISearchManager.GetParameter, ISearchManager::GetParameter, _search_ISearchManager_GetParameter, search._search_ISearchManager_GetParameter, searchapi/ISearchManager::GetParameter
 ms.topic: method
-f1_keywords: 
- - "searchapi/ISearchManager.GetParameter"
+f1_keywords:
+- searchapi/ISearchManager.GetParameter
 dev_langs:
- - c++
+- c++
 req.header: searchapi.h
 req.include-header: Searchapi.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - searchapi.h
+- searchapi.h
 api_name:
- - ISearchManager.GetParameter
+- ISearchManager.GetParameter
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0

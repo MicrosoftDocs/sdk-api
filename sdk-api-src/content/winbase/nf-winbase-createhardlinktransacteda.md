@@ -1,19 +1,17 @@
 ---
 UID: NF:winbase.CreateHardLinkTransactedA
 title: CreateHardLinkTransactedA function (winbase.h)
-
 description: Establishes a hard link between an existing file and a new file as a transacted operation.
 old-location: fs\createhardlinktransacted.htm
 tech.root: FileIO
 ms.assetid: 27dd5b0a-08ef-4757-8f51-03d9918028c8
-
 ms.date: 12/05/2018
 ms.keywords: CreateHardLinkTransacted, CreateHardLinkTransacted function [Files], CreateHardLinkTransactedA, CreateHardLinkTransactedW, fs.createhardlinktransacted, winbase/CreateHardLinkTransacted, winbase/CreateHardLinkTransactedA, winbase/CreateHardLinkTransactedW
 ms.topic: function
-f1_keywords: 
- - "winbase/CreateHardLinkTransacted"
+f1_keywords:
+- winbase/CreateHardLinkTransacted
 dev_langs:
- - c++
+- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,20 +30,20 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-Kernel32-Legacy-L1-1-3.dll
- - Kernel32Legacy.dll
- - API-MS-Win-Core-Kernel32-Legacy-L1-1-4.dll
- - API-MS-Win-Core-Kernel32-Legacy-L1-1-5.dll
+- Kernel32.dll
+- API-MS-Win-Core-Kernel32-Legacy-L1-1-3.dll
+- Kernel32Legacy.dll
+- API-MS-Win-Core-Kernel32-Legacy-L1-1-4.dll
+- API-MS-Win-Core-Kernel32-Legacy-L1-1-5.dll
 api_name:
- - CreateHardLinkTransacted
- - CreateHardLinkTransactedA
- - CreateHardLinkTransactedW
+- CreateHardLinkTransacted
+- CreateHardLinkTransactedA
+- CreateHardLinkTransactedW
 targetos: Windows
 req.typenames: 
 req.redist: 

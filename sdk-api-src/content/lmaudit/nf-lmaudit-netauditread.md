@@ -1,19 +1,17 @@
 ---
 UID: NF:lmaudit.NetAuditRead
 title: NetAuditRead function (lmaudit.h)
-
 description: The NetAuditRead function is obsolete. It is included for compatibility with 16-bit versions of Windows. Other applications should use event logging.
 old-location: netmgmt\netauditread.htm
 tech.root: NetMgmt
 ms.assetid: d80caf09-30b0-484f-bbf9-e381a3eda9f8
-
 ms.date: 12/05/2018
 ms.keywords: NetAuditRead, NetAuditRead function [Network Management], _win32_netauditread, lmaudit/NetAuditRead, netmgmt.netauditread
 ms.topic: function
-f1_keywords: 
- - "lmaudit/NetAuditRead"
+f1_keywords:
+- lmaudit/NetAuditRead
 dev_langs:
- - c++
+- c++
 req.header: lmaudit.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - lmaudit.h
+- lmaudit.h
 api_name:
- - NetAuditRead
+- NetAuditRead
 targetos: Windows
 req.typenames: 
 req.redist: 

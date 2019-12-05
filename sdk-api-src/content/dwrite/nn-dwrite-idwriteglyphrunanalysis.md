@@ -1,19 +1,17 @@
 ---
 UID: NN:dwrite.IDWriteGlyphRunAnalysis
 title: IDWriteGlyphRunAnalysis (dwrite.h)
-
 description: Contains low-level information used to render a glyph run.
 old-location: directwrite\IDWriteGlyphRunAnalysis.htm
 tech.root: DirectWrite
 ms.assetid: d4739b55-1a9b-4346-9b47-d8adb98df163
-
 ms.date: 12/05/2018
 ms.keywords: IDWriteGlyphRunAnalysis, IDWriteGlyphRunAnalysis interface [Direct Write], IDWriteGlyphRunAnalysis interface [Direct Write],described, directwrite.IDWriteGlyphRunAnalysis, dwrite/IDWriteGlyphRunAnalysis
 ms.topic: interface
-f1_keywords: 
- - "dwrite/IDWriteGlyphRunAnalysis"
+f1_keywords:
+- dwrite/IDWriteGlyphRunAnalysis
 dev_langs:
- - c++
+- c++
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dwrite.lib
 req.dll: Dwrite.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dwrite.dll
+- dwrite.dll
 api_name:
- - IDWriteGlyphRunAnalysis
+- IDWriteGlyphRunAnalysis
 targetos: Windows
 req.typenames: 
 req.redist: 

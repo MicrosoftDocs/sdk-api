@@ -1,19 +1,17 @@
 ---
 UID: NC:routprot.PGET_INTERFACE_INFO
 title: PGET_INTERFACE_INFO (routprot.h)
-
 description: The GetInterfaceInfo function gets the configuration information kept by the routing protocol for a specific interface.
 old-location: rras\getinterfaceinfo.htm
 tech.root: RRAS
 ms.assetid: ec662772-f864-4108-b676-3fa501b3b927
-
 ms.date: 12/05/2018
 ms.keywords: GetInterfaceInfo, PGET_INTERFACE_INFO, PGET_INTERFACE_INFO callback, PGET_INTERFACE_INFO callback function [RAS], _mpr_getinterfaceinfo, routprot/PGET_INTERFACE_INFO, rras.getinterfaceinfo
 ms.topic: callback
-f1_keywords: 
- - "routprot/PGET_INTERFACE_INFO"
+f1_keywords:
+- routprot/PGET_INTERFACE_INFO
 dev_langs:
- - c++
+- c++
 req.header: routprot.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Routprot.h
+- Routprot.h
 api_name:
- - PGET_INTERFACE_INFO
+- PGET_INTERFACE_INFO
 targetos: Windows
 req.typenames: 
 req.redist: 

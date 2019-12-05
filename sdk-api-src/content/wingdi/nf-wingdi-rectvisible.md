@@ -1,19 +1,17 @@
 ---
 UID: NF:wingdi.RectVisible
 title: RectVisible function (wingdi.h)
-
 description: The RectVisible function determines whether any part of the specified rectangle lies within the clipping region of a device context.
 old-location: gdi\rectvisible.htm
 tech.root: gdi
 ms.assetid: 990e9b22-0ce3-42b8-a87e-32fd2f2bc2fb
-
 ms.date: 12/05/2018
 ms.keywords: RectVisible, RectVisible function [Windows GDI], _win32_RectVisible, gdi.rectvisible, wingdi/RectVisible
 ms.topic: function
-f1_keywords: 
- - "wingdi/RectVisible"
+f1_keywords:
+- wingdi/RectVisible
 dev_langs:
- - c++
+- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - gdi32.dll
- - ext-ms-win-gdi-clipping-l1-1-0.dll
- - GDI32Full.dll
+- gdi32.dll
+- ext-ms-win-gdi-clipping-l1-1-0.dll
+- GDI32Full.dll
 api_name:
- - RectVisible
+- RectVisible
 targetos: Windows
 req.typenames: 
 req.redist: 

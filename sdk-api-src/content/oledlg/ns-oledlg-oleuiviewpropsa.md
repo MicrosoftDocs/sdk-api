@@ -1,19 +1,17 @@
 ---
 UID: NS:oledlg.tagOLEUIVIEWPROPSA
 title: OLEUIVIEWPROPSA (oledlg.h)
-
 description: Contains information that is used to initialize the View tab of the Object properties dialog box.
 old-location: com\oleuiviewprops_struct.htm
 tech.root: com
 ms.assetid: e45565c5-185e-4143-a5c2-d0b273b5086e
-
 ms.date: 12/05/2018
-ms.keywords: "*LPOLEUIVIEWPROPSA, *POLEUIVIEWPROPSA, LPOLEUIVIEWPROPS, LPOLEUIVIEWPROPS structure pointer [COM], OLEUIVIEWPROPS, OLEUIVIEWPROPS structure [COM], OLEUIVIEWPROPSA, OLEUIVIEWPROPSW, POLEUIVIEWPROPS, POLEUIVIEWPROPS structure pointer [COM], VPF_DISABLERELATIVE, VPF_DISABLESCALE, VPF_SELECTRELATIVE, _ole_OLEUIVIEWPROPS, com.oleuiviewprops_struct, oledlg/LPOLEUIVIEWPROPS, oledlg/OLEUIVIEWPROPS, oledlg/OLEUIVIEWPROPSA, oledlg/OLEUIVIEWPROPSW, oledlg/POLEUIVIEWPROPS"
+ms.keywords: '*LPOLEUIVIEWPROPSA, *POLEUIVIEWPROPSA, LPOLEUIVIEWPROPS, LPOLEUIVIEWPROPS structure pointer [COM], OLEUIVIEWPROPS, OLEUIVIEWPROPS structure [COM], OLEUIVIEWPROPSA, OLEUIVIEWPROPSW, POLEUIVIEWPROPS, POLEUIVIEWPROPS structure pointer [COM], VPF_DISABLERELATIVE, VPF_DISABLESCALE, VPF_SELECTRELATIVE, _ole_OLEUIVIEWPROPS, com.oleuiviewprops_struct, oledlg/LPOLEUIVIEWPROPS, oledlg/OLEUIVIEWPROPS, oledlg/OLEUIVIEWPROPSA, oledlg/OLEUIVIEWPROPSW, oledlg/POLEUIVIEWPROPS'
 ms.topic: struct
-f1_keywords: 
- - "oledlg/OLEUIVIEWPROPS"
+f1_keywords:
+- oledlg/OLEUIVIEWPROPS
 dev_langs:
- - c++
+- c++
 req.header: oledlg.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - OleDlg.h
+- OleDlg.h
 api_name:
- - OLEUIVIEWPROPS
- - OLEUIVIEWPROPSA
- - OLEUIVIEWPROPSW
+- OLEUIVIEWPROPS
+- OLEUIVIEWPROPSA
+- OLEUIVIEWPROPSW
 targetos: Windows
 req.typenames: OLEUIVIEWPROPSA, *POLEUIVIEWPROPSA, *LPOLEUIVIEWPROPSA
 req.redist: 

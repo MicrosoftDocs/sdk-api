@@ -1,19 +1,17 @@
 ---
 UID: NF:strsafe.StringCchCopyNA
 title: StringCchCopyNA function (strsafe.h)
-
 description: Copies the specified number of characters from one string to another.
 old-location: menurc\stringcchcopyn.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\strings\stringreference\stringfunctions\stringcchcopyn.htm
-
 ms.date: 12/05/2018
 ms.keywords: StringCchCopyN, StringCchCopyN function [Menus and Other Resources], StringCchCopyNA, StringCchCopyNW, _shell_StringCchCopyN, _shell_stringcchcopyn_cpp, menurc.stringcchcopyn, strsafe/StringCchCopyN, strsafe/StringCchCopyNA, strsafe/StringCchCopyNW, winui._shell_stringcchcopyn
 ms.topic: function
-f1_keywords: 
- - "strsafe/StringCchCopyN"
+f1_keywords:
+- strsafe/StringCchCopyN
 dev_langs:
- - c++
+- c++
 req.header: strsafe.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Strsafe.h
+- Strsafe.h
 api_name:
- - StringCchCopyN
- - StringCchCopyNA
- - StringCchCopyNW
+- StringCchCopyN
+- StringCchCopyNA
+- StringCchCopyNW
 targetos: Windows
 req.typenames: 
 req.redist: 

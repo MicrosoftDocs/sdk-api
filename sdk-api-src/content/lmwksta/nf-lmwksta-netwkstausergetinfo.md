@@ -1,19 +1,17 @@
 ---
 UID: NF:lmwksta.NetWkstaUserGetInfo
 title: NetWkstaUserGetInfo function (lmwksta.h)
-
 description: The NetWkstaUserGetInfo function returns information about the currently logged-on user. This function must be called in the context of the logged-on user.
 old-location: netmgmt\netwkstausergetinfo.htm
 tech.root: NetMgmt
 ms.assetid: 25ec7a49-fd26-4105-823b-a257a57f724e
-
 ms.date: 12/05/2018
 ms.keywords: 0, 1, 1101, NetWkstaUserGetInfo, NetWkstaUserGetInfo function [Network Management], _win32_netwkstausergetinfo, lmwksta/NetWkstaUserGetInfo, netmgmt.netwkstausergetinfo
 ms.topic: function
 f1_keywords:
 - lmwksta/NetWkstaUserGetInfo
 dev_langs:
- - c++
+- c++
 req.header: lmwksta.h
 req.include-header: Lm.h
 req.target-type: Windows

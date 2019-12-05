@@ -1,19 +1,17 @@
 ---
 UID: NF:gdiplustypes.RectF.IntersectsWith
 title: RectF::IntersectsWith (gdiplustypes.h)
-
 description: The RectF::IntersectsWith method determines whether this rectangle intersects another rectangle.
 old-location: gdiplus\_gdiplus_CLASS_RectF_IntersectsWith_rect_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\rectfclass\rectfmethods\intersectswith_96rect.htm
-
 ms.date: 12/05/2018
 ms.keywords: IntersectsWith, IntersectsWith method [GDI+], IntersectsWith method [GDI+],RectF class, RectF class [GDI+],IntersectsWith method, RectF.IntersectsWith, RectF::IntersectsWith, _gdiplus_CLASS_RectF_IntersectsWith_rect_, gdiplus._gdiplus_CLASS_RectF_IntersectsWith_rect_
 ms.topic: method
-f1_keywords: 
- - "gdiplustypes/RectF.IntersectsWith"
+f1_keywords:
+- gdiplustypes/RectF.IntersectsWith
 dev_langs:
- - c++
+- c++
 req.header: gdiplustypes.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - RectF.IntersectsWith
+- RectF.IntersectsWith
 targetos: Windows
 req.typenames: 
 req.redist: 

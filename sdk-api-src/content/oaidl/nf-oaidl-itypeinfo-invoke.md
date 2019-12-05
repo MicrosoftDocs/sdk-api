@@ -1,19 +1,17 @@
 ---
 UID: NF:oaidl.ITypeInfo.Invoke
 title: ITypeInfo::Invoke (oaidl.h)
-
 description: Invokes a method, or accesses a property of an object, that implements the interface described by the type description.
 old-location: automat\itypeinfo_invoke.htm
 tech.root: automat
 ms.assetid: dde2ca58-84bd-4a49-a160-a9955d691f3b
-
 ms.date: 12/05/2018
 ms.keywords: DISPATCH_METHOD, DISPATCH_PROPERTYGET, DISPATCH_PROPERTYPUT, DISPATCH_PROPERTYPUTREF, ITypeInfo interface [Automation],Invoke method, ITypeInfo.Invoke, ITypeInfo2.Invoke, ITypeInfo::Invoke, Invoke, Invoke method [Automation], Invoke method [Automation],ITypeInfo interface, _oa96_ITypeInfo_Invoke, automat.itypeinfo_invoke, oaidl/ITypeInfo::Invoke
 ms.topic: method
-f1_keywords: 
- - "oaidl/ITypeInfo.Invoke"
+f1_keywords:
+- oaidl/ITypeInfo.Invoke
 dev_langs:
- - c++
+- c++
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - oaidl.h
- - oleaut32.dll
+- oaidl.h
+- oleaut32.dll
 api_name:
- - ITypeInfo.Invoke
- - ITypeInfo2.Invoke
+- ITypeInfo.Invoke
+- ITypeInfo2.Invoke
 targetos: Windows
 req.typenames: 
 req.redist: 

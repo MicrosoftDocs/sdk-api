@@ -1,19 +1,17 @@
 ---
 UID: NS:webservices._WS_CHANNEL_DECODER
 title: WS_CHANNEL_DECODER (webservices.h)
-
 description: A structure that is used to specify a set of callbacks that can transform the content type and encoded bytes of a received message.
 old-location: wsw\ws_channel_decoder.htm
 tech.root: wsw
 ms.assetid: d634f203-cf98-4f4e-85ce-5df23653a3ad
-
 ms.date: 12/05/2018
 ms.keywords: WS_CHANNEL_DECODER, WS_CHANNEL_DECODER structure [Web Services for Windows], webservices/WS_CHANNEL_DECODER, wsw.ws_channel_decoder
 ms.topic: struct
-f1_keywords: 
- - "webservices/WS_CHANNEL_DECODER"
+f1_keywords:
+- webservices/WS_CHANNEL_DECODER
 dev_langs:
- - c++
+- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WebServices.h
+- WebServices.h
 api_name:
- - WS_CHANNEL_DECODER
+- WS_CHANNEL_DECODER
 targetos: Windows
 req.typenames: WS_CHANNEL_DECODER
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NN:dwrite.IDWriteTextAnalysisSink
 title: IDWriteTextAnalysisSink (dwrite.h)
-
 description: This interface is implemented by the text analyzer's client to receive the output of a given text analysis.
 old-location: directwrite\idwritetextanalysissink.htm
 tech.root: DirectWrite
 ms.assetid: 1fd2ca46-006c-4b01-8258-6c24f4be1641
-
 ms.date: 12/05/2018
 ms.keywords: IDWriteTextAnalysisSink, IDWriteTextAnalysisSink interface [Direct Write], IDWriteTextAnalysisSink interface [Direct Write],described, directwrite.idwritetextanalysissink, dwrite/IDWriteTextAnalysisSink
 ms.topic: interface
-f1_keywords: 
- - "dwrite/IDWriteTextAnalysisSink"
+f1_keywords:
+- dwrite/IDWriteTextAnalysisSink
 dev_langs:
- - c++
+- c++
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dwrite.lib
 req.dll: Dwrite.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dwrite.dll
+- dwrite.dll
 api_name:
- - IDWriteTextAnalysisSink
+- IDWriteTextAnalysisSink
 targetos: Windows
 req.typenames: 
 req.redist: 

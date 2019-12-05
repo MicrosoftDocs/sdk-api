@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d9helper.IDirect3DDevice9.SetVertexShaderConstantF
 title: IDirect3DDevice9::SetVertexShaderConstantF (d3d9helper.h)
-
 description: Sets a floating-point vertex shader constant.
 old-location: direct3d9\idirect3ddevice9__setvertexshaderconstantf.htm
 tech.root: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3ddevice9__setvertexshaderconstantf.htm
-
 ms.date: 12/05/2018
 ms.keywords: IDirect3DDevice9 interface [Direct3D 9],SetVertexShaderConstantF method, IDirect3DDevice9.SetVertexShaderConstantF, IDirect3DDevice9::SetVertexShaderConstantF, SetVertexShaderConstantF, SetVertexShaderConstantF method [Direct3D 9], SetVertexShaderConstantF method [Direct3D 9],IDirect3DDevice9 interface, c6cef8bb-7ab4-497c-1aa2-2ca745f6bf1b, d3d9helper/IDirect3DDevice9::SetVertexShaderConstantF, direct3d9.idirect3ddevice9__setvertexshaderconstantf
 ms.topic: method
-f1_keywords: 
- - "d3d9helper/IDirect3DDevice9.SetVertexShaderConstantF"
+f1_keywords:
+- d3d9helper/IDirect3DDevice9.SetVertexShaderConstantF
 dev_langs:
- - c++
+- c++
 req.header: d3d9helper.h
 req.include-header: D3D9.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: D3D9.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D9.lib
- - D3D9.dll
+- D3D9.lib
+- D3D9.dll
 api_name:
- - IDirect3DDevice9.SetVertexShaderConstantF
+- IDirect3DDevice9.SetVertexShaderConstantF
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:filehc.SetDotStuffingOnWrites
 title: SetDotStuffingOnWrites function (filehc.h)
-
 description: Enables dot-stuffing properties on the write path of the file handle cache of the message.
 old-location: winprog\_setdotstuffingonwrites.htm
 tech.root: DevNotes
 ms.assetid: 6191e097-3e8a-4149-85bb-88d804caa3ae
-
 ms.date: 12/05/2018
 ms.keywords: SetDotStuffingOnWrites, SetDotStuffingOnWrites function [Windows API], filehc/SetDotStuffingOnWrites, winprog._setdotstuffingonwrites
 ms.topic: function
-f1_keywords: 
- - "filehc/SetDotStuffingOnWrites"
+f1_keywords:
+- filehc/SetDotStuffingOnWrites
 dev_langs:
- - c++
+- c++
 req.header: filehc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Fcachdll.lib
 req.dll: Fcachdll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Fcachdll.dll
+- Fcachdll.dll
 api_name:
- - SetDotStuffingOnWrites
+- SetDotStuffingOnWrites
 targetos: Windows
 req.typenames: 
 req.redist: 

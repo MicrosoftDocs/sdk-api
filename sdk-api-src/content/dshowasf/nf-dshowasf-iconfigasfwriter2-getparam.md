@@ -1,19 +1,17 @@
 ---
 UID: NF:dshowasf.IConfigAsfWriter2.GetParam
 title: IConfigAsfWriter2::GetParam (dshowasf.h)
-
 description: The GetParam method retrieves the current value of the specified filter configuration parameter.
 old-location: dshow\iconfigasfwriter2_getparam.htm
 tech.root: DirectShow
 ms.assetid: 2a875d02-3814-46a1-9eee-61bad36475fc
-
 ms.date: 12/05/2018
 ms.keywords: GetParam, GetParam method [DirectShow], GetParam method [DirectShow],IConfigAsfWriter2 interface, IConfigAsfWriter2 interface [DirectShow],GetParam method, IConfigAsfWriter2.GetParam, IConfigAsfWriter2::GetParam, IConfigAsfWriter2GetParam, dshow.iconfigasfwriter2_getparam, dshowasf/IConfigAsfWriter2::GetParam
 ms.topic: method
-f1_keywords: 
- - "dshowasf/IConfigAsfWriter2.GetParam"
+f1_keywords:
+- dshowasf/IConfigAsfWriter2.GetParam
 dev_langs:
- - c++
+- c++
 req.header: dshowasf.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dshowasf.h
+- Dshowasf.h
 api_name:
- - IConfigAsfWriter2.GetParam
+- IConfigAsfWriter2.GetParam
 targetos: Windows
 req.typenames: 
 req.redist: 

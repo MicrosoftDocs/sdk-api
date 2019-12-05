@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl.IBandHost.DestroyBand
 title: IBandHost::DestroyBand (shobjidl.h)
-
 description: Destroys a specified band.
 old-location: shell\IBandHost_DestroyBand.htm
 tech.root: shell
 ms.assetid: fc9fec01-97ff-44d9-833a-cd781977e5b9
-
 ms.date: 12/05/2018
 ms.keywords: DestroyBand, DestroyBand method [Windows Shell], DestroyBand method [Windows Shell],IBandHost interface, IBandHost interface [Windows Shell],DestroyBand method, IBandHost.DestroyBand, IBandHost::DestroyBand, _shell_IBandHost_DestroyBand, shell.IBandHost_DestroyBand, shobjidl/IBandHost::DestroyBand
 ms.topic: method
-f1_keywords: 
- - "shobjidl/IBandHost.DestroyBand"
+f1_keywords:
+- shobjidl/IBandHost.DestroyBand
 dev_langs:
- - c++
+- c++
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shobjidl.h
+- Shobjidl.h
 api_name:
- - IBandHost.DestroyBand
+- IBandHost.DestroyBand
 targetos: Windows
 req.typenames: 
 req.redist: 

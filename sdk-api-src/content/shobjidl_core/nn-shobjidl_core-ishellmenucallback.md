@@ -1,19 +1,17 @@
 ---
 UID: NN:shobjidl_core.IShellMenuCallback
 title: IShellMenuCallback (shobjidl_core.h)
-
 description: A callback interface that exposes a method that receives messages from a menu band.
 old-location: shell\IShellMenuCallback.htm
 tech.root: shell
 ms.assetid: 96bfdc52-bd4a-4345-8dd1-7e716a3d9811
-
 ms.date: 12/05/2018
 ms.keywords: IShellMenuCallback, IShellMenuCallback interface [Windows Shell], IShellMenuCallback interface [Windows Shell],described, _win32_IShellMenuCallback, shell.IShellMenuCallback, shobjidl_core/IShellMenuCallback
 ms.topic: interface
-f1_keywords: 
- - "shobjidl_core/IShellMenuCallback"
+f1_keywords:
+- shobjidl_core/IShellMenuCallback
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Shell32.dll (version 5.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - IShellMenuCallback
+- IShellMenuCallback
 targetos: Windows
 req.typenames: 
 req.redist: 

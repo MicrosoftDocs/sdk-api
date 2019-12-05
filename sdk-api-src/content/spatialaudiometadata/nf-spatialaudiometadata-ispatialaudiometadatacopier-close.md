@@ -1,19 +1,17 @@
 ---
 UID: NF:spatialaudiometadata.ISpatialAudioMetadataCopier.Close
 title: ISpatialAudioMetadataCopier::Close (spatialaudiometadata.h)
-
 description: Completes any necessary operations on the SpatialAudioMetadataItems object and releases the object.
 old-location: coreaudio\ispatialaudiometadatacopier_close.htm
 tech.root: CoreAudio
 ms.assetid: 891AFF53-7CAB-49FA-A8D2-CAEEB91E860F
-
 ms.date: 12/05/2018
 ms.keywords: Close, Close method [Core Audio], Close method [Core Audio],ISpatialAudioMetadataCopier interface, ISpatialAudioMetadataCopier interface [Core Audio],Close method, ISpatialAudioMetadataCopier.Close, ISpatialAudioMetadataCopier::Close, coreaudio.ispatialaudiometadatacopier_close, spatialaudiometadata/ISpatialAudioMetadataCopier::Close
 ms.topic: method
-f1_keywords: 
- - "spatialaudiometadata/ISpatialAudioMetadataCopier.Close"
+f1_keywords:
+- spatialaudiometadata/ISpatialAudioMetadataCopier.Close
 dev_langs:
- - c++
+- c++
 req.header: spatialaudiometadata.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - SpatialAudioMetadata.h
+- SpatialAudioMetadata.h
 api_name:
- - ISpatialAudioMetadataCopier.Close
+- ISpatialAudioMetadataCopier.Close
 targetos: Windows
 req.typenames: 
 req.redist: 

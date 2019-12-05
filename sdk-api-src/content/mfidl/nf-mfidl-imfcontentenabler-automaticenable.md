@@ -1,19 +1,17 @@
 ---
 UID: NF:mfidl.IMFContentEnabler.AutomaticEnable
 title: IMFContentEnabler::AutomaticEnable (mfidl.h)
-
 description: Performs a content enabling action without any user interaction.
 old-location: mf\imfcontentenabler_automaticenable.htm
 tech.root: medfound
 ms.assetid: 7be4c32f-d116-4a08-857f-1a59b5ccfb12
-
 ms.date: 12/05/2018
 ms.keywords: 7be4c32f-d116-4a08-857f-1a59b5ccfb12, AutomaticEnable, AutomaticEnable method [Media Foundation], AutomaticEnable method [Media Foundation],IMFContentEnabler interface, IMFContentEnabler interface [Media Foundation],AutomaticEnable method, IMFContentEnabler.AutomaticEnable, IMFContentEnabler::AutomaticEnable, mf.imfcontentenabler_automaticenable, mfidl/IMFContentEnabler::AutomaticEnable
 ms.topic: method
-f1_keywords: 
- - "mfidl/IMFContentEnabler.AutomaticEnable"
+f1_keywords:
+- mfidl/IMFContentEnabler.AutomaticEnable
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFContentEnabler.AutomaticEnable
+- IMFContentEnabler.AutomaticEnable
 targetos: Windows
 req.typenames: 
 req.redist: 

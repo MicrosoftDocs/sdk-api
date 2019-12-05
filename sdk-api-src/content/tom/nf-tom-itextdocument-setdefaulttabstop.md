@@ -1,19 +1,17 @@
 ---
 UID: NF:tom.ITextDocument.SetDefaultTabStop
 title: ITextDocument::SetDefaultTabStop (tom.h)
-
 description: Sets the default tab stop, which is used when no tab exists beyond the current display position.
 old-location: controls\ITextDocument_SetDefaultTabStop.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\setdefaulttabstop.htm
-
 ms.date: 12/05/2018
 ms.keywords: ITextDocument interface [Windows Controls],SetDefaultTabStop method, ITextDocument.SetDefaultTabStop, ITextDocument::SetDefaultTabStop, SetDefaultTabStop, SetDefaultTabStop method [Windows Controls], SetDefaultTabStop method [Windows Controls],ITextDocument interface, _win32_ITextDocument_SetDefaultTabStop, _win32_ITextDocument_SetDefaultTabStop_cpp, controls.ITextDocument_SetDefaultTabStop, controls._win32_ITextDocument_SetDefaultTabStop, tom/ITextDocument::SetDefaultTabStop
 ms.topic: method
-f1_keywords: 
- - "tom/ITextDocument.SetDefaultTabStop"
+f1_keywords:
+- tom/ITextDocument.SetDefaultTabStop
 dev_langs:
- - c++
+- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msftedit.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msftedit.dll
+- Msftedit.dll
 api_name:
- - ITextDocument.SetDefaultTabStop
+- ITextDocument.SetDefaultTabStop
 targetos: Windows
 req.typenames: 
 req.redist: 

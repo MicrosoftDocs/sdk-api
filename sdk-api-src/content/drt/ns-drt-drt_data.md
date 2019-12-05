@@ -1,19 +1,17 @@
 ---
 UID: NS:drt.drt_data_tag
 title: DRT_DATA (drt.h)
-
 description: DRT_DATA structure contains a data blob. This structure is used by several DRT functions.
 old-location: p2p\drt_data.htm
 tech.root: P2PSdk
 ms.assetid: ee81daca-e889-471e-b43b-4593380a55dd
-
 ms.date: 12/05/2018
-ms.keywords: "*PDRT_DATA, DRT_DATA, DRT_DATA structure [Peer Networking], PDRT_DATA, PDRT_DATA structure pointer [Peer Networking], drt/DRT_DATA, drt/PDRT_DATA, p2p.drt_data"
+ms.keywords: '*PDRT_DATA, DRT_DATA, DRT_DATA structure [Peer Networking], PDRT_DATA, PDRT_DATA structure pointer [Peer Networking], drt/DRT_DATA, drt/PDRT_DATA, p2p.drt_data'
 ms.topic: struct
-f1_keywords: 
- - "drt/DRT_DATA"
+f1_keywords:
+- drt/DRT_DATA
 dev_langs:
- - c++
+- c++
 req.header: drt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - drt.h
+- drt.h
 api_name:
- - DRT_DATA
+- DRT_DATA
 targetos: Windows
 req.typenames: DRT_DATA, *PDRT_DATA
 req.redist: 

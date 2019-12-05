@@ -1,19 +1,17 @@
 ---
 UID: NF:devicetopology.IControlInterface.GetName
 title: IControlInterface::GetName (devicetopology.h)
-
 description: The GetName method gets the friendly name for the audio function that the control interface encapsulates.
 old-location: coreaudio\icontrolinterface_getname.htm
 tech.root: CoreAudio
 ms.assetid: 591e96ba-aaf1-42ba-9526-f839c30947d3
-
 ms.date: 12/05/2018
 ms.keywords: GetName, GetName method [Core Audio], GetName method [Core Audio],IControlInterface interface, IControlInterface interface [Core Audio],GetName method, IControlInterface.GetName, IControlInterface::GetName, IControlInterfaceGetName, coreaudio.icontrolinterface_getname, devicetopology/IControlInterface::GetName
 ms.topic: method
-f1_keywords: 
- - "devicetopology/IControlInterface.GetName"
+f1_keywords:
+- devicetopology/IControlInterface.GetName
 dev_langs:
- - c++
+- c++
 req.header: devicetopology.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Devicetopology.h
+- Devicetopology.h
 api_name:
- - IControlInterface.GetName
+- IControlInterface.GetName
 targetos: Windows
 req.typenames: 
 req.redist: 

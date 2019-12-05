@@ -1,19 +1,17 @@
 ---
 UID: NF:netfw.INetFwPolicy2.put_BlockAllInboundTraffic
 title: INetFwPolicy2::put_BlockAllInboundTraffic (netfw.h)
-
 description: Indicates whether the firewall should not allow inbound traffic.
 old-location: ics\inetfwpolicy2_exceptionsnotallowed.htm
 tech.root: ics
 ms.assetid: c40e58fd-b372-4d94-bcf1-bad1e84321f7
-
 ms.date: 12/05/2018
 ms.keywords: BlockAllInboundTraffic property [ICS/ICF], BlockAllInboundTraffic property [ICS/ICF],INetFwPolicy2 interface, INetFwPolicy2 interface [ICS/ICF],BlockAllInboundTraffic property, INetFwPolicy2.BlockAllInboundTraffic, INetFwPolicy2.put_BlockAllInboundTraffic, INetFwPolicy2::BlockAllInboundTraffic, INetFwPolicy2::get_BlockAllInboundTraffic, INetFwPolicy2::put_BlockAllInboundTraffic, ics.inetfwpolicy2_exceptionsnotallowed, netfw/INetFwPolicy2::BlockAllInboundTraffic, netfw/INetFwPolicy2::get_BlockAllInboundTraffic, netfw/INetFwPolicy2::put_BlockAllInboundTraffic, put_BlockAllInboundTraffic
 ms.topic: method
-f1_keywords: 
- - "netfw/INetFwPolicy2.BlockAllInboundTraffic"
+f1_keywords:
+- netfw/INetFwPolicy2.BlockAllInboundTraffic
 dev_langs:
- - c++
+- c++
 req.header: netfw.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: FirewallAPI.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - FirewallAPI.dll
+- FirewallAPI.dll
 api_name:
- - INetFwPolicy2.BlockAllInboundTraffic
- - INetFwPolicy2.get_BlockAllInboundTraffic
- - INetFwPolicy2.put_BlockAllInboundTraffic
+- INetFwPolicy2.BlockAllInboundTraffic
+- INetFwPolicy2.get_BlockAllInboundTraffic
+- INetFwPolicy2.put_BlockAllInboundTraffic
 targetos: Windows
 req.typenames: 
 req.redist: 

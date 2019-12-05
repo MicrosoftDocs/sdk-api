@@ -1,19 +1,17 @@
 ---
 UID: NF:cscobj.IOfflineFilesSyncErrorItemInfo.GetFileTimes
 title: IOfflineFilesSyncErrorItemInfo::GetFileTimes (cscobj.h)
-
 description: Retrieves the last-write and change times for the item.
 old-location: of\iofflinefilessyncerroriteminfo_getfiletimes.htm
 tech.root: offlinefiles
 ms.assetid: dec0ce0c-ef24-482f-9890-19864d9ff652
-
 ms.date: 12/05/2018
 ms.keywords: GetFileTimes, GetFileTimes method [Offline Files], GetFileTimes method [Offline Files],IOfflineFilesSyncErrorItemInfo interface, IOfflineFilesSyncErrorItemInfo interface [Offline Files],GetFileTimes method, IOfflineFilesSyncErrorItemInfo.GetFileTimes, IOfflineFilesSyncErrorItemInfo::GetFileTimes, cscobj/IOfflineFilesSyncErrorItemInfo::GetFileTimes, of.iofflinefilessyncerroriteminfo_getfiletimes
 ms.topic: method
-f1_keywords: 
- - "cscobj/IOfflineFilesSyncErrorItemInfo.GetFileTimes"
+f1_keywords:
+- cscobj/IOfflineFilesSyncErrorItemInfo.GetFileTimes
 dev_langs:
- - c++
+- c++
 req.header: cscobj.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: CscSvc.dll; CscObj.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CscSvc.dll
- - CscObj.dll
+- CscSvc.dll
+- CscObj.dll
 api_name:
- - IOfflineFilesSyncErrorItemInfo.GetFileTimes
+- IOfflineFilesSyncErrorItemInfo.GetFileTimes
 targetos: Windows
 req.typenames: 
 req.redist: 

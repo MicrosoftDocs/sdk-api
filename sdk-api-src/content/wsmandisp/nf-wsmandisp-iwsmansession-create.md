@@ -1,19 +1,17 @@
 ---
 UID: NF:wsmandisp.IWSManSession.Create
 title: IWSManSession::Create (wsmandisp.h)
-
 description: Creates a new instance of a resource and returns the endpoint reference (EPR) of the new object.
 old-location: winrm\iwsmansession_create.htm
 tech.root: winrm
 ms.assetid: 7e8b561e-c724-427b-88a0-34a6c8a9c6bd
-
 ms.date: 12/05/2018
 ms.keywords: Create, Create method [Windows Remote Management], Create method [Windows Remote Management],IWSManSession interface, IWSManSession interface [Windows Remote Management],Create method, IWSManSession.Create, IWSManSession::Create, winrm.iwsmansession_create, wsmandisp/IWSManSession::Create
 ms.topic: method
-f1_keywords: 
- - "wsmandisp/IWSManSession.Create"
+f1_keywords:
+- wsmandisp/IWSManSession.Create
 dev_langs:
- - c++
+- c++
 req.header: wsmandisp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: WSManDisp.tlb
 req.dll: WSMAuto.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - WSMAuto.dll
+- WSMAuto.dll
 api_name:
- - IWSManSession.Create
+- IWSManSession.Create
 targetos: Windows
 req.typenames: 
 req.redist: 

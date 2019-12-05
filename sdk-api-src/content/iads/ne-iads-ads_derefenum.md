@@ -1,19 +1,17 @@
 ---
 UID: NE:iads.__MIDL___MIDL_itf_ads_0000_0000_0020
 title: ADS_DEREFENUM (iads.h)
-
 description: The ADS_DEREFENUM enumeration specifies the process through which aliases are dereferenced.
 old-location: adsi\ads_derefenum.htm
 tech.root: adsi
 ms.assetid: 4cd080cc-59f9-48e8-93c1-1fccea0238ad
-
 ms.date: 12/05/2018
 ms.keywords: ADS_DEREFENUM, ADS_DEREFENUM enumeration [ADSI], ADS_DEREF_ALWAYS, ADS_DEREF_FINDING, ADS_DEREF_NEVER, ADS_DEREF_SEARCHING, _ds_ads_derefenum, adsi.ads__derefenum, adsi.ads_derefenum, iads/ADS_DEREFENUM, iads/ADS_DEREF_ALWAYS, iads/ADS_DEREF_FINDING, iads/ADS_DEREF_NEVER, iads/ADS_DEREF_SEARCHING
 ms.topic: enum
-f1_keywords: 
- - "iads/ADS_DEREFENUM"
+f1_keywords:
+- iads/ADS_DEREFENUM
 dev_langs:
- - c++
+- c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Iads.h
+- Iads.h
 api_name:
- - ADS_DEREFENUM
+- ADS_DEREFENUM
 targetos: Windows
 req.typenames: ADS_DEREFENUM
 req.redist: 

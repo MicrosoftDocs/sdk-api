@@ -1,19 +1,17 @@
 ---
 UID: NS:ntsecpkg._LSA_DISPATCH_TABLE
 title: LSA_DISPATCH_TABLE (ntsecpkg.h)
-
 description: Contains pointers to the Local Security Authority (LSA) functions that Windows authentication packages can call.
 old-location: security\lsa_dispatch_table.htm
 tech.root: SecAuthN
 ms.assetid: 2e144ce0-e8c9-457a-8b12-7d21dda6adf3
-
 ms.date: 12/05/2018
-ms.keywords: "*PLSA_DISPATCH_TABLE, LSA_DISPATCH_TABLE, LSA_DISPATCH_TABLE structure [Security], PLSA_DISPATCH_TABLE, PLSA_DISPATCH_TABLE structure pointer [Security], _LSA_DISPATCH_TABLE, _lsa_lsa_dispatch_table, ntsecpkg/LSA_DISPATCH_TABLE, ntsecpkg/PLSA_DISPATCH_TABLE, security.lsa_dispatch_table"
+ms.keywords: '*PLSA_DISPATCH_TABLE, LSA_DISPATCH_TABLE, LSA_DISPATCH_TABLE structure [Security], PLSA_DISPATCH_TABLE, PLSA_DISPATCH_TABLE structure pointer [Security], _LSA_DISPATCH_TABLE, _lsa_lsa_dispatch_table, ntsecpkg/LSA_DISPATCH_TABLE, ntsecpkg/PLSA_DISPATCH_TABLE, security.lsa_dispatch_table'
 ms.topic: struct
-f1_keywords: 
- - "ntsecpkg/LSA_DISPATCH_TABLE"
+f1_keywords:
+- ntsecpkg/LSA_DISPATCH_TABLE
 dev_langs:
- - c++
+- c++
 req.header: ntsecpkg.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Ntsecpkg.h
+- Ntsecpkg.h
 api_name:
- - LSA_DISPATCH_TABLE
+- LSA_DISPATCH_TABLE
 targetos: Windows
 req.typenames: LSA_DISPATCH_TABLE, *PLSA_DISPATCH_TABLE
 req.redist: 

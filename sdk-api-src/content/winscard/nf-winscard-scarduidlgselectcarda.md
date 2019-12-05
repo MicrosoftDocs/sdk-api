@@ -1,19 +1,17 @@
 ---
 UID: NF:winscard.SCardUIDlgSelectCardA
 title: SCardUIDlgSelectCardA function (winscard.h)
-
 description: Displays the smart card Select Card dialog box.
 old-location: security\scarduidlgselectcard.htm
 tech.root: SecAuthN
 ms.assetid: 68014e9e-0ea3-4032-8db5-c1887a1cc9ad
-
 ms.date: 12/05/2018
 ms.keywords: SCardUIDlgSelectCard, SCardUIDlgSelectCard function [Security], SCardUIDlgSelectCardA, SCardUIDlgSelectCardW, _smart_scarduidlgselectcard, security.scarduidlgselectcard, winscard/SCardUIDlgSelectCard, winscard/SCardUIDlgSelectCardA, winscard/SCardUIDlgSelectCardW
 ms.topic: function
-f1_keywords: 
- - "winscard/SCardUIDlgSelectCard"
+f1_keywords:
+- winscard/SCardUIDlgSelectCard
 dev_langs:
- - c++
+- c++
 req.header: winscard.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Scarddlg.lib
 req.dll: Scarddlg.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Scarddlg.dll
+- Scarddlg.dll
 api_name:
- - SCardUIDlgSelectCard
- - SCardUIDlgSelectCardA
- - SCardUIDlgSelectCardW
+- SCardUIDlgSelectCard
+- SCardUIDlgSelectCardA
+- SCardUIDlgSelectCardW
 targetos: Windows
 req.typenames: 
 req.redist: 

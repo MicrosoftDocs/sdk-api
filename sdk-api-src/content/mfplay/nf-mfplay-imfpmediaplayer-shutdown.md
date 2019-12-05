@@ -1,19 +1,17 @@
 ---
 UID: NF:mfplay.IMFPMediaPlayer.Shutdown
 title: IMFPMediaPlayer::Shutdown (mfplay.h)
-
 description: Shuts down the MFPlay player object and releases any resources the object is using.
 old-location: mf\imfpmediaplayer_shutdown.htm
 tech.root: medfound
 ms.assetid: c56b07b5-f595-4933-9af6-868fc8938849
-
 ms.date: 12/05/2018
 ms.keywords: IMFPMediaPlayer interface [Media Foundation],Shutdown method, IMFPMediaPlayer.Shutdown, IMFPMediaPlayer::Shutdown, Shutdown, Shutdown method [Media Foundation], Shutdown method [Media Foundation],IMFPMediaPlayer interface, mf.imfpmediaplayer_shutdown, mfplay/IMFPMediaPlayer::Shutdown
 ms.topic: method
-f1_keywords: 
- - "mfplay/IMFPMediaPlayer.Shutdown"
+f1_keywords:
+- mfplay/IMFPMediaPlayer.Shutdown
 dev_langs:
- - c++
+- c++
 req.header: mfplay.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfplay.h
+- mfplay.h
 api_name:
- - IMFPMediaPlayer.Shutdown
+- IMFPMediaPlayer.Shutdown
 targetos: Windows
 req.typenames: 
 req.redist: 

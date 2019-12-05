@@ -1,19 +1,17 @@
 ---
 UID: NS:wininet._INTERNET_BUFFERSA
 title: INTERNET_BUFFERSA (wininet.h)
-
 description: Contains both the data and header information.
 old-location: wininet\internet_buffers.htm
 tech.root: wininet
 ms.assetid: 9381184d-17f4-46ad-bd09-15c7e653d1b9
-
 ms.date: 12/05/2018
-ms.keywords: "*LPINTERNET_BUFFERSA, INTERNET_BUFFERS, INTERNET_BUFFERS structure [WinINet], INTERNET_BUFFERSA, INTERNET_BUFFERSW, LPINTERNET_BUFFERS, LPINTERNET_BUFFERS structure pointer [WinINet], _win32_internet_buffers, wininet.internet_buffers, wininet/ LPINTERNET_BUFFERS, wininet/INTERNET_BUFFERS, wininet/INTERNET_BUFFERSA, wininet/INTERNET_BUFFERSW"
+ms.keywords: '*LPINTERNET_BUFFERSA, INTERNET_BUFFERS, INTERNET_BUFFERS structure [WinINet], INTERNET_BUFFERSA, INTERNET_BUFFERSW, LPINTERNET_BUFFERS, LPINTERNET_BUFFERS structure pointer [WinINet], _win32_internet_buffers, wininet.internet_buffers, wininet/ LPINTERNET_BUFFERS, wininet/INTERNET_BUFFERS, wininet/INTERNET_BUFFERSA, wininet/INTERNET_BUFFERSW'
 ms.topic: struct
-f1_keywords: 
- - "wininet/INTERNET_BUFFERS"
+f1_keywords:
+- wininet/INTERNET_BUFFERS
 dev_langs:
- - c++
+- c++
 req.header: wininet.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wininet.h
+- Wininet.h
 api_name:
- - INTERNET_BUFFERS
- - INTERNET_BUFFERSA
- - INTERNET_BUFFERSW
+- INTERNET_BUFFERS
+- INTERNET_BUFFERSA
+- INTERNET_BUFFERSW
 targetos: Windows
 req.typenames: INTERNET_BUFFERSA, *LPINTERNET_BUFFERSA
 req.redist: 

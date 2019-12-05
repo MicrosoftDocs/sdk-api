@@ -1,19 +1,17 @@
 ---
 UID: NF:dbghelp.SymGetSymbolFileW
 title: SymGetSymbolFileW function (dbghelp.h)
-
 description: Locates a symbol file in the specified symbol path.
 old-location: base\symgetsymbolfile.htm
 tech.root: Debug
 ms.assetid: 8e78e0ef-e68c-4270-8c63-9513f3069ed0
-
 ms.date: 12/05/2018
 ms.keywords: SymGetSymbolFile, SymGetSymbolFile function, SymGetSymbolFileW, base.symgetsymbolfile, dbghelp/SymGetSymbolFile, dbghelp/SymGetSymbolFileW, sfDbg, sfImage, sfMpd, sfPdb
 ms.topic: function
-f1_keywords: 
- - "dbghelp/SymGetSymbolFile"
+f1_keywords:
+- dbghelp/SymGetSymbolFile
 dev_langs:
- - c++
+- c++
 req.header: dbghelp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Dbghelp.lib
 req.dll: Dbghelp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Dbghelp.dll
- - imagehlp.dll
+- Dbghelp.dll
+- imagehlp.dll
 api_name:
- - SymGetSymbolFile
- - SymGetSymbolFile
- - SymGetSymbolFileW
+- SymGetSymbolFile
+- SymGetSymbolFile
+- SymGetSymbolFileW
 targetos: Windows
 req.typenames: 
 req.redist: DbgHelp.dll 6.3 or later

@@ -1,19 +1,17 @@
 ---
 UID: NF:dvbsiparser.IIsdbSiParser2.GetCDT
 title: IIsdbSiParser2::GetCDT (dvbsiparser.h)
-
 description: Gets the common data table (CDT) from an Integrated Services Digital Broadcasting (ISDB) transport stream. A CDT contains data that is needed for receivers and stored in nonvolatile memory, such as company logos.
 old-location: mstv\iisdbsiparser2_getcdt.htm
 tech.root: mstv
 ms.assetid: c984a340-d31b-43a5-baac-323629002aab
-
 ms.date: 12/05/2018
 ms.keywords: GetCDT, GetCDT method [Microsoft TV Technologies], GetCDT method [Microsoft TV Technologies],IIsdbSiParser2 interface, IIsdbSiParser2 interface [Microsoft TV Technologies],GetCDT method, IIsdbSiParser2.GetCDT, IIsdbSiParser2::GetCDT, dvbsiparser/IIsdbSiParser2::GetCDT, mstv.iisdbsiparser2_getcdt
 ms.topic: method
-f1_keywords: 
- - "dvbsiparser/IIsdbSiParser2.GetCDT"
+f1_keywords:
+- dvbsiparser/IIsdbSiParser2.GetCDT
 dev_langs:
- - c++
+- c++
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dvbsiparser.h
+- dvbsiparser.h
 api_name:
- - IIsdbSiParser2.GetCDT
+- IIsdbSiParser2.GetCDT
 targetos: Windows
 req.typenames: 
 req.redist: 

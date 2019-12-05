@@ -1,19 +1,17 @@
 ---
 UID: NF:dbghelp.SymFindFileInPath
 title: SymFindFileInPath function (dbghelp.h)
-
 description: Locates a symbol file or executable image.
 old-location: base\symfindfileinpath.htm
 tech.root: Debug
 ms.assetid: f85d8cd9-958a-490a-b155-3a9abdeda922
-
 ms.date: 12/05/2018
 ms.keywords: SSRVOPT_DWORD, SSRVOPT_DWORDPTR, SSRVOPT_GUIDPTR, SymFindFileInPath, SymFindFileInPath function, SymFindFileInPathW, _win32_symfindfileinpath, base.symfindfileinpath, dbghelp/SymFindFileInPath, dbghelp/SymFindFileInPathW
 ms.topic: function
-f1_keywords: 
- - "dbghelp/SymFindFileInPath"
+f1_keywords:
+- dbghelp/SymFindFileInPath
 dev_langs:
- - c++
+- c++
 req.header: dbghelp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: DbgHelp.lib
 req.dll: DbgHelp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - DbgHelp.dll
- - imagehlp.dll
+- DbgHelp.dll
+- imagehlp.dll
 api_name:
- - SymFindFileInPath
- - SymFindFileInPath
- - SymFindFileInPathW
+- SymFindFileInPath
+- SymFindFileInPath
+- SymFindFileInPathW
 targetos: Windows
 req.typenames: 
 req.redist: DbgHelp.dll 5.1 or later

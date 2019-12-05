@@ -1,19 +1,17 @@
 ---
 UID: NF:propsys.PSPropertyBag_ReadStr
 title: PSPropertyBag_ReadStr function (propsys.h)
-
 description: Reads the string data value of a property in a property bag.
 old-location: properties\PSPropertyBag_ReadStr.htm
 tech.root: properties
 ms.assetid: 2E3E86D6-B070-49fc-AAF0-D6DCF0EA16B7
-
 ms.date: 12/05/2018
 ms.keywords: PSPropertyBag_ReadStr, PSPropertyBag_ReadStr function [Windows Properties], properties.PSPropertyBag_ReadStr, propsys/PSPropertyBag_ReadStr, shell.PSPropertyBag_ReadStr, shell_PSPropertyBag_ReadStr
 ms.topic: function
-f1_keywords: 
- - "propsys/PSPropertyBag_ReadStr"
+f1_keywords:
+- propsys/PSPropertyBag_ReadStr
 dev_langs:
- - c++
+- c++
 req.header: propsys.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Propsys.lib
 req.dll: Propsys.dll (version 6.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Propsys.dll
+- Propsys.dll
 api_name:
- - PSPropertyBag_ReadStr
+- PSPropertyBag_ReadStr
 targetos: Windows
 req.typenames: 
 req.redist: 

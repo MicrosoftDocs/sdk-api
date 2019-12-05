@@ -1,19 +1,17 @@
 ---
 UID: NF:imapi2.IDiscRecorder2Ex.GetByteAlignmentMask
 title: IDiscRecorder2Ex::GetByteAlignmentMask (imapi2.h)
-
 description: Retrieves the byte alignment mask for the device.
 old-location: imapi\idiscrecorder2ex_getbytealignmentmask.htm
 tech.root: imapi
 ms.assetid: 6a92efb1-4da8-4cf4-8011-b06a0f82a3eb
-
 ms.date: 12/05/2018
 ms.keywords: GetByteAlignmentMask, GetByteAlignmentMask method [IMAPI], GetByteAlignmentMask method [IMAPI],IDiscRecorder2Ex interface, IDiscRecorder2Ex interface [IMAPI],GetByteAlignmentMask method, IDiscRecorder2Ex.GetByteAlignmentMask, IDiscRecorder2Ex::GetByteAlignmentMask, imapi.idiscrecorder2ex_getbytealignmentmask, imapi2/IDiscRecorder2Ex::GetByteAlignmentMask
 ms.topic: method
-f1_keywords: 
- - "imapi2/IDiscRecorder2Ex.GetByteAlignmentMask"
+f1_keywords:
+- imapi2/IDiscRecorder2Ex.GetByteAlignmentMask
 dev_langs:
- - c++
+- c++
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - imapi2.h
+- imapi2.h
 api_name:
- - IDiscRecorder2Ex.GetByteAlignmentMask
+- IDiscRecorder2Ex.GetByteAlignmentMask
 targetos: Windows
 req.typenames: 
 req.redist: 

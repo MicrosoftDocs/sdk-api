@@ -1,19 +1,17 @@
 ---
 UID: NF:fwpmu.FwpmCalloutEnum0
 title: FwpmCalloutEnum0 function (fwpmu.h)
-
 description: Returns the next page of results from the callout enumerator.
 old-location: fwp\fwpmcalloutenum0_func.htm
 tech.root: fwp
 ms.assetid: 6e6667d2-7147-43ed-a2fd-91baad1eb296
-
 ms.date: 12/05/2018
 ms.keywords: FwpmCalloutEnum0, FwpmCalloutEnum0 function [Filtering], fwp.fwpmcalloutenum0_func, fwpmu/FwpmCalloutEnum0
 ms.topic: function
-f1_keywords: 
- - "fwpmu/FwpmCalloutEnum0"
+f1_keywords:
+- fwpmu/FwpmCalloutEnum0
 dev_langs:
- - c++
+- c++
 req.header: fwpmu.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Fwpuclnt.lib
 req.dll: Fwpuclnt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Fwpuclnt.dll
+- Fwpuclnt.dll
 api_name:
- - FwpmCalloutEnum0
+- FwpmCalloutEnum0
 targetos: Windows
 req.typenames: 
 req.redist: 

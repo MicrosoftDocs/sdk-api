@@ -1,19 +1,17 @@
 ---
 UID: NF:msi.MsiRemovePatchesA
 title: MsiRemovePatchesA function (msi.h)
-
 description: Removes one or more patches from a single product.
 old-location: setup\msiremovepatches.htm
 tech.root: Msi
 ms.assetid: c1d73e52-fd58-4895-822e-3ebc8fe12db7
-
 ms.date: 12/05/2018
 ms.keywords: INSTALLTYPE_SINGLE_INSTANCE, MsiRemovePatches, MsiRemovePatches function, MsiRemovePatchesA, MsiRemovePatchesW, msi/MsiRemovePatches, msi/MsiRemovePatchesA, msi/MsiRemovePatchesW, setup.msiremovepatches, setup.msiuninstallpatch
 ms.topic: function
-f1_keywords: 
- - "msi/MsiRemovePatches"
+f1_keywords:
+- msi/MsiRemovePatches
 dev_langs:
- - c++
+- c++
 req.header: msi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Msi.lib
 req.dll: Msi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Msi.dll
- - Ext-MS-Win-MSi-Misc-L1-1-0.dll
+- Msi.dll
+- Ext-MS-Win-MSi-Misc-L1-1-0.dll
 api_name:
- - MsiRemovePatches
- - MsiRemovePatchesA
- - MsiRemovePatchesW
+- MsiRemovePatches
+- MsiRemovePatchesA
+- MsiRemovePatchesW
 targetos: Windows
 req.typenames: 
 req.redist: 

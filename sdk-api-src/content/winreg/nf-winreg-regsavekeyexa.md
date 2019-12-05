@@ -1,19 +1,17 @@
 ---
 UID: NF:winreg.RegSaveKeyExA
 title: RegSaveKeyExA function (winreg.h)
-
 description: Saves the specified key and all of its subkeys and values to a registry file, in the specified format.
 old-location: base\regsavekeyex.htm
 tech.root: SysInfo
 ms.assetid: f93b4162-cac4-42f7-bfd4-9e23fff80a03
-
 ms.date: 12/05/2018
 ms.keywords: REG_LATEST_FORMAT, REG_NO_COMPRESSION, REG_STANDARD_FORMAT, RegSaveKeyEx, RegSaveKeyEx function, RegSaveKeyExA, RegSaveKeyExW, _win32_regsavekeyex, base.regsavekeyex, winreg/RegSaveKeyEx, winreg/RegSaveKeyExA, winreg/RegSaveKeyExW
 ms.topic: function
-f1_keywords: 
- - "winreg/RegSaveKeyEx"
+f1_keywords:
+- winreg/RegSaveKeyEx
 dev_langs:
- - c++
+- c++
 req.header: winreg.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,23 +30,23 @@ req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Advapi32.dll
- - API-MS-Win-Core-Localregistry-l1-1-0.dll
- - KernelBase.dll
- - API-MS-Win-Core-Registry-l1-1-0.dll
- - API-MS-Win-DownLevel-AdvApi32-l1-1-0.dll
- - API-MS-Win-DownLevel-AdvApi32-l1-1-1.dll
- - MinKernelBase.dll
- - api-ms-win-core-registry-l1-1-1.dll
+- Advapi32.dll
+- API-MS-Win-Core-Localregistry-l1-1-0.dll
+- KernelBase.dll
+- API-MS-Win-Core-Registry-l1-1-0.dll
+- API-MS-Win-DownLevel-AdvApi32-l1-1-0.dll
+- API-MS-Win-DownLevel-AdvApi32-l1-1-1.dll
+- MinKernelBase.dll
+- api-ms-win-core-registry-l1-1-1.dll
 api_name:
- - RegSaveKeyEx
- - RegSaveKeyExA
- - RegSaveKeyExW
+- RegSaveKeyEx
+- RegSaveKeyExA
+- RegSaveKeyExW
 targetos: Windows
 req.typenames: 
 req.redist: 

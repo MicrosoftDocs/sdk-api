@@ -1,19 +1,17 @@
 ---
 UID: NS:p2p.peer_node_info_tag
 title: PEER_NODE_INFO (p2p.h)
-
 description: The PEER_NODE_INFO structure contains information that is specific to a particular node in a peer graph.
 old-location: p2p\peer_node_info.htm
 tech.root: P2PSdk
 ms.assetid: 51cc6c27-91ca-4d02-95d6-207827450fd5
-
 ms.date: 12/05/2018
-ms.keywords: "*PPEER_NODE_INFO, PEER_NODE_INFO, PEER_NODE_INFO structure [Peer Networking], PPEER_NODE_INFO, PPEER_NODE_INFO structure pointer [Peer Networking], p2p.peer_node_info, p2p/PPEER_NODE_INFO, p2p/peer_node_info_tag"
+ms.keywords: '*PPEER_NODE_INFO, PEER_NODE_INFO, PEER_NODE_INFO structure [Peer Networking], PPEER_NODE_INFO, PPEER_NODE_INFO structure pointer [Peer Networking], p2p.peer_node_info, p2p/PPEER_NODE_INFO, p2p/peer_node_info_tag'
 ms.topic: struct
-f1_keywords: 
- - "p2p/PEER_NODE_INFO"
+f1_keywords:
+- p2p/PEER_NODE_INFO
 dev_langs:
- - c++
+- c++
 req.header: p2p.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - P2P.h
+- P2P.h
 api_name:
- - PEER_NODE_INFO
+- PEER_NODE_INFO
 targetos: Windows
 req.typenames: PEER_NODE_INFO, *PPEER_NODE_INFO
 req.redist: 

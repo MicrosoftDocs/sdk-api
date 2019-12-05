@@ -1,19 +1,17 @@
 ---
 UID: NF:bits2_5.IBackgroundCopyJobHttpOptions.GetSecurityFlags
 title: IBackgroundCopyJobHttpOptions::GetSecurityFlags (bits2_5.h)
-
 description: Retrieves the flags for HTTP that determine whether the certificate revocation list is checked and certain certificate errors are ignored, and the policy to use when a server redirects the HTTP request.
 old-location: bits\ibackgroundcopyjobhttpoptions_getsecurityflags.htm
 tech.root: Bits
 ms.assetid: 75104dca-086e-45f6-ad9e-a96730b37433
-
 ms.date: 12/05/2018
 ms.keywords: BG_HTTP_REDIRECT_POLICY_ALLOW_HTTPS_TO_HTTP, BG_HTTP_REDIRECT_POLICY_ALLOW_REPORT, BG_HTTP_REDIRECT_POLICY_ALLOW_SILENT, BG_HTTP_REDIRECT_POLICY_DISALLOW, BG_HTTP_REDIRECT_POLICY_MASK, BG_SSL_ENABLE_CRL_CHECK, BG_SSL_IGNORE_CERT_CN_INVALID, BG_SSL_IGNORE_CERT_DATE_INVALID, BG_SSL_IGNORE_CERT_WRONG_USAGE, BG_SSL_IGNORE_UNKNOWN_CA, GetSecurityFlags, GetSecurityFlags method [BITS], GetSecurityFlags method [BITS],IBackgroundCopyJobHttpOptions interface, IBackgroundCopyJobHttpOptions interface [BITS],GetSecurityFlags method, IBackgroundCopyJobHttpOptions.GetSecurityFlags, IBackgroundCopyJobHttpOptions::GetSecurityFlags, bits.ibackgroundcopyjobhttpoptions_getsecurityflags, bits2_5/IBackgroundCopyJobHttpOptions::GetSecurityFlags
 ms.topic: method
-f1_keywords: 
- - "bits2_5/IBackgroundCopyJobHttpOptions.GetSecurityFlags"
+f1_keywords:
+- bits2_5/IBackgroundCopyJobHttpOptions.GetSecurityFlags
 dev_langs:
- - c++
+- c++
 req.header: bits2_5.h
 req.include-header: Bits.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Bits.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Bits.lib
- - Bits.dll
+- Bits.lib
+- Bits.dll
 api_name:
- - IBackgroundCopyJobHttpOptions.GetSecurityFlags
+- IBackgroundCopyJobHttpOptions.GetSecurityFlags
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:directxmath.XMVectorATanEst
 title: XMVectorATanEst function (directxmath.h)
-
 description: Estimates the arctangent of each component of an XMVECTOR.
 old-location: dxmath\xmvectoratanest.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.transcendental.XMVectorATanEst(XMVECTOR)
-
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMVectorATanEst, XMVectorATanEst, XMVectorATanEst method [DirectX Math Support APIs], dxmath.xmvectoratanest
 ms.topic: function
-f1_keywords: 
- - "directxmath/XMVectorATanEst"
+f1_keywords:
+- directxmath/XMVectorATanEst
 dev_langs:
- - c++
+- c++
 req.header: directxmath.h
 req.include-header: DirectXMath.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - directxmathvector.inl
+- directxmathvector.inl
 api_name:
- - XMVectorATanEst
+- XMVectorATanEst
 targetos: Windows
 req.typenames: 
 req.redist: 

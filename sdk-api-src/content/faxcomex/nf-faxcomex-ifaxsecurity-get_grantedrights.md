@@ -1,19 +1,17 @@
 ---
 UID: NF:faxcomex.IFaxSecurity.get_GrantedRights
 title: IFaxSecurity::get_GrantedRights (faxcomex.h)
-
 description: The IFaxSecurity::get_GrantedRights property is a combination of the fax server access rights granted to the user referencing this property.
 old-location: fax\_mfax_faxsecurity_cpp_mfax_faxsecurity_grantedrights_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_4wab.htm
-
 ms.date: 12/05/2018
 ms.keywords: GrantedRights property [Fax Service], GrantedRights property [Fax Service],IFaxSecurity interface, IFaxSecurity interface [Fax Service],GrantedRights property, IFaxSecurity.GrantedRights, IFaxSecurity.get_GrantedRights, IFaxSecurity::GrantedRights, IFaxSecurity::get_GrantedRights, _mfax_faxsecurity.grantedrights, fax._mfax_faxsecurity_cpp_mfax_faxsecurity_grantedrights_cpp, fax._mfax_faxsecurity_grantedrights, faxcomex/IFaxSecurity::GrantedRights, faxcomex/IFaxSecurity::get_GrantedRights, get_GrantedRights
 ms.topic: method
-f1_keywords: 
- - "faxcomex/IFaxSecurity.GrantedRights"
+f1_keywords:
+- faxcomex/IFaxSecurity.GrantedRights
 dev_langs:
- - c++
+- c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: Fxscomex.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Fxscomex.dll
+- Fxscomex.dll
 api_name:
- - IFaxSecurity.GrantedRights
- - IFaxSecurity.get_GrantedRights
- - IFaxSecurity.get_GrantedRights
+- IFaxSecurity.GrantedRights
+- IFaxSecurity.get_GrantedRights
+- IFaxSecurity.get_GrantedRights
 targetos: Windows
 req.typenames: 
 req.redist: 

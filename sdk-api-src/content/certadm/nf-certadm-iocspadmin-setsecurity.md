@@ -1,19 +1,17 @@
 ---
 UID: NF:certadm.IOCSPAdmin.SetSecurity
 title: IOCSPAdmin::SetSecurity (certadm.h)
-
 description: Updates security descriptor information for an Online Certificate Status Protocol (OCSP) responder server.
 old-location: security\iocspadmin_setsecurity.htm
 tech.root: SecCrypto
 ms.assetid: 7ff94496-4347-4c08-8c71-0c53af902d9d
-
 ms.date: 12/05/2018
 ms.keywords: IOCSPAdmin interface [Security],SetSecurity method, IOCSPAdmin.SetSecurity, IOCSPAdmin::SetSecurity, SetSecurity, SetSecurity method [Security], SetSecurity method [Security],IOCSPAdmin interface, certadm/IOCSPAdmin::SetSecurity, security.iocspadmin_setsecurity
 ms.topic: method
-f1_keywords: 
- - "certadm/IOCSPAdmin.SetSecurity"
+f1_keywords:
+- certadm/IOCSPAdmin.SetSecurity
 dev_langs:
- - c++
+- c++
 req.header: certadm.h
 req.include-header: Certsrv.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Certadm.lib
 req.dll: Certadm.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Certadm.dll
+- Certadm.dll
 api_name:
- - IOCSPAdmin.SetSecurity
+- IOCSPAdmin.SetSecurity
 targetos: Windows
 req.typenames: 
 req.redist: 

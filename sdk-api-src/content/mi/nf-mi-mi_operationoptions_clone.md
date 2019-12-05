@@ -1,19 +1,17 @@
 ---
 UID: NF:mi.MI_OperationOptions_Clone
 title: MI_OperationOptions_Clone function (mi.h)
-
 description: Creates a copy of a MI_OperationOptions structure.
 old-location: wmi_v2\mi_operationoptions_clone.htm
 tech.root: wmi_v2
 ms.assetid: 22cce14f-55f0-4d31-a6cf-ea5e0a733d68
-
 ms.date: 12/05/2018
 ms.keywords: MI_OperationOptions_Clone, MI_OperationOptions_Clone function [Windows Management Infrastructure (MI)], mi/MI_OperationOptions_Clone, wmi_v2.mi_operationoptions_clone
 ms.topic: function
 f1_keywords:
 - mi/MI_OperationOptions_Clone
 dev_langs:
- - c++
+- c++
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows

@@ -3,14 +3,13 @@ UID: NF:gdipluspath.GraphicsPath.IsOutlineVisible(IN const PointF &,IN const Pen
 title: GraphicsPath::IsOutlineVisible
 description: The GraphicsPath::IsOutlineVisible method determines whether a specified point touches the outline of a path.
 ms.assetid: f80b0cd2-0c6c-4fa9-9567-5383750689e8
-
 ms.date: 05/13/2019
 ms.keywords: GraphicsPath::IsOutlineVisible
 ms.topic: language-reference
-f1_keywords: 
- - "gdipluspath/GraphicsPath::IsOutlineVisible"
+f1_keywords:
+- gdipluspath/GraphicsPath::IsOutlineVisible
 dev_langs:
- - c++
+- c++
 targetos: Windows
 req.assembly: 
 req.construct-type: function
@@ -32,13 +31,13 @@ req.type-library:
 req.umdf-ver: 
 req.unicode-ansi: 
 topic_type:
- - apiref
+- apiref
 api_type:
- - COM
+- COM
 api_location:
- - gdipluspath.h
+- gdipluspath.h
 api_name:
- - GraphicsPath::IsOutlineVisible
+- GraphicsPath::IsOutlineVisible
 ---
 
 # GraphicsPath::IsOutlineVisible

@@ -1,19 +1,17 @@
 ---
 UID: NN:storageprovider.IStorageProviderHandler
 title: IStorageProviderHandler (storageprovider.h)
-
 description: Retrieves the IStorageProviderPropertyHandler associated with a specific file or folder.
 old-location: shell\istorageproviderhandler.htm
 tech.root: shell
 ms.assetid: 96DEA181-8506-4FCC-85E0-A2EF79BA6C6D
-
 ms.date: 12/05/2018
 ms.keywords: IStorageProviderHandler, IStorageProviderHandler interface [Windows Shell], IStorageProviderHandler interface [Windows Shell],described, shell.istorageproviderhandler, storageprovider/IStorageProviderHandler
 ms.topic: interface
-f1_keywords: 
- - "storageprovider/IStorageProviderHandler"
+f1_keywords:
+- storageprovider/IStorageProviderHandler
 dev_langs:
- - c++
+- c++
 req.header: storageprovider.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - storageprovider.h
+- storageprovider.h
 api_name:
- - IStorageProviderHandler
+- IStorageProviderHandler
 targetos: Windows
 req.typenames: 
 req.redist: 

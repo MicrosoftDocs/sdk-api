@@ -1,19 +1,17 @@
 ---
 UID: NS:winhttp.__unnamed_struct_0
 title: WINHTTP_ASYNC_RESULT (winhttp.h)
-
 description: The WINHTTP_ASYNC_RESULT structure contains the result of a call to an asynchronous function. This structure is used with the WINHTTP_STATUS_CALLBACK prototype.
 old-location: http\winhttp_async_result.htm
 tech.root: WinHttp
 ms.assetid: 31544ef1-2532-4e44-8747-7a693cef9ccd
-
 ms.date: 12/05/2018
-ms.keywords: "*LPWINHTTP_ASYNC_RESULT, API_QUERY_DATA_AVAILABLE, API_READ_DATA, API_RECEIVE_RESPONSE, API_SEND_REQUEST, API_WRITE_DATA, WINHTTP_ASYNC_RESULT, WINHTTP_ASYNC_RESULT structure [HTTP], http.winhttp_async_result, winhttp.winhttp_async_result_structure, winhttp/WINHTTP_ASYNC_RESULT"
+ms.keywords: '*LPWINHTTP_ASYNC_RESULT, API_QUERY_DATA_AVAILABLE, API_READ_DATA, API_RECEIVE_RESPONSE, API_SEND_REQUEST, API_WRITE_DATA, WINHTTP_ASYNC_RESULT, WINHTTP_ASYNC_RESULT structure [HTTP], http.winhttp_async_result, winhttp.winhttp_async_result_structure, winhttp/WINHTTP_ASYNC_RESULT'
 ms.topic: struct
-f1_keywords: 
- - "winhttp/WINHTTP_ASYNC_RESULT"
+f1_keywords:
+- winhttp/WINHTTP_ASYNC_RESULT
 dev_langs:
- - c++
+- c++
 req.header: winhttp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Winhttp.h
+- Winhttp.h
 api_name:
- - WINHTTP_ASYNC_RESULT
+- WINHTTP_ASYNC_RESULT
 targetos: Windows
 req.typenames: WINHTTP_ASYNC_RESULT, *LPWINHTTP_ASYNC_RESULT
 req.redist: WinHTTP 5.0 and Internet Explorer 5.01 or later on Windows XP and Windows 2000.

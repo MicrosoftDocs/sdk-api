@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IAMVfwCompressDialogs.SendDriverMessage
 title: IAMVfwCompressDialogs::SendDriverMessage (strmif.h)
-
 description: The SendDriverMessage method sends a driver-specific message.
 old-location: dshow\iamvfwcompressdialogs_senddrivermessage.htm
 tech.root: DirectShow
 ms.assetid: b1558888-a8aa-416a-bb5b-a33a66dcb913
-
 ms.date: 12/05/2018
 ms.keywords: IAMVfwCompressDialogs interface [DirectShow],SendDriverMessage method, IAMVfwCompressDialogs.SendDriverMessage, IAMVfwCompressDialogs::SendDriverMessage, IAMVfwCompressDialogsSendDriverMessage, SendDriverMessage, SendDriverMessage method [DirectShow], SendDriverMessage method [DirectShow],IAMVfwCompressDialogs interface, dshow.iamvfwcompressdialogs_senddrivermessage, strmif/IAMVfwCompressDialogs::SendDriverMessage
 ms.topic: method
-f1_keywords: 
- - "strmif/IAMVfwCompressDialogs.SendDriverMessage"
+f1_keywords:
+- strmif/IAMVfwCompressDialogs.SendDriverMessage
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IAMVfwCompressDialogs.SendDriverMessage
+- IAMVfwCompressDialogs.SendDriverMessage
 targetos: Windows
 req.typenames: 
 req.redist: 

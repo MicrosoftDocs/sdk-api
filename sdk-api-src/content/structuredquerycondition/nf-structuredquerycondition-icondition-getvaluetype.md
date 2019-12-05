@@ -1,19 +1,17 @@
 ---
 UID: NF:structuredquerycondition.ICondition.GetValueType
 title: ICondition::GetValueType (structuredquerycondition.h)
-
 description: Retrieves the semantic type of the value of the search condition node.
 old-location: search\_search_ICondition_GetValueType.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\icondition\getvaluetype.htm
-
 ms.date: 12/05/2018
 ms.keywords: GetValueType, GetValueType method [search], GetValueType method [search],ICondition interface, ICondition interface [search],GetValueType method, ICondition.GetValueType, ICondition::GetValueType, _search_ICondition_GetValueType, search._search_ICondition_GetValueType, structuredquerycondition/ICondition::GetValueType
 ms.topic: method
-f1_keywords: 
- - "structuredquerycondition/ICondition.GetValueType"
+f1_keywords:
+- structuredquerycondition/ICondition.GetValueType
 dev_langs:
- - c++
+- c++
 req.header: structuredquerycondition.h
 req.include-header: Structuredquery.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - structuredquerycondition.h
+- structuredquerycondition.h
 api_name:
- - ICondition.GetValueType
+- ICondition.GetValueType
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0

@@ -1,19 +1,17 @@
 ---
 UID: NF:identityprovider.IConnectedIdentityProvider.GetUrl
 title: IConnectedIdentityProvider::GetUrl (identityprovider.h)
-
 description: Returns the URL string for the specified wizard or webpage.
 old-location: security\iconnectedidentityprovider_geturl.htm
 tech.root: SecAuthN
 ms.assetid: 623A9AE8-D838-4F00-B81E-35031ADB67F5
-
 ms.date: 12/05/2018
 ms.keywords: GetUrl, GetUrl method [Security], GetUrl method [Security],IConnectedIdentityProvider interface, IConnectedIdentityProvider interface [Security],GetUrl method, IConnectedIdentityProvider.GetUrl, IConnectedIdentityProvider::GetUrl, identityprovider/IConnectedIdentityProvider::GetUrl, security.iconnectedidentityprovider_geturl
 ms.topic: method
-f1_keywords: 
- - "identityprovider/IConnectedIdentityProvider.GetUrl"
+f1_keywords:
+- identityprovider/IConnectedIdentityProvider.GetUrl
 dev_langs:
- - c++
+- c++
 req.header: identityprovider.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Identityprovider.h
+- Identityprovider.h
 api_name:
- - IConnectedIdentityProvider.GetUrl
+- IConnectedIdentityProvider.GetUrl
 targetos: Windows
 req.typenames: 
 req.redist: 

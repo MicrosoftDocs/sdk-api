@@ -1,19 +1,17 @@
 ---
 UID: NF:appxpackaging.IAppxPackageEditor.UpdateEncryptedPackage
 title: IAppxPackageEditor::UpdateEncryptedPackage (appxpackaging.h)
-
 description: Updates an encrypted app package.
 old-location: appxpkg\iappxpackageeditor_updateencryptedpackage.htm
 tech.root: appxpkg
 ms.assetid: 4D5E2F4B-00CE-4A0A-A514-3B66EC3065ED
-
 ms.date: 12/05/2018
 ms.keywords: IAppxPackageEditor interface [App packaging and management],UpdateEncryptedPackage method, IAppxPackageEditor.UpdateEncryptedPackage, IAppxPackageEditor::UpdateEncryptedPackage, UpdateEncryptedPackage, UpdateEncryptedPackage method [App packaging and management], UpdateEncryptedPackage method [App packaging and management],IAppxPackageEditor interface, appxpackaging/IAppxPackageEditor::UpdateEncryptedPackage, appxpkg.iappxpackageeditor_updateencryptedpackage
 ms.topic: method
-f1_keywords: 
- - "appxpackaging/IAppxPackageEditor.UpdateEncryptedPackage"
+f1_keywords:
+- appxpackaging/IAppxPackageEditor.UpdateEncryptedPackage
 dev_langs:
- - c++
+- c++
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - AppxPackaging.h
+- AppxPackaging.h
 api_name:
- - IAppxPackageEditor.UpdateEncryptedPackage
+- IAppxPackageEditor.UpdateEncryptedPackage
 targetos: Windows
 req.typenames: 
 req.redist: 

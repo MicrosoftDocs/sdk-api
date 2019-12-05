@@ -1,19 +1,17 @@
 ---
 UID: NF:mobsync.ISyncMgrSynchronize.SetProgressCallback
 title: ISyncMgrSynchronize::SetProgressCallback (mobsync.h)
-
 description: Sets the ISyncMgrSynchronizeCallback interface. Registered applications use this callback interface to give status information from within the ISyncMgrSynchronize::PrepareForSync and ISyncMgrSynchronize::Synchronize methods.
 old-location: shell\syncmgr_isyncmgrsynchronize_setprogresscallback.htm
 tech.root: shell
 ms.assetid: 193926e8-824c-4969-9707-e2d95961c242
-
 ms.date: 12/05/2018
 ms.keywords: ISyncMgrSynchronize interface [Windows Shell],SetProgressCallback method, ISyncMgrSynchronize.SetProgressCallback, ISyncMgrSynchronize::SetProgressCallback, SetProgressCallback, SetProgressCallback method [Windows Shell], SetProgressCallback method [Windows Shell],ISyncMgrSynchronize interface, mobsync/ISyncMgrSynchronize::SetProgressCallback, shell.syncmgr_isyncmgrsynchronize_setprogresscallback, syncmgr.isyncmgrsynchronize_setprogresscallback
 ms.topic: method
-f1_keywords: 
- - "mobsync/ISyncMgrSynchronize.SetProgressCallback"
+f1_keywords:
+- mobsync/ISyncMgrSynchronize.SetProgressCallback
 dev_langs:
- - c++
+- c++
 req.header: mobsync.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Mobsync.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mobsync.dll
+- Mobsync.dll
 api_name:
- - ISyncMgrSynchronize.SetProgressCallback
+- ISyncMgrSynchronize.SetProgressCallback
 targetos: Windows
 req.typenames: 
 req.redist: 

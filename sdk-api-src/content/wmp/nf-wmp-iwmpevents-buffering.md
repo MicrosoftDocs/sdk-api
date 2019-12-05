@@ -1,19 +1,17 @@
 ---
 UID: NF:wmp.IWMPEvents.Buffering
 title: IWMPEvents::Buffering (wmp.h)
-
 description: The Buffering event occurs when the Windows Media Player control begins or ends buffering.
 old-location: wmp\iwmpevents_iwmpevents__buffering.htm
 tech.root: WMP
 ms.assetid: 3e379c92-b400-48ad-a3d3-82ed3cd3f396
-
 ms.date: 12/05/2018
 ms.keywords: Buffering, Buffering method [Windows Media Player], Buffering method [Windows Media Player],IWMPEvents interface, IWMPEvents interface [Windows Media Player],Buffering method, IWMPEvents.Buffering, IWMPEvents::Buffering, IWMPEventsBuffering, wmp.iwmpevents_iwmpevents__buffering, wmp/IWMPEvents::Buffering
 ms.topic: method
-f1_keywords: 
- - "wmp/IWMPEvents.Buffering"
+f1_keywords:
+- wmp/IWMPEvents.Buffering
 dev_langs:
- - c++
+- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wmp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmp.dll
+- wmp.dll
 api_name:
- - IWMPEvents.Buffering
+- IWMPEvents.Buffering
 targetos: Windows
 req.typenames: 
 req.redist: 

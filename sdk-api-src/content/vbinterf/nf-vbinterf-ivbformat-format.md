@@ -1,19 +1,17 @@
 ---
 UID: NF:vbinterf.IVBFormat.Format
 title: IVBFormat::Format (vbinterf.h)
-
 description: Formats a string according to a pattern.
 old-location: com\ivbformat_format.htm
 tech.root: com
 ms.assetid: 62200cb0-3704-4caf-9152-1b7b0c43856a
-
 ms.date: 12/05/2018
 ms.keywords: Format, Format method [COM], Format method [COM],IVBFormat interface, IVBFormat interface [COM],Format method, IVBFormat.Format, IVBFormat::Format, _com_IVBFormat_Format, com.ivbformat_format, vbFirstFourDays, vbFirstFullWeek, vbFirstJan1, vbFriday, vbMonday, vbSaturday, vbSunday, vbThursday, vbTuesday, vbUseSystem, vbWednesday, vbinterf/IVBFormat::Format
 ms.topic: method
-f1_keywords: 
- - "vbinterf/IVBFormat.Format"
+f1_keywords:
+- vbinterf/IVBFormat.Format
 dev_langs:
- - c++
+- c++
 req.header: vbinterf.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - VbInterf.h
+- VbInterf.h
 api_name:
- - IVBFormat.Format
+- IVBFormat.Format
 targetos: Windows
 req.typenames: 
 req.redist: 

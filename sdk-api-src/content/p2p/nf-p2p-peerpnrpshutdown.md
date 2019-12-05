@@ -1,19 +1,17 @@
 ---
 UID: NF:p2p.PeerPnrpShutdown
 title: PeerPnrpShutdown function (p2p.h)
-
 description: Shuts down a running instance of the Peer Name Resolution Protocol (PNRP) service and releases all resources associated with it.
 old-location: p2p\peerpnrpshutdown.htm
 tech.root: P2PSdk
 ms.assetid: e617fb5b-ace2-46b4-b165-4cd9cf891ac7
-
 ms.date: 12/05/2018
 ms.keywords: PeerPnrpShutdown, PeerPnrpShutdown function [Peer Networking], p2p.peerpnrpshutdown, p2p/PeerPnrpShutdown
 ms.topic: function
-f1_keywords: 
- - "p2p/PeerPnrpShutdown"
+f1_keywords:
+- p2p/PeerPnrpShutdown
 dev_langs:
- - c++
+- c++
 req.header: p2p.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: P2P.lib
 req.dll: P2P.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - P2P.dll
+- P2P.dll
 api_name:
- - PeerPnrpShutdown
+- PeerPnrpShutdown
 targetos: Windows
 req.typenames: 
 req.redist: 

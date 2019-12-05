@@ -1,19 +1,17 @@
 ---
 UID: NF:dxgidebug.IDXGIInfoQueue.GetStorageFilter
 title: IDXGIInfoQueue::GetStorageFilter (dxgidebug.h)
-
 description: Gets the storage filter at the top of the storage-filter stack.
 old-location: direct3ddxgi\idxgiinfoqueue_getstoragefilter.htm
 tech.root: direct3ddxgi
 ms.assetid: C0709ECD-94CC-4745-A811-4180EC763CFC
-
 ms.date: 12/05/2018
 ms.keywords: GetStorageFilter, GetStorageFilter method [DXGI], GetStorageFilter method [DXGI],IDXGIInfoQueue interface, IDXGIInfoQueue interface [DXGI],GetStorageFilter method, IDXGIInfoQueue.GetStorageFilter, IDXGIInfoQueue::GetStorageFilter, direct3ddxgi.idxgiinfoqueue_getstoragefilter, dxgidebug/IDXGIInfoQueue::GetStorageFilter
 ms.topic: method
-f1_keywords: 
- - "dxgidebug/IDXGIInfoQueue.GetStorageFilter"
+f1_keywords:
+- dxgidebug/IDXGIInfoQueue.GetStorageFilter
 dev_langs:
- - c++
+- c++
 req.header: dxgidebug.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: DXGIDebug.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - DXGIDebug.dll
+- DXGIDebug.dll
 api_name:
- - IDXGIInfoQueue.GetStorageFilter
+- IDXGIInfoQueue.GetStorageFilter
 targetos: Windows
 req.typenames: 
 req.redist: 

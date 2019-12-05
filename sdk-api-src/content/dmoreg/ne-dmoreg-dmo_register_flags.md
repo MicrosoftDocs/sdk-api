@@ -1,19 +1,17 @@
 ---
 UID: NE:dmoreg.DMO_REGISTER_FLAGS
 title: DMO_REGISTER_FLAGS (dmoreg.h)
-
 description: The DMO_REGISTER_FLAGS enumeration defines flags that specify registry information for a Microsoft DirectX Media Object (DMO).
 old-location: dshow\dmo_register_flags.htm
 tech.root: DirectShow
 ms.assetid: 472be505-a13c-4612-b799-1e9add3ee3fc
-
 ms.date: 12/05/2018
 ms.keywords: DMO_REGISTERF_IS_KEYED, DMO_REGISTER_FLAGS, DMO_REGISTER_FLAGS enumeration [DirectShow], DMO_REGISTER_FLAGSEnumeration, dmoreg/DMO_REGISTERF_IS_KEYED, dmoreg/DMO_REGISTER_FLAGS, dshow.dmo_register_flags
 ms.topic: enum
-f1_keywords: 
- - "dmoreg/DMO_REGISTER_FLAGS"
+f1_keywords:
+- dmoreg/DMO_REGISTER_FLAGS
 dev_langs:
- - c++
+- c++
 req.header: dmoreg.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Dmoreg.h
+- Dmoreg.h
 api_name:
- - DMO_REGISTER_FLAGS
+- DMO_REGISTER_FLAGS
 targetos: Windows
 req.typenames: 
 req.redist: 

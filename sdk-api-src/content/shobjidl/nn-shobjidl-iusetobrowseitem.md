@@ -1,19 +1,17 @@
 ---
 UID: NN:shobjidl.IUseToBrowseItem
 title: IUseToBrowseItem (shobjidl.h)
-
 description: This interface is not supported. Do not use.
 old-location: shell\IUseToBrowseItem.htm
 tech.root: shell
 ms.assetid: 12dfe612-d5b9-438f-aaa2-e52ebc3d6ebc
-
 ms.date: 12/05/2018
 ms.keywords: IUseToBrowseItem, IUseToBrowseItem interface [Windows Shell], IUseToBrowseItem interface [Windows Shell],described, _shell_IUseToBrowseItem, shell.IUseToBrowseItem, shobjidl/IUseToBrowseItem
 ms.topic: interface
-f1_keywords: 
- - "shobjidl/IUseToBrowseItem"
+f1_keywords:
+- shobjidl/IUseToBrowseItem
 dev_langs:
- - c++
+- c++
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl.h
+- shobjidl.h
 api_name:
- - IUseToBrowseItem
+- IUseToBrowseItem
 targetos: Windows
 req.typenames: 
 req.redist: 

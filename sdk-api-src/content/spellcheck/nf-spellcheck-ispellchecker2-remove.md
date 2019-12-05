@@ -1,19 +1,17 @@
 ---
 UID: NF:spellcheck.ISpellChecker2.Remove
 title: ISpellChecker2::Remove (spellcheck.h)
-
 description: Removes a word that was previously added by ISpellChecker.Add, or set by ISpellChecker.Ignore to be ignored.
 old-location: intl\ispellchecker2_remove.htm
 tech.root: Intl
 ms.assetid: 425F1C58-D279-48E2-84D3-D3094314C756
-
 ms.date: 12/05/2018
 ms.keywords: ISpellChecker2 interface [Internationalization for Windows Applications],Remove method, ISpellChecker2.Remove, ISpellChecker2::Remove, Remove, Remove method [Internationalization for Windows Applications], Remove method [Internationalization for Windows Applications],ISpellChecker2 interface, intl.ispellchecker2_remove, spellcheck/ISpellChecker2::Remove
 ms.topic: method
-f1_keywords: 
- - "spellcheck/ISpellChecker2.Remove"
+f1_keywords:
+- spellcheck/ISpellChecker2.Remove
 dev_langs:
- - c++
+- c++
 req.header: spellcheck.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Spellcheck.h
+- Spellcheck.h
 api_name:
- - ISpellChecker2.Remove
+- ISpellChecker2.Remove
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:searchapi.ISearchNotifyInlineSite.OnItemIndexedStatusChange
 title: ISearchNotifyInlineSite::OnItemIndexedStatusChange (searchapi.h)
-
 description: Called by the search service to notify the client when the status of a particular document or item changes.
 old-location: search\_search_ISearchNotifyInlineSite_OnItemIndexedStatusChange.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\notifications\isearchnotifyinlinesite\onitemindexedstatuschange.htm
-
 ms.date: 12/05/2018
 ms.keywords: ISearchNotifyInlineSite interface [search],OnItemIndexedStatusChange method, ISearchNotifyInlineSite.OnItemIndexedStatusChange, ISearchNotifyInlineSite::OnItemIndexedStatusChange, OnItemIndexedStatusChange, OnItemIndexedStatusChange method [search], OnItemIndexedStatusChange method [search],ISearchNotifyInlineSite interface, _search_ISearchNotifyInlineSite_OnItemIndexedStatusChange, search._search_ISearchNotifyInlineSite_OnItemIndexedStatusChange, searchapi/ISearchNotifyInlineSite::OnItemIndexedStatusChange
 ms.topic: method
 f1_keywords:
 - searchapi/ISearchNotifyInlineSite.OnItemIndexedStatusChange
 dev_langs:
- - c++
+- c++
 req.header: searchapi.h
 req.include-header: 
 req.target-type: Windows

@@ -1,19 +1,17 @@
 ---
 UID: NF:wmsdkidl.IWMSyncReader2.SetAllocateForStream
 title: IWMSyncReader2::SetAllocateForStream (wmsdkidl.h)
-
 description: The SetAllocateForStream method sets a sample allocation callback interface for allocating stream samples.
 old-location: wmformat\iwmsyncreader2_setallocateforstream.htm
 tech.root: wmformat
 ms.assetid: ed94977e-e930-4045-a69d-36109e7e21c9
-
 ms.date: 12/05/2018
 ms.keywords: IWMSyncReader2 interface [windows Media Format],SetAllocateForStream method, IWMSyncReader2.SetAllocateForStream, IWMSyncReader2::SetAllocateForStream, IWMSyncReader2SetAllocateForStream, SetAllocateForStream, SetAllocateForStream method [windows Media Format], SetAllocateForStream method [windows Media Format],IWMSyncReader2 interface, wmformat.iwmsyncreader2_setallocateforstream, wmsdkidl/IWMSyncReader2::SetAllocateForStream
 ms.topic: method
-f1_keywords: 
- - "wmsdkidl/IWMSyncReader2.SetAllocateForStream"
+f1_keywords:
+- wmsdkidl/IWMSyncReader2.SetAllocateForStream
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wmvcore.lib
- - Wmvcore.dll
- - WMStubDRM.lib
- - WMStubDRM.dll
+- Wmvcore.lib
+- Wmvcore.dll
+- WMStubDRM.lib
+- WMStubDRM.dll
 api_name:
- - IWMSyncReader2.SetAllocateForStream
+- IWMSyncReader2.SetAllocateForStream
 targetos: Windows
 req.typenames: 
 req.redist: 

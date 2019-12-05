@@ -1,19 +1,17 @@
 ---
 UID: NE:cmdtree.DBCOMMANDREUSEENUM
 title: DBCOMMANDREUSEENUM (cmdtree.h)
-
 description: The DBCOMMANDREUSEENUM enumerated type specifies whether a state from the previous command is retained.
 old-location: indexsrv\dbcommandreuseenum.htm
 tech.root: IndexSrv
 ms.assetid: VS|indexsrv|~\html\ixoledb_71v1.htm
-
 ms.date: 12/05/2018
 ms.keywords: DBCOMMANDREUSEENUM, DBCOMMANDREUSEENUM enumeration [Indexing Service], DBCOMMANDREUSE_NONE, DBCOMMANDREUSE_PARAMETERS, DBCOMMANDREUSE_PROPERTIES, _idxs_DBCOMMANDREUSEENUM, cmdtree/DBCOMMANDREUSEENUM, cmdtree/DBCOMMANDREUSE_NONE, cmdtree/DBCOMMANDREUSE_PARAMETERS, cmdtree/DBCOMMANDREUSE_PROPERTIES, indexsrv.dbcommandreuseenum
 ms.topic: enum
-f1_keywords: 
- - "cmdtree/DBCOMMANDREUSEENUM"
+f1_keywords:
+- cmdtree/DBCOMMANDREUSEENUM
 dev_langs:
- - c++
+- c++
 req.header: cmdtree.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - cmdtree.h
+- cmdtree.h
 api_name:
- - DBCOMMANDREUSEENUM
+- DBCOMMANDREUSEENUM
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:winnt.PreFetchCacheLine
 title: PreFetchCacheLine macro (winnt.h)
-
 description: Indicates to the processor that a cache line will be needed in the near future.
 old-location: base\prefetchcacheline.htm
 tech.root: Sync
 ms.assetid: 112f3acc-e9d4-44c0-8844-1dc8cc1de2c8
-
 ms.date: 12/05/2018
 ms.keywords: PF_NON_TEMPORAL_LEVEL_ALL, PF_TEMPORAL_LEVEL_1, PreFetchCacheLine, PreFetchCacheLine macro, base.prefetchcacheline, winnt/PreFetchCacheLine
 ms.topic: macro
-f1_keywords: 
- - "winnt/PreFetchCacheLine"
+f1_keywords:
+- winnt/PreFetchCacheLine
 dev_langs:
- - c++
+- c++
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Winnt.h
+- Winnt.h
 api_name:
- - PreFetchCacheLine
+- PreFetchCacheLine
 targetos: Windows
 req.typenames: 
 req.redist: 

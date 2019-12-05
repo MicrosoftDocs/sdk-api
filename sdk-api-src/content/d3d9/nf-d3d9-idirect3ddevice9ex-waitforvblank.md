@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d9.IDirect3DDevice9Ex.WaitForVBlank
 title: IDirect3DDevice9Ex::WaitForVBlank (d3d9.h)
-
 description: Suspend execution of the calling thread until the next vertical blank signal.
 old-location: direct3d9\idirect3ddevice9ex_waitforvblank.htm
 tech.root: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3ddevice9ex_waitforvblank.htm
-
 ms.date: 12/05/2018
 ms.keywords: 0c60116d-ada5-3625-26f3-44646e467dd6, IDirect3DDevice9Ex interface [Direct3D 9],WaitForVBlank method, IDirect3DDevice9Ex.WaitForVBlank, IDirect3DDevice9Ex::WaitForVBlank, WaitForVBlank, WaitForVBlank method [Direct3D 9], WaitForVBlank method [Direct3D 9],IDirect3DDevice9Ex interface, d3d9/IDirect3DDevice9Ex::WaitForVBlank, direct3d9.idirect3ddevice9ex_waitforvblank
 ms.topic: method
-f1_keywords: 
- - "d3d9/IDirect3DDevice9Ex.WaitForVBlank"
+f1_keywords:
+- d3d9/IDirect3DDevice9Ex.WaitForVBlank
 dev_langs:
- - c++
+- c++
 req.header: d3d9.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: D3D9.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D9.lib
- - D3D9.dll
+- D3D9.lib
+- D3D9.dll
 api_name:
- - IDirect3DDevice9Ex.WaitForVBlank
+- IDirect3DDevice9Ex.WaitForVBlank
 targetos: Windows
 req.typenames: 
 req.redist: 

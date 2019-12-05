@@ -1,19 +1,17 @@
 ---
 UID: NN:dxgi1_3.IDXGIFactory3
 title: IDXGIFactory3 (dxgi1_3.h)
-
 description: Enables creating Microsoft DirectX Graphics Infrastructure (DXGI) objects.
 old-location: direct3ddxgi\idxgifactory3.htm
 tech.root: direct3ddxgi
 ms.assetid: 63B7A8E3-9A8F-409F-84DA-E9303C52A146
-
 ms.date: 12/05/2018
 ms.keywords: IDXGIFactory3, IDXGIFactory3 interface [DXGI], IDXGIFactory3 interface [DXGI],described, direct3ddxgi.idxgifactory3, dxgi1_3/IDXGIFactory3
 ms.topic: interface
-f1_keywords: 
- - "dxgi1_3/IDXGIFactory3"
+f1_keywords:
+- dxgi1_3/IDXGIFactory3
 dev_langs:
- - c++
+- c++
 req.header: dxgi1_3.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Dxgi.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dxgi.lib
- - Dxgi.dll
+- Dxgi.lib
+- Dxgi.dll
 api_name:
- - IDXGIFactory3
+- IDXGIFactory3
 targetos: Windows
 req.typenames: 
 req.redist: 

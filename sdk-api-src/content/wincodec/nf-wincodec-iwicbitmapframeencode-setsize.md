@@ -1,19 +1,17 @@
 ---
 UID: NF:wincodec.IWICBitmapFrameEncode.SetSize
 title: IWICBitmapFrameEncode::SetSize (wincodec.h)
-
 description: Sets the output image dimensions for the frame.
 old-location: wic\_wic_codec_iwicbitmapframeencode_setsize.htm
 tech.root: wic
 ms.assetid: e21e1a66-b1fa-4700-a14e-dc382b5404f7
-
 ms.date: 12/05/2018
 ms.keywords: IWICBitmapFrameEncode interface [Windows Imaging Component],SetSize method, IWICBitmapFrameEncode.SetSize, IWICBitmapFrameEncode::SetSize, SetSize, SetSize method [Windows Imaging Component], SetSize method [Windows Imaging Component],IWICBitmapFrameEncode interface, _wic_codec_iwicbitmapframeencode_setsize, wic._wic_codec_iwicbitmapframeencode_setsize, wincodec/IWICBitmapFrameEncode::SetSize
 ms.topic: method
-f1_keywords: 
- - "wincodec/IWICBitmapFrameEncode.SetSize"
+f1_keywords:
+- wincodec/IWICBitmapFrameEncode.SetSize
 dev_langs:
- - c++
+- c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Windowscodecs.lib
 req.dll: Windowscodecs.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Windowscodecs.dll
+- Windowscodecs.dll
 api_name:
- - IWICBitmapFrameEncode.SetSize
+- IWICBitmapFrameEncode.SetSize
 targetos: Windows
 req.typenames: 
 req.redist: 

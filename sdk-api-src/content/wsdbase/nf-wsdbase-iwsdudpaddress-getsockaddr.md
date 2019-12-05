@@ -1,19 +1,17 @@
 ---
 UID: NF:wsdbase.IWSDUdpAddress.GetSockaddr
 title: IWSDUdpAddress::GetSockaddr (wsdbase.h)
-
 description: Gets the socket address information.
 old-location: ncd\iwsdudpaddress_getsockaddr.htm
 tech.root: WsdApi
 ms.assetid: 4a29722f-a3b7-4285-9ade-06de125f8b91
-
 ms.date: 12/05/2018
 ms.keywords: GetSockaddr, GetSockaddr method, GetSockaddr method,IWSDUdpAddress interface, IWSDUdpAddress interface,GetSockaddr method, IWSDUdpAddress.GetSockaddr, IWSDUdpAddress::GetSockaddr, ncd.iwsdudpaddress_getsockaddr, wsdbase/IWSDUdpAddress::GetSockaddr
 ms.topic: method
-f1_keywords: 
- - "wsdbase/IWSDUdpAddress.GetSockaddr"
+f1_keywords:
+- wsdbase/IWSDUdpAddress.GetSockaddr
 dev_langs:
- - c++
+- c++
 req.header: wsdbase.h
 req.include-header: Wsdapi.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wsdapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wsdapi.dll
+- Wsdapi.dll
 api_name:
- - IWSDUdpAddress.GetSockaddr
+- IWSDUdpAddress.GetSockaddr
 targetos: Windows
 req.typenames: 
 req.redist: 

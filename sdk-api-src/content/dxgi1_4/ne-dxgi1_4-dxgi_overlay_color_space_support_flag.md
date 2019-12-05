@@ -1,19 +1,17 @@
 ---
 UID: NE:dxgi1_4.DXGI_OVERLAY_COLOR_SPACE_SUPPORT_FLAG
 title: DXGI_OVERLAY_COLOR_SPACE_SUPPORT_FLAG (dxgi1_4.h)
-
 description: Specifies support for overlay color space.
 old-location: direct3ddxgi\dxgi_overlay_color_space_support_flag.htm
 tech.root: direct3ddxgi
 ms.assetid: 3664CEBA-42A2-45FF-AA6F-286C1AECF535
-
 ms.date: 12/05/2018
 ms.keywords: DXGI_OVERLAY_COLOR_SPACE_SUPPORT_FLAG, DXGI_OVERLAY_COLOR_SPACE_SUPPORT_FLAG enumeration [DXGI], DXGI_OVERLAY_COLOR_SPACE_SUPPORT_FLAG_PRESENT, direct3ddxgi.dxgi_overlay_color_space_support_flag, dxgi1_4/DXGI_OVERLAY_COLOR_SPACE_SUPPORT_FLAG, dxgi1_4/DXGI_OVERLAY_COLOR_SPACE_SUPPORT_FLAG_PRESENT
 ms.topic: enum
-f1_keywords: 
- - "dxgi1_4/DXGI_OVERLAY_COLOR_SPACE_SUPPORT_FLAG"
+f1_keywords:
+- dxgi1_4/DXGI_OVERLAY_COLOR_SPACE_SUPPORT_FLAG
 dev_langs:
- - c++
+- c++
 req.header: dxgi1_4.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - DXGI1_4.h
+- DXGI1_4.h
 api_name:
- - DXGI_OVERLAY_COLOR_SPACE_SUPPORT_FLAG
+- DXGI_OVERLAY_COLOR_SPACE_SUPPORT_FLAG
 targetos: Windows
 req.typenames: DXGI_OVERLAY_COLOR_SPACE_SUPPORT_FLAG
 req.redist: 

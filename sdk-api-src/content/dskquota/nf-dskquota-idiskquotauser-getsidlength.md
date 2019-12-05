@@ -1,19 +1,17 @@
 ---
 UID: NF:dskquota.IDiskQuotaUser.GetSidLength
 title: IDiskQuotaUser::GetSidLength (dskquota.h)
-
 description: Retrieves the length of the user's security identifier (SID), in bytes.
 old-location: fs\idiskquotauser_getsidlength.htm
 tech.root: FileIO
 ms.assetid: 68fcb122-5d61-464a-99ae-d99e0d4a8117
-
 ms.date: 12/05/2018
 ms.keywords: GetSidLength, GetSidLength method [Files], GetSidLength method [Files],IDiskQuotaUser interface, IDiskQuotaUser interface [Files],GetSidLength method, IDiskQuotaUser.GetSidLength, IDiskQuotaUser::GetSidLength, _win32_idiskquotauser_getsidlength, base.idiskquotauser_getsidlength, dskquota/IDiskQuotaUser::GetSidLength, fs.idiskquotauser_getsidlength
 ms.topic: method
-f1_keywords: 
- - "dskquota/IDiskQuotaUser.GetSidLength"
+f1_keywords:
+- dskquota/IDiskQuotaUser.GetSidLength
 dev_langs:
- - c++
+- c++
 req.header: dskquota.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Dskquota.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dskquota.dll
+- Dskquota.dll
 api_name:
- - IDiskQuotaUser.GetSidLength
+- IDiskQuotaUser.GetSidLength
 targetos: Windows
 req.typenames: 
 req.redist: 

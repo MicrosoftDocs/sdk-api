@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.ISharingConfigurationManager.GetSharePermissions
 title: ISharingConfigurationManager::GetSharePermissions (shobjidl_core.h)
-
 description: Gets the access permissions currently associated with the User or Public folder for the Everyone access control entry (ACE).
 old-location: shell\ISharingConfigurationManager_GetSharePermissions.htm
 tech.root: shell
 ms.assetid: d9ca5acf-2dd1-4fbe-a67f-91578d68b955
-
 ms.date: 12/05/2018
 ms.keywords: GetSharePermissions, GetSharePermissions method [Windows Shell], GetSharePermissions method [Windows Shell],ISharingConfigurationManager interface, ISharingConfigurationManager interface [Windows Shell],GetSharePermissions method, ISharingConfigurationManager.GetSharePermissions, ISharingConfigurationManager::GetSharePermissions, _shell_ISharingConfigurationManager_GetSharePermissions, shell.ISharingConfigurationManager_GetSharePermissions, shobjidl_core/ISharingConfigurationManager::GetSharePermissions
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/ISharingConfigurationManager.GetSharePermissions"
+f1_keywords:
+- shobjidl_core/ISharingConfigurationManager.GetSharePermissions
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - ISharingConfigurationManager.GetSharePermissions
+- ISharingConfigurationManager.GetSharePermissions
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IVirtualDesktopManager.MoveWindowToDesktop
 title: IVirtualDesktopManager::MoveWindowToDesktop (shobjidl_core.h)
-
 description: Moves a window to the specified virtual desktop.
 old-location: shell\ivirtualdesktopmanager_movewindowtodesktop.htm
 tech.root: shell
 ms.assetid: A8756361-E371-41C5-B3F5-BD99439878D9
-
 ms.date: 12/05/2018
 ms.keywords: IVirtualDesktopManager interface [Windows Shell],MoveWindowToDesktop method, IVirtualDesktopManager.MoveWindowToDesktop, IVirtualDesktopManager::MoveWindowToDesktop, MoveWindowToDesktop, MoveWindowToDesktop method [Windows Shell], MoveWindowToDesktop method [Windows Shell],IVirtualDesktopManager interface, shell.ivirtualdesktopmanager_movewindowtodesktop, shobjidl_core/IVirtualDesktopManager::MoveWindowToDesktop
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IVirtualDesktopManager.MoveWindowToDesktop"
+f1_keywords:
+- shobjidl_core/IVirtualDesktopManager.MoveWindowToDesktop
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - IVirtualDesktopManager.MoveWindowToDesktop
+- IVirtualDesktopManager.MoveWindowToDesktop
 targetos: Windows
 req.typenames: 
 req.redist: 

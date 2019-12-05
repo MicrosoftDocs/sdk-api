@@ -1,19 +1,17 @@
 ---
 UID: NC:cryptxml.CryptXmlDllCloseDigest
 title: CryptXmlDllCloseDigest (cryptxml.h)
-
 description: Frees the CRYPT_XML_DIGEST allocated by the CryptXmlDllCreateDigest function.
 old-location: security\cryptxmldllclosedigest.htm
 tech.root: SecCrypto
 ms.assetid: 97f720b9-f937-4469-abe9-62bf35ebdd7a
-
 ms.date: 12/05/2018
 ms.keywords: CryptXmlDllCloseDigest, CryptXmlDllCloseDigest callback, CryptXmlDllCloseDigest callback function [Security], cryptxml/CryptXmlDllCloseDigest, security.cryptxmldllclosedigest
 ms.topic: callback
-f1_keywords: 
- - "cryptxml/CryptXmlDllCloseDigest"
+f1_keywords:
+- cryptxml/CryptXmlDllCloseDigest
 dev_langs:
- - c++
+- c++
 req.header: cryptxml.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Cryptxml.h
+- Cryptxml.h
 api_name:
- - CryptXmlDllCloseDigest
+- CryptXmlDllCloseDigest
 targetos: Windows
 req.typenames: 
 req.redist: 

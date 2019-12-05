@@ -1,19 +1,17 @@
 ---
 UID: NN:qnetwork.IDShowPlugin
 title: IDShowPlugin (qnetwork.h)
-
 description: The IDShowPlugin interface enables the Windows Media Source filter to communicate with the Windows Media Player 6.4 Plug-in for Netscape Navigator.
 old-location: dshow\idshowplugin.htm
 tech.root: DirectShow
 ms.assetid: b5b73489-4d2d-4afa-a4df-7b84711f2556
-
 ms.date: 12/05/2018
 ms.keywords: IDShowPlugin, IDShowPlugin interface [DirectShow], IDShowPlugin interface [DirectShow],described, IDShowPluginInterface, dshow.idshowplugin, qnetwork/IDShowPlugin
 ms.topic: interface
-f1_keywords: 
- - "qnetwork/IDShowPlugin"
+f1_keywords:
+- qnetwork/IDShowPlugin
 dev_langs:
- - c++
+- c++
 req.header: qnetwork.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Qnetwork.h
+- Qnetwork.h
 api_name:
- - IDShowPlugin
+- IDShowPlugin
 targetos: Windows
 req.typenames: 
 req.redist: 

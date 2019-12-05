@@ -1,19 +1,17 @@
 ---
 UID: NF:dwrite_3.IDWriteFontFaceReference.EnqueueGlyphDownloadRequest
 title: IDWriteFontFaceReference::EnqueueGlyphDownloadRequest (dwrite_3.h)
-
 description: Adds a request to the font download queue (IDWriteFontDownloadQueue).
 old-location: directwrite\idwritefontfacereference_enqueueglyphdownloadrequest.htm
 tech.root: DirectWrite
 ms.assetid: 4e35c011-8d5b-0bb5-fea2-4034b8e379aa
-
 ms.date: 12/05/2018
 ms.keywords: EnqueueGlyphDownloadRequest, EnqueueGlyphDownloadRequest method [Direct Write], EnqueueGlyphDownloadRequest method [Direct Write],IDWriteFontFaceReference interface, IDWriteFontFaceReference interface [Direct Write],EnqueueGlyphDownloadRequest method, IDWriteFontFaceReference.EnqueueGlyphDownloadRequest, IDWriteFontFaceReference::EnqueueGlyphDownloadRequest, directwrite.idwritefontfacereference_enqueueglyphdownloadrequest, dwrite_3/IDWriteFontFaceReference::EnqueueGlyphDownloadRequest
 ms.topic: method
-f1_keywords: 
- - "dwrite_3/IDWriteFontFaceReference.EnqueueGlyphDownloadRequest"
+f1_keywords:
+- dwrite_3/IDWriteFontFaceReference.EnqueueGlyphDownloadRequest
 dev_langs:
- - c++
+- c++
 req.header: dwrite_3.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dwrite.lib
 req.dll: Dwrite.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dwrite.dll
+- dwrite.dll
 api_name:
- - IDWriteFontFaceReference.EnqueueGlyphDownloadRequest
+- IDWriteFontFaceReference.EnqueueGlyphDownloadRequest
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d12.ID3D12Fence1.GetCreationFlags
 title: ID3D12Fence1::GetCreationFlags (d3d12.h)
-
 description: Gets the flags used to create the fence represented by the current instance.
 old-location: direct3d12\id3d12fence1_getcreationflags.htm
 tech.root: direct3d12
 ms.assetid: 59FF0D7D-CE1F-49AD-8AFE-8C0E7DE05F36
-
 ms.date: 12/05/2018
 ms.keywords: GetCreationFlags, GetCreationFlags method, GetCreationFlags method,ID3D12fence1 interface, ID3D12Fence1.GetCreationFlags, ID3D12Fence1::GetCreationFlags, ID3D12fence1 interface,GetCreationFlags method, ID3D12fence1::GetCreationFlags, d3d12/ID3D12fence1::GetCreationFlags, direct3d12.id3d12fence1_getcreationflags
 ms.topic: method
-f1_keywords: 
- - "d3d12/ID3D12fence1.GetCreationFlags"
+f1_keywords:
+- d3d12/ID3D12fence1.GetCreationFlags
 dev_langs:
- - c++
+- c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: D3D12.lib
 req.dll: D3D12.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D12.dll
+- D3D12.dll
 api_name:
- - ID3D12fence1.GetCreationFlags
+- ID3D12fence1.GetCreationFlags
 targetos: Windows
 req.typenames: 
 req.redist: 

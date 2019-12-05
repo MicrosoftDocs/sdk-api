@@ -1,19 +1,17 @@
 ---
 UID: NF:spellcheckprovider.ISpellCheckProvider.GetOptionValue
 title: ISpellCheckProvider::GetOptionValue (spellcheckprovider.h)
-
 description: Retrieves the value associated with the given option.
 old-location: intl\ispellcheckprovider_getoptionvalue.htm
 tech.root: Intl
 ms.assetid: 4EE5DE54-DCA2-4DDC-BDE1-6417E4ADF4A2
-
 ms.date: 12/05/2018
 ms.keywords: GetOptionValue, GetOptionValue method [Internationalization for Windows Applications], GetOptionValue method [Internationalization for Windows Applications],ISpellCheckProvider interface, ISpellCheckProvider interface [Internationalization for Windows Applications],GetOptionValue method, ISpellCheckProvider.GetOptionValue, ISpellCheckProvider::GetOptionValue, intl.ispellcheckprovider_getoptionvalue, spellcheckprovider/ISpellCheckProvider::GetOptionValue
 ms.topic: method
-f1_keywords: 
- - "spellcheckprovider/ISpellCheckProvider.GetOptionValue"
+f1_keywords:
+- spellcheckprovider/ISpellCheckProvider.GetOptionValue
 dev_langs:
- - c++
+- c++
 req.header: spellcheckprovider.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Spellcheckprovider.h
+- Spellcheckprovider.h
 api_name:
- - ISpellCheckProvider.GetOptionValue
+- ISpellCheckProvider.GetOptionValue
 targetos: Windows
 req.typenames: 
 req.redist: 

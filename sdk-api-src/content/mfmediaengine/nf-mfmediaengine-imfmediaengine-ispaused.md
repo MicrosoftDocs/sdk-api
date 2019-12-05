@@ -1,19 +1,17 @@
 ---
 UID: NF:mfmediaengine.IMFMediaEngine.IsPaused
 title: IMFMediaEngine::IsPaused (mfmediaengine.h)
-
 description: Queries whether playback is currently paused.
 old-location: mf\imfmediaengine_ispaused.htm
 tech.root: medfound
 ms.assetid: A2E9C498-FEEB-4506-9E69-59028A6B4EE5
-
 ms.date: 12/05/2018
 ms.keywords: IMFMediaEngine interface [Media Foundation],IsPaused method, IMFMediaEngine.IsPaused, IMFMediaEngine::IsPaused, IsPaused, IsPaused method [Media Foundation], IsPaused method [Media Foundation],IMFMediaEngine interface, mf.imfmediaengine_ispaused, mfmediaengine/IMFMediaEngine::IsPaused
 ms.topic: method
-f1_keywords: 
- - "mfmediaengine/IMFMediaEngine.IsPaused"
+f1_keywords:
+- mfmediaengine/IMFMediaEngine.IsPaused
 dev_langs:
- - c++
+- c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfmediaengine.h
+- mfmediaengine.h
 api_name:
- - IMFMediaEngine.IsPaused
+- IMFMediaEngine.IsPaused
 targetos: Windows
 req.typenames: 
 req.redist: 

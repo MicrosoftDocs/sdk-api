@@ -1,19 +1,17 @@
 ---
 UID: NF:comsvcs.IComMethodEvents.OnMethodReturn
 title: IComMethodEvents::OnMethodReturn (comsvcs.h)
-
 description: Generated when an object's method returns.
 old-location: cos\icommethodevents_onmethodreturn.htm
 tech.root: cossdk
 ms.assetid: ade20bfc-0b50-4663-a1d3-14e2bd0c19a1
-
 ms.date: 12/05/2018
 ms.keywords: IComMethodEvents interface [COM+],OnMethodReturn method, IComMethodEvents.OnMethodReturn, IComMethodEvents::OnMethodReturn, OnMethodReturn, OnMethodReturn method [COM+], OnMethodReturn method [COM+],IComMethodEvents interface, _dtc_icommethodevents_onmethodreturn, comsvcs/IComMethodEvents::OnMethodReturn, cos.icommethodevents_onmethodreturn
 ms.topic: method
-f1_keywords: 
- - "comsvcs/IComMethodEvents.OnMethodReturn"
+f1_keywords:
+- comsvcs/IComMethodEvents.OnMethodReturn
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - IComMethodEvents.OnMethodReturn
+- IComMethodEvents.OnMethodReturn
 targetos: Windows
 req.typenames: 
 req.redist: 

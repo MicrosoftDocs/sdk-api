@@ -1,19 +1,17 @@
 ---
 UID: NF:mfmediaengine.IMFMediaKeySession.GetError
 title: IMFMediaKeySession::GetError (mfmediaengine.h)
-
 description: Gets the error state associated with the media key session.
 old-location: mf\imfmediakeysession_geterror.htm
 tech.root: medfound
 ms.assetid: 4693b7d5-59ee-472f-83fc-1ecbcc165dac
-
 ms.date: 12/05/2018
 ms.keywords: GetError, GetError method [Media Foundation], GetError method [Media Foundation],IMFMediaKeySession interface, IMFMediaKeySession interface [Media Foundation],GetError method, IMFMediaKeySession.GetError, IMFMediaKeySession::GetError, mf.imfmediakeysession_geterror, mfmediaengine/IMFMediaKeySession::GetError
 ms.topic: method
-f1_keywords: 
- - "mfmediaengine/IMFMediaKeySession.GetError"
+f1_keywords:
+- mfmediaengine/IMFMediaKeySession.GetError
 dev_langs:
- - c++
+- c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfmediaengine.h
+- mfmediaengine.h
 api_name:
- - IMFMediaKeySession.GetError
+- IMFMediaKeySession.GetError
 targetos: Windows
 req.typenames: 
 req.redist: 

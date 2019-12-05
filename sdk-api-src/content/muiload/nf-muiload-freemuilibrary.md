@@ -1,19 +1,17 @@
 ---
 UID: NF:muiload.FreeMUILibrary
 title: FreeMUILibrary function (muiload.h)
-
 description: Releases the handle to a resource module loaded by LoadMUILibrary.
 old-location: intl\freemuilibrary.htm
 tech.root: Intl
 ms.assetid: 38a0d7cb-46a9-449b-8f7e-4c573e400e75
-
 ms.date: 12/05/2018
 ms.keywords: FreeMUILibrary, FreeMUILibrary function [Internationalization for Windows Applications], _win32_FreeMUILibrary, intl.freemuilibrary, muiload/FreeMUILibrary
 ms.topic: function
-f1_keywords: 
- - "muiload/FreeMUILibrary"
+f1_keywords:
+- muiload/FreeMUILibrary
 dev_langs:
- - c++
+- c++
 req.header: muiload.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Muiload.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - LibDef
+- LibDef
 api_location:
- - Muiload.lib
+- Muiload.lib
 api_name:
- - FreeMUILibrary
+- FreeMUILibrary
 targetos: Windows
 req.typenames: 
 req.redist: Muiload.lib, included in theWindows SDKforWindows VistaonWindows 2000 Professional,Windows Me/98/95.  Not supported onWindows NT 4.0

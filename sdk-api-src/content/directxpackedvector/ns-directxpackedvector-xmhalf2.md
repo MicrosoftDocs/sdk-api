@@ -1,19 +1,17 @@
 ---
 UID: NS:directxpackedvector.XMHALF2
 title: XMHALF2 (directxpackedvector.h)
-
 description: A 2D vector consisting of two half-precision (16bit) floating-point values.
 old-location: dxmath\xmhalf2.htm
 tech.root: dxmath
 ms.assetid: T:Microsoft.directx_sdk.reference.XMHALF2
-
 ms.date: 12/05/2018
 ms.keywords: XMHALF2, XMHALF2 structure [DirectX Math Support APIs], directxpackedvector/XMHALF2, dxmath.xmhalf2
 ms.topic: struct
-f1_keywords: 
- - "directxpackedvector/XMHALF2"
+f1_keywords:
+- directxpackedvector/XMHALF2
 dev_langs:
- - c++
+- c++
 req.header: directxpackedvector.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - DirectXPackedVector.h
+- DirectXPackedVector.h
 api_name:
- - XMHALF2
+- XMHALF2
 targetos: Windows
 req.typenames: 
 req.redist: 

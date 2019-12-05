@@ -1,19 +1,17 @@
 ---
 UID: NF:control.IMediaPosition.CanSeekBackward
 title: IMediaPosition::CanSeekBackward (control.h)
-
 description: The CanSeekBackward method determines whether the filter graph can seek backward in the stream.
 old-location: dshow\imediaposition_canseekbackward.htm
 tech.root: DirectShow
 ms.assetid: 8152553a-173b-4f0b-bcdf-b9c20912921d
-
 ms.date: 12/05/2018
 ms.keywords: CanSeekBackward, CanSeekBackward method [DirectShow], CanSeekBackward method [DirectShow],IMediaPosition interface, IMediaPosition interface [DirectShow],CanSeekBackward method, IMediaPosition.CanSeekBackward, IMediaPosition::CanSeekBackward, IMediaPositionCanSeekBackward, control/IMediaPosition::CanSeekBackward, dshow.imediaposition_canseekbackward
 ms.topic: method
-f1_keywords: 
- - "control/IMediaPosition.CanSeekBackward"
+f1_keywords:
+- control/IMediaPosition.CanSeekBackward
 dev_langs:
- - c++
+- c++
 req.header: control.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IMediaPosition.CanSeekBackward
+- IMediaPosition.CanSeekBackward
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:windows.ui.xaml.hosting.referencetracker.IReferenceTracker.DisconnectFromTrackerSource
 title: IReferenceTracker::xaml (windows.ui.xaml.hosting.referencetracker.h)
-
 description: Indicates that a reference tracker source has stopped tracking a reference tracker.
 old-location: winrt\ireferencetracker_disconnectfromtrackersource.htm
 tech.root: WinRT
 ms.assetid: b4be9e74-6469-4f82-9748-036f08cec97f
-
 ms.date: 12/05/2018
 ms.keywords: DisconnectFromTrackerSource, DisconnectFromTrackerSource method [Windows Runtime], DisconnectFromTrackerSource method [Windows Runtime],IReferenceTracker interface, IReferenceTracker interface [Windows Runtime],DisconnectFromTrackerSource method, IReferenceTracker.DisconnectFromTrackerSource, IReferenceTracker.xaml, IReferenceTracker::DisconnectFromTrackerSource, IReferenceTracker::xaml, windows/IReferenceTracker::DisconnectFromTrackerSource, winrt.ireferencetracker_disconnectfromtrackersource
 ms.topic: method
-f1_keywords: 
- - "windows.ui.xaml.hosting.referencetracker/IReferenceTracker.DisconnectFromTrackerSource"
+f1_keywords:
+- windows.ui.xaml.hosting.referencetracker/IReferenceTracker.DisconnectFromTrackerSource
 dev_langs:
- - c++
+- c++
 req.header: windows.ui.xaml.hosting.referencetracker.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Windows.ui.xaml.hosting.referencetracker.h
+- Windows.ui.xaml.hosting.referencetracker.h
 api_name:
- - IReferenceTracker.DisconnectFromTrackerSource
+- IReferenceTracker.DisconnectFromTrackerSource
 targetos: Windows
 req.typenames: 
 req.redist: 

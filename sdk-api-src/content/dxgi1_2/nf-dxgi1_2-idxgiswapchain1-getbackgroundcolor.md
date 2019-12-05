@@ -1,19 +1,17 @@
 ---
 UID: NF:dxgi1_2.IDXGISwapChain1.GetBackgroundColor
 title: IDXGISwapChain1::GetBackgroundColor (dxgi1_2.h)
-
 description: Retrieves the background color of the swap chain.
 old-location: direct3ddxgi\idxgiswapchain1_getbackgroundcolor.htm
 tech.root: direct3ddxgi
 ms.assetid: AF10BAF1-5C49-45E7-B776-3EB606C02E10
-
 ms.date: 12/05/2018
 ms.keywords: GetBackgroundColor, GetBackgroundColor method [DXGI], GetBackgroundColor method [DXGI],IDXGISwapChain1 interface, IDXGISwapChain1 interface [DXGI],GetBackgroundColor method, IDXGISwapChain1.GetBackgroundColor, IDXGISwapChain1::GetBackgroundColor, direct3ddxgi.idxgiswapchain1_getbackgroundcolor, dxgi1_2/IDXGISwapChain1::GetBackgroundColor
 ms.topic: method
-f1_keywords: 
- - "dxgi1_2/IDXGISwapChain1.GetBackgroundColor"
+f1_keywords:
+- dxgi1_2/IDXGISwapChain1.GetBackgroundColor
 dev_langs:
- - c++
+- c++
 req.header: dxgi1_2.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Dxgi.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dxgi.lib
- - Dxgi.dll
+- Dxgi.lib
+- Dxgi.dll
 api_name:
- - IDXGISwapChain1.GetBackgroundColor
+- IDXGISwapChain1.GetBackgroundColor
 targetos: Windows
 req.typenames: 
 req.redist: 

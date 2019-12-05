@@ -1,19 +1,17 @@
 ---
 UID: NF:gdiplusheaders.Image.SelectActiveFrame
 title: Image::SelectActiveFrame (gdiplusheaders.h)
-
 description: The Image::SelectActiveFrame method selects the frame in this Image object specified by a dimension and an index.
 old-location: gdiplus\_gdiplus_CLASS_Image_SelectActiveFrame_dimensionID_frameIndex_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\imageclass\imagemethods\selectactiveframe.htm
-
 ms.date: 12/05/2018
 ms.keywords: Image class [GDI+],SelectActiveFrame method, Image.SelectActiveFrame, Image::SelectActiveFrame, SelectActiveFrame, SelectActiveFrame method [GDI+], SelectActiveFrame method [GDI+],Image class, _gdiplus_CLASS_Image_SelectActiveFrame_dimensionID_frameIndex_, gdiplus._gdiplus_CLASS_Image_SelectActiveFrame_dimensionID_frameIndex_
 ms.topic: method
-f1_keywords: 
- - "gdiplusheaders/Image.SelectActiveFrame"
+f1_keywords:
+- gdiplusheaders/Image.SelectActiveFrame
 dev_langs:
- - c++
+- c++
 req.header: gdiplusheaders.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - Image.SelectActiveFrame
+- Image.SelectActiveFrame
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:medparam.IMediaParamInfo.GetParamText
 title: IMediaParamInfo::GetParamText (medparam.h)
-
 description: The GetParamText method retrieves a series of text strings that describe the parameter.
 old-location: dshow\imediaparaminfo_getparamtext.htm
 tech.root: DirectShow
 ms.assetid: 38ecde61-fd4a-4ba3-9cd4-d62a5aa55294
-
 ms.date: 12/05/2018
 ms.keywords: GetParamText, GetParamText method [DirectShow], GetParamText method [DirectShow],IMediaParamInfo interface, IMediaParamInfo interface [DirectShow],GetParamText method, IMediaParamInfo.GetParamText, IMediaParamInfo::GetParamText, IMediaParamInfoGetParamText, dshow.imediaparaminfo_getparamtext, medparam/IMediaParamInfo::GetParamText
 ms.topic: method
-f1_keywords: 
- - "medparam/IMediaParamInfo.GetParamText"
+f1_keywords:
+- medparam/IMediaParamInfo.GetParamText
 dev_langs:
- - c++
+- c++
 req.header: medparam.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Dmoguids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dmoguids.lib
- - Dmoguids.dll
+- Dmoguids.lib
+- Dmoguids.dll
 api_name:
- - IMediaParamInfo.GetParamText
+- IMediaParamInfo.GetParamText
 targetos: Windows
 req.typenames: 
 req.redist: 

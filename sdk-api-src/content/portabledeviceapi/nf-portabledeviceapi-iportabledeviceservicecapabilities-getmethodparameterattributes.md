@@ -1,19 +1,17 @@
 ---
 UID: NF:portabledeviceapi.IPortableDeviceServiceCapabilities.GetMethodParameterAttributes
 title: IPortableDeviceServiceCapabilities::GetMethodParameterAttributes (portabledeviceapi.h)
-
 description: Retrieves the attributes used to describe a given method parameter.
 old-location: wpdsdk\iportabledeviceservicecapabilities_getmethodparameterattributes.htm
 tech.root: wpd_sdk
 ms.assetid: 48c566e1-981f-4173-ad5b-a7b1b7c35d06
-
 ms.date: 12/05/2018
 ms.keywords: GetMethodParameterAttributes, GetMethodParameterAttributes method [Windows Portable Devices SDK], GetMethodParameterAttributes method [Windows Portable Devices SDK],IPortableDeviceServiceCapabilities interface, IPortableDeviceServiceCapabilities interface [Windows Portable Devices SDK],GetMethodParameterAttributes method, IPortableDeviceServiceCapabilities.GetMethodParameterAttributes, IPortableDeviceServiceCapabilities::GetMethodParameterAttributes, portabledeviceapi/IPortableDeviceServiceCapabilities::GetMethodParameterAttributes, wpdsdk.iportabledeviceservicecapabilities_getmethodparameterattributes
 ms.topic: method
-f1_keywords: 
- - "portabledeviceapi/IPortableDeviceServiceCapabilities.GetMethodParameterAttributes"
+f1_keywords:
+- portabledeviceapi/IPortableDeviceServiceCapabilities.GetMethodParameterAttributes
 dev_langs:
- - c++
+- c++
 req.header: portabledeviceapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - PortableDeviceAPI.h
+- PortableDeviceAPI.h
 api_name:
- - IPortableDeviceServiceCapabilities.GetMethodParameterAttributes
+- IPortableDeviceServiceCapabilities.GetMethodParameterAttributes
 targetos: Windows
 req.typenames: 
 req.redist: 

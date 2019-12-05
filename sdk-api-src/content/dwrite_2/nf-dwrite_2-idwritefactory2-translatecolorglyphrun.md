@@ -1,19 +1,17 @@
 ---
 UID: NF:dwrite_2.IDWriteFactory2.TranslateColorGlyphRun
 title: IDWriteFactory2::TranslateColorGlyphRun (dwrite_2.h)
-
 description: This method is called on a glyph run to translate it in to multiple color glyph runs.
 old-location: directwrite\idwritefactory2_translatecolorglyphrun.htm
 tech.root: DirectWrite
 ms.assetid: 1D31F807-C3F2-466F-9723-E6F12B13BFA1
-
 ms.date: 12/05/2018
 ms.keywords: IDWriteFactory2 interface [Direct Write],TranslateColorGlyphRun method, IDWriteFactory2.TranslateColorGlyphRun, IDWriteFactory2::TranslateColorGlyphRun, TranslateColorGlyphRun, TranslateColorGlyphRun method [Direct Write], TranslateColorGlyphRun method [Direct Write],IDWriteFactory2 interface, directwrite.idwritefactory2_translatecolorglyphrun, dwrite_2/IDWriteFactory2::TranslateColorGlyphRun
 ms.topic: method
-f1_keywords: 
- - "dwrite_2/IDWriteFactory2.TranslateColorGlyphRun"
+f1_keywords:
+- dwrite_2/IDWriteFactory2.TranslateColorGlyphRun
 dev_langs:
- - c++
+- c++
 req.header: dwrite_2.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dwrite.lib
 req.dll: Dwrite.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dwrite.dll
+- dwrite.dll
 api_name:
- - IDWriteFactory2.TranslateColorGlyphRun
+- IDWriteFactory2.TranslateColorGlyphRun
 targetos: Windows
 req.typenames: 
 req.redist: 

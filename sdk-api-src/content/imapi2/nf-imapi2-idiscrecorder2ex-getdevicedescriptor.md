@@ -1,19 +1,17 @@
 ---
 UID: NF:imapi2.IDiscRecorder2Ex.GetDeviceDescriptor
 title: IDiscRecorder2Ex::GetDeviceDescriptor (imapi2.h)
-
 description: Retrieves the device descriptor for the device.
 old-location: imapi\idiscrecorder2ex_getdevicedescriptor.htm
 tech.root: imapi
 ms.assetid: c0c22ce6-daf4-4218-afce-c773d607638b
-
 ms.date: 12/05/2018
 ms.keywords: GetDeviceDescriptor, GetDeviceDescriptor method [IMAPI], GetDeviceDescriptor method [IMAPI],IDiscRecorder2Ex interface, IDiscRecorder2Ex interface [IMAPI],GetDeviceDescriptor method, IDiscRecorder2Ex.GetDeviceDescriptor, IDiscRecorder2Ex::GetDeviceDescriptor, imapi.idiscrecorder2ex_getdevicedescriptor, imapi2/IDiscRecorder2Ex::GetDeviceDescriptor
 ms.topic: method
-f1_keywords: 
- - "imapi2/IDiscRecorder2Ex.GetDeviceDescriptor"
+f1_keywords:
+- imapi2/IDiscRecorder2Ex.GetDeviceDescriptor
 dev_langs:
- - c++
+- c++
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - imapi2.h
+- imapi2.h
 api_name:
- - IDiscRecorder2Ex.GetDeviceDescriptor
+- IDiscRecorder2Ex.GetDeviceDescriptor
 targetos: Windows
 req.typenames: 
 req.redist: 

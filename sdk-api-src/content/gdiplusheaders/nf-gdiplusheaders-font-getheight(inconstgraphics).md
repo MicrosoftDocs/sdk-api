@@ -3,14 +3,13 @@ UID: NF:gdiplusheaders.Font.GetHeight(IN const Graphics)
 title: Font::GetHeight
 description: The Font::GetHeight method gets the line spacing of this font in the current unit of a specified Graphics object.
 ms.assetid: 4cfe970e-332c-461b-9b75-0d0802fad86f
-
 ms.date: 05/20/2019
 ms.keywords: Font::GetHeight
 ms.topic: language-reference
-f1_keywords: 
- - "gdiplusheaders/Font::GetHeight"
+f1_keywords:
+- gdiplusheaders/Font::GetHeight
 dev_langs:
- - c++
+- c++
 targetos: Windows
 req.assembly: 
 req.construct-type: function
@@ -32,13 +31,13 @@ req.type-library:
 req.umdf-ver: 
 req.unicode-ansi: 
 topic_type:
- - apiref
+- apiref
 api_type:
- - COM
+- COM
 api_location:
- - gdiplusheaders.h
+- gdiplusheaders.h
 api_name:
- - Font::GetHeight
+- Font::GetHeight
 ---
 
 # Font::GetHeight(Graphics*)

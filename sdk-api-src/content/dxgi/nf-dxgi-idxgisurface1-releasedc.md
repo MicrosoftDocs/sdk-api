@@ -1,19 +1,17 @@
 ---
 UID: NF:dxgi.IDXGISurface1.ReleaseDC
 title: IDXGISurface1::ReleaseDC (dxgi.h)
-
 description: Releases the GDI device context (DC) that is associated with the current surface and allows you to use Direct3D to render.
 old-location: direct3ddxgi\idxgisurface1_releasedc.htm
 tech.root: direct3ddxgi
 ms.assetid: 2c3a0cf3-c970-4908-a960-ba261756bd5f
-
 ms.date: 12/05/2018
 ms.keywords: 07f8f820-f0ad-bbd6-94a3-383d2e895e69, IDXGISurface1 interface [DXGI],ReleaseDC method, IDXGISurface1.ReleaseDC, IDXGISurface1::ReleaseDC, ReleaseDC, ReleaseDC method [DXGI], ReleaseDC method [DXGI],IDXGISurface1 interface, direct3ddxgi.idxgisurface1_releasedc, dxgi/IDXGISurface1::ReleaseDC
 ms.topic: method
-f1_keywords: 
- - "dxgi/IDXGISurface1.ReleaseDC"
+f1_keywords:
+- dxgi/IDXGISurface1.ReleaseDC
 dev_langs:
- - c++
+- c++
 req.header: dxgi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: DXGI.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - DXGI.lib
- - DXGI.dll
+- DXGI.lib
+- DXGI.dll
 api_name:
- - IDXGISurface1.ReleaseDC
+- IDXGISurface1.ReleaseDC
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NS:shtypes._COMDLG_FILTERSPEC
 title: COMDLG_FILTERSPEC (shtypes.h)
-
 description: Used generically to filter elements.
 old-location: shell\COMDLG_FILTERSPEC.htm
 tech.root: shell
 ms.assetid: b5bb6777-a5b6-4d10-a8b8-79269fa5e2da
-
 ms.date: 12/05/2018
 ms.keywords: COMDLG_FILTERSPEC, COMDLG_FILTERSPEC structure [Windows Shell], shell.COMDLG_FILTERSPEC, shell_COMDLG_FILTERSPEC, shtypes/COMDLG_FILTERSPEC
 ms.topic: struct
-f1_keywords: 
- - "shtypes/COMDLG_FILTERSPEC"
+f1_keywords:
+- shtypes/COMDLG_FILTERSPEC
 dev_langs:
- - c++
+- c++
 req.header: shtypes.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Shtypes.h
+- Shtypes.h
 api_name:
- - COMDLG_FILTERSPEC
+- COMDLG_FILTERSPEC
 targetos: Windows
 req.typenames: COMDLG_FILTERSPEC
 req.redist: 

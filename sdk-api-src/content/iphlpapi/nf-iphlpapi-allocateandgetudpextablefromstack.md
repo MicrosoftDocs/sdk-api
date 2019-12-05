@@ -1,19 +1,17 @@
 ---
 UID: NF:iphlpapi.AllocateAndGetUdpExTableFromStack
 title: AllocateAndGetUdpExTableFromStack function (iphlpapi.h)
-
 description: Retrieves the UDP connection table and allocates memory from the local heap to store the table.
 old-location: iphlp\allocateandgetudpextablefromstack.htm
 tech.root: IpHlp
 ms.assetid: 22bb2cc2-c559-4a03-a1ab-9a7fa0442b13
-
 ms.date: 12/05/2018
 ms.keywords: AF_INET, AF_INET6, AllocateAndGetUdpExTableFromStack, AllocateAndGetUdpExTableFromStack function [IP Helper], iphlp.allocateandgetudpextablefromstack, iphlpapi/AllocateAndGetUdpExTableFromStack
 ms.topic: function
-f1_keywords: 
- - "iphlpapi/AllocateAndGetUdpExTableFromStack"
+f1_keywords:
+- iphlpapi/AllocateAndGetUdpExTableFromStack
 dev_langs:
- - c++
+- c++
 req.header: iphlpapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Iphlpapi.lib
 req.dll: Iphlpapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Iphlpapi.dll
+- Iphlpapi.dll
 api_name:
- - AllocateAndGetUdpExTableFromStack
+- AllocateAndGetUdpExTableFromStack
 targetos: Windows
 req.typenames: 
 req.redist: 

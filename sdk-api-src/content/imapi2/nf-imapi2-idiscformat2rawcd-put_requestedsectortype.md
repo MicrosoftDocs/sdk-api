@@ -1,19 +1,17 @@
 ---
 UID: NF:imapi2.IDiscFormat2RawCD.put_RequestedSectorType
 title: IDiscFormat2RawCD::put_RequestedSectorType (imapi2.h)
-
 description: Sets the requested data sector to use for writing the stream.
 old-location: imapi\idiscformat2rawcd__put_requestedsectortype_.htm
 tech.root: imapi
 ms.assetid: fd9d7e1d-5672-482f-ac83-efcab3adbac4
-
 ms.date: 12/05/2018
 ms.keywords: IDiscFormat2RawCD interface [IMAPI],put_RequestedSectorType method, IDiscFormat2RawCD.put_RequestedSectorType, IDiscFormat2RawCD::put_RequestedSectorType, imapi.idiscformat2rawcd__put_requestedsectortype_, imapi2/IDiscFormat2RawCD::put_RequestedSectorType, put_RequestedSectorType, put_RequestedSectorType method [IMAPI], put_RequestedSectorType method [IMAPI],IDiscFormat2RawCD interface
 ms.topic: method
-f1_keywords: 
- - "imapi2/IDiscFormat2RawCD.put_RequestedSectorType"
+f1_keywords:
+- imapi2/IDiscFormat2RawCD.put_RequestedSectorType
 dev_langs:
- - c++
+- c++
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - imapi2.h
+- imapi2.h
 api_name:
- - IDiscFormat2RawCD.put_RequestedSectorType
+- IDiscFormat2RawCD.put_RequestedSectorType
 targetos: Windows
 req.typenames: 
 req.redist: 

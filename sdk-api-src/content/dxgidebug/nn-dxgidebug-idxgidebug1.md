@@ -1,19 +1,17 @@
 ---
 UID: NN:dxgidebug.IDXGIDebug1
 title: IDXGIDebug1 (dxgidebug.h)
-
 description: Controls debug settings for Microsoft DirectX Graphics Infrastructure (DXGI). You can use the IDXGIDebug1 interface in Windows Store apps.
 old-location: direct3ddxgi\idxgidebug1.htm
 tech.root: direct3ddxgi
 ms.assetid: 16D52CA2-1495-407C-9B88-CF4D4C90BAFA
-
 ms.date: 12/05/2018
 ms.keywords: IDXGIDebug1, IDXGIDebug1 interface [DXGI], IDXGIDebug1 interface [DXGI],described, direct3ddxgi.idxgidebug1, dxgidebug/IDXGIDebug1
 ms.topic: interface
-f1_keywords: 
- - "dxgidebug/IDXGIDebug1"
+f1_keywords:
+- dxgidebug/IDXGIDebug1
 dev_langs:
- - c++
+- c++
 req.header: dxgidebug.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: DXGIDebug.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - DXGIDebug.dll
+- DXGIDebug.dll
 api_name:
- - IDXGIDebug1
+- IDXGIDebug1
 targetos: Windows
 req.typenames: 
 req.redist: 

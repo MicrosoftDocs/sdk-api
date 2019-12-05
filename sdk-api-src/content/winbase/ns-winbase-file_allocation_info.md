@@ -1,19 +1,17 @@
 ---
 UID: NS:winbase._FILE_ALLOCATION_INFO
 title: FILE_ALLOCATION_INFO (winbase.h)
-
 description: Contains the total number of bytes that should be allocated for a file.
 old-location: fs\file_allocation_info.htm
 tech.root: FileIO
 ms.assetid: 909f1747-0099-407e-89a7-bec6331887da
-
 ms.date: 12/05/2018
-ms.keywords: "*PFILE_ALLOCATION_INFO, FILE_ALLOCATION_INFO, FILE_ALLOCATION_INFO structure [Files], PFILE_ALLOCATION_INFO, PFILE_ALLOCATION_INFO structure pointer [Files], fileextd/FILE_ALLOCATION_INFO, fileextd/PFILE_ALLOCATION_INFO, fs.file_allocation_info, winbase/FILE_ALLOCATION_INFO, winbase/PFILE_ALLOCATION_INFO"
+ms.keywords: '*PFILE_ALLOCATION_INFO, FILE_ALLOCATION_INFO, FILE_ALLOCATION_INFO structure [Files], PFILE_ALLOCATION_INFO, PFILE_ALLOCATION_INFO structure pointer [Files], fileextd/FILE_ALLOCATION_INFO, fileextd/PFILE_ALLOCATION_INFO, fs.file_allocation_info, winbase/FILE_ALLOCATION_INFO, winbase/PFILE_ALLOCATION_INFO'
 ms.topic: struct
-f1_keywords: 
- - "winbase/FILE_ALLOCATION_INFO"
+f1_keywords:
+- winbase/FILE_ALLOCATION_INFO
 dev_langs:
- - c++
+- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WinBase.h
- - FileExtd.h
+- WinBase.h
+- FileExtd.h
 api_name:
- - FILE_ALLOCATION_INFO
+- FILE_ALLOCATION_INFO
 targetos: Windows
 req.typenames: FILE_ALLOCATION_INFO, *PFILE_ALLOCATION_INFO
 req.redist: Windows SDK on Windows Server 2003 and Windows XP.

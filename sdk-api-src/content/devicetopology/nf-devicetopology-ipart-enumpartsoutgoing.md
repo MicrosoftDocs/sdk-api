@@ -1,19 +1,17 @@
 ---
 UID: NF:devicetopology.IPart.EnumPartsOutgoing
 title: IPart::EnumPartsOutgoing (devicetopology.h)
-
 description: The EnumPartsOutgoing method retrieves a list of all the outgoing parts&#8212;that is, the parts that reside on data paths that are downstream from this part.
 old-location: coreaudio\ipart_enumpartsoutgoing.htm
 tech.root: CoreAudio
 ms.assetid: f1892e6d-a2d8-45c7-8a36-6040f4538c1e
-
 ms.date: 12/05/2018
 ms.keywords: EnumPartsOutgoing, EnumPartsOutgoing method [Core Audio], EnumPartsOutgoing method [Core Audio],IPart interface, IPart interface [Core Audio],EnumPartsOutgoing method, IPart.EnumPartsOutgoing, IPart::EnumPartsOutgoing, IPartEnumPartsOutgoing, coreaudio.ipart_enumpartsoutgoing, devicetopology/IPart::EnumPartsOutgoing
 ms.topic: method
-f1_keywords: 
- - "devicetopology/IPart.EnumPartsOutgoing"
+f1_keywords:
+- devicetopology/IPart.EnumPartsOutgoing
 dev_langs:
- - c++
+- c++
 req.header: devicetopology.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Devicetopology.h
+- Devicetopology.h
 api_name:
- - IPart.EnumPartsOutgoing
+- IPart.EnumPartsOutgoing
 targetos: Windows
 req.typenames: 
 req.redist: 

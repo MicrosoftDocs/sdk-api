@@ -1,19 +1,17 @@
 ---
 UID: NF:directmanipulation.IDirectManipulationCompositor.AddContent
 title: IDirectManipulationCompositor::AddContent (directmanipulation.h)
-
 description: Associates content (owned by the caller) with the compositor, assigns a composition device to the content, and specifies the position of the content in the composition tree relative to other composition visuals.
 old-location: directmanipulation\idirectmanipulationcompositor_addcontent.htm
 tech.root: directmanipulation
 ms.assetid: 16c1a911-43cb-4c18-9e29-12a69b715e6a
-
 ms.date: 12/05/2018
 ms.keywords: AddContent, AddContent method [Direct Manipulation], AddContent method [Direct Manipulation],IDirectManipulationCompositor interface, IDirectManipulationCompositor interface [Direct Manipulation],AddContent method, IDirectManipulationCompositor.AddContent, IDirectManipulationCompositor::AddContent, directmanipulation.idirectmanipulationcompositor_addcontent, directmanipulation/IDirectManipulationCompositor::AddContent
 ms.topic: method
-f1_keywords: 
- - "directmanipulation/IDirectManipulationCompositor.AddContent"
+f1_keywords:
+- directmanipulation/IDirectManipulationCompositor.AddContent
 dev_langs:
- - c++
+- c++
 req.header: directmanipulation.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - DirectManipulation.h
+- DirectManipulation.h
 api_name:
- - IDirectManipulationCompositor.AddContent
+- IDirectManipulationCompositor.AddContent
 targetos: Windows
 req.typenames: 
 req.redist: 

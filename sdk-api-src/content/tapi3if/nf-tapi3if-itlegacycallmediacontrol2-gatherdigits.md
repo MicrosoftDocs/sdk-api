@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi3if.ITLegacyCallMediaControl2.GatherDigits
 title: ITLegacyCallMediaControl2::GatherDigits (tapi3if.h)
-
 description: The GatherDigits method initiates the gathering of digits on the specified call. The application specifies the maximum number of digits to collect.
 old-location: tapi3\itlegacycallmediacontrol2_gatherdigits.htm
 tech.root: Tapi
 ms.assetid: ff464b1e-bd4c-4807-b019-cdae6896f897
-
 ms.date: 12/05/2018
 ms.keywords: GatherDigits, GatherDigits method [TAPI 2.2], GatherDigits method [TAPI 2.2],ITLegacyCallMediaControl2 interface, ITLegacyCallMediaControl2 interface [TAPI 2.2],GatherDigits method, ITLegacyCallMediaControl2.GatherDigits, ITLegacyCallMediaControl2::GatherDigits, _tapi3_itlegacycallmediacontrol2_gatherdigits, tapi3.itlegacycallmediacontrol2_gatherdigits, tapi3if/ITLegacyCallMediaControl2::GatherDigits
 ms.topic: method
-f1_keywords: 
- - "tapi3if/ITLegacyCallMediaControl2.GatherDigits"
+f1_keywords:
+- tapi3if/ITLegacyCallMediaControl2.GatherDigits
 dev_langs:
- - c++
+- c++
 req.header: tapi3if.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Tapi3.dll
+- Tapi3.dll
 api_name:
- - ITLegacyCallMediaControl2.GatherDigits
+- ITLegacyCallMediaControl2.GatherDigits
 targetos: Windows
 req.typenames: 
 req.redist: 

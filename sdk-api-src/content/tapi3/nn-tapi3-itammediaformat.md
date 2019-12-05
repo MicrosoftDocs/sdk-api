@@ -1,19 +1,17 @@
 ---
 UID: NN:tapi3.ITAMMediaFormat
 title: ITAMMediaFormat (tapi3.h)
-
 description: The ITAMMediaFormat interface sets and gets DirectShow media format.
 old-location: tapi3\itammediaformat.htm
 tech.root: Tapi
 ms.assetid: 82728afe-5743-4b45-86e6-32df021a2a5f
-
 ms.date: 12/05/2018
 ms.keywords: ITAMMediaFormat, ITAMMediaFormat interface [TAPI 2.2], ITAMMediaFormat interface [TAPI 2.2],described, _tapi3_itammediaformat, tapi3.itammediaformat, tapi3ds/ITAMMediaFormat
 ms.topic: interface
-f1_keywords: 
- - "tapi3/ITAMMediaFormat"
+f1_keywords:
+- tapi3/ITAMMediaFormat
 dev_langs:
- - c++
+- c++
 req.header: tapi3.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Tapi3.dll
+- Tapi3.dll
 api_name:
- - ITAMMediaFormat
+- ITAMMediaFormat
 targetos: Windows
 req.typenames: 
 req.redist: 

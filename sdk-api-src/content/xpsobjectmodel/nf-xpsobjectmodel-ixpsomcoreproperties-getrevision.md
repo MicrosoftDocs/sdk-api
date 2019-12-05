@@ -1,19 +1,17 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMCoreProperties.GetRevision
 title: IXpsOMCoreProperties::GetRevision (xpsobjectmodel.h)
-
 description: Gets the revision property.
 old-location: xps\ixpsomcoreproperties_getrevision.htm
 tech.root: printdocs
 ms.assetid: 7143e4e7-c5e3-41f8-84d8-64fa3008ccc8
-
 ms.date: 12/05/2018
 ms.keywords: GetRevision, GetRevision method [XPS Documents and Packaging], GetRevision method [XPS Documents and Packaging],IXpsOMCoreProperties interface, IXpsOMCoreProperties interface [XPS Documents and Packaging],GetRevision method, IXpsOMCoreProperties.GetRevision, IXpsOMCoreProperties::GetRevision, xps.ixpsomcoreproperties_getrevision, xpsobjectmodel/IXpsOMCoreProperties::GetRevision
 ms.topic: method
-f1_keywords: 
- - "xpsobjectmodel/IXpsOMCoreProperties.GetRevision"
+f1_keywords:
+- xpsobjectmodel/IXpsOMCoreProperties.GetRevision
 dev_langs:
- - c++
+- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsobjectmodel.h
+- xpsobjectmodel.h
 api_name:
- - IXpsOMCoreProperties.GetRevision
+- IXpsOMCoreProperties.GetRevision
 targetos: Windows
 req.typenames: 
 req.redist: 

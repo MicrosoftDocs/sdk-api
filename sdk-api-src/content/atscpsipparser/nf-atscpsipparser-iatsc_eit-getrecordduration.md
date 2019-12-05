@@ -1,19 +1,17 @@
 ---
 UID: NF:atscpsipparser.IATSC_EIT.GetRecordDuration
 title: IATSC_EIT::GetRecordDuration (atscpsipparser.h)
-
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\iatsc_eit_getrecordduration.htm
 tech.root: mstv
 ms.assetid: f22a84de-eae3-4981-a38b-6d26fee03c54
-
 ms.date: 12/05/2018
 ms.keywords: GetRecordDuration, GetRecordDuration method [Microsoft TV Technologies], GetRecordDuration method [Microsoft TV Technologies],IATSC_EIT interface, IATSC_EIT interface [Microsoft TV Technologies],GetRecordDuration method, IATSC_EIT.GetRecordDuration, IATSC_EIT::GetRecordDuration, IATSC_EITGetRecordDuration, atscpsipparser/IATSC_EIT::GetRecordDuration, mstv.iatsc_eit_getrecordduration
 ms.topic: method
-f1_keywords: 
- - "atscpsipparser/IATSC_EIT.GetRecordDuration"
+f1_keywords:
+- atscpsipparser/IATSC_EIT.GetRecordDuration
 dev_langs:
- - c++
+- c++
 req.header: atscpsipparser.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - atscpsipparser.h
+- atscpsipparser.h
 api_name:
- - IATSC_EIT.GetRecordDuration
+- IATSC_EIT.GetRecordDuration
 targetos: Windows
 req.typenames: 
 req.redist: 

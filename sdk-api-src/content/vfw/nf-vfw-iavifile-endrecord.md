@@ -1,19 +1,17 @@
 ---
 UID: NF:vfw.IAVIFile.EndRecord
 title: IAVIFile::EndRecord (vfw.h)
-
 description: The EndRecord method writes the &#0034;REC&#0034; chunk in a tightly interleaved AVI file (having a one-to-one interleave factor of audio to video). Called when an application uses the AVIFileEndRecord function.
 old-location: multimedia\iavifile_endrecord.htm
 tech.root: Multimedia
 ms.assetid: 43c4edbf-d736-4d85-9726-123f92145134
-
 ms.date: 12/05/2018
 ms.keywords: EndRecord, EndRecord method [Windows Multimedia], EndRecord method [Windows Multimedia],IAVIFile interface, IAVIFile interface [Windows Multimedia],EndRecord method, IAVIFile.EndRecord, IAVIFile::EndRecord, _win32_IAVIFile_EndRecord, multimedia.iavifile_endrecord, vfw/IAVIFile::EndRecord
 ms.topic: method
-f1_keywords: 
- - "vfw/IAVIFile.EndRecord"
+f1_keywords:
+- vfw/IAVIFile.EndRecord
 dev_langs:
- - c++
+- c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Vfw32.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Vfw32.lib
- - Vfw32.dll
+- Vfw32.lib
+- Vfw32.dll
 api_name:
- - IAVIFile.EndRecord
+- IAVIFile.EndRecord
 targetos: Windows
 req.typenames: 
 req.redist: 

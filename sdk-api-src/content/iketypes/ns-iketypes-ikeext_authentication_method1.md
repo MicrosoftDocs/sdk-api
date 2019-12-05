@@ -1,19 +1,17 @@
 ---
 UID: NS:iketypes.IKEEXT_AUTHENTICATION_METHOD1_
 title: IKEEXT_AUTHENTICATION_METHOD1 (iketypes.h)
-
 description: Specifies various parameters for IKE/Authip authentication.
 old-location: fwp\ikeext_authentication_method1.htm
 tech.root: fwp
 ms.assetid: 55894ac3-2cb7-4828-8346-9ca66ce3253a
-
 ms.date: 12/05/2018
 ms.keywords: IKEEXT_AUTHENTICATION_METHOD1, IKEEXT_AUTHENTICATION_METHOD1 structure [Filtering], fwp.ikeext_authentication_method1, iketypes/IKEEXT_AUTHENTICATION_METHOD1
 ms.topic: struct
-f1_keywords: 
- - "iketypes/IKEEXT_AUTHENTICATION_METHOD1"
+f1_keywords:
+- iketypes/IKEEXT_AUTHENTICATION_METHOD1
 dev_langs:
- - c++
+- c++
 req.header: iketypes.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Iketypes.h
+- Iketypes.h
 api_name:
- - IKEEXT_AUTHENTICATION_METHOD1
+- IKEEXT_AUTHENTICATION_METHOD1
 targetos: Windows
 req.typenames: IKEEXT_AUTHENTICATION_METHOD1
 req.redist: 

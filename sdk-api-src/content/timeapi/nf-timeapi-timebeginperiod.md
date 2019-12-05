@@ -1,19 +1,17 @@
 ---
 UID: NF:timeapi.timeBeginPeriod
 title: timeBeginPeriod function (timeapi.h)
-
 description: The timeBeginPeriod function requests a minimum resolution for periodic timers.
 old-location: multimedia\timebeginperiod.htm
 tech.root: Multimedia
 ms.assetid: 7168981c-9af8-4665-88a2-7d96a8f2b273
-
 ms.date: 12/05/2018
-ms.keywords: "_win32_timeBeginPeriod, mmsystem/timeBeginPeriod, multimedia.timebeginperiod, timeBeginPeriod, timeBeginPeriod function [Windows Multimedia], timeapi/timeBeginPeriod"
+ms.keywords: _win32_timeBeginPeriod, mmsystem/timeBeginPeriod, multimedia.timebeginperiod, timeBeginPeriod, timeBeginPeriod function [Windows Multimedia], timeapi/timeBeginPeriod
 ms.topic: function
-f1_keywords: 
- - "timeapi/timeBeginPeriod"
+f1_keywords:
+- timeapi/timeBeginPeriod
 dev_langs:
- - c++
+- c++
 req.header: timeapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Winmm.lib
 req.dll: Winmm.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Winmm.dll
- - API-MS-Win-mm-Time-l1-1-0.dll
- - Kernel32.dll
- - Kernel32legacy.dll
+- Winmm.dll
+- API-MS-Win-mm-Time-l1-1-0.dll
+- Kernel32.dll
+- Kernel32legacy.dll
 api_name:
- - timeBeginPeriod
+- timeBeginPeriod
 targetos: Windows
 req.typenames: 
 req.redist: 

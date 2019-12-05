@@ -1,19 +1,17 @@
 ---
 UID: NE:wmsdkidl.WMT_ATTR_DATATYPE
 title: WMT_ATTR_DATATYPE (wmsdkidl.h)
-
 description: The WMT_ATTR_DATATYPE enumeration defines the data type for a variably typed property.
 old-location: wmformat\wmt_attr_datatype.htm
 tech.root: wmformat
 ms.assetid: 2a2756f9-2d76-48c9-bbea-35ee33a39918
-
 ms.date: 12/05/2018
 ms.keywords: WMT_ATTR_DATATYPE, WMT_ATTR_DATATYPE enumeration [windows Media Format], WMT_TYPE_BINARY, WMT_TYPE_BOOL, WMT_TYPE_DWORD, WMT_TYPE_GUID, WMT_TYPE_QWORD, WMT_TYPE_STRING, WMT_TYPE_WORD, wmformat.wmt_attr_datatype, wmsdkidl/WMT_ATTR_DATATYPE, wmsdkidl/WMT_TYPE_BINARY, wmsdkidl/WMT_TYPE_BOOL, wmsdkidl/WMT_TYPE_DWORD, wmsdkidl/WMT_TYPE_GUID, wmsdkidl/WMT_TYPE_QWORD, wmsdkidl/WMT_TYPE_STRING, wmsdkidl/WMT_TYPE_WORD
 ms.topic: enum
-f1_keywords: 
- - "wmsdkidl/WMT_ATTR_DATATYPE"
+f1_keywords:
+- wmsdkidl/WMT_ATTR_DATATYPE
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wmsdkidl.h
+- Wmsdkidl.h
 api_name:
- - WMT_ATTR_DATATYPE
+- WMT_ATTR_DATATYPE
 targetos: Windows
 req.typenames: WMT_ATTR_DATATYPE
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IAMExtTransport.SetTransportVideoParameters
 title: IAMExtTransport::SetTransportVideoParameters (strmif.h)
-
 description: The SetTransportVideoParameters method assigns video parameters for external transport.
 old-location: dshow\iamexttransport_settransportvideoparameters.htm
 tech.root: DirectShow
 ms.assetid: 8a63f921-0abb-417b-89c0-9dfb30ebbe57
-
 ms.date: 12/05/2018
 ms.keywords: IAMExtTransport interface [DirectShow],SetTransportVideoParameters method, IAMExtTransport.SetTransportVideoParameters, IAMExtTransport::SetTransportVideoParameters, IAMExtTransportSetTransportVideoParameters, SetTransportVideoParameters, SetTransportVideoParameters method [DirectShow], SetTransportVideoParameters method [DirectShow],IAMExtTransport interface, dshow.iamexttransport_settransportvideoparameters, strmif/IAMExtTransport::SetTransportVideoParameters
 ms.topic: method
-f1_keywords: 
- - "strmif/IAMExtTransport.SetTransportVideoParameters"
+f1_keywords:
+- strmif/IAMExtTransport.SetTransportVideoParameters
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IAMExtTransport.SetTransportVideoParameters
+- IAMExtTransport.SetTransportVideoParameters
 targetos: Windows
 req.typenames: 
 req.redist: 

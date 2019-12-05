@@ -1,19 +1,17 @@
 ---
 UID: NE:wininet.__unnamed_enum_1
 title: InternetCookieState (wininet.h)
-
 description: The InternetCookieState enumeration defines the state of the cookie.
 old-location: wininet\internetcookiestate.htm
 tech.root: wininet
 ms.assetid: 3f43f492-3133-4cbd-9ab9-3c9600ef5263
-
 ms.date: 12/05/2018
 ms.keywords: COOKIE_STATE_ACCEPT, COOKIE_STATE_DOWNGRADE, COOKIE_STATE_LEASH, COOKIE_STATE_MAX, COOKIE_STATE_PROMPT, COOKIE_STATE_REJECT, COOKIE_STATE_UNKNOWN, InternetCookieState, InternetCookieState enumeration [WinINet], wininet.internetcookiestate, wininet/COOKIE_STATE_ACCEPT, wininet/COOKIE_STATE_DOWNGRADE, wininet/COOKIE_STATE_LEASH, wininet/COOKIE_STATE_MAX, wininet/COOKIE_STATE_PROMPT, wininet/COOKIE_STATE_REJECT, wininet/COOKIE_STATE_UNKNOWN, wininet/InternetCookieState
 ms.topic: enum
-f1_keywords: 
- - "wininet/InternetCookieState"
+f1_keywords:
+- wininet/InternetCookieState
 dev_langs:
- - c++
+- c++
 req.header: wininet.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wininet.h
+- Wininet.h
 api_name:
- - InternetCookieState
+- InternetCookieState
 targetos: Windows
 req.typenames: InternetCookieState
 req.redist: 

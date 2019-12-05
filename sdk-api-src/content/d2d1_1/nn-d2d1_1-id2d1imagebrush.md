@@ -1,19 +1,17 @@
 ---
 UID: NN:d2d1_1.ID2D1ImageBrush
 title: ID2D1ImageBrush (d2d1_1.h)
-
 description: Represents a brush based on an ID2D1Image.
 old-location: direct2d\id2d1imagebrush.htm
 tech.root: Direct2D
 ms.assetid: c5088ce2-5744-4061-957b-25831478a714
-
 ms.date: 12/05/2018
 ms.keywords: ID2D1ImageBrush, ID2D1ImageBrush interface [Direct2D], ID2D1ImageBrush interface [Direct2D],described, d2d1_1/ID2D1ImageBrush, direct2d.id2d1imagebrush
 ms.topic: interface
-f1_keywords: 
- - "d2d1_1/ID2D1ImageBrush"
+f1_keywords:
+- d2d1_1/ID2D1ImageBrush
 dev_langs:
- - c++
+- c++
 req.header: d2d1_1.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: D2d1.lib
 req.dll: D2d1.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - d2d1.dll
+- d2d1.dll
 api_name:
- - ID2D1ImageBrush
+- ID2D1ImageBrush
 targetos: Windows
 req.typenames: 
 req.redist: 

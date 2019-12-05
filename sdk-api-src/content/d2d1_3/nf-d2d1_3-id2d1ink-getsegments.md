@@ -1,19 +1,17 @@
 ---
 UID: NF:d2d1_3.ID2D1Ink.GetSegments
 title: ID2D1Ink::GetSegments (d2d1_3.h)
-
 description: Retrieves the specified subset of segments stored in this ink object.
 old-location: direct2d\id2d1ink_getsegments.htm
 tech.root: Direct2D
 ms.assetid: 3B6E2823-6F66-4C2F-B8EA-94B03F19DFCD
-
 ms.date: 12/05/2018
 ms.keywords: GetSegments, GetSegments method [Direct2D], GetSegments method [Direct2D],ID2D1Ink interface, ID2D1Ink interface [Direct2D],GetSegments method, ID2D1Ink.GetSegments, ID2D1Ink::GetSegments, d2d1_3/ID2D1Ink::GetSegments, direct2d.id2d1ink_getsegments
 ms.topic: method
-f1_keywords: 
- - "d2d1_3/ID2D1Ink.GetSegments"
+f1_keywords:
+- d2d1_3/ID2D1Ink.GetSegments
 dev_langs:
- - c++
+- c++
 req.header: d2d1_3.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: D2d1_3.lib
 req.dll: D2d1_3.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - d2d1_3.dll
+- d2d1_3.dll
 api_name:
- - ID2D1Ink.GetSegments
+- ID2D1Ink.GetSegments
 targetos: Windows
 req.typenames: 
 req.redist: 

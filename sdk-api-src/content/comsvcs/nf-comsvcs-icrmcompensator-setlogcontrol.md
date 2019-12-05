@@ -1,19 +1,17 @@
 ---
 UID: NF:comsvcs.ICrmCompensator.SetLogControl
 title: ICrmCompensator::SetLogControl (comsvcs.h)
-
 description: Delivers an ICrmLogControl interface to the CRM Compensator so that it can write further log records during transaction completion.
 old-location: cos\icrmcompensator_setlogcontrol.htm
 tech.root: cossdk
 ms.assetid: a68e49c7-a0d3-4c37-b438-864578e4a680
-
 ms.date: 12/05/2018
 ms.keywords: ICrmCompensator interface [COM+],SetLogControl method, ICrmCompensator.SetLogControl, ICrmCompensator::SetLogControl, SetLogControl, SetLogControl method [COM+], SetLogControl method [COM+],ICrmCompensator interface, _dtc_ICrmCompensator_SetLogControl, comsvcs/ICrmCompensator::SetLogControl, cos.icrmcompensator_setlogcontrol
 ms.topic: method
-f1_keywords: 
- - "comsvcs/ICrmCompensator.SetLogControl"
+f1_keywords:
+- comsvcs/ICrmCompensator.SetLogControl
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - ICrmCompensator.SetLogControl
+- ICrmCompensator.SetLogControl
 targetos: Windows
 req.typenames: 
 req.redist: 

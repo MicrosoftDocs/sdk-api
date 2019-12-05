@@ -1,19 +1,17 @@
 ---
 UID: NF:vdshwprv.IVdsLun.Shrink
 title: IVdsLun::Shrink (vdshwprv.h)
-
 description: Shrinks a LUN by a specified number of bytes.
 old-location: base\ivdslun_shrink.htm
 tech.root: VDS
 ms.assetid: a02f7741-c17a-48f3-a823-292613aa287b
-
 ms.date: 12/05/2018
 ms.keywords: IVdsLun interface [VDS],Shrink method, IVdsLun.Shrink, IVdsLun::Shrink, Shrink, Shrink method [VDS], Shrink method [VDS],IVdsLun interface, base.ivdslun_shrink, vds/IVdsLun::Shrink, vdshwprv/IVdsLun::Shrink
 ms.topic: method
-f1_keywords: 
- - "vdshwprv/IVdsLun.Shrink"
+f1_keywords:
+- vdshwprv/IVdsLun.Shrink
 dev_langs:
- - c++
+- c++
 req.header: vdshwprv.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Uuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Uuid.lib
- - Uuid.dll
+- Uuid.lib
+- Uuid.dll
 api_name:
- - IVdsLun.Shrink
+- IVdsLun.Shrink
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl.IAccessibilityDockingServiceCallback.Undocked
 title: IAccessibilityDockingServiceCallback::Undocked (shobjidl.h)
-
 description: Undocks the accessibility window so that it will not be automatically moved to its previous location.
 old-location: com\iaccessibilitydockingservicecallback_undocked.htm
 tech.root: com
 ms.assetid: 1D704794-C729-49B9-8F72-6D77D0860B03
-
 ms.date: 12/05/2018
 ms.keywords: IAccessibilityDockingServiceCallback interface [COM],Undocked method, IAccessibilityDockingServiceCallback.Undocked, IAccessibilityDockingServiceCallback::Undocked, Undocked, Undocked method [COM], Undocked method [COM],IAccessibilityDockingServiceCallback interface, com.iaccessibilitydockingservicecallback_undocked, shobjidl/IAccessibilityDockingServiceCallback::Undocked
 ms.topic: method
-f1_keywords: 
- - "shobjidl/IAccessibilityDockingServiceCallback.Undocked"
+f1_keywords:
+- shobjidl/IAccessibilityDockingServiceCallback.Undocked
 dev_langs:
- - c++
+- c++
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl.h
+- shobjidl.h
 api_name:
- - IAccessibilityDockingServiceCallback.Undocked
+- IAccessibilityDockingServiceCallback.Undocked
 targetos: Windows
 req.typenames: 
 req.redist: 

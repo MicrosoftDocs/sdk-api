@@ -1,19 +1,17 @@
 ---
 UID: NE:netsh._NS_REQS
 title: NS_REQS (netsh.h)
-
 description: Specifies the number of events.
 old-location: netshell\ns_reqs.htm
 tech.root: netshell
 ms.assetid: f8510cef-9b7d-4827-8b09-7584bf32b220
-
 ms.date: 12/05/2018
 ms.keywords: NS_REQS, NS_REQS enumeration [NetShell], netsh/NS_REQS, netshell.ns_reqs
 ms.topic: enum
-f1_keywords: 
- - "netsh/NS_REQS"
+f1_keywords:
+- netsh/NS_REQS
 dev_langs:
- - c++
+- c++
 req.header: netsh.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Netsh.h
+- Netsh.h
 api_name:
- - NS_REQS
+- NS_REQS
 targetos: Windows
 req.typenames: NS_REQS
 req.redist: 

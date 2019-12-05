@@ -1,19 +1,17 @@
 ---
 UID: NF:winuser.GetNextWindow
 title: GetNextWindow macro (winuser.h)
-
 description: Retrieves a handle to the next or previous window in the Z-Order. The next window is below the specified window; the previous window is above.
 old-location: winmsg\getnextwindow.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowfunctions\getnextwindow.htm
-
 ms.date: 12/05/2018
 ms.keywords: GW_HWNDNEXT, GW_HWNDPREV, GetNextWindow, GetNextWindow function [Windows and Messages], _win32_GetNextWindow, _win32_getnextwindow_cpp, winmsg.getnextwindow, winui._win32_getnextwindow, winuser/GetNextWindow
 ms.topic: macro
-f1_keywords: 
- - "winuser/GetNextWindow"
+f1_keywords:
+- winuser/GetNextWindow
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Winuser.h
+- Winuser.h
 api_name:
- - GetNextWindow
+- GetNextWindow
 targetos: Windows
 req.typenames: 
 req.redist: 

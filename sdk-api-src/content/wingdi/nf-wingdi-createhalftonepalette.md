@@ -1,19 +1,17 @@
 ---
 UID: NF:wingdi.CreateHalftonePalette
 title: CreateHalftonePalette function (wingdi.h)
-
 description: The CreateHalftonePalette function creates a halftone palette for the specified device context (DC).
 old-location: gdi\createhalftonepalette.htm
 tech.root: gdi
 ms.assetid: ba9dfa0c-98df-4922-acba-d00e9b4b0fb0
-
 ms.date: 12/05/2018
 ms.keywords: CreateHalftonePalette, CreateHalftonePalette function [Windows GDI], _win32_CreateHalftonePalette, gdi.createhalftonepalette, wingdi/CreateHalftonePalette
 ms.topic: function
-f1_keywords: 
- - "wingdi/CreateHalftonePalette"
+f1_keywords:
+- wingdi/CreateHalftonePalette
 dev_langs:
- - c++
+- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - gdi32.dll
- - ext-ms-win-gdi-dc-l1-2-1.dll
- - GDI32Full.dll
+- gdi32.dll
+- ext-ms-win-gdi-dc-l1-2-1.dll
+- GDI32Full.dll
 api_name:
- - CreateHalftonePalette
+- CreateHalftonePalette
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi3.ITAgent.get_TotalWrapUpTime
 title: ITAgent::get_TotalWrapUpTime (tapi3.h)
-
 description: The get_TotalWrapUpTime method gets the number of seconds spent on ACD call wrap-up (after-call work) by this agent (across all sessions).
 old-location: tapi3\itagent_get_totalwrapuptime.htm
 tech.root: Tapi
 ms.assetid: 23fb0c9b-b3c7-4a1d-91fc-9ecfb6a2d8bf
-
 ms.date: 12/05/2018
 ms.keywords: ITAgent interface [TAPI 2.2],get_TotalWrapUpTime method, ITAgent.get_TotalWrapUpTime, ITAgent::get_TotalWrapUpTime, _tapi3_itagent_get_totalwrapuptime, get_TotalWrapUpTime, get_TotalWrapUpTime method [TAPI 2.2], get_TotalWrapUpTime method [TAPI 2.2],ITAgent interface, tapi3.itagent_get_totalwrapuptime, tapi3cc/ITAgent::get_TotalWrapUpTime
 ms.topic: method
-f1_keywords: 
- - "tapi3/ITAgent.get_TotalWrapUpTime"
+f1_keywords:
+- tapi3/ITAgent.get_TotalWrapUpTime
 dev_langs:
- - c++
+- c++
 req.header: tapi3.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Tapi3.dll
+- Tapi3.dll
 api_name:
- - ITAgent.get_TotalWrapUpTime
+- ITAgent.get_TotalWrapUpTime
 targetos: Windows
 req.typenames: 
 req.redist: 

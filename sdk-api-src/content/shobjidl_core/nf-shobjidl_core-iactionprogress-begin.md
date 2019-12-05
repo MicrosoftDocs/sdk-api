@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IActionProgress.Begin
 title: IActionProgress::Begin (shobjidl_core.h)
-
 description: Called when an action has begun that requires its progress be displayed to the user.
 old-location: shell\IActionProgress_Begin.htm
 tech.root: shell
 ms.assetid: c26dd072-6d59-4c6c-a273-682ded994612
-
 ms.date: 12/05/2018
 ms.keywords: Begin, Begin method [Windows Shell], Begin method [Windows Shell],IActionProgress interface, IActionProgress interface [Windows Shell],Begin method, IActionProgress.Begin, IActionProgress::Begin, shell.IActionProgress_Begin, shell_IActionProgress_Begin, shobjidl_core/IActionProgress::Begin
 ms.topic: method
 f1_keywords:
 - shobjidl_core/IActionProgress.Begin
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

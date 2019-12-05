@@ -1,19 +1,17 @@
 ---
 UID: NF:securitybaseapi.AddResourceAttributeAce
 title: AddResourceAttributeAce function (securitybaseapi.h)
-
 description: Adds a SYSTEM_RESOURCE_ATTRIBUTE_ACEaccess control entry (ACE) to the end of a system access control list (SACL).
 old-location: security\addresourceattributeace.htm
 tech.root: SecAuthZ
 ms.assetid: AA2064E4-6F76-4D7B-8540-D55A91168825
-
 ms.date: 12/05/2018
 ms.keywords: AddResourceAttributeAce, AddResourceAttributeAce function [Security], CONTAINER_INHERIT_ACE, INHERITED_ACE, INHERIT_ONLY_ACE, NO_PROPAGATE_INHERIT_ACE, OBJECT_INHERIT_ACE, security.addresourceattributeace, securitybaseapi/AddResourceAttributeAce
 ms.topic: function
 f1_keywords:
 - securitybaseapi/AddResourceAttributeAce
 dev_langs:
- - c++
+- c++
 req.header: securitybaseapi.h
 req.include-header: 
 req.target-type: Windows

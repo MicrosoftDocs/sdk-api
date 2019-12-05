@@ -1,19 +1,17 @@
 ---
 UID: NF:msctf.ITfCandidateListUIElementBehavior.Abort
 title: ITfCandidateListUIElementBehavior::Abort (msctf.h)
-
 description: The ITfCandidateListUIElementBehavior::Abort method closes the candidate list. There is no guarantee that the current selection will be finalized.
 old-location: tsf\itfcandidatelistuielementbehavior_abort.htm
 tech.root: TSF
 ms.assetid: 2e9d231c-fd80-45fa-bfd0-6a9e057dccf2
-
 ms.date: 12/05/2018
 ms.keywords: Abort, Abort method [Text Services Framework], Abort method [Text Services Framework],ITfCandidateListUIElementBehavior interface, ITfCandidateListUIElementBehavior interface [Text Services Framework],Abort method, ITfCandidateListUIElementBehavior.Abort, ITfCandidateListUIElementBehavior::Abort, msctf/ITfCandidateListUIElementBehavior::Abort, tsf.itfcandidatelistuielementbehavior_abort
 ms.topic: method
-f1_keywords: 
- - "msctf/ITfCandidateListUIElementBehavior.Abort"
+f1_keywords:
+- msctf/ITfCandidateListUIElementBehavior.Abort
 dev_langs:
- - c++
+- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msctf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msctf.dll
+- Msctf.dll
 api_name:
- - ITfCandidateListUIElementBehavior.Abort
+- ITfCandidateListUIElementBehavior.Abort
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

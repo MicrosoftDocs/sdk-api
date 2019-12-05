@@ -1,19 +1,17 @@
 ---
 UID: NF:gdiplusmatrix.Matrix.Shear
 title: Matrix::Shear (gdiplusmatrix.h)
-
 description: The Matrix::Shear method updates this matrix with the product of itself and a shearing matrix.
 old-location: gdiplus\_gdiplus_CLASS_Matrix_Shear_shearX_shearY_order_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\matrixclass\matrixmethods\shear.htm
-
 ms.date: 12/05/2018
 ms.keywords: Matrix class [GDI+],Shear method, Matrix.Shear, Matrix::Shear, Shear, Shear method [GDI+], Shear method [GDI+],Matrix class, _gdiplus_CLASS_Matrix_Shear_shearX_shearY_order_, gdiplus._gdiplus_CLASS_Matrix_Shear_shearX_shearY_order_
 ms.topic: method
-f1_keywords: 
- - "gdiplusmatrix/Matrix.Shear"
+f1_keywords:
+- gdiplusmatrix/Matrix.Shear
 dev_langs:
- - c++
+- c++
 req.header: gdiplusmatrix.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - Matrix.Shear
+- Matrix.Shear
 targetos: Windows
 req.typenames: 
 req.redist: 

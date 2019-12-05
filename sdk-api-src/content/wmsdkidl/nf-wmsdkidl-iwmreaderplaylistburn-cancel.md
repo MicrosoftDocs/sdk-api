@@ -1,19 +1,17 @@
 ---
 UID: NF:wmsdkidl.IWMReaderPlaylistBurn.Cancel
 title: IWMReaderPlaylistBurn::Cancel (wmsdkidl.h)
-
 description: The Cancel method cancels an initiated playlist burn before initialization is finished.
 old-location: wmformat\iwmreaderplaylistburn_cancel.htm
 tech.root: wmformat
 ms.assetid: d126f13b-90ac-489e-8dd0-e507f4003a7a
-
 ms.date: 12/05/2018
 ms.keywords: Cancel, Cancel method [windows Media Format], Cancel method [windows Media Format],IWMReaderPlaylistBurn interface, IWMReaderPlaylistBurn interface [windows Media Format],Cancel method, IWMReaderPlaylistBurn.Cancel, IWMReaderPlaylistBurn::Cancel, IWMReaderPlaylistBurnCancel, wmformat.iwmreaderplaylistburn_cancel, wmsdkidl/IWMReaderPlaylistBurn::Cancel
 ms.topic: method
-f1_keywords: 
- - "wmsdkidl/IWMReaderPlaylistBurn.Cancel"
+f1_keywords:
+- wmsdkidl/IWMReaderPlaylistBurn.Cancel
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wmvcore.lib
- - Wmvcore.dll
- - WMStubDRM.lib
- - WMStubDRM.dll
+- Wmvcore.lib
+- Wmvcore.dll
+- WMStubDRM.lib
+- WMStubDRM.dll
 api_name:
- - IWMReaderPlaylistBurn.Cancel
+- IWMReaderPlaylistBurn.Cancel
 targetos: Windows
 req.typenames: 
 req.redist: 

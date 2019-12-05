@@ -1,19 +1,17 @@
 ---
 UID: NF:photoacquire.IPhotoAcquireItem.GetSubItemAt
 title: IPhotoAcquireItem::GetSubItemAt (photoacquire.h)
-
 description: The GetSubItemAt method retrieves a subitem of an item, given the index of the subitem.
 old-location: picacq\iphotoacquireitem_getsubitemat.htm
 tech.root: acquisition
 ms.assetid: 2fd410a0-20b5-4e16-9d36-89a14443c8bd
-
 ms.date: 12/05/2018
 ms.keywords: GetSubItemAt, GetSubItemAt method [Picture Acquisition], GetSubItemAt method [Picture Acquisition],IPhotoAcquireItem interface, IPhotoAcquireItem interface [Picture Acquisition],GetSubItemAt method, IPhotoAcquireItem.GetSubItemAt, IPhotoAcquireItem::GetSubItemAt, IPhotoAcquireItemGetSubItemAt, photoacquire/IPhotoAcquireItem::GetSubItemAt, picacq.iphotoacquireitem_getsubitemat
 ms.topic: method
-f1_keywords: 
- - "photoacquire/IPhotoAcquireItem.GetSubItemAt"
+f1_keywords:
+- photoacquire/IPhotoAcquireItem.GetSubItemAt
 dev_langs:
- - c++
+- c++
 req.header: photoacquire.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: PhotoAcquireUID.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - PhotoAcquireUID.lib
- - PhotoAcquireUID.dll
+- PhotoAcquireUID.lib
+- PhotoAcquireUID.dll
 api_name:
- - IPhotoAcquireItem.GetSubItemAt
+- IPhotoAcquireItem.GetSubItemAt
 targetos: Windows
 req.typenames: 
 req.redist: 

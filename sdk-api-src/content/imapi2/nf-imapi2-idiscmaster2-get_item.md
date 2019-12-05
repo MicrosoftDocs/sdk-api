@@ -1,19 +1,17 @@
 ---
 UID: NF:imapi2.IDiscMaster2.get_Item
 title: IDiscMaster2::get_Item (imapi2.h)
-
 description: Retrieves the unique identifier of the specified disc device.
 old-location: imapi\idiscmaster2_get_item.htm
 tech.root: imapi
 ms.assetid: e909acb9-850b-404d-a2f7-efb37faf3506
-
 ms.date: 12/05/2018
 ms.keywords: IDiscMaster2 interface [IMAPI],get_Item method, IDiscMaster2.get_Item, IDiscMaster2::get_Item, get_Item, get_Item method [IMAPI], get_Item method [IMAPI],IDiscMaster2 interface, imapi.idiscmaster2_get_item, imapi2/IDiscMaster2::get_Item
 ms.topic: method
-f1_keywords: 
- - "imapi2/IDiscMaster2.get_Item"
+f1_keywords:
+- imapi2/IDiscMaster2.get_Item
 dev_langs:
- - c++
+- c++
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - imapi2.h
+- imapi2.h
 api_name:
- - IDiscMaster2.get_Item
+- IDiscMaster2.get_Item
 targetos: Windows
 req.typenames: 
 req.redist: 

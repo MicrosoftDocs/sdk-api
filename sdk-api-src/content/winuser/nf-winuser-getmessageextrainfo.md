@@ -1,19 +1,17 @@
 ---
 UID: NF:winuser.GetMessageExtraInfo
 title: GetMessageExtraInfo function (winuser.h)
-
 description: Retrieves the extra message information for the current thread. Extra message information is an application- or driver-defined value associated with the current thread's message queue.
 old-location: winmsg\getmessageextrainfo.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\messagesandmessagequeues\messagesandmessagequeuesreference\messagesandmessagequeuesfunctions\getmessageextrainfo.htm
-
 ms.date: 12/05/2018
 ms.keywords: GetMessageExtraInfo, GetMessageExtraInfo function [Windows and Messages], _win32_GetMessageExtraInfo, _win32_getmessageextrainfo_cpp, winmsg.getmessageextrainfo, winui._win32_getmessageextrainfo, winuser/GetMessageExtraInfo
 ms.topic: function
-f1_keywords: 
- - "winuser/GetMessageExtraInfo"
+f1_keywords:
+- winuser/GetMessageExtraInfo
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,19 +30,19 @@ req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - User32.dll
- - API-MS-Win-NTUser-IE-message-l1-1-0.dll
- - ie_shims.dll
- - API-MS-Win-RTCore-NTUser-Window-l1-1-0.dll
- - minuser.dll
- - Ext-MS-Win-RTCore-NTUser-Window-Ext-l1-1-0.dll
+- User32.dll
+- API-MS-Win-NTUser-IE-message-l1-1-0.dll
+- ie_shims.dll
+- API-MS-Win-RTCore-NTUser-Window-l1-1-0.dll
+- minuser.dll
+- Ext-MS-Win-RTCore-NTUser-Window-Ext-l1-1-0.dll
 api_name:
- - GetMessageExtraInfo
+- GetMessageExtraInfo
 targetos: Windows
 req.typenames: 
 req.redist: 

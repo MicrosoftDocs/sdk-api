@@ -1,19 +1,17 @@
 ---
 UID: NF:msinkaut.IInkCollector.putref_Ink
 title: IInkCollector::putref_Ink (msinkaut.h)
-
 description: Gets or sets the InkDisp object that is associated with an InkCollector object or an InkOverlay object.
 old-location: tablet\inkcollector_ink.htm
 tech.root: tablet
 ms.assetid: 62881a0e-3932-49a1-8e7d-3e74474f2214
-
 ms.date: 12/05/2018
 ms.keywords: 62881a0e-3932-49a1-8e7d-3e74474f2214, IInkCollector interface [Tablet PC],Ink property, IInkCollector.Ink, IInkCollector.get_Ink, IInkCollector.putref_Ink, IInkCollector::Ink, IInkCollector::get_Ink, IInkCollector::putref_Ink, Ink property [Tablet PC], Ink property [Tablet PC],IInkCollector interface, InkCollector.get_Ink, get_Ink, msinkaut/IInkCollector::Ink, msinkaut/IInkCollector::get_Ink, msinkaut/IInkCollector::putref_Ink, putref_Ink, tablet.inkcollector_ink
 ms.topic: method
-f1_keywords: 
- - "msinkaut/IInkCollector.Ink"
+f1_keywords:
+- msinkaut/IInkCollector.Ink
 dev_langs:
- - c++
+- c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows
@@ -32,19 +30,19 @@ req.lib: InkObj.dll
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - InkObj.dll
- - InkObj.dll.dll
+- InkObj.dll
+- InkObj.dll.dll
 api_name:
- - IInkCollector.Ink
- - IInkCollector.get_Ink
- - get_Ink
- - IInkCollector.get_Ink
- - InkCollector.get_Ink
+- IInkCollector.Ink
+- IInkCollector.get_Ink
+- get_Ink
+- IInkCollector.get_Ink
+- InkCollector.get_Ink
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:ctffunc.IEnumTfCandidates.Clone
 title: IEnumTfCandidates::Clone (ctffunc.h)
-
 description: IEnumTfCandidates::Clone method
 old-location: tsf\ienumtfcandidates_clone.htm
 tech.root: TSF
 ms.assetid: 7e7fc6d9-69eb-4457-be28-2b28b9eeeabb
-
 ms.date: 12/05/2018
 ms.keywords: Clone, Clone method [Text Services Framework], Clone method [Text Services Framework],IEnumTfCandidates interface, IEnumTfCandidates interface [Text Services Framework],Clone method, IEnumTfCandidates.Clone, IEnumTfCandidates::Clone, _tsf_ienumtfcandidates_clone_ref, ctffunc/IEnumTfCandidates::Clone, tsf.ienumtfcandidates_clone
 ms.topic: method
-f1_keywords: 
- - "ctffunc/IEnumTfCandidates.Clone"
+f1_keywords:
+- ctffunc/IEnumTfCandidates.Clone
 dev_langs:
- - c++
+- c++
 req.header: ctffunc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msctf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msctf.dll
+- Msctf.dll
 api_name:
- - IEnumTfCandidates.Clone
+- IEnumTfCandidates.Clone
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

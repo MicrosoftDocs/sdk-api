@@ -1,19 +1,17 @@
 ---
 UID: NF:netfw.INetFwProfile.put_ExceptionsNotAllowed
 title: INetFwProfile::put_ExceptionsNotAllowed (netfw.h)
-
 description: Indicates whether the firewall should not allow exceptions.
 old-location: ics\inetfwprofile_exceptionsnotallowed.htm
 tech.root: ics
 ms.assetid: 5b9eae72-546e-4724-acba-c2f2d9ad1cc6
-
 ms.date: 12/05/2018
 ms.keywords: ExceptionsNotAllowed property [ICS/ICF], ExceptionsNotAllowed property [ICS/ICF],INetFwProfile interface, INetFwProfile interface [ICS/ICF],ExceptionsNotAllowed property, INetFwProfile.ExceptionsNotAllowed, INetFwProfile.put_ExceptionsNotAllowed, INetFwProfile::ExceptionsNotAllowed, INetFwProfile::get_ExceptionsNotAllowed, INetFwProfile::put_ExceptionsNotAllowed, ics.inetfwprofile_exceptionsnotallowed, netfw/INetFwProfile::ExceptionsNotAllowed, netfw/INetFwProfile::get_ExceptionsNotAllowed, netfw/INetFwProfile::put_ExceptionsNotAllowed, put_ExceptionsNotAllowed
 ms.topic: method
-f1_keywords: 
- - "netfw/INetFwProfile.ExceptionsNotAllowed"
+f1_keywords:
+- netfw/INetFwProfile.ExceptionsNotAllowed
 dev_langs:
- - c++
+- c++
 req.header: netfw.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib:
 req.dll: FirewallAPI.dll; Hnetcfg.dll on Windows XP with SP2
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - FirewallAPI.dll
- - Hnetcfg.dll
+- FirewallAPI.dll
+- Hnetcfg.dll
 api_name:
- - INetFwProfile.ExceptionsNotAllowed
- - INetFwProfile.get_ExceptionsNotAllowed
- - INetFwProfile.put_ExceptionsNotAllowed
+- INetFwProfile.ExceptionsNotAllowed
+- INetFwProfile.get_ExceptionsNotAllowed
+- INetFwProfile.put_ExceptionsNotAllowed
 targetos: Windows
 req.typenames: 
 req.redist: 

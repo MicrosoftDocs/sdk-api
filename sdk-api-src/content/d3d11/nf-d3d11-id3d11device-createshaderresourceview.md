@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d11.ID3D11Device.CreateShaderResourceView
 title: ID3D11Device::CreateShaderResourceView (d3d11.h)
-
 description: Create a shader-resource view for accessing data in a resource.
 old-location: direct3d11\id3d11device_createshaderresourceview.htm
 tech.root: direct3d11
 ms.assetid: a8e3cda3-76f9-48c3-9e0c-e530f95fe8b8
-
 ms.date: 12/05/2018
 ms.keywords: 6f2fff53-b73d-3404-2005-37078d5f283b, CreateShaderResourceView, CreateShaderResourceView method [Direct3D 11], CreateShaderResourceView method [Direct3D 11],ID3D11Device interface, ID3D11Device interface [Direct3D 11],CreateShaderResourceView method, ID3D11Device.CreateShaderResourceView, ID3D11Device::CreateShaderResourceView, d3d11/ID3D11Device::CreateShaderResourceView, direct3d11.id3d11device_createshaderresourceview
 ms.topic: method
-f1_keywords: 
- - "d3d11/ID3D11Device.CreateShaderResourceView"
+f1_keywords:
+- d3d11/ID3D11Device.CreateShaderResourceView
 dev_langs:
- - c++
+- c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: D3D11.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D11.lib
- - D3D11.dll
+- D3D11.lib
+- D3D11.dll
 api_name:
- - ID3D11Device.CreateShaderResourceView
+- ID3D11Device.CreateShaderResourceView
 targetos: Windows
 req.typenames: 
 req.redist: 

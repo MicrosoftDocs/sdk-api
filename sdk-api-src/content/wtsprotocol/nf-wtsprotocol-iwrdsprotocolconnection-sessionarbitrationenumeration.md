@@ -1,19 +1,17 @@
 ---
 UID: NF:wtsprotocol.IWRdsProtocolConnection.SessionArbitrationEnumeration
 title: IWRdsProtocolConnection::SessionArbitrationEnumeration (wtsprotocol.h)
-
 description: Called after arbitration to allow the protocol to specify the sessions to be reconnected.
 old-location: termserv\iwrdsprotocolconnection_sessionarbitrationenumeration.htm
 tech.root: TermServ
 ms.assetid: d0e93014-1f79-47ac-bf3a-c100eb652751
-
 ms.date: 12/05/2018
 ms.keywords: IWRdsProtocolConnection interface [Remote Desktop Services],SessionArbitrationEnumeration method, IWRdsProtocolConnection.SessionArbitrationEnumeration, IWRdsProtocolConnection::SessionArbitrationEnumeration, SessionArbitrationEnumeration, SessionArbitrationEnumeration method [Remote Desktop Services], SessionArbitrationEnumeration method [Remote Desktop Services],IWRdsProtocolConnection interface, termserv.iwrdsprotocolconnection_sessionarbitrationenumeration, wtsprotocol/IWRdsProtocolConnection::SessionArbitrationEnumeration
 ms.topic: method
-f1_keywords: 
- - "wtsprotocol/IWRdsProtocolConnection.SessionArbitrationEnumeration"
+f1_keywords:
+- wtsprotocol/IWRdsProtocolConnection.SessionArbitrationEnumeration
 dev_langs:
- - c++
+- c++
 req.header: wtsprotocol.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wtsprotocol.h
+- wtsprotocol.h
 api_name:
- - IWRdsProtocolConnection.SessionArbitrationEnumeration
+- IWRdsProtocolConnection.SessionArbitrationEnumeration
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:vmr9.IVMRWindowlessControl9.SetBorderColor
 title: IVMRWindowlessControl9::SetBorderColor (vmr9.h)
-
 description: The SetBorderColor method sets the border color to be used by the VMR.
 old-location: dshow\ivmrwindowlesscontrol9_setbordercolor.htm
 tech.root: DirectShow
 ms.assetid: 462b264d-1b4c-482a-b154-382748abaf92
-
 ms.date: 12/05/2018
 ms.keywords: IVMRWindowlessControl9 interface [DirectShow],SetBorderColor method, IVMRWindowlessControl9.SetBorderColor, IVMRWindowlessControl9::SetBorderColor, IVMRWindowlessControl9SetBorderColor, SetBorderColor, SetBorderColor method [DirectShow], SetBorderColor method [DirectShow],IVMRWindowlessControl9 interface, dshow.ivmrwindowlesscontrol9_setbordercolor, vmr9/IVMRWindowlessControl9::SetBorderColor
 ms.topic: method
-f1_keywords: 
- - "vmr9/IVMRWindowlessControl9.SetBorderColor"
+f1_keywords:
+- vmr9/IVMRWindowlessControl9.SetBorderColor
 dev_langs:
- - c++
+- c++
 req.header: vmr9.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IVMRWindowlessControl9.SetBorderColor
+- IVMRWindowlessControl9.SetBorderColor
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NS:winioctl._SET_DISK_ATTRIBUTES
 title: SET_DISK_ATTRIBUTES
-
 description: Specifies the attributes to be set on a disk device.
 old-location: fs\set_disk_attributes.htm
 tech.root: FileIO
 ms.assetid: 2caa79aa-24f9-481d-bbe3-ecd3e49bf316
-
 ms.date: 12/05/2018
 ms.keywords: '*PSET_DISK_ATTRIBUTES, DISK_ATTRIBUTE_OFFLINE, DISK_ATTRIBUTE_READ_ONLY, PSET_DISK_ATTRIBUTES, PSET_DISK_ATTRIBUTES structure pointer [Files], SET_DISK_ATTRIBUTES, SET_DISK_ATTRIBUTES structure [Files], fs.set_disk_attributes, winioctl/PSET_DISK_ATTRIBUTES, winioctl/SET_DISK_ATTRIBUTES'
 ms.topic: struct
 f1_keywords:
 - winioctl/SET_DISK_ATTRIBUTES
 dev_langs:
- - c++
+- c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

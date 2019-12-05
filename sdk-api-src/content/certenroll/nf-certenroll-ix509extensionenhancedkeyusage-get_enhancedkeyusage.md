@@ -1,19 +1,17 @@
 ---
 UID: NF:certenroll.IX509ExtensionEnhancedKeyUsage.get_EnhancedKeyUsage
 title: IX509ExtensionEnhancedKeyUsage::get_EnhancedKeyUsage (certenroll.h)
-
 description: Retrieves a collection of key usage object identifiers (OIDs).
 old-location: security\ix509extensionenhancedkeyusage_enhancedkeyusage_property.htm
 tech.root: seccertenroll
 ms.assetid: 17a92139-0f6c-4371-b6cb-44185752abce
-
 ms.date: 12/05/2018
 ms.keywords: EnhancedKeyUsage property [Security], EnhancedKeyUsage property [Security],IX509ExtensionEnhancedKeyUsage interface, IX509ExtensionEnhancedKeyUsage interface [Security],EnhancedKeyUsage property, IX509ExtensionEnhancedKeyUsage.EnhancedKeyUsage, IX509ExtensionEnhancedKeyUsage.get_EnhancedKeyUsage, IX509ExtensionEnhancedKeyUsage::EnhancedKeyUsage, IX509ExtensionEnhancedKeyUsage::get_EnhancedKeyUsage, certenroll/IX509ExtensionEnhancedKeyUsage::EnhancedKeyUsage, certenroll/IX509ExtensionEnhancedKeyUsage::get_EnhancedKeyUsage, get_EnhancedKeyUsage, security.ix509extensionenhancedkeyusage_enhancedkeyusage_property
 ms.topic: method
-f1_keywords: 
- - "certenroll/IX509ExtensionEnhancedKeyUsage.EnhancedKeyUsage"
+f1_keywords:
+- certenroll/IX509ExtensionEnhancedKeyUsage.EnhancedKeyUsage
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: CertEnroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CertEnroll.dll
+- CertEnroll.dll
 api_name:
- - IX509ExtensionEnhancedKeyUsage.EnhancedKeyUsage
- - IX509ExtensionEnhancedKeyUsage.get_EnhancedKeyUsage
+- IX509ExtensionEnhancedKeyUsage.EnhancedKeyUsage
+- IX509ExtensionEnhancedKeyUsage.get_EnhancedKeyUsage
 targetos: Windows
 req.typenames: 
 req.redist: 

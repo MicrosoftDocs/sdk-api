@@ -1,19 +1,17 @@
 ---
 UID: NF:wuapi.IInstallationProgress.GetUpdateResult
 title: IInstallationProgress::GetUpdateResult (wuapi.h)
-
 description: Returns the result of the installation or uninstallation of a specified update.
 old-location: wua\iinstallationprogress_getupdateresult.htm
 tech.root: Wua_Sdk
 ms.assetid: a0cb92f4-6c97-42be-abf1-e1662e213a7d
-
 ms.date: 12/05/2018
 ms.keywords: GetUpdateResult, GetUpdateResult method [Windows Update Agent], GetUpdateResult method [Windows Update Agent],IInstallationProgress interface, IInstallationProgress interface [Windows Update Agent],GetUpdateResult method, IInstallationProgress.GetUpdateResult, IInstallationProgress::GetUpdateResult, wua.iinstallationprogress_getupdateresult, wuapi/IInstallationProgress::GetUpdateResult
 ms.topic: method
-f1_keywords: 
- - "wuapi/IInstallationProgress.GetUpdateResult"
+f1_keywords:
+- wuapi/IInstallationProgress.GetUpdateResult
 dev_langs:
- - c++
+- c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Wuguid.lib
 req.dll: Wuapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wuapi.dll
+- Wuapi.dll
 api_name:
- - IInstallationProgress.GetUpdateResult
+- IInstallationProgress.GetUpdateResult
 targetos: Windows
 req.typenames: 
 req.redist: 

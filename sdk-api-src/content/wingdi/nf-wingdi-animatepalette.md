@@ -1,19 +1,17 @@
 ---
 UID: NF:wingdi.AnimatePalette
 title: AnimatePalette function (wingdi.h)
-
 description: The AnimatePalette function replaces entries in the specified logical palette.
 old-location: gdi\animatepalette.htm
 tech.root: gdi
 ms.assetid: 65dd45e2-39a4-4a94-bd14-b0c8e4a609a3
-
 ms.date: 12/05/2018
 ms.keywords: AnimatePalette, AnimatePalette function [Windows GDI], _win32_AnimatePalette, gdi.animatepalette, wingdi/AnimatePalette
 ms.topic: function
-f1_keywords: 
- - "wingdi/AnimatePalette"
+f1_keywords:
+- wingdi/AnimatePalette
 dev_langs:
- - c++
+- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - gdi32.dll
- - Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
- - GDI32Full.dll
+- gdi32.dll
+- Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
+- GDI32Full.dll
 api_name:
- - AnimatePalette
+- AnimatePalette
 targetos: Windows
 req.typenames: 
 req.redist: 

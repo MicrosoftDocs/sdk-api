@@ -1,19 +1,17 @@
 ---
 UID: NF:shellapi.DragAcceptFiles
 title: DragAcceptFiles function (shellapi.h)
-
 description: Registers whether a window accepts dropped files.
 old-location: shell\DragAcceptFiles.htm
 tech.root: shell
 ms.assetid: 1f16f6e4-7847-4bc7-adce-995876db24bd
-
 ms.date: 12/05/2018
 ms.keywords: DragAcceptFiles, DragAcceptFiles function [Windows Shell], _win32_DragAcceptFiles, shell.DragAcceptFiles, shellapi/DragAcceptFiles
 ms.topic: function
-f1_keywords: 
- - "shellapi/DragAcceptFiles"
+f1_keywords:
+- shellapi/DragAcceptFiles
 dev_langs:
- - c++
+- c++
 req.header: shellapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Shell32.lib
 req.dll: Shell32.dll (version 4.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - DragAcceptFiles
+- DragAcceptFiles
 targetos: Windows
 req.typenames: 
 req.redist: 

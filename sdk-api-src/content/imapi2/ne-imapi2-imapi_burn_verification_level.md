@@ -1,19 +1,17 @@
 ---
 UID: NE:imapi2._IMAPI_BURN_VERIFICATION_LEVEL
 title: IMAPI_BURN_VERIFICATION_LEVEL (imapi2.h)
-
 description: Defines values for the burn verification implemented by the IBurnVerification interface.
 old-location: imapi\imapi_burn_verification_level.htm
 tech.root: imapi
 ms.assetid: 83a267b7-8b25-49b8-b1d0-83efbad8fa2a
-
 ms.date: 12/05/2018
-ms.keywords: "*PIMAPI_BURN_VERIFICATION_LEVEL, IMAPI_BURN_VERIFICATION_FULL, IMAPI_BURN_VERIFICATION_LEVEL, IMAPI_BURN_VERIFICATION_LEVEL enumeration [IMAPI], IMAPI_BURN_VERIFICATION_NONE, IMAPI_BURN_VERIFICATION_QUICK, imapi.imapi_burn_verification_level, imapi2/IMAPI_BURN_VERIFICATION_FULL, imapi2/IMAPI_BURN_VERIFICATION_LEVEL, imapi2/IMAPI_BURN_VERIFICATION_NONE, imapi2/IMAPI_BURN_VERIFICATION_QUICK"
+ms.keywords: '*PIMAPI_BURN_VERIFICATION_LEVEL, IMAPI_BURN_VERIFICATION_FULL, IMAPI_BURN_VERIFICATION_LEVEL, IMAPI_BURN_VERIFICATION_LEVEL enumeration [IMAPI], IMAPI_BURN_VERIFICATION_NONE, IMAPI_BURN_VERIFICATION_QUICK, imapi.imapi_burn_verification_level, imapi2/IMAPI_BURN_VERIFICATION_FULL, imapi2/IMAPI_BURN_VERIFICATION_LEVEL, imapi2/IMAPI_BURN_VERIFICATION_NONE, imapi2/IMAPI_BURN_VERIFICATION_QUICK'
 ms.topic: enum
-f1_keywords: 
- - "imapi2/IMAPI_BURN_VERIFICATION_LEVEL"
+f1_keywords:
+- imapi2/IMAPI_BURN_VERIFICATION_LEVEL
 dev_langs:
- - c++
+- c++
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - imapi2.h
+- imapi2.h
 api_name:
- - IMAPI_BURN_VERIFICATION_LEVEL
+- IMAPI_BURN_VERIFICATION_LEVEL
 targetos: Windows
 req.typenames: IMAPI_BURN_VERIFICATION_LEVEL, *PIMAPI_BURN_VERIFICATION_LEVEL
 req.redist: 

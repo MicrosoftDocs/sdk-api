@@ -1,19 +1,17 @@
 ---
 UID: NF:msctf.ITfContext.TrackProperties
 title: ITfContext::TrackProperties (msctf.h)
-
 description: ITfContext::TrackProperties method
 old-location: tsf\itfcontext_trackproperties.htm
 tech.root: TSF
 ms.assetid: e283a45d-b585-4a26-89db-7ed706f0f593
-
 ms.date: 12/05/2018
 ms.keywords: ITfContext interface [Text Services Framework],TrackProperties method, ITfContext.TrackProperties, ITfContext::TrackProperties, TrackProperties, TrackProperties method [Text Services Framework], TrackProperties method [Text Services Framework],ITfContext interface, _tsf_itfcontext_trackproperties_ref, msctf/ITfContext::TrackProperties, tsf.itfcontext_trackproperties
 ms.topic: method
-f1_keywords: 
- - "msctf/ITfContext.TrackProperties"
+f1_keywords:
+- msctf/ITfContext.TrackProperties
 dev_langs:
- - c++
+- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msctf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msctf.dll
+- msctf.dll
 api_name:
- - ITfContext.TrackProperties
+- ITfContext.TrackProperties
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

@@ -1,19 +1,17 @@
 ---
 UID: NS:thumbcache.WTS_THUMBNAILID
 title: WTS_THUMBNAILID (thumbcache.h)
-
 description: Contains a unique identifier for a thumbnail in the system thumbnail cache.
 old-location: shell\WTS_THUMBNAILID.htm
 tech.root: shell
 ms.assetid: 3006d1a8-c9cf-4528-9aea-8ad5d97ddff0
-
 ms.date: 12/05/2018
 ms.keywords: WTS_THUMBNAILID, WTS_THUMBNAILID structure [Windows Shell], _shell_WTS_THUMBNAILID, shell.WTS_THUMBNAILID, thumbcache/WTS_THUMBNAILID
 ms.topic: struct
-f1_keywords: 
- - "thumbcache/WTS_THUMBNAILID"
+f1_keywords:
+- thumbcache/WTS_THUMBNAILID
 dev_langs:
- - c++
+- c++
 req.header: thumbcache.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Thumbcache.h
+- Thumbcache.h
 api_name:
- - WTS_THUMBNAILID
+- WTS_THUMBNAILID
 targetos: Windows
 req.typenames: WTS_THUMBNAILID
 req.redist: 

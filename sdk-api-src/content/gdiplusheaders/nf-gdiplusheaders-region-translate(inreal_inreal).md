@@ -3,14 +3,13 @@ UID: NF:gdiplusheaders.Region.Translate(IN REAL,IN REAL)
 title: Region::Translate
 description: The Region::Translate method offsets this region by specified amounts in the horizontal and vertical directions.
 ms.assetid: 0dc16555-1df7-44b8-85fb-ff0963f3c68e
- 
 ms.date: 05/20/2019
 ms.keywords: Region::Translate
 ms.topic: language-reference
-f1_keywords: 
- - "gdiplusheaders/Region::Translate"
+f1_keywords:
+- gdiplusheaders/Region::Translate
 dev_langs:
- - c++
+- c++
 targetos: Windows
 req.assembly: 
 req.construct-type: function
@@ -32,13 +31,13 @@ req.type-library:
 req.umdf-ver: 
 req.unicode-ansi: 
 topic_type:
- - apiref
+- apiref
 api_type:
- - COM
+- COM
 api_location:
- - gdiplusheaders.h
+- gdiplusheaders.h
 api_name:
- - Region::Translate
+- Region::Translate
 ---
 
 # Region::Translate(INT,INT)

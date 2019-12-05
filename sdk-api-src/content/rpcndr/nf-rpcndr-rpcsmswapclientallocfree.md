@@ -1,19 +1,17 @@
 ---
 UID: NF:rpcndr.RpcSmSwapClientAllocFree
 title: RpcSmSwapClientAllocFree function (rpcndr.h)
-
 description: The RpcSmSwapClientAllocFree function exchanges the client stub's memory-allocation and memory-freeing mechanisms with those supplied by the client.
 old-location: rpc\rpcsmswapclientallocfree.htm
 tech.root: Rpc
 ms.assetid: f07df5ec-0798-4cd2-a2f5-73e6245a7020
-
 ms.date: 12/05/2018
 ms.keywords: RpcSmSwapClientAllocFree, RpcSmSwapClientAllocFree function [RPC], _rpc_rpcsmswapclientallocfree, rpc.rpcsmswapclientallocfree, rpcndr/RpcSmSwapClientAllocFree
 ms.topic: function
-f1_keywords: 
- - "rpcndr/RpcSmSwapClientAllocFree"
+f1_keywords:
+- rpcndr/RpcSmSwapClientAllocFree
 dev_langs:
- - c++
+- c++
 req.header: rpcndr.h
 req.include-header: Rpc.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Rpcrt4.lib
 req.dll: Rpcrt4.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Rpcrt4.dll
+- Rpcrt4.dll
 api_name:
- - RpcSmSwapClientAllocFree
+- RpcSmSwapClientAllocFree
 targetos: Windows
 req.typenames: 
 req.redist: 

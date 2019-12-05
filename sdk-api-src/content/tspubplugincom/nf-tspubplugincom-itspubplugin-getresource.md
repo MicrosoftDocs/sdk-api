@@ -1,19 +1,17 @@
 ---
 UID: NF:tspubplugincom.ItsPubPlugin.GetResource
 title: ItsPubPlugin::GetResource (tspubplugincom.h)
-
 description: This method is reserved and should always return E_NOTIMPL.
 old-location: termserv\itspubplugin_getresource.htm
 tech.root: TermServ
 ms.assetid: eceadfef-6980-452a-b983-3813f6e7ade8
-
 ms.date: 12/05/2018
 ms.keywords: GetResource, GetResource method [Remote Desktop Services], GetResource method [Remote Desktop Services],ItsPubPlugin interface, ItsPubPlugin interface [Remote Desktop Services],GetResource method, ItsPubPlugin.GetResource, ItsPubPlugin::GetResource, termserv.itspubplugin_getresource, tspubplugincom/ItsPubPlugin::GetResource
 ms.topic: method
-f1_keywords: 
- - "tspubplugincom/ItsPubPlugin.GetResource"
+f1_keywords:
+- tspubplugincom/ItsPubPlugin.GetResource
 dev_langs:
- - c++
+- c++
 req.header: tspubplugincom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - tspubplugincom.h
+- tspubplugincom.h
 api_name:
- - ItsPubPlugin.GetResource
+- ItsPubPlugin.GetResource
 targetos: Windows
 req.typenames: 
 req.redist: 

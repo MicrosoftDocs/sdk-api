@@ -1,19 +1,17 @@
 ---
 UID: NF:mfmediaengine.IMFTimedText.AddDataSourceFromUrl
 title: IMFTimedText::AddDataSourceFromUrl (mfmediaengine.h)
-
 description: Adds a timed-text data source from the specified URL.
 old-location: mf\imftimedtext_adddatasourcefromurl.htm
 tech.root: medfound
 ms.assetid: 5E02BE3F-D0A8-492D-BBB2-F5A95B9C406D
-
 ms.date: 12/05/2018
 ms.keywords: AddDataSourceFromUrl, AddDataSourceFromUrl method [Media Foundation], AddDataSourceFromUrl method [Media Foundation],IMFTimedText interface, IMFTimedText interface [Media Foundation],AddDataSourceFromUrl method, IMFTimedText.AddDataSourceFromUrl, IMFTimedText::AddDataSourceFromUrl, mf.imftimedtext_adddatasourcefromurl, mfmediaengine/IMFTimedText::AddDataSourceFromUrl
 ms.topic: method
-f1_keywords: 
- - "mfmediaengine/IMFTimedText.AddDataSourceFromUrl"
+f1_keywords:
+- mfmediaengine/IMFTimedText.AddDataSourceFromUrl
 dev_langs:
- - c++
+- c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Mfmediaengine.lib
 req.dll: Mfmediaengine.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfmediaengine.dll
+- mfmediaengine.dll
 api_name:
- - IMFTimedText.AddDataSourceFromUrl
+- IMFTimedText.AddDataSourceFromUrl
 targetos: Windows
 req.typenames: 
 req.redist: 

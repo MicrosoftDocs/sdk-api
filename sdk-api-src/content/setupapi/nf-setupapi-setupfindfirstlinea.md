@@ -1,19 +1,17 @@
 ---
 UID: NF:setupapi.SetupFindFirstLineA
 title: SetupFindFirstLineA function (setupapi.h)
-
 description: The SetupFindFirstLine function locates a line in the specified section of an INF file. If the Key parameter is NULL, SetupFindFirstLine returns the first line of the section.
 old-location: setup\setupfindfirstline.htm
 tech.root: SetupApi
 ms.assetid: ff4b13b6-62ca-48ae-9ddd-e721bde7bd8b
-
 ms.date: 12/05/2018
 ms.keywords: SetupFindFirstLine, SetupFindFirstLine function [Setup API], SetupFindFirstLineA, SetupFindFirstLineW, _setupapi_setupfindfirstline, setup.setupfindfirstline, setupapi/SetupFindFirstLine, setupapi/SetupFindFirstLineA, setupapi/SetupFindFirstLineW
 ms.topic: function
-f1_keywords: 
- - "setupapi/SetupFindFirstLine"
+f1_keywords:
+- setupapi/SetupFindFirstLine
 dev_langs:
- - c++
+- c++
 req.header: setupapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib: Setupapi.lib
 req.dll: Setupapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Setupapi.dll
- - Ext-MS-Win-setupapi-inf-l1-1-0.dll
- - Ext-MS-Win-SetupAPI-Inf-L1-1-1.dll
+- Setupapi.dll
+- Ext-MS-Win-setupapi-inf-l1-1-0.dll
+- Ext-MS-Win-SetupAPI-Inf-L1-1-1.dll
 api_name:
- - SetupFindFirstLine
- - SetupFindFirstLineA
- - SetupFindFirstLineW
+- SetupFindFirstLine
+- SetupFindFirstLineA
+- SetupFindFirstLineW
 targetos: Windows
 req.typenames: 
 req.redist: 

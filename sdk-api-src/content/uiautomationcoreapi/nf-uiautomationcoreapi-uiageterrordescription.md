@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationcoreapi.UiaGetErrorDescription
 title: UiaGetErrorDescription function (uiautomationcoreapi.h)
-
 description: Gets an error string so that it can be passed to the client. This method is not used directly by clients.
 old-location: winauto\uiauto_UiaGetErrorDescriptionAutoMeth.htm
 tech.root: WinAuto
 ms.assetid: bb00f7cd-8557-4ef7-a53c-c020d0acdb78
-
 ms.date: 12/05/2018
 ms.keywords: UiaGetErrorDescription, UiaGetErrorDescription function [Windows Accessibility], uiauto.uiauto_UiaGetErrorDescriptionAutoMeth, uiauto_UiaGetErrorDescriptionAutoMeth, uiautomationcoreapi/UiaGetErrorDescription, winauto.uiauto_UiaGetErrorDescriptionAutoMeth
 ms.topic: function
-f1_keywords: 
- - "uiautomationcoreapi/UiaGetErrorDescription"
+f1_keywords:
+- uiautomationcoreapi/UiaGetErrorDescription
 dev_langs:
- - c++
+- c++
 req.header: uiautomationcoreapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uiautomationcore.lib
 req.dll: Uiautomationcore.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Uiautomationcore.dll
+- Uiautomationcore.dll
 api_name:
- - UiaGetErrorDescription
+- UiaGetErrorDescription
 targetos: Windows
 req.typenames: 
 req.redist: 

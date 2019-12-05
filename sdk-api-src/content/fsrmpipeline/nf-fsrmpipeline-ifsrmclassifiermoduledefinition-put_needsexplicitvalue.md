@@ -1,19 +1,17 @@
 ---
 UID: NF:fsrmpipeline.IFsrmClassifierModuleDefinition.put_NeedsExplicitValue
 title: IFsrmClassifierModuleDefinition::put_NeedsExplicitValue (fsrmpipeline.h)
-
 description: Determines whether a rule that uses the classifier needs to provide the value for the classification property.
 old-location: fsrm\ifsrmclassifiermoduledefinition_needsexplicitvalue.htm
 tech.root: fsrm
 ms.assetid: 580542ef-c766-4a39-9dbd-aed2f4a11780
-
 ms.date: 12/05/2018
 ms.keywords: IFsrmClassifierModuleDefinition interface [File Server Resource Manager],NeedsExplicitValue property, IFsrmClassifierModuleDefinition.NeedsExplicitValue, IFsrmClassifierModuleDefinition.put_NeedsExplicitValue, IFsrmClassifierModuleDefinition::NeedsExplicitValue, IFsrmClassifierModuleDefinition::get_NeedsExplicitValue, IFsrmClassifierModuleDefinition::put_NeedsExplicitValue, NeedsExplicitValue property [File Server Resource Manager], NeedsExplicitValue property [File Server Resource Manager],IFsrmClassifierModuleDefinition interface, fs.ifsrmclassifiermoduledefinition_needsexplicitvalue, fsrm.ifsrmclassifiermoduledefinition_needsexplicitvalue, fsrmpipeline/IFsrmClassifierModuleDefinition::NeedsExplicitValue, fsrmpipeline/IFsrmClassifierModuleDefinition::get_NeedsExplicitValue, fsrmpipeline/IFsrmClassifierModuleDefinition::put_NeedsExplicitValue, put_NeedsExplicitValue
 ms.topic: method
-f1_keywords: 
- - "fsrmpipeline/IFsrmClassifierModuleDefinition.NeedsExplicitValue"
+f1_keywords:
+- fsrmpipeline/IFsrmClassifierModuleDefinition.NeedsExplicitValue
 dev_langs:
- - c++
+- c++
 req.header: fsrmpipeline.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: SrmSvc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - SrmSvc.dll
+- SrmSvc.dll
 api_name:
- - IFsrmClassifierModuleDefinition.NeedsExplicitValue
- - IFsrmClassifierModuleDefinition.get_NeedsExplicitValue
- - IFsrmClassifierModuleDefinition.put_NeedsExplicitValue
+- IFsrmClassifierModuleDefinition.NeedsExplicitValue
+- IFsrmClassifierModuleDefinition.get_NeedsExplicitValue
+- IFsrmClassifierModuleDefinition.put_NeedsExplicitValue
 targetos: Windows
 req.typenames: 
 req.redist: 

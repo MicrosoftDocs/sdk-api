@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationOrCondition.GetChildrenAsNativeArray
 title: IUIAutomationOrCondition::GetChildrenAsNativeArray (uiautomationclient.h)
-
 description: Retrieves the conditions that make up this &#0034;or&#0034; condition, as an ordinary array.
 old-location: winauto\uiauto_IUIAutomationOrCondition_GetChildrenAsNativeArray.htm
 tech.root: WinAuto
 ms.assetid: d8c45ccb-5e3c-4816-8ffe-6865a7794e8b
-
 ms.date: 12/05/2018
 ms.keywords: GetChildrenAsNativeArray, GetChildrenAsNativeArray method [Windows Accessibility], GetChildrenAsNativeArray method [Windows Accessibility],IUIAutomationOrCondition interface, IUIAutomationOrCondition interface [Windows Accessibility],GetChildrenAsNativeArray method, IUIAutomationOrCondition.GetChildrenAsNativeArray, IUIAutomationOrCondition::GetChildrenAsNativeArray, uiauto.uiauto_IUIAutomationOrCondition_GetChildrenAsNativeArray, uiauto_IUIAutomationOrCondition_GetChildrenAsNativeArray, uiautomationclient/IUIAutomationOrCondition::GetChildrenAsNativeArray, winauto.uiauto_IUIAutomationOrCondition_GetChildrenAsNativeArray
 ms.topic: method
-f1_keywords: 
- - "uiautomationclient/IUIAutomationOrCondition.GetChildrenAsNativeArray"
+f1_keywords:
+- uiautomationclient/IUIAutomationOrCondition.GetChildrenAsNativeArray
 dev_langs:
- - c++
+- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationClient.h
+- UIAutomationClient.h
 api_name:
- - IUIAutomationOrCondition.GetChildrenAsNativeArray
+- IUIAutomationOrCondition.GetChildrenAsNativeArray
 targetos: Windows
 req.typenames: 
 req.redist: 

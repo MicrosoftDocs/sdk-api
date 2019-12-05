@@ -1,19 +1,17 @@
 ---
 UID: NF:dwrite.IDWriteTextLayout.SetFontStyle
 title: IDWriteTextLayout::SetFontStyle (dwrite.h)
-
 description: Sets the font style for text within a text range specified by a DWRITE_TEXT_RANGE structure.
 old-location: directwrite\IDWriteTextLayout_SetFontStyle.htm
 tech.root: DirectWrite
 ms.assetid: 688a6c30-5eca-44aa-bcb0-02a3f29647b8
-
 ms.date: 12/05/2018
 ms.keywords: IDWriteTextLayout interface [Direct Write],SetFontStyle method, IDWriteTextLayout.SetFontStyle, IDWriteTextLayout::SetFontStyle, SetFontStyle, SetFontStyle method [Direct Write], SetFontStyle method [Direct Write],IDWriteTextLayout interface, directwrite.IDWriteTextLayout_SetFontStyle, dwrite/IDWriteTextLayout::SetFontStyle
 ms.topic: method
-f1_keywords: 
- - "dwrite/IDWriteTextLayout.SetFontStyle"
+f1_keywords:
+- dwrite/IDWriteTextLayout.SetFontStyle
 dev_langs:
- - c++
+- c++
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dwrite.lib
 req.dll: Dwrite.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dwrite.dll
+- dwrite.dll
 api_name:
- - IDWriteTextLayout.SetFontStyle
+- IDWriteTextLayout.SetFontStyle
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:uianimation.IUIAnimationTransitionLibrary.CreateSinusoidalTransitionFromVelocity
 title: IUIAnimationTransitionLibrary::CreateSinusoidalTransitionFromVelocity (uianimation.h)
-
 description: Creates a sinusoidal-velocity transition, with an amplitude determined by the initial velocity.
 old-location: uianimation\iuianimationtransitionlibrary_createsinusoidaltransitionfromvelocity.htm
 tech.root: UIAnimation
 ms.assetid: 47998787-dcd5-4973-bf7e-30096b01c51b
-
 ms.date: 12/05/2018
 ms.keywords: CreateSinusoidalTransitionFromVelocity, CreateSinusoidalTransitionFromVelocity method [Windows Animation], CreateSinusoidalTransitionFromVelocity method [Windows Animation],IUIAnimationTransitionLibrary interface, IUIAnimationTransitionLibrary interface [Windows Animation],CreateSinusoidalTransitionFromVelocity method, IUIAnimationTransitionLibrary.CreateSinusoidalTransitionFromVelocity, IUIAnimationTransitionLibrary::CreateSinusoidalTransitionFromVelocity, uianimation.iuianimationtransitionlibrary_createsinusoidaltransitionfromvelocity, uianimation/IUIAnimationTransitionLibrary::CreateSinusoidalTransitionFromVelocity
 ms.topic: method
-f1_keywords: 
- - "uianimation/IUIAnimationTransitionLibrary.CreateSinusoidalTransitionFromVelocity"
+f1_keywords:
+- uianimation/IUIAnimationTransitionLibrary.CreateSinusoidalTransitionFromVelocity
 dev_langs:
- - c++
+- c++
 req.header: uianimation.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: UIAnimation.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAnimation.dll
+- UIAnimation.dll
 api_name:
- - IUIAnimationTransitionLibrary.CreateSinusoidalTransitionFromVelocity
+- IUIAnimationTransitionLibrary.CreateSinusoidalTransitionFromVelocity
 targetos: Windows
 req.typenames: 
 req.redist: 

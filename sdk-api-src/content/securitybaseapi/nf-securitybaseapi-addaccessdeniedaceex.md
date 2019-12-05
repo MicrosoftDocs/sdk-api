@@ -1,19 +1,17 @@
 ---
 UID: NF:securitybaseapi.AddAccessDeniedAceEx
 title: AddAccessDeniedAceEx function (securitybaseapi.h)
-
 description: Adds an access-denied access control entry (ACE) to the end of a discretionary access control list (DACL).
 old-location: security\addaccessdeniedaceex.htm
 tech.root: SecAuthZ
 ms.assetid: e353c88c-f82e-40c0-b676-38f0060acc81
-
 ms.date: 12/05/2018
 ms.keywords: AddAccessDeniedAceEx, AddAccessDeniedAceEx function [Security], CONTAINER_INHERIT_ACE, INHERITED_ACE, INHERIT_ONLY_ACE, NO_PROPAGATE_INHERIT_ACE, OBJECT_INHERIT_ACE, _win32_addaccessdeniedaceex, security.addaccessdeniedaceex, securitybaseapi/AddAccessDeniedAceEx
 ms.topic: function
 f1_keywords:
 - securitybaseapi/AddAccessDeniedAceEx
 dev_langs:
- - c++
+- c++
 req.header: securitybaseapi.h
 req.include-header: Windows.h
 req.target-type: Windows

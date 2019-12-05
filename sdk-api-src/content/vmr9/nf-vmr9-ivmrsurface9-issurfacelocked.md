@@ -1,19 +1,17 @@
 ---
 UID: NF:vmr9.IVMRSurface9.IsSurfaceLocked
 title: IVMRSurface9::IsSurfaceLocked (vmr9.h)
-
 description: The IsSurfaceLocked method indicates whether the Direct3D surface attached to this media sample is locked.
 old-location: dshow\ivmrsurface9_issurfacelocked.htm
 tech.root: DirectShow
 ms.assetid: ccc2ab3c-ec6d-47b5-b6cf-0686aa4260bc
-
 ms.date: 12/05/2018
 ms.keywords: IVMRSurface9 interface [DirectShow],IsSurfaceLocked method, IVMRSurface9.IsSurfaceLocked, IVMRSurface9::IsSurfaceLocked, IVMRSurface9IsSurfaceLocked, IsSurfaceLocked, IsSurfaceLocked method [DirectShow], IsSurfaceLocked method [DirectShow],IVMRSurface9 interface, dshow.ivmrsurface9_issurfacelocked, vmr9/IVMRSurface9::IsSurfaceLocked
 ms.topic: method
-f1_keywords: 
- - "vmr9/IVMRSurface9.IsSurfaceLocked"
+f1_keywords:
+- vmr9/IVMRSurface9.IsSurfaceLocked
 dev_langs:
- - c++
+- c++
 req.header: vmr9.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IVMRSurface9.IsSurfaceLocked
+- IVMRSurface9.IsSurfaceLocked
 targetos: Windows
 req.typenames: 
 req.redist: 

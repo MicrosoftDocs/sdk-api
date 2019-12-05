@@ -1,19 +1,17 @@
 ---
 UID: NF:mfidl.IMFHttpDownloadRequest.BeginReadPayload
 title: IMFHttpDownloadRequest::BeginReadPayload (mfidl.h)
-
 description: Invoked by Microsoft Media Foundation to receive the message body of the response to a previously sent HTTP or HTTPS request.
 old-location: mf\imfhttpdownloadrequest_beginreadpayload.htm
 tech.root: medfound
 ms.assetid: 01B799C2-63C6-4BDC-AAE2-CFC3C426A218
-
 ms.date: 12/05/2018
 ms.keywords: BeginReadPayload, BeginReadPayload method [Media Foundation], BeginReadPayload method [Media Foundation],IMFHttpDownloadRequest interface, IMFHttpDownloadRequest interface [Media Foundation],BeginReadPayload method, IMFHttpDownloadRequest.BeginReadPayload, IMFHttpDownloadRequest::BeginReadPayload, mf.imfhttpdownloadrequest_beginreadpayload, mfidl/IMFHttpDownloadRequest::BeginReadPayload
 ms.topic: method
-f1_keywords: 
- - "mfidl/IMFHttpDownloadRequest.BeginReadPayload"
+f1_keywords:
+- mfidl/IMFHttpDownloadRequest.BeginReadPayload
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Mfplat.lib; Mfplat.dll
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfplat.lib
- - mfplat.dll
- - mfplat.dll
- - mfplat.dll.dll
+- mfplat.lib
+- mfplat.dll
+- mfplat.dll
+- mfplat.dll.dll
 api_name:
- - IMFHttpDownloadRequest.BeginReadPayload
+- IMFHttpDownloadRequest.BeginReadPayload
 targetos: Windows
 req.typenames: 
 req.redist: 

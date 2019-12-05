@@ -1,19 +1,17 @@
 ---
 UID: NF:ddraw.IDirectDraw7.GetVerticalBlankStatus
 title: IDirectDraw7::GetVerticalBlankStatus (ddraw.h)
-
 description: Retrieves the status of the vertical blank.
 old-location: directdraw\idirectdraw7_getverticalblankstatus.htm
 tech.root: directdraw
 ms.assetid: 4bab0d24-ab11-46fb-92de-060f6afe1fde
-
 ms.date: 12/05/2018
 ms.keywords: GetVerticalBlankStatus, GetVerticalBlankStatus method [DirectDraw], GetVerticalBlankStatus method [DirectDraw],IDirectDraw7 interface, IDirectDraw7 interface [DirectDraw],GetVerticalBlankStatus method, IDirectDraw7.GetVerticalBlankStatus, IDirectDraw7::GetVerticalBlankStatus, ddraw/IDirectDraw7::GetVerticalBlankStatus, directdraw.idirectdraw7_getverticalblankstatus
 ms.topic: method
-f1_keywords: 
- - "ddraw/IDirectDraw7.GetVerticalBlankStatus"
+f1_keywords:
+- ddraw/IDirectDraw7.GetVerticalBlankStatus
 dev_langs:
- - c++
+- c++
 req.header: ddraw.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Ddraw.lib
 req.dll: Ddraw.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Ddraw.dll
+- Ddraw.dll
 api_name:
- - IDirectDraw7.GetVerticalBlankStatus
+- IDirectDraw7.GetVerticalBlankStatus
 targetos: Windows
 req.typenames: 
 req.redist: 

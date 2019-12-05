@@ -1,19 +1,17 @@
 ---
 UID: NF:p2p.PeerGraphRegisterEvent
 title: PeerGraphRegisterEvent function (p2p.h)
-
 description: The PeerGraphRegisterEvent function registers a peer's request to be notified of changes associated with a peer graph and event type.
 old-location: p2p\peergraphregisterevent.htm
 tech.root: P2PSdk
 ms.assetid: 3ed963ba-0b9d-4de8-a610-b07cf49ed27f
-
 ms.date: 12/05/2018
 ms.keywords: PeerGraphRegisterEvent, PeerGraphRegisterEvent function [Peer Networking], p2p.peergraphregisterevent, p2p/PeerGraphRegisterEvent
 ms.topic: function
-f1_keywords: 
- - "p2p/PeerGraphRegisterEvent"
+f1_keywords:
+- p2p/PeerGraphRegisterEvent
 dev_langs:
- - c++
+- c++
 req.header: p2p.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: P2PGraph.lib
 req.dll: P2PGraph.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - P2PGraph.dll
+- P2PGraph.dll
 api_name:
- - PeerGraphRegisterEvent
+- PeerGraphRegisterEvent
 targetos: Windows
 req.typenames: 
 req.redist: 

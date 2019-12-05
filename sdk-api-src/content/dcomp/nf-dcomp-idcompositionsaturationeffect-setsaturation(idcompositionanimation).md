@@ -1,19 +1,17 @@
 ---
 UID: NF:dcomp.IDCompositionSaturationEffect.SetSaturation(IDCompositionAnimation)
 title: IDCompositionSaturationEffect::SetSaturation(IDCompositionAnimation) (dcomp.h)
-
 description: Sets the saturation of the image.
 old-location: directcomp\idcompositionsaturationeffect_setsaturation_2.htm
 tech.root: directcomp
 ms.assetid: 0F206128-A0F2-4BE3-A22D-2BAA8853099C
-
 ms.date: 12/05/2018
 ms.keywords: IDCompositionSaturationEffect interface [DirectComposition],SetSaturation method, IDCompositionSaturationEffect.SetSaturation, IDCompositionSaturationEffect.SetSaturation(IDCompositionAnimation), IDCompositionSaturationEffect::SetSaturation, IDCompositionSaturationEffect::SetSaturation(IDCompositionAnimation), SetSaturation, SetSaturation method [DirectComposition], SetSaturation method [DirectComposition],IDCompositionSaturationEffect interface, dcomp/IDCompositionSaturationEffect::SetSaturation, directcomp.idcompositionsaturationeffect_setsaturation_2
 ms.topic: method
-f1_keywords: 
- - "dcomp/IDCompositionSaturationEffect.SetSaturation"
+f1_keywords:
+- dcomp/IDCompositionSaturationEffect.SetSaturation
 dev_langs:
- - c++
+- c++
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dcomp.lib
 req.dll: Dcomp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dcomp.dll
+- Dcomp.dll
 api_name:
- - IDCompositionSaturationEffect.SetSaturation
+- IDCompositionSaturationEffect.SetSaturation
 targetos: Windows
 req.typenames: 
 req.redist: 

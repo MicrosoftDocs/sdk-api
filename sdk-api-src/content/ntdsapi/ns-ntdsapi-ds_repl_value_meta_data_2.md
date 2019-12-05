@@ -1,19 +1,17 @@
 ---
 UID: NS:ntdsapi._DS_REPL_VALUE_META_DATA_2
 title: DS_REPL_VALUE_META_DATA_2 (ntdsapi.h)
-
 description: Used with the DS_REPL_ATTR_VALUE_META_DATA_2 structure to contain attribute value replication metadata.
 old-location: ad\ds_repl_value_meta_data_2.htm
 tech.root: ad
 ms.assetid: 747e32b8-2cc0-4fcd-88dc-027188598361
-
 ms.date: 12/05/2018
 ms.keywords: DS_REPL_VALUE_META_DATA_2, DS_REPL_VALUE_META_DATA_2 structure [Active Directory], ad.ds_repl_value_meta_data_2, ntdsapi/DS_REPL_VALUE_META_DATA_2
 ms.topic: struct
 f1_keywords:
 - ntdsapi/DS_REPL_VALUE_META_DATA_2
 dev_langs:
- - c++
+- c++
 req.header: ntdsapi.h
 req.include-header: 
 req.target-type: Windows

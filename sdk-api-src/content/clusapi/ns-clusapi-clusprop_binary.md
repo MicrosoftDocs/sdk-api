@@ -1,19 +1,17 @@
 ---
 UID: NS:clusapi.CLUSPROP_BINARY
 title: CLUSPROP_BINARY (clusapi.h)
-
 description: Describes a binary data value.
 old-location: mscs\clusprop_binary.htm
 tech.root: MsCS
 ms.assetid: 61169871-4998-4e9f-97dc-77344bbfa962
-
 ms.date: 12/05/2018
-ms.keywords: "*PCLUSPROP_BINARY, CLUSPROP_BINARY, CLUSPROP_BINARY structure [Failover Cluster], PCLUSPROP_BINARY, PCLUSPROP_BINARY structure pointer [Failover Cluster], _wolf_clusprop_binary, clusapi/CLUSPROP_BINARY, clusapi/PCLUSPROP_BINARY, mscs.clusprop_binary"
+ms.keywords: '*PCLUSPROP_BINARY, CLUSPROP_BINARY, CLUSPROP_BINARY structure [Failover Cluster], PCLUSPROP_BINARY, PCLUSPROP_BINARY structure pointer [Failover Cluster], _wolf_clusprop_binary, clusapi/CLUSPROP_BINARY, clusapi/PCLUSPROP_BINARY, mscs.clusprop_binary'
 ms.topic: struct
-f1_keywords: 
- - "clusapi/CLUSPROP_BINARY"
+f1_keywords:
+- clusapi/CLUSPROP_BINARY
 dev_langs:
- - c++
+- c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - ClusAPI.h
+- ClusAPI.h
 api_name:
- - CLUSPROP_BINARY
+- CLUSPROP_BINARY
 targetos: Windows
 req.typenames: CLUSPROP_BINARY, *PCLUSPROP_BINARY
 req.redist: 

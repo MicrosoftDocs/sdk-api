@@ -1,19 +1,17 @@
 ---
 UID: NF:mfobjects.IMFMediaBuffer.GetMaxLength
 title: IMFMediaBuffer::GetMaxLength (mfobjects.h)
-
 description: Retrieves the allocated size of the buffer.
 old-location: mf\imfmediabuffer_getmaxlength.htm
 tech.root: medfound
 ms.assetid: f0697f1d-18d6-4406-9f19-8cbaac08ad47
-
 ms.date: 12/05/2018
 ms.keywords: GetMaxLength, GetMaxLength method [Media Foundation], GetMaxLength method [Media Foundation],IMFMediaBuffer interface, IMFMediaBuffer interface [Media Foundation],GetMaxLength method, IMFMediaBuffer.GetMaxLength, IMFMediaBuffer::GetMaxLength, f0697f1d-18d6-4406-9f19-8cbaac08ad47, mf.imfmediabuffer_getmaxlength, mfobjects/IMFMediaBuffer::GetMaxLength
 ms.topic: method
-f1_keywords: 
- - "mfobjects/IMFMediaBuffer.GetMaxLength"
+f1_keywords:
+- mfobjects/IMFMediaBuffer.GetMaxLength
 dev_langs:
- - c++
+- c++
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFMediaBuffer.GetMaxLength
+- IMFMediaBuffer.GetMaxLength
 targetos: Windows
 req.typenames: 
 req.redist: 

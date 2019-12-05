@@ -1,19 +1,17 @@
 ---
 UID: NF:wmp.IWMPClosedCaption2.getSAMIStyleName
 title: IWMPClosedCaption2::getSAMIStyleName (wmp.h)
-
 description: The getSAMIStyleName method retrieves the name of a style supported by the current SAMI file.
 old-location: wmp\iwmpclosedcaption2_getsamistylename.htm
 tech.root: WMP
 ms.assetid: 0dfdbe70-2aa8-4cae-8886-6b770707652e
-
 ms.date: 12/05/2018
 ms.keywords: IWMPClosedCaption2 interface [Windows Media Player],getSAMIStyleName method, IWMPClosedCaption2.getSAMIStyleName, IWMPClosedCaption2::getSAMIStyleName, IWMPClosedCaption2getSAMIStyleName, getSAMIStyleName, getSAMIStyleName method [Windows Media Player], getSAMIStyleName method [Windows Media Player],IWMPClosedCaption2 interface, wmp.iwmpclosedcaption2_getsamistylename, wmp/IWMPClosedCaption2::getSAMIStyleName
 ms.topic: method
-f1_keywords: 
- - "wmp/IWMPClosedCaption2.getSAMIStyleName"
+f1_keywords:
+- wmp/IWMPClosedCaption2.getSAMIStyleName
 dev_langs:
- - c++
+- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wmp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmp.dll
+- wmp.dll
 api_name:
- - IWMPClosedCaption2.getSAMIStyleName
+- IWMPClosedCaption2.getSAMIStyleName
 targetos: Windows
 req.typenames: 
 req.redist: 

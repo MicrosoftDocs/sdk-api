@@ -1,19 +1,17 @@
 ---
 UID: NE:wuapi.tagDownloadPriority
 title: DownloadPriority (wuapi.h)
-
 description: Defines the possible priorities for a download operation.
 old-location: wua\downloadpriority.htm
 tech.root: Wua_Sdk
 ms.assetid: 6e70c513-861b-4a7f-a613-09ba2ef64bf1
-
 ms.date: 12/05/2018
 ms.keywords: DownloadPriority, DownloadPriority enumeration [Windows Update Agent], dpHigh, dpLow, dpNormal, wua.downloadpriority, wuapi/DownloadPriority, wuapi/dpHigh, wuapi/dpLow, wuapi/dpNormal
 ms.topic: enum
-f1_keywords: 
- - "wuapi/DownloadPriority"
+f1_keywords:
+- wuapi/DownloadPriority
 dev_langs:
- - c++
+- c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wuapi.h
+- Wuapi.h
 api_name:
- - DownloadPriority
+- DownloadPriority
 targetos: Windows
 req.typenames: DownloadPriority
 req.redist: 

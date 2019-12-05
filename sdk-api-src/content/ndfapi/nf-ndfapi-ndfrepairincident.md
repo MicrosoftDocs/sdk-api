@@ -1,19 +1,17 @@
 ---
 UID: NF:ndfapi.NdfRepairIncident
 title: NdfRepairIncident function (ndfapi.h)
-
 description: Repairs an incident without displaying a user interface.
 old-location: ndf\ndfrepairincident.htm
 tech.root: NDF
 ms.assetid: 570e7824-463f-4fc1-bc1a-16a1da31e8a3
-
 ms.date: 12/05/2018
 ms.keywords: NdfRepairIncident, NdfRepairIncident function [NDF], ndf.ndfrepairincident, ndfapi/NdfRepairIncident
 ms.topic: function
-f1_keywords: 
- - "ndfapi/NdfRepairIncident"
+f1_keywords:
+- ndfapi/NdfRepairIncident
 dev_langs:
- - c++
+- c++
 req.header: ndfapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Ndfapi.lib
 req.dll: Ndfapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ndfapi.dll
+- Ndfapi.dll
 api_name:
- - NdfRepairIncident
+- NdfRepairIncident
 targetos: Windows
 req.typenames: 
 req.redist: 

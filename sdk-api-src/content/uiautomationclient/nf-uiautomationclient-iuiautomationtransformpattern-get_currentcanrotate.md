@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationTransformPattern.get_CurrentCanRotate
 title: IUIAutomationTransformPattern::get_CurrentCanRotate (uiautomationclient.h)
-
 description: Indicates whether the element can be rotated.
 old-location: winauto\uiauto_IUIAutomationTransformPattern_CurrentCanRotate.htm
 tech.root: WinAuto
 ms.assetid: e6e5d5da-24f2-4b76-854c-756fb7f6661a
-
 ms.date: 12/05/2018
 ms.keywords: CurrentCanRotate property [Windows Accessibility], CurrentCanRotate property [Windows Accessibility],IUIAutomationTransformPattern interface, IUIAutomationTransformPattern interface [Windows Accessibility],CurrentCanRotate property, IUIAutomationTransformPattern.CurrentCanRotate, IUIAutomationTransformPattern.get_CurrentCanRotate, IUIAutomationTransformPattern::CurrentCanRotate, IUIAutomationTransformPattern::get_CurrentCanRotate, get_CurrentCanRotate, uiauto.uiauto_IUIAutomationTransformPattern_CurrentCanRotate, uiauto_IUIAutomationTransformPattern_CurrentCanRotate, uiautomationclient/IUIAutomationTransformPattern::CurrentCanRotate, uiautomationclient/IUIAutomationTransformPattern::get_CurrentCanRotate, winauto.uiauto_IUIAutomationTransformPattern_CurrentCanRotate
 ms.topic: method
-f1_keywords: 
- - "uiautomationclient/IUIAutomationTransformPattern.CurrentCanRotate"
+f1_keywords:
+- uiautomationclient/IUIAutomationTransformPattern.CurrentCanRotate
 dev_langs:
- - c++
+- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationClient.h
+- UIAutomationClient.h
 api_name:
- - IUIAutomationTransformPattern.CurrentCanRotate
- - IUIAutomationTransformPattern.get_CurrentCanRotate
+- IUIAutomationTransformPattern.CurrentCanRotate
+- IUIAutomationTransformPattern.get_CurrentCanRotate
 targetos: Windows
 req.typenames: 
 req.redist: 

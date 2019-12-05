@@ -1,19 +1,17 @@
 ---
 UID: NF:atscpsipparser.IAtscPsipParser.GetEAS
 title: IAtscPsipParser::GetEAS (atscpsipparser.h)
-
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\iatscpsipparser_geteas.htm
 tech.root: mstv
 ms.assetid: e53b93e3-7269-45aa-8b19-75f78fb44c41
-
 ms.date: 12/05/2018
 ms.keywords: GetEAS, GetEAS method [Microsoft TV Technologies], GetEAS method [Microsoft TV Technologies],IAtscPsipParser interface, IAtscPsipParser interface [Microsoft TV Technologies],GetEAS method, IAtscPsipParser.GetEAS, IAtscPsipParser::GetEAS, IAtscPsipParserGetEAS, atscpsipparser/IAtscPsipParser::GetEAS, mstv.iatscpsipparser_geteas
 ms.topic: method
-f1_keywords: 
- - "atscpsipparser/IAtscPsipParser.GetEAS"
+f1_keywords:
+- atscpsipparser/IAtscPsipParser.GetEAS
 dev_langs:
- - c++
+- c++
 req.header: atscpsipparser.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - atscpsipparser.h
+- atscpsipparser.h
 api_name:
- - IAtscPsipParser.GetEAS
+- IAtscPsipParser.GetEAS
 targetos: Windows
 req.typenames: 
 req.redist: 

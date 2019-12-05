@@ -1,19 +1,17 @@
 ---
 UID: NS:bcrypt._BCRYPT_PROVIDER_NAME
 title: BCRYPT_PROVIDER_NAME (bcrypt.h)
-
 description: Contains the name of a CNG provider.
 old-location: security\bcrypt_provider_name_struct.htm
 tech.root: SecCNG
 ms.assetid: 0c57aa3f-1d9a-4bb2-b142-bce9c054e658
-
 ms.date: 12/05/2018
 ms.keywords: BCRYPT_PROVIDER_NAME, BCRYPT_PROVIDER_NAME structure [Security], bcrypt/BCRYPT_PROVIDER_NAME, security.bcrypt_provider_name_struct
 ms.topic: struct
-f1_keywords: 
- - "bcrypt/BCRYPT_PROVIDER_NAME"
+f1_keywords:
+- bcrypt/BCRYPT_PROVIDER_NAME
 dev_langs:
- - c++
+- c++
 req.header: bcrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Bcrypt.h
+- Bcrypt.h
 api_name:
- - BCRYPT_PROVIDER_NAME
+- BCRYPT_PROVIDER_NAME
 targetos: Windows
 req.typenames: BCRYPT_PROVIDER_NAME
 req.redist: 

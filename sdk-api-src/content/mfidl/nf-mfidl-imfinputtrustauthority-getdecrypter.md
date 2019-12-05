@@ -1,19 +1,17 @@
 ---
 UID: NF:mfidl.IMFInputTrustAuthority.GetDecrypter
 title: IMFInputTrustAuthority::GetDecrypter (mfidl.h)
-
 description: Retrieves a decrypter transform.
 old-location: mf\imfinputtrustauthority_getdecrypter.htm
 tech.root: medfound
 ms.assetid: 3bc4e2e6-41a8-4751-a7fe-5e1f8c136983
-
 ms.date: 12/05/2018
 ms.keywords: 3bc4e2e6-41a8-4751-a7fe-5e1f8c136983, GetDecrypter, GetDecrypter method [Media Foundation], GetDecrypter method [Media Foundation],IMFInputTrustAuthority interface, IMFInputTrustAuthority interface [Media Foundation],GetDecrypter method, IMFInputTrustAuthority.GetDecrypter, IMFInputTrustAuthority::GetDecrypter, mf.imfinputtrustauthority_getdecrypter, mfidl/IMFInputTrustAuthority::GetDecrypter
 ms.topic: method
-f1_keywords: 
- - "mfidl/IMFInputTrustAuthority.GetDecrypter"
+f1_keywords:
+- mfidl/IMFInputTrustAuthority.GetDecrypter
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFInputTrustAuthority.GetDecrypter
+- IMFInputTrustAuthority.GetDecrypter
 targetos: Windows
 req.typenames: 
 req.redist: 

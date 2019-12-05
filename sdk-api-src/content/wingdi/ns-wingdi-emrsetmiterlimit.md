@@ -1,19 +1,17 @@
 ---
 UID: NS:wingdi.tagEMRSETMITERLIMIT
 title: EMRSETMITERLIMIT (wingdi.h)
-
 description: The EMRSETMITERLIMIT structure contains members for the SetMiterLimit enhanced metafile record.
 old-location: gdi\emrsetmiterlimit.htm
 tech.root: gdi
 ms.assetid: 2d56eb0d-5417-464b-be6a-57e4654003e6
-
 ms.date: 12/05/2018
-ms.keywords: "*PEMRSETMITERLIMIT, EMRSETMITERLIMIT, EMRSETMITERLIMIT structure [Windows GDI], PEMRSETMITERLIMIT, PEMRSETMITERLIMIT structure pointer [Windows GDI], _win32_EMRSETMITERLIMIT_str, gdi.emrsetmiterlimit, wingdi/EMRSETMITERLIMIT, wingdi/PEMRSETMITERLIMIT"
+ms.keywords: '*PEMRSETMITERLIMIT, EMRSETMITERLIMIT, EMRSETMITERLIMIT structure [Windows GDI], PEMRSETMITERLIMIT, PEMRSETMITERLIMIT structure pointer [Windows GDI], _win32_EMRSETMITERLIMIT_str, gdi.emrsetmiterlimit, wingdi/EMRSETMITERLIMIT, wingdi/PEMRSETMITERLIMIT'
 ms.topic: struct
-f1_keywords: 
- - "wingdi/EMRSETMITERLIMIT"
+f1_keywords:
+- wingdi/EMRSETMITERLIMIT
 dev_langs:
- - c++
+- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wingdi.h
+- Wingdi.h
 api_name:
- - EMRSETMITERLIMIT
+- EMRSETMITERLIMIT
 targetos: Windows
 req.typenames: EMRSETMITERLIMIT, *PEMRSETMITERLIMIT
 req.redist: 

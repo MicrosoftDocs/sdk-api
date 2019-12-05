@@ -1,19 +1,17 @@
 ---
 UID: NF:oledlg.IOleUILinkInfoW.GetLastUpdate
 title: IOleUILinkInfoW::GetLastUpdate (oledlg.h)
-
 description: Determines the last time the object was updated.
 old-location: com\ioleuilinkinfo_getlastupdate.htm
 tech.root: com
 ms.assetid: 651dcfbc-577b-45a2-bf73-148a6f1c7030
-
 ms.date: 12/05/2018
 ms.keywords: GetLastUpdate, GetLastUpdate method [COM], GetLastUpdate method [COM],IOleUILinkInfo interface, GetLastUpdate method [COM],IOleUILinkInfoA interface, GetLastUpdate method [COM],IOleUILinkInfow interface, IOleUILinkInfo interface [COM],GetLastUpdate method, IOleUILinkInfo::GetLastUpdate, IOleUILinkInfoA, IOleUILinkInfoA interface [COM],GetLastUpdate method, IOleUILinkInfoA::GetLastUpdate, IOleUILinkInfoW, IOleUILinkInfoW.GetLastUpdate, IOleUILinkInfoW::GetLastUpdate, IOleUILinkInfow interface [COM],GetLastUpdate method, IOleUILinkInfow::GetLastUpdate, _ole_IOleUILinkInfo_GetLastUpdate, com.ioleuilinkinfo_getlastupdate, oledlg/IOleUILinkInfo::GetLastUpdate, oledlg/IOleUILinkInfoA::GetLastUpdate, oledlg/IOleUILinkInfow::GetLastUpdate
 ms.topic: method
-f1_keywords: 
- - "oledlg/IOleUILinkInfo.GetLastUpdate"
+f1_keywords:
+- oledlg/IOleUILinkInfo.GetLastUpdate
 dev_langs:
- - c++
+- c++
 req.header: oledlg.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - OleDlg.h
+- OleDlg.h
 api_name:
- - IOleUILinkInfo.GetLastUpdate
- - IOleUILinkInfoA.GetLastUpdate
- - IOleUILinkInfow.GetLastUpdate
+- IOleUILinkInfo.GetLastUpdate
+- IOleUILinkInfoA.GetLastUpdate
+- IOleUILinkInfow.GetLastUpdate
 targetos: Windows
 req.typenames: 
 req.redist: 

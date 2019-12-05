@@ -1,19 +1,17 @@
 ---
 UID: NF:mmc.IExtendTaskPad.EnumTasks
 title: IExtendTaskPad::EnumTasks (mmc.h)
-
 description: The IExtendTaskPad::EnumTasks method enables MMC to get a pointer to the IEnumTASK interface of the object that contains the snap-in's tasks.
 old-location: mmc\iextendtaskpad_enumtasks.htm
 tech.root: mmc
 ms.assetid: 5faced6f-68aa-453e-b5da-99b79e9c8e15
-
 ms.date: 12/05/2018
 ms.keywords: EnumTasks, EnumTasks method [MMC], EnumTasks method [MMC],IExtendTaskPad interface, IExtendTaskPad interface [MMC],EnumTasks method, IExtendTaskPad.EnumTasks, IExtendTaskPad::EnumTasks, _slate_iextendtaskpad_enumtasks, mmc.iextendtaskpad_enumtasks, mmc/IExtendTaskPad::EnumTasks
 ms.topic: method
-f1_keywords: 
- - "mmc/IExtendTaskPad.EnumTasks"
+f1_keywords:
+- mmc/IExtendTaskPad.EnumTasks
 dev_langs:
- - c++
+- c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mmc.h
+- Mmc.h
 api_name:
- - IExtendTaskPad.EnumTasks
+- IExtendTaskPad.EnumTasks
 targetos: Windows
 req.typenames: 
 req.redist: 

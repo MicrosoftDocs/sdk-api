@@ -1,19 +1,17 @@
 ---
 UID: NN:mpeg2psiparser.IGenericDescriptor
 title: IGenericDescriptor (mpeg2psiparser.h)
-
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005.
 old-location: mstv\igenericdescriptor.htm
 tech.root: mstv
 ms.assetid: efca0ecf-eb3e-4dcd-a674-b8fe1a66ff84
-
 ms.date: 12/05/2018
 ms.keywords: IGenericDescriptor, IGenericDescriptor interface [Microsoft TV Technologies], IGenericDescriptor interface [Microsoft TV Technologies],described, IGenericDescriptorInterface, mpeg2psiparser/IGenericDescriptor, mstv.igenericdescriptor
 ms.topic: interface
-f1_keywords: 
- - "mpeg2psiparser/IGenericDescriptor"
+f1_keywords:
+- mpeg2psiparser/IGenericDescriptor
 dev_langs:
- - c++
+- c++
 req.header: mpeg2psiparser.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mpeg2PsiParser.h
+- Mpeg2PsiParser.h
 api_name:
- - IGenericDescriptor
+- IGenericDescriptor
 targetos: Windows
 req.typenames: 
 req.redist: 

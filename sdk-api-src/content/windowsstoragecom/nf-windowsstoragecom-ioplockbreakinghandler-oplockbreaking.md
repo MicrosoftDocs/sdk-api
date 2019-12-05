@@ -1,19 +1,17 @@
 ---
 UID: NF:windowsstoragecom.IOplockBreakingHandler.OplockBreaking
 title: IOplockBreakingHandler::OplockBreaking (windowsstoragecom.h)
-
 description: This method is not currently implemented.
 old-location: winrt\ioplockbreakinghandler_oplockbreaking.htm
 tech.root: WinRT
 ms.assetid: 39E402AC-D159-4604-886E-454F36375CC5
-
 ms.date: 12/05/2018
 ms.keywords: IOplockBreakingHandler interface [Windows Runtime],OplockBreaking method, IOplockBreakingHandler.OplockBreaking, IOplockBreakingHandler::OplockBreaking, OplockBreaking, OplockBreaking method [Windows Runtime], OplockBreaking method [Windows Runtime],IOplockBreakingHandler interface, windowsstoragecom/IOplockBreakingHandler::OplockBreaking, winrt.ioplockbreakinghandler_oplockbreaking
 ms.topic: method
-f1_keywords: 
- - "windowsstoragecom/IOplockBreakingHandler.OplockBreaking"
+f1_keywords:
+- windowsstoragecom/IOplockBreakingHandler.OplockBreaking
 dev_langs:
- - c++
+- c++
 req.header: windowsstoragecom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Windows.storage.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - windows.storage.dll
+- windows.storage.dll
 api_name:
- - IOplockBreakingHandler.OplockBreaking
+- IOplockBreakingHandler.OplockBreaking
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NN:gpmgmt.IGPMRSOP
 title: IGPMRSOP (gpmgmt.h)
-
 description: The IGPMRSOP interface provides methods that support making Resultant Set of Policy (RSoP) queries in both logging and planning mode.
 old-location: gpmc\igpmrsop.htm
 tech.root: gpmc
 ms.assetid: 86bbb143-2a9c-4fda-ba13-4f0fd09b2cd3
-
 ms.date: 12/05/2018
 ms.keywords: GPMRSOP, IGPMRSOP, IGPMRSOP interface [GPMC], IGPMRSOP interface [GPMC],described, _win32_igpmrsop, gpmc.igpmrsop, gpmgmt/IGPMRSOP
 ms.topic: interface
-f1_keywords: 
- - "gpmgmt/IGPMRSOP"
+f1_keywords:
+- gpmgmt/IGPMRSOP
 dev_langs:
- - c++
+- c++
 req.header: gpmgmt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: Gpmgmt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gpmgmt.dll
+- Gpmgmt.dll
 api_name:
- - IGPMRSOP
- - GPMRSOP
+- IGPMRSOP
+- GPMRSOP
 targetos: Windows
 req.typenames: 
 req.redist: 

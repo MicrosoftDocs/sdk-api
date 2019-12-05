@@ -1,19 +1,17 @@
 ---
 UID: NF:fwpmu.FwpmFilterCreateEnumHandle0
 title: FwpmFilterCreateEnumHandle0 function (fwpmu.h)
-
 description: Creates a handle used to enumerate a set of filter objects.
 old-location: fwp\fwpmfiltercreateenumhandle0_func.htm
 tech.root: fwp
 ms.assetid: fd8ffa91-a205-441c-9145-da8b441cef28
-
 ms.date: 12/05/2018
 ms.keywords: FwpmFilterCreateEnumHandle0, FwpmFilterCreateEnumHandle0 function [Filtering], fwp.fwpmfiltercreateenumhandle0_func, fwpmu/FwpmFilterCreateEnumHandle0
 ms.topic: function
-f1_keywords: 
- - "fwpmu/FwpmFilterCreateEnumHandle0"
+f1_keywords:
+- fwpmu/FwpmFilterCreateEnumHandle0
 dev_langs:
- - c++
+- c++
 req.header: fwpmu.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Fwpuclnt.lib
 req.dll: Fwpuclnt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Fwpuclnt.dll
+- Fwpuclnt.dll
 api_name:
- - FwpmFilterCreateEnumHandle0
+- FwpmFilterCreateEnumHandle0
 targetos: Windows
 req.typenames: 
 req.redist: 

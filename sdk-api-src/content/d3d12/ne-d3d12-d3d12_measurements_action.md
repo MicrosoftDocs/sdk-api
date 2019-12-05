@@ -1,17 +1,15 @@
 ---
 UID: NE:d3d12.D3D12_MEASUREMENTS_ACTION
 title: D3D12_MEASUREMENTS_ACTION
-
 description: Defines constants that specify what should be done with the results of earlier workload instrumentation.
 tech.root: direct3d12
-
 ms.date: 10/14/2019
 ms.keywords: D3D12_MEASUREMENTS_ACTION, D3D12_MEASUREMENTS_ACTION enumeration, direct3d12.d3d12_measurements_action
 ms.topic: enum
-f1_keywords: 
- - "d3d12/D3D12_MEASUREMENTS_ACTION"
+f1_keywords:
+- d3d12/D3D12_MEASUREMENTS_ACTION
 dev_langs:
- - c++
+- c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +28,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - d3d12.h
+- d3d12.h
 api_name:
- - D3D12_MEASUREMENTS_ACTION
+- D3D12_MEASUREMENTS_ACTION
 targetos: Windows
 req.typenames: D3D12_MEASUREMENTS_ACTION
 req.redist: 

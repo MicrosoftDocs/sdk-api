@@ -1,19 +1,17 @@
 ---
 UID: NF:shlwapi.SHStrDupW
 title: SHStrDupW function (shlwapi.h)
-
 description: Makes a copy of a string in newly allocated memory.
 old-location: shell\SHStrDup.htm
 tech.root: shell
 ms.assetid: 6f014fb4-7637-48a8-9bec-d3278c46a6d8
-
 ms.date: 12/05/2018
 ms.keywords: SHStrDup, SHStrDup function [Windows Shell], SHStrDupA, SHStrDupW, _win32_SHStrDup, shell.SHStrDup, shlwapi/SHStrDup, shlwapi/SHStrDupA, shlwapi/SHStrDupW
 ms.topic: function
-f1_keywords: 
- - "shlwapi/SHStrDup"
+f1_keywords:
+- shlwapi/SHStrDup
 dev_langs:
- - c++
+- c++
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,21 +30,21 @@ req.lib: Shlwapi.lib
 req.dll: Shlwapi.dll (version 5.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Shlwapi.dll
- - API-MS-Win-shlwapi-IE-l1-1-0.dll
- - API-MS-Win-DownLevel-shlwapi-l2-1-0.dll
- - ShCore.dll
- - API-MS-Win-DownLevel-shlwapi-l2-1-1.dll
- - API-MS-Win-ShCore-Obsolete-l1-1-0.dll
+- Shlwapi.dll
+- API-MS-Win-shlwapi-IE-l1-1-0.dll
+- API-MS-Win-DownLevel-shlwapi-l2-1-0.dll
+- ShCore.dll
+- API-MS-Win-DownLevel-shlwapi-l2-1-1.dll
+- API-MS-Win-ShCore-Obsolete-l1-1-0.dll
 api_name:
- - SHStrDup
- - SHStrDupA
- - SHStrDupW
+- SHStrDup
+- SHStrDupA
+- SHStrDupW
 targetos: Windows
 req.typenames: 
 req.redist: 

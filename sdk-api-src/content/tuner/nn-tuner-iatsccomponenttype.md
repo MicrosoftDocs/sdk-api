@@ -1,19 +1,17 @@
 ---
 UID: NN:tuner.IATSCComponentType
 title: IATSCComponentType (tuner.h)
-
 description: The IATSCComponentType interface represents a component type for a component in an ATSC broadcast. The ATSCComponentType object exposes this interface. Use this interface to determine if an audio stream is in AC-3 format.
 old-location: mstv\iatsccomponenttype.htm
 tech.root: mstv
 ms.assetid: c7e05f63-b2cf-4a99-8e0f-bc7ec00463cf
-
 ms.date: 12/05/2018
 ms.keywords: IATSCComponentType, IATSCComponentType interface [Microsoft TV Technologies], IATSCComponentType interface [Microsoft TV Technologies],described, IATSCComponentTypeInterface, mstv.iatsccomponenttype, tuner/IATSCComponentType
 ms.topic: interface
-f1_keywords: 
- - "tuner/IATSCComponentType"
+f1_keywords:
+- tuner/IATSCComponentType
 dev_langs:
- - c++
+- c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - tuner.h
+- tuner.h
 api_name:
- - IATSCComponentType
+- IATSCComponentType
 targetos: Windows
 req.typenames: 
 req.redist: 

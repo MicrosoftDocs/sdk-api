@@ -1,19 +1,17 @@
 ---
 UID: NF:netfw.INetFwRule.get_RemoteAddresses
 title: INetFwRule::get_RemoteAddresses (netfw.h)
-
 description: Specifies the list of remote addresses for this rule.
 old-location: ics\inetfwrule_remoteaddresses.htm
 tech.root: ics
 ms.assetid: 107e8cad-a603-4ac8-aa3c-6a85d47016ef
-
 ms.date: 12/05/2018
 ms.keywords: INetFwRule interface [ICS/ICF],RemoteAddresses property, INetFwRule.RemoteAddresses, INetFwRule.get_RemoteAddresses, INetFwRule::RemoteAddresses, INetFwRule::get_RemoteAddresses, INetFwRule::put_RemoteAddresses, RemoteAddresses property [ICS/ICF], RemoteAddresses property [ICS/ICF],INetFwRule interface, get_RemoteAddresses, ics.inetfwrule_remoteaddresses, netfw/INetFwRule::RemoteAddresses, netfw/INetFwRule::get_RemoteAddresses, netfw/INetFwRule::put_RemoteAddresses
 ms.topic: method
-f1_keywords: 
- - "netfw/INetFwRule.RemoteAddresses"
+f1_keywords:
+- netfw/INetFwRule.RemoteAddresses
 dev_langs:
- - c++
+- c++
 req.header: netfw.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: FirewallAPI.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - FirewallAPI.dll
+- FirewallAPI.dll
 api_name:
- - INetFwRule.RemoteAddresses
- - INetFwRule.get_RemoteAddresses
- - INetFwRule.put_RemoteAddresses
+- INetFwRule.RemoteAddresses
+- INetFwRule.get_RemoteAddresses
+- INetFwRule.put_RemoteAddresses
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NN:rdpencomapi.IRDPSRAPIViewer
 title: IRDPSRAPIViewer (rdpencomapi.h)
-
 description: The ActiveX interface that is used on the viewer side.
 old-location: rdp\irdpsrapiviewer.htm
 tech.root: rdp
 ms.assetid: 6bafe380-2ef4-4e93-a6cd-143798437615
-
 ms.date: 12/05/2018
 ms.keywords: IRDPSRAPIViewer, IRDPSRAPIViewer interface [RDP], IRDPSRAPIViewer interface [RDP],described, rdp.irdpsrapiviewer, rdpencomapi/IRDPSRAPIViewer
 ms.topic: interface
-f1_keywords: 
- - "rdpencomapi/IRDPSRAPIViewer"
+f1_keywords:
+- rdpencomapi/IRDPSRAPIViewer
 dev_langs:
- - c++
+- c++
 req.header: rdpencomapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: RdpEncom.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - RdpEncom.dll
+- RdpEncom.dll
 api_name:
- - IRDPSRAPIViewer
+- IRDPSRAPIViewer
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IShellItemResources.MarkForDelete
 title: IShellItemResources::MarkForDelete (shobjidl_core.h)
-
 description: Marks for delete.
 old-location: shell\IShellItemResources_MarkForDelete.htm
 tech.root: shell
 ms.assetid: 15f395a8-70ab-43ba-bb75-6e9b25a19faa
-
 ms.date: 12/05/2018
 ms.keywords: IShellItemResources interface [Windows Shell],MarkForDelete method, IShellItemResources.MarkForDelete, IShellItemResources::MarkForDelete, MarkForDelete, MarkForDelete method [Windows Shell], MarkForDelete method [Windows Shell],IShellItemResources interface, _shell_IShellItemResources_MarkForDelete, shell.IShellItemResources_MarkForDelete, shobjidl_core/IShellItemResources::MarkForDelete
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IShellItemResources.MarkForDelete"
+f1_keywords:
+- shobjidl_core/IShellItemResources.MarkForDelete
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - IShellItemResources.MarkForDelete
+- IShellItemResources.MarkForDelete
 targetos: Windows
 req.typenames: 
 req.redist: 

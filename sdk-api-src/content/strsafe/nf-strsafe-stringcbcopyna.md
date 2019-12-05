@@ -1,19 +1,17 @@
 ---
 UID: NF:strsafe.StringCbCopyNA
 title: StringCbCopyNA function (strsafe.h)
-
 description: Copies the specified number of bytes from one string to another.
 old-location: menurc\stringcbcopyn.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\strings\stringreference\stringfunctions\stringcbcopyn.htm
-
 ms.date: 12/05/2018
 ms.keywords: StringCbCopyN, StringCbCopyN function [Menus and Other Resources], StringCbCopyNA, StringCbCopyNW, _shell_StringCbCopyN, _shell_stringcbcopyn_cpp, menurc.stringcbcopyn, strsafe/StringCbCopyN, strsafe/StringCbCopyNA, strsafe/StringCbCopyNW, winui._shell_stringcbcopyn
 ms.topic: function
-f1_keywords: 
- - "strsafe/StringCbCopyN"
+f1_keywords:
+- strsafe/StringCbCopyN
 dev_langs:
- - c++
+- c++
 req.header: strsafe.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Strsafe.h
+- Strsafe.h
 api_name:
- - StringCbCopyN
- - StringCbCopyNA
- - StringCbCopyNW
+- StringCbCopyN
+- StringCbCopyNA
+- StringCbCopyNW
 targetos: Windows
 req.typenames: 
 req.redist: 

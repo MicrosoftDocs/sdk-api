@@ -1,19 +1,17 @@
 ---
 UID: NF:dxgi1_3.IDXGIDecodeSwapChain.SetColorSpace
 title: IDXGIDecodeSwapChain::SetColorSpace (dxgi1_3.h)
-
 description: Sets the color space used by the swap chain.
 old-location: direct3ddxgi\idxgidecodeswapchain_setcolorspace.htm
 tech.root: direct3ddxgi
 ms.assetid: DE0AA2BF-8E98-4CF4-8CC2-760AB4B8776D
-
 ms.date: 12/05/2018
 ms.keywords: IDXGIDecodeSwapChain interface [DXGI],SetColorSpace method, IDXGIDecodeSwapChain.SetColorSpace, IDXGIDecodeSwapChain::SetColorSpace, SetColorSpace, SetColorSpace method [DXGI], SetColorSpace method [DXGI],IDXGIDecodeSwapChain interface, direct3ddxgi.idxgidecodeswapchain_setcolorspace, dxgi1_3/IDXGIDecodeSwapChain::SetColorSpace
 ms.topic: method
-f1_keywords: 
- - "dxgi1_3/IDXGIDecodeSwapChain.SetColorSpace"
+f1_keywords:
+- dxgi1_3/IDXGIDecodeSwapChain.SetColorSpace
 dev_langs:
- - c++
+- c++
 req.header: dxgi1_3.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Dxgi.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dxgi.lib
- - Dxgi.dll
+- Dxgi.lib
+- Dxgi.dll
 api_name:
- - IDXGIDecodeSwapChain.SetColorSpace
+- IDXGIDecodeSwapChain.SetColorSpace
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NS:commctrl.tagTVGETITEMPARTRECTINFO
 title: TVGETITEMPARTRECTINFO (commctrl.h)
-
 description: Contains information for identifying the &#0034;hit zone&#0034; for a specified part of a tree item. The structure is used with the TVM_GETITEMPARTRECT message and the TreeView_GetItemPartRect macro.
 old-location: controls\TVGETITEMPARTRECTINFO.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\treeview\structures\tvgetitempartrectinfo.htm
-
 ms.date: 12/05/2018
 ms.keywords: TVGETITEMPARTRECTINFO, TVGETITEMPARTRECTINFO structure [Windows Controls], _shell_TVGETITEMPARTRECTINFO, _shell_TVGETITEMPARTRECTINFO_cpp, commctrl/TVGETITEMPARTRECTINFO, controls.TVGETITEMPARTRECTINFO, controls._shell_TVGETITEMPARTRECTINFO
 ms.topic: struct
-f1_keywords: 
- - "commctrl/TVGETITEMPARTRECTINFO"
+f1_keywords:
+- commctrl/TVGETITEMPARTRECTINFO
 dev_langs:
- - c++
+- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Commctrl.h
+- Commctrl.h
 api_name:
- - TVGETITEMPARTRECTINFO
+- TVGETITEMPARTRECTINFO
 targetos: Windows
 req.typenames: TVGETITEMPARTRECTINFO
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:ctfutb.ITfLangBarItemBitmap.GetPreferredSize
 title: ITfLangBarItemBitmap::GetPreferredSize (ctfutb.h)
-
 description: ITfLangBarItemBitmap::GetPreferredSize method
 old-location: tsf\itflangbaritembitmap_getpreferredsize.htm
 tech.root: TSF
 ms.assetid: 4dd173de-6b54-4d03-b458-0dd5186d1d83
-
 ms.date: 12/05/2018
 ms.keywords: GetPreferredSize, GetPreferredSize method [Text Services Framework], GetPreferredSize method [Text Services Framework],ITfLangBarItemBitmap interface, ITfLangBarItemBitmap interface [Text Services Framework],GetPreferredSize method, ITfLangBarItemBitmap.GetPreferredSize, ITfLangBarItemBitmap::GetPreferredSize, _tsf_itflangbaritembitmap_getpreferredsize_ref, ctfutb/ITfLangBarItemBitmap::GetPreferredSize, tsf.itflangbaritembitmap_getpreferredsize
 ms.topic: method
-f1_keywords: 
- - "ctfutb/ITfLangBarItemBitmap.GetPreferredSize"
+f1_keywords:
+- ctfutb/ITfLangBarItemBitmap.GetPreferredSize
 dev_langs:
- - c++
+- c++
 req.header: ctfutb.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msctf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msctf.dll
+- msctf.dll
 api_name:
- - ITfLangBarItemBitmap.GetPreferredSize
+- ITfLangBarItemBitmap.GetPreferredSize
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

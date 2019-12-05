@@ -1,19 +1,17 @@
 ---
 UID: NF:wincodec.IWICDevelopRaw.QueryRawCapabilitiesInfo
 title: IWICDevelopRaw::QueryRawCapabilitiesInfo (wincodec.h)
-
 description: Retrieves information about which capabilities are supported for a raw image.
 old-location: wic\_wic_codec_iwicdevelopraw_queryrawcapabilitiesinfo.htm
 tech.root: wic
 ms.assetid: a16ada3c-34ae-47ce-9660-90e50d78802a
-
 ms.date: 12/05/2018
 ms.keywords: IWICDevelopRaw interface [Windows Imaging Component],QueryRawCapabilitiesInfo method, IWICDevelopRaw.QueryRawCapabilitiesInfo, IWICDevelopRaw::QueryRawCapabilitiesInfo, QueryRawCapabilitiesInfo, QueryRawCapabilitiesInfo method [Windows Imaging Component], QueryRawCapabilitiesInfo method [Windows Imaging Component],IWICDevelopRaw interface, _wic_codec_iwicdevelopraw_queryrawcapabilitiesinfo, wic._wic_codec_iwicdevelopraw_queryrawcapabilitiesinfo, wincodec/IWICDevelopRaw::QueryRawCapabilitiesInfo
 ms.topic: method
-f1_keywords: 
- - "wincodec/IWICDevelopRaw.QueryRawCapabilitiesInfo"
+f1_keywords:
+- wincodec/IWICDevelopRaw.QueryRawCapabilitiesInfo
 dev_langs:
- - c++
+- c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Windowscodecs.lib
 req.dll: Windowscodecs.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Windowscodecs.dll
+- Windowscodecs.dll
 api_name:
- - IWICDevelopRaw.QueryRawCapabilitiesInfo
+- IWICDevelopRaw.QueryRawCapabilitiesInfo
 targetos: Windows
 req.typenames: 
 req.redist: 

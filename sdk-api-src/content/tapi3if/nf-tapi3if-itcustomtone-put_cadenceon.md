@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi3if.ITCustomTone.put_CadenceOn
 title: ITCustomTone::put_CadenceOn (tapi3if.h)
-
 description: The put_CadenceOn method sets the &#0034;on&#0034; duration of the cadence of the custom tone to generate.
 old-location: tapi3\itcustomtone_put_cadenceon.htm
 tech.root: Tapi
 ms.assetid: c4403c3a-7dd8-4707-ac23-5a478fffce17
-
 ms.date: 12/05/2018
 ms.keywords: ITCustomTone interface [TAPI 2.2],put_CadenceOn method, ITCustomTone.put_CadenceOn, ITCustomTone::put_CadenceOn, _tapi3_itcustomtone_put_cadenceon, put_CadenceOn, put_CadenceOn method [TAPI 2.2], put_CadenceOn method [TAPI 2.2],ITCustomTone interface, tapi3.itcustomtone_put_cadenceon, tapi3if/ITCustomTone::put_CadenceOn
 ms.topic: method
-f1_keywords: 
- - "tapi3if/ITCustomTone.put_CadenceOn"
+f1_keywords:
+- tapi3if/ITCustomTone.put_CadenceOn
 dev_langs:
- - c++
+- c++
 req.header: tapi3if.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Tapi3.dll
+- Tapi3.dll
 api_name:
- - ITCustomTone.put_CadenceOn
+- ITCustomTone.put_CadenceOn
 targetos: Windows
 req.typenames: 
 req.redist: 

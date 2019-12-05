@@ -1,19 +1,17 @@
 ---
 UID: NF:fsrmscreen.IFsrmFileScreen.ApplyTemplate
 title: IFsrmFileScreen::ApplyTemplate (fsrmscreen.h)
-
 description: Applies the property values of the specified file screen template to this file screen object.
 old-location: fsrm\ifsrmfilescreen_applytemplate.htm
 tech.root: fsrm
 ms.assetid: d495cb92-09c4-4fa5-873c-5f07475eb7bf
-
 ms.date: 12/05/2018
 ms.keywords: ApplyTemplate, ApplyTemplate method [File Server Resource Manager], ApplyTemplate method [File Server Resource Manager],IFsrmFileScreen interface, IFsrmFileScreen interface [File Server Resource Manager],ApplyTemplate method, IFsrmFileScreen.ApplyTemplate, IFsrmFileScreen::ApplyTemplate, fs.ifsrmfilescreen_applytemplate, fsrm.ifsrmfilescreen_applytemplate, fsrmscreen/IFsrmFileScreen::ApplyTemplate
 ms.topic: method
-f1_keywords: 
- - "fsrmscreen/IFsrmFileScreen.ApplyTemplate"
+f1_keywords:
+- fsrmscreen/IFsrmFileScreen.ApplyTemplate
 dev_langs:
- - c++
+- c++
 req.header: fsrmscreen.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: SrmSvc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - SrmSvc.dll
+- SrmSvc.dll
 api_name:
- - IFsrmFileScreen.ApplyTemplate
+- IFsrmFileScreen.ApplyTemplate
 targetos: Windows
 req.typenames: 
 req.redist: 

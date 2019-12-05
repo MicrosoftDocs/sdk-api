@@ -1,19 +1,17 @@
 ---
 UID: NF:d2d1effectauthor.ID2D1DrawInfo.SetResourceTexture
 title: ID2D1DrawInfo::SetResourceTexture (d2d1effectauthor.h)
-
 description: Sets the resource texture corresponding to the given shader texture index.
 old-location: direct2d\id2d1drawinfo_setresourcetexture.htm
 tech.root: Direct2D
 ms.assetid: 6E53577B-AD97-4530-8260-4A99B90E0581
-
 ms.date: 12/05/2018
 ms.keywords: ID2D1DrawInfo interface [Direct2D],SetResourceTexture method, ID2D1DrawInfo.SetResourceTexture, ID2D1DrawInfo::SetResourceTexture, SetResourceTexture, SetResourceTexture method [Direct2D], SetResourceTexture method [Direct2D],ID2D1DrawInfo interface, d2d1effectauthor/ID2D1DrawInfo::SetResourceTexture, direct2d.id2d1drawinfo_setresourcetexture
 ms.topic: method
-f1_keywords: 
- - "d2d1effectauthor/ID2D1DrawInfo.SetResourceTexture"
+f1_keywords:
+- d2d1effectauthor/ID2D1DrawInfo.SetResourceTexture
 dev_langs:
- - c++
+- c++
 req.header: d2d1effectauthor.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: D2d1.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - d2d1.lib
- - d2d1.dll
+- d2d1.lib
+- d2d1.dll
 api_name:
- - ID2D1DrawInfo.SetResourceTexture
+- ID2D1DrawInfo.SetResourceTexture
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:devicetopology.IPart.GetSubType
 title: IPart::GetSubType (devicetopology.h)
-
 description: The GetSubType method gets the part subtype of this part.
 old-location: coreaudio\ipart_getsubtype.htm
 tech.root: CoreAudio
 ms.assetid: 456aaafb-1e68-4a3a-b27b-c6f6f89dc17b
-
 ms.date: 12/05/2018
 ms.keywords: GetSubType, GetSubType method [Core Audio], GetSubType method [Core Audio],IPart interface, IPart interface [Core Audio],GetSubType method, IPart.GetSubType, IPart::GetSubType, IPartGetSubType, coreaudio.ipart_getsubtype, devicetopology/IPart::GetSubType
 ms.topic: method
-f1_keywords: 
- - "devicetopology/IPart.GetSubType"
+f1_keywords:
+- devicetopology/IPart.GetSubType
 dev_langs:
- - c++
+- c++
 req.header: devicetopology.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Devicetopology.h
+- Devicetopology.h
 api_name:
- - IPart.GetSubType
+- IPart.GetSubType
 targetos: Windows
 req.typenames: 
 req.redist: 

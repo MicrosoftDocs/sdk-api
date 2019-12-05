@@ -1,19 +1,17 @@
 ---
 UID: NE:clusapi._CLUSTER_UPGRADE_PHASE
 title: CLUSTER_UPGRADE_PHASE (clusapi.h)
-
 description: Describes the state of a rolling upgrade of the operating system on a cluster. This enumeration is used by the ClusterUpgradeProgressCallback callback function.
 old-location: mscs\cluster_upgrade_phase.htm
 tech.root: MsCS
 ms.assetid: 75FB1BCD-03E0-4A6F-8C97-99AE8E958174
-
 ms.date: 12/05/2018
 ms.keywords: CLUSTER_UPGRADE_PHASE, CLUSTER_UPGRADE_PHASE enumeration [Failover Cluster], ClusterUpgradePhaseInitialize, ClusterUpgradePhaseInstallingNewComponents, ClusterUpgradePhaseUpgradeComplete, ClusterUpgradePhaseUpgradingComponents, ClusterUpgradePhaseValidatingUpgrade, clusapi/CLUSTER_UPGRADE_PHASE, clusapi/ClusterUpgradePhaseInitialize, clusapi/ClusterUpgradePhaseInstallingNewComponents, clusapi/ClusterUpgradePhaseUpgradeComplete, clusapi/ClusterUpgradePhaseUpgradingComponents, clusapi/ClusterUpgradePhaseValidatingUpgrade, msclus/CLUSTER_UPGRADE_PHASE, msclus/ClusterUpgradePhaseInitialize, msclus/ClusterUpgradePhaseInstallingNewComponents, msclus/ClusterUpgradePhaseUpgradeComplete, msclus/ClusterUpgradePhaseUpgradingComponents, msclus/ClusterUpgradePhaseValidatingUpgrade, mscs.cluster_upgrade_phase
 ms.topic: enum
-f1_keywords: 
- - "clusapi/CLUSTER_UPGRADE_PHASE"
+f1_keywords:
+- clusapi/CLUSTER_UPGRADE_PHASE
 dev_langs:
- - c++
+- c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - ClusAPI.h
- - MsClus.h
+- ClusAPI.h
+- MsClus.h
 api_name:
- - CLUSTER_UPGRADE_PHASE
+- CLUSTER_UPGRADE_PHASE
 targetos: Windows
 req.typenames: CLUSTER_UPGRADE_PHASE
 req.redist: 

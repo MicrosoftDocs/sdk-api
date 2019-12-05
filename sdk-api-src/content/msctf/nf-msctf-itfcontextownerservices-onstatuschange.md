@@ -1,19 +1,17 @@
 ---
 UID: NF:msctf.ITfContextOwnerServices.OnStatusChange
 title: ITfContextOwnerServices::OnStatusChange (msctf.h)
-
 description: The ITfContextOwnerServices::OnStatusChange method is called by the context owner when the dwDynamicFlags member of the TS_STATUS structure returned by the ITfContextOwner::GetStatus method changes.
 old-location: tsf\itfcontextownerservices_onstatuschange.htm
 tech.root: TSF
 ms.assetid: da450910-d592-49c0-8df7-bc2f4037c4d2
-
 ms.date: 12/05/2018
 ms.keywords: ITfContextOwnerServices interface [Text Services Framework],OnStatusChange method, ITfContextOwnerServices.OnStatusChange, ITfContextOwnerServices::OnStatusChange, OnStatusChange, OnStatusChange method [Text Services Framework], OnStatusChange method [Text Services Framework],ITfContextOwnerServices interface, _tsf_itfcontextownerservices_onstatuschange_ref, msctf/ITfContextOwnerServices::OnStatusChange, tsf.itfcontextownerservices_onstatuschange
 ms.topic: method
-f1_keywords: 
- - "msctf/ITfContextOwnerServices.OnStatusChange"
+f1_keywords:
+- msctf/ITfContextOwnerServices.OnStatusChange
 dev_langs:
- - c++
+- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msctf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msctf.dll
+- msctf.dll
 api_name:
- - ITfContextOwnerServices.OnStatusChange
+- ITfContextOwnerServices.OnStatusChange
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

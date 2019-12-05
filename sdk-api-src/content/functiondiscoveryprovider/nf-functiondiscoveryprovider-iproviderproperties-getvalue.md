@@ -1,19 +1,17 @@
 ---
 UID: NF:functiondiscoveryprovider.IProviderProperties.GetValue
 title: IProviderProperties::GetValue (functiondiscoveryprovider.h)
-
 description: Gets the value of the specified property key.
 old-location: ncd\iproviderproperties_getvalue_method.htm
 tech.root: FunDisc
 ms.assetid: c32a5367-ef39-4852-bf3b-203d27d0a2d0
-
 ms.date: 12/05/2018
 ms.keywords: GetValue, GetValue method, GetValue method,IProviderProperties interface, IProviderProperties interface,GetValue method, IProviderProperties.GetValue, IProviderProperties::GetValue, functiondiscoveryprovider/IProviderProperties::GetValue, ncd.iproviderproperties_getvalue_method
 ms.topic: method
-f1_keywords: 
- - "functiondiscoveryprovider/IProviderProperties.GetValue"
+f1_keywords:
+- functiondiscoveryprovider/IProviderProperties.GetValue
 dev_langs:
- - c++
+- c++
 req.header: functiondiscoveryprovider.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - FunctionDiscoveryProvider.h
+- FunctionDiscoveryProvider.h
 api_name:
- - IProviderProperties.GetValue
+- IProviderProperties.GetValue
 targetos: Windows
 req.typenames: 
 req.redist: 

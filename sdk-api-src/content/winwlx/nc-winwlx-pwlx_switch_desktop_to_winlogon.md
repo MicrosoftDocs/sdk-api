@@ -1,19 +1,17 @@
 ---
 UID: NC:winwlx.PWLX_SWITCH_DESKTOP_TO_WINLOGON
 title: PWLX_SWITCH_DESKTOP_TO_WINLOGON (winwlx.h)
-
 description: Allows the GINA DLL switch to the Winlogon desktop.
 old-location: security\wlxswitchdesktoptowinlogon.htm
 tech.root: SecAuthN
 ms.assetid: ed910769-94c2-455b-9788-de3795330821
-
 ms.date: 12/05/2018
 ms.keywords: PWLX_SWITCH_DESKTOP_TO_WINLOGON, PWLX_SWITCH_DESKTOP_TO_WINLOGON callback, WlxSwitchDesktopToWinlogon, WlxSwitchDesktopToWinlogon callback function [Security], _gina_wlxswitchdesktoptowinlogon, security.wlxswitchdesktoptowinlogon, winwlx/WlxSwitchDesktopToWinlogon
 ms.topic: callback
-f1_keywords: 
- - "winwlx/WlxSwitchDesktopToWinlogon"
+f1_keywords:
+- winwlx/WlxSwitchDesktopToWinlogon
 dev_langs:
- - c++
+- c++
 req.header: winwlx.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - winwlx.h
+- winwlx.h
 api_name:
- - WlxSwitchDesktopToWinlogon
+- WlxSwitchDesktopToWinlogon
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NS:wingdi.tagLOGPALETTE
 title: LOGPALETTE (wingdi.h)
-
 description: The LOGPALETTE structure defines a logical palette.
 old-location: gdi\logpalette.htm
 tech.root: gdi
 ms.assetid: 99d70a0e-ac61-4a88-a500-66443e7882ad
-
 ms.date: 12/05/2018
-ms.keywords: "*LPLOGPALETTE, *NPLOGPALETTE, *PLOGPALETTE, LOGPALETTE, LOGPALETTE structure [Windows GDI], _win32_LOGPALETTE_str, gdi.logpalette, tagLOGPALETTE, wingdi/LOGPALETTE"
+ms.keywords: '*LPLOGPALETTE, *NPLOGPALETTE, *PLOGPALETTE, LOGPALETTE, LOGPALETTE structure [Windows GDI], _win32_LOGPALETTE_str, gdi.logpalette, tagLOGPALETTE, wingdi/LOGPALETTE'
 ms.topic: struct
-f1_keywords: 
- - "wingdi/LOGPALETTE"
+f1_keywords:
+- wingdi/LOGPALETTE
 dev_langs:
- - c++
+- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wingdi.h
+- Wingdi.h
 api_name:
- - LOGPALETTE
+- LOGPALETTE
 targetos: Windows
 req.typenames: LOGPALETTE, *PLOGPALETTE, *NPLOGPALETTE, *LPLOGPALETTE
 req.redist: 

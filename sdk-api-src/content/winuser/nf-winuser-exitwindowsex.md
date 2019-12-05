@@ -1,19 +1,17 @@
 ---
 UID: NF:winuser.ExitWindowsEx
 title: ExitWindowsEx function (winuser.h)
-
 description: Logs off the interactive user, shuts down the system, or shuts down and restarts the system.
 old-location: base\exitwindowsex.htm
 tech.root: Shutdown
 ms.assetid: f44ccb66-10bd-4ee6-93e1-16948cf10e50
-
 ms.date: 12/05/2018
 ms.keywords: EWX_FORCE, EWX_FORCEIFHUNG, EWX_HYBRID_SHUTDOWN, EWX_LOGOFF, EWX_POWEROFF, EWX_REBOOT, EWX_RESTARTAPPS, EWX_SHUTDOWN, ExitWindowsEx, ExitWindowsEx function, _win32_exitwindowsex, base.exitwindowsex, winuser/ExitWindowsEx
 ms.topic: function
-f1_keywords: 
- - "winuser/ExitWindowsEx"
+f1_keywords:
+- winuser/ExitWindowsEx
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,21 +30,21 @@ req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - User32.dll
- - Ext-MS-Win-NTUser-Misc-l1-1-0.dll
- - Ext-MS-Win-NTUser-Misc-l1-2-0.dll
- - Ext-MS-Win-NTUser-Misc-l1-3-0.dll
- - ext-ms-win-ntuser-misc-l1-3-1.dll
- - Ext-MS-Win-NTUser-Misc-L1-4-0.dll
- - Ext-Ms-Win-NTUser-Misc-L1-5-0.dll
- - Ext-MS-Win-NTUser-Misc-L1-5-1.dll
+- User32.dll
+- Ext-MS-Win-NTUser-Misc-l1-1-0.dll
+- Ext-MS-Win-NTUser-Misc-l1-2-0.dll
+- Ext-MS-Win-NTUser-Misc-l1-3-0.dll
+- ext-ms-win-ntuser-misc-l1-3-1.dll
+- Ext-MS-Win-NTUser-Misc-L1-4-0.dll
+- Ext-Ms-Win-NTUser-Misc-L1-5-0.dll
+- Ext-MS-Win-NTUser-Misc-L1-5-1.dll
 api_name:
- - ExitWindowsEx
+- ExitWindowsEx
 targetos: Windows
 req.typenames: 
 req.redist: 

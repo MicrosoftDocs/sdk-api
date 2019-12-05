@@ -1,19 +1,17 @@
 ---
 UID: NF:immdev.ImmGetImeMenuItemsA
 title: ImmGetImeMenuItemsA function (immdev.h)
-
 description: Retrieves the menu items that are registered in the IME menu of a specified input context.
 old-location: intl\immgetimemenuitems.htm
 tech.root: Intl
 ms.assetid: 452c864d-b2e7-452a-85f2-d06d46170865
-
 ms.date: 12/05/2018
 ms.keywords: IGIMIF_RIGHTMENU, IGIMII_CMODE, IGIMII_CONFIGURE, IGIMII_HELP, IGIMII_INPUTTOOLS, IGIMII_OTHER, IGIMII_SMODE, IGIMII_TOOLS, ImmGetImeMenuItems, ImmGetImeMenuItems function [Internationalization for Windows Applications], ImmGetImeMenuItemsA, ImmGetImeMenuItemsW, _win32_ImmGetImeMenuItems, imm/ImmGetImeMenuItems, imm/ImmGetImeMenuItemsA, imm/ImmGetImeMenuItemsW, intl.immgetimemenuitems
 ms.topic: function
-f1_keywords: 
- - "immdev/ImmGetImeMenuItems"
+f1_keywords:
+- immdev/ImmGetImeMenuItems
 dev_langs:
- - c++
+- c++
 req.header: immdev.h
 req.include-header: Immdev.h, Windows.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Imm32.lib
 req.dll: Imm32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Imm32.dll
+- Imm32.dll
 api_name:
- - ImmGetImeMenuItems
- - ImmGetImeMenuItemsA
- - ImmGetImeMenuItemsW
+- ImmGetImeMenuItems
+- ImmGetImeMenuItemsA
+- ImmGetImeMenuItemsW
 targetos: Windows
 req.typenames: 
 req.redist: 

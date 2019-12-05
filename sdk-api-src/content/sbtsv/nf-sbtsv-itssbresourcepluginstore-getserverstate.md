@@ -1,19 +1,17 @@
 ---
 UID: NF:sbtsv.ITsSbResourcePluginStore.GetServerState
 title: ITsSbResourcePluginStore::GetServerState (sbtsv.h)
-
 description: Retrieves the state of a specified server.
 old-location: termserv\itssbresourcepluginstore_getserverstate.htm
 tech.root: TermServ
 ms.assetid: 287863fe-55b3-456e-9488-09ee85af2e15
-
 ms.date: 12/05/2018
 ms.keywords: GetServerState, GetServerState method [Remote Desktop Services], GetServerState method [Remote Desktop Services],ITsSbResourcePluginStore interface, ITsSbResourcePluginStore interface [Remote Desktop Services],GetServerState method, ITsSbResourcePluginStore.GetServerState, ITsSbResourcePluginStore::GetServerState, sbtsv/ITsSbResourcePluginStore::GetServerState, termserv.itssbresourcepluginstore_getserverstate
 ms.topic: method
-f1_keywords: 
- - "sbtsv/ITsSbResourcePluginStore.GetServerState"
+f1_keywords:
+- sbtsv/ITsSbResourcePluginStore.GetServerState
 dev_langs:
- - c++
+- c++
 req.header: sbtsv.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - sbtsv.h
+- sbtsv.h
 api_name:
- - ITsSbResourcePluginStore.GetServerState
+- ITsSbResourcePluginStore.GetServerState
 targetos: Windows
 req.typenames: 
 req.redist: 

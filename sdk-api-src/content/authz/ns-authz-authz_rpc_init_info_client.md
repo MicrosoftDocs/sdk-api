@@ -1,19 +1,17 @@
 ---
 UID: NS:authz._AUTHZ_RPC_INIT_INFO_CLIENT
 title: AUTHZ_RPC_INIT_INFO_CLIENT (authz.h)
-
 description: Initializes a remote resource manager for a client.
 old-location: security\authz_rpc_init_info_client.htm
 tech.root: SecAuthZ
 ms.assetid: 6859A0CB-F88E-42BF-A350-293D28E908DD
-
 ms.date: 12/05/2018
-ms.keywords: "*PAUTHZ_RPC_INIT_INFO_CLIENT, AUTHZ_RPC_INIT_INFO_CLIENT, AUTHZ_RPC_INIT_INFO_CLIENT structure [Security], PAUTHZ_RPC_INIT_INFO_CLIENT, PAUTHZ_RPC_INIT_INFO_CLIENT structure pointer [Security], authz/AUTHZ_RPC_INIT_INFO_CLIENT, authz/PAUTHZ_RPC_INIT_INFO_CLIENT, security.authz_rpc_init_info_client"
+ms.keywords: '*PAUTHZ_RPC_INIT_INFO_CLIENT, AUTHZ_RPC_INIT_INFO_CLIENT, AUTHZ_RPC_INIT_INFO_CLIENT structure [Security], PAUTHZ_RPC_INIT_INFO_CLIENT, PAUTHZ_RPC_INIT_INFO_CLIENT structure pointer [Security], authz/AUTHZ_RPC_INIT_INFO_CLIENT, authz/PAUTHZ_RPC_INIT_INFO_CLIENT, security.authz_rpc_init_info_client'
 ms.topic: struct
-f1_keywords: 
- - "authz/AUTHZ_RPC_INIT_INFO_CLIENT"
+f1_keywords:
+- authz/AUTHZ_RPC_INIT_INFO_CLIENT
 dev_langs:
- - c++
+- c++
 req.header: authz.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Authz.h
+- Authz.h
 api_name:
- - AUTHZ_RPC_INIT_INFO_CLIENT
+- AUTHZ_RPC_INIT_INFO_CLIENT
 targetos: Windows
 req.typenames: AUTHZ_RPC_INIT_INFO_CLIENT, *PAUTHZ_RPC_INIT_INFO_CLIENT
 req.redist: 

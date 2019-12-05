@@ -1,19 +1,17 @@
 ---
 UID: NN:pla.IApiTracingDataCollector
 title: IApiTracingDataCollector (pla.h)
-
 description: Logs Win32 calls to Kernel32.dll, Advapi32.dll, Gdi32.dll, and User32.dll.
 old-location: pla\iapitracingdatacollector.htm
 tech.root: PLA
 ms.assetid: 8d600d35-bd2b-44fc-9da4-3c6e50e90b65
-
 ms.date: 12/05/2018
 ms.keywords: IApiTracingDataCollector, IApiTracingDataCollector interface [PLA], IApiTracingDataCollector interface [PLA],described, base.iapitracingdatacollector, pla.iapitracingdatacollector, pla/IApiTracingDataCollector
 ms.topic: interface
-f1_keywords: 
- - "pla/IApiTracingDataCollector"
+f1_keywords:
+- pla/IApiTracingDataCollector
 dev_langs:
- - c++
+- c++
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Pla.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Pla.dll
+- Pla.dll
 api_name:
- - IApiTracingDataCollector
+- IApiTracingDataCollector
 targetos: Windows
 req.typenames: 
 req.redist: 

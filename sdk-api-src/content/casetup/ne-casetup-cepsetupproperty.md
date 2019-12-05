@@ -1,19 +1,17 @@
 ---
 UID: NE:casetup.__MIDL___MIDL_itf_casetup_0000_0005_0001
 title: CEPSetupProperty (casetup.h)
-
 description: Used by the GetProperty and SetProperty methods on the ICertificateEnrollmentPolicyServerSetup interface to specify the type of property information to retrieve or set.
 old-location: security\cepsetupproperty.htm
 tech.root: SecCrypto
 ms.assetid: 344701CA-089C-4152-BDA4-249728863180
-
 ms.date: 12/05/2018
 ms.keywords: CEPSetupProperty, CEPSetupProperty enumeration [Security], ENUM_CEPSETUPPROP_AUTHENTICATION, ENUM_CEPSETUPPROP_KEYBASED_RENEWAL, ENUM_CEPSETUPPROP_SSLCERTHASH, ENUM_CEPSETUPPROP_URL, casetup/CEPSetupProperty, casetup/ENUM_CEPSETUPPROP_AUTHENTICATION, casetup/ENUM_CEPSETUPPROP_KEYBASED_RENEWAL, casetup/ENUM_CEPSETUPPROP_SSLCERTHASH, casetup/ENUM_CEPSETUPPROP_URL, security.cepsetupproperty
 ms.topic: enum
-f1_keywords: 
- - "casetup/CEPSetupProperty"
+f1_keywords:
+- casetup/CEPSetupProperty
 dev_langs:
- - c++
+- c++
 req.header: casetup.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Casetup.h
+- Casetup.h
 api_name:
- - CEPSetupProperty
+- CEPSetupProperty
 targetos: Windows
 req.typenames: CEPSetupProperty
 req.redist: 

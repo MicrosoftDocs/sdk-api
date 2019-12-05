@@ -1,19 +1,17 @@
 ---
 UID: NN:fsrm.IFsrmAccessDeniedRemediationClient
 title: IFsrmAccessDeniedRemediationClient (fsrm.h)
-
 description: Used to show the Access Denied Remediation (ADR) client user interface.
 old-location: fsrm\ifsrmaccessdeniedremediationclient.htm
 tech.root: fsrm
 ms.assetid: 572d2985-a579-4bfa-a305-403b6be516ca
-
 ms.date: 12/05/2018
 ms.keywords: IFsrmAccessDeniedRemediationClient, IFsrmAccessDeniedRemediationClient interface [File Server Resource Manager], IFsrmAccessDeniedRemediationClient interface [File Server Resource Manager],described, fs.ifsrmaccessdeniedremediationclient, fsrm.ifsrmaccessdeniedremediationclient, fsrm/IFsrmAccessDeniedRemediationClient
 ms.topic: interface
-f1_keywords: 
- - "fsrm/IFsrmAccessDeniedRemediationClient"
+f1_keywords:
+- fsrm/IFsrmAccessDeniedRemediationClient
 dev_langs:
- - c++
+- c++
 req.header: fsrm.h
 req.include-header: FsrmPipeline.h, FsrmQuota.h, FsrmReports.h, FsrmScreen.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: SrmSvc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - SrmSvc.dll
+- SrmSvc.dll
 api_name:
- - IFsrmAccessDeniedRemediationClient
+- IFsrmAccessDeniedRemediationClient
 targetos: Windows
 req.typenames: 
 req.redist: 

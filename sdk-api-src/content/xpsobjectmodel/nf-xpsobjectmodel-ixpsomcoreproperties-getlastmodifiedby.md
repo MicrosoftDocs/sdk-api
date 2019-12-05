@@ -1,19 +1,17 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMCoreProperties.GetLastModifiedBy
 title: IXpsOMCoreProperties::GetLastModifiedBy (xpsobjectmodel.h)
-
 description: Gets the lastModifiedBy property.
 old-location: xps\ixpsomcoreproperties_getlastmodifiedby.htm
 tech.root: printdocs
 ms.assetid: e3e68656-ae4d-45f4-bb2a-3c4c5cecbbae
-
 ms.date: 12/05/2018
 ms.keywords: GetLastModifiedBy, GetLastModifiedBy method [XPS Documents and Packaging], GetLastModifiedBy method [XPS Documents and Packaging],IXpsOMCoreProperties interface, IXpsOMCoreProperties interface [XPS Documents and Packaging],GetLastModifiedBy method, IXpsOMCoreProperties.GetLastModifiedBy, IXpsOMCoreProperties::GetLastModifiedBy, xps.ixpsomcoreproperties_getlastmodifiedby, xpsobjectmodel/IXpsOMCoreProperties::GetLastModifiedBy
 ms.topic: method
-f1_keywords: 
- - "xpsobjectmodel/IXpsOMCoreProperties.GetLastModifiedBy"
+f1_keywords:
+- xpsobjectmodel/IXpsOMCoreProperties.GetLastModifiedBy
 dev_langs:
- - c++
+- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsobjectmodel.h
+- xpsobjectmodel.h
 api_name:
- - IXpsOMCoreProperties.GetLastModifiedBy
+- IXpsOMCoreProperties.GetLastModifiedBy
 targetos: Windows
 req.typenames: 
 req.redist: 

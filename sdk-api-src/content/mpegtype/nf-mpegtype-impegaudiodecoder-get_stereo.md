@@ -1,19 +1,17 @@
 ---
 UID: NF:mpegtype.IMpegAudioDecoder.get_Stereo
 title: IMpegAudioDecoder::get_Stereo (mpegtype.h)
-
 description: Returns whether the decoder is decoding the encoded stream into stereo or mono PCM.
 old-location: dshow\impegaudiodecoder_get_stereo.htm
 tech.root: DirectShow
 ms.assetid: fb2b4b26-7588-42fd-a915-c09d512cb152
-
 ms.date: 12/05/2018
 ms.keywords: IMpegAudioDecoder interface [DirectShow],get_Stereo method, IMpegAudioDecoder.get_Stereo, IMpegAudioDecoder::get_Stereo, IMpegAudioDecodergetStereo, dshow.impegaudiodecoder_get_stereo, get_Stereo, get_Stereo method [DirectShow], get_Stereo method [DirectShow],IMpegAudioDecoder interface, mpegtype/IMpegAudioDecoder::get_Stereo
 ms.topic: method
-f1_keywords: 
- - "mpegtype/IMpegAudioDecoder.get_Stereo"
+f1_keywords:
+- mpegtype/IMpegAudioDecoder.get_Stereo
 dev_langs:
- - c++
+- c++
 req.header: mpegtype.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IMpegAudioDecoder.get_Stereo
+- IMpegAudioDecoder.get_Stereo
 targetos: Windows
 req.typenames: 
 req.redist: 

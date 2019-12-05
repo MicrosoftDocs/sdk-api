@@ -1,19 +1,17 @@
 ---
 UID: NF:faxcomex.IFaxServer.ListenToServerEvents
 title: IFaxServer::ListenToServerEvents (faxcomex.h)
-
 description: The IFaxServer::ListenToServerEvents method registers the FaxServer object to receive notifications about one or more types of server events, or to stop these notifications.
 old-location: fax\_mfax_faxserver_cpp_mfax_faxserver_listentoserverevents_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_8kmr.htm
-
 ms.date: 12/05/2018
 ms.keywords: IFaxServer interface [Fax Service],ListenToServerEvents method, IFaxServer.ListenToServerEvents, IFaxServer::ListenToServerEvents, ListenToServerEvents, ListenToServerEvents method [Fax Service], ListenToServerEvents method [Fax Service],IFaxServer interface, _mfax_faxserver.listentoserverevents, fax._mfax_faxserver_cpp_mfax_faxserver_listentoserverevents_cpp, fax._mfax_faxserver_listentoserverevents, faxcomex/IFaxServer::ListenToServerEvents
 ms.topic: method
-f1_keywords: 
- - "faxcomex/IFaxServer.ListenToServerEvents"
+f1_keywords:
+- faxcomex/IFaxServer.ListenToServerEvents
 dev_langs:
- - c++
+- c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: Fxscomex.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Fxscomex.dll
+- Fxscomex.dll
 api_name:
- - IFaxServer.ListenToServerEvents
- - IFaxServer.ListenToServerEvents
+- IFaxServer.ListenToServerEvents
+- IFaxServer.ListenToServerEvents
 targetos: Windows
 req.typenames: 
 req.redist: 

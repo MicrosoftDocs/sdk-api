@@ -1,19 +1,17 @@
 ---
 UID: NF:windows.ui.xaml.hosting.referencetracker.IReferenceTracker.PegFromTrackerSource
 title: IReferenceTracker::xaml (windows.ui.xaml.hosting.referencetracker.h)
-
 description: Indicates that a tracker source is unable to protected a reference tracker object.
 old-location: winrt\ireferencetracker_pegfromtrackersource.htm
 tech.root: WinRT
 ms.assetid: ca35bcf5-add0-47a8-b989-f6d69674ca30
-
 ms.date: 12/05/2018
 ms.keywords: IReferenceTracker interface [Windows Runtime],PegFromTrackerSource method, IReferenceTracker.PegFromTrackerSource, IReferenceTracker.xaml, IReferenceTracker::PegFromTrackerSource, IReferenceTracker::xaml, PegFromTrackerSource, PegFromTrackerSource method [Windows Runtime], PegFromTrackerSource method [Windows Runtime],IReferenceTracker interface, windows/IReferenceTracker::PegFromTrackerSource, winrt.ireferencetracker_pegfromtrackersource
 ms.topic: method
-f1_keywords: 
- - "windows.ui.xaml.hosting.referencetracker/IReferenceTracker.PegFromTrackerSource"
+f1_keywords:
+- windows.ui.xaml.hosting.referencetracker/IReferenceTracker.PegFromTrackerSource
 dev_langs:
- - c++
+- c++
 req.header: windows.ui.xaml.hosting.referencetracker.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Windows.ui.xaml.hosting.referencetracker.h
+- Windows.ui.xaml.hosting.referencetracker.h
 api_name:
- - IReferenceTracker.PegFromTrackerSource
+- IReferenceTracker.PegFromTrackerSource
 targetos: Windows
 req.typenames: 
 req.redist: 

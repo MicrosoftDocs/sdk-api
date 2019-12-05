@@ -1,19 +1,17 @@
 ---
 UID: NF:mfidl.IMFAudioStreamVolume.GetChannelCount
 title: IMFAudioStreamVolume::GetChannelCount (mfidl.h)
-
 description: Retrieves the number of channels in the audio stream.
 old-location: mf\imfaudiostreamvolume_getchannelcount.htm
 tech.root: medfound
 ms.assetid: d19a56db-cd5f-4a19-98f0-42327c259b01
-
 ms.date: 12/05/2018
 ms.keywords: GetChannelCount, GetChannelCount method [Media Foundation], GetChannelCount method [Media Foundation],IMFAudioStreamVolume interface, IMFAudioStreamVolume interface [Media Foundation],GetChannelCount method, IMFAudioStreamVolume.GetChannelCount, IMFAudioStreamVolume::GetChannelCount, d19a56db-cd5f-4a19-98f0-42327c259b01, mf.imfaudiostreamvolume_getchannelcount, mfidl/IMFAudioStreamVolume::GetChannelCount
 ms.topic: method
-f1_keywords: 
- - "mfidl/IMFAudioStreamVolume.GetChannelCount"
+f1_keywords:
+- mfidl/IMFAudioStreamVolume.GetChannelCount
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFAudioStreamVolume.GetChannelCount
+- IMFAudioStreamVolume.GetChannelCount
 targetos: Windows
 req.typenames: 
 req.redist: 

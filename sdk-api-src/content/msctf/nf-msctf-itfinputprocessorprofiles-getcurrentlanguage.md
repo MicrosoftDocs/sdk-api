@@ -1,19 +1,17 @@
 ---
 UID: NF:msctf.ITfInputProcessorProfiles.GetCurrentLanguage
 title: ITfInputProcessorProfiles::GetCurrentLanguage (msctf.h)
-
 description: ITfInputProcessorProfiles::GetCurrentLanguage method
 old-location: tsf\itfinputprocessorprofiles_getcurrentlanguage.htm
 tech.root: TSF
 ms.assetid: c770872f-752f-4c34-8d0d-cdf3d5c7d6b4
-
 ms.date: 12/05/2018
 ms.keywords: GetCurrentLanguage, GetCurrentLanguage method [Text Services Framework], GetCurrentLanguage method [Text Services Framework],ITfInputProcessorProfiles interface, ITfInputProcessorProfiles interface [Text Services Framework],GetCurrentLanguage method, ITfInputProcessorProfiles.GetCurrentLanguage, ITfInputProcessorProfiles::GetCurrentLanguage, _tsf_itfinputprocessorprofiles_getcurrentlanguage_ref, msctf/ITfInputProcessorProfiles::GetCurrentLanguage, tsf.itfinputprocessorprofiles_getcurrentlanguage
 ms.topic: method
-f1_keywords: 
- - "msctf/ITfInputProcessorProfiles.GetCurrentLanguage"
+f1_keywords:
+- msctf/ITfInputProcessorProfiles.GetCurrentLanguage
 dev_langs:
- - c++
+- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msctf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msctf.dll
+- Msctf.dll
 api_name:
- - ITfInputProcessorProfiles.GetCurrentLanguage
+- ITfInputProcessorProfiles.GetCurrentLanguage
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

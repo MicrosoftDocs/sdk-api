@@ -1,19 +1,17 @@
 ---
 UID: NN:wmcontainer.IMFASFProfile
 title: IMFASFProfile (wmcontainer.h)
-
 description: Manages an Advanced Systems Format (ASF) profile.
 old-location: mf\imfasfprofile.htm
 tech.root: medfound
 ms.assetid: fe441c61-1be7-4fda-a2a3-bd79ecf4e54c
-
 ms.date: 12/05/2018
 ms.keywords: IMFASFProfile, IMFASFProfile interface [Media Foundation], IMFASFProfile interface [Media Foundation],described, fe441c61-1be7-4fda-a2a3-bd79ecf4e54c, mf.imfasfprofile, wmcontainer/IMFASFProfile
 ms.topic: interface
-f1_keywords: 
- - "wmcontainer/IMFASFProfile"
+f1_keywords:
+- wmcontainer/IMFASFProfile
 dev_langs:
- - c++
+- c++
 req.header: wmcontainer.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFASFProfile
+- IMFASFProfile
 targetos: Windows
 req.typenames: 
 req.redist: 

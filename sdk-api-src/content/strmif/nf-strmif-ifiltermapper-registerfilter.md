@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IFilterMapper.RegisterFilter
 title: IFilterMapper::RegisterFilter (strmif.h)
-
 description: Note  The IFilterMapper interface is deprecated. Use IFilterMapper2 instead. Adds a filter to the registry; the filter can then be enumerated.
 old-location: dshow\ifiltermapper_registerfilter.htm
 tech.root: DirectShow
 ms.assetid: e21da510-f4e6-417e-978d-bb53bf78cf94
-
 ms.date: 12/05/2018
 ms.keywords: IFilterMapper interface [DirectShow],RegisterFilter method, IFilterMapper.RegisterFilter, IFilterMapper::RegisterFilter, IFilterMapperRegisterFilter, RegisterFilter, RegisterFilter method [DirectShow], RegisterFilter method [DirectShow],IFilterMapper interface, dshow.ifiltermapper_registerfilter, strmif/IFilterMapper::RegisterFilter
 ms.topic: method
-f1_keywords: 
- - "strmif/IFilterMapper.RegisterFilter"
+f1_keywords:
+- strmif/IFilterMapper.RegisterFilter
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmif.h
+- Strmif.h
 api_name:
- - IFilterMapper.RegisterFilter
+- IFilterMapper.RegisterFilter
 targetos: Windows
 req.typenames: 
 req.redist: 

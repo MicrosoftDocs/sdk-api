@@ -1,19 +1,17 @@
 ---
 UID: NF:fltuser.FilterClose
 title: FilterClose function (fltuser.h)
-
 description: The FilterClose function closes an open minifilter handle.
 old-location: ifsk\filterclose.htm
 tech.root: ifsk
 ms.assetid: c5d3774e-6f57-4a6b-97a8-623268884859
-
 ms.date: 12/05/2018
 ms.keywords: FilterClose, FilterClose function [Installable File System Drivers], FltWin32ApiRef_42f7f157-b74a-4856-ac99-bca1caac3493.xml, fltuser/FilterClose, ifsk.filterclose
 ms.topic: function
-f1_keywords: 
- - "fltuser/FilterClose"
+f1_keywords:
+- fltuser/FilterClose
 dev_langs:
- - c++
+- c++
 req.header: fltuser.h
 req.include-header: Fltuser.h
 req.target-type: Universal
@@ -32,14 +30,14 @@ req.lib: FltLib.lib
 req.dll: FltLib.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - FltLib.dll
+- FltLib.dll
 api_name:
- - FilterClose
+- FilterClose
 targetos: Windows
 req.typenames: 
 req.redist: 

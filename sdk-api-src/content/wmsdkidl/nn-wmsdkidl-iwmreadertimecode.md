@@ -1,19 +1,17 @@
 ---
 UID: NN:wmsdkidl.IWMReaderTimecode
 title: IWMReaderTimecode (wmsdkidl.h)
-
 description: The IWMReaderTimecode interface provides access to information about SMPTE (Society of Motion Picture and Television Engineers) time code ranges.
 old-location: wmformat\iwmreadertimecode.htm
 tech.root: wmformat
 ms.assetid: 7f7d5608-c505-46ab-9e1e-e45b383c879b
-
 ms.date: 12/05/2018
 ms.keywords: IWMReaderTimecode, IWMReaderTimecode interface [windows Media Format], IWMReaderTimecode interface [windows Media Format],described, IWMReaderTimecodeInterface, wmformat.iwmreadertimecode, wmsdkidl/IWMReaderTimecode
 ms.topic: interface
-f1_keywords: 
- - "wmsdkidl/IWMReaderTimecode"
+f1_keywords:
+- wmsdkidl/IWMReaderTimecode
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmsdkidl.h
+- wmsdkidl.h
 api_name:
- - IWMReaderTimecode
+- IWMReaderTimecode
 targetos: Windows
 req.typenames: 
 req.redist: 

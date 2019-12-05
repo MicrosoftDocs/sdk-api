@@ -1,19 +1,17 @@
 ---
 UID: NF:instance.CInstance.SetDateTime
 title: CInstance::SetDateTime (instance.h)
-
 description: The SetDateTime method sets a datetime property.
 old-location: wmi\cinstance_setdatetime.htm
 tech.root: WmiSdk
 ms.assetid: 728ad7d3-f56d-472e-976d-59d8598f3bad
-
 ms.date: 12/05/2018
-ms.keywords: "?SetDateTime@CInstance@@QAE_NPBGABVWBEMTime@@@Z, ?SetDateTime@CInstance@@QEAA_NPEBGAEBVWBEMTime@@@Z, CInstance interface [Windows Management Instrumentation],SetDateTime method, CInstance.SetDateTime, CInstance::SetDateTime, SetDateTime, SetDateTime method [Windows Management Instrumentation], SetDateTime method [Windows Management Instrumentation],CInstance interface, _hmm_cinstance_setdatetime, instance/CInstance::SetDateTime, wmi.cinstance_setdatetime"
+ms.keywords: ?SetDateTime@CInstance@@QAE_NPBGABVWBEMTime@@@Z, ?SetDateTime@CInstance@@QEAA_NPEBGAEBVWBEMTime@@@Z, CInstance interface [Windows Management Instrumentation],SetDateTime method, CInstance.SetDateTime, CInstance::SetDateTime, SetDateTime, SetDateTime method [Windows Management Instrumentation], SetDateTime method [Windows Management Instrumentation],CInstance interface, _hmm_cinstance_setdatetime, instance/CInstance::SetDateTime, wmi.cinstance_setdatetime
 ms.topic: method
-f1_keywords: 
- - "instance/CInstance.SetDateTime"
+f1_keywords:
+- instance/CInstance.SetDateTime
 dev_langs:
- - c++
+- c++
 req.header: instance.h
 req.include-header: FwCommon.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: FrameDyn.lib
 req.dll: FrameDynOS.dll; FrameDyn.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - FrameDynOS.dll
- - FrameDyn.dll
+- FrameDynOS.dll
+- FrameDyn.dll
 api_name:
- - CInstance.SetDateTime
- - ?SetDateTime@CInstance@@QAE_NPBGABVWBEMTime@@@Z
- - ?SetDateTime@CInstance@@QEAA_NPEBGAEBVWBEMTime@@@Z
+- CInstance.SetDateTime
+- ?SetDateTime@CInstance@@QAE_NPBGABVWBEMTime@@@Z
+- ?SetDateTime@CInstance@@QEAA_NPEBGAEBVWBEMTime@@@Z
 targetos: Windows
 req.typenames: 
 req.redist: 

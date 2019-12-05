@@ -1,19 +1,17 @@
 ---
 UID: NF:rpcasync.RpcAsyncInitializeHandle
 title: RpcAsyncInitializeHandle function (rpcasync.h)
-
 description: The client calls the RpcAsyncInitializeHandle function to initialize the RPC_ASYNC_STATE structure to be used to make an asynchronous call.
 old-location: rpc\rpcasyncinitializehandle.htm
 tech.root: Rpc
 ms.assetid: 97121e6c-af5c-4da8-ad28-24b961c105d2
-
 ms.date: 12/05/2018
 ms.keywords: RpcAsyncInitializeHandle, RpcAsyncInitializeHandle function [RPC], _rpc_rpcasyncinitializehandle, rpc.rpcasyncinitializehandle, rpcasync/RpcAsyncInitializeHandle
 ms.topic: function
 f1_keywords:
 - rpcasync/RpcAsyncInitializeHandle
 dev_langs:
- - c++
+- c++
 req.header: rpcasync.h
 req.include-header: Rpc.h
 req.target-type: Windows

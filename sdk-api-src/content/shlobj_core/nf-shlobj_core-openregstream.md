@@ -1,19 +1,17 @@
 ---
 UID: NF:shlobj_core.OpenRegStream
 title: OpenRegStream function (shlobj_core.h)
-
 description: OpenRegStream may be altered or unavailable. Instead, use SHOpenRegStream2 or SHOpenRegStream.
 old-location: shell\OpenRegStream.htm
 tech.root: shell
 ms.assetid: e1e35c94-84ac-4aa1-b2a1-47b37a7f224e
-
 ms.date: 12/05/2018
 ms.keywords: OpenRegStream, OpenRegStream function [Windows Shell], STGM_READ, STGM_READWRITE, STGM_WRITE, _win32_OpenRegStream, shell.OpenRegStream, shlobj_core/OpenRegStream
 ms.topic: function
-f1_keywords: 
- - "shlobj_core/OpenRegStream"
+f1_keywords:
+- shlobj_core/OpenRegStream
 dev_langs:
- - c++
+- c++
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Shell32.lib
 req.dll: Shell32.dll (version 5.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - OpenRegStream
+- OpenRegStream
 targetos: Windows
 req.typenames: 
 req.redist: 

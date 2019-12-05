@@ -1,19 +1,17 @@
 ---
 UID: NF:oleidl.IOleInPlaceSite.GetWindowContext
 title: IOleInPlaceSite::GetWindowContext (oleidl.h)
-
 description: Enables an in-place object to retrieve the window interfaces that form the window object hierarchy, and the position in the parent window where the object's in-place activation window should be located.
 old-location: com\ioleinplacesite_getwindowcontext.htm
 tech.root: com
 ms.assetid: f6cf62b3-5a64-49aa-b0bd-56744ecee313
-
 ms.date: 12/05/2018
 ms.keywords: GetWindowContext, GetWindowContext method [COM], GetWindowContext method [COM],IOleInPlaceSite interface, IOleInPlaceSite interface [COM],GetWindowContext method, IOleInPlaceSite.GetWindowContext, IOleInPlaceSite::GetWindowContext, _ole_ioleinplacesite_getwindowcontext, com.ioleinplacesite_getwindowcontext, oleidl/IOleInPlaceSite::GetWindowContext
 ms.topic: method
-f1_keywords: 
- - "oleidl/IOleInPlaceSite.GetWindowContext"
+f1_keywords:
+- oleidl/IOleInPlaceSite.GetWindowContext
 dev_langs:
- - c++
+- c++
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - OleIdl.h
+- OleIdl.h
 api_name:
- - IOleInPlaceSite.GetWindowContext
+- IOleInPlaceSite.GetWindowContext
 targetos: Windows
 req.typenames: 
 req.redist: 

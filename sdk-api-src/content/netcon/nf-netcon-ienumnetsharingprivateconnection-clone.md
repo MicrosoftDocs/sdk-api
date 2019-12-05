@@ -1,19 +1,17 @@
 ---
 UID: NF:netcon.IEnumNetSharingPrivateConnection.Clone
 title: IEnumNetSharingPrivateConnection::Clone (netcon.h)
-
 description: The Clone method creates a new enumeration interface from this enumeration.
 old-location: ics\ienumnetsharingprivateconnection_clone.htm
 tech.root: ics
 ms.assetid: a82dbc70-783a-4061-9526-dd19f94d843b
-
 ms.date: 12/05/2018
 ms.keywords: Clone, Clone method [ICS/ICF], Clone method [ICS/ICF],IEnumNetSharingPrivateConnection interface, IEnumNetSharingPrivateConnection interface [ICS/ICF],Clone method, IEnumNetSharingPrivateConnection.Clone, IEnumNetSharingPrivateConnection::Clone, _ics_ienumnetsharingprivateconnection_clone, ics.ienumnetsharingprivateconnection_clone, netcon/IEnumNetSharingPrivateConnection::Clone
 ms.topic: method
-f1_keywords: 
- - "netcon/IEnumNetSharingPrivateConnection.Clone"
+f1_keywords:
+- netcon/IEnumNetSharingPrivateConnection.Clone
 dev_langs:
- - c++
+- c++
 req.header: netcon.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Hnetcfg.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Hnetcfg.dll
+- Hnetcfg.dll
 api_name:
- - IEnumNetSharingPrivateConnection.Clone
+- IEnumNetSharingPrivateConnection.Clone
 targetos: Windows
 req.typenames: 
 req.redist: 

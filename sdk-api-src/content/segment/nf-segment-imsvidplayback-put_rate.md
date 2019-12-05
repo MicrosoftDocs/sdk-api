@@ -1,19 +1,17 @@
 ---
 UID: NF:segment.IMSVidPlayback.put_Rate
 title: IMSVidPlayback::put_Rate (segment.h)
-
 description: The put_Rate method sets the playback rate.
 old-location: mstv\imsvidplayback_put_rate.htm
 tech.root: mstv
 ms.assetid: a3542d7c-6333-4832-a24a-0b778ea83a4c
-
 ms.date: 12/05/2018
 ms.keywords: IMSVidPlayback interface [Microsoft TV Technologies],put_Rate method, IMSVidPlayback.put_Rate, IMSVidPlayback::put_Rate, IMSVidPlaybackput_Rate, mstv.imsvidplayback_put_rate, put_Rate, put_Rate method [Microsoft TV Technologies], put_Rate method [Microsoft TV Technologies],IMSVidPlayback interface, segment/IMSVidPlayback::put_Rate
 ms.topic: method
-f1_keywords: 
- - "segment/IMSVidPlayback.put_Rate"
+f1_keywords:
+- segment/IMSVidPlayback.put_Rate
 dev_langs:
- - c++
+- c++
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - segment.h
+- segment.h
 api_name:
- - IMSVidPlayback.put_Rate
+- IMSVidPlayback.put_Rate
 targetos: Windows
 req.typenames: 
 req.redist: 

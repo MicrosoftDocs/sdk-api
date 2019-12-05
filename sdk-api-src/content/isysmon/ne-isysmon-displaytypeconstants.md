@@ -1,19 +1,17 @@
 ---
 UID: NE:isysmon.eDisplayTypeConstant
 title: DisplayTypeConstants (isysmon.h)
-
 description: Determines how the performance counter data is graphed, for example, as a line graph or a histogram.
 old-location: sysmon\displaytypeconstants.htm
 tech.root: SysMon
 ms.assetid: c0f991cc-c547-4d4c-ae8f-9f672e11f010
-
 ms.date: 12/05/2018
 ms.keywords: DisplayTypeConstants, DisplayTypeConstants enumeration [SysMon], base.displaytypeconstants, isysmon/DisplayTypeConstants, isysmon/sysmonChartArea, isysmon/sysmonChartStackedArea, isysmon/sysmonHistogram, isysmon/sysmonLineGraph, isysmon/sysmonReport, sysmon.displaytypeconstants, sysmonChartArea, sysmonChartStackedArea, sysmonHistogram, sysmonLineGraph, sysmonReport
 ms.topic: enum
-f1_keywords: 
- - "isysmon/DisplayTypeConstants"
+f1_keywords:
+- isysmon/DisplayTypeConstants
 dev_langs:
- - c++
+- c++
 req.header: isysmon.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - ISysmon.h
+- ISysmon.h
 api_name:
- - DisplayTypeConstants
+- DisplayTypeConstants
 targetos: Windows
 req.typenames: DisplayTypeConstants
 req.redist: 

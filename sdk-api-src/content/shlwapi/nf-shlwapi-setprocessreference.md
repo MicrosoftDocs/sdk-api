@@ -1,19 +1,17 @@
 ---
 UID: NF:shlwapi.SetProcessReference
 title: SetProcessReference function (shlwapi.h)
-
 description: Provides a Component Object Model (COM) object that allows hosted Shell extensions and other components to prevent their host process from closing prematurely.
 old-location: shell\SetProcessReference.htm
 tech.root: shell
 ms.assetid: 65C1BE1D-2C67-47a3-9958-38829BB8CCB0
-
 ms.date: 12/05/2018
 ms.keywords: SetProcessReference, SetProcessReference function [Windows Shell], shell.SetProcessReference, shlwapi/SetProcessReference
 ms.topic: function
-f1_keywords: 
- - "shlwapi/SetProcessReference"
+f1_keywords:
+- shlwapi/SetProcessReference
 dev_langs:
- - c++
+- c++
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Shlwapi.lib
 req.dll: Api-ms-win-shcore-thread-L1-1-0.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - api-ms-win-shcore-thread-L1-1-0.dll
- - ShCore.dll
+- api-ms-win-shcore-thread-L1-1-0.dll
+- ShCore.dll
 api_name:
- - SetProcessReference
+- SetProcessReference
 targetos: Windows
 req.typenames: 
 req.redist: 

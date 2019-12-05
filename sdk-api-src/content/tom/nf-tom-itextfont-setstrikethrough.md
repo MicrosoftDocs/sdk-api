@@ -1,19 +1,17 @@
 ---
 UID: NF:tom.ITextFont.SetStrikeThrough
 title: ITextFont::SetStrikeThrough (tom.h)
-
 description: Sets whether characters are displayed with a horizontal line through the center.
 old-location: controls\ITextFont_SetStrikeThrough.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\setstrikethrough.htm
-
 ms.date: 12/05/2018
 ms.keywords: ITextFont interface [Windows Controls],SetStrikeThrough method, ITextFont.SetStrikeThrough, ITextFont::SetStrikeThrough, SetStrikeThrough, SetStrikeThrough method [Windows Controls], SetStrikeThrough method [Windows Controls],ITextFont interface, _win32_ITextFont_SetStrikeThrough, _win32_ITextFont_SetStrikeThrough_cpp, controls.ITextFont_SetStrikeThrough, controls._win32_ITextFont_SetStrikeThrough, tom/ITextFont::SetStrikeThrough
 ms.topic: method
-f1_keywords: 
- - "tom/ITextFont.SetStrikeThrough"
+f1_keywords:
+- tom/ITextFont.SetStrikeThrough
 dev_langs:
- - c++
+- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msftedit.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msftedit.dll
+- Msftedit.dll
 api_name:
- - ITextFont.SetStrikeThrough
+- ITextFont.SetStrikeThrough
 targetos: Windows
 req.typenames: 
 req.redist: 

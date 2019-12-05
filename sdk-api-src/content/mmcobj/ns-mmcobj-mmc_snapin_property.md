@@ -1,19 +1,17 @@
 ---
 UID: NS:mmcobj._MMC_SNAPIN_PROPERTY
 title: MMC_SNAPIN_PROPERTY (mmcobj.h)
-
 description: The MMC_SNAPIN_PROPERTY structure is introduced in MMC 2.0.
 old-location: mmc\mmc_snapin_property.htm
 tech.root: mmc
 ms.assetid: 0815d6a0-ddc2-43d1-aafd-5a05352557fc
-
 ms.date: 12/05/2018
 ms.keywords: MMC_SNAPIN_PROPERTY, MMC_SNAPIN_PROPERTY structure [MMC], _slate_mmc_snapin_property, mmc.mmc_snapin_property, mmcobj/MMC_SNAPIN_PROPERTY
 ms.topic: struct
 f1_keywords:
 - mmcobj/MMC_SNAPIN_PROPERTY
 dev_langs:
- - c++
+- c++
 req.header: mmcobj.h
 req.include-header: 
 req.target-type: Windows

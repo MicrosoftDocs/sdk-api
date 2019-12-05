@@ -1,19 +1,17 @@
 ---
 UID: NF:directxmath.XMLoadInt2A
 title: XMLoadInt2A function (directxmath.h)
-
 description: Loads 16-byte aligned data into the x and y components of an XMVECTOR.
 old-location: dxmath\xmloadint2a.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.loading.XMLoadInt2A(const VOID)
-
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMLoadInt2A, XMLoadInt2A, XMLoadInt2A method [DirectX Math Support APIs], dxmath.xmloadint2a
 ms.topic: function
-f1_keywords: 
- - "directxmath/XMLoadInt2A"
+f1_keywords:
+- directxmath/XMLoadInt2A
 dev_langs:
- - c++
+- c++
 req.header: directxmath.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - DirectXMath.h
+- DirectXMath.h
 api_name:
- - XMLoadInt2A
+- XMLoadInt2A
 targetos: Windows
 req.typenames: 
 req.redist: 

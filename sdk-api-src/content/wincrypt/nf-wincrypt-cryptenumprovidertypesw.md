@@ -1,19 +1,17 @@
 ---
 UID: NF:wincrypt.CryptEnumProviderTypesW
 title: CryptEnumProviderTypesW function (wincrypt.h)
-
 description: Retrieves the first or next types of cryptographic service provider (CSP) supported on the computer.
 old-location: security\cryptenumprovidertypes.htm
 tech.root: SecCrypto
 ms.assetid: 7568c963-4d06-4af0-bd15-240402425046
-
 ms.date: 12/05/2018
 ms.keywords: CryptEnumProviderTypes, CryptEnumProviderTypes function [Security], CryptEnumProviderTypesA, CryptEnumProviderTypesW, _crypto2_cryptenumprovidertypes, security.cryptenumprovidertypes, wincrypt/CryptEnumProviderTypes, wincrypt/CryptEnumProviderTypesA, wincrypt/CryptEnumProviderTypesW
 ms.topic: function
-f1_keywords: 
- - "wincrypt/CryptEnumProviderTypes"
+f1_keywords:
+- wincrypt/CryptEnumProviderTypes
 dev_langs:
- - c++
+- c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Advapi32.dll
- - API-MS-Win-Security-cryptoapi-l1-1-0.dll
- - cryptsp.dll
+- Advapi32.dll
+- API-MS-Win-Security-cryptoapi-l1-1-0.dll
+- cryptsp.dll
 api_name:
- - CryptEnumProviderTypes
- - CryptEnumProviderTypesA
- - CryptEnumProviderTypesW
+- CryptEnumProviderTypes
+- CryptEnumProviderTypesA
+- CryptEnumProviderTypesW
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:mfobjects.MFSerializeAttributesToStream
 title: MFSerializeAttributesToStream function (mfobjects.h)
-
 description: Writes the contents of an attribute store to a stream.
 old-location: mf\mfserializeattributestostream.htm
 tech.root: medfound
 ms.assetid: b8bc88e5-19ae-46b3-aa78-a00afee1f481
-
 ms.date: 12/05/2018
 ms.keywords: MFSerializeAttributesToStream, MFSerializeAttributesToStream function [Media Foundation], b8bc88e5-19ae-46b3-aa78-a00afee1f481, mf.mfserializeattributestostream, mfobjects/MFSerializeAttributesToStream
 ms.topic: function
-f1_keywords: 
- - "mfobjects/MFSerializeAttributesToStream"
+f1_keywords:
+- mfobjects/MFSerializeAttributesToStream
 dev_langs:
- - c++
+- c++
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Mfplat.lib
 req.dll: Mfplat.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - mfplat.dll
+- mfplat.dll
 api_name:
- - MFSerializeAttributesToStream
+- MFSerializeAttributesToStream
 targetos: Windows
 req.typenames: 
 req.redist: 

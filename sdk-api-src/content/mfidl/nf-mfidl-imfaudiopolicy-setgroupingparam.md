@@ -1,19 +1,17 @@
 ---
 UID: NF:mfidl.IMFAudioPolicy.SetGroupingParam
 title: IMFAudioPolicy::SetGroupingParam (mfidl.h)
-
 description: Assigns the audio session to a group of sessions.
 old-location: mf\imfaudiopolicy_setgroupingparam.htm
 tech.root: medfound
 ms.assetid: 2c024208-f13f-4fd1-b5a8-b881af226670
-
 ms.date: 12/05/2018
 ms.keywords: 2c024208-f13f-4fd1-b5a8-b881af226670, IMFAudioPolicy interface [Media Foundation],SetGroupingParam method, IMFAudioPolicy.SetGroupingParam, IMFAudioPolicy::SetGroupingParam, SetGroupingParam, SetGroupingParam method [Media Foundation], SetGroupingParam method [Media Foundation],IMFAudioPolicy interface, mf.imfaudiopolicy_setgroupingparam, mfidl/IMFAudioPolicy::SetGroupingParam
 ms.topic: method
-f1_keywords: 
- - "mfidl/IMFAudioPolicy.SetGroupingParam"
+f1_keywords:
+- mfidl/IMFAudioPolicy.SetGroupingParam
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFAudioPolicy.SetGroupingParam
+- IMFAudioPolicy.SetGroupingParam
 targetos: Windows
 req.typenames: 
 req.redist: 

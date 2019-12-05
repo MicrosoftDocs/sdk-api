@@ -1,19 +1,17 @@
 ---
 UID: NF:tom.ITextPara.GetTab
 title: ITextPara::GetTab (tom.h)
-
 description: Retrieves tab parameters (displacement, alignment, and leader style) for a specified tab.
 old-location: controls\ITextPara_GetTab.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\gettab.htm
-
 ms.date: 12/05/2018
 ms.keywords: GetTab, GetTab method [Windows Controls], GetTab method [Windows Controls],ITextPara interface, ITextPara interface [Windows Controls],GetTab method, ITextPara.GetTab, ITextPara::GetTab, _win32_ITextPara_GetTab, _win32_ITextPara_GetTab_cpp, controls.ITextPara_GetTab, controls._win32_ITextPara_GetTab, tom/ITextPara::GetTab
 ms.topic: method
-f1_keywords: 
- - "tom/ITextPara.GetTab"
+f1_keywords:
+- tom/ITextPara.GetTab
 dev_langs:
- - c++
+- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msftedit.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msftedit.dll
+- Msftedit.dll
 api_name:
- - ITextPara.GetTab
+- ITextPara.GetTab
 targetos: Windows
 req.typenames: 
 req.redist: 

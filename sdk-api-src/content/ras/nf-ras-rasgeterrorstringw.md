@@ -1,19 +1,17 @@
 ---
 UID: NF:ras.RasGetErrorStringW
 title: RasGetErrorStringW function (ras.h)
-
 description: The RasGetErrorString function obtains an error message string for a specified RAS error value.
 old-location: rras\rasgeterrorstring.htm
 tech.root: RRAS
 ms.assetid: 4d308dd8-e623-467b-836e-faace19460f1
-
 ms.date: 12/05/2018
 ms.keywords: RasGetErrorString, RasGetErrorString function [RAS], RasGetErrorStringA, RasGetErrorStringW, _ras_rasgeterrorstring, ras/RasGetErrorString, ras/RasGetErrorStringA, ras/RasGetErrorStringW, rras.rasgeterrorstring
 ms.topic: function
-f1_keywords: 
- - "ras/RasGetErrorString"
+f1_keywords:
+- ras/RasGetErrorString
 dev_langs:
- - c++
+- c++
 req.header: ras.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Rasapi32.lib
 req.dll: Rasapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Rasapi32.dll
+- Rasapi32.dll
 api_name:
- - RasGetErrorString
- - RasGetErrorStringA
- - RasGetErrorStringW
+- RasGetErrorString
+- RasGetErrorStringA
+- RasGetErrorStringW
 targetos: Windows
 req.typenames: 
 req.redist: 

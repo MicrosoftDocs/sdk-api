@@ -1,19 +1,17 @@
 ---
 UID: NF:imagehlp.BindImageEx
 title: BindImageEx function (imagehlp.h)
-
 description: Computes the virtual address of each function that is imported.
 old-location: base\bindimageex.htm
 tech.root: Debug
 ms.assetid: 97edbe29-94e5-4d3c-b640-c92b7f01a159
-
 ms.date: 12/05/2018
 ms.keywords: BIND_ALL_IMAGES, BIND_CACHE_IMPORT_DLLS, BIND_NO_BOUND_IMPORTS, BIND_NO_UPDATE, BindImageEx, BindImageEx function, _win32_bindimageex, base.bindimageex, imagehlp/BindImageEx
 ms.topic: function
-f1_keywords: 
- - "imagehlp/BindImageEx"
+f1_keywords:
+- imagehlp/BindImageEx
 dev_langs:
- - c++
+- c++
 req.header: imagehlp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Imagehlp.lib
 req.dll: Imagehlp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Imagehlp.dll
+- Imagehlp.dll
 api_name:
- - BindImageEx
+- BindImageEx
 targetos: Windows
 req.typenames: 
 req.redist: 

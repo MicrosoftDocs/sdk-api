@@ -1,19 +1,17 @@
 ---
 UID: NF:bdaiface.IEnumPIDMap.Next
 title: IEnumPIDMap::Next (bdaiface.h)
-
 description: The Next method retrieves the next n elements in the collection.
 old-location: dshow\ienumpidmap_next.htm
 tech.root: DirectShow
 ms.assetid: e7e3a2a7-cc62-478d-b0b8-30d58f0b3372
-
 ms.date: 12/05/2018
 ms.keywords: IEnumPIDMap interface [DirectShow],Next method, IEnumPIDMap.Next, IEnumPIDMap::Next, IEnumPIDMapNext, Next, Next method [DirectShow], Next method [DirectShow],IEnumPIDMap interface, bdaiface/IEnumPIDMap::Next, dshow.ienumpidmap_next
 ms.topic: method
-f1_keywords: 
- - "bdaiface/IEnumPIDMap.Next"
+f1_keywords:
+- bdaiface/IEnumPIDMap.Next
 dev_langs:
- - c++
+- c++
 req.header: bdaiface.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IEnumPIDMap.Next
+- IEnumPIDMap.Next
 targetos: Windows
 req.typenames: 
 req.redist: 

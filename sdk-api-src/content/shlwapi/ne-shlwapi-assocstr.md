@@ -1,19 +1,17 @@
 ---
 UID: NE:shlwapi.__unnamed_enum_6
 title: ASSOCSTR (shlwapi.h)
-
 description: Used by IQueryAssociations::GetString to define the type of string that is to be returned.
 old-location: shell\ASSOCSTR_str.htm
 tech.root: shell
 ms.assetid: b5fd3d25-3630-4dd8-acd2-d2e4ed571604
-
 ms.date: 12/05/2018
 ms.keywords: ASSOCSTR, ASSOCSTR enumeration [Windows Shell], ASSOCSTR_APPICONREFERENCE, ASSOCSTR_APPID, ASSOCSTR_APPPUBLISHER, ASSOCSTR_COMMAND, ASSOCSTR_CONTENTTYPE, ASSOCSTR_DDEAPPLICATION, ASSOCSTR_DDECOMMAND, ASSOCSTR_DDEIFEXEC, ASSOCSTR_DDETOPIC, ASSOCSTR_DEFAULTICON, ASSOCSTR_DELEGATEEXECUTE, ASSOCSTR_DROPTARGET, ASSOCSTR_EXECUTABLE, ASSOCSTR_FRIENDLYAPPNAME, ASSOCSTR_FRIENDLYDOCNAME, ASSOCSTR_INFOTIP, ASSOCSTR_MAX, ASSOCSTR_NOOPEN, ASSOCSTR_PROGID, ASSOCSTR_QUICKTIP, ASSOCSTR_SHELLEXTENSION, ASSOCSTR_SHELLNEWVALUE, ASSOCSTR_SUPPORTED_URI_PROTOCOLS, ASSOCSTR_TILEINFO, _win32_ASSOCSTR_str, shell.ASSOCSTR_str, shlwapi/ASSOCSTR, shlwapi/ASSOCSTR_APPICONREFERENCE, shlwapi/ASSOCSTR_APPID, shlwapi/ASSOCSTR_APPPUBLISHER, shlwapi/ASSOCSTR_COMMAND, shlwapi/ASSOCSTR_CONTENTTYPE, shlwapi/ASSOCSTR_DDEAPPLICATION, shlwapi/ASSOCSTR_DDECOMMAND, shlwapi/ASSOCSTR_DDEIFEXEC, shlwapi/ASSOCSTR_DDETOPIC, shlwapi/ASSOCSTR_DEFAULTICON, shlwapi/ASSOCSTR_DELEGATEEXECUTE, shlwapi/ASSOCSTR_DROPTARGET, shlwapi/ASSOCSTR_EXECUTABLE, shlwapi/ASSOCSTR_FRIENDLYAPPNAME, shlwapi/ASSOCSTR_FRIENDLYDOCNAME, shlwapi/ASSOCSTR_INFOTIP, shlwapi/ASSOCSTR_MAX, shlwapi/ASSOCSTR_NOOPEN, shlwapi/ASSOCSTR_PROGID, shlwapi/ASSOCSTR_QUICKTIP, shlwapi/ASSOCSTR_SHELLEXTENSION, shlwapi/ASSOCSTR_SHELLNEWVALUE, shlwapi/ASSOCSTR_SUPPORTED_URI_PROTOCOLS, shlwapi/ASSOCSTR_TILEINFO
 ms.topic: enum
-f1_keywords: 
- - "shlwapi/ASSOCSTR"
+f1_keywords:
+- shlwapi/ASSOCSTR
 dev_langs:
- - c++
+- c++
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Shlwapi.h
+- Shlwapi.h
 api_name:
- - ASSOCSTR
+- ASSOCSTR
 targetos: Windows
 req.typenames: ASSOCSTR
 req.redist: 

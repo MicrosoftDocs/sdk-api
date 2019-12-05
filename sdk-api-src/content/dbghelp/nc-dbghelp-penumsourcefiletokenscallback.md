@@ -1,19 +1,17 @@
 ---
 UID: NC:dbghelp.PENUMSOURCEFILETOKENSCALLBACK
 title: PENUMSOURCEFILETOKENSCALLBACK (dbghelp.h)
-
 description: An application-defined callback function used with the SymEnumSourceFileTokens function which enumerates the source server version control information stored in the PDB for a module.
 old-location: base\symenumsourcefiletokensproc.htm
 tech.root: Debug
 ms.assetid: 20c0eb1e-671b-4d31-88d4-57f2c149fcd9
-
 ms.date: 12/05/2018
 ms.keywords: PENUMSOURCEFILETOKENSCALLBACK, PENUMSOURCEFILETOKENSCALLBACK callback, SymEnumSourceFileTokensProc, SymEnumSourceFileTokensProc callback function, base.symenumsourcefiletokensproc, dbghelp/SymEnumSourceFileTokensProc
 ms.topic: callback
-f1_keywords: 
- - "dbghelp/SymEnumSourceFileTokensProc"
+f1_keywords:
+- dbghelp/SymEnumSourceFileTokensProc
 dev_langs:
- - c++
+- c++
 req.header: dbghelp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Dbghelp.h
+- Dbghelp.h
 api_name:
- - SymEnumSourceFileTokensProc
+- SymEnumSourceFileTokensProc
 targetos: Windows
 req.typenames: 
 req.redist: DbgHelp.dll 6.8 or later

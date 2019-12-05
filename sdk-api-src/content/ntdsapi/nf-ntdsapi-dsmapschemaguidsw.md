@@ -1,19 +1,17 @@
 ---
 UID: NF:ntdsapi.DsMapSchemaGuidsW
 title: DsMapSchemaGuidsW function (ntdsapi.h)
-
 description: Converts GUIDs of directory service schema objects to their display names.
 old-location: ad\dsmapschemaguids.htm
 tech.root: ad
 ms.assetid: 439fff20-51eb-490d-a330-61d07f79c436
-
 ms.date: 12/05/2018
 ms.keywords: DsMapSchemaGuids, DsMapSchemaGuids function [Active Directory], DsMapSchemaGuidsA, DsMapSchemaGuidsW, _glines_dsmapschemaguids, ad.dsmapschemaguids, ntdsapi/DsMapSchemaGuids, ntdsapi/DsMapSchemaGuidsA, ntdsapi/DsMapSchemaGuidsW
 ms.topic: function
-f1_keywords: 
- - "ntdsapi/DsMapSchemaGuids"
+f1_keywords:
+- ntdsapi/DsMapSchemaGuids
 dev_langs:
- - c++
+- c++
 req.header: ntdsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Ntdsapi.lib
 req.dll: Ntdsapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ntdsapi.dll
+- Ntdsapi.dll
 api_name:
- - DsMapSchemaGuids
- - DsMapSchemaGuidsA
- - DsMapSchemaGuidsW
+- DsMapSchemaGuids
+- DsMapSchemaGuidsA
+- DsMapSchemaGuidsW
 targetos: Windows
 req.typenames: 
 req.redist: 

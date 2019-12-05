@@ -1,19 +1,17 @@
 ---
 UID: NF:directxmath.XMLoadFloat4
 title: XMLoadFloat4 function (directxmath.h)
-
 description: Loads an XMFLOAT4 into an XMVECTOR.
 old-location: dxmath\xmloadfloat4.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.loading.XMLoadFloat4(const XMFLOAT4)
-
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMLoadFloat4, XMLoadFloat4, XMLoadFloat4 method [DirectX Math Support APIs], dxmath.xmloadfloat4
 ms.topic: function
-f1_keywords: 
- - "directxmath/XMLoadFloat4"
+f1_keywords:
+- directxmath/XMLoadFloat4
 dev_langs:
- - c++
+- c++
 req.header: directxmath.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - DirectXMath.h
+- DirectXMath.h
 api_name:
- - XMLoadFloat4
+- XMLoadFloat4
 targetos: Windows
 req.typenames: 
 req.redist: 

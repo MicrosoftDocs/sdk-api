@@ -1,19 +1,17 @@
 ---
 UID: NF:werapi.WerUnregisterFile
 title: WerUnregisterFile function (werapi.h)
-
 description: Removes a file from the list of files to be added to reports generated for the current process.
 old-location: wer\werunregisterfile.htm
 tech.root: wer
 ms.assetid: 2b2684a4-3030-4fae-ad1c-a60d13d2c643
-
 ms.date: 12/05/2018
 ms.keywords: WerUnregisterFile, WerUnregisterFile function [Windows Error Reporting], base.werunregisterfile, wer.werunregisterfile, werapi/WerUnregisterFile
 ms.topic: function
-f1_keywords: 
- - "werapi/WerUnregisterFile"
+f1_keywords:
+- werapi/WerUnregisterFile
 dev_langs:
- - c++
+- c++
 req.header: werapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-Windowserrorreporting-l1-1-0.dll
- - KernelBase.dll
+- Kernel32.dll
+- API-MS-Win-Core-Windowserrorreporting-l1-1-0.dll
+- KernelBase.dll
 api_name:
- - WerUnregisterFile
+- WerUnregisterFile
 targetos: Windows
 req.typenames: 
 req.redist: 

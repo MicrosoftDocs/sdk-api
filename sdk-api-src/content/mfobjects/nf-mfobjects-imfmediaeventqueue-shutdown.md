@@ -1,19 +1,17 @@
 ---
 UID: NF:mfobjects.IMFMediaEventQueue.Shutdown
 title: IMFMediaEventQueue::Shutdown (mfobjects.h)
-
 description: Shuts down the event queue.
 old-location: mf\imfmediaeventqueue_shutdown.htm
 tech.root: medfound
 ms.assetid: 6ec52973-0d90-463b-b2be-08d5d6fdcc05
-
 ms.date: 12/05/2018
 ms.keywords: 6ec52973-0d90-463b-b2be-08d5d6fdcc05, IMFMediaEventQueue interface [Media Foundation],Shutdown method, IMFMediaEventQueue.Shutdown, IMFMediaEventQueue::Shutdown, Shutdown, Shutdown method [Media Foundation], Shutdown method [Media Foundation],IMFMediaEventQueue interface, mf.imfmediaeventqueue_shutdown, mfobjects/IMFMediaEventQueue::Shutdown
 ms.topic: method
-f1_keywords: 
- - "mfobjects/IMFMediaEventQueue.Shutdown"
+f1_keywords:
+- mfobjects/IMFMediaEventQueue.Shutdown
 dev_langs:
- - c++
+- c++
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFMediaEventQueue.Shutdown
+- IMFMediaEventQueue.Shutdown
 targetos: Windows
 req.typenames: 
 req.redist: 

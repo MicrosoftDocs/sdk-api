@@ -1,19 +1,17 @@
 ---
 UID: NF:msctf.ITfUIElementMgr.EnumUIElements
 title: ITfUIElementMgr::EnumUIElements (msctf.h)
-
 description: The ITfUIElementMgr::EnumUIElements method returns IEnumTfUIElements interface pointer to enumerate the ITfUIElement.
 old-location: tsf\itfuielementmgr_enumuielements.htm
 tech.root: TSF
 ms.assetid: cdede376-be18-4deb-ae79-594aebb085a6
-
 ms.date: 12/05/2018
 ms.keywords: EnumUIElements, EnumUIElements method [Text Services Framework], EnumUIElements method [Text Services Framework],ITfUIElementMgr interface, ITfUIElementMgr interface [Text Services Framework],EnumUIElements method, ITfUIElementMgr.EnumUIElements, ITfUIElementMgr::EnumUIElements, msctf/ITfUIElementMgr::EnumUIElements, tsf.itfuielementmgr_enumuielements
 ms.topic: method
-f1_keywords: 
- - "msctf/ITfUIElementMgr.EnumUIElements"
+f1_keywords:
+- msctf/ITfUIElementMgr.EnumUIElements
 dev_langs:
- - c++
+- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msctf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msctf.dll
+- Msctf.dll
 api_name:
- - ITfUIElementMgr.EnumUIElements
+- ITfUIElementMgr.EnumUIElements
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

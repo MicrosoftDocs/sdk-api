@@ -1,19 +1,17 @@
 ---
 UID: NN:mfidl.IMFTopoLoader
 title: IMFTopoLoader (mfidl.h)
-
 description: Converts a partial topology into a full topology.
 old-location: mf\imftopoloader.htm
 tech.root: medfound
 ms.assetid: 5ebf117c-e60a-40f2-a24b-c4f9dbdae942
-
 ms.date: 12/05/2018
 ms.keywords: 5ebf117c-e60a-40f2-a24b-c4f9dbdae942, IMFTopoLoader, IMFTopoLoader interface [Media Foundation], IMFTopoLoader interface [Media Foundation],described, mf.imftopoloader, mfidl/IMFTopoLoader
 ms.topic: interface
-f1_keywords: 
- - "mfidl/IMFTopoLoader"
+f1_keywords:
+- mfidl/IMFTopoLoader
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFTopoLoader
+- IMFTopoLoader
 targetos: Windows
 req.typenames: 
 req.redist: 

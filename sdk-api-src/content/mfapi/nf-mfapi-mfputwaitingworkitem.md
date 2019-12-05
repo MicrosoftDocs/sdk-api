@@ -1,19 +1,17 @@
 ---
 UID: NF:mfapi.MFPutWaitingWorkItem
 title: MFPutWaitingWorkItem function (mfapi.h)
-
 description: Queues a work item that waits for an event to be signaled.
 old-location: mf\mfputwaitingworkitem.htm
 tech.root: medfound
 ms.assetid: BBD80C60-E42F-4B3B-96E3-E01058A27DB8
-
 ms.date: 12/05/2018
 ms.keywords: MFPutWaitingWorkItem, MFPutWaitingWorkItem function [Media Foundation], mf.mfputwaitingworkitem, mfapi/MFPutWaitingWorkItem, mfplat/MFPutWaitingWorkItem
 ms.topic: function
-f1_keywords: 
- - "mfapi/MFPutWaitingWorkItem"
+f1_keywords:
+- mfapi/MFPutWaitingWorkItem
 dev_langs:
- - c++
+- c++
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Mfplat.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - mfplat.dll
+- mfplat.dll
 api_name:
- - MFPutWaitingWorkItem
+- MFPutWaitingWorkItem
 targetos: Windows
 req.typenames: 
 req.redist: 

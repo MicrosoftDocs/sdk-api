@@ -1,19 +1,17 @@
 ---
 UID: NF:directxmath.XMMatrixTranslation
 title: XMMatrixTranslation function (directxmath.h)
-
 description: Builds a translation matrix from the specified offsets.
 old-location: dxmath\xmmatrixtranslation.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.matrix.XMMatrixTranslation(float,float,float)
-
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMMatrixTranslation, XMMatrixTranslation, XMMatrixTranslation method [DirectX Math Support APIs], dxmath.xmmatrixtranslation
 ms.topic: function
-f1_keywords: 
- - "directxmath/XMMatrixTranslation"
+f1_keywords:
+- directxmath/XMMatrixTranslation
 dev_langs:
- - c++
+- c++
 req.header: directxmath.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - DirectXMath.h
+- DirectXMath.h
 api_name:
- - XMMatrixTranslation
+- XMMatrixTranslation
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IAMTimecodeDisplay.GetTCDisplayEnable
 title: IAMTimecodeDisplay::GetTCDisplayEnable (strmif.h)
-
 description: The GetTCDisplayEnable method determines whether an external device's timecode character generator output is enabled or disabled.
 old-location: dshow\iamtimecodedisplay_gettcdisplayenable.htm
 tech.root: DirectShow
 ms.assetid: fe8bac4d-a271-47b3-9737-f115429b50aa
-
 ms.date: 12/05/2018
 ms.keywords: GetTCDisplayEnable, GetTCDisplayEnable method [DirectShow], GetTCDisplayEnable method [DirectShow],IAMTimecodeDisplay interface, IAMTimecodeDisplay interface [DirectShow],GetTCDisplayEnable method, IAMTimecodeDisplay.GetTCDisplayEnable, IAMTimecodeDisplay::GetTCDisplayEnable, IAMTimecodeDisplayGetTCDisplayEnable, dshow.iamtimecodedisplay_gettcdisplayenable, strmif/IAMTimecodeDisplay::GetTCDisplayEnable
 ms.topic: method
-f1_keywords: 
- - "strmif/IAMTimecodeDisplay.GetTCDisplayEnable"
+f1_keywords:
+- strmif/IAMTimecodeDisplay.GetTCDisplayEnable
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IAMTimecodeDisplay.GetTCDisplayEnable
+- IAMTimecodeDisplay.GetTCDisplayEnable
 targetos: Windows
 req.typenames: 
 req.redist: 

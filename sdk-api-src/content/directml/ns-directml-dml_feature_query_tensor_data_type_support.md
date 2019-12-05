@@ -1,19 +1,17 @@
 ---
 UID: NS:directml.DML_FEATURE_QUERY_TENSOR_DATA_TYPE_SUPPORT
 title: DML_FEATURE_QUERY_TENSOR_DATA_TYPE_SUPPORT
-
 description: Used to query a DirectML device for its support for a particular data type within tensors.
 old-location: direct3d12\dml_feature_query_tensor_data_type_support.htm
 tech.root: direct3d12
 ms.assetid: 39C3FB05-E2B9-46FA-9D0F-9FCC6664B390
-
 ms.date: 12/5/2018
 ms.keywords: DML_FEATURE_QUERY_TENSOR_DATA_TYPE_SUPPORT, DML_FEATURE_QUERY_TENSOR_DATA_TYPE_SUPPORT structure, direct3d12.dml_feature_query_tensor_data_type_support, directml/DML_FEATURE_QUERY_TENSOR_DATA_TYPE_SUPPORT
 ms.topic: struct
-f1_keywords: 
- - "directml/DML_FEATURE_QUERY_TENSOR_DATA_TYPE_SUPPORT"
+f1_keywords:
+- directml/DML_FEATURE_QUERY_TENSOR_DATA_TYPE_SUPPORT
 dev_langs:
- - c++
+- c++
 req.header: directml.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - DirectML.h
+- DirectML.h
 api_name:
- - DML_FEATURE_QUERY_TENSOR_DATA_TYPE_SUPPORT
+- DML_FEATURE_QUERY_TENSOR_DATA_TYPE_SUPPORT
 targetos: Windows
 req.typenames: 
 req.redist: 

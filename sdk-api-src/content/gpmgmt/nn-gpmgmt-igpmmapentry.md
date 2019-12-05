@@ -1,19 +1,17 @@
 ---
 UID: NN:gpmgmt.IGPMMapEntry
 title: IGPMMapEntry (gpmgmt.h)
-
 description: The IGPMMapEntry interface provides access to a map entry.
 old-location: gpmc\igpmmapentry.htm
 tech.root: gpmc
 ms.assetid: 85a9bebf-0d96-4ec1-a0bf-37b262059067
-
 ms.date: 12/05/2018
 ms.keywords: GPMMapEntry, IGPMMapEntry, IGPMMapEntry interface [GPMC], IGPMMapEntry interface [GPMC],described, gpmc.igpmmapentry, gpmgmt/IGPMMapEntry
 ms.topic: interface
-f1_keywords: 
- - "gpmgmt/IGPMMapEntry"
+f1_keywords:
+- gpmgmt/IGPMMapEntry
 dev_langs:
- - c++
+- c++
 req.header: gpmgmt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: Gpmgmt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gpmgmt.dll
+- Gpmgmt.dll
 api_name:
- - IGPMMapEntry
- - GPMMapEntry
+- IGPMMapEntry
+- GPMMapEntry
 targetos: Windows
 req.typenames: 
 req.redist: 

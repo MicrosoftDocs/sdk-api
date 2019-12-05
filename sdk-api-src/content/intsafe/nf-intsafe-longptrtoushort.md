@@ -1,19 +1,17 @@
 ---
 UID: NF:intsafe.LongPtrToUShort
 title: LongPtrToUShort function (intsafe.h)
-
 description: Converts a value of type LONG_PTR to a value of type USHORT.
 old-location: shell\LongPtrToUShort.htm
 tech.root: shell
 ms.assetid: d20be0c8-f228-4fed-847b-d28d99ade476
-
 ms.date: 12/05/2018
 ms.keywords: LongPtrToUShort, LongPtrToUShort function [Windows Shell], intsafe/LongPtrToUShort, shell.LongPtrToUShort
 ms.topic: function
-f1_keywords: 
- - "intsafe/LongPtrToUShort"
+f1_keywords:
+- intsafe/LongPtrToUShort
 dev_langs:
- - c++
+- c++
 req.header: intsafe.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - intsafe.h
+- intsafe.h
 api_name:
- - LongPtrToUShort
+- LongPtrToUShort
 targetos: Windows
 req.typenames: 
 req.redist: 

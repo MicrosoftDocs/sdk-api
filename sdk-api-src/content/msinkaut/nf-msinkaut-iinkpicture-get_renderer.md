@@ -1,19 +1,17 @@
 ---
 UID: NF:msinkaut.IInkPicture.get_Renderer
 title: IInkPicture::get_Renderer (msinkaut.h)
-
 description: Gets or sets the InkRenderer object that is used to draw ink.
 old-location: tablet\inkpicture_renderer.htm
 tech.root: tablet
 ms.assetid: 5df5918a-caca-4296-8464-3710ff904b10
-
 ms.date: 12/05/2018
 ms.keywords: IInkPicture interface [Tablet PC],Renderer property, IInkPicture.Renderer, IInkPicture.get_Renderer, IInkPicture::Renderer, IInkPicture::get_Renderer, IInkPicture::put_Renderer, InkPicture.get_Renderer, InkPicture.put_Renderer, Renderer property [Tablet PC], Renderer property [Tablet PC],IInkPicture interface, get_Renderer, msinkaut/IInkPicture::Renderer, msinkaut/IInkPicture::get_Renderer, msinkaut/IInkPicture::put_Renderer, put_Renderer, tablet.inkpicture_renderer
 ms.topic: method
-f1_keywords: 
- - "msinkaut/IInkPicture.Renderer"
+f1_keywords:
+- msinkaut/IInkPicture.Renderer
 dev_langs:
- - c++
+- c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows
@@ -32,19 +30,19 @@ req.lib: InkObj.dll
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - InkObj.dll
- - InkObj.dll.dll
+- InkObj.dll
+- InkObj.dll.dll
 api_name:
- - IInkPicture.Renderer
- - IInkPicture.get_Renderer
- - IInkPicture.put_Renderer
- - InkPicture.get_Renderer
- - InkPicture.put_Renderer
+- IInkPicture.Renderer
+- IInkPicture.get_Renderer
+- IInkPicture.put_Renderer
+- InkPicture.get_Renderer
+- InkPicture.put_Renderer
 targetos: Windows
 req.typenames: 
 req.redist: 

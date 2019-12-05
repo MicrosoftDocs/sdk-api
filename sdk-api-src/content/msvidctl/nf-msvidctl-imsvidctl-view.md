@@ -1,19 +1,17 @@
 ---
 UID: NF:msvidctl.IMSVidCtl.View
 title: IMSVidCtl::View (msvidctl.h)
-
 description: The View method configures the Video Control to view an input source, which can be a tune request, a DVD, or a media file.
 old-location: mstv\imsvidctl_view.htm
 tech.root: mstv
 ms.assetid: ec0e2a88-13c0-42f3-ba7d-8ebff1234b86
-
 ms.date: 12/05/2018
 ms.keywords: IMSVidCtl interface [Microsoft TV Technologies],View method, IMSVidCtl.View, IMSVidCtl::View, IMSVidCtlView, View, View method [Microsoft TV Technologies], View method [Microsoft TV Technologies],IMSVidCtl interface, mstv.imsvidctl_view, msvidctl/IMSVidCtl::View
 ms.topic: method
-f1_keywords: 
- - "msvidctl/IMSVidCtl.View"
+f1_keywords:
+- msvidctl/IMSVidCtl.View
 dev_langs:
- - c++
+- c++
 req.header: msvidctl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msvidctl.h
+- msvidctl.h
 api_name:
- - IMSVidCtl.View
+- IMSVidCtl.View
 targetos: Windows
 req.typenames: 
 req.redist: 

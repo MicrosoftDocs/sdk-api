@@ -1,19 +1,17 @@
 ---
 UID: NF:winuser.LoadStringW
 title: LoadStringW function (winuser.h)
-
 description: Loads a string resource from the executable file associated with a specified module, copies the string into a buffer, and appends a terminating null character.
 old-location: menurc\loadstring.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\strings\stringreference\stringfunctions\loadstring.htm
-
 ms.date: 12/05/2018
 ms.keywords: LoadString, LoadString function [Menus and Other Resources], LoadStringA, LoadStringW, _win32_LoadString, _win32_loadstring_cpp, menurc.loadstring, winui._win32_loadstring, winuser/LoadString, winuser/LoadStringA, winuser/LoadStringW
 ms.topic: function
-f1_keywords: 
- - "winuser/LoadString"
+f1_keywords:
+- winuser/LoadString
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,27 +30,27 @@ req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - User32.dll
- - API-MS-Win-Core-LibraryLoader-l1-1-0.dll
- - KernelBase.dll
- - API-MS-Win-Core-LibraryLoader-l1-1-1.dll
- - API-MS-Win-Core-LibraryLoader-l1-2-0.dll
- - API-MS-Win-Core-Stringloader-l1-1-0.dll
- - API-MS-Win-Core-Stringloader-l1-1-1.dll
- - API-MS-Win-DownLevel-user32-l1-1-1.dll
- - MinKernelBase.dll
- - kernel32.dll
- - API-MS-Win-Core-Libraryloader-l1-2-1.dll
- - API-MS-Win-Core-LibraryLoader-L1-2-2.dll
+- User32.dll
+- API-MS-Win-Core-LibraryLoader-l1-1-0.dll
+- KernelBase.dll
+- API-MS-Win-Core-LibraryLoader-l1-1-1.dll
+- API-MS-Win-Core-LibraryLoader-l1-2-0.dll
+- API-MS-Win-Core-Stringloader-l1-1-0.dll
+- API-MS-Win-Core-Stringloader-l1-1-1.dll
+- API-MS-Win-DownLevel-user32-l1-1-1.dll
+- MinKernelBase.dll
+- kernel32.dll
+- API-MS-Win-Core-Libraryloader-l1-2-1.dll
+- API-MS-Win-Core-LibraryLoader-L1-2-2.dll
 api_name:
- - LoadString
- - LoadStringA
- - LoadStringW
+- LoadString
+- LoadStringA
+- LoadStringW
 targetos: Windows
 req.typenames: 
 req.redist: 

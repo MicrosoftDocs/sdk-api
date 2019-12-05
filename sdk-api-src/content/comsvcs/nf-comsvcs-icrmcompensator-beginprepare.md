@@ -1,19 +1,17 @@
 ---
 UID: NF:comsvcs.ICrmCompensator.BeginPrepare
 title: ICrmCompensator::BeginPrepare (comsvcs.h)
-
 description: Notifies the CRM Compensator of the prepare phase of the transaction completion and that records are about to be delivered.
 old-location: cos\icrmcompensator_beginprepare.htm
 tech.root: cossdk
 ms.assetid: 316a9b00-5843-40b3-9c72-a71da21a81d0
-
 ms.date: 12/05/2018
 ms.keywords: BeginPrepare, BeginPrepare method [COM+], BeginPrepare method [COM+],ICrmCompensator interface, ICrmCompensator interface [COM+],BeginPrepare method, ICrmCompensator.BeginPrepare, ICrmCompensator::BeginPrepare, _dtc_ICrmCompensator_BeginPrepare, comsvcs/ICrmCompensator::BeginPrepare, cos.icrmcompensator_beginprepare
 ms.topic: method
-f1_keywords: 
- - "comsvcs/ICrmCompensator.BeginPrepare"
+f1_keywords:
+- comsvcs/ICrmCompensator.BeginPrepare
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - ICrmCompensator.BeginPrepare
+- ICrmCompensator.BeginPrepare
 targetos: Windows
 req.typenames: 
 req.redist: 

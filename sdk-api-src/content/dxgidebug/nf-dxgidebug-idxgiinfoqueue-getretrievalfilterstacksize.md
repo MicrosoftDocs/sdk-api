@@ -1,19 +1,17 @@
 ---
 UID: NF:dxgidebug.IDXGIInfoQueue.GetRetrievalFilterStackSize
 title: IDXGIInfoQueue::GetRetrievalFilterStackSize (dxgidebug.h)
-
 description: Gets the size of the retrieval-filter stack in bytes.
 old-location: direct3ddxgi\idxgiinfoqueue_getretrievalfilterstacksize.htm
 tech.root: direct3ddxgi
 ms.assetid: E5173EC8-483D-4A90-BDF0-7A7D115A0CF9
-
 ms.date: 12/05/2018
 ms.keywords: GetRetrievalFilterStackSize, GetRetrievalFilterStackSize method [DXGI], GetRetrievalFilterStackSize method [DXGI],IDXGIInfoQueue interface, IDXGIInfoQueue interface [DXGI],GetRetrievalFilterStackSize method, IDXGIInfoQueue.GetRetrievalFilterStackSize, IDXGIInfoQueue::GetRetrievalFilterStackSize, direct3ddxgi.idxgiinfoqueue_getretrievalfilterstacksize, dxgidebug/IDXGIInfoQueue::GetRetrievalFilterStackSize
 ms.topic: method
-f1_keywords: 
- - "dxgidebug/IDXGIInfoQueue.GetRetrievalFilterStackSize"
+f1_keywords:
+- dxgidebug/IDXGIInfoQueue.GetRetrievalFilterStackSize
 dev_langs:
- - c++
+- c++
 req.header: dxgidebug.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: DXGIDebug.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - DXGIDebug.dll
+- DXGIDebug.dll
 api_name:
- - IDXGIInfoQueue.GetRetrievalFilterStackSize
+- IDXGIInfoQueue.GetRetrievalFilterStackSize
 targetos: Windows
 req.typenames: 
 req.redist: 

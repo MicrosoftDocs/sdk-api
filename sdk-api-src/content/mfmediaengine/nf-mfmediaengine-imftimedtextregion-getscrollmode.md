@@ -1,19 +1,17 @@
 ---
 UID: NF:mfmediaengine.IMFTimedTextRegion.GetScrollMode
 title: IMFTimedTextRegion::GetScrollMode (mfmediaengine.h)
-
 description: Gets the scroll mode of the region.
 old-location: mf\imftimedtextregion_getscrollmode.htm
 tech.root: medfound
 ms.assetid: 85CD2A7A-23ED-4D5C-AAEC-D5DF9F059897
-
 ms.date: 12/05/2018
 ms.keywords: GetScrollMode, GetScrollMode method [Media Foundation], GetScrollMode method [Media Foundation],IMFTimedTextRegion interface, IMFTimedTextRegion interface [Media Foundation],GetScrollMode method, IMFTimedTextRegion.GetScrollMode, IMFTimedTextRegion::GetScrollMode, mf.imftimedtextregion_getscrollmode, mfmediaengine/IMFTimedTextRegion::GetScrollMode
 ms.topic: method
-f1_keywords: 
- - "mfmediaengine/IMFTimedTextRegion.GetScrollMode"
+f1_keywords:
+- mfmediaengine/IMFTimedTextRegion.GetScrollMode
 dev_langs:
- - c++
+- c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfmediaengine.h
+- mfmediaengine.h
 api_name:
- - IMFTimedTextRegion.GetScrollMode
+- IMFTimedTextRegion.GetScrollMode
 targetos: Windows
 req.typenames: 
 req.redist: 

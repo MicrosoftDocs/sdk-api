@@ -1,19 +1,17 @@
 ---
 UID: NF:filehc.CacheCreateFile
 title: CacheCreateFile function (filehc.h)
-
 description: Creates a file in the cache or finds an existing file.
 old-location: winprog\_cachecreatefile.htm
 tech.root: DevNotes
 ms.assetid: 089160c7-eb30-4b39-b982-75356e7cdb24
-
 ms.date: 12/05/2018
 ms.keywords: CacheCreateFile, CacheCreateFile function [Windows API], filehc/CacheCreateFile, winprog._cachecreatefile
 ms.topic: function
-f1_keywords: 
- - "filehc/CacheCreateFile"
+f1_keywords:
+- filehc/CacheCreateFile
 dev_langs:
- - c++
+- c++
 req.header: filehc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Fcachdll.lib
 req.dll: Fcachdll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Fcachdll.dll
+- Fcachdll.dll
 api_name:
- - CacheCreateFile
+- CacheCreateFile
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:amsi.IAmsiStream.GetAttribute
 title: IAmsiStream::GetAttribute (amsi.h)
-
 description: Returns a requested attribute from the stream.
 old-location: amsi\iamsistream_getattribute.htm
 tech.root: AMSI
 ms.assetid: 7AD74D85-1A1E-4AFD-91C1-670AC7280285
-
 ms.date: 12/05/2018
 ms.keywords: GetAttribute, GetAttribute method [Antimalware Scan Interface], GetAttribute method [Antimalware Scan Interface],IAmsiStream interface, IAmsiStream interface [Antimalware Scan Interface],GetAttribute method, IAmsiStream.GetAttribute, IAmsiStream::GetAttribute, amsi.iamsistream_getattribute, amsi/IAmsiStream::GetAttribute
 ms.topic: method
-f1_keywords: 
- - "amsi/IAmsiStream.GetAttribute"
+f1_keywords:
+- amsi/IAmsiStream.GetAttribute
 dev_langs:
- - c++
+- c++
 req.header: amsi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - amsi.h
+- amsi.h
 api_name:
- - IAmsiStream.GetAttribute
+- IAmsiStream.GetAttribute
 targetos: Windows
 req.typenames: 
 req.redist: 

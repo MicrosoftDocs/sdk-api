@@ -1,19 +1,17 @@
 ---
 UID: NF:mfidl.IMFSensorStream.GetMediaType
 title: IMFSensorStream::GetMediaType (mfidl.h)
-
 description: Retrieves an IMFMediaType representing a supported media type for the sensor stream.
 old-location: mf\imfsensorstream_getmediatype.htm
 tech.root: medfound
 ms.assetid: 510AD624-F212-4FD7-BF30-A5C90CFA23C5
-
 ms.date: 12/05/2018
 ms.keywords: GetMediaType, GetMediaType method [Media Foundation], GetMediaType method [Media Foundation],IMFSensorStream interface, IMFSensorStream interface [Media Foundation],GetMediaType method, IMFSensorStream.GetMediaType, IMFSensorStream::GetMediaType, mf.imfsensorstream_getmediatype, mfidl/IMFSensorStream::GetMediaType
 ms.topic: method
-f1_keywords: 
- - "mfidl/IMFSensorStream.GetMediaType"
+f1_keywords:
+- mfidl/IMFSensorStream.GetMediaType
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Mfplat.lib; Mfplat.dll
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfplat.lib
- - mfplat.dll
- - mfplat.dll
- - mfplat.dll.dll
+- mfplat.lib
+- mfplat.dll
+- mfplat.dll
+- mfplat.dll.dll
 api_name:
- - IMFSensorStream.GetMediaType
+- IMFSensorStream.GetMediaType
 targetos: Windows
 req.typenames: 
 req.redist: 

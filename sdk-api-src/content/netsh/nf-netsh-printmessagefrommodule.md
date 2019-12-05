@@ -1,19 +1,17 @@
 ---
 UID: NF:netsh.PrintMessageFromModule
 title: PrintMessageFromModule function (netsh.h)
-
 description: Displays localized output to the NetShell console.
 old-location: netshell\printmessagefrommodule.htm
 tech.root: netshell
 ms.assetid: 21f4688a-24fd-40b3-8da4-08c496b395f3
-
 ms.date: 12/05/2018
 ms.keywords: PrintMessageFromModule, PrintMessageFromModule function [NetShell], _netsh_printmessagefrommodule, netsh/PrintMessageFromModule, netshell.printmessagefrommodule
 ms.topic: function
-f1_keywords: 
- - "netsh/PrintMessageFromModule"
+f1_keywords:
+- netsh/PrintMessageFromModule
 dev_langs:
- - c++
+- c++
 req.header: netsh.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Netsh.lib
 req.dll: Netsh.exe
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Netsh.exe
+- Netsh.exe
 api_name:
- - PrintMessageFromModule
+- PrintMessageFromModule
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:locationapi.ILocation.RegisterForReport
 title: ILocation::RegisterForReport (locationapi.h)
-
 description: Requests location report events.
 old-location: winlocation_com_ref\ilocation_registerforreport.htm
 tech.root: locationapi
 ms.assetid: 1aca3e5b-20cb-4fa9-b28d-7d992601df96
-
 ms.date: 12/05/2018
 ms.keywords: ILocation interface [WinLocation],RegisterForReport method, ILocation.RegisterForReport, ILocation::RegisterForReport, RegisterForReport, RegisterForReport method [WinLocation], RegisterForReport method [WinLocation],ILocation interface, WinLocation_COM_Ref.ilocation_registerforreport, locationapi/ILocation::RegisterForReport
 ms.topic: method
-f1_keywords: 
- - "locationapi/ILocation.RegisterForReport"
+f1_keywords:
+- locationapi/ILocation.RegisterForReport
 dev_langs:
- - c++
+- c++
 req.header: locationapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: LocationAPI.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - LocationAPI.dll
+- LocationAPI.dll
 api_name:
- - ILocation.RegisterForReport
+- ILocation.RegisterForReport
 targetos: Windows
 req.typenames: 
 req.redist: 

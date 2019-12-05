@@ -1,19 +1,17 @@
 ---
 UID: NF:icontact.IContactPropertyCollection.GetPropertyArrayElementID
 title: IContactPropertyCollection::GetPropertyArrayElementID (icontact.h)
-
 description: Retrieves the unique ID for a given element in a property array.
 old-location: wincontacts\_wincontacts_IContactPropertyCollection_GetPropertyArrayElementID.htm
 tech.root: wincontacts
 ms.assetid: bfd860d6-cd67-4f97-afc4-1e2e7c8f57ca
-
 ms.date: 12/05/2018
 ms.keywords: GetPropertyArrayElementID, GetPropertyArrayElementID method [Windows Contacts], GetPropertyArrayElementID method [Windows Contacts],IContactPropertyCollection interface, IContactPropertyCollection interface [Windows Contacts],GetPropertyArrayElementID method, IContactPropertyCollection.GetPropertyArrayElementID, IContactPropertyCollection::GetPropertyArrayElementID, _wincontacts_IContactPropertyCollection_GetPropertyArrayElementID, icontact/IContactPropertyCollection::GetPropertyArrayElementID, wincontacts._wincontacts_IContactPropertyCollection_GetPropertyArrayElementID
 ms.topic: method
-f1_keywords: 
- - "icontact/IContactPropertyCollection.GetPropertyArrayElementID"
+f1_keywords:
+- icontact/IContactPropertyCollection.GetPropertyArrayElementID
 dev_langs:
- - c++
+- c++
 req.header: icontact.h
 req.include-header: Contact.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wab32.dll (Version 6.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wab32.dll
+- Wab32.dll
 api_name:
- - IContactPropertyCollection.GetPropertyArrayElementID
+- IContactPropertyCollection.GetPropertyArrayElementID
 targetos: Windows
 req.typenames: 
 req.redist: 

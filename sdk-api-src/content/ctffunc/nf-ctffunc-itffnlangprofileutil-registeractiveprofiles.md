@@ -1,19 +1,17 @@
 ---
 UID: NF:ctffunc.ITfFnLangProfileUtil.RegisterActiveProfiles
 title: ITfFnLangProfileUtil::RegisterActiveProfiles (ctffunc.h)
-
 description: ITfFnLangProfileUtil::RegisterActiveProfiles method
 old-location: tsf\itffnlangprofileutil_registeractiveprofiles.htm
 tech.root: TSF
 ms.assetid: 3b86206d-a299-4207-a0be-35a334786560
-
 ms.date: 12/05/2018
 ms.keywords: ITfFnLangProfileUtil interface [Text Services Framework],RegisterActiveProfiles method, ITfFnLangProfileUtil.RegisterActiveProfiles, ITfFnLangProfileUtil::RegisterActiveProfiles, RegisterActiveProfiles, RegisterActiveProfiles method [Text Services Framework], RegisterActiveProfiles method [Text Services Framework],ITfFnLangProfileUtil interface, _tsf_itffnlangprofileutil_registeractiveprofiles_ref, ctffunc/ITfFnLangProfileUtil::RegisterActiveProfiles, tsf.itffnlangprofileutil_registeractiveprofiles
 ms.topic: method
-f1_keywords: 
- - "ctffunc/ITfFnLangProfileUtil.RegisterActiveProfiles"
+f1_keywords:
+- ctffunc/ITfFnLangProfileUtil.RegisterActiveProfiles
 dev_langs:
- - c++
+- c++
 req.header: ctffunc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msctf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msctf.dll
+- Msctf.dll
 api_name:
- - ITfFnLangProfileUtil.RegisterActiveProfiles
+- ITfFnLangProfileUtil.RegisterActiveProfiles
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

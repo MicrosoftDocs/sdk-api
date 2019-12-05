@@ -1,19 +1,17 @@
 ---
 UID: NF:gdiplusheaders.Metafile.Metafile(IN HDC,IN EmfType,IN const WCHAR)
 title: Metafile::Metafile(IN HDC,IN EmfType,IN const WCHAR) (gdiplusheaders.h)
-
 description: Creates a Metafile::Metafile object for recording.
 old-location: gdiplus\_gdiplus_CLASS_Metafile_Metafile_referenceHdc_type_description_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\metafileclass\metafileconstructors\metafile_21referencehdc_type_description.htm
-
 ms.date: 12/05/2018
 ms.keywords: Metafile, Metafile class [GDI+],Metafile constructor, Metafile constructor [GDI+], Metafile constructor [GDI+],Metafile class, Metafile.Metafile, Metafile.Metafile(HDC,EmfType,const WCHAR*), Metafile.Metafile(IN HDC,IN EmfType,IN const WCHAR), Metafile::Metafile, Metafile::Metafile(IN HDC,IN EmfType,IN const WCHAR), _gdiplus_CLASS_Metafile_Metafile_referenceHdc_type_description_, gdiplus._gdiplus_CLASS_Metafile_Metafile_referenceHdc_type_description_
 ms.topic: method
-f1_keywords: 
- - "gdiplusheaders/Metafile.Metafile"
+f1_keywords:
+- gdiplusheaders/Metafile.Metafile
 dev_langs:
- - c++
+- c++
 req.header: gdiplusheaders.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - Metafile.Metafile
+- Metafile.Metafile
 targetos: Windows
 req.typenames: 
 req.redist: 

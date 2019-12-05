@@ -1,19 +1,17 @@
 ---
 UID: NF:datetimeapi.GetDateFormatA
 title: GetDateFormatA function (datetimeapi.h)
-
 description: Formats a date as a date string for a locale specified by the locale identifier.
 old-location: intl\getdateformat.htm
 tech.root: Intl
 ms.assetid: 546cede1-1702-403a-bba3-b5cd3b35a1bf
-
 ms.date: 12/05/2018
 ms.keywords: GetDateFormat, GetDateFormat function [Internationalization for Windows Applications], GetDateFormatA, GetDateFormatW, _win32_GetDateFormat, datetimeapi/GetDateFormat, datetimeapi/GetDateFormatA, datetimeapi/GetDateFormatW, intl.getdateformat
 ms.topic: function
-f1_keywords: 
- - "datetimeapi/GetDateFormat"
+f1_keywords:
+- datetimeapi/GetDateFormat
 dev_langs:
- - c++
+- c++
 req.header: datetimeapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,22 +30,22 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-datetime-l1-1-0.dll
- - KernelBase.dll
- - API-MS-Win-Core-datetime-l1-1-1.dll
- - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
- - MinKernelBase.dll
- - API-MS-Win-Core-DateTime-L1-1-2.dll
+- Kernel32.dll
+- API-MS-Win-Core-datetime-l1-1-0.dll
+- KernelBase.dll
+- API-MS-Win-Core-datetime-l1-1-1.dll
+- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+- MinKernelBase.dll
+- API-MS-Win-Core-DateTime-L1-1-2.dll
 api_name:
- - GetDateFormat
- - GetDateFormatA
- - GetDateFormatW
+- GetDateFormat
+- GetDateFormatA
+- GetDateFormatW
 targetos: Windows
 req.typenames: 
 req.redist: 

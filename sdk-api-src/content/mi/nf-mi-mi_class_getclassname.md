@@ -1,19 +1,17 @@
 ---
 UID: NF:mi.MI_Class_GetClassName
 title: MI_Class_GetClassName function (mi.h)
-
 description: Gets the class name of the specified class.
 old-location: wmi_v2\mi_class_getclassname.htm
 tech.root: wmi_v2
 ms.assetid: 405639e7-74b0-4cda-9883-f8442976200a
-
 ms.date: 12/05/2018
 ms.keywords: MI_Class_GetClassName, MI_Class_GetClassName function [Windows Management Infrastructure (MI)], mi/MI_Class_GetClassName, wmi_v2.mi_class_getclassname
 ms.topic: function
-f1_keywords: 
- - "mi/MI_Class_GetClassName"
+f1_keywords:
+- mi/MI_Class_GetClassName
 dev_langs:
- - c++
+- c++
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Mi.h
+- Mi.h
 api_name:
- - MI_Class_GetClassName
+- MI_Class_GetClassName
 targetos: Windows
 req.typenames: 
 req.redist: Windows Management Framework 3.0 on Windows Server 2008 R2 with SP1, Windows 7 with SP1, and Windows Server 2008 with SP2

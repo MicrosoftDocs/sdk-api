@@ -1,19 +1,17 @@
 ---
 UID: NF:netfw.INetFwRules.Remove
 title: INetFwRules::Remove (netfw.h)
-
 description: The Remove method removes a rule from the collection.
 old-location: ics\inetfwrules_remove.htm
 tech.root: ics
 ms.assetid: 70bd45c7-b5ab-43b3-afd4-2abb2a80ff0f
-
 ms.date: 12/05/2018
 ms.keywords: INetFwRules interface [ICS/ICF],Remove method, INetFwRules.Remove, INetFwRules::Remove, Remove, Remove method [ICS/ICF], Remove method [ICS/ICF],INetFwRules interface, ics.inetfwrules_remove, netfw/INetFwRules::Remove
 ms.topic: method
-f1_keywords: 
- - "netfw/INetFwRules.Remove"
+f1_keywords:
+- netfw/INetFwRules.Remove
 dev_langs:
- - c++
+- c++
 req.header: netfw.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: FirewallAPI.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - FirewallAPI.dll
+- FirewallAPI.dll
 api_name:
- - INetFwRules.Remove
+- INetFwRules.Remove
 targetos: Windows
 req.typenames: 
 req.redist: 

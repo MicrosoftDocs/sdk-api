@@ -1,19 +1,17 @@
 ---
 UID: NS:vds._VDS_INPUT_DISK
 title: VDS_INPUT_DISK (vds.h)
-
 description: Defines the details of an input disk.
 old-location: base\vds_input_disk.htm
 tech.root: VDS
 ms.assetid: 837981e5-8600-4add-85cf-a802615133d3
-
 ms.date: 12/05/2018
 ms.keywords: VDS_INPUT_DISK, VDS_INPUT_DISK structure [VDS], base.vds_input_disk, vds/_VDS_INPUT_DISK
 ms.topic: struct
-f1_keywords: 
- - "vds/VDS_INPUT_DISK"
+f1_keywords:
+- vds/VDS_INPUT_DISK
 dev_langs:
- - c++
+- c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Vds.h
+- Vds.h
 api_name:
- - VDS_INPUT_DISK
+- VDS_INPUT_DISK
 targetos: Windows
 req.typenames: VDS_INPUT_DISK
 req.redist: 

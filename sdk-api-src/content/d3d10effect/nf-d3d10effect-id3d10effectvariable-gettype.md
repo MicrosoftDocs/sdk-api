@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d10effect.ID3D10EffectVariable.GetType
 title: ID3D10EffectVariable::GetType (d3d10effect.h)
-
 description: Get type information.
 old-location: direct3d10\id3d10effectvariable_gettype.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10effectvariable_gettype.htm
-
 ms.date: 12/05/2018
 ms.keywords: 675fd28c-3c3f-013f-f9c3-8c82054eae00, GetType, GetType method [Direct3D 10], GetType method [Direct3D 10],ID3D10EffectVariable interface, ID3D10EffectVariable interface [Direct3D 10],GetType method, ID3D10EffectVariable.GetType, ID3D10EffectVariable::GetType, d3d10effect/ID3D10EffectVariable::GetType, direct3d10.id3d10effectvariable_gettype
 ms.topic: method
-f1_keywords: 
- - "d3d10effect/ID3D10EffectVariable.GetType"
+f1_keywords:
+- d3d10effect/ID3D10EffectVariable.GetType
 dev_langs:
- - c++
+- c++
 req.header: d3d10effect.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D10Effect.h
+- D3D10Effect.h
 api_name:
- - ID3D10EffectVariable.GetType
+- ID3D10EffectVariable.GetType
 targetos: Windows
 req.typenames: 
 req.redist: 

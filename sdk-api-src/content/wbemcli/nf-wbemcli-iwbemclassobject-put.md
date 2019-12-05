@@ -1,19 +1,17 @@
 ---
 UID: NF:wbemcli.IWbemClassObject.Put
 title: IWbemClassObject::Put (wbemcli.h)
-
 description: Sets a named property to a new value.
 old-location: wmi\iwbemclassobject_put.htm
 tech.root: WmiSdk
 ms.assetid: 7b67739f-5c67-447a-a1a5-fad9ce3e857a
-
 ms.date: 12/05/2018
 ms.keywords: IWbemClassObject interface [Windows Management Instrumentation],Put method, IWbemClassObject.Put, IWbemClassObject::Put, Put, Put method [Windows Management Instrumentation], Put method [Windows Management Instrumentation],IWbemClassObject interface, _hmm_iwbemclassobject_put, wbemcli/IWbemClassObject::Put, wmi.iwbemclassobject_put
 ms.topic: method
-f1_keywords: 
- - "wbemcli/IWbemClassObject.Put"
+f1_keywords:
+- wbemcli/IWbemClassObject.Put
 dev_langs:
- - c++
+- c++
 req.header: wbemcli.h
 req.include-header: Wbemidl.h
 req.target-type: Windows
@@ -32,23 +30,23 @@ req.lib: WbemUuid.lib
 req.dll: CIMWin32.dll; Esscli.dll; Fastprox.dll; FrameDyn.dll; FrameDynOS.dll; Krnlprov.dll; Ncprov.dll; Wbemcore.dll; Wbemess.dll; Wmipiprt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CIMWin32.dll
- - Esscli.dll
- - Fastprox.dll
- - FrameDyn.dll
- - FrameDynOS.dll
- - Krnlprov.dll
- - Ncprov.dll
- - Wbemcore.dll
- - Wbemess.dll
- - Wmipiprt.dll
+- CIMWin32.dll
+- Esscli.dll
+- Fastprox.dll
+- FrameDyn.dll
+- FrameDynOS.dll
+- Krnlprov.dll
+- Ncprov.dll
+- Wbemcore.dll
+- Wbemess.dll
+- Wmipiprt.dll
 api_name:
- - IWbemClassObject.Put
+- IWbemClassObject.Put
 targetos: Windows
 req.typenames: 
 req.redist: 

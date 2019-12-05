@@ -1,19 +1,17 @@
 ---
 UID: NN:shlobj_core.IURLSearchHook2
 title: IURLSearchHook2 (shlobj_core.h)
-
 description: Exposes a method that is used by the browser to translate the address of an unknown URL protocol by using a search context object.
 old-location: shell\IURLSearchHook2.htm
 tech.root: shell
 ms.assetid: 5a17e099-a8b4-454d-8f2e-0a45435902a4
-
 ms.date: 12/05/2018
 ms.keywords: IURLSearchHook2, IURLSearchHook2 interface [Windows Shell], IURLSearchHook2 interface [Windows Shell],described, _shell_IURLSearchHook2, shell.IURLSearchHook2, shlobj_core/IURLSearchHook2
 ms.topic: interface
-f1_keywords: 
- - "shlobj_core/IURLSearchHook2"
+f1_keywords:
+- shlobj_core/IURLSearchHook2
 dev_langs:
- - c++
+- c++
 req.header: shlobj_core.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Shell32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - IURLSearchHook2
+- IURLSearchHook2
 targetos: Windows
 req.typenames: 
 req.redist: 

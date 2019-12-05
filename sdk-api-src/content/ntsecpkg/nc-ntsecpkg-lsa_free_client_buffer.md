@@ -1,19 +1,17 @@
 ---
 UID: NC:ntsecpkg.LSA_FREE_CLIENT_BUFFER
 title: LSA_FREE_CLIENT_BUFFER (ntsecpkg.h)
-
 description: Frees a client buffer previously allocated with the AllocateClientBuffer function.
 old-location: security\freeclientbuffer.htm
 tech.root: SecAuthN
 ms.assetid: c3a92039-7fb1-49e9-8e7a-0c902770543e
-
 ms.date: 12/05/2018
 ms.keywords: FreeClientBuffer, FreeClientBuffer callback function [Security], LSA_FREE_CLIENT_BUFFER, LSA_FREE_CLIENT_BUFFER callback, _lsa_freeclientbuffer, ntsecpkg/FreeClientBuffer, security.freeclientbuffer
 ms.topic: callback
 f1_keywords:
 - ntsecpkg/FreeClientBuffer
 dev_langs:
- - c++
+- c++
 req.header: ntsecpkg.h
 req.include-header: 
 req.target-type: Windows

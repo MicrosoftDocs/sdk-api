@@ -1,19 +1,17 @@
 ---
 UID: NF:filehc.InvalidateName
 title: InvalidateName function (filehc.h)
-
 description: Enables the user to remove a single name and all associated data from the name cache.
 old-location: winprog\_invalidatename.htm
 tech.root: DevNotes
 ms.assetid: 86c6eccf-5c4a-421b-b8e2-762ea5b77bf3
-
 ms.date: 12/05/2018
 ms.keywords: InvalidateName, InvalidateName function [Windows API], filehc/InvalidateName, winprog._invalidatename
 ms.topic: function
-f1_keywords: 
- - "filehc/InvalidateName"
+f1_keywords:
+- filehc/InvalidateName
 dev_langs:
- - c++
+- c++
 req.header: filehc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Fcachdll.lib
 req.dll: Fcachdll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Fcachdll.dll
+- Fcachdll.dll
 api_name:
- - InvalidateName
+- InvalidateName
 targetos: Windows
 req.typenames: 
 req.redist: 

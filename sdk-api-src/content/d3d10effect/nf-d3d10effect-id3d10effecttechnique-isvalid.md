@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d10effect.ID3D10EffectTechnique.IsValid
 title: ID3D10EffectTechnique::IsValid (d3d10effect.h)
-
 description: Test a technique to see if it contains valid syntax.
 old-location: direct3d10\id3d10effecttechnique_isvalid.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10effecttechnique_isvalid.htm
-
 ms.date: 12/05/2018
 ms.keywords: ID3D10EffectTechnique interface [Direct3D 10],IsValid method, ID3D10EffectTechnique.IsValid, ID3D10EffectTechnique::IsValid, IsValid, IsValid method [Direct3D 10], IsValid method [Direct3D 10],ID3D10EffectTechnique interface, b8fc6078-7d60-a1c1-9522-6c8f527ed497, d3d10effect/ID3D10EffectTechnique::IsValid, direct3d10.id3d10effecttechnique_isvalid
 ms.topic: method
-f1_keywords: 
- - "d3d10effect/ID3D10EffectTechnique.IsValid"
+f1_keywords:
+- d3d10effect/ID3D10EffectTechnique.IsValid
 dev_langs:
- - c++
+- c++
 req.header: d3d10effect.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D10Effect.h
+- D3D10Effect.h
 api_name:
- - ID3D10EffectTechnique.IsValid
+- ID3D10EffectTechnique.IsValid
 targetos: Windows
 req.typenames: 
 req.redist: 

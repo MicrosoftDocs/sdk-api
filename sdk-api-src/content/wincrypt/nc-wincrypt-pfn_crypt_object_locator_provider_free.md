@@ -1,19 +1,17 @@
 ---
 UID: NC:wincrypt.PFN_CRYPT_OBJECT_LOCATOR_PROVIDER_FREE
 title: PFN_CRYPT_OBJECT_LOCATOR_PROVIDER_FREE (wincrypt.h)
-
 description: Releases the object returned by the provider.
 old-location: security\pfn_crypt_object_locator_provider_free.htm
 tech.root: SecCrypto
 ms.assetid: 4C27BF58-79AB-4AD3-8D43-EEE7F73071D2
-
 ms.date: 12/05/2018
 ms.keywords: PFN_CRYPT_OBJECT_LOCATOR_PROVIDER_FREE, PFN_CRYPT_OBJECT_LOCATOR_PROVIDER_FREE callback, PFN_CRYPT_OBJECT_LOCATOR_PROVIDER_FREE callback function [Security], security.pfn_crypt_object_locator_provider_free, wincrypt/PFN_CRYPT_OBJECT_LOCATOR_PROVIDER_FREE
 ms.topic: callback
-f1_keywords: 
- - "wincrypt/PFN_CRYPT_OBJECT_LOCATOR_PROVIDER_FREE"
+f1_keywords:
+- wincrypt/PFN_CRYPT_OBJECT_LOCATOR_PROVIDER_FREE
 dev_langs:
- - c++
+- c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Wincrypt.h
+- Wincrypt.h
 api_name:
- - PFN_CRYPT_OBJECT_LOCATOR_PROVIDER_FREE
+- PFN_CRYPT_OBJECT_LOCATOR_PROVIDER_FREE
 targetos: Windows
 req.typenames: 
 req.redist: 

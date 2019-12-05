@@ -1,19 +1,17 @@
 ---
 UID: NF:msopc.IOpcSigningOptions.GetSignaturePartName
 title: IOpcSigningOptions::GetSignaturePartName (msopc.h)
-
 description: Gets the part name of the signature part where the signature markup will be stored.
 old-location: opc\iopcsigningoptions_getsignaturepartname.htm
 tech.root: OPC
 ms.assetid: 09481639-eea1-4203-932f-e97558408b42
-
 ms.date: 12/05/2018
 ms.keywords: GetSignaturePartName, GetSignaturePartName method [Open Packaging Conventions], GetSignaturePartName method [Open Packaging Conventions],IOpcSigningOptions interface, IOpcSigningOptions interface [Open Packaging Conventions],GetSignaturePartName method, IOpcSigningOptions.GetSignaturePartName, IOpcSigningOptions::GetSignaturePartName, msopc/IOpcSigningOptions::GetSignaturePartName, opc.iopcsigningoptions_getsignaturepartname
 ms.topic: method
-f1_keywords: 
- - "msopc/IOpcSigningOptions.GetSignaturePartName"
+f1_keywords:
+- msopc/IOpcSigningOptions.GetSignaturePartName
 dev_langs:
- - c++
+- c++
 req.header: msopc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msopc.h
+- msopc.h
 api_name:
- - IOpcSigningOptions.GetSignaturePartName
+- IOpcSigningOptions.GetSignaturePartName
 targetos: Windows
 req.typenames: 
 req.redist: 

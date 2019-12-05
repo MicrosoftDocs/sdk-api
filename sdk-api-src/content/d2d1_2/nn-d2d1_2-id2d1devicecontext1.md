@@ -1,19 +1,17 @@
 ---
 UID: NN:d2d1_2.ID2D1DeviceContext1
 title: ID2D1DeviceContext1 (d2d1_2.h)
-
 description: Enables creation and drawing of geometry realization objects.
 old-location: direct2d\id2d1devicecontext1.htm
 tech.root: Direct2D
 ms.assetid: E08FDAE4-05D3-472C-9AD9-228BAF989F1D
-
 ms.date: 12/05/2018
 ms.keywords: ID2D1DeviceContext1, ID2D1DeviceContext1 interface [Direct2D], ID2D1DeviceContext1 interface [Direct2D],described, d2d1_2/ID2D1DeviceContext1, direct2d.id2d1devicecontext1
 ms.topic: interface
-f1_keywords: 
- - "d2d1_2/ID2D1DeviceContext1"
+f1_keywords:
+- d2d1_2/ID2D1DeviceContext1
 dev_langs:
- - c++
+- c++
 req.header: d2d1_2.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: D2d1.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D2d1.lib
- - D2d1.dll
+- D2d1.lib
+- D2d1.dll
 api_name:
- - ID2D1DeviceContext1
+- ID2D1DeviceContext1
 targetos: Windows
 req.typenames: 
 req.redist: 

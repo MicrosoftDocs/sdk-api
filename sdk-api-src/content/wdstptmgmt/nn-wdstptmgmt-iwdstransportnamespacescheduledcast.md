@@ -1,19 +1,17 @@
 ---
 UID: NN:wdstptmgmt.IWdsTransportNamespaceScheduledCast
 title: IWdsTransportNamespaceScheduledCast (wdstptmgmt.h)
-
 description: Represents a base interface to the derived interfaces:\_IWdsTransportNamespaceScheduledCastManualStart and IWdsTransportNamespaceScheduledCastAutoStart.
 old-location: wds\iwdstransportnamespacescheduledcast.htm
 tech.root: wds
 ms.assetid: 434e2eb2-b149-46e6-b7d0-0d07c44bcec2
-
 ms.date: 12/05/2018
 ms.keywords: IWdsTransportNamespaceScheduledCast, IWdsTransportNamespaceScheduledCast interface [Windows Deployment Services], IWdsTransportNamespaceScheduledCast interface [Windows Deployment Services],described, wds.iwdstransportnamespacescheduledcast, wdstptmgmt/IWdsTransportNamespaceScheduledCast
 ms.topic: interface
-f1_keywords: 
- - "wdstptmgmt/IWdsTransportNamespaceScheduledCast"
+f1_keywords:
+- wdstptmgmt/IWdsTransportNamespaceScheduledCast
 dev_langs:
- - c++
+- c++
 req.header: wdstptmgmt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wdstptmgmt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wdstptmgmt.dll
+- Wdstptmgmt.dll
 api_name:
- - IWdsTransportNamespaceScheduledCast
+- IWdsTransportNamespaceScheduledCast
 targetos: Windows
 req.typenames: 
 req.redist: 

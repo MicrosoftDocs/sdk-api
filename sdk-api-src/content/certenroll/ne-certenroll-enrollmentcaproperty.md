@@ -1,19 +1,17 @@
 ---
 UID: NE:certenroll.EnrollmentCAProperty
 title: EnrollmentCAProperty (certenroll.h)
-
 description: Specifies certification authority property values.
 old-location: security\enrollmentcaproperty.htm
 tech.root: seccertenroll
 ms.assetid: d4908ef0-aaf0-4396-9b89-cd7f3a9f6188
-
 ms.date: 12/05/2018
 ms.keywords: CAPropCertificate, CAPropCertificateTypes, CAPropCommonName, CAPropDNSName, CAPropDescription, CAPropDistinguishedName, CAPropRenewalOnly, CAPropSanitizedName, CAPropSanitizedShortName, CAPropSecurity, CAPropSiteName, CAPropWebServers, EnrollmentCAProperty, EnrollmentCAProperty enumeration [Security], certenroll/CAPropCertificate, certenroll/CAPropCertificateTypes, certenroll/CAPropCommonName, certenroll/CAPropDNSName, certenroll/CAPropDescription, certenroll/CAPropDistinguishedName, certenroll/CAPropRenewalOnly, certenroll/CAPropSanitizedName, certenroll/CAPropSanitizedShortName, certenroll/CAPropSecurity, certenroll/CAPropSiteName, certenroll/CAPropWebServers, certenroll/EnrollmentCAProperty, security.enrollmentcaproperty
 ms.topic: enum
-f1_keywords: 
- - "certenroll/EnrollmentCAProperty"
+f1_keywords:
+- certenroll/EnrollmentCAProperty
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Certenroll.h
+- Certenroll.h
 api_name:
- - EnrollmentCAProperty
+- EnrollmentCAProperty
 targetos: Windows
 req.typenames: EnrollmentCAProperty
 req.redist: 

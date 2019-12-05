@@ -1,19 +1,17 @@
 ---
 UID: NF:shellscalingapi.RegisterScaleChangeEvent
 title: RegisterScaleChangeEvent function (shellscalingapi.h)
-
 description: Registers for an event that is triggered when the scale has possibly changed. This function replaces RegisterScaleChangeNotifications.
 old-location: shell\RegisterScaleChangeEvent.htm
 tech.root: shell
 ms.assetid: 05FAFC9B-DCB7-464A-9933-7166C7E53D40
-
 ms.date: 12/05/2018
 ms.keywords: RegisterScaleChangeEvent, RegisterScaleChangeEvent function [Windows Shell], shell.RegisterScaleChangeEvent, shellscalingapi/RegisterScaleChangeEvent
 ms.topic: function
-f1_keywords: 
- - "shellscalingapi/RegisterScaleChangeEvent"
+f1_keywords:
+- shellscalingapi/RegisterScaleChangeEvent
 dev_langs:
- - c++
+- c++
 req.header: shellscalingapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Shcore.lib
 req.dll: Shcore.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - shcore.dll
- - API-MS-Win-shcore-scaling-l1-1-1.dll
- - API-MS-Win-ShCore-Scaling-l1-1-2.dll
- - api-ms-win-shcore-scaling-l1.dll
+- shcore.dll
+- API-MS-Win-shcore-scaling-l1-1-1.dll
+- API-MS-Win-ShCore-Scaling-l1-1-2.dll
+- api-ms-win-shcore-scaling-l1.dll
 api_name:
- - RegisterScaleChangeEvent
+- RegisterScaleChangeEvent
 targetos: Windows
 req.typenames: 
 req.redist: 

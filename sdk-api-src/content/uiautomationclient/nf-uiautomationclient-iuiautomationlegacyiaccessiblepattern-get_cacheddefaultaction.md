@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationLegacyIAccessiblePattern.get_CachedDefaultAction
 title: IUIAutomationLegacyIAccessiblePattern::get_CachedDefaultAction (uiautomationclient.h)
-
 description: Retrieves the Microsoft Active Accessibility cached default action for the element.
 old-location: winauto\uiauto_IUIAutomationLegacyIAccessiblePattern_CachedDefaultAction.htm
 tech.root: WinAuto
 ms.assetid: acd43075-4f53-48d3-a039-0882a4833d9e
-
 ms.date: 12/05/2018
 ms.keywords: CachedDefaultAction property [Windows Accessibility], CachedDefaultAction property [Windows Accessibility],IUIAutomationLegacyIAccessiblePattern interface, IUIAutomationLegacyIAccessiblePattern interface [Windows Accessibility],CachedDefaultAction property, IUIAutomationLegacyIAccessiblePattern.CachedDefaultAction, IUIAutomationLegacyIAccessiblePattern.get_CachedDefaultAction, IUIAutomationLegacyIAccessiblePattern::CachedDefaultAction, IUIAutomationLegacyIAccessiblePattern::get_CachedDefaultAction, get_CachedDefaultAction, uiauto.uiauto_IUIAutomationLegacyIAccessiblePattern_CachedDefaultAction, uiauto_IUIAutomationLegacyIAccessiblePattern_CachedDefaultAction, uiautomationclient/IUIAutomationLegacyIAccessiblePattern::CachedDefaultAction, uiautomationclient/IUIAutomationLegacyIAccessiblePattern::get_CachedDefaultAction, winauto.uiauto_IUIAutomationLegacyIAccessiblePattern_CachedDefaultAction
 ms.topic: method
-f1_keywords: 
- - "uiautomationclient/IUIAutomationLegacyIAccessiblePattern.CachedDefaultAction"
+f1_keywords:
+- uiautomationclient/IUIAutomationLegacyIAccessiblePattern.CachedDefaultAction
 dev_langs:
- - c++
+- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationClient.h
+- UIAutomationClient.h
 api_name:
- - IUIAutomationLegacyIAccessiblePattern.CachedDefaultAction
- - IUIAutomationLegacyIAccessiblePattern.get_CachedDefaultAction
+- IUIAutomationLegacyIAccessiblePattern.CachedDefaultAction
+- IUIAutomationLegacyIAccessiblePattern.get_CachedDefaultAction
 targetos: Windows
 req.typenames: 
 req.redist: 

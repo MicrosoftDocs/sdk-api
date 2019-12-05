@@ -1,19 +1,17 @@
 ---
 UID: NF:dbghelp.SymGetModuleInfoW64
 title: SymGetModuleInfoW64 function (dbghelp.h)
-
 description: Retrieves the module information of the specified module.
 old-location: base\symgetmoduleinfo64.htm
 tech.root: Debug
 ms.assetid: e8057cb5-3331-4460-b07c-4338a57024be
-
 ms.date: 12/05/2018
 ms.keywords: SymGetModuleInfo, SymGetModuleInfo function, SymGetModuleInfo64, SymGetModuleInfo64 function, SymGetModuleInfoW, SymGetModuleInfoW64, _win32_symgetmoduleinfo64, base.symgetmoduleinfo64, dbghelp/SymGetModuleInfo, dbghelp/SymGetModuleInfo64, dbghelp/SymGetModuleInfoW, dbghelp/SymGetModuleInfoW64
 ms.topic: function
 f1_keywords:
 - dbghelp/SymGetModuleInfo64
 dev_langs:
- - c++
+- c++
 req.header: dbghelp.h
 req.include-header: 
 req.target-type: Windows

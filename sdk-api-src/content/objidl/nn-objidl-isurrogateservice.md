@@ -1,19 +1,17 @@
 ---
 UID: NN:objidl.ISurrogateService
 title: ISurrogateService (objidl.h)
-
 description: Used to initialize, launch, and release a COM+ application. You can also refresh the catalog and shut down the process.
 old-location: com\isurrogateservice.htm
 tech.root: com
 ms.assetid: 01773aa6-3eb5-43dd-8a10-d1351a07fe1f
-
 ms.date: 12/05/2018
 ms.keywords: ISurrogateService, ISurrogateService interface [COM], ISurrogateService interface [COM],described, _com_isurrogateservice, com.isurrogateservice, objidl/ISurrogateService
 ms.topic: interface
-f1_keywords: 
- - "objidl/ISurrogateService"
+f1_keywords:
+- objidl/ISurrogateService
 dev_langs:
- - c++
+- c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ObjIdl.h
+- ObjIdl.h
 api_name:
- - ISurrogateService
+- ISurrogateService
 targetos: Windows
 req.typenames: 
 req.redist: 

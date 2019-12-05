@@ -1,19 +1,17 @@
 ---
 UID: NF:gdiplusheaders.Bitmap.ConvertFormat
 title: Bitmap::ConvertFormat (gdiplusheaders.h)
-
 description: The Bitmap::ConvertFormat method converts a bitmap to a specified pixel format. The original pixel data in the bitmap is replaced by the new pixel data.
 old-location: gdiplus\_gdiplus_CLASS_Bitmap_ConvertFormat_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\bitmapclass\bitmapgethistogrammethods\convertformat.htm
-
 ms.date: 12/05/2018
 ms.keywords: Bitmap class [GDI+],ConvertFormat method, Bitmap.ConvertFormat, Bitmap::ConvertFormat, ConvertFormat, ConvertFormat method [GDI+], ConvertFormat method [GDI+],Bitmap class, _gdiplus_CLASS_Bitmap_ConvertFormat_, gdiplus._gdiplus_CLASS_Bitmap_ConvertFormat_
 ms.topic: method
-f1_keywords: 
- - "gdiplusheaders/Bitmap.ConvertFormat"
+f1_keywords:
+- gdiplusheaders/Bitmap.ConvertFormat
 dev_langs:
- - c++
+- c++
 req.header: gdiplusheaders.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - Bitmap.ConvertFormat
+- Bitmap.ConvertFormat
 targetos: Windows
 req.typenames: 
 req.redist: 

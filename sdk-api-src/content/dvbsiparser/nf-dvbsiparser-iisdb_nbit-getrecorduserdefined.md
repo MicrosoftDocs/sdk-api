@@ -1,19 +1,17 @@
 ---
 UID: NF:dvbsiparser.IISDB_NBIT.GetRecordUserDefined
 title: IISDB_NBIT::GetRecordUserDefined (dvbsiparser.h)
-
 description: Gets the user_defined field from an Integrated Services Digital Broadcasting (ISDB) network broadcaster information table (NBIT).
 old-location: mstv\iisdb_nbit_getrecorduserdefined.htm
 tech.root: mstv
 ms.assetid: 36786614-7b7e-4d76-9610-c969ad68f9d8
-
 ms.date: 12/05/2018
 ms.keywords: GetRecordUserDefined, GetRecordUserDefined method [Microsoft TV Technologies], GetRecordUserDefined method [Microsoft TV Technologies],IISDB_NBIT interface, IISDB_NBIT interface [Microsoft TV Technologies],GetRecordUserDefined method, IISDB_NBIT.GetRecordUserDefined, IISDB_NBIT::GetRecordUserDefined, dvbsiparser/IISDB_NBIT::GetRecordUserDefined, mstv.iisdb_nbit_getrecorduserdefined
 ms.topic: method
-f1_keywords: 
- - "dvbsiparser/IISDB_NBIT.GetRecordUserDefined"
+f1_keywords:
+- dvbsiparser/IISDB_NBIT.GetRecordUserDefined
 dev_langs:
- - c++
+- c++
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dvbsiparser.h
+- dvbsiparser.h
 api_name:
- - IISDB_NBIT.GetRecordUserDefined
+- IISDB_NBIT.GetRecordUserDefined
 targetos: Windows
 req.typenames: 
 req.redist: 

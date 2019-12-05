@@ -1,19 +1,17 @@
 ---
 UID: NE:mmc._MMC_FILTER_CHANGE_CODE
 title: MMC_FILTER_CHANGE_CODE (mmc.h)
-
 description: The MMC_FILTER_CHANGE_CODE enumeration is introduced in MMC 1.2.
 old-location: mmc\mmc_filter_change_code.htm
 tech.root: mmc
 ms.assetid: 04f3daf3-2ac0-4999-9a08-1b46f1ef47c8
-
 ms.date: 12/05/2018
 ms.keywords: MFCC_DISABLE, MFCC_ENABLE, MFCC_VALUE_CHANGE, MMC_FILTER_CHANGE_CODE, MMC_FILTER_CHANGE_CODE enumeration [MMC], _slate_mmc_filter_change_code, mmc.mmc_filter_change_code, mmc/MFCC_DISABLE, mmc/MFCC_ENABLE, mmc/MFCC_VALUE_CHANGE, mmc/MMC_FILTER_CHANGE_CODE
 ms.topic: enum
-f1_keywords: 
- - "mmc/MMC_FILTER_CHANGE_CODE"
+f1_keywords:
+- mmc/MMC_FILTER_CHANGE_CODE
 dev_langs:
- - c++
+- c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Mmc.h
+- Mmc.h
 api_name:
- - MMC_FILTER_CHANGE_CODE
+- MMC_FILTER_CHANGE_CODE
 targetos: Windows
 req.typenames: MMC_FILTER_CHANGE_CODE
 req.redist: 

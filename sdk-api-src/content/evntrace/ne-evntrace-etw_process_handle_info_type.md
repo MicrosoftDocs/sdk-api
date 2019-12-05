@@ -1,19 +1,17 @@
 ---
 UID: NE:evntrace._ETW_PROCESS_HANDLE_INFO_TYPE
 title: ETW_PROCESS_HANDLE_INFO_TYPE (evntrace.h)
-
 description: Specifies what kind of operation will be done on a handle.
 old-location: etw\etw_process_handle_info_type.htm
 tech.root: ETW
 ms.assetid: 92932E4C-0A06-4CDE-B14B-BF53226E133B
-
 ms.date: 12/05/2018
 ms.keywords: ETW_PROCESS_HANDLE_INFO_TYPE, ETW_PROCESS_HANDLE_INFO_TYPE enumeration [ETW], EtwQueryPartitionInformation, EtwQueryProcessHandleInfoMax, etw.etw_process_handle_info_type, evntrace/ETW_PROCESS_HANDLE_INFO_TYPE, evntrace/EtwQueryPartitionInformation, evntrace/EtwQueryProcessHandleInfoMax
 ms.topic: enum
-f1_keywords: 
- - "evntrace/ETW_PROCESS_HANDLE_INFO_TYPE"
+f1_keywords:
+- evntrace/ETW_PROCESS_HANDLE_INFO_TYPE
 dev_langs:
- - c++
+- c++
 req.header: evntrace.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - evntrace.h
+- evntrace.h
 api_name:
- - ETW_PROCESS_HANDLE_INFO_TYPE
+- ETW_PROCESS_HANDLE_INFO_TYPE
 targetos: Windows
 req.typenames: ETW_PROCESS_HANDLE_INFO_TYPE
 req.redist: 

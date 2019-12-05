@@ -1,19 +1,17 @@
 ---
 UID: NF:dwrite_2.IDWriteTextLayout2.SetFontFallback
 title: IDWriteTextLayout2::SetFontFallback (dwrite_2.h)
-
 description: Apply a custom font fallback onto layout.
 old-location: directwrite\idwritetextlayout2_setfontfallback.htm
 tech.root: DirectWrite
 ms.assetid: 63B86AE4-92D4-4748-A6E2-987B740080EB
-
 ms.date: 12/05/2018
 ms.keywords: IDWriteTextLayout2 interface [Direct Write],SetFontFallback method, IDWriteTextLayout2.SetFontFallback, IDWriteTextLayout2::SetFontFallback, SetFontFallback, SetFontFallback method [Direct Write], SetFontFallback method [Direct Write],IDWriteTextLayout2 interface, directwrite.idwritetextlayout2_setfontfallback, dwrite_2/IDWriteTextLayout2::SetFontFallback
 ms.topic: method
-f1_keywords: 
- - "dwrite_2/IDWriteTextLayout2.SetFontFallback"
+f1_keywords:
+- dwrite_2/IDWriteTextLayout2.SetFontFallback
 dev_langs:
- - c++
+- c++
 req.header: dwrite_2.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dwrite.lib
 req.dll: Dwrite.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dwrite.dll
+- dwrite.dll
 api_name:
- - IDWriteTextLayout2.SetFontFallback
+- IDWriteTextLayout2.SetFontFallback
 targetos: Windows
 req.typenames: 
 req.redist: 

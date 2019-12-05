@@ -1,19 +1,17 @@
 ---
 UID: NE:msinkaut.InkOverlayEditingMode
 title: InkOverlayEditingMode (msinkaut.h)
-
 description: Specifies the behavior mode of the InkOverlay object and the InkPicture control.
 old-location: tablet\inkoverlayeditingmode.htm
 tech.root: tablet
 ms.assetid: de25636c-b8ca-47e4-ae16-182b98ede8f6
-
 ms.date: 12/05/2018
 ms.keywords: IOEM_Delete, IOEM_Ink, IOEM_Select, InkOverlayEditingMode, InkOverlayEditingMode enumeration [Tablet PC], de25636c-b8ca-47e4-ae16-182b98ede8f6, msinkaut/IOEM_Delete, msinkaut/IOEM_Ink, msinkaut/IOEM_Select, msinkaut/InkOverlayEditingMode, tablet.inkoverlayeditingmode
 ms.topic: enum
-f1_keywords: 
- - "msinkaut/InkOverlayEditingMode"
+f1_keywords:
+- msinkaut/InkOverlayEditingMode
 dev_langs:
- - c++
+- c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - msinkaut.h
+- msinkaut.h
 api_name:
- - InkOverlayEditingMode
+- InkOverlayEditingMode
 targetos: Windows
 req.typenames: InkOverlayEditingMode
 req.redist: 

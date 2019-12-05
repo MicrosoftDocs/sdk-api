@@ -1,19 +1,17 @@
 ---
 UID: NF:netfw.INetFwPolicy2.get_CurrentProfileTypes
 title: INetFwPolicy2::get_CurrentProfileTypes (netfw.h)
-
 description: Retrieves the currently active firewall profile.
 old-location: ics\inetfwpolicy2_currentprofiletypes.htm
 tech.root: ics
 ms.assetid: 93f4b508-30db-45a9-a7aa-df4a993dc50b
-
 ms.date: 12/05/2018
 ms.keywords: CurrentProfileTypes property [ICS/ICF], CurrentProfileTypes property [ICS/ICF],INetFwPolicy2 interface, INetFwPolicy2 interface [ICS/ICF],CurrentProfileTypes property, INetFwPolicy2.CurrentProfileTypes, INetFwPolicy2.get_CurrentProfileTypes, INetFwPolicy2::CurrentProfileTypes, INetFwPolicy2::get_CurrentProfileTypes, get_CurrentProfileTypes, ics.inetfwpolicy2_currentprofiletypes, netfw/INetFwPolicy2::CurrentProfileTypes, netfw/INetFwPolicy2::get_CurrentProfileTypes
 ms.topic: method
-f1_keywords: 
- - "netfw/INetFwPolicy2.CurrentProfileTypes"
+f1_keywords:
+- netfw/INetFwPolicy2.CurrentProfileTypes
 dev_langs:
- - c++
+- c++
 req.header: netfw.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: FirewallAPI.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - FirewallAPI.dll
+- FirewallAPI.dll
 api_name:
- - INetFwPolicy2.CurrentProfileTypes
- - INetFwPolicy2.get_CurrentProfileTypes
+- INetFwPolicy2.CurrentProfileTypes
+- INetFwPolicy2.get_CurrentProfileTypes
 targetos: Windows
 req.typenames: 
 req.redist: 

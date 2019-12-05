@@ -1,19 +1,17 @@
 ---
 UID: NF:wingdi.CreateScalableFontResourceA
 title: CreateScalableFontResourceA function (wingdi.h)
-
 description: The CreateScalableFontResource function creates a font resource file for a scalable font.
 old-location: gdi\createscalablefontresource.htm
 tech.root: gdi
 ms.assetid: 9a43a254-4cf4-46de-80b2-a83838871fd7
-
 ms.date: 12/05/2018
 ms.keywords: 0, 1, CreateScalableFontResource, CreateScalableFontResource function [Windows GDI], CreateScalableFontResourceA, CreateScalableFontResourceW, _win32_CreateScalableFontResource, gdi.createscalablefontresource, wingdi/CreateScalableFontResource, wingdi/CreateScalableFontResourceA, wingdi/CreateScalableFontResourceW
 ms.topic: function
-f1_keywords: 
- - "wingdi/CreateScalableFontResource"
+f1_keywords:
+- wingdi/CreateScalableFontResource
 dev_langs:
- - c++
+- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - gdi32.dll
- - Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
- - GDI32Full.dll
+- gdi32.dll
+- Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
+- GDI32Full.dll
 api_name:
- - CreateScalableFontResource
- - CreateScalableFontResourceA
- - CreateScalableFontResourceW
+- CreateScalableFontResource
+- CreateScalableFontResourceA
+- CreateScalableFontResourceW
 targetos: Windows
 req.typenames: 
 req.redist: 

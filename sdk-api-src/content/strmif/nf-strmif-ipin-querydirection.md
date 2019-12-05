@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IPin.QueryDirection
 title: IPin::QueryDirection (strmif.h)
-
 description: The QueryDirection method gets the direction of the pin (input or output).
 old-location: dshow\ipin_querydirection.htm
 tech.root: DirectShow
 ms.assetid: cc36b5d6-bcca-403d-b840-ceabbf159f5d
-
 ms.date: 12/05/2018
 ms.keywords: IPin interface [DirectShow],QueryDirection method, IPin.QueryDirection, IPin::QueryDirection, IPinQueryDirection, QueryDirection, QueryDirection method [DirectShow], QueryDirection method [DirectShow],IPin interface, dshow.ipin_querydirection, strmif/IPin::QueryDirection
 ms.topic: method
-f1_keywords: 
- - "strmif/IPin.QueryDirection"
+f1_keywords:
+- strmif/IPin.QueryDirection
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IPin.QueryDirection
+- IPin.QueryDirection
 targetos: Windows
 req.typenames: 
 req.redist: 

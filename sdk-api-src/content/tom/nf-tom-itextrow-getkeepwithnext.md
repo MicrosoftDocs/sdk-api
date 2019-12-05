@@ -1,19 +1,17 @@
 ---
 UID: NF:tom.ITextRow.GetKeepWithNext
 title: ITextRow::GetKeepWithNext (tom.h)
-
 description: Gets whether this row should appear on the same page as the row that follows it.
 old-location: controls\itextrow_getkeepwithnext.htm
 tech.root: Controls
 ms.assetid: 67c5f06c-9f45-430b-ae9f-0ca1931df411
-
 ms.date: 12/05/2018
 ms.keywords: GetKeepWithNext, GetKeepWithNext method [Windows Controls], GetKeepWithNext method [Windows Controls],ITextRow interface, ITextRow interface [Windows Controls],GetKeepWithNext method, ITextRow.GetKeepWithNext, ITextRow::GetKeepWithNext, controls.itextrow_getkeepwithnext, tom/ITextRow::GetKeepWithNext
 ms.topic: method
-f1_keywords: 
- - "tom/ITextRow.GetKeepWithNext"
+f1_keywords:
+- tom/ITextRow.GetKeepWithNext
 dev_langs:
- - c++
+- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msftedit.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msftedit.dll
+- Msftedit.dll
 api_name:
- - ITextRow.GetKeepWithNext
+- ITextRow.GetKeepWithNext
 targetos: Windows
 req.typenames: 
 req.redist: 

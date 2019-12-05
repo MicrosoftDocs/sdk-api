@@ -1,19 +1,17 @@
 ---
 UID: NF:imapi2fs.IFileSystemImage.get_VolumeNameJoliet
 title: IFileSystemImage::get_VolumeNameJoliet (imapi2fs.h)
-
 description: Retrieves the volume name for the Joliet system image.
 old-location: imapi\ifilesystemimage_get_volumenamejoliet.htm
 tech.root: imapi
 ms.assetid: 5300763d-9f2f-4562-bb5e-61fcf485b086
-
 ms.date: 12/05/2018
 ms.keywords: IFileSystemImage interface [IMAPI],get_VolumeNameJoliet method, IFileSystemImage.get_VolumeNameJoliet, IFileSystemImage::get_VolumeNameJoliet, get_VolumeNameJoliet, get_VolumeNameJoliet method [IMAPI], get_VolumeNameJoliet method [IMAPI],IFileSystemImage interface, imapi.ifilesystemimage_get_volumenamejoliet, imapi2fs/IFileSystemImage::get_VolumeNameJoliet
 ms.topic: method
-f1_keywords: 
- - "imapi2fs/IFileSystemImage.get_VolumeNameJoliet"
+f1_keywords:
+- imapi2fs/IFileSystemImage.get_VolumeNameJoliet
 dev_langs:
- - c++
+- c++
 req.header: imapi2fs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - imapi2fs.h
+- imapi2fs.h
 api_name:
- - IFileSystemImage.get_VolumeNameJoliet
+- IFileSystemImage.get_VolumeNameJoliet
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:dinputd.IDirectInputJoyConfig8.DeleteType
 title: IDirectInputJoyConfig8::DeleteType (dinputd.h)
-
 description: The IDirectInputJoyConfig8::DeleteType method removes information about a joystick type. Use this method with caution; it is the caller's responsibility to ensure that no joystick refers to the deleted type.
 old-location: hid\idirectinputjoyconfig8_deletetype.htm
 tech.root: hid
 ms.assetid: 6e1628c4-1d4f-4751-acac-7a309a99aedb
-
 ms.date: 12/05/2018
 ms.keywords: DeleteType, DeleteType method [Human Input Devices], DeleteType method [Human Input Devices],IDirectInputJoyConfig8 interface, IDirectInputJoyConfig8 interface [Human Input Devices],DeleteType method, IDirectInputJoyConfig8.DeleteType, IDirectInputJoyConfig8::DeleteType, di_ref_09e54785-5e07-4eba-bcd7-a3e016923ae3.xml, dinputd/IDirectInputJoyConfig8::DeleteType, hid.idirectinputjoyconfig8_deletetype
 ms.topic: method
-f1_keywords: 
- - "dinputd/IDirectInputJoyConfig8.DeleteType"
+f1_keywords:
+- dinputd/IDirectInputJoyConfig8.DeleteType
 dev_langs:
- - c++
+- c++
 req.header: dinputd.h
 req.include-header: Dinputd.h
 req.target-type: Desktop
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dinputd.h
+- dinputd.h
 api_name:
- - IDirectInputJoyConfig8.DeleteType
+- IDirectInputJoyConfig8.DeleteType
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NN:sdoias.ISdoDictionaryOld
 title: ISdoDictionaryOld (sdoias.h)
-
 description: Use the ISdoDictionaryOld interface to manipulate the dictionary of Remote Access Dial-In User Service (RADIUS) attributes.
 old-location: nps\SDO_isdodictionaryold.htm
 tech.root: Nps
 ms.assetid: 5aaa4008-3b39-4d1d-90db-79631e5bb6b9
-
 ms.date: 12/05/2018
 ms.keywords: ISdoDictionaryOld, ISdoDictionaryOld interface [Network Policy Server], ISdoDictionaryOld interface [Network Policy Server],described, _sdo_isdodictionaryold, nps.SDO_isdodictionaryold, sdo.isdodictionaryold, sdoias/ISdoDictionaryOld
 ms.topic: interface
-f1_keywords: 
- - "sdoias/ISdoDictionaryOld"
+f1_keywords:
+- sdoias/ISdoDictionaryOld
 dev_langs:
- - c++
+- c++
 req.header: sdoias.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Iassdo.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Iassdo.dll
+- Iassdo.dll
 api_name:
- - ISdoDictionaryOld
+- ISdoDictionaryOld
 targetos: Windows
 req.typenames: 
 req.redist: 

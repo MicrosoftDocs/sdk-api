@@ -1,19 +1,17 @@
 ---
 UID: NF:msopc.IOpcDigitalSignatureManager.ReplaceSignatureXml
 title: IOpcDigitalSignatureManager::ReplaceSignatureXml (msopc.h)
-
 description: Replaces the existing signature markup that is stored in a specified signature part.
 old-location: opc\iopcdigitalsignaturemanager_replacesignaturexml.htm
 tech.root: OPC
 ms.assetid: cacd0ccf-0cb9-41dc-a944-74db8254fd95
-
 ms.date: 12/05/2018
 ms.keywords: IOpcDigitalSignatureManager interface [Open Packaging Conventions],ReplaceSignatureXml method, IOpcDigitalSignatureManager.ReplaceSignatureXml, IOpcDigitalSignatureManager::ReplaceSignatureXml, ReplaceSignatureXml, ReplaceSignatureXml method [Open Packaging Conventions], ReplaceSignatureXml method [Open Packaging Conventions],IOpcDigitalSignatureManager interface, msopc/IOpcDigitalSignatureManager::ReplaceSignatureXml, opc.iopcdigitalsignaturemanager_replacesignaturexml
 ms.topic: method
-f1_keywords: 
- - "msopc/IOpcDigitalSignatureManager.ReplaceSignatureXml"
+f1_keywords:
+- msopc/IOpcDigitalSignatureManager.ReplaceSignatureXml
 dev_langs:
- - c++
+- c++
 req.header: msopc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msopc.h
+- msopc.h
 api_name:
- - IOpcDigitalSignatureManager.ReplaceSignatureXml
+- IOpcDigitalSignatureManager.ReplaceSignatureXml
 targetos: Windows
 req.typenames: 
 req.redist: 

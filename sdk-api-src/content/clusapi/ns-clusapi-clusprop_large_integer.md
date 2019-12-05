@@ -1,19 +1,17 @@
 ---
 UID: NS:clusapi.CLUSPROP_LARGE_INTEGER
 title: CLUSPROP_LARGE_INTEGER (clusapi.h)
-
 description: Describes a signed large integer.
 old-location: mscs\clusprop_large_integer.htm
 tech.root: MsCS
 ms.assetid: 3e0849e6-3d93-47cb-858d-9891451b8dfd
-
 ms.date: 12/05/2018
-ms.keywords: "*PCLUSPROP_LARGE_INTEGER, CLUSPROP_LARGE_INTEGER, CLUSPROP_LARGE_INTEGER structure [Failover Cluster], PCLUSPROP_LARGE_INTEGER, PCLUSPROP_LARGE_INTEGER structure pointer [Failover Cluster], _wolf_clusprop_large_integer, clusapi/CLUSPROP_LARGE_INTEGER, clusapi/PCLUSPROP_LARGE_INTEGER, mscs.clusprop_large_integer"
+ms.keywords: '*PCLUSPROP_LARGE_INTEGER, CLUSPROP_LARGE_INTEGER, CLUSPROP_LARGE_INTEGER structure [Failover Cluster], PCLUSPROP_LARGE_INTEGER, PCLUSPROP_LARGE_INTEGER structure pointer [Failover Cluster], _wolf_clusprop_large_integer, clusapi/CLUSPROP_LARGE_INTEGER, clusapi/PCLUSPROP_LARGE_INTEGER, mscs.clusprop_large_integer'
 ms.topic: struct
-f1_keywords: 
- - "clusapi/CLUSPROP_LARGE_INTEGER"
+f1_keywords:
+- clusapi/CLUSPROP_LARGE_INTEGER
 dev_langs:
- - c++
+- c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - ClusAPI.h
+- ClusAPI.h
 api_name:
- - CLUSPROP_LARGE_INTEGER
+- CLUSPROP_LARGE_INTEGER
 targetos: Windows
 req.typenames: CLUSPROP_LARGE_INTEGER
 req.redist: 

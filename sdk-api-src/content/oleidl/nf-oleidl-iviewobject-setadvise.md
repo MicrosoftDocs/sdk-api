@@ -1,19 +1,17 @@
 ---
 UID: NF:oleidl.IViewObject.SetAdvise
 title: IViewObject::SetAdvise (oleidl.h)
-
 description: Establishes a connection between the view object and an advise sink so that the advise sink can be notified about changes in the object's view.
 old-location: com\iviewobject_setadvise.htm
 tech.root: com
 ms.assetid: 64712679-8454-41fa-9497-f0ab97240a51
-
 ms.date: 12/05/2018
 ms.keywords: ADVF_ONLYONCE, ADVF_PRIMEFIRST, IViewObject interface [COM],SetAdvise method, IViewObject.SetAdvise, IViewObject::SetAdvise, SetAdvise, SetAdvise method [COM], SetAdvise method [COM],IViewObject interface, _ole_iviewobject_setadvise, com.iviewobject_setadvise, oleidl/IViewObject::SetAdvise
 ms.topic: method
-f1_keywords: 
- - "oleidl/IViewObject.SetAdvise"
+f1_keywords:
+- oleidl/IViewObject.SetAdvise
 dev_langs:
- - c++
+- c++
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - OleIdl.h
+- OleIdl.h
 api_name:
- - IViewObject.SetAdvise
+- IViewObject.SetAdvise
 targetos: Windows
 req.typenames: 
 req.redist: 

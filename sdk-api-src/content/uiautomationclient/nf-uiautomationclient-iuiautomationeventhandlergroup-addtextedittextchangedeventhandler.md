@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationEventHandlerGroup.AddTextEditTextChangedEventHandler
 title: IUIAutomationEventHandlerGroup::AddTextEditTextChangedEventHandler (uiautomationclient.h)
-
 description: Registers a method that handles programmatic text-edit events.
 old-location: winauto\uiauto_iuiautomationeventhandlergroup_addtextedittextchangedeventhandler.htm
 tech.root: WinAuto
 ms.assetid: D26780A1-AF5E-42E9-BBDA-4685AA184BD1
-
 ms.date: 12/05/2018
 ms.keywords: AddTextEditTextChangedEventHandler, AddTextEditTextChangedEventHandler method [Windows Accessibility], AddTextEditTextChangedEventHandler method [Windows Accessibility],IUIAutomationEventHandlerGroup interface, IUIAutomationEventHandlerGroup interface [Windows Accessibility],AddTextEditTextChangedEventHandler method, IUIAutomationEventHandlerGroup.AddTextEditTextChangedEventHandler, IUIAutomationEventHandlerGroup::AddTextEditTextChangedEventHandler, uiautomationclient/IUIAutomationEventHandlerGroup::AddTextEditTextChangedEventHandler, winauto.uiauto_iuiautomationeventhandlergroup_addtextedittextchangedeventhandler
 ms.topic: method
-f1_keywords: 
- - "uiautomationclient/IUIAutomationEventHandlerGroup.AddTextEditTextChangedEventHandler"
+f1_keywords:
+- uiautomationclient/IUIAutomationEventHandlerGroup.AddTextEditTextChangedEventHandler
 dev_langs:
- - c++
+- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationClient.h
+- UIAutomationClient.h
 api_name:
- - IUIAutomationEventHandlerGroup.AddTextEditTextChangedEventHandler
+- IUIAutomationEventHandlerGroup.AddTextEditTextChangedEventHandler
 targetos: Windows
 req.typenames: 
 req.redist: 

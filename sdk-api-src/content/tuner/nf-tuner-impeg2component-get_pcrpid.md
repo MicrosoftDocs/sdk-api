@@ -1,19 +1,17 @@
 ---
 UID: NF:tuner.IMPEG2Component.get_PCRPID
 title: IMPEG2Component::get_PCRPID (tuner.h)
-
 description: The get_PCRPID method returns the packet identifier (PID) for the packets that contain the PCR for this substream.
 old-location: mstv\impeg2component_get_pcrpid.htm
 tech.root: mstv
 ms.assetid: b31f04b6-e2b1-450b-9f1f-2df0c9055da2
-
 ms.date: 12/05/2018
 ms.keywords: IMPEG2Component interface [Microsoft TV Technologies],get_PCRPID method, IMPEG2Component.get_PCRPID, IMPEG2Component::get_PCRPID, IMPEG2Componentget_PCRPID, get_PCRPID, get_PCRPID method [Microsoft TV Technologies], get_PCRPID method [Microsoft TV Technologies],IMPEG2Component interface, mstv.impeg2component_get_pcrpid, tuner/IMPEG2Component::get_PCRPID
 ms.topic: method
-f1_keywords: 
- - "tuner/IMPEG2Component.get_PCRPID"
+f1_keywords:
+- tuner/IMPEG2Component.get_PCRPID
 dev_langs:
- - c++
+- c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - tuner.h
+- tuner.h
 api_name:
- - IMPEG2Component.get_PCRPID
+- IMPEG2Component.get_PCRPID
 targetos: Windows
 req.typenames: 
 req.redist: 

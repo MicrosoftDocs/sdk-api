@@ -1,19 +1,17 @@
 ---
 UID: NF:cscobj.IOfflineFilesSyncErrorInfo.InfoAvailable
 title: IOfflineFilesSyncErrorInfo::InfoAvailable (cscobj.h)
-
 description: Indicates whether information was obtained for the local, remote, or original copy of the item during synchronization.
 old-location: of\iofflinefilessyncerrorinfo_infoavailable.htm
 tech.root: offlinefiles
 ms.assetid: f4a491fb-445b-4a90-9131-e0e5964154fa
-
 ms.date: 12/05/2018
 ms.keywords: IOfflineFilesSyncErrorInfo interface [Offline Files],InfoAvailable method, IOfflineFilesSyncErrorInfo.InfoAvailable, IOfflineFilesSyncErrorInfo::InfoAvailable, InfoAvailable, InfoAvailable method [Offline Files], InfoAvailable method [Offline Files],IOfflineFilesSyncErrorInfo interface, cscobj/IOfflineFilesSyncErrorInfo::InfoAvailable, of.iofflinefilessyncerrorinfo_infoavailable
 ms.topic: method
-f1_keywords: 
- - "cscobj/IOfflineFilesSyncErrorInfo.InfoAvailable"
+f1_keywords:
+- cscobj/IOfflineFilesSyncErrorInfo.InfoAvailable
 dev_langs:
- - c++
+- c++
 req.header: cscobj.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: CscSvc.dll; CscObj.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CscSvc.dll
- - CscObj.dll
+- CscSvc.dll
+- CscObj.dll
 api_name:
- - IOfflineFilesSyncErrorInfo.InfoAvailable
+- IOfflineFilesSyncErrorInfo.InfoAvailable
 targetos: Windows
 req.typenames: 
 req.redist: 

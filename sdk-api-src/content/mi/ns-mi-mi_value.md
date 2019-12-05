@@ -1,19 +1,17 @@
 ---
 UID: NS:mi._MI_Value
 title: MI_Value (mi.h)
-
 description: A union of all CIM data types.
 old-location: wmi_v2\mi_value.htm
 tech.root: wmi_v2
 ms.assetid: 08104810-248d-49b6-9caa-6cda1d6a404e
-
 ms.date: 12/05/2018
 ms.keywords: MI_Value, MI_Value structure [Windows Management Infrastructure (MI)], mi/MI_Value, wmi_v2.mi_value
 ms.topic: struct
-f1_keywords: 
- - "mi/MI_Value"
+f1_keywords:
+- mi/MI_Value
 dev_langs:
- - c++
+- c++
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - mi.h
+- mi.h
 api_name:
- - MI_Value
+- MI_Value
 targetos: Windows
 req.typenames: MI_Value
 req.redist: 

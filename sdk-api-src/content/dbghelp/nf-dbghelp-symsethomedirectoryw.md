@@ -1,19 +1,17 @@
 ---
 UID: NF:dbghelp.SymSetHomeDirectoryW
 title: SymSetHomeDirectoryW function (dbghelp.h)
-
 description: Sets the home directory used by Dbghelp.
 old-location: base\symsethomedirectory.htm
 tech.root: Debug
 ms.assetid: 12e65054-c4d5-44b9-8597-b841cac012f5
-
 ms.date: 12/05/2018
 ms.keywords: SymSetHomeDirectory, SymSetHomeDirectory function, SymSetHomeDirectoryW, base.symsethomedirectory, dbghelp/SymSetHomeDirectory, dbghelp/SymSetHomeDirectoryW
 ms.topic: function
-f1_keywords: 
- - "dbghelp/SymSetHomeDirectory"
+f1_keywords:
+- dbghelp/SymSetHomeDirectory
 dev_langs:
- - c++
+- c++
 req.header: dbghelp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Dbghelp.lib
 req.dll: Dbghelp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Dbghelp.dll
+- Dbghelp.dll
 api_name:
- - SymSetHomeDirectory
- - SymSetHomeDirectory
- - SymSetHomeDirectoryW
+- SymSetHomeDirectory
+- SymSetHomeDirectory
+- SymSetHomeDirectoryW
 targetos: Windows
 req.typenames: 
 req.redist: DbgHelp.dll 6.1 or later

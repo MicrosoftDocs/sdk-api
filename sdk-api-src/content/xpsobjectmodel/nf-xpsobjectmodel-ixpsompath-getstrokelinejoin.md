@@ -1,19 +1,17 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMPath.GetStrokeLineJoin
 title: IXpsOMPath::GetStrokeLineJoin (xpsobjectmodel.h)
-
 description: Gets the style for joining stroke lines.
 old-location: xps\ixpsompath_getstrokelinejoin.htm
 tech.root: printdocs
 ms.assetid: 3e460f22-7997-419a-86b7-a0beace1bc27
-
 ms.date: 12/05/2018
 ms.keywords: GetStrokeLineJoin, GetStrokeLineJoin method [XPS Documents and Packaging], GetStrokeLineJoin method [XPS Documents and Packaging],IXpsOMPath interface, IXpsOMPath interface [XPS Documents and Packaging],GetStrokeLineJoin method, IXpsOMPath.GetStrokeLineJoin, IXpsOMPath::GetStrokeLineJoin, xps.ixpsompath_getstrokelinejoin, xpsobjectmodel/IXpsOMPath::GetStrokeLineJoin
 ms.topic: method
-f1_keywords: 
- - "xpsobjectmodel/IXpsOMPath.GetStrokeLineJoin"
+f1_keywords:
+- xpsobjectmodel/IXpsOMPath.GetStrokeLineJoin
 dev_langs:
- - c++
+- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsobjectmodel.h
+- xpsobjectmodel.h
 api_name:
- - IXpsOMPath.GetStrokeLineJoin
+- IXpsOMPath.GetStrokeLineJoin
 targetos: Windows
 req.typenames: 
 req.redist: 

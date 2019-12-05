@@ -1,19 +1,17 @@
 ---
 UID: NF:mfmediaengine.IMFSourceBuffer.GetBuffered
 title: IMFSourceBuffer::GetBuffered (mfmediaengine.h)
-
 description: Gets the buffered time range.
 old-location: mf\imfsourcebuffer_getbuffered.htm
 tech.root: medfound
 ms.assetid: cbed0e90-8950-46f6-acaa-5e6daf814dd0
-
 ms.date: 12/05/2018
 ms.keywords: GetBuffered, GetBuffered method [Media Foundation], GetBuffered method [Media Foundation],IMFSourceBuffer interface, IMFSourceBuffer interface [Media Foundation],GetBuffered method, IMFSourceBuffer.GetBuffered, IMFSourceBuffer::GetBuffered, mf.imfsourcebuffer_getbuffered, mfmediaengine/IMFSourceBuffer::GetBuffered
 ms.topic: method
-f1_keywords: 
- - "mfmediaengine/IMFSourceBuffer.GetBuffered"
+f1_keywords:
+- mfmediaengine/IMFSourceBuffer.GetBuffered
 dev_langs:
- - c++
+- c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfmediaengine.h
+- mfmediaengine.h
 api_name:
- - IMFSourceBuffer.GetBuffered
+- IMFSourceBuffer.GetBuffered
 targetos: Windows
 req.typenames: 
 req.redist: 

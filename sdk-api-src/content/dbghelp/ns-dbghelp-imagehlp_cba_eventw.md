@@ -1,19 +1,17 @@
 ---
 UID: NS:dbghelp._IMAGEHLP_CBA_EVENTW
 title: IMAGEHLP_CBA_EVENTW (dbghelp.h)
-
 description: Contains information about a debugging event.
 old-location: base\imagehlp_cba_event_str.htm
 tech.root: Debug
 ms.assetid: 1d63007a-7542-4626-99a5-41461e00dbb4
-
 ms.date: 12/05/2018
-ms.keywords: "*PIMAGEHLP_CBA_EVENTW, IMAGEHLP_CBA_EVENT, IMAGEHLP_CBA_EVENT structure, IMAGEHLP_CBA_EVENTW, PIMAGEHLP_CBA_EVENT, PIMAGEHLP_CBA_EVENT structure pointer, _IMAGEHLP_CBA_EVENT, _IMAGEHLP_CBA_EVENTW, base.imagehlp_cba_event_str, dbghelp/IMAGEHLP_CBA_EVENT, dbghelp/IMAGEHLP_CBA_EVENTW, dbghelp/PIMAGEHLP_CBA_EVENT, sevAttn, sevFatal, sevInfo, sevProblem"
+ms.keywords: '*PIMAGEHLP_CBA_EVENTW, IMAGEHLP_CBA_EVENT, IMAGEHLP_CBA_EVENT structure, IMAGEHLP_CBA_EVENTW, PIMAGEHLP_CBA_EVENT, PIMAGEHLP_CBA_EVENT structure pointer, _IMAGEHLP_CBA_EVENT, _IMAGEHLP_CBA_EVENTW, base.imagehlp_cba_event_str, dbghelp/IMAGEHLP_CBA_EVENT, dbghelp/IMAGEHLP_CBA_EVENTW, dbghelp/PIMAGEHLP_CBA_EVENT, sevAttn, sevFatal, sevInfo, sevProblem'
 ms.topic: struct
-f1_keywords: 
- - "dbghelp/IMAGEHLP_CBA_EVENT"
+f1_keywords:
+- dbghelp/IMAGEHLP_CBA_EVENT
 dev_langs:
- - c++
+- c++
 req.header: dbghelp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - DbgHelp.h
+- DbgHelp.h
 api_name:
- - IMAGEHLP_CBA_EVENT
- - IMAGEHLP_CBA_EVENT
- - IMAGEHLP_CBA_EVENTW
+- IMAGEHLP_CBA_EVENT
+- IMAGEHLP_CBA_EVENT
+- IMAGEHLP_CBA_EVENTW
 targetos: Windows
 req.typenames: IMAGEHLP_CBA_EVENTW, *PIMAGEHLP_CBA_EVENTW
 req.redist: DbgHelp.dll 6.1 or later

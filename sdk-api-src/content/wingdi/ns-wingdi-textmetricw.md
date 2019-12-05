@@ -1,19 +1,17 @@
 ---
 UID: NS:wingdi.tagTEXTMETRICW
 title: TEXTMETRICW (wingdi.h)
-
 description: The TEXTMETRIC structure contains basic information about a physical font. All sizes are specified in logical units; that is, they depend on the current mapping mode of the display context.
 old-location: gdi\textmetric.htm
 tech.root: gdi
 ms.assetid: 0a46da58-5d0f-4db4-bba6-9e1b6c1f892c
-
 ms.date: 12/05/2018
-ms.keywords: "*LPTEXTMETRICW, *NPTEXTMETRICW, *PTEXTMETRICW, PTEXTMETRIC, PTEXTMETRIC structure pointer [Windows GDI], TEXTMETRIC, TEXTMETRIC structure [Windows GDI], TEXTMETRICA, TEXTMETRICW, _win32_TEXTMETRIC_str, gdi.textmetric, wingdi/PTEXTMETRIC, wingdi/TEXTMETRIC, wingdi/TEXTMETRICA, wingdi/TEXTMETRICW"
+ms.keywords: '*LPTEXTMETRICW, *NPTEXTMETRICW, *PTEXTMETRICW, PTEXTMETRIC, PTEXTMETRIC structure pointer [Windows GDI], TEXTMETRIC, TEXTMETRIC structure [Windows GDI], TEXTMETRICA, TEXTMETRICW, _win32_TEXTMETRIC_str, gdi.textmetric, wingdi/PTEXTMETRIC, wingdi/TEXTMETRIC, wingdi/TEXTMETRICA, wingdi/TEXTMETRICW'
 ms.topic: struct
-f1_keywords: 
- - "wingdi/TEXTMETRIC"
+f1_keywords:
+- wingdi/TEXTMETRIC
 dev_langs:
- - c++
+- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wingdi.h
+- Wingdi.h
 api_name:
- - TEXTMETRIC
- - TEXTMETRICA
- - TEXTMETRICW
+- TEXTMETRIC
+- TEXTMETRICA
+- TEXTMETRICW
 targetos: Windows
 req.typenames: TEXTMETRICW, *PTEXTMETRICW, *NPTEXTMETRICW, *LPTEXTMETRICW
 req.redist: 

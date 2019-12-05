@@ -1,19 +1,17 @@
 ---
 UID: NF:imapi2.IWriteEngine2EventArgs.get_StartLba
 title: IWriteEngine2EventArgs::get_StartLba (imapi2.h)
-
 description: Retrieves the starting logical block address (LBA) of the current write operation.
 old-location: imapi\iwriteengine2eventargs_get_startlba.htm
 tech.root: imapi
 ms.assetid: 1c2d1a1f-04b7-4453-af52-4f96e5536ad2
-
 ms.date: 12/05/2018
 ms.keywords: IWriteEngine2EventArgs interface [IMAPI],get_StartLba method, IWriteEngine2EventArgs.get_StartLba, IWriteEngine2EventArgs::get_StartLba, get_StartLba, get_StartLba method [IMAPI], get_StartLba method [IMAPI],IWriteEngine2EventArgs interface, imapi.iwriteengine2eventargs_get_startlba, imapi2/IWriteEngine2EventArgs::get_StartLba
 ms.topic: method
-f1_keywords: 
- - "imapi2/IWriteEngine2EventArgs.get_StartLba"
+f1_keywords:
+- imapi2/IWriteEngine2EventArgs.get_StartLba
 dev_langs:
- - c++
+- c++
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - imapi2.h
+- imapi2.h
 api_name:
- - IWriteEngine2EventArgs.get_StartLba
+- IWriteEngine2EventArgs.get_StartLba
 targetos: Windows
 req.typenames: 
 req.redist: 

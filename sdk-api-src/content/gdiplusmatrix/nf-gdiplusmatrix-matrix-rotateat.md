@@ -1,19 +1,17 @@
 ---
 UID: NF:gdiplusmatrix.Matrix.RotateAt
 title: Matrix::RotateAt (gdiplusmatrix.h)
-
 description: The Matrix::RotateAt method updates this matrix with the product of itself and a matrix that represents rotation about a specified point.
 old-location: gdiplus\_gdiplus_CLASS_Matrix_RotateAt_angle_center_order_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\matrixclass\matrixmethods\rotateat.htm
-
 ms.date: 12/05/2018
 ms.keywords: Matrix class [GDI+],RotateAt method, Matrix.RotateAt, Matrix::RotateAt, RotateAt, RotateAt method [GDI+], RotateAt method [GDI+],Matrix class, _gdiplus_CLASS_Matrix_RotateAt_angle_center_order_, gdiplus._gdiplus_CLASS_Matrix_RotateAt_angle_center_order_
 ms.topic: method
-f1_keywords: 
- - "gdiplusmatrix/Matrix.RotateAt"
+f1_keywords:
+- gdiplusmatrix/Matrix.RotateAt
 dev_langs:
- - c++
+- c++
 req.header: gdiplusmatrix.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - Matrix.RotateAt
+- Matrix.RotateAt
 targetos: Windows
 req.typenames: 
 req.redist: 

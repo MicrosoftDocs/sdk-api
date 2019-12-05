@@ -1,19 +1,17 @@
 ---
 UID: NF:wincodec.IWICDevelopRaw.GetWhitePointKelvin
 title: IWICDevelopRaw::GetWhitePointKelvin (wincodec.h)
-
 description: Gets the white point Kelvin temperature of the raw image.
 old-location: wic\_wic_codec_iwicdevelopraw_getwhitepointkelvin.htm
 tech.root: wic
 ms.assetid: 9f649de0-6b53-4c67-b75d-73a44cc07c56
-
 ms.date: 12/05/2018
 ms.keywords: GetWhitePointKelvin, GetWhitePointKelvin method [Windows Imaging Component], GetWhitePointKelvin method [Windows Imaging Component],IWICDevelopRaw interface, IWICDevelopRaw interface [Windows Imaging Component],GetWhitePointKelvin method, IWICDevelopRaw.GetWhitePointKelvin, IWICDevelopRaw::GetWhitePointKelvin, _wic_codec_iwicdevelopraw_getwhitepointkelvin, wic._wic_codec_iwicdevelopraw_getwhitepointkelvin, wincodec/IWICDevelopRaw::GetWhitePointKelvin
 ms.topic: method
-f1_keywords: 
- - "wincodec/IWICDevelopRaw.GetWhitePointKelvin"
+f1_keywords:
+- wincodec/IWICDevelopRaw.GetWhitePointKelvin
 dev_langs:
- - c++
+- c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Windowscodecs.lib
 req.dll: Windowscodecs.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Windowscodecs.dll
+- Windowscodecs.dll
 api_name:
- - IWICDevelopRaw.GetWhitePointKelvin
+- IWICDevelopRaw.GetWhitePointKelvin
 targetos: Windows
 req.typenames: 
 req.redist: 

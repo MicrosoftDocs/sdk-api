@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.ICustomDestinationList.SetAppID
 title: ICustomDestinationList::SetAppID (shobjidl_core.h)
-
 description: Specifies a unique Application User Model ID (AppUserModelID) for the application whose taskbar button will hold the custom Jump List built through the methods of this interface. This method is optional.
 old-location: shell\ICustomDestinationList_SetAppID.htm
 tech.root: shell
 ms.assetid: 7b3a5d32-bf44-4c4f-9b31-6c0a82aac6fd
-
 ms.date: 12/05/2018
 ms.keywords: ICustomDestinationList interface [Windows Shell],SetAppID method, ICustomDestinationList.SetAppID, ICustomDestinationList::SetAppID, SetAppID, SetAppID method [Windows Shell], SetAppID method [Windows Shell],ICustomDestinationList interface, _shell_ICustomDestinationList_SetAppID, shell.ICustomDestinationList_SetAppID, shobjidl_core/ICustomDestinationList::SetAppID
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/ICustomDestinationList.SetAppID"
+f1_keywords:
+- shobjidl_core/ICustomDestinationList.SetAppID
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Shell32.lib
 req.dll: Shell32.dll (version 6.1 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - ICustomDestinationList.SetAppID
+- ICustomDestinationList.SetAppID
 targetos: Windows
 req.typenames: 
 req.redist: 

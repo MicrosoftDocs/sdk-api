@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationcore.ITextEditProvider.GetActiveComposition
 title: ITextEditProvider::GetActiveComposition (uiautomationcore.h)
-
 description: Returns the active composition.
 old-location: winauto\uiauto_ITextEditProvider_GetActiveComposition.htm
 tech.root: WinAuto
 ms.assetid: E0A4E340-8F23-8EE0-31E4-90DB8D8E68FF
-
 ms.date: 12/05/2018
 ms.keywords: GetActiveComposition, GetActiveComposition method [Windows Accessibility], GetActiveComposition method [Windows Accessibility],ITextEditProvider interface, ITextEditProvider interface [Windows Accessibility],GetActiveComposition method, ITextEditProvider.GetActiveComposition, ITextEditProvider::GetActiveComposition, uiautomationcore/ITextEditProvider::GetActiveComposition, winauto.uiauto_ITextEditProvider_GetActiveComposition
 ms.topic: method
-f1_keywords: 
- - "uiautomationcore/ITextEditProvider.GetActiveComposition"
+f1_keywords:
+- uiautomationcore/ITextEditProvider.GetActiveComposition
 dev_langs:
- - c++
+- c++
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationCore.h
+- UIAutomationCore.h
 api_name:
- - ITextEditProvider.GetActiveComposition
+- ITextEditProvider.GetActiveComposition
 targetos: Windows
 req.typenames: 
 req.redist: 

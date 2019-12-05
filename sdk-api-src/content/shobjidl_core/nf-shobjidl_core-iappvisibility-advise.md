@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IAppVisibility.Advise
 title: IAppVisibility::Advise (shobjidl_core.h)
-
 description: Registers an advise sink object to receive notification of changes to the display.
 old-location: shell\IAppVisibility_Advise.htm
 tech.root: shell
 ms.assetid: 602F46EF-014C-4219-9C1F-C1B4371EA456
-
 ms.date: 12/05/2018
 ms.keywords: Advise, Advise method [Windows Shell], Advise method [Windows Shell],IAppVisibility interface, IAppVisibility interface [Windows Shell],Advise method, IAppVisibility.Advise, IAppVisibility::Advise, shell.IAppVisibility_Advise, shobjidl_core/IAppVisibility::Advise
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IAppVisibility.Advise"
+f1_keywords:
+- shobjidl_core/IAppVisibility.Advise
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - IAppVisibility.Advise
+- IAppVisibility.Advise
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:dhcpsapi.DhcpServerQueryAttribute
 title: DhcpServerQueryAttribute function (dhcpsapi.h)
-
 description: Returns specific attribute information from the DHCP server.
 old-location: dhcp\dhcpserverqueryattribute.htm
 tech.root: DHCP
 ms.assetid: 8a522a8d-0b65-4dce-a785-d2b0c70e2794
-
 ms.date: 12/05/2018
 ms.keywords: DhcpServerQueryAttribute, DhcpServerQueryAttribute function [DHCP], dhcp.dhcpserverqueryattribute, dhcpsapi/DhcpServerQueryAttribute
 ms.topic: function
 f1_keywords:
 - dhcpsapi/DhcpServerQueryAttribute
 dev_langs:
- - c++
+- c++
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows

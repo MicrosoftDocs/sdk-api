@@ -1,19 +1,17 @@
 ---
 UID: NF:wdstptmgmt.IWdsTransportContent.RetrieveSessions
 title: IWdsTransportContent::RetrieveSessions (wdstptmgmt.h)
-
 description: Retrieves a collection of active transport sessions associated with this content.
 old-location: wds\iwdstransportcontent_retrievesessions.htm
 tech.root: wds
 ms.assetid: 8901f9c5-931e-40d5-8a5c-d3a814556400
-
 ms.date: 12/05/2018
 ms.keywords: IWdsTransportContent interface [Windows Deployment Services],RetrieveSessions method, IWdsTransportContent.RetrieveSessions, IWdsTransportContent::RetrieveSessions, RetrieveSessions, RetrieveSessions method [Windows Deployment Services], RetrieveSessions method [Windows Deployment Services],IWdsTransportContent interface, wds.iwdstransportcontent_retrievesessions, wdstptmgmt/IWdsTransportContent::RetrieveSessions
 ms.topic: method
-f1_keywords: 
- - "wdstptmgmt/IWdsTransportContent.RetrieveSessions"
+f1_keywords:
+- wdstptmgmt/IWdsTransportContent.RetrieveSessions
 dev_langs:
- - c++
+- c++
 req.header: wdstptmgmt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wdstptmgmt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wdstptmgmt.dll
+- Wdstptmgmt.dll
 api_name:
- - IWdsTransportContent.RetrieveSessions
+- IWdsTransportContent.RetrieveSessions
 targetos: Windows
 req.typenames: 
 req.redist: 

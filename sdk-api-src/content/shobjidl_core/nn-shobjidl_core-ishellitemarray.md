@@ -1,19 +1,17 @@
 ---
 UID: NN:shobjidl_core.IShellItemArray
 title: IShellItemArray (shobjidl_core.h)
-
 description: Exposes methods that create and manipulate Shell item arrays.
 old-location: shell\IShellItemArray.htm
 tech.root: shell
 ms.assetid: 348213d1-c03f-4c38-9d13-3b1009d94e07
-
 ms.date: 12/05/2018
 ms.keywords: IShellItemArray, IShellItemArray interface [Windows Shell], IShellItemArray interface [Windows Shell],described, _shell_IShellItemArray, shell.IShellItemArray, shobjidl_core/IShellItemArray
 ms.topic: interface
-f1_keywords: 
- - "shobjidl_core/IShellItemArray"
+f1_keywords:
+- shobjidl_core/IShellItemArray
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - IShellItemArray
+- IShellItemArray
 targetos: Windows
 req.typenames: 
 req.redist: 

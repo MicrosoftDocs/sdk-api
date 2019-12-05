@@ -1,19 +1,17 @@
 ---
 UID: NF:winhttp.WinHttpOpenRequest
 title: WinHttpOpenRequest function (winhttp.h)
-
 description: The WinHttpOpenRequest function creates an HTTP request handle.
 old-location: http\winhttpopenrequest.htm
 tech.root: WinHttp
 ms.assetid: 9ecd035d-1abf-48ca-baf2-d9754f912c60
-
 ms.date: 12/05/2018
 ms.keywords: WINHTTP_FLAG_BYPASS_PROXY_CACHE, WINHTTP_FLAG_ESCAPE_DISABLE, WINHTTP_FLAG_ESCAPE_DISABLE_QUERY, WINHTTP_FLAG_ESCAPE_PERCENT, WINHTTP_FLAG_NULL_CODEPAGE, WINHTTP_FLAG_REFRESH, WINHTTP_FLAG_SECURE, WinHttpOpenRequest, WinHttpOpenRequest function [WinHTTP], http.winhttpopenrequest, winhttp.winhttpopenrequest_function, winhttp/WinHttpOpenRequest
 ms.topic: function
-f1_keywords: 
- - "winhttp/WinHttpOpenRequest"
+f1_keywords:
+- winhttp/WinHttpOpenRequest
 dev_langs:
- - c++
+- c++
 req.header: winhttp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Winhttp.lib
 req.dll: Winhttp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Winhttp.dll
+- Winhttp.dll
 api_name:
- - WinHttpOpenRequest
+- WinHttpOpenRequest
 targetos: Windows
 req.typenames: 
 req.redist: WinHTTP 5.0 and Internet Explorer 5.01 or later on Windows XP and Windows 2000.

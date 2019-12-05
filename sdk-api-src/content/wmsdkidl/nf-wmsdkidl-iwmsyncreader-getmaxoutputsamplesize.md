@@ -1,19 +1,17 @@
 ---
 UID: NF:wmsdkidl.IWMSyncReader.GetMaxOutputSampleSize
 title: IWMSyncReader::GetMaxOutputSampleSize (wmsdkidl.h)
-
 description: The GetMaxOutputSampleSize method retrieves the maximum sample size for a specified output of the file open in the synchronous reader.
 old-location: wmformat\iwmsyncreader_getmaxoutputsamplesize.htm
 tech.root: wmformat
 ms.assetid: 84fbc2c7-001b-4339-a7df-89914274a72b
-
 ms.date: 12/05/2018
 ms.keywords: GetMaxOutputSampleSize, GetMaxOutputSampleSize method [windows Media Format], GetMaxOutputSampleSize method [windows Media Format],IWMSyncReader interface, IWMSyncReader interface [windows Media Format],GetMaxOutputSampleSize method, IWMSyncReader.GetMaxOutputSampleSize, IWMSyncReader::GetMaxOutputSampleSize, IWMSyncReaderGetMaxOutputSampleSize, wmformat.iwmsyncreader_getmaxoutputsamplesize, wmsdkidl/IWMSyncReader::GetMaxOutputSampleSize
 ms.topic: method
-f1_keywords: 
- - "wmsdkidl/IWMSyncReader.GetMaxOutputSampleSize"
+f1_keywords:
+- wmsdkidl/IWMSyncReader.GetMaxOutputSampleSize
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wmvcore.lib
- - Wmvcore.dll
- - WMStubDRM.lib
- - WMStubDRM.dll
+- Wmvcore.lib
+- Wmvcore.dll
+- WMStubDRM.lib
+- WMStubDRM.dll
 api_name:
- - IWMSyncReader.GetMaxOutputSampleSize
+- IWMSyncReader.GetMaxOutputSampleSize
 targetos: Windows
 req.typenames: 
 req.redist: 

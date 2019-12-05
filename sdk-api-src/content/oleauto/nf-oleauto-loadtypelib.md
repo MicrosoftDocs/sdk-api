@@ -1,19 +1,17 @@
 ---
 UID: NF:oleauto.LoadTypeLib
 title: LoadTypeLib function (oleauto.h)
-
 description: Loads and registers a type library.
 old-location: automat\loadtypelib.htm
 tech.root: automat
 ms.assetid: 155b48e5-5438-409e-9342-630a6a500f60
-
 ms.date: 12/05/2018
 ms.keywords: LoadTypeLib, LoadTypeLib function [Automation], _oa96_LoadTypeLib, automat.loadtypelib, oleauto/LoadTypeLib
 ms.topic: function
-f1_keywords: 
- - "oleauto/LoadTypeLib"
+f1_keywords:
+- oleauto/LoadTypeLib
 dev_langs:
- - c++
+- c++
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: OleAut32.lib
 req.dll: OleAut32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - OleAut32.dll
+- OleAut32.dll
 api_name:
- - LoadTypeLib
+- LoadTypeLib
 targetos: Windows
 req.typenames: 
 req.redist: 

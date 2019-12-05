@@ -1,19 +1,17 @@
 ---
 UID: NF:wsmandisp.IWSManEx.SessionFlagCredUsernamePassword
 title: IWSManEx::SessionFlagCredUsernamePassword (wsmandisp.h)
-
 description: Returns the value of the authentication flag WSManFlagCredUsernamePassword for use in the flags parameter of IWSMan::CreateSession.
 old-location: winrm\iwsmanex_sessionflagcredusernamepassword.htm
 tech.root: winrm
 ms.assetid: e9af95ac-4543-4d8b-ac6e-15e89b73713e
-
 ms.date: 12/05/2018
 ms.keywords: IWSManEx interface [Windows Remote Management],SessionFlagCredUsernamePassword method, IWSManEx.SessionFlagCredUsernamePassword, IWSManEx::SessionFlagCredUsernamePassword, SessionFlagCredUsernamePassword, SessionFlagCredUsernamePassword method [Windows Remote Management], SessionFlagCredUsernamePassword method [Windows Remote Management],IWSManEx interface, winrm.iwsmanex_sessionflagcredusernamepassword, wsmandisp/IWSManEx::SessionFlagCredUsernamePassword
 ms.topic: method
-f1_keywords: 
- - "wsmandisp/IWSManEx.SessionFlagCredUsernamePassword"
+f1_keywords:
+- wsmandisp/IWSManEx.SessionFlagCredUsernamePassword
 dev_langs:
- - c++
+- c++
 req.header: wsmandisp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: WSManDisp.tlb
 req.dll: WSMAuto.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - WSMAuto.dll
+- WSMAuto.dll
 api_name:
- - IWSManEx.SessionFlagCredUsernamePassword
+- IWSManEx.SessionFlagCredUsernamePassword
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NS:ipsectypes.IPSEC_ID0_
 title: IPSEC_ID0 (ipsectypes.h)
-
 description: Contains information corresponding to identities that are authenticated by IPsec.
 old-location: fwp\ipsec_id0.htm
 tech.root: fwp
 ms.assetid: e8881c50-9586-447e-a514-cc28895e5e90
-
 ms.date: 12/05/2018
 ms.keywords: IPSEC_ID0, IPSEC_ID0 structure [Filtering], fwp.ipsec_id0, ipsectypes/IPSEC_ID0
 ms.topic: struct
-f1_keywords: 
- - "ipsectypes/IPSEC_ID0"
+f1_keywords:
+- ipsectypes/IPSEC_ID0
 dev_langs:
- - c++
+- c++
 req.header: ipsectypes.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Ipsectypes.h
+- Ipsectypes.h
 api_name:
- - IPSEC_ID0
+- IPSEC_ID0
 targetos: Windows
 req.typenames: IPSEC_ID0
 req.redist: 

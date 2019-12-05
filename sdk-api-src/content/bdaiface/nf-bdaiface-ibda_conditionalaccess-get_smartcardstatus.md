@@ -1,19 +1,17 @@
 ---
 UID: NF:bdaiface.IBDA_ConditionalAccess.get_SmartCardStatus
 title: IBDA_ConditionalAccess::get_SmartCardStatus (bdaiface.h)
-
 description: The get_SmartCardStatus method retrieves the status of the smart card.
 old-location: mstv\ibda_conditionalaccess_get_smartcardstatus.htm
 tech.root: mstv
 ms.assetid: 940247b0-c002-414f-9d01-9f4acfe90a35
-
 ms.date: 12/05/2018
 ms.keywords: IBDA_ConditionalAccess interface [Microsoft TV Technologies],get_SmartCardStatus method, IBDA_ConditionalAccess.get_SmartCardStatus, IBDA_ConditionalAccess::get_SmartCardStatus, IBDA_ConditionalAccessget_SmartCardStatus, bdaiface/IBDA_ConditionalAccess::get_SmartCardStatus, get_SmartCardStatus, get_SmartCardStatus method [Microsoft TV Technologies], get_SmartCardStatus method [Microsoft TV Technologies],IBDA_ConditionalAccess interface, mstv.ibda_conditionalaccess_get_smartcardstatus
 ms.topic: method
-f1_keywords: 
- - "bdaiface/IBDA_ConditionalAccess.get_SmartCardStatus"
+f1_keywords:
+- bdaiface/IBDA_ConditionalAccess.get_SmartCardStatus
 dev_langs:
- - c++
+- c++
 req.header: bdaiface.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Bdaiface.h
+- Bdaiface.h
 api_name:
- - IBDA_ConditionalAccess.get_SmartCardStatus
+- IBDA_ConditionalAccess.get_SmartCardStatus
 targetos: Windows
 req.typenames: 
 req.redist: 

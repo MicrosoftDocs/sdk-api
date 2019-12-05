@@ -5,10 +5,10 @@ description: Indicates the level of support for heap serialization.
 ms.date: 05/20/2019
 ms.keywords: D3D12_FEATURE_DATA_SERIALIZATION
 ms.topic: language-reference
-f1_keywords: 
- - "d3d12/D3D12_FEATURE_DATA_SERIALIZATION"
+f1_keywords:
+- d3d12/D3D12_FEATURE_DATA_SERIALIZATION
 dev_langs:
- - c++
+- c++
 targetos: Windows
 req.construct-type: structure
 req.ddi-compliance: 
@@ -26,13 +26,13 @@ req.typenames: D3D12_FEATURE_DATA_SERIALIZATION
 req.umdf-ver: 
 req.unicode-ansi: 
 topic_type:
- - apiref
+- apiref
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - d3d12.h
+- d3d12.h
 api_name:
- - D3D12_FEATURE_DATA_SERIALIZATION
+- D3D12_FEATURE_DATA_SERIALIZATION
 ---
 
 ## -description

@@ -1,19 +1,17 @@
 ---
 UID: NF:commctrl.Edit_EnableSearchWeb
 title: Edit_EnableSearchWeb macro (commctrl.h)
-
 description: Enables or disables the &#0034;Search with Bing…&#0034; context menu item in edit controls. You can use this macro or send the EM_ENABLESEARCHWEB message explicitly.
 old-location: controls\edit_enablesearchweb.htm
 tech.root: Controls
 ms.assetid: BB56F4F6-0D13-41B4-B8C1-FF724FCC4D0B
-
 ms.date: 12/05/2018
 ms.keywords: Edit_EnableSearchWeb, Edit_EnableSearchWeb macro [Windows Controls], commctrl/Edit_EnableSearchWeb, controls.edit_enablesearchweb
 ms.topic: macro
-f1_keywords: 
- - "commctrl/Edit_EnableSearchWeb"
+f1_keywords:
+- commctrl/Edit_EnableSearchWeb
 dev_langs:
- - c++
+- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Commctrl.h
+- Commctrl.h
 api_name:
- - Edit_EnableSearchWeb
+- Edit_EnableSearchWeb
 targetos: Windows
 req.typenames: 
 req.redist: 

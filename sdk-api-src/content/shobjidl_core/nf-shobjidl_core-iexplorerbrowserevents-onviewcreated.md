@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IExplorerBrowserEvents.OnViewCreated
 title: IExplorerBrowserEvents::OnViewCreated (shobjidl_core.h)
-
 description: Notifies clients that the view of the Explorer browser has been created and can be modified.
 old-location: shell\IExplorerBrowserEvents_OnViewCreated.htm
 tech.root: shell
 ms.assetid: 801d59f5-6e92-4e3c-938a-e94b43b7c6f1
-
 ms.date: 12/05/2018
 ms.keywords: IExplorerBrowserEvents interface [Windows Shell],OnViewCreated method, IExplorerBrowserEvents.OnViewCreated, IExplorerBrowserEvents::OnViewCreated, OnViewCreated, OnViewCreated method [Windows Shell], OnViewCreated method [Windows Shell],IExplorerBrowserEvents interface, _shell_IExplorerBrowserEvents_OnViewCreated, shell.IExplorerBrowserEvents_OnViewCreated, shobjidl_core/IExplorerBrowserEvents::OnViewCreated
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IExplorerBrowserEvents.OnViewCreated"
+f1_keywords:
+- shobjidl_core/IExplorerBrowserEvents.OnViewCreated
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - IExplorerBrowserEvents.OnViewCreated
+- IExplorerBrowserEvents.OnViewCreated
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:wmsdkidl.IWMRegisteredDevice.GetDeviceCertificate
 title: IWMRegisteredDevice::GetDeviceCertificate (wmsdkidl.h)
-
 description: The GetDeviceCertificate method retrieves the certificate of the device.
 old-location: wmformat\iwmregistereddevice_getdevicecertificate.htm
 tech.root: wmformat
 ms.assetid: 80313abc-2212-4b1a-9d4e-9f3015370ea7
-
 ms.date: 12/05/2018
 ms.keywords: GetDeviceCertificate, GetDeviceCertificate method [windows Media Format], GetDeviceCertificate method [windows Media Format],IWMRegisteredDevice interface, IWMRegisteredDevice interface [windows Media Format],GetDeviceCertificate method, IWMRegisteredDevice.GetDeviceCertificate, IWMRegisteredDevice::GetDeviceCertificate, IWMRegisteredDeviceGetDeviceCertificate, wmformat.iwmregistereddevice_getdevicecertificate, wmsdkidl/IWMRegisteredDevice::GetDeviceCertificate
 ms.topic: method
-f1_keywords: 
- - "wmsdkidl/IWMRegisteredDevice.GetDeviceCertificate"
+f1_keywords:
+- wmsdkidl/IWMRegisteredDevice.GetDeviceCertificate
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: WMStubDRM.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - WMStubDRM.lib
- - WMStubDRM.dll
+- WMStubDRM.lib
+- WMStubDRM.dll
 api_name:
- - IWMRegisteredDevice.GetDeviceCertificate
+- IWMRegisteredDevice.GetDeviceCertificate
 targetos: Windows
 req.typenames: 
 req.redist: 

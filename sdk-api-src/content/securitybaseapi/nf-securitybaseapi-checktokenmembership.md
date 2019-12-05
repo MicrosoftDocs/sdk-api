@@ -1,19 +1,17 @@
 ---
 UID: NF:securitybaseapi.CheckTokenMembership
 title: CheckTokenMembership function (securitybaseapi.h)
-
 description: Determines whether a specified security identifier (SID) is enabled in an access token.
 old-location: security\checktokenmembership.htm
 tech.root: SecAuthZ
 ms.assetid: c254a167-c4e7-4b84-9be3-6862761309f8
-
 ms.date: 12/05/2018
 ms.keywords: CheckTokenMembership, CheckTokenMembership function [Security], _win32_checktokenmembership, security.checktokenmembership, securitybaseapi/CheckTokenMembership
 ms.topic: function
 f1_keywords:
 - securitybaseapi/CheckTokenMembership
 dev_langs:
- - c++
+- c++
 req.header: securitybaseapi.h
 req.include-header: Windows.h
 req.target-type: Windows

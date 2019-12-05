@@ -1,19 +1,17 @@
 ---
 UID: NF:ehstorapi.IEnhancedStorageACT.GetSilos
 title: IEnhancedStorageACT::GetSilos (ehstorapi.h)
-
 description: Returns an enumeration of all silos associated with the Addressable Command Target (ACT).
 old-location: enstor\ienhancedstorageact_getsilos.htm
 tech.root: enstor
 ms.assetid: 823da812-b3f5-4c61-bb33-cd970695879f
-
 ms.date: 12/05/2018
 ms.keywords: GetSilos, GetSilos method [Enhanced Storage], GetSilos method [Enhanced Storage],IEnhancedStorageACT interface, IEnhancedStorageACT interface [Enhanced Storage],GetSilos method, IEnhancedStorageACT.GetSilos, IEnhancedStorageACT::GetSilos, ehstorapi/IEnhancedStorageACT::GetSilos, enstor.ienhancedstorageact_getsilos
 ms.topic: method
-f1_keywords: 
- - "ehstorapi/IEnhancedStorageACT.GetSilos"
+f1_keywords:
+- ehstorapi/IEnhancedStorageACT.GetSilos
 dev_langs:
- - c++
+- c++
 req.header: ehstorapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - EhStorAPI.h
+- EhStorAPI.h
 api_name:
- - IEnhancedStorageACT.GetSilos
+- IEnhancedStorageACT.GetSilos
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NS:uiautomationclient.ExtendedProperty
 title: ExtendedProperty (uiautomationclient.h)
-
 description: Contains information about an extended property.
 old-location: winauto\uiauto_extendedproperty.htm
 tech.root: WinAuto
 ms.assetid: 3d0037f5-cff7-4502-b648-a2a60127eaff
-
 ms.date: 12/05/2018
 ms.keywords: ExtendedProperty, ExtendedProperty structure [Windows Accessibility], uiautomationclient/ExtendedProperty, winauto.uiauto_extendedproperty
 ms.topic: struct
-f1_keywords: 
- - "uiautomationclient/ExtendedProperty"
+f1_keywords:
+- uiautomationclient/ExtendedProperty
 dev_langs:
- - c++
+- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - UIAutomationClient.h
+- UIAutomationClient.h
 api_name:
- - ExtendedProperty
+- ExtendedProperty
 targetos: Windows
 req.typenames: 
 req.redist: 

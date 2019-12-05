@@ -1,19 +1,17 @@
 ---
 UID: NN:audioengineendpoint.IAudioOutputEndpointRT
 title: IAudioOutputEndpointRT (audioengineendpoint.h)
-
 description: Gets the output buffer for each processing pass.
 old-location: termserv\iaudiooutputendpointrt.htm
 tech.root: TermServ
 ms.assetid: b881b2f9-ffe9-46ff-94aa-eef0af172a3e
-
 ms.date: 12/05/2018
 ms.keywords: IAudioOutputEndpointRT, IAudioOutputEndpointRT interface [Remote Desktop Services], IAudioOutputEndpointRT interface [Remote Desktop Services],described, audioengineendpoint/IAudioOutputEndpointRT, termserv.iaudiooutputendpointrt
 ms.topic: interface
-f1_keywords: 
- - "audioengineendpoint/IAudioOutputEndpointRT"
+f1_keywords:
+- audioengineendpoint/IAudioOutputEndpointRT
 dev_langs:
- - c++
+- c++
 req.header: audioengineendpoint.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Audioengineendpoint.h
+- Audioengineendpoint.h
 api_name:
- - IAudioOutputEndpointRT
+- IAudioOutputEndpointRT
 targetos: Windows
 req.typenames: 
 req.redist: 

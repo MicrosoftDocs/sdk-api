@@ -1,19 +1,17 @@
 ---
 UID: NN:uianimation.IUIAnimationVariable2
 title: IUIAnimationVariable2 (uianimation.h)
-
 description: Defines an animation variable, which represents a visual element that can be animated in multiple dimensions.
 old-location: uianimation\iuianimationvariable2.htm
 tech.root: UIAnimation
 ms.assetid: A676EF27-B59D-4D2D-AD5B-8F46EE337E69
-
 ms.date: 12/05/2018
 ms.keywords: IUIAnimationVariable2, IUIAnimationVariable2 interface [Windows Animation], IUIAnimationVariable2 interface [Windows Animation],described, uianimation.iuianimationvariable2, uianimation/IUIAnimationVariable2
 ms.topic: interface
-f1_keywords: 
- - "uianimation/IUIAnimationVariable2"
+f1_keywords:
+- uianimation/IUIAnimationVariable2
 dev_langs:
- - c++
+- c++
 req.header: uianimation.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: UIAnimation.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAnimation.dll
+- UIAnimation.dll
 api_name:
- - IUIAnimationVariable2
+- IUIAnimationVariable2
 targetos: Windows
 req.typenames: 
 req.redist: 

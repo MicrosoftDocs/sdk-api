@@ -1,19 +1,17 @@
 ---
 UID: NS:wlanapi._WLAN_CONNECTION_ATTRIBUTES
 title: WLAN_CONNECTION_ATTRIBUTES (wlanapi.h)
-
 description: Defines the attributes of a wireless connection.
 old-location: nwifi\wlan_connection_attributes.htm
 tech.root: NativeWiFi
 ms.assetid: 91b8058d-faf6-46ee-a03b-f762e9cdae4d
-
 ms.date: 12/05/2018
 ms.keywords: '*PWLAN_CONNECTION_ATTRIBUTES, PWLAN_CONNECTION_ATTRIBUTES, PWLAN_CONNECTION_ATTRIBUTES structure pointer [NativeWIFI], WLAN_CONNECTION_ATTRIBUTES, WLAN_CONNECTION_ATTRIBUTES structure [NativeWIFI], nwifi.wlan_connection_attributes, wlanapi/PWLAN_CONNECTION_ATTRIBUTES, wlanapi/WLAN_CONNECTION_ATTRIBUTES'
 ms.topic: struct
 f1_keywords:
 - wlanapi/WLAN_CONNECTION_ATTRIBUTES
 dev_langs:
- - c++
+- c++
 req.header: wlanapi.h
 req.include-header: 
 req.target-type: Windows

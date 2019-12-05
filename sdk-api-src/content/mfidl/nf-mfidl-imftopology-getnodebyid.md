@@ -1,19 +1,17 @@
 ---
 UID: NF:mfidl.IMFTopology.GetNodeByID
 title: IMFTopology::GetNodeByID (mfidl.h)
-
 description: Gets a node in the topology, specified by node identifier.
 old-location: mf\imftopology_getnodebyid.htm
 tech.root: medfound
 ms.assetid: 34c8326f-bd34-4bf6-9171-a1ed3191b85e
-
 ms.date: 12/05/2018
 ms.keywords: 34c8326f-bd34-4bf6-9171-a1ed3191b85e, GetNodeByID, GetNodeByID method [Media Foundation], GetNodeByID method [Media Foundation],IMFTopology interface, IMFTopology interface [Media Foundation],GetNodeByID method, IMFTopology.GetNodeByID, IMFTopology::GetNodeByID, mf.imftopology_getnodebyid, mfidl/IMFTopology::GetNodeByID
 ms.topic: method
-f1_keywords: 
- - "mfidl/IMFTopology.GetNodeByID"
+f1_keywords:
+- mfidl/IMFTopology.GetNodeByID
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFTopology.GetNodeByID
+- IMFTopology.GetNodeByID
 targetos: Windows
 req.typenames: 
 req.redist: 

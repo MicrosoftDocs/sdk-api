@@ -1,19 +1,17 @@
 ---
 UID: NN:xpsobjectmodel.IXpsOMLinearGradientBrush
 title: IXpsOMLinearGradientBrush (xpsobjectmodel.h)
-
 description: Specifies a linear gradient, which is the color gradient along a vector.
 old-location: xps\ixpsomlineargradientbrush.htm
 tech.root: printdocs
 ms.assetid: 739bf088-0f09-47c1-9b49-6c279395f15b
-
 ms.date: 12/05/2018
 ms.keywords: IXpsOMLinearGradientBrush, IXpsOMLinearGradientBrush interface [XPS Documents and Packaging], IXpsOMLinearGradientBrush interface [XPS Documents and Packaging],described, xps.ixpsomlineargradientbrush, xpsobjectmodel/IXpsOMLinearGradientBrush
 ms.topic: interface
-f1_keywords: 
- - "xpsobjectmodel/IXpsOMLinearGradientBrush"
+f1_keywords:
+- xpsobjectmodel/IXpsOMLinearGradientBrush
 dev_langs:
- - c++
+- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsobjectmodel.h
+- xpsobjectmodel.h
 api_name:
- - IXpsOMLinearGradientBrush
+- IXpsOMLinearGradientBrush
 targetos: Windows
 req.typenames: 
 req.redist: 

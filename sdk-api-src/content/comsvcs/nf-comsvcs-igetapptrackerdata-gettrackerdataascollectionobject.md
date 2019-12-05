@@ -1,19 +1,17 @@
 ---
 UID: NF:comsvcs.IGetAppTrackerData.GetTrackerDataAsCollectionObject
 title: IGetAppTrackerData::GetTrackerDataAsCollectionObject (comsvcs.h)
-
 description: Retrieves tracking data for all COM+ applications in the form of a collection object.
 old-location: cos\igetapptrackerdata_gettrackerdataascollectionobject.htm
 tech.root: cossdk
 ms.assetid: 215523ad-5f18-4529-8b23-afbd1b738fb5
-
 ms.date: 12/05/2018
 ms.keywords: GetTrackerDataAsCollectionObject, GetTrackerDataAsCollectionObject method [COM+], GetTrackerDataAsCollectionObject method [COM+],IGetAppTrackerData interface, IGetAppTrackerData interface [COM+],GetTrackerDataAsCollectionObject method, IGetAppTrackerData.GetTrackerDataAsCollectionObject, IGetAppTrackerData::GetTrackerDataAsCollectionObject, comsvcs/IGetAppTrackerData::GetTrackerDataAsCollectionObject, cos.igetapptrackerdata_gettrackerdataascollectionobject
 ms.topic: method
-f1_keywords: 
- - "comsvcs/IGetAppTrackerData.GetTrackerDataAsCollectionObject"
+f1_keywords:
+- comsvcs/IGetAppTrackerData.GetTrackerDataAsCollectionObject
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - IGetAppTrackerData.GetTrackerDataAsCollectionObject
+- IGetAppTrackerData.GetTrackerDataAsCollectionObject
 targetos: Windows
 req.typenames: 
 req.redist: 

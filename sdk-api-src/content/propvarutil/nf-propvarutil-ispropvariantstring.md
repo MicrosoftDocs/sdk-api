@@ -1,19 +1,17 @@
 ---
 UID: NF:propvarutil.IsPropVariantString
 title: IsPropVariantString function (propvarutil.h)
-
 description: Specifies whether a specified PROPVARIANT structure is a string type.
 old-location: properties\IsPropVariantString.htm
 tech.root: properties
 ms.assetid: 3f580098-6bfb-41bd-b43d-986ee00b9c75
-
 ms.date: 12/05/2018
 ms.keywords: IsPropVariantString, IsPropVariantString function [Windows Properties], properties.IsPropVariantString, propvarutil/IsPropVariantString, shell.IsPropVariantString, shell_IsPropVariantString
 ms.topic: function
-f1_keywords: 
- - "propvarutil/IsPropVariantString"
+f1_keywords:
+- propvarutil/IsPropVariantString
 dev_langs:
- - c++
+- c++
 req.header: propvarutil.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Propvarutil.h
+- Propvarutil.h
 api_name:
- - IsPropVariantString
+- IsPropVariantString
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0

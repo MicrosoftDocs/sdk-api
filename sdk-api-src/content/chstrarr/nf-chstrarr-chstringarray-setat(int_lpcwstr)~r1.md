@@ -1,19 +1,17 @@
 ---
 UID: NF:chstrarr.CHStringArray.SetAt(int,LPCWSTR)~r1
 title: CHStringArray::SetAt (chstrarr.h)
-
 description: The SetAt method sets the array element at the specified index.
 old-location: wmi\chstringarray_setat.htm
 tech.root: WmiSdk
 ms.assetid: 709bed59-c154-4103-9d38-398945657ec6
-
 ms.date: 12/05/2018
 ms.keywords: CHStringArray interface [Windows Management Instrumentation],SetAt method, CHStringArray.SetAt, CHStringArray::SetAt, SetAt, SetAt method [Windows Management Instrumentation], SetAt method [Windows Management Instrumentation],CHStringArray interface, _hmm_chstringarray_setat, chstrarr/CHStringArray::SetAt, wmi.chstringarray_setat
 ms.topic: method
-f1_keywords: 
- - "chstrarr/CHStringArray.SetAt"
+f1_keywords:
+- chstrarr/CHStringArray.SetAt
 dev_langs:
- - c++
+- c++
 req.header: chstrarr.h
 req.include-header: FwCommon.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: FrameDyn.lib
 req.dll: FrameDynOS.dll; FrameDyn.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - FrameDynOS.dll
- - FrameDyn.dll
+- FrameDynOS.dll
+- FrameDyn.dll
 api_name:
- - CHStringArray.SetAt
+- CHStringArray.SetAt
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:winnt.C_ASSERT
 title: C_ASSERT macro (winnt.h)
-
 description: Checks assertions at compile time.
 old-location: base\c_assert.htm
 tech.root: Debug
 ms.assetid: 6cae9a14-584c-474c-b34e-7c6e410afcc1
-
 ms.date: 12/05/2018
 ms.keywords: C_ASSERT, C_ASSERT macro, base.c_assert, winnt/C_ASSERT
 ms.topic: macro
-f1_keywords: 
- - "winnt/C_ASSERT"
+f1_keywords:
+- winnt/C_ASSERT
 dev_langs:
- - c++
+- c++
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WinNT.h
+- WinNT.h
 api_name:
- - C_ASSERT
+- C_ASSERT
 targetos: Windows
 req.typenames: 
 req.redist: 

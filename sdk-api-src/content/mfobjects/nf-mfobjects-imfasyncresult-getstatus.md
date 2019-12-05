@@ -1,19 +1,17 @@
 ---
 UID: NF:mfobjects.IMFAsyncResult.GetStatus
 title: IMFAsyncResult::GetStatus (mfobjects.h)
-
 description: Returns the status of the asynchronous operation.
 old-location: mf\imfasyncresult_getstatus.htm
 tech.root: medfound
 ms.assetid: ad99f3dd-4885-42e8-8f4e-060d522dde7b
-
 ms.date: 12/05/2018
 ms.keywords: GetStatus, GetStatus method [Media Foundation], GetStatus method [Media Foundation],IMFAsyncResult interface, IMFAsyncResult interface [Media Foundation],GetStatus method, IMFAsyncResult.GetStatus, IMFAsyncResult::GetStatus, ad99f3dd-4885-42e8-8f4e-060d522dde7b, mf.imfasyncresult_getstatus, mfobjects/IMFAsyncResult::GetStatus
 ms.topic: method
-f1_keywords: 
- - "mfobjects/IMFAsyncResult.GetStatus"
+f1_keywords:
+- mfobjects/IMFAsyncResult.GetStatus
 dev_langs:
- - c++
+- c++
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFAsyncResult.GetStatus
+- IMFAsyncResult.GetStatus
 targetos: Windows
 req.typenames: 
 req.redist: 

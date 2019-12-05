@@ -1,19 +1,17 @@
 ---
 UID: NF:xenroll.IEnroll.put_CAStoreFlags
 title: IEnroll::put_CAStoreFlags (xenroll.h)
-
 description: The CAStoreFlags property of IEnroll4 sets or retrieves a flag that controls the certification authority (CA) store when the store is opened.
 old-location: security\ienroll4_castoreflags.htm
 tech.root: SecCrypto
 ms.assetid: 294a8a38-9c76-4e5c-ac11-2fcb8b81727e
-
 ms.date: 12/05/2018
 ms.keywords: CAStoreFlags property [Security], CAStoreFlags property [Security],IEnroll interface, IEnroll interface [Security],CAStoreFlags property, IEnroll.CAStoreFlags, IEnroll.put_CAStoreFlags, IEnroll::CAStoreFlags, IEnroll::get_CAStoreFlags, IEnroll::put_CAStoreFlags, put_CAStoreFlags, security.ienroll4_castoreflags, xenroll/IEnroll::CAStoreFlags, xenroll/IEnroll::get_CAStoreFlags, xenroll/IEnroll::put_CAStoreFlags
 ms.topic: method
-f1_keywords: 
- - "xenroll/IEnroll.CAStoreFlags"
+f1_keywords:
+- xenroll/IEnroll.CAStoreFlags
 dev_langs:
- - c++
+- c++
 req.header: xenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Uuid.lib
 req.dll: Xenroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Xenroll.dll
+- Xenroll.dll
 api_name:
- - IEnroll.CAStoreFlags
- - IEnroll.get_CAStoreFlags
- - IEnroll.put_CAStoreFlags
+- IEnroll.CAStoreFlags
+- IEnroll.get_CAStoreFlags
+- IEnroll.put_CAStoreFlags
 targetos: Windows
 req.typenames: 
 req.redist: 

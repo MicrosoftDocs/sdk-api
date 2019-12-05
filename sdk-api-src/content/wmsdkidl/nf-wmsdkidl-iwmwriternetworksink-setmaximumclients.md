@@ -1,19 +1,17 @@
 ---
 UID: NF:wmsdkidl.IWMWriterNetworkSink.SetMaximumClients
 title: IWMWriterNetworkSink::SetMaximumClients (wmsdkidl.h)
-
 description: The SetMaximumClients method sets the maximum number of clients that can connect to this sink. Call this method before streaming begins.
 old-location: wmformat\iwmwriternetworksink_setmaximumclients.htm
 tech.root: wmformat
 ms.assetid: 619f0684-28bb-4412-acbf-27434672083a
-
 ms.date: 12/05/2018
 ms.keywords: IWMWriterNetworkSink interface [windows Media Format],SetMaximumClients method, IWMWriterNetworkSink.SetMaximumClients, IWMWriterNetworkSink::SetMaximumClients, IWMWriterNetworkSinkSetMaximumClients, SetMaximumClients, SetMaximumClients method [windows Media Format], SetMaximumClients method [windows Media Format],IWMWriterNetworkSink interface, wmformat.iwmwriternetworksink_setmaximumclients, wmsdkidl/IWMWriterNetworkSink::SetMaximumClients
 ms.topic: method
-f1_keywords: 
- - "wmsdkidl/IWMWriterNetworkSink.SetMaximumClients"
+f1_keywords:
+- wmsdkidl/IWMWriterNetworkSink.SetMaximumClients
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wmvcore.lib
- - Wmvcore.dll
- - WMStubDRM.lib
- - WMStubDRM.dll
+- Wmvcore.lib
+- Wmvcore.dll
+- WMStubDRM.lib
+- WMStubDRM.dll
 api_name:
- - IWMWriterNetworkSink.SetMaximumClients
+- IWMWriterNetworkSink.SetMaximumClients
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NN:tapi3if.ITCallNotificationEvent
 title: ITCallNotificationEvent (tapi3if.h)
-
 description: The ITCallNotificationEvent interface contains methods that retrieve the description of call notification events.
 old-location: tapi3\itcallnotificationevent.htm
 tech.root: Tapi
 ms.assetid: d0ea4f7a-7b50-4610-ae17-957c0c1891e1
-
 ms.date: 12/05/2018
 ms.keywords: ITCallNotificationEvent, ITCallNotificationEvent interface [TAPI 2.2], ITCallNotificationEvent interface [TAPI 2.2],described, _tapi3_itcallnotificationevent, tapi3.itcallnotificationevent, tapi3if/ITCallNotificationEvent
 ms.topic: interface
-f1_keywords: 
- - "tapi3if/ITCallNotificationEvent"
+f1_keywords:
+- tapi3if/ITCallNotificationEvent
 dev_langs:
- - c++
+- c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Tapi3.dll
+- Tapi3.dll
 api_name:
- - ITCallNotificationEvent
+- ITCallNotificationEvent
 targetos: Windows
 req.typenames: 
 req.redist: 

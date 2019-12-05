@@ -1,19 +1,17 @@
 ---
 UID: NS:d3d11.D3D11_TEX2D_ARRAY_SRV
 title: D3D11_TEX2D_ARRAY_SRV (d3d11.h)
-
 description: Specifies the subresources from an array of 2D textures to use in a shader-resource view.
 old-location: direct3d11\d3d11_tex2d_array_srv.htm
 tech.root: direct3d11
 ms.assetid: 274e7a15-ac54-41e2-87d7-484e3e768a38
-
 ms.date: 12/05/2018
 ms.keywords: 45a6c17b-f09f-34db-329d-6ede8a9e8073, D3D11_TEX2D_ARRAY_SRV, D3D11_TEX2D_ARRAY_SRV structure [Direct3D 11], d3d11/D3D11_TEX2D_ARRAY_SRV, direct3d11.d3d11_tex2d_array_srv
 ms.topic: struct
-f1_keywords: 
- - "d3d11/D3D11_TEX2D_ARRAY_SRV"
+f1_keywords:
+- d3d11/D3D11_TEX2D_ARRAY_SRV
 dev_langs:
- - c++
+- c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - D3D11.h
+- D3D11.h
 api_name:
- - D3D11_TEX2D_ARRAY_SRV
+- D3D11_TEX2D_ARRAY_SRV
 targetos: Windows
 req.typenames: D3D11_TEX2D_ARRAY_SRV
 req.redist: 

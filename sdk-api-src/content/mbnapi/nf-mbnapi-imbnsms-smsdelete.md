@@ -1,19 +1,17 @@
 ---
 UID: NF:mbnapi.IMbnSms.SmsDelete
 title: IMbnSms::SmsDelete (mbnapi.h)
-
 description: Deletes a set of SMS messages from a device.
 old-location: mbn\imbnsms_smsdelete.htm
 tech.root: mbn
 ms.assetid: cd37582e-891d-4f6a-aba3-01ad3101a6b9
-
 ms.date: 12/05/2018
 ms.keywords: IMbnSms interface [Microsoft Broadband Networks],SmsDelete method, IMbnSms.SmsDelete, IMbnSms::SmsDelete, SmsDelete, SmsDelete method [Microsoft Broadband Networks], SmsDelete method [Microsoft Broadband Networks],IMbnSms interface, mbn.imbnsms_smsdelete, mbnapi/IMbnSms::SmsDelete
 ms.topic: method
-f1_keywords: 
- - "mbnapi/IMbnSms.SmsDelete"
+f1_keywords:
+- mbnapi/IMbnSms.SmsDelete
 dev_langs:
- - c++
+- c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mbnapi.h
+- mbnapi.h
 api_name:
- - IMbnSms.SmsDelete
+- IMbnSms.SmsDelete
 targetos: Windows
 req.typenames: 
 req.redist: 

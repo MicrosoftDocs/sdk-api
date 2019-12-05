@@ -1,19 +1,17 @@
 ---
 UID: NF:vfw.ICDrawChangePalette
 title: ICDrawChangePalette macro (vfw.h)
-
 description: The ICDrawChangePalette macro notifies a rendering driver that the movie palette is changing. You can use this macro or explicitly call the ICM_DRAW_CHANGEPALETTE message.
 old-location: multimedia\icdrawchangepalette.htm
 tech.root: Multimedia
 ms.assetid: 4b280b51-a45f-47e5-b54c-47dc4a6ca81c
-
 ms.date: 12/05/2018
 ms.keywords: ICDrawChangePalette, ICDrawChangePalette macro [Windows Multimedia], _win32_ICDrawChangePalette, multimedia.icdrawchangepalette, vfw/ICDrawChangePalette
 ms.topic: macro
-f1_keywords: 
- - "vfw/ICDrawChangePalette"
+f1_keywords:
+- vfw/ICDrawChangePalette
 dev_langs:
- - c++
+- c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Vfw.h
+- Vfw.h
 api_name:
- - ICDrawChangePalette
+- ICDrawChangePalette
 targetos: Windows
 req.typenames: 
 req.redist: 

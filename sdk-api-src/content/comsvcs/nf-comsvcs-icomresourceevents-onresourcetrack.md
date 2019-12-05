@@ -1,19 +1,17 @@
 ---
 UID: NF:comsvcs.IComResourceEvents.OnResourceTrack
 title: IComResourceEvents::OnResourceTrack (comsvcs.h)
-
 description: Generated when a resource is tracked.
 old-location: cos\icomresourceevents_onresourcetrack.htm
 tech.root: cossdk
 ms.assetid: 8845cf07-f796-45bd-9d3d-261cf0903050
-
 ms.date: 12/05/2018
 ms.keywords: IComResourceEvents interface [COM+],OnResourceTrack method, IComResourceEvents.OnResourceTrack, IComResourceEvents::OnResourceTrack, OnResourceTrack, OnResourceTrack method [COM+], OnResourceTrack method [COM+],IComResourceEvents interface, _dtc_IComResourceEvents_OnResourceTrack, comsvcs/IComResourceEvents::OnResourceTrack, cos.icomresourceevents_onresourcetrack
 ms.topic: method
-f1_keywords: 
- - "comsvcs/IComResourceEvents.OnResourceTrack"
+f1_keywords:
+- comsvcs/IComResourceEvents.OnResourceTrack
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - IComResourceEvents.OnResourceTrack
+- IComResourceEvents.OnResourceTrack
 targetos: Windows
 req.typenames: 
 req.redist: 

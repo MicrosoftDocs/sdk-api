@@ -1,19 +1,17 @@
 ---
 UID: NF:intsafe.ULongLongToInt
 title: ULongLongToInt function (intsafe.h)
-
 description: Converts a value of type ULONGLONG to a value of type INT.
 old-location: shell\ULongLongToInt.htm
 tech.root: shell
 ms.assetid: ed9eaef2-6781-4de5-8158-be914dcfd647
-
 ms.date: 12/05/2018
 ms.keywords: ULongLongToInt, ULongLongToInt function [Windows Shell], _shell_ULongLongToInt, intsafe/ULongLongToInt, shell.ULongLongToInt
 ms.topic: function
-f1_keywords: 
- - "intsafe/ULongLongToInt"
+f1_keywords:
+- intsafe/ULongLongToInt
 dev_langs:
- - c++
+- c++
 req.header: intsafe.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Intsafe.h
+- Intsafe.h
 api_name:
- - ULongLongToInt
+- ULongLongToInt
 targetos: Windows
 req.typenames: 
 req.redist: 

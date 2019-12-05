@@ -1,19 +1,17 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMPageReference.GetStoryFragmentsResource
 title: IXpsOMPageReference::GetStoryFragmentsResource (xpsobjectmodel.h)
-
 description: Gets a pointer to the IXpsOMStoryFragmentsResource interface of the StoryFragments part resource that is associated with the page.
 old-location: xps\ixpsompagereference_getstoryfragmentsresource.htm
 tech.root: printdocs
 ms.assetid: 9b768734-07e3-4917-adb9-29989e7e2b32
-
 ms.date: 12/05/2018
 ms.keywords: GetStoryFragmentsResource, GetStoryFragmentsResource method [XPS Documents and Packaging], GetStoryFragmentsResource method [XPS Documents and Packaging],IXpsOMPageReference interface, IXpsOMPageReference interface [XPS Documents and Packaging],GetStoryFragmentsResource method, IXpsOMPageReference.GetStoryFragmentsResource, IXpsOMPageReference::GetStoryFragmentsResource, xps.ixpsompagereference_getstoryfragmentsresource, xpsobjectmodel/IXpsOMPageReference::GetStoryFragmentsResource
 ms.topic: method
-f1_keywords: 
- - "xpsobjectmodel/IXpsOMPageReference.GetStoryFragmentsResource"
+f1_keywords:
+- xpsobjectmodel/IXpsOMPageReference.GetStoryFragmentsResource
 dev_langs:
- - c++
+- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsobjectmodel.h
+- xpsobjectmodel.h
 api_name:
- - IXpsOMPageReference.GetStoryFragmentsResource
+- IXpsOMPageReference.GetStoryFragmentsResource
 targetos: Windows
 req.typenames: 
 req.redist: 

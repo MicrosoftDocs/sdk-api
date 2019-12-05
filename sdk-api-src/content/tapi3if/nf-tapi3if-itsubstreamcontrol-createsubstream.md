@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi3if.ITSubStreamControl.CreateSubStream
 title: ITSubStreamControl::CreateSubStream (tapi3if.h)
-
 description: The CreateSubStream method creates a substream.
 old-location: tapi3\itsubstreamcontrol_createsubstream.htm
 tech.root: Tapi
 ms.assetid: 00fe0f8f-c814-4ae6-a60b-c58f3dc60b67
-
 ms.date: 12/05/2018
 ms.keywords: CreateSubStream, CreateSubStream method [TAPI 2.2], CreateSubStream method [TAPI 2.2],ITSubStreamControl interface, ITSubStreamControl interface [TAPI 2.2],CreateSubStream method, ITSubStreamControl.CreateSubStream, ITSubStreamControl::CreateSubStream, _tapi3_itsubstreamcontrol_createsubstream, tapi3.itsubstreamcontrol_createsubstream, tapi3if/ITSubStreamControl::CreateSubStream
 ms.topic: method
-f1_keywords: 
- - "tapi3if/ITSubStreamControl.CreateSubStream"
+f1_keywords:
+- tapi3if/ITSubStreamControl.CreateSubStream
 dev_langs:
- - c++
+- c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - tapi3if.h
+- tapi3if.h
 api_name:
- - ITSubStreamControl.CreateSubStream
+- ITSubStreamControl.CreateSubStream
 targetos: Windows
 req.typenames: 
 req.redist: 

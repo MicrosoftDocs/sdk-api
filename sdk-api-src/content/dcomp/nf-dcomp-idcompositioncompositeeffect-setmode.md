@@ -1,19 +1,17 @@
 ---
 UID: NF:dcomp.IDCompositionCompositeEffect.SetMode
 title: IDCompositionCompositeEffect::SetMode (dcomp.h)
-
 description: Sets the mode for the composite effect.
 old-location: directcomp\idcompositioncompositeeffect_setmode.htm
 tech.root: directcomp
 ms.assetid: E93FAAA1-A9C3-466A-9023-99745EA6A49B
-
 ms.date: 12/05/2018
 ms.keywords: IDCompositionCompositeEffect interface [DirectComposition],SetMode method, IDCompositionCompositeEffect.SetMode, IDCompositionCompositeEffect::SetMode, SetMode, SetMode method [DirectComposition], SetMode method [DirectComposition],IDCompositionCompositeEffect interface, dcomp/IDCompositionCompositeEffect::SetMode, directcomp.idcompositioncompositeeffect_setmode
 ms.topic: method
-f1_keywords: 
- - "dcomp/IDCompositionCompositeEffect.SetMode"
+f1_keywords:
+- dcomp/IDCompositionCompositeEffect.SetMode
 dev_langs:
- - c++
+- c++
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dcomp.lib
 req.dll: Dcomp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dcomp.dll
+- Dcomp.dll
 api_name:
- - IDCompositionCompositeEffect.SetMode
+- IDCompositionCompositeEffect.SetMode
 targetos: Windows
 req.typenames: 
 req.redist: 

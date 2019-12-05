@@ -1,19 +1,17 @@
 ---
 UID: NF:wmsdkidl.IWMStreamConfig.GetStreamName
 title: IWMStreamConfig::GetStreamName (wmsdkidl.h)
-
 description: The GetStreamName method retrieves the stream name.
 old-location: wmformat\iwmstreamconfig_getstreamname.htm
 tech.root: wmformat
 ms.assetid: 86c65cfe-d482-461b-a187-ce1ce9a30609
-
 ms.date: 12/05/2018
 ms.keywords: GetStreamName, GetStreamName method [windows Media Format], GetStreamName method [windows Media Format],IWMStreamConfig interface, IWMStreamConfig interface [windows Media Format],GetStreamName method, IWMStreamConfig.GetStreamName, IWMStreamConfig::GetStreamName, IWMStreamConfigGetStreamName, wmformat.iwmstreamconfig_getstreamname, wmsdkidl/IWMStreamConfig::GetStreamName
 ms.topic: method
-f1_keywords: 
- - "wmsdkidl/IWMStreamConfig.GetStreamName"
+f1_keywords:
+- wmsdkidl/IWMStreamConfig.GetStreamName
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wmvcore.lib
- - Wmvcore.dll
- - WMStubDRM.lib
- - WMStubDRM.dll
+- Wmvcore.lib
+- Wmvcore.dll
+- WMStubDRM.lib
+- WMStubDRM.dll
 api_name:
- - IWMStreamConfig.GetStreamName
+- IWMStreamConfig.GetStreamName
 targetos: Windows
 req.typenames: 
 req.redist: 

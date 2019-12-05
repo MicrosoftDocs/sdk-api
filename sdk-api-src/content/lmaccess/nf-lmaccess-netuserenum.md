@@ -1,19 +1,17 @@
 ---
 UID: NF:lmaccess.NetUserEnum
 title: NetUserEnum function (lmaccess.h)
-
 description: The NetUserEnum function retrieves information about all user accounts on a server.
 old-location: netmgmt\netuserenum.htm
 tech.root: NetMgmt
 ms.assetid: b26ef3c0-934a-4840-8c06-4eaff5c9ff86
-
 ms.date: 12/05/2018
 ms.keywords: 0, 1, 10, 11, 2, 20, 3, FILTER_INTERDOMAIN_TRUST_ACCOUNT, FILTER_NORMAL_ACCOUNT, FILTER_SERVER_TRUST_ACCOUNT, FILTER_TEMP_DUPLICATE_ACCOUNT, FILTER_WORKSTATION_TRUST_ACCOUNT, NetUserEnum, NetUserEnum function [Network Management], _win32_netuserenum, lmaccess/NetUserEnum, netmgmt.netuserenum
 ms.topic: function
 f1_keywords:
 - lmaccess/NetUserEnum
 dev_langs:
- - c++
+- c++
 req.header: lmaccess.h
 req.include-header: Lm.h
 req.target-type: Windows

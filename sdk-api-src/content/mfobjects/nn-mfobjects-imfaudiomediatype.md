@@ -1,19 +1,17 @@
 ---
 UID: NN:mfobjects.IMFAudioMediaType
 title: IMFAudioMediaType (mfobjects.h)
-
 description: IMFAudioMediaType is no longer available for use as of Windows 7.
 old-location: mf\imfaudiomediatype.htm
 tech.root: medfound
 ms.assetid: 425a4a37-6fd3-4724-9d18-c39cc2862ef7
-
 ms.date: 12/05/2018
 ms.keywords: 425a4a37-6fd3-4724-9d18-c39cc2862ef7, IMFAudioMediaType, IMFAudioMediaType interface [Media Foundation], IMFAudioMediaType interface [Media Foundation],described, mf.imfaudiomediatype, mfobjects/IMFAudioMediaType
 ms.topic: interface
-f1_keywords: 
- - "mfobjects/IMFAudioMediaType"
+f1_keywords:
+- mfobjects/IMFAudioMediaType
 dev_langs:
- - c++
+- c++
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFAudioMediaType
+- IMFAudioMediaType
 targetos: Windows
 req.typenames: 
 req.redist: 

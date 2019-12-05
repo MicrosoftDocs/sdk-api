@@ -1,19 +1,17 @@
 ---
 UID: NF:setupapi.SetupSetPlatformPathOverrideW
 title: SetupSetPlatformPathOverrideW function (setupapi.h)
-
 description: The SetupSetPlatformPathOverride function is used to set a platform path override for a target machine when working with INFs from a different machine.
 old-location: setup\setupsetplatformpathoverride.htm
 tech.root: SetupApi
 ms.assetid: 98867613-18d8-4954-b37a-39c442756bbc
-
 ms.date: 12/05/2018
 ms.keywords: SetupSetPlatformPathOverride, SetupSetPlatformPathOverride function [Setup API], SetupSetPlatformPathOverrideA, SetupSetPlatformPathOverrideW, _setupapi_setupsetplatformpathoverride, setup.setupsetplatformpathoverride, setupapi/SetupSetPlatformPathOverride, setupapi/SetupSetPlatformPathOverrideA, setupapi/SetupSetPlatformPathOverrideW
 ms.topic: function
-f1_keywords: 
- - "setupapi/SetupSetPlatformPathOverride"
+f1_keywords:
+- setupapi/SetupSetPlatformPathOverride
 dev_langs:
- - c++
+- c++
 req.header: setupapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Setupapi.lib
 req.dll: Setupapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Setupapi.dll
+- Setupapi.dll
 api_name:
- - SetupSetPlatformPathOverride
- - SetupSetPlatformPathOverrideA
- - SetupSetPlatformPathOverrideW
+- SetupSetPlatformPathOverride
+- SetupSetPlatformPathOverrideA
+- SetupSetPlatformPathOverrideW
 targetos: Windows
 req.typenames: 
 req.redist: 

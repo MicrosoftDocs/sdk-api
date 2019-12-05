@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d10.ID3D10Device.VSGetShader
 title: ID3D10Device::VSGetShader (d3d10.h)
-
 description: Get the vertex shader currently set on the device.
 old-location: direct3d10\id3d10device_vsgetshader.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10device_vsgetshader.htm
-
 ms.date: 12/05/2018
 ms.keywords: 1fa1a739-3ba0-3b6b-7587-a11f859e0693, ID3D10Device interface [Direct3D 10],VSGetShader method, ID3D10Device.VSGetShader, ID3D10Device::VSGetShader, VSGetShader, VSGetShader method [Direct3D 10], VSGetShader method [Direct3D 10],ID3D10Device interface, d3d10/ID3D10Device::VSGetShader, direct3d10.id3d10device_vsgetshader
 ms.topic: method
-f1_keywords: 
- - "d3d10/ID3D10Device.VSGetShader"
+f1_keywords:
+- d3d10/ID3D10Device.VSGetShader
 dev_langs:
- - c++
+- c++
 req.header: d3d10.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: D3D10.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D10.lib
- - D3D10.dll
+- D3D10.lib
+- D3D10.dll
 api_name:
- - ID3D10Device.VSGetShader
+- ID3D10Device.VSGetShader
 targetos: Windows
 req.typenames: 
 req.redist: 

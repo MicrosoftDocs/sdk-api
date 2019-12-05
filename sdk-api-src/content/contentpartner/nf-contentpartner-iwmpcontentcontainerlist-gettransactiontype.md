@@ -1,19 +1,17 @@
 ---
 UID: NF:contentpartner.IWMPContentContainerList.GetTransactionType
 title: IWMPContentContainerList::GetTransactionType (contentpartner.h)
-
 description: Note  This section describes functionality designed for use by online stores. Use of this functionality outside the context of an online store is not supported. The GetTransactionType method retrieves the type of the current transaction.
 old-location: wmp\iwmpcontentcontainerlist_gettransactiontype.htm
 tech.root: WMP
 ms.assetid: 8712d134-9dd3-4964-ae53-f63c8b69818d
-
 ms.date: 12/05/2018
 ms.keywords: GetTransactionType, GetTransactionType method [Windows Media Player], GetTransactionType method [Windows Media Player],IWMPContentContainerList interface, IWMPContentContainerList interface [Windows Media Player],GetTransactionType method, IWMPContentContainerList.GetTransactionType, IWMPContentContainerList::GetTransactionType, IWMPContentContainerListGetTransactionType, contentpartner/IWMPContentContainerList::GetTransactionType, wmp.iwmpcontentcontainerlist_gettransactiontype
 ms.topic: method
-f1_keywords: 
- - "contentpartner/IWMPContentContainerList.GetTransactionType"
+f1_keywords:
+- contentpartner/IWMPContentContainerList.GetTransactionType
 dev_langs:
- - c++
+- c++
 req.header: contentpartner.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - contentpartner.h
+- contentpartner.h
 api_name:
- - IWMPContentContainerList.GetTransactionType
+- IWMPContentContainerList.GetTransactionType
 targetos: Windows
 req.typenames: 
 req.redist: 

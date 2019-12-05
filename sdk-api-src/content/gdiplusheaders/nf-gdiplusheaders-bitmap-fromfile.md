@@ -1,19 +1,17 @@
 ---
 UID: NF:gdiplusheaders.Bitmap.FromFile
 title: Bitmap::FromFile (gdiplusheaders.h)
-
 description: The Bitmap::FromFile method creates a Bitmap object based on an image file.
 old-location: gdiplus\_gdiplus_CLASS_Bitmap_FromFile_filename_useEmbeddedColorManagement_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\bitmapclass\bitmapmethods\fromfile.htm
-
 ms.date: 12/05/2018
 ms.keywords: Bitmap class [GDI+],FromFile method, Bitmap.FromFile, Bitmap::FromFile, FromFile, FromFile method [GDI+], FromFile method [GDI+],Bitmap class, _gdiplus_CLASS_Bitmap_FromFile_filename_useEmbeddedColorManagement_, gdiplus._gdiplus_CLASS_Bitmap_FromFile_filename_useEmbeddedColorManagement_
 ms.topic: method
-f1_keywords: 
- - "gdiplusheaders/Bitmap.FromFile"
+f1_keywords:
+- gdiplusheaders/Bitmap.FromFile
 dev_langs:
- - c++
+- c++
 req.header: gdiplusheaders.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - Bitmap.FromFile
+- Bitmap.FromFile
 targetos: Windows
 req.typenames: 
 req.redist: 

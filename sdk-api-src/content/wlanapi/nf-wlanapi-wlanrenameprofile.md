@@ -1,19 +1,17 @@
 ---
 UID: NF:wlanapi.WlanRenameProfile
 title: WlanRenameProfile function (wlanapi.h)
-
 description: Renames the specified profile.
 old-location: nwifi\wlanrenameprofile.htm
 tech.root: NativeWiFi
 ms.assetid: 488e9f87-8b98-48c6-81d5-d7237cdf5bd5
-
 ms.date: 12/05/2018
 ms.keywords: WlanRenameProfile, WlanRenameProfile function [NativeWIFI], nwifi.wlanrenameprofile, wlanapi/WlanRenameProfile
 ms.topic: function
-f1_keywords: 
- - "wlanapi/WlanRenameProfile"
+f1_keywords:
+- wlanapi/WlanRenameProfile
 dev_langs:
- - c++
+- c++
 req.header: wlanapi.h
 req.include-header: Wlanapi.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Wlanapi.lib
 req.dll: Wlanapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - wlanapi.dll
+- wlanapi.dll
 api_name:
- - WlanRenameProfile
+- WlanRenameProfile
 targetos: Windows
 req.typenames: 
 req.redist: 

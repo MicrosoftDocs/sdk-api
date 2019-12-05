@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IOpenControlPanel.GetCurrentView
 title: IOpenControlPanel::GetCurrentView (shobjidl_core.h)
-
 description: Gets the most recent Control Panel view:\_Classic view or Category view.
 old-location: shell\IOpenControlPanel_GetCurrentView.htm
 tech.root: shell
 ms.assetid: ed539638-7953-471f-ac90-ebd4c3929e8e
-
 ms.date: 12/05/2018
 ms.keywords: CPVIEW_ALLITEMS, CPVIEW_CATEGORY, CPVIEW_CLASSIC, CPVIEW_HOME, GetCurrentView, GetCurrentView method [Windows Shell], GetCurrentView method [Windows Shell],IOpenControlPanel interface, IOpenControlPanel interface [Windows Shell],GetCurrentView method, IOpenControlPanel.GetCurrentView, IOpenControlPanel::GetCurrentView, _shell_IOpenControlPanel_GetCurrentView, shell.IOpenControlPanel_GetCurrentView, shobjidl_core/IOpenControlPanel::GetCurrentView
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IOpenControlPanel.GetCurrentView"
+f1_keywords:
+- shobjidl_core/IOpenControlPanel.GetCurrentView
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - IOpenControlPanel.GetCurrentView
+- IOpenControlPanel.GetCurrentView
 targetos: Windows
 req.typenames: 
 req.redist: 

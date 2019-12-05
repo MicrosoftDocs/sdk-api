@@ -1,19 +1,17 @@
 ---
 UID: NL:wbemtime.WBEMTimeSpan
 title: WBEMTimeSpan (wbemtime.h)
-
 description: The WBEMTimeSpan class holds time spans in nanoseconds.
 old-location: wmi\wbemtimespan.htm
 tech.root: WmiSdk
 ms.assetid: bcec87c1-32ba-451b-92bb-80c8a5007adb
-
 ms.date: 12/05/2018
 ms.keywords: WBEMTimeSpan, WBEMTimeSpan class [Windows Management Instrumentation], WBEMTimeSpan class [Windows Management Instrumentation],described, _hmm_wbemtimespan, wbemtime/WBEMTimeSpan, wmi.wbemtimespan
 ms.topic: class
-f1_keywords: 
- - "wbemtime/WBEMTimeSpan"
+f1_keywords:
+- wbemtime/WBEMTimeSpan
 dev_langs:
- - c++
+- c++
 req.header: wbemtime.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: FrameDynOS.dll; FrameDyn.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - FrameDynOS.dll
- - FrameDyn.dll
+- FrameDynOS.dll
+- FrameDyn.dll
 api_name:
- - WBEMTimeSpan
+- WBEMTimeSpan
 targetos: Windows
 req.typenames: 
 req.redist: 

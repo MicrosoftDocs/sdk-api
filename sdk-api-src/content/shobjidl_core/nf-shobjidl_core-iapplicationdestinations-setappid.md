@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IApplicationDestinations.SetAppID
 title: IApplicationDestinations::SetAppID (shobjidl_core.h)
-
 description: Specifies a unique Application User Model ID (AppUserModelID) for the application from whose taskbar button's Jump List the methods of this interface will remove destinations. This method is optional.
 old-location: shell\IApplicationDestinations_SetAppID.htm
 tech.root: shell
 ms.assetid: d1cb0646-f028-48e4-b40d-f90a08152513
-
 ms.date: 12/05/2018
 ms.keywords: IApplicationDestinations interface [Windows Shell],SetAppID method, IApplicationDestinations.SetAppID, IApplicationDestinations::SetAppID, SetAppID, SetAppID method [Windows Shell], SetAppID method [Windows Shell],IApplicationDestinations interface, _shell_IApplicationDestinations_SetAppID, shell.IApplicationDestinations_SetAppID, shobjidl_core/IApplicationDestinations::SetAppID
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IApplicationDestinations.SetAppID"
+f1_keywords:
+- shobjidl_core/IApplicationDestinations.SetAppID
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Shell32.lib
 req.dll: Shell32.dll (version 6.1 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - IApplicationDestinations.SetAppID
+- IApplicationDestinations.SetAppID
 targetos: Windows
 req.typenames: 
 req.redist: 

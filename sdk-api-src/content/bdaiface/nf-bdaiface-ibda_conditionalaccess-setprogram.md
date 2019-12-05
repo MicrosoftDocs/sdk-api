@@ -1,19 +1,17 @@
 ---
 UID: NF:bdaiface.IBDA_ConditionalAccess.SetProgram
 title: IBDA_ConditionalAccess::SetProgram (bdaiface.h)
-
 description: The SetProgram method sets the program number.
 old-location: mstv\ibda_conditionalaccess_setprogram.htm
 tech.root: mstv
 ms.assetid: d38fc9bc-70e8-419e-b7be-33d1f53a723e
-
 ms.date: 12/05/2018
 ms.keywords: IBDA_ConditionalAccess interface [Microsoft TV Technologies],SetProgram method, IBDA_ConditionalAccess.SetProgram, IBDA_ConditionalAccess::SetProgram, IBDA_ConditionalAccessSetProgram, SetProgram, SetProgram method [Microsoft TV Technologies], SetProgram method [Microsoft TV Technologies],IBDA_ConditionalAccess interface, bdaiface/IBDA_ConditionalAccess::SetProgram, mstv.ibda_conditionalaccess_setprogram
 ms.topic: method
-f1_keywords: 
- - "bdaiface/IBDA_ConditionalAccess.SetProgram"
+f1_keywords:
+- bdaiface/IBDA_ConditionalAccess.SetProgram
 dev_langs:
- - c++
+- c++
 req.header: bdaiface.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Bdaiface.h
+- Bdaiface.h
 api_name:
- - IBDA_ConditionalAccess.SetProgram
+- IBDA_ConditionalAccess.SetProgram
 targetos: Windows
 req.typenames: 
 req.redist: 

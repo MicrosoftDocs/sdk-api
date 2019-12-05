@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationAnnotationPattern.get_CurrentAnnotationTypeName
 title: IUIAutomationAnnotationPattern::get_CurrentAnnotationTypeName (uiautomationclient.h)
-
 description: Retrieves the localized name of this annotation's type.
 old-location: winauto\uiauto_IUIAutomationAnnotationPattern_CurrentAnnotationTypeName.htm
 tech.root: WinAuto
 ms.assetid: 5AACADE4-304D-47FA-9A55-78B974E8D46C
-
 ms.date: 12/05/2018
 ms.keywords: CurrentAnnotationTypeName property [Windows Accessibility], CurrentAnnotationTypeName property [Windows Accessibility],IUIAutomationAnnotationPattern interface, IUIAutomationAnnotationPattern interface [Windows Accessibility],CurrentAnnotationTypeName property, IUIAutomationAnnotationPattern.CurrentAnnotationTypeName, IUIAutomationAnnotationPattern.get_CurrentAnnotationTypeName, IUIAutomationAnnotationPattern::CurrentAnnotationTypeName, IUIAutomationAnnotationPattern::get_CurrentAnnotationTypeName, get_CurrentAnnotationTypeName, uiautomationclient/IUIAutomationAnnotationPattern::CurrentAnnotationTypeName, uiautomationclient/IUIAutomationAnnotationPattern::get_CurrentAnnotationTypeName, winauto.uiauto_IUIAutomationAnnotationPattern_CurrentAnnotationTypeName
 ms.topic: method
-f1_keywords: 
- - "uiautomationclient/IUIAutomationAnnotationPattern.CurrentAnnotationTypeName"
+f1_keywords:
+- uiautomationclient/IUIAutomationAnnotationPattern.CurrentAnnotationTypeName
 dev_langs:
- - c++
+- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationClient.h
+- UIAutomationClient.h
 api_name:
- - IUIAutomationAnnotationPattern.CurrentAnnotationTypeName
- - IUIAutomationAnnotationPattern.get_CurrentAnnotationTypeName
+- IUIAutomationAnnotationPattern.CurrentAnnotationTypeName
+- IUIAutomationAnnotationPattern.get_CurrentAnnotationTypeName
 targetos: Windows
 req.typenames: 
 req.redist: 

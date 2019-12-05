@@ -1,19 +1,17 @@
 ---
 UID: NF:uiribbon.IUICollection.Clear
 title: IUICollection::Clear (uiribbon.h)
-
 description: Deletes all items from the IUICollection.
 old-location: windowsribbon\windowsribbon_iuicollection_clear.htm
 tech.root: windowsribbon
 ms.assetid: VS|scenicintent|~\scenicintent\reference\ifaces\iuicollection\clear.htm
-
 ms.date: 12/05/2018
 ms.keywords: Clear, Clear method [Windows Ribbon], Clear method [Windows Ribbon],IUICollection interface, IUICollection interface [Windows Ribbon],Clear method, IUICollection.Clear, IUICollection::Clear, scenicintent_IUICollection_Clear, uiribbon/IUICollection::Clear, windowsribbon.windowsribbon_iuicollection_clear
 ms.topic: method
-f1_keywords: 
- - "uiribbon/IUICollection.Clear"
+f1_keywords:
+- uiribbon/IUICollection.Clear
 dev_langs:
- - c++
+- c++
 req.header: uiribbon.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Mshtml.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mshtml.dll
+- Mshtml.dll
 api_name:
- - IUICollection.Clear
+- IUICollection.Clear
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NS:winuser.tagDELETEITEMSTRUCT
 title: DELETEITEMSTRUCT (winuser.h)
-
 description: Describes a deleted list box or combo box item.
 old-location: controls\DELETEITEMSTRUCT.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listboxes\listboxreference\listboxstructures\deleteitemstruct.htm
-
 ms.date: 12/05/2018
-ms.keywords: "*LPDELETEITEMSTRUCT, *PDELETEITEMSTRUCT, DELETEITEMSTRUCT, DELETEITEMSTRUCT structure [Windows Controls], ODT_COMBOBOX, ODT_LISTBOX, PDELETEITEMSTRUCT, PDELETEITEMSTRUCT structure pointer [Windows Controls], _win32_DELETEITEMSTRUCT_str, _win32_DELETEITEMSTRUCT_str_cpp, controls.DELETEITEMSTRUCT, controls._win32_DELETEITEMSTRUCT_str, winuser/DELETEITEMSTRUCT, winuser/PDELETEITEMSTRUCT"
+ms.keywords: '*LPDELETEITEMSTRUCT, *PDELETEITEMSTRUCT, DELETEITEMSTRUCT, DELETEITEMSTRUCT structure [Windows Controls], ODT_COMBOBOX, ODT_LISTBOX, PDELETEITEMSTRUCT, PDELETEITEMSTRUCT structure pointer [Windows Controls], _win32_DELETEITEMSTRUCT_str, _win32_DELETEITEMSTRUCT_str_cpp, controls.DELETEITEMSTRUCT, controls._win32_DELETEITEMSTRUCT_str, winuser/DELETEITEMSTRUCT, winuser/PDELETEITEMSTRUCT'
 ms.topic: struct
-f1_keywords: 
- - "winuser/DELETEITEMSTRUCT"
+f1_keywords:
+- winuser/DELETEITEMSTRUCT
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Winuser.h
+- Winuser.h
 api_name:
- - DELETEITEMSTRUCT
+- DELETEITEMSTRUCT
 targetos: Windows
 req.typenames: DELETEITEMSTRUCT, *PDELETEITEMSTRUCT, *LPDELETEITEMSTRUCT
 req.redist: 

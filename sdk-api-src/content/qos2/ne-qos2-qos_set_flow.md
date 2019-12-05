@@ -1,19 +1,17 @@
 ---
 UID: NE:qos2._QOS_SET_FLOW
 title: QOS_SET_FLOW (qos2.h)
-
 description: The QOS_SET_FLOW enumeration indicates what is being changed about a flow.
 old-location: qos\qos_set_flow.htm
 tech.root: QOS
 ms.assetid: 986652bc-df2f-4210-bf9c-1a5d8c3ee773
-
 ms.date: 12/05/2018
-ms.keywords: "*PQOS_SET_FLOW, PQOS_SET_FLOW, PQOS_SET_FLOW enumeration pointer [QOS], QOSSetOutgoingDSCPValue, QOSSetOutgoingRate, QOSSetTrafficType, QOS_SET_FLOW, QOS_SET_FLOW enumeration [QOS], qos.qos_set_flow, qos2/PQOS_SET_FLOW, qos2/QOSSetOutgoingDSCPValue, qos2/QOSSetOutgoingRate, qos2/QOSSetTrafficType, qos2/QOS_SET_FLOW"
+ms.keywords: '*PQOS_SET_FLOW, PQOS_SET_FLOW, PQOS_SET_FLOW enumeration pointer [QOS], QOSSetOutgoingDSCPValue, QOSSetOutgoingRate, QOSSetTrafficType, QOS_SET_FLOW, QOS_SET_FLOW enumeration [QOS], qos.qos_set_flow, qos2/PQOS_SET_FLOW, qos2/QOSSetOutgoingDSCPValue, qos2/QOSSetOutgoingRate, qos2/QOSSetTrafficType, qos2/QOS_SET_FLOW'
 ms.topic: enum
-f1_keywords: 
- - "qos2/QOS_SET_FLOW"
+f1_keywords:
+- qos2/QOS_SET_FLOW
 dev_langs:
- - c++
+- c++
 req.header: qos2.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Qos2.h
+- Qos2.h
 api_name:
- - QOS_SET_FLOW
+- QOS_SET_FLOW
 targetos: Windows
 req.typenames: QOS_SET_FLOW, *PQOS_SET_FLOW
 req.redist: 

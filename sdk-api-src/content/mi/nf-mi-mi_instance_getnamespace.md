@@ -1,19 +1,17 @@
 ---
 UID: NF:mi.MI_Instance_GetNameSpace
 title: MI_Instance_GetNameSpace function (mi.h)
-
 description: Gets the namespace name of the specified instance.
 old-location: wmi_v2\mi_instance_getnamespace.htm
 tech.root: wmi_v2
 ms.assetid: 885423d6-c247-4d45-a5fd-a1a18bd5e6e2
-
 ms.date: 12/05/2018
 ms.keywords: MI_Instance_GetNameSpace, MI_Instance_GetNameSpace function [Windows Management Infrastructure (MI)], mi/MI_Instance_GetNameSpace, wmi_v2.mi_instance_getnamespace
 ms.topic: function
 f1_keywords:
 - mi/MI_Instance_GetNameSpace
 dev_langs:
- - c++
+- c++
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows

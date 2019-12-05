@@ -1,19 +1,17 @@
 ---
 UID: NS:immdev.tagIMECHARPOSITION
 title: IMECHARPOSITION (immdev.h)
-
 description: Contains information about the character position in the composition window.
 old-location: intl\imecharposition.htm
 tech.root: Intl
 ms.assetid: 5c278df0-ce90-4f9d-915e-45dadc823360
-
 ms.date: 12/05/2018
-ms.keywords: "*LPIMECHARPOSITION, *NPIMECHARPOSITION, *PIMECHARPOSITION, IMECHARPOSITION, IMECHARPOSITION structure [Internationalization for Windows Applications], PIMECHARPOSITION, PIMECHARPOSITION structure pointer [Internationalization for Windows Applications], _win32_IMECHARPOSITION_str, imm/IMECHARPOSITION, imm/PIMECHARPOSITION, intl.imecharposition, tagIMECHARPOSITION"
+ms.keywords: '*LPIMECHARPOSITION, *NPIMECHARPOSITION, *PIMECHARPOSITION, IMECHARPOSITION, IMECHARPOSITION structure [Internationalization for Windows Applications], PIMECHARPOSITION, PIMECHARPOSITION structure pointer [Internationalization for Windows Applications], _win32_IMECHARPOSITION_str, imm/IMECHARPOSITION, imm/PIMECHARPOSITION, intl.imecharposition, tagIMECHARPOSITION'
 ms.topic: struct
-f1_keywords: 
- - "immdev/IMECHARPOSITION"
+f1_keywords:
+- immdev/IMECHARPOSITION
 dev_langs:
- - c++
+- c++
 req.header: immdev.h
 req.include-header: Immdev.h, Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Imm.h
+- Imm.h
 api_name:
- - IMECHARPOSITION
+- IMECHARPOSITION
 targetos: Windows
 req.typenames: IMECHARPOSITION, *PIMECHARPOSITION, *NPIMECHARPOSITION, *LPIMECHARPOSITION
 req.redist: 

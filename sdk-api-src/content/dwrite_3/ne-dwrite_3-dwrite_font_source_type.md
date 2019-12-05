@@ -1,17 +1,15 @@
 ---
 UID: NE:dwrite_3.DWRITE_FONT_SOURCE_TYPE
 title: DWRITE_FONT_SOURCE_TYPE
-
 description: Defines constants that specify the mechanism by which a font came to be included in a font set.
 tech.root: DirectWrite
-
 ms.date: 09/16/2019
 ms.keywords: DWRITE_FONT_SOURCE_TYPE, DWRITE_FONT_SOURCE_TYPE enumeration [Direct Write], directwrite.dwrite_font_source_type, dwrite_3/DWRITE_FONT_SOURCE_TYPE
 ms.topic: enum
-f1_keywords: 
- - "dwrite_3/DWRITE_FONT_SOURCE_TYPE"
+f1_keywords:
+- dwrite_3/DWRITE_FONT_SOURCE_TYPE
 dev_langs:
- - c++
+- c++
 req.construct-type: enumeration
 req.header: dwrite_3.h
 req.include-header: 
@@ -31,14 +29,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - dwrite_3.h
+- dwrite_3.h
 api_name:
- - DWRITE_FONT_SOURCE_TYPE
+- DWRITE_FONT_SOURCE_TYPE
 targetos: Windows
 req.typenames: 
 req.redist: 

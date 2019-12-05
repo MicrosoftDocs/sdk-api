@@ -1,19 +1,17 @@
 ---
 UID: NF:msopc.IOpcSignaturePartReference.GetContentType
 title: IOpcSignaturePartReference::GetContentType (msopc.h)
-
 description: Gets the content type of the referenced part.
 old-location: opc\iopcsignaturepartreference_getcontenttype.htm
 tech.root: OPC
 ms.assetid: 1384a0ab-d2dc-49c6-b180-648e256a875d
-
 ms.date: 12/05/2018
 ms.keywords: GetContentType, GetContentType method [Open Packaging Conventions], GetContentType method [Open Packaging Conventions],IOpcSignaturePartReference interface, IOpcSignaturePartReference interface [Open Packaging Conventions],GetContentType method, IOpcSignaturePartReference.GetContentType, IOpcSignaturePartReference::GetContentType, msopc/IOpcSignaturePartReference::GetContentType, opc.iopcsignaturepartreference_getcontenttype
 ms.topic: method
-f1_keywords: 
- - "msopc/IOpcSignaturePartReference.GetContentType"
+f1_keywords:
+- msopc/IOpcSignaturePartReference.GetContentType
 dev_langs:
- - c++
+- c++
 req.header: msopc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msopc.h
+- msopc.h
 api_name:
- - IOpcSignaturePartReference.GetContentType
+- IOpcSignaturePartReference.GetContentType
 targetos: Windows
 req.typenames: 
 req.redist: 

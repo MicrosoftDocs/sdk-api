@@ -1,19 +1,17 @@
 ---
 UID: NF:msctf.ITfContext.GetAppProperty
 title: ITfContext::GetAppProperty (msctf.h)
-
 description: ITfContext::GetAppProperty method
 old-location: tsf\itfcontext_getappproperty.htm
 tech.root: TSF
 ms.assetid: 5c04ff8e-5686-4802-b312-71dddaf0155e
-
 ms.date: 12/05/2018
 ms.keywords: GetAppProperty, GetAppProperty method [Text Services Framework], GetAppProperty method [Text Services Framework],ITfContext interface, ITfContext interface [Text Services Framework],GetAppProperty method, ITfContext.GetAppProperty, ITfContext::GetAppProperty, _tsf_itfcontext_getappproperty_ref, msctf/ITfContext::GetAppProperty, tsf.itfcontext_getappproperty
 ms.topic: method
-f1_keywords: 
- - "msctf/ITfContext.GetAppProperty"
+f1_keywords:
+- msctf/ITfContext.GetAppProperty
 dev_langs:
- - c++
+- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msctf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msctf.dll
+- msctf.dll
 api_name:
- - ITfContext.GetAppProperty
+- ITfContext.GetAppProperty
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

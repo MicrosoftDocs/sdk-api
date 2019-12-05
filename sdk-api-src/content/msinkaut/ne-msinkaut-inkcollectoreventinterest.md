@@ -1,19 +1,17 @@
 ---
 UID: NE:msinkaut.InkCollectorEventInterest
 title: InkCollectorEventInterest (msinkaut.h)
-
 description: Defines values that are used to specify whether an event occurred on an ink collector and, if so, which event fired.
 old-location: tablet\inkcollectoreventinterest.htm
 tech.root: tablet
 ms.assetid: db575790-345b-48da-b509-927eb2f47987
-
 ms.date: 12/05/2018
 ms.keywords: ICEI_AllEvents, ICEI_CursorButtonDown, ICEI_CursorButtonUp, ICEI_CursorDown, ICEI_CursorInRange, ICEI_CursorOutOfRange, ICEI_DblClick, ICEI_DefaultEvents, ICEI_MouseDown, ICEI_MouseMove, ICEI_MouseUp, ICEI_MouseWheel, ICEI_NewInAirPackets, ICEI_NewPackets, ICEI_Stroke, ICEI_SystemGesture, ICEI_TabletAdded, ICEI_TabletRemoved, InkCollectorEventInterest, InkCollectorEventInterest enumeration [Tablet PC], db575790-345b-48da-b509-927eb2f47987, msinkaut/ICEI_AllEvents, msinkaut/ICEI_CursorButtonDown, msinkaut/ICEI_CursorButtonUp, msinkaut/ICEI_CursorDown, msinkaut/ICEI_CursorInRange, msinkaut/ICEI_CursorOutOfRange, msinkaut/ICEI_DblClick, msinkaut/ICEI_DefaultEvents, msinkaut/ICEI_MouseDown, msinkaut/ICEI_MouseMove, msinkaut/ICEI_MouseUp, msinkaut/ICEI_MouseWheel, msinkaut/ICEI_NewInAirPackets, msinkaut/ICEI_NewPackets, msinkaut/ICEI_Stroke, msinkaut/ICEI_SystemGesture, msinkaut/ICEI_TabletAdded, msinkaut/ICEI_TabletRemoved, msinkaut/InkCollectorEventInterest, tablet.inkcollectoreventinterest
 ms.topic: enum
-f1_keywords: 
- - "msinkaut/InkCollectorEventInterest"
+f1_keywords:
+- msinkaut/InkCollectorEventInterest
 dev_langs:
- - c++
+- c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - msinkaut.h
+- msinkaut.h
 api_name:
- - InkCollectorEventInterest
+- InkCollectorEventInterest
 targetos: Windows
 req.typenames: InkCollectorEventInterest
 req.redist: 

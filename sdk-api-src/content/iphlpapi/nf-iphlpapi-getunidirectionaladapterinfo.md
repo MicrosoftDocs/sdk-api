@@ -1,19 +1,17 @@
 ---
 UID: NF:iphlpapi.GetUniDirectionalAdapterInfo
 title: GetUniDirectionalAdapterInfo function (iphlpapi.h)
-
 description: The GetUniDirectionalAdapterInfo function retrieves information about the unidirectional adapters installed on the local computer. A unidirectional adapter is an adapter that can receive datagrams, but not transmit them.
 old-location: iphlp\getunidirectionaladapterinfo.htm
 tech.root: IpHlp
 ms.assetid: 32aa3a8e-ae74-4da9-bc8d-b28e270d9702
-
 ms.date: 12/05/2018
 ms.keywords: GetUniDirectionalAdapterInfo, GetUniDirectionalAdapterInfo function [IP Helper], _iphlp_getunidirectionaladapterinfo, iphlp.getunidirectionaladapterinfo, iphlpapi/GetUniDirectionalAdapterInfo
 ms.topic: function
-f1_keywords: 
- - "iphlpapi/GetUniDirectionalAdapterInfo"
+f1_keywords:
+- iphlpapi/GetUniDirectionalAdapterInfo
 dev_langs:
- - c++
+- c++
 req.header: iphlpapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Iphlpapi.lib
 req.dll: Iphlpapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Iphlpapi.dll
+- Iphlpapi.dll
 api_name:
- - GetUniDirectionalAdapterInfo
+- GetUniDirectionalAdapterInfo
 targetos: Windows
 req.typenames: 
 req.redist: 

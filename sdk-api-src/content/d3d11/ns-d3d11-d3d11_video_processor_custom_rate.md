@@ -1,19 +1,17 @@
 ---
 UID: NS:d3d11.D3D11_VIDEO_PROCESSOR_CUSTOM_RATE
 title: D3D11_VIDEO_PROCESSOR_CUSTOM_RATE (d3d11.h)
-
 description: Specifies a custom rate for frame-rate conversion or inverse telecine (IVTC).
 old-location: mf\d3d11_video_processor_custom_rate.htm
 tech.root: medfound
 ms.assetid: 237357C8-546E-41E5-8002-E5499E39DA72
-
 ms.date: 12/05/2018
 ms.keywords: D3D11_VIDEO_PROCESSOR_CUSTOM_RATE, D3D11_VIDEO_PROCESSOR_CUSTOM_RATE structure [Media Foundation], d3d11/D3D11_VIDEO_PROCESSOR_CUSTOM_RATE, mf.d3d11_video_processor_custom_rate
 ms.topic: struct
-f1_keywords: 
- - "d3d11/D3D11_VIDEO_PROCESSOR_CUSTOM_RATE"
+f1_keywords:
+- d3d11/D3D11_VIDEO_PROCESSOR_CUSTOM_RATE
 dev_langs:
- - c++
+- c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - d3d11.h
+- d3d11.h
 api_name:
- - D3D11_VIDEO_PROCESSOR_CUSTOM_RATE
+- D3D11_VIDEO_PROCESSOR_CUSTOM_RATE
 targetos: Windows
 req.typenames: D3D11_VIDEO_PROCESSOR_CUSTOM_RATE
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:winuser.LoadAcceleratorsA
 title: LoadAcceleratorsA function (winuser.h)
-
 description: Loads the specified accelerator table.
 old-location: menurc\loadaccelerators.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\keyboardaccelerators\keyboardacceleratorreference\keyboardacceleratorfunctions\loadaccelerators.htm
-
 ms.date: 12/05/2018
 ms.keywords: LoadAccelerators, LoadAccelerators function [Menus and Other Resources], LoadAcceleratorsA, LoadAcceleratorsW, _win32_LoadAccelerators, _win32_loadaccelerators_cpp, menurc.loadaccelerators, winui._win32_loadaccelerators, winuser/LoadAccelerators, winuser/LoadAcceleratorsA, winuser/LoadAcceleratorsW
 ms.topic: function
-f1_keywords: 
- - "winuser/LoadAccelerators"
+f1_keywords:
+- winuser/LoadAccelerators
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,24 +30,24 @@ req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - User32.dll
- - Ext-MS-Win-NTUser-Keyboard-l1-1-0.dll
- - Ext-MS-Win-NTUser-Keyboard-l1-1-1.dll
- - api-ms-win-ntuser-ie-keyboard-l1-1-0.dll
- - ie_stubs.dll
- - ext-ms-win-ntuser-keyboard-l1-1-2.dll
- - Ext-MS-Win-NTUser-Keyboard-L1-2-0.dll
- - Ext-MS-Win-NTUser-Keyboard-L1-2-1.dll
- - Ext-MS-Win-NTUser-Keyboard-L1-3-0.dll
+- User32.dll
+- Ext-MS-Win-NTUser-Keyboard-l1-1-0.dll
+- Ext-MS-Win-NTUser-Keyboard-l1-1-1.dll
+- api-ms-win-ntuser-ie-keyboard-l1-1-0.dll
+- ie_stubs.dll
+- ext-ms-win-ntuser-keyboard-l1-1-2.dll
+- Ext-MS-Win-NTUser-Keyboard-L1-2-0.dll
+- Ext-MS-Win-NTUser-Keyboard-L1-2-1.dll
+- Ext-MS-Win-NTUser-Keyboard-L1-3-0.dll
 api_name:
- - LoadAccelerators
- - LoadAcceleratorsA
- - LoadAcceleratorsW
+- LoadAccelerators
+- LoadAcceleratorsA
+- LoadAcceleratorsW
 targetos: Windows
 req.typenames: 
 req.redist: 

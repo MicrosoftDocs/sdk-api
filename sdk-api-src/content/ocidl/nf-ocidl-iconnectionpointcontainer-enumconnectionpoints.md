@@ -1,19 +1,17 @@
 ---
 UID: NF:ocidl.IConnectionPointContainer.EnumConnectionPoints
 title: IConnectionPointContainer::EnumConnectionPoints (ocidl.h)
-
 description: Creates an enumerator object to iterate through all the connection points supported in the connectable object, one connection point per outgoing IID.
 old-location: com\iconnectionpointcontainer_enumconnectionpoints.htm
 tech.root: com
 ms.assetid: 527f94b6-af8e-4ff0-8e99-cd4c5d692628
-
 ms.date: 12/05/2018
 ms.keywords: EnumConnectionPoints, EnumConnectionPoints method [COM], EnumConnectionPoints method [COM],IConnectionPointContainer interface, IConnectionPointContainer interface [COM],EnumConnectionPoints method, IConnectionPointContainer.EnumConnectionPoints, IConnectionPointContainer::EnumConnectionPoints, _com_iconnectionpointcontainer_enumconnectionpoints, com.iconnectionpointcontainer_enumconnectionpoints, ocidl/IConnectionPointContainer::EnumConnectionPoints
 ms.topic: method
-f1_keywords: 
- - "ocidl/IConnectionPointContainer.EnumConnectionPoints"
+f1_keywords:
+- ocidl/IConnectionPointContainer.EnumConnectionPoints
 dev_langs:
- - c++
+- c++
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - OCIdl.h
+- OCIdl.h
 api_name:
- - IConnectionPointContainer.EnumConnectionPoints
+- IConnectionPointContainer.EnumConnectionPoints
 targetos: Windows
 req.typenames: 
 req.redist: 

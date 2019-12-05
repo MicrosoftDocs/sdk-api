@@ -1,19 +1,17 @@
 ---
 UID: NF:setupapi.SetupDiGetDeviceRegistryPropertyW
 title: SetupDiGetDeviceRegistryPropertyW function (setupapi.h)
-
 description: The SetupDiGetDeviceRegistryProperty function retrieves a specified Plug and Play device property.
 old-location: devinst\setupdigetdeviceregistryproperty.htm
 tech.root: devinst
 ms.assetid: d42269dc-57b5-4303-94d9-02f6ee16a96f
-
 ms.date: 12/05/2018
 ms.keywords: SetupDiGetDeviceRegistryProperty, SetupDiGetDeviceRegistryProperty function [Device and Driver Installation], SetupDiGetDeviceRegistryPropertyA, SetupDiGetDeviceRegistryPropertyW, devinst.setupdigetdeviceregistryproperty, di-rtns_a60fa017-1c15-45bf-a178-37516bc0aea1.xml, setupapi/SetupDiGetDeviceRegistryProperty
 ms.topic: function
 f1_keywords:
 - setupapi/SetupDiGetDeviceRegistryProperty
 dev_langs:
- - c++
+- c++
 req.header: setupapi.h
 req.include-header: Setupapi.h
 req.target-type: DesktopFor universal, call CM_Get_DevNode_Registry_Property
@@ -40,8 +38,7 @@ api_location:
 - Setupapi.lib
 - Setupapi.dll
 api_name:
-- SetupDiGetDeviceRegistryProperty
- - SetupDiGetDeviceRegistryPropertyW
+- SetupDiGetDeviceRegistryProperty - SetupDiGetDeviceRegistryPropertyW
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:wmsdkidl.IWMReaderNetworkConfig2.GetAcceleratedStreamingDuration
 title: IWMReaderNetworkConfig2::GetAcceleratedStreamingDuration (wmsdkidl.h)
-
 description: The GetAcceleratedStreamingDuration method retrieves the current accelerated streaming duration.
 old-location: wmformat\iwmreadernetworkconfig2_getacceleratedstreamingduration.htm
 tech.root: wmformat
 ms.assetid: a8feda02-113a-4763-b695-c4cd48781ade
-
 ms.date: 12/05/2018
 ms.keywords: GetAcceleratedStreamingDuration, GetAcceleratedStreamingDuration method [windows Media Format], GetAcceleratedStreamingDuration method [windows Media Format],IWMReaderNetworkConfig2 interface, IWMReaderNetworkConfig2 interface [windows Media Format],GetAcceleratedStreamingDuration method, IWMReaderNetworkConfig2.GetAcceleratedStreamingDuration, IWMReaderNetworkConfig2::GetAcceleratedStreamingDuration, IWMReaderNetworkConfig2GetAcceleratedStreamingDuration, wmformat.iwmreadernetworkconfig2_getacceleratedstreamingduration, wmsdkidl/IWMReaderNetworkConfig2::GetAcceleratedStreamingDuration
 ms.topic: method
-f1_keywords: 
- - "wmsdkidl/IWMReaderNetworkConfig2.GetAcceleratedStreamingDuration"
+f1_keywords:
+- wmsdkidl/IWMReaderNetworkConfig2.GetAcceleratedStreamingDuration
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wmvcore.lib
- - Wmvcore.dll
- - WMStubDRM.lib
- - WMStubDRM.dll
+- Wmvcore.lib
+- Wmvcore.dll
+- WMStubDRM.lib
+- WMStubDRM.dll
 api_name:
- - IWMReaderNetworkConfig2.GetAcceleratedStreamingDuration
+- IWMReaderNetworkConfig2.GetAcceleratedStreamingDuration
 targetos: Windows
 req.typenames: 
 req.redist: 

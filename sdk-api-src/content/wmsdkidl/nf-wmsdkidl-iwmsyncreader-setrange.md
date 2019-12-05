@@ -1,19 +1,17 @@
 ---
 UID: NF:wmsdkidl.IWMSyncReader.SetRange
 title: IWMSyncReader::SetRange (wmsdkidl.h)
-
 description: The SetRange method enables you to specify a start time and duration for playback by the synchronous reader.
 old-location: wmformat\iwmsyncreader_setrange.htm
 tech.root: wmformat
 ms.assetid: d96c97ad-085d-4753-8efb-8a6bcb284e78
-
 ms.date: 12/05/2018
 ms.keywords: IWMSyncReader interface [windows Media Format],SetRange method, IWMSyncReader.SetRange, IWMSyncReader::SetRange, IWMSyncReaderSetRange, SetRange, SetRange method [windows Media Format], SetRange method [windows Media Format],IWMSyncReader interface, wmformat.iwmsyncreader_setrange, wmsdkidl/IWMSyncReader::SetRange
 ms.topic: method
-f1_keywords: 
- - "wmsdkidl/IWMSyncReader.SetRange"
+f1_keywords:
+- wmsdkidl/IWMSyncReader.SetRange
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wmvcore.lib
- - Wmvcore.dll
- - WMStubDRM.lib
- - WMStubDRM.dll
+- Wmvcore.lib
+- Wmvcore.dll
+- WMStubDRM.lib
+- WMStubDRM.dll
 api_name:
- - IWMSyncReader.SetRange
+- IWMSyncReader.SetRange
 targetos: Windows
 req.typenames: 
 req.redist: 

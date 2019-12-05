@@ -1,19 +1,17 @@
 ---
 UID: NF:segment.IMSVidAudioRendererEvent2.AVDecAudioDualMono
 title: IMSVidAudioRendererEvent2::AVDecAudioDualMono (segment.h)
-
 description: Indicates a change in the AVDecAudioDualMono codec property.
 old-location: mstv\imsvidaudiorendererevent2_avdecaudiodualmono.htm
 tech.root: mstv
 ms.assetid: e5a3984a-a925-4e21-9b2d-50968365bb2b
-
 ms.date: 12/05/2018
 ms.keywords: AVDecAudioDualMono, AVDecAudioDualMono method [Microsoft TV Technologies], AVDecAudioDualMono method [Microsoft TV Technologies],IMSVidAudioRendererEvent2 interface, IMSVidAudioRendererEvent2 interface [Microsoft TV Technologies],AVDecAudioDualMono method, IMSVidAudioRendererEvent2.AVDecAudioDualMono, IMSVidAudioRendererEvent2::AVDecAudioDualMono, mstv.imsvidaudiorendererevent2_avdecaudiodualmono, segment/IMSVidAudioRendererEvent2::AVDecAudioDualMono
 ms.topic: method
-f1_keywords: 
- - "segment/IMSVidAudioRendererEvent2.AVDecAudioDualMono"
+f1_keywords:
+- segment/IMSVidAudioRendererEvent2.AVDecAudioDualMono
 dev_langs:
- - c++
+- c++
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - segment.h
+- segment.h
 api_name:
- - IMSVidAudioRendererEvent2.AVDecAudioDualMono
+- IMSVidAudioRendererEvent2.AVDecAudioDualMono
 targetos: Windows
 req.typenames: 
 req.redist: 

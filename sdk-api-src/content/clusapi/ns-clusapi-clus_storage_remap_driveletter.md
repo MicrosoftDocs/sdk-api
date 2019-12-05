@@ -1,19 +1,17 @@
 ---
 UID: NS:clusapi._CLUS_STORAGE_REMAP_DRIVELETTER
 title: CLUS_STORAGE_REMAP_DRIVELETTER (clusapi.h)
-
 description: Identifies the existing and target drive letter for a disk drive on a node.
 old-location: mscs\clus_storage_remap_driveletter.htm
 tech.root: MsCS
 ms.assetid: b79e4aa0-fca3-4b9c-9e3f-73cd627752a2
-
 ms.date: 12/05/2018
-ms.keywords: "*PCLUS_STORAGE_REMAP_DRIVELETTER, CLUS_STORAGE_REMAP_DRIVELETTER, CLUS_STORAGE_REMAP_DRIVELETTER structure [Failover Cluster], PCLUS_STORAGE_REMAP_DRIVELETTER, PCLUS_STORAGE_REMAP_DRIVELETTER structure pointer [Failover Cluster], clusapi/CLUS_STORAGE_REMAP_DRIVELETTER, clusapi/PCLUS_STORAGE_REMAP_DRIVELETTER, mscs.clus_storage_remap_driveletter"
+ms.keywords: '*PCLUS_STORAGE_REMAP_DRIVELETTER, CLUS_STORAGE_REMAP_DRIVELETTER, CLUS_STORAGE_REMAP_DRIVELETTER structure [Failover Cluster], PCLUS_STORAGE_REMAP_DRIVELETTER, PCLUS_STORAGE_REMAP_DRIVELETTER structure pointer [Failover Cluster], clusapi/CLUS_STORAGE_REMAP_DRIVELETTER, clusapi/PCLUS_STORAGE_REMAP_DRIVELETTER, mscs.clus_storage_remap_driveletter'
 ms.topic: struct
-f1_keywords: 
- - "clusapi/CLUS_STORAGE_REMAP_DRIVELETTER"
+f1_keywords:
+- clusapi/CLUS_STORAGE_REMAP_DRIVELETTER
 dev_langs:
- - c++
+- c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - ClusAPI.h
+- ClusAPI.h
 api_name:
- - CLUS_STORAGE_REMAP_DRIVELETTER
+- CLUS_STORAGE_REMAP_DRIVELETTER
 targetos: Windows
 req.typenames: CLUS_STORAGE_REMAP_DRIVELETTER, *PCLUS_STORAGE_REMAP_DRIVELETTER
 req.redist: 

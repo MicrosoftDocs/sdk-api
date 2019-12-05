@@ -1,19 +1,17 @@
 ---
 UID: NN:portabledeviceapi.IPortableDeviceUnitsStream
 title: IPortableDeviceUnitsStream (portabledeviceapi.h)
-
 description: The IPortableDeviceUnitsStream interface provides a way to operate, or seek, on a stream by using alternate units, such as frames or milliseconds.
 old-location: wpdsdk\iportabledeviceunitsstream.htm
 tech.root: wpd_sdk
 ms.assetid: 4E9B2ECC-91D0-4D4F-980D-54AC88F3175D
-
 ms.date: 12/05/2018
 ms.keywords: IPortableDeviceUnitsStream, IPortableDeviceUnitsStream interface [Windows Portable Devices SDK], IPortableDeviceUnitsStream interface [Windows Portable Devices SDK],described, portabledeviceapi/IPortableDeviceUnitsStream, wpdsdk.iportabledeviceunitsstream
 ms.topic: interface
-f1_keywords: 
- - "portabledeviceapi/IPortableDeviceUnitsStream"
+f1_keywords:
+- portabledeviceapi/IPortableDeviceUnitsStream
 dev_langs:
- - c++
+- c++
 req.header: portabledeviceapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: PortableDeviceGUIDs.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - PortableDeviceGUIDs.lib
- - PortableDeviceGUIDs.dll
+- PortableDeviceGUIDs.lib
+- PortableDeviceGUIDs.dll
 api_name:
- - IPortableDeviceUnitsStream
+- IPortableDeviceUnitsStream
 targetos: Windows
 req.typenames: 
 req.redist: 

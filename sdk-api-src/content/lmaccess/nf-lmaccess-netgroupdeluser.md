@@ -1,19 +1,17 @@
 ---
 UID: NF:lmaccess.NetGroupDelUser
 title: NetGroupDelUser function (lmaccess.h)
-
 description: The NetGroupDelUser function removes a user from a particular global group in the security database, which is the security accounts manager (SAM) database or, in the case of domain controllers, the Active Directory.
 old-location: netmgmt\netgroupdeluser.htm
 tech.root: NetMgmt
 ms.assetid: ab8ce12a-60c0-4d79-8894-4537c6568e15
-
 ms.date: 12/05/2018
 ms.keywords: NetGroupDelUser, NetGroupDelUser function [Network Management], _win32_netgroupdeluser, lmaccess/NetGroupDelUser, netmgmt.netgroupdeluser
 ms.topic: function
-f1_keywords: 
- - "lmaccess/NetGroupDelUser"
+f1_keywords:
+- lmaccess/NetGroupDelUser
 dev_langs:
- - c++
+- c++
 req.header: lmaccess.h
 req.include-header: Lm.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Netapi32.lib
 req.dll: Netapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Netapi32.dll
+- Netapi32.dll
 api_name:
- - NetGroupDelUser
+- NetGroupDelUser
 targetos: Windows
 req.typenames: 
 req.redist: 

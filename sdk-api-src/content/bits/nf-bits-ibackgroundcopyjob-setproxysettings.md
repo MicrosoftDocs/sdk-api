@@ -1,19 +1,17 @@
 ---
 UID: NF:bits.IBackgroundCopyJob.SetProxySettings
 title: IBackgroundCopyJob::SetProxySettings (bits.h)
-
 description: Specifies which proxy to use to transfer files.
 old-location: bits\ibackgroundcopyjob_setproxysettings.htm
 tech.root: Bits
 ms.assetid: fd21a17b-1049-4dd9-a08b-da84699b8006
-
 ms.date: 12/05/2018
 ms.keywords: IBackgroundCopyJob interface [BITS],SetProxySettings method, IBackgroundCopyJob.SetProxySettings, IBackgroundCopyJob::SetProxySettings, SetProxySettings, SetProxySettings method [BITS], SetProxySettings method [BITS],IBackgroundCopyJob interface, _drz_ibackgroundcopyjob_setproxysettings, bits.ibackgroundcopyjob_setproxysettings, bits/IBackgroundCopyJob::SetProxySettings
 ms.topic: method
-f1_keywords: 
- - "bits/IBackgroundCopyJob.SetProxySettings"
+f1_keywords:
+- bits/IBackgroundCopyJob.SetProxySettings
 dev_langs:
- - c++
+- c++
 req.header: bits.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Bits.lib
 req.dll: QmgrPrxy.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - QmgrPrxy.dll
+- QmgrPrxy.dll
 api_name:
- - IBackgroundCopyJob.SetProxySettings
+- IBackgroundCopyJob.SetProxySettings
 targetos: Windows
 req.typenames: 
 req.redist: 

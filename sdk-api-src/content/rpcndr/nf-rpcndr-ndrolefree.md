@@ -1,19 +1,17 @@
 ---
 UID: NF:rpcndr.NdrOleFree
 title: NdrOleFree function (rpcndr.h)
-
 description: The NdrOleFree function is a wrapper for the CoTaskMemFree function.
 old-location: rpc\ndrolefree.htm
 tech.root: Rpc
 ms.assetid: c4289448-11bb-40d1-ae63-68521b901796
-
 ms.date: 12/05/2018
 ms.keywords: NdrOleFree, NdrOleFree function [RPC], rpc.ndrolefree, rpcndr/NdrOleFree
 ms.topic: function
-f1_keywords: 
- - "rpcndr/NdrOleFree"
+f1_keywords:
+- rpcndr/NdrOleFree
 dev_langs:
- - c++
+- c++
 req.header: rpcndr.h
 req.include-header: Rpc.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: RpcRT4.lib
 req.dll: RpcRT4.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - RpcRT4.dll
+- RpcRT4.dll
 api_name:
- - NdrOleFree
+- NdrOleFree
 targetos: Windows
 req.typenames: 
 req.redist: 

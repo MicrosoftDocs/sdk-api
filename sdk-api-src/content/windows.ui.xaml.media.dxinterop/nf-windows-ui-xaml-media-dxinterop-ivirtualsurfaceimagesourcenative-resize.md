@@ -1,19 +1,17 @@
 ---
 UID: NF:windows.ui.xaml.media.dxinterop.IVirtualSurfaceImageSourceNative.Resize
 title: IVirtualSurfaceImageSourceNative::xaml (windows.ui.xaml.media.dxinterop.h)
-
 description: Resizes the surface.
 old-location: winrt\ivirtualsurfaceimagesourcenative_resize.htm
 tech.root: WinRT
 ms.assetid: 09808606-9735-4838-BE32-F10B172FD7A9
-
 ms.date: 12/05/2018
 ms.keywords: IVirtualSurfaceImageSourceNative interface [Windows Runtime],Resize method, IVirtualSurfaceImageSourceNative.Resize, IVirtualSurfaceImageSourceNative.xaml, IVirtualSurfaceImageSourceNative::Resize, IVirtualSurfaceImageSourceNative::xaml, Resize, Resize method [Windows Runtime], Resize method [Windows Runtime],IVirtualSurfaceImageSourceNative interface, windows/IVirtualSurfaceImageSourceNative::Resize, winrt.ivirtualsurfaceimagesourcenative_resize
 ms.topic: method
-f1_keywords: 
- - "windows.ui.xaml.media.dxinterop/IVirtualSurfaceImageSourceNative.Resize"
+f1_keywords:
+- windows.ui.xaml.media.dxinterop/IVirtualSurfaceImageSourceNative.Resize
 dev_langs:
- - c++
+- c++
 req.header: windows.ui.xaml.media.dxinterop.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Windows.UI.Xaml.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Windows.UI.Xaml.dll
+- Windows.UI.Xaml.dll
 api_name:
- - IVirtualSurfaceImageSourceNative.Resize
+- IVirtualSurfaceImageSourceNative.Resize
 targetos: Windows
 req.typenames: 
 req.redist: 

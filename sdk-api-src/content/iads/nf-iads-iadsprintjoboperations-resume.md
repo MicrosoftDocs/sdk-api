@@ -1,19 +1,17 @@
 ---
 UID: NF:iads.IADsPrintJobOperations.Resume
 title: IADsPrintJobOperations::Resume (iads.h)
-
 description: The IADsPrintJobOperations::Resume method continues the print job halted by the IADsPrintJobOperations::Pause method.
 old-location: adsi\iadsprintjoboperations_resume.htm
 tech.root: adsi
 ms.assetid: aed5f1be-36b6-413a-a1c0-c61823a31571
-
 ms.date: 12/05/2018
 ms.keywords: IADsPrintJobOperations interface [ADSI],Resume method, IADsPrintJobOperations.Resume, IADsPrintJobOperations::Resume, Resume, Resume method [ADSI], Resume method [ADSI],IADsPrintJobOperations interface, _ds_iadsprintjoboperations_resume, adsi.iadsprintjoboperations__resume, adsi.iadsprintjoboperations_resume, iads/IADsPrintJobOperations::Resume
 ms.topic: method
-f1_keywords: 
- - "iads/IADsPrintJobOperations.Resume"
+f1_keywords:
+- iads/IADsPrintJobOperations.Resume
 dev_langs:
- - c++
+- c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Activeds.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Activeds.dll
+- Activeds.dll
 api_name:
- - IADsPrintJobOperations.Resume
+- IADsPrintJobOperations.Resume
 targetos: Windows
 req.typenames: 
 req.redist: 

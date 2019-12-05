@@ -1,19 +1,17 @@
 ---
 UID: NF:winnls.IsDBCSLeadByteEx
 title: IsDBCSLeadByteEx function (winnls.h)
-
 description: Determines if a specified character is potentially a lead byte. A lead byte is the first byte of a two-byte character in a double-byte character set (DBCS) for the code page.
 old-location: intl\isdbcsleadbyteex.htm
 tech.root: Intl
 ms.assetid: 1ca67e7e-a2a7-433f-b2b6-8fa5ecc50354
-
 ms.date: 12/05/2018
 ms.keywords: CP_ACP, CP_MACCP, CP_OEMCP, CP_THREAD_ACP, IsDBCSLeadByteEx, IsDBCSLeadByteEx function [Internationalization for Windows Applications], _win32_IsDBCSLeadByteEx, intl.isdbcsleadbyteex, winnls/IsDBCSLeadByteEx
 ms.topic: function
-f1_keywords: 
- - "winnls/IsDBCSLeadByteEx"
+f1_keywords:
+- winnls/IsDBCSLeadByteEx
 dev_langs:
- - c++
+- c++
 req.header: winnls.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,20 +30,20 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - kernel32.dll
- - API-MS-Win-Core-Localization-l1-2-0.dll
- - KernelBase.dll
- - API-MS-Win-Core-Localization-l1-2-1.dll
- - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
- - MinKernelBase.dll
- - API-MS-Win-Core-Localization-L1-2-2.dll
+- kernel32.dll
+- API-MS-Win-Core-Localization-l1-2-0.dll
+- KernelBase.dll
+- API-MS-Win-Core-Localization-l1-2-1.dll
+- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+- MinKernelBase.dll
+- API-MS-Win-Core-Localization-L1-2-2.dll
 api_name:
- - IsDBCSLeadByteEx
+- IsDBCSLeadByteEx
 targetos: Windows
 req.typenames: 
 req.redist: 

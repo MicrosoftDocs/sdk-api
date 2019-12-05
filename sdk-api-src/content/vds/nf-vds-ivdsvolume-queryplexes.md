@@ -1,19 +1,17 @@
 ---
 UID: NF:vds.IVdsVolume.QueryPlexes
 title: IVdsVolume::QueryPlexes (vds.h)
-
 description: Returns an object that enumerates the plexes of the volume.
 old-location: base\ivdsvolume_queryplexes.htm
 tech.root: VDS
 ms.assetid: 33fc5b7c-4d05-4ec7-8d03-631c6d9f2f34
-
 ms.date: 12/05/2018
 ms.keywords: IVdsVolume interface [VDS],QueryPlexes method, IVdsVolume.QueryPlexes, IVdsVolume::QueryPlexes, QueryPlexes, QueryPlexes method [VDS], QueryPlexes method [VDS],IVdsVolume interface, base.ivdsvolume_queryplexes, vds/IVdsVolume::QueryPlexes
 ms.topic: method
-f1_keywords: 
- - "vds/IVdsVolume.QueryPlexes"
+f1_keywords:
+- vds/IVdsVolume.QueryPlexes
 dev_langs:
- - c++
+- c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Uuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Uuid.lib
- - Uuid.dll
+- Uuid.lib
+- Uuid.dll
 api_name:
- - IVdsVolume.QueryPlexes
+- IVdsVolume.QueryPlexes
 targetos: Windows
 req.typenames: 
 req.redist: 

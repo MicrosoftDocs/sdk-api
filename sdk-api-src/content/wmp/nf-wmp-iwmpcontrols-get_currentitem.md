@@ -1,19 +1,17 @@
 ---
 UID: NF:wmp.IWMPControls.get_currentItem
 title: IWMPControls::get_currentItem (wmp.h)
-
 description: The get_currentItem method retrieves the current media item in a playlist.
 old-location: wmp\iwmpcontrols_get_currentitem.htm
 tech.root: WMP
 ms.assetid: 1c2443cd-d7e6-466f-b728-ad04a415d192
-
 ms.date: 12/05/2018
 ms.keywords: IWMPControls interface [Windows Media Player],get_currentItem method, IWMPControls.get_currentItem, IWMPControls::get_currentItem, IWMPControlsget_currentItem, get_currentItem, get_currentItem method [Windows Media Player], get_currentItem method [Windows Media Player],IWMPControls interface, wmp.iwmpcontrols_get_currentitem, wmp/IWMPControls::get_currentItem
 ms.topic: method
-f1_keywords: 
- - "wmp/IWMPControls.get_currentItem"
+f1_keywords:
+- wmp/IWMPControls.get_currentItem
 dev_langs:
- - c++
+- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wmp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmp.dll
+- wmp.dll
 api_name:
- - IWMPControls.get_currentItem
+- IWMPControls.get_currentItem
 targetos: Windows
 req.typenames: 
 req.redist: 

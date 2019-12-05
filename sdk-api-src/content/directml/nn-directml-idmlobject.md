@@ -1,19 +1,17 @@
 ---
 UID: NN:directml.IDMLObject
 title: IDMLObject
-
 description: An interface from which IDMLDevice and IDMLDeviceChild inherit directly (and all other interfaces, indirectly).
 old-location: direct3d12\idmlobject.htm
 tech.root: direct3d12
 ms.assetid: E41D99AF-838B-43D3-AD3F-A2F7CA85C714
-
 ms.date: 12/5/2018
 ms.keywords: IDMLObject, IDMLObject interface, IDMLObject interface,described, direct3d12.idmlobject, directml/IDMLObject
 ms.topic: interface
-f1_keywords: 
- - "directml/IDMLObject"
+f1_keywords:
+- directml/IDMLObject
 dev_langs:
- - c++
+- c++
 req.header: directml.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - DirectML.h
+- DirectML.h
 api_name:
- - IDMLObject
+- IDMLObject
 targetos: Windows
 req.typenames: 
 req.redist: 

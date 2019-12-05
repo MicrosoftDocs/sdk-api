@@ -1,19 +1,17 @@
 ---
 UID: NS:imm.tagCANDIDATEFORM
 title: CANDIDATEFORM (imm.h)
-
 description: Contains position information for the candidate window.
 old-location: intl\candidateform.htm
 tech.root: Intl
 ms.assetid: 86edcfe0-07f7-4bd7-9444-3a884aeb7926
-
 ms.date: 12/05/2018
-ms.keywords: "*LPCANDIDATEFORM, *NPCANDIDATEFORM, *PCANDIDATEFORM, CANDIDATEFORM, CANDIDATEFORM structure [Internationalization for Windows Applications], PCANDIDATEFORM, PCANDIDATEFORM structure pointer [Internationalization for Windows Applications], _win32_CANDIDATEFORM_str, imm/CANDIDATEFORM, imm/PCANDIDATEFORM, intl.candidateform, tagCANDIDATEFORM"
+ms.keywords: '*LPCANDIDATEFORM, *NPCANDIDATEFORM, *PCANDIDATEFORM, CANDIDATEFORM, CANDIDATEFORM structure [Internationalization for Windows Applications], PCANDIDATEFORM, PCANDIDATEFORM structure pointer [Internationalization for Windows Applications], _win32_CANDIDATEFORM_str, imm/CANDIDATEFORM, imm/PCANDIDATEFORM, intl.candidateform, tagCANDIDATEFORM'
 ms.topic: struct
-f1_keywords: 
- - "imm/CANDIDATEFORM"
+f1_keywords:
+- imm/CANDIDATEFORM
 dev_langs:
- - c++
+- c++
 req.header: imm.h
 req.include-header: Immdev.h, Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Imm.h
+- Imm.h
 api_name:
- - CANDIDATEFORM
+- CANDIDATEFORM
 targetos: Windows
 req.typenames: CANDIDATEFORM, *PCANDIDATEFORM, *NPCANDIDATEFORM, *LPCANDIDATEFORM
 req.redist: 

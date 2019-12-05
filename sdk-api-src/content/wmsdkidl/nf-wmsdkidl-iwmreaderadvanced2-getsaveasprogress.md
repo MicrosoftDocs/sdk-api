@@ -1,19 +1,17 @@
 ---
 UID: NF:wmsdkidl.IWMReaderAdvanced2.GetSaveAsProgress
 title: IWMReaderAdvanced2::GetSaveAsProgress (wmsdkidl.h)
-
 description: The GetSaveAsProgress method retrieves the percentage of data that has been saved.
 old-location: wmformat\iwmreaderadvanced2_getsaveasprogress.htm
 tech.root: wmformat
 ms.assetid: 0317f010-4b7f-4f79-9460-ba6b1e904ffa
-
 ms.date: 12/05/2018
 ms.keywords: GetSaveAsProgress, GetSaveAsProgress method [windows Media Format], GetSaveAsProgress method [windows Media Format],IWMReaderAdvanced2 interface, IWMReaderAdvanced2 interface [windows Media Format],GetSaveAsProgress method, IWMReaderAdvanced2.GetSaveAsProgress, IWMReaderAdvanced2::GetSaveAsProgress, IWMReaderAdvanced2GetSaveAsProgress, wmformat.iwmreaderadvanced2_getsaveasprogress, wmsdkidl/IWMReaderAdvanced2::GetSaveAsProgress
 ms.topic: method
-f1_keywords: 
- - "wmsdkidl/IWMReaderAdvanced2.GetSaveAsProgress"
+f1_keywords:
+- wmsdkidl/IWMReaderAdvanced2.GetSaveAsProgress
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wmvcore.lib
- - Wmvcore.dll
- - WMStubDRM.lib
- - WMStubDRM.dll
+- Wmvcore.lib
+- Wmvcore.dll
+- WMStubDRM.lib
+- WMStubDRM.dll
 api_name:
- - IWMReaderAdvanced2.GetSaveAsProgress
+- IWMReaderAdvanced2.GetSaveAsProgress
 targetos: Windows
 req.typenames: 
 req.redist: 

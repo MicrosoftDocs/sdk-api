@@ -1,19 +1,17 @@
 ---
 UID: NN:rdpencomapi.IRDPSRAPIAttendeeManager
 title: IRDPSRAPIAttendeeManager (rdpencomapi.h)
-
 description: Manages attendee objects.
 old-location: rdp\irdpsrapiattendeemanager.htm
 tech.root: rdp
 ms.assetid: 202b539c-b7a0-4cf3-ba64-f60cc062575a
-
 ms.date: 12/05/2018
 ms.keywords: IRDPSRAPIAttendeeManager, IRDPSRAPIAttendeeManager interface [RDP], IRDPSRAPIAttendeeManager interface [RDP],described, rdp.irdpsrapiattendeemanager, rdpencomapi/IRDPSRAPIAttendeeManager
 ms.topic: interface
-f1_keywords: 
- - "rdpencomapi/IRDPSRAPIAttendeeManager"
+f1_keywords:
+- rdpencomapi/IRDPSRAPIAttendeeManager
 dev_langs:
- - c++
+- c++
 req.header: rdpencomapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: RdpEncom.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - RdpEncom.dll
+- RdpEncom.dll
 api_name:
- - IRDPSRAPIAttendeeManager
+- IRDPSRAPIAttendeeManager
 targetos: Windows
 req.typenames: 
 req.redist: 

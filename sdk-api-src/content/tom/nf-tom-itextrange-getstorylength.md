@@ -1,19 +1,17 @@
 ---
 UID: NF:tom.ITextRange.GetStoryLength
 title: ITextRange::GetStoryLength (tom.h)
-
 description: Gets the count of characters in the range's story.
 old-location: controls\ITextRange_GetStoryLength.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\getstorylength.htm
-
 ms.date: 12/05/2018
 ms.keywords: GetStoryLength, GetStoryLength method [Windows Controls], GetStoryLength method [Windows Controls],ITextRange interface, ITextRange interface [Windows Controls],GetStoryLength method, ITextRange.GetStoryLength, ITextRange::GetStoryLength, _win32_ITextRange_GetStoryLength, _win32_ITextRange_GetStoryLength_cpp, controls.ITextRange_GetStoryLength, controls._win32_ITextRange_GetStoryLength, tom/ITextRange::GetStoryLength
 ms.topic: method
-f1_keywords: 
- - "tom/ITextRange.GetStoryLength"
+f1_keywords:
+- tom/ITextRange.GetStoryLength
 dev_langs:
- - c++
+- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msftedit.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msftedit.dll
+- Msftedit.dll
 api_name:
- - ITextRange.GetStoryLength
+- ITextRange.GetStoryLength
 targetos: Windows
 req.typenames: 
 req.redist: 

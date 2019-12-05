@@ -1,19 +1,17 @@
 ---
 UID: NF:heapapi.GetProcessHeap
 title: GetProcessHeap function (heapapi.h)
-
 description: Retrieves a handle to the default heap of the calling process.
 old-location: base\getprocessheap.htm
 tech.root: Memory
 ms.assetid: ecd716b2-df48-4914-9de4-47d8ad8ff9a2
-
 ms.date: 12/05/2018
 ms.keywords: GetProcessHeap, GetProcessHeap function, _win32_getprocessheap, base.getprocessheap, heapapi/GetProcessHeap, winbase/GetProcessHeap
 ms.topic: function
-f1_keywords: 
- - "heapapi/GetProcessHeap"
+f1_keywords:
+- heapapi/GetProcessHeap
 dev_langs:
- - c++
+- c++
 req.header: heapapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,20 +30,20 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-heap-l1-1-0.dll
- - KernelBase.dll
- - API-MS-Win-Core-heap-l1-2-0.dll
- - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
- - MinKernelBase.dll
- - vertdll.dll
+- Kernel32.dll
+- API-MS-Win-Core-heap-l1-1-0.dll
+- KernelBase.dll
+- API-MS-Win-Core-heap-l1-2-0.dll
+- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+- MinKernelBase.dll
+- vertdll.dll
 api_name:
- - GetProcessHeap
+- GetProcessHeap
 targetos: Windows
 req.typenames: 
 req.redist: 

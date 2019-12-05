@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IInitializeWithItem.Initialize
 title: IInitializeWithItem::Initialize (shobjidl_core.h)
-
 description: Initializes a handler with an IShellItem.
 old-location: shell\IInitializeWithItem_Initialize.htm
 tech.root: shell
 ms.assetid: 61abf5c8-2847-4788-9d99-65f3b1c821d6
-
 ms.date: 12/05/2018
 ms.keywords: IInitializeWithItem interface [Windows Shell],Initialize method, IInitializeWithItem.Initialize, IInitializeWithItem::Initialize, Initialize, Initialize method [Windows Shell], Initialize method [Windows Shell],IInitializeWithItem interface, STGM_READ, STGM_READWRITE, shell.IInitializeWithItem_Initialize, shell_IInitializeWithItem_Initialize, shobjidl_core/IInitializeWithItem::Initialize
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IInitializeWithItem.Initialize"
+f1_keywords:
+- shobjidl_core/IInitializeWithItem.Initialize
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Propsys.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - IInitializeWithItem.Initialize
+- IInitializeWithItem.Initialize
 targetos: Windows
 req.typenames: 
 req.redist: 

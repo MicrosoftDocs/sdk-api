@@ -1,19 +1,17 @@
 ---
 UID: NF:oleidl.IOleObject.DoVerb
 title: IOleObject::DoVerb (oleidl.h)
-
 description: Requests that an object perform an action in response to an end-user's action. The possible actions are enumerated for the object in IOleObject::EnumVerbs.
 old-location: com\ioleobject_doverb.htm
 tech.root: com
 ms.assetid: fabd6a0a-7b0c-4c99-af22-8b117addd5f7
-
 ms.date: 12/05/2018
 ms.keywords: DoVerb, DoVerb method [COM], DoVerb method [COM],IOleObject interface, IOleObject interface [COM],DoVerb method, IOleObject.DoVerb, IOleObject::DoVerb, _ole_ioleobject_doverb, com.ioleobject_doverb, oleidl/IOleObject::DoVerb
 ms.topic: method
-f1_keywords: 
- - "oleidl/IOleObject.DoVerb"
+f1_keywords:
+- oleidl/IOleObject.DoVerb
 dev_langs:
- - c++
+- c++
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - OleIdl.h
+- OleIdl.h
 api_name:
- - IOleObject.DoVerb
+- IOleObject.DoVerb
 targetos: Windows
 req.typenames: 
 req.redist: 

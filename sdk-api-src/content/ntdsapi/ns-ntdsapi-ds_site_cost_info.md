@@ -1,19 +1,17 @@
 ---
 UID: NS:ntdsapi.__unnamed_struct_10
 title: DS_SITE_COST_INFO (ntdsapi.h)
-
 description: The DS_SITE_COST_INFO structure is used with the DsQuerySitesByCost function to contain communication cost data.
 old-location: ad\ds_site_cost_info.htm
 tech.root: ad
 ms.assetid: 1920e824-992f-4d69-9b6d-586f58fa2ef7
-
 ms.date: 12/05/2018
-ms.keywords: "*PDS_SITE_COST_INFO, DS_SITE_COST_INFO, DS_SITE_COST_INFO structure [Active Directory], ERROR_DS_OBJ_NOT_FOUND, ERROR_SUCCESS, ad.ds_site_cost_info, ntdsapi/DS_SITE_COST_INFO"
+ms.keywords: '*PDS_SITE_COST_INFO, DS_SITE_COST_INFO, DS_SITE_COST_INFO structure [Active Directory], ERROR_DS_OBJ_NOT_FOUND, ERROR_SUCCESS, ad.ds_site_cost_info, ntdsapi/DS_SITE_COST_INFO'
 ms.topic: struct
-f1_keywords: 
- - "ntdsapi/DS_SITE_COST_INFO"
+f1_keywords:
+- ntdsapi/DS_SITE_COST_INFO
 dev_langs:
- - c++
+- c++
 req.header: ntdsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Ntdsapi.h
+- Ntdsapi.h
 api_name:
- - DS_SITE_COST_INFO
+- DS_SITE_COST_INFO
 targetos: Windows
 req.typenames: DS_SITE_COST_INFO, *PDS_SITE_COST_INFO
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl.IQueryCodePage.SetCodePage
 title: IQueryCodePage::SetCodePage (shobjidl.h)
-
 description: Sets the numeric value of the ANSI code page to a specified code page identifier.
 old-location: shell\IQueryCodePage_SetCodePage.htm
 tech.root: shell
 ms.assetid: 19b9d796-e5a7-4b82-a299-95ee912db010
-
 ms.date: 12/05/2018
 ms.keywords: IQueryCodePage interface [Windows Shell],SetCodePage method, IQueryCodePage.SetCodePage, IQueryCodePage::SetCodePage, SetCodePage, SetCodePage method [Windows Shell], SetCodePage method [Windows Shell],IQueryCodePage interface, _shell_IQueryCodePage_SetCodePage, shell.IQueryCodePage_SetCodePage, shobjidl/IQueryCodePage::SetCodePage
 ms.topic: method
-f1_keywords: 
- - "shobjidl/IQueryCodePage.SetCodePage"
+f1_keywords:
+- shobjidl/IQueryCodePage.SetCodePage
 dev_langs:
- - c++
+- c++
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shobjidl.h
+- Shobjidl.h
 api_name:
- - IQueryCodePage.SetCodePage
+- IQueryCodePage.SetCodePage
 targetos: Windows
 req.typenames: 
 req.redist: 

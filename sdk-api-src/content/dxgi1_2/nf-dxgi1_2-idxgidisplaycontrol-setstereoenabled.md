@@ -1,19 +1,17 @@
 ---
 UID: NF:dxgi1_2.IDXGIDisplayControl.SetStereoEnabled
 title: IDXGIDisplayControl::SetStereoEnabled (dxgi1_2.h)
-
 description: Set a Boolean value to either enable or disable the operating system's stereoscopic 3D display behavior.
 old-location: direct3ddxgi\idxgidisplaycontrol_SetStereoEnabled.htm
 tech.root: direct3ddxgi
 ms.assetid: 4A449444-287D-4F1D-9A86-F6165C38048F
-
 ms.date: 12/05/2018
 ms.keywords: IDXGIDisplayControl interface [DXGI],SetStereoEnabled method, IDXGIDisplayControl.SetStereoEnabled, IDXGIDisplayControl::SetStereoEnabled, SetStereoEnabled, SetStereoEnabled method [DXGI], SetStereoEnabled method [DXGI],IDXGIDisplayControl interface, direct3ddxgi.idxgidisplaycontrol_SetStereoEnabled, dxgi1_2/IDXGIDisplayControl::SetStereoEnabled
 ms.topic: method
-f1_keywords: 
- - "dxgi1_2/IDXGIDisplayControl.SetStereoEnabled"
+f1_keywords:
+- dxgi1_2/IDXGIDisplayControl.SetStereoEnabled
 dev_langs:
- - c++
+- c++
 req.header: dxgi1_2.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Dxgi.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dxgi.lib
- - Dxgi.dll
+- Dxgi.lib
+- Dxgi.dll
 api_name:
- - IDXGIDisplayControl.SetStereoEnabled
+- IDXGIDisplayControl.SetStereoEnabled
 targetos: Windows
 req.typenames: 
 req.redist: 

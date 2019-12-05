@@ -1,19 +1,17 @@
 ---
 UID: NF:rendezvoussession.IRendezvousApplication.SetRendezvousSession
 title: IRendezvousApplication::SetRendezvousSession (rendezvoussession.h)
-
 description: Passes IRendezvousSession to the Windows Remote Assistance application. This method is used by the instant messaging application.
 old-location: remoteassist\remoteassist_IRendezvousApplication_SetRendezvousSession.htm
 tech.root: remoteassist
 ms.assetid: VS|remoteassist|~\remoteassist\reference\ifaces\irendezvousapplication\setRendezvousSession.htm
-
 ms.date: 12/05/2018
 ms.keywords: IRendezvousApplication interface [Remote Assistance],SetRendezvousSession method, IRendezvousApplication.SetRendezvousSession, IRendezvousApplication::SetRendezvousSession, SetRendezvousSession, SetRendezvousSession method [Remote Assistance], SetRendezvousSession method [Remote Assistance],IRendezvousApplication interface, remoteassist.remoteassist_IRendezvousApplication_SetRendezvousSession, remoteassist_IRendezvousApplication_SetRendezvousSession, remoteassist_IRendezvousApplicationremoteassist_IRendezvousApplication_SetRendezvousSession_cpp, rendezvoussession/IRendezvousApplication::SetRendezvousSession
 ms.topic: method
-f1_keywords: 
- - "rendezvoussession/IRendezvousApplication.SetRendezvousSession"
+f1_keywords:
+- rendezvoussession/IRendezvousApplication.SetRendezvousSession
 dev_langs:
- - c++
+- c++
 req.header: rendezvoussession.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - RendezvousSession.tlb
+- RendezvousSession.tlb
 api_name:
- - IRendezvousApplication.SetRendezvousSession
+- IRendezvousApplication.SetRendezvousSession
 targetos: Windows
 req.typenames: 
 req.redist: 

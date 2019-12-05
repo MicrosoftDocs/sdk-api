@@ -1,19 +1,17 @@
 ---
 UID: NF:mediaobj.IMediaObject.GetOutputType
 title: IMediaObject::GetOutputType (mediaobj.h)
-
 description: The GetOutputType method retrieves a preferred media type for a specified output stream.
 old-location: dshow\imediaobject_getoutputtype.htm
 tech.root: DirectShow
 ms.assetid: a7652472-4091-4ecf-b623-5c6eb01be44a
-
 ms.date: 12/05/2018
 ms.keywords: GetOutputType, GetOutputType method [DirectShow], GetOutputType method [DirectShow],IMediaObject interface, IMediaObject interface [DirectShow],GetOutputType method, IMediaObject.GetOutputType, IMediaObject::GetOutputType, IMediaObjectGetOutputType, dshow.imediaobject_getoutputtype, mediaobj/IMediaObject::GetOutputType
 ms.topic: method
-f1_keywords: 
- - "mediaobj/IMediaObject.GetOutputType"
+f1_keywords:
+- mediaobj/IMediaObject.GetOutputType
 dev_langs:
- - c++
+- c++
 req.header: mediaobj.h
 req.include-header: Dmo.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Dmoguids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dmoguids.lib
- - Dmoguids.dll
+- Dmoguids.lib
+- Dmoguids.dll
 api_name:
- - IMediaObject.GetOutputType
+- IMediaObject.GetOutputType
 targetos: Windows
 req.typenames: 
 req.redist: 

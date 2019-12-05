@@ -1,19 +1,17 @@
 ---
 UID: NF:ntmsapi.ExportNtmsDatabase
 title: ExportNtmsDatabase function (ntmsapi.h)
-
 description: The ExportNtmsDatabase function creates a consistent set of database files in the RSM database directory.
 old-location: fs\exportntmsdatabase.htm
 tech.root: Rsm
 ms.assetid: 0c6df5d3-c771-4749-8fbd-de5c02ffa5d9
-
 ms.date: 12/05/2018
 ms.keywords: ExportNtmsDatabase, ExportNtmsDatabase function [Files], _zaw_exportntmsdatabase, base.exportntmsdatabase, fs.exportntmsdatabase, ntmsapi/ExportNtmsDatabase
 ms.topic: function
-f1_keywords: 
- - "ntmsapi/ExportNtmsDatabase"
+f1_keywords:
+- ntmsapi/ExportNtmsDatabase
 dev_langs:
- - c++
+- c++
 req.header: ntmsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Ntmsapi.lib
 req.dll: Ntmsapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ntmsapi.dll
+- Ntmsapi.dll
 api_name:
- - ExportNtmsDatabase
+- ExportNtmsDatabase
 targetos: Windows
 req.typenames: 
 req.redist: 

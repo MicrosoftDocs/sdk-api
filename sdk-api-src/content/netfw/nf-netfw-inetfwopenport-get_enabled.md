@@ -1,19 +1,17 @@
 ---
 UID: NF:netfw.INetFwOpenPort.get_Enabled
 title: INetFwOpenPort::get_Enabled (netfw.h)
-
 description: Indicates whether the settings for this port are currently enabled.
 old-location: ics\inetfwopenport_enabled.htm
 tech.root: ics
 ms.assetid: f4fc7a4f-abc5-486a-89c8-dfea17770f3c
-
 ms.date: 12/05/2018
 ms.keywords: Enabled property [ICS/ICF], Enabled property [ICS/ICF],INetFwOpenPort interface, INetFwOpenPort interface [ICS/ICF],Enabled property, INetFwOpenPort.Enabled, INetFwOpenPort.get_Enabled, INetFwOpenPort::Enabled, INetFwOpenPort::get_Enabled, INetFwOpenPort::put_Enabled, get_Enabled, ics.inetfwopenport_enabled, netfw/INetFwOpenPort::Enabled, netfw/INetFwOpenPort::get_Enabled, netfw/INetFwOpenPort::put_Enabled
 ms.topic: method
-f1_keywords: 
- - "netfw/INetFwOpenPort.Enabled"
+f1_keywords:
+- netfw/INetFwOpenPort.Enabled
 dev_langs:
- - c++
+- c++
 req.header: netfw.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib:
 req.dll: FirewallAPI.dll; Hnetcfg.dll on Windows XP with SP2
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - FirewallAPI.dll
- - Hnetcfg.dll
+- FirewallAPI.dll
+- Hnetcfg.dll
 api_name:
- - INetFwOpenPort.Enabled
- - INetFwOpenPort.get_Enabled
- - INetFwOpenPort.put_Enabled
+- INetFwOpenPort.Enabled
+- INetFwOpenPort.get_Enabled
+- INetFwOpenPort.put_Enabled
 targetos: Windows
 req.typenames: 
 req.redist: 

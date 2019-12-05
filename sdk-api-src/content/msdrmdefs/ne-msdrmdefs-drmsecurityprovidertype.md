@@ -1,19 +1,17 @@
 ---
 UID: NE:msdrmdefs._DRMSECURITYPROVIDERTYPE
 title: DRMSECURITYPROVIDERTYPE (msdrmdefs.h)
-
 description: The DRMSECURITYPROVIDERTYPE enumeration specifies the type of secure DRM environment used.
 old-location: rm\drmsecurityprovidertype.htm
 tech.root: AdRms_Sdk
 ms.assetid: e8b81e48-d13a-4b7d-b7a4-a197dc81dc6b
-
 ms.date: 12/05/2018
 ms.keywords: DRMSECURITYPROVIDERTYPE, DRMSECURITYPROVIDERTYPE enumeration [Active Directory Rights Management Services SDK 1.0], DRMSECURITYPROVIDERTYPE_SOFTWARESECREP, msdrmdefs/DRMSECURITYPROVIDERTYPE, msdrmdefs/DRMSECURITYPROVIDERTYPE_SOFTWARESECREP, rm.drmsecurityprovidertype
 ms.topic: enum
-f1_keywords: 
- - "msdrmdefs/DRMSECURITYPROVIDERTYPE"
+f1_keywords:
+- msdrmdefs/DRMSECURITYPROVIDERTYPE
 dev_langs:
- - c++
+- c++
 req.header: msdrmdefs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Msdrmdefs.h
+- Msdrmdefs.h
 api_name:
- - DRMSECURITYPROVIDERTYPE
+- DRMSECURITYPROVIDERTYPE
 targetos: Windows
 req.typenames: DRMSECURITYPROVIDERTYPE
 req.redist: 

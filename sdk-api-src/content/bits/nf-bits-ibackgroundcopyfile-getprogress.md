@@ -1,19 +1,17 @@
 ---
 UID: NF:bits.IBackgroundCopyFile.GetProgress
 title: IBackgroundCopyFile::GetProgress (bits.h)
-
 description: Retrieves information on the progress of the file transfer.
 old-location: bits\ibackgroundcopyfile_getprogress.htm
 tech.root: Bits
 ms.assetid: e72ec5af-7c21-48f8-b027-76a6c9e67f5e
-
 ms.date: 12/05/2018
 ms.keywords: GetProgress, GetProgress method [BITS], GetProgress method [BITS],IBackgroundCopyFile interface, IBackgroundCopyFile interface [BITS],GetProgress method, IBackgroundCopyFile.GetProgress, IBackgroundCopyFile::GetProgress, _drz_ibackgroundcopyfile_getprogress, bits.ibackgroundcopyfile_getprogress, bits/IBackgroundCopyFile::GetProgress
 ms.topic: method
 f1_keywords:
 - bits/IBackgroundCopyFile.GetProgress
 dev_langs:
- - c++
+- c++
 req.header: bits.h
 req.include-header: 
 req.target-type: Windows

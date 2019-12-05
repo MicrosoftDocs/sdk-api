@@ -1,17 +1,15 @@
 ---
 UID: NE:dwrite_3.DWRITE_FONT_AXIS_TAG
 title: DWRITE_FONT_AXIS_TAG
-
 description: Defines constants that specify a four-character identifier for a font axis.
 tech.root: DirectWrite
-
 ms.date: 09/10/2019
 ms.keywords: DWRITE_FONT_AXIS_TAG, DWRITE_FONT_AXIS_TAG enumeration [Direct Write], directwrite.dwrite_font_axis_tag, dwrite_3/DWRITE_FONT_AXIS_TAG
 ms.topic: enum
-f1_keywords: 
- - "dwrite_3/DWRITE_FONT_AXIS_TAG"
+f1_keywords:
+- dwrite_3/DWRITE_FONT_AXIS_TAG
 dev_langs:
- - c++
+- c++
 req.construct-type: enumeration
 req.header: dwrite_3.h
 req.include-header: 
@@ -31,14 +29,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - dwrite_3.h
+- dwrite_3.h
 api_name:
- - DWRITE_FONT_AXIS_TAG
+- DWRITE_FONT_AXIS_TAG
 targetos: Windows
 req.typenames: 
 req.redist: 

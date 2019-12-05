@@ -1,19 +1,17 @@
 ---
 UID: NF:wtsprotocol.IWTSProtocolConnectionCallback.OnReady
 title: IWTSProtocolConnectionCallback::OnReady (wtsprotocol.h)
-
 description: IWTSProtocolConnectionCallback::OnReady is no longer available. Instead, use IWRdsProtocolConnectionCallback::OnReady.
 old-location: termserv\iwtsprotocolconnectioncallback_onready.htm
 tech.root: TermServ
 ms.assetid: a1289aca-bcf6-4fd2-a288-d401bece005d
-
 ms.date: 12/05/2018
 ms.keywords: IWTSProtocolConnectionCallback interface [Remote Desktop Services],OnReady method, IWTSProtocolConnectionCallback.OnReady, IWTSProtocolConnectionCallback::OnReady, OnReady, OnReady method [Remote Desktop Services], OnReady method [Remote Desktop Services],IWTSProtocolConnectionCallback interface, termserv.iwtsprotocolconnectioncallback_onready, wtsprotocol/IWTSProtocolConnectionCallback::OnReady
 ms.topic: method
-f1_keywords: 
- - "wtsprotocol/IWTSProtocolConnectionCallback.OnReady"
+f1_keywords:
+- wtsprotocol/IWTSProtocolConnectionCallback.OnReady
 dev_langs:
- - c++
+- c++
 req.header: wtsprotocol.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wtsprotocol.h
+- Wtsprotocol.h
 api_name:
- - IWTSProtocolConnectionCallback.OnReady
+- IWTSProtocolConnectionCallback.OnReady
 targetos: Windows
 req.typenames: 
 req.redist: 

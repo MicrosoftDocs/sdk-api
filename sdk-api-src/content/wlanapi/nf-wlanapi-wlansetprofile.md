@@ -1,19 +1,17 @@
 ---
 UID: NF:wlanapi.WlanSetProfile
 title: WlanSetProfile function (wlanapi.h)
-
 description: Sets the content of a specific profile.
 old-location: nwifi\wlansetprofile.htm
 tech.root: NativeWiFi
 ms.assetid: 3f8dca2e-6fe5-4c7d-a135-a33c61ba3dd5
-
 ms.date: 12/05/2018
 ms.keywords: WLAN_PROFILE_GROUP_POLICY, WLAN_PROFILE_USER, WlanSetProfile, WlanSetProfile function [NativeWIFI], nwifi.wlansetprofile, wlanapi/WlanSetProfile
 ms.topic: function
-f1_keywords: 
- - "wlanapi/WlanSetProfile"
+f1_keywords:
+- wlanapi/WlanSetProfile
 dev_langs:
- - c++
+- c++
 req.header: wlanapi.h
 req.include-header: Wlanapi.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Wlanapi.lib
 req.dll: Wlanapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - wlanapi.dll
- - Ext-MS-Win-networking-wlanapi-l1-1-0.dll
+- wlanapi.dll
+- Ext-MS-Win-networking-wlanapi-l1-1-0.dll
 api_name:
- - WlanSetProfile
+- WlanSetProfile
 targetos: Windows
 req.typenames: 
 req.redist: Wireless LAN API for Windows XP with SP2

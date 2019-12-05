@@ -1,19 +1,17 @@
 ---
 UID: NS:webservices._WS_XML_GUID_TEXT
 title: WS_XML_GUID_TEXT (webservices.h)
-
 description: Represents a GUID formatted as the text &#0034;xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx&#0034;.
 old-location: wsw\ws_xml_guid_text.htm
 tech.root: wsw
 ms.assetid: e70ea1d2-8381-4b23-88e6-842fe22889a5
-
 ms.date: 12/05/2018
 ms.keywords: WS_XML_GUID_TEXT, WS_XML_GUID_TEXT structure [Web Services for Windows], webservices/WS_XML_GUID_TEXT, wsw.ws_xml_guid_text
 ms.topic: struct
 f1_keywords:
 - webservices/WS_XML_GUID_TEXT
 dev_langs:
- - c++
+- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

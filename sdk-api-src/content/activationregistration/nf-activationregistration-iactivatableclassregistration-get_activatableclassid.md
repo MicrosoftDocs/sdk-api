@@ -1,19 +1,17 @@
 ---
 UID: NF:activationregistration.IActivatableClassRegistration.get_ActivatableClassId
 title: IActivatableClassRegistration::get_ActivatableClassId (activationregistration.h)
-
 description: Gets the class identifier for the current activatable class.
 old-location: winrt\iactivatableclassregistration_activatableclassid.htm
 tech.root: WinRT
 ms.assetid: 8AE55B74-8AC3-4F13-8FEE-7C3C52DEE96F
-
 ms.date: 12/05/2018
 ms.keywords: IActivatableClassRegistration interface [Windows Runtime],get_ActivatableClassId method, IActivatableClassRegistration.get_ActivatableClassId, IActivatableClassRegistration::get_ActivatableClassId, activationregistration/IActivatableClassRegistration::get_ActivatableClassId, get_ActivatableClassId, get_ActivatableClassId method [Windows Runtime], get_ActivatableClassId method [Windows Runtime],IActivatableClassRegistration interface, winrt.iactivatableclassregistration_activatableclassid
 ms.topic: method
-f1_keywords: 
- - "activationregistration/IActivatableClassRegistration.get_ActivatableClassId"
+f1_keywords:
+- activationregistration/IActivatableClassRegistration.get_ActivatableClassId
 dev_langs:
- - c++
+- c++
 req.header: activationregistration.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - activationregistration.h
+- activationregistration.h
 api_name:
- - IActivatableClassRegistration.get_ActivatableClassId
+- IActivatableClassRegistration.get_ActivatableClassId
 targetos: Windows
 req.typenames: 
 req.redist: 

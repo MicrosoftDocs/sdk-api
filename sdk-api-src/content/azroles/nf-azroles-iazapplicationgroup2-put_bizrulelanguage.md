@@ -1,19 +1,17 @@
 ---
 UID: NF:azroles.IAzApplicationGroup2.put_BizRuleLanguage
 title: IAzApplicationGroup2::put_BizRuleLanguage (azroles.h)
-
 description: Gets or sets the programming language of the business rule script associated with this application group.
 old-location: security\iazapplicationgroup2_bizrulelanguage_method.htm
 tech.root: SecAuthZ
 ms.assetid: 4f70daf0-57f2-47d8-93ce-133e0b714388
-
 ms.date: 12/05/2018
 ms.keywords: BizRuleLanguage property [Security], BizRuleLanguage property [Security],IAzApplicationGroup2 interface, IAzApplicationGroup2 interface [Security],BizRuleLanguage property, IAzApplicationGroup2.BizRuleLanguage, IAzApplicationGroup2.put_BizRuleLanguage, IAzApplicationGroup2::BizRuleLanguage, IAzApplicationGroup2::get_BizRuleLanguage, IAzApplicationGroup2::put_BizRuleLanguage, azroles/IAzApplicationGroup2::BizRuleLanguage, azroles/IAzApplicationGroup2::get_BizRuleLanguage, azroles/IAzApplicationGroup2::put_BizRuleLanguage, put_BizRuleLanguage, security.iazapplicationgroup2_bizrulelanguage_method
 ms.topic: method
-f1_keywords: 
- - "azroles/IAzApplicationGroup2.BizRuleLanguage"
+f1_keywords:
+- azroles/IAzApplicationGroup2.BizRuleLanguage
 dev_langs:
- - c++
+- c++
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Azroles.h
+- Azroles.h
 api_name:
- - IAzApplicationGroup2.BizRuleLanguage
- - IAzApplicationGroup2.get_BizRuleLanguage
- - IAzApplicationGroup2.put_BizRuleLanguage
+- IAzApplicationGroup2.BizRuleLanguage
+- IAzApplicationGroup2.get_BizRuleLanguage
+- IAzApplicationGroup2.put_BizRuleLanguage
 targetos: Windows
 req.typenames: 
 req.redist: 

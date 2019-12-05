@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d10effect.ID3D10EffectVariable.AsRenderTargetView
 title: ID3D10EffectVariable::AsRenderTargetView (d3d10effect.h)
-
 description: Get a render-target-view variable.
 old-location: direct3d10\id3d10effectvariable_asrendertargetview.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10effectvariable_asrendertargetview.htm
-
 ms.date: 12/05/2018
 ms.keywords: 4e1e798b-0790-d8d7-5dc5-8b7d7e7de483, AsRenderTargetView, AsRenderTargetView method [Direct3D 10], AsRenderTargetView method [Direct3D 10],ID3D10EffectVariable interface, ID3D10EffectVariable interface [Direct3D 10],AsRenderTargetView method, ID3D10EffectVariable.AsRenderTargetView, ID3D10EffectVariable::AsRenderTargetView, d3d10effect/ID3D10EffectVariable::AsRenderTargetView, direct3d10.id3d10effectvariable_asrendertargetview
 ms.topic: method
-f1_keywords: 
- - "d3d10effect/ID3D10EffectVariable.AsRenderTargetView"
+f1_keywords:
+- d3d10effect/ID3D10EffectVariable.AsRenderTargetView
 dev_langs:
- - c++
+- c++
 req.header: d3d10effect.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D10Effect.h
+- D3D10Effect.h
 api_name:
- - ID3D10EffectVariable.AsRenderTargetView
+- ID3D10EffectVariable.AsRenderTargetView
 targetos: Windows
 req.typenames: 
 req.redist: 

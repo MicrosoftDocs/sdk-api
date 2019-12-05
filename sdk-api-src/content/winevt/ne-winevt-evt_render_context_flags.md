@@ -1,19 +1,17 @@
 ---
 UID: NE:winevt._EVT_RENDER_CONTEXT_FLAGS
 title: EVT_RENDER_CONTEXT_FLAGS (winevt.h)
-
 description: Defines the values that specify the type of information to access from the event.
 old-location: wes\evt_render_context_flags.htm
 tech.root: wes
 ms.assetid: 1c933266-28d9-4ef2-b156-eedf4ccb189b
-
 ms.date: 12/05/2018
 ms.keywords: EVT_RENDER_CONTEXT_FLAGS, EVT_RENDER_CONTEXT_FLAGS enumeration [EventLog], EvtRenderContextSystem, EvtRenderContextUser, EvtRenderContextValues, wes.evt_render_context_flags, winevt/EVT_RENDER_CONTEXT_FLAGS, winevt/EvtRenderContextSystem, winevt/EvtRenderContextUser, winevt/EvtRenderContextValues
 ms.topic: enum
 f1_keywords:
 - winevt/EVT_RENDER_CONTEXT_FLAGS
 dev_langs:
- - c++
+- c++
 req.header: winevt.h
 req.include-header: 
 req.target-type: Windows

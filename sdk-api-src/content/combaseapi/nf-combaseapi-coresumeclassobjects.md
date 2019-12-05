@@ -1,19 +1,17 @@
 ---
 UID: NF:combaseapi.CoResumeClassObjects
 title: CoResumeClassObjects function (combaseapi.h)
-
 description: Called by a server that can register multiple class objects to inform the SCM about all registered classes, and permits activation requests for those class objects.
 old-location: com\coresumeclassobjects.htm
 tech.root: com
 ms.assetid: c2b6e8d8-99a1-4af3-9881-bfe6932e4a76
-
 ms.date: 12/05/2018
 ms.keywords: CoResumeClassObjects, CoResumeClassObjects function [COM], _com_CoResumeClassObjects, com.coresumeclassobjects, combaseapi/CoResumeClassObjects
 ms.topic: function
-f1_keywords: 
- - "combaseapi/CoResumeClassObjects"
+f1_keywords:
+- combaseapi/CoResumeClassObjects
 dev_langs:
- - c++
+- c++
 req.header: combaseapi.h
 req.include-header: Objbase.h
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib: Ole32.lib
 req.dll: Ole32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ole32.dll
- - API-MS-Win-Core-Com-l1-1-0.dll
- - ComBase.dll
- - API-MS-Win-Core-Com-l1-1-1.dll
- - API-MS-Win-DownLevel-Ole32-l1-1-1.dll
+- Ole32.dll
+- API-MS-Win-Core-Com-l1-1-0.dll
+- ComBase.dll
+- API-MS-Win-Core-Com-l1-1-1.dll
+- API-MS-Win-DownLevel-Ole32-l1-1-1.dll
 api_name:
- - CoResumeClassObjects
+- CoResumeClassObjects
 targetos: Windows
 req.typenames: 
 req.redist: 

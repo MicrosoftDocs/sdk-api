@@ -1,19 +1,17 @@
 ---
 UID: NS:wininet.__unnamed_struct_39
 title: AUTO_PROXY_SCRIPT_BUFFER (wininet.h)
-
 description: The AUTO_PROXY_SCRIPT_BUFFER structure is used to pass an autoproxy script in a buffer to InternetInitializeAutoProxyDll , instead of identifying a file that InternetInitializeAutoProxyDll opens.
 old-location: wininet\auto_proxy_script_buffer.htm
 tech.root: wininet
 ms.assetid: 4bbe875a-1eac-421a-90c6-ac60b2229b4c
-
 ms.date: 12/05/2018
-ms.keywords: "*LPAUTO_PROXY_SCRIPT_BUFFER, AUTO_PROXY_SCRIPT_BUFFER, AUTO_PROXY_SCRIPT_BUFFER structure [WinINet], wininet.auto_proxy_script_buffer, wininet/AUTO_PROXY_SCRIPT_BUFFER"
+ms.keywords: '*LPAUTO_PROXY_SCRIPT_BUFFER, AUTO_PROXY_SCRIPT_BUFFER, AUTO_PROXY_SCRIPT_BUFFER structure [WinINet], wininet.auto_proxy_script_buffer, wininet/AUTO_PROXY_SCRIPT_BUFFER'
 ms.topic: struct
-f1_keywords: 
- - "wininet/AUTO_PROXY_SCRIPT_BUFFER"
+f1_keywords:
+- wininet/AUTO_PROXY_SCRIPT_BUFFER
 dev_langs:
- - c++
+- c++
 req.header: wininet.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wininet.h
+- Wininet.h
 api_name:
- - AUTO_PROXY_SCRIPT_BUFFER
+- AUTO_PROXY_SCRIPT_BUFFER
 targetos: Windows
 req.typenames: AUTO_PROXY_SCRIPT_BUFFER, *LPAUTO_PROXY_SCRIPT_BUFFER
 req.redist: 

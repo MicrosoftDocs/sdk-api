@@ -1,19 +1,17 @@
 ---
 UID: NE:credentialprovider._CREDENTIAL_PROVIDER_STATUS_ICON
 title: CREDENTIAL_PROVIDER_STATUS_ICON (credentialprovider.h)
-
 description: Indicates which status icon should be displayed.
 old-location: shell\CREDENTIAL_PROVIDER_STATUS_ICON.htm
 tech.root: shell
 ms.assetid: 2aa5b5dc-4756-4eff-a7d8-97c8a1dce41b
-
 ms.date: 12/05/2018
 ms.keywords: CPSI_ERROR, CPSI_NONE, CPSI_SUCCESS, CPSI_WARNING, CREDENTIAL_PROVIDER_STATUS_ICON, CREDENTIAL_PROVIDER_STATUS_ICON enumeration [Windows Shell], _shell_CREDENTIAL_PROVIDER_STATUS_ICON, credentialprovider/CPSI_ERROR, credentialprovider/CPSI_NONE, credentialprovider/CPSI_SUCCESS, credentialprovider/CPSI_WARNING, credentialprovider/CREDENTIAL_PROVIDER_STATUS_ICON, shell.CREDENTIAL_PROVIDER_STATUS_ICON
 ms.topic: enum
-f1_keywords: 
- - "credentialprovider/CREDENTIAL_PROVIDER_STATUS_ICON"
+f1_keywords:
+- credentialprovider/CREDENTIAL_PROVIDER_STATUS_ICON
 dev_langs:
- - c++
+- c++
 req.header: credentialprovider.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Credentialprovider.h
+- Credentialprovider.h
 api_name:
- - CREDENTIAL_PROVIDER_STATUS_ICON
+- CREDENTIAL_PROVIDER_STATUS_ICON
 targetos: Windows
 req.typenames: CREDENTIAL_PROVIDER_STATUS_ICON
 req.redist: 

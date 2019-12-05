@@ -1,19 +1,17 @@
 ---
 UID: NF:mfidl.CreateNamedPropertyStore
 title: CreateNamedPropertyStore function (mfidl.h)
-
 description: Creates an empty property store to hold name/value pairs.
 old-location: mf\createnamedpropertystore.htm
 tech.root: medfound
 ms.assetid: 21f12bc1-606a-4ce8-bc8d-608d4d7cfc46
-
 ms.date: 12/05/2018
 ms.keywords: 21f12bc1-606a-4ce8-bc8d-608d4d7cfc46, CreateNamedPropertyStore, CreateNamedPropertyStore function [Media Foundation], mf.createnamedpropertystore, mfidl/CreateNamedPropertyStore
 ms.topic: function
-f1_keywords: 
- - "mfidl/CreateNamedPropertyStore"
+f1_keywords:
+- mfidl/CreateNamedPropertyStore
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Mf.lib
 req.dll: Mf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - mf.dll
+- mf.dll
 api_name:
- - CreateNamedPropertyStore
+- CreateNamedPropertyStore
 targetos: Windows
 req.typenames: 
 req.redist: 

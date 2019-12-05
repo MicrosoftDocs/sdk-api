@@ -1,19 +1,17 @@
 ---
 UID: NE:micaut.__MIDL___MIDL_itf_micaut_0000_0000_0002
 title: MICUIELEMENTSTATE (micaut.h)
-
 description: Specifies the button states of a math input control (MIC).
 old-location: tablet\micuielementstate.htm
 tech.root: tablet
 ms.assetid: 6f2c9d45-ad2c-451a-8945-6c9f2f8d5f18
-
 ms.date: 12/05/2018
 ms.keywords: MICUIELEMENTSTATE, MICUIELEMENTSTATE enumeration [Tablet PC], MICUIELEMENTSTATE_DISABLED, MICUIELEMENTSTATE_HOT, MICUIELEMENTSTATE_NORMAL, MICUIELEMENTSTATE_PRESSED, micaut/MICUIELEMENTSTATE, micaut/MICUIELEMENTSTATE_DISABLED, micaut/MICUIELEMENTSTATE_HOT, micaut/MICUIELEMENTSTATE_NORMAL, micaut/MICUIELEMENTSTATE_PRESSED, tablet.micuielementstate
 ms.topic: enum
-f1_keywords: 
- - "micaut/MICUIELEMENTSTATE"
+f1_keywords:
+- micaut/MICUIELEMENTSTATE
 dev_langs:
- - c++
+- c++
 req.header: micaut.h
 req.include-header: Micaut.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - micaut.h
+- micaut.h
 api_name:
- - MICUIELEMENTSTATE
+- MICUIELEMENTSTATE
 targetos: Windows
 req.typenames: MICUIELEMENTSTATE
 req.redist: 

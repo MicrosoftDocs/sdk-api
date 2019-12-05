@@ -1,19 +1,17 @@
 ---
 UID: NF:wmpservices.IWMPPlugin.UnAdviseWMPServices
 title: IWMPPlugin::UnAdviseWMPServices (wmpservices.h)
-
 description: The IWMPPlugin::UnAdviseWMPServices method is used to release the pointer provided by AdviseWMPServices.
 old-location: wmp\iwmpplugin_unadvisewmpservices.htm
 tech.root: WMP
 ms.assetid: 377a6853-94fb-4467-a893-508b56637a16
-
 ms.date: 12/05/2018
 ms.keywords: IWMPPlugin interface [Windows Media Player],UnAdviseWMPServices method, IWMPPlugin.UnAdviseWMPServices, IWMPPlugin::UnAdviseWMPServices, IWMPPluginUnAdviseWMPServicesDSP, UnAdviseWMPServices, UnAdviseWMPServices method [Windows Media Player], UnAdviseWMPServices method [Windows Media Player],IWMPPlugin interface, wmp.iwmpplugin_unadvisewmpservices, wmpservices/IWMPPlugin::UnAdviseWMPServices
 ms.topic: method
-f1_keywords: 
- - "wmpservices/IWMPPlugin.UnAdviseWMPServices"
+f1_keywords:
+- wmpservices/IWMPPlugin.UnAdviseWMPServices
 dev_langs:
- - c++
+- c++
 req.header: wmpservices.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmpservices.h
+- wmpservices.h
 api_name:
- - IWMPPlugin.UnAdviseWMPServices
+- IWMPPlugin.UnAdviseWMPServices
 targetos: Windows
 req.typenames: 
 req.redist: 

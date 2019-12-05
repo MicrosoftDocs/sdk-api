@@ -1,19 +1,17 @@
 ---
 UID: NS:xpsprint.__MIDL___MIDL_itf_xpsprint_0000_0000_0002
 title: XPS_JOB_STATUS (xpsprint.h)
-
 description: Contains a snapshot of job status.
 old-location: gdi\xps_job_status.htm
 tech.root: printdocs
 ms.assetid: c4e13960-4f26-460a-b47e-98b833fcdfd5
-
 ms.date: 12/05/2018
 ms.keywords: XPS_JOB_STATUS, XPS_JOB_STATUS structure [Windows GDI], gdi.xps_job_status, xpsprint/XPS_JOB_STATUS
 ms.topic: struct
-f1_keywords: 
- - "xpsprint/XPS_JOB_STATUS"
+f1_keywords:
+- xpsprint/XPS_JOB_STATUS
 dev_langs:
- - c++
+- c++
 req.header: xpsprint.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - XpsPrint.h
+- XpsPrint.h
 api_name:
- - XPS_JOB_STATUS
+- XPS_JOB_STATUS
 targetos: Windows
 req.typenames: XPS_JOB_STATUS
 req.redist: 

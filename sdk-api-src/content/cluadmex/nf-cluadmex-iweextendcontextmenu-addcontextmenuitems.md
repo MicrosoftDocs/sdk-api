@@ -1,19 +1,17 @@
 ---
 UID: NF:cluadmex.IWEExtendContextMenu.AddContextMenuItems
 title: IWEExtendContextMenu::AddContextMenuItems (cluadmex.h)
-
 description: Allows you to create context menu items for a cluster object and add the items to a Failover Cluster Administrator context menu.
 old-location: mscs\iweextendcontextmenu_addcontextmenuitems.htm
 tech.root: MsCS
 ms.assetid: 48de3627-a919-437b-b19b-374327234df9
-
 ms.date: 12/05/2018
 ms.keywords: AddContextMenuItems, AddContextMenuItems method [Failover Cluster], AddContextMenuItems method [Failover Cluster],IWEExtendContextMenu interface, IWEExtendContextMenu interface [Failover Cluster],AddContextMenuItems method, IWEExtendContextMenu.AddContextMenuItems, IWEExtendContextMenu::AddContextMenuItems, _wolf_iweextendcontextmenu_addcontextmenuitems, cluadmex/IWEExtendContextMenu::AddContextMenuItems, mscs.iweextendcontextmenu_addcontextmenuitems
 ms.topic: method
-f1_keywords: 
- - "cluadmex/IWEExtendContextMenu.AddContextMenuItems"
+f1_keywords:
+- cluadmex/IWEExtendContextMenu.AddContextMenuItems
 dev_langs:
- - c++
+- c++
 req.header: cluadmex.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - cluadmex.h
+- cluadmex.h
 api_name:
- - IWEExtendContextMenu.AddContextMenuItems
+- IWEExtendContextMenu.AddContextMenuItems
 targetos: Windows
 req.typenames: 
 req.redist: 

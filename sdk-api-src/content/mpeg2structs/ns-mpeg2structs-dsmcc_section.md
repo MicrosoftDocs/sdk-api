@@ -1,19 +1,17 @@
 ---
 UID: NS:mpeg2structs.__MIDL___MIDL_itf_mpeg2structs_0000_0000_0011
 title: DSMCC_SECTION (mpeg2structs.h)
-
 description: The DSMCC_SECTION structure represents a DSM-CC section header. If a section contains a DSM-CC header, you can cast a SECTION pointer to a DSMCC_SECTION pointer. For more information, see the Remarks section in the SECTION reference.
 old-location: mstv\dsmcc_section.htm
 tech.root: mstv
 ms.assetid: b043f63c-cee0-4167-9b11-09b747f63b8d
-
 ms.date: 12/05/2018
-ms.keywords: "*PDSMCC_SECTION, DSMCC_SECTION, DSMCC_SECTION structure [Microsoft TV Technologies], PDSMCC_SECTION, PDSMCC_SECTION structure pointer [Microsoft TV Technologies], mpeg2structs/DSMCC_SECTION, mpeg2structs/PDSMCC_SECTION, mstv.dsmcc_section"
+ms.keywords: '*PDSMCC_SECTION, DSMCC_SECTION, DSMCC_SECTION structure [Microsoft TV Technologies], PDSMCC_SECTION, PDSMCC_SECTION structure pointer [Microsoft TV Technologies], mpeg2structs/DSMCC_SECTION, mpeg2structs/PDSMCC_SECTION, mstv.dsmcc_section'
 ms.topic: struct
-f1_keywords: 
- - "mpeg2structs/DSMCC_SECTION"
+f1_keywords:
+- mpeg2structs/DSMCC_SECTION
 dev_langs:
- - c++
+- c++
 req.header: mpeg2structs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Mpeg2Structs.h
+- Mpeg2Structs.h
 api_name:
- - DSMCC_SECTION
+- DSMCC_SECTION
 targetos: Windows
 req.typenames: DSMCC_SECTION, *PDSMCC_SECTION
 req.redist: 

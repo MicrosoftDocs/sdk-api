@@ -1,19 +1,17 @@
 ---
 UID: NF:tom.ITextFont2.GetCompressionMode
 title: ITextFont2::GetCompressionMode (tom.h)
-
 description: Gets the East Asian compression mode.
 old-location: controls\itextfont2_getcompressionmode.htm
 tech.root: Controls
 ms.assetid: 3fefba0c-54a3-4013-8922-ba556ef785a6
-
 ms.date: 12/05/2018
 ms.keywords: GetCompressionMode, GetCompressionMode method [Windows Controls], GetCompressionMode method [Windows Controls],ITextFont2 interface, ITextFont2 interface [Windows Controls],GetCompressionMode method, ITextFont2.GetCompressionMode, ITextFont2::GetCompressionMode, controls.itextfont2_getcompressionmode, tom/ITextFont2::GetCompressionMode, tomCompressNone (default), tomCompressPunctuation, tomCompressPunctuationAndKana
 ms.topic: method
-f1_keywords: 
- - "tom/ITextFont2.GetCompressionMode"
+f1_keywords:
+- tom/ITextFont2.GetCompressionMode
 dev_langs:
- - c++
+- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msftedit.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msftedit.dll
+- Msftedit.dll
 api_name:
- - ITextFont2.GetCompressionMode
+- ITextFont2.GetCompressionMode
 targetos: Windows
 req.typenames: 
 req.redist: 

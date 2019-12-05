@@ -1,19 +1,17 @@
 ---
 UID: NF:vmr9.IVMRSurfaceAllocatorNotify9.AllocateSurfaceHelper
 title: IVMRSurfaceAllocatorNotify9::AllocateSurfaceHelper (vmr9.h)
-
 description: The AllocateSurfaceHelper method allocates a Direct3D surface based on application-specified parameters.
 old-location: dshow\ivmrsurfaceallocatornotify9_allocatesurfacehelper.htm
 tech.root: DirectShow
 ms.assetid: b69db9e9-6ab0-40ad-b929-30613c0b9e4b
-
 ms.date: 12/05/2018
 ms.keywords: AllocateSurfaceHelper, AllocateSurfaceHelper method [DirectShow], AllocateSurfaceHelper method [DirectShow],IVMRSurfaceAllocatorNotify9 interface, IVMRSurfaceAllocatorNotify9 interface [DirectShow],AllocateSurfaceHelper method, IVMRSurfaceAllocatorNotify9.AllocateSurfaceHelper, IVMRSurfaceAllocatorNotify9::AllocateSurfaceHelper, IVMRSurfaceAllocatorNotify9AllocateSurfaceHelper, dshow.ivmrsurfaceallocatornotify9_allocatesurfacehelper, vmr9/IVMRSurfaceAllocatorNotify9::AllocateSurfaceHelper
 ms.topic: method
 f1_keywords:
 - vmr9/IVMRSurfaceAllocatorNotify9.AllocateSurfaceHelper
 dev_langs:
- - c++
+- c++
 req.header: vmr9.h
 req.include-header: 
 req.target-type: Windows

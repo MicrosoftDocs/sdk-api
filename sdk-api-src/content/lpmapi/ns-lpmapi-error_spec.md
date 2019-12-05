@@ -1,19 +1,17 @@
 ---
 UID: NS:lpmapi.__unnamed_struct_12
 title: ERROR_SPEC (lpmapi.h)
-
 description: The ERROR_SPEC structure contains RSVP error messages.
 old-location: qos\error_spec.htm
 tech.root: QOS
 ms.assetid: 4d20cbb8-c29a-4c0c-bf06-532144da3e33
-
 ms.date: 12/05/2018
 ms.keywords: ERROR_SPEC, ERROR_SPEC structure [QOS], lpmapi/ERROR_SPEC, qos.error_spec
 ms.topic: struct
-f1_keywords: 
- - "lpmapi/ERROR_SPEC"
+f1_keywords:
+- lpmapi/ERROR_SPEC
 dev_langs:
- - c++
+- c++
 req.header: lpmapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Lpmapi.h
+- Lpmapi.h
 api_name:
- - ERROR_SPEC
+- ERROR_SPEC
 targetos: Windows
 req.typenames: ERROR_SPEC
 req.redist: 

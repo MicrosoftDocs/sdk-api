@@ -1,19 +1,17 @@
 ---
 UID: NF:shlwapi.PathIsUNCServerW
 title: PathIsUNCServerW function (shlwapi.h)
-
 description: Determines if a string is a valid Universal Naming Convention (UNC) for a server path only.
 old-location: shell\PathIsUNCServer.htm
 tech.root: shell
 ms.assetid: 9158ceb6-dd20-4b1a-93d3-cf7a5a5c6c75
-
 ms.date: 12/05/2018
 ms.keywords: PathIsUNCServer, PathIsUNCServer function [Windows Shell], PathIsUNCServerA, PathIsUNCServerW, _win32_PathIsUNCServer, shell.PathIsUNCServer, shlwapi/PathIsUNCServer, shlwapi/PathIsUNCServerA, shlwapi/PathIsUNCServerW
 ms.topic: function
-f1_keywords: 
- - "shlwapi/PathIsUNCServer"
+f1_keywords:
+- shlwapi/PathIsUNCServer
 dev_langs:
- - c++
+- c++
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,20 +30,20 @@ req.lib: Shlwapi.lib
 req.dll: Shlwapi.dll (version 4.71 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Shlwapi.dll
- - API-MS-Win-Core-shlwapi-legacy-l1-1-0.dll
- - KernelBase.dll
- - API-MS-Win-DownLevel-shlwapi-l1-1-0.dll
- - API-MS-Win-DownLevel-shlwapi-l1-1-1.dll
+- Shlwapi.dll
+- API-MS-Win-Core-shlwapi-legacy-l1-1-0.dll
+- KernelBase.dll
+- API-MS-Win-DownLevel-shlwapi-l1-1-0.dll
+- API-MS-Win-DownLevel-shlwapi-l1-1-1.dll
 api_name:
- - PathIsUNCServer
- - PathIsUNCServerA
- - PathIsUNCServerW
+- PathIsUNCServer
+- PathIsUNCServerA
+- PathIsUNCServerW
 targetos: Windows
 req.typenames: 
 req.redist: 

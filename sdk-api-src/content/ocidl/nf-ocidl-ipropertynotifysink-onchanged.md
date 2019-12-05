@@ -1,19 +1,17 @@
 ---
 UID: NF:ocidl.IPropertyNotifySink.OnChanged
 title: IPropertyNotifySink::OnChanged (ocidl.h)
-
 description: Notifies a sink that a bindable property has changed.
 old-location: com\ipropertynotifysink_onchanged.htm
 tech.root: com
 ms.assetid: 71ab5206-5127-45f1-a2b5-3fbcc867d678
-
 ms.date: 12/05/2018
 ms.keywords: IPropertyNotifySink interface [COM],OnChanged method, IPropertyNotifySink.OnChanged, IPropertyNotifySink::OnChanged, OnChanged, OnChanged method [COM], OnChanged method [COM],IPropertyNotifySink interface, _ctrl_ipropertynotifysink_onchanged, com.ipropertynotifysink_onchanged, ocidl/IPropertyNotifySink::OnChanged
 ms.topic: method
-f1_keywords: 
- - "ocidl/IPropertyNotifySink.OnChanged"
+f1_keywords:
+- ocidl/IPropertyNotifySink.OnChanged
 dev_langs:
- - c++
+- c++
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - OCIdl.h
+- OCIdl.h
 api_name:
- - IPropertyNotifySink.OnChanged
+- IPropertyNotifySink.OnChanged
 targetos: Windows
 req.typenames: 
 req.redist: 

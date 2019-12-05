@@ -1,19 +1,17 @@
 ---
 UID: NS:winldap.ldapcontrolA
 title: LDAPControlA (winldap.h)
-
 description: Represents both client-side and server controls.
 old-location: ldap\ldapcontrol.htm
 tech.root: ldap
 ms.assetid: c0b4d712-021d-46f3-8bda-aaf660ec1acc
-
 ms.date: 12/05/2018
-ms.keywords: "*PLDAPControlA, LDAPControl, LDAPControl structure [LDAP], LDAPControlA, LDAPControlW, PLDAPControl, PLDAPControl structure pointer [LDAP], _ldap_ldapcontrol, ldap.ldapcontrol, winldap/LDAPControl, winldap/LDAPControlA, winldap/LDAPControlW, winldap/PLDAPControl"
+ms.keywords: '*PLDAPControlA, LDAPControl, LDAPControl structure [LDAP], LDAPControlA, LDAPControlW, PLDAPControl, PLDAPControl structure pointer [LDAP], _ldap_ldapcontrol, ldap.ldapcontrol, winldap/LDAPControl, winldap/LDAPControlA, winldap/LDAPControlW, winldap/PLDAPControl'
 ms.topic: struct
-f1_keywords: 
- - "winldap/LDAPControl"
+f1_keywords:
+- winldap/LDAPControl
 dev_langs:
- - c++
+- c++
 req.header: winldap.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Winldap.h
+- Winldap.h
 api_name:
- - LDAPControl
- - LDAPControlA
- - LDAPControlW
+- LDAPControl
+- LDAPControlA
+- LDAPControlW
 targetos: Windows
 req.typenames: LDAPControlA, *PLDAPControlA
 req.redist: 

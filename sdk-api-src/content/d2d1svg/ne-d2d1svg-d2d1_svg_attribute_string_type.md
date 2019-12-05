@@ -1,19 +1,17 @@
 ---
 UID: NE:d2d1svg.D2D1_SVG_ATTRIBUTE_STRING_TYPE
 title: D2D1_SVG_ATTRIBUTE_STRING_TYPE (d2d1svg.h)
-
 description: Defines the type of SVG string attribute to set or get.
 old-location: direct2d\d2d1_svg_attribute_string_type.htm
 tech.root: Direct2D
 ms.assetid: 71991A28-FEA0-42A1-B5D0-DA13BBA77500
-
 ms.date: 12/05/2018
 ms.keywords: D2D1_SVG_ATTRIBUTE_STRING_TYPE, D2D1_SVG_ATTRIBUTE_STRING_TYPE enumeration [Direct2D], D2D1_SVG_ATTRIBUTE_STRING_TYPE_FORCE_DWORD, D2D1_SVG_ATTRIBUTE_STRING_TYPE_ID, D2D1_SVG_ATTRIBUTE_STRING_TYPE_SVG, d2d1svg/D2D1_SVG_ATTRIBUTE_STRING_TYPE, d2d1svg/D2D1_SVG_ATTRIBUTE_STRING_TYPE_FORCE_DWORD, d2d1svg/D2D1_SVG_ATTRIBUTE_STRING_TYPE_ID, d2d1svg/D2D1_SVG_ATTRIBUTE_STRING_TYPE_SVG, direct2d.d2d1_svg_attribute_string_type
 ms.topic: enum
-f1_keywords: 
- - "d2d1svg/D2D1_SVG_ATTRIBUTE_STRING_TYPE"
+f1_keywords:
+- d2d1svg/D2D1_SVG_ATTRIBUTE_STRING_TYPE
 dev_langs:
- - c++
+- c++
 req.header: d2d1svg.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - d2d1svg.h
+- d2d1svg.h
 api_name:
- - D2D1_SVG_ATTRIBUTE_STRING_TYPE
+- D2D1_SVG_ATTRIBUTE_STRING_TYPE
 targetos: Windows
 req.typenames: D2D1_SVG_ATTRIBUTE_STRING_TYPE
 req.redist: 

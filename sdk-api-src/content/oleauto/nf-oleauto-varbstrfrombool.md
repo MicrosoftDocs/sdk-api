@@ -1,19 +1,17 @@
 ---
 UID: NF:oleauto.VarBstrFromBool
 title: VarBstrFromBool function (oleauto.h)
-
 description: Converts a Boolean value to a BSTR value.
 old-location: automat\varbstrfrombool.htm
 tech.root: automat
 ms.assetid: 6dc363bc-366c-4d9f-8aed-b1aed752c04f
-
 ms.date: 12/05/2018
 ms.keywords: LOCALE_NOUSEROVERRIDE, VAR_LOCALBOOL, VarBstrFromBool, VarBstrFromBool function [Automation], _oa96_VarBstrFromBool, automat.varbstrfrombool, oleauto/VarBstrFromBool
 ms.topic: function
-f1_keywords: 
- - "oleauto/VarBstrFromBool"
+f1_keywords:
+- oleauto/VarBstrFromBool
 dev_langs:
- - c++
+- c++
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: OleAut32.lib
 req.dll: OleAut32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - OleAut32.dll
+- OleAut32.dll
 api_name:
- - VarBstrFromBool
+- VarBstrFromBool
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:ole2.OleLoadFromStream
 title: OleLoadFromStream function (ole2.h)
-
 description: Loads an object from the stream.
 old-location: com\oleloadfromstream.htm
 tech.root: com
 ms.assetid: 2d54a0ef-906b-4886-a095-4ff2f3d4e634
-
 ms.date: 12/05/2018
 ms.keywords: OleLoadFromStream, OleLoadFromStream function [COM], _ole_OleLoadFromStream, com.oleloadfromstream, ole/OleLoadFromStream
 ms.topic: function
-f1_keywords: 
- - "ole2/OleLoadFromStream"
+f1_keywords:
+- ole2/OleLoadFromStream
 dev_langs:
- - c++
+- c++
 req.header: ole2.h
 req.include-header: Ole2.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Ole32.lib
 req.dll: Ole32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ole32.dll
- - Ext-MS-Win-OLE32-IE-Ext-l1-1-0.dll
+- Ole32.dll
+- Ext-MS-Win-OLE32-IE-Ext-l1-1-0.dll
 api_name:
- - OleLoadFromStream
+- OleLoadFromStream
 targetos: Windows
 req.typenames: 
 req.redist: 

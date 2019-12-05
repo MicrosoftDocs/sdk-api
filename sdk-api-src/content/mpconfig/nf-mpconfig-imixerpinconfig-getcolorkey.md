@@ -1,19 +1,17 @@
 ---
 UID: NF:mpconfig.IMixerPinConfig.GetColorKey
 title: IMixerPinConfig::GetColorKey (mpconfig.h)
-
 description: The GetColorKey method retrieves the color key being used by a video stream.
 old-location: dshow\imixerpinconfig_getcolorkey.htm
 tech.root: DirectShow
 ms.assetid: 07e97d05-f273-4e93-8da8-838975d6f96c
-
 ms.date: 12/05/2018
 ms.keywords: GetColorKey, GetColorKey method [DirectShow], GetColorKey method [DirectShow],IMixerPinConfig interface, IMixerPinConfig interface [DirectShow],GetColorKey method, IMixerPinConfig.GetColorKey, IMixerPinConfig::GetColorKey, IMixerPinConfigGetColorKey, dshow.imixerpinconfig_getcolorkey, mpconfig/IMixerPinConfig::GetColorKey
 ms.topic: method
-f1_keywords: 
- - "mpconfig/IMixerPinConfig.GetColorKey"
+f1_keywords:
+- mpconfig/IMixerPinConfig.GetColorKey
 dev_langs:
- - c++
+- c++
 req.header: mpconfig.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IMixerPinConfig.GetColorKey
+- IMixerPinConfig.GetColorKey
 targetos: Windows
 req.typenames: 
 req.redist: 

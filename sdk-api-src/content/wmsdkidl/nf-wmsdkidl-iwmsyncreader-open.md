@@ -1,19 +1,17 @@
 ---
 UID: NF:wmsdkidl.IWMSyncReader.Open
 title: IWMSyncReader::Open (wmsdkidl.h)
-
 description: The Open method opens a file for reading. Unlike IWMReader::Open, this method is a synchronous call.
 old-location: wmformat\iwmsyncreader_open.htm
 tech.root: wmformat
 ms.assetid: dab1a9c4-487c-4b20-909e-05f3504698f5
-
 ms.date: 12/05/2018
 ms.keywords: IWMSyncReader interface [windows Media Format],Open method, IWMSyncReader.Open, IWMSyncReader::Open, IWMSyncReaderOpen, Open, Open method [windows Media Format], Open method [windows Media Format],IWMSyncReader interface, wmformat.iwmsyncreader_open, wmsdkidl/IWMSyncReader::Open
 ms.topic: method
-f1_keywords: 
- - "wmsdkidl/IWMSyncReader.Open"
+f1_keywords:
+- wmsdkidl/IWMSyncReader.Open
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wmvcore.lib
- - Wmvcore.dll
- - WMStubDRM.lib
- - WMStubDRM.dll
+- Wmvcore.lib
+- Wmvcore.dll
+- WMStubDRM.lib
+- WMStubDRM.dll
 api_name:
- - IWMSyncReader.Open
+- IWMSyncReader.Open
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NS:xpsobjectmodel.__MIDL___MIDL_itf_xpsobjectmodel_0000_0000_0020
 title: XPS_DASH (xpsobjectmodel.h)
-
 description: This structure describes a dash element of a path.
 old-location: xps\xps_dash.htm
 tech.root: printdocs
 ms.assetid: c8f43f91-eefb-4025-8042-c2601e89d315
-
 ms.date: 12/05/2018
 ms.keywords: XPS_DASH, XPS_DASH structure [XPS Documents and Packaging], xps.xps_dash, xpsobjectmodel/XPS_DASH
 ms.topic: struct
-f1_keywords: 
- - "xpsobjectmodel/XPS_DASH"
+f1_keywords:
+- xpsobjectmodel/XPS_DASH
 dev_langs:
- - c++
+- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - xpsobjectmodel.h
+- xpsobjectmodel.h
 api_name:
- - XPS_DASH
+- XPS_DASH
 targetos: Windows
 req.typenames: XPS_DASH
 req.redist: 

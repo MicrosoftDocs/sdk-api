@@ -1,19 +1,17 @@
 ---
 UID: NF:msopc.IOpcPartUri.IsRelationshipsPartUri
 title: IOpcPartUri::IsRelationshipsPartUri (msopc.h)
-
 description: Returns a value that indicates whether the current part URI object represents the part name of a Relationships part.
 old-location: opc\iopcparturi_isrelationshipsparturi.htm
 tech.root: OPC
 ms.assetid: 11d271ab-247c-4060-b769-45e462b66255
-
 ms.date: 12/05/2018
 ms.keywords: IOpcPartUri interface [Open Packaging Conventions],IsRelationshipsPartUri method, IOpcPartUri.IsRelationshipsPartUri, IOpcPartUri::IsRelationshipsPartUri, IsRelationshipsPartUri, IsRelationshipsPartUri method [Open Packaging Conventions], IsRelationshipsPartUri method [Open Packaging Conventions],IOpcPartUri interface, msopc/IOpcPartUri::IsRelationshipsPartUri, opc.iopcparturi_isrelationshipsparturi
 ms.topic: method
-f1_keywords: 
- - "msopc/IOpcPartUri.IsRelationshipsPartUri"
+f1_keywords:
+- msopc/IOpcPartUri.IsRelationshipsPartUri
 dev_langs:
- - c++
+- c++
 req.header: msopc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msopc.h
+- msopc.h
 api_name:
- - IOpcPartUri.IsRelationshipsPartUri
+- IOpcPartUri.IsRelationshipsPartUri
 targetos: Windows
 req.typenames: 
 req.redist: 

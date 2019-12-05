@@ -1,19 +1,17 @@
 ---
 UID: NF:lmdfs.NetDfsAddRootTarget
 title: NetDfsAddRootTarget function (lmdfs.h)
-
 description: Creates a domain-based or stand-alone DFS namespace or adds a new root target to an existing domain-based namespace.
 old-location: dfs\netdfsaddroottarget.htm
 tech.root: Dfs
 ms.assetid: c4ce8f50-f090-4783-b6c9-834d9e0c33de
-
 ms.date: 12/05/2018
 ms.keywords: NetDfsAddRootTarget, NetDfsAddRootTarget function [Distributed File System], dfs.netdfsaddroottarget, fs.netdfsaddroottarget, lmdfs/NetDfsAddRootTarget
 ms.topic: function
 f1_keywords:
 - lmdfs/NetDfsAddRootTarget
 dev_langs:
- - c++
+- c++
 req.header: lmdfs.h
 req.include-header: LmDfs.h, Lm.h
 req.target-type: Windows

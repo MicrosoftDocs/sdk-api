@@ -1,19 +1,17 @@
 ---
 UID: NF:casetup.ICertSrvSetup.PostUnInstall
 title: ICertSrvSetup::PostUnInstall (casetup.h)
-
 description: Is not implemented and is reserved for future use.
 old-location: security\icertsrvsetup_postuninstall.htm
 tech.root: SecCrypto
 ms.assetid: e5ec32ec-616c-4460-bd1c-6e70c61b5234
-
 ms.date: 12/05/2018
 ms.keywords: ICertSrvSetup interface [Security],PostUnInstall method, ICertSrvSetup.PostUnInstall, ICertSrvSetup::PostUnInstall, PostUnInstall, PostUnInstall method [Security], PostUnInstall method [Security],ICertSrvSetup interface, casetup/ICertSrvSetup::PostUnInstall, security.icertsrvsetup_postuninstall
 ms.topic: method
-f1_keywords: 
- - "casetup/ICertSrvSetup.PostUnInstall"
+f1_keywords:
+- casetup/ICertSrvSetup.PostUnInstall
 dev_langs:
- - c++
+- c++
 req.header: casetup.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Certocm.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Certocm.dll
+- Certocm.dll
 api_name:
- - ICertSrvSetup.PostUnInstall
+- ICertSrvSetup.PostUnInstall
 targetos: Windows
 req.typenames: 
 req.redist: 

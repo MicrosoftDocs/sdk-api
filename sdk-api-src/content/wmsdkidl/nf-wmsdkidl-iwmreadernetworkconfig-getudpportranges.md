@@ -1,19 +1,17 @@
 ---
 UID: NF:wmsdkidl.IWMReaderNetworkConfig.GetUDPPortRanges
 title: IWMReaderNetworkConfig::GetUDPPortRanges (wmsdkidl.h)
-
 description: The GetUDPPortRanges method retrieves the UDP port number ranges used for receiving data.
 old-location: wmformat\iwmreadernetworkconfig_getudpportranges.htm
 tech.root: wmformat
 ms.assetid: a1792fd0-e9c3-4e28-9928-a615e1c9aec8
-
 ms.date: 12/05/2018
 ms.keywords: GetUDPPortRanges, GetUDPPortRanges method [windows Media Format], GetUDPPortRanges method [windows Media Format],IWMReaderNetworkConfig interface, IWMReaderNetworkConfig interface [windows Media Format],GetUDPPortRanges method, IWMReaderNetworkConfig.GetUDPPortRanges, IWMReaderNetworkConfig::GetUDPPortRanges, IWMReaderNetworkConfigGetUDPPortRanges, wmformat.iwmreadernetworkconfig_getudpportranges, wmsdkidl/IWMReaderNetworkConfig::GetUDPPortRanges
 ms.topic: method
-f1_keywords: 
- - "wmsdkidl/IWMReaderNetworkConfig.GetUDPPortRanges"
+f1_keywords:
+- wmsdkidl/IWMReaderNetworkConfig.GetUDPPortRanges
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wmvcore.lib
- - Wmvcore.dll
- - WMStubDRM.lib
- - WMStubDRM.dll
+- Wmvcore.lib
+- Wmvcore.dll
+- WMStubDRM.lib
+- WMStubDRM.dll
 api_name:
- - IWMReaderNetworkConfig.GetUDPPortRanges
+- IWMReaderNetworkConfig.GetUDPPortRanges
 targetos: Windows
 req.typenames: 
 req.redist: 

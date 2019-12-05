@@ -1,19 +1,17 @@
 ---
 UID: NF:comadmin.ICOMAdminCatalog.StartApplication
 title: ICOMAdminCatalog::StartApplication (comadmin.h)
-
 description: Starts the specified COM+ server application. The application components are launched in a dedicated server process.
 old-location: cos\icomadmincatalog_startapplication.htm
 tech.root: cossdk
 ms.assetid: 89423f39-7cbd-42dd-8d4a-6f312884e0bf
-
 ms.date: 12/05/2018
 ms.keywords: ICOMAdminCatalog interface [COM+],StartApplication method, ICOMAdminCatalog.StartApplication, ICOMAdminCatalog::StartApplication, StartApplication, StartApplication method [COM+], StartApplication method [COM+],ICOMAdminCatalog interface, _cos_ICOMAdminCatalog_StartApplication, comadmin/ICOMAdminCatalog::StartApplication, cos.icomadmincatalog_startapplication
 ms.topic: method
-f1_keywords: 
- - "comadmin/ICOMAdminCatalog.StartApplication"
+f1_keywords:
+- comadmin/ICOMAdminCatalog.StartApplication
 dev_langs:
- - c++
+- c++
 req.header: comadmin.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComAdmin.h
+- ComAdmin.h
 api_name:
- - ICOMAdminCatalog.StartApplication
+- ICOMAdminCatalog.StartApplication
 targetos: Windows
 req.typenames: 
 req.redist: 

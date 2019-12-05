@@ -1,19 +1,17 @@
 ---
 UID: NF:tom.ITextRange2.GetCount
 title: ITextRange2::GetCount (tom.h)
-
 description: Gets the count of subranges, including the active subrange in the current range.
 old-location: controls\itextrange2_getcount.htm
 tech.root: Controls
 ms.assetid: a1744e60-74b0-44a0-b470-6e89d328fa11
-
 ms.date: 12/05/2018
 ms.keywords: GetCount, GetCount method [Windows Controls], GetCount method [Windows Controls],ITextRange2 interface, ITextRange2 interface [Windows Controls],GetCount method, ITextRange2.GetCount, ITextRange2::GetCount, controls.itextrange2_getcount, tom/ITextRange2::GetCount
 ms.topic: method
-f1_keywords: 
- - "tom/ITextRange2.GetCount"
+f1_keywords:
+- tom/ITextRange2.GetCount
 dev_langs:
- - c++
+- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msftedit.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msftedit.dll
+- Msftedit.dll
 api_name:
- - ITextRange2.GetCount
+- ITextRange2.GetCount
 targetos: Windows
 req.typenames: 
 req.redist: 

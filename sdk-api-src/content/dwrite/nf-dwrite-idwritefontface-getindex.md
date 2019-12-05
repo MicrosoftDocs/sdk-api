@@ -1,19 +1,17 @@
 ---
 UID: NF:dwrite.IDWriteFontFace.GetIndex
 title: IDWriteFontFace::GetIndex (dwrite.h)
-
 description: Obtains the index of a font face in the context of its font files.
 old-location: directwrite\IDWriteFontFace_GetIndex.htm
 tech.root: DirectWrite
 ms.assetid: 69c87fcf-775c-4c6d-971c-e1bb999d246b
-
 ms.date: 12/05/2018
 ms.keywords: GetIndex, GetIndex method [Direct Write], GetIndex method [Direct Write],IDWriteFontFace interface, IDWriteFontFace interface [Direct Write],GetIndex method, IDWriteFontFace.GetIndex, IDWriteFontFace::GetIndex, directwrite.IDWriteFontFace_GetIndex, dwrite/IDWriteFontFace::GetIndex
 ms.topic: method
-f1_keywords: 
- - "dwrite/IDWriteFontFace.GetIndex"
+f1_keywords:
+- dwrite/IDWriteFontFace.GetIndex
 dev_langs:
- - c++
+- c++
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dwrite.lib
 req.dll: Dwrite.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dwrite.dll
+- dwrite.dll
 api_name:
- - IDWriteFontFace.GetIndex
+- IDWriteFontFace.GetIndex
 targetos: Windows
 req.typenames: 
 req.redist: 

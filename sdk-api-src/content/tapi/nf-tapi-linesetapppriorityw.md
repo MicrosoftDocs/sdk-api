@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi.lineSetAppPriorityW
 title: lineSetAppPriorityW function (tapi.h)
-
 description: Enables an application to set its priority in the handoff priority list for a particular media type or Assisted Telephony request mode, or to remove itself from the priority list.
 old-location: tapi2\linesetapppriority.htm
 tech.root: Tapi
 ms.assetid: f173c472-56bc-4773-a77a-1aa05ba8766f
-
 ms.date: 12/05/2018
-ms.keywords: "_tapi2_linesetapppriority, lineSetAppPriority, lineSetAppPriority function [TAPI 2.2], lineSetAppPriorityA, lineSetAppPriorityW, tapi/lineSetAppPriority, tapi/lineSetAppPriorityA, tapi/lineSetAppPriorityW, tapi2.linesetapppriority"
+ms.keywords: _tapi2_linesetapppriority, lineSetAppPriority, lineSetAppPriority function [TAPI 2.2], lineSetAppPriorityA, lineSetAppPriorityW, tapi/lineSetAppPriority, tapi/lineSetAppPriorityA, tapi/lineSetAppPriorityW, tapi2.linesetapppriority
 ms.topic: function
-f1_keywords: 
- - "tapi/lineSetAppPriority"
+f1_keywords:
+- tapi/lineSetAppPriority
 dev_langs:
- - c++
+- c++
 req.header: tapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Tapi32.lib
 req.dll: Tapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Tapi32.dll
+- Tapi32.dll
 api_name:
- - lineSetAppPriority
- - lineSetAppPriorityA
- - lineSetAppPriorityW
+- lineSetAppPriority
+- lineSetAppPriorityA
+- lineSetAppPriorityW
 targetos: Windows
 req.typenames: 
 req.redist: 

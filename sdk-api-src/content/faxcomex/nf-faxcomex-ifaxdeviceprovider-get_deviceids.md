@@ -1,19 +1,17 @@
 ---
 UID: NF:faxcomex.IFaxDeviceProvider.get_DeviceIds
 title: IFaxDeviceProvider::get_DeviceIds (faxcomex.h)
-
 description: The IFaxDeviceProvider::get_DeviceIds property returns a variant safe array of long (VT_I4 | VT_ARRAY). Each long value in the array is a device ID.
 old-location: fax\_mfax_faxdeviceprovider_cpp_mfax_faxdeviceprovider_deviceids_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_3chf.htm
-
 ms.date: 12/05/2018
 ms.keywords: DeviceIds property [Fax Service], DeviceIds property [Fax Service],IFaxDeviceProvider interface, IFaxDeviceProvider interface [Fax Service],DeviceIds property, IFaxDeviceProvider.DeviceIds, IFaxDeviceProvider.get_DeviceIds, IFaxDeviceProvider::DeviceIds, IFaxDeviceProvider::get_DeviceIds, _mfax_faxdeviceprovider.deviceids, fax._mfax_faxdeviceprovider_cpp_mfax_faxdeviceprovider_deviceids_cpp, fax._mfax_faxdeviceprovider_deviceids, faxcomex/IFaxDeviceProvider::DeviceIds, faxcomex/IFaxDeviceProvider::get_DeviceIds, get_DeviceIds
 ms.topic: method
-f1_keywords: 
- - "faxcomex/IFaxDeviceProvider.DeviceIds"
+f1_keywords:
+- faxcomex/IFaxDeviceProvider.DeviceIds
 dev_langs:
- - c++
+- c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: Fxscomex.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Fxscomex.dll
+- Fxscomex.dll
 api_name:
- - IFaxDeviceProvider.DeviceIds
- - IFaxDeviceProvider.get_DeviceIds
- - IFaxDeviceProvider.get_DeviceIds
+- IFaxDeviceProvider.DeviceIds
+- IFaxDeviceProvider.get_DeviceIds
+- IFaxDeviceProvider.get_DeviceIds
 targetos: Windows
 req.typenames: 
 req.redist: 

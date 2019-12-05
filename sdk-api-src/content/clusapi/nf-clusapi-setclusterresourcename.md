@@ -1,19 +1,17 @@
 ---
 UID: NF:clusapi.SetClusterResourceName
 title: SetClusterResourceName function (clusapi.h)
-
 description: Sets the name for a resource.
 old-location: mscs\setclusterresourcename.htm
 tech.root: MsCS
 ms.assetid: 8525a0b4-d37e-4ed3-8914-2c427978de6c
-
 ms.date: 12/05/2018
 ms.keywords: PCLUSAPI_SET_CLUSTER_RESOURCE_NAME, PCLUSAPI_SET_CLUSTER_RESOURCE_NAME function [Failover Cluster], SetClusterResourceName, SetClusterResourceName function [Failover Cluster], _wolf_setclusterresourcename, clusapi/PCLUSAPI_SET_CLUSTER_RESOURCE_NAME, clusapi/SetClusterResourceName, mscs.setclusterresourcename
 ms.topic: function
-f1_keywords: 
- - "clusapi/SetClusterResourceName"
+f1_keywords:
+- clusapi/SetClusterResourceName
 dev_langs:
- - c++
+- c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: ClusAPI.lib
 req.dll: ClusAPI.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - ClusAPI.dll
- - Ext-MS-Win-Cluster-ClusAPI-l1-1-0.dll
- - Ext-MS-Win-Cluster-ClusAPI-l1-1-1.dll
- - Ext-MS-Win-Cluster-ClusAPI-l1-1-2.dll
+- ClusAPI.dll
+- Ext-MS-Win-Cluster-ClusAPI-l1-1-0.dll
+- Ext-MS-Win-Cluster-ClusAPI-l1-1-1.dll
+- Ext-MS-Win-Cluster-ClusAPI-l1-1-2.dll
 api_name:
- - SetClusterResourceName
+- SetClusterResourceName
 targetos: Windows
 req.typenames: 
 req.redist: 

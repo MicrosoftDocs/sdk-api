@@ -1,19 +1,17 @@
 ---
 UID: NN:wmsdkidl.IWMLicenseBackup
 title: IWMLicenseBackup (wmsdkidl.h)
-
 description: The IWMLicenseBackup interface manages the backing up of licenses, typically so that they can be restored onto another computer.This interface is obtained by using the WMCreateBackupRestorer function.
 old-location: wmformat\iwmlicensebackup.htm
 tech.root: wmformat
 ms.assetid: 4ef43b7e-706b-48f6-80ba-7d0a59c3929a
-
 ms.date: 12/05/2018
 ms.keywords: IWMLicenseBackup, IWMLicenseBackup interface [windows Media Format], IWMLicenseBackup interface [windows Media Format],described, IWMLicenseBackupInterface, wmformat.iwmlicensebackup, wmsdkidl/IWMLicenseBackup
 ms.topic: interface
-f1_keywords: 
- - "wmsdkidl/IWMLicenseBackup"
+f1_keywords:
+- wmsdkidl/IWMLicenseBackup
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmsdkidl.h
+- wmsdkidl.h
 api_name:
- - IWMLicenseBackup
+- IWMLicenseBackup
 targetos: Windows
 req.typenames: 
 req.redist: 

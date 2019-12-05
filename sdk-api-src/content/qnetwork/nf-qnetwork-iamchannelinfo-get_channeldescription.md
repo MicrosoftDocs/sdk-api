@@ -1,19 +1,17 @@
 ---
 UID: NF:qnetwork.IAMChannelInfo.get_ChannelDescription
 title: IAMChannelInfo::get_ChannelDescription (qnetwork.h)
-
 description: The get_ChannelDescription method retrieves the description of the channel.
 old-location: dshow\iamchannelinfo_get_channeldescription.htm
 tech.root: DirectShow
 ms.assetid: c39b15af-0766-4512-9720-4cdaef6120ba
-
 ms.date: 12/05/2018
 ms.keywords: IAMChannelInfo interface [DirectShow],get_ChannelDescription method, IAMChannelInfo.get_ChannelDescription, IAMChannelInfo::get_ChannelDescription, IAMChannelInfoget_ChannelDescription, dshow.iamchannelinfo_get_channeldescription, get_ChannelDescription, get_ChannelDescription method [DirectShow], get_ChannelDescription method [DirectShow],IAMChannelInfo interface, qnetwork/IAMChannelInfo::get_ChannelDescription
 ms.topic: method
-f1_keywords: 
- - "qnetwork/IAMChannelInfo.get_ChannelDescription"
+f1_keywords:
+- qnetwork/IAMChannelInfo.get_ChannelDescription
 dev_langs:
- - c++
+- c++
 req.header: qnetwork.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Qnetwork.h
+- Qnetwork.h
 api_name:
- - IAMChannelInfo.get_ChannelDescription
+- IAMChannelInfo.get_ChannelDescription
 targetos: Windows
 req.typenames: 
 req.redist: 

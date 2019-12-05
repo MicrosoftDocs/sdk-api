@@ -1,19 +1,17 @@
 ---
 UID: NF:wmsdkidl.IWMRegisterCallback.Advise
 title: IWMRegisterCallback::Advise (wmsdkidl.h)
-
 description: The Advise method registers the application to receive status messages from the sink object.
 old-location: wmformat\iwmregistercallback_advise.htm
 tech.root: wmformat
 ms.assetid: 69d12e5c-23fd-4d4b-959e-fe7979bf3fdb
-
 ms.date: 12/05/2018
 ms.keywords: Advise, Advise method [windows Media Format], Advise method [windows Media Format],IWMRegisterCallback interface, IWMRegisterCallback interface [windows Media Format],Advise method, IWMRegisterCallback.Advise, IWMRegisterCallback::Advise, IWMRegisterCallbackAdvise, wmformat.iwmregistercallback_advise, wmsdkidl/IWMRegisterCallback::Advise
 ms.topic: method
-f1_keywords: 
- - "wmsdkidl/IWMRegisterCallback.Advise"
+f1_keywords:
+- wmsdkidl/IWMRegisterCallback.Advise
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wmvcore.lib
- - Wmvcore.dll
- - WMStubDRM.lib
- - WMStubDRM.dll
+- Wmvcore.lib
+- Wmvcore.dll
+- WMStubDRM.lib
+- WMStubDRM.dll
 api_name:
- - IWMRegisterCallback.Advise
+- IWMRegisterCallback.Advise
 targetos: Windows
 req.typenames: 
 req.redist: 

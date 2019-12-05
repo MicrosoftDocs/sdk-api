@@ -1,19 +1,17 @@
 ---
 UID: NN:msctf.ITfSource
 title: ITfSource (msctf.h)
-
 description: The ITfSource interface is implemented by the TSF manager. It is used by applications and text services to install and uninstall advise sinks.
 old-location: tsf\itfsource.htm
 tech.root: TSF
 ms.assetid: 2ff77f09-1b4c-4115-9bb4-4040097d1f90
-
 ms.date: 12/05/2018
 ms.keywords: ITfSource, ITfSource interface [Text Services Framework], ITfSource interface [Text Services Framework],described, _tsf_itfsource_ref, msctf/ITfSource, tsf.itfsource
 ms.topic: interface
-f1_keywords: 
- - "msctf/ITfSource"
+f1_keywords:
+- msctf/ITfSource
 dev_langs:
- - c++
+- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msctf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msctf.dll
+- msctf.dll
 api_name:
- - ITfSource
+- ITfSource
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

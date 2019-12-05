@@ -1,19 +1,17 @@
 ---
 UID: NN:appxpackaging.IAppxContentGroupsEnumerator
 title: IAppxContentGroupsEnumerator (appxpackaging.h)
-
 description: Enumerates the content groups from a content group map.
 old-location: appxpkg\iappxcontentgroupsenumerator.htm
 tech.root: appxpkg
 ms.assetid: BA91A1A6-6C6B-4086-AE95-47372581429C
-
 ms.date: 12/05/2018
 ms.keywords: IAppxContentGroupsEnumerator, IAppxContentGroupsEnumerator interface [App packaging and management], IAppxContentGroupsEnumerator interface [App packaging and management],described, appxpackaging/IAppxContentGroupsEnumerator, appxpkg.iappxcontentgroupsenumerator
 ms.topic: interface
-f1_keywords: 
- - "appxpackaging/IAppxContentGroupsEnumerator"
+f1_keywords:
+- appxpackaging/IAppxContentGroupsEnumerator
 dev_langs:
- - c++
+- c++
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - AppxPackaging.h
+- AppxPackaging.h
 api_name:
- - IAppxContentGroupsEnumerator
+- IAppxContentGroupsEnumerator
 targetos: Windows
 req.typenames: 
 req.redist: 

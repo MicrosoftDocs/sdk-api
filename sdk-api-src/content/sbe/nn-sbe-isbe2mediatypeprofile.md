@@ -1,19 +1,17 @@
 ---
 UID: NN:sbe.ISBE2MediaTypeProfile
 title: ISBE2MediaTypeProfile (sbe.h)
-
 description: Implements a media type profile.
 old-location: mstv\isbe2mediatypeprofile.htm
 tech.root: mstv
 ms.assetid: b2fb3d08-cbef-4dbf-a60b-8363ccee4fbf
-
 ms.date: 12/05/2018
 ms.keywords: ISBE2MediaTypeProfile, ISBE2MediaTypeProfile interface [Microsoft TV Technologies], ISBE2MediaTypeProfile interface [Microsoft TV Technologies],described, mstv.isbe2mediatypeprofile, sbe/ISBE2MediaTypeProfile
 ms.topic: interface
-f1_keywords: 
- - "sbe/ISBE2MediaTypeProfile"
+f1_keywords:
+- sbe/ISBE2MediaTypeProfile
 dev_langs:
- - c++
+- c++
 req.header: sbe.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Sbe.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - sbe.dll
+- sbe.dll
 api_name:
- - ISBE2MediaTypeProfile
+- ISBE2MediaTypeProfile
 targetos: Windows
 req.typenames: 
 req.redist: 

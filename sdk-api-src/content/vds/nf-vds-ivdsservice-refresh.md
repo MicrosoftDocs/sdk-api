@@ -1,19 +1,17 @@
 ---
 UID: NF:vds.IVdsService.Refresh
 title: IVdsService::Refresh (vds.h)
-
 description: Refreshes disk-ownership and disk-layout information.
 old-location: base\ivdsservice_refresh.htm
 tech.root: VDS
 ms.assetid: ca6a1143-b5f0-49e5-8505-836c565aabcf
-
 ms.date: 12/05/2018
 ms.keywords: IVdsService interface [VDS],Refresh method, IVdsService.Refresh, IVdsService::Refresh, Refresh, Refresh method [VDS], Refresh method [VDS],IVdsService interface, base.ivdsservice_refresh, vds/IVdsService::Refresh
 ms.topic: method
-f1_keywords: 
- - "vds/IVdsService.Refresh"
+f1_keywords:
+- vds/IVdsService.Refresh
 dev_langs:
- - c++
+- c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Uuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Uuid.lib
- - Uuid.dll
+- Uuid.lib
+- Uuid.dll
 api_name:
- - IVdsService.Refresh
+- IVdsService.Refresh
 targetos: Windows
 req.typenames: 
 req.redist: 

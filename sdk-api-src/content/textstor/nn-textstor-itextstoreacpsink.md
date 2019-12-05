@@ -1,19 +1,17 @@
 ---
 UID: NN:textstor.ITextStoreACPSink
 title: ITextStoreACPSink (textstor.h)
-
 description: The ITextStoreACPSink interface is implemented by the TSF manager and is used by an ACP-based application to notify the manager when certain events occur. The manager installs this advise sink by calling ITextStoreACP::AdviseSink.
 old-location: tsf\itextstoreacpsink.htm
 tech.root: TSF
 ms.assetid: d7e5a04f-7159-436e-a522-4cb63063aeef
-
 ms.date: 12/05/2018
 ms.keywords: ITextStoreACPSink, ITextStoreACPSink interface [Text Services Framework], ITextStoreACPSink interface [Text Services Framework],described, _tsf_itextstoreacpsink_ref, textstor/ITextStoreACPSink, tsf.itextstoreacpsink
 ms.topic: interface
-f1_keywords: 
- - "textstor/ITextStoreACPSink"
+f1_keywords:
+- textstor/ITextStoreACPSink
 dev_langs:
- - c++
+- c++
 req.header: textstor.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msctf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msctf.dll
+- msctf.dll
 api_name:
- - ITextStoreACPSink
+- ITextStoreACPSink
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

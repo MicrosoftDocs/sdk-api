@@ -1,19 +1,17 @@
 ---
 UID: NF:resapi.ResUtilAddUnknownProperties
 title: ResUtilAddUnknownProperties function (resapi.h)
-
 description: Retrieves a set of unknown properties from the cluster database and appends them to the end of a property list.
 old-location: mscs\resutiladdunknownproperties.htm
 tech.root: MsCS
 ms.assetid: 17659c86-d7cc-4316-ba0e-ce71de727fa1
-
 ms.date: 12/05/2018
 ms.keywords: PRESUTIL_ADD_UNKNOWN_PROPERTIES, PRESUTIL_ADD_UNKNOWN_PROPERTIES function [Failover Cluster], ResUtilAddUnknownProperties, ResUtilAddUnknownProperties function [Failover Cluster], _wolf_resutiladdunknownproperties, mscs.resutiladdunknownproperties, resapi/PRESUTIL_ADD_UNKNOWN_PROPERTIES, resapi/ResUtilAddUnknownProperties
 ms.topic: function
-f1_keywords: 
- - "resapi/ResUtilAddUnknownProperties"
+f1_keywords:
+- resapi/ResUtilAddUnknownProperties
 dev_langs:
- - c++
+- c++
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: ResUtils.lib
 req.dll: ResUtils.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - ResUtils.dll
+- ResUtils.dll
 api_name:
- - ResUtilAddUnknownProperties
+- ResUtilAddUnknownProperties
 targetos: Windows
 req.typenames: 
 req.redist: 

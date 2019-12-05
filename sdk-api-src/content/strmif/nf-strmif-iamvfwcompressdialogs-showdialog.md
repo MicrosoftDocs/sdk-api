@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IAMVfwCompressDialogs.ShowDialog
 title: IAMVfwCompressDialogs::ShowDialog (strmif.h)
-
 description: The ShowDialog method displays the specified dialog box.
 old-location: dshow\iamvfwcompressdialogs_showdialog.htm
 tech.root: DirectShow
 ms.assetid: 4826bd47-0091-4a74-b88d-72a5b0f1c5ac
-
 ms.date: 12/05/2018
 ms.keywords: IAMVfwCompressDialogs interface [DirectShow],ShowDialog method, IAMVfwCompressDialogs.ShowDialog, IAMVfwCompressDialogs::ShowDialog, IAMVfwCompressDialogsShowDialog, ShowDialog, ShowDialog method [DirectShow], ShowDialog method [DirectShow],IAMVfwCompressDialogs interface, dshow.iamvfwcompressdialogs_showdialog, strmif/IAMVfwCompressDialogs::ShowDialog
 ms.topic: method
-f1_keywords: 
- - "strmif/IAMVfwCompressDialogs.ShowDialog"
+f1_keywords:
+- strmif/IAMVfwCompressDialogs.ShowDialog
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IAMVfwCompressDialogs.ShowDialog
+- IAMVfwCompressDialogs.ShowDialog
 targetos: Windows
 req.typenames: 
 req.redist: 

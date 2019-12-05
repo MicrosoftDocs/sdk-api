@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IAMExtTransport.SetChase
 title: IAMExtTransport::SetChase (strmif.h)
-
 description: The SetChase method enables or disables chase mode.
 old-location: dshow\iamexttransport_setchase.htm
 tech.root: DirectShow
 ms.assetid: f8c94e74-e243-4fa9-85e6-8c027b514e4f
-
 ms.date: 12/05/2018
 ms.keywords: IAMExtTransport interface [DirectShow],SetChase method, IAMExtTransport.SetChase, IAMExtTransport::SetChase, IAMExtTransportSetChase, SetChase, SetChase method [DirectShow], SetChase method [DirectShow],IAMExtTransport interface, dshow.iamexttransport_setchase, strmif/IAMExtTransport::SetChase
 ms.topic: method
-f1_keywords: 
- - "strmif/IAMExtTransport.SetChase"
+f1_keywords:
+- strmif/IAMExtTransport.SetChase
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IAMExtTransport.SetChase
+- IAMExtTransport.SetChase
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:msctf.ITfRange.ShiftEndRegion
 title: ITfRange::ShiftEndRegion (msctf.h)
-
 description: ITfRange::ShiftEndRegion method
 old-location: tsf\itfrange_shiftendregion.htm
 tech.root: TSF
 ms.assetid: cda2282f-3d3c-4763-9892-b889b29963a6
-
 ms.date: 12/05/2018
 ms.keywords: ITfRange interface [Text Services Framework],ShiftEndRegion method, ITfRange.ShiftEndRegion, ITfRange::ShiftEndRegion, ShiftEndRegion, ShiftEndRegion method [Text Services Framework], ShiftEndRegion method [Text Services Framework],ITfRange interface, _tsf_itfrange_shiftendregion_ref, msctf/ITfRange::ShiftEndRegion, tsf.itfrange_shiftendregion
 ms.topic: method
-f1_keywords: 
- - "msctf/ITfRange.ShiftEndRegion"
+f1_keywords:
+- msctf/ITfRange.ShiftEndRegion
 dev_langs:
- - c++
+- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msctf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msctf.dll
+- Msctf.dll
 api_name:
- - ITfRange.ShiftEndRegion
+- ITfRange.ShiftEndRegion
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

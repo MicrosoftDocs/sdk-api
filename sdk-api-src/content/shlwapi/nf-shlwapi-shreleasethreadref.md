@@ -1,19 +1,17 @@
 ---
 UID: NF:shlwapi.SHReleaseThreadRef
 title: SHReleaseThreadRef function (shlwapi.h)
-
 description: Releases a thread reference before the thread procedure returns.
 old-location: shell\SHReleaseThreadRef.htm
 tech.root: shell
 ms.assetid: 7f3fd09b-baad-4019-a060-c68727aee61f
-
 ms.date: 12/05/2018
 ms.keywords: SHReleaseThreadRef, SHReleaseThreadRef function [Windows Shell], _shell_SHReleaseThreadRef, shell.SHReleaseThreadRef, shlwapi/SHReleaseThreadRef
 ms.topic: function
-f1_keywords: 
- - "shlwapi/SHReleaseThreadRef"
+f1_keywords:
+- shlwapi/SHReleaseThreadRef
 dev_langs:
- - c++
+- c++
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib: Shlwapi.lib
 req.dll: Shlwapi.dll (version 6.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Shlwapi.dll
- - API-MS-Win-DownLevel-shlwapi-l2-1-0.dll
- - ShCore.dll
- - API-MS-Win-DownLevel-shlwapi-l2-1-1.dll
- - API-MS-Win-ShCore-thread-l1-1-0.dll
+- Shlwapi.dll
+- API-MS-Win-DownLevel-shlwapi-l2-1-0.dll
+- ShCore.dll
+- API-MS-Win-DownLevel-shlwapi-l2-1-1.dll
+- API-MS-Win-ShCore-thread-l1-1-0.dll
 api_name:
- - SHReleaseThreadRef
+- SHReleaseThreadRef
 targetos: Windows
 req.typenames: 
 req.redist: 

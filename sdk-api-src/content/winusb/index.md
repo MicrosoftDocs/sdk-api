@@ -1,7 +1,6 @@
 ---
 UID: NA:winusb
 ms.assetid: bb5b82b6-ab7a-30ec-8968-30f7b74903cb
-
 ms.date: 01/11/2019
 ms.keywords: 
 ms.topic: portal

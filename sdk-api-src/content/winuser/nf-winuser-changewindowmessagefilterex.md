@@ -1,19 +1,17 @@
 ---
 UID: NF:winuser.ChangeWindowMessageFilterEx
 title: ChangeWindowMessageFilterEx function (winuser.h)
-
 description: Modifies the User Interface Privilege Isolation (UIPI) message filter for a specified window.
 old-location: winmsg\changewindowmessagefilterex.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowfunctions\changewindowmessagefilterex.htm
-
 ms.date: 12/05/2018
 ms.keywords: ChangeWindowMessageFilterEx, ChangeWindowMessageFilterEx function [Windows and Messages], MSGFLT_ALLOW, MSGFLT_DISALLOW, MSGFLT_RESET, _win32_ChangeWindowMessageFilterEx, _win32_changewindowmessagefilterex_cpp, winmsg.changewindowmessagefilterex, winui._win32_changewindowmessagefilterex, winuser/ChangeWindowMessageFilterEx
 ms.topic: function
-f1_keywords: 
- - "winuser/ChangeWindowMessageFilterEx"
+f1_keywords:
+- winuser/ChangeWindowMessageFilterEx
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,21 +30,21 @@ req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - User32.dll
- - Ext-MS-Win-RTCore-NTUser-iam-l1-1-0.dll
- - ext-ms-win-ntuser-gui-l1-1-0.dll
- - ext-ms-win-ntuser-gui-l1-1-1.dll
- - ext-ms-win-ntuser-gui-l1-2-0.dll
- - ext-ms-win-ntuser-gui-l1-2-1.dll
- - Ext-MS-Win-NTUser-Gui-L1-3-0.dll
- - Ext-MS-Win-RTCore-NTUser-Iam-L1-1-1.dll
+- User32.dll
+- Ext-MS-Win-RTCore-NTUser-iam-l1-1-0.dll
+- ext-ms-win-ntuser-gui-l1-1-0.dll
+- ext-ms-win-ntuser-gui-l1-1-1.dll
+- ext-ms-win-ntuser-gui-l1-2-0.dll
+- ext-ms-win-ntuser-gui-l1-2-1.dll
+- Ext-MS-Win-NTUser-Gui-L1-3-0.dll
+- Ext-MS-Win-RTCore-NTUser-Iam-L1-1-1.dll
 api_name:
- - ChangeWindowMessageFilterEx
+- ChangeWindowMessageFilterEx
 targetos: Windows
 req.typenames: 
 req.redist: 

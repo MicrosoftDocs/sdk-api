@@ -1,19 +1,17 @@
 ---
 UID: NF:fwpmu.FwpmProviderContextEnum0
 title: FwpmProviderContextEnum0 function (fwpmu.h)
-
 description: Returns the next page of results from the provider context enumerator.
 old-location: fwp\fwpmprovidercontextenum0_func.htm
 tech.root: fwp
 ms.assetid: a086c9b3-5cec-4cea-9224-ba423302eba8
-
 ms.date: 12/05/2018
 ms.keywords: FwpmProviderContextEnum0, FwpmProviderContextEnum0 function [Filtering], fwp.fwpmprovidercontextenum0_func, fwpmu/FwpmProviderContextEnum0
 ms.topic: function
-f1_keywords: 
- - "fwpmu/FwpmProviderContextEnum0"
+f1_keywords:
+- fwpmu/FwpmProviderContextEnum0
 dev_langs:
- - c++
+- c++
 req.header: fwpmu.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Fwpuclnt.lib
 req.dll: Fwpuclnt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Fwpuclnt.dll
+- Fwpuclnt.dll
 api_name:
- - FwpmProviderContextEnum0
+- FwpmProviderContextEnum0
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:dmusics.IDirectMusicSynth.Open
 title: IDirectMusicSynth::Open (dmusics.h)
-
 description: The Open method opens a DirectMusic synthesizer &#0034;port&#0034;.
 old-location: audio\idirectmusicsynth_open.htm
 tech.root: audio
 ms.assetid: 15a16b27-7693-4fc6-80ae-e8aedcf879d0
-
 ms.date: 12/05/2018
 ms.keywords: IDirectMusicSynth interface [Audio Devices],Open method, IDirectMusicSynth.Open, IDirectMusicSynth::Open, Open, Open method [Audio Devices], Open method [Audio Devices],IDirectMusicSynth interface, audio.idirectmusicsynth_open, audmp-routines_5bb9c701-4377-42fb-91ac-733952708a38.xml, dmusics/IDirectMusicSynth::Open
 ms.topic: method
-f1_keywords: 
- - "dmusics/IDirectMusicSynth.Open"
+f1_keywords:
+- dmusics/IDirectMusicSynth.Open
 dev_langs:
- - c++
+- c++
 req.header: dmusics.h
 req.include-header: Dmusics.h
 req.target-type: Desktop
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dmusics.h
+- dmusics.h
 api_name:
- - IDirectMusicSynth.Open
+- IDirectMusicSynth.Open
 targetos: Windows
 req.typenames: 
 req.redist: 

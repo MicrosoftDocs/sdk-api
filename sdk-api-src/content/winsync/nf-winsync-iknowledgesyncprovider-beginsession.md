@@ -1,19 +1,17 @@
 ---
 UID: NF:winsync.IKnowledgeSyncProvider.BeginSession
 title: IKnowledgeSyncProvider::BeginSession (winsync.h)
-
 description: Notifies the provider that it is joining a synchronization session.
 old-location: winsync\iknowledgesyncprovider_beginsession.htm
 tech.root: winsync
 ms.assetid: 15aae98e-96c6-45f3-906f-1729fa79ebdb
-
 ms.date: 12/05/2018
 ms.keywords: BeginSession, BeginSession method [Windows Sync], BeginSession method [Windows Sync],IKnowledgeSyncProvider interface, IKnowledgeSyncProvider interface [Windows Sync],BeginSession method, IKnowledgeSyncProvider.BeginSession, IKnowledgeSyncProvider::BeginSession, winsync.iknowledgesyncprovider_beginsession, winsync/IKnowledgeSyncProvider::BeginSession
 ms.topic: method
-f1_keywords: 
- - "winsync/IKnowledgeSyncProvider.BeginSession"
+f1_keywords:
+- winsync/IKnowledgeSyncProvider.BeginSession
 dev_langs:
- - c++
+- c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - winsync.h
+- winsync.h
 api_name:
- - IKnowledgeSyncProvider.BeginSession
+- IKnowledgeSyncProvider.BeginSession
 targetos: Windows
 req.typenames: 
 req.redist: 

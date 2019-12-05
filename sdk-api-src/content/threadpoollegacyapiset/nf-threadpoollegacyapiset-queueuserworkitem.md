@@ -1,19 +1,17 @@
 ---
 UID: NF:threadpoollegacyapiset.QueueUserWorkItem
 title: QueueUserWorkItem function (threadpoollegacyapiset.h)
-
 description: Queues a work item to a worker thread in the thread pool.
 old-location: base\queueuserworkitem.htm
 tech.root: ProcThread
 ms.assetid: 96f34b51-3784-4bb7-ae40-067f8113ff39
-
 ms.date: 12/05/2018
 ms.keywords: QueueUserWorkItem, QueueUserWorkItem function, WT_EXECUTEDEFAULT, WT_EXECUTEINIOTHREAD, WT_EXECUTEINPERSISTENTTHREAD, WT_EXECUTELONGFUNCTION, WT_TRANSFER_IMPERSONATION, _win32_queueuserworkitem, base.queueuserworkitem, threadpoollegacyapiset/QueueUserWorkItem, winbase/QueueUserWorkItem
 ms.topic: function
-f1_keywords: 
- - "threadpoollegacyapiset/QueueUserWorkItem"
+f1_keywords:
+- threadpoollegacyapiset/QueueUserWorkItem
 dev_langs:
- - c++
+- c++
 req.header: threadpoollegacyapiset.h
 req.include-header: Windows Server 2003, Windows Vista, Windows 7, Windows Server 2008  Windows Server 2008 R2, Windows.h
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-threadpool-legacy-l1-1-0.dll
- - KernelBase.dll
- - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
- - MinKernelBase.dll
+- Kernel32.dll
+- API-MS-Win-Core-threadpool-legacy-l1-1-0.dll
+- KernelBase.dll
+- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+- MinKernelBase.dll
 api_name:
- - QueueUserWorkItem
+- QueueUserWorkItem
 targetos: Windows
 req.typenames: 
 req.redist: 

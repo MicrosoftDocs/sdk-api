@@ -1,19 +1,17 @@
 ---
 UID: NF:shlwapi.StrNCatA
 title: StrNCatA function (shlwapi.h)
-
 description: Appends a specified number of characters from the beginning of one string to the end of another.
 old-location: shell\StrNCat.htm
 tech.root: shell
 ms.assetid: 28099350-5759-4595-8353-3452c5cf6ca8
-
 ms.date: 12/05/2018
 ms.keywords: StrNCat, StrNCat function [Windows Shell], StrNCatA, StrNCatW, _win32_StrNCat, shell.StrNCat, shlwapi/StrNCat, shlwapi/StrNCatA, shlwapi/StrNCatW
 ms.topic: function
-f1_keywords: 
- - "shlwapi/StrNCat"
+f1_keywords:
+- shlwapi/StrNCat
 dev_langs:
- - c++
+- c++
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Shlwapi.lib
 req.dll: Shlwapi.dll (version 4.71 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Shlwapi.dll
+- Shlwapi.dll
 api_name:
- - StrNCat
- - StrNCatA
- - StrNCatW
+- StrNCat
+- StrNCatA
+- StrNCatW
 targetos: Windows
 req.typenames: 
 req.redist: 

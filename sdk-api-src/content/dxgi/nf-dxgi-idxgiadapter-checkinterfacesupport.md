@@ -1,19 +1,17 @@
 ---
 UID: NF:dxgi.IDXGIAdapter.CheckInterfaceSupport
 title: IDXGIAdapter::CheckInterfaceSupport (dxgi.h)
-
 description: Checks whether the system supports a device interface for a graphics component.
 old-location: direct3ddxgi\idxgiadapter_checkinterfacesupport.htm
 tech.root: direct3ddxgi
 ms.assetid: VS|directx_sdk|~\idxgiadapter_checkinterfacesupport.htm
-
 ms.date: 12/05/2018
 ms.keywords: 5922d4df-f6ec-4fce-1a94-3779ba7e2830, CheckInterfaceSupport, CheckInterfaceSupport method [DXGI], CheckInterfaceSupport method [DXGI],IDXGIAdapter interface, IDXGIAdapter interface [DXGI],CheckInterfaceSupport method, IDXGIAdapter.CheckInterfaceSupport, IDXGIAdapter::CheckInterfaceSupport, direct3ddxgi.idxgiadapter_checkinterfacesupport, dxgi/IDXGIAdapter::CheckInterfaceSupport
 ms.topic: method
-f1_keywords: 
- - "dxgi/IDXGIAdapter.CheckInterfaceSupport"
+f1_keywords:
+- dxgi/IDXGIAdapter.CheckInterfaceSupport
 dev_langs:
- - c++
+- c++
 req.header: dxgi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: DXGI.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - DXGI.lib
- - DXGI.dll
+- DXGI.lib
+- DXGI.dll
 api_name:
- - IDXGIAdapter.CheckInterfaceSupport
+- IDXGIAdapter.CheckInterfaceSupport
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:lmremutl.NetRemoteComputerSupports
 title: NetRemoteComputerSupports function (lmremutl.h)
-
 description: The NetRemoteComputerSupports function queries the redirector to retrieve the optional features the remote system supports.
 old-location: netmgmt\netremotecomputersupports.htm
 tech.root: NetMgmt
 ms.assetid: e807489a-250e-4d4c-adb6-eff8ac30603b
-
 ms.date: 12/05/2018
 ms.keywords: NetRemoteComputerSupports, NetRemoteComputerSupports function [Network Management], SUPPORTS_LOCAL, SUPPORTS_REMOTE_ADMIN_PROTOCOL, SUPPORTS_RPC, SUPPORTS_SAM_PROTOCOL, SUPPORTS_UNICODE, _win32_netremotecomputersupports, lmremutl/NetRemoteComputerSupports, netmgmt.netremotecomputersupports
 ms.topic: function
-f1_keywords: 
- - "lmremutl/NetRemoteComputerSupports"
+f1_keywords:
+- lmremutl/NetRemoteComputerSupports
 dev_langs:
- - c++
+- c++
 req.header: lmremutl.h
 req.include-header: Lm.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Netapi32.lib
 req.dll: Netapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Netapi32.dll
+- Netapi32.dll
 api_name:
- - NetRemoteComputerSupports
+- NetRemoteComputerSupports
 targetos: Windows
 req.typenames: 
 req.redist: 

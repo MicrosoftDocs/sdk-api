@@ -1,19 +1,17 @@
 ---
 UID: NF:drt.DrtCreateNullSecurityProvider
 title: DrtCreateNullSecurityProvider function (drt.h)
-
 description: DrtCreateNullSecurityProvider function creates a null security provider. This security provider does not require nodes to authenticate keys.
 old-location: p2p\drtcreatenullsecurityprovider.htm
 tech.root: P2PSdk
 ms.assetid: ba6e766f-784b-4609-8ad5-c1bfb0575f34
-
 ms.date: 12/05/2018
 ms.keywords: DrtCreateNullSecurityProvider, DrtCreateNullSecurityProvider function [Distributed Routing Tables], drt/DrtCreateNullSecurityProvider, p2p.drtcreatenullsecurityprovider
 ms.topic: function
-f1_keywords: 
- - "drt/DrtCreateNullSecurityProvider"
+f1_keywords:
+- drt/DrtCreateNullSecurityProvider
 dev_langs:
- - c++
+- c++
 req.header: drt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Drtprov.lib
 req.dll: Drt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - drt.dll
+- drt.dll
 api_name:
- - DrtCreateNullSecurityProvider
+- DrtCreateNullSecurityProvider
 targetos: Windows
 req.typenames: 
 req.redist: 

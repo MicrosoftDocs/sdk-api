@@ -1,19 +1,17 @@
 ---
 UID: NF:pla.IFolderActionCollection.get_Item
 title: IFolderActionCollection::get_Item (pla.h)
-
 description: Retrieves the requested folder action from the collection.
 old-location: pla\ifolderactioncollection_item.htm
 tech.root: PLA
 ms.assetid: cf11f194-b518-41de-8f98-c4487c3d2fee
-
 ms.date: 12/05/2018
 ms.keywords: IFolderActionCollection interface [PLA],Item property, IFolderActionCollection.Item, IFolderActionCollection.get_Item, IFolderActionCollection::Item, IFolderActionCollection::get_Item, Item property [PLA], Item property [PLA],IFolderActionCollection interface, base.ifolderactioncollection_item, get_Item, pla.ifolderactioncollection_item, pla/IFolderActionCollection::Item, pla/IFolderActionCollection::get_Item
 ms.topic: method
-f1_keywords: 
- - "pla/IFolderActionCollection.Item"
+f1_keywords:
+- pla/IFolderActionCollection.Item
 dev_langs:
- - c++
+- c++
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: Pla.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Pla.dll
+- Pla.dll
 api_name:
- - IFolderActionCollection.Item
- - IFolderActionCollection.get_Item
+- IFolderActionCollection.Item
+- IFolderActionCollection.get_Item
 targetos: Windows
 req.typenames: 
 req.redist: 

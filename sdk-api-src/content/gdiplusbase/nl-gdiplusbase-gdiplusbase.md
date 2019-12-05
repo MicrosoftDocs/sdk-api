@@ -1,19 +1,17 @@
 ---
 UID: NL:gdiplusbase.GdiplusBase
 title: GdiplusBase (gdiplusbase.h)
-
 description: The GdiplusBase class provides memory allocation and deallocation for GDI+ objects. GdiplusBase serves as a base class for all other GDI+ classes, so you never need to create an instance of GdiplusBase.
 old-location: gdiplus\_gdiplus_CLASS_GdiplusBase_Class.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\gdiplusbase.htm
-
 ms.date: 12/05/2018
 ms.keywords: GdiplusBase, GdiplusBase class [GDI+], GdiplusBase class [GDI+],described, _gdiplus_CLASS_GdiplusBase_Class, gdiplus._gdiplus_CLASS_GdiplusBase_Class, gdiplusbase/GdiplusBase
 ms.topic: class
-f1_keywords: 
- - "gdiplusbase/GdiplusBase"
+f1_keywords:
+- gdiplusbase/GdiplusBase
 dev_langs:
- - c++
+- c++
 req.header: gdiplusbase.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - gdiplusbase.h
+- gdiplusbase.h
 api_name:
- - GdiplusBase
+- GdiplusBase
 targetos: Windows
 req.typenames: 
 req.redist: 

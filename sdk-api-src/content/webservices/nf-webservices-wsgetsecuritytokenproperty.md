@@ -1,19 +1,17 @@
 ---
 UID: NF:webservices.WsGetSecurityTokenProperty
 title: WsGetSecurityTokenProperty function (webservices.h)
-
 description: Extracts a field or a property from a security token.
 old-location: wsw\wsgetsecuritytokenproperty.htm
 tech.root: wsw
 ms.assetid: ce41062f-5125-4a4b-acc1-5df15b26276b
-
 ms.date: 12/05/2018
 ms.keywords: WsGetSecurityTokenProperty, WsGetSecurityTokenProperty function [Web Services for Windows], webservices/WsGetSecurityTokenProperty, wsw.wsgetsecuritytokenproperty
 ms.topic: function
-f1_keywords: 
- - "webservices/WsGetSecurityTokenProperty"
+f1_keywords:
+- webservices/WsGetSecurityTokenProperty
 dev_langs:
- - c++
+- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: WebServices.lib
 req.dll: WebServices.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - WebServices.dll
+- WebServices.dll
 api_name:
- - WsGetSecurityTokenProperty
+- WsGetSecurityTokenProperty
 targetos: Windows
 req.typenames: 
 req.redist: 

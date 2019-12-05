@@ -1,19 +1,17 @@
 ---
 UID: NF:processthreadsapi.SetProtectedPolicy
 title: SetProtectedPolicy function (processthreadsapi.h)
-
 description: Sets a protected policy.
 old-location: base\setprotectedpolicy.htm
 tech.root: ProcThread
 ms.assetid: 36975287-20F0-477B-870F-EA0AC40B39E3
-
 ms.date: 12/05/2018
 ms.keywords: SetProtectedPolicy, SetProtectedPolicy function, base.setprotectedpolicy, processthreadsapi/SetProtectedPolicy
 ms.topic: function
-f1_keywords: 
- - "processthreadsapi/SetProtectedPolicy"
+f1_keywords:
+- processthreadsapi/SetProtectedPolicy
 dev_langs:
- - c++
+- c++
 req.header: processthreadsapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-Processthreads-L1-1-2.dll
- - KernelBase.dll
- - MinKernelBase.dll
- - API-MS-Win-Core-ProcessThreads-L1-1-3.dll
+- Kernel32.dll
+- API-MS-Win-Core-Processthreads-L1-1-2.dll
+- KernelBase.dll
+- MinKernelBase.dll
+- API-MS-Win-Core-ProcessThreads-L1-1-3.dll
 api_name:
- - SetProtectedPolicy
+- SetProtectedPolicy
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IShellMenu.SetShellFolder
 title: IShellMenu::SetShellFolder (shobjidl_core.h)
-
 description: Specifies the folder for the menu band to browse.
 old-location: shell\IShellMenu_SetShellFolder.htm
 tech.root: shell
 ms.assetid: b442f64a-c8ab-4431-87d9-481befb51af7
-
 ms.date: 12/05/2018
 ms.keywords: IShellMenu interface [Windows Shell],SetShellFolder method, IShellMenu.SetShellFolder, IShellMenu::SetShellFolder, SMSET_BOTTOM, SMSET_COLLAPSEONEMPTY, SMSET_HASEXPANDABLEFOLDERS, SMSET_USEBKICONEXTRACTION, SetShellFolder, SetShellFolder method [Windows Shell], SetShellFolder method [Windows Shell],IShellMenu interface, _shell_IShellMenu_SetShellFolder, shell.IShellMenu_SetShellFolder, shobjidl_core/IShellMenu::SetShellFolder
 ms.topic: method
 f1_keywords:
 - shobjidl_core/IShellMenu.SetShellFolder
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

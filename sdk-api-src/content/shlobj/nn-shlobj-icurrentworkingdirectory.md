@@ -1,19 +1,17 @@
 ---
 UID: NN:shlobj.ICurrentWorkingDirectory
 title: ICurrentWorkingDirectory (shlobj.h)
-
 description: Exposes methods that enable a client to retrieve or set an object's current working directory.
 old-location: shell\ICurrentWorkingDirectory.htm
 tech.root: shell
 ms.assetid: 1fdbe616-3ca3-4f07-b89c-4c76561ba169
-
 ms.date: 12/05/2018
 ms.keywords: ICurrentWorkingDirectory, ICurrentWorkingDirectory interface [Windows Shell], ICurrentWorkingDirectory interface [Windows Shell],described, _win32_ICurrentWorkingDirectory, shell.ICurrentWorkingDirectory, shlobj/ICurrentWorkingDirectory
 ms.topic: interface
-f1_keywords: 
- - "shlobj/ICurrentWorkingDirectory"
+f1_keywords:
+- shlobj/ICurrentWorkingDirectory
 dev_langs:
- - c++
+- c++
 req.header: shlobj.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Shell32.dll (version 5.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - ICurrentWorkingDirectory
+- ICurrentWorkingDirectory
 targetos: Windows
 req.typenames: 
 req.redist: 

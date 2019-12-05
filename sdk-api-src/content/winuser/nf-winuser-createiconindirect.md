@@ -1,19 +1,17 @@
 ---
 UID: NF:winuser.CreateIconIndirect
 title: CreateIconIndirect function (winuser.h)
-
 description: Creates an icon or cursor from an ICONINFO structure.
 old-location: menurc\createiconindirect.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\icons\iconreference\iconfunctions\createiconindirect.htm
-
 ms.date: 12/05/2018
 ms.keywords: CreateIconIndirect, CreateIconIndirect function [Menus and Other Resources], _win32_CreateIconIndirect, _win32_createiconindirect_cpp, menurc.createiconindirect, winui._win32_createiconindirect, winuser/CreateIconIndirect
 ms.topic: function
 f1_keywords:
 - winuser/CreateIconIndirect
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -1,19 +1,17 @@
 ---
 UID: NF:winevt.EvtGetExtendedStatus
 title: EvtGetExtendedStatus function (winevt.h)
-
 description: Gets a text message that contains the extended error information for the current error.
 old-location: wes\evtgetextendedstatus.htm
 tech.root: wes
 ms.assetid: 49451981-b3de-4515-ae88-835f17a0a8f9
-
 ms.date: 12/05/2018
 ms.keywords: EvtGetExtendedStatus, EvtGetExtendedStatus function [EventLog], wes.evtgetextendedstatus, winevt/EvtGetExtendedStatus
 ms.topic: function
-f1_keywords: 
- - "winevt/EvtGetExtendedStatus"
+f1_keywords:
+- winevt/EvtGetExtendedStatus
 dev_langs:
- - c++
+- c++
 req.header: winevt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Wevtapi.lib
 req.dll: Wevtapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Wevtapi.dll
+- Wevtapi.dll
 api_name:
- - EvtGetExtendedStatus
+- EvtGetExtendedStatus
 targetos: Windows
 req.typenames: 
 req.redist: 

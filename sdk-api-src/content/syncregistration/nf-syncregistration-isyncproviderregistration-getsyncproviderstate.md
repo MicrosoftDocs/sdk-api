@@ -1,19 +1,17 @@
 ---
 UID: NF:syncregistration.ISyncProviderRegistration.GetSyncProviderState
 title: ISyncProviderRegistration::GetSyncProviderState (syncregistration.h)
-
 description: Returns the state of the specified synchronization provider.
 old-location: winsync\isyncproviderregistration_getsyncproviderstate.htm
 tech.root: winsync
 ms.assetid: 4e2e2e17-e435-4def-9aee-9109e0e06a8c
-
 ms.date: 12/05/2018
 ms.keywords: GetSyncProviderState, GetSyncProviderState method [Windows Sync], GetSyncProviderState method [Windows Sync],ISyncProviderRegistration interface, ISyncProviderRegistration interface [Windows Sync],GetSyncProviderState method, ISyncProviderRegistration.GetSyncProviderState, ISyncProviderRegistration::GetSyncProviderState, syncregistration/ISyncProviderRegistration::GetSyncProviderState, winsync.isyncproviderregistration_getsyncproviderstate
 ms.topic: method
-f1_keywords: 
- - "syncregistration/ISyncProviderRegistration.GetSyncProviderState"
+f1_keywords:
+- syncregistration/ISyncProviderRegistration.GetSyncProviderState
 dev_langs:
- - c++
+- c++
 req.header: syncregistration.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Syncregistration.h
+- Syncregistration.h
 api_name:
- - ISyncProviderRegistration.GetSyncProviderState
+- ISyncProviderRegistration.GetSyncProviderState
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:amsi.AmsiOpenSession
 title: AmsiOpenSession function (amsi.h)
-
 description: Opens a session within which multiple scan requests can be correlated.
 old-location: amsi\amsiopensession.htm
 tech.root: AMSI
 ms.assetid: 588C9003-8689-4D1C-BDFB-386E60BAECD5
-
 ms.date: 12/05/2018
 ms.keywords: AmsiOpenSession, AmsiOpenSession function [Antimalware Scan Interface], amsi.amsiopensession, amsi/AmsiOpenSession
 ms.topic: function
-f1_keywords: 
- - "amsi/AmsiOpenSession"
+f1_keywords:
+- amsi/AmsiOpenSession
 dev_langs:
- - c++
+- c++
 req.header: amsi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Amsi.lib
 req.dll: Amsi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - amsi.dll
+- amsi.dll
 api_name:
- - AmsiOpenSession
+- AmsiOpenSession
 targetos: Windows
 req.typenames: 
 req.redist: 

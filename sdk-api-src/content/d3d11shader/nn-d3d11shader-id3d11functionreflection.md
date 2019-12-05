@@ -1,19 +1,17 @@
 ---
 UID: NN:d3d11shader.ID3D11FunctionReflection
 title: ID3D11FunctionReflection (d3d11shader.h)
-
 description: A function-reflection interface accesses function info.
 old-location: direct3d11\id3d11functionreflection.htm
 tech.root: direct3d11
 ms.assetid: 91A3B6E3-E1A7-43F9-AD18-93A25F13CFB4
-
 ms.date: 12/05/2018
 ms.keywords: ID3D11FunctionReflection, ID3D11FunctionReflection interface [Direct3D 11], ID3D11FunctionReflection interface [Direct3D 11],described, d3d11shader/ID3D11FunctionReflection, direct3d11.id3d11functionreflection
 ms.topic: interface
-f1_keywords: 
- - "d3d11shader/ID3D11FunctionReflection"
+f1_keywords:
+- d3d11shader/ID3D11FunctionReflection
 dev_langs:
- - c++
+- c++
 req.header: d3d11shader.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: D3DCompiler.lib
 req.dll: D3DCompiler_47.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3DCompiler_47.dll
+- D3DCompiler_47.dll
 api_name:
- - ID3D11FunctionReflection
+- ID3D11FunctionReflection
 targetos: Windows
 req.typenames: 
 req.redist: 

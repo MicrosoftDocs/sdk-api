@@ -1,19 +1,17 @@
 ---
 UID: NF:threadpoolapiset.CloseThreadpoolCleanupGroupMembers
 title: CloseThreadpoolCleanupGroupMembers function (threadpoolapiset.h)
-
 description: Releases the members of the specified cleanup group, waits for all callback functions to complete, and optionally cancels any outstanding callback functions.
 old-location: base\closethreadpoolcleanupgroupmembers.htm
 tech.root: ProcThread
 ms.assetid: 9c78db13-d8dd-4eda-83d9-c9dbbfc6e822
-
 ms.date: 12/05/2018
 ms.keywords: CloseThreadpoolCleanupGroupMembers, CloseThreadpoolCleanupGroupMembers function, base.closethreadpoolcleanupgroupmembers, threadpoolapiset/CloseThreadpoolCleanupGroupMembers, winbase/CloseThreadpoolCleanupGroupMembers
 ms.topic: function
-f1_keywords: 
- - "threadpoolapiset/CloseThreadpoolCleanupGroupMembers"
+f1_keywords:
+- threadpoolapiset/CloseThreadpoolCleanupGroupMembers
 dev_langs:
- - c++
+- c++
 req.header: threadpoolapiset.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,19 +30,19 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-threadpool-l1-1-0.dll
- - KernelBase.dll
- - API-MS-Win-Core-threadpool-l1-2-0.dll
- - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
- - MinKernelBase.dll
+- Kernel32.dll
+- API-MS-Win-Core-threadpool-l1-1-0.dll
+- KernelBase.dll
+- API-MS-Win-Core-threadpool-l1-2-0.dll
+- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+- MinKernelBase.dll
 api_name:
- - CloseThreadpoolCleanupGroupMembers
+- CloseThreadpoolCleanupGroupMembers
 targetos: Windows
 req.typenames: 
 req.redist: 

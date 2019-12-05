@@ -1,19 +1,17 @@
 ---
 UID: NF:clusapi.ClusterGroupControl
 title: ClusterGroupControl function (clusapi.h)
-
 description: Initiates an operation that affects a group. The operation performed depends on the control code passed to the dwControlCode parameter.
 old-location: mscs\clustergroupcontrol.htm
 tech.root: MsCS
 ms.assetid: 72896685-a1db-43d7-a5e3-ba380c0624f2
-
 ms.date: 12/05/2018
 ms.keywords: ClusterGroupControl, ClusterGroupControl function [Failover Cluster], _wolf_clustergroupcontrol, clusapi/ClusterGroupControl, mscs.clustergroupcontrol
 ms.topic: function
-f1_keywords: 
- - "clusapi/ClusterGroupControl"
+f1_keywords:
+- clusapi/ClusterGroupControl
 dev_langs:
- - c++
+- c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib: ClusAPI.lib
 req.dll: ClusAPI.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - ClusAPI.dll
- - Ext-MS-Win-Cluster-ClusAPI-l1-1-0.dll
- - Ext-MS-Win-Cluster-ClusAPI-l1-1-1.dll
- - Ext-MS-Win-Cluster-ClusAPI-l1-1-2.dll
- - ext-ms-win-cluster-clusapi-l1-1-3.dll
+- ClusAPI.dll
+- Ext-MS-Win-Cluster-ClusAPI-l1-1-0.dll
+- Ext-MS-Win-Cluster-ClusAPI-l1-1-1.dll
+- Ext-MS-Win-Cluster-ClusAPI-l1-1-2.dll
+- ext-ms-win-cluster-clusapi-l1-1-3.dll
 api_name:
- - ClusterGroupControl
+- ClusterGroupControl
 targetos: Windows
 req.typenames: 
 req.redist: 

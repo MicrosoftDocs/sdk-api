@@ -1,19 +1,17 @@
 ---
 UID: NF:adsprop.ADsPropSetHwndWithTitle
 title: ADsPropSetHwndWithTitle function (adsprop.h)
-
 description: Used to notify the notification object of the property page window handle.
 old-location: ad\adspropsethwndwithtitle.htm
 tech.root: ad
 ms.assetid: d0d26f32-1c15-4641-bdeb-0f464a510669
-
 ms.date: 12/05/2018
 ms.keywords: ADsPropSetHwndWithTitle, ADsPropSetHwndWithTitle function [Active Directory], ad.adspropsethwndwithtitle, adsprop/ADsPropSetHwndWithTitle
 ms.topic: function
-f1_keywords: 
- - "adsprop/ADsPropSetHwndWithTitle"
+f1_keywords:
+- adsprop/ADsPropSetHwndWithTitle
 dev_langs:
- - c++
+- c++
 req.header: adsprop.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dsprop.lib
 req.dll: Dsprop.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Dsprop.dll
+- Dsprop.dll
 api_name:
- - ADsPropSetHwndWithTitle
+- ADsPropSetHwndWithTitle
 targetos: Windows
 req.typenames: 
 req.redist: 

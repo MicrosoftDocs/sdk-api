@@ -1,19 +1,17 @@
 ---
 UID: NN:vds.IVdsControllerControllerPort
 title: IVdsControllerControllerPort (vds.h)
-
 description: Provides a method to enumerate controller ports for a class implementing the IVdsController interface. This is needed to support MPIO.
 old-location: base\ivdscontrollercontrollerport.htm
 tech.root: VDS
 ms.assetid: 15b09f97-c729-4687-a62c-dac57661f8c0
-
 ms.date: 12/05/2018
 ms.keywords: IVdsControllerControllerPort, IVdsControllerControllerPort interface [VDS], IVdsControllerControllerPort interface [VDS],described, base.ivdscontrollercontrollerport, vds/IVdsControllerControllerPort, vdshwprv/IVdsControllerControllerPort
 ms.topic: interface
-f1_keywords: 
- - "vds/IVdsControllerControllerPort"
+f1_keywords:
+- vds/IVdsControllerControllerPort
 dev_langs:
- - c++
+- c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Uuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Uuid.lib
- - Uuid.dll
+- Uuid.lib
+- Uuid.dll
 api_name:
- - IVdsControllerControllerPort
+- IVdsControllerControllerPort
 targetos: Windows
 req.typenames: 
 req.redist: 

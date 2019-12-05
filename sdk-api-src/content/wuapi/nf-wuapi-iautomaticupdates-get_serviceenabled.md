@@ -1,19 +1,17 @@
 ---
 UID: NF:wuapi.IAutomaticUpdates.get_ServiceEnabled
 title: IAutomaticUpdates::get_ServiceEnabled (wuapi.h)
-
 description: Gets a Boolean value that indicates whether all the components that Automatic Updates requires are available.
 old-location: wua\iautomaticupdates_serviceenabled.htm
 tech.root: Wua_Sdk
 ms.assetid: 6d07ed15-f891-47c4-b4a6-2e57207dbdb3
-
 ms.date: 12/05/2018
 ms.keywords: IAutomaticUpdates interface [Windows Update Agent],ServiceEnabled property, IAutomaticUpdates.ServiceEnabled, IAutomaticUpdates.get_ServiceEnabled, IAutomaticUpdates::ServiceEnabled, IAutomaticUpdates::get_ServiceEnabled, ServiceEnabled property [Windows Update Agent], ServiceEnabled property [Windows Update Agent],IAutomaticUpdates interface, get_ServiceEnabled, wua.iautomaticupdates_serviceenabled, wuapi/IAutomaticUpdates::ServiceEnabled, wuapi/IAutomaticUpdates::get_ServiceEnabled
 ms.topic: method
-f1_keywords: 
- - "wuapi/IAutomaticUpdates.ServiceEnabled"
+f1_keywords:
+- wuapi/IAutomaticUpdates.ServiceEnabled
 dev_langs:
- - c++
+- c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Wuguid.lib
 req.dll: Wuapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wuapi.dll
+- Wuapi.dll
 api_name:
- - IAutomaticUpdates.ServiceEnabled
- - IAutomaticUpdates.get_ServiceEnabled
+- IAutomaticUpdates.ServiceEnabled
+- IAutomaticUpdates.get_ServiceEnabled
 targetos: Windows
 req.typenames: 
 req.redist: 

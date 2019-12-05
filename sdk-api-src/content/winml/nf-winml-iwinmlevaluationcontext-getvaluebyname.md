@@ -1,19 +1,17 @@
 ---
 UID: NF:winml.IWinMLEvaluationContext.GetValueByName
 title: IWinMLEvaluationContext::GetValueByName (winml.h)
-
 description: Returns the input/output description for the specific binding name.
 old-location: machinelearning\iwinmlevaluationcontext_getvaluebyname.htm
 tech.root: MachineLearning
 ms.assetid: 750A799F-A5A7-48D2-958B-D03423C0CE09
-
 ms.date: 12/05/2018
 ms.keywords: GetValueByName, GetValueByName method, GetValueByName method,IWinMLEvaluationContext interface, IWinMLEvaluationContext interface,GetValueByName method, IWinMLEvaluationContext.GetValueByName, IWinMLEvaluationContext::GetValueByName, MachineLearning.iwinmlevaluationcontext_getvaluebyname, winml/IWinMLEvaluationContext::GetValueByName
 ms.topic: method
-f1_keywords: 
- - "winml/IWinMLEvaluationContext.GetValueByName"
+f1_keywords:
+- winml/IWinMLEvaluationContext.GetValueByName
 dev_langs:
- - c++
+- c++
 req.header: winml.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Winml.lib
 req.dll: Winml.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - winml.dll
+- winml.dll
 api_name:
- - IWinMLEvaluationContext.GetValueByName
+- IWinMLEvaluationContext.GetValueByName
 targetos: Windows
 req.typenames: 
 req.redist: 

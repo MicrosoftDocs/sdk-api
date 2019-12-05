@@ -1,19 +1,17 @@
 ---
 UID: NF:dwrite_2.IDWriteTextAnalyzer2.CheckTypographicFeature
 title: IDWriteTextAnalyzer2::CheckTypographicFeature (dwrite_2.h)
-
 description: Checks if a typographic feature is available for a glyph or a set of glyphs.
 old-location: directwrite\idwritetextanalyzer2_checktypographicfeature.htm
 tech.root: DirectWrite
 ms.assetid: D929E654-1DF1-49AB-A311-010DB2D79E06
-
 ms.date: 12/05/2018
 ms.keywords: CheckTypographicFeature, CheckTypographicFeature method [Direct Write], CheckTypographicFeature method [Direct Write],IDWriteTextAnalyzer2 interface, IDWriteTextAnalyzer2 interface [Direct Write],CheckTypographicFeature method, IDWriteTextAnalyzer2.CheckTypographicFeature, IDWriteTextAnalyzer2::CheckTypographicFeature, directwrite.idwritetextanalyzer2_checktypographicfeature, dwrite_2/IDWriteTextAnalyzer2::CheckTypographicFeature
 ms.topic: method
-f1_keywords: 
- - "dwrite_2/IDWriteTextAnalyzer2.CheckTypographicFeature"
+f1_keywords:
+- dwrite_2/IDWriteTextAnalyzer2.CheckTypographicFeature
 dev_langs:
- - c++
+- c++
 req.header: dwrite_2.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dwrite.lib
 req.dll: Dwrite.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dwrite.dll
+- dwrite.dll
 api_name:
- - IDWriteTextAnalyzer2.CheckTypographicFeature
+- IDWriteTextAnalyzer2.CheckTypographicFeature
 targetos: Windows
 req.typenames: 
 req.redist: 

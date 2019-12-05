@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IFolderView.GetSpacing
 title: IFolderView::GetSpacing (shobjidl_core.h)
-
 description: Gets a POINT structure containing the width (x) and height (y) dimensions, including the surrounding white space, of an item.
 old-location: shell\IFolderView_GetSpacing.htm
 tech.root: shell
 ms.assetid: 6ea81c40-773f-4f53-97c1-99619e46be48
-
 ms.date: 12/05/2018
 ms.keywords: GetSpacing, GetSpacing method [Windows Shell], GetSpacing method [Windows Shell],IFolderView interface, IFolderView interface [Windows Shell],GetSpacing method, IFolderView.GetSpacing, IFolderView::GetSpacing, _shell_IFolderView_GetSpacing, shell.IFolderView_GetSpacing, shobjidl_core/IFolderView::GetSpacing
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IFolderView.GetSpacing"
+f1_keywords:
+- shobjidl_core/IFolderView.GetSpacing
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Shell32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - IFolderView.GetSpacing
+- IFolderView.GetSpacing
 targetos: Windows
 req.typenames: 
 req.redist: 

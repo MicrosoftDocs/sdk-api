@@ -1,19 +1,17 @@
 ---
 UID: NF:dvbsiparser.IDvbTerrestrialDeliverySystemDescriptor.GetCodeRateHPStream
 title: IDvbTerrestrialDeliverySystemDescriptor::GetCodeRateHPStream (dvbsiparser.h)
-
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\idvbterrestrialdeliverysystemdescriptor_getcoderatehpstream.htm
 tech.root: mstv
 ms.assetid: 84cc3e77-aa46-40b0-ad04-27541216bb6f
-
 ms.date: 12/05/2018
 ms.keywords: GetCodeRateHPStream, GetCodeRateHPStream method [Microsoft TV Technologies], GetCodeRateHPStream method [Microsoft TV Technologies],IDvbTerrestrialDeliverySystemDescriptor interface, IDvbTerrestrialDeliverySystemDescriptor interface [Microsoft TV Technologies],GetCodeRateHPStream method, IDvbTerrestrialDeliverySystemDescriptor.GetCodeRateHPStream, IDvbTerrestrialDeliverySystemDescriptor::GetCodeRateHPStream, IDvbTerrestrialDeliverySystemDescriptorGetCodeRateHPStream, dvbsiparser/IDvbTerrestrialDeliverySystemDescriptor::GetCodeRateHPStream, mstv.idvbterrestrialdeliverysystemdescriptor_getcoderatehpstream
 ms.topic: method
-f1_keywords: 
- - "dvbsiparser/IDvbTerrestrialDeliverySystemDescriptor.GetCodeRateHPStream"
+f1_keywords:
+- dvbsiparser/IDvbTerrestrialDeliverySystemDescriptor.GetCodeRateHPStream
 dev_langs:
- - c++
+- c++
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dvbsiparser.h
+- dvbsiparser.h
 api_name:
- - IDvbTerrestrialDeliverySystemDescriptor.GetCodeRateHPStream
+- IDvbTerrestrialDeliverySystemDescriptor.GetCodeRateHPStream
 targetos: Windows
 req.typenames: 
 req.redist: 

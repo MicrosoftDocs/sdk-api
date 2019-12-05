@@ -1,19 +1,17 @@
 ---
 UID: NN:wincodecsdk.IWICMetadataReaderInfo
 title: IWICMetadataReaderInfo (wincodecsdk.h)
-
 description: Exposes methods that provide basic information about the registered metadata reader.
 old-location: wic\_wic_codec_iwicmetadatareaderinfo.htm
 tech.root: wic
 ms.assetid: f72d9a06-0568-4e46-a904-202aad2f8859
-
 ms.date: 12/05/2018
 ms.keywords: IWICMetadataReaderInfo, IWICMetadataReaderInfo interface [Windows Imaging Component], IWICMetadataReaderInfo interface [Windows Imaging Component],described, _wic_codec_iwicmetadatareaderinfo, wic._wic_codec_iwicmetadatareaderinfo, wincodecsdk/IWICMetadataReaderInfo
 ms.topic: interface
-f1_keywords: 
- - "wincodecsdk/IWICMetadataReaderInfo"
+f1_keywords:
+- wincodecsdk/IWICMetadataReaderInfo
 dev_langs:
- - c++
+- c++
 req.header: wincodecsdk.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Windowscodecs.lib
 req.dll: Windowscodecs.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Windowscodecs.dll
+- Windowscodecs.dll
 api_name:
- - IWICMetadataReaderInfo
+- IWICMetadataReaderInfo
 targetos: Windows
 req.typenames: 
 req.redist: 

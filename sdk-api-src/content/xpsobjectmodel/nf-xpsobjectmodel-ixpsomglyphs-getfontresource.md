@@ -1,19 +1,17 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMGlyphs.GetFontResource
 title: IXpsOMGlyphs::GetFontResource (xpsobjectmodel.h)
-
 description: Gets a pointer to the IXpsOMFontResource interface of the font resource object required for this text.
 old-location: xps\ixpsomglyphs_getfontresource.htm
 tech.root: printdocs
 ms.assetid: 6ecca6a0-eb47-4511-898d-cf097a78d6f0
-
 ms.date: 12/05/2018
 ms.keywords: GetFontResource, GetFontResource method [XPS Documents and Packaging], GetFontResource method [XPS Documents and Packaging],IXpsOMGlyphs interface, IXpsOMGlyphs interface [XPS Documents and Packaging],GetFontResource method, IXpsOMGlyphs.GetFontResource, IXpsOMGlyphs::GetFontResource, xps.ixpsomglyphs_getfontresource, xpsobjectmodel/IXpsOMGlyphs::GetFontResource
 ms.topic: method
-f1_keywords: 
- - "xpsobjectmodel/IXpsOMGlyphs.GetFontResource"
+f1_keywords:
+- xpsobjectmodel/IXpsOMGlyphs.GetFontResource
 dev_langs:
- - c++
+- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsobjectmodel.h
+- xpsobjectmodel.h
 api_name:
- - IXpsOMGlyphs.GetFontResource
+- IXpsOMGlyphs.GetFontResource
 targetos: Windows
 req.typenames: 
 req.redist: 

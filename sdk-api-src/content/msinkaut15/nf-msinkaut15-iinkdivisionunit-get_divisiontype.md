@@ -1,19 +1,17 @@
 ---
 UID: NF:msinkaut15.IInkDivisionUnit.get_DivisionType
 title: IInkDivisionUnit::get_DivisionType (msinkaut15.h)
-
 description: Gets the type of structural unit the IInkDivisionUnit object represents within the analysis results.
 old-location: tablet\iinkdivisionunit_divisiontype.htm
 tech.root: tablet
 ms.assetid: c1aaaa62-34fc-4cd4-bd68-47f828bb59b1
-
 ms.date: 12/05/2018
 ms.keywords: DivisionType property [Tablet PC], DivisionType property [Tablet PC],IInkDivisionUnit interface, IInkDivisionUnit interface [Tablet PC],DivisionType property, IInkDivisionUnit.DivisionType, IInkDivisionUnit.get_DivisionType, IInkDivisionUnit::DivisionType, IInkDivisionUnit::get_DivisionType, c1aaaa62-34fc-4cd4-bd68-47f828bb59b1, get_DivisionType, msinkaut15/IInkDivisionUnit::DivisionType, msinkaut15/IInkDivisionUnit::get_DivisionType, tablet.iinkdivisionunit_divisiontype
 ms.topic: method
-f1_keywords: 
- - "msinkaut15/IInkDivisionUnit.DivisionType"
+f1_keywords:
+- msinkaut15/IInkDivisionUnit.DivisionType
 dev_langs:
- - c++
+- c++
 req.header: msinkaut15.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Inkdiv.dll
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Inkdiv.dll
- - Inkdiv.dll.dll
+- Inkdiv.dll
+- Inkdiv.dll.dll
 api_name:
- - IInkDivisionUnit.DivisionType
- - IInkDivisionUnit.get_DivisionType
- - IInkDivisionUnit.get_DivisionType
+- IInkDivisionUnit.DivisionType
+- IInkDivisionUnit.get_DivisionType
+- IInkDivisionUnit.get_DivisionType
 targetos: Windows
 req.typenames: 
 req.redist: 

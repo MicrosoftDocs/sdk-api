@@ -1,19 +1,17 @@
 ---
 UID: NE:strmif.tagVideoProcAmpProperty
 title: VideoProcAmpProperty (strmif.h)
-
 description: The VideoProcAmpProperty enumeration specifies video properties on a video capture device.
 old-location: dshow\videoprocampproperty.htm
 tech.root: DirectShow
 ms.assetid: 113e3896-4920-41a3-9ce2-a26c34af4896
-
 ms.date: 12/05/2018
 ms.keywords: VideoProcAmpProperty, VideoProcAmpProperty enumeration [DirectShow], VideoProcAmpPropertyEnumeration, VideoProcAmp_BacklightCompensation, VideoProcAmp_Brightness, VideoProcAmp_ColorEnable, VideoProcAmp_Contrast, VideoProcAmp_Gain, VideoProcAmp_Gamma, VideoProcAmp_Hue, VideoProcAmp_Saturation, VideoProcAmp_Sharpness, VideoProcAmp_WhiteBalance, dshow.videoprocampproperty, strmif/VideoProcAmpProperty, strmif/VideoProcAmp_BacklightCompensation, strmif/VideoProcAmp_Brightness, strmif/VideoProcAmp_ColorEnable, strmif/VideoProcAmp_Contrast, strmif/VideoProcAmp_Gain, strmif/VideoProcAmp_Gamma, strmif/VideoProcAmp_Hue, strmif/VideoProcAmp_Saturation, strmif/VideoProcAmp_Sharpness, strmif/VideoProcAmp_WhiteBalance
 ms.topic: enum
-f1_keywords: 
- - "strmif/VideoProcAmpProperty"
+f1_keywords:
+- strmif/VideoProcAmpProperty
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - strmif.h
+- strmif.h
 api_name:
- - VideoProcAmpProperty
+- VideoProcAmpProperty
 targetos: Windows
 req.typenames: VideoProcAmpProperty
 req.redist: 

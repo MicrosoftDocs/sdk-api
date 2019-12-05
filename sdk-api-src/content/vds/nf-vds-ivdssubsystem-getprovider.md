@@ -1,19 +1,17 @@
 ---
 UID: NF:vds.IVdsSubSystem.GetProvider
 title: IVdsSubSystem::GetProvider (vds.h)
-
 description: Returns the provider that manages the subsystem.
 old-location: base\ivdssubsystem_getprovider.htm
 tech.root: VDS
 ms.assetid: 317e4aa3-2635-4e1b-af2d-ad7c6170bf33
-
 ms.date: 12/05/2018
 ms.keywords: GetProvider, GetProvider method [VDS], GetProvider method [VDS],IVdsSubSystem interface, IVdsSubSystem interface [VDS],GetProvider method, IVdsSubSystem.GetProvider, IVdsSubSystem::GetProvider, base.ivdssubsystem_getprovider, vds/IVdsSubSystem::GetProvider, vdshwprv/IVdsSubSystem::GetProvider
 ms.topic: method
-f1_keywords: 
- - "vds/IVdsSubSystem.GetProvider"
+f1_keywords:
+- vds/IVdsSubSystem.GetProvider
 dev_langs:
- - c++
+- c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Uuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Uuid.lib
- - Uuid.dll
+- Uuid.lib
+- Uuid.dll
 api_name:
- - IVdsSubSystem.GetProvider
+- IVdsSubSystem.GetProvider
 targetos: Windows
 req.typenames: 
 req.redist: 

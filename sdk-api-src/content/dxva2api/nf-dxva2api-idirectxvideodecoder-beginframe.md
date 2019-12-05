@@ -1,19 +1,17 @@
 ---
 UID: NF:dxva2api.IDirectXVideoDecoder.BeginFrame
 title: IDirectXVideoDecoder::BeginFrame (dxva2api.h)
-
 description: Starts the decoding operation.
 old-location: mf\idirectxvideodecoder_beginframe.htm
 tech.root: medfound
 ms.assetid: 17759e7b-e6d4-4270-abd3-0f73c1df7ccb
-
 ms.date: 12/05/2018
 ms.keywords: 17759e7b-e6d4-4270-abd3-0f73c1df7ccb, BeginFrame, BeginFrame method [Media Foundation], BeginFrame method [Media Foundation],IDirectXVideoDecoder interface, IDirectXVideoDecoder interface [Media Foundation],BeginFrame method, IDirectXVideoDecoder.BeginFrame, IDirectXVideoDecoder::BeginFrame, dxva2api/IDirectXVideoDecoder::BeginFrame, mf.idirectxvideodecoder_beginframe
 ms.topic: method
-f1_keywords: 
- - "dxva2api/IDirectXVideoDecoder.BeginFrame"
+f1_keywords:
+- dxva2api/IDirectXVideoDecoder.BeginFrame
 dev_langs:
- - c++
+- c++
 req.header: dxva2api.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dxva2api.h
+- dxva2api.h
 api_name:
- - IDirectXVideoDecoder.BeginFrame
+- IDirectXVideoDecoder.BeginFrame
 targetos: Windows
 req.typenames: 
 req.redist: 

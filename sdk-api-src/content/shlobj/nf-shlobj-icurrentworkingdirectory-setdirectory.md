@@ -1,19 +1,17 @@
 ---
 UID: NF:shlobj.ICurrentWorkingDirectory.SetDirectory
 title: ICurrentWorkingDirectory::SetDirectory (shlobj.h)
-
 description: Sets the current working directory.
 old-location: shell\ICurrentWorkingDirectory_SetDirectory.htm
 tech.root: shell
 ms.assetid: cd7d1517-8c0c-4e42-b750-815fa0aff32c
-
 ms.date: 12/05/2018
 ms.keywords: ICurrentWorkingDirectory interface [Windows Shell],SetDirectory method, ICurrentWorkingDirectory.SetDirectory, ICurrentWorkingDirectory::SetDirectory, SetDirectory, SetDirectory method [Windows Shell], SetDirectory method [Windows Shell],ICurrentWorkingDirectory interface, _win32_ICurrentWorkingDirectory_SetDirectory, shell.ICurrentWorkingDirectory_SetDirectory, shlobj/ICurrentWorkingDirectory::SetDirectory
 ms.topic: method
-f1_keywords: 
- - "shlobj/ICurrentWorkingDirectory.SetDirectory"
+f1_keywords:
+- shlobj/ICurrentWorkingDirectory.SetDirectory
 dev_langs:
- - c++
+- c++
 req.header: shlobj.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Shell32.dll (version 5.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - ICurrentWorkingDirectory.SetDirectory
+- ICurrentWorkingDirectory.SetDirectory
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:gdipluseffects.ColorLUT.ColorLUT
 title: ColorLUT::ColorLUT (gdipluseffects.h)
-
 description: Creates a new ColorLUT object.
 old-location: gdiplus\_gdiplus_CLASS_ColorLUT_ColorLUT_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\colorlutclass\colorlutconstructors\colorlut.htm
-
 ms.date: 12/05/2018
 ms.keywords: ColorLUT, ColorLUT class [GDI+],ColorLUT constructor, ColorLUT constructor [GDI+], ColorLUT constructor [GDI+],ColorLUT class, ColorLUT.ColorLUT, ColorLUT::ColorLUT, _gdiplus_CLASS_ColorLUT_ColorLUT_, gdiplus._gdiplus_CLASS_ColorLUT_ColorLUT_
 ms.topic: method
-f1_keywords: 
- - "gdipluseffects/ColorLUT.ColorLUT"
+f1_keywords:
+- gdipluseffects/ColorLUT.ColorLUT
 dev_langs:
- - c++
+- c++
 req.header: gdipluseffects.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - ColorLUT.ColorLUT
+- ColorLUT.ColorLUT
 targetos: Windows
 req.typenames: 
 req.redist: 

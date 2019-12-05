@@ -1,19 +1,17 @@
 ---
 UID: NE:bcrypt.__unnamed_enum_4
 title: BCRYPT_HASH_OPERATION_TYPE (bcrypt.h)
-
 description: The BCRYPT_HASH_OPERATION_TYPE enumeration specifies the hash operation type.
 old-location: security\bcrypt_hash_operation_type.htm
 tech.root: SecCNG
 ms.assetid: DC570FB0-15DF-442C-951A-52A3120DB782
-
 ms.date: 12/05/2018
 ms.keywords: BCRYPT_HASH_OPERATION_FINISH_HASH, BCRYPT_HASH_OPERATION_HASH_DATA, BCRYPT_HASH_OPERATION_TYPE, BCRYPT_HASH_OPERATION_TYPE enumeration [Security], bcrypt/BCRYPT_HASH_OPERATION_FINISH_HASH, bcrypt/BCRYPT_HASH_OPERATION_HASH_DATA, bcrypt/BCRYPT_HASH_OPERATION_TYPE, security.bcrypt_hash_operation_type
 ms.topic: enum
-f1_keywords: 
- - "bcrypt/BCRYPT_HASH_OPERATION_TYPE"
+f1_keywords:
+- bcrypt/BCRYPT_HASH_OPERATION_TYPE
 dev_langs:
- - c++
+- c++
 req.header: bcrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Bcrypt.h
+- Bcrypt.h
 api_name:
- - BCRYPT_HASH_OPERATION_TYPE
+- BCRYPT_HASH_OPERATION_TYPE
 targetos: Windows
 req.typenames: BCRYPT_HASH_OPERATION_TYPE
 req.redist: 

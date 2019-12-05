@@ -1,19 +1,17 @@
 ---
 UID: NF:mfreadwrite.IMFSourceReader.ReadSample
 title: IMFSourceReader::ReadSample (mfreadwrite.h)
-
 description: Reads the next sample from the media source.
 old-location: mf\imfsourcereader_readsample.htm
 tech.root: medfound
 ms.assetid: 99bd9bd7-d8d1-433a-bc5a-4b9761de5048
-
 ms.date: 12/05/2018
 ms.keywords: IMFSourceReader interface [Media Foundation],ReadSample method, IMFSourceReader.ReadSample, IMFSourceReader::ReadSample, MF_SOURCE_READER_ANY_STREAM, MF_SOURCE_READER_FIRST_AUDIO_STREAM, MF_SOURCE_READER_FIRST_VIDEO_STREAM, ReadSample, ReadSample method [Media Foundation], ReadSample method [Media Foundation],IMFSourceReader interface, mf.imfsourcereader_readsample, mfreadwrite/IMFSourceReader::ReadSample
 ms.topic: method
-f1_keywords: 
- - "mfreadwrite/IMFSourceReader.ReadSample"
+f1_keywords:
+- mfreadwrite/IMFSourceReader.ReadSample
 dev_langs:
- - c++
+- c++
 req.header: mfreadwrite.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfreadwrite.h
+- mfreadwrite.h
 api_name:
- - IMFSourceReader.ReadSample
+- IMFSourceReader.ReadSample
 targetos: Windows
 req.typenames: 
 req.redist: 

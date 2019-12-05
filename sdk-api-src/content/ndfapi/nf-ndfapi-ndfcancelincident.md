@@ -1,19 +1,17 @@
 ---
 UID: NF:ndfapi.NdfCancelIncident
 title: NdfCancelIncident function (ndfapi.h)
-
 description: Used to cancel unneeded functions which have been previously called on an existing incident.
 old-location: ndf\ndfcancelincident.htm
 tech.root: NDF
 ms.assetid: dc0cbfc0-fcaa-44b2-a753-8df9f184b8ca
-
 ms.date: 12/05/2018
 ms.keywords: NdfCancelIncident, NdfCancelIncident function [NDF], ndf.ndfcancelincident, ndfapi/NdfCancelIncident
 ms.topic: function
-f1_keywords: 
- - "ndfapi/NdfCancelIncident"
+f1_keywords:
+- ndfapi/NdfCancelIncident
 dev_langs:
- - c++
+- c++
 req.header: ndfapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Ndfapi.lib
 req.dll: Ndfapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ndfapi.dll
+- Ndfapi.dll
 api_name:
- - NdfCancelIncident
+- NdfCancelIncident
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NS:wmsdkidl.__WMT_WATERMARK_ENTRY
 title: WMT_WATERMARK_ENTRY (wmsdkidl.h)
-
 description: The WMT_WATERMARK_ENTRY structure contains information describing a watermarking system.
 old-location: wmformat\wmt_watermark_entry.htm
 tech.root: wmformat
 ms.assetid: 9b7b78e1-cf28-4b7a-8a12-e9d19cec17c4
-
 ms.date: 12/05/2018
 ms.keywords: WMT_WATERMARK_ENTRY, WMT_WATERMARK_ENTRY structure [windows Media Format], structure [windows Media Format], wmformat.wmt_watermark_entry, wmsdkidl/WMT_WATERMARK_ENTRY
 ms.topic: struct
-f1_keywords: 
- - "wmsdkidl/WMT_WATERMARK_ENTRY"
+f1_keywords:
+- wmsdkidl/WMT_WATERMARK_ENTRY
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wmsdkidl.h
+- Wmsdkidl.h
 api_name:
- - WMT_WATERMARK_ENTRY
+- WMT_WATERMARK_ENTRY
 targetos: Windows
 req.typenames: WMT_WATERMARK_ENTRY
 req.redist: 

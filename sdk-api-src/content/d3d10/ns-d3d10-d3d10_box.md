@@ -1,19 +1,17 @@
 ---
 UID: NS:d3d10.D3D10_BOX
 title: D3D10_BOX (d3d10.h)
-
 description: Defines a 3D box.
 old-location: direct3d10\d3d10_box.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\d3d10_box.htm
-
 ms.date: 12/05/2018
 ms.keywords: D3D10_BOX, D3D10_BOX structure [Direct3D 10], a02d025c-3b75-5cb1-2b68-a6c9d6261bf1, d3d10/D3D10_BOX, direct3d10.d3d10_box
 ms.topic: struct
-f1_keywords: 
- - "d3d10/D3D10_BOX"
+f1_keywords:
+- d3d10/D3D10_BOX
 dev_langs:
- - c++
+- c++
 req.header: d3d10.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - D3D10.h
+- D3D10.h
 api_name:
- - D3D10_BOX
+- D3D10_BOX
 targetos: Windows
 req.typenames: D3D10_BOX
 req.redist: 

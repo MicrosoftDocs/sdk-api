@@ -1,19 +1,17 @@
 ---
 UID: NF:wincrypt.CertCompareCertificateName
 title: CertCompareCertificateName function (wincrypt.h)
-
 description: The CertCompareCertificateName function compares two certificate CERT_NAME_BLOB structures to determine whether they are identical. The CERT_NAME_BLOB structures are used for the subject and the issuer of certificates.
 old-location: security\certcomparecertificatename.htm
 tech.root: SecCrypto
 ms.assetid: 6249429d-0cb2-4209-9580-87185d44b967
-
 ms.date: 12/05/2018
 ms.keywords: CertCompareCertificateName, CertCompareCertificateName function [Security], _crypto2_certcomparecertificatename, security.certcomparecertificatename, wincrypt/CertCompareCertificateName
 ms.topic: function
-f1_keywords: 
- - "wincrypt/CertCompareCertificateName"
+f1_keywords:
+- wincrypt/CertCompareCertificateName
 dev_langs:
- - c++
+- c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Crypt32.lib
 req.dll: Crypt32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Crypt32.dll
+- Crypt32.dll
 api_name:
- - CertCompareCertificateName
+- CertCompareCertificateName
 targetos: Windows
 req.typenames: 
 req.redist: 

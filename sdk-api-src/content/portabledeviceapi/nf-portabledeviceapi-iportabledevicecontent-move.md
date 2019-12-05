@@ -1,19 +1,17 @@
 ---
 UID: NF:portabledeviceapi.IPortableDeviceContent.Move
 title: IPortableDeviceContent::Move (portabledeviceapi.h)
-
 description: The Move method moves one or more objects from one location on the device to another.
 old-location: wpdsdk\iportabledevicecontent_move.htm
 tech.root: wpd_sdk
 ms.assetid: 938a6a06-31c5-44d1-b87b-a108995ae9a1
-
 ms.date: 12/05/2018
 ms.keywords: IPortableDeviceContent interface [Windows Portable Devices SDK],Move method, IPortableDeviceContent.Move, IPortableDeviceContent::Move, IPortableDeviceContentMove, Move, Move method [Windows Portable Devices SDK], Move method [Windows Portable Devices SDK],IPortableDeviceContent interface, portabledeviceapi/IPortableDeviceContent::Move, wpdsdk.iportabledevicecontent_move
 ms.topic: method
-f1_keywords: 
- - "portabledeviceapi/IPortableDeviceContent.Move"
+f1_keywords:
+- portabledeviceapi/IPortableDeviceContent.Move
 dev_langs:
- - c++
+- c++
 req.header: portabledeviceapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: PortableDeviceGUIDs.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - PortableDeviceGUIDs.lib
- - PortableDeviceGUIDs.dll
+- PortableDeviceGUIDs.lib
+- PortableDeviceGUIDs.dll
 api_name:
- - IPortableDeviceContent.Move
+- IPortableDeviceContent.Move
 targetos: Windows
 req.typenames: 
 req.redist: 

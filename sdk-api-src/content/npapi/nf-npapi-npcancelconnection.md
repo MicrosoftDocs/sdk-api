@@ -1,19 +1,17 @@
 ---
 UID: NF:npapi.NPCancelConnection
 title: NPCancelConnection function (npapi.h)
-
 description: Disconnects a network connection.
 old-location: security\npcancelconnection.htm
 tech.root: SecAuthN
 ms.assetid: e06768b2-760c-48f1-a6a4-896c3ea286f6
-
 ms.date: 12/05/2018
 ms.keywords: NPCancelConnection, NPCancelConnection function [Security], _mnp_npcancelconnection, npapi/NPCancelConnection, security.npcancelconnection
 ms.topic: function
-f1_keywords: 
- - "npapi/NPCancelConnection"
+f1_keywords:
+- npapi/NPCancelConnection
 dev_langs:
- - c++
+- c++
 req.header: npapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Npapi.h
+- Npapi.h
 api_name:
- - NPCancelConnection
+- NPCancelConnection
 targetos: Windows
 req.typenames: 
 req.redist: 

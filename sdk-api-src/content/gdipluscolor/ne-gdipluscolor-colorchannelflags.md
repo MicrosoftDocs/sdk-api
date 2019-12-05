@@ -1,19 +1,17 @@
 ---
 UID: NE:gdipluscolor.ColorChannelFlags
 title: ColorChannelFlags (gdipluscolor.h)
-
 description: The ColorChannelFlags enumeration specifies individual channels in the CMYK (cyan, magenta, yellow, black) color space. This enumeration is used by the ImageAttributes::SetOutputChannel method.
 old-location: gdiplus\_gdiplus_ENUM_ColorChannelFlags.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\enumerations\colorchannelflags.htm
-
 ms.date: 12/05/2018
 ms.keywords: ColorChannelFlags, ColorChannelFlags enumeration [GDI+], ColorChannelFlagsC, ColorChannelFlagsK, ColorChannelFlagsLast, ColorChannelFlagsM, ColorChannelFlagsY, _gdiplus_ENUM_ColorChannelFlags, gdiplus._gdiplus_ENUM_ColorChannelFlags, gdipluscolor/ColorChannelFlags, gdipluscolor/ColorChannelFlagsC, gdipluscolor/ColorChannelFlagsK, gdipluscolor/ColorChannelFlagsLast, gdipluscolor/ColorChannelFlagsM, gdipluscolor/ColorChannelFlagsY
 ms.topic: enum
-f1_keywords: 
- - "gdipluscolor/ColorChannelFlags"
+f1_keywords:
+- gdipluscolor/ColorChannelFlags
 dev_langs:
- - c++
+- c++
 req.header: gdipluscolor.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Gdipluscolor.h
+- Gdipluscolor.h
 api_name:
- - ColorChannelFlags
+- ColorChannelFlags
 targetos: Windows
 req.typenames: 
 req.redist: 

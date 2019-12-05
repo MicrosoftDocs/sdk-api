@@ -1,19 +1,17 @@
 ---
 UID: NF:winuser.EnumDesktopWindows
 title: EnumDesktopWindows function (winuser.h)
-
 description: Enumerates all top-level windows associated with the specified desktop. It passes the handle to each window, in turn, to an application-defined callback function.
 old-location: winstation\enumdesktopwindows.htm
 tech.root: winstation
 ms.assetid: b399ff19-e2e5-4509-8bb5-9647734881b3
-
 ms.date: 12/05/2018
 ms.keywords: EnumDesktopWindows, EnumDesktopWindows function [Windows Stations and Desktops], _win32_enumdesktopwindows, base.enumdesktopwindows, winstation.enumdesktopwindows, winuser/EnumDesktopWindows
 ms.topic: function
-f1_keywords: 
- - "winuser/EnumDesktopWindows"
+f1_keywords:
+- winuser/EnumDesktopWindows
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - User32.dll
- - API-MS-Win-RTCore-NTUser-WindowStation-L1-1-0.dll
- - Ext-MS-Win-NTUser-Windowstation-L1-1-0.dll
- - Ext-MS-Win-NTUser-Windowstation-L1-1-1.dll
- - Ext-MS-Win-NTUser-WindowStation-L1-1-2.dll
+- User32.dll
+- API-MS-Win-RTCore-NTUser-WindowStation-L1-1-0.dll
+- Ext-MS-Win-NTUser-Windowstation-L1-1-0.dll
+- Ext-MS-Win-NTUser-Windowstation-L1-1-1.dll
+- Ext-MS-Win-NTUser-WindowStation-L1-1-2.dll
 api_name:
- - EnumDesktopWindows
+- EnumDesktopWindows
 targetos: Windows
 req.typenames: 
 req.redist: 

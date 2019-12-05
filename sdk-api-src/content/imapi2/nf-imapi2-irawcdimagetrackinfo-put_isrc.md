@@ -1,19 +1,17 @@
 ---
 UID: NF:imapi2.IRawCDImageTrackInfo.put_ISRC
 title: IRawCDImageTrackInfo::put_ISRC (imapi2.h)
-
 description: Sets the International Standard Recording Code (ISRC) currently associated with the track. This property value defaults to NULL (or a zero-length string) and may only be set for tracks containing audio data.
 old-location: imapi\irawcdimagetrackinfo_put_isrc.htm
 tech.root: imapi
 ms.assetid: c94357dc-9d9f-40a7-8709-51f8d5bc09e5
-
 ms.date: 12/05/2018
 ms.keywords: IRawCDImageTrackInfo interface [IMAPI],put_ISRC method, IRawCDImageTrackInfo.put_ISRC, IRawCDImageTrackInfo::put_ISRC, imapi.irawcdimagetrackinfo_put_isrc, imapi2/IRawCDImageTrackInfo::put_ISRC, put_ISRC, put_ISRC method [IMAPI], put_ISRC method [IMAPI],IRawCDImageTrackInfo interface
 ms.topic: method
-f1_keywords: 
- - "imapi2/IRawCDImageTrackInfo.put_ISRC"
+f1_keywords:
+- imapi2/IRawCDImageTrackInfo.put_ISRC
 dev_langs:
- - c++
+- c++
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - imapi2.h
+- imapi2.h
 api_name:
- - IRawCDImageTrackInfo.put_ISRC
+- IRawCDImageTrackInfo.put_ISRC
 targetos: Windows
 req.typenames: 
 req.redist: 

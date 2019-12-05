@@ -1,19 +1,17 @@
 ---
 UID: NS:d3d12.D3D12_DEPTH_STENCIL_VALUE
 title: D3D12_DEPTH_STENCIL_VALUE (d3d12.h)
-
 description: Specifies a depth and stencil value.
 old-location: direct3d12\d3d12_depth_stencil_value.htm
 tech.root: direct3d12
 ms.assetid: 9C37A002-F65A-4943-AA15-C62D7DD25A74
-
 ms.date: 12/05/2018
 ms.keywords: D3D12_DEPTH_STENCIL_VALUE, D3D12_DEPTH_STENCIL_VALUE structure, d3d12/D3D12_DEPTH_STENCIL_VALUE, direct3d12.d3d12_depth_stencil_value
 ms.topic: struct
-f1_keywords: 
- - "d3d12/D3D12_DEPTH_STENCIL_VALUE"
+f1_keywords:
+- d3d12/D3D12_DEPTH_STENCIL_VALUE
 dev_langs:
- - c++
+- c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - D3D12.h
+- D3D12.h
 api_name:
- - D3D12_DEPTH_STENCIL_VALUE
+- D3D12_DEPTH_STENCIL_VALUE
 targetos: Windows
 req.typenames: D3D12_DEPTH_STENCIL_VALUE
 req.redist: 

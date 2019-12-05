@@ -1,19 +1,17 @@
 ---
 UID: NE:tabflicks.SCROLLDIRECTION
 title: SCROLLDIRECTION (tabflicks.h)
-
 description: Defines the direction of the scrolling command for a pen flick.
 old-location: tablet\scrolldirection.htm
 tech.root: tablet
 ms.assetid: 79d64632-a0ac-4c1b-83e3-76c9fbd11da9
-
 ms.date: 12/05/2018
 ms.keywords: 79d64632-a0ac-4c1b-83e3-76c9fbd11da9, SCROLLDIRECTION, SCROLLDIRECTION enumeration [Tablet PC], SCROLLDIRECTION_DOWN, SCROLLDIRECTION_UP, tabflicks/SCROLLDIRECTION, tabflicks/SCROLLDIRECTION_DOWN, tabflicks/SCROLLDIRECTION_UP, tablet.scrolldirection
 ms.topic: enum
-f1_keywords: 
- - "tabflicks/SCROLLDIRECTION"
+f1_keywords:
+- tabflicks/SCROLLDIRECTION
 dev_langs:
- - c++
+- c++
 req.header: tabflicks.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - tabflicks.h
+- tabflicks.h
 api_name:
- - SCROLLDIRECTION
+- SCROLLDIRECTION
 targetos: Windows
 req.typenames: SCROLLDIRECTION
 req.redist: 

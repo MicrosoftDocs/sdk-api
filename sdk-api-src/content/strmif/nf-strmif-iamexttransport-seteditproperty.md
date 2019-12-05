@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IAMExtTransport.SetEditProperty
 title: IAMExtTransport::SetEditProperty (strmif.h)
-
 description: The SetEditProperty method defines parameters and values associated with an edit event.
 old-location: dshow\iamexttransport_seteditproperty.htm
 tech.root: DirectShow
 ms.assetid: 85ac14c7-7b47-4462-98ba-68a73f4c7497
-
 ms.date: 12/05/2018
 ms.keywords: IAMExtTransport interface [DirectShow],SetEditProperty method, IAMExtTransport.SetEditProperty, IAMExtTransport::SetEditProperty, IAMExtTransportSetEditProperty, SetEditProperty, SetEditProperty method [DirectShow], SetEditProperty method [DirectShow],IAMExtTransport interface, dshow.iamexttransport_seteditproperty, strmif/IAMExtTransport::SetEditProperty
 ms.topic: method
-f1_keywords: 
- - "strmif/IAMExtTransport.SetEditProperty"
+f1_keywords:
+- strmif/IAMExtTransport.SetEditProperty
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IAMExtTransport.SetEditProperty
+- IAMExtTransport.SetEditProperty
 targetos: Windows
 req.typenames: 
 req.redist: 

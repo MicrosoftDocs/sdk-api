@@ -1,19 +1,17 @@
 ---
 UID: NE:cscobj.tagOFFLINEFILES_OFFLINE_REASON
 title: OFFLINEFILES_OFFLINE_REASON (cscobj.h)
-
 description: Indicates the reason why an item is offline.
 old-location: of\offlinefiles_offline_reason.htm
 tech.root: offlinefiles
 ms.assetid: 0c55b7c6-f39d-4e04-bf16-a102c4b7d4fa
-
 ms.date: 12/05/2018
 ms.keywords: OFFLINEFILES_OFFLINE_REASON, OFFLINEFILES_OFFLINE_REASON enumeration [Offline Files], OFFLINEFILES_OFFLINE_REASON_CONNECTION_ERROR, OFFLINEFILES_OFFLINE_REASON_CONNECTION_FORCED, OFFLINEFILES_OFFLINE_REASON_CONNECTION_SLOW, OFFLINEFILES_OFFLINE_REASON_ITEM_SUSPENDED, OFFLINEFILES_OFFLINE_REASON_ITEM_VERSION_CONFLICT, OFFLINEFILES_OFFLINE_REASON_NOT_APPLICABLE, OFFLINEFILES_OFFLINE_REASON_UNKNOWN, cscobj/OFFLINEFILES_OFFLINE_REASON, cscobj/OFFLINEFILES_OFFLINE_REASON_CONNECTION_ERROR, cscobj/OFFLINEFILES_OFFLINE_REASON_CONNECTION_FORCED, cscobj/OFFLINEFILES_OFFLINE_REASON_CONNECTION_SLOW, cscobj/OFFLINEFILES_OFFLINE_REASON_ITEM_SUSPENDED, cscobj/OFFLINEFILES_OFFLINE_REASON_ITEM_VERSION_CONFLICT, cscobj/OFFLINEFILES_OFFLINE_REASON_NOT_APPLICABLE, cscobj/OFFLINEFILES_OFFLINE_REASON_UNKNOWN, of.offlinefiles_offline_reason
 ms.topic: enum
-f1_keywords: 
- - "cscobj/OFFLINEFILES_OFFLINE_REASON"
+f1_keywords:
+- cscobj/OFFLINEFILES_OFFLINE_REASON
 dev_langs:
- - c++
+- c++
 req.header: cscobj.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - CscObj.h
+- CscObj.h
 api_name:
- - OFFLINEFILES_OFFLINE_REASON
+- OFFLINEFILES_OFFLINE_REASON
 targetos: Windows
 req.typenames: OFFLINEFILES_OFFLINE_REASON
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:directxmath.XMVectorSplatInfinity
 title: XMVectorSplatInfinity function (directxmath.h)
-
 description: Returns a vector, each of whose components are infinity (0x7F800000).
 old-location: dxmath\xmvectorsplatinfinity.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.initialization.XMVectorSplatInfinity
-
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMVectorSplatInfinity, XMVectorSplatInfinity, XMVectorSplatInfinity method [DirectX Math Support APIs], dxmath.xmvectorsplatinfinity
 ms.topic: function
-f1_keywords: 
- - "directxmath/XMVectorSplatInfinity"
+f1_keywords:
+- directxmath/XMVectorSplatInfinity
 dev_langs:
- - c++
+- c++
 req.header: directxmath.h
 req.include-header: DirectXMath.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - directxmathvector.inl
+- directxmathvector.inl
 api_name:
- - XMVectorSplatInfinity
+- XMVectorSplatInfinity
 targetos: Windows
 req.typenames: 
 req.redist: 

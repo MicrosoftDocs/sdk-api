@@ -1,19 +1,17 @@
 ---
 UID: NN:directmanipulation.IDirectManipulationAutoScrollBehavior
 title: IDirectManipulationAutoScrollBehavior (directmanipulation.h)
-
 description: Represents the auto-scroll animation behavior of content as it approaches the boundary of a given axis or axes.
 old-location: directmanipulation\idirectmanipulationautoscrollbehavior.htm
 tech.root: directmanipulation
 ms.assetid: 6E847EE2-231C-4B09-955A-F546CC790E3C
-
 ms.date: 12/05/2018
 ms.keywords: IDirectManipulationAutoScrollBehavior, IDirectManipulationAutoScrollBehavior interface [Direct Manipulation], IDirectManipulationAutoScrollBehavior interface [Direct Manipulation],described, directmanipulation.idirectmanipulationautoscrollbehavior, directmanipulation/IDirectManipulationAutoScrollBehavior
 ms.topic: interface
-f1_keywords: 
- - "directmanipulation/IDirectManipulationAutoScrollBehavior"
+f1_keywords:
+- directmanipulation/IDirectManipulationAutoScrollBehavior
 dev_langs:
- - c++
+- c++
 req.header: directmanipulation.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - DirectManipulation.h
+- DirectManipulation.h
 api_name:
- - IDirectManipulationAutoScrollBehavior
+- IDirectManipulationAutoScrollBehavior
 targetos: Windows
 req.typenames: 
 req.redist: 

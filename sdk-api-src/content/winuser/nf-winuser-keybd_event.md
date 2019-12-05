@@ -1,19 +1,17 @@
 ---
 UID: NF:winuser.keybd_event
 title: keybd_event function (winuser.h)
-
 description: Synthesizes a keystroke.
 old-location: inputdev\keybd_event.htm
 tech.root: inputdev
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\keyboardinput\keyboardinputreference\keyboardinputfunctions\keybd_event.htm
-
 ms.date: 12/05/2018
 ms.keywords: KEYEVENTF_EXTENDEDKEY, KEYEVENTF_KEYUP, _win32_keybd_event, _win32_keybd_event_cpp, inputdev.keybd_event, keybd_event, keybd_event function [Keyboard and Mouse Input], winui._win32_keybd_event, winuser/keybd_event
 ms.topic: function
-f1_keywords: 
- - "winuser/keybd_event"
+f1_keywords:
+- winuser/keybd_event
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - User32.dll
+- User32.dll
 api_name:
- - keybd_event
+- keybd_event
 targetos: Windows
 req.typenames: 
 req.redist: 

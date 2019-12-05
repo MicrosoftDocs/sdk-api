@@ -1,19 +1,17 @@
 ---
 UID: NF:propvarutil.PropVariantToInt32Vector
 title: PropVariantToInt32Vector function (propvarutil.h)
-
 description: Extracts a vector of long values from a PROPVARIANT structure.
 old-location: properties\PropVariantToInt32Vector.htm
 tech.root: properties
 ms.assetid: 771fa1d7-c648-49d4-a6a2-5aa23f8c20b7
-
 ms.date: 12/05/2018
 ms.keywords: PropVariantToInt32Vector, PropVariantToInt32Vector function [Windows Properties], _shell_PropVariantToInt32Vector, properties.PropVariantToInt32Vector, propvarutil/PropVariantToInt32Vector, shell.PropVariantToInt32Vector
 ms.topic: function
-f1_keywords: 
- - "propvarutil/PropVariantToInt32Vector"
+f1_keywords:
+- propvarutil/PropVariantToInt32Vector
 dev_langs:
- - c++
+- c++
 req.header: propvarutil.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Propsys.lib
 req.dll: Propsys.dll (version 6.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Propsys.dll
+- Propsys.dll
 api_name:
- - PropVariantToInt32Vector
+- PropVariantToInt32Vector
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0

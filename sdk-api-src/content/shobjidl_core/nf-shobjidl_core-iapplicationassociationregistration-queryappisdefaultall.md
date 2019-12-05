@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IApplicationAssociationRegistration.QueryAppIsDefaultAll
 title: IApplicationAssociationRegistration::QueryAppIsDefaultAll (shobjidl_core.h)
-
 description: Determines whether an application owns all of the registered default associations for a given application level. Not intended for use in Windows 8.
 old-location: shell\IApplicationAssociationRegistration_QueryAppIsDefaultAll.htm
 tech.root: shell
 ms.assetid: 71073f30-51bc-4522-9bb2-7eb743bca159
-
 ms.date: 12/05/2018
 ms.keywords: IApplicationAssociationRegistration interface [Windows Shell],QueryAppIsDefaultAll method, IApplicationAssociationRegistration.QueryAppIsDefaultAll, IApplicationAssociationRegistration::QueryAppIsDefaultAll, QueryAppIsDefaultAll, QueryAppIsDefaultAll method [Windows Shell], QueryAppIsDefaultAll method [Windows Shell],IApplicationAssociationRegistration interface, _shell_IApplicationAssociationRegistration_QueryAppIsDefaultAll, shell.IApplicationAssociationRegistration_QueryAppIsDefaultAll, shobjidl_core/IApplicationAssociationRegistration::QueryAppIsDefaultAll
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IApplicationAssociationRegistration.QueryAppIsDefaultAll"
+f1_keywords:
+- shobjidl_core/IApplicationAssociationRegistration.QueryAppIsDefaultAll
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - IApplicationAssociationRegistration.QueryAppIsDefaultAll
+- IApplicationAssociationRegistration.QueryAppIsDefaultAll
 targetos: Windows
 req.typenames: 
 req.redist: 

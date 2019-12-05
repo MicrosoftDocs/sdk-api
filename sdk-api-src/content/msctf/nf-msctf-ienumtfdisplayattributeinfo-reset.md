@@ -1,19 +1,17 @@
 ---
 UID: NF:msctf.IEnumTfDisplayAttributeInfo.Reset
 title: IEnumTfDisplayAttributeInfo::Reset (msctf.h)
-
 description: IEnumTfDisplayAttributeInfo::Reset method
 old-location: tsf\ienumtfdisplayattributeinfo_reset.htm
 tech.root: TSF
 ms.assetid: fdfcf505-ae4a-4f7e-91f2-3e79efd56162
-
 ms.date: 12/05/2018
 ms.keywords: IEnumTfDisplayAttributeInfo interface [Text Services Framework],Reset method, IEnumTfDisplayAttributeInfo.Reset, IEnumTfDisplayAttributeInfo::Reset, Reset, Reset method [Text Services Framework], Reset method [Text Services Framework],IEnumTfDisplayAttributeInfo interface, _tsf_ienumtfdisplayattributeinfo_reset_ref, msctf/IEnumTfDisplayAttributeInfo::Reset, tsf.ienumtfdisplayattributeinfo_reset
 ms.topic: method
-f1_keywords: 
- - "msctf/IEnumTfDisplayAttributeInfo.Reset"
+f1_keywords:
+- msctf/IEnumTfDisplayAttributeInfo.Reset
 dev_langs:
- - c++
+- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msctf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msctf.dll
+- msctf.dll
 api_name:
- - IEnumTfDisplayAttributeInfo.Reset
+- IEnumTfDisplayAttributeInfo.Reset
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

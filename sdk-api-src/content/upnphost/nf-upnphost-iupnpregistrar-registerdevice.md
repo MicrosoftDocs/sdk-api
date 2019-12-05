@@ -1,19 +1,17 @@
 ---
 UID: NF:upnphost.IUPnPRegistrar.RegisterDevice
 title: IUPnPRegistrar::RegisterDevice (upnphost.h)
-
 description: The RegisterDevice method registers a device with the device host. The device information is stored by the device host. Then, the device host returns a device identifier and publishes and announces the device on the network.
 old-location: upnp\iupnpregistrar_registerdevice.htm
 tech.root: upnp
 ms.assetid: 1bb99a42-143b-495a-8b02-efa7ca1d4d29
-
 ms.date: 12/05/2018
 ms.keywords: IUPnPRegistrar interface [UPnP APIs],RegisterDevice method, IUPnPRegistrar.RegisterDevice, IUPnPRegistrar::RegisterDevice, RegisterDevice, RegisterDevice method [UPnP APIs], RegisterDevice method [UPnP APIs],IUPnPRegistrar interface, _upnp_iupnpregistrar_registerdevice, upnp.iupnpregistrar_registerdevice, upnphost/IUPnPRegistrar::RegisterDevice
 ms.topic: method
-f1_keywords: 
- - "upnphost/IUPnPRegistrar.RegisterDevice"
+f1_keywords:
+- upnphost/IUPnPRegistrar.RegisterDevice
 dev_langs:
- - c++
+- c++
 req.header: upnphost.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Upnphost.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Upnphost.dll
+- Upnphost.dll
 api_name:
- - IUPnPRegistrar.RegisterDevice
+- IUPnPRegistrar.RegisterDevice
 targetos: Windows
 req.typenames: 
 req.redist: 

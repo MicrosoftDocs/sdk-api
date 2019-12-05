@@ -1,19 +1,17 @@
 ---
 UID: NF:effects.IWMPEffects2.Create
 title: IWMPEffects2::Create (effects.h)
-
 description: The Create method is called by Windows Media Player to instantiate a visualization window.
 old-location: wmp\iwmpeffects2_create.htm
 tech.root: WMP
 ms.assetid: a0bc4e45-7174-4dbd-a902-06c685c9a9ac
-
 ms.date: 12/05/2018
 ms.keywords: Create, Create method [Windows Media Player], Create method [Windows Media Player],IWMPEffects2 interface, IWMPEffects2 interface [Windows Media Player],Create method, IWMPEffects2.Create, IWMPEffects2::Create, IWMPEffectsCreate, effects/IWMPEffects2::Create, wmp.iwmpeffects2_create
 ms.topic: method
-f1_keywords: 
- - "effects/IWMPEffects2.Create"
+f1_keywords:
+- effects/IWMPEffects2.Create
 dev_langs:
- - c++
+- c++
 req.header: effects.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - effects.h
+- effects.h
 api_name:
- - IWMPEffects2.Create
+- IWMPEffects2.Create
 targetos: Windows
 req.typenames: 
 req.redist: 

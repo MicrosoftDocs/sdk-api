@@ -1,19 +1,17 @@
 ---
 UID: NF:msopc.IOpcSignaturePartReferenceSet.GetEnumerator
 title: IOpcSignaturePartReferenceSet::GetEnumerator (msopc.h)
-
 description: Gets an enumerator of IOpcSignaturePartReference interface pointers in the set.
 old-location: opc\iopcsignaturepartreferenceset_getenumerator.htm
 tech.root: OPC
 ms.assetid: 5b345fe9-55b3-447c-9b5b-64ab292ab734
-
 ms.date: 12/05/2018
 ms.keywords: GetEnumerator, GetEnumerator method [Open Packaging Conventions], GetEnumerator method [Open Packaging Conventions],IOpcSignaturePartReferenceSet interface, IOpcSignaturePartReferenceSet interface [Open Packaging Conventions],GetEnumerator method, IOpcSignaturePartReferenceSet.GetEnumerator, IOpcSignaturePartReferenceSet::GetEnumerator, msopc/IOpcSignaturePartReferenceSet::GetEnumerator, opc.iopcsignaturepartreferenceset_getenumerator
 ms.topic: method
-f1_keywords: 
- - "msopc/IOpcSignaturePartReferenceSet.GetEnumerator"
+f1_keywords:
+- msopc/IOpcSignaturePartReferenceSet.GetEnumerator
 dev_langs:
- - c++
+- c++
 req.header: msopc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msopc.h
+- msopc.h
 api_name:
- - IOpcSignaturePartReferenceSet.GetEnumerator
+- IOpcSignaturePartReferenceSet.GetEnumerator
 targetos: Windows
 req.typenames: 
 req.redist: 

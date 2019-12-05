@@ -1,19 +1,17 @@
 ---
 UID: NS:dsclient.__unnamed_struct_0
 title: DSOBJECT (dsclient.h)
-
 description: Contains directory object data.
 old-location: ad\dsobject.htm
 tech.root: ad
 ms.assetid: 2f16a015-a777-4410-bed5-d409a4869c97
-
 ms.date: 12/05/2018
-ms.keywords: "*LPDSOBJECT, DSOBJECT, DSOBJECT structure [Active Directory], DSOBJECT_ISCONTAINER, DSOBJECT_READONLYPAGES, DSPROVIDER_ADVANCED, DSPROVIDER_UNUSED_0, DSPROVIDER_UNUSED_1, DSPROVIDER_UNUSED_2, DSPROVIDER_UNUSED_3, LPDSOBJECT, LPDSOBJECT structure pointer [Active Directory], _glines_dsobject, ad.dsobject, dsclient/DSOBJECT, dsclient/LPDSOBJECT"
+ms.keywords: '*LPDSOBJECT, DSOBJECT, DSOBJECT structure [Active Directory], DSOBJECT_ISCONTAINER, DSOBJECT_READONLYPAGES, DSPROVIDER_ADVANCED, DSPROVIDER_UNUSED_0, DSPROVIDER_UNUSED_1, DSPROVIDER_UNUSED_2, DSPROVIDER_UNUSED_3, LPDSOBJECT, LPDSOBJECT structure pointer [Active Directory], _glines_dsobject, ad.dsobject, dsclient/DSOBJECT, dsclient/LPDSOBJECT'
 ms.topic: struct
-f1_keywords: 
- - "dsclient/DSOBJECT"
+f1_keywords:
+- dsclient/DSOBJECT
 dev_langs:
- - c++
+- c++
 req.header: dsclient.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Dsclient.h
+- Dsclient.h
 api_name:
- - DSOBJECT
+- DSOBJECT
 targetos: Windows
 req.typenames: DSOBJECT, *LPDSOBJECT
 req.redist: 

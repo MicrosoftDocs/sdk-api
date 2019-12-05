@@ -1,19 +1,17 @@
 ---
 UID: NF:wingdi.AddFontMemResourceEx
 title: AddFontMemResourceEx function (wingdi.h)
-
 description: The AddFontMemResourceEx function adds the font resource from a memory image to the system.
 old-location: gdi\addfontmemresourceex.htm
 tech.root: gdi
 ms.assetid: ad5153ba-fa9d-4a07-9be3-a07b524c1539
-
 ms.date: 12/05/2018
 ms.keywords: AddFontMemResourceEx, AddFontMemResourceEx function [Windows GDI], _win32_AddFontMemResourceEx, gdi.addfontmemresourceex, wingdi/AddFontMemResourceEx
 ms.topic: function
-f1_keywords: 
- - "wingdi/AddFontMemResourceEx"
+f1_keywords:
+- wingdi/AddFontMemResourceEx
 dev_langs:
- - c++
+- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - gdi32.dll
- - Ext-MS-Win-GDI-Font-l1-1-1.dll
- - ext-ms-win-gdi-font-l1-1-2.dll
- - Ext-MS-Win-GDI-Font-L1-1-3.dll
- - GDI32Full.dll
+- gdi32.dll
+- Ext-MS-Win-GDI-Font-l1-1-1.dll
+- ext-ms-win-gdi-font-l1-1-2.dll
+- Ext-MS-Win-GDI-Font-L1-1-3.dll
+- GDI32Full.dll
 api_name:
- - AddFontMemResourceEx
+- AddFontMemResourceEx
 targetos: Windows
 req.typenames: 
 req.redist: 

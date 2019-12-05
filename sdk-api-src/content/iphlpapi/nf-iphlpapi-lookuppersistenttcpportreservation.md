@@ -1,19 +1,17 @@
 ---
 UID: NF:iphlpapi.LookupPersistentTcpPortReservation
 title: LookupPersistentTcpPortReservation function (iphlpapi.h)
-
 description: Looks up the token for a persistent TCP port reservation for a consecutive block of TCP ports on the local computer.
 old-location: iphlp\lookuppersistenttcpportreservation.htm
 tech.root: IpHlp
 ms.assetid: 5EBEB774-13A2-49C2-92ED-5271081615AA
-
 ms.date: 12/05/2018
 ms.keywords: LookupPersistentTcpPortReservation, LookupPersistentTcpPortReservation function [IP Helper], iphlp.lookuppersistenttcpportreservation, iphlpapi/LookupPersistentTcpPortReservation
 ms.topic: function
-f1_keywords: 
- - "iphlpapi/LookupPersistentTcpPortReservation"
+f1_keywords:
+- iphlpapi/LookupPersistentTcpPortReservation
 dev_langs:
- - c++
+- c++
 req.header: iphlpapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Iphlpapi.lib
 req.dll: Iphlpapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Iphlpapi.dll
+- Iphlpapi.dll
 api_name:
- - LookupPersistentTcpPortReservation
+- LookupPersistentTcpPortReservation
 targetos: Windows
 req.typenames: 
 req.redist: 

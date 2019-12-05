@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IDvdInfo2.IsSubpictureStreamEnabled
 title: IDvdInfo2::IsSubpictureStreamEnabled (strmif.h)
-
 description: The IsSubpictureStreamEnabled method determines if the specified subpicture stream is enabled in the current title.
 old-location: dshow\idvdinfo2_issubpicturestreamenabled.htm
 tech.root: DirectShow
 ms.assetid: 19facb38-8bc4-4605-9b2b-2a123b67aeb6
-
 ms.date: 12/05/2018
 ms.keywords: IDvdInfo2 interface [DirectShow],IsSubpictureStreamEnabled method, IDvdInfo2.IsSubpictureStreamEnabled, IDvdInfo2::IsSubpictureStreamEnabled, IDvdInfo2IsSubpictureStreamEnabled, IsSubpictureStreamEnabled, IsSubpictureStreamEnabled method [DirectShow], IsSubpictureStreamEnabled method [DirectShow],IDvdInfo2 interface, dshow.idvdinfo2_issubpicturestreamenabled, strmif/IDvdInfo2::IsSubpictureStreamEnabled
 ms.topic: method
-f1_keywords: 
- - "strmif/IDvdInfo2.IsSubpictureStreamEnabled"
+f1_keywords:
+- strmif/IDvdInfo2.IsSubpictureStreamEnabled
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IDvdInfo2.IsSubpictureStreamEnabled
+- IDvdInfo2.IsSubpictureStreamEnabled
 targetos: Windows
 req.typenames: 
 req.redist: 

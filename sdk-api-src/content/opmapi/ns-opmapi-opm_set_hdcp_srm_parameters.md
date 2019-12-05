@@ -1,19 +1,17 @@
 ---
 UID: NS:opmapi._OPM_SET_HDCP_SRM_PARAMETERS
 title: OPM_SET_HDCP_SRM_PARAMETERS (opmapi.h)
-
 description: Contains parameters for the OPM_SET_HDCP_SRM command.
 old-location: mf\opm_set_hdcp_srm_parameters.htm
 tech.root: medfound
 ms.assetid: 0689e132-8def-43d1-965f-a6f652ad0fbe
-
 ms.date: 12/05/2018
 ms.keywords: OPM_SET_HDCP_SRM_PARAMETERS, OPM_SET_HDCP_SRM_PARAMETERS structure [Media Foundation], mf.opm_set_hdcp_srm_parameters, opmapi/OPM_SET_HDCP_SRM_PARAMETERS
 ms.topic: struct
-f1_keywords: 
- - "opmapi/OPM_SET_HDCP_SRM_PARAMETERS"
+f1_keywords:
+- opmapi/OPM_SET_HDCP_SRM_PARAMETERS
 dev_langs:
- - c++
+- c++
 req.header: opmapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - opmapi.h
+- opmapi.h
 api_name:
- - OPM_SET_HDCP_SRM_PARAMETERS
+- OPM_SET_HDCP_SRM_PARAMETERS
 targetos: Windows
 req.typenames: OPM_SET_HDCP_SRM_PARAMETERS
 req.redist: 

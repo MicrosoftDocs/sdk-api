@@ -1,19 +1,17 @@
 ---
 UID: NN:wabapi.IWABExtInit
 title: IWABExtInit (wabapi.h)
-
 description: Do not use. This interface ndicates which Windows Address Book (WAB) object is being displayed (for example, a property sheet or context menu).
 old-location: wab\_wab_IWABExtInit.htm
 tech.root: wab
 ms.assetid: VS|wab|~\wab\reference\ifaces\iwabextinit\iwabextinit.htm
-
 ms.date: 12/05/2018
 ms.keywords: IWABExtInit, IWABExtInit interface [Windows Address Book], IWABExtInit interface [Windows Address Book],described, _wab_IWABExtInit, wab._wab_IWABExtInit, wabapi/IWABExtInit
 ms.topic: interface
-f1_keywords: 
- - "wabapi/IWABExtInit"
+f1_keywords:
+- wabapi/IWABExtInit
 dev_langs:
- - c++
+- c++
 req.header: wabapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wab32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wab32.dll
+- Wab32.dll
 api_name:
- - IWABExtInit
+- IWABExtInit
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NN:restrictederrorinfo.ILanguageExceptionErrorInfo2
 title: ILanguageExceptionErrorInfo2 (restrictederrorinfo.h)
-
 description: Enables language projections to provide and retrieve error information as with ILanguageExceptionErrorInfo, with the additional benefit of working across language boundaries.
 old-location: winrt\ilanguageexceptionerrorinfo2.htm
 tech.root: WinRT
 ms.assetid: A943EE85-F2A9-4D5E-AA6F-0C4AB8556A4C
-
 ms.date: 12/05/2018
 ms.keywords: ILanguageExceptionErrorInfo2, ILanguageExceptionErrorInfo2 interface [Windows Runtime], ILanguageExceptionErrorInfo2 interface [Windows Runtime],described, restrictederrorinfo/ILanguageExceptionErrorInfo2, winrt.ilanguageexceptionerrorinfo2
 ms.topic: interface
-f1_keywords: 
- - "restrictederrorinfo/ILanguageExceptionErrorInfo2"
+f1_keywords:
+- restrictederrorinfo/ILanguageExceptionErrorInfo2
 dev_langs:
- - c++
+- c++
 req.header: restrictederrorinfo.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - restrictederrorinfo.h
+- restrictederrorinfo.h
 api_name:
- - ILanguageExceptionErrorInfo2
+- ILanguageExceptionErrorInfo2
 targetos: Windows
 req.typenames: 
 req.redist: 

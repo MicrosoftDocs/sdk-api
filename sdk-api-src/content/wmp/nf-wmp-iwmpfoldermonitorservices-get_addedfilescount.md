@@ -1,19 +1,17 @@
 ---
 UID: NF:wmp.IWMPFolderMonitorServices.get_addedFilesCount
 title: IWMPFolderMonitorServices::get_addedFilesCount (wmp.h)
-
 description: This method and all other methods of the IWMPFolderMonitorServices interface are deprecated.The get_addedFilesCount method retrieves the count of files added to the library during the current scanning operation.
 old-location: wmp\iwmpfoldermonitorservices_get_addedfilescount.htm
 tech.root: WMP
 ms.assetid: 56dcbb46-8de9-4fbe-b82c-927d42e39b2b
-
 ms.date: 12/05/2018
 ms.keywords: IWMPFolderMonitorServices interface [Windows Media Player],get_addedFilesCount method, IWMPFolderMonitorServices.get_addedFilesCount, IWMPFolderMonitorServices::get_addedFilesCount, IWMPFolderMonitorServicesget_addedFilesCount, get_addedFilesCount, get_addedFilesCount method [Windows Media Player], get_addedFilesCount method [Windows Media Player],IWMPFolderMonitorServices interface, wmp.iwmpfoldermonitorservices_get_addedfilescount, wmp/IWMPFolderMonitorServices::get_addedFilesCount
 ms.topic: method
-f1_keywords: 
- - "wmp/IWMPFolderMonitorServices.get_addedFilesCount"
+f1_keywords:
+- wmp/IWMPFolderMonitorServices.get_addedFilesCount
 dev_langs:
- - c++
+- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wmp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmp.dll
+- wmp.dll
 api_name:
- - IWMPFolderMonitorServices.get_addedFilesCount
+- IWMPFolderMonitorServices.get_addedFilesCount
 targetos: Windows
 req.typenames: 
 req.redist: 

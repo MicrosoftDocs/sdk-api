@@ -1,19 +1,17 @@
 ---
 UID: NS:tspi.tuispicreatedialoginstanceparams_tag
 title: TUISPICREATEDIALOGINSTANCEPARAMS (tspi.h)
-
 description: The TUISPI data structure is defined below.
 old-location: tspi\tuispicreatedialoginstanceparams_str.htm
 tech.root: Tapi
 ms.assetid: 4de0ee9b-0643-4eab-b100-ee7aaa0b6992
-
 ms.date: 12/05/2018
-ms.keywords: "*LPTUISPICREATEDIALOGINSTANCEPARAMS, LPTUISPICREATEDIALOGINSTANCEPARAMS, LPTUISPICREATEDIALOGINSTANCEPARAMS structure pointer [TAPI 2.2], TUISPICREATEDIALOGINSTANCEPARAMS, TUISPICREATEDIALOGINSTANCEPARAMS structure [TAPI 2.2], _tspi_tuispicreatedialoginstanceparams_str, tspi.tuispicreatedialoginstanceparams_str, tspi/LPTUISPICREATEDIALOGINSTANCEPARAMS, tspi/TUISPICREATEDIALOGINSTANCEPARAMS"
+ms.keywords: '*LPTUISPICREATEDIALOGINSTANCEPARAMS, LPTUISPICREATEDIALOGINSTANCEPARAMS, LPTUISPICREATEDIALOGINSTANCEPARAMS structure pointer [TAPI 2.2], TUISPICREATEDIALOGINSTANCEPARAMS, TUISPICREATEDIALOGINSTANCEPARAMS structure [TAPI 2.2], _tspi_tuispicreatedialoginstanceparams_str, tspi.tuispicreatedialoginstanceparams_str, tspi/LPTUISPICREATEDIALOGINSTANCEPARAMS, tspi/TUISPICREATEDIALOGINSTANCEPARAMS'
 ms.topic: struct
-f1_keywords: 
- - "tspi/TUISPICREATEDIALOGINSTANCEPARAMS"
+f1_keywords:
+- tspi/TUISPICREATEDIALOGINSTANCEPARAMS
 dev_langs:
- - c++
+- c++
 req.header: tspi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Tspi.h
+- Tspi.h
 api_name:
- - TUISPICREATEDIALOGINSTANCEPARAMS
+- TUISPICREATEDIALOGINSTANCEPARAMS
 targetos: Windows
 req.typenames: TUISPICREATEDIALOGINSTANCEPARAMS, *LPTUISPICREATEDIALOGINSTANCEPARAMS
 req.redist: 

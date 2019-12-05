@@ -1,19 +1,17 @@
 ---
 UID: NS:winuser.tagSCROLLINFO
 title: SCROLLINFO (winuser.h)
-
 description: The SCROLLINFO structure contains scroll bar parameters to be set by the SetScrollInfo function (or SBM_SETSCROLLINFO message), or retrieved by the GetScrollInfo function (or SBM_GETSCROLLINFO message).
 old-location: controls\SCROLLINFO.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\scrollbars\scrollbarreference\scrollbarstructures\scrollinfo.htm
-
 ms.date: 12/05/2018
-ms.keywords: "*LPSCROLLINFO, LPCSCROLLINFO, LPCSCROLLINFO structure pointer [Windows Controls], SCROLLINFO, SCROLLINFO structure [Windows Controls], SIF_ALL, SIF_DISABLENOSCROLL, SIF_PAGE, SIF_POS, SIF_RANGE, SIF_TRACKPOS, _win32_SCROLLINFO_str, _win32_SCROLLINFO_str_cpp, controls.SCROLLINFO, controls._win32_SCROLLINFO_str, winuser/LPCSCROLLINFO, winuser/SCROLLINFO"
+ms.keywords: '*LPSCROLLINFO, LPCSCROLLINFO, LPCSCROLLINFO structure pointer [Windows Controls], SCROLLINFO, SCROLLINFO structure [Windows Controls], SIF_ALL, SIF_DISABLENOSCROLL, SIF_PAGE, SIF_POS, SIF_RANGE, SIF_TRACKPOS, _win32_SCROLLINFO_str, _win32_SCROLLINFO_str_cpp, controls.SCROLLINFO, controls._win32_SCROLLINFO_str, winuser/LPCSCROLLINFO, winuser/SCROLLINFO'
 ms.topic: struct
-f1_keywords: 
- - "winuser/SCROLLINFO"
+f1_keywords:
+- winuser/SCROLLINFO
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Winuser.h
+- Winuser.h
 api_name:
- - SCROLLINFO
+- SCROLLINFO
 targetos: Windows
 req.typenames: SCROLLINFO, *LPSCROLLINFO
 req.redist: 

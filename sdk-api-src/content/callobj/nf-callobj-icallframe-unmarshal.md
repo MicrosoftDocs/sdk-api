@@ -1,19 +1,17 @@
 ---
 UID: NF:callobj.ICallFrame.Unmarshal
 title: ICallFrame::Unmarshal (callobj.h)
-
 description: Unmarshals a packet of data containing the previously marshaled [out] parameters of a call into this already existing activation record.
 old-location: com\icallframe_unmarshal.htm
 tech.root: com
 ms.assetid: 9f604366-0e1f-4e04-9843-13c77ea573ab
-
 ms.date: 12/05/2018
 ms.keywords: ICallFrame interface [COM],Unmarshal method, ICallFrame.Unmarshal, ICallFrame::Unmarshal, Unmarshal, Unmarshal method [COM], Unmarshal method [COM],ICallFrame interface, _com_icallframe_unmarshal, callobj/ICallFrame::Unmarshal, com.icallframe_unmarshal
 ms.topic: method
-f1_keywords: 
- - "callobj/ICallFrame.Unmarshal"
+f1_keywords:
+- callobj/ICallFrame.Unmarshal
 dev_langs:
- - c++
+- c++
 req.header: callobj.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Callobj.h
+- Callobj.h
 api_name:
- - ICallFrame.Unmarshal
+- ICallFrame.Unmarshal
 targetos: Windows
 req.typenames: 
 req.redist: 

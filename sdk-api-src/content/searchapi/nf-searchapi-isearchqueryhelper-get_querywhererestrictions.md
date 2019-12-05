@@ -1,19 +1,17 @@
 ---
 UID: NF:searchapi.ISearchQueryHelper.get_QueryWhereRestrictions
 title: ISearchQueryHelper::get_QueryWhereRestrictions (searchapi.h)
-
 description: Gets the restrictions appended to a query in WHERE clauses.
 old-location: search\_search_ISearchQueryHelper_get_QueryWhereRestrictions.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\isearchqueryhelper\get_querywhererestrictions.htm
-
 ms.date: 12/05/2018
 ms.keywords: ISearchQueryHelper interface [search],get_QueryWhereRestrictions method, ISearchQueryHelper.get_QueryWhereRestrictions, ISearchQueryHelper::get_QueryWhereRestrictions, _search_ISearchQueryHelper_get_QueryWhereRestrictions, get_QueryWhereRestrictions, get_QueryWhereRestrictions method [search], get_QueryWhereRestrictions method [search],ISearchQueryHelper interface, search._search_ISearchQueryHelper_get_QueryWhereRestrictions, searchapi/ISearchQueryHelper::get_QueryWhereRestrictions
 ms.topic: method
-f1_keywords: 
- - "searchapi/ISearchQueryHelper.get_QueryWhereRestrictions"
+f1_keywords:
+- searchapi/ISearchQueryHelper.get_QueryWhereRestrictions
 dev_langs:
- - c++
+- c++
 req.header: searchapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Searchapi.h
+- Searchapi.h
 api_name:
- - ISearchQueryHelper.get_QueryWhereRestrictions
+- ISearchQueryHelper.get_QueryWhereRestrictions
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0

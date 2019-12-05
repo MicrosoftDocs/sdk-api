@@ -1,19 +1,17 @@
 ---
 UID: NF:winsync.IEnumChangeUnitExceptions.Skip
 title: IEnumChangeUnitExceptions::Skip (winsync.h)
-
 description: Skips the specified number of change unit exceptions.
 old-location: winsync\ienumchangeunitexceptions_skip.htm
 tech.root: winsync
 ms.assetid: 71e325cc-b686-4db5-988f-abf08af48d1c
-
 ms.date: 12/05/2018
 ms.keywords: IEnumChangeUnitExceptions interface [Windows Sync],Skip method, IEnumChangeUnitExceptions.Skip, IEnumChangeUnitExceptions::Skip, Skip, Skip method [Windows Sync], Skip method [Windows Sync],IEnumChangeUnitExceptions interface, winsync.ienumchangeunitexceptions_skip, winsync/IEnumChangeUnitExceptions::Skip
 ms.topic: method
-f1_keywords: 
- - "winsync/IEnumChangeUnitExceptions.Skip"
+f1_keywords:
+- winsync/IEnumChangeUnitExceptions.Skip
 dev_langs:
- - c++
+- c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - winsync.h
+- winsync.h
 api_name:
- - IEnumChangeUnitExceptions.Skip
+- IEnumChangeUnitExceptions.Skip
 targetos: Windows
 req.typenames: 
 req.redist: 

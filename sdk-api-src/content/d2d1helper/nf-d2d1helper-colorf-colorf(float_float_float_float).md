@@ -1,19 +1,17 @@
 ---
 UID: NF:d2d1helper.ColorF.ColorF(FLOAT,FLOAT,FLOAT,FLOAT)
 title: ColorF::ColorF(FLOAT,FLOAT,FLOAT,FLOAT) (d2d1helper.h)
-
 description: Instantiates a new instance of the ColorF class that contains the specified red, green, blue, and alpha values.
 old-location: direct2d\colorf_colorf_float__float__float__float_.htm
 tech.root: Direct2D
 ms.assetid: 0c6118e6-0d97-4f66-951a-01e6d5264c59
-
 ms.date: 12/05/2018
 ms.keywords: ColorF, ColorF interface [Direct2D],ColorF(FLOAT,FLOAT,FLOAT,FLOAT) constructor, ColorF(FLOAT,FLOAT,FLOAT,FLOAT) constructor [Direct2D], ColorF(FLOAT,FLOAT,FLOAT,FLOAT) constructor [Direct2D],ColorF interface, ColorF.ColorF, ColorF.ColorF(FLOAT,FLOAT,FLOAT,FLOAT), ColorF::ColorF, ColorF::ColorF(FLOAT,FLOAT,FLOAT,FLOAT), ColorF::ColorF(FLOAT,FLOAT,FLOAT,FLOAT)(FLOAT,FLOAT,FLOAT,FLOAT), D2D1.ColorF.ColorF(FLOAT,FLOAT,FLOAT,FLOAT), D2D1::ColorF::ColorF(FLOAT,FLOAT,FLOAT,FLOAT), d2d1helper/ColorF::ColorF(FLOAT,FLOAT,FLOAT,FLOAT), direct2d.colorf_colorf_float__float__float__float_
 ms.topic: method
-f1_keywords: 
- - "d2d1helper/ColorF.ColorF(FLOAT, FLOAT, FLOAT, FLOAT)"
+f1_keywords:
+- d2d1helper/ColorF.ColorF(FLOAT, FLOAT, FLOAT, FLOAT)
 dev_langs:
- - c++
+- c++
 req.header: d2d1helper.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: D2d1.lib
 req.dll: D2d1.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D2d1.dll
+- D2d1.dll
 api_name:
- - ColorF.ColorF(FLOAT, FLOAT, FLOAT, FLOAT)
+- ColorF.ColorF(FLOAT, FLOAT, FLOAT, FLOAT)
 targetos: Windows
 req.typenames: 
 req.redist: 

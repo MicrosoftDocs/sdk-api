@@ -1,19 +1,17 @@
 ---
 UID: NF:vfw.capCaptureSingleFrameClose
 title: capCaptureSingleFrameClose macro (vfw.h)
-
 description: The capCaptureSingleFrameClose macro closes the capture file opened by the capCaptureSingleFrameOpen macro. You can use this macro or explicitly send the WM_CAP_SINGLE_FRAME_CLOSE message.
 old-location: multimedia\capcapturesingleframeclose.htm
 tech.root: Multimedia
 ms.assetid: d0259662-6bcf-4c04-924c-e568db335fd2
-
 ms.date: 12/05/2018
-ms.keywords: "_win32_capCaptureSingleFrameClose, capCaptureSingleFrameClose, capCaptureSingleFrameClose macro [Windows Multimedia], multimedia.capcapturesingleframeclose, vfw/capCaptureSingleFrameClose"
+ms.keywords: _win32_capCaptureSingleFrameClose, capCaptureSingleFrameClose, capCaptureSingleFrameClose macro [Windows Multimedia], multimedia.capcapturesingleframeclose, vfw/capCaptureSingleFrameClose
 ms.topic: macro
-f1_keywords: 
- - "vfw/capCaptureSingleFrameClose"
+f1_keywords:
+- vfw/capCaptureSingleFrameClose
 dev_langs:
- - c++
+- c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Vfw.h
+- Vfw.h
 api_name:
- - capCaptureSingleFrameClose
+- capCaptureSingleFrameClose
 targetos: Windows
 req.typenames: 
 req.redist: 

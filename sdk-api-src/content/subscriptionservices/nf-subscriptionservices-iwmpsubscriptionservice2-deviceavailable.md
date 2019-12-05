@@ -1,19 +1,17 @@
 ---
 UID: NF:subscriptionservices.IWMPSubscriptionService2.deviceAvailable
 title: IWMPSubscriptionService2::deviceAvailable (subscriptionservices.h)
-
 description: Note  This section describes functionality designed for use by online stores.
 old-location: wmp\iwmpsubscriptionservice2_deviceavailable.htm
 tech.root: WMP
 ms.assetid: f3450e57-5e25-411c-8b21-b687021a6500
-
 ms.date: 12/05/2018
 ms.keywords: IWMPSubscriptionService2 interface [Windows Media Player],deviceAvailable method, IWMPSubscriptionService2.deviceAvailable, IWMPSubscriptionService2::deviceAvailable, IWMPSubscriptionService2doMetering, deviceAvailable, deviceAvailable method [Windows Media Player], deviceAvailable method [Windows Media Player],IWMPSubscriptionService2 interface, subscriptionservices/IWMPSubscriptionService2::deviceAvailable, wmp.iwmpsubscriptionservice2_deviceavailable
 ms.topic: method
-f1_keywords: 
- - "subscriptionservices/IWMPSubscriptionService2.deviceAvailable"
+f1_keywords:
+- subscriptionservices/IWMPSubscriptionService2.deviceAvailable
 dev_langs:
- - c++
+- c++
 req.header: subscriptionservices.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - subscriptionservices.h
+- subscriptionservices.h
 api_name:
- - IWMPSubscriptionService2.deviceAvailable
+- IWMPSubscriptionService2.deviceAvailable
 targetos: Windows
 req.typenames: 
 req.redist: 

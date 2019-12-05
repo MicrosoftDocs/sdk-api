@@ -4,10 +4,10 @@ title: ELEMDESC
 ms.date: 01/30/19
 ms.keywords: tagELEMDESC, ELEMDESC
 ms.topic: language-reference
-f1_keywords: 
- - "oaidl/tagELEMDESC"
+f1_keywords:
+- oaidl/tagELEMDESC
 dev_langs:
- - c++
+- c++
 targetos: Windows
 req.construct-type: structure
 req.ddi-compliance: 
@@ -25,14 +25,14 @@ req.typenames: ELEMDESC, *LPELEMDESC
 req.umdf-ver: 
 req.unicode-ansi: 
 topic_type:
- - apiref
+- apiref
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - oaidl.h
+- oaidl.h
 api_name:
- - tagELEMDESC
- - ELEMDESC
+- tagELEMDESC
+- ELEMDESC
 ---
 
 # ELEMDESC structure

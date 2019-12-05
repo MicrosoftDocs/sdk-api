@@ -1,19 +1,17 @@
 ---
 UID: NC:dxvahd.PDXVAHDSW_ProposeVideoPrivateFormat
 title: PDXVAHDSW_ProposeVideoPrivateFormat (dxvahd.h)
-
 description: Gets a private surface format from a software plug-in Microsoft DirectX Video Acceleration High Definition (DXVA-HD) device.
 old-location: mf\pdxvahdsw_proposevideoprivateformat.htm
 tech.root: medfound
 ms.assetid: b543f05f-40fc-4bdf-ae53-9a451d3bdf2a
-
 ms.date: 12/05/2018
 ms.keywords: PDXVAHDSW_ProposeVideoPrivateFormat, PDXVAHDSW_ProposeVideoPrivateFormat callback, PDXVAHDSW_ProposeVideoPrivateFormat callback function [Media Foundation], dxvahd/PDXVAHDSW_ProposeVideoPrivateFormat, mf.pdxvahdsw_proposevideoprivateformat
 ms.topic: callback
 f1_keywords:
 - dxvahd/PDXVAHDSW_ProposeVideoPrivateFormat
 dev_langs:
- - c++
+- c++
 req.header: dxvahd.h
 req.include-header: 
 req.target-type: Windows

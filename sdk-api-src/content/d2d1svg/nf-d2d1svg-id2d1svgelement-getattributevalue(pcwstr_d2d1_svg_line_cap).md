@@ -1,19 +1,17 @@
 ---
 UID: NF:d2d1svg.ID2D1SvgElement.GetAttributeValue(PCWSTR,D2D1_SVG_LINE_CAP)
 title: ID2D1SvgElement::GetAttributeValue(PCWSTR,D2D1_SVG_LINE_CAP) (d2d1svg.h)
-
 description: Gets an attribute of this element as a line cap value. This method can be used to get the value of the stroke-linecap property.
 old-location: direct2d\id2d1svgelement_getattributevalue_10.htm
 tech.root: Direct2D
 ms.assetid: AFA24178-B862-4FA1-99D1-2408E0C1BE52
-
 ms.date: 12/05/2018
 ms.keywords: GetAttributeValue, GetAttributeValue method [Direct2D], GetAttributeValue method [Direct2D],ID2D1SvgElement interface, ID2D1SvgElement interface [Direct2D],GetAttributeValue method, ID2D1SvgElement.GetAttributeValue, ID2D1SvgElement.GetAttributeValue(PCWSTR,D2D1_SVG_LINE_CAP), ID2D1SvgElement::GetAttributeValue, ID2D1SvgElement::GetAttributeValue(PCWSTR,D2D1_SVG_LINE_CAP), d2d1svg/ID2D1SvgElement::GetAttributeValue, direct2d.id2d1svgelement_getattributevalue_10
 ms.topic: method
-f1_keywords: 
- - "d2d1svg/ID2D1SvgElement.GetAttributeValue"
+f1_keywords:
+- d2d1svg/ID2D1SvgElement.GetAttributeValue
 dev_langs:
- - c++
+- c++
 req.header: d2d1svg.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Direct2d.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - direct2d.dll
+- direct2d.dll
 api_name:
- - ID2D1SvgElement.GetAttributeValue
+- ID2D1SvgElement.GetAttributeValue
 targetos: Windows
 req.typenames: 
 req.redist: 

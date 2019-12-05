@@ -1,19 +1,17 @@
 ---
 UID: NF:gpmgmt.IGPMDomain2.RestoreStarterGPO
 title: IGPMDomain2::RestoreStarterGPO (gpmgmt.h)
-
 description: Restores the Starter Group Policy object (GPO) from a GPMStarterGPOBackup object.
 old-location: gpmc\igpmdomain2_restorestartergpo.htm
 tech.root: gpmc
 ms.assetid: e91a3540-7f1b-4843-9b5e-4dcd837dc0f8
-
 ms.date: 12/05/2018
 ms.keywords: IGPMDomain2 interface [GPMC],RestoreStarterGPO method, IGPMDomain2.RestoreStarterGPO, IGPMDomain2::RestoreStarterGPO, RestoreStarterGPO, RestoreStarterGPO method [GPMC], RestoreStarterGPO method [GPMC],IGPMDomain2 interface, gpmc.igpmdomain2_restorestartergpo, gpmgmt/IGPMDomain2::RestoreStarterGPO
 ms.topic: method
-f1_keywords: 
- - "gpmgmt/IGPMDomain2.RestoreStarterGPO"
+f1_keywords:
+- gpmgmt/IGPMDomain2.RestoreStarterGPO
 dev_langs:
- - c++
+- c++
 req.header: gpmgmt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Gpmgmt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - gpmgmt.dll
+- gpmgmt.dll
 api_name:
- - IGPMDomain2.RestoreStarterGPO
+- IGPMDomain2.RestoreStarterGPO
 targetos: Windows
 req.typenames: 
 req.redist: 

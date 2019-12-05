@@ -1,19 +1,17 @@
 ---
 UID: NF:functiondiscoveryprovider.IProviderPublishing.RemoveInstance
 title: IProviderPublishing::RemoveInstance (functiondiscoveryprovider.h)
-
 description: Deletes an existing function instance.
 old-location: ncd\iproviderpublishing_removeinstance_method.htm
 tech.root: FunDisc
 ms.assetid: 7b4f6122-944e-4fe9-be95-dd09ae1542f1
-
 ms.date: 12/05/2018
 ms.keywords: IProviderPublishing interface,RemoveInstance method, IProviderPublishing.RemoveInstance, IProviderPublishing::RemoveInstance, RemoveInstance, RemoveInstance method, RemoveInstance method,IProviderPublishing interface, functiondiscoveryprovider/IProviderPublishing::RemoveInstance, ncd.iproviderpublishing_removeinstance_method
 ms.topic: method
-f1_keywords: 
- - "functiondiscoveryprovider/IProviderPublishing.RemoveInstance"
+f1_keywords:
+- functiondiscoveryprovider/IProviderPublishing.RemoveInstance
 dev_langs:
- - c++
+- c++
 req.header: functiondiscoveryprovider.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - FunctionDiscoveryProvider.h
+- FunctionDiscoveryProvider.h
 api_name:
- - IProviderPublishing.RemoveInstance
+- IProviderPublishing.RemoveInstance
 targetos: Windows
 req.typenames: 
 req.redist: 

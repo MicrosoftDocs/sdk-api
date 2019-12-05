@@ -1,19 +1,17 @@
 ---
 UID: NS:winnt._LDT_ENTRY
 title: LDT_ENTRY (winnt.h)
-
 description: Describes an entry in the descriptor table. This structure is valid only on x86-based systems.
 old-location: base\ldt_entry_str.htm
 tech.root: Debug
 ms.assetid: e4c470ee-63e5-4a00-8c69-76cadd490439
-
 ms.date: 12/05/2018
-ms.keywords: "*PLDT_ENTRY, LDT_ENTRY, LDT_ENTRY structure, PLDT_ENTRY, PLDT_ENTRY structure pointer, _LDT_ENTRY, _win32_ldt_entry_str, base.ldt_entry_str, winnt/LDT_ENTRY, winnt/PLDT_ENTRY"
+ms.keywords: '*PLDT_ENTRY, LDT_ENTRY, LDT_ENTRY structure, PLDT_ENTRY, PLDT_ENTRY structure pointer, _LDT_ENTRY, _win32_ldt_entry_str, base.ldt_entry_str, winnt/LDT_ENTRY, winnt/PLDT_ENTRY'
 ms.topic: struct
-f1_keywords: 
- - "winnt/LDT_ENTRY"
+f1_keywords:
+- winnt/LDT_ENTRY
 dev_langs:
- - c++
+- c++
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WinNT.h
+- WinNT.h
 api_name:
- - LDT_ENTRY
+- LDT_ENTRY
 targetos: Windows
 req.typenames: LDT_ENTRY, *PLDT_ENTRY
 req.redist: 

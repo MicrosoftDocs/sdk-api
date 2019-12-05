@@ -1,19 +1,17 @@
 ---
 UID: NF:shlwapi.PathFindNextComponentA
 title: PathFindNextComponentA function (shlwapi.h)
-
 description: Parses a path and returns the portion of that path that follows the first backslash.
 old-location: shell\PathFindNextComponent.htm
 tech.root: shell
 ms.assetid: 2c76b901-dc0e-4f26-93c8-3c59b8f7147d
-
 ms.date: 12/05/2018
 ms.keywords: PathFindNextComponent, PathFindNextComponent function [Windows Shell], PathFindNextComponentA, PathFindNextComponentW, _win32_PathFindNextComponent, shell.PathFindNextComponent, shlwapi/PathFindNextComponent, shlwapi/PathFindNextComponentA, shlwapi/PathFindNextComponentW
 ms.topic: function
-f1_keywords: 
- - "shlwapi/PathFindNextComponent"
+f1_keywords:
+- shlwapi/PathFindNextComponent
 dev_langs:
- - c++
+- c++
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,20 +30,20 @@ req.lib: Shlwapi.lib
 req.dll: Shlwapi.dll (version 4.71 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Shlwapi.dll
- - API-MS-Win-Core-shlwapi-legacy-l1-1-0.dll
- - KernelBase.dll
- - API-MS-Win-DownLevel-shlwapi-l1-1-0.dll
- - API-MS-Win-DownLevel-shlwapi-l1-1-1.dll
+- Shlwapi.dll
+- API-MS-Win-Core-shlwapi-legacy-l1-1-0.dll
+- KernelBase.dll
+- API-MS-Win-DownLevel-shlwapi-l1-1-0.dll
+- API-MS-Win-DownLevel-shlwapi-l1-1-1.dll
 api_name:
- - PathFindNextComponent
- - PathFindNextComponentA
- - PathFindNextComponentW
+- PathFindNextComponent
+- PathFindNextComponentA
+- PathFindNextComponentW
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:winml.IWinMLModel.GetDescription
 title: IWinMLModel::GetDescription (winml.h)
-
 description: Retrieves the WinML model description.
 old-location: machinelearning\iwinmlmodel_getdescription.htm
 tech.root: MachineLearning
 ms.assetid: 57B05316-8E6B-4490-B181-EB1717B15E31
-
 ms.date: 12/05/2018
 ms.keywords: GetDescription, GetDescription method, GetDescription method,IWinMLModel interface, IWinMLModel interface,GetDescription method, IWinMLModel.GetDescription, IWinMLModel::GetDescription, MachineLearning.iwinmlmodel_getdescription, winml/IWinMLModel::GetDescription
 ms.topic: method
-f1_keywords: 
- - "winml/IWinMLModel.GetDescription"
+f1_keywords:
+- winml/IWinMLModel.GetDescription
 dev_langs:
- - c++
+- c++
 req.header: winml.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Winml.lib
 req.dll: Winml.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - winml.dll
+- winml.dll
 api_name:
- - IWinMLModel.GetDescription
+- IWinMLModel.GetDescription
 targetos: Windows
 req.typenames: 
 req.redist: 

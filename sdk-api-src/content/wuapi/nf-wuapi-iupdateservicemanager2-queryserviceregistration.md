@@ -1,19 +1,17 @@
 ---
 UID: NF:wuapi.IUpdateServiceManager2.QueryServiceRegistration
 title: IUpdateServiceManager2::QueryServiceRegistration (wuapi.h)
-
 description: Returns a pointer to an IUpdateServiceRegistration interface.
 old-location: wua\iupdateservicemanager2_queryserviceregistration_methods.htm
 tech.root: Wua_Sdk
 ms.assetid: d8fd077f-f4a9-4db0-8a47-14241bc574fb
-
 ms.date: 12/05/2018
 ms.keywords: IUpdateServiceManager2 interface [Windows Update Agent],QueryServiceRegistration method, IUpdateServiceManager2.QueryServiceRegistration, IUpdateServiceManager2::QueryServiceRegistration, QueryServiceRegistration, QueryServiceRegistration method [Windows Update Agent], QueryServiceRegistration method [Windows Update Agent],IUpdateServiceManager2 interface, wua.iupdateservicemanager2_queryserviceregistration_methods, wuapi/IUpdateServiceManager2::QueryServiceRegistration
 ms.topic: method
-f1_keywords: 
- - "wuapi/IUpdateServiceManager2.QueryServiceRegistration"
+f1_keywords:
+- wuapi/IUpdateServiceManager2.QueryServiceRegistration
 dev_langs:
- - c++
+- c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Wuguid.lib
 req.dll: Wuapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wuapi.dll
+- Wuapi.dll
 api_name:
- - IUpdateServiceManager2.QueryServiceRegistration
+- IUpdateServiceManager2.QueryServiceRegistration
 targetos: Windows
 req.typenames: 
 req.redist: 

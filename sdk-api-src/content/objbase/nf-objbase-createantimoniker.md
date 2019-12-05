@@ -1,19 +1,17 @@
 ---
 UID: NF:objbase.CreateAntiMoniker
 title: CreateAntiMoniker function (objbase.h)
-
 description: Creates and returns a new anti-moniker.
 old-location: com\createantimoniker.htm
 tech.root: com
 ms.assetid: 1f8fcbd6-8f05-4d32-af8a-d8de1b56dacf
-
 ms.date: 12/05/2018
 ms.keywords: CreateAntiMoniker, CreateAntiMoniker function [COM], _com_CreateAntiMoniker, com.createantimoniker, objbase/CreateAntiMoniker
 ms.topic: function
-f1_keywords: 
- - "objbase/CreateAntiMoniker"
+f1_keywords:
+- objbase/CreateAntiMoniker
 dev_langs:
- - c++
+- c++
 req.header: objbase.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Ole32.lib
 req.dll: Ole32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ole32.dll
+- Ole32.dll
 api_name:
- - CreateAntiMoniker
+- CreateAntiMoniker
 targetos: Windows
 req.typenames: 
 req.redist: 

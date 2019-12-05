@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.ICustomDestinationList.BeginList
 title: ICustomDestinationList::BeginList (shobjidl_core.h)
-
 description: Initiates a building session for a custom Jump List.
 old-location: shell\ICustomDestinationList_BeginList.htm
 tech.root: shell
 ms.assetid: 431ae6b0-1421-46ec-a06a-38158acb0275
-
 ms.date: 12/05/2018
 ms.keywords: BeginList, BeginList method [Windows Shell], BeginList method [Windows Shell],ICustomDestinationList interface, ICustomDestinationList interface [Windows Shell],BeginList method, ICustomDestinationList.BeginList, ICustomDestinationList::BeginList, _shell_ICustomDestinationList_BeginList, shell.ICustomDestinationList_BeginList, shobjidl_core/ICustomDestinationList::BeginList
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/ICustomDestinationList.BeginList"
+f1_keywords:
+- shobjidl_core/ICustomDestinationList.BeginList
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Shell32.lib
 req.dll: Shell32.dll (version 6.1 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - ICustomDestinationList.BeginList
+- ICustomDestinationList.BeginList
 targetos: Windows
 req.typenames: 
 req.redist: 

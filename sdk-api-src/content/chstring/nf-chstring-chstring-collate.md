@@ -1,19 +1,17 @@
 ---
 UID: NF:chstring.CHString.Collate
 title: CHString::Collate (chstring.h)
-
 description: The Collate method uses the wcscoll function to compare a CHString string with another string.
 old-location: wmi\chstring_collate.htm
 tech.root: WmiSdk
 ms.assetid: b6c88b83-a369-4cb2-9297-df9c5911d08f
-
 ms.date: 12/05/2018
 ms.keywords: CHString interface [Windows Management Instrumentation],Collate method, CHString.Collate, CHString::Collate, Collate, Collate method [Windows Management Instrumentation], Collate method [Windows Management Instrumentation],CHString interface, _hmm_chstring_collate, chstring/CHString::Collate, wmi.chstring_collate
 ms.topic: method
-f1_keywords: 
- - "chstring/CHString.Collate"
+f1_keywords:
+- chstring/CHString.Collate
 dev_langs:
- - c++
+- c++
 req.header: chstring.h
 req.include-header: FwCommon.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: FrameDyn.lib
 req.dll: FrameDynOS.dll; FrameDyn.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - FrameDynOS.dll
- - FrameDyn.dll
+- FrameDynOS.dll
+- FrameDyn.dll
 api_name:
- - CHString.Collate
+- CHString.Collate
 targetos: Windows
 req.typenames: 
 req.redist: 

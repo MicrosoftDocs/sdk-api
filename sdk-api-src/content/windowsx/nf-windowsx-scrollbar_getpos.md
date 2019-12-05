@@ -1,19 +1,17 @@
 ---
 UID: NF:windowsx.ScrollBar_GetPos
 title: ScrollBar_GetPos macro (windowsx.h)
-
 description: Retrieves the position of the scroll box (thumb) in the specified scroll bar.
 old-location: controls\ScrollBar_GetPos.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\scrollbars\scrollbarreference\scrollbarmacros\scrollbar_getpos.htm
-
 ms.date: 12/05/2018
 ms.keywords: ScrollBar_GetPos, ScrollBar_GetPos macro [Windows Controls], _win32_ScrollBar_GetPos, _win32_ScrollBar_GetPos_cpp, controls.ScrollBar_GetPos, controls._win32_ScrollBar_GetPos, windowsx/ScrollBar_GetPos
 ms.topic: macro
-f1_keywords: 
- - "windowsx/ScrollBar_GetPos"
+f1_keywords:
+- windowsx/ScrollBar_GetPos
 dev_langs:
- - c++
+- c++
 req.header: windowsx.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Windowsx.h
+- Windowsx.h
 api_name:
- - ScrollBar_GetPos
+- ScrollBar_GetPos
 targetos: Windows
 req.typenames: 
 req.redist: 

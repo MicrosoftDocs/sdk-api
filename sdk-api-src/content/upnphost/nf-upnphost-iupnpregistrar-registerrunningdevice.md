@@ -1,19 +1,17 @@
 ---
 UID: NF:upnphost.IUPnPRegistrar.RegisterRunningDevice
 title: IUPnPRegistrar::RegisterRunningDevice (upnphost.h)
-
 description: The RegisterRunningDevice method registers a running device with the device host.
 old-location: upnp\iupnpregistrar_registerrunningdevice.htm
 tech.root: upnp
 ms.assetid: 4b494b7e-4fcc-4de0-bdcc-96c68a5e0688
-
 ms.date: 12/05/2018
 ms.keywords: IUPnPRegistrar interface [UPnP APIs],RegisterRunningDevice method, IUPnPRegistrar.RegisterRunningDevice, IUPnPRegistrar::RegisterRunningDevice, RegisterRunningDevice, RegisterRunningDevice method [UPnP APIs], RegisterRunningDevice method [UPnP APIs],IUPnPRegistrar interface, _upnp_iupnpregistrar_registerrunningdevice, upnp.iupnpregistrar_registerrunningdevice, upnphost/IUPnPRegistrar::RegisterRunningDevice
 ms.topic: method
-f1_keywords: 
- - "upnphost/IUPnPRegistrar.RegisterRunningDevice"
+f1_keywords:
+- upnphost/IUPnPRegistrar.RegisterRunningDevice
 dev_langs:
- - c++
+- c++
 req.header: upnphost.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Upnphost.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Upnphost.dll
+- Upnphost.dll
 api_name:
- - IUPnPRegistrar.RegisterRunningDevice
+- IUPnPRegistrar.RegisterRunningDevice
 targetos: Windows
 req.typenames: 
 req.redist: 

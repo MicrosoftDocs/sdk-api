@@ -1,19 +1,17 @@
 ---
 UID: NF:bits3_0.IBackgroundCopyJob4.GetOwnerElevationState
 title: IBackgroundCopyJob4::GetOwnerElevationState (bits3_0.h)
-
 description: Gets a value that determines if the token of the owner was elevated at the time they created or took ownership of the job.
 old-location: bits\ibackgroundcopyjob4_getownerelevationstate.htm
 tech.root: Bits
 ms.assetid: 2ab62c27-5ba1-46f3-a5e9-020fde17a1ef
-
 ms.date: 12/05/2018
 ms.keywords: GetOwnerElevationState, GetOwnerElevationState method [BITS], GetOwnerElevationState method [BITS],IBackgroundCopyJob4 interface, IBackgroundCopyJob4 interface [BITS],GetOwnerElevationState method, IBackgroundCopyJob4.GetOwnerElevationState, IBackgroundCopyJob4::GetOwnerElevationState, bits.ibackgroundcopyjob4_getownerelevationstate, bits3_0/IBackgroundCopyJob4::GetOwnerElevationState
 ms.topic: method
-f1_keywords: 
- - "bits3_0/IBackgroundCopyJob4.GetOwnerElevationState"
+f1_keywords:
+- bits3_0/IBackgroundCopyJob4.GetOwnerElevationState
 dev_langs:
- - c++
+- c++
 req.header: bits3_0.h
 req.include-header: Bits.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Bits.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Bits.lib
- - Bits.dll
+- Bits.lib
+- Bits.dll
 api_name:
- - IBackgroundCopyJob4.GetOwnerElevationState
+- IBackgroundCopyJob4.GetOwnerElevationState
 targetos: Windows
 req.typenames: 
 req.redist: 

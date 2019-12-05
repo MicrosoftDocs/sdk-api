@@ -1,19 +1,17 @@
 ---
 UID: NS:windows.media.streaming.RenderingParameters
 title: RenderingParameters (windows.media.streaming.h)
-
 description: Contains the current values of rendering parameters on the DMR.
 old-location: mediastreaming\renderingparameters.htm
 tech.root: mediastreaming
 ms.assetid: d5a558e1-75c3-4276-a6e7-4b688f871031
-
 ms.date: 12/05/2018
 ms.keywords: RenderingParameters, RenderingParameters structure [Media Streaming API], mediastreaming.renderingparameters, windows/RenderingParameters
 ms.topic: struct
-f1_keywords: 
- - "windows.media.streaming/RenderingParameters"
+f1_keywords:
+- windows.media.streaming/RenderingParameters
 dev_langs:
- - c++
+- c++
 req.header: windows.media.streaming.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - windows.media.streaming.h
+- windows.media.streaming.h
 api_name:
- - RenderingParameters
+- RenderingParameters
 targetos: Windows
 req.typenames: RenderingParameters
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NC:ntsecpkg.SpCompleteAuthTokenFn
 title: SpCompleteAuthTokenFn (ntsecpkg.h)
-
 description: Completes an authentication token.
 old-location: security\spcompleteauthtoken.htm
 tech.root: SecAuthN
 ms.assetid: 2e20620a-457d-424c-a6b9-64b571174c98
-
 ms.date: 12/05/2018
 ms.keywords: SpCompleteAuthToken, SpCompleteAuthToken callback function [Security], SpCompleteAuthTokenFn, SpCompleteAuthTokenFn callback, _ssp_spcompleteauthtoken, ntsecpkg/SpCompleteAuthToken, security.spcompleteauthtoken
 ms.topic: callback
 f1_keywords:
 - ntsecpkg/SpCompleteAuthToken
 dev_langs:
- - c++
+- c++
 req.header: ntsecpkg.h
 req.include-header: 
 req.target-type: Windows

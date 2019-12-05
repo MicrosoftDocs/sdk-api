@@ -1,19 +1,17 @@
 ---
 UID: NS:wingdi.tagGLYPHSET
 title: GLYPHSET (wingdi.h)
-
 description: The GLYPHSET structure contains information about a range of Unicode code points.
 old-location: gdi\glyphset.htm
 tech.root: gdi
 ms.assetid: b8ac8d3f-b062-491c-966f-02f3d4c11419
-
 ms.date: 12/05/2018
-ms.keywords: "*LPGLYPHSET, *PGLYPHSET, GLYPHSET, GLYPHSET structure [Windows GDI], PGLYPHSET, PGLYPHSET structure pointer [Windows GDI], _win32_GLYPHSET_str, gdi.glyphset, wingdi/GLYPHSET, wingdi/PGLYPHSET"
+ms.keywords: '*LPGLYPHSET, *PGLYPHSET, GLYPHSET, GLYPHSET structure [Windows GDI], PGLYPHSET, PGLYPHSET structure pointer [Windows GDI], _win32_GLYPHSET_str, gdi.glyphset, wingdi/GLYPHSET, wingdi/PGLYPHSET'
 ms.topic: struct
-f1_keywords: 
- - "wingdi/GLYPHSET"
+f1_keywords:
+- wingdi/GLYPHSET
 dev_langs:
- - c++
+- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wingdi.h
+- Wingdi.h
 api_name:
- - GLYPHSET
+- GLYPHSET
 targetos: Windows
 req.typenames: GLYPHSET, *PGLYPHSET, *LPGLYPHSET
 req.redist: 

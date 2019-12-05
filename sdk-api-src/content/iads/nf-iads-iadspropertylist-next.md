@@ -1,19 +1,17 @@
 ---
 UID: NF:iads.IADsPropertyList.Next
 title: IADsPropertyList::Next (iads.h)
-
 description: The IADsPropertyList::Next method gets the next item in the property list. The returned item is a Property Entry object.
 old-location: adsi\iadspropertylist_next.htm
 tech.root: adsi
 ms.assetid: 2a12ba88-363b-41e3-bd05-8a71f5317097
-
 ms.date: 12/05/2018
 ms.keywords: IADsPropertyList interface [ADSI],Next method, IADsPropertyList.Next, IADsPropertyList::Next, Next, Next method [ADSI], Next method [ADSI],IADsPropertyList interface, _ds_iadspropertylist_next, adsi.iadspropertylist__next, adsi.iadspropertylist_next, iads/IADsPropertyList::Next
 ms.topic: method
-f1_keywords: 
- - "iads/IADsPropertyList.Next"
+f1_keywords:
+- iads/IADsPropertyList.Next
 dev_langs:
- - c++
+- c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Activeds.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Activeds.dll
+- Activeds.dll
 api_name:
- - IADsPropertyList.Next
+- IADsPropertyList.Next
 targetos: Windows
 req.typenames: 
 req.redist: 

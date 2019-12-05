@@ -1,19 +1,17 @@
 ---
 UID: NF:wingdi.CreateBitmapIndirect
 title: CreateBitmapIndirect function (wingdi.h)
-
 description: The CreateBitmapIndirect function creates a bitmap with the specified width, height, and color format (color planes and bits-per-pixel).
 old-location: gdi\createbitmapindirect.htm
 tech.root: gdi
 ms.assetid: 79f73e28-4ee3-472d-9a20-3ffe7cf2a6b5
-
 ms.date: 12/05/2018
 ms.keywords: CreateBitmapIndirect, CreateBitmapIndirect function [Windows GDI], _win32_CreateBitmapIndirect, gdi.createbitmapindirect, wingdi/CreateBitmapIndirect
 ms.topic: function
-f1_keywords: 
- - "wingdi/CreateBitmapIndirect"
+f1_keywords:
+- wingdi/CreateBitmapIndirect
 dev_langs:
- - c++
+- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - gdi32.dll
- - Ext-MS-Win-GDI-Draw-l1-1-1.dll
- - ext-ms-win-gdi-draw-l1-1-2.dll
- - Ext-MS-Win-GDI-Draw-L1-1-3.dll
- - GDI32Full.dll
+- gdi32.dll
+- Ext-MS-Win-GDI-Draw-l1-1-1.dll
+- ext-ms-win-gdi-draw-l1-1-2.dll
+- Ext-MS-Win-GDI-Draw-L1-1-3.dll
+- GDI32Full.dll
 api_name:
- - CreateBitmapIndirect
+- CreateBitmapIndirect
 targetos: Windows
 req.typenames: 
 req.redist: 

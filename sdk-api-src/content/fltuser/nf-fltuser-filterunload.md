@@ -1,19 +1,17 @@
 ---
 UID: NF:fltuser.FilterUnload
 title: FilterUnload function (fltuser.h)
-
 description: An application that has loaded a supporting minifilter by calling FilterLoad can unload the minifilter by calling the FilterUnload function.
 old-location: ifsk\filterunload.htm
 tech.root: ifsk
 ms.assetid: 74de2531-1666-420e-b500-131622f1b76f
-
 ms.date: 12/05/2018
 ms.keywords: FilterUnload, FilterUnload function [Installable File System Drivers], FltWin32ApiRef_d6c75950-e58b-4f4c-8707-85566c03d219.xml, fltuser/FilterUnload, ifsk.filterunload
 ms.topic: function
-f1_keywords: 
- - "fltuser/FilterUnload"
+f1_keywords:
+- fltuser/FilterUnload
 dev_langs:
- - c++
+- c++
 req.header: fltuser.h
 req.include-header: Fltuser.h
 req.target-type: Universal
@@ -32,14 +30,14 @@ req.lib: FltLib.lib
 req.dll: FltLib.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - FltLib.dll
+- FltLib.dll
 api_name:
- - FilterUnload
+- FilterUnload
 targetos: Windows
 req.typenames: 
 req.redist: 

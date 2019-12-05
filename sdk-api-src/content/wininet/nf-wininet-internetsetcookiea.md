@@ -1,19 +1,17 @@
 ---
 UID: NF:wininet.InternetSetCookieA
 title: InternetSetCookieA function (wininet.h)
-
 description: Creates a cookie associated with the specified URL.
 old-location: wininet\internetsetcookie.htm
 tech.root: wininet
 ms.assetid: 1b1ca72e-9c74-4e94-86a9-6fee12c83933
-
 ms.date: 12/05/2018
 ms.keywords: InternetSetCookie, InternetSetCookie function [WinINet], InternetSetCookieA, InternetSetCookieW, _win32_internetsetcookie, wininet.internetsetcookie, wininet/InternetSetCookie, wininet/InternetSetCookieA, wininet/InternetSetCookieW
 ms.topic: function
-f1_keywords: 
- - "wininet/InternetSetCookie"
+f1_keywords:
+- wininet/InternetSetCookie
 dev_langs:
- - c++
+- c++
 req.header: wininet.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Wininet.lib
 req.dll: Wininet.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Wininet.dll
+- Wininet.dll
 api_name:
- - InternetSetCookie
- - InternetSetCookieA
- - InternetSetCookieW
+- InternetSetCookie
+- InternetSetCookieA
+- InternetSetCookieW
 targetos: Windows
 req.typenames: 
 req.redist: 

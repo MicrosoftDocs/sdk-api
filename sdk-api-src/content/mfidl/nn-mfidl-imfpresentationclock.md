@@ -1,19 +1,17 @@
 ---
 UID: NN:mfidl.IMFPresentationClock
 title: IMFPresentationClock (mfidl.h)
-
 description: Represents a presentation clock, which is used to schedule when samples are rendered and to synchronize multiple streams.
 old-location: mf\imfpresentationclock.htm
 tech.root: medfound
 ms.assetid: 979c4f77-cbee-468c-8f6b-e68442d89025
-
 ms.date: 12/05/2018
 ms.keywords: 979c4f77-cbee-468c-8f6b-e68442d89025, IMFPresentationClock, IMFPresentationClock interface [Media Foundation], IMFPresentationClock interface [Media Foundation],described, mf.imfpresentationclock, mfidl/IMFPresentationClock
 ms.topic: interface
-f1_keywords: 
- - "mfidl/IMFPresentationClock"
+f1_keywords:
+- mfidl/IMFPresentationClock
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFPresentationClock
+- IMFPresentationClock
 targetos: Windows
 req.typenames: 
 req.redist: 

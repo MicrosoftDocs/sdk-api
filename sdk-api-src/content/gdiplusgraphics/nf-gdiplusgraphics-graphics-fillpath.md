@@ -1,19 +1,17 @@
 ---
 UID: NF:gdiplusgraphics.Graphics.FillPath
 title: Graphics::FillPath (gdiplusgraphics.h)
-
 description: The Graphics::FillPath method uses a brush to fill the interior of a path. If a figure in the path is not closed, this method treats the nonclosed figure as if it were closed by a straight line that connects the figure's starting and ending points.
 old-location: gdiplus\_gdiplus_CLASS_Graphics_FillPath_brush_path_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\fillpath.htm
-
 ms.date: 12/05/2018
 ms.keywords: FillPath, FillPath method [GDI+], FillPath method [GDI+],Graphics class, Graphics class [GDI+],FillPath method, Graphics.FillPath, Graphics::FillPath, _gdiplus_CLASS_Graphics_FillPath_brush_path_, gdiplus._gdiplus_CLASS_Graphics_FillPath_brush_path_
 ms.topic: method
-f1_keywords: 
- - "gdiplusgraphics/Graphics.FillPath"
+f1_keywords:
+- gdiplusgraphics/Graphics.FillPath
 dev_langs:
- - c++
+- c++
 req.header: gdiplusgraphics.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - Graphics.FillPath
+- Graphics.FillPath
 targetos: Windows
 req.typenames: 
 req.redist: 

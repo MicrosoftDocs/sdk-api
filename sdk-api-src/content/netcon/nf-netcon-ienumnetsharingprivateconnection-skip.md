@@ -1,19 +1,17 @@
 ---
 UID: NF:netcon.IEnumNetSharingPrivateConnection.Skip
 title: IEnumNetSharingPrivateConnection::Skip (netcon.h)
-
 description: The Skip method skips the specified number of privately-shared connections for this enumeration.
 old-location: ics\ienumnetsharingprivateconnection_skip.htm
 tech.root: ics
 ms.assetid: 2157ab88-02ed-4c04-be07-7bebe3cd85b8
-
 ms.date: 12/05/2018
 ms.keywords: IEnumNetSharingPrivateConnection interface [ICS/ICF],Skip method, IEnumNetSharingPrivateConnection.Skip, IEnumNetSharingPrivateConnection::Skip, Skip, Skip method [ICS/ICF], Skip method [ICS/ICF],IEnumNetSharingPrivateConnection interface, _ics_ienumnetsharingprivateconnection_skip, ics.ienumnetsharingprivateconnection_skip, netcon/IEnumNetSharingPrivateConnection::Skip
 ms.topic: method
-f1_keywords: 
- - "netcon/IEnumNetSharingPrivateConnection.Skip"
+f1_keywords:
+- netcon/IEnumNetSharingPrivateConnection.Skip
 dev_langs:
- - c++
+- c++
 req.header: netcon.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Hnetcfg.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Hnetcfg.dll
+- Hnetcfg.dll
 api_name:
- - IEnumNetSharingPrivateConnection.Skip
+- IEnumNetSharingPrivateConnection.Skip
 targetos: Windows
 req.typenames: 
 req.redist: 

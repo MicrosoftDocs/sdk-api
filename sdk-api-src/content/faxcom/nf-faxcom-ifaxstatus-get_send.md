@@ -1,19 +1,17 @@
 ---
 UID: NF:faxcom.IFaxStatus.get_Send
 title: IFaxStatus::get_Send (faxcom.h)
-
 description: Retrieves the Send property for the FaxStatus object of a parent FaxPort object. The Send property is a Boolean value that indicates whether a specified fax port is currently sending a fax.
 old-location: fax\_mfax_ifaxstatus_mfax_ifaxstatus_get_send_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_58f8.htm
-
 ms.date: 12/05/2018
 ms.keywords: IFaxStatus interface [Fax Service],Send property, IFaxStatus.Send, IFaxStatus.get_Send, IFaxStatus::Send, IFaxStatus::get_Send, Send property [Fax Service], Send property [Fax Service],IFaxStatus interface, _mfax_ifaxstatus_get_send, fax._mfax_ifaxstatus_get_send, fax._mfax_ifaxstatus_mfax_ifaxstatus_get_send_cpp, faxcom/IFaxStatus::Send, faxcom/IFaxStatus::get_Send, get_Send
 ms.topic: method
-f1_keywords: 
- - "faxcom/IFaxStatus.Send"
+f1_keywords:
+- faxcom/IFaxStatus.Send
 dev_langs:
- - c++
+- c++
 req.header: faxcom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: Faxcom.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Faxcom.dll
+- Faxcom.dll
 api_name:
- - IFaxStatus.Send
- - IFaxStatus.get_Send
+- IFaxStatus.Send
+- IFaxStatus.get_Send
 targetos: Windows
 req.typenames: 
 req.redist: 

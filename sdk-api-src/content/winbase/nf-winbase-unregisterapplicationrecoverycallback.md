@@ -1,19 +1,17 @@
 ---
 UID: NF:winbase.UnregisterApplicationRecoveryCallback
 title: UnregisterApplicationRecoveryCallback function (winbase.h)
-
 description: Removes the active instance of an application from the recovery list.
 old-location: recovery\unregisterapplicationrecoverycallback.htm
 tech.root: Recovery
 ms.assetid: 473e24d6-fddb-4935-b454-8cddfb53a02a
-
 ms.date: 12/05/2018
 ms.keywords: UnregisterApplicationRecoveryCallback, UnregisterApplicationRecoveryCallback function [Recovery], recovery.unregisterapplicationrecoverycallback, winbase/UnregisterApplicationRecoveryCallback
 ms.topic: function
-f1_keywords: 
- - "winbase/UnregisterApplicationRecoveryCallback"
+f1_keywords:
+- winbase/UnregisterApplicationRecoveryCallback
 dev_langs:
- - c++
+- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
+- Kernel32.dll
 api_name:
- - UnregisterApplicationRecoveryCallback
+- UnregisterApplicationRecoveryCallback
 targetos: Windows
 req.typenames: 
 req.redist: 

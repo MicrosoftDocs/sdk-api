@@ -1,19 +1,17 @@
 ---
 UID: NF:oleidl.IOleObject.Unadvise
 title: IOleObject::Unadvise (oleidl.h)
-
 description: Deletes a previously established advisory connection.
 old-location: com\ioleobject_unadvise.htm
 tech.root: com
 ms.assetid: e3d63a75-30b0-4fe5-9a1d-c70820583765
-
 ms.date: 12/05/2018
 ms.keywords: IOleObject interface [COM],Unadvise method, IOleObject.Unadvise, IOleObject::Unadvise, Unadvise, Unadvise method [COM], Unadvise method [COM],IOleObject interface, _ole_ioleobject_unadvise, com.ioleobject_unadvise, oleidl/IOleObject::Unadvise
 ms.topic: method
-f1_keywords: 
- - "oleidl/IOleObject.Unadvise"
+f1_keywords:
+- oleidl/IOleObject.Unadvise
 dev_langs:
- - c++
+- c++
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - OleIdl.h
+- OleIdl.h
 api_name:
- - IOleObject.Unadvise
+- IOleObject.Unadvise
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:storageprovider.IStorageProviderHandler.GetPropertyHandlerFromFileId
 title: IStorageProviderHandler::GetPropertyHandlerFromFileId (storageprovider.h)
-
 description: Gets an instance of IStorageProviderPropertyHandler associated with the provided file identifier.
 old-location: shell\istorageproviderhandler_getpropertyhandlerfromfileid.htm
 tech.root: shell
 ms.assetid: 6EBC5567-E64E-47FC-A5A9-C482714401D8
-
 ms.date: 12/05/2018
 ms.keywords: GetPropertyHandlerFromFileId, GetPropertyHandlerFromFileId method [Windows Shell], GetPropertyHandlerFromFileId method [Windows Shell],IStorageProviderHandler interface, IStorageProviderHandler interface [Windows Shell],GetPropertyHandlerFromFileId method, IStorageProviderHandler.GetPropertyHandlerFromFileId, IStorageProviderHandler::GetPropertyHandlerFromFileId, shell.istorageproviderhandler_getpropertyhandlerfromfileid, storageprovider/IStorageProviderHandler::GetPropertyHandlerFromFileId
 ms.topic: method
-f1_keywords: 
- - "storageprovider/IStorageProviderHandler.GetPropertyHandlerFromFileId"
+f1_keywords:
+- storageprovider/IStorageProviderHandler.GetPropertyHandlerFromFileId
 dev_langs:
- - c++
+- c++
 req.header: storageprovider.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - storageprovider.h
+- storageprovider.h
 api_name:
- - IStorageProviderHandler.GetPropertyHandlerFromFileId
+- IStorageProviderHandler.GetPropertyHandlerFromFileId
 targetos: Windows
 req.typenames: 
 req.redist: 

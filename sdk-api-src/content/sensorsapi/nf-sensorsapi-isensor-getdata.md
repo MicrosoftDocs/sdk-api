@@ -1,19 +1,17 @@
 ---
 UID: NF:sensorsapi.ISensor.GetData
 title: ISensor::GetData (sensorsapi.h)
-
 description: Retrieves the most recent sensor data report.
 old-location: winsensors_com_ref\isensor_getdata.htm
 tech.root: SensorsAPI
 ms.assetid: 89145856-96c7-48c2-988c-b410ab20aed4
-
 ms.date: 12/05/2018
 ms.keywords: GetData, GetData method, GetData method,ISensor interface, ISensor interface,GetData method, ISensor.GetData, ISensor::GetData, sensorsapi/ISensor::GetData, winsensors_com_ref.isensor_getdata
 ms.topic: method
-f1_keywords: 
- - "sensorsapi/ISensor.GetData"
+f1_keywords:
+- sensorsapi/ISensor.GetData
 dev_langs:
- - c++
+- c++
 req.header: sensorsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Sensorsapi.lib
 req.dll: Sensorsapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - sensorsapi.dll
+- sensorsapi.dll
 api_name:
- - ISensor.GetData
+- ISensor.GetData
 targetos: Windows
 req.typenames: 
 req.redist: 

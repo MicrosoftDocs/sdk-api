@@ -1,19 +1,17 @@
 ---
 UID: NN:d3d11.ID3D11RasterizerState
 title: ID3D11RasterizerState (d3d11.h)
-
 description: The rasterizer-state interface holds a description for rasterizer state that you can bind to the rasterizer stage.
 old-location: direct3d11\id3d11rasterizerstate.htm
 tech.root: direct3d11
 ms.assetid: fbe6d2b9-375e-4390-9d34-36acef0a5aa2
-
 ms.date: 12/05/2018
 ms.keywords: 6b2716ca-7676-6b26-071d-20ec80705737, ID3D11RasterizerState, ID3D11RasterizerState interface [Direct3D 11], ID3D11RasterizerState interface [Direct3D 11],described, d3d11/ID3D11RasterizerState, direct3d11.id3d11rasterizerstate
 ms.topic: interface
-f1_keywords: 
- - "d3d11/ID3D11RasterizerState"
+f1_keywords:
+- d3d11/ID3D11RasterizerState
 dev_langs:
- - c++
+- c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: D3D11.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D11.lib
- - D3D11.dll
+- D3D11.lib
+- D3D11.dll
 api_name:
- - ID3D11RasterizerState
+- ID3D11RasterizerState
 targetos: Windows
 req.typenames: 
 req.redist: 

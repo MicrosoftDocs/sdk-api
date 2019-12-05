@@ -1,19 +1,17 @@
 ---
 UID: NL:gdiplustypes.PointF
 title: PointF (gdiplustypes.h)
-
 description: The PointF class encapsulates a point in a 2-D coordinate system.
 old-location: gdiplus\_gdiplus_CLASS_PointF_Class.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\pointf.htm
-
 ms.date: 12/05/2018
 ms.keywords: PointF, PointF class [GDI+], PointF class [GDI+],described, _gdiplus_CLASS_PointF_Class, gdiplus._gdiplus_CLASS_PointF_Class, gdiplustypes/PointF
 ms.topic: class
-f1_keywords: 
- - "gdiplustypes/PointF"
+f1_keywords:
+- gdiplustypes/PointF
 dev_langs:
- - c++
+- c++
 req.header: gdiplustypes.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - gdiplustypes.h
+- gdiplustypes.h
 api_name:
- - PointF
+- PointF
 targetos: Windows
 req.typenames: 
 req.redist: 

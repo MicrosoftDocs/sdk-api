@@ -1,19 +1,17 @@
 ---
 UID: NN:mfmediaengine.IMFMediaTimeRange
 title: IMFMediaTimeRange (mfmediaengine.h)
-
 description: Represents a list of time ranges, where each range is defined by a start and end time.
 old-location: mf\imfmediatimerange.htm
 tech.root: medfound
 ms.assetid: E39646E6-66F4-4413-A84B-43039689AEE7
-
 ms.date: 12/05/2018
 ms.keywords: IMFMediaTimeRange, IMFMediaTimeRange interface [Media Foundation], IMFMediaTimeRange interface [Media Foundation],described, mf.imfmediatimerange, mfmediaengine/IMFMediaTimeRange
 ms.topic: interface
-f1_keywords: 
- - "mfmediaengine/IMFMediaTimeRange"
+f1_keywords:
+- mfmediaengine/IMFMediaTimeRange
 dev_langs:
- - c++
+- c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfmediaengine.h
+- mfmediaengine.h
 api_name:
- - IMFMediaTimeRange
+- IMFMediaTimeRange
 targetos: Windows
 req.typenames: 
 req.redist: 

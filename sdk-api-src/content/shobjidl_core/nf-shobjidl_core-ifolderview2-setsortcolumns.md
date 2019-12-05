@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IFolderView2.SetSortColumns
 title: IFolderView2::SetSortColumns (shobjidl_core.h)
-
 description: Sets and sorts the view by the given sort columns.
 old-location: shell\IFolderView2_SetSortColumns.htm
 tech.root: shell
 ms.assetid: 54dfac6b-8355-4064-9f54-4172975b8028
-
 ms.date: 12/05/2018
 ms.keywords: IFolderView2 interface [Windows Shell],SetSortColumns method, IFolderView2.SetSortColumns, IFolderView2::SetSortColumns, SetSortColumns, SetSortColumns method [Windows Shell], SetSortColumns method [Windows Shell],IFolderView2 interface, _shell_IFolderView2_SetSortColumns, shell.IFolderView2_SetSortColumns, shobjidl_core/IFolderView2::SetSortColumns
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IFolderView2.SetSortColumns"
+f1_keywords:
+- shobjidl_core/IFolderView2.SetSortColumns
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - IFolderView2.SetSortColumns
+- IFolderView2.SetSortColumns
 targetos: Windows
 req.typenames: 
 req.redist: 

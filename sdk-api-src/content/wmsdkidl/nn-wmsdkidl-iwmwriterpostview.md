@@ -1,19 +1,17 @@
 ---
 UID: NN:wmsdkidl.IWMWriterPostView
 title: IWMWriterPostView (wmsdkidl.h)
-
 description: The IWMWriterPostView interface manages advanced writing functionality related to the postviewing of samples.
 old-location: wmformat\iwmwriterpostview.htm
 tech.root: wmformat
 ms.assetid: 1d24dbd6-86df-4a0a-8110-15f6a4c1f31d
-
 ms.date: 12/05/2018
 ms.keywords: IWMWriterPostView, IWMWriterPostView interface [windows Media Format], IWMWriterPostView interface [windows Media Format],described, IWMWriterPostViewInterface, wmformat.iwmwriterpostview, wmsdkidl/IWMWriterPostView
 ms.topic: interface
-f1_keywords: 
- - "wmsdkidl/IWMWriterPostView"
+f1_keywords:
+- wmsdkidl/IWMWriterPostView
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmsdkidl.h
+- wmsdkidl.h
 api_name:
- - IWMWriterPostView
+- IWMWriterPostView
 targetos: Windows
 req.typenames: 
 req.redist: 

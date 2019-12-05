@@ -1,19 +1,17 @@
 ---
 UID: NN:msopc.IOpcSignatureReference
 title: IOpcSignatureReference (msopc.h)
-
 description: Represents a reference to XML markup that has been or will be signed.
 old-location: opc\iopcsignaturereference.htm
 tech.root: OPC
 ms.assetid: 2ce40bc7-754a-4f69-9348-75603e2257a4
-
 ms.date: 12/05/2018
 ms.keywords: IOpcSignatureReference, IOpcSignatureReference interface [Open Packaging Conventions], IOpcSignatureReference interface [Open Packaging Conventions],described, msopc/IOpcSignatureReference, opc.iopcsignaturereference
 ms.topic: interface
-f1_keywords: 
- - "msopc/IOpcSignatureReference"
+f1_keywords:
+- msopc/IOpcSignatureReference
 dev_langs:
- - c++
+- c++
 req.header: msopc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msopc.h
+- msopc.h
 api_name:
- - IOpcSignatureReference
+- IOpcSignatureReference
 targetos: Windows
 req.typenames: 
 req.redist: 

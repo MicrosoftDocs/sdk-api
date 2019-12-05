@@ -1,19 +1,17 @@
 ---
 UID: NF:segment.IMSVidOutputDevices.Add
 title: IMSVidOutputDevices::Add (segment.h)
-
 description: The Add method adds an output device to the collection.
 old-location: mstv\imsvidoutputdevices_add.htm
 tech.root: mstv
 ms.assetid: 4f8386bb-5494-4534-adec-d37ac105a3a4
-
 ms.date: 12/05/2018
 ms.keywords: Add, Add method [Microsoft TV Technologies], Add method [Microsoft TV Technologies],IMSVidOutputDevices interface, IMSVidOutputDevices interface [Microsoft TV Technologies],Add method, IMSVidOutputDevices.Add, IMSVidOutputDevices::Add, IMSVidOutputDevicesAdd, mstv.imsvidoutputdevices_add, segment/IMSVidOutputDevices::Add
 ms.topic: method
-f1_keywords: 
- - "segment/IMSVidOutputDevices.Add"
+f1_keywords:
+- segment/IMSVidOutputDevices.Add
 dev_langs:
- - c++
+- c++
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - segment.h
+- segment.h
 api_name:
- - IMSVidOutputDevices.Add
+- IMSVidOutputDevices.Add
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:wingdi.GetCharWidthFloatW
 title: GetCharWidthFloatW function (wingdi.h)
-
 description: The GetCharWidthFloat function retrieves the fractional widths of consecutive characters in a specified range from the current font.
 old-location: gdi\getcharwidthfloat.htm
 tech.root: gdi
 ms.assetid: 7a90b701-63f9-41e5-9069-10d344edfe02
-
 ms.date: 12/05/2018
 ms.keywords: GetCharWidthFloat, GetCharWidthFloat function [Windows GDI], GetCharWidthFloatA, GetCharWidthFloatW, _win32_GetCharWidthFloat, gdi.getcharwidthfloat, wingdi/GetCharWidthFloat, wingdi/GetCharWidthFloatA, wingdi/GetCharWidthFloatW
 ms.topic: function
-f1_keywords: 
- - "wingdi/GetCharWidthFloat"
+f1_keywords:
+- wingdi/GetCharWidthFloat
 dev_langs:
- - c++
+- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - gdi32.dll
- - Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
- - GDI32Full.dll
+- gdi32.dll
+- Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
+- GDI32Full.dll
 api_name:
- - GetCharWidthFloat
- - GetCharWidthFloatA
- - GetCharWidthFloatW
+- GetCharWidthFloat
+- GetCharWidthFloatA
+- GetCharWidthFloatW
 targetos: Windows
 req.typenames: 
 req.redist: 

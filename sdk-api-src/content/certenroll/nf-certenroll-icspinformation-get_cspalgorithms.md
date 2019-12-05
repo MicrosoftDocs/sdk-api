@@ -1,19 +1,17 @@
 ---
 UID: NF:certenroll.ICspInformation.get_CspAlgorithms
 title: ICspInformation::get_CspAlgorithms (certenroll.h)
-
 description: Retrieves a collection of ICspAlgorithm interfaces that contain information about the algorithms supported by the provider.
 old-location: security\icspinformation_cspalgorithms_property.htm
 tech.root: seccertenroll
 ms.assetid: e74f1aa3-883b-40e4-8052-6651eaa4b63f
-
 ms.date: 12/05/2018
 ms.keywords: CspAlgorithms property [Security], CspAlgorithms property [Security],ICspInformation interface, ICspInformation interface [Security],CspAlgorithms property, ICspInformation.CspAlgorithms, ICspInformation.get_CspAlgorithms, ICspInformation::CspAlgorithms, ICspInformation::get_CspAlgorithms, certenroll/ICspInformation::CspAlgorithms, certenroll/ICspInformation::get_CspAlgorithms, get_CspAlgorithms, security.icspinformation_cspalgorithms_property
 ms.topic: method
-f1_keywords: 
- - "certenroll/ICspInformation.CspAlgorithms"
+f1_keywords:
+- certenroll/ICspInformation.CspAlgorithms
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: CertEnroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CertEnroll.dll
+- CertEnroll.dll
 api_name:
- - ICspInformation.CspAlgorithms
- - ICspInformation.get_CspAlgorithms
+- ICspInformation.CspAlgorithms
+- ICspInformation.get_CspAlgorithms
 targetos: Windows
 req.typenames: 
 req.redist: 

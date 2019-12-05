@@ -1,19 +1,17 @@
 ---
 UID: NF:wmp.IWMPSyncDevice3.cancelEstimation
 title: IWMPSyncDevice3::cancelEstimation (wmp.h)
-
 description: The cancelEstimation method cancels an estimation that was previously initiated by estimateSyncSize.
 old-location: wmp\iwmpsyncdevice3_cancelestimation.htm
 tech.root: WMP
 ms.assetid: 82e87e44-0a38-43c0-bbed-011581ae8a85
-
 ms.date: 12/05/2018
 ms.keywords: IWMPSyncDevice3 interface [Windows Media Player],cancelEstimation method, IWMPSyncDevice3.cancelEstimation, IWMPSyncDevice3::cancelEstimation, cancelEstimation, cancelEstimation method [Windows Media Player], cancelEstimation method [Windows Media Player],IWMPSyncDevice3 interface, wmp.iwmpsyncdevice3_cancelestimation, wmp/IWMPSyncDevice3::cancelEstimation
 ms.topic: method
-f1_keywords: 
- - "wmp/IWMPSyncDevice3.cancelEstimation"
+f1_keywords:
+- wmp/IWMPSyncDevice3.cancelEstimation
 dev_langs:
- - c++
+- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wmp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmp.dll
+- wmp.dll
 api_name:
- - IWMPSyncDevice3.cancelEstimation
+- IWMPSyncDevice3.cancelEstimation
 targetos: Windows
 req.typenames: 
 req.redist: 

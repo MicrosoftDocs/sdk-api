@@ -1,19 +1,17 @@
 ---
 UID: NN:d3d9.IDirect3DCryptoSession9
 title: IDirect3DCryptoSession9 (d3d9.h)
-
 description: Represents a cryptographic session.To get a pointer to this interface, call IDirect3DDevice9Video::CreateCryptoSession.
 old-location: mf\idirect3dcryptosession9.htm
 tech.root: medfound
 ms.assetid: 2511c9da-e696-4e49-b180-7fc1317c1652
-
 ms.date: 12/05/2018
 ms.keywords: IDirect3DCryptoSession9, IDirect3DCryptoSession9 interface [Media Foundation], IDirect3DCryptoSession9 interface [Media Foundation],described, d3d9/IDirect3DCryptoSession9, mf.idirect3dcryptosession9
 ms.topic: interface
-f1_keywords: 
- - "d3d9/IDirect3DCryptoSession9"
+f1_keywords:
+- d3d9/IDirect3DCryptoSession9
 dev_langs:
- - c++
+- c++
 req.header: d3d9.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - d3d9.h
+- d3d9.h
 api_name:
- - IDirect3DCryptoSession9
+- IDirect3DCryptoSession9
 targetos: Windows
 req.typenames: 
 req.redist: 

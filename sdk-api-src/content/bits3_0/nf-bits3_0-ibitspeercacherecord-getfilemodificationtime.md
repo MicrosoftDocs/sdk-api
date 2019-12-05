@@ -1,19 +1,17 @@
 ---
 UID: NF:bits3_0.IBitsPeerCacheRecord.GetFileModificationTime
 title: IBitsPeerCacheRecord::GetFileModificationTime (bits3_0.h)
-
 description: Gets the date and time that the file was last modified on the server.
 old-location: bits\ibitspeercacherecord_getfilemodificationtime.htm
 tech.root: Bits
 ms.assetid: fe24b090-7dfd-4cbe-bb5d-ff3fd01723df
-
 ms.date: 12/05/2018
 ms.keywords: GetFileModificationTime, GetFileModificationTime method [BITS], GetFileModificationTime method [BITS],IBitsPeerCacheRecord interface, IBitsPeerCacheRecord interface [BITS],GetFileModificationTime method, IBitsPeerCacheRecord.GetFileModificationTime, IBitsPeerCacheRecord::GetFileModificationTime, bits.ibitspeercacherecord_getfilemodificationtime, bits3_0/IBitsPeerCacheRecord::GetFileModificationTime
 ms.topic: method
-f1_keywords: 
- - "bits3_0/IBitsPeerCacheRecord.GetFileModificationTime"
+f1_keywords:
+- bits3_0/IBitsPeerCacheRecord.GetFileModificationTime
 dev_langs:
- - c++
+- c++
 req.header: bits3_0.h
 req.include-header: Bits.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Bits.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Bits.lib
- - Bits.dll
+- Bits.lib
+- Bits.dll
 api_name:
- - IBitsPeerCacheRecord.GetFileModificationTime
+- IBitsPeerCacheRecord.GetFileModificationTime
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:syncmgr.IEnumSyncMgrSyncItems.Skip
 title: IEnumSyncMgrSyncItems::Skip (syncmgr.h)
-
 description: Skips forward in the enumeration the specified number of items.
 old-location: shell\IEnumSyncMgrSyncItems_Skip.htm
 tech.root: shell
 ms.assetid: a07038de-84dc-4371-b72f-c835efd73ffc
-
 ms.date: 12/05/2018
 ms.keywords: IEnumSyncMgrSyncItems interface [Windows Shell],Skip method, IEnumSyncMgrSyncItems.Skip, IEnumSyncMgrSyncItems::Skip, Skip, Skip method [Windows Shell], Skip method [Windows Shell],IEnumSyncMgrSyncItems interface, _shell_IEnumSyncMgrSyncItems_Skip, shell.IEnumSyncMgrSyncItems_Skip, syncmgr/IEnumSyncMgrSyncItems::Skip
 ms.topic: method
-f1_keywords: 
- - "syncmgr/IEnumSyncMgrSyncItems.Skip"
+f1_keywords:
+- syncmgr/IEnumSyncMgrSyncItems.Skip
 dev_langs:
- - c++
+- c++
 req.header: syncmgr.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Syncmgr.h
+- Syncmgr.h
 api_name:
- - IEnumSyncMgrSyncItems.Skip
+- IEnumSyncMgrSyncItems.Skip
 targetos: Windows
 req.typenames: 
 req.redist: 

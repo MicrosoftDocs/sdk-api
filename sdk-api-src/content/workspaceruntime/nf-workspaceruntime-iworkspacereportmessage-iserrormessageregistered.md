@@ -1,19 +1,17 @@
 ---
 UID: NF:workspaceruntime.IWorkspaceReportMessage.IsErrorMessageRegistered
 title: IWorkspaceReportMessage::IsErrorMessageRegistered (workspaceruntime.h)
-
 description: Determines whether a specified error message is registered in a specified workspace.
 old-location: termserv\iworkspacereportmessage_iserrormessageregistered.htm
 tech.root: TermServ
 ms.assetid: ea66553b-915b-4244-add7-08c7bc255203
-
 ms.date: 12/05/2018
 ms.keywords: IWorkspaceReportMessage interface [Remote Desktop Services],IsErrorMessageRegistered method, IWorkspaceReportMessage.IsErrorMessageRegistered, IWorkspaceReportMessage::IsErrorMessageRegistered, IsErrorMessageRegistered, IsErrorMessageRegistered method [Remote Desktop Services], IsErrorMessageRegistered method [Remote Desktop Services],IWorkspaceReportMessage interface, IsErrorMessageRegistered method [Remote Desktop Services],Workspace object, Workspace object [Remote Desktop Services],IsErrorMessageRegistered method, termserv.iworkspacereportmessage_iserrormessageregistered, workspaceruntime/IWorkspaceReportMessage::IsErrorMessageRegistered
 ms.topic: method
-f1_keywords: 
- - "workspaceruntime/IWorkspaceReportMessage.IsErrorMessageRegistered"
+f1_keywords:
+- workspaceruntime/IWorkspaceReportMessage.IsErrorMessageRegistered
 dev_langs:
- - c++
+- c++
 req.header: workspaceruntime.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - WkspRt.exe
+- WkspRt.exe
 api_name:
- - IWorkspaceReportMessage.IsErrorMessageRegistered
- - Workspace.IsErrorMessageRegistered
+- IWorkspaceReportMessage.IsErrorMessageRegistered
+- Workspace.IsErrorMessageRegistered
 targetos: Windows
 req.typenames: 
 req.redist: 

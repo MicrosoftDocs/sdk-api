@@ -1,19 +1,17 @@
 ---
 UID: NF:setupapi.SetupDiGetDeviceInstanceIdW
 title: SetupDiGetDeviceInstanceIdW function (setupapi.h)
-
 description: The SetupDiGetDeviceInstanceId function retrieves the device instance ID that is associated with a device information element.
 old-location: devinst\setupdigetdeviceinstanceid.htm
 tech.root: devinst
 ms.assetid: 43ad298d-2ff4-445a-aa23-1319d5f990c8
-
 ms.date: 12/05/2018
 ms.keywords: SetupDiGetDeviceInstanceId, SetupDiGetDeviceInstanceId function [Device and Driver Installation], SetupDiGetDeviceInstanceIdA, SetupDiGetDeviceInstanceIdW, devinst.setupdigetdeviceinstanceid, di-rtns_f7f2bb12-37a0-489f-a1e7-0ca67600876c.xml, setupapi/SetupDiGetDeviceInstanceId
 ms.topic: function
 f1_keywords:
 - setupapi/SetupDiGetDeviceInstanceId
 dev_langs:
- - c++
+- c++
 req.header: setupapi.h
 req.include-header: Setupapi.h
 req.target-type: Desktop
@@ -40,8 +38,7 @@ api_location:
 - Setupapi.lib
 - Setupapi.dll
 api_name:
-- SetupDiGetDeviceInstanceId
- - SetupDiGetDeviceInstanceIdW
+- SetupDiGetDeviceInstanceId - SetupDiGetDeviceInstanceIdW
 targetos: Windows
 req.typenames: 
 req.redist: 

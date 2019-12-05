@@ -1,19 +1,17 @@
 ---
 UID: NS:fwpmtypes.FWPM_SESSION0_
 title: FWPM_SESSION0 (fwpmtypes.h)
-
 description: Stores the state associated with a client session.
 old-location: fwp\fwpm_session0_struct.htm
 tech.root: fwp
 ms.assetid: 9f259ab7-cec9-44c1-8914-2850235470b3
-
 ms.date: 12/05/2018
 ms.keywords: FWPM_SESSION0, FWPM_SESSION0 structure [Filtering], FWPM_SESSION_FLAG_DYNAMIC, FWPM_SESSION_FLAG_RESERVED, fwp.fwpm_session0_struct, fwpmtypes/FWPM_SESSION0
 ms.topic: struct
-f1_keywords: 
- - "fwpmtypes/FWPM_SESSION0"
+f1_keywords:
+- fwpmtypes/FWPM_SESSION0
 dev_langs:
- - c++
+- c++
 req.header: fwpmtypes.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Fwpmtypes.h
+- Fwpmtypes.h
 api_name:
- - FWPM_SESSION0
+- FWPM_SESSION0
 targetos: Windows
 req.typenames: FWPM_SESSION0
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NS:ddrawint._DD_PALETTE_LOCAL
 title: DD_PALETTE_LOCAL (ddrawint.h)
-
 description: The DD_PALETTE_LOCAL structure contains palette-related data that is unique to an individual palette object.
 old-location: display\dd_palette_local.htm
 tech.root: display
 ms.assetid: 28269aed-fb5e-42a2-aeca-9fa3c7f6481d
-
 ms.date: 12/05/2018
-ms.keywords: "*PDD_PALETTE_LOCAL, DD_PALETTE_LOCAL, DD_PALETTE_LOCAL structure [Display Devices], ddrawint/DD_PALETTE_LOCAL, ddstrcts_e56ec243-4e12-4e79-afd7-afce67f148b1.xml, display.dd_palette_local"
+ms.keywords: '*PDD_PALETTE_LOCAL, DD_PALETTE_LOCAL, DD_PALETTE_LOCAL structure [Display Devices], ddrawint/DD_PALETTE_LOCAL, ddstrcts_e56ec243-4e12-4e79-afd7-afce67f148b1.xml, display.dd_palette_local'
 ms.topic: struct
-f1_keywords: 
- - "ddrawint/DD_PALETTE_LOCAL"
+f1_keywords:
+- ddrawint/DD_PALETTE_LOCAL
 dev_langs:
- - c++
+- c++
 req.header: ddrawint.h
 req.include-header: Winddi.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - ddrawint.h
+- ddrawint.h
 api_name:
- - DD_PALETTE_LOCAL
+- DD_PALETTE_LOCAL
 targetos: Windows
-req.typenames: "*PDD_PALETTE_LOCAL, DD_PALETTE_LOCAL"
+req.typenames: '*PDD_PALETTE_LOCAL, DD_PALETTE_LOCAL'
 req.redist: 
 ms.custom: 19H1
 ---

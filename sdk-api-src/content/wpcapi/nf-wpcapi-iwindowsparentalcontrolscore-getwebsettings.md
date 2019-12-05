@@ -1,19 +1,17 @@
 ---
 UID: NF:wpcapi.IWindowsParentalControlsCore.GetWebSettings
 title: IWindowsParentalControlsCore::GetWebSettings (wpcapi.h)
-
 description: Retrieves a pointer to an interface for web restrictions settings for the specified user.
 old-location: parcon\iwindowsparentalcontrols_getwebsettings.htm
 tech.root: parcon
 ms.assetid: ed01e945-06e7-4d3d-8a23-066ef6e0b13c
-
 ms.date: 12/05/2018
 ms.keywords: GetWebSettings, GetWebSettings method, GetWebSettings method,IWindowsParentalControlsCore interface, IWindowsParentalControlsCore interface,GetWebSettings method, IWindowsParentalControlsCore.GetWebSettings, IWindowsParentalControlsCore::GetWebSettings, parcon.iwindowsparentalcontrols_getwebsettings, wpcapi/IWindowsParentalControlsCore::GetWebSettings
 ms.topic: method
-f1_keywords: 
- - "wpcapi/IWindowsParentalControlsCore.GetWebSettings"
+f1_keywords:
+- wpcapi/IWindowsParentalControlsCore.GetWebSettings
 dev_langs:
- - c++
+- c++
 req.header: wpcapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wpcapi.h
+- Wpcapi.h
 api_name:
- - IWindowsParentalControlsCore.GetWebSettings
+- IWindowsParentalControlsCore.GetWebSettings
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:gdiplustypes.Rect.Union
 title: Rect::Union (gdiplustypes.h)
-
 description: The Rect::Union method determines the union of two rectangles and stores the result in a Rect object.
 old-location: gdiplus\_gdiplus_CLASS_Rect_Union_c_a_b_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\rectclass\rectmethods\union.htm
-
 ms.date: 12/05/2018
 ms.keywords: Rect class [GDI+],Union method, Rect.Union, Rect::Union, Union, Union method [GDI+], Union method [GDI+],Rect class, _gdiplus_CLASS_Rect_Union_c_a_b_, gdiplus._gdiplus_CLASS_Rect_Union_c_a_b_
 ms.topic: method
-f1_keywords: 
- - "gdiplustypes/Rect.Union"
+f1_keywords:
+- gdiplustypes/Rect.Union
 dev_langs:
- - c++
+- c++
 req.header: gdiplustypes.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - Rect.Union
+- Rect.Union
 targetos: Windows
 req.typenames: 
 req.redist: 

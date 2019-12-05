@@ -1,19 +1,17 @@
 ---
 UID: NF:wmp.IWMPNetwork.get_bufferingCount
 title: IWMPNetwork::get_bufferingCount (wmp.h)
-
 description: The get_bufferingCount method retrieves the number of times buffering occurred during playback.
 old-location: wmp\iwmpnetwork_get_bufferingcount.htm
 tech.root: WMP
 ms.assetid: 9ba9be8d-9b2b-4620-8572-317555d51bdf
-
 ms.date: 12/05/2018
 ms.keywords: IWMPNetwork interface [Windows Media Player],get_bufferingCount method, IWMPNetwork.get_bufferingCount, IWMPNetwork::get_bufferingCount, IWMPNetworkget_bufferingCount, get_bufferingCount, get_bufferingCount method [Windows Media Player], get_bufferingCount method [Windows Media Player],IWMPNetwork interface, wmp.iwmpnetwork_get_bufferingcount, wmp/IWMPNetwork::get_bufferingCount
 ms.topic: method
-f1_keywords: 
- - "wmp/IWMPNetwork.get_bufferingCount"
+f1_keywords:
+- wmp/IWMPNetwork.get_bufferingCount
 dev_langs:
- - c++
+- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wmp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmp.dll
+- wmp.dll
 api_name:
- - IWMPNetwork.get_bufferingCount
+- IWMPNetwork.get_bufferingCount
 targetos: Windows
 req.typenames: 
 req.redist: 

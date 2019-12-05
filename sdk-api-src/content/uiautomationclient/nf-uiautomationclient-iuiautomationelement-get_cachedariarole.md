@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationElement.get_CachedAriaRole
 title: IUIAutomationElement::get_CachedAriaRole (uiautomationclient.h)
-
 description: Retrieves the cached Accessible Rich Internet Applications (ARIA) role of the element.
 old-location: winauto\uiauto_IUIAutomationElement_CachedAriaRole.htm
 tech.root: WinAuto
 ms.assetid: 8e3671b0-49f5-4d8b-b2ab-51a976316191
-
 ms.date: 12/05/2018
 ms.keywords: CachedAriaRole property [Windows Accessibility], CachedAriaRole property [Windows Accessibility],IUIAutomationElement interface, IUIAutomationElement interface [Windows Accessibility],CachedAriaRole property, IUIAutomationElement.CachedAriaRole, IUIAutomationElement.get_CachedAriaRole, IUIAutomationElement::CachedAriaRole, IUIAutomationElement::get_CachedAriaRole, get_CachedAriaRole, uiauto.uiauto_IUIAutomationElement_CachedAriaRole, uiauto_IUIAutomationElement_CachedAriaRole, uiautomationclient/IUIAutomationElement::CachedAriaRole, uiautomationclient/IUIAutomationElement::get_CachedAriaRole, winauto.uiauto_IUIAutomationElement_CachedAriaRole
 ms.topic: method
-f1_keywords: 
- - "uiautomationclient/IUIAutomationElement.CachedAriaRole"
+f1_keywords:
+- uiautomationclient/IUIAutomationElement.CachedAriaRole
 dev_langs:
- - c++
+- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationClient.h
+- UIAutomationClient.h
 api_name:
- - IUIAutomationElement.CachedAriaRole
- - IUIAutomationElement.get_CachedAriaRole
+- IUIAutomationElement.CachedAriaRole
+- IUIAutomationElement.get_CachedAriaRole
 targetos: Windows
 req.typenames: 
 req.redist: 

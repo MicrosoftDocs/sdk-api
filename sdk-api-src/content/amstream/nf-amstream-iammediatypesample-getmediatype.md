@@ -1,19 +1,17 @@
 ---
 UID: NF:amstream.IAMMediaTypeSample.GetMediaType
 title: IAMMediaTypeSample::GetMediaType (amstream.h)
-
 description: Note  This interface is deprecated. New applications should not use it. The GetMediaType method retrieves the media type of the sample. If the format has not changed from the previous sample, the sample might not carry a media type.
 old-location: dshow\iammediatypesample_getmediatype.htm
 tech.root: DirectShow
 ms.assetid: 40a2640e-aaeb-44f2-a772-2deda2fd3999
-
 ms.date: 12/05/2018
 ms.keywords: GetMediaType, GetMediaType method [DirectShow], GetMediaType method [DirectShow],IAMMediaTypeSample interface, IAMMediaTypeSample interface [DirectShow],GetMediaType method, IAMMediaTypeSample.GetMediaType, IAMMediaTypeSample::GetMediaType, IAMMediaTypeSampleGetMediaType, amstream/IAMMediaTypeSample::GetMediaType, dshow.iammediatypesample_getmediatype
 ms.topic: method
-f1_keywords: 
- - "amstream/IAMMediaTypeSample.GetMediaType"
+f1_keywords:
+- amstream/IAMMediaTypeSample.GetMediaType
 dev_langs:
- - c++
+- c++
 req.header: amstream.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - amstream.h
+- amstream.h
 api_name:
- - IAMMediaTypeSample.GetMediaType
+- IAMMediaTypeSample.GetMediaType
 targetos: Windows
 req.typenames: 
 req.redist: 

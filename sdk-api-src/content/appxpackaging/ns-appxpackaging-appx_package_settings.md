@@ -1,19 +1,17 @@
 ---
 UID: NS:appxpackaging.APPX_PACKAGE_SETTINGS
 title: APPX_PACKAGE_SETTINGS (appxpackaging.h)
-
 description: Represents package settings used to create a package.
 old-location: appxpkg\appx_package_settings.htm
 tech.root: appxpkg
 ms.assetid: 85874BCD-44EF-4442-96B8-F22AC4247DB4
-
 ms.date: 12/05/2018
 ms.keywords: APPX_PACKAGE_SETTINGS, APPX_PACKAGE_SETTINGS structure [App packaging and management], appxpackaging/APPX_PACKAGE_SETTINGS, appxpkg.appx_package_settings
 ms.topic: struct
-f1_keywords: 
- - "appxpackaging/APPX_PACKAGE_SETTINGS"
+f1_keywords:
+- appxpackaging/APPX_PACKAGE_SETTINGS
 dev_langs:
- - c++
+- c++
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - AppxPackaging.h
+- AppxPackaging.h
 api_name:
- - APPX_PACKAGE_SETTINGS
+- APPX_PACKAGE_SETTINGS
 targetos: Windows
 req.typenames: APPX_PACKAGE_SETTINGS
 req.redist: 

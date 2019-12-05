@@ -1,19 +1,17 @@
 ---
 UID: NS:richedit._findtext
 title: FINDTEXTA (richedit.h)
-
 description: Contains information about a search operation in a rich edit control. This structure is used with the EM_FINDTEXT message.
 old-location: controls\FINDTEXT.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\richeditcontrols\richeditcontrolreference\richeditstructures\findtext.htm
-
 ms.date: 12/05/2018
 ms.keywords: FINDTEXT, FINDTEXT structure [Windows Controls], FINDTEXTA, FINDTEXTW, _win32_FINDTEXT_str, _win32_FINDTEXT_str_cpp, controls.FINDTEXT, controls._win32_FINDTEXT_str, richedit/FINDTEXT, richedit/FINDTEXTA, richedit/FINDTEXTW
 ms.topic: struct
-f1_keywords: 
- - "richedit/FINDTEXT"
+f1_keywords:
+- richedit/FINDTEXT
 dev_langs:
- - c++
+- c++
 req.header: richedit.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Richedit.h
+- Richedit.h
 api_name:
- - FINDTEXT
- - FINDTEXTA
- - FINDTEXTW
+- FINDTEXT
+- FINDTEXTA
+- FINDTEXTW
 targetos: Windows
 req.typenames: FINDTEXTA
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:uianimation.IUIAnimationVariable2.GetTag
 title: IUIAnimationVariable2::GetTag (uianimation.h)
-
 description: Gets the tag of the animation variable.
 old-location: uianimation\iuianimationvariable2_gettag.htm
 tech.root: UIAnimation
 ms.assetid: 29E6CA4D-527D-4C9D-9E28-2E2C67516126
-
 ms.date: 12/05/2018
 ms.keywords: GetTag, GetTag method [Windows Animation], GetTag method [Windows Animation],IUIAnimationVariable2 interface, IUIAnimationVariable2 interface [Windows Animation],GetTag method, IUIAnimationVariable2.GetTag, IUIAnimationVariable2::GetTag, uianimation.iuianimationvariable2_gettag, uianimation/IUIAnimationVariable2::GetTag
 ms.topic: method
-f1_keywords: 
- - "uianimation/IUIAnimationVariable2.GetTag"
+f1_keywords:
+- uianimation/IUIAnimationVariable2.GetTag
 dev_langs:
- - c++
+- c++
 req.header: uianimation.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: UIAnimation.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAnimation.dll
+- UIAnimation.dll
 api_name:
- - IUIAnimationVariable2.GetTag
+- IUIAnimationVariable2.GetTag
 targetos: Windows
 req.typenames: 
 req.redist: 

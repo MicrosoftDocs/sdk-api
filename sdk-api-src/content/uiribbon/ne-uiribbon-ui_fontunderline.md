@@ -1,19 +1,17 @@
 ---
 UID: NE:uiribbon.UI_FONTUNDERLINE
 title: UI_FONTUNDERLINE (uiribbon.h)
-
 description: Specifies values that identify the underline state of a FontControl.
 old-location: windowsribbon\windowsribbon_ui_fontunderline.htm
 tech.root: windowsribbon
 ms.assetid: VS|scenicintent|~\scenicintent\reference\enums\ui_fontunderline.htm
-
 ms.date: 12/05/2018
 ms.keywords: UI_FONTUNDERLINE, UI_FONTUNDERLINE enumeration [Windows Ribbon], UI_FONTUNDERLINE_NOTAVAILABLE, UI_FONTUNDERLINE_NOTSET, UI_FONTUNDERLINE_SET, scenicintent_UI_FONTUNDERLINE, uiribbon/UI_FONTUNDERLINE, uiribbon/UI_FONTUNDERLINE_NOTAVAILABLE, uiribbon/UI_FONTUNDERLINE_NOTSET, uiribbon/UI_FONTUNDERLINE_SET, windowsribbon.windowsribbon_ui_fontunderline
 ms.topic: enum
-f1_keywords: 
- - "uiribbon/UI_FONTUNDERLINE"
+f1_keywords:
+- uiribbon/UI_FONTUNDERLINE
 dev_langs:
- - c++
+- c++
 req.header: uiribbon.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Uiribbon.h
+- Uiribbon.h
 api_name:
- - UI_FONTUNDERLINE
+- UI_FONTUNDERLINE
 targetos: Windows
 req.typenames: UI_FONTUNDERLINE
 req.redist: 

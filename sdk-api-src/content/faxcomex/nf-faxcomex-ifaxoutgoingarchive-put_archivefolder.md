@@ -1,19 +1,17 @@
 ---
 UID: NF:faxcomex.IFaxOutgoingArchive.put_ArchiveFolder
 title: IFaxOutgoingArchive::put_ArchiveFolder (faxcomex.h)
-
 description: The IFaxOutgoingArchive::get_ArchiveFolder property is a null-terminated string that specifies the folder location on the fax server for archived outbound faxes.
 old-location: fax\_mfax_faxoutgoingarchive_cpp_mfax_faxoutgoingarchive_archivefolder_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_4302.htm
-
 ms.date: 12/05/2018
 ms.keywords: ArchiveFolder property [Fax Service], ArchiveFolder property [Fax Service],IFaxOutgoingArchive interface, IFaxOutgoingArchive interface [Fax Service],ArchiveFolder property, IFaxOutgoingArchive.ArchiveFolder, IFaxOutgoingArchive.put_ArchiveFolder, IFaxOutgoingArchive::ArchiveFolder, IFaxOutgoingArchive::get_ArchiveFolder, IFaxOutgoingArchive::put_ArchiveFolder, _mfax_faxoutgoingarchive.archivefolder, fax._mfax_faxoutgoingarchive_archivefolder, fax._mfax_faxoutgoingarchive_cpp_mfax_faxoutgoingarchive_archivefolder_cpp, faxcomex/IFaxOutgoingArchive::ArchiveFolder, faxcomex/IFaxOutgoingArchive::get_ArchiveFolder, faxcomex/IFaxOutgoingArchive::put_ArchiveFolder, put_ArchiveFolder
 ms.topic: method
-f1_keywords: 
- - "faxcomex/IFaxOutgoingArchive.ArchiveFolder"
+f1_keywords:
+- faxcomex/IFaxOutgoingArchive.ArchiveFolder
 dev_langs:
- - c++
+- c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: Fxscomex.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Fxscomex.dll
+- Fxscomex.dll
 api_name:
- - IFaxOutgoingArchive.ArchiveFolder
- - IFaxOutgoingArchive.get_ArchiveFolder
- - IFaxOutgoingArchive.put_ArchiveFolder
+- IFaxOutgoingArchive.ArchiveFolder
+- IFaxOutgoingArchive.get_ArchiveFolder
+- IFaxOutgoingArchive.put_ArchiveFolder
 targetos: Windows
 req.typenames: 
 req.redist: 

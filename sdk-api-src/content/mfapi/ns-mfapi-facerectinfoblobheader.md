@@ -1,19 +1,17 @@
 ---
 UID: NS:mfapi.tagFaceRectInfoBlobHeader
 title: FaceRectInfoBlobHeader (mfapi.h)
-
 description: The FaceRectInfoBlobHeader structure describes the size and count information of the blob format for the MF_CAPTURE_METADATA_FACEROIS attribute.
 old-location: stream\facerectinfoblobheader.htm
 tech.root: stream
 ms.assetid: BDDC33C2-CD2D-4F97-AAD1-DF69250F60B3
-
 ms.date: 12/05/2018
 ms.keywords: FaceRectInfoBlobHeader, FaceRectInfoBlobHeader structure [Streaming Media Devices], mfapi/FaceRectInfoBlobHeader, stream.facerectinfoblobheader
 ms.topic: struct
-f1_keywords: 
- - "mfapi/FaceRectInfoBlobHeader"
+f1_keywords:
+- mfapi/FaceRectInfoBlobHeader
 dev_langs:
- - c++
+- c++
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - mfapi.h
+- mfapi.h
 api_name:
- - FaceRectInfoBlobHeader
+- FaceRectInfoBlobHeader
 targetos: Windows
 req.typenames: FaceRectInfoBlobHeader
 req.redist: 

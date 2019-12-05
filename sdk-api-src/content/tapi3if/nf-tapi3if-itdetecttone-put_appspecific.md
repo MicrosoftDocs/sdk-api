@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi3if.ITDetectTone.put_AppSpecific
 title: ITDetectTone::put_AppSpecific (tapi3if.h)
-
 description: The put_AppSpecific method sets the application-defined tag that identifies the tone to detect.
 old-location: tapi3\itdetecttone_put_appspecific.htm
 tech.root: Tapi
 ms.assetid: 0d008cda-bb01-4249-a0ca-a40d2daacbc4
-
 ms.date: 12/05/2018
 ms.keywords: ITDetectTone interface [TAPI 2.2],put_AppSpecific method, ITDetectTone.put_AppSpecific, ITDetectTone::put_AppSpecific, _tapi3_itdetecttone_put_appspecific, put_AppSpecific, put_AppSpecific method [TAPI 2.2], put_AppSpecific method [TAPI 2.2],ITDetectTone interface, tapi3.itdetecttone_put_appspecific, tapi3if/ITDetectTone::put_AppSpecific
 ms.topic: method
-f1_keywords: 
- - "tapi3if/ITDetectTone.put_AppSpecific"
+f1_keywords:
+- tapi3if/ITDetectTone.put_AppSpecific
 dev_langs:
- - c++
+- c++
 req.header: tapi3if.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Tapi3.dll
+- Tapi3.dll
 api_name:
- - ITDetectTone.put_AppSpecific
+- ITDetectTone.put_AppSpecific
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:webservices.WsSetOutputToBuffer
 title: WsSetOutputToBuffer function (webservices.h)
-
 description: This operation positions the Writer at the end of the specified buffer.
 old-location: wsw\wssetoutputtobuffer.htm
 tech.root: wsw
 ms.assetid: b969700d-7145-45eb-ad4b-c6e643975709
-
 ms.date: 12/05/2018
 ms.keywords: WsSetOutputToBuffer, WsSetOutputToBuffer function [Web Services for Windows], webservices/WsSetOutputToBuffer, wsw.wssetoutputtobuffer
 ms.topic: function
-f1_keywords: 
- - "webservices/WsSetOutputToBuffer"
+f1_keywords:
+- webservices/WsSetOutputToBuffer
 dev_langs:
- - c++
+- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: WebServices.lib
 req.dll: WebServices.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - WebServices.dll
+- WebServices.dll
 api_name:
- - WsSetOutputToBuffer
+- WsSetOutputToBuffer
 targetos: Windows
 req.typenames: 
 req.redist: 

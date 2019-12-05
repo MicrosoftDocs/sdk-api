@@ -1,19 +1,17 @@
 ---
 UID: NF:directxmath.XMMATRIX.XMMATRIX(const XMMATRIX &)
 title: XMMATRIX::XMMATRIX(const XMMATRIX &) (directxmath.h)
-
 description: A constructor for XMMATRIX.
 old-location: 
 tech.root: dxmath
 ms.assetid: 
-
 ms.date: 05/13/2019
 ms.keywords: XMMATRIX, XMMATRIX constructor [DirectX Math Support APIs], XMMATRIX constructor [DirectX Math Support APIs],XMMATRIX structure, XMMATRIX structure [DirectX Math Support APIs],XMMATRIX constructor, XMMATRIX.XMMATRIX, XMMATRIX.XMMATRIX(), XMMATRIX.XMMATRIX(const XMMATRIX &), XMMATRIX::XMMATRIX, XMMATRIX::XMMATRIX(const XMMATRIX &), dxmath.xmmatrix_ctor_1
 ms.topic: method
-f1_keywords: 
- - "directxmath/XMMATRIX.XMMATRIX"
+f1_keywords:
+- directxmath/XMMATRIX.XMMATRIX
 dev_langs:
- - c++
+- c++
 req.header: directxmath.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - DirectXMath.h
+- DirectXMath.h
 api_name:
- - XMMATRIX.XMMATRIX
+- XMMATRIX.XMMATRIX
 targetos: Windows
 req.typenames: 
 req.redist: 

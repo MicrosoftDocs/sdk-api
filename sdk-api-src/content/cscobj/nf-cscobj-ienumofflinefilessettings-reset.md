@@ -1,19 +1,17 @@
 ---
 UID: NF:cscobj.IEnumOfflineFilesSettings.Reset
 title: IEnumOfflineFilesSettings::Reset (cscobj.h)
-
 description: Resets the enumeration to the beginning.
 old-location: of\ienumofflinefilessettings_reset.htm
 tech.root: offlinefiles
 ms.assetid: 2814c63c-104a-4c19-b458-f7ce2ff51fa3
-
 ms.date: 12/05/2018
 ms.keywords: IEnumOfflineFilesSettings interface [Offline Files],Reset method, IEnumOfflineFilesSettings.Reset, IEnumOfflineFilesSettings::Reset, Reset, Reset method [Offline Files], Reset method [Offline Files],IEnumOfflineFilesSettings interface, cscobj/IEnumOfflineFilesSettings::Reset, of.ienumofflinefilessettings_reset
 ms.topic: method
-f1_keywords: 
- - "cscobj/IEnumOfflineFilesSettings.Reset"
+f1_keywords:
+- cscobj/IEnumOfflineFilesSettings.Reset
 dev_langs:
- - c++
+- c++
 req.header: cscobj.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: CscSvc.dll; CscObj.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CscSvc.dll
- - CscObj.dll
+- CscSvc.dll
+- CscObj.dll
 api_name:
- - IEnumOfflineFilesSettings.Reset
+- IEnumOfflineFilesSettings.Reset
 targetos: Windows
 req.typenames: 
 req.redist: 

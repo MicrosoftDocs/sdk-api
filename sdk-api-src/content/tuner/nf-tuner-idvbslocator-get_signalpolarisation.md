@@ -1,19 +1,17 @@
 ---
 UID: NF:tuner.IDVBSLocator.get_SignalPolarisation
 title: IDVBSLocator::get_SignalPolarisation (tuner.h)
-
 description: The get_SignalPolarisation method retrieves the signal polarisation.
 old-location: mstv\idvbslocator_get_signalpolarisation.htm
 tech.root: mstv
 ms.assetid: adb9d7b6-5876-4b3f-9d82-f5e740feb1eb
-
 ms.date: 12/05/2018
 ms.keywords: IDVBSLocator interface [Microsoft TV Technologies],get_SignalPolarisation method, IDVBSLocator.get_SignalPolarisation, IDVBSLocator::get_SignalPolarisation, IDVBSLocatorget_SignalPolarisation, get_SignalPolarisation, get_SignalPolarisation method [Microsoft TV Technologies], get_SignalPolarisation method [Microsoft TV Technologies],IDVBSLocator interface, mstv.idvbslocator_get_signalpolarisation, tuner/IDVBSLocator::get_SignalPolarisation
 ms.topic: method
-f1_keywords: 
- - "tuner/IDVBSLocator.get_SignalPolarisation"
+f1_keywords:
+- tuner/IDVBSLocator.get_SignalPolarisation
 dev_langs:
- - c++
+- c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - tuner.h
+- tuner.h
 api_name:
- - IDVBSLocator.get_SignalPolarisation
+- IDVBSLocator.get_SignalPolarisation
 targetos: Windows
 req.typenames: 
 req.redist: 

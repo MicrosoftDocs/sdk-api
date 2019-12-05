@@ -1,19 +1,17 @@
 ---
 UID: NF:fsrmpipeline.IFsrmPropertyBag.SetFileProperty
 title: IFsrmPropertyBag::SetFileProperty (fsrmpipeline.h)
-
 description: Sets the specified property in the property bag.
 old-location: fsrm\ifsrmpropertybag_setfileproperty.htm
 tech.root: fsrm
 ms.assetid: d3322907-c832-49ef-bf21-2e4581251a88
-
 ms.date: 12/05/2018
 ms.keywords: IFsrmPropertyBag interface [File Server Resource Manager],SetFileProperty method, IFsrmPropertyBag.SetFileProperty, IFsrmPropertyBag::SetFileProperty, SetFileProperty, SetFileProperty method [File Server Resource Manager], SetFileProperty method [File Server Resource Manager],IFsrmPropertyBag interface, fs.ifsrmpropertybag_setfileproperty, fsrm.ifsrmpropertybag_setfileproperty, fsrmpipeline/IFsrmPropertyBag::SetFileProperty
 ms.topic: method
-f1_keywords: 
- - "fsrmpipeline/IFsrmPropertyBag.SetFileProperty"
+f1_keywords:
+- fsrmpipeline/IFsrmPropertyBag.SetFileProperty
 dev_langs:
- - c++
+- c++
 req.header: fsrmpipeline.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: SrmSvc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - SrmSvc.dll
+- SrmSvc.dll
 api_name:
- - IFsrmPropertyBag.SetFileProperty
+- IFsrmPropertyBag.SetFileProperty
 targetos: Windows
 req.typenames: 
 req.redist: 

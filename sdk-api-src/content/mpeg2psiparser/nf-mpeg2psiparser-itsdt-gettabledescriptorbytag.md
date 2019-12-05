@@ -1,19 +1,17 @@
 ---
 UID: NF:mpeg2psiparser.ITSDT.GetTableDescriptorByTag
 title: ITSDT::GetTableDescriptorByTag (mpeg2psiparser.h)
-
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005.
 old-location: mstv\itsdt_gettabledescriptorbytag.htm
 tech.root: mstv
 ms.assetid: cb2f544b-02fd-4a48-838f-56815710a5bd
-
 ms.date: 12/05/2018
 ms.keywords: GetTableDescriptorByTag, GetTableDescriptorByTag method [Microsoft TV Technologies], GetTableDescriptorByTag method [Microsoft TV Technologies],ITSDT interface, ITSDT interface [Microsoft TV Technologies],GetTableDescriptorByTag method, ITSDT.GetTableDescriptorByTag, ITSDT::GetTableDescriptorByTag, ITSDTGetTableDescriptorByTag, mpeg2psiparser/ITSDT::GetTableDescriptorByTag, mstv.itsdt_gettabledescriptorbytag
 ms.topic: method
-f1_keywords: 
- - "mpeg2psiparser/ITSDT.GetTableDescriptorByTag"
+f1_keywords:
+- mpeg2psiparser/ITSDT.GetTableDescriptorByTag
 dev_langs:
- - c++
+- c++
 req.header: mpeg2psiparser.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mpeg2PsiParser.h
+- Mpeg2PsiParser.h
 api_name:
- - ITSDT.GetTableDescriptorByTag
+- ITSDT.GetTableDescriptorByTag
 targetos: Windows
 req.typenames: 
 req.redist: 

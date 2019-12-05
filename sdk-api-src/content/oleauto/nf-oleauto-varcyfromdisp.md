@@ -1,19 +1,17 @@
 ---
 UID: NF:oleauto.VarCyFromDisp
 title: VarCyFromDisp function (oleauto.h)
-
 description: Converts the default property of an IDispatch instance to a currency value.
 old-location: automat\varcyfromdisp.htm
 tech.root: automat
 ms.assetid: 197f2169-2d32-429e-a338-717e7bf43d1e
-
 ms.date: 12/05/2018
 ms.keywords: VarCyFromDisp, VarCyFromDisp function [Automation], _oa96_VarCyFromDisp, automat.varcyfromdisp, oleauto/VarCyFromDisp
 ms.topic: function
-f1_keywords: 
- - "oleauto/VarCyFromDisp"
+f1_keywords:
+- oleauto/VarCyFromDisp
 dev_langs:
- - c++
+- c++
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: OleAut32.lib
 req.dll: OleAut32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - OleAut32.dll
+- OleAut32.dll
 api_name:
- - VarCyFromDisp
+- VarCyFromDisp
 targetos: Windows
 req.typenames: 
 req.redist: 

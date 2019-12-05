@@ -1,19 +1,17 @@
 ---
 UID: NF:dvbsiparser.IIsdbSIParameterDescriptor.GetTableDescriptionLength
 title: IIsdbSIParameterDescriptor::GetTableDescriptionLength (dvbsiparser.h)
-
 description: Gets the body length of a table descriptor in a service information (SI) parameter descriptor.
 old-location: mstv\iisdbsiparameterdescriptor_gettabledescriptionlength.htm
 tech.root: mstv
 ms.assetid: 3dc78381-ac39-4e88-bfe2-bfb91c993576
-
 ms.date: 12/05/2018
 ms.keywords: GetTableDescriptionLength, GetTableDescriptionLength method [Microsoft TV Technologies], GetTableDescriptionLength method [Microsoft TV Technologies],IIsdbSIParameterDescriptor interface, IIsdbSIParameterDescriptor interface [Microsoft TV Technologies],GetTableDescriptionLength method, IIsdbSIParameterDescriptor.GetTableDescriptionLength, IIsdbSIParameterDescriptor::GetTableDescriptionLength, dvbsiparser/IIsdbSIParameterDescriptor::GetTableDescriptionLength, mstv.iisdbsiparameterdescriptor_gettabledescriptionlength
 ms.topic: method
-f1_keywords: 
- - "dvbsiparser/IIsdbSIParameterDescriptor.GetTableDescriptionLength"
+f1_keywords:
+- dvbsiparser/IIsdbSIParameterDescriptor.GetTableDescriptionLength
 dev_langs:
- - c++
+- c++
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dvbsiparser.h
+- dvbsiparser.h
 api_name:
- - IIsdbSIParameterDescriptor.GetTableDescriptionLength
+- IIsdbSIParameterDescriptor.GetTableDescriptionLength
 targetos: Windows
 req.typenames: 
 req.redist: 

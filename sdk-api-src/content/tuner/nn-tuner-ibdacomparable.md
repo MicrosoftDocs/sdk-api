@@ -1,19 +1,17 @@
 ---
 UID: NN:tuner.IBDAComparable
 title: IBDAComparable (tuner.h)
-
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\ibdacomparable.htm
 tech.root: mstv
 ms.assetid: 6f582ae2-d8c6-4d85-a01f-e98c6ee16021
-
 ms.date: 12/05/2018
 ms.keywords: IBDAComparable, IBDAComparable interface [Microsoft TV Technologies], IBDAComparable interface [Microsoft TV Technologies],described, IBDAComparableInterface, mstv.ibdacomparable, tuner/IBDAComparable
 ms.topic: interface
-f1_keywords: 
- - "tuner/IBDAComparable"
+f1_keywords:
+- tuner/IBDAComparable
 dev_langs:
- - c++
+- c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - tuner.h
+- tuner.h
 api_name:
- - IBDAComparable
+- IBDAComparable
 targetos: Windows
 req.typenames: 
 req.redist: 

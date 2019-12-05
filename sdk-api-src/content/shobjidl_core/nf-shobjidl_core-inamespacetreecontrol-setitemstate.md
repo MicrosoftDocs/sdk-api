@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.INameSpaceTreeControl.SetItemState
 title: INameSpaceTreeControl::SetItemState (shobjidl_core.h)
-
 description: Sets state information for a Shell item.
 old-location: shell\INameSpaceTreeControl_SetItemState.htm
 tech.root: shell
 ms.assetid: f57c5abc-0803-409d-9938-3826f9d8058d
-
 ms.date: 12/05/2018
 ms.keywords: INameSpaceTreeControl interface [Windows Shell],SetItemState method, INameSpaceTreeControl.SetItemState, INameSpaceTreeControl::SetItemState, SetItemState, SetItemState method [Windows Shell], SetItemState method [Windows Shell],INameSpaceTreeControl interface, _shell_INameSpaceTreeControl_SetItemState, shell.INameSpaceTreeControl_SetItemState, shobjidl_core/INameSpaceTreeControl::SetItemState
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/INameSpaceTreeControl.SetItemState"
+f1_keywords:
+- shobjidl_core/INameSpaceTreeControl.SetItemState
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - INameSpaceTreeControl.SetItemState
+- INameSpaceTreeControl.SetItemState
 targetos: Windows
 req.typenames: 
 req.redist: 

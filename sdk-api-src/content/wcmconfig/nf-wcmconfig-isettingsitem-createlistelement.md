@@ -1,19 +1,17 @@
 ---
 UID: NF:wcmconfig.ISettingsItem.CreateListElement
 title: ISettingsItem::CreateListElement (wcmconfig.h)
-
 description: Creates a new list element.
 old-location: smi\isettingsitem_createlistelement.htm
 tech.root: SMI
 ms.assetid: c18fd849-aaa5-49d0-9e72-b3134a6f2be8
-
 ms.date: 12/05/2018
 ms.keywords: CreateListElement, CreateListElement method [SMI], CreateListElement method [SMI],ISettingsItem interface, ISettingsItem interface [SMI],CreateListElement method, ISettingsItem.CreateListElement, ISettingsItem::CreateListElement, smi.isettingsitem_createlistelement, wcmconfig/ISettingsItem::CreateListElement
 ms.topic: method
-f1_keywords: 
- - "wcmconfig/ISettingsItem.CreateListElement"
+f1_keywords:
+- wcmconfig/ISettingsItem.CreateListElement
 dev_langs:
- - c++
+- c++
 req.header: wcmconfig.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: SMIEngine.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - SMIEngine.dll
+- SMIEngine.dll
 api_name:
- - ISettingsItem.CreateListElement
+- ISettingsItem.CreateListElement
 targetos: Windows
 req.typenames: 
 req.redist: 

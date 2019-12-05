@@ -1,19 +1,17 @@
 ---
 UID: NF:xenroll.IEnroll2.EnumAlgs
 title: IEnroll2::EnumAlgs (xenroll.h)
-
 description: Retrieves the IDs of cryptographic algorithms in a given algorithm class that are supported by the current cryptographic service provider (CSP).
 old-location: security\ienroll4_enumalgs.htm
 tech.root: SecCrypto
 ms.assetid: a40d85d0-fd02-4e0a-af7d-dfefe02f4e2a
-
 ms.date: 12/05/2018
 ms.keywords: EnumAlgs, EnumAlgs method [Security], EnumAlgs method [Security],IEnroll2 interface, IEnroll2 interface [Security],EnumAlgs method, IEnroll2.EnumAlgs, IEnroll2::EnumAlgs, security.ienroll4_enumalgs, xenroll/IEnroll2::EnumAlgs
 ms.topic: method
-f1_keywords: 
- - "xenroll/IEnroll2.EnumAlgs"
+f1_keywords:
+- xenroll/IEnroll2.EnumAlgs
 dev_langs:
- - c++
+- c++
 req.header: xenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Xenroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Xenroll.dll
+- Xenroll.dll
 api_name:
- - IEnroll2.EnumAlgs
+- IEnroll2.EnumAlgs
 targetos: Windows
 req.typenames: 
 req.redist: 

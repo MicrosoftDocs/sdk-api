@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl.IDragSourceHelper2.SetFlags
 title: IDragSourceHelper2::SetFlags (shobjidl.h)
-
 description: Sets the characteristics of a drag-and-drop operation over an IDragSourceHelper object.
 old-location: shell\IDragSourceHelper2_SetFlags.htm
 tech.root: shell
 ms.assetid: 1fe9b753-5ac1-4b6f-9538-5259870404ec
-
 ms.date: 12/05/2018
 ms.keywords: DSH_ALLOWDROPDESCRIPTIONTEXT, IDragSourceHelper2 interface [Windows Shell],SetFlags method, IDragSourceHelper2.SetFlags, IDragSourceHelper2::SetFlags, SetFlags, SetFlags method [Windows Shell], SetFlags method [Windows Shell],IDragSourceHelper2 interface, _shell_IDragSourceHelper2_SetFlags, shell.IDragSourceHelper2_SetFlags, shobjidl/IDragSourceHelper2::SetFlags
 ms.topic: method
-f1_keywords: 
- - "shobjidl/IDragSourceHelper2.SetFlags"
+f1_keywords:
+- shobjidl/IDragSourceHelper2.SetFlags
 dev_langs:
- - c++
+- c++
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Shell32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - IDragSourceHelper2.SetFlags
+- IDragSourceHelper2.SetFlags
 targetos: Windows
 req.typenames: 
 req.redist: 

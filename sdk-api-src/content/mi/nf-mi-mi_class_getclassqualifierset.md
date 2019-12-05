@@ -1,19 +1,17 @@
 ---
 UID: NF:mi.MI_Class_GetClassQualifierSet
 title: MI_Class_GetClassQualifierSet function (mi.h)
-
 description: Gets the qualifier set that is associated with the specified class object.
 old-location: wmi_v2\mi_class_getclassqualifierset.htm
 tech.root: wmi_v2
 ms.assetid: 900ae879-a728-43a9-8dcb-de20a50f8dce
-
 ms.date: 12/05/2018
 ms.keywords: MI_Class_GetClassQualifierSet, MI_Class_GetClassQualifierSet function [Windows Management Infrastructure (MI)], mi/MI_Class_GetClassQualifierSet, wmi_v2.mi_class_getclassqualifierset
 ms.topic: function
-f1_keywords: 
- - "mi/MI_Class_GetClassQualifierSet"
+f1_keywords:
+- mi/MI_Class_GetClassQualifierSet
 dev_langs:
- - c++
+- c++
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Mi.h
+- Mi.h
 api_name:
- - MI_Class_GetClassQualifierSet
+- MI_Class_GetClassQualifierSet
 targetos: Windows
 req.typenames: 
 req.redist: Windows Management Framework 3.0 on Windows Server 2008 R2 with SP1, Windows 7 with SP1, and Windows Server 2008 with SP2

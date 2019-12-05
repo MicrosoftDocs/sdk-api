@@ -1,19 +1,17 @@
 ---
 UID: NF:winuser.SetThreadDesktop
 title: SetThreadDesktop function (winuser.h)
-
 description: Assigns the specified desktop to the calling thread. All subsequent operations on the desktop use the access rights granted to the desktop.
 old-location: winstation\setthreaddesktop.htm
 tech.root: winstation
 ms.assetid: 619c591f-54b7-4b61-aa07-fc57e05ee37a
-
 ms.date: 12/05/2018
 ms.keywords: SetThreadDesktop, SetThreadDesktop function [Windows Stations and Desktops], _win32_setthreaddesktop, base.setthreaddesktop, winstation.setthreaddesktop, winuser/SetThreadDesktop
 ms.topic: function
-f1_keywords: 
- - "winuser/SetThreadDesktop"
+f1_keywords:
+- winuser/SetThreadDesktop
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - User32.dll
- - API-MS-Win-RTCore-NTUser-WindowStation-l1-1-0.dll
- - Ext-MS-Win-NTUser-Windowstation-l1-1-0.dll
- - Ext-MS-Win-NTUser-Windowstation-l1-1-1.dll
- - Ext-MS-Win-NTUser-WindowStation-L1-1-2.dll
+- User32.dll
+- API-MS-Win-RTCore-NTUser-WindowStation-l1-1-0.dll
+- Ext-MS-Win-NTUser-Windowstation-l1-1-0.dll
+- Ext-MS-Win-NTUser-Windowstation-l1-1-1.dll
+- Ext-MS-Win-NTUser-WindowStation-L1-1-2.dll
 api_name:
- - SetThreadDesktop
+- SetThreadDesktop
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:winsxs.IAssemblyName.Clone
 title: IAssemblyName::Clone (winsxs.h)
-
 description: The Clone method copies the current side-by-side assembly name to a new instance of IAssemblyName.
 old-location: setup\iassemblyname_clone.htm
 tech.root: SbsCs
 ms.assetid: 5096b7de-e53d-49fa-bb43-16d768787b4e
-
 ms.date: 12/05/2018
 ms.keywords: Clone, Clone method [Side-by-side Assemblies], Clone method [Side-by-side Assemblies],IAssemblyName interface, IAssemblyName interface [Side-by-side Assemblies],Clone method, IAssemblyName.Clone, IAssemblyName::Clone, setup.iassemblyname_clone, winsxs/IAssemblyName::Clone
 ms.topic: method
-f1_keywords: 
- - "winsxs/IAssemblyName.Clone"
+f1_keywords:
+- winsxs/IAssemblyName.Clone
 dev_langs:
- - c++
+- c++
 req.header: winsxs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Sxs.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - sxs.dll
+- sxs.dll
 api_name:
- - IAssemblyName.Clone
+- IAssemblyName.Clone
 targetos: Windows
 req.typenames: 
 req.redist: 

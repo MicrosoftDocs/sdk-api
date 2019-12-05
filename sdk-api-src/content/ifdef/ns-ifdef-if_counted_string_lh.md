@@ -1,19 +1,17 @@
 ---
 UID: NS:ifdef._IF_COUNTED_STRING_LH
 title: IF_COUNTED_STRING_LH (ifdef.h)
-
 description: The IF_COUNTED_STRING structure specifies a counted string for NDIS interfaces.
 old-location: netvista\if_counted_string.htm
 tech.root: NetVista
 ms.assetid: 44B59154-C5CA-42F0-A972-021833E29D81
-
 ms.date: 12/05/2018
-ms.keywords: "*PIF_COUNTED_STRING, *PIF_COUNTED_STRING_LH, IF_COUNTED_STRING, IF_COUNTED_STRING structure [Network Drivers Starting with Windows Vista], IF_COUNTED_STRING_LH, PIF_COUNTED_STRING, PIF_COUNTED_STRING structure pointer [Network Drivers Starting with Windows Vista], ifdef/IF_COUNTED_STRING, ifdef/PIF_COUNTED_STRING, netvista.if_counted_string"
+ms.keywords: '*PIF_COUNTED_STRING, *PIF_COUNTED_STRING_LH, IF_COUNTED_STRING, IF_COUNTED_STRING structure [Network Drivers Starting with Windows Vista], IF_COUNTED_STRING_LH, PIF_COUNTED_STRING, PIF_COUNTED_STRING structure pointer [Network Drivers Starting with Windows Vista], ifdef/IF_COUNTED_STRING, ifdef/PIF_COUNTED_STRING, netvista.if_counted_string'
 ms.topic: struct
-f1_keywords: 
- - "ifdef/IF_COUNTED_STRING"
+f1_keywords:
+- ifdef/IF_COUNTED_STRING
 dev_langs:
- - c++
+- c++
 req.header: ifdef.h
 req.include-header: Ntddndis.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Ifdef.h
+- Ifdef.h
 api_name:
- - IF_COUNTED_STRING
+- IF_COUNTED_STRING
 targetos: Windows
 req.typenames: IF_COUNTED_STRING_LH, *PIF_COUNTED_STRING_LH
 req.redist: 

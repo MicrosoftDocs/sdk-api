@@ -1,19 +1,17 @@
 ---
 UID: NF:winsnmp.SnmpCancelMsg
 title: SnmpCancelMsg function (winsnmp.h)
-
 description: A WinSNMP application calls the SnmpCancelMsg function to request that the Microsoft WinSNMP implementation cancel retransmission attempts and time-out notifications for an SNMP request message.
 old-location: snmp\snmpcancelmsg.htm
 tech.root: SNMP
 ms.assetid: 018ad1b6-6f59-4c5d-813b-734ec8ced28a
-
 ms.date: 12/05/2018
 ms.keywords: SnmpCancelMsg, SnmpCancelMsg function [SNMP], _snmp_snmpcancelmsg, snmp.snmpcancelmsg, winsnmp/SnmpCancelMsg
 ms.topic: function
-f1_keywords: 
- - "winsnmp/SnmpCancelMsg"
+f1_keywords:
+- winsnmp/SnmpCancelMsg
 dev_langs:
- - c++
+- c++
 req.header: winsnmp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Wsnmp32.lib
 req.dll: Wsnmp32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Wsnmp32.dll
+- Wsnmp32.dll
 api_name:
- - SnmpCancelMsg
+- SnmpCancelMsg
 targetos: Windows
 req.typenames: 
 req.redist: 

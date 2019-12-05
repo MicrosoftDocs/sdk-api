@@ -1,19 +1,17 @@
 ---
 UID: NF:mfidl.IMFByteStreamCacheControl.StopBackgroundTransfer
 title: IMFByteStreamCacheControl::StopBackgroundTransfer (mfidl.h)
-
 description: Stops the background transfer of data to the local cache.
 old-location: mf\imfbytestreamcachecontrol_stopbackgroundtransfer.htm
 tech.root: medfound
 ms.assetid: 9f0f7102-c839-4e92-a798-5ea31ceba013
-
 ms.date: 12/05/2018
 ms.keywords: IMFByteStreamCacheControl interface [Media Foundation],StopBackgroundTransfer method, IMFByteStreamCacheControl.StopBackgroundTransfer, IMFByteStreamCacheControl::StopBackgroundTransfer, StopBackgroundTransfer, StopBackgroundTransfer method [Media Foundation], StopBackgroundTransfer method [Media Foundation],IMFByteStreamCacheControl interface, mf.imfbytestreamcachecontrol_stopbackgroundtransfer, mfidl/IMFByteStreamCacheControl::StopBackgroundTransfer
 ms.topic: method
-f1_keywords: 
- - "mfidl/IMFByteStreamCacheControl.StopBackgroundTransfer"
+f1_keywords:
+- mfidl/IMFByteStreamCacheControl.StopBackgroundTransfer
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfidl.h
+- mfidl.h
 api_name:
- - IMFByteStreamCacheControl.StopBackgroundTransfer
+- IMFByteStreamCacheControl.StopBackgroundTransfer
 targetos: Windows
 req.typenames: 
 req.redist: 

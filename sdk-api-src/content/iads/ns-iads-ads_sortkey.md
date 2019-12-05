@@ -1,19 +1,17 @@
 ---
 UID: NS:iads._ads_sortkey
 title: ADS_SORTKEY (iads.h)
-
 description: The ADS_SORTKEY structure specifies how to sort a query.
 old-location: adsi\ads_sortkey.htm
 tech.root: adsi
 ms.assetid: e4fe499a-4f81-4b92-bf50-b4124ae6e4a3
-
 ms.date: 12/05/2018
-ms.keywords: "*PADS_SORTKEY, ADS_SORTKEY, ADS_SORTKEY structure [ADSI], PADS_SORTKEY, PADS_SORTKEY structure pointer [ADSI], _ds_ads_sortkey, adsi.ads__sortkey, adsi.ads_sortkey, iads/ADS_SORTKEY, iads/PADS_SORTKEY"
+ms.keywords: '*PADS_SORTKEY, ADS_SORTKEY, ADS_SORTKEY structure [ADSI], PADS_SORTKEY, PADS_SORTKEY structure pointer [ADSI], _ds_ads_sortkey, adsi.ads__sortkey, adsi.ads_sortkey, iads/ADS_SORTKEY, iads/PADS_SORTKEY'
 ms.topic: struct
-f1_keywords: 
- - "iads/ADS_SORTKEY"
+f1_keywords:
+- iads/ADS_SORTKEY
 dev_langs:
- - c++
+- c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Iads.h
+- Iads.h
 api_name:
- - ADS_SORTKEY
+- ADS_SORTKEY
 targetos: Windows
 req.typenames: ADS_SORTKEY, *PADS_SORTKEY
 req.redist: 

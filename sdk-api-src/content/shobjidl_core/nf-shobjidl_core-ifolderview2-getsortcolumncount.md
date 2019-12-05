@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IFolderView2.GetSortColumnCount
 title: IFolderView2::GetSortColumnCount (shobjidl_core.h)
-
 description: Gets the count of sort columns currently applied to the view.
 old-location: shell\IFolderView2_GetSortColumnCount.htm
 tech.root: shell
 ms.assetid: 26590565-f992-4f14-bbbc-4099a1a3ac11
-
 ms.date: 12/05/2018
 ms.keywords: GetSortColumnCount, GetSortColumnCount method [Windows Shell], GetSortColumnCount method [Windows Shell],IFolderView2 interface, IFolderView2 interface [Windows Shell],GetSortColumnCount method, IFolderView2.GetSortColumnCount, IFolderView2::GetSortColumnCount, _shell_IFolderView2_GetSortColumnCount, shell.IFolderView2_GetSortColumnCount, shobjidl_core/IFolderView2::GetSortColumnCount
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IFolderView2.GetSortColumnCount"
+f1_keywords:
+- shobjidl_core/IFolderView2.GetSortColumnCount
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - IFolderView2.GetSortColumnCount
+- IFolderView2.GetSortColumnCount
 targetos: Windows
 req.typenames: 
 req.redist: 

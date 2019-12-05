@@ -1,19 +1,17 @@
 ---
 UID: NF:uianimation.IUIAnimationTransitionLibrary.CreateConstantTransition
 title: IUIAnimationTransitionLibrary::CreateConstantTransition (uianimation.h)
-
 description: Creates a constant transition.
 old-location: uianimation\iuianimationtransitionlibrary_createconstanttransition.htm
 tech.root: UIAnimation
 ms.assetid: d9ad2c2d-8bcd-4730-86da-9b9432ac5b93
-
 ms.date: 12/05/2018
 ms.keywords: CreateConstantTransition, CreateConstantTransition method [Windows Animation], CreateConstantTransition method [Windows Animation],IUIAnimationTransitionLibrary interface, IUIAnimationTransitionLibrary interface [Windows Animation],CreateConstantTransition method, IUIAnimationTransitionLibrary.CreateConstantTransition, IUIAnimationTransitionLibrary::CreateConstantTransition, uianimation.iuianimationtransitionlibrary_createconstanttransition, uianimation/IUIAnimationTransitionLibrary::CreateConstantTransition
 ms.topic: method
-f1_keywords: 
- - "uianimation/IUIAnimationTransitionLibrary.CreateConstantTransition"
+f1_keywords:
+- uianimation/IUIAnimationTransitionLibrary.CreateConstantTransition
 dev_langs:
- - c++
+- c++
 req.header: uianimation.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: UIAnimation.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAnimation.dll
+- UIAnimation.dll
 api_name:
- - IUIAnimationTransitionLibrary.CreateConstantTransition
+- IUIAnimationTransitionLibrary.CreateConstantTransition
 targetos: Windows
 req.typenames: 
 req.redist: 

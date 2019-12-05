@@ -1,19 +1,17 @@
 ---
 UID: NF:wmsdkidl.IWMWriterFileSink3.GetMode
 title: IWMWriterFileSink3::GetMode (wmsdkidl.h)
-
 description: The GetMode method retrieves the supported file sink mode. More than one mode can be supported.
 old-location: wmformat\iwmwriterfilesink3_getmode.htm
 tech.root: wmformat
 ms.assetid: a8a7003e-e59f-451c-9f45-75d6d094a03b
-
 ms.date: 12/05/2018
 ms.keywords: GetMode, GetMode method [windows Media Format], GetMode method [windows Media Format],IWMWriterFileSink3 interface, IWMWriterFileSink3 interface [windows Media Format],GetMode method, IWMWriterFileSink3.GetMode, IWMWriterFileSink3::GetMode, IWMWriterFileSink3GetMode, wmformat.iwmwriterfilesink3_getmode, wmsdkidl/IWMWriterFileSink3::GetMode
 ms.topic: method
-f1_keywords: 
- - "wmsdkidl/IWMWriterFileSink3.GetMode"
+f1_keywords:
+- wmsdkidl/IWMWriterFileSink3.GetMode
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wmvcore.lib
- - Wmvcore.dll
- - WMStubDRM.lib
- - WMStubDRM.dll
+- Wmvcore.lib
+- Wmvcore.dll
+- WMStubDRM.lib
+- WMStubDRM.dll
 api_name:
- - IWMWriterFileSink3.GetMode
+- IWMWriterFileSink3.GetMode
 targetos: Windows
 req.typenames: 
 req.redist: 

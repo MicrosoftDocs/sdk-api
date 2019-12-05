@@ -1,19 +1,17 @@
 ---
 UID: NF:powrprof.IsPwrSuspendAllowed
 title: IsPwrSuspendAllowed function (powrprof.h)
-
 description: Determines whether the computer supports the sleep states.
 old-location: base\ispwrsuspendallowed.htm
 tech.root: power
 ms.assetid: 66ef2402-b1b8-432e-b47d-240d255fc907
-
 ms.date: 12/05/2018
 ms.keywords: IsPwrSuspendAllowed, IsPwrSuspendAllowed function, _win32_ispwrsuspendallowed, base.ispwrsuspendallowed, powrprof/IsPwrSuspendAllowed
 ms.topic: function
-f1_keywords: 
- - "powrprof/IsPwrSuspendAllowed"
+f1_keywords:
+- powrprof/IsPwrSuspendAllowed
 dev_langs:
- - c++
+- c++
 req.header: powrprof.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: PowrProf.lib
 req.dll: PowrProf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - PowrProf.dll
+- PowrProf.dll
 api_name:
- - IsPwrSuspendAllowed
+- IsPwrSuspendAllowed
 targetos: Windows
 req.typenames: 
 req.redist: 

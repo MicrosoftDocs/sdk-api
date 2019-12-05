@@ -1,19 +1,17 @@
 ---
 UID: NF:mfobjects.IMFSample.GetBufferCount
 title: IMFSample::GetBufferCount (mfobjects.h)
-
 description: Retrieves the number of buffers in the sample.
 old-location: mf\imfsample_getbuffercount.htm
 tech.root: medfound
 ms.assetid: fe05e870-298b-44bf-90b7-70be40d045ab
-
 ms.date: 12/05/2018
 ms.keywords: GetBufferCount, GetBufferCount method [Media Foundation], GetBufferCount method [Media Foundation],IMFSample interface, IMFSample interface [Media Foundation],GetBufferCount method, IMFSample.GetBufferCount, IMFSample::GetBufferCount, fe05e870-298b-44bf-90b7-70be40d045ab, mf.imfsample_getbuffercount, mfobjects/IMFSample::GetBufferCount
 ms.topic: method
-f1_keywords: 
- - "mfobjects/IMFSample.GetBufferCount"
+f1_keywords:
+- mfobjects/IMFSample.GetBufferCount
 dev_langs:
- - c++
+- c++
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFSample.GetBufferCount
+- IMFSample.GetBufferCount
 targetos: Windows
 req.typenames: 
 req.redist: 

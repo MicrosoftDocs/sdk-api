@@ -1,19 +1,17 @@
 ---
 UID: NF:directxmath.XMVector2Transform
 title: XMVector2Transform function (directxmath.h)
-
 description: Transforms a 2D vector by a matrix.
 old-location: dxmath\xmvector2transform.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.transformation.XMVector2Transform(XMVECTOR,XMMATRIX)
-
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMVector2Transform, XMVector2Transform, XMVector2Transform method [DirectX Math Support APIs], dxmath.xmvector2transform
 ms.topic: function
-f1_keywords: 
- - "directxmath/XMVector2Transform"
+f1_keywords:
+- directxmath/XMVector2Transform
 dev_langs:
- - c++
+- c++
 req.header: directxmath.h
 req.include-header: DirectXMath.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - directxmathvector.inl
+- directxmathvector.inl
 api_name:
- - XMVector2Transform
+- XMVector2Transform
 targetos: Windows
 req.typenames: 
 req.redist: 

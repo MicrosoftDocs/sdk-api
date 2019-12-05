@@ -1,19 +1,17 @@
 ---
 UID: NF:bits.IBackgroundCopyJob.GetErrorCount
 title: IBackgroundCopyJob::GetErrorCount (bits.h)
-
 description: Retrieves the number of times BITS tried to transfer the job and an error occurred.
 old-location: bits\ibackgroundcopyjob_geterrorcount.htm
 tech.root: Bits
 ms.assetid: 04ca4752-8c4d-4f54-9dfa-3c9f567d7980
-
 ms.date: 12/05/2018
 ms.keywords: GetErrorCount, GetErrorCount method [BITS], GetErrorCount method [BITS],IBackgroundCopyJob interface, IBackgroundCopyJob interface [BITS],GetErrorCount method, IBackgroundCopyJob.GetErrorCount, IBackgroundCopyJob::GetErrorCount, _drz_ibackgroundcopyjob_geterrorcount, bits.ibackgroundcopyjob_geterrorcount, bits/IBackgroundCopyJob::GetErrorCount
 ms.topic: method
-f1_keywords: 
- - "bits/IBackgroundCopyJob.GetErrorCount"
+f1_keywords:
+- bits/IBackgroundCopyJob.GetErrorCount
 dev_langs:
- - c++
+- c++
 req.header: bits.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Bits.lib
 req.dll: QmgrPrxy.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - QmgrPrxy.dll
+- QmgrPrxy.dll
 api_name:
- - IBackgroundCopyJob.GetErrorCount
+- IBackgroundCopyJob.GetErrorCount
 targetos: Windows
 req.typenames: 
 req.redist: 

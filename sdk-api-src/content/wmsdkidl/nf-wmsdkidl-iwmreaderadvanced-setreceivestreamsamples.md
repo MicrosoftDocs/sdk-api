@@ -1,19 +1,17 @@
 ---
 UID: NF:wmsdkidl.IWMReaderAdvanced.SetReceiveStreamSamples
 title: IWMReaderAdvanced::SetReceiveStreamSamples (wmsdkidl.h)
-
 description: The SetReceiveStreamSamples method specifies whether stream samples are delivered to the IWMReaderCallbackAdvanced::OnStreamSample callback.
 old-location: wmformat\iwmreaderadvanced_setreceivestreamsamples.htm
 tech.root: wmformat
 ms.assetid: 3fb39726-7f43-41ec-9ead-38456b5cd964
-
 ms.date: 12/05/2018
 ms.keywords: IWMReaderAdvanced interface [windows Media Format],SetReceiveStreamSamples method, IWMReaderAdvanced.SetReceiveStreamSamples, IWMReaderAdvanced::SetReceiveStreamSamples, IWMReaderAdvancedSetReceiveStreamSamples, SetReceiveStreamSamples, SetReceiveStreamSamples method [windows Media Format], SetReceiveStreamSamples method [windows Media Format],IWMReaderAdvanced interface, wmformat.iwmreaderadvanced_setreceivestreamsamples, wmsdkidl/IWMReaderAdvanced::SetReceiveStreamSamples
 ms.topic: method
-f1_keywords: 
- - "wmsdkidl/IWMReaderAdvanced.SetReceiveStreamSamples"
+f1_keywords:
+- wmsdkidl/IWMReaderAdvanced.SetReceiveStreamSamples
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wmvcore.lib
- - Wmvcore.dll
- - WMStubDRM.lib
- - WMStubDRM.dll
+- Wmvcore.lib
+- Wmvcore.dll
+- WMStubDRM.lib
+- WMStubDRM.dll
 api_name:
- - IWMReaderAdvanced.SetReceiveStreamSamples
+- IWMReaderAdvanced.SetReceiveStreamSamples
 targetos: Windows
 req.typenames: 
 req.redist: 

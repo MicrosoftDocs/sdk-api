@@ -1,19 +1,17 @@
 ---
 UID: NS:authz._AUTHZ_SOURCE_SCHEMA_REGISTRATION
 title: AUTHZ_SOURCE_SCHEMA_REGISTRATION (authz.h)
-
 description: Specifies information about source schema registration.
 old-location: security\authz_source_schema_registration.htm
 tech.root: SecAuthZ
 ms.assetid: 8b4d6e14-fb9c-428a-bd94-34eba668edc6
-
 ms.date: 12/05/2018
-ms.keywords: "*PAUTHZ_SOURCE_SCHEMA_REGISTRATION, AUTHZ_ALLOW_MULTIPLE_SOURCE_INSTANCES, AUTHZ_MIGRATED_LEGACY_PUBLISHER, AUTHZ_SOURCE_SCHEMA_REGISTRATION, AUTHZ_SOURCE_SCHEMA_REGISTRATION structure [Security], PAUTHZ_SOURCE_SCHEMA_REGISTRATION, PAUTHZ_SOURCE_SCHEMA_REGISTRATION structure pointer [Security], authz/AUTHZ_SOURCE_SCHEMA_REGISTRATION, authz/PAUTHZ_SOURCE_SCHEMA_REGISTRATION, security.authz_source_schema_registration"
+ms.keywords: '*PAUTHZ_SOURCE_SCHEMA_REGISTRATION, AUTHZ_ALLOW_MULTIPLE_SOURCE_INSTANCES, AUTHZ_MIGRATED_LEGACY_PUBLISHER, AUTHZ_SOURCE_SCHEMA_REGISTRATION, AUTHZ_SOURCE_SCHEMA_REGISTRATION structure [Security], PAUTHZ_SOURCE_SCHEMA_REGISTRATION, PAUTHZ_SOURCE_SCHEMA_REGISTRATION structure pointer [Security], authz/AUTHZ_SOURCE_SCHEMA_REGISTRATION, authz/PAUTHZ_SOURCE_SCHEMA_REGISTRATION, security.authz_source_schema_registration'
 ms.topic: struct
-f1_keywords: 
- - "authz/AUTHZ_SOURCE_SCHEMA_REGISTRATION"
+f1_keywords:
+- authz/AUTHZ_SOURCE_SCHEMA_REGISTRATION
 dev_langs:
- - c++
+- c++
 req.header: authz.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Authz.h
+- Authz.h
 api_name:
- - AUTHZ_SOURCE_SCHEMA_REGISTRATION
+- AUTHZ_SOURCE_SCHEMA_REGISTRATION
 targetos: Windows
 req.typenames: AUTHZ_SOURCE_SCHEMA_REGISTRATION, *PAUTHZ_SOURCE_SCHEMA_REGISTRATION
 req.redist: Windows Server 2003 Administration Tools Pack on Windows XP

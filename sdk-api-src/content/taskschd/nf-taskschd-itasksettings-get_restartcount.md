@@ -1,19 +1,17 @@
 ---
 UID: NF:taskschd.ITaskSettings.get_RestartCount
 title: ITaskSettings::get_RestartCount (taskschd.h)
-
 description: Gets or sets the number of times that the Task Scheduler will attempt to restart the task.
 old-location: taskschd\itasksettings_restartcount.htm
 tech.root: taskschd
 ms.assetid: ec77a7bf-52d8-4f0f-ab47-f0555b666a70
-
 ms.date: 12/05/2018
 ms.keywords: ITaskSettings interface [Task Scheduler],RestartCount property, ITaskSettings.RestartCount, ITaskSettings.get_RestartCount, ITaskSettings::RestartCount, ITaskSettings::get_RestartCount, ITaskSettings::put_RestartCount, RestartCount property [Task Scheduler], RestartCount property [Task Scheduler],ITaskSettings interface, get_RestartCount, taskschd.itasksettings_restartcount, taskschd/ITaskSettings::RestartCount, taskschd/ITaskSettings::get_RestartCount, taskschd/ITaskSettings::put_RestartCount
 ms.topic: method
-f1_keywords: 
- - "taskschd/ITaskSettings.RestartCount"
+f1_keywords:
+- taskschd/ITaskSettings.RestartCount
 dev_langs:
- - c++
+- c++
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Taskschd.lib
 req.dll: Taskschd.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - taskschd.dll
+- taskschd.dll
 api_name:
- - ITaskSettings.RestartCount
- - ITaskSettings.get_RestartCount
- - ITaskSettings.put_RestartCount
+- ITaskSettings.RestartCount
+- ITaskSettings.get_RestartCount
+- ITaskSettings.put_RestartCount
 targetos: Windows
 req.typenames: 
 req.redist: 

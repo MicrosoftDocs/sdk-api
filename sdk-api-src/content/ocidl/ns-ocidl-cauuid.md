@@ -1,19 +1,17 @@
 ---
 UID: NS:ocidl.tagCAUUID
 title: CAUUID (ocidl.h)
-
 description: Specifies a counted array of UUID or GUID types used to receive an array of CLSIDs for the property pages that the object wants to display.
 old-location: com\cauuid.htm
 tech.root: com
 ms.assetid: 23b991fb-9494-4d3b-83df-986739beaa14
-
 ms.date: 12/05/2018
-ms.keywords: "*LPCAUUID, CAUUID, CAUUID structure [COM], LPCAUUID, LPCAUUID structure pointer [COM], _ctrl_CAUUID, com.cauuid, ocidl/CAUUID, ocidl/LPCAUUID"
+ms.keywords: '*LPCAUUID, CAUUID, CAUUID structure [COM], LPCAUUID, LPCAUUID structure pointer [COM], _ctrl_CAUUID, com.cauuid, ocidl/CAUUID, ocidl/LPCAUUID'
 ms.topic: struct
-f1_keywords: 
- - "ocidl/CAUUID"
+f1_keywords:
+- ocidl/CAUUID
 dev_langs:
- - c++
+- c++
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - OCIdl.h
+- OCIdl.h
 api_name:
- - CAUUID
+- CAUUID
 targetos: Windows
 req.typenames: CAUUID, *LPCAUUID
 req.redist: 

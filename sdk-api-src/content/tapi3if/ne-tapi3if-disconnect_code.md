@@ -1,19 +1,17 @@
 ---
 UID: NE:tapi3if.DISCONNECT_CODE
 title: DISCONNECT_CODE (tapi3if.h)
-
 description: The DISCONNECT_CODE enum is used by the ITBasicCallControl::Disconnect method.
 old-location: tapi3\disconnect_code.htm
 tech.root: Tapi
 ms.assetid: 90e7b63f-3e19-422d-b45b-43408de9c6cc
-
 ms.date: 12/05/2018
 ms.keywords: DC_NOANSWER, DC_NORMAL, DC_REJECTED, DISCONNECT_CODE, DISCONNECT_CODE enumeration [TAPI 2.2], _tapi3_disconnect_code, tapi3.disconnect_code, tapi3if/DC_NOANSWER, tapi3if/DC_NORMAL, tapi3if/DC_REJECTED, tapi3if/DISCONNECT_CODE
 ms.topic: enum
-f1_keywords: 
- - "tapi3if/DISCONNECT_CODE"
+f1_keywords:
+- tapi3if/DISCONNECT_CODE
 dev_langs:
- - c++
+- c++
 req.header: tapi3if.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Tapi3if.h
+- Tapi3if.h
 api_name:
- - DISCONNECT_CODE
+- DISCONNECT_CODE
 targetos: Windows
 req.typenames: DISCONNECT_CODE
 req.redist: 

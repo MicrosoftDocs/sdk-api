@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d11_1.ID3D11VideoProcessorEnumerator1.CheckVideoProcessorFormatConversion
 title: ID3D11VideoProcessorEnumerator1::CheckVideoProcessorFormatConversion (d3d11_1.h)
-
 description: Indicates whether the driver supports the specified combination of format and colorspace conversions.
 old-location: mf\id3d11videoprocessorenumerator1_checkvideoprocessorformatconversion.htm
 tech.root: medfound
 ms.assetid: 97DDE2C9-ABF2-47FB-B77C-BD1BC7AC5F2F
-
 ms.date: 12/05/2018
 ms.keywords: CheckVideoProcessorFormatConversion, CheckVideoProcessorFormatConversion method [Media Foundation], CheckVideoProcessorFormatConversion method [Media Foundation],ID3D11VideoProcessorEnumerator1 interface, ID3D11VideoProcessorEnumerator1 interface [Media Foundation],CheckVideoProcessorFormatConversion method, ID3D11VideoProcessorEnumerator1.CheckVideoProcessorFormatConversion, ID3D11VideoProcessorEnumerator1::CheckVideoProcessorFormatConversion, d3d11_1/ID3D11VideoProcessorEnumerator1::CheckVideoProcessorFormatConversion, mf.id3d11videoprocessorenumerator1_checkvideoprocessorformatconversion
 ms.topic: method
-f1_keywords: 
- - "d3d11_1/ID3D11VideoProcessorEnumerator1.CheckVideoProcessorFormatConversion"
+f1_keywords:
+- d3d11_1/ID3D11VideoProcessorEnumerator1.CheckVideoProcessorFormatConversion
 dev_langs:
- - c++
+- c++
 req.header: d3d11_1.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - d3d11_1.h
+- d3d11_1.h
 api_name:
- - ID3D11VideoProcessorEnumerator1.CheckVideoProcessorFormatConversion
+- ID3D11VideoProcessorEnumerator1.CheckVideoProcessorFormatConversion
 targetos: Windows
 req.typenames: 
 req.redist: 

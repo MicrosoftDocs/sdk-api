@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d9.IDirect3DDevice9Video.CreateAuthenticatedChannel
 title: IDirect3DDevice9Video::CreateAuthenticatedChannel (d3d9.h)
-
 description: Creates a channel to communicate with the Direct3D device or the graphics driver.
 old-location: mf\idirect3ddevice9video_createauthenticatedchannel.htm
 tech.root: medfound
 ms.assetid: e0dcfc3f-ede3-4917-8806-6bd343154cf8
-
 ms.date: 12/05/2018
 ms.keywords: CreateAuthenticatedChannel, CreateAuthenticatedChannel method [Media Foundation], CreateAuthenticatedChannel method [Media Foundation],IDirect3DDevice9Video interface, IDirect3DDevice9Video interface [Media Foundation],CreateAuthenticatedChannel method, IDirect3DDevice9Video.CreateAuthenticatedChannel, IDirect3DDevice9Video::CreateAuthenticatedChannel, d3d9/IDirect3DDevice9Video::CreateAuthenticatedChannel, mf.idirect3ddevice9video_createauthenticatedchannel
 ms.topic: method
-f1_keywords: 
- - "d3d9/IDirect3DDevice9Video.CreateAuthenticatedChannel"
+f1_keywords:
+- d3d9/IDirect3DDevice9Video.CreateAuthenticatedChannel
 dev_langs:
- - c++
+- c++
 req.header: d3d9.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - d3d9.h
+- d3d9.h
 api_name:
- - IDirect3DDevice9Video.CreateAuthenticatedChannel
+- IDirect3DDevice9Video.CreateAuthenticatedChannel
 targetos: Windows
 req.typenames: 
 req.redist: 

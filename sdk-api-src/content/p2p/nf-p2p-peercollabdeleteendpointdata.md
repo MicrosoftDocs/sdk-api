@@ -1,19 +1,17 @@
 ---
 UID: NF:p2p.PeerCollabDeleteEndpointData
 title: PeerCollabDeleteEndpointData function (p2p.h)
-
 description: Deletes the peer endpoint data on the calling peer node that matches the supplied endpoint data.
 old-location: p2p\peercollabdeleteendpointdata.htm
 tech.root: P2PSdk
 ms.assetid: bafaef04-d7f6-4873-bd38-db156817b0c8
-
 ms.date: 12/05/2018
 ms.keywords: PeerCollabDeleteEndpointData, PeerCollabDeleteEndpointData function [Peer Networking], p2p.peercollabdeleteendpointdata, p2p/PeerCollabDeleteEndpointData
 ms.topic: function
-f1_keywords: 
- - "p2p/PeerCollabDeleteEndpointData"
+f1_keywords:
+- p2p/PeerCollabDeleteEndpointData
 dev_langs:
- - c++
+- c++
 req.header: p2p.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: P2P.lib
 req.dll: P2P.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - P2P.dll
+- P2P.dll
 api_name:
- - PeerCollabDeleteEndpointData
+- PeerCollabDeleteEndpointData
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:shldisp.IShellFolderViewDual.get_Parent
 title: IShellFolderViewDual::get_Parent (shldisp.h)
-
 description: Not implemented.
 old-location: shell\IShellFolderViewDual_get_Parent.htm
 tech.root: shell
 ms.assetid: 36a893b3-6c4e-4cca-949b-707fd2aed125
-
 ms.date: 12/05/2018
 ms.keywords: IShellFolderViewDual interface [Windows Shell],get_Parent method, IShellFolderViewDual.get_Parent, IShellFolderViewDual::get_Parent, _shell_IShellFolderViewDual_get_Parent, get_Parent, get_Parent method [Windows Shell], get_Parent method [Windows Shell],IShellFolderViewDual interface, shell.IShellFolderViewDual_get_Parent, shldisp/IShellFolderViewDual::get_Parent
 ms.topic: method
-f1_keywords: 
- - "shldisp/IShellFolderViewDual.get_Parent"
+f1_keywords:
+- shldisp/IShellFolderViewDual.get_Parent
 dev_langs:
- - c++
+- c++
 req.header: shldisp.h
 req.include-header: Shldisp.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shldisp.h
+- shldisp.h
 api_name:
- - IShellFolderViewDual.get_Parent
+- IShellFolderViewDual.get_Parent
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:roapi.RoUninitialize
 title: RoUninitialize function (roapi.h)
-
 description: Closes the Windows Runtime on the current thread.
 old-location: winrt\rouninitialize.htm
 tech.root: WinRT
 ms.assetid: 0F910E71-BA44-44A6-8432-52A4E38854F9
-
 ms.date: 12/05/2018
 ms.keywords: RoUninitialize, RoUninitialize function [Windows Runtime], WinRTUninitialize, roapi/RoUninitialize, roapi/WinRTUninitialize, winrt.rouninitialize, winrt.winrtuninitialize
 ms.topic: function
-f1_keywords: 
- - "roapi/RoUninitialize"
+f1_keywords:
+- roapi/RoUninitialize
 dev_langs:
- - c++
+- c++
 req.header: roapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - roapi.h
- - API-MS-Win-Core-WinRT-l1-1-0.dll
- - ComBase.dll
+- roapi.h
+- API-MS-Win-Core-WinRT-l1-1-0.dll
+- ComBase.dll
 api_name:
- - RoUninitialize
- - WinRTUninitialize
+- RoUninitialize
+- WinRTUninitialize
 targetos: Windows
 req.typenames: 
 req.redist: 

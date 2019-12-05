@@ -1,19 +1,17 @@
 ---
 UID: NF:ncrypt.NCryptNotifyChangeKey
 title: NCryptNotifyChangeKey function (ncrypt.h)
-
 description: Creates or removes a key change notification.
 old-location: security\ncryptnotifychangekey.htm
 tech.root: SecCNG
 ms.assetid: 2d2ddb55-ef32-4227-b901-ee11e961d0e6
-
 ms.date: 12/05/2018
 ms.keywords: NCRYPT_MACHINE_KEY_FLAG, NCRYPT_REGISTER_NOTIFY_FLAG, NCRYPT_UNREGISTER_NOTIFY_FLAG, NCryptNotifyChangeKey, NCryptNotifyChangeKey function [Security], ncrypt/NCryptNotifyChangeKey, security.ncryptnotifychangekey
 ms.topic: function
-f1_keywords: 
- - "ncrypt/NCryptNotifyChangeKey"
+f1_keywords:
+- ncrypt/NCryptNotifyChangeKey
 dev_langs:
- - c++
+- c++
 req.header: ncrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Ncrypt.lib
 req.dll: Ncrypt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ncrypt.dll
+- Ncrypt.dll
 api_name:
- - NCryptNotifyChangeKey
+- NCryptNotifyChangeKey
 targetos: Windows
 req.typenames: 
 req.redist: 

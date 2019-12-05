@@ -1,19 +1,17 @@
 ---
 UID: NN:shobjidl_core.ILaunchTargetViewSizePreference
 title: ILaunchTargetViewSizePreference (shobjidl_core.h)
-
 description: Provides a method for retrieving the preferred view size for a new application window.
 old-location: shell\ILaunchTargetViewSizePreference.htm
 tech.root: shell
 ms.assetid: 3535E9EF-265E-4278-8E0D-60AA8A34C316
-
 ms.date: 12/05/2018
 ms.keywords: ILaunchTargetViewSizePreference, ILaunchTargetViewSizePreference interface [Windows Shell], ILaunchTargetViewSizePreference interface [Windows Shell],described, shell.ILaunchTargetViewSizePreference, shobjidl_core/ILaunchTargetViewSizePreference
 ms.topic: interface
-f1_keywords: 
- - "shobjidl_core/ILaunchTargetViewSizePreference"
+f1_keywords:
+- shobjidl_core/ILaunchTargetViewSizePreference
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - ILaunchTargetViewSizePreference
+- ILaunchTargetViewSizePreference
 targetos: Windows
 req.typenames: 
 req.redist: 

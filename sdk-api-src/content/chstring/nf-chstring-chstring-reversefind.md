@@ -1,19 +1,17 @@
 ---
 UID: NF:chstring.CHString.ReverseFind
 title: CHString::ReverseFind (chstring.h)
-
 description: The ReverseFind method searches a CHString string for the last match of a substring. This method is similar to the runtime function, wcsrchr.
 old-location: wmi\chstring_reversefind.htm
 tech.root: WmiSdk
 ms.assetid: 941c9eb3-a5b8-42b7-bb9f-732eaf1faa24
-
 ms.date: 12/05/2018
 ms.keywords: CHString interface [Windows Management Instrumentation],ReverseFind method, CHString.ReverseFind, CHString::ReverseFind, ReverseFind, ReverseFind method [Windows Management Instrumentation], ReverseFind method [Windows Management Instrumentation],CHString interface, _hmm_chstring_reversefind, chstring/CHString::ReverseFind, wmi.chstring_reversefind
 ms.topic: method
-f1_keywords: 
- - "chstring/CHString.ReverseFind"
+f1_keywords:
+- chstring/CHString.ReverseFind
 dev_langs:
- - c++
+- c++
 req.header: chstring.h
 req.include-header: FwCommon.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: FrameDyn.lib
 req.dll: FrameDynOS.dll; FrameDyn.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - FrameDynOS.dll
- - FrameDyn.dll
+- FrameDynOS.dll
+- FrameDyn.dll
 api_name:
- - CHString.ReverseFind
+- CHString.ReverseFind
 targetos: Windows
 req.typenames: 
 req.redist: 

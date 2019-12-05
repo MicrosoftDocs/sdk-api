@@ -1,19 +1,17 @@
 ---
 UID: NN:oaidl.ICreateTypeInfo
 title: ICreateTypeInfo (oaidl.h)
-
 description: Provides the tools for creating and administering the type information defined through the type description.
 old-location: automat\icreatetypeinfo.htm
 tech.root: automat
 ms.assetid: c8bbb677-2666-4900-8fb9-788742eef656
-
 ms.date: 12/05/2018
 ms.keywords: ICreateTypeInfo, ICreateTypeInfo interface [Automation], ICreateTypeInfo interface [Automation],described, _oa96_ICreateTypeInfo_Interface, automat.icreatetypeinfo, oaidl/ICreateTypeInfo
 ms.topic: interface
-f1_keywords: 
- - "oaidl/ICreateTypeInfo"
+f1_keywords:
+- oaidl/ICreateTypeInfo
 dev_langs:
- - c++
+- c++
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - oaidl.h
+- oaidl.h
 api_name:
- - ICreateTypeInfo
+- ICreateTypeInfo
 targetos: Windows
 req.typenames: 
 req.redist: 

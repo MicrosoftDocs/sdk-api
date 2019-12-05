@@ -1,19 +1,17 @@
 ---
 UID: NF:winsync.IEnumSingleItemExceptions.Clone
 title: IEnumSingleItemExceptions::Clone (winsync.h)
-
 description: Clones the enumerator and returns a new enumerator that is in the same state as the current one.
 old-location: winsync\ienumsingleitemexceptions_clone.htm
 tech.root: winsync
 ms.assetid: 89a02939-e761-450e-9479-29e19a872da6
-
 ms.date: 12/05/2018
 ms.keywords: Clone, Clone method [Windows Sync], Clone method [Windows Sync],IEnumSingleItemExceptions interface, IEnumSingleItemExceptions interface [Windows Sync],Clone method, IEnumSingleItemExceptions.Clone, IEnumSingleItemExceptions::Clone, winsync.ienumsingleitemexceptions_clone, winsync/IEnumSingleItemExceptions::Clone
 ms.topic: method
-f1_keywords: 
- - "winsync/IEnumSingleItemExceptions.Clone"
+f1_keywords:
+- winsync/IEnumSingleItemExceptions.Clone
 dev_langs:
- - c++
+- c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - winsync.h
+- winsync.h
 api_name:
- - IEnumSingleItemExceptions.Clone
+- IEnumSingleItemExceptions.Clone
 targetos: Windows
 req.typenames: 
 req.redist: 

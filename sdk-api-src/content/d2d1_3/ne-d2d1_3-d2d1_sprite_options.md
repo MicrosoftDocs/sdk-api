@@ -1,19 +1,17 @@
 ---
 UID: NE:d2d1_3.D2D1_SPRITE_OPTIONS
 title: D2D1_SPRITE_OPTIONS (d2d1_3.h)
-
 description: Specifies additional aspects of how a sprite batch is to be drawn, as part of a call to ID2D1DeviceContext3::DrawSpriteBatch.
 old-location: direct2d\d2d1_sprite_options.htm
 tech.root: Direct2D
 ms.assetid: 64B7D987-A79C-412C-8D12-53E21DD8DDD9
-
 ms.date: 12/05/2018
 ms.keywords: D2D1_SPRITE_OPTIONS, D2D1_SPRITE_OPTIONS enumeration [Direct2D], D2D1_SPRITE_OPTIONS_CLAMP_TO_SOURCE_RECTANGLE, D2D1_SPRITE_OPTIONS_NONE, d2d1_3/D2D1_SPRITE_OPTIONS, d2d1_3/D2D1_SPRITE_OPTIONS_CLAMP_TO_SOURCE_RECTANGLE, d2d1_3/D2D1_SPRITE_OPTIONS_NONE, direct2d.d2d1_sprite_options
 ms.topic: enum
-f1_keywords: 
- - "d2d1_3/D2D1_SPRITE_OPTIONS"
+f1_keywords:
+- d2d1_3/D2D1_SPRITE_OPTIONS
 dev_langs:
- - c++
+- c++
 req.header: d2d1_3.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - d2d1_3.h
+- d2d1_3.h
 api_name:
- - D2D1_SPRITE_OPTIONS
+- D2D1_SPRITE_OPTIONS
 targetos: Windows
 req.typenames: D2D1_SPRITE_OPTIONS
 req.redist: 

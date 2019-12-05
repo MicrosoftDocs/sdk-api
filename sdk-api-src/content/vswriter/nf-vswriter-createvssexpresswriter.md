@@ -1,19 +1,17 @@
 ---
 UID: NF:vswriter.CreateVssExpressWriter
 title: CreateVssExpressWriter function (vswriter.h)
-
 description: Creates an IVssExpressWriter interface object and returns a pointer to it.
 old-location: base\createvssexpresswriter.htm
 tech.root: VSS
 ms.assetid: c24a1046-50b0-4fec-88f9-3bbd6970982a
-
 ms.date: 12/05/2018
 ms.keywords: CreateVssExpressWriter, CreateVssExpressWriter function, CreateVssExpressWriterInternal, base.createvssexpresswriter, vswriter/CreateVssExpressWriter, vswriter/CreateVssExpressWriterInternal
 ms.topic: function
-f1_keywords: 
- - "vswriter/CreateVssExpressWriter"
+f1_keywords:
+- vswriter/CreateVssExpressWriter
 dev_langs:
- - c++
+- c++
 req.header: vswriter.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: VssApi.lib
 req.dll: VssApi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - VssApi.dll
+- VssApi.dll
 api_name:
- - CreateVssExpressWriter
- - CreateVssExpressWriterInternal
+- CreateVssExpressWriter
+- CreateVssExpressWriterInternal
 targetos: Windows
 req.typenames: 
 req.redist: 

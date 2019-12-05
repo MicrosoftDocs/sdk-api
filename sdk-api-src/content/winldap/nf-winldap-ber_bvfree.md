@@ -1,19 +1,17 @@
 ---
 UID: NF:winldap.ber_bvfree
 title: ber_bvfree function (winldap.h)
-
 description: The ber_bvfree function frees a berval structure.
 old-location: ldap\ber_bvfree.htm
 tech.root: ldap
 ms.assetid: 9e5a4bb9-568d-48ee-be75-952916c021b1
-
 ms.date: 12/05/2018
-ms.keywords: "_ldap_ber_bvfree, ber_bvfree, ber_bvfree function [LDAP], ldap.ber__bvfree, ldap.ber_bvfree, winber/ber_bvfree, winldap/ber_bvfree"
+ms.keywords: _ldap_ber_bvfree, ber_bvfree, ber_bvfree function [LDAP], ldap.ber__bvfree, ldap.ber_bvfree, winber/ber_bvfree, winldap/ber_bvfree
 ms.topic: function
-f1_keywords: 
- - "winldap/ber_bvfree"
+f1_keywords:
+- winldap/ber_bvfree
 dev_langs:
- - c++
+- c++
 req.header: winldap.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Wldap32.lib
 req.dll: Wldap32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Wldap32.dll
+- Wldap32.dll
 api_name:
- - ber_bvfree
+- ber_bvfree
 targetos: Windows
 req.typenames: 
 req.redist: 

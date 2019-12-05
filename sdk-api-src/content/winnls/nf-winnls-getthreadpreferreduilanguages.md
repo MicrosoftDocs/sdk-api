@@ -1,19 +1,17 @@
 ---
 UID: NF:winnls.GetThreadPreferredUILanguages
 title: GetThreadPreferredUILanguages function (winnls.h)
-
 description: Retrieves the thread preferred UI languages for the current thread. For more information, see User Interface Language Management.
 old-location: intl\getthreadpreferreduilanguages.htm
 tech.root: Intl
 ms.assetid: 8501b8b3-c8bf-4bef-b65f-6c0f455f0c7d
-
 ms.date: 12/05/2018
 ms.keywords: GetThreadPreferredUILanguages, GetThreadPreferredUILanguages function [Internationalization for Windows Applications], MUI_LANGUAGE_ID, MUI_LANGUAGE_NAME, MUI_MERGE_SYSTEM_FALLBACK, MUI_MERGE_USER_FALLBACK, MUI_THREAD_LANGUAGES, MUI_UI_FALLBACK, _win32_GetThreadPreferredUILanguages, intl.getthreadpreferreduilanguages, winnls/GetThreadPreferredUILanguages
 ms.topic: function
-f1_keywords: 
- - "winnls/GetThreadPreferredUILanguages"
+f1_keywords:
+- winnls/GetThreadPreferredUILanguages
 dev_langs:
- - c++
+- c++
 req.header: winnls.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,21 +30,21 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-Localization-l1-1-0.dll
- - KernelBase.dll
- - API-MS-Win-Core-Localization-l1-2-0.dll
- - API-MS-Win-Core-Localization-l1-2-1.dll
- - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
- - MinKernelBase.dll
- - API-MS-Win-Core-Localization-L1-2-2.dll
+- Kernel32.dll
+- API-MS-Win-Core-Localization-l1-1-0.dll
+- KernelBase.dll
+- API-MS-Win-Core-Localization-l1-2-0.dll
+- API-MS-Win-Core-Localization-l1-2-1.dll
+- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+- MinKernelBase.dll
+- API-MS-Win-Core-Localization-L1-2-2.dll
 api_name:
- - GetThreadPreferredUILanguages
+- GetThreadPreferredUILanguages
 targetos: Windows
 req.typenames: 
 req.redist: 

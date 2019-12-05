@@ -1,19 +1,17 @@
 ---
 UID: NS:qossp._RSVP_STATUS_INFO
 title: RSVP_STATUS_INFO (qossp.h)
-
 description: The QOS object RSVP_STATUS_INFO provides information regarding the status of RSVP for a given flow, including event notifications associated with monitoring FD_QOS events, as well as error information.
 old-location: qos\rsvp_status_info.htm
 tech.root: QOS
 ms.assetid: ffb271e5-cdfe-4ac9-929e-9a0a81894238
-
 ms.date: 12/05/2018
-ms.keywords: "*LPRSVP_STATUS_INFO, LPRSVP_STATUS_INFO, LPRSVP_STATUS_INFO structure pointer [QOS], RSVP_STATUS_INFO, RSVP_STATUS_INFO structure [QOS], _gqos_rsvp_status_info, qos.rsvp_status_info, qossp/LPRSVP_STATUS_INFO, qossp/RSVP_STATUS_INFO"
+ms.keywords: '*LPRSVP_STATUS_INFO, LPRSVP_STATUS_INFO, LPRSVP_STATUS_INFO structure pointer [QOS], RSVP_STATUS_INFO, RSVP_STATUS_INFO structure [QOS], _gqos_rsvp_status_info, qos.rsvp_status_info, qossp/LPRSVP_STATUS_INFO, qossp/RSVP_STATUS_INFO'
 ms.topic: struct
-f1_keywords: 
- - "qossp/RSVP_STATUS_INFO"
+f1_keywords:
+- qossp/RSVP_STATUS_INFO
 dev_langs:
- - c++
+- c++
 req.header: qossp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Qossp.h
+- Qossp.h
 api_name:
- - RSVP_STATUS_INFO
+- RSVP_STATUS_INFO
 targetos: Windows
 req.typenames: RSVP_STATUS_INFO, *LPRSVP_STATUS_INFO
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:certenroll.IX509PrivateKey.put_Existing
 title: IX509PrivateKey::put_Existing (certenroll.h)
-
 description: Specifies or retrieves a Boolean value that indicates whether the private key has been created or imported.
 old-location: security\ix509privatekey_existing_property.htm
 tech.root: seccertenroll
 ms.assetid: 0ef32207-1fb0-49a2-95cf-353f907f3fc6
-
 ms.date: 12/05/2018
 ms.keywords: Existing property [Security], Existing property [Security],IX509PrivateKey interface, IX509PrivateKey interface [Security],Existing property, IX509PrivateKey.Existing, IX509PrivateKey.put_Existing, IX509PrivateKey::Existing, IX509PrivateKey::get_Existing, IX509PrivateKey::put_Existing, certenroll/IX509PrivateKey::Existing, certenroll/IX509PrivateKey::get_Existing, certenroll/IX509PrivateKey::put_Existing, put_Existing, security.ix509privatekey_existing_property
 ms.topic: method
-f1_keywords: 
- - "certenroll/IX509PrivateKey.Existing"
+f1_keywords:
+- certenroll/IX509PrivateKey.Existing
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: CertEnroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CertEnroll.dll
+- CertEnroll.dll
 api_name:
- - IX509PrivateKey.Existing
- - IX509PrivateKey.get_Existing
- - IX509PrivateKey.put_Existing
+- IX509PrivateKey.Existing
+- IX509PrivateKey.get_Existing
+- IX509PrivateKey.put_Existing
 targetos: Windows
 req.typenames: 
 req.redist: 

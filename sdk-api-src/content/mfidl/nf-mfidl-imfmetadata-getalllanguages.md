@@ -1,19 +1,17 @@
 ---
 UID: NF:mfidl.IMFMetadata.GetAllLanguages
 title: IMFMetadata::GetAllLanguages (mfidl.h)
-
 description: Gets a list of the languages in which metadata is available.
 old-location: mf\imfmetadata_getalllanguages.htm
 tech.root: medfound
 ms.assetid: 69296ec5-5811-4f0f-ae9c-cabca3e66158
-
 ms.date: 12/05/2018
 ms.keywords: 69296ec5-5811-4f0f-ae9c-cabca3e66158, GetAllLanguages, GetAllLanguages method [Media Foundation], GetAllLanguages method [Media Foundation],IMFMetadata interface, IMFMetadata interface [Media Foundation],GetAllLanguages method, IMFMetadata.GetAllLanguages, IMFMetadata::GetAllLanguages, mf.imfmetadata_getalllanguages, mfidl/IMFMetadata::GetAllLanguages
 ms.topic: method
-f1_keywords: 
- - "mfidl/IMFMetadata.GetAllLanguages"
+f1_keywords:
+- mfidl/IMFMetadata.GetAllLanguages
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFMetadata.GetAllLanguages
+- IMFMetadata.GetAllLanguages
 targetos: Windows
 req.typenames: 
 req.redist: 

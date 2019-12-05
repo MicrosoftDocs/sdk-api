@@ -1,19 +1,17 @@
 ---
 UID: NF:clusapi.ClusterGroupEnumEx
 title: ClusterGroupEnumEx function (clusapi.h)
-
 description: Retrieves an item in the enumeration.
 old-location: mscs\clustergroupenumex.htm
 tech.root: MsCS
 ms.assetid: 139FE5AB-9465-46F8-B360-F27F19D82A88
-
 ms.date: 12/05/2018
 ms.keywords: ClusterGroupEnumEx, ClusterGroupEnumEx function [Failover Cluster], PCLUSAPI_CLUSTER_GROUP_ENUM_EX, PCLUSAPI_CLUSTER_GROUP_ENUM_EX function [Failover Cluster], clusapi/ClusterGroupEnumEx, clusapi/PCLUSAPI_CLUSTER_GROUP_ENUM_EX, mscs.clustergroupenumex
 ms.topic: function
-f1_keywords: 
- - "clusapi/ClusterGroupEnumEx"
+f1_keywords:
+- clusapi/ClusterGroupEnumEx
 dev_langs:
- - c++
+- c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: ClusAPI.lib
 req.dll: ClusAPI.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - ClusAPI.dll
- - Ext-MS-Win-Cluster-ClusAPI-l1-1-0.dll
- - Ext-MS-Win-Cluster-ClusAPI-l1-1-1.dll
- - Ext-MS-Win-Cluster-ClusAPI-l1-1-2.dll
+- ClusAPI.dll
+- Ext-MS-Win-Cluster-ClusAPI-l1-1-0.dll
+- Ext-MS-Win-Cluster-ClusAPI-l1-1-1.dll
+- Ext-MS-Win-Cluster-ClusAPI-l1-1-2.dll
 api_name:
- - ClusterGroupEnumEx
+- ClusterGroupEnumEx
 targetos: Windows
 req.typenames: 
 req.redist: 

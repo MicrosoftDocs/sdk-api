@@ -1,19 +1,17 @@
 ---
 UID: NF:certenroll.ICryptAttributes.AddRange
 title: ICryptAttributes::AddRange (certenroll.h)
-
 description: Adds a range of ICryptAttribute objects to the collection. The attributes are contained in another ICryptAttributes collection.
 old-location: security\icryptattributes_addrange_method.htm
 tech.root: seccertenroll
 ms.assetid: 8dc0a2c5-3734-47c7-a716-f53322fee39d
-
 ms.date: 12/05/2018
 ms.keywords: AddRange, AddRange method [Security], AddRange method [Security],ICryptAttributes interface, ICryptAttributes interface [Security],AddRange method, ICryptAttributes.AddRange, ICryptAttributes::AddRange, certenroll/ICryptAttributes::AddRange, security.icryptattributes_addrange_method
 ms.topic: method
-f1_keywords: 
- - "certenroll/ICryptAttributes.AddRange"
+f1_keywords:
+- certenroll/ICryptAttributes.AddRange
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: CertEnroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CertEnroll.dll
+- CertEnroll.dll
 api_name:
- - ICryptAttributes.AddRange
+- ICryptAttributes.AddRange
 targetos: Windows
 req.typenames: 
 req.redist: 

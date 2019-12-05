@@ -1,19 +1,17 @@
 ---
 UID: NF:mfplay.IMFPMediaPlayer.GetVolume
 title: IMFPMediaPlayer::GetVolume (mfplay.h)
-
 description: Gets the current audio volume.
 old-location: mf\imfpmediaplayer_getvolume.htm
 tech.root: medfound
 ms.assetid: 08bf0bb3-4ee2-4229-9f41-64924c6122c9
-
 ms.date: 12/05/2018
 ms.keywords: GetVolume, GetVolume method [Media Foundation], GetVolume method [Media Foundation],IMFPMediaPlayer interface, IMFPMediaPlayer interface [Media Foundation],GetVolume method, IMFPMediaPlayer.GetVolume, IMFPMediaPlayer::GetVolume, mf.imfpmediaplayer_getvolume, mfplay/IMFPMediaPlayer::GetVolume
 ms.topic: method
-f1_keywords: 
- - "mfplay/IMFPMediaPlayer.GetVolume"
+f1_keywords:
+- mfplay/IMFPMediaPlayer.GetVolume
 dev_langs:
- - c++
+- c++
 req.header: mfplay.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfplay.h
+- mfplay.h
 api_name:
- - IMFPMediaPlayer.GetVolume
+- IMFPMediaPlayer.GetVolume
 targetos: Windows
 req.typenames: 
 req.redist: 

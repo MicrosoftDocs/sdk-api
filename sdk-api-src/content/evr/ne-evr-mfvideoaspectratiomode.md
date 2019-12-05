@@ -1,19 +1,17 @@
 ---
 UID: NE:evr.MFVideoAspectRatioMode
 title: MFVideoAspectRatioMode (evr.h)
-
 description: Specifies the aspect-ratio mode.
 old-location: mf\mfvideoaspectratiomode.htm
 tech.root: medfound
 ms.assetid: c0a34cff-f86f-4005-9320-5dadfdde5808
-
 ms.date: 12/05/2018
 ms.keywords: MFVideoARMode_Mask, MFVideoARMode_NonLinearStretch, MFVideoARMode_None, MFVideoARMode_PreservePicture, MFVideoARMode_PreservePixel, MFVideoAspectRatioMode, MFVideoAspectRatioMode enumeration [Media Foundation], c0a34cff-f86f-4005-9320-5dadfdde5808, evr/MFVideoARMode_Mask, evr/MFVideoARMode_NonLinearStretch, evr/MFVideoARMode_None, evr/MFVideoARMode_PreservePicture, evr/MFVideoARMode_PreservePixel, evr/MFVideoAspectRatioMode, mf.mfvideoaspectratiomode
 ms.topic: enum
-f1_keywords: 
- - "evr/MFVideoAspectRatioMode"
+f1_keywords:
+- evr/MFVideoAspectRatioMode
 dev_langs:
- - c++
+- c++
 req.header: evr.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - evr.h
+- evr.h
 api_name:
- - MFVideoAspectRatioMode
+- MFVideoAspectRatioMode
 targetos: Windows
 req.typenames: MFVideoAspectRatioMode
 req.redist: 

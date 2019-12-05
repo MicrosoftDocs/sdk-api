@@ -1,19 +1,17 @@
 ---
 UID: NS:dbt._DEV_BROADCAST_VOLUME
 title: DEV_BROADCAST_VOLUME (dbt.h)
-
 description: Contains information about a logical volume.
 old-location: base\dev_broadcast_volume_str.htm
 tech.root: devio
 ms.assetid: 8ce644d9-1e95-458e-924f-67bd37831048
-
 ms.date: 12/05/2018
 ms.keywords: DBTF_MEDIA, DBTF_NET, DEV_BROADCAST_VOLUME, DEV_BROADCAST_VOLUME structure, PDEV_BROADCAST_VOLUME, PDEV_BROADCAST_VOLUME structure pointer, _win32_dev_broadcast_volume_str, base.dev_broadcast_volume_str, dbt/DEV_BROADCAST_VOLUME, dbt/PDEV_BROADCAST_VOLUME
 ms.topic: struct
 f1_keywords:
 - dbt/DEV_BROADCAST_VOLUME
 dev_langs:
- - c++
+- c++
 req.header: dbt.h
 req.include-header: 
 req.target-type: Windows

@@ -1,19 +1,17 @@
 ---
 UID: NF:unknwn.IUnknown.AddRef
 title: IUnknown::AddRef
-
 description: Increments the reference count for an interface pointer to a COM object. You should call this method whenever you make a copy of an interface pointer.
 old-location: com\iunknown_addref.htm
 tech.root: com
 ms.assetid: b4316efd-73d4-4995-b898-8025a316ba63
-
 ms.date: 05/31/2019
 ms.keywords: AddRef, AddRef method [COM], AddRef method [COM],IUnknown interface, IUnknown interface [COM],AddRef method, IUnknown.AddRef, IUnknown::AddRef, _com_iunknown_addref, com.iunknown_addref, unknwn/IUnknown::AddRef
 ms.topic: method
-f1_keywords: 
- - "unknwn/IUnknown.AddRef"
+f1_keywords:
+- unknwn/IUnknown.AddRef
 dev_langs:
- - c++
+- c++
 req.header: unknwn.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Unknwn.h
+- Unknwn.h
 api_name:
- - IUnknown.AddRef
+- IUnknown.AddRef
 targetos: Windows
 req.typenames: 
 req.redist: 

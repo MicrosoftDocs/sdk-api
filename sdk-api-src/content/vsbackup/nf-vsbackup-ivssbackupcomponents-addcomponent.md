@@ -1,19 +1,17 @@
 ---
 UID: NF:vsbackup.IVssBackupComponents.AddComponent
 title: IVssBackupComponents::AddComponent (vsbackup.h)
-
 description: Used to explicitly add to the backup set.
 old-location: base\ivssbackupcomponents_addcomponent.htm
 tech.root: VSS
 ms.assetid: 50cb0b16-9ed3-4496-962a-9c845c10986c
-
 ms.date: 12/05/2018
 ms.keywords: AddComponent, AddComponent method [VSS], AddComponent method [VSS],IVssBackupComponents interface, IVssBackupComponents interface [VSS],AddComponent method, IVssBackupComponents.AddComponent, IVssBackupComponents::AddComponent, _win32_ivssbackupcomponents_addcomponent, base.ivssbackupcomponents_addcomponent, vsbackup/IVssBackupComponents::AddComponent
 ms.topic: method
-f1_keywords: 
- - "vsbackup/IVssBackupComponents.AddComponent"
+f1_keywords:
+- vsbackup/IVssBackupComponents.AddComponent
 dev_langs:
- - c++
+- c++
 req.header: vsbackup.h
 req.include-header: VsBackup.h, Vss.h, VsWriter.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: VssApi.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - VssApi.lib
- - VssApi.dll
+- VssApi.lib
+- VssApi.dll
 api_name:
- - IVssBackupComponents.AddComponent
+- IVssBackupComponents.AddComponent
 targetos: Windows
 req.typenames: 
 req.redist: 

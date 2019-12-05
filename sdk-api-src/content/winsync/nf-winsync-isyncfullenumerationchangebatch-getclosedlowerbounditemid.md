@@ -1,19 +1,17 @@
 ---
 UID: NF:winsync.ISyncFullEnumerationChangeBatch.GetClosedLowerBoundItemId
 title: ISyncFullEnumerationChangeBatch::GetClosedLowerBoundItemId (winsync.h)
-
 description: Gets the closed lower bound on item IDs that require destination versions.
 old-location: winsync\isyncfullenumerationchangebatch_getclosedlowerbounditemid.htm
 tech.root: winsync
 ms.assetid: d0cc8564-f87a-4642-b085-5149c85279dd
-
 ms.date: 12/05/2018
 ms.keywords: GetClosedLowerBoundItemId, GetClosedLowerBoundItemId method [Windows Sync], GetClosedLowerBoundItemId method [Windows Sync],ISyncFullEnumerationChangeBatch interface, ISyncFullEnumerationChangeBatch interface [Windows Sync],GetClosedLowerBoundItemId method, ISyncFullEnumerationChangeBatch.GetClosedLowerBoundItemId, ISyncFullEnumerationChangeBatch::GetClosedLowerBoundItemId, winsync.isyncfullenumerationchangebatch_getclosedlowerbounditemid, winsync/ISyncFullEnumerationChangeBatch::GetClosedLowerBoundItemId
 ms.topic: method
-f1_keywords: 
- - "winsync/ISyncFullEnumerationChangeBatch.GetClosedLowerBoundItemId"
+f1_keywords:
+- winsync/ISyncFullEnumerationChangeBatch.GetClosedLowerBoundItemId
 dev_langs:
- - c++
+- c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - winsync.h
+- winsync.h
 api_name:
- - ISyncFullEnumerationChangeBatch.GetClosedLowerBoundItemId
+- ISyncFullEnumerationChangeBatch.GetClosedLowerBoundItemId
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NN:certcli.ICertConfig
 title: ICertConfig (certcli.h)
-
 description: The ICertConfig interface provides functionality for retrieving the public configuration data (specified during client setup) for a Certificate Services server.
 old-location: security\icertconfig.htm
 tech.root: SecCrypto
 ms.assetid: 92bece6a-73f0-47cf-8142-77e986448824
-
 ms.date: 12/05/2018
 ms.keywords: ICertConfig, ICertConfig interface [Security], ICertConfig interface [Security],described, _certsrv_icertconfig, certcli/ICertConfig, security.icertconfig
 ms.topic: interface
-f1_keywords: 
- - "certcli/ICertConfig"
+f1_keywords:
+- certcli/ICertConfig
 dev_langs:
- - c++
+- c++
 req.header: certcli.h
 req.include-header: Certsrv.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Certidl.lib
 req.dll: Certcli.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Certcli.dll
+- Certcli.dll
 api_name:
- - ICertConfig
+- ICertConfig
 targetos: Windows
 req.typenames: 
 req.redist: 

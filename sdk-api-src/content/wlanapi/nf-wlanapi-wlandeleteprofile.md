@@ -1,19 +1,17 @@
 ---
 UID: NF:wlanapi.WlanDeleteProfile
 title: WlanDeleteProfile function (wlanapi.h)
-
 description: Deletes a wireless profile for a wireless interface on the local computer.
 old-location: nwifi\wlandeleteprofile.htm
 tech.root: NativeWiFi
 ms.assetid: 2d1152ad-8106-4b8f-9856-9e6e36daa063
-
 ms.date: 12/05/2018
 ms.keywords: WlanDeleteProfile, WlanDeleteProfile function [NativeWIFI], nwifi.wlandeleteprofile, wlanapi/WlanDeleteProfile
 ms.topic: function
-f1_keywords: 
- - "wlanapi/WlanDeleteProfile"
+f1_keywords:
+- wlanapi/WlanDeleteProfile
 dev_langs:
- - c++
+- c++
 req.header: wlanapi.h
 req.include-header: Wlanapi.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Wlanapi.lib
 req.dll: Wlanapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - wlanapi.dll
- - Ext-MS-Win-networking-wlanapi-l1-1-0.dll
+- wlanapi.dll
+- Ext-MS-Win-networking-wlanapi-l1-1-0.dll
 api_name:
- - WlanDeleteProfile
+- WlanDeleteProfile
 targetos: Windows
 req.typenames: 
 req.redist: Wireless LAN API for Windows XP with SP2

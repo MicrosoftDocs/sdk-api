@@ -1,19 +1,17 @@
 ---
 UID: NF:wingdi.GetRgnBox
 title: GetRgnBox function (wingdi.h)
-
 description: The GetRgnBox function retrieves the bounding rectangle of the specified region.
 old-location: gdi\getrgnbox.htm
 tech.root: gdi
 ms.assetid: 42d06f7f-1bf3-418f-a3b9-c009cf2de10b
-
 ms.date: 12/05/2018
 ms.keywords: GetRgnBox, GetRgnBox function [Windows GDI], _win32_GetRgnBox, gdi.getrgnbox, wingdi/GetRgnBox
 ms.topic: function
-f1_keywords: 
- - "wingdi/GetRgnBox"
+f1_keywords:
+- wingdi/GetRgnBox
 dev_langs:
- - c++
+- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - gdi32.dll
- - Ext-MS-Win-GDI-rgn-l1-1-0.dll
- - Ext-MS-Win-RTCore-GDI-rgn-l1-1-0.dll
- - ext-ms-win-rtcore-gdi-rgn-l1-1-1.dll
- - GDI32Full.dll
+- gdi32.dll
+- Ext-MS-Win-GDI-rgn-l1-1-0.dll
+- Ext-MS-Win-RTCore-GDI-rgn-l1-1-0.dll
+- ext-ms-win-rtcore-gdi-rgn-l1-1-1.dll
+- GDI32Full.dll
 api_name:
- - GetRgnBox
+- GetRgnBox
 targetos: Windows
 req.typenames: 
 req.redist: 

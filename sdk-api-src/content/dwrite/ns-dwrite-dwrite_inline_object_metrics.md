@@ -1,19 +1,17 @@
 ---
 UID: NS:dwrite.DWRITE_INLINE_OBJECT_METRICS
 title: DWRITE_INLINE_OBJECT_METRICS (dwrite.h)
-
 description: Contains properties describing the geometric measurement of an application-defined inline object.
 old-location: directwrite\dwrite_inline_object_metrics.htm
 tech.root: DirectWrite
 ms.assetid: a42d612c-3d16-4c27-a1d8-1cfb9de2f8b1
-
 ms.date: 12/05/2018
 ms.keywords: DWRITE_INLINE_OBJECT_METRICS, DWRITE_INLINE_OBJECT_METRICS structure [Direct Write], directwrite.dwrite_inline_object_metrics, dwrite/DWRITE_INLINE_OBJECT_METRICS
 ms.topic: struct
-f1_keywords: 
- - "dwrite/DWRITE_INLINE_OBJECT_METRICS"
+f1_keywords:
+- dwrite/DWRITE_INLINE_OBJECT_METRICS
 dev_langs:
- - c++
+- c++
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - dwrite.h
+- dwrite.h
 api_name:
- - DWRITE_INLINE_OBJECT_METRICS
+- DWRITE_INLINE_OBJECT_METRICS
 targetos: Windows
 req.typenames: 
 req.redist: 

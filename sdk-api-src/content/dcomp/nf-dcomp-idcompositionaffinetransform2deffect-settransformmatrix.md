@@ -1,19 +1,17 @@
 ---
 UID: NF:dcomp.IDCompositionAffineTransform2DEffect.SetTransformMatrix
 title: IDCompositionAffineTransform2DEffect::SetTransformMatrix (dcomp.h)
-
 description: Sets the transform matrix of the effect.
 old-location: directcomp\idcompositionaffinetransform2deffect_settransformmatrix.htm
 tech.root: directcomp
 ms.assetid: C6ED5F96-CA6A-4E96-A368-197242066CC0
-
 ms.date: 12/05/2018
 ms.keywords: IDCompositionAffineTransform2DEffect interface [DirectComposition],SetTransformMatrix method, IDCompositionAffineTransform2DEffect.SetTransformMatrix, IDCompositionAffineTransform2DEffect::SetTransformMatrix, SetTransformMatrix, SetTransformMatrix method [DirectComposition], SetTransformMatrix method [DirectComposition],IDCompositionAffineTransform2DEffect interface, dcomp/IDCompositionAffineTransform2DEffect::SetTransformMatrix, directcomp.idcompositionaffinetransform2deffect_settransformmatrix
 ms.topic: method
-f1_keywords: 
- - "dcomp/IDCompositionAffineTransform2DEffect.SetTransformMatrix"
+f1_keywords:
+- dcomp/IDCompositionAffineTransform2DEffect.SetTransformMatrix
 dev_langs:
- - c++
+- c++
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dcomp.lib
 req.dll: Dcomp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dcomp.dll
+- Dcomp.dll
 api_name:
- - IDCompositionAffineTransform2DEffect.SetTransformMatrix
+- IDCompositionAffineTransform2DEffect.SetTransformMatrix
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NE:winuser.tagFEEDBACK_TYPE
 title: FEEDBACK_TYPE (winuser.h)
-
 description: Specifies the visual feedback associated with an event.
 old-location: input_feedback\feedback_type.htm
 tech.root: Input_Feedback
 ms.assetid: EEA3024E-D38C-4F4D-A63C-58ECB2B87F20
-
 ms.date: 12/05/2018
 ms.keywords: FEEDBACK_GESTURE_PRESSANDTAP, FEEDBACK_MAX, FEEDBACK_PEN_BARRELVISUALIZATION, FEEDBACK_PEN_DOUBLETAP, FEEDBACK_PEN_PRESSANDHOLD, FEEDBACK_PEN_RIGHTTAP, FEEDBACK_PEN_TAP, FEEDBACK_TOUCH_CONTACTVISUALIZATION, FEEDBACK_TOUCH_DOUBLETAP, FEEDBACK_TOUCH_PRESSANDHOLD, FEEDBACK_TOUCH_RIGHTTAP, FEEDBACK_TOUCH_TAP, FEEDBACK_TYPE, FEEDBACK_TYPE enumeration, input_feedback.feedback_type, inputfeedbackui.feedback_type_, winuser/FEEDBACK_GESTURE_PRESSANDTAP, winuser/FEEDBACK_MAX, winuser/FEEDBACK_PEN_BARRELVISUALIZATION, winuser/FEEDBACK_PEN_DOUBLETAP, winuser/FEEDBACK_PEN_PRESSANDHOLD, winuser/FEEDBACK_PEN_RIGHTTAP, winuser/FEEDBACK_PEN_TAP, winuser/FEEDBACK_TOUCH_CONTACTVISUALIZATION, winuser/FEEDBACK_TOUCH_DOUBLETAP, winuser/FEEDBACK_TOUCH_PRESSANDHOLD, winuser/FEEDBACK_TOUCH_RIGHTTAP, winuser/FEEDBACK_TOUCH_TAP, winuser/FEEDBACK_TYPE
 ms.topic: enum
-f1_keywords: 
- - "winuser/FEEDBACK_TYPE"
+f1_keywords:
+- winuser/FEEDBACK_TYPE
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - winuser.h
+- winuser.h
 api_name:
- - FEEDBACK_TYPE
+- FEEDBACK_TYPE
 targetos: Windows
 req.typenames: FEEDBACK_TYPE
 req.redist: 

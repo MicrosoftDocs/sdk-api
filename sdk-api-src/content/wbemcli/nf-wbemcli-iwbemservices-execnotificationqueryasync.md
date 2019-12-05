@@ -1,19 +1,17 @@
 ---
 UID: NF:wbemcli.IWbemServices.ExecNotificationQueryAsync
 title: IWbemServices::ExecNotificationQueryAsync (wbemcli.h)
-
 description: The IWbemServices::ExecNotificationQueryAsync method performs the same task as IWbemServices::ExecNotificationQuery except that events are supplied to the specified response handler until CancelAsyncCall is called to stop the event notification.
 old-location: wmi\iwbemservices_execnotificationqueryasync.htm
 tech.root: WmiSdk
 ms.assetid: f26eb44a-e0c4-418b-b849-d38d85ef236a
-
 ms.date: 12/05/2018
 ms.keywords: ExecNotificationQueryAsync, ExecNotificationQueryAsync method [Windows Management Instrumentation], ExecNotificationQueryAsync method [Windows Management Instrumentation],IWbemServices interface, IWbemServices interface [Windows Management Instrumentation],ExecNotificationQueryAsync method, IWbemServices.ExecNotificationQueryAsync, IWbemServices::ExecNotificationQueryAsync, WBEM_FLAG_SEND_STATUS, _hmm_iwbemservices_execnotificationqueryasync, wbemcli/IWbemServices::ExecNotificationQueryAsync, wmi.iwbemservices_execnotificationqueryasync
 ms.topic: method
-f1_keywords: 
- - "wbemcli/IWbemServices.ExecNotificationQueryAsync"
+f1_keywords:
+- wbemcli/IWbemServices.ExecNotificationQueryAsync
 dev_langs:
- - c++
+- c++
 req.header: wbemcli.h
 req.include-header: Wbemidl.h
 req.target-type: Windows
@@ -32,28 +30,28 @@ req.lib: Wbemuuid.lib
 req.dll: Fastprox.dll; Esscli.dll; FrameDyn.dll; FrameDynOS.dll; Ntevt.dll; Stdprov.dll; Viewprov.dll; Wbemcomn.dll; Wbemcore.dll; Wbemess.dll; Wbemsvc.dll; Wmipicmp.dll; Wmidcprv.dll; Wmipjobj.dll; Wmiprvsd.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Fastprox.dll
- - Esscli.dll
- - FrameDyn.dll
- - FrameDynOS.dll
- - Ntevt.dll
- - Stdprov.dll
- - Viewprov.dll
- - Wbemcomn.dll
- - Wbemcore.dll
- - Wbemess.dll
- - Wbemsvc.dll
- - Wmipicmp.dll
- - Wmidcprv.dll
- - Wmipjobj.dll
- - Wmiprvsd.dll
+- Fastprox.dll
+- Esscli.dll
+- FrameDyn.dll
+- FrameDynOS.dll
+- Ntevt.dll
+- Stdprov.dll
+- Viewprov.dll
+- Wbemcomn.dll
+- Wbemcore.dll
+- Wbemess.dll
+- Wbemsvc.dll
+- Wmipicmp.dll
+- Wmidcprv.dll
+- Wmipjobj.dll
+- Wmiprvsd.dll
 api_name:
- - IWbemServices.ExecNotificationQueryAsync
+- IWbemServices.ExecNotificationQueryAsync
 targetos: Windows
 req.typenames: 
 req.redist: 

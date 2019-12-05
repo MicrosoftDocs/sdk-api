@@ -1,19 +1,17 @@
 ---
 UID: NN:shobjidl_core.IApplicationDestinations
 title: IApplicationDestinations (shobjidl_core.h)
-
 description: Exposes methods that allow an application to remove one or all destinations from the Recent or Frequent categories in a Jump List.
 old-location: shell\IApplicationDestinations.htm
 tech.root: shell
 ms.assetid: d425eb2c-75c7-431e-9607-11ea2e092178
-
 ms.date: 12/05/2018
 ms.keywords: IApplicationDestinations, IApplicationDestinations interface [Windows Shell], IApplicationDestinations interface [Windows Shell],described, _shell_IApplicationDestinations, shell.IApplicationDestinations, shobjidl_core/IApplicationDestinations
 ms.topic: interface
-f1_keywords: 
- - "shobjidl_core/IApplicationDestinations"
+f1_keywords:
+- shobjidl_core/IApplicationDestinations
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Shell32.lib
 req.dll: Shell32.dll (version 6.1 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - IApplicationDestinations
+- IApplicationDestinations
 targetos: Windows
 req.typenames: 
 req.redist: 

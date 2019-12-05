@@ -1,19 +1,17 @@
 ---
 UID: NF:wingdi.GetFontUnicodeRanges
 title: GetFontUnicodeRanges function (wingdi.h)
-
 description: The GetFontUnicodeRanges function returns information about which Unicode characters are supported by a font. The information is returned as a GLYPHSET structure.
 old-location: gdi\getfontunicoderanges.htm
 tech.root: gdi
 ms.assetid: 51b0ab12-c467-4a89-8173-fdc513868aae
-
 ms.date: 12/05/2018
 ms.keywords: GetFontUnicodeRanges, GetFontUnicodeRanges function [Windows GDI], _win32_GetFontUnicodeRanges, gdi.getfontunicoderanges, wingdi/GetFontUnicodeRanges
 ms.topic: function
-f1_keywords: 
- - "wingdi/GetFontUnicodeRanges"
+f1_keywords:
+- wingdi/GetFontUnicodeRanges
 dev_langs:
- - c++
+- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - gdi32.dll
- - Ext-MS-Win-GDI-Font-L1-1-2.dll
- - Ext-MS-Win-GDI-Font-L1-1-3.dll
- - GDI32Full.dll
+- gdi32.dll
+- Ext-MS-Win-GDI-Font-L1-1-2.dll
+- Ext-MS-Win-GDI-Font-L1-1-3.dll
+- GDI32Full.dll
 api_name:
- - GetFontUnicodeRanges
+- GetFontUnicodeRanges
 targetos: Windows
 req.typenames: 
 req.redist: 

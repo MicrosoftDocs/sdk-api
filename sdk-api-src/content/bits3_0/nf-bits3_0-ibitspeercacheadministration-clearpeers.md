@@ -1,19 +1,17 @@
 ---
 UID: NF:bits3_0.IBitsPeerCacheAdministration.ClearPeers
 title: IBitsPeerCacheAdministration::ClearPeers (bits3_0.h)
-
 description: Removes all peers from the list of peers that can serve content.
 old-location: bits\ibitspeercacheadministration_clearpeers.htm
 tech.root: Bits
 ms.assetid: 79a739ed-7618-410a-a6df-fab11794d932
-
 ms.date: 12/05/2018
 ms.keywords: ClearPeers, ClearPeers method [BITS], ClearPeers method [BITS],IBitsPeerCacheAdministration interface, IBitsPeerCacheAdministration interface [BITS],ClearPeers method, IBitsPeerCacheAdministration.ClearPeers, IBitsPeerCacheAdministration::ClearPeers, bits.ibitspeercacheadministration_clearpeers, bits3_0/IBitsPeerCacheAdministration::ClearPeers
 ms.topic: method
-f1_keywords: 
- - "bits3_0/IBitsPeerCacheAdministration.ClearPeers"
+f1_keywords:
+- bits3_0/IBitsPeerCacheAdministration.ClearPeers
 dev_langs:
- - c++
+- c++
 req.header: bits3_0.h
 req.include-header: Bits.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Bits.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Bits.lib
- - Bits.dll
+- Bits.lib
+- Bits.dll
 api_name:
- - IBitsPeerCacheAdministration.ClearPeers
+- IBitsPeerCacheAdministration.ClearPeers
 targetos: Windows
 req.typenames: 
 req.redist: 

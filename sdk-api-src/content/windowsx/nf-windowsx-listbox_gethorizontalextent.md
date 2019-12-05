@@ -1,19 +1,17 @@
 ---
 UID: NF:windowsx.ListBox_GetHorizontalExtent
 title: ListBox_GetHorizontalExtent macro (windowsx.h)
-
 description: Gets the width that a list box can be scrolled horizontally (the scrollable width) if the list box has a horizontal scroll bar. You can use this macro or send the LB_GETHORIZONTALEXTENT message explicitly.
 old-location: controls\ListBox_GetHorizontalExtent.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listboxes\listboxreference\listboxmacros\listbox_gethorizontalextent.htm
-
 ms.date: 12/05/2018
 ms.keywords: ListBox_GetHorizontalExtent, ListBox_GetHorizontalExtent macro [Windows Controls], _win32_ListBox_GetHorizontalExtent, _win32_ListBox_GetHorizontalExtent_cpp, controls.ListBox_GetHorizontalExtent, controls._win32_ListBox_GetHorizontalExtent, windowsx/ListBox_GetHorizontalExtent
 ms.topic: macro
-f1_keywords: 
- - "windowsx/ListBox_GetHorizontalExtent"
+f1_keywords:
+- windowsx/ListBox_GetHorizontalExtent
 dev_langs:
- - c++
+- c++
 req.header: windowsx.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Windowsx.h
+- Windowsx.h
 api_name:
- - ListBox_GetHorizontalExtent
+- ListBox_GetHorizontalExtent
 targetos: Windows
 req.typenames: 
 req.redist: 

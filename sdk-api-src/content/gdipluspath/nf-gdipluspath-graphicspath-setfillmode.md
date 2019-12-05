@@ -1,19 +1,17 @@
 ---
 UID: NF:gdipluspath.GraphicsPath.SetFillMode
 title: GraphicsPath::SetFillMode (gdipluspath.h)
-
 description: The GraphicsPath::SetFillMode method sets the fill mode of this path.
 old-location: gdiplus\_gdiplus_CLASS_GraphicsPath_SetFillMode_fillmode_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicspathclass\graphicspathmethods\setfillmode.htm
-
 ms.date: 12/05/2018
 ms.keywords: GraphicsPath class [GDI+],SetFillMode method, GraphicsPath.SetFillMode, GraphicsPath::SetFillMode, SetFillMode, SetFillMode method [GDI+], SetFillMode method [GDI+],GraphicsPath class, _gdiplus_CLASS_GraphicsPath_SetFillMode_fillmode_, gdiplus._gdiplus_CLASS_GraphicsPath_SetFillMode_fillmode_
 ms.topic: method
-f1_keywords: 
- - "gdipluspath/GraphicsPath.SetFillMode"
+f1_keywords:
+- gdipluspath/GraphicsPath.SetFillMode
 dev_langs:
- - c++
+- c++
 req.header: gdipluspath.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - GraphicsPath.SetFillMode
+- GraphicsPath.SetFillMode
 targetos: Windows
 req.typenames: 
 req.redist: 

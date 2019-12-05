@@ -1,19 +1,17 @@
 ---
 UID: NF:icontact.IContact.CommitChanges
 title: IContact::CommitChanges (icontact.h)
-
 description: Saves changes made to this contact to the contact file.
 old-location: wincontacts\_wincontacts_IContact_CommitChanges.htm
 tech.root: wincontacts
 ms.assetid: b06f7d25-03ae-4630-9aa9-09cfbcecc416
-
 ms.date: 12/05/2018
 ms.keywords: CommitChanges, CommitChanges method [Windows Contacts], CommitChanges method [Windows Contacts],IContact interface, IContact interface [Windows Contacts],CommitChanges method, IContact.CommitChanges, IContact::CommitChanges, _wincontacts_IContact_CommitChanges, icontact/IContact::CommitChanges, wincontacts._wincontacts_IContact_CommitChanges
 ms.topic: method
-f1_keywords: 
- - "icontact/IContact.CommitChanges"
+f1_keywords:
+- icontact/IContact.CommitChanges
 dev_langs:
- - c++
+- c++
 req.header: icontact.h
 req.include-header: Contact.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wab32.dll (Version 6.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wab32.dll
+- Wab32.dll
 api_name:
- - IContact.CommitChanges
+- IContact.CommitChanges
 targetos: Windows
 req.typenames: 
 req.redist: 

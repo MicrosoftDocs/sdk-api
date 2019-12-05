@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d9helper.IDirect3DCubeTexture9.GetCubeMapSurface
 title: IDirect3DCubeTexture9::GetCubeMapSurface (d3d9helper.h)
-
 description: Retrieves a cube texture map surface.
 old-location: direct3d9\idirect3dcubetexture9__getcubemapsurface.htm
 tech.root: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3dcubetexture9__getcubemapsurface.htm
-
 ms.date: 12/05/2018
 ms.keywords: 6704f537-4e72-4fb1-e408-561e7971fd8f, GetCubeMapSurface, GetCubeMapSurface method [Direct3D 9], GetCubeMapSurface method [Direct3D 9],IDirect3DCubeTexture9 interface, IDirect3DCubeTexture9 interface [Direct3D 9],GetCubeMapSurface method, IDirect3DCubeTexture9.GetCubeMapSurface, IDirect3DCubeTexture9::GetCubeMapSurface, d3d9helper/IDirect3DCubeTexture9::GetCubeMapSurface, direct3d9.idirect3dcubetexture9__getcubemapsurface
 ms.topic: method
-f1_keywords: 
- - "d3d9helper/IDirect3DCubeTexture9.GetCubeMapSurface"
+f1_keywords:
+- d3d9helper/IDirect3DCubeTexture9.GetCubeMapSurface
 dev_langs:
- - c++
+- c++
 req.header: d3d9helper.h
 req.include-header: D3D9.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: D3D9.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D9.lib
- - D3D9.dll
+- D3D9.lib
+- D3D9.dll
 api_name:
- - IDirect3DCubeTexture9.GetCubeMapSurface
+- IDirect3DCubeTexture9.GetCubeMapSurface
 targetos: Windows
 req.typenames: 
 req.redist: 

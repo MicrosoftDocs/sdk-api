@@ -1,19 +1,17 @@
 ---
 UID: NF:msctf.ITfRange.Clone
 title: ITfRange::Clone (msctf.h)
-
 description: The ITfRange::Clone method duplicates this range of text.
 old-location: tsf\itfrange_clone.htm
 tech.root: TSF
 ms.assetid: 2b85012f-b090-4c91-b29c-b2470ff63ab6
-
 ms.date: 12/05/2018
 ms.keywords: Clone, Clone method [Text Services Framework], Clone method [Text Services Framework],ITfRange interface, ITfRange interface [Text Services Framework],Clone method, ITfRange.Clone, ITfRange::Clone, _tsf_itfrange_clone_ref, msctf/ITfRange::Clone, tsf.itfrange_clone
 ms.topic: method
-f1_keywords: 
- - "msctf/ITfRange.Clone"
+f1_keywords:
+- msctf/ITfRange.Clone
 dev_langs:
- - c++
+- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msctf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msctf.dll
+- Msctf.dll
 api_name:
- - ITfRange.Clone
+- ITfRange.Clone
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

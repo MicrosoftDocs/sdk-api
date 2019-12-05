@@ -1,19 +1,17 @@
 ---
 UID: NS:lmserver._SERVER_INFO_1506
 title: SERVER_INFO_1506 (lmserver.h)
-
 description: The SERVER_INFO_1506 structure contains information about the maximum number of work items the specified server can allocate.
 old-location: netmgmt\server_info_1506_str.htm
 tech.root: NetMgmt
 ms.assetid: 3a18838b-2a47-4b78-9356-f20de8a87d2f
-
 ms.date: 12/05/2018
-ms.keywords: "*LPSERVER_INFO_1506, *PSERVER_INFO_1506, LPSERVER_INFO_1506, LPSERVER_INFO_1506 structure pointer [Network Management], PSERVER_INFO_1506, PSERVER_INFO_1506 structure pointer [Network Management], SERVER_INFO_1506, SERVER_INFO_1506 structure [Network Management], _win32_server_info_1506_str, lmserver/LPSERVER_INFO_1506, lmserver/PSERVER_INFO_1506, lmserver/SERVER_INFO_1506, netmgmt.server_info_1506_str"
+ms.keywords: '*LPSERVER_INFO_1506, *PSERVER_INFO_1506, LPSERVER_INFO_1506, LPSERVER_INFO_1506 structure pointer [Network Management], PSERVER_INFO_1506, PSERVER_INFO_1506 structure pointer [Network Management], SERVER_INFO_1506, SERVER_INFO_1506 structure [Network Management], _win32_server_info_1506_str, lmserver/LPSERVER_INFO_1506, lmserver/PSERVER_INFO_1506, lmserver/SERVER_INFO_1506, netmgmt.server_info_1506_str'
 ms.topic: struct
-f1_keywords: 
- - "lmserver/SERVER_INFO_1506"
+f1_keywords:
+- lmserver/SERVER_INFO_1506
 dev_langs:
- - c++
+- c++
 req.header: lmserver.h
 req.include-header: Lm.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Lmserver.h
+- Lmserver.h
 api_name:
- - SERVER_INFO_1506
+- SERVER_INFO_1506
 targetos: Windows
 req.typenames: SERVER_INFO_1506, *PSERVER_INFO_1506, *LPSERVER_INFO_1506
 req.redist: 

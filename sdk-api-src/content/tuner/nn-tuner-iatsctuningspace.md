@@ -1,19 +1,17 @@
 ---
 UID: NN:tuner.IATSCTuningSpace
 title: IATSCTuningSpace (tuner.h)
-
 description: The IATSCTuningSpace interface is implemented on ATSCTuningSpace objects, which represent any tuning space with an ATSC network type.
 old-location: mstv\iatsctuningspace.htm
 tech.root: mstv
 ms.assetid: 313508e5-a9b2-42b8-bb2f-d191944d0939
-
 ms.date: 12/05/2018
 ms.keywords: IATSCTuningSpace, IATSCTuningSpace interface [Microsoft TV Technologies], IATSCTuningSpace interface [Microsoft TV Technologies],described, IATSCTuningSpaceInterface, mstv.iatsctuningspace, tuner/IATSCTuningSpace
 ms.topic: interface
-f1_keywords: 
- - "tuner/IATSCTuningSpace"
+f1_keywords:
+- tuner/IATSCTuningSpace
 dev_langs:
- - c++
+- c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - tuner.h
+- tuner.h
 api_name:
- - IATSCTuningSpace
+- IATSCTuningSpace
 targetos: Windows
 req.typenames: 
 req.redist: 

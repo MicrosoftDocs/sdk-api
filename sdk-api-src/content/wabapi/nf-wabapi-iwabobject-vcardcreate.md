@@ -1,19 +1,17 @@
 ---
 UID: NF:wabapi.IWABObject.VCardCreate
 title: IWABObject::VCardCreate (wabapi.h)
-
 description: Translates the properties of a given MailUser object into a vCard file.
 old-location: wab\_wab_IWABObject_VCardCreate.htm
 tech.root: wab
 ms.assetid: VS|wab|~\wab\reference\ifaces\iwabobject\vcardcreate.htm
-
 ms.date: 12/05/2018
 ms.keywords: IWABObject interface [Windows Address Book],VCardCreate method, IWABObject.VCardCreate, IWABObject::VCardCreate, VCardCreate, VCardCreate method [Windows Address Book], VCardCreate method [Windows Address Book],IWABObject interface, _wab_IWABObject_VCardCreate, wab._wab_IWABObject_VCardCreate, wabapi/IWABObject::VCardCreate
 ms.topic: method
-f1_keywords: 
- - "wabapi/IWABObject.VCardCreate"
+f1_keywords:
+- wabapi/IWABObject.VCardCreate
 dev_langs:
- - c++
+- c++
 req.header: wabapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wab32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wab32.dll
+- Wab32.dll
 api_name:
- - IWABObject.VCardCreate
+- IWABObject.VCardCreate
 targetos: Windows
 req.typenames: 
 req.redist: 

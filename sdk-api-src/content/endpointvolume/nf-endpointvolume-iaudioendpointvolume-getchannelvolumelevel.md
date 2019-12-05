@@ -1,19 +1,17 @@
 ---
 UID: NF:endpointvolume.IAudioEndpointVolume.GetChannelVolumeLevel
 title: IAudioEndpointVolume::GetChannelVolumeLevel (endpointvolume.h)
-
 description: The GetChannelVolumeLevel method gets the volume level, in decibels, of the specified channel in the audio stream that enters or leaves the audio endpoint device.
 old-location: coreaudio\iaudioendpointvolume_getchannelvolumelevel.htm
 tech.root: CoreAudio
 ms.assetid: 3c5b594f-60b5-4172-8e4e-440b51cb13f4
-
 ms.date: 12/05/2018
 ms.keywords: GetChannelVolumeLevel, GetChannelVolumeLevel method [Core Audio], GetChannelVolumeLevel method [Core Audio],IAudioEndpointVolume interface, IAudioEndpointVolume interface [Core Audio],GetChannelVolumeLevel method, IAudioEndpointVolume.GetChannelVolumeLevel, IAudioEndpointVolume::GetChannelVolumeLevel, IAudioEndpointVolumeGetChannelVolumeLevel, coreaudio.iaudioendpointvolume_getchannelvolumelevel, endpointvolume/IAudioEndpointVolume::GetChannelVolumeLevel
 ms.topic: method
-f1_keywords: 
- - "endpointvolume/IAudioEndpointVolume.GetChannelVolumeLevel"
+f1_keywords:
+- endpointvolume/IAudioEndpointVolume.GetChannelVolumeLevel
 dev_langs:
- - c++
+- c++
 req.header: endpointvolume.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Endpointvolume.h
+- Endpointvolume.h
 api_name:
- - IAudioEndpointVolume.GetChannelVolumeLevel
+- IAudioEndpointVolume.GetChannelVolumeLevel
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IShellItemFilter.IncludeItem
 title: IShellItemFilter::IncludeItem (shobjidl_core.h)
-
 description: Sets a given Shell item status to inclusion in the view.
 old-location: shell\IShellItemFilter_IncludeItem.htm
 tech.root: shell
 ms.assetid: 39ec171e-24a0-40ff-b199-36b5a2809164
-
 ms.date: 12/05/2018
 ms.keywords: IShellItemFilter interface [Windows Shell],IncludeItem method, IShellItemFilter.IncludeItem, IShellItemFilter::IncludeItem, IncludeItem, IncludeItem method [Windows Shell], IncludeItem method [Windows Shell],IShellItemFilter interface, _shell_IShellItemFilter_IncludeItem, shell.IShellItemFilter_IncludeItem, shobjidl_core/IShellItemFilter::IncludeItem
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IShellItemFilter.IncludeItem"
+f1_keywords:
+- shobjidl_core/IShellItemFilter.IncludeItem
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - IShellItemFilter.IncludeItem
+- IShellItemFilter.IncludeItem
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:msvidctl.IMSVidCtl.get_Enabled
 title: IMSVidCtl::get_Enabled (msvidctl.h)
-
 description: The get_Enabled method retrieves a value that determines whether the Video Control can respond to user-generated events.
 old-location: mstv\imsvidctl_get_enabled.htm
 tech.root: mstv
 ms.assetid: 7c1ec2a6-9880-4420-8d28-4374f1658bd9
-
 ms.date: 12/05/2018
 ms.keywords: IMSVidCtl interface [Microsoft TV Technologies],get_Enabled method, IMSVidCtl.get_Enabled, IMSVidCtl::get_Enabled, IMSVidCtlget_Enabled, get_Enabled, get_Enabled method [Microsoft TV Technologies], get_Enabled method [Microsoft TV Technologies],IMSVidCtl interface, mstv.imsvidctl_get_enabled, msvidctl/IMSVidCtl::get_Enabled
 ms.topic: method
-f1_keywords: 
- - "msvidctl/IMSVidCtl.get_Enabled"
+f1_keywords:
+- msvidctl/IMSVidCtl.get_Enabled
 dev_langs:
- - c++
+- c++
 req.header: msvidctl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msvidctl.h
+- msvidctl.h
 api_name:
- - IMSVidCtl.get_Enabled
+- IMSVidCtl.get_Enabled
 targetos: Windows
 req.typenames: 
 req.redist: 

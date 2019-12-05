@@ -1,19 +1,17 @@
 ---
 UID: NN:dxgi.IDXGIKeyedMutex
 title: IDXGIKeyedMutex (dxgi.h)
-
 description: Represents a keyed mutex, which allows exclusive access to a shared resource that is used by multiple devices.
 old-location: direct3ddxgi\idxgikeyedmutex.htm
 tech.root: direct3ddxgi
 ms.assetid: f790eb46-f116-4258-8c8d-de1ece4a1f21
-
 ms.date: 12/05/2018
 ms.keywords: 624ec55f-8325-5294-526a-89138f1d7331, IDXGIKeyedMutex, IDXGIKeyedMutex interface [DXGI], IDXGIKeyedMutex interface [DXGI],described, direct3ddxgi.idxgikeyedmutex, dxgi/IDXGIKeyedMutex
 ms.topic: interface
-f1_keywords: 
- - "dxgi/IDXGIKeyedMutex"
+f1_keywords:
+- dxgi/IDXGIKeyedMutex
 dev_langs:
- - c++
+- c++
 req.header: dxgi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: DXGI.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - DXGI.lib
- - DXGI.dll
+- DXGI.lib
+- DXGI.dll
 api_name:
- - IDXGIKeyedMutex
+- IDXGIKeyedMutex
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:frquery.CFrameworkQuery.GetQuery
 title: CFrameworkQuery::GetQuery (frquery.h)
-
 description: The GetQuery method retrieves the actual WQL command associated with the CFrameworkQuery object.
 old-location: wmi\cframeworkquery_getquery.htm
 tech.root: WmiSdk
 ms.assetid: 2f7b5057-8522-4ef3-bf5a-3b96b72128b3
-
 ms.date: 12/05/2018
-ms.keywords: "?GetQuery@CFrameworkQuery@@QAEABVCHString@@XZ, CFrameworkQuery interface [Windows Management Instrumentation],GetQuery method, CFrameworkQuery.GetQuery, CFrameworkQuery::GetQuery, GetQuery, GetQuery method [Windows Management Instrumentation], GetQuery method [Windows Management Instrumentation],CFrameworkQuery interface, _hmm_cframeworkquery_getquery, frquery/CFrameworkQuery::GetQuery, wmi.cframeworkquery_getquery"
+ms.keywords: ?GetQuery@CFrameworkQuery@@QAEABVCHString@@XZ, CFrameworkQuery interface [Windows Management Instrumentation],GetQuery method, CFrameworkQuery.GetQuery, CFrameworkQuery::GetQuery, GetQuery, GetQuery method [Windows Management Instrumentation], GetQuery method [Windows Management Instrumentation],CFrameworkQuery interface, _hmm_cframeworkquery_getquery, frquery/CFrameworkQuery::GetQuery, wmi.cframeworkquery_getquery
 ms.topic: method
-f1_keywords: 
- - "frquery/CFrameworkQuery.GetQuery"
+f1_keywords:
+- frquery/CFrameworkQuery.GetQuery
 dev_langs:
- - c++
+- c++
 req.header: frquery.h
 req.include-header: FwCommon.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: FrameDyn.lib
 req.dll: FrameDynOS.dll; FrameDyn.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - FrameDynOS.dll
- - FrameDyn.dll
+- FrameDynOS.dll
+- FrameDyn.dll
 api_name:
- - CFrameworkQuery.GetQuery
- - ?GetQuery@CFrameworkQuery@@QAEABVCHString@@XZ
+- CFrameworkQuery.GetQuery
+- ?GetQuery@CFrameworkQuery@@QAEABVCHString@@XZ
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NN:appxpackaging.IAppxBlockMapBlock
 title: IAppxBlockMapBlock (appxpackaging.h)
-
 description: The IAppxBlockMapBlock interface provides a read-only object that represents an individual block within a file contained in the block map file (AppxBlockMap.xml) for the App package.
 old-location: appxpkg\iappxblockmapblock.htm
 tech.root: appxpkg
 ms.assetid: 39B0680A-F27B-478F-8E83-FE1BFCF61AC4
-
 ms.date: 12/05/2018
 ms.keywords: IAppxBlockMapBlock, IAppxBlockMapBlock interface [App packaging and management], IAppxBlockMapBlock interface [App packaging and management],described, appxpackaging/IAppxBlockMapBlock, appxpkg.iappxblockmapblock
 ms.topic: interface
-f1_keywords: 
- - "appxpackaging/IAppxBlockMapBlock"
+f1_keywords:
+- appxpackaging/IAppxBlockMapBlock
 dev_langs:
- - c++
+- c++
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - AppxPackaging.h
+- AppxPackaging.h
 api_name:
- - IAppxBlockMapBlock
+- IAppxBlockMapBlock
 targetos: Windows
 req.typenames: 
 req.redist: 

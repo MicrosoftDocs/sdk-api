@@ -1,19 +1,17 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMBrush.GetOpacity
 title: IXpsOMBrush::GetOpacity (xpsobjectmodel.h)
-
 description: Gets the opacity of the brush.
 old-location: xps\ixpsombrush_getopacity.htm
 tech.root: printdocs
 ms.assetid: 53819ce0-4b81-4720-8c1d-6e9031b228c9
-
 ms.date: 12/05/2018
 ms.keywords: GetOpacity, GetOpacity method [XPS Documents and Packaging], GetOpacity method [XPS Documents and Packaging],IXpsOMBrush interface, IXpsOMBrush interface [XPS Documents and Packaging],GetOpacity method, IXpsOMBrush.GetOpacity, IXpsOMBrush::GetOpacity, xps.ixpsombrush_getopacity, xpsobjectmodel/IXpsOMBrush::GetOpacity
 ms.topic: method
-f1_keywords: 
- - "xpsobjectmodel/IXpsOMBrush.GetOpacity"
+f1_keywords:
+- xpsobjectmodel/IXpsOMBrush.GetOpacity
 dev_langs:
- - c++
+- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsobjectmodel.h
+- xpsobjectmodel.h
 api_name:
- - IXpsOMBrush.GetOpacity
+- IXpsOMBrush.GetOpacity
 targetos: Windows
 req.typenames: 
 req.redist: 

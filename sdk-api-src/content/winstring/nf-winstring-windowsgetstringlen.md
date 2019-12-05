@@ -1,19 +1,17 @@
 ---
 UID: NF:winstring.WindowsGetStringLen
 title: WindowsGetStringLen function (winstring.h)
-
 description: Gets the length, in Unicode characters, of the specified string.
 old-location: winrt\windowsgetstringlen.htm
 tech.root: WinRT
 ms.assetid: 80B659DF-C760-4D9E-B779-144A5B8FEA59
-
 ms.date: 12/05/2018
 ms.keywords: WindowsGetStringLen, WindowsGetStringLen function [Windows Runtime], winrt.windowsgetstringlen, winstring/WindowsGetStringLen
 ms.topic: function
-f1_keywords: 
- - "winstring/WindowsGetStringLen"
+f1_keywords:
+- winstring/WindowsGetStringLen
 dev_langs:
- - c++
+- c++
 req.header: winstring.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - winstring.h
- - API-MS-Win-Core-WinRT-String-l1-1-0.dll
- - ComBase.dll
- - API-MS-Win-Core-WinRT-String-L1-1-1.dll
+- winstring.h
+- API-MS-Win-Core-WinRT-String-l1-1-0.dll
+- ComBase.dll
+- API-MS-Win-Core-WinRT-String-L1-1-1.dll
 api_name:
- - WindowsGetStringLen
+- WindowsGetStringLen
 targetos: Windows
 req.typenames: 
 req.redist: 

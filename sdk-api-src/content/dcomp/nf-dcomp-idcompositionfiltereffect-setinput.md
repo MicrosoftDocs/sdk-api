@@ -1,19 +1,17 @@
 ---
 UID: NF:dcomp.IDCompositionFilterEffect.SetInput
 title: IDCompositionFilterEffect::SetInput (dcomp.h)
-
 description: Sets the the input at an index to the specified filter effect.
 old-location: directcomp\idcompositionfiltereffect_setinput.htm
 tech.root: directcomp
 ms.assetid: 8DFF137E-2979-42D4-A8A5-F831A33468CA
-
 ms.date: 12/05/2018
 ms.keywords: IDCompositionFilterEffect interface [DirectComposition],SetInput method, IDCompositionFilterEffect.SetInput, IDCompositionFilterEffect::SetInput, SetInput, SetInput method [DirectComposition], SetInput method [DirectComposition],IDCompositionFilterEffect interface, dcomp/IDCompositionFilterEffect::SetInput, directcomp.idcompositionfiltereffect_setinput
 ms.topic: method
-f1_keywords: 
- - "dcomp/IDCompositionFilterEffect.SetInput"
+f1_keywords:
+- dcomp/IDCompositionFilterEffect.SetInput
 dev_langs:
- - c++
+- c++
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dcomp.lib
 req.dll: Dcomp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dcomp.dll
+- Dcomp.dll
 api_name:
- - IDCompositionFilterEffect.SetInput
+- IDCompositionFilterEffect.SetInput
 targetos: Windows
 req.typenames: 
 req.redist: 

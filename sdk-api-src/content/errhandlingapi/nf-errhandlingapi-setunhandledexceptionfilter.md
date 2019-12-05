@@ -1,19 +1,17 @@
 ---
 UID: NF:errhandlingapi.SetUnhandledExceptionFilter
 title: SetUnhandledExceptionFilter function (errhandlingapi.h)
-
 description: Enables an application to supersede the top-level exception handler of each thread of a process.
 old-location: base\setunhandledexceptionfilter.htm
 tech.root: Debug
 ms.assetid: 1c3bfdda-8049-4c3f-8ee6-0ee5c77b50ae
-
 ms.date: 12/05/2018
 ms.keywords: EXCEPTION_CONTINUE_EXECUTION, EXCEPTION_CONTINUE_SEARCH, EXCEPTION_EXECUTE_HANDLER, SetUnhandledExceptionFilter, SetUnhandledExceptionFilter function, _win32_setunhandledexceptionfilter, base.setunhandledexceptionfilter, errhandlingapi/SetUnhandledExceptionFilter
 ms.topic: function
-f1_keywords: 
- - "errhandlingapi/SetUnhandledExceptionFilter"
+f1_keywords:
+- errhandlingapi/SetUnhandledExceptionFilter
 dev_langs:
- - c++
+- c++
 req.header: errhandlingapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,21 +30,21 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-errorhandling-l1-1-0.dll
- - KernelBase.dll
- - API-MS-Win-Core-errorhandling-l1-1-1.dll
- - API-MS-Win-Core-errorhandling-l1-1-2.dll
- - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
- - MinKernelBase.dll
- - API-MS-Win-Core-ErrorHandling-L1-1-3.dll
+- Kernel32.dll
+- API-MS-Win-Core-errorhandling-l1-1-0.dll
+- KernelBase.dll
+- API-MS-Win-Core-errorhandling-l1-1-1.dll
+- API-MS-Win-Core-errorhandling-l1-1-2.dll
+- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+- MinKernelBase.dll
+- API-MS-Win-Core-ErrorHandling-L1-1-3.dll
 api_name:
- - SetUnhandledExceptionFilter
+- SetUnhandledExceptionFilter
 targetos: Windows
 req.typenames: 
 req.redist: 

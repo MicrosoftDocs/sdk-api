@@ -1,19 +1,17 @@
 ---
 UID: NF:msinkaut.IInkRecognitionAlternates.get_Count
 title: IInkRecognitionAlternates::get_Count (msinkaut.h)
-
 description: Gets the number of objects or collections contained in a collection.
 old-location: tablet\iinkrecognitionalternates_count.htm
 tech.root: tablet
 ms.assetid: 2bcca92c-ba9f-437f-b7a9-6056da243d1a
-
 ms.date: 12/05/2018
 ms.keywords: Count property [Tablet PC], Count property [Tablet PC],IInkRecognitionAlternates interface, IInkRecognitionAlternates interface [Tablet PC],Count property, IInkRecognitionAlternates.Count, IInkRecognitionAlternates.get_Count, IInkRecognitionAlternates::Count, IInkRecognitionAlternates::get_Count, get_Count, msinkaut/IInkRecognitionAlternates::Count, msinkaut/IInkRecognitionAlternates::get_Count, tablet.iinkrecognitionalternates_count
 ms.topic: method
-f1_keywords: 
- - "msinkaut/IInkRecognitionAlternates.Count"
+f1_keywords:
+- msinkaut/IInkRecognitionAlternates.Count
 dev_langs:
- - c++
+- c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: InkObj.dll
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - InkObj.dll
- - InkObj.dll.dll
+- InkObj.dll
+- InkObj.dll.dll
 api_name:
- - IInkRecognitionAlternates.Count
- - IInkRecognitionAlternates.get_Count
- - IInkRecognitionAlternates.get_Count
+- IInkRecognitionAlternates.Count
+- IInkRecognitionAlternates.get_Count
+- IInkRecognitionAlternates.get_Count
 targetos: Windows
 req.typenames: 
 req.redist: 

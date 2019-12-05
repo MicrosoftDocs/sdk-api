@@ -1,19 +1,17 @@
 ---
 UID: NF:msinkaut.IInkRecognitionAlternate.get_Ascender
 title: IInkRecognitionAlternate::get_Ascender (msinkaut.h)
-
 description: Gets the ascender line for a IInkRecognitionAlternate object that represents a single line of text.
 old-location: tablet\iinkrecognitionalternate_ascender.htm
 tech.root: tablet
 ms.assetid: 4cc7bd86-e098-4de7-a73a-b878cba37e88
-
 ms.date: 12/05/2018
 ms.keywords: 4cc7bd86-e098-4de7-a73a-b878cba37e88, Ascender property [Tablet PC], Ascender property [Tablet PC],IInkRecognitionAlternate interface, IInkRecognitionAlternate interface [Tablet PC],Ascender property, IInkRecognitionAlternate.Ascender, IInkRecognitionAlternate.get_Ascender, IInkRecognitionAlternate::Ascender, IInkRecognitionAlternate::get_Ascender, get_Ascender, msinkaut/IInkRecognitionAlternate::Ascender, msinkaut/IInkRecognitionAlternate::get_Ascender, tablet.iinkrecognitionalternate_ascender
 ms.topic: method
-f1_keywords: 
- - "msinkaut/IInkRecognitionAlternate.Ascender"
+f1_keywords:
+- msinkaut/IInkRecognitionAlternate.Ascender
 dev_langs:
- - c++
+- c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: InkObj.dll
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - InkObj.dll
- - InkObj.dll.dll
+- InkObj.dll
+- InkObj.dll.dll
 api_name:
- - IInkRecognitionAlternate.Ascender
- - IInkRecognitionAlternate.get_Ascender
- - IInkRecognitionAlternate.get_Ascender
+- IInkRecognitionAlternate.Ascender
+- IInkRecognitionAlternate.get_Ascender
+- IInkRecognitionAlternate.get_Ascender
 targetos: Windows
 req.typenames: 
 req.redist: 

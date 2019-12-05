@@ -1,19 +1,17 @@
 ---
 UID: NS:msclus.RESOURCE_TERMINAL_FAILURE_INFO_BUFFER
 title: RESOURCE_TERMINAL_FAILURE_INFO_BUFFER (msclus.h)
-
 description: Represents a buffer for a terminal failure for a resource.
 old-location: mscs\resource_terminal_failure_info_buffer.htm
 tech.root: MsCS
 ms.assetid: D84EEF3A-BDB4-4D6E-BDC6-5A39DC32945E
-
 ms.date: 12/05/2018
-ms.keywords: "*PRESOURCE_TERMINAL_FAILURE_INFO_BUFFER, PRESOURCE_TERMINAL_FAILURE_INFO_BUFFER, PRESOURCE_TERMINAL_FAILURE_INFO_BUFFER structure pointer [Failover Cluster], RESOURCE_TERMINAL_FAILURE_INFO_BUFFER, RESOURCE_TERMINAL_FAILURE_INFO_BUFFER structure [Failover Cluster], clusapi/PRESOURCE_TERMINAL_FAILURE_INFO_BUFFER, clusapi/RESOURCE_TERMINAL_FAILURE_INFO_BUFFER, msclus/PRESOURCE_TERMINAL_FAILURE_INFO_BUFFER, msclus/RESOURCE_TERMINAL_FAILURE_INFO_BUFFER, mscs.resource_terminal_failure_info_buffer"
+ms.keywords: '*PRESOURCE_TERMINAL_FAILURE_INFO_BUFFER, PRESOURCE_TERMINAL_FAILURE_INFO_BUFFER, PRESOURCE_TERMINAL_FAILURE_INFO_BUFFER structure pointer [Failover Cluster], RESOURCE_TERMINAL_FAILURE_INFO_BUFFER, RESOURCE_TERMINAL_FAILURE_INFO_BUFFER structure [Failover Cluster], clusapi/PRESOURCE_TERMINAL_FAILURE_INFO_BUFFER, clusapi/RESOURCE_TERMINAL_FAILURE_INFO_BUFFER, msclus/PRESOURCE_TERMINAL_FAILURE_INFO_BUFFER, msclus/RESOURCE_TERMINAL_FAILURE_INFO_BUFFER, mscs.resource_terminal_failure_info_buffer'
 ms.topic: struct
-f1_keywords: 
- - "msclus/RESOURCE_TERMINAL_FAILURE_INFO_BUFFER"
+f1_keywords:
+- msclus/RESOURCE_TERMINAL_FAILURE_INFO_BUFFER
 dev_langs:
- - c++
+- c++
 req.header: msclus.h
 req.include-header: 
 req.target-type: Windows
@@ -32,13 +30,13 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - kbSyntax
+- kbSyntax
 api_type:
- - <TBD>
+- <TBD>
 api_location:
- -
+- 
 api_name:
- - RESOURCE_TERMINAL_FAILURE_INFO_BUFFER
+- RESOURCE_TERMINAL_FAILURE_INFO_BUFFER
 targetos: Windows
 req.typenames: RESOURCE_TERMINAL_FAILURE_INFO_BUFFER, *PRESOURCE_TERMINAL_FAILURE_INFO_BUFFER
 req.redist: 

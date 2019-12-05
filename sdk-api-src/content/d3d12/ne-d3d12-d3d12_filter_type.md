@@ -1,19 +1,17 @@
 ---
 UID: NE:d3d12.D3D12_FILTER_TYPE
 title: D3D12_FILTER_TYPE (d3d12.h)
-
 description: Specifies the type of magnification or minification sampler filters.
 old-location: direct3d12\d3d12_filter_type.htm
 tech.root: direct3d12
 ms.assetid: 3988D194-97C7-46C7-829D-154891684D68
-
 ms.date: 12/05/2018
 ms.keywords: D3D12_FILTER_TYPE, D3D12_FILTER_TYPE enumeration, D3D12_FILTER_TYPE_LINEAR, D3D12_FILTER_TYPE_POINT, d3d12/D3D12_FILTER_TYPE, d3d12/D3D12_FILTER_TYPE_LINEAR, d3d12/D3D12_FILTER_TYPE_POINT, direct3d12.d3d12_filter_type
 ms.topic: enum
-f1_keywords: 
- - "d3d12/D3D12_FILTER_TYPE"
+f1_keywords:
+- d3d12/D3D12_FILTER_TYPE
 dev_langs:
- - c++
+- c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - D3D12.h
+- D3D12.h
 api_name:
- - D3D12_FILTER_TYPE
+- D3D12_FILTER_TYPE
 targetos: Windows
 req.typenames: D3D12_FILTER_TYPE
 req.redist: 

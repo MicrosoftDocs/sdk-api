@@ -1,19 +1,17 @@
 ---
 UID: NF:winternl.NtQueryInformationThread
 title: NtQueryInformationThread function (winternl.h)
-
 description: Retrieves information about the specified thread.
 old-location: base\ntqueryinformationthread.htm
 tech.root: ProcThread
 ms.assetid: ca292efc-1ea9-4c0f-b0a7-1cfb35d69f81
-
 ms.date: 12/05/2018
 ms.keywords: NtQueryInformationThread, NtQueryInformationThread function, base.ntqueryinformationthread, winternl/NtQueryInformationThread
 ms.topic: function
-f1_keywords: 
- - "winternl/NtQueryInformationThread"
+f1_keywords:
+- winternl/NtQueryInformationThread
 dev_langs:
- - c++
+- c++
 req.header: winternl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Ntdll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ntdll.dll
+- Ntdll.dll
 api_name:
- - NtQueryInformationThread
+- NtQueryInformationThread
 targetos: Windows
 req.typenames: 
 req.redist: 

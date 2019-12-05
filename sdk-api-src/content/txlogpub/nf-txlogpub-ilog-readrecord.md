@@ -1,19 +1,17 @@
 ---
 UID: NF:txlogpub.ILog.ReadRecord
 title: ILog::ReadRecord (txlogpub.h)
-
 description: Read a record from the log.
 old-location: com\ilog_readrecord.htm
 tech.root: com
 ms.assetid: 756d56a4-083f-45cd-bcdc-7c8a15dabae6
-
 ms.date: 12/05/2018
 ms.keywords: ILog interface [COM],ReadRecord method, ILog.ReadRecord, ILog::ReadRecord, ReadRecord, ReadRecord method [COM], ReadRecord method [COM],ILog interface, _com_ilog_readrecord, com.ilog_readrecord, txlogpub/ILog::ReadRecord
 ms.topic: method
-f1_keywords: 
- - "txlogpub/ILog.ReadRecord"
+f1_keywords:
+- txlogpub/ILog.ReadRecord
 dev_langs:
- - c++
+- c++
 req.header: txlogpub.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Txlogpub.h
+- Txlogpub.h
 api_name:
- - ILog.ReadRecord
+- ILog.ReadRecord
 targetos: Windows
 req.typenames: 
 req.redist: 

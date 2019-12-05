@@ -1,19 +1,17 @@
 ---
 UID: NF:wmsdkidl.IWMMutualExclusion2.GetRecordCount
 title: IWMMutualExclusion2::GetRecordCount (wmsdkidl.h)
-
 description: The GetRecordCount method retrieves the number of records present in the mutual exclusion object.
 old-location: wmformat\iwmmutualexclusion2_getrecordcount.htm
 tech.root: wmformat
 ms.assetid: 6e113601-1ac7-42a3-8e46-f1ba67ebb071
-
 ms.date: 12/05/2018
 ms.keywords: GetRecordCount, GetRecordCount method [windows Media Format], GetRecordCount method [windows Media Format],IWMMutualExclusion2 interface, IWMMutualExclusion2 interface [windows Media Format],GetRecordCount method, IWMMutualExclusion2.GetRecordCount, IWMMutualExclusion2::GetRecordCount, IWMMutualExclusion2GetRecordCount, wmformat.iwmmutualexclusion2_getrecordcount, wmsdkidl/IWMMutualExclusion2::GetRecordCount
 ms.topic: method
-f1_keywords: 
- - "wmsdkidl/IWMMutualExclusion2.GetRecordCount"
+f1_keywords:
+- wmsdkidl/IWMMutualExclusion2.GetRecordCount
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wmvcore.lib
- - Wmvcore.dll
- - WMStubDRM.lib
- - WMStubDRM.dll
+- Wmvcore.lib
+- Wmvcore.dll
+- WMStubDRM.lib
+- WMStubDRM.dll
 api_name:
- - IWMMutualExclusion2.GetRecordCount
+- IWMMutualExclusion2.GetRecordCount
 targetos: Windows
 req.typenames: 
 req.redist: 

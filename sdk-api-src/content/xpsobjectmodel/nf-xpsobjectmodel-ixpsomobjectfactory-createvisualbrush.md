@@ -1,19 +1,17 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMObjectFactory.CreateVisualBrush
 title: IXpsOMObjectFactory::CreateVisualBrush (xpsobjectmodel.h)
-
 description: Creates an IXpsOMVisualBrush interface, which is an IXpsOMTileBrush that uses a visual object.
 old-location: xps\ixpsomobjectfactory_createvisualbrush.htm
 tech.root: printdocs
 ms.assetid: ad19841a-629f-4127-a6ea-890168e0c53c
-
 ms.date: 12/05/2018
 ms.keywords: CreateVisualBrush, CreateVisualBrush method [XPS Documents and Packaging], CreateVisualBrush method [XPS Documents and Packaging],IXpsOMObjectFactory interface, IXpsOMObjectFactory interface [XPS Documents and Packaging],CreateVisualBrush method, IXpsOMObjectFactory.CreateVisualBrush, IXpsOMObjectFactory::CreateVisualBrush, xps.ixpsomobjectfactory_createvisualbrush, xpsobjectmodel/IXpsOMObjectFactory::CreateVisualBrush
 ms.topic: method
-f1_keywords: 
- - "xpsobjectmodel/IXpsOMObjectFactory.CreateVisualBrush"
+f1_keywords:
+- xpsobjectmodel/IXpsOMObjectFactory.CreateVisualBrush
 dev_langs:
- - c++
+- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsobjectmodel.h
+- xpsobjectmodel.h
 api_name:
- - IXpsOMObjectFactory.CreateVisualBrush
+- IXpsOMObjectFactory.CreateVisualBrush
 targetos: Windows
 req.typenames: 
 req.redist: 

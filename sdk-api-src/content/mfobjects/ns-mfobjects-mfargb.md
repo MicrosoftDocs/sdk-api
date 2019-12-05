@@ -1,19 +1,17 @@
 ---
 UID: NS:mfobjects._MFARGB
 title: MFARGB (mfobjects.h)
-
 description: Describes an ARGB color value.
 old-location: mf\mfargb.htm
 tech.root: medfound
 ms.assetid: ce7ac174-9f00-42a4-9b48-ed86b406d83e
-
 ms.date: 12/05/2018
 ms.keywords: MFARGB, MFARGB structure [Media Foundation], ce7ac174-9f00-42a4-9b48-ed86b406d83e, mf.mfargb, mfobjects/MFARGB
 ms.topic: struct
-f1_keywords: 
- - "mfobjects/MFARGB"
+f1_keywords:
+- mfobjects/MFARGB
 dev_langs:
- - c++
+- c++
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - mfobjects.h
+- mfobjects.h
 api_name:
- - MFARGB
+- MFARGB
 targetos: Windows
 req.typenames: MFARGB
 req.redist: 

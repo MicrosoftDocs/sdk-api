@@ -1,19 +1,17 @@
 ---
 UID: NF:wia_xp.IEnumWiaItem.Skip
 title: IEnumWiaItem::Skip (wia_xp.h)
-
 description: The IEnumWiaItem::Skip method skips the specified number of items during an enumeration of available IWiaItem objects.
 old-location: wia\_wia_IEnumWiaItem_Skip.htm
 tech.root: wia
 ms.assetid: VS|wia|~\wia\refwia\ifaces\ienumwiaitem\skip.htm
-
 ms.date: 12/05/2018
 ms.keywords: IEnumWiaItem interface [WIA],Skip method, IEnumWiaItem.Skip, IEnumWiaItem::Skip, Skip, Skip method [WIA], Skip method [WIA],IEnumWiaItem interface, _wia_IEnumWiaItem_Skip, wia._wia_IEnumWiaItem_Skip, wia_xp/IEnumWiaItem::Skip
 ms.topic: method
-f1_keywords: 
- - "wia_xp/IEnumWiaItem.Skip"
+f1_keywords:
+- wia_xp/IEnumWiaItem.Skip
 dev_langs:
- - c++
+- c++
 req.header: wia_xp.h
 req.include-header: Wia.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Wiaguid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wiaguid.lib
- - Wiaguid.dll
+- Wiaguid.lib
+- Wiaguid.dll
 api_name:
- - IEnumWiaItem.Skip
+- IEnumWiaItem.Skip
 targetos: Windows
 req.typenames: 
 req.redist: 

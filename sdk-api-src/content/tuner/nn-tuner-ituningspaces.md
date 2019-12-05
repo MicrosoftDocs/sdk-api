@@ -1,19 +1,17 @@
 ---
 UID: NN:tuner.ITuningSpaces
 title: ITuningSpaces (tuner.h)
-
 description: The ITuningSpaces interface represents a collection of tuning spaces.
 old-location: mstv\ituningspaces.htm
 tech.root: mstv
 ms.assetid: db252e22-8efe-4bfc-8fd3-2be7022bbbbd
-
 ms.date: 12/05/2018
 ms.keywords: ITuningSpaces, ITuningSpaces interface [Microsoft TV Technologies], ITuningSpaces interface [Microsoft TV Technologies],described, ITuningSpacesInterface, mstv.ituningspaces, tuner/ITuningSpaces
 ms.topic: interface
-f1_keywords: 
- - "tuner/ITuningSpaces"
+f1_keywords:
+- tuner/ITuningSpaces
 dev_langs:
- - c++
+- c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - tuner.h
+- tuner.h
 api_name:
- - ITuningSpaces
+- ITuningSpaces
 targetos: Windows
 req.typenames: 
 req.redist: 

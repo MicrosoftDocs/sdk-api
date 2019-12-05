@@ -1,19 +1,17 @@
 ---
 UID: NF:olectl.DllUnregisterServer
 title: DllUnregisterServer function (olectl.h)
-
 description: Instructs an in-process server to remove only those entries created through DllRegisterServer.
 old-location: com\dllunregisterserver.htm
 tech.root: com
 ms.assetid: b71137a7-284e-4521-a3b2-9dad9c9d3c54
-
 ms.date: 12/05/2018
 ms.keywords: DllUnregisterServer, DllUnregisterServer function [COM], _com_DllUnregisterServer, com.dllunregisterserver, olectl/DllUnregisterServer
 ms.topic: function
-f1_keywords: 
- - "olectl/DllUnregisterServer"
+f1_keywords:
+- olectl/DllUnregisterServer
 dev_langs:
- - c++
+- c++
 req.header: olectl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Ole32.lib
 req.dll: Ole32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ole32.dll
+- Ole32.dll
 api_name:
- - DllUnregisterServer
+- DllUnregisterServer
 targetos: Windows
 req.typenames: 
 req.redist: 

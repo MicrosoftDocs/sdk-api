@@ -1,19 +1,17 @@
 ---
 UID: NF:wcmconfig.ITargetInfo.GetSchemaHiveLocation
 title: ITargetInfo::GetSchemaHiveLocation (wcmconfig.h)
-
 description: Get the location of the schema hive.
 old-location: smi\itargetinfo_getschemahivelocation.htm
 tech.root: SMI
 ms.assetid: ad9accbd-0d23-40e6-8132-5a0c63a1b12a
-
 ms.date: 12/05/2018
 ms.keywords: GetSchemaHiveLocation, GetSchemaHiveLocation method [SMI], GetSchemaHiveLocation method [SMI],ITargetInfo interface, ITargetInfo interface [SMI],GetSchemaHiveLocation method, ITargetInfo.GetSchemaHiveLocation, ITargetInfo::GetSchemaHiveLocation, smi.itargetinfo_getschemahivelocation, wcmconfig/ITargetInfo::GetSchemaHiveLocation
 ms.topic: method
-f1_keywords: 
- - "wcmconfig/ITargetInfo.GetSchemaHiveLocation"
+f1_keywords:
+- wcmconfig/ITargetInfo.GetSchemaHiveLocation
 dev_langs:
- - c++
+- c++
 req.header: wcmconfig.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: SMIEngine.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - SMIEngine.dll
+- SMIEngine.dll
 api_name:
- - ITargetInfo.GetSchemaHiveLocation
+- ITargetInfo.GetSchemaHiveLocation
 targetos: Windows
 req.typenames: 
 req.redist: 

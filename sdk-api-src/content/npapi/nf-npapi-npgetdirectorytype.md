@@ -1,19 +1,17 @@
 ---
 UID: NF:npapi.NPGetDirectoryType
 title: NPGetDirectoryType function (npapi.h)
-
 description: Determines the type of a network directory.
 old-location: security\npgetdirectorytype.htm
 tech.root: SecAuthN
 ms.assetid: 70ee5c14-1395-470a-970c-91a3d3ac0fd1
-
 ms.date: 12/05/2018
 ms.keywords: NPGetDirectoryType, NPGetDirectoryType function [Security], _mnp_npgetdirectorytype, npapi/NPGetDirectoryType, security.npgetdirectorytype
 ms.topic: function
-f1_keywords: 
- - "npapi/NPGetDirectoryType"
+f1_keywords:
+- npapi/NPGetDirectoryType
 dev_langs:
- - c++
+- c++
 req.header: npapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Npapi.h
+- Npapi.h
 api_name:
- - NPGetDirectoryType
+- NPGetDirectoryType
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:objidl.IEnumMoniker.Reset
 title: IEnumMoniker::Reset (objidl.h)
-
 description: Resets the enumeration sequence to the beginning.
 old-location: com\ienummoniker_reset.htm
 tech.root: com
 ms.assetid: 0b7c74b4-cbcb-44cc-8bea-feb55abb5643
-
 ms.date: 12/05/2018
 ms.keywords: IEnumMoniker interface [COM],Reset method, IEnumMoniker.Reset, IEnumMoniker::Reset, Reset, Reset method [COM], Reset method [COM],IEnumMoniker interface, _ole_ienummoniker_reset, com.ienummoniker_reset, objidl/IEnumMoniker::Reset
 ms.topic: method
-f1_keywords: 
- - "objidl/IEnumMoniker.Reset"
+f1_keywords:
+- objidl/IEnumMoniker.Reset
 dev_langs:
- - c++
+- c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ObjIdl.h
+- ObjIdl.h
 api_name:
- - IEnumMoniker.Reset
+- IEnumMoniker.Reset
 targetos: Windows
 req.typenames: 
 req.redist: 

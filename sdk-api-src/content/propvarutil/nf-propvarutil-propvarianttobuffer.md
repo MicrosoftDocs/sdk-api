@@ -1,19 +1,17 @@
 ---
 UID: NF:propvarutil.PropVariantToBuffer
 title: PropVariantToBuffer function (propvarutil.h)
-
 description: Extracts the buffer value from a PROPVARIANT structure of type VT_VECTOR | VT_UI1 or VT_ARRRAY | VT_UI1.
 old-location: properties\PropVariantToBuffer.htm
 tech.root: properties
 ms.assetid: 8adfc942-ad91-43bb-8d23-8994026666ff
-
 ms.date: 12/05/2018
 ms.keywords: PropVariantToBuffer, PropVariantToBuffer function [Windows Properties], properties.PropVariantToBuffer, propvarutil/PropVariantToBuffer, shell.PropVariantToBuffer, shell_PropVariantToBuffer
 ms.topic: function
-f1_keywords: 
- - "propvarutil/PropVariantToBuffer"
+f1_keywords:
+- propvarutil/PropVariantToBuffer
 dev_langs:
- - c++
+- c++
 req.header: propvarutil.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Propsys.lib
 req.dll: Propsys.dll (version 6.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Propsys.dll
+- Propsys.dll
 api_name:
- - PropVariantToBuffer
+- PropVariantToBuffer
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0

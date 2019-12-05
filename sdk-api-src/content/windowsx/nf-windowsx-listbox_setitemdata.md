@@ -1,19 +1,17 @@
 ---
 UID: NF:windowsx.ListBox_SetItemData
 title: ListBox_SetItemData macro (windowsx.h)
-
 description: Sets the application-defined value associated with the specified list box item. You can use this macro or send the LB_SETITEMDATA message explicitly.
 old-location: controls\ListBox_SetItemData.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listboxes\listboxreference\listboxmacros\listbox_setitemdata.htm
-
 ms.date: 12/05/2018
 ms.keywords: ListBox_SetItemData, ListBox_SetItemData macro [Windows Controls], _win32_ListBox_SetItemData, _win32_ListBox_SetItemData_cpp, controls.ListBox_SetItemData, controls._win32_ListBox_SetItemData, windowsx/ListBox_SetItemData
 ms.topic: macro
-f1_keywords: 
- - "windowsx/ListBox_SetItemData"
+f1_keywords:
+- windowsx/ListBox_SetItemData
 dev_langs:
- - c++
+- c++
 req.header: windowsx.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Windowsx.h
+- Windowsx.h
 api_name:
- - ListBox_SetItemData
+- ListBox_SetItemData
 targetos: Windows
 req.typenames: 
 req.redist: 

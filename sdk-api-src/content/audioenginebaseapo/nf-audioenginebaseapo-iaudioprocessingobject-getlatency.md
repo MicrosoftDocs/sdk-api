@@ -1,19 +1,17 @@
 ---
 UID: NF:audioenginebaseapo.IAudioProcessingObject.GetLatency
 title: IAudioProcessingObject::GetLatency (audioenginebaseapo.h)
-
 description: The GetLatency method returns the latency for this APO. Latency is the amount of time it takes a frame to traverse the processing pass of an APO.
 old-location: audio\iaudioprocessingobject_getlatency.htm
 tech.root: audio
 ms.assetid: 7ac982cd-7fb7-4427-ac17-508bcc72391d
-
 ms.date: 12/05/2018
 ms.keywords: GetLatency, GetLatency method [Audio Devices], GetLatency method [Audio Devices],IAudioProcessingObject interface, IAudioProcessingObject interface [Audio Devices],GetLatency method, IAudioProcessingObject.GetLatency, IAudioProcessingObject::GetLatency, audio.iaudioprocessingobject_getlatency, audio_syseffects_r_51c02d16-7f19-43e9-8656-411abb78ee56.xml, audioenginebaseapo/IAudioProcessingObject::GetLatency
 ms.topic: method
-f1_keywords: 
- - "audioenginebaseapo/IAudioProcessingObject.GetLatency"
+f1_keywords:
+- audioenginebaseapo/IAudioProcessingObject.GetLatency
 dev_langs:
- - c++
+- c++
 req.header: audioenginebaseapo.h
 req.include-header: 
 req.target-type: Universal
@@ -32,15 +30,15 @@ req.lib: Audioenginebaseapo.idl
 req.dll: 
 req.irql: Any level
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Audioenginebaseapo.idl
- - Audioenginebaseapo.idl.dll
+- Audioenginebaseapo.idl
+- Audioenginebaseapo.idl.dll
 api_name:
- - IAudioProcessingObject.GetLatency
+- IAudioProcessingObject.GetLatency
 targetos: Windows
 req.typenames: 
 req.redist: 

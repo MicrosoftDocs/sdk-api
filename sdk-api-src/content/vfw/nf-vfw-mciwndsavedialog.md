@@ -1,19 +1,17 @@
 ---
 UID: NF:vfw.MCIWndSaveDialog
 title: MCIWndSaveDialog macro (vfw.h)
-
 description: The MCIWndSaveDialog macro saves the content currently used by an MCI device. This macro displays the Save dialog box to let the user select a filename to store the content. You can use this macro or explicitly send the MCI_SAVE command.
 old-location: multimedia\mciwndsavedialog.htm
 tech.root: Multimedia
 ms.assetid: 3ab1121f-5122-424b-a1df-ceeb57751dac
-
 ms.date: 12/05/2018
 ms.keywords: MCIWndSaveDialog, MCIWndSaveDialog macro [Windows Multimedia], _win32_MCIWndSaveDialog, multimedia.mciwndsavedialog, vfw/MCIWndSaveDialog
 ms.topic: macro
-f1_keywords: 
- - "vfw/MCIWndSaveDialog"
+f1_keywords:
+- vfw/MCIWndSaveDialog
 dev_langs:
- - c++
+- c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Vfw.h
+- Vfw.h
 api_name:
- - MCIWndSaveDialog
+- MCIWndSaveDialog
 targetos: Windows
 req.typenames: 
 req.redist: 

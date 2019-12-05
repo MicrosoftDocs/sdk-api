@@ -1,19 +1,17 @@
 ---
 UID: NF:textstor.ITextStoreAnchor.RetrieveRequestedAttrs
 title: ITextStoreAnchor::RetrieveRequestedAttrs (textstor.h)
-
 description: ITextStoreAnchor::RetrieveRequestedAttrs method
 old-location: tsf\itextstoreanchor_retrieverequestedattrs.htm
 tech.root: TSF
 ms.assetid: 36847680-bcf2-4db5-a587-90518f60cf5b
-
 ms.date: 12/05/2018
 ms.keywords: ITextStoreAnchor interface [Text Services Framework],RetrieveRequestedAttrs method, ITextStoreAnchor.RetrieveRequestedAttrs, ITextStoreAnchor::RetrieveRequestedAttrs, RetrieveRequestedAttrs, RetrieveRequestedAttrs method [Text Services Framework], RetrieveRequestedAttrs method [Text Services Framework],ITextStoreAnchor interface, textstor/ITextStoreAnchor::RetrieveRequestedAttrs, tsf.itextstoreanchor_retrieverequestedattrs
 ms.topic: method
-f1_keywords: 
- - "textstor/ITextStoreAnchor.RetrieveRequestedAttrs"
+f1_keywords:
+- textstor/ITextStoreAnchor.RetrieveRequestedAttrs
 dev_langs:
- - c++
+- c++
 req.header: textstor.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msctf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msctf.dll
+- msctf.dll
 api_name:
- - ITextStoreAnchor.RetrieveRequestedAttrs
+- ITextStoreAnchor.RetrieveRequestedAttrs
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

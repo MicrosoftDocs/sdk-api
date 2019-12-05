@@ -1,19 +1,17 @@
 ---
 UID: NF:mswmdm.IWMDMDevice.GetStatus
 title: IWMDMDevice::GetStatus (mswmdm.h)
-
 description: The GetStatus method retrieves device status information.
 old-location: wmdm\iwmdmdevice_getstatus.htm
 tech.root: WMDM
 ms.assetid: 18445ba5-6c91-4b4c-8f9b-b9d94fd96155
-
 ms.date: 12/05/2018
 ms.keywords: GetStatus, GetStatus method [windows Media Device Manager], GetStatus method [windows Media Device Manager],IWMDMDevice interface, IWMDMDevice interface [windows Media Device Manager],GetStatus method, IWMDMDevice.GetStatus, IWMDMDevice::GetStatus, IWMDMDeviceGetStatus, mswmdm/IWMDMDevice::GetStatus, wmdm.iwmdmdevice_getstatus
 ms.topic: method
-f1_keywords: 
- - "mswmdm/IWMDMDevice.GetStatus"
+f1_keywords:
+- mswmdm/IWMDMDevice.GetStatus
 dev_langs:
- - c++
+- c++
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mssachlp.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mssachlp.lib
- - mssachlp.dll
+- mssachlp.lib
+- mssachlp.dll
 api_name:
- - IWMDMDevice.GetStatus
+- IWMDMDevice.GetStatus
 targetos: Windows
 req.typenames: 
 req.redist: 

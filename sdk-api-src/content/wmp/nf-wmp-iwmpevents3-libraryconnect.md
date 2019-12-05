@@ -1,19 +1,17 @@
 ---
 UID: NF:wmp.IWMPEvents3.LibraryConnect
 title: IWMPEvents3::LibraryConnect (wmp.h)
-
 description: The LibraryConnect event occurs when a library becomes available.
 old-location: wmp\iwmpevents3_iwmpevents3__libraryconnect.htm
 tech.root: WMP
 ms.assetid: b9e1feb7-c894-4f37-9756-378740637f6e
-
 ms.date: 12/05/2018
 ms.keywords: IWMPEvents3 interface [Windows Media Player],LibraryConnect method, IWMPEvents3.LibraryConnect, IWMPEvents3::LibraryConnect, IWMPEvents3LibraryConnect, LibraryConnect, LibraryConnect method [Windows Media Player], LibraryConnect method [Windows Media Player],IWMPEvents3 interface, wmp.iwmpevents3_iwmpevents3__libraryconnect, wmp/IWMPEvents3::LibraryConnect
 ms.topic: method
-f1_keywords: 
- - "wmp/IWMPEvents3.LibraryConnect"
+f1_keywords:
+- wmp/IWMPEvents3.LibraryConnect
 dev_langs:
- - c++
+- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wmp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmp.dll
+- wmp.dll
 api_name:
- - IWMPEvents3.LibraryConnect
+- IWMPEvents3.LibraryConnect
 targetos: Windows
 req.typenames: 
 req.redist: 

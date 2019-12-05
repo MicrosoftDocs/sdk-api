@@ -1,19 +1,17 @@
 ---
 UID: NF:pla.IDataCollector.get_OutputLocation
 title: IDataCollector::get_OutputLocation (pla.h)
-
 description: Retrieves the decorated file name if PLA were to create it now.
 old-location: pla\idatacollector_outputlocation.htm
 tech.root: PLA
 ms.assetid: c5453d16-4aa4-4c25-bfc7-514693317473
-
 ms.date: 12/05/2018
 ms.keywords: IDataCollector interface [PLA],OutputLocation property, IDataCollector.OutputLocation, IDataCollector.get_OutputLocation, IDataCollector::OutputLocation, IDataCollector::get_OutputLocation, OutputLocation property [PLA], OutputLocation property [PLA],IDataCollector interface, base.idatacollector_outputlocation, get_OutputLocation, pla.idatacollector_outputlocation, pla/IDataCollector::OutputLocation, pla/IDataCollector::get_OutputLocation
 ms.topic: method
-f1_keywords: 
- - "pla/IDataCollector.OutputLocation"
+f1_keywords:
+- pla/IDataCollector.OutputLocation
 dev_langs:
- - c++
+- c++
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: Pla.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Pla.dll
+- Pla.dll
 api_name:
- - IDataCollector.OutputLocation
- - IDataCollector.get_OutputLocation
+- IDataCollector.OutputLocation
+- IDataCollector.get_OutputLocation
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:spatialaudiometadata.ISpatialAudioMetadataCopier.CopyMetadataForFrames
 title: ISpatialAudioMetadataCopier::CopyMetadataForFrames (spatialaudiometadata.h)
-
 description: Copies metadata items from the source ISpatialAudioMetadataItems, provided to the Open method, object to the destination ISpatialAudioMetadataItems object, specified with the dstMetadataItems parameter.
 old-location: coreaudio\ispatialaudiometadatacopier_copymetadataforframes.htm
 tech.root: CoreAudio
 ms.assetid: 12ABAD23-7EDF-4F74-AE2E-26C75FA6AB37
-
 ms.date: 12/05/2018
 ms.keywords: CopyMetadataForFrames, CopyMetadataForFrames method [Core Audio], CopyMetadataForFrames method [Core Audio],ISpatialAudioMetadataCopier interface, ISpatialAudioMetadataCopier interface [Core Audio],CopyMetadataForFrames method, ISpatialAudioMetadataCopier.CopyMetadataForFrames, ISpatialAudioMetadataCopier::CopyMetadataForFrames, coreaudio.ispatialaudiometadatacopier_copymetadataforframes, spatialaudiometadata/ISpatialAudioMetadataCopier::CopyMetadataForFrames
 ms.topic: method
-f1_keywords: 
- - "spatialaudiometadata/ISpatialAudioMetadataCopier.CopyMetadataForFrames"
+f1_keywords:
+- spatialaudiometadata/ISpatialAudioMetadataCopier.CopyMetadataForFrames
 dev_langs:
- - c++
+- c++
 req.header: spatialaudiometadata.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - SpatialAudioMetadata.h
+- SpatialAudioMetadata.h
 api_name:
- - ISpatialAudioMetadataCopier.CopyMetadataForFrames
+- ISpatialAudioMetadataCopier.CopyMetadataForFrames
 targetos: Windows
 req.typenames: 
 req.redist: 

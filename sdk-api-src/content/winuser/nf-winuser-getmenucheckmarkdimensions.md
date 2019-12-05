@@ -1,19 +1,17 @@
 ---
 UID: NF:winuser.GetMenuCheckMarkDimensions
 title: GetMenuCheckMarkDimensions function (winuser.h)
-
 description: Retrieves the dimensions of the default check-mark bitmap.
 old-location: menurc\getmenucheckmarkdimensions.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\menus\menureference\menufunctions\getmenucheckmarkdimensions.htm
-
 ms.date: 12/05/2018
 ms.keywords: GetMenuCheckMarkDimensions, GetMenuCheckMarkDimensions function [Menus and Other Resources], _win32_GetMenuCheckMarkDimensions, _win32_getmenucheckmarkdimensions_cpp, menurc.getmenucheckmarkdimensions, winui._win32_getmenucheckmarkdimensions, winuser/GetMenuCheckMarkDimensions
 ms.topic: function
-f1_keywords: 
- - "winuser/GetMenuCheckMarkDimensions"
+f1_keywords:
+- winuser/GetMenuCheckMarkDimensions
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - User32.dll
+- User32.dll
 api_name:
- - GetMenuCheckMarkDimensions
+- GetMenuCheckMarkDimensions
 targetos: Windows
 req.typenames: 
 req.redist: 

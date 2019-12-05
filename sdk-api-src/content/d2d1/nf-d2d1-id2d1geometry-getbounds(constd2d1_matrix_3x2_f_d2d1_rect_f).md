@@ -1,19 +1,17 @@
 ---
 UID: NF:d2d1.ID2D1Geometry.GetBounds(const D2D1_MATRIX_3X2_F,D2D1_RECT_F)
 title: ID2D1Geometry::GetBounds(const D2D1_MATRIX_3X2_F,D2D1_RECT_F) (d2d1.h)
-
 description: Retrieves the bounds of the geometry.
 old-location: direct2d\ID2D1Geometry_GetBounds_ptr_D2D_MATRIX_3X2_F_ptr_D2D_RECT_F.htm
 tech.root: Direct2D
 ms.assetid: 5dc79a72-60d5-4a6d-94e6-d8a476d01c19
-
 ms.date: 12/05/2018
 ms.keywords: GetBounds, GetBounds method [Direct2D], GetBounds method [Direct2D],ID2D1Geometry interface, ID2D1Geometry interface [Direct2D],GetBounds method, ID2D1Geometry.GetBounds, ID2D1Geometry.GetBounds(const D2D1_MATRIX_3X2_F,D2D1_RECT_F), ID2D1Geometry::GetBounds, ID2D1Geometry::GetBounds(const D2D1_MATRIX_3X2_F,D2D1_RECT_F), d2d1/ID2D1Geometry::GetBounds, direct2d.ID2D1Geometry_GetBounds_ptr_D2D_MATRIX_3X2_F_ptr_D2D_RECT_F
 ms.topic: method
-f1_keywords: 
- - "d2d1/ID2D1Geometry.GetBounds"
+f1_keywords:
+- d2d1/ID2D1Geometry.GetBounds
 dev_langs:
- - c++
+- c++
 req.header: d2d1.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: D2d1.lib
 req.dll: D2d1.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D2d1.dll
+- D2d1.dll
 api_name:
- - ID2D1Geometry.GetBounds
+- ID2D1Geometry.GetBounds
 targetos: Windows
 req.typenames: 
 req.redist: 

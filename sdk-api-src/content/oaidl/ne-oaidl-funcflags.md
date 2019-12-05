@@ -1,19 +1,17 @@
 ---
 UID: NE:oaidl.tagFUNCFLAGS
 title: FUNCFLAGS (oaidl.h)
-
 description: Specifies function flags.
 old-location: automat\funcflags.htm
 tech.root: automat
 ms.assetid: 290f8769-dde4-47b9-b3bb-680efc95f532
-
 ms.date: 12/05/2018
 ms.keywords: FUNCFLAGS, FUNCFLAGS enumeration [Automation], FUNCFLAG_FBINDABLE, FUNCFLAG_FDEFAULTBIND, FUNCFLAG_FDEFAULTCOLLELEM, FUNCFLAG_FDISPLAYBIND, FUNCFLAG_FHIDDEN, FUNCFLAG_FIMMEDIATEBIND, FUNCFLAG_FNONBROWSABLE, FUNCFLAG_FREPLACEABLE, FUNCFLAG_FREQUESTEDIT, FUNCFLAG_FRESTRICTED, FUNCFLAG_FSOURCE, FUNCFLAG_FUIDEFAULT, FUNCFLAG_FUSESGETLASTERROR, _oa96_FUNCFLAGS, automat.funcflags, oaidl/FUNCFLAGS, oaidl/FUNCFLAG_FBINDABLE, oaidl/FUNCFLAG_FDEFAULTBIND, oaidl/FUNCFLAG_FDEFAULTCOLLELEM, oaidl/FUNCFLAG_FDISPLAYBIND, oaidl/FUNCFLAG_FHIDDEN, oaidl/FUNCFLAG_FIMMEDIATEBIND, oaidl/FUNCFLAG_FNONBROWSABLE, oaidl/FUNCFLAG_FREPLACEABLE, oaidl/FUNCFLAG_FREQUESTEDIT, oaidl/FUNCFLAG_FRESTRICTED, oaidl/FUNCFLAG_FSOURCE, oaidl/FUNCFLAG_FUIDEFAULT, oaidl/FUNCFLAG_FUSESGETLASTERROR
 ms.topic: enum
-f1_keywords: 
- - "oaidl/FUNCFLAGS"
+f1_keywords:
+- oaidl/FUNCFLAGS
 dev_langs:
- - c++
+- c++
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - OaIdl.h
+- OaIdl.h
 api_name:
- - FUNCFLAGS
+- FUNCFLAGS
 targetos: Windows
 req.typenames: FUNCFLAGS
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IEncoderAPI.GetParameterValues
 title: IEncoderAPI::GetParameterValues (strmif.h)
-
 description: The GetParameterValues method retrieves the list of values supported by the given parameter.
 old-location: mstv\iencoderapi_getparametervalues.htm
 tech.root: mstv
 ms.assetid: 406316b5-1de0-4a89-b1bc-2f3b63ab0739
-
 ms.date: 12/05/2018
 ms.keywords: GetParameterValues, GetParameterValues method [Microsoft TV Technologies], GetParameterValues method [Microsoft TV Technologies],IEncoderAPI interface, IEncoderAPI interface [Microsoft TV Technologies],GetParameterValues method, IEncoderAPI.GetParameterValues, IEncoderAPI::GetParameterValues, IEncoderAPIGetParameterValues, mstv.iencoderapi_getparametervalues, strmif/IEncoderAPI::GetParameterValues
 ms.topic: method
-f1_keywords: 
- - "strmif/IEncoderAPI.GetParameterValues"
+f1_keywords:
+- strmif/IEncoderAPI.GetParameterValues
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IEncoderAPI.GetParameterValues
+- IEncoderAPI.GetParameterValues
 targetos: Windows
 req.typenames: 
 req.redist: 

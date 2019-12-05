@@ -1,19 +1,17 @@
 ---
 UID: NE:resapi.CLUSTER_RESOURCE_APPLICATION_STATE
 title: CLUSTER_RESOURCE_APPLICATION_STATE (resapi.h)
-
 description: Enumerates resource application states.
 old-location: mscs\cluster_resource_application_state.htm
 tech.root: MsCS
 ms.assetid: A67B8251-214B-44DD-8166-C0F74335CE1F
-
 ms.date: 12/05/2018
 ms.keywords: CLUSTER_RESOURCE_APPLICATION_STATE, CLUSTER_RESOURCE_APPLICATION_STATE enumeration [Failover Cluster], ClusterResourceApplicationOSHeartBeat, ClusterResourceApplicationReady, ClusterResourceApplicationStateUnknown, mscs.cluster_resource_application_state, resapi/CLUSTER_RESOURCE_APPLICATION_STATE, resapi/ClusterResourceApplicationOSHeartBeat, resapi/ClusterResourceApplicationReady, resapi/ClusterResourceApplicationStateUnknown
 ms.topic: enum
-f1_keywords: 
- - "resapi/CLUSTER_RESOURCE_APPLICATION_STATE"
+f1_keywords:
+- resapi/CLUSTER_RESOURCE_APPLICATION_STATE
 dev_langs:
- - c++
+- c++
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Resapi.h
+- Resapi.h
 api_name:
- - CLUSTER_RESOURCE_APPLICATION_STATE
+- CLUSTER_RESOURCE_APPLICATION_STATE
 targetos: Windows
 req.typenames: CLUSTER_RESOURCE_APPLICATION_STATE
 req.redist: 

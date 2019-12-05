@@ -1,19 +1,17 @@
 ---
 UID: NC:certenroll.ImportPFXToProviderFreeData
 title: ImportPFXToProviderFreeData (certenroll.h)
-
 description: Frees PFX certificate context(s).
 old-location: security\fnimportpfxtoproviderfreedata.htm
 tech.root: SecCrypto
 ms.assetid: F3A28405-8D6E-4930-946B-FB7D9B6518B9
-
 ms.date: 12/05/2018
-ms.keywords: "ImportPFXToProviderFreeData, (FNIMPORTPFXTOPROVIDERFREEDATA), (FNIMPORTPFXTOPROVIDERFREEDATA) callback function [Security], FNIMPORTPFXTOPROVIDERFREEDATA callback, certenroll/(FNIMPORTPFXTOPROVIDERFREEDATA), fnimportpfxtoproviderfreedata, security.fnimportpfxtoproviderfreedata, wincrypt/(FNIMPORTPFXTOPROVIDERFREEDATA)"
+ms.keywords: ImportPFXToProviderFreeData, (FNIMPORTPFXTOPROVIDERFREEDATA), (FNIMPORTPFXTOPROVIDERFREEDATA) callback function [Security], FNIMPORTPFXTOPROVIDERFREEDATA callback, certenroll/(FNIMPORTPFXTOPROVIDERFREEDATA), fnimportpfxtoproviderfreedata, security.fnimportpfxtoproviderfreedata, wincrypt/(FNIMPORTPFXTOPROVIDERFREEDATA)
 ms.topic: callback
-f1_keywords: 
- - "certenroll/(FNIMPORTPFXTOPROVIDERFREEDATA)"
+f1_keywords:
+- certenroll/(FNIMPORTPFXTOPROVIDERFREEDATA)
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - certenroll.h
- - wincrypt.h
+- certenroll.h
+- wincrypt.h
 api_name:
- - (FNIMPORTPFXTOPROVIDERFREEDATA)
- - ImportPFXToProviderFreeData
+- (FNIMPORTPFXTOPROVIDERFREEDATA)
+- ImportPFXToProviderFreeData
 targetos: Windows
 req.typenames: 
 req.redist: 

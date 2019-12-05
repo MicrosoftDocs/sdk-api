@@ -1,19 +1,17 @@
 ---
 UID: NF:mfidl.IMFHttpDownloadRequest.Close
 title: IMFHttpDownloadRequest::Close (mfidl.h)
-
 description: Invoked by Microsoft Media Foundation to allow IMFHttpDownloadRequest to free any internal resources. It will also cancel the current request if it is still in progress.
 old-location: mf\imfhttpdownloadrequest_close.htm
 tech.root: medfound
 ms.assetid: BA560323-EE64-4423-B63A-F2B6FDE608DC
-
 ms.date: 12/05/2018
 ms.keywords: Close, Close method [Media Foundation], Close method [Media Foundation],IMFHttpDownloadRequest interface, IMFHttpDownloadRequest interface [Media Foundation],Close method, IMFHttpDownloadRequest.Close, IMFHttpDownloadRequest::Close, mf.imfhttpdownloadrequest_close, mfidl/IMFHttpDownloadRequest::Close
 ms.topic: method
-f1_keywords: 
- - "mfidl/IMFHttpDownloadRequest.Close"
+f1_keywords:
+- mfidl/IMFHttpDownloadRequest.Close
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Mfplat.lib; Mfplat.dll
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfplat.lib
- - mfplat.dll
- - mfplat.dll
- - mfplat.dll.dll
+- mfplat.lib
+- mfplat.dll
+- mfplat.dll
+- mfplat.dll.dll
 api_name:
- - IMFHttpDownloadRequest.Close
+- IMFHttpDownloadRequest.Close
 targetos: Windows
 req.typenames: 
 req.redist: 

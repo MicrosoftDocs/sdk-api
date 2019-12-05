@@ -1,19 +1,17 @@
 ---
 UID: NF:ntsecapi.LsaEnumerateTrustedDomainsEx
 title: LsaEnumerateTrustedDomainsEx function (ntsecapi.h)
-
 description: Returns information about the domains trusted by the local system.
 old-location: security\lsaenumeratetrusteddomainsex.htm
 tech.root: SecMgmt
 ms.assetid: 4a203bff-c3e1-4d95-b556-617dc8c2e8c2
-
 ms.date: 12/05/2018
 ms.keywords: LsaEnumerateTrustedDomainsEx, LsaEnumerateTrustedDomainsEx function [Security], _lsa_lsaenumeratetrusteddomainsex, ntsecapi/LsaEnumerateTrustedDomainsEx, security.lsaenumeratetrusteddomainsex
 ms.topic: function
 f1_keywords:
 - ntsecapi/LsaEnumerateTrustedDomainsEx
 dev_langs:
- - c++
+- c++
 req.header: ntsecapi.h
 req.include-header: 
 req.target-type: Windows

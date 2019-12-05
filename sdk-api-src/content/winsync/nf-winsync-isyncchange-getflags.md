@@ -1,19 +1,17 @@
 ---
 UID: NF:winsync.ISyncChange.GetFlags
 title: ISyncChange::GetFlags (winsync.h)
-
 description: Gets flags that are associated with this change.
 old-location: winsync\isyncchange_getflags.htm
 tech.root: winsync
 ms.assetid: de0509a4-550b-49f2-a850-fc1bd57b60cd
-
 ms.date: 12/05/2018
 ms.keywords: GetFlags, GetFlags method [Windows Sync], GetFlags method [Windows Sync],ISyncChange interface, ISyncChange interface [Windows Sync],GetFlags method, ISyncChange.GetFlags, ISyncChange::GetFlags, winsync.isyncchange_getflags, winsync/ISyncChange::GetFlags
 ms.topic: method
-f1_keywords: 
- - "winsync/ISyncChange.GetFlags"
+f1_keywords:
+- winsync/ISyncChange.GetFlags
 dev_langs:
- - c++
+- c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - winsync.h
+- winsync.h
 api_name:
- - ISyncChange.GetFlags
+- ISyncChange.GetFlags
 targetos: Windows
 req.typenames: 
 req.redist: 

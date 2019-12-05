@@ -1,19 +1,17 @@
 ---
 UID: NF:winineti.PrivacyGetZonePreferenceW
 title: PrivacyGetZonePreferenceW function (winineti.h)
-
 description: Retrieves the privacy settings for a given URLZONE and PrivacyType.
 old-location: wininet\privacygetzonepreferencew.htm
 tech.root: wininet
 ms.assetid: 530a86a0-bb67-406a-be83-5f2b463a1aa1
-
 ms.date: 12/05/2018
 ms.keywords: PrivacyGetZonePreferenceW, PrivacyGetZonePreferenceW function [WinINet], wininet.privacygetzonepreferencew, winineti/PrivacyGetZonePreferenceW
 ms.topic: function
-f1_keywords: 
- - "winineti/PrivacyGetZonePreferenceW"
+f1_keywords:
+- winineti/PrivacyGetZonePreferenceW
 dev_langs:
- - c++
+- c++
 req.header: winineti.h
 req.include-header: Wininet.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Wininet.lib
 req.dll: Wininet.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Wininet.dll
+- Wininet.dll
 api_name:
- - PrivacyGetZonePreferenceW
- - PrivacyGetZonePreferenceW
+- PrivacyGetZonePreferenceW
+- PrivacyGetZonePreferenceW
 targetos: Windows
 req.typenames: 
 req.redist: 

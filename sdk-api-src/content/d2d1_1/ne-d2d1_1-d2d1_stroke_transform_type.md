@@ -1,19 +1,17 @@
 ---
 UID: NE:d2d1_1.D2D1_STROKE_TRANSFORM_TYPE
 title: D2D1_STROKE_TRANSFORM_TYPE (d2d1_1.h)
-
 description: Defines how the world transform, dots per inch (dpi), and stroke width affect the shape of the pen used to stroke a primitive.
 old-location: direct2d\__d2d1_stroke_transform_type.htm
 tech.root: Direct2D
 ms.assetid: 99c2c5c8-49ce-4865-befa-e9f92905a260
-
 ms.date: 12/05/2018
 ms.keywords: D2D1_STROKE_TRANSFORM_TYPE, D2D1_STROKE_TRANSFORM_TYPE enumeration [Direct2D], D2D1_STROKE_TRANSFORM_TYPE_FIXED, D2D1_STROKE_TRANSFORM_TYPE_HAIRLINE, D2D1_STROKE_TRANSFORM_TYPE_NORMAL, d2d1_1/D2D1_STROKE_TRANSFORM_TYPE, d2d1_1/D2D1_STROKE_TRANSFORM_TYPE_FIXED, d2d1_1/D2D1_STROKE_TRANSFORM_TYPE_HAIRLINE, d2d1_1/D2D1_STROKE_TRANSFORM_TYPE_NORMAL, direct2d.__d2d1_stroke_transform_type
 ms.topic: enum
-f1_keywords: 
- - "d2d1_1/D2D1_STROKE_TRANSFORM_TYPE"
+f1_keywords:
+- d2d1_1/D2D1_STROKE_TRANSFORM_TYPE
 dev_langs:
- - c++
+- c++
 req.header: d2d1_1.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - D2d1_1.h
+- D2d1_1.h
 api_name:
- - D2D1_STROKE_TRANSFORM_TYPE
+- D2D1_STROKE_TRANSFORM_TYPE
 targetos: Windows
 req.typenames: D2D1_STROKE_TRANSFORM_TYPE
 req.redist: 

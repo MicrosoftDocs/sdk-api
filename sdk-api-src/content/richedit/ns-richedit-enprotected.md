@@ -1,19 +1,17 @@
 ---
 UID: NS:richedit._enprotected
 title: ENPROTECTED (richedit.h)
-
 description: Contains information associated with an EN_PROTECTED notification code. A rich edit control sends this notification when the user attempts to edit protected text.
 old-location: controls\ENPROTECTED.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\richeditcontrols\richeditcontrolreference\richeditstructures\enprotected.htm
-
 ms.date: 12/05/2018
 ms.keywords: ENPROTECTED, ENPROTECTED structure [Windows Controls], _win32_ENPROTECTED_str, _win32_ENPROTECTED_str_cpp, controls.ENPROTECTED, controls._win32_ENPROTECTED_str, richedit/ENPROTECTED
 ms.topic: struct
-f1_keywords: 
- - "richedit/ENPROTECTED"
+f1_keywords:
+- richedit/ENPROTECTED
 dev_langs:
- - c++
+- c++
 req.header: richedit.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Richedit.h
+- Richedit.h
 api_name:
- - ENPROTECTED
+- ENPROTECTED
 targetos: Windows
 req.typenames: ENPROTECTED
 req.redist: 

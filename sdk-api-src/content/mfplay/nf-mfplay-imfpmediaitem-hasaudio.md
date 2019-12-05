@@ -1,19 +1,17 @@
 ---
 UID: NF:mfplay.IMFPMediaItem.HasAudio
 title: IMFPMediaItem::HasAudio (mfplay.h)
-
 description: Queries whether the media item contains an audio stream.
 old-location: mf\imfpmediaitem_hasaudio.htm
 tech.root: medfound
 ms.assetid: 38d308d7-77e3-4f13-82e7-677ac94234e7
-
 ms.date: 12/05/2018
 ms.keywords: HasAudio, HasAudio method [Media Foundation], HasAudio method [Media Foundation],IMFPMediaItem interface, IMFPMediaItem interface [Media Foundation],HasAudio method, IMFPMediaItem.HasAudio, IMFPMediaItem::HasAudio, mf.imfpmediaitem_hasaudio, mfplay/IMFPMediaItem::HasAudio
 ms.topic: method
-f1_keywords: 
- - "mfplay/IMFPMediaItem.HasAudio"
+f1_keywords:
+- mfplay/IMFPMediaItem.HasAudio
 dev_langs:
- - c++
+- c++
 req.header: mfplay.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfplay.h
+- mfplay.h
 api_name:
- - IMFPMediaItem.HasAudio
+- IMFPMediaItem.HasAudio
 targetos: Windows
 req.typenames: 
 req.redist: 

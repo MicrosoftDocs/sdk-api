@@ -1,19 +1,17 @@
 ---
 UID: NF:commctrl.ListView_SubItemHitTest
 title: ListView_SubItemHitTest macro (commctrl.h)
-
 description: Determines which list-view item or subitem is located at a given position. You can use this macro or send the LVM_SUBITEMHITTEST message explicitly.
 old-location: controls\ListView_SubItemHitTest.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_subitemhittest.htm
-
 ms.date: 12/05/2018
 ms.keywords: ListView_SubItemHitTest, ListView_SubItemHitTest macro [Windows Controls], _win32_ListView_SubItemHitTest, _win32_ListView_SubItemHitTest_cpp, commctrl/ListView_SubItemHitTest, controls.ListView_SubItemHitTest, controls._win32_ListView_SubItemHitTest
 ms.topic: macro
-f1_keywords: 
- - "commctrl/ListView_SubItemHitTest"
+f1_keywords:
+- commctrl/ListView_SubItemHitTest
 dev_langs:
- - c++
+- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Commctrl.h
+- Commctrl.h
 api_name:
- - ListView_SubItemHitTest
+- ListView_SubItemHitTest
 targetos: Windows
 req.typenames: 
 req.redist: 

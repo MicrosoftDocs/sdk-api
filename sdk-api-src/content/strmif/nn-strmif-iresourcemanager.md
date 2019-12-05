@@ -1,19 +1,17 @@
 ---
 UID: NN:strmif.IResourceManager
 title: IResourceManager (strmif.h)
-
 description: The IResourceManager interface resolves contentions for system resources.The filter graph manager exposes this interface.
 old-location: dshow\iresourcemanager.htm
 tech.root: DirectShow
 ms.assetid: 8cbe908e-5675-4134-81e7-2c5c31b0ffc5
-
 ms.date: 12/05/2018
 ms.keywords: IResourceManager, IResourceManager interface [DirectShow], IResourceManager interface [DirectShow],described, IResourceManagerInterface, dshow.iresourcemanager, strmif/IResourceManager
 ms.topic: interface
-f1_keywords: 
- - "strmif/IResourceManager"
+f1_keywords:
+- strmif/IResourceManager
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IResourceManager
+- IResourceManager
 targetos: Windows
 req.typenames: 
 req.redist: 

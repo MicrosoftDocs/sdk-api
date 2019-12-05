@@ -1,19 +1,17 @@
 ---
 UID: NF:directxmath.XMVector2Greater
 title: XMVector2Greater function (directxmath.h)
-
 description: Tests whether one 2D vector is greater than another 2D vector.
 old-location: dxmath\xmvector2greater.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.comparison.XMVector2Greater(XMVECTOR,XMVECTOR)
-
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMVector2Greater, XMVector2Greater, XMVector2Greater method [DirectX Math Support APIs], dxmath.xmvector2greater
 ms.topic: function
-f1_keywords: 
- - "directxmath/XMVector2Greater"
+f1_keywords:
+- directxmath/XMVector2Greater
 dev_langs:
- - c++
+- c++
 req.header: directxmath.h
 req.include-header: DirectXMath.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - directxmathvector.inl
+- directxmathvector.inl
 api_name:
- - XMVector2Greater
+- XMVector2Greater
 targetos: Windows
 req.typenames: 
 req.redist: 

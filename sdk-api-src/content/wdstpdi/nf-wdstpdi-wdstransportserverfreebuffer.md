@@ -1,19 +1,17 @@
 ---
 UID: NF:wdstpdi.WdsTransportServerFreeBuffer
 title: WdsTransportServerFreeBuffer function (wdstpdi.h)
-
 description: Releases memory used by a buffer.
 old-location: wds\wdstransportserverfreebuffer.htm
 tech.root: wds
 ms.assetid: c6123cec-fed3-4745-9d82-e501e972d54f
-
 ms.date: 12/05/2018
 ms.keywords: WdsTransportServerFreeBuffer, WdsTransportServerFreeBuffer function [Windows Deployment Services], wds.wdstransportserverfreebuffer, wdstpdi/WdsTransportServerFreeBuffer
 ms.topic: function
-f1_keywords: 
- - "wdstpdi/WdsTransportServerFreeBuffer"
+f1_keywords:
+- wdstpdi/WdsTransportServerFreeBuffer
 dev_langs:
- - c++
+- c++
 req.header: wdstpdi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Wdsmc.lib
 req.dll: Wdsmc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Wdsmc.dll
+- Wdsmc.dll
 api_name:
- - WdsTransportServerFreeBuffer
+- WdsTransportServerFreeBuffer
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IAMDevMemoryAllocator.Alloc
 title: IAMDevMemoryAllocator::Alloc (strmif.h)
-
 description: Note  The IAMDevMemoryAllocator interface is deprecated. Allocates a memory buffer.
 old-location: dshow\iamdevmemoryallocator_alloc.htm
 tech.root: DirectShow
 ms.assetid: de5f7755-fd96-4016-9cab-b98721080e14
-
 ms.date: 12/05/2018
 ms.keywords: Alloc, Alloc method [DirectShow], Alloc method [DirectShow],IAMDevMemoryAllocator interface, IAMDevMemoryAllocator interface [DirectShow],Alloc method, IAMDevMemoryAllocator.Alloc, IAMDevMemoryAllocator::Alloc, IAMDevMemoryAllocatorAlloc, dshow.iamdevmemoryallocator_alloc, strmif/IAMDevMemoryAllocator::Alloc
 ms.topic: method
-f1_keywords: 
- - "strmif/IAMDevMemoryAllocator.Alloc"
+f1_keywords:
+- strmif/IAMDevMemoryAllocator.Alloc
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmif.h
+- Strmif.h
 api_name:
- - IAMDevMemoryAllocator.Alloc
+- IAMDevMemoryAllocator.Alloc
 targetos: Windows
 req.typenames: 
 req.redist: 

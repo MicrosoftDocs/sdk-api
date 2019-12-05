@@ -1,19 +1,17 @@
 ---
 UID: NF:mbnapi.IMbnSmsReadMsgTextCdma.get_SizeInCharacters
 title: IMbnSmsReadMsgTextCdma::get_SizeInCharacters (mbnapi.h)
-
 description: The size in characters of the message.
 old-location: mbn\imbnsmsreadmsgtextcdma_sizeincharacters.htm
 tech.root: mbn
 ms.assetid: db1d364f-a5c7-4729-8df5-846a74510f3d
-
 ms.date: 12/05/2018
 ms.keywords: IMbnSmsReadMsgTextCdma interface [Microsoft Broadband Networks],SizeInCharacters property, IMbnSmsReadMsgTextCdma.SizeInCharacters, IMbnSmsReadMsgTextCdma.get_SizeInCharacters, IMbnSmsReadMsgTextCdma::SizeInCharacters, IMbnSmsReadMsgTextCdma::get_SizeInCharacters, SizeInCharacters property [Microsoft Broadband Networks], SizeInCharacters property [Microsoft Broadband Networks],IMbnSmsReadMsgTextCdma interface, get_SizeInCharacters, mbn.imbnsmsreadmsgtextcdma_sizeincharacters, mbnapi/IMbnSmsReadMsgTextCdma::SizeInCharacters, mbnapi/IMbnSmsReadMsgTextCdma::get_SizeInCharacters
 ms.topic: method
-f1_keywords: 
- - "mbnapi/IMbnSmsReadMsgTextCdma.SizeInCharacters"
+f1_keywords:
+- mbnapi/IMbnSmsReadMsgTextCdma.SizeInCharacters
 dev_langs:
- - c++
+- c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mbnapi.h
+- mbnapi.h
 api_name:
- - IMbnSmsReadMsgTextCdma.SizeInCharacters
- - IMbnSmsReadMsgTextCdma.get_SizeInCharacters
+- IMbnSmsReadMsgTextCdma.SizeInCharacters
+- IMbnSmsReadMsgTextCdma.get_SizeInCharacters
 targetos: Windows
 req.typenames: 
 req.redist: 

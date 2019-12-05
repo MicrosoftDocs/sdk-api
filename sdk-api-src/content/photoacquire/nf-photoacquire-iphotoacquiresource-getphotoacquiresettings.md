@@ -1,19 +1,17 @@
 ---
 UID: NF:photoacquire.IPhotoAcquireSource.GetPhotoAcquireSettings
 title: IPhotoAcquireSource::GetPhotoAcquireSettings (photoacquire.h)
-
 description: The GetPhotoAcquireSettings method obtains an IPhotoAcquireSettings object for working with acquisition settings.
 old-location: picacq\iphotoacquiresource_getphotoacquiresettings.htm
 tech.root: acquisition
 ms.assetid: b4c01856-b7e4-4318-aaf8-8e34e441ce75
-
 ms.date: 12/05/2018
 ms.keywords: GetPhotoAcquireSettings, GetPhotoAcquireSettings method [Picture Acquisition], GetPhotoAcquireSettings method [Picture Acquisition],IPhotoAcquireSource interface, IPhotoAcquireSource interface [Picture Acquisition],GetPhotoAcquireSettings method, IPhotoAcquireSource.GetPhotoAcquireSettings, IPhotoAcquireSource::GetPhotoAcquireSettings, IPhotoAcquireSourceGetPhotoAcquireSettings, photoacquire/IPhotoAcquireSource::GetPhotoAcquireSettings, picacq.iphotoacquiresource_getphotoacquiresettings
 ms.topic: method
-f1_keywords: 
- - "photoacquire/IPhotoAcquireSource.GetPhotoAcquireSettings"
+f1_keywords:
+- photoacquire/IPhotoAcquireSource.GetPhotoAcquireSettings
 dev_langs:
- - c++
+- c++
 req.header: photoacquire.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: PhotoAcquireUID.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - PhotoAcquireUID.lib
- - PhotoAcquireUID.dll
+- PhotoAcquireUID.lib
+- PhotoAcquireUID.dll
 api_name:
- - IPhotoAcquireSource.GetPhotoAcquireSettings
+- IPhotoAcquireSource.GetPhotoAcquireSettings
 targetos: Windows
 req.typenames: 
 req.redist: 

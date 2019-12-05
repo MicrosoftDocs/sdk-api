@@ -1,19 +1,17 @@
 ---
 UID: NS:windns.__unnamed_struct_31
 title: DNS_SRV_DATAA (windns.h)
-
 description: The DNS_SRV_DATA structure represents a DNS service (SRV) record as specified in RFC 2782.
 old-location: dns\dns_srv_data.htm
 tech.root: DNS
 ms.assetid: 212db7ac-a5e3-4e58-b1c2-0eb551403dfc
-
 ms.date: 12/05/2018
-ms.keywords: "*PDNS_SRV_DATA, *PDNS_SRV_DATAA, DNS_SRV_DATA, DNS_SRV_DATA structure [DNS], DNS_SRV_DATAA, PDNS_SRV_DATA, PDNS_SRV_DATA structure pointer [DNS], _dns_dns_srv_data, dns.dns_srv_data, windns/DNS_SRV_DATA, windns/PDNS_SRV_DATA"
+ms.keywords: '*PDNS_SRV_DATA, *PDNS_SRV_DATAA, DNS_SRV_DATA, DNS_SRV_DATA structure [DNS], DNS_SRV_DATAA, PDNS_SRV_DATA, PDNS_SRV_DATA structure pointer [DNS], _dns_dns_srv_data, dns.dns_srv_data, windns/DNS_SRV_DATA, windns/PDNS_SRV_DATA'
 ms.topic: struct
-f1_keywords: 
- - "windns/DNS_SRV_DATA"
+f1_keywords:
+- windns/DNS_SRV_DATA
 dev_langs:
- - c++
+- c++
 req.header: windns.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Windns.h
+- Windns.h
 api_name:
- - DNS_SRV_DATA
+- DNS_SRV_DATA
 targetos: Windows
 req.typenames: DNS_SRV_DATAA, *PDNS_SRV_DATAA
 req.redist: 

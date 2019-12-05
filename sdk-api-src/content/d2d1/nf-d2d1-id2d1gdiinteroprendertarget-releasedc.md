@@ -1,19 +1,17 @@
 ---
 UID: NF:d2d1.ID2D1GdiInteropRenderTarget.ReleaseDC
 title: ID2D1GdiInteropRenderTarget::ReleaseDC (d2d1.h)
-
 description: Indicates that drawing with the device context retrieved using the GetDC method is finished.
 old-location: direct2d\ID2D1GdiInteropRenderTarget_ReleaseDC.htm
 tech.root: Direct2D
 ms.assetid: 802bd023-f223-4505-9911-95b43f3490e3
-
 ms.date: 12/05/2018
 ms.keywords: ID2D1GdiInteropRenderTarget interface [Direct2D],ReleaseDC method, ID2D1GdiInteropRenderTarget.ReleaseDC, ID2D1GdiInteropRenderTarget::ReleaseDC, ReleaseDC, ReleaseDC method [Direct2D], ReleaseDC method [Direct2D],ID2D1GdiInteropRenderTarget interface, d2d1/ID2D1GdiInteropRenderTarget::ReleaseDC, direct2d.ID2D1GdiInteropRenderTarget_ReleaseDC
 ms.topic: method
-f1_keywords: 
- - "d2d1/ID2D1GdiInteropRenderTarget.ReleaseDC"
+f1_keywords:
+- d2d1/ID2D1GdiInteropRenderTarget.ReleaseDC
 dev_langs:
- - c++
+- c++
 req.header: d2d1.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: D2d1.lib
 req.dll: D2d1.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D2d1.dll
+- D2d1.dll
 api_name:
- - ID2D1GdiInteropRenderTarget.ReleaseDC
+- ID2D1GdiInteropRenderTarget.ReleaseDC
 targetos: Windows
 req.typenames: 
 req.redist: 

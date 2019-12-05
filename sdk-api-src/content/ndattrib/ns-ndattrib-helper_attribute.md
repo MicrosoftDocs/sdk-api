@@ -1,19 +1,17 @@
 ---
 UID: NS:ndattrib.tagHELPER_ATTRIBUTE
 title: HELPER_ATTRIBUTE (ndattrib.h)
-
 description: The HELPER_ATTRIBUTE structure contains all NDF supported data types.
 old-location: ndf\helper_attribute.htm
 tech.root: NDF
 ms.assetid: bff9303e-7fab-49af-b213-aa0a9c83676e
-
 ms.date: 12/05/2018
-ms.keywords: "*PHELPER_ATTRIBUTE, HELPER_ATTRIBUTE, HELPER_ATTRIBUTE structure [NDF], ndattrib/HELPER_ATTRIBUTE, ndf.helper_attribute"
+ms.keywords: '*PHELPER_ATTRIBUTE, HELPER_ATTRIBUTE, HELPER_ATTRIBUTE structure [NDF], ndattrib/HELPER_ATTRIBUTE, ndf.helper_attribute'
 ms.topic: struct
-f1_keywords: 
- - "ndattrib/HELPER_ATTRIBUTE"
+f1_keywords:
+- ndattrib/HELPER_ATTRIBUTE
 dev_langs:
- - c++
+- c++
 req.header: ndattrib.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - ndattrib.h
+- ndattrib.h
 api_name:
- - HELPER_ATTRIBUTE
+- HELPER_ATTRIBUTE
 targetos: Windows
 req.typenames: HELPER_ATTRIBUTE, *PHELPER_ATTRIBUTE
 req.redist: 

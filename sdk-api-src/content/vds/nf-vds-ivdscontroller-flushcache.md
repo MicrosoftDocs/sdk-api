@@ -1,19 +1,17 @@
 ---
 UID: NF:vds.IVdsController.FlushCache
 title: IVdsController::FlushCache (vds.h)
-
 description: Flushes the cache of the controller to a persistent store.
 old-location: base\ivdscontroller_flushcache.htm
 tech.root: VDS
 ms.assetid: a27a887d-c254-4e50-be96-564db12a673a
-
 ms.date: 12/05/2018
 ms.keywords: FlushCache, FlushCache method [VDS], FlushCache method [VDS],IVdsController interface, IVdsController interface [VDS],FlushCache method, IVdsController.FlushCache, IVdsController::FlushCache, base.ivdscontroller_flushcache, vds/IVdsController::FlushCache, vdshwprv/IVdsController::FlushCache
 ms.topic: method
-f1_keywords: 
- - "vds/IVdsController.FlushCache"
+f1_keywords:
+- vds/IVdsController.FlushCache
 dev_langs:
- - c++
+- c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Uuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Uuid.lib
- - Uuid.dll
+- Uuid.lib
+- Uuid.dll
 api_name:
- - IVdsController.FlushCache
+- IVdsController.FlushCache
 targetos: Windows
 req.typenames: 
 req.redist: 

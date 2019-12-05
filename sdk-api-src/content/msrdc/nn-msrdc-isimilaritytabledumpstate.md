@@ -1,19 +1,17 @@
 ---
 UID: NN:msrdc.ISimilarityTableDumpState
 title: ISimilarityTableDumpState (msrdc.h)
-
 description: Provides a method for retrieving information from the similarity traits list that was returned by the ISimilarityTraitsTable::BeginDump method.
 old-location: rdc\isimilaritytabledumpstate.htm
 tech.root: rdc
 ms.assetid: a56433b5-191f-49fe-83fb-7057e4c30bbd
-
 ms.date: 12/05/2018
 ms.keywords: ISimilarityTableDumpState, ISimilarityTableDumpState interface [Remote Differential Compression], ISimilarityTableDumpState interface [Remote Differential Compression],described, fs.isimilaritytabledumpstate, msrdc/ISimilarityTableDumpState, rdc.isimilaritytabledumpstate
 ms.topic: interface
-f1_keywords: 
- - "msrdc/ISimilarityTableDumpState"
+f1_keywords:
+- msrdc/ISimilarityTableDumpState
 dev_langs:
- - c++
+- c++
 req.header: msrdc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: MsRdc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - MsRdc.dll
+- MsRdc.dll
 api_name:
- - ISimilarityTableDumpState
+- ISimilarityTableDumpState
 targetos: Windows
 req.typenames: 
 req.redist: 

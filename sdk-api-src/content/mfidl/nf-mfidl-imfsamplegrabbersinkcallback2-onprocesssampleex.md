@@ -1,19 +1,17 @@
 ---
 UID: NF:mfidl.IMFSampleGrabberSinkCallback2.OnProcessSampleEx
 title: IMFSampleGrabberSinkCallback2::OnProcessSampleEx (mfidl.h)
-
 description: Called when the sample-grabber sink receives a new media sample.
 old-location: mf\imfsamplegrabbersinkcallback2_onprocesssampleex.htm
 tech.root: medfound
 ms.assetid: dc880967-ac97-4835-bbc9-1bd664e42739
-
 ms.date: 12/05/2018
 ms.keywords: IMFSampleGrabberSinkCallback2 interface [Media Foundation],OnProcessSampleEx method, IMFSampleGrabberSinkCallback2.OnProcessSampleEx, IMFSampleGrabberSinkCallback2::OnProcessSampleEx, OnProcessSampleEx, OnProcessSampleEx method [Media Foundation], OnProcessSampleEx method [Media Foundation],IMFSampleGrabberSinkCallback2 interface, mf.imfsamplegrabbersinkcallback2_onprocesssampleex, mfidl/IMFSampleGrabberSinkCallback2::OnProcessSampleEx
 ms.topic: method
-f1_keywords: 
- - "mfidl/IMFSampleGrabberSinkCallback2.OnProcessSampleEx"
+f1_keywords:
+- mfidl/IMFSampleGrabberSinkCallback2.OnProcessSampleEx
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfidl.h
+- mfidl.h
 api_name:
- - IMFSampleGrabberSinkCallback2.OnProcessSampleEx
+- IMFSampleGrabberSinkCallback2.OnProcessSampleEx
 targetos: Windows
 req.typenames: 
 req.redist: 

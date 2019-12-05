@@ -1,19 +1,17 @@
 ---
 UID: NS:d3d12.D3D12_DEPTH_STENCILOP_DESC
 title: D3D12_DEPTH_STENCILOP_DESC (d3d12.h)
-
 description: Describes stencil operations that can be performed based on the results of stencil test.
 old-location: direct3d12\d3d12_depth_stencilop_desc.htm
 tech.root: direct3d12
 ms.assetid: 1E72B486-98E1-4140-80E3-6DF95ECA82DB
-
 ms.date: 12/05/2018
 ms.keywords: D3D12_DEPTH_STENCILOP_DESC, D3D12_DEPTH_STENCILOP_DESC structure, d3d12/D3D12_DEPTH_STENCILOP_DESC, direct3d12.d3d12_depth_stencilop_desc
 ms.topic: struct
-f1_keywords: 
- - "d3d12/D3D12_DEPTH_STENCILOP_DESC"
+f1_keywords:
+- d3d12/D3D12_DEPTH_STENCILOP_DESC
 dev_langs:
- - c++
+- c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - D3D12.h
+- D3D12.h
 api_name:
- - D3D12_DEPTH_STENCILOP_DESC
+- D3D12_DEPTH_STENCILOP_DESC
 targetos: Windows
 req.typenames: D3D12_DEPTH_STENCILOP_DESC
 req.redist: 

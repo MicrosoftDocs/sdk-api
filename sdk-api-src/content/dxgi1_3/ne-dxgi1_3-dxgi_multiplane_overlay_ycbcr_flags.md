@@ -1,19 +1,17 @@
 ---
 UID: NE:dxgi1_3.DXGI_MULTIPLANE_OVERLAY_YCbCr_FLAGS
 title: DXGI_MULTIPLANE_OVERLAY_YCbCr_FLAGS (dxgi1_3.h)
-
 description: Options for swap-chain color space.
 old-location: direct3ddxgi\dxgi_multiplane_overlay_ycbcr_flags.htm
 tech.root: direct3ddxgi
 ms.assetid: 8BD502DC-39C1-472E-AC29-14A1F7EDB37E
-
 ms.date: 12/05/2018
 ms.keywords: DXGI_MULTIPLANE_OVERLAY_YCbCr_FLAGS, DXGI_MULTIPLANE_OVERLAY_YCbCr_FLAGS enumeration [DXGI], DXGI_MULTIPLANE_OVERLAY_YCbCr_FLAG_BT709, DXGI_MULTIPLANE_OVERLAY_YCbCr_FLAG_NOMINAL_RANGE, DXGI_MULTIPLANE_OVERLAY_YCbCr_FLAG_xvYCC, direct3ddxgi.dxgi_multiplane_overlay_ycbcr_flags, dxgi1_3/DXGI_MULTIPLANE_OVERLAY_YCbCr_FLAGS, dxgi1_3/DXGI_MULTIPLANE_OVERLAY_YCbCr_FLAG_BT709, dxgi1_3/DXGI_MULTIPLANE_OVERLAY_YCbCr_FLAG_NOMINAL_RANGE, dxgi1_3/DXGI_MULTIPLANE_OVERLAY_YCbCr_FLAG_xvYCC
 ms.topic: enum
-f1_keywords: 
- - "dxgi1_3/DXGI_MULTIPLANE_OVERLAY_YCbCr_FLAGS"
+f1_keywords:
+- dxgi1_3/DXGI_MULTIPLANE_OVERLAY_YCbCr_FLAGS
 dev_langs:
- - c++
+- c++
 req.header: dxgi1_3.h
 req.include-header: DXGIPartner.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - dxgi1_3.h
+- dxgi1_3.h
 api_name:
- - DXGI_MULTIPLANE_OVERLAY_YCbCr_FLAGS
+- DXGI_MULTIPLANE_OVERLAY_YCbCr_FLAGS
 targetos: Windows
 req.typenames: DXGI_MULTIPLANE_OVERLAY_YCbCr_FLAGS
 req.redist: 

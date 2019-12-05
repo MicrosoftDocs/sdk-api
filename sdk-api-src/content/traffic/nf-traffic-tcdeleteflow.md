@@ -1,19 +1,17 @@
 ---
 UID: NF:traffic.TcDeleteFlow
 title: TcDeleteFlow function (traffic.h)
-
 description: The TcDeleteFlow function deletes a flow that has been added with the TcAddFlow function. Clients should delete all filters associated with a flow before deleting it, otherwise, an error will be returned and the function will not delete the flow.
 old-location: qos\tcdeleteflow.htm
 tech.root: QOS
 ms.assetid: 6e62b55e-9919-44be-a9ae-f1319cc82d76
-
 ms.date: 12/05/2018
 ms.keywords: TcDeleteFlow, TcDeleteFlow function [QOS], _gqos_tcdeleteflow, qos.tcdeleteflow, traffic/TcDeleteFlow
 ms.topic: function
-f1_keywords: 
- - "traffic/TcDeleteFlow"
+f1_keywords:
+- traffic/TcDeleteFlow
 dev_langs:
- - c++
+- c++
 req.header: traffic.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Traffic.lib
 req.dll: Traffic.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Traffic.dll
+- Traffic.dll
 api_name:
- - TcDeleteFlow
+- TcDeleteFlow
 targetos: Windows
 req.typenames: 
 req.redist: 

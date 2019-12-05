@@ -1,19 +1,17 @@
 ---
 UID: NF:wuapi.IUpdateInstaller.get_Updates
 title: IUpdateInstaller::get_Updates (wuapi.h)
-
 description: Gets and sets an interface that contains a read-only collection of the updates that are specified for installation or uninstallation.
 old-location: wua\iupdateinstaller_updates.htm
 tech.root: Wua_Sdk
 ms.assetid: f56121fd-f8ba-48b5-840b-1a5a751e1a70
-
 ms.date: 12/05/2018
 ms.keywords: IUpdateInstaller interface [Windows Update Agent],Updates property, IUpdateInstaller.Updates, IUpdateInstaller.get_Updates, IUpdateInstaller::Updates, IUpdateInstaller::get_Updates, IUpdateInstaller::put_Updates, Updates property [Windows Update Agent], Updates property [Windows Update Agent],IUpdateInstaller interface, get_Updates, wua.iupdateinstaller_updates, wuapi/IUpdateInstaller::Updates, wuapi/IUpdateInstaller::get_Updates, wuapi/IUpdateInstaller::put_Updates
 ms.topic: method
-f1_keywords: 
- - "wuapi/IUpdateInstaller.Updates"
+f1_keywords:
+- wuapi/IUpdateInstaller.Updates
 dev_langs:
- - c++
+- c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Wuguid.lib
 req.dll: Wuapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wuapi.dll
+- Wuapi.dll
 api_name:
- - IUpdateInstaller.Updates
- - IUpdateInstaller.get_Updates
- - IUpdateInstaller.put_Updates
+- IUpdateInstaller.Updates
+- IUpdateInstaller.get_Updates
+- IUpdateInstaller.put_Updates
 targetos: Windows
 req.typenames: 
 req.redist: 

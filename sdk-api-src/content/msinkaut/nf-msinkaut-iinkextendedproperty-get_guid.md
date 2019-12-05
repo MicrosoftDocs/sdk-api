@@ -1,19 +1,17 @@
 ---
 UID: NF:msinkaut.IInkExtendedProperty.get_Guid
 title: IInkExtendedProperty::get_Guid (msinkaut.h)
-
 description: Gets the globally unique identifier (GUID) of the IInkExtendedProperty object.
 old-location: tablet\iinkextendedproperty_guid.htm
 tech.root: tablet
 ms.assetid: cd029ffc-11c4-41f7-86bc-c11fac38ec72
-
 ms.date: 12/05/2018
 ms.keywords: Guid property [Tablet PC], Guid property [Tablet PC],IInkExtendedProperty interface, IInkExtendedProperty interface [Tablet PC],Guid property, IInkExtendedProperty.Guid, IInkExtendedProperty.get_Guid, IInkExtendedProperty::Guid, IInkExtendedProperty::get_Guid, cd029ffc-11c4-41f7-86bc-c11fac38ec72, get_Guid, msinkaut/IInkExtendedProperty::Guid, msinkaut/IInkExtendedProperty::get_Guid, tablet.iinkextendedproperty_guid
 ms.topic: method
-f1_keywords: 
- - "msinkaut/IInkExtendedProperty.Guid"
+f1_keywords:
+- msinkaut/IInkExtendedProperty.Guid
 dev_langs:
- - c++
+- c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: InkObj.dll
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - InkObj.dll
- - InkObj.dll.dll
+- InkObj.dll
+- InkObj.dll.dll
 api_name:
- - IInkExtendedProperty.Guid
- - IInkExtendedProperty.get_Guid
- - IInkExtendedProperty.get_Guid
+- IInkExtendedProperty.Guid
+- IInkExtendedProperty.get_Guid
+- IInkExtendedProperty.get_Guid
 targetos: Windows
 req.typenames: 
 req.redist: 

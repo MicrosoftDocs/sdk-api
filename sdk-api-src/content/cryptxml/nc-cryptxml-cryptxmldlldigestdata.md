@@ -1,19 +1,17 @@
 ---
 UID: NC:cryptxml.CryptXmlDllDigestData
 title: CryptXmlDllDigestData (cryptxml.h)
-
 description: Puts data into the digest.
 old-location: security\cryptxmldlldigestdata.htm
 tech.root: SecCrypto
 ms.assetid: b18a6e96-f5ed-4e48-af8c-4599c1864bf4
-
 ms.date: 12/05/2018
 ms.keywords: CryptXmlDllDigestData, CryptXmlDllDigestData callback, CryptXmlDllDigestData callback function [Security], cryptxml/CryptXmlDllDigestData, security.cryptxmldlldigestdata
 ms.topic: callback
-f1_keywords: 
- - "cryptxml/CryptXmlDllDigestData"
+f1_keywords:
+- cryptxml/CryptXmlDllDigestData
 dev_langs:
- - c++
+- c++
 req.header: cryptxml.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Cryptxml.h
+- Cryptxml.h
 api_name:
- - CryptXmlDllDigestData
+- CryptXmlDllDigestData
 targetos: Windows
 req.typenames: 
 req.redist: 

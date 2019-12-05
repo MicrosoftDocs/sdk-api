@@ -1,19 +1,17 @@
 ---
 UID: NF:wmp.IWMPCore.put_currentPlaylist
 title: IWMPCore::put_currentPlaylist (wmp.h)
-
 description: The put_currentPlaylist method specifies the IWMPPlaylist interface that corresponds to the current playlist.
 old-location: wmp\iwmpcore_put_currentplaylist.htm
 tech.root: WMP
 ms.assetid: 943641ca-9733-4066-bc69-834e792d93dc
-
 ms.date: 12/05/2018
 ms.keywords: IWMPCore interface [Windows Media Player],put_currentPlaylist method, IWMPCore.put_currentPlaylist, IWMPCore::put_currentPlaylist, IWMPCoreput_currentPlaylist, put_currentPlaylist, put_currentPlaylist method [Windows Media Player], put_currentPlaylist method [Windows Media Player],IWMPCore interface, wmp.iwmpcore_put_currentplaylist, wmp/IWMPCore::put_currentPlaylist
 ms.topic: method
-f1_keywords: 
- - "wmp/IWMPCore.put_currentPlaylist"
+f1_keywords:
+- wmp/IWMPCore.put_currentPlaylist
 dev_langs:
- - c++
+- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wmp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmp.dll
+- wmp.dll
 api_name:
- - IWMPCore.put_currentPlaylist
+- IWMPCore.put_currentPlaylist
 targetos: Windows
 req.typenames: 
 req.redist: 

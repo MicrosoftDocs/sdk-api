@@ -1,19 +1,17 @@
 ---
 UID: NF:mfmediaengine.IMFTimedTextCue.GetTrackId
 title: IMFTimedTextCue::GetTrackId (mfmediaengine.h)
-
 description: Gets the identifier of the timed-text cue.
 old-location: mf\imftimedtextcue_gettrackid.htm
 tech.root: medfound
 ms.assetid: 967CA2AC-A36A-4875-9882-6EF4748EC92C
-
 ms.date: 12/05/2018
 ms.keywords: GetTrackId, GetTrackId method [Media Foundation], GetTrackId method [Media Foundation],IMFTimedTextCue interface, IMFTimedTextCue interface [Media Foundation],GetTrackId method, IMFTimedTextCue.GetTrackId, IMFTimedTextCue::GetTrackId, mf.imftimedtextcue_gettrackid, mfmediaengine/IMFTimedTextCue::GetTrackId
 ms.topic: method
-f1_keywords: 
- - "mfmediaengine/IMFTimedTextCue.GetTrackId"
+f1_keywords:
+- mfmediaengine/IMFTimedTextCue.GetTrackId
 dev_langs:
- - c++
+- c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfmediaengine.h
+- mfmediaengine.h
 api_name:
- - IMFTimedTextCue.GetTrackId
+- IMFTimedTextCue.GetTrackId
 targetos: Windows
 req.typenames: 
 req.redist: 

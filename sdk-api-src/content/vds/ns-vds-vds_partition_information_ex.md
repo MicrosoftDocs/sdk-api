@@ -1,19 +1,17 @@
 ---
 UID: NS:vds._VDS_PARTITION_INFORMATION_EX
 title: VDS_PARTITION_INFORMATION_EX (vds.h)
-
 description: This structure is reserved for system use.
 old-location: base\vds_partition_information_ex.htm
 tech.root: VDS
 ms.assetid: 99ded61d-fcbc-4e1c-8b3a-69c14d4c20bb
-
 ms.date: 12/05/2018
 ms.keywords: PVDS_PARTITION_INFORMATION_EX, PVDS_PARTITION_INFORMATION_EX structure pointer, VDS_PARTITION_INFORMATION_EX, VDS_PARTITION_INFORMATION_EX structure, base.vds_partition_information_ex, vds/PVDS_PARTITION_INFORMATION_EX, vds/VDS_PARTITION_INFORMATION_EX
 ms.topic: struct
-f1_keywords: 
- - "vds/VDS_PARTITION_INFORMATION_EX"
+f1_keywords:
+- vds/VDS_PARTITION_INFORMATION_EX
 dev_langs:
- - c++
+- c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - vds.h
+- vds.h
 api_name:
- - VDS_PARTITION_INFORMATION_EX
+- VDS_PARTITION_INFORMATION_EX
 targetos: Windows
 req.typenames: VDS_PARTITION_INFORMATION_EX
 req.redist: 

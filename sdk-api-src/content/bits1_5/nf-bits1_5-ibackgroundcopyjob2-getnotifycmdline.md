@@ -1,19 +1,17 @@
 ---
 UID: NF:bits1_5.IBackgroundCopyJob2.GetNotifyCmdLine
 title: IBackgroundCopyJob2::GetNotifyCmdLine
-
 description: Retrieves the program to execute when the job enters the error or transferred state.
 old-location: bits\ibackgroundcopyjob2_getnotifycmdline.htm
 tech.root: Bits
 ms.assetid: 62978315-e893-4617-8e6d-63bab8204913
-
 ms.date: 12/05/2018
 ms.keywords: GetNotifyCmdLine, GetNotifyCmdLine method [BITS], GetNotifyCmdLine method [BITS],IBackgroundCopyJob2 interface, IBackgroundCopyJob2 interface [BITS],GetNotifyCmdLine method, IBackgroundCopyJob2.GetNotifyCmdLine, IBackgroundCopyJob2::GetNotifyCmdLine, _drz_ibackgroundcopyjob2_getnotifycmdline, bits.ibackgroundcopyjob2_getnotifycmdline, bits1_5/IBackgroundCopyJob2::GetNotifyCmdLine
 ms.topic: method
-f1_keywords: 
- - "bits1_5/IBackgroundCopyJob2.GetNotifyCmdLine"
+f1_keywords:
+- bits1_5/IBackgroundCopyJob2.GetNotifyCmdLine
 dev_langs:
- - c++
+- c++
 req.header: bits1_5.h
 req.include-header: Bits.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Bits.lib
 req.dll: BitsPrx2.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - BitsPrx2.dll
+- BitsPrx2.dll
 api_name:
- - IBackgroundCopyJob2.GetNotifyCmdLine
+- IBackgroundCopyJob2.GetNotifyCmdLine
 targetos: Windows
 req.typenames: 
 req.redist: BITS 1.5 on  Windows XP

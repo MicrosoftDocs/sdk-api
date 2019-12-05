@@ -1,19 +1,17 @@
 ---
 UID: NF:msctf.ITfRangeACP.GetExtent
 title: ITfRangeACP::GetExtent (msctf.h)
-
 description: ITfRangeACP::GetExtent method
 old-location: tsf\itfrangeacp_getextent.htm
 tech.root: TSF
 ms.assetid: 14838cea-1a19-4faa-ac7f-617fde82432d
-
 ms.date: 12/05/2018
 ms.keywords: GetExtent, GetExtent method [Text Services Framework], GetExtent method [Text Services Framework],ITfRangeACP interface, ITfRangeACP interface [Text Services Framework],GetExtent method, ITfRangeACP.GetExtent, ITfRangeACP::GetExtent, _tsf_itfrangeacp_getextent_ref, msctf/ITfRangeACP::GetExtent, tsf.itfrangeacp_getextent
 ms.topic: method
-f1_keywords: 
- - "msctf/ITfRangeACP.GetExtent"
+f1_keywords:
+- msctf/ITfRangeACP.GetExtent
 dev_langs:
- - c++
+- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msctf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msctf.dll
+- msctf.dll
 api_name:
- - ITfRangeACP.GetExtent
+- ITfRangeACP.GetExtent
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

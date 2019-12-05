@@ -1,19 +1,17 @@
 ---
 UID: NF:appxpackaging.IAppxBlockMapFile.GetUncompressedSize
 title: IAppxBlockMapFile::GetUncompressedSize (appxpackaging.h)
-
 description: Retrieves the uncompressed size of the associated zip file item.
 old-location: appxpkg\iappxblockmapfile_getuncompressedsize.htm
 tech.root: appxpkg
 ms.assetid: 35D3EADC-F8EF-4D8F-8016-2E30976965EC
-
 ms.date: 12/05/2018
 ms.keywords: GetUncompressedSize, GetUncompressedSize method [App packaging and management], GetUncompressedSize method [App packaging and management],IAppxBlockMapFile interface, IAppxBlockMapFile interface [App packaging and management],GetUncompressedSize method, IAppxBlockMapFile.GetUncompressedSize, IAppxBlockMapFile::GetUncompressedSize, appxpackaging/IAppxBlockMapFile::GetUncompressedSize, appxpkg.iappxblockmapfile_getuncompressedsize
 ms.topic: method
-f1_keywords: 
- - "appxpackaging/IAppxBlockMapFile.GetUncompressedSize"
+f1_keywords:
+- appxpackaging/IAppxBlockMapFile.GetUncompressedSize
 dev_langs:
- - c++
+- c++
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - AppxPackaging.h
+- AppxPackaging.h
 api_name:
- - IAppxBlockMapFile.GetUncompressedSize
+- IAppxBlockMapFile.GetUncompressedSize
 targetos: Windows
 req.typenames: 
 req.redist: 

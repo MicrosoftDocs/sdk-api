@@ -1,19 +1,17 @@
 ---
 UID: NF:uianimation.IUIAnimationTransition2.SetInitialVectorValue
 title: IUIAnimationTransition2::SetInitialVectorValue (uianimation.h)
-
 description: Sets the initial value of the transition for each specified dimension in the animation variable.
 old-location: uianimation\iuianimationtransition2_setinitialvectorvalue.htm
 tech.root: UIAnimation
 ms.assetid: B46F15F2-8C2A-4F15-9BBE-20FB8E5C84C6
-
 ms.date: 12/05/2018
 ms.keywords: IUIAnimationTransition2 interface [Windows Animation],SetInitialVectorValue method, IUIAnimationTransition2.SetInitialVectorValue, IUIAnimationTransition2::SetInitialVectorValue, SetInitialVectorValue, SetInitialVectorValue method [Windows Animation], SetInitialVectorValue method [Windows Animation],IUIAnimationTransition2 interface, uianimation.iuianimationtransition2_setinitialvectorvalue, uianimation/IUIAnimationTransition2::SetInitialVectorValue
 ms.topic: method
-f1_keywords: 
- - "uianimation/IUIAnimationTransition2.SetInitialVectorValue"
+f1_keywords:
+- uianimation/IUIAnimationTransition2.SetInitialVectorValue
 dev_langs:
- - c++
+- c++
 req.header: uianimation.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: UIAnimation.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAnimation.dll
+- UIAnimation.dll
 api_name:
- - IUIAnimationTransition2.SetInitialVectorValue
+- IUIAnimationTransition2.SetInitialVectorValue
 targetos: Windows
 req.typenames: 
 req.redist: 

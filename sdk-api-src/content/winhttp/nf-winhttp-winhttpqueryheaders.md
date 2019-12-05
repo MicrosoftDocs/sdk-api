@@ -1,19 +1,17 @@
 ---
 UID: NF:winhttp.WinHttpQueryHeaders
 title: WinHttpQueryHeaders function (winhttp.h)
-
 description: The WinHttpQueryHeaders function retrieves header information associated with an HTTP request.
 old-location: http\winhttpqueryheaders.htm
 tech.root: WinHttp
 ms.assetid: 9656ebad-78df-4d1c-94e9-6127d6bc4799
-
 ms.date: 12/05/2018
 ms.keywords: WinHttpQueryHeaders, WinHttpQueryHeaders function [WinHTTP], http.winhttpqueryheaders, winhttp.winhttpqueryheaders_function, winhttp/WinHttpQueryHeaders
 ms.topic: function
-f1_keywords: 
- - "winhttp/WinHttpQueryHeaders"
+f1_keywords:
+- winhttp/WinHttpQueryHeaders
 dev_langs:
- - c++
+- c++
 req.header: winhttp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Winhttp.lib
 req.dll: Winhttp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Winhttp.dll
+- Winhttp.dll
 api_name:
- - WinHttpQueryHeaders
+- WinHttpQueryHeaders
 targetos: Windows
 req.typenames: 
 req.redist: WinHTTP 5.0 and Internet Explorer 5.01 or later on Windows XP and Windows 2000.

@@ -1,19 +1,17 @@
 ---
 UID: NS:webservices._WS_TCP_SSPI_BINDING_TEMPLATE
 title: WS_TCP_SSPI_BINDING_TEMPLATE (webservices.h)
-
 description: HTTP header authentication security template information to be filled in by application. Associated with WS_TCP_SSPI_BINDING_TEMPLATE_TYPE.
 old-location: wsw\ws_tcp_sspi_binding_template.htm
 tech.root: wsw
 ms.assetid: d81a71fa-4743-4831-8863-a8fa73d4a9f0
-
 ms.date: 12/05/2018
 ms.keywords: WS_TCP_SSPI_BINDING_TEMPLATE, WS_TCP_SSPI_BINDING_TEMPLATE structure [Web Services for Windows], webservices/WS_TCP_SSPI_BINDING_TEMPLATE, wsw.ws_tcp_sspi_binding_template
 ms.topic: struct
-f1_keywords: 
- - "webservices/WS_TCP_SSPI_BINDING_TEMPLATE"
+f1_keywords:
+- webservices/WS_TCP_SSPI_BINDING_TEMPLATE
 dev_langs:
- - c++
+- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WebServices.h
+- WebServices.h
 api_name:
- - WS_TCP_SSPI_BINDING_TEMPLATE
+- WS_TCP_SSPI_BINDING_TEMPLATE
 targetos: Windows
 req.typenames: WS_TCP_SSPI_BINDING_TEMPLATE
 req.redist: 

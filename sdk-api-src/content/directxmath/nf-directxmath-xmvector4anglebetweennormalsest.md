@@ -1,19 +1,17 @@
 ---
 UID: NF:directxmath.XMVector4AngleBetweenNormalsEst
 title: XMVector4AngleBetweenNormalsEst function (directxmath.h)
-
 description: Estimates the radian angle between two normalized 4D vectors.
 old-location: dxmath\xmvector4anglebetweennormalsest.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.geometric.XMVector4AngleBetweenNormalsEst(XMVECTOR,XMVECTOR)
-
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMVector4AngleBetweenNormalsEst, XMVector4AngleBetweenNormalsEst, XMVector4AngleBetweenNormalsEst method [DirectX Math Support APIs], dxmath.xmvector4anglebetweennormalsest
 ms.topic: function
-f1_keywords: 
- - "directxmath/XMVector4AngleBetweenNormalsEst"
+f1_keywords:
+- directxmath/XMVector4AngleBetweenNormalsEst
 dev_langs:
- - c++
+- c++
 req.header: directxmath.h
 req.include-header: DirectXMath.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - directxmathvector.inl
+- directxmathvector.inl
 api_name:
- - XMVector4AngleBetweenNormalsEst
+- XMVector4AngleBetweenNormalsEst
 targetos: Windows
 req.typenames: 
 req.redist: 

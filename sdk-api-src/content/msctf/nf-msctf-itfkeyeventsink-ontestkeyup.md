@@ -1,19 +1,17 @@
 ---
 UID: NF:msctf.ITfKeyEventSink.OnTestKeyUp
 title: ITfKeyEventSink::OnTestKeyUp (msctf.h)
-
 description: ITfKeyEventSink::OnTestKeyUp method
 old-location: tsf\itfkeyeventsink_ontestkeyup.htm
 tech.root: TSF
 ms.assetid: 2d105a20-3fb8-43aa-a36a-744803bd4035
-
 ms.date: 12/05/2018
 ms.keywords: ITfKeyEventSink interface [Text Services Framework],OnTestKeyUp method, ITfKeyEventSink.OnTestKeyUp, ITfKeyEventSink::OnTestKeyUp, OnTestKeyUp, OnTestKeyUp method [Text Services Framework], OnTestKeyUp method [Text Services Framework],ITfKeyEventSink interface, _tsf_itfkeyeventsink_ontestkeyup_ref, msctf/ITfKeyEventSink::OnTestKeyUp, tsf.itfkeyeventsink_ontestkeyup
 ms.topic: method
-f1_keywords: 
- - "msctf/ITfKeyEventSink.OnTestKeyUp"
+f1_keywords:
+- msctf/ITfKeyEventSink.OnTestKeyUp
 dev_langs:
- - c++
+- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msctf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msctf.dll
+- Msctf.dll
 api_name:
- - ITfKeyEventSink.OnTestKeyUp
+- ITfKeyEventSink.OnTestKeyUp
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

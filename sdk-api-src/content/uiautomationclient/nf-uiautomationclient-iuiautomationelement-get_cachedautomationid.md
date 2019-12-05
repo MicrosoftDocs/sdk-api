@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationElement.get_CachedAutomationId
 title: IUIAutomationElement::get_CachedAutomationId (uiautomationclient.h)
-
 description: Retrieves the cached Microsoft UI Automation identifier of the element.
 old-location: winauto\uiauto_IUIAutomationElement_CachedAutomationId.htm
 tech.root: WinAuto
 ms.assetid: 1449dfe7-c0b9-4920-af7a-34aa4f036156
-
 ms.date: 12/05/2018
 ms.keywords: CachedAutomationId property [Windows Accessibility], CachedAutomationId property [Windows Accessibility],IUIAutomationElement interface, IUIAutomationElement interface [Windows Accessibility],CachedAutomationId property, IUIAutomationElement.CachedAutomationId, IUIAutomationElement.get_CachedAutomationId, IUIAutomationElement::CachedAutomationId, IUIAutomationElement::get_CachedAutomationId, get_CachedAutomationId, uiauto.uiauto_IUIAutomationElement_CachedAutomationId, uiauto_IUIAutomationElement_CachedAutomationId, uiautomationclient/IUIAutomationElement::CachedAutomationId, uiautomationclient/IUIAutomationElement::get_CachedAutomationId, winauto.uiauto_IUIAutomationElement_CachedAutomationId
 ms.topic: method
-f1_keywords: 
- - "uiautomationclient/IUIAutomationElement.CachedAutomationId"
+f1_keywords:
+- uiautomationclient/IUIAutomationElement.CachedAutomationId
 dev_langs:
- - c++
+- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationClient.h
+- UIAutomationClient.h
 api_name:
- - IUIAutomationElement.CachedAutomationId
- - IUIAutomationElement.get_CachedAutomationId
+- IUIAutomationElement.CachedAutomationId
+- IUIAutomationElement.get_CachedAutomationId
 targetos: Windows
 req.typenames: 
 req.redist: 

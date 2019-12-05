@@ -1,19 +1,17 @@
 ---
 UID: NE:hrtfapoapi.HrtfDistanceDecayType
 title: HrtfDistanceDecayType (hrtfapoapi.h)
-
 description: Indicates a distance-based decay type applied to a sound.
 old-location: xaudio2\hrtfdistancedecaytype.htm
 tech.root: xaudio2
 ms.assetid: 72421F09-6DB6-4195-AE44-0D3AD17F50B3
-
 ms.date: 12/05/2018
 ms.keywords: CustomDecay, HrtfDistanceDecayType, HrtfDistanceDecayType enumeration [XAudio2 Audio Mixing APIs], NaturalDecay, hrtfapoapi/CustomDecay, hrtfapoapi/HrtfDistanceDecayType, hrtfapoapi/NaturalDecay, xaudio2.hrtfdistancedecaytype
 ms.topic: enum
-f1_keywords: 
- - "hrtfapoapi/HrtfDistanceDecayType"
+f1_keywords:
+- hrtfapoapi/HrtfDistanceDecayType
 dev_langs:
- - c++
+- c++
 req.header: hrtfapoapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - HrtfApoApi.h
+- HrtfApoApi.h
 api_name:
- - HrtfDistanceDecayType
+- HrtfDistanceDecayType
 targetos: Windows
 req.typenames: HrtfDistanceDecayType
 req.redist: 

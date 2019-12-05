@@ -1,46 +1,43 @@
 ---
 UID: NF:d3d12video.ID3D12VideoDecodeCommandList.DiscardResource
 title: ID3D12VideoDecodeCommandList::DiscardResource
-
 description: Indicate that the current contents of a resource can be discarded.
 tech.root: mf
 ms.assetid: f00a49e1-d189-462f-acb7-f233239b2cf4
-
 ms.date: 05/28/2019
 ms.topic: method
 f1_keywords:
- - ID3D12VideoDecodeCommandList::DiscardResource
+- ID3D12VideoDecodeCommandList::DiscardResource
 dev_langs:
- - c++
+- c++
 ms.keywords: ID3D12VideoDecodeCommandList::DiscardResource, DiscardResource, ID3D12VideoDecodeCommandList.DiscardResource, ID3D12VideoDecodeCommandList::DiscardResource, ID3D12VideoDecodeCommandList.DiscardResource
 req.header: d3d12video.h
-req.include-header:
-req.redist:
-req.target-type:
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
+req.include-header: 
+req.redist: 
+req.target-type: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
 req.dll: d3d12.dll
 req.irql: 
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
-req.type-library:
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
 topic_type:
- - apiref
+- apiref
 api_type:
- - COM
+- COM
 api_location:
- - d3d12.dll
+- d3d12.dll
 api_name:
- - ID3D12VideoDecodeCommandList::DiscardResource
+- ID3D12VideoDecodeCommandList::DiscardResource
 targetos: Windows
-
 ---
 
 # ID3D12VideoDecodeCommandList::DiscardResource

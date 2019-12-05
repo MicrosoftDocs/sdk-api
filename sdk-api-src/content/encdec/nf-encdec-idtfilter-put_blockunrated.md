@@ -1,19 +1,17 @@
 ---
 UID: NF:encdec.IDTFilter.put_BlockUnRated
 title: IDTFilter::put_BlockUnRated (encdec.h)
-
 description: The put_BlockUnRated method specifies whether to block a program for which rating information has not been obtained.
 old-location: mstv\idtfilter_put_blockunrated.htm
 tech.root: mstv
 ms.assetid: 2b6ef516-bbc8-4d17-a306-433e8265e879
-
 ms.date: 12/05/2018
 ms.keywords: IDTFilter interface [Microsoft TV Technologies],put_BlockUnRated method, IDTFilter.put_BlockUnRated, IDTFilter::put_BlockUnRated, IDTFilterput_BlockUnRated, encdec/IDTFilter::put_BlockUnRated, mstv.idtfilter_put_blockunrated, put_BlockUnRated, put_BlockUnRated method [Microsoft TV Technologies], put_BlockUnRated method [Microsoft TV Technologies],IDTFilter interface
 ms.topic: method
-f1_keywords: 
- - "encdec/IDTFilter.put_BlockUnRated"
+f1_keywords:
+- encdec/IDTFilter.put_BlockUnRated
 dev_langs:
- - c++
+- c++
 req.header: encdec.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - EncDec.h
+- EncDec.h
 api_name:
- - IDTFilter.put_BlockUnRated
+- IDTFilter.put_BlockUnRated
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:commctrl.ListView_SetItemCount
 title: ListView_SetItemCount macro (commctrl.h)
-
 description: Causes the list-view control to allocate memory for the specified number of items. You can use this macro or send the LVM_SETITEMCOUNT message explicitly.
 old-location: controls\ListView_SetItemCount.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_setitemcount.htm
-
 ms.date: 12/05/2018
 ms.keywords: ListView_SetItemCount, ListView_SetItemCount macro [Windows Controls], _win32_ListView_SetItemCount, _win32_ListView_SetItemCount_cpp, commctrl/ListView_SetItemCount, controls.ListView_SetItemCount, controls._win32_ListView_SetItemCount
 ms.topic: macro
-f1_keywords: 
- - "commctrl/ListView_SetItemCount"
+f1_keywords:
+- commctrl/ListView_SetItemCount
 dev_langs:
- - c++
+- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Commctrl.h
+- Commctrl.h
 api_name:
- - ListView_SetItemCount
+- ListView_SetItemCount
 targetos: Windows
 req.typenames: 
 req.redist: 

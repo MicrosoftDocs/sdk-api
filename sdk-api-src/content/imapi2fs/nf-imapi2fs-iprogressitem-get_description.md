@@ -1,19 +1,17 @@
 ---
 UID: NF:imapi2fs.IProgressItem.get_Description
 title: IProgressItem::get_Description (imapi2fs.h)
-
 description: Retrieves the description in the progress item.
 old-location: imapi\iprogressitem_get_description.htm
 tech.root: imapi
 ms.assetid: 72da165f-a875-4f26-a2ba-701ad0a4a9d1
-
 ms.date: 12/05/2018
 ms.keywords: IProgressItem interface [IMAPI],get_Description method, IProgressItem.get_Description, IProgressItem::get_Description, get_Description, get_Description method [IMAPI], get_Description method [IMAPI],IProgressItem interface, imapi.iprogressitem_get_description, imapi2fs/IProgressItem::get_Description
 ms.topic: method
-f1_keywords: 
- - "imapi2fs/IProgressItem.get_Description"
+f1_keywords:
+- imapi2fs/IProgressItem.get_Description
 dev_langs:
- - c++
+- c++
 req.header: imapi2fs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - imapi2fs.h
+- imapi2fs.h
 api_name:
- - IProgressItem.get_Description
+- IProgressItem.get_Description
 targetos: Windows
 req.typenames: 
 req.redist: 

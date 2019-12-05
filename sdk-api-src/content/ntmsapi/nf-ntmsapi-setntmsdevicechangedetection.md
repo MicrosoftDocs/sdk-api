@@ -1,19 +1,17 @@
 ---
 UID: NF:ntmsapi.SetNtmsDeviceChangeDetection
 title: SetNtmsDeviceChangeDetection function (ntmsapi.h)
-
 description: The SetNtmsDeviceChangeDetection function sets one or more target devices for change detection.
 old-location: fs\setntmsdevicechangedetection.htm
 tech.root: Rsm
 ms.assetid: 803bd7d6-f098-42f1-83da-fe9f71f960b0
-
 ms.date: 12/05/2018
 ms.keywords: SetNtmsDeviceChangeDetection, SetNtmsDeviceChangeDetection function [Files], _zaw_setntmsdevicechangedetection, base.setntmsdevicechangedetection, fs.setntmsdevicechangedetection, ntmsapi/SetNtmsDeviceChangeDetection
 ms.topic: function
-f1_keywords: 
- - "ntmsapi/SetNtmsDeviceChangeDetection"
+f1_keywords:
+- ntmsapi/SetNtmsDeviceChangeDetection
 dev_langs:
- - c++
+- c++
 req.header: ntmsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Ntmsapi.lib
 req.dll: Ntmsapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ntmsapi.dll
+- Ntmsapi.dll
 api_name:
- - SetNtmsDeviceChangeDetection
+- SetNtmsDeviceChangeDetection
 targetos: Windows
 req.typenames: 
 req.redist: 

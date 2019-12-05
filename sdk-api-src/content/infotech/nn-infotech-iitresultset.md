@@ -1,19 +1,17 @@
 ---
 UID: NN:infotech.IITResultSet
 title: IITResultSet (infotech.h)
-
 description: Use this interface in run-time applications to initialize, build, and obtain information about result sets.
 old-location: htmlhelp\iitresultset.htm
 tech.root: htmlhelp
 ms.assetid: VS|htmlhelp|~\html\refiitresultsetinterface.htm
-
 ms.date: 12/05/2018
 ms.keywords: IITResultSet, IITResultSet interface [HTML Help Workshop], IITResultSet interface [HTML Help Workshop],described, htmlhelp.iitresultset, infotech/IITResultSet, refIITResultSetInterface
 ms.topic: interface
-f1_keywords: 
- - "infotech/IITResultSet"
+f1_keywords:
+- infotech/IITResultSet
 dev_langs:
- - c++
+- c++
 req.header: infotech.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Infotech.h
+- Infotech.h
 api_name:
- - IITResultSet
+- IITResultSet
 targetos: Windows
 req.typenames: 
 req.redist: 

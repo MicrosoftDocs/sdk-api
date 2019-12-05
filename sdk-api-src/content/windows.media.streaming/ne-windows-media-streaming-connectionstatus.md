@@ -1,19 +1,17 @@
 ---
 UID: NE:windows.media.streaming.ConnectionStatus
 title: ConnectionStatus (windows.media.streaming.h)
-
 description: Represents the state of the device in the network as last seen.
 old-location: mediastreaming\connectionstatus.htm
 tech.root: mediastreaming
 ms.assetid: e1893a59-ce7d-4e9c-a013-02ac916d4ee8
-
 ms.date: 12/05/2018
 ms.keywords: ConnectionStatus, ConnectionStatus enumeration [Media Streaming API], Offline, Online, Sleeping, mediastreaming.connectionstatus, windows/ConnectionStatus, windows/Offline, windows/Online, windows/Sleeping
 ms.topic: enum
-f1_keywords: 
- - "windows.media.streaming/ConnectionStatus"
+f1_keywords:
+- windows.media.streaming/ConnectionStatus
 dev_langs:
- - c++
+- c++
 req.header: windows.media.streaming.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - windows.media.streaming.h
+- windows.media.streaming.h
 api_name:
- - ConnectionStatus
+- ConnectionStatus
 targetos: Windows
 req.typenames: 
 req.redist: 

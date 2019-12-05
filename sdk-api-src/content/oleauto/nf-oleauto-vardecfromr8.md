@@ -1,19 +1,17 @@
 ---
 UID: NF:oleauto.VarDecFromR8
 title: VarDecFromR8 function (oleauto.h)
-
 description: Converts a double value to a decimal value.
 old-location: automat\vardecfromr8.htm
 tech.root: automat
 ms.assetid: 5661ec3d-d3bf-434d-af31-20f108b78c03
-
 ms.date: 12/05/2018
 ms.keywords: VarDecFromR8, VarDecFromR8 function [Automation], _oa96_VarDecFromR8, automat.vardecfromr8, oleauto/VarDecFromR8
 ms.topic: function
-f1_keywords: 
- - "oleauto/VarDecFromR8"
+f1_keywords:
+- oleauto/VarDecFromR8
 dev_langs:
- - c++
+- c++
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: OleAut32.lib
 req.dll: OleAut32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - OleAut32.dll
+- OleAut32.dll
 api_name:
- - VarDecFromR8
+- VarDecFromR8
 targetos: Windows
 req.typenames: 
 req.redist: 

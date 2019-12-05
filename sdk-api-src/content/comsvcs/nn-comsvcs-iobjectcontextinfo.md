@@ -1,19 +1,17 @@
 ---
 UID: NN:comsvcs.IObjectContextInfo
 title: IObjectContextInfo (comsvcs.h)
-
 description: Retrieves transaction, activity, and context information on the current context object.
 old-location: cos\iobjectcontextinfo.htm
 tech.root: cossdk
 ms.assetid: 76dcc6f3-f840-4672-bba9-038c1249a306
-
 ms.date: 12/05/2018
 ms.keywords: IObjectContextInfo, IObjectContextInfo interface [COM+], IObjectContextInfo interface [COM+],described, _cos_IObjectContextInfo, comsvcs/IObjectContextInfo, cos.iobjectcontextinfo
 ms.topic: interface
-f1_keywords: 
- - "comsvcs/IObjectContextInfo"
+f1_keywords:
+- comsvcs/IObjectContextInfo
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - IObjectContextInfo
+- IObjectContextInfo
 targetos: Windows
 req.typenames: 
 req.redist: 

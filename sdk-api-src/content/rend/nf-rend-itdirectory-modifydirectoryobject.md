@@ -1,19 +1,17 @@
 ---
 UID: NF:rend.ITDirectory.ModifyDirectoryObject
 title: ITDirectory::ModifyDirectoryObject (rend.h)
-
 description: The ModifyDirectoryObject method commits directory modifications to the server.
 old-location: tapi3\itdirectory_modifydirectoryobject.htm
 tech.root: Tapi
 ms.assetid: be53c186-c23c-4ff6-8060-f06555ab4548
-
 ms.date: 12/05/2018
 ms.keywords: ITDirectory interface [TAPI 2.2],ModifyDirectoryObject method, ITDirectory.ModifyDirectoryObject, ITDirectory::ModifyDirectoryObject, ModifyDirectoryObject, ModifyDirectoryObject method [TAPI 2.2], ModifyDirectoryObject method [TAPI 2.2],ITDirectory interface, _tapi3_itdirectory_modifydirectoryobject, rend/ITDirectory::ModifyDirectoryObject, tapi3.itdirectory_modifydirectoryobject
 ms.topic: method
-f1_keywords: 
- - "rend/ITDirectory.ModifyDirectoryObject"
+f1_keywords:
+- rend/ITDirectory.ModifyDirectoryObject
 dev_langs:
- - c++
+- c++
 req.header: rend.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Rend.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Rend.dll
+- Rend.dll
 api_name:
- - ITDirectory.ModifyDirectoryObject
+- ITDirectory.ModifyDirectoryObject
 targetos: Windows
 req.typenames: 
 req.redist: 

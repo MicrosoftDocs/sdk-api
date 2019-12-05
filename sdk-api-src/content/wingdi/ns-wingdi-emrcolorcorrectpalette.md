@@ -1,19 +1,17 @@
 ---
 UID: NS:wingdi.tagCOLORCORRECTPALETTE
 title: EMRCOLORCORRECTPALETTE (wingdi.h)
-
 description: The EMRCOLORCORRECTPALETTE structure contains members for the ColorCorrectPalette enhanced metafile record.
 old-location: gdi\emrcolorcorrectpalette.htm
 tech.root: gdi
 ms.assetid: 12e31e22-b9ac-454d-a423-b3fee582fcba
-
 ms.date: 12/05/2018
-ms.keywords: "*PEMRCOLORCORRECTPALETTE, EMRCOLORCORRECTPALETTE, EMRCOLORCORRECTPALETTE structure [Windows GDI], PEMRCOLORCORRECTPALETTE, PEMRCOLORCORRECTPALETTE structure pointer [Windows GDI], _win32_EMRCOLORCORRECTPALETTE_str, gdi.emrcolorcorrectpalette, wingdi/EMRCOLORCORRECTPALETTE, wingdi/PEMRCOLORCORRECTPALETTE"
+ms.keywords: '*PEMRCOLORCORRECTPALETTE, EMRCOLORCORRECTPALETTE, EMRCOLORCORRECTPALETTE structure [Windows GDI], PEMRCOLORCORRECTPALETTE, PEMRCOLORCORRECTPALETTE structure pointer [Windows GDI], _win32_EMRCOLORCORRECTPALETTE_str, gdi.emrcolorcorrectpalette, wingdi/EMRCOLORCORRECTPALETTE, wingdi/PEMRCOLORCORRECTPALETTE'
 ms.topic: struct
-f1_keywords: 
- - "wingdi/EMRCOLORCORRECTPALETTE"
+f1_keywords:
+- wingdi/EMRCOLORCORRECTPALETTE
 dev_langs:
- - c++
+- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wingdi.h
+- Wingdi.h
 api_name:
- - EMRCOLORCORRECTPALETTE
+- EMRCOLORCORRECTPALETTE
 targetos: Windows
 req.typenames: EMRCOLORCORRECTPALETTE, *PEMRCOLORCORRECTPALETTE
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:tom.ITextRange2.GetDropCap
 title: ITextRange2::GetDropCap (tom.h)
-
 description: Gets the drop-cap parameters of the paragraph that contains this range.
 old-location: controls\itextrange2_getdropcap.htm
 tech.root: Controls
 ms.assetid: c653c002-6708-4813-83ae-1ea578bdcee2
-
 ms.date: 12/05/2018
 ms.keywords: GetDropCap, GetDropCap method [Windows Controls], GetDropCap method [Windows Controls],ITextRange2 interface, ITextRange2 interface [Windows Controls],GetDropCap method, ITextRange2.GetDropCap, ITextRange2::GetDropCap, controls.itextrange2_getdropcap, tom/ITextRange2::GetDropCap
 ms.topic: method
-f1_keywords: 
- - "tom/ITextRange2.GetDropCap"
+f1_keywords:
+- tom/ITextRange2.GetDropCap
 dev_langs:
- - c++
+- c++
 req.header: tom.h
 req.include-header: Tom.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msftedit.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msftedit.dll
+- Msftedit.dll
 api_name:
- - ITextRange2.GetDropCap
+- ITextRange2.GetDropCap
 targetos: Windows
 req.typenames: 
 req.redist: 

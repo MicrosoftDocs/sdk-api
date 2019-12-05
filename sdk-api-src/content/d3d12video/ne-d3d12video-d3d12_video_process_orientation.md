@@ -1,37 +1,35 @@
 ---
 UID: NE:d3d12video.D3D12_VIDEO_PROCESS_ORIENTATION
 title: D3D12_VIDEO_PROCESS_ORIENTATION
-
 description: Specifies an orientation operation to be performed by a video processor.
 tech.root: mf
 ms.assetid: 1196949a-a9d4-4a82-8300-d84b5960f6ef
-
-ms.date: 05/28/2019 
+ms.date: 05/28/2019
 ms.topic: enum
 f1_keywords:
- - D3D12_VIDEO_PROCESS_ORIENTATION
+- D3D12_VIDEO_PROCESS_ORIENTATION
 dev_langs:
- - c++
-ms.keywords: D3D12_VIDEO_PROCESS_ORIENTATION, D3D12_VIDEO_PROCESS_ORIENTATION, 
+- c++
+ms.keywords: D3D12_VIDEO_PROCESS_ORIENTATION, D3D12_VIDEO_PROCESS_ORIENTATION,
 req.header: d3d12video.h
-req.include-header:
-req.redist:
-req.target-type:
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.ddi-compliance:
-req.max-support:
+req.include-header: 
+req.redist: 
+req.target-type: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.max-support: 
 req.typenames: D3D12_VIDEO_PROCESS_ORIENTATION
-topic_type: 
- - apiref
-api_type: 
- - HeaderDef
-api_location: 
- - d3d12video.h
-api_name: 
- - D3D12_VIDEO_PROCESS_ORIENTATION
+topic_type:
+- apiref
+api_type:
+- HeaderDef
+api_location:
+- d3d12video.h
+api_name:
+- D3D12_VIDEO_PROCESS_ORIENTATION
 targetos: Windows
 ---
 

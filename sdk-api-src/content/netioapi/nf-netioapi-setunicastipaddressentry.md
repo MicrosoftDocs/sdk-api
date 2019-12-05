@@ -1,19 +1,17 @@
 ---
 UID: NF:netioapi.SetUnicastIpAddressEntry
 title: SetUnicastIpAddressEntry function (netioapi.h)
-
 description: Sets the properties of an existing unicast IP address entry on the local computer.
 old-location: iphlp\setunicastipaddressentry.htm
 tech.root: IpHlp
 ms.assetid: 906a3895-2e42-4bed-90a3-7c10487d76cb
-
 ms.date: 12/05/2018
 ms.keywords: SetUnicastIpAddressEntry, SetUnicastIpAddressEntry function [IP Helper], iphlp.setunicastipaddressentry, netioapi/SetUnicastIpAddressEntry
 ms.topic: function
-f1_keywords: 
- - "netioapi/SetUnicastIpAddressEntry"
+f1_keywords:
+- netioapi/SetUnicastIpAddressEntry
 dev_langs:
- - c++
+- c++
 req.header: netioapi.h
 req.include-header: Iphlpapi.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Iphlpapi.lib
 req.dll: Iphlpapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Iphlpapi.dll
+- Iphlpapi.dll
 api_name:
- - SetUnicastIpAddressEntry
+- SetUnicastIpAddressEntry
 targetos: Windows
 req.typenames: 
 req.redist: 

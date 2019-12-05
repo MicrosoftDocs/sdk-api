@@ -1,19 +1,17 @@
 ---
 UID: NF:comadmin.ICOMAdminCatalog2.FlushPartitionCache
 title: ICOMAdminCatalog2::FlushPartitionCache (comadmin.h)
-
 description: Empties the cache that maps users to their default partitions.
 old-location: cos\icomadmincatalog2_flushpartitioncache.htm
 tech.root: cossdk
 ms.assetid: 8b5f6619-fbff-417d-b80a-a38532227059
-
 ms.date: 12/05/2018
 ms.keywords: FlushPartitionCache, FlushPartitionCache method [COM+], FlushPartitionCache method [COM+],ICOMAdminCatalog2 interface, ICOMAdminCatalog2 interface [COM+],FlushPartitionCache method, ICOMAdminCatalog2.FlushPartitionCache, ICOMAdminCatalog2::FlushPartitionCache, _cos_icomadmincatalog2_FlushPartitionCache, comadmin/ICOMAdminCatalog2::FlushPartitionCache, cos.icomadmincatalog2_flushpartitioncache
 ms.topic: method
-f1_keywords: 
- - "comadmin/ICOMAdminCatalog2.FlushPartitionCache"
+f1_keywords:
+- comadmin/ICOMAdminCatalog2.FlushPartitionCache
 dev_langs:
- - c++
+- c++
 req.header: comadmin.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComAdmin.h
+- ComAdmin.h
 api_name:
- - ICOMAdminCatalog2.FlushPartitionCache
+- ICOMAdminCatalog2.FlushPartitionCache
 targetos: Windows
 req.typenames: 
 req.redist: 

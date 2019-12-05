@@ -1,19 +1,17 @@
 ---
 UID: NF:taskschd.ITriggerCollection.get_Count
 title: ITriggerCollection::get_Count (taskschd.h)
-
 description: Gets the number of triggers in the collection.
 old-location: taskschd\itriggercollection_count.htm
 tech.root: taskschd
 ms.assetid: ae4ff1b8-f030-420b-b96a-b5c1246c04ce
-
 ms.date: 12/05/2018
 ms.keywords: Count property [Task Scheduler], Count property [Task Scheduler],ITriggerCollection interface, ITriggerCollection interface [Task Scheduler],Count property, ITriggerCollection.Count, ITriggerCollection.get_Count, ITriggerCollection::Count, ITriggerCollection::get_Count, get_Count, taskschd.itriggercollection_count, taskschd/ITriggerCollection::Count, taskschd/ITriggerCollection::get_Count
 ms.topic: method
-f1_keywords: 
- - "taskschd/ITriggerCollection.Count"
+f1_keywords:
+- taskschd/ITriggerCollection.Count
 dev_langs:
- - c++
+- c++
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Taskschd.lib
 req.dll: Taskschd.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - taskschd.dll
+- taskschd.dll
 api_name:
- - ITriggerCollection.Count
- - ITriggerCollection.get_Count
+- ITriggerCollection.Count
+- ITriggerCollection.get_Count
 targetos: Windows
 req.typenames: 
 req.redist: 

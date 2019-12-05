@@ -1,19 +1,17 @@
 ---
 UID: NF:wmp.IWMPControls.put_currentItem
 title: IWMPControls::put_currentItem (wmp.h)
-
 description: The put_currentItem method specifies the current media item.
 old-location: wmp\iwmpcontrols_put_currentitem.htm
 tech.root: WMP
 ms.assetid: 190cec53-5cd9-4bd0-b8d9-23c5389fe231
-
 ms.date: 12/05/2018
 ms.keywords: IWMPControls interface [Windows Media Player],put_currentItem method, IWMPControls.put_currentItem, IWMPControls::put_currentItem, IWMPControlsput_currentItem, put_currentItem, put_currentItem method [Windows Media Player], put_currentItem method [Windows Media Player],IWMPControls interface, wmp.iwmpcontrols_put_currentitem, wmp/IWMPControls::put_currentItem
 ms.topic: method
-f1_keywords: 
- - "wmp/IWMPControls.put_currentItem"
+f1_keywords:
+- wmp/IWMPControls.put_currentItem
 dev_langs:
- - c++
+- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wmp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmp.dll
+- wmp.dll
 api_name:
- - IWMPControls.put_currentItem
+- IWMPControls.put_currentItem
 targetos: Windows
 req.typenames: 
 req.redist: 

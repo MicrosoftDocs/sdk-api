@@ -1,19 +1,17 @@
 ---
 UID: NF:wuapi.IUpdate.get_InstallationBehavior
 title: IUpdate::get_InstallationBehavior (wuapi.h)
-
 description: Gets an interface that contains the installation options of the update.
 old-location: wua\iupdate_installationbehavior.htm
 tech.root: Wua_Sdk
 ms.assetid: f02e5ebc-a8ea-496b-a79e-52644b98e75d
-
 ms.date: 12/05/2018
 ms.keywords: IUpdate interface [Windows Update Agent],InstallationBehavior property, IUpdate.InstallationBehavior, IUpdate.get_InstallationBehavior, IUpdate::InstallationBehavior, IUpdate::get_InstallationBehavior, InstallationBehavior property [Windows Update Agent], InstallationBehavior property [Windows Update Agent],IUpdate interface, get_InstallationBehavior, wua.iupdate_installationbehavior, wuapi/IUpdate::InstallationBehavior, wuapi/IUpdate::get_InstallationBehavior
 ms.topic: method
-f1_keywords: 
- - "wuapi/IUpdate.InstallationBehavior"
+f1_keywords:
+- wuapi/IUpdate.InstallationBehavior
 dev_langs:
- - c++
+- c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Wuguid.lib
 req.dll: Wuapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wuapi.dll
+- Wuapi.dll
 api_name:
- - IUpdate.InstallationBehavior
- - IUpdate.get_InstallationBehavior
+- IUpdate.InstallationBehavior
+- IUpdate.get_InstallationBehavior
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:uianimation.IUIAnimationVariable2.SetLowerBoundVector
 title: IUIAnimationVariable2::SetLowerBoundVector (uianimation.h)
-
 description: Sets the lower bound (floor) value of each specified dimension for the animation variable. The value of each animation variable should not fall below its lower bound.
 old-location: uianimation\iuianimationvariable2_setlowerboundvector.htm
 tech.root: UIAnimation
 ms.assetid: CB7D30BF-D22C-40EB-A530-035CED1BDAF0
-
 ms.date: 12/05/2018
 ms.keywords: IUIAnimationVariable2 interface [Windows Animation],SetLowerBoundVector method, IUIAnimationVariable2.SetLowerBoundVector, IUIAnimationVariable2::SetLowerBoundVector, SetLowerBoundVector, SetLowerBoundVector method [Windows Animation], SetLowerBoundVector method [Windows Animation],IUIAnimationVariable2 interface, uianimation.iuianimationvariable2_setlowerboundvector, uianimation/IUIAnimationVariable2::SetLowerBoundVector
 ms.topic: method
-f1_keywords: 
- - "uianimation/IUIAnimationVariable2.SetLowerBoundVector"
+f1_keywords:
+- uianimation/IUIAnimationVariable2.SetLowerBoundVector
 dev_langs:
- - c++
+- c++
 req.header: uianimation.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: UIAnimation.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAnimation.dll
+- UIAnimation.dll
 api_name:
- - IUIAnimationVariable2.SetLowerBoundVector
+- IUIAnimationVariable2.SetLowerBoundVector
 targetos: Windows
 req.typenames: 
 req.redist: 

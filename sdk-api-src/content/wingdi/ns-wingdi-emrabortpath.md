@@ -1,19 +1,17 @@
 ---
 UID: NS:wingdi.tagABORTPATH
 title: EMRABORTPATH (wingdi.h)
-
 description: Contains data for the AbortPath, BeginPath, EndPath, CloseFigure, FlattenPath, WidenPath, SetMetaRgn, SaveDC, and RealizePalette enhanced metafile records.
 old-location: gdi\enhanced_metafile_records_with_no_parameters.htm
 tech.root: gdi
 ms.assetid: ee9f57af-8d96-4b85-b8ab-4eb57e6c7c78
-
 ms.date: 12/05/2018
-ms.keywords: "*PEMRABORTPATH, *PEMRBEGINPATH, *PEMRCLOSEFIGURE, *PEMRENDPATH, *PEMRFLATTENPATH, *PEMRREALIZEPALETTE, *PEMRSAVEDC, *PEMRSETMETARGN, *PEMRWIDENPATH, EMRABORTPATH, EMRABORTPATH structure [Windows GDI], EMRBEGINPATH, EMRBEGINPATH structure [Windows GDI], EMRCLOSEFIGURE, EMRCLOSEFIGURE structure [Windows GDI], EMRENDPATH, EMRENDPATH structure [Windows GDI], EMRFLATTENPATH, EMRFLATTENPATH structure [Windows GDI], EMRREALIZEPALETTE, EMRREALIZEPALETTE structure [Windows GDI], EMRSAVEDC, EMRSAVEDC structure [Windows GDI], EMRSETMETARGN, EMRSETMETARGN structure [Windows GDI], EMRWIDENPATH, EMRWIDENPATH structure [Windows GDI], Enhanced Metafile Records with No Parameters, Enhanced Metafile Records with No Parameters structure [Windows GDI], PEMRABORTPATH, PEMRABORTPATH structure pointer [Windows GDI], PEMRBEGINPATH, PEMRBEGINPATH structure pointer [Windows GDI], PEMRCLOSEFIGURE, PEMRCLOSEFIGURE structure pointer [Windows GDI], PEMRENDPATH, PEMRENDPATH structure pointer [Windows GDI], PEMRFLATTENPATH, PEMRFLATTENPATH structure pointer [Windows GDI], PEMRREALIZEPALETTE, PEMRREALIZEPALETTE structure pointer [Windows GDI], PEMRSAVEDC, PEMRSAVEDC structure pointer [Windows GDI], PEMRSETMETARGN, PEMRSETMETARGN structure pointer [Windows GDI], PEMRWIDENPATH, PEMRWIDENPATH structure pointer [Windows GDI], _win32_Enhanced_Metafile_Records_with_No_Parameters_str, gdi.enhanced_metafile_records_with_no_parameters, wingdi/EMRBEGINPATH, wingdi/EMRCLOSEFIGURE, wingdi/EMRENDPATH, wingdi/EMRFLATTENPATH, wingdi/EMRREALIZEPALETTE, wingdi/EMRSAVEDC, wingdi/EMRSETMETARGN, wingdi/EMRWIDENPATH, wingdi/Enhanced Metafile Records with No Parameters, wingdi/PEMRABORTPATH, wingdi/PEMRBEGINPATH, wingdi/PEMRCLOSEFIGURE, wingdi/PEMRENDPATH, wingdi/PEMRFLATTENPATH, wingdi/PEMRREALIZEPALETTE, wingdi/PEMRSAVEDC, wingdi/PEMRSETMETARGN, wingdi/PEMRWIDENPATH"
+ms.keywords: '*PEMRABORTPATH, *PEMRBEGINPATH, *PEMRCLOSEFIGURE, *PEMRENDPATH, *PEMRFLATTENPATH, *PEMRREALIZEPALETTE, *PEMRSAVEDC, *PEMRSETMETARGN, *PEMRWIDENPATH, EMRABORTPATH, EMRABORTPATH structure [Windows GDI], EMRBEGINPATH, EMRBEGINPATH structure [Windows GDI], EMRCLOSEFIGURE, EMRCLOSEFIGURE structure [Windows GDI], EMRENDPATH, EMRENDPATH structure [Windows GDI], EMRFLATTENPATH, EMRFLATTENPATH structure [Windows GDI], EMRREALIZEPALETTE, EMRREALIZEPALETTE structure [Windows GDI], EMRSAVEDC, EMRSAVEDC structure [Windows GDI], EMRSETMETARGN, EMRSETMETARGN structure [Windows GDI], EMRWIDENPATH, EMRWIDENPATH structure [Windows GDI], Enhanced Metafile Records with No Parameters, Enhanced Metafile Records with No Parameters structure [Windows GDI], PEMRABORTPATH, PEMRABORTPATH structure pointer [Windows GDI], PEMRBEGINPATH, PEMRBEGINPATH structure pointer [Windows GDI], PEMRCLOSEFIGURE, PEMRCLOSEFIGURE structure pointer [Windows GDI], PEMRENDPATH, PEMRENDPATH structure pointer [Windows GDI], PEMRFLATTENPATH, PEMRFLATTENPATH structure pointer [Windows GDI], PEMRREALIZEPALETTE, PEMRREALIZEPALETTE structure pointer [Windows GDI], PEMRSAVEDC, PEMRSAVEDC structure pointer [Windows GDI], PEMRSETMETARGN, PEMRSETMETARGN structure pointer [Windows GDI], PEMRWIDENPATH, PEMRWIDENPATH structure pointer [Windows GDI], _win32_Enhanced_Metafile_Records_with_No_Parameters_str, gdi.enhanced_metafile_records_with_no_parameters, wingdi/EMRBEGINPATH, wingdi/EMRCLOSEFIGURE, wingdi/EMRENDPATH, wingdi/EMRFLATTENPATH, wingdi/EMRREALIZEPALETTE, wingdi/EMRSAVEDC, wingdi/EMRSETMETARGN, wingdi/EMRWIDENPATH, wingdi/Enhanced Metafile Records with No Parameters, wingdi/PEMRABORTPATH, wingdi/PEMRBEGINPATH, wingdi/PEMRCLOSEFIGURE, wingdi/PEMRENDPATH, wingdi/PEMRFLATTENPATH, wingdi/PEMRREALIZEPALETTE, wingdi/PEMRSAVEDC, wingdi/PEMRSETMETARGN, wingdi/PEMRWIDENPATH'
 ms.topic: struct
-f1_keywords: 
- - "wingdi/EMRABORTPATH"
+f1_keywords:
+- wingdi/EMRABORTPATH
 dev_langs:
- - c++
+- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wingdi.h
+- Wingdi.h
 api_name:
- - EMRABORTPATH
+- EMRABORTPATH
 targetos: Windows
 req.typenames: EMRABORTPATH, *PEMRABORTPATH, EMRBEGINPATH, *PEMRBEGINPATH, EMRENDPATH, *PEMRENDPATH, EMRCLOSEFIGURE, *PEMRCLOSEFIGURE, EMRFLATTENPATH, *PEMRFLATTENPATH, EMRWIDENPATH, *PEMRWIDENPATH, EMRSETMETARGN, *PEMRSETMETARGN, EMRSAVEDC, *PEMRSAVEDC, EMRREALIZEPALETTE, *PEMRREALIZEPALETTE
 req.redist: 

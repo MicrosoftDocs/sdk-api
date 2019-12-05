@@ -1,19 +1,17 @@
 ---
 UID: NN:functiondiscoveryprovider.IProviderProperties
 title: IProviderProperties (functiondiscoveryprovider.h)
-
 description: Is optionally implemented by discovery providers to directly create and manage their own property store.
 old-location: ncd\iproviderproperties.htm
 tech.root: FunDisc
 ms.assetid: d6d3d1d1-d2fb-409c-be37-3cd286e325a3
-
 ms.date: 12/05/2018
 ms.keywords: IProviderProperties, IProviderProperties interface, IProviderProperties interface,described, functiondiscoveryprovider/IProviderProperties, ncd.iproviderproperties
 ms.topic: interface
-f1_keywords: 
- - "functiondiscoveryprovider/IProviderProperties"
+f1_keywords:
+- functiondiscoveryprovider/IProviderProperties
 dev_langs:
- - c++
+- c++
 req.header: functiondiscoveryprovider.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - FunctionDiscoveryProvider.h
+- FunctionDiscoveryProvider.h
 api_name:
- - IProviderProperties
+- IProviderProperties
 targetos: Windows
 req.typenames: 
 req.redist: 

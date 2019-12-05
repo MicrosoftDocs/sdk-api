@@ -1,19 +1,17 @@
 ---
 UID: NF:msinkaut.IInkCollector.get_Enabled
 title: IInkCollector::get_Enabled (msinkaut.h)
-
 description: Gets or sets a value that specifies whether the InkCollector object collects pen input (in-air packets, cursor in range events, and so on).
 old-location: tablet\inkcollector_enabled.htm
 tech.root: tablet
 ms.assetid: ab55a399-1990-4cfc-a4ab-834a5db8d7a9
-
 ms.date: 12/05/2018
 ms.keywords: Enabled property [Tablet PC], Enabled property [Tablet PC],IInkCollector interface, IInkCollector interface [Tablet PC],Enabled property, IInkCollector.Enabled, IInkCollector.get_Enabled, IInkCollector.put_Enabled, IInkCollector::Enabled, IInkCollector::get_Enabled, IInkCollector::put_Enabled, InkCollector.get_Enabled, InkCollector.put_Enabled, ab55a399-1990-4cfc-a4ab-834a5db8d7a9, get_Enabled, msinkaut/IInkCollector::Enabled, msinkaut/IInkCollector::get_Enabled, msinkaut/IInkCollector::put_Enabled, put_Enabled, tablet.inkcollector_enabled
 ms.topic: method
-f1_keywords: 
- - "msinkaut/IInkCollector.Enabled"
+f1_keywords:
+- msinkaut/IInkCollector.Enabled
 dev_langs:
- - c++
+- c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows
@@ -32,21 +30,21 @@ req.lib: InkObj.dll
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - InkObj.dll
- - InkObj.dll.dll
+- InkObj.dll
+- InkObj.dll.dll
 api_name:
- - IInkCollector.Enabled
- - IInkCollector.get_Enabled
- - IInkCollector.put_Enabled
- - put_Enabled
- - IInkCollector.put_Enabled
- - InkCollector.get_Enabled
- - InkCollector.put_Enabled
+- IInkCollector.Enabled
+- IInkCollector.get_Enabled
+- IInkCollector.put_Enabled
+- put_Enabled
+- IInkCollector.put_Enabled
+- InkCollector.get_Enabled
+- InkCollector.put_Enabled
 targetos: Windows
 req.typenames: 
 req.redist: 

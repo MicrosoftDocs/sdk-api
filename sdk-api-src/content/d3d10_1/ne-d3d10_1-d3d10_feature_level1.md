@@ -1,19 +1,17 @@
 ---
 UID: NE:d3d10_1.D3D10_FEATURE_LEVEL1
 title: D3D10_FEATURE_LEVEL1 (d3d10_1.h)
-
 description: The version of hardware acceleration requested.
 old-location: direct3d10\d3d10_feature_level1.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\d3d10_feature_level1.htm
-
 ms.date: 12/05/2018
 ms.keywords: 31af56cc-826c-6632-ae68-1b2e713c38ad, D3D10_FEATURE_LEVEL1, D3D10_FEATURE_LEVEL1 enumeration [Direct3D 10], D3D10_FEATURE_LEVEL_10_0, D3D10_FEATURE_LEVEL_10_1, D3D10_FEATURE_LEVEL_9_1, D3D10_FEATURE_LEVEL_9_2, D3D10_FEATURE_LEVEL_9_3, d3d10_1/D3D10_FEATURE_LEVEL1, d3d10_1/D3D10_FEATURE_LEVEL_10_0, d3d10_1/D3D10_FEATURE_LEVEL_10_1, d3d10_1/D3D10_FEATURE_LEVEL_9_1, d3d10_1/D3D10_FEATURE_LEVEL_9_2, d3d10_1/D3D10_FEATURE_LEVEL_9_3, direct3d10.d3d10_feature_level1
 ms.topic: enum
-f1_keywords: 
- - "d3d10_1/D3D10_FEATURE_LEVEL1"
+f1_keywords:
+- d3d10_1/D3D10_FEATURE_LEVEL1
 dev_langs:
- - c++
+- c++
 req.header: d3d10_1.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - D3D10_1.h
+- D3D10_1.h
 api_name:
- - D3D10_FEATURE_LEVEL1
+- D3D10_FEATURE_LEVEL1
 targetos: Windows
 req.typenames: D3D10_FEATURE_LEVEL1
 req.redist: 

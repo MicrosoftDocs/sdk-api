@@ -1,19 +1,17 @@
 ---
 UID: NF:msctf.ITfKeyEventSink.OnSetFocus
 title: ITfKeyEventSink::OnSetFocus (msctf.h)
-
 description: ITfKeyEventSink::OnSetFocus method
 old-location: tsf\itfkeyeventsink_onsetfocus.htm
 tech.root: TSF
 ms.assetid: 999c7ead-7ca6-42a5-a530-706fb3283b21
-
 ms.date: 12/05/2018
 ms.keywords: ITfKeyEventSink interface [Text Services Framework],OnSetFocus method, ITfKeyEventSink.OnSetFocus, ITfKeyEventSink::OnSetFocus, OnSetFocus, OnSetFocus method [Text Services Framework], OnSetFocus method [Text Services Framework],ITfKeyEventSink interface, _tsf_itfkeyeventsink_onsetfocus_ref, msctf/ITfKeyEventSink::OnSetFocus, tsf.itfkeyeventsink_onsetfocus
 ms.topic: method
-f1_keywords: 
- - "msctf/ITfKeyEventSink.OnSetFocus"
+f1_keywords:
+- msctf/ITfKeyEventSink.OnSetFocus
 dev_langs:
- - c++
+- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msctf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msctf.dll
+- Msctf.dll
 api_name:
- - ITfKeyEventSink.OnSetFocus
+- ITfKeyEventSink.OnSetFocus
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

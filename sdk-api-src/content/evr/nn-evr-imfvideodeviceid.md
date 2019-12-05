@@ -1,19 +1,17 @@
 ---
 UID: NN:evr.IMFVideoDeviceID
 title: IMFVideoDeviceID (evr.h)
-
 description: Returns the device identifier supported by a video renderer component.
 old-location: mf\imfvideodeviceid.htm
 tech.root: medfound
 ms.assetid: c42b75f9-6b72-4aab-92f2-3361ab475ce9
-
 ms.date: 12/05/2018
 ms.keywords: IMFVideoDeviceID, IMFVideoDeviceID interface [Media Foundation], IMFVideoDeviceID interface [Media Foundation],described, c42b75f9-6b72-4aab-92f2-3361ab475ce9, evr/IMFVideoDeviceID, mf.imfvideodeviceid
 ms.topic: interface
-f1_keywords: 
- - "evr/IMFVideoDeviceID"
+f1_keywords:
+- evr/IMFVideoDeviceID
 dev_langs:
- - c++
+- c++
 req.header: evr.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - strmiids.lib
- - strmiids.dll
+- strmiids.lib
+- strmiids.dll
 api_name:
- - IMFVideoDeviceID
+- IMFVideoDeviceID
 targetos: Windows
 req.typenames: 
 req.redist: 

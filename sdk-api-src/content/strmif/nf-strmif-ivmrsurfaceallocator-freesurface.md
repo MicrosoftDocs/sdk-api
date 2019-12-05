@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IVMRSurfaceAllocator.FreeSurface
 title: IVMRSurfaceAllocator::FreeSurface (strmif.h)
-
 description: The FreeSurface method frees the allocated DirectDraw surface.
 old-location: dshow\ivmrsurfaceallocator_freesurface.htm
 tech.root: DirectShow
 ms.assetid: 7b00d32c-832f-439f-8da5-7e77f90e1510
-
 ms.date: 12/05/2018
 ms.keywords: FreeSurface, FreeSurface method [DirectShow], FreeSurface method [DirectShow],IVMRSurfaceAllocator interface, IVMRSurfaceAllocator interface [DirectShow],FreeSurface method, IVMRSurfaceAllocator.FreeSurface, IVMRSurfaceAllocator::FreeSurface, IVMRSurfaceAllocatorFreeSurface, dshow.ivmrsurfaceallocator_freesurface, strmif/IVMRSurfaceAllocator::FreeSurface
 ms.topic: method
-f1_keywords: 
- - "strmif/IVMRSurfaceAllocator.FreeSurface"
+f1_keywords:
+- strmif/IVMRSurfaceAllocator.FreeSurface
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IVMRSurfaceAllocator.FreeSurface
+- IVMRSurfaceAllocator.FreeSurface
 targetos: Windows
 req.typenames: 
 req.redist: 

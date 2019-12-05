@@ -1,19 +1,17 @@
 ---
 UID: NF:shlobj_core.IActiveDesktop.RemoveDesktopItem
 title: IActiveDesktop::RemoveDesktopItem (shlobj_core.h)
-
 description: Removes the specified desktop item from the desktop.
 old-location: lwef\iactivedesktop_removedesktopitem.htm
 tech.root: lwef
 ms.assetid: 6fee6c97-0605-4ad3-90fb-c5271f78536a
-
 ms.date: 12/05/2018
 ms.keywords: IActiveDesktop interface [Legacy Windows Environment Features],RemoveDesktopItem method, IActiveDesktop.RemoveDesktopItem, IActiveDesktop::RemoveDesktopItem, RemoveDesktopItem, RemoveDesktopItem method [Legacy Windows Environment Features], RemoveDesktopItem method [Legacy Windows Environment Features],IActiveDesktop interface, _win32_IActiveDesktop_RemoveDesktopItem, lwef.iactivedesktop_removedesktopitem, shell.iactivedesktop_removedesktopitem, shlobj_core/IActiveDesktop::RemoveDesktopItem
 ms.topic: method
 f1_keywords:
 - shlobj_core/IActiveDesktop.RemoveDesktopItem
 dev_langs:
- - c++
+- c++
 req.header: shlobj_core.h
 req.include-header: 
 req.target-type: Windows

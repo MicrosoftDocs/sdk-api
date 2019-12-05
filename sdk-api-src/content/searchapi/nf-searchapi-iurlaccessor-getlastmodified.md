@@ -1,19 +1,17 @@
 ---
 UID: NF:searchapi.IUrlAccessor.GetLastModified
 title: IUrlAccessor::GetLastModified (searchapi.h)
-
 description: Gets the time stamp identifying when the URL was last modified.
 old-location: search\_search_IUrlAccessor_GetLastModified.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\protocolhandlers\iurlaccessor\getlastmodified.htm
-
 ms.date: 12/05/2018
 ms.keywords: GetLastModified, GetLastModified method [search], GetLastModified method [search],IUrlAccessor interface, IUrlAccessor interface [search],GetLastModified method, IUrlAccessor.GetLastModified, IUrlAccessor::GetLastModified, _search_IUrlAccessor_GetLastModified, search._search_IUrlAccessor_GetLastModified, searchapi/IUrlAccessor::GetLastModified
 ms.topic: method
-f1_keywords: 
- - "searchapi/IUrlAccessor.GetLastModified"
+f1_keywords:
+- searchapi/IUrlAccessor.GetLastModified
 dev_langs:
- - c++
+- c++
 req.header: searchapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Searchapi.h
+- Searchapi.h
 api_name:
- - IUrlAccessor.GetLastModified
+- IUrlAccessor.GetLastModified
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0

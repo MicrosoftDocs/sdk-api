@@ -1,19 +1,17 @@
 ---
 UID: NF:cfgmgr32.CM_Connect_MachineW
 title: CM_Connect_MachineW function (cfgmgr32.h)
-
 description: The CM_Connect_Machine function creates a connection to a remote machine.
 old-location: devinst\cm_connect_machine.htm
 tech.root: devinst
 ms.assetid: 4108a35f-0861-4142-a798-731287515910
-
 ms.date: 12/05/2018
 ms.keywords: CM_Connect_Machine, CM_Connect_Machine function [Device and Driver Installation], CM_Connect_MachineW, cfgmgr32/CM_Connect_Machine, cfgmgr32/CM_Connect_MachineW, cfgmgrfn_5214f459-40fa-4805-b7e4-ee7a1606b659.xml, devinst.cm_connect_machine
 ms.topic: function
-f1_keywords: 
- - "cfgmgr32/CM_Connect_Machine"
+f1_keywords:
+- cfgmgr32/CM_Connect_Machine
 dev_langs:
- - c++
+- c++
 req.header: cfgmgr32.h
 req.include-header: Cfgmgr32.h
 req.target-type: Desktop
@@ -32,16 +30,16 @@ req.lib: Cfgmgr32.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - LibDef
+- LibDef
 api_location:
- - Cfgmgr32.lib
- - Cfgmgr32.dll
+- Cfgmgr32.lib
+- Cfgmgr32.dll
 api_name:
- - CM_Connect_Machine
- - CM_Connect_MachineW
+- CM_Connect_Machine
+- CM_Connect_MachineW
 targetos: Windows
 req.typenames: 
 req.redist: 

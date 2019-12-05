@@ -1,19 +1,17 @@
 ---
 UID: NF:ddrawgdi.DdGetDxHandle
 title: DdGetDxHandle function (ddrawgdi.h)
-
 description: Returns the kernel-mode Microsoft DirectX  API handle to use in subsequent calls to the kernel-mode entry points that control the DirectX  API mechanism.
 old-location: winprog\_dxgkernel_ddgetdxhandle.htm
 tech.root: DevNotes
 ms.assetid: VS|winui|~\winui\windowsuserinterface\lowlevelclientsupport\graphics\ddgetdxhandle.htm
-
 ms.date: 12/05/2018
 ms.keywords: DdGetDxHandle, DdGetDxHandle function [Windows API], GdiEntry14, _dxgkernel_ddgetdxhandle, ddrawgdi/DdGetDxHandle, ddrawgdi/GdiEntry14, winprog._dxgkernel_ddgetdxhandle, winui._dxgkernel_ddgetdxhandle
 ms.topic: function
-f1_keywords: 
- - "ddrawgdi/DdGetDxHandle"
+f1_keywords:
+- ddrawgdi/DdGetDxHandle
 dev_langs:
- - c++
+- c++
 req.header: ddrawgdi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ddrawgdi.h
- - Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
- - GDI32.dll
- - GDI32Full.dll
+- Ddrawgdi.h
+- Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
+- GDI32.dll
+- GDI32Full.dll
 api_name:
- - DdGetDxHandle
- - GdiEntry14
+- DdGetDxHandle
+- GdiEntry14
 targetos: Windows
 req.typenames: 
 req.redist: 

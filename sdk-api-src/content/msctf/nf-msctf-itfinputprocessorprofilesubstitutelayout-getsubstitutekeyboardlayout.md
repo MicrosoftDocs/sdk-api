@@ -1,19 +1,17 @@
 ---
 UID: NF:msctf.ITfInputProcessorProfileSubstituteLayout.GetSubstituteKeyboardLayout
 title: ITfInputProcessorProfileSubstituteLayout::GetSubstituteKeyboardLayout (msctf.h)
-
 description: ITfInputProcessorProfileSubstituteLayout::GetSubstituteKeyboardLayout method
 old-location: tsf\getsubstitutekeyboardlayout.htm
 tech.root: TSF
 ms.assetid: 9006a76f-11db-4e8c-9133-c335af7fe5ff
-
 ms.date: 12/05/2018
 ms.keywords: GetSubstituteKeyboardLayout, GetSubstituteKeyboardLayout method [Text Services Framework], GetSubstituteKeyboardLayout method [Text Services Framework],ITfInputProcessorProfileSubstituteLayout interface, ITfInputProcessorProfileSubstituteLayout interface [Text Services Framework],GetSubstituteKeyboardLayout method, ITfInputProcessorProfileSubstituteLayout.GetSubstituteKeyboardLayout, ITfInputProcessorProfileSubstituteLayout::GetSubstituteKeyboardLayout, textstor/ITfInputProcessorProfileSubstituteLayout::GetSubstituteKeyboardLayout, tsf.getsubstitutekeyboardlayout
 ms.topic: method
-f1_keywords: 
- - "msctf/ITfInputProcessorProfileSubstituteLayout.GetSubstituteKeyboardLayout"
+f1_keywords:
+- msctf/ITfInputProcessorProfileSubstituteLayout.GetSubstituteKeyboardLayout
 dev_langs:
- - c++
+- c++
 req.header: msctf.h
 req.include-header: Msctf.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msctf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msctf.dll
+- msctf.dll
 api_name:
- - ITfInputProcessorProfileSubstituteLayout.GetSubstituteKeyboardLayout
+- ITfInputProcessorProfileSubstituteLayout.GetSubstituteKeyboardLayout
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

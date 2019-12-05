@@ -1,19 +1,17 @@
 ---
 UID: NF:strsafe.StringCbCatExA
 title: StringCbCatExA function (strsafe.h)
-
 description: Concatenates one string to another string.
 old-location: menurc\stringcbcatex.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\strings\stringreference\stringfunctions\stringcbcatex.htm
-
 ms.date: 12/05/2018
 ms.keywords: STRSAFE_FILL_BEHIND_NULL, STRSAFE_FILL_ON_FAILURE, STRSAFE_IGNORE_NULLS, STRSAFE_NO_TRUNCATION, STRSAFE_NULL_ON_FAILURE, StringCbCatEx, StringCbCatEx function [Menus and Other Resources], StringCbCatExA, StringCbCatExW, _shell_StringCbCatEx, _shell_stringcbcatex_cpp, menurc.stringcbcatex, strsafe/StringCbCatEx, strsafe/StringCbCatExA, strsafe/StringCbCatExW, winui._shell_stringcbcatex
 ms.topic: function
-f1_keywords: 
- - "strsafe/StringCbCatEx"
+f1_keywords:
+- strsafe/StringCbCatEx
 dev_langs:
- - c++
+- c++
 req.header: strsafe.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Strsafe.h
+- Strsafe.h
 api_name:
- - StringCbCatEx
- - StringCbCatExA
- - StringCbCatExW
+- StringCbCatEx
+- StringCbCatExA
+- StringCbCatExW
 targetos: Windows
 req.typenames: 
 req.redist: 

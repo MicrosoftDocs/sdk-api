@@ -1,19 +1,17 @@
 ---
 UID: NF:wincrypt.CertFreeCertificateChain
 title: CertFreeCertificateChain function (wincrypt.h)
-
 description: The CertFreeCertificateChain function frees a certificate chain by reducing its reference count. If the reference count becomes zero, memory allocated for the chain is released.
 old-location: security\certfreecertificatechain.htm
 tech.root: SecCrypto
 ms.assetid: 5ba181c2-6936-4848-a571-2bb58f46f081
-
 ms.date: 12/05/2018
 ms.keywords: CertFreeCertificateChain, CertFreeCertificateChain function [Security], _crypto2_certfreecertificatechain, security.certfreecertificatechain, wincrypt/CertFreeCertificateChain
 ms.topic: function
 f1_keywords:
 - wincrypt/CertFreeCertificateChain
 dev_langs:
- - c++
+- c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

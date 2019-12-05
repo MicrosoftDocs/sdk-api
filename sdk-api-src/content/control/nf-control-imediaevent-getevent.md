@@ -1,19 +1,17 @@
 ---
 UID: NF:control.IMediaEvent.GetEvent
 title: IMediaEvent::GetEvent (control.h)
-
 description: The GetEvent method retrieves the next event notification from the event queue.
 old-location: dshow\imediaevent_getevent.htm
 tech.root: DirectShow
 ms.assetid: d7cbbf6d-c741-416f-b8dd-d9ca012d309a
-
 ms.date: 12/05/2018
 ms.keywords: GetEvent, GetEvent method [DirectShow], GetEvent method [DirectShow],IMediaEvent interface, GetEvent method [DirectShow],IMediaEventEx interface, IMediaEvent interface [DirectShow],GetEvent method, IMediaEvent.GetEvent, IMediaEvent::GetEvent, IMediaEventEx interface [DirectShow],GetEvent method, IMediaEventEx::GetEvent, IMediaEventGetEvent, control/IMediaEvent::GetEvent, control/IMediaEventEx::GetEvent, dshow.imediaevent_getevent
 ms.topic: method
-f1_keywords: 
- - "control/IMediaEvent.GetEvent"
+f1_keywords:
+- control/IMediaEvent.GetEvent
 dev_langs:
- - c++
+- c++
 req.header: control.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IMediaEvent.GetEvent
- - IMediaEventEx.GetEvent
+- IMediaEvent.GetEvent
+- IMediaEventEx.GetEvent
 targetos: Windows
 req.typenames: 
 req.redist: 

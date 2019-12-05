@@ -1,19 +1,17 @@
 ---
 UID: NF:certenroll.IX509CertificateRequestCmc.put_EncryptionAlgorithm
 title: IX509CertificateRequestCmc::put_EncryptionAlgorithm (certenroll.h)
-
 description: Specifies or retrieves an object identifier (OID) of the algorithm used to encrypt the private key to be archived.
 old-location: security\ix509certificaterequestcmc_encryptionalgorithm_property.htm
 tech.root: seccertenroll
 ms.assetid: c46b3373-6d9e-46d9-a36a-b73a718ddaf7
-
 ms.date: 12/05/2018
 ms.keywords: EncryptionAlgorithm property [Security], EncryptionAlgorithm property [Security],IX509CertificateRequestCmc interface, IX509CertificateRequestCmc interface [Security],EncryptionAlgorithm property, IX509CertificateRequestCmc.EncryptionAlgorithm, IX509CertificateRequestCmc.put_EncryptionAlgorithm, IX509CertificateRequestCmc::EncryptionAlgorithm, IX509CertificateRequestCmc::get_EncryptionAlgorithm, IX509CertificateRequestCmc::put_EncryptionAlgorithm, certenroll/IX509CertificateRequestCmc::EncryptionAlgorithm, certenroll/IX509CertificateRequestCmc::get_EncryptionAlgorithm, certenroll/IX509CertificateRequestCmc::put_EncryptionAlgorithm, put_EncryptionAlgorithm, security.ix509certificaterequestcmc_encryptionalgorithm_property
 ms.topic: method
-f1_keywords: 
- - "certenroll/IX509CertificateRequestCmc.EncryptionAlgorithm"
+f1_keywords:
+- certenroll/IX509CertificateRequestCmc.EncryptionAlgorithm
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: CertEnroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CertEnroll.dll
+- CertEnroll.dll
 api_name:
- - IX509CertificateRequestCmc.EncryptionAlgorithm
- - IX509CertificateRequestCmc.get_EncryptionAlgorithm
- - IX509CertificateRequestCmc.put_EncryptionAlgorithm
+- IX509CertificateRequestCmc.EncryptionAlgorithm
+- IX509CertificateRequestCmc.get_EncryptionAlgorithm
+- IX509CertificateRequestCmc.put_EncryptionAlgorithm
 targetos: Windows
 req.typenames: 
 req.redist: 

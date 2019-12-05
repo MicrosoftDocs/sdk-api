@@ -1,19 +1,17 @@
 ---
 UID: NE:vdshwprv._VDS_ISCSI_IPSEC_FLAG
 title: VDS_ISCSI_IPSEC_FLAG (vdshwprv.h)
-
 description: Not supported.This enumeration is reserved for future use.
 old-location: base\vds_iscsi_ipsec_flag.htm
 tech.root: VDS
 ms.assetid: e40789b4-ed34-4acc-8f69-5c3a93e44f82
-
 ms.date: 12/05/2018
 ms.keywords: VDS_IIF_AGGRESSIVE_MODE, VDS_IIF_IKE, VDS_IIF_MAIN_MODE, VDS_IIF_PFS_ENABLE, VDS_IIF_TRANSPORT_MODE_PREFERRED, VDS_IIF_TUNNEL_MODE_PREFERRED, VDS_IIF_VALID, VDS_ISCSI_IPSEC_FLAG, VDS_ISCSI_IPSEC_FLAG enumeration [VDS], base.vds_iscsi_ipsec_flag, vds/VDS_IIF_AGGRESSIVE_MODE, vds/VDS_IIF_IKE, vds/VDS_IIF_MAIN_MODE, vds/VDS_IIF_PFS_ENABLE, vds/VDS_IIF_TRANSPORT_MODE_PREFERRED, vds/VDS_IIF_TUNNEL_MODE_PREFERRED, vds/VDS_IIF_VALID, vds/VDS_ISCSI_IPSEC_FLAG, vdshwprv/VDS_IIF_AGGRESSIVE_MODE, vdshwprv/VDS_IIF_IKE, vdshwprv/VDS_IIF_MAIN_MODE, vdshwprv/VDS_IIF_PFS_ENABLE, vdshwprv/VDS_IIF_TRANSPORT_MODE_PREFERRED, vdshwprv/VDS_IIF_TUNNEL_MODE_PREFERRED, vdshwprv/VDS_IIF_VALID, vdshwprv/VDS_ISCSI_IPSEC_FLAG
 ms.topic: enum
-f1_keywords: 
- - "vdshwprv/VDS_ISCSI_IPSEC_FLAG"
+f1_keywords:
+- vdshwprv/VDS_ISCSI_IPSEC_FLAG
 dev_langs:
- - c++
+- c++
 req.header: vdshwprv.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Vds.h
- - VdsHwPrv.h
+- Vds.h
+- VdsHwPrv.h
 api_name:
- - VDS_ISCSI_IPSEC_FLAG
+- VDS_ISCSI_IPSEC_FLAG
 targetos: Windows
 req.typenames: VDS_ISCSI_IPSEC_FLAG
 req.redist: VDS 1.1

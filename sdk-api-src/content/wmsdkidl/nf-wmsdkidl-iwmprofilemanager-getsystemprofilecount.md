@@ -1,19 +1,17 @@
 ---
 UID: NF:wmsdkidl.IWMProfileManager.GetSystemProfileCount
 title: IWMProfileManager::GetSystemProfileCount (wmsdkidl.h)
-
 description: The GetSystemProfileCount method retrieves the number of system profiles.
 old-location: wmformat\iwmprofilemanager_getsystemprofilecount.htm
 tech.root: wmformat
 ms.assetid: 895fa99d-66a5-4f5f-82ce-394264a945f7
-
 ms.date: 12/05/2018
 ms.keywords: GetSystemProfileCount, GetSystemProfileCount method [windows Media Format], GetSystemProfileCount method [windows Media Format],IWMProfileManager interface, IWMProfileManager interface [windows Media Format],GetSystemProfileCount method, IWMProfileManager.GetSystemProfileCount, IWMProfileManager::GetSystemProfileCount, IWMProfileManagerGetSystemProfileCount, wmformat.iwmprofilemanager_getsystemprofilecount, wmsdkidl/IWMProfileManager::GetSystemProfileCount
 ms.topic: method
-f1_keywords: 
- - "wmsdkidl/IWMProfileManager.GetSystemProfileCount"
+f1_keywords:
+- wmsdkidl/IWMProfileManager.GetSystemProfileCount
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wmvcore.lib
- - Wmvcore.dll
- - WMStubDRM.lib
- - WMStubDRM.dll
+- Wmvcore.lib
+- Wmvcore.dll
+- WMStubDRM.lib
+- WMStubDRM.dll
 api_name:
- - IWMProfileManager.GetSystemProfileCount
+- IWMProfileManager.GetSystemProfileCount
 targetos: Windows
 req.typenames: 
 req.redist: 

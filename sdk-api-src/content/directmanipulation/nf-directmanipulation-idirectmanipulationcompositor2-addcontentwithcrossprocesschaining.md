@@ -1,19 +1,17 @@
 ---
 UID: NF:directmanipulation.IDirectManipulationCompositor2.AddContentWithCrossProcessChaining
 title: IDirectManipulationCompositor2::AddContentWithCrossProcessChaining (directmanipulation.h)
-
 description: Associates content (owned by the component host) with the compositor, assigns a composition device to the content, and specifies the position of the content in the composition tree relative to other composition visuals.
 old-location: directmanipulation\idirectmanipulationcompositor2_addcontentwithcrossprocesschaining.htm
 tech.root: directmanipulation
 ms.assetid: dd6052df-30b5-4872-89a7-b98126fcd44d
-
 ms.date: 12/05/2018
 ms.keywords: AddContentWithCrossProcessChaining, AddContentWithCrossProcessChaining method [Direct Manipulation], AddContentWithCrossProcessChaining method [Direct Manipulation],IDirectManipulationCompositor2 interface, IDirectManipulationCompositor2 interface [Direct Manipulation],AddContentWithCrossProcessChaining method, IDirectManipulationCompositor2.AddContentWithCrossProcessChaining, IDirectManipulationCompositor2::AddContentWithCrossProcessChaining, directmanipulation.idirectmanipulationcompositor2_addcontentwithcrossprocesschaining, directmanipulation/IDirectManipulationCompositor2::AddContentWithCrossProcessChaining
 ms.topic: method
-f1_keywords: 
- - "directmanipulation/IDirectManipulationCompositor2.AddContentWithCrossProcessChaining"
+f1_keywords:
+- directmanipulation/IDirectManipulationCompositor2.AddContentWithCrossProcessChaining
 dev_langs:
- - c++
+- c++
 req.header: directmanipulation.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - directmanipulation.h
+- directmanipulation.h
 api_name:
- - IDirectManipulationCompositor2.AddContentWithCrossProcessChaining
+- IDirectManipulationCompositor2.AddContentWithCrossProcessChaining
 targetos: Windows
 req.typenames: 
 req.redist: 

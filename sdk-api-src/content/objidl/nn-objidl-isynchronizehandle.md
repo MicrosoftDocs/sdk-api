@@ -1,19 +1,17 @@
 ---
 UID: NN:objidl.ISynchronizeHandle
 title: ISynchronizeHandle (objidl.h)
-
 description: Retrieves a handle associated with a synchronization object.
 old-location: com\isynchronizehandle.htm
 tech.root: com
 ms.assetid: 93b2e682-78da-4a61-a045-8d71b3834e1d
-
 ms.date: 12/05/2018
 ms.keywords: ISynchronizeHandle, ISynchronizeHandle interface [COM], ISynchronizeHandle interface [COM],described, _com_isynchronizehandle, com.isynchronizehandle, objidlbase/ISynchronizeHandle
 ms.topic: interface
-f1_keywords: 
- - "objidl/ISynchronizeHandle"
+f1_keywords:
+- objidl/ISynchronizeHandle
 dev_langs:
- - c++
+- c++
 req.header: objidl.h
 req.include-header: ObjIdl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - objidlbase.h
+- objidlbase.h
 api_name:
- - ISynchronizeHandle
+- ISynchronizeHandle
 targetos: Windows
 req.typenames: 
 req.redist: 

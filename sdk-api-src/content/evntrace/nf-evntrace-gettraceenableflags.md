@@ -1,19 +1,17 @@
 ---
 UID: NF:evntrace.GetTraceEnableFlags
 title: GetTraceEnableFlags function (evntrace.h)
-
 description: The GetTraceEnableFlags function retrieves the enable flags passed by the controller to indicate which category of events to trace.Providers can only call this function from their ControlCallback function.
 old-location: etw\gettraceenableflags.htm
 tech.root: ETW
 ms.assetid: e5c0f2bf-34da-4555-9556-4c79ee9a73ab
-
 ms.date: 12/05/2018
 ms.keywords: GetTraceEnableFlags, GetTraceEnableFlags function [ETW], _evt_gettraceenableflags, base.gettraceenableflags, etw.gettraceenableflags, evntrace/GetTraceEnableFlags
 ms.topic: function
-f1_keywords: 
- - "evntrace/GetTraceEnableFlags"
+f1_keywords:
+- evntrace/GetTraceEnableFlags
 dev_langs:
- - c++
+- c++
 req.header: evntrace.h
 req.include-header: 
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Advapi32.dll
- - API-MS-Win-DownLevel-AdvApi32-l1-1-0.dll
- - KernelBase.dll
- - API-MS-Win-DownLevel-AdvApi32-l1-1-1.dll
- - API-MS-Win-eventing-classicprovider-l1-1-0.dll
+- Advapi32.dll
+- API-MS-Win-DownLevel-AdvApi32-l1-1-0.dll
+- KernelBase.dll
+- API-MS-Win-DownLevel-AdvApi32-l1-1-1.dll
+- API-MS-Win-eventing-classicprovider-l1-1-0.dll
 api_name:
- - GetTraceEnableFlags
+- GetTraceEnableFlags
 targetos: Windows
 req.typenames: 
 req.redist: 

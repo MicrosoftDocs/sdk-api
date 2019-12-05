@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi.phoneNegotiateAPIVersion
 title: phoneNegotiateAPIVersion function (tapi.h)
-
 description: The phoneNegotiateAPIVersion allows an application to negotiate an API version to use for the specified phone device.
 old-location: tapi2\phonenegotiateapiversion.htm
 tech.root: Tapi
 ms.assetid: 50c2c15c-459f-451b-9b79-9118acc81c8c
-
 ms.date: 12/05/2018
-ms.keywords: "_tapi2_phonenegotiateapiversion, phoneNegotiateAPIVersion, phoneNegotiateAPIVersion function [TAPI 2.2], tapi/phoneNegotiateAPIVersion, tapi2.phonenegotiateapiversion"
+ms.keywords: _tapi2_phonenegotiateapiversion, phoneNegotiateAPIVersion, phoneNegotiateAPIVersion function [TAPI 2.2], tapi/phoneNegotiateAPIVersion, tapi2.phonenegotiateapiversion
 ms.topic: function
-f1_keywords: 
- - "tapi/phoneNegotiateAPIVersion"
+f1_keywords:
+- tapi/phoneNegotiateAPIVersion
 dev_langs:
- - c++
+- c++
 req.header: tapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Tapi32.lib
 req.dll: Tapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Tapi32.dll
+- Tapi32.dll
 api_name:
- - phoneNegotiateAPIVersion
+- phoneNegotiateAPIVersion
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:mswmdm.IMDSPStorage2.GetStorage
 title: IMDSPStorage2::GetStorage (mswmdm.h)
-
 description: The GetStorage method makes it possible to go directly to a storage object from a storage name instead of enumerating through all storages to find it.
 old-location: wmdm\imdspstorage2_getstorage.htm
 tech.root: WMDM
 ms.assetid: 2ddfdfc8-db43-4acc-aebc-617d3e746a4f
-
 ms.date: 12/05/2018
 ms.keywords: GetStorage, GetStorage method [windows Media Device Manager], GetStorage method [windows Media Device Manager],IMDSPStorage2 interface, IMDSPStorage2 interface [windows Media Device Manager],GetStorage method, IMDSPStorage2.GetStorage, IMDSPStorage2::GetStorage, IMDSPStorage2GetStorage, mswmdm/IMDSPStorage2::GetStorage, wmdm.imdspstorage2_getstorage
 ms.topic: method
-f1_keywords: 
- - "mswmdm/IMDSPStorage2.GetStorage"
+f1_keywords:
+- mswmdm/IMDSPStorage2.GetStorage
 dev_langs:
- - c++
+- c++
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mssachlp.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mssachlp.lib
- - mssachlp.dll
+- mssachlp.lib
+- mssachlp.dll
 api_name:
- - IMDSPStorage2.GetStorage
+- IMDSPStorage2.GetStorage
 targetos: Windows
 req.typenames: 
 req.redist: 

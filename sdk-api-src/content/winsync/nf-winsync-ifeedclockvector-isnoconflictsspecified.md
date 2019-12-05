@@ -1,19 +1,17 @@
 ---
 UID: NF:winsync.IFeedClockVector.IsNoConflictsSpecified
 title: IFeedClockVector::IsNoConflictsSpecified (winsync.h)
-
 description: Gets a value that indicates whether conflicts are preserved for the FeedSync item.
 old-location: winsync\ifeedclockvector_isnoconflictsspecified.htm
 tech.root: winsync
 ms.assetid: d43d193b-d0c4-4b01-be90-a322fcc8b672
-
 ms.date: 12/05/2018
 ms.keywords: IFeedClockVector interface [Windows Sync],IsNoConflictsSpecified method, IFeedClockVector.IsNoConflictsSpecified, IFeedClockVector::IsNoConflictsSpecified, IsNoConflictsSpecified, IsNoConflictsSpecified method [Windows Sync], IsNoConflictsSpecified method [Windows Sync],IFeedClockVector interface, winsync.ifeedclockvector_isnoconflictsspecified, winsync/IFeedClockVector::IsNoConflictsSpecified
 ms.topic: method
-f1_keywords: 
- - "winsync/IFeedClockVector.IsNoConflictsSpecified"
+f1_keywords:
+- winsync/IFeedClockVector.IsNoConflictsSpecified
 dev_langs:
- - c++
+- c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - winsync.h
+- winsync.h
 api_name:
- - IFeedClockVector.IsNoConflictsSpecified
+- IFeedClockVector.IsNoConflictsSpecified
 targetos: Windows
 req.typenames: 
 req.redist: 

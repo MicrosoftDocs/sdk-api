@@ -1,19 +1,17 @@
 ---
 UID: NF:dhcpcsdk.DhcpRemoveDNSRegistrations
 title: DhcpRemoveDNSRegistrations function (dhcpcsdk.h)
-
 description: The DhcpRemoveDNSRegistrations function removes all DHCP-initiated DNS registrations for the client.
 old-location: dhcp\dhcpremovednsregistrations.htm
 tech.root: DHCP
 ms.assetid: c53a8295-c289-4f08-8059-268582e0d96c
-
 ms.date: 12/05/2018
 ms.keywords: DhcpRemoveDNSRegistrations, DhcpRemoveDNSRegistrations function [DHCP], dhcp.dhcpremovednsregistrations, dhcpcsdk/DhcpRemoveDNSRegistrations
 ms.topic: function
-f1_keywords: 
- - "dhcpcsdk/DhcpRemoveDNSRegistrations"
+f1_keywords:
+- dhcpcsdk/DhcpRemoveDNSRegistrations
 dev_langs:
- - c++
+- c++
 req.header: dhcpcsdk.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dhcpcsvc.lib
 req.dll: Dhcpcsvc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Dhcpcsvc.dll
+- Dhcpcsvc.dll
 api_name:
- - DhcpRemoveDNSRegistrations
+- DhcpRemoveDNSRegistrations
 targetos: Windows
 req.typenames: 
 req.redist: 

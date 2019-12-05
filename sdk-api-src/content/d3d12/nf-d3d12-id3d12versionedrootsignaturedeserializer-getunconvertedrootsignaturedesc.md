@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d12.ID3D12VersionedRootSignatureDeserializer.GetUnconvertedRootSignatureDesc
 title: ID3D12VersionedRootSignatureDeserializer::GetUnconvertedRootSignatureDesc (d3d12.h)
-
 description: Gets the layout of the root signature, without converting between root signature versions.
 old-location: direct3d12\id3d12versionedrootsignaturedeserializer_getunconvertedrootsignaturedesc.htm
 tech.root: direct3d12
 ms.assetid: 7E21B598-C13B-4418-B5B1-4ADDAA18F9B9
-
 ms.date: 12/05/2018
 ms.keywords: GetUnconvertedRootSignatureDesc, GetUnconvertedRootSignatureDesc method, GetUnconvertedRootSignatureDesc method,ID3D12VersionedRootSignatureDeserializer interface, ID3D12VersionedRootSignatureDeserializer interface,GetUnconvertedRootSignatureDesc method, ID3D12VersionedRootSignatureDeserializer.GetUnconvertedRootSignatureDesc, ID3D12VersionedRootSignatureDeserializer::GetUnconvertedRootSignatureDesc, d3d12/ID3D12VersionedRootSignatureDeserializer::GetUnconvertedRootSignatureDesc, direct3d12.id3d12versionedrootsignaturedeserializer_getunconvertedrootsignaturedesc
 ms.topic: method
-f1_keywords: 
- - "d3d12/ID3D12VersionedRootSignatureDeserializer.GetUnconvertedRootSignatureDesc"
+f1_keywords:
+- d3d12/ID3D12VersionedRootSignatureDeserializer.GetUnconvertedRootSignatureDesc
 dev_langs:
- - c++
+- c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: D3d12.lib
 req.dll: D3d12.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - d3d12.dll
+- d3d12.dll
 api_name:
- - ID3D12VersionedRootSignatureDeserializer.GetUnconvertedRootSignatureDesc
+- ID3D12VersionedRootSignatureDeserializer.GetUnconvertedRootSignatureDesc
 targetos: Windows
 req.typenames: 
 req.redist: 

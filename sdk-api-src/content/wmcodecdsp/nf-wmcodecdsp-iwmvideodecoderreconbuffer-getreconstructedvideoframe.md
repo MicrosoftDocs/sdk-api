@@ -1,19 +1,17 @@
 ---
 UID: NF:wmcodecdsp.IWMVideoDecoderReconBuffer.GetReconstructedVideoFrame
 title: IWMVideoDecoderReconBuffer::GetReconstructedVideoFrame (wmcodecdsp.h)
-
 description: Note  This method is obsolete and should not be used. Retrieves the current reconstructed video frame.
 old-location: mf\iwmvideodecoderreconbuffergetreconstructedvideoframe.htm
 tech.root: medfound
 ms.assetid: 6e952923-2043-4b0d-b936-c570373a3544
-
 ms.date: 12/05/2018
 ms.keywords: GetReconstructedVideoFrame, GetReconstructedVideoFrame method [Media Foundation], GetReconstructedVideoFrame method [Media Foundation],IWMVideoDecoderReconBuffer interface, IWMVideoDecoderReconBuffer interface [Media Foundation],GetReconstructedVideoFrame method, IWMVideoDecoderReconBuffer.GetReconstructedVideoFrame, IWMVideoDecoderReconBuffer::GetReconstructedVideoFrame, codecapi.iwmvideodecoderreconbuffergetreconstructedvideoframe, mf.iwmvideodecoderreconbuffergetreconstructedvideoframe, wmcodecdsp/IWMVideoDecoderReconBuffer::GetReconstructedVideoFrame
 ms.topic: method
-f1_keywords: 
- - "wmcodecdsp/IWMVideoDecoderReconBuffer.GetReconstructedVideoFrame"
+f1_keywords:
+- wmcodecdsp/IWMVideoDecoderReconBuffer.GetReconstructedVideoFrame
 dev_langs:
- - c++
+- c++
 req.header: wmcodecdsp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmcodecdsp.h
+- wmcodecdsp.h
 api_name:
- - IWMVideoDecoderReconBuffer.GetReconstructedVideoFrame
+- IWMVideoDecoderReconBuffer.GetReconstructedVideoFrame
 targetos: Windows
 req.typenames: 
 req.redist: 

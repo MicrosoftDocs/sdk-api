@@ -1,19 +1,17 @@
 ---
 UID: NF:commctrl.TreeView_GetCount
 title: TreeView_GetCount macro (commctrl.h)
-
 description: Retrieves a count of the items in a tree-view control. You can use this macro or send the TVM_GETCOUNT message explicitly.
 old-location: controls\TreeView_GetCount.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\treeview\macros\treeview_getcount.htm
-
 ms.date: 12/05/2018
 ms.keywords: TreeView_GetCount, TreeView_GetCount macro [Windows Controls], _win32_TreeView_GetCount, _win32_TreeView_GetCount_cpp, commctrl/TreeView_GetCount, controls.TreeView_GetCount, controls._win32_TreeView_GetCount
 ms.topic: macro
-f1_keywords: 
- - "commctrl/TreeView_GetCount"
+f1_keywords:
+- commctrl/TreeView_GetCount
 dev_langs:
- - c++
+- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Commctrl.h
+- Commctrl.h
 api_name:
- - TreeView_GetCount
+- TreeView_GetCount
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:imapi2.IRawCDImageCreator.put_StartOfLeadoutLimit
 title: IRawCDImageCreator::put_StartOfLeadoutLimit (imapi2.h)
-
 description: Sets the StartOfLeadoutLimit property value.
 old-location: imapi\irawcdimagecreator_put_startofleadoutlimit.htm
 tech.root: imapi
 ms.assetid: e3483084-8339-4fe6-abd1-832832c549f3
-
 ms.date: 12/05/2018
 ms.keywords: IRawCDImageCreator interface [IMAPI],put_StartOfLeadoutLimit method, IRawCDImageCreator.put_StartOfLeadoutLimit, IRawCDImageCreator::put_StartOfLeadoutLimit, imapi.irawcdimagecreator_put_startofleadoutlimit, imapi2/IRawCDImageCreator::put_StartOfLeadoutLimit, put_StartOfLeadoutLimit, put_StartOfLeadoutLimit method [IMAPI], put_StartOfLeadoutLimit method [IMAPI],IRawCDImageCreator interface
 ms.topic: method
-f1_keywords: 
- - "imapi2/IRawCDImageCreator.put_StartOfLeadoutLimit"
+f1_keywords:
+- imapi2/IRawCDImageCreator.put_StartOfLeadoutLimit
 dev_langs:
- - c++
+- c++
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - imapi2.h
+- imapi2.h
 api_name:
- - IRawCDImageCreator.put_StartOfLeadoutLimit
+- IRawCDImageCreator.put_StartOfLeadoutLimit
 targetos: Windows
 req.typenames: 
 req.redist: 

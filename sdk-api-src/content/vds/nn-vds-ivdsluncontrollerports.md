@@ -1,19 +1,17 @@
 ---
 UID: NN:vds.IVdsLunControllerPorts
 title: IVdsLunControllerPorts (vds.h)
-
 description: Provides methods for performing controller port configuration operations on a LUN.
 old-location: base\ivdsluncontrollerports.htm
 tech.root: VDS
 ms.assetid: 81e48874-8bc2-4b82-bcf8-ce87f99ca3ad
-
 ms.date: 12/05/2018
 ms.keywords: IVdsLunControllerPorts, IVdsLunControllerPorts interface [VDS], IVdsLunControllerPorts interface [VDS],described, base.ivdsluncontrollerports, vds/IVdsLunControllerPorts, vdshwprv/IVdsLunControllerPorts
 ms.topic: interface
-f1_keywords: 
- - "vds/IVdsLunControllerPorts"
+f1_keywords:
+- vds/IVdsLunControllerPorts
 dev_langs:
- - c++
+- c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Uuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Uuid.lib
- - Uuid.dll
+- Uuid.lib
+- Uuid.dll
 api_name:
- - IVdsLunControllerPorts
+- IVdsLunControllerPorts
 targetos: Windows
 req.typenames: 
 req.redist: VDS 1.1

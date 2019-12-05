@@ -1,19 +1,17 @@
 ---
 UID: NF:rtworkq.RtwqRemovePeriodicCallback
 title: RtwqRemovePeriodicCallback function (rtworkq.h)
-
 description: Cancels a callback function that was set by the RtwqAddPeriodicCallback function.
 old-location: base\rtwqremoveperiodiccallback.htm
 tech.root: ProcThread
 ms.assetid: 308910e3-dae8-4f23-9782-adf2996a58aa
-
 ms.date: 12/05/2018
 ms.keywords: RtwqRemovePeriodicCallback, RtwqRemovePeriodicCallback function, base.rtwqremoveperiodiccallback, rtworkq/RtwqRemovePeriodicCallback
 ms.topic: function
-f1_keywords: 
- - "rtworkq/RtwqRemovePeriodicCallback"
+f1_keywords:
+- rtworkq/RtwqRemovePeriodicCallback
 dev_langs:
- - c++
+- c++
 req.header: rtworkq.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Rtworkq.lib
 req.dll: RTWorkQ.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - RTWorkQ.dll
+- RTWorkQ.dll
 api_name:
- - RtwqRemovePeriodicCallback
+- RtwqRemovePeriodicCallback
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NS:wincrypt._CRYPT_PSOURCE_ALGORITHM
 title: CRYPT_PSOURCE_ALGORITHM (wincrypt.h)
-
 description: Identifies the algorithm and (optionally) the value of the label for an RSAES-OAEP key encryption.
 old-location: security\crypt_psource_algorithm.htm
 tech.root: SecCrypto
 ms.assetid: cd390487-2bba-4d57-a779-579ffbd16acb
-
 ms.date: 12/05/2018
 ms.keywords: '*PCRYPT_PSOURCE_ALGORITHM, CRYPT_PSOURCE_ALGORITHM, CRYPT_PSOURCE_ALGORITHM structure [Security], PCRYPT_PSOURCE_ALGORITHM, PCRYPT_PSOURCE_ALGORITHM structure pointer [Security], security.crypt_psource_algorithm, szOID_RSA_PSPECIFIED, wincrypt/CRYPT_PSOURCE_ALGORITHM, wincrypt/PCRYPT_PSOURCE_ALGORITHM'
 ms.topic: struct
 f1_keywords:
 - wincrypt/CRYPT_PSOURCE_ALGORITHM
 dev_langs:
- - c++
+- c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

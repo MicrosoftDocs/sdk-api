@@ -1,19 +1,17 @@
 ---
 UID: NF:rend.ITDirectoryObjectConference.put_StopTime
 title: ITDirectoryObjectConference::put_StopTime (rend.h)
-
 description: The put_StopTime method sets the stop time of the conference. If the end time is zero, the session is not bounded.
 old-location: tapi3\itdirectoryobjectconference_put_stoptime.htm
 tech.root: Tapi
 ms.assetid: 2542f3e2-d391-4d96-8aa8-120d639f0468
-
 ms.date: 12/05/2018
 ms.keywords: ITDirectoryObjectConference interface [TAPI 2.2],put_StopTime method, ITDirectoryObjectConference.put_StopTime, ITDirectoryObjectConference::put_StopTime, _tapi3_itdirectoryobjectconference_put_stoptime, put_StopTime, put_StopTime method [TAPI 2.2], put_StopTime method [TAPI 2.2],ITDirectoryObjectConference interface, rend/ITDirectoryObjectConference::put_StopTime, tapi3.itdirectoryobjectconference_put_stoptime
 ms.topic: method
-f1_keywords: 
- - "rend/ITDirectoryObjectConference.put_StopTime"
+f1_keywords:
+- rend/ITDirectoryObjectConference.put_StopTime
 dev_langs:
- - c++
+- c++
 req.header: rend.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Rend.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Rend.dll
+- Rend.dll
 api_name:
- - ITDirectoryObjectConference.put_StopTime
+- ITDirectoryObjectConference.put_StopTime
 targetos: Windows
 req.typenames: 
 req.redist: 

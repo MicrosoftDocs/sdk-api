@@ -1,19 +1,17 @@
 ---
 UID: NF:syncmgr.ISyncMgrHandlerCollection.BindToHandler
 title: ISyncMgrHandlerCollection::BindToHandler (syncmgr.h)
-
 description: Instantiates a specified sync handler when called by Sync Center.
 old-location: shell\ISyncMgrHandlerCollection_BindToHandler.htm
 tech.root: shell
 ms.assetid: a3ae2427-7c7d-45b6-82ea-a8f5607f9623
-
 ms.date: 12/05/2018
 ms.keywords: BindToHandler, BindToHandler method [Windows Shell], BindToHandler method [Windows Shell],ISyncMgrHandlerCollection interface, ISyncMgrHandlerCollection interface [Windows Shell],BindToHandler method, ISyncMgrHandlerCollection.BindToHandler, ISyncMgrHandlerCollection::BindToHandler, _shell_ISyncMgrHandlerCollection_BindToHandler, shell.ISyncMgrHandlerCollection_BindToHandler, syncmgr/ISyncMgrHandlerCollection::BindToHandler
 ms.topic: method
-f1_keywords: 
- - "syncmgr/ISyncMgrHandlerCollection.BindToHandler"
+f1_keywords:
+- syncmgr/ISyncMgrHandlerCollection.BindToHandler
 dev_langs:
- - c++
+- c++
 req.header: syncmgr.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Syncmgr.h
+- Syncmgr.h
 api_name:
- - ISyncMgrHandlerCollection.BindToHandler
+- ISyncMgrHandlerCollection.BindToHandler
 targetos: Windows
 req.typenames: 
 req.redist: 

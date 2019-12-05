@@ -1,19 +1,17 @@
 ---
 UID: NF:mfidl.MFGetLocalId
 title: MFGetLocalId function (mfidl.h)
-
 description: Gets the local system ID.
 old-location: mf\mfgetlocalid.htm
 tech.root: medfound
 ms.assetid: 24EA8907-9EBF-42FF-8823-05D48E27F9EA
-
 ms.date: 12/05/2018
 ms.keywords: MFGetLocalId, MFGetLocalId function [Media Foundation], mf.mfgetlocalid, mfidl/MFGetLocalId
 ms.topic: function
-f1_keywords: 
- - "mfidl/MFGetLocalId"
+f1_keywords:
+- mfidl/MFGetLocalId
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Mf.lib
 req.dll: Mf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - mf.dll
+- mf.dll
 api_name:
- - MFGetLocalId
+- MFGetLocalId
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:fileapi.GetFileAttributesA
 title: GetFileAttributesA function (fileapi.h)
-
 description: Retrieves file system attributes for a specified file or directory.
 old-location: fs\getfileattributes.htm
 tech.root: FileIO
 ms.assetid: 9f9bcdbb-1ffd-49c2-92f4-181fdcc9c690
-
 ms.date: 12/05/2018
 ms.keywords: GetFileAttributes, GetFileAttributes function [Files], GetFileAttributesA, GetFileAttributesW, _win32_getfileattributes, base.getfileattributes, fileapi/GetFileAttributes, fileapi/GetFileAttributesA, fileapi/GetFileAttributesW, fs.getfileattributes, winbase/GetFileAttributes, winbase/GetFileAttributesA, winbase/GetFileAttributesW
 ms.topic: function
-f1_keywords: 
- - "fileapi/GetFileAttributes"
+f1_keywords:
+- fileapi/GetFileAttributes
 dev_langs:
- - c++
+- c++
 req.header: fileapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,23 +30,23 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-File-l1-1-0.dll
- - KernelBase.dll
- - API-MS-Win-Core-File-l1-2-0.dll
- - API-MS-Win-Core-File-l1-2-1.dll
- - API-MS-Win-Core-File-l1-2-2.dll
- - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
- - MinKernelBase.dll
+- Kernel32.dll
+- API-MS-Win-Core-File-l1-1-0.dll
+- KernelBase.dll
+- API-MS-Win-Core-File-l1-2-0.dll
+- API-MS-Win-Core-File-l1-2-1.dll
+- API-MS-Win-Core-File-l1-2-2.dll
+- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+- MinKernelBase.dll
 api_name:
- - GetFileAttributes
- - GetFileAttributesA
- - GetFileAttributesW
+- GetFileAttributes
+- GetFileAttributesA
+- GetFileAttributesW
 targetos: Windows
 req.typenames: 
 req.redist: 

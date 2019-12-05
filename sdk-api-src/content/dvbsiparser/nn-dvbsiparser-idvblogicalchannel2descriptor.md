@@ -1,19 +1,17 @@
 ---
 UID: NN:dvbsiparser.IDvbLogicalChannel2Descriptor
 title: IDvbLogicalChannel2Descriptor (dvbsiparser.h)
-
 description: Implements methods that get data from a logical channel descriptor (LCD) in a Digital Video Broadcast (DVB) MPEG-2 stream that uses the format defined in the Nordig specification used in Scandinavian countries.
 old-location: mstv\idvblogicalchannel2descriptor.htm
 tech.root: mstv
 ms.assetid: dc60db7f-ae49-48dd-bd8a-62899e5ca7a3
-
 ms.date: 12/05/2018
 ms.keywords: IDvbLogicalChannel2Descriptor, IDvbLogicalChannel2Descriptor interface [Microsoft TV Technologies], IDvbLogicalChannel2Descriptor interface [Microsoft TV Technologies],described, dvbsiparser/IDvbLogicalChannel2Descriptor, mstv.idvblogicalchannel2descriptor
 ms.topic: interface
-f1_keywords: 
- - "dvbsiparser/IDvbLogicalChannel2Descriptor"
+f1_keywords:
+- dvbsiparser/IDvbLogicalChannel2Descriptor
 dev_langs:
- - c++
+- c++
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dvbsiparser.h
+- dvbsiparser.h
 api_name:
- - IDvbLogicalChannel2Descriptor
+- IDvbLogicalChannel2Descriptor
 targetos: Windows
 req.typenames: 
 req.redist: 

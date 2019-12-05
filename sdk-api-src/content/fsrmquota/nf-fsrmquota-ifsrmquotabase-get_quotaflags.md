@@ -1,19 +1,17 @@
 ---
 UID: NF:fsrmquota.IFsrmQuotaBase.get_QuotaFlags
 title: IFsrmQuotaBase::get_QuotaFlags (fsrmquota.h)
-
 description: Retrieves or sets the quota flags for the object.
 old-location: fsrm\ifsrmquotabase_quotaflags.htm
 tech.root: fsrm
 ms.assetid: af856281-8161-4165-bf24-0c160f7394d2
-
 ms.date: 12/05/2018
 ms.keywords: IFsrmQuotaBase interface [File Server Resource Manager],QuotaFlags property, IFsrmQuotaBase.QuotaFlags, IFsrmQuotaBase.get_QuotaFlags, IFsrmQuotaBase::QuotaFlags, IFsrmQuotaBase::get_QuotaFlags, IFsrmQuotaBase::put_QuotaFlags, QuotaFlags property [File Server Resource Manager], QuotaFlags property [File Server Resource Manager],IFsrmQuotaBase interface, fs.ifsrmquotabase_quotaflags, fsrm.ifsrmquotabase_quotaflags, fsrmquota/IFsrmQuotaBase::QuotaFlags, fsrmquota/IFsrmQuotaBase::get_QuotaFlags, fsrmquota/IFsrmQuotaBase::put_QuotaFlags, get_QuotaFlags
 ms.topic: method
-f1_keywords: 
- - "fsrmquota/IFsrmQuotaBase.QuotaFlags"
+f1_keywords:
+- fsrmquota/IFsrmQuotaBase.QuotaFlags
 dev_langs:
- - c++
+- c++
 req.header: fsrmquota.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: SrmSvc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - SrmSvc.dll
+- SrmSvc.dll
 api_name:
- - IFsrmQuotaBase.QuotaFlags
- - IFsrmQuotaBase.get_QuotaFlags
- - IFsrmQuotaBase.put_QuotaFlags
+- IFsrmQuotaBase.QuotaFlags
+- IFsrmQuotaBase.get_QuotaFlags
+- IFsrmQuotaBase.put_QuotaFlags
 targetos: Windows
 req.typenames: 
 req.redist: 

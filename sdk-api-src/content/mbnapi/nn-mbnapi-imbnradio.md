@@ -1,19 +1,17 @@
 ---
 UID: NN:mbnapi.IMbnRadio
 title: IMbnRadio (mbnapi.h)
-
 description: The IMbnRadio interface is used to query and update the radio state of Mobile Broadband devices.
 old-location: mbn\imbnradio.htm
 tech.root: mbn
 ms.assetid: b4b5ccfc-6cbf-4090-aee1-ee97092147f7
-
 ms.date: 12/05/2018
 ms.keywords: IMbnRadio, IMbnRadio interface [Microsoft Broadband Networks], IMbnRadio interface [Microsoft Broadband Networks],described, mbn.imbnradio, mbnapi/IMbnRadio
 ms.topic: interface
-f1_keywords: 
- - "mbnapi/IMbnRadio"
+f1_keywords:
+- mbnapi/IMbnRadio
 dev_langs:
- - c++
+- c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mbnapi.h
+- mbnapi.h
 api_name:
- - IMbnRadio
+- IMbnRadio
 targetos: Windows
 req.typenames: 
 req.redist: 

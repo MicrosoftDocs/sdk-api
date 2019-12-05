@@ -1,19 +1,17 @@
 ---
 UID: NN:objidl.IClientSecurity
 title: IClientSecurity (objidl.h)
-
 description: Gives the client control over the security settings for each individual interface proxy of an object.
 old-location: com\iclientsecurity.htm
 tech.root: com
 ms.assetid: 65066913-f9d8-48c7-bcb5-68c8ddc4a009
-
 ms.date: 12/05/2018
 ms.keywords: IClientSecurity, IClientSecurity interface [COM], IClientSecurity interface [COM],described, _com_iclientsecurity, com.iclientsecurity, objidl/IClientSecurity
 ms.topic: interface
-f1_keywords: 
- - "objidl/IClientSecurity"
+f1_keywords:
+- objidl/IClientSecurity
 dev_langs:
- - c++
+- c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ObjIdl.h
+- ObjIdl.h
 api_name:
- - IClientSecurity
+- IClientSecurity
 targetos: Windows
 req.typenames: 
 req.redist: 

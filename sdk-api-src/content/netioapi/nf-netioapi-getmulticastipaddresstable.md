@@ -1,19 +1,17 @@
 ---
 UID: NF:netioapi.GetMulticastIpAddressTable
 title: GetMulticastIpAddressTable function (netioapi.h)
-
 description: Retrieves the multicast IP address table on the local computer.
 old-location: iphlp\getmulticastipaddresstable.htm
 tech.root: IpHlp
 ms.assetid: 0958e92e-12ed-42e0-aa04-b8c4544f6642
-
 ms.date: 12/05/2018
 ms.keywords: AF_INET, AF_INET6, AF_UNSPEC, GetMulticastIpAddressTable, GetMulticastIpAddressTable function [IP Helper], iphlp.getmulticastipaddresstable, netioapi/GetMulticastIpAddressTable
 ms.topic: function
-f1_keywords: 
- - "netioapi/GetMulticastIpAddressTable"
+f1_keywords:
+- netioapi/GetMulticastIpAddressTable
 dev_langs:
- - c++
+- c++
 req.header: netioapi.h
 req.include-header: Iphlpapi.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Iphlpapi.lib
 req.dll: Iphlpapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Iphlpapi.dll
+- Iphlpapi.dll
 api_name:
- - GetMulticastIpAddressTable
+- GetMulticastIpAddressTable
 targetos: Windows
 req.typenames: 
 req.redist: 

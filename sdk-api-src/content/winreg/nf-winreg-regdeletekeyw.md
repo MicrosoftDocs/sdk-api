@@ -1,19 +1,17 @@
 ---
 UID: NF:winreg.RegDeleteKeyW
 title: RegDeleteKeyW function (winreg.h)
-
 description: Deletes a subkey and its values.
 old-location: base\regdeletekey.htm
 tech.root: SysInfo
 ms.assetid: a2310ca0-1b9f-48d1-a3b5-ea3a528bfaba
-
 ms.date: 12/05/2018
 ms.keywords: RegDeleteKey, RegDeleteKey function, RegDeleteKeyA, RegDeleteKeyW, _win32_regdeletekey, base.regdeletekey, winreg/RegDeleteKey, winreg/RegDeleteKeyA, winreg/RegDeleteKeyW
 ms.topic: function
-f1_keywords: 
- - "winreg/RegDeleteKey"
+f1_keywords:
+- winreg/RegDeleteKey
 dev_langs:
- - c++
+- c++
 req.header: winreg.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,20 +30,20 @@ req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Advapi32.dll
- - API-MS-Win-Core-Registry-l2-1-0.dll
- - advapi32legacy.dll
- - API-MS-Win-Deprecated-apis-advapi-l1-1-0.dll
- - API-MS-Win-Core-Registry-l2-2-0.dll
+- Advapi32.dll
+- API-MS-Win-Core-Registry-l2-1-0.dll
+- advapi32legacy.dll
+- API-MS-Win-Deprecated-apis-advapi-l1-1-0.dll
+- API-MS-Win-Core-Registry-l2-2-0.dll
 api_name:
- - RegDeleteKey
- - RegDeleteKeyA
- - RegDeleteKeyW
+- RegDeleteKey
+- RegDeleteKeyA
+- RegDeleteKeyW
 targetos: Windows
 req.typenames: 
 req.redist: 

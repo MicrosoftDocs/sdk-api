@@ -1,19 +1,17 @@
 ---
 UID: NF:tuner.IESEvents.OnESEventReceived
 title: IESEvents::OnESEventReceived (tuner.h)
-
 description: Defines a handler for an event that is derived from the IESEvent interface.
 old-location: mstv\iesevents_oneseventreceived.htm
 tech.root: mstv
 ms.assetid: d715f598-0dd5-4c8c-9f5b-3aaa65768600
-
 ms.date: 12/05/2018
 ms.keywords: IESEvents interface [Microsoft TV Technologies],OnESEventReceived method, IESEvents.OnESEventReceived, IESEvents::OnESEventReceived, OnESEventReceived, OnESEventReceived method [Microsoft TV Technologies], OnESEventReceived method [Microsoft TV Technologies],IESEvents interface, mstv.iesevents_oneseventreceived, tuner/IESEvents::OnESEventReceived
 ms.topic: method
-f1_keywords: 
- - "tuner/IESEvents.OnESEventReceived"
+f1_keywords:
+- tuner/IESEvents.OnESEventReceived
 dev_langs:
- - c++
+- c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - tuner.h
+- tuner.h
 api_name:
- - IESEvents.OnESEventReceived
+- IESEvents.OnESEventReceived
 targetos: Windows
 req.typenames: 
 req.redist: 

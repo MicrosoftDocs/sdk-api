@@ -1,19 +1,17 @@
 ---
 UID: NN:vds.IVdsStoragePool
 title: IVdsStoragePool (vds.h)
-
 description: Provides methods to query information and enumerate related objects for a storage pool.
 old-location: base\ivdsstoragepool.htm
 tech.root: VDS
 ms.assetid: 1518ab95-1f0a-4f28-b2ae-e75bb4d19790
-
 ms.date: 12/05/2018
 ms.keywords: IVdsStoragePool, IVdsStoragePool interface, IVdsStoragePool interface,described, base.ivdsstoragepool, vds/IVdsStoragePool, vdshwprv/IVdsStoragePool
 ms.topic: interface
-f1_keywords: 
- - "vds/IVdsStoragePool"
+f1_keywords:
+- vds/IVdsStoragePool
 dev_langs:
- - c++
+- c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Uuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Uuid.lib
- - Uuid.dll
+- Uuid.lib
+- Uuid.dll
 api_name:
- - IVdsStoragePool
+- IVdsStoragePool
 targetos: Windows
 req.typenames: 
 req.redist: 

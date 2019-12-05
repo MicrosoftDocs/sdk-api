@@ -1,19 +1,17 @@
 ---
 UID: NS:tapi.lineproxyrequestlist_tag
 title: LINEPROXYREQUESTLIST (tapi.h)
-
 description: The LINEPROXYREQUESTLIST structure describes a list of proxy requests. The lineGetProxyStatus function returns the LINEPROXYREQUESTLIST structure.
 old-location: tapi2\lineproxyrequestlist.htm
 tech.root: Tapi
 ms.assetid: dc417954-56b4-4436-9582-7b656121fd6f
-
 ms.date: 12/05/2018
-ms.keywords: "*LPLINEPROXYREQUESTLIST, LINEPROXYREQUESTLIST, LINEPROXYREQUESTLIST structure [TAPI 2.2], LPLINEPROXYREQUESTLIST, LPLINEPROXYREQUESTLIST structure pointer [TAPI 2.2], _tapi2_lineproxyrequestlist, tapi/LINEPROXYREQUESTLIST, tapi/LPLINEPROXYREQUESTLIST, tapi2.lineproxyrequestlist"
+ms.keywords: '*LPLINEPROXYREQUESTLIST, LINEPROXYREQUESTLIST, LINEPROXYREQUESTLIST structure [TAPI 2.2], LPLINEPROXYREQUESTLIST, LPLINEPROXYREQUESTLIST structure pointer [TAPI 2.2], _tapi2_lineproxyrequestlist, tapi/LINEPROXYREQUESTLIST, tapi/LPLINEPROXYREQUESTLIST, tapi2.lineproxyrequestlist'
 ms.topic: struct
-f1_keywords: 
- - "tapi/LINEPROXYREQUESTLIST"
+f1_keywords:
+- tapi/LINEPROXYREQUESTLIST
 dev_langs:
- - c++
+- c++
 req.header: tapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Tapi.h
+- Tapi.h
 api_name:
- - LINEPROXYREQUESTLIST
+- LINEPROXYREQUESTLIST
 targetos: Windows
 req.typenames: LINEPROXYREQUESTLIST, *LPLINEPROXYREQUESTLIST
 req.redist: 

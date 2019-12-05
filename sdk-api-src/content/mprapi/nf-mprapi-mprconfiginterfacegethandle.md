@@ -1,19 +1,17 @@
 ---
 UID: NF:mprapi.MprConfigInterfaceGetHandle
 title: MprConfigInterfaceGetHandle function (mprapi.h)
-
 description: The MprConfigInterfaceGetHandle function retrieves a handle to the specified interface's configuration in the specified router configuration.
 old-location: rras\mprconfiginterfacegethandle.htm
 tech.root: RRAS
 ms.assetid: 1088e587-4446-4463-b411-a11e34adaf6a
-
 ms.date: 12/05/2018
 ms.keywords: MprConfigInterfaceGetHandle, MprConfigInterfaceGetHandle function [RAS], _mpr_mprconfiginterfacegethandle, mprapi/MprConfigInterfaceGetHandle, rras.mprconfiginterfacegethandle
 ms.topic: function
-f1_keywords: 
- - "mprapi/MprConfigInterfaceGetHandle"
+f1_keywords:
+- mprapi/MprConfigInterfaceGetHandle
 dev_langs:
- - c++
+- c++
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Mprapi.lib
 req.dll: Mprapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Mprapi.dll
+- Mprapi.dll
 api_name:
- - MprConfigInterfaceGetHandle
+- MprConfigInterfaceGetHandle
 targetos: Windows
 req.typenames: 
 req.redist: 

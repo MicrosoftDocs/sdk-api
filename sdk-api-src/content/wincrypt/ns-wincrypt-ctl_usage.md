@@ -1,19 +1,17 @@
 ---
 UID: NS:wincrypt._CTL_USAGE
 title: CTL_USAGE (wincrypt.h)
-
 description: Contains an array of object identifiers (OIDs) for Certificate Trust List (CTL) extensions.
 old-location: security\ctl_usage.htm
 tech.root: SecCrypto
 ms.assetid: 70ee138a-df94-4fc4-9de5-0d8b7704b890
-
 ms.date: 12/05/2018
 ms.keywords: '*PCERT_ENHKEY_USAGE, *PCTL_USAGE, CERT_ENHKEY_USAGE, CERT_ENHKEY_USAGE structure [Security], CTL_USAGE, CTL_USAGE structure [Security], PCERT_ENHKEY_USAGE, PCERT_ENHKEY_USAGE structure pointer [Security], PCTL_USAGE, PCTL_USAGE structure pointer [Security], _crypto2_ctl_usage, security.ctl_usage, wincrypt/CERT_ENHKEY_USAGE, wincrypt/CTL_USAGE, wincrypt/PCERT_ENHKEY_USAGE, wincrypt/PCTL_USAGE'
 ms.topic: struct
 f1_keywords:
 - wincrypt/CTL_USAGE
 dev_langs:
- - c++
+- c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

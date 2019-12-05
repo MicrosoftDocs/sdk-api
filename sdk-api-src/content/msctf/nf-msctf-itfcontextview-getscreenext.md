@@ -1,19 +1,17 @@
 ---
 UID: NF:msctf.ITfContextView.GetScreenExt
 title: ITfContextView::GetScreenExt (msctf.h)
-
 description: The ITfContextView::GetScreenExt method returns the bounding box, in screen coordinates, of the document display.
 old-location: tsf\itfcontextview_getscreenext.htm
 tech.root: TSF
 ms.assetid: 86dde611-4c46-418c-aa89-728081a28943
-
 ms.date: 12/05/2018
 ms.keywords: GetScreenExt, GetScreenExt method [Text Services Framework], GetScreenExt method [Text Services Framework],ITfContextView interface, ITfContextView interface [Text Services Framework],GetScreenExt method, ITfContextView.GetScreenExt, ITfContextView::GetScreenExt, _tsf_itfcontextview_getscreenext_ref, msctf/ITfContextView::GetScreenExt, tsf.itfcontextview_getscreenext
 ms.topic: method
-f1_keywords: 
- - "msctf/ITfContextView.GetScreenExt"
+f1_keywords:
+- msctf/ITfContextView.GetScreenExt
 dev_langs:
- - c++
+- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msctf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msctf.dll
+- msctf.dll
 api_name:
- - ITfContextView.GetScreenExt
+- ITfContextView.GetScreenExt
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

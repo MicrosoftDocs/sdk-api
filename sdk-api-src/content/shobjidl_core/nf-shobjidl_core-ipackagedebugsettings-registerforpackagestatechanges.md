@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IPackageDebugSettings.RegisterForPackageStateChanges
 title: IPackageDebugSettings::RegisterForPackageStateChanges (shobjidl_core.h)
-
 description: Register for package state-change notifications.
 old-location: shell\IPackageDebugSettings_RegisterForPackageStateChanges.htm
 tech.root: shell
 ms.assetid: D0E26154-DADB-499D-A434-8211196E2F5F
-
 ms.date: 12/05/2018
 ms.keywords: IPackageDebugSettings interface [Windows Shell],RegisterForPackageStateChanges method, IPackageDebugSettings.RegisterForPackageStateChanges, IPackageDebugSettings::RegisterForPackageStateChanges, RegisterForPackageStateChanges, RegisterForPackageStateChanges method [Windows Shell], RegisterForPackageStateChanges method [Windows Shell],IPackageDebugSettings interface, shell.IPackageDebugSettings_RegisterForPackageStateChanges, shobjidl_core/IPackageDebugSettings::RegisterForPackageStateChanges
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IPackageDebugSettings.RegisterForPackageStateChanges"
+f1_keywords:
+- shobjidl_core/IPackageDebugSettings.RegisterForPackageStateChanges
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shobjidl_core.h
+- Shobjidl_core.h
 api_name:
- - IPackageDebugSettings.RegisterForPackageStateChanges
+- IPackageDebugSettings.RegisterForPackageStateChanges
 targetos: Windows
 req.typenames: 
 req.redist: 

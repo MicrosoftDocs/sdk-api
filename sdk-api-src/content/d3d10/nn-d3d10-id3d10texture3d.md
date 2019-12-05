@@ -1,19 +1,17 @@
 ---
 UID: NN:d3d10.ID3D10Texture3D
 title: ID3D10Texture3D (d3d10.h)
-
 description: A 3D texture interface accesses texel data, which is structured memory.
 old-location: direct3d10\id3d10texture3d.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10texture3d.htm
-
 ms.date: 12/05/2018
 ms.keywords: ID3D10Texture3D, ID3D10Texture3D interface [Direct3D 10], ID3D10Texture3D interface [Direct3D 10],described, a0af960d-1977-383c-0ee3-09972ece4699, d3d10/ID3D10Texture3D, direct3d10.id3d10texture3d
 ms.topic: interface
-f1_keywords: 
- - "d3d10/ID3D10Texture3D"
+f1_keywords:
+- d3d10/ID3D10Texture3D
 dev_langs:
- - c++
+- c++
 req.header: d3d10.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: D3D10.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D10.lib
- - D3D10.dll
+- D3D10.lib
+- D3D10.dll
 api_name:
- - ID3D10Texture3D
+- ID3D10Texture3D
 targetos: Windows
 req.typenames: 
 req.redist: 

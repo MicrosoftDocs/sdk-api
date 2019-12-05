@@ -1,19 +1,17 @@
 ---
 UID: NF:segment.IMSVidDevice.get__Category
 title: IMSVidDevice::get__Category (segment.h)
-
 description: The get__Category method retrieves the category of the device as a GUID.
 old-location: mstv\imsviddevice_get__category.htm
 tech.root: mstv
 ms.assetid: 2c5023ee-f38b-48c7-907d-363ca70bf94f
-
 ms.date: 12/05/2018
 ms.keywords: IMSVidDevice interface [Microsoft TV Technologies],get__Category method, IMSVidDevice.get__Category, IMSVidDevice::get__Category, IMSVidDeviceget__Category, get__Category, get__Category method [Microsoft TV Technologies], get__Category method [Microsoft TV Technologies],IMSVidDevice interface, mstv.imsviddevice_get__category, segment/IMSVidDevice::get__Category
 ms.topic: method
-f1_keywords: 
- - "segment/IMSVidDevice.get__Category"
+f1_keywords:
+- segment/IMSVidDevice.get__Category
 dev_langs:
- - c++
+- c++
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - segment.h
+- segment.h
 api_name:
- - IMSVidDevice.get__Category
+- IMSVidDevice.get__Category
 targetos: Windows
 req.typenames: 
 req.redist: 

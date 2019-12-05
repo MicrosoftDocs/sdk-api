@@ -1,19 +1,17 @@
 ---
 UID: NF:shellapi.SHIsFileAvailableOffline
 title: SHIsFileAvailableOffline function (shellapi.h)
-
 description: Determines whether a file or folder is available for offline use. This function also determines whether the file would be opened from the network, from the local Offline Files cache, or from both locations.
 old-location: shell\SHIsFileAvailableOffline.htm
 tech.root: shell
 ms.assetid: 9acf212d-9309-42b0-ba96-faa0ecf0b865
-
 ms.date: 12/05/2018
 ms.keywords: OFFLINE_STATUS_INCOMPLETE, OFFLINE_STATUS_LOCAL, OFFLINE_STATUS_REMOTE, SHIsFileAvailableOffline, SHIsFileAvailableOffline function [Windows Shell], shell.SHIsFileAvailableOffline, shell_shisfileavailableoffline, shellapi/SHIsFileAvailableOffline
 ms.topic: function
-f1_keywords: 
- - "shellapi/SHIsFileAvailableOffline"
+f1_keywords:
+- shellapi/SHIsFileAvailableOffline
 dev_langs:
- - c++
+- c++
 req.header: shellapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Shell32.lib
 req.dll: Shell32.dll (version 5.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - SHIsFileAvailableOffline
+- SHIsFileAvailableOffline
 targetos: Windows
 req.typenames: 
 req.redist: 

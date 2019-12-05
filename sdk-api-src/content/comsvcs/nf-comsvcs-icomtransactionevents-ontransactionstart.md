@@ -1,19 +1,17 @@
 ---
 UID: NF:comsvcs.IComTransactionEvents.OnTransactionStart
 title: IComTransactionEvents::OnTransactionStart (comsvcs.h)
-
 description: Generated when a Microsoft Distributed Transaction Coordinator (DTC) transaction starts.
 old-location: cos\icomtransactionevents_ontransactionstart.htm
 tech.root: cossdk
 ms.assetid: ef9d7adc-69ed-4582-9ce7-c66c947d48a6
-
 ms.date: 12/05/2018
 ms.keywords: IComTransactionEvents interface [COM+],OnTransactionStart method, IComTransactionEvents.OnTransactionStart, IComTransactionEvents::OnTransactionStart, OnTransactionStart, OnTransactionStart method [COM+], OnTransactionStart method [COM+],IComTransactionEvents interface, _dtc_IComTransactionEvents_OnTransactionStart, comsvcs/IComTransactionEvents::OnTransactionStart, cos.icomtransactionevents_ontransactionstart
 ms.topic: method
-f1_keywords: 
- - "comsvcs/IComTransactionEvents.OnTransactionStart"
+f1_keywords:
+- comsvcs/IComTransactionEvents.OnTransactionStart
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - IComTransactionEvents.OnTransactionStart
+- IComTransactionEvents.OnTransactionStart
 targetos: Windows
 req.typenames: 
 req.redist: 

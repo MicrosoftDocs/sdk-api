@@ -1,19 +1,17 @@
 ---
 UID: NF:wsdbase.IWSDHttpMessageParameters.GetContext
 title: IWSDHttpMessageParameters::GetContext (wsdbase.h)
-
 description: Retrieves the private transmission context for the current transaction.
 old-location: ncd\iwsdhttpmessageparameters_getcontext.htm
 tech.root: WsdApi
 ms.assetid: af93f97f-a3de-4b5c-92c5-2d4ab91e7985
-
 ms.date: 12/05/2018
 ms.keywords: GetContext, GetContext method, GetContext method,IWSDHttpMessageParameters interface, IWSDHttpMessageParameters interface,GetContext method, IWSDHttpMessageParameters.GetContext, IWSDHttpMessageParameters::GetContext, ncd.iwsdhttpmessageparameters_getcontext, wsdbase/IWSDHttpMessageParameters::GetContext
 ms.topic: method
-f1_keywords: 
- - "wsdbase/IWSDHttpMessageParameters.GetContext"
+f1_keywords:
+- wsdbase/IWSDHttpMessageParameters.GetContext
 dev_langs:
- - c++
+- c++
 req.header: wsdbase.h
 req.include-header: Wsdapi.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wsdapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wsdapi.dll
+- Wsdapi.dll
 api_name:
- - IWSDHttpMessageParameters.GetContext
+- IWSDHttpMessageParameters.GetContext
 targetos: Windows
 req.typenames: 
 req.redist: 

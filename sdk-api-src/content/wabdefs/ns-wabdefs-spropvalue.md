@@ -1,19 +1,17 @@
 ---
 UID: NS:wabdefs._SPropValue
 title: SPropValue (wabdefs.h)
-
 description: Do not use. Contains the property tag values.
 old-location: wab\_wab_SPropValue.htm
 tech.root: wab
 ms.assetid: VS|wab|~\wab\reference\structures\spropvalue.htm
-
 ms.date: 12/05/2018
-ms.keywords: "*LPSPropValue, SPropValue, SPropValue structure [Windows Address Book], _wab_SPropValue, wab._wab_SPropValue, wabdefs/SPropValue"
+ms.keywords: '*LPSPropValue, SPropValue, SPropValue structure [Windows Address Book], _wab_SPropValue, wab._wab_SPropValue, wabdefs/SPropValue'
 ms.topic: struct
-f1_keywords: 
- - "wabdefs/SPropValue"
+f1_keywords:
+- wabdefs/SPropValue
 dev_langs:
- - c++
+- c++
 req.header: wabdefs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wabdefs.h
+- Wabdefs.h
 api_name:
- - SPropValue
+- SPropValue
 targetos: Windows
 req.typenames: SPropValue, *LPSPropValue
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:portabledeviceapi.IPortableDeviceProperties.GetValues
 title: IPortableDeviceProperties::GetValues (portabledeviceapi.h)
-
 description: The GetValues method retrieves a list of specified properties from a specified object on a device.
 old-location: wpdsdk\iportabledeviceproperties_getvalues.htm
 tech.root: wpd_sdk
 ms.assetid: 5f4ec65c-dd26-40d5-a9f8-a2175c3aa54c
-
 ms.date: 12/05/2018
 ms.keywords: GetValues, GetValues method [Windows Portable Devices SDK], GetValues method [Windows Portable Devices SDK],IPortableDeviceProperties interface, IPortableDeviceProperties interface [Windows Portable Devices SDK],GetValues method, IPortableDeviceProperties.GetValues, IPortableDeviceProperties::GetValues, IPortableDevicePropertiesGetValues, portabledeviceapi/IPortableDeviceProperties::GetValues, wpdsdk.iportabledeviceproperties_getvalues
 ms.topic: method
-f1_keywords: 
- - "portabledeviceapi/IPortableDeviceProperties.GetValues"
+f1_keywords:
+- portabledeviceapi/IPortableDeviceProperties.GetValues
 dev_langs:
- - c++
+- c++
 req.header: portabledeviceapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: PortableDeviceGUIDs.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - PortableDeviceGUIDs.lib
- - PortableDeviceGUIDs.dll
+- PortableDeviceGUIDs.lib
+- PortableDeviceGUIDs.dll
 api_name:
- - IPortableDeviceProperties.GetValues
+- IPortableDeviceProperties.GetValues
 targetos: Windows
 req.typenames: 
 req.redist: 

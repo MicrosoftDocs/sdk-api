@@ -1,19 +1,17 @@
 ---
 UID: NN:portabledeviceapi.IPortableDeviceDispatchFactory
 title: IPortableDeviceDispatchFactory (portabledeviceapi.h)
-
 description: Represents a factory that can instantiate a WPD Automation Device object.
 old-location: wpdauto\iportabledevicedispatchfactory_interface.htm
 tech.root: wpdauto
 ms.assetid: 537551c9-0773-44a9-b602-7d2a6bf9ad00
-
 ms.date: 12/05/2018
 ms.keywords: IPortableDeviceDispatchFactory, IPortableDeviceDispatchFactory interface [WPD Automation], IPortableDeviceDispatchFactory interface [WPD Automation],described, portabledeviceapi/IPortableDeviceDispatchFactory, wpdauto.iportabledevicedispatchfactory_interface
 ms.topic: interface
-f1_keywords: 
- - "portabledeviceapi/IPortableDeviceDispatchFactory"
+f1_keywords:
+- portabledeviceapi/IPortableDeviceDispatchFactory
 dev_langs:
- - c++
+- c++
 req.header: portabledeviceapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: PortableDeviceGuids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - PortableDeviceGuids.lib
- - PortableDeviceGuids.dll
+- PortableDeviceGuids.lib
+- PortableDeviceGuids.dll
 api_name:
- - IPortableDeviceDispatchFactory
+- IPortableDeviceDispatchFactory
 targetos: Windows
 req.typenames: 
 req.redist: 

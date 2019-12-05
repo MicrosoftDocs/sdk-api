@@ -1,19 +1,17 @@
 ---
 UID: NF:winsync.ISyncChangeBatchAdvanced.ConvertFullEnumerationChangeBatchToRegularChangeBatch
 title: ISyncChangeBatchAdvanced::ConvertFullEnumerationChangeBatchToRegularChangeBatch (winsync.h)
-
 description: Converts an ISyncFullEnumerationChangeBatch object to an ISyncChangeBatch object.
 old-location: winsync\isyncchangebatchadvanced_convertfullenumerationchangebatchtoregularchangebatch.htm
 tech.root: winsync
 ms.assetid: 073369ab-232e-410f-b6f1-c43bf15cc652
-
 ms.date: 12/05/2018
 ms.keywords: ConvertFullEnumerationChangeBatchToRegularChangeBatch, ConvertFullEnumerationChangeBatchToRegularChangeBatch method [Windows Sync], ConvertFullEnumerationChangeBatchToRegularChangeBatch method [Windows Sync],ISyncChangeBatchAdvanced interface, ISyncChangeBatchAdvanced interface [Windows Sync],ConvertFullEnumerationChangeBatchToRegularChangeBatch method, ISyncChangeBatchAdvanced.ConvertFullEnumerationChangeBatchToRegularChangeBatch, ISyncChangeBatchAdvanced::ConvertFullEnumerationChangeBatchToRegularChangeBatch, winsync.isyncchangebatchadvanced_convertfullenumerationchangebatchtoregularchangebatch, winsync/ISyncChangeBatchAdvanced::ConvertFullEnumerationChangeBatchToRegularChangeBatch
 ms.topic: method
-f1_keywords: 
- - "winsync/ISyncChangeBatchAdvanced.ConvertFullEnumerationChangeBatchToRegularChangeBatch"
+f1_keywords:
+- winsync/ISyncChangeBatchAdvanced.ConvertFullEnumerationChangeBatchToRegularChangeBatch
 dev_langs:
- - c++
+- c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - winsync.h
+- winsync.h
 api_name:
- - ISyncChangeBatchAdvanced.ConvertFullEnumerationChangeBatchToRegularChangeBatch
+- ISyncChangeBatchAdvanced.ConvertFullEnumerationChangeBatchToRegularChangeBatch
 targetos: Windows
 req.typenames: 
 req.redist: 

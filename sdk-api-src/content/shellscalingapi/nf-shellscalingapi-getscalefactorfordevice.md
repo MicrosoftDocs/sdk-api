@@ -1,19 +1,17 @@
 ---
 UID: NF:shellscalingapi.GetScaleFactorForDevice
 title: GetScaleFactorForDevice function (shellscalingapi.h)
-
 description: Gets the preferred scale factor for a display device.
 old-location: shell\getscalefactorfordevice.htm
 tech.root: shell
 ms.assetid: 5F312914-03F6-42E0-80F9-761D854A81A3
-
 ms.date: 12/05/2018
 ms.keywords: GetScaleFactorForDevice, GetScaleFactorForDevice function [Windows Shell], shell.getscalefactorfordevice, shellscalingapi/GetScaleFactorForDevice
 ms.topic: function
-f1_keywords: 
- - "shellscalingapi/GetScaleFactorForDevice"
+f1_keywords:
+- shellscalingapi/GetScaleFactorForDevice
 dev_langs:
- - c++
+- c++
 req.header: shellscalingapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib:
 req.dll: Shcore.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Shcore.dll
- - API-MS-Win-shcore-scaling-l1-1-0.dll
- - API-MS-Win-shcore-scaling-l1-1-1.dll
- - API-MS-Win-ShCore-Scaling-l1-1-2.dll
- - api-ms-win-shcore-scaling-l1.dll
+- Shcore.dll
+- API-MS-Win-shcore-scaling-l1-1-0.dll
+- API-MS-Win-shcore-scaling-l1-1-1.dll
+- API-MS-Win-ShCore-Scaling-l1-1-2.dll
+- api-ms-win-shcore-scaling-l1.dll
 api_name:
- - GetScaleFactorForDevice
+- GetScaleFactorForDevice
 targetos: Windows
 req.typenames: 
 req.redist: 

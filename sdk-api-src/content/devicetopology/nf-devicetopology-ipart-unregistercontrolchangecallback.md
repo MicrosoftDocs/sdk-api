@@ -1,19 +1,17 @@
 ---
 UID: NF:devicetopology.IPart.UnregisterControlChangeCallback
 title: IPart::UnregisterControlChangeCallback (devicetopology.h)
-
 description: The UnregisterControlChangeCallback method removes the registration of an IControlChangeNotify interface that the client previously registered by a call to the IPart::RegisterControlChangeCallback method.
 old-location: coreaudio\ipart_unregistercontrolchangecallback.htm
 tech.root: CoreAudio
 ms.assetid: d3341421-6dab-43f3-87a8-83ee8a986a04
-
 ms.date: 12/05/2018
 ms.keywords: IPart interface [Core Audio],UnregisterControlChangeCallback method, IPart.UnregisterControlChangeCallback, IPart::UnregisterControlChangeCallback, IPartUnregisterControlChangeCallback, UnregisterControlChangeCallback, UnregisterControlChangeCallback method [Core Audio], UnregisterControlChangeCallback method [Core Audio],IPart interface, coreaudio.ipart_unregistercontrolchangecallback, devicetopology/IPart::UnregisterControlChangeCallback
 ms.topic: method
-f1_keywords: 
- - "devicetopology/IPart.UnregisterControlChangeCallback"
+f1_keywords:
+- devicetopology/IPart.UnregisterControlChangeCallback
 dev_langs:
- - c++
+- c++
 req.header: devicetopology.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Devicetopology.h
+- Devicetopology.h
 api_name:
- - IPart.UnregisterControlChangeCallback
+- IPart.UnregisterControlChangeCallback
 targetos: Windows
 req.typenames: 
 req.redist: 

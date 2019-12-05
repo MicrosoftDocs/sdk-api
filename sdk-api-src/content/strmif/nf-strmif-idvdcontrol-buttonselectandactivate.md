@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IDvdControl.ButtonSelectAndActivate
 title: IDvdControl::ButtonSelectAndActivate (strmif.h)
-
 description: Note  The IDvdControl interface is deprecated. Use IDvdControl2 instread. Selects and activates the specified button.
 old-location: dshow\idvdcontrol_buttonselectandactivate.htm
 tech.root: DirectShow
 ms.assetid: 15ed6a4e-d798-49c9-bff3-c77207658d31
-
 ms.date: 12/05/2018
 ms.keywords: ButtonSelectAndActivate, ButtonSelectAndActivate method [DirectShow], ButtonSelectAndActivate method [DirectShow],IDvdControl interface, IDvdControl interface [DirectShow],ButtonSelectAndActivate method, IDvdControl.ButtonSelectAndActivate, IDvdControl::ButtonSelectAndActivate, IDvdControlButtonSelectAndActivate, dshow.idvdcontrol_buttonselectandactivate, strmif/IDvdControl::ButtonSelectAndActivate
 ms.topic: method
-f1_keywords: 
- - "strmif/IDvdControl.ButtonSelectAndActivate"
+f1_keywords:
+- strmif/IDvdControl.ButtonSelectAndActivate
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmif.h
+- Strmif.h
 api_name:
- - IDvdControl.ButtonSelectAndActivate
+- IDvdControl.ButtonSelectAndActivate
 targetos: Windows
 req.typenames: 
 req.redist: 

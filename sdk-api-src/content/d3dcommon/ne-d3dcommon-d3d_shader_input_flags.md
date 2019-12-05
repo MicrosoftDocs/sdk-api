@@ -1,19 +1,17 @@
 ---
 UID: NE:d3dcommon._D3D_SHADER_INPUT_FLAGS
 title: D3D_SHADER_INPUT_FLAGS (d3dcommon.h)
-
 description: Values that identify shader-input options.
 old-location: direct3d11\d3d_shader_input_flags.htm
 tech.root: direct3d11
 ms.assetid: 3c79331e-73c0-42d7-9948-6ac2671a4ab5
-
 ms.date: 12/05/2018
 ms.keywords: D3D10_SIF_COMPARISON_SAMPLER, D3D10_SIF_TEXTURE_COMPONENTS, D3D10_SIF_TEXTURE_COMPONENT_0, D3D10_SIF_TEXTURE_COMPONENT_1, D3D10_SIF_USERPACKED, D3D_SHADER_INPUT_FLAGS, D3D_SHADER_INPUT_FLAGS enumeration [Direct3D 11], D3D_SIF_COMPARISON_SAMPLER, D3D_SIF_FORCE_DWORD, D3D_SIF_TEXTURE_COMPONENTS, D3D_SIF_TEXTURE_COMPONENT_0, D3D_SIF_TEXTURE_COMPONENT_1, D3D_SIF_UNUSED, D3D_SIF_USERPACKED, d3dcommon/D3D10_SIF_COMPARISON_SAMPLER, d3dcommon/D3D10_SIF_TEXTURE_COMPONENTS, d3dcommon/D3D10_SIF_TEXTURE_COMPONENT_0, d3dcommon/D3D10_SIF_TEXTURE_COMPONENT_1, d3dcommon/D3D10_SIF_USERPACKED, d3dcommon/D3D_SHADER_INPUT_FLAGS, d3dcommon/D3D_SIF_COMPARISON_SAMPLER, d3dcommon/D3D_SIF_FORCE_DWORD, d3dcommon/D3D_SIF_TEXTURE_COMPONENTS, d3dcommon/D3D_SIF_TEXTURE_COMPONENT_0, d3dcommon/D3D_SIF_TEXTURE_COMPONENT_1, d3dcommon/D3D_SIF_UNUSED, d3dcommon/D3D_SIF_USERPACKED, direct3d11.d3d_shader_input_flags
 ms.topic: enum
-f1_keywords: 
- - "d3dcommon/D3D_SHADER_INPUT_FLAGS"
+f1_keywords:
+- d3dcommon/D3D_SHADER_INPUT_FLAGS
 dev_langs:
- - c++
+- c++
 req.header: d3dcommon.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - D3DCommon.h
+- D3DCommon.h
 api_name:
- - D3D_SHADER_INPUT_FLAGS
+- D3D_SHADER_INPUT_FLAGS
 targetos: Windows
 req.typenames: D3D_SHADER_INPUT_FLAGS
 req.redist: 

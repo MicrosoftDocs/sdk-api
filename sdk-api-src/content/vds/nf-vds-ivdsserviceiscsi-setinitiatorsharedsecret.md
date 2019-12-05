@@ -1,19 +1,17 @@
 ---
 UID: NF:vds.IVdsServiceIscsi.SetInitiatorSharedSecret
 title: IVdsServiceIscsi::SetInitiatorSharedSecret (vds.h)
-
 description: Sets the initiator CHAP shared secret that is used for mutual CHAP authentication when the initiator authenticates the target.
 old-location: base\ivdsserviceiscsi_setinitiatorsharedsecret.htm
 tech.root: VDS
 ms.assetid: 90f9cf10-a0be-4ed1-8b0c-e6cc46384ba0
-
 ms.date: 12/05/2018
 ms.keywords: IVdsServiceIscsi interface [VDS],SetInitiatorSharedSecret method, IVdsServiceIscsi.SetInitiatorSharedSecret, IVdsServiceIscsi::SetInitiatorSharedSecret, SetInitiatorSharedSecret, SetInitiatorSharedSecret method [VDS], SetInitiatorSharedSecret method [VDS],IVdsServiceIscsi interface, base.ivdsserviceiscsi_setinitiatorsharedsecret, vds/IVdsServiceIscsi::SetInitiatorSharedSecret
 ms.topic: method
 f1_keywords:
 - vds/IVdsServiceIscsi.SetInitiatorSharedSecret
 dev_langs:
- - c++
+- c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

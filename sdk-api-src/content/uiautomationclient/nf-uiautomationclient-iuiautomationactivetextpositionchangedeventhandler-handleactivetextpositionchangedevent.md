@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationActiveTextPositionChangedEventHandler.HandleActiveTextPositionChangedEvent
 title: IUIAutomationActiveTextPositionChangedEventHandler::HandleActiveTextPositionChangedEvent (uiautomationclient.h)
-
 description: Handles a Microsoft UI Automation active text position change event.
 old-location: winauto\uiauto_IUIAutomationActiveTextPositionChangedEventHandler_HandleActiveTextPositionChangedEvent.htm
 tech.root: WinAuto
 ms.assetid: 8A33EDF1-A518-4701-A160-71B5A998CC00
-
 ms.date: 12/05/2018
 ms.keywords: HandleActiveTextPositionChangedEvent, HandleActiveTextPositionChangedEvent method [Windows Accessibility], HandleActiveTextPositionChangedEvent method [Windows Accessibility],IUIAutomationActiveTextPositionChangedEventHandler interface, IUIAutomationActiveTextPositionChangedEventHandler interface [Windows Accessibility],HandleActiveTextPositionChangedEvent method, IUIAutomationActiveTextPositionChangedEventHandler.HandleActiveTextPositionChangedEvent, IUIAutomationActiveTextPositionChangedEventHandler::HandleActiveTextPositionChangedEvent, uiautomationclient/IUIAutomationActiveTextPositionChangedEventHandler::HandleActiveTextPositionChangedEvent, winauto.uiauto_IUIAutomationActiveTextPositionChangedEventHandler_HandleActiveTextPositionChangedEvent
 ms.topic: method
-f1_keywords: 
- - "uiautomationclient/IUIAutomationActiveTextPositionChangedEventHandler.HandleActiveTextPositionChangedEvent"
+f1_keywords:
+- uiautomationclient/IUIAutomationActiveTextPositionChangedEventHandler.HandleActiveTextPositionChangedEvent
 dev_langs:
- - c++
+- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: UIAutomationCore.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationCore.dll
+- UIAutomationCore.dll
 api_name:
- - IUIAutomationActiveTextPositionChangedEventHandler.HandleActiveTextPositionChangedEvent
+- IUIAutomationActiveTextPositionChangedEventHandler.HandleActiveTextPositionChangedEvent
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:mbnapi.IMbnInterfaceEvents.OnSubscriberInformationChange
 title: IMbnInterfaceEvents::OnSubscriberInformationChange (mbnapi.h)
-
 description: This notification method is called by the Mobile Broadband service to indicate that the subscriber information for the device has changed.
 old-location: mbn\imbninterfaceevents_onsubscriberinformationchange.htm
 tech.root: mbn
 ms.assetid: 26d4fbdb-9c13-4934-a6bb-df581d0c18e9
-
 ms.date: 12/05/2018
 ms.keywords: IMbnInterfaceEvents interface [Microsoft Broadband Networks],OnSubscriberInformationChange method, IMbnInterfaceEvents.OnSubscriberInformationChange, IMbnInterfaceEvents::OnSubscriberInformationChange, OnSubscriberInformationChange, OnSubscriberInformationChange method [Microsoft Broadband Networks], OnSubscriberInformationChange method [Microsoft Broadband Networks],IMbnInterfaceEvents interface, mbn.imbninterfaceevents_onsubscriberinformationchange, mbnapi/IMbnInterfaceEvents::OnSubscriberInformationChange
 ms.topic: method
-f1_keywords: 
- - "mbnapi/IMbnInterfaceEvents.OnSubscriberInformationChange"
+f1_keywords:
+- mbnapi/IMbnInterfaceEvents.OnSubscriberInformationChange
 dev_langs:
- - c++
+- c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mbnapi.h
+- mbnapi.h
 api_name:
- - IMbnInterfaceEvents.OnSubscriberInformationChange
+- IMbnInterfaceEvents.OnSubscriberInformationChange
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NN:mswmdm.IMDSPStorage2
 title: IMDSPStorage2 (mswmdm.h)
-
 description: The IMDSPStorage2 interface extends IMDSPStorage by providing methods for getting and setting extended attributes and making it possible to get a pointer to a storage medium from its name.
 old-location: wmdm\imdspstorage2.htm
 tech.root: WMDM
 ms.assetid: 39afb282-7141-4eb5-93e9-a69bef495d80
-
 ms.date: 12/05/2018
 ms.keywords: IMDSPStorage2, IMDSPStorage2 interface [windows Media Device Manager], IMDSPStorage2 interface [windows Media Device Manager],described, IMDSPStorage2Interface, mswmdm/IMDSPStorage2, wmdm.imdspstorage2
 ms.topic: interface
-f1_keywords: 
- - "mswmdm/IMDSPStorage2"
+f1_keywords:
+- mswmdm/IMDSPStorage2
 dev_langs:
- - c++
+- c++
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mswmdm.h
+- mswmdm.h
 api_name:
- - IMDSPStorage2
+- IMDSPStorage2
 targetos: Windows
 req.typenames: 
 req.redist: 

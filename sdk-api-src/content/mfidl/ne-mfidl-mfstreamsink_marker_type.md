@@ -1,19 +1,17 @@
 ---
 UID: NE:mfidl._MFSTREAMSINK_MARKER_TYPE
 title: MFSTREAMSINK_MARKER_TYPE (mfidl.h)
-
 description: Defines stream marker information for the IMFStreamSink::PlaceMarker method.
 old-location: mf\mfstreamsink_marker_type.htm
 tech.root: medfound
 ms.assetid: d1c5f8ee-a451-44af-bf43-7623cea2be37
-
 ms.date: 12/05/2018
 ms.keywords: MFSTREAMSINK_MARKER_DEFAULT, MFSTREAMSINK_MARKER_ENDOFSEGMENT, MFSTREAMSINK_MARKER_EVENT, MFSTREAMSINK_MARKER_TICK, MFSTREAMSINK_MARKER_TYPE, MFSTREAMSINK_MARKER_TYPE enumeration [Media Foundation], d1c5f8ee-a451-44af-bf43-7623cea2be37, enumeration [Media Foundation], mf.mfstreamsink_marker_type, mfidl/MFSTREAMSINK_MARKER_DEFAULT, mfidl/MFSTREAMSINK_MARKER_ENDOFSEGMENT, mfidl/MFSTREAMSINK_MARKER_EVENT, mfidl/MFSTREAMSINK_MARKER_TICK, mfidl/MFSTREAMSINK_MARKER_TYPE
 ms.topic: enum
-f1_keywords: 
- - "mfidl/MFSTREAMSINK_MARKER_TYPE"
+f1_keywords:
+- mfidl/MFSTREAMSINK_MARKER_TYPE
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - mfidl.h
+- mfidl.h
 api_name:
- - MFSTREAMSINK_MARKER_TYPE
+- MFSTREAMSINK_MARKER_TYPE
 targetos: Windows
 req.typenames: MFSTREAMSINK_MARKER_TYPE
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NS:mi._MI_Uint16Field
 title: MI_Uint16Field (mi.h)
-
 description: Represents a property inside an MI_Instance structure.
 old-location: wmi_v2\mi_uint16field.htm
 tech.root: wmi_v2
 ms.assetid: 430ebf5e-e490-4db0-8df9-63968d498a3b
-
 ms.date: 12/05/2018
 ms.keywords: MI_FLAG_ADOPT, MI_FLAG_BORROW, MI_FLAG_NOT_MODIFIED, MI_FLAG_NULL, MI_Uint16Field, MI_Uint16Field structure [Windows Management Infrastructure (MI)], mi/MI_Uint16Field, wmi._mi_uint16field, wmi_v2.mi_uint16field
 ms.topic: struct
 f1_keywords:
 - mi/MI_Uint16Field
 dev_langs:
- - c++
+- c++
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows

@@ -1,19 +1,17 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMVisual.GetName
 title: IXpsOMVisual::GetName (xpsobjectmodel.h)
-
 description: Gets the Name property of the visual.
 old-location: xps\ixpsomvisual_getname.htm
 tech.root: printdocs
 ms.assetid: 0a8b592e-c80e-4a0f-b9a4-8c362da43ced
-
 ms.date: 12/05/2018
 ms.keywords: GetName, GetName method [XPS Documents and Packaging], GetName method [XPS Documents and Packaging],IXpsOMVisual interface, IXpsOMVisual interface [XPS Documents and Packaging],GetName method, IXpsOMVisual.GetName, IXpsOMVisual::GetName, xps.ixpsomvisual_getname, xpsobjectmodel/IXpsOMVisual::GetName
 ms.topic: method
-f1_keywords: 
- - "xpsobjectmodel/IXpsOMVisual.GetName"
+f1_keywords:
+- xpsobjectmodel/IXpsOMVisual.GetName
 dev_langs:
- - c++
+- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsobjectmodel.h
+- xpsobjectmodel.h
 api_name:
- - IXpsOMVisual.GetName
+- IXpsOMVisual.GetName
 targetos: Windows
 req.typenames: 
 req.redist: 

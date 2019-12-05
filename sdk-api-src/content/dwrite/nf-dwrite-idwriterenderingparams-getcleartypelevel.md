@@ -1,19 +1,17 @@
 ---
 UID: NF:dwrite.IDWriteRenderingParams.GetClearTypeLevel
 title: IDWriteRenderingParams::GetClearTypeLevel (dwrite.h)
-
 description: Gets the ClearType level of the rendering parameters object.
 old-location: directwrite\IDWriteRenderingParams_GetClearTypeLevel.htm
 tech.root: DirectWrite
 ms.assetid: 62b2aa39-ca8f-4abd-af10-1c1ca7971dcd
-
 ms.date: 12/05/2018
 ms.keywords: GetClearTypeLevel, GetClearTypeLevel method [Direct Write], GetClearTypeLevel method [Direct Write],IDWriteRenderingParams interface, IDWriteRenderingParams interface [Direct Write],GetClearTypeLevel method, IDWriteRenderingParams.GetClearTypeLevel, IDWriteRenderingParams::GetClearTypeLevel, directwrite.IDWriteRenderingParams_GetClearTypeLevel, dwrite/IDWriteRenderingParams::GetClearTypeLevel
 ms.topic: method
-f1_keywords: 
- - "dwrite/IDWriteRenderingParams.GetClearTypeLevel"
+f1_keywords:
+- dwrite/IDWriteRenderingParams.GetClearTypeLevel
 dev_langs:
- - c++
+- c++
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dwrite.lib
 req.dll: Dwrite.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dwrite.dll
+- dwrite.dll
 api_name:
- - IDWriteRenderingParams.GetClearTypeLevel
+- IDWriteRenderingParams.GetClearTypeLevel
 targetos: Windows
 req.typenames: 
 req.redist: 

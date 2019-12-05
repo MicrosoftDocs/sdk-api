@@ -1,19 +1,17 @@
 ---
 UID: NF:ocidl.IConnectionPointContainer.FindConnectionPoint
 title: IConnectionPointContainer::FindConnectionPoint (ocidl.h)
-
 description: Returns a pointer to the IConnectionPoint interface of a connection point for a specified IID, if that IID describes a supported outgoing interface.
 old-location: com\iconnectionpointcontainer_findconnectionpoint.htm
 tech.root: com
 ms.assetid: bbe55013-13ca-43e8-8d5e-ef89076df039
-
 ms.date: 12/05/2018
 ms.keywords: FindConnectionPoint, FindConnectionPoint method [COM], FindConnectionPoint method [COM],IConnectionPointContainer interface, IConnectionPointContainer interface [COM],FindConnectionPoint method, IConnectionPointContainer.FindConnectionPoint, IConnectionPointContainer::FindConnectionPoint, _com_iconnectionpointcontainer_findconnectionpoint, com.iconnectionpointcontainer_findconnectionpoint, ocidl/IConnectionPointContainer::FindConnectionPoint
 ms.topic: method
-f1_keywords: 
- - "ocidl/IConnectionPointContainer.FindConnectionPoint"
+f1_keywords:
+- ocidl/IConnectionPointContainer.FindConnectionPoint
 dev_langs:
- - c++
+- c++
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - OCIdl.h
+- OCIdl.h
 api_name:
- - IConnectionPointContainer.FindConnectionPoint
+- IConnectionPointContainer.FindConnectionPoint
 targetos: Windows
 req.typenames: 
 req.redist: 

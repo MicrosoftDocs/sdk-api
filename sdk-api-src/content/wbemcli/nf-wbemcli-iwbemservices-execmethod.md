@@ -1,19 +1,17 @@
 ---
 UID: NF:wbemcli.IWbemServices.ExecMethod
 title: IWbemServices::ExecMethod (wbemcli.h)
-
 description: Executes a method exported by a CIM object.
 old-location: wmi\iwbemservices_execmethod.htm
 tech.root: WmiSdk
 ms.assetid: 9acba1aa-bcca-416a-863c-704d2e72df07
-
 ms.date: 12/05/2018
 ms.keywords: ExecMethod, ExecMethod method [Windows Management Instrumentation], ExecMethod method [Windows Management Instrumentation],IWbemServices interface, IWbemServices interface [Windows Management Instrumentation],ExecMethod method, IWbemServices.ExecMethod, IWbemServices::ExecMethod, _hmm_iwbemservices_execmethod, wbemcli/IWbemServices::ExecMethod, wmi.iwbemservices_execmethod
 ms.topic: method
-f1_keywords: 
- - "wbemcli/IWbemServices.ExecMethod"
+f1_keywords:
+- wbemcli/IWbemServices.ExecMethod
 dev_langs:
- - c++
+- c++
 req.header: wbemcli.h
 req.include-header: Wbemidl.h
 req.target-type: Windows
@@ -32,28 +30,28 @@ req.lib: Wbemuuid.lib
 req.dll: Fastprox.dll; Esscli.dll; FrameDyn.dll; FrameDynOS.dll; Ntevt.dll; Stdprov.dll; Viewprov.dll; Wbemcomn.dll; Wbemcore.dll; Wbemess.dll; Wbemsvc.dll; Wmipicmp.dll; Wmidcprv.dll; Wmipjobj.dll; Wmiprvsd.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Fastprox.dll
- - Esscli.dll
- - FrameDyn.dll
- - FrameDynOS.dll
- - Ntevt.dll
- - Stdprov.dll
- - Viewprov.dll
- - Wbemcomn.dll
- - Wbemcore.dll
- - Wbemess.dll
- - Wbemsvc.dll
- - Wmipicmp.dll
- - Wmidcprv.dll
- - Wmipjobj.dll
- - Wmiprvsd.dll
+- Fastprox.dll
+- Esscli.dll
+- FrameDyn.dll
+- FrameDynOS.dll
+- Ntevt.dll
+- Stdprov.dll
+- Viewprov.dll
+- Wbemcomn.dll
+- Wbemcore.dll
+- Wbemess.dll
+- Wbemsvc.dll
+- Wmipicmp.dll
+- Wmidcprv.dll
+- Wmipjobj.dll
+- Wmiprvsd.dll
 api_name:
- - IWbemServices.ExecMethod
+- IWbemServices.ExecMethod
 targetos: Windows
 req.typenames: 
 req.redist: 

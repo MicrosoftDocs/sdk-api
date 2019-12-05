@@ -1,19 +1,17 @@
 ---
 UID: NS:wingdi.tagEMRCREATEPALETTE
 title: EMRCREATEPALETTE (wingdi.h)
-
 description: The EMRCREATEPALETTE structure contains members for the CreatePalette enhanced metafile record.
 old-location: gdi\emrcreatepalette.htm
 tech.root: gdi
 ms.assetid: 5198dc94-49bf-4cc8-8b41-2f29acd3c17d
-
 ms.date: 12/05/2018
-ms.keywords: "*PEMRCREATEPALETTE, EMRCREATEPALETTE, EMRCREATEPALETTE structure [Windows GDI], PEMRCREATEPALETTE, PEMRCREATEPALETTE structure pointer [Windows GDI], _win32_EMRCREATEPALETTE_str, gdi.emrcreatepalette, wingdi/EMRCREATEPALETTE, wingdi/PEMRCREATEPALETTE"
+ms.keywords: '*PEMRCREATEPALETTE, EMRCREATEPALETTE, EMRCREATEPALETTE structure [Windows GDI], PEMRCREATEPALETTE, PEMRCREATEPALETTE structure pointer [Windows GDI], _win32_EMRCREATEPALETTE_str, gdi.emrcreatepalette, wingdi/EMRCREATEPALETTE, wingdi/PEMRCREATEPALETTE'
 ms.topic: struct
-f1_keywords: 
- - "wingdi/EMRCREATEPALETTE"
+f1_keywords:
+- wingdi/EMRCREATEPALETTE
 dev_langs:
- - c++
+- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wingdi.h
+- Wingdi.h
 api_name:
- - EMRCREATEPALETTE
+- EMRCREATEPALETTE
 targetos: Windows
 req.typenames: EMRCREATEPALETTE, *PEMRCREATEPALETTE
 req.redist: 

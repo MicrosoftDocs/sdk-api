@@ -1,19 +1,17 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMCoreProperties.GetOwner
 title: IXpsOMCoreProperties::GetOwner (xpsobjectmodel.h)
-
 description: Gets a pointer to the IXpsOMPackage interface that contains the core properties.
 old-location: xps\ixpsomcoreproperties_getowner.htm
 tech.root: printdocs
 ms.assetid: e3b2b9a7-7498-48a1-9d1f-eb954dc5576c
-
 ms.date: 12/05/2018
 ms.keywords: GetOwner, GetOwner method [XPS Documents and Packaging], GetOwner method [XPS Documents and Packaging],IXpsOMCoreProperties interface, IXpsOMCoreProperties interface [XPS Documents and Packaging],GetOwner method, IXpsOMCoreProperties.GetOwner, IXpsOMCoreProperties::GetOwner, xps.ixpsomcoreproperties_getowner, xpsobjectmodel/IXpsOMCoreProperties::GetOwner
 ms.topic: method
-f1_keywords: 
- - "xpsobjectmodel/IXpsOMCoreProperties.GetOwner"
+f1_keywords:
+- xpsobjectmodel/IXpsOMCoreProperties.GetOwner
 dev_langs:
- - c++
+- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsobjectmodel.h
+- xpsobjectmodel.h
 api_name:
- - IXpsOMCoreProperties.GetOwner
+- IXpsOMCoreProperties.GetOwner
 targetos: Windows
 req.typenames: 
 req.redist: 

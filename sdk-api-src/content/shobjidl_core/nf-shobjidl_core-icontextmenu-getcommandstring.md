@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IContextMenu.GetCommandString
 title: IContextMenu::GetCommandString (shobjidl_core.h)
-
 description: Gets information about a shortcut menu command, including the help string and the language-independent, or canonical, name for the command.
 old-location: shell\IContextMenu_GetCommandString.htm
 tech.root: shell
 ms.assetid: efa60153-7635-4aef-bd9e-f51fe4ecc234
-
 ms.date: 12/05/2018
 ms.keywords: GCS_HELPTEXTA, GCS_HELPTEXTW, GCS_VALIDATEA, GCS_VALIDATEW, GCS_VERBA, GCS_VERBW, GetCommandString, GetCommandString method [Windows Shell], GetCommandString method [Windows Shell],IContextMenu interface, IContextMenu interface [Windows Shell],GetCommandString method, IContextMenu.GetCommandString, IContextMenu::GetCommandString, _win32_IContextMenu_GetCommandString, _win32_icontextmenu_win32_icontextmenu_getcommandstring_cpp, shell.IContextMenu_GetCommandString, shobjidl_core/IContextMenu::GetCommandString
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IContextMenu.GetCommandString"
+f1_keywords:
+- shobjidl_core/IContextMenu.GetCommandString
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Shell32.dll (version 4.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - IContextMenu.GetCommandString
+- IContextMenu.GetCommandString
 targetos: Windows
 req.typenames: 
 req.redist: 

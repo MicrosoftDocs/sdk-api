@@ -1,19 +1,17 @@
 ---
 UID: NC:dxvahd.PDXVAHDSW_CreateDevice
 title: PDXVAHDSW_CreateDevice (dxvahd.h)
-
 description: Creates an instance of a software plug-in Microsoft DirectX Video Acceleration High Definition (DXVA-HD) device.
 old-location: mf\pdxvahdsw_createdevice.htm
 tech.root: medfound
 ms.assetid: f76539c8-13a8-4608-87a6-4947f5debb02
-
 ms.date: 12/05/2018
 ms.keywords: PDXVAHDSW_CreateDevice, PDXVAHDSW_CreateDevice callback, PDXVAHDSW_CreateDevice callback function [Media Foundation], dxvahd/PDXVAHDSW_CreateDevice, mf.pdxvahdsw_createdevice
 ms.topic: callback
 f1_keywords:
 - dxvahd/PDXVAHDSW_CreateDevice
 dev_langs:
- - c++
+- c++
 req.header: dxvahd.h
 req.include-header: 
 req.target-type: Windows

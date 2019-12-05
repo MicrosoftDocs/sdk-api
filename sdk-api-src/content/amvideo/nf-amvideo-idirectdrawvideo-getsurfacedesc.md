@@ -1,19 +1,17 @@
 ---
 UID: NF:amvideo.IDirectDrawVideo.GetSurfaceDesc
 title: IDirectDrawVideo::GetSurfaceDesc (amvideo.h)
-
 description: The GetSurfaceDesc method retrieves a DDSURFACEDESC structure describing the current DirectDraw surface.
 old-location: dshow\idirectdrawvideo_getsurfacedesc.htm
 tech.root: DirectShow
 ms.assetid: f3884dbf-c75c-45f7-953c-bfdc14734820
-
 ms.date: 12/05/2018
 ms.keywords: GetSurfaceDesc, GetSurfaceDesc method [DirectShow], GetSurfaceDesc method [DirectShow],IDirectDrawVideo interface, IDirectDrawVideo interface [DirectShow],GetSurfaceDesc method, IDirectDrawVideo.GetSurfaceDesc, IDirectDrawVideo::GetSurfaceDesc, IDirectDrawVideoGetSurfaceDesc, amvideo/IDirectDrawVideo::GetSurfaceDesc, dshow.idirectdrawvideo_getsurfacedesc
 ms.topic: method
-f1_keywords: 
- - "amvideo/IDirectDrawVideo.GetSurfaceDesc"
+f1_keywords:
+- amvideo/IDirectDrawVideo.GetSurfaceDesc
 dev_langs:
- - c++
+- c++
 req.header: amvideo.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IDirectDrawVideo.GetSurfaceDesc
+- IDirectDrawVideo.GetSurfaceDesc
 targetos: Windows
 req.typenames: 
 req.redist: 

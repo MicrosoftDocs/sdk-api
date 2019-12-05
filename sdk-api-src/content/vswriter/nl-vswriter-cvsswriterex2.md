@@ -1,19 +1,17 @@
 ---
 UID: NL:vswriter.CVssWriterEx2
 title: CVssWriterEx2 (vswriter.h)
-
 description: The CVssWriterEx2 class is an abstract base class that defines the interface by which a writer synchronizes its state with VSS and other writers.
 old-location: base\cvsswriterex2.htm
 tech.root: VSS
 ms.assetid: 13cdeae3-dece-42ae-8bff-037ee3e4cec4
-
 ms.date: 12/05/2018
 ms.keywords: CVssWriterEx2, CVssWriterEx2 class, CVssWriterEx2 class,described, base.cvsswriterex2, vswriter/CVssWriterEx2
 ms.topic: class
-f1_keywords: 
- - "vswriter/CVssWriterEx2"
+f1_keywords:
+- vswriter/CVssWriterEx2
 dev_langs:
- - c++
+- c++
 req.header: vswriter.h
 req.include-header: Vss.h, VsWriter.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: VssApi.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - VssApi.lib
- - VssApi.dll
+- VssApi.lib
+- VssApi.dll
 api_name:
- - CVssWriterEx2
+- CVssWriterEx2
 targetos: Windows
 req.typenames: 
 req.redist: 

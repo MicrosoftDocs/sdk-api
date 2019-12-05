@@ -1,19 +1,17 @@
 ---
 UID: NF:mbnapi.IMbnSms.GetSmsStatus
 title: IMbnSms::GetSmsStatus (mbnapi.h)
-
 description: Gets the SMS status for a device.
 old-location: mbn\imbnsms_getsmsstatus.htm
 tech.root: mbn
 ms.assetid: 58cb60dd-160c-4e1c-a244-7f20b5e79b64
-
 ms.date: 12/05/2018
 ms.keywords: GetSmsStatus, GetSmsStatus method [Microsoft Broadband Networks], GetSmsStatus method [Microsoft Broadband Networks],IMbnSms interface, IMbnSms interface [Microsoft Broadband Networks],GetSmsStatus method, IMbnSms.GetSmsStatus, IMbnSms::GetSmsStatus, mbn.imbnsms_getsmsstatus, mbnapi/IMbnSms::GetSmsStatus
 ms.topic: method
-f1_keywords: 
- - "mbnapi/IMbnSms.GetSmsStatus"
+f1_keywords:
+- mbnapi/IMbnSms.GetSmsStatus
 dev_langs:
- - c++
+- c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mbnapi.h
+- mbnapi.h
 api_name:
- - IMbnSms.GetSmsStatus
+- IMbnSms.GetSmsStatus
 targetos: Windows
 req.typenames: 
 req.redist: 

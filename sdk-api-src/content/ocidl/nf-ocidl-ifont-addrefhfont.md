@@ -1,19 +1,17 @@
 ---
 UID: NF:ocidl.IFont.AddRefHfont
 title: IFont::AddRefHfont (ocidl.h)
-
 description: Notifies the font object that the previously realized font identified with hFont should remain valid until ReleaseHfont is called or the font object itself is released completely.
 old-location: com\ifont_addrefhfont.htm
 tech.root: com
 ms.assetid: f86d52b8-e763-4948-b853-039721ae9b38
-
 ms.date: 12/05/2018
 ms.keywords: AddRefHfont, AddRefHfont method [COM], AddRefHfont method [COM],IFont interface, IFont interface [COM],AddRefHfont method, IFont.AddRefHfont, IFont::AddRefHfont, _ctrl_ifont_addrefhfont, com.ifont_addrefhfont, ocidl/IFont::AddRefHfont
 ms.topic: method
-f1_keywords: 
- - "ocidl/IFont.AddRefHfont"
+f1_keywords:
+- ocidl/IFont.AddRefHfont
 dev_langs:
- - c++
+- c++
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - OCIdl.h
+- OCIdl.h
 api_name:
- - IFont.AddRefHfont
+- IFont.AddRefHfont
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi.phoneGetVolume
 title: phoneGetVolume function (tapi.h)
-
 description: The phoneGetVolume function returns the volume setting of the specified phone's hookswitch device.
 old-location: tapi2\phonegetvolume.htm
 tech.root: Tapi
 ms.assetid: 049da2d5-4c31-4311-8dac-30545f8bf39b
-
 ms.date: 12/05/2018
-ms.keywords: "_tapi2_phonegetvolume, phoneGetVolume, phoneGetVolume function [TAPI 2.2], tapi/phoneGetVolume, tapi2.phonegetvolume"
+ms.keywords: _tapi2_phonegetvolume, phoneGetVolume, phoneGetVolume function [TAPI 2.2], tapi/phoneGetVolume, tapi2.phonegetvolume
 ms.topic: function
-f1_keywords: 
- - "tapi/phoneGetVolume"
+f1_keywords:
+- tapi/phoneGetVolume
 dev_langs:
- - c++
+- c++
 req.header: tapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Tapi32.lib
 req.dll: Tapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Tapi32.dll
+- Tapi32.dll
 api_name:
- - phoneGetVolume
+- phoneGetVolume
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:oleauto.VarR4FromCy
 title: VarR4FromCy function (oleauto.h)
-
 description: Converts a currency value to a float value.
 old-location: automat\varr4fromcy.htm
 tech.root: automat
 ms.assetid: 25ac1a9f-b23e-4613-a629-e14cecc8902b
-
 ms.date: 12/05/2018
 ms.keywords: VarR4FromCy, VarR4FromCy function [Automation], _oa96_VarR4FromCy, automat.varr4fromcy, oleauto/VarR4FromCy
 ms.topic: function
-f1_keywords: 
- - "oleauto/VarR4FromCy"
+f1_keywords:
+- oleauto/VarR4FromCy
 dev_langs:
- - c++
+- c++
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: OleAut32.lib
 req.dll: OleAut32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - OleAut32.dll
+- OleAut32.dll
 api_name:
- - VarR4FromCy
+- VarR4FromCy
 targetos: Windows
 req.typenames: 
 req.redist: 

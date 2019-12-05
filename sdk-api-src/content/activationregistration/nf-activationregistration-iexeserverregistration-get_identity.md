@@ -1,19 +1,17 @@
 ---
 UID: NF:activationregistration.IExeServerRegistration.get_Identity
 title: IExeServerRegistration::get_Identity (activationregistration.h)
-
 description: Gets the identity of the out-of-process server.
 old-location: winrt\iexeserverregistration_identity.htm
 tech.root: WinRT
 ms.assetid: DA667D7C-323B-412D-AF9E-03402223292A
-
 ms.date: 12/05/2018
 ms.keywords: IExeServerRegistration interface [Windows Runtime],get_Identity method, IExeServerRegistration.get_Identity, IExeServerRegistration::get_Identity, activationregistration/IExeServerRegistration::get_Identity, get_Identity, get_Identity method [Windows Runtime], get_Identity method [Windows Runtime],IExeServerRegistration interface, winrt.iexeserverregistration_identity
 ms.topic: method
-f1_keywords: 
- - "activationregistration/IExeServerRegistration.get_Identity"
+f1_keywords:
+- activationregistration/IExeServerRegistration.get_Identity
 dev_langs:
- - c++
+- c++
 req.header: activationregistration.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - activationregistration.h
+- activationregistration.h
 api_name:
- - IExeServerRegistration.get_Identity
+- IExeServerRegistration.get_Identity
 targetos: Windows
 req.typenames: 
 req.redist: 

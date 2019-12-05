@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IExplorerPaneVisibility.GetPaneState
 title: IExplorerPaneVisibility::GetPaneState (shobjidl_core.h)
-
 description: Gets the visibility state of the given Windows Explorer pane.
 old-location: shell\IExplorerPaneVisibility_GetPaneState.htm
 tech.root: shell
 ms.assetid: 6c051cdc-b7f9-48dc-ba32-38f0f1ee5fda
-
 ms.date: 12/05/2018
 ms.keywords: EP_AdvQueryPane, EP_Commands, EP_Commands_Organize, EP_Commands_View, EP_DetailsPane, EP_NavPane, EP_PreviewPane, EP_QueryPane, EP_Ribbon, EP_StatusBar, GetPaneState, GetPaneState method [Windows Shell], GetPaneState method [Windows Shell],IExplorerPaneVisibility interface, IExplorerPaneVisibility interface [Windows Shell],GetPaneState method, IExplorerPaneVisibility.GetPaneState, IExplorerPaneVisibility::GetPaneState, _shell_IExplorerPaneVisibility_GetPaneState, shell.IExplorerPaneVisibility_GetPaneState, shobjidl_core/IExplorerPaneVisibility::GetPaneState
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IExplorerPaneVisibility.GetPaneState"
+f1_keywords:
+- shobjidl_core/IExplorerPaneVisibility.GetPaneState
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - IExplorerPaneVisibility.GetPaneState
+- IExplorerPaneVisibility.GetPaneState
 targetos: Windows
 req.typenames: 
 req.redist: 

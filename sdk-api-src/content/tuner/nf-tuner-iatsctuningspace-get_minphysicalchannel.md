@@ -1,19 +1,17 @@
 ---
 UID: NF:tuner.IATSCTuningSpace.get_MinPhysicalChannel
 title: IATSCTuningSpace::get_MinPhysicalChannel (tuner.h)
-
 description: The get_MinPhysicalChannel method sets the lowest physical channel number for this tuning space.
 old-location: mstv\iatsctuningspace_get_minphysicalchannel.htm
 tech.root: mstv
 ms.assetid: 1b85331a-d99f-4cb6-8440-1b51fa697ade
-
 ms.date: 12/05/2018
 ms.keywords: IATSCTuningSpace interface [Microsoft TV Technologies],get_MinPhysicalChannel method, IATSCTuningSpace.get_MinPhysicalChannel, IATSCTuningSpace::get_MinPhysicalChannel, IATSCTuningSpaceget_MinPhysicalChannel, get_MinPhysicalChannel, get_MinPhysicalChannel method [Microsoft TV Technologies], get_MinPhysicalChannel method [Microsoft TV Technologies],IATSCTuningSpace interface, mstv.iatsctuningspace_get_minphysicalchannel, tuner/IATSCTuningSpace::get_MinPhysicalChannel
 ms.topic: method
-f1_keywords: 
- - "tuner/IATSCTuningSpace.get_MinPhysicalChannel"
+f1_keywords:
+- tuner/IATSCTuningSpace.get_MinPhysicalChannel
 dev_langs:
- - c++
+- c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - tuner.h
+- tuner.h
 api_name:
- - IATSCTuningSpace.get_MinPhysicalChannel
+- IATSCTuningSpace.get_MinPhysicalChannel
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:combaseapi.CoImpersonateClient
 title: CoImpersonateClient function (combaseapi.h)
-
 description: Enables the server to impersonate the client of the current call for the duration of the call.
 old-location: com\coimpersonateclient.htm
 tech.root: com
 ms.assetid: a3cbfbbc-fc6f-4d1b-8460-1e3351cd32d7
-
 ms.date: 12/05/2018
 ms.keywords: CoImpersonateClient, CoImpersonateClient function [COM], _com_CoImpersonateClient, com.coimpersonateclient, combaseapi/CoImpersonateClient
 ms.topic: function
-f1_keywords: 
- - "combaseapi/CoImpersonateClient"
+f1_keywords:
+- combaseapi/CoImpersonateClient
 dev_langs:
- - c++
+- c++
 req.header: combaseapi.h
 req.include-header: Objbase.h
 req.target-type: Windows
@@ -32,19 +30,19 @@ req.lib: Ole32.lib
 req.dll: Ole32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ole32.dll
- - API-MS-Win-Core-Com-l1-1-0.dll
- - ComBase.dll
- - API-MS-Win-Core-Com-l1-1-1.dll
- - API-MS-Win-DownLevel-Ole32-l1-1-0.dll
- - API-MS-Win-DownLevel-Ole32-l1-1-1.dll
+- Ole32.dll
+- API-MS-Win-Core-Com-l1-1-0.dll
+- ComBase.dll
+- API-MS-Win-Core-Com-l1-1-1.dll
+- API-MS-Win-DownLevel-Ole32-l1-1-0.dll
+- API-MS-Win-DownLevel-Ole32-l1-1-1.dll
 api_name:
- - CoImpersonateClient
+- CoImpersonateClient
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NN:shobjidl_core.IHandlerInfo
 title: IHandlerInfo (shobjidl_core.h)
-
 description: Supplies methods that provide information about the handler to methods of the IHandlerActivationHost interface.
 old-location: shell\IHandlerInfo.htm
 tech.root: shell
 ms.assetid: f0b8da9f-75ee-418d-8df6-fa0d7c600e62
-
 ms.date: 12/05/2018
 ms.keywords: IHandlerInfo, IHandlerInfo interface [Windows Shell], IHandlerInfo interface [Windows Shell],described, shell.IHandlerInfo, shobjidl_core/IHandlerInfo
 ms.topic: interface
-f1_keywords: 
- - "shobjidl_core/IHandlerInfo"
+f1_keywords:
+- shobjidl_core/IHandlerInfo
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - IHandlerInfo
+- IHandlerInfo
 targetos: Windows
 req.typenames: 
 req.redist: 

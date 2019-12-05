@@ -1,19 +1,17 @@
 ---
 UID: NN:strmif.IFilterGraph3
 title: IFilterGraph3 (strmif.h)
-
 description: The IFilterGraph3 interface extends the IFilterGraph2 interface, which contains methods for building filter graphs.The Filter Graph Manager implements this interface.
 old-location: dshow\ifiltergraph3.htm
 tech.root: DirectShow
 ms.assetid: 1d5f8eda-2b09-4627-8ae9-f43f38c3c26a
-
 ms.date: 12/05/2018
 ms.keywords: IFilterGraph3, IFilterGraph3 interface [DirectShow], IFilterGraph3 interface [DirectShow],described, IFilterGraph3Interface, dshow.ifiltergraph3, strmif/IFilterGraph3
 ms.topic: interface
-f1_keywords: 
- - "strmif/IFilterGraph3"
+f1_keywords:
+- strmif/IFilterGraph3
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IFilterGraph3
+- IFilterGraph3
 targetos: Windows
 req.typenames: 
 req.redist: 

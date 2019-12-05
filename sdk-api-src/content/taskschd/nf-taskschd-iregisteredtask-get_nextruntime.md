@@ -1,19 +1,17 @@
 ---
 UID: NF:taskschd.IRegisteredTask.get_NextRunTime
 title: IRegisteredTask::get_NextRunTime (taskschd.h)
-
 description: Gets the time when the registered task is next scheduled to run.
 old-location: taskschd\iregisteredtask_nextruntime.htm
 tech.root: taskschd
 ms.assetid: ccaed6d7-4247-4299-9226-77d84d572e3b
-
 ms.date: 12/05/2018
 ms.keywords: IRegisteredTask interface [Task Scheduler],NextRunTime property, IRegisteredTask.NextRunTime, IRegisteredTask.get_NextRunTime, IRegisteredTask::NextRunTime, IRegisteredTask::get_NextRunTime, NextRunTime property [Task Scheduler], NextRunTime property [Task Scheduler],IRegisteredTask interface, get_NextRunTime, taskschd.iregisteredtask_nextruntime, taskschd/IRegisteredTask::NextRunTime, taskschd/IRegisteredTask::get_NextRunTime
 ms.topic: method
-f1_keywords: 
- - "taskschd/IRegisteredTask.NextRunTime"
+f1_keywords:
+- taskschd/IRegisteredTask.NextRunTime
 dev_langs:
- - c++
+- c++
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Taskschd.lib
 req.dll: Taskschd.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - taskschd.dll
+- taskschd.dll
 api_name:
- - IRegisteredTask.NextRunTime
- - IRegisteredTask.get_NextRunTime
+- IRegisteredTask.NextRunTime
+- IRegisteredTask.get_NextRunTime
 targetos: Windows
 req.typenames: 
 req.redist: 

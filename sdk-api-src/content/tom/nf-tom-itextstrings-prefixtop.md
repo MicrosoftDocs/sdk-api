@@ -1,19 +1,17 @@
 ---
 UID: NF:tom.ITextStrings.PrefixTop
 title: ITextStrings::PrefixTop (tom.h)
-
 description: Prefixes a string to the top string in the collection.
 old-location: controls\itextstrings_prefixtop.htm
 tech.root: Controls
 ms.assetid: fbdae612-1d6e-4f10-9b55-5ee038f27b79
-
 ms.date: 12/05/2018
 ms.keywords: ITextStrings interface [Windows Controls],PrefixTop method, ITextStrings.PrefixTop, ITextStrings::PrefixTop, PrefixTop, PrefixTop method [Windows Controls], PrefixTop method [Windows Controls],ITextStrings interface, controls.itextstrings_prefixtop, tom/ITextStrings::PrefixTop
 ms.topic: method
-f1_keywords: 
- - "tom/ITextStrings.PrefixTop"
+f1_keywords:
+- tom/ITextStrings.PrefixTop
 dev_langs:
- - c++
+- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msftedit.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msftedit.dll
+- Msftedit.dll
 api_name:
- - ITextStrings.PrefixTop
+- ITextStrings.PrefixTop
 targetos: Windows
 req.typenames: 
 req.redist: 

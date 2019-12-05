@@ -1,19 +1,17 @@
 ---
 UID: NF:certenroll.IX509EnrollmentPolicyServer.GetNextUpdateTime
 title: IX509EnrollmentPolicyServer::GetNextUpdateTime (certenroll.h)
-
 description: Retrieves the date and time at which the policy expires and should be refreshed.
 old-location: security\ix509enrollmentpolicyserver_getnextupdatetime.htm
 tech.root: seccertenroll
 ms.assetid: 23ddd933-2392-410b-a4e6-7f5c00f867b3
-
 ms.date: 12/05/2018
 ms.keywords: GetNextUpdateTime, GetNextUpdateTime method [Security], GetNextUpdateTime method [Security],IX509EnrollmentPolicyServer interface, IX509EnrollmentPolicyServer interface [Security],GetNextUpdateTime method, IX509EnrollmentPolicyServer.GetNextUpdateTime, IX509EnrollmentPolicyServer::GetNextUpdateTime, certenroll/IX509EnrollmentPolicyServer::GetNextUpdateTime, security.ix509enrollmentpolicyserver_getnextupdatetime
 ms.topic: method
-f1_keywords: 
- - "certenroll/IX509EnrollmentPolicyServer.GetNextUpdateTime"
+f1_keywords:
+- certenroll/IX509EnrollmentPolicyServer.GetNextUpdateTime
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Certenroll.h
+- Certenroll.h
 api_name:
- - IX509EnrollmentPolicyServer.GetNextUpdateTime
+- IX509EnrollmentPolicyServer.GetNextUpdateTime
 targetos: Windows
 req.typenames: 
 req.redist: 

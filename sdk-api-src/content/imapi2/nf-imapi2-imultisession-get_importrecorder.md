@@ -1,19 +1,17 @@
 ---
 UID: NF:imapi2.IMultisession.get_ImportRecorder
 title: IMultisession::get_ImportRecorder (imapi2.h)
-
 description: Retrieves the disc recorder to use to import one or more previous sessions.
 old-location: imapi\imultisession_get_importrecorder.htm
 tech.root: imapi
 ms.assetid: eca127eb-0e0a-4f43-afa4-42fde8d43284
-
 ms.date: 12/05/2018
 ms.keywords: IMultisession interface [IMAPI],get_ImportRecorder method, IMultisession.get_ImportRecorder, IMultisession::get_ImportRecorder, get_ImportRecorder, get_ImportRecorder method [IMAPI], get_ImportRecorder method [IMAPI],IMultisession interface, imapi.imultisession_get_importrecorder, imapi2/IMultisession::get_ImportRecorder
 ms.topic: method
-f1_keywords: 
- - "imapi2/IMultisession.get_ImportRecorder"
+f1_keywords:
+- imapi2/IMultisession.get_ImportRecorder
 dev_langs:
- - c++
+- c++
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - imapi2.h
+- imapi2.h
 api_name:
- - IMultisession.get_ImportRecorder
+- IMultisession.get_ImportRecorder
 targetos: Windows
 req.typenames: 
 req.redist: 

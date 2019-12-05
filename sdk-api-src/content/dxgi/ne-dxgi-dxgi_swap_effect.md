@@ -1,19 +1,17 @@
 ---
 UID: NE:dxgi.DXGI_SWAP_EFFECT
 title: DXGI_SWAP_EFFECT (dxgi.h)
-
 description: Options for handling pixels in a display surface after calling IDXGISwapChain1::Present1.
 old-location: direct3ddxgi\DXGI_SWAP_EFFECT.htm
 tech.root: direct3ddxgi
 ms.assetid: VS|directx_sdk|~\dxgi_swap_effect.htm
-
 ms.date: 12/05/2018
 ms.keywords: DXGI_SWAP_EFFECT, DXGI_SWAP_EFFECT enumeration [DXGI], DXGI_SWAP_EFFECT_DISCARD, DXGI_SWAP_EFFECT_FLIP_DISCARD, DXGI_SWAP_EFFECT_FLIP_SEQUENTIAL, DXGI_SWAP_EFFECT_SEQUENTIAL, c9248b7c-731f-95e1-6c64-22fdef69d697, direct3ddxgi.DXGI_SWAP_EFFECT, dxgi/DXGI_SWAP_EFFECT, dxgi/DXGI_SWAP_EFFECT_DISCARD, dxgi/DXGI_SWAP_EFFECT_FLIP_DISCARD, dxgi/DXGI_SWAP_EFFECT_FLIP_SEQUENTIAL, dxgi/DXGI_SWAP_EFFECT_SEQUENTIAL
 ms.topic: enum
-f1_keywords: 
- - "dxgi/DXGI_SWAP_EFFECT"
+f1_keywords:
+- dxgi/DXGI_SWAP_EFFECT
 dev_langs:
- - c++
+- c++
 req.header: dxgi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - DXGI.h
+- DXGI.h
 api_name:
- - DXGI_SWAP_EFFECT
+- DXGI_SWAP_EFFECT
 targetos: Windows
 req.typenames: DXGI_SWAP_EFFECT
 req.redist: 

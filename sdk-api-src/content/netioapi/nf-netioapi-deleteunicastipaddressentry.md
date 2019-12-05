@@ -1,19 +1,17 @@
 ---
 UID: NF:netioapi.DeleteUnicastIpAddressEntry
 title: DeleteUnicastIpAddressEntry function (netioapi.h)
-
 description: Deletes an existing unicast IP address entry on the local computer.
 old-location: iphlp\deleteunicastipaddressentry.htm
 tech.root: IpHlp
 ms.assetid: a630397a-ef4a-40c2-b2e7-3e85cd9e8029
-
 ms.date: 12/05/2018
 ms.keywords: DeleteUnicastIpAddressEntry, DeleteUnicastIpAddressEntry function [IP Helper], iphlp.deleteunicastipaddressentry, netioapi/DeleteUnicastIpAddressEntry
 ms.topic: function
-f1_keywords: 
- - "netioapi/DeleteUnicastIpAddressEntry"
+f1_keywords:
+- netioapi/DeleteUnicastIpAddressEntry
 dev_langs:
- - c++
+- c++
 req.header: netioapi.h
 req.include-header: Iphlpapi.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Iphlpapi.lib
 req.dll: Iphlpapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Iphlpapi.dll
+- Iphlpapi.dll
 api_name:
- - DeleteUnicastIpAddressEntry
+- DeleteUnicastIpAddressEntry
 targetos: Windows
 req.typenames: 
 req.redist: 

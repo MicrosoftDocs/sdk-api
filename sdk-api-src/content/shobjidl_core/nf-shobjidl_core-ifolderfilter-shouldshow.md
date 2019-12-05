@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IFolderFilter.ShouldShow
 title: IFolderFilter::ShouldShow (shobjidl_core.h)
-
 description: Specifies whether an individual item should be allowed through the filter and which should be blocked.
 old-location: shell\IFolderFilter_ShouldShow.htm
 tech.root: shell
 ms.assetid: 60893b97-5b13-4c1f-9fd6-042217d3026f
-
 ms.date: 12/05/2018
 ms.keywords: IFolderFilter interface [Windows Shell],ShouldShow method, IFolderFilter.ShouldShow, IFolderFilter::ShouldShow, ShouldShow, ShouldShow method [Windows Shell], ShouldShow method [Windows Shell],IFolderFilter interface, _shell_IFolderFilter_ShouldShow, shell.IFolderFilter_ShouldShow, shobjidl_core/IFolderFilter::ShouldShow
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IFolderFilter.ShouldShow"
+f1_keywords:
+- shobjidl_core/IFolderFilter.ShouldShow
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - IFolderFilter.ShouldShow
+- IFolderFilter.ShouldShow
 targetos: Windows
 req.typenames: 
 req.redist: 

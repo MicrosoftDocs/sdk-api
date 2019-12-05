@@ -1,19 +1,17 @@
 ---
 UID: NN:dxgi1_2.IDXGISurface2
 title: IDXGISurface2 (dxgi1_2.h)
-
 description: The IDXGISurface2 interface extends the IDXGISurface1 interface by adding support for subresource surfaces and getting a handle to a shared resource.
 old-location: direct3ddxgi\idxgisurface2.htm
 tech.root: direct3ddxgi
 ms.assetid: EBBB2EE1-C5EA-4F98-AA8B-BCAA8C188F26
-
 ms.date: 12/05/2018
 ms.keywords: IDXGISurface2, IDXGISurface2 interface [DXGI], IDXGISurface2 interface [DXGI],described, direct3ddxgi.idxgisurface2, dxgi1_2/IDXGISurface2
 ms.topic: interface
-f1_keywords: 
- - "dxgi1_2/IDXGISurface2"
+f1_keywords:
+- dxgi1_2/IDXGISurface2
 dev_langs:
- - c++
+- c++
 req.header: dxgi1_2.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Dxgi.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dxgi.lib
- - Dxgi.dll
+- Dxgi.lib
+- Dxgi.dll
 api_name:
- - IDXGISurface2
+- IDXGISurface2
 targetos: Windows
 req.typenames: 
 req.redist: 

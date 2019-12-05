@@ -1,19 +1,17 @@
 ---
 UID: NS:mmc._MMC_RESTORE_VIEW
 title: MMC_RESTORE_VIEW (mmc.h)
-
 description: The MMC_RESTORE_VIEW structure is introduced in MMC 1.1.
 old-location: mmc\mmc_restore_view.htm
 tech.root: mmc
 ms.assetid: 349357e5-5d60-491f-b267-b18a52b4c927
-
 ms.date: 12/05/2018
 ms.keywords: MMC_RESTORE_VIEW, MMC_RESTORE_VIEW structure [MMC], _slate_mmc_restore_view, mmc.mmc_restore_view, mmc/MMC_RESTORE_VIEW
 ms.topic: struct
-f1_keywords: 
- - "mmc/MMC_RESTORE_VIEW"
+f1_keywords:
+- mmc/MMC_RESTORE_VIEW
 dev_langs:
- - c++
+- c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Mmc.h
+- Mmc.h
 api_name:
- - MMC_RESTORE_VIEW
+- MMC_RESTORE_VIEW
 targetos: Windows
 req.typenames: MMC_RESTORE_VIEW
 req.redist: 

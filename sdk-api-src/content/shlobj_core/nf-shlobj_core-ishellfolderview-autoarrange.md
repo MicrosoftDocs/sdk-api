@@ -1,19 +1,17 @@
 ---
 UID: NF:shlobj_core.IShellFolderView.AutoArrange
 title: IShellFolderView::AutoArrange (shlobj_core.h)
-
 description: AutoArrange may be altered or unavailable.
 old-location: shell\IShellFolderView_AutoArrange.htm
 tech.root: shell
 ms.assetid: 37260573-bac0-462c-a0df-654e2b22ed47
-
 ms.date: 12/05/2018
 ms.keywords: AutoArrange, AutoArrange method [Windows Shell], AutoArrange method [Windows Shell],IShellFolderView interface, IShellFolderView interface [Windows Shell],AutoArrange method, IShellFolderView.AutoArrange, IShellFolderView::AutoArrange, _shell_IShellFolderView_AutoArrange, shell.IShellFolderView_AutoArrange, shlobj_core/IShellFolderView::AutoArrange
 ms.topic: method
-f1_keywords: 
- - "shlobj_core/IShellFolderView.AutoArrange"
+f1_keywords:
+- shlobj_core/IShellFolderView.AutoArrange
 dev_langs:
- - c++
+- c++
 req.header: shlobj_core.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shlobj_core.h
+- shlobj_core.h
 api_name:
- - IShellFolderView.AutoArrange
+- IShellFolderView.AutoArrange
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi3if.ITTerminalSupport.EnumerateDynamicTerminalClasses
 title: ITTerminalSupport::EnumerateDynamicTerminalClasses (tapi3if.h)
-
 description: The EnumerateDynamicTerminalClasses method enumerates the currently available dynamic terminal classes that are supported.
 old-location: tapi3\itterminalsupport_enumeratedynamicterminalclasses.htm
 tech.root: Tapi
 ms.assetid: 1dcb9163-306b-42fc-afb4-41b33d7e2d40
-
 ms.date: 12/05/2018
 ms.keywords: EnumerateDynamicTerminalClasses, EnumerateDynamicTerminalClasses method [TAPI 2.2], EnumerateDynamicTerminalClasses method [TAPI 2.2],ITTerminalSupport interface, ITTerminalSupport interface [TAPI 2.2],EnumerateDynamicTerminalClasses method, ITTerminalSupport.EnumerateDynamicTerminalClasses, ITTerminalSupport::EnumerateDynamicTerminalClasses, _tapi3_itterminalsupport_enumeratedynamicterminalclasses, tapi3.itterminalsupport_enumeratedynamicterminalclasses, tapi3if/ITTerminalSupport::EnumerateDynamicTerminalClasses
 ms.topic: method
-f1_keywords: 
- - "tapi3if/ITTerminalSupport.EnumerateDynamicTerminalClasses"
+f1_keywords:
+- tapi3if/ITTerminalSupport.EnumerateDynamicTerminalClasses
 dev_langs:
- - c++
+- c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - tapi3if.h
+- tapi3if.h
 api_name:
- - ITTerminalSupport.EnumerateDynamicTerminalClasses
+- ITTerminalSupport.EnumerateDynamicTerminalClasses
 targetos: Windows
 req.typenames: 
 req.redist: 

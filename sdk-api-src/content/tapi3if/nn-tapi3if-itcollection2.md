@@ -1,19 +1,17 @@
 ---
 UID: NN:tapi3if.ITCollection2
 title: ITCollection2 (tapi3if.h)
-
 description: The ITCollection2 interface is an extension of the ITCollection interface. ITCollection2 exposes additional methods for modifying the collection.
 old-location: tapi3\itcollection2.htm
 tech.root: Tapi
 ms.assetid: d65f06c9-fecd-4ce6-af82-81acb48268e5
-
 ms.date: 12/05/2018
 ms.keywords: ITCollection2, ITCollection2 interface [TAPI 2.2], ITCollection2 interface [TAPI 2.2],described, _tapi3_itcollection2, tapi3.itcollection2, tapi3if/ITCollection2
 ms.topic: interface
-f1_keywords: 
- - "tapi3if/ITCollection2"
+f1_keywords:
+- tapi3if/ITCollection2
 dev_langs:
- - c++
+- c++
 req.header: tapi3if.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Tapi3.dll
+- Tapi3.dll
 api_name:
- - ITCollection2
+- ITCollection2
 targetos: Windows
 req.typenames: 
 req.redist: 

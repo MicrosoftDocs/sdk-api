@@ -1,19 +1,17 @@
 ---
 UID: NF:wmsdkidl.IWMStreamConfig.SetStreamNumber
 title: IWMStreamConfig::SetStreamNumber (wmsdkidl.h)
-
 description: The SetStreamNumber method specifies the stream number.
 old-location: wmformat\iwmstreamconfig_setstreamnumber.htm
 tech.root: wmformat
 ms.assetid: aea8b219-5b47-4176-ad96-d52646d96578
-
 ms.date: 12/05/2018
 ms.keywords: IWMStreamConfig interface [windows Media Format],SetStreamNumber method, IWMStreamConfig.SetStreamNumber, IWMStreamConfig::SetStreamNumber, IWMStreamConfigSetStreamNumber, SetStreamNumber, SetStreamNumber method [windows Media Format], SetStreamNumber method [windows Media Format],IWMStreamConfig interface, wmformat.iwmstreamconfig_setstreamnumber, wmsdkidl/IWMStreamConfig::SetStreamNumber
 ms.topic: method
-f1_keywords: 
- - "wmsdkidl/IWMStreamConfig.SetStreamNumber"
+f1_keywords:
+- wmsdkidl/IWMStreamConfig.SetStreamNumber
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wmvcore.lib
- - Wmvcore.dll
- - WMStubDRM.lib
- - WMStubDRM.dll
+- Wmvcore.lib
+- Wmvcore.dll
+- WMStubDRM.lib
+- WMStubDRM.dll
 api_name:
- - IWMStreamConfig.SetStreamNumber
+- IWMStreamConfig.SetStreamNumber
 targetos: Windows
 req.typenames: 
 req.redist: 

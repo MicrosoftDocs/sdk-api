@@ -1,19 +1,17 @@
 ---
 UID: NF:cloneviewhelper.IViewHelper.GetConnectedIDs
 title: IViewHelper::GetConnectedIDs (cloneviewhelper.h)
-
 description: The GetConnectedIDs method retrieves, for a given adapter, an array of identifiers for either targets or sources.
 old-location: display\iviewhelper_getconnectedids.htm
 tech.root: display
 ms.assetid: ca3dfc5b-0851-4a09-8b5c-25b8c300c2bb
-
 ms.date: 12/05/2018
 ms.keywords: GetConnectedIDs, GetConnectedIDs method [Display Devices], GetConnectedIDs method [Display Devices],IViewHelper interface, IViewHelper interface [Display Devices],GetConnectedIDs method, IViewHelper.GetConnectedIDs, IViewHelper::GetConnectedIDs, TMM_Ref_0c676d81-3866-4c7e-91e9-cd986374fa00.xml, cloneviewhelper/IViewHelper::GetConnectedIDs, display.iviewhelper_getconnectedids
 ms.topic: method
-f1_keywords: 
- - "cloneviewhelper/IViewHelper.GetConnectedIDs"
+f1_keywords:
+- cloneviewhelper/IViewHelper.GetConnectedIDs
 dev_langs:
- - c++
+- c++
 req.header: cloneviewhelper.h
 req.include-header: Cloneviewhelper.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - cloneviewhelper.h
+- cloneviewhelper.h
 api_name:
- - IViewHelper.GetConnectedIDs
+- IViewHelper.GetConnectedIDs
 targetos: Windows
 req.typenames: 
 req.redist: 

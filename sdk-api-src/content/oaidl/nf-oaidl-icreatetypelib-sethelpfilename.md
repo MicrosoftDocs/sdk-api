@@ -1,19 +1,17 @@
 ---
 UID: NF:oaidl.ICreateTypeLib.SetHelpFileName
 title: ICreateTypeLib::SetHelpFileName (oaidl.h)
-
 description: Sets the name of the Help file.
 old-location: automat\icreatetypelib_sethelpfilename.htm
 tech.root: automat
 ms.assetid: a9dc11b0-1483-4272-84cb-4f885f6cff6f
-
 ms.date: 12/05/2018
 ms.keywords: ICreateTypeLib interface [Automation],SetHelpFileName method, ICreateTypeLib.SetHelpFileName, ICreateTypeLib::SetHelpFileName, SetHelpFileName, SetHelpFileName method [Automation], SetHelpFileName method [Automation],ICreateTypeLib interface, _oa96_ICreateTypeLib_SetHelpFileName, automat.icreatetypelib_sethelpfilename, oaidl/ICreateTypeLib::SetHelpFileName
 ms.topic: method
-f1_keywords: 
- - "oaidl/ICreateTypeLib.SetHelpFileName"
+f1_keywords:
+- oaidl/ICreateTypeLib.SetHelpFileName
 dev_langs:
- - c++
+- c++
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - oaidl.h
+- oaidl.h
 api_name:
- - ICreateTypeLib.SetHelpFileName
+- ICreateTypeLib.SetHelpFileName
 targetos: Windows
 req.typenames: 
 req.redist: 

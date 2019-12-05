@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IDvdInfo.GetPlayerParentalLevel
 title: IDvdInfo::GetPlayerParentalLevel (strmif.h)
-
 description: Note  The IDvdInfo interface is deprecated. Use IDvdInfo2 instead. Retrieves the current parental level and country/region code settings for the DVD player.
 old-location: dshow\idvdinfo_getplayerparentallevel.htm
 tech.root: DirectShow
 ms.assetid: 2b4111db-fbb1-4da7-85e1-ddd3f5718225
-
 ms.date: 12/05/2018
 ms.keywords: GetPlayerParentalLevel, GetPlayerParentalLevel method [DirectShow], GetPlayerParentalLevel method [DirectShow],IDvdInfo interface, IDvdInfo interface [DirectShow],GetPlayerParentalLevel method, IDvdInfo.GetPlayerParentalLevel, IDvdInfo::GetPlayerParentalLevel, IDvdInfoGetPlayerParentalLevel, dshow.idvdinfo_getplayerparentallevel, strmif/IDvdInfo::GetPlayerParentalLevel
 ms.topic: method
-f1_keywords: 
- - "strmif/IDvdInfo.GetPlayerParentalLevel"
+f1_keywords:
+- strmif/IDvdInfo.GetPlayerParentalLevel
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmif.h
+- Strmif.h
 api_name:
- - IDvdInfo.GetPlayerParentalLevel
+- IDvdInfo.GetPlayerParentalLevel
 targetos: Windows
 req.typenames: 
 req.redist: 

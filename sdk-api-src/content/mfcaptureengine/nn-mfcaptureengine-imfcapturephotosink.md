@@ -1,19 +1,17 @@
 ---
 UID: NN:mfcaptureengine.IMFCapturePhotoSink
 title: IMFCapturePhotoSink (mfcaptureengine.h)
-
 description: Controls the photo sink.
 old-location: mf\imfcapturephotosink.htm
 tech.root: medfound
 ms.assetid: 14BB9A86-47F2-4CFE-A932-3F2C7B6AF2BA
-
 ms.date: 12/05/2018
 ms.keywords: IMFCapturePhotoSink, IMFCapturePhotoSink interface [Media Foundation], IMFCapturePhotoSink interface [Media Foundation],described, mf.imfcapturephotosink, mfcaptureengine/IMFCapturePhotoSink
 ms.topic: interface
-f1_keywords: 
- - "mfcaptureengine/IMFCapturePhotoSink"
+f1_keywords:
+- mfcaptureengine/IMFCapturePhotoSink
 dev_langs:
- - c++
+- c++
 req.header: mfcaptureengine.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfcaptureengine.h
+- mfcaptureengine.h
 api_name:
- - IMFCapturePhotoSink
+- IMFCapturePhotoSink
 targetos: Windows
 req.typenames: 
 req.redist: 

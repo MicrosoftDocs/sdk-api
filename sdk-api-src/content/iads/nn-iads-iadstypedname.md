@@ -1,19 +1,17 @@
 ---
 UID: NN:iads.IADsTypedName
 title: IADsTypedName (iads.h)
-
 description: The IADsTypedName interface provides methods for an ADSI client to access the Typed Name attribute.
 old-location: adsi\iadstypedname.htm
 tech.root: adsi
 ms.assetid: ed57fad7-6cc6-4127-b8d2-da295bc0c5fe
-
 ms.date: 12/05/2018
 ms.keywords: IADsTypedName, IADsTypedName interface [ADSI], IADsTypedName interface [ADSI],described, TypedName, _ds_iadstypedname, adsi.iadstypedname, iads/IADsTypedName
 ms.topic: interface
-f1_keywords: 
- - "iads/IADsTypedName"
+f1_keywords:
+- iads/IADsTypedName
 dev_langs:
- - c++
+- c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: Activeds.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Activeds.dll
+- Activeds.dll
 api_name:
- - IADsTypedName
- - TypedName
+- IADsTypedName
+- TypedName
 targetos: Windows
 req.typenames: 
 req.redist: 

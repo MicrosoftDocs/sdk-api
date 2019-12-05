@@ -1,19 +1,17 @@
 ---
 UID: NF:dvbsiparser.IDvbSubtitlingDescriptor.GetCountOfRecords
 title: IDvbSubtitlingDescriptor::GetCountOfRecords (dvbsiparser.h)
-
 description: Gets the number of subtitling records in a Digital Video Broadcast (DVB) subtitling descriptor.
 old-location: mstv\idvbsubtitlingdescriptor_getcountofrecords.htm
 tech.root: mstv
 ms.assetid: 8cc25b63-de43-4f8d-af19-c3bb8c389a55
-
 ms.date: 12/05/2018
 ms.keywords: GetCountOfRecords, GetCountOfRecords method [Microsoft TV Technologies], GetCountOfRecords method [Microsoft TV Technologies],IDvbSubtitlingDescriptor interface, IDvbSubtitlingDescriptor interface [Microsoft TV Technologies],GetCountOfRecords method, IDvbSubtitlingDescriptor.GetCountOfRecords, IDvbSubtitlingDescriptor::GetCountOfRecords, dvbsiparser/IDvbSubtitlingDescriptor::GetCountOfRecords, mstv.idvbsubtitlingdescriptor_getcountofrecords
 ms.topic: method
-f1_keywords: 
- - "dvbsiparser/IDvbSubtitlingDescriptor.GetCountOfRecords"
+f1_keywords:
+- dvbsiparser/IDvbSubtitlingDescriptor.GetCountOfRecords
 dev_langs:
- - c++
+- c++
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dvbsiparser.h
+- dvbsiparser.h
 api_name:
- - IDvbSubtitlingDescriptor.GetCountOfRecords
+- IDvbSubtitlingDescriptor.GetCountOfRecords
 targetos: Windows
 req.typenames: 
 req.redist: 

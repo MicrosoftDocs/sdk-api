@@ -1,19 +1,17 @@
 ---
 UID: NF:ole2.OleDoAutoConvert
 title: OleDoAutoConvert function (ole2.h)
-
 description: Automatically converts an object to a new class if automatic conversion for that object class is set in the registry.
 old-location: com\oledoautoconvert.htm
 tech.root: com
 ms.assetid: fe470f8a-b2f0-48a4-a270-77420bd1472a
-
 ms.date: 12/05/2018
 ms.keywords: OleDoAutoConvert, OleDoAutoConvert function [COM], _com_OleDoAutoConvert, com.oledoautoconvert, ole2/OleDoAutoConvert
 ms.topic: function
-f1_keywords: 
- - "ole2/OleDoAutoConvert"
+f1_keywords:
+- ole2/OleDoAutoConvert
 dev_langs:
- - c++
+- c++
 req.header: ole2.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Ole32.lib
 req.dll: Ole32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ole32.dll
+- Ole32.dll
 api_name:
- - OleDoAutoConvert
+- OleDoAutoConvert
 targetos: Windows
 req.typenames: 
 req.redist: 

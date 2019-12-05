@@ -1,19 +1,17 @@
 ---
 UID: NF:mileffects.IMILBitmapEffect.GetParentEffect
 title: IMILBitmapEffect::GetParentEffect (mileffects.h)
-
 description: Gets a parent of the effect.
 old-location: wibe\_wibe_imilbitmapeffect_getparenteffect.htm
 tech.root: wibe
 ms.assetid: VS|wibe|~\wibelh\reference\ifaces\imilbitmapeffect\getparenteffect.htm
-
 ms.date: 12/05/2018
 ms.keywords: GetParentEffect, GetParentEffect method [WPF Bitmap Effects], GetParentEffect method [WPF Bitmap Effects],IMILBitmapEffect interface, IMILBitmapEffect interface [WPF Bitmap Effects],GetParentEffect method, IMILBitmapEffect.GetParentEffect, IMILBitmapEffect::GetParentEffect, _wibe_imilbitmapeffect_getparenteffect, mileffects/IMILBitmapEffect::GetParentEffect, wibe._wibe_imilbitmapeffect_getparenteffect
 ms.topic: method
-f1_keywords: 
- - "mileffects/IMILBitmapEffect.GetParentEffect"
+f1_keywords:
+- mileffects/IMILBitmapEffect.GetParentEffect
 dev_langs:
- - c++
+- c++
 req.header: mileffects.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mileffects.h
+- Mileffects.h
 api_name:
- - IMILBitmapEffect.GetParentEffect
+- IMILBitmapEffect.GetParentEffect
 targetos: Windows
 req.typenames: 
 req.redist: Microsoft .Net 3.0

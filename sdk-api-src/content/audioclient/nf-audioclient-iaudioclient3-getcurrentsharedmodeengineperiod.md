@@ -1,19 +1,17 @@
 ---
 UID: NF:audioclient.IAudioClient3.GetCurrentSharedModeEnginePeriod
 title: IAudioClient3::GetCurrentSharedModeEnginePeriod (audioclient.h)
-
 description: Returns the current format and periodicity of the audio engine.
 old-location: coreaudio\iaudioclient3_getcurrentsharedmodeengineperiod.htm
 tech.root: CoreAudio
 ms.assetid: F91E46F5-5D12-4D53-842B-4495CAA3E09E
-
 ms.date: 12/05/2018
 ms.keywords: GetCurrentSharedModeEnginePeriod, GetCurrentSharedModeEnginePeriod method [Core Audio], GetCurrentSharedModeEnginePeriod method [Core Audio],IAudioClient3 interface, IAudioClient3 interface [Core Audio],GetCurrentSharedModeEnginePeriod method, IAudioClient3.GetCurrentSharedModeEnginePeriod, IAudioClient3::GetCurrentSharedModeEnginePeriod, audioclient/IAudioClient3::GetCurrentSharedModeEnginePeriod, coreaudio.iaudioclient3_getcurrentsharedmodeengineperiod
 ms.topic: method
-f1_keywords: 
- - "audioclient/IAudioClient3.GetCurrentSharedModeEnginePeriod"
+f1_keywords:
+- audioclient/IAudioClient3.GetCurrentSharedModeEnginePeriod
 dev_langs:
- - c++
+- c++
 req.header: audioclient.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - audioclient.h
+- audioclient.h
 api_name:
- - IAudioClient3.GetCurrentSharedModeEnginePeriod
+- IAudioClient3.GetCurrentSharedModeEnginePeriod
 targetos: Windows
 req.typenames: 
 req.redist: 

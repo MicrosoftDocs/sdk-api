@@ -1,19 +1,17 @@
 ---
 UID: NF:mpeg2psiparser.IPMT.GetRecordDescriptorByTag
 title: IPMT::GetRecordDescriptorByTag (mpeg2psiparser.h)
-
 description: The GetRecordDescriptorByTag method searches a record in the PMT for a descriptor with a specified descriptor tag.
 old-location: mstv\ipmt_getrecorddescriptorbytag.htm
 tech.root: mstv
 ms.assetid: 7ed3dd22-331a-419a-ab30-5645e259e36a
-
 ms.date: 12/05/2018
 ms.keywords: GetRecordDescriptorByTag, GetRecordDescriptorByTag method [Microsoft TV Technologies], GetRecordDescriptorByTag method [Microsoft TV Technologies],IPMT interface, IPMT interface [Microsoft TV Technologies],GetRecordDescriptorByTag method, IPMT.GetRecordDescriptorByTag, IPMT::GetRecordDescriptorByTag, IPMTGetRecordDescriptorByTag, mpeg2psiparser/IPMT::GetRecordDescriptorByTag, mstv.ipmt_getrecorddescriptorbytag
 ms.topic: method
-f1_keywords: 
- - "mpeg2psiparser/IPMT.GetRecordDescriptorByTag"
+f1_keywords:
+- mpeg2psiparser/IPMT.GetRecordDescriptorByTag
 dev_langs:
- - c++
+- c++
 req.header: mpeg2psiparser.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mpeg2PsiParser.h
+- Mpeg2PsiParser.h
 api_name:
- - IPMT.GetRecordDescriptorByTag
+- IPMT.GetRecordDescriptorByTag
 targetos: Windows
 req.typenames: 
 req.redist: 

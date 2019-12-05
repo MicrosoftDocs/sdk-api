@@ -1,19 +1,17 @@
 ---
 UID: NF:wbemcli.IWbemServices.CreateClassEnumAsync
 title: IWbemServices::CreateClassEnumAsync (wbemcli.h)
-
 description: The IWbemServices::CreateClassEnumAsync method returns an enumeration of all classes that the class provider supports.
 old-location: wmi\iwbemservices_createclassenumasync.htm
 tech.root: WmiSdk
 ms.assetid: 02b81f48-c6a0-44db-86b9-936331b15cc4
-
 ms.date: 12/05/2018
 ms.keywords: CreateClassEnumAsync, CreateClassEnumAsync method [Windows Management Instrumentation], CreateClassEnumAsync method [Windows Management Instrumentation],IWbemServices interface, IWbemServices interface [Windows Management Instrumentation],CreateClassEnumAsync method, IWbemServices.CreateClassEnumAsync, IWbemServices::CreateClassEnumAsync, WBEM_FLAG_BIDIRECTIONAL, WBEM_FLAG_DEEP, WBEM_FLAG_SEND_STATUS, WBEM_FLAG_SHALLOW, WBEM_FLAG_USE_AMENDED_QUALIFIERS, _hmm_iwbemservices_createclassenumasync, wbemcli/IWbemServices::CreateClassEnumAsync, wmi.iwbemservices_createclassenumasync
 ms.topic: method
-f1_keywords: 
- - "wbemcli/IWbemServices.CreateClassEnumAsync"
+f1_keywords:
+- wbemcli/IWbemServices.CreateClassEnumAsync
 dev_langs:
- - c++
+- c++
 req.header: wbemcli.h
 req.include-header: Wbemidl.h
 req.target-type: Windows
@@ -32,28 +30,28 @@ req.lib: Wbemuuid.lib
 req.dll: Fastprox.dll; Esscli.dll; FrameDyn.dll; FrameDynOS.dll; Ntevt.dll; Stdprov.dll; Viewprov.dll; Wbemcomn.dll; Wbemcore.dll; Wbemess.dll; Wbemsvc.dll; Wmipicmp.dll; Wmidcprv.dll; Wmipjobj.dll; Wmiprvsd.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Fastprox.dll
- - Esscli.dll
- - FrameDyn.dll
- - FrameDynOS.dll
- - Ntevt.dll
- - Stdprov.dll
- - Viewprov.dll
- - Wbemcomn.dll
- - Wbemcore.dll
- - Wbemess.dll
- - Wbemsvc.dll
- - Wmipicmp.dll
- - Wmidcprv.dll
- - Wmipjobj.dll
- - Wmiprvsd.dll
+- Fastprox.dll
+- Esscli.dll
+- FrameDyn.dll
+- FrameDynOS.dll
+- Ntevt.dll
+- Stdprov.dll
+- Viewprov.dll
+- Wbemcomn.dll
+- Wbemcore.dll
+- Wbemess.dll
+- Wbemsvc.dll
+- Wmipicmp.dll
+- Wmidcprv.dll
+- Wmipjobj.dll
+- Wmiprvsd.dll
 api_name:
- - IWbemServices.CreateClassEnumAsync
+- IWbemServices.CreateClassEnumAsync
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMCoreProperties.SetCreator
 title: IXpsOMCoreProperties::SetCreator (xpsobjectmodel.h)
-
 description: Sets the creator property.
 old-location: xps\ixpsomcoreproperties_setcreator.htm
 tech.root: printdocs
 ms.assetid: 83dd62df-71e1-44a6-bf38-461b7e26e54e
-
 ms.date: 12/05/2018
 ms.keywords: IXpsOMCoreProperties interface [XPS Documents and Packaging],SetCreator method, IXpsOMCoreProperties.SetCreator, IXpsOMCoreProperties::SetCreator, SetCreator, SetCreator method [XPS Documents and Packaging], SetCreator method [XPS Documents and Packaging],IXpsOMCoreProperties interface, xps.ixpsomcoreproperties_setcreator, xpsobjectmodel/IXpsOMCoreProperties::SetCreator
 ms.topic: method
-f1_keywords: 
- - "xpsobjectmodel/IXpsOMCoreProperties.SetCreator"
+f1_keywords:
+- xpsobjectmodel/IXpsOMCoreProperties.SetCreator
 dev_langs:
- - c++
+- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsobjectmodel.h
+- xpsobjectmodel.h
 api_name:
- - IXpsOMCoreProperties.SetCreator
+- IXpsOMCoreProperties.SetCreator
 targetos: Windows
 req.typenames: 
 req.redist: 

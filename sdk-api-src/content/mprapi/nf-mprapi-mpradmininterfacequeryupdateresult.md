@@ -1,19 +1,17 @@
 ---
 UID: NF:mprapi.MprAdminInterfaceQueryUpdateResult
 title: MprAdminInterfaceQueryUpdateResult function (mprapi.h)
-
 description: The MprAdminInterfaceQueryUpdateResult function returns the result of the last request to a specified router manager to update its routes for an interface. For more information, see MprAdminInterfaceUpdateRoutes.
 old-location: rras\mpradmininterfacequeryupdateresult.htm
 tech.root: RRAS
 ms.assetid: df06d847-2448-4a64-bb1b-d60a3eb4f7a8
-
 ms.date: 12/05/2018
 ms.keywords: MprAdminInterfaceQueryUpdateResult, MprAdminInterfaceQueryUpdateResult function [RAS], _mpr_mpradmininterfacequeryupdateresult, mprapi/MprAdminInterfaceQueryUpdateResult, rras.mpradmininterfacequeryupdateresult
 ms.topic: function
-f1_keywords: 
- - "mprapi/MprAdminInterfaceQueryUpdateResult"
+f1_keywords:
+- mprapi/MprAdminInterfaceQueryUpdateResult
 dev_langs:
- - c++
+- c++
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Mprapi.lib
 req.dll: Mprapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Mprapi.dll
+- Mprapi.dll
 api_name:
- - MprAdminInterfaceQueryUpdateResult
+- MprAdminInterfaceQueryUpdateResult
 targetos: Windows
 req.typenames: 
 req.redist: 

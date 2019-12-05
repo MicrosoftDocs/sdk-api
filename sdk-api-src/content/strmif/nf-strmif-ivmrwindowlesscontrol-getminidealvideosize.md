@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IVMRWindowlessControl.GetMinIdealVideoSize
 title: IVMRWindowlessControl::GetMinIdealVideoSize (strmif.h)
-
 description: The GetMinIdealVideoSize method retrieves the minimum video size that the VMR can display without incurring significant performance or image quality degradation.
 old-location: dshow\ivmrwindowlesscontrol_getminidealvideosize.htm
 tech.root: DirectShow
 ms.assetid: 602e32d4-41d6-4139-aa64-4b53caa50859
-
 ms.date: 12/05/2018
 ms.keywords: GetMinIdealVideoSize, GetMinIdealVideoSize method [DirectShow], GetMinIdealVideoSize method [DirectShow],IVMRWindowlessControl interface, IVMRWindowlessControl interface [DirectShow],GetMinIdealVideoSize method, IVMRWindowlessControl.GetMinIdealVideoSize, IVMRWindowlessControl::GetMinIdealVideoSize, IVMRWindowlessControlGetMinIdealVideoSize, dshow.ivmrwindowlesscontrol_getminidealvideosize, strmif/IVMRWindowlessControl::GetMinIdealVideoSize
 ms.topic: method
-f1_keywords: 
- - "strmif/IVMRWindowlessControl.GetMinIdealVideoSize"
+f1_keywords:
+- strmif/IVMRWindowlessControl.GetMinIdealVideoSize
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IVMRWindowlessControl.GetMinIdealVideoSize
+- IVMRWindowlessControl.GetMinIdealVideoSize
 targetos: Windows
 req.typenames: 
 req.redist: 

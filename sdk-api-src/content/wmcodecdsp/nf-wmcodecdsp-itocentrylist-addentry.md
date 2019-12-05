@@ -1,19 +1,17 @@
 ---
 UID: NF:wmcodecdsp.ITocEntryList.AddEntry
 title: ITocEntryList::AddEntry (wmcodecdsp.h)
-
 description: The AddEntry method adds an individual entry to the list and assigns an index to the entry.
 old-location: mf\itocentrylist_addentry.htm
 tech.root: medfound
 ms.assetid: 4ac41f10-4bb5-4d50-9f7b-7c8710476162
-
 ms.date: 12/05/2018
 ms.keywords: AddEntry, AddEntry method [Media Foundation], AddEntry method [Media Foundation],ITocEntryList interface, ITocEntryList interface [Media Foundation],AddEntry method, ITocEntryList.AddEntry, ITocEntryList::AddEntry, codecapi.itocentrylist_addentry, mf.itocentrylist_addentry, wmcodecdsp/ITocEntryList::AddEntry
 ms.topic: method
-f1_keywords: 
- - "wmcodecdsp/ITocEntryList.AddEntry"
+f1_keywords:
+- wmcodecdsp/ITocEntryList.AddEntry
 dev_langs:
- - c++
+- c++
 req.header: wmcodecdsp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wmvdspa.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmvdspa.dll
+- wmvdspa.dll
 api_name:
- - ITocEntryList.AddEntry
+- ITocEntryList.AddEntry
 targetos: Windows
 req.typenames: 
 req.redist: 

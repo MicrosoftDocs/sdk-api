@@ -1,19 +1,17 @@
 ---
 UID: NE:ntdsapi.__unnamed_enum_1
 title: DS_NAME_FLAGS (ntdsapi.h)
-
 description: The DS_NAME_FLAGS enumeration is used to define how the name syntax will be cracked. These flags are used by the DsCrackNames function.
 old-location: ad\ds_name_flags.htm
 tech.root: ad
 ms.assetid: f0108568-4a6a-4159-b55f-2c651c588b73
-
 ms.date: 12/05/2018
 ms.keywords: DS_NAME_FLAGS, DS_NAME_FLAGS enumeration [Active Directory], DS_NAME_FLAG_EVAL_AT_DC, DS_NAME_FLAG_GCVERIFY, DS_NAME_FLAG_SYNTACTICAL_ONLY, DS_NAME_FLAG_TRUST_REFERRAL, DS_NAME_NO_FLAGS, _glines_ds_name_flags, ad.ds__name__flags, ad.ds_name_flags, ntdsapi/DS_NAME_FLAGS, ntdsapi/DS_NAME_FLAG_EVAL_AT_DC, ntdsapi/DS_NAME_FLAG_GCVERIFY, ntdsapi/DS_NAME_FLAG_SYNTACTICAL_ONLY, ntdsapi/DS_NAME_FLAG_TRUST_REFERRAL, ntdsapi/DS_NAME_NO_FLAGS
 ms.topic: enum
-f1_keywords: 
- - "ntdsapi/DS_NAME_FLAGS"
+f1_keywords:
+- ntdsapi/DS_NAME_FLAGS
 dev_langs:
- - c++
+- c++
 req.header: ntdsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Ntdsapi.h
+- Ntdsapi.h
 api_name:
- - DS_NAME_FLAGS
+- DS_NAME_FLAGS
 targetos: Windows
 req.typenames: DS_NAME_FLAGS
 req.redist: 

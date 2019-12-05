@@ -1,19 +1,17 @@
 ---
 UID: NS:lpmapi.__unnamed_struct_27
 title: GuarFlowSpec (lpmapi.h)
-
 description: The GuarFlowSpec structure contains guaranteed flowspec information.
 old-location: qos\guarflowspec.htm
 tech.root: QOS
 ms.assetid: 549380cc-b4ac-414a-9058-f506741f1e76
-
 ms.date: 12/05/2018
 ms.keywords: GuarFlowSpec, GuarFlowSpec structure [QOS], lpmapi/GuarFlowSpec, qos.guarflowspec
 ms.topic: struct
-f1_keywords: 
- - "lpmapi/GuarFlowSpec"
+f1_keywords:
+- lpmapi/GuarFlowSpec
 dev_langs:
- - c++
+- c++
 req.header: lpmapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Lpmapi.h
+- Lpmapi.h
 api_name:
- - GuarFlowSpec
+- GuarFlowSpec
 targetos: Windows
 req.typenames: GuarFlowSpec
 req.redist: 

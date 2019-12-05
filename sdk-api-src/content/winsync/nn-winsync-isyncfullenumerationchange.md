@@ -1,19 +1,17 @@
 ---
 UID: NN:winsync.ISyncFullEnumerationChange
 title: ISyncFullEnumerationChange (winsync.h)
-
 description: Represents additional information about an ISyncChange object during recovery synchronization.
 old-location: winsync\isyncfullenumerationchange.htm
 tech.root: winsync
 ms.assetid: 1e666737-c5dc-4394-9f41-6e77832dd9f6
-
 ms.date: 12/05/2018
 ms.keywords: ISyncFullEnumerationChange, ISyncFullEnumerationChange interface [Windows Sync], ISyncFullEnumerationChange interface [Windows Sync],described, winsync.isyncfullenumerationchange, winsync/ISyncFullEnumerationChange
 ms.topic: interface
-f1_keywords: 
- - "winsync/ISyncFullEnumerationChange"
+f1_keywords:
+- winsync/ISyncFullEnumerationChange
 dev_langs:
- - c++
+- c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - winsync.h
+- winsync.h
 api_name:
- - ISyncFullEnumerationChange
+- ISyncFullEnumerationChange
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationcore.IRawElementProviderAdviseEvents.AdviseEventAdded
 title: IRawElementProviderAdviseEvents::AdviseEventAdded (uiautomationcore.h)
-
 description: Notifies the Microsoft UI Automation provider when a UI Automation client begins listening for a specific event, including a property-changed event.
 old-location: winauto\uiauto_IRawElementProviderAdviseEvents_AdviseEventAdded.htm
 tech.root: WinAuto
 ms.assetid: b5902d9b-e008-4b91-933e-82506718eecd
-
 ms.date: 12/05/2018
 ms.keywords: AdviseEventAdded, AdviseEventAdded method [Windows Accessibility], AdviseEventAdded method [Windows Accessibility],IRawElementProviderAdviseEvents interface, IRawElementProviderAdviseEvents interface [Windows Accessibility],AdviseEventAdded method, IRawElementProviderAdviseEvents.AdviseEventAdded, IRawElementProviderAdviseEvents::AdviseEventAdded, uiauto.uiauto_IRawElementProviderAdviseEvents_AdviseEventAdded, uiauto_IRawElementProviderAdviseEvents_AdviseEventAdded, uiautomationcore/IRawElementProviderAdviseEvents::AdviseEventAdded, winauto.uiauto_IRawElementProviderAdviseEvents_AdviseEventAdded
 ms.topic: method
-f1_keywords: 
- - "uiautomationcore/IRawElementProviderAdviseEvents.AdviseEventAdded"
+f1_keywords:
+- uiautomationcore/IRawElementProviderAdviseEvents.AdviseEventAdded
 dev_langs:
- - c++
+- c++
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationCore.h
+- UIAutomationCore.h
 api_name:
- - IRawElementProviderAdviseEvents.AdviseEventAdded
+- IRawElementProviderAdviseEvents.AdviseEventAdded
 targetos: Windows
 req.typenames: 
 req.redist: 

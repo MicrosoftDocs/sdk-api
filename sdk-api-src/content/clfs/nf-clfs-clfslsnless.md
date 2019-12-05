@@ -1,19 +1,17 @@
 ---
 UID: NF:clfs.ClfsLsnLess
 title: ClfsLsnLess function (clfs.h)
-
 description: Determines whether one LSN is less than another LSN. The two LSNs must be from the same stream.
 old-location: fs\lsnless.htm
 tech.root: Clfs
 ms.assetid: 610023f3-6017-480f-9a0c-807e81a50e84
-
 ms.date: 12/05/2018
 ms.keywords: ClfsLsnLess, LsnLess, LsnLess function [Files], clfs/LsnLess, fs.lsnless
 ms.topic: function
 f1_keywords:
 - clfs/LsnLess
 dev_langs:
- - c++
+- c++
 req.header: clfs.h
 req.include-header: 
 req.target-type: Windows

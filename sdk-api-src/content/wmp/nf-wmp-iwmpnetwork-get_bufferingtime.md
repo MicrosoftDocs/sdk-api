@@ -1,19 +1,17 @@
 ---
 UID: NF:wmp.IWMPNetwork.get_bufferingTime
 title: IWMPNetwork::get_bufferingTime (wmp.h)
-
 description: The get_bufferingTime method retrieves the amount of time in milliseconds allocated for buffering incoming data before playing begins.
 old-location: wmp\iwmpnetwork_get_bufferingtime.htm
 tech.root: WMP
 ms.assetid: a42a7187-9bf2-4db5-8176-6912e18c4d50
-
 ms.date: 12/05/2018
 ms.keywords: IWMPNetwork interface [Windows Media Player],get_bufferingTime method, IWMPNetwork.get_bufferingTime, IWMPNetwork::get_bufferingTime, IWMPNetworkget_bufferingTime, get_bufferingTime, get_bufferingTime method [Windows Media Player], get_bufferingTime method [Windows Media Player],IWMPNetwork interface, wmp.iwmpnetwork_get_bufferingtime, wmp/IWMPNetwork::get_bufferingTime
 ms.topic: method
-f1_keywords: 
- - "wmp/IWMPNetwork.get_bufferingTime"
+f1_keywords:
+- wmp/IWMPNetwork.get_bufferingTime
 dev_langs:
- - c++
+- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wmp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmp.dll
+- wmp.dll
 api_name:
- - IWMPNetwork.get_bufferingTime
+- IWMPNetwork.get_bufferingTime
 targetos: Windows
 req.typenames: 
 req.redist: 

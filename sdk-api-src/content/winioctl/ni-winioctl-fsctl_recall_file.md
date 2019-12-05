@@ -1,19 +1,17 @@
 ---
 UID: NI:winioctl.FSCTL_RECALL_FILE
 title: FSCTL_RECALL_FILE
-
 description: Recalls a file from storage media that Remote Storage manages, which is the hierarchical storage management software.
 old-location: fs\fsctl_recall_file.htm
 tech.root: FileIO
 ms.assetid: f131203b-6d8e-4445-9b4f-a24e1ca62645
-
 ms.date: 12/05/2018
 ms.keywords: FSCTL_RECALL_FILE, FSCTL_RECALL_FILE control, FSCTL_RECALL_FILE control code [Files], _win32_fsctl_recall_file, base.fsctl_recall_file, fs.fsctl_recall_file, winioctl/FSCTL_RECALL_FILE
 ms.topic: ioctl
 f1_keywords:
 - winioctl/FSCTL_RECALL_FILE
 dev_langs:
- - c++
+- c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

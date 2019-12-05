@@ -1,19 +1,17 @@
 ---
 UID: NF:wmsdkidl.IWMReaderAdvanced4.AddLogParam
 title: IWMReaderAdvanced4::AddLogParam (wmsdkidl.h)
-
 description: The AddLogParam method adds a named value to the logging information that the reader object will send to the sever.
 old-location: wmformat\iwmreaderadvanced4_addlogparam.htm
 tech.root: wmformat
 ms.assetid: 7d117895-b61f-4890-8cb6-3e4ecf49ca99
-
 ms.date: 12/05/2018
 ms.keywords: AddLogParam, AddLogParam method [windows Media Format], AddLogParam method [windows Media Format],IWMReaderAdvanced4 interface, IWMReaderAdvanced4 interface [windows Media Format],AddLogParam method, IWMReaderAdvanced4.AddLogParam, IWMReaderAdvanced4::AddLogParam, IWMReaderAdvanced4AddLogParam, wmformat.iwmreaderadvanced4_addlogparam, wmsdkidl/IWMReaderAdvanced4::AddLogParam
 ms.topic: method
-f1_keywords: 
- - "wmsdkidl/IWMReaderAdvanced4.AddLogParam"
+f1_keywords:
+- wmsdkidl/IWMReaderAdvanced4.AddLogParam
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wmvcore.lib
- - Wmvcore.dll
- - WMStubDRM.lib
- - WMStubDRM.dll
+- Wmvcore.lib
+- Wmvcore.dll
+- WMStubDRM.lib
+- WMStubDRM.dll
 api_name:
- - IWMReaderAdvanced4.AddLogParam
+- IWMReaderAdvanced4.AddLogParam
 targetos: Windows
 req.typenames: 
 req.redist: 

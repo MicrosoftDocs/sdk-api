@@ -1,19 +1,17 @@
 ---
 UID: NF:http.HttpCreateHttpHandle
 title: HttpCreateHttpHandle function (http.h)
-
 description: Creates an HTTP request queue for the calling application and returns a handle to it.
 old-location: http\httpcreatehttphandle.htm
 tech.root: http
 ms.assetid: c3741092-c23a-465f-9a65-5bcbf977fad3
-
 ms.date: 12/05/2018
 ms.keywords: HttpCreateHttpHandle, HttpCreateHttpHandle function [HTTP], _http_httpcreatehttphandle, http.httpcreatehttphandle, http/HttpCreateHttpHandle
 ms.topic: function
-f1_keywords: 
- - "http/HttpCreateHttpHandle"
+f1_keywords:
+- http/HttpCreateHttpHandle
 dev_langs:
- - c++
+- c++
 req.header: http.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Httpapi.lib
 req.dll: Httpapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Httpapi.dll
+- Httpapi.dll
 api_name:
- - HttpCreateHttpHandle
+- HttpCreateHttpHandle
 targetos: Windows
 req.typenames: 
 req.redist: 

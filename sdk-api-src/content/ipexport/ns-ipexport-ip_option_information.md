@@ -1,19 +1,17 @@
 ---
 UID: NS:ipexport.ip_option_information
 title: IP_OPTION_INFORMATION (ipexport.h)
-
 description: Describes the options to be included in the header of an IP packet.
 old-location: iphlp\ip_option_information.htm
 tech.root: IpHlp
 ms.assetid: 4341d0a4-65d8-4677-b208-2cde5ff36f14
-
 ms.date: 12/05/2018
-ms.keywords: "*PIP_OPTION_INFORMATION, IP_FLAG_DF, IP_FLAG_REVERSE, IP_OPTION_INFORMATION, IP_OPTION_INFORMATION structure [IP Helper], PIP_OPTION_INFORMATION, PIP_OPTION_INFORMATION structure pointer [IP Helper], _iphlp_ip_option_information, ipexport/IP_OPTION_INFORMATION, ipexport/PIP_OPTION_INFORMATION, iphlp.ip_option_information"
+ms.keywords: '*PIP_OPTION_INFORMATION, IP_FLAG_DF, IP_FLAG_REVERSE, IP_OPTION_INFORMATION, IP_OPTION_INFORMATION structure [IP Helper], PIP_OPTION_INFORMATION, PIP_OPTION_INFORMATION structure pointer [IP Helper], _iphlp_ip_option_information, ipexport/IP_OPTION_INFORMATION, ipexport/PIP_OPTION_INFORMATION, iphlp.ip_option_information'
 ms.topic: struct
-f1_keywords: 
- - "ipexport/IP_OPTION_INFORMATION"
+f1_keywords:
+- ipexport/IP_OPTION_INFORMATION
 dev_langs:
- - c++
+- c++
 req.header: ipexport.h
 req.include-header: Iphlpapi.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - ipexport.h
+- ipexport.h
 api_name:
- - IP_OPTION_INFORMATION
+- IP_OPTION_INFORMATION
 targetos: Windows
 req.typenames: IP_OPTION_INFORMATION, *PIP_OPTION_INFORMATION
 req.redist: 

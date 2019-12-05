@@ -1,19 +1,17 @@
 ---
 UID: NF:lmmsg.NetMessageNameAdd
 title: NetMessageNameAdd function (lmmsg.h)
-
 description: The NetMessageNameAdd function registers a message alias in the message name table. The function requires that the messenger service be started.
 old-location: netmgmt\netmessagenameadd.htm
 tech.root: NetMgmt
 ms.assetid: 5330e883-5439-46af-b4ae-b0926feadb70
-
 ms.date: 12/05/2018
 ms.keywords: NetMessageNameAdd, NetMessageNameAdd function [Network Management], _win32_netmessagenameadd, lmmsg/NetMessageNameAdd, netmgmt.netmessagenameadd
 ms.topic: function
-f1_keywords: 
- - "lmmsg/NetMessageNameAdd"
+f1_keywords:
+- lmmsg/NetMessageNameAdd
 dev_langs:
- - c++
+- c++
 req.header: lmmsg.h
 req.include-header: Lm.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Netapi32.lib
 req.dll: Netapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Netapi32.dll
+- Netapi32.dll
 api_name:
- - NetMessageNameAdd
+- NetMessageNameAdd
 targetos: Windows
 req.typenames: 
 req.redist: 

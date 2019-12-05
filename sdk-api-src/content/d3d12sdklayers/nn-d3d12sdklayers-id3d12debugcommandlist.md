@@ -1,19 +1,17 @@
 ---
 UID: NN:d3d12sdklayers.ID3D12DebugCommandList
 title: ID3D12DebugCommandList (d3d12sdklayers.h)
-
 description: Provides methods to monitor and debug a command list.
 old-location: direct3d12\id3d12debugcommandlist.htm
 tech.root: direct3d12
 ms.assetid: EDE527F0-4091-4B03-9030-6F693FE901BE
-
 ms.date: 12/05/2018
 ms.keywords: ID3D12DebugCommandList, ID3D12DebugCommandList interface, ID3D12DebugCommandList interface,described, d3d12sdklayers/ID3D12DebugCommandList, direct3d12.id3d12debugcommandlist
 ms.topic: interface
-f1_keywords: 
- - "d3d12sdklayers/ID3D12DebugCommandList"
+f1_keywords:
+- d3d12sdklayers/ID3D12DebugCommandList
 dev_langs:
- - c++
+- c++
 req.header: d3d12sdklayers.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - d3d12sdklayers.h
+- d3d12sdklayers.h
 api_name:
- - ID3D12DebugCommandList
+- ID3D12DebugCommandList
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:wingdi.GetMetaFileA
 title: GetMetaFileA function (wingdi.h)
-
 description: The GetMetaFile function creates a handle that identifies the metafile stored in the specified file.
 old-location: gdi\getmetafile.htm
 tech.root: gdi
 ms.assetid: 56A602C4-AE4D-46DE-B5DA-66A68E3A16BF
-
 ms.date: 12/05/2018
 ms.keywords: GetMetaFile, GetMetaFile function [Windows GDI], GetMetaFileA, GetMetaFileW, gdi.getmetafile, wingdi/GetMetaFile, wingdi/GetMetaFileA, wingdi/GetMetaFileW
 ms.topic: function
-f1_keywords: 
- - "wingdi/GetMetaFile"
+f1_keywords:
+- wingdi/GetMetaFile
 dev_langs:
- - c++
+- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,19 +30,19 @@ req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Gdi32.dll
- - Ext-MS-Win-GDI-Metafile-L1-1-2.dll
- - Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
- - GDI32Full.dll
+- Gdi32.dll
+- Ext-MS-Win-GDI-Metafile-L1-1-2.dll
+- Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
+- GDI32Full.dll
 api_name:
- - GetMetaFile
- - GetMetaFileA
- - GetMetaFileW
+- GetMetaFile
+- GetMetaFileA
+- GetMetaFileW
 targetos: Windows
 req.typenames: 
 req.redist: 

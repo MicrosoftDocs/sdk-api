@@ -1,19 +1,17 @@
 ---
 UID: NF:windowsx.ListBox_SetTabStops
 title: ListBox_SetTabStops macro (windowsx.h)
-
 description: Sets the tab-stop positions in a list box. You can use this macro or send the LB_SETTABSTOPS message explicitly.
 old-location: controls\ListBox_SetTabStops.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listboxes\listboxreference\listboxmacros\listbox_settabstops.htm
-
 ms.date: 12/05/2018
 ms.keywords: ListBox_SetTabStops, ListBox_SetTabStops macro [Windows Controls], _win32_ListBox_SetTabStops, _win32_ListBox_SetTabStops_cpp, controls.ListBox_SetTabStops, controls._win32_ListBox_SetTabStops, windowsx/ListBox_SetTabStops
 ms.topic: macro
-f1_keywords: 
- - "windowsx/ListBox_SetTabStops"
+f1_keywords:
+- windowsx/ListBox_SetTabStops
 dev_langs:
- - c++
+- c++
 req.header: windowsx.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Windowsx.h
+- Windowsx.h
 api_name:
- - ListBox_SetTabStops
+- ListBox_SetTabStops
 targetos: Windows
 req.typenames: 
 req.redist: 

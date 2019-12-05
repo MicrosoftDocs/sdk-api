@@ -1,19 +1,17 @@
 ---
 UID: NN:objidl.IPersistFile
 title: IPersistFile (objidl.h)
-
 description: Enables an object to be loaded from or saved to a disk file, rather than a storage object or stream.
 old-location: com\ipersistfile.htm
 tech.root: com
 ms.assetid: 7d34507f-8a16-43b4-8225-010798abc546
-
 ms.date: 12/05/2018
 ms.keywords: IPersistFile, IPersistFile interface [COM], IPersistFile interface [COM],described, _com_ipersistfile, com.ipersistfile, objidl/IPersistFile
 ms.topic: interface
-f1_keywords: 
- - "objidl/IPersistFile"
+f1_keywords:
+- objidl/IPersistFile
 dev_langs:
- - c++
+- c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ObjIdl.h
+- ObjIdl.h
 api_name:
- - IPersistFile
+- IPersistFile
 targetos: Windows
 req.typenames: 
 req.redist: 

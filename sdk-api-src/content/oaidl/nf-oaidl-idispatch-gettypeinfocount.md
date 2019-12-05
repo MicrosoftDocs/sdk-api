@@ -1,19 +1,17 @@
 ---
 UID: NF:oaidl.IDispatch.GetTypeInfoCount
 title: IDispatch::GetTypeInfoCount (oaidl.h)
-
 description: Retrieves the number of type information interfaces that an object provides (either 0 or 1).
 old-location: automat\idispatch_gettypeinfocount.htm
 tech.root: automat
 ms.assetid: da876d53-cb8a-465c-a43e-c0eb272e2a12
-
 ms.date: 12/05/2018
 ms.keywords: GetTypeInfoCount, GetTypeInfoCount method [Automation], GetTypeInfoCount method [Automation],IAccessible interface, GetTypeInfoCount method [Automation],IDispatch interface, IAccessible interface [Automation],GetTypeInfoCount method, IAccessible::GetTypeInfoCount, IDispatch interface [Automation],GetTypeInfoCount method, IDispatch.GetTypeInfoCount, IDispatch::GetTypeInfoCount, _oa96_IDispatch::GetTypeInfoCount, automat.idispatch_gettypeinfocount, oaidl/IAccessible::GetTypeInfoCount, oaidl/IDispatch::GetTypeInfoCount
 ms.topic: method
-f1_keywords: 
- - "oaidl/IDispatch.GetTypeInfoCount"
+f1_keywords:
+- oaidl/IDispatch.GetTypeInfoCount
 dev_langs:
- - c++
+- c++
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - oaidl.h
+- oaidl.h
 api_name:
- - IDispatch.GetTypeInfoCount
- - IAccessible.GetTypeInfoCount
+- IDispatch.GetTypeInfoCount
+- IAccessible.GetTypeInfoCount
 targetos: Windows
 req.typenames: 
 req.redist: 

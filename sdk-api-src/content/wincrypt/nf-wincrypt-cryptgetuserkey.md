@@ -1,19 +1,17 @@
 ---
 UID: NF:wincrypt.CryptGetUserKey
 title: CryptGetUserKey function (wincrypt.h)
-
 description: Retrieves a handle of one of a user's two public/private key pairs.
 old-location: security\cryptgetuserkey.htm
 tech.root: SecCrypto
 ms.assetid: d9166b98-e5f1-4e5c-b6f1-2a086b102e0f
-
 ms.date: 12/05/2018
 ms.keywords: CryptGetUserKey, CryptGetUserKey function [Security], _crypto2_cryptgetuserkey, security.cryptgetuserkey, wincrypt/CryptGetUserKey
 ms.topic: function
-f1_keywords: 
- - "wincrypt/CryptGetUserKey"
+f1_keywords:
+- wincrypt/CryptGetUserKey
 dev_langs:
- - c++
+- c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Advapi32.dll
- - API-MS-Win-Security-cryptoapi-l1-1-0.dll
- - cryptsp.dll
+- Advapi32.dll
+- API-MS-Win-Security-cryptoapi-l1-1-0.dll
+- cryptsp.dll
 api_name:
- - CryptGetUserKey
+- CryptGetUserKey
 targetos: Windows
 req.typenames: 
 req.redist: 

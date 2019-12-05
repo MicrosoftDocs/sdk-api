@@ -1,19 +1,17 @@
 ---
 UID: NF:wmp.IWMPPlayer.put_enabled
 title: IWMPPlayer::put_enabled (wmp.h)
-
 description: The put_enabled method specifies a value indicating whether the Windows Media Player control is enabled.
 old-location: wmp\iwmpplayer_put_enabled.htm
 tech.root: WMP
 ms.assetid: c0e29724-1689-4b59-a9bd-b9cc3f391b68
-
 ms.date: 12/05/2018
 ms.keywords: IWMPPlayer interface [Windows Media Player],put_enabled method, IWMPPlayer.put_enabled, IWMPPlayer::put_enabled, IWMPPlayerput_enabled, put_enabled, put_enabled method [Windows Media Player], put_enabled method [Windows Media Player],IWMPPlayer interface, wmp.iwmpplayer_put_enabled, wmp/IWMPPlayer::put_enabled
 ms.topic: method
-f1_keywords: 
- - "wmp/IWMPPlayer.put_enabled"
+f1_keywords:
+- wmp/IWMPPlayer.put_enabled
 dev_langs:
- - c++
+- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wmp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmp.dll
+- wmp.dll
 api_name:
- - IWMPPlayer.put_enabled
+- IWMPPlayer.put_enabled
 targetos: Windows
 req.typenames: 
 req.redist: 

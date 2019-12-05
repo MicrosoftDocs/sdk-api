@@ -1,19 +1,17 @@
 ---
 UID: NF:mmc.ISnapinAbout.GetStaticFolderImage
 title: ISnapinAbout::GetStaticFolderImage (mmc.h)
-
 description: The ISnapinAbout::GetStaticFolderImage method allows the console to obtain the static folder images for the scope and result panes.
 old-location: mmc\isnapinabout_getstaticfolderimage.htm
 tech.root: mmc
 ms.assetid: 87be74e1-67d4-4205-a12a-f4fd1b22f038
-
 ms.date: 12/05/2018
 ms.keywords: GetStaticFolderImage, GetStaticFolderImage method [MMC], GetStaticFolderImage method [MMC],ISnapinAbout interface, ISnapinAbout interface [MMC],GetStaticFolderImage method, ISnapinAbout.GetStaticFolderImage, ISnapinAbout::GetStaticFolderImage, _slate_isnapinabout_getstaticfolderimage, mmc.isnapinabout_getstaticfolderimage, mmc/ISnapinAbout::GetStaticFolderImage
 ms.topic: method
-f1_keywords: 
- - "mmc/ISnapinAbout.GetStaticFolderImage"
+f1_keywords:
+- mmc/ISnapinAbout.GetStaticFolderImage
 dev_langs:
- - c++
+- c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mmc.h
+- Mmc.h
 api_name:
- - ISnapinAbout.GetStaticFolderImage
+- ISnapinAbout.GetStaticFolderImage
 targetos: Windows
 req.typenames: 
 req.redist: 

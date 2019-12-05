@@ -1,19 +1,17 @@
 ---
 UID: NC:webservices.WS_VALIDATE_SAML_CALLBACK
 title: WS_VALIDATE_SAML_CALLBACK (webservices.h)
-
 description: Validates a SAML assertion.
 old-location: wsw\ws_validate_saml_callback.htm
 tech.root: wsw
 ms.assetid: 72cc10ae-ba0e-4f3a-a376-c0b1999b074e
-
 ms.date: 12/05/2018
 ms.keywords: WS_VALIDATE_SAML_CALLBACK, WS_VALIDATE_SAML_CALLBACK callback, WS_VALIDATE_SAML_CALLBACK callback function [Web Services for Windows], webservices/WS_VALIDATE_SAML_CALLBACK, wsw.ws_validate_saml_callback
 ms.topic: callback
-f1_keywords: 
- - "webservices/WS_VALIDATE_SAML_CALLBACK"
+f1_keywords:
+- webservices/WS_VALIDATE_SAML_CALLBACK
 dev_langs:
- - c++
+- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - WebServices.h
+- WebServices.h
 api_name:
- - WS_VALIDATE_SAML_CALLBACK
+- WS_VALIDATE_SAML_CALLBACK
 targetos: Windows
 req.typenames: 
 req.redist: 

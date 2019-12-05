@@ -1,19 +1,17 @@
 ---
 UID: NF:powrprof.IsPwrHibernateAllowed
 title: IsPwrHibernateAllowed function (powrprof.h)
-
 description: Determines whether the computer supports hibernation.
 old-location: base\ispwrhibernateallowed.htm
 tech.root: power
 ms.assetid: fe9d06a8-c021-4cf4-9782-04519f370c5b
-
 ms.date: 12/05/2018
 ms.keywords: IsPwrHibernateAllowed, IsPwrHibernateAllowed function, _win32_ispwrhibernateallowed, base.ispwrhibernateallowed, powrprof/IsPwrHibernateAllowed
 ms.topic: function
-f1_keywords: 
- - "powrprof/IsPwrHibernateAllowed"
+f1_keywords:
+- powrprof/IsPwrHibernateAllowed
 dev_langs:
- - c++
+- c++
 req.header: powrprof.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: PowrProf.lib
 req.dll: PowrProf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - PowrProf.dll
+- PowrProf.dll
 api_name:
- - IsPwrHibernateAllowed
+- IsPwrHibernateAllowed
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:comsvcs.ITransactionContext.Commit
 title: ITransactionContext::Commit (comsvcs.h)
-
 description: Attempts to commit the work of all COM objects participating in the current transaction. The transaction ends on return from this method.
 old-location: cos\itransactioncontext_commit.htm
 tech.root: cossdk
 ms.assetid: 3945fdf1-6361-413e-9621-18871ded47a4
-
 ms.date: 12/05/2018
 ms.keywords: Commit, Commit method [COM+], Commit method [COM+],ITransactionContext interface, ITransactionContext interface [COM+],Commit method, ITransactionContext.Commit, ITransactionContext::Commit, _cos_ITransactionContext_Commit, comsvcs/ITransactionContext::Commit, cos.itransactioncontext_commit
 ms.topic: method
-f1_keywords: 
- - "comsvcs/ITransactionContext.Commit"
+f1_keywords:
+- comsvcs/ITransactionContext.Commit
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - ITransactionContext.Commit
+- ITransactionContext.Commit
 targetos: Windows
 req.typenames: 
 req.redist: 

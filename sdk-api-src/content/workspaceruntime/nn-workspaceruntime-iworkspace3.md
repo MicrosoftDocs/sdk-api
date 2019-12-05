@@ -1,19 +1,17 @@
 ---
 UID: NN:workspaceruntime.IWorkspace3
 title: IWorkspace3 (workspaceruntime.h)
-
 description: Exposes methods that provide information about a connection in RemoteApp and Desktop Connection, and adds the ability to retrieve or set a claims token.
 old-location: termserv\iworkspace3.htm
 tech.root: TermServ
 ms.assetid: a63240fb-8724-4cd2-b845-f48075f4cb57
-
 ms.date: 12/05/2018
 ms.keywords: IWorkspace3, IWorkspace3 interface [Remote Desktop Services], IWorkspace3 interface [Remote Desktop Services],described, termserv.iworkspace3, workspaceruntime/IWorkspace3
 ms.topic: interface
-f1_keywords: 
- - "workspaceruntime/IWorkspace3"
+f1_keywords:
+- workspaceruntime/IWorkspace3
 dev_langs:
- - c++
+- c++
 req.header: workspaceruntime.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - workspaceruntime.h
+- workspaceruntime.h
 api_name:
- - IWorkspace3
+- IWorkspace3
 targetos: Windows
 req.typenames: 
 req.redist: 

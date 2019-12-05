@@ -1,19 +1,17 @@
 ---
 UID: NS:wsnwlink._IPX_NETNUM_DATA
 title: IPX_NETNUM_DATA (wsnwlink.h)
-
 description: The IPX_NETNUM_DATA structure provides information about a specified IPX network number. Used in conjunction with getsockopt function calls that specify IPX_GETNETINFO in the optname parameter.
 old-location: winsock\ipx_netnum_data_2.htm
 tech.root: WinSock
 ms.assetid: 9ac7f6ea-5ed3-45f9-8422-62fef1681cdc
-
 ms.date: 12/05/2018
-ms.keywords: "*PIPX_NETNUM_DATA, IPX_NETNUM_DATA, IPX_NETNUM_DATA structure [Winsock], PIPX_NETNUM_DATA, PIPX_NETNUM_DATA structure pointer [Winsock], _win32_ipx_netnum_data_2, winsock.ipx_netnum_data_2, wsnwlink/IPX_NETNUM_DATA, wsnwlink/PIPX_NETNUM_DATA"
+ms.keywords: '*PIPX_NETNUM_DATA, IPX_NETNUM_DATA, IPX_NETNUM_DATA structure [Winsock], PIPX_NETNUM_DATA, PIPX_NETNUM_DATA structure pointer [Winsock], _win32_ipx_netnum_data_2, winsock.ipx_netnum_data_2, wsnwlink/IPX_NETNUM_DATA, wsnwlink/PIPX_NETNUM_DATA'
 ms.topic: struct
-f1_keywords: 
- - "wsnwlink/IPX_NETNUM_DATA"
+f1_keywords:
+- wsnwlink/IPX_NETNUM_DATA
 dev_langs:
- - c++
+- c++
 req.header: wsnwlink.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wsnwlink.h
+- Wsnwlink.h
 api_name:
- - IPX_NETNUM_DATA
+- IPX_NETNUM_DATA
 targetos: Windows
 req.typenames: IPX_NETNUM_DATA, *PIPX_NETNUM_DATA
 req.redist: 

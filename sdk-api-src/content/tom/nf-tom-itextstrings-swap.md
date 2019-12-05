@@ -1,19 +1,17 @@
 ---
 UID: NF:tom.ITextStrings.Swap
 title: ITextStrings::Swap (tom.h)
-
 description: Swaps the top two strings in the collection.
 old-location: controls\itextstrings_swap.htm
 tech.root: Controls
 ms.assetid: 06759b26-672c-4a3d-a2d4-085bfd09e50a
-
 ms.date: 12/05/2018
 ms.keywords: ITextStrings interface [Windows Controls],Swap method, ITextStrings.Swap, ITextStrings::Swap, Swap, Swap method [Windows Controls], Swap method [Windows Controls],ITextStrings interface, controls.itextstrings_swap, tom/ITextStrings::Swap
 ms.topic: method
-f1_keywords: 
- - "tom/ITextStrings.Swap"
+f1_keywords:
+- tom/ITextStrings.Swap
 dev_langs:
- - c++
+- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msftedit.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msftedit.dll
+- Msftedit.dll
 api_name:
- - ITextStrings.Swap
+- ITextStrings.Swap
 targetos: Windows
 req.typenames: 
 req.redist: 

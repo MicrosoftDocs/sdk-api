@@ -1,19 +1,17 @@
 ---
 UID: NF:netfw.INetFwOpenPort.get_Protocol
 title: INetFwOpenPort::get_Protocol (netfw.h)
-
 description: Specifies the protocol type setting for this port.
 old-location: ics\inetfwopenport_protocol.htm
 tech.root: ics
 ms.assetid: 775c3d29-89c7-4768-9476-2e56555fd82b
-
 ms.date: 12/05/2018
 ms.keywords: INetFwOpenPort interface [ICS/ICF],Protocol property, INetFwOpenPort.Protocol, INetFwOpenPort.get_Protocol, INetFwOpenPort::Protocol, INetFwOpenPort::get_Protocol, INetFwOpenPort::put_Protocol, Protocol property [ICS/ICF], Protocol property [ICS/ICF],INetFwOpenPort interface, get_Protocol, ics.inetfwopenport_protocol, netfw/INetFwOpenPort::Protocol, netfw/INetFwOpenPort::get_Protocol, netfw/INetFwOpenPort::put_Protocol
 ms.topic: method
-f1_keywords: 
- - "netfw/INetFwOpenPort.Protocol"
+f1_keywords:
+- netfw/INetFwOpenPort.Protocol
 dev_langs:
- - c++
+- c++
 req.header: netfw.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib:
 req.dll: FirewallAPI.dll; Hnetcfg.dll on Windows XP with SP2
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - FirewallAPI.dll
- - Hnetcfg.dll
+- FirewallAPI.dll
+- Hnetcfg.dll
 api_name:
- - INetFwOpenPort.Protocol
- - INetFwOpenPort.get_Protocol
- - INetFwOpenPort.put_Protocol
+- INetFwOpenPort.Protocol
+- INetFwOpenPort.get_Protocol
+- INetFwOpenPort.put_Protocol
 targetos: Windows
 req.typenames: 
 req.redist: 

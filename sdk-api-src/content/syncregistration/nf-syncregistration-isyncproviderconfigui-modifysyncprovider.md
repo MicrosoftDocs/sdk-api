@@ -1,19 +1,17 @@
 ---
 UID: NF:syncregistration.ISyncProviderConfigUI.ModifySyncProvider
 title: ISyncProviderConfigUI::ModifySyncProvider (syncregistration.h)
-
 description: Updates the ISyncProviderInfo of the synchronization provider that is configured by this ISyncProviderConfigUI.
 old-location: winsync\isyncproviderconfigui_modifysyncprovider.htm
 tech.root: winsync
 ms.assetid: 16f6d30c-422a-4638-a63b-f9d2a5fdb8b4
-
 ms.date: 12/05/2018
 ms.keywords: ISyncProviderConfigUI interface [Windows Sync],ModifySyncProvider method, ISyncProviderConfigUI.ModifySyncProvider, ISyncProviderConfigUI::ModifySyncProvider, ModifySyncProvider, ModifySyncProvider method [Windows Sync], ModifySyncProvider method [Windows Sync],ISyncProviderConfigUI interface, syncregistration/ISyncProviderConfigUI::ModifySyncProvider, winsync.isyncproviderconfigui_modifysyncprovider
 ms.topic: method
-f1_keywords: 
- - "syncregistration/ISyncProviderConfigUI.ModifySyncProvider"
+f1_keywords:
+- syncregistration/ISyncProviderConfigUI.ModifySyncProvider
 dev_langs:
- - c++
+- c++
 req.header: syncregistration.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Syncregistration.h
+- Syncregistration.h
 api_name:
- - ISyncProviderConfigUI.ModifySyncProvider
+- ISyncProviderConfigUI.ModifySyncProvider
 targetos: Windows
 req.typenames: 
 req.redist: 

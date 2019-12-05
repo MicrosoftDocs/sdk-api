@@ -1,19 +1,17 @@
 ---
 UID: NF:evr.IMFVideoDisplayControl.GetBorderColor
 title: IMFVideoDisplayControl::GetBorderColor (evr.h)
-
 description: Gets the border color for the video.
 old-location: mf\imfvideodisplaycontrol_getbordercolor.htm
 tech.root: medfound
 ms.assetid: 1b65b793-d06d-4d7f-a19f-0068dd7f2e44
-
 ms.date: 12/05/2018
 ms.keywords: 1b65b793-d06d-4d7f-a19f-0068dd7f2e44, GetBorderColor, GetBorderColor method [Media Foundation], GetBorderColor method [Media Foundation],IMFVideoDisplayControl interface, IMFVideoDisplayControl interface [Media Foundation],GetBorderColor method, IMFVideoDisplayControl.GetBorderColor, IMFVideoDisplayControl::GetBorderColor, evr/IMFVideoDisplayControl::GetBorderColor, mf.imfvideodisplaycontrol_getbordercolor
 ms.topic: method
-f1_keywords: 
- - "evr/IMFVideoDisplayControl.GetBorderColor"
+f1_keywords:
+- evr/IMFVideoDisplayControl.GetBorderColor
 dev_langs:
- - c++
+- c++
 req.header: evr.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - strmiids.lib
- - strmiids.dll
+- strmiids.lib
+- strmiids.dll
 api_name:
- - IMFVideoDisplayControl.GetBorderColor
+- IMFVideoDisplayControl.GetBorderColor
 targetos: Windows
 req.typenames: 
 req.redist: 

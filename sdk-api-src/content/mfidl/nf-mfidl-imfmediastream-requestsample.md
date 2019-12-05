@@ -1,19 +1,17 @@
 ---
 UID: NF:mfidl.IMFMediaStream.RequestSample
 title: IMFMediaStream::RequestSample (mfidl.h)
-
 description: Requests a sample from the media source.
 old-location: mf\imfmediastream_requestsample.htm
 tech.root: medfound
 ms.assetid: 3838167b-5774-47f5-9b8d-2882eaa97167
-
 ms.date: 12/05/2018
 ms.keywords: 3838167b-5774-47f5-9b8d-2882eaa97167, IMFMediaStream interface [Media Foundation],RequestSample method, IMFMediaStream.RequestSample, IMFMediaStream::RequestSample, RequestSample, RequestSample method [Media Foundation], RequestSample method [Media Foundation],IMFMediaStream interface, mf.imfmediastream_requestsample, mfidl/IMFMediaStream::RequestSample
 ms.topic: method
-f1_keywords: 
- - "mfidl/IMFMediaStream.RequestSample"
+f1_keywords:
+- mfidl/IMFMediaStream.RequestSample
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFMediaStream.RequestSample
+- IMFMediaStream.RequestSample
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:dcomp.IDCompositionVisual.SetTransform(IDCompositionTransform)
 title: IDCompositionVisual::SetTransform(IDCompositionTransform) (dcomp.h)
-
 description: Sets the Transform property of this visual to the specified 2D transform object.
 old-location: directcomp\idcompositionvisual_settransform_idcompositiontransform.htm
 tech.root: directcomp
 ms.assetid: 448B853E-B045-4D06-BCC8-E1578E36C20A
-
 ms.date: 12/05/2018
 ms.keywords: IDCompositionVisual interface [DirectComposition],SetTransform method, IDCompositionVisual.SetTransform, IDCompositionVisual.SetTransform(IDCompositionTransform), IDCompositionVisual::SetTransform, IDCompositionVisual::SetTransform(IDCompositionTransform), IDCompositionVisual::SetTransform(IDCompositionTransform*), SetTransform, SetTransform method [DirectComposition], SetTransform method [DirectComposition],IDCompositionVisual interface, dcomp/IDCompositionVisual::SetTransform, directcomp.idcompositionvisual_settransform_idcompositiontransform
 ms.topic: method
-f1_keywords: 
- - "dcomp/IDCompositionVisual.SetTransform"
+f1_keywords:
+- dcomp/IDCompositionVisual.SetTransform
 dev_langs:
- - c++
+- c++
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dcomp.lib
 req.dll: Dcomp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dcomp.dll
+- Dcomp.dll
 api_name:
- - IDCompositionVisual.SetTransform
+- IDCompositionVisual.SetTransform
 targetos: Windows
 req.typenames: 
 req.redist: 

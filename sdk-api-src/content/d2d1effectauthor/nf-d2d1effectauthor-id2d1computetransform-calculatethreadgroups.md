@@ -1,19 +1,17 @@
 ---
 UID: NF:d2d1effectauthor.ID2D1ComputeTransform.CalculateThreadgroups
 title: ID2D1ComputeTransform::CalculateThreadgroups (d2d1effectauthor.h)
-
 description: This method allows a compute-shader–based transform to select the number of thread groups to execute based on the number of output pixels it needs to fill.
 old-location: direct2d\id2d1computetransform_calculatethreadgroups.htm
 tech.root: Direct2D
 ms.assetid: 6B662297-3EBE-459F-8284-7A59F67DB025
-
 ms.date: 12/05/2018
 ms.keywords: CalculateThreadgroups, CalculateThreadgroups method [Direct2D], CalculateThreadgroups method [Direct2D],ID2D1ComputeTransform interface, ID2D1ComputeTransform interface [Direct2D],CalculateThreadgroups method, ID2D1ComputeTransform.CalculateThreadgroups, ID2D1ComputeTransform::CalculateThreadgroups, d2d1effectauthor/ID2D1ComputeTransform::CalculateThreadgroups, direct2d.id2d1computetransform_calculatethreadgroups
 ms.topic: method
-f1_keywords: 
- - "d2d1effectauthor/ID2D1ComputeTransform.CalculateThreadgroups"
+f1_keywords:
+- d2d1effectauthor/ID2D1ComputeTransform.CalculateThreadgroups
 dev_langs:
- - c++
+- c++
 req.header: d2d1effectauthor.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: D2d1.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - d2d1.lib
- - d2d1.dll
+- d2d1.lib
+- d2d1.dll
 api_name:
- - ID2D1ComputeTransform.CalculateThreadgroups
+- ID2D1ComputeTransform.CalculateThreadgroups
 targetos: Windows
 req.typenames: 
 req.redist: 

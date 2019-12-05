@@ -1,19 +1,17 @@
 ---
 UID: NF:dcomp.IDCompositionRotateTransform3D.SetAngle(float)
 title: IDCompositionRotateTransform3D::SetAngle(float) (dcomp.h)
-
 description: Changes the value of the Angle property of a 3D rotation transform. The Angle property specifies the rotation angle. The default value is zero.
 old-location: directcomp\idcompositionrotatetransform3d_setangle_float.htm
 tech.root: directcomp
 ms.assetid: A1C367E1-530C-4D4F-B93E-8C53C3DCF373
-
 ms.date: 12/05/2018
 ms.keywords: IDCompositionRotateTransform3D interface [DirectComposition],SetAngle method, IDCompositionRotateTransform3D.SetAngle, IDCompositionRotateTransform3D.SetAngle(float), IDCompositionRotateTransform3D::SetAngle, IDCompositionRotateTransform3D::SetAngle(float), SetAngle, SetAngle method [DirectComposition], SetAngle method [DirectComposition],IDCompositionRotateTransform3D interface, dcomp/IDCompositionRotateTransform3D::SetAngle, directcomp.idcompositionrotatetransform3d_setangle_float
 ms.topic: method
-f1_keywords: 
- - "dcomp/IDCompositionRotateTransform3D.SetAngle"
+f1_keywords:
+- dcomp/IDCompositionRotateTransform3D.SetAngle
 dev_langs:
- - c++
+- c++
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dcomp.lib
 req.dll: Dcomp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dcomp.dll
+- Dcomp.dll
 api_name:
- - IDCompositionRotateTransform3D.SetAngle
+- IDCompositionRotateTransform3D.SetAngle
 targetos: Windows
 req.typenames: 
 req.redist: 

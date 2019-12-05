@@ -1,19 +1,17 @@
 ---
 UID: NE:audioapotypes.APO_BUFFER_FLAGS
 title: APO_BUFFER_FLAGS (audioapotypes.h)
-
 description: Defines the buffer validation flags for the APO_CONNECTION_PROPERTY structure associated with each APO connection.
 old-location: termserv\apo_buffer_flags.htm
 tech.root: TermServ
 ms.assetid: 996b56d7-1187-4ed7-b5f5-7d77291113f6
-
 ms.date: 12/05/2018
 ms.keywords: APO_BUFFER_FLAGS, APO_BUFFER_FLAGS enumeration [Remote Desktop Services], BUFFER_INVALID, BUFFER_SILENT, BUFFER_VALID, audioapotypes/APO_BUFFER_FLAGS, audioapotypes/BUFFER_INVALID, audioapotypes/BUFFER_SILENT, audioapotypes/BUFFER_VALID, termserv.apo_buffer_flags
 ms.topic: enum
-f1_keywords: 
- - "audioapotypes/APO_BUFFER_FLAGS"
+f1_keywords:
+- audioapotypes/APO_BUFFER_FLAGS
 dev_langs:
- - c++
+- c++
 req.header: audioapotypes.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Audioapotypes.h
+- Audioapotypes.h
 api_name:
- - APO_BUFFER_FLAGS
+- APO_BUFFER_FLAGS
 targetos: Windows
 req.typenames: APO_BUFFER_FLAGS
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:workspaceruntime.IWorkspace.GetProcessId
 title: IWorkspace::GetProcessId (workspaceruntime.h)
-
 description: Retrieves the process ID of the current connection in RemoteApp and Desktop Connection.
 old-location: termserv\iworkspace_getprocessid.htm
 tech.root: TermServ
 ms.assetid: f703dfac-a896-472e-847c-cf44a96d9d9e
-
 ms.date: 12/05/2018
 ms.keywords: GetProcessId, GetProcessId method [Remote Desktop Services], GetProcessId method [Remote Desktop Services],IWorkspace interface, GetProcessId method [Remote Desktop Services],IWorkspace2 interface, GetProcessId method [Remote Desktop Services],IWorkspace3 interface, GetProcessId method [Remote Desktop Services],Workspace object, IWorkspace interface [Remote Desktop Services],GetProcessId method, IWorkspace.GetProcessId, IWorkspace2 interface [Remote Desktop Services],GetProcessId method, IWorkspace2::GetProcessId, IWorkspace3 interface [Remote Desktop Services],GetProcessId method, IWorkspace3::GetProcessId, IWorkspace::GetProcessId, Workspace object [Remote Desktop Services],GetProcessId method, termserv.iworkspace_getprocessid, workspaceruntime/IWorkspace2::GetProcessId, workspaceruntime/IWorkspace3::GetProcessId, workspaceruntime/IWorkspace::GetProcessId
 ms.topic: method
-f1_keywords: 
- - "workspaceruntime/IWorkspace.GetProcessId"
+f1_keywords:
+- workspaceruntime/IWorkspace.GetProcessId
 dev_langs:
- - c++
+- c++
 req.header: workspaceruntime.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wksprt.exe
+- Wksprt.exe
 api_name:
- - IWorkspace.GetProcessId
- - IWorkspace2.GetProcessId
- - IWorkspace3.GetProcessId
- - Workspace.GetProcessId
+- IWorkspace.GetProcessId
+- IWorkspace2.GetProcessId
+- IWorkspace3.GetProcessId
+- Workspace.GetProcessId
 targetos: Windows
 req.typenames: 
 req.redist: 

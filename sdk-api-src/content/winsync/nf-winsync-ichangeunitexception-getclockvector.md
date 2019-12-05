@@ -1,19 +1,17 @@
 ---
 UID: NF:winsync.IChangeUnitException.GetClockVector
 title: IChangeUnitException::GetClockVector (winsync.h)
-
 description: Gets the clock vector that is associated with this exception.
 old-location: winsync\ichangeunitexception_getclockvector.htm
 tech.root: winsync
 ms.assetid: 1cf95acf-23ab-49c8-bd63-7aff9bad8f25
-
 ms.date: 12/05/2018
 ms.keywords: GetClockVector, GetClockVector method [Windows Sync], GetClockVector method [Windows Sync],IChangeUnitException interface, IChangeUnitException interface [Windows Sync],GetClockVector method, IChangeUnitException.GetClockVector, IChangeUnitException::GetClockVector, winsync.ichangeunitexception_getclockvector, winsync/IChangeUnitException::GetClockVector
 ms.topic: method
-f1_keywords: 
- - "winsync/IChangeUnitException.GetClockVector"
+f1_keywords:
+- winsync/IChangeUnitException.GetClockVector
 dev_langs:
- - c++
+- c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - winsync.h
+- winsync.h
 api_name:
- - IChangeUnitException.GetClockVector
+- IChangeUnitException.GetClockVector
 targetos: Windows
 req.typenames: 
 req.redist: 

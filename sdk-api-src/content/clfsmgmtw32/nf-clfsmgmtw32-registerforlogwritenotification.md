@@ -1,19 +1,17 @@
 ---
 UID: NF:clfsmgmtw32.RegisterForLogWriteNotification
 title: RegisterForLogWriteNotification function (clfsmgmtw32.h)
-
 description: The RegisterForLogWriteNotification function is called by a managed log client to enable or disable log write notifications.
 old-location: fs\registerforlogwritenotification.htm
 tech.root: Clfs
 ms.assetid: 08e197af-d88e-46dd-b862-66eb0ab27551
-
 ms.date: 12/05/2018
 ms.keywords: RegisterForLogWriteNotification, RegisterForLogWriteNotification function [Files], clfsmgmtw32/RegisterForLogWriteNotification, fs.registerforlogwritenotification
 ms.topic: function
-f1_keywords: 
- - "clfsmgmtw32/RegisterForLogWriteNotification"
+f1_keywords:
+- clfsmgmtw32/RegisterForLogWriteNotification
 dev_langs:
- - c++
+- c++
 req.header: clfsmgmtw32.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: ClfsW32.lib
 req.dll: ClfsW32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - ClfsW32.dll
+- ClfsW32.dll
 api_name:
- - RegisterForLogWriteNotification
+- RegisterForLogWriteNotification
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:wmp.IWMPStringCollection2.isIdentical
 title: IWMPStringCollection2::isIdentical (wmp.h)
-
 description: The isIdentical method retrieves a value indicating whether the supplied object is the same as the current one.
 old-location: wmp\iwmpstringcollection2_isidentical.htm
 tech.root: WMP
 ms.assetid: 549fdee8-7cd4-4ceb-8ed1-0de467d6c348
-
 ms.date: 12/05/2018
 ms.keywords: IWMPStringCollection2 interface [Windows Media Player],isIdentical method, IWMPStringCollection2.isIdentical, IWMPStringCollection2::isIdentical, IWMPStringCollection2isIdentical, isIdentical, isIdentical method [Windows Media Player], isIdentical method [Windows Media Player],IWMPStringCollection2 interface, wmp.iwmpstringcollection2_isidentical, wmp/IWMPStringCollection2::isIdentical
 ms.topic: method
-f1_keywords: 
- - "wmp/IWMPStringCollection2.isIdentical"
+f1_keywords:
+- wmp/IWMPStringCollection2.isIdentical
 dev_langs:
- - c++
+- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wmp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmp.dll
+- wmp.dll
 api_name:
- - IWMPStringCollection2.isIdentical
+- IWMPStringCollection2.isIdentical
 targetos: Windows
 req.typenames: 
 req.redist: 

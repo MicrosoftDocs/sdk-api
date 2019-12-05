@@ -1,19 +1,17 @@
 ---
 UID: NF:msi.MsiSourceListForceResolutionExW
 title: MsiSourceListForceResolutionExW function (msi.h)
-
 description: The MsiSourceListForceResolutionEx function removes the registration of the property called &#0034;LastUsedSource&#0034;.
 old-location: setup\msisourcelistforceresolutionex.htm
 tech.root: Msi
 ms.assetid: 8eb140bb-79c4-454a-9004-71905e430811
-
 ms.date: 12/05/2018
 ms.keywords: MSICODE_PATCH, MSICODE_PRODUCT, MSIINSTALLCONTEXT_MACHINE, MSIINSTALLCONTEXT_USERMANAGED, MSIINSTALLCONTEXT_USERUNMANAGED, MsiSourceListForceResolutionEx, MsiSourceListForceResolutionEx function, MsiSourceListForceResolutionExA, MsiSourceListForceResolutionExW, msi/MsiSourceListForceResolutionEx, msi/MsiSourceListForceResolutionExA, msi/MsiSourceListForceResolutionExW, setup.msisourcelistforceresolutionex
 ms.topic: function
-f1_keywords: 
- - "msi/MsiSourceListForceResolutionEx"
+f1_keywords:
+- msi/MsiSourceListForceResolutionEx
 dev_langs:
- - c++
+- c++
 req.header: msi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Msi.lib
 req.dll: Msi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Msi.dll
+- Msi.dll
 api_name:
- - MsiSourceListForceResolutionEx
- - MsiSourceListForceResolutionExA
- - MsiSourceListForceResolutionExW
+- MsiSourceListForceResolutionEx
+- MsiSourceListForceResolutionExA
+- MsiSourceListForceResolutionExW
 targetos: Windows
 req.typenames: 
 req.redist: 

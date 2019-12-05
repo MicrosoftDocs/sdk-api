@@ -1,19 +1,17 @@
 ---
 UID: NF:mfidl.MFCreateCredentialCache
 title: MFCreateCredentialCache function (mfidl.h)
-
 description: Creates a credential cache object. An application can use this object to implement a custom credential manager.
 old-location: mf\mfcreatecredentialcache.htm
 tech.root: medfound
 ms.assetid: ec27f54a-4534-4342-856b-f6f55c5a7fdb
-
 ms.date: 12/05/2018
 ms.keywords: MFCreateCredentialCache, MFCreateCredentialCache function [Media Foundation], ec27f54a-4534-4342-856b-f6f55c5a7fdb, mf.mfcreatecredentialcache, mfidl/MFCreateCredentialCache
 ms.topic: function
-f1_keywords: 
- - "mfidl/MFCreateCredentialCache"
+f1_keywords:
+- mfidl/MFCreateCredentialCache
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Mf.lib
 req.dll: Mf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - mf.dll
+- mf.dll
 api_name:
- - MFCreateCredentialCache
+- MFCreateCredentialCache
 targetos: Windows
 req.typenames: 
 req.redist: 

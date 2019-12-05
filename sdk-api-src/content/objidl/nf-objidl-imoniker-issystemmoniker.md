@@ -1,19 +1,17 @@
 ---
 UID: NF:objidl.IMoniker.IsSystemMoniker
 title: IMoniker::IsSystemMoniker (objidl.h)
-
 description: Determines whether this moniker is one of the system-provided moniker classes.
 old-location: com\imoniker_issystemmoniker.htm
 tech.root: com
 ms.assetid: a61c0df9-786e-45e7-8b3d-f950decc596d
-
 ms.date: 12/05/2018
 ms.keywords: IMoniker interface [COM],IsSystemMoniker method, IMoniker.IsSystemMoniker, IMoniker::IsSystemMoniker, IsSystemMoniker, IsSystemMoniker method [COM], IsSystemMoniker method [COM],IMoniker interface, _com_imoniker_issystemmoniker, com.imoniker_issystemmoniker, objidl/IMoniker::IsSystemMoniker
 ms.topic: method
-f1_keywords: 
- - "objidl/IMoniker.IsSystemMoniker"
+f1_keywords:
+- objidl/IMoniker.IsSystemMoniker
 dev_langs:
- - c++
+- c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ObjIdl.h
+- ObjIdl.h
 api_name:
- - IMoniker.IsSystemMoniker
+- IMoniker.IsSystemMoniker
 targetos: Windows
 req.typenames: 
 req.redist: 

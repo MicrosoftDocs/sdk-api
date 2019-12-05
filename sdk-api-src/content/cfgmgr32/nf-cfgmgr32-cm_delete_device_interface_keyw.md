@@ -1,19 +1,17 @@
 ---
 UID: NF:cfgmgr32.CM_Delete_Device_Interface_KeyW
 title: CM_Delete_Device_Interface_KeyW function (cfgmgr32.h)
-
 description: The CM_Delete_Device_Interface_Key function deletes the registry subkey that is used by applications and drivers to store interface-specific information.
 old-location: devinst\cm_delete_device_interface_key.htm
 tech.root: devinst
 ms.assetid: 3DA5BD50-54AE-47A5-A99C-9E24CB2FA3D6
-
 ms.date: 12/05/2018
 ms.keywords: CM_Delete_Device_Interface_Key, CM_Delete_Device_Interface_Key function [Device and Driver Installation], CM_Delete_Device_Interface_KeyW, cfgmgr32/CM_Delete_Device_Interface_Key, cfgmgr32/CM_Delete_Device_Interface_KeyW, devinst.cm_delete_device_interface_key
 ms.topic: function
-f1_keywords: 
- - "cfgmgr32/CM_Delete_Device_Interface_Key"
+f1_keywords:
+- cfgmgr32/CM_Delete_Device_Interface_Key
 dev_langs:
- - c++
+- c++
 req.header: cfgmgr32.h
 req.include-header: Cfgmgr32.h
 req.target-type: Universal
@@ -32,19 +30,19 @@ req.lib: Cfgmgr32.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Cfgmgr32.lib
- - Cfgmgr32.dll
- - API-Ms-Win-Devices-Config-L1-1-0.dll
- - API-Ms-Win-Devices-Config-L1-1-1.dll
- - CfgMgr32.dll
+- Cfgmgr32.lib
+- Cfgmgr32.dll
+- API-Ms-Win-Devices-Config-L1-1-0.dll
+- API-Ms-Win-Devices-Config-L1-1-1.dll
+- CfgMgr32.dll
 api_name:
- - CM_Delete_Device_Interface_Key
- - CM_Delete_Device_Interface_KeyW
+- CM_Delete_Device_Interface_Key
+- CM_Delete_Device_Interface_KeyW
 targetos: Windows
 req.typenames: 
 req.redist: 

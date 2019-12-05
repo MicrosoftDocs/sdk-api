@@ -1,19 +1,17 @@
 ---
 UID: NF:mbnapi.IMbnConnectionProfileManager.CreateConnectionProfile
 title: IMbnConnectionProfileManager::CreateConnectionProfile (mbnapi.h)
-
 description: Creates a new connection profile for the device.
 old-location: mbn\imbnconnectionprofilemanager_createconnectionprofile.htm
 tech.root: mbn
 ms.assetid: b9c191cc-aa6f-4548-ad4a-f2b9808c5f23
-
 ms.date: 12/05/2018
 ms.keywords: CreateConnectionProfile, CreateConnectionProfile method [Microsoft Broadband Networks], CreateConnectionProfile method [Microsoft Broadband Networks],IMbnConnectionProfileManager interface, IMbnConnectionProfileManager interface [Microsoft Broadband Networks],CreateConnectionProfile method, IMbnConnectionProfileManager.CreateConnectionProfile, IMbnConnectionProfileManager::CreateConnectionProfile, mbn.imbnconnectionprofilemanager_createconnectionprofile, mbnapi/IMbnConnectionProfileManager::CreateConnectionProfile
 ms.topic: method
-f1_keywords: 
- - "mbnapi/IMbnConnectionProfileManager.CreateConnectionProfile"
+f1_keywords:
+- mbnapi/IMbnConnectionProfileManager.CreateConnectionProfile
 dev_langs:
- - c++
+- c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mbnapi.h
+- mbnapi.h
 api_name:
- - IMbnConnectionProfileManager.CreateConnectionProfile
+- IMbnConnectionProfileManager.CreateConnectionProfile
 targetos: Windows
 req.typenames: 
 req.redist: 

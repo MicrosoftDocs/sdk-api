@@ -1,19 +1,17 @@
 ---
 UID: NS:minwinbase._UNLOAD_DLL_DEBUG_INFO
 title: UNLOAD_DLL_DEBUG_INFO (minwinbase.h)
-
 description: Contains information about a dynamic-link library (DLL) that has just been unloaded.
 old-location: base\unload_dll_debug_info_str.htm
 tech.root: Debug
 ms.assetid: a4ece775-a49e-406b-8eae-264f978eb597
-
 ms.date: 12/05/2018
-ms.keywords: "*LPUNLOAD_DLL_DEBUG_INFO, LPUNLOAD_DLL_DEBUG_INFO, LPUNLOAD_DLL_DEBUG_INFO structure pointer, UNLOAD_DLL_DEBUG_INFO, UNLOAD_DLL_DEBUG_INFO structure, _UNLOAD_DLL_DEBUG_INFO, _win32_unload_dll_debug_info_str, base.unload_dll_debug_info_str, minwinbase/LPUNLOAD_DLL_DEBUG_INFO, minwinbase/UNLOAD_DLL_DEBUG_INFO"
+ms.keywords: '*LPUNLOAD_DLL_DEBUG_INFO, LPUNLOAD_DLL_DEBUG_INFO, LPUNLOAD_DLL_DEBUG_INFO structure pointer, UNLOAD_DLL_DEBUG_INFO, UNLOAD_DLL_DEBUG_INFO structure, _UNLOAD_DLL_DEBUG_INFO, _win32_unload_dll_debug_info_str, base.unload_dll_debug_info_str, minwinbase/LPUNLOAD_DLL_DEBUG_INFO, minwinbase/UNLOAD_DLL_DEBUG_INFO'
 ms.topic: struct
-f1_keywords: 
- - "minwinbase/UNLOAD_DLL_DEBUG_INFO"
+f1_keywords:
+- minwinbase/UNLOAD_DLL_DEBUG_INFO
 dev_langs:
- - c++
+- c++
 req.header: minwinbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - minwinbase.h
+- minwinbase.h
 api_name:
- - UNLOAD_DLL_DEBUG_INFO
+- UNLOAD_DLL_DEBUG_INFO
 targetos: Windows
 req.typenames: UNLOAD_DLL_DEBUG_INFO, *LPUNLOAD_DLL_DEBUG_INFO
 req.redist: 

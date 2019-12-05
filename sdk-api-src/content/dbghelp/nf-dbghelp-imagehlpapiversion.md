@@ -1,19 +1,17 @@
 ---
 UID: NF:dbghelp.ImagehlpApiVersion
 title: ImagehlpApiVersion function (dbghelp.h)
-
 description: Retrieves the version information of the DbgHelp library installed on the system.
 old-location: base\imagehlpapiversion.htm
 tech.root: Debug
 ms.assetid: 0ad9a047-f2ae-4fbe-8a85-9817a616ef73
-
 ms.date: 12/05/2018
 ms.keywords: ImagehlpApiVersion, ImagehlpApiVersion function, _win32_imagehlpapiversion, base.imagehlpapiversion, dbghelp/ImagehlpApiVersion
 ms.topic: function
-f1_keywords: 
- - "dbghelp/ImagehlpApiVersion"
+f1_keywords:
+- dbghelp/ImagehlpApiVersion
 dev_langs:
- - c++
+- c++
 req.header: dbghelp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dbghelp.lib
 req.dll: Dbghelp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Dbghelp.dll
+- Dbghelp.dll
 api_name:
- - ImagehlpApiVersion
+- ImagehlpApiVersion
 targetos: Windows
 req.typenames: 
 req.redist: DbgHelp.dll 5.1 or later

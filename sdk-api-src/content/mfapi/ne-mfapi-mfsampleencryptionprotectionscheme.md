@@ -1,19 +1,17 @@
 ---
 UID: NE:mfapi._MFSampleEncryptionProtectionScheme
 title: MFSampleEncryptionProtectionScheme (mfapi.h)
-
 description: Specifies the supported protection schemes for encrypted samples.
 old-location: mf\mfsampleencryptionprotectionscheme.htm
 tech.root: medfound
 ms.assetid: 2FD4ABDA-ED8D-4403-955B-3BCEEA3C8BE7
-
 ms.date: 12/05/2018
 ms.keywords: MFSampleEncryptionProtectionScheme, MFSampleEncryptionProtectionScheme enumeration [Media Foundation], SAMPLE_ENCRYPTION_PROTECTION_SCHEME_AES_CBC, SAMPLE_ENCRYPTION_PROTECTION_SCHEME_AES_CTR, SAMPLE_ENCRYPTION_PROTECTION_SCHEME_NONE, mf.mfsampleencryptionprotectionscheme, mfapi/MFSampleEncryptionProtectionScheme, mfapi/SAMPLE_ENCRYPTION_PROTECTION_SCHEME_AES_CBC, mfapi/SAMPLE_ENCRYPTION_PROTECTION_SCHEME_AES_CTR, mfapi/SAMPLE_ENCRYPTION_PROTECTION_SCHEME_NONE
 ms.topic: enum
-f1_keywords: 
- - "mfapi/MFSampleEncryptionProtectionScheme"
+f1_keywords:
+- mfapi/MFSampleEncryptionProtectionScheme
 dev_langs:
- - c++
+- c++
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - mfapi.h
+- mfapi.h
 api_name:
- - MFSampleEncryptionProtectionScheme
+- MFSampleEncryptionProtectionScheme
 targetos: Windows
 req.typenames: MFSampleEncryptionProtectionScheme
 req.redist: 

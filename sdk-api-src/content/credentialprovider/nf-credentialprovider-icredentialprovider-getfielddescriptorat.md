@@ -1,19 +1,17 @@
 ---
 UID: NF:credentialprovider.ICredentialProvider.GetFieldDescriptorAt
 title: ICredentialProvider::GetFieldDescriptorAt (credentialprovider.h)
-
 description: Gets metadata that describes a specified field.
 old-location: shell\ICredentialProvider_GetFieldDescriptorAt.htm
 tech.root: shell
 ms.assetid: bb9f063d-afbc-4f6b-a4a5-19a9a644f029
-
 ms.date: 12/05/2018
 ms.keywords: GetFieldDescriptorAt, GetFieldDescriptorAt method [Windows Shell], GetFieldDescriptorAt method [Windows Shell],ICredentialProvider interface, ICredentialProvider interface [Windows Shell],GetFieldDescriptorAt method, ICredentialProvider.GetFieldDescriptorAt, ICredentialProvider::GetFieldDescriptorAt, credentialprovider/ICredentialProvider::GetFieldDescriptorAt, shell.ICredentialProvider_GetFieldDescriptorAt, shell_ICredentialProvider_GetFieldDescriptorAt
 ms.topic: method
-f1_keywords: 
- - "credentialprovider/ICredentialProvider.GetFieldDescriptorAt"
+f1_keywords:
+- credentialprovider/ICredentialProvider.GetFieldDescriptorAt
 dev_langs:
- - c++
+- c++
 req.header: credentialprovider.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Credentialprovider.h
+- Credentialprovider.h
 api_name:
- - ICredentialProvider.GetFieldDescriptorAt
+- ICredentialProvider.GetFieldDescriptorAt
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NS:rpcndr._NDR_USER_MARSHAL_INFO_LEVEL1
 title: NDR_USER_MARSHAL_INFO_LEVEL1 (rpcndr.h)
-
 description: The NDR_USER_MARSHAL_INFO_LEVEL1 structure holds information about the state of an RPC call that can be passed to wire_marshal and user_marshal helper functions.
 old-location: rpc\ndr_user_marshal_info_level1.htm
 tech.root: Rpc
 ms.assetid: fe664968-ce70-4bc4-9caa-3e4d241d253c
-
 ms.date: 12/05/2018
 ms.keywords: NDR_USER_MARSHAL_INFO_LEVEL1, NDR_USER_MARSHAL_INFO_LEVEL1 structure [RPC], _rpc_ndr_user_marshal_info_level1, rpc.ndr_user_marshal_info_level1, rpcndr/NDR_USER_MARSHAL_INFO_LEVEL1
 ms.topic: struct
-f1_keywords: 
- - "rpcndr/NDR_USER_MARSHAL_INFO_LEVEL1"
+f1_keywords:
+- rpcndr/NDR_USER_MARSHAL_INFO_LEVEL1
 dev_langs:
- - c++
+- c++
 req.header: rpcndr.h
 req.include-header: Rpc.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Rpcndr.h
+- Rpcndr.h
 api_name:
- - NDR_USER_MARSHAL_INFO_LEVEL1
+- NDR_USER_MARSHAL_INFO_LEVEL1
 targetos: Windows
 req.typenames: NDR_USER_MARSHAL_INFO_LEVEL1
 req.redist: 

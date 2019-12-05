@@ -1,19 +1,17 @@
 ---
 UID: NE:fsrmenums._FsrmGetFilePropertyOptions
 title: FsrmGetFilePropertyOptions (fsrmenums.h)
-
 description: Flags that defines how classification properties associated with a file are retrieved.
 old-location: fsrm\fsrmgetfilepropertyoptions.htm
 tech.root: fsrm
 ms.assetid: d909e244-344f-4da9-987c-de406c2dc359
-
 ms.date: 12/05/2018
 ms.keywords: FsrmGetFilePropertyOptions, FsrmGetFilePropertyOptions enumeration [File Server Resource Manager], FsrmGetFilePropertyOptions_FailOnPersistErrors, FsrmGetFilePropertyOptions_NoRuleEvaluation, FsrmGetFilePropertyOptions_None, FsrmGetFilePropertyOptions_Persistent, FsrmGetFilePropertyOptions_SkipOrphaned, fs.fsrmgetfilepropertyoptions, fsrm.fsrmgetfilepropertyoptions, fsrm/FsrmGetFilePropertyOptions, fsrm/FsrmGetFilePropertyOptions_FailOnPersistErrors, fsrm/FsrmGetFilePropertyOptions_NoRuleEvaluation, fsrm/FsrmGetFilePropertyOptions_None, fsrm/FsrmGetFilePropertyOptions_Persistent, fsrm/FsrmGetFilePropertyOptions_SkipOrphaned
 ms.topic: enum
-f1_keywords: 
- - "fsrmenums/FsrmGetFilePropertyOptions"
+f1_keywords:
+- fsrmenums/FsrmGetFilePropertyOptions
 dev_langs:
- - c++
+- c++
 req.header: fsrmenums.h
 req.include-header: FsrmPipeline.h, FsrmQuota.h, FsrmReports.h, FsrmScreen.h, Fsrmenums.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Fsrm.h
+- Fsrm.h
 api_name:
- - FsrmGetFilePropertyOptions
+- FsrmGetFilePropertyOptions
 targetos: Windows
 req.typenames: FsrmGetFilePropertyOptions
 req.redist: 

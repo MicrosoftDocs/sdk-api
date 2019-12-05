@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl.IAutoCompleteDropDown.ResetEnumerator
 title: IAutoCompleteDropDown::ResetEnumerator (shobjidl.h)
-
 description: Forces the autocomplete object to refresh its list of suggestions when the list is visible.
 old-location: shell\IAutoCompleteDropDown_ResetEnumerator.htm
 tech.root: shell
 ms.assetid: 9a880b2a-190a-45ea-8672-f2d0247987ed
-
 ms.date: 12/05/2018
 ms.keywords: IAutoCompleteDropDown interface [Windows Shell],ResetEnumerator method, IAutoCompleteDropDown.ResetEnumerator, IAutoCompleteDropDown::ResetEnumerator, ResetEnumerator, ResetEnumerator method [Windows Shell], ResetEnumerator method [Windows Shell],IAutoCompleteDropDown interface, _shell_IAutoCompleteDropDown_ResetEnumerator, shell.IAutoCompleteDropDown_ResetEnumerator, shobjidl/IAutoCompleteDropDown::ResetEnumerator
 ms.topic: method
-f1_keywords: 
- - "shobjidl/IAutoCompleteDropDown.ResetEnumerator"
+f1_keywords:
+- shobjidl/IAutoCompleteDropDown.ResetEnumerator
 dev_langs:
- - c++
+- c++
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Browseui.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Browseui.dll
+- Browseui.dll
 api_name:
- - IAutoCompleteDropDown.ResetEnumerator
+- IAutoCompleteDropDown.ResetEnumerator
 targetos: Windows
 req.typenames: 
 req.redist: 

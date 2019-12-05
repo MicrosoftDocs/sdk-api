@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d12.ID3D12Tools.ShaderInstrumentationEnabled
 title: ID3D12Tools::ShaderInstrumentationEnabled (d3d12.h)
-
 description: Determines whether shader instrumentation is enabled.
 old-location: direct3d12\id3d12tools_shaderinstrumentationenabled.htm
 tech.root: direct3d12
 ms.assetid: 02A36358-5015-4CA1-B329-CCF074CF8F40
-
 ms.date: 12/05/2018
 ms.keywords: ID3D12Tools interface,ShaderInstrumentationEnabled method, ID3D12Tools.ShaderInstrumentationEnabled, ID3D12Tools::ShaderInstrumentationEnabled, ShaderInstrumentationEnabled, ShaderInstrumentationEnabled method, ShaderInstrumentationEnabled method,ID3D12Tools interface, d3d12/ID3D12Tools::ShaderInstrumentationEnabled, direct3d12.id3d12tools_shaderinstrumentationenabled
 ms.topic: method
-f1_keywords: 
- - "d3d12/ID3D12Tools.ShaderInstrumentationEnabled"
+f1_keywords:
+- d3d12/ID3D12Tools.ShaderInstrumentationEnabled
 dev_langs:
- - c++
+- c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: D3D12.lib
 req.dll: D3D12.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D12.dll
+- D3D12.dll
 api_name:
- - ID3D12Tools.ShaderInstrumentationEnabled
+- ID3D12Tools.ShaderInstrumentationEnabled
 targetos: Windows
 req.typenames: 
 req.redist: 

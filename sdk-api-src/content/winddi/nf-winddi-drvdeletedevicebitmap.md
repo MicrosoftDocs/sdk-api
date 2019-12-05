@@ -1,19 +1,17 @@
 ---
 UID: NF:winddi.DrvDeleteDeviceBitmap
 title: DrvDeleteDeviceBitmap function (winddi.h)
-
 description: The DrvDeleteDeviceBitmap function deletes a device bitmap created by DrvCreateDeviceBitmap.
 old-location: display\drvdeletedevicebitmap.htm
 tech.root: display
 ms.assetid: cb52b133-95c6-4a3d-b8b6-e1628a301542
-
 ms.date: 12/05/2018
 ms.keywords: DrvDeleteDeviceBitmap, DrvDeleteDeviceBitmap function [Display Devices], ddifncs_3c8f9ccd-c145-481c-9d31-6a951557527d.xml, display.drvdeletedevicebitmap, winddi/DrvDeleteDeviceBitmap
 ms.topic: function
-f1_keywords: 
- - "winddi/DrvDeleteDeviceBitmap"
+f1_keywords:
+- winddi/DrvDeleteDeviceBitmap
 dev_langs:
- - c++
+- c++
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Desktop
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - winddi.h
+- winddi.h
 api_name:
- - DrvDeleteDeviceBitmap
+- DrvDeleteDeviceBitmap
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:gdipluspath.GraphicsPath.AddCurve(IN const PointF,IN INT,IN REAL)
 title: GraphicsPath::AddCurve(IN const PointF,IN INT,IN REAL) (gdipluspath.h)
-
 description: The GraphicsPath::AddCurve method adds a cardinal spline to the current figure of this path.
 old-location: gdiplus\_gdiplus_CLASS_GraphicsPath_AddCurve_PointF_points_INT_count_REAL_tension_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicspathclass\graphicspathmethods\graphicspathaddcurvemethods\addcurve_31pointfpoints_intcount_realtension.htm
-
 ms.date: 12/05/2018
 ms.keywords: AddCurve, AddCurve method [GDI+], AddCurve method [GDI+],GraphicsPath class, GraphicsPath class [GDI+],AddCurve method, GraphicsPath.AddCurve, GraphicsPath.AddCurve(IN const PointF,IN INT,IN REAL), GraphicsPath.AddCurve(const PointF*,INT,REAL), GraphicsPath::AddCurve, GraphicsPath::AddCurve(IN const PointF,IN INT,IN REAL), _gdiplus_CLASS_GraphicsPath_AddCurve_PointF_points_INT_count_REAL_tension_, gdiplus._gdiplus_CLASS_GraphicsPath_AddCurve_PointF_points_INT_count_REAL_tension_
 ms.topic: method
-f1_keywords: 
- - "gdipluspath/GraphicsPath.AddCurve"
+f1_keywords:
+- gdipluspath/GraphicsPath.AddCurve
 dev_langs:
- - c++
+- c++
 req.header: gdipluspath.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - GraphicsPath.AddCurve
+- GraphicsPath.AddCurve
 targetos: Windows
 req.typenames: 
 req.redist: 

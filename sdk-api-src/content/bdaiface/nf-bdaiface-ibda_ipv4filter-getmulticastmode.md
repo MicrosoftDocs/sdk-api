@@ -1,19 +1,17 @@
 ---
 UID: NF:bdaiface.IBDA_IPV4Filter.GetMulticastMode
 title: IBDA_IPV4Filter::GetMulticastMode (bdaiface.h)
-
 description: The GetMulticastMode method retrieves the multicast mode.
 old-location: mstv\ibda_ipv4filter_getmulticastmode.htm
 tech.root: mstv
 ms.assetid: 231c20f6-3204-48a3-ad07-3df9c6d87bd7
-
 ms.date: 12/05/2018
 ms.keywords: GetMulticastMode, GetMulticastMode method [Microsoft TV Technologies], GetMulticastMode method [Microsoft TV Technologies],IBDA_IPV4Filter interface, IBDA_IPV4Filter interface [Microsoft TV Technologies],GetMulticastMode method, IBDA_IPV4Filter.GetMulticastMode, IBDA_IPV4Filter::GetMulticastMode, IBDA_IPV4FilterGetMulticastMode, bdaiface/IBDA_IPV4Filter::GetMulticastMode, mstv.ibda_ipv4filter_getmulticastmode
 ms.topic: method
-f1_keywords: 
- - "bdaiface/IBDA_IPV4Filter.GetMulticastMode"
+f1_keywords:
+- bdaiface/IBDA_IPV4Filter.GetMulticastMode
 dev_langs:
- - c++
+- c++
 req.header: bdaiface.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - bdaiface.h
+- bdaiface.h
 api_name:
- - IBDA_IPV4Filter.GetMulticastMode
+- IBDA_IPV4Filter.GetMulticastMode
 targetos: Windows
 req.typenames: 
 req.redist: 

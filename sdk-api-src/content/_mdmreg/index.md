@@ -1,7 +1,6 @@
 ---
 UID: TP:mdmreg
 ms.assetid: 4d87bfdb-f90b-391a-8117-d64350326fa4
-
 ms.date: 01/11/2019
 ms.keywords: 
 ms.topic: portal

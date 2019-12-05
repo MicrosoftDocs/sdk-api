@@ -1,19 +1,17 @@
 ---
 UID: NF:directxcollision.BoundingBox.BoundingBox(const XMFLOAT3 &,const XMFLOAT3 &)
 title: BoundingBox::BoundingBox(const XMFLOAT3 &,const XMFLOAT3 &)
-
 description: Creates an instance of the BoundingBox class.
 old-location: dxmath\boundingbox_ctor_2.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.directxcollision.BoundingBox.#ctor(XMFLOAT3,XMFLOAT3)
-
 ms.date: 12/05/2018
 ms.keywords: BoundingBox, BoundingBox constructor [DirectX Math Support APIs], BoundingBox constructor [DirectX Math Support APIs],BoundingBox interface, BoundingBox interface [DirectX Math Support APIs],BoundingBox constructor, BoundingBox.BoundingBox, BoundingBox.BoundingBox(const XMFLOAT3 &,const XMFLOAT3 &), BoundingBox.BoundingBox(const XMFLOAT3&,const XMFLOAT3&), BoundingBox::BoundingBox, BoundingBox::BoundingBox(const XMFLOAT3 &,const XMFLOAT3 &), dxmath.boundingbox_ctor_2
 ms.topic: method
-f1_keywords: 
- - "directxcollision/BoundingBox.BoundingBox"
+f1_keywords:
+- directxcollision/BoundingBox.BoundingBox
 dev_langs:
- - c++
+- c++
 req.header: directxcollision.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - DirectXCollision.h
+- DirectXCollision.h
 api_name:
- - BoundingBox.BoundingBox
+- BoundingBox.BoundingBox
 targetos: Windows
 req.typenames: 
 req.redist: 

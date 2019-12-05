@@ -1,19 +1,17 @@
 ---
 UID: NF:uxtheme.EndBufferedAnimation
 title: EndBufferedAnimation function (uxtheme.h)
-
 description: Renders the first frame of a buffered animation operation and starts the animation timer.
 old-location: controls\EndBufferedAnimation.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\userex\functions\endbufferedanimation.htm
-
 ms.date: 12/05/2018
 ms.keywords: EndBufferedAnimation, EndBufferedAnimation function [Windows Controls], _shell_EndBufferedAnimation, _shell_EndBufferedAnimation_cpp, controls.EndBufferedAnimation, controls._shell_EndBufferedAnimation, uxtheme/EndBufferedAnimation
 ms.topic: function
-f1_keywords: 
- - "uxtheme/EndBufferedAnimation"
+f1_keywords:
+- uxtheme/EndBufferedAnimation
 dev_langs:
- - c++
+- c++
 req.header: uxtheme.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: UxTheme.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - UxTheme.dll
+- UxTheme.dll
 api_name:
- - EndBufferedAnimation
+- EndBufferedAnimation
 targetos: Windows
 req.typenames: 
 req.redist: 

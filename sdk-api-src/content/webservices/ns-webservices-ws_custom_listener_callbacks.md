@@ -1,19 +1,17 @@
 ---
 UID: NS:webservices._WS_CUSTOM_LISTENER_CALLBACKS
 title: WS_CUSTOM_LISTENER_CALLBACKS (webservices.h)
-
 description: A structure that is used to specify a set of callbacks that form the implementation of a custom listener.
 old-location: wsw\ws_custom_listener_callbacks.htm
 tech.root: wsw
 ms.assetid: b0be530f-5eff-4daa-90be-f9be648dfad7
-
 ms.date: 12/05/2018
 ms.keywords: WS_CUSTOM_LISTENER_CALLBACKS, WS_CUSTOM_LISTENER_CALLBACKS structure [Web Services for Windows], webservices/WS_CUSTOM_LISTENER_CALLBACKS, wsw.ws_custom_listener_callbacks
 ms.topic: struct
-f1_keywords: 
- - "webservices/WS_CUSTOM_LISTENER_CALLBACKS"
+f1_keywords:
+- webservices/WS_CUSTOM_LISTENER_CALLBACKS
 dev_langs:
- - c++
+- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WebServices.h
+- WebServices.h
 api_name:
- - WS_CUSTOM_LISTENER_CALLBACKS
+- WS_CUSTOM_LISTENER_CALLBACKS
 targetos: Windows
 req.typenames: WS_CUSTOM_LISTENER_CALLBACKS
 req.redist: 

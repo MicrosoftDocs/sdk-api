@@ -1,19 +1,17 @@
 ---
 UID: NF:pla.IDataCollectorSet.put_Keywords
 title: IDataCollectorSet::put_Keywords (pla.h)
-
 description: Retrieves or sets keywords that describe the data collector set. The list of keywords is added to the output files as metadata.
 old-location: pla\idatacollectorset_get_keywords.htm
 tech.root: PLA
 ms.assetid: 0a1203e3-672b-47fb-9072-d3f06ba22865
-
 ms.date: 12/05/2018
 ms.keywords: IDataCollectorSet interface [PLA],Keywords property, IDataCollectorSet.Keywords, IDataCollectorSet.put_Keywords, IDataCollectorSet::Keywords, IDataCollectorSet::get_Keywords, IDataCollectorSet::put_Keywords, Keywords property [PLA], Keywords property [PLA],IDataCollectorSet interface, base.idatacollectorset_get_keywords, pla.idatacollectorset_get_keywords, pla/IDataCollectorSet::Keywords, pla/IDataCollectorSet::get_Keywords, pla/IDataCollectorSet::put_Keywords, put_Keywords
 ms.topic: method
-f1_keywords: 
- - "pla/IDataCollectorSet.Keywords"
+f1_keywords:
+- pla/IDataCollectorSet.Keywords
 dev_langs:
- - c++
+- c++
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: Pla.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Pla.dll
+- Pla.dll
 api_name:
- - IDataCollectorSet.Keywords
- - IDataCollectorSet.get_Keywords
- - IDataCollectorSet.put_Keywords
+- IDataCollectorSet.Keywords
+- IDataCollectorSet.get_Keywords
+- IDataCollectorSet.put_Keywords
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:gdiplusheaders.Image.GetFrameCount
 title: Image::GetFrameCount (gdiplusheaders.h)
-
 description: The Image::GetFrameCount method gets the number of frames in a specified dimension of this Image object.
 old-location: gdiplus\_gdiplus_CLASS_Image_GetFrameCount_dimensionID_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\imageclass\imagemethods\getframecount.htm
-
 ms.date: 12/05/2018
 ms.keywords: GetFrameCount, GetFrameCount method [GDI+], GetFrameCount method [GDI+],Image class, Image class [GDI+],GetFrameCount method, Image.GetFrameCount, Image::GetFrameCount, _gdiplus_CLASS_Image_GetFrameCount_dimensionID_, gdiplus._gdiplus_CLASS_Image_GetFrameCount_dimensionID_
 ms.topic: method
-f1_keywords: 
- - "gdiplusheaders/Image.GetFrameCount"
+f1_keywords:
+- gdiplusheaders/Image.GetFrameCount
 dev_langs:
- - c++
+- c++
 req.header: gdiplusheaders.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - Image.GetFrameCount
+- Image.GetFrameCount
 targetos: Windows
 req.typenames: 
 req.redist: 

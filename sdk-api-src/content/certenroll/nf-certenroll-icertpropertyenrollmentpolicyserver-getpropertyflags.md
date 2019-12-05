@@ -1,19 +1,17 @@
 ---
 UID: NF:certenroll.ICertPropertyEnrollmentPolicyServer.GetPropertyFlags
 title: ICertPropertyEnrollmentPolicyServer::GetPropertyFlags (certenroll.h)
-
 description: Retrieves a value that specifies the default policy server URL.
 old-location: security\icertpropertyenrollmentpolicyserver_getpropertyflags.htm
 tech.root: seccertenroll
 ms.assetid: 80d1af3c-2d1a-4d19-aed6-8cb2d3e52535
-
 ms.date: 12/05/2018
 ms.keywords: DefaultNone, DefaultPolicyServer, GetPropertyFlags, GetPropertyFlags method [Security], GetPropertyFlags method [Security],ICertPropertyEnrollmentPolicyServer interface, ICertPropertyEnrollmentPolicyServer interface [Security],GetPropertyFlags method, ICertPropertyEnrollmentPolicyServer.GetPropertyFlags, ICertPropertyEnrollmentPolicyServer::GetPropertyFlags, certenroll/ICertPropertyEnrollmentPolicyServer::GetPropertyFlags, security.icertpropertyenrollmentpolicyserver_getpropertyflags
 ms.topic: method
-f1_keywords: 
- - "certenroll/ICertPropertyEnrollmentPolicyServer.GetPropertyFlags"
+f1_keywords:
+- certenroll/ICertPropertyEnrollmentPolicyServer.GetPropertyFlags
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Certenroll.h
+- Certenroll.h
 api_name:
- - ICertPropertyEnrollmentPolicyServer.GetPropertyFlags
+- ICertPropertyEnrollmentPolicyServer.GetPropertyFlags
 targetos: Windows
 req.typenames: 
 req.redist: 

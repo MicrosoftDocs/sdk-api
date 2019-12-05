@@ -1,19 +1,17 @@
 ---
 UID: NF:dvbsiparser.IIsdbCADescriptor.GetLength
 title: IIsdbCADescriptor::GetLength (dvbsiparser.h)
-
 description: Gets the body length of a conditional access (CA) descriptor, in bytes.
 old-location: mstv\iisdbcadescriptor_getlength.htm
 tech.root: mstv
 ms.assetid: 25331811-51d4-4009-8fc2-825a8de33dcf
-
 ms.date: 12/05/2018
 ms.keywords: GetLength, GetLength method [Microsoft TV Technologies], GetLength method [Microsoft TV Technologies],IIsdbCADescriptor interface, IIsdbCADescriptor interface [Microsoft TV Technologies],GetLength method, IIsdbCADescriptor.GetLength, IIsdbCADescriptor::GetLength, dvbsiparser/IIsdbCADescriptor::GetLength, mstv.iisdbcadescriptor_getlength
 ms.topic: method
-f1_keywords: 
- - "dvbsiparser/IIsdbCADescriptor.GetLength"
+f1_keywords:
+- dvbsiparser/IIsdbCADescriptor.GetLength
 dev_langs:
- - c++
+- c++
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dvbsiparser.h
+- dvbsiparser.h
 api_name:
- - IIsdbCADescriptor.GetLength
+- IIsdbCADescriptor.GetLength
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:cfapi.CfRevertPlaceholder
 title: CfRevertPlaceholder function (cfapi.h)
-
 description: Reverts a placeholder back to a regular file, stripping away all special characteristics such as the reparse tag, the file identity, etc.
 old-location: cloudapi\cfrevertplaceholder.htm
 tech.root: cfApi
 ms.assetid: D5404BB6-A066-4B5F-A355-A11A107610CE
-
 ms.date: 12/05/2018
 ms.keywords: CfRevertPlaceholder, CfRevertPlaceholder function, cfapi/CfRevertPlaceholder, cloudApi.cfrevertplaceholder
 ms.topic: function
-f1_keywords: 
- - "cfapi/CfRevertPlaceholder"
+f1_keywords:
+- cfapi/CfRevertPlaceholder
 dev_langs:
- - c++
+- c++
 req.header: cfapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: CldApi.lib
 req.dll: CldApi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - CldApi.dll
+- CldApi.dll
 api_name:
- - CfRevertPlaceholder
+- CfRevertPlaceholder
 targetos: Windows
 req.typenames: 
 req.redist: 

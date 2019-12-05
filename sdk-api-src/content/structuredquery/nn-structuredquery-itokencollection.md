@@ -1,19 +1,17 @@
 ---
 UID: NN:structuredquery.ITokenCollection
 title: ITokenCollection (structuredquery.h)
-
 description: Gets the tokens that result from using a word breaker.
 old-location: search\_search_ITokenCollection.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\itokencollection\itokencollection.htm
-
 ms.date: 12/05/2018
 ms.keywords: ITokenCollection, ITokenCollection interface [search], ITokenCollection interface [search],described, _search_ITokenCollection, search._search_ITokenCollection, structuredquery/ITokenCollection
 ms.topic: interface
-f1_keywords: 
- - "structuredquery/ITokenCollection"
+f1_keywords:
+- structuredquery/ITokenCollection
 dev_langs:
- - c++
+- c++
 req.header: structuredquery.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Structuredquery.h
+- Structuredquery.h
 api_name:
- - ITokenCollection
+- ITokenCollection
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0

@@ -1,19 +1,17 @@
 ---
 UID: NF:comsvcs.IComInstanceEvents.OnObjectCreate
 title: IComInstanceEvents::OnObjectCreate (comsvcs.h)
-
 description: Generated when an object is created by a client.
 old-location: cos\icominstanceevents_onobjectcreate.htm
 tech.root: cossdk
 ms.assetid: 4f3457f6-4956-4411-b38b-46c7d84d342d
-
 ms.date: 12/05/2018
 ms.keywords: IComInstanceEvents interface [COM+],OnObjectCreate method, IComInstanceEvents.OnObjectCreate, IComInstanceEvents::OnObjectCreate, OnObjectCreate, OnObjectCreate method [COM+], OnObjectCreate method [COM+],IComInstanceEvents interface, _dtc_icominstanceevents_onobjectcreate, comsvcs/IComInstanceEvents::OnObjectCreate, cos.icominstanceevents_onobjectcreate
 ms.topic: method
-f1_keywords: 
- - "comsvcs/IComInstanceEvents.OnObjectCreate"
+f1_keywords:
+- comsvcs/IComInstanceEvents.OnObjectCreate
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - IComInstanceEvents.OnObjectCreate
+- IComInstanceEvents.OnObjectCreate
 targetos: Windows
 req.typenames: 
 req.redist: 

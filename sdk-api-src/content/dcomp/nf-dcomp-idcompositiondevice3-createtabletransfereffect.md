@@ -1,19 +1,17 @@
 ---
 UID: NF:dcomp.IDCompositionDevice3.CreateTableTransferEffect
 title: IDCompositionDevice3::CreateTableTransferEffect (dcomp.h)
-
 description: Creates an instance of IDCompositionTableTransferEffect.
 old-location: directcomp\idcompositiondevice3_createtabletransfereffect.htm
 tech.root: directcomp
 ms.assetid: C6438DB2-26DA-451A-B748-901C809C1369
-
 ms.date: 12/05/2018
 ms.keywords: CreateTableTransferEffect, CreateTableTransferEffect method [DirectComposition], CreateTableTransferEffect method [DirectComposition],IDCompositionDevice3 interface, IDCompositionDevice3 interface [DirectComposition],CreateTableTransferEffect method, IDCompositionDevice3.CreateTableTransferEffect, IDCompositionDevice3::CreateTableTransferEffect, dcomp/IDCompositionDevice3::CreateTableTransferEffect, directcomp.idcompositiondevice3_createtabletransfereffect
 ms.topic: method
-f1_keywords: 
- - "dcomp/IDCompositionDevice3.CreateTableTransferEffect"
+f1_keywords:
+- dcomp/IDCompositionDevice3.CreateTableTransferEffect
 dev_langs:
- - c++
+- c++
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dcomp.lib
 req.dll: Dcomp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dcomp.dll
+- dcomp.dll
 api_name:
- - IDCompositionDevice3.CreateTableTransferEffect
+- IDCompositionDevice3.CreateTableTransferEffect
 targetos: Windows
 req.typenames: 
 req.redist: 

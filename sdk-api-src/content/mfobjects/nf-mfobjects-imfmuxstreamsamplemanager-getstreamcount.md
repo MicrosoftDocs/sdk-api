@@ -1,19 +1,17 @@
 ---
 UID: NF:mfobjects.IMFMuxStreamSampleManager.GetStreamCount
 title: IMFMuxStreamSampleManager::GetStreamCount (mfobjects.h)
-
 description: Gets the count of substreams managed by the multiplexed media source.
 old-location: mf\imfmuxstreamsamplemanager_getstreamcount.htm
 tech.root: medfound
 ms.assetid: 7DB1AEAD-591F-4FA0-9DF0-9774C76A4B91
-
 ms.date: 12/05/2018
 ms.keywords: GetStreamCount, GetStreamCount method [Media Foundation], GetStreamCount method [Media Foundation],IMFMuxStreamSampleManager interface, IMFMuxStreamSampleManager interface [Media Foundation],GetStreamCount method, IMFMuxStreamSampleManager.GetStreamCount, IMFMuxStreamSampleManager::GetStreamCount, mf.imfmuxstreamsamplemanager_getstreamcount, mfobjects/IMFMuxStreamSampleManager::GetStreamCount
 ms.topic: method
-f1_keywords: 
- - "mfobjects/IMFMuxStreamSampleManager.GetStreamCount"
+f1_keywords:
+- mfobjects/IMFMuxStreamSampleManager.GetStreamCount
 dev_langs:
- - c++
+- c++
 req.header: mfobjects.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Mfplat.lib; Mfplat.dll
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfplat.lib
- - mfplat.dll
- - mfplat.dll
- - mfplat.dll.dll
+- mfplat.lib
+- mfplat.dll
+- mfplat.dll
+- mfplat.dll.dll
 api_name:
- - IMFMuxStreamSampleManager.GetStreamCount
+- IMFMuxStreamSampleManager.GetStreamCount
 targetos: Windows
 req.typenames: 
 req.redist: 

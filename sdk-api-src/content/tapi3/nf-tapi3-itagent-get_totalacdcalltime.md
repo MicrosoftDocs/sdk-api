@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi3.ITAgent.get_TotalACDCallTime
 title: ITAgent::get_TotalACDCallTime (tapi3.h)
-
 description: The get_TotalACDCallTime gets the number of seconds spent on ACD calls by this agent (across all sessions). This value includes the time spent on the phone plus wrap-up time.
 old-location: tapi3\itagent_get_totalacdcalltime.htm
 tech.root: Tapi
 ms.assetid: 432e22b7-16c3-447d-bbec-59ab7713039c
-
 ms.date: 12/05/2018
 ms.keywords: ITAgent interface [TAPI 2.2],get_TotalACDCallTime method, ITAgent.get_TotalACDCallTime, ITAgent::get_TotalACDCallTime, _tapi3_itagent_get_totalacdcalltime, get_TotalACDCallTime, get_TotalACDCallTime method [TAPI 2.2], get_TotalACDCallTime method [TAPI 2.2],ITAgent interface, tapi3.itagent_get_totalacdcalltime, tapi3cc/ITAgent::get_TotalACDCallTime
 ms.topic: method
-f1_keywords: 
- - "tapi3/ITAgent.get_TotalACDCallTime"
+f1_keywords:
+- tapi3/ITAgent.get_TotalACDCallTime
 dev_langs:
- - c++
+- c++
 req.header: tapi3.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Tapi3.dll
+- Tapi3.dll
 api_name:
- - ITAgent.get_TotalACDCallTime
+- ITAgent.get_TotalACDCallTime
 targetos: Windows
 req.typenames: 
 req.redist: 

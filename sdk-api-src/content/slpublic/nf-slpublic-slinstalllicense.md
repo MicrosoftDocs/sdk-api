@@ -1,19 +1,17 @@
 ---
 UID: NF:slpublic.SLInstallLicense
 title: SLInstallLicense function (slpublic.h)
-
 description: Stores the specified license and returns a license file ID.
 old-location: security\slinstalllicense.htm
 tech.root: SecSLApi
 ms.assetid: 39b14ce1-116b-4469-9e95-8cc4db70171a
-
 ms.date: 12/05/2018
 ms.keywords: SLInstallLicense, SLInstallLicense function [Security], security.slinstalllicense, slpublic/SLInstallLicense
 ms.topic: function
-f1_keywords: 
- - "slpublic/SLInstallLicense"
+f1_keywords:
+- slpublic/SLInstallLicense
 dev_langs:
- - c++
+- c++
 req.header: slpublic.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Slc.lib
 req.dll: Slc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Slc.dll
+- Slc.dll
 api_name:
- - SLInstallLicense
+- SLInstallLicense
 targetos: Windows
 req.typenames: 
 req.redist: 

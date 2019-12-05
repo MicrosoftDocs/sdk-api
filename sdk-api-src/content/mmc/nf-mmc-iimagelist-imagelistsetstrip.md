@@ -1,19 +1,17 @@
 ---
 UID: NF:mmc.IImageList.ImageListSetStrip
 title: IImageList::ImageListSetStrip (mmc.h)
-
 description: The IImageList::ImageListSetStrip method enables a user to add a strip of icons to the image list using a pair of bitmaps (large and small icons), starting at a location identified by nStartLoc.
 old-location: mmc\iimagelist_imagelistsetstrip.htm
 tech.root: mmc
 ms.assetid: b736a5ab-86a7-4c8d-82b7-bbe9f98bc402
-
 ms.date: 12/05/2018
 ms.keywords: IImageList interface [MMC],ImageListSetStrip method, IImageList.ImageListSetStrip, IImageList::ImageListSetStrip, ImageListSetStrip, ImageListSetStrip method [MMC], ImageListSetStrip method [MMC],IImageList interface, _slate_iimagelist_imagelistsetstrip, mmc.iimagelist_imagelistsetstrip, mmc/IImageList::ImageListSetStrip
 ms.topic: method
-f1_keywords: 
- - "mmc/IImageList.ImageListSetStrip"
+f1_keywords:
+- mmc/IImageList.ImageListSetStrip
 dev_langs:
- - c++
+- c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Mmcndmgr.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mmcndmgr.dll
+- Mmcndmgr.dll
 api_name:
- - IImageList.ImageListSetStrip
+- IImageList.ImageListSetStrip
 targetos: Windows
 req.typenames: 
 req.redist: 

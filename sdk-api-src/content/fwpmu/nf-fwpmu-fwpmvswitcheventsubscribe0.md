@@ -1,19 +1,17 @@
 ---
 UID: NF:fwpmu.FwpmvSwitchEventSubscribe0
 title: FwpmvSwitchEventSubscribe0 function (fwpmu.h)
-
 description: Is used to request the delivery of notifications regarding a particular vSwitch event.
 old-location: fwp\fwpmvswitcheventsubscribe0.htm
 tech.root: fwp
 ms.assetid: 1264a58d-81e1-4877-915d-6ed3d7d15512
-
 ms.date: 12/05/2018
 ms.keywords: FwpmvSwitchEventSubscribe0, FwpmvSwitchEventSubscribe0 function [Filtering], fwp.fwpmvswitcheventsubscribe0, fwpmu/FwpmvSwitchEventSubscribe0
 ms.topic: function
-f1_keywords: 
- - "fwpmu/FwpmvSwitchEventSubscribe0"
+f1_keywords:
+- fwpmu/FwpmvSwitchEventSubscribe0
 dev_langs:
- - c++
+- c++
 req.header: fwpmu.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Fwpuclnt.lib
 req.dll: Fwpuclnt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Fwpuclnt.dll
+- Fwpuclnt.dll
 api_name:
- - FwpmvSwitchEventSubscribe0
+- FwpmvSwitchEventSubscribe0
 targetos: Windows
 req.typenames: 
 req.redist: 

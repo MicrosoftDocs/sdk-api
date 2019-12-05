@@ -1,19 +1,17 @@
 ---
 UID: NF:faxcomex.IFaxInboundRouting.GetMethods
 title: IFaxInboundRouting::GetMethods (faxcomex.h)
-
 description: The IFaxInboundRouting::GetMethods method retrieves the ordered collection of all the inbound routing methods exposed by all the inbound routing extensions currently registered with the fax service.
 old-location: fax\_mfax_faxinboundrouting_getmethods_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_2x9v_cpp.htm
-
 ms.date: 12/05/2018
 ms.keywords: GetMethods, GetMethods method [Fax Service], GetMethods method [Fax Service],IFaxInboundRouting interface, IFaxInboundRouting interface [Fax Service],GetMethods method, IFaxInboundRouting.GetMethods, IFaxInboundRouting::GetMethods, _mfax_faxinboundrouting.getmethods_cpp, fax._mfax_faxinboundrouting_getmethods_cpp, faxcomex/IFaxInboundRouting::GetMethods
 ms.topic: method
-f1_keywords: 
- - "faxcomex/IFaxInboundRouting.GetMethods"
+f1_keywords:
+- faxcomex/IFaxInboundRouting.GetMethods
 dev_langs:
- - c++
+- c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Fxscomex.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Fxscomex.dll
+- Fxscomex.dll
 api_name:
- - IFaxInboundRouting.GetMethods
+- IFaxInboundRouting.GetMethods
 targetos: Windows
 req.typenames: 
 req.redist: 

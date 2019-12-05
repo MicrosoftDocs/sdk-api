@@ -1,19 +1,17 @@
 ---
 UID: NS:winsync._ID_PARAMETERS
 title: ID_PARAMETERS (winsync.h)
-
 description: Represents the format schema for the group of IDs that are used to identify entities in a synchronization session.
 old-location: winsync\id_parameters.htm
 tech.root: winsync
 ms.assetid: 7391689a-5546-409a-9fff-2ceced1850fe
-
 ms.date: 12/05/2018
 ms.keywords: ID_PARAMETERS, ID_PARAMETERS structure [Windows Sync], winsync.id_parameters, winsync/ID_PARAMETERS
 ms.topic: struct
 f1_keywords:
 - winsync/ID_PARAMETERS
 dev_langs:
- - c++
+- c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows

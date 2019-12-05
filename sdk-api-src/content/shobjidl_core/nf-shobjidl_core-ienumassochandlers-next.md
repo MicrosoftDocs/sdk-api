@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IEnumAssocHandlers.Next
 title: IEnumAssocHandlers::Next (shobjidl_core.h)
-
 description: Retrieves a specified number of elements.
 old-location: shell\IEnumAssocHandlers_Next.htm
 tech.root: shell
 ms.assetid: 9e173cb3-bd73-437c-8853-c13c8b6f216f
-
 ms.date: 12/05/2018
 ms.keywords: IEnumAssocHandlers interface [Windows Shell],Next method, IEnumAssocHandlers.Next, IEnumAssocHandlers::Next, Next, Next method [Windows Shell], Next method [Windows Shell],IEnumAssocHandlers interface, _shell_IEnumAssocHandlers_Next, shell.IEnumAssocHandlers_Next, shobjidl_core/IEnumAssocHandlers::Next
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IEnumAssocHandlers.Next"
+f1_keywords:
+- shobjidl_core/IEnumAssocHandlers.Next
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - IEnumAssocHandlers.Next
+- IEnumAssocHandlers.Next
 targetos: Windows
 req.typenames: 
 req.redist: 

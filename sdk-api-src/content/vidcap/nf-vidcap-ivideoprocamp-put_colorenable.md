@@ -1,19 +1,17 @@
 ---
 UID: NF:vidcap.IVideoProcAmp.put_ColorEnable
 title: IVideoProcAmp::put_ColorEnable (vidcap.h)
-
 description: The put_ColorEnable method sets the camera's color-enable setting.
 old-location: dshow\ivideoprocamp_put_colorenable.htm
 tech.root: DirectShow
 ms.assetid: 6a1caa3f-e591-4176-90b9-80a4bd71533b
-
 ms.date: 12/05/2018
 ms.keywords: IVideoProcAmp interface [DirectShow],put_ColorEnable method, IVideoProcAmp.put_ColorEnable, IVideoProcAmp::put_ColorEnable, IVideoProcAmpput_ColorEnable, dshow.ivideoprocamp_put_colorenable, put_ColorEnable, put_ColorEnable method [DirectShow], put_ColorEnable method [DirectShow],IVideoProcAmp interface, vidcap/IVideoProcAmp::put_ColorEnable
 ms.topic: method
-f1_keywords: 
- - "vidcap/IVideoProcAmp.put_ColorEnable"
+f1_keywords:
+- vidcap/IVideoProcAmp.put_ColorEnable
 dev_langs:
- - c++
+- c++
 req.header: vidcap.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Vidcap.h
+- Vidcap.h
 api_name:
- - IVideoProcAmp.put_ColorEnable
+- IVideoProcAmp.put_ColorEnable
 targetos: Windows
 req.typenames: 
 req.redist: 

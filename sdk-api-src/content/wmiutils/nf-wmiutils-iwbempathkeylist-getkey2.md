@@ -1,19 +1,17 @@
 ---
 UID: NF:wmiutils.IWbemPathKeyList.GetKey2
 title: IWbemPathKeyList::GetKey2 (wmiutils.h)
-
 description: The IWbemPathKeyList::GetKey2 method retrieves a key name or value, and returns the value as a VARIANT. A key is indexed from 0 (zero), but the key order is not significant.
 old-location: wmi\iwbempathkeylist_getkey2.htm
 tech.root: WmiSdk
 ms.assetid: 009a1778-d2e3-4202-a640-60a55d5f3f8d
-
 ms.date: 12/05/2018
 ms.keywords: GetKey2, GetKey2 method [Windows Management Instrumentation], GetKey2 method [Windows Management Instrumentation],IWbemPathKeyList interface, IWbemPathKeyList interface [Windows Management Instrumentation],GetKey2 method, IWbemPathKeyList.GetKey2, IWbemPathKeyList::GetKey2, _hmm_iwbempathkeylist_getkey2, wmi.iwbempathkeylist_getkey2, wmiutils/IWbemPathKeyList::GetKey2
 ms.topic: method
-f1_keywords: 
- - "wmiutils/IWbemPathKeyList.GetKey2"
+f1_keywords:
+- wmiutils/IWbemPathKeyList.GetKey2
 dev_langs:
- - c++
+- c++
 req.header: wmiutils.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Wbemuuid.lib
 req.dll: Wmiutils.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wmiutils.dll
+- Wmiutils.dll
 api_name:
- - IWbemPathKeyList.GetKey2
+- IWbemPathKeyList.GetKey2
 targetos: Windows
 req.typenames: 
 req.redist: 

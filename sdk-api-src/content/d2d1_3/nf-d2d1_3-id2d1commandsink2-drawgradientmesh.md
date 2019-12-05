@@ -1,19 +1,17 @@
 ---
 UID: NF:d2d1_3.ID2D1CommandSink2.DrawGradientMesh
 title: ID2D1CommandSink2::DrawGradientMesh (d2d1_3.h)
-
 description: Renders a given gradient mesh to the target.
 old-location: direct2d\id2d1commandsink2_drawgradientmesh.htm
 tech.root: Direct2D
 ms.assetid: 19adf39c-5eec-aa77-9022-1b69ef924679
-
 ms.date: 12/05/2018
 ms.keywords: DrawGradientMesh, DrawGradientMesh method [Direct2D], DrawGradientMesh method [Direct2D],ID2D1CommandSink2 interface, ID2D1CommandSink2 interface [Direct2D],DrawGradientMesh method, ID2D1CommandSink2.DrawGradientMesh, ID2D1CommandSink2::DrawGradientMesh, d2d1_3/ID2D1CommandSink2::DrawGradientMesh, direct2d.id2d1commandsink2_drawgradientmesh
 ms.topic: method
-f1_keywords: 
- - "d2d1_3/ID2D1CommandSink2.DrawGradientMesh"
+f1_keywords:
+- d2d1_3/ID2D1CommandSink2.DrawGradientMesh
 dev_langs:
- - c++
+- c++
 req.header: d2d1_3.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: D2d1.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D2d1.dll
+- D2d1.dll
 api_name:
- - ID2D1CommandSink2.DrawGradientMesh
+- ID2D1CommandSink2.DrawGradientMesh
 targetos: Windows
 req.typenames: 
 req.redist: 

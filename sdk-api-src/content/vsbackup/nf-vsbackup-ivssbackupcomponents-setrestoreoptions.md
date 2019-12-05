@@ -1,19 +1,17 @@
 ---
 UID: NF:vsbackup.IVssBackupComponents.SetRestoreOptions
 title: IVssBackupComponents::SetRestoreOptions (vsbackup.h)
-
 description: The SetRestoreOptions method sets a string of private, or writer-dependent, restore parameters for a writer component.
 old-location: base\ivssbackupcomponents_setrestoreoptions.htm
 tech.root: VSS
 ms.assetid: 4a872594-dcd8-463d-9f6b-6bc40c17df38
-
 ms.date: 12/05/2018
 ms.keywords: IVssBackupComponents interface [VSS],SetRestoreOptions method, IVssBackupComponents.SetRestoreOptions, IVssBackupComponents::SetRestoreOptions, SetRestoreOptions, SetRestoreOptions method [VSS], SetRestoreOptions method [VSS],IVssBackupComponents interface, _win32_ivssbackupcomponents_setrestoreoptions, base.ivssbackupcomponents_setrestoreoptions, vsbackup/IVssBackupComponents::SetRestoreOptions
 ms.topic: method
-f1_keywords: 
- - "vsbackup/IVssBackupComponents.SetRestoreOptions"
+f1_keywords:
+- vsbackup/IVssBackupComponents.SetRestoreOptions
 dev_langs:
- - c++
+- c++
 req.header: vsbackup.h
 req.include-header: VsBackup.h, Vss.h, VsWriter.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: VssApi.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - VssApi.lib
- - VssApi.dll
+- VssApi.lib
+- VssApi.dll
 api_name:
- - IVssBackupComponents.SetRestoreOptions
+- IVssBackupComponents.SetRestoreOptions
 targetos: Windows
 req.typenames: 
 req.redist: 

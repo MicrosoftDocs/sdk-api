@@ -1,19 +1,17 @@
 ---
 UID: NN:dvbsiparser.IPBDAAttributesDescriptor
 title: IPBDAAttributesDescriptor (dvbsiparser.h)
-
 description: Implements methods that get data from anattributes descriptor in a Protected Broadcast Device Architecture (PBDA) transport stream.
 old-location: mstv\ipbdaattributesdescriptor.htm
 tech.root: mstv
 ms.assetid: 489348b7-0f10-4a49-a7d4-10a1ed478aa8
-
 ms.date: 12/05/2018
 ms.keywords: IPBDAAttributesDescriptor, IPBDAAttributesDescriptor interface [Microsoft TV Technologies], IPBDAAttributesDescriptor interface [Microsoft TV Technologies],described, dvbsiparser/IPBDAAttributesDescriptor, mstv.ipbdaattributesdescriptor
 ms.topic: interface
-f1_keywords: 
- - "dvbsiparser/IPBDAAttributesDescriptor"
+f1_keywords:
+- dvbsiparser/IPBDAAttributesDescriptor
 dev_langs:
- - c++
+- c++
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dvbsiparser.h
+- dvbsiparser.h
 api_name:
- - IPBDAAttributesDescriptor
+- IPBDAAttributesDescriptor
 targetos: Windows
 req.typenames: 
 req.redist: 

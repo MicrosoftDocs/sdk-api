@@ -1,19 +1,17 @@
 ---
 UID: NF:fwpmu.FwpmProviderContextEnum2
 title: FwpmProviderContextEnum2 function (fwpmu.h)
-
 description: Returns the next page of results from the provider context enumerator.
 old-location: fwp\fwpmprovidercontextenum2.htm
 tech.root: fwp
 ms.assetid: 6c86d858-69f4-41bc-8e08-53c88d124879
-
 ms.date: 12/05/2018
 ms.keywords: FwpmProviderContextEnum2, FwpmProviderContextEnum2 function [Filtering], fwp.fwpmprovidercontextenum2, fwpmu/FwpmProviderContextEnum2
 ms.topic: function
-f1_keywords: 
- - "fwpmu/FwpmProviderContextEnum2"
+f1_keywords:
+- fwpmu/FwpmProviderContextEnum2
 dev_langs:
- - c++
+- c++
 req.header: fwpmu.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Fwpuclnt.lib
 req.dll: Fwpuclnt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - fwpuclnt.dll
+- fwpuclnt.dll
 api_name:
- - FwpmProviderContextEnum2
+- FwpmProviderContextEnum2
 targetos: Windows
 req.typenames: 
 req.redist: 

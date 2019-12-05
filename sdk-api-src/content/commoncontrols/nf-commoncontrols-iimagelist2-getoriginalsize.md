@@ -1,19 +1,17 @@
 ---
 UID: NF:commoncontrols.IImageList2.GetOriginalSize
 title: IImageList2::GetOriginalSize (commoncontrols.h)
-
 description: Gets the original size of a specified image.
 old-location: controls\IImageList2_GetOriginalSize.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\imagelist\ifaces\iimagelist2\getoriginalsize.htm
-
 ms.date: 12/05/2018
 ms.keywords: GetOriginalSize, GetOriginalSize method [Windows Controls], GetOriginalSize method [Windows Controls],IImageList2 interface, IImageList2 interface [Windows Controls],GetOriginalSize method, IImageList2.GetOriginalSize, IImageList2::GetOriginalSize, ILGOS_ALWAYS, ILGOS_FROMSTANDBY, _shell_IImageList2_GetOriginalSize, _shell_IImageList2_GetOriginalSize_cpp, commoncontrols/IImageList2::GetOriginalSize, controls.IImageList2_GetOriginalSize, controls._shell_IImageList2_GetOriginalSize
 ms.topic: method
-f1_keywords: 
- - "commoncontrols/IImageList2.GetOriginalSize"
+f1_keywords:
+- commoncontrols/IImageList2.GetOriginalSize
 dev_langs:
- - c++
+- c++
 req.header: commoncontrols.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Comctl32.dll (version 6.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Comctl32.dll
+- Comctl32.dll
 api_name:
- - IImageList2.GetOriginalSize
+- IImageList2.GetOriginalSize
 targetos: Windows
 req.typenames: 
 req.redist: 

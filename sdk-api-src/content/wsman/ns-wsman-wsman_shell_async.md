@@ -1,19 +1,17 @@
 ---
 UID: NS:wsman._WSMAN_SHELL_ASYNC
 title: WSMAN_SHELL_ASYNC (wsman.h)
-
 description: Defines an asynchronous structure to be passed to all shell operations.
 old-location: winrm\wsman_shell_async.htm
 tech.root: winrm
 ms.assetid: 9391e1a8-7048-49b8-9dc4-1da25b190238
-
 ms.date: 12/05/2018
 ms.keywords: WSMAN_SHELL_ASYNC, WSMAN_SHELL_ASYNC structure [Windows Remote Management], winrm.wsman_shell_async, wsman/WSMAN_SHELL_ASYNC
 ms.topic: struct
-f1_keywords: 
- - "wsman/WSMAN_SHELL_ASYNC"
+f1_keywords:
+- wsman/WSMAN_SHELL_ASYNC
 dev_langs:
- - c++
+- c++
 req.header: wsman.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wsman.h
+- Wsman.h
 api_name:
- - WSMAN_SHELL_ASYNC
+- WSMAN_SHELL_ASYNC
 targetos: Windows
 req.typenames: WSMAN_SHELL_ASYNC
 req.redist: Windows Management Framework on Windows Server 2008 with SP2, Windows Vista with SP1, and Windows Vista with SP2

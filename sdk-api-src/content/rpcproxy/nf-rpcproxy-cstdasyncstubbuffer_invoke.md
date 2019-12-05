@@ -1,19 +1,17 @@
 ---
 UID: NF:rpcproxy.CStdAsyncStubBuffer_Invoke
 title: CStdAsyncStubBuffer_Invoke function (rpcproxy.h)
-
 description: Implements the IRpcStubBuffer::Invoke method.
 old-location: rpc\cstdasyncstubbuffer_invoke.htm
 tech.root: Rpc
 ms.assetid: 069A6E16-D96F-4E74-B511-77B6496FE966
-
 ms.date: 12/05/2018
 ms.keywords: CStdAsyncStubBuffer_Invoke, CStdAsyncStubBuffer_Invoke function [RPC], rpc.cstdasyncstubbuffer_invoke, rpcproxy/CStdAsyncStubBuffer_Invoke
 ms.topic: function
-f1_keywords: 
- - "rpcproxy/CStdAsyncStubBuffer_Invoke"
+f1_keywords:
+- rpcproxy/CStdAsyncStubBuffer_Invoke
 dev_langs:
- - c++
+- c++
 req.header: rpcproxy.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Ole32.lib
 req.dll: Ole32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - ole32.dll
- - API-MS-Win-Core-Com-MidlProxyStub-L1-1-0.dll
- - COMBase.dll
+- ole32.dll
+- API-MS-Win-Core-Com-MidlProxyStub-L1-1-0.dll
+- COMBase.dll
 api_name:
- - CStdAsyncStubBuffer_Invoke
+- CStdAsyncStubBuffer_Invoke
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NE:iwstdec._AM_WST_DRAWBGMODE
 title: AM_WST_DRAWBGMODE (iwstdec.h)
-
 description: The AM_WST_DRAWBGMODE enumeration specifies whether the background of the WST frame is opaque or transparent.
 old-location: dshow\am_wst_drawbgmode.htm
 tech.root: DirectShow
 ms.assetid: 1c27f3e1-a097-4f0e-af01-62cf500a3264
-
 ms.date: 12/05/2018
-ms.keywords: "*PAM_WST_DRAWBGMODE, AM_WST_DRAWBGMODE, AM_WST_DRAWBGMODE , AM_WST_DRAWBGMODE enumeration [DirectShow], AM_WST_DRAWBGMODEEnumeration, AM_WST_DRAWBGMODE_Opaque, AM_WST_DRAWBGMODE_Transparent, PAM_WST_DRAWBGMODE, PAM_WST_DRAWBGMODE enumeration pointer [DirectShow], dshow.am_wst_drawbgmode, iwstdec/AM_WST_DRAWBGMODE, iwstdec/AM_WST_DRAWBGMODE_Opaque, iwstdec/AM_WST_DRAWBGMODE_Transparent, iwstdec/PAM_WST_DRAWBGMODE"
+ms.keywords: '*PAM_WST_DRAWBGMODE, AM_WST_DRAWBGMODE, AM_WST_DRAWBGMODE , AM_WST_DRAWBGMODE enumeration [DirectShow], AM_WST_DRAWBGMODEEnumeration, AM_WST_DRAWBGMODE_Opaque, AM_WST_DRAWBGMODE_Transparent, PAM_WST_DRAWBGMODE, PAM_WST_DRAWBGMODE enumeration pointer [DirectShow], dshow.am_wst_drawbgmode, iwstdec/AM_WST_DRAWBGMODE, iwstdec/AM_WST_DRAWBGMODE_Opaque, iwstdec/AM_WST_DRAWBGMODE_Transparent, iwstdec/PAM_WST_DRAWBGMODE'
 ms.topic: enum
-f1_keywords: 
- - "iwstdec/AM_WST_DRAWBGMODE"
+f1_keywords:
+- iwstdec/AM_WST_DRAWBGMODE
 dev_langs:
- - c++
+- c++
 req.header: iwstdec.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - iwstdec.h
+- iwstdec.h
 api_name:
- - AM_WST_DRAWBGMODE
+- AM_WST_DRAWBGMODE
 targetos: Windows
 req.typenames: AM_WST_DRAWBGMODE, *PAM_WST_DRAWBGMODE
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NS:ipsectypes.IPSEC_AUTH_TRANSFORM_ID0_
 title: IPSEC_AUTH_TRANSFORM_ID0 (ipsectypes.h)
-
 description: Is used to uniquely identify the hash algorithm used in an IPsec security association (SA).
 old-location: fwp\ipsec_auth_transform_id0_struct.htm
 tech.root: fwp
 ms.assetid: b8474e98-451d-4347-9369-367f16f83cf6
-
 ms.date: 12/05/2018
 ms.keywords: IPSEC_AUTH_CONFIG_GCM_AES_128, IPSEC_AUTH_CONFIG_GCM_AES_192, IPSEC_AUTH_CONFIG_GCM_AES_256, IPSEC_AUTH_CONFIG_HMAC_MD5_96, IPSEC_AUTH_CONFIG_HMAC_SHA_1_96, IPSEC_AUTH_CONFIG_HMAC_SHA_256_128, IPSEC_AUTH_TRANSFORM_ID0, IPSEC_AUTH_TRANSFORM_ID0 structure [Filtering], fwp.ipsec_auth_transform_id0_struct, ipsectypes/IPSEC_AUTH_TRANSFORM_ID0
 ms.topic: struct
-f1_keywords: 
- - "ipsectypes/IPSEC_AUTH_TRANSFORM_ID0"
+f1_keywords:
+- ipsectypes/IPSEC_AUTH_TRANSFORM_ID0
 dev_langs:
- - c++
+- c++
 req.header: ipsectypes.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Ipsectypes.h
+- Ipsectypes.h
 api_name:
- - IPSEC_AUTH_TRANSFORM_ID0
+- IPSEC_AUTH_TRANSFORM_ID0
 targetos: Windows
 req.typenames: IPSEC_AUTH_TRANSFORM_ID0
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NS:timeprov.SetProviderStatusInfo
 title: SetProviderStatusInfo (timeprov.h)
-
 description: A structure that is used by the SetProviderStatusFunc function.
 old-location: base\setproviderstatusinfo_str.htm
 tech.root: SysInfo
 ms.assetid: 8e0a79ba-f76a-435a-9b0b-c3a2d9c390da
-
 ms.date: 12/05/2018
 ms.keywords: SetProviderStatusInfo, SetProviderStatusInfo structure, TPC_Error, TPS_Running, _win32_setproviderstatusinfo_str, base.setproviderstatusinfo_str, timeprov/SetProviderStatusInfo
 ms.topic: struct
-f1_keywords: 
- - "timeprov/SetProviderStatusInfo"
+f1_keywords:
+- timeprov/SetProviderStatusInfo
 dev_langs:
- - c++
+- c++
 req.header: timeprov.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Timeprov.h
+- Timeprov.h
 api_name:
- - SetProviderStatusInfo
+- SetProviderStatusInfo
 targetos: Windows
 req.typenames: SetProviderStatusInfo
 req.redist: 

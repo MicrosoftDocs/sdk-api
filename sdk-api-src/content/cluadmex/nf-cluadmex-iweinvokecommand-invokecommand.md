@@ -1,19 +1,17 @@
 ---
 UID: NF:cluadmex.IWEInvokeCommand.InvokeCommand
 title: IWEInvokeCommand::InvokeCommand (cluadmex.h)
-
 description: Allows you to implement procedures that execute when users select your context menu items.
 old-location: mscs\iweinvokecommand_invokecommand.htm
 tech.root: MsCS
 ms.assetid: 1e723535-d786-496f-bc16-5b10a8a22383
-
 ms.date: 12/05/2018
 ms.keywords: IWEInvokeCommand interface [Failover Cluster],InvokeCommand method, IWEInvokeCommand.InvokeCommand, IWEInvokeCommand::InvokeCommand, InvokeCommand, InvokeCommand method [Failover Cluster], InvokeCommand method [Failover Cluster],IWEInvokeCommand interface, _wolf_iweinvokecommand_invokecommand, cluadmex/IWEInvokeCommand::InvokeCommand, mscs.iweinvokecommand_invokecommand
 ms.topic: method
-f1_keywords: 
- - "cluadmex/IWEInvokeCommand.InvokeCommand"
+f1_keywords:
+- cluadmex/IWEInvokeCommand.InvokeCommand
 dev_langs:
- - c++
+- c++
 req.header: cluadmex.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - cluadmex.h
+- cluadmex.h
 api_name:
- - IWEInvokeCommand.InvokeCommand
+- IWEInvokeCommand.InvokeCommand
 targetos: Windows
 req.typenames: 
 req.redist: 

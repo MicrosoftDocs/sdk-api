@@ -1,19 +1,17 @@
 ---
 UID: NE:spatialaudiohrtf.SpatialAudioHrtfDirectivityType
 title: SpatialAudioHrtfDirectivityType (spatialaudiohrtf.h)
-
 description: Specifies the shape in which sound is emitted by an ISpatialAudioObjectForHrtf.
 old-location: coreaudio\spatialaudiohrtfdirectivitytype.htm
 tech.root: CoreAudio
 ms.assetid: 3A1426B5-F4FF-4CF0-9E0A-3096371B3D2E
-
 ms.date: 12/05/2018
 ms.keywords: SpatialAudioHrtfDirectivityType, SpatialAudioHrtfDirectivityType enumeration [Core Audio], SpatialAudioHrtfDirectivity_Cardioid, SpatialAudioHrtfDirectivity_Cone, SpatialAudioHrtfDirectivity_OmniDirectional, coreaudio.spatialaudiohrtfdirectivitytype, spatialaudiohrtf/SpatialAudioHrtfDirectivityType, spatialaudiohrtf/SpatialAudioHrtfDirectivity_Cardioid, spatialaudiohrtf/SpatialAudioHrtfDirectivity_Cone, spatialaudiohrtf/SpatialAudioHrtfDirectivity_OmniDirectional
 ms.topic: enum
-f1_keywords: 
- - "spatialaudiohrtf/SpatialAudioHrtfDirectivityType"
+f1_keywords:
+- spatialaudiohrtf/SpatialAudioHrtfDirectivityType
 dev_langs:
- - c++
+- c++
 req.header: spatialaudiohrtf.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - spatialaudiohrtf.h
+- spatialaudiohrtf.h
 api_name:
- - SpatialAudioHrtfDirectivityType
+- SpatialAudioHrtfDirectivityType
 targetos: Windows
 req.typenames: SpatialAudioHrtfDirectivityType
 req.redist: 

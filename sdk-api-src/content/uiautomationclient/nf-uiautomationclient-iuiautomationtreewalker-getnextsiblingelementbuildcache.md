@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationTreeWalker.GetNextSiblingElementBuildCache
 title: IUIAutomationTreeWalker::GetNextSiblingElementBuildCache (uiautomationclient.h)
-
 description: Retrieves the next sibling element of the specified UI Automation element, and caches properties and control patterns.
 old-location: winauto\uiauto_IUIAutomationTreeWalker_GetNextSiblingBuildCache.htm
 tech.root: WinAuto
 ms.assetid: 71c29a02-11fa-41ee-816e-cb3a0bea3025
-
 ms.date: 12/05/2018
 ms.keywords: GetNextSiblingElementBuildCache, GetNextSiblingElementBuildCache method [Windows Accessibility], GetNextSiblingElementBuildCache method [Windows Accessibility],IUIAutomationTreeWalker interface, IUIAutomationTreeWalker interface [Windows Accessibility],GetNextSiblingElementBuildCache method, IUIAutomationTreeWalker.GetNextSiblingElementBuildCache, IUIAutomationTreeWalker::GetNextSiblingElementBuildCache, uiauto.uiauto_IUIAutomationTreeWalker_GetNextSiblingBuildCache, uiauto_IUIAutomationTreeWalker_GetNextSiblingBuildCache, uiautomationclient/IUIAutomationTreeWalker::GetNextSiblingElementBuildCache, winauto.uiauto_IUIAutomationTreeWalker_GetNextSiblingBuildCache
 ms.topic: method
-f1_keywords: 
- - "uiautomationclient/IUIAutomationTreeWalker.GetNextSiblingElementBuildCache"
+f1_keywords:
+- uiautomationclient/IUIAutomationTreeWalker.GetNextSiblingElementBuildCache
 dev_langs:
- - c++
+- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationClient.h
+- UIAutomationClient.h
 api_name:
- - IUIAutomationTreeWalker.GetNextSiblingElementBuildCache
+- IUIAutomationTreeWalker.GetNextSiblingElementBuildCache
 targetos: Windows
 req.typenames: 
 req.redist: 

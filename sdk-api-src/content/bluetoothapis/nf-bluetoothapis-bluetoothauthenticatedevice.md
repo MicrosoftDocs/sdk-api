@@ -1,19 +1,17 @@
 ---
 UID: NF:bluetoothapis.BluetoothAuthenticateDevice
 title: BluetoothAuthenticateDevice function (bluetoothapis.h)
-
 description: Sends an authentication request to a remote Bluetooth device.
 old-location: bluetooth\bluetoothauthenticatedevice.htm
 tech.root: bluetooth
 ms.assetid: 9f8ff768-a794-4a61-a215-ae17e9acf620
-
 ms.date: 12/05/2018
 ms.keywords: BluetoothAuthenticateDevice, BluetoothAuthenticateDevice function [Bluetooth], bluetooth.bluetoothauthenticatedevice, bluetoothapis/BluetoothAuthenticateDevice
 ms.topic: function
-f1_keywords: 
- - "bluetoothapis/BluetoothAuthenticateDevice"
+f1_keywords:
+- bluetoothapis/BluetoothAuthenticateDevice
 dev_langs:
- - c++
+- c++
 req.header: bluetoothapis.h
 req.include-header: Bthsdpdef.h, BluetoothAPIs.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Bthprops.lib
 req.dll: Bthprops.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Bthprops.dll
+- Bthprops.dll
 api_name:
- - BluetoothAuthenticateDevice
+- BluetoothAuthenticateDevice
 targetos: Windows
 req.typenames: 
 req.redist: 

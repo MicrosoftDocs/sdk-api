@@ -1,19 +1,17 @@
 ---
 UID: NN:dxgi.IDXGISwapChain
 title: IDXGISwapChain (dxgi.h)
-
 description: An IDXGISwapChain interface implements one or more surfaces for storing rendered data before presenting it to an output.
 old-location: direct3ddxgi\idxgiswapchain.htm
 tech.root: direct3ddxgi
 ms.assetid: VS|directx_sdk|~\idxgiswapchain.htm
-
 ms.date: 12/05/2018
 ms.keywords: 188bf6e5-9cd2-15c4-2bbd-2b3801aac81e, IDXGISwapChain, IDXGISwapChain interface [DXGI], IDXGISwapChain interface [DXGI],described, direct3ddxgi.idxgiswapchain, dxgi/IDXGISwapChain
 ms.topic: interface
-f1_keywords: 
- - "dxgi/IDXGISwapChain"
+f1_keywords:
+- dxgi/IDXGISwapChain
 dev_langs:
- - c++
+- c++
 req.header: dxgi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: DXGI.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - DXGI.lib
- - DXGI.dll
+- DXGI.lib
+- DXGI.dll
 api_name:
- - IDXGISwapChain
+- IDXGISwapChain
 targetos: Windows
 req.typenames: 
 req.redist: 

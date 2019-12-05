@@ -1,19 +1,17 @@
 ---
 UID: NC:resapi.PCHANGE_RES_TYPE_PROCESS_FOR_DUMPS
 title: PCHANGE_RES_TYPE_PROCESS_FOR_DUMPS (resapi.h)
-
 description: The PCHANGE_RES_TYPE_PROCESS_FOR_DUMPS type defines a pointer to this function.
 old-location: mscs\changerestypeprocessfordumps.htm
 tech.root: MsCS
 ms.assetid: 6E5CA26D-F58A-41A4-9ED0-35FA363B7025
-
 ms.date: 12/05/2018
 ms.keywords: ChangeResTypeProcessForDumps, ChangeResTypeProcessForDumps callback, ChangeResTypeProcessForDumps callback function [Failover Cluster], PCHANGE_RES_TYPE_PROCESS_FOR_DUMPS, PCHANGE_RES_TYPE_PROCESS_FOR_DUMPS callback function [Failover Cluster], mscs.changerestypeprocessfordumps, resapi/ChangeResTypeProcessForDumps, resapi/PCHANGE_RES_TYPE_PROCESS_FOR_DUMPS
 ms.topic: callback
-f1_keywords: 
- - "resapi/ChangeResTypeProcessForDumps callback"
+f1_keywords:
+- resapi/ChangeResTypeProcessForDumps callback
 dev_langs:
- - c++
+- c++
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,13 +30,13 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - kbSyntax
+- kbSyntax
 api_type:
- - <TBD>
+- <TBD>
 api_location:
- -
+- 
 api_name:
- - ChangeResTypeProcessForDumps callback
+- ChangeResTypeProcessForDumps callback
 targetos: Windows
 req.typenames: 
 req.redist: 

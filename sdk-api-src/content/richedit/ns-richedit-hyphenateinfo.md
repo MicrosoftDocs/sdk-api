@@ -1,19 +1,17 @@
 ---
 UID: NS:richedit.tagHyphenateInfo
 title: HYPHENATEINFO (richedit.h)
-
 description: Contains information about hyphenation in a Microsoft Rich Edit control.
 old-location: controls\HYPHENATEINFO.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\richeditcontrols\richeditcontrolreference\richeditstructures\hyphenateinfo.htm
-
 ms.date: 12/05/2018
 ms.keywords: HYPHENATEINFO, HYPHENATEINFO structure [Windows Controls], _win32_HYPHENATEINFO_str, _win32_HYPHENATEINFO_str_cpp, controls.HYPHENATEINFO, controls._win32_HYPHENATEINFO_str, richedit/HYPHENATEINFO
 ms.topic: struct
-f1_keywords: 
- - "richedit/HYPHENATEINFO"
+f1_keywords:
+- richedit/HYPHENATEINFO
 dev_langs:
- - c++
+- c++
 req.header: richedit.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Richedit.h
+- Richedit.h
 api_name:
- - HYPHENATEINFO
+- HYPHENATEINFO
 targetos: Windows
 req.typenames: HYPHENATEINFO
 req.redist: 

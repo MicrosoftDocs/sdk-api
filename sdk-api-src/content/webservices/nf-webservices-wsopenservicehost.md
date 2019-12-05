@@ -1,19 +1,17 @@
 ---
 UID: NF:webservices.WsOpenServiceHost
 title: WsOpenServiceHost function (webservices.h)
-
 description: Opens a Service Host for communication and starts the Listeners on all the endpoints. Client applications cannot connect to Service endpoints until WsOpenSerivceHost is called.
 old-location: wsw\wsopenservicehost.htm
 tech.root: wsw
 ms.assetid: 4e6ef553-7f0e-4ed7-bbdd-e85d4e0a095c
-
 ms.date: 12/05/2018
 ms.keywords: WsOpenServiceHost, WsOpenServiceHost function [Web Services for Windows], webservices/WsOpenServiceHost, wsw.wsopenservicehost
 ms.topic: function
-f1_keywords: 
- - "webservices/WsOpenServiceHost"
+f1_keywords:
+- webservices/WsOpenServiceHost
 dev_langs:
- - c++
+- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: WebServices.lib
 req.dll: WebServices.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - WebServices.dll
+- WebServices.dll
 api_name:
- - WsOpenServiceHost
+- WsOpenServiceHost
 targetos: Windows
 req.typenames: 
 req.redist: 

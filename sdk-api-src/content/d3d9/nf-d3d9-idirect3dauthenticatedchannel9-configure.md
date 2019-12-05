@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d9.IDirect3DAuthenticatedChannel9.Configure
 title: IDirect3DAuthenticatedChannel9::Configure (d3d9.h)
-
 description: Sends a configuration command to the authenticated channel.
 old-location: mf\idirect3dauthenticatedchannel9_configure.htm
 tech.root: medfound
 ms.assetid: 12d15872-4f35-4a6d-ae99-bc9fa69ffe06
-
 ms.date: 12/05/2018
 ms.keywords: Configure, Configure method [Media Foundation], Configure method [Media Foundation],IDirect3DAuthenticatedChannel9 interface, IDirect3DAuthenticatedChannel9 interface [Media Foundation],Configure method, IDirect3DAuthenticatedChannel9.Configure, IDirect3DAuthenticatedChannel9::Configure, d3d9/IDirect3DAuthenticatedChannel9::Configure, mf.idirect3dauthenticatedchannel9_configure
 ms.topic: method
-f1_keywords: 
- - "d3d9/IDirect3DAuthenticatedChannel9.Configure"
+f1_keywords:
+- d3d9/IDirect3DAuthenticatedChannel9.Configure
 dev_langs:
- - c++
+- c++
 req.header: d3d9.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - d3d9.h
+- d3d9.h
 api_name:
- - IDirect3DAuthenticatedChannel9.Configure
+- IDirect3DAuthenticatedChannel9.Configure
 targetos: Windows
 req.typenames: 
 req.redist: 

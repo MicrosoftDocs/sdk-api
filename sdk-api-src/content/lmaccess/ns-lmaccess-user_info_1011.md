@@ -1,19 +1,17 @@
 ---
 UID: NS:lmaccess._USER_INFO_1011
 title: USER_INFO_1011 (lmaccess.h)
-
 description: The USER_INFO_1011 structure contains the full name of a network user. This information level is valid only when you call the NetUserSetInfo function.
 old-location: netmgmt\user_info_1011_str.htm
 tech.root: NetMgmt
 ms.assetid: f60075b4-19c5-4998-b8c3-61e960e76035
-
 ms.date: 12/05/2018
-ms.keywords: "*LPUSER_INFO_1011, *PUSER_INFO_1011, LPUSER_INFO_1011, LPUSER_INFO_1011 structure pointer [Network Management], PUSER_INFO_1011, PUSER_INFO_1011 structure pointer [Network Management], USER_INFO_1011, USER_INFO_1011 structure [Network Management], _win32_user_info_1011_str, lmaccess/LPUSER_INFO_1011, lmaccess/PUSER_INFO_1011, lmaccess/USER_INFO_1011, netmgmt.user_info_1011_str"
+ms.keywords: '*LPUSER_INFO_1011, *PUSER_INFO_1011, LPUSER_INFO_1011, LPUSER_INFO_1011 structure pointer [Network Management], PUSER_INFO_1011, PUSER_INFO_1011 structure pointer [Network Management], USER_INFO_1011, USER_INFO_1011 structure [Network Management], _win32_user_info_1011_str, lmaccess/LPUSER_INFO_1011, lmaccess/PUSER_INFO_1011, lmaccess/USER_INFO_1011, netmgmt.user_info_1011_str'
 ms.topic: struct
-f1_keywords: 
- - "lmaccess/USER_INFO_1011"
+f1_keywords:
+- lmaccess/USER_INFO_1011
 dev_langs:
- - c++
+- c++
 req.header: lmaccess.h
 req.include-header: Lm.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Lmaccess.h
+- Lmaccess.h
 api_name:
- - USER_INFO_1011
+- USER_INFO_1011
 targetos: Windows
 req.typenames: USER_INFO_1011, *PUSER_INFO_1011, *LPUSER_INFO_1011
 req.redist: 

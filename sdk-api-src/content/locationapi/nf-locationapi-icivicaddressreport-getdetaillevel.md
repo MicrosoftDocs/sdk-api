@@ -1,19 +1,17 @@
 ---
 UID: NF:locationapi.ICivicAddressReport.GetDetailLevel
 title: ICivicAddressReport::GetDetailLevel (locationapi.h)
-
 description: Reserved.
 old-location: winlocation_com_ref\icivicaddressreport_getdetaillevel.htm
 tech.root: locationapi
 ms.assetid: ec32dee1-e9ce-40a0-bca0-6f5f767b7604
-
 ms.date: 12/05/2018
 ms.keywords: GetDetailLevel, GetDetailLevel method [WinLocation], GetDetailLevel method [WinLocation],ICivicAddressReport interface, ICivicAddressReport interface [WinLocation],GetDetailLevel method, ICivicAddressReport.GetDetailLevel, ICivicAddressReport::GetDetailLevel, WinLocation_COM_Ref.icivicaddressreport_getdetaillevel, locationapi/ICivicAddressReport::GetDetailLevel
 ms.topic: method
-f1_keywords: 
- - "locationapi/ICivicAddressReport.GetDetailLevel"
+f1_keywords:
+- locationapi/ICivicAddressReport.GetDetailLevel
 dev_langs:
- - c++
+- c++
 req.header: locationapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: LocationAPI.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - LocationAPI.dll
+- LocationAPI.dll
 api_name:
- - ICivicAddressReport.GetDetailLevel
+- ICivicAddressReport.GetDetailLevel
 targetos: Windows
 req.typenames: 
 req.redist: 

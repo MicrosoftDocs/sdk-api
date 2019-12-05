@@ -1,19 +1,17 @@
 ---
 UID: NF:winsync.ISyncChangeBatchBase.EndOrderedGroup
 title: ISyncChangeBatchBase::EndOrderedGroup (winsync.h)
-
 description: Closes a previously opened ordered group in the change batch.
 old-location: winsync\isyncchangebatchbase_endorderedgroup.htm
 tech.root: winsync
 ms.assetid: d53ef88e-0d1f-4328-988c-c759391ca28c
-
 ms.date: 12/05/2018
 ms.keywords: EndOrderedGroup, EndOrderedGroup method [Windows Sync], EndOrderedGroup method [Windows Sync],ISyncChangeBatchBase interface, ISyncChangeBatchBase interface [Windows Sync],EndOrderedGroup method, ISyncChangeBatchBase.EndOrderedGroup, ISyncChangeBatchBase::EndOrderedGroup, winsync.isyncchangebatchbase_endorderedgroup, winsync/ISyncChangeBatchBase::EndOrderedGroup
 ms.topic: method
-f1_keywords: 
- - "winsync/ISyncChangeBatchBase.EndOrderedGroup"
+f1_keywords:
+- winsync/ISyncChangeBatchBase.EndOrderedGroup
 dev_langs:
- - c++
+- c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - winsync.h
+- winsync.h
 api_name:
- - ISyncChangeBatchBase.EndOrderedGroup
+- ISyncChangeBatchBase.EndOrderedGroup
 targetos: Windows
 req.typenames: 
 req.redist: 

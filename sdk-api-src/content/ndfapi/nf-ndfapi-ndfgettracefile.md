@@ -1,19 +1,17 @@
 ---
 UID: NF:ndfapi.NdfGetTraceFile
 title: NdfGetTraceFile function (ndfapi.h)
-
 description: Used to retrieve the path containing an Event Trace Log (ETL) file that contains Event Tracing for Windows (ETW) events from a diagnostic session.
 old-location: ndf\ndfgettracefile.htm
 tech.root: NDF
 ms.assetid: a9ce6471-20f3-4c53-92e5-6fd4f7bd10e3
-
 ms.date: 12/05/2018
 ms.keywords: NdfGetTraceFile, NdfGetTraceFile function [NDF], ndf.ndfgettracefile, ndfapi/NdfGetTraceFile
 ms.topic: function
-f1_keywords: 
- - "ndfapi/NdfGetTraceFile"
+f1_keywords:
+- ndfapi/NdfGetTraceFile
 dev_langs:
- - c++
+- c++
 req.header: ndfapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Ndfapi.lib
 req.dll: Ndfapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ndfapi.dll
+- Ndfapi.dll
 api_name:
- - NdfGetTraceFile
+- NdfGetTraceFile
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:taskschd.IActionCollection.get_XmlText
 title: IActionCollection::get_XmlText (taskschd.h)
-
 description: Gets or sets an XML-formatted version of the collection.
 old-location: taskschd\iactioncollection_xmltext.htm
 tech.root: taskschd
 ms.assetid: 1c72546d-26e3-441c-875c-a41078ded0b7
-
 ms.date: 12/05/2018
 ms.keywords: IActionCollection interface [Task Scheduler],XmlText property, IActionCollection.XmlText, IActionCollection.get_XmlText, IActionCollection::XmlText, IActionCollection::get_XmlText, IActionCollection::put_XmlText, XmlText property [Task Scheduler], XmlText property [Task Scheduler],IActionCollection interface, get_XmlText, taskschd.iactioncollection_xmltext, taskschd/IActionCollection::XmlText, taskschd/IActionCollection::get_XmlText, taskschd/IActionCollection::put_XmlText
 ms.topic: method
-f1_keywords: 
- - "taskschd/IActionCollection.XmlText"
+f1_keywords:
+- taskschd/IActionCollection.XmlText
 dev_langs:
- - c++
+- c++
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Taskschd.lib
 req.dll: Taskschd.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - taskschd.dll
+- taskschd.dll
 api_name:
- - IActionCollection.XmlText
- - IActionCollection.get_XmlText
- - IActionCollection.put_XmlText
+- IActionCollection.XmlText
+- IActionCollection.get_XmlText
+- IActionCollection.put_XmlText
 targetos: Windows
 req.typenames: 
 req.redist: 

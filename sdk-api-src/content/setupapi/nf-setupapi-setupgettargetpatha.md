@@ -1,19 +1,17 @@
 ---
 UID: NF:setupapi.SetupGetTargetPathA
 title: SetupGetTargetPathA function (setupapi.h)
-
 description: The SetupGetTargetPath function determines the target directory for a file list section.
 old-location: setup\setupgettargetpath.htm
 tech.root: SetupApi
 ms.assetid: fe98f00e-7887-4e37-8e09-037a804e6195
-
 ms.date: 12/05/2018
 ms.keywords: SetupGetTargetPath, SetupGetTargetPath function [Setup API], SetupGetTargetPathA, SetupGetTargetPathW, _setupapi_setupgettargetpath, setup.setupgettargetpath, setupapi/SetupGetTargetPath, setupapi/SetupGetTargetPathA, setupapi/SetupGetTargetPathW
 ms.topic: function
-f1_keywords: 
- - "setupapi/SetupGetTargetPath"
+f1_keywords:
+- setupapi/SetupGetTargetPath
 dev_langs:
- - c++
+- c++
 req.header: setupapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Setupapi.lib
 req.dll: Setupapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Setupapi.dll
+- Setupapi.dll
 api_name:
- - SetupGetTargetPath
- - SetupGetTargetPathA
- - SetupGetTargetPathW
+- SetupGetTargetPath
+- SetupGetTargetPathA
+- SetupGetTargetPathW
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:directxpackedvector.XMBYTE2.operator-assign
 title: XMBYTE2::operator-assign (directxpackedvector.h)
-
 description: Assigns the vector component data from one instance of XMBYTE2 to the current instance of XMBYTE2.
 old-location: dxmath\xmbyte2_operator_eq.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.reference.XMBYTE2.operator = (const XMBYTE2)
-
 ms.date: 12/05/2018
 ms.keywords: DirectX::PackedVector.XMBYTE2.operator =, DirectX::PackedVector::XMBYTE2::operator =, XMBYTE2 structure [DirectX Math Support APIs],operator = method, XMBYTE2.operator =, XMBYTE2.operator-assign, XMBYTE2.operator=, XMBYTE2::operator-assign, XMBYTE2::operator=, dxmath.xmbyte2_operator_eq, operator = method [DirectX Math Support APIs], operator = method [DirectX Math Support APIs],XMBYTE2 structure, operator=
 ms.topic: method
-f1_keywords: 
- - "directxpackedvector/XMBYTE2.operator ="
+f1_keywords:
+- directxpackedvector/XMBYTE2.operator =
 dev_langs:
- - c++
+- c++
 req.header: directxpackedvector.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - DirectXPackedVector.h
+- DirectXPackedVector.h
 api_name:
- - XMBYTE2.operator =
+- XMBYTE2.operator =
 targetos: Windows
 req.typenames: 
 req.redist: 

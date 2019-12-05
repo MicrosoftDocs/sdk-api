@@ -1,19 +1,17 @@
 ---
 UID: NF:dwrite_3.IDWriteStringList.GetLocaleName
 title: IDWriteStringList::GetLocaleName (dwrite_3.h)
-
 description: Copies the locale name with the specified index to the specified array.
 old-location: directwrite\idwritestringlist_getlocalename.htm
 tech.root: DirectWrite
 ms.assetid: 3CB369A4-D1FC-4C8B-BE41-33D176117133
-
 ms.date: 12/05/2018
 ms.keywords: GetLocaleName, GetLocaleName method [Direct Write], GetLocaleName method [Direct Write],IDWriteStringList interface, IDWriteStringList interface [Direct Write],GetLocaleName method, IDWriteStringList.GetLocaleName, IDWriteStringList::GetLocaleName, directwrite.idwritestringlist_getlocalename, dwrite_3/IDWriteStringList::GetLocaleName
 ms.topic: method
-f1_keywords: 
- - "dwrite_3/IDWriteStringList.GetLocaleName"
+f1_keywords:
+- dwrite_3/IDWriteStringList.GetLocaleName
 dev_langs:
- - c++
+- c++
 req.header: dwrite_3.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dwrite.lib
 req.dll: Dwrite.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dwrite.dll
+- dwrite.dll
 api_name:
- - IDWriteStringList.GetLocaleName
+- IDWriteStringList.GetLocaleName
 targetos: Windows
 req.typenames: 
 req.redist: 

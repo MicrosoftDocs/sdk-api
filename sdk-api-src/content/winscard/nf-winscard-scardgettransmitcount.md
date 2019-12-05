@@ -1,19 +1,17 @@
 ---
 UID: NF:winscard.SCardGetTransmitCount
 title: SCardGetTransmitCount function (winscard.h)
-
 description: Retrieves the number of transmit operations that have completed since the specified card reader was inserted.
 old-location: security\scardgettransmitcount.htm
 tech.root: SecAuthN
 ms.assetid: 13857fc3-374d-4ba5-b4ca-e523b323974c
-
 ms.date: 12/05/2018
 ms.keywords: SCardGetTransmitCount, SCardGetTransmitCount function [Security], security.scardgettransmitcount, winscard/SCardGetTransmitCount
 ms.topic: function
-f1_keywords: 
- - "winscard/SCardGetTransmitCount"
+f1_keywords:
+- winscard/SCardGetTransmitCount
 dev_langs:
- - c++
+- c++
 req.header: winscard.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Winscard.lib
 req.dll: Winscard.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Winscard.dll
+- Winscard.dll
 api_name:
- - SCardGetTransmitCount
+- SCardGetTransmitCount
 targetos: Windows
 req.typenames: 
 req.redist: 

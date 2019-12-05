@@ -1,19 +1,17 @@
 ---
 UID: NF:wabapi.IWABObject.SetMe
 title: IWABObject::SetMe (wabapi.h)
-
 description: Designates a particular contact as the ME object.
 old-location: wab\_wab_IWABObject_SetMe.htm
 tech.root: wab
 ms.assetid: VS|wab|~\wab\reference\ifaces\iwabobject\setme.htm
-
 ms.date: 12/05/2018
 ms.keywords: IWABObject interface [Windows Address Book],SetMe method, IWABObject.SetMe, IWABObject::SetMe, MAPI_DIALOG, SetMe, SetMe method [Windows Address Book], SetMe method [Windows Address Book],IWABObject interface, _wab_IWABObject_SetMe, wab._wab_IWABObject_SetMe, wabapi/IWABObject::SetMe
 ms.topic: method
-f1_keywords: 
- - "wabapi/IWABObject.SetMe"
+f1_keywords:
+- wabapi/IWABObject.SetMe
 dev_langs:
- - c++
+- c++
 req.header: wabapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wab32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wab32.dll
+- Wab32.dll
 api_name:
- - IWABObject.SetMe
+- IWABObject.SetMe
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NS:winuser.tagMENUINFO
 title: MENUINFO (winuser.h)
-
 description: Contains information about a menu.
 old-location: menurc\menuinfo.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\menus\menureference\menustructures\menuinfo.htm
-
 ms.date: 12/05/2018
-ms.keywords: "*LPMENUINFO, LPMENUINFO, LPMENUINFO structure pointer [Menus and Other Resources], MENUINFO, MENUINFO structure [Menus and Other Resources], MIM_APPLYTOSUBMENUS, MIM_BACKGROUND, MIM_HELPID, MIM_MAXHEIGHT, MIM_MENUDATA, MIM_STYLE, MNS_AUTODISMISS, MNS_CHECKORBMP, MNS_DRAGDROP, MNS_MODELESS, MNS_NOCHECK, MNS_NOTIFYBYPOS, _win32_MENUINFO_str, _win32_menuinfo_str_cpp, const *LPCMENUINFO, const *LPCMENUINFO structure [Menus and Other Resources], menurc.menuinfo, winui._win32_menuinfo_str, winuser/LPMENUINFO, winuser/MENUINFO, winuser/const *LPCMENUINFO"
+ms.keywords: '*LPMENUINFO, LPMENUINFO, LPMENUINFO structure pointer [Menus and Other Resources], MENUINFO, MENUINFO structure [Menus and Other Resources], MIM_APPLYTOSUBMENUS, MIM_BACKGROUND, MIM_HELPID, MIM_MAXHEIGHT, MIM_MENUDATA, MIM_STYLE, MNS_AUTODISMISS, MNS_CHECKORBMP, MNS_DRAGDROP, MNS_MODELESS, MNS_NOCHECK, MNS_NOTIFYBYPOS, _win32_MENUINFO_str, _win32_menuinfo_str_cpp, const *LPCMENUINFO, const *LPCMENUINFO structure [Menus and Other Resources], menurc.menuinfo, winui._win32_menuinfo_str, winuser/LPMENUINFO, winuser/MENUINFO, winuser/const *LPCMENUINFO'
 ms.topic: struct
-f1_keywords: 
- - "winuser/MENUINFO"
+f1_keywords:
+- winuser/MENUINFO
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Winuser.h
+- Winuser.h
 api_name:
- - MENUINFO
+- MENUINFO
 targetos: Windows
 req.typenames: MENUINFO, *LPMENUINFO
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NS:spatialaudiometadata.SpatialAudioObjectRenderStreamForMetadataActivationParams
 title: SpatialAudioObjectRenderStreamForMetadataActivationParams (spatialaudiometadata.h)
-
 description: Represents activation parameters for a spatial audio render stream for metadata. Pass this structure to ISpatialAudioClient::ActivateSpatialAudioStream when activating a stream.
 old-location: coreaudio\spatialaudioobjectrenderstreamformetadataactivationparams.htm
 tech.root: CoreAudio
 ms.assetid: 5B92F521-537F-4296-B9A7-7EC6985530B3
-
 ms.date: 12/05/2018
 ms.keywords: PSpatialAudioObjectRenderStreamForMetadataActivationParams, PSpatialAudioObjectRenderStreamForMetadataActivationParams structure pointer [Core Audio], SpatialAudioObjectRenderStreamForMetadataActivationParams, SpatialAudioObjectRenderStreamForMetadataActivationParams structure [Core Audio], coreaudio.spatialaudioobjectrenderstreamformetadataactivationparams, spatialaudiometadata/PSpatialAudioObjectRenderStreamForMetadataActivationParams, spatialaudiometadata/SpatialAudioObjectRenderStreamForMetadataActivationParams
 ms.topic: struct
-f1_keywords: 
- - "spatialaudiometadata/SpatialAudioObjectRenderStreamForMetadataActivationParams"
+f1_keywords:
+- spatialaudiometadata/SpatialAudioObjectRenderStreamForMetadataActivationParams
 dev_langs:
- - c++
+- c++
 req.header: spatialaudiometadata.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - spatialaudiometadata.h
+- spatialaudiometadata.h
 api_name:
- - SpatialAudioObjectRenderStreamForMetadataActivationParams
+- SpatialAudioObjectRenderStreamForMetadataActivationParams
 targetos: Windows
 req.typenames: SpatialAudioObjectRenderStreamForMetadataActivationParams
 req.redist: 

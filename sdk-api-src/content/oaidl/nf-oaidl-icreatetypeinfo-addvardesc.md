@@ -1,19 +1,17 @@
 ---
 UID: NF:oaidl.ICreateTypeInfo.AddVarDesc
 title: ICreateTypeInfo::AddVarDesc (oaidl.h)
-
 description: Adds a variable or data member description to the type description.
 old-location: automat\icreatetypeinfo_addvardesc.htm
 tech.root: automat
 ms.assetid: db576528-fefc-4a22-bc24-d5ea037eae26
-
 ms.date: 12/05/2018
 ms.keywords: AddVarDesc, AddVarDesc method [Automation], AddVarDesc method [Automation],ICreateTypeInfo interface, ICreateTypeInfo interface [Automation],AddVarDesc method, ICreateTypeInfo.AddVarDesc, ICreateTypeInfo::AddVarDesc, _oa96_ICreateTypeInfo_AddVarDesc, automat.icreatetypeinfo_addvardesc, oaidl/ICreateTypeInfo::AddVarDesc
 ms.topic: method
-f1_keywords: 
- - "oaidl/ICreateTypeInfo.AddVarDesc"
+f1_keywords:
+- oaidl/ICreateTypeInfo.AddVarDesc
 dev_langs:
- - c++
+- c++
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - oaidl.h
+- oaidl.h
 api_name:
- - ICreateTypeInfo.AddVarDesc
+- ICreateTypeInfo.AddVarDesc
 targetos: Windows
 req.typenames: 
 req.redist: 

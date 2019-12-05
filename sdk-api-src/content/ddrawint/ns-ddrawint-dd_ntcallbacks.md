@@ -1,19 +1,17 @@
 ---
 UID: NS:ddrawint._DD_NTCALLBACKS
 title: DD_NTCALLBACKS (ddrawint.h)
-
 description: The DD_NTCALLBACKS structure contains entry pointers to Microsoft Windows 2000 and later Microsoft DirectDraw callback functions that a device driver supports.
 old-location: display\dd_ntcallbacks.htm
 tech.root: display
 ms.assetid: 9d226b1c-6959-4cc8-9e60-b57a324d9a8a
-
 ms.date: 12/05/2018
 ms.keywords: '*PDD_NTCALLBACKS, DD_NTCALLBACKS, DD_NTCALLBACKS structure [Display Devices], PDD_NTCALLBACKS, PDD_NTCALLBACKS structure pointer [Display Devices], ddrawint/DD_NTCALLBACKS, ddrawint/PDD_NTCALLBACKS, ddstrcts_1e79e318-f193-455c-b4c6-5f016b539207.xml, display.dd_ntcallbacks'
 ms.topic: struct
 f1_keywords:
 - ddrawint/DD_NTCALLBACKS
 dev_langs:
- - c++
+- c++
 req.header: ddrawint.h
 req.include-header: Winddi.h
 req.target-type: Windows

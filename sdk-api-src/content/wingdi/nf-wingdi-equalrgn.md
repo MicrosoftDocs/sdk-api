@@ -1,19 +1,17 @@
 ---
 UID: NF:wingdi.EqualRgn
 title: EqualRgn function (wingdi.h)
-
 description: The EqualRgn function checks the two specified regions to determine whether they are identical. The function considers two regions identical if they are equal in size and shape.
 old-location: gdi\equalrgn.htm
 tech.root: gdi
 ms.assetid: c7829998-78f4-4334-bf34-92aad12555f5
-
 ms.date: 12/05/2018
 ms.keywords: EqualRgn, EqualRgn function [Windows GDI], _win32_EqualRgn, gdi.equalrgn, wingdi/EqualRgn
 ms.topic: function
-f1_keywords: 
- - "wingdi/EqualRgn"
+f1_keywords:
+- wingdi/EqualRgn
 dev_langs:
- - c++
+- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - gdi32.dll
- - Ext-MS-Win-RTCore-GDI-rgn-l1-1-0.dll
- - api-ms-win-gdi-ie-rgn-l1-1-0.dll
- - ie_shims.dll
- - ext-ms-win-rtcore-gdi-rgn-l1-1-1.dll
+- gdi32.dll
+- Ext-MS-Win-RTCore-GDI-rgn-l1-1-0.dll
+- api-ms-win-gdi-ie-rgn-l1-1-0.dll
+- ie_shims.dll
+- ext-ms-win-rtcore-gdi-rgn-l1-1-1.dll
 api_name:
- - EqualRgn
+- EqualRgn
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:ras.RasConnectionNotificationA
 title: RasConnectionNotificationA function (ras.h)
-
 description: The RasConnectionNotification function specifies an event object that the system sets to the signaled state when a RAS connection is created or terminated.
 old-location: rras\rasconnectionnotification.htm
 tech.root: RRAS
 ms.assetid: 7bbf928e-9b62-44fc-9d57-6c80f89865f0
-
 ms.date: 12/05/2018
 ms.keywords: RASCN_BandwidthAdded, RASCN_BandwidthRemoved, RASCN_Connection, RASCN_Disconnection, RasConnectionNotification, RasConnectionNotification function [RAS], RasConnectionNotificationA, RasConnectionNotificationW, _ras_rasconnectionnotification, ras/RasConnectionNotification, ras/RasConnectionNotificationA, ras/RasConnectionNotificationW, rras.rasconnectionnotification
 ms.topic: function
-f1_keywords: 
- - "ras/RasConnectionNotification"
+f1_keywords:
+- ras/RasConnectionNotification
 dev_langs:
- - c++
+- c++
 req.header: ras.h
 req.include-header: 
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib: Rasapi32.lib
 req.dll: Rasapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Rasapi32.dll
- - Ext-MS-Win-ras-rasapi32-l1-1-0.dll
- - Ext-MS-Win-ras-rasapi32-l1-1-1.dll
+- Rasapi32.dll
+- Ext-MS-Win-ras-rasapi32-l1-1-0.dll
+- Ext-MS-Win-ras-rasapi32-l1-1-1.dll
 api_name:
- - RasConnectionNotification
- - RasConnectionNotificationA
- - RasConnectionNotificationW
+- RasConnectionNotification
+- RasConnectionNotificationA
+- RasConnectionNotificationW
 targetos: Windows
 req.typenames: 
 req.redist: 

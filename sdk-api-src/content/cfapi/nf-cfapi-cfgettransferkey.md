@@ -1,19 +1,17 @@
 ---
 UID: NF:cfapi.CfGetTransferKey
 title: CfGetTransferKey function (cfapi.h)
-
 description: Initiates a transfer of data into a placeholder file or folder.
 old-location: cloudapi\cfgettransferkey.htm
 tech.root: cfApi
 ms.assetid: 07DDC46A-0C10-4677-A4B0-5A0406BBDAB7
-
 ms.date: 12/05/2018
 ms.keywords: CfGetTransferKey, CfGetTransferKey function, cfapi/CfGetTransferKey, cloudApi.cfgettransferkey
 ms.topic: function
-f1_keywords: 
- - "cfapi/CfGetTransferKey"
+f1_keywords:
+- cfapi/CfGetTransferKey
 dev_langs:
- - c++
+- c++
 req.header: cfapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: CldApi.lib
 req.dll: CldApi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - CldApi.dll
+- CldApi.dll
 api_name:
- - CfGetTransferKey
+- CfGetTransferKey
 targetos: Windows
 req.typenames: 
 req.redist: 

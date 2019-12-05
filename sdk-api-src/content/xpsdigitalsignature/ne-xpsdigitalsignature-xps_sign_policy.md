@@ -1,19 +1,17 @@
 ---
 UID: NE:xpsdigitalsignature.__MIDL___MIDL_itf_xpsdigitalsignature_0000_0000_0002
 title: XPS_SIGN_POLICY (xpsdigitalsignature.h)
-
 description: A bitwise enumerator that indicates which, if any, optional parts of an XPS document are signed.
 old-location: xps\xps_sign_policy.htm
 tech.root: printdocs
 ms.assetid: 88191931-4d6f-4ef3-ba75-227f6d2c2b10
-
 ms.date: 12/05/2018
 ms.keywords: XPS_SIGN_POLICY, XPS_SIGN_POLICY enumeration [XPS Documents and Packaging], XPS_SIGN_POLICY_ALL, XPS_SIGN_POLICY_CORE_PROPERTIES, XPS_SIGN_POLICY_DISCARD_CONTROL, XPS_SIGN_POLICY_NONE, XPS_SIGN_POLICY_PRINT_TICKET, XPS_SIGN_POLICY_SIGNATURE_RELATIONSHIPS, xps.xps_sign_policy, xpsdigitalsignature/XPS_SIGN_POLICY, xpsdigitalsignature/XPS_SIGN_POLICY_ALL, xpsdigitalsignature/XPS_SIGN_POLICY_CORE_PROPERTIES, xpsdigitalsignature/XPS_SIGN_POLICY_DISCARD_CONTROL, xpsdigitalsignature/XPS_SIGN_POLICY_NONE, xpsdigitalsignature/XPS_SIGN_POLICY_PRINT_TICKET, xpsdigitalsignature/XPS_SIGN_POLICY_SIGNATURE_RELATIONSHIPS
 ms.topic: enum
-f1_keywords: 
- - "xpsdigitalsignature/XPS_SIGN_POLICY"
+f1_keywords:
+- xpsdigitalsignature/XPS_SIGN_POLICY
 dev_langs:
- - c++
+- c++
 req.header: xpsdigitalsignature.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - xpsdigitalsignature.h
+- xpsdigitalsignature.h
 api_name:
- - XPS_SIGN_POLICY
+- XPS_SIGN_POLICY
 targetos: Windows
 req.typenames: XPS_SIGN_POLICY
 req.redist: 

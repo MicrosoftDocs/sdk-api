@@ -1,19 +1,17 @@
 ---
 UID: NF:wmdmlog.IWMDMLogger.IsEnabled
 title: IWMDMLogger::IsEnabled (wmdmlog.h)
-
 description: The IsEnabled method determines whether logging is enabled.
 old-location: wmdm\iwmdmlogger_isenabled.htm
 tech.root: WMDM
 ms.assetid: 10bf20bd-7457-4d37-82b5-7d761b4371c5
-
 ms.date: 12/05/2018
 ms.keywords: IWMDMLogger interface [windows Media Device Manager],IsEnabled method, IWMDMLogger.IsEnabled, IWMDMLogger::IsEnabled, IWMDMLoggerIsEnabled, IsEnabled, IsEnabled method [windows Media Device Manager], IsEnabled method [windows Media Device Manager],IWMDMLogger interface, wmdm.iwmdmlogger_isenabled, wmdmlog/IWMDMLogger::IsEnabled
 ms.topic: method
-f1_keywords: 
- - "wmdmlog/IWMDMLogger.IsEnabled"
+f1_keywords:
+- wmdmlog/IWMDMLogger.IsEnabled
 dev_langs:
- - c++
+- c++
 req.header: wmdmlog.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mssachlp.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mssachlp.lib
- - mssachlp.dll
+- mssachlp.lib
+- mssachlp.dll
 api_name:
- - IWMDMLogger.IsEnabled
+- IWMDMLogger.IsEnabled
 targetos: Windows
 req.typenames: 
 req.redist: 

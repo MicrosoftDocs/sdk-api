@@ -1,19 +1,17 @@
 ---
 UID: NF:tsuserex.IADsTSUserEx.put_BrokenConnectionAction
 title: IADsTSUserEx::put_BrokenConnectionAction (tsuserex.h)
-
 description: A value that specifies the action to take when a Remote Desktop Services session limit is reached.
 old-location: termserv\iadstsuserex_brokenconnectionaction.htm
 tech.root: TermServ
 ms.assetid: 4c5b2982-d8b6-413d-9758-1226074ad613
-
 ms.date: 12/05/2018
 ms.keywords: BrokenConnectionAction property [Remote Desktop Services], BrokenConnectionAction property [Remote Desktop Services],IADsTSUserEx interface, IADsTSUserEx interface [Remote Desktop Services],BrokenConnectionAction property, IADsTSUserEx.BrokenConnectionAction, IADsTSUserEx.put_BrokenConnectionAction, IADsTSUserEx::BrokenConnectionAction, IADsTSUserEx::get_BrokenConnectionAction, IADsTSUserEx::put_BrokenConnectionAction, put_BrokenConnectionAction, termserv.iadstsuserex_brokenconnectionaction, tsuserex/IADsTSUserEx::BrokenConnectionAction, tsuserex/IADsTSUserEx::get_BrokenConnectionAction, tsuserex/IADsTSUserEx::put_BrokenConnectionAction
 ms.topic: method
-f1_keywords: 
- - "tsuserex/IADsTSUserEx.BrokenConnectionAction"
+f1_keywords:
+- tsuserex/IADsTSUserEx.BrokenConnectionAction
 dev_langs:
- - c++
+- c++
 req.header: tsuserex.h
 req.include-header: Tsuserex.h, Tsuserex_i.c
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: Tsuserex.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Tsuserex.dll
+- Tsuserex.dll
 api_name:
- - IADsTSUserEx.BrokenConnectionAction
- - IADsTSUserEx.get_BrokenConnectionAction
- - IADsTSUserEx.put_BrokenConnectionAction
+- IADsTSUserEx.BrokenConnectionAction
+- IADsTSUserEx.get_BrokenConnectionAction
+- IADsTSUserEx.put_BrokenConnectionAction
 targetos: Windows
 req.typenames: 
 req.redist: 

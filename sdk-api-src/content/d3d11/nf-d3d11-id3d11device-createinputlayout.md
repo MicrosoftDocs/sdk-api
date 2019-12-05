@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d11.ID3D11Device.CreateInputLayout
 title: ID3D11Device::CreateInputLayout (d3d11.h)
-
 description: Create an input-layout object to describe the input-buffer data for the input-assembler stage.
 old-location: direct3d11\id3d11device_createinputlayout.htm
 tech.root: direct3d11
 ms.assetid: fe233b7b-3729-428a-8611-e98ea4c5af35
-
 ms.date: 12/05/2018
 ms.keywords: 7e1008d3-1c16-4b6f-6b61-949b59c5f6d2, CreateInputLayout, CreateInputLayout method [Direct3D 11], CreateInputLayout method [Direct3D 11],ID3D11Device interface, ID3D11Device interface [Direct3D 11],CreateInputLayout method, ID3D11Device.CreateInputLayout, ID3D11Device::CreateInputLayout, d3d11/ID3D11Device::CreateInputLayout, direct3d11.id3d11device_createinputlayout
 ms.topic: method
-f1_keywords: 
- - "d3d11/ID3D11Device.CreateInputLayout"
+f1_keywords:
+- d3d11/ID3D11Device.CreateInputLayout
 dev_langs:
- - c++
+- c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: D3D11.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D11.lib
- - D3D11.dll
+- D3D11.lib
+- D3D11.dll
 api_name:
- - ID3D11Device.CreateInputLayout
+- ID3D11Device.CreateInputLayout
 targetos: Windows
 req.typenames: 
 req.redist: 

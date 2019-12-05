@@ -1,19 +1,17 @@
 ---
 UID: NF:manipulations.IManipulationProcessor.GetAngularVelocity
 title: IManipulationProcessor::GetAngularVelocity (manipulations.h)
-
 description: The GetAngularVelocity method calculates the rotational velocity that the target object is moving at.
 old-location: wintouch\imanipulationprocessor_getangularvelocity.htm
 tech.root: wintouch
 ms.assetid: 3253837f-c5ea-47f7-ba0a-86e0ed4e228e
-
 ms.date: 12/05/2018
 ms.keywords: GetAngularVelocity, GetAngularVelocity method [Windows Touch], GetAngularVelocity method [Windows Touch],IManipulationProcessor interface, IManipulationProcessor interface [Windows Touch],GetAngularVelocity method, IManipulationProcessor.GetAngularVelocity, IManipulationProcessor::GetAngularVelocity, manipulations/IManipulationProcessor::GetAngularVelocity, wintouch.imanipulationprocessor_getangularvelocity
 ms.topic: method
-f1_keywords: 
- - "manipulations/IManipulationProcessor.GetAngularVelocity"
+f1_keywords:
+- manipulations/IManipulationProcessor.GetAngularVelocity
 dev_langs:
- - c++
+- c++
 req.header: manipulations.h
 req.include-header: Manipulations_i.c
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - manipulations.h
+- manipulations.h
 api_name:
- - IManipulationProcessor.GetAngularVelocity
+- IManipulationProcessor.GetAngularVelocity
 targetos: Windows
 req.typenames: 
 req.redist: 

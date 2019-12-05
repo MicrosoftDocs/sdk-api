@@ -1,19 +1,17 @@
 ---
 UID: NF:sbe.ISBE2StreamMap.UnmapStream
 title: ISBE2StreamMap::UnmapStream (sbe.h)
-
 description: Removes the mapping between a stream and an output pin for a Stream Buffer Source filter.
 old-location: mstv\isbe2streammap_unmapstream.htm
 tech.root: mstv
 ms.assetid: 75736e65-b708-4162-836d-7694899d23d7
-
 ms.date: 12/05/2018
 ms.keywords: ISBE2StreamMap interface [Microsoft TV Technologies],UnmapStream method, ISBE2StreamMap.UnmapStream, ISBE2StreamMap::UnmapStream, UnmapStream, UnmapStream method [Microsoft TV Technologies], UnmapStream method [Microsoft TV Technologies],ISBE2StreamMap interface, mstv.isbe2streammap_unmapstream, sbe/ISBE2StreamMap::UnmapStream
 ms.topic: method
-f1_keywords: 
- - "sbe/ISBE2StreamMap.UnmapStream"
+f1_keywords:
+- sbe/ISBE2StreamMap.UnmapStream
 dev_langs:
- - c++
+- c++
 req.header: sbe.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - sbe.h
+- sbe.h
 api_name:
- - ISBE2StreamMap.UnmapStream
+- ISBE2StreamMap.UnmapStream
 targetos: Windows
 req.typenames: 
 req.redist: 

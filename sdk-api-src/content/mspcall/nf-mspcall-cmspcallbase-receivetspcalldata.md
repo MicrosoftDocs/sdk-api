@@ -1,19 +1,17 @@
 ---
 UID: NF:mspcall.CMSPCallBase.ReceiveTSPCallData
 title: CMSPCallBase::ReceiveTSPCallData (mspcall.h)
-
 description: The ReceiveTSPCallData method is called by the MSP address object's ReceiveTSPData method to dispatch TSP data to the correct call.
 old-location: tapi3\cmspcallbase_receivetspcalldata.htm
 tech.root: Tapi
 ms.assetid: 8f5c31cd-7d74-47d4-9e96-8a965843210c
-
 ms.date: 12/05/2018
 ms.keywords: CMSPCallBase interface [TAPI 2.2],ReceiveTSPCallData method, CMSPCallBase.ReceiveTSPCallData, CMSPCallBase::ReceiveTSPCallData, ReceiveTSPCallData, ReceiveTSPCallData method [TAPI 2.2], ReceiveTSPCallData method [TAPI 2.2],CMSPCallBase interface, _tapi3_cmspcallbase_receivetspcalldata, mspcall/CMSPCallBase::ReceiveTSPCallData, tapi3.cmspcallbase_receivetspcalldata
 ms.topic: method
-f1_keywords: 
- - "mspcall/CMSPCallBase.ReceiveTSPCallData"
+f1_keywords:
+- mspcall/CMSPCallBase.ReceiveTSPCallData
 dev_langs:
- - c++
+- c++
 req.header: mspcall.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mspcall.h
+- Mspcall.h
 api_name:
- - CMSPCallBase.ReceiveTSPCallData
+- CMSPCallBase.ReceiveTSPCallData
 targetos: Windows
 req.typenames: 
 req.redist: 

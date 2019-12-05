@@ -1,19 +1,17 @@
 ---
 UID: NF:rdpappcontainerclient.IRemoteDesktopClientSettings.ApplySettings
 title: IRemoteDesktopClientSettings::ApplySettings (rdpappcontainerclient.h)
-
 description: Stores the specified contents in the RDP file.
 old-location: termserv\iremotedesktopclientsettings_applysettings.htm
 tech.root: TermServ
 ms.assetid: 24f17f50-6cb0-422a-88c6-77bae48af392
-
 ms.date: 12/05/2018
 ms.keywords: ApplySettings, ApplySettings method [Remote Desktop Services], ApplySettings method [Remote Desktop Services],IRemoteDesktopClientSettings interface, IRemoteDesktopClientSettings interface [Remote Desktop Services],ApplySettings method, IRemoteDesktopClientSettings.ApplySettings, IRemoteDesktopClientSettings::ApplySettings, rdpappcontainerclient/IRemoteDesktopClientSettings::ApplySettings, termserv.iremotedesktopclientsettings_applysettings
 ms.topic: method
-f1_keywords: 
- - "rdpappcontainerclient/IRemoteDesktopClientSettings.ApplySettings"
+f1_keywords:
+- rdpappcontainerclient/IRemoteDesktopClientSettings.ApplySettings
 dev_langs:
- - c++
+- c++
 req.header: rdpappcontainerclient.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: MsTscAx.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - MsTscAx.dll
+- MsTscAx.dll
 api_name:
- - IRemoteDesktopClientSettings.ApplySettings
+- IRemoteDesktopClientSettings.ApplySettings
 targetos: Windows
 req.typenames: 
 req.redist: 

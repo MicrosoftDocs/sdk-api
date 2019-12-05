@@ -1,19 +1,17 @@
 ---
 UID: NF:faxcom.IFaxPort.get_DeviceId
 title: IFaxPort::get_DeviceId (faxcom.h)
-
 description: The IFaxPort::get_DeviceId property is a number representing the permanent line identifier for the fax port.
 old-location: fax\_mfax_ifaxport_mfax_ifaxport_get_deviceid_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_8gf8.htm
-
 ms.date: 12/05/2018
 ms.keywords: DeviceId property [Fax Service], DeviceId property [Fax Service],IFaxPort interface, IFaxPort interface [Fax Service],DeviceId property, IFaxPort.DeviceId, IFaxPort.get_DeviceId, IFaxPort::DeviceId, IFaxPort::get_DeviceId, _mfax_ifaxport_get_deviceid, fax._mfax_ifaxport_get_deviceid, fax._mfax_ifaxport_mfax_ifaxport_get_deviceid_cpp, faxcom/IFaxPort::DeviceId, faxcom/IFaxPort::get_DeviceId, get_DeviceId
 ms.topic: method
-f1_keywords: 
- - "faxcom/IFaxPort.DeviceId"
+f1_keywords:
+- faxcom/IFaxPort.DeviceId
 dev_langs:
- - c++
+- c++
 req.header: faxcom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: Faxcom.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Faxcom.dll
+- Faxcom.dll
 api_name:
- - IFaxPort.DeviceId
- - IFaxPort.get_DeviceId
+- IFaxPort.DeviceId
+- IFaxPort.get_DeviceId
 targetos: Windows
 req.typenames: 
 req.redist: 

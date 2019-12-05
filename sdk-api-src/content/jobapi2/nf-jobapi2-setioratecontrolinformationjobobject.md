@@ -1,19 +1,17 @@
 ---
 UID: NF:jobapi2.SetIoRateControlInformationJobObject
 title: SetIoRateControlInformationJobObject function (jobapi2.h)
-
 description: Sets I/O limits on a job object.
 old-location: base\setioratecontrolinformationjobobject.htm
 tech.root: ProcThread
 ms.assetid: 7E108E01-6D43-4336-BFE0-5EE655FD5D45
-
 ms.date: 12/05/2018
 ms.keywords: SetIoRateControlInformationJobObject, SetIoRateControlInformationJobObject function, base.setioratecontrolinformationjobobject, jobapi2/SetIoRateControlInformationJobObject
 ms.topic: function
-f1_keywords: 
- - "jobapi2/SetIoRateControlInformationJobObject"
+f1_keywords:
+- jobapi2/SetIoRateControlInformationJobObject
 dev_langs:
- - c++
+- c++
 req.header: jobapi2.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - kernel32.dll
- - API-MS-Win-Core-Job-L2-1-1.dll
- - Kernel32Legacy.dll
+- kernel32.dll
+- API-MS-Win-Core-Job-L2-1-1.dll
+- Kernel32Legacy.dll
 api_name:
- - SetIoRateControlInformationJobObject
+- SetIoRateControlInformationJobObject
 targetos: Windows
 req.typenames: 
 req.redist: 

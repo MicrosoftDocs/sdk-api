@@ -1,19 +1,17 @@
 ---
 UID: NF:azroles.IAzAuthorizationStore.get_ApplicationData
 title: IAzAuthorizationStore::get_ApplicationData (azroles.h)
-
 description: Sets or retrieves an opaque field that can be used by the application to store information.
 old-location: security\azauthorizationstore_applicationdata.htm
 tech.root: SecAuthZ
 ms.assetid: 21a76185-6bcf-405a-a2c5-5509b51ed16e
-
 ms.date: 12/05/2018
 ms.keywords: ApplicationData property [Security], ApplicationData property [Security],AzAuthorizationStore object, ApplicationData property [Security],IAzAuthorizationStore interface, AzAuthorizationStore object [Security],ApplicationData property, IAzAuthorizationStore interface [Security],ApplicationData property, IAzAuthorizationStore.ApplicationData, IAzAuthorizationStore.get_ApplicationData, IAzAuthorizationStore::ApplicationData, IAzAuthorizationStore::get_ApplicationData, IAzAuthorizationStore::put_ApplicationData, azroles/IAzAuthorizationStore::ApplicationData, azroles/IAzAuthorizationStore::get_ApplicationData, azroles/IAzAuthorizationStore::put_ApplicationData, get_ApplicationData, security.azadminmanager_applicationdata, security.azauthorizationstore_applicationdata
 ms.topic: method
-f1_keywords: 
- - "azroles/IAzAuthorizationStore.ApplicationData"
+f1_keywords:
+- azroles/IAzAuthorizationStore.ApplicationData
 dev_langs:
- - c++
+- c++
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Azroles.lib
 req.dll: Azroles.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Azroles.dll
+- Azroles.dll
 api_name:
- - IAzAuthorizationStore.ApplicationData
- - IAzAuthorizationStore.get_ApplicationData
- - IAzAuthorizationStore.put_ApplicationData
- - AzAuthorizationStore.ApplicationData
+- IAzAuthorizationStore.ApplicationData
+- IAzAuthorizationStore.get_ApplicationData
+- IAzAuthorizationStore.put_ApplicationData
+- AzAuthorizationStore.ApplicationData
 targetos: Windows
 req.typenames: 
 req.redist: Windows Server 2003 Administration Tools Pack on Windows XP

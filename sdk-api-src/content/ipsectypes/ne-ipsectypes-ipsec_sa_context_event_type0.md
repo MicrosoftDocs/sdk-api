@@ -1,19 +1,17 @@
 ---
 UID: NE:ipsectypes.IPSEC_SA_CONTEXT_EVENT_TYPE0_
 title: IPSEC_SA_CONTEXT_EVENT_TYPE0 (ipsectypes.h)
-
 description: Specifies the type of IPsec security association (SA) context change event.
 old-location: fwp\ipsec_sa_context_event_type0.htm
 tech.root: fwp
 ms.assetid: 3e179d08-2962-4196-9c7e-c16c9cddf489
-
 ms.date: 12/05/2018
 ms.keywords: IPSEC_SA_CONTEXT_EVENT_ADD, IPSEC_SA_CONTEXT_EVENT_DELETE, IPSEC_SA_CONTEXT_EVENT_MAX, IPSEC_SA_CONTEXT_EVENT_TYPE0, IPSEC_SA_CONTEXT_EVENT_TYPE0 enumeration [Filtering], fwp.ipsec_sa_context_event_type0, ipsectypes/IPSEC_SA_CONTEXT_EVENT_ADD, ipsectypes/IPSEC_SA_CONTEXT_EVENT_DELETE, ipsectypes/IPSEC_SA_CONTEXT_EVENT_MAX, ipsectypes/IPSEC_SA_CONTEXT_EVENT_TYPE0
 ms.topic: enum
-f1_keywords: 
- - "ipsectypes/IPSEC_SA_CONTEXT_EVENT_TYPE0"
+f1_keywords:
+- ipsectypes/IPSEC_SA_CONTEXT_EVENT_TYPE0
 dev_langs:
- - c++
+- c++
 req.header: ipsectypes.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Ipsectypes.h
+- Ipsectypes.h
 api_name:
- - IPSEC_SA_CONTEXT_EVENT_TYPE0
+- IPSEC_SA_CONTEXT_EVENT_TYPE0
 targetos: Windows
 req.typenames: IPSEC_SA_CONTEXT_EVENT_TYPE0
 req.redist: 

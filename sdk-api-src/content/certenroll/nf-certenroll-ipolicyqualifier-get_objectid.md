@@ -1,19 +1,17 @@
 ---
 UID: NF:certenroll.IPolicyQualifier.get_ObjectId
 title: IPolicyQualifier::get_ObjectId (certenroll.h)
-
 description: Retrieves the object identifier (OID) for the qualifier.
 old-location: security\ipolicyqualifier_objectid_property.htm
 tech.root: seccertenroll
 ms.assetid: d19efcd3-c5fc-4268-af39-2385b7babcc9
-
 ms.date: 12/05/2018
 ms.keywords: IPolicyQualifier interface [Security],ObjectId property, IPolicyQualifier.ObjectId, IPolicyQualifier.get_ObjectId, IPolicyQualifier::ObjectId, IPolicyQualifier::get_ObjectId, ObjectId property [Security], ObjectId property [Security],IPolicyQualifier interface, certenroll/IPolicyQualifier::ObjectId, certenroll/IPolicyQualifier::get_ObjectId, get_ObjectId, security.ipolicyqualifier_objectid_property
 ms.topic: method
-f1_keywords: 
- - "certenroll/IPolicyQualifier.ObjectId"
+f1_keywords:
+- certenroll/IPolicyQualifier.ObjectId
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: CertEnroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CertEnroll.dll
+- CertEnroll.dll
 api_name:
- - IPolicyQualifier.ObjectId
- - IPolicyQualifier.get_ObjectId
+- IPolicyQualifier.ObjectId
+- IPolicyQualifier.get_ObjectId
 targetos: Windows
 req.typenames: 
 req.redist: 

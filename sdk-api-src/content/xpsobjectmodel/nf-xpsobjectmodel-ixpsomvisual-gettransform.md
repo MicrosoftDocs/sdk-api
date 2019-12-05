@@ -1,19 +1,17 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMVisual.GetTransform
 title: IXpsOMVisual::GetTransform (xpsobjectmodel.h)
-
 description: Gets a pointer to the IXpsOMMatrixTransform interface that contains the visual's resolved matrix transform.
 old-location: xps\ixpsomvisual_gettransform.htm
 tech.root: printdocs
 ms.assetid: 966916c9-8b63-468b-80fb-0c4863ff893a
-
 ms.date: 12/05/2018
 ms.keywords: GetTransform, GetTransform method [XPS Documents and Packaging], GetTransform method [XPS Documents and Packaging],IXpsOMVisual interface, IXpsOMVisual interface [XPS Documents and Packaging],GetTransform method, IXpsOMVisual.GetTransform, IXpsOMVisual::GetTransform, xps.ixpsomvisual_gettransform, xpsobjectmodel/IXpsOMVisual::GetTransform
 ms.topic: method
-f1_keywords: 
- - "xpsobjectmodel/IXpsOMVisual.GetTransform"
+f1_keywords:
+- xpsobjectmodel/IXpsOMVisual.GetTransform
 dev_langs:
- - c++
+- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsobjectmodel.h
+- xpsobjectmodel.h
 api_name:
- - IXpsOMVisual.GetTransform
+- IXpsOMVisual.GetTransform
 targetos: Windows
 req.typenames: 
 req.redist: 

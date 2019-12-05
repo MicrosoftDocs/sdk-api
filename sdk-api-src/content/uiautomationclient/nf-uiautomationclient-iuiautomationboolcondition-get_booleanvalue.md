@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationBoolCondition.get_BooleanValue
 title: IUIAutomationBoolCondition::get_BooleanValue (uiautomationclient.h)
-
 description: Retrieves the value of the condition:\_either TRUE or FALSE.
 old-location: winauto\uiauto_IUIAutomationBoolCondition_BooleanValue.htm
 tech.root: WinAuto
 ms.assetid: f9bcfb2a-c47e-4edd-ac58-4d27e2884a32
-
 ms.date: 12/05/2018
 ms.keywords: BooleanValue property [Windows Accessibility], BooleanValue property [Windows Accessibility],IUIAutomationBoolCondition interface, IUIAutomationBoolCondition interface [Windows Accessibility],BooleanValue property, IUIAutomationBoolCondition.BooleanValue, IUIAutomationBoolCondition.get_BooleanValue, IUIAutomationBoolCondition::BooleanValue, IUIAutomationBoolCondition::get_BooleanValue, get_BooleanValue, uiauto.uiauto_IUIAutomationBoolCondition_BooleanValue, uiauto_IUIAutomationBoolCondition_BooleanValue, uiautomationclient/IUIAutomationBoolCondition::BooleanValue, uiautomationclient/IUIAutomationBoolCondition::get_BooleanValue, winauto.uiauto_IUIAutomationBoolCondition_BooleanValue
 ms.topic: method
-f1_keywords: 
- - "uiautomationclient/IUIAutomationBoolCondition.BooleanValue"
+f1_keywords:
+- uiautomationclient/IUIAutomationBoolCondition.BooleanValue
 dev_langs:
- - c++
+- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationClient.h
+- UIAutomationClient.h
 api_name:
- - IUIAutomationBoolCondition.BooleanValue
- - IUIAutomationBoolCondition.get_BooleanValue
+- IUIAutomationBoolCondition.BooleanValue
+- IUIAutomationBoolCondition.get_BooleanValue
 targetos: Windows
 req.typenames: 
 req.redist: 

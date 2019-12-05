@@ -1,19 +1,17 @@
 ---
 UID: NF:errhandlingapi.UnhandledExceptionFilter
 title: UnhandledExceptionFilter function (errhandlingapi.h)
-
 description: An application-defined function that passes unhandled exceptions to the debugger, if the process is being debugged.
 old-location: base\unhandledexceptionfilter.htm
 tech.root: Debug
 ms.assetid: 9221e99b-6900-4b5d-923c-352bb27a5f8b
-
 ms.date: 12/05/2018
 ms.keywords: UnhandledExceptionFilter, UnhandledExceptionFilter function, _win32_unhandledexceptionfilter, base.unhandledexceptionfilter, errhandlingapi/UnhandledExceptionFilter
 ms.topic: function
 f1_keywords:
 - errhandlingapi/UnhandledExceptionFilter
 dev_langs:
- - c++
+- c++
 req.header: errhandlingapi.h
 req.include-header: Windows.h
 req.target-type: Windows

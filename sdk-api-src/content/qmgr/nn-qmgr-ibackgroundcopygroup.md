@@ -1,19 +1,17 @@
 ---
 UID: NN:qmgr.IBackgroundCopyGroup
 title: IBackgroundCopyGroup (qmgr.h)
-
 description: Use the IBackgroundCopyGroup interface to manage a group. A group contains download jobs. For example, add a job to the group, set the properties of the group, and start and stop the group in the download queue.
 old-location: bits\ibackgroundcopygroup.htm
 tech.root: Bits
 ms.assetid: 51ddd89a-489a-4b83-ad45-838809a6d2e8
-
 ms.date: 12/05/2018
 ms.keywords: IBackgroundCopyGroup, IBackgroundCopyGroup interface [BITS], IBackgroundCopyGroup interface [BITS],described, bits.ibackgroundcopygroup, qmgr/IBackgroundCopyGroup
 ms.topic: interface
-f1_keywords: 
- - "qmgr/IBackgroundCopyGroup"
+f1_keywords:
+- qmgr/IBackgroundCopyGroup
 dev_langs:
- - c++
+- c++
 req.header: qmgr.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib:
 req.dll: QmgrPrxy.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - QmgrPrxy.dll
+- QmgrPrxy.dll
 api_name:
- - IBackgroundCopyGroup
- - IBackgroundCopyGroup.InternalSetProp
- - IBackgroundCopyGroup.QueryNewJobInterface
- - IBackgroundCopyGroup.SetNotificationPointer
+- IBackgroundCopyGroup
+- IBackgroundCopyGroup.InternalSetProp
+- IBackgroundCopyGroup.QueryNewJobInterface
+- IBackgroundCopyGroup.SetNotificationPointer
 targetos: Windows
 req.typenames: 
 req.redist: 

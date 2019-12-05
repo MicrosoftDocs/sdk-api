@@ -1,19 +1,17 @@
 ---
 UID: NF:functiondiscoveryprovider.IProviderProperties.SetValue
 title: IProviderProperties::SetValue (functiondiscoveryprovider.h)
-
 description: Sets the value of the specified property key.
 old-location: ncd\iproviderproperties_setvalue.htm
 tech.root: FunDisc
 ms.assetid: 5aa3e6a3-febc-4d2d-b58b-abfad28d325d
-
 ms.date: 12/05/2018
 ms.keywords: IProviderProperties interface,SetValue method, IProviderProperties.SetValue, IProviderProperties::SetValue, SetValue, SetValue method, SetValue method,IProviderProperties interface, functiondiscoveryprovider/IProviderProperties::SetValue, ncd.iproviderproperties_setvalue
 ms.topic: method
-f1_keywords: 
- - "functiondiscoveryprovider/IProviderProperties.SetValue"
+f1_keywords:
+- functiondiscoveryprovider/IProviderProperties.SetValue
 dev_langs:
- - c++
+- c++
 req.header: functiondiscoveryprovider.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - FunctionDiscoveryProvider.h
+- FunctionDiscoveryProvider.h
 api_name:
- - IProviderProperties.SetValue
+- IProviderProperties.SetValue
 targetos: Windows
 req.typenames: 
 req.redist: 

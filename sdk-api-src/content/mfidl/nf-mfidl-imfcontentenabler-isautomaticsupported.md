@@ -1,19 +1,17 @@
 ---
 UID: NF:mfidl.IMFContentEnabler.IsAutomaticSupported
 title: IMFContentEnabler::IsAutomaticSupported (mfidl.h)
-
 description: Queries whether the content enabler can perform all of its actions automatically.
 old-location: mf\imfcontentenabler_isautomaticsupported.htm
 tech.root: medfound
 ms.assetid: 144470ce-2849-4464-8596-fac216529145
-
 ms.date: 12/05/2018
 ms.keywords: 144470ce-2849-4464-8596-fac216529145, IMFContentEnabler interface [Media Foundation],IsAutomaticSupported method, IMFContentEnabler.IsAutomaticSupported, IMFContentEnabler::IsAutomaticSupported, IsAutomaticSupported, IsAutomaticSupported method [Media Foundation], IsAutomaticSupported method [Media Foundation],IMFContentEnabler interface, mf.imfcontentenabler_isautomaticsupported, mfidl/IMFContentEnabler::IsAutomaticSupported
 ms.topic: method
-f1_keywords: 
- - "mfidl/IMFContentEnabler.IsAutomaticSupported"
+f1_keywords:
+- mfidl/IMFContentEnabler.IsAutomaticSupported
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFContentEnabler.IsAutomaticSupported
+- IMFContentEnabler.IsAutomaticSupported
 targetos: Windows
 req.typenames: 
 req.redist: 

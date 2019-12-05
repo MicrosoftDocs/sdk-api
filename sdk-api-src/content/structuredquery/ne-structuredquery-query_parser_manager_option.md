@@ -1,19 +1,17 @@
 ---
 UID: NE:structuredquery.tagQUERY_PARSER_MANAGER_OPTION
 title: QUERY_PARSER_MANAGER_OPTION (structuredquery.h)
-
 description: Used by IQueryParserManager::SetOption to set parsing options. This can be used to specify schemas and localization options.
 old-location: search\_search_QUERY_PARSER_MANAGER_OPTION.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\enums\query_parser_manager_option.htm
-
 ms.date: 12/05/2018
 ms.keywords: QPMO_APPEND_LCID_TO_LOCALIZED_PATH, QPMO_LOCALIZED_SCHEMA_BINARY_PATH, QPMO_LOCALIZER_SUPPORT, QPMO_PRELOCALIZED_SCHEMA_BINARY_PATH, QPMO_SCHEMA_BINARY_NAME, QPMO_UNLOCALIZED_SCHEMA_BINARY_PATH, QUERY_PARSER_MANAGER_OPTION, QUERY_PARSER_MANAGER_OPTION enumeration [search], _search_QUERY_PARSER_MANAGER_OPTION, search._search_QUERY_PARSER_MANAGER_OPTION, structuredquery/QPMO_APPEND_LCID_TO_LOCALIZED_PATH, structuredquery/QPMO_LOCALIZED_SCHEMA_BINARY_PATH, structuredquery/QPMO_LOCALIZER_SUPPORT, structuredquery/QPMO_PRELOCALIZED_SCHEMA_BINARY_PATH, structuredquery/QPMO_SCHEMA_BINARY_NAME, structuredquery/QPMO_UNLOCALIZED_SCHEMA_BINARY_PATH, structuredquery/QUERY_PARSER_MANAGER_OPTION
 ms.topic: enum
-f1_keywords: 
- - "structuredquery/QUERY_PARSER_MANAGER_OPTION"
+f1_keywords:
+- structuredquery/QUERY_PARSER_MANAGER_OPTION
 dev_langs:
- - c++
+- c++
 req.header: structuredquery.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Structuredquery.h
+- Structuredquery.h
 api_name:
- - QUERY_PARSER_MANAGER_OPTION
+- QUERY_PARSER_MANAGER_OPTION
 targetos: Windows
 req.typenames: QUERY_PARSER_MANAGER_OPTION
 req.redist: Windows Desktop Search (WDS) 3.0

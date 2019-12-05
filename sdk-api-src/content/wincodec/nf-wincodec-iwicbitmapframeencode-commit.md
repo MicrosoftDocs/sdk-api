@@ -1,19 +1,17 @@
 ---
 UID: NF:wincodec.IWICBitmapFrameEncode.Commit
 title: IWICBitmapFrameEncode::Commit (wincodec.h)
-
 description: Commits the frame to the image.
 old-location: wic\_wic_codec_iwicbitmapframeencode_commit.htm
 tech.root: wic
 ms.assetid: 6321fb9e-9ea8-423c-a332-9daa589af6f7
-
 ms.date: 12/05/2018
 ms.keywords: Commit, Commit method [Windows Imaging Component], Commit method [Windows Imaging Component],IWICBitmapFrameEncode interface, IWICBitmapFrameEncode interface [Windows Imaging Component],Commit method, IWICBitmapFrameEncode.Commit, IWICBitmapFrameEncode::Commit, _wic_codec_iwicbitmapframeencode_commit, wic._wic_codec_iwicbitmapframeencode_commit, wincodec/IWICBitmapFrameEncode::Commit
 ms.topic: method
-f1_keywords: 
- - "wincodec/IWICBitmapFrameEncode.Commit"
+f1_keywords:
+- wincodec/IWICBitmapFrameEncode.Commit
 dev_langs:
- - c++
+- c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Windowscodecs.lib
 req.dll: Windowscodecs.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Windowscodecs.dll
+- Windowscodecs.dll
 api_name:
- - IWICBitmapFrameEncode.Commit
+- IWICBitmapFrameEncode.Commit
 targetos: Windows
 req.typenames: 
 req.redist: 

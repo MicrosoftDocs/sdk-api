@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IFolderView2.DoRename
 title: IFolderView2::DoRename (shobjidl_core.h)
-
 description: Starts a rename operation on the current selection.
 old-location: shell\IFolderView2_DoRename.htm
 tech.root: shell
 ms.assetid: 194804bc-c446-491b-9452-996132a65fcf
-
 ms.date: 12/05/2018
 ms.keywords: DoRename, DoRename method [Windows Shell], DoRename method [Windows Shell],IFolderView2 interface, IFolderView2 interface [Windows Shell],DoRename method, IFolderView2.DoRename, IFolderView2::DoRename, _shell_IFolderView2_DoRename, shell.IFolderView2_DoRename, shobjidl_core/IFolderView2::DoRename
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IFolderView2.DoRename"
+f1_keywords:
+- shobjidl_core/IFolderView2.DoRename
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - IFolderView2.DoRename
+- IFolderView2.DoRename
 targetos: Windows
 req.typenames: 
 req.redist: 

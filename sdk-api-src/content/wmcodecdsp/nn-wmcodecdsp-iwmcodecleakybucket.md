@@ -1,19 +1,17 @@
 ---
 UID: NN:wmcodecdsp.IWMCodecLeakyBucket
 title: IWMCodecLeakyBucket (wmcodecdsp.h)
-
 description: Configures the &#0034;leaky bucket&#0034; parameters on a video encoder.
 old-location: mf\iwmcodecleakybucketinterface.htm
 tech.root: medfound
 ms.assetid: 93a0169e-39fe-4152-8698-72a0650be41a
-
 ms.date: 12/05/2018
 ms.keywords: IWMCodecLeakyBucket, IWMCodecLeakyBucket interface [Media Foundation], IWMCodecLeakyBucket interface [Media Foundation],described, codecapi.iwmcodecleakybucketinterface, mf.iwmcodecleakybucketinterface, wmcodecdsp/IWMCodecLeakyBucket
 ms.topic: interface
-f1_keywords: 
- - "wmcodecdsp/IWMCodecLeakyBucket"
+f1_keywords:
+- wmcodecdsp/IWMCodecLeakyBucket
 dev_langs:
- - c++
+- c++
 req.header: wmcodecdsp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmcodecdsp.h
+- wmcodecdsp.h
 api_name:
- - IWMCodecLeakyBucket
+- IWMCodecLeakyBucket
 targetos: Windows
 req.typenames: 
 req.redist: 

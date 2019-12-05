@@ -1,19 +1,17 @@
 ---
 UID: NS:cryptxml._CRYPT_XML_ALGORITHM_INFO
 title: CRYPT_XML_ALGORITHM_INFO (cryptxml.h)
-
 description: Contains algorithm information.
 old-location: security\crypt_xml_algorithm_info.htm
 tech.root: SecCrypto
 ms.assetid: ab6ec092-d25d-4ca0-8206-b7e5ad36d69b
-
 ms.date: 12/05/2018
-ms.keywords: "*PCRYPT_XML_ALGORITHM_INFO, CRYPT_XML_ALGORITHM_INFO, CRYPT_XML_ALGORITHM_INFO structure [Security], CRYPT_XML_GROUP_ID_HASH, CRYPT_XML_GROUP_ID_SIGN, PCRYPT_XML_ALGORITHM_INFO, PCRYPT_XML_ALGORITHM_INFO structure pointer [Security], cryptxml/CRYPT_XML_ALGORITHM_INFO, cryptxml/PCRYPT_XML_ALGORITHM_INFO, security.crypt_xml_algorithm_info"
+ms.keywords: '*PCRYPT_XML_ALGORITHM_INFO, CRYPT_XML_ALGORITHM_INFO, CRYPT_XML_ALGORITHM_INFO structure [Security], CRYPT_XML_GROUP_ID_HASH, CRYPT_XML_GROUP_ID_SIGN, PCRYPT_XML_ALGORITHM_INFO, PCRYPT_XML_ALGORITHM_INFO structure pointer [Security], cryptxml/CRYPT_XML_ALGORITHM_INFO, cryptxml/PCRYPT_XML_ALGORITHM_INFO, security.crypt_xml_algorithm_info'
 ms.topic: struct
-f1_keywords: 
- - "cryptxml/CRYPT_XML_ALGORITHM_INFO"
+f1_keywords:
+- cryptxml/CRYPT_XML_ALGORITHM_INFO
 dev_langs:
- - c++
+- c++
 req.header: cryptxml.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Cryptxml.h
+- Cryptxml.h
 api_name:
- - CRYPT_XML_ALGORITHM_INFO
+- CRYPT_XML_ALGORITHM_INFO
 targetos: Windows
 req.typenames: CRYPT_XML_ALGORITHM_INFO, *PCRYPT_XML_ALGORITHM_INFO
 req.redist: 

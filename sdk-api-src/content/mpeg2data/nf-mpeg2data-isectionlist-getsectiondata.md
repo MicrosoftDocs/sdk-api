@@ -1,19 +1,17 @@
 ---
 UID: NF:mpeg2data.ISectionList.GetSectionData
 title: ISectionList::GetSectionData (mpeg2data.h)
-
 description: The GetSectionData method retrieves a section.
 old-location: mstv\isectionlist_getsectiondata.htm
 tech.root: mstv
 ms.assetid: b03d1727-9ebd-4e78-b7d0-c6d0959aab8a
-
 ms.date: 12/05/2018
 ms.keywords: GetSectionData, GetSectionData method [Microsoft TV Technologies], GetSectionData method [Microsoft TV Technologies],ISectionList interface, ISectionList interface [Microsoft TV Technologies],GetSectionData method, ISectionList.GetSectionData, ISectionList::GetSectionData, ISectionListGetSectionData, mpeg2data/ISectionList::GetSectionData, mstv.isectionlist_getsectiondata
 ms.topic: method
-f1_keywords: 
- - "mpeg2data/ISectionList.GetSectionData"
+f1_keywords:
+- mpeg2data/ISectionList.GetSectionData
 dev_langs:
- - c++
+- c++
 req.header: mpeg2data.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mpeg2data.h
+- Mpeg2data.h
 api_name:
- - ISectionList.GetSectionData
+- ISectionList.GetSectionData
 targetos: Windows
 req.typenames: 
 req.redist: 

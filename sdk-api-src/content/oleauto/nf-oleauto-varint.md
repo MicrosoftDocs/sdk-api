@@ -1,19 +1,17 @@
 ---
 UID: NF:oleauto.VarInt
 title: VarInt function (oleauto.h)
-
 description: Returns the integer portion of a variant.
 old-location: automat\varint.htm
 tech.root: automat
 ms.assetid: 96a9a158-d822-4cde-80c5-ea66f0fa4f1f
-
 ms.date: 12/05/2018
 ms.keywords: VarInt, VarInt function [Automation], _oa96_VarInt, automat.varint, oleauto/VarInt
 ms.topic: function
-f1_keywords: 
- - "oleauto/VarInt"
+f1_keywords:
+- oleauto/VarInt
 dev_langs:
- - c++
+- c++
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: OleAut32.lib
 req.dll: OleAut32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - OleAut32.dll
+- OleAut32.dll
 api_name:
- - VarInt
+- VarInt
 targetos: Windows
 req.typenames: 
 req.redist: 

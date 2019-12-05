@@ -1,19 +1,17 @@
 ---
 UID: NS:d3d11_2.D3D11_TILED_RESOURCE_COORDINATE
 title: D3D11_TILED_RESOURCE_COORDINATE (d3d11_2.h)
-
 description: Describes the coordinates of a tiled resource.
 old-location: direct3d11\d3d11_tiled_resource_coordinate.htm
 tech.root: direct3d11
 ms.assetid: 4639E5FA-44D7-4F6E-8843-17EE862BD9C4
-
 ms.date: 12/05/2018
 ms.keywords: D3D11_TILED_RESOURCE_COORDINATE, D3D11_TILED_RESOURCE_COORDINATE structure [Direct3D 11], d3d11_2/D3D11_TILED_RESOURCE_COORDINATE, direct3d11.d3d11_tiled_resource_coordinate
 ms.topic: struct
-f1_keywords: 
- - "d3d11_2/D3D11_TILED_RESOURCE_COORDINATE"
+f1_keywords:
+- d3d11_2/D3D11_TILED_RESOURCE_COORDINATE
 dev_langs:
- - c++
+- c++
 req.header: d3d11_2.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - D3D11_2.h
+- D3D11_2.h
 api_name:
- - D3D11_TILED_RESOURCE_COORDINATE
+- D3D11_TILED_RESOURCE_COORDINATE
 targetos: Windows
 req.typenames: D3D11_TILED_RESOURCE_COORDINATE
 req.redist: 

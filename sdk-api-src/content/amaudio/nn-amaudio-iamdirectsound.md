@@ -1,19 +1,17 @@
 ---
 UID: NN:amaudio.IAMDirectSound
 title: IAMDirectSound (amaudio.h)
-
 description: The IAMDirectSound interface specifies which window has focus for controlling DirectSound audio playback.
 old-location: dshow\iamdirectsound.htm
 tech.root: DirectShow
 ms.assetid: a9afaeb7-e2d4-4dbf-9f4d-144cafbd5e28
-
 ms.date: 12/05/2018
 ms.keywords: IAMDirectSound, IAMDirectSound interface [DirectShow], IAMDirectSound interface [DirectShow],described, IAMDirectSoundInterface, amaudio/IAMDirectSound, dshow.iamdirectsound
 ms.topic: interface
-f1_keywords: 
- - "amaudio/IAMDirectSound"
+f1_keywords:
+- amaudio/IAMDirectSound
 dev_langs:
- - c++
+- c++
 req.header: amaudio.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IAMDirectSound
+- IAMDirectSound
 targetos: Windows
 req.typenames: 
 req.redist: 

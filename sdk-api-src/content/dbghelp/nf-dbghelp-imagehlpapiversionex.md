@@ -1,19 +1,17 @@
 ---
 UID: NF:dbghelp.ImagehlpApiVersionEx
 title: ImagehlpApiVersionEx function (dbghelp.h)
-
 description: Modifies the version information of the library used by the application.
 old-location: base\imagehlpapiversionex.htm
 tech.root: Debug
 ms.assetid: 86a26160-ebad-4d6e-b559-3d59f2beb5ca
-
 ms.date: 12/05/2018
 ms.keywords: ImagehlpApiVersionEx, ImagehlpApiVersionEx function, _win32_imagehlpapiversionex, base.imagehlpapiversionex, dbghelp/ImagehlpApiVersionEx
 ms.topic: function
-f1_keywords: 
- - "dbghelp/ImagehlpApiVersionEx"
+f1_keywords:
+- dbghelp/ImagehlpApiVersionEx
 dev_langs:
- - c++
+- c++
 req.header: dbghelp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dbghelp.lib
 req.dll: Dbghelp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Dbghelp.dll
+- Dbghelp.dll
 api_name:
- - ImagehlpApiVersionEx
+- ImagehlpApiVersionEx
 targetos: Windows
 req.typenames: 
 req.redist: DbgHelp.dll 5.1 or later

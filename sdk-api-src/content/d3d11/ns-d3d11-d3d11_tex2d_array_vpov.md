@@ -1,19 +1,17 @@
 ---
 UID: NS:d3d11.D3D11_TEX2D_ARRAY_VPOV
 title: D3D11_TEX2D_ARRAY_VPOV (d3d11.h)
-
 description: Identifies a texture resource for a video processor output view.
 old-location: mf\d3d11_tex2d_array_vpov.htm
 tech.root: medfound
 ms.assetid: DF059392-3E4B-45D2-A3CD-A0C61C8D628F
-
 ms.date: 12/05/2018
 ms.keywords: D3D11_TEX2D_ARRAY_VPOV, D3D11_TEX2D_ARRAY_VPOV structure [Media Foundation], d3d11/D3D11_TEX2D_ARRAY_VPOV, mf.d3d11_tex2d_array_vpov
 ms.topic: struct
-f1_keywords: 
- - "d3d11/D3D11_TEX2D_ARRAY_VPOV"
+f1_keywords:
+- d3d11/D3D11_TEX2D_ARRAY_VPOV
 dev_langs:
- - c++
+- c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - d3d11.h
+- d3d11.h
 api_name:
- - D3D11_TEX2D_ARRAY_VPOV
+- D3D11_TEX2D_ARRAY_VPOV
 targetos: Windows
 req.typenames: D3D11_TEX2D_ARRAY_VPOV
 req.redist: 

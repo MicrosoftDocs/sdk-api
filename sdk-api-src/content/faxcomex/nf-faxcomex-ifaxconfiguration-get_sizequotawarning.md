@@ -1,19 +1,17 @@
 ---
 UID: NF:faxcomex.IFaxConfiguration.get_SizeQuotaWarning
 title: IFaxConfiguration::get_SizeQuotaWarning (faxcomex.h)
-
 description: Sets or retrieves a value that indicates whether the size quota warning is turned on.
 old-location: fax\_mfax_IFaxConfiguration_SizeQuotaWarning.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\reference\serviceextendedcom\o\faxconfiguation\sizequotawarning.htm
-
 ms.date: 12/05/2018
 ms.keywords: IFaxConfiguration interface [Fax Service],SizeQuotaWarning property, IFaxConfiguration.SizeQuotaWarning, IFaxConfiguration.get_SizeQuotaWarning, IFaxConfiguration::SizeQuotaWarning, IFaxConfiguration::get_SizeQuotaWarning, IFaxConfiguration::put_SizeQuotaWarning, SizeQuotaWarning property [Fax Service], SizeQuotaWarning property [Fax Service],IFaxConfiguration interface, _mfax_IFaxConfiguration_SizeQuotaWarning, fax._mfax_IFaxConfiguration_SizeQuotaWarning, faxcomex/IFaxConfiguration::SizeQuotaWarning, faxcomex/IFaxConfiguration::get_SizeQuotaWarning, faxcomex/IFaxConfiguration::put_SizeQuotaWarning, get_SizeQuotaWarning
 ms.topic: method
-f1_keywords: 
- - "faxcomex/IFaxConfiguration.SizeQuotaWarning"
+f1_keywords:
+- faxcomex/IFaxConfiguration.SizeQuotaWarning
 dev_langs:
- - c++
+- c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: Fxscomex.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Fxscomex.dll
+- Fxscomex.dll
 api_name:
- - IFaxConfiguration.SizeQuotaWarning
- - IFaxConfiguration.get_SizeQuotaWarning
- - IFaxConfiguration.put_SizeQuotaWarning
+- IFaxConfiguration.SizeQuotaWarning
+- IFaxConfiguration.get_SizeQuotaWarning
+- IFaxConfiguration.put_SizeQuotaWarning
 targetos: Windows
 req.typenames: 
 req.redist: 

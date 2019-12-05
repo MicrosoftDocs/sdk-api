@@ -1,19 +1,17 @@
 ---
 UID: NS:vmr9._VMR9AlphaBitmap
 title: VMR9AlphaBitmap (vmr9.h)
-
 description: The VMR9AlphaBitmap structure is used with the IVMRMixerBitmap9 interface when an application provides a static bitmap for alpha blending with the video frame.
 old-location: dshow\vmr9alphabitmap.htm
 tech.root: DirectShow
 ms.assetid: 62214c24-0a4b-43c3-91dc-3eb6e5df3d94
-
 ms.date: 12/05/2018
 ms.keywords: MixerPref9_AnisotropicFiltering, MixerPref9_BiLinearFiltering, MixerPref9_GaussianQuadFiltering, MixerPref9_PointFiltering, MixerPref9_PyramidalQuadFiltering, VMR9AlphaBitmap, VMR9AlphaBitmap structure [DirectShow], VMR9AlphaBitmapStructure, dshow.vmr9alphabitmap, vmr9/VMR9AlphaBitmap
 ms.topic: struct
-f1_keywords: 
- - "vmr9/VMR9AlphaBitmap"
+f1_keywords:
+- vmr9/VMR9AlphaBitmap
 dev_langs:
- - c++
+- c++
 req.header: vmr9.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Vmr9.h
+- Vmr9.h
 api_name:
- - VMR9AlphaBitmap
+- VMR9AlphaBitmap
 targetos: Windows
 req.typenames: VMR9AlphaBitmap
 req.redist: 

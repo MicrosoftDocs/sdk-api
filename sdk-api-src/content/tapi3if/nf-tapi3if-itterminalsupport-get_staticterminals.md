@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi3if.ITTerminalSupport.get_StaticTerminals
 title: ITTerminalSupport::get_StaticTerminals (tapi3if.h)
-
 description: The get_StaticTerminals method creates a collection of currently available static terminals.
 old-location: tapi3\itterminalsupport_get_staticterminals.htm
 tech.root: Tapi
 ms.assetid: f4cdd3f5-ca8c-4660-b37c-c38779a516dd
-
 ms.date: 12/05/2018
 ms.keywords: ITTerminalSupport interface [TAPI 2.2],get_StaticTerminals method, ITTerminalSupport.get_StaticTerminals, ITTerminalSupport::get_StaticTerminals, _tapi3_itterminalsupport_get_staticterminals, get_StaticTerminals, get_StaticTerminals method [TAPI 2.2], get_StaticTerminals method [TAPI 2.2],ITTerminalSupport interface, tapi3.itterminalsupport_get_staticterminals, tapi3if/ITTerminalSupport::get_StaticTerminals
 ms.topic: method
-f1_keywords: 
- - "tapi3if/ITTerminalSupport.get_StaticTerminals"
+f1_keywords:
+- tapi3if/ITTerminalSupport.get_StaticTerminals
 dev_langs:
- - c++
+- c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - tapi3if.h
+- tapi3if.h
 api_name:
- - ITTerminalSupport.get_StaticTerminals
+- ITTerminalSupport.get_StaticTerminals
 targetos: Windows
 req.typenames: 
 req.redist: 

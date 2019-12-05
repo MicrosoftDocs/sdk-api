@@ -1,19 +1,17 @@
 ---
 UID: NF:casetup.ICertSrvSetup.CAImportPFX
 title: ICertSrvSetup::CAImportPFX (casetup.h)
-
 description: Imports a certification authority (CA) certificate and its associated private key into the local computer store.
 old-location: security\icertsrvsetup_caimportpfx.htm
 tech.root: SecCrypto
 ms.assetid: a661b74b-04ba-49b9-bde2-3e368ae6228e
-
 ms.date: 12/05/2018
 ms.keywords: CAImportPFX, CAImportPFX method [Security], CAImportPFX method [Security],ICertSrvSetup interface, ICertSrvSetup interface [Security],CAImportPFX method, ICertSrvSetup.CAImportPFX, ICertSrvSetup::CAImportPFX, casetup/ICertSrvSetup::CAImportPFX, security.icertsrvsetup_caimportpfx
 ms.topic: method
-f1_keywords: 
- - "casetup/ICertSrvSetup.CAImportPFX"
+f1_keywords:
+- casetup/ICertSrvSetup.CAImportPFX
 dev_langs:
- - c++
+- c++
 req.header: casetup.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Certocm.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Certocm.dll
+- Certocm.dll
 api_name:
- - ICertSrvSetup.CAImportPFX
+- ICertSrvSetup.CAImportPFX
 targetos: Windows
 req.typenames: 
 req.redist: 

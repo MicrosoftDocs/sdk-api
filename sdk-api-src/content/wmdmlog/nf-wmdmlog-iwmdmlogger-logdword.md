@@ -1,19 +1,17 @@
 ---
 UID: NF:wmdmlog.IWMDMLogger.LogDword
 title: IWMDMLogger::LogDword (wmdmlog.h)
-
 description: The LogDword method logs a DWORD value to the current log file. A carriage return and line feed are added to each log entry.
 old-location: wmdm\iwmdmlogger_logdword.htm
 tech.root: WMDM
 ms.assetid: 68467750-76c5-4f2c-82cf-69c3db12fae9
-
 ms.date: 12/05/2018
 ms.keywords: IWMDMLogger interface [windows Media Device Manager],LogDword method, IWMDMLogger.LogDword, IWMDMLogger::LogDword, IWMDMLoggerLogDword, LogDword, LogDword method [windows Media Device Manager], LogDword method [windows Media Device Manager],IWMDMLogger interface, wmdm.iwmdmlogger_logdword, wmdmlog/IWMDMLogger::LogDword
 ms.topic: method
-f1_keywords: 
- - "wmdmlog/IWMDMLogger.LogDword"
+f1_keywords:
+- wmdmlog/IWMDMLogger.LogDword
 dev_langs:
- - c++
+- c++
 req.header: wmdmlog.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mssachlp.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mssachlp.lib
- - mssachlp.dll
+- mssachlp.lib
+- mssachlp.dll
 api_name:
- - IWMDMLogger.LogDword
+- IWMDMLogger.LogDword
 targetos: Windows
 req.typenames: 
 req.redist: 

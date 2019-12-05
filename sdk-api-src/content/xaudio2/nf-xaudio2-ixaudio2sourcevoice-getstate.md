@@ -1,19 +1,17 @@
 ---
 UID: NF:xaudio2.IXAudio2SourceVoice.GetState
 title: IXAudio2SourceVoice::GetState (xaudio2.h)
-
 description: Returns the voice's current cursor position data.
 old-location: xaudio2\ixaudio2sourcevoice_interface_getstate.htm
 tech.root: xaudio2
 ms.assetid: M:Microsoft.directx_sdk.ixaudio2sourcevoice.IXAudio2SourceVoice.GetState(XAUDIO2_VOICE_STATE,UINT32)
-
 ms.date: 12/05/2018
 ms.keywords: GetState, GetState method [XAudio2 Audio Mixing APIs], GetState method [XAudio2 Audio Mixing APIs],IXAudio2SourceVoice interface, IXAudio2SourceVoice interface [XAudio2 Audio Mixing APIs],GetState method, IXAudio2SourceVoice.GetState, IXAudio2SourceVoice::GetState, xaudio2.ixaudio2sourcevoice_interface_getstate, xaudio2/IXAudio2SourceVoice::GetState
 ms.topic: method
-f1_keywords: 
- - "xaudio2/IXAudio2SourceVoice.GetState"
+f1_keywords:
+- xaudio2/IXAudio2SourceVoice.GetState
 dev_langs:
- - c++
+- c++
 req.header: xaudio2.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xaudio2.h
+- xaudio2.h
 api_name:
- - IXAudio2SourceVoice.GetState
+- IXAudio2SourceVoice.GetState
 targetos: Windows
 req.typenames: 
 req.redist: 

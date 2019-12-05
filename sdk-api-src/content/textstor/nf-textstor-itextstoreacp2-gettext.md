@@ -1,19 +1,17 @@
 ---
 UID: NF:textstor.ITextStoreACP2.GetText
 title: ITextStoreACP2::GetText (textstor.h)
-
 description: Gets info about text at a specified character position. This method returns the visible and hidden text and indicates if embedded data is attached to the text.
 old-location: tsf\itextstoreacp2_gettext.htm
 tech.root: TSF
 ms.assetid: e1443c44-4787-448e-b5ff-a05d1396807d
-
 ms.date: 12/05/2018
 ms.keywords: GetText, GetText method [Text Services Framework], GetText method [Text Services Framework],ITextStoreACP2 interface, ITextStoreACP2 interface [Text Services Framework],GetText method, ITextStoreACP2.GetText, ITextStoreACP2::GetText, textstor/ITextStoreACP2::GetText, tsf.itextstoreacp2_gettext
 ms.topic: method
-f1_keywords: 
- - "textstor/ITextStoreACP2.GetText"
+f1_keywords:
+- textstor/ITextStoreACP2.GetText
 dev_langs:
- - c++
+- c++
 req.header: textstor.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msctf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msctf.dll
+- msctf.dll
 api_name:
- - ITextStoreACP2.GetText
+- ITextStoreACP2.GetText
 targetos: Windows
 req.typenames: 
 req.redist: 

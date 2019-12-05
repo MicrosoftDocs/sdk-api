@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d11.ID3D11VideoContext.QueryAuthenticatedChannel
 title: ID3D11VideoContext::QueryAuthenticatedChannel (d3d11.h)
-
 description: Sends a query to an authenticated channel.
 old-location: mf\id3d11videocontext_queryauthenticatedchannel.htm
 tech.root: medfound
 ms.assetid: 4E059358-E1FD-4EDB-B1D4-982802385232
-
 ms.date: 12/05/2018
 ms.keywords: ID3D11VideoContext interface [Media Foundation],QueryAuthenticatedChannel method, ID3D11VideoContext.QueryAuthenticatedChannel, ID3D11VideoContext::QueryAuthenticatedChannel, QueryAuthenticatedChannel, QueryAuthenticatedChannel method [Media Foundation], QueryAuthenticatedChannel method [Media Foundation],ID3D11VideoContext interface, d3d11/ID3D11VideoContext::QueryAuthenticatedChannel, mf.id3d11videocontext_queryauthenticatedchannel
 ms.topic: method
-f1_keywords: 
- - "d3d11/ID3D11VideoContext.QueryAuthenticatedChannel"
+f1_keywords:
+- d3d11/ID3D11VideoContext.QueryAuthenticatedChannel
 dev_langs:
- - c++
+- c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - d3d11.h
+- d3d11.h
 api_name:
- - ID3D11VideoContext.QueryAuthenticatedChannel
+- ID3D11VideoContext.QueryAuthenticatedChannel
 targetos: Windows
 req.typenames: 
 req.redist: 

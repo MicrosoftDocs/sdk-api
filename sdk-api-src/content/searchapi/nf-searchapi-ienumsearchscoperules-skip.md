@@ -1,19 +1,17 @@
 ---
 UID: NF:searchapi.IEnumSearchScopeRules.Skip
 title: IEnumSearchScopeRules::Skip (searchapi.h)
-
 description: Skips the specified number of elements.
 old-location: search\_search_IEnumSearchScopeRules_Skip.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\crawlscope\ienumsearchscoperules\skip.htm
-
 ms.date: 12/05/2018
 ms.keywords: IEnumSearchScopeRules interface [search],Skip method, IEnumSearchScopeRules.Skip, IEnumSearchScopeRules::Skip, Skip, Skip method [search], Skip method [search],IEnumSearchScopeRules interface, _search_IEnumSearchScopeRules_Skip, search._search_IEnumSearchScopeRules_Skip, searchapi/IEnumSearchScopeRules::Skip
 ms.topic: method
-f1_keywords: 
- - "searchapi/IEnumSearchScopeRules.Skip"
+f1_keywords:
+- searchapi/IEnumSearchScopeRules.Skip
 dev_langs:
- - c++
+- c++
 req.header: searchapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Searchapi.h
+- Searchapi.h
 api_name:
- - IEnumSearchScopeRules.Skip
+- IEnumSearchScopeRules.Skip
 targetos: Windows
 req.typenames: 
 req.redist: 

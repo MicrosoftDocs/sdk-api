@@ -1,19 +1,17 @@
 ---
 UID: NN:appxpackaging.IAppxEncryptedBundleWriter
 title: IAppxEncryptedBundleWriter (appxpackaging.h)
-
 description: Provides a write-only object model for encrypted bundle packages.
 old-location: appxpkg\iappxencryptedbundlewriter.htm
 tech.root: appxpkg
 ms.assetid: E88355DA-F7BE-45C7-9DDB-EC39DB2AD280
-
 ms.date: 12/05/2018
 ms.keywords: IAppxEncryptedBundleWriter, IAppxEncryptedBundleWriter interface [App packaging and management], IAppxEncryptedBundleWriter interface [App packaging and management],described, appxpackaging/IAppxEncryptedBundleWriter, appxpkg.iappxencryptedbundlewriter
 ms.topic: interface
-f1_keywords: 
- - "appxpackaging/IAppxEncryptedBundleWriter"
+f1_keywords:
+- appxpackaging/IAppxEncryptedBundleWriter
 dev_langs:
- - c++
+- c++
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - AppxPackaging.h
+- AppxPackaging.h
 api_name:
- - IAppxEncryptedBundleWriter
+- IAppxEncryptedBundleWriter
 targetos: Windows
 req.typenames: 
 req.redist: 

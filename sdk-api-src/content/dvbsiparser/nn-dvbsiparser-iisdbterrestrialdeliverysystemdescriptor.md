@@ -1,19 +1,17 @@
 ---
 UID: NN:dvbsiparser.IIsdbTerrestrialDeliverySystemDescriptor
 title: IIsdbTerrestrialDeliverySystemDescriptor (dvbsiparser.h)
-
 description: Implements methods that get data from an Integrated Services Digital Broadcasting (ISDB) terrestrial delivery system descriptor.
 old-location: mstv\iisdbterrestrialdeliverysystemdescriptor.htm
 tech.root: mstv
 ms.assetid: 32bde3dd-05e0-466b-9f04-4b55b0d7f374
-
 ms.date: 12/05/2018
 ms.keywords: IIsdbTerrestrialDeliverySystemDescriptor, IIsdbTerrestrialDeliverySystemDescriptor interface [Microsoft TV Technologies], IIsdbTerrestrialDeliverySystemDescriptor interface [Microsoft TV Technologies],described, dvbsiparser/IIsdbTerrestrialDeliverySystemDescriptor, mstv.iisdbterrestrialdeliverysystemdescriptor
 ms.topic: interface
-f1_keywords: 
- - "dvbsiparser/IIsdbTerrestrialDeliverySystemDescriptor"
+f1_keywords:
+- dvbsiparser/IIsdbTerrestrialDeliverySystemDescriptor
 dev_langs:
- - c++
+- c++
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dvbsiparser.h
+- dvbsiparser.h
 api_name:
- - IIsdbTerrestrialDeliverySystemDescriptor
+- IIsdbTerrestrialDeliverySystemDescriptor
 targetos: Windows
 req.typenames: 
 req.redist: 

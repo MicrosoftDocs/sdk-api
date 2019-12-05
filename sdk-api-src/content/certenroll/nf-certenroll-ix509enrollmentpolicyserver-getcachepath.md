@@ -1,19 +1,17 @@
 ---
 UID: NF:certenroll.IX509EnrollmentPolicyServer.GetCachePath
 title: IX509EnrollmentPolicyServer::GetCachePath (certenroll.h)
-
 description: Retrieves the path of the policy cache file on the certificate enrollment policy (CEP) server.
 old-location: security\ix509enrollmentpolicyserver_getcachepath.htm
 tech.root: seccertenroll
 ms.assetid: c71c9f97-a312-4260-995b-454de6a38cce
-
 ms.date: 12/05/2018
 ms.keywords: GetCachePath, GetCachePath method [Security], GetCachePath method [Security],IX509EnrollmentPolicyServer interface, IX509EnrollmentPolicyServer interface [Security],GetCachePath method, IX509EnrollmentPolicyServer.GetCachePath, IX509EnrollmentPolicyServer::GetCachePath, certenroll/IX509EnrollmentPolicyServer::GetCachePath, security.ix509enrollmentpolicyserver_getcachepath
 ms.topic: method
-f1_keywords: 
- - "certenroll/IX509EnrollmentPolicyServer.GetCachePath"
+f1_keywords:
+- certenroll/IX509EnrollmentPolicyServer.GetCachePath
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Certenroll.h
+- Certenroll.h
 api_name:
- - IX509EnrollmentPolicyServer.GetCachePath
+- IX509EnrollmentPolicyServer.GetCachePath
 targetos: Windows
 req.typenames: 
 req.redist: 

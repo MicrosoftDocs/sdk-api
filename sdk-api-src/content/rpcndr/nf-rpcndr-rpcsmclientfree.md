@@ -1,19 +1,17 @@
 ---
 UID: NF:rpcndr.RpcSmClientFree
 title: RpcSmClientFree function (rpcndr.h)
-
 description: The RpcSmClientFree function frees memory returned from a client stub.
 old-location: rpc\rpcsmclientfree.htm
 tech.root: Rpc
 ms.assetid: b3e9a526-7b78-49a6-9550-e3f682cecfb8
-
 ms.date: 12/05/2018
 ms.keywords: RpcSmClientFree, RpcSmClientFree function [RPC], _rpc_rpcsmclientfree, rpc.rpcsmclientfree, rpcndr/RpcSmClientFree
 ms.topic: function
-f1_keywords: 
- - "rpcndr/RpcSmClientFree"
+f1_keywords:
+- rpcndr/RpcSmClientFree
 dev_langs:
- - c++
+- c++
 req.header: rpcndr.h
 req.include-header: Rpc.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Rpcrt4.lib
 req.dll: Rpcrt4.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Rpcrt4.dll
+- Rpcrt4.dll
 api_name:
- - RpcSmClientFree
+- RpcSmClientFree
 targetos: Windows
 req.typenames: 
 req.redist: 

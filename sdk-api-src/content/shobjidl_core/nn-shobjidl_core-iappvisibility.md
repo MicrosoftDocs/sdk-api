@@ -1,19 +1,17 @@
 ---
 UID: NN:shobjidl_core.IAppVisibility
 title: IAppVisibility (shobjidl_core.h)
-
 description: Provides functionality to determine whether the display is showing Windows Store apps.
 old-location: shell\IAppVisibility.htm
 tech.root: shell
 ms.assetid: 89E26D36-3536-45F5-9396-83CCFB26890B
-
 ms.date: 12/05/2018
 ms.keywords: IAppVisibility, IAppVisibility interface [Windows Shell], IAppVisibility interface [Windows Shell],described, shell.IAppVisibility, shobjidl_core/IAppVisibility
 ms.topic: interface
-f1_keywords: 
- - "shobjidl_core/IAppVisibility"
+f1_keywords:
+- shobjidl_core/IAppVisibility
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - IAppVisibility
+- IAppVisibility
 targetos: Windows
 req.typenames: 
 req.redist: 

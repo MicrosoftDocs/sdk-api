@@ -1,19 +1,17 @@
 ---
 UID: NF:objidlbase.IComThreadingInfo.SetCurrentLogicalThreadId
 title: IComThreadingInfo::SetCurrentLogicalThreadId (objidlbase.h)
-
 description: Sets the GUID of the thread in which the caller is executing.
 old-location: com\icomthreadinginfo_setcurrentlogicalthreadid.htm
 tech.root: com
 ms.assetid: 8a2fb319-094e-4384-b520-2cb8b8819d42
-
 ms.date: 12/05/2018
 ms.keywords: IComThreadingInfo interface [COM],SetCurrentLogicalThreadId method, IComThreadingInfo.SetCurrentLogicalThreadId, IComThreadingInfo::SetCurrentLogicalThreadId, SetCurrentLogicalThreadId, SetCurrentLogicalThreadId method [COM], SetCurrentLogicalThreadId method [COM],IComThreadingInfo interface, _com_icomthreadinginfo_setcurrentlogicalthreadid, com.icomthreadinginfo_setcurrentlogicalthreadid, objidlbase/IComThreadingInfo::SetCurrentLogicalThreadId
 ms.topic: method
-f1_keywords: 
- - "objidlbase/IComThreadingInfo.SetCurrentLogicalThreadId"
+f1_keywords:
+- objidlbase/IComThreadingInfo.SetCurrentLogicalThreadId
 dev_langs:
- - c++
+- c++
 req.header: objidlbase.h
 req.include-header: ObjIdl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - objidlbase.h
+- objidlbase.h
 api_name:
- - IComThreadingInfo.SetCurrentLogicalThreadId
+- IComThreadingInfo.SetCurrentLogicalThreadId
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:mbnapi.IMbnRegistration.GetCurrentDataClass
 title: IMbnRegistration::GetCurrentDataClass (mbnapi.h)
-
 description: Gets the current data class in the current network.
 old-location: mbn\imbnregistration_getcurrentdataclass.htm
 tech.root: mbn
 ms.assetid: 365458a4-74df-4283-94db-3d855acadffe
-
 ms.date: 12/05/2018
 ms.keywords: GetCurrentDataClass, GetCurrentDataClass method [Microsoft Broadband Networks], GetCurrentDataClass method [Microsoft Broadband Networks],IMbnRegistration interface, IMbnRegistration interface [Microsoft Broadband Networks],GetCurrentDataClass method, IMbnRegistration.GetCurrentDataClass, IMbnRegistration::GetCurrentDataClass, mbn.imbnregistration_getcurrentdataclass, mbnapi/IMbnRegistration::GetCurrentDataClass
 ms.topic: method
-f1_keywords: 
- - "mbnapi/IMbnRegistration.GetCurrentDataClass"
+f1_keywords:
+- mbnapi/IMbnRegistration.GetCurrentDataClass
 dev_langs:
- - c++
+- c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mbnapi.h
+- mbnapi.h
 api_name:
- - IMbnRegistration.GetCurrentDataClass
+- IMbnRegistration.GetCurrentDataClass
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NN:mfmediaengine.IMFMediaKeySessionNotify
 title: IMFMediaKeySessionNotify (mfmediaengine.h)
-
 description: Provides a mechanism for notifying the app about information regarding the media key session.
 old-location: mf\imfmediakeysessionnotify.htm
 tech.root: medfound
 ms.assetid: d28c16a8-4a74-40c3-be95-ff7e4b1cdc09
-
 ms.date: 12/05/2018
 ms.keywords: IMFMediaKeySessionNotify, IMFMediaKeySessionNotify interface [Media Foundation], IMFMediaKeySessionNotify interface [Media Foundation],described, mf.imfmediakeysessionnotify, mfmediaengine/IMFMediaKeySessionNotify
 ms.topic: interface
-f1_keywords: 
- - "mfmediaengine/IMFMediaKeySessionNotify"
+f1_keywords:
+- mfmediaengine/IMFMediaKeySessionNotify
 dev_langs:
- - c++
+- c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfmediaengine.h
+- mfmediaengine.h
 api_name:
- - IMFMediaKeySessionNotify
+- IMFMediaKeySessionNotify
 targetos: Windows
 req.typenames: 
 req.redist: 

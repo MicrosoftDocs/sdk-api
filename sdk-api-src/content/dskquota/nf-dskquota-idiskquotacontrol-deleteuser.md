@@ -1,19 +1,17 @@
 ---
 UID: NF:dskquota.IDiskQuotaControl.DeleteUser
 title: IDiskQuotaControl::DeleteUser (dskquota.h)
-
 description: Removes a user entry from the volume quota information file.
 old-location: fs\idiskquotacontrol_deleteuser.htm
 tech.root: FileIO
 ms.assetid: c7356f56-4cbb-40ed-9457-3818a3b47732
-
 ms.date: 12/05/2018
 ms.keywords: DeleteUser, DeleteUser method [Files], DeleteUser method [Files],IDiskQuotaControl interface, IDiskQuotaControl interface [Files],DeleteUser method, IDiskQuotaControl.DeleteUser, IDiskQuotaControl::DeleteUser, _win32_idiskquotacontrol_deleteuser, base.idiskquotacontrol_deleteuser, dskquota/IDiskQuotaControl::DeleteUser, fs.idiskquotacontrol_deleteuser
 ms.topic: method
-f1_keywords: 
- - "dskquota/IDiskQuotaControl.DeleteUser"
+f1_keywords:
+- dskquota/IDiskQuotaControl.DeleteUser
 dev_langs:
- - c++
+- c++
 req.header: dskquota.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Dskquota.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dskquota.dll
+- Dskquota.dll
 api_name:
- - IDiskQuotaControl.DeleteUser
+- IDiskQuotaControl.DeleteUser
 targetos: Windows
 req.typenames: 
 req.redist: 

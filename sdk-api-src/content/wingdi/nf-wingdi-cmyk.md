@@ -1,19 +1,17 @@
 ---
 UID: NF:wingdi.CMYK
 title: CMYK macro (wingdi.h)
-
 description: The CMYK macro creates a CMYK color value by combining the specified cyan, magenta, yellow, and black values.
 old-location: wcs\cmyk.htm
 tech.root: WCS
 ms.assetid: ee28d4e3-314f-429d-841b-da432ff6dc78
-
 ms.date: 12/05/2018
 ms.keywords: CMYK, CMYK macro [Windows Color System], _color_CMYK, wcs.cmyk, wingdi/CMYK
 ms.topic: macro
-f1_keywords: 
- - "wingdi/CMYK"
+f1_keywords:
+- wingdi/CMYK
 dev_langs:
- - c++
+- c++
 req.header: wingdi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wingdi.h
+- Wingdi.h
 api_name:
- - CMYK
+- CMYK
 targetos: Windows
 req.typenames: 
 req.redist: 

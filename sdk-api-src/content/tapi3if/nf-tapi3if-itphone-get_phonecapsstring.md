@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi3if.ITPhone.get_PhoneCapsString
 title: ITPhone::get_PhoneCapsString (tapi3if.h)
-
 description: The get_PhoneCapsString method gets a string capability/information about the phone, based on the PHONECAPS_STRING enum passed in. The application does not have to call ITPhone::Open before executing this method.
 old-location: tapi3\itphone_get_phonecapsstring.htm
 tech.root: Tapi
 ms.assetid: e4a0ed77-455e-428c-a3e5-cd467e47b5b2
-
 ms.date: 12/05/2018
 ms.keywords: ITPhone interface [TAPI 2.2],get_PhoneCapsString method, ITPhone.get_PhoneCapsString, ITPhone::get_PhoneCapsString, _tapi3_itphone_get_phonecapsstring, get_PhoneCapsString, get_PhoneCapsString method [TAPI 2.2], get_PhoneCapsString method [TAPI 2.2],ITPhone interface, tapi3.itphone_get_phonecapsstring, tapi3if/ITPhone::get_PhoneCapsString
 ms.topic: method
-f1_keywords: 
- - "tapi3if/ITPhone.get_PhoneCapsString"
+f1_keywords:
+- tapi3if/ITPhone.get_PhoneCapsString
 dev_langs:
- - c++
+- c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Tapi3.dll
+- Tapi3.dll
 api_name:
- - ITPhone.get_PhoneCapsString
+- ITPhone.get_PhoneCapsString
 targetos: Windows
 req.typenames: 
 req.redist: 

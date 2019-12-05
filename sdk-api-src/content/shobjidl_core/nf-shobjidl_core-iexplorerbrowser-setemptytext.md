@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IExplorerBrowser.SetEmptyText
 title: IExplorerBrowser::SetEmptyText (shobjidl_core.h)
-
 description: Sets the default empty text.
 old-location: shell\IExplorerBrowser_SetEmptyText.htm
 tech.root: shell
 ms.assetid: 2b87333e-f120-468e-8e9f-c652806059e9
-
 ms.date: 12/05/2018
 ms.keywords: IExplorerBrowser interface [Windows Shell],SetEmptyText method, IExplorerBrowser.SetEmptyText, IExplorerBrowser::SetEmptyText, SetEmptyText, SetEmptyText method [Windows Shell], SetEmptyText method [Windows Shell],IExplorerBrowser interface, _shell_IExplorerBrowser_SetEmptyText, shell.IExplorerBrowser_SetEmptyText, shobjidl_core/IExplorerBrowser::SetEmptyText
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IExplorerBrowser.SetEmptyText"
+f1_keywords:
+- shobjidl_core/IExplorerBrowser.SetEmptyText
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - IExplorerBrowser.SetEmptyText
+- IExplorerBrowser.SetEmptyText
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:mfidl.IMFSensorTransformFactory.CreateTransform
 title: IMFSensorTransformFactory::CreateTransform (mfidl.h)
-
 description: Called by the media pipeline to create the transform.
 old-location: mf\imfsensortransformfactory_createtransform.htm
 tech.root: medfound
 ms.assetid: 90F986B1-7E1A-43AC-A633-34DD9D53D634
-
 ms.date: 12/05/2018
 ms.keywords: CreateTransform, CreateTransform method [Media Foundation], CreateTransform method [Media Foundation],IMFSensorTransformFactory interface, IMFSensorTransformFactory interface [Media Foundation],CreateTransform method, IMFSensorTransformFactory.CreateTransform, IMFSensorTransformFactory::CreateTransform, mf.imfsensortransformfactory_createtransform, mfidl/IMFSensorTransformFactory::CreateTransform
 ms.topic: method
-f1_keywords: 
- - "mfidl/IMFSensorTransformFactory.CreateTransform"
+f1_keywords:
+- mfidl/IMFSensorTransformFactory.CreateTransform
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Mfplat.lib; Mfplat.dll
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfplat.lib
- - mfplat.dll
- - mfplat.dll
- - mfplat.dll.dll
+- mfplat.lib
+- mfplat.dll
+- mfplat.dll
+- mfplat.dll.dll
 api_name:
- - IMFSensorTransformFactory.CreateTransform
+- IMFSensorTransformFactory.CreateTransform
 targetos: Windows
 req.typenames: 
 req.redist: 

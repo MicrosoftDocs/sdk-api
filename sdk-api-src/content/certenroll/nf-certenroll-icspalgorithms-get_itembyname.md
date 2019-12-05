@@ -1,19 +1,17 @@
 ---
 UID: NF:certenroll.ICspAlgorithms.get_ItemByName
 title: ICspAlgorithms::get_ItemByName (certenroll.h)
-
 description: Retrieves an ICspAlgorithm object from the collection by name.
 old-location: security\icspalgorithms_itembyname_property.htm
 tech.root: seccertenroll
 ms.assetid: a5984d8a-3199-4976-ac0f-95917843f473
-
 ms.date: 12/05/2018
 ms.keywords: ICspAlgorithms interface [Security],ItemByName property, ICspAlgorithms.ItemByName, ICspAlgorithms.get_ItemByName, ICspAlgorithms::ItemByName, ICspAlgorithms::get_ItemByName, ItemByName property [Security], ItemByName property [Security],ICspAlgorithms interface, certenroll/ICspAlgorithms::ItemByName, certenroll/ICspAlgorithms::get_ItemByName, get_ItemByName, security.icspalgorithms_itembyname_property
 ms.topic: method
-f1_keywords: 
- - "certenroll/ICspAlgorithms.ItemByName"
+f1_keywords:
+- certenroll/ICspAlgorithms.ItemByName
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: CertEnroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CertEnroll.dll
+- CertEnroll.dll
 api_name:
- - ICspAlgorithms.ItemByName
- - ICspAlgorithms.get_ItemByName
+- ICspAlgorithms.ItemByName
+- ICspAlgorithms.get_ItemByName
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:winuser.GetWindowFeedbackSetting
 title: GetWindowFeedbackSetting function (winuser.h)
-
 description: Retrieves the feedback configuration for a window.
 old-location: input_feedback\getwindowfeedbacksetting.htm
 tech.root: Input_Feedback
 ms.assetid: a40806b3-9085-42b6-9a87-95be0d1669c6
-
 ms.date: 12/05/2018
 ms.keywords: GetWindowFeedbackSetting, GetWindowFeedbackSetting function, input_feedback.getwindowfeedbacksetting, inputfeedbackui.getwindowfeedbacksetting, winuser/GetWindowFeedbackSetting
 ms.topic: function
-f1_keywords: 
- - "winuser/GetWindowFeedbackSetting"
+f1_keywords:
+- winuser/GetWindowFeedbackSetting
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: 
 req.target-type: Windows
@@ -32,21 +30,21 @@ req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - user32.dll
- - Ext-MS-Win-NTUser-Misc-l1-2-0.dll
- - Ext-MS-Win-NTUser-Misc-l1-3-0.dll
- - ext-ms-win-ntuser-misc-l1-3-1.dll
- - Ext-MS-Win-NTUser-Misc-L1-4-0.dll
- - API-Ms-Win-RTCore-NTUser-WMPointer-L1-1-2.dll
- - MinUser.dll
- - API-MS-Win-RTCore-NTUser-WMPointer-L1-1-3.dll
+- user32.dll
+- Ext-MS-Win-NTUser-Misc-l1-2-0.dll
+- Ext-MS-Win-NTUser-Misc-l1-3-0.dll
+- ext-ms-win-ntuser-misc-l1-3-1.dll
+- Ext-MS-Win-NTUser-Misc-L1-4-0.dll
+- API-Ms-Win-RTCore-NTUser-WMPointer-L1-1-2.dll
+- MinUser.dll
+- API-MS-Win-RTCore-NTUser-WMPointer-L1-1-3.dll
 api_name:
- - GetWindowFeedbackSetting
+- GetWindowFeedbackSetting
 targetos: Windows
 req.typenames: 
 req.redist: 

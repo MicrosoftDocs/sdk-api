@@ -1,19 +1,17 @@
 ---
 UID: NF:gdipluspath.GraphicsPath.AddBezier(IN INT,IN INT,IN INT,IN INT,IN INT,IN INT,IN INT,IN INT)
 title: GraphicsPath::AddBezier(IN INT,IN INT,IN INT,IN INT,IN INT,IN INT,IN INT,IN INT) (gdipluspath.h)
-
 description: The GraphicsPath::AddBezier method adds a B&#233;zier spline to the current figure of this path.
 old-location: gdiplus\_gdiplus_CLASS_GraphicsPath_AddBezier_INT_x1_INT_y1_INT_x2_INT_y2_INT_x3_INT_y3_INT_x4_INT_y4_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicspathclass\graphicspathmethods\graphicspathaddbeziermethods\addbezier_86intx1_inty1_intx2_inty2_intx3_inty3_in.htm
-
 ms.date: 12/05/2018
 ms.keywords: AddBezier, AddBezier method [GDI+], AddBezier method [GDI+],GraphicsPath class, GraphicsPath class [GDI+],AddBezier method, GraphicsPath.AddBezier, GraphicsPath.AddBezier(IN INT,IN INT,IN INT,IN INT,IN INT,IN INT,IN INT,IN INT), GraphicsPath.AddBezier(INT,INT,INT,INT,INT,INT,INT,INT), GraphicsPath::AddBezier, GraphicsPath::AddBezier(IN INT,IN INT,IN INT,IN INT,IN INT,IN INT,IN INT,IN INT), _gdiplus_CLASS_GraphicsPath_AddBezier_INT_x1_INT_y1_INT_x2_INT_y2_INT_x3_INT_y3_INT_x4_INT_y4_, gdiplus._gdiplus_CLASS_GraphicsPath_AddBezier_INT_x1_INT_y1_INT_x2_INT_y2_INT_x3_INT_y3_INT_x4_INT_y4_
 ms.topic: method
-f1_keywords: 
- - "gdipluspath/GraphicsPath.AddBezier"
+f1_keywords:
+- gdipluspath/GraphicsPath.AddBezier
 dev_langs:
- - c++
+- c++
 req.header: gdipluspath.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - GraphicsPath.AddBezier
+- GraphicsPath.AddBezier
 targetos: Windows
 req.typenames: 
 req.redist: 

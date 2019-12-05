@@ -1,19 +1,17 @@
 ---
 UID: NF:securitybaseapi.AllocateLocallyUniqueId
 title: AllocateLocallyUniqueId function (securitybaseapi.h)
-
 description: Allocates a locally unique identifier (LUID).
 old-location: security\allocatelocallyuniqueid.htm
 tech.root: SecAuthZ
 ms.assetid: 5d730034-802b-4d37-bd28-68992779b93e
-
 ms.date: 12/05/2018
 ms.keywords: AllocateLocallyUniqueId, AllocateLocallyUniqueId function [Security], _win32_allocatelocallyuniqueid, security.allocatelocallyuniqueid, securitybaseapi/AllocateLocallyUniqueId
 ms.topic: function
 f1_keywords:
 - securitybaseapi/AllocateLocallyUniqueId
 dev_langs:
- - c++
+- c++
 req.header: securitybaseapi.h
 req.include-header: Windows.h
 req.target-type: Windows

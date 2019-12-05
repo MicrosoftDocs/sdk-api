@@ -1,19 +1,17 @@
 ---
 UID: NF:oleauto.VarUI4FromDate
 title: VarUI4FromDate function (oleauto.h)
-
 description: Converts a date value to an unsigned long value.
 old-location: automat\varui4fromdate.htm
 tech.root: automat
 ms.assetid: 838b2e35-f00d-4962-8863-5619589073fb
-
 ms.date: 12/05/2018
 ms.keywords: VarUI4FromDate, VarUI4FromDate function [Automation], _oa96_VarUI4FromDate, automat.varui4fromdate, oleauto/VarUI4FromDate
 ms.topic: function
-f1_keywords: 
- - "oleauto/VarUI4FromDate"
+f1_keywords:
+- oleauto/VarUI4FromDate
 dev_langs:
- - c++
+- c++
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: OleAut32.lib
 req.dll: OleAut32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - OleAut32.dll
+- OleAut32.dll
 api_name:
- - VarUI4FromDate
+- VarUI4FromDate
 targetos: Windows
 req.typenames: 
 req.redist: 

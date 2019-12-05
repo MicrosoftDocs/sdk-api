@@ -1,19 +1,17 @@
 ---
 UID: NF:msrdc.IRdcComparator.Process
 title: IRdcComparator::Process (msrdc.h)
-
 description: Compares two signature streams (seed and source) and produces a needs list, which describes the chunks of file data needed to create the target file.
 old-location: rdc\irdccomparator_process.htm
 tech.root: rdc
 ms.assetid: cc98a90c-ba82-4b92-a56c-07496a843089
-
 ms.date: 12/05/2018
 ms.keywords: IRdcComparator interface [Remote Differential Compression],Process method, IRdcComparator.Process, IRdcComparator::Process, Process, Process method [Remote Differential Compression], Process method [Remote Differential Compression],IRdcComparator interface, fs.irdccomparator_process, msrdc/IRdcComparator::Process, rdc.irdccomparator_process
 ms.topic: method
-f1_keywords: 
- - "msrdc/IRdcComparator.Process"
+f1_keywords:
+- msrdc/IRdcComparator.Process
 dev_langs:
- - c++
+- c++
 req.header: msrdc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: MsRdc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - MsRdc.dll
+- MsRdc.dll
 api_name:
- - IRdcComparator.Process
+- IRdcComparator.Process
 targetos: Windows
 req.typenames: 
 req.redist: 

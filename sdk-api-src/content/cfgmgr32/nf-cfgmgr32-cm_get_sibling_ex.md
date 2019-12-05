@@ -1,19 +1,17 @@
 ---
 UID: NF:cfgmgr32.CM_Get_Sibling_Ex
 title: CM_Get_Sibling_Ex function (cfgmgr32.h)
-
 description: The CM_Get_Sibling_Ex function obtains a device instance handle to the next sibling node of a specified device node, in a local or a remote machine's device tree.
 old-location: devinst\cm_get_sibling_ex.htm
 tech.root: devinst
 ms.assetid: 6be82983-7ac7-4956-a409-77a371e4d6b4
-
 ms.date: 12/05/2018
 ms.keywords: CM_Get_Sibling_Ex, CM_Get_Sibling_Ex function [Device and Driver Installation], cfgmgr32/CM_Get_Sibling_Ex, cfgmgrfn_f3586db6-4f64-4552-bf60-6e3d440b9138.xml, devinst.cm_get_sibling_ex
 ms.topic: function
-f1_keywords: 
- - "cfgmgr32/CM_Get_Sibling_Ex"
+f1_keywords:
+- cfgmgr32/CM_Get_Sibling_Ex
 dev_langs:
- - c++
+- c++
 req.header: cfgmgr32.h
 req.include-header: Cfgmgr32.h
 req.target-type: Desktop
@@ -32,14 +30,14 @@ req.lib: Cfgmgr32.lib
 req.dll: Cfgmgr32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Cfgmgr32.dll
+- Cfgmgr32.dll
 api_name:
- - CM_Get_Sibling_Ex
+- CM_Get_Sibling_Ex
 targetos: Windows
 req.typenames: 
 req.redist: 

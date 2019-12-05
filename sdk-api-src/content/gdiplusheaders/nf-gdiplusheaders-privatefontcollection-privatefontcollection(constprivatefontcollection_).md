@@ -1,19 +1,17 @@
 ---
 UID: NF:gdiplusheaders.PrivateFontCollection.PrivateFontCollection(const PrivateFontCollection &)
 title: PrivateFontCollection::PrivateFontCollection(const PrivateFontCollection &) (gdiplusheaders.h)
-
 description: Creates an empty PrivateFontCollection object.
 old-location: gdiplus\_gdiplus_CLASS_PrivateFontCollection_PrivateFontCollection_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\privatefontcollectionclass\privatefontcollection_12.htm
-
 ms.date: 12/05/2018
 ms.keywords: PrivateFontCollection, PrivateFontCollection class [GDI+],PrivateFontCollection constructor, PrivateFontCollection constructor [GDI+], PrivateFontCollection constructor [GDI+],PrivateFontCollection class, PrivateFontCollection.PrivateFontCollection, PrivateFontCollection.PrivateFontCollection(const PrivateFontCollection &), PrivateFontCollection::PrivateFontCollection, PrivateFontCollection::PrivateFontCollection(const PrivateFontCollection &), _gdiplus_CLASS_PrivateFontCollection_PrivateFontCollection_, gdiplus._gdiplus_CLASS_PrivateFontCollection_PrivateFontCollection_
 ms.topic: method
-f1_keywords: 
- - "gdiplusheaders/PrivateFontCollection.PrivateFontCollection"
+f1_keywords:
+- gdiplusheaders/PrivateFontCollection.PrivateFontCollection
 dev_langs:
- - c++
+- c++
 req.header: gdiplusheaders.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - PrivateFontCollection.PrivateFontCollection
+- PrivateFontCollection.PrivateFontCollection
 targetos: Windows
 req.typenames: 
 req.redist: 

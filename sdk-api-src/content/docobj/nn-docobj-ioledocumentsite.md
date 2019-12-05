@@ -1,19 +1,17 @@
 ---
 UID: NN:docobj.IOleDocumentSite
 title: IOleDocumentSite (docobj.h)
-
 description: Enables a document that has been implemented as a document object to bypass the normal activation sequence for in-place-active objects and to directly instruct its client site to activate it as a document object.
 old-location: com\ioledocumentsite.htm
 tech.root: com
 ms.assetid: cac435c9-caee-4751-9ad8-df48b6d4c7e0
-
 ms.date: 12/05/2018
 ms.keywords: IOleDocumentSite, IOleDocumentSite interface [COM], IOleDocumentSite interface [COM],described, _ole_ioledocumentsite, com.ioledocumentsite, docobj/IOleDocumentSite
 ms.topic: interface
-f1_keywords: 
- - "docobj/IOleDocumentSite"
+f1_keywords:
+- docobj/IOleDocumentSite
 dev_langs:
- - c++
+- c++
 req.header: docobj.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - DocObj.h
+- DocObj.h
 api_name:
- - IOleDocumentSite
+- IOleDocumentSite
 targetos: Windows
 req.typenames: 
 req.redist: 

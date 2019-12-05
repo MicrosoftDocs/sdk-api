@@ -1,19 +1,17 @@
 ---
 UID: NF:srpapi.SrpEnablePermissiveModeFileEncryption
 title: SrpEnablePermissiveModeFileEncryption function (srpapi.h)
-
 description: Enables permissive mode for file encryption on the current thread and all threads this thread will create or post work to.
 old-location: edp\srpenablepermissivemodefileencryption_.htm
 tech.root: EDP
 ms.assetid: 4CC6D174-55FC-40D7-BE7B-5F56B27DA225
-
 ms.date: 12/05/2018
 ms.keywords: EDP.srpenablepermissivemodefileencryption_, SrpEnablePermissiveModeFileEncryption, SrpEnablePermissiveModeFileEncryption , SrpEnablePermissiveModeFileEncryption function, srpapi/SrpEnablePermissiveModeFileEncryption
 ms.topic: function
-f1_keywords: 
- - "srpapi/SrpEnablePermissiveModeFileEncryption"
+f1_keywords:
+- srpapi/SrpEnablePermissiveModeFileEncryption
 dev_langs:
- - c++
+- c++
 req.header: srpapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Srpapi.lib
 req.dll: Srpapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - srpapi.dll
- - Ext-MS-Win-Security-Srp-L1-1-0.dll
- - Ext-MS-Win-Security-Srp-L1-1-1.dll
+- srpapi.dll
+- Ext-MS-Win-Security-Srp-L1-1-0.dll
+- Ext-MS-Win-Security-Srp-L1-1-1.dll
 api_name:
- - SrpEnablePermissiveModeFileEncryption
+- SrpEnablePermissiveModeFileEncryption
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:cfgmgr32.CM_Get_Device_Interface_Property_Keys_ExW
 title: CM_Get_Device_Interface_Property_Keys_ExW function (cfgmgr32.h)
-
 description: The CM_Get_Device_Interface_Property_Keys_ExW function retrieves an array of device property keys that represent the device properties that are set for a device interface.
 old-location: devinst\cm_get_device_interface_property_keys_exw.htm
 tech.root: devinst
 ms.assetid: 52EEF50F-4559-4C22-BE33-1F87E469BB47
-
 ms.date: 12/05/2018
 ms.keywords: CM_Get_Device_Interface_Property_Keys_ExW, CM_Get_Device_Interface_Property_Keys_ExW function [Device and Driver Installation], cfgmgr32/CM_Get_Device_Interface_Property_Keys_ExW, devinst.cm_get_device_interface_property_keys_exw
 ms.topic: function
-f1_keywords: 
- - "cfgmgr32/CM_Get_Device_Interface_Property_Keys_ExW"
+f1_keywords:
+- cfgmgr32/CM_Get_Device_Interface_Property_Keys_ExW
 dev_langs:
- - c++
+- c++
 req.header: cfgmgr32.h
 req.include-header: Cfgmgr32.h
 req.target-type: Desktop
@@ -32,15 +30,15 @@ req.lib: Cfgmgr32.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - LibDef
+- LibDef
 api_location:
- - Cfgmgr32.lib
- - Cfgmgr32.dll
+- Cfgmgr32.lib
+- Cfgmgr32.dll
 api_name:
- - CM_Get_Device_Interface_Property_Keys_ExW
+- CM_Get_Device_Interface_Property_Keys_ExW
 targetos: Windows
 req.typenames: 
 req.redist: 

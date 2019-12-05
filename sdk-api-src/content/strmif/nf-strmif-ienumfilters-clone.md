@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IEnumFilters.Clone
 title: IEnumFilters::Clone (strmif.h)
-
 description: The Clone method makes a copy of the enumerator object. The returned object starts with the same enumeration state as the original.
 old-location: dshow\ienumfilters_clone.htm
 tech.root: DirectShow
 ms.assetid: ed8380af-8467-447a-a595-38fe29f9f9e6
-
 ms.date: 12/05/2018
 ms.keywords: Clone, Clone method [DirectShow], Clone method [DirectShow],IEnumFilters interface, IEnumFilters interface [DirectShow],Clone method, IEnumFilters.Clone, IEnumFilters::Clone, IEnumFiltersClone, dshow.ienumfilters_clone, strmif/IEnumFilters::Clone
 ms.topic: method
-f1_keywords: 
- - "strmif/IEnumFilters.Clone"
+f1_keywords:
+- strmif/IEnumFilters.Clone
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IEnumFilters.Clone
+- IEnumFilters.Clone
 targetos: Windows
 req.typenames: 
 req.redist: 

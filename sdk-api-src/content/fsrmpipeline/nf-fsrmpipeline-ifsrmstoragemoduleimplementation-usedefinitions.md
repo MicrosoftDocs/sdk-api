@@ -1,19 +1,17 @@
 ---
 UID: NF:fsrmpipeline.IFsrmStorageModuleImplementation.UseDefinitions
 title: IFsrmStorageModuleImplementation::UseDefinitions (fsrmpipeline.h)
-
 description: Specifies the property definitions FSRM recognizes.
 old-location: fsrm\ifsrmstoragemoduleimplementation_usedefinitions.htm
 tech.root: fsrm
 ms.assetid: d5683668-18c2-405b-aa56-8e7a9a1d5a9e
-
 ms.date: 12/05/2018
 ms.keywords: IFsrmStorageModuleImplementation interface [File Server Resource Manager],UseDefinitions method, IFsrmStorageModuleImplementation.UseDefinitions, IFsrmStorageModuleImplementation::UseDefinitions, UseDefinitions, UseDefinitions method [File Server Resource Manager], UseDefinitions method [File Server Resource Manager],IFsrmStorageModuleImplementation interface, fs.ifsrmstoragemoduleimplementation_usedefinitions, fsrm.ifsrmstoragemoduleimplementation_usedefinitions, fsrmpipeline/IFsrmStorageModuleImplementation::UseDefinitions
 ms.topic: method
-f1_keywords: 
- - "fsrmpipeline/IFsrmStorageModuleImplementation.UseDefinitions"
+f1_keywords:
+- fsrmpipeline/IFsrmStorageModuleImplementation.UseDefinitions
 dev_langs:
- - c++
+- c++
 req.header: fsrmpipeline.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: SrmSvc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - SrmSvc.dll
+- SrmSvc.dll
 api_name:
- - IFsrmStorageModuleImplementation.UseDefinitions
+- IFsrmStorageModuleImplementation.UseDefinitions
 targetos: Windows
 req.typenames: 
 req.redist: 

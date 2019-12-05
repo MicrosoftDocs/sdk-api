@@ -1,19 +1,17 @@
 ---
 UID: NN:mfidl.IMFMediaSink
 title: IMFMediaSink (mfidl.h)
-
 description: Implemented by media sink objects.
 old-location: mf\imfmediasink.htm
 tech.root: medfound
 ms.assetid: 103e6fd8-a18f-480a-8261-099623014659
-
 ms.date: 12/05/2018
 ms.keywords: 103e6fd8-a18f-480a-8261-099623014659, IMFMediaSink, IMFMediaSink interface [Media Foundation], IMFMediaSink interface [Media Foundation],described, mf.imfmediasink, mfidl/IMFMediaSink
 ms.topic: interface
-f1_keywords: 
- - "mfidl/IMFMediaSink"
+f1_keywords:
+- mfidl/IMFMediaSink
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFMediaSink
+- IMFMediaSink
 targetos: Windows
 req.typenames: 
 req.redist: 

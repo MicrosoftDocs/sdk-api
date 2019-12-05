@@ -1,19 +1,17 @@
 ---
 UID: NF:winhttp.WinHttpWebSocketShutdown
 title: WinHttpWebSocketShutdown function (winhttp.h)
-
 description: Sends a close frame to a WebSocket server to close the send channel, but leaves the receive channel open.
 old-location: http\winhttpwebsocketshutdown.htm
 tech.root: WinHttp
 ms.assetid: C98FDBE1-DDBC-45c7-81FA-CB7C5940E3B5
-
 ms.date: 12/05/2018
 ms.keywords: WinHttpWebSocketShutdown, WinHttpWebSocketShutdown function [WinHTTP], http.winhttpwebsocketshutdown, winhttp/WinHttpWebSocketShutdown
 ms.topic: function
 f1_keywords:
 - winhttp/WinHttpWebSocketShutdown
 dev_langs:
- - c++
+- c++
 req.header: winhttp.h
 req.include-header: 
 req.target-type: Windows

@@ -1,19 +1,17 @@
 ---
 UID: NF:dxgidebug.IDXGIInfoQueue.GetBreakOnID
 title: IDXGIInfoQueue::GetBreakOnID (dxgidebug.h)
-
 description: Determines whether the break on a message identifier is turned on or off.
 old-location: direct3ddxgi\idxgiinfoqueue_getbreakonid.htm
 tech.root: direct3ddxgi
 ms.assetid: A7DF79E0-137D-4CBD-AD03-B9BC4532D60F
-
 ms.date: 12/05/2018
 ms.keywords: GetBreakOnID, GetBreakOnID method [DXGI], GetBreakOnID method [DXGI],IDXGIInfoQueue interface, IDXGIInfoQueue interface [DXGI],GetBreakOnID method, IDXGIInfoQueue.GetBreakOnID, IDXGIInfoQueue::GetBreakOnID, direct3ddxgi.idxgiinfoqueue_getbreakonid, dxgidebug/IDXGIInfoQueue::GetBreakOnID
 ms.topic: method
-f1_keywords: 
- - "dxgidebug/IDXGIInfoQueue.GetBreakOnID"
+f1_keywords:
+- dxgidebug/IDXGIInfoQueue.GetBreakOnID
 dev_langs:
- - c++
+- c++
 req.header: dxgidebug.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: DXGIDebug.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - DXGIDebug.dll
+- DXGIDebug.dll
 api_name:
- - IDXGIInfoQueue.GetBreakOnID
+- IDXGIInfoQueue.GetBreakOnID
 targetos: Windows
 req.typenames: 
 req.redist: 

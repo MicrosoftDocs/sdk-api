@@ -1,19 +1,17 @@
 ---
 UID: NF:rtscom.IStylusPlugin.UpdateMapping
 title: IStylusPlugin::UpdateMapping (rtscom.h)
-
 description: Notifies the plug-in when display properties, such as dpi or orientation, change.
 old-location: tablet\istylusplugin_updatemapping.htm
 tech.root: tablet
 ms.assetid: 26cefb86-a21e-432d-b3db-1669d5b9cd05
-
 ms.date: 12/05/2018
 ms.keywords: 26cefb86-a21e-432d-b3db-1669d5b9cd05, IStylusPlugin interface [Tablet PC],UpdateMapping method, IStylusPlugin.UpdateMapping, IStylusPlugin::UpdateMapping, UpdateMapping, UpdateMapping method [Tablet PC], UpdateMapping method [Tablet PC],IStylusPlugin interface, rtscom/IStylusPlugin::UpdateMapping, tablet.istylusplugin_updatemapping
 ms.topic: method
-f1_keywords: 
- - "rtscom/IStylusPlugin.UpdateMapping"
+f1_keywords:
+- rtscom/IStylusPlugin.UpdateMapping
 dev_langs:
- - c++
+- c++
 req.header: rtscom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: RTSCom.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - RTSCom.dll
+- RTSCom.dll
 api_name:
- - IStylusPlugin.UpdateMapping
+- IStylusPlugin.UpdateMapping
 targetos: Windows
 req.typenames: 
 req.redist: 

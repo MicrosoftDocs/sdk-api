@@ -1,19 +1,17 @@
 ---
 UID: NF:wmcontainer.IMFASFStreamSelector.SetOutputOverride
 title: IMFASFStreamSelector::SetOutputOverride (wmcontainer.h)
-
 description: Sets the selection status of an output, overriding other selection criteria.
 old-location: mf\imfasfstreamselector_setoutputoverride.htm
 tech.root: medfound
 ms.assetid: c8affecd-107f-4701-88df-200db06ad49e
-
 ms.date: 12/05/2018
 ms.keywords: IMFASFStreamSelector interface [Media Foundation],SetOutputOverride method, IMFASFStreamSelector.SetOutputOverride, IMFASFStreamSelector::SetOutputOverride, SetOutputOverride, SetOutputOverride method [Media Foundation], SetOutputOverride method [Media Foundation],IMFASFStreamSelector interface, c8affecd-107f-4701-88df-200db06ad49e, mf.imfasfstreamselector_setoutputoverride, wmcontainer/IMFASFStreamSelector::SetOutputOverride
 ms.topic: method
-f1_keywords: 
- - "wmcontainer/IMFASFStreamSelector.SetOutputOverride"
+f1_keywords:
+- wmcontainer/IMFASFStreamSelector.SetOutputOverride
 dev_langs:
- - c++
+- c++
 req.header: wmcontainer.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFASFStreamSelector.SetOutputOverride
+- IMFASFStreamSelector.SetOutputOverride
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:recapis.DestroyRecognizer
 title: DestroyRecognizer function (recapis.h)
-
 description: Destroys a recognizer.
 old-location: tablet\destroyrecognizer.htm
 tech.root: tablet
 ms.assetid: ffd66ab7-fc11-407e-aedc-267271ecb32c
-
 ms.date: 12/05/2018
 ms.keywords: DestroyRecognizer, DestroyRecognizer function [Tablet PC], ffd66ab7-fc11-407e-aedc-267271ecb32c, recapis/DestroyRecognizer, tablet.destroyrecognizer
 ms.topic: function
-f1_keywords: 
- - "recapis/DestroyRecognizer"
+f1_keywords:
+- recapis/DestroyRecognizer
 dev_langs:
- - c++
+- c++
 req.header: recapis.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - recapis.h
+- recapis.h
 api_name:
- - DestroyRecognizer
+- DestroyRecognizer
 targetos: Windows
 req.typenames: 
 req.redist: 

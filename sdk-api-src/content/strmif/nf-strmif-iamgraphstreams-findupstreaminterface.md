@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IAMGraphStreams.FindUpstreamInterface
 title: IAMGraphStreams::FindUpstreamInterface (strmif.h)
-
 description: The FindUpstreamInterface method searches the filter graph for a specified interface, upstream from a specified pin.
 old-location: dshow\iamgraphstreams_findupstreaminterface.htm
 tech.root: DirectShow
 ms.assetid: 23106ef0-e5ce-47a6-97b0-518bb78ec67c
-
 ms.date: 12/05/2018
 ms.keywords: FindUpstreamInterface, FindUpstreamInterface method [DirectShow], FindUpstreamInterface method [DirectShow],IAMGraphStreams interface, IAMGraphStreams interface [DirectShow],FindUpstreamInterface method, IAMGraphStreams.FindUpstreamInterface, IAMGraphStreams::FindUpstreamInterface, IAMGraphStreamsFindUpstreamInterface, dshow.iamgraphstreams_findupstreaminterface, strmif/IAMGraphStreams::FindUpstreamInterface
 ms.topic: method
-f1_keywords: 
- - "strmif/IAMGraphStreams.FindUpstreamInterface"
+f1_keywords:
+- strmif/IAMGraphStreams.FindUpstreamInterface
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IAMGraphStreams.FindUpstreamInterface
+- IAMGraphStreams.FindUpstreamInterface
 targetos: Windows
 req.typenames: 
 req.redist: 

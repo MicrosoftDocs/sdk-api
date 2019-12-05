@@ -1,19 +1,17 @@
 ---
 UID: NF:rend.ITDirectoryObjectConference.put_AdvertisingScope
 title: ITDirectoryObjectConference::put_AdvertisingScope (rend.h)
-
 description: The put_AdvertisingScope method sets the advertising scope.
 old-location: tapi3\itdirectoryobjectconference_put_advertisingscope.htm
 tech.root: Tapi
 ms.assetid: 74d7c770-e11d-4d87-acdb-821d64feed0c
-
 ms.date: 12/05/2018
 ms.keywords: ITDirectoryObjectConference interface [TAPI 2.2],put_AdvertisingScope method, ITDirectoryObjectConference.put_AdvertisingScope, ITDirectoryObjectConference::put_AdvertisingScope, _tapi3_itdirectoryobjectconference_put_advertisingscope, put_AdvertisingScope, put_AdvertisingScope method [TAPI 2.2], put_AdvertisingScope method [TAPI 2.2],ITDirectoryObjectConference interface, rend/ITDirectoryObjectConference::put_AdvertisingScope, tapi3.itdirectoryobjectconference_put_advertisingscope
 ms.topic: method
-f1_keywords: 
- - "rend/ITDirectoryObjectConference.put_AdvertisingScope"
+f1_keywords:
+- rend/ITDirectoryObjectConference.put_AdvertisingScope
 dev_langs:
- - c++
+- c++
 req.header: rend.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Rend.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Rend.dll
+- Rend.dll
 api_name:
- - ITDirectoryObjectConference.put_AdvertisingScope
+- ITDirectoryObjectConference.put_AdvertisingScope
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:gdiplusgraphics.Graphics.RotateTransform
 title: Graphics::RotateTransform (gdiplusgraphics.h)
-
 description: The Graphics::RotateTransform method updates the world transformation matrix of this Graphics object with the product of itself and a rotation matrix.
 old-location: gdiplus\_gdiplus_CLASS_Graphics_RotateTransform_angle_order_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\rotatetransform.htm
-
 ms.date: 12/05/2018
 ms.keywords: Graphics class [GDI+],RotateTransform method, Graphics.RotateTransform, Graphics::RotateTransform, RotateTransform, RotateTransform method [GDI+], RotateTransform method [GDI+],Graphics class, _gdiplus_CLASS_Graphics_RotateTransform_angle_order_, gdiplus._gdiplus_CLASS_Graphics_RotateTransform_angle_order_
 ms.topic: method
-f1_keywords: 
- - "gdiplusgraphics/Graphics.RotateTransform"
+f1_keywords:
+- gdiplusgraphics/Graphics.RotateTransform
 dev_langs:
- - c++
+- c++
 req.header: gdiplusgraphics.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - Graphics.RotateTransform
+- Graphics.RotateTransform
 targetos: Windows
 req.typenames: 
 req.redist: 

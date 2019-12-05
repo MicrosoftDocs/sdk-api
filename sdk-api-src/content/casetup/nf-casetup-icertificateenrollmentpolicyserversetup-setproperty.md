@@ -1,19 +1,17 @@
 ---
 UID: NF:casetup.ICertificateEnrollmentPolicyServerSetup.SetProperty
 title: ICertificateEnrollmentPolicyServerSetup::SetProperty (casetup.h)
-
 description: Specifies a CEPSetupProperty enumeration value for the Certificate Enrollment Policy (CEP) Web Service configuration.
 old-location: security\icertificateenrollmentpolicyserversetup_setproperty.htm
 tech.root: SecCrypto
 ms.assetid: 81E20BFF-B4EC-4FA5-A881-5BDCE3FC3057
-
 ms.date: 12/05/2018
 ms.keywords: ICertificateEnrollmentPolicyServerSetup interface [Security],SetProperty method, ICertificateEnrollmentPolicyServerSetup.SetProperty, ICertificateEnrollmentPolicyServerSetup::SetProperty, SetProperty, SetProperty method [Security], SetProperty method [Security],ICertificateEnrollmentPolicyServerSetup interface, casetup/ICertificateEnrollmentPolicyServerSetup::SetProperty, security.icertificateenrollmentpolicyserversetup_setproperty
 ms.topic: method
-f1_keywords: 
- - "casetup/ICertificateEnrollmentPolicyServerSetup.SetProperty"
+f1_keywords:
+- casetup/ICertificateEnrollmentPolicyServerSetup.SetProperty
 dev_langs:
- - c++
+- c++
 req.header: casetup.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Certocm.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Certocm.dll
+- Certocm.dll
 api_name:
- - ICertificateEnrollmentPolicyServerSetup.SetProperty
+- ICertificateEnrollmentPolicyServerSetup.SetProperty
 targetos: Windows
 req.typenames: 
 req.redist: 

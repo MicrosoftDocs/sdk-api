@@ -1,19 +1,17 @@
 ---
 UID: NS:commctrl.tagTVSORTCB
 title: TVSORTCB (commctrl.h)
-
 description: Contains information used to sort child items in a tree-view control. This structure is used with the TVM_SORTCHILDRENCB message. This structure is identical to the TV_SORTCB structure, but it has been renamed to follow current naming conventions.
 old-location: controls\TVSORTCB.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\treeview\structures\tvsortcb.htm
-
 ms.date: 12/05/2018
-ms.keywords: "*LPTVSORTCB, LPTVSORTCB, LPTVSORTCB structure pointer [Windows Controls], TVSORTCB, TVSORTCB structure [Windows Controls], _win32_TVSORTCB, _win32_TVSORTCB_cpp, commctrl/LPTVSORTCB, commctrl/TVSORTCB, controls.TVSORTCB, controls._win32_TVSORTCB"
+ms.keywords: '*LPTVSORTCB, LPTVSORTCB, LPTVSORTCB structure pointer [Windows Controls], TVSORTCB, TVSORTCB structure [Windows Controls], _win32_TVSORTCB, _win32_TVSORTCB_cpp, commctrl/LPTVSORTCB, commctrl/TVSORTCB, controls.TVSORTCB, controls._win32_TVSORTCB'
 ms.topic: struct
-f1_keywords: 
- - "commctrl/TVSORTCB"
+f1_keywords:
+- commctrl/TVSORTCB
 dev_langs:
- - c++
+- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Commctrl.h
+- Commctrl.h
 api_name:
- - TVSORTCB
+- TVSORTCB
 targetos: Windows
 req.typenames: TVSORTCB, *LPTVSORTCB
 req.redist: 

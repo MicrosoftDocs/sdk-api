@@ -1,19 +1,17 @@
 ---
 UID: NF:webservices.WsWriteCharsUtf8
 title: WsWriteCharsUtf8 function (webservices.h)
-
 description: Writes a series of characters encoded as UTF-8 to an element or attribute.
 old-location: wsw\wswritecharsutf8.htm
 tech.root: wsw
 ms.assetid: 53cdaf22-21ed-4e5a-8034-d5a4725b9da3
-
 ms.date: 12/05/2018
 ms.keywords: WsWriteCharsUtf8, WsWriteCharsUtf8 function [Web Services for Windows], webservices/WsWriteCharsUtf8, wsw.wswritecharsutf8
 ms.topic: function
-f1_keywords: 
- - "webservices/WsWriteCharsUtf8"
+f1_keywords:
+- webservices/WsWriteCharsUtf8
 dev_langs:
- - c++
+- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: WebServices.lib
 req.dll: WebServices.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - WebServices.dll
+- WebServices.dll
 api_name:
- - WsWriteCharsUtf8
+- WsWriteCharsUtf8
 targetos: Windows
 req.typenames: 
 req.redist: 

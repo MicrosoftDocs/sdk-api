@@ -1,19 +1,17 @@
 ---
 UID: NF:wmsdkidl.IWMMediaProps.GetMediaType
 title: IWMMediaProps::GetMediaType (wmsdkidl.h)
-
 description: The GetMediaType method retrieves a structure describing the media type.
 old-location: wmformat\iwmmediaprops_getmediatype.htm
 tech.root: wmformat
 ms.assetid: 8357e5c6-d8c6-4a30-8446-85fa7fa118f7
-
 ms.date: 12/05/2018
 ms.keywords: GetMediaType, GetMediaType method [windows Media Format], GetMediaType method [windows Media Format],IWMMediaProps interface, IWMMediaProps interface [windows Media Format],GetMediaType method, IWMMediaProps.GetMediaType, IWMMediaProps::GetMediaType, IWMMediaPropsGetMediaType, wmformat.iwmmediaprops_getmediatype, wmsdkidl/IWMMediaProps::GetMediaType
 ms.topic: method
-f1_keywords: 
- - "wmsdkidl/IWMMediaProps.GetMediaType"
+f1_keywords:
+- wmsdkidl/IWMMediaProps.GetMediaType
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wmvcore.lib
- - Wmvcore.dll
- - WMStubDRM.lib
- - WMStubDRM.dll
+- Wmvcore.lib
+- Wmvcore.dll
+- WMStubDRM.lib
+- WMStubDRM.dll
 api_name:
- - IWMMediaProps.GetMediaType
+- IWMMediaProps.GetMediaType
 targetos: Windows
 req.typenames: 
 req.redist: 

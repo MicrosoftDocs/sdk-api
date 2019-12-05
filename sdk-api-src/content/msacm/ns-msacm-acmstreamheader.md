@@ -1,19 +1,17 @@
 ---
 UID: NS:msacm.tACMSTREAMHEADER
 title: ACMSTREAMHEADER (msacm.h)
-
 description: The ACMSTREAMHEADER structure defines the header used to identify an ACM conversion source and destination buffer pair for a conversion stream.
 old-location: multimedia\acmstreamheader.htm
 tech.root: Multimedia
 ms.assetid: 723e96d8-f098-4e08-862a-a9fea8d2fbe3
-
 ms.date: 12/05/2018
-ms.keywords: "*LPACMSTREAMHEADER, *PACMSTREAMHEADER, ACMSTREAMHEADER, ACMSTREAMHEADER structure [Windows Multimedia], ACMSTREAMHEADER_STATUSF_DONE, ACMSTREAMHEADER_STATUSF_INQUEUE, ACMSTREAMHEADER_STATUSF_PREPARED, _win32_ACMSTREAMHEADER_str, msacm/ACMSTREAMHEADER, multimedia.acmstreamheader"
+ms.keywords: '*LPACMSTREAMHEADER, *PACMSTREAMHEADER, ACMSTREAMHEADER, ACMSTREAMHEADER structure [Windows Multimedia], ACMSTREAMHEADER_STATUSF_DONE, ACMSTREAMHEADER_STATUSF_INQUEUE, ACMSTREAMHEADER_STATUSF_PREPARED, _win32_ACMSTREAMHEADER_str, msacm/ACMSTREAMHEADER, multimedia.acmstreamheader'
 ms.topic: struct
-f1_keywords: 
- - "msacm/ACMSTREAMHEADER"
+f1_keywords:
+- msacm/ACMSTREAMHEADER
 dev_langs:
- - c++
+- c++
 req.header: msacm.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Msacm.h
+- Msacm.h
 api_name:
- - ACMSTREAMHEADER
+- ACMSTREAMHEADER
 targetos: Windows
 req.typenames: ACMSTREAMHEADER, *PACMSTREAMHEADER, *LPACMSTREAMHEADER
 req.redist: 

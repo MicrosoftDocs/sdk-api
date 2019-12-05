@@ -1,19 +1,17 @@
 ---
 UID: NF:peerdist.PeerDistServerPublishCompleteStream
 title: PeerDistServerPublishCompleteStream function (peerdist.h)
-
 description: PeerDistServerPublishCompleteStream function completes the process of adding data to the stream.
 old-location: p2p\peerdistserverpublishcompletestream.htm
 tech.root: P2PSdk
 ms.assetid: ad66025e-cc4f-49b7-9749-de97f4a55078
-
 ms.date: 12/05/2018
 ms.keywords: PeerDistServerPublishCompleteStream, PeerDistServerPublishCompleteStream function [Peer Networking], p2p.peerdistserverpublishcompletestream, peerdist/PeerDistServerPublishCompleteStream
 ms.topic: function
 f1_keywords:
 - peerdist/PeerDistServerPublishCompleteStream
 dev_langs:
- - c++
+- c++
 req.header: peerdist.h
 req.include-header: 
 req.target-type: Windows

@@ -1,19 +1,17 @@
 ---
 UID: NF:peninputpanel.ITextInputPanel.SetInPlaceVisibility
 title: ITextInputPanel::SetInPlaceVisibility (peninputpanel.h)
-
 description: Shows or hides the Tablet PC Input Panel.
 old-location: tablet\itextinputpanel_setinplacevisibility.htm
 tech.root: tablet
 ms.assetid: 1e503857-9276-4308-b4ad-83db25866689
-
 ms.date: 12/05/2018
 ms.keywords: 1e503857-9276-4308-b4ad-83db25866689, ITextInputPanel interface [Tablet PC],SetInPlaceVisibility method, ITextInputPanel.SetInPlaceVisibility, ITextInputPanel::SetInPlaceVisibility, SetInPlaceVisibility, SetInPlaceVisibility method [Tablet PC], SetInPlaceVisibility method [Tablet PC],ITextInputPanel interface, peninputpanel/ITextInputPanel::SetInPlaceVisibility, tablet.itextinputpanel_setinplacevisibility
 ms.topic: method
-f1_keywords: 
- - "peninputpanel/ITextInputPanel.SetInPlaceVisibility"
+f1_keywords:
+- peninputpanel/ITextInputPanel.SetInPlaceVisibility
 dev_langs:
- - c++
+- c++
 req.header: peninputpanel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Tiptsf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - tiptsf.dll
+- tiptsf.dll
 api_name:
- - ITextInputPanel.SetInPlaceVisibility
+- ITextInputPanel.SetInPlaceVisibility
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:wofapi.WofWimRemoveEntry
 title: WofWimRemoveEntry function (wofapi.h)
-
 description: Removes a single WIM data source from backing files on a volume.
 old-location: fs\wofwimremoveentry.htm
 tech.root: FileIO
 ms.assetid: B376EDF7-8C46-4C8B-900E-0DC79699EC1E
-
 ms.date: 12/05/2018
 ms.keywords: WofWimRemoveEntry, WofWimRemoveEntry function [Files], fs.wofwimremoveentry, wofapi/WofWimRemoveEntry
 ms.topic: function
-f1_keywords: 
- - "wofapi/WofWimRemoveEntry"
+f1_keywords:
+- wofapi/WofWimRemoveEntry
 dev_langs:
- - c++
+- c++
 req.header: wofapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Wofutil.lib
 req.dll: Wofutil.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - wofutil.dll
+- wofutil.dll
 api_name:
- - WofWimRemoveEntry
+- WofWimRemoveEntry
 targetos: Windows
 req.typenames: 
 req.redist: 

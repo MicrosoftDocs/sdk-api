@@ -1,19 +1,17 @@
 ---
 UID: NF:azroles.IAzRole.SetProperty
 title: IAzRole::SetProperty (azroles.h)
-
 description: Sets the specified value to the IAzRole object property with the specified property ID.
 old-location: security\iazrole_setproperty.htm
 tech.root: SecAuthZ
 ms.assetid: 0f1c4abe-69cc-4672-8a74-eaaf55fc6e88
-
 ms.date: 12/05/2018
 ms.keywords: AZ_PROP_APPLICATION_DATA, AZ_PROP_DESCRIPTION, AZ_PROP_NAME, AzRole object [Security],SetProperty method, IAzRole interface [Security],SetProperty method, IAzRole.SetProperty, IAzRole::SetProperty, SetProperty, SetProperty method [Security], SetProperty method [Security],AzRole object, SetProperty method [Security],IAzRole interface, azroles/IAzRole::SetProperty, security.iazrole_setproperty
 ms.topic: method
-f1_keywords: 
- - "azroles/IAzRole.SetProperty"
+f1_keywords:
+- azroles/IAzRole.SetProperty
 dev_langs:
- - c++
+- c++
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Azroles.lib
 req.dll: Azroles.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Azroles.dll
+- Azroles.dll
 api_name:
- - IAzRole.SetProperty
- - AzRole.SetProperty
+- IAzRole.SetProperty
+- AzRole.SetProperty
 targetos: Windows
 req.typenames: 
 req.redist: Windows Server 2003 Administration Tools Pack on Windows XP

@@ -1,19 +1,17 @@
 ---
 UID: NF:mmdeviceapi.IMMDeviceCollection.GetCount
 title: IMMDeviceCollection::GetCount (mmdeviceapi.h)
-
 description: The GetCount method retrieves a count of the devices in the device collection.
 old-location: coreaudio\immdevicecollection_getcount.htm
 tech.root: CoreAudio
 ms.assetid: 236a611b-98ab-437c-9e36-8c8a7c32ffbc
-
 ms.date: 12/05/2018
 ms.keywords: GetCount, GetCount method [Core Audio], GetCount method [Core Audio],IMMDeviceCollection interface, IMMDeviceCollection interface [Core Audio],GetCount method, IMMDeviceCollection.GetCount, IMMDeviceCollection::GetCount, IMMDeviceCollectionGetCount, coreaudio.immdevicecollection_getcount, mmdeviceapi/IMMDeviceCollection::GetCount
 ms.topic: method
-f1_keywords: 
- - "mmdeviceapi/IMMDeviceCollection.GetCount"
+f1_keywords:
+- mmdeviceapi/IMMDeviceCollection.GetCount
 dev_langs:
- - c++
+- c++
 req.header: mmdeviceapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mmdeviceapi.h
+- Mmdeviceapi.h
 api_name:
- - IMMDeviceCollection.GetCount
+- IMMDeviceCollection.GetCount
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:winternl.RtlConvertSidToUnicodeString
 title: RtlConvertSidToUnicodeString function (winternl.h)
-
 description: Converts a security identifier (SID) to its Unicode character representation.
 old-location: security\rtlconvertsidtounicodestring.htm
 tech.root: SecAuthZ
 ms.assetid: 4b2584ad-6752-46d4-83fb-3de0b783e229
-
 ms.date: 12/05/2018
 ms.keywords: RtlConvertSidToUnicodeString, RtlConvertSidToUnicodeString function [Security], security.rtlconvertsidtounicodestring, winternl/RtlConvertSidToUnicodeString
 ms.topic: function
 f1_keywords:
 - winternl/RtlConvertSidToUnicodeString
 dev_langs:
- - c++
+- c++
 req.header: winternl.h
 req.include-header: 
 req.target-type: Windows

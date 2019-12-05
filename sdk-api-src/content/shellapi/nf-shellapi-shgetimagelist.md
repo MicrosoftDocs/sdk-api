@@ -1,19 +1,17 @@
 ---
 UID: NF:shellapi.SHGetImageList
 title: SHGetImageList function (shellapi.h)
-
 description: Retrieves an image list.
 old-location: shell\SHGetImageList.htm
 tech.root: shell
 ms.assetid: 6ae80c1f-f2b7-4da9-b588-30391c8aef0e
-
 ms.date: 12/05/2018
 ms.keywords: SHGetImageList, SHGetImageList function [Windows Shell], SHIL_EXTRALARGE, SHIL_JUMBO, SHIL_LARGE, SHIL_LAST, SHIL_SMALL, SHIL_SYSSMALL, _shell_SHGetImageList, shell.SHGetImageList, shellapi/SHGetImageList
 ms.topic: function
-f1_keywords: 
- - "shellapi/SHGetImageList"
+f1_keywords:
+- shellapi/SHGetImageList
 dev_langs:
- - c++
+- c++
 req.header: shellapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Shell32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - SHGetImageList
+- SHGetImageList
 targetos: Windows
 req.typenames: 
 req.redist: 

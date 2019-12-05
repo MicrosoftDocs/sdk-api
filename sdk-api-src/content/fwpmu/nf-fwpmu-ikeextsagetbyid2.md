@@ -1,19 +1,17 @@
 ---
 UID: NF:fwpmu.IkeextSaGetById2
 title: IkeextSaGetById2 function (fwpmu.h)
-
 description: Retrieves an IKE/AuthIP security association (SA) from the database.
 old-location: fwp\ikeextsagetbyid2.htm
 tech.root: fwp
 ms.assetid: 5ea04fdc-d06d-4e8e-9c66-3a6df4372481
-
 ms.date: 12/05/2018
 ms.keywords: IkeextSaGetById2, IkeextSaGetById2 function [Filtering], fwp.ikeextsagetbyid2, fwpmu/IkeextSaGetById2
 ms.topic: function
-f1_keywords: 
- - "fwpmu/IkeextSaGetById2"
+f1_keywords:
+- fwpmu/IkeextSaGetById2
 dev_langs:
- - c++
+- c++
 req.header: fwpmu.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Fwpuclnt.lib
 req.dll: Fwpuclnt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Fwpuclnt.dll
+- Fwpuclnt.dll
 api_name:
- - IkeextSaGetById2
+- IkeextSaGetById2
 targetos: Windows
 req.typenames: 
 req.redist: 

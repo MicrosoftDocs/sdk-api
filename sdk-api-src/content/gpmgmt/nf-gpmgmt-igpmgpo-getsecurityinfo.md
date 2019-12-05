@@ -1,19 +1,17 @@
 ---
 UID: NF:gpmgmt.IGPMGPO.GetSecurityInfo
 title: IGPMGPO::GetSecurityInfo (gpmgmt.h)
-
 description: Retrieves the set of permissions for the GPO, such as who is granted permission to edit it.
 old-location: gpmc\igpmgpo_getsecurityinfo.htm
 tech.root: gpmc
 ms.assetid: 104e96e6-60c5-4cc1-9728-7c0ea9715a58
-
 ms.date: 12/05/2018
 ms.keywords: GPMGPO class [GPMC],GetSecurityInfo method, GetSecurityInfo, GetSecurityInfo method [GPMC], GetSecurityInfo method [GPMC],GPMGPO class, GetSecurityInfo method [GPMC],IGPMGPO interface, IGPMGPO interface [GPMC],GetSecurityInfo method, IGPMGPO.GetSecurityInfo, IGPMGPO::GetSecurityInfo, _win32_igpmgpo_getsecurityinfo, gpmc.igpmgpo_getsecurityinfo, gpmgmt/IGPMGPO::GetSecurityInfo
 ms.topic: method
-f1_keywords: 
- - "gpmgmt/IGPMGPO.GetSecurityInfo"
+f1_keywords:
+- gpmgmt/IGPMGPO.GetSecurityInfo
 dev_langs:
- - c++
+- c++
 req.header: gpmgmt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: Gpmgmt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gpmgmt.dll
+- Gpmgmt.dll
 api_name:
- - IGPMGPO.GetSecurityInfo
- - GPMGPO.GetSecurityInfo
+- IGPMGPO.GetSecurityInfo
+- GPMGPO.GetSecurityInfo
 targetos: Windows
 req.typenames: 
 req.redist: 

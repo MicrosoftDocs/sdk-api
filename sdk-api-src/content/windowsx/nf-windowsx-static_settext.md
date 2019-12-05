@@ -1,19 +1,17 @@
 ---
 UID: NF:windowsx.Static_SetText
 title: Static_SetText macro (windowsx.h)
-
 description: Sets the text of a static control.
 old-location: controls\Static_SetText.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\staticcontrols\staticcontrolreference\staticcontrolmacros\static_settext.htm
-
 ms.date: 12/05/2018
 ms.keywords: Static_SetText, Static_SetText macro [Windows Controls], _win32_Static_SetText, _win32_Static_SetText_cpp, controls.Static_SetText, controls._win32_Static_SetText, windowsx/Static_SetText
 ms.topic: macro
-f1_keywords: 
- - "windowsx/Static_SetText"
+f1_keywords:
+- windowsx/Static_SetText
 dev_langs:
- - c++
+- c++
 req.header: windowsx.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Windowsx.h
+- Windowsx.h
 api_name:
- - Static_SetText
+- Static_SetText
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:clusapi.GetClusterKey
 title: GetClusterKey function (clusapi.h)
-
 description: Opens the root of the cluster database subtree for a cluster.
 old-location: mscs\getclusterkey.htm
 tech.root: MsCS
 ms.assetid: ddec12fc-6d4d-411d-ab24-6fb60175ba7b
-
 ms.date: 12/05/2018
 ms.keywords: GetClusterKey, GetClusterKey function [Failover Cluster], _wolf_getclusterkey, clusapi/GetClusterKey, mscs.getclusterkey
 ms.topic: function
-f1_keywords: 
- - "clusapi/GetClusterKey"
+f1_keywords:
+- clusapi/GetClusterKey
 dev_langs:
- - c++
+- c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: ClusAPI.lib
 req.dll: ClusAPI.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - ClusAPI.dll
- - Ext-MS-Win-Cluster-ClusAPI-l1-1-1.dll
- - Ext-MS-Win-Cluster-ClusAPI-l1-1-2.dll
- - ext-ms-win-cluster-clusapi-l1-1-3.dll
+- ClusAPI.dll
+- Ext-MS-Win-Cluster-ClusAPI-l1-1-1.dll
+- Ext-MS-Win-Cluster-ClusAPI-l1-1-2.dll
+- ext-ms-win-cluster-clusapi-l1-1-3.dll
 api_name:
- - GetClusterKey
+- GetClusterKey
 targetos: Windows
 req.typenames: 
 req.redist: 

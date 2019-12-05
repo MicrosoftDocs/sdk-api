@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi3if.ITCollection.get_Count
 title: ITCollection::get_Count (tapi3if.h)
-
 description: The get_Count method gets the number of items in the collection.
 old-location: tapi3\itcollection_get_count.htm
 tech.root: Tapi
 ms.assetid: 253c09db-4b64-43d0-8040-b3a2ab95af30
-
 ms.date: 12/05/2018
 ms.keywords: ITCollection interface [TAPI 2.2],get_Count method, ITCollection.get_Count, ITCollection::get_Count, _tapi3_itcollection_get_count, get_Count, get_Count method [TAPI 2.2], get_Count method [TAPI 2.2],ITCollection interface, tapi3.itcollection_get_count, tapi3if/ITCollection::get_Count
 ms.topic: method
-f1_keywords: 
- - "tapi3if/ITCollection.get_Count"
+f1_keywords:
+- tapi3if/ITCollection.get_Count
 dev_langs:
- - c++
+- c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Tapi3.dll
+- Tapi3.dll
 api_name:
- - ITCollection.get_Count
+- ITCollection.get_Count
 targetos: Windows
 req.typenames: 
 req.redist: 

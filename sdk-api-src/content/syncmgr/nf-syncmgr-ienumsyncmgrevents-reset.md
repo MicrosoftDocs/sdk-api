@@ -1,19 +1,17 @@
 ---
 UID: NF:syncmgr.IEnumSyncMgrEvents.Reset
 title: IEnumSyncMgrEvents::Reset (syncmgr.h)
-
 description: Resets the current location in the enumeration to zero.
 old-location: shell\IEnumSyncMgrEvents_Reset.htm
 tech.root: shell
 ms.assetid: 68c99781-aedf-4676-bbd2-ab6cc14bba46
-
 ms.date: 12/05/2018
 ms.keywords: IEnumSyncMgrEvents interface [Windows Shell],Reset method, IEnumSyncMgrEvents.Reset, IEnumSyncMgrEvents::Reset, Reset, Reset method [Windows Shell], Reset method [Windows Shell],IEnumSyncMgrEvents interface, _shell_IEnumSyncMgrEvents_Reset, shell.IEnumSyncMgrEvents_Reset, syncmgr/IEnumSyncMgrEvents::Reset
 ms.topic: method
-f1_keywords: 
- - "syncmgr/IEnumSyncMgrEvents.Reset"
+f1_keywords:
+- syncmgr/IEnumSyncMgrEvents.Reset
 dev_langs:
- - c++
+- c++
 req.header: syncmgr.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Syncmgr.h
+- Syncmgr.h
 api_name:
- - IEnumSyncMgrEvents.Reset
+- IEnumSyncMgrEvents.Reset
 targetos: Windows
 req.typenames: 
 req.redist: 

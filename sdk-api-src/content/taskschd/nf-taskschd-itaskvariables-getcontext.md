@@ -1,19 +1,17 @@
 ---
 UID: NF:taskschd.ITaskVariables.GetContext
 title: ITaskVariables::GetContext (taskschd.h)
-
 description: Used to share the context between different steps and tasks that are in the same job instance.
 old-location: taskschd\itaskvariables_getcontext.htm
 tech.root: taskschd
 ms.assetid: 090d24ac-18eb-4a76-887f-30d3b99e7ad0
-
 ms.date: 12/05/2018
 ms.keywords: GetContext, GetContext method [Task Scheduler], GetContext method [Task Scheduler],ITaskVariables interface, ITaskVariables interface [Task Scheduler],GetContext method, ITaskVariables.GetContext, ITaskVariables::GetContext, taskschd.itaskvariables_getcontext, taskschd/ITaskVariables::GetContext
 ms.topic: method
-f1_keywords: 
- - "taskschd/ITaskVariables.GetContext"
+f1_keywords:
+- taskschd/ITaskVariables.GetContext
 dev_langs:
- - c++
+- c++
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Taskschd.lib
 req.dll: Taskschd.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - taskschd.dll
+- taskschd.dll
 api_name:
- - ITaskVariables.GetContext
+- ITaskVariables.GetContext
 targetos: Windows
 req.typenames: 
 req.redist: 

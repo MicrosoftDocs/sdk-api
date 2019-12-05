@@ -1,19 +1,17 @@
 ---
 UID: NF:mpeg2psiparser.IGenericDescriptor.Initialize
 title: IGenericDescriptor::Initialize (mpeg2psiparser.h)
-
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005.
 old-location: mstv\igenericdescriptor_initialize.htm
 tech.root: mstv
 ms.assetid: 0dfe1f52-60ac-46b6-9f55-9764b47479e8
-
 ms.date: 12/05/2018
 ms.keywords: IGenericDescriptor interface [Microsoft TV Technologies],Initialize method, IGenericDescriptor.Initialize, IGenericDescriptor::Initialize, IGenericDescriptorInitialize, Initialize, Initialize method [Microsoft TV Technologies], Initialize method [Microsoft TV Technologies],IGenericDescriptor interface, mpeg2psiparser/IGenericDescriptor::Initialize, mstv.igenericdescriptor_initialize
 ms.topic: method
-f1_keywords: 
- - "mpeg2psiparser/IGenericDescriptor.Initialize"
+f1_keywords:
+- mpeg2psiparser/IGenericDescriptor.Initialize
 dev_langs:
- - c++
+- c++
 req.header: mpeg2psiparser.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mpeg2PsiParser.h
+- Mpeg2PsiParser.h
 api_name:
- - IGenericDescriptor.Initialize
+- IGenericDescriptor.Initialize
 targetos: Windows
 req.typenames: 
 req.redist: 

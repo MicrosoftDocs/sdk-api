@@ -1,19 +1,17 @@
 ---
 UID: NE:d3d10_1shader._D3D10_SHADER_DEBUG_SCOPETYPE
 title: D3D10_SHADER_DEBUG_SCOPETYPE (d3d10_1shader.h)
-
 description: Scope types.
 old-location: direct3d10\d3d10_shader_debug_scopetype.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\d3d10_shader_debug_scopetype.htm
-
 ms.date: 12/05/2018
 ms.keywords: D3D10_SHADER_DEBUG_SCOPETYPE, D3D10_SHADER_DEBUG_SCOPETYPE enumeration [Direct3D 10], D3D10_SHADER_DEBUG_SCOPE_ANNOTATION, D3D10_SHADER_DEBUG_SCOPE_BLOCK, D3D10_SHADER_DEBUG_SCOPE_FORCE_DWORD, D3D10_SHADER_DEBUG_SCOPE_FORLOOP, D3D10_SHADER_DEBUG_SCOPE_FUNC_PARAMS, D3D10_SHADER_DEBUG_SCOPE_GLOBAL, D3D10_SHADER_DEBUG_SCOPE_NAMESPACE, D3D10_SHADER_DEBUG_SCOPE_STATEBLOCK, D3D10_SHADER_DEBUG_SCOPE_STRUCT, a42aff03-01b4-0000-857a-579862c3b15e, d3d10_1shader/D3D10_SHADER_DEBUG_SCOPETYPE, d3d10_1shader/D3D10_SHADER_DEBUG_SCOPE_ANNOTATION, d3d10_1shader/D3D10_SHADER_DEBUG_SCOPE_BLOCK, d3d10_1shader/D3D10_SHADER_DEBUG_SCOPE_FORCE_DWORD, d3d10_1shader/D3D10_SHADER_DEBUG_SCOPE_FORLOOP, d3d10_1shader/D3D10_SHADER_DEBUG_SCOPE_FUNC_PARAMS, d3d10_1shader/D3D10_SHADER_DEBUG_SCOPE_GLOBAL, d3d10_1shader/D3D10_SHADER_DEBUG_SCOPE_NAMESPACE, d3d10_1shader/D3D10_SHADER_DEBUG_SCOPE_STATEBLOCK, d3d10_1shader/D3D10_SHADER_DEBUG_SCOPE_STRUCT, direct3d10.d3d10_shader_debug_scopetype
 ms.topic: enum
-f1_keywords: 
- - "d3d10_1shader/D3D10_SHADER_DEBUG_SCOPETYPE"
+f1_keywords:
+- d3d10_1shader/D3D10_SHADER_DEBUG_SCOPETYPE
 dev_langs:
- - c++
+- c++
 req.header: d3d10_1shader.h
 req.include-header: D3D10Shader.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - d3d10_1shader.h
+- d3d10_1shader.h
 api_name:
- - D3D10_SHADER_DEBUG_SCOPETYPE
+- D3D10_SHADER_DEBUG_SCOPETYPE
 targetos: Windows
 req.typenames: D3D10_SHADER_DEBUG_SCOPETYPE
 req.redist: 

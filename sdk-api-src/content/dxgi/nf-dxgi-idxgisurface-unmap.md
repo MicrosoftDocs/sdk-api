@@ -1,19 +1,17 @@
 ---
 UID: NF:dxgi.IDXGISurface.Unmap
 title: IDXGISurface::Unmap (dxgi.h)
-
 description: Invalidate the pointer to the surface retrieved by IDXGISurface::Map and re-enable GPU access to the resource.
 old-location: direct3ddxgi\idxgisurface_unmap.htm
 tech.root: direct3ddxgi
 ms.assetid: VS|directx_sdk|~\idxgisurface_unmap.htm
-
 ms.date: 12/05/2018
 ms.keywords: 72e0302e-2a02-c42b-8a5c-609c0e5f562a, IDXGISurface interface [DXGI],Unmap method, IDXGISurface.Unmap, IDXGISurface::Unmap, Unmap, Unmap method [DXGI], Unmap method [DXGI],IDXGISurface interface, direct3ddxgi.idxgisurface_unmap, dxgi/IDXGISurface::Unmap
 ms.topic: method
-f1_keywords: 
- - "dxgi/IDXGISurface.Unmap"
+f1_keywords:
+- dxgi/IDXGISurface.Unmap
 dev_langs:
- - c++
+- c++
 req.header: dxgi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: DXGI.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - DXGI.lib
- - DXGI.dll
+- DXGI.lib
+- DXGI.dll
 api_name:
- - IDXGISurface.Unmap
+- IDXGISurface.Unmap
 targetos: Windows
 req.typenames: 
 req.redist: 

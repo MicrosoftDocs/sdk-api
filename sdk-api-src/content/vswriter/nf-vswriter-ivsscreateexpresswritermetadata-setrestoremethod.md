@@ -1,19 +1,17 @@
 ---
 UID: NF:vswriter.IVssCreateExpressWriterMetadata.SetRestoreMethod
 title: IVssCreateExpressWriterMetadata::SetRestoreMethod (vswriter.h)
-
 description: Specifies how an express writer's data is to be restored.
 old-location: base\ivsscreateexpresswritermetadata_setrestoremethod.htm
 tech.root: VSS
 ms.assetid: 220e399b-aafd-4b72-bef4-abc3f39f202f
-
 ms.date: 12/05/2018
 ms.keywords: IVssCreateExpressWriterMetadata interface,SetRestoreMethod method, IVssCreateExpressWriterMetadata.SetRestoreMethod, IVssCreateExpressWriterMetadata::SetRestoreMethod, SetRestoreMethod, SetRestoreMethod method, SetRestoreMethod method,IVssCreateExpressWriterMetadata interface, base.ivsscreateexpresswritermetadata_setrestoremethod, vswriter/IVssCreateExpressWriterMetadata::SetRestoreMethod
 ms.topic: method
-f1_keywords: 
- - "vswriter/IVssCreateExpressWriterMetadata.SetRestoreMethod"
+f1_keywords:
+- vswriter/IVssCreateExpressWriterMetadata.SetRestoreMethod
 dev_langs:
- - c++
+- c++
 req.header: vswriter.h
 req.include-header: Vss.h, VsWriter.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: VssApi.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - VssApi.lib
- - VssApi.dll
+- VssApi.lib
+- VssApi.dll
 api_name:
- - IVssCreateExpressWriterMetadata.SetRestoreMethod
+- IVssCreateExpressWriterMetadata.SetRestoreMethod
 targetos: Windows
 req.typenames: 
 req.redist: 

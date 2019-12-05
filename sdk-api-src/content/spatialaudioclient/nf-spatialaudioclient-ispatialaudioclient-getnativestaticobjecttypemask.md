@@ -1,19 +1,17 @@
 ---
 UID: NF:spatialaudioclient.ISpatialAudioClient.GetNativeStaticObjectTypeMask
 title: ISpatialAudioClient::GetNativeStaticObjectTypeMask (spatialaudioclient.h)
-
 description: Gets a channel mask which represents the subset of static speaker bed channels native to current rendering engine.
 old-location: coreaudio\ispatialaudioclient_getnativestaticobjecttypemask.htm
 tech.root: CoreAudio
 ms.assetid: 29963682-AD45-4CEC-81A0-4B834505F9D5
-
 ms.date: 12/05/2018
 ms.keywords: GetNativeStaticObjectTypeMask, GetNativeStaticObjectTypeMask method [Core Audio], GetNativeStaticObjectTypeMask method [Core Audio],ISpatialAudioClient interface, ISpatialAudioClient interface [Core Audio],GetNativeStaticObjectTypeMask method, ISpatialAudioClient.GetNativeStaticObjectTypeMask, ISpatialAudioClient::GetNativeStaticObjectTypeMask, coreaudio.ispatialaudioclient_getnativestaticobjecttypemask, spatialaudioclient/ISpatialAudioClient::GetNativeStaticObjectTypeMask
 ms.topic: method
-f1_keywords: 
- - "spatialaudioclient/ISpatialAudioClient.GetNativeStaticObjectTypeMask"
+f1_keywords:
+- spatialaudioclient/ISpatialAudioClient.GetNativeStaticObjectTypeMask
 dev_langs:
- - c++
+- c++
 req.header: spatialaudioclient.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - spatialaudioclient.h
+- spatialaudioclient.h
 api_name:
- - ISpatialAudioClient.GetNativeStaticObjectTypeMask
+- ISpatialAudioClient.GetNativeStaticObjectTypeMask
 targetos: Windows
 req.typenames: 
 req.redist: 

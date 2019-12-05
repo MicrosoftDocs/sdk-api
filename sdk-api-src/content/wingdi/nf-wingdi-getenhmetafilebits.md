@@ -1,19 +1,17 @@
 ---
 UID: NF:wingdi.GetEnhMetaFileBits
 title: GetEnhMetaFileBits function (wingdi.h)
-
 description: The GetEnhMetaFileBits function retrieves the contents of the specified enhanced-format metafile and copies them into a buffer.
 old-location: gdi\getenhmetafilebits.htm
 tech.root: gdi
 ms.assetid: 2bbfa0da-5b1e-4843-9777-c2e4c5fd3b78
-
 ms.date: 12/05/2018
 ms.keywords: GetEnhMetaFileBits, GetEnhMetaFileBits function [Windows GDI], _win32_GetEnhMetaFileBits, gdi.getenhmetafilebits, wingdi/GetEnhMetaFileBits
 ms.topic: function
-f1_keywords: 
- - "wingdi/GetEnhMetaFileBits"
+f1_keywords:
+- wingdi/GetEnhMetaFileBits
 dev_langs:
- - c++
+- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - gdi32.dll
- - Ext-MS-Win-GDI-Metafile-l1-1-0.dll
- - Ext-MS-Win-GDI-Metafile-l1-1-1.dll
- - ext-ms-win-gdi-metafile-l1-1-2.dll
- - GDI32Full.dll
+- gdi32.dll
+- Ext-MS-Win-GDI-Metafile-l1-1-0.dll
+- Ext-MS-Win-GDI-Metafile-l1-1-1.dll
+- ext-ms-win-gdi-metafile-l1-1-2.dll
+- GDI32Full.dll
 api_name:
- - GetEnhMetaFileBits
+- GetEnhMetaFileBits
 targetos: Windows
 req.typenames: 
 req.redist: 

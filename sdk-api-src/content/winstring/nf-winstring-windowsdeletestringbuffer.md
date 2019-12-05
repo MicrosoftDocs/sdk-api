@@ -1,19 +1,17 @@
 ---
 UID: NF:winstring.WindowsDeleteStringBuffer
 title: WindowsDeleteStringBuffer function (winstring.h)
-
 description: Discards a preallocated string buffer if it was not promoted to an HSTRING.
 old-location: winrt\windowsdeletestringbuffer.htm
 tech.root: WinRT
 ms.assetid: c543b2ff-56be-48b5-8b44-3d7549c75df2
-
 ms.date: 12/05/2018
 ms.keywords: WindowsDeleteStringBuffer, WindowsDeleteStringBuffer function [Windows Runtime], winrt.windowsdeletestringbuffer, winstring/WindowsDeleteStringBuffer
 ms.topic: function
-f1_keywords: 
- - "winstring/WindowsDeleteStringBuffer"
+f1_keywords:
+- winstring/WindowsDeleteStringBuffer
 dev_langs:
- - c++
+- c++
 req.header: winstring.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: RuntimeObject.lib
 req.dll: ComBase.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - ComBase.dll
- - API-MS-Win-Core-WinRT-String-l1-1-0.dll
- - API-MS-Win-Core-WinRT-String-L1-1-1.dll
+- ComBase.dll
+- API-MS-Win-Core-WinRT-String-l1-1-0.dll
+- API-MS-Win-Core-WinRT-String-L1-1-1.dll
 api_name:
- - WindowsDeleteStringBuffer
+- WindowsDeleteStringBuffer
 targetos: Windows
 req.typenames: 
 req.redist: 

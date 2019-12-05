@@ -1,19 +1,17 @@
 ---
 UID: NF:winbase.CreateSymbolicLinkTransactedW
 title: CreateSymbolicLinkTransactedW function (winbase.h)
-
 description: Creates a symbolic link as a transacted operation.
 old-location: fs\createsymboliclinktransacted.htm
 tech.root: FileIO
 ms.assetid: e440b940-129b-4638-a0b5-8f516687c74e
-
 ms.date: 12/05/2018
 ms.keywords: CreateSymbolicLinkTransacted, CreateSymbolicLinkTransacted function [Files], CreateSymbolicLinkTransactedA, CreateSymbolicLinkTransactedW, SYMBOLIC_LINK_FLAG_DIRECTORY, fs.createsymboliclinktransacted, winbase/CreateSymbolicLinkTransacted, winbase/CreateSymbolicLinkTransactedA, winbase/CreateSymbolicLinkTransactedW
 ms.topic: function
-f1_keywords: 
- - "winbase/CreateSymbolicLinkTransacted"
+f1_keywords:
+- winbase/CreateSymbolicLinkTransacted
 dev_langs:
- - c++
+- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,20 +30,20 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-Kernel32-Legacy-L1-1-3.dll
- - Kernel32Legacy.dll
- - API-MS-Win-Core-Kernel32-Legacy-L1-1-4.dll
- - API-MS-Win-Core-Kernel32-Legacy-L1-1-5.dll
+- Kernel32.dll
+- API-MS-Win-Core-Kernel32-Legacy-L1-1-3.dll
+- Kernel32Legacy.dll
+- API-MS-Win-Core-Kernel32-Legacy-L1-1-4.dll
+- API-MS-Win-Core-Kernel32-Legacy-L1-1-5.dll
 api_name:
- - CreateSymbolicLinkTransacted
- - CreateSymbolicLinkTransactedA
- - CreateSymbolicLinkTransactedW
+- CreateSymbolicLinkTransacted
+- CreateSymbolicLinkTransactedA
+- CreateSymbolicLinkTransactedW
 targetos: Windows
 req.typenames: 
 req.redist: 

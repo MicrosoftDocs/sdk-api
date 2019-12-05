@@ -1,19 +1,17 @@
 ---
 UID: NF:wingdi.GetPath
 title: GetPath function (wingdi.h)
-
 description: The GetPath function retrieves the coordinates defining the endpoints of lines and the control points of curves found in the path that is selected into the specified device context.
 old-location: gdi\getpath.htm
 tech.root: gdi
 ms.assetid: 2dc7736a-03fc-4623-a566-6c3e368da174
-
 ms.date: 12/05/2018
 ms.keywords: GetPath, GetPath function [Windows GDI], PT_BEZIERTO, PT_CLOSEFIGURE, PT_LINETO, PT_MOVETO, _win32_GetPath, gdi.getpath, wingdi/GetPath
 ms.topic: function
-f1_keywords: 
- - "wingdi/GetPath"
+f1_keywords:
+- wingdi/GetPath
 dev_langs:
- - c++
+- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - gdi32.dll
- - Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
- - GDI32Full.dll
+- gdi32.dll
+- Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
+- GDI32Full.dll
 api_name:
- - GetPath
+- GetPath
 targetos: Windows
 req.typenames: 
 req.redist: 

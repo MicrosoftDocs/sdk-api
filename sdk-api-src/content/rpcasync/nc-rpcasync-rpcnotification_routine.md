@@ -1,19 +1,17 @@
 ---
 UID: NC:rpcasync.RPCNOTIFICATION_ROUTINE
 title: RPCNOTIFICATION_ROUTINE (rpcasync.h)
-
 description: The RPCNOTIFICATION_ROUTINE function provides programs that utilize asynchronous RPC with the ability to customize responses to asynchronous events.
 old-location: rpc\rpcnotification_routine.htm
 tech.root: Rpc
 ms.assetid: 679d7a40-5803-4c18-950b-e6763cbf10f2
-
 ms.date: 12/05/2018
 ms.keywords: RPCNOTIFICATION_ROUTINE, RPCNOTIFICATION_ROUTINE callback, RPCNOTIFICATION_ROUTINE callback function [RPC], RpcnotificationRoutine, _rpc_rpcnotification_routine, rpc.rpcnotification_routine, rpcasync/RPCNOTIFICATION_ROUTINE
 ms.topic: callback
 f1_keywords:
 - rpcasync/RPCNOTIFICATION_ROUTINE
 dev_langs:
- - c++
+- c++
 req.header: rpcasync.h
 req.include-header: 
 req.target-type: Windows

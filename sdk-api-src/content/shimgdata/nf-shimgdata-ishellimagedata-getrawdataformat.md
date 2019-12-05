@@ -1,19 +1,17 @@
 ---
 UID: NF:shimgdata.IShellImageData.GetRawDataFormat
 title: IShellImageData::GetRawDataFormat (shimgdata.h)
-
 description: Retrieves a GUID that identifies the format of the image.
 old-location: shell\IShellImageData_GetRawDataFormat.htm
 tech.root: shell
 ms.assetid: c09c6833-501d-4f27-9d59-3ca9aed9d0d1
-
 ms.date: 12/05/2018
 ms.keywords: GetRawDataFormat, GetRawDataFormat method [Windows Shell], GetRawDataFormat method [Windows Shell],IShellImageData interface, IShellImageData interface [Windows Shell],GetRawDataFormat method, IShellImageData.GetRawDataFormat, IShellImageData::GetRawDataFormat, _shell_IShellImageData_GetRawDataFormat, shell.IShellImageData_GetRawDataFormat, shimgdata/IShellImageData::GetRawDataFormat
 ms.topic: method
-f1_keywords: 
- - "shimgdata/IShellImageData.GetRawDataFormat"
+f1_keywords:
+- shimgdata/IShellImageData.GetRawDataFormat
 dev_langs:
- - c++
+- c++
 req.header: shimgdata.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Shell32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - IShellImageData.GetRawDataFormat
+- IShellImageData.GetRawDataFormat
 targetos: Windows
 req.typenames: 
 req.redist: 

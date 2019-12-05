@@ -1,19 +1,17 @@
 ---
 UID: NF:wbemtime.WBEMTime.GetDMTFNonNtfs
 title: WBEMTime::GetDMTFNonNtfs (wbemtime.h)
-
 description: The GetDMTFNonNtfs method gets a DMTF date in a CIM Date and Time Format from a FAT that does not have time zones.
 old-location: wmi\wbemtime_getdmtfnonntfs.htm
 tech.root: WmiSdk
 ms.assetid: 40353352-da1f-44d8-a2c3-e6fd4639bd98
-
 ms.date: 12/05/2018
-ms.keywords: "?GetDMTFNonNtfs@WBEMTime@@QBEPAGXZ, ?GetDMTFNonNtfs@WBEMTime@@QEBAPEAGXZ, GetDMTFNonNtfs, GetDMTFNonNtfs method [Windows Management Instrumentation], GetDMTFNonNtfs method [Windows Management Instrumentation],WBEMTime interface, WBEMTime interface [Windows Management Instrumentation],GetDMTFNonNtfs method, WBEMTime.GetDMTFNonNtfs, WBEMTime::GetDMTFNonNtfs, _hmm_wbemtime_getdmtfnonntfs, wbemtime/WBEMTime::GetDMTFNonNtfs, wmi.wbemtime_getdmtfnonntfs"
+ms.keywords: ?GetDMTFNonNtfs@WBEMTime@@QBEPAGXZ, ?GetDMTFNonNtfs@WBEMTime@@QEBAPEAGXZ, GetDMTFNonNtfs, GetDMTFNonNtfs method [Windows Management Instrumentation], GetDMTFNonNtfs method [Windows Management Instrumentation],WBEMTime interface, WBEMTime interface [Windows Management Instrumentation],GetDMTFNonNtfs method, WBEMTime.GetDMTFNonNtfs, WBEMTime::GetDMTFNonNtfs, _hmm_wbemtime_getdmtfnonntfs, wbemtime/WBEMTime::GetDMTFNonNtfs, wmi.wbemtime_getdmtfnonntfs
 ms.topic: method
-f1_keywords: 
- - "wbemtime/WBEMTime.GetDMTFNonNtfs"
+f1_keywords:
+- wbemtime/WBEMTime.GetDMTFNonNtfs
 dev_langs:
- - c++
+- c++
 req.header: wbemtime.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib:
 req.dll: FrameDynOS.dll; FrameDyn.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - FrameDynOS.dll
- - FrameDyn.dll
+- FrameDynOS.dll
+- FrameDyn.dll
 api_name:
- - WBEMTime.GetDMTFNonNtfs
- - ?GetDMTFNonNtfs@WBEMTime@@QBEPAGXZ
- - ?GetDMTFNonNtfs@WBEMTime@@QEBAPEAGXZ
+- WBEMTime.GetDMTFNonNtfs
+- ?GetDMTFNonNtfs@WBEMTime@@QBEPAGXZ
+- ?GetDMTFNonNtfs@WBEMTime@@QEBAPEAGXZ
 targetos: Windows
 req.typenames: 
 req.redist: 

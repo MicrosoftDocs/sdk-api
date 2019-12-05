@@ -1,19 +1,17 @@
 ---
 UID: NF:rometadataapi.IMetaDataAssemblyImport.EnumFiles
 title: IMetaDataAssemblyImport::EnumFiles (rometadataapi.h)
-
 description: Enumerates the files referenced in the current assembly manifest.
 old-location: winrt\imetadataassemblyimport_enumfiles.htm
 tech.root: WinRT
 ms.assetid: 4039432e-bcf1-4460-8be7-9f02c250ecc6
-
 ms.date: 12/05/2018
 ms.keywords: EnumFiles, EnumFiles method [Windows Runtime], EnumFiles method [Windows Runtime],IMetaDataAssemblyImport interface, IMetaDataAssemblyImport interface [Windows Runtime],EnumFiles method, IMetaDataAssemblyImport.EnumFiles, IMetaDataAssemblyImport::EnumFiles, rometadataapi/IMetaDataAssemblyImport::EnumFiles, winrt.imetadataassemblyimport_enumfiles
 ms.topic: method
-f1_keywords: 
- - "rometadataapi/IMetaDataAssemblyImport.EnumFiles"
+f1_keywords:
+- rometadataapi/IMetaDataAssemblyImport.EnumFiles
 dev_langs:
- - c++
+- c++
 req.header: rometadataapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - rometadataapi.h
+- rometadataapi.h
 api_name:
- - IMetaDataAssemblyImport.EnumFiles
+- IMetaDataAssemblyImport.EnumFiles
 targetos: Windows
 req.typenames: 
 req.redist: 

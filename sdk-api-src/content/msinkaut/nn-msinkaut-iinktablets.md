@@ -1,19 +1,17 @@
 ---
 UID: NN:msinkaut.IInkTablets
 title: IInkTablets (msinkaut.h)
-
-description: "."
+description: .
 old-location: tablet\iinktablets.htm
 tech.root: tablet
 ms.assetid: 98052ECB-9385-45C9-A03C-3F312ADD9872
-
 ms.date: 12/05/2018
 ms.keywords: IInkTablets, IInkTablets interface [Tablet PC], IInkTablets interface [Tablet PC],described, msinkaut/IInkTablets, tablet.iinktablets
 ms.topic: interface
-f1_keywords: 
- - "msinkaut/IInkTablets"
+f1_keywords:
+- msinkaut/IInkTablets
 dev_langs:
- - c++
+- c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msinkaut.h
+- msinkaut.h
 api_name:
- - IInkTablets
+- IInkTablets
 targetos: Windows
 req.typenames: 
 req.redist: 

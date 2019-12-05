@@ -1,19 +1,17 @@
 ---
 UID: NF:iads.IADsAccessControlList.CopyAccessList
 title: IADsAccessControlList::CopyAccessList (iads.h)
-
 description: The IADsAccessControlList::CopyAccessList method copies every access control entry (ACE) in the access-control list (ACL) to the caller's process space.
 old-location: adsi\iadsaccesscontrollist_copyaccesslist.htm
 tech.root: adsi
 ms.assetid: 3f4c89ec-1144-4886-981a-75353d2dfe8b
-
 ms.date: 12/05/2018
 ms.keywords: CopyAccessList, CopyAccessList method [ADSI], CopyAccessList method [ADSI],IADsAccessControlList interface, IADsAccessControlList interface [ADSI],CopyAccessList method, IADsAccessControlList.CopyAccessList, IADsAccessControlList::CopyAccessList, _ds_iadsaccesscontrollist_copyaccesslist, adsi.iadsaccesscontrollist__copyaccesslist, adsi.iadsaccesscontrollist_copyaccesslist, iads/IADsAccessControlList::CopyAccessList
 ms.topic: method
-f1_keywords: 
- - "iads/IADsAccessControlList.CopyAccessList"
+f1_keywords:
+- iads/IADsAccessControlList.CopyAccessList
 dev_langs:
- - c++
+- c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Activeds.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Activeds.dll
+- Activeds.dll
 api_name:
- - IADsAccessControlList.CopyAccessList
+- IADsAccessControlList.CopyAccessList
 targetos: Windows
 req.typenames: 
 req.redist: 

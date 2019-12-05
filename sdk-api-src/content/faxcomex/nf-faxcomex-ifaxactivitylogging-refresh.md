@@ -1,19 +1,17 @@
 ---
 UID: NF:faxcomex.IFaxActivityLogging.Refresh
 title: IFaxActivityLogging::Refresh (faxcomex.h)
-
 description: The IFaxActivityLogging::Refresh method refreshes FaxActivityLogging object information from the fax server.
 old-location: fax\_mfax_faxactivitylogging_cpp_mfax_faxactivitylogging_refresh_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_1gko.htm
-
 ms.date: 12/05/2018
 ms.keywords: IFaxActivityLogging interface [Fax Service],Refresh method, IFaxActivityLogging.Refresh, IFaxActivityLogging::Refresh, Refresh, Refresh method [Fax Service], Refresh method [Fax Service],IFaxActivityLogging interface, _mfax_faxactivitylogging.refresh, fax._mfax_faxactivitylogging_cpp_mfax_faxactivitylogging_refresh_cpp, fax._mfax_faxactivitylogging_refresh, faxcomex/IFaxActivityLogging::Refresh
 ms.topic: method
-f1_keywords: 
- - "faxcomex/IFaxActivityLogging.Refresh"
+f1_keywords:
+- faxcomex/IFaxActivityLogging.Refresh
 dev_langs:
- - c++
+- c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: Fxscomex.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Fxscomex.dll
+- Fxscomex.dll
 api_name:
- - IFaxActivityLogging.Refresh
- - IFaxActivityLogging.Refresh
+- IFaxActivityLogging.Refresh
+- IFaxActivityLogging.Refresh
 targetos: Windows
 req.typenames: 
 req.redist: 

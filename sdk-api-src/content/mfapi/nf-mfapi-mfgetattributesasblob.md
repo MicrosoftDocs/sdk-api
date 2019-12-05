@@ -1,19 +1,17 @@
 ---
 UID: NF:mfapi.MFGetAttributesAsBlob
 title: MFGetAttributesAsBlob function (mfapi.h)
-
 description: Converts the contents of an attribute store to a byte array.
 old-location: mf\mfgetattributesasblob.htm
 tech.root: medfound
 ms.assetid: 1a3bd860-1022-481f-8615-5a73c16dd77b
-
 ms.date: 12/05/2018
 ms.keywords: 1a3bd860-1022-481f-8615-5a73c16dd77b, MFGetAttributesAsBlob, MFGetAttributesAsBlob function [Media Foundation], mf.mfgetattributesasblob, mfapi/MFGetAttributesAsBlob
 ms.topic: function
-f1_keywords: 
- - "mfapi/MFGetAttributesAsBlob"
+f1_keywords:
+- mfapi/MFGetAttributesAsBlob
 dev_langs:
- - c++
+- c++
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Mfplat.lib
 req.dll: Mfplat.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - mfplat.dll
+- mfplat.dll
 api_name:
- - MFGetAttributesAsBlob
+- MFGetAttributesAsBlob
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:webapplication.IWebApplicationNavigationEvents.DownloadBegin
 title: IWebApplicationNavigationEvents::DownloadBegin (webapplication.h)
-
 description: Download of a page has started.
 old-location: debug\iwebapplicationnavigationevents_downloadbegin.htm
 tech.root: debug_wwahost
 ms.assetid: 2f38f6d2-19a3-4c19-9670-7fd766b90bd3
-
 ms.date: 12/05/2018
 ms.keywords: DownloadBegin, DownloadBegin method [Debugging Windows Store apps], DownloadBegin method [Debugging Windows Store apps],IWebApplicationNavigationEvents interface, IWebApplicationNavigationEvents interface [Debugging Windows Store apps],DownloadBegin method, IWebApplicationNavigationEvents.DownloadBegin, IWebApplicationNavigationEvents::DownloadBegin, debug.iwebapplicationnavigationevents_downloadbegin, webapplication/IWebApplicationNavigationEvents::DownloadBegin
 ms.topic: method
-f1_keywords: 
- - "webapplication/IWebApplicationNavigationEvents.DownloadBegin"
+f1_keywords:
+- webapplication/IWebApplicationNavigationEvents.DownloadBegin
 dev_langs:
- - c++
+- c++
 req.header: webapplication.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - webapplication.h
+- webapplication.h
 api_name:
- - IWebApplicationNavigationEvents.DownloadBegin
+- IWebApplicationNavigationEvents.DownloadBegin
 targetos: Windows
 req.typenames: 
 req.redist: 

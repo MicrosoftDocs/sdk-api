@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl.IHWEventHandler.Initialize
 title: IHWEventHandler::Initialize (shobjidl.h)
-
 description: Initializes an object that contains an implementation of the IHWEventHandler interface.
 old-location: shell\IHWEventHandler_Initialize.htm
 tech.root: shell
 ms.assetid: 96eb582a-4f32-4e13-ad01-8b5ffabab582
-
 ms.date: 12/05/2018
 ms.keywords: IHWEventHandler interface [Windows Shell],Initialize method, IHWEventHandler.Initialize, IHWEventHandler::Initialize, Initialize, Initialize method [Windows Shell], Initialize method [Windows Shell],IHWEventHandler interface, inet_IHWEventHandler_Initialize, shell.IHWEventHandler_Initialize, shobjidl/IHWEventHandler::Initialize
 ms.topic: method
-f1_keywords: 
- - "shobjidl/IHWEventHandler.Initialize"
+f1_keywords:
+- shobjidl/IHWEventHandler.Initialize
 dev_langs:
- - c++
+- c++
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Shimgvw.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shimgvw.dll
+- Shimgvw.dll
 api_name:
- - IHWEventHandler.Initialize
+- IHWEventHandler.Initialize
 targetos: Windows
 req.typenames: 
 req.redist: 

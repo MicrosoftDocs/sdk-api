@@ -1,19 +1,17 @@
 ---
 UID: NF:ncrypt.NCryptExportKey
 title: NCryptExportKey function (ncrypt.h)
-
 description: Exports a CNG key to a memory BLOB.
 old-location: security\ncryptexportkey_func.htm
 tech.root: SecCNG
 ms.assetid: 1588eb29-4026-4d1c-8bee-a035df38444a
-
 ms.date: 12/05/2018
 ms.keywords: BCRYPT_DH_PRIVATE_BLOB, BCRYPT_DH_PUBLIC_BLOB, BCRYPT_DSA_PRIVATE_BLOB, BCRYPT_DSA_PUBLIC_BLOB, BCRYPT_ECCPRIVATE_BLOB, BCRYPT_ECCPUBLIC_BLOB, BCRYPT_PRIVATE_KEY_BLOB, BCRYPT_PUBLIC_KEY_BLOB, BCRYPT_RSAFULLPRIVATE_BLOB, BCRYPT_RSAPRIVATE_BLOB, BCRYPT_RSAPUBLIC_BLOB, LEGACY_DH_PRIVATE_BLOB, LEGACY_DH_PUBLIC_BLOB, LEGACY_DSA_PRIVATE_BLOB, LEGACY_DSA_PUBLIC_BLOB, LEGACY_RSAPRIVATE_BLOB, LEGACY_RSAPUBLIC_BLOB, NCRYPT_CIPHER_KEY_BLOB, NCRYPT_OPAQUETRANSPORT_BLOB, NCRYPT_PKCS7_ENVELOPE_BLOB, NCRYPT_PKCS8_PRIVATE_KEY_BLOB, NCRYPT_PROTECTED_KEY_BLOB, NCRYPT_SILENT_FLAG, NCryptExportKey, NCryptExportKey function [Security], ncrypt/NCryptExportKey, security.ncryptexportkey_func
 ms.topic: function
 f1_keywords:
 - ncrypt/NCryptExportKey
 dev_langs:
- - c++
+- c++
 req.header: ncrypt.h
 req.include-header: 
 req.target-type: Windows

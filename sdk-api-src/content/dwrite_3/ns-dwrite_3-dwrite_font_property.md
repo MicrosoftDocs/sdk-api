@@ -1,19 +1,17 @@
 ---
 UID: NS:dwrite_3.DWRITE_FONT_PROPERTY
 title: DWRITE_FONT_PROPERTY (dwrite_3.h)
-
 description: Font property used for filtering font sets and building a font set with explicit properties.
 old-location: directwrite\dwrite_font_property.htm
 tech.root: DirectWrite
 ms.assetid: C169B175-74FD-423A-8E0A-DC50314D75E6
-
 ms.date: 12/05/2018
 ms.keywords: DWRITE_FONT_PROPERTY, DWRITE_FONT_PROPERTY structure [Direct Write], directwrite.dwrite_font_property, dwrite_3/DWRITE_FONT_PROPERTY
 ms.topic: struct
-f1_keywords: 
- - "dwrite_3/DWRITE_FONT_PROPERTY"
+f1_keywords:
+- dwrite_3/DWRITE_FONT_PROPERTY
 dev_langs:
- - c++
+- c++
 req.header: dwrite_3.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - dwrite_3.h
+- dwrite_3.h
 api_name:
- - DWRITE_FONT_PROPERTY
+- DWRITE_FONT_PROPERTY
 targetos: Windows
 req.typenames: 
 req.redist: 

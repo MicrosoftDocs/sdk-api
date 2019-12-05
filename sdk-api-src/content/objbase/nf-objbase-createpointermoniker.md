@@ -1,19 +1,17 @@
 ---
 UID: NF:objbase.CreatePointerMoniker
 title: CreatePointerMoniker function (objbase.h)
-
 description: Creates a pointer moniker based on a pointer to an object.
 old-location: com\createpointermoniker.htm
 tech.root: com
 ms.assetid: d4d40fd5-6035-4ddc-a443-01d32dcf4bca
-
 ms.date: 12/05/2018
 ms.keywords: CreatePointerMoniker, CreatePointerMoniker function [COM], _com_CreatePointerMoniker, com.createpointermoniker, objbase/CreatePointerMoniker
 ms.topic: function
-f1_keywords: 
- - "objbase/CreatePointerMoniker"
+f1_keywords:
+- objbase/CreatePointerMoniker
 dev_langs:
- - c++
+- c++
 req.header: objbase.h
 req.include-header: 
 req.target-type: Windows
@@ -32,19 +30,19 @@ req.lib: Ole32.lib
 req.dll: Ole32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ole32.dll
- - Ext-MS-Win-COM-OLE32-l1-1-0.dll
- - Ext-MS-Win-COM-OLE32-l1-1-1.dll
- - Ext-MS-Win-COM-OLE32-l1-1-2.dll
- - ext-ms-win-com-ole32-l1-1-3.dll
- - Ext-MS-Win-Com-Ole32-L1-1-4.dll
+- Ole32.dll
+- Ext-MS-Win-COM-OLE32-l1-1-0.dll
+- Ext-MS-Win-COM-OLE32-l1-1-1.dll
+- Ext-MS-Win-COM-OLE32-l1-1-2.dll
+- ext-ms-win-com-ole32-l1-1-3.dll
+- Ext-MS-Win-Com-Ole32-L1-1-4.dll
 api_name:
- - CreatePointerMoniker
+- CreatePointerMoniker
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:msctf.ITfContextOwner.GetStatus
 title: ITfContextOwner::GetStatus (msctf.h)
-
 description: The ITfContextOwner::GetStatus method obtains the status of a document. The document status is returned through the TS_STATUS structure.
 old-location: tsf\itfcontextowner_getstatus.htm
 tech.root: TSF
 ms.assetid: ce30ec8a-48fe-4ec7-a7e1-2a0cf084097d
-
 ms.date: 12/05/2018
 ms.keywords: GetStatus, GetStatus method [Text Services Framework], GetStatus method [Text Services Framework],ITfContextOwner interface, ITfContextOwner interface [Text Services Framework],GetStatus method, ITfContextOwner.GetStatus, ITfContextOwner::GetStatus, _tsf_itfcontextowner_getstatus_ref, msctf/ITfContextOwner::GetStatus, tsf.itfcontextowner_getstatus
 ms.topic: method
-f1_keywords: 
- - "msctf/ITfContextOwner.GetStatus"
+f1_keywords:
+- msctf/ITfContextOwner.GetStatus
 dev_langs:
- - c++
+- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msimtf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msimtf.dll
+- msimtf.dll
 api_name:
- - ITfContextOwner.GetStatus
+- ITfContextOwner.GetStatus
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

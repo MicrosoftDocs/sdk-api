@@ -1,19 +1,17 @@
 ---
 UID: NF:rdpencomapi.IRDPSRAPIApplication.get_Id
 title: IRDPSRAPIApplication::get_Id (rdpencomapi.h)
-
 description: The application identifier.
 old-location: rdp\irdpsrapiapplication_id.htm
 tech.root: rdp
 ms.assetid: 036a882d-9572-4b88-ad78-962251140a27
-
 ms.date: 12/05/2018
 ms.keywords: IRDPSRAPIApplication interface [RDP],Id property, IRDPSRAPIApplication.Id, IRDPSRAPIApplication.get_Id, IRDPSRAPIApplication::Id, IRDPSRAPIApplication::get_Id, Id property [RDP], Id property [RDP],IRDPSRAPIApplication interface, Id property [RDP],RDPSRAPIApplication object, RDPSRAPIApplication object [RDP],Id property, get_Id, rdp.irdpsrapiapplication_id, rdpencomapi/IRDPSRAPIApplication::Id, rdpencomapi/IRDPSRAPIApplication::get_Id
 ms.topic: method
-f1_keywords: 
- - "rdpencomapi/IRDPSRAPIApplication.Id"
+f1_keywords:
+- rdpencomapi/IRDPSRAPIApplication.Id
 dev_langs:
- - c++
+- c++
 req.header: rdpencomapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: RdpEncom.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - RdpEncom.dll
+- RdpEncom.dll
 api_name:
- - IRDPSRAPIApplication.Id
- - IRDPSRAPIApplication.get_Id
- - RDPSRAPIApplication.Id
+- IRDPSRAPIApplication.Id
+- IRDPSRAPIApplication.get_Id
+- RDPSRAPIApplication.Id
 targetos: Windows
 req.typenames: 
 req.redist: 

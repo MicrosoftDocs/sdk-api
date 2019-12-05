@@ -1,19 +1,17 @@
 ---
 UID: NF:wbemprov.IWbemHiPerfProvider.CreateRefreshableObject
 title: IWbemHiPerfProvider::CreateRefreshableObject (wbemprov.h)
-
 description: Requests a refreshable instance object.
 old-location: wmi\iwbemhiperfprovider_createrefreshableobject.htm
 tech.root: WmiSdk
 ms.assetid: 1eb414e0-cdf6-4caa-88a5-8da17a32449c
-
 ms.date: 12/05/2018
 ms.keywords: CreateRefreshableObject, CreateRefreshableObject method [Windows Management Instrumentation], CreateRefreshableObject method [Windows Management Instrumentation],IWbemHiPerfProvider interface, IWbemHiPerfProvider interface [Windows Management Instrumentation],CreateRefreshableObject method, IWbemHiPerfProvider.CreateRefreshableObject, IWbemHiPerfProvider::CreateRefreshableObject, _hmm_iwbemhiperfprovider_createrefreshableobject, wbemprov/IWbemHiPerfProvider::CreateRefreshableObject, wmi.iwbemhiperfprovider_createrefreshableobject
 ms.topic: method
-f1_keywords: 
- - "wbemprov/IWbemHiPerfProvider.CreateRefreshableObject"
+f1_keywords:
+- wbemprov/IWbemHiPerfProvider.CreateRefreshableObject
 dev_langs:
- - c++
+- c++
 req.header: wbemprov.h
 req.include-header: Wbemidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Wbemuuid.lib
 req.dll: Wmiprvsd.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wmiprvsd.dll
+- Wmiprvsd.dll
 api_name:
- - IWbemHiPerfProvider.CreateRefreshableObject
+- IWbemHiPerfProvider.CreateRefreshableObject
 targetos: Windows
 req.typenames: 
 req.redist: 

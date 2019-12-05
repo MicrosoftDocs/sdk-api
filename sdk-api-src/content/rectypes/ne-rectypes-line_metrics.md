@@ -1,19 +1,17 @@
 ---
 UID: NE:rectypes.enumLINE_METRICS
 title: LINE_METRICS (rectypes.h)
-
 description: Represents the lines found in a recognition segment.
 old-location: tablet\line_metrics.htm
 tech.root: tablet
 ms.assetid: 1317badb-38e1-41fe-9918-c28da88aa511
-
 ms.date: 12/05/2018
 ms.keywords: 1317badb-38e1-41fe-9918-c28da88aa511, LINE_METRICS, LINE_METRICS enumeration [Tablet PC], LM_ASCENDER, LM_BASELINE, LM_DESCENDER, LM_MIDLINE, rectypes/LINE_METRICS, rectypes/LM_ASCENDER, rectypes/LM_BASELINE, rectypes/LM_DESCENDER, rectypes/LM_MIDLINE, tablet.line_metrics
 ms.topic: enum
-f1_keywords: 
- - "rectypes/LINE_METRICS"
+f1_keywords:
+- rectypes/LINE_METRICS
 dev_langs:
- - c++
+- c++
 req.header: rectypes.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - rectypes.h
+- rectypes.h
 api_name:
- - LINE_METRICS
+- LINE_METRICS
 targetos: Windows
 req.typenames: LINE_METRICS
 req.redist: 

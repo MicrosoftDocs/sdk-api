@@ -1,19 +1,17 @@
 ---
 UID: NF:wiavideo.IWiaVideo.DestroyVideo
 title: IWiaVideo::DestroyVideo (wiavideo.h)
-
 description: The IWiaVideo::DestroyVideo method shuts down the streaming video. To restart video playback, the application must call one of the IWiaVideo CreateVideo methods again.
 old-location: wia\_wia_IWiaVideo_DestroyVideo.htm
 tech.root: wia
 ms.assetid: VS|wia|~\wia\refwia\ifaces\iwiavideo\destroyvideo.htm
-
 ms.date: 12/05/2018
 ms.keywords: DestroyVideo, DestroyVideo method [WIA], DestroyVideo method [WIA],IWiaVideo interface, IWiaVideo interface [WIA],DestroyVideo method, IWiaVideo.DestroyVideo, IWiaVideo::DestroyVideo, _wia_IWiaVideo_DestroyVideo, wia._wia_IWiaVideo_DestroyVideo, wiavideo/IWiaVideo::DestroyVideo
 ms.topic: method
-f1_keywords: 
- - "wiavideo/IWiaVideo.DestroyVideo"
+f1_keywords:
+- wiavideo/IWiaVideo.DestroyVideo
 dev_langs:
- - c++
+- c++
 req.header: wiavideo.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wiavideo.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wiavideo.dll
+- Wiavideo.dll
 api_name:
- - IWiaVideo.DestroyVideo
+- IWiaVideo.DestroyVideo
 targetos: Windows
 req.typenames: 
 req.redist: 

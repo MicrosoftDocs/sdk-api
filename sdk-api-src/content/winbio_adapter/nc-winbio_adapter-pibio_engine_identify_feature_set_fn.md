@@ -1,19 +1,17 @@
 ---
 UID: NC:winbio_adapter.PIBIO_ENGINE_IDENTIFY_FEATURE_SET_FN
 title: PIBIO_ENGINE_IDENTIFY_FEATURE_SET_FN (winbio_adapter.h)
-
 description: Builds a template from the current feature set and locates a matching template in the database.
 old-location: secbiomet\engineadapteridentifyfeatureset.htm
 tech.root: SecBioMet
 ms.assetid: 838f839d-0bb0-4194-b0a2-ad6936d7b0e4
-
 ms.date: 12/05/2018
 ms.keywords: EngineAdapterIdentifyFeatureSet, EngineAdapterIdentifyFeatureSet callback function [Windows Biometric Framework API], PIBIO_ENGINE_IDENTIFY_FEATURE_SET_FN, PIBIO_ENGINE_IDENTIFY_FEATURE_SET_FN callback, secbiomet.engineadapteridentifyfeatureset, winbio_adapter/EngineAdapterIdentifyFeatureSet
 ms.topic: callback
 f1_keywords:
 - winbio_adapter/EngineAdapterIdentifyFeatureSet
 dev_langs:
- - c++
+- c++
 req.header: winbio_adapter.h
 req.include-header: Winbio_adapter.h
 req.target-type: Windows

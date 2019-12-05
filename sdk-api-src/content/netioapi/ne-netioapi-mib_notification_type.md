@@ -1,19 +1,17 @@
 ---
 UID: NE:netioapi._MIB_NOTIFICATION_TYPE
 title: MIB_NOTIFICATION_TYPE (netioapi.h)
-
 description: Defines the notification type passed to a callback function when a notification occurs.
 old-location: mib\mib_notification_type.htm
 tech.root: MIB
 ms.assetid: 89f6a923-d745-4f9f-82d4-c77ffc8389cd
-
 ms.date: 12/05/2018
-ms.keywords: "*PMIB_NOTIFICATION_TYPE, MIB_NOTIFICATION_TYPE, MIB_NOTIFICATION_TYPE enumeration [MIB], MibAddInstance, MibDeleteInstance, MibInitialNotification, MibParameterNotification, PMIB_NOTIFICATION_TYPE, PMIB_NOTIFICATION_TYPE enumeration pointer [MIB], _MIB_NOTIFICATION_TYPE, mib.mib_notification_type, netioapi/MIB_NOTIFICATION_TYPE, netioapi/MibAddInstance, netioapi/MibDeleteInstance, netioapi/MibInitialNotification, netioapi/MibParameterNotification, netioapi/PMIB_NOTIFICATION_TYPE"
+ms.keywords: '*PMIB_NOTIFICATION_TYPE, MIB_NOTIFICATION_TYPE, MIB_NOTIFICATION_TYPE enumeration [MIB], MibAddInstance, MibDeleteInstance, MibInitialNotification, MibParameterNotification, PMIB_NOTIFICATION_TYPE, PMIB_NOTIFICATION_TYPE enumeration pointer [MIB], _MIB_NOTIFICATION_TYPE, mib.mib_notification_type, netioapi/MIB_NOTIFICATION_TYPE, netioapi/MibAddInstance, netioapi/MibDeleteInstance, netioapi/MibInitialNotification, netioapi/MibParameterNotification, netioapi/PMIB_NOTIFICATION_TYPE'
 ms.topic: enum
-f1_keywords: 
- - "netioapi/MIB_NOTIFICATION_TYPE"
+f1_keywords:
+- netioapi/MIB_NOTIFICATION_TYPE
 dev_langs:
- - c++
+- c++
 req.header: netioapi.h
 req.include-header: Iphlpapi.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Netioapi.h
+- Netioapi.h
 api_name:
- - MIB_NOTIFICATION_TYPE
+- MIB_NOTIFICATION_TYPE
 targetos: Windows
 req.typenames: MIB_NOTIFICATION_TYPE, *PMIB_NOTIFICATION_TYPE
 req.redist: 

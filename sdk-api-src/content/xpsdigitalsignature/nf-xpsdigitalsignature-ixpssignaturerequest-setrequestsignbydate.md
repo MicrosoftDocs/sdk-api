@@ -1,19 +1,17 @@
 ---
 UID: NF:xpsdigitalsignature.IXpsSignatureRequest.SetRequestSignByDate
 title: IXpsSignatureRequest::SetRequestSignByDate (xpsdigitalsignature.h)
-
 description: Sets the date and time before which the requested signer must sign the specified parts of the document.
 old-location: xps\ixpssignaturerequest_setrequestsignbydate.htm
 tech.root: printdocs
 ms.assetid: b7048b34-17f8-4df4-b1c6-6c6e6250f02a
-
 ms.date: 12/05/2018
 ms.keywords: IXpsSignatureRequest interface [XPS Documents and Packaging],SetRequestSignByDate method, IXpsSignatureRequest.SetRequestSignByDate, IXpsSignatureRequest::SetRequestSignByDate, SetRequestSignByDate, SetRequestSignByDate method [XPS Documents and Packaging], SetRequestSignByDate method [XPS Documents and Packaging],IXpsSignatureRequest interface, xps.ixpssignaturerequest_setrequestsignbydate, xpsdigitalsignature/IXpsSignatureRequest::SetRequestSignByDate
 ms.topic: method
-f1_keywords: 
- - "xpsdigitalsignature/IXpsSignatureRequest.SetRequestSignByDate"
+f1_keywords:
+- xpsdigitalsignature/IXpsSignatureRequest.SetRequestSignByDate
 dev_langs:
- - c++
+- c++
 req.header: xpsdigitalsignature.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsdigitalsignature.h
+- xpsdigitalsignature.h
 api_name:
- - IXpsSignatureRequest.SetRequestSignByDate
+- IXpsSignatureRequest.SetRequestSignByDate
 targetos: Windows
 req.typenames: 
 req.redist: 

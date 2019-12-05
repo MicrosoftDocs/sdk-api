@@ -1,19 +1,17 @@
 ---
 UID: NF:mpeg2data.IMpeg2TableFilter.RemoveTable
 title: IMpeg2TableFilter::RemoveTable (mpeg2data.h)
-
 description: The RemoveTable method removes a table identifier (TID) from the list of MPEG-2 table sections that the filter sends.
 old-location: mstv\impeg2tablefilter_removetable.htm
 tech.root: mstv
 ms.assetid: b8875340-48cf-47eb-a7cc-58e181df37fb
-
 ms.date: 12/05/2018
 ms.keywords: IMpeg2TableFilter interface [Microsoft TV Technologies],RemoveTable method, IMpeg2TableFilter.RemoveTable, IMpeg2TableFilter::RemoveTable, IMpeg2TableFilterRemoveTable, RemoveTable, RemoveTable method [Microsoft TV Technologies], RemoveTable method [Microsoft TV Technologies],IMpeg2TableFilter interface, mpeg2data/IMpeg2TableFilter::RemoveTable, mstv.impeg2tablefilter_removetable
 ms.topic: method
-f1_keywords: 
- - "mpeg2data/IMpeg2TableFilter.RemoveTable"
+f1_keywords:
+- mpeg2data/IMpeg2TableFilter.RemoveTable
 dev_langs:
- - c++
+- c++
 req.header: mpeg2data.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mpeg2data.h
+- Mpeg2data.h
 api_name:
- - IMpeg2TableFilter.RemoveTable
+- IMpeg2TableFilter.RemoveTable
 targetos: Windows
 req.typenames: 
 req.redist: 

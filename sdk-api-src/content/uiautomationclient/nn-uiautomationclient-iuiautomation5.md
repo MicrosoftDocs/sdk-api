@@ -1,19 +1,17 @@
 ---
 UID: NN:uiautomationclient.IUIAutomation5
 title: IUIAutomation5 (uiautomationclient.h)
-
 description: Extends the IUIAutomation4 interface to expose additional methods for controlling Microsoft UI Automation functionality.
 old-location: winauto\uiauto_IUIAutomation5.htm
 tech.root: WinAuto
 ms.assetid: BCF67DB0-DF5B-4CED-9C32-01F126494129
-
 ms.date: 12/05/2018
 ms.keywords: IUIAutomation5, IUIAutomation5 interface [Windows Accessibility], IUIAutomation5 interface [Windows Accessibility],described, uiautomationclient/IUIAutomation5, winauto.uiauto_IUIAutomation5
 ms.topic: interface
-f1_keywords: 
- - "uiautomationclient/IUIAutomation5"
+f1_keywords:
+- uiautomationclient/IUIAutomation5
 dev_langs:
- - c++
+- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: UIAutomationCore.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationCore.dll
+- UIAutomationCore.dll
 api_name:
- - IUIAutomation5
+- IUIAutomation5
 targetos: Windows
 req.typenames: 
 req.redist: 

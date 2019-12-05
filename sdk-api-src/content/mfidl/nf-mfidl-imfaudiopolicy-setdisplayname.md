@@ -1,19 +1,17 @@
 ---
 UID: NF:mfidl.IMFAudioPolicy.SetDisplayName
 title: IMFAudioPolicy::SetDisplayName (mfidl.h)
-
 description: Sets the display name of the audio session. The Windows volume control displays this name.
 old-location: mf\imfaudiopolicy_setdisplayname.htm
 tech.root: medfound
 ms.assetid: 4cd48400-8d12-4a6b-95fd-bf6ae7700cb8
-
 ms.date: 12/05/2018
 ms.keywords: 4cd48400-8d12-4a6b-95fd-bf6ae7700cb8, IMFAudioPolicy interface [Media Foundation],SetDisplayName method, IMFAudioPolicy.SetDisplayName, IMFAudioPolicy::SetDisplayName, SetDisplayName, SetDisplayName method [Media Foundation], SetDisplayName method [Media Foundation],IMFAudioPolicy interface, mf.imfaudiopolicy_setdisplayname, mfidl/IMFAudioPolicy::SetDisplayName
 ms.topic: method
-f1_keywords: 
- - "mfidl/IMFAudioPolicy.SetDisplayName"
+f1_keywords:
+- mfidl/IMFAudioPolicy.SetDisplayName
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFAudioPolicy.SetDisplayName
+- IMFAudioPolicy.SetDisplayName
 targetos: Windows
 req.typenames: 
 req.redist: 

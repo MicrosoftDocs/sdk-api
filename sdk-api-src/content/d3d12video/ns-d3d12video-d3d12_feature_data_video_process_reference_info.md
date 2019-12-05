@@ -1,40 +1,38 @@
 ---
 UID: NS:d3d12video.D3D12_FEATURE_DATA_VIDEO_PROCESS_REFERENCE_INFO
 title: D3D12_FEATURE_DATA_VIDEO_PROCESS_REFERENCE_INFO
-
 description: Retrieves the number of past and future reference frames required for the specified deinterlace mode, filter, rate conversion, or auto processing features.
 tech.root: mf
 ms.assetid: 4d1ee0ed-59a3-4a6d-b636-9fb0bd3e5141
-
-ms.date: 05/28/2019 
+ms.date: 05/28/2019
 ms.topic: struct
 f1_keywords:
- - D3D12_FEATURE_DATA_VIDEO_PROCESS_REFERENCE_INFO
+- D3D12_FEATURE_DATA_VIDEO_PROCESS_REFERENCE_INFO
 dev_langs:
- - c++
-ms.keywords: D3D12_FEATURE_DATA_VIDEO_PROCESS_REFERENCE_INFO, D3D12_FEATURE_DATA_VIDEO_PROCESS_REFERENCE_INFO, 
+- c++
+ms.keywords: D3D12_FEATURE_DATA_VIDEO_PROCESS_REFERENCE_INFO, D3D12_FEATURE_DATA_VIDEO_PROCESS_REFERENCE_INFO,
 req.header: d3d12video.h
-req.include-header:
-req.redist:
-req.target-type:
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
+req.include-header: 
+req.redist: 
+req.target-type: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
 req.dll: d3d12.dll
-req.ddi-compliance:
-req.unicode-ansi:
-req.max-support:
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.max-support: 
 req.typenames: D3D12_FEATURE_DATA_VIDEO_PROCESS_REFERENCE_INFO
-topic_type: 
- - apiref
-api_type: 
- - HeaderDef
-api_location: 
- - d3d12video.h
-api_name: 
- - D3D12_FEATURE_DATA_VIDEO_PROCESS_REFERENCE_INFO
+topic_type:
+- apiref
+api_type:
+- HeaderDef
+api_location:
+- d3d12video.h
+api_name:
+- D3D12_FEATURE_DATA_VIDEO_PROCESS_REFERENCE_INFO
 targetos: Windows
 ---
 

@@ -1,19 +1,17 @@
 ---
 UID: NF:imapi2.IDiscFormat2Data.get_RequestedWriteSpeed
 title: IDiscFormat2Data::get_RequestedWriteSpeed (imapi2.h)
-
 description: Retrieves the requested write speed.
 old-location: imapi\idiscformat2data_get_requestedwritespeed.htm
 tech.root: imapi
 ms.assetid: 7db85ce1-ff93-4bda-8245-3ffe85e835d3
-
 ms.date: 12/05/2018
 ms.keywords: IDiscFormat2Data interface [IMAPI],get_RequestedWriteSpeed method, IDiscFormat2Data.get_RequestedWriteSpeed, IDiscFormat2Data::get_RequestedWriteSpeed, get_RequestedWriteSpeed, get_RequestedWriteSpeed method [IMAPI], get_RequestedWriteSpeed method [IMAPI],IDiscFormat2Data interface, imapi.idiscformat2data_get_requestedwritespeed, imapi2/IDiscFormat2Data::get_RequestedWriteSpeed
 ms.topic: method
-f1_keywords: 
- - "imapi2/IDiscFormat2Data.get_RequestedWriteSpeed"
+f1_keywords:
+- imapi2/IDiscFormat2Data.get_RequestedWriteSpeed
 dev_langs:
- - c++
+- c++
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - imapi2.h
+- imapi2.h
 api_name:
- - IDiscFormat2Data.get_RequestedWriteSpeed
+- IDiscFormat2Data.get_RequestedWriteSpeed
 targetos: Windows
 req.typenames: 
 req.redist: 

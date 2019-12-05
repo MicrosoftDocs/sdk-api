@@ -1,19 +1,17 @@
 ---
 UID: NF:winbase.WritePrivateProfileStringW
 title: WritePrivateProfileStringW function (winbase.h)
-
 description: Copies a string into the specified section of an initialization file.
 old-location: base\writeprivateprofilestring.htm
 tech.root: SysInfo
 ms.assetid: f0799092-c6c1-4800-a17a-fcf744b1228f
-
 ms.date: 12/05/2018
 ms.keywords: WritePrivateProfileString, WritePrivateProfileString function, WritePrivateProfileStringA, WritePrivateProfileStringW, _win32_writeprivateprofilestring, base.writeprivateprofilestring, winbase/WritePrivateProfileString, winbase/WritePrivateProfileStringA, winbase/WritePrivateProfileStringW
 ms.topic: function
-f1_keywords: 
- - "winbase/WritePrivateProfileString"
+f1_keywords:
+- winbase/WritePrivateProfileString
 dev_langs:
- - c++
+- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,20 +30,20 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-Privateprofile-l1-1-0.dll
- - kernel32legacy.dll
- - API-MS-Win-Core-Privateprofile-l1-1-1.dll
- - API-MS-Win-DownLevel-Kernel32-l2-1-0.dll
+- Kernel32.dll
+- API-MS-Win-Core-Privateprofile-l1-1-0.dll
+- kernel32legacy.dll
+- API-MS-Win-Core-Privateprofile-l1-1-1.dll
+- API-MS-Win-DownLevel-Kernel32-l2-1-0.dll
 api_name:
- - WritePrivateProfileString
- - WritePrivateProfileStringA
- - WritePrivateProfileStringW
+- WritePrivateProfileString
+- WritePrivateProfileStringA
+- WritePrivateProfileStringW
 targetos: Windows
 req.typenames: 
 req.redist: 

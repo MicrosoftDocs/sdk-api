@@ -1,19 +1,17 @@
 ---
 UID: NF:msaatext.IVersionInfo.GetImplementationID
 title: IVersionInfo::GetImplementationID (msaatext.h)
-
 description: Clients call IVersionInfo::GetImplementationID to retrieve a unique identifier for the component.
 old-location: winauto\iversioninfo_iversioninfo__getimplementationid.htm
 tech.root: WinAuto
 ms.assetid: 018834df-bd03-4bf5-8af2-b325f7a6a586
-
 ms.date: 12/05/2018
 ms.keywords: GetImplementationID, GetImplementationID method [Windows Accessibility], GetImplementationID method [Windows Accessibility],IVersionInfo interface, IVersionInfo interface [Windows Accessibility],GetImplementationID method, IVersionInfo.GetImplementationID, IVersionInfo::GetImplementationID, _msaa_IVersionInfo_GetImplementationID, msaa.iversioninfo_iversioninfo__getimplementationid, msaatext/IVersionInfo::GetImplementationID, winauto.iversioninfo_iversioninfo__getimplementationid
 ms.topic: method
-f1_keywords: 
- - "msaatext/IVersionInfo.GetImplementationID"
+f1_keywords:
+- msaatext/IVersionInfo.GetImplementationID
 dev_langs:
- - c++
+- c++
 req.header: msaatext.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msaatext.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msaatext.dll
+- msaatext.dll
 api_name:
- - IVersionInfo.GetImplementationID
+- IVersionInfo.GetImplementationID
 targetos: Windows
 req.typenames: 
 req.redist: Active Accessibility 2.0 RDK on Windows NT 4.0 with SP6 and later and Windows 98

@@ -1,19 +1,17 @@
 ---
 UID: NF:netcon.INetConnection.Delete
 title: INetConnection::Delete (netcon.h)
-
 description: The Delete method deletes this connection from connections folder.
 old-location: ics\inetconnection_delete.htm
 tech.root: ics
 ms.assetid: d2179872-da9b-4d89-b6e9-b318d304b15d
-
 ms.date: 12/05/2018
 ms.keywords: Delete, Delete method [ICS/ICF], Delete method [ICS/ICF],INetConnection interface, INetConnection interface [ICS/ICF],Delete method, INetConnection.Delete, INetConnection::Delete, _ics_inetconnection_delete, ics.inetconnection_delete, netcon/INetConnection::Delete
 ms.topic: method
-f1_keywords: 
- - "netcon/INetConnection.Delete"
+f1_keywords:
+- netcon/INetConnection.Delete
 dev_langs:
- - c++
+- c++
 req.header: netcon.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Hnetcfg.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Hnetcfg.dll
+- Hnetcfg.dll
 api_name:
- - INetConnection.Delete
+- INetConnection.Delete
 targetos: Windows
 req.typenames: 
 req.redist: 

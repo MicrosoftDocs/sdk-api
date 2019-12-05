@@ -1,19 +1,17 @@
 ---
 UID: NF:d2d1_1.ID2D1DeviceContext.CreateGradientStopCollection
 title: ID2D1DeviceContext::CreateGradientStopCollection (d2d1_1.h)
-
 description: Creates a gradient stop collection, enabling the gradient to contain color channels with values outside of [0,1] and also enabling rendering to a high-color render target with interpolation in sRGB space.
 old-location: direct2d\id2d1devicecontext_creategradientstopcollection.htm
 tech.root: Direct2D
 ms.assetid: 6374fc62-1f54-4112-8ba3-9c1167bf8685
-
 ms.date: 12/05/2018
 ms.keywords: CreateGradientStopCollection, CreateGradientStopCollection method [Direct2D], CreateGradientStopCollection method [Direct2D],ID2D1DeviceContext interface, ID2D1DeviceContext interface [Direct2D],CreateGradientStopCollection method, ID2D1DeviceContext.CreateGradientStopCollection, ID2D1DeviceContext::CreateGradientStopCollection, d2d1_1/ID2D1DeviceContext::CreateGradientStopCollection, direct2d.id2d1devicecontext_creategradientstopcollection
 ms.topic: method
-f1_keywords: 
- - "d2d1_1/ID2D1DeviceContext.CreateGradientStopCollection"
+f1_keywords:
+- d2d1_1/ID2D1DeviceContext.CreateGradientStopCollection
 dev_langs:
- - c++
+- c++
 req.header: d2d1_1.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: D2d1.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D2d1.dll
+- D2d1.dll
 api_name:
- - ID2D1DeviceContext.CreateGradientStopCollection
+- ID2D1DeviceContext.CreateGradientStopCollection
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NS:lpmapi.__unnamed_struct_22
 title: QualAppFlowSpec (lpmapi.h)
-
 description: The QualAppFlowSpec structure contains FLOWSPEC information for a qualitative application.
 old-location: qos\qualappflowspec.htm
 tech.root: QOS
 ms.assetid: 4e15b094-4250-4699-b66e-6734cf37cbb6
-
 ms.date: 12/05/2018
 ms.keywords: QualAppFlowSpec, QualAppFlowSpec structure [QOS], lpmapi/QualAppFlowSpec, qos.qualappflowspec
 ms.topic: struct
-f1_keywords: 
- - "lpmapi/QualAppFlowSpec"
+f1_keywords:
+- lpmapi/QualAppFlowSpec
 dev_langs:
- - c++
+- c++
 req.header: lpmapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Lpmapi.h
+- Lpmapi.h
 api_name:
- - QualAppFlowSpec
+- QualAppFlowSpec
 targetos: Windows
 req.typenames: QualAppFlowSpec
 req.redist: 

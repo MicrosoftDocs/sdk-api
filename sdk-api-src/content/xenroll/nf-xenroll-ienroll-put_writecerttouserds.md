@@ -1,19 +1,17 @@
 ---
 UID: NF:xenroll.IEnroll.put_WriteCertToUserDS
 title: IEnroll::put_WriteCertToUserDS (xenroll.h)
-
 description: The WriteCertToUserDS property of IEnroll4 sets or retrieves a Boolean value that determines whether the certificate is written to the user's Active Directory store.
 old-location: security\ienroll4_writecerttouserds.htm
 tech.root: SecCrypto
 ms.assetid: 8b29f442-265f-4826-a2f0-3305d6f70cbb
-
 ms.date: 12/05/2018
 ms.keywords: IEnroll interface [Security],WriteCertToUserDS property, IEnroll.WriteCertToUserDS, IEnroll.put_WriteCertToUserDS, IEnroll::WriteCertToUserDS, IEnroll::get_WriteCertToUserDS, IEnroll::put_WriteCertToUserDS, WriteCertToUserDS property [Security], WriteCertToUserDS property [Security],IEnroll interface, put_WriteCertToUserDS, security.ienroll4_writecerttouserds, xenroll/IEnroll::WriteCertToUserDS, xenroll/IEnroll::get_WriteCertToUserDS, xenroll/IEnroll::put_WriteCertToUserDS
 ms.topic: method
-f1_keywords: 
- - "xenroll/IEnroll.WriteCertToUserDS"
+f1_keywords:
+- xenroll/IEnroll.WriteCertToUserDS
 dev_langs:
- - c++
+- c++
 req.header: xenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Uuid.lib
 req.dll: Xenroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Xenroll.dll
+- Xenroll.dll
 api_name:
- - IEnroll.WriteCertToUserDS
- - IEnroll.get_WriteCertToUserDS
- - IEnroll.put_WriteCertToUserDS
+- IEnroll.WriteCertToUserDS
+- IEnroll.get_WriteCertToUserDS
+- IEnroll.put_WriteCertToUserDS
 targetos: Windows
 req.typenames: 
 req.redist: 

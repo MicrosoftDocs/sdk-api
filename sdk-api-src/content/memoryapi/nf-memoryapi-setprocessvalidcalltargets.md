@@ -1,19 +1,17 @@
 ---
 UID: NF:memoryapi.SetProcessValidCallTargets
 title: SetProcessValidCallTargets function (memoryapi.h)
-
 description: Provides Control Flow Guard (CFG) with a list of valid indirect call targets and specifies whether they should be marked valid or not.
 old-location: base\setprocessvalidcalltargets.htm
 tech.root: Memory
 ms.assetid: A28BBE75-5188-452B-B784-B6824D4BD161
-
 ms.date: 12/05/2018
 ms.keywords: SetProcessValidCallTargets, SetProcessValidCallTargets function, base.setprocessvalidcalltargets, winbase/SetProcessValidCallTargets
 ms.topic: function
-f1_keywords: 
- - "memoryapi/SetProcessValidCallTargets"
+f1_keywords:
+- memoryapi/SetProcessValidCallTargets
 dev_langs:
- - c++
+- c++
 req.header: memoryapi.h
 req.include-header: Windows.h, Memoryapi.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: Kernelbase.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - kernelbase.dll
- - API-MS-Win-Core-Memory-L1-1-3.dll
- - API-MS-Win-Core-Memory-L1-1-4.dll
+- kernelbase.dll
+- API-MS-Win-Core-Memory-L1-1-3.dll
+- API-MS-Win-Core-Memory-L1-1-4.dll
 api_name:
- - SetProcessValidCallTargets
+- SetProcessValidCallTargets
 targetos: Windows
 req.typenames: 
 req.redist: 

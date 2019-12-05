@@ -1,19 +1,17 @@
 ---
 UID: NF:gdiplusgraphics.Graphics.SetInterpolationMode
 title: Graphics::SetInterpolationMode (gdiplusgraphics.h)
-
 description: The Graphics::SetInterpolationMode method sets the interpolation mode of this Graphics object. The interpolation mode determines the algorithm that is used when images are scaled or rotated.
 old-location: gdiplus\_gdiplus_CLASS_Graphics_SetInterpolationMode_interpolationMode_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\setinterpolationmode.htm
-
 ms.date: 12/05/2018
 ms.keywords: Graphics class [GDI+],SetInterpolationMode method, Graphics.SetInterpolationMode, Graphics::SetInterpolationMode, SetInterpolationMode, SetInterpolationMode method [GDI+], SetInterpolationMode method [GDI+],Graphics class, _gdiplus_CLASS_Graphics_SetInterpolationMode_interpolationMode_, gdiplus._gdiplus_CLASS_Graphics_SetInterpolationMode_interpolationMode_
 ms.topic: method
-f1_keywords: 
- - "gdiplusgraphics/Graphics.SetInterpolationMode"
+f1_keywords:
+- gdiplusgraphics/Graphics.SetInterpolationMode
 dev_langs:
- - c++
+- c++
 req.header: gdiplusgraphics.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - Graphics.SetInterpolationMode
+- Graphics.SetInterpolationMode
 targetos: Windows
 req.typenames: 
 req.redist: 

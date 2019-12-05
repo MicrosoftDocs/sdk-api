@@ -1,19 +1,17 @@
 ---
 UID: NE:d2d1effects.D2D1_DISTANTDIFFUSE_SCALE_MODE
 title: D2D1_DISTANTDIFFUSE_SCALE_MODE (d2d1effects.h)
-
 description: The interpolation mode the effect uses to scale the image to the corresponding kernel unit length. There are six scale modes that range in quality and speed.
 old-location: direct2d\d2d1_distantdiffuse_scale_mode.htm
 tech.root: Direct2D
 ms.assetid: 8DBA8D16-507F-40F7-9C8D-E0D84B548BB0
-
 ms.date: 12/05/2018
 ms.keywords: D2D1_DISTANTDIFFUSE_SCALE_MODE, D2D1_DISTANTDIFFUSE_SCALE_MODE enumeration [Direct2D], D2D1_DISTANTDIFFUSE_SCALE_MODE_ANISOTROPIC, D2D1_DISTANTDIFFUSE_SCALE_MODE_CUBIC, D2D1_DISTANTDIFFUSE_SCALE_MODE_HIGH_QUALITY_CUBIC, D2D1_DISTANTDIFFUSE_SCALE_MODE_LINEAR, D2D1_DISTANTDIFFUSE_SCALE_MODE_MULTI_SAMPLE_LINEAR, D2D1_DISTANTDIFFUSE_SCALE_MODE_NEAREST_NEIGHBOR, d2d1effects/D2D1_DISTANTDIFFUSE_SCALE_MODE, d2d1effects/D2D1_DISTANTDIFFUSE_SCALE_MODE_ANISOTROPIC, d2d1effects/D2D1_DISTANTDIFFUSE_SCALE_MODE_CUBIC, d2d1effects/D2D1_DISTANTDIFFUSE_SCALE_MODE_HIGH_QUALITY_CUBIC, d2d1effects/D2D1_DISTANTDIFFUSE_SCALE_MODE_LINEAR, d2d1effects/D2D1_DISTANTDIFFUSE_SCALE_MODE_MULTI_SAMPLE_LINEAR, d2d1effects/D2D1_DISTANTDIFFUSE_SCALE_MODE_NEAREST_NEIGHBOR, direct2d.d2d1_distantdiffuse_scale_mode
 ms.topic: enum
-f1_keywords: 
- - "d2d1effects/D2D1_DISTANTDIFFUSE_SCALE_MODE"
+f1_keywords:
+- d2d1effects/D2D1_DISTANTDIFFUSE_SCALE_MODE
 dev_langs:
- - c++
+- c++
 req.header: d2d1effects.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - d2d1effects.h
+- d2d1effects.h
 api_name:
- - D2D1_DISTANTDIFFUSE_SCALE_MODE
+- D2D1_DISTANTDIFFUSE_SCALE_MODE
 targetos: Windows
 req.typenames: D2D1_DISTANTDIFFUSE_SCALE_MODE
 req.redist: 

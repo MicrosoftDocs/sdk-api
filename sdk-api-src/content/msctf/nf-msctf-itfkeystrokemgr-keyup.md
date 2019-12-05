@@ -1,19 +1,17 @@
 ---
 UID: NF:msctf.ITfKeystrokeMgr.KeyUp
 title: ITfKeystrokeMgr::KeyUp (msctf.h)
-
 description: ITfKeystrokeMgr::KeyUp method
 old-location: tsf\itfkeystrokemgr_keyup.htm
 tech.root: TSF
 ms.assetid: 14415de3-f397-4866-b7d1-167c0931a80c
-
 ms.date: 12/05/2018
 ms.keywords: ITfKeystrokeMgr interface [Text Services Framework],KeyUp method, ITfKeystrokeMgr.KeyUp, ITfKeystrokeMgr::KeyUp, KeyUp, KeyUp method [Text Services Framework], KeyUp method [Text Services Framework],ITfKeystrokeMgr interface, _tsf_itfkeystrokemgr_keyup_ref, msctf/ITfKeystrokeMgr::KeyUp, tsf.itfkeystrokemgr_keyup
 ms.topic: method
-f1_keywords: 
- - "msctf/ITfKeystrokeMgr.KeyUp"
+f1_keywords:
+- msctf/ITfKeystrokeMgr.KeyUp
 dev_langs:
- - c++
+- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msctf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msctf.dll
+- Msctf.dll
 api_name:
- - ITfKeystrokeMgr.KeyUp
+- ITfKeystrokeMgr.KeyUp
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

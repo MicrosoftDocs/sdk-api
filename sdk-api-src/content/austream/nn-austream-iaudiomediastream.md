@@ -1,19 +1,17 @@
 ---
 UID: NN:austream.IAudioMediaStream
 title: IAudioMediaStream (austream.h)
-
 description: Note  This interface is deprecated.
 old-location: dshow\iaudiomediastream.htm
 tech.root: DirectShow
 ms.assetid: b4098876-6c11-4cc6-8b6d-16edc02316f3
-
 ms.date: 12/05/2018
 ms.keywords: IAudioMediaStream, IAudioMediaStream interface [DirectShow], IAudioMediaStream interface [DirectShow],described, IAudioMediaStreamInterface, austream/IAudioMediaStream, dshow.iaudiomediastream
 ms.topic: interface
-f1_keywords: 
- - "austream/IAudioMediaStream"
+f1_keywords:
+- austream/IAudioMediaStream
 dev_langs:
- - c++
+- c++
 req.header: austream.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - austream.h
+- austream.h
 api_name:
- - IAudioMediaStream
+- IAudioMediaStream
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:contentpartner.IWMPContentPartnerCallback.VerifyPermissionComplete
 title: IWMPContentPartnerCallback::VerifyPermissionComplete (contentpartner.h)
-
 description: Note  This section describes functionality designed for use by online stores.
 old-location: wmp\iwmpcontentpartnercallback_verifypermissioncomplete.htm
 tech.root: WMP
 ms.assetid: bf99ead7-a50c-4638-9f4c-5c43a8d0a0be
-
 ms.date: 12/05/2018
 ms.keywords: IWMPContentPartnerCallback interface [Windows Media Player],VerifyPermissionComplete method, IWMPContentPartnerCallback.VerifyPermissionComplete, IWMPContentPartnerCallback::VerifyPermissionComplete, IWMPContentPartnerCallbackVerifyPermissionComplete, VerifyPermissionComplete, VerifyPermissionComplete method [Windows Media Player], VerifyPermissionComplete method [Windows Media Player],IWMPContentPartnerCallback interface, contentpartner/IWMPContentPartnerCallback::VerifyPermissionComplete, wmp.iwmpcontentpartnercallback_verifypermissioncomplete
 ms.topic: method
-f1_keywords: 
- - "contentpartner/IWMPContentPartnerCallback.VerifyPermissionComplete"
+f1_keywords:
+- contentpartner/IWMPContentPartnerCallback.VerifyPermissionComplete
 dev_langs:
- - c++
+- c++
 req.header: contentpartner.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - contentpartner.h
+- contentpartner.h
 api_name:
- - IWMPContentPartnerCallback.VerifyPermissionComplete
+- IWMPContentPartnerCallback.VerifyPermissionComplete
 targetos: Windows
 req.typenames: 
 req.redist: 

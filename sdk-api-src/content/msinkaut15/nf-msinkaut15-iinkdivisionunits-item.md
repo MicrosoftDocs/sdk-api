@@ -1,19 +1,17 @@
 ---
 UID: NF:msinkaut15.IInkDivisionUnits.Item
 title: IInkDivisionUnits::Item (msinkaut15.h)
-
 description: Retrieves the IInkDivisionUnit object at the specified index within the IInkDivisionUnits collection.
 old-location: tablet\iinkdivisionunits_item.htm
 tech.root: tablet
 ms.assetid: 332a9365-526e-43df-841f-20eed07762e7
-
 ms.date: 12/05/2018
 ms.keywords: 332a9365-526e-43df-841f-20eed07762e7, IInkDivisionUnits interface [Tablet PC],Item method, IInkDivisionUnits.Item, IInkDivisionUnits::Item, Item, Item method [Tablet PC], Item method [Tablet PC],IInkDivisionUnits interface, msinkaut15/IInkDivisionUnits::Item, tablet.iinkdivisionunits_item
 ms.topic: method
-f1_keywords: 
- - "msinkaut15/IInkDivisionUnits.Item"
+f1_keywords:
+- msinkaut15/IInkDivisionUnits.Item
 dev_langs:
- - c++
+- c++
 req.header: msinkaut15.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Inkdiv.dll
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Inkdiv.dll
- - Inkdiv.dll.dll
+- Inkdiv.dll
+- Inkdiv.dll.dll
 api_name:
- - IInkDivisionUnits.Item
+- IInkDivisionUnits.Item
 targetos: Windows
 req.typenames: 
 req.redist: 

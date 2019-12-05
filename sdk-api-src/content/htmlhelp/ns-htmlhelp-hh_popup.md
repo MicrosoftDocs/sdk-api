@@ -1,19 +1,17 @@
 ---
 UID: NS:htmlhelp.tagHH_POPUP
 title: HH_POPUP (htmlhelp.h)
-
 description: Use this structure to specify or modify the attributes of a pop-up window.
 old-location: htmlhelp\hh_popup_structure.htm
 tech.root: htmlhelp
 ms.assetid: VS|htmlhelp|~\html\vsconstrhhpopup.htm
-
 ms.date: 12/05/2018
 ms.keywords: HH_POPUP, HH_POPUP structure [HTML Help Workshop], htmlhelp.hh_popup_structure, htmlhelp/HH_POPUP, vsconStrhhpopup
 ms.topic: struct
-f1_keywords: 
- - "htmlhelp/HH_POPUP"
+f1_keywords:
+- htmlhelp/HH_POPUP
 dev_langs:
- - c++
+- c++
 req.header: htmlhelp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - HtmlHelp.h
+- HtmlHelp.h
 api_name:
- - HH_POPUP
+- HH_POPUP
 targetos: Windows
 req.typenames: HH_POPUP
 req.redist: 

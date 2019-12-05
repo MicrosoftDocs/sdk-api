@@ -1,19 +1,17 @@
 ---
 UID: NF:certview.IEnumCERTVIEWROW.Reset
 title: IEnumCERTVIEWROW::Reset (certview.h)
-
 description: Moves to the beginning of the row-enumeration sequence.
 old-location: security\ienumcertviewrow_reset.htm
 tech.root: SecCrypto
 ms.assetid: 76bee5db-0443-4673-a59c-0198587736dc
-
 ms.date: 12/05/2018
 ms.keywords: IEnumCERTVIEWROW interface [Security],Reset method, IEnumCERTVIEWROW object [Security],Reset method, IEnumCERTVIEWROW.Reset, IEnumCERTVIEWROW::Reset, Reset, Reset method [Security], Reset method [Security],IEnumCERTVIEWROW interface, Reset method [Security],IEnumCERTVIEWROW object, _certsrv_ienumcertviewrow_reset, certview/IEnumCERTVIEWROW::Reset, security.ienumcertviewrow_reset
 ms.topic: method
-f1_keywords: 
- - "certview/IEnumCERTVIEWROW.Reset"
+f1_keywords:
+- certview/IEnumCERTVIEWROW.Reset
 dev_langs:
- - c++
+- c++
 req.header: certview.h
 req.include-header: Certsrv.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Certidl.lib
 req.dll: Certadm.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Certadm.dll
+- Certadm.dll
 api_name:
- - IEnumCERTVIEWROW.Reset
- - IEnumCERTVIEWROW.Reset
+- IEnumCERTVIEWROW.Reset
+- IEnumCERTVIEWROW.Reset
 targetos: Windows
 req.typenames: 
 req.redist: 

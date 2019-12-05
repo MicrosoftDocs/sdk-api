@@ -1,19 +1,17 @@
 ---
 UID: NF:msctf.ITfPropertyStore.Shrink
 title: ITfPropertyStore::Shrink (msctf.h)
-
 description: ITfPropertyStore::Shrink method
 old-location: tsf\itfpropertystore_shrink.htm
 tech.root: TSF
 ms.assetid: 55637d69-2f1a-435d-be23-4c29ec57b2ea
-
 ms.date: 12/05/2018
 ms.keywords: ITfPropertyStore interface [Text Services Framework],Shrink method, ITfPropertyStore.Shrink, ITfPropertyStore::Shrink, Shrink, Shrink method [Text Services Framework], Shrink method [Text Services Framework],ITfPropertyStore interface, _tsf_itfpropertystore_shrink_ref, msctf/ITfPropertyStore::Shrink, tsf.itfpropertystore_shrink
 ms.topic: method
-f1_keywords: 
- - "msctf/ITfPropertyStore.Shrink"
+f1_keywords:
+- msctf/ITfPropertyStore.Shrink
 dev_langs:
- - c++
+- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msctf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msctf.dll
+- msctf.dll
 api_name:
- - ITfPropertyStore.Shrink
+- ITfPropertyStore.Shrink
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

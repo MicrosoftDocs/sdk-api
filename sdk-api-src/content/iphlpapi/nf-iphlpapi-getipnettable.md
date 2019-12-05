@@ -1,19 +1,17 @@
 ---
 UID: NF:iphlpapi.GetIpNetTable
 title: GetIpNetTable function (iphlpapi.h)
-
 description: The GetIpNetTable function retrieves the IPv4 to physical address mapping table.
 old-location: iphlp\getipnettable.htm
 tech.root: IpHlp
 ms.assetid: 01bcf86e-5fcc-4ce9-bb89-02d393e75d1d
-
 ms.date: 12/05/2018
 ms.keywords: GetIpNetTable, GetIpNetTable function [IP Helper], _iphlp_getipnettable, iphlp.getipnettable, iphlpapi/GetIpNetTable
 ms.topic: function
 f1_keywords:
 - iphlpapi/GetIpNetTable
 dev_langs:
- - c++
+- c++
 req.header: iphlpapi.h
 req.include-header: 
 req.target-type: Windows

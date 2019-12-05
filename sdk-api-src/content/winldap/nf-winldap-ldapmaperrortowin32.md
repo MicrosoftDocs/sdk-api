@@ -1,19 +1,17 @@
 ---
 UID: NF:winldap.LdapMapErrorToWin32
 title: LdapMapErrorToWin32 function (winldap.h)
-
 description: The LdapMapErrorToWin32 function translates an LdapError value to the closest Win32 error code.
 old-location: ldap\ldapmaperrortowin32.htm
 tech.root: ldap
 ms.assetid: 5fdbac24-a1fb-41b2-924c-918bf7e0028a
-
 ms.date: 12/05/2018
 ms.keywords: LdapMapErrorToWin32, LdapMapErrorToWin32 function [LDAP], _ldap_ldapmaperrortowin32, ldap.ldapmaperrortowin32, winldap/LdapMapErrorToWin32
 ms.topic: function
-f1_keywords: 
- - "winldap/LdapMapErrorToWin32"
+f1_keywords:
+- winldap/LdapMapErrorToWin32
 dev_langs:
- - c++
+- c++
 req.header: winldap.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Wldap32.lib
 req.dll: Wldap32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Wldap32.dll
+- Wldap32.dll
 api_name:
- - LdapMapErrorToWin32
+- LdapMapErrorToWin32
 targetos: Windows
 req.typenames: 
 req.redist: 

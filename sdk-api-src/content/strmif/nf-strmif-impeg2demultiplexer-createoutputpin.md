@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IMpeg2Demultiplexer.CreateOutputPin
 title: IMpeg2Demultiplexer::CreateOutputPin (strmif.h)
-
 description: The CreateOutputPin method creates a new output pin on the Demux.
 old-location: dshow\impeg2demultiplexer_createoutputpin.htm
 tech.root: DirectShow
 ms.assetid: fb863b9c-e8da-444a-b50f-37f4fe9d8164
-
 ms.date: 12/05/2018
 ms.keywords: CreateOutputPin, CreateOutputPin method [DirectShow], CreateOutputPin method [DirectShow],IMpeg2Demultiplexer interface, IMpeg2Demultiplexer interface [DirectShow],CreateOutputPin method, IMpeg2Demultiplexer.CreateOutputPin, IMpeg2Demultiplexer::CreateOutputPin, IMpeg2DemultiplexerCreateOutputPin, dshow.impeg2demultiplexer_createoutputpin, strmif/IMpeg2Demultiplexer::CreateOutputPin
 ms.topic: method
-f1_keywords: 
- - "strmif/IMpeg2Demultiplexer.CreateOutputPin"
+f1_keywords:
+- strmif/IMpeg2Demultiplexer.CreateOutputPin
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IMpeg2Demultiplexer.CreateOutputPin
+- IMpeg2Demultiplexer.CreateOutputPin
 targetos: Windows
 req.typenames: 
 req.redist: 

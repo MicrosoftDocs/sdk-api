@@ -1,19 +1,17 @@
 ---
 UID: NF:taskschd.IPrincipal2.AddRequiredPrivilege
 title: IPrincipal2::AddRequiredPrivilege (taskschd.h)
-
 description: Adds the required privilege to the task process token.
 old-location: taskschd\iprincipal2_addrequiredprivilege.htm
 tech.root: taskschd
 ms.assetid: 74b7fffa-7e16-43e1-9176-677d9948f448
-
 ms.date: 12/05/2018
 ms.keywords: AddRequiredPrivilege, AddRequiredPrivilege method [Task Scheduler], AddRequiredPrivilege method [Task Scheduler],IPrincipal2 interface, IPrincipal2 interface [Task Scheduler],AddRequiredPrivilege method, IPrincipal2.AddRequiredPrivilege, IPrincipal2::AddRequiredPrivilege, taskschd.iprincipal2_addrequiredprivilege, taskschd/IPrincipal2::AddRequiredPrivilege
 ms.topic: method
-f1_keywords: 
- - "taskschd/IPrincipal2.AddRequiredPrivilege"
+f1_keywords:
+- taskschd/IPrincipal2.AddRequiredPrivilege
 dev_langs:
- - c++
+- c++
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Taskschd.lib
 req.dll: Taskschd.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - taskschd.dll
+- taskschd.dll
 api_name:
- - IPrincipal2.AddRequiredPrivilege
+- IPrincipal2.AddRequiredPrivilege
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NE:pla.__MIDL___MIDL_itf_pla_0001_0043_0009
 title: WeekDays (pla.h)
-
 description: Defines the days of the week on which to run the data collector set.
 old-location: pla\weekdays.htm
 tech.root: PLA
 ms.assetid: 5246fee3-0536-4525-bab8-5087330a1b49
-
 ms.date: 12/05/2018
 ms.keywords: WeekDays, WeekDays enumeration [PLA], base.weekdays, pla.weekdays, pla/WeekDays, pla/plaEveryday, pla/plaFriday, pla/plaMonday, pla/plaRunOnce, pla/plaSaturday, pla/plaSunday, pla/plaThursday, pla/plaTuesday, pla/plaWednesday, plaEveryday, plaFriday, plaMonday, plaRunOnce, plaSaturday, plaSunday, plaThursday, plaTuesday, plaWednesday
 ms.topic: enum
-f1_keywords: 
- - "pla/WeekDays"
+f1_keywords:
+- pla/WeekDays
 dev_langs:
- - c++
+- c++
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Pla.h
+- Pla.h
 api_name:
- - WeekDays
+- WeekDays
 targetos: Windows
 req.typenames: WeekDays
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:fsrmpipeline.IFsrmPropertyBag.get_RelativePath
 title: IFsrmPropertyBag::get_RelativePath (fsrmpipeline.h)
-
 description: The relative path to the file.
 old-location: fsrm\ifsrmpropertybag_relativepath.htm
 tech.root: fsrm
 ms.assetid: 4304228a-5e8e-4e2d-9fc9-48777cb23251
-
 ms.date: 12/05/2018
 ms.keywords: IFsrmPropertyBag interface [File Server Resource Manager],RelativePath property, IFsrmPropertyBag.RelativePath, IFsrmPropertyBag.get_RelativePath, IFsrmPropertyBag::RelativePath, IFsrmPropertyBag::get_RelativePath, RelativePath property [File Server Resource Manager], RelativePath property [File Server Resource Manager],IFsrmPropertyBag interface, fs.ifsrmpropertybag_relativepath, fsrm.ifsrmpropertybag_relativepath, fsrmpipeline/IFsrmPropertyBag::RelativePath, fsrmpipeline/IFsrmPropertyBag::get_RelativePath, get_RelativePath
 ms.topic: method
-f1_keywords: 
- - "fsrmpipeline/IFsrmPropertyBag.RelativePath"
+f1_keywords:
+- fsrmpipeline/IFsrmPropertyBag.RelativePath
 dev_langs:
- - c++
+- c++
 req.header: fsrmpipeline.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: SrmSvc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - SrmSvc.dll
+- SrmSvc.dll
 api_name:
- - IFsrmPropertyBag.RelativePath
- - IFsrmPropertyBag.get_RelativePath
+- IFsrmPropertyBag.RelativePath
+- IFsrmPropertyBag.get_RelativePath
 targetos: Windows
 req.typenames: 
 req.redist: 

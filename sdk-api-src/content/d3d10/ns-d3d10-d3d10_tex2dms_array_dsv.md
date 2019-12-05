@@ -1,19 +1,17 @@
 ---
 UID: NS:d3d10.D3D10_TEX2DMS_ARRAY_DSV
 title: D3D10_TEX2DMS_ARRAY_DSV (d3d10.h)
-
 description: Specifies the subresource(s) from an array of multisampled 2D textures for a depth-stencil view.
 old-location: direct3d10\d3d10_tex2dms_array_dsv.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\d3d10_tex2dms_array_dsv.htm
-
 ms.date: 12/05/2018
 ms.keywords: 3417c32f-389c-6873-2cf6-1c938da9d235, D3D10_TEX2DMS_ARRAY_DSV, D3D10_TEX2DMS_ARRAY_DSV structure [Direct3D 10], d3d10/D3D10_TEX2DMS_ARRAY_DSV, direct3d10.d3d10_tex2dms_array_dsv
 ms.topic: struct
-f1_keywords: 
- - "d3d10/D3D10_TEX2DMS_ARRAY_DSV"
+f1_keywords:
+- d3d10/D3D10_TEX2DMS_ARRAY_DSV
 dev_langs:
- - c++
+- c++
 req.header: d3d10.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - D3D10.h
+- D3D10.h
 api_name:
- - D3D10_TEX2DMS_ARRAY_DSV
+- D3D10_TEX2DMS_ARRAY_DSV
 targetos: Windows
 req.typenames: D3D10_TEX2DMS_ARRAY_DSV
 req.redist: 

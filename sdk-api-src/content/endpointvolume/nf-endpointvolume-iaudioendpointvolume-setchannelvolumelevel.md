@@ -1,19 +1,17 @@
 ---
 UID: NF:endpointvolume.IAudioEndpointVolume.SetChannelVolumeLevel
 title: IAudioEndpointVolume::SetChannelVolumeLevel (endpointvolume.h)
-
 description: The SetChannelVolumeLevel method sets the volume level, in decibels, of the specified channel of the audio stream that enters or leaves the audio endpoint device.
 old-location: coreaudio\iaudioendpointvolume_setchannelvolumelevel.htm
 tech.root: CoreAudio
 ms.assetid: 51f3b4dd-be9d-4b83-8605-a9962c6709a3
-
 ms.date: 12/05/2018
 ms.keywords: IAudioEndpointVolume interface [Core Audio],SetChannelVolumeLevel method, IAudioEndpointVolume.SetChannelVolumeLevel, IAudioEndpointVolume::SetChannelVolumeLevel, IAudioEndpointVolumeSetChannelVolumeLevel, SetChannelVolumeLevel, SetChannelVolumeLevel method [Core Audio], SetChannelVolumeLevel method [Core Audio],IAudioEndpointVolume interface, coreaudio.iaudioendpointvolume_setchannelvolumelevel, endpointvolume/IAudioEndpointVolume::SetChannelVolumeLevel
 ms.topic: method
-f1_keywords: 
- - "endpointvolume/IAudioEndpointVolume.SetChannelVolumeLevel"
+f1_keywords:
+- endpointvolume/IAudioEndpointVolume.SetChannelVolumeLevel
 dev_langs:
- - c++
+- c++
 req.header: endpointvolume.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Endpointvolume.h
+- Endpointvolume.h
 api_name:
- - IAudioEndpointVolume.SetChannelVolumeLevel
+- IAudioEndpointVolume.SetChannelVolumeLevel
 targetos: Windows
 req.typenames: 
 req.redist: 

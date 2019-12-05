@@ -1,19 +1,17 @@
 ---
 UID: NF:syncmgr.ISyncMgrSyncItem.GetObject
 title: ISyncMgrSyncItem::GetObject (syncmgr.h)
-
 description: Creates a specific type of object related to the item.
 old-location: shell\ISyncMgrSyncItem_GetObject.htm
 tech.root: shell
 ms.assetid: 54336c43-348b-4767-94e4-fe7dc47c0876
-
 ms.date: 12/05/2018
 ms.keywords: GetObject, GetObject method [Windows Shell], GetObject method [Windows Shell],ISyncMgrSyncItem interface, ISyncMgrSyncItem interface [Windows Shell],GetObject method, ISyncMgrSyncItem.GetObject, ISyncMgrSyncItem::GetObject, SYNCMGR_OBJECTID_BrowseContent, SYNCMGR_OBJECTID_ConflictStore, SYNCMGR_OBJECTID_EventStore, SYNCMGR_OBJECTID_Icon, SYNCMGR_OBJECTID_QueryBeforeDelete, SYNCMGR_OBJECTID_QueryBeforeDisable, SYNCMGR_OBJECTID_QueryBeforeEnable, _shell_ISyncMgrSyncItem_GetObject, shell.ISyncMgrSyncItem_GetObject, syncmgr/ISyncMgrSyncItem::GetObject
 ms.topic: method
-f1_keywords: 
- - "syncmgr/ISyncMgrSyncItem.GetObject"
+f1_keywords:
+- syncmgr/ISyncMgrSyncItem.GetObject
 dev_langs:
- - c++
+- c++
 req.header: syncmgr.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Syncmgr.h
+- Syncmgr.h
 api_name:
- - ISyncMgrSyncItem.GetObject
+- ISyncMgrSyncItem.GetObject
 targetos: Windows
 req.typenames: 
 req.redist: 

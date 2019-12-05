@@ -1,19 +1,17 @@
 ---
 UID: NF:vidcap.ICameraControl.get_Roll
 title: ICameraControl::get_Roll (vidcap.h)
-
-description: "."
+description: .
 old-location: dshow\icameracontrol_get_roll.htm
 tech.root: DirectShow
 ms.assetid: cebe99e1-9bcc-4826-8b15-b4d6757ec5b4
-
 ms.date: 12/05/2018
 ms.keywords: ICameraControl interface [DirectShow],get_Roll method, ICameraControl.get_Roll, ICameraControl::get_Roll, ICameraControlget_Roll, dshow.icameracontrol_get_roll, get_Roll, get_Roll method [DirectShow], get_Roll method [DirectShow],ICameraControl interface, vidcap/ICameraControl::get_Roll
 ms.topic: method
-f1_keywords: 
- - "vidcap/ICameraControl.get_Roll"
+f1_keywords:
+- vidcap/ICameraControl.get_Roll
 dev_langs:
- - c++
+- c++
 req.header: vidcap.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - ICameraControl.get_Roll
+- ICameraControl.get_Roll
 targetos: Windows
 req.typenames: 
 req.redist: 

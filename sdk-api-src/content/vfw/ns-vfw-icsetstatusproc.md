@@ -1,19 +1,17 @@
 ---
 UID: NS:vfw.__unnamed_struct_4
 title: ICSETSTATUSPROC (vfw.h)
-
 description: The ICSETSTATUSPROC structure contains status information used with the ICM_SET_STATUS_PROC message.
 old-location: multimedia\icsetstatusproc_struct.htm
 tech.root: Multimedia
 ms.assetid: 32f115a4-3096-4af0-a254-1bac39a830d7
-
 ms.date: 12/05/2018
 ms.keywords: ICSETSTATUSPROC, ICSETSTATUSPROC structure [Windows Multimedia], multimedia.icsetstatusproc_COLLISION563, multimedia.icsetstatusproc_struct, vfw/ICSETSTATUSPROC
 ms.topic: struct
-f1_keywords: 
- - "vfw/ICSETSTATUSPROC"
+f1_keywords:
+- vfw/ICSETSTATUSPROC
 dev_langs:
- - c++
+- c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Vfw.h
+- Vfw.h
 api_name:
- - ICSETSTATUSPROC
+- ICSETSTATUSPROC
 targetos: Windows
 req.typenames: ICSETSTATUSPROC
 req.redist: 

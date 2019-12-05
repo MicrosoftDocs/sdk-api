@@ -1,19 +1,17 @@
 ---
 UID: NN:oleidl.IOleLink
 title: IOleLink (oleidl.h)
-
 description: Enables a linked object to provide its container with functions pertaining to linking.
 old-location: com\iolelink.htm
 tech.root: com
 ms.assetid: 4a34a90d-df1b-4bbf-8365-9d741c18ff74
-
 ms.date: 12/05/2018
 ms.keywords: IOleLink, IOleLink interface [COM], IOleLink interface [COM],described, _ole_iolelink, com.iolelink, oleidl/IOleLink
 ms.topic: interface
-f1_keywords: 
- - "oleidl/IOleLink"
+f1_keywords:
+- oleidl/IOleLink
 dev_langs:
- - c++
+- c++
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - OleIdl.h
+- OleIdl.h
 api_name:
- - IOleLink
+- IOleLink
 targetos: Windows
 req.typenames: 
 req.redist: 

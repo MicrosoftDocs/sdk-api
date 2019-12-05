@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d10effect.ID3D10EffectShaderResourceVariable.SetResourceArray
 title: ID3D10EffectShaderResourceVariable::SetResourceArray (d3d10effect.h)
-
 description: Set an array of shader resources.
 old-location: direct3d10\id3d10effectshaderresourcevariable_setresourcearray.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10effectshaderresourcevariable_setresourcearray.htm
-
 ms.date: 12/05/2018
 ms.keywords: ID3D10EffectShaderResourceVariable interface [Direct3D 10],SetResourceArray method, ID3D10EffectShaderResourceVariable.SetResourceArray, ID3D10EffectShaderResourceVariable::SetResourceArray, SetResourceArray, SetResourceArray method [Direct3D 10], SetResourceArray method [Direct3D 10],ID3D10EffectShaderResourceVariable interface, d3d10effect/ID3D10EffectShaderResourceVariable::SetResourceArray, direct3d10.id3d10effectshaderresourcevariable_setresourcearray, ffaa0326-c3e6-873d-a783-a06195e76351
 ms.topic: method
-f1_keywords: 
- - "d3d10effect/ID3D10EffectShaderResourceVariable.SetResourceArray"
+f1_keywords:
+- d3d10effect/ID3D10EffectShaderResourceVariable.SetResourceArray
 dev_langs:
- - c++
+- c++
 req.header: d3d10effect.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D10Effect.h
+- D3D10Effect.h
 api_name:
- - ID3D10EffectShaderResourceVariable.SetResourceArray
+- ID3D10EffectShaderResourceVariable.SetResourceArray
 targetos: Windows
 req.typenames: 
 req.redist: 

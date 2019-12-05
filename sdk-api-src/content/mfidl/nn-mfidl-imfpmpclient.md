@@ -1,19 +1,17 @@
 ---
 UID: NN:mfidl.IMFPMPClient
 title: IMFPMPClient (mfidl.h)
-
 description: Enables a media source to receive a pointer to the IMFPMPHost interface.
 old-location: mf\imfpmpclient.htm
 tech.root: medfound
 ms.assetid: adfba5dd-eae6-48f3-a155-65bd491c952c
-
 ms.date: 12/05/2018
 ms.keywords: IMFPMPClient, IMFPMPClient interface [Media Foundation], IMFPMPClient interface [Media Foundation],described, adfba5dd-eae6-48f3-a155-65bd491c952c, mf.imfpmpclient, mfidl/IMFPMPClient
 ms.topic: interface
-f1_keywords: 
- - "mfidl/IMFPMPClient"
+f1_keywords:
+- mfidl/IMFPMPClient
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFPMPClient
+- IMFPMPClient
 targetos: Windows
 req.typenames: 
 req.redist: 

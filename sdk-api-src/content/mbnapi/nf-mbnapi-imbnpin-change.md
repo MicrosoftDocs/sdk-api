@@ -1,19 +1,17 @@
 ---
 UID: NF:mbnapi.IMbnPin.Change
 title: IMbnPin::Change (mbnapi.h)
-
 description: Changes the PIN.
 old-location: mbn\imbnpin_change.htm
 tech.root: mbn
 ms.assetid: cf4fac68-65c8-456e-8381-e3f582fc836c
-
 ms.date: 12/05/2018
 ms.keywords: Change, Change method [Microsoft Broadband Networks], Change method [Microsoft Broadband Networks],IMbnPin interface, IMbnPin interface [Microsoft Broadband Networks],Change method, IMbnPin.Change, IMbnPin::Change, mbn.imbnpin_change, mbnapi/IMbnPin::Change
 ms.topic: method
-f1_keywords: 
- - "mbnapi/IMbnPin.Change"
+f1_keywords:
+- mbnapi/IMbnPin.Change
 dev_langs:
- - c++
+- c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mbnapi.h
+- mbnapi.h
 api_name:
- - IMbnPin.Change
+- IMbnPin.Change
 targetos: Windows
 req.typenames: 
 req.redist: 

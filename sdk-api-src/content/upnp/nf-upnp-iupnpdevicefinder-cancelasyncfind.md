@@ -1,19 +1,17 @@
 ---
 UID: NF:upnp.IUPnPDeviceFinder.CancelAsyncFind
 title: IUPnPDeviceFinder::CancelAsyncFind (upnp.h)
-
 description: The CancelAsyncFind method cancels an asynchronous search.
 old-location: upnp\iupnpdevicefinder_cancelasyncfind.htm
 tech.root: upnp
 ms.assetid: d64db4fe-0b0a-430f-b198-dd49ef40b52e
-
 ms.date: 12/05/2018
 ms.keywords: CancelAsyncFind, CancelAsyncFind method [UPnP APIs], CancelAsyncFind method [UPnP APIs],IUPnPDeviceFinder interface, IUPnPDeviceFinder interface [UPnP APIs],CancelAsyncFind method, IUPnPDeviceFinder.CancelAsyncFind, IUPnPDeviceFinder::CancelAsyncFind, _upnp_iupnpdevicefinder_cancelasyncfind, upnp.iupnpdevicefinder_cancelasyncfind, upnp/IUPnPDeviceFinder::CancelAsyncFind
 ms.topic: method
-f1_keywords: 
- - "upnp/IUPnPDeviceFinder.CancelAsyncFind"
+f1_keywords:
+- upnp/IUPnPDeviceFinder.CancelAsyncFind
 dev_langs:
- - c++
+- c++
 req.header: upnp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Upnp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Upnp.dll
+- Upnp.dll
 api_name:
- - IUPnPDeviceFinder.CancelAsyncFind
+- IUPnPDeviceFinder.CancelAsyncFind
 targetos: Windows
 req.typenames: 
 req.redist: 

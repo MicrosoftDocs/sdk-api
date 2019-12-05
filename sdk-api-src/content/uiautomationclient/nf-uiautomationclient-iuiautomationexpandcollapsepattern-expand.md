@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationExpandCollapsePattern.Expand
 title: IUIAutomationExpandCollapsePattern::Expand (uiautomationclient.h)
-
 description: Displays all child nodes, controls, or content of the element.
 old-location: winauto\uiauto_IUIAutomationExpandCollapsePattern_Expand.htm
 tech.root: WinAuto
 ms.assetid: bc21cffc-63fe-4c5d-9c4d-35e1bab67a7c
-
 ms.date: 12/05/2018
 ms.keywords: Expand, Expand method [Windows Accessibility], Expand method [Windows Accessibility],IUIAutomationExpandCollapsePattern interface, IUIAutomationExpandCollapsePattern interface [Windows Accessibility],Expand method, IUIAutomationExpandCollapsePattern.Expand, IUIAutomationExpandCollapsePattern::Expand, uiauto.uiauto_IUIAutomationExpandCollapsePattern_Expand, uiauto_IUIAutomationExpandCollapsePattern_Expand, uiautomationclient/IUIAutomationExpandCollapsePattern::Expand, winauto.uiauto_IUIAutomationExpandCollapsePattern_Expand
 ms.topic: method
-f1_keywords: 
- - "uiautomationclient/IUIAutomationExpandCollapsePattern.Expand"
+f1_keywords:
+- uiautomationclient/IUIAutomationExpandCollapsePattern.Expand
 dev_langs:
- - c++
+- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationClient.h
+- UIAutomationClient.h
 api_name:
- - IUIAutomationExpandCollapsePattern.Expand
+- IUIAutomationExpandCollapsePattern.Expand
 targetos: Windows
 req.typenames: 
 req.redist: 

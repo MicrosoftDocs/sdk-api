@@ -1,19 +1,17 @@
 ---
 UID: NF:sbtsv.ITsSbResourceNotification.NotifyTargetChange
 title: ITsSbResourceNotification::NotifyTargetChange (sbtsv.h)
-
 description: Notifies registered plug-ins about state changes in a target object.
 old-location: termserv\itssbresourcenotification_notifytargetchange.htm
 tech.root: TermServ
 ms.assetid: d075c7ae-fe86-4547-a980-2b82ea3498c6
-
 ms.date: 12/05/2018
 ms.keywords: ITsSbResourceNotification interface [Remote Desktop Services],NotifyTargetChange method, ITsSbResourceNotification.NotifyTargetChange, ITsSbResourceNotification::NotifyTargetChange, NotifyTargetChange, NotifyTargetChange method [Remote Desktop Services], NotifyTargetChange method [Remote Desktop Services],ITsSbResourceNotification interface, sbtsv/ITsSbResourceNotification::NotifyTargetChange, termserv.itssbresourcenotification_notifytargetchange
 ms.topic: method
-f1_keywords: 
- - "sbtsv/ITsSbResourceNotification.NotifyTargetChange"
+f1_keywords:
+- sbtsv/ITsSbResourceNotification.NotifyTargetChange
 dev_langs:
- - c++
+- c++
 req.header: sbtsv.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - sbtsv.h
+- sbtsv.h
 api_name:
- - ITsSbResourceNotification.NotifyTargetChange
+- ITsSbResourceNotification.NotifyTargetChange
 targetos: Windows
 req.typenames: 
 req.redist: 

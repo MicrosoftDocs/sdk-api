@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IMediaFilter.GetSyncSource
 title: IMediaFilter::GetSyncSource (strmif.h)
-
 description: The GetSyncSource method retrieves the current reference clock.
 old-location: dshow\imediafilter_getsyncsource.htm
 tech.root: DirectShow
 ms.assetid: 5f5eb31c-3a12-45f4-9c95-caafc0267481
-
 ms.date: 12/05/2018
 ms.keywords: GetSyncSource, GetSyncSource method [DirectShow], GetSyncSource method [DirectShow],IMediaFilter interface, IMediaFilter interface [DirectShow],GetSyncSource method, IMediaFilter.GetSyncSource, IMediaFilter::GetSyncSource, IMediaFilterGetSyncSource, dshow.imediafilter_getsyncsource, strmif/IMediaFilter::GetSyncSource
 ms.topic: method
-f1_keywords: 
- - "strmif/IMediaFilter.GetSyncSource"
+f1_keywords:
+- strmif/IMediaFilter.GetSyncSource
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IMediaFilter.GetSyncSource
+- IMediaFilter.GetSyncSource
 targetos: Windows
 req.typenames: 
 req.redist: 

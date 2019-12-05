@@ -1,19 +1,17 @@
 ---
 UID: NF:msinkaut.IInkGesture.get_Id
 title: IInkGesture::get_Id (msinkaut.h)
-
 description: Gets the identifier of an object.
 old-location: tablet\iinkgesture_id.htm
 tech.root: tablet
 ms.assetid: 9ed0fcb7-57f9-43f4-95d9-dd75e9e7bd3f
-
 ms.date: 12/05/2018
 ms.keywords: ID property [Tablet PC], ID property [Tablet PC],IInkGesture interface, IInkGesture interface [Tablet PC],ID property, IInkGesture.ID, IInkGesture.get_Id, IInkGesture::ID, IInkGesture::get_ID, IInkGesture::get_Id, get_Id, msinkaut/IInkGesture::ID, msinkaut/IInkGesture::get_ID, tablet.iinkgesture_id
 ms.topic: method
-f1_keywords: 
- - "msinkaut/IInkGesture.ID"
+f1_keywords:
+- msinkaut/IInkGesture.ID
 dev_langs:
- - c++
+- c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: InkObj.dll
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - InkObj.dll
- - InkObj.dll.dll
+- InkObj.dll
+- InkObj.dll.dll
 api_name:
- - IInkGesture.ID
- - IInkGesture.get_ID
- - IInkGesture.get_Id
+- IInkGesture.ID
+- IInkGesture.get_ID
+- IInkGesture.get_Id
 targetos: Windows
 req.typenames: 
 req.redist: 

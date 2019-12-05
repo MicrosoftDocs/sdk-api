@@ -1,37 +1,35 @@
 ---
 UID: NE:d3d12video.D3D12_VIDEO_DECODE_TIER
 title: D3D12_VIDEO_DECODE_TIER
-
 description: Specifies the decoding tier of a hardware video decoder, which determines the required format of application-defined textures and buffers.
 tech.root: mf
 ms.assetid: a7e84f4d-3aa0-4986-a1da-747bbbd6c889
-
-ms.date: 05/28/2019 
+ms.date: 05/28/2019
 ms.topic: enum
 f1_keywords:
- - D3D12_VIDEO_DECODE_TIER
+- D3D12_VIDEO_DECODE_TIER
 dev_langs:
- - c++
-ms.keywords: D3D12_VIDEO_DECODE_TIER, D3D12_VIDEO_DECODE_TIER, 
+- c++
+ms.keywords: D3D12_VIDEO_DECODE_TIER, D3D12_VIDEO_DECODE_TIER,
 req.header: d3d12video.h
-req.include-header:
-req.redist:
-req.target-type:
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.ddi-compliance:
-req.max-support:
+req.include-header: 
+req.redist: 
+req.target-type: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.max-support: 
 req.typenames: D3D12_VIDEO_DECODE_TIER
-topic_type: 
- - apiref
-api_type: 
- - HeaderDef
-api_location: 
- - d3d12video.h
-api_name: 
- - D3D12_VIDEO_DECODE_TIER
+topic_type:
+- apiref
+api_type:
+- HeaderDef
+api_location:
+- d3d12video.h
+api_name:
+- D3D12_VIDEO_DECODE_TIER
 targetos: Windows
 ---
 

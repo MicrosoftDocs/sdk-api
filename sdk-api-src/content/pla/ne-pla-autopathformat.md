@@ -1,19 +1,17 @@
 ---
 UID: NE:pla.__MIDL___MIDL_itf_pla_0001_0043_0003
 title: AutoPathFormat (pla.h)
-
 description: Defines how to decorate the file name or subdirectory name.
 old-location: pla\autopathformat.htm
 tech.root: PLA
 ms.assetid: eee5e4fc-7754-44ad-b22d-5296223e2e9c
-
 ms.date: 12/05/2018
 ms.keywords: AutoPathFormat, AutoPathFormat enumeration [PLA], base.autopathformat, pla.autopathformat, pla/AutoPathFormat, pla/plaComputer, pla/plaMonthDayHour, pla/plaMonthDayHourMinute, pla/plaNone, pla/plaPattern, pla/plaSerialNumber, pla/plaYearDayOfYear, pla/plaYearMonth, pla/plaYearMonthDay, pla/plaYearMonthDayHour, plaComputer, plaMonthDayHour, plaMonthDayHourMinute, plaNone, plaPattern, plaSerialNumber, plaYearDayOfYear, plaYearMonth, plaYearMonthDay, plaYearMonthDayHour
 ms.topic: enum
-f1_keywords: 
- - "pla/AutoPathFormat"
+f1_keywords:
+- pla/AutoPathFormat
 dev_langs:
- - c++
+- c++
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Pla.h
+- Pla.h
 api_name:
- - AutoPathFormat
+- AutoPathFormat
 targetos: Windows
 req.typenames: AutoPathFormat
 req.redist: 

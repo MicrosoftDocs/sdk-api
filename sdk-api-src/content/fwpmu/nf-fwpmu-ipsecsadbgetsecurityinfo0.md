@@ -1,19 +1,17 @@
 ---
 UID: NF:fwpmu.IPsecSaDbGetSecurityInfo0
 title: IPsecSaDbGetSecurityInfo0 function (fwpmu.h)
-
 description: Retrieves a copy of the security descriptor for the IPsec security association (SA) database.
 old-location: fwp\ipsecsadbgetsecurityinfo0.htm
 tech.root: fwp
 ms.assetid: 19121de3-91bc-4dca-94f8-599a43bb1e68
-
 ms.date: 12/05/2018
 ms.keywords: IPsecSaDbGetSecurityInfo0, IPsecSaDbGetSecurityInfo0 function [Filtering], fwp.ipsecsadbgetsecurityinfo0, fwpmu/IPsecSaDbGetSecurityInfo0
 ms.topic: function
 f1_keywords:
 - fwpmu/IPsecSaDbGetSecurityInfo0
 dev_langs:
- - c++
+- c++
 req.header: fwpmu.h
 req.include-header: 
 req.target-type: Windows

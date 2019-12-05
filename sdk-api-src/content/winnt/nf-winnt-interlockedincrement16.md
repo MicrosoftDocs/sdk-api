@@ -1,19 +1,17 @@
 ---
 UID: NF:winnt.InterlockedIncrement16
 title: InterlockedIncrement16 function (winnt.h)
-
 description: Increments (increases by one) the value of the specified 16-bit variable as an atomic operation.
 old-location: base\interlockedincrement16.htm
 tech.root: Sync
 ms.assetid: 93460ed0-2c2c-4686-a8ed-02669c4df214
-
 ms.date: 12/05/2018
 ms.keywords: InterlockedIncrement16, InterlockedIncrement16 function, base.interlockedincrement16, winnt/InterlockedIncrement16
 ms.topic: function
-f1_keywords: 
- - "winnt/InterlockedIncrement16"
+f1_keywords:
+- winnt/InterlockedIncrement16
 dev_langs:
- - c++
+- c++
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Winnt.h
+- Winnt.h
 api_name:
- - InterlockedIncrement16
+- InterlockedIncrement16
 targetos: Windows
 req.typenames: 
 req.redist: 

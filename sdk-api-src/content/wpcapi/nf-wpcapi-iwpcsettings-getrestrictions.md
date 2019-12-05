@@ -1,19 +1,17 @@
 ---
 UID: NF:wpcapi.IWPCSettings.GetRestrictions
 title: IWPCSettings::GetRestrictions (wpcapi.h)
-
 description: Determines whether web restrictions, time limits, or game restrictions are on.
 old-location: parcon\iwpcsettings_getrestrictions.htm
 tech.root: parcon
 ms.assetid: 22350ef3-3068-4d33-a023-74644e5fbb83
-
 ms.date: 12/05/2018
 ms.keywords: GetRestrictions, GetRestrictions method, GetRestrictions method,IWPCSettings interface, IWPCSettings interface,GetRestrictions method, IWPCSettings.GetRestrictions, IWPCSettings::GetRestrictions, WPCFLAG_APPS_RESTRICTED, WPCFLAG_GAMES_BLOCKED, WPCFLAG_HOURS_RESTRICTED, WPCFLAG_LOGGING_REQUIRED, WPCFLAG_NO_RESTRICTION, WPCFLAG_WEB_FILTERED, parcon.iwpcsettings_getrestrictions, wpcapi/IWPCSettings::GetRestrictions
 ms.topic: method
-f1_keywords: 
- - "wpcapi/IWPCSettings.GetRestrictions"
+f1_keywords:
+- wpcapi/IWPCSettings.GetRestrictions
 dev_langs:
- - c++
+- c++
 req.header: wpcapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wpcapi.h
+- Wpcapi.h
 api_name:
- - IWPCSettings.GetRestrictions
+- IWPCSettings.GetRestrictions
 targetos: Windows
 req.typenames: 
 req.redist: 

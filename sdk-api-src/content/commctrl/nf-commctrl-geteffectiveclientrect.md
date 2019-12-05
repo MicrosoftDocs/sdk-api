@@ -1,19 +1,17 @@
 ---
 UID: NF:commctrl.GetEffectiveClientRect
 title: GetEffectiveClientRect function (commctrl.h)
-
 description: Calculates the dimensions of a rectangle in the client area that contains all the specified controls.
 old-location: controls\GetEffectiveClientRect.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\common\functions\geteffectiveclientrect.htm
-
 ms.date: 12/05/2018
 ms.keywords: GetEffectiveClientRect, GetEffectiveClientRect function [Windows Controls], _win32_GetEffectiveClientRect, _win32_GetEffectiveClientRect_cpp, commctrl/GetEffectiveClientRect, controls.GetEffectiveClientRect, controls._win32_GetEffectiveClientRect
 ms.topic: function
-f1_keywords: 
- - "commctrl/GetEffectiveClientRect"
+f1_keywords:
+- commctrl/GetEffectiveClientRect
 dev_langs:
- - c++
+- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Comctl32.lib
 req.dll: Comctl32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Comctl32.dll
+- Comctl32.dll
 api_name:
- - GetEffectiveClientRect
+- GetEffectiveClientRect
 targetos: Windows
 req.typenames: 
 req.redist: 

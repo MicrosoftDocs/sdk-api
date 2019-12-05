@@ -1,19 +1,17 @@
 ---
 UID: NF:resapi.ClusWorkersTerminate
 title: ClusWorkersTerminate function (resapi.h)
-
 description: Waits for multiple worker threads to terminate up to the specified timeout.
 old-location: mscs\clusworkersterminate.htm
 tech.root: MsCS
 ms.assetid: af9bcdcf-ca92-438b-94f2-f0e7529952fb
-
 ms.date: 12/05/2018
 ms.keywords: ClusWorkersTerminate, ClusWorkersTerminate function [Failover Cluster], mscs.clusworkersterminate, resapi/ClusWorkersTerminate
 ms.topic: function
-f1_keywords: 
- - "resapi/ClusWorkersTerminate"
+f1_keywords:
+- resapi/ClusWorkersTerminate
 dev_langs:
- - c++
+- c++
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: ResUtils.lib
 req.dll: ResUtils.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - ResUtils.dll
+- ResUtils.dll
 api_name:
- - ClusWorkersTerminate
+- ClusWorkersTerminate
 targetos: Windows
 req.typenames: 
 req.redist: 

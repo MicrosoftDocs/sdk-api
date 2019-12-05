@@ -1,19 +1,17 @@
 ---
 UID: NF:wsdclient.WSDCreateDeviceProxy
 title: WSDCreateDeviceProxy function (wsdclient.h)
-
 description: Creates a device proxy and returns a pointer to the IWSDDeviceProxy interface.
 old-location: ncd\wsdcreatedeviceproxy.htm
 tech.root: WsdApi
 ms.assetid: d432ae9a-cf34-4149-978c-637443a3824f
-
 ms.date: 12/05/2018
 ms.keywords: WSDCreateDeviceProxy, WSDCreateDeviceProxy function, ncd.wsdcreatedeviceproxy, wsdclient/WSDCreateDeviceProxy
 ms.topic: function
-f1_keywords: 
- - "wsdclient/WSDCreateDeviceProxy"
+f1_keywords:
+- wsdclient/WSDCreateDeviceProxy
 dev_langs:
- - c++
+- c++
 req.header: wsdclient.h
 req.include-header: Wsdapi.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Wsdapi.lib
 req.dll: Wsdapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Wsdapi.dll
+- Wsdapi.dll
 api_name:
- - WSDCreateDeviceProxy
+- WSDCreateDeviceProxy
 targetos: Windows
 req.typenames: 
 req.redist: 

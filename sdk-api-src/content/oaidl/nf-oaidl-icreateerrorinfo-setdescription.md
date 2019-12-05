@@ -1,19 +1,17 @@
 ---
 UID: NF:oaidl.ICreateErrorInfo.SetDescription
 title: ICreateErrorInfo::SetDescription (oaidl.h)
-
 description: Sets the textual description of the error.
 old-location: automat\icreateerrorinfo_setdescription.htm
 tech.root: automat
 ms.assetid: 32d10343-4be4-4ebc-b2fd-43a292c006b2
-
 ms.date: 12/05/2018
 ms.keywords: ICreateErrorInfo interface [Automation],SetDescription method, ICreateErrorInfo.SetDescription, ICreateErrorInfo::SetDescription, SetDescription, SetDescription method [Automation], SetDescription method [Automation],ICreateErrorInfo interface, _oa96_ICreateErrorInfo_SetDescription, automat.icreateerrorinfo_setdescription, oaidl/ICreateErrorInfo::SetDescription
 ms.topic: method
-f1_keywords: 
- - "oaidl/ICreateErrorInfo.SetDescription"
+f1_keywords:
+- oaidl/ICreateErrorInfo.SetDescription
 dev_langs:
- - c++
+- c++
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - oaidl.h
+- oaidl.h
 api_name:
- - ICreateErrorInfo.SetDescription
+- ICreateErrorInfo.SetDescription
 targetos: Windows
 req.typenames: 
 req.redist: 

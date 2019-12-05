@@ -1,19 +1,17 @@
 ---
 UID: NF:synchapi.Sleep
 title: Sleep function (synchapi.h)
-
 description: Suspends the execution of the current thread until the time-out interval elapses.
 old-location: base\sleep.htm
 tech.root: ProcThread
 ms.assetid: 934d37ea-402c-4118-bd7e-87b5fce80fca
-
 ms.date: 12/05/2018
 ms.keywords: Sleep, Sleep function, _win32_sleep, base.sleep, synchapi/Sleep, winbase/Sleep
 ms.topic: function
-f1_keywords: 
- - "synchapi/Sleep"
+f1_keywords:
+- synchapi/Sleep
 dev_langs:
- - c++
+- c++
 req.header: synchapi.h
 req.include-header: Windows Vista, Windows 7, Windows Server 2008  Windows Server 2008 R2, Windows.h
 req.target-type: Windows
@@ -32,20 +30,20 @@ req.lib: Kernel32.lib; WindowsPhoneCore.lib on Windows Phone 8.1
 req.dll: Kernel32.dll; KernelBase.dll on Windows Phone 8.1
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - KernelBase.dll
- - API-MS-Win-Core-misc-l1-1-0.dll
- - API-MS-Win-Core-Synch-l1-2-0.dll
- - API-MS-Win-Core-Synch-l1-2-1.dll
- - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
- - MinKernelBase.dll
+- Kernel32.dll
+- KernelBase.dll
+- API-MS-Win-Core-misc-l1-1-0.dll
+- API-MS-Win-Core-Synch-l1-2-0.dll
+- API-MS-Win-Core-Synch-l1-2-1.dll
+- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+- MinKernelBase.dll
 api_name:
- - Sleep
+- Sleep
 targetos: Windows
 req.typenames: 
 req.redist: 

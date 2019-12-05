@@ -1,19 +1,17 @@
 ---
 UID: NF:p2p.PeerGroupDelete
 title: PeerGroupDelete function (p2p.h)
-
 description: The PeerGroupDelete function deletes the local data and certificate associated with a peer group.
 old-location: p2p\peergroupdelete.htm
 tech.root: P2PSdk
 ms.assetid: e98df845-71d9-41f9-bf05-b46014e861df
-
 ms.date: 12/05/2018
 ms.keywords: PeerGroupDelete, PeerGroupDelete function [Peer Networking], p2p.peergroupdelete, p2p/PeerGroupDelete
 ms.topic: function
-f1_keywords: 
- - "p2p/PeerGroupDelete"
+f1_keywords:
+- p2p/PeerGroupDelete
 dev_langs:
- - c++
+- c++
 req.header: p2p.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: P2P.lib
 req.dll: P2P.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - P2P.dll
+- P2P.dll
 api_name:
- - PeerGroupDelete
+- PeerGroupDelete
 targetos: Windows
 req.typenames: 
 req.redist: 

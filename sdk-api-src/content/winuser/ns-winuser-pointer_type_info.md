@@ -1,19 +1,17 @@
 ---
 UID: NS:winuser.tagPOINTER_TYPE_INFO
 title: POINTER_TYPE_INFO (winuser.h)
-
 description: Contains information about the pointer input type.
 old-location: input_pointerdevice\pointer_type_info.htm
 tech.root: Input_PointerDevice
 ms.assetid: 5EA8012C-CF0C-4771-9A9C-A9DC218DC9AB
-
 ms.date: 12/05/2018
-ms.keywords: "*PPOINTER_TYPE_INFO, POINTER_TYPE_INFO, POINTER_TYPE_INFO structure, PPOINTER_TYPE_INFO, PPOINTER_TYPE_INFO structure pointer, input_pointerdevice.pointer_type_info, winuser/POINTER_TYPE_INFO, winuser/PPOINTER_TYPE_INFO"
+ms.keywords: '*PPOINTER_TYPE_INFO, POINTER_TYPE_INFO, POINTER_TYPE_INFO structure, PPOINTER_TYPE_INFO, PPOINTER_TYPE_INFO structure pointer, input_pointerdevice.pointer_type_info, winuser/POINTER_TYPE_INFO, winuser/PPOINTER_TYPE_INFO'
 ms.topic: struct
-f1_keywords: 
- - "winuser/POINTER_TYPE_INFO"
+f1_keywords:
+- winuser/POINTER_TYPE_INFO
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - winuser.h
+- winuser.h
 api_name:
- - POINTER_TYPE_INFO
+- POINTER_TYPE_INFO
 targetos: Windows
 req.typenames: POINTER_TYPE_INFO, *PPOINTER_TYPE_INFO
 req.redist: 

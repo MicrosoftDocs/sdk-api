@@ -1,19 +1,17 @@
 ---
 UID: NF:upnp.IUPnPDevice.get_UniqueDeviceName
 title: IUPnPDevice::get_UniqueDeviceName (upnp.h)
-
 description: The UniqueDeviceName property specifies the unique device name (UDN) of the device. A UDN is unique; no two devices can have the same UDN.
 old-location: upnp\iupnpdevice_uniquedevicename.htm
 tech.root: upnp
 ms.assetid: ca644bd3-6580-44da-87f5-11d543814043
-
 ms.date: 12/05/2018
 ms.keywords: IUPnPDevice interface [UPnP APIs],get_UniqueDeviceName method, IUPnPDevice.get_UniqueDeviceName, IUPnPDevice::get_UniqueDeviceName, _upnp_iupnpdevice_uniquedevicename, get_UniqueDeviceName, get_UniqueDeviceName method [UPnP APIs], get_UniqueDeviceName method [UPnP APIs],IUPnPDevice interface, upnp.iupnpdevice_uniquedevicename, upnp/IUPnPDevice::get_UniqueDeviceName
 ms.topic: method
-f1_keywords: 
- - "upnp/IUPnPDevice.get_UniqueDeviceName"
+f1_keywords:
+- upnp/IUPnPDevice.get_UniqueDeviceName
 dev_langs:
- - c++
+- c++
 req.header: upnp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Upnp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Upnp.dll
+- Upnp.dll
 api_name:
- - IUPnPDevice.get_UniqueDeviceName
+- IUPnPDevice.get_UniqueDeviceName
 targetos: Windows
 req.typenames: 
 req.redist: 

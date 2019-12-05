@@ -1,19 +1,17 @@
 ---
 UID: NF:shlobj_core.SHGetPathFromIDListEx
 title: SHGetPathFromIDListEx function (shlobj_core.h)
-
 description: Converts an item identifier list to a file system path. This function extends SHGetPathFromIDList by allowing you to set the initial size of the string buffer and declare the options below.
 old-location: shell\SHGetPathFromIDListEx.htm
 tech.root: shell
 ms.assetid: 80270c59-275d-4b13-b16c-0c07bb79ed8e
-
 ms.date: 12/05/2018
 ms.keywords: GPFIDL_ALTNAME, GPFIDL_DEFAULT, GPFIDL_UNCPRINTER, SHGetPathFromIDListEx, SHGetPathFromIDListEx function [Windows Shell], _shell_SHGetPathFromIDListEx, shell.SHGetPathFromIDListEx, shlobj_core/SHGetPathFromIDListEx
 ms.topic: function
-f1_keywords: 
- - "shlobj_core/SHGetPathFromIDListEx"
+f1_keywords:
+- shlobj_core/SHGetPathFromIDListEx
 dev_langs:
- - c++
+- c++
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Shell32.lib
 req.dll: Shell32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - SHGetPathFromIDListEx
+- SHGetPathFromIDListEx
 targetos: Windows
 req.typenames: 
 req.redist: 

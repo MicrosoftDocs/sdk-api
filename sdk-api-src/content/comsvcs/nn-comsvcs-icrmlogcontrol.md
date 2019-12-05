@@ -1,19 +1,17 @@
 ---
 UID: NN:comsvcs.ICrmLogControl
 title: ICrmLogControl (comsvcs.h)
-
 description: Is the means by which the CRM Worker and CRM Compensator write records to the log and make them durable.
 old-location: cos\icrmlogcontrol.htm
 tech.root: cossdk
 ms.assetid: 3309ed58-8161-46f3-93bc-afc0c9bc8d50
-
 ms.date: 12/05/2018
 ms.keywords: ICrmLogControl, ICrmLogControl interface [COM+], ICrmLogControl interface [COM+],described, _dtc_ICrmLogControl_Interface, comsvcs/ICrmLogControl, cos.icrmlogcontrol
 ms.topic: interface
-f1_keywords: 
- - "comsvcs/ICrmLogControl"
+f1_keywords:
+- comsvcs/ICrmLogControl
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - ICrmLogControl
+- ICrmLogControl
 targetos: Windows
 req.typenames: 
 req.redist: 

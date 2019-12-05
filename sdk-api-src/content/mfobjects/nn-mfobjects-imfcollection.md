@@ -1,19 +1,17 @@
 ---
 UID: NN:mfobjects.IMFCollection
 title: IMFCollection (mfobjects.h)
-
 description: Represents a generic collection of IUnknown pointers.
 old-location: mf\imfcollection.htm
 tech.root: medfound
 ms.assetid: fec6aa17-2770-4f53-b36d-b94236093d23
-
 ms.date: 12/05/2018
 ms.keywords: IMFCollection, IMFCollection interface [Media Foundation], IMFCollection interface [Media Foundation],described, fec6aa17-2770-4f53-b36d-b94236093d23, mf.imfcollection, mfobjects/IMFCollection
 ms.topic: interface
-f1_keywords: 
- - "mfobjects/IMFCollection"
+f1_keywords:
+- mfobjects/IMFCollection
 dev_langs:
- - c++
+- c++
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFCollection
+- IMFCollection
 targetos: Windows
 req.typenames: 
 req.redist: 

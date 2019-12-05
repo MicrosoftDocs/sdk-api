@@ -1,19 +1,17 @@
 ---
 UID: NF:imapi2fs.IFsiItem.put_LastModifiedTime
 title: IFsiItem::put_LastModifiedTime (imapi2fs.h)
-
 description: Sets the date and time that the item was last modified in the file system image.
 old-location: imapi\ifsiitem_put_lastmodifiedtime.htm
 tech.root: imapi
 ms.assetid: 11491b16-0bdc-41a6-a99d-0543cdc3bb64
-
 ms.date: 12/05/2018
 ms.keywords: IFsiItem interface [IMAPI],put_LastModifiedTime method, IFsiItem.put_LastModifiedTime, IFsiItem::put_LastModifiedTime, imapi.ifsiitem_put_lastmodifiedtime, imapi2fs/IFsiItem::put_LastModifiedTime, put_LastModifiedTime, put_LastModifiedTime method [IMAPI], put_LastModifiedTime method [IMAPI],IFsiItem interface
 ms.topic: method
-f1_keywords: 
- - "imapi2fs/IFsiItem.put_LastModifiedTime"
+f1_keywords:
+- imapi2fs/IFsiItem.put_LastModifiedTime
 dev_langs:
- - c++
+- c++
 req.header: imapi2fs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - imapi2fs.h
+- imapi2fs.h
 api_name:
- - IFsiItem.put_LastModifiedTime
+- IFsiItem.put_LastModifiedTime
 targetos: Windows
 req.typenames: 
 req.redist: 

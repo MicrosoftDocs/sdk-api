@@ -1,19 +1,17 @@
 ---
 UID: NF:slpublic.SLDepositMigrationBlob
 title: SLDepositMigrationBlob function (slpublic.h)
-
 description: Deposits licensing information previously collected and gathered using the SLGatherMigrationBlob function.
 old-location: security\sldepositmigrationblob.htm
 tech.root: SecSLApi
 ms.assetid: 0fe3e466-c4df-4c11-9689-1002045df791
-
 ms.date: 12/05/2018
 ms.keywords: SLDepositMigrationBlob, SLDepositMigrationBlob function [Security], security.sldepositmigrationblob, slpublic/SLDepositMigrationBlob
 ms.topic: function
-f1_keywords: 
- - "slpublic/SLDepositMigrationBlob"
+f1_keywords:
+- slpublic/SLDepositMigrationBlob
 dev_langs:
- - c++
+- c++
 req.header: slpublic.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Slc.lib
 req.dll: Slc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Slc.dll
+- Slc.dll
 api_name:
- - SLDepositMigrationBlob
+- SLDepositMigrationBlob
 targetos: Windows
 req.typenames: 
 req.redist: 

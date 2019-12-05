@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationclient.IUIAutomation.GetFocusedElementBuildCache
 title: IUIAutomation::GetFocusedElementBuildCache (uiautomationclient.h)
-
 description: Retrieves the UI Automation element that has the input focus, prefetches the requested properties and control patterns, and stores the prefetched items in the cache.
 old-location: winauto\uiauto_IUIAutomation_GetFocusedElementBuildCache.htm
 tech.root: WinAuto
 ms.assetid: c37c2703-ce01-44fe-a959-33b9f7d66e98
-
 ms.date: 12/05/2018
 ms.keywords: GetFocusedElementBuildCache, GetFocusedElementBuildCache method [Windows Accessibility], GetFocusedElementBuildCache method [Windows Accessibility],IUIAutomation interface, IUIAutomation interface [Windows Accessibility],GetFocusedElementBuildCache method, IUIAutomation.GetFocusedElementBuildCache, IUIAutomation::GetFocusedElementBuildCache, uiauto.uiauto_IUIAutomation_GetFocusedElementBuildCache, uiauto_IUIAutomation_GetFocusedElementBuildCache, uiautomationclient/IUIAutomation::GetFocusedElementBuildCache, winauto.uiauto_IUIAutomation_GetFocusedElementBuildCache
 ms.topic: method
-f1_keywords: 
- - "uiautomationclient/IUIAutomation.GetFocusedElementBuildCache"
+f1_keywords:
+- uiautomationclient/IUIAutomation.GetFocusedElementBuildCache
 dev_langs:
- - c++
+- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationClient.h
+- UIAutomationClient.h
 api_name:
- - IUIAutomation.GetFocusedElementBuildCache
+- IUIAutomation.GetFocusedElementBuildCache
 targetos: Windows
 req.typenames: 
 req.redist: 

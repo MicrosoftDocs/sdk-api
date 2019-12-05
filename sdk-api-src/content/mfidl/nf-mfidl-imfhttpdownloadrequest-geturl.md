@@ -1,19 +1,17 @@
 ---
 UID: NF:mfidl.IMFHttpDownloadRequest.GetURL
 title: IMFHttpDownloadRequest::GetURL (mfidl.h)
-
 description: Returns the URL that is used for sending the request.
 old-location: mf\imfhttpdownloadrequest_geturl.htm
 tech.root: medfound
 ms.assetid: 38FAD6B8-8C50-492C-BC53-6F301D49083F
-
 ms.date: 12/05/2018
 ms.keywords: GetURL, GetURL method [Media Foundation], GetURL method [Media Foundation],IMFHttpDownloadRequest interface, IMFHttpDownloadRequest interface [Media Foundation],GetURL method, IMFHttpDownloadRequest.GetURL, IMFHttpDownloadRequest::GetURL, mf.imfhttpdownloadrequest_geturl, mfidl/IMFHttpDownloadRequest::GetURL
 ms.topic: method
-f1_keywords: 
- - "mfidl/IMFHttpDownloadRequest.GetURL"
+f1_keywords:
+- mfidl/IMFHttpDownloadRequest.GetURL
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Mfplat.lib; Mfplat.dll
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfplat.lib
- - mfplat.dll
- - mfplat.dll
- - mfplat.dll.dll
+- mfplat.lib
+- mfplat.dll
+- mfplat.dll
+- mfplat.dll.dll
 api_name:
- - IMFHttpDownloadRequest.GetURL
+- IMFHttpDownloadRequest.GetURL
 targetos: Windows
 req.typenames: 
 req.redist: 

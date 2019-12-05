@@ -1,19 +1,17 @@
 ---
 UID: NN:dwrite.IDWriteFontCollectionLoader
 title: IDWriteFontCollectionLoader (dwrite.h)
-
 description: Used to construct a collection of fonts given a particular type of key.
 old-location: directwrite\IDWriteFontCollectionLoader.htm
 tech.root: DirectWrite
 ms.assetid: 898645ce-4bd5-4491-a31c-f60a17578872
-
 ms.date: 12/05/2018
 ms.keywords: IDWriteFontCollectionLoader, IDWriteFontCollectionLoader interface [Direct Write], IDWriteFontCollectionLoader interface [Direct Write],described, directwrite.IDWriteFontCollectionLoader, dwrite/IDWriteFontCollectionLoader
 ms.topic: interface
-f1_keywords: 
- - "dwrite/IDWriteFontCollectionLoader"
+f1_keywords:
+- dwrite/IDWriteFontCollectionLoader
 dev_langs:
- - c++
+- c++
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dwrite.lib
 req.dll: Dwrite.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dwrite.dll
+- dwrite.dll
 api_name:
- - IDWriteFontCollectionLoader
+- IDWriteFontCollectionLoader
 targetos: Windows
 req.typenames: 
 req.redist: 

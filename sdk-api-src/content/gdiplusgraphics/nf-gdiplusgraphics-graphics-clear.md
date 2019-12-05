@@ -1,19 +1,17 @@
 ---
 UID: NF:gdiplusgraphics.Graphics.Clear
 title: Graphics::Clear (gdiplusgraphics.h)
-
 description: The Graphics::Clear method clears a Graphicsobject to a specified color.
 old-location: gdiplus\_gdiplus_CLASS_Graphics_Clear_color_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\clear.htm
-
 ms.date: 12/05/2018
 ms.keywords: Clear, Clear method [GDI+], Clear method [GDI+],Graphics class, Graphics class [GDI+],Clear method, Graphics.Clear, Graphics::Clear, _gdiplus_CLASS_Graphics_Clear_color_, gdiplus._gdiplus_CLASS_Graphics_Clear_color_
 ms.topic: method
-f1_keywords: 
- - "gdiplusgraphics/Graphics.Clear"
+f1_keywords:
+- gdiplusgraphics/Graphics.Clear
 dev_langs:
- - c++
+- c++
 req.header: gdiplusgraphics.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - Graphics.Clear
+- Graphics.Clear
 targetos: Windows
 req.typenames: 
 req.redist: 

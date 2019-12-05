@@ -1,19 +1,17 @@
 ---
 UID: NF:objidl.ISurrogateService.ApplicationLaunch
 title: ISurrogateService::ApplicationLaunch (objidl.h)
-
 description: Launches the application.
 old-location: com\isurrogateservice_applicationlaunch.htm
 tech.root: com
 ms.assetid: 4e54c129-f321-4215-b084-21ab17f93a6f
-
 ms.date: 12/05/2018
 ms.keywords: ApplicationLaunch, ApplicationLaunch method [COM], ApplicationLaunch method [COM],ISurrogateService interface, ISurrogateService interface [COM],ApplicationLaunch method, ISurrogateService.ApplicationLaunch, ISurrogateService::ApplicationLaunch, _com_isurrogateservice_applicationlaunch, com.isurrogateservice_applicationlaunch, objidl/ISurrogateService::ApplicationLaunch
 ms.topic: method
-f1_keywords: 
- - "objidl/ISurrogateService.ApplicationLaunch"
+f1_keywords:
+- objidl/ISurrogateService.ApplicationLaunch
 dev_langs:
- - c++
+- c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ObjIdl.h
+- ObjIdl.h
 api_name:
- - ISurrogateService.ApplicationLaunch
+- ISurrogateService.ApplicationLaunch
 targetos: Windows
 req.typenames: 
 req.redist: 

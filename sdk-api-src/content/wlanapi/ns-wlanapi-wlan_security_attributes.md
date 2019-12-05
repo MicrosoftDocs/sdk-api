@@ -1,19 +1,17 @@
 ---
 UID: NS:wlanapi._WLAN_SECURITY_ATTRIBUTES
 title: WLAN_SECURITY_ATTRIBUTES (wlanapi.h)
-
 description: Defines the security attributes for a wireless connection.
 old-location: nwifi\wlan_security_attributes.htm
 tech.root: NativeWiFi
 ms.assetid: 37aa07a2-fe7f-46e3-9f17-545f48442f35
-
 ms.date: 12/05/2018
 ms.keywords: '*PWLAN_SECURITY_ATTRIBUTES, PWLAN_SECURITY_ATTRIBUTES, PWLAN_SECURITY_ATTRIBUTES structure pointer [NativeWIFI], WLAN_SECURITY_ATTRIBUTES, WLAN_SECURITY_ATTRIBUTES structure [NativeWIFI], nwifi.wlan_security_attributes, wlanapi/PWLAN_SECURITY_ATTRIBUTES, wlanapi/WLAN_SECURITY_ATTRIBUTES'
 ms.topic: struct
 f1_keywords:
 - wlanapi/WLAN_SECURITY_ATTRIBUTES
 dev_langs:
- - c++
+- c++
 req.header: wlanapi.h
 req.include-header: 
 req.target-type: Windows

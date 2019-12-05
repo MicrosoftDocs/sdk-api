@@ -1,19 +1,17 @@
 ---
 UID: NF:audioclient.IAudioClient.GetBufferSize
 title: IAudioClient::GetBufferSize (audioclient.h)
-
 description: The GetBufferSize method retrieves the size (maximum capacity) of the endpoint buffer.
 old-location: coreaudio\iaudioclient_getbuffersize.htm
 tech.root: CoreAudio
 ms.assetid: 562d2db6-ae14-47c9-8b8f-d4d90072b3dd
-
 ms.date: 12/05/2018
 ms.keywords: GetBufferSize, GetBufferSize method [Core Audio], GetBufferSize method [Core Audio],IAudioClient interface, IAudioClient interface [Core Audio],GetBufferSize method, IAudioClient.GetBufferSize, IAudioClient::GetBufferSize, IAudioClientGetBufferSize, audioclient/IAudioClient::GetBufferSize, coreaudio.iaudioclient_getbuffersize
 ms.topic: method
-f1_keywords: 
- - "audioclient/IAudioClient.GetBufferSize"
+f1_keywords:
+- audioclient/IAudioClient.GetBufferSize
 dev_langs:
- - c++
+- c++
 req.header: audioclient.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Audioclient.h
+- Audioclient.h
 api_name:
- - IAudioClient.GetBufferSize
+- IAudioClient.GetBufferSize
 targetos: Windows
 req.typenames: 
 req.redist: 

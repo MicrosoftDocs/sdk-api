@@ -1,19 +1,17 @@
 ---
 UID: NS:d3d10_1shader._D3D10_SHADER_DEBUG_OUTPUTREG_INFO
 title: D3D10_SHADER_DEBUG_OUTPUTREG_INFO (d3d10_1shader.h)
-
 description: Describes a shader output register.
 old-location: direct3d10\d3d10_shader_debug_outputreg_info.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\d3d10_shader_debug_outputreg_info.htm
-
 ms.date: 12/05/2018
 ms.keywords: 346fa378-bd6e-af16-a873-be0d08fda403, D3D10_SHADER_DEBUG_OUTPUTREG_INFO, D3D10_SHADER_DEBUG_OUTPUTREG_INFO structure [Direct3D 10], d3d10_1shader/D3D10_SHADER_DEBUG_OUTPUTREG_INFO, direct3d10.d3d10_shader_debug_outputreg_info
 ms.topic: struct
-f1_keywords: 
- - "d3d10_1shader/D3D10_SHADER_DEBUG_OUTPUTREG_INFO"
+f1_keywords:
+- d3d10_1shader/D3D10_SHADER_DEBUG_OUTPUTREG_INFO
 dev_langs:
- - c++
+- c++
 req.header: d3d10_1shader.h
 req.include-header: D3D10Shader.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - d3d10_1shader.h
+- d3d10_1shader.h
 api_name:
- - D3D10_SHADER_DEBUG_OUTPUTREG_INFO
+- D3D10_SHADER_DEBUG_OUTPUTREG_INFO
 targetos: Windows
 req.typenames: D3D10_SHADER_DEBUG_OUTPUTREG_INFO
 req.redist: 

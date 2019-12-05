@@ -1,19 +1,17 @@
 ---
 UID: NF:wingdi.DeleteEnhMetaFile
 title: DeleteEnhMetaFile function (wingdi.h)
-
 description: The DeleteEnhMetaFile function deletes an enhanced-format metafile or an enhanced-format metafile handle.
 old-location: gdi\deleteenhmetafile.htm
 tech.root: gdi
 ms.assetid: d3b93b3b-fa0b-4480-8348-19919c9e904d
-
 ms.date: 12/05/2018
 ms.keywords: DeleteEnhMetaFile, DeleteEnhMetaFile function [Windows GDI], DeleteEnhMetaFileW, _win32_DeleteEnhMetaFile, gdi.deleteenhmetafile, wingdi/DeleteEnhMetaFile, wingdi/DeleteEnhMetaFileW
 ms.topic: function
-f1_keywords: 
- - "wingdi/DeleteEnhMetaFile"
+f1_keywords:
+- wingdi/DeleteEnhMetaFile
 dev_langs:
- - c++
+- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,19 +30,19 @@ req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - gdi32.dll
- - Ext-MS-Win-GDI-Metafile-l1-1-0.dll
- - Ext-MS-Win-GDI-Metafile-l1-1-1.dll
- - ext-ms-win-gdi-metafile-l1-1-2.dll
- - GDI32Full.dll
+- gdi32.dll
+- Ext-MS-Win-GDI-Metafile-l1-1-0.dll
+- Ext-MS-Win-GDI-Metafile-l1-1-1.dll
+- ext-ms-win-gdi-metafile-l1-1-2.dll
+- GDI32Full.dll
 api_name:
- - DeleteEnhMetaFile
- - DeleteEnhMetaFileW
+- DeleteEnhMetaFile
+- DeleteEnhMetaFileW
 targetos: Windows
 req.typenames: 
 req.redist: 

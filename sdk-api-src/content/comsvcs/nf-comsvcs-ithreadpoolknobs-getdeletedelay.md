@@ -1,19 +1,17 @@
 ---
 UID: NF:comsvcs.IThreadPoolKnobs.GetDeleteDelay
 title: IThreadPoolKnobs::GetDeleteDelay (comsvcs.h)
-
 description: Retrieves the number of milliseconds a pooled thread can idle before being destroyed.
 old-location: cos\ithreadpoolknobs_getdeletedelay.htm
 tech.root: cossdk
 ms.assetid: 93404c39-b4f8-4247-a437-fd373b0b68fe
-
 ms.date: 12/05/2018
 ms.keywords: GetDeleteDelay, GetDeleteDelay method [COM+], GetDeleteDelay method [COM+],IThreadPoolKnobs interface, IThreadPoolKnobs interface [COM+],GetDeleteDelay method, IThreadPoolKnobs.GetDeleteDelay, IThreadPoolKnobs::GetDeleteDelay, _cos_IThreadPoolKnobs_GetDeleteDelay, comsvcs/IThreadPoolKnobs::GetDeleteDelay, cos.ithreadpoolknobs_getdeletedelay
 ms.topic: method
-f1_keywords: 
- - "comsvcs/IThreadPoolKnobs.GetDeleteDelay"
+f1_keywords:
+- comsvcs/IThreadPoolKnobs.GetDeleteDelay
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - IThreadPoolKnobs.GetDeleteDelay
+- IThreadPoolKnobs.GetDeleteDelay
 targetos: Windows
 req.typenames: 
 req.redist: 

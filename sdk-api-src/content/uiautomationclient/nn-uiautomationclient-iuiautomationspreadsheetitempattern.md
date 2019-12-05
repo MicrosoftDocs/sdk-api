@@ -1,19 +1,17 @@
 ---
 UID: NN:uiautomationclient.IUIAutomationSpreadsheetItemPattern
 title: IUIAutomationSpreadsheetItemPattern (uiautomationclient.h)
-
 description: Enables a client application to retrieve information about an item (cell) in a spreadsheet.
 old-location: winauto\uiauto_IUIAutomationSpreadsheetItemPattern.htm
 tech.root: WinAuto
 ms.assetid: 4B90ED28-5F85-4F36-8F11-1F2B60CEC9E5
-
 ms.date: 12/05/2018
 ms.keywords: IUIAutomationSpreadsheetItemPattern, IUIAutomationSpreadsheetItemPattern interface [Windows Accessibility], IUIAutomationSpreadsheetItemPattern interface [Windows Accessibility],described, uiautomationclient/IUIAutomationSpreadsheetItemPattern, winauto.uiauto_IUIAutomationSpreadsheetItemPattern
 ms.topic: interface
-f1_keywords: 
- - "uiautomationclient/IUIAutomationSpreadsheetItemPattern"
+f1_keywords:
+- uiautomationclient/IUIAutomationSpreadsheetItemPattern
 dev_langs:
- - c++
+- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: UIAutomationCore.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationCore.dll
+- UIAutomationCore.dll
 api_name:
- - IUIAutomationSpreadsheetItemPattern
+- IUIAutomationSpreadsheetItemPattern
 targetos: Windows
 req.typenames: 
 req.redist: 

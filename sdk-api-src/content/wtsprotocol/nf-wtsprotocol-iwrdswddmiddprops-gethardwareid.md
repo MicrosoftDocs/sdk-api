@@ -1,19 +1,17 @@
 ---
 UID: NF:wtsprotocol.IWRdsWddmIddProps.GetHardwareId
 title: IWRdsWddmIddProps::GetHardwareId (wtsprotocol.h)
-
 description: Protocol stack uses this method to return hardware Id of WDDM ID driver.
 old-location: termserv\iwrdswddmiddprops_gethardwareid.htm
 tech.root: TermServ
 ms.assetid: 4F9D2C6D-6555-4ABE-B856-6DD59B139978
-
 ms.date: 12/05/2018
 ms.keywords: GetHardwareId, GetHardwareId method [Remote Desktop Services], GetHardwareId method [Remote Desktop Services],IWRdsWddmIddProps interface, IWRdsWddmIddProps interface [Remote Desktop Services],GetHardwareId method, IWRdsWddmIddProps.GetHardwareId, IWRdsWddmIddProps::GetHardwareId, termserv.iwrdswddmiddprops_gethardwareid, wtsprotocol/IWRdsWddmIddProps::GetHardwareId
 ms.topic: method
-f1_keywords: 
- - "wtsprotocol/IWRdsWddmIddProps.GetHardwareId"
+f1_keywords:
+- wtsprotocol/IWRdsWddmIddProps.GetHardwareId
 dev_langs:
- - c++
+- c++
 req.header: wtsprotocol.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wtsprotocol.h
+- Wtsprotocol.h
 api_name:
- - IWRdsWddmIddProps.GetHardwareId
+- IWRdsWddmIddProps.GetHardwareId
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:mswmdm.IWMDMDeviceControl.Seek
 title: IWMDMDeviceControl::Seek (mswmdm.h)
-
 description: The Seek method seeks to a position that is used as the starting point by the Play or Record methods.
 old-location: wmdm\iwmdmdevicecontrol_seek.htm
 tech.root: WMDM
 ms.assetid: f416a520-197c-4607-979e-8f43951f2076
-
 ms.date: 12/05/2018
 ms.keywords: IWMDMDeviceControl interface [windows Media Device Manager],Seek method, IWMDMDeviceControl.Seek, IWMDMDeviceControl::Seek, IWMDMDeviceControlSeek, Seek, Seek method [windows Media Device Manager], Seek method [windows Media Device Manager],IWMDMDeviceControl interface, mswmdm/IWMDMDeviceControl::Seek, wmdm.iwmdmdevicecontrol_seek
 ms.topic: method
-f1_keywords: 
- - "mswmdm/IWMDMDeviceControl.Seek"
+f1_keywords:
+- mswmdm/IWMDMDeviceControl.Seek
 dev_langs:
- - c++
+- c++
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mssachlp.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mssachlp.lib
- - mssachlp.dll
+- mssachlp.lib
+- mssachlp.dll
 api_name:
- - IWMDMDeviceControl.Seek
+- IWMDMDeviceControl.Seek
 targetos: Windows
 req.typenames: 
 req.redist: 

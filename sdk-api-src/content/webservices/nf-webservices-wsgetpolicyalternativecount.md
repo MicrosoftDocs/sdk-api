@@ -1,19 +1,17 @@
 ---
 UID: NF:webservices.WsGetPolicyAlternativeCount
 title: WsGetPolicyAlternativeCount function (webservices.h)
-
 description: Retrieves the number of alternatives available in the policy object. The alternative count can be used to loop through each alternative using WsMatchPolicyAlternative.
 old-location: wsw\wsgetpolicyalternativecount.htm
 tech.root: wsw
 ms.assetid: 2d3ac397-07a0-45c4-84b4-0f4806a324bc
-
 ms.date: 12/05/2018
 ms.keywords: WsGetPolicyAlternativeCount, WsGetPolicyAlternativeCount function [Web Services for Windows], webservices/WsGetPolicyAlternativeCount, wsw.wsgetpolicyalternativecount
 ms.topic: function
-f1_keywords: 
- - "webservices/WsGetPolicyAlternativeCount"
+f1_keywords:
+- webservices/WsGetPolicyAlternativeCount
 dev_langs:
- - c++
+- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: WebServices.lib
 req.dll: WebServices.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - WebServices.dll
+- WebServices.dll
 api_name:
- - WsGetPolicyAlternativeCount
+- WsGetPolicyAlternativeCount
 targetos: Windows
 req.typenames: 
 req.redist: 

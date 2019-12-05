@@ -1,19 +1,17 @@
 ---
 UID: NF:commctrl.Header_GetItemCount
 title: Header_GetItemCount macro (commctrl.h)
-
 description: Gets a count of the items in a header control. You can use this macro or send the HDM_GETITEMCOUNT message explicitly.
 old-location: controls\Header_GetItemCount.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\header\macros\header_getitemcount.htm
-
 ms.date: 12/05/2018
 ms.keywords: Header_GetItemCount, Header_GetItemCount macro [Windows Controls], _win32_Header_GetItemCount, _win32_Header_GetItemCount_cpp, commctrl/Header_GetItemCount, controls.Header_GetItemCount, controls._win32_Header_GetItemCount
 ms.topic: macro
-f1_keywords: 
- - "commctrl/Header_GetItemCount"
+f1_keywords:
+- commctrl/Header_GetItemCount
 dev_langs:
- - c++
+- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Commctrl.h
+- Commctrl.h
 api_name:
- - Header_GetItemCount
+- Header_GetItemCount
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:mbnapi.IMbnSmsReadMsgPdu.get_Message
 title: IMbnSmsReadMsgPdu::get_Message (mbnapi.h)
-
 description: Message in WMT format as used by CDMA devices.
 old-location: mbn\imbnsmsreadmsgpdu_message.htm
 tech.root: mbn
 ms.assetid: 83135a78-096c-4690-be07-a64febecd66c
-
 ms.date: 12/05/2018
 ms.keywords: IMbnSmsReadMsgPdu interface [Microsoft Broadband Networks],Message property, IMbnSmsReadMsgPdu.Message, IMbnSmsReadMsgPdu.get_Message, IMbnSmsReadMsgPdu::Message, IMbnSmsReadMsgPdu::get_Message, Message property [Microsoft Broadband Networks], Message property [Microsoft Broadband Networks],IMbnSmsReadMsgPdu interface, get_Message, mbn.imbnsmsreadmsgpdu_message, mbnapi/IMbnSmsReadMsgPdu::Message, mbnapi/IMbnSmsReadMsgPdu::get_Message
 ms.topic: method
-f1_keywords: 
- - "mbnapi/IMbnSmsReadMsgPdu.Message"
+f1_keywords:
+- mbnapi/IMbnSmsReadMsgPdu.Message
 dev_langs:
- - c++
+- c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mbnapi.h
+- mbnapi.h
 api_name:
- - IMbnSmsReadMsgPdu.Message
- - IMbnSmsReadMsgPdu.get_Message
+- IMbnSmsReadMsgPdu.Message
+- IMbnSmsReadMsgPdu.get_Message
 targetos: Windows
 req.typenames: 
 req.redist: 

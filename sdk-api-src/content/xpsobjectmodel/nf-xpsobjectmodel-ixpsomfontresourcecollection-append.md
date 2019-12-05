@@ -1,19 +1,17 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMFontResourceCollection.Append
 title: IXpsOMFontResourceCollection::Append (xpsobjectmodel.h)
-
 description: Appends an IXpsOMFontResource interface to the end of the collection.
 old-location: xps\ixpsomfontresourcecollection_append.htm
 tech.root: printdocs
 ms.assetid: ddee8ecc-6426-47b2-940d-045c21ce588c
-
 ms.date: 12/05/2018
 ms.keywords: Append, Append method [XPS Documents and Packaging], Append method [XPS Documents and Packaging],IXpsOMFontResourceCollection interface, IXpsOMFontResourceCollection interface [XPS Documents and Packaging],Append method, IXpsOMFontResourceCollection.Append, IXpsOMFontResourceCollection::Append, xps.ixpsomfontresourcecollection_append, xpsobjectmodel/IXpsOMFontResourceCollection::Append
 ms.topic: method
-f1_keywords: 
- - "xpsobjectmodel/IXpsOMFontResourceCollection.Append"
+f1_keywords:
+- xpsobjectmodel/IXpsOMFontResourceCollection.Append
 dev_langs:
- - c++
+- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsobjectmodel.h
+- xpsobjectmodel.h
 api_name:
- - IXpsOMFontResourceCollection.Append
+- IXpsOMFontResourceCollection.Append
 targetos: Windows
 req.typenames: 
 req.redist: 

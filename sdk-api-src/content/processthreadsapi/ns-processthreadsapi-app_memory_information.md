@@ -1,19 +1,17 @@
 ---
 UID: NS:processthreadsapi._APP_MEMORY_INFORMATION
 title: APP_MEMORY_INFORMATION (processthreadsapi.h)
-
 description: Represents app memory usage at a single point in time. This structure is used by the PROCESS_INFORMATION_CLASS class.
 old-location: base\app_memory_information.htm
 tech.root: ProcThread
 ms.assetid: A2D0CDED-0E8B-41D6-8435-BDB4E5445DE4
-
 ms.date: 12/05/2018
-ms.keywords: "*PAPP_MEMORY_INFORMATION, APP_MEMORY_INFORMATION, APP_MEMORY_INFORMATION structure, PAPP_MEMORY_INFORMATION, PAPP_MEMORY_INFORMATION structure pointer, base.app_memory_information, processthreadsapi/APP_MEMORY_INFORMATION, processthreadsapi/PAPP_MEMORY_INFORMATION"
+ms.keywords: '*PAPP_MEMORY_INFORMATION, APP_MEMORY_INFORMATION, APP_MEMORY_INFORMATION structure, PAPP_MEMORY_INFORMATION, PAPP_MEMORY_INFORMATION structure pointer, base.app_memory_information, processthreadsapi/APP_MEMORY_INFORMATION, processthreadsapi/PAPP_MEMORY_INFORMATION'
 ms.topic: struct
-f1_keywords: 
- - "processthreadsapi/APP_MEMORY_INFORMATION"
+f1_keywords:
+- processthreadsapi/APP_MEMORY_INFORMATION
 dev_langs:
- - c++
+- c++
 req.header: processthreadsapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - processthreadsapi.h
+- processthreadsapi.h
 api_name:
- - APP_MEMORY_INFORMATION
+- APP_MEMORY_INFORMATION
 targetos: Windows
 req.typenames: APP_MEMORY_INFORMATION, *PAPP_MEMORY_INFORMATION
 req.redist: 

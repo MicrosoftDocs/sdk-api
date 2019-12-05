@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IShellItemImageFactory.GetImage
 title: IShellItemImageFactory::GetImage (shobjidl_core.h)
-
 description: Gets an HBITMAP that represents an IShellItem.
 old-location: shell\IShellItemImageFactory_GetImage.htm
 tech.root: shell
 ms.assetid: b31a5eb7-f12f-41e0-9047-450240371424
-
 ms.date: 12/05/2018
 ms.keywords: GetImage, GetImage method [Windows Shell], GetImage method [Windows Shell],IShellItemImageFactory interface, IShellItemImageFactory interface [Windows Shell],GetImage method, IShellItemImageFactory.GetImage, IShellItemImageFactory::GetImage, SIIGBF_BIGGERSIZEOK, SIIGBF_CROPTOSQUARE, SIIGBF_ICONBACKGROUND, SIIGBF_ICONONLY, SIIGBF_INCACHEONLY, SIIGBF_MEMORYONLY, SIIGBF_RESIZETOFIT, SIIGBF_SCALEUP, SIIGBF_THUMBNAILONLY, SIIGBF_WIDETHUMBNAILS, _shell_IShellItemImageFactory_GetImage, shell.IShellItemImageFactory_GetImage, shobjidl_core/IShellItemImageFactory::GetImage
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IShellItemImageFactory.GetImage"
+f1_keywords:
+- shobjidl_core/IShellItemImageFactory.GetImage
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - IShellItemImageFactory.GetImage
+- IShellItemImageFactory.GetImage
 targetos: Windows
 req.typenames: 
 req.redist: 

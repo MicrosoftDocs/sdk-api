@@ -1,19 +1,17 @@
 ---
 UID: NF:ctffunc.ITfCandidateString.GetIndex
 title: ITfCandidateString::GetIndex (ctffunc.h)
-
 description: ITfCandidateString::GetIndex method
 old-location: tsf\itfcandidatestring_getindex.htm
 tech.root: TSF
 ms.assetid: 16ec9a89-db57-41ad-9e32-db0b24abda13
-
 ms.date: 12/05/2018
 ms.keywords: GetIndex, GetIndex method [Text Services Framework], GetIndex method [Text Services Framework],ITfCandidateString interface, ITfCandidateString interface [Text Services Framework],GetIndex method, ITfCandidateString.GetIndex, ITfCandidateString::GetIndex, _tsf_itfcandidatestring_getindex_ref, ctffunc/ITfCandidateString::GetIndex, tsf.itfcandidatestring_getindex
 ms.topic: method
-f1_keywords: 
- - "ctffunc/ITfCandidateString.GetIndex"
+f1_keywords:
+- ctffunc/ITfCandidateString.GetIndex
 dev_langs:
- - c++
+- c++
 req.header: ctffunc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Tiptsf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Tiptsf.dll
+- Tiptsf.dll
 api_name:
- - ITfCandidateString.GetIndex
+- ITfCandidateString.GetIndex
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

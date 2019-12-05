@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IPropertyUI.GetFlags
 title: IPropertyUI::GetFlags (shobjidl_core.h)
-
 description: Developers should use IPropertyDescription instead. Gets property feature flags for a specified property.
 old-location: properties\IPropertyUI_GetFlags.htm
 tech.root: properties
 ms.assetid: 8ADF50C1-CD6C-489c-9599-2AEB5C5FF00C
-
 ms.date: 12/05/2018
 ms.keywords: GetFlags, GetFlags method [Windows Properties], GetFlags method [Windows Properties],IPropertyUI interface, IPropertyUI interface [Windows Properties],GetFlags method, IPropertyUI.GetFlags, IPropertyUI::GetFlags, _shell_IPropertyUI_GetFlags, properties.IPropertyUI_GetFlags, shell.IPropertyUI_GetFlags, shobjidl_core/IPropertyUI::GetFlags
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IPropertyUI.GetFlags"
+f1_keywords:
+- shobjidl_core/IPropertyUI.GetFlags
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shobjidl_core.h
+- Shobjidl_core.h
 api_name:
- - IPropertyUI.GetFlags
+- IPropertyUI.GetFlags
 targetos: Windows
 req.typenames: 
 req.redist: 

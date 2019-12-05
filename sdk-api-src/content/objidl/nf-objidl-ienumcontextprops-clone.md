@@ -1,19 +1,17 @@
 ---
 UID: NF:objidl.IEnumContextProps.Clone
 title: IEnumContextProps::Clone (objidl.h)
-
 description: Creates a new enumerator that contains the same enumeration state as the current one.
 old-location: com\ienumcontextprops_clone.htm
 tech.root: com
 ms.assetid: 0bf7f7da-9e40-49bd-9bd0-d2fcdfc2f517
-
 ms.date: 12/05/2018
 ms.keywords: Clone, Clone method [COM], Clone method [COM],IEnumContextProps interface, IEnumContextProps interface [COM],Clone method, IEnumContextProps.Clone, IEnumContextProps::Clone, _com_ienumcontextprops_clone, com.ienumcontextprops_clone, objidlbase/IEnumContextProps::Clone
 ms.topic: method
-f1_keywords: 
- - "objidl/IEnumContextProps.Clone"
+f1_keywords:
+- objidl/IEnumContextProps.Clone
 dev_langs:
- - c++
+- c++
 req.header: objidl.h
 req.include-header: ObjIdl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - objidlbase.h
+- objidlbase.h
 api_name:
- - IEnumContextProps.Clone
+- IEnumContextProps.Clone
 targetos: Windows
 req.typenames: 
 req.redist: 

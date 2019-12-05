@@ -1,19 +1,17 @@
 ---
 UID: NF:spatialaudioclient.ISpatialAudioObjectBase.IsActive
 title: ISpatialAudioObjectBase::IsActive (spatialaudioclient.h)
-
 description: Gets a boolean value indicating whether the ISpatialAudioObject is valid.
 old-location: coreaudio\ispatialaudioobject_isactive.htm
 tech.root: CoreAudio
 ms.assetid: 3339E021-4AC3-43CB-9306-C8D58541CA5F
-
 ms.date: 12/05/2018
 ms.keywords: ISpatialAudioObjectBase interface [Core Audio],IsActive method, ISpatialAudioObjectBase.IsActive, ISpatialAudioObjectBase::IsActive, IsActive, IsActive method [Core Audio], IsActive method [Core Audio],ISpatialAudioObjectBase interface, coreaudio.ispatialaudioobject_isactive, spatialaudioclient/ISpatialAudioObjectBase::IsActive
 ms.topic: method
-f1_keywords: 
- - "spatialaudioclient/ISpatialAudioObjectBase.IsActive"
+f1_keywords:
+- spatialaudioclient/ISpatialAudioObjectBase.IsActive
 dev_langs:
- - c++
+- c++
 req.header: spatialaudioclient.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - spatialaudioclient.h
+- spatialaudioclient.h
 api_name:
- - ISpatialAudioObjectBase.IsActive
+- ISpatialAudioObjectBase.IsActive
 targetos: Windows
 req.typenames: 
 req.redist: 

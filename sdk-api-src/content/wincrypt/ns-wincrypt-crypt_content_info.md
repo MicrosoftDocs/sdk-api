@@ -1,19 +1,17 @@
 ---
 UID: NS:wincrypt._CRYPT_CONTENT_INFO
 title: CRYPT_CONTENT_INFO (wincrypt.h)
-
-description: Contains data encoded in the PKCS #7 ContentInfo data format.
+description: Contains data encoded in the PKCS
 old-location: security\crypt_content_info.htm
 tech.root: SecCrypto
 ms.assetid: 033de6e3-c860-4f41-902b-79f528f5736b
-
 ms.date: 12/05/2018
-ms.keywords: "*PCRYPT_CONTENT_INFO, CRYPT_CONTENT_INFO, CRYPT_CONTENT_INFO structure [Security], PCRYPT_CONTENT_INFO, PCRYPT_CONTENT_INFO structure pointer [Security], _crypto2_crypt_content_info, security.crypt_content_info, wincrypt/CRYPT_CONTENT_INFO, wincrypt/PCRYPT_CONTENT_INFO"
+ms.keywords: '*PCRYPT_CONTENT_INFO, CRYPT_CONTENT_INFO, CRYPT_CONTENT_INFO structure [Security], PCRYPT_CONTENT_INFO, PCRYPT_CONTENT_INFO structure pointer [Security], _crypto2_crypt_content_info, security.crypt_content_info, wincrypt/CRYPT_CONTENT_INFO, wincrypt/PCRYPT_CONTENT_INFO'
 ms.topic: struct
-f1_keywords: 
- - "wincrypt/CRYPT_CONTENT_INFO"
+f1_keywords:
+- wincrypt/CRYPT_CONTENT_INFO
 dev_langs:
- - c++
+- c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wincrypt.h
+- Wincrypt.h
 api_name:
- - CRYPT_CONTENT_INFO
+- CRYPT_CONTENT_INFO
 targetos: Windows
 req.typenames: CRYPT_CONTENT_INFO, *PCRYPT_CONTENT_INFO
 req.redist: 

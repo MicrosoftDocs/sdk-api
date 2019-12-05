@@ -1,19 +1,17 @@
 ---
 UID: NF:oledlg.OleUIBusyA
 title: OleUIBusyA function (oledlg.h)
-
 description: Invokes the standard Busy dialog box, allowing the user to manage concurrency.
 old-location: com\oleuibusy.htm
 tech.root: com
 ms.assetid: 317f0dbf-7ac9-4e5a-a5ed-e6b807f07fb2
-
 ms.date: 12/05/2018
 ms.keywords: OleUIBusy, OleUIBusy function [COM], OleUIBusyA, OleUIBusyW, _ole_OleUIBusy, com.oleuibusy, oledlg/OleUIBusy, oledlg/OleUIBusyA, oledlg/OleUIBusyW
 ms.topic: function
-f1_keywords: 
- - "oledlg/OleUIBusy"
+f1_keywords:
+- oledlg/OleUIBusy
 dev_langs:
- - c++
+- c++
 req.header: oledlg.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: OleDlg.lib
 req.dll: OleDlg.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - OleDlg.dll
+- OleDlg.dll
 api_name:
- - OleUIBusy
- - OleUIBusyA
- - OleUIBusyW
+- OleUIBusy
+- OleUIBusyA
+- OleUIBusyW
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NE:mfobjects._MF_ATTRIBUTE_TYPE
 title: MF_ATTRIBUTE_TYPE (mfobjects.h)
-
 description: Defines the data type for a key/value pair.
 old-location: mf\mf_attribute_type.htm
 tech.root: medfound
 ms.assetid: 1844fbe2-0a07-4c0c-9ffe-4c59fc01f793
-
 ms.date: 12/05/2018
 ms.keywords: 1844fbe2-0a07-4c0c-9ffe-4c59fc01f793, MF_ATTRIBUTE_BLOB, MF_ATTRIBUTE_DOUBLE, MF_ATTRIBUTE_GUID, MF_ATTRIBUTE_IUNKNOWN, MF_ATTRIBUTE_STRING, MF_ATTRIBUTE_TYPE, MF_ATTRIBUTE_TYPE enumeration [Media Foundation], MF_ATTRIBUTE_UINT32, MF_ATTRIBUTE_UINT64, mf.mf_attribute_type, mfobjects/MF_ATTRIBUTE_BLOB, mfobjects/MF_ATTRIBUTE_DOUBLE, mfobjects/MF_ATTRIBUTE_GUID, mfobjects/MF_ATTRIBUTE_IUNKNOWN, mfobjects/MF_ATTRIBUTE_STRING, mfobjects/MF_ATTRIBUTE_TYPE, mfobjects/MF_ATTRIBUTE_UINT32, mfobjects/MF_ATTRIBUTE_UINT64
 ms.topic: enum
-f1_keywords: 
- - "mfobjects/MF_ATTRIBUTE_TYPE"
+f1_keywords:
+- mfobjects/MF_ATTRIBUTE_TYPE
 dev_langs:
- - c++
+- c++
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - mfobjects.h
+- mfobjects.h
 api_name:
- - MF_ATTRIBUTE_TYPE
+- MF_ATTRIBUTE_TYPE
 targetos: Windows
 req.typenames: MF_ATTRIBUTE_TYPE
 req.redist: 

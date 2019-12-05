@@ -1,19 +1,17 @@
 ---
 UID: NF:fwpmu.IPsecSaContextEnum1
 title: IPsecSaContextEnum1 function (fwpmu.h)
-
 description: Returns the next page of results from the IPsec security association (SA) context enumerator.
 old-location: fwp\ipsecsacontextenum1.htm
 tech.root: fwp
 ms.assetid: 941db3ea-8b3c-47fd-9264-3e76a3d13e87
-
 ms.date: 12/05/2018
 ms.keywords: IPsecSaContextEnum1, IPsecSaContextEnum1 function [Filtering], fwp.ipsecsacontextenum1, fwpmu/IPsecSaContextEnum1
 ms.topic: function
-f1_keywords: 
- - "fwpmu/IPsecSaContextEnum1"
+f1_keywords:
+- fwpmu/IPsecSaContextEnum1
 dev_langs:
- - c++
+- c++
 req.header: fwpmu.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Fwpuclnt.lib
 req.dll: Fwpuclnt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Fwpuclnt.dll
+- Fwpuclnt.dll
 api_name:
- - IPsecSaContextEnum1
+- IPsecSaContextEnum1
 targetos: Windows
 req.typenames: 
 req.redist: 

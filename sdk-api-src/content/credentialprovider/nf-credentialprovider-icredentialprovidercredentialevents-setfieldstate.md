@@ -1,19 +1,17 @@
 ---
 UID: NF:credentialprovider.ICredentialProviderCredentialEvents.SetFieldState
 title: ICredentialProviderCredentialEvents::SetFieldState (credentialprovider.h)
-
 description: Communicates to the Logon UI or Credential UI that a field state has changed and that the UI should be updated.
 old-location: shell\ICredentialProviderCredentialEvents_SetFieldState.htm
 tech.root: shell
 ms.assetid: d3498bca-cc31-4a80-9f31-e1e6d020d777
-
 ms.date: 12/05/2018
 ms.keywords: ICredentialProviderCredentialEvents interface [Windows Shell],SetFieldState method, ICredentialProviderCredentialEvents.SetFieldState, ICredentialProviderCredentialEvents::SetFieldState, SetFieldState, SetFieldState method [Windows Shell], SetFieldState method [Windows Shell],ICredentialProviderCredentialEvents interface, _shell_ICredentialProviderCredentialEvents_SetFieldState, credentialprovider/ICredentialProviderCredentialEvents::SetFieldState, shell.ICredentialProviderCredentialEvents_SetFieldState
 ms.topic: method
-f1_keywords: 
- - "credentialprovider/ICredentialProviderCredentialEvents.SetFieldState"
+f1_keywords:
+- credentialprovider/ICredentialProviderCredentialEvents.SetFieldState
 dev_langs:
- - c++
+- c++
 req.header: credentialprovider.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Credentialprovider.h
+- Credentialprovider.h
 api_name:
- - ICredentialProviderCredentialEvents.SetFieldState
+- ICredentialProviderCredentialEvents.SetFieldState
 targetos: Windows
 req.typenames: 
 req.redist: 

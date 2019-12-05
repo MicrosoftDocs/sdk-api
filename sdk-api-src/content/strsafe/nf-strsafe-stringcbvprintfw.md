@@ -1,19 +1,17 @@
 ---
 UID: NF:strsafe.StringCbVPrintfW
 title: StringCbVPrintfW function (strsafe.h)
-
 description: Writes formatted data to the specified string using a pointer to a list of arguments.
 old-location: menurc\stringcbvprintf.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\strings\stringreference\stringfunctions\stringcbvprintf.htm
-
 ms.date: 12/05/2018
 ms.keywords: StringCbVPrintf, StringCbVPrintf function [Menus and Other Resources], StringCbVPrintfA, StringCbVPrintfW, _shell_StringCbVPrintf, _shell_stringcbvprintf_cpp, menurc.stringcbvprintf, strsafe/StringCbVPrintf, strsafe/StringCbVPrintfA, strsafe/StringCbVPrintfW, winui._shell_stringcbvprintf
 ms.topic: function
-f1_keywords: 
- - "strsafe/StringCbVPrintf"
+f1_keywords:
+- strsafe/StringCbVPrintf
 dev_langs:
- - c++
+- c++
 req.header: strsafe.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Strsafe.h
+- Strsafe.h
 api_name:
- - StringCbVPrintf
- - StringCbVPrintfA
- - StringCbVPrintfW
+- StringCbVPrintf
+- StringCbVPrintfA
+- StringCbVPrintfW
 targetos: Windows
 req.typenames: 
 req.redist: 

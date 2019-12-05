@@ -5,14 +5,13 @@ description: Queues a GPU-side wait, and returns immediately. A GPU-side wait is
 old-location: direct3d12\id3d12commandqueue_wait.htm
 tech.root: direct3d12
 ms.assetid: 75D494D0-BCEC-453E-AB4F-E57CE2C9B318
-
 ms.date: 12/05/2018
 ms.keywords: ID3D12CommandQueue interface,Wait method, ID3D12CommandQueue.Wait, ID3D12CommandQueue::Wait, Wait, Wait method, Wait method,ID3D12CommandQueue interface, d3d12/ID3D12CommandQueue::Wait, direct3d12.id3d12commandqueue_wait
 ms.topic: method
-f1_keywords: 
- - "d3d12/ID3D12CommandQueue.Wait"
+f1_keywords:
+- d3d12/ID3D12CommandQueue.Wait
 dev_langs:
- - c++
+- c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows
@@ -31,14 +30,14 @@ req.lib: D3D12.lib
 req.dll: D3D12.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D12.dll
+- D3D12.dll
 api_name:
- - ID3D12CommandQueue.Wait
+- ID3D12CommandQueue.Wait
 targetos: Windows
 req.typenames: 
 req.redist: 

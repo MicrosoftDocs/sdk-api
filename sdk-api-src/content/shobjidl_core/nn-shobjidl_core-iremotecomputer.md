@@ -1,19 +1,17 @@
 ---
 UID: NN:shobjidl_core.IRemoteComputer
 title: IRemoteComputer (shobjidl_core.h)
-
 description: Exposes a method that enumerates or initializes a namespace extension when it is invoked on a remote object. This interface is used, for example, to initialize the remote printers virtual folder.
 old-location: shell\IRemoteComputer.htm
 tech.root: shell
 ms.assetid: a2137043-baee-496b-b3ad-45af5a6f123e
-
 ms.date: 12/05/2018
 ms.keywords: IRemoteComputer, IRemoteComputer interface [Windows Shell], IRemoteComputer interface [Windows Shell],described, _win32_IRemoteComputer, shell.IRemoteComputer, shobjidl_core/IRemoteComputer
 ms.topic: interface
-f1_keywords: 
- - "shobjidl_core/IRemoteComputer"
+f1_keywords:
+- shobjidl_core/IRemoteComputer
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Shell32.dll (version 5.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - IRemoteComputer
+- IRemoteComputer
 targetos: Windows
 req.typenames: 
 req.redist: 

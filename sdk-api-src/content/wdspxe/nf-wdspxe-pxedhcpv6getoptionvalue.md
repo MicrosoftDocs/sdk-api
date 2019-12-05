@@ -1,19 +1,17 @@
 ---
 UID: NF:wdspxe.PxeDhcpv6GetOptionValue
 title: PxeDhcpv6GetOptionValue function (wdspxe.h)
-
 description: Retrieves an option value from a DHCPv6 packet.
 old-location: wds\pxedhcpv6getoptionvalue.htm
 tech.root: wds
 ms.assetid: 0DC0CF7F-0C74-4595-9DC6-9468E1E7DA20
-
 ms.date: 12/05/2018
 ms.keywords: PxeDhcpv6GetOptionValue, PxeDhcpv6GetOptionValue function [Windows Deployment Services], wds.pxedhcpv6getoptionvalue, wdspxe/PxeDhcpv6GetOptionValue
 ms.topic: function
-f1_keywords: 
- - "wdspxe/PxeDhcpv6GetOptionValue"
+f1_keywords:
+- wdspxe/PxeDhcpv6GetOptionValue
 dev_langs:
- - c++
+- c++
 req.header: wdspxe.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: WdsPxe.lib
 req.dll: WdsPxe.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - WdsPxe.dll
+- WdsPxe.dll
 api_name:
- - PxeDhcpv6GetOptionValue
+- PxeDhcpv6GetOptionValue
 targetos: Windows
 req.typenames: 
 req.redist: 

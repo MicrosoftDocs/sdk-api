@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationcoreapi.TextRange_Select
 title: TextRange_Select function (uiautomationcoreapi.h)
-
 description: Selects a text range.
 old-location: winauto\uiauto_TextRange_SelectConPat.htm
 tech.root: WinAuto
 ms.assetid: 9d781be6-9eed-4559-9c68-424eb6326ee9
-
 ms.date: 12/05/2018
 ms.keywords: TextRange_Select, TextRange_Select function [Windows Accessibility], uiauto.uiauto_TextRange_SelectConPat, uiauto_TextRange_SelectConPat, uiautomationcoreapi/TextRange_Select, winauto.uiauto_TextRange_SelectConPat
 ms.topic: function
-f1_keywords: 
- - "uiautomationcoreapi/TextRange_Select"
+f1_keywords:
+- uiautomationcoreapi/TextRange_Select
 dev_langs:
- - c++
+- c++
 req.header: uiautomationcoreapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uiautomationcore.lib
 req.dll: Uiautomationcore.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Uiautomationcore.dll
+- Uiautomationcore.dll
 api_name:
- - TextRange_Select
+- TextRange_Select
 targetos: Windows
 req.typenames: 
 req.redist: 

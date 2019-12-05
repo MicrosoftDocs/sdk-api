@@ -1,19 +1,17 @@
 ---
 UID: NS:mfplay.MFP_MF_EVENT
 title: MFP_MF_EVENT (mfplay.h)
-
 description: Event structure for the MFP_EVENT_TYPE_MF event.
 old-location: mf\mfp_mf_event.htm
 tech.root: medfound
 ms.assetid: 61dec86d-919c-4b1b-ab2a-527d062ae0f8
-
 ms.date: 12/05/2018
 ms.keywords: MFP_MF_EVENT, MFP_MF_EVENT structure [Media Foundation], mf.mfp_mf_event, mfplay/MFP_MF_EVENT
 ms.topic: struct
-f1_keywords: 
- - "mfplay/MFP_MF_EVENT"
+f1_keywords:
+- mfplay/MFP_MF_EVENT
 dev_langs:
- - c++
+- c++
 req.header: mfplay.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - mfplay.h
+- mfplay.h
 api_name:
- - MFP_MF_EVENT
+- MFP_MF_EVENT
 targetos: Windows
 req.typenames: MFP_MF_EVENT
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NS:wsnwlink._IPX_ADDRESS_DATA
 title: IPX_ADDRESS_DATA (wsnwlink.h)
-
 description: The IPX_ADDRESS_DATA structure provides information about a specific adapter to which IPX is bound. Used in conjunction with getsockopt function calls that specify IPX_ADDRESS in the optname parameter.
 old-location: winsock\ipx_address_data_2.htm
 tech.root: WinSock
 ms.assetid: 8e18ee5a-04fd-4efc-8d0c-e4ff04fd9f1b
-
 ms.date: 12/05/2018
-ms.keywords: "*PIPX_ADDRESS_DATA, IPX_ADDRESS_DATA, IPX_ADDRESS_DATA structure [Winsock], PIPX_ADDRESS_DATA, PIPX_ADDRESS_DATA structure pointer [Winsock], _win32_ipx_address_data_2, winsock.ipx_address_data_2, wsnwlink/IPX_ADDRESS_DATA, wsnwlink/PIPX_ADDRESS_DATA"
+ms.keywords: '*PIPX_ADDRESS_DATA, IPX_ADDRESS_DATA, IPX_ADDRESS_DATA structure [Winsock], PIPX_ADDRESS_DATA, PIPX_ADDRESS_DATA structure pointer [Winsock], _win32_ipx_address_data_2, winsock.ipx_address_data_2, wsnwlink/IPX_ADDRESS_DATA, wsnwlink/PIPX_ADDRESS_DATA'
 ms.topic: struct
-f1_keywords: 
- - "wsnwlink/IPX_ADDRESS_DATA"
+f1_keywords:
+- wsnwlink/IPX_ADDRESS_DATA
 dev_langs:
- - c++
+- c++
 req.header: wsnwlink.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wsnwlink.h
+- Wsnwlink.h
 api_name:
- - IPX_ADDRESS_DATA
+- IPX_ADDRESS_DATA
 targetos: Windows
 req.typenames: IPX_ADDRESS_DATA, *PIPX_ADDRESS_DATA
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NN:azroles.IAzApplicationGroup2
 title: IAzApplicationGroup2 (azroles.h)
-
 description: Extends the IAzApplicationGroup interface by adding support for the BizRule group type.
 old-location: security\iazapplicationgroup2.htm
 tech.root: SecAuthZ
 ms.assetid: 948357d7-4e59-48d2-9e3b-7d88a4c81023
-
 ms.date: 12/05/2018
 ms.keywords: IAzApplicationGroup2, IAzApplicationGroup2 interface [Security], IAzApplicationGroup2 interface [Security],described, azroles/IAzApplicationGroup2, security.iazapplicationgroup2
 ms.topic: interface
-f1_keywords: 
- - "azroles/IAzApplicationGroup2"
+f1_keywords:
+- azroles/IAzApplicationGroup2
 dev_langs:
- - c++
+- c++
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Azroles.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Azroles.dll
+- Azroles.dll
 api_name:
- - IAzApplicationGroup2
+- IAzApplicationGroup2
 targetos: Windows
 req.typenames: 
 req.redist: 

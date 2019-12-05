@@ -1,19 +1,17 @@
 ---
 UID: NS:tssbx.__MIDL_IWTSSBPlugin_0007
 title: WTSSBX_MACHINE_INFO (tssbx.h)
-
 description: Contains information about a computer and its current state.
 old-location: termserv\wtssbx_machine_info.htm
 tech.root: TermServ
 ms.assetid: 88d49ae4-bf48-4b04-8a16-58d32efd62fa
-
 ms.date: 12/05/2018
 ms.keywords: WTSSBX_MACHINE_INFO, WTSSBX_MACHINE_INFO structure [Remote Desktop Services], __MIDL_IWTSSBPlugin_0007, termserv.wtssbx_machine_info, tssbx/WTSSBX_MACHINE_INFO
 ms.topic: struct
-f1_keywords: 
- - "tssbx/WTSSBX_MACHINE_INFO"
+f1_keywords:
+- tssbx/WTSSBX_MACHINE_INFO
 dev_langs:
- - c++
+- c++
 req.header: tssbx.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Tssbx.h
+- Tssbx.h
 api_name:
- - WTSSBX_MACHINE_INFO
+- WTSSBX_MACHINE_INFO
 targetos: Windows
 req.typenames: WTSSBX_MACHINE_INFO
 req.redist: 

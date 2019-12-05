@@ -1,19 +1,17 @@
 ---
 UID: NF:certenroll.ICspStatus.Initialize
 title: ICspStatus::Initialize (certenroll.h)
-
 description: Initializes the object from a cryptographic provider and an associated algorithm.
 old-location: security\icspstatus_initialize.htm
 tech.root: seccertenroll
 ms.assetid: dc5f92e8-29fe-474c-bf1d-c6d7716abce1
-
 ms.date: 12/05/2018
 ms.keywords: ICspStatus interface [Security],Initialize method, ICspStatus.Initialize, ICspStatus::Initialize, Initialize, Initialize method [Security], Initialize method [Security],ICspStatus interface, certenroll/ICspStatus::Initialize, security.icspstatus_initialize
 ms.topic: method
-f1_keywords: 
- - "certenroll/ICspStatus.Initialize"
+f1_keywords:
+- certenroll/ICspStatus.Initialize
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: CertEnroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CertEnroll.dll
+- CertEnroll.dll
 api_name:
- - ICspStatus.Initialize
+- ICspStatus.Initialize
 targetos: Windows
 req.typenames: 
 req.redist: 

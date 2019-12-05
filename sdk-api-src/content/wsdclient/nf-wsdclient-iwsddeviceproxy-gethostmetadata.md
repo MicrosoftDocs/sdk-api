@@ -1,19 +1,17 @@
 ---
 UID: NF:wsdclient.IWSDDeviceProxy.GetHostMetadata
 title: IWSDDeviceProxy::GetHostMetadata (wsdclient.h)
-
 description: Retrieves class-specific metadata for the device describing the features of the device and the services it hosts.
 old-location: ncd\iwsddeviceproxy_gethostmetadata.htm
 tech.root: WsdApi
 ms.assetid: e1e81f75-baeb-4406-8de0-f575db573fe8
-
 ms.date: 12/05/2018
 ms.keywords: GetHostMetadata, GetHostMetadata method, GetHostMetadata method,IWSDDeviceProxy interface, IWSDDeviceProxy interface,GetHostMetadata method, IWSDDeviceProxy.GetHostMetadata, IWSDDeviceProxy::GetHostMetadata, ncd.iwsddeviceproxy_gethostmetadata, wsdclient/IWSDDeviceProxy::GetHostMetadata
 ms.topic: method
 f1_keywords:
 - wsdclient/IWSDDeviceProxy.GetHostMetadata
 dev_langs:
- - c++
+- c++
 req.header: wsdclient.h
 req.include-header: Wsdapi.h
 req.target-type: Windows

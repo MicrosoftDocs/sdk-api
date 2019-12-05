@@ -1,19 +1,17 @@
 ---
 UID: NE:d2d1_1.D2D1_MAP_OPTIONS
 title: D2D1_MAP_OPTIONS (d2d1_1.h)
-
 description: Specifies how the memory to be mapped from the corresponding ID2D1Bitmap1 should be treated.
 old-location: direct2d\__d2d1_map_options.htm
 tech.root: Direct2D
 ms.assetid: 8706c3e3-eb29-4760-bdfd-f19afc6f2bf7
-
 ms.date: 12/05/2018
 ms.keywords: D2D1_MAP_OPTIONS, D2D1_MAP_OPTIONS enumeration [Direct2D], D2D1_MAP_OPTIONS_DISCARD, D2D1_MAP_OPTIONS_READ, D2D1_MAP_OPTIONS_WRITE, d2d1_1/D2D1_MAP_OPTIONS, d2d1_1/D2D1_MAP_OPTIONS_DISCARD, d2d1_1/D2D1_MAP_OPTIONS_READ, d2d1_1/D2D1_MAP_OPTIONS_WRITE, direct2d.__d2d1_map_options
 ms.topic: enum
-f1_keywords: 
- - "d2d1_1/D2D1_MAP_OPTIONS"
+f1_keywords:
+- d2d1_1/D2D1_MAP_OPTIONS
 dev_langs:
- - c++
+- c++
 req.header: d2d1_1.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - D2d1_1.h
+- D2d1_1.h
 api_name:
- - D2D1_MAP_OPTIONS
+- D2D1_MAP_OPTIONS
 targetos: Windows
 req.typenames: D2D1_MAP_OPTIONS
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:mfmediaengine.IMFTimedTextStyle.GetRightToLeft
 title: IMFTimedTextStyle::GetRightToLeft (mfmediaengine.h)
-
 description: Determines whether the right to left writing mode of the timed-text style is enabled.
 old-location: mf\imftimedtextstyle_getrighttoleft.htm
 tech.root: medfound
 ms.assetid: 6BE5C8A0-F577-4E1D-8DB7-3FFBEF059C18
-
 ms.date: 12/05/2018
 ms.keywords: GetRightToLeft, GetRightToLeft method [Media Foundation], GetRightToLeft method [Media Foundation],IMFTimedTextStyle interface, IMFTimedTextStyle interface [Media Foundation],GetRightToLeft method, IMFTimedTextStyle.GetRightToLeft, IMFTimedTextStyle::GetRightToLeft, mf.imftimedtextstyle_getrighttoleft, mfmediaengine/IMFTimedTextStyle::GetRightToLeft
 ms.topic: method
-f1_keywords: 
- - "mfmediaengine/IMFTimedTextStyle.GetRightToLeft"
+f1_keywords:
+- mfmediaengine/IMFTimedTextStyle.GetRightToLeft
 dev_langs:
- - c++
+- c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfmediaengine.h
+- mfmediaengine.h
 api_name:
- - IMFTimedTextStyle.GetRightToLeft
+- IMFTimedTextStyle.GetRightToLeft
 targetos: Windows
 req.typenames: 
 req.redist: 

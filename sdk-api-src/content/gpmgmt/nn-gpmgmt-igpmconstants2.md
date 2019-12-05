@@ -1,19 +1,17 @@
 ---
 UID: NN:gpmgmt.IGPMConstants2
 title: IGPMConstants2 (gpmgmt.h)
-
 description: The IGPMConstants2 interface supports methods that retrieve the value of multiple Group Policy Management Console (GPMC) constants.
 old-location: gpmc\igpmconstants2.htm
 tech.root: gpmc
 ms.assetid: daef093b-679b-411d-ba04-5d48b4695cf7
-
 ms.date: 12/05/2018
 ms.keywords: IGPMConstants2, IGPMConstants2 interface [GPMC], IGPMConstants2 interface [GPMC],described, gpmc.igpmconstants2, gpmgmt/IGPMConstants2
 ms.topic: interface
-f1_keywords: 
- - "gpmgmt/IGPMConstants2"
+f1_keywords:
+- gpmgmt/IGPMConstants2
 dev_langs:
- - c++
+- c++
 req.header: gpmgmt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Gpmgmt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gpmgmt.dll
+- Gpmgmt.dll
 api_name:
- - IGPMConstants2
+- IGPMConstants2
 targetos: Windows
 req.typenames: 
 req.redist: 

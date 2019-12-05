@@ -1,19 +1,17 @@
 ---
 UID: NF:mspcall.CMSPCallMultiGraph.UnregisterWaitEvent
 title: CMSPCallMultiGraph::UnregisterWaitEvent (mspcall.h)
-
 description: The UnregisterWaitEvent method calls the UnregisterWait function to tell the thread pool to stop waiting on the handle indicated by the wait block at the given index.
 old-location: tapi3\cmspcallmultigraph_unregisterwaitevent.htm
 tech.root: Tapi
 ms.assetid: a6d20bb9-fa50-4627-a3de-886cde4b8911
-
 ms.date: 12/05/2018
 ms.keywords: CMSPCallMultiGraph interface [TAPI 2.2],UnregisterWaitEvent method, CMSPCallMultiGraph.UnregisterWaitEvent, CMSPCallMultiGraph::UnregisterWaitEvent, UnregisterWaitEvent, UnregisterWaitEvent method [TAPI 2.2], UnregisterWaitEvent method [TAPI 2.2],CMSPCallMultiGraph interface, _tapi3_cmspcallmultigraph_unregisterwaitevent, mspcall/CMSPCallMultiGraph::UnregisterWaitEvent, tapi3.cmspcallmultigraph_unregisterwaitevent
 ms.topic: method
-f1_keywords: 
- - "mspcall/CMSPCallMultiGraph.UnregisterWaitEvent"
+f1_keywords:
+- mspcall/CMSPCallMultiGraph.UnregisterWaitEvent
 dev_langs:
- - c++
+- c++
 req.header: mspcall.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mspcall.h
+- Mspcall.h
 api_name:
- - CMSPCallMultiGraph.UnregisterWaitEvent
+- CMSPCallMultiGraph.UnregisterWaitEvent
 targetos: Windows
 req.typenames: 
 req.redist: 

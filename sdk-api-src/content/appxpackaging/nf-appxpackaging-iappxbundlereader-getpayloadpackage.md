@@ -1,19 +1,17 @@
 ---
 UID: NF:appxpackaging.IAppxBundleReader.GetPayloadPackage
 title: IAppxBundleReader::GetPayloadPackage (appxpackaging.h)
-
 description: Retrieves an appx file object for the payload package with the specified file name.
 old-location: appxpkg\iappxbundlereader_getpayloadpackage.htm
 tech.root: appxpkg
 ms.assetid: 6ACAB26C-22FC-45D7-9F6A-98B56B615DCA
-
 ms.date: 12/05/2018
 ms.keywords: GetPayloadPackage, GetPayloadPackage method [App packaging and management], GetPayloadPackage method [App packaging and management],IAppxBundleReader interface, IAppxBundleReader interface [App packaging and management],GetPayloadPackage method, IAppxBundleReader.GetPayloadPackage, IAppxBundleReader::GetPayloadPackage, appxpackaging/IAppxBundleReader::GetPayloadPackage, appxpkg.iappxbundlereader_getpayloadpackage
 ms.topic: method
-f1_keywords: 
- - "appxpackaging/IAppxBundleReader.GetPayloadPackage"
+f1_keywords:
+- appxpackaging/IAppxBundleReader.GetPayloadPackage
 dev_langs:
- - c++
+- c++
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - AppxPackaging.h
+- AppxPackaging.h
 api_name:
- - IAppxBundleReader.GetPayloadPackage
+- IAppxBundleReader.GetPayloadPackage
 targetos: Windows
 req.typenames: 
 req.redist: 

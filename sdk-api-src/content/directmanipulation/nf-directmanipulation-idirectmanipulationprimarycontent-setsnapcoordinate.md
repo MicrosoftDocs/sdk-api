@@ -1,19 +1,17 @@
 ---
 UID: NF:directmanipulation.IDirectManipulationPrimaryContent.SetSnapCoordinate
 title: IDirectManipulationPrimaryContent::SetSnapCoordinate (directmanipulation.h)
-
 description: Specifies the coordinate system for snap points or snap intervals.
 old-location: directmanipulation\idirectmanipulationprimarycontent_setsnapcoordinate.htm
 tech.root: directmanipulation
 ms.assetid: 3f9afe1b-20f4-45fa-a63b-25b7a0c597af
-
 ms.date: 12/05/2018
 ms.keywords: IDirectManipulationPrimaryContent interface [Direct Manipulation],SetSnapCoordinate method, IDirectManipulationPrimaryContent.SetSnapCoordinate, IDirectManipulationPrimaryContent::SetSnapCoordinate, SetSnapCoordinate, SetSnapCoordinate method [Direct Manipulation], SetSnapCoordinate method [Direct Manipulation],IDirectManipulationPrimaryContent interface, directmanipulation.idirectmanipulationprimarycontent_setsnapcoordinate, directmanipulation/IDirectManipulationPrimaryContent::SetSnapCoordinate
 ms.topic: method
-f1_keywords: 
- - "directmanipulation/IDirectManipulationPrimaryContent.SetSnapCoordinate"
+f1_keywords:
+- directmanipulation/IDirectManipulationPrimaryContent.SetSnapCoordinate
 dev_langs:
- - c++
+- c++
 req.header: directmanipulation.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - DirectManipulation.h
+- DirectManipulation.h
 api_name:
- - IDirectManipulationPrimaryContent.SetSnapCoordinate
+- IDirectManipulationPrimaryContent.SetSnapCoordinate
 targetos: Windows
 req.typenames: 
 req.redist: 

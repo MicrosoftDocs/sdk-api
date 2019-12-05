@@ -1,19 +1,17 @@
 ---
 UID: NF:winsync.ISyncChangeBatch.BeginUnorderedGroup
 title: ISyncChangeBatch::BeginUnorderedGroup (winsync.h)
-
 description: Opens an unordered group in the change batch. Item changes in this group can be in any order.
 old-location: winsync\isyncchangebatch_beginunorderedgroup.htm
 tech.root: winsync
 ms.assetid: 8d44451a-9150-4b2c-b126-d4fa90c2e192
-
 ms.date: 12/05/2018
 ms.keywords: BeginUnorderedGroup, BeginUnorderedGroup method [Windows Sync], BeginUnorderedGroup method [Windows Sync],ISyncChangeBatch interface, ISyncChangeBatch interface [Windows Sync],BeginUnorderedGroup method, ISyncChangeBatch.BeginUnorderedGroup, ISyncChangeBatch::BeginUnorderedGroup, winsync.isyncchangebatch_beginunorderedgroup, winsync/ISyncChangeBatch::BeginUnorderedGroup
 ms.topic: method
-f1_keywords: 
- - "winsync/ISyncChangeBatch.BeginUnorderedGroup"
+f1_keywords:
+- winsync/ISyncChangeBatch.BeginUnorderedGroup
 dev_langs:
- - c++
+- c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - winsync.h
+- winsync.h
 api_name:
- - ISyncChangeBatch.BeginUnorderedGroup
+- ISyncChangeBatch.BeginUnorderedGroup
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationcoreapi.InvokePattern_Invoke
 title: InvokePattern_Invoke function (uiautomationcoreapi.h)
-
 description: Sends a request to activate a control and initiate its single, unambiguous action.
 old-location: winauto\uiauto_InvokePattern_InvokeConPat.htm
 tech.root: WinAuto
 ms.assetid: 3677b34f-31fe-4e28-a768-a79082e63722
-
 ms.date: 12/05/2018
 ms.keywords: InvokePattern_Invoke, InvokePattern_Invoke function [Windows Accessibility], uiauto.uiauto_InvokePattern_InvokeConPat, uiauto_InvokePattern_InvokeConPat, uiautomationcoreapi/InvokePattern_Invoke, winauto.uiauto_InvokePattern_InvokeConPat
 ms.topic: function
-f1_keywords: 
- - "uiautomationcoreapi/InvokePattern_Invoke"
+f1_keywords:
+- uiautomationcoreapi/InvokePattern_Invoke
 dev_langs:
- - c++
+- c++
 req.header: uiautomationcoreapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uiautomationcore.lib
 req.dll: Uiautomationcore.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Uiautomationcore.dll
+- Uiautomationcore.dll
 api_name:
- - InvokePattern_Invoke
+- InvokePattern_Invoke
 targetos: Windows
 req.typenames: 
 req.redist: 

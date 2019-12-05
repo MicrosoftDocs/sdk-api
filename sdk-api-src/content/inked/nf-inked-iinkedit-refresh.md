@@ -1,19 +1,17 @@
 ---
 UID: NF:inked.IInkEdit.Refresh
 title: IInkEdit::Refresh (inked.h)
-
 description: Causes the InkEdit control to redraw.
 old-location: tablet\inkedit_refresh.htm
 tech.root: tablet
 ms.assetid: 74b8e3dc-7bea-4188-bd0d-681e4661828c
-
 ms.date: 12/05/2018
 ms.keywords: 74b8e3dc-7bea-4188-bd0d-681e4661828c, IInkEdit interface [Tablet PC],Refresh method, IInkEdit.Refresh, IInkEdit::Refresh, Refresh, Refresh method [Tablet PC], Refresh method [Tablet PC],IInkEdit interface, inked/IInkEdit::Refresh, tablet.inkedit_refresh
 ms.topic: method
-f1_keywords: 
- - "inked/IInkEdit.Refresh"
+f1_keywords:
+- inked/IInkEdit.Refresh
 dev_langs:
- - c++
+- c++
 req.header: inked.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: InkEd.dll
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - InkEd.dll
- - InkEd.dll.dll
+- InkEd.dll
+- InkEd.dll.dll
 api_name:
- - IInkEdit.Refresh
+- IInkEdit.Refresh
 targetos: Windows
 req.typenames: 
 req.redist: 

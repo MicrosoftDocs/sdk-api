@@ -1,19 +1,17 @@
 ---
 UID: NF:certenroll.ICertificationAuthorities.Add
 title: ICertificationAuthorities::Add (certenroll.h)
-
 description: Adds an ICertificationAuthority object to the collection.
 old-location: security\icertificationauthorities_add.htm
 tech.root: seccertenroll
 ms.assetid: 8a618b8b-9089-4f35-afd4-b11255a26ac9
-
 ms.date: 12/05/2018
 ms.keywords: Add, Add method [Security], Add method [Security],ICertificationAuthorities interface, ICertificationAuthorities interface [Security],Add method, ICertificationAuthorities.Add, ICertificationAuthorities::Add, certenroll/ICertificationAuthorities::Add, security.icertificationauthorities_add
 ms.topic: method
-f1_keywords: 
- - "certenroll/ICertificationAuthorities.Add"
+f1_keywords:
+- certenroll/ICertificationAuthorities.Add
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Certenroll.h
+- Certenroll.h
 api_name:
- - ICertificationAuthorities.Add
+- ICertificationAuthorities.Add
 targetos: Windows
 req.typenames: 
 req.redist: 

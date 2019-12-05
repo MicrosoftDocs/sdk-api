@@ -1,19 +1,17 @@
 ---
 UID: NF:mfobjects.IMFAttributes.GetCount
 title: IMFAttributes::GetCount (mfobjects.h)
-
 description: Retrieves the number of attributes that are set on this object.
 old-location: mf\imfattributes_getcount.htm
 tech.root: medfound
 ms.assetid: 5f511d5c-249c-4311-8380-a932a755eaaf
-
 ms.date: 12/05/2018
 ms.keywords: 5f511d5c-249c-4311-8380-a932a755eaaf, GetCount, GetCount method [Media Foundation], GetCount method [Media Foundation],IMFAttributes interface, IMFAttributes interface [Media Foundation],GetCount method, IMFAttributes.GetCount, IMFAttributes::GetCount, mf.imfattributes_getcount, mfobjects/IMFAttributes::GetCount
 ms.topic: method
-f1_keywords: 
- - "mfobjects/IMFAttributes.GetCount"
+f1_keywords:
+- mfobjects/IMFAttributes.GetCount
 dev_langs:
- - c++
+- c++
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFAttributes.GetCount
+- IMFAttributes.GetCount
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NE:clusapi.CLUS_FLAGS
 title: CLUS_FLAGS (clusapi.h)
-
 description: Identifies the resource or group as a core resource.
 old-location: mscs\clus_flags.htm
 tech.root: MsCS
 ms.assetid: 54d00b1c-cef7-4310-8c10-743ee7086979
-
 ms.date: 12/05/2018
 ms.keywords: CLUS_FLAGS, CLUS_FLAGS enumeration [Failover Cluster], CLUS_FLAG_CORE, _CLUS_FLAGS, _CLUS_FLAGS enumeration [Failover Cluster], clusapi/CLUS_FLAGS, clusapi/CLUS_FLAG_CORE, clusapi/_CLUS_FLAGS, msclus/CLUS_FLAGS, msclus/CLUS_FLAG_CORE, msclus/_CLUS_FLAGS, mscs.clus_flags
 ms.topic: enum
-f1_keywords: 
- - "clusapi/CLUS_FLAGS"
+f1_keywords:
+- clusapi/CLUS_FLAGS
 dev_langs:
- - c++
+- c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - ClusAPI.h
- - MsClus.h
+- ClusAPI.h
+- MsClus.h
 api_name:
- - CLUS_FLAGS
+- CLUS_FLAGS
 targetos: Windows
 req.typenames: CLUS_FLAGS
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:shlwapi.SHGetInverseCMAP
 title: SHGetInverseCMAP function (shlwapi.h)
-
 description: Retrieves the inverse color table mapping for the halftone palette.
 old-location: shell\SHGetInverseCMAP.htm
 tech.root: shell
 ms.assetid: 46d5ccd2-3c5d-431b-b27b-6a7a95043e0a
-
 ms.date: 12/05/2018
 ms.keywords: SHGetInverseCMAP, SHGetInverseCMAP function [Windows Shell], _shell_SHGetInverseCMAP, shell.SHGetInverseCMAP, shlwapi/SHGetInverseCMAP
 ms.topic: function
-f1_keywords: 
- - "shlwapi/SHGetInverseCMAP"
+f1_keywords:
+- shlwapi/SHGetInverseCMAP
 dev_langs:
- - c++
+- c++
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Shlwapi.lib
 req.dll: Shlwapi.dll (version 5.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Shlwapi.dll
- - Ext-MS-Win-Shell-ShlwApi-l1-1-1.dll
- - Ext-MS-Win-Shell-ShlwAPI-L1-1-2.dll
+- Shlwapi.dll
+- Ext-MS-Win-Shell-ShlwApi-l1-1-1.dll
+- Ext-MS-Win-Shell-ShlwAPI-L1-1-2.dll
 api_name:
- - SHGetInverseCMAP
+- SHGetInverseCMAP
 targetos: Windows
 req.typenames: 
 req.redist: 

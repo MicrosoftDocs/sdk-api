@@ -1,19 +1,17 @@
 ---
 UID: NF:segment.IMSVidStreamBufferSource2.get_CCCounter
 title: IMSVidStreamBufferSource2::get_CCCounter (segment.h)
-
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005.
 old-location: mstv\imsvidstreambuffersource2_get_cccounter.htm
 tech.root: mstv
 ms.assetid: 58aa567a-6ef3-4e8b-9155-f262ac1a7557
-
 ms.date: 12/05/2018
 ms.keywords: IMSVidStreamBufferSource2 interface [Microsoft TV Technologies],get_CCCounter method, IMSVidStreamBufferSource2.get_CCCounter, IMSVidStreamBufferSource2::get_CCCounter, IMSVidStreamBufferSource2get_CCCounter, get_CCCounter, get_CCCounter method [Microsoft TV Technologies], get_CCCounter method [Microsoft TV Technologies],IMSVidStreamBufferSource2 interface, mstv.imsvidstreambuffersource2_get_cccounter, segment/IMSVidStreamBufferSource2::get_CCCounter
 ms.topic: method
-f1_keywords: 
- - "segment/IMSVidStreamBufferSource2.get_CCCounter"
+f1_keywords:
+- segment/IMSVidStreamBufferSource2.get_CCCounter
 dev_langs:
- - c++
+- c++
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - segment.h
+- segment.h
 api_name:
- - IMSVidStreamBufferSource2.get_CCCounter
+- IMSVidStreamBufferSource2.get_CCCounter
 targetos: Windows
 req.typenames: 
 req.redist: 

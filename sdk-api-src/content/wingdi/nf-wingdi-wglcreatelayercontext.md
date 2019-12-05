@@ -1,19 +1,17 @@
 ---
 UID: NF:wingdi.wglCreateLayerContext
 title: wglCreateLayerContext function (wingdi.h)
-
 description: The wglCreateLayerContext function creates a new OpenGL rendering context for drawing to a specified layer plane on a device context.
 old-location: opengl\wglcreatelayercontext.htm
 tech.root: OpenGL
 ms.assetid: 81050b48-7385-4ef3-acc5-82d5c893b2e8
-
 ms.date: 12/05/2018
-ms.keywords: "_ogl_wglCreateLayerContext, opengl.wglcreatelayercontext, wglCreateLayerContext, wglCreateLayerContext function [OpenGL], wingdi/wglCreateLayerContext"
+ms.keywords: _ogl_wglCreateLayerContext, opengl.wglcreatelayercontext, wglCreateLayerContext, wglCreateLayerContext function [OpenGL], wingdi/wglCreateLayerContext
 ms.topic: function
-f1_keywords: 
- - "wingdi/wglCreateLayerContext"
+f1_keywords:
+- wingdi/wglCreateLayerContext
 dev_langs:
- - c++
+- c++
 req.header: wingdi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Opengl32.lib
 req.dll: Opengl32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - opengl32.dll
+- opengl32.dll
 api_name:
- - wglCreateLayerContext
+- wglCreateLayerContext
 targetos: Windows
 req.typenames: 
 req.redist: 

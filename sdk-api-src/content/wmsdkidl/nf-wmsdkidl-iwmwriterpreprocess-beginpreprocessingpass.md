@@ -1,19 +1,17 @@
 ---
 UID: NF:wmsdkidl.IWMWriterPreprocess.BeginPreprocessingPass
 title: IWMWriterPreprocess::BeginPreprocessingPass (wmsdkidl.h)
-
 description: The BeginPreprocessingPass method prepares the writer to begin preprocessing samples for the specified input stream.
 old-location: wmformat\iwmwriterpreprocess_beginpreprocessingpass.htm
 tech.root: wmformat
 ms.assetid: 593aaa1f-b0eb-43a0-bf73-e90225c07cdf
-
 ms.date: 12/05/2018
 ms.keywords: BeginPreprocessingPass, BeginPreprocessingPass method [windows Media Format], BeginPreprocessingPass method [windows Media Format],IWMWriterPreprocess interface, IWMWriterPreprocess interface [windows Media Format],BeginPreprocessingPass method, IWMWriterPreprocess.BeginPreprocessingPass, IWMWriterPreprocess::BeginPreprocessingPass, IWMWriterPreprocessBeginPreprocessingPass, wmformat.iwmwriterpreprocess_beginpreprocessingpass, wmsdkidl/IWMWriterPreprocess::BeginPreprocessingPass
 ms.topic: method
-f1_keywords: 
- - "wmsdkidl/IWMWriterPreprocess.BeginPreprocessingPass"
+f1_keywords:
+- wmsdkidl/IWMWriterPreprocess.BeginPreprocessingPass
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wmvcore.lib
- - Wmvcore.dll
- - WMStubDRM.lib
- - WMStubDRM.dll
+- Wmvcore.lib
+- Wmvcore.dll
+- WMStubDRM.lib
+- WMStubDRM.dll
 api_name:
- - IWMWriterPreprocess.BeginPreprocessingPass
+- IWMWriterPreprocess.BeginPreprocessingPass
 targetos: Windows
 req.typenames: 
 req.redist: 

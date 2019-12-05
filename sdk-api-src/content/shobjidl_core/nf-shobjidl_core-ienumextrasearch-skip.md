@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IEnumExtraSearch.Skip
 title: IEnumExtraSearch::Skip (shobjidl_core.h)
-
 description: Skip a specified number of objects.
 old-location: shell\IEnumExtraSearch_Skip.htm
 tech.root: shell
 ms.assetid: f77983e2-bae4-4350-8950-b4e76fc46365
-
 ms.date: 12/05/2018
 ms.keywords: IEnumExtraSearch interface [Windows Shell],Skip method, IEnumExtraSearch.Skip, IEnumExtraSearch::Skip, Skip, Skip method [Windows Shell], Skip method [Windows Shell],IEnumExtraSearch interface, _win32_IEnumExtraSearch_Skip, shell.IEnumExtraSearch_Skip, shobjidl_core/IEnumExtraSearch::Skip
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IEnumExtraSearch.Skip"
+f1_keywords:
+- shobjidl_core/IEnumExtraSearch.Skip
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Shell32.dll (version 5.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - IEnumExtraSearch.Skip
+- IEnumExtraSearch.Skip
 targetos: Windows
 req.typenames: 
 req.redist: 

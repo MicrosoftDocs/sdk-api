@@ -1,19 +1,17 @@
 ---
 UID: NF:sbe.ISBE2EnumStream.Skip
 title: ISBE2EnumStream::Skip (sbe.h)
-
 description: Skips a specified number of streams in the enumeration sequence.
 old-location: mstv\isbe2enumstream_skip.htm
 tech.root: mstv
 ms.assetid: 52979cbc-203b-49ae-9892-db1abfeae94b
-
 ms.date: 12/05/2018
 ms.keywords: ISBE2EnumStream interface [Microsoft TV Technologies],Skip method, ISBE2EnumStream.Skip, ISBE2EnumStream::Skip, Skip, Skip method [Microsoft TV Technologies], Skip method [Microsoft TV Technologies],ISBE2EnumStream interface, mstv.isbe2enumstream_skip, sbe/ISBE2EnumStream::Skip
 ms.topic: method
-f1_keywords: 
- - "sbe/ISBE2EnumStream.Skip"
+f1_keywords:
+- sbe/ISBE2EnumStream.Skip
 dev_langs:
- - c++
+- c++
 req.header: sbe.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Sbe.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - sbe.dll
+- sbe.dll
 api_name:
- - ISBE2EnumStream.Skip
+- ISBE2EnumStream.Skip
 targetos: Windows
 req.typenames: 
 req.redist: 

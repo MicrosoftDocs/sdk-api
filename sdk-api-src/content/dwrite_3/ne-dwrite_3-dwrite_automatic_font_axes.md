@@ -1,17 +1,15 @@
 ---
 UID: NE:dwrite_3.DWRITE_AUTOMATIC_FONT_AXES
 title: DWRITE_AUTOMATIC_FONT_AXES
-
 description: Defines constants that specify certain axes that can be applied automatically in layout during font selection.
 tech.root: DirectWrite
-
 ms.date: 09/16/2019
 ms.keywords: DWRITE_AUTOMATIC_FONT_AXES, DWRITE_AUTOMATIC_FONT_AXES enumeration [Direct Write], directwrite.dwrite_automatic_font_axes, dwrite_3/DWRITE_AUTOMATIC_FONT_AXES
 ms.topic: enum
-f1_keywords: 
- - "dwrite_3/DWRITE_AUTOMATIC_FONT_AXES"
+f1_keywords:
+- dwrite_3/DWRITE_AUTOMATIC_FONT_AXES
 dev_langs:
- - c++
+- c++
 req.construct-type: enumeration
 req.header: dwrite_3.h
 req.include-header: 
@@ -31,14 +29,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - dwrite_3.h
+- dwrite_3.h
 api_name:
- - DWRITE_AUTOMATIC_FONT_AXES
+- DWRITE_AUTOMATIC_FONT_AXES
 targetos: Windows
 req.typenames: 
 req.redist: 

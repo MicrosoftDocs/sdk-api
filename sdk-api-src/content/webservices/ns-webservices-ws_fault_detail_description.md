@@ -1,19 +1,17 @@
 ---
 UID: NS:webservices._WS_FAULT_DETAIL_DESCRIPTION
 title: WS_FAULT_DETAIL_DESCRIPTION (webservices.h)
-
 description: A description of the detail element of a fault message.
 old-location: wsw\ws_fault_detail_description.htm
 tech.root: wsw
 ms.assetid: 5a89ca26-63c7-414a-a27d-019c5b020f63
-
 ms.date: 12/05/2018
 ms.keywords: WS_FAULT_DETAIL_DESCRIPTION, WS_FAULT_DETAIL_DESCRIPTION structure [Web Services for Windows], webservices/WS_FAULT_DETAIL_DESCRIPTION, wsw.ws_fault_detail_description
 ms.topic: struct
-f1_keywords: 
- - "webservices/WS_FAULT_DETAIL_DESCRIPTION"
+f1_keywords:
+- webservices/WS_FAULT_DETAIL_DESCRIPTION
 dev_langs:
- - c++
+- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WebServices.h
+- WebServices.h
 api_name:
- - WS_FAULT_DETAIL_DESCRIPTION
+- WS_FAULT_DETAIL_DESCRIPTION
 targetos: Windows
 req.typenames: WS_FAULT_DETAIL_DESCRIPTION
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:dmusics.IDirectMusicSynthSink.Init
 title: IDirectMusicSynthSink::Init (dmusics.h)
-
 description: The Init method initializes the synth-sink object.
 old-location: audio\idirectmusicsynthsink_init.htm
 tech.root: audio
 ms.assetid: d390c54d-18f6-47e1-9d52-057c984d284a
-
 ms.date: 12/05/2018
 ms.keywords: IDirectMusicSynthSink interface [Audio Devices],Init method, IDirectMusicSynthSink.Init, IDirectMusicSynthSink::Init, Init, Init method [Audio Devices], Init method [Audio Devices],IDirectMusicSynthSink interface, audio.idirectmusicsynthsink_init, audmp-routines_d4f2d6c1-4bb6-453e-ad40-d0daab7775a3.xml, dmusics/IDirectMusicSynthSink::Init
 ms.topic: method
-f1_keywords: 
- - "dmusics/IDirectMusicSynthSink.Init"
+f1_keywords:
+- dmusics/IDirectMusicSynthSink.Init
 dev_langs:
- - c++
+- c++
 req.header: dmusics.h
 req.include-header: Dmusics.h
 req.target-type: Desktop
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dmusics.h
+- dmusics.h
 api_name:
- - IDirectMusicSynthSink.Init
+- IDirectMusicSynthSink.Init
 targetos: Windows
 req.typenames: 
 req.redist: 

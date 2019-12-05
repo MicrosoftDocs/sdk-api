@@ -1,19 +1,17 @@
 ---
 UID: NS:winddi._LINEATTRS
 title: LINEATTRS (winddi.h)
-
 description: The LINEATTRS structure is used by a driver's line-drawing functions to determine line attributes.
 old-location: display\lineattrs.htm
 tech.root: display
 ms.assetid: 40fcd6e2-7ed4-433f-ab8b-cc75a305adb9
-
 ms.date: 12/05/2018
-ms.keywords: "*PLINEATTRS, LINEATTRS, LINEATTRS structure [Display Devices], PLINEATTRS, PLINEATTRS structure pointer [Display Devices], display.lineattrs, grstrcts_2e75edb5-bba8-4f62-b7f4-e3af44794eb2.xml, winddi/LINEATTRS, winddi/PLINEATTRS"
+ms.keywords: '*PLINEATTRS, LINEATTRS, LINEATTRS structure [Display Devices], PLINEATTRS, PLINEATTRS structure pointer [Display Devices], display.lineattrs, grstrcts_2e75edb5-bba8-4f62-b7f4-e3af44794eb2.xml, winddi/LINEATTRS, winddi/PLINEATTRS'
 ms.topic: struct
-f1_keywords: 
- - "winddi/LINEATTRS"
+f1_keywords:
+- winddi/LINEATTRS
 dev_langs:
- - c++
+- c++
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - winddi.h
+- winddi.h
 api_name:
- - LINEATTRS
+- LINEATTRS
 targetos: Windows
 req.typenames: LINEATTRS, *PLINEATTRS
 req.redist: 

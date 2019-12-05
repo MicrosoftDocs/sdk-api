@@ -1,19 +1,17 @@
 ---
 UID: NN:bdaiface.IBDA_FDC
 title: IBDA_FDC (bdaiface.h)
-
 description: Provides access to a device's Forward Data Channel (FDC) Service. The FDC is an out-of-band channel that carries configuration and control messages.
 old-location: mstv\ibda_fdc.htm
 tech.root: mstv
 ms.assetid: 8b7a07fd-99e9-4f8e-9211-109689f2f892
-
 ms.date: 12/05/2018
 ms.keywords: IBDA_FDC, IBDA_FDC interface [Microsoft TV Technologies], IBDA_FDC interface [Microsoft TV Technologies],described, bdaiface/IBDA_FDC, mstv.ibda_fdc
 ms.topic: interface
-f1_keywords: 
- - "bdaiface/IBDA_FDC"
+f1_keywords:
+- bdaiface/IBDA_FDC
 dev_langs:
- - c++
+- c++
 req.header: bdaiface.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - bdaiface.h
+- bdaiface.h
 api_name:
- - IBDA_FDC
+- IBDA_FDC
 targetos: Windows
 req.typenames: 
 req.redist: 

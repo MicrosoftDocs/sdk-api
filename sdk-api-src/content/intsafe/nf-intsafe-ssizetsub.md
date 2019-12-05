@@ -1,19 +1,17 @@
 ---
 UID: NF:intsafe.SSIZETSub
 title: SSIZETSub function (intsafe.h)
-
 description: Subtracts one SSIZE_T value from another.
 old-location: shell\SSIZETSub.htm
 tech.root: shell
 ms.assetid: 8c7ca2cb-3753-4d65-9179-5c8e1782c7ff
-
 ms.date: 12/05/2018
 ms.keywords: SSIZETSub, SSIZETSub function [Windows Shell], intsafe/SSIZETSub, shell.SSIZETSub
 ms.topic: function
-f1_keywords: 
- - "intsafe/SSIZETSub"
+f1_keywords:
+- intsafe/SSIZETSub
 dev_langs:
- - c++
+- c++
 req.header: intsafe.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - intsafe.h
+- intsafe.h
 api_name:
- - SSIZETSub
+- SSIZETSub
 targetos: Windows
 req.typenames: 
 req.redist: 

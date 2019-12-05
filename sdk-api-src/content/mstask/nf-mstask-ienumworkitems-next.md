@@ -1,19 +1,17 @@
 ---
 UID: NF:mstask.IEnumWorkItems.Next
 title: IEnumWorkItems::Next (mstask.h)
-
 description: Retrieves the next specified number of tasks in the enumeration sequence.
 old-location: taskschd\ienumworkitems_next.htm
 tech.root: taskschd
 ms.assetid: a606e340-33fb-4a51-acdd-b7428c755ac5
-
 ms.date: 12/05/2018
 ms.keywords: IEnumWorkItems interface [Task Scheduler],Next method, IEnumWorkItems.Next, IEnumWorkItems::Next, Next, Next method [Task Scheduler], Next method [Task Scheduler],IEnumWorkItems interface, _msb_ienumworkitems_next, mstask/IEnumWorkItems::Next, taskschd.ienumworkitems_next
 ms.topic: method
-f1_keywords: 
- - "mstask/IEnumWorkItems.Next"
+f1_keywords:
+- mstask/IEnumWorkItems.Next
 dev_langs:
- - c++
+- c++
 req.header: mstask.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Mstask.lib
 req.dll: Mstask.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mstask.dll
+- Mstask.dll
 api_name:
- - IEnumWorkItems.Next
+- IEnumWorkItems.Next
 targetos: Windows
 req.typenames: 
 req.redist: Internet Explorer 4.0 or later on Windows NT 4.0 and Windows 95

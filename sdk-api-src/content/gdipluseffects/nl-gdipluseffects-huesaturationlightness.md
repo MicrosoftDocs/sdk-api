@@ -1,19 +1,17 @@
 ---
 UID: NL:gdipluseffects.HueSaturationLightness
 title: HueSaturationLightness (gdipluseffects.h)
-
 description: The HueSaturationLightness class enables you to change the hue, saturation, and lightness of a bitmap.
 old-location: gdiplus\_gdiplus_CLASS_HueSaturationLightness_Class.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\huesaturationlightness.htm
-
 ms.date: 12/05/2018
 ms.keywords: HueSaturationLightness, HueSaturationLightness class [GDI+], HueSaturationLightness class [GDI+],described, _gdiplus_CLASS_HueSaturationLightness_Class, gdiplus._gdiplus_CLASS_HueSaturationLightness_Class, gdipluseffects/HueSaturationLightness
 ms.topic: class
-f1_keywords: 
- - "gdipluseffects/HueSaturationLightness"
+f1_keywords:
+- gdipluseffects/HueSaturationLightness
 dev_langs:
- - c++
+- c++
 req.header: gdipluseffects.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - gdipluseffects.h
+- gdipluseffects.h
 api_name:
- - HueSaturationLightness
+- HueSaturationLightness
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:vmr9.IVMRMonitorConfig9.GetDefaultMonitor
 title: IVMRMonitorConfig9::GetDefaultMonitor (vmr9.h)
-
 description: The GetDefaultMonitor method retrieves the default monitor that all future instances of the VMR will use for video playback.
 old-location: dshow\ivmrmonitorconfig9_getdefaultmonitor.htm
 tech.root: DirectShow
 ms.assetid: a5d5bf77-5261-42eb-b79b-d72dfb2d9f21
-
 ms.date: 12/05/2018
 ms.keywords: GetDefaultMonitor, GetDefaultMonitor method [DirectShow], GetDefaultMonitor method [DirectShow],IVMRMonitorConfig9 interface, IVMRMonitorConfig9 interface [DirectShow],GetDefaultMonitor method, IVMRMonitorConfig9.GetDefaultMonitor, IVMRMonitorConfig9::GetDefaultMonitor, IVMRMonitorConfig9GetDefaultMonitor, dshow.ivmrmonitorconfig9_getdefaultmonitor, vmr9/IVMRMonitorConfig9::GetDefaultMonitor
 ms.topic: method
-f1_keywords: 
- - "vmr9/IVMRMonitorConfig9.GetDefaultMonitor"
+f1_keywords:
+- vmr9/IVMRMonitorConfig9.GetDefaultMonitor
 dev_langs:
- - c++
+- c++
 req.header: vmr9.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IVMRMonitorConfig9.GetDefaultMonitor
+- IVMRMonitorConfig9.GetDefaultMonitor
 targetos: Windows
 req.typenames: 
 req.redist: 

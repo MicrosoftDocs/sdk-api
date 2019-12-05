@@ -1,19 +1,17 @@
 ---
 UID: NF:wbemtime.WBEMTime.operator-sub(const WBEMTimeSpan &)
 title: WBEMTime::operator-sub(const WBEMTimeSpan &) (wbemtime.h)
-
 description: This overload of the WBEMTime class subtraction operator (&#8211;) subtracts a time span from an object's time to produce a new time object that contains the resulting time.
 old-location: wmi\wbemtime_operator_minus_const_wbemtimespan__.htm
 tech.root: WmiSdk
 ms.assetid: d96efdf3-1020-4145-92ad-bbde5704639e
-
 ms.date: 12/05/2018
-ms.keywords: "??GWBEMTime@@QBE?AV0@ABVWBEMTimeSpan@@@Z, WBEMTime interface [Windows Management Instrumentation],operator- method, WBEMTime.operator-, WBEMTime.operator-sub(const WBEMTimeSpan &), WBEMTime::operator-, WBEMTime::operator-(const WBEMTimeSpan&), WBEMTime::operator-sub(const WBEMTimeSpan &), operator-, operator- method [Windows Management Instrumentation], operator- method [Windows Management Instrumentation],WBEMTime interface, wbemtime/WBEMTime::operator-, wmi.wbemtime_operator_minus_const_wbemtimespan__"
+ms.keywords: ??GWBEMTime@@QBE?AV0@ABVWBEMTimeSpan@@@Z, WBEMTime interface [Windows Management Instrumentation],operator- method, WBEMTime.operator-, WBEMTime.operator-sub(const WBEMTimeSpan &), WBEMTime::operator-, WBEMTime::operator-(const WBEMTimeSpan&), WBEMTime::operator-sub(const WBEMTimeSpan &), operator-, operator- method [Windows Management Instrumentation], operator- method [Windows Management Instrumentation],WBEMTime interface, wbemtime/WBEMTime::operator-, wmi.wbemtime_operator_minus_const_wbemtimespan__
 ms.topic: method
-f1_keywords: 
- - "wbemtime/WBEMTime.operator-"
+f1_keywords:
+- wbemtime/WBEMTime.operator-
 dev_langs:
- - c++
+- c++
 req.header: wbemtime.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: FrameDynOS.dll; FrameDyn.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - FrameDynOS.dll
- - FrameDyn.dll
+- FrameDynOS.dll
+- FrameDyn.dll
 api_name:
- - WBEMTime.operator-
- - ??GWBEMTime@@QBE?AV0@ABVWBEMTimeSpan@@@Z
+- WBEMTime.operator-
+- ??GWBEMTime@@QBE?AV0@ABVWBEMTimeSpan@@@Z
 targetos: Windows
 req.typenames: 
 req.redist: 

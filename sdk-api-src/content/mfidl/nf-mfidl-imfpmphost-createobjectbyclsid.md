@@ -1,19 +1,17 @@
 ---
 UID: NF:mfidl.IMFPMPHost.CreateObjectByCLSID
 title: IMFPMPHost::CreateObjectByCLSID (mfidl.h)
-
 description: Creates an object in the protect media path (PMP) process, from a CLSID.
 old-location: mf\imfpmphost_createobjectbyclsid.htm
 tech.root: medfound
 ms.assetid: 787fc392-1858-41f4-a1ce-2da02a5e789f
-
 ms.date: 12/05/2018
 ms.keywords: 787fc392-1858-41f4-a1ce-2da02a5e789f, CreateObjectByCLSID, CreateObjectByCLSID method [Media Foundation], CreateObjectByCLSID method [Media Foundation],IMFPMPHost interface, IMFPMPHost interface [Media Foundation],CreateObjectByCLSID method, IMFPMPHost.CreateObjectByCLSID, IMFPMPHost::CreateObjectByCLSID, mf.imfpmphost_createobjectbyclsid, mfidl/IMFPMPHost::CreateObjectByCLSID
 ms.topic: method
-f1_keywords: 
- - "mfidl/IMFPMPHost.CreateObjectByCLSID"
+f1_keywords:
+- mfidl/IMFPMPHost.CreateObjectByCLSID
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFPMPHost.CreateObjectByCLSID
+- IMFPMPHost.CreateObjectByCLSID
 targetos: Windows
 req.typenames: 
 req.redist: 

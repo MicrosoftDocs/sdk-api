@@ -1,19 +1,17 @@
 ---
 UID: NC:winsvc.LPHANDLER_FUNCTION
 title: LPHANDLER_FUNCTION (winsvc.h)
-
 description: An application-defined callback function used with the RegisterServiceCtrlHandler function. A service program can use it as the control handler function of a particular service.
 old-location: base\handler.htm
 tech.root: Services
 ms.assetid: e2d6d3a7-070e-4343-abd7-b4b9f8dd6fbc
-
 ms.date: 12/05/2018
 ms.keywords: Handler, Handler callback, Handler callback function, LPHANDLER_FUNCTION, SERVICE_CONTROL_CONTINUE, SERVICE_CONTROL_INTERROGATE, SERVICE_CONTROL_NETBINDADD, SERVICE_CONTROL_NETBINDDISABLE, SERVICE_CONTROL_NETBINDENABLE, SERVICE_CONTROL_NETBINDREMOVE, SERVICE_CONTROL_PARAMCHANGE, SERVICE_CONTROL_PAUSE, SERVICE_CONTROL_SHUTDOWN, SERVICE_CONTROL_STOP, _win32_handler, base.handler, winsvc/Handler
 ms.topic: callback
-f1_keywords: 
- - "winsvc/Handler"
+f1_keywords:
+- winsvc/Handler
 dev_langs:
- - c++
+- c++
 req.header: winsvc.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Winsvc.h
+- Winsvc.h
 api_name:
- - Handler
+- Handler
 targetos: Windows
 req.typenames: 
 req.redist: 

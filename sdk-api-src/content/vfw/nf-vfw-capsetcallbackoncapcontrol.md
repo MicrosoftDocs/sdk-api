@@ -1,19 +1,17 @@
 ---
 UID: NF:vfw.capSetCallbackOnCapControl
 title: capSetCallbackOnCapControl macro (vfw.h)
-
 description: The capSetCallbackOnCapControl macro sets a callback function in the application giving it precise recording control. You can use this macro or explicitly call the WM_CAP_SET_CALLBACK_CAPCONTROL message.
 old-location: multimedia\capsetcallbackoncapcontrol.htm
 tech.root: Multimedia
 ms.assetid: 78bc83f6-06a0-4c41-92ce-932578bcb010
-
 ms.date: 12/05/2018
-ms.keywords: "_win32_capSetCallbackOnCapControl, capSetCallbackOnCapControl, capSetCallbackOnCapControl macro [Windows Multimedia], multimedia.capsetcallbackoncapcontrol, vfw/capSetCallbackOnCapControl"
+ms.keywords: _win32_capSetCallbackOnCapControl, capSetCallbackOnCapControl, capSetCallbackOnCapControl macro [Windows Multimedia], multimedia.capsetcallbackoncapcontrol, vfw/capSetCallbackOnCapControl
 ms.topic: macro
-f1_keywords: 
- - "vfw/capSetCallbackOnCapControl"
+f1_keywords:
+- vfw/capSetCallbackOnCapControl
 dev_langs:
- - c++
+- c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Vfw.h
+- Vfw.h
 api_name:
- - capSetCallbackOnCapControl
+- capSetCallbackOnCapControl
 targetos: Windows
 req.typenames: 
 req.redist: 

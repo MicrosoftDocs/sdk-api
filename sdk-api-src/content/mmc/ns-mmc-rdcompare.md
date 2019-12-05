@@ -1,19 +1,17 @@
 ---
 UID: NS:mmc._RDCOMPARE
 title: RDCOMPARE (mmc.h)
-
 description: The RDCOMPARE structure is introduced in MMC 1.2.
 old-location: mmc\rdcompare.htm
 tech.root: mmc
 ms.assetid: 78f0648b-1d1b-4786-89fa-ef51b7743a2d
-
 ms.date: 12/05/2018
 ms.keywords: RDCOMPARE, RDCOMPARE structure [MMC], _slate_rdcompare, mmc.rdcompare, mmc/RDCOMPARE
 ms.topic: struct
-f1_keywords: 
- - "mmc/RDCOMPARE"
+f1_keywords:
+- mmc/RDCOMPARE
 dev_langs:
- - c++
+- c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Mmc.h
+- Mmc.h
 api_name:
- - RDCOMPARE
+- RDCOMPARE
 targetos: Windows
 req.typenames: RDCOMPARE
 req.redist: 

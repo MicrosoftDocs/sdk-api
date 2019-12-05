@@ -1,19 +1,17 @@
 ---
 UID: NF:structuredquery.IConditionFactory.MakeNot
 title: IConditionFactory::MakeNot (structuredquery.h)
-
 description: Creates a condition node that is a logical negation (NOT) of another condition (a subnode of this node).
 old-location: search\_search_IConditionFactory_MakeNot.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\iconditionfactory\makenot.htm
-
 ms.date: 12/05/2018
 ms.keywords: IConditionFactory interface [search],MakeNot method, IConditionFactory.MakeNot, IConditionFactory::MakeNot, MakeNot, MakeNot method [search], MakeNot method [search],IConditionFactory interface, _search_IConditionFactory_MakeNot, search._search_IConditionFactory_MakeNot, structuredquery/IConditionFactory::MakeNot
 ms.topic: method
-f1_keywords: 
- - "structuredquery/IConditionFactory.MakeNot"
+f1_keywords:
+- structuredquery/IConditionFactory.MakeNot
 dev_langs:
- - c++
+- c++
 req.header: structuredquery.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Structuredquery.h
+- Structuredquery.h
 api_name:
- - IConditionFactory.MakeNot
+- IConditionFactory.MakeNot
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0

@@ -1,19 +1,17 @@
 ---
 UID: NN:termmgr.ITTerminalControl
 title: ITTerminalControl (termmgr.h)
-
 description: The ITTerminalControl interface provides methods to get the MSP handle, connect and disconnect a terminal from a filter graph, and run or stop a renderer.
 old-location: tapi3\itterminalcontrol.htm
 tech.root: Tapi
 ms.assetid: 6fe60002-3af3-45e9-a084-7296a48e7263
-
 ms.date: 12/05/2018
 ms.keywords: ITTerminalControl, ITTerminalControl interface [TAPI 2.2], ITTerminalControl interface [TAPI 2.2],described, _tapi3_itterminalcontrol, tapi3.itterminalcontrol, termmgr/ITTerminalControl
 ms.topic: interface
-f1_keywords: 
- - "termmgr/ITTerminalControl"
+f1_keywords:
+- termmgr/ITTerminalControl
 dev_langs:
- - c++
+- c++
 req.header: termmgr.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Termmgr.h
+- Termmgr.h
 api_name:
- - ITTerminalControl
+- ITTerminalControl
 targetos: Windows
 req.typenames: 
 req.redist: 

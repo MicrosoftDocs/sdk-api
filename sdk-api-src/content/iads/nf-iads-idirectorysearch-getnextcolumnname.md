@@ -1,19 +1,17 @@
 ---
 UID: NF:iads.IDirectorySearch.GetNextColumnName
 title: IDirectorySearch::GetNextColumnName (iads.h)
-
 description: The IDirectorySearch::GetNextColumnName method gets the name of the next column in the search result that contains data.
 old-location: adsi\idirectorysearch_getnextcolumnname.htm
 tech.root: adsi
 ms.assetid: e3d95cc6-02f0-4a51-8dc5-4007cc8c63c8
-
 ms.date: 12/05/2018
 ms.keywords: GetNextColumnName, GetNextColumnName method [ADSI], GetNextColumnName method [ADSI],IDirectorySearch interface, IDirectorySearch interface [ADSI],GetNextColumnName method, IDirectorySearch.GetNextColumnName, IDirectorySearch::GetNextColumnName, _ds_idirectorysearch_getnextcolumnname, adsi.idirectorysearch__getnextcolumnname, adsi.idirectorysearch_getnextcolumnname, iads/IDirectorySearch::GetNextColumnName
 ms.topic: method
-f1_keywords: 
- - "iads/IDirectorySearch.GetNextColumnName"
+f1_keywords:
+- iads/IDirectorySearch.GetNextColumnName
 dev_langs:
- - c++
+- c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: Activeds.dll; Adsldp.dll; Adsldpc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Activeds.dll
- - Adsldp.dll
- - Adsldpc.dll
+- Activeds.dll
+- Adsldp.dll
+- Adsldpc.dll
 api_name:
- - IDirectorySearch.GetNextColumnName
+- IDirectorySearch.GetNextColumnName
 targetos: Windows
 req.typenames: 
 req.redist: 

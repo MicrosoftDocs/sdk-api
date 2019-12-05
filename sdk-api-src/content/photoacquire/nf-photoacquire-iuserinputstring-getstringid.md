@@ -1,19 +1,17 @@
 ---
 UID: NF:photoacquire.IUserInputString.GetStringId
 title: IUserInputString::GetStringId (photoacquire.h)
-
 description: The GetStringId method retrieves the unlocalized canonical name for the requested string. For example, when requesting a tag name, the canonical name might be &#0034;TagName&#0034;.
 old-location: picacq\iuserinputstring_getstringid.htm
 tech.root: acquisition
 ms.assetid: 29c4b592-fa6a-4f9b-a390-e8bc0928a26d
-
 ms.date: 12/05/2018
 ms.keywords: GetStringId, GetStringId method [Picture Acquisition], GetStringId method [Picture Acquisition],IUserInputString interface, IUserInputString interface [Picture Acquisition],GetStringId method, IUserInputString.GetStringId, IUserInputString::GetStringId, IUserInputStringGetStringId, photoacquire/IUserInputString::GetStringId, picacq.iuserinputstring_getstringid
 ms.topic: method
-f1_keywords: 
- - "photoacquire/IUserInputString.GetStringId"
+f1_keywords:
+- photoacquire/IUserInputString.GetStringId
 dev_langs:
- - c++
+- c++
 req.header: photoacquire.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: PhotoAcquireUID.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - PhotoAcquireUID.lib
- - PhotoAcquireUID.dll
+- PhotoAcquireUID.lib
+- PhotoAcquireUID.dll
 api_name:
- - IUserInputString.GetStringId
+- IUserInputString.GetStringId
 targetos: Windows
 req.typenames: 
 req.redist: 

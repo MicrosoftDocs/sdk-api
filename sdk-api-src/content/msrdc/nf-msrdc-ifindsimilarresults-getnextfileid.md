@@ -1,19 +1,17 @@
 ---
 UID: NF:msrdc.IFindSimilarResults.GetNextFileId
 title: IFindSimilarResults::GetNextFileId (msrdc.h)
-
 description: Retrieves the next valid similarity file ID in the file list that was returned by the ISimilarity::FindSimilarFileId method.
 old-location: rdc\ifindsimilarresults_getnextfileid.htm
 tech.root: rdc
 ms.assetid: 881e0ae6-311f-4bc4-9660-b0e96b7b9bd2
-
 ms.date: 12/05/2018
 ms.keywords: GetNextFileId, GetNextFileId method [Remote Differential Compression], GetNextFileId method [Remote Differential Compression],IFindSimilarResults interface, IFindSimilarResults interface [Remote Differential Compression],GetNextFileId method, IFindSimilarResults.GetNextFileId, IFindSimilarResults::GetNextFileId, fs.ifindsimilarresults_getnextfileid, msrdc/IFindSimilarResults::GetNextFileId, rdc.ifindsimilarresults_getnextfileid
 ms.topic: method
-f1_keywords: 
- - "msrdc/IFindSimilarResults.GetNextFileId"
+f1_keywords:
+- msrdc/IFindSimilarResults.GetNextFileId
 dev_langs:
- - c++
+- c++
 req.header: msrdc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: MsRdc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - MsRdc.dll
+- MsRdc.dll
 api_name:
- - IFindSimilarResults.GetNextFileId
+- IFindSimilarResults.GetNextFileId
 targetos: Windows
 req.typenames: 
 req.redist: 

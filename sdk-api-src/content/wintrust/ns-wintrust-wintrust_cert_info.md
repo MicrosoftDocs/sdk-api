@@ -1,19 +1,17 @@
 ---
 UID: NS:wintrust.WINTRUST_CERT_INFO_
 title: WINTRUST_CERT_INFO (wintrust.h)
-
 description: Used when calling WinVerifyTrust to verify a CERT_CONTEXT.
 old-location: security\wintrust_cert_info.htm
 tech.root: SecCrypto
 ms.assetid: 6522d1f0-3d96-4499-9220-23288122e0e6
-
 ms.date: 12/05/2018
 ms.keywords: '*PWINTRUST_CERT_INFO, PWINTRUST_CERT_INFO, PWINTRUST_CERT_INFO structure pointer [Security], WINTRUST_CERT_INFO, WINTRUST_CERT_INFO structure [Security], _win32_wintrust_cert_info, security.wintrust_cert_info, wintrust/PWINTRUST_CERT_INFO, wintrust/WINTRUST_CERT_INFO'
 ms.topic: struct
 f1_keywords:
 - wintrust/WINTRUST_CERT_INFO
 dev_langs:
- - c++
+- c++
 req.header: wintrust.h
 req.include-header: 
 req.target-type: Windows

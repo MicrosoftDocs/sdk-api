@@ -1,19 +1,17 @@
 ---
 UID: NF:winscard.SCardIntroduceReaderA
 title: SCardIntroduceReaderA function (winscard.h)
-
 description: Introduces a new name for an existing smart card reader.
 old-location: security\scardintroducereader.htm
 tech.root: SecAuthN
 ms.assetid: 1f8b9d75-5bba-40c3-99a0-6910855fcd4d
-
 ms.date: 12/05/2018
 ms.keywords: SCardIntroduceReader, SCardIntroduceReader function [Security], SCardIntroduceReaderA, SCardIntroduceReaderW, _smart_scardintroducereader, security.scardintroducereader, winscard/SCardIntroduceReader, winscard/SCardIntroduceReaderA, winscard/SCardIntroduceReaderW
 ms.topic: function
-f1_keywords: 
- - "winscard/SCardIntroduceReader"
+f1_keywords:
+- winscard/SCardIntroduceReader
 dev_langs:
- - c++
+- c++
 req.header: winscard.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Winscard.lib
 req.dll: Winscard.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Winscard.dll
+- Winscard.dll
 api_name:
- - SCardIntroduceReader
- - SCardIntroduceReaderA
- - SCardIntroduceReaderW
+- SCardIntroduceReader
+- SCardIntroduceReaderA
+- SCardIntroduceReaderW
 targetos: Windows
 req.typenames: 
 req.redist: 

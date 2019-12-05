@@ -1,19 +1,17 @@
 ---
 UID: NF:wingdi.GetWindowExtEx
 title: GetWindowExtEx function (wingdi.h)
-
 description: This function retrieves the x-extent and y-extent of the window for the specified device context.
 old-location: gdi\getwindowextex.htm
 tech.root: gdi
 ms.assetid: 17f41fcb-c9a4-4b7e-acde-73450044413e
-
 ms.date: 12/05/2018
 ms.keywords: GetWindowExtEx, GetWindowExtEx function [Windows GDI], _win32_GetWindowExtEx, gdi.getwindowextex, wingdi/GetWindowExtEx
 ms.topic: function
-f1_keywords: 
- - "wingdi/GetWindowExtEx"
+f1_keywords:
+- wingdi/GetWindowExtEx
 dev_langs:
- - c++
+- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - gdi32.dll
- - Ext-MS-Win-GDI-Draw-L1-1-2.dll
- - Ext-MS-Win-GDI-Draw-L1-1-3.dll
- - GDI32Full.dll
+- gdi32.dll
+- Ext-MS-Win-GDI-Draw-L1-1-2.dll
+- Ext-MS-Win-GDI-Draw-L1-1-3.dll
+- GDI32Full.dll
 api_name:
- - GetWindowExtEx
+- GetWindowExtEx
 targetos: Windows
 req.typenames: 
 req.redist: 

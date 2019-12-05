@@ -1,19 +1,17 @@
 ---
 UID: NS:winbase._FILE_DISPOSITION_INFO
 title: FILE_DISPOSITION_INFO (winbase.h)
-
 description: Indicates whether a file should be deleted. Used for any handles.
 old-location: fs\file_disposition_info.htm
 tech.root: FileIO
 ms.assetid: 07095f62-323a-463a-a33e-7e4ca9adcb69
-
 ms.date: 12/05/2018
-ms.keywords: "*PFILE_DISPOSITION_INFO, FILE_DISPOSITION_INFO, FILE_DISPOSITION_INFO structure [Files], PFILE_DISPOSITION_INFO, PFILE_DISPOSITION_INFO structure pointer [Files], fileextd/FILE_DISPOSITION_INFO, fileextd/PFILE_DISPOSITION_INFO, fs.file_disposition_info, winbase/FILE_DISPOSITION_INFO, winbase/PFILE_DISPOSITION_INFO"
+ms.keywords: '*PFILE_DISPOSITION_INFO, FILE_DISPOSITION_INFO, FILE_DISPOSITION_INFO structure [Files], PFILE_DISPOSITION_INFO, PFILE_DISPOSITION_INFO structure pointer [Files], fileextd/FILE_DISPOSITION_INFO, fileextd/PFILE_DISPOSITION_INFO, fs.file_disposition_info, winbase/FILE_DISPOSITION_INFO, winbase/PFILE_DISPOSITION_INFO'
 ms.topic: struct
-f1_keywords: 
- - "winbase/FILE_DISPOSITION_INFO"
+f1_keywords:
+- winbase/FILE_DISPOSITION_INFO
 dev_langs:
- - c++
+- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WinBase.h
- - FileExtd.h
+- WinBase.h
+- FileExtd.h
 api_name:
- - FILE_DISPOSITION_INFO
+- FILE_DISPOSITION_INFO
 targetos: Windows
 req.typenames: FILE_DISPOSITION_INFO, *PFILE_DISPOSITION_INFO
 req.redist: Windows SDK on     Windows Server 2003 and Windows XP.

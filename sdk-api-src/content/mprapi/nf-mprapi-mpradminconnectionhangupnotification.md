@@ -1,19 +1,17 @@
 ---
 UID: NF:mprapi.MprAdminConnectionHangupNotification
 title: MprAdminConnectionHangupNotification function (mprapi.h)
-
 description: Remote Access Service calls the MprAdminConnectionHangupNotification function after the last link for the specified connection has been dismantled.
 old-location: rras\mpradminconnectionhangupnotification.htm
 tech.root: RRAS
 ms.assetid: 504ce881-7d06-41d3-a942-0fe27be12bd3
-
 ms.date: 12/05/2018
 ms.keywords: MprAdminConnectionHangupNotification, MprAdminConnectionHangupNotification callback, MprAdminConnectionHangupNotification callback function [RAS], _mpr_mpradminconnectionhangupnotification, mprapi/MprAdminConnectionHangupNotification, rras.mpradminconnectionhangupnotification
 ms.topic: function
 f1_keywords:
 - mprapi/MprAdminConnectionHangupNotification
 dev_langs:
- - c++
+- c++
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows

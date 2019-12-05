@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationcoreapi.SynchronizedInputPattern_Cancel
 title: SynchronizedInputPattern_Cancel function (uiautomationcoreapi.h)
-
 description: Causes the UI Automation provider to stop listening for mouse or keyboard input.
 old-location: winauto\uiauto_SynchronizedInputPattern_Cancel.htm
 tech.root: WinAuto
 ms.assetid: e41153c1-5eea-4850-8845-9c3dc07816a3
-
 ms.date: 12/05/2018
 ms.keywords: SynchronizedInputPattern_Cancel, SynchronizedInputPattern_Cancel function [Windows Accessibility], uiauto.uiauto_SynchronizedInputPattern_Cancel, uiauto_SynchronizedInputPattern_Cancel, uiautomationcoreapi/SynchronizedInputPattern_Cancel, winauto.uiauto_SynchronizedInputPattern_Cancel
 ms.topic: function
-f1_keywords: 
- - "uiautomationcoreapi/SynchronizedInputPattern_Cancel"
+f1_keywords:
+- uiautomationcoreapi/SynchronizedInputPattern_Cancel
 dev_langs:
- - c++
+- c++
 req.header: uiautomationcoreapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uiautomationcore.lib
 req.dll: Uiautomationcore.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Uiautomationcore.dll
+- Uiautomationcore.dll
 api_name:
- - SynchronizedInputPattern_Cancel
+- SynchronizedInputPattern_Cancel
 targetos: Windows
 req.typenames: 
 req.redist: 

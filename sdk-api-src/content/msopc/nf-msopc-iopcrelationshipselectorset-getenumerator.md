@@ -1,19 +1,17 @@
 ---
 UID: NF:msopc.IOpcRelationshipSelectorSet.GetEnumerator
 title: IOpcRelationshipSelectorSet::GetEnumerator (msopc.h)
-
 description: Gets an enumerator of IOpcRelationshipSelector interface pointers in the set.
 old-location: opc\iopcrelationshipselectorset_getenumerator.htm
 tech.root: OPC
 ms.assetid: 7c0a885a-8ee2-40fe-bbc6-d7036e4a4c40
-
 ms.date: 12/05/2018
 ms.keywords: GetEnumerator, GetEnumerator method [Open Packaging Conventions], GetEnumerator method [Open Packaging Conventions],IOpcRelationshipSelectorSet interface, IOpcRelationshipSelectorSet interface [Open Packaging Conventions],GetEnumerator method, IOpcRelationshipSelectorSet.GetEnumerator, IOpcRelationshipSelectorSet::GetEnumerator, msopc/IOpcRelationshipSelectorSet::GetEnumerator, opc.iopcrelationshipselectorset_getenumerator
 ms.topic: method
-f1_keywords: 
- - "msopc/IOpcRelationshipSelectorSet.GetEnumerator"
+f1_keywords:
+- msopc/IOpcRelationshipSelectorSet.GetEnumerator
 dev_langs:
- - c++
+- c++
 req.header: msopc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msopc.h
+- msopc.h
 api_name:
- - IOpcRelationshipSelectorSet.GetEnumerator
+- IOpcRelationshipSelectorSet.GetEnumerator
 targetos: Windows
 req.typenames: 
 req.redist: 

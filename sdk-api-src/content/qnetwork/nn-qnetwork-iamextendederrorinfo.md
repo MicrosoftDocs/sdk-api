@@ -1,19 +1,17 @@
 ---
 UID: NN:qnetwork.IAMExtendedErrorInfo
 title: IAMExtendedErrorInfo (qnetwork.h)
-
 description: The IAMExtendedErrorInfo interface is used to obtain error information. Note  This interface is not implemented by any default components in DirectShow. .
 old-location: dshow\iamextendederrorinfo.htm
 tech.root: DirectShow
 ms.assetid: 0e3274e6-7c22-4175-8b2e-cdf4afc1225e
-
 ms.date: 12/05/2018
 ms.keywords: IAMExtendedErrorInfo, IAMExtendedErrorInfo interface [DirectShow], IAMExtendedErrorInfo interface [DirectShow],described, IAMExtendedErrorInfoInterface, dshow.iamextendederrorinfo, qnetwork/IAMExtendedErrorInfo
 ms.topic: interface
-f1_keywords: 
- - "qnetwork/IAMExtendedErrorInfo"
+f1_keywords:
+- qnetwork/IAMExtendedErrorInfo
 dev_langs:
- - c++
+- c++
 req.header: qnetwork.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Qnetwork.h
+- Qnetwork.h
 api_name:
- - IAMExtendedErrorInfo
+- IAMExtendedErrorInfo
 targetos: Windows
 req.typenames: 
 req.redist: 

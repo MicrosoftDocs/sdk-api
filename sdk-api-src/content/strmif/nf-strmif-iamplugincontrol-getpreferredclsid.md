@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IAMPluginControl.GetPreferredClsid
 title: IAMPluginControl::GetPreferredClsid (strmif.h)
-
 description: Searches the preferred list for a class identifier (CLSID) that matches a specified subtype.
 old-location: dshow\iamplugincontrol_getpreferredclsid.htm
 tech.root: DirectShow
 ms.assetid: 69f55810-9a3a-48cd-8fd2-d091a906d229
-
 ms.date: 12/05/2018
 ms.keywords: GetPreferredClsid, GetPreferredClsid method [DirectShow], GetPreferredClsid method [DirectShow],IAMPluginControl interface, IAMPluginControl interface [DirectShow],GetPreferredClsid method, IAMPluginControl.GetPreferredClsid, IAMPluginControl::GetPreferredClsid, dshow.iamplugincontrol_getpreferredclsid, strmif/IAMPluginControl::GetPreferredClsid
 ms.topic: method
-f1_keywords: 
- - "strmif/IAMPluginControl.GetPreferredClsid"
+f1_keywords:
+- strmif/IAMPluginControl.GetPreferredClsid
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmif.h
+- Strmif.h
 api_name:
- - IAMPluginControl.GetPreferredClsid
+- IAMPluginControl.GetPreferredClsid
 targetos: Windows
 req.typenames: 
 req.redist: 

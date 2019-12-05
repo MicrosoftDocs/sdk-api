@@ -1,19 +1,17 @@
 ---
 UID: NF:clusapi.ClusterNodeGetEnumCountEx
 title: ClusterNodeGetEnumCountEx function (clusapi.h)
-
 description: Returns the number of cluster objects that are associated with a node enumeration handle.
 old-location: mscs\clusternodegetenumcountex.htm
 tech.root: MsCS
 ms.assetid: 5C45ED88-9CB4-4C20-97D1-6F02A51048CE
-
 ms.date: 12/05/2018
 ms.keywords: ClusterNodeGetEnumCountEx, ClusterNodeGetEnumCountEx function [Failover Cluster], PCLUSAPI_CLUSTER_NODE_GET_ENUM_COUNT_EX, PCLUSAPI_CLUSTER_NODE_GET_ENUM_COUNT_EX function [Failover Cluster], clusapi/ClusterNodeGetEnumCountEx, clusapi/PCLUSAPI_CLUSTER_NODE_GET_ENUM_COUNT_EX, mscs.clusternodegetenumcountex
 ms.topic: function
-f1_keywords: 
- - "clusapi/ClusterNodeGetEnumCountEx"
+f1_keywords:
+- clusapi/ClusterNodeGetEnumCountEx
 dev_langs:
- - c++
+- c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: ClusAPI.lib
 req.dll: ClusAPI.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - ClusAPI.dll
+- ClusAPI.dll
 api_name:
- - ClusterNodeGetEnumCountEx
+- ClusterNodeGetEnumCountEx
 targetos: Windows
 req.typenames: 
 req.redist: 

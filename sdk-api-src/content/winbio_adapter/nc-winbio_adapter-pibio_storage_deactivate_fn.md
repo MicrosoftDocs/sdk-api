@@ -1,19 +1,17 @@
 ---
 UID: NC:winbio_adapter.PIBIO_STORAGE_DEACTIVATE_FN
 title: PIBIO_STORAGE_DEACTIVATE_FN (winbio_adapter.h)
-
 description: Gives the Storage Adapter the chance to perform any work needed to put the storage component into an idle state.
 old-location: secbiomet\storageadapterdeactivate.htm
 tech.root: SecBioMet
 ms.assetid: 95AAEE98-2DA6-4A2C-BF0C-DBE193346FE1
-
 ms.date: 12/05/2018
 ms.keywords: PIBIO_STORAGE_DEACTIVATE_FN, PIBIO_STORAGE_DEACTIVATE_FN callback, StorageAdapterDeactivate, StorageAdapterDeactivate callback function [Windows Biometric Framework API], secbiomet.storageadapterdeactivate, winbio_adapter/StorageAdapterDeactivate
 ms.topic: callback
 f1_keywords:
 - winbio_adapter/StorageAdapterDeactivate
 dev_langs:
- - c++
+- c++
 req.header: winbio_adapter.h
 req.include-header: Winbio_adapter.h
 req.target-type: Windows

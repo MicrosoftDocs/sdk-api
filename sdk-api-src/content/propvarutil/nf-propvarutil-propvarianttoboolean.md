@@ -1,19 +1,17 @@
 ---
 UID: NF:propvarutil.PropVariantToBoolean
 title: PropVariantToBoolean function (propvarutil.h)
-
 description: Extracts a Boolean property value of a PROPVARIANT structure. If no value can be extracted, then a default value is assigned.
 old-location: properties\PropVariantToBoolean.htm
 tech.root: properties
 ms.assetid: 74b9a388-8342-46e3-ac5e-b7c99e8f8f00
-
 ms.date: 12/05/2018
 ms.keywords: PropVariantToBoolean, PropVariantToBoolean function [Windows Properties], properties.PropVariantToBoolean, propvarutil/PropVariantToBoolean, shell.PropVariantToBoolean, shell_PropVariantToBoolean
 ms.topic: function
-f1_keywords: 
- - "propvarutil/PropVariantToBoolean"
+f1_keywords:
+- propvarutil/PropVariantToBoolean
 dev_langs:
- - c++
+- c++
 req.header: propvarutil.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Propsys.lib
 req.dll: Propsys.dll (version 6.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Propsys.dll
+- Propsys.dll
 api_name:
- - PropVariantToBoolean
+- PropVariantToBoolean
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0

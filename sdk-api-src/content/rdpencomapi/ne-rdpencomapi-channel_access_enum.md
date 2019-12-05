@@ -1,19 +1,17 @@
 ---
 UID: NE:rdpencomapi.__MIDL___MIDL_itf_rdpencomapi_0000_0000_0005
 title: CHANNEL_ACCESS_ENUM (rdpencomapi.h)
-
 description: Defines values for the type of access granted to the attendee for the channel.
 old-location: rdp\channel_access_enum.htm
 tech.root: rdp
 ms.assetid: 7d07954f-6514-4512-a934-6140de826ece
-
 ms.date: 12/05/2018
 ms.keywords: CHANNEL_ACCESS_ENUM, CHANNEL_ACCESS_ENUM enumeration [RDP], CHANNEL_ACCESS_ENUM_NONE, CHANNEL_ACCESS_ENUM_SENDRECEIVE, rdp.channel_access_enum, rdpencomapi/CHANNEL_ACCESS_ENUM, rdpencomapi/CHANNEL_ACCESS_ENUM_NONE, rdpencomapi/CHANNEL_ACCESS_ENUM_SENDRECEIVE
 ms.topic: enum
-f1_keywords: 
- - "rdpencomapi/CHANNEL_ACCESS_ENUM"
+f1_keywords:
+- rdpencomapi/CHANNEL_ACCESS_ENUM
 dev_langs:
- - c++
+- c++
 req.header: rdpencomapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Rdpencomapi.h
+- Rdpencomapi.h
 api_name:
- - CHANNEL_ACCESS_ENUM
+- CHANNEL_ACCESS_ENUM
 targetos: Windows
 req.typenames: CHANNEL_ACCESS_ENUM
 req.redist: 

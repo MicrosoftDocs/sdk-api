@@ -1,19 +1,17 @@
 ---
 UID: NF:rpcproxy.CStdStubBuffer_AddRef
 title: CStdStubBuffer_AddRef function (rpcproxy.h)
-
 description: The CStdStubBuffer_AddRef function implements the IRpcStubBuffer::AddRef method.
 old-location: rpc\cstdstubbuffer_addref.htm
 tech.root: Rpc
 ms.assetid: 4dbef7a0-6332-4307-8d22-40414a1df4f5
-
 ms.date: 12/05/2018
 ms.keywords: CStdStubBuffer_AddRef, CStdStubBuffer_AddRef function [RPC], rpc.cstdstubbuffer_addref, rpcproxy/CStdStubBuffer_AddRef
 ms.topic: function
-f1_keywords: 
- - "rpcproxy/CStdStubBuffer_AddRef"
+f1_keywords:
+- rpcproxy/CStdStubBuffer_AddRef
 dev_langs:
- - c++
+- c++
 req.header: rpcproxy.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: RpcRT4.lib
 req.dll: RpcRT4.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - RpcRT4.dll
+- RpcRT4.dll
 api_name:
- - CStdStubBuffer_AddRef
+- CStdStubBuffer_AddRef
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:ws2spi.WSCEnableNSProvider
 title: WSCEnableNSProvider function (ws2spi.h)
-
 description: Changes the state of a given namespace provider.
 old-location: winsock\wscenablensprovider_2.htm
 tech.root: WinSock
 ms.assetid: 2dff5af6-3011-4e3f-b812-fffaca8fa2d9
-
 ms.date: 12/05/2018
 ms.keywords: WSCEnableNSProvider, WSCEnableNSProvider function [Winsock], _win32_wscenablensprovider_2, winsock.wscenablensprovider_2, ws2spi/WSCEnableNSProvider
 ms.topic: function
-f1_keywords: 
- - "ws2spi/WSCEnableNSProvider"
+f1_keywords:
+- ws2spi/WSCEnableNSProvider
 dev_langs:
- - c++
+- c++
 req.header: ws2spi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Ws2_32.lib
 req.dll: Ws2_32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ws2_32.dll
+- Ws2_32.dll
 api_name:
- - WSCEnableNSProvider
+- WSCEnableNSProvider
 targetos: Windows
 req.typenames: 
 req.redist: 

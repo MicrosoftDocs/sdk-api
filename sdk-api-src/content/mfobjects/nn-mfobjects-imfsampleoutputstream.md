@@ -1,19 +1,17 @@
 ---
 UID: NN:mfobjects.IMFSampleOutputStream
 title: IMFSampleOutputStream (mfobjects.h)
-
 description: Writes media samples to a byte stream.
 old-location: mf\imfsampleoutputstream.htm
 tech.root: medfound
 ms.assetid: BA293BB7-9191-4123-96DB-FF6386ABB3AE
-
 ms.date: 12/05/2018
 ms.keywords: IMFSampleOutputStream, IMFSampleOutputStream interface [Media Foundation], IMFSampleOutputStream interface [Media Foundation],described, mf.imfsampleoutputstream, mfobjects/IMFSampleOutputStream
 ms.topic: interface
-f1_keywords: 
- - "mfobjects/IMFSampleOutputStream"
+f1_keywords:
+- mfobjects/IMFSampleOutputStream
 dev_langs:
- - c++
+- c++
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfobjects.h
+- mfobjects.h
 api_name:
- - IMFSampleOutputStream
+- IMFSampleOutputStream
 targetos: Windows
 req.typenames: 
 req.redist: 

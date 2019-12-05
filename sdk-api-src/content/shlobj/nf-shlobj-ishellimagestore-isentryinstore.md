@@ -1,19 +1,17 @@
 ---
 UID: NF:shlobj.IShellImageStore.IsEntryInStore
 title: IShellImageStore::IsEntryInStore (shlobj.h)
-
 description: Checks to see if the image is in the store.
 old-location: shell\IShellImageStore_IsEntryInStore.htm
 tech.root: shell
 ms.assetid: 571df609-9d17-415c-a4e0-23c4e1523993
-
 ms.date: 12/05/2018
 ms.keywords: IShellImageStore interface [Windows Shell],IsEntryInStore method, IShellImageStore.IsEntryInStore, IShellImageStore::IsEntryInStore, IsEntryInStore, IsEntryInStore method [Windows Shell], IsEntryInStore method [Windows Shell],IShellImageStore interface, _win32_IShellImageStore_IsEntryInStore, shell.IShellImageStore_IsEntryInStore, shlobj/IShellImageStore::IsEntryInStore
 ms.topic: method
-f1_keywords: 
- - "shlobj/IShellImageStore.IsEntryInStore"
+f1_keywords:
+- shlobj/IShellImageStore.IsEntryInStore
 dev_langs:
- - c++
+- c++
 req.header: shlobj.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Shell32.dll (version 5.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - IShellImageStore.IsEntryInStore
+- IShellImageStore.IsEntryInStore
 targetos: Windows
 req.typenames: 
 req.redist: 

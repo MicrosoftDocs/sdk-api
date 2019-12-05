@@ -1,19 +1,17 @@
 ---
 UID: NN:shobjidl_core.IContextMenuSite
 title: IContextMenuSite (shobjidl_core.h)
-
 description: Implemented by the default folder view created using SHCreateShellFolderView.
 old-location: shell\IContextMenuSite.htm
 tech.root: shell
 ms.assetid: ad444495-560b-40fe-9619-e84c6786714b
-
 ms.date: 12/05/2018
 ms.keywords: IContextMenuSite, IContextMenuSite interface [Windows Shell], IContextMenuSite interface [Windows Shell],described, _shell_IContextMenuSite, shell.IContextMenuSite, shobjidl_core/IContextMenuSite
 ms.topic: interface
-f1_keywords: 
- - "shobjidl_core/IContextMenuSite"
+f1_keywords:
+- shobjidl_core/IContextMenuSite
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Shell32.dll (version 5.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - IContextMenuSite
+- IContextMenuSite
 targetos: Windows
 req.typenames: 
 req.redist: 

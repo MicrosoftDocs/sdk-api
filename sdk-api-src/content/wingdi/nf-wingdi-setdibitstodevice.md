@@ -1,19 +1,17 @@
 ---
 UID: NF:wingdi.SetDIBitsToDevice
 title: SetDIBitsToDevice function (wingdi.h)
-
 description: The SetDIBitsToDevice function sets the pixels in the specified rectangle on the device that is associated with the destination device context using color data from a DIB, JPEG, or PNG image.
 old-location: gdi\setdibitstodevice.htm
 tech.root: gdi
 ms.assetid: 41225400-12e3-47ba-8b88-ac1d5b0fa90f
-
 ms.date: 12/05/2018
 ms.keywords: DIB_PAL_COLORS, DIB_RGB_COLORS, SetDIBitsToDevice, SetDIBitsToDevice function [Windows GDI], _win32_SetDIBitsToDevice, gdi.setdibitstodevice, wingdi/SetDIBitsToDevice
 ms.topic: function
-f1_keywords: 
- - "wingdi/SetDIBitsToDevice"
+f1_keywords:
+- wingdi/SetDIBitsToDevice
 dev_langs:
- - c++
+- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - gdi32.dll
- - Ext-MS-Win-GDI-Draw-l1-1-1.dll
- - ext-ms-win-gdi-draw-l1-1-2.dll
- - Ext-MS-Win-GDI-Draw-L1-1-3.dll
- - GDI32Full.dll
+- gdi32.dll
+- Ext-MS-Win-GDI-Draw-l1-1-1.dll
+- ext-ms-win-gdi-draw-l1-1-2.dll
+- Ext-MS-Win-GDI-Draw-L1-1-3.dll
+- GDI32Full.dll
 api_name:
- - SetDIBitsToDevice
+- SetDIBitsToDevice
 targetos: Windows
 req.typenames: 
 req.redist: 

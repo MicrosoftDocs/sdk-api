@@ -1,19 +1,17 @@
 ---
 UID: NF:processthreadsapi.GetCurrentThreadStackLimits
 title: GetCurrentThreadStackLimits function (processthreadsapi.h)
-
 description: Retrieves the boundaries of the stack that was allocated by the system for the current thread.
 old-location: base\getcurrentthreadstacklimits.htm
 tech.root: ProcThread
 ms.assetid: a5556124-a832-477d-80ab-424779eb9553
-
 ms.date: 12/05/2018
 ms.keywords: GetCurrentThreadStackLimits, GetCurrentThreadStackLimits function, base.getcurrentthreadstacklimits, processthreadsapi/GetCurrentThreadStackLimits
 ms.topic: function
-f1_keywords: 
- - "processthreadsapi/GetCurrentThreadStackLimits"
+f1_keywords:
+- processthreadsapi/GetCurrentThreadStackLimits
 dev_langs:
- - c++
+- c++
 req.header: processthreadsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,19 +30,19 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-ProcessThreads-l1-1-1.dll
- - KernelBase.dll
- - MinKernelBase.dll
- - API-MS-Win-Core-ProcessThreads-l1-1-2.dll
- - API-MS-Win-Core-ProcessThreads-L1-1-3.dll
+- Kernel32.dll
+- API-MS-Win-Core-ProcessThreads-l1-1-1.dll
+- KernelBase.dll
+- MinKernelBase.dll
+- API-MS-Win-Core-ProcessThreads-l1-1-2.dll
+- API-MS-Win-Core-ProcessThreads-L1-1-3.dll
 api_name:
- - GetCurrentThreadStackLimits
+- GetCurrentThreadStackLimits
 targetos: Windows
 req.typenames: 
 req.redist: 

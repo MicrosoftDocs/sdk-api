@@ -1,19 +1,17 @@
 ---
 UID: NF:oleauto.VarDateFromStr
 title: VarDateFromStr function (oleauto.h)
-
 description: Converts an OLECHAR string to a date value.
 old-location: automat\vardatefromstr.htm
 tech.root: automat
 ms.assetid: a5c21ceb-ed8b-4a95-8957-e9d7fc5bd90e
-
 ms.date: 12/05/2018
 ms.keywords: LOCALE_NOUSEROVERRIDE, VAR_CALENDAR_HIJRI, VAR_DATEVALUEONLY, VAR_TIMEVALUEONLY, VarDateFromStr, VarDateFromStr function [Automation], _oa96_VarDateFromStr, automat.vardatefromstr, oleauto/VarDateFromStr
 ms.topic: function
-f1_keywords: 
- - "oleauto/VarDateFromStr"
+f1_keywords:
+- oleauto/VarDateFromStr
 dev_langs:
- - c++
+- c++
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: OleAut32.lib
 req.dll: OleAut32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - OleAut32.dll
+- OleAut32.dll
 api_name:
- - VarDateFromStr
+- VarDateFromStr
 targetos: Windows
 req.typenames: 
 req.redist: 

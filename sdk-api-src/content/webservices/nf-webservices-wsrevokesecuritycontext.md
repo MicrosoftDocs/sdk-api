@@ -1,19 +1,17 @@
 ---
 UID: NF:webservices.WsRevokeSecurityContext
 title: WsRevokeSecurityContext function (webservices.h)
-
 description: Revokes a security context. Can only be called on the server side. Further requests using this security context will fail and a fault will be sent to the client.
 old-location: wsw\wsrevokesecuritycontext.htm
 tech.root: wsw
 ms.assetid: 07367f3d-4158-4ef4-ac27-4218d2a810a8
-
 ms.date: 12/05/2018
 ms.keywords: WsRevokeSecurityContext, WsRevokeSecurityContext function [Web Services for Windows], webservices/WsRevokeSecurityContext, wsw.wsrevokesecuritycontext
 ms.topic: function
-f1_keywords: 
- - "webservices/WsRevokeSecurityContext"
+f1_keywords:
+- webservices/WsRevokeSecurityContext
 dev_langs:
- - c++
+- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: WebServices.lib
 req.dll: WebServices.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - WebServices.dll
+- WebServices.dll
 api_name:
- - WsRevokeSecurityContext
+- WsRevokeSecurityContext
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NN:msinkaut.IInkStrokes
 title: IInkStrokes (msinkaut.h)
-
-description: "."
+description: .
 old-location: tablet\iinkstrokes.htm
 tech.root: tablet
 ms.assetid: 496234C1-C20B-46FE-A9BB-4B90C14FEB46
-
 ms.date: 12/05/2018
 ms.keywords: IInkStrokes, IInkStrokes interface [Tablet PC], IInkStrokes interface [Tablet PC],described, msinkaut/IInkStrokes, tablet.iinkstrokes
 ms.topic: interface
-f1_keywords: 
- - "msinkaut/IInkStrokes"
+f1_keywords:
+- msinkaut/IInkStrokes
 dev_langs:
- - c++
+- c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msinkaut.h
+- msinkaut.h
 api_name:
- - IInkStrokes
+- IInkStrokes
 targetos: Windows
 req.typenames: 
 req.redist: 

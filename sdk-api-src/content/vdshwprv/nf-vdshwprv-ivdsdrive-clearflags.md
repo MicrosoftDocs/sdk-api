@@ -1,19 +1,17 @@
 ---
 UID: NF:vdshwprv.IVdsDrive.ClearFlags
 title: IVdsDrive::ClearFlags (vdshwprv.h)
-
 description: Clears the flags of a drive object.
 old-location: base\ivdsdrive_clearflags.htm
 tech.root: VDS
 ms.assetid: 195f0c13-40d7-4fad-b589-063ec4ff4efe
-
 ms.date: 12/05/2018
 ms.keywords: ClearFlags, ClearFlags method [VDS], ClearFlags method [VDS],IVdsDrive interface, IVdsDrive interface [VDS],ClearFlags method, IVdsDrive.ClearFlags, IVdsDrive::ClearFlags, base.ivdsdrive_clearflags, vds/IVdsDrive::ClearFlags, vdshwprv/IVdsDrive::ClearFlags
 ms.topic: method
 f1_keywords:
 - vdshwprv/IVdsDrive.ClearFlags
 dev_langs:
- - c++
+- c++
 req.header: vdshwprv.h
 req.include-header: 
 req.target-type: Windows

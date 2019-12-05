@@ -1,19 +1,17 @@
 ---
 UID: NN:wmsdkidl.IWMProfile
 title: IWMProfile (wmsdkidl.h)
-
 description: The IWMProfile interface is the primary interface for a profile object.
 old-location: wmformat\iwmprofile.htm
 tech.root: wmformat
 ms.assetid: 00f28d6b-d27d-4268-960e-c8ea25e5359e
-
 ms.date: 12/05/2018
 ms.keywords: IWMProfile, IWMProfile interface [windows Media Format], IWMProfile interface [windows Media Format],described, IWMProfileInterface, wmformat.iwmprofile, wmsdkidl/IWMProfile
 ms.topic: interface
-f1_keywords: 
- - "wmsdkidl/IWMProfile"
+f1_keywords:
+- wmsdkidl/IWMProfile
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmsdkidl.h
+- wmsdkidl.h
 api_name:
- - IWMProfile
+- IWMProfile
 targetos: Windows
 req.typenames: 
 req.redist: 

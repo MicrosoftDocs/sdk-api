@@ -1,19 +1,17 @@
 ---
 UID: NF:mfmediaengine.IMFMediaEngine.SetPreload
 title: IMFMediaEngine::SetPreload (mfmediaengine.h)
-
 description: Sets the preload flag.
 old-location: mf\imfmediaengine_setpreload.htm
 tech.root: medfound
 ms.assetid: 3480C16F-E4E4-469C-BE27-711044691A49
-
 ms.date: 12/05/2018
 ms.keywords: IMFMediaEngine interface [Media Foundation],SetPreload method, IMFMediaEngine.SetPreload, IMFMediaEngine::SetPreload, SetPreload, SetPreload method [Media Foundation], SetPreload method [Media Foundation],IMFMediaEngine interface, mf.imfmediaengine_setpreload, mfmediaengine/IMFMediaEngine::SetPreload
 ms.topic: method
-f1_keywords: 
- - "mfmediaengine/IMFMediaEngine.SetPreload"
+f1_keywords:
+- mfmediaengine/IMFMediaEngine.SetPreload
 dev_langs:
- - c++
+- c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfmediaengine.h
+- mfmediaengine.h
 api_name:
- - IMFMediaEngine.SetPreload
+- IMFMediaEngine.SetPreload
 targetos: Windows
 req.typenames: 
 req.redist: 

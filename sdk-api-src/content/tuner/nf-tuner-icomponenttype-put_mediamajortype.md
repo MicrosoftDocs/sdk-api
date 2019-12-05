@@ -1,19 +1,17 @@
 ---
 UID: NF:tuner.IComponentType.put_MediaMajorType
 title: IComponentType::put_MediaMajorType (tuner.h)
-
 description: The put_MediaMajorType method sets the DirectShow media major type.
 old-location: mstv\icomponenttype_put_mediamajortype.htm
 tech.root: mstv
 ms.assetid: 455a51f4-eb01-437a-9cb9-6ff93a6cc76e
-
 ms.date: 12/05/2018
 ms.keywords: IComponentType interface [Microsoft TV Technologies],put_MediaMajorType method, IComponentType.put_MediaMajorType, IComponentType::put_MediaMajorType, IComponentTypeput_MediaMajorType, mstv.icomponenttype_put_mediamajortype, put_MediaMajorType, put_MediaMajorType method [Microsoft TV Technologies], put_MediaMajorType method [Microsoft TV Technologies],IComponentType interface, tuner/IComponentType::put_MediaMajorType
 ms.topic: method
-f1_keywords: 
- - "tuner/IComponentType.put_MediaMajorType"
+f1_keywords:
+- tuner/IComponentType.put_MediaMajorType
 dev_langs:
- - c++
+- c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - tuner.h
+- tuner.h
 api_name:
- - IComponentType.put_MediaMajorType
+- IComponentType.put_MediaMajorType
 targetos: Windows
 req.typenames: 
 req.redist: 

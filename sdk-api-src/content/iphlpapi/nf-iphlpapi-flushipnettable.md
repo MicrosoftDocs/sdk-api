@@ -1,19 +1,17 @@
 ---
 UID: NF:iphlpapi.FlushIpNetTable
 title: FlushIpNetTable function (iphlpapi.h)
-
 description: The FlushIpNetTable function deletes all ARP entries for the specified interface from the ARP table on the local computer.
 old-location: iphlp\flushipnettable.htm
 tech.root: IpHlp
 ms.assetid: cf4dea10-552d-4730-a452-9302ef3761ff
-
 ms.date: 12/05/2018
 ms.keywords: FlushIpNetTable, FlushIpNetTable function [IP Helper], _iphlp_flushipnettable, iphlp.flushipnettable, iphlpapi/FlushIpNetTable
 ms.topic: function
-f1_keywords: 
- - "iphlpapi/FlushIpNetTable"
+f1_keywords:
+- iphlpapi/FlushIpNetTable
 dev_langs:
- - c++
+- c++
 req.header: iphlpapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Iphlpapi.lib
 req.dll: Iphlpapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Iphlpapi.dll
+- Iphlpapi.dll
 api_name:
- - FlushIpNetTable
+- FlushIpNetTable
 targetos: Windows
 req.typenames: 
 req.redist: 

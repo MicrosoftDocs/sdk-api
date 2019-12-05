@@ -1,19 +1,17 @@
 ---
 UID: NF:wmp.IWMPEvents2.DeviceSyncStateChange
 title: IWMPEvents2::DeviceSyncStateChange (wmp.h)
-
 description: The DeviceSyncStateChange event occurs when the synchronization state of a device changes.
 old-location: wmp\iwmpevents2_iwmpevents2__devicesyncstatechange.htm
 tech.root: WMP
 ms.assetid: 98970d33-8035-49f9-9243-b4832df6e5c9
-
 ms.date: 12/05/2018
 ms.keywords: DeviceSyncStateChange, DeviceSyncStateChange method [Windows Media Player], DeviceSyncStateChange method [Windows Media Player],IWMPEvents2 interface, IWMPEvents2 interface [Windows Media Player],DeviceSyncStateChange method, IWMPEvents2.DeviceSyncStateChange, IWMPEvents2::DeviceSyncStateChange, IWMPEvents2DeviceSyncStateChange, wmp.iwmpevents2_iwmpevents2__devicesyncstatechange, wmp/IWMPEvents2::DeviceSyncStateChange
 ms.topic: method
-f1_keywords: 
- - "wmp/IWMPEvents2.DeviceSyncStateChange"
+f1_keywords:
+- wmp/IWMPEvents2.DeviceSyncStateChange
 dev_langs:
- - c++
+- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wmp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmp.dll
+- wmp.dll
 api_name:
- - IWMPEvents2.DeviceSyncStateChange
+- IWMPEvents2.DeviceSyncStateChange
 targetos: Windows
 req.typenames: 
 req.redist: 

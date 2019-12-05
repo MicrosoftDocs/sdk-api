@@ -1,19 +1,17 @@
 ---
 UID: NF:commctrl.Button_SetDropDownState
 title: Button_SetDropDownState macro (commctrl.h)
-
 description: Sets the drop down state for a specified button with style of BS_SPLITBUTTON. Use this macro or send the BCM_SETDROPDOWNSTATE message explicitly.
 old-location: controls\Button_SetDropDownState.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\buttons\buttonreference\buttonmacros\button_setdropdownstate.htm
-
 ms.date: 12/05/2018
 ms.keywords: Button_SetDropDownState, Button_SetDropDownState macro [Windows Controls], _shell_Button_SetDropDownState, _shell_Button_SetDropDownState_cpp, commctrl/Button_SetDropDownState, controls.Button_SetDropDownState, controls._shell_Button_SetDropDownState
 ms.topic: macro
-f1_keywords: 
- - "commctrl/Button_SetDropDownState"
+f1_keywords:
+- commctrl/Button_SetDropDownState
 dev_langs:
- - c++
+- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Commctrl.h
+- Commctrl.h
 api_name:
- - Button_SetDropDownState
+- Button_SetDropDownState
 targetos: Windows
 req.typenames: 
 req.redist: 

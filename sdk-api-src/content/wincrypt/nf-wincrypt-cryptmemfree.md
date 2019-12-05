@@ -1,19 +1,17 @@
 ---
 UID: NF:wincrypt.CryptMemFree
 title: CryptMemFree function (wincrypt.h)
-
 description: The CryptMemFree function frees memory allocated by CryptMemAlloc or CryptMemRealloc.
 old-location: security\cryptmemfree.htm
 tech.root: SecCrypto
 ms.assetid: fb5c10ba-da8e-4a34-9302-67586a0a9624
-
 ms.date: 12/05/2018
 ms.keywords: CryptMemFree, CryptMemFree function [Security], _crypto2_cryptmemfree, security.cryptmemfree, wincrypt/CryptMemFree
 ms.topic: function
-f1_keywords: 
- - "wincrypt/CryptMemFree"
+f1_keywords:
+- wincrypt/CryptMemFree
 dev_langs:
- - c++
+- c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Crypt32.lib
 req.dll: Crypt32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Crypt32.dll
+- Crypt32.dll
 api_name:
- - CryptMemFree
+- CryptMemFree
 targetos: Windows
 req.typenames: 
 req.redist: 

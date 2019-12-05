@@ -1,19 +1,17 @@
 ---
 UID: NF:winuser.IsWinEventHookInstalled
 title: IsWinEventHookInstalled function (winuser.h)
-
 description: Determines whether there is an installed WinEvent hook that might be notified of a specified event.
 old-location: winauto\iswineventhookinstalled.htm
 tech.root: WinAuto
 ms.assetid: bc1e97ad-748d-420a-8c9a-72a555b685e1
-
 ms.date: 12/05/2018
 ms.keywords: IsWinEventHookInstalled, IsWinEventHookInstalled function [Windows Accessibility], _msaa_IsWinEventHookInstalled, msaa.iswineventhookinstalled, winauto.iswineventhookinstalled, winuser/IsWinEventHookInstalled
 ms.topic: function
-f1_keywords: 
- - "winuser/IsWinEventHookInstalled"
+f1_keywords:
+- winuser/IsWinEventHookInstalled
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - User32.dll
- - API-MS-Win-RTCore-NTUser-Winevent-l1-1-0.dll
- - minuser.dll
+- User32.dll
+- API-MS-Win-RTCore-NTUser-Winevent-l1-1-0.dll
+- minuser.dll
 api_name:
- - IsWinEventHookInstalled
+- IsWinEventHookInstalled
 targetos: Windows
 req.typenames: 
 req.redist: Active Accessibility 2.0 RDK on Windows NT 4.0 with SP6 and later and Windows 98

@@ -1,19 +1,17 @@
 ---
 UID: NF:bluetoothapis.BluetoothUnregisterAuthentication
 title: BluetoothUnregisterAuthentication function (bluetoothapis.h)
-
 description: The BluetoothUnregisterAuthentication function removes registration for a callback routine that was previously registered with a call to the BluetoothRegisterForAuthentication function.
 old-location: bluetooth\bluetoothunregisterauthentication.htm
 tech.root: bluetooth
 ms.assetid: bfb1a18c-e5b1-4053-8652-5a76b196bebe
-
 ms.date: 12/05/2018
 ms.keywords: BluetoothUnregisterAuthentication, BluetoothUnregisterAuthentication function [Bluetooth], bluetooth.bluetoothunregisterauthentication, bluetoothapis/BluetoothUnregisterAuthentication
 ms.topic: function
-f1_keywords: 
- - "bluetoothapis/BluetoothUnregisterAuthentication"
+f1_keywords:
+- bluetoothapis/BluetoothUnregisterAuthentication
 dev_langs:
- - c++
+- c++
 req.header: bluetoothapis.h
 req.include-header: Bthsdpdef.h, BluetoothAPIs.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Bthprops.lib
 req.dll: Bthprops.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Bthprops.dll
- - BluetoothAPIs.dll
- - Ext-MS-Win-Bluetooth-APIs-l1-1-0.dll
+- Bthprops.dll
+- BluetoothAPIs.dll
+- Ext-MS-Win-Bluetooth-APIs-l1-1-0.dll
 api_name:
- - BluetoothUnregisterAuthentication
+- BluetoothUnregisterAuthentication
 targetos: Windows
 req.typenames: 
 req.redist: 

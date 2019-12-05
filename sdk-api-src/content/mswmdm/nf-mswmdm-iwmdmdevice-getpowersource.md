@@ -1,19 +1,17 @@
 ---
 UID: NF:mswmdm.IWMDMDevice.GetPowerSource
 title: IWMDMDevice::GetPowerSource (mswmdm.h)
-
 description: The GetPowerSource method retrieves information about the power source and the percentage of power remaining for the device.
 old-location: wmdm\iwmdmdevice_getpowersource.htm
 tech.root: WMDM
 ms.assetid: 0e13ac64-69b7-4c44-8690-8fcef6cb354f
-
 ms.date: 12/05/2018
 ms.keywords: GetPowerSource, GetPowerSource method [windows Media Device Manager], GetPowerSource method [windows Media Device Manager],IWMDMDevice interface, IWMDMDevice interface [windows Media Device Manager],GetPowerSource method, IWMDMDevice.GetPowerSource, IWMDMDevice::GetPowerSource, IWMDMDeviceGetPowerSource, mswmdm/IWMDMDevice::GetPowerSource, wmdm.iwmdmdevice_getpowersource
 ms.topic: method
-f1_keywords: 
- - "mswmdm/IWMDMDevice.GetPowerSource"
+f1_keywords:
+- mswmdm/IWMDMDevice.GetPowerSource
 dev_langs:
- - c++
+- c++
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mssachlp.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mssachlp.lib
- - mssachlp.dll
+- mssachlp.lib
+- mssachlp.dll
 api_name:
- - IWMDMDevice.GetPowerSource
+- IWMDMDevice.GetPowerSource
 targetos: Windows
 req.typenames: 
 req.redist: 

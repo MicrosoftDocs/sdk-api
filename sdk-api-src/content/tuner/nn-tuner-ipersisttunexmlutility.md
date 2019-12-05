@@ -1,19 +1,17 @@
 ---
 UID: NN:tuner.IPersistTuneXmlUtility
 title: IPersistTuneXmlUtility (tuner.h)
-
 description: Defines utility methods for deserializing XML tuning requests to objects that expose their IUnknown interfaces.
 old-location: mstv\ipersisttunexmlutility.htm
 tech.root: mstv
 ms.assetid: aa03015f-094f-499f-99fb-2e15ead74f15
-
 ms.date: 12/05/2018
 ms.keywords: IPersistTuneXmlUtility, IPersistTuneXmlUtility interface [Microsoft TV Technologies], IPersistTuneXmlUtility interface [Microsoft TV Technologies],described, mstv.ipersisttunexmlutility, tuner/IPersistTuneXmlUtility
 ms.topic: interface
-f1_keywords: 
- - "tuner/IPersistTuneXmlUtility"
+f1_keywords:
+- tuner/IPersistTuneXmlUtility
 dev_langs:
- - c++
+- c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - tuner.h
+- tuner.h
 api_name:
- - IPersistTuneXmlUtility
+- IPersistTuneXmlUtility
 targetos: Windows
 req.typenames: 
 req.redist: 

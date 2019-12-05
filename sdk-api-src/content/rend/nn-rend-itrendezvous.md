@@ -1,19 +1,17 @@
 ---
 UID: NN:rend.ITRendezvous
 title: ITRendezvous (rend.h)
-
 description: The ITRendezvous interface is the main interface for the Rendezvous control. An application calls the COM CoCreateInstance function on this interface to create the Rendezvous object.
 old-location: tapi3\itrendezvous.htm
 tech.root: Tapi
 ms.assetid: ea8b0a66-b968-4a24-95db-e702d49a2870
-
 ms.date: 12/05/2018
 ms.keywords: ITRendezvous, ITRendezvous interface [TAPI 2.2], ITRendezvous interface [TAPI 2.2],described, _tapi3_itrendezvous, rend/ITRendezvous, tapi3.itrendezvous
 ms.topic: interface
-f1_keywords: 
- - "rend/ITRendezvous"
+f1_keywords:
+- rend/ITRendezvous
 dev_langs:
- - c++
+- c++
 req.header: rend.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Rend.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Rend.dll
+- Rend.dll
 api_name:
- - ITRendezvous
+- ITRendezvous
 targetos: Windows
 req.typenames: 
 req.redist: 

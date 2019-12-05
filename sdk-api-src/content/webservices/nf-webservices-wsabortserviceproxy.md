@@ -1,19 +1,17 @@
 ---
 UID: NF:webservices.WsAbortServiceProxy
 title: WsAbortServiceProxy function (webservices.h)
-
 description: Aborts the service proxy, and cancels any pending I/O on the service proxy.
 old-location: wsw\wsabortserviceproxy.htm
 tech.root: wsw
 ms.assetid: 45dc9df4-3a98-446f-b749-809607137fb1
-
 ms.date: 12/05/2018
 ms.keywords: WsAbortServiceProxy, WsAbortServiceProxy function [Web Services for Windows], webservices/WsAbortServiceProxy, wsw.wsabortserviceproxy
 ms.topic: function
-f1_keywords: 
- - "webservices/WsAbortServiceProxy"
+f1_keywords:
+- webservices/WsAbortServiceProxy
 dev_langs:
- - c++
+- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: WebServices.lib
 req.dll: WebServices.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - WebServices.dll
+- WebServices.dll
 api_name:
- - WsAbortServiceProxy
+- WsAbortServiceProxy
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NN:xblidpauthmanager.IXblIdpAuthManager
 title: IXblIdpAuthManager (xblidpauthmanager.h)
-
 description: Reserved for Microsoft use.
 old-location: xblidp\ixblidpauthmanager.htm
 tech.root: xblidp
 ms.assetid: BD421B26-241F-46C4-9B77-ADCFFBEA24B0
-
 ms.date: 12/05/2018
 ms.keywords: IXblIdpAuthManager, IXblIdpAuthManager interface, IXblIdpAuthManager interface,described, xblidp.ixblidpauthmanager, xblidpauthmanager/IXblIdpAuthManager
 ms.topic: interface
-f1_keywords: 
- - "xblidpauthmanager/IXblIdpAuthManager"
+f1_keywords:
+- xblidpauthmanager/IXblIdpAuthManager
 dev_langs:
- - c++
+- c++
 req.header: xblidpauthmanager.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - XblIdpAuthManager.h
+- XblIdpAuthManager.h
 api_name:
- - IXblIdpAuthManager
+- IXblIdpAuthManager
 targetos: Windows
 req.typenames: 
 req.redist: 

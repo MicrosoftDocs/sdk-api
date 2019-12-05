@@ -1,19 +1,17 @@
 ---
 UID: NF:ddeml.DdeReconnect
 title: DdeReconnect function (ddeml.h)
-
 description: Enables a client Dynamic Data Exchange Management Library (DDEML) application to attempt to reestablish a conversation with a service that has terminated a conversation with the client.
 old-location: dataxchg\ddereconnect.htm
 tech.root: dataxchg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\dataexchange\dynamicdataexchangemanagementlibrary\dynamicdataexchangemanagementreference\dynamicdataexchangemanagementfunctions\ddereconnect.htm
-
 ms.date: 12/05/2018
 ms.keywords: DdeReconnect, DdeReconnect function [Data Exchange], _win32_DdeReconnect, _win32_ddereconnect_cpp, dataxchg.ddereconnect, ddeml/DdeReconnect, winui._win32_ddereconnect
 ms.topic: function
-f1_keywords: 
- - "ddeml/DdeReconnect"
+f1_keywords:
+- ddeml/DdeReconnect
 dev_langs:
- - c++
+- c++
 req.header: ddeml.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - User32.dll
+- User32.dll
 api_name:
- - DdeReconnect
+- DdeReconnect
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:pla.IFolderAction.get_SendCabTo
 title: IFolderAction::get_SendCabTo (pla.h)
-
 description: Retrieves or sets the destination of the cabinet file if the action is to send a cabinet file.
 old-location: pla\ifolderaction_sendcabto.htm
 tech.root: PLA
 ms.assetid: a6398d07-f15d-401b-a3b6-21b2506ad270
-
 ms.date: 12/05/2018
 ms.keywords: IFolderAction interface [PLA],SendCabTo property, IFolderAction.SendCabTo, IFolderAction.get_SendCabTo, IFolderAction::SendCabTo, IFolderAction::get_SendCabTo, IFolderAction::put_SendCabTo, SendCabTo property [PLA], SendCabTo property [PLA],IFolderAction interface, base.ifolderaction_sendcabto, get_SendCabTo, pla.ifolderaction_sendcabto, pla/IFolderAction::SendCabTo, pla/IFolderAction::get_SendCabTo, pla/IFolderAction::put_SendCabTo
 ms.topic: method
-f1_keywords: 
- - "pla/IFolderAction.SendCabTo"
+f1_keywords:
+- pla/IFolderAction.SendCabTo
 dev_langs:
- - c++
+- c++
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: Pla.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Pla.dll
+- Pla.dll
 api_name:
- - IFolderAction.SendCabTo
- - IFolderAction.get_SendCabTo
- - IFolderAction.put_SendCabTo
+- IFolderAction.SendCabTo
+- IFolderAction.get_SendCabTo
+- IFolderAction.put_SendCabTo
 targetos: Windows
 req.typenames: 
 req.redist: 

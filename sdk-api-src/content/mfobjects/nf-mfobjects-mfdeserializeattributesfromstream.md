@@ -1,19 +1,17 @@
 ---
 UID: NF:mfobjects.MFDeserializeAttributesFromStream
 title: MFDeserializeAttributesFromStream function (mfobjects.h)
-
 description: Loads attributes from a stream into an attribute store.
 old-location: mf\mfdeserializeattributesfromstream.htm
 tech.root: medfound
 ms.assetid: cc0bccfd-7e67-4e55-9d3e-ebcd91b94a3a
-
 ms.date: 12/05/2018
 ms.keywords: MFDeserializeAttributesFromStream, MFDeserializeAttributesFromStream function [Media Foundation], cc0bccfd-7e67-4e55-9d3e-ebcd91b94a3a, mf.mfdeserializeattributesfromstream, mfobjects/MFDeserializeAttributesFromStream
 ms.topic: function
-f1_keywords: 
- - "mfobjects/MFDeserializeAttributesFromStream"
+f1_keywords:
+- mfobjects/MFDeserializeAttributesFromStream
 dev_langs:
- - c++
+- c++
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Mfplat.lib
 req.dll: Mfplat.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - mfplat.dll
+- mfplat.dll
 api_name:
- - MFDeserializeAttributesFromStream
+- MFDeserializeAttributesFromStream
 targetos: Windows
 req.typenames: 
 req.redist: 

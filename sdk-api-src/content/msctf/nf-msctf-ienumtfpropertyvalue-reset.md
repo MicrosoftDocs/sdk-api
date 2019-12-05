@@ -1,19 +1,17 @@
 ---
 UID: NF:msctf.IEnumTfPropertyValue.Reset
 title: IEnumTfPropertyValue::Reset (msctf.h)
-
 description: IEnumTfPropertyValue::Reset method
 old-location: tsf\ienumtfpropertyvalue_reset.htm
 tech.root: TSF
 ms.assetid: d18fd066-94a3-48af-8db4-0def6c51565e
-
 ms.date: 12/05/2018
 ms.keywords: IEnumTfPropertyValue interface [Text Services Framework],Reset method, IEnumTfPropertyValue.Reset, IEnumTfPropertyValue::Reset, Reset, Reset method [Text Services Framework], Reset method [Text Services Framework],IEnumTfPropertyValue interface, _tsf_ienumtfpropertyvalue_reset_ref, msctf/IEnumTfPropertyValue::Reset, tsf.ienumtfpropertyvalue_reset
 ms.topic: method
-f1_keywords: 
- - "msctf/IEnumTfPropertyValue.Reset"
+f1_keywords:
+- msctf/IEnumTfPropertyValue.Reset
 dev_langs:
- - c++
+- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msctf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msctf.dll
+- msctf.dll
 api_name:
- - IEnumTfPropertyValue.Reset
+- IEnumTfPropertyValue.Reset
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

@@ -1,19 +1,17 @@
 ---
 UID: NN:d2d1effectauthor.ID2D1BlendTransform
 title: ID2D1BlendTransform (d2d1effectauthor.h)
-
 description: Provides methods to allow a blend operation to be inserted into a transform graph.
 old-location: direct2d\id2d1blendtransform.htm
 tech.root: Direct2D
 ms.assetid: 0DC46758-6005-4A33-9539-9C95CF8CFB6A
-
 ms.date: 12/05/2018
 ms.keywords: ID2D1BlendTransform, ID2D1BlendTransform interface [Direct2D], ID2D1BlendTransform interface [Direct2D],described, d2d1effectauthor/ID2D1BlendTransform, direct2d.id2d1blendtransform
 ms.topic: interface
-f1_keywords: 
- - "d2d1effectauthor/ID2D1BlendTransform"
+f1_keywords:
+- d2d1effectauthor/ID2D1BlendTransform
 dev_langs:
- - c++
+- c++
 req.header: d2d1effectauthor.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: D2d1.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - d2d1.lib
- - d2d1.dll
+- d2d1.lib
+- d2d1.dll
 api_name:
- - ID2D1BlendTransform
+- ID2D1BlendTransform
 targetos: Windows
 req.typenames: 
 req.redist: 

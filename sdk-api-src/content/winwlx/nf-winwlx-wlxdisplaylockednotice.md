@@ -1,19 +1,17 @@
 ---
 UID: NF:winwlx.WlxDisplayLockedNotice
 title: WlxDisplayLockedNotice function (winwlx.h)
-
 description: Allows the GINA to display information about the lock, such as who locked the workstation and when it was locked.
 old-location: security\wlxdisplaylockednotice.htm
 tech.root: SecAuthN
 ms.assetid: f8209ac4-e79b-4997-8dc3-c9224e10822b
-
 ms.date: 12/05/2018
 ms.keywords: WlxDisplayLockedNotice, WlxDisplayLockedNotice function [Security], _gina_wlxdisplaylockednotice, security.wlxdisplaylockednotice, winwlx/WlxDisplayLockedNotice
 ms.topic: function
-f1_keywords: 
- - "winwlx/WlxDisplayLockedNotice"
+f1_keywords:
+- winwlx/WlxDisplayLockedNotice
 dev_langs:
- - c++
+- c++
 req.header: winwlx.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Winwlx.h
+- Winwlx.h
 api_name:
- - WlxDisplayLockedNotice
+- WlxDisplayLockedNotice
 targetos: Windows
 req.typenames: 
 req.redist: 

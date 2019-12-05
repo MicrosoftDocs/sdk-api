@@ -1,19 +1,17 @@
 ---
 UID: NF:faxcomex.IFaxDeviceProvider.get_ImageName
 title: IFaxDeviceProvider::get_ImageName (faxcomex.h)
-
 description: The IFaxDeviceProvider::get_ImageName property is a null-terminated string that contains the executable image name (DLL path and file name) of the fax service provider (FSP).
 old-location: fax\_mfax_faxdeviceprovider_cpp_mfax_faxdeviceprovider_imagename_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_150l.htm
-
 ms.date: 12/05/2018
 ms.keywords: IFaxDeviceProvider interface [Fax Service],ImageName property, IFaxDeviceProvider.ImageName, IFaxDeviceProvider.get_ImageName, IFaxDeviceProvider::ImageName, IFaxDeviceProvider::get_ImageName, ImageName property [Fax Service], ImageName property [Fax Service],IFaxDeviceProvider interface, _mfax_faxdeviceprovider.imagename, fax._mfax_faxdeviceprovider_cpp_mfax_faxdeviceprovider_imagename_cpp, fax._mfax_faxdeviceprovider_imagename, faxcomex/IFaxDeviceProvider::ImageName, faxcomex/IFaxDeviceProvider::get_ImageName, get_ImageName
 ms.topic: method
-f1_keywords: 
- - "faxcomex/IFaxDeviceProvider.ImageName"
+f1_keywords:
+- faxcomex/IFaxDeviceProvider.ImageName
 dev_langs:
- - c++
+- c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: Fxscomex.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Fxscomex.dll
+- Fxscomex.dll
 api_name:
- - IFaxDeviceProvider.ImageName
- - IFaxDeviceProvider.get_ImageName
- - IFaxDeviceProvider.get_ImageName
+- IFaxDeviceProvider.ImageName
+- IFaxDeviceProvider.get_ImageName
+- IFaxDeviceProvider.get_ImageName
 targetos: Windows
 req.typenames: 
 req.redist: 

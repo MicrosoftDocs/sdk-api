@@ -1,19 +1,17 @@
 ---
 UID: NN:sbtsv.ITsSbFilterPluginStore
 title: ITsSbFilterPluginStore (sbtsv.h)
-
 description: Filter Plugin Store
 old-location: termserv\itssbfilterpluginstore.htm
 tech.root: TermServ
 ms.assetid: 59541fc2-0063-41ca-bcfe-536bb1742c6e
-
 ms.date: 12/05/2018
 ms.keywords: ITsSbFilterPluginStore, ITsSbFilterPluginStore interface [Remote Desktop Services], ITsSbFilterPluginStore interface [Remote Desktop Services],described, sbtsv/ITsSbFilterPluginStore, termserv.itssbfilterpluginstore
 ms.topic: interface
-f1_keywords: 
- - "sbtsv/ITsSbFilterPluginStore"
+f1_keywords:
+- sbtsv/ITsSbFilterPluginStore
 dev_langs:
- - c++
+- c++
 req.header: sbtsv.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - sbtsv.h
+- sbtsv.h
 api_name:
- - ITsSbFilterPluginStore
+- ITsSbFilterPluginStore
 targetos: Windows
 req.typenames: 
 req.redist: 

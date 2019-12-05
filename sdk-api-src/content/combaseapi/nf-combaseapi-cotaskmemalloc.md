@@ -1,19 +1,17 @@
 ---
 UID: NF:combaseapi.CoTaskMemAlloc
 title: CoTaskMemAlloc function (combaseapi.h)
-
 description: Allocates a block of task memory in the same way that IMalloc::Alloc does.
 old-location: com\cotaskmemalloc.htm
 tech.root: com
 ms.assetid: c4cb588d-9482-4f90-a92e-75b604540d5c
-
 ms.date: 12/05/2018
 ms.keywords: CoTaskMemAlloc, CoTaskMemAlloc function [COM], _com_CoTaskMemAlloc, com.cotaskmemalloc, combaseapi/CoTaskMemAlloc
 ms.topic: function
-f1_keywords: 
- - "combaseapi/CoTaskMemAlloc"
+f1_keywords:
+- combaseapi/CoTaskMemAlloc
 dev_langs:
- - c++
+- c++
 req.header: combaseapi.h
 req.include-header: Objbase.h
 req.target-type: Windows
@@ -32,19 +30,19 @@ req.lib: Ole32.lib
 req.dll: Ole32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ole32.dll
- - API-MS-Win-Core-Com-l1-1-0.dll
- - ComBase.dll
- - API-MS-Win-Core-Com-l1-1-1.dll
- - API-MS-Win-DownLevel-Ole32-l1-1-0.dll
- - API-MS-Win-DownLevel-Ole32-l1-1-1.dll
+- Ole32.dll
+- API-MS-Win-Core-Com-l1-1-0.dll
+- ComBase.dll
+- API-MS-Win-Core-Com-l1-1-1.dll
+- API-MS-Win-DownLevel-Ole32-l1-1-0.dll
+- API-MS-Win-DownLevel-Ole32-l1-1-1.dll
 api_name:
- - CoTaskMemAlloc
+- CoTaskMemAlloc
 targetos: Windows
 req.typenames: 
 req.redist: 

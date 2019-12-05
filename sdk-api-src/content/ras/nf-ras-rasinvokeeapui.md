@@ -1,19 +1,17 @@
 ---
 UID: NF:ras.RasInvokeEapUI
 title: RasInvokeEapUI function (ras.h)
-
 description: The RasInvokeEapUI function displays a custom user interface to obtain Extensible Authentication Protocol (EAP) information from the user.
 old-location: rras\rasinvokeeapui.htm
 tech.root: RRAS
 ms.assetid: 60661c23-3d6a-4b0c-9cc9-bf04ecea2425
-
 ms.date: 12/05/2018
 ms.keywords: RasInvokeEapUI, RasInvokeEapUI function [RAS], _ras_rasinvokeeapui, ras/RasInvokeEapUI, rras.rasinvokeeapui
 ms.topic: function
-f1_keywords: 
- - "ras/RasInvokeEapUI"
+f1_keywords:
+- ras/RasInvokeEapUI
 dev_langs:
- - c++
+- c++
 req.header: ras.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Rasapi32.lib
 req.dll: Rasapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Rasapi32.dll
+- Rasapi32.dll
 api_name:
- - RasInvokeEapUI
+- RasInvokeEapUI
 targetos: Windows
 req.typenames: 
 req.redist: 

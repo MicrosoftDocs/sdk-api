@@ -1,19 +1,17 @@
 ---
 UID: NF:wtsprotocol.IWTSProtocolManager.NotifySessionOfServiceStart
 title: IWTSProtocolManager::NotifySessionOfServiceStart (wtsprotocol.h)
-
 description: IWTSProtocolManager::NotifySessionOfServiceStart is no longer available. Instead, use IWRdsProtocolManager::NotifySessionOfServiceStart.
 old-location: termserv\iwtsprotocolmanager_notifysessionofservicestart.htm
 tech.root: TermServ
 ms.assetid: 8b9e7578-75e1-4447-8ff9-e391bf339fbe
-
 ms.date: 12/05/2018
 ms.keywords: IWTSProtocolManager interface [Remote Desktop Services],NotifySessionOfServiceStart method, IWTSProtocolManager.NotifySessionOfServiceStart, IWTSProtocolManager::NotifySessionOfServiceStart, NotifySessionOfServiceStart, NotifySessionOfServiceStart method [Remote Desktop Services], NotifySessionOfServiceStart method [Remote Desktop Services],IWTSProtocolManager interface, termserv.iwtsprotocolmanager_notifysessionofservicestart, wtsprotocol/IWTSProtocolManager::NotifySessionOfServiceStart
 ms.topic: method
 f1_keywords:
 - wtsprotocol/IWTSProtocolManager.NotifySessionOfServiceStart
 dev_langs:
- - c++
+- c++
 req.header: wtsprotocol.h
 req.include-header: 
 req.target-type: Windows

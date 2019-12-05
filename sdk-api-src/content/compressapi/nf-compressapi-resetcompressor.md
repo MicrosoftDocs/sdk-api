@@ -1,19 +1,17 @@
 ---
 UID: NF:compressapi.ResetCompressor
 title: ResetCompressor function (compressapi.h)
-
 description: Prepares the compressor for the compression of a new stream.
 old-location: cmpapi\resetcompressor.htm
 tech.root: cmpapi
 ms.assetid: 1ea542e0-7236-4158-9578-f5d55f8c7f8e
-
 ms.date: 12/05/2018
 ms.keywords: ResetCompressor, ResetCompressor function [Compression API], cmpapi.resetcompressor, compressapi/ResetCompressor
 ms.topic: function
-f1_keywords: 
- - "compressapi/ResetCompressor"
+f1_keywords:
+- compressapi/ResetCompressor
 dev_langs:
- - c++
+- c++
 req.header: compressapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Cabinet.lib
 req.dll: Cabinet.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - cabinet.dll
+- cabinet.dll
 api_name:
- - ResetCompressor
+- ResetCompressor
 targetos: Windows
 req.typenames: 
 req.redist: 

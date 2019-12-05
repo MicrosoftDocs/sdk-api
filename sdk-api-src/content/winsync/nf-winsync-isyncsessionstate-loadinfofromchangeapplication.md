@@ -1,19 +1,17 @@
 ---
 UID: NF:winsync.ISyncSessionState.LoadInfoFromChangeApplication
 title: ISyncSessionState::LoadInfoFromChangeApplication (winsync.h)
-
 description: Stores data for a serialized change applier.
 old-location: winsync\isyncsessionstate_loadinfofromchangeapplication.htm
 tech.root: winsync
 ms.assetid: 72c7947b-0eee-4b75-aff6-f208bebac3f2
-
 ms.date: 12/05/2018
 ms.keywords: ISyncSessionState interface [Windows Sync],LoadInfoFromChangeApplication method, ISyncSessionState.LoadInfoFromChangeApplication, ISyncSessionState::LoadInfoFromChangeApplication, LoadInfoFromChangeApplication, LoadInfoFromChangeApplication method [Windows Sync], LoadInfoFromChangeApplication method [Windows Sync],ISyncSessionState interface, winsync.isyncsessionstate_loadinfofromchangeapplication, winsync/ISyncSessionState::LoadInfoFromChangeApplication
 ms.topic: method
-f1_keywords: 
- - "winsync/ISyncSessionState.LoadInfoFromChangeApplication"
+f1_keywords:
+- winsync/ISyncSessionState.LoadInfoFromChangeApplication
 dev_langs:
- - c++
+- c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - winsync.h
+- winsync.h
 api_name:
- - ISyncSessionState.LoadInfoFromChangeApplication
+- ISyncSessionState.LoadInfoFromChangeApplication
 targetos: Windows
 req.typenames: 
 req.redist: 

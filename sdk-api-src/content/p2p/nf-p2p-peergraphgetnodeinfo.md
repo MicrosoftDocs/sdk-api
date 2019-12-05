@@ -1,19 +1,17 @@
 ---
 UID: NF:p2p.PeerGraphGetNodeInfo
 title: PeerGraphGetNodeInfo function (p2p.h)
-
 description: The PeerGraphGetNodeInfo function retrieves information about a specific node.
 old-location: p2p\peergraphgetnodeinfo.htm
 tech.root: P2PSdk
 ms.assetid: 7149aba3-d44b-4492-aa56-4d8dbfba7b7c
-
 ms.date: 12/05/2018
 ms.keywords: PeerGraphGetNodeInfo, PeerGraphGetNodeInfo function [Peer Networking], p2p.peergraphgetnodeinfo, p2p/PeerGraphGetNodeInfo
 ms.topic: function
-f1_keywords: 
- - "p2p/PeerGraphGetNodeInfo"
+f1_keywords:
+- p2p/PeerGraphGetNodeInfo
 dev_langs:
- - c++
+- c++
 req.header: p2p.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: P2PGraph.lib
 req.dll: P2PGraph.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - P2PGraph.dll
+- P2PGraph.dll
 api_name:
- - PeerGraphGetNodeInfo
+- PeerGraphGetNodeInfo
 targetos: Windows
 req.typenames: 
 req.redist: 

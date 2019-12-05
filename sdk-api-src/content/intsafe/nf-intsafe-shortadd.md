@@ -1,19 +1,17 @@
 ---
 UID: NF:intsafe.ShortAdd
 title: ShortAdd function (intsafe.h)
-
 description: Adds two values of type SHORT.
 old-location: shell\ShortAdd.htm
 tech.root: shell
 ms.assetid: 8a26d824-6ed9-4f4f-8ee7-3616fec1bbc1
-
 ms.date: 12/05/2018
 ms.keywords: ShortAdd, ShortAdd function [Windows Shell], intsafe/ShortAdd, shell.ShortAdd
 ms.topic: function
-f1_keywords: 
- - "intsafe/ShortAdd"
+f1_keywords:
+- intsafe/ShortAdd
 dev_langs:
- - c++
+- c++
 req.header: intsafe.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - intsafe.h
+- intsafe.h
 api_name:
- - ShortAdd
+- ShortAdd
 targetos: Windows
 req.typenames: 
 req.redist: 

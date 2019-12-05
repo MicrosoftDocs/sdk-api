@@ -1,19 +1,17 @@
 ---
 UID: NF:vds.IVdsLun.GetProperties
 title: IVdsLun::GetProperties (vds.h)
-
 description: Returns the properties of a LUN object.
 old-location: base\ivdslun_getproperties.htm
 tech.root: VDS
 ms.assetid: 1fec1c8d-7ac9-4b77-830c-930908aac6ef
-
 ms.date: 12/05/2018
 ms.keywords: GetProperties, GetProperties method [VDS], GetProperties method [VDS],IVdsLun interface, IVdsLun interface [VDS],GetProperties method, IVdsLun.GetProperties, IVdsLun::GetProperties, base.ivdslun_getproperties, vds/IVdsLun::GetProperties, vdshwprv/IVdsLun::GetProperties
 ms.topic: method
 f1_keywords:
 - vds/IVdsLun.GetProperties
 dev_langs:
- - c++
+- c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

@@ -1,19 +1,17 @@
 ---
 UID: NF:appxpackaging.IAppxBundleManifestOptionalBundleInfo.GetPackageInfoItems
 title: IAppxBundleManifestOptionalBundleInfo::GetPackageInfoItems (appxpackaging.h)
-
 description: Retrieves optional packages in the bundle.
 old-location: appxpkg\iappxbundlemanifestoptionalbundleinfo_getpackageinfoitems.htm
 tech.root: appxpkg
 ms.assetid: 6D5028BF-7C74-4F74-9600-0A423FDC6E85
-
 ms.date: 12/05/2018
 ms.keywords: GetPackageInfoItems, GetPackageInfoItems method [App packaging and management], GetPackageInfoItems method [App packaging and management],IAppxBundleManifestOptionalBundleInfo interface, IAppxBundleManifestOptionalBundleInfo interface [App packaging and management],GetPackageInfoItems method, IAppxBundleManifestOptionalBundleInfo.GetPackageInfoItems, IAppxBundleManifestOptionalBundleInfo::GetPackageInfoItems, appxpackaging/IAppxBundleManifestOptionalBundleInfo::GetPackageInfoItems, appxpkg.iappxbundlemanifestoptionalbundleinfo_getpackageinfoitems
 ms.topic: method
-f1_keywords: 
- - "appxpackaging/IAppxBundleManifestOptionalBundleInfo.GetPackageInfoItems"
+f1_keywords:
+- appxpackaging/IAppxBundleManifestOptionalBundleInfo.GetPackageInfoItems
 dev_langs:
- - c++
+- c++
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - AppxPackaging.h
+- AppxPackaging.h
 api_name:
- - IAppxBundleManifestOptionalBundleInfo.GetPackageInfoItems
+- IAppxBundleManifestOptionalBundleInfo.GetPackageInfoItems
 targetos: Windows
 req.typenames: 
 req.redist: 

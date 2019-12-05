@@ -1,19 +1,17 @@
 ---
 UID: NF:mfmediaengine.IMFMediaEngineEx.InsertVideoEffect
 title: IMFMediaEngineEx::InsertVideoEffect (mfmediaengine.h)
-
 description: Inserts a video effect.
 old-location: mf\imfmediaengineex_insertvideoeffect.htm
 tech.root: medfound
 ms.assetid: 7F59BE62-D3F1-4C5A-94FD-F864342797BF
-
 ms.date: 12/05/2018
 ms.keywords: FALSE, IMFMediaEngineEx interface [Media Foundation],InsertVideoEffect method, IMFMediaEngineEx.InsertVideoEffect, IMFMediaEngineEx::InsertVideoEffect, InsertVideoEffect, InsertVideoEffect method [Media Foundation], InsertVideoEffect method [Media Foundation],IMFMediaEngineEx interface, TRUE, mf.imfmediaengineex_insertvideoeffect, mfmediaengine/IMFMediaEngineEx::InsertVideoEffect
 ms.topic: method
-f1_keywords: 
- - "mfmediaengine/IMFMediaEngineEx.InsertVideoEffect"
+f1_keywords:
+- mfmediaengine/IMFMediaEngineEx.InsertVideoEffect
 dev_langs:
- - c++
+- c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfmediaengine.h
+- mfmediaengine.h
 api_name:
- - IMFMediaEngineEx.InsertVideoEffect
+- IMFMediaEngineEx.InsertVideoEffect
 targetos: Windows
 req.typenames: 
 req.redist: 

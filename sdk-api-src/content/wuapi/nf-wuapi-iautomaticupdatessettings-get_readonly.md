@@ -1,19 +1,17 @@
 ---
 UID: NF:wuapi.IAutomaticUpdatesSettings.get_ReadOnly
 title: IAutomaticUpdatesSettings::get_ReadOnly (wuapi.h)
-
 description: Gets a Boolean value that indicates whether the Automatic Update settings are read-only.
 old-location: wua\iautomaticupdatessettings_readonly.htm
 tech.root: Wua_Sdk
 ms.assetid: e7a066b9-9581-4573-82e2-a6f2ca7440ac
-
 ms.date: 12/05/2018
 ms.keywords: IAutomaticUpdatesSettings interface [Windows Update Agent],ReadOnly property, IAutomaticUpdatesSettings.ReadOnly, IAutomaticUpdatesSettings.get_ReadOnly, IAutomaticUpdatesSettings::ReadOnly, IAutomaticUpdatesSettings::get_ReadOnly, ReadOnly property [Windows Update Agent], ReadOnly property [Windows Update Agent],IAutomaticUpdatesSettings interface, get_ReadOnly, wua.iautomaticupdatessettings_readonly, wuapi/IAutomaticUpdatesSettings::ReadOnly, wuapi/IAutomaticUpdatesSettings::get_ReadOnly
 ms.topic: method
-f1_keywords: 
- - "wuapi/IAutomaticUpdatesSettings.ReadOnly"
+f1_keywords:
+- wuapi/IAutomaticUpdatesSettings.ReadOnly
 dev_langs:
- - c++
+- c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Wuguid.lib
 req.dll: Wuapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wuapi.dll
+- Wuapi.dll
 api_name:
- - IAutomaticUpdatesSettings.ReadOnly
- - IAutomaticUpdatesSettings.get_ReadOnly
+- IAutomaticUpdatesSettings.ReadOnly
+- IAutomaticUpdatesSettings.get_ReadOnly
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:locationapi.ICivicAddressReport.GetAddressLine2
 title: ICivicAddressReport::GetAddressLine2 (locationapi.h)
-
 description: Retrieves the second line of a street address.
 old-location: winlocation_com_ref\icivicaddressreport_getaddressline2.htm
 tech.root: locationapi
 ms.assetid: 2c66b294-15a9-490a-b77c-ff48f35d1d3b
-
 ms.date: 12/05/2018
 ms.keywords: GetAddressLine2, GetAddressLine2 method [WinLocation], GetAddressLine2 method [WinLocation],ICivicAddressReport interface, ICivicAddressReport interface [WinLocation],GetAddressLine2 method, ICivicAddressReport.GetAddressLine2, ICivicAddressReport::GetAddressLine2, WinLocation_COM_Ref.icivicaddressreport_getaddressline2, locationapi/ICivicAddressReport::GetAddressLine2
 ms.topic: method
-f1_keywords: 
- - "locationapi/ICivicAddressReport.GetAddressLine2"
+f1_keywords:
+- locationapi/ICivicAddressReport.GetAddressLine2
 dev_langs:
- - c++
+- c++
 req.header: locationapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: LocationAPI.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - LocationAPI.dll
+- LocationAPI.dll
 api_name:
- - ICivicAddressReport.GetAddressLine2
+- ICivicAddressReport.GetAddressLine2
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:wpcapi.IWPCSettings.IsLoggingRequired
 title: IWPCSettings::IsLoggingRequired (wpcapi.h)
-
 description: Determines whether activity logging should be performed when obtaining the IWPCSettings interface.
 old-location: parcon\iwpcsettings_isloggingrequired.htm
 tech.root: parcon
 ms.assetid: bfe04843-af23-4146-bc45-f91d6ad36c1a
-
 ms.date: 12/05/2018
 ms.keywords: IWPCSettings interface,IsLoggingRequired method, IWPCSettings.IsLoggingRequired, IWPCSettings::IsLoggingRequired, IsLoggingRequired, IsLoggingRequired method, IsLoggingRequired method,IWPCSettings interface, parcon.iwpcsettings_isloggingrequired, wpcapi/IWPCSettings::IsLoggingRequired
 ms.topic: method
-f1_keywords: 
- - "wpcapi/IWPCSettings.IsLoggingRequired"
+f1_keywords:
+- wpcapi/IWPCSettings.IsLoggingRequired
 dev_langs:
- - c++
+- c++
 req.header: wpcapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wpcapi.h
+- Wpcapi.h
 api_name:
- - IWPCSettings.IsLoggingRequired
+- IWPCSettings.IsLoggingRequired
 targetos: Windows
 req.typenames: 
 req.redist: 

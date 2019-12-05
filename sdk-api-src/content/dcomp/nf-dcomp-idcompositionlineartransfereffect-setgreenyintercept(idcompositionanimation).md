@@ -1,19 +1,17 @@
 ---
 UID: NF:dcomp.IDCompositionLinearTransferEffect.SetGreenYIntercept(IDCompositionAnimation)
 title: IDCompositionLinearTransferEffect::SetGreenYIntercept(IDCompositionAnimation) (dcomp.h)
-
 description: Sets the Y-intercept of the linear function for the green channel.
 old-location: directcomp\idcompositionlineartransfereffect_setgreenyintercept_2.htm
 tech.root: directcomp
 ms.assetid: 73631804-5749-4764-9335-42F04D6BCB62
-
 ms.date: 12/05/2018
 ms.keywords: IDCompositionLinearTransferEffect interface [DirectComposition],SetGreenYIntercept method, IDCompositionLinearTransferEffect.SetGreenYIntercept, IDCompositionLinearTransferEffect.SetGreenYIntercept(IDCompositionAnimation), IDCompositionLinearTransferEffect::SetGreenYIntercept, IDCompositionLinearTransferEffect::SetGreenYIntercept(IDCompositionAnimation), SetGreenYIntercept, SetGreenYIntercept method [DirectComposition], SetGreenYIntercept method [DirectComposition],IDCompositionLinearTransferEffect interface, dcomp/IDCompositionLinearTransferEffect::SetGreenYIntercept, directcomp.idcompositionlineartransfereffect_setgreenyintercept_2
 ms.topic: method
-f1_keywords: 
- - "dcomp/IDCompositionLinearTransferEffect.SetGreenYIntercept"
+f1_keywords:
+- dcomp/IDCompositionLinearTransferEffect.SetGreenYIntercept
 dev_langs:
- - c++
+- c++
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dcomp.lib
 req.dll: Dcomp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dcomp.dll
+- Dcomp.dll
 api_name:
- - IDCompositionLinearTransferEffect.SetGreenYIntercept
+- IDCompositionLinearTransferEffect.SetGreenYIntercept
 targetos: Windows
 req.typenames: 
 req.redist: 

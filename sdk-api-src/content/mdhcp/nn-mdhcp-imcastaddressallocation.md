@@ -1,19 +1,17 @@
 ---
 UID: NN:mdhcp.IMcastAddressAllocation
 title: IMcastAddressAllocation (mdhcp.h)
-
 description: IMcastAddressAllocation is the main interface for multicast address allocation. An application calls the COM CoCreateInstance function on this interface to create the multicast client interface object.
 old-location: tapi3\imcastaddressallocation.htm
 tech.root: Tapi
 ms.assetid: 359e67bb-9a5b-4caa-8d3b-eb0739b0828f
-
 ms.date: 12/05/2018
 ms.keywords: IMcastAddressAllocation, IMcastAddressAllocation interface [TAPI 2.2], IMcastAddressAllocation interface [TAPI 2.2],described, _tapi3_imcastaddressallocation, mdhcp/IMcastAddressAllocation, tapi3.imcastaddressallocation
 ms.topic: interface
-f1_keywords: 
- - "mdhcp/IMcastAddressAllocation"
+f1_keywords:
+- mdhcp/IMcastAddressAllocation
 dev_langs:
- - c++
+- c++
 req.header: mdhcp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Mdhcp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mdhcp.dll
+- Mdhcp.dll
 api_name:
- - IMcastAddressAllocation
+- IMcastAddressAllocation
 targetos: Windows
 req.typenames: 
 req.redist: 

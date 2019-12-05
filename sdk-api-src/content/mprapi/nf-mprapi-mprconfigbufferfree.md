@@ -1,19 +1,17 @@
 ---
 UID: NF:mprapi.MprConfigBufferFree
 title: MprConfigBufferFree function (mprapi.h)
-
 description: The MprConfigBufferFree function frees buffers. MprConfigXEnum, MprConfigXGetInfo
 old-location: rras\mprconfigbufferfree.htm
 tech.root: RRAS
 ms.assetid: d7df56ee-72e4-4b0c-87a3-a1f66d791b62
-
 ms.date: 12/05/2018
 ms.keywords: MprConfigBufferFree, MprConfigBufferFree function [RAS], _mpr_mprconfigbufferfree, mprapi/MprConfigBufferFree, rras.mprconfigbufferfree
 ms.topic: function
-f1_keywords: 
- - "mprapi/MprConfigBufferFree"
+f1_keywords:
+- mprapi/MprConfigBufferFree
 dev_langs:
- - c++
+- c++
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Mprapi.lib
 req.dll: Mprapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Mprapi.dll
+- Mprapi.dll
 api_name:
- - MprConfigBufferFree
+- MprConfigBufferFree
 targetos: Windows
 req.typenames: 
 req.redist: 

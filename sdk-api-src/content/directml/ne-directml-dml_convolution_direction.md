@@ -1,19 +1,17 @@
 ---
 UID: NE:directml.DML_CONVOLUTION_DIRECTION
 title: DML_CONVOLUTION_DIRECTION
-
 description: Defines constants that specify a direction for the DirectML convolution operator (as described by the DML_CONVOLUTION_OPERATOR_DESC structure).
 old-location: direct3d12\dml_convolution_direction.htm
 tech.root: direct3d12
 ms.assetid: C83ED146-21DF-434B-837E-5292DABF33ED
-
 ms.date: 12/5/2018
 ms.keywords: DML_CONVOLUTION_DIRECTION, DML_CONVOLUTION_DIRECTION enumeration, DML_CONVOLUTION_DIRECTION_BACKWARD, DML_CONVOLUTION_DIRECTION_FORWARD, direct3d12.dml_convolution_direction, directml/DML_CONVOLUTION_DIRECTION, directml/DML_CONVOLUTION_DIRECTION_BACKWARD, directml/DML_CONVOLUTION_DIRECTION_FORWARD
 ms.topic: enum
-f1_keywords: 
- - "directml/DML_CONVOLUTION_DIRECTION"
+f1_keywords:
+- directml/DML_CONVOLUTION_DIRECTION
 dev_langs:
- - c++
+- c++
 req.header: directml.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - DirectML.h
+- DirectML.h
 api_name:
- - DML_CONVOLUTION_DIRECTION
+- DML_CONVOLUTION_DIRECTION
 targetos: Windows
 req.typenames: 
 req.redist: 

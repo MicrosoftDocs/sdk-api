@@ -1,19 +1,17 @@
 ---
 UID: NF:functiondiscoveryprovider.IFunctionDiscoveryProviderFactory.CreatePropertyStore
 title: IFunctionDiscoveryProviderFactory::CreatePropertyStore (functiondiscoveryprovider.h)
-
 description: Enables providers to reuse the in-memory property store implementation.
 old-location: ncd\ifunctiondiscoveryproviderfactory_createpropertystore.htm
 tech.root: FunDisc
 ms.assetid: 668d0a70-a0c1-4e43-a258-5221e3fe28a1
-
 ms.date: 12/05/2018
 ms.keywords: CreatePropertyStore, CreatePropertyStore method, CreatePropertyStore method,IFunctionDiscoveryProviderFactory interface, IFunctionDiscoveryProviderFactory interface,CreatePropertyStore method, IFunctionDiscoveryProviderFactory.CreatePropertyStore, IFunctionDiscoveryProviderFactory::CreatePropertyStore, functiondiscoveryprovider/IFunctionDiscoveryProviderFactory::CreatePropertyStore, ncd.ifunctiondiscoveryproviderfactory_createpropertystore
 ms.topic: method
-f1_keywords: 
- - "functiondiscoveryprovider/IFunctionDiscoveryProviderFactory.CreatePropertyStore"
+f1_keywords:
+- functiondiscoveryprovider/IFunctionDiscoveryProviderFactory.CreatePropertyStore
 dev_langs:
- - c++
+- c++
 req.header: functiondiscoveryprovider.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - FunctionDiscoveryProvider.h
+- FunctionDiscoveryProvider.h
 api_name:
- - IFunctionDiscoveryProviderFactory.CreatePropertyStore
+- IFunctionDiscoveryProviderFactory.CreatePropertyStore
 targetos: Windows
 req.typenames: 
 req.redist: 

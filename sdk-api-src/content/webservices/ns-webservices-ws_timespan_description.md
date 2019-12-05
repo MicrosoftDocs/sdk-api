@@ -1,19 +1,17 @@
 ---
 UID: NS:webservices._WS_TIMESPAN_DESCRIPTION
 title: WS_TIMESPAN_DESCRIPTION (webservices.h)
-
 description: This type description is used with WS_TIMESPAN_TYPE and is optional. It is used to specify constraints on the set of values which can be deserialized.
 old-location: wsw\ws_timespan_description.htm
 tech.root: wsw
 ms.assetid: 8c74c30e-6793-490b-bc36-b7c60ef35232
-
 ms.date: 12/05/2018
 ms.keywords: WS_TIMESPAN_DESCRIPTION, WS_TIMESPAN_DESCRIPTION structure [Web Services for Windows], webservices/WS_TIMESPAN_DESCRIPTION, wsw.ws_timespan_description
 ms.topic: struct
-f1_keywords: 
- - "webservices/WS_TIMESPAN_DESCRIPTION"
+f1_keywords:
+- webservices/WS_TIMESPAN_DESCRIPTION
 dev_langs:
- - c++
+- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WebServices.h
+- WebServices.h
 api_name:
- - WS_TIMESPAN_DESCRIPTION
+- WS_TIMESPAN_DESCRIPTION
 targetos: Windows
 req.typenames: WS_TIMESPAN_DESCRIPTION
 req.redist: 

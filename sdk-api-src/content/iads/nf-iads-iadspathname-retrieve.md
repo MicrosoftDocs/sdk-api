@@ -1,19 +1,17 @@
 ---
 UID: NF:iads.IADsPathname.Retrieve
 title: IADsPathname::Retrieve (iads.h)
-
 description: The IADsPathname::Retrieve method retrieves the path of the object with different format types.
 old-location: adsi\iadspathname_retrieve.htm
 tech.root: adsi
 ms.assetid: c34f2a5e-5faf-45bf-acc6-8db5fc8bf5fa
-
 ms.date: 12/05/2018
 ms.keywords: IADsPathname interface [ADSI],Retrieve method, IADsPathname.Retrieve, IADsPathname::Retrieve, Retrieve, Retrieve method [ADSI], Retrieve method [ADSI],IADsPathname interface, _ds_iadspathname_retrieve, adsi.iadspathname__retrieve, adsi.iadspathname_retrieve, iads/IADsPathname::Retrieve
 ms.topic: method
-f1_keywords: 
- - "iads/IADsPathname.Retrieve"
+f1_keywords:
+- iads/IADsPathname.Retrieve
 dev_langs:
- - c++
+- c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Activeds.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Activeds.dll
+- Activeds.dll
 api_name:
- - IADsPathname.Retrieve
+- IADsPathname.Retrieve
 targetos: Windows
 req.typenames: 
 req.redist: 

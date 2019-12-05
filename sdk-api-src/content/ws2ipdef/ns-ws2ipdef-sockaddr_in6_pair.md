@@ -1,19 +1,17 @@
 ---
 UID: NS:ws2ipdef._sockaddr_in6_pair
 title: SOCKADDR_IN6_PAIR (ws2ipdef.h)
-
 description: Contains pointers to a pair of IP addresses that represent a source and destination address pair.
 old-location: iphlp\sockaddr_in6_pair.htm
 tech.root: IpHlp
 ms.assetid: 0265f8e0-8b35-4d9d-bf22-e98e9ff36a17
-
 ms.date: 12/05/2018
-ms.keywords: "*PSOCKADDR_IN6_PAIR, PSOCKADDR_IN6_PAIR, PSOCKADDR_IN6_PAIR structure pointer [IP Helper], SOCKADDR_IN6_PAIR, SOCKADDR_IN6_PAIR structure [IP Helper], iphlp.sockaddr_in6_pair, ws2ipdef/PSOCKADDR_IN6_PAIR, ws2ipdef/SOCKADDR_IN6_PAIR"
+ms.keywords: '*PSOCKADDR_IN6_PAIR, PSOCKADDR_IN6_PAIR, PSOCKADDR_IN6_PAIR structure pointer [IP Helper], SOCKADDR_IN6_PAIR, SOCKADDR_IN6_PAIR structure [IP Helper], iphlp.sockaddr_in6_pair, ws2ipdef/PSOCKADDR_IN6_PAIR, ws2ipdef/SOCKADDR_IN6_PAIR'
 ms.topic: struct
-f1_keywords: 
- - "ws2ipdef/SOCKADDR_IN6_PAIR"
+f1_keywords:
+- ws2ipdef/SOCKADDR_IN6_PAIR
 dev_langs:
- - c++
+- c++
 req.header: ws2ipdef.h
 req.include-header: Ws2tcpip.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Ws2ipdef.h
+- Ws2ipdef.h
 api_name:
- - SOCKADDR_IN6_PAIR
+- SOCKADDR_IN6_PAIR
 targetos: Windows
 req.typenames: SOCKADDR_IN6_PAIR, *PSOCKADDR_IN6_PAIR
 req.redist: 

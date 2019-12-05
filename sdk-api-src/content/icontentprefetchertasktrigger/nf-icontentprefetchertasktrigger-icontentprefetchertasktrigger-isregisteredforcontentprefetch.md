@@ -1,19 +1,17 @@
 ---
 UID: NF:icontentprefetchertasktrigger.IContentPrefetcherTaskTrigger.IsRegisteredForContentPrefetch
 title: IContentPrefetcherTaskTrigger::IsRegisteredForContentPrefetch (icontentprefetchertasktrigger.h)
-
 description: Indicates if an app package has registered for the content prefetch background task.
 old-location: wsw\icontentprefetchertasktrigger_isregisteredforcontentprefetch.htm
 tech.root: wsw
 ms.assetid: 6F8A0A9B-CF05-47F9-8486-10DFE720E0DD
-
 ms.date: 12/05/2018
 ms.keywords: IContentPrefetcherTaskTrigger interface [Web Services for Windows],IsRegisteredForContentPrefetch method, IContentPrefetcherTaskTrigger.IsRegisteredForContentPrefetch, IContentPrefetcherTaskTrigger::IsRegisteredForContentPrefetch, IsRegisteredForContentPrefetch, IsRegisteredForContentPrefetch method [Web Services for Windows], IsRegisteredForContentPrefetch method [Web Services for Windows],IContentPrefetcherTaskTrigger interface, icontentprefetchertasktrigger/IContentPrefetcherTaskTrigger::IsRegisteredForContentPrefetch, wsw.icontentprefetchertasktrigger_isregisteredforcontentprefetch
 ms.topic: method
-f1_keywords: 
- - "icontentprefetchertasktrigger/IContentPrefetcherTaskTrigger.IsRegisteredForContentPrefetch"
+f1_keywords:
+- icontentprefetchertasktrigger/IContentPrefetcherTaskTrigger.IsRegisteredForContentPrefetch
 dev_langs:
- - c++
+- c++
 req.header: icontentprefetchertasktrigger.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - IContentPrefetcherTaskTrigger.h
+- IContentPrefetcherTaskTrigger.h
 api_name:
- - IContentPrefetcherTaskTrigger.IsRegisteredForContentPrefetch
+- IContentPrefetcherTaskTrigger.IsRegisteredForContentPrefetch
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:atscpsipparser.IServiceLocationDescriptor.GetElementLanguageCode
 title: IServiceLocationDescriptor::GetElementLanguageCode (atscpsipparser.h)
-
 description: Gets the three-character ISO 639 language code for an Advanced Television Systems Committee (ATSC) service location descriptor.
 old-location: mstv\iservicelocationdescriptor_getelementlanguagecode.htm
 tech.root: mstv
 ms.assetid: 8ffc0c58-1305-49bf-bdbd-efb18805516f
-
 ms.date: 12/05/2018
 ms.keywords: GetElementLanguageCode, GetElementLanguageCode method [Microsoft TV Technologies], GetElementLanguageCode method [Microsoft TV Technologies],IServiceLocationDescriptor interface, IServiceLocationDescriptor interface [Microsoft TV Technologies],GetElementLanguageCode method, IServiceLocationDescriptor.GetElementLanguageCode, IServiceLocationDescriptor::GetElementLanguageCode, atscpsipparser/IServiceLocationDescriptor::GetElementLanguageCode, mstv.iservicelocationdescriptor_getelementlanguagecode
 ms.topic: method
-f1_keywords: 
- - "atscpsipparser/IServiceLocationDescriptor.GetElementLanguageCode"
+f1_keywords:
+- atscpsipparser/IServiceLocationDescriptor.GetElementLanguageCode
 dev_langs:
- - c++
+- c++
 req.header: atscpsipparser.h
 req.include-header: Atscpsipparser.idl
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - atscpsipparser.h
+- atscpsipparser.h
 api_name:
- - IServiceLocationDescriptor.GetElementLanguageCode
+- IServiceLocationDescriptor.GetElementLanguageCode
 targetos: Windows
 req.typenames: 
 req.redist: 

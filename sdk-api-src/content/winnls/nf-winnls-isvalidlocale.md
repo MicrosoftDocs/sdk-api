@@ -1,19 +1,17 @@
 ---
 UID: NF:winnls.IsValidLocale
 title: IsValidLocale function (winnls.h)
-
 description: Determines if the specified locale is installed or supported on the operating system. For more information, see Locales and Languages.
 old-location: intl\isvalidlocale.htm
 tech.root: Intl
 ms.assetid: b0fb95ff-106d-4269-a696-d39f87fbd745
-
 ms.date: 12/05/2018
 ms.keywords: IsValidLocale, IsValidLocale function [Internationalization for Windows Applications], LCID_INSTALLED, LCID_SUPPORTED, _win32_IsValidLocale, intl.isvalidlocale, winnls/IsValidLocale
 ms.topic: function
-f1_keywords: 
- - "winnls/IsValidLocale"
+f1_keywords:
+- winnls/IsValidLocale
 dev_langs:
- - c++
+- c++
 req.header: winnls.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,21 +30,21 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-Localization-l1-1-0.dll
- - KernelBase.dll
- - API-MS-Win-Core-Localization-l1-2-0.dll
- - API-MS-Win-Core-Localization-l1-2-1.dll
- - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
- - MinKernelBase.dll
- - API-MS-Win-Core-Localization-L1-2-2.dll
+- Kernel32.dll
+- API-MS-Win-Core-Localization-l1-1-0.dll
+- KernelBase.dll
+- API-MS-Win-Core-Localization-l1-2-0.dll
+- API-MS-Win-Core-Localization-l1-2-1.dll
+- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+- MinKernelBase.dll
+- API-MS-Win-Core-Localization-L1-2-2.dll
 api_name:
- - IsValidLocale
+- IsValidLocale
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:ddraw.IDirectDraw7.TestCooperativeLevel
 title: IDirectDraw7::TestCooperativeLevel (ddraw.h)
-
 description: Reports the current cooperative-level status of the DirectDraw device for a windowed or full-screen application.
 old-location: directdraw\idirectdraw7_testcooperativelevel.htm
 tech.root: directdraw
 ms.assetid: 6bbabd8c-f48e-480c-9ea4-06e4fce1255a
-
 ms.date: 12/05/2018
 ms.keywords: IDirectDraw7 interface [DirectDraw],TestCooperativeLevel method, IDirectDraw7.TestCooperativeLevel, IDirectDraw7::TestCooperativeLevel, TestCooperativeLevel, TestCooperativeLevel method [DirectDraw], TestCooperativeLevel method [DirectDraw],IDirectDraw7 interface, ddraw/IDirectDraw7::TestCooperativeLevel, directdraw.idirectdraw7_testcooperativelevel
 ms.topic: method
-f1_keywords: 
- - "ddraw/IDirectDraw7.TestCooperativeLevel"
+f1_keywords:
+- ddraw/IDirectDraw7.TestCooperativeLevel
 dev_langs:
- - c++
+- c++
 req.header: ddraw.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Ddraw.lib
 req.dll: Ddraw.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Ddraw.dll
+- Ddraw.dll
 api_name:
- - IDirectDraw7.TestCooperativeLevel
+- IDirectDraw7.TestCooperativeLevel
 targetos: Windows
 req.typenames: 
 req.redist: 

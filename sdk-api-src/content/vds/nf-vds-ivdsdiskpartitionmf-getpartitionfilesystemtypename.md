@@ -1,19 +1,17 @@
 ---
 UID: NF:vds.IVdsDiskPartitionMF.GetPartitionFileSystemTypeName
 title: IVdsDiskPartitionMF::GetPartitionFileSystemTypeName (vds.h)
-
 description: Retrieves the name of the file system on a partition on the disk at a specified byte offset.
 old-location: base\ivdsdiskpartitionmf_getpartitionfilesystemtypename.htm
 tech.root: VDS
 ms.assetid: ad2f8c5b-6a85-437a-bb51-0c4552a015b2
-
 ms.date: 12/05/2018
 ms.keywords: GetPartitionFileSystemTypeName, GetPartitionFileSystemTypeName method, GetPartitionFileSystemTypeName method,IVdsDiskPartitionMF interface, IVdsDiskPartitionMF interface,GetPartitionFileSystemTypeName method, IVdsDiskPartitionMF.GetPartitionFileSystemTypeName, IVdsDiskPartitionMF::GetPartitionFileSystemTypeName, base.ivdsdiskpartitionmf_getpartitionfilesystemtypename, vds/IVdsDiskPartitionMF::GetPartitionFileSystemTypeName
 ms.topic: method
-f1_keywords: 
- - "vds/IVdsDiskPartitionMF.GetPartitionFileSystemTypeName"
+f1_keywords:
+- vds/IVdsDiskPartitionMF.GetPartitionFileSystemTypeName
 dev_langs:
- - c++
+- c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Uuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Uuid.lib
- - Uuid.dll
+- Uuid.lib
+- Uuid.dll
 api_name:
- - IVdsDiskPartitionMF.GetPartitionFileSystemTypeName
+- IVdsDiskPartitionMF.GetPartitionFileSystemTypeName
 targetos: Windows
 req.typenames: 
 req.redist: 

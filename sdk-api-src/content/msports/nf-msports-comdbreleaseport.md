@@ -1,19 +1,17 @@
 ---
 UID: NF:msports.ComDBReleasePort
 title: ComDBReleasePort function (msports.h)
-
 description: ComDBReleasePort releases a COM port number in the COM port database.
 old-location: serports\comdbreleaseport.htm
 tech.root: serports
 ms.assetid: bece99c5-75de-4ab4-be26-14dc8cc1819c
-
 ms.date: 12/05/2018
 ms.keywords: ComDBReleasePort, ComDBReleasePort function [Serial Ports], comdb_dd9f4f27-aea1-4bd8-aa59-ca5aaa05e210.xml, msports/ComDBReleasePort, serports.comdbreleaseport
 ms.topic: function
-f1_keywords: 
- - "msports/ComDBReleasePort"
+f1_keywords:
+- msports/ComDBReleasePort
 dev_langs:
- - c++
+- c++
 req.header: msports.h
 req.include-header: Msports.h
 req.target-type: Desktop
@@ -32,14 +30,14 @@ req.lib: Msports.lib
 req.dll: Msports.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Msports.dll
+- Msports.dll
 api_name:
- - ComDBReleasePort
+- ComDBReleasePort
 targetos: Windows
 req.typenames: 
 req.redist: 

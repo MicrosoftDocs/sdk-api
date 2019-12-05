@@ -1,19 +1,17 @@
 ---
 UID: NF:wiavideo.IWiaVideo.TakePicture
 title: IWiaVideo::TakePicture (wiavideo.h)
-
 description: The IWiaVideo::TakePicture method extracts a still image from the video stream, and saves the image as a JPEG file.
 old-location: wia\_wia_IWiaVideo_TakePicture.htm
 tech.root: wia
 ms.assetid: VS|wia|~\wia\refwia\ifaces\iwiavideo\takepicture.htm
-
 ms.date: 12/05/2018
 ms.keywords: IWiaVideo interface [WIA],TakePicture method, IWiaVideo.TakePicture, IWiaVideo::TakePicture, TakePicture, TakePicture method [WIA], TakePicture method [WIA],IWiaVideo interface, _wia_IWiaVideo_TakePicture, wia._wia_IWiaVideo_TakePicture, wiavideo/IWiaVideo::TakePicture
 ms.topic: method
-f1_keywords: 
- - "wiavideo/IWiaVideo.TakePicture"
+f1_keywords:
+- wiavideo/IWiaVideo.TakePicture
 dev_langs:
- - c++
+- c++
 req.header: wiavideo.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wiavideo.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wiavideo.dll
+- Wiavideo.dll
 api_name:
- - IWiaVideo.TakePicture
+- IWiaVideo.TakePicture
 targetos: Windows
 req.typenames: 
 req.redist: 

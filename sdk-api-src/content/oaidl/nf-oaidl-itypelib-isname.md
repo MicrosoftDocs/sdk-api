@@ -1,19 +1,17 @@
 ---
 UID: NF:oaidl.ITypeLib.IsName
 title: ITypeLib::IsName (oaidl.h)
-
 description: Indicates whether a passed-in string contains the name of a type or member described in the library.
 old-location: automat\itypelib_isname.htm
 tech.root: automat
 ms.assetid: c9cd5cc8-f65f-43de-9dd4-c617b56ecadf
-
 ms.date: 12/05/2018
 ms.keywords: ITypeLib interface [Automation],IsName method, ITypeLib.IsName, ITypeLib::IsName, IsName, IsName method [Automation], IsName method [Automation],ITypeLib interface, _oa96_ITypeLib_IsName, automat.itypelib_isname, oaidl/ITypeLib::IsName
 ms.topic: method
-f1_keywords: 
- - "oaidl/ITypeLib.IsName"
+f1_keywords:
+- oaidl/ITypeLib.IsName
 dev_langs:
- - c++
+- c++
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - oaidl.h
+- oaidl.h
 api_name:
- - ITypeLib.IsName
+- ITypeLib.IsName
 targetos: Windows
 req.typenames: 
 req.redist: 

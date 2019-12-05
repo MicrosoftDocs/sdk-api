@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi3if.ITCallInfo.get_CallState
 title: ITCallInfo::get_CallState (tapi3if.h)
-
 description: The get_CallState method gets a pointer to the current call state, such as CS_IDLE.
 old-location: tapi3\itcallinfo_get_callstate.htm
 tech.root: Tapi
 ms.assetid: f7beb48f-d7d2-4a99-8e6a-6122059c9170
-
 ms.date: 12/05/2018
 ms.keywords: ITCallInfo interface [TAPI 2.2],get_CallState method, ITCallInfo.get_CallState, ITCallInfo::get_CallState, _tapi3_itcallinfo_get_callstate, get_CallState, get_CallState method [TAPI 2.2], get_CallState method [TAPI 2.2],ITCallInfo interface, tapi3.itcallinfo_get_callstate, tapi3if/ITCallInfo::get_CallState
 ms.topic: method
-f1_keywords: 
- - "tapi3if/ITCallInfo.get_CallState"
+f1_keywords:
+- tapi3if/ITCallInfo.get_CallState
 dev_langs:
- - c++
+- c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Tapi3.dll
+- Tapi3.dll
 api_name:
- - ITCallInfo.get_CallState
+- ITCallInfo.get_CallState
 targetos: Windows
 req.typenames: 
 req.redist: 

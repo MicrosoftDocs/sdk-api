@@ -1,19 +1,17 @@
 ---
 UID: NF:commctrl.TabCtrl_RemoveImage
 title: TabCtrl_RemoveImage macro (commctrl.h)
-
 description: Removes an image from a tab control's image list. You can use this macro or send the TCM_REMOVEIMAGE message explicitly.
 old-location: controls\TabCtrl_RemoveImage.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\tab\macros\tabctrl_removeimage.htm
-
 ms.date: 12/05/2018
 ms.keywords: TabCtrl_RemoveImage, TabCtrl_RemoveImage macro [Windows Controls], _win32_TabCtrl_RemoveImage, _win32_TabCtrl_RemoveImage_cpp, commctrl/TabCtrl_RemoveImage, controls.TabCtrl_RemoveImage, controls._win32_TabCtrl_RemoveImage
 ms.topic: macro
-f1_keywords: 
- - "commctrl/TabCtrl_RemoveImage"
+f1_keywords:
+- commctrl/TabCtrl_RemoveImage
 dev_langs:
- - c++
+- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Commctrl.h
+- Commctrl.h
 api_name:
- - TabCtrl_RemoveImage
+- TabCtrl_RemoveImage
 targetos: Windows
 req.typenames: 
 req.redist: 

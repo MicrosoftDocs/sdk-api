@@ -4,10 +4,10 @@ title: DECIMAL
 ms.date: 01/30/19
 ms.keywords: tagDEC, DECIMAL
 ms.topic: language-reference
-f1_keywords: 
- - "wtypes/tagDEC"
+f1_keywords:
+- wtypes/tagDEC
 dev_langs:
- - c++
+- c++
 targetos: Windows
 req.construct-type: structure
 req.ddi-compliance: 
@@ -25,14 +25,14 @@ req.typenames: DECIMAL
 req.umdf-ver: 
 req.unicode-ansi: 
 topic_type:
- - apiref
+- apiref
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - wtypes.h
+- wtypes.h
 api_name:
- - tagDEC
- - DECIMAL
+- tagDEC
+- DECIMAL
 ---
 
 # DECIMAL structure

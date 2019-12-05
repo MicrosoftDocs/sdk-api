@@ -1,19 +1,17 @@
 ---
 UID: NN:d2d1.ID2D1Layer
 title: ID2D1Layer (d2d1.h)
-
 description: Represents the backing store required to render a layer.
 old-location: direct2d\ID2D1Layer.htm
 tech.root: Direct2D
 ms.assetid: ce7b2345-f0e5-4e44-9146-b1f140bb00ca
-
 ms.date: 12/05/2018
 ms.keywords: ID2D1Layer, ID2D1Layer interface [Direct2D], ID2D1Layer interface [Direct2D],described, d2d1/ID2D1Layer, direct2d.ID2D1Layer
 ms.topic: interface
-f1_keywords: 
- - "d2d1/ID2D1Layer"
+f1_keywords:
+- d2d1/ID2D1Layer
 dev_langs:
- - c++
+- c++
 req.header: d2d1.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: D2d1.lib
 req.dll: D2d1.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D2d1.dll
+- D2d1.dll
 api_name:
- - ID2D1Layer
+- ID2D1Layer
 targetos: Windows
 req.typenames: 
 req.redist: 

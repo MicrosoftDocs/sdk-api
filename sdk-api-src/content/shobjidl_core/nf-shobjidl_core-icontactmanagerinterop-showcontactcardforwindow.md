@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IContactManagerInterop.ShowContactCardForWindow
 title: IContactManagerInterop::ShowContactCardForWindow (shobjidl_core.h)
-
 description: Displays the UI for a contact on the specified window.
 old-location: shell\IContactManagerInterop_ShowContactCardForWindow.htm
 tech.root: shell
 ms.assetid: 2B32B3DB-A423-4BDF-9ED1-9C1BB5B0533D
-
 ms.date: 12/05/2018
 ms.keywords: FP_ABOVE, FP_BELOW, FP_DEFAULT, FP_LEFT, FP_RIGHT, IContactManagerInterop interface [Windows Shell],ShowContactCardForWindow method, IContactManagerInterop.ShowContactCardForWindow, IContactManagerInterop::ShowContactCardForWindow, ShowContactCardForWindow, ShowContactCardForWindow method [Windows Shell], ShowContactCardForWindow method [Windows Shell],IContactManagerInterop interface, shell.IContactManagerInterop_ShowContactCardForWindow, shobjidl_core/IContactManagerInterop::ShowContactCardForWindow
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IContactManagerInterop.ShowContactCardForWindow"
+f1_keywords:
+- shobjidl_core/IContactManagerInterop.ShowContactCardForWindow
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shobjidl_core.h
+- Shobjidl_core.h
 api_name:
- - IContactManagerInterop.ShowContactCardForWindow
+- IContactManagerInterop.ShowContactCardForWindow
 targetos: Windows
 req.typenames: 
 req.redist: 

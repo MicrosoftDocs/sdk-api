@@ -1,19 +1,17 @@
 ---
 UID: NF:provider.Provider.ValidateFlags
 title: Provider::ValidateFlags (provider.h)
-
 description: The ValidateFlags method determines whether a set of flags is valid.
 old-location: wmi\provider_validateflags.htm
 tech.root: WmiSdk
 ms.assetid: 1d6d1006-99b9-4646-a5c4-835940ce3ac0
-
 ms.date: 12/05/2018
 ms.keywords: Provider interface [Windows Management Instrumentation],ValidateFlags method, Provider.ValidateFlags, Provider::ValidateFlags, ValidateFlags, ValidateFlags method [Windows Management Instrumentation], ValidateFlags method [Windows Management Instrumentation],Provider interface, _hmm_provider_validateflags, provider/Provider::ValidateFlags, wmi.provider_validateflags
 ms.topic: method
-f1_keywords: 
- - "provider/Provider.ValidateFlags"
+f1_keywords:
+- provider/Provider.ValidateFlags
 dev_langs:
- - c++
+- c++
 req.header: provider.h
 req.include-header: FwCommon.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: FrameDyn.lib
 req.dll: FrameDynOS.dll; FrameDyn.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - FrameDynOS.dll
- - FrameDyn.dll
+- FrameDynOS.dll
+- FrameDyn.dll
 api_name:
- - Provider.ValidateFlags
+- Provider.ValidateFlags
 targetos: Windows
 req.typenames: 
 req.redist: 

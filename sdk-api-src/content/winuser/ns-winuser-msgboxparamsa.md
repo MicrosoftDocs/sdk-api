@@ -1,19 +1,17 @@
 ---
 UID: NS:winuser.tagMSGBOXPARAMSA
 title: MSGBOXPARAMSA (winuser.h)
-
 description: Contains information used to display a message box. The MessageBoxIndirect function uses this structure.
 old-location: dlgbox\msgboxparams.htm
 tech.root: dlgbox
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\dialogboxes\dialogboxreference\dialogboxstructures\msgboxparams.htm
-
 ms.date: 12/05/2018
-ms.keywords: "*LPMSGBOXPARAMSA, *PMSGBOXPARAMSA, MSGBOXPARAMS, MSGBOXPARAMS structure [Dialog Boxes], MSGBOXPARAMSA, MSGBOXPARAMSW, PMSGBOXPARAMS, PMSGBOXPARAMS structure pointer [Dialog Boxes], _win32_MSGBOXPARAMS_str, _win32_msgboxparams_str_cpp, dlgbox.msgboxparams, winui._win32_msgboxparams_str, winuser/MSGBOXPARAMS, winuser/MSGBOXPARAMSA, winuser/MSGBOXPARAMSW, winuser/PMSGBOXPARAMS"
+ms.keywords: '*LPMSGBOXPARAMSA, *PMSGBOXPARAMSA, MSGBOXPARAMS, MSGBOXPARAMS structure [Dialog Boxes], MSGBOXPARAMSA, MSGBOXPARAMSW, PMSGBOXPARAMS, PMSGBOXPARAMS structure pointer [Dialog Boxes], _win32_MSGBOXPARAMS_str, _win32_msgboxparams_str_cpp, dlgbox.msgboxparams, winui._win32_msgboxparams_str, winuser/MSGBOXPARAMS, winuser/MSGBOXPARAMSA, winuser/MSGBOXPARAMSW, winuser/PMSGBOXPARAMS'
 ms.topic: struct
-f1_keywords: 
- - "winuser/MSGBOXPARAMS"
+f1_keywords:
+- winuser/MSGBOXPARAMS
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Winuser.h
+- Winuser.h
 api_name:
- - MSGBOXPARAMS
- - MSGBOXPARAMSA
- - MSGBOXPARAMSW
+- MSGBOXPARAMS
+- MSGBOXPARAMSA
+- MSGBOXPARAMSW
 targetos: Windows
 req.typenames: MSGBOXPARAMSA, *PMSGBOXPARAMSA, *LPMSGBOXPARAMSA
 req.redist: 

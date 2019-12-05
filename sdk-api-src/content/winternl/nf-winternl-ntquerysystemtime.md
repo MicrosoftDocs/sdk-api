@@ -1,19 +1,17 @@
 ---
 UID: NF:winternl.NtQuerySystemTime
 title: NtQuerySystemTime function (winternl.h)
-
 description: Retrieves the current system time.
 old-location: base\ntquerysystemtime.htm
 tech.root: SysInfo
 ms.assetid: 5b083c4f-ec2b-4118-b49e-1ca3e0af342e
-
 ms.date: 12/05/2018
 ms.keywords: NtQuerySystemTime, NtQuerySystemTime function, base.ntquerysystemtime, winternl/NtQuerySystemTime
 ms.topic: function
-f1_keywords: 
- - "winternl/NtQuerySystemTime"
+f1_keywords:
+- winternl/NtQuerySystemTime
 dev_langs:
- - c++
+- c++
 req.header: winternl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Ntdll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ntdll.dll
+- Ntdll.dll
 api_name:
- - NtQuerySystemTime
+- NtQuerySystemTime
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d12.ID3D12Device.GetNodeCount
 title: ID3D12Device::GetNodeCount (d3d12.h)
-
 description: Reports the number of physical adapters (nodes) that are associated with this device.
 old-location: direct3d12\id3d12device_getnodecount.htm
 tech.root: direct3d12
 ms.assetid: 5C5BA618-1B53-45EA-A2E6-19FCAF4FB67C
-
 ms.date: 12/05/2018
 ms.keywords: GetNodeCount, GetNodeCount method, GetNodeCount method,ID3D12Device interface, ID3D12Device interface,GetNodeCount method, ID3D12Device.GetNodeCount, ID3D12Device::GetNodeCount, d3d12/ID3D12Device::GetNodeCount, direct3d12.id3d12device_getnodecount
 ms.topic: method
-f1_keywords: 
- - "d3d12/ID3D12Device.GetNodeCount"
+f1_keywords:
+- d3d12/ID3D12Device.GetNodeCount
 dev_langs:
- - c++
+- c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: D3d12.lib
 req.dll: D3d12.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - d3d12.dll
+- d3d12.dll
 api_name:
- - ID3D12Device.GetNodeCount
+- ID3D12Device.GetNodeCount
 targetos: Windows
 req.typenames: 
 req.redist: 

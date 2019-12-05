@@ -1,19 +1,17 @@
 ---
 UID: NN:mfmediaengine.IMFMediaSourceExtensionNotify
 title: IMFMediaSourceExtensionNotify (mfmediaengine.h)
-
 description: Provides functionality for raising events associated with IMFMediaSourceExtension.
 old-location: mf\imfmediasourceextensionnotify.htm
 tech.root: medfound
 ms.assetid: 44eed02d-cf92-41e5-8748-1ce11ab4aac0
-
 ms.date: 12/05/2018
 ms.keywords: IMFMediaSourceExtensionNotify, IMFMediaSourceExtensionNotify interface [Media Foundation], IMFMediaSourceExtensionNotify interface [Media Foundation],described, mf.imfmediasourceextensionnotify, mfmediaengine/IMFMediaSourceExtensionNotify
 ms.topic: interface
-f1_keywords: 
- - "mfmediaengine/IMFMediaSourceExtensionNotify"
+f1_keywords:
+- mfmediaengine/IMFMediaSourceExtensionNotify
 dev_langs:
- - c++
+- c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfmediaengine.h
+- mfmediaengine.h
 api_name:
- - IMFMediaSourceExtensionNotify
+- IMFMediaSourceExtensionNotify
 targetos: Windows
 req.typenames: 
 req.redist: 

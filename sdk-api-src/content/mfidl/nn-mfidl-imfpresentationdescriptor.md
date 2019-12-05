@@ -1,19 +1,17 @@
 ---
 UID: NN:mfidl.IMFPresentationDescriptor
 title: IMFPresentationDescriptor (mfidl.h)
-
 description: Describes the details of a presentation. A presentation is a set of related media streams that share a common presentation time.
 old-location: mf\imfpresentationdescriptor.htm
 tech.root: medfound
 ms.assetid: db03e212-7021-433e-84dc-410b2cf7af87
-
 ms.date: 12/05/2018
 ms.keywords: IMFPresentationDescriptor, IMFPresentationDescriptor interface [Media Foundation], IMFPresentationDescriptor interface [Media Foundation],described, db03e212-7021-433e-84dc-410b2cf7af87, mf.imfpresentationdescriptor, mfidl/IMFPresentationDescriptor
 ms.topic: interface
-f1_keywords: 
- - "mfidl/IMFPresentationDescriptor"
+f1_keywords:
+- mfidl/IMFPresentationDescriptor
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFPresentationDescriptor
+- IMFPresentationDescriptor
 targetos: Windows
 req.typenames: 
 req.redist: 

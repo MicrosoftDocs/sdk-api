@@ -1,19 +1,17 @@
 ---
 UID: NF:tom.ITextFont2.GetPositionSubSuper
 title: ITextFont2::GetPositionSubSuper (tom.h)
-
 description: Gets the subscript or superscript position relative to the baseline.
 old-location: controls\itextfont2_getpositionsubsuper.htm
 tech.root: Controls
 ms.assetid: c7e53a94-b218-47d1-b366-3bbf7779516e
-
 ms.date: 12/05/2018
 ms.keywords: GetPositionSubSuper, GetPositionSubSuper method [Windows Controls], GetPositionSubSuper method [Windows Controls],ITextFont2 interface, ITextFont2 interface [Windows Controls],GetPositionSubSuper method, ITextFont2.GetPositionSubSuper, ITextFont2::GetPositionSubSuper, controls.itextfont2_getpositionsubsuper, tom/ITextFont2::GetPositionSubSuper
 ms.topic: method
-f1_keywords: 
- - "tom/ITextFont2.GetPositionSubSuper"
+f1_keywords:
+- tom/ITextFont2.GetPositionSubSuper
 dev_langs:
- - c++
+- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msftedit.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msftedit.dll
+- Msftedit.dll
 api_name:
- - ITextFont2.GetPositionSubSuper
+- ITextFont2.GetPositionSubSuper
 targetos: Windows
 req.typenames: 
 req.redist: 

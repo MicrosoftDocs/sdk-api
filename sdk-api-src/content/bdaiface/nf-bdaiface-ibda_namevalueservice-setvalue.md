@@ -1,19 +1,17 @@
 ---
 UID: NF:bdaiface.IBDA_NameValueService.SetValue
 title: IBDA_NameValueService::SetValue (bdaiface.h)
-
 description: Sets a name/value pair in device memory.
 old-location: mstv\ibda_namevalueservice_setvalue.htm
 tech.root: mstv
 ms.assetid: 6017658a-b4ce-496a-bf30-b7473f5d43c1
-
 ms.date: 12/05/2018
 ms.keywords: IBDA_NameValueService interface [Microsoft TV Technologies],SetValue method, IBDA_NameValueService.SetValue, IBDA_NameValueService::SetValue, SetValue, SetValue method [Microsoft TV Technologies], SetValue method [Microsoft TV Technologies],IBDA_NameValueService interface, bdaiface/IBDA_NameValueService::SetValue, mstv.ibda_namevalueservice_setvalue
 ms.topic: method
-f1_keywords: 
- - "bdaiface/IBDA_NameValueService.SetValue"
+f1_keywords:
+- bdaiface/IBDA_NameValueService.SetValue
 dev_langs:
- - c++
+- c++
 req.header: bdaiface.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - bdaiface.h
+- bdaiface.h
 api_name:
- - IBDA_NameValueService.SetValue
+- IBDA_NameValueService.SetValue
 targetos: Windows
 req.typenames: 
 req.redist: 

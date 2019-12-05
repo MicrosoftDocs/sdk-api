@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IVMRImagePresenter.PresentImage
 title: IVMRImagePresenter::PresentImage (strmif.h)
-
 description: The PresentImage method is called at precisely the moment this video frame should be presented.
 old-location: dshow\ivmrimagepresenter_presentimage.htm
 tech.root: DirectShow
 ms.assetid: df6bf45d-df92-4655-862c-704a12a62ff9
-
 ms.date: 12/05/2018
 ms.keywords: IVMRImagePresenter interface [DirectShow],PresentImage method, IVMRImagePresenter.PresentImage, IVMRImagePresenter::PresentImage, IVMRImagePresenterPresentImage, PresentImage, PresentImage method [DirectShow], PresentImage method [DirectShow],IVMRImagePresenter interface, dshow.ivmrimagepresenter_presentimage, strmif/IVMRImagePresenter::PresentImage
 ms.topic: method
-f1_keywords: 
- - "strmif/IVMRImagePresenter.PresentImage"
+f1_keywords:
+- strmif/IVMRImagePresenter.PresentImage
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IVMRImagePresenter.PresentImage
+- IVMRImagePresenter.PresentImage
 targetos: Windows
 req.typenames: 
 req.redist: 

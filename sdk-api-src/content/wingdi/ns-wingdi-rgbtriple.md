@@ -1,19 +1,17 @@
 ---
 UID: NS:wingdi.tagRGBTRIPLE
 title: RGBTRIPLE (wingdi.h)
-
 description: The RGBTRIPLE structure describes a color consisting of relative intensities of red, green, and blue. The bmciColors member of the BITMAPCOREINFO structure consists of an array of RGBTRIPLE structures.
 old-location: gdi\rgbtriple.htm
 tech.root: gdi
 ms.assetid: bc1467a5-0027-4f22-bfc9-1deab562c573
-
 ms.date: 12/05/2018
-ms.keywords: "*LPRGBTRIPLE, *NPRGBTRIPLE, *PRGBTRIPLE, RGBTRIPLE, RGBTRIPLE structure [Windows GDI], _win32_RGBTRIPLE_str, gdi.rgbtriple, wingdi/RGBTRIPLE"
+ms.keywords: '*LPRGBTRIPLE, *NPRGBTRIPLE, *PRGBTRIPLE, RGBTRIPLE, RGBTRIPLE structure [Windows GDI], _win32_RGBTRIPLE_str, gdi.rgbtriple, wingdi/RGBTRIPLE'
 ms.topic: struct
-f1_keywords: 
- - "wingdi/RGBTRIPLE"
+f1_keywords:
+- wingdi/RGBTRIPLE
 dev_langs:
- - c++
+- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wingdi.h
+- Wingdi.h
 api_name:
- - RGBTRIPLE
+- RGBTRIPLE
 targetos: Windows
 req.typenames: RGBTRIPLE, *PRGBTRIPLE, *NPRGBTRIPLE, *LPRGBTRIPLE
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d9.IDirect3DResource9.GetPriority
 title: IDirect3DResource9::GetPriority (d3d9.h)
-
 description: Retrieves the priority for this resource.
 old-location: direct3d9\idirect3dresource9__getpriority.htm
 tech.root: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3dresource9__getpriority.htm
-
 ms.date: 12/05/2018
 ms.keywords: 47c2760d-e108-6181-ef30-aa9368caa9c3, GetPriority, GetPriority method [Direct3D 9], GetPriority method [Direct3D 9],IDirect3DResource9 interface, IDirect3DResource9 interface [Direct3D 9],GetPriority method, IDirect3DResource9.GetPriority, IDirect3DResource9::GetPriority, d3d9helper/IDirect3DResource9::GetPriority, direct3d9.idirect3dresource9__getpriority
 ms.topic: method
-f1_keywords: 
- - "d3d9/IDirect3DResource9.GetPriority"
+f1_keywords:
+- d3d9/IDirect3DResource9.GetPriority
 dev_langs:
- - c++
+- c++
 req.header: d3d9.h
 req.include-header: D3D9.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: D3D9.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D9.lib
- - D3D9.dll
+- D3D9.lib
+- D3D9.dll
 api_name:
- - IDirect3DResource9.GetPriority
+- IDirect3DResource9.GetPriority
 targetos: Windows
 req.typenames: 
 req.redist: 

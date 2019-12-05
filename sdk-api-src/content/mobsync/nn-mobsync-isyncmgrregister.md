@@ -1,19 +1,17 @@
 ---
 UID: NN:mobsync.ISyncMgrRegister
 title: ISyncMgrRegister (mobsync.h)
-
 description: Exposes methods so that an application can register with the synchronization manager. This can be achieved either through the ISyncMgrRegister interface or by registering directly in the registry.
 old-location: shell\syncmgr_isyncmgrregister.htm
 tech.root: shell
 ms.assetid: 1feed230-5a50-4ff5-a8a9-e0ce15ba8f1c
-
 ms.date: 12/05/2018
 ms.keywords: ISyncMgrRegister, ISyncMgrRegister interface [Windows Shell], ISyncMgrRegister interface [Windows Shell],described, mobsync/ISyncMgrRegister, shell.syncmgr_isyncmgrregister, syncmgr.isyncmgrregister
 ms.topic: interface
-f1_keywords: 
- - "mobsync/ISyncMgrRegister"
+f1_keywords:
+- mobsync/ISyncMgrRegister
 dev_langs:
- - c++
+- c++
 req.header: mobsync.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Mobsync.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mobsync.dll
+- Mobsync.dll
 api_name:
- - ISyncMgrRegister
+- ISyncMgrRegister
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:directxmath.XMVectorNearEqual
 title: XMVectorNearEqual function (directxmath.h)
-
 description: Performs a per-component test for equality of two vectors within a given threshold.
 old-location: dxmath\xmvectornearequal.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.comparison.XMVectorNearEqual(XMVECTOR,XMVECTOR,XMVECTOR)
-
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMVectorNearEqual, XMVectorNearEqual, XMVectorNearEqual method [DirectX Math Support APIs], dxmath.xmvectornearequal
 ms.topic: function
-f1_keywords: 
- - "directxmath/XMVectorNearEqual"
+f1_keywords:
+- directxmath/XMVectorNearEqual
 dev_langs:
- - c++
+- c++
 req.header: directxmath.h
 req.include-header: DirectXMath.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - directxmathvector.inl
+- directxmathvector.inl
 api_name:
- - XMVectorNearEqual
+- XMVectorNearEqual
 targetos: Windows
 req.typenames: 
 req.redist: 

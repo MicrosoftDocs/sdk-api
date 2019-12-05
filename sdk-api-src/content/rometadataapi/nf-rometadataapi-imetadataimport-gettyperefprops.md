@@ -1,19 +1,17 @@
 ---
 UID: NF:rometadataapi.IMetaDataImport.GetTypeRefProps
 title: IMetaDataImport::GetTypeRefProps (rometadataapi.h)
-
 description: Gets the metadata associated with the Type referenced by the specified TypeRef token.
 old-location: winrt\imetadataimport_gettyperefprops.htm
 tech.root: WinRT
 ms.assetid: 714d1adf-df8d-4f6b-8bcd-8dd9461c102a
-
 ms.date: 12/05/2018
 ms.keywords: GetTypeRefProps, GetTypeRefProps method [Windows Runtime], GetTypeRefProps method [Windows Runtime],IMetaDataImport interface, IMetaDataImport interface [Windows Runtime],GetTypeRefProps method, IMetaDataImport.GetTypeRefProps, IMetaDataImport::GetTypeRefProps, rometadataapi/IMetaDataImport::GetTypeRefProps, winrt.imetadataimport_gettyperefprops
 ms.topic: method
-f1_keywords: 
- - "rometadataapi/IMetaDataImport.GetTypeRefProps"
+f1_keywords:
+- rometadataapi/IMetaDataImport.GetTypeRefProps
 dev_langs:
- - c++
+- c++
 req.header: rometadataapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - rometadataapi.h
+- rometadataapi.h
 api_name:
- - IMetaDataImport.GetTypeRefProps
+- IMetaDataImport.GetTypeRefProps
 targetos: Windows
 req.typenames: 
 req.redist: 

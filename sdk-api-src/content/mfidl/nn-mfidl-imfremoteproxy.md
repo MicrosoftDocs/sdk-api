@@ -1,19 +1,17 @@
 ---
 UID: NN:mfidl.IMFRemoteProxy
 title: IMFRemoteProxy (mfidl.h)
-
 description: Exposed by objects that act as a proxy for a remote object.
 old-location: mf\imfremoteproxy.htm
 tech.root: medfound
 ms.assetid: 46af5ba7-c362-4cfd-ae6d-b698c6403a65
-
 ms.date: 12/05/2018
 ms.keywords: 46af5ba7-c362-4cfd-ae6d-b698c6403a65, IMFRemoteProxy, IMFRemoteProxy interface [Media Foundation], IMFRemoteProxy interface [Media Foundation],described, mf.imfremoteproxy, mfidl/IMFRemoteProxy
 ms.topic: interface
-f1_keywords: 
- - "mfidl/IMFRemoteProxy"
+f1_keywords:
+- mfidl/IMFRemoteProxy
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFRemoteProxy
+- IMFRemoteProxy
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:wingdi.DescribePixelFormat
 title: DescribePixelFormat function (wingdi.h)
-
 description: The DescribePixelFormat function obtains information about the pixel format identified by iPixelFormat of the device associated with hdc. The function sets the members of the PIXELFORMATDESCRIPTOR structure pointed to by ppfd with that pixel format data.
 old-location: opengl\describepixelformat.htm
 tech.root: OpenGL
 ms.assetid: 9692a30d-c7d4-40c7-a265-72c4ebabd5f2
-
 ms.date: 12/05/2018
 ms.keywords: DescribePixelFormat, DescribePixelFormat function [OpenGL], _ogl_DescribePixelFormat, opengl.describepixelformat, wingdi/DescribePixelFormat
 ms.topic: function
-f1_keywords: 
- - "wingdi/DescribePixelFormat"
+f1_keywords:
+- wingdi/DescribePixelFormat
 dev_langs:
- - c++
+- c++
 req.header: wingdi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - gdi32.dll
- - Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
- - GDI32Full.dll
+- gdi32.dll
+- Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
+- GDI32Full.dll
 api_name:
- - DescribePixelFormat
+- DescribePixelFormat
 targetos: Windows
 req.typenames: 
 req.redist: 

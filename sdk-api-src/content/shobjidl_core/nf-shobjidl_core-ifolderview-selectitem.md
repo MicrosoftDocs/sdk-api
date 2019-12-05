@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IFolderView.SelectItem
 title: IFolderView::SelectItem (shobjidl_core.h)
-
 description: Selects an item in the folder's view.
 old-location: shell\IFolderView_SelectItem.htm
 tech.root: shell
 ms.assetid: 6db262ea-861b-4bc5-955f-b81945313ea8
-
 ms.date: 12/05/2018
 ms.keywords: IFolderView interface [Windows Shell],SelectItem method, IFolderView.SelectItem, IFolderView::SelectItem, SelectItem, SelectItem method [Windows Shell], SelectItem method [Windows Shell],IFolderView interface, _shell_IFolderView_SelectItem, shell.IFolderView_SelectItem, shobjidl_core/IFolderView::SelectItem
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IFolderView.SelectItem"
+f1_keywords:
+- shobjidl_core/IFolderView.SelectItem
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Shell32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - IFolderView.SelectItem
+- IFolderView.SelectItem
 targetos: Windows
 req.typenames: 
 req.redist: 

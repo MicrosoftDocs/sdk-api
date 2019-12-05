@@ -1,19 +1,17 @@
 ---
 UID: NF:dvbsiparser.IDvbServiceDescriptor.GetLength
 title: IDvbServiceDescriptor::GetLength (dvbsiparser.h)
-
 description: Gets the length of a Digital Video Broadcast (DVB) service descriptor.
 old-location: mstv\idvbservicedescriptor_getlength.htm
 tech.root: mstv
 ms.assetid: e8c35777-0a54-4b26-b5a2-629ba3cb3928
-
 ms.date: 12/05/2018
 ms.keywords: GetLength, GetLength method [Microsoft TV Technologies], GetLength method [Microsoft TV Technologies],IDvbServiceDescriptor interface, IDvbServiceDescriptor interface [Microsoft TV Technologies],GetLength method, IDvbServiceDescriptor.GetLength, IDvbServiceDescriptor::GetLength, dvbsiparser/IDvbServiceDescriptor::GetLength, mstv.idvbservicedescriptor_getlength
 ms.topic: method
-f1_keywords: 
- - "dvbsiparser/IDvbServiceDescriptor.GetLength"
+f1_keywords:
+- dvbsiparser/IDvbServiceDescriptor.GetLength
 dev_langs:
- - c++
+- c++
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dvbsiparser.h
+- dvbsiparser.h
 api_name:
- - IDvbServiceDescriptor.GetLength
+- IDvbServiceDescriptor.GetLength
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:fwpmu.IPsecDospStateCreateEnumHandle0
 title: IPsecDospStateCreateEnumHandle0 function (fwpmu.h)
-
 description: Creates a handle used to enumerate a set of IPsec DoS Protection objects.
 old-location: fwp\ipsecdospstatecreateenumhandle0.htm
 tech.root: fwp
 ms.assetid: 5ceb78eb-bcbf-48fe-b2a9-52a687e5ce20
-
 ms.date: 12/05/2018
 ms.keywords: IPsecDospStateCreateEnumHandle0, IPsecDospStateCreateEnumHandle0 function [Filtering], fwp.ipsecdospstatecreateenumhandle0, fwpmu/IPsecDospStateCreateEnumHandle0
 ms.topic: function
-f1_keywords: 
- - "fwpmu/IPsecDospStateCreateEnumHandle0"
+f1_keywords:
+- fwpmu/IPsecDospStateCreateEnumHandle0
 dev_langs:
- - c++
+- c++
 req.header: fwpmu.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Fwpuclnt.lib
 req.dll: Fwpuclnt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Fwpuclnt.dll
+- Fwpuclnt.dll
 api_name:
- - IPsecDospStateCreateEnumHandle0
+- IPsecDospStateCreateEnumHandle0
 targetos: Windows
 req.typenames: 
 req.redist: 

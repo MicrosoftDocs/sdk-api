@@ -1,19 +1,17 @@
 ---
 UID: NF:wmp.IWMPFolderMonitorServices.item
 title: IWMPFolderMonitorServices::item (wmp.h)
-
 description: This method and all other methods of the IWMPFolderMonitorServices interface are deprecated.The item method retrieves the path to the folder corresponding to the specified index.
 old-location: wmp\iwmpfoldermonitorservices_item.htm
 tech.root: WMP
 ms.assetid: d9c79b85-ac64-456c-95b2-fe28a8c99fac
-
 ms.date: 12/05/2018
 ms.keywords: IWMPFolderMonitorServices interface [Windows Media Player],item method, IWMPFolderMonitorServices.item, IWMPFolderMonitorServices::item, IWMPFolderMonitorServicesitem, item, item method [Windows Media Player], item method [Windows Media Player],IWMPFolderMonitorServices interface, wmp.iwmpfoldermonitorservices_item, wmp/IWMPFolderMonitorServices::item
 ms.topic: method
-f1_keywords: 
- - "wmp/IWMPFolderMonitorServices.item"
+f1_keywords:
+- wmp/IWMPFolderMonitorServices.item
 dev_langs:
- - c++
+- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wmp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmp.dll
+- wmp.dll
 api_name:
- - IWMPFolderMonitorServices.item
+- IWMPFolderMonitorServices.item
 targetos: Windows
 req.typenames: 
 req.redist: 

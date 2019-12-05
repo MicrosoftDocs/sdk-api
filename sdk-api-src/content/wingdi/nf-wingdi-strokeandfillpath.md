@@ -1,19 +1,17 @@
 ---
 UID: NF:wingdi.StrokeAndFillPath
 title: StrokeAndFillPath function (wingdi.h)
-
 description: The StrokeAndFillPath function closes any open figures in a path, strokes the outline of the path by using the current pen, and fills its interior by using the current brush.
 old-location: gdi\strokeandfillpath.htm
 tech.root: gdi
 ms.assetid: 936af9e5-707d-4d43-9035-e8239e3759a2
-
 ms.date: 12/05/2018
 ms.keywords: StrokeAndFillPath, StrokeAndFillPath function [Windows GDI], _win32_StrokeAndFillPath, gdi.strokeandfillpath, wingdi/StrokeAndFillPath
 ms.topic: function
-f1_keywords: 
- - "wingdi/StrokeAndFillPath"
+f1_keywords:
+- wingdi/StrokeAndFillPath
 dev_langs:
- - c++
+- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - gdi32.dll
- - Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
- - GDI32Full.dll
+- gdi32.dll
+- Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
+- GDI32Full.dll
 api_name:
- - StrokeAndFillPath
+- StrokeAndFillPath
 targetos: Windows
 req.typenames: 
 req.redist: 

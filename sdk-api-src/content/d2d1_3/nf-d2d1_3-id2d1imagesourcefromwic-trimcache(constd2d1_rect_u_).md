@@ -1,19 +1,17 @@
 ---
 UID: NF:d2d1_3.ID2D1ImageSourceFromWic.TrimCache(const D2D1_RECT_U &)
 title: ID2D1ImageSourceFromWic::TrimCache(const D2D1_RECT_U &) (d2d1_3.h)
-
 description: This method trims the populated regions of the image source cache to just the specified rectangle.
 old-location: direct2d\id2d1imagesourcefromwic_trimcache_2.htm
 tech.root: Direct2D
 ms.assetid: AAC04CD2-D59B-42F0-90C9-F230EECE2028
-
 ms.date: 12/05/2018
 ms.keywords: ID2D1ImageSourceFromWic interface [Direct2D],TrimCache method, ID2D1ImageSourceFromWic.TrimCache, ID2D1ImageSourceFromWic.TrimCache(const D2D1_RECT_U &), ID2D1ImageSourceFromWic::TrimCache, ID2D1ImageSourceFromWic::TrimCache(const D2D1_RECT_U &), TrimCache, TrimCache method [Direct2D], TrimCache method [Direct2D],ID2D1ImageSourceFromWic interface, d2d1_3/ID2D1ImageSourceFromWic::TrimCache, direct2d.id2d1imagesourcefromwic_trimcache_2
 ms.topic: method
-f1_keywords: 
- - "d2d1_3/ID2D1ImageSourceFromWic.TrimCache"
+f1_keywords:
+- d2d1_3/ID2D1ImageSourceFromWic.TrimCache
 dev_langs:
- - c++
+- c++
 req.header: d2d1_3.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: D2d1_3.lib
 req.dll: D2d1_3.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - d2d1_3.dll
+- d2d1_3.dll
 api_name:
- - ID2D1ImageSourceFromWic.TrimCache
+- ID2D1ImageSourceFromWic.TrimCache
 targetos: Windows
 req.typenames: 
 req.redist: 

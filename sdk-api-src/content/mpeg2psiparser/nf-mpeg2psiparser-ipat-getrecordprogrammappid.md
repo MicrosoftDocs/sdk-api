@@ -1,19 +1,17 @@
 ---
 UID: NF:mpeg2psiparser.IPAT.GetRecordProgramMapPid
 title: IPAT::GetRecordProgramMapPid (mpeg2psiparser.h)
-
 description: The GetRecordProgramMapPid method returns the packet identifier (PID) for a given record in the PAT.
 old-location: mstv\ipat_getrecordprogrammappid.htm
 tech.root: mstv
 ms.assetid: 0b1ca2c0-52c4-447a-8191-8f9b69aecd25
-
 ms.date: 12/05/2018
 ms.keywords: GetRecordProgramMapPid, GetRecordProgramMapPid method [Microsoft TV Technologies], GetRecordProgramMapPid method [Microsoft TV Technologies],IPAT interface, IPAT interface [Microsoft TV Technologies],GetRecordProgramMapPid method, IPAT.GetRecordProgramMapPid, IPAT::GetRecordProgramMapPid, IPATGetRecordProgramMapPid, mpeg2psiparser/IPAT::GetRecordProgramMapPid, mstv.ipat_getrecordprogrammappid
 ms.topic: method
-f1_keywords: 
- - "mpeg2psiparser/IPAT.GetRecordProgramMapPid"
+f1_keywords:
+- mpeg2psiparser/IPAT.GetRecordProgramMapPid
 dev_langs:
- - c++
+- c++
 req.header: mpeg2psiparser.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mpeg2PsiParser.h
+- Mpeg2PsiParser.h
 api_name:
- - IPAT.GetRecordProgramMapPid
+- IPAT.GetRecordProgramMapPid
 targetos: Windows
 req.typenames: 
 req.redist: 

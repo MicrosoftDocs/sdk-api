@@ -4,10 +4,10 @@ title: CHOOSECOLORA
 ms.date: 01/30/19
 ms.keywords: tagCHOOSECOLORA, CHOOSECOLORA
 ms.topic: language-reference
-f1_keywords: 
- - "commdlg/tagCHOOSECOLORA"
+f1_keywords:
+- commdlg/tagCHOOSECOLORA
 dev_langs:
- - c++
+- c++
 targetos: Windows
 req.construct-type: structure
 req.ddi-compliance: 
@@ -25,14 +25,14 @@ req.typenames: CHOOSECOLORA, *LPCHOOSECOLORA
 req.umdf-ver: 
 req.unicode-ansi: 
 topic_type:
- - apiref
+- apiref
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - commdlg.h
+- commdlg.h
 api_name:
- - tagCHOOSECOLORA
- - CHOOSECOLORA
+- tagCHOOSECOLORA
+- CHOOSECOLORA
 ---
 
 # CHOOSECOLORA structure

@@ -1,19 +1,17 @@
 ---
 UID: NS:winioctl._GET_DISK_ATTRIBUTES
 title: GET_DISK_ATTRIBUTES
-
 description: Contains the attributes of a disk device.
 old-location: fs\get_disk_attributes.htm
 tech.root: FileIO
 ms.assetid: c6a0461d-cc23-4191-a0ff-c4279c1b097e
-
 ms.date: 12/05/2018
-ms.keywords: "*PGET_DISK_ATTRIBUTES, DISK_ATTRIBUTE_OFFLINE, DISK_ATTRIBUTE_READ_ONLY, GET_DISK_ATTRIBUTES, GET_DISK_ATTRIBUTES structure [Files], PGET_DISK_ATTRIBUTES, PGET_DISK_ATTRIBUTES structure pointer [Files], fs.get_disk_attributes, winioctl/GET_DISK_ATTRIBUTES, winioctl/PGET_DISK_ATTRIBUTES"
+ms.keywords: '*PGET_DISK_ATTRIBUTES, DISK_ATTRIBUTE_OFFLINE, DISK_ATTRIBUTE_READ_ONLY, GET_DISK_ATTRIBUTES, GET_DISK_ATTRIBUTES structure [Files], PGET_DISK_ATTRIBUTES, PGET_DISK_ATTRIBUTES structure pointer [Files], fs.get_disk_attributes, winioctl/GET_DISK_ATTRIBUTES, winioctl/PGET_DISK_ATTRIBUTES'
 ms.topic: struct
-f1_keywords: 
- - "winioctl/GET_DISK_ATTRIBUTES"
+f1_keywords:
+- winioctl/GET_DISK_ATTRIBUTES
 dev_langs:
- - c++
+- c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WinIoCtl.h
+- WinIoCtl.h
 api_name:
- - GET_DISK_ATTRIBUTES
+- GET_DISK_ATTRIBUTES
 targetos: Windows
 req.typenames: GET_DISK_ATTRIBUTES, *PGET_DISK_ATTRIBUTES
 req.redist: 

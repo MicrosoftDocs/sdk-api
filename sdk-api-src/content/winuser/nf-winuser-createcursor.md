@@ -1,19 +1,17 @@
 ---
 UID: NF:winuser.CreateCursor
 title: CreateCursor function (winuser.h)
-
 description: Creates a cursor having the specified size, bit patterns, and hot spot.
 old-location: menurc\createcursor.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\cursors\cursorreference\cursorfunctions\createcursor.htm
-
 ms.date: 12/05/2018
 ms.keywords: CreateCursor, CreateCursor function [Menus and Other Resources], _win32_CreateCursor, _win32_createcursor_cpp, menurc.createcursor, winui._win32_createcursor, winuser/CreateCursor
 ms.topic: function
-f1_keywords: 
- - "winuser/CreateCursor"
+f1_keywords:
+- winuser/CreateCursor
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - User32.dll
+- User32.dll
 api_name:
- - CreateCursor
+- CreateCursor
 targetos: Windows
 req.typenames: 
 req.redist: 

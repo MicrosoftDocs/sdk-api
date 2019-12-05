@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationGridItemPattern.get_CachedRow
 title: IUIAutomationGridItemPattern::get_CachedRow (uiautomationclient.h)
-
 description: Retrieves the cached zero-based index of the row that contains the item.
 old-location: winauto\uiauto_IUIAutomationGridItemPattern_CachedRow.htm
 tech.root: WinAuto
 ms.assetid: 0a7d456f-dd7e-4a36-8434-dc4dd9de121b
-
 ms.date: 12/05/2018
 ms.keywords: CachedRow property [Windows Accessibility], CachedRow property [Windows Accessibility],IUIAutomationGridItemPattern interface, IUIAutomationGridItemPattern interface [Windows Accessibility],CachedRow property, IUIAutomationGridItemPattern.CachedRow, IUIAutomationGridItemPattern.get_CachedRow, IUIAutomationGridItemPattern::CachedRow, IUIAutomationGridItemPattern::get_CachedRow, get_CachedRow, uiauto.uiauto_IUIAutomationGridItemPattern_CachedRow, uiauto_IUIAutomationGridItemPattern_CachedRow, uiautomationclient/IUIAutomationGridItemPattern::CachedRow, uiautomationclient/IUIAutomationGridItemPattern::get_CachedRow, winauto.uiauto_IUIAutomationGridItemPattern_CachedRow
 ms.topic: method
-f1_keywords: 
- - "uiautomationclient/IUIAutomationGridItemPattern.CachedRow"
+f1_keywords:
+- uiautomationclient/IUIAutomationGridItemPattern.CachedRow
 dev_langs:
- - c++
+- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationClient.h
+- UIAutomationClient.h
 api_name:
- - IUIAutomationGridItemPattern.CachedRow
- - IUIAutomationGridItemPattern.get_CachedRow
+- IUIAutomationGridItemPattern.CachedRow
+- IUIAutomationGridItemPattern.get_CachedRow
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:mfidl.IMFHttpDownloadRequest.GetHttpStatus
 title: IMFHttpDownloadRequest::GetHttpStatus (mfidl.h)
-
 description: Invoked by Microsoft Media Foundation to retrieve the HTTP status code that the server specified in its response. Media Foundation invokes this method after a successful call to EndReceiveResponse.
 old-location: mf\imfhttpdownloadrequest_gethttpstatus.htm
 tech.root: medfound
 ms.assetid: E084CF25-BEFA-4061-AA77-2CFC57CF6DCE
-
 ms.date: 12/05/2018
 ms.keywords: GetHttpStatus, GetHttpStatus method [Media Foundation], GetHttpStatus method [Media Foundation],IMFHttpDownloadRequest interface, IMFHttpDownloadRequest interface [Media Foundation],GetHttpStatus method, IMFHttpDownloadRequest.GetHttpStatus, IMFHttpDownloadRequest::GetHttpStatus, mf.imfhttpdownloadrequest_gethttpstatus, mfidl/IMFHttpDownloadRequest::GetHttpStatus
 ms.topic: method
-f1_keywords: 
- - "mfidl/IMFHttpDownloadRequest.GetHttpStatus"
+f1_keywords:
+- mfidl/IMFHttpDownloadRequest.GetHttpStatus
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Mfplat.lib; Mfplat.dll
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfplat.lib
- - mfplat.dll
- - mfplat.dll
- - mfplat.dll.dll
+- mfplat.lib
+- mfplat.dll
+- mfplat.dll
+- mfplat.dll.dll
 api_name:
- - IMFHttpDownloadRequest.GetHttpStatus
+- IMFHttpDownloadRequest.GetHttpStatus
 targetos: Windows
 req.typenames: 
 req.redist: 

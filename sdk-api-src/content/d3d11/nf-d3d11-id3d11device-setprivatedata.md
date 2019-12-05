@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d11.ID3D11Device.SetPrivateData
 title: ID3D11Device::SetPrivateData (d3d11.h)
-
 description: Set data to a device and associate that data with a guid.
 old-location: direct3d11\id3d11device_setprivatedata.htm
 tech.root: direct3d11
 ms.assetid: 0a8add57-b209-4096-9132-f3258469bdbd
-
 ms.date: 12/05/2018
 ms.keywords: ID3D11Device interface [Direct3D 11],SetPrivateData method, ID3D11Device.SetPrivateData, ID3D11Device::SetPrivateData, SetPrivateData, SetPrivateData method [Direct3D 11], SetPrivateData method [Direct3D 11],ID3D11Device interface, d3d11/ID3D11Device::SetPrivateData, direct3d11.id3d11device_setprivatedata, f1172c7e-62ba-f206-04b7-7dc3e29d9d16
 ms.topic: method
-f1_keywords: 
- - "d3d11/ID3D11Device.SetPrivateData"
+f1_keywords:
+- d3d11/ID3D11Device.SetPrivateData
 dev_langs:
- - c++
+- c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: D3D11.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D11.lib
- - D3D11.dll
+- D3D11.lib
+- D3D11.dll
 api_name:
- - ID3D11Device.SetPrivateData
+- ID3D11Device.SetPrivateData
 targetos: Windows
 req.typenames: 
 req.redist: 

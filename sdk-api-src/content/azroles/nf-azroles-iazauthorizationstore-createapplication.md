@@ -1,19 +1,17 @@
 ---
 UID: NF:azroles.IAzAuthorizationStore.CreateApplication
 title: IAzAuthorizationStore::CreateApplication (azroles.h)
-
 description: Creates an IAzApplication object with the specified name.
 old-location: security\azauthorizationstore_createapplication.htm
 tech.root: SecAuthZ
 ms.assetid: ca6feb69-15cd-454a-a2b8-c75c4c6b38cd
-
 ms.date: 12/05/2018
 ms.keywords: AzAuthorizationStore object [Security],CreateApplication method, CreateApplication, CreateApplication method [Security], CreateApplication method [Security],AzAuthorizationStore object, CreateApplication method [Security],IAzAuthorizationStore interface, IAzAuthorizationStore interface [Security],CreateApplication method, IAzAuthorizationStore.CreateApplication, IAzAuthorizationStore::CreateApplication, azroles/IAzAuthorizationStore::CreateApplication, security.azauthorizationstore_createapplication
 ms.topic: method
-f1_keywords: 
- - "azroles/AzAuthorizationStore.CreateApplication"
+f1_keywords:
+- azroles/AzAuthorizationStore.CreateApplication
 dev_langs:
- - c++
+- c++
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Azroles.lib
 req.dll: Azroles.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Azroles.dll
+- Azroles.dll
 api_name:
- - AzAuthorizationStore.CreateApplication
- - IAzAuthorizationStore.CreateApplication
+- AzAuthorizationStore.CreateApplication
+- IAzAuthorizationStore.CreateApplication
 targetos: Windows
 req.typenames: 
 req.redist: Windows Server 2003 Administration Tools Pack on Windows XP

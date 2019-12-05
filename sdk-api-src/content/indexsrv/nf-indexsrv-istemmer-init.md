@@ -1,19 +1,17 @@
 ---
 UID: NF:indexsrv.IStemmer.Init
 title: IStemmer::Init (indexsrv.h)
-
 description: Initializes the stemmer.
 old-location: search\_search_IStemmer_Init.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\dataaddins\istemmer\init.htm
-
 ms.date: 12/05/2018
 ms.keywords: IStemmer interface [search],Init method, IStemmer.Init, IStemmer::Init, Init, Init method [search], Init method [search],IStemmer interface, _search_IStemmer_Init, indexsrv/IStemmer::Init, search._search_IStemmer_Init
 ms.topic: method
-f1_keywords: 
- - "indexsrv/IStemmer.Init"
+f1_keywords:
+- indexsrv/IStemmer.Init
 dev_langs:
- - c++
+- c++
 req.header: indexsrv.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Indexsrv.h
+- Indexsrv.h
 api_name:
- - IStemmer.Init
+- IStemmer.Init
 targetos: Windows
 req.typenames: 
 req.redist: Windows NT 4.0 Option Pack

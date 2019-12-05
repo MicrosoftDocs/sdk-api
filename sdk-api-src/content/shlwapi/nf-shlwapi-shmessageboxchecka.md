@@ -1,19 +1,17 @@
 ---
 UID: NF:shlwapi.SHMessageBoxCheckA
 title: SHMessageBoxCheckA function (shlwapi.h)
-
 description: SHMessageBoxCheck may be altered or unavailable.
 old-location: shell\SHMessageBoxCheck.htm
 tech.root: shell
 ms.assetid: 7e62cde0-2b9f-44d3-afb8-5df71f98453a
-
 ms.date: 12/05/2018
 ms.keywords: MB_ICONEXCLAMATION, MB_ICONHAND, MB_ICONINFORMATION, MB_ICONQUESTION, MB_OK, MB_OKCANCEL, MB_YESNO, SHMessageBoxCheck, SHMessageBoxCheck function [Windows Shell], SHMessageBoxCheckA, SHMessageBoxCheckW, _win32_SHMessageBoxCheck, shell.SHMessageBoxCheck, shlwapi/SHMessageBoxCheck, shlwapi/SHMessageBoxCheckA, shlwapi/SHMessageBoxCheckW
 ms.topic: function
-f1_keywords: 
- - "shlwapi/SHMessageBoxCheck"
+f1_keywords:
+- shlwapi/SHMessageBoxCheck
 dev_langs:
- - c++
+- c++
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: Shlwapi.dll (version 5.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Shlwapi.dll
+- Shlwapi.dll
 api_name:
- - SHMessageBoxCheck
- - SHMessageBoxCheckA
- - SHMessageBoxCheckW
+- SHMessageBoxCheck
+- SHMessageBoxCheckA
+- SHMessageBoxCheckW
 targetos: Windows
 req.typenames: 
 req.redist: 

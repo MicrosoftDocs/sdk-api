@@ -1,19 +1,17 @@
 ---
 UID: NF:faxcomex.IFaxInboundRoutingExtension.get_MinorVersion
 title: IFaxInboundRoutingExtension::get_MinorVersion (faxcomex.h)
-
 description: The IFaxInboundRoutingExtension::get_MinorVersion property is a value that specifies the minor part of the version number for the fax routing extension's DLL.
 old-location: fax\_mfax_faxinboundroutingextension_cpp_mfax_faxinboundroutingextension_minorversion_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_1cby.htm
-
 ms.date: 12/05/2018
 ms.keywords: IFaxInboundRoutingExtension interface [Fax Service],MinorVersion property, IFaxInboundRoutingExtension.MinorVersion, IFaxInboundRoutingExtension.get_MinorVersion, IFaxInboundRoutingExtension::MinorVersion, IFaxInboundRoutingExtension::get_MinorVersion, MinorVersion property [Fax Service], MinorVersion property [Fax Service],IFaxInboundRoutingExtension interface, _mfax_faxinboundroutingextension.minorversion, fax._mfax_faxinboundroutingextension_cpp_mfax_faxinboundroutingextension_minorversion_cpp, fax._mfax_faxinboundroutingextension_minorversion, faxcomex/IFaxInboundRoutingExtension::MinorVersion, faxcomex/IFaxInboundRoutingExtension::get_MinorVersion, get_MinorVersion
 ms.topic: method
-f1_keywords: 
- - "faxcomex/IFaxInboundRoutingExtension.MinorVersion"
+f1_keywords:
+- faxcomex/IFaxInboundRoutingExtension.MinorVersion
 dev_langs:
- - c++
+- c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: Fxscomex.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Fxscomex.dll
+- Fxscomex.dll
 api_name:
- - IFaxInboundRoutingExtension.MinorVersion
- - IFaxInboundRoutingExtension.get_MinorVersion
- - IFaxInboundRoutingExtension.get_MinorVersion
+- IFaxInboundRoutingExtension.MinorVersion
+- IFaxInboundRoutingExtension.get_MinorVersion
+- IFaxInboundRoutingExtension.get_MinorVersion
 targetos: Windows
 req.typenames: 
 req.redist: 

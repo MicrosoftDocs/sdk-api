@@ -1,19 +1,17 @@
 ---
 UID: NF:mbnapi.IMbnConnectionEvents.OnVoiceCallStateChange
 title: IMbnConnectionEvents::OnVoiceCallStateChange (mbnapi.h)
-
 description: Notification method that indicates a change in the voice call state of a device.
 old-location: mbn\imbnconnectionevents_onvoicecallstatechange.htm
 tech.root: mbn
 ms.assetid: c4f243b0-e6d5-4afc-85ad-0f88140c3beb
-
 ms.date: 12/05/2018
 ms.keywords: IMbnConnectionEvents interface [Microsoft Broadband Networks],OnVoiceCallStateChange method, IMbnConnectionEvents.OnVoiceCallStateChange, IMbnConnectionEvents::OnVoiceCallStateChange, OnVoiceCallStateChange, OnVoiceCallStateChange method [Microsoft Broadband Networks], OnVoiceCallStateChange method [Microsoft Broadband Networks],IMbnConnectionEvents interface, mbn.imbnconnectionevents_onvoicecallstatechange, mbnapi/IMbnConnectionEvents::OnVoiceCallStateChange
 ms.topic: method
-f1_keywords: 
- - "mbnapi/IMbnConnectionEvents.OnVoiceCallStateChange"
+f1_keywords:
+- mbnapi/IMbnConnectionEvents.OnVoiceCallStateChange
 dev_langs:
- - c++
+- c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mbnapi.h
+- mbnapi.h
 api_name:
- - IMbnConnectionEvents.OnVoiceCallStateChange
+- IMbnConnectionEvents.OnVoiceCallStateChange
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:wdstptmgmt.IWdsTransportMulticastSessionPolicy.put_MultistreamStreamCount
 title: IWdsTransportMulticastSessionPolicy::put_MultistreamStreamCount (wdstptmgmt.h)
-
 description: Receives the maximum number of multicast streams per transmission used by the server.
 old-location: wds\iwdstransportmulticastsessionpolicy_multistreamstreamcount.htm
 tech.root: wds
 ms.assetid: 34dd6dc0-3ff9-4dc3-9805-8fbfa972c4e1
-
 ms.date: 12/05/2018
 ms.keywords: IWdsTransportMulticastSessionPolicy interface [Windows Deployment Services],MultistreamStreamCount property, IWdsTransportMulticastSessionPolicy.MultistreamStreamCount, IWdsTransportMulticastSessionPolicy.put_MultistreamStreamCount, IWdsTransportMulticastSessionPolicy::MultistreamStreamCount, IWdsTransportMulticastSessionPolicy::get_MultistreamStreamCount, IWdsTransportMulticastSessionPolicy::put_MultistreamStreamCount, MultistreamStreamCount property [Windows Deployment Services], MultistreamStreamCount property [Windows Deployment Services],IWdsTransportMulticastSessionPolicy interface, put_MultistreamStreamCount, wds.iwdstransportmulticastsessionpolicy_multistreamstreamcount, wdstptmgmt/IWdsTransportMulticastSessionPolicy::MultistreamStreamCount, wdstptmgmt/IWdsTransportMulticastSessionPolicy::get_MultistreamStreamCount, wdstptmgmt/IWdsTransportMulticastSessionPolicy::put_MultistreamStreamCount
 ms.topic: method
-f1_keywords: 
- - "wdstptmgmt/IWdsTransportMulticastSessionPolicy.MultistreamStreamCount"
+f1_keywords:
+- wdstptmgmt/IWdsTransportMulticastSessionPolicy.MultistreamStreamCount
 dev_langs:
- - c++
+- c++
 req.header: wdstptmgmt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: Wdstptmgmt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wdstptmgmt.dll
+- Wdstptmgmt.dll
 api_name:
- - IWdsTransportMulticastSessionPolicy.MultistreamStreamCount
- - IWdsTransportMulticastSessionPolicy.get_MultistreamStreamCount
- - IWdsTransportMulticastSessionPolicy.put_MultistreamStreamCount
+- IWdsTransportMulticastSessionPolicy.MultistreamStreamCount
+- IWdsTransportMulticastSessionPolicy.get_MultistreamStreamCount
+- IWdsTransportMulticastSessionPolicy.put_MultistreamStreamCount
 targetos: Windows
 req.typenames: 
 req.redist: 

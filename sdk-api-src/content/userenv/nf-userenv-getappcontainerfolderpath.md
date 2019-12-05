@@ -1,19 +1,17 @@
 ---
 UID: NF:userenv.GetAppContainerFolderPath
 title: GetAppContainerFolderPath function (userenv.h)
-
 description: Gets the path of the local app data folder for the specified app container.
 old-location: shell\getappcontainerfolderpath.htm
 tech.root: shell
 ms.assetid: 7D3AB78D-C094-4F89-8032-13F3C137E910
-
 ms.date: 12/05/2018
 ms.keywords: GetAppContainerFolderPath, GetAppContainerFolderPath function [Windows Shell], shell.getappcontainerfolderpath, userenv/GetAppContainerFolderPath
 ms.topic: function
-f1_keywords: 
- - "userenv/GetAppContainerFolderPath"
+f1_keywords:
+- userenv/GetAppContainerFolderPath
 dev_langs:
- - c++
+- c++
 req.header: userenv.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Userenv.lib
 req.dll: Userenv.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Userenv.dll
+- Userenv.dll
 api_name:
- - GetAppContainerFolderPath
+- GetAppContainerFolderPath
 targetos: Windows
 req.typenames: 
 req.redist: 

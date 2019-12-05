@@ -1,19 +1,17 @@
 ---
 UID: NF:combaseapi.CoInvalidateRemoteMachineBindings
 title: CoInvalidateRemoteMachineBindings function (combaseapi.h)
-
 description: Tells the service control manager to flush any cached RPC binding handles for the specified computer.
 old-location: com\coinvalidateremotemachinebindings.htm
 tech.root: com
 ms.assetid: 6d0fa512-a9e9-44ff-929d-00b9c826da99
-
 ms.date: 12/05/2018
 ms.keywords: CoInvalidateRemoteMachineBindings, CoInvalidateRemoteMachineBindings function [COM], _com_CoInvalidateRemoteMachineBindings, com.coinvalidateremotemachinebindings, combaseapi/CoInvalidateRemoteMachineBindings
 ms.topic: function
-f1_keywords: 
- - "combaseapi/CoInvalidateRemoteMachineBindings"
+f1_keywords:
+- combaseapi/CoInvalidateRemoteMachineBindings
 dev_langs:
- - c++
+- c++
 req.header: combaseapi.h
 req.include-header: Objbase.h
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib: Ole32.lib
 req.dll: Ole32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ole32.dll
- - API-MS-Win-Core-Com-l1-1-0.dll
- - ComBase.dll
- - API-MS-Win-Core-Com-l1-1-1.dll
- - API-MS-Win-DownLevel-Ole32-l1-1-1.dll
+- Ole32.dll
+- API-MS-Win-Core-Com-l1-1-0.dll
+- ComBase.dll
+- API-MS-Win-Core-Com-l1-1-1.dll
+- API-MS-Win-DownLevel-Ole32-l1-1-1.dll
 api_name:
- - CoInvalidateRemoteMachineBindings
+- CoInvalidateRemoteMachineBindings
 targetos: Windows
 req.typenames: 
 req.redist: 

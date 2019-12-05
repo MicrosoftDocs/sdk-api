@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IDvdControl.ParentalCountrySelect
 title: IDvdControl::ParentalCountrySelect (strmif.h)
-
 description: Note  The IDvdControl interface is deprecated. Use IDvdControl2 instread. Sets the current country/region for controlling parental access levels.
 old-location: dshow\idvdcontrol_parentalcountryselect.htm
 tech.root: DirectShow
 ms.assetid: fc79ad9b-4044-4a33-83b4-f3033283058a
-
 ms.date: 12/05/2018
 ms.keywords: IDvdControl interface [DirectShow],ParentalCountrySelect method, IDvdControl.ParentalCountrySelect, IDvdControl::ParentalCountrySelect, IDvdControlParentalCountrySelect, ParentalCountrySelect, ParentalCountrySelect method [DirectShow], ParentalCountrySelect method [DirectShow],IDvdControl interface, dshow.idvdcontrol_parentalcountryselect, strmif/IDvdControl::ParentalCountrySelect
 ms.topic: method
-f1_keywords: 
- - "strmif/IDvdControl.ParentalCountrySelect"
+f1_keywords:
+- strmif/IDvdControl.ParentalCountrySelect
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmif.h
+- Strmif.h
 api_name:
- - IDvdControl.ParentalCountrySelect
+- IDvdControl.ParentalCountrySelect
 targetos: Windows
 req.typenames: 
 req.redist: 

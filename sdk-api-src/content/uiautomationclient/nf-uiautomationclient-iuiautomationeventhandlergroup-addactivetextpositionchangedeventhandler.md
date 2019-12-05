@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationEventHandlerGroup.AddActiveTextPositionChangedEventHandler
 title: IUIAutomationEventHandlerGroup::AddActiveTextPositionChangedEventHandler (uiautomationclient.h)
-
 description: Registers a method (in an event handler group) that handles when the active text position changes.
 old-location: winauto\uiauto_IUIAutomationEventHandlerGroup_AddActiveTextPositionChangedEventHandler.htm
 tech.root: WinAuto
 ms.assetid: D3A09F61-5536-409E-BFA2-63D6E4A774A2
-
 ms.date: 12/05/2018
 ms.keywords: AddActiveTextPositionChangedEventHandler, AddActiveTextPositionChangedEventHandler method [Windows Accessibility], AddActiveTextPositionChangedEventHandler method [Windows Accessibility],IUIAutomationEventHandlerGroup interface, IUIAutomationEventHandlerGroup interface [Windows Accessibility],AddActiveTextPositionChangedEventHandler method, IUIAutomationEventHandlerGroup.AddActiveTextPositionChangedEventHandler, IUIAutomationEventHandlerGroup::AddActiveTextPositionChangedEventHandler, uiautomationclient/IUIAutomationEventHandlerGroup::AddActiveTextPositionChangedEventHandler, winauto.uiauto_IUIAutomationEventHandlerGroup_AddActiveTextPositionChangedEventHandler
 ms.topic: method
-f1_keywords: 
- - "uiautomationclient/IUIAutomationEventHandlerGroup.AddActiveTextPositionChangedEventHandler"
+f1_keywords:
+- uiautomationclient/IUIAutomationEventHandlerGroup.AddActiveTextPositionChangedEventHandler
 dev_langs:
- - c++
+- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationClient.h
+- UIAutomationClient.h
 api_name:
- - IUIAutomationEventHandlerGroup.AddActiveTextPositionChangedEventHandler
+- IUIAutomationEventHandlerGroup.AddActiveTextPositionChangedEventHandler
 targetos: Windows
 req.typenames: 
 req.redist: 

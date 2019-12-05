@@ -1,19 +1,17 @@
 ---
 UID: NF:winuser.CreateDialogIndirectA
 title: CreateDialogIndirectA macro (winuser.h)
-
 description: Creates a modeless dialog box from a dialog box template in memory. The CreateDialogIndirect macro uses the CreateDialogIndirectParam function.
 old-location: dlgbox\createdialogindirect.htm
 tech.root: dlgbox
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\dialogboxes\dialogboxreference\dialogboxfunctions\createdialogindirect.htm
-
 ms.date: 12/05/2018
 ms.keywords: CreateDialogIndirect, CreateDialogIndirect function [Dialog Boxes], CreateDialogIndirectA, CreateDialogIndirectW, _win32_CreateDialogIndirect, _win32_createdialogindirect_cpp, dlgbox.createdialogindirect, winui._win32_createdialogindirect, winuser/CreateDialogIndirect, winuser/CreateDialogIndirectA, winuser/CreateDialogIndirectW
 ms.topic: macro
-f1_keywords: 
- - "winuser/CreateDialogIndirect"
+f1_keywords:
+- winuser/CreateDialogIndirect
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - User32.dll
+- User32.dll
 api_name:
- - CreateDialogIndirect
- - CreateDialogIndirectA
- - CreateDialogIndirectW
+- CreateDialogIndirect
+- CreateDialogIndirectA
+- CreateDialogIndirectW
 targetos: Windows
 req.typenames: 
 req.redist: 

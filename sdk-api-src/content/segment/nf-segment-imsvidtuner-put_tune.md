@@ -1,19 +1,17 @@
 ---
 UID: NF:segment.IMSVidTuner.put_Tune
 title: IMSVidTuner::put_Tune (segment.h)
-
 description: The put_Tune method specifies the tune request.
 old-location: mstv\imsvidtuner_put_tune.htm
 tech.root: mstv
 ms.assetid: 31139b6f-aad9-495b-9e8c-39026c8e81a9
-
 ms.date: 12/05/2018
 ms.keywords: IMSVidTuner interface [Microsoft TV Technologies],put_Tune method, IMSVidTuner.put_Tune, IMSVidTuner::put_Tune, IMSVidTunerput_Tune, mstv.imsvidtuner_put_tune, put_Tune, put_Tune method [Microsoft TV Technologies], put_Tune method [Microsoft TV Technologies],IMSVidTuner interface, segment/IMSVidTuner::put_Tune
 ms.topic: method
-f1_keywords: 
- - "segment/IMSVidTuner.put_Tune"
+f1_keywords:
+- segment/IMSVidTuner.put_Tune
 dev_langs:
- - c++
+- c++
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - segment.h
+- segment.h
 api_name:
- - IMSVidTuner.put_Tune
+- IMSVidTuner.put_Tune
 targetos: Windows
 req.typenames: 
 req.redist: 

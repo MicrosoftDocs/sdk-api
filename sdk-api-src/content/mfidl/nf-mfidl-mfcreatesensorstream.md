@@ -1,19 +1,17 @@
 ---
 UID: NF:mfidl.MFCreateSensorStream
 title: MFCreateSensorStream function (mfidl.h)
-
 description: Creates an instance of the IMFSensorStream interface.
 old-location: mf\mfcreatesensorstream.htm
 tech.root: medfound
 ms.assetid: 3C260634-E722-4F1D-800C-FB32308CF605
-
 ms.date: 12/05/2018
 ms.keywords: MFCreateSensorStream, MFCreateSensorStream function [Media Foundation], mf.mfcreatesensorstream, mfidl/MFCreateSensorStream
 ms.topic: function
-f1_keywords: 
- - "mfidl/MFCreateSensorStream"
+f1_keywords:
+- mfidl/MFCreateSensorStream
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - mfidl.h
+- mfidl.h
 api_name:
- - MFCreateSensorStream
+- MFCreateSensorStream
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:d2d1svg.ID2D1SvgPathData.GetSegmentData
 title: ID2D1SvgPathData::GetSegmentData (d2d1svg.h)
-
 description: Gets data from the segment data array.
 old-location: direct2d\id2d1svgpathdata_getsegmentdata.htm
 tech.root: Direct2D
 ms.assetid: D935BCEB-D7B8-4245-AD1C-25BAE63F8944
-
 ms.date: 12/05/2018
 ms.keywords: GetSegmentData, GetSegmentData method [Direct2D], GetSegmentData method [Direct2D],ID2D1SvgPathData interface, ID2D1SvgPathData interface [Direct2D],GetSegmentData method, ID2D1SvgPathData.GetSegmentData, ID2D1SvgPathData::GetSegmentData, d2d1svg/ID2D1SvgPathData::GetSegmentData, direct2d.id2d1svgpathdata_getsegmentdata
 ms.topic: method
-f1_keywords: 
- - "d2d1svg/ID2D1SvgPathData.GetSegmentData"
+f1_keywords:
+- d2d1svg/ID2D1SvgPathData.GetSegmentData
 dev_langs:
- - c++
+- c++
 req.header: d2d1svg.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Direct2d.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - direct2d.dll
+- direct2d.dll
 api_name:
- - ID2D1SvgPathData.GetSegmentData
+- ID2D1SvgPathData.GetSegmentData
 targetos: Windows
 req.typenames: 
 req.redist: 

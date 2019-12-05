@@ -1,19 +1,17 @@
 ---
 UID: NF:webservices.WsWriteEndStartElement
 title: WsWriteEndStartElement function (webservices.h)
-
 description: Forces the writer to commit the current element and prevent further attributes from being written to the element.
 old-location: wsw\wswriteendstartelement.htm
 tech.root: wsw
 ms.assetid: 56bf55f8-978c-4f03-9ace-f992530927c2
-
 ms.date: 12/05/2018
 ms.keywords: WsWriteEndStartElement, WsWriteEndStartElement function [Web Services for Windows], webservices/WsWriteEndStartElement, wsw.wswriteendstartelement
 ms.topic: function
-f1_keywords: 
- - "webservices/WsWriteEndStartElement"
+f1_keywords:
+- webservices/WsWriteEndStartElement
 dev_langs:
- - c++
+- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: WebServices.lib
 req.dll: WebServices.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - WebServices.dll
+- WebServices.dll
 api_name:
- - WsWriteEndStartElement
+- WsWriteEndStartElement
 targetos: Windows
 req.typenames: 
 req.redist: 

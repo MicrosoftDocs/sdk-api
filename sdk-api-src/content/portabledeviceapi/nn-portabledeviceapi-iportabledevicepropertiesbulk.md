@@ -1,19 +1,17 @@
 ---
 UID: NN:portabledeviceapi.IPortableDevicePropertiesBulk
 title: IPortableDevicePropertiesBulk (portabledeviceapi.h)
-
 description: The IPortableDevicePropertiesBulk interface queries or sets multiple properties on multiple objects on a device, asynchronously.
 old-location: wpdsdk\iportabledevicepropertiesbulk.htm
 tech.root: wpd_sdk
 ms.assetid: 57cda40a-8573-4b6c-981e-770f35186038
-
 ms.date: 12/05/2018
 ms.keywords: IPortableDevicePropertiesBulk, IPortableDevicePropertiesBulk interface [Windows Portable Devices SDK], IPortableDevicePropertiesBulk interface [Windows Portable Devices SDK],described, IPortableDevicePropertiesBulkInterface, portabledeviceapi/IPortableDevicePropertiesBulk, wpdsdk.iportabledevicepropertiesbulk
 ms.topic: interface
-f1_keywords: 
- - "portabledeviceapi/IPortableDevicePropertiesBulk"
+f1_keywords:
+- portabledeviceapi/IPortableDevicePropertiesBulk
 dev_langs:
- - c++
+- c++
 req.header: portabledeviceapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: PortableDeviceGUIDs.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - PortableDeviceGUIDs.lib
- - PortableDeviceGUIDs.dll
+- PortableDeviceGUIDs.lib
+- PortableDeviceGUIDs.dll
 api_name:
- - IPortableDevicePropertiesBulk
+- IPortableDevicePropertiesBulk
 targetos: Windows
 req.typenames: 
 req.redist: 

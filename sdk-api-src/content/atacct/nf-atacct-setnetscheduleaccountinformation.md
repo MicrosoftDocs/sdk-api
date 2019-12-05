@@ -1,19 +1,17 @@
 ---
 UID: NF:atacct.SetNetScheduleAccountInformation
 title: SetNetScheduleAccountInformation function (atacct.h)
-
 description: The SetNetScheduleAccountInformation function sets the AT Service account name and password. The AT Service account name and password are used as the credentials for scheduled jobs created with NetScheduleJobAdd.
 old-location: netmgmt\setnetscheduleaccountinformation.htm
 tech.root: NetMgmt
 ms.assetid: e45cc3d6-f0dd-4c24-967e-4db08078d15e
-
 ms.date: 12/05/2018
 ms.keywords: SetNetScheduleAccountInformation, SetNetScheduleAccountInformation function [Network Management], atacct/SetNetScheduleAccountInformation, netmgmt.setnetscheduleaccountinformation
 ms.topic: function
-f1_keywords: 
- - "atacct/SetNetScheduleAccountInformation"
+f1_keywords:
+- atacct/SetNetScheduleAccountInformation
 dev_langs:
- - c++
+- c++
 req.header: atacct.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Mstask.lib
 req.dll: Mstask.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Mstask.dll
+- Mstask.dll
 api_name:
- - SetNetScheduleAccountInformation
+- SetNetScheduleAccountInformation
 targetos: Windows
 req.typenames: 
 req.redist: 

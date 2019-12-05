@@ -1,19 +1,17 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMPage.GetDictionaryLocal
 title: IXpsOMPage::GetDictionaryLocal (xpsobjectmodel.h)
-
 description: Gets a pointer to the IXpsOMDictionary interface of the local, unshared dictionary that is associated with this page.
 old-location: xps\ixpsompage_getdictionarylocal.htm
 tech.root: printdocs
 ms.assetid: 1eece7d5-2f2d-4fae-a2f4-8e52236f57c4
-
 ms.date: 12/05/2018
 ms.keywords: GetDictionaryLocal, GetDictionaryLocal method [XPS Documents and Packaging], GetDictionaryLocal method [XPS Documents and Packaging],IXpsOMPage interface, IXpsOMPage interface [XPS Documents and Packaging],GetDictionaryLocal method, IXpsOMPage.GetDictionaryLocal, IXpsOMPage::GetDictionaryLocal, xps.ixpsompage_getdictionarylocal, xpsobjectmodel/IXpsOMPage::GetDictionaryLocal
 ms.topic: method
-f1_keywords: 
- - "xpsobjectmodel/IXpsOMPage.GetDictionaryLocal"
+f1_keywords:
+- xpsobjectmodel/IXpsOMPage.GetDictionaryLocal
 dev_langs:
- - c++
+- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsobjectmodel.h
+- xpsobjectmodel.h
 api_name:
- - IXpsOMPage.GetDictionaryLocal
+- IXpsOMPage.GetDictionaryLocal
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:iscsidsc.ReportActiveIScsiTargetMappingsW
 title: ReportActiveIScsiTargetMappingsW function (iscsidsc.h)
-
 description: ReportActiveIscsiTargetMappings function retrieves the target mappings that are currently active for all initiators on the computer.
 old-location: iscsidisc\reportactiveiscsitargetmappings.htm
 tech.root: iSCSIDisc
 ms.assetid: 24de0e43-ba16-4598-92c5-ea17da17e030
-
 ms.date: 12/05/2018
 ms.keywords: ReportActiveIScsiTargetMappingsW, ReportActiveIscsiTargetMappings, ReportActiveIscsiTargetMappings function [iSCSI Discovery Library API], ReportActiveIscsiTargetMappingsA, ReportActiveIscsiTargetMappingsW, iscsidisc.reportactiveiscsitargetmappings, iscsidsc/ReportActiveIscsiTargetMappings, iscsidsc/ReportActiveIscsiTargetMappingsA, iscsidsc/ReportActiveIscsiTargetMappingsW
 ms.topic: function
-f1_keywords: 
- - "iscsidsc/ReportActiveIscsiTargetMappings"
+f1_keywords:
+- iscsidsc/ReportActiveIscsiTargetMappings
 dev_langs:
- - c++
+- c++
 req.header: iscsidsc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Iscsidsc.lib
 req.dll: Iscsidsc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Iscsidsc.dll
+- Iscsidsc.dll
 api_name:
- - ReportActiveIscsiTargetMappings
- - ReportActiveIscsiTargetMappingsA
- - ReportActiveIscsiTargetMappingsW
+- ReportActiveIscsiTargetMappings
+- ReportActiveIscsiTargetMappingsA
+- ReportActiveIscsiTargetMappingsW
 targetos: Windows
 req.typenames: 
 req.redist: 

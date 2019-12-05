@@ -1,19 +1,17 @@
 ---
 UID: NF:mfidl.IMFTrackedSample.SetAllocator
 title: IMFTrackedSample::SetAllocator (mfidl.h)
-
 description: Sets the owner for the sample.
 old-location: mf\imftrackedsample_setallocator.htm
 tech.root: medfound
 ms.assetid: eb9ffeb3-60af-4cef-bbbc-f4be53d48df0
-
 ms.date: 12/05/2018
 ms.keywords: IMFTrackedSample interface [Media Foundation],SetAllocator method, IMFTrackedSample.SetAllocator, IMFTrackedSample::SetAllocator, SetAllocator, SetAllocator method [Media Foundation], SetAllocator method [Media Foundation],IMFTrackedSample interface, eb9ffeb3-60af-4cef-bbbc-f4be53d48df0, mf.imftrackedsample_setallocator, mfidl/IMFTrackedSample::SetAllocator
 ms.topic: method
-f1_keywords: 
- - "mfidl/IMFTrackedSample.SetAllocator"
+f1_keywords:
+- mfidl/IMFTrackedSample.SetAllocator
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - strmiids.lib
- - strmiids.dll
+- strmiids.lib
+- strmiids.dll
 api_name:
- - IMFTrackedSample.SetAllocator
+- IMFTrackedSample.SetAllocator
 targetos: Windows
 req.typenames: 
 req.redist: 

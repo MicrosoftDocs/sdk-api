@@ -1,19 +1,17 @@
 ---
 UID: NF:directxpackedvector.XMUSHORTN2.XMUSHORTN2(const uint16_t)
 title: XMUSHORTN2::XMUSHORTN2(const uint16_t) (directxpackedvector.h)
-
 description: Initializes a new instance of XMUSHORTN2 from a two element uint16_t array argument.
 old-location: 
 tech.root: dxmath
 ms.assetid: 15aeb82d-2262-4727-b591-47f9435bf6fd
-
 ms.date: 05/06/2019
 ms.keywords: XMUSHORTN2, XMUSHORTN2 constructor [DirectX Math Support APIs], XMUSHORTN2 constructor [DirectX Math Support APIs],XMUSHORTN2 structure, XMUSHORTN2 structure [DirectX Math Support APIs],XMUSHORTN2 constructor, XMUSHORTN2.XMUSHORTN2, XMUSHORTN2.XMUSHORTN2(), XMUSHORTN2.XMUSHORTN2(const uint16_t), XMUSHORTN2::XMUSHORTN2, XMUSHORTN2::XMUSHORTN2(const uint16_t), dxmath.xmushortn2_ctor_1
 ms.topic: method
-f1_keywords: 
- - "directxpackedvector/XMUSHORTN2.XMUSHORTN2"
+f1_keywords:
+- directxpackedvector/XMUSHORTN2.XMUSHORTN2
 dev_langs:
- - c++
+- c++
 req.header: directxpackedvector.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - DirectXPackedVector.h
+- DirectXPackedVector.h
 api_name:
- - XMUSHORTN2.XMUSHORTN2
+- XMUSHORTN2.XMUSHORTN2
 targetos: Windows
 req.typenames: 
 req.redist: 

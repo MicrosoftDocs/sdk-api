@@ -1,19 +1,17 @@
 ---
 UID: NS:scesvc._SCESVC_ANALYSIS_LINE_
 title: SCESVC_ANALYSIS_LINE (scesvc.h)
-
 description: The SCESVC_ANALYSIS_LINE structure contains the key, value, and value length for a specific line specified by an SCESVC_ANALYSIS_INFO structure.
 old-location: security\scesvc_analysis_line.htm
 tech.root: SecMgmt
 ms.assetid: 91fa0f25-30e1-4af3-ad22-f16dc4692b0b
-
 ms.date: 12/05/2018
-ms.keywords: "*PSCESVC_ANALYSIS_LINE, PSCESVC_ANALYSIS_LINE, PSCESVC_ANALYSIS_LINE structure pointer [Security], SCESVC_ANALYSIS_LINE, SCESVC_ANALYSIS_LINE structure [Security], _config_scesvc_analysis_line, scesvc/PSCESVC_ANALYSIS_LINE, scesvc/SCESVC_ANALYSIS_LINE, security.scesvc_analysis_line"
+ms.keywords: '*PSCESVC_ANALYSIS_LINE, PSCESVC_ANALYSIS_LINE, PSCESVC_ANALYSIS_LINE structure pointer [Security], SCESVC_ANALYSIS_LINE, SCESVC_ANALYSIS_LINE structure [Security], _config_scesvc_analysis_line, scesvc/PSCESVC_ANALYSIS_LINE, scesvc/SCESVC_ANALYSIS_LINE, security.scesvc_analysis_line'
 ms.topic: struct
-f1_keywords: 
- - "scesvc/SCESVC_ANALYSIS_LINE"
+f1_keywords:
+- scesvc/SCESVC_ANALYSIS_LINE
 dev_langs:
- - c++
+- c++
 req.header: scesvc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Scesvc.h
+- Scesvc.h
 api_name:
- - SCESVC_ANALYSIS_LINE
+- SCESVC_ANALYSIS_LINE
 targetos: Windows
 req.typenames: SCESVC_ANALYSIS_LINE, *PSCESVC_ANALYSIS_LINE
 req.redist: 

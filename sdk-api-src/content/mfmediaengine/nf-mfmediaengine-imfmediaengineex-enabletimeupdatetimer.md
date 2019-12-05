@@ -1,19 +1,17 @@
 ---
 UID: NF:mfmediaengine.IMFMediaEngineEx.EnableTimeUpdateTimer
 title: IMFMediaEngineEx::EnableTimeUpdateTimer (mfmediaengine.h)
-
 description: Enables or disables the time update timer.
 old-location: mf\imfmediaengineex_enabletimeupdatetimer.htm
 tech.root: medfound
 ms.assetid: 07128937-bb90-4ed5-85ef-e58c8a273d39
-
 ms.date: 12/05/2018
 ms.keywords: EnableTimeUpdateTimer, EnableTimeUpdateTimer method [Media Foundation], EnableTimeUpdateTimer method [Media Foundation],IMFMediaEngineEx interface, IMFMediaEngineEx interface [Media Foundation],EnableTimeUpdateTimer method, IMFMediaEngineEx.EnableTimeUpdateTimer, IMFMediaEngineEx::EnableTimeUpdateTimer, mf.imfmediaengineex_enabletimeupdatetimer, mfmediaengine/IMFMediaEngineEx::EnableTimeUpdateTimer
 ms.topic: method
-f1_keywords: 
- - "mfmediaengine/IMFMediaEngineEx.EnableTimeUpdateTimer"
+f1_keywords:
+- mfmediaengine/IMFMediaEngineEx.EnableTimeUpdateTimer
 dev_langs:
- - c++
+- c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfmediaengine.h
+- mfmediaengine.h
 api_name:
- - IMFMediaEngineEx.EnableTimeUpdateTimer
+- IMFMediaEngineEx.EnableTimeUpdateTimer
 targetos: Windows
 req.typenames: 
 req.redist: 

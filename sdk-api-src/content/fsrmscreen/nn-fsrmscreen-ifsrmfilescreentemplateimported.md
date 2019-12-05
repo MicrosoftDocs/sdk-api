@@ -1,19 +1,17 @@
 ---
 UID: NN:fsrmscreen.IFsrmFileScreenTemplateImported
 title: IFsrmFileScreenTemplateImported (fsrmscreen.h)
-
 description: Used to save imported file screen templates.
 old-location: fsrm\ifsrmfilescreentemplateimported.htm
 tech.root: fsrm
 ms.assetid: 9e3c3d05-298d-4373-abd2-21de9770e85c
-
 ms.date: 12/05/2018
 ms.keywords: IFsrmFileScreenTemplateImported, IFsrmFileScreenTemplateImported interface [File Server Resource Manager], IFsrmFileScreenTemplateImported interface [File Server Resource Manager],described, fs.ifsrmfilescreentemplateimported, fsrm.ifsrmfilescreentemplateimported, fsrm/IFsrmFileScreenTemplateImported
 ms.topic: interface
-f1_keywords: 
- - "fsrmscreen/IFsrmFileScreenTemplateImported"
+f1_keywords:
+- fsrmscreen/IFsrmFileScreenTemplateImported
 dev_langs:
- - c++
+- c++
 req.header: fsrmscreen.h
 req.include-header: FsrmPipeline.h, FsrmQuota.h, FsrmReports.h, FsrmScreen.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: SrmSvc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - SrmSvc.dll
+- SrmSvc.dll
 api_name:
- - IFsrmFileScreenTemplateImported
+- IFsrmFileScreenTemplateImported
 targetos: Windows
 req.typenames: 
 req.redist: 

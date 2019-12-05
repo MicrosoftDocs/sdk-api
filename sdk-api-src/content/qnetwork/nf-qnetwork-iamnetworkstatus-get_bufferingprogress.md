@@ -1,19 +1,17 @@
 ---
 UID: NF:qnetwork.IAMNetworkStatus.get_BufferingProgress
 title: IAMNetworkStatus::get_BufferingProgress (qnetwork.h)
-
 description: The get_BufferingProgress method retrieves a value indicating the buffering progress.
 old-location: dshow\iamnetworkstatus_get_bufferingprogress.htm
 tech.root: DirectShow
 ms.assetid: 76276bdc-1f19-4fb9-8ae9-1edeb5639741
-
 ms.date: 12/05/2018
 ms.keywords: IAMNetworkStatus interface [DirectShow],get_BufferingProgress method, IAMNetworkStatus.get_BufferingProgress, IAMNetworkStatus::get_BufferingProgress, IAMNetworkStatusget_BufferingProgress, dshow.iamnetworkstatus_get_bufferingprogress, get_BufferingProgress, get_BufferingProgress method [DirectShow], get_BufferingProgress method [DirectShow],IAMNetworkStatus interface, qnetwork/IAMNetworkStatus::get_BufferingProgress
 ms.topic: method
-f1_keywords: 
- - "qnetwork/IAMNetworkStatus.get_BufferingProgress"
+f1_keywords:
+- qnetwork/IAMNetworkStatus.get_BufferingProgress
 dev_langs:
- - c++
+- c++
 req.header: qnetwork.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Qnetwork.h
+- Qnetwork.h
 api_name:
- - IAMNetworkStatus.get_BufferingProgress
+- IAMNetworkStatus.get_BufferingProgress
 targetos: Windows
 req.typenames: 
 req.redist: 

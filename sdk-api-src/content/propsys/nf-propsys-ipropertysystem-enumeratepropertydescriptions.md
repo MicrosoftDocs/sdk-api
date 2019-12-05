@@ -1,19 +1,17 @@
 ---
 UID: NF:propsys.IPropertySystem.EnumeratePropertyDescriptions
 title: IPropertySystem::EnumeratePropertyDescriptions (propsys.h)
-
 description: Gets an instance of the subsystem object that implements IPropertyDescriptionList, to obtain either the entire or a partial list of property descriptions in the system.
 old-location: properties\IPropertySystem_EnumeratePropertyDescriptions.htm
 tech.root: properties
 ms.assetid: eb87e6b6-2a48-497a-8a42-9c929a742502
-
 ms.date: 12/05/2018
 ms.keywords: EnumeratePropertyDescriptions, EnumeratePropertyDescriptions method [Windows Properties], EnumeratePropertyDescriptions method [Windows Properties],IPropertySystem interface, IPropertySystem interface [Windows Properties],EnumeratePropertyDescriptions method, IPropertySystem.EnumeratePropertyDescriptions, IPropertySystem::EnumeratePropertyDescriptions, properties.IPropertySystem_EnumeratePropertyDescriptions, propsys/IPropertySystem::EnumeratePropertyDescriptions, shell.IPropertySystem_EnumeratePropertyDescriptions, shell_IPropertySystem_EnumeratePropertyDescriptions
 ms.topic: method
-f1_keywords: 
- - "propsys/IPropertySystem.EnumeratePropertyDescriptions"
+f1_keywords:
+- propsys/IPropertySystem.EnumeratePropertyDescriptions
 dev_langs:
- - c++
+- c++
 req.header: propsys.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Propsys.dll (version 5.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Propsys.dll
+- Propsys.dll
 api_name:
- - IPropertySystem.EnumeratePropertyDescriptions
+- IPropertySystem.EnumeratePropertyDescriptions
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0

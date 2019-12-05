@@ -1,19 +1,17 @@
 ---
 UID: NF:atscpsipparser.IATSC_ETT.GetExtendedMessageText
 title: IATSC_ETT::GetExtendedMessageText (atscpsipparser.h)
-
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\iatsc_ett_getextendedmessagetext.htm
 tech.root: mstv
 ms.assetid: 4e1b5f65-4662-41aa-8a11-cce6a2debb9e
-
 ms.date: 12/05/2018
 ms.keywords: GetExtendedMessageText, GetExtendedMessageText method [Microsoft TV Technologies], GetExtendedMessageText method [Microsoft TV Technologies],IATSC_ETT interface, IATSC_ETT interface [Microsoft TV Technologies],GetExtendedMessageText method, IATSC_ETT.GetExtendedMessageText, IATSC_ETT::GetExtendedMessageText, IATSC_ETTGetExtendedMessageText, atscpsipparser/IATSC_ETT::GetExtendedMessageText, mstv.iatsc_ett_getextendedmessagetext
 ms.topic: method
-f1_keywords: 
- - "atscpsipparser/IATSC_ETT.GetExtendedMessageText"
+f1_keywords:
+- atscpsipparser/IATSC_ETT.GetExtendedMessageText
 dev_langs:
- - c++
+- c++
 req.header: atscpsipparser.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - atscpsipparser.h
+- atscpsipparser.h
 api_name:
- - IATSC_ETT.GetExtendedMessageText
+- IATSC_ETT.GetExtendedMessageText
 targetos: Windows
 req.typenames: 
 req.redist: 

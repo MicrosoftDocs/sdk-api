@@ -1,19 +1,17 @@
 ---
 UID: NS:xamlom.CollectionElementValue
 title: CollectionElementValue (xamlom.h)
-
 description: Represents an element in a collection.
 old-location: xaml_diagnostics\collectionelementvalue.htm
 tech.root: xaml_diagnostics
 ms.assetid: 0FE09913-7EAF-4335-AF41-F83FEBCAF12E
-
 ms.date: 12/05/2018
 ms.keywords: CollectionElementValue, CollectionElementValue structure, PCollectionElementValue, PCollectionElementValue structure pointer, xaml_diagnostics.collectionelementvalue, xamlom/CollectionElementValue, xamlom/PCollectionElementValue
 ms.topic: struct
-f1_keywords: 
- - "xamlom/CollectionElementValue"
+f1_keywords:
+- xamlom/CollectionElementValue
 dev_langs:
- - c++
+- c++
 req.header: xamlom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - xamlom.h
+- xamlom.h
 api_name:
- - CollectionElementValue
+- CollectionElementValue
 targetos: Windows
 req.typenames: CollectionElementValue
 req.redist: 

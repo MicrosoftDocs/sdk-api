@@ -1,19 +1,17 @@
 ---
 UID: NF:comsvcs.ISharedPropertyGroup.get_Property
 title: ISharedPropertyGroup::get_Property (comsvcs.h)
-
 description: Retrieves a reference to an existing shared property with the specified name.
 old-location: cos\isharedpropertygroup_get_property.htm
 tech.root: cossdk
 ms.assetid: ffbd82a8-35d5-4c9b-bf03-91f48dddc189
-
 ms.date: 12/05/2018
 ms.keywords: ISharedPropertyGroup interface [COM+],get_Property method, ISharedPropertyGroup.get_Property, ISharedPropertyGroup::get_Property, _cos_ISharedPropertyGroup_get_Property, comsvcs/ISharedPropertyGroup::get_Property, cos.isharedpropertygroup_get_property, get_Property, get_Property method [COM+], get_Property method [COM+],ISharedPropertyGroup interface
 ms.topic: method
-f1_keywords: 
- - "comsvcs/ISharedPropertyGroup.get_Property"
+f1_keywords:
+- comsvcs/ISharedPropertyGroup.get_Property
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - ISharedPropertyGroup.get_Property
+- ISharedPropertyGroup.get_Property
 targetos: Windows
 req.typenames: 
 req.redist: 

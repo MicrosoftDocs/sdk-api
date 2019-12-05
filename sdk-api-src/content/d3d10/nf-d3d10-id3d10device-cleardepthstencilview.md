@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d10.ID3D10Device.ClearDepthStencilView
 title: ID3D10Device::ClearDepthStencilView (d3d10.h)
-
 description: Clears the depth-stencil resource.
 old-location: direct3d10\id3d10device_cleardepthstencilview.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10device_cleardepthstencilview.htm
-
 ms.date: 12/05/2018
 ms.keywords: 35b5c5f1-9875-7367-51bd-ef0f9a3ea798, ClearDepthStencilView, ClearDepthStencilView method [Direct3D 10], ClearDepthStencilView method [Direct3D 10],ID3D10Device interface, ID3D10Device interface [Direct3D 10],ClearDepthStencilView method, ID3D10Device.ClearDepthStencilView, ID3D10Device::ClearDepthStencilView, d3d10/ID3D10Device::ClearDepthStencilView, direct3d10.id3d10device_cleardepthstencilview
 ms.topic: method
-f1_keywords: 
- - "d3d10/ID3D10Device.ClearDepthStencilView"
+f1_keywords:
+- d3d10/ID3D10Device.ClearDepthStencilView
 dev_langs:
- - c++
+- c++
 req.header: d3d10.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: D3D10.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D10.lib
- - D3D10.dll
+- D3D10.lib
+- D3D10.dll
 api_name:
- - ID3D10Device.ClearDepthStencilView
+- ID3D10Device.ClearDepthStencilView
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:dhcpsapi.DhcpV4EnumSubnetReservations
 title: DhcpV4EnumSubnetReservations function (dhcpsapi.h)
-
 description: Enumerates the reservations for a specific DHCP IPv4 subnet.
 old-location: dhcp\dhcpv4enumsubnetreservations.htm
 tech.root: DHCP
 ms.assetid: 6eebc858-7ffe-4bf3-b318-3a5ad16c9827
-
 ms.date: 12/05/2018
 ms.keywords: DhcpV4EnumSubnetReservations, DhcpV4EnumSubnetReservations function [DHCP], dhcp.dhcpv4enumsubnetreservations, dhcpsapi/DhcpV4EnumSubnetReservations
 ms.topic: function
 f1_keywords:
 - dhcpsapi/DhcpV4EnumSubnetReservations
 dev_langs:
- - c++
+- c++
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows

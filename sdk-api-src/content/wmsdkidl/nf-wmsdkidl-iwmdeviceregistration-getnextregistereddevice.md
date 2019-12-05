@@ -1,19 +1,17 @@
 ---
 UID: NF:wmsdkidl.IWMDeviceRegistration.GetNextRegisteredDevice
 title: IWMDeviceRegistration::GetNextRegisteredDevice (wmsdkidl.h)
-
 description: The GetNextRegisteredDevice method enumerates the registered devices of a specified type.
 old-location: wmformat\iwmdeviceregistration_getnextregistereddevice.htm
 tech.root: wmformat
 ms.assetid: 396e60a8-5845-45fa-8393-6f0defbd38bb
-
 ms.date: 12/05/2018
 ms.keywords: GetNextRegisteredDevice, GetNextRegisteredDevice method [windows Media Format], GetNextRegisteredDevice method [windows Media Format],IWMDeviceRegistration interface, IWMDeviceRegistration interface [windows Media Format],GetNextRegisteredDevice method, IWMDeviceRegistration.GetNextRegisteredDevice, IWMDeviceRegistration::GetNextRegisteredDevice, IWMDeviceRegistrationGetNextRegisteredDevice, wmformat.iwmdeviceregistration_getnextregistereddevice, wmsdkidl/IWMDeviceRegistration::GetNextRegisteredDevice
 ms.topic: method
-f1_keywords: 
- - "wmsdkidl/IWMDeviceRegistration.GetNextRegisteredDevice"
+f1_keywords:
+- wmsdkidl/IWMDeviceRegistration.GetNextRegisteredDevice
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: WMStubDRM.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - WMStubDRM.lib
- - WMStubDRM.dll
+- WMStubDRM.lib
+- WMStubDRM.dll
 api_name:
- - IWMDeviceRegistration.GetNextRegisteredDevice
+- IWMDeviceRegistration.GetNextRegisteredDevice
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:sbtsv.ITsSbProvisioning.CreateVirtualMachines
 title: ITsSbProvisioning::CreateVirtualMachines (sbtsv.h)
-
 description: Creates a virtual machine asynchronously.
 old-location: termserv\itssbprovisioning_createvirtualmachines.htm
 tech.root: TermServ
 ms.assetid: 752da6d8-d036-4a39-aed5-c1fd7a11474e
-
 ms.date: 12/05/2018
 ms.keywords: CreateVirtualMachines, CreateVirtualMachines method [Remote Desktop Services], CreateVirtualMachines method [Remote Desktop Services],ITsSbProvisioning interface, ITsSbProvisioning interface [Remote Desktop Services],CreateVirtualMachines method, ITsSbProvisioning.CreateVirtualMachines, ITsSbProvisioning::CreateVirtualMachines, sbtsv/ITsSbProvisioning::CreateVirtualMachines, termserv.itssbprovisioning_createvirtualmachines
 ms.topic: method
-f1_keywords: 
- - "sbtsv/ITsSbProvisioning.CreateVirtualMachines"
+f1_keywords:
+- sbtsv/ITsSbProvisioning.CreateVirtualMachines
 dev_langs:
- - c++
+- c++
 req.header: sbtsv.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - sbtsv.h
+- sbtsv.h
 api_name:
- - ITsSbProvisioning.CreateVirtualMachines
+- ITsSbProvisioning.CreateVirtualMachines
 targetos: Windows
 req.typenames: 
 req.redist: 

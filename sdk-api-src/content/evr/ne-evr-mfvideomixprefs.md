@@ -1,19 +1,17 @@
 ---
 UID: NE:evr._MFVideoMixPrefs
 title: MFVideoMixPrefs (evr.h)
-
 description: Contains flags that are used to configure how the enhanced video renderer (EVR) performs deinterlacing.
 old-location: mf\mfvideomixprefs.htm
 tech.root: medfound
 ms.assetid: 28dcc8b1-684e-4178-9606-118e77d8ff58
-
 ms.date: 12/05/2018
 ms.keywords: MFVideoMixPrefs, MFVideoMixPrefs enumeration [Media Foundation], MFVideoMixPrefs_AllowDropToBob, MFVideoMixPrefs_AllowDropToHalfInterlace, MFVideoMixPrefs_ForceBob, MFVideoMixPrefs_ForceHalfInterlace, MFVideoMixPrefs_Mask, evr/MFVideoMixPrefs, evr/MFVideoMixPrefs_AllowDropToBob, evr/MFVideoMixPrefs_AllowDropToHalfInterlace, evr/MFVideoMixPrefs_ForceBob, evr/MFVideoMixPrefs_ForceHalfInterlace, evr/MFVideoMixPrefs_Mask, mf.mfvideomixprefs
 ms.topic: enum
-f1_keywords: 
- - "evr/MFVideoMixPrefs"
+f1_keywords:
+- evr/MFVideoMixPrefs
 dev_langs:
- - c++
+- c++
 req.header: evr.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - evr.h
+- evr.h
 api_name:
- - MFVideoMixPrefs
+- MFVideoMixPrefs
 targetos: Windows
 req.typenames: MFVideoMixPrefs
 req.redist: 

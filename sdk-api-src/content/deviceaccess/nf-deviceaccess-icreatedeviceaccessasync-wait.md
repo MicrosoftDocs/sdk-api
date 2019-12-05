@@ -1,19 +1,17 @@
 ---
 UID: NF:deviceaccess.ICreateDeviceAccessAsync.Wait
 title: ICreateDeviceAccessAsync::Wait (deviceaccess.h)
-
 description: The Wait method waits a specified length of time for an asynchronous bind operation that is in progress to finish.
 old-location: deviceaccess\icreatedeviceaccessasync_wait.htm
 tech.root: deviceaccess
 ms.assetid: 6fdab230-f8f7-47fa-838f-97316a4e78b9
-
 ms.date: 12/05/2018
 ms.keywords: ICreateDeviceAccessAsync interface [Device Access Broker API],Wait method, ICreateDeviceAccessAsync.Wait, ICreateDeviceAccessAsync::Wait, Wait, Wait method [Device Access Broker API], Wait method [Device Access Broker API],ICreateDeviceAccessAsync interface, deviceaccess.icreatedeviceaccessasync_wait, deviceaccess/ICreateDeviceAccessAsync::Wait
 ms.topic: method
-f1_keywords: 
- - "deviceaccess/ICreateDeviceAccessAsync.Wait"
+f1_keywords:
+- deviceaccess/ICreateDeviceAccessAsync.Wait
 dev_langs:
- - c++
+- c++
 req.header: deviceaccess.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Deviceaccess.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Deviceaccess.lib
- - Deviceaccess.dll
+- Deviceaccess.lib
+- Deviceaccess.dll
 api_name:
- - ICreateDeviceAccessAsync.Wait
+- ICreateDeviceAccessAsync.Wait
 targetos: Windows
 req.typenames: 
 req.redist: 

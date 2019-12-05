@@ -1,19 +1,17 @@
 ---
 UID: NF:wmsdkidl.IWMStreamList.RemoveStream
 title: IWMStreamList::RemoveStream (wmsdkidl.h)
-
 description: The RemoveStream method removes a stream from the list.
 old-location: wmformat\iwmstreamlist_removestream.htm
 tech.root: wmformat
 ms.assetid: 3b69f516-a321-49f1-a299-666143eaf8a5
-
 ms.date: 12/05/2018
 ms.keywords: IWMStreamList interface [windows Media Format],RemoveStream method, IWMStreamList.RemoveStream, IWMStreamList::RemoveStream, IWMStreamListRemoveStream, RemoveStream, RemoveStream method [windows Media Format], RemoveStream method [windows Media Format],IWMStreamList interface, wmformat.iwmstreamlist_removestream, wmsdkidl/IWMStreamList::RemoveStream
 ms.topic: method
-f1_keywords: 
- - "wmsdkidl/IWMStreamList.RemoveStream"
+f1_keywords:
+- wmsdkidl/IWMStreamList.RemoveStream
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wmvcore.lib
- - Wmvcore.dll
- - WMStubDRM.lib
- - WMStubDRM.dll
+- Wmvcore.lib
+- Wmvcore.dll
+- WMStubDRM.lib
+- WMStubDRM.dll
 api_name:
- - IWMStreamList.RemoveStream
+- IWMStreamList.RemoveStream
 targetos: Windows
 req.typenames: 
 req.redist: 

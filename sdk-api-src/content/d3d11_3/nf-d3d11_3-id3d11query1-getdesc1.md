@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d11_3.ID3D11Query1.GetDesc1
 title: ID3D11Query1::GetDesc1 (d3d11_3.h)
-
 description: Gets a query description.
 old-location: direct3d11\id3d11query1_getdesc1.htm
 tech.root: direct3d11
 ms.assetid: 79F8F200-CF4E-4587-A31E-8A67C4418898
-
 ms.date: 12/05/2018
 ms.keywords: GetDesc1, GetDesc1 method [Direct3D 11], GetDesc1 method [Direct3D 11],ID3D11Query1 interface, ID3D11Query1 interface [Direct3D 11],GetDesc1 method, ID3D11Query1.GetDesc1, ID3D11Query1::GetDesc1, d3d11_3/ID3D11Query1::GetDesc1, direct3d11.id3d11query1_getdesc1
 ms.topic: method
-f1_keywords: 
- - "d3d11_3/ID3D11Query1.GetDesc1"
+f1_keywords:
+- d3d11_3/ID3D11Query1.GetDesc1
 dev_langs:
- - c++
+- c++
 req.header: d3d11_3.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: D3D11.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D11.lib
- - D3D11.dll
+- D3D11.lib
+- D3D11.dll
 api_name:
- - ID3D11Query1.GetDesc1
+- ID3D11Query1.GetDesc1
 targetos: Windows
 req.typenames: 
 req.redist: 

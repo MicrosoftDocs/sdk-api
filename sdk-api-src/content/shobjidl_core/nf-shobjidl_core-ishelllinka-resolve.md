@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IShellLinkA.Resolve
 title: IShellLinkA::Resolve (shobjidl_core.h)
-
 description: Attempts to find the target of a Shell link, even if it has been moved or renamed.
 old-location: shell\IShellLink_Resolve.htm
 tech.root: shell
 ms.assetid: a31f1d6d-7b87-4777-89a8-a032b7629b7e
-
 ms.date: 12/05/2018
 ms.keywords: IShellLink interface [Windows Shell],Resolve method, IShellLink::Resolve, IShellLinkA interface [Windows Shell],Resolve method, IShellLinkA.Resolve, IShellLinkA::Resolve, IShellLinkW interface [Windows Shell],Resolve method, IShellLinkW::Resolve, Resolve, Resolve method [Windows Shell], Resolve method [Windows Shell],IShellLink interface, Resolve method [Windows Shell],IShellLinkA interface, Resolve method [Windows Shell],IShellLinkW interface, SLR_ANY_MATCH, SLR_INVOKE_MSI, SLR_KNOWNFOLDER, SLR_MACHINE_IN_LOCAL_TARGET, SLR_NOLINKINFO, SLR_NOSEARCH, SLR_NOTRACK, SLR_NOUPDATE, SLR_NO_UI, SLR_NO_UI_WITH_MSG_PUMP, SLR_OFFER_DELETE_WITHOUT_FILE, SLR_UPDATE, SLR_UPDATE_MACHINE_AND_SID, _win32_IShellLink_Resolve, shell.IShellLink_Resolve, shobjidl_core/IShellLink::Resolve, shobjidl_core/IShellLinkA::Resolve, shobjidl_core/IShellLinkW::Resolve
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IShellLink.Resolve"
+f1_keywords:
+- shobjidl_core/IShellLink.Resolve
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: Shell32.dll (version 4.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - IShellLink.Resolve
- - IShellLinkA.Resolve
- - IShellLinkW.Resolve
+- IShellLink.Resolve
+- IShellLinkA.Resolve
+- IShellLinkW.Resolve
 targetos: Windows
 req.typenames: 
 req.redist: 

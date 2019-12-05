@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IVMRSurface.UnlockSurface
 title: IVMRSurface::UnlockSurface (strmif.h)
-
 description: The UnlockSurface method unlocks the attached DirectDraw surface.
 old-location: dshow\ivmrsurface_unlocksurface.htm
 tech.root: DirectShow
 ms.assetid: f6acaf96-925c-46b9-8d56-11d94f3dbda3
-
 ms.date: 12/05/2018
 ms.keywords: IVMRSurface interface [DirectShow],UnlockSurface method, IVMRSurface.UnlockSurface, IVMRSurface::UnlockSurface, IVMRSurfaceUnlockSurface, UnlockSurface, UnlockSurface method [DirectShow], UnlockSurface method [DirectShow],IVMRSurface interface, dshow.ivmrsurface_unlocksurface, strmif/IVMRSurface::UnlockSurface
 ms.topic: method
-f1_keywords: 
- - "strmif/IVMRSurface.UnlockSurface"
+f1_keywords:
+- strmif/IVMRSurface.UnlockSurface
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IVMRSurface.UnlockSurface
+- IVMRSurface.UnlockSurface
 targetos: Windows
 req.typenames: 
 req.redist: 

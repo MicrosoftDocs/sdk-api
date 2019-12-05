@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IAMTuner.get_CountryCode
 title: IAMTuner::get_CountryCode (strmif.h)
-
 description: The get_CountryCode method retrieves the country/region code that establishes the current channel-to-frequency mapping.
 old-location: dshow\iamtuner_get_countrycode.htm
 tech.root: DirectShow
 ms.assetid: 8b459ad8-c9e0-4b35-aec4-113c8a67d907
-
 ms.date: 12/05/2018
 ms.keywords: IAMTuner interface [DirectShow],get_CountryCode method, IAMTuner.get_CountryCode, IAMTuner::get_CountryCode, IAMTunerget_CountryCode, dshow.iamtuner_get_countrycode, get_CountryCode, get_CountryCode method [DirectShow], get_CountryCode method [DirectShow],IAMTuner interface, strmif/IAMTuner::get_CountryCode
 ms.topic: method
-f1_keywords: 
- - "strmif/IAMTuner.get_CountryCode"
+f1_keywords:
+- strmif/IAMTuner.get_CountryCode
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IAMTuner.get_CountryCode
+- IAMTuner.get_CountryCode
 targetos: Windows
 req.typenames: 
 req.redist: 

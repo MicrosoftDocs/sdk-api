@@ -1,19 +1,17 @@
 ---
 UID: NF:dwrite_3.IDWriteTextLayout3.GetLineSpacing
 title: IDWriteTextLayout3::GetLineSpacing (dwrite_3.h)
-
 description: Gets line spacing information.
 old-location: directwrite\idwritetextlayout3_getlinespacing.htm
 tech.root: DirectWrite
 ms.assetid: 6b93a3ec-c8ea-2e64-45b5-51565d6de173
-
 ms.date: 12/05/2018
 ms.keywords: GetLineSpacing, GetLineSpacing method [Direct Write], GetLineSpacing method [Direct Write],IDWriteTextLayout3 interface, IDWriteTextLayout3 interface [Direct Write],GetLineSpacing method, IDWriteTextLayout3.GetLineSpacing, IDWriteTextLayout3::GetLineSpacing, directwrite.idwritetextlayout3_getlinespacing, dwrite_3/IDWriteTextLayout3::GetLineSpacing
 ms.topic: method
-f1_keywords: 
- - "dwrite_3/IDWriteTextLayout3.GetLineSpacing"
+f1_keywords:
+- dwrite_3/IDWriteTextLayout3.GetLineSpacing
 dev_langs:
- - c++
+- c++
 req.header: dwrite_3.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dwrite.lib
 req.dll: Dwrite.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dwrite.dll
+- dwrite.dll
 api_name:
- - IDWriteTextLayout3.GetLineSpacing
+- IDWriteTextLayout3.GetLineSpacing
 targetos: Windows
 req.typenames: 
 req.redist: 

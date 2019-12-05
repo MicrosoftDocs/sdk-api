@@ -1,19 +1,17 @@
 ---
 UID: NF:winddi.EngQueryPerformanceCounter
 title: EngQueryPerformanceCounter function (winddi.h)
-
 description: The EngQueryPerformanceCounter function queries the performance counter.
 old-location: display\engqueryperformancecounter.htm
 tech.root: display
 ms.assetid: 6f351bd7-586e-4fd0-ad20-779b18eaa4dc
-
 ms.date: 12/05/2018
 ms.keywords: EngQueryPerformanceCounter, EngQueryPerformanceCounter function [Display Devices], display.engqueryperformancecounter, gdifncs_8a5d6431-cd14-42cd-bcd4-2d27342bc08a.xml, winddi/EngQueryPerformanceCounter
 ms.topic: function
-f1_keywords: 
- - "winddi/EngQueryPerformanceCounter"
+f1_keywords:
+- winddi/EngQueryPerformanceCounter
 dev_langs:
- - c++
+- c++
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Universal
@@ -32,14 +30,14 @@ req.lib: Win32k.lib
 req.dll: Win32k.sys
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Win32k.sys
+- Win32k.sys
 api_name:
- - EngQueryPerformanceCounter
+- EngQueryPerformanceCounter
 targetos: Windows
 req.typenames: 
 req.redist: 

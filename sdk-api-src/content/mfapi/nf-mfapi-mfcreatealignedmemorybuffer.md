@@ -1,19 +1,17 @@
 ---
 UID: NF:mfapi.MFCreateAlignedMemoryBuffer
 title: MFCreateAlignedMemoryBuffer function (mfapi.h)
-
 description: Allocates system memory with a specified byte alignment and creates a media buffer to manage the memory.
 old-location: mf\mfcreatealignedmemorybuffer.htm
 tech.root: medfound
 ms.assetid: cccc0dea-3f1e-41e4-97f4-de7760ceccb0
-
 ms.date: 12/05/2018
 ms.keywords: MFCreateAlignedMemoryBuffer, MFCreateAlignedMemoryBuffer function [Media Foundation], MF_128_BYTE_ALIGNMENT, MF_16_BYTE_ALIGNMENT, MF_1_BYTE_ALIGNMENT, MF_256_BYTE_ALIGNMENT, MF_2_BYTE_ALIGNMENT, MF_32_BYTE_ALIGNMENT, MF_4_BYTE_ALIGNMENT, MF_512_BYTE_ALIGNMENT, MF_64_BYTE_ALIGNMENT, MF_8_BYTE_ALIGNMENT, cccc0dea-3f1e-41e4-97f4-de7760ceccb0, mf.mfcreatealignedmemorybuffer, mfapi/MFCreateAlignedMemoryBuffer
 ms.topic: function
-f1_keywords: 
- - "mfapi/MFCreateAlignedMemoryBuffer"
+f1_keywords:
+- mfapi/MFCreateAlignedMemoryBuffer
 dev_langs:
- - c++
+- c++
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Mfplat.lib
 req.dll: Mfplat.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - mfplat.dll
+- mfplat.dll
 api_name:
- - MFCreateAlignedMemoryBuffer
+- MFCreateAlignedMemoryBuffer
 targetos: Windows
 req.typenames: 
 req.redist: 

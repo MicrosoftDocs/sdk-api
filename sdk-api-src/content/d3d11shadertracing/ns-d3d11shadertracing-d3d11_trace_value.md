@@ -1,19 +1,17 @@
 ---
 UID: NS:d3d11shadertracing.D3D11_TRACE_VALUE
 title: D3D11_TRACE_VALUE (d3d11shadertracing.h)
-
 description: Describes a trace value.
 old-location: direct3d11\d3d11_trace_value.htm
 tech.root: direct3d11
 ms.assetid: 15AFA648-DCAC-42A1-9606-6E292E92C217
-
 ms.date: 12/05/2018
 ms.keywords: D3D11_TRACE_VALUE, D3D11_TRACE_VALUE structure [Direct3D 11], d3d11shadertracing/D3D11_TRACE_VALUE, direct3d11.d3d11_trace_value
 ms.topic: struct
-f1_keywords: 
- - "d3d11shadertracing/D3D11_TRACE_VALUE"
+f1_keywords:
+- d3d11shadertracing/D3D11_TRACE_VALUE
 dev_langs:
- - c++
+- c++
 req.header: d3d11shadertracing.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - D3D11ShaderTracing.h
+- D3D11ShaderTracing.h
 api_name:
- - D3D11_TRACE_VALUE
+- D3D11_TRACE_VALUE
 targetos: Windows
 req.typenames: D3D11_TRACE_VALUE
 req.redist: 

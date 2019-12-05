@@ -1,19 +1,17 @@
 ---
 UID: NN:iads.IDirectorySearch
 title: IDirectorySearch (iads.h)
-
 description: The IDirectorySearch interface is a pure COM interface that provides a low overhead method that non-Automation clients can use to perform queries in the underlying directory.
 old-location: adsi\idirectorysearch.htm
 tech.root: adsi
 ms.assetid: e8989795-8f72-476a-a69e-c0e8800289ab
-
 ms.date: 12/05/2018
 ms.keywords: IDirectorySearch, IDirectorySearch interface [ADSI], IDirectorySearch interface [ADSI],described, _ds_idirectorysearch, adsi.idirectorysearch, iads/IDirectorySearch
 ms.topic: interface
-f1_keywords: 
- - "iads/IDirectorySearch"
+f1_keywords:
+- iads/IDirectorySearch
 dev_langs:
- - c++
+- c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: Activeds.dll; Adsldp.dll; Adsldpc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Activeds.dll
- - Adsldp.dll
- - Adsldpc.dll
+- Activeds.dll
+- Adsldp.dll
+- Adsldpc.dll
 api_name:
- - IDirectorySearch
+- IDirectorySearch
 targetos: Windows
 req.typenames: 
 req.redist: 

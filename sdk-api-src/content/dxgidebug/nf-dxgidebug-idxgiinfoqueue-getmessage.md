@@ -1,19 +1,17 @@
 ---
 UID: NF:dxgidebug.IDXGIInfoQueue.GetMessage
 title: IDXGIInfoQueue::GetMessage (dxgidebug.h)
-
 description: Gets a message from the message queue.
 old-location: direct3ddxgi\idxgiinfoqueue_getmessage.htm
 tech.root: direct3ddxgi
 ms.assetid: 208C3253-09AE-4379-808D-BA0BECC59BF8
-
 ms.date: 12/05/2018
 ms.keywords: GetMessage, GetMessage method [DXGI], GetMessage method [DXGI],IDXGIInfoQueue interface, IDXGIInfoQueue interface [DXGI],GetMessage method, IDXGIInfoQueue.GetMessage, IDXGIInfoQueue::GetMessage, direct3ddxgi.idxgiinfoqueue_getmessage, dxgidebug/IDXGIInfoQueue::GetMessage
 ms.topic: method
-f1_keywords: 
- - "dxgidebug/IDXGIInfoQueue.GetMessage"
+f1_keywords:
+- dxgidebug/IDXGIInfoQueue.GetMessage
 dev_langs:
- - c++
+- c++
 req.header: dxgidebug.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: DXGIDebug.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - DXGIDebug.dll
+- DXGIDebug.dll
 api_name:
- - IDXGIInfoQueue.GetMessage
+- IDXGIInfoQueue.GetMessage
 targetos: Windows
 req.typenames: 
 req.redist: 

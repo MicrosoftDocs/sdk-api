@@ -1,19 +1,17 @@
 ---
 UID: NN:directml.IDMLCommandRecorder
 title: IDMLCommandRecorder
-
 description: Records dispatches of DirectML work into a Direct3D 12 command list.
 old-location: direct3d12\idmlcommandrecorder.htm
 tech.root: direct3d12
 ms.assetid: 1DFE0E7A-FD83-47CD-9B1D-F70D8518FA29
-
 ms.date: 12/5/2018
 ms.keywords: IDMLCommandRecorder, IDMLCommandRecorder interface, IDMLCommandRecorder interface,described, direct3d12.idmlcommandrecorder, directml/IDMLCommandRecorder
 ms.topic: interface
-f1_keywords: 
- - "directml/IDMLCommandRecorder"
+f1_keywords:
+- directml/IDMLCommandRecorder
 dev_langs:
- - c++
+- c++
 req.header: directml.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - DirectML.h
+- DirectML.h
 api_name:
- - IDMLCommandRecorder
+- IDMLCommandRecorder
 targetos: Windows
 req.typenames: 
 req.redist: 

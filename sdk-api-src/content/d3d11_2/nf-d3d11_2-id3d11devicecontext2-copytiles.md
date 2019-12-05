@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d11_2.ID3D11DeviceContext2.CopyTiles
 title: ID3D11DeviceContext2::CopyTiles (d3d11_2.h)
-
 description: Copies tiles from buffer to tiled resource or vice versa.
 old-location: direct3d11\id3d11devicecontext2_copytiles.htm
 tech.root: direct3d11
 ms.assetid: C336B0C7-DB99-466C-B689-5D6634EE0B36
-
 ms.date: 12/05/2018
 ms.keywords: CopyTiles, CopyTiles method [Direct3D 11], CopyTiles method [Direct3D 11],ID3D11DeviceContext2 interface, ID3D11DeviceContext2 interface [Direct3D 11],CopyTiles method, ID3D11DeviceContext2.CopyTiles, ID3D11DeviceContext2::CopyTiles, d3d11_2/ID3D11DeviceContext2::CopyTiles, direct3d11.id3d11devicecontext2_copytiles
 ms.topic: method
-f1_keywords: 
- - "d3d11_2/ID3D11DeviceContext2.CopyTiles"
+f1_keywords:
+- d3d11_2/ID3D11DeviceContext2.CopyTiles
 dev_langs:
- - c++
+- c++
 req.header: d3d11_2.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: D3D11.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D11.lib
- - D3D11.dll
+- D3D11.lib
+- D3D11.dll
 api_name:
- - ID3D11DeviceContext2.CopyTiles
+- ID3D11DeviceContext2.CopyTiles
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NN:imapi2.IBurnVerification
 title: IBurnVerification (imapi2.h)
-
 description: Use this interface with IDiscFormat2Data or IDiscFormat2TrackAtOnce to get or set the Burn Verification Level property which dictates how burned media is verified for integrity after the write operation.
 old-location: imapi\iburnverification.htm
 tech.root: imapi
 ms.assetid: 3a410ab8-dfc3-4c30-a198-3888ed750a6d
-
 ms.date: 12/05/2018
 ms.keywords: IBurnVerification, IBurnVerification interface [IMAPI], IBurnVerification interface [IMAPI],described, imapi.iburnverification, imapi2/IBurnVerification
 ms.topic: interface
 f1_keywords:
 - imapi2/IBurnVerification
 dev_langs:
- - c++
+- c++
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows

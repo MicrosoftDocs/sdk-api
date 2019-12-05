@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi3.ITAgent.put_State
 title: ITAgent::put_State (tapi3.h)
-
 description: The put_State method sets the state of an agent session.
 old-location: tapi3\itagent_put_state.htm
 tech.root: Tapi
 ms.assetid: 0f75146c-d8ce-4e9d-91bf-15dbb31b5c88
-
 ms.date: 12/05/2018
 ms.keywords: ITAgent interface [TAPI 2.2],put_State method, ITAgent.put_State, ITAgent::put_State, _tapi3_itagent_put_state, put_State, put_State method [TAPI 2.2], put_State method [TAPI 2.2],ITAgent interface, tapi3.itagent_put_state, tapi3cc/ITAgent::put_State
 ms.topic: method
-f1_keywords: 
- - "tapi3/ITAgent.put_State"
+f1_keywords:
+- tapi3/ITAgent.put_State
 dev_langs:
- - c++
+- c++
 req.header: tapi3.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Tapi3.dll
+- Tapi3.dll
 api_name:
- - ITAgent.put_State
+- ITAgent.put_State
 targetos: Windows
 req.typenames: 
 req.redist: 

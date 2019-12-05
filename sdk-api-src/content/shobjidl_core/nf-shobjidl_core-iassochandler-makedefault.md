@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IAssocHandler.MakeDefault
 title: IAssocHandler::MakeDefault (shobjidl_core.h)
-
 description: Sets an application as the default application for this file type.
 old-location: shell\IAssocHandler_MakeDefault.htm
 tech.root: shell
 ms.assetid: 106ac493-bde6-4327-b3be-3132bfd47415
-
 ms.date: 12/05/2018
 ms.keywords: IAssocHandler interface [Windows Shell],MakeDefault method, IAssocHandler.MakeDefault, IAssocHandler::MakeDefault, MakeDefault, MakeDefault method [Windows Shell], MakeDefault method [Windows Shell],IAssocHandler interface, _shell_IAssocHandler_MakeDefault, shell.IAssocHandler_MakeDefault, shobjidl_core/IAssocHandler::MakeDefault
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IAssocHandler.MakeDefault"
+f1_keywords:
+- shobjidl_core/IAssocHandler.MakeDefault
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - IAssocHandler.MakeDefault
+- IAssocHandler.MakeDefault
 targetos: Windows
 req.typenames: 
 req.redist: 

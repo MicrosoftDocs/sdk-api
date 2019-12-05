@@ -1,19 +1,17 @@
 ---
 UID: NF:taskschd.IEmailAction.get_From
 title: IEmailAction::get_From (taskschd.h)
-
 description: Gets or sets the email address that you want to send the email from.
 old-location: taskschd\iemailaction_from.htm
 tech.root: taskschd
 ms.assetid: a0e85063-73eb-425a-a306-63ac65ab7ec8
-
 ms.date: 12/05/2018
 ms.keywords: From property [Task Scheduler], From property [Task Scheduler],IEmailAction interface, IEmailAction interface [Task Scheduler],From property, IEmailAction.From, IEmailAction.get_From, IEmailAction::From, IEmailAction::get_From, IEmailAction::put_From, get_From, taskschd.iemailaction_from, taskschd/IEmailAction::From, taskschd/IEmailAction::get_From, taskschd/IEmailAction::put_From
 ms.topic: method
-f1_keywords: 
- - "taskschd/IEmailAction.From"
+f1_keywords:
+- taskschd/IEmailAction.From
 dev_langs:
- - c++
+- c++
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Taskschd.lib
 req.dll: Taskschd.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - taskschd.dll
+- taskschd.dll
 api_name:
- - IEmailAction.From
- - IEmailAction.get_From
- - IEmailAction.put_From
+- IEmailAction.From
+- IEmailAction.get_From
+- IEmailAction.put_From
 targetos: Windows
 req.typenames: 
 req.redist: 

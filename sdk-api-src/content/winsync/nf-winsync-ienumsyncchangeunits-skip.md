@@ -1,19 +1,17 @@
 ---
 UID: NF:winsync.IEnumSyncChangeUnits.Skip
 title: IEnumSyncChangeUnits::Skip (winsync.h)
-
 description: This method is not implemented.
 old-location: winsync\ienumsyncchangeunits_skip.htm
 tech.root: winsync
 ms.assetid: d483a4bb-9b9e-4641-bc18-133381dc2a48
-
 ms.date: 12/05/2018
 ms.keywords: IEnumSyncChangeUnits interface [Windows Sync],Skip method, IEnumSyncChangeUnits.Skip, IEnumSyncChangeUnits::Skip, Skip, Skip method [Windows Sync], Skip method [Windows Sync],IEnumSyncChangeUnits interface, winsync.ienumsyncchangeunits_skip, winsync/IEnumSyncChangeUnits::Skip
 ms.topic: method
-f1_keywords: 
- - "winsync/IEnumSyncChangeUnits.Skip"
+f1_keywords:
+- winsync/IEnumSyncChangeUnits.Skip
 dev_langs:
- - c++
+- c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - winsync.h
+- winsync.h
 api_name:
- - IEnumSyncChangeUnits.Skip
+- IEnumSyncChangeUnits.Skip
 targetos: Windows
 req.typenames: 
 req.redist: 

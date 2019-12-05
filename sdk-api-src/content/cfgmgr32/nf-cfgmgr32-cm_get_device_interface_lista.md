@@ -1,19 +1,17 @@
 ---
 UID: NF:cfgmgr32.CM_Get_Device_Interface_ListA
 title: CM_Get_Device_Interface_ListA function (cfgmgr32.h)
-
 description: The CM_Get_Device_Interface_List function retrieves a list of device interface instances that belong to a specified device interface class.
 old-location: devinst\cm_get_device_interface_list.htm
 tech.root: devinst
 ms.assetid: 3f2dfc0f-1bde-40a8-b48c-25b75759e0d8
-
 ms.date: 12/05/2018
 ms.keywords: CM_Get_Device_Interface_List, CM_Get_Device_Interface_List function [Device and Driver Installation], CM_Get_Device_Interface_ListA, CM_Get_Device_Interface_ListW, cfgmgr32/CM_Get_Device_Interface_List, cfgmgr32/CM_Get_Device_Interface_ListA, cfgmgr32/CM_Get_Device_Interface_ListW, cfgmgrfn_8729dc17-f9a0-4ebe-ad56-35c63f9299f0.xml, devinst.cm_get_device_interface_list
 ms.topic: function
-f1_keywords: 
- - "cfgmgr32/CM_Get_Device_Interface_List"
+f1_keywords:
+- cfgmgr32/CM_Get_Device_Interface_List
 dev_langs:
- - c++
+- c++
 req.header: cfgmgr32.h
 req.include-header: Cfgmgr32.h
 req.target-type: Universal
@@ -32,18 +30,18 @@ req.lib: Cfgmgr32.lib
 req.dll: CfgMgr32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - CfgMgr32.dll
- - API-MS-Win-Devices-Config-L1-1-0.dll
- - API-MS-Win-Devices-Config-L1-1-1.dll
+- CfgMgr32.dll
+- API-MS-Win-Devices-Config-L1-1-0.dll
+- API-MS-Win-Devices-Config-L1-1-1.dll
 api_name:
- - CM_Get_Device_Interface_List
- - CM_Get_Device_Interface_ListA
- - CM_Get_Device_Interface_ListW
+- CM_Get_Device_Interface_List
+- CM_Get_Device_Interface_ListA
+- CM_Get_Device_Interface_ListW
 targetos: Windows
 req.typenames: 
 req.redist: 

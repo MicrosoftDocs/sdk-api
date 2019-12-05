@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationElement.get_CachedOrientation
 title: IUIAutomationElement::get_CachedOrientation (uiautomationclient.h)
-
 description: Retrieves a cached value that indicates the orientation of the element.
 old-location: winauto\uiauto_IUIAutomationElement_CachedOrientation.htm
 tech.root: WinAuto
 ms.assetid: 2ae8be5f-fa10-4350-b80e-89bb32baf56c
-
 ms.date: 12/05/2018
 ms.keywords: CachedOrientation property [Windows Accessibility], CachedOrientation property [Windows Accessibility],IUIAutomationElement interface, IUIAutomationElement interface [Windows Accessibility],CachedOrientation property, IUIAutomationElement.CachedOrientation, IUIAutomationElement.get_CachedOrientation, IUIAutomationElement::CachedOrientation, IUIAutomationElement::get_CachedOrientation, get_CachedOrientation, uiauto.uiauto_IUIAutomationElement_CachedOrientation, uiauto_IUIAutomationElement_CachedOrientation, uiautomationclient/IUIAutomationElement::CachedOrientation, uiautomationclient/IUIAutomationElement::get_CachedOrientation, winauto.uiauto_IUIAutomationElement_CachedOrientation
 ms.topic: method
-f1_keywords: 
- - "uiautomationclient/IUIAutomationElement.CachedOrientation"
+f1_keywords:
+- uiautomationclient/IUIAutomationElement.CachedOrientation
 dev_langs:
- - c++
+- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationClient.h
+- UIAutomationClient.h
 api_name:
- - IUIAutomationElement.CachedOrientation
- - IUIAutomationElement.get_CachedOrientation
+- IUIAutomationElement.CachedOrientation
+- IUIAutomationElement.get_CachedOrientation
 targetos: Windows
 req.typenames: 
 req.redist: 

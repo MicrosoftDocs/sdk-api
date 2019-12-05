@@ -1,19 +1,17 @@
 ---
 UID: NE:comadmin.COMAdminTxIsolationLevelOptions
 title: COMAdminTxIsolationLevelOptions (comadmin.h)
-
 description: Indicates the isolation level that is to be used for transactions.
 old-location: cos\comadmintxisolationleveloptions.htm
 tech.root: cossdk
 ms.assetid: 5e407423-b116-48c5-a99c-2551eca379b3
-
 ms.date: 12/05/2018
 ms.keywords: COMAdminTxIsolationLevelAny, COMAdminTxIsolationLevelOptions, COMAdminTxIsolationLevelOptions enumeration [COM+], COMAdminTxIsolationLevelReadCommitted, COMAdminTxIsolationLevelReadUnCommitted, COMAdminTxIsolationLevelRepeatableRead, COMAdminTxIsolationLevelSerializable, _cos_COMAdminTxIsolationLevelOption, comadmin/COMAdminTxIsolationLevelAny, comadmin/COMAdminTxIsolationLevelOptions, comadmin/COMAdminTxIsolationLevelReadCommitted, comadmin/COMAdminTxIsolationLevelReadUnCommitted, comadmin/COMAdminTxIsolationLevelRepeatableRead, comadmin/COMAdminTxIsolationLevelSerializable, cos.comadmintxisolationleveloptions
 ms.topic: enum
-f1_keywords: 
- - "comadmin/COMAdminTxIsolationLevelOptions"
+f1_keywords:
+- comadmin/COMAdminTxIsolationLevelOptions
 dev_langs:
- - c++
+- c++
 req.header: comadmin.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - ComAdmin.h
+- ComAdmin.h
 api_name:
- - COMAdminTxIsolationLevelOptions
+- COMAdminTxIsolationLevelOptions
 targetos: Windows
 req.typenames: COMAdminTxIsolationLevelOptions
 req.redist: 

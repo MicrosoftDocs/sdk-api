@@ -1,19 +1,17 @@
 ---
 UID: NF:combaseapi.CoDisconnectContext
 title: CoDisconnectContext function (combaseapi.h)
-
 description: Disconnects all proxy connections that are being maintained on behalf of all interface pointers that point to objects in the current context.
 old-location: com\codisconnectcontext.htm
 tech.root: com
 ms.assetid: faacb583-285a-4ec6-9700-22320e87de6e
-
 ms.date: 12/05/2018
 ms.keywords: CoDisconnectContext, CoDisconnectContext function [COM], _com_CoDisconnectContext, com.codisconnectcontext, combaseapi/CoDisconnectContext
 ms.topic: function
-f1_keywords: 
- - "combaseapi/CoDisconnectContext"
+f1_keywords:
+- combaseapi/CoDisconnectContext
 dev_langs:
- - c++
+- c++
 req.header: combaseapi.h
 req.include-header: Objbase.h
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib: Ole32.lib
 req.dll: Ole32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ole32.dll
- - API-MS-Win-Core-Com-l1-1-0.dll
- - ComBase.dll
- - API-MS-Win-Core-Com-l1-1-1.dll
- - API-MS-Win-DownLevel-Ole32-l1-1-1.dll
+- Ole32.dll
+- API-MS-Win-Core-Com-l1-1-0.dll
+- ComBase.dll
+- API-MS-Win-Core-Com-l1-1-1.dll
+- API-MS-Win-DownLevel-Ole32-l1-1-1.dll
 api_name:
- - CoDisconnectContext
+- CoDisconnectContext
 targetos: Windows
 req.typenames: 
 req.redist: 

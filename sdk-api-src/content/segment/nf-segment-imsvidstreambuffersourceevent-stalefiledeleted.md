@@ -1,19 +1,17 @@
 ---
 UID: NF:segment.IMSVidStreamBufferSourceEvent.StaleFileDeleted
 title: IMSVidStreamBufferSourceEvent::StaleFileDeleted (segment.h)
-
 description: This topic applies to Windows XP Service Pack 1 or later.
 old-location: mstv\imsvidstreambuffersourceevent_stalefiledeleted.htm
 tech.root: mstv
 ms.assetid: 400efb81-6e16-4065-a9d8-3f0a801f306e
-
 ms.date: 12/05/2018
 ms.keywords: IMSVidStreamBufferSourceEvent interface [Microsoft TV Technologies],StaleFileDeleted method, IMSVidStreamBufferSourceEvent.StaleFileDeleted, IMSVidStreamBufferSourceEvent::StaleFileDeleted, IMSVidStreamBufferSourceEventStateFileDeleted, StaleFileDeleted, StaleFileDeleted method [Microsoft TV Technologies], StaleFileDeleted method [Microsoft TV Technologies],IMSVidStreamBufferSourceEvent interface, mstv.imsvidstreambuffersourceevent_stalefiledeleted, segment/IMSVidStreamBufferSourceEvent::StaleFileDeleted
 ms.topic: method
-f1_keywords: 
- - "segment/IMSVidStreamBufferSourceEvent.StaleFileDeleted"
+f1_keywords:
+- segment/IMSVidStreamBufferSourceEvent.StaleFileDeleted
 dev_langs:
- - c++
+- c++
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - segment.h
+- segment.h
 api_name:
- - IMSVidStreamBufferSourceEvent.StaleFileDeleted
+- IMSVidStreamBufferSourceEvent.StaleFileDeleted
 targetos: Windows
 req.typenames: 
 req.redist: 

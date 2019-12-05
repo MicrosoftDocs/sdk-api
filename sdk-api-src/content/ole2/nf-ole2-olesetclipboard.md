@@ -1,19 +1,17 @@
 ---
 UID: NF:ole2.OleSetClipboard
 title: OleSetClipboard function (ole2.h)
-
 description: Places a pointer to a specific data object onto the clipboard. This makes the data object accessible to the OleGetClipboard function.
 old-location: com\olesetclipboard.htm
 tech.root: com
 ms.assetid: 741def10-d2b5-4395-8049-1eba2e29b0e8
-
 ms.date: 12/05/2018
 ms.keywords: OleSetClipboard, OleSetClipboard function [COM], _ole_OleSetClipboard, com.olesetclipboard, ole2/OleSetClipboard
 ms.topic: function
-f1_keywords: 
- - "ole2/OleSetClipboard"
+f1_keywords:
+- ole2/OleSetClipboard
 dev_langs:
- - c++
+- c++
 req.header: ole2.h
 req.include-header: 
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib: Ole32.lib
 req.dll: Ole32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ole32.dll
- - API-MS-Win-RTCore-OLE32-clipboard-l1-1-0.dll
- - ie_shims.dll
- - ext-ms-win-ole32-clipboard-ie-l1-1-0.dll
- - API-MS-Win-RTCore-Ole32-Clipboard-L1-1-1.dll
+- Ole32.dll
+- API-MS-Win-RTCore-OLE32-clipboard-l1-1-0.dll
+- ie_shims.dll
+- ext-ms-win-ole32-clipboard-ie-l1-1-0.dll
+- API-MS-Win-RTCore-Ole32-Clipboard-L1-1-1.dll
 api_name:
- - OleSetClipboard
+- OleSetClipboard
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:directxpackedvector.XMStoreU565
 title: XMStoreU565 function (directxpackedvector.h)
-
 description: Stores an XMVECTOR in an XMU565.
 old-location: dxmath\xmstoreu565.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.storing.XMStoreU565(XMU565@,XMVECTOR)
-
 ms.date: 12/05/2018
 ms.keywords: DirectX::PackedVector.XMStoreU565, XMStoreU565, XMStoreU565 method [DirectX Math Support APIs], dxmath.xmstoreu565
 ms.topic: function
-f1_keywords: 
- - "directxpackedvector/XMStoreU565"
+f1_keywords:
+- directxpackedvector/XMStoreU565
 dev_langs:
- - c++
+- c++
 req.header: directxpackedvector.h
 req.include-header: DirectXPackedVector.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - directxpackedvector.inl
+- directxpackedvector.inl
 api_name:
- - XMStoreU565
+- XMStoreU565
 targetos: Windows
 req.typenames: 
 req.redist: 

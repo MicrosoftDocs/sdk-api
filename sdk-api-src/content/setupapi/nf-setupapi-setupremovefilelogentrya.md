@@ -1,19 +1,17 @@
 ---
 UID: NF:setupapi.SetupRemoveFileLogEntryA
 title: SetupRemoveFileLogEntryA function (setupapi.h)
-
 description: The SetupRemoveFileLogEntry function removes an entry or section from a file log.
 old-location: setup\setupremovefilelogentry.htm
 tech.root: SetupApi
 ms.assetid: a26d2c24-7092-40b0-9ae9-e7edf68aeb3d
-
 ms.date: 12/05/2018
 ms.keywords: SetupRemoveFileLogEntry, SetupRemoveFileLogEntry function [Setup API], SetupRemoveFileLogEntryA, SetupRemoveFileLogEntryW, _setupapi_setupremovefilelogentry, setup.setupremovefilelogentry, setupapi/SetupRemoveFileLogEntry, setupapi/SetupRemoveFileLogEntryA, setupapi/SetupRemoveFileLogEntryW
 ms.topic: function
-f1_keywords: 
- - "setupapi/SetupRemoveFileLogEntry"
+f1_keywords:
+- setupapi/SetupRemoveFileLogEntry
 dev_langs:
- - c++
+- c++
 req.header: setupapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Setupapi.lib
 req.dll: Setupapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Setupapi.dll
+- Setupapi.dll
 api_name:
- - SetupRemoveFileLogEntry
- - SetupRemoveFileLogEntryA
- - SetupRemoveFileLogEntryW
+- SetupRemoveFileLogEntry
+- SetupRemoveFileLogEntryA
+- SetupRemoveFileLogEntryW
 targetos: Windows
 req.typenames: 
 req.redist: 

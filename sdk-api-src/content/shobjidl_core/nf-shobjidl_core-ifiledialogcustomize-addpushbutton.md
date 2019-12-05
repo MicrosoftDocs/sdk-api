@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IFileDialogCustomize.AddPushButton
 title: IFileDialogCustomize::AddPushButton (shobjidl_core.h)
-
 description: Adds a button to the dialog.
 old-location: shell\IFileDialogCustomize_AddPushButton.htm
 tech.root: shell
 ms.assetid: cd0e4a8f-59c7-4056-8521-abb4c8c08a40
-
 ms.date: 12/05/2018
 ms.keywords: AddPushButton, AddPushButton method [Windows Shell], AddPushButton method [Windows Shell],IFileDialogCustomize interface, IFileDialogCustomize interface [Windows Shell],AddPushButton method, IFileDialogCustomize.AddPushButton, IFileDialogCustomize::AddPushButton, shell.IFileDialogCustomize_AddPushButton, shell_IFileDialogCustomize_AddPushButton, shobjidl_core/IFileDialogCustomize::AddPushButton
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IFileDialogCustomize.AddPushButton"
+f1_keywords:
+- shobjidl_core/IFileDialogCustomize.AddPushButton
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - IFileDialogCustomize.AddPushButton
+- IFileDialogCustomize.AddPushButton
 targetos: Windows
 req.typenames: 
 req.redist: 

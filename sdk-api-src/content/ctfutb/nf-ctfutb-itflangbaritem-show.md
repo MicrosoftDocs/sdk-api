@@ -1,19 +1,17 @@
 ---
 UID: NF:ctfutb.ITfLangBarItem.Show
 title: ITfLangBarItem::Show (ctfutb.h)
-
 description: ITfLangBarItem::Show method
 old-location: tsf\itflangbaritem_show.htm
 tech.root: TSF
 ms.assetid: 3f5be2f4-e9de-4b03-9c37-651b1e572cf0
-
 ms.date: 12/05/2018
 ms.keywords: ITfLangBarItem interface [Text Services Framework],Show method, ITfLangBarItem.Show, ITfLangBarItem::Show, Show, Show method [Text Services Framework], Show method [Text Services Framework],ITfLangBarItem interface, _tsf_itflangbaritem_show_ref, ctfutb/ITfLangBarItem::Show, tsf.itflangbaritem_show
 ms.topic: method
-f1_keywords: 
- - "ctfutb/ITfLangBarItem.Show"
+f1_keywords:
+- ctfutb/ITfLangBarItem.Show
 dev_langs:
- - c++
+- c++
 req.header: ctfutb.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msctf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msctf.dll
+- Msctf.dll
 api_name:
- - ITfLangBarItem.Show
+- ITfLangBarItem.Show
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

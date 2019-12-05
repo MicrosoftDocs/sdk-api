@@ -1,19 +1,17 @@
 ---
 UID: NF:comsvcs.IServiceActivity.UnbindFromThread
 title: IServiceActivity::UnbindFromThread (comsvcs.h)
-
 description: Unbinds the user-defined batch work from the thread on which it is running.
 old-location: cos\iserviceactivity_unbindfromthread.htm
 tech.root: cossdk
 ms.assetid: e28b413d-6e3e-4a1f-90ed-8b0ab88904aa
-
 ms.date: 12/05/2018
 ms.keywords: IServiceActivity interface [COM+],UnbindFromThread method, IServiceActivity.UnbindFromThread, IServiceActivity::UnbindFromThread, UnbindFromThread, UnbindFromThread method [COM+], UnbindFromThread method [COM+],IServiceActivity interface, _cos_IServiceActivity_UnbindFromThread, comsvcs/IServiceActivity::UnbindFromThread, cos.iserviceactivity_unbindfromthread
 ms.topic: method
-f1_keywords: 
- - "comsvcs/IServiceActivity.UnbindFromThread"
+f1_keywords:
+- comsvcs/IServiceActivity.UnbindFromThread
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - IServiceActivity.UnbindFromThread
+- IServiceActivity.UnbindFromThread
 targetos: Windows
 req.typenames: 
 req.redist: 

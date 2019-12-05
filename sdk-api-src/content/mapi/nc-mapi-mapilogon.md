@@ -1,19 +1,17 @@
 ---
 UID: NC:mapi.MAPILOGON
 title: MAPILOGON (mapi.h)
-
 description: The MAPILogon function begins a Simple MAPI session, loading the default message store and address book providers.
 old-location: mapi\mapilogon.htm
 tech.root: WindowsMAPI
 ms.assetid: 5a61f0f2-347e-40fb-b7f9-6b42690cbcd8
-
 ms.date: 12/05/2018
 ms.keywords: MAPILogon, MAPILogon callback, MAPILogon callback function, MAPI_FORCE_DOWNLOAD, MAPI_LOGON_UI, MAPI_NEW_SESSION, MAPI_PASSWORD_UI, mapi.mapilogon, mapi/MAPILogon
 ms.topic: callback
-f1_keywords: 
- - "mapi/MAPILogon"
+f1_keywords:
+- mapi/MAPILogon
 dev_langs:
- - c++
+- c++
 req.header: mapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Mapi.h
+- Mapi.h
 api_name:
- - MAPILogon
+- MAPILogon
 targetos: Windows
 req.typenames: 
 req.redist: 

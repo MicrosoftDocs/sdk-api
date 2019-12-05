@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationTextRange.AddToSelection
 title: IUIAutomationTextRange::AddToSelection (uiautomationclient.h)
-
 description: Adds the text range to the collection of selected text ranges in a control that supports multiple, disjoint spans of selected text.
 old-location: winauto\uiauto_IUIAutomationTextRange_AddToSelection.htm
 tech.root: WinAuto
 ms.assetid: 5ae4a131-3283-4e91-8419-f2aa6f488833
-
 ms.date: 12/05/2018
 ms.keywords: AddToSelection, AddToSelection method [Windows Accessibility], AddToSelection method [Windows Accessibility],IUIAutomationTextRange interface, IUIAutomationTextRange interface [Windows Accessibility],AddToSelection method, IUIAutomationTextRange.AddToSelection, IUIAutomationTextRange::AddToSelection, uiauto.uiauto_IUIAutomationTextRange_AddToSelection, uiauto_IUIAutomationTextRange_AddToSelection, uiautomationclient/IUIAutomationTextRange::AddToSelection, winauto.uiauto_IUIAutomationTextRange_AddToSelection
 ms.topic: method
-f1_keywords: 
- - "uiautomationclient/IUIAutomationTextRange.AddToSelection"
+f1_keywords:
+- uiautomationclient/IUIAutomationTextRange.AddToSelection
 dev_langs:
- - c++
+- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationClient.h
+- UIAutomationClient.h
 api_name:
- - IUIAutomationTextRange.AddToSelection
+- IUIAutomationTextRange.AddToSelection
 targetos: Windows
 req.typenames: 
 req.redist: 

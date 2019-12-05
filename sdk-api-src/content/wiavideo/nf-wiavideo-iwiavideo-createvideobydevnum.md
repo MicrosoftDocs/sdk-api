@@ -1,19 +1,17 @@
 ---
 UID: NF:wiavideo.IWiaVideo.CreateVideoByDevNum
 title: IWiaVideo::CreateVideoByDevNum (wiavideo.h)
-
 description: The IWiaVideo::CreateVideoByDevNum method creates a connection to a streaming video device with the device number obtained from a Directshow enumeration.
 old-location: wia\_wia_IWiaVideo_CreateVideoByDevNum.htm
 tech.root: wia
 ms.assetid: VS|wia|~\wia\refwia\ifaces\iwiavideo\createvideobydevnum.htm
-
 ms.date: 12/05/2018
 ms.keywords: CreateVideoByDevNum, CreateVideoByDevNum method [WIA], CreateVideoByDevNum method [WIA],IWiaVideo interface, IWiaVideo interface [WIA],CreateVideoByDevNum method, IWiaVideo.CreateVideoByDevNum, IWiaVideo::CreateVideoByDevNum, _wia_IWiaVideo_CreateVideoByDevNum, wia._wia_IWiaVideo_CreateVideoByDevNum, wiavideo/IWiaVideo::CreateVideoByDevNum
 ms.topic: method
-f1_keywords: 
- - "wiavideo/IWiaVideo.CreateVideoByDevNum"
+f1_keywords:
+- wiavideo/IWiaVideo.CreateVideoByDevNum
 dev_langs:
- - c++
+- c++
 req.header: wiavideo.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wiavideo.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wiavideo.dll
+- Wiavideo.dll
 api_name:
- - IWiaVideo.CreateVideoByDevNum
+- IWiaVideo.CreateVideoByDevNum
 targetos: Windows
 req.typenames: 
 req.redist: 

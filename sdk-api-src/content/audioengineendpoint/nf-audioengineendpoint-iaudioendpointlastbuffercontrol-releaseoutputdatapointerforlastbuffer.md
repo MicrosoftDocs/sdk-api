@@ -1,19 +1,17 @@
 ---
 UID: NF:audioengineendpoint.IAudioEndpointLastBufferControl.ReleaseOutputDataPointerForLastBuffer
 title: IAudioEndpointLastBufferControl::ReleaseOutputDataPointerForLastBuffer (audioengineendpoint.h)
-
 description: Releases the output data pointer for the last buffer.
 old-location: coreaudio\iaudioendpointlastbuffercontrol_releaseoutputdatapointerforlastbuffer.htm
 tech.root: CoreAudio
 ms.assetid: 9ff0232d-acf6-44e7-933a-b5ac91c3acc8
-
 ms.date: 12/05/2018
 ms.keywords: IAudioEndpointLastBufferControl interface [Core Audio],ReleaseOutputDataPointerForLastBuffer method, IAudioEndpointLastBufferControl.ReleaseOutputDataPointerForLastBuffer, IAudioEndpointLastBufferControl::ReleaseOutputDataPointerForLastBuffer, ReleaseOutputDataPointerForLastBuffer, ReleaseOutputDataPointerForLastBuffer method [Core Audio], ReleaseOutputDataPointerForLastBuffer method [Core Audio],IAudioEndpointLastBufferControl interface, audioengineendpoint/IAudioEndpointLastBufferControl::ReleaseOutputDataPointerForLastBuffer, coreaudio.iaudioendpointlastbuffercontrol_releaseoutputdatapointerforlastbuffer
 ms.topic: method
-f1_keywords: 
- - "audioengineendpoint/IAudioEndpointLastBufferControl.ReleaseOutputDataPointerForLastBuffer"
+f1_keywords:
+- audioengineendpoint/IAudioEndpointLastBufferControl.ReleaseOutputDataPointerForLastBuffer
 dev_langs:
- - c++
+- c++
 req.header: audioengineendpoint.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - audioengineendpoint.h
+- audioengineendpoint.h
 api_name:
- - IAudioEndpointLastBufferControl.ReleaseOutputDataPointerForLastBuffer
+- IAudioEndpointLastBufferControl.ReleaseOutputDataPointerForLastBuffer
 targetos: Windows
 req.typenames: 
 req.redist: 

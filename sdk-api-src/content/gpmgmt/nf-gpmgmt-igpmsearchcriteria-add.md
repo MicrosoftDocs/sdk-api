@@ -1,19 +1,17 @@
 ---
 UID: NF:gpmgmt.IGPMSearchCriteria.Add
 title: IGPMSearchCriteria::Add (gpmgmt.h)
-
 description: Adds a criterion for search operations.
 old-location: gpmc\igpmsearchcriteria_add.htm
 tech.root: gpmc
 ms.assetid: 8d3f62df-6de1-4871-903f-05ac234db17f
-
 ms.date: 12/05/2018
 ms.keywords: Add, Add method [GPMC], Add method [GPMC],IGPMSearchCriteria interface, IGPMSearchCriteria interface [GPMC],Add method, IGPMSearchCriteria.Add, IGPMSearchCriteria::Add, _win32_igpmsearchcriteria_add, gpmc.igpmsearchcriteria_add, gpmgmt/IGPMSearchCriteria::Add
 ms.topic: method
-f1_keywords: 
- - "gpmgmt/IGPMSearchCriteria.Add"
+f1_keywords:
+- gpmgmt/IGPMSearchCriteria.Add
 dev_langs:
- - c++
+- c++
 req.header: gpmgmt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Gpmgmt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gpmgmt.dll
+- Gpmgmt.dll
 api_name:
- - IGPMSearchCriteria.Add
+- IGPMSearchCriteria.Add
 targetos: Windows
 req.typenames: 
 req.redist: GPMC on Windows Vista

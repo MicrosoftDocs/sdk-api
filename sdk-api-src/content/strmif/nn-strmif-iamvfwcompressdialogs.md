@@ -1,19 +1,17 @@
 ---
 UID: NN:strmif.IAMVfwCompressDialogs
 title: IAMVfwCompressDialogs (strmif.h)
-
 description: The IAMVfwCompressDialogs interface displays a dialog box provided by a Video for Windows (VFW) codec.
 old-location: dshow\iamvfwcompressdialogs.htm
 tech.root: DirectShow
 ms.assetid: 5cc23d68-e0e6-401a-8d16-63c8c68af241
-
 ms.date: 12/05/2018
 ms.keywords: IAMVfwCompressDialogs, IAMVfwCompressDialogs interface [DirectShow], IAMVfwCompressDialogs interface [DirectShow],described, IAMVfwCompressDialogsInterface, dshow.iamvfwcompressdialogs, strmif/IAMVfwCompressDialogs
 ms.topic: interface
-f1_keywords: 
- - "strmif/IAMVfwCompressDialogs"
+f1_keywords:
+- strmif/IAMVfwCompressDialogs
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IAMVfwCompressDialogs
+- IAMVfwCompressDialogs
 targetos: Windows
 req.typenames: 
 req.redist: 

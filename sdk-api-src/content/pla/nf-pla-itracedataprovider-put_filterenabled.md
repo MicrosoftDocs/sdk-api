@@ -1,19 +1,17 @@
 ---
 UID: NF:pla.ITraceDataProvider.put_FilterEnabled
 title: ITraceDataProvider::put_FilterEnabled (pla.h)
-
 description: Retrieves or sets a value that determines whether the filter data is used to enable the provider.
 old-location: pla\itracedataprovider_filterenabled.htm
 tech.root: PLA
 ms.assetid: fef5e6a4-3a97-4799-b46d-c0e82b1c0104
-
 ms.date: 12/05/2018
 ms.keywords: FilterEnabled property [PLA], FilterEnabled property [PLA],ITraceDataProvider interface, ITraceDataProvider interface [PLA],FilterEnabled property, ITraceDataProvider.FilterEnabled, ITraceDataProvider.put_FilterEnabled, ITraceDataProvider::FilterEnabled, ITraceDataProvider::get_FilterEnabled, ITraceDataProvider::put_FilterEnabled, pla.itracedataprovider_filterenabled, pla/ITraceDataProvider::FilterEnabled, pla/ITraceDataProvider::get_FilterEnabled, pla/ITraceDataProvider::put_FilterEnabled, put_FilterEnabled
 ms.topic: method
-f1_keywords: 
- - "pla/ITraceDataProvider.FilterEnabled"
+f1_keywords:
+- pla/ITraceDataProvider.FilterEnabled
 dev_langs:
- - c++
+- c++
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: Pla.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Pla.dll
+- Pla.dll
 api_name:
- - ITraceDataProvider.FilterEnabled
- - ITraceDataProvider.get_FilterEnabled
- - ITraceDataProvider.put_FilterEnabled
+- ITraceDataProvider.FilterEnabled
+- ITraceDataProvider.get_FilterEnabled
+- ITraceDataProvider.put_FilterEnabled
 targetos: Windows
 req.typenames: 
 req.redist: 

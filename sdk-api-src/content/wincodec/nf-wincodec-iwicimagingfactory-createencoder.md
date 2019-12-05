@@ -1,19 +1,17 @@
 ---
 UID: NF:wincodec.IWICImagingFactory.CreateEncoder
 title: IWICImagingFactory::CreateEncoder (wincodec.h)
-
 description: Creates a new instance of the IWICBitmapEncoder class.
 old-location: wic\_wic_codec_iwicimagingfactory_createencoder.htm
 tech.root: wic
 ms.assetid: 7aae3ea6-2d8b-4764-9c78-a6cce49012a5
-
 ms.date: 12/05/2018
 ms.keywords: CreateEncoder, CreateEncoder method [Windows Imaging Component], CreateEncoder method [Windows Imaging Component],IWICImagingFactory interface, IWICImagingFactory interface [Windows Imaging Component],CreateEncoder method, IWICImagingFactory.CreateEncoder, IWICImagingFactory::CreateEncoder, _wic_codec_iwicimagingfactory_createencoder, wic._wic_codec_iwicimagingfactory_createencoder, wincodec/IWICImagingFactory::CreateEncoder
 ms.topic: method
-f1_keywords: 
- - "wincodec/IWICImagingFactory.CreateEncoder"
+f1_keywords:
+- wincodec/IWICImagingFactory.CreateEncoder
 dev_langs:
- - c++
+- c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Windowscodecs.lib
 req.dll: Windowscodecs.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Windowscodecs.dll
+- Windowscodecs.dll
 api_name:
- - IWICImagingFactory.CreateEncoder
+- IWICImagingFactory.CreateEncoder
 targetos: Windows
 req.typenames: 
 req.redist: 

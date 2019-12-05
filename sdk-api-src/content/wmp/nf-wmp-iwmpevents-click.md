@@ -1,19 +1,17 @@
 ---
 UID: NF:wmp.IWMPEvents.Click
 title: IWMPEvents::Click (wmp.h)
-
 description: The Click event occurs when the user clicks a mouse button.
 old-location: wmp\iwmpevents_iwmpevents__click.htm
 tech.root: WMP
 ms.assetid: 6535012d-61d5-4200-8de9-786c633cf079
-
 ms.date: 12/05/2018
 ms.keywords: Click, Click method [Windows Media Player], Click method [Windows Media Player],IWMPEvents interface, IWMPEvents interface [Windows Media Player],Click method, IWMPEvents.Click, IWMPEvents::Click, IWMPEventsClick, wmp.iwmpevents_iwmpevents__click, wmp/IWMPEvents::Click
 ms.topic: method
-f1_keywords: 
- - "wmp/IWMPEvents.Click"
+f1_keywords:
+- wmp/IWMPEvents.Click
 dev_langs:
- - c++
+- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wmp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmp.dll
+- wmp.dll
 api_name:
- - IWMPEvents.Click
+- IWMPEvents.Click
 targetos: Windows
 req.typenames: 
 req.redist: 

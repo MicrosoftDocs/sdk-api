@@ -1,19 +1,17 @@
 ---
 UID: NF:cscobj.IOfflineFilesSetting.GetPreference
 title: IOfflineFilesSetting::GetPreference (cscobj.h)
-
 description: Retrieves a per-machine or per-user preference associated with a particular Offline Files setting.
 old-location: of\iofflinefilessetting_getpreference.htm
 tech.root: offlinefiles
 ms.assetid: 80bc64f2-2787-42ba-9c36-742964440f74
-
 ms.date: 12/05/2018
 ms.keywords: GetPreference, GetPreference method [Offline Files], GetPreference method [Offline Files],IOfflineFilesSetting interface, IOfflineFilesSetting interface [Offline Files],GetPreference method, IOfflineFilesSetting.GetPreference, IOfflineFilesSetting::GetPreference, OFFLINEFILES_SETTING_SCOPE_COMPUTER, OFFLINEFILES_SETTING_SCOPE_USER, cscobj/IOfflineFilesSetting::GetPreference, of.iofflinefilessetting_getpreference
 ms.topic: method
-f1_keywords: 
- - "cscobj/IOfflineFilesSetting.GetPreference"
+f1_keywords:
+- cscobj/IOfflineFilesSetting.GetPreference
 dev_langs:
- - c++
+- c++
 req.header: cscobj.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: CscSvc.dll; CscObj.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CscSvc.dll
- - CscObj.dll
+- CscSvc.dll
+- CscObj.dll
 api_name:
- - IOfflineFilesSetting.GetPreference
+- IOfflineFilesSetting.GetPreference
 targetos: Windows
 req.typenames: 
 req.redist: 

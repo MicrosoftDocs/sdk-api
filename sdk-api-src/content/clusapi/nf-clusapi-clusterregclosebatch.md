@@ -1,19 +1,17 @@
 ---
 UID: NF:clusapi.ClusterRegCloseBatch
 title: ClusterRegCloseBatch function (clusapi.h)
-
 description: Executes or ignores the batch created by the ClusterRegCreateBatch function.
 old-location: mscs\clusterregclosebatch.htm
 tech.root: MsCS
 ms.assetid: d43644cf-370b-499f-b321-24e43f145a98
-
 ms.date: 12/05/2018
 ms.keywords: ClusterRegCloseBatch, ClusterRegCloseBatch function [Failover Cluster], PCLUSTER_REG_CLOSE_BATCH, PCLUSTER_REG_CLOSE_BATCH function [Failover Cluster], clusapi/ClusterRegCloseBatch, clusapi/PCLUSTER_REG_CLOSE_BATCH, mscs.clusterregclosebatch
 ms.topic: function
-f1_keywords: 
- - "clusapi/ClusterRegCloseBatch"
+f1_keywords:
+- clusapi/ClusterRegCloseBatch
 dev_langs:
- - c++
+- c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: ClusAPI.lib
 req.dll: ClusAPI.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - ClusAPI.dll
- - Ext-MS-Win-Cluster-ClusAPI-l1-1-1.dll
- - Ext-MS-Win-Cluster-ClusAPI-l1-1-2.dll
+- ClusAPI.dll
+- Ext-MS-Win-Cluster-ClusAPI-l1-1-1.dll
+- Ext-MS-Win-Cluster-ClusAPI-l1-1-2.dll
 api_name:
- - ClusterRegCloseBatch
+- ClusterRegCloseBatch
 targetos: Windows
 req.typenames: 
 req.redist: 

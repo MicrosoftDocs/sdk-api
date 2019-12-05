@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi3if.ITCallInfoChangeEvent.get_CallbackInstance
 title: ITCallInfoChangeEvent::get_CallbackInstance (tapi3if.h)
-
 description: The get_CallbackInstance method gets a pointer to the callback instance associated with this event.
 old-location: tapi3\itcallinfochangeevent_get_callbackinstance.htm
 tech.root: Tapi
 ms.assetid: feb9fbcd-58e6-48c7-ab21-9ba0fd766b25
-
 ms.date: 12/05/2018
 ms.keywords: ITCallInfoChangeEvent interface [TAPI 2.2],get_CallbackInstance method, ITCallInfoChangeEvent.get_CallbackInstance, ITCallInfoChangeEvent::get_CallbackInstance, _tapi3_itcallinfochangeevent_get_callbackinstance, get_CallbackInstance, get_CallbackInstance method [TAPI 2.2], get_CallbackInstance method [TAPI 2.2],ITCallInfoChangeEvent interface, tapi3.itcallinfochangeevent_get_callbackinstance, tapi3if/ITCallInfoChangeEvent::get_CallbackInstance
 ms.topic: method
-f1_keywords: 
- - "tapi3if/ITCallInfoChangeEvent.get_CallbackInstance"
+f1_keywords:
+- tapi3if/ITCallInfoChangeEvent.get_CallbackInstance
 dev_langs:
- - c++
+- c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Tapi3.dll
+- Tapi3.dll
 api_name:
- - ITCallInfoChangeEvent.get_CallbackInstance
+- ITCallInfoChangeEvent.get_CallbackInstance
 targetos: Windows
 req.typenames: 
 req.redist: 

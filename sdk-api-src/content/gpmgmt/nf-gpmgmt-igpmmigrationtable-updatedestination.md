@@ -1,19 +1,17 @@
 ---
 UID: NF:gpmgmt.IGPMMigrationTable.UpdateDestination
 title: IGPMMigrationTable::UpdateDestination (gpmgmt.h)
-
 description: Updates the destination field of an entry in a migration table. You can specify the destination option and the destination.
 old-location: gpmc\igpmmigrationtable_updatedestination.htm
 tech.root: gpmc
 ms.assetid: c47ad9d7-cf04-4ab4-9c44-78a5e54fc04e
-
 ms.date: 12/05/2018
 ms.keywords: GPMigrationTable class [GPMC],UpdateDestination method, IGPMMigrationTable interface [GPMC],UpdateDestination method, IGPMMigrationTable.UpdateDestination, IGPMMigrationTable::UpdateDestination, UpdateDestination, UpdateDestination method [GPMC], UpdateDestination method [GPMC],GPMigrationTable class, UpdateDestination method [GPMC],IGPMMigrationTable interface, gpmc.igpmmigrationtable_updatedestination, gpmgmt/IGPMMigrationTable::UpdateDestination
 ms.topic: method
-f1_keywords: 
- - "gpmgmt/IGPMMigrationTable.UpdateDestination"
+f1_keywords:
+- gpmgmt/IGPMMigrationTable.UpdateDestination
 dev_langs:
- - c++
+- c++
 req.header: gpmgmt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: Gpmgmt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gpmgmt.dll
+- Gpmgmt.dll
 api_name:
- - IGPMMigrationTable.UpdateDestination
- - GPMigrationTable.UpdateDestination
+- IGPMMigrationTable.UpdateDestination
+- GPMigrationTable.UpdateDestination
 targetos: Windows
 req.typenames: 
 req.redist: 

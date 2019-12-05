@@ -3,14 +3,13 @@ UID: NF:gdiplusgraphics.Graphics.FillRectangles(IN const Brush,IN const RectF,IN
 title: Graphics::FillRectangles
 description: The Graphics::FillRectangles method uses a brush to fill the interior of a sequence of rectangles.
 ms.assetid: 6624bdf9-20c4-42f3-a52e-62455ee1e573
-
 ms.date: 05/13/2019
 ms.keywords: Graphics::FillRectangles
 ms.topic: language-reference
-f1_keywords: 
- - "gdiplusgraphics/Graphics::FillRectangles"
+f1_keywords:
+- gdiplusgraphics/Graphics::FillRectangles
 dev_langs:
- - c++
+- c++
 targetos: Windows
 req.assembly: 
 req.construct-type: function
@@ -32,13 +31,13 @@ req.type-library:
 req.umdf-ver: 
 req.unicode-ansi: 
 topic_type:
- - apiref
+- apiref
 api_type:
- - COM
+- COM
 api_location:
- - gdiplusgraphics.h
+- gdiplusgraphics.h
 api_name:
- - Graphics::FillRectangles
+- Graphics::FillRectangles
 ---
 
 # FillRectangles(Brush*,RectF*,INT)

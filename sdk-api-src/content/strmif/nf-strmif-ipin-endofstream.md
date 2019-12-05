@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IPin.EndOfStream
 title: IPin::EndOfStream (strmif.h)
-
 description: The EndOfStream method notifies the pin that no additional data is expected, until a new run command is issued to the filter.
 old-location: dshow\ipin_endofstream.htm
 tech.root: DirectShow
 ms.assetid: b0cca250-9603-4d58-8af5-5b272730e5fa
-
 ms.date: 12/05/2018
 ms.keywords: EndOfStream, EndOfStream method [DirectShow], EndOfStream method [DirectShow],IPin interface, IPin interface [DirectShow],EndOfStream method, IPin.EndOfStream, IPin::EndOfStream, IPinEndOfStream, dshow.ipin_endofstream, strmif/IPin::EndOfStream
 ms.topic: method
-f1_keywords: 
- - "strmif/IPin.EndOfStream"
+f1_keywords:
+- strmif/IPin.EndOfStream
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IPin.EndOfStream
+- IPin.EndOfStream
 targetos: Windows
 req.typenames: 
 req.redist: 

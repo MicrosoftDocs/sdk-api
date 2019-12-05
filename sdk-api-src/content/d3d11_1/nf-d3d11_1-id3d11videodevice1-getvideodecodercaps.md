@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d11_1.ID3D11VideoDevice1.GetVideoDecoderCaps
 title: ID3D11VideoDevice1::GetVideoDecoderCaps (d3d11_1.h)
-
 description: Retrieves capabilities and limitations of the video decoder.
 old-location: mf\id3d11videodevice1_getvideodecodercaps.htm
 tech.root: medfound
 ms.assetid: 9F978BE5-568E-440C-B9B2-0972893FD970
-
 ms.date: 12/05/2018
 ms.keywords: GetVideoDecoderCaps, GetVideoDecoderCaps method [Media Foundation], GetVideoDecoderCaps method [Media Foundation],ID3D11VideoDevice1 interface, ID3D11VideoDevice1 interface [Media Foundation],GetVideoDecoderCaps method, ID3D11VideoDevice1.GetVideoDecoderCaps, ID3D11VideoDevice1::GetVideoDecoderCaps, d3d11_1/ID3D11VideoDevice1::GetVideoDecoderCaps, mf.id3d11videodevice1_getvideodecodercaps
 ms.topic: method
-f1_keywords: 
- - "d3d11_1/ID3D11VideoDevice1.GetVideoDecoderCaps"
+f1_keywords:
+- d3d11_1/ID3D11VideoDevice1.GetVideoDecoderCaps
 dev_langs:
- - c++
+- c++
 req.header: d3d11_1.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - d3d11_1.h
+- d3d11_1.h
 api_name:
- - ID3D11VideoDevice1.GetVideoDecoderCaps
+- ID3D11VideoDevice1.GetVideoDecoderCaps
 targetos: Windows
 req.typenames: 
 req.redist: 

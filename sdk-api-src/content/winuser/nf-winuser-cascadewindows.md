@@ -1,19 +1,17 @@
 ---
 UID: NF:winuser.CascadeWindows
 title: CascadeWindows function (winuser.h)
-
 description: Cascades the specified child windows of the specified parent window.
 old-location: winmsg\cascadewindows.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowfunctions\cascadewindows.htm
-
 ms.date: 12/05/2018
 ms.keywords: CascadeWindows, CascadeWindows function [Windows and Messages], MDITILE_SKIPDISABLED, MDITILE_ZORDER, _win32_CascadeWindows, _win32_cascadewindows_cpp, winmsg.cascadewindows, winui._win32_cascadewindows, winuser/CascadeWindows
 ms.topic: function
-f1_keywords: 
- - "winuser/CascadeWindows"
+f1_keywords:
+- winuser/CascadeWindows
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - User32.dll
+- User32.dll
 api_name:
- - CascadeWindows
+- CascadeWindows
 targetos: Windows
 req.typenames: 
 req.redist: 

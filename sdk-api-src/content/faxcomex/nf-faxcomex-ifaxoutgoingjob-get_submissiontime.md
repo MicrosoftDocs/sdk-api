@@ -1,19 +1,17 @@
 ---
 UID: NF:faxcomex.IFaxOutgoingJob.get_SubmissionTime
 title: IFaxOutgoingJob::get_SubmissionTime (faxcomex.h)
-
 description: The IFaxOutgoingJob::get_SubmissionTime property indicates the time that the outbound fax job was submitted for processing.
 old-location: fax\_mfax_faxoutgoingjob_cpp_mfax_faxoutgoingjob_submissiontime_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_2exx.htm
-
 ms.date: 12/05/2018
 ms.keywords: IFaxOutgoingJob interface [Fax Service],SubmissionTime property, IFaxOutgoingJob.SubmissionTime, IFaxOutgoingJob.get_SubmissionTime, IFaxOutgoingJob::SubmissionTime, IFaxOutgoingJob::get_SubmissionTime, SubmissionTime property [Fax Service], SubmissionTime property [Fax Service],IFaxOutgoingJob interface, _mfax_faxoutgoingjob.submissiontime, fax._mfax_faxoutgoingjob_cpp_mfax_faxoutgoingjob_submissiontime_cpp, fax._mfax_faxoutgoingjob_submissiontime, faxcomex/IFaxOutgoingJob::SubmissionTime, faxcomex/IFaxOutgoingJob::get_SubmissionTime, get_SubmissionTime
 ms.topic: method
-f1_keywords: 
- - "faxcomex/IFaxOutgoingJob.SubmissionTime"
+f1_keywords:
+- faxcomex/IFaxOutgoingJob.SubmissionTime
 dev_langs:
- - c++
+- c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: Fxscomex.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Fxscomex.dll
+- Fxscomex.dll
 api_name:
- - IFaxOutgoingJob.SubmissionTime
- - IFaxOutgoingJob.get_SubmissionTime
- - IFaxOutgoingJob.get_SubmissionTime
+- IFaxOutgoingJob.SubmissionTime
+- IFaxOutgoingJob.get_SubmissionTime
+- IFaxOutgoingJob.get_SubmissionTime
 targetos: Windows
 req.typenames: 
 req.redist: 

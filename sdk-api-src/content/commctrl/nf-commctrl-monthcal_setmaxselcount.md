@@ -1,19 +1,17 @@
 ---
 UID: NF:commctrl.MonthCal_SetMaxSelCount
 title: MonthCal_SetMaxSelCount macro (commctrl.h)
-
 description: Sets the maximum number of days that can be selected in a month calendar control. You can use this macro or send the MCM_SETMAXSELCOUNT message explicitly.
 old-location: controls\MonthCal_SetMaxSelCount.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\monthcal\macros\monthcal_setmaxselcount.htm
-
 ms.date: 12/05/2018
 ms.keywords: MonthCal_SetMaxSelCount, MonthCal_SetMaxSelCount macro [Windows Controls], _win32_MonthCal_SetMaxSelCount, _win32_MonthCal_SetMaxSelCount_cpp, commctrl/MonthCal_SetMaxSelCount, controls.MonthCal_SetMaxSelCount, controls._win32_MonthCal_SetMaxSelCount
 ms.topic: macro
-f1_keywords: 
- - "commctrl/MonthCal_SetMaxSelCount"
+f1_keywords:
+- commctrl/MonthCal_SetMaxSelCount
 dev_langs:
- - c++
+- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Commctrl.h
+- Commctrl.h
 api_name:
- - MonthCal_SetMaxSelCount
+- MonthCal_SetMaxSelCount
 targetos: Windows
 req.typenames: 
 req.redist: 

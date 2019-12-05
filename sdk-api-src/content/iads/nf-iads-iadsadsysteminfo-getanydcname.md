@@ -1,19 +1,17 @@
 ---
 UID: NF:iads.IADsADSystemInfo.GetAnyDCName
 title: IADsADSystemInfo::GetAnyDCName (iads.h)
-
 description: Retrieves the DNS name of a domain controller in the local computer's domain.
 old-location: adsi\iadsadsysteminfo_getanydcname.htm
 tech.root: adsi
 ms.assetid: 02bc092a-f5ef-4f9d-b9a6-e03aba784d66
-
 ms.date: 12/05/2018
 ms.keywords: GetAnyDCName, GetAnyDCName method [ADSI], GetAnyDCName method [ADSI],IADsADSystemInfo interface, IADsADSystemInfo interface [ADSI],GetAnyDCName method, IADsADSystemInfo.GetAnyDCName, IADsADSystemInfo::GetAnyDCName, _ds_iadsadsysteminfo_getanydcname, adsi.iadsadsysteminfo__getanydcname, adsi.iadsadsysteminfo_getanydcname, iads/IADsADSystemInfo::GetAnyDCName
 ms.topic: method
-f1_keywords: 
- - "iads/IADsADSystemInfo.GetAnyDCName"
+f1_keywords:
+- iads/IADsADSystemInfo.GetAnyDCName
 dev_langs:
- - c++
+- c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Activeds.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Activeds.dll
+- Activeds.dll
 api_name:
- - IADsADSystemInfo.GetAnyDCName
+- IADsADSystemInfo.GetAnyDCName
 targetos: Windows
 req.typenames: 
 req.redist: 

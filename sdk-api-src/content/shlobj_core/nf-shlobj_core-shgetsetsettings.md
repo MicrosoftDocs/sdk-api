@@ -1,19 +1,17 @@
 ---
 UID: NF:shlobj_core.SHGetSetSettings
 title: SHGetSetSettings function (shlobj_core.h)
-
 description: SHGetSetSettings may be altered or unavailable.
 old-location: shell\SHGetSetSettings.htm
 tech.root: shell
 ms.assetid: d7c2646c-03e0-4d7a-9503-bdf487d43723
-
 ms.date: 12/05/2018
 ms.keywords: SHGetSetSettings, SHGetSetSettings function [Windows Shell], _win32_SHGetSetSettings, shell.SHGetSetSettings, shlobj_core/SHGetSetSettings
 ms.topic: function
-f1_keywords: 
- - "shlobj_core/SHGetSetSettings"
+f1_keywords:
+- shlobj_core/SHGetSetSettings
 dev_langs:
- - c++
+- c++
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Shell32.lib
 req.dll: Shell32.dll (version 5.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - SHGetSetSettings
+- SHGetSetSettings
 targetos: Windows
 req.typenames: 
 req.redist: 

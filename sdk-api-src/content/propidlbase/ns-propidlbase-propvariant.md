@@ -1,19 +1,17 @@
 ---
 UID: NS:propidlbase.tagPROPVARIANT
 title: PROPVARIANT (propidlbase.h)
-
 description: Used in the ReadMultiple and WriteMultiple methods of IPropertyStorage to define the type tag and the value of a property in a property set.
 old-location: stg\propvariant.htm
 tech.root: Stg
 ms.assetid: e86cc279-826d-4767-8d96-fc8280060ea1
-
 ms.date: 12/05/2018
-ms.keywords: "*LPPROPVARIANT, PROPVARIANT, PROPVARIANT structure [Structured Storage], _stg_propvariant, propidlbase/PROPVARIANT, stg.propvariant, tagPROPVARIANT"
+ms.keywords: '*LPPROPVARIANT, PROPVARIANT, PROPVARIANT structure [Structured Storage], _stg_propvariant, propidlbase/PROPVARIANT, stg.propvariant, tagPROPVARIANT'
 ms.topic: struct
-f1_keywords: 
- - "propidlbase/PROPVARIANT"
+f1_keywords:
+- propidlbase/PROPVARIANT
 dev_langs:
- - c++
+- c++
 req.header: propidlbase.h
 req.include-header: Propidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - propidlbase.h
+- propidlbase.h
 api_name:
- - PROPVARIANT
+- PROPVARIANT
 targetos: Windows
 req.typenames: PROPVARIANT, *LPPROPVARIANT
 req.redist: 

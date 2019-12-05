@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi3if.ITTAPI2.CreateEmptyCollectionObject
 title: ITTAPI2::CreateEmptyCollectionObject (tapi3if.h)
-
 description: The CreateEmptyCollectionObject method creates an empty collection object. The collection can be filled with ITDetectTone or ITCustomTone objects for use with the DetectTonesByCollection method or the GenerateCustomTonesByCollection method, respectively.
 old-location: tapi3\ittapi2_createemptycollectionobject.htm
 tech.root: Tapi
 ms.assetid: 0114c0d2-4582-4b44-8fb6-74e468828797
-
 ms.date: 12/05/2018
 ms.keywords: CreateEmptyCollectionObject, CreateEmptyCollectionObject method [TAPI 2.2], CreateEmptyCollectionObject method [TAPI 2.2],ITTAPI2 interface, ITTAPI2 interface [TAPI 2.2],CreateEmptyCollectionObject method, ITTAPI2.CreateEmptyCollectionObject, ITTAPI2::CreateEmptyCollectionObject, _tapi3_ittapi2_createemptycollectionobject, tapi3.ittapi2_createemptycollectionobject, tapi3if/ITTAPI2::CreateEmptyCollectionObject
 ms.topic: method
-f1_keywords: 
- - "tapi3if/ITTAPI2.CreateEmptyCollectionObject"
+f1_keywords:
+- tapi3if/ITTAPI2.CreateEmptyCollectionObject
 dev_langs:
- - c++
+- c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Tapi3.dll
+- Tapi3.dll
 api_name:
- - ITTAPI2.CreateEmptyCollectionObject
+- ITTAPI2.CreateEmptyCollectionObject
 targetos: Windows
 req.typenames: 
 req.redist: 

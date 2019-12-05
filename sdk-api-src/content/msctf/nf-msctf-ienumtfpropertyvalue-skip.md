@@ -1,19 +1,17 @@
 ---
 UID: NF:msctf.IEnumTfPropertyValue.Skip
 title: IEnumTfPropertyValue::Skip (msctf.h)
-
 description: IEnumTfPropertyValue::Skip method
 old-location: tsf\ienumtfpropertyvalue_skip.htm
 tech.root: TSF
 ms.assetid: 6bc11b63-c8d8-453d-b667-8a087b24cf47
-
 ms.date: 12/05/2018
 ms.keywords: IEnumTfPropertyValue interface [Text Services Framework],Skip method, IEnumTfPropertyValue.Skip, IEnumTfPropertyValue::Skip, Skip, Skip method [Text Services Framework], Skip method [Text Services Framework],IEnumTfPropertyValue interface, _tsf_ienumtfpropertyvalue_skip_ref, msctf/IEnumTfPropertyValue::Skip, tsf.ienumtfpropertyvalue_skip
 ms.topic: method
-f1_keywords: 
- - "msctf/IEnumTfPropertyValue.Skip"
+f1_keywords:
+- msctf/IEnumTfPropertyValue.Skip
 dev_langs:
- - c++
+- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msctf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msctf.dll
+- msctf.dll
 api_name:
- - IEnumTfPropertyValue.Skip
+- IEnumTfPropertyValue.Skip
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

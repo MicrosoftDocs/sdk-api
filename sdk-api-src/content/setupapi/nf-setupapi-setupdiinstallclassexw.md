@@ -1,19 +1,17 @@
 ---
 UID: NF:setupapi.SetupDiInstallClassExW
 title: SetupDiInstallClassExW function (setupapi.h)
-
 description: The SetupDiInstallClassEx function installs a class installer or an interface class.
 old-location: devinst\setupdiinstallclassex.htm
 tech.root: devinst
 ms.assetid: 72ab3fb4-dc4f-439a-87ed-4f4ad061d03a
-
 ms.date: 12/05/2018
 ms.keywords: SetupDiInstallClassEx, SetupDiInstallClassEx function [Device and Driver Installation], SetupDiInstallClassExA, SetupDiInstallClassExW, devinst.setupdiinstallclassex, di-rtns_80aa5f67-e57e-4749-8130-5c940376db49.xml, setupapi/SetupDiInstallClassEx
 ms.topic: function
 f1_keywords:
 - setupapi/SetupDiInstallClassEx
 dev_langs:
- - c++
+- c++
 req.header: setupapi.h
 req.include-header: Setupapi.h
 req.target-type: Desktop
@@ -40,8 +38,7 @@ api_location:
 - Setupapi.lib
 - Setupapi.dll
 api_name:
-- SetupDiInstallClassEx
- - SetupDiInstallClassExW
+- SetupDiInstallClassEx - SetupDiInstallClassExW
 targetos: Windows
 req.typenames: 
 req.redist: 

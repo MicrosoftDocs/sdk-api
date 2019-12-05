@@ -1,19 +1,17 @@
 ---
 UID: NF:mmc.IHeaderCtrl.GetColumnWidth
 title: IHeaderCtrl::GetColumnWidth (mmc.h)
-
 description: Retrieves the width, in pixels, of the column.
 old-location: mmc\iheaderctrl_getcolumnwidth.htm
 tech.root: mmc
 ms.assetid: 2F0C08F2-C7AF-4E91-A7AD-34BC19D65DC2
-
 ms.date: 12/05/2018
 ms.keywords: GetColumnWidth, GetColumnWidth method [MMC], GetColumnWidth method [MMC],IHeaderCtrl interface, IHeaderCtrl interface [MMC],GetColumnWidth method, IHeaderCtrl.GetColumnWidth, IHeaderCtrl::GetColumnWidth, mmc.iheaderctrl_getcolumnwidth, mmc/IHeaderCtrl::GetColumnWidth
 ms.topic: method
-f1_keywords: 
- - "mmc/IHeaderCtrl.GetColumnWidth"
+f1_keywords:
+- mmc/IHeaderCtrl.GetColumnWidth
 dev_langs:
- - c++
+- c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Mmcndmgr.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mmcndmgr.dll
+- Mmcndmgr.dll
 api_name:
- - IHeaderCtrl.GetColumnWidth
+- IHeaderCtrl.GetColumnWidth
 targetos: Windows
 req.typenames: 
 req.redist: 

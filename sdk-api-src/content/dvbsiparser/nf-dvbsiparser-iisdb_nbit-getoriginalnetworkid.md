@@ -1,19 +1,17 @@
 ---
 UID: NF:dvbsiparser.IISDB_NBIT.GetOriginalNetworkId
 title: IISDB_NBIT::GetOriginalNetworkId (dvbsiparser.h)
-
 description: Gets an identifier that identifies the broadcaster that originated the MPEG-2 transport stream from an Integrated Services Digital Broadcasting (ISDB) network broadcaster information table (NBIT).
 old-location: mstv\iisdb_nbit_getoriginalnetworkid.htm
 tech.root: mstv
 ms.assetid: 762b7d48-c74e-4d5a-9c99-890d613553fa
-
 ms.date: 12/05/2018
 ms.keywords: GetOriginalNetworkId, GetOriginalNetworkId method [Microsoft TV Technologies], GetOriginalNetworkId method [Microsoft TV Technologies],IISDB_NBIT interface, IISDB_NBIT interface [Microsoft TV Technologies],GetOriginalNetworkId method, IISDB_NBIT.GetOriginalNetworkId, IISDB_NBIT::GetOriginalNetworkId, dvbsiparser/IISDB_NBIT::GetOriginalNetworkId, mstv.iisdb_nbit_getoriginalnetworkid
 ms.topic: method
-f1_keywords: 
- - "dvbsiparser/IISDB_NBIT.GetOriginalNetworkId"
+f1_keywords:
+- dvbsiparser/IISDB_NBIT.GetOriginalNetworkId
 dev_langs:
- - c++
+- c++
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dvbsiparser.h
+- dvbsiparser.h
 api_name:
- - IISDB_NBIT.GetOriginalNetworkId
+- IISDB_NBIT.GetOriginalNetworkId
 targetos: Windows
 req.typenames: 
 req.redist: 

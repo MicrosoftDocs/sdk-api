@@ -1,19 +1,17 @@
 ---
 UID: NF:vswriter.IVssComponent.GetAlternateLocationMappingCount
 title: IVssComponent::GetAlternateLocationMappingCount (vswriter.h)
-
 description: The GetAlternateLocationMappingCount method returns the number of alternate location mappings used by a requester in restoring data. Either a writer or a requester can call this method.
 old-location: base\ivsscomponent_getalternatelocationmappingcount.htm
 tech.root: VSS
 ms.assetid: 218dc021-0a9e-4ba7-95b7-e1f31e57e71c
-
 ms.date: 12/05/2018
 ms.keywords: GetAlternateLocationMappingCount, GetAlternateLocationMappingCount method [VSS], GetAlternateLocationMappingCount method [VSS],IVssComponent interface, IVssComponent interface [VSS],GetAlternateLocationMappingCount method, IVssComponent.GetAlternateLocationMappingCount, IVssComponent::GetAlternateLocationMappingCount, _win32_ivsscomponent_getalternatelocationmappingcount, base.ivsscomponent_getalternatelocationmappingcount, vswriter/IVssComponent::GetAlternateLocationMappingCount
 ms.topic: method
-f1_keywords: 
- - "vswriter/IVssComponent.GetAlternateLocationMappingCount"
+f1_keywords:
+- vswriter/IVssComponent.GetAlternateLocationMappingCount
 dev_langs:
- - c++
+- c++
 req.header: vswriter.h
 req.include-header: Vss.h, VsWriter.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: VssApi.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - VssApi.lib
- - VssApi.dll
+- VssApi.lib
+- VssApi.dll
 api_name:
- - IVssComponent.GetAlternateLocationMappingCount
+- IVssComponent.GetAlternateLocationMappingCount
 targetos: Windows
 req.typenames: 
 req.redist: 

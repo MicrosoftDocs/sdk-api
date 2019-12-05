@@ -1,19 +1,17 @@
 ---
 UID: NN:comsvcs.ICreateWithLocalTransaction
 title: ICreateWithLocalTransaction (comsvcs.h)
-
 description: Creates a COM+ object that executes within the scope of the specified local transaction.
 old-location: cos\icreatewithlocaltransaction.htm
 tech.root: cossdk
 ms.assetid: 667ebc77-943c-4cf0-90b4-7c28949f406e
-
 ms.date: 12/05/2018
 ms.keywords: ICreateWithLocalTransaction, ICreateWithLocalTransaction interface [COM+], ICreateWithLocalTransaction interface [COM+],described, comsvcs/ICreateWithLocalTransaction, cos.icreatewithlocaltransaction
 ms.topic: interface
-f1_keywords: 
- - "comsvcs/ICreateWithLocalTransaction"
+f1_keywords:
+- comsvcs/ICreateWithLocalTransaction
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - ICreateWithLocalTransaction
+- ICreateWithLocalTransaction
 targetos: Windows
 req.typenames: 
 req.redist: 

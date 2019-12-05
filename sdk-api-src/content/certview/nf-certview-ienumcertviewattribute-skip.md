@@ -1,19 +1,17 @@
 ---
 UID: NF:certview.IEnumCERTVIEWATTRIBUTE.Skip
 title: IEnumCERTVIEWATTRIBUTE::Skip (certview.h)
-
 description: Skips a specified number of attributes in the attribute-enumeration sequence.
 old-location: security\ienumcertviewattribute_skip.htm
 tech.root: SecCrypto
 ms.assetid: 546e7ad7-73f2-4f6e-8d02-a9ca5401ecce
-
 ms.date: 12/05/2018
 ms.keywords: IEnumCERTVIEWATTRIBUTE interface [Security],Skip method, IEnumCERTVIEWATTRIBUTE object [Security],Skip method, IEnumCERTVIEWATTRIBUTE.Skip, IEnumCERTVIEWATTRIBUTE::Skip, Skip, Skip method [Security], Skip method [Security],IEnumCERTVIEWATTRIBUTE interface, Skip method [Security],IEnumCERTVIEWATTRIBUTE object, _certsrv_ienumcertviewattribute_skip, certview/IEnumCERTVIEWATTRIBUTE::Skip, security.ienumcertviewattribute_skip
 ms.topic: method
-f1_keywords: 
- - "certview/IEnumCERTVIEWATTRIBUTE.Skip"
+f1_keywords:
+- certview/IEnumCERTVIEWATTRIBUTE.Skip
 dev_langs:
- - c++
+- c++
 req.header: certview.h
 req.include-header: Certsrv.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Certidl.lib
 req.dll: Certadm.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Certadm.dll
+- Certadm.dll
 api_name:
- - IEnumCERTVIEWATTRIBUTE.Skip
- - IEnumCERTVIEWATTRIBUTE.Skip
+- IEnumCERTVIEWATTRIBUTE.Skip
+- IEnumCERTVIEWATTRIBUTE.Skip
 targetos: Windows
 req.typenames: 
 req.redist: 

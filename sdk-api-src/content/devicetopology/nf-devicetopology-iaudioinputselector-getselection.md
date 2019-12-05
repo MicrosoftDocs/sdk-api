@@ -1,19 +1,17 @@
 ---
 UID: NF:devicetopology.IAudioInputSelector.GetSelection
 title: IAudioInputSelector::GetSelection (devicetopology.h)
-
 description: The GetSelection method gets the local ID of the part that is connected to the selector input that is currently selected.
 old-location: coreaudio\iaudioinputselector_getselection.htm
 tech.root: CoreAudio
 ms.assetid: 38288a63-62a3-4b06-b2e6-dbe8c27e09ad
-
 ms.date: 12/05/2018
 ms.keywords: GetSelection, GetSelection method [Core Audio], GetSelection method [Core Audio],IAudioInputSelector interface, IAudioInputSelector interface [Core Audio],GetSelection method, IAudioInputSelector.GetSelection, IAudioInputSelector::GetSelection, IAudioInputSelectorGetSelection, coreaudio.iaudioinputselector_getselection, devicetopology/IAudioInputSelector::GetSelection
 ms.topic: method
-f1_keywords: 
- - "devicetopology/IAudioInputSelector.GetSelection"
+f1_keywords:
+- devicetopology/IAudioInputSelector.GetSelection
 dev_langs:
- - c++
+- c++
 req.header: devicetopology.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Devicetopology.h
+- Devicetopology.h
 api_name:
- - IAudioInputSelector.GetSelection
+- IAudioInputSelector.GetSelection
 targetos: Windows
 req.typenames: 
 req.redist: 

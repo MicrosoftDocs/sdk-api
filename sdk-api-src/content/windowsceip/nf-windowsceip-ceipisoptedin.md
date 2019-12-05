@@ -1,19 +1,17 @@
 ---
 UID: NF:windowsceip.CeipIsOptedIn
 title: CeipIsOptedIn function (windowsceip.h)
-
 description: Checks whether the user has opted in for SQM data collection as part of the Customer Experience Improvement Program (CEIP).
 old-location: base\ceipisoptedin.htm
 tech.root: SysInfo
 ms.assetid: 4CDB5B09-B172-4E99-AB46-A08E32346266
-
 ms.date: 12/05/2018
 ms.keywords: CeipIsOptedIn, CeipIsOptedIn function, base.ceipisoptedin, windowsceip/ CeipIsOptedIn
 ms.topic: function
-f1_keywords: 
- - "windowsceip/CeipIsOptedIn"
+f1_keywords:
+- windowsceip/CeipIsOptedIn
 dev_langs:
- - c++
+- c++
 req.header: windowsceip.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-Windowsceip-L1-1-0.dll
- - KernelBase.dll
+- Kernel32.dll
+- API-MS-Win-Core-Windowsceip-L1-1-0.dll
+- KernelBase.dll
 api_name:
- - CeipIsOptedIn
+- CeipIsOptedIn
 targetos: Windows
 req.typenames: 
 req.redist: 

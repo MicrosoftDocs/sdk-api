@@ -1,19 +1,17 @@
 ---
 UID: NS:richedit._editstream
 title: EDITSTREAM (richedit.h)
-
 description: Contains information that an application passes to a rich edit control in a EM_STREAMIN or EM_STREAMOUT message. The rich edit control uses the information to transfer a stream of data into or out of the control.
 old-location: controls\EDITSTREAM.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\richeditcontrols\richeditcontrolreference\richeditstructures\editstream.htm
-
 ms.date: 12/05/2018
 ms.keywords: EDITSTREAM, EDITSTREAM structure [Windows Controls], _win32_EDITSTREAM_str, _win32_EDITSTREAM_str_cpp, controls.EDITSTREAM, controls._win32_EDITSTREAM_str, richedit/EDITSTREAM
 ms.topic: struct
-f1_keywords: 
- - "richedit/EDITSTREAM"
+f1_keywords:
+- richedit/EDITSTREAM
 dev_langs:
- - c++
+- c++
 req.header: richedit.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Richedit.h
+- Richedit.h
 api_name:
- - EDITSTREAM
+- EDITSTREAM
 targetos: Windows
 req.typenames: EDITSTREAM
 req.redist: 

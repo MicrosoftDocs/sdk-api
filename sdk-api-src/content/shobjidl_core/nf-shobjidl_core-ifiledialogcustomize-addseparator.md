@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IFileDialogCustomize.AddSeparator
 title: IFileDialogCustomize::AddSeparator (shobjidl_core.h)
-
 description: Adds a separator to the dialog, allowing a visual separation of controls.
 old-location: shell\IFileDialogCustomize_AddSeparator.htm
 tech.root: shell
 ms.assetid: e2d0f1c7-9296-4651-8910-89dcfe5a6a68
-
 ms.date: 12/05/2018
 ms.keywords: AddSeparator, AddSeparator method [Windows Shell], AddSeparator method [Windows Shell],IFileDialogCustomize interface, IFileDialogCustomize interface [Windows Shell],AddSeparator method, IFileDialogCustomize.AddSeparator, IFileDialogCustomize::AddSeparator, shell.IFileDialogCustomize_AddSeparator, shell_IFileDialogCustomize_AddSeparator, shobjidl_core/IFileDialogCustomize::AddSeparator
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IFileDialogCustomize.AddSeparator"
+f1_keywords:
+- shobjidl_core/IFileDialogCustomize.AddSeparator
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - IFileDialogCustomize.AddSeparator
+- IFileDialogCustomize.AddSeparator
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:faxcom.IFaxDoc.put_DiscountSend
 title: IFaxDoc::put_DiscountSend (faxcom.h)
-
 description: Sets or retrieves the DiscountSend property for a FaxDoc object. The DiscountSend property is a Boolean value that indicates whether the fax server transmits faxes during the discount period.
 old-location: fax\_mfax_ifaxdoc_mfax_ifaxdoc_get_discountsend_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_2usk.htm
-
 ms.date: 12/05/2018
 ms.keywords: DiscountSend property [Fax Service], DiscountSend property [Fax Service],IFaxDoc interface, IFaxDoc interface [Fax Service],DiscountSend property, IFaxDoc.DiscountSend, IFaxDoc.put_DiscountSend, IFaxDoc::DiscountSend, IFaxDoc::get_DiscountSend, IFaxDoc::put_DiscountSend, _mfax_ifaxdoc_get_discountsend, fax._mfax_ifaxdoc_get_discountsend, fax._mfax_ifaxdoc_mfax_ifaxdoc_get_discountsend_cpp, faxcom/IFaxDoc::DiscountSend, faxcom/IFaxDoc::get_DiscountSend, faxcom/IFaxDoc::put_DiscountSend, put_DiscountSend
 ms.topic: method
-f1_keywords: 
- - "faxcom/IFaxDoc.DiscountSend"
+f1_keywords:
+- faxcom/IFaxDoc.DiscountSend
 dev_langs:
- - c++
+- c++
 req.header: faxcom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: Faxcom.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Faxcom.dll
+- Faxcom.dll
 api_name:
- - IFaxDoc.DiscountSend
- - IFaxDoc.get_DiscountSend
- - IFaxDoc.put_DiscountSend
+- IFaxDoc.DiscountSend
+- IFaxDoc.get_DiscountSend
+- IFaxDoc.put_DiscountSend
 targetos: Windows
 req.typenames: 
 req.redist: 

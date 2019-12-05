@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi3if.ITAutomatedPhoneControl.get_AutoVolumeControl
 title: ITAutomatedPhoneControl::get_AutoVolumeControl (tapi3if.h)
-
 description: The get_AutoVolumeControl method retrieves the current value of the AutoVolumeControl property.
 old-location: tapi3\itautomatedphonecontrol_get_autovolumecontrol.htm
 tech.root: Tapi
 ms.assetid: 7dae6d41-59d8-40ab-901f-91d97b59ac83
-
 ms.date: 12/05/2018
 ms.keywords: ITAutomatedPhoneControl interface [TAPI 2.2],get_AutoVolumeControl method, ITAutomatedPhoneControl.get_AutoVolumeControl, ITAutomatedPhoneControl::get_AutoVolumeControl, _tapi3_itautomatedphonecontrol_get_autovolumecontrol, get_AutoVolumeControl, get_AutoVolumeControl method [TAPI 2.2], get_AutoVolumeControl method [TAPI 2.2],ITAutomatedPhoneControl interface, tapi3.itautomatedphonecontrol_get_autovolumecontrol, tapi3if/ITAutomatedPhoneControl::get_AutoVolumeControl
 ms.topic: method
-f1_keywords: 
- - "tapi3if/ITAutomatedPhoneControl.get_AutoVolumeControl"
+f1_keywords:
+- tapi3if/ITAutomatedPhoneControl.get_AutoVolumeControl
 dev_langs:
- - c++
+- c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Tapi3.dll
+- Tapi3.dll
 api_name:
- - ITAutomatedPhoneControl.get_AutoVolumeControl
+- ITAutomatedPhoneControl.get_AutoVolumeControl
 targetos: Windows
 req.typenames: 
 req.redist: 

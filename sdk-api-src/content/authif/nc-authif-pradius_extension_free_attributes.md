@@ -1,19 +1,17 @@
 ---
 UID: NC:authif.PRADIUS_EXTENSION_FREE_ATTRIBUTES
 title: PRADIUS_EXTENSION_FREE_ATTRIBUTES (authif.h)
-
 description: The RadiusExtensionFreeAttributes function is an application-defined function and is called by NPS to free the memory occupied by attributes returned by RadiusExtensionProcessEx.
 old-location: nps\IAS_radiusextensionfreeattributes.htm
 tech.root: Nps
 ms.assetid: 2b76c648-a8d6-440c-b0b8-7c17f91ad961
-
 ms.date: 12/05/2018
 ms.keywords: PRADIUS_EXTENSION_FREE_ATTRIBUTES, PRADIUS_EXTENSION_FREE_ATTRIBUTES callback, PRADIUS_EXTENSION_FREE_ATTRIBUTES callback function [Network Policy Server], RadiusExtensionFreeAttributes, _ias_radiusextensionfreeattributes, authif/PRADIUS_EXTENSION_FREE_ATTRIBUTES, ias.radiusextensionfreeattributes, nps.IAS_radiusextensionfreeattributes
 ms.topic: callback
-f1_keywords: 
- - "authif/PRADIUS_EXTENSION_FREE_ATTRIBUTES"
+f1_keywords:
+- authif/PRADIUS_EXTENSION_FREE_ATTRIBUTES
 dev_langs:
- - c++
+- c++
 req.header: authif.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - AuthIf.h
+- AuthIf.h
 api_name:
- - PRADIUS_EXTENSION_FREE_ATTRIBUTES
+- PRADIUS_EXTENSION_FREE_ATTRIBUTES
 targetos: Windows
 req.typenames: 
 req.redist: 

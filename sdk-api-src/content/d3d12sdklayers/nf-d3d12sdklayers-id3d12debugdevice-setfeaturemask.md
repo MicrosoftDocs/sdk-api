@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d12sdklayers.ID3D12DebugDevice.SetFeatureMask
 title: ID3D12DebugDevice::SetFeatureMask (d3d12sdklayers.h)
-
 description: Set a bit field of flags that will turn debug features on and off.
 old-location: direct3d12\id3d12debugdevice_setfeaturemask.htm
 tech.root: direct3d12
 ms.assetid: 12232AB8-BBEA-4663-BEB2-7E296851FE5E
-
 ms.date: 12/05/2018
 ms.keywords: ID3D12DebugDevice interface,SetFeatureMask method, ID3D12DebugDevice.SetFeatureMask, ID3D12DebugDevice::SetFeatureMask, SetFeatureMask, SetFeatureMask method, SetFeatureMask method,ID3D12DebugDevice interface, d3d12sdklayers/ID3D12DebugDevice::SetFeatureMask, direct3d12.id3d12debugdevice_setfeaturemask
 ms.topic: method
-f1_keywords: 
- - "d3d12sdklayers/ID3D12DebugDevice.SetFeatureMask"
+f1_keywords:
+- d3d12sdklayers/ID3D12DebugDevice.SetFeatureMask
 dev_langs:
- - c++
+- c++
 req.header: d3d12sdklayers.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - d3d12sdklayers.h
+- d3d12sdklayers.h
 api_name:
- - ID3D12DebugDevice.SetFeatureMask
+- ID3D12DebugDevice.SetFeatureMask
 targetos: Windows
 req.typenames: 
 req.redist: 

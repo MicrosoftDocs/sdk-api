@@ -1,19 +1,17 @@
 ---
 UID: NF:wsmandisp.IWSManEnumerator.ReadItem
 title: IWSManEnumerator::ReadItem (wsmandisp.h)
-
 description: Retrieves an item from the resource and returns an XML representation of the item.
 old-location: winrm\iwsmanenumerator_readitem.htm
 tech.root: winrm
 ms.assetid: 6b181a4b-347c-4874-969c-9ca7d36ec788
-
 ms.date: 12/05/2018
 ms.keywords: IWSManEnumerator interface [Windows Remote Management],ReadItem method, IWSManEnumerator.ReadItem, IWSManEnumerator::ReadItem, ReadItem, ReadItem method [Windows Remote Management], ReadItem method [Windows Remote Management],IWSManEnumerator interface, winrm.iwsmanenumerator_readitem, wsmandisp/IWSManEnumerator::ReadItem
 ms.topic: method
-f1_keywords: 
- - "wsmandisp/IWSManEnumerator.ReadItem"
+f1_keywords:
+- wsmandisp/IWSManEnumerator.ReadItem
 dev_langs:
- - c++
+- c++
 req.header: wsmandisp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: WSManDisp.tlb
 req.dll: WSMAuto.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - WSMAuto.dll
+- WSMAuto.dll
 api_name:
- - IWSManEnumerator.ReadItem
+- IWSManEnumerator.ReadItem
 targetos: Windows
 req.typenames: 
 req.redist: 

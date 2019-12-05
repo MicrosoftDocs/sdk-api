@@ -1,19 +1,17 @@
 ---
 UID: NF:mmc.IControlbar.Create
 title: IControlbar::Create (mmc.h)
-
 description: The IControlbar::Create method creates and returns the control requested by the snap-in.
 old-location: mmc\icontrolbar_create.htm
 tech.root: mmc
 ms.assetid: 2ce92539-f5dc-44c3-94e5-253fc9995932
-
 ms.date: 12/05/2018
 ms.keywords: Create, Create method [MMC], Create method [MMC],IControlbar interface, IControlbar interface [MMC],Create method, IControlbar.Create, IControlbar::Create, _slate_icontrolbar_create, mmc.icontrolbar_create, mmc/IControlbar::Create
 ms.topic: method
 f1_keywords:
 - mmc/IControlbar.Create
 dev_langs:
- - c++
+- c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows

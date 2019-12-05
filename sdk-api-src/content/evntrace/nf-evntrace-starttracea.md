@@ -1,19 +1,17 @@
 ---
 UID: NF:evntrace.StartTraceA
 title: StartTraceA function (evntrace.h)
-
 description: The StartTrace function registers and starts an event tracing session.
 old-location: etw\starttrace.htm
 tech.root: ETW
 ms.assetid: c040514a-733d-44b9-8300-a8341d2630b3
-
 ms.date: 12/05/2018
 ms.keywords: StartTrace, StartTrace function [ETW], StartTraceA, StartTraceW, _evt_starttrace, base.starttrace, etw.starttrace, evntrace/StartTrace, evntrace/StartTraceA, evntrace/StartTraceW
 ms.topic: function
-f1_keywords: 
- - "evntrace/StartTrace"
+f1_keywords:
+- evntrace/StartTrace
 dev_langs:
- - c++
+- c++
 req.header: evntrace.h
 req.include-header: 
 req.target-type: Windows
@@ -32,22 +30,22 @@ req.lib: Sechost.lib on Windows 8.1 and Windows Server 2012 R2; Advapi32.lib 
 req.dll: Sechost.dll on Windows 8.1 and Windows Server 2012 R2; Advapi32.dll on Windows 8, Windows Server 2012, Windows 7, Windows Server 2008 R2, Windows Server 2008, Windows Vista and Windows XP
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Sechost.dll
- - Advapi32.dll
- - AdvApi32Legacy.dll
- - API-MS-Win-DownLevel-AdvAPI32-l2-1-1.dll
- - API-MS-Win-Eventing-Controller-l1-1-0.dll
- - API-MS-Win-Eventing-Legacy-l1-1-0.dll
- - KernelBase.dll
+- Sechost.dll
+- Advapi32.dll
+- AdvApi32Legacy.dll
+- API-MS-Win-DownLevel-AdvAPI32-l2-1-1.dll
+- API-MS-Win-Eventing-Controller-l1-1-0.dll
+- API-MS-Win-Eventing-Legacy-l1-1-0.dll
+- KernelBase.dll
 api_name:
- - StartTrace
- - StartTraceA
- - StartTraceW
+- StartTrace
+- StartTraceA
+- StartTraceW
 targetos: Windows
 req.typenames: 
 req.redist: 

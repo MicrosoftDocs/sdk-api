@@ -1,19 +1,17 @@
 ---
 UID: NF:combaseapi.CoRegisterPSClsid
 title: CoRegisterPSClsid function (combaseapi.h)
-
 description: Enables a downloaded DLL to register its custom interfaces within its running process so that the marshaling code will be able to marshal those interfaces.
 old-location: com\coregisterpsclsid.htm
 tech.root: com
 ms.assetid: a73dbd6d-d3f2-48d7-b053-b62f2f18f2d6
-
 ms.date: 12/05/2018
 ms.keywords: CoRegisterPSClsid, CoRegisterPSClsid function [COM], _com_CoRegisterPSClsid, com.coregisterpsclsid, combaseapi/CoRegisterPSClsid
 ms.topic: function
-f1_keywords: 
- - "combaseapi/CoRegisterPSClsid"
+f1_keywords:
+- combaseapi/CoRegisterPSClsid
 dev_langs:
- - c++
+- c++
 req.header: combaseapi.h
 req.include-header: Objbase.h
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib: Ole32.lib
 req.dll: Ole32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ole32.dll
- - API-MS-Win-Core-Com-l1-1-0.dll
- - ComBase.dll
- - API-MS-Win-Core-Com-l1-1-1.dll
- - API-MS-Win-DownLevel-Ole32-l1-1-1.dll
+- Ole32.dll
+- API-MS-Win-Core-Com-l1-1-0.dll
+- ComBase.dll
+- API-MS-Win-Core-Com-l1-1-1.dll
+- API-MS-Win-DownLevel-Ole32-l1-1-1.dll
 api_name:
- - CoRegisterPSClsid
+- CoRegisterPSClsid
 targetos: Windows
 req.typenames: 
 req.redist: 

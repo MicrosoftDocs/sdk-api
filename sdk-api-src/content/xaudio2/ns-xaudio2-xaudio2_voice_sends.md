@@ -1,19 +1,17 @@
 ---
 UID: NS:xaudio2.XAUDIO2_VOICE_SENDS
 title: XAUDIO2_VOICE_SENDS (xaudio2.h)
-
 description: Defines a set of voices to receive data from a single output voice.
 old-location: xaudio2\xaudio2_voice_sends.htm
 tech.root: xaudio2
 ms.assetid: T:Microsoft.directx_sdk.xaudio2.XAUDIO2_VOICE_SENDS
-
 ms.date: 12/05/2018
 ms.keywords: XAUDIO2_VOICE_SENDS, XAUDIO2_VOICE_SENDS structure [XAudio2 Audio Mixing APIs], xaudio2.xaudio2_voice_sends, xaudio2/XAUDIO2_VOICE_SENDS
 ms.topic: struct
-f1_keywords: 
- - "xaudio2/XAUDIO2_VOICE_SENDS"
+f1_keywords:
+- xaudio2/XAUDIO2_VOICE_SENDS
 dev_langs:
- - c++
+- c++
 req.header: xaudio2.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - xaudio2.h
+- xaudio2.h
 api_name:
- - XAUDIO2_VOICE_SENDS
+- XAUDIO2_VOICE_SENDS
 targetos: Windows
 req.typenames: XAUDIO2_VOICE_SENDS
 req.redist: 

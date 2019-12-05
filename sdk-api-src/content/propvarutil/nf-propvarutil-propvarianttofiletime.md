@@ -1,19 +1,17 @@
 ---
 UID: NF:propvarutil.PropVariantToFileTime
 title: PropVariantToFileTime function (propvarutil.h)
-
 description: Extracts the FILETIME structure from a PROPVARIANT structure.
 old-location: properties\PropVariantToFileTime.htm
 tech.root: properties
 ms.assetid: fc835395-8c2c-4f6a-88be-f438625442b9
-
 ms.date: 12/05/2018
 ms.keywords: PSTF_LOCAL, PSTF_UTC, PropVariantToFileTime, PropVariantToFileTime function [Windows Properties], _shell_PropVariantToFileTime, properties.PropVariantToFileTime, propvarutil/PropVariantToFileTime, shell.PropVariantToFileTime
 ms.topic: function
-f1_keywords: 
- - "propvarutil/PropVariantToFileTime"
+f1_keywords:
+- propvarutil/PropVariantToFileTime
 dev_langs:
- - c++
+- c++
 req.header: propvarutil.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Propsys.lib
 req.dll: Propsys.dll (version 6.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Propsys.dll
+- Propsys.dll
 api_name:
- - PropVariantToFileTime
+- PropVariantToFileTime
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0

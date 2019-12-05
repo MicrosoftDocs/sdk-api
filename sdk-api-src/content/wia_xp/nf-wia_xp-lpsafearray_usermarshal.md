@@ -1,19 +1,17 @@
 ---
 UID: NF:wia_xp.LPSAFEARRAY_UserMarshal
 title: LPSAFEARRAY_UserMarshal function (wia_xp.h)
-
 description: Marshals data from the specified SAFEARRAY object to the user's RPC buffer on the client or server side.
 old-location: automat\lpsafearray_usermarshal.htm
 tech.root: automat
 ms.assetid: 8255d1a0-b102-443d-a10f-8c6bd9047703
-
 ms.date: 12/05/2018
 ms.keywords: LPSAFEARRAY_UserMarshal, LPSAFEARRAY_UserMarshal function [Automation], _oa96_LPSAFEARRAY_UserMarshal, automat.lpsafearray_usermarshal, wia_xp/LPSAFEARRAY_UserMarshal
 ms.topic: function
-f1_keywords: 
- - "wia_xp/LPSAFEARRAY_UserMarshal"
+f1_keywords:
+- wia_xp/LPSAFEARRAY_UserMarshal
 dev_langs:
- - c++
+- c++
 req.header: wia_xp.h
 req.include-header: Propidlbase.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: OleAut32.lib
 req.dll: OleAut32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - OleAut32.dll
+- OleAut32.dll
 api_name:
- - LPSAFEARRAY_UserMarshal
+- LPSAFEARRAY_UserMarshal
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:comsvcs.IComCRMEvents.OnCRMAnalyze
 title: IComCRMEvents::OnCRMAnalyze (comsvcs.h)
-
 description: Generated when a CRM clerk receives a record during the analysis phase of recovery.
 old-location: cos\icomcrmevents_oncrmanalyze.htm
 tech.root: cossdk
 ms.assetid: 08bdc192-f1f8-4d0d-a432-cf6316d8033a
-
 ms.date: 12/05/2018
 ms.keywords: IComCRMEvents interface [COM+],OnCRMAnalyze method, IComCRMEvents.OnCRMAnalyze, IComCRMEvents::OnCRMAnalyze, OnCRMAnalyze, OnCRMAnalyze method [COM+], OnCRMAnalyze method [COM+],IComCRMEvents interface, _dtc_IComCRMEvents_OnCRMAnalyze, comsvcs/IComCRMEvents::OnCRMAnalyze, cos.icomcrmevents_oncrmanalyze
 ms.topic: method
-f1_keywords: 
- - "comsvcs/IComCRMEvents.OnCRMAnalyze"
+f1_keywords:
+- comsvcs/IComCRMEvents.OnCRMAnalyze
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - IComCRMEvents.OnCRMAnalyze
+- IComCRMEvents.OnCRMAnalyze
 targetos: Windows
 req.typenames: 
 req.redist: 

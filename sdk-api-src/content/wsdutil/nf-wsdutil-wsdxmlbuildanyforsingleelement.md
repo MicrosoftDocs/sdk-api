@@ -1,19 +1,17 @@
 ---
 UID: NF:wsdutil.WSDXMLBuildAnyForSingleElement
 title: WSDXMLBuildAnyForSingleElement function (wsdutil.h)
-
 description: Creates an XML element with a specified name and value.
 old-location: ncd\wsdxmlbuildanyforsingleelement.htm
 tech.root: WsdApi
 ms.assetid: 2a8b9b4a-0a08-442a-896f-f980bff28f03
-
 ms.date: 12/05/2018
 ms.keywords: WSDXMLBuildAnyForSingleElement, WSDXMLBuildAnyForSingleElement function, ncd.wsdxmlbuildanyforsingleelement, wsdutil/WSDXMLBuildAnyForSingleElement
 ms.topic: function
 f1_keywords:
 - wsdutil/WSDXMLBuildAnyForSingleElement
 dev_langs:
- - c++
+- c++
 req.header: wsdutil.h
 req.include-header: Wsdapi.h
 req.target-type: Windows

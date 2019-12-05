@@ -1,19 +1,17 @@
 ---
 UID: NF:vidcap.ICameraControl.getRange_FocusRelative
 title: ICameraControl::getRange_FocusRelative (vidcap.h)
-
 description: The getRange_FocusRelative method returns the range of relative focal distances supported by the camera. The relative focus indicates the direction in which the lens group is moving.
 old-location: dshow\icameracontrol_getrange_focusrelative.htm
 tech.root: DirectShow
 ms.assetid: c5038a59-bdc4-4034-afd1-256003687187
-
 ms.date: 12/05/2018
 ms.keywords: ICameraControl interface [DirectShow],getRange_FocusRelative method, ICameraControl.getRange_FocusRelative, ICameraControl::getRange_FocusRelative, ICameraControlgetRange_FocusRelative, dshow.icameracontrol_getrange_focusrelative, getRange_FocusRelative, getRange_FocusRelative method [DirectShow], getRange_FocusRelative method [DirectShow],ICameraControl interface, vidcap/ICameraControl::getRange_FocusRelative
 ms.topic: method
-f1_keywords: 
- - "vidcap/ICameraControl.getRange_FocusRelative"
+f1_keywords:
+- vidcap/ICameraControl.getRange_FocusRelative
 dev_langs:
- - c++
+- c++
 req.header: vidcap.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - ICameraControl.getRange_FocusRelative
+- ICameraControl.getRange_FocusRelative
 targetos: Windows
 req.typenames: 
 req.redist: 

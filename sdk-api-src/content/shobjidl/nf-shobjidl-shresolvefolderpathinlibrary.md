@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl.SHResolveFolderPathInLibrary
 title: SHResolveFolderPathInLibrary function (shobjidl.h)
-
 description: Attempts to resolve the target location of a library folder that has been moved or renamed.
 old-location: shell\SHResolveFolderPathInLibrary.htm
 tech.root: shell
 ms.assetid: e9c8aacd-9abb-4640-b9ed-1fa417d4d4cc
-
 ms.date: 12/05/2018
 ms.keywords: SHResolveFolderPathInLibrary, SHResolveFolderPathInLibrary function [Windows Shell], _shell_SHResolveFolderPathInLibrary, shell.SHResolveFolderPathInLibrary, shobjidl/SHResolveFolderPathInLibrary
 ms.topic: function
-f1_keywords: 
- - "shobjidl/SHResolveFolderPathInLibrary"
+f1_keywords:
+- shobjidl/SHResolveFolderPathInLibrary
 dev_langs:
- - c++
+- c++
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Shobjidl.h
+- Shobjidl.h
 api_name:
- - SHResolveFolderPathInLibrary
+- SHResolveFolderPathInLibrary
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:faxcomex.IFaxOutgoingJob.Refresh
 title: IFaxOutgoingJob::Refresh (faxcomex.h)
-
 description: The Refresh method refreshes FaxOutgoingJob object information from the fax server.
 old-location: fax\_mfax_faxoutgoingjob_cpp_mfax_faxoutgoingjob_refresh_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_2oq0.htm
-
 ms.date: 12/05/2018
 ms.keywords: IFaxOutgoingJob interface [Fax Service],Refresh method, IFaxOutgoingJob.Refresh, IFaxOutgoingJob::Refresh, Refresh, Refresh method [Fax Service], Refresh method [Fax Service],IFaxOutgoingJob interface, _mfax_faxoutgoingjob.refresh, fax._mfax_faxoutgoingjob_cpp_mfax_faxoutgoingjob_refresh_cpp, fax._mfax_faxoutgoingjob_refresh, faxcomex/IFaxOutgoingJob::Refresh
 ms.topic: method
-f1_keywords: 
- - "faxcomex/IFaxOutgoingJob.Refresh"
+f1_keywords:
+- faxcomex/IFaxOutgoingJob.Refresh
 dev_langs:
- - c++
+- c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: Fxscomex.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Fxscomex.dll
+- Fxscomex.dll
 api_name:
- - IFaxOutgoingJob.Refresh
- - IFaxOutgoingJob.Refresh
+- IFaxOutgoingJob.Refresh
+- IFaxOutgoingJob.Refresh
 targetos: Windows
 req.typenames: 
 req.redist: 

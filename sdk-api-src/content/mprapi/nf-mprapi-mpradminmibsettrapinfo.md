@@ -1,19 +1,17 @@
 ---
 UID: NF:mprapi.MprAdminMIBSetTrapInfo
 title: MprAdminMIBSetTrapInfo function (mprapi.h)
-
 description: The MprAdminMIBSetTrapInfo function specifies a handle to an event that is signaled whenever a TRAP needs to be issued.
 old-location: rras\mpradminmibsettrapinfo.htm
 tech.root: RRAS
 ms.assetid: fc223682-9dd9-4d3f-8cfb-ec7c438f68e7
-
 ms.date: 12/05/2018
 ms.keywords: MprAdminMIBSetTrapInfo, MprAdminMIBSetTrapInfo function [RAS], _mpr_mpradminmibsettrapinfo, mprapi/MprAdminMIBSetTrapInfo, rras.mpradminmibsettrapinfo
 ms.topic: function
-f1_keywords: 
- - "mprapi/MprAdminMIBSetTrapInfo"
+f1_keywords:
+- mprapi/MprAdminMIBSetTrapInfo
 dev_langs:
- - c++
+- c++
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Mprapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Mprapi.dll
+- Mprapi.dll
 api_name:
- - MprAdminMIBSetTrapInfo
+- MprAdminMIBSetTrapInfo
 targetos: Windows
 req.typenames: 
 req.redist: 

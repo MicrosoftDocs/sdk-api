@@ -1,19 +1,17 @@
 ---
 UID: NN:strmif.IFileSinkFilter
 title: IFileSinkFilter (strmif.h)
-
 description: The IFileSinkFilter interface is implemented on filters that write media streams to a file.
 old-location: dshow\ifilesinkfilter.htm
 tech.root: DirectShow
 ms.assetid: aa1d3f8e-9790-4442-ba7e-896981bf1b96
-
 ms.date: 12/05/2018
 ms.keywords: IFileSinkFilter, IFileSinkFilter interface [DirectShow], IFileSinkFilter interface [DirectShow],described, IFileSinkFilterInterface, dshow.ifilesinkfilter, strmif/IFileSinkFilter
 ms.topic: interface
-f1_keywords: 
- - "strmif/IFileSinkFilter"
+f1_keywords:
+- strmif/IFileSinkFilter
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IFileSinkFilter
+- IFileSinkFilter
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:d2d1.ID2D1RenderTarget.FillRectangle(const D2D1_RECT_F,ID2D1Brush)
 title: ID2D1RenderTarget::FillRectangle (d2d1.h)
-
 description: Paints the interior of the specified rectangle.
 old-location: direct2d\id2d1rendertarget_fillrectangle.htm
 tech.root: Direct2D
 ms.assetid: 08e498f9-b564-4da6-ba9b-bff08964ce08
-
 ms.date: 12/05/2018
 ms.keywords: FillRectangle, FillRectangle methods [Direct2D], ID2D1RenderTarget.FillRectangle, ID2D1RenderTarget::FillRectangle, d2d1_1/FillRectangle, direct2d.id2d1rendertarget_fillrectangle
 ms.topic: method
-f1_keywords: 
- - "d2d1/ID2D1RenderTarget::FillRectangle"
+f1_keywords:
+- d2d1/ID2D1RenderTarget::FillRectangle
 dev_langs:
- - c++
+- c++
 req.header: d2d1.h
 req.include-header: D2d1.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: D2d1.lib
 req.dll: D2d1.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - D2d1.dll
+- D2d1.dll
 api_name:
- - ID2D1RenderTarget::FillRectangle
+- ID2D1RenderTarget::FillRectangle
 targetos: Windows
 req.typenames: 
 req.redist: 

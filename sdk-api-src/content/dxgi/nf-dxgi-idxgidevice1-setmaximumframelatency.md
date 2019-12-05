@@ -1,19 +1,17 @@
 ---
 UID: NF:dxgi.IDXGIDevice1.SetMaximumFrameLatency
 title: IDXGIDevice1::SetMaximumFrameLatency (dxgi.h)
-
 description: Sets the number of frames that the system is allowed to queue for rendering.
 old-location: direct3ddxgi\idxgidevice1_setmaximumframelatency.htm
 tech.root: direct3ddxgi
 ms.assetid: ea477f33-2dba-44ac-9b47-8fd2ce6cec30
-
 ms.date: 12/05/2018
 ms.keywords: IDXGIDevice1 interface [DXGI],SetMaximumFrameLatency method, IDXGIDevice1.SetMaximumFrameLatency, IDXGIDevice1::SetMaximumFrameLatency, SetMaximumFrameLatency, SetMaximumFrameLatency method [DXGI], SetMaximumFrameLatency method [DXGI],IDXGIDevice1 interface, da92b152-07cc-06ca-caa5-a8982fe8fc2f, direct3ddxgi.idxgidevice1_setmaximumframelatency, dxgi/IDXGIDevice1::SetMaximumFrameLatency
 ms.topic: method
-f1_keywords: 
- - "dxgi/IDXGIDevice1.SetMaximumFrameLatency"
+f1_keywords:
+- dxgi/IDXGIDevice1.SetMaximumFrameLatency
 dev_langs:
- - c++
+- c++
 req.header: dxgi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: DXGI.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - DXGI.lib
- - DXGI.dll
+- DXGI.lib
+- DXGI.dll
 api_name:
- - IDXGIDevice1.SetMaximumFrameLatency
+- IDXGIDevice1.SetMaximumFrameLatency
 targetos: Windows
 req.typenames: 
 req.redist: 

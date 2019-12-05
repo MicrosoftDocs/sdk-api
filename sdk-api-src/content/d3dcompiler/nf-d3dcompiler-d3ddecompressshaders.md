@@ -1,19 +1,17 @@
 ---
 UID: NF:d3dcompiler.D3DDecompressShaders
 title: D3DDecompressShaders function (d3dcompiler.h)
-
 description: Decompresses one or more shaders from a compressed set.
 old-location: direct3dhlsl\d3ddecompressshaders.htm
 tech.root: direct3dhlsl
 ms.assetid: 9b62026f-0658-405c-8f45-ee921213148a
-
 ms.date: 12/05/2018
 ms.keywords: D3DDecompressShaders, D3DDecompressShaders function [HLSL], d3dcompiler/D3DDecompressShaders, direct3dhlsl.d3ddecompressshaders
 ms.topic: function
-f1_keywords: 
- - "d3dcompiler/D3DDecompressShaders"
+f1_keywords:
+- d3dcompiler/D3DDecompressShaders
 dev_langs:
- - c++
+- c++
 req.header: d3dcompiler.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: D3DCompiler.lib
 req.dll: D3DCompiler_47.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - D3DCompiler_47.dll
+- D3DCompiler_47.dll
 api_name:
- - D3DDecompressShaders
+- D3DDecompressShaders
 targetos: Windows
 req.typenames: 
 req.redist: 

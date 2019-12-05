@@ -1,19 +1,17 @@
 ---
 UID: NN:objidl.IPipeByte
 title: IPipeByte (objidl.h)
-
 description: Transfers data of the byte type (which is 8 bits wide).
 old-location: com\ipipebyte.htm
 tech.root: com
 ms.assetid: e3e01280-c015-488a-8be4-9740c44c0041
-
 ms.date: 12/05/2018
 ms.keywords: IPipeByte, IPipeByte interface [COM], IPipeByte interface [COM],described, _com_ipipebyte, com.ipipebyte, objidlbase/IPipeByte
 ms.topic: interface
-f1_keywords: 
- - "objidl/IPipeByte"
+f1_keywords:
+- objidl/IPipeByte
 dev_langs:
- - c++
+- c++
 req.header: objidl.h
 req.include-header: ObjIdl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - objidlbase.h
+- objidlbase.h
 api_name:
- - IPipeByte
+- IPipeByte
 targetos: Windows
 req.typenames: 
 req.redist: 

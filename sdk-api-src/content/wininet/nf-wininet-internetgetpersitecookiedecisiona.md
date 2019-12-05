@@ -1,19 +1,17 @@
 ---
 UID: NF:wininet.InternetGetPerSiteCookieDecisionA
 title: InternetGetPerSiteCookieDecisionA function (wininet.h)
-
 description: Retrieves a decision on cookies for a given domain.
 old-location: wininet\internetgetpersitecookiedecision.htm
 tech.root: wininet
 ms.assetid: 04fa4c33-077c-4b16-8170-c3770783c98a
-
 ms.date: 12/05/2018
 ms.keywords: InternetGetPerSiteCookieDecision, InternetGetPerSiteCookieDecision function [WinINet], InternetGetPerSiteCookieDecisionA, InternetGetPerSiteCookieDecisionW, wininet.internetgetpersitecookiedecision, wininet/InternetGetPerSiteCookieDecision, wininet/InternetGetPerSiteCookieDecisionA, wininet/InternetGetPerSiteCookieDecisionW
 ms.topic: function
-f1_keywords: 
- - "wininet/InternetGetPerSiteCookieDecision"
+f1_keywords:
+- wininet/InternetGetPerSiteCookieDecision
 dev_langs:
- - c++
+- c++
 req.header: wininet.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Wininet.lib
 req.dll: Wininet.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Wininet.dll
+- Wininet.dll
 api_name:
- - InternetGetPerSiteCookieDecision
- - InternetGetPerSiteCookieDecisionA
- - InternetGetPerSiteCookieDecisionW
+- InternetGetPerSiteCookieDecision
+- InternetGetPerSiteCookieDecisionA
+- InternetGetPerSiteCookieDecisionW
 targetos: Windows
 req.typenames: 
 req.redist: 

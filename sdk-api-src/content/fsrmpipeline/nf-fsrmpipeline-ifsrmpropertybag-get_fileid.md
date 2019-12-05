@@ -1,19 +1,17 @@
 ---
 UID: NF:fsrmpipeline.IFsrmPropertyBag.get_FileId
 title: IFsrmPropertyBag::get_FileId (fsrmpipeline.h)
-
 description: The NTFS file identifier of the file.
 old-location: fsrm\ifsrmpropertybag_fileid.htm
 tech.root: fsrm
 ms.assetid: dc5df8d8-4998-4a4e-814b-f3119a156e14
-
 ms.date: 12/05/2018
 ms.keywords: FileId property [File Server Resource Manager], FileId property [File Server Resource Manager],IFsrmPropertyBag interface, IFsrmPropertyBag interface [File Server Resource Manager],FileId property, IFsrmPropertyBag.FileId, IFsrmPropertyBag.get_FileId, IFsrmPropertyBag::FileId, IFsrmPropertyBag::get_FileId, fs.ifsrmpropertybag_fileid, fsrm.ifsrmpropertybag_fileid, fsrmpipeline/IFsrmPropertyBag::FileId, fsrmpipeline/IFsrmPropertyBag::get_FileId, get_FileId
 ms.topic: method
-f1_keywords: 
- - "fsrmpipeline/IFsrmPropertyBag.FileId"
+f1_keywords:
+- fsrmpipeline/IFsrmPropertyBag.FileId
 dev_langs:
- - c++
+- c++
 req.header: fsrmpipeline.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: SrmSvc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - SrmSvc.dll
+- SrmSvc.dll
 api_name:
- - IFsrmPropertyBag.FileId
- - IFsrmPropertyBag.get_FileId
+- IFsrmPropertyBag.FileId
+- IFsrmPropertyBag.get_FileId
 targetos: Windows
 req.typenames: 
 req.redist: 

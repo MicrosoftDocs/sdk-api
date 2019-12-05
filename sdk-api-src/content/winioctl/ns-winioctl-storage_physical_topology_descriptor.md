@@ -1,19 +1,17 @@
 ---
 UID: NS:winioctl._STORAGE_PHYSICAL_TOPOLOGY_DESCRIPTOR
 title: STORAGE_PHYSICAL_TOPOLOGY_DESCRIPTOR
-
 description: The STORAGE_PHYSICAL_TOPOLOGY_DESCRIPTOR structure is one of the query result structures returned from an IOCTL_STORAGE_QUERY_PROPERTY request.
 old-location: fs\storage_physical_topology_descriptor.htm
 tech.root: FileIO
 ms.assetid: CD596355-228D-4054-B77F-83F323AB3D0B
-
 ms.date: 12/05/2018
 ms.keywords: '*PSTORAGE_PHYSICAL_TOPOLOGY_DESCRIPTOR, PSTORAGE_PHYSICAL_TOPOLOGY_DESCRIPTOR, PSTORAGE_PHYSICAL_TOPOLOGY_DESCRIPTOR structure pointer [Files], STORAGE_PHYSICAL_TOPOLOGY_DESCRIPTOR, STORAGE_PHYSICAL_TOPOLOGY_DESCRIPTOR structure [Files], fs.storage_physical_topology_descriptor, winioctl/PSTORAGE_PHYSICAL_TOPOLOGY_DESCRIPTOR, winioctl/STORAGE_PHYSICAL_TOPOLOGY_DESCRIPTOR'
 ms.topic: struct
 f1_keywords:
 - winioctl/STORAGE_PHYSICAL_TOPOLOGY_DESCRIPTOR
 dev_langs:
- - c++
+- c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

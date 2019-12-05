@@ -1,19 +1,17 @@
 ---
 UID: NL:provider.Provider
 title: Provider (provider.h)
-
 description: The Provider class is the base class for the class or classes that the framework provider supports.
 old-location: wmi\provider.htm
 tech.root: WmiSdk
 ms.assetid: d8a7c433-7e6a-45cc-914f-a15a3688c7aa
-
 ms.date: 12/05/2018
-ms.keywords: "??1Provider@@UAE@XZ, ??1Provider@@UEAA@XZ, Provider, Provider class [Windows Management Instrumentation], Provider class [Windows Management Instrumentation],described, _hmm_provider, provider/Provider, wmi.provider"
+ms.keywords: ??1Provider@@UAE@XZ, ??1Provider@@UEAA@XZ, Provider, Provider class [Windows Management Instrumentation], Provider class [Windows Management Instrumentation],described, _hmm_provider, provider/Provider, wmi.provider
 ms.topic: class
-f1_keywords: 
- - "provider/Provider"
+f1_keywords:
+- provider/Provider
 dev_langs:
- - c++
+- c++
 req.header: provider.h
 req.include-header: FwCommon.h
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib: FrameDyn.lib
 req.dll: FrameDynOS.dll; FrameDyn.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - FrameDynOS.dll
- - FrameDyn.dll
- - sqlmgmprovider.dll
+- FrameDynOS.dll
+- FrameDyn.dll
+- sqlmgmprovider.dll
 api_name:
- - Provider
- - ??1Provider@@UAE@XZ
- - ??1Provider@@UEAA@XZ
+- Provider
+- ??1Provider@@UAE@XZ
+- ??1Provider@@UEAA@XZ
 targetos: Windows
 req.typenames: 
 req.redist: 

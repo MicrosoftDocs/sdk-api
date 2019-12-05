@@ -1,19 +1,17 @@
 ---
 UID: NS:dpa_dsa._DPASTREAMINFO
 title: DPASTREAMINFO (dpa_dsa.h)
-
 description: Contains a stream item used by the PFNDPASTREAM callback function.
 old-location: controls\DPASTREAMINFO.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\common\structures\dpastreaminfo.htm
-
 ms.date: 12/05/2018
 ms.keywords: DPASTREAMINFO, DPASTREAMINFO structure [Windows Controls], _win32_DPASTREAMINFO, _win32_DPASTREAMINFO_cpp, controls.DPASTREAMINFO, controls._win32_DPASTREAMINFO, dpa_dsa/DPASTREAMINFO
 ms.topic: struct
-f1_keywords: 
- - "dpa_dsa/DPASTREAMINFO"
+f1_keywords:
+- dpa_dsa/DPASTREAMINFO
 dev_langs:
- - c++
+- c++
 req.header: dpa_dsa.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - dpa_dsa.h
+- dpa_dsa.h
 api_name:
- - DPASTREAMINFO
+- DPASTREAMINFO
 targetos: Windows
 req.typenames: DPASTREAMINFO
 req.redist: 

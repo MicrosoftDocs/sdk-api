@@ -1,19 +1,17 @@
 ---
 UID: NF:dxgi1_3.IDXGIDecodeSwapChain.SetSourceRect
 title: IDXGIDecodeSwapChain::SetSourceRect (dxgi1_3.h)
-
 description: Sets the rectangle that defines the source region for the video processing blit operation.
 old-location: direct3ddxgi\idxgidecodeswapchain_setsourcerect.htm
 tech.root: direct3ddxgi
 ms.assetid: E614D9C2-9AAC-4ADC-9B7B-99C47975DA07
-
 ms.date: 12/05/2018
 ms.keywords: IDXGIDecodeSwapChain interface [DXGI],SetSourceRect method, IDXGIDecodeSwapChain.SetSourceRect, IDXGIDecodeSwapChain::SetSourceRect, SetSourceRect, SetSourceRect method [DXGI], SetSourceRect method [DXGI],IDXGIDecodeSwapChain interface, direct3ddxgi.idxgidecodeswapchain_setsourcerect, dxgi1_3/IDXGIDecodeSwapChain::SetSourceRect
 ms.topic: method
-f1_keywords: 
- - "dxgi1_3/IDXGIDecodeSwapChain.SetSourceRect"
+f1_keywords:
+- dxgi1_3/IDXGIDecodeSwapChain.SetSourceRect
 dev_langs:
- - c++
+- c++
 req.header: dxgi1_3.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Dxgi.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dxgi.lib
- - Dxgi.dll
+- Dxgi.lib
+- Dxgi.dll
 api_name:
- - IDXGIDecodeSwapChain.SetSourceRect
+- IDXGIDecodeSwapChain.SetSourceRect
 targetos: Windows
 req.typenames: 
 req.redist: 

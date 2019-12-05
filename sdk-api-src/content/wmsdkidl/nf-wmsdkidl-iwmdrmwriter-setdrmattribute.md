@@ -1,19 +1,17 @@
 ---
 UID: NF:wmsdkidl.IWMDRMWriter.SetDRMAttribute
 title: IWMDRMWriter::SetDRMAttribute (wmsdkidl.h)
-
 description: The SetDRMAttribute method sets DRM-header attributes as well as other DRM run-time properties.
 old-location: wmformat\iwmdrmwriter_setdrmattribute.htm
 tech.root: wmformat
 ms.assetid: f54bba2a-872e-4ed1-b2c6-3e6b85a48df6
-
 ms.date: 12/05/2018
 ms.keywords: IWMDRMWriter interface [windows Media Format],SetDRMAttribute method, IWMDRMWriter.SetDRMAttribute, IWMDRMWriter::SetDRMAttribute, IWMDRMWriterSetDRMAttribute, SetDRMAttribute, SetDRMAttribute method [windows Media Format], SetDRMAttribute method [windows Media Format],IWMDRMWriter interface, wmformat.iwmdrmwriter_setdrmattribute, wmsdkidl/IWMDRMWriter::SetDRMAttribute
 ms.topic: method
-f1_keywords: 
- - "wmsdkidl/IWMDRMWriter.SetDRMAttribute"
+f1_keywords:
+- wmsdkidl/IWMDRMWriter.SetDRMAttribute
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wmvcore.lib
- - Wmvcore.dll
- - WMStubDRM.lib
- - WMStubDRM.dll
+- Wmvcore.lib
+- Wmvcore.dll
+- WMStubDRM.lib
+- WMStubDRM.dll
 api_name:
- - IWMDRMWriter.SetDRMAttribute
+- IWMDRMWriter.SetDRMAttribute
 targetos: Windows
 req.typenames: 
 req.redist: 

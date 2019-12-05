@@ -1,19 +1,17 @@
 ---
 UID: NF:mi.MI_Class_Delete
 title: MI_Class_Delete function (mi.h)
-
 description: Deletes an MI_Class object.
 old-location: wmi_v2\mi_class_delete.htm
 tech.root: wmi_v2
 ms.assetid: a2794f8f-a69a-49f3-8d7e-512c80ea782b
-
 ms.date: 12/05/2018
 ms.keywords: MI_Class_Delete, MI_Class_Delete function [Windows Management Infrastructure (MI)], mi/MI_Class_Delete, wmi_v2.mi_class_delete
 ms.topic: function
 f1_keywords:
 - mi/MI_Class_Delete
 dev_langs:
- - c++
+- c++
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows

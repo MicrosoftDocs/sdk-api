@@ -1,19 +1,17 @@
 ---
 UID: NF:winsock2.accept
 title: accept function (winsock2.h)
-
 description: The accept function permits an incoming connection attempt on a socket.
 old-location: winsock\accept_2.htm
 tech.root: WinSock
 ms.assetid: 72246263-4806-4ab2-9b26-89a1782a954b
-
 ms.date: 12/05/2018
-ms.keywords: "_win32_accept_2, accept, accept function [Winsock], winsock.accept_2, winsock2/accept"
+ms.keywords: _win32_accept_2, accept, accept function [Winsock], winsock.accept_2, winsock2/accept
 ms.topic: function
-f1_keywords: 
- - "winsock2/accept"
+f1_keywords:
+- winsock2/accept
 dev_langs:
- - c++
+- c++
 req.header: winsock2.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Ws2_32.lib
 req.dll: Ws2_32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ws2_32.dll
+- Ws2_32.dll
 api_name:
- - accept
+- accept
 targetos: Windows
 req.typenames: 
 req.redist: 

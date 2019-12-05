@@ -1,19 +1,17 @@
 ---
 UID: NF:faxcomex.IFaxReceiptOptions.put_AuthenticationType
 title: IFaxReceiptOptions::put_AuthenticationType (faxcomex.h)
-
 description: The IFaxReceiptOptions::get_AuthenticationType property specifies the type of authentication the fax service uses when connecting to an Simple Mail Transport Protocol (SMTP) server.
 old-location: fax\_mfax_faxreceiptoptions_cpp_mfax_faxreceiptoptions_authenticationtype_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_7g11.htm
-
 ms.date: 12/05/2018
 ms.keywords: AuthenticationType property [Fax Service], AuthenticationType property [Fax Service],IFaxReceiptOptions interface, IFaxReceiptOptions interface [Fax Service],AuthenticationType property, IFaxReceiptOptions.AuthenticationType, IFaxReceiptOptions.put_AuthenticationType, IFaxReceiptOptions::AuthenticationType, IFaxReceiptOptions::get_AuthenticationType, IFaxReceiptOptions::put_AuthenticationType, _mfax_faxreceiptoptions.authenticationtype, fax._mfax_faxreceiptoptions_authenticationtype, fax._mfax_faxreceiptoptions_cpp_mfax_faxreceiptoptions_authenticationtype_cpp, faxcomex/IFaxReceiptOptions::AuthenticationType, faxcomex/IFaxReceiptOptions::get_AuthenticationType, faxcomex/IFaxReceiptOptions::put_AuthenticationType, put_AuthenticationType
 ms.topic: method
-f1_keywords: 
- - "faxcomex/IFaxReceiptOptions.AuthenticationType"
+f1_keywords:
+- faxcomex/IFaxReceiptOptions.AuthenticationType
 dev_langs:
- - c++
+- c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: Fxscomex.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Fxscomex.dll
+- Fxscomex.dll
 api_name:
- - IFaxReceiptOptions.AuthenticationType
- - IFaxReceiptOptions.get_AuthenticationType
- - IFaxReceiptOptions.put_AuthenticationType
+- IFaxReceiptOptions.AuthenticationType
+- IFaxReceiptOptions.get_AuthenticationType
+- IFaxReceiptOptions.put_AuthenticationType
 targetos: Windows
 req.typenames: 
 req.redist: 

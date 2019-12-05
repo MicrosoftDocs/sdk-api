@@ -1,19 +1,17 @@
 ---
 UID: NF:wmcontainer.IMFASFStreamConfig.RemoveAllPayloadExtensions
 title: IMFASFStreamConfig::RemoveAllPayloadExtensions (wmcontainer.h)
-
 description: Removes all payload extensions that are configured for the stream.
 old-location: mf\imfasfstreamconfig_removeallpayloadextensions.htm
 tech.root: medfound
 ms.assetid: 7b2c592b-28f6-49a9-9bf5-1080202f606a
-
 ms.date: 12/05/2018
 ms.keywords: 7b2c592b-28f6-49a9-9bf5-1080202f606a, IMFASFStreamConfig interface [Media Foundation],RemoveAllPayloadExtensions method, IMFASFStreamConfig.RemoveAllPayloadExtensions, IMFASFStreamConfig::RemoveAllPayloadExtensions, RemoveAllPayloadExtensions, RemoveAllPayloadExtensions method [Media Foundation], RemoveAllPayloadExtensions method [Media Foundation],IMFASFStreamConfig interface, mf.imfasfstreamconfig_removeallpayloadextensions, wmcontainer/IMFASFStreamConfig::RemoveAllPayloadExtensions
 ms.topic: method
-f1_keywords: 
- - "wmcontainer/IMFASFStreamConfig.RemoveAllPayloadExtensions"
+f1_keywords:
+- wmcontainer/IMFASFStreamConfig.RemoveAllPayloadExtensions
 dev_langs:
- - c++
+- c++
 req.header: wmcontainer.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFASFStreamConfig.RemoveAllPayloadExtensions
+- IMFASFStreamConfig.RemoveAllPayloadExtensions
 targetos: Windows
 req.typenames: 
 req.redist: 

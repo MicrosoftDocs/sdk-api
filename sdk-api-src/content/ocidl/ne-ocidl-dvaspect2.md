@@ -1,19 +1,17 @@
 ---
 UID: NE:ocidl.tagDVASPECT2
 title: DVASPECT2 (ocidl.h)
-
 description: Specifies new drawing aspects used to optimize the drawing process.
 old-location: com\dvaspect2.htm
 tech.root: com
 ms.assetid: 9000b807-5a42-437f-a3e8-a7b23be1665b
-
 ms.date: 12/05/2018
 ms.keywords: DVASPECT2, DVASPECT2 enumeration [COM], DVASPECT_OPAQUE, DVASPECT_TRANSPARENT, _ole_DVASPECT2, com.dvaspect2, ocidl/DVASPECT2, ocidl/DVASPECT_OPAQUE, ocidl/DVASPECT_TRANSPARENT
 ms.topic: enum
-f1_keywords: 
- - "ocidl/DVASPECT2"
+f1_keywords:
+- ocidl/DVASPECT2
 dev_langs:
- - c++
+- c++
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - OCIdl.h
+- OCIdl.h
 api_name:
- - DVASPECT2
+- DVASPECT2
 targetos: Windows
 req.typenames: DVASPECT2
 req.redist: 

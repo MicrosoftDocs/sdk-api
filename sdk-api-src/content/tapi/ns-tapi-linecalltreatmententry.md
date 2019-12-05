@@ -1,19 +1,17 @@
 ---
 UID: NS:tapi.linecalltreatmententry_tag
 title: LINECALLTREATMENTENTRY (tapi.h)
-
 description: The LINECALLTREATMENTENTRY structure provides information on the type of call treatment, such as music, recorded announcement, or silence, on the current call. The LINEADDRESSCAPS structure can contain an array of LINECALLTREATMENTENTRY structures.
 old-location: tapi2\linecalltreatmententry_str.htm
 tech.root: Tapi
 ms.assetid: c4a9fbb1-5201-45bd-b88c-b0c81b216f72
-
 ms.date: 12/05/2018
-ms.keywords: "*LPLINECALLTREATMENTENTRY, LINECALLTREATMENTENTRY, LINECALLTREATMENTENTRY structure [TAPI 2.2], LPLINECALLTREATMENTENTRY, LPLINECALLTREATMENTENTRY structure pointer [TAPI 2.2], _tapi2_linecalltreatmententry_str, tapi/LINECALLTREATMENTENTRY, tapi/LPLINECALLTREATMENTENTRY, tapi2.linecalltreatmententry_str"
+ms.keywords: '*LPLINECALLTREATMENTENTRY, LINECALLTREATMENTENTRY, LINECALLTREATMENTENTRY structure [TAPI 2.2], LPLINECALLTREATMENTENTRY, LPLINECALLTREATMENTENTRY structure pointer [TAPI 2.2], _tapi2_linecalltreatmententry_str, tapi/LINECALLTREATMENTENTRY, tapi/LPLINECALLTREATMENTENTRY, tapi2.linecalltreatmententry_str'
 ms.topic: struct
-f1_keywords: 
- - "tapi/LINECALLTREATMENTENTRY"
+f1_keywords:
+- tapi/LINECALLTREATMENTENTRY
 dev_langs:
- - c++
+- c++
 req.header: tapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Tapi.h
+- Tapi.h
 api_name:
- - LINECALLTREATMENTENTRY
+- LINECALLTREATMENTENTRY
 targetos: Windows
 req.typenames: LINECALLTREATMENTENTRY, *LPLINECALLTREATMENTENTRY
 req.redist: 

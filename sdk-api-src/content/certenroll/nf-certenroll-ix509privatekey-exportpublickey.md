@@ -1,19 +1,17 @@
 ---
 UID: NF:certenroll.IX509PrivateKey.ExportPublicKey
 title: IX509PrivateKey::ExportPublicKey (certenroll.h)
-
 description: Exports the public key portion of the asymmetric key pair.
 old-location: security\ix509privatekey_exportpublickey_method.htm
 tech.root: seccertenroll
 ms.assetid: 4ebcba09-1fea-4d21-8315-3570eaf6d42d
-
 ms.date: 12/05/2018
 ms.keywords: ExportPublicKey, ExportPublicKey method [Security], ExportPublicKey method [Security],IX509PrivateKey interface, IX509PrivateKey interface [Security],ExportPublicKey method, IX509PrivateKey.ExportPublicKey, IX509PrivateKey::ExportPublicKey, certenroll/IX509PrivateKey::ExportPublicKey, security.ix509privatekey_exportpublickey_method
 ms.topic: method
-f1_keywords: 
- - "certenroll/IX509PrivateKey.ExportPublicKey"
+f1_keywords:
+- certenroll/IX509PrivateKey.ExportPublicKey
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: CertEnroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CertEnroll.dll
+- CertEnroll.dll
 api_name:
- - IX509PrivateKey.ExportPublicKey
+- IX509PrivateKey.ExportPublicKey
 targetos: Windows
 req.typenames: 
 req.redist: 

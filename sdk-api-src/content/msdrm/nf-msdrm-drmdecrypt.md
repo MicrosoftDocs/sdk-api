@@ -1,19 +1,17 @@
 ---
 UID: NF:msdrm.DRMDecrypt
 title: DRMDecrypt function (msdrm.h)
-
 description: Decrypts encrypted content.
 old-location: rm\drmdecrypt.htm
 tech.root: AdRms_Sdk
 ms.assetid: 8e0cb353-4670-4cf7-bcd8-81ebd0adfe32
-
 ms.date: 12/05/2018
 ms.keywords: DRMDecrypt, DRMDecrypt function [Active Directory Rights Management Services SDK 1.0], msdrm/DRMDecrypt, rm.drmdecrypt
 ms.topic: function
-f1_keywords: 
- - "msdrm/DRMDecrypt"
+f1_keywords:
+- msdrm/DRMDecrypt
 dev_langs:
- - c++
+- c++
 req.header: msdrm.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Msdrm.lib
 req.dll: Msdrm.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Msdrm.dll
+- Msdrm.dll
 api_name:
- - DRMDecrypt
+- DRMDecrypt
 targetos: Windows
 req.typenames: 
 req.redist: 

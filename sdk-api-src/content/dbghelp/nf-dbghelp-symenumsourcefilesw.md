@@ -1,19 +1,17 @@
 ---
 UID: NF:dbghelp.SymEnumSourceFilesW
 title: SymEnumSourceFilesW function (dbghelp.h)
-
 description: Enumerates all source files in a process.
 old-location: base\symenumsourcefiles.htm
 tech.root: Debug
 ms.assetid: 4649bdc6-74c5-4529-bedc-64e0277144d0
-
 ms.date: 12/05/2018
 ms.keywords: SymEnumSourceFiles, SymEnumSourceFiles function, SymEnumSourceFilesW, base.symenumsourcefiles, dbghelp/SymEnumSourceFiles, dbghelp/SymEnumSourceFilesW
 ms.topic: function
-f1_keywords: 
- - "dbghelp/SymEnumSourceFiles"
+f1_keywords:
+- dbghelp/SymEnumSourceFiles
 dev_langs:
- - c++
+- c++
 req.header: dbghelp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Dbghelp.lib
 req.dll: Dbghelp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Dbghelp.dll
+- Dbghelp.dll
 api_name:
- - SymEnumSourceFiles
- - SymEnumSourceFiles
- - SymEnumSourceFilesW
+- SymEnumSourceFiles
+- SymEnumSourceFiles
+- SymEnumSourceFilesW
 targetos: Windows
 req.typenames: 
 req.redist: DbgHelp.dll 6.2 or later

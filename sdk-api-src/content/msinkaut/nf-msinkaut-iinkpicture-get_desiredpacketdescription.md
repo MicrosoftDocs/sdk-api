@@ -1,19 +1,17 @@
 ---
 UID: NF:msinkaut.IInkPicture.get_DesiredPacketDescription
 title: IInkPicture::get_DesiredPacketDescription (msinkaut.h)
-
 description: Gets or sets the desired packet description of the InkCollector.
 old-location: tablet\inkpicture_desiredpacketdescription.htm
 tech.root: tablet
 ms.assetid: 5b4a667a-b927-4278-9be2-2d7163568582
-
 ms.date: 12/05/2018
 ms.keywords: DesiredPacketDescription property [Tablet PC], DesiredPacketDescription property [Tablet PC],IInkPicture interface, IInkPicture interface [Tablet PC],DesiredPacketDescription property, IInkPicture.DesiredPacketDescription, IInkPicture.get_DesiredPacketDescription, IInkPicture::DesiredPacketDescription, IInkPicture::get_DesiredPacketDescription, IInkPicture::put_DesiredPacketDescription, InkPicture.get_DesiredPacketDescription, InkPicture.put_DesiredPacketDescription, get_DesiredPacketDescription, msinkaut/IInkPicture::DesiredPacketDescription, msinkaut/IInkPicture::get_DesiredPacketDescription, msinkaut/IInkPicture::put_DesiredPacketDescription, putDesiredPacketDescription, tablet.inkpicture_desiredpacketdescription
 ms.topic: method
-f1_keywords: 
- - "msinkaut/IInkPicture.DesiredPacketDescription"
+f1_keywords:
+- msinkaut/IInkPicture.DesiredPacketDescription
 dev_langs:
- - c++
+- c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows
@@ -32,19 +30,19 @@ req.lib: InkObj.dll
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - InkObj.dll
- - InkObj.dll.dll
+- InkObj.dll
+- InkObj.dll.dll
 api_name:
- - IInkPicture.DesiredPacketDescription
- - IInkPicture.get_DesiredPacketDescription
- - IInkPicture.put_DesiredPacketDescription
- - InkPicture.get_DesiredPacketDescription
- - InkPicture.put_DesiredPacketDescription
+- IInkPicture.DesiredPacketDescription
+- IInkPicture.get_DesiredPacketDescription
+- IInkPicture.put_DesiredPacketDescription
+- InkPicture.get_DesiredPacketDescription
+- InkPicture.put_DesiredPacketDescription
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NE:fsrmenums._AdrClientFlags
 title: AdrClientFlags (fsrmenums.h)
-
 description: Enumerates flags for indicating why an access denied remediation (ADR) client operation could not be performed.
 old-location: fsrm\adrclientflags.htm
 tech.root: fsrm
 ms.assetid: 8475e157-8757-4ace-909b-2e9030af6ad7
-
 ms.date: 12/05/2018
 ms.keywords: AdrClientFlags, AdrClientFlags enumeration [File Server Resource Manager], AdrClientFlags_FailForLocalPaths, AdrClientFlags_FailIfNotDomainJoined, AdrClientFlags_FailIfNotSupportedByServer, AdrClientFlags_None, fs.adrclientflags, fsrm.adrclientflags, fsrmenums/AdrClientFlags, fsrmenums/AdrClientFlags_FailForLocalPaths, fsrmenums/AdrClientFlags_FailIfNotDomainJoined, fsrmenums/AdrClientFlags_FailIfNotSupportedByServer, fsrmenums/AdrClientFlags_None
 ms.topic: enum
-f1_keywords: 
- - "fsrmenums/AdrClientFlags"
+f1_keywords:
+- fsrmenums/AdrClientFlags
 dev_langs:
- - c++
+- c++
 req.header: fsrmenums.h
 req.include-header: FsrmPipeline.h, FsrmQuota.h, FsrmReports.h, FsrmScreen.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - FsrmEnums.h
+- FsrmEnums.h
 api_name:
- - AdrClientFlags
+- AdrClientFlags
 targetos: Windows
 req.typenames: AdrClientFlags
 req.redist: 

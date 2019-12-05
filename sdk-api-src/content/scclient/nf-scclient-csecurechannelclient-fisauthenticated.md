@@ -1,19 +1,17 @@
 ---
 UID: NF:scclient.CSecureChannelClient.fIsAuthenticated
 title: CSecureChannelClient::fIsAuthenticated (scclient.h)
-
 description: The fIsAuthenticated method verifies that a secure authenticated channel has been successfully established. This method is not used by applications.
 old-location: wmdm\csecurechannelclient_fisauthenticated.htm
 tech.root: WMDM
 ms.assetid: 9b9a529a-c652-48e1-b70d-e95e2e34e2c5
-
 ms.date: 12/05/2018
 ms.keywords: CSecureChannelClient class [windows Media Device Manager],fIsAuthenticated method, CSecureChannelClient.fIsAuthenticated, CSecureChannelClient::fIsAuthenticated, CSecureChannelClientfIsAuthenticated, fIsAuthenticated, fIsAuthenticated method [windows Media Device Manager], fIsAuthenticated method [windows Media Device Manager],CSecureChannelClient class, scclient/CSecureChannelClient::fIsAuthenticated, wmdm.csecurechannelclient_fisauthenticated
 ms.topic: method
-f1_keywords: 
- - "scclient/CSecureChannelClient.fIsAuthenticated"
+f1_keywords:
+- scclient/CSecureChannelClient.fIsAuthenticated
 dev_langs:
- - c++
+- c++
 req.header: scclient.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mssachlp.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mssachlp.lib
- - mssachlp.dll
+- mssachlp.lib
+- mssachlp.dll
 api_name:
- - CSecureChannelClient.fIsAuthenticated
+- CSecureChannelClient.fIsAuthenticated
 targetos: Windows
 req.typenames: 
 req.redist: 

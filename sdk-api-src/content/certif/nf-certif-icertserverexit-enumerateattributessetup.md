@@ -1,19 +1,17 @@
 ---
 UID: NF:certif.ICertServerExit.EnumerateAttributesSetup
 title: ICertServerExit::EnumerateAttributesSetup (certif.h)
-
 description: Initializes the internal enumeration pointer to the first request attribute associated with the current context.
 old-location: security\icertserverexit_enumerateattributessetup.htm
 tech.root: SecCrypto
 ms.assetid: c81b9c4d-483e-48b8-a270-f570e148d371
-
 ms.date: 12/05/2018
 ms.keywords: CCertServerExit object [Security],EnumerateAttributesSetup method, EnumerateAttributesSetup, EnumerateAttributesSetup method [Security], EnumerateAttributesSetup method [Security],CCertServerExit object, EnumerateAttributesSetup method [Security],ICertServerExit interface, ICertServerExit interface [Security],EnumerateAttributesSetup method, ICertServerExit.EnumerateAttributesSetup, ICertServerExit::EnumerateAttributesSetup, _certsrv_icertserverexit_enumerateattributessetup, certif/ICertServerExit::EnumerateAttributesSetup, security.icertserverexit_enumerateattributessetup
 ms.topic: method
-f1_keywords: 
- - "certif/ICertServerExit.EnumerateAttributesSetup"
+f1_keywords:
+- certif/ICertServerExit.EnumerateAttributesSetup
 dev_langs:
- - c++
+- c++
 req.header: certif.h
 req.include-header: Certsrv.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Certidl.lib
 req.dll: Certcli.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Certcli.dll
+- Certcli.dll
 api_name:
- - ICertServerExit.EnumerateAttributesSetup
- - CCertServerExit.EnumerateAttributesSetup
+- ICertServerExit.EnumerateAttributesSetup
+- CCertServerExit.EnumerateAttributesSetup
 targetos: Windows
 req.typenames: 
 req.redist: 

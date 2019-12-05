@@ -1,19 +1,17 @@
 ---
 UID: NF:msports.ComDBClose
 title: ComDBClose function (msports.h)
-
 description: ComDBClose closes a handle to the COM port database.
 old-location: serports\comdbclose.htm
 tech.root: serports
 ms.assetid: 3ea720ba-6cc9-4862-83d2-4f87e5c13da4
-
 ms.date: 12/05/2018
 ms.keywords: ComDBClose, ComDBClose function [Serial Ports], comdb_0274a1cb-0128-48c8-b536-3a10792582f4.xml, msports/ComDBClose, serports.comdbclose
 ms.topic: function
-f1_keywords: 
- - "msports/ComDBClose"
+f1_keywords:
+- msports/ComDBClose
 dev_langs:
- - c++
+- c++
 req.header: msports.h
 req.include-header: Msports.h
 req.target-type: Desktop
@@ -32,14 +30,14 @@ req.lib: Msports.lib
 req.dll: Msports.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Msports.dll
+- Msports.dll
 api_name:
- - ComDBClose
+- ComDBClose
 targetos: Windows
 req.typenames: 
 req.redist: 

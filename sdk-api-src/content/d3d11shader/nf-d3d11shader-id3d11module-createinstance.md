@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d11shader.ID3D11Module.CreateInstance
 title: ID3D11Module::CreateInstance (d3d11shader.h)
-
 description: Initializes an instance of a shader module that is used for resource rebinding.
 old-location: direct3d11\id3d11module_createinstance.htm
 tech.root: direct3d11
 ms.assetid: 737A69EF-F74E-4480-98EA-31D6CCAC0F8A
-
 ms.date: 12/05/2018
 ms.keywords: CreateInstance, CreateInstance method [Direct3D 11], CreateInstance method [Direct3D 11],ID3D11Module interface, ID3D11Module interface [Direct3D 11],CreateInstance method, ID3D11Module.CreateInstance, ID3D11Module::CreateInstance, d3d11shader/ID3D11Module::CreateInstance, direct3d11.id3d11module_createinstance
 ms.topic: method
-f1_keywords: 
- - "d3d11shader/ID3D11Module.CreateInstance"
+f1_keywords:
+- d3d11shader/ID3D11Module.CreateInstance
 dev_langs:
- - c++
+- c++
 req.header: d3d11shader.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: D3DCompiler.lib
 req.dll: D3DCompiler_47.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3DCompiler_47.dll
+- D3DCompiler_47.dll
 api_name:
- - ID3D11Module.CreateInstance
+- ID3D11Module.CreateInstance
 targetos: Windows
 req.typenames: 
 req.redist: 

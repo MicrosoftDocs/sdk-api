@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d11_3.ID3D11Device3.CreateTexture3D1
 title: ID3D11Device3::CreateTexture3D1 (d3d11_3.h)
-
 description: Creates a 3D texture.
 old-location: direct3d11\id3d11device3_createtexture3d1.htm
 tech.root: direct3d11
 ms.assetid: EE72AEEF-DBAB-4838-AB91-138EB532BD81
-
 ms.date: 12/05/2018
 ms.keywords: CreateTexture3D1, CreateTexture3D1 method [Direct3D 11], CreateTexture3D1 method [Direct3D 11],ID3D11Device3 interface, ID3D11Device3 interface [Direct3D 11],CreateTexture3D1 method, ID3D11Device3.CreateTexture3D1, ID3D11Device3::CreateTexture3D1, d3d11_3/ID3D11Device3::CreateTexture3D1, direct3d11.id3d11device3_createtexture3d1
 ms.topic: method
-f1_keywords: 
- - "d3d11_3/ID3D11Device3.CreateTexture3D1"
+f1_keywords:
+- d3d11_3/ID3D11Device3.CreateTexture3D1
 dev_langs:
- - c++
+- c++
 req.header: d3d11_3.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: D3D11.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D11.lib
- - D3D11.dll
+- D3D11.lib
+- D3D11.dll
 api_name:
- - ID3D11Device3.CreateTexture3D1
+- ID3D11Device3.CreateTexture3D1
 targetos: Windows
 req.typenames: 
 req.redist: 

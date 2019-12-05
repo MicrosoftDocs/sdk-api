@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IAMOpenProgress.AbortOperation
 title: IAMOpenProgress::AbortOperation (strmif.h)
-
 description: The AbortOperation method cancels the file-open operation.
 old-location: dshow\iamopenprogress_abortoperation.htm
 tech.root: DirectShow
 ms.assetid: 5c20b57c-c491-4465-9626-13335191b5bb
-
 ms.date: 12/05/2018
 ms.keywords: AbortOperation, AbortOperation method [DirectShow], AbortOperation method [DirectShow],IAMOpenProgress interface, IAMOpenProgress interface [DirectShow],AbortOperation method, IAMOpenProgress.AbortOperation, IAMOpenProgress::AbortOperation, IAMOpenProgressAbortOperation, dshow.iamopenprogress_abortoperation, strmif/IAMOpenProgress::AbortOperation
 ms.topic: method
-f1_keywords: 
- - "strmif/IAMOpenProgress.AbortOperation"
+f1_keywords:
+- strmif/IAMOpenProgress.AbortOperation
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IAMOpenProgress.AbortOperation
+- IAMOpenProgress.AbortOperation
 targetos: Windows
 req.typenames: 
 req.redist: 

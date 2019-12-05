@@ -1,19 +1,17 @@
 ---
 UID: NF:commctrl.TreeView_GetSelectedCount
 title: TreeView_GetSelectedCount macro (commctrl.h)
-
 description: TreeView_GetSelectedCount macro
 old-location: controls\TreeView_GetSelectedCount.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\treeview\macros\treeview_getselectedcount.htm
-
 ms.date: 12/05/2018
 ms.keywords: TreeView_GetSelectedCount, TreeView_GetSelectedCount macro [Windows Controls], _shell_TreeView_GetSelectedCount, _shell_TreeView_GetSelectedCount_cpp, commctrl/TreeView_GetSelectedCount, controls.TreeView_GetSelectedCount, controls._shell_TreeView_GetSelectedCount
 ms.topic: macro
-f1_keywords: 
- - "commctrl/TreeView_GetSelectedCount"
+f1_keywords:
+- commctrl/TreeView_GetSelectedCount
 dev_langs:
- - c++
+- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Commctrl.h
+- Commctrl.h
 api_name:
- - TreeView_GetSelectedCount
+- TreeView_GetSelectedCount
 targetos: Windows
 req.typenames: 
 req.redist: 

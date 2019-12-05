@@ -1,19 +1,17 @@
 ---
 UID: NN:eventsys.IMultiInterfaceEventControl
 title: IMultiInterfaceEventControl (eventsys.h)
-
 description: Controls the behavior of an event object, the object that fires an event to its subscribers.
 old-location: cos\imultiinterfaceeventcontrol.htm
 tech.root: cossdk
 ms.assetid: e603f68a-881c-468d-a3d3-738f43400e01
-
 ms.date: 12/05/2018
 ms.keywords: IMultiInterfaceEventControl, IMultiInterfaceEventControl interface [COM+], IMultiInterfaceEventControl interface [COM+],described, _cos_IMultiInterfaceEventControl, cos.imultiinterfaceeventcontrol, eventsys/IMultiInterfaceEventControl
 ms.topic: interface
-f1_keywords: 
- - "eventsys/IMultiInterfaceEventControl"
+f1_keywords:
+- eventsys/IMultiInterfaceEventControl
 dev_langs:
- - c++
+- c++
 req.header: eventsys.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - EventSys.h
+- EventSys.h
 api_name:
- - IMultiInterfaceEventControl
+- IMultiInterfaceEventControl
 targetos: Windows
 req.typenames: 
 req.redist: 

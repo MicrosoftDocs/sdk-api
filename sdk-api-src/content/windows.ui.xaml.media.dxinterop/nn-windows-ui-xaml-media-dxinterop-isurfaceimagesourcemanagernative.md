@@ -1,19 +1,17 @@
 ---
 UID: NN:windows.ui.xaml.media.dxinterop.ISurfaceImageSourceManagerNative
 title: ISurfaceImageSourceManagerNative (windows.ui.xaml.media.dxinterop.h)
-
 description: Enables performing bulk operations across all SurfaceImageSource objects created in the same process.
 old-location: winrt\isurfaceimagesourcemanagernative.htm
 tech.root: WinRT
 ms.assetid: 6DFC7A3D-0C29-421B-ADB0-360017DE7433
-
 ms.date: 12/05/2018
 ms.keywords: ISurfaceImageSourceManagerNative, ISurfaceImageSourceManagerNative interface [Windows Runtime], ISurfaceImageSourceManagerNative interface [Windows Runtime],described, windows/ISurfaceImageSourceManagerNative, winrt.isurfaceimagesourcemanagernative
 ms.topic: interface
-f1_keywords: 
- - "windows.ui.xaml.media.dxinterop/ISurfaceImageSourceManagerNative"
+f1_keywords:
+- windows.ui.xaml.media.dxinterop/ISurfaceImageSourceManagerNative
 dev_langs:
- - c++
+- c++
 req.header: windows.ui.xaml.media.dxinterop.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Windows.UI.Xaml.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Windows.UI.Xaml.dll
+- Windows.UI.Xaml.dll
 api_name:
- - ISurfaceImageSourceManagerNative
+- ISurfaceImageSourceManagerNative
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:tuner.IScanningTuner.SeekUp
 title: IScanningTuner::SeekUp (tuner.h)
-
 description: The SeekUp method changes the channel to the next higher channel with valid programming.
 old-location: mstv\iscanningtuner_seekup.htm
 tech.root: mstv
 ms.assetid: 43588b31-cac0-44c4-a282-b5939fed4ce7
-
 ms.date: 12/05/2018
 ms.keywords: IScanningTuner interface [Microsoft TV Technologies],SeekUp method, IScanningTuner.SeekUp, IScanningTuner::SeekUp, IScanningTunerSeekUp, SeekUp, SeekUp method [Microsoft TV Technologies], SeekUp method [Microsoft TV Technologies],IScanningTuner interface, mstv.iscanningtuner_seekup, tuner/IScanningTuner::SeekUp
 ms.topic: method
-f1_keywords: 
- - "tuner/IScanningTuner.SeekUp"
+f1_keywords:
+- tuner/IScanningTuner.SeekUp
 dev_langs:
- - c++
+- c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - tuner.h
+- tuner.h
 api_name:
- - IScanningTuner.SeekUp
+- IScanningTuner.SeekUp
 targetos: Windows
 req.typenames: 
 req.redist: 

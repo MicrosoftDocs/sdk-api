@@ -1,19 +1,17 @@
 ---
 UID: NF:htmlhelp.HtmlHelpW
 title: HtmlHelpW function (htmlhelp.h)
-
 description: Displays a help window.
 old-location: htmlhelp\htmlhelp.htm
 tech.root: htmlhelp
 ms.assetid: VS|htmlhelp|~\html\vsconhowcallingthehtmlhelpapi.htm
-
 ms.date: 12/05/2018
 ms.keywords: HtmlHelp, HtmlHelp function [HTML Help Workshop], HtmlHelpA, HtmlHelpW, htmlhelp.htmlhelp, htmlhelp/HtmlHelp, htmlhelp/HtmlHelpA, htmlhelp/HtmlHelpW
 ms.topic: function
-f1_keywords: 
- - "htmlhelp/HtmlHelp"
+f1_keywords:
+- htmlhelp/HtmlHelp
 dev_langs:
- - c++
+- c++
 req.header: htmlhelp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Htmlhelp.lib
 req.dll: Htmlhelp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Htmlhelp.dll
+- Htmlhelp.dll
 api_name:
- - HtmlHelp
- - HtmlHelpA
- - HtmlHelpW
+- HtmlHelp
+- HtmlHelpA
+- HtmlHelpW
 targetos: Windows
 req.typenames: 
 req.redist: 

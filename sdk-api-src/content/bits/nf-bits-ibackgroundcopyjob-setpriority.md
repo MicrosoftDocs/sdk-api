@@ -1,19 +1,17 @@
 ---
 UID: NF:bits.IBackgroundCopyJob.SetPriority
 title: IBackgroundCopyJob::SetPriority (bits.h)
-
 description: Specifies the priority level of your job. The priority level determines when your job is processed relative to other jobs in the transfer queue.
 old-location: bits\ibackgroundcopyjob_setpriority.htm
 tech.root: Bits
 ms.assetid: 8b59128d-7e63-45dc-af0f-54ea844dac98
-
 ms.date: 12/05/2018
 ms.keywords: IBackgroundCopyJob interface [BITS],SetPriority method, IBackgroundCopyJob.SetPriority, IBackgroundCopyJob::SetPriority, SetPriority, SetPriority method [BITS], SetPriority method [BITS],IBackgroundCopyJob interface, _drz_ibackgroundcopyjob_setpriority, bits.ibackgroundcopyjob_setpriority, bits/IBackgroundCopyJob::SetPriority
 ms.topic: method
-f1_keywords: 
- - "bits/IBackgroundCopyJob.SetPriority"
+f1_keywords:
+- bits/IBackgroundCopyJob.SetPriority
 dev_langs:
- - c++
+- c++
 req.header: bits.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Bits.lib
 req.dll: QmgrPrxy.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - QmgrPrxy.dll
+- QmgrPrxy.dll
 api_name:
- - IBackgroundCopyJob.SetPriority
+- IBackgroundCopyJob.SetPriority
 targetos: Windows
 req.typenames: 
 req.redist: 

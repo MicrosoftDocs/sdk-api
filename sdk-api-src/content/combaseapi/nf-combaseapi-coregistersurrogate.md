@@ -1,19 +1,17 @@
 ---
 UID: NF:combaseapi.CoRegisterSurrogate
 title: CoRegisterSurrogate function (combaseapi.h)
-
 description: Registers the surrogate process through its ISurrogate interface pointer.
 old-location: com\coregistersurrogate.htm
 tech.root: com
 ms.assetid: 4d1c6ca6-ab21-429c-9433-7c95d9e757b5
-
 ms.date: 12/05/2018
 ms.keywords: CoRegisterSurrogate, CoRegisterSurrogate function [COM], _com_CoRegisterSurrogate, com.coregistersurrogate, combaseapi/CoRegisterSurrogate
 ms.topic: function
-f1_keywords: 
- - "combaseapi/CoRegisterSurrogate"
+f1_keywords:
+- combaseapi/CoRegisterSurrogate
 dev_langs:
- - c++
+- c++
 req.header: combaseapi.h
 req.include-header: Objbase.h
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib: Ole32.lib
 req.dll: Ole32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ole32.dll
- - API-MS-Win-Core-Com-l1-1-0.dll
- - ComBase.dll
- - API-MS-Win-Core-Com-l1-1-1.dll
- - API-MS-Win-DownLevel-Ole32-l1-1-1.dll
+- Ole32.dll
+- API-MS-Win-Core-Com-l1-1-0.dll
+- ComBase.dll
+- API-MS-Win-Core-Com-l1-1-1.dll
+- API-MS-Win-DownLevel-Ole32-l1-1-1.dll
 api_name:
- - CoRegisterSurrogate
+- CoRegisterSurrogate
 targetos: Windows
 req.typenames: 
 req.redist: 

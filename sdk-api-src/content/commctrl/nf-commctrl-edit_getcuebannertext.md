@@ -1,19 +1,17 @@
 ---
 UID: NF:commctrl.Edit_GetCueBannerText
 title: Edit_GetCueBannerText macro (commctrl.h)
-
 description: Gets the text that is displayed as a textual cue, or tip, in an edit control. You can use this macro or send the EM_GETCUEBANNER message explicitly.
 old-location: controls\Edit_GetCueBannerText.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\editcontrols\editcontrolreference\editcontrolmacros\edit_getcuebannertext.htm
-
 ms.date: 12/05/2018
 ms.keywords: Edit_GetCueBannerText, Edit_GetCueBannerText macro [Windows Controls], _win32_Edit_GetCueBannerText, _win32_Edit_GetCueBannerText_cpp, commctrl/Edit_GetCueBannerText, controls.Edit_GetCueBannerText, controls._win32_Edit_GetCueBannerText
 ms.topic: macro
-f1_keywords: 
- - "commctrl/Edit_GetCueBannerText"
+f1_keywords:
+- commctrl/Edit_GetCueBannerText
 dev_langs:
- - c++
+- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Commctrl.h
+- Commctrl.h
 api_name:
- - Edit_GetCueBannerText
+- Edit_GetCueBannerText
 targetos: Windows
 req.typenames: 
 req.redist: 

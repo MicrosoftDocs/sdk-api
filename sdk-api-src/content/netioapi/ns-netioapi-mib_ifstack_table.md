@@ -1,19 +1,17 @@
 ---
 UID: NS:netioapi._MIB_IFSTACK_TABLE
 title: MIB_IFSTACK_TABLE (netioapi.h)
-
 description: Contains a table of network interface stack row entries. This specifies the relationship of the network interfaces on an interface stack.
 old-location: mib\mib_ifstack_table.htm
 tech.root: MIB
 ms.assetid: b2f6eea7-c3d4-493d-bf55-bc95b97601bd
-
 ms.date: 12/05/2018
-ms.keywords: "*PMIB_IFSTACK_TABLE, MIB_IFSTACK_TABLE, MIB_IFSTACK_TABLE structure [MIB], PMIB_IFSTACK_TABLE, PMIB_IFSTACK_TABLE structure pointer [MIB], _MIB_IFSTACK_TABLE, mib.mib_ifstack_table, netioapi/MIB_IFSTACK_TABLE, netioapi/PMIB_IFSTACK_TABLE"
+ms.keywords: '*PMIB_IFSTACK_TABLE, MIB_IFSTACK_TABLE, MIB_IFSTACK_TABLE structure [MIB], PMIB_IFSTACK_TABLE, PMIB_IFSTACK_TABLE structure pointer [MIB], _MIB_IFSTACK_TABLE, mib.mib_ifstack_table, netioapi/MIB_IFSTACK_TABLE, netioapi/PMIB_IFSTACK_TABLE'
 ms.topic: struct
-f1_keywords: 
- - "netioapi/MIB_IFSTACK_TABLE"
+f1_keywords:
+- netioapi/MIB_IFSTACK_TABLE
 dev_langs:
- - c++
+- c++
 req.header: netioapi.h
 req.include-header: Iphlpapi.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Netioapi.h
+- Netioapi.h
 api_name:
- - MIB_IFSTACK_TABLE
+- MIB_IFSTACK_TABLE
 targetos: Windows
 req.typenames: MIB_IFSTACK_TABLE, *PMIB_IFSTACK_TABLE
 req.redist: 

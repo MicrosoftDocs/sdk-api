@@ -1,19 +1,17 @@
 ---
 UID: NF:appxpackaging.IAppxManifestOptionalPackageInfo.GetIsOptionalPackage
 title: IAppxManifestOptionalPackageInfo::GetIsOptionalPackage (appxpackaging.h)
-
 description: Determines whether the package is optional.
 old-location: appxpkg\iappxmanifestoptionalpackageinfo_getisoptionalpackage.htm
 tech.root: appxpkg
 ms.assetid: E52E411C-0A3E-4DA3-B25D-14E761FEF676
-
 ms.date: 12/05/2018
 ms.keywords: GetIsOptionalPackage, GetIsOptionalPackage method [App packaging and management], GetIsOptionalPackage method [App packaging and management],IAppxManifestOptionalPackageInfo interface, IAppxManifestOptionalPackageInfo interface [App packaging and management],GetIsOptionalPackage method, IAppxManifestOptionalPackageInfo.GetIsOptionalPackage, IAppxManifestOptionalPackageInfo::GetIsOptionalPackage, appxpackaging/IAppxManifestOptionalPackageInfo::GetIsOptionalPackage, appxpkg.iappxmanifestoptionalpackageinfo_getisoptionalpackage
 ms.topic: method
-f1_keywords: 
- - "appxpackaging/IAppxManifestOptionalPackageInfo.GetIsOptionalPackage"
+f1_keywords:
+- appxpackaging/IAppxManifestOptionalPackageInfo.GetIsOptionalPackage
 dev_langs:
- - c++
+- c++
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - AppxPackaging.h
+- AppxPackaging.h
 api_name:
- - IAppxManifestOptionalPackageInfo.GetIsOptionalPackage
+- IAppxManifestOptionalPackageInfo.GetIsOptionalPackage
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NN:structuredquery.IInterval
 title: IInterval (structuredquery.h)
-
 description: Provides a method to get the limits of an interval.
 old-location: search\_search_IInterval.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\iinterval\iinterval.htm
-
 ms.date: 12/05/2018
 ms.keywords: IInterval, IInterval interface [search], IInterval interface [search],described, _search_IInterval, search._search_IInterval, structuredquery/IInterval
 ms.topic: interface
-f1_keywords: 
- - "structuredquery/IInterval"
+f1_keywords:
+- structuredquery/IInterval
 dev_langs:
- - c++
+- c++
 req.header: structuredquery.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Structuredquery.h
+- Structuredquery.h
 api_name:
- - IInterval
+- IInterval
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0

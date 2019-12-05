@@ -1,19 +1,17 @@
 ---
 UID: NF:winuser.EnumDesktopsW
 title: EnumDesktopsW function (winuser.h)
-
 description: Enumerates all desktops associated with the specified window station of the calling process. The function passes the name of each desktop, in turn, to an application-defined callback function.
 old-location: winstation\enumdesktops.htm
 tech.root: winstation
 ms.assetid: 3e900b34-2c60-4281-881f-13a746674aec
-
 ms.date: 12/05/2018
 ms.keywords: EnumDesktops, EnumDesktops function [Windows Stations and Desktops], EnumDesktopsA, EnumDesktopsW, _win32_enumdesktops, base.enumdesktops, winstation.enumdesktops, winuser/EnumDesktops, winuser/EnumDesktopsA, winuser/EnumDesktopsW
 ms.topic: function
-f1_keywords: 
- - "winuser/EnumDesktops"
+f1_keywords:
+- winuser/EnumDesktops
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - User32.dll
+- User32.dll
 api_name:
- - EnumDesktops
- - EnumDesktopsA
- - EnumDesktopsW
+- EnumDesktops
+- EnumDesktopsA
+- EnumDesktopsW
 targetos: Windows
 req.typenames: 
 req.redist: 

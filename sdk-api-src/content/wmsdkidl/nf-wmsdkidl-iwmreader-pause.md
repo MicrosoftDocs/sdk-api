@@ -1,19 +1,17 @@
 ---
 UID: NF:wmsdkidl.IWMReader.Pause
 title: IWMReader::Pause (wmsdkidl.h)
-
 description: The Pause method pauses the current read operation.
 old-location: wmformat\iwmreader_pause.htm
 tech.root: wmformat
 ms.assetid: 4c9d60df-fa9e-42ac-907a-1958a38e430e
-
 ms.date: 12/05/2018
 ms.keywords: IWMReader interface [windows Media Format],Pause method, IWMReader.Pause, IWMReader::Pause, IWMReaderPause, Pause, Pause method [windows Media Format], Pause method [windows Media Format],IWMReader interface, wmformat.iwmreader_pause, wmsdkidl/IWMReader::Pause
 ms.topic: method
-f1_keywords: 
- - "wmsdkidl/IWMReader.Pause"
+f1_keywords:
+- wmsdkidl/IWMReader.Pause
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wmvcore.lib
- - Wmvcore.dll
- - WMStubDRM.lib
- - WMStubDRM.dll
+- Wmvcore.lib
+- Wmvcore.dll
+- WMStubDRM.lib
+- WMStubDRM.dll
 api_name:
- - IWMReader.Pause
+- IWMReader.Pause
 targetos: Windows
 req.typenames: 
 req.redist: 

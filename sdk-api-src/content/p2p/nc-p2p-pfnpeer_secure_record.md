@@ -1,19 +1,17 @@
 ---
 UID: NC:p2p.PFNPEER_SECURE_RECORD
 title: PFNPEER_SECURE_RECORD (p2p.h)
-
 description: The PFNPEER_SECURE_RECORD callback specifies the function that the Peer Graphing Infrastructure calls to secure records.
 old-location: p2p\pfnpeer_secure_record.htm
 tech.root: P2PSdk
 ms.assetid: 454b40f6-a7de-4b59-ae35-a809c4510133
-
 ms.date: 12/05/2018
 ms.keywords: PFNPEER_SECURE_RECORD, PFNPEER_SECURE_RECORD callback, PFNPEER_SECURE_RECORD callback function [Peer Networking], p2p.pfnpeer_secure_record, p2p/PFNPEER_SECURE_RECORD
 ms.topic: callback
-f1_keywords: 
- - "p2p/PFNPEER_SECURE_RECORD"
+f1_keywords:
+- p2p/PFNPEER_SECURE_RECORD
 dev_langs:
- - c++
+- c++
 req.header: p2p.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - P2P.h
+- P2P.h
 api_name:
- - PFNPEER_SECURE_RECORD
+- PFNPEER_SECURE_RECORD
 targetos: Windows
 req.typenames: 
 req.redist: 

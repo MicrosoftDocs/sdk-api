@@ -1,19 +1,17 @@
 ---
 UID: NF:dpa_dsa.DPA_GetPtrPtr
 title: DPA_GetPtrPtr macro (dpa_dsa.h)
-
 description: Gets the pointer to the internal pointer array of a dynamic pointer array (DPA).
 old-location: controls\DPA_GetPtrPtr.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\common\macros\dpa_getptrptr.htm
-
 ms.date: 12/05/2018
 ms.keywords: DPA_GetPtrPtr, DPA_GetPtrPtr macro [Windows Controls], _shell_DPA_GetPtrPtr, _shell_DPA_GetPtrPtr_cpp, controls.DPA_GetPtrPtr, controls._shell_DPA_GetPtrPtr, dpa_dsa/DPA_GetPtrPtr
 ms.topic: macro
-f1_keywords: 
- - "dpa_dsa/DPA_GetPtrPtr"
+f1_keywords:
+- dpa_dsa/DPA_GetPtrPtr
 dev_langs:
- - c++
+- c++
 req.header: dpa_dsa.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - dpa_dsa.h
+- dpa_dsa.h
 api_name:
- - DPA_GetPtrPtr
+- DPA_GetPtrPtr
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:prntvpt.PTCloseProvider
 title: PTCloseProvider function (prntvpt.h)
-
 description: Closes a print ticket provider handle.
 old-location: gdi\ptcloseprovider.htm
 tech.root: printdocs
 ms.assetid: 28e85b53-fd0c-4210-ae2b-794efaf65bd4
-
 ms.date: 12/05/2018
 ms.keywords: PTCloseProvider, PTCloseProvider function [Windows GDI], _win32_PTCloseProvider, gdi.ptcloseprovider, prntvpt/PTCloseProvider
 ms.topic: function
-f1_keywords: 
- - "prntvpt/PTCloseProvider"
+f1_keywords:
+- prntvpt/PTCloseProvider
 dev_langs:
- - c++
+- c++
 req.header: prntvpt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Prntvpt.lib
 req.dll: Prntvpt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - prntvpt.dll
- - Ext-MS-Win-printer-prntvpt-l1-1-0.dll
+- prntvpt.dll
+- Ext-MS-Win-printer-prntvpt-l1-1-0.dll
 api_name:
- - PTCloseProvider
+- PTCloseProvider
 targetos: Windows
 req.typenames: 
 req.redist: 

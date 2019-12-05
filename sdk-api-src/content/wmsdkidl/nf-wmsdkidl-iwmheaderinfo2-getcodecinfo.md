@@ -1,19 +1,17 @@
 ---
 UID: NF:wmsdkidl.IWMHeaderInfo2.GetCodecInfo
 title: IWMHeaderInfo2::GetCodecInfo (wmsdkidl.h)
-
 description: The GetCodecInfo method retrieves information about a codec that is used to create the content of a file.
 old-location: wmformat\iwmheaderinfo2_getcodecinfo.htm
 tech.root: wmformat
 ms.assetid: 685eaf9e-6cc8-4c38-be34-afa4b504a326
-
 ms.date: 12/05/2018
 ms.keywords: GetCodecInfo, GetCodecInfo method [windows Media Format], GetCodecInfo method [windows Media Format],IWMHeaderInfo2 interface, GetCodecInfo method [windows Media Format],IWMHeaderInfo3 interface, IWMHeaderInfo2 interface [windows Media Format],GetCodecInfo method, IWMHeaderInfo2.GetCodecInfo, IWMHeaderInfo2::GetCodecInfo, IWMHeaderInfo2GetCodecInfo, IWMHeaderInfo3 interface [windows Media Format],GetCodecInfo method, IWMHeaderInfo3::GetCodecInfo, wmformat.iwmheaderinfo2_getcodecinfo, wmsdkidl/IWMHeaderInfo2::GetCodecInfo, wmsdkidl/IWMHeaderInfo3::GetCodecInfo
 ms.topic: method
-f1_keywords: 
- - "wmsdkidl/IWMHeaderInfo2.GetCodecInfo"
+f1_keywords:
+- wmsdkidl/IWMHeaderInfo2.GetCodecInfo
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -32,19 +30,19 @@ req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wmvcore.lib
- - Wmvcore.dll
- - WMStubDRM.lib
- - WMStubDRM.dll
- - qasf.dll
+- Wmvcore.lib
+- Wmvcore.dll
+- WMStubDRM.lib
+- WMStubDRM.dll
+- qasf.dll
 api_name:
- - IWMHeaderInfo2.GetCodecInfo
- - IWMHeaderInfo3.GetCodecInfo
+- IWMHeaderInfo2.GetCodecInfo
+- IWMHeaderInfo3.GetCodecInfo
 targetos: Windows
 req.typenames: 
 req.redist: 

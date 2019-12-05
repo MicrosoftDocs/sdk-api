@@ -1,19 +1,17 @@
 ---
 UID: NF:mbnapi.IMbnConnection.GetVoiceCallState
 title: IMbnConnection::GetVoiceCallState (mbnapi.h)
-
 description: Gets the voice call state of the device.
 old-location: mbn\imbnconnection_getvoicecallstate.htm
 tech.root: mbn
 ms.assetid: a715f7c8-a001-41a2-9c1f-ca133568133b
-
 ms.date: 12/05/2018
 ms.keywords: GetVoiceCallState, GetVoiceCallState method [Microsoft Broadband Networks], GetVoiceCallState method [Microsoft Broadband Networks],IMbnConnection interface, IMbnConnection interface [Microsoft Broadband Networks],GetVoiceCallState method, IMbnConnection.GetVoiceCallState, IMbnConnection::GetVoiceCallState, mbn.imbnconnection_getvoicecallstate, mbnapi/IMbnConnection::GetVoiceCallState
 ms.topic: method
-f1_keywords: 
- - "mbnapi/IMbnConnection.GetVoiceCallState"
+f1_keywords:
+- mbnapi/IMbnConnection.GetVoiceCallState
 dev_langs:
- - c++
+- c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mbnapi.h
+- mbnapi.h
 api_name:
- - IMbnConnection.GetVoiceCallState
+- IMbnConnection.GetVoiceCallState
 targetos: Windows
 req.typenames: 
 req.redist: 

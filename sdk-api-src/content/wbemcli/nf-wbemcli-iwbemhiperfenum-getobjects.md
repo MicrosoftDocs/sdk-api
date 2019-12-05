@@ -1,19 +1,17 @@
 ---
 UID: NF:wbemcli.IWbemHiPerfEnum.GetObjects
 title: IWbemHiPerfEnum::GetObjects (wbemcli.h)
-
 description: The IWbemHiPerfEnum::GetObjects method retrieves objects currently residing in the enumerator.
 old-location: wmi\iwbemhiperfenum_getobjects.htm
 tech.root: WmiSdk
 ms.assetid: 27dd9c2c-236e-41be-bfaa-90ebf8dfb1bc
-
 ms.date: 12/05/2018
 ms.keywords: GetObjects, GetObjects method [Windows Management Instrumentation], GetObjects method [Windows Management Instrumentation],IWbemHiPerfEnum interface, IWbemHiPerfEnum interface [Windows Management Instrumentation],GetObjects method, IWbemHiPerfEnum.GetObjects, IWbemHiPerfEnum::GetObjects, _hmm_iwbemhiperfenum_getobjects, wbemcli/IWbemHiPerfEnum::GetObjects, wmi.iwbemhiperfenum_getobjects
 ms.topic: method
-f1_keywords: 
- - "wbemcli/IWbemHiPerfEnum.GetObjects"
+f1_keywords:
+- wbemcli/IWbemHiPerfEnum.GetObjects
 dev_langs:
- - c++
+- c++
 req.header: wbemcli.h
 req.include-header: Wbemidl.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Wbemuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wbemuuid.lib
- - Wbemuuid.dll
+- Wbemuuid.lib
+- Wbemuuid.dll
 api_name:
- - IWbemHiPerfEnum.GetObjects
+- IWbemHiPerfEnum.GetObjects
 targetos: Windows
 req.typenames: 
 req.redist: 

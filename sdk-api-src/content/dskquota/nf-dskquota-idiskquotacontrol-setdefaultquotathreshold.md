@@ -1,19 +1,17 @@
 ---
 UID: NF:dskquota.IDiskQuotaControl.SetDefaultQuotaThreshold
 title: IDiskQuotaControl::SetDefaultQuotaThreshold (dskquota.h)
-
 description: Modifies the default warning threshold.
 old-location: fs\idiskquotacontrol_setdefaultquotathreshold.htm
 tech.root: FileIO
 ms.assetid: a935798b-91dc-4a36-aa31-7bde68b45778
-
 ms.date: 12/05/2018
 ms.keywords: IDiskQuotaControl interface [Files],SetDefaultQuotaThreshold method, IDiskQuotaControl.SetDefaultQuotaThreshold, IDiskQuotaControl::SetDefaultQuotaThreshold, SetDefaultQuotaThreshold, SetDefaultQuotaThreshold method [Files], SetDefaultQuotaThreshold method [Files],IDiskQuotaControl interface, _win32_idiskquotacontrol_setdefaultquotathreshold, base.idiskquotacontrol_setdefaultquotathreshold, dskquota/IDiskQuotaControl::SetDefaultQuotaThreshold, fs.idiskquotacontrol_setdefaultquotathreshold
 ms.topic: method
-f1_keywords: 
- - "dskquota/IDiskQuotaControl.SetDefaultQuotaThreshold"
+f1_keywords:
+- dskquota/IDiskQuotaControl.SetDefaultQuotaThreshold
 dev_langs:
- - c++
+- c++
 req.header: dskquota.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Dskquota.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dskquota.dll
+- Dskquota.dll
 api_name:
- - IDiskQuotaControl.SetDefaultQuotaThreshold
+- IDiskQuotaControl.SetDefaultQuotaThreshold
 targetos: Windows
 req.typenames: 
 req.redist: 

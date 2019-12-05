@@ -1,19 +1,17 @@
 ---
 UID: NF:oleauto.VarDecFromUI2
 title: VarDecFromUI2 function (oleauto.h)
-
 description: Converts an unsigned short value to a decimal value.
 old-location: automat\vardecfromui2.htm
 tech.root: automat
 ms.assetid: 45e1e94c-365c-4844-a9d4-5e9754d49647
-
 ms.date: 12/05/2018
 ms.keywords: VarDecFromUI2, VarDecFromUI2 function [Automation], _oa96_VarDecFromUI2, automat.vardecfromui2, oleauto/VarDecFromUI2
 ms.topic: function
-f1_keywords: 
- - "oleauto/VarDecFromUI2"
+f1_keywords:
+- oleauto/VarDecFromUI2
 dev_langs:
- - c++
+- c++
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: OleAut32.lib
 req.dll: OleAut32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - OleAut32.dll
+- OleAut32.dll
 api_name:
- - VarDecFromUI2
+- VarDecFromUI2
 targetos: Windows
 req.typenames: 
 req.redist: 

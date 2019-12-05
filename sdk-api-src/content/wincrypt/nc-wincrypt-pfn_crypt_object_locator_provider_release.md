@@ -1,19 +1,17 @@
 ---
 UID: NC:wincrypt.PFN_CRYPT_OBJECT_LOCATOR_PROVIDER_RELEASE
 title: PFN_CRYPT_OBJECT_LOCATOR_PROVIDER_RELEASE (wincrypt.h)
-
 description: Releases the provider.
 old-location: security\pfn_crypt_object_locator_provider_release.htm
 tech.root: SecCrypto
 ms.assetid: DDF1243D-A6C8-426A-A800-018E7FF7E182
-
 ms.date: 12/05/2018
 ms.keywords: CRYPT_OBJECT_LOCATOR_RELEASE_DLL_UNLOAD, CRYPT_OBJECT_LOCATOR_RELEASE_PROCESS_EXIT, CRYPT_OBJECT_LOCATOR_RELEASE_SERVICE_STOP, CRYPT_OBJECT_LOCATOR_RELEASE_SYSTEM_SHUTDOWN, PFN_CRYPT_OBJECT_LOCATOR_PROVIDER_RELEASE, PFN_CRYPT_OBJECT_LOCATOR_PROVIDER_RELEASE callback, PFN_CRYPT_OBJECT_LOCATOR_PROVIDER_RELEASE callback function [Security], security.pfn_crypt_object_locator_provider_release, wincrypt/PFN_CRYPT_OBJECT_LOCATOR_PROVIDER_RELEASE
 ms.topic: callback
-f1_keywords: 
- - "wincrypt/PFN_CRYPT_OBJECT_LOCATOR_PROVIDER_RELEASE"
+f1_keywords:
+- wincrypt/PFN_CRYPT_OBJECT_LOCATOR_PROVIDER_RELEASE
 dev_langs:
- - c++
+- c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Wincrypt.h
+- Wincrypt.h
 api_name:
- - PFN_CRYPT_OBJECT_LOCATOR_PROVIDER_RELEASE
+- PFN_CRYPT_OBJECT_LOCATOR_PROVIDER_RELEASE
 targetos: Windows
 req.typenames: 
 req.redist: 

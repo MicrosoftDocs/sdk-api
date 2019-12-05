@@ -1,19 +1,17 @@
 ---
 UID: NC:resapi.POFFLINE_ROUTINE
 title: POFFLINE_ROUTINE (resapi.h)
-
 description: Marks a resource as unavailable for use after cleanup processing is complete.
 old-location: mscs\offline.htm
 tech.root: MsCS
 ms.assetid: 1d67a4f5-66f8-4818-8b63-d0f50452f889
-
 ms.date: 12/05/2018
 ms.keywords: Offline, Offline callback, Offline callback function [Failover Cluster], POFFLINE_ROUTINE, POFFLINE_ROUTINE callback function [Failover Cluster], _wolf_offline, mscs.offline, resapi/Offline, resapi/POFFLINE_ROUTINE
 ms.topic: callback
-f1_keywords: 
- - "resapi/Offline"
+f1_keywords:
+- resapi/Offline
 dev_langs:
- - c++
+- c++
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - ResApi.h
+- ResApi.h
 api_name:
- - Offline
+- Offline
 targetos: Windows
 req.typenames: 
 req.redist: 

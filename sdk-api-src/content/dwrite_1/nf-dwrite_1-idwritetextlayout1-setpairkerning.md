@@ -1,19 +1,17 @@
 ---
 UID: NF:dwrite_1.IDWriteTextLayout1.SetPairKerning
 title: IDWriteTextLayout1::SetPairKerning (dwrite_1.h)
-
 description: Enables or disables pair-kerning on a given text range.
 old-location: directwrite\idwritetextlayout1_setpairkerning.htm
 tech.root: DirectWrite
 ms.assetid: AE43D7E4-CD2D-4BBD-88C3-B5287FD235AF
-
 ms.date: 12/05/2018
 ms.keywords: IDWriteTextLayout1 interface [Direct Write],SetPairKerning method, IDWriteTextLayout1.SetPairKerning, IDWriteTextLayout1::SetPairKerning, SetPairKerning, SetPairKerning method [Direct Write], SetPairKerning method [Direct Write],IDWriteTextLayout1 interface, directwrite.idwritetextlayout1_setpairkerning, dwrite_1/IDWriteTextLayout1::SetPairKerning
 ms.topic: method
-f1_keywords: 
- - "dwrite_1/IDWriteTextLayout1.SetPairKerning"
+f1_keywords:
+- dwrite_1/IDWriteTextLayout1.SetPairKerning
 dev_langs:
- - c++
+- c++
 req.header: dwrite_1.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dwrite.lib
 req.dll: Dwrite.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dwrite.dll
+- dwrite.dll
 api_name:
- - IDWriteTextLayout1.SetPairKerning
+- IDWriteTextLayout1.SetPairKerning
 targetos: Windows
 req.typenames: 
 req.redist: 

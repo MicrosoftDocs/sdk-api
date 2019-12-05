@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.ITaskbarList3.SetThumbnailTooltip
 title: ITaskbarList3::SetThumbnailTooltip (shobjidl_core.h)
-
 description: Specifies or updates the text of the tooltip that is displayed when the mouse pointer rests on an individual preview thumbnail in a taskbar button flyout.
 old-location: shell\ITaskbarList3_SetThumbnailTooltip.htm
 tech.root: shell
 ms.assetid: 73b5b9de-4876-4cac-9e58-d2e7559724f7
-
 ms.date: 12/05/2018
 ms.keywords: ITaskbarList3 interface [Windows Shell],SetThumbnailTooltip method, ITaskbarList3.SetThumbnailTooltip, ITaskbarList3::SetThumbnailTooltip, SetThumbnailTooltip, SetThumbnailTooltip method [Windows Shell], SetThumbnailTooltip method [Windows Shell],ITaskbarList3 interface, _shell_ITaskbarList3_SetThumbnailTooltip, shell.ITaskbarList3_SetThumbnailTooltip, shobjidl_core/ITaskbarList3::SetThumbnailTooltip
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/ITaskbarList3.SetThumbnailTooltip"
+f1_keywords:
+- shobjidl_core/ITaskbarList3.SetThumbnailTooltip
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Explorerframe.lib
 req.dll: Explorerframe.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Explorerframe.dll
+- Explorerframe.dll
 api_name:
- - ITaskbarList3.SetThumbnailTooltip
+- ITaskbarList3.SetThumbnailTooltip
 targetos: Windows
 req.typenames: 
 req.redist: 

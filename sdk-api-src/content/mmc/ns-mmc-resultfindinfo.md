@@ -1,19 +1,17 @@
 ---
 UID: NS:mmc._RESULTFINDINFO
 title: RESULTFINDINFO (mmc.h)
-
 description: Used by the IResultOwnerData::FindItem method to support keyboard navigation in virtual lists in the result pane.
 old-location: mmc\resultfindinfo.htm
 tech.root: mmc
 ms.assetid: e52c3437-45ac-4397-ab8f-70bc4d5f44f5
-
 ms.date: 12/05/2018
-ms.keywords: "*LPRESULTFINDINFO, LPRESULTFINDINFO, LPRESULTFINDINFO structure pointer [MMC], RESULTFINDINFO, RESULTFINDINFO structure [MMC], RFI_PARTIAL, RFI_WRAP, _slate_resultfindinfo, mmc.resultfindinfo, mmc/LPRESULTFINDINFO, mmc/RESULTFINDINFO"
+ms.keywords: '*LPRESULTFINDINFO, LPRESULTFINDINFO, LPRESULTFINDINFO structure pointer [MMC], RESULTFINDINFO, RESULTFINDINFO structure [MMC], RFI_PARTIAL, RFI_WRAP, _slate_resultfindinfo, mmc.resultfindinfo, mmc/LPRESULTFINDINFO, mmc/RESULTFINDINFO'
 ms.topic: struct
-f1_keywords: 
- - "mmc/RESULTFINDINFO"
+f1_keywords:
+- mmc/RESULTFINDINFO
 dev_langs:
- - c++
+- c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Mmc.h
+- Mmc.h
 api_name:
- - RESULTFINDINFO
+- RESULTFINDINFO
 targetos: Windows
 req.typenames: RESULTFINDINFO
 req.redist: 

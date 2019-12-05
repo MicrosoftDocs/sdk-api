@@ -1,19 +1,17 @@
 ---
 UID: NS:clusapi._CLUS_PROVIDER_STATE_CHANGE_INFO
 title: CLUS_PROVIDER_STATE_CHANGE_INFO (clusapi.h)
-
 description: Contains data about the state of a provider resource.
 old-location: mscs\clus_provider_state_change_info.htm
 tech.root: MsCS
 ms.assetid: 53e25d02-6dfa-4a74-8ff3-01c868d2fd44
-
 ms.date: 12/05/2018
-ms.keywords: "*PCLUS_PROVIDER_STATE_CHANGE_INFO, CLUS_PROVIDER_STATE_CHANGE_INFO, CLUS_PROVIDER_STATE_CHANGE_INFO structure [Failover Cluster], ClusterResourceFailed, ClusterResourceInherited, ClusterResourceOffline, ClusterResourceOfflinePending, ClusterResourceOnline, ClusterResourceOnlinePending, PCLUS_PROVIDER_STATE_CHANGE_INFO, PCLUS_PROVIDER_STATE_CHANGE_INFO structure pointer [Failover Cluster], clusapi/CLUS_PROVIDER_STATE_CHANGE_INFO, clusapi/PCLUS_PROVIDER_STATE_CHANGE_INFO, mscs.clus_provider_state_change_info"
+ms.keywords: '*PCLUS_PROVIDER_STATE_CHANGE_INFO, CLUS_PROVIDER_STATE_CHANGE_INFO, CLUS_PROVIDER_STATE_CHANGE_INFO structure [Failover Cluster], ClusterResourceFailed, ClusterResourceInherited, ClusterResourceOffline, ClusterResourceOfflinePending, ClusterResourceOnline, ClusterResourceOnlinePending, PCLUS_PROVIDER_STATE_CHANGE_INFO, PCLUS_PROVIDER_STATE_CHANGE_INFO structure pointer [Failover Cluster], clusapi/CLUS_PROVIDER_STATE_CHANGE_INFO, clusapi/PCLUS_PROVIDER_STATE_CHANGE_INFO, mscs.clus_provider_state_change_info'
 ms.topic: struct
-f1_keywords: 
- - "clusapi/CLUS_PROVIDER_STATE_CHANGE_INFO"
+f1_keywords:
+- clusapi/CLUS_PROVIDER_STATE_CHANGE_INFO
 dev_langs:
- - c++
+- c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - ClusAPI.h
+- ClusAPI.h
 api_name:
- - CLUS_PROVIDER_STATE_CHANGE_INFO
+- CLUS_PROVIDER_STATE_CHANGE_INFO
 targetos: Windows
 req.typenames: CLUS_PROVIDER_STATE_CHANGE_INFO, *PCLUS_PROVIDER_STATE_CHANGE_INFO
 req.redist: 

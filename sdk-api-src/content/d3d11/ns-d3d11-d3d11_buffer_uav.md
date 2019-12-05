@@ -1,19 +1,17 @@
 ---
 UID: NS:d3d11.D3D11_BUFFER_UAV
 title: D3D11_BUFFER_UAV (d3d11.h)
-
 description: Describes the elements in a buffer to use in a unordered-access view.
 old-location: direct3d11\d3d11_buffer_uav.htm
 tech.root: direct3d11
 ms.assetid: 8dcd2281-1875-474e-8c86-a6920ab2b515
-
 ms.date: 12/05/2018
 ms.keywords: D3D11_BUFFER_UAV, D3D11_BUFFER_UAV structure [Direct3D 11], c8071050-410d-09ba-35f3-6d7c40e44eb6, d3d11/D3D11_BUFFER_UAV, direct3d11.d3d11_buffer_uav
 ms.topic: struct
-f1_keywords: 
- - "d3d11/D3D11_BUFFER_UAV"
+f1_keywords:
+- d3d11/D3D11_BUFFER_UAV
 dev_langs:
- - c++
+- c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - D3D11.h
+- D3D11.h
 api_name:
- - D3D11_BUFFER_UAV
+- D3D11_BUFFER_UAV
 targetos: Windows
 req.typenames: D3D11_BUFFER_UAV
 req.redist: 

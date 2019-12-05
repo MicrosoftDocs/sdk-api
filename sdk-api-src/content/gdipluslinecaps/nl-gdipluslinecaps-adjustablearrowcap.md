@@ -1,19 +1,17 @@
 ---
 UID: NL:gdipluslinecaps.AdjustableArrowCap
 title: AdjustableArrowCap (gdipluslinecaps.h)
-
 description: The AdjustableArrowCap class is a subclass of the CustomLineCap. This class builds a line cap that looks like an arrow.
 old-location: gdiplus\_gdiplus_CLASS_AdjustableArrowCap_Class.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\adjustablearrowcap.htm
-
 ms.date: 12/05/2018
 ms.keywords: AdjustableArrowCap, AdjustableArrowCap class [GDI+], AdjustableArrowCap class [GDI+],described, _gdiplus_CLASS_AdjustableArrowCap_Class, gdiplus._gdiplus_CLASS_AdjustableArrowCap_Class, gdipluslinecaps/AdjustableArrowCap
 ms.topic: class
-f1_keywords: 
- - "gdipluslinecaps/AdjustableArrowCap"
+f1_keywords:
+- gdipluslinecaps/AdjustableArrowCap
 dev_langs:
- - c++
+- c++
 req.header: gdipluslinecaps.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - gdipluslinecaps.h
+- gdipluslinecaps.h
 api_name:
- - AdjustableArrowCap
+- AdjustableArrowCap
 targetos: Windows
 req.typenames: 
 req.redist: 

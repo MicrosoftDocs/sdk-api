@@ -1,19 +1,17 @@
 ---
 UID: NS:drt._DRT_ADDRESS
 title: DRT_ADDRESS (drt.h)
-
 description: DRT_ADDRESS structure contains endpoint information about a DRT node that participated in a search. This information is intended for use in debugging connectivity problems.
 old-location: p2p\drt_address.htm
 tech.root: P2PSdk
 ms.assetid: d6b00d5e-14f1-4e56-b8c8-f3936f6ae9fb
-
 ms.date: 12/05/2018
 ms.keywords: '*PDRT_ADDRESS, DRT_ADDRESS, DRT_ADDRESS structure [Peer Networking], PDRT_ADDRESS, PDRT_ADDRESS structure pointer [Peer Networking], drt/DRT_ADDRESS, drt/PDRT_ADDRESS, p2p.drt_address'
 ms.topic: struct
 f1_keywords:
 - drt/DRT_ADDRESS
 dev_langs:
- - c++
+- c++
 req.header: drt.h
 req.include-header: 
 req.target-type: Windows

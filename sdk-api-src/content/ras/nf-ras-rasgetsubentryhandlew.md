@@ -1,19 +1,17 @@
 ---
 UID: NF:ras.RasGetSubEntryHandleW
 title: RasGetSubEntryHandleW function (ras.h)
-
 description: The RasGetSubEntryHandle function retrieves a connection handle for a specified subentry of a multilink connection.
 old-location: rras\rasgetsubentryhandle.htm
 tech.root: RRAS
 ms.assetid: 020388b1-9965-4bd1-be7b-30f2127cb0fb
-
 ms.date: 12/05/2018
 ms.keywords: RasGetSubEntryHandle, RasGetSubEntryHandle function [RAS], RasGetSubEntryHandleA, RasGetSubEntryHandleW, _ras_rasgetsubentryhandle, ras/RasGetSubEntryHandle, ras/RasGetSubEntryHandleA, ras/RasGetSubEntryHandleW, rras.rasgetsubentryhandle
 ms.topic: function
-f1_keywords: 
- - "ras/RasGetSubEntryHandle"
+f1_keywords:
+- ras/RasGetSubEntryHandle
 dev_langs:
- - c++
+- c++
 req.header: ras.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Rasapi32.lib
 req.dll: Rasapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Rasapi32.dll
+- Rasapi32.dll
 api_name:
- - RasGetSubEntryHandle
- - RasGetSubEntryHandleA
- - RasGetSubEntryHandleW
+- RasGetSubEntryHandle
+- RasGetSubEntryHandleA
+- RasGetSubEntryHandleW
 targetos: Windows
 req.typenames: 
 req.redist: 

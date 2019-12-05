@@ -1,19 +1,17 @@
 ---
 UID: NF:mfidl.IMFMediaSource.Pause
 title: IMFMediaSource::Pause (mfidl.h)
-
 description: Pauses all active streams in the media source.
 old-location: mf\imfmediasource_pause.htm
 tech.root: medfound
 ms.assetid: 113b3dc7-918e-427e-aa70-cf474b951c6d
-
 ms.date: 12/05/2018
 ms.keywords: 113b3dc7-918e-427e-aa70-cf474b951c6d, IMFMediaSource interface [Media Foundation],Pause method, IMFMediaSource.Pause, IMFMediaSource::Pause, Pause, Pause method [Media Foundation], Pause method [Media Foundation],IMFMediaSource interface, mf.imfmediasource_pause, mfidl/IMFMediaSource::Pause
 ms.topic: method
-f1_keywords: 
- - "mfidl/IMFMediaSource.Pause"
+f1_keywords:
+- mfidl/IMFMediaSource.Pause
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFMediaSource.Pause
+- IMFMediaSource.Pause
 targetos: Windows
 req.typenames: 
 req.redist: 

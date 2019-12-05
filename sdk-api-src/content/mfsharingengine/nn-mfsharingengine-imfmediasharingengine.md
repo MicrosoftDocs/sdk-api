@@ -1,19 +1,17 @@
 ---
 UID: NN:mfsharingengine.IMFMediaSharingEngine
 title: IMFMediaSharingEngine (mfsharingengine.h)
-
 description: Enables media sharing.
 old-location: mf\imfmediasharingengine.htm
 tech.root: medfound
 ms.assetid: D56612FC-840A-41EE-B162-7AF16ED3D975
-
 ms.date: 12/05/2018
 ms.keywords: IMFMediaSharingEngine, IMFMediaSharingEngine interface [Media Foundation], IMFMediaSharingEngine interface [Media Foundation],described, mf.imfmediasharingengine, mfsharingengine/IMFMediaSharingEngine
 ms.topic: interface
-f1_keywords: 
- - "mfsharingengine/IMFMediaSharingEngine"
+f1_keywords:
+- mfsharingengine/IMFMediaSharingEngine
 dev_langs:
- - c++
+- c++
 req.header: mfsharingengine.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfsharingengine.h
+- mfsharingengine.h
 api_name:
- - IMFMediaSharingEngine
+- IMFMediaSharingEngine
 targetos: Windows
 req.typenames: 
 req.redist: 

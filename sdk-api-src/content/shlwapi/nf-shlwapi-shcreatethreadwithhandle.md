@@ -1,19 +1,17 @@
 ---
 UID: NF:shlwapi.SHCreateThreadWithHandle
 title: SHCreateThreadWithHandle function (shlwapi.h)
-
 description: Creates a new thread and retrieves its handle.
 old-location: shell\SHCreateThreadWithHandle.htm
 tech.root: shell
 ms.assetid: 22a3a97a-857f-46b8-a2e0-8f3a14f40322
-
 ms.date: 12/05/2018
 ms.keywords: SHCreateThreadWithHandle, SHCreateThreadWithHandle function [Windows Shell], _shell_SHCreateThreadWithHandle, shell.SHCreateThreadWithHandle, shlwapi/SHCreateThreadWithHandle
 ms.topic: function
-f1_keywords: 
- - "shlwapi/SHCreateThreadWithHandle"
+f1_keywords:
+- shlwapi/SHCreateThreadWithHandle
 dev_langs:
- - c++
+- c++
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Shlwapi.lib
 req.dll: Shlwapi.dll (version 6.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Shlwapi.dll
- - API-MS-Win-DownLevel-shlwapi-l2-1-1.dll
- - ShCore.dll
- - API-MS-Win-ShCore-thread-l1-1-0.dll
+- Shlwapi.dll
+- API-MS-Win-DownLevel-shlwapi-l2-1-1.dll
+- ShCore.dll
+- API-MS-Win-ShCore-thread-l1-1-0.dll
 api_name:
- - SHCreateThreadWithHandle
+- SHCreateThreadWithHandle
 targetos: Windows
 req.typenames: 
 req.redist: 

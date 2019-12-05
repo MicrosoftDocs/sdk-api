@@ -1,19 +1,17 @@
 ---
 UID: NF:oleauto.VarR4FromBool
 title: VarR4FromBool function (oleauto.h)
-
 description: Converts a Boolean value to a float value.
 old-location: automat\varr4frombool.htm
 tech.root: automat
 ms.assetid: 9070ccdb-8e10-440d-9851-5b596467f7a2
-
 ms.date: 12/05/2018
 ms.keywords: VarR4FromBool, VarR4FromBool function [Automation], _oa96_VarR4FromBool, automat.varr4frombool, oleauto/VarR4FromBool
 ms.topic: function
-f1_keywords: 
- - "oleauto/VarR4FromBool"
+f1_keywords:
+- oleauto/VarR4FromBool
 dev_langs:
- - c++
+- c++
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: OleAut32.lib
 req.dll: OleAut32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - OleAut32.dll
+- OleAut32.dll
 api_name:
- - VarR4FromBool
+- VarR4FromBool
 targetos: Windows
 req.typenames: 
 req.redist: 

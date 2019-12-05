@@ -1,19 +1,17 @@
 ---
 UID: NF:vds.IVdsService.QueryMaskedDisks
 title: IVdsService::QueryMaskedDisks (vds.h)
-
 description: Not supported.This method is reserved for future use.
 old-location: base\ivdsservice_querymaskeddisks.htm
 tech.root: VDS
 ms.assetid: 6e53b250-0ceb-4a0c-a1ea-11b2686c5b4d
-
 ms.date: 12/05/2018
 ms.keywords: IVdsService interface [VDS],QueryMaskedDisks method, IVdsService.QueryMaskedDisks, IVdsService::QueryMaskedDisks, QueryMaskedDisks, QueryMaskedDisks method [VDS], QueryMaskedDisks method [VDS],IVdsService interface, base.ivdsservice_querymaskeddisks, vds/IVdsService::QueryMaskedDisks
 ms.topic: method
-f1_keywords: 
- - "vds/IVdsService.QueryMaskedDisks"
+f1_keywords:
+- vds/IVdsService.QueryMaskedDisks
 dev_langs:
- - c++
+- c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Uuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Uuid.lib
- - Uuid.dll
+- Uuid.lib
+- Uuid.dll
 api_name:
- - IVdsService.QueryMaskedDisks
+- IVdsService.QueryMaskedDisks
 targetos: Windows
 req.typenames: 
 req.redist: 

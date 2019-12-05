@@ -1,19 +1,17 @@
 ---
 UID: NE:wuapicommon.tagServerSelection
 title: ServerSelection (wuapicommon.h)
-
 description: Defines the update services that Windows Update can operate against.
 old-location: wua\serverselection.htm
 tech.root: Wua_Sdk
 ms.assetid: 51caac5e-98a6-49e4-a175-6319349a6d68
-
 ms.date: 12/05/2018
 ms.keywords: ServerSelection, ServerSelection enumeration [Windows Update Agent], ssDefault, ssManagedServer, ssOthers, ssWindowsUpdate, wua.serverselection, wuapicommon/ServerSelection, wuapicommon/ssDefault, wuapicommon/ssManagedServer, wuapicommon/ssOthers, wuapicommon/ssWindowsUpdate
 ms.topic: enum
-f1_keywords: 
- - "wuapicommon/ServerSelection"
+f1_keywords:
+- wuapicommon/ServerSelection
 dev_langs:
- - c++
+- c++
 req.header: wuapicommon.h
 req.include-header: Wuapi.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - wuapicommon.h
+- wuapicommon.h
 api_name:
- - ServerSelection
+- ServerSelection
 targetos: Windows
 req.typenames: ServerSelection
 req.redist: 

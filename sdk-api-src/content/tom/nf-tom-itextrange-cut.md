@@ -1,19 +1,17 @@
 ---
 UID: NF:tom.ITextRange.Cut
 title: ITextRange::Cut (tom.h)
-
 description: Cuts the plain or rich text to a data object or to the Clipboard, depending on the pVar parameter.
 old-location: controls\ITextRange_Cut.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\cut.htm
-
 ms.date: 12/05/2018
 ms.keywords: Cut, Cut method [Windows Controls], Cut method [Windows Controls],ITextRange interface, ITextRange interface [Windows Controls],Cut method, ITextRange.Cut, ITextRange::Cut, _win32_ITextRange_Cut, _win32_ITextRange_Cut_cpp, controls.ITextRange_Cut, controls._win32_ITextRange_Cut, tom/ITextRange::Cut
 ms.topic: method
-f1_keywords: 
- - "tom/ITextRange.Cut"
+f1_keywords:
+- tom/ITextRange.Cut
 dev_langs:
- - c++
+- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msftedit.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msftedit.dll
+- Msftedit.dll
 api_name:
- - ITextRange.Cut
+- ITextRange.Cut
 targetos: Windows
 req.typenames: 
 req.redist: 

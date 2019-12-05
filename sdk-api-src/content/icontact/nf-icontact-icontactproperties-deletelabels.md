@@ -1,19 +1,17 @@
 ---
 UID: NF:icontact.IContactProperties.DeleteLabels
 title: IContactProperties::DeleteLabels (icontact.h)
-
 description: Deletes the labels at a specified array entry.
 old-location: wincontacts\_wincontacts_IContactProperties_DeleteLabels.htm
 tech.root: wincontacts
 ms.assetid: 0925bed9-26ef-46e6-9087-0e1a1e57349d
-
 ms.date: 12/05/2018
 ms.keywords: DeleteLabels, DeleteLabels method [Windows Contacts], DeleteLabels method [Windows Contacts],IContactProperties interface, IContactProperties interface [Windows Contacts],DeleteLabels method, IContactProperties.DeleteLabels, IContactProperties::DeleteLabels, _wincontacts_IContactProperties_DeleteLabels, icontact/IContactProperties::DeleteLabels, wincontacts._wincontacts_IContactProperties_DeleteLabels
 ms.topic: method
-f1_keywords: 
- - "icontact/IContactProperties.DeleteLabels"
+f1_keywords:
+- icontact/IContactProperties.DeleteLabels
 dev_langs:
- - c++
+- c++
 req.header: icontact.h
 req.include-header: Contact.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wab32.dll (Version 6.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wab32.dll
+- Wab32.dll
 api_name:
- - IContactProperties.DeleteLabels
+- IContactProperties.DeleteLabels
 targetos: Windows
 req.typenames: 
 req.redist: 

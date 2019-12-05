@@ -1,19 +1,17 @@
 ---
 UID: NF:eaphostpeerconfigapis.EapHostPeerGetMethods
 title: EapHostPeerGetMethods function (eaphostpeerconfigapis.h)
-
 description: Enumerates all EAP methods installed and available for use, including legacy EAP Methods.
 old-location: eaphost\eaphostpeergetmethods.htm
 tech.root: eaphost
 ms.assetid: 5b2b351b-d6d8-406c-aa9f-ac720def3681
-
 ms.date: 12/05/2018
 ms.keywords: EapHostPeerGetMethods, EapHostPeerGetMethods function [EAPHost], eaphost.eaphostpeergetmethods, eaphostpeerconfigapis/EapHostPeerGetMethods
 ms.topic: function
 f1_keywords:
 - eaphostpeerconfigapis/EapHostPeerGetMethods
 dev_langs:
- - c++
+- c++
 req.header: eaphostpeerconfigapis.h
 req.include-header: 
 req.target-type: Windows

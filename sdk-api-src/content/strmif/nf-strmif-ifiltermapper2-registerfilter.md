@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IFilterMapper2.RegisterFilter
 title: IFilterMapper2::RegisterFilter (strmif.h)
-
 description: The RegisterFilter method adds filter information to the registry.
 old-location: dshow\ifiltermapper2_registerfilter.htm
 tech.root: DirectShow
 ms.assetid: 773e527e-2174-4f74-a822-549cfe2927a3
-
 ms.date: 12/05/2018
 ms.keywords: IFilterMapper2 interface [DirectShow],RegisterFilter method, IFilterMapper2.RegisterFilter, IFilterMapper2::RegisterFilter, IFilterMapper2RegisterFilter, RegisterFilter, RegisterFilter method [DirectShow], RegisterFilter method [DirectShow],IFilterMapper2 interface, dshow.ifiltermapper2_registerfilter, strmif/IFilterMapper2::RegisterFilter
 ms.topic: method
-f1_keywords: 
- - "strmif/IFilterMapper2.RegisterFilter"
+f1_keywords:
+- strmif/IFilterMapper2.RegisterFilter
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IFilterMapper2.RegisterFilter
+- IFilterMapper2.RegisterFilter
 targetos: Windows
 req.typenames: 
 req.redist: 

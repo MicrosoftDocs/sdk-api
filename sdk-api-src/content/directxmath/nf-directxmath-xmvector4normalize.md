@@ -1,19 +1,17 @@
 ---
 UID: NF:directxmath.XMVector4Normalize
 title: XMVector4Normalize function (directxmath.h)
-
 description: Returns the normalized version of a 4D vector.
 old-location: dxmath\xmvector4normalize.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.geometric.XMVector4Normalize(XMVECTOR)
-
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMVector4Normalize, XMVector4Normalize, XMVector4Normalize method [DirectX Math Support APIs], dxmath.xmvector4normalize
 ms.topic: function
-f1_keywords: 
- - "directxmath/XMVector4Normalize"
+f1_keywords:
+- directxmath/XMVector4Normalize
 dev_langs:
- - c++
+- c++
 req.header: directxmath.h
 req.include-header: DirectXMath.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - directxmathvector.inl
+- directxmathvector.inl
 api_name:
- - XMVector4Normalize
+- XMVector4Normalize
 targetos: Windows
 req.typenames: 
 req.redist: 

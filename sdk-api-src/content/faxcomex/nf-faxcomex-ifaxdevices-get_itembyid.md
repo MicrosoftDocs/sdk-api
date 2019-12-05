@@ -1,19 +1,17 @@
 ---
 UID: NF:faxcomex.IFaxDevices.get_ItemById
 title: IFaxDevices::get_ItemById (faxcomex.h)
-
 description: The IFaxDevices::get_ItemById method returns a FaxDevice object from the FaxDevices collection, using its device ID.
 old-location: fax\_mfax_faxdevices_itembyid.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_4gmc.htm
-
 ms.date: 12/05/2018
 ms.keywords: IFaxDevices interface [Fax Service],get_ItemById method, IFaxDevices.get_ItemById, IFaxDevices::get_ItemById, _mfax_faxdevices.itembyid, fax._mfax_faxdevices_itembyid, faxcomex/IFaxDevices::get_ItemById, get_ItemById, get_ItemById method [Fax Service], get_ItemById method [Fax Service],IFaxDevices interface
 ms.topic: method
-f1_keywords: 
- - "faxcomex/IFaxDevices.get_ItemById"
+f1_keywords:
+- faxcomex/IFaxDevices.get_ItemById
 dev_langs:
- - c++
+- c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - FaxComex.h
+- FaxComex.h
 api_name:
- - IFaxDevices.get_ItemById
+- IFaxDevices.get_ItemById
 targetos: Windows
 req.typenames: 
 req.redist: 

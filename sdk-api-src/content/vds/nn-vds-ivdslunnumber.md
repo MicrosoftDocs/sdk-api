@@ -1,19 +1,17 @@
 ---
 UID: NN:vds.IVdsLunNumber
 title: IVdsLunNumber (vds.h)
-
 description: Provides a method to query the LUN number for a LUN.
 old-location: base\ivdslunnumber.htm
 tech.root: VDS
 ms.assetid: 77bd95f7-005a-474f-97c4-e211432b447d
-
 ms.date: 12/05/2018
 ms.keywords: IVdsLunNumber, IVdsLunNumber interface, IVdsLunNumber interface,described, base.ivdslunnumber, vds/IVdsLunNumber, vdshwprv/IVdsLunNumber
 ms.topic: interface
-f1_keywords: 
- - "vds/IVdsLunNumber"
+f1_keywords:
+- vds/IVdsLunNumber
 dev_langs:
- - c++
+- c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Uuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Uuid.lib
- - Uuid.dll
+- Uuid.lib
+- Uuid.dll
 api_name:
- - IVdsLunNumber
+- IVdsLunNumber
 targetos: Windows
 req.typenames: 
 req.redist: 

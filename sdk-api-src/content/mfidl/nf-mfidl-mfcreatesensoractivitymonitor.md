@@ -1,19 +1,17 @@
 ---
 UID: NF:mfidl.MFCreateSensorActivityMonitor
 title: MFCreateSensorActivityMonitor function (mfidl.h)
-
 description: Initializes a new instance of the IMFSensorActivityMonitor interface.
 old-location: mf\mfcreatesensoractivitymonitor.htm
 tech.root: medfound
 ms.assetid: 852395EE-AA84-4C61-A55F-E8D925FA1447
-
 ms.date: 12/05/2018
 ms.keywords: MFCreateSensorActivityMonitor, MFCreateSensorActivityMonitor function [Media Foundation], mf.mfcreatesensoractivitymonitor, mfidl/MFCreateSensorActivityMonitor
 ms.topic: function
-f1_keywords: 
- - "mfidl/MFCreateSensorActivityMonitor"
+f1_keywords:
+- mfidl/MFCreateSensorActivityMonitor
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Mfsensorgroup.lib
 req.dll: Mfsensorgroup.lib
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - mfsensorgroup.lib
+- mfsensorgroup.lib
 api_name:
- - MFCreateSensorActivityMonitor
+- MFCreateSensorActivityMonitor
 targetos: Windows
 req.typenames: 
 req.redist: 

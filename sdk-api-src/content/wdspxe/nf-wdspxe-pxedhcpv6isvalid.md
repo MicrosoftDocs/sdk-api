@@ -1,19 +1,17 @@
 ---
 UID: NF:wdspxe.PxeDhcpv6IsValid
 title: PxeDhcpv6IsValid function (wdspxe.h)
-
 description: Validates that a packet is a valid DHCPv6 packet.
 old-location: wds\pxedhcpv6isvalid.htm
 tech.root: wds
 ms.assetid: E20A9E7A-8CFA-4A2B-8A40-7937937332A5
-
 ms.date: 12/05/2018
 ms.keywords: FALSE, PxeDhcpv6IsValid, PxeDhcpv6IsValid function [Windows Deployment Services], TRUE, wds.pxedhcpv6isvalid, wdspxe/PxeDhcpv6IsValid
 ms.topic: function
-f1_keywords: 
- - "wdspxe/PxeDhcpv6IsValid"
+f1_keywords:
+- wdspxe/PxeDhcpv6IsValid
 dev_langs:
- - c++
+- c++
 req.header: wdspxe.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: WdsPxe.lib
 req.dll: WdsPxe.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - WdsPxe.dll
+- WdsPxe.dll
 api_name:
- - PxeDhcpv6IsValid
+- PxeDhcpv6IsValid
 targetos: Windows
 req.typenames: 
 req.redist: 

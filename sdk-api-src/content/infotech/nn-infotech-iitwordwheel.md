@@ -1,19 +1,17 @@
 ---
 UID: NN:infotech.IITWordWheel
 title: IITWordWheel (infotech.h)
-
 description: Use this interface to perform word wheel keyword lookups. The Lookup method offers several ways of performing a search:\_it returns either an exact match, or the closest approximation based on a given prefix.
 old-location: htmlhelp\iitwordwheel.htm
 tech.root: htmlhelp
 ms.assetid: VS|htmlhelp|~\html\refiitwordwheelinterface.htm
-
 ms.date: 12/05/2018
 ms.keywords: IITWordWheel, IITWordWheel interface [HTML Help Workshop], IITWordWheel interface [HTML Help Workshop],described, htmlhelp.iitwordwheel, infotech/IITWordWheel, refIITWordWheelInterface
 ms.topic: interface
-f1_keywords: 
- - "infotech/IITWordWheel"
+f1_keywords:
+- infotech/IITWordWheel
 dev_langs:
- - c++
+- c++
 req.header: infotech.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Infotech.h
+- Infotech.h
 api_name:
- - IITWordWheel
+- IITWordWheel
 targetos: Windows
 req.typenames: 
 req.redist: 

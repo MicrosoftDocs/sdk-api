@@ -1,19 +1,17 @@
 ---
 UID: NN:certenroll.IX509PolicyServerListManager
 title: IX509PolicyServerListManager (certenroll.h)
-
 description: The IX509PolicyServerListManager interface defines the following methods and properties that enable you to manage a collection of IX509PolicyServerUrl objects.
 old-location: security\ix509policyserverlistmanager.htm
 tech.root: seccertenroll
 ms.assetid: a9fe4f4b-a35d-40e6-b99a-a89f58e79250
-
 ms.date: 12/05/2018
 ms.keywords: IX509PolicyServerListManager, IX509PolicyServerListManager interface [Security], IX509PolicyServerListManager interface [Security],described, certenroll/IX509PolicyServerListManager, security.ix509policyserverlistmanager
 ms.topic: interface
-f1_keywords: 
- - "certenroll/IX509PolicyServerListManager"
+f1_keywords:
+- certenroll/IX509PolicyServerListManager
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: CertEnroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CertEnroll.dll
+- CertEnroll.dll
 api_name:
- - IX509PolicyServerListManager
+- IX509PolicyServerListManager
 targetos: Windows
 req.typenames: 
 req.redist: 

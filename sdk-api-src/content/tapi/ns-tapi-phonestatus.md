@@ -1,19 +1,17 @@
 ---
 UID: NS:tapi.phonestatus_tag
 title: PHONESTATUS (tapi.h)
-
 description: The PHONESTATUS structure describes the current status of a phone device. The phoneGetStatus and TSPI_phoneGetStatus functions return this structure.
 old-location: tapi2\phonestatus_str.htm
 tech.root: Tapi
 ms.assetid: 798a6c57-d3d3-4924-a925-059de350d18e
-
 ms.date: 12/05/2018
-ms.keywords: "*LPPHONESTATUS, LPPHONESTATUS, LPPHONESTATUS structure pointer [TAPI 2.2], PHONESTATUS, PHONESTATUS structure [TAPI 2.2], _tapi2_phonestatus_str, tapi/LPPHONESTATUS, tapi/PHONESTATUS, tapi2.phonestatus_str"
+ms.keywords: '*LPPHONESTATUS, LPPHONESTATUS, LPPHONESTATUS structure pointer [TAPI 2.2], PHONESTATUS, PHONESTATUS structure [TAPI 2.2], _tapi2_phonestatus_str, tapi/LPPHONESTATUS, tapi/PHONESTATUS, tapi2.phonestatus_str'
 ms.topic: struct
-f1_keywords: 
- - "tapi/PHONESTATUS"
+f1_keywords:
+- tapi/PHONESTATUS
 dev_langs:
- - c++
+- c++
 req.header: tapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Tapi.h
+- Tapi.h
 api_name:
- - PHONESTATUS
+- PHONESTATUS
 targetos: Windows
 req.typenames: PHONESTATUS, *LPPHONESTATUS
 req.redist: 

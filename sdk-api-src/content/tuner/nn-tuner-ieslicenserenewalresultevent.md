@@ -1,19 +1,17 @@
 ---
 UID: NN:tuner.IESLicenseRenewalResultEvent
 title: IESLicenseRenewalResultEvent (tuner.h)
-
 description: Implements methods that get information from a LicenseRenewalResult event.
 old-location: mstv\ieslicenserenewalresultevent.htm
 tech.root: mstv
 ms.assetid: 6f9cbec4-7934-41fc-b387-3f45aa273a72
-
 ms.date: 12/05/2018
 ms.keywords: IESLicenseRenewalResultEvent, IESLicenseRenewalResultEvent interface [DirectShow], IESLicenseRenewalResultEvent interface [DirectShow],described, mstv.ieslicenserenewalresultevent, tuner/IESLicenseRenewalResultEvent
 ms.topic: interface
-f1_keywords: 
- - "tuner/IESLicenseRenewalResultEvent"
+f1_keywords:
+- tuner/IESLicenseRenewalResultEvent
 dev_langs:
- - c++
+- c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - tuner.h
+- tuner.h
 api_name:
- - IESLicenseRenewalResultEvent
+- IESLicenseRenewalResultEvent
 targetos: Windows
 req.typenames: 
 req.redist: 

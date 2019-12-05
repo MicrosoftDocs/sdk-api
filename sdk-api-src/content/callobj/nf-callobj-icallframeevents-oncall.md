@@ -1,19 +1,17 @@
 ---
 UID: NF:callobj.ICallFrameEvents.OnCall
 title: ICallFrameEvents::OnCall (callobj.h)
-
 description: Informs the event sink if it receives a method call on the interceptor. The sink is provided with an ICallFrame instance which is bound to the intercepted incoming method invocation. Through that sink the call frame can be manipulated in various ways.
 old-location: com\icallframeevents_oncall.htm
 tech.root: com
 ms.assetid: bdccc4a7-e408-4186-8cc0-b14feacfbf04
-
 ms.date: 12/05/2018
 ms.keywords: ICallFrameEvents interface [COM],OnCall method, ICallFrameEvents.OnCall, ICallFrameEvents::OnCall, OnCall, OnCall method [COM], OnCall method [COM],ICallFrameEvents interface, _com_icallframeevents_oncall, callobj/ICallFrameEvents::OnCall, com.icallframeevents_oncall
 ms.topic: method
-f1_keywords: 
- - "callobj/ICallFrameEvents.OnCall"
+f1_keywords:
+- callobj/ICallFrameEvents.OnCall
 dev_langs:
- - c++
+- c++
 req.header: callobj.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Callobj.h
+- Callobj.h
 api_name:
- - ICallFrameEvents.OnCall
+- ICallFrameEvents.OnCall
 targetos: Windows
 req.typenames: 
 req.redist: 

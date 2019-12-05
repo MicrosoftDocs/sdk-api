@@ -1,19 +1,17 @@
 ---
 UID: NN:syncmgr.ISyncMgrSyncItemInfo
 title: ISyncMgrSyncItemInfo (syncmgr.h)
-
 description: Exposes methods that provide property and state information for a single sync item.
 old-location: shell\ISyncMgrSyncItemInfo.htm
 tech.root: shell
 ms.assetid: b98d216e-f23f-45f3-b42d-e5aa2e540265
-
 ms.date: 12/05/2018
 ms.keywords: ISyncMgrSyncItemInfo, ISyncMgrSyncItemInfo interface [Windows Shell], ISyncMgrSyncItemInfo interface [Windows Shell],described, _shell_ISyncMgrSyncItemInfo, shell.ISyncMgrSyncItemInfo, syncmgr/ISyncMgrSyncItemInfo
 ms.topic: interface
-f1_keywords: 
- - "syncmgr/ISyncMgrSyncItemInfo"
+f1_keywords:
+- syncmgr/ISyncMgrSyncItemInfo
 dev_langs:
- - c++
+- c++
 req.header: syncmgr.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Syncmgr.h
+- Syncmgr.h
 api_name:
- - ISyncMgrSyncItemInfo
+- ISyncMgrSyncItemInfo
 targetos: Windows
 req.typenames: 
 req.redist: 

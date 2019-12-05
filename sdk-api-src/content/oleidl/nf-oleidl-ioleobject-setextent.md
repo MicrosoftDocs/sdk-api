@@ -1,19 +1,17 @@
 ---
 UID: NF:oleidl.IOleObject.SetExtent
 title: IOleObject::SetExtent (oleidl.h)
-
 description: Informs an object of how much display space its container has assigned it.
 old-location: com\ioleobject_setextent.htm
 tech.root: com
 ms.assetid: f1960095-7c9a-4058-aef1-f31e3d6e3509
-
 ms.date: 12/05/2018
 ms.keywords: IOleObject interface [COM],SetExtent method, IOleObject.SetExtent, IOleObject::SetExtent, SetExtent, SetExtent method [COM], SetExtent method [COM],IOleObject interface, _ole_ioleobject_setextent, com.ioleobject_setextent, oleidl/IOleObject::SetExtent
 ms.topic: method
-f1_keywords: 
- - "oleidl/IOleObject.SetExtent"
+f1_keywords:
+- oleidl/IOleObject.SetExtent
 dev_langs:
- - c++
+- c++
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - OleIdl.h
+- OleIdl.h
 api_name:
- - IOleObject.SetExtent
+- IOleObject.SetExtent
 targetos: Windows
 req.typenames: 
 req.redist: 

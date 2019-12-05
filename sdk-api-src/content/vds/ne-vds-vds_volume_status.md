@@ -1,19 +1,17 @@
 ---
 UID: NE:vds._VDS_VOLUME_STATUS
 title: VDS_VOLUME_STATUS (vds.h)
-
 description: Defines the set of object status values for a volume.
 old-location: base\vds_volume_status.htm
 tech.root: VDS
 ms.assetid: 16159d33-08e0-47a4-a4b6-06e5f2916ea8
-
 ms.date: 12/05/2018
 ms.keywords: VDS_VOLUME_STATUS, VDS_VOLUME_STATUS enumeration [VDS], VDS_VS_FAILED, VDS_VS_NO_MEDIA, VDS_VS_OFFLINE, VDS_VS_ONLINE, VDS_VS_UNKNOWN, base.vds_volume_status, vds/VDS_VOLUME_STATUS, vds/VDS_VS_FAILED, vds/VDS_VS_NO_MEDIA, vds/VDS_VS_OFFLINE, vds/VDS_VS_ONLINE, vds/VDS_VS_UNKNOWN
 ms.topic: enum
 f1_keywords:
 - vds/VDS_VOLUME_STATUS
 dev_langs:
- - c++
+- c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

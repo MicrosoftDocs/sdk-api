@@ -1,19 +1,17 @@
 ---
 UID: NF:wia_xp.IWiaItem.DeviceDlg
 title: IWiaItem::DeviceDlg (wia_xp.h)
-
 description: The IWiaItem::DeviceDlg method is used by applications to display a dialog box to the user to prepare for image acquisition.
 old-location: wia\_wia_IWiaItem_DeviceDlg.htm
 tech.root: wia
 ms.assetid: VS|wia|~\wia\refwia\ifaces\iwiaitem\devicedlg.htm
-
 ms.date: 12/05/2018
 ms.keywords: DeviceDlg, DeviceDlg method [WIA], DeviceDlg method [WIA],IWiaItem interface, IWiaItem interface [WIA],DeviceDlg method, IWiaItem.DeviceDlg, IWiaItem::DeviceDlg, _wia_IWiaItem_DeviceDlg, wia._wia_IWiaItem_DeviceDlg, wia_xp/IWiaItem::DeviceDlg
 ms.topic: method
-f1_keywords: 
- - "wia_xp/IWiaItem.DeviceDlg"
+f1_keywords:
+- wia_xp/IWiaItem.DeviceDlg
 dev_langs:
- - c++
+- c++
 req.header: wia_xp.h
 req.include-header: Wia.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Wiaguid.lib
 req.dll: Wiaservc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wiaservc.dll
+- Wiaservc.dll
 api_name:
- - IWiaItem.DeviceDlg
+- IWiaItem.DeviceDlg
 targetos: Windows
 req.typenames: 
 req.redist: 

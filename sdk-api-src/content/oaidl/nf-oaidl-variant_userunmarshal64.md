@@ -1,19 +1,17 @@
 ---
 UID: NF:oaidl.VARIANT_UserUnmarshal64
 title: VARIANT_UserUnmarshal64 function (oaidl.h)
-
 description: Unmarshals a VARIANT object from the RPC buffer.
 old-location: automat\variant_userunmarshal64.htm
 tech.root: automat
 ms.assetid: c4539285-20c2-4eda-acbc-1f1a80cad07b
-
 ms.date: 12/05/2018
 ms.keywords: VARIANT_UserUnmarshal64, VARIANT_UserUnmarshal64 function [Automation], automat.variant_userunmarshal64, oaidl/VARIANT_UserUnmarshal64
 ms.topic: function
-f1_keywords: 
- - "oaidl/VARIANT_UserUnmarshal64"
+f1_keywords:
+- oaidl/VARIANT_UserUnmarshal64
 dev_langs:
- - c++
+- c++
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: OleAut32.lib
 req.dll: OleAut32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - OleAut32.dll
+- OleAut32.dll
 api_name:
- - VARIANT_UserUnmarshal64
+- VARIANT_UserUnmarshal64
 targetos: Windows
 req.typenames: 
 req.redist: 

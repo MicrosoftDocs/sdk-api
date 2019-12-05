@@ -1,19 +1,17 @@
 ---
 UID: NF:sbtsv.ITsSbSession.get_ProtocolType
 title: ITsSbSession::get_ProtocolType (sbtsv.h)
-
 description: Retrieves or specifies the protocol type for the session.
 old-location: termserv\itssbsession_protocoltype.htm
 tech.root: TermServ
 ms.assetid: ee4016c7-1cd4-456c-abec-e43d57866bc1
-
 ms.date: 12/05/2018
 ms.keywords: ITsSbSession interface [Remote Desktop Services],ProtocolType property, ITsSbSession.ProtocolType, ITsSbSession.get_ProtocolType, ITsSbSession::ProtocolType, ITsSbSession::get_ProtocolType, ITsSbSession::put_ProtocolType, ProtocolType property [Remote Desktop Services], ProtocolType property [Remote Desktop Services],ITsSbSession interface, get_ProtocolType, sbtsv/ITsSbSession::ProtocolType, sbtsv/ITsSbSession::get_ProtocolType, sbtsv/ITsSbSession::put_ProtocolType, termserv.itssbsession_protocoltype
 ms.topic: method
-f1_keywords: 
- - "sbtsv/ITsSbSession.ProtocolType"
+f1_keywords:
+- sbtsv/ITsSbSession.ProtocolType
 dev_langs:
- - c++
+- c++
 req.header: sbtsv.h
 req.include-header: Sbtsv.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - sbtsv.h
+- sbtsv.h
 api_name:
- - ITsSbSession.ProtocolType
- - ITsSbSession.get_ProtocolType
- - ITsSbSession.put_ProtocolType
+- ITsSbSession.ProtocolType
+- ITsSbSession.get_ProtocolType
+- ITsSbSession.put_ProtocolType
 targetos: Windows
 req.typenames: 
 req.redist: 

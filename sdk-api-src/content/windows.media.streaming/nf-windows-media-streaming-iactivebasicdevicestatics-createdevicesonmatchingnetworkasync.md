@@ -1,19 +1,17 @@
 ---
 UID: NF:windows.media.streaming.IActiveBasicDeviceStatics.CreateDevicesOnMatchingNetworkAsync
 title: IActiveBasicDeviceStatics::streaming (windows.media.streaming.h)
-
 description: Asynchronously creates a DevicePair of devices that are on the same network interface.
 old-location: mediastreaming\iactivebasicdevicestatics_createdevicesonmatchingnetworkasync.htm
 tech.root: mediastreaming
 ms.assetid: E113C600-1F55-4653-A4FD-A1286699B137
-
 ms.date: 12/05/2018
 ms.keywords: CreateDevicesOnMatchingNetworkAsync, CreateDevicesOnMatchingNetworkAsync method [Media Streaming API], CreateDevicesOnMatchingNetworkAsync method [Media Streaming API],IActiveBasicDeviceStatics interface, IActiveBasicDeviceStatics interface [Media Streaming API],CreateDevicesOnMatchingNetworkAsync method, IActiveBasicDeviceStatics.CreateDevicesOnMatchingNetworkAsync, IActiveBasicDeviceStatics.streaming, IActiveBasicDeviceStatics::CreateDevicesOnMatchingNetworkAsync, IActiveBasicDeviceStatics::streaming, mediastreaming.iactivebasicdevicestatics_createdevicesonmatchingnetworkasync, windows/IActiveBasicDeviceStatics::CreateDevicesOnMatchingNetworkAsync
 ms.topic: method
-f1_keywords: 
- - "windows.media.streaming/IActiveBasicDeviceStatics.CreateDevicesOnMatchingNetworkAsync"
+f1_keywords:
+- windows.media.streaming/IActiveBasicDeviceStatics.CreateDevicesOnMatchingNetworkAsync
 dev_langs:
- - c++
+- c++
 req.header: windows.media.streaming.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: PlayToDevice.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - PlayToDevice.dll
+- PlayToDevice.dll
 api_name:
- - IActiveBasicDeviceStatics.CreateDevicesOnMatchingNetworkAsync
+- IActiveBasicDeviceStatics.CreateDevicesOnMatchingNetworkAsync
 targetos: Windows
 req.typenames: 
 req.redist: 

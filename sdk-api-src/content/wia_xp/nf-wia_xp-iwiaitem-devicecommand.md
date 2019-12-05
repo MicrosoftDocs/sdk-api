@@ -1,19 +1,17 @@
 ---
 UID: NF:wia_xp.IWiaItem.DeviceCommand
 title: IWiaItem::DeviceCommand (wia_xp.h)
-
 description: The IWiaItem::DeviceCommand issues a command to a Windows Image Acquisition (WIA) hardware device.
 old-location: wia\_wia_IWiaItem_DeviceCommand.htm
 tech.root: wia
 ms.assetid: VS|wia|~\wia\refwia\ifaces\iwiaitem\devicecommand.htm
-
 ms.date: 12/05/2018
 ms.keywords: DeviceCommand, DeviceCommand method [WIA], DeviceCommand method [WIA],IWiaItem interface, IWiaItem interface [WIA],DeviceCommand method, IWiaItem.DeviceCommand, IWiaItem::DeviceCommand, _wia_IWiaItem_DeviceCommand, wia._wia_IWiaItem_DeviceCommand, wia_xp/IWiaItem::DeviceCommand
 ms.topic: method
-f1_keywords: 
- - "wia_xp/IWiaItem.DeviceCommand"
+f1_keywords:
+- wia_xp/IWiaItem.DeviceCommand
 dev_langs:
- - c++
+- c++
 req.header: wia_xp.h
 req.include-header: Wia.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Wiaguid.lib
 req.dll: Wiaservc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wiaservc.dll
+- Wiaservc.dll
 api_name:
- - IWiaItem.DeviceCommand
+- IWiaItem.DeviceCommand
 targetos: Windows
 req.typenames: 
 req.redist: 

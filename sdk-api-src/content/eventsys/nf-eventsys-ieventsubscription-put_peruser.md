@@ -1,19 +1,17 @@
 ---
 UID: NF:eventsys.IEventSubscription.put_PerUser
 title: IEventSubscription::put_PerUser (eventsys.h)
-
 description: Indicates whether the subscription receives the event only if the owner of the subscription is logged on to the same computer as the publisher.
 old-location: cos\ieventsubscription_peruser.htm
 tech.root: cossdk
 ms.assetid: 2247213f-6458-4d09-8fa3-2ac90c52b711
-
 ms.date: 12/05/2018
 ms.keywords: IEventSubscription interface [COM+],PerUser property, IEventSubscription.PerUser, IEventSubscription.put_PerUser, IEventSubscription::PerUser, IEventSubscription::get_PerUser, IEventSubscription::put_PerUser, PerUser property [COM+], PerUser property [COM+],IEventSubscription interface, cos.ieventsubscription_peruser, eventsys/IEventSubscription::PerUser, eventsys/IEventSubscription::get_PerUser, eventsys/IEventSubscription::put_PerUser, put_PerUser
 ms.topic: method
-f1_keywords: 
- - "eventsys/IEventSubscription.PerUser"
+f1_keywords:
+- eventsys/IEventSubscription.PerUser
 dev_langs:
- - c++
+- c++
 req.header: eventsys.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - EventSys.h
+- EventSys.h
 api_name:
- - IEventSubscription.PerUser
- - IEventSubscription.get_PerUser
- - IEventSubscription.put_PerUser
+- IEventSubscription.PerUser
+- IEventSubscription.get_PerUser
+- IEventSubscription.put_PerUser
 targetos: Windows
 req.typenames: 
 req.redist: 

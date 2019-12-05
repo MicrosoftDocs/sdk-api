@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IDockingWindow.ShowDW
 title: IDockingWindow::ShowDW (shobjidl_core.h)
-
 description: Instructs the docking window object to show or hide itself.
 old-location: shell\IDockingWindow_ShowDW.htm
 tech.root: shell
 ms.assetid: c33031d4-f9f4-4210-93be-963e5f299408
-
 ms.date: 12/05/2018
 ms.keywords: IDockingWindow interface [Windows Shell],ShowDW method, IDockingWindow.ShowDW, IDockingWindow::ShowDW, ShowDW, ShowDW method [Windows Shell], ShowDW method [Windows Shell],IDockingWindow interface, _win32_IDockingWindow_ShowDW, shell.IDockingWindow_ShowDW, shobjidl_core/IDockingWindow::ShowDW
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IDockingWindow.ShowDW"
+f1_keywords:
+- shobjidl_core/IDockingWindow.ShowDW
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shlobj.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Shell32.dll (version 4.71 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - IDockingWindow.ShowDW
+- IDockingWindow.ShowDW
 targetos: Windows
 req.typenames: 
 req.redist: 

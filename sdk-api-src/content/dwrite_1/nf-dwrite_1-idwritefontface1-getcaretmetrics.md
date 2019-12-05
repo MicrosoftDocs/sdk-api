@@ -1,19 +1,17 @@
 ---
 UID: NF:dwrite_1.IDWriteFontFace1.GetCaretMetrics
 title: IDWriteFontFace1::GetCaretMetrics (dwrite_1.h)
-
 description: Gets caret metrics for the font in design units.
 old-location: directwrite\idwritefontface1_getcaretmetrics.htm
 tech.root: DirectWrite
 ms.assetid: D9006617-A5B5-4575-9C00-26F52A73DC0D
-
 ms.date: 12/05/2018
 ms.keywords: GetCaretMetrics, GetCaretMetrics method [Direct Write], GetCaretMetrics method [Direct Write],IDWriteFontFace1 interface, IDWriteFontFace1 interface [Direct Write],GetCaretMetrics method, IDWriteFontFace1.GetCaretMetrics, IDWriteFontFace1::GetCaretMetrics, directwrite.idwritefontface1_getcaretmetrics, dwrite_1/IDWriteFontFace1::GetCaretMetrics
 ms.topic: method
-f1_keywords: 
- - "dwrite_1/IDWriteFontFace1.GetCaretMetrics"
+f1_keywords:
+- dwrite_1/IDWriteFontFace1.GetCaretMetrics
 dev_langs:
- - c++
+- c++
 req.header: dwrite_1.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dwrite_1.lib
 req.dll: Dwrite_1.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dwrite_1.dll
+- dwrite_1.dll
 api_name:
- - IDWriteFontFace1.GetCaretMetrics
+- IDWriteFontFace1.GetCaretMetrics
 targetos: Windows
 req.typenames: 
 req.redist: 

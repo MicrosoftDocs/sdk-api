@@ -1,19 +1,17 @@
 ---
 UID: NF:mbnapi.IMbnInterfaceEvents.OnEmergencyModeChange
 title: IMbnInterfaceEvents::OnEmergencyModeChange (mbnapi.h)
-
 description: This notification method is called by the Mobile Broadband service to indicate that the emergency mode has changed.
 old-location: mbn\imbninterfaceevents_onemergencymodechange.htm
 tech.root: mbn
 ms.assetid: 637e0f6b-102f-436c-b0ec-edef16245675
-
 ms.date: 12/05/2018
 ms.keywords: IMbnInterfaceEvents interface [Microsoft Broadband Networks],OnEmergencyModeChange method, IMbnInterfaceEvents.OnEmergencyModeChange, IMbnInterfaceEvents::OnEmergencyModeChange, OnEmergencyModeChange, OnEmergencyModeChange method [Microsoft Broadband Networks], OnEmergencyModeChange method [Microsoft Broadband Networks],IMbnInterfaceEvents interface, mbn.imbninterfaceevents_onemergencymodechange, mbnapi/IMbnInterfaceEvents::OnEmergencyModeChange
 ms.topic: method
-f1_keywords: 
- - "mbnapi/IMbnInterfaceEvents.OnEmergencyModeChange"
+f1_keywords:
+- mbnapi/IMbnInterfaceEvents.OnEmergencyModeChange
 dev_langs:
- - c++
+- c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mbnapi.h
+- mbnapi.h
 api_name:
- - IMbnInterfaceEvents.OnEmergencyModeChange
+- IMbnInterfaceEvents.OnEmergencyModeChange
 targetos: Windows
 req.typenames: 
 req.redist: 

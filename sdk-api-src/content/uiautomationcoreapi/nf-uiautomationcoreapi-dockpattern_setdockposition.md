@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationcoreapi.DockPattern_SetDockPosition
 title: DockPattern_SetDockPosition function (uiautomationcoreapi.h)
-
 description: Docks the UI Automation element at the requested dockPosition within a docking container.
 old-location: winauto\uiauto_DockPattern_SetDockPositionConPat.htm
 tech.root: WinAuto
 ms.assetid: 45fdd85f-1f35-4cdd-adfc-086e01e85adf
-
 ms.date: 12/05/2018
 ms.keywords: DockPattern_SetDockPosition, DockPattern_SetDockPosition function [Windows Accessibility], uiauto.uiauto_DockPattern_SetDockPositionConPat, uiauto_DockPattern_SetDockPositionConPat, uiautomationcoreapi/DockPattern_SetDockPosition, winauto.uiauto_DockPattern_SetDockPositionConPat
 ms.topic: function
-f1_keywords: 
- - "uiautomationcoreapi/DockPattern_SetDockPosition"
+f1_keywords:
+- uiautomationcoreapi/DockPattern_SetDockPosition
 dev_langs:
- - c++
+- c++
 req.header: uiautomationcoreapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uiautomationcore.lib
 req.dll: Uiautomationcore.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Uiautomationcore.dll
+- Uiautomationcore.dll
 api_name:
- - DockPattern_SetDockPosition
+- DockPattern_SetDockPosition
 targetos: Windows
 req.typenames: 
 req.redist: 

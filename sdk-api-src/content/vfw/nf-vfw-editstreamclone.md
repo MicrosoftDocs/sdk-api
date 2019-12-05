@@ -1,19 +1,17 @@
 ---
 UID: NF:vfw.EditStreamClone
 title: EditStreamClone function (vfw.h)
-
 description: The EditStreamClone function creates a duplicate editable stream.
 old-location: multimedia\editstreamclone.htm
 tech.root: Multimedia
 ms.assetid: 2a512dbd-8d17-43d0-a074-571b4c1837c7
-
 ms.date: 12/05/2018
 ms.keywords: EditStreamClone, EditStreamClone function [Windows Multimedia], _win32_EditStreamClone, multimedia.editstreamclone, vfw/EditStreamClone
 ms.topic: function
-f1_keywords: 
- - "vfw/EditStreamClone"
+f1_keywords:
+- vfw/EditStreamClone
 dev_langs:
- - c++
+- c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Vfw32.lib
 req.dll: Avifil32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Avifil32.dll
+- Avifil32.dll
 api_name:
- - EditStreamClone
+- EditStreamClone
 targetos: Windows
 req.typenames: 
 req.redist: 

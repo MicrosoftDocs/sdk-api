@@ -1,19 +1,17 @@
 ---
 UID: NS:clusapi._CLUSTER_GROUP_ENUM_ITEM
 title: CLUSTER_GROUP_ENUM_ITEM (clusapi.h)
-
 description: Contains the properties of a cluster group.
 old-location: mscs\cluster_group_enum_item.htm
 tech.root: MsCS
 ms.assetid: B6436F83-2A10-4E93-8141-9BCFF744E41B
-
 ms.date: 12/05/2018
-ms.keywords: "*PCLUSTER_GROUP_ENUM_ITEM, CLUSTER_GROUP_ENUM_ITEM, CLUSTER_GROUP_ENUM_ITEM structure [Failover Cluster], PCLUSTER_GROUP_ENUM_ITEM, PCLUSTER_GROUP_ENUM_ITEM structure pointer [Failover Cluster], _CLUSTER_GROUP_ENUM_ITEM, _CLUSTER_GROUP_ENUM_ITEM structure [Failover Cluster], clusapi/CLUSTER_GROUP_ENUM_ITEM, clusapi/PCLUSTER_GROUP_ENUM_ITEM, clusapi/_CLUSTER_GROUP_ENUM_ITEM, msclus/CLUSTER_GROUP_ENUM_ITEM, msclus/PCLUSTER_GROUP_ENUM_ITEM, msclus/_CLUSTER_GROUP_ENUM_ITEM, mscs.cluster_group_enum_item"
+ms.keywords: '*PCLUSTER_GROUP_ENUM_ITEM, CLUSTER_GROUP_ENUM_ITEM, CLUSTER_GROUP_ENUM_ITEM structure [Failover Cluster], PCLUSTER_GROUP_ENUM_ITEM, PCLUSTER_GROUP_ENUM_ITEM structure pointer [Failover Cluster], _CLUSTER_GROUP_ENUM_ITEM, _CLUSTER_GROUP_ENUM_ITEM structure [Failover Cluster], clusapi/CLUSTER_GROUP_ENUM_ITEM, clusapi/PCLUSTER_GROUP_ENUM_ITEM, clusapi/_CLUSTER_GROUP_ENUM_ITEM, msclus/CLUSTER_GROUP_ENUM_ITEM, msclus/PCLUSTER_GROUP_ENUM_ITEM, msclus/_CLUSTER_GROUP_ENUM_ITEM, mscs.cluster_group_enum_item'
 ms.topic: struct
-f1_keywords: 
- - "clusapi/CLUSTER_GROUP_ENUM_ITEM"
+f1_keywords:
+- clusapi/CLUSTER_GROUP_ENUM_ITEM
 dev_langs:
- - c++
+- c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - ClusAPI.h
- - MsClus.h
+- ClusAPI.h
+- MsClus.h
 api_name:
- - CLUSTER_GROUP_ENUM_ITEM
+- CLUSTER_GROUP_ENUM_ITEM
 targetos: Windows
 req.typenames: CLUSTER_GROUP_ENUM_ITEM, *PCLUSTER_GROUP_ENUM_ITEM
 req.redist: 

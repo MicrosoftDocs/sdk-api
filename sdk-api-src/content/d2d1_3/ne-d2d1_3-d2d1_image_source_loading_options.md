@@ -1,19 +1,17 @@
 ---
 UID: NE:d2d1_3.D2D1_IMAGE_SOURCE_LOADING_OPTIONS
 title: D2D1_IMAGE_SOURCE_LOADING_OPTIONS (d2d1_3.h)
-
 description: Controls option flags for a new ID2D1ImageSource when it is created.
 old-location: direct2d\D2D1_IMAGE_SOURCE_LOADING_OPTIONS.htm
 tech.root: Direct2D
 ms.assetid: b2dcd7aa-177c-62bf-cb3e-2eb4bd4f9627
-
 ms.date: 12/05/2018
 ms.keywords: D2D1_IMAGE_SOURCE_LOADING_OPTIONS, D2D1_IMAGE_SOURCE_LOADING_OPTIONS enumeration [Direct2D], D2D1_IMAGE_SOURCE_LOADING_OPTIONS_CACHE_ON_DEMAND, D2D1_IMAGE_SOURCE_LOADING_OPTIONS_NONE, D2D1_IMAGE_SOURCE_LOADING_OPTIONS_RELEASE_SOURCE, d2d1_3/D2D1_IMAGE_SOURCE_LOADING_OPTIONS, d2d1_3/D2D1_IMAGE_SOURCE_LOADING_OPTIONS_CACHE_ON_DEMAND, d2d1_3/D2D1_IMAGE_SOURCE_LOADING_OPTIONS_NONE, d2d1_3/D2D1_IMAGE_SOURCE_LOADING_OPTIONS_RELEASE_SOURCE, direct2d.D2D1_IMAGE_SOURCE_LOADING_OPTIONS
 ms.topic: enum
-f1_keywords: 
- - "d2d1_3/D2D1_IMAGE_SOURCE_LOADING_OPTIONS"
+f1_keywords:
+- d2d1_3/D2D1_IMAGE_SOURCE_LOADING_OPTIONS
 dev_langs:
- - c++
+- c++
 req.header: d2d1_3.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - d2d1_3.h
+- d2d1_3.h
 api_name:
- - D2D1_IMAGE_SOURCE_LOADING_OPTIONS
+- D2D1_IMAGE_SOURCE_LOADING_OPTIONS
 targetos: Windows
 req.typenames: D2D1_IMAGE_SOURCE_LOADING_OPTIONS
 req.redist: 

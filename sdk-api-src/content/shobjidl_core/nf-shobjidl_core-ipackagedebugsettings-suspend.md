@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IPackageDebugSettings.Suspend
 title: IPackageDebugSettings::Suspend (shobjidl_core.h)
-
 description: Suspends the processes of the package if they are currently running.
 old-location: shell\IPackageDebugSettings_Suspend.htm
 tech.root: shell
 ms.assetid: b1a62712-cd03-4728-b0f1-c1b543f2e056
-
 ms.date: 12/05/2018
 ms.keywords: IPackageDebugSettings interface [Windows Shell],Suspend method, IPackageDebugSettings.Suspend, IPackageDebugSettings::Suspend, Suspend, Suspend method [Windows Shell], Suspend method [Windows Shell],IPackageDebugSettings interface, shell.IPackageDebugSettings_Suspend, shobjidl_core/IPackageDebugSettings::Suspend
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IPackageDebugSettings.Suspend"
+f1_keywords:
+- shobjidl_core/IPackageDebugSettings.Suspend
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shobjidl_core.h
+- Shobjidl_core.h
 api_name:
- - IPackageDebugSettings.Suspend
+- IPackageDebugSettings.Suspend
 targetos: Windows
 req.typenames: 
 req.redist: 

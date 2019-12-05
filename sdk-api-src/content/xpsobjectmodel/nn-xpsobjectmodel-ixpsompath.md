@@ -1,19 +1,17 @@
 ---
 UID: NN:xpsobjectmodel.IXpsOMPath
 title: IXpsOMPath (xpsobjectmodel.h)
-
 description: Describes a non-text visual item.
 old-location: xps\ixpsompath.htm
 tech.root: printdocs
 ms.assetid: 93257a77-3fef-400e-bfe1-06e760ba4b93
-
 ms.date: 12/05/2018
 ms.keywords: IXpsOMPath, IXpsOMPath interface [XPS Documents and Packaging], IXpsOMPath interface [XPS Documents and Packaging],described, xps.ixpsompath, xpsobjectmodel/IXpsOMPath
 ms.topic: interface
-f1_keywords: 
- - "xpsobjectmodel/IXpsOMPath"
+f1_keywords:
+- xpsobjectmodel/IXpsOMPath
 dev_langs:
- - c++
+- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsobjectmodel.h
+- xpsobjectmodel.h
 api_name:
- - IXpsOMPath
+- IXpsOMPath
 targetos: Windows
 req.typenames: 
 req.redist: 

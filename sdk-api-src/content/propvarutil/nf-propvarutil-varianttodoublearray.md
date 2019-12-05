@@ -1,19 +1,17 @@
 ---
 UID: NF:propvarutil.VariantToDoubleArray
 title: VariantToDoubleArray function (propvarutil.h)
-
 description: Extracts an array of DOUBLE values from a VARIANT structure.
 old-location: properties\VariantToDoubleArray.htm
 tech.root: properties
 ms.assetid: 6830c2e2-d19a-45d5-af15-debfb08548bc
-
 ms.date: 12/05/2018
 ms.keywords: VariantToDoubleArray, VariantToDoubleArray function [Windows Properties], _shell_VariantToDoubleArray, properties.VariantToDoubleArray, propvarutil/VariantToDoubleArray, shell.VariantToDoubleArray
 ms.topic: function
-f1_keywords: 
- - "propvarutil/VariantToDoubleArray"
+f1_keywords:
+- propvarutil/VariantToDoubleArray
 dev_langs:
- - c++
+- c++
 req.header: propvarutil.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Propsys.lib
 req.dll: Propsys.dll (version 6.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Propsys.dll
+- Propsys.dll
 api_name:
- - VariantToDoubleArray
+- VariantToDoubleArray
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0

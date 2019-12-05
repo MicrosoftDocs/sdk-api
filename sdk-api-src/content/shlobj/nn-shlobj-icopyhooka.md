@@ -1,19 +1,17 @@
 ---
 UID: NN:shlobj.ICopyHookA
 title: ICopyHookA
-
 description: Exposes a method that creates a copy hook handler.
 old-location: 
 tech.root: shell
 ms.assetid: c3ffa682-250f-458b-8ad5-b25871b3901b
-
 ms.date: 01/30/19
 ms.keywords: ICopyHookA
 ms.topic: language-reference
-f1_keywords: 
- - "shlobj/ICopyHookA"
+f1_keywords:
+- shlobj/ICopyHookA
 dev_langs:
- - c++
+- c++
 targetos: Windows
 req.assembly: 
 req.construct-type: iface
@@ -29,13 +27,13 @@ req.target-min-winversvr:
 req.target-type: 
 req.unicode-ansi: 
 topic_type:
- - apiref
+- apiref
 api_type:
- - COM
+- COM
 api_location:
- - shlobj.h
+- shlobj.h
 api_name:
- - ICopyHookA
+- ICopyHookA
 ---
 
 ## -inheritance

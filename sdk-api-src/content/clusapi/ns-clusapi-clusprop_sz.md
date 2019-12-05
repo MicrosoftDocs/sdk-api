@@ -1,19 +1,17 @@
 ---
 UID: NS:clusapi.CLUSPROP_SZ
 title: CLUSPROP_SZ (clusapi.h)
-
 description: Describes multiple NULL-terminated Unicode strings.
 old-location: mscs\clusprop_multi_sz.htm
 tech.root: MsCS
 ms.assetid: 3c508ed6-eec8-4fa9-9ae7-9c8d7f4c8b98
-
 ms.date: 12/05/2018
-ms.keywords: "*PCLUSPROP_MULTI_SZ, *PCLUSPROP_PROPERTY_NAME, *PCLUSPROP_SZ, CLUSPROP_MULTI_SZ, CLUSPROP_MULTI_SZ structure [Failover Cluster], CLUSPROP_PROPERTY_NAME, CLUSPROP_SZ, PCLUSPROP_MULTI_SZ, PCLUSPROP_MULTI_SZ structure pointer [Failover Cluster], _wolf_clusprop_multi_sz, clusapi/CLUSPROP_MULTI_SZ, clusapi/PCLUSPROP_MULTI_SZ, mscs.clusprop_multi_sz"
+ms.keywords: '*PCLUSPROP_MULTI_SZ, *PCLUSPROP_PROPERTY_NAME, *PCLUSPROP_SZ, CLUSPROP_MULTI_SZ, CLUSPROP_MULTI_SZ structure [Failover Cluster], CLUSPROP_PROPERTY_NAME, CLUSPROP_SZ, PCLUSPROP_MULTI_SZ, PCLUSPROP_MULTI_SZ structure pointer [Failover Cluster], _wolf_clusprop_multi_sz, clusapi/CLUSPROP_MULTI_SZ, clusapi/PCLUSPROP_MULTI_SZ, mscs.clusprop_multi_sz'
 ms.topic: struct
-f1_keywords: 
- - "clusapi/CLUSPROP_MULTI_SZ"
+f1_keywords:
+- clusapi/CLUSPROP_MULTI_SZ
 dev_langs:
- - c++
+- c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - ClusAPI.h
+- ClusAPI.h
 api_name:
- - CLUSPROP_MULTI_SZ
+- CLUSPROP_MULTI_SZ
 targetos: Windows
 req.typenames: CLUSPROP_SZ, *PCLUSPROP_SZ
 req.redist: 

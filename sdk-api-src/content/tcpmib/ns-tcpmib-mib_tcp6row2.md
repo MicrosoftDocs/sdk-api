@@ -1,19 +1,17 @@
 ---
 UID: NS:tcpmib._MIB_TCP6ROW2
 title: MIB_TCP6ROW2 (tcpmib.h)
-
 description: Contains information that describes an IPv6 TCP connection.
 old-location: mib\mib_tcp6row2.htm
 tech.root: MIB
 ms.assetid: bbec3397-0317-40f7-926f-2ec48cf5386d
-
 ms.date: 12/05/2018
 ms.keywords: '*PMIB_TCP6ROW2, MIB_TCP6ROW2, MIB_TCP6ROW2 structure [MIB], MIB_TCP_STATE_CLOSED, MIB_TCP_STATE_CLOSE_WAIT, MIB_TCP_STATE_CLOSING, MIB_TCP_STATE_DELETE_TCB, MIB_TCP_STATE_ESTAB, MIB_TCP_STATE_FIN_WAIT1, MIB_TCP_STATE_FIN_WAIT2, MIB_TCP_STATE_LAST_ACK, MIB_TCP_STATE_LISTEN, MIB_TCP_STATE_SYN_RCVD, MIB_TCP_STATE_SYN_SENT, MIB_TCP_STATE_TIME_WAIT, PMIB_TCP6ROW2, PMIB_TCP6ROW2 structure pointer [MIB], mib.mib_tcp6row2, tcpmib/MIB_TCP6ROW2, tcpmib/PMIB_TCP6ROW2'
 ms.topic: struct
 f1_keywords:
 - tcpmib/MIB_TCP6ROW2
 dev_langs:
- - c++
+- c++
 req.header: tcpmib.h
 req.include-header: Iphlpapi.h
 req.target-type: Windows

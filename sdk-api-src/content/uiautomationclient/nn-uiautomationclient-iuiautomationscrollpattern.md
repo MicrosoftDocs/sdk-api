@@ -1,19 +1,17 @@
 ---
 UID: NN:uiautomationclient.IUIAutomationScrollPattern
 title: IUIAutomationScrollPattern (uiautomationclient.h)
-
 description: Provides access to a control that acts as a scrollable container for a collection of child elements.
 old-location: winauto\uiauto_IUIAutomationScrollPattern.htm
 tech.root: WinAuto
 ms.assetid: cb62389c-5a7a-412d-a024-0ce9bc6403a2
-
 ms.date: 12/05/2018
 ms.keywords: IUIAutomationScrollPattern, IUIAutomationScrollPattern interface [Windows Accessibility], IUIAutomationScrollPattern interface [Windows Accessibility],described, uiauto.uiauto_IUIAutomationScrollPattern, uiauto_IUIAutomationScrollPattern, uiautomationclient/IUIAutomationScrollPattern, winauto.uiauto_IUIAutomationScrollPattern
 ms.topic: interface
-f1_keywords: 
- - "uiautomationclient/IUIAutomationScrollPattern"
+f1_keywords:
+- uiautomationclient/IUIAutomationScrollPattern
 dev_langs:
- - c++
+- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: UIAutomationCore.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationCore.dll
+- UIAutomationCore.dll
 api_name:
- - IUIAutomationScrollPattern
+- IUIAutomationScrollPattern
 targetos: Windows
 req.typenames: 
 req.redist: 

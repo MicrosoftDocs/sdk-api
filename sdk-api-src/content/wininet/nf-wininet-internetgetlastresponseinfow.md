@@ -1,19 +1,17 @@
 ---
 UID: NF:wininet.InternetGetLastResponseInfoW
 title: InternetGetLastResponseInfoW function (wininet.h)
-
 description: Retrieves the last error description or server response on the thread calling this function.
 old-location: wininet\internetgetlastresponseinfo.htm
 tech.root: wininet
 ms.assetid: 0aa274c5-0aa0-4eb9-8aef-3128e735759d
-
 ms.date: 12/05/2018
 ms.keywords: InternetGetLastResponseInfo, InternetGetLastResponseInfo function [WinINet], InternetGetLastResponseInfoA, InternetGetLastResponseInfoW, _win32_internetgetlastresponseinfo, wininet.internetgetlastresponseinfo, wininet/InternetGetLastResponseInfo, wininet/InternetGetLastResponseInfoA, wininet/InternetGetLastResponseInfoW
 ms.topic: function
-f1_keywords: 
- - "wininet/InternetGetLastResponseInfo"
+f1_keywords:
+- wininet/InternetGetLastResponseInfo
 dev_langs:
- - c++
+- c++
 req.header: wininet.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Wininet.lib
 req.dll: Wininet.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Wininet.dll
+- Wininet.dll
 api_name:
- - InternetGetLastResponseInfo
- - InternetGetLastResponseInfoA
- - InternetGetLastResponseInfoW
+- InternetGetLastResponseInfo
+- InternetGetLastResponseInfoA
+- InternetGetLastResponseInfoW
 targetos: Windows
 req.typenames: 
 req.redist: 

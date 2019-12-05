@@ -1,19 +1,17 @@
 ---
 UID: NF:gdiplustypes.PointF.PointF(IN const SizeF &)
 title: PointF::PointF(IN const SizeF &) (gdiplustypes.h)
-
 description: Creates a PointF object using a SizeF object to specify the X and Y data members.
 old-location: gdiplus\_gdiplus_CLASS_PointF_PointF_size_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\pointfclass\pointfconstructors\pointf_51size.htm
-
 ms.date: 12/05/2018
 ms.keywords: PointF, PointF class [GDI+],PointF constructor, PointF constructor [GDI+], PointF constructor [GDI+],PointF class, PointF.PointF, PointF.PointF(IN const SizeF &), PointF.PointF(const SizeF&), PointF::PointF, PointF::PointF(IN const SizeF &), _gdiplus_CLASS_PointF_PointF_size_, gdiplus._gdiplus_CLASS_PointF_PointF_size_
 ms.topic: method
-f1_keywords: 
- - "gdiplustypes/PointF.PointF"
+f1_keywords:
+- gdiplustypes/PointF.PointF
 dev_langs:
- - c++
+- c++
 req.header: gdiplustypes.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - PointF.PointF
+- PointF.PointF
 targetos: Windows
 req.typenames: 
 req.redist: 

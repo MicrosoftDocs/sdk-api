@@ -1,19 +1,17 @@
 ---
 UID: NF:comsvcs.IManagedObjectInfo.GetIUnknown
 title: IManagedObjectInfo::GetIUnknown (comsvcs.h)
-
 description: Retrieves the IUnknown interface that is associated with the managed object.
 old-location: cos\imanagedobjectinfo_getiunknown.htm
 tech.root: cossdk
 ms.assetid: 1c0d27cb-1725-4654-ab15-0ef815ce6657
-
 ms.date: 12/05/2018
 ms.keywords: GetIUnknown, GetIUnknown method [COM+], GetIUnknown method [COM+],IManagedObjectInfo interface, IManagedObjectInfo interface [COM+],GetIUnknown method, IManagedObjectInfo.GetIUnknown, IManagedObjectInfo::GetIUnknown, _cos_IManagedObjectInfo_GetIUnknown, comsvcs/IManagedObjectInfo::GetIUnknown, cos.imanagedobjectinfo_getiunknown
 ms.topic: method
-f1_keywords: 
- - "comsvcs/IManagedObjectInfo.GetIUnknown"
+f1_keywords:
+- comsvcs/IManagedObjectInfo.GetIUnknown
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - IManagedObjectInfo.GetIUnknown
+- IManagedObjectInfo.GetIUnknown
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NS:wtsdefs._WRDS_SETTING
 title: WRDS_SETTING (wtsdefs.h)
-
 description: Contains different levels of policy-related settings for a remote desktop connection.
 old-location: termserv\wrds_setting.htm
 tech.root: TermServ
 ms.assetid: F87368C8-FE18-424D-8D53-0E45E6AC5D6C
-
 ms.date: 12/05/2018
 ms.keywords: '*PWRDS_SETTING, PWRDS_SETTING, PWRDS_SETTING union pointer [Remote Desktop Services], WRDS_SETTING, WRDS_SETTING union [Remote Desktop Services], termserv.wrds_setting, wtsdefs/PWRDS_SETTING, wtsdefs/WRDS_SETTING'
 ms.topic: struct
 f1_keywords:
 - wtsdefs/WRDS_SETTING
 dev_langs:
- - c++
+- c++
 req.header: wtsdefs.h
 req.include-header: Wtsprotocol.h
 req.target-type: Windows

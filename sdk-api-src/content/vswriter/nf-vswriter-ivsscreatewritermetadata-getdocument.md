@@ -1,19 +1,17 @@
 ---
 UID: NF:vswriter.IVssCreateWriterMetadata.GetDocument
 title: IVssCreateWriterMetadata::GetDocument (vswriter.h)
-
 description: Not supported.
 old-location: base\ivsscreatewritermetadata_getdocument.htm
 tech.root: VSS
 ms.assetid: defc7c83-9c40-4661-b8d3-1abdd1be0df4
-
 ms.date: 12/05/2018
 ms.keywords: GetDocument, GetDocument method [VSS], GetDocument method [VSS],IVssCreateWriterMetadata interface, IVssCreateWriterMetadata interface [VSS],GetDocument method, IVssCreateWriterMetadata.GetDocument, IVssCreateWriterMetadata::GetDocument, _win32_ivsscreatewritermetadata_getdocument, base.ivsscreatewritermetadata_getdocument, vswriter/IVssCreateWriterMetadata::GetDocument
 ms.topic: method
-f1_keywords: 
- - "vswriter/IVssCreateWriterMetadata.GetDocument"
+f1_keywords:
+- vswriter/IVssCreateWriterMetadata.GetDocument
 dev_langs:
- - c++
+- c++
 req.header: vswriter.h
 req.include-header: Vss.h, VsWriter.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: VssApi.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - VssApi.lib
- - VssApi.dll
+- VssApi.lib
+- VssApi.dll
 api_name:
- - IVssCreateWriterMetadata.GetDocument
+- IVssCreateWriterMetadata.GetDocument
 targetos: Windows
 req.typenames: 
 req.redist: 

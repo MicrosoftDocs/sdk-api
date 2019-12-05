@@ -1,19 +1,17 @@
 ---
 UID: NS:dxvahd._DXVAHD_STREAM_STATE_LUMA_KEY_DATA
 title: DXVAHD_STREAM_STATE_LUMA_KEY_DATA (dxvahd.h)
-
 description: Specifies the luma key for an input stream, when using Microsoft DirectX Video Acceleration High Definition (DXVA-HD).
 old-location: mf\dxvahd_stream_state_luma_key_data.htm
 tech.root: medfound
 ms.assetid: d94b04d9-9d94-4392-a0bf-a33210aeef1f
-
 ms.date: 12/05/2018
 ms.keywords: DXVAHD_STREAM_STATE_LUMA_KEY_DATA, DXVAHD_STREAM_STATE_LUMA_KEY_DATA structure [Media Foundation], dxvahd/DXVAHD_STREAM_STATE_LUMA_KEY_DATA, mf.dxvahd_stream_state_luma_key_data
 ms.topic: struct
 f1_keywords:
 - dxvahd/DXVAHD_STREAM_STATE_LUMA_KEY_DATA
 dev_langs:
- - c++
+- c++
 req.header: dxvahd.h
 req.include-header: 
 req.target-type: Windows

@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IVMRVideoStreamControl.GetStreamActiveState
 title: IVMRVideoStreamControl::GetStreamActiveState (strmif.h)
-
 description: The GetStreamActiveState method retrieves the state of the stream.
 old-location: dshow\ivmrvideostreamcontrol_getstreamactivestate.htm
 tech.root: DirectShow
 ms.assetid: 619ba669-c2a0-46fe-9c12-52105b107351
-
 ms.date: 12/05/2018
 ms.keywords: GetStreamActiveState, GetStreamActiveState method [DirectShow], GetStreamActiveState method [DirectShow],IVMRVideoStreamControl interface, IVMRVideoStreamControl interface [DirectShow],GetStreamActiveState method, IVMRVideoStreamControl.GetStreamActiveState, IVMRVideoStreamControl::GetStreamActiveState, IVMRVideoStreamControlGetStreamActiveState, dshow.ivmrvideostreamcontrol_getstreamactivestate, strmif/IVMRVideoStreamControl::GetStreamActiveState
 ms.topic: method
-f1_keywords: 
- - "strmif/IVMRVideoStreamControl.GetStreamActiveState"
+f1_keywords:
+- strmif/IVMRVideoStreamControl.GetStreamActiveState
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IVMRVideoStreamControl.GetStreamActiveState
+- IVMRVideoStreamControl.GetStreamActiveState
 targetos: Windows
 req.typenames: 
 req.redist: 

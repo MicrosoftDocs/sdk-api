@@ -1,19 +1,17 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMRemoteDictionaryResourceCollection.GetByPartName
 title: IXpsOMRemoteDictionaryResourceCollection::GetByPartName (xpsobjectmodel.h)
-
 description: Gets an IXpsOMRemoteDictionaryResource interface pointer from the collection by matching the interface's part name.
 old-location: xps\ixpsomremotedictionaryresourcecollection_getbypartname.htm
 tech.root: printdocs
 ms.assetid: e90f23d9-c161-4b3c-a6bc-0059d2dfe5b5
-
 ms.date: 12/05/2018
 ms.keywords: GetByPartName, GetByPartName method [XPS Documents and Packaging], GetByPartName method [XPS Documents and Packaging],IXpsOMRemoteDictionaryResourceCollection interface, IXpsOMRemoteDictionaryResourceCollection interface [XPS Documents and Packaging],GetByPartName method, IXpsOMRemoteDictionaryResourceCollection.GetByPartName, IXpsOMRemoteDictionaryResourceCollection::GetByPartName, xps.ixpsomremotedictionaryresourcecollection_getbypartname, xpsobjectmodel/IXpsOMRemoteDictionaryResourceCollection::GetByPartName
 ms.topic: method
-f1_keywords: 
- - "xpsobjectmodel/IXpsOMRemoteDictionaryResourceCollection.GetByPartName"
+f1_keywords:
+- xpsobjectmodel/IXpsOMRemoteDictionaryResourceCollection.GetByPartName
 dev_langs:
- - c++
+- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsobjectmodel.h
+- xpsobjectmodel.h
 api_name:
- - IXpsOMRemoteDictionaryResourceCollection.GetByPartName
+- IXpsOMRemoteDictionaryResourceCollection.GetByPartName
 targetos: Windows
 req.typenames: 
 req.redist: 

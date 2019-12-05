@@ -1,19 +1,17 @@
 ---
 UID: NF:ocidl.IViewObjectEx.QueryHitPoint
 title: IViewObjectEx::QueryHitPoint (ocidl.h)
-
 description: Indicates whether a point is within a given aspect of an object.
 old-location: com\iviewobjectex_queryhitpoint.htm
 tech.root: com
 ms.assetid: a9ee26c4-cf5f-4ca9-b40a-0522097a2f07
-
 ms.date: 12/05/2018
 ms.keywords: IViewObjectEx interface [COM],QueryHitPoint method, IViewObjectEx.QueryHitPoint, IViewObjectEx::QueryHitPoint, QueryHitPoint, QueryHitPoint method [COM], QueryHitPoint method [COM],IViewObjectEx interface, _ole_iviewobjectex_queryhitpoint, com.iviewobjectex_queryhitpoint, ocidl/IViewObjectEx::QueryHitPoint
 ms.topic: method
-f1_keywords: 
- - "ocidl/IViewObjectEx.QueryHitPoint"
+f1_keywords:
+- ocidl/IViewObjectEx.QueryHitPoint
 dev_langs:
- - c++
+- c++
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - OCIdl.h
+- OCIdl.h
 api_name:
- - IViewObjectEx.QueryHitPoint
+- IViewObjectEx.QueryHitPoint
 targetos: Windows
 req.typenames: 
 req.redist: 

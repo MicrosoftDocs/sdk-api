@@ -1,19 +1,17 @@
 ---
 UID: NN:iads.IADsServiceOperations
 title: IADsServiceOperations (iads.h)
-
 description: The IADsServiceOperations interface is a dual interface that inherits from IADs.
 old-location: adsi\iadsserviceoperations.htm
 tech.root: adsi
 ms.assetid: f2459ca2-8a14-4343-bec6-ef3775dbf415
-
 ms.date: 12/05/2018
 ms.keywords: IADsServiceOperations, IADsServiceOperations interface [ADSI], IADsServiceOperations interface [ADSI],described, _ds_iadsserviceoperations, adsi.iadsserviceoperations, iads/IADsServiceOperations
 ms.topic: interface
-f1_keywords: 
- - "iads/IADsServiceOperations"
+f1_keywords:
+- iads/IADsServiceOperations
 dev_langs:
- - c++
+- c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Activeds.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Activeds.dll
+- Activeds.dll
 api_name:
- - IADsServiceOperations
+- IADsServiceOperations
 targetos: Windows
 req.typenames: 
 req.redist: 

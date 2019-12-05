@@ -1,19 +1,17 @@
 ---
 UID: NF:wmsecure.IWMAuthorizer.GetCert
 title: IWMAuthorizer::GetCert (wmsecure.h)
-
 description: Retrieves the specified certificate.
 old-location: wmformat\iwmauthorizer_getcert.htm
 tech.root: wmformat
 ms.assetid: e165356c-b14b-47dc-b046-a74499251cab
-
 ms.date: 12/05/2018
 ms.keywords: GetCert, GetCert method [windows Media Format], GetCert method [windows Media Format],IWMAuthorizer interface, IWMAuthorizer interface [windows Media Format],GetCert method, IWMAuthorizer.GetCert, IWMAuthorizer::GetCert, wmformat.iwmauthorizer_getcert, wmsecure/IWMAuthorizer::GetCert
 ms.topic: method
-f1_keywords: 
- - "wmsecure/IWMAuthorizer.GetCert"
+f1_keywords:
+- wmsecure/IWMAuthorizer.GetCert
 dev_langs:
- - c++
+- c++
 req.header: wmsecure.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wmsecure.h
+- Wmsecure.h
 api_name:
- - IWMAuthorizer.GetCert
+- IWMAuthorizer.GetCert
 targetos: Windows
 req.typenames: 
 req.redist: 

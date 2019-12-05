@@ -1,19 +1,17 @@
 ---
 UID: NF:winreg.RegGetValueW
 title: RegGetValueW function (winreg.h)
-
 description: Retrieves the type and data for the specified registry value.
 old-location: base\reggetvalue.htm
 tech.root: SysInfo
 ms.assetid: 1c06facb-6735-4b3f-b77d-f162e3faaada
-
 ms.date: 12/05/2018
 ms.keywords: RRF_NOEXPAND, RRF_RT_ANY, RRF_RT_DWORD, RRF_RT_QWORD, RRF_RT_REG_BINARY, RRF_RT_REG_DWORD, RRF_RT_REG_EXPAND_SZ, RRF_RT_REG_MULTI_SZ, RRF_RT_REG_NONE, RRF_RT_REG_QWORD, RRF_RT_REG_SZ, RRF_SUBKEY_WOW6432KEY, RRF_SUBKEY_WOW6464KEY, RRF_ZEROONFAILURE, RegGetValue, RegGetValue function, RegGetValueA, RegGetValueW, base.reggetvalue, winreg/RegGetValue, winreg/RegGetValueA, winreg/RegGetValueW
 ms.topic: function
-f1_keywords: 
- - "winreg/RegGetValue"
+f1_keywords:
+- winreg/RegGetValue
 dev_langs:
- - c++
+- c++
 req.header: winreg.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,23 +30,23 @@ req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Advapi32.dll
- - API-MS-Win-Core-Localregistry-l1-1-0.dll
- - KernelBase.dll
- - API-MS-Win-Core-Registry-l1-1-0.dll
- - API-MS-Win-DownLevel-AdvApi32-l1-1-0.dll
- - API-MS-Win-DownLevel-AdvApi32-l1-1-1.dll
- - MinKernelBase.dll
- - api-ms-win-core-registry-l1-1-1.dll
+- Advapi32.dll
+- API-MS-Win-Core-Localregistry-l1-1-0.dll
+- KernelBase.dll
+- API-MS-Win-Core-Registry-l1-1-0.dll
+- API-MS-Win-DownLevel-AdvApi32-l1-1-0.dll
+- API-MS-Win-DownLevel-AdvApi32-l1-1-1.dll
+- MinKernelBase.dll
+- api-ms-win-core-registry-l1-1-1.dll
 api_name:
- - RegGetValue
- - RegGetValueA
- - RegGetValueW
+- RegGetValue
+- RegGetValueA
+- RegGetValueW
 targetos: Windows
 req.typenames: 
 req.redist: 

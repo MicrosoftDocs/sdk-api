@@ -1,19 +1,17 @@
 ---
 UID: NF:comsvcs.IComObjectPoolEvents.OnObjPoolGetObject
 title: IComObjectPoolEvents::OnObjPoolGetObject (comsvcs.h)
-
 description: Generated when a non-transactional object is obtained from the pool.
 old-location: cos\icomobjectpoolevents_onobjpoolgetobject.htm
 tech.root: cossdk
 ms.assetid: 532575b4-af72-4b53-b90b-fc09966c8ee0
-
 ms.date: 12/05/2018
 ms.keywords: IComObjectPoolEvents interface [COM+],OnObjPoolGetObject method, IComObjectPoolEvents.OnObjPoolGetObject, IComObjectPoolEvents::OnObjPoolGetObject, OnObjPoolGetObject, OnObjPoolGetObject method [COM+], OnObjPoolGetObject method [COM+],IComObjectPoolEvents interface, _dtc_IComObjectPoolEvents_OnObjPoolGetObject, comsvcs/IComObjectPoolEvents::OnObjPoolGetObject, cos.icomobjectpoolevents_onobjpoolgetobject
 ms.topic: method
-f1_keywords: 
- - "comsvcs/IComObjectPoolEvents.OnObjPoolGetObject"
+f1_keywords:
+- comsvcs/IComObjectPoolEvents.OnObjPoolGetObject
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - IComObjectPoolEvents.OnObjPoolGetObject
+- IComObjectPoolEvents.OnObjPoolGetObject
 targetos: Windows
 req.typenames: 
 req.redist: 

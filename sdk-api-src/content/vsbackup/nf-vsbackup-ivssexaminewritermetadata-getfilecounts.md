@@ -1,19 +1,17 @@
 ---
 UID: NF:vsbackup.IVssExamineWriterMetadata.GetFileCounts
 title: IVssExamineWriterMetadata::GetFileCounts (vsbackup.h)
-
 description: The GetFileCounts method obtains excluded files and the number of components that a writer manages.
 old-location: base\ivssexaminewritermetadata_getfilecounts.htm
 tech.root: VSS
 ms.assetid: 7c1f1e9d-3154-4e03-a7dd-69b9f505dbb2
-
 ms.date: 12/05/2018
 ms.keywords: GetFileCounts, GetFileCounts method [VSS], GetFileCounts method [VSS],IVssExamineWriterMetadata interface, IVssExamineWriterMetadata interface [VSS],GetFileCounts method, IVssExamineWriterMetadata.GetFileCounts, IVssExamineWriterMetadata::GetFileCounts, _win32_ivssexaminewritermetadata_getfilecounts, base.ivssexaminewritermetadata_getfilecounts, vsbackup/IVssExamineWriterMetadata::GetFileCounts
 ms.topic: method
-f1_keywords: 
- - "vsbackup/IVssExamineWriterMetadata.GetFileCounts"
+f1_keywords:
+- vsbackup/IVssExamineWriterMetadata.GetFileCounts
 dev_langs:
- - c++
+- c++
 req.header: vsbackup.h
 req.include-header: VsBackup.h, Vss.h, VsWriter.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: VssApi.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - VssApi.lib
- - VssApi.dll
+- VssApi.lib
+- VssApi.dll
 api_name:
- - IVssExamineWriterMetadata.GetFileCounts
+- IVssExamineWriterMetadata.GetFileCounts
 targetos: Windows
 req.typenames: 
 req.redist: 

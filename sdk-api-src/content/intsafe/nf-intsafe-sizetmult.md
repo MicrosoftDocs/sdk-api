@@ -1,19 +1,17 @@
 ---
 UID: NF:intsafe.SizeTMult
 title: SizeTMult function (intsafe.h)
-
 description: Multiplies one value of type size_t by another.
 old-location: shell\SizeTMult.htm
 tech.root: shell
 ms.assetid: 078bc77b-6af3-4d13-8f98-5f52605fdf8d
-
 ms.date: 12/05/2018
 ms.keywords: SizeTMult, SizeTMult function [Windows Shell], ULongLongMult, _shell_SizeTMult, intsafe/SizeTMult, shell.SizeTMult
 ms.topic: function
-f1_keywords: 
- - "intsafe/SizeTMult"
+f1_keywords:
+- intsafe/SizeTMult
 dev_langs:
- - c++
+- c++
 req.header: intsafe.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Intsafe.h
+- Intsafe.h
 api_name:
- - SizeTMult
+- SizeTMult
 targetos: Windows
 req.typenames: 
 req.redist: 

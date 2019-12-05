@@ -1,19 +1,17 @@
 ---
 UID: NF:windows.ui.xaml.hosting.referencetracker.IReferenceTrackerManager.ReferenceTrackingStarted
 title: IReferenceTrackerManager::xaml (windows.ui.xaml.hosting.referencetracker.h)
-
 description: Indicates that a garbage collector is performing a collection; when the collection is finished, the garbage collector calls FindTrackerTargetsCompleted.
 old-location: winrt\ireferencetrackermanager_referencetrackingstarted.htm
 tech.root: WinRT
 ms.assetid: 8d911bbb-aa5e-4906-86d6-caf6f3f84f6f
-
 ms.date: 12/05/2018
 ms.keywords: IReferenceTrackerManager interface [Windows Runtime],ReferenceTrackingStarted method, IReferenceTrackerManager.ReferenceTrackingStarted, IReferenceTrackerManager.xaml, IReferenceTrackerManager::ReferenceTrackingStarted, IReferenceTrackerManager::xaml, ReferenceTrackingStarted, ReferenceTrackingStarted method [Windows Runtime], ReferenceTrackingStarted method [Windows Runtime],IReferenceTrackerManager interface, windows/IReferenceTrackerManager::ReferenceTrackingStarted, winrt.ireferencetrackermanager_referencetrackingstarted
 ms.topic: method
-f1_keywords: 
- - "windows.ui.xaml.hosting.referencetracker/IReferenceTrackerManager.ReferenceTrackingStarted"
+f1_keywords:
+- windows.ui.xaml.hosting.referencetracker/IReferenceTrackerManager.ReferenceTrackingStarted
 dev_langs:
- - c++
+- c++
 req.header: windows.ui.xaml.hosting.referencetracker.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Windows.ui.xaml.hosting.referencetracker.h
+- Windows.ui.xaml.hosting.referencetracker.h
 api_name:
- - IReferenceTrackerManager.ReferenceTrackingStarted
+- IReferenceTrackerManager.ReferenceTrackingStarted
 targetos: Windows
 req.typenames: 
 req.redist: 

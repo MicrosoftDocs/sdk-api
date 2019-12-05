@@ -1,19 +1,17 @@
 ---
 UID: NN:winml.IWinMLEvaluationContext
 title: IWinMLEvaluationContext (winml.h)
-
 description: Represents the context to bind inputs and outputs to a WinML model.
 old-location: machinelearning\iwinmlevaluationcontext.htm
 tech.root: MachineLearning
 ms.assetid: D4C9B16A-B351-41E4-AD42-20C25F3CC404
-
 ms.date: 12/05/2018
 ms.keywords: IWinMLEvaluationContext, IWinMLEvaluationContext interface, IWinMLEvaluationContext interface,described, MachineLearning.iwinmlevaluationcontext, winml/IWinMLEvaluationContext
 ms.topic: interface
-f1_keywords: 
- - "winml/IWinMLEvaluationContext"
+f1_keywords:
+- winml/IWinMLEvaluationContext
 dev_langs:
- - c++
+- c++
 req.header: winml.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Winml.lib
 req.dll: Winml.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - winml.dll
+- winml.dll
 api_name:
- - IWinMLEvaluationContext
+- IWinMLEvaluationContext
 targetos: Windows
 req.typenames: 
 req.redist: 

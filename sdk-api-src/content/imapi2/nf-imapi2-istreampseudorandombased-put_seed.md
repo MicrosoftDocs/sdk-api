@@ -1,19 +1,17 @@
 ---
 UID: NF:imapi2.IStreamPseudoRandomBased.put_Seed
 title: IStreamPseudoRandomBased::put_Seed (imapi2.h)
-
 description: Sets the seed value used by the random number generator and seeks to the start of stream.
 old-location: imapi\istreampseudorandombased_put_seed.htm
 tech.root: imapi
 ms.assetid: 455d087d-a6f5-45ab-9c0d-c46e721cba6e
-
 ms.date: 12/05/2018
 ms.keywords: IStreamPseudoRandomBased interface [IMAPI],put_Seed method, IStreamPseudoRandomBased.put_Seed, IStreamPseudoRandomBased::put_Seed, imapi.istreampseudorandombased_put_seed, imapi2/IStreamPseudoRandomBased::put_Seed, put_Seed, put_Seed method [IMAPI], put_Seed method [IMAPI],IStreamPseudoRandomBased interface
 ms.topic: method
-f1_keywords: 
- - "imapi2/IStreamPseudoRandomBased.put_Seed"
+f1_keywords:
+- imapi2/IStreamPseudoRandomBased.put_Seed
 dev_langs:
- - c++
+- c++
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - imapi2.h
+- imapi2.h
 api_name:
- - IStreamPseudoRandomBased.put_Seed
+- IStreamPseudoRandomBased.put_Seed
 targetos: Windows
 req.typenames: 
 req.redist: 

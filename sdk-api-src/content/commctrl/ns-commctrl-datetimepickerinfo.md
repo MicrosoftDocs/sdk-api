@@ -1,19 +1,17 @@
 ---
 UID: NS:commctrl.tagDATETIMEPICKERINFO
 title: DATETIMEPICKERINFO (commctrl.h)
-
 description: Contains information about a date and time picker (DTP) control.
 old-location: controls\DATETIMEPICKERINFO.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\datetime\structures\datetimepickerinfo.htm
-
 ms.date: 12/05/2018
-ms.keywords: "*LPDATETIMEPICKERINFO, DATETIMEPICKERINFO, DATETIMEPICKERINFO structure [Windows Controls], LPDATETIMEPICKERINFO, LPDATETIMEPICKERINFO structure pointer [Windows Controls], _shell_DATETIMEPICKERINFO, _shell_DATETIMEPICKERINFO_cpp, commctrl/DATETIMEPICKERINFO, commctrl/LPDATETIMEPICKERINFO, controls.DATETIMEPICKERINFO, controls._shell_DATETIMEPICKERINFO"
+ms.keywords: '*LPDATETIMEPICKERINFO, DATETIMEPICKERINFO, DATETIMEPICKERINFO structure [Windows Controls], LPDATETIMEPICKERINFO, LPDATETIMEPICKERINFO structure pointer [Windows Controls], _shell_DATETIMEPICKERINFO, _shell_DATETIMEPICKERINFO_cpp, commctrl/DATETIMEPICKERINFO, commctrl/LPDATETIMEPICKERINFO, controls.DATETIMEPICKERINFO, controls._shell_DATETIMEPICKERINFO'
 ms.topic: struct
-f1_keywords: 
- - "commctrl/DATETIMEPICKERINFO"
+f1_keywords:
+- commctrl/DATETIMEPICKERINFO
 dev_langs:
- - c++
+- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Commctrl.h
+- Commctrl.h
 api_name:
- - DATETIMEPICKERINFO
+- DATETIMEPICKERINFO
 targetos: Windows
 req.typenames: DATETIMEPICKERINFO, *LPDATETIMEPICKERINFO
 req.redist: 

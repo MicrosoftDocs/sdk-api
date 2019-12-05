@@ -1,19 +1,17 @@
 ---
 UID: NF:oleauto.LoadTypeLibEx
 title: LoadTypeLibEx function (oleauto.h)
-
 description: Loads a type library and (optionally) registers it in the system registry.  .
 old-location: automat\loadtypelibex.htm
 tech.root: automat
 ms.assetid: 56a7f9e1-810b-4a42-aa4d-691f4304f5ef
-
 ms.date: 12/05/2018
 ms.keywords: LoadTypeLibEx, LoadTypeLibEx function [Automation], _oa96_LoadTypeLibEx, automat.loadtypelibex, oleauto/LoadTypeLibEx
 ms.topic: function
-f1_keywords: 
- - "oleauto/LoadTypeLibEx"
+f1_keywords:
+- oleauto/LoadTypeLibEx
 dev_langs:
- - c++
+- c++
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: OleAut32.lib
 req.dll: OleAut32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - OleAut32.dll
+- OleAut32.dll
 api_name:
- - LoadTypeLibEx
+- LoadTypeLibEx
 targetos: Windows
 req.typenames: 
 req.redist: 

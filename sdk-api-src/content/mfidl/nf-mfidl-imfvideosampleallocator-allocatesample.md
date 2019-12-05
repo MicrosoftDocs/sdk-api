@@ -1,19 +1,17 @@
 ---
 UID: NF:mfidl.IMFVideoSampleAllocator.AllocateSample
 title: IMFVideoSampleAllocator::AllocateSample (mfidl.h)
-
 description: Gets a video sample from the allocator.
 old-location: mf\imfvideosampleallocator_allocatesample.htm
 tech.root: medfound
 ms.assetid: e5347cef-edbd-4f6a-88c9-042e53515a32
-
 ms.date: 12/05/2018
 ms.keywords: AllocateSample, AllocateSample method [Media Foundation], AllocateSample method [Media Foundation],IMFVideoSampleAllocator interface, IMFVideoSampleAllocator interface [Media Foundation],AllocateSample method, IMFVideoSampleAllocator.AllocateSample, IMFVideoSampleAllocator::AllocateSample, e5347cef-edbd-4f6a-88c9-042e53515a32, mf.imfvideosampleallocator_allocatesample, mfidl/IMFVideoSampleAllocator::AllocateSample
 ms.topic: method
-f1_keywords: 
- - "mfidl/IMFVideoSampleAllocator.AllocateSample"
+f1_keywords:
+- mfidl/IMFVideoSampleAllocator.AllocateSample
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFVideoSampleAllocator.AllocateSample
+- IMFVideoSampleAllocator.AllocateSample
 targetos: Windows
 req.typenames: 
 req.redist: 

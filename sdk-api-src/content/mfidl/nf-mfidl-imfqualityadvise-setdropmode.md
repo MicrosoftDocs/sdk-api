@@ -1,19 +1,17 @@
 ---
 UID: NF:mfidl.IMFQualityAdvise.SetDropMode
 title: IMFQualityAdvise::SetDropMode (mfidl.h)
-
 description: Sets the drop mode. In drop mode, a component drops samples, more or less aggressively depending on the level of the drop mode.
 old-location: mf\imfqualityadvise_setdropmode.htm
 tech.root: medfound
 ms.assetid: 190de66a-6c47-49d5-a8f6-c2fb57a7aee2
-
 ms.date: 12/05/2018
 ms.keywords: 190de66a-6c47-49d5-a8f6-c2fb57a7aee2, IMFQualityAdvise interface [Media Foundation],SetDropMode method, IMFQualityAdvise.SetDropMode, IMFQualityAdvise::SetDropMode, SetDropMode, SetDropMode method [Media Foundation], SetDropMode method [Media Foundation],IMFQualityAdvise interface, mf.imfqualityadvise_setdropmode, mfidl/IMFQualityAdvise::SetDropMode
 ms.topic: method
 f1_keywords:
 - mfidl/IMFQualityAdvise.SetDropMode
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

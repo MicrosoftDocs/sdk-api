@@ -1,19 +1,17 @@
 ---
 UID: NN:mswmdm.IWMDMProgress3
 title: IWMDMProgress3 (mswmdm.h)
-
 description: The optional, application-implemented IWMDMProgress3 interface extends IWMDMProgress2 by providing additional input parameters to specify which event is being monitored, and to allow for context-specific information.Applications that implement this callback interface should provide an implementation for methods corresponding to IWMDMProgress and IWMDMProgress2 for backward compatibility, in addition to the new methods.
 old-location: wmdm\iwmdmprogress3.htm
 tech.root: WMDM
 ms.assetid: fc3a7031-ac1b-45cf-889b-2d40d50b347d
-
 ms.date: 12/05/2018
 ms.keywords: IWMDMProgress3, IWMDMProgress3 interface [windows Media Device Manager], IWMDMProgress3 interface [windows Media Device Manager],described, IWMDMProgress3Interface, mswmdm/IWMDMProgress3, wmdm.iwmdmprogress3
 ms.topic: interface
-f1_keywords: 
- - "mswmdm/IWMDMProgress3"
+f1_keywords:
+- mswmdm/IWMDMProgress3
 dev_langs:
- - c++
+- c++
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mswmdm.h
+- mswmdm.h
 api_name:
- - IWMDMProgress3
+- IWMDMProgress3
 targetos: Windows
 req.typenames: 
 req.redist: 

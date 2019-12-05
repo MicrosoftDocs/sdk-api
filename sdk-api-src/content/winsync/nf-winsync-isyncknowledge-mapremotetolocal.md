@@ -1,19 +1,17 @@
 ---
 UID: NF:winsync.ISyncKnowledge.MapRemoteToLocal
 title: ISyncKnowledge::MapRemoteToLocal (winsync.h)
-
 description: Converts a knowledge object from another replica into one that is compatible with the replica that owns this knowledge.
 old-location: winsync\isyncknowledge_mapremotetolocal.htm
 tech.root: winsync
 ms.assetid: 9325ff3e-4f8e-4a18-bc95-57af30ccd437
-
 ms.date: 12/05/2018
 ms.keywords: ISyncKnowledge interface [Windows Sync],MapRemoteToLocal method, ISyncKnowledge.MapRemoteToLocal, ISyncKnowledge::MapRemoteToLocal, MapRemoteToLocal, MapRemoteToLocal method [Windows Sync], MapRemoteToLocal method [Windows Sync],ISyncKnowledge interface, winsync.isyncknowledge_mapremotetolocal, winsync/ISyncKnowledge::MapRemoteToLocal
 ms.topic: method
-f1_keywords: 
- - "winsync/ISyncKnowledge.MapRemoteToLocal"
+f1_keywords:
+- winsync/ISyncKnowledge.MapRemoteToLocal
 dev_langs:
- - c++
+- c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - winsync.h
+- winsync.h
 api_name:
- - ISyncKnowledge.MapRemoteToLocal
+- ISyncKnowledge.MapRemoteToLocal
 targetos: Windows
 req.typenames: 
 req.redist: 

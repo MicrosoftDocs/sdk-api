@@ -1,19 +1,17 @@
 ---
 UID: NN:d3d10effect.ID3D10EffectVectorVariable
 title: ID3D10EffectVectorVariable (d3d10effect.h)
-
 description: A vector-variable interface accesses a four-component vector.
 old-location: direct3d10\id3d10effectvectorvariable.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10effectvectorvariable.htm
-
 ms.date: 12/05/2018
 ms.keywords: 1d5dd378-d11b-3553-f1bc-769225c1c1c5, ID3D10EffectVectorVariable, ID3D10EffectVectorVariable interface [Direct3D 10], ID3D10EffectVectorVariable interface [Direct3D 10],described, d3d10effect/ID3D10EffectVectorVariable, direct3d10.id3d10effectvectorvariable
 ms.topic: interface
-f1_keywords: 
- - "d3d10effect/ID3D10EffectVectorVariable"
+f1_keywords:
+- d3d10effect/ID3D10EffectVectorVariable
 dev_langs:
- - c++
+- c++
 req.header: d3d10effect.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: D3D10.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D10.lib
- - D3D10.dll
+- D3D10.lib
+- D3D10.dll
 api_name:
- - ID3D10EffectVectorVariable
+- ID3D10EffectVectorVariable
 targetos: Windows
 req.typenames: 
 req.redist: 

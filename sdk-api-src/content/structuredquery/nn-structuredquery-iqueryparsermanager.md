@@ -1,19 +1,17 @@
 ---
 UID: NN:structuredquery.IQueryParserManager
 title: IQueryParserManager (structuredquery.h)
-
 description: Provides methods to create, initialize, and change options for an IQueryParser object.
 old-location: search\_search_IQueryParserManager.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\iqueryparsermanager\iqueryparsermanager.htm
-
 ms.date: 12/05/2018
 ms.keywords: IQueryParserManager, IQueryParserManager interface [search], IQueryParserManager interface [search],described, _search_IQueryParserManager, search._search_IQueryParserManager, structuredquery/IQueryParserManager
 ms.topic: interface
-f1_keywords: 
- - "structuredquery/IQueryParserManager"
+f1_keywords:
+- structuredquery/IQueryParserManager
 dev_langs:
- - c++
+- c++
 req.header: structuredquery.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Structuredquery.h
+- Structuredquery.h
 api_name:
- - IQueryParserManager
+- IQueryParserManager
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0

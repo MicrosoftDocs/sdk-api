@@ -1,19 +1,17 @@
 ---
 UID: NF:comsvcs.IComCRMEvents.OnCRMAbort
 title: IComCRMEvents::OnCRMAbort (comsvcs.h)
-
 description: Generated when CRM clerk receives an abort notification to pass on to the CRM compensator.
 old-location: cos\icomcrmevents_oncrmabort.htm
 tech.root: cossdk
 ms.assetid: 9def1696-8bc7-4294-a848-ff8ad2632ed6
-
 ms.date: 12/05/2018
 ms.keywords: IComCRMEvents interface [COM+],OnCRMAbort method, IComCRMEvents.OnCRMAbort, IComCRMEvents::OnCRMAbort, OnCRMAbort, OnCRMAbort method [COM+], OnCRMAbort method [COM+],IComCRMEvents interface, _dtc_IComCRMEvents_OnCRMAbort, comsvcs/IComCRMEvents::OnCRMAbort, cos.icomcrmevents_oncrmabort
 ms.topic: method
-f1_keywords: 
- - "comsvcs/IComCRMEvents.OnCRMAbort"
+f1_keywords:
+- comsvcs/IComCRMEvents.OnCRMAbort
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - IComCRMEvents.OnCRMAbort
+- IComCRMEvents.OnCRMAbort
 targetos: Windows
 req.typenames: 
 req.redist: 

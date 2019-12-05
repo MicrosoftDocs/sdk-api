@@ -1,19 +1,17 @@
 ---
 UID: NF:commctrl.Header_GetItemDropDownRect
 title: Header_GetItemDropDownRect macro (commctrl.h)
-
 description: Gets the coordinates of the drop-down button for a specified item in a header control. The header control must be of type HDF_SPLITBUTTON. Use this macro or send the HDM_GETITEMDROPDOWNRECT message explicitly.
 old-location: controls\Header_GetItemDropDownRect.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\header\macros\header_getitemdropdownrect.htm
-
 ms.date: 12/05/2018
 ms.keywords: Header_GetItemDropDownRect, Header_GetItemDropDownRect macro [Windows Controls], _shell_Header_GetItemDropDownRect, _shell_Header_GetItemDropDownRect_cpp, commctrl/Header_GetItemDropDownRect, controls.Header_GetItemDropDownRect, controls._shell_Header_GetItemDropDownRect
 ms.topic: macro
-f1_keywords: 
- - "commctrl/Header_GetItemDropDownRect"
+f1_keywords:
+- commctrl/Header_GetItemDropDownRect
 dev_langs:
- - c++
+- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Commctrl.h
+- Commctrl.h
 api_name:
- - Header_GetItemDropDownRect
+- Header_GetItemDropDownRect
 targetos: Windows
 req.typenames: 
 req.redist: 

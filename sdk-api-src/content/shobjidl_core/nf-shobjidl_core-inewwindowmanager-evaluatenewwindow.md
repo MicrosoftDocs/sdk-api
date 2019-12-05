@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.INewWindowManager.EvaluateNewWindow
 title: INewWindowManager::EvaluateNewWindow (shobjidl_core.h)
-
 description: Accepts data about a new window that is attempting to display and determines whether that window should be allowed to open based on the user's preferences.
 old-location: shell\INewWindowManager_EvaluateNewWindow.htm
 tech.root: shell
 ms.assetid: 0721298f-99c2-463b-8ffa-7527844dcab4
-
 ms.date: 12/05/2018
 ms.keywords: EvaluateNewWindow, EvaluateNewWindow method [Windows Shell], EvaluateNewWindow method [Windows Shell],INewWindowManager interface, INewWindowManager interface [Windows Shell],EvaluateNewWindow method, INewWindowManager.EvaluateNewWindow, INewWindowManager::EvaluateNewWindow, _shell_INewWindowManager_EvaluateNewWindow, shell.INewWindowManager_EvaluateNewWindow, shobjidl_core/INewWindowManager::EvaluateNewWindow
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/INewWindowManager.EvaluateNewWindow"
+f1_keywords:
+- shobjidl_core/INewWindowManager.EvaluateNewWindow
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Shell32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - INewWindowManager.EvaluateNewWindow
+- INewWindowManager.EvaluateNewWindow
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NN:certview.IEnumCERTVIEWCOLUMN
 title: IEnumCERTVIEWCOLUMN (certview.h)
-
 description: Represents a column-enumeration sequence that contains the column data for the current row of the enumeration sequence.
 old-location: security\ienumcertviewcolumn.htm
 tech.root: SecCrypto
 ms.assetid: 6e6547f9-44b2-4050-be90-ac8ede892adc
-
 ms.date: 12/05/2018
 ms.keywords: IEnumCERTVIEWCOLUMN, IEnumCERTVIEWCOLUMN interface [Security], IEnumCERTVIEWCOLUMN interface [Security],described, _certsrv_ienumcertviewcolumn, certview/IEnumCERTVIEWCOLUMN, security.ienumcertviewcolumn
 ms.topic: interface
-f1_keywords: 
- - "certview/IEnumCERTVIEWCOLUMN"
+f1_keywords:
+- certview/IEnumCERTVIEWCOLUMN
 dev_langs:
- - c++
+- c++
 req.header: certview.h
 req.include-header: Certsrv.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Certidl.lib
 req.dll: Certadm.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Certadm.dll
+- Certadm.dll
 api_name:
- - IEnumCERTVIEWCOLUMN
+- IEnumCERTVIEWCOLUMN
 targetos: Windows
 req.typenames: 
 req.redist: 

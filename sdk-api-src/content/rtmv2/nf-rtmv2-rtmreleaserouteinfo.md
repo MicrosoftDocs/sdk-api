@@ -1,19 +1,17 @@
 ---
 UID: NF:rtmv2.RtmReleaseRouteInfo
 title: RtmReleaseRouteInfo function (rtmv2.h)
-
 description: The RtmReleaseRouteInfo function releases a route structure.
 old-location: rras\rtmreleaserouteinfo.htm
 tech.root: RRAS
 ms.assetid: 927d2a32-17bc-453c-b65b-144151bea902
-
 ms.date: 12/05/2018
 ms.keywords: RtmReleaseRouteInfo, RtmReleaseRouteInfo function [RAS], _rtmv2ref_rtmreleaserouteinfo, rras.rtmreleaserouteinfo, rtmv2/RtmReleaseRouteInfo
 ms.topic: function
 f1_keywords:
 - rtmv2/RtmReleaseRouteInfo
 dev_langs:
- - c++
+- c++
 req.header: rtmv2.h
 req.include-header: 
 req.target-type: Windows

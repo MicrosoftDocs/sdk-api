@@ -1,19 +1,17 @@
 ---
 UID: NF:mileffects.IMILBitmapEffectGroupImpl.Preprocess
 title: IMILBitmapEffectGroupImpl::Preprocess (mileffects.h)
-
 description: Pre-process the given render context.
 old-location: wibe\_wibe_imilbitmapeffectgroupimpl_preprocess.htm
 tech.root: wibe
 ms.assetid: VS|wibe|~\wibelh\reference\ifaces\imilbitmapeffectgroupimpl\preprocess.htm
-
 ms.date: 12/05/2018
 ms.keywords: IMILBitmapEffectGroupImpl interface [WPF Bitmap Effects],Preprocess method, IMILBitmapEffectGroupImpl.Preprocess, IMILBitmapEffectGroupImpl::Preprocess, Preprocess, Preprocess method [WPF Bitmap Effects], Preprocess method [WPF Bitmap Effects],IMILBitmapEffectGroupImpl interface, _wibe_imilbitmapeffectgroupimpl_preprocess, mileffects/IMILBitmapEffectGroupImpl::Preprocess, wibe._wibe_imilbitmapeffectgroupimpl_preprocess
 ms.topic: method
-f1_keywords: 
- - "mileffects/IMILBitmapEffectGroupImpl.Preprocess"
+f1_keywords:
+- mileffects/IMILBitmapEffectGroupImpl.Preprocess
 dev_langs:
- - c++
+- c++
 req.header: mileffects.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mileffects.h
+- Mileffects.h
 api_name:
- - IMILBitmapEffectGroupImpl.Preprocess
+- IMILBitmapEffectGroupImpl.Preprocess
 targetos: Windows
 req.typenames: 
 req.redist: Microsoft .Net 3.0

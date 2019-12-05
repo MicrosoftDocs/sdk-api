@@ -1,19 +1,17 @@
 ---
 UID: NF:gdiplusgraphics.Graphics.FillPolygon(IN const Brush,IN const PointF,IN INT,IN FillMode)
 title: Graphics::FillPolygon(IN const Brush,IN const PointF,IN INT,IN FillMode) (gdiplusgraphics.h)
-
 description: The Graphics::FillPolygon method uses a brush to fill the interior of a polygon.
 old-location: gdiplus\_gdiplus_CLASS_Graphics_FillPolygon_Brush_brush_PointF_points_INT_count_FillMode_fillMode_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\graphicsfillpolygonmethods\fillpolygon_71brushbrush_pointfpoints_intcount_fillm.htm
-
 ms.date: 12/05/2018
 ms.keywords: FillPolygon, FillPolygon method [GDI+], FillPolygon method [GDI+],Graphics class, Graphics class [GDI+],FillPolygon method, Graphics.FillPolygon, Graphics.FillPolygon(IN const Brush,IN const PointF,IN INT,IN FillMode), Graphics.FillPolygon(const Brush*,const PointF*,INT,FillMode), Graphics::FillPolygon, Graphics::FillPolygon(IN const Brush,IN const PointF,IN INT,IN FillMode), _gdiplus_CLASS_Graphics_FillPolygon_Brush_brush_PointF_points_INT_count_FillMode_fillMode_, gdiplus._gdiplus_CLASS_Graphics_FillPolygon_Brush_brush_PointF_points_INT_count_FillMode_fillMode_
 ms.topic: method
-f1_keywords: 
- - "gdiplusgraphics/Graphics.FillPolygon"
+f1_keywords:
+- gdiplusgraphics/Graphics.FillPolygon
 dev_langs:
- - c++
+- c++
 req.header: gdiplusgraphics.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - Graphics.FillPolygon
+- Graphics.FillPolygon
 targetos: Windows
 req.typenames: 
 req.redist: 

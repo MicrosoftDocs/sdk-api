@@ -1,19 +1,17 @@
 ---
 UID: NF:dvbsiparser.IIsdbSiParser2.GetSDTT
 title: IIsdbSiParser2::GetSDTT (dvbsiparser.h)
-
 description: Gets the software download trigger table (SDTT) from an Integrated Services Digital Broadcast (ISDB) transport stream. An SDTT contains download information such as the service identifier, schedule, and receiver types for revision.
 old-location: mstv\iisdbsiparser2_getsdtt.htm
 tech.root: mstv
 ms.assetid: fd361526-eb0c-4edd-b346-3bded48fdc06
-
 ms.date: 12/05/2018
 ms.keywords: GetSDTT, GetSDTT method [Microsoft TV Technologies], GetSDTT method [Microsoft TV Technologies],IIsdbSiParser2 interface, IIsdbSiParser2 interface [Microsoft TV Technologies],GetSDTT method, IIsdbSiParser2.GetSDTT, IIsdbSiParser2::GetSDTT, dvbsiparser/IIsdbSiParser2::GetSDTT, mstv.iisdbsiparser2_getsdtt
 ms.topic: method
-f1_keywords: 
- - "dvbsiparser/IIsdbSiParser2.GetSDTT"
+f1_keywords:
+- dvbsiparser/IIsdbSiParser2.GetSDTT
 dev_langs:
- - c++
+- c++
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dvbsiparser.h
+- dvbsiparser.h
 api_name:
- - IIsdbSiParser2.GetSDTT
+- IIsdbSiParser2.GetSDTT
 targetos: Windows
 req.typenames: 
 req.redist: 

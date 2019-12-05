@@ -1,19 +1,17 @@
 ---
 UID: NF:mfidl.IMFTopologyNode.SetTopoNodeID
 title: IMFTopologyNode::SetTopoNodeID (mfidl.h)
-
 description: Sets the identifier for the node.
 old-location: mf\imftopologynode_settoponodeid.htm
 tech.root: medfound
 ms.assetid: 80efa004-d739-4f9a-9ea3-8bf7d97f0a7d
-
 ms.date: 12/05/2018
 ms.keywords: 80efa004-d739-4f9a-9ea3-8bf7d97f0a7d, IMFTopologyNode interface [Media Foundation],SetTopoNodeID method, IMFTopologyNode.SetTopoNodeID, IMFTopologyNode::SetTopoNodeID, SetTopoNodeID, SetTopoNodeID method [Media Foundation], SetTopoNodeID method [Media Foundation],IMFTopologyNode interface, mf.imftopologynode_settoponodeid, mfidl/IMFTopologyNode::SetTopoNodeID
 ms.topic: method
-f1_keywords: 
- - "mfidl/IMFTopologyNode.SetTopoNodeID"
+f1_keywords:
+- mfidl/IMFTopologyNode.SetTopoNodeID
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFTopologyNode.SetTopoNodeID
+- IMFTopologyNode.SetTopoNodeID
 targetos: Windows
 req.typenames: 
 req.redist: 

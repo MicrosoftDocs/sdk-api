@@ -1,19 +1,17 @@
 ---
 UID: NE:objidl.tagBIND_FLAGS
 title: BIND_FLAGS (objidl.h)
-
 description: Controls aspects of moniker binding operations.
 old-location: com\bind_flags.htm
 tech.root: com
 ms.assetid: e8884e82-5de2-4a1f-b79c-d431afe9e87e
-
 ms.date: 12/05/2018
 ms.keywords: BIND_FLAGS, BIND_FLAGS enumeration [COM], BIND_JUSTTESTEXISTENCE, BIND_MAYBOTHERUSER, _com_BIND_FLAGS, com.bind_flags, objidl/BIND_FLAGS, objidl/BIND_JUSTTESTEXISTENCE, objidl/BIND_MAYBOTHERUSER
 ms.topic: enum
-f1_keywords: 
- - "objidl/BIND_FLAGS"
+f1_keywords:
+- objidl/BIND_FLAGS
 dev_langs:
- - c++
+- c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Objidl.h
+- Objidl.h
 api_name:
- - BIND_FLAGS
+- BIND_FLAGS
 targetos: Windows
 req.typenames: BIND_FLAGS
 req.redist: 

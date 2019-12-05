@@ -1,19 +1,17 @@
 ---
 UID: NF:wmp.IWMPEvents.MediaChange
 title: IWMPEvents::MediaChange (wmp.h)
-
 description: The MediaChange event occurs when a media item changes.
 old-location: wmp\iwmpevents_iwmpevents__mediachange.htm
 tech.root: WMP
 ms.assetid: 385fb52c-62d2-482d-bc9f-94dbf693a27c
-
 ms.date: 12/05/2018
 ms.keywords: IWMPEvents interface [Windows Media Player],MediaChange method, IWMPEvents.MediaChange, IWMPEvents::MediaChange, IWMPEventsMediaChange, MediaChange, MediaChange method [Windows Media Player], MediaChange method [Windows Media Player],IWMPEvents interface, wmp.iwmpevents_iwmpevents__mediachange, wmp/IWMPEvents::MediaChange
 ms.topic: method
-f1_keywords: 
- - "wmp/IWMPEvents.MediaChange"
+f1_keywords:
+- wmp/IWMPEvents.MediaChange
 dev_langs:
- - c++
+- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wmp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmp.dll
+- wmp.dll
 api_name:
- - IWMPEvents.MediaChange
+- IWMPEvents.MediaChange
 targetos: Windows
 req.typenames: 
 req.redist: 

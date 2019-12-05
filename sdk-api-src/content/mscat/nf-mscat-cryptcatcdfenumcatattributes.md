@@ -1,19 +1,17 @@
 ---
 UID: NF:mscat.CryptCATCDFEnumCatAttributes
 title: CryptCATCDFEnumCatAttributes function (mscat.h)
-
 description: Enumerates catalog-level attributes within the CatalogHeader section of a catalog definition file (CDF).
 old-location: security\cryptcatcdfenumcatattributes.htm
 tech.root: SecCrypto
 ms.assetid: 01889cb9-7bf4-4591-9bb2-b263c4effe0c
-
 ms.date: 12/05/2018
 ms.keywords: CryptCATCDFEnumCatAttributes, CryptCATCDFEnumCatAttributes function [Security], mscat/CryptCATCDFEnumCatAttributes, security.cryptcatcdfenumcatattributes
 ms.topic: function
-f1_keywords: 
- - "mscat/CryptCATCDFEnumCatAttributes"
+f1_keywords:
+- mscat/CryptCATCDFEnumCatAttributes
 dev_langs:
- - c++
+- c++
 req.header: mscat.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wintrust.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Wintrust.dll
+- Wintrust.dll
 api_name:
- - CryptCATCDFEnumCatAttributes
+- CryptCATCDFEnumCatAttributes
 targetos: Windows
 req.typenames: 
 req.redist: 

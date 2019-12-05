@@ -1,19 +1,17 @@
 ---
 UID: NF:winternl.RtlInitString
 title: RtlInitString function (winternl.h)
-
 description: Initializes a counted string.
 old-location: winprog\rtlinitstring.htm
 tech.root: DevNotes
 ms.assetid: VS|winui|~\winui\windowsuserinterface\lowlevelclientsupport\misc\rtlinitstring.htm
-
 ms.date: 12/05/2018
 ms.keywords: RtlInitString, RtlInitString function [Windows API], winprog.rtlinitstring, winternl/RtlInitString, winui.rtlinitstring
 ms.topic: function
-f1_keywords: 
- - "winternl/RtlInitString"
+f1_keywords:
+- winternl/RtlInitString
 dev_langs:
- - c++
+- c++
 req.header: winternl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Ntdll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ntdll.dll
+- Ntdll.dll
 api_name:
- - RtlInitString
+- RtlInitString
 targetos: Windows
 req.typenames: 
 req.redist: 

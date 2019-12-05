@@ -1,19 +1,17 @@
 ---
 UID: NF:vswriter.IVssCreateWriterMetadata.AddIncludeFiles
 title: IVssCreateWriterMetadata::AddIncludeFiles (vswriter.h)
-
 description: Not supported.
 old-location: base\ivsscreatewritermetadata_addincludefiles.htm
 tech.root: VSS
 ms.assetid: 3e84f608-73a7-448b-b45e-a0c348238251
-
 ms.date: 12/05/2018
 ms.keywords: AddIncludeFiles, AddIncludeFiles method [VSS], AddIncludeFiles method [VSS],IVssCreateWriterMetadata interface, IVssCreateWriterMetadata interface [VSS],AddIncludeFiles method, IVssCreateWriterMetadata.AddIncludeFiles, IVssCreateWriterMetadata::AddIncludeFiles, _win32_ivsscreatewritermetadata_addincludefiles, base.ivsscreatewritermetadata_addincludefiles, vswriter/IVssCreateWriterMetadata::AddIncludeFiles
 ms.topic: method
-f1_keywords: 
- - "vswriter/IVssCreateWriterMetadata.AddIncludeFiles"
+f1_keywords:
+- vswriter/IVssCreateWriterMetadata.AddIncludeFiles
 dev_langs:
- - c++
+- c++
 req.header: vswriter.h
 req.include-header: Vss.h, VsWriter.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: VssApi.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - VssApi.lib
- - VssApi.dll
+- VssApi.lib
+- VssApi.dll
 api_name:
- - IVssCreateWriterMetadata.AddIncludeFiles
+- IVssCreateWriterMetadata.AddIncludeFiles
 targetos: Windows
 req.typenames: 
 req.redist: 

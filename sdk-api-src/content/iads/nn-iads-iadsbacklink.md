@@ -1,19 +1,17 @@
 ---
 UID: NN:iads.IADsBackLink
 title: IADsBackLink (iads.h)
-
 description: The IADsBackLink interface provides methods for an ADSI client to access the Back Link attribute. You can call the property methods of this interface to obtain and modify the attribute.
 old-location: adsi\iadsbacklink.htm
 tech.root: adsi
 ms.assetid: 2876e8c5-8cfa-4bcc-91ba-c2f71bfbe622
-
 ms.date: 12/05/2018
 ms.keywords: BackLink, IADsBackLink, IADsBackLink interface [ADSI], IADsBackLink interface [ADSI],described, _ds_iadsbacklink, adsi.iadsbacklink, iads/IADsBackLink
 ms.topic: interface
-f1_keywords: 
- - "iads/IADsBackLink"
+f1_keywords:
+- iads/IADsBackLink
 dev_langs:
- - c++
+- c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: Activeds.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Activeds.dll
+- Activeds.dll
 api_name:
- - IADsBackLink
- - BackLink
+- IADsBackLink
+- BackLink
 targetos: Windows
 req.typenames: 
 req.redist: 

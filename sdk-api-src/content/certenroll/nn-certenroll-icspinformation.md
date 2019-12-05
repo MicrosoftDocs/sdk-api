@@ -1,19 +1,17 @@
 ---
 UID: NN:certenroll.ICspInformation
 title: ICspInformation (certenroll.h)
-
 description: Provides access to general information about a cryptographic provider.
 old-location: security\icspinformation.htm
 tech.root: seccertenroll
 ms.assetid: e337ae2c-6f86-4025-8d31-47bc5d8a4ca8
-
 ms.date: 12/05/2018
 ms.keywords: ICspInformation, ICspInformation interface [Security], ICspInformation interface [Security],described, certenroll/ICspInformation, security.icspinformation
 ms.topic: interface
-f1_keywords: 
- - "certenroll/ICspInformation"
+f1_keywords:
+- certenroll/ICspInformation
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: CertEnroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CertEnroll.dll
+- CertEnroll.dll
 api_name:
- - ICspInformation
+- ICspInformation
 targetos: Windows
 req.typenames: 
 req.redist: 

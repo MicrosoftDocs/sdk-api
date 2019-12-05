@@ -1,19 +1,17 @@
 ---
 UID: NF:bits.IBackgroundCopyJob.Cancel
 title: IBackgroundCopyJob::Cancel (bits.h)
-
 description: Deletes the job from the transfer queue and removes related temporary files from the client (downloads) and server (uploads).
 old-location: bits\ibackgroundcopyjob_cancel.htm
 tech.root: Bits
 ms.assetid: bb3f32d9-298a-4099-8d87-4057ddefb0ba
-
 ms.date: 12/05/2018
 ms.keywords: Cancel, Cancel method [BITS], Cancel method [BITS],IBackgroundCopyJob interface, IBackgroundCopyJob interface [BITS],Cancel method, IBackgroundCopyJob.Cancel, IBackgroundCopyJob::Cancel, _drz_ibackgroundcopyjob_cancel, bits.ibackgroundcopyjob_cancel, bits/IBackgroundCopyJob::Cancel
 ms.topic: method
-f1_keywords: 
- - "bits/IBackgroundCopyJob.Cancel"
+f1_keywords:
+- bits/IBackgroundCopyJob.Cancel
 dev_langs:
- - c++
+- c++
 req.header: bits.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Bits.lib
 req.dll: QmgrPrxy.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - QmgrPrxy.dll
+- QmgrPrxy.dll
 api_name:
- - IBackgroundCopyJob.Cancel
+- IBackgroundCopyJob.Cancel
 targetos: Windows
 req.typenames: 
 req.redist: 

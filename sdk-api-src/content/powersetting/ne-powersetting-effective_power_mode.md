@@ -1,19 +1,17 @@
 ---
 UID: NE:powersetting.EFFECTIVE_POWER_MODE
 title: EFFECTIVE_POWER_MODE (powersetting.h)
-
 description: Indicates the effective power mode the system is running.
 old-location: base\effective_power_mode.htm
 tech.root: power
 ms.assetid: 8FA09CC0-99E7-4B05-88A0-2AF406C7B60C
-
 ms.date: 12/05/2018
 ms.keywords: EFFECTIVE_POWER_MODE, EFFECTIVE_POWER_MODE enumeration, EffectivePowerModeBalanced, EffectivePowerModeBatterySaver, EffectivePowerModeBetterBattery, EffectivePowerModeHighPerformance, EffectivePowerModeInvalid, EffectivePowerModeMaxPerformance, base.effective_power_mode, powersetting/EFFECTIVE_POWER_MODE, powersetting/EffectivePowerModeBalanced, powersetting/EffectivePowerModeBatterySaver, powersetting/EffectivePowerModeBetterBattery, powersetting/EffectivePowerModeHighPerformance, powersetting/EffectivePowerModeInvalid, powersetting/EffectivePowerModeMaxPerformance
 ms.topic: enum
-f1_keywords: 
- - "powersetting/EFFECTIVE_POWER_MODE"
+f1_keywords:
+- powersetting/EFFECTIVE_POWER_MODE
 dev_langs:
- - c++
+- c++
 req.header: powersetting.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Powersetting.h
+- Powersetting.h
 api_name:
- - EFFECTIVE_POWER_MODE
+- EFFECTIVE_POWER_MODE
 targetos: Windows
 req.typenames: EFFECTIVE_POWER_MODE
 req.redist: 

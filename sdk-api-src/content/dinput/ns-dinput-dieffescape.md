@@ -1,19 +1,17 @@
 ---
 UID: NS:dinput.DIEFFESCAPE
 title: DIEFFESCAPE (dinput.h)
-
 description: The DIEFFESCAPE structure passes hardware-specific data directly to the device driver.
 old-location: hid\dieffescape.htm
 tech.root: hid
 ms.assetid: 97d452b2-aa25-46a9-a755-dc835270c818
-
 ms.date: 12/05/2018
-ms.keywords: "*LPDIEFFESCAPE, DIEFFESCAPE, DIEFFESCAPE structure [Human Input Devices], DIEFFESCAPE,*LPDIEFFESCAPE, DIEFFESCAPE,*LPDIEFFESCAPE structure [Human Input Devices], di_ref_b6b4b11a-a6ad-4467-a2c6-1c69047dec2f.xml, dinput/DIEFFESCAPE, hid.dieffescape"
+ms.keywords: '*LPDIEFFESCAPE, DIEFFESCAPE, DIEFFESCAPE structure [Human Input Devices], DIEFFESCAPE,*LPDIEFFESCAPE, DIEFFESCAPE,*LPDIEFFESCAPE structure [Human Input Devices], di_ref_b6b4b11a-a6ad-4467-a2c6-1c69047dec2f.xml, dinput/DIEFFESCAPE, hid.dieffescape'
 ms.topic: struct
-f1_keywords: 
- - "dinput/DIEFFESCAPE, *LPDIEFFESCAPE"
+f1_keywords:
+- dinput/DIEFFESCAPE, *LPDIEFFESCAPE
 dev_langs:
- - c++
+- c++
 req.header: dinput.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Dinput.h
+- Dinput.h
 api_name:
- - DIEFFESCAPE, *LPDIEFFESCAPE
+- DIEFFESCAPE, *LPDIEFFESCAPE
 targetos: Windows
 req.typenames: DIEFFESCAPE, *LPDIEFFESCAPE
 req.redist: 

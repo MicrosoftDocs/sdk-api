@@ -1,19 +1,17 @@
 ---
 UID: NF:mbnapi.IMbnDeviceService.WriteData
 title: IMbnDeviceService::WriteData (mbnapi.h)
-
 description: Write data to a device service data session.
 old-location: mbn\imbndeviceservice_writedata.htm
 tech.root: mbn
 ms.assetid: D2CD630B-FCD5-485D-84A6-B2A942842A1F
-
 ms.date: 12/05/2018
 ms.keywords: IMbnDeviceService interface [Microsoft Broadband Networks],WriteData method, IMbnDeviceService.WriteData, IMbnDeviceService::WriteData, WriteData, WriteData method [Microsoft Broadband Networks], WriteData method [Microsoft Broadband Networks],IMbnDeviceService interface, mbn.imbndeviceservice_writedata, mbnapi/IMbnDeviceService::WriteData
 ms.topic: method
-f1_keywords: 
- - "mbnapi/IMbnDeviceService.WriteData"
+f1_keywords:
+- mbnapi/IMbnDeviceService.WriteData
 dev_langs:
- - c++
+- c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mbnapi.h
+- mbnapi.h
 api_name:
- - IMbnDeviceService.WriteData
+- IMbnDeviceService.WriteData
 targetos: Windows
 req.typenames: 
 req.redist: 

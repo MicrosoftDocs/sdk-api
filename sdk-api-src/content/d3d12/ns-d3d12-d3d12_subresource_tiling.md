@@ -1,19 +1,17 @@
 ---
 UID: NS:d3d12.D3D12_SUBRESOURCE_TILING
 title: D3D12_SUBRESOURCE_TILING (d3d12.h)
-
 description: Describes a tiled subresource volume.
 old-location: direct3d12\d3d12_subresource_tiling.htm
 tech.root: direct3d12
 ms.assetid: 81C93E0F-AF05-4801-97EB-6C3E0407B5F6
-
 ms.date: 12/05/2018
 ms.keywords: D3D12_SUBRESOURCE_TILING, D3D12_SUBRESOURCE_TILING structure, d3d12/D3D12_SUBRESOURCE_TILING, direct3d12.d3d12_subresource_tiling
 ms.topic: struct
-f1_keywords: 
- - "d3d12/D3D12_SUBRESOURCE_TILING"
+f1_keywords:
+- d3d12/D3D12_SUBRESOURCE_TILING
 dev_langs:
- - c++
+- c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - D3D12.h
+- D3D12.h
 api_name:
- - D3D12_SUBRESOURCE_TILING
+- D3D12_SUBRESOURCE_TILING
 targetos: Windows
 req.typenames: D3D12_SUBRESOURCE_TILING
 req.redist: 

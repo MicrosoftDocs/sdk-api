@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IDesktopWallpaper.SetWallpaper
 title: IDesktopWallpaper::SetWallpaper (shobjidl_core.h)
-
 description: Sets the desktop wallpaper.
 old-location: shell\IDesktopWallpaper_SetWallpaper.htm
 tech.root: shell
 ms.assetid: 5E0731DC-8B70-40dc-B90A-97B1E3E4D55D
-
 ms.date: 12/05/2018
 ms.keywords: IDesktopWallpaper interface [Windows Shell],SetWallpaper method, IDesktopWallpaper.SetWallpaper, IDesktopWallpaper::SetWallpaper, SetWallpaper, SetWallpaper method [Windows Shell], SetWallpaper method [Windows Shell],IDesktopWallpaper interface, shell.IDesktopWallpaper_SetWallpaper, shobjidl_core/IDesktopWallpaper::SetWallpaper
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IDesktopWallpaper.SetWallpaper"
+f1_keywords:
+- shobjidl_core/IDesktopWallpaper.SetWallpaper
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - IDesktopWallpaper.SetWallpaper
+- IDesktopWallpaper.SetWallpaper
 targetos: Windows
 req.typenames: 
 req.redist: 

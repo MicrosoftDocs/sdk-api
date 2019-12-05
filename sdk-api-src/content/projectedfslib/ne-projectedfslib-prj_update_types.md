@@ -1,19 +1,17 @@
 ---
 UID: NE:projectedfslib.PRJ_UPDATE_TYPES
 title: PRJ_UPDATE_TYPES (projectedfslib.h)
-
 description: Flags to specify whether updates will be allowed given the state of a file or directory on disk.
 old-location: projfs\prj_update_types.htm
 tech.root: ProjFS
 ms.assetid: E0E6F600-3B06-42D0-A87F-FAB4990562D0
-
 ms.date: 12/05/2018
 ms.keywords: PRJ_UPDATE_ALLOW_DIRTY_DATA, PRJ_UPDATE_ALLOW_DIRTY_METADATA, PRJ_UPDATE_ALLOW_READ_ONLY, PRJ_UPDATE_ALLOW_TOMBSTONE, PRJ_UPDATE_MAX_VAL, PRJ_UPDATE_NONE, PRJ_UPDATE_RESERVED1, PRJ_UPDATE_RESERVED2, PRJ_UPDATE_TYPES, PRJ_UPDATE_TYPES enumeration, ProjFS.prj_update_types, projectedfslib/PRJ_UPDATE_ALLOW_DIRTY_DATA, projectedfslib/PRJ_UPDATE_ALLOW_DIRTY_METADATA, projectedfslib/PRJ_UPDATE_ALLOW_READ_ONLY, projectedfslib/PRJ_UPDATE_ALLOW_TOMBSTONE, projectedfslib/PRJ_UPDATE_MAX_VAL, projectedfslib/PRJ_UPDATE_NONE, projectedfslib/PRJ_UPDATE_RESERVED1, projectedfslib/PRJ_UPDATE_RESERVED2, projectedfslib/PRJ_UPDATE_TYPES
 ms.topic: enum
-f1_keywords: 
- - "projectedfslib/PRJ_UPDATE_TYPES"
+f1_keywords:
+- projectedfslib/PRJ_UPDATE_TYPES
 dev_langs:
- - c++
+- c++
 req.header: projectedfslib.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - projectedfslib.h
+- projectedfslib.h
 api_name:
- - PRJ_UPDATE_TYPES
+- PRJ_UPDATE_TYPES
 targetos: Windows
 req.typenames: PRJ_UPDATE_TYPES
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:shimgdata.IShellImageData.GetProperties
 title: IShellImageData::GetProperties (shimgdata.h)
-
 description: Gets an IPropertySetStorage through which the properties of the image can be accessed.
 old-location: shell\IShellImageData_GetProperties.htm
 tech.root: shell
 ms.assetid: 0fb59627-a31f-4c23-955f-3032c5814a5a
-
 ms.date: 12/05/2018
 ms.keywords: GetProperties, GetProperties method [Windows Shell], GetProperties method [Windows Shell],IShellImageData interface, IShellImageData interface [Windows Shell],GetProperties method, IShellImageData.GetProperties, IShellImageData::GetProperties, _shell_IShellImageData_GetProperties, shell.IShellImageData_GetProperties, shimgdata/IShellImageData::GetProperties
 ms.topic: method
-f1_keywords: 
- - "shimgdata/IShellImageData.GetProperties"
+f1_keywords:
+- shimgdata/IShellImageData.GetProperties
 dev_langs:
- - c++
+- c++
 req.header: shimgdata.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Shell32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - IShellImageData.GetProperties
+- IShellImageData.GetProperties
 targetos: Windows
 req.typenames: 
 req.redist: 

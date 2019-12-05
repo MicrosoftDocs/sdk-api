@@ -1,19 +1,17 @@
 ---
 UID: NF:recapis.SetWordList
 title: SetWordList function (recapis.h)
-
 description: Sets the word list for the current recognizer context to recognize.
 old-location: tablet\setwordlist.htm
 tech.root: tablet
 ms.assetid: 9e067c22-772d-48d2-baae-abc8067efb09
-
 ms.date: 12/05/2018
 ms.keywords: 9e067c22-772d-48d2-baae-abc8067efb09, SetWordList, SetWordList function [Tablet PC], recapis/SetWordList, tablet.setwordlist
 ms.topic: function
-f1_keywords: 
- - "recapis/SetWordList"
+f1_keywords:
+- recapis/SetWordList
 dev_langs:
- - c++
+- c++
 req.header: recapis.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - recapis.h
+- recapis.h
 api_name:
- - SetWordList
+- SetWordList
 targetos: Windows
 req.typenames: 
 req.redist: 

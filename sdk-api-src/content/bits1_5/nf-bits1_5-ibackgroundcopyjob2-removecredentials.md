@@ -1,19 +1,17 @@
 ---
 UID: NF:bits1_5.IBackgroundCopyJob2.RemoveCredentials
 title: IBackgroundCopyJob2::RemoveCredentials
-
 description: Removes credentials from use. The credentials must match an existing target and scheme pair that you specified using the IBackgroundCopyJob2::SetCredentials method. There is no method to retrieve the credentials you have set.
 old-location: bits\ibackgroundcopyjob2_removecredentials.htm
 tech.root: Bits
 ms.assetid: dbc6a05d-9e1f-4cc9-b28b-0874aafdfd7c
-
 ms.date: 12/05/2018
 ms.keywords: IBackgroundCopyJob2 interface [BITS],RemoveCredentials method, IBackgroundCopyJob2.RemoveCredentials, IBackgroundCopyJob2::RemoveCredentials, RemoveCredentials, RemoveCredentials method [BITS], RemoveCredentials method [BITS],IBackgroundCopyJob2 interface, _drz_ibackgroundcopyjob2_removecredentials, bits.ibackgroundcopyjob2_removecredentials, bits1_5/IBackgroundCopyJob2::RemoveCredentials
 ms.topic: method
-f1_keywords: 
- - "bits1_5/IBackgroundCopyJob2.RemoveCredentials"
+f1_keywords:
+- bits1_5/IBackgroundCopyJob2.RemoveCredentials
 dev_langs:
- - c++
+- c++
 req.header: bits1_5.h
 req.include-header: Bits.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Bits.lib
 req.dll: BitsPrx2.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - BitsPrx2.dll
+- BitsPrx2.dll
 api_name:
- - IBackgroundCopyJob2.RemoveCredentials
+- IBackgroundCopyJob2.RemoveCredentials
 targetos: Windows
 req.typenames: 
 req.redist: BITS 1.5 on  Windows XP

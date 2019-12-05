@@ -1,19 +1,17 @@
 ---
 UID: NF:setupapi.SetupDiInstallDeviceInterfaces
 title: SetupDiInstallDeviceInterfaces function (setupapi.h)
-
 description: The SetupDiInstallDeviceInterfaces function is the default handler for the DIF_INSTALLINTERFACES installation request.
 old-location: devinst\setupdiinstalldeviceinterfaces.htm
 tech.root: devinst
 ms.assetid: c47d83f6-9ae5-43a9-a6ed-b0441b490e8d
-
 ms.date: 12/05/2018
 ms.keywords: SetupDiInstallDeviceInterfaces, SetupDiInstallDeviceInterfaces function [Device and Driver Installation], devinst.setupdiinstalldeviceinterfaces, di-rtns_8bb9c70f-c1be-45f6-af6c-243a750babb9.xml, setupapi/SetupDiInstallDeviceInterfaces
 ms.topic: function
 f1_keywords:
 - setupapi/SetupDiInstallDeviceInterfaces
 dev_langs:
- - c++
+- c++
 req.header: setupapi.h
 req.include-header: Setupapi.h
 req.target-type: Desktop

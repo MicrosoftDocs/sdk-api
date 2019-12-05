@@ -1,19 +1,17 @@
 ---
 UID: NF:resapi.ResUtilGetCoreClusterResources
 title: ResUtilGetCoreClusterResources function (resapi.h)
-
 description: Returns handles to the core&#32;Network Name, IP Address and quorum resources. The PRESUTIL_GET_CORE_CLUSTER_RESOURCES type defines a pointer to this function.
 old-location: mscs\resutilgetcoreclusterresources.htm
 tech.root: MsCS
 ms.assetid: cadfeaf7-951f-4fc7-96fa-2e256e52a370
-
 ms.date: 12/05/2018
 ms.keywords: PRESUTIL_GET_CORE_CLUSTER_RESOURCES, PRESUTIL_GET_CORE_CLUSTER_RESOURCES function [Failover Cluster], ResUtilGetCoreClusterResources, ResUtilGetCoreClusterResources function [Failover Cluster], _wolf_resutilgetcoreclusterresources, mscs.resutilgetcoreclusterresources, resapi/PRESUTIL_GET_CORE_CLUSTER_RESOURCES, resapi/ResUtilGetCoreClusterResources
 ms.topic: function
-f1_keywords: 
- - "resapi/ResUtilGetCoreClusterResources"
+f1_keywords:
+- resapi/ResUtilGetCoreClusterResources
 dev_langs:
- - c++
+- c++
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: ResUtils.lib
 req.dll: ResUtils.Dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - ResUtils.Dll
- - Ext-MS-Win-Cluster-ResUtils-l1-1-0.dll
- - ext-ms-win-cluster-resutils-l1-1-1.dll
+- ResUtils.Dll
+- Ext-MS-Win-Cluster-ResUtils-l1-1-0.dll
+- ext-ms-win-cluster-resutils-l1-1-1.dll
 api_name:
- - ResUtilGetCoreClusterResources
+- ResUtilGetCoreClusterResources
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:tom.ITextPara.SetListTab
 title: ITextPara::SetListTab (tom.h)
-
 description: Sets the list tab setting, which is the distance between the first indent and the start of the text on the first line.
 old-location: controls\ITextPara_SetListTab.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\setlisttab.htm
-
 ms.date: 12/05/2018
 ms.keywords: ITextPara interface [Windows Controls],SetListTab method, ITextPara.SetListTab, ITextPara::SetListTab, SetListTab, SetListTab method [Windows Controls], SetListTab method [Windows Controls],ITextPara interface, _win32_ITextPara_SetListTab, _win32_ITextPara_SetListTab_cpp, controls.ITextPara_SetListTab, controls._win32_ITextPara_SetListTab, tom/ITextPara::SetListTab
 ms.topic: method
-f1_keywords: 
- - "tom/ITextPara.SetListTab"
+f1_keywords:
+- tom/ITextPara.SetListTab
 dev_langs:
- - c++
+- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msftedit.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msftedit.dll
+- Msftedit.dll
 api_name:
- - ITextPara.SetListTab
+- ITextPara.SetListTab
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:propsys.PSCreatePropertyStoreFromPropertySetStorage
 title: PSCreatePropertyStoreFromPropertySetStorage function (propsys.h)
-
 description: Wraps an IPropertySetStorage interface in an IPropertyStore interface.
 old-location: properties\PSCreatePropertyStoreFromPropertySetStorage.htm
 tech.root: properties
 ms.assetid: efba5a2a-df26-4f7e-9ddf-ec471e3d547c
-
 ms.date: 12/05/2018
 ms.keywords: PSCreatePropertyStoreFromPropertySetStorage, PSCreatePropertyStoreFromPropertySetStorage function [Windows Properties], STGM_READ, STGM_READWRITE, STGM_WRITE, _shell_PSCreatePropertyStoreFromPropertySetStorage, properties.PSCreatePropertyStoreFromPropertySetStorage, propsys/PSCreatePropertyStoreFromPropertySetStorage, shell.PSCreatePropertyStoreFromPropertySetStorage
 ms.topic: function
-f1_keywords: 
- - "propsys/PSCreatePropertyStoreFromPropertySetStorage"
+f1_keywords:
+- propsys/PSCreatePropertyStoreFromPropertySetStorage
 dev_langs:
- - c++
+- c++
 req.header: propsys.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Propsys.lib
 req.dll: Propsys.dll (version 6.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Propsys.dll
+- Propsys.dll
 api_name:
- - PSCreatePropertyStoreFromPropertySetStorage
+- PSCreatePropertyStoreFromPropertySetStorage
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0

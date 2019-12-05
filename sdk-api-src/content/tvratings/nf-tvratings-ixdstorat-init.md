@@ -1,19 +1,17 @@
 ---
 UID: NF:tvratings.IXDSToRat.Init
 title: IXDSToRat::Init (tvratings.h)
-
 description: The Init method sets the XDSToRat object to its initial state.
 old-location: mstv\ixdstorat_init.htm
 tech.root: mstv
 ms.assetid: c7c38755-46d3-4100-ba14-c153c4a6a517
-
 ms.date: 12/05/2018
 ms.keywords: IXDSToRat interface [Microsoft TV Technologies],Init method, IXDSToRat.Init, IXDSToRat::Init, IXDSToRatInit, Init, Init method [Microsoft TV Technologies], Init method [Microsoft TV Technologies],IXDSToRat interface, mstv.ixdstorat_init, tvratings/IXDSToRat::Init
 ms.topic: method
-f1_keywords: 
- - "tvratings/IXDSToRat.Init"
+f1_keywords:
+- tvratings/IXDSToRat.Init
 dev_langs:
- - c++
+- c++
 req.header: tvratings.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Tvratings.h
+- Tvratings.h
 api_name:
- - IXDSToRat.Init
+- IXDSToRat.Init
 targetos: Windows
 req.typenames: 
 req.redist: 

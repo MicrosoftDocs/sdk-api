@@ -1,19 +1,17 @@
 ---
 UID: NF:mprapi.MprAdminServerConnect
 title: MprAdminServerConnect function (mprapi.h)
-
 description: The MprAdminServerConnect function establishes a connection to a router for the purpose of administering that router.
 old-location: rras\mpradminserverconnect.htm
 tech.root: RRAS
 ms.assetid: f93b37bc-d3d1-40f0-aef6-839bb43c88e2
-
 ms.date: 12/05/2018
 ms.keywords: MprAdminServerConnect, MprAdminServerConnect function [RAS], _mpr_mpradminserverconnect, mprapi/MprAdminServerConnect, rras.mpradminserverconnect
 ms.topic: function
-f1_keywords: 
- - "mprapi/MprAdminServerConnect"
+f1_keywords:
+- mprapi/MprAdminServerConnect
 dev_langs:
- - c++
+- c++
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Mprapi.lib
 req.dll: Mprapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Mprapi.dll
+- Mprapi.dll
 api_name:
- - MprAdminServerConnect
+- MprAdminServerConnect
 targetos: Windows
 req.typenames: 
 req.redist: 

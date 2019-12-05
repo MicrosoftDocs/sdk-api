@@ -1,19 +1,17 @@
 ---
 UID: NS:strmif.AM_STREAM_INFO
 title: AM_STREAM_INFO (strmif.h)
-
 description: The AM_STREAM_INFO structure contains stream-control information.
 old-location: dshow\am_stream_info.htm
 tech.root: DirectShow
 ms.assetid: 63b62f03-1973-41af-b6a4-e1bcb6ab803f
-
 ms.date: 12/05/2018
 ms.keywords: AM_STREAM_INFO, AM_STREAM_INFO structure [DirectShow], AM_STREAM_INFOStructure, dshow.am_stream_info, strmif/AM_STREAM_INFO
 ms.topic: struct
-f1_keywords: 
- - "strmif/AM_STREAM_INFO"
+f1_keywords:
+- strmif/AM_STREAM_INFO
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - strmif.h
+- strmif.h
 api_name:
- - AM_STREAM_INFO
+- AM_STREAM_INFO
 targetos: Windows
 req.typenames: AM_STREAM_INFO
 req.redist: 

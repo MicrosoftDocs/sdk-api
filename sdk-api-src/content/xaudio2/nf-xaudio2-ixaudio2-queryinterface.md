@@ -1,19 +1,17 @@
 ---
 UID: NF:xaudio2.IXAudio2.QueryInterface
 title: IXAudio2::QueryInterface (xaudio2.h)
-
 description: Queries for a given COM interface on the XAudio2 object.
 old-location: xaudio2\ixaudio2_interface_queryinterface.htm
 tech.root: xaudio2
 ms.assetid: M:Microsoft.directx_sdk.ixaudio2.IXAudio2.QueryInterface(REFIID,void@)
-
 ms.date: 12/05/2018
 ms.keywords: IXAudio2 interface [XAudio2 Audio Mixing APIs],QueryInterface method, IXAudio2.QueryInterface, IXAudio2::QueryInterface, QueryInterface, QueryInterface method [XAudio2 Audio Mixing APIs], QueryInterface method [XAudio2 Audio Mixing APIs],IXAudio2 interface, xaudio2.ixaudio2_interface_queryinterface, xaudio2/IXAudio2::QueryInterface
 ms.topic: method
-f1_keywords: 
- - "xaudio2/IXAudio2.QueryInterface"
+f1_keywords:
+- xaudio2/IXAudio2.QueryInterface
 dev_langs:
- - c++
+- c++
 req.header: xaudio2.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xaudio2.h
+- xaudio2.h
 api_name:
- - IXAudio2.QueryInterface
+- IXAudio2.QueryInterface
 targetos: Windows
 req.typenames: 
 req.redist: 

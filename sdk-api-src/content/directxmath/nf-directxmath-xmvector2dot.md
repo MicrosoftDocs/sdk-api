@@ -1,19 +1,17 @@
 ---
 UID: NF:directxmath.XMVector2Dot
 title: XMVector2Dot function (directxmath.h)
-
 description: Computes the dot product between 2D vectors.
 old-location: dxmath\xmvector2dot.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.geometric.XMVector2Dot(XMVECTOR,XMVECTOR)
-
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMVector2Dot, XMVector2Dot, XMVector2Dot method [DirectX Math Support APIs], dxmath.xmvector2dot
 ms.topic: function
-f1_keywords: 
- - "directxmath/XMVector2Dot"
+f1_keywords:
+- directxmath/XMVector2Dot
 dev_langs:
- - c++
+- c++
 req.header: directxmath.h
 req.include-header: DirectXMath.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - directxmathvector.inl
+- directxmathvector.inl
 api_name:
- - XMVector2Dot
+- XMVector2Dot
 targetos: Windows
 req.typenames: 
 req.redist: 

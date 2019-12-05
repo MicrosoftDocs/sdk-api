@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d11_1.ID3D11Device1.OpenSharedResourceByName
 title: ID3D11Device1::OpenSharedResourceByName (d3d11_1.h)
-
 description: Gives a device access to a shared resource that is referenced by name and that was created on a different device.
 old-location: direct3d11\id3d11device1_opensharedresourcebyname.htm
 tech.root: direct3d11
 ms.assetid: 5A7575E4-382E-4A2F-AFE8-2E5850526E75
-
 ms.date: 12/05/2018
 ms.keywords: ID3D11Device1 interface [Direct3D 11],OpenSharedResourceByName method, ID3D11Device1.OpenSharedResourceByName, ID3D11Device1::OpenSharedResourceByName, OpenSharedResourceByName, OpenSharedResourceByName method [Direct3D 11], OpenSharedResourceByName method [Direct3D 11],ID3D11Device1 interface, d3d11_1/ID3D11Device1::OpenSharedResourceByName, direct3d11.id3d11device1_opensharedresourcebyname
 ms.topic: method
-f1_keywords: 
- - "d3d11_1/ID3D11Device1.OpenSharedResourceByName"
+f1_keywords:
+- d3d11_1/ID3D11Device1.OpenSharedResourceByName
 dev_langs:
- - c++
+- c++
 req.header: d3d11_1.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: D3D11.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D11.lib
- - D3D11.dll
+- D3D11.lib
+- D3D11.dll
 api_name:
- - ID3D11Device1.OpenSharedResourceByName
+- ID3D11Device1.OpenSharedResourceByName
 targetos: Windows
 req.typenames: 
 req.redist: 

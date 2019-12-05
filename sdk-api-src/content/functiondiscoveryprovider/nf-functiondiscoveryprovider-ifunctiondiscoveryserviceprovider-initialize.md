@@ -1,19 +1,17 @@
 ---
 UID: NF:functiondiscoveryprovider.IFunctionDiscoveryServiceProvider.Initialize
 title: IFunctionDiscoveryServiceProvider::Initialize (functiondiscoveryprovider.h)
-
 description: Initializes an object that provides a specific interface that has been bound to the resource represented by the function instance.
 old-location: ncd\ifunctiondiscoveryserviceprovider_initialize_method.htm
 tech.root: FunDisc
 ms.assetid: 339f6d42-20ea-4fd3-b03c-0cf34330baa0
-
 ms.date: 12/05/2018
 ms.keywords: IFunctionDiscoveryServiceProvider interface,Initialize method, IFunctionDiscoveryServiceProvider.Initialize, IFunctionDiscoveryServiceProvider::Initialize, Initialize, Initialize method, Initialize method,IFunctionDiscoveryServiceProvider interface, functiondiscoveryprovider/IFunctionDiscoveryServiceProvider::Initialize, ncd.ifunctiondiscoveryserviceprovider_initialize_method
 ms.topic: method
-f1_keywords: 
- - "functiondiscoveryprovider/IFunctionDiscoveryServiceProvider.Initialize"
+f1_keywords:
+- functiondiscoveryprovider/IFunctionDiscoveryServiceProvider.Initialize
 dev_langs:
- - c++
+- c++
 req.header: functiondiscoveryprovider.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - FunctionDiscoveryProvider.h
+- FunctionDiscoveryProvider.h
 api_name:
- - IFunctionDiscoveryServiceProvider.Initialize
+- IFunctionDiscoveryServiceProvider.Initialize
 targetos: Windows
 req.typenames: 
 req.redist: 

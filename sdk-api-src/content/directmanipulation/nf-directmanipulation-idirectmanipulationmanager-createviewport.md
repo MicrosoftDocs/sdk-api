@@ -1,19 +1,17 @@
 ---
 UID: NF:directmanipulation.IDirectManipulationManager.CreateViewport
 title: IDirectManipulationManager::CreateViewport (directmanipulation.h)
-
 description: The factory method that is used to create a new IDirectManipulationViewport object.
 old-location: directmanipulation\idirectmanipulationmanager_createviewport.htm
 tech.root: directmanipulation
 ms.assetid: 82a0146d-89c1-4672-93a9-e8f406b03d4e
-
 ms.date: 12/05/2018
 ms.keywords: CreateViewport, CreateViewport method [Direct Manipulation], CreateViewport method [Direct Manipulation],IDirectManipulationManager interface, IDirectManipulationManager interface [Direct Manipulation],CreateViewport method, IDirectManipulationManager.CreateViewport, IDirectManipulationManager::CreateViewport, directmanipulation.idirectmanipulationmanager_createviewport, directmanipulation/IDirectManipulationManager::CreateViewport
 ms.topic: method
-f1_keywords: 
- - "directmanipulation/IDirectManipulationManager.CreateViewport"
+f1_keywords:
+- directmanipulation/IDirectManipulationManager.CreateViewport
 dev_langs:
- - c++
+- c++
 req.header: directmanipulation.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - DirectManipulation.h
+- DirectManipulation.h
 api_name:
- - IDirectManipulationManager.CreateViewport
+- IDirectManipulationManager.CreateViewport
 targetos: Windows
 req.typenames: 
 req.redist: 

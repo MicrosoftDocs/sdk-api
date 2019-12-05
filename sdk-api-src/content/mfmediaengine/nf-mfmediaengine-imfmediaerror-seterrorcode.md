@@ -1,19 +1,17 @@
 ---
 UID: NF:mfmediaengine.IMFMediaError.SetErrorCode
 title: IMFMediaError::SetErrorCode (mfmediaengine.h)
-
 description: Sets the error code.
 old-location: mf\imfmediaerror_seterrorcode.htm
 tech.root: medfound
 ms.assetid: 0CEFC8A5-CCEA-43CF-80AB-C9862B0DAEDA
-
 ms.date: 12/05/2018
 ms.keywords: IMFMediaError interface [Media Foundation],SetErrorCode method, IMFMediaError.SetErrorCode, IMFMediaError::SetErrorCode, SetErrorCode, SetErrorCode method [Media Foundation], SetErrorCode method [Media Foundation],IMFMediaError interface, mf.imfmediaerror_seterrorcode, mfmediaengine/IMFMediaError::SetErrorCode
 ms.topic: method
-f1_keywords: 
- - "mfmediaengine/IMFMediaError.SetErrorCode"
+f1_keywords:
+- mfmediaengine/IMFMediaError.SetErrorCode
 dev_langs:
- - c++
+- c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfmediaengine.h
+- mfmediaengine.h
 api_name:
- - IMFMediaError.SetErrorCode
+- IMFMediaError.SetErrorCode
 targetos: Windows
 req.typenames: 
 req.redist: 

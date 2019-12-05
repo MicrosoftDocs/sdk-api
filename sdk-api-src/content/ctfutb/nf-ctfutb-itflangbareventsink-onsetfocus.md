@@ -1,19 +1,17 @@
 ---
 UID: NF:ctfutb.ITfLangBarEventSink.OnSetFocus
 title: ITfLangBarEventSink::OnSetFocus (ctfutb.h)
-
 description: ITfLangBarEventSink::OnSetFocus method
 old-location: tsf\itflangbareventsink_onsetfocus.htm
 tech.root: TSF
 ms.assetid: 66d70ff3-dcd4-42cd-bda4-7dbdf1c99da5
-
 ms.date: 12/05/2018
 ms.keywords: ITfLangBarEventSink interface [Text Services Framework],OnSetFocus method, ITfLangBarEventSink.OnSetFocus, ITfLangBarEventSink::OnSetFocus, OnSetFocus, OnSetFocus method [Text Services Framework], OnSetFocus method [Text Services Framework],ITfLangBarEventSink interface, _tsf_itflangbareventsink_onsetfocus_ref, ctfutb/ITfLangBarEventSink::OnSetFocus, tsf.itflangbareventsink_onsetfocus
 ms.topic: method
-f1_keywords: 
- - "ctfutb/ITfLangBarEventSink.OnSetFocus"
+f1_keywords:
+- ctfutb/ITfLangBarEventSink.OnSetFocus
 dev_langs:
- - c++
+- c++
 req.header: ctfutb.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msutb.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msutb.dll
+- msutb.dll
 api_name:
- - ITfLangBarEventSink.OnSetFocus
+- ITfLangBarEventSink.OnSetFocus
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

@@ -1,19 +1,17 @@
 ---
 UID: NF:wincodec.IWICBitmapEncoder.SetPalette
 title: IWICBitmapEncoder::SetPalette (wincodec.h)
-
 description: Sets the global palette for the image.
 old-location: wic\_wic_codec_iwicbitmapencoder_setpalette.htm
 tech.root: wic
 ms.assetid: 9310f407-d310-402b-bd90-ebc7e8d99361
-
 ms.date: 12/05/2018
 ms.keywords: IWICBitmapEncoder interface [Windows Imaging Component],SetPalette method, IWICBitmapEncoder.SetPalette, IWICBitmapEncoder::SetPalette, SetPalette, SetPalette method [Windows Imaging Component], SetPalette method [Windows Imaging Component],IWICBitmapEncoder interface, _wic_codec_iwicbitmapencoder_setpalette, wic._wic_codec_iwicbitmapencoder_setpalette, wincodec/IWICBitmapEncoder::SetPalette
 ms.topic: method
-f1_keywords: 
- - "wincodec/IWICBitmapEncoder.SetPalette"
+f1_keywords:
+- wincodec/IWICBitmapEncoder.SetPalette
 dev_langs:
- - c++
+- c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Windowscodecs.lib
 req.dll: Windowscodecs.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Windowscodecs.dll
+- Windowscodecs.dll
 api_name:
- - IWICBitmapEncoder.SetPalette
+- IWICBitmapEncoder.SetPalette
 targetos: Windows
 req.typenames: 
 req.redist: 

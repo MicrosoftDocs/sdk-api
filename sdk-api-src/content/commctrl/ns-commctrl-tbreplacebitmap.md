@@ -1,19 +1,17 @@
 ---
 UID: NS:commctrl.__unnamed_struct_1
 title: TBREPLACEBITMAP (commctrl.h)
-
 description: Used with the TB_REPLACEBITMAP message to replace one toolbar bitmap with another.
 old-location: controls\TBREPLACEBITMAP.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\toolbar\structures\tbreplacebitmap.htm
-
 ms.date: 12/05/2018
-ms.keywords: "*LPTBREPLACEBITMAP, LPTBREPLACEBITMAP, LPTBREPLACEBITMAP structure pointer [Windows Controls], TBREPLACEBITMAP, TBREPLACEBITMAP structure [Windows Controls], _win32_TBREPLACEBITMAP, _win32_TBREPLACEBITMAP_cpp, commctrl/LPTBREPLACEBITMAP, commctrl/TBREPLACEBITMAP, controls.TBREPLACEBITMAP, controls._win32_TBREPLACEBITMAP"
+ms.keywords: '*LPTBREPLACEBITMAP, LPTBREPLACEBITMAP, LPTBREPLACEBITMAP structure pointer [Windows Controls], TBREPLACEBITMAP, TBREPLACEBITMAP structure [Windows Controls], _win32_TBREPLACEBITMAP, _win32_TBREPLACEBITMAP_cpp, commctrl/LPTBREPLACEBITMAP, commctrl/TBREPLACEBITMAP, controls.TBREPLACEBITMAP, controls._win32_TBREPLACEBITMAP'
 ms.topic: struct
-f1_keywords: 
- - "commctrl/TBREPLACEBITMAP"
+f1_keywords:
+- commctrl/TBREPLACEBITMAP
 dev_langs:
- - c++
+- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Commctrl.h
+- Commctrl.h
 api_name:
- - TBREPLACEBITMAP
+- TBREPLACEBITMAP
 targetos: Windows
 req.typenames: TBREPLACEBITMAP, *LPTBREPLACEBITMAP
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NS:wingdi.tagCIEXYZ
 title: CIEXYZ (wingdi.h)
-
 description: The CIEXYZ structure contains the x,y, and z coordinates of a specific color in a specified color space.
 old-location: wcs\ciexyz.htm
 tech.root: WCS
 ms.assetid: 3735c143-8eb3-4b91-a81e-5bc6bda1dfaa
-
 ms.date: 12/05/2018
-ms.keywords: "*LPCIEXYZ, CIEXYZ, CIEXYZ FAR* LPCIEXYZ, CIEXYZ FAR* LPCIEXYZ structure [Windows Color System], CIEXYZ structure [Windows Color System], _color_CIEXYZ_str, wcs.ciexyz, wingdi/CIEXYZ, wingdi/CIEXYZ FAR* LPCIEXYZ"
+ms.keywords: '*LPCIEXYZ, CIEXYZ, CIEXYZ FAR* LPCIEXYZ, CIEXYZ FAR* LPCIEXYZ structure [Windows Color System], CIEXYZ structure [Windows Color System], _color_CIEXYZ_str, wcs.ciexyz, wingdi/CIEXYZ, wingdi/CIEXYZ FAR* LPCIEXYZ'
 ms.topic: struct
-f1_keywords: 
- - "wingdi/CIEXYZ"
+f1_keywords:
+- wingdi/CIEXYZ
 dev_langs:
- - c++
+- c++
 req.header: wingdi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wingdi.h
+- Wingdi.h
 api_name:
- - CIEXYZ
+- CIEXYZ
 targetos: Windows
 req.typenames: CIEXYZ
 req.redist: 

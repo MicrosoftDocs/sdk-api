@@ -1,19 +1,17 @@
 ---
 UID: NF:winbase.FindActCtxSectionStringW
 title: FindActCtxSectionStringW function (winbase.h)
-
 description: The FindActCtxSectionString function retrieves information on a specific string in the current activation context and returns a ACTCTX_SECTION_KEYED_DATA structure.
 old-location: setup\findactctxsectionstring.htm
 tech.root: SbsCs
 ms.assetid: d3f0b057-44ec-47ec-a0aa-69f3540b8900
-
 ms.date: 12/05/2018
 ms.keywords: FIND_ACTCTX_SECTION_KEY_RETURN_HACTCTX, FindActCtxSectionString, FindActCtxSectionString function [Side-by-side Assemblies], FindActCtxSectionStringA, FindActCtxSectionStringW, _win32_findactctxsectionstring, setup.findactctxsectionstring, winbase/FindActCtxSectionString, winbase/FindActCtxSectionStringA, winbase/FindActCtxSectionStringW
 ms.topic: function
-f1_keywords: 
- - "winbase/FindActCtxSectionString"
+f1_keywords:
+- winbase/FindActCtxSectionString
 dev_langs:
- - c++
+- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,20 +30,20 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-sidebyside-l1-1-0.dll
- - KernelBase.dll
- - API-Ms-Win-Core-Sidebyside-Ansi-L1-1-0.dll
- - Kernel32Legacy.dll
+- Kernel32.dll
+- API-MS-Win-Core-sidebyside-l1-1-0.dll
+- KernelBase.dll
+- API-Ms-Win-Core-Sidebyside-Ansi-L1-1-0.dll
+- Kernel32Legacy.dll
 api_name:
- - FindActCtxSectionString
- - FindActCtxSectionStringA
- - FindActCtxSectionStringW
+- FindActCtxSectionString
+- FindActCtxSectionStringA
+- FindActCtxSectionStringW
 targetos: Windows
 req.typenames: 
 req.redist: 

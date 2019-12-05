@@ -1,19 +1,17 @@
 ---
 UID: NF:evr.IMFVideoMixerControl.SetStreamOutputRect
 title: IMFVideoMixerControl::SetStreamOutputRect (evr.h)
-
 description: Sets the position of a video stream within the composition rectangle.
 old-location: mf\imfvideomixercontrol_setstreamoutputrect.htm
 tech.root: medfound
 ms.assetid: 7075b8cf-2106-4b13-abc7-8aedae18bb62
-
 ms.date: 12/05/2018
 ms.keywords: 7075b8cf-2106-4b13-abc7-8aedae18bb62, IMFVideoMixerControl interface [Media Foundation],SetStreamOutputRect method, IMFVideoMixerControl.SetStreamOutputRect, IMFVideoMixerControl::SetStreamOutputRect, SetStreamOutputRect, SetStreamOutputRect method [Media Foundation], SetStreamOutputRect method [Media Foundation],IMFVideoMixerControl interface, evr/IMFVideoMixerControl::SetStreamOutputRect, mf.imfvideomixercontrol_setstreamoutputrect
 ms.topic: method
-f1_keywords: 
- - "evr/IMFVideoMixerControl.SetStreamOutputRect"
+f1_keywords:
+- evr/IMFVideoMixerControl.SetStreamOutputRect
 dev_langs:
- - c++
+- c++
 req.header: evr.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - strmiids.lib
- - strmiids.dll
+- strmiids.lib
+- strmiids.dll
 api_name:
- - IMFVideoMixerControl.SetStreamOutputRect
+- IMFVideoMixerControl.SetStreamOutputRect
 targetos: Windows
 req.typenames: 
 req.redist: 

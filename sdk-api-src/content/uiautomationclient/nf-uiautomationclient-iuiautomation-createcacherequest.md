@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationclient.IUIAutomation.CreateCacheRequest
 title: IUIAutomation::CreateCacheRequest (uiautomationclient.h)
-
 description: Creates a cache request.
 old-location: winauto\uiauto_IUIAutomation_CreateCacheRequest.htm
 tech.root: WinAuto
 ms.assetid: e61aecac-8c08-4f83-b3e6-f4baedcb16c6
-
 ms.date: 12/05/2018
 ms.keywords: CreateCacheRequest, CreateCacheRequest method [Windows Accessibility], CreateCacheRequest method [Windows Accessibility],IUIAutomation interface, IUIAutomation interface [Windows Accessibility],CreateCacheRequest method, IUIAutomation.CreateCacheRequest, IUIAutomation::CreateCacheRequest, uiauto.uiauto_IUIAutomation_CreateCacheRequest, uiauto_IUIAutomation_CreateCacheRequest, uiautomationclient/IUIAutomation::CreateCacheRequest, winauto.uiauto_IUIAutomation_CreateCacheRequest
 ms.topic: method
-f1_keywords: 
- - "uiautomationclient/IUIAutomation.CreateCacheRequest"
+f1_keywords:
+- uiautomationclient/IUIAutomation.CreateCacheRequest
 dev_langs:
- - c++
+- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationClient.h
+- UIAutomationClient.h
 api_name:
- - IUIAutomation.CreateCacheRequest
+- IUIAutomation.CreateCacheRequest
 targetos: Windows
 req.typenames: 
 req.redist: 

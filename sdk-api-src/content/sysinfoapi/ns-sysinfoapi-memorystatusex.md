@@ -1,19 +1,17 @@
 ---
 UID: NS:sysinfoapi._MEMORYSTATUSEX
 title: MEMORYSTATUSEX (sysinfoapi.h)
-
 description: Contains information about the current state of both physical and virtual memory, including extended memory.
 old-location: base\memorystatusex_str.htm
 tech.root: Memory
 ms.assetid: ce3c7993-8b91-4bca-8be8-9d81c26b9bef
-
 ms.date: 12/05/2018
-ms.keywords: "*LPMEMORYSTATUSEX, LPMEMORYSTATUSEX, LPMEMORYSTATUSEX structure pointer, MEMORYSTATUSEX, MEMORYSTATUSEX structure, _MEMORYSTATUSEX, _win32_memorystatusex_str, base.memorystatusex_str, sysinfoapi/LPMEMORYSTATUSEX, sysinfoapi/MEMORYSTATUSEX"
+ms.keywords: '*LPMEMORYSTATUSEX, LPMEMORYSTATUSEX, LPMEMORYSTATUSEX structure pointer, MEMORYSTATUSEX, MEMORYSTATUSEX structure, _MEMORYSTATUSEX, _win32_memorystatusex_str, base.memorystatusex_str, sysinfoapi/LPMEMORYSTATUSEX, sysinfoapi/MEMORYSTATUSEX'
 ms.topic: struct
-f1_keywords: 
- - "sysinfoapi/MEMORYSTATUSEX"
+f1_keywords:
+- sysinfoapi/MEMORYSTATUSEX
 dev_langs:
- - c++
+- c++
 req.header: sysinfoapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - sysinfoapi.h
+- sysinfoapi.h
 api_name:
- - MEMORYSTATUSEX
+- MEMORYSTATUSEX
 targetos: Windows
 req.typenames: MEMORYSTATUSEX, *LPMEMORYSTATUSEX
 req.redist: 

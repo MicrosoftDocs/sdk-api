@@ -1,19 +1,17 @@
 ---
 UID: NF:dwrite.IDWriteFont.CreateFontFace
 title: IDWriteFont::CreateFontFace (dwrite.h)
-
 description: Creates a font face object for the font.
 old-location: directwrite\IDWriteFont_CreateFontFace.htm
 tech.root: DirectWrite
 ms.assetid: dd70a9f7-43f3-43e9-94d9-fe70b1b53f59
-
 ms.date: 12/05/2018
 ms.keywords: CreateFontFace, CreateFontFace method [Direct Write], CreateFontFace method [Direct Write],IDWriteFont interface, IDWriteFont interface [Direct Write],CreateFontFace method, IDWriteFont.CreateFontFace, IDWriteFont::CreateFontFace, directwrite.IDWriteFont_CreateFontFace, dwrite/IDWriteFont::CreateFontFace
 ms.topic: method
-f1_keywords: 
- - "dwrite/IDWriteFont.CreateFontFace"
+f1_keywords:
+- dwrite/IDWriteFont.CreateFontFace
 dev_langs:
- - c++
+- c++
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dwrite.lib
 req.dll: Dwrite.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dwrite.dll
+- dwrite.dll
 api_name:
- - IDWriteFont.CreateFontFace
+- IDWriteFont.CreateFontFace
 targetos: Windows
 req.typenames: 
 req.redist: 

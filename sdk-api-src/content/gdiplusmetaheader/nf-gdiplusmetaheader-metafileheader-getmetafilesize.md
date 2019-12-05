@@ -1,19 +1,17 @@
 ---
 UID: NF:gdiplusmetaheader.MetafileHeader.GetMetafileSize
 title: MetafileHeader::GetMetafileSize (gdiplusmetaheader.h)
-
 description: The MetafileHeader::GetMetafileSize method gets the size, in bytes, of the metafile.
 old-location: gdiplus\_gdiplus_CLASS_MetafileHeader_GetMetafileSize_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\metafileheaderclass\metafileheadermethods\getmetafilesize.htm
-
 ms.date: 12/05/2018
 ms.keywords: GetMetafileSize, GetMetafileSize method [GDI+], GetMetafileSize method [GDI+],MetafileHeader class, MetafileHeader class [GDI+],GetMetafileSize method, MetafileHeader.GetMetafileSize, MetafileHeader::GetMetafileSize, _gdiplus_CLASS_MetafileHeader_GetMetafileSize_, gdiplus._gdiplus_CLASS_MetafileHeader_GetMetafileSize_
 ms.topic: method
-f1_keywords: 
- - "gdiplusmetaheader/MetafileHeader.GetMetafileSize"
+f1_keywords:
+- gdiplusmetaheader/MetafileHeader.GetMetafileSize
 dev_langs:
- - c++
+- c++
 req.header: gdiplusmetaheader.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - MetafileHeader.GetMetafileSize
+- MetafileHeader.GetMetafileSize
 targetos: Windows
 req.typenames: 
 req.redist: 

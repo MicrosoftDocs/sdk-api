@@ -1,19 +1,17 @@
 ---
 UID: NF:comsvcs.ISecurityCallContext.IsSecurityEnabled
 title: ISecurityCallContext::IsSecurityEnabled (comsvcs.h)
-
 description: Determines whether security is enabled for the object.
 old-location: cos\isecuritycallcontext_issecurityenabled.htm
 tech.root: cossdk
 ms.assetid: b247d430-56b1-40be-a85a-5ed141d90c85
-
 ms.date: 12/05/2018
 ms.keywords: ISecurityCallContext interface [COM+],IsSecurityEnabled method, ISecurityCallContext.IsSecurityEnabled, ISecurityCallContext::IsSecurityEnabled, IsSecurityEnabled, IsSecurityEnabled method [COM+], IsSecurityEnabled method [COM+],ISecurityCallContext interface, _cos_ISecurityCallContext_IsSecurityEnabled, comsvcs/ISecurityCallContext::IsSecurityEnabled, cos.isecuritycallcontext_issecurityenabled
 ms.topic: method
-f1_keywords: 
- - "comsvcs/ISecurityCallContext.IsSecurityEnabled"
+f1_keywords:
+- comsvcs/ISecurityCallContext.IsSecurityEnabled
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - ISecurityCallContext.IsSecurityEnabled
+- ISecurityCallContext.IsSecurityEnabled
 targetos: Windows
 req.typenames: 
 req.redist: 

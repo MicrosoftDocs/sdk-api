@@ -1,19 +1,17 @@
 ---
 UID: NL:gdipluseffects.Levels
 title: Levels (gdipluseffects.h)
-
 description: The Levels class encompasses three bitmap adjustments:\_highlight, midtone, and shadow.
 old-location: gdiplus\_gdiplus_CLASS_Levels_Class.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\levels.htm
-
 ms.date: 12/05/2018
 ms.keywords: Levels, Levels class [GDI+], Levels class [GDI+],described, _gdiplus_CLASS_Levels_Class, gdiplus._gdiplus_CLASS_Levels_Class, gdipluseffects/Levels
 ms.topic: class
-f1_keywords: 
- - "gdipluseffects/Levels"
+f1_keywords:
+- gdipluseffects/Levels
 dev_langs:
- - c++
+- c++
 req.header: gdipluseffects.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - gdipluseffects.h
+- gdipluseffects.h
 api_name:
- - Levels
+- Levels
 targetos: Windows
 req.typenames: 
 req.redist: 

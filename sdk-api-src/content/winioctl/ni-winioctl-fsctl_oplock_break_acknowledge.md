@@ -1,19 +1,17 @@
 ---
 UID: NI:winioctl.FSCTL_OPLOCK_BREAK_ACKNOWLEDGE
 title: FSCTL_OPLOCK_BREAK_ACKNOWLEDGE
-
 description: Responds to notification that an exclusive opportunistic lock on a file is about to be broken. Use this operation to indicate that the file should receive a level 2 opportunistic lock.
 old-location: fs\fsctl_oplock_break_acknowledge.htm
 tech.root: FileIO
 ms.assetid: 9f8fff44-99b4-4a8d-97f1-854b28fe2eb1
-
 ms.date: 12/05/2018
 ms.keywords: FSCTL_OPLOCK_BREAK_ACKNOWLEDGE, FSCTL_OPLOCK_BREAK_ACKNOWLEDGE control, FSCTL_OPLOCK_BREAK_ACKNOWLEDGE control code [Files], _win32_fsctl_oplock_break_acknowledge, base.fsctl_oplock_break_acknowledge, fs.fsctl_oplock_break_acknowledge, winioctl/FSCTL_OPLOCK_BREAK_ACKNOWLEDGE
 ms.topic: ioctl
 f1_keywords:
 - winioctl/FSCTL_OPLOCK_BREAK_ACKNOWLEDGE
 dev_langs:
- - c++
+- c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

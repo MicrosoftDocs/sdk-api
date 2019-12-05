@@ -1,19 +1,17 @@
 ---
 UID: NF:propsys.PSCreatePropertyStoreFromObject
 title: PSCreatePropertyStoreFromObject function (propsys.h)
-
 description: Accepts the IUnknown interface of an object that supports IPropertyStore or IPropertySetStorage. If the object supports IPropertySetStorage, it is wrapped so that it supports IPropertyStore.
 old-location: properties\PSCreatePropertyStoreFromObject.htm
 tech.root: properties
 ms.assetid: 010572d5-0357-4101-803e-0a27fc60ca5e
-
 ms.date: 12/05/2018
 ms.keywords: PSCreatePropertyStoreFromObject, PSCreatePropertyStoreFromObject function [Windows Properties], STGM_READ, STGM_READWRITE, _shell_PSCreatePropertyStoreFromObject, properties.PSCreatePropertyStoreFromObject, propsys/PSCreatePropertyStoreFromObject, shell.PSCreatePropertyStoreFromObject
 ms.topic: function
-f1_keywords: 
- - "propsys/PSCreatePropertyStoreFromObject"
+f1_keywords:
+- propsys/PSCreatePropertyStoreFromObject
 dev_langs:
- - c++
+- c++
 req.header: propsys.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Propsys.lib
 req.dll: Propsys.dll (version 6.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Propsys.dll
+- Propsys.dll
 api_name:
- - PSCreatePropertyStoreFromObject
+- PSCreatePropertyStoreFromObject
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0

@@ -1,19 +1,17 @@
 ---
 UID: NF:syncmgr.ISyncMgrSyncItemContainer.GetSyncItem
 title: ISyncMgrSyncItemContainer::GetSyncItem (syncmgr.h)
-
 description: Gets a specified sync item.
 old-location: shell\ISyncMgrSyncItemContainer_GetSyncItem.htm
 tech.root: shell
 ms.assetid: 27cdfcfe-d419-4232-b1cc-b9e7b8b2d315
-
 ms.date: 12/05/2018
 ms.keywords: GetSyncItem, GetSyncItem method [Windows Shell], GetSyncItem method [Windows Shell],ISyncMgrSyncItemContainer interface, ISyncMgrSyncItemContainer interface [Windows Shell],GetSyncItem method, ISyncMgrSyncItemContainer.GetSyncItem, ISyncMgrSyncItemContainer::GetSyncItem, _shell_ISyncMgrSyncItemContainer_GetSyncItem, shell.ISyncMgrSyncItemContainer_GetSyncItem, syncmgr/ISyncMgrSyncItemContainer::GetSyncItem
 ms.topic: method
-f1_keywords: 
- - "syncmgr/ISyncMgrSyncItemContainer.GetSyncItem"
+f1_keywords:
+- syncmgr/ISyncMgrSyncItemContainer.GetSyncItem
 dev_langs:
- - c++
+- c++
 req.header: syncmgr.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Syncmgr.h
+- Syncmgr.h
 api_name:
- - ISyncMgrSyncItemContainer.GetSyncItem
+- ISyncMgrSyncItemContainer.GetSyncItem
 targetos: Windows
 req.typenames: 
 req.redist: 

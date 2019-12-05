@@ -1,19 +1,17 @@
 ---
 UID: NE:certenroll.PolicyServerUrlFlags
 title: PolicyServerUrlFlags (certenroll.h)
-
 description: Contains certificate enrollment policy (CEP) server flags.
 old-location: security\policyserverurlflags.htm
 tech.root: seccertenroll
 ms.assetid: e73bccb8-ca4d-4007-bdf3-1194ede5fdd1
-
 ms.date: 12/05/2018
 ms.keywords: PolicyServerUrlFlags, PolicyServerUrlFlags enumeration [Security], PsfAllowUnTrustedCA, PsfAutoEnrollmentEnabled, PsfLocationGroupPolicy, PsfLocationRegistry, PsfNone, PsfUseClientId, certenroll/PolicyServerUrlFlags, certenroll/PsfAllowUnTrustedCA, certenroll/PsfAutoEnrollmentEnabled, certenroll/PsfLocationGroupPolicy, certenroll/PsfLocationRegistry, certenroll/PsfNone, certenroll/PsfUseClientId, security.policyserverurlflags
 ms.topic: enum
-f1_keywords: 
- - "certenroll/PolicyServerUrlFlags"
+f1_keywords:
+- certenroll/PolicyServerUrlFlags
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Certenroll.h
+- Certenroll.h
 api_name:
- - PolicyServerUrlFlags
+- PolicyServerUrlFlags
 targetos: Windows
 req.typenames: PolicyServerUrlFlags
 req.redist: 

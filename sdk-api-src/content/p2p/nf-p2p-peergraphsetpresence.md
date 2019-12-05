@@ -1,19 +1,17 @@
 ---
 UID: NF:p2p.PeerGraphSetPresence
 title: PeerGraphSetPresence function (p2p.h)
-
 description: The PeerGraphSetPresence function explicitly turns on or off the publication of presence records for a specific node.
 old-location: p2p\peergraphsetpresence.htm
 tech.root: P2PSdk
 ms.assetid: f9d34fb0-4834-4fcf-ab44-e16c8114a3f4
-
 ms.date: 12/05/2018
 ms.keywords: PeerGraphSetPresence, PeerGraphSetPresence function [Peer Networking], p2p.peergraphsetpresence, p2p/PeerGraphSetPresence
 ms.topic: function
-f1_keywords: 
- - "p2p/PeerGraphSetPresence"
+f1_keywords:
+- p2p/PeerGraphSetPresence
 dev_langs:
- - c++
+- c++
 req.header: p2p.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: P2PGraph.lib
 req.dll: P2PGraph.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - P2PGraph.dll
+- P2PGraph.dll
 api_name:
- - PeerGraphSetPresence
+- PeerGraphSetPresence
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:reconcil.INotifyReplica.YouAreAReplica
 title: INotifyReplica::YouAreAReplica (reconcil.h)
-
 description: Notifies an object that it may be subject to subsequent reconciliation through the Reconcile method.
 old-location: shell\INotifyReplica_YouAreAReplica.htm
 tech.root: shell
 ms.assetid: e6cbdb94-1804-4d6d-890e-d3fd596fec89
-
 ms.date: 12/05/2018
 ms.keywords: INotifyReplica interface [Windows Shell],YouAreAReplica method, INotifyReplica.YouAreAReplica, INotifyReplica::YouAreAReplica, YouAreAReplica, YouAreAReplica method [Windows Shell], YouAreAReplica method [Windows Shell],INotifyReplica interface, _win32_INotifyReplica_YouAreAReplica, reconcil/INotifyReplica::YouAreAReplica, shell.INotifyReplica_YouAreAReplica
 ms.topic: method
-f1_keywords: 
- - "reconcil/INotifyReplica.YouAreAReplica"
+f1_keywords:
+- reconcil/INotifyReplica.YouAreAReplica
 dev_langs:
- - c++
+- c++
 req.header: reconcil.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Shell32.dll (version 4.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - INotifyReplica.YouAreAReplica
+- INotifyReplica.YouAreAReplica
 targetos: Windows
 req.typenames: 
 req.redist: 

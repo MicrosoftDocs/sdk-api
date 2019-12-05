@@ -1,19 +1,17 @@
 ---
 UID: NF:mfobjects.IMFMediaEvent.GetExtendedType
 title: IMFMediaEvent::GetExtendedType (mfobjects.h)
-
 description: Retrieves the extended type of the event.
 old-location: mf\imfmediaevent_getextendedtype.htm
 tech.root: medfound
 ms.assetid: 56284491-6f84-467e-9fac-46b04db4024a
-
 ms.date: 12/05/2018
 ms.keywords: 56284491-6f84-467e-9fac-46b04db4024a, GetExtendedType, GetExtendedType method [Media Foundation], GetExtendedType method [Media Foundation],IMFMediaEvent interface, IMFMediaEvent interface [Media Foundation],GetExtendedType method, IMFMediaEvent.GetExtendedType, IMFMediaEvent::GetExtendedType, mf.imfmediaevent_getextendedtype, mfobjects/IMFMediaEvent::GetExtendedType
 ms.topic: method
-f1_keywords: 
- - "mfobjects/IMFMediaEvent.GetExtendedType"
+f1_keywords:
+- mfobjects/IMFMediaEvent.GetExtendedType
 dev_langs:
- - c++
+- c++
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFMediaEvent.GetExtendedType
+- IMFMediaEvent.GetExtendedType
 targetos: Windows
 req.typenames: 
 req.redist: 

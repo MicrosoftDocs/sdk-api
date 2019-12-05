@@ -1,19 +1,17 @@
 ---
 UID: NF:chstring.CHString.UnlockBuffer
 title: CHString::UnlockBuffer (chstring.h)
-
 description: The UnlockBuffer method unlocks the buffer that was previously secured by calling LockBuffer and resets the reference count to 1.
 old-location: wmi\chstring_unlockbuffer.htm
 tech.root: WmiSdk
 ms.assetid: cde732ea-b2de-4eb7-bef6-bed01137d76a
-
 ms.date: 12/05/2018
 ms.keywords: CHString interface [Windows Management Instrumentation],UnlockBuffer method, CHString.UnlockBuffer, CHString::UnlockBuffer, UnlockBuffer, UnlockBuffer method [Windows Management Instrumentation], UnlockBuffer method [Windows Management Instrumentation],CHString interface, _hmm_chstring_unlockbuffer, chstring/CHString::UnlockBuffer, wmi.chstring_unlockbuffer
 ms.topic: method
-f1_keywords: 
- - "chstring/CHString.UnlockBuffer"
+f1_keywords:
+- chstring/CHString.UnlockBuffer
 dev_langs:
- - c++
+- c++
 req.header: chstring.h
 req.include-header: FwCommon.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: FrameDyn.lib
 req.dll: FrameDynOS.dll; FrameDyn.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - FrameDynOS.dll
- - FrameDyn.dll
+- FrameDynOS.dll
+- FrameDyn.dll
 api_name:
- - CHString.UnlockBuffer
+- CHString.UnlockBuffer
 targetos: Windows
 req.typenames: 
 req.redist: 

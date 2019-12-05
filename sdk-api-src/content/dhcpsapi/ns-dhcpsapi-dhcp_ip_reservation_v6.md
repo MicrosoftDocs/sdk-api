@@ -1,19 +1,17 @@
 ---
 UID: NS:dhcpsapi._DHCP_IP_RESERVATION_V6
 title: DHCP_IP_RESERVATION_V6 (dhcpsapi.h)
-
 description: Defines an IPv6 reservation for a DHCPv6 client in a specific IPv6 prefix.
 old-location: dhcp\dhcp_ip_reservation_v6.htm
 tech.root: DHCP
 ms.assetid: f1595632-018b-4626-b3c6-49f0e5b3752c
-
 ms.date: 12/05/2018
 ms.keywords: '*LPDHCP_IP_RESERVATION_V6, DHCP_IP_RESERVATION_V6, DHCP_IP_RESERVATION_V6 structure [DHCP], PDHCP_IP_RESERVATION_V6, PDHCP_IP_RESERVATION_V6 structure pointer [DHCP], dhcp.dhcp_ip_reservation_v6, dhcpsapi/DHCP_IP_RESERVATION_V6, dhcpsapi/PDHCP_IP_RESERVATION_V6'
 ms.topic: struct
 f1_keywords:
 - dhcpsapi/DHCP_IP_RESERVATION_V6
 dev_langs:
- - c++
+- c++
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows

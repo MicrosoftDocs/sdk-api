@@ -1,19 +1,17 @@
 ---
 UID: NF:dcomp.IDCompositionRotateTransform3D.SetAxisY(float)
 title: IDCompositionRotateTransform3D::SetAxisY (dcomp.h)
-
 description: Changes the value of the AxisY property of a 3D rotation transform. The AxisY property specifies the y-coordinate for the axis vector of rotation. The default value is zero.
 old-location: directcomp\idcompositionrotatetransform3d_setaxisy_float.htm
 tech.root: directcomp
 ms.assetid: EEDED20E-B1AC-4464-ABB5-C413E10B3E7E
-
 ms.date: 12/05/2018
 ms.keywords: IDCompositionRotateTransform3D interface [DirectComposition],SetAxisY method, IDCompositionRotateTransform3D.SetAxisY, IDCompositionRotateTransform3D::SetAxisY, IDCompositionRotateTransform3D::SetAxisY(float), SetAxisY, SetAxisY method [DirectComposition], SetAxisY method [DirectComposition],IDCompositionRotateTransform3D interface, dcomp/IDCompositionRotateTransform3D::SetAxisY, directcomp.idcompositionrotatetransform3d_setaxisy_float
 ms.topic: method
-f1_keywords: 
- - "dcomp/IDCompositionRotateTransform3D.SetAxisY"
+f1_keywords:
+- dcomp/IDCompositionRotateTransform3D.SetAxisY
 dev_langs:
- - c++
+- c++
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dcomp.lib
 req.dll: Dcomp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dcomp.dll
+- Dcomp.dll
 api_name:
- - IDCompositionRotateTransform3D.SetAxisY
+- IDCompositionRotateTransform3D.SetAxisY
 targetos: Windows
 req.typenames: 
 req.redist: 

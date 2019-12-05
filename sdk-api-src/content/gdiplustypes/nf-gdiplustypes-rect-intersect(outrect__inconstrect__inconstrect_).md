@@ -1,19 +1,17 @@
 ---
 UID: NF:gdiplustypes.Rect.Intersect(OUT Rect &,IN const Rect &,IN const Rect &)
 title: Rect::Intersect(OUT Rect &,IN const Rect &,IN const Rect &) (gdiplustypes.h)
-
 description: The Rect::Intersect method determines the intersection of two rectangles and stores the result in a Rect object.
 old-location: gdiplus\_gdiplus_CLASS_Rect_Intersect_c_a_b_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\rectclass\rectmethods\rectintersectmethods\intersect.htm
-
 ms.date: 12/05/2018
 ms.keywords: Intersect, Intersect method [GDI+], Intersect method [GDI+],Rect class, Rect class [GDI+],Intersect method, Rect.Intersect, Rect.Intersect(OUT Rect &,IN const Rect &,IN const Rect &), Rect.Intersect(Rect&,const Rect&,const Rect&), Rect::Intersect, Rect::Intersect(OUT Rect &,IN const Rect &,IN const Rect &), _gdiplus_CLASS_Rect_Intersect_c_a_b_, gdiplus._gdiplus_CLASS_Rect_Intersect_c_a_b_
 ms.topic: method
-f1_keywords: 
- - "gdiplustypes/Rect.Intersect"
+f1_keywords:
+- gdiplustypes/Rect.Intersect
 dev_langs:
- - c++
+- c++
 req.header: gdiplustypes.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - Rect.Intersect
+- Rect.Intersect
 targetos: Windows
 req.typenames: 
 req.redist: 

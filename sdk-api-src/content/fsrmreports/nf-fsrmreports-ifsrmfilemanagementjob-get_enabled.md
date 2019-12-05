@@ -1,19 +1,17 @@
 ---
 UID: NF:fsrmreports.IFsrmFileManagementJob.get_Enabled
 title: IFsrmFileManagementJob::get_Enabled (fsrmreports.h)
-
 description: Indicates whether the job enabled (can run).
 old-location: fsrm\ifsrmfilemanagementjob_enabled.htm
 tech.root: fsrm
 ms.assetid: c52dab05-34fb-4d9d-ac12-cbcee7e1fb9b
-
 ms.date: 12/05/2018
 ms.keywords: Enabled property [File Server Resource Manager], Enabled property [File Server Resource Manager],IFsrmFileManagementJob interface, IFsrmFileManagementJob interface [File Server Resource Manager],Enabled property, IFsrmFileManagementJob.Enabled, IFsrmFileManagementJob.get_Enabled, IFsrmFileManagementJob::Enabled, IFsrmFileManagementJob::get_Enabled, IFsrmFileManagementJob::put_Enabled, fs.ifsrmfilemanagementjob_enabled, fsrm.ifsrmfilemanagementjob_enabled, fsrmreports/IFsrmFileManagementJob::Enabled, fsrmreports/IFsrmFileManagementJob::get_Enabled, fsrmreports/IFsrmFileManagementJob::put_Enabled, get_Enabled
 ms.topic: method
-f1_keywords: 
- - "fsrmreports/IFsrmFileManagementJob.Enabled"
+f1_keywords:
+- fsrmreports/IFsrmFileManagementJob.Enabled
 dev_langs:
- - c++
+- c++
 req.header: fsrmreports.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: SrmSvc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - SrmSvc.dll
+- SrmSvc.dll
 api_name:
- - IFsrmFileManagementJob.Enabled
- - IFsrmFileManagementJob.get_Enabled
- - IFsrmFileManagementJob.put_Enabled
+- IFsrmFileManagementJob.Enabled
+- IFsrmFileManagementJob.get_Enabled
+- IFsrmFileManagementJob.put_Enabled
 targetos: Windows
 req.typenames: 
 req.redist: 

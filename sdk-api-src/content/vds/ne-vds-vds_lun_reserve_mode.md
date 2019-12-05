@@ -1,19 +1,17 @@
 ---
 UID: NE:vds._VDS_LUN_RESERVE_MODE
 title: VDS_LUN_RESERVE_MODE (vds.h)
-
 description: Not supported.This enumeration is reserved for future use.
 old-location: base\vds_lun_reserve_mode.htm
 tech.root: VDS
 ms.assetid: 198706a4-3692-4f75-bf68-c56671b752a5
-
 ms.date: 12/05/2018
 ms.keywords: VDS_LRM_EXCLUSIVE_RO, VDS_LRM_EXCLUSIVE_RW, VDS_LRM_NONE, VDS_LRM_SHARED_RO, VDS_LRM_SHARED_RW, VDS_LUN_RESERVE_MODE, VDS_LUN_RESERVE_MODE enumeration [VDS], base.vds_lun_reserve_mode, vds/VDS_LRM_EXCLUSIVE_RO, vds/VDS_LRM_EXCLUSIVE_RW, vds/VDS_LRM_NONE, vds/VDS_LRM_SHARED_RO, vds/VDS_LRM_SHARED_RW, vds/VDS_LUN_RESERVE_MODE
 ms.topic: enum
-f1_keywords: 
- - "vds/VDS_LUN_RESERVE_MODE"
+f1_keywords:
+- vds/VDS_LUN_RESERVE_MODE
 dev_langs:
- - c++
+- c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Vds.h
+- Vds.h
 api_name:
- - VDS_LUN_RESERVE_MODE
+- VDS_LUN_RESERVE_MODE
 targetos: Windows
 req.typenames: VDS_LUN_RESERVE_MODE
 req.redist: 

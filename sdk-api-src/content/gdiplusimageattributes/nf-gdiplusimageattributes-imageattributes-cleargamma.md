@@ -1,19 +1,17 @@
 ---
 UID: NF:gdiplusimageattributes.ImageAttributes.ClearGamma
 title: ImageAttributes::ClearGamma (gdiplusimageattributes.h)
-
 description: The ImageAttributes::ClearGamma method disables gamma correction for a specified category.
 old-location: gdiplus\_gdiplus_CLASS_ImageAttributes_ClearGamma_type_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\imageattributesclass\imageattributesmethods\cleargamma.htm
-
 ms.date: 12/05/2018
 ms.keywords: ClearGamma, ClearGamma method [GDI+], ClearGamma method [GDI+],ImageAttributes class, ImageAttributes class [GDI+],ClearGamma method, ImageAttributes.ClearGamma, ImageAttributes::ClearGamma, _gdiplus_CLASS_ImageAttributes_ClearGamma_type_, gdiplus._gdiplus_CLASS_ImageAttributes_ClearGamma_type_
 ms.topic: method
-f1_keywords: 
- - "gdiplusimageattributes/ImageAttributes.ClearGamma"
+f1_keywords:
+- gdiplusimageattributes/ImageAttributes.ClearGamma
 dev_langs:
- - c++
+- c++
 req.header: gdiplusimageattributes.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - ImageAttributes.ClearGamma
+- ImageAttributes.ClearGamma
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:vfw.IAVIStream.ReadFormat
 title: IAVIStream::ReadFormat (vfw.h)
-
 description: The ReadFormat method obtains format information from a stream.
 old-location: multimedia\iavistream_readformat.htm
 tech.root: Multimedia
 ms.assetid: ec684a91-9a16-4e9d-9d52-8b721df24889
-
 ms.date: 12/05/2018
 ms.keywords: IAVIStream interface [Windows Multimedia],ReadFormat method, IAVIStream.ReadFormat, IAVIStream::ReadFormat, ReadFormat, ReadFormat method [Windows Multimedia], ReadFormat method [Windows Multimedia],IAVIStream interface, _win32_IAVIStream_ReadFormat, multimedia.iavistream_readformat, vfw/IAVIStream::ReadFormat
 ms.topic: method
-f1_keywords: 
- - "vfw/IAVIStream.ReadFormat"
+f1_keywords:
+- vfw/IAVIStream.ReadFormat
 dev_langs:
- - c++
+- c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Vfw32.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Vfw32.lib
- - Vfw32.dll
+- Vfw32.lib
+- Vfw32.dll
 api_name:
- - IAVIStream.ReadFormat
+- IAVIStream.ReadFormat
 targetos: Windows
 req.typenames: 
 req.redist: 

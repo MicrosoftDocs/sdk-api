@@ -1,19 +1,17 @@
 ---
 UID: NF:dxgi1_4.IDXGIFactory4.EnumAdapterByLuid
 title: IDXGIFactory4::EnumAdapterByLuid (dxgi1_4.h)
-
 description: Outputs the IDXGIAdapter for the specified LUID.
 old-location: direct3ddxgi\idxgifactory4_enumadapterbyluid.htm
 tech.root: direct3ddxgi
 ms.assetid: AC800F32-2922-45BA-A6D3-D3E45113B9A7
-
 ms.date: 12/05/2018
 ms.keywords: EnumAdapterByLuid, EnumAdapterByLuid method [DXGI], EnumAdapterByLuid method [DXGI],IDXGIFactory4 interface, IDXGIFactory4 interface [DXGI],EnumAdapterByLuid method, IDXGIFactory4.EnumAdapterByLuid, IDXGIFactory4::EnumAdapterByLuid, direct3ddxgi.idxgifactory4_enumadapterbyluid, dxgi1_4/IDXGIFactory4::EnumAdapterByLuid
 ms.topic: method
-f1_keywords: 
- - "dxgi1_4/IDXGIFactory4.EnumAdapterByLuid"
+f1_keywords:
+- dxgi1_4/IDXGIFactory4.EnumAdapterByLuid
 dev_langs:
- - c++
+- c++
 req.header: dxgi1_4.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Dxgi.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dxgi.lib
- - Dxgi.dll
+- Dxgi.lib
+- Dxgi.dll
 api_name:
- - IDXGIFactory4.EnumAdapterByLuid
+- IDXGIFactory4.EnumAdapterByLuid
 targetos: Windows
 req.typenames: 
 req.redist: 

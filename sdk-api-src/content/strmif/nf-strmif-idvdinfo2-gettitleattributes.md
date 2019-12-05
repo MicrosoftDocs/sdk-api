@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IDvdInfo2.GetTitleAttributes
 title: IDvdInfo2::GetTitleAttributes (strmif.h)
-
 description: The GetTitleAttributes method retrieves attributes of all video, audio, and subpicture streams for the specified title and its menus.
 old-location: dshow\idvdinfo2_gettitleattributes.htm
 tech.root: DirectShow
 ms.assetid: 4e901e14-9e98-4ca5-ae37-7a4564b187ab
-
 ms.date: 12/05/2018
 ms.keywords: GetTitleAttributes, GetTitleAttributes method [DirectShow], GetTitleAttributes method [DirectShow],IDvdInfo2 interface, IDvdInfo2 interface [DirectShow],GetTitleAttributes method, IDvdInfo2.GetTitleAttributes, IDvdInfo2::GetTitleAttributes, IDvdInfo2GetTitleAttributes, dshow.idvdinfo2_gettitleattributes, strmif/IDvdInfo2::GetTitleAttributes
 ms.topic: method
-f1_keywords: 
- - "strmif/IDvdInfo2.GetTitleAttributes"
+f1_keywords:
+- strmif/IDvdInfo2.GetTitleAttributes
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IDvdInfo2.GetTitleAttributes
+- IDvdInfo2.GetTitleAttributes
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi3.ITAllocatorProperties.GetBufferSize
 title: ITAllocatorProperties::GetBufferSize (tapi3.h)
-
 description: The GetBufferSize method gets the size of the allocator buffer.
 old-location: tapi3\itallocatorproperties_getbuffersize.htm
 tech.root: Tapi
 ms.assetid: c1571bbb-345b-4b62-acb2-67afda1c9c9b
-
 ms.date: 12/05/2018
 ms.keywords: GetBufferSize, GetBufferSize method [TAPI 2.2], GetBufferSize method [TAPI 2.2],ITAllocatorProperties interface, ITAllocatorProperties interface [TAPI 2.2],GetBufferSize method, ITAllocatorProperties.GetBufferSize, ITAllocatorProperties::GetBufferSize, _tapi3_itallocatorproperties_getbuffersize, tapi3.itallocatorproperties_getbuffersize, tapi3ds/ITAllocatorProperties::GetBufferSize
 ms.topic: method
-f1_keywords: 
- - "tapi3/ITAllocatorProperties.GetBufferSize"
+f1_keywords:
+- tapi3/ITAllocatorProperties.GetBufferSize
 dev_langs:
- - c++
+- c++
 req.header: tapi3.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Tapi3.dll
+- Tapi3.dll
 api_name:
- - ITAllocatorProperties.GetBufferSize
+- ITAllocatorProperties.GetBufferSize
 targetos: Windows
 req.typenames: 
 req.redist: 

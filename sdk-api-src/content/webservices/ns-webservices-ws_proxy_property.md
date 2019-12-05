@@ -1,19 +1,17 @@
 ---
 UID: NS:webservices._WS_PROXY_PROPERTY
 title: WS_PROXY_PROPERTY (webservices.h)
-
 description: Specifies a proxy property.
 old-location: wsw\ws_proxy_property.htm
 tech.root: wsw
 ms.assetid: eb8ce473-bf9e-4eae-8c40-8e2972a26d41
-
 ms.date: 12/05/2018
 ms.keywords: WS_PROXY_PROPERTY, WS_PROXY_PROPERTY structure [Web Services for Windows], webservices/WS_PROXY_PROPERTY, wsw.ws_proxy_property
 ms.topic: struct
-f1_keywords: 
- - "webservices/WS_PROXY_PROPERTY"
+f1_keywords:
+- webservices/WS_PROXY_PROPERTY
 dev_langs:
- - c++
+- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WebServices.h
+- WebServices.h
 api_name:
- - WS_PROXY_PROPERTY
+- WS_PROXY_PROPERTY
 targetos: Windows
 req.typenames: WS_PROXY_PROPERTY
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NI:ntddkbd.IOCTL_KEYBOARD_SET_INDICATORS
 title: IOCTL_KEYBOARD_SET_INDICATORS (ntddkbd.h)
-
 description: The IOCTL_KEYBOARD_SET_INDICATORS request sets the keyboard indicators.
 old-location: hid\ioctl_keyboard_set_indicators2.htm
 tech.root: hid
 ms.assetid: 34b25d9d-daa5-48c6-8941-f3795ef1802b
-
 ms.date: 12/05/2018
 ms.keywords: IOCTL_KEYBOARD_SET_INDICATORS, IOCTL_KEYBOARD_SET_INDICATORS control, IOCTL_KEYBOARD_SET_INDICATORS control code [Human Input Devices], hid.ioctl_keyboard_set_indicators2, i8042ref_45e33d11-eb35-4f90-b7c8-52f75afb60ef.xml, ntddkbd/IOCTL_KEYBOARD_SET_INDICATORS
 ms.topic: ioctl
 f1_keywords:
 - ntddkbd/IOCTL_KEYBOARD_SET_INDICATORS
 dev_langs:
- - c++
+- c++
 req.header: ntddkbd.h
 req.include-header: Ntddkbd.h
 req.target-type: Windows

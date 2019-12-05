@@ -1,19 +1,17 @@
 ---
 UID: NE:uiribbon.UI_INVALIDATIONS
 title: UI_INVALIDATIONS (uiribbon.h)
-
 description: Specifies values that identify the aspect of a Command to invalidate.
 old-location: windowsribbon\windowsribbon_ui_invalidations.htm
 tech.root: windowsribbon
 ms.assetid: VS|scenicintent|~\scenicintent\reference\enums\ui_invalidations.htm
-
 ms.date: 12/05/2018
 ms.keywords: UI_INVALIDATIONS, UI_INVALIDATIONS enumeration [Windows Ribbon], UI_INVALIDATIONS_ALLPROPERTIES, UI_INVALIDATIONS_PROPERTY, UI_INVALIDATIONS_STATE, UI_INVALIDATIONS_VALUE, scenicintent_UI_INVALIDATIONS, uiribbon/UI_INVALIDATIONS, uiribbon/UI_INVALIDATIONS_ALLPROPERTIES, uiribbon/UI_INVALIDATIONS_PROPERTY, uiribbon/UI_INVALIDATIONS_STATE, uiribbon/UI_INVALIDATIONS_VALUE, windowsribbon.windowsribbon_ui_invalidations
 ms.topic: enum
-f1_keywords: 
- - "uiribbon/UI_INVALIDATIONS"
+f1_keywords:
+- uiribbon/UI_INVALIDATIONS
 dev_langs:
- - c++
+- c++
 req.header: uiribbon.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Uiribbon.h
+- Uiribbon.h
 api_name:
- - UI_INVALIDATIONS
+- UI_INVALIDATIONS
 targetos: Windows
 req.typenames: UI_INVALIDATIONS
 req.redist: 

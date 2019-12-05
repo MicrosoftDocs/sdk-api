@@ -1,19 +1,17 @@
 ---
 UID: NF:rtscom.IRealTimeStylusSynchronization.AcquireLock
 title: IRealTimeStylusSynchronization::AcquireLock (rtscom.h)
-
 description: Retrieves the specified lock.
 old-location: tablet\irealtimestylussynchronization_acquirelock.htm
 tech.root: tablet
 ms.assetid: 74e315c5-99c2-4ba5-bca5-72d812624fa0
-
 ms.date: 12/05/2018
 ms.keywords: 74e315c5-99c2-4ba5-bca5-72d812624fa0, AcquireLock, AcquireLock method [Tablet PC], AcquireLock method [Tablet PC],IRealTimeStylusSynchronization interface, IRealTimeStylusSynchronization interface [Tablet PC],AcquireLock method, IRealTimeStylusSynchronization.AcquireLock, IRealTimeStylusSynchronization::AcquireLock, rtscom/IRealTimeStylusSynchronization::AcquireLock, tablet.irealtimestylussynchronization_acquirelock
 ms.topic: method
-f1_keywords: 
- - "rtscom/IRealTimeStylusSynchronization.AcquireLock"
+f1_keywords:
+- rtscom/IRealTimeStylusSynchronization.AcquireLock
 dev_langs:
- - c++
+- c++
 req.header: rtscom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: RTSCom.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - RTSCom.dll
+- RTSCom.dll
 api_name:
- - IRealTimeStylusSynchronization.AcquireLock
+- IRealTimeStylusSynchronization.AcquireLock
 targetos: Windows
 req.typenames: 
 req.redist: 

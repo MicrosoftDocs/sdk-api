@@ -1,19 +1,17 @@
 ---
 UID: NS:ondemandconnroutehelper._NET_INTERFACE_CONTEXT_TABLE
 title: NET_INTERFACE_CONTEXT_TABLE (ondemandconnroutehelper.h)
-
 description: The table of NET_INTERFACE_CONTEXT structures.
 old-location: nla\net_interface_context_table.htm
 tech.root: nla
 ms.assetid: DA6101F2-EB8F-43DC-93C6-9365A7AABEAC
-
 ms.date: 12/05/2018
 ms.keywords: NET_INTERFACE_CONTEXT_TABLE, NET_INTERFACE_CONTEXT_TABLE structure [Network Awareness], PNET_INTERFACE_CONTEXT_TABLE, PNET_INTERFACE_CONTEXT_TABLE structure pointer [Network Awareness], nla.net_interface_context_table, ondemandconnroutehelper/NET_INTERFACE_CONTEXT_TABLE, ondemandconnroutehelper/PNET_INTERFACE_CONTEXT_TABLE
 ms.topic: struct
-f1_keywords: 
- - "ondemandconnroutehelper/NET_INTERFACE_CONTEXT_TABLE"
+f1_keywords:
+- ondemandconnroutehelper/NET_INTERFACE_CONTEXT_TABLE
 dev_langs:
- - c++
+- c++
 req.header: ondemandconnroutehelper.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - OnDemandConnRouteHelper.h
+- OnDemandConnRouteHelper.h
 api_name:
- - NET_INTERFACE_CONTEXT_TABLE
+- NET_INTERFACE_CONTEXT_TABLE
 targetos: Windows
 req.typenames: NET_INTERFACE_CONTEXT_TABLE
 req.redist: 

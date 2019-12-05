@@ -1,19 +1,17 @@
 ---
 UID: NF:certadm.ICertAdmin2.SetConfigEntry
 title: ICertAdmin2::SetConfigEntry (certadm.h)
-
 description: Sets configuration information for a certification authority (CA).
 old-location: security\icertadmin2_setconfigentry.htm
 tech.root: SecCrypto
 ms.assetid: 6ed1dd69-3553-4dcc-a98a-1954013082cd
-
 ms.date: 12/05/2018
 ms.keywords: ICertAdmin2 interface [Security],SetConfigEntry method, ICertAdmin2.SetConfigEntry, ICertAdmin2::SetConfigEntry, SetConfigEntry, SetConfigEntry method [Security], SetConfigEntry method [Security],ICertAdmin2 interface, certadm/ICertAdmin2::SetConfigEntry, security.icertadmin2_setconfigentry
 ms.topic: method
-f1_keywords: 
- - "certadm/ICertAdmin2.SetConfigEntry"
+f1_keywords:
+- certadm/ICertAdmin2.SetConfigEntry
 dev_langs:
- - c++
+- c++
 req.header: certadm.h
 req.include-header: Certsrv.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Certidl.lib
 req.dll: Certadm.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Certadm.dll
+- Certadm.dll
 api_name:
- - ICertAdmin2.SetConfigEntry
+- ICertAdmin2.SetConfigEntry
 targetos: Windows
 req.typenames: 
 req.redist: 

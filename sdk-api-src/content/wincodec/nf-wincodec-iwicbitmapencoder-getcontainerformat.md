@@ -1,19 +1,17 @@
 ---
 UID: NF:wincodec.IWICBitmapEncoder.GetContainerFormat
 title: IWICBitmapEncoder::GetContainerFormat (wincodec.h)
-
 description: Retrieves the encoder's container format.
 old-location: wic\_wic_codec_iwicbitmapencoder_getcontainerformat.htm
 tech.root: wic
 ms.assetid: 2d197321-0a89-49fd-b243-1d870c178b57
-
 ms.date: 12/05/2018
 ms.keywords: GetContainerFormat, GetContainerFormat method [Windows Imaging Component], GetContainerFormat method [Windows Imaging Component],IWICBitmapEncoder interface, IWICBitmapEncoder interface [Windows Imaging Component],GetContainerFormat method, IWICBitmapEncoder.GetContainerFormat, IWICBitmapEncoder::GetContainerFormat, _wic_codec_iwicbitmapencoder_getcontainerformat, wic._wic_codec_iwicbitmapencoder_getcontainerformat, wincodec/IWICBitmapEncoder::GetContainerFormat
 ms.topic: method
-f1_keywords: 
- - "wincodec/IWICBitmapEncoder.GetContainerFormat"
+f1_keywords:
+- wincodec/IWICBitmapEncoder.GetContainerFormat
 dev_langs:
- - c++
+- c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Windowscodecs.lib
 req.dll: Windowscodecs.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Windowscodecs.dll
+- Windowscodecs.dll
 api_name:
- - IWICBitmapEncoder.GetContainerFormat
+- IWICBitmapEncoder.GetContainerFormat
 targetos: Windows
 req.typenames: 
 req.redist: 

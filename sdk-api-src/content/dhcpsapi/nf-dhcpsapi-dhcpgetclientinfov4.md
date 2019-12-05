@@ -1,19 +1,17 @@
 ---
 UID: NF:dhcpsapi.DhcpGetClientInfoV4
 title: DhcpGetClientInfoV4 function (dhcpsapi.h)
-
 description: Returns information on a specific DHCP client. This function extends DhcpGetClientInfo by returning a DHCP_CLIENT_INFO_V4 structure that contains client type information.
 old-location: dhcp\dhcpgetclientinfov4.htm
 tech.root: DHCP
 ms.assetid: 3f8b9cbb-f903-4a97-8a38-caf2210b6d48
-
 ms.date: 12/05/2018
 ms.keywords: DhcpGetClientInfoV4, DhcpGetClientInfoV4 function [DHCP], dhcp.dhcpgetclientinfov4, dhcpsapi/DhcpGetClientInfoV4
 ms.topic: function
 f1_keywords:
 - dhcpsapi/DhcpGetClientInfoV4
 dev_langs:
- - c++
+- c++
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows

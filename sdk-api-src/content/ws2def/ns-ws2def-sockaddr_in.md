@@ -1,19 +1,17 @@
 ---
 UID: NS:ws2def.sockaddr_in
 title: SOCKADDR_IN (ws2def.h)
-
 description: The SOCKADDR_IN structure specifies a transport address and port for the AF_INET address family.
 old-location: netvista\sockaddr_in.htm
 tech.root: NetVista
 ms.assetid: 96379562-403f-451c-ac7a-f0eec34bfe5e
-
 ms.date: 12/05/2018
-ms.keywords: "*PSOCKADDR_IN, PSOCKADDR_IN, PSOCKADDR_IN structure pointer [Network Drivers Starting with Windows Vista], SOCKADDR_IN, SOCKADDR_IN structure [Network Drivers Starting with Windows Vista], netvista.sockaddr_in, ws2def/PSOCKADDR_IN, ws2def/SOCKADDR_IN, wskref_ab4750b0-daae-4326-91a3-a94a9863c7a2.xml"
+ms.keywords: '*PSOCKADDR_IN, PSOCKADDR_IN, PSOCKADDR_IN structure pointer [Network Drivers Starting with Windows Vista], SOCKADDR_IN, SOCKADDR_IN structure [Network Drivers Starting with Windows Vista], netvista.sockaddr_in, ws2def/PSOCKADDR_IN, ws2def/SOCKADDR_IN, wskref_ab4750b0-daae-4326-91a3-a94a9863c7a2.xml'
 ms.topic: struct
-f1_keywords: 
- - "ws2def/SOCKADDR_IN"
+f1_keywords:
+- ws2def/SOCKADDR_IN
 dev_langs:
- - c++
+- c++
 req.header: ws2def.h
 req.include-header: Wsk.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - ws2def.h
+- ws2def.h
 api_name:
- - SOCKADDR_IN
+- SOCKADDR_IN
 targetos: Windows
 req.typenames: SOCKADDR_IN, *PSOCKADDR_IN
 req.redist: 

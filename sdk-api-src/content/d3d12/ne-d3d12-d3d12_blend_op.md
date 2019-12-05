@@ -1,19 +1,17 @@
 ---
 UID: NE:d3d12.D3D12_BLEND_OP
 title: D3D12_BLEND_OP (d3d12.h)
-
 description: Specifies RGB or alpha blending operations.
 old-location: direct3d12\d3d12_blend_op.htm
 tech.root: direct3d12
 ms.assetid: 2C36BFCB-2871-446F-8A79-3E963DB50795
-
 ms.date: 12/05/2018
 ms.keywords: D3D12_BLEND_OP, D3D12_BLEND_OP enumeration, D3D12_BLEND_OP_ADD, D3D12_BLEND_OP_MAX, D3D12_BLEND_OP_MIN, D3D12_BLEND_OP_REV_SUBTRACT, D3D12_BLEND_OP_SUBTRACT, d3d12/D3D12_BLEND_OP, d3d12/D3D12_BLEND_OP_ADD, d3d12/D3D12_BLEND_OP_MAX, d3d12/D3D12_BLEND_OP_MIN, d3d12/D3D12_BLEND_OP_REV_SUBTRACT, d3d12/D3D12_BLEND_OP_SUBTRACT, direct3d12.d3d12_blend_op
 ms.topic: enum
-f1_keywords: 
- - "d3d12/D3D12_BLEND_OP"
+f1_keywords:
+- d3d12/D3D12_BLEND_OP
 dev_langs:
- - c++
+- c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - D3D12.h
+- D3D12.h
 api_name:
- - D3D12_BLEND_OP
+- D3D12_BLEND_OP
 targetos: Windows
 req.typenames: D3D12_BLEND_OP
 req.redist: 

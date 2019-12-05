@@ -1,19 +1,17 @@
 ---
 UID: NS:mi._MI_PropertySetFT
 title: MI_PropertySetFT (mi.h)
-
 description: A support structure used in the MI_PropertySet structure. Use the functions with the name prefix &#0034;MI_PropertySet_&#0034; to manipulate these structures.
 old-location: wmi_v2\mi_propertysetft.htm
 tech.root: wmi_v2
 ms.assetid: d71c0378-0b97-44ea-9f42-e533b93f195e
-
 ms.date: 12/05/2018
 ms.keywords: MI_PropertySetFT, MI_PropertySetFT structure [Windows Management Infrastructure (MI)], mi/MI_PropertySetFT, wmi_v2.mi_propertysetft
 ms.topic: struct
 f1_keywords:
 - mi/MI_PropertySetFT
 dev_langs:
- - c++
+- c++
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows

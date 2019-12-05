@@ -1,19 +1,17 @@
 ---
 UID: NS:wintrust.WINTRUST_BLOB_INFO_
 title: WINTRUST_BLOB_INFO (wintrust.h)
-
 description: Used when calling WinVerifyTrust to verify a memory BLOB.
 old-location: security\wintrust_blob_info.htm
 tech.root: SecCrypto
 ms.assetid: 8b13d355-4d24-4d8e-aae3-db16467999be
-
 ms.date: 12/05/2018
-ms.keywords: "*PWINTRUST_BLOB_INFO, PWINTRUST_BLOB_INFO, PWINTRUST_BLOB_INFO structure pointer [Security], WINTRUST_BLOB_INFO, WINTRUST_BLOB_INFO structure [Security], _win32_wintrust_blob_info, security.wintrust_blob_info, wintrust/PWINTRUST_BLOB_INFO, wintrust/WINTRUST_BLOB_INFO"
+ms.keywords: '*PWINTRUST_BLOB_INFO, PWINTRUST_BLOB_INFO, PWINTRUST_BLOB_INFO structure pointer [Security], WINTRUST_BLOB_INFO, WINTRUST_BLOB_INFO structure [Security], _win32_wintrust_blob_info, security.wintrust_blob_info, wintrust/PWINTRUST_BLOB_INFO, wintrust/WINTRUST_BLOB_INFO'
 ms.topic: struct
-f1_keywords: 
- - "wintrust/WINTRUST_BLOB_INFO"
+f1_keywords:
+- wintrust/WINTRUST_BLOB_INFO
 dev_langs:
- - c++
+- c++
 req.header: wintrust.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wintrust.h
+- Wintrust.h
 api_name:
- - WINTRUST_BLOB_INFO
+- WINTRUST_BLOB_INFO
 targetos: Windows
 req.typenames: WINTRUST_BLOB_INFO, *PWINTRUST_BLOB_INFO
 req.redist: 

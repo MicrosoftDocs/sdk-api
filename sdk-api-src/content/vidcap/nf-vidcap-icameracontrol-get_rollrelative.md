@@ -1,19 +1,17 @@
 ---
 UID: NF:vidcap.ICameraControl.get_RollRelative
 title: ICameraControl::get_RollRelative (vidcap.h)
-
 description: The get_RollRelative method returns the camera's relative roll. The relative roll is expressed as a number of steps, where the size of each step depends on the camera model.
 old-location: dshow\icameracontrol_get_rollrelative.htm
 tech.root: DirectShow
 ms.assetid: 28fa7e55-8e43-40fc-ac6c-e19f91621405
-
 ms.date: 12/05/2018
 ms.keywords: ICameraControl interface [DirectShow],get_RollRelative method, ICameraControl.get_RollRelative, ICameraControl::get_RollRelative, ICameraControlget_RollRelative, dshow.icameracontrol_get_rollrelative, get_RollRelative, get_RollRelative method [DirectShow], get_RollRelative method [DirectShow],ICameraControl interface, vidcap/ICameraControl::get_RollRelative
 ms.topic: method
-f1_keywords: 
- - "vidcap/ICameraControl.get_RollRelative"
+f1_keywords:
+- vidcap/ICameraControl.get_RollRelative
 dev_langs:
- - c++
+- c++
 req.header: vidcap.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - ICameraControl.get_RollRelative
+- ICameraControl.get_RollRelative
 targetos: Windows
 req.typenames: 
 req.redist: 

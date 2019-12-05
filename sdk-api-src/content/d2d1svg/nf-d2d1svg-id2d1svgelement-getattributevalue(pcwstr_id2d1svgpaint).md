@@ -1,19 +1,17 @@
 ---
 UID: NF:d2d1svg.ID2D1SvgElement.GetAttributeValue(PCWSTR,ID2D1SvgPaint)
 title: ID2D1SvgElement::GetAttributeValue(PCWSTR,ID2D1SvgPaint) (d2d1svg.h)
-
 description: Gets an attribute of this element as a paint. This method can be used to get the value of the fill or stroke properties.
 old-location: direct2d\id2d1svgelement_getattributevalue_18.htm
 tech.root: Direct2D
 ms.assetid: 9A772DC4-22D9-4383-A3CD-A8C7DE496F05
-
 ms.date: 12/05/2018
 ms.keywords: GetAttributeValue, GetAttributeValue method [Direct2D], GetAttributeValue method [Direct2D],ID2D1SvgElement interface, ID2D1SvgElement interface [Direct2D],GetAttributeValue method, ID2D1SvgElement.GetAttributeValue, ID2D1SvgElement.GetAttributeValue(PCWSTR,ID2D1SvgPaint), ID2D1SvgElement::GetAttributeValue, ID2D1SvgElement::GetAttributeValue(PCWSTR,ID2D1SvgPaint), d2d1svg/ID2D1SvgElement::GetAttributeValue, direct2d.id2d1svgelement_getattributevalue_18
 ms.topic: method
-f1_keywords: 
- - "d2d1svg/ID2D1SvgElement.GetAttributeValue"
+f1_keywords:
+- d2d1svg/ID2D1SvgElement.GetAttributeValue
 dev_langs:
- - c++
+- c++
 req.header: d2d1svg.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Direct2d.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - direct2d.dll
+- direct2d.dll
 api_name:
- - ID2D1SvgElement.GetAttributeValue
+- ID2D1SvgElement.GetAttributeValue
 targetos: Windows
 req.typenames: 
 req.redist: 

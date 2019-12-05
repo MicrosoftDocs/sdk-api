@@ -1,19 +1,17 @@
 ---
 UID: NF:wmsdkidl.IWMBandwidthSharing.GetType
 title: IWMBandwidthSharing::GetType (wmsdkidl.h)
-
 description: The GetType method retrieves the type of sharing for the bandwidth sharing object.
 old-location: wmformat\iwmbandwidthsharing_gettype.htm
 tech.root: wmformat
 ms.assetid: acef383f-83cb-45be-80fa-1339b391f32b
-
 ms.date: 12/05/2018
 ms.keywords: GetType, GetType method [windows Media Format], GetType method [windows Media Format],IWMBandwidthSharing interface, IWMBandwidthSharing interface [windows Media Format],GetType method, IWMBandwidthSharing.GetType, IWMBandwidthSharing::GetType, IWMBandwidthSharingGetType, wmformat.iwmbandwidthsharing_gettype, wmsdkidl/IWMBandwidthSharing::GetType
 ms.topic: method
-f1_keywords: 
- - "wmsdkidl/IWMBandwidthSharing.GetType"
+f1_keywords:
+- wmsdkidl/IWMBandwidthSharing.GetType
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wmvcore.lib
- - Wmvcore.dll
- - WMStubDRM.lib
- - WMStubDRM.dll
+- Wmvcore.lib
+- Wmvcore.dll
+- WMStubDRM.lib
+- WMStubDRM.dll
 api_name:
- - IWMBandwidthSharing.GetType
+- IWMBandwidthSharing.GetType
 targetos: Windows
 req.typenames: 
 req.redist: 

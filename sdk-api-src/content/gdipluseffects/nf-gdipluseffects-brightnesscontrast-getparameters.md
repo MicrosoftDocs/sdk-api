@@ -1,19 +1,17 @@
 ---
 UID: NF:gdipluseffects.BrightnessContrast.GetParameters
 title: BrightnessContrast::GetParameters (gdipluseffects.h)
-
 description: The BrightnessContrast::GetParameters method gets the current values of the parameters of this BrightnessContrast object.
 old-location: gdiplus\_gdiplus_CLASS_BrightnessContrast_GetParameters_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\brightnesscontrastclass\brightnesscontrastmethods\getparameters.htm
-
 ms.date: 12/05/2018
 ms.keywords: BrightnessContrast class [GDI+],GetParameters method, BrightnessContrast.GetParameters, BrightnessContrast::GetParameters, GetParameters, GetParameters method [GDI+], GetParameters method [GDI+],BrightnessContrast class, _gdiplus_CLASS_BrightnessContrast_GetParameters_, gdiplus._gdiplus_CLASS_BrightnessContrast_GetParameters_
 ms.topic: method
-f1_keywords: 
- - "gdipluseffects/BrightnessContrast.GetParameters"
+f1_keywords:
+- gdipluseffects/BrightnessContrast.GetParameters
 dev_langs:
- - c++
+- c++
 req.header: gdipluseffects.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - BrightnessContrast.GetParameters
+- BrightnessContrast.GetParameters
 targetos: Windows
 req.typenames: 
 req.redist: 

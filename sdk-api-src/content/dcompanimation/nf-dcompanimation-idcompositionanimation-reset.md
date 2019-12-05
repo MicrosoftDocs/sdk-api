@@ -1,19 +1,17 @@
 ---
 UID: NF:dcompanimation.IDCompositionAnimation.Reset
 title: IDCompositionAnimation::Reset (dcompanimation.h)
-
 description: Resets the animation function so that it contains no segments.
 old-location: directcomp\idcompositionanimation_reset.htm
 tech.root: directcomp
 ms.assetid: 3745fff0-eefa-4262-9ce3-9ab812264c1d
-
 ms.date: 12/05/2018
 ms.keywords: IDCompositionAnimation interface [DirectComposition],Reset method, IDCompositionAnimation.Reset, IDCompositionAnimation::Reset, Reset, Reset method [DirectComposition], Reset method [DirectComposition],IDCompositionAnimation interface, dcompanimation/IDCompositionAnimation::Reset, directcomp.idcompositionanimation_reset
 ms.topic: method
-f1_keywords: 
- - "dcompanimation/IDCompositionAnimation.Reset"
+f1_keywords:
+- dcompanimation/IDCompositionAnimation.Reset
 dev_langs:
- - c++
+- c++
 req.header: dcompanimation.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dcomp.lib
 req.dll: Dcomp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dcomp.dll
+- Dcomp.dll
 api_name:
- - IDCompositionAnimation.Reset
+- IDCompositionAnimation.Reset
 targetos: Windows
 req.typenames: 
 req.redist: 

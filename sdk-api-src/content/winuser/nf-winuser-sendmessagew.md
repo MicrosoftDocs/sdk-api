@@ -1,19 +1,17 @@
 ---
 UID: NF:winuser.SendMessageW
 title: SendMessageW function (winuser.h)
-
 description: Sends the specified message to a window or windows. The SendMessage function calls the window procedure for the specified window and does not return until the window procedure has processed the message.
 old-location: winmsg\sendmessage.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\messagesandmessagequeues\messagesandmessagequeuesreference\messagesandmessagequeuesfunctions\sendmessage.htm
-
 ms.date: 12/05/2018
 ms.keywords: SendMessage, SendMessage function [Windows and Messages], SendMessageA, SendMessageW, _win32_SendMessage, _win32_sendmessage_cpp, winmsg.sendmessage, winui._win32_sendmessage, winuser/SendMessage, winuser/SendMessageA, winuser/SendMessageW
 ms.topic: function
-f1_keywords: 
- - "winuser/SendMessage"
+f1_keywords:
+- winuser/SendMessage
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,25 +30,25 @@ req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - User32.dll
- - API-MS-Win-NTUser-IE-message-l1-1-0.dll
- - ie_shims.dll
- - API-MS-Win-RTCore-NTUser-Window-l1-1-0.dll
- - minuser.dll
- - Ext-MS-Win-NTUser-message-l1-1-0.dll
- - Ext-MS-Win-NTUser-message-l1-1-1.dll
- - Ext-MS-Win-RTCore-NTUser-Window-Ext-l1-1-0.dll
- - Ext-MS-Win-NTUser-Message-l1-1-2.dll
- - Ext-MS-Win-NTUser-Message-L1-1-3.dll
+- User32.dll
+- API-MS-Win-NTUser-IE-message-l1-1-0.dll
+- ie_shims.dll
+- API-MS-Win-RTCore-NTUser-Window-l1-1-0.dll
+- minuser.dll
+- Ext-MS-Win-NTUser-message-l1-1-0.dll
+- Ext-MS-Win-NTUser-message-l1-1-1.dll
+- Ext-MS-Win-RTCore-NTUser-Window-Ext-l1-1-0.dll
+- Ext-MS-Win-NTUser-Message-l1-1-2.dll
+- Ext-MS-Win-NTUser-Message-L1-1-3.dll
 api_name:
- - SendMessage
- - SendMessageA
- - SendMessageW
+- SendMessage
+- SendMessageA
+- SendMessageW
 targetos: Windows
 req.typenames: 
 req.redist: 

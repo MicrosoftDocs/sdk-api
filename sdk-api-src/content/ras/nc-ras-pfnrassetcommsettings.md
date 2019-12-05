@@ -1,19 +1,17 @@
 ---
 UID: NC:ras.PFNRASSETCOMMSETTINGS
 title: PFNRASSETCOMMSETTINGS (ras.h)
-
 description: Call RasSetCommSettings from a custom-scripting DLL to change the settings on the port for the connection.
 old-location: rras\rassetcommsettings.htm
 tech.root: RRAS
 ms.assetid: 1df305b8-39b0-4426-b20a-62aa79240f67
-
 ms.date: 12/05/2018
 ms.keywords: PFNRASSETCOMMSETTINGS, PFNRASSETCOMMSETTINGS callback, RasSetCommSettings, RasSetCommSettings callback function [RAS], _ras_rassetcommsettings, ras/RasSetCommSettings, rras.rassetcommsettings
 ms.topic: callback
-f1_keywords: 
- - "ras/RasSetCommSettings"
+f1_keywords:
+- ras/RasSetCommSettings
 dev_langs:
- - c++
+- c++
 req.header: ras.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Ras.h
+- Ras.h
 api_name:
- - RasSetCommSettings
+- RasSetCommSettings
 targetos: Windows
 req.typenames: 
 req.redist: 

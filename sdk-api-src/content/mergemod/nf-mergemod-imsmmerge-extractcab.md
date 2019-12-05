@@ -1,19 +1,17 @@
 ---
 UID: NF:mergemod.IMsmMerge.ExtractCAB
 title: IMsmMerge::ExtractCAB (mergemod.h)
-
 description: The ExtractCAB method extracts the embedded .cab file from a module and saves it as the specified file.
 old-location: setup\imsmmerge_extractcab.htm
 tech.root: Msi
 ms.assetid: 3f794dac-6eeb-4c1e-8c23-c9d7384f650f
-
 ms.date: 12/05/2018
 ms.keywords: ExtractCAB, ExtractCAB method, ExtractCAB method,IMsmMerge interface, IMsmMerge interface,ExtractCAB method, IMsmMerge.ExtractCAB, IMsmMerge::ExtractCAB, _msi_extractcab_function, mergemod/IMsmMerge::ExtractCAB, setup.imsmmerge_extractcab
 ms.topic: method
-f1_keywords: 
- - "mergemod/IMsmMerge.ExtractCAB"
+f1_keywords:
+- mergemod/IMsmMerge.ExtractCAB
 dev_langs:
- - c++
+- c++
 req.header: mergemod.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Mergemod.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mergemod.dll
+- Mergemod.dll
 api_name:
- - IMsmMerge.ExtractCAB
+- IMsmMerge.ExtractCAB
 targetos: Windows
 req.typenames: 
 req.redist: 

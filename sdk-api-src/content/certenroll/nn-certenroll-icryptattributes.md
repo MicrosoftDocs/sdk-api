@@ -1,19 +1,17 @@
 ---
 UID: NN:certenroll.ICryptAttributes
 title: ICryptAttributes (certenroll.h)
-
 description: The ICryptAttributes interface contains methods and properties that enable you to manage a collection of ICryptAttribute objects.
 old-location: security\icryptattributes.htm
 tech.root: seccertenroll
 ms.assetid: beedb57c-1c89-4d16-8514-046e3071fd1e
-
 ms.date: 12/05/2018
 ms.keywords: ICryptAttributes, ICryptAttributes interface [Security], ICryptAttributes interface [Security],described, certenroll/ICryptAttributes, security.icryptattributes
 ms.topic: interface
-f1_keywords: 
- - "certenroll/ICryptAttributes"
+f1_keywords:
+- certenroll/ICryptAttributes
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: CertEnroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CertEnroll.dll
+- CertEnroll.dll
 api_name:
- - ICryptAttributes
+- ICryptAttributes
 targetos: Windows
 req.typenames: 
 req.redist: 

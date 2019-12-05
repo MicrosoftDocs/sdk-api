@@ -1,19 +1,17 @@
 ---
 UID: NF:certenc.ICertEncodeDateArray.GetCount
 title: ICertEncodeDateArray::GetCount (certenc.h)
-
 description: Returns the number of DATE values in the object's DATE array.
 old-location: security\icertencodedatearray_getcount.htm
 tech.root: SecCrypto
 ms.assetid: 25c61f42-b190-44c3-b2ba-57861bdfbce3
-
 ms.date: 12/05/2018
 ms.keywords: CCertEncodeDateArray object [Security],GetCount method, GetCount, GetCount method [Security], GetCount method [Security],CCertEncodeDateArray object, GetCount method [Security],ICertEncodeDateArray interface, ICertEncodeDateArray interface [Security],GetCount method, ICertEncodeDateArray.GetCount, ICertEncodeDateArray::GetCount, _certsrv_icertencodedatearray_getcount, certenc/ICertEncodeDateArray::GetCount, security.icertencodedatearray_getcount
 ms.topic: method
-f1_keywords: 
- - "certenc/ICertEncodeDateArray.GetCount"
+f1_keywords:
+- certenc/ICertEncodeDateArray.GetCount
 dev_langs:
- - c++
+- c++
 req.header: certenc.h
 req.include-header: Certsrv.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Certidl.lib
 req.dll: Certenc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Certenc.dll
+- Certenc.dll
 api_name:
- - ICertEncodeDateArray.GetCount
- - CCertEncodeDateArray.GetCount
+- ICertEncodeDateArray.GetCount
+- CCertEncodeDateArray.GetCount
 targetos: Windows
 req.typenames: 
 req.redist: 

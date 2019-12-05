@@ -1,19 +1,17 @@
 ---
 UID: NF:propsys.PSPropertyBag_ReadDWORD
 title: PSPropertyBag_ReadDWORD function (propsys.h)
-
 description: Reads a DWORD data value from property in a property bag.
 old-location: properties\PSPropertyBag_ReadDWORD.htm
 tech.root: properties
 ms.assetid: 31977E3F-FA2F-4c2d-8A95-6BF937EDC45C
-
 ms.date: 12/05/2018
 ms.keywords: PSPropertyBag_ReadDWORD, PSPropertyBag_ReadDWORD function [Windows Properties], properties.PSPropertyBag_ReadDWORD, propsys/PSPropertyBag_ReadDWORD, shell.PSPropertyBag_ReadDWORD, shell_PSPropertyBag_ReadDWORD
 ms.topic: function
-f1_keywords: 
- - "propsys/PSPropertyBag_ReadDWORD"
+f1_keywords:
+- propsys/PSPropertyBag_ReadDWORD
 dev_langs:
- - c++
+- c++
 req.header: propsys.h
 req.include-header: Propsys.idl
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Propsys.lib
 req.dll: Propsys.dll (version 6.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Propsys.dll
+- Propsys.dll
 api_name:
- - PSPropertyBag_ReadDWORD
+- PSPropertyBag_ReadDWORD
 targetos: Windows
 req.typenames: 
 req.redist: 

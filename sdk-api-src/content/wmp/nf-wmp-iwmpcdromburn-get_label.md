@@ -1,19 +1,17 @@
 ---
 UID: NF:wmp.IWMPCdromBurn.get_label
 title: IWMPCdromBurn::get_label (wmp.h)
-
 description: The get_label method retrieves the CD volume label string.
 old-location: wmp\iwmpcdromburn_get_label.htm
 tech.root: WMP
 ms.assetid: 89197e65-036c-4ffb-8b08-4ab8c194f92f
-
 ms.date: 12/05/2018
 ms.keywords: IWMPCdromBurn interface [Windows Media Player],get_label method, IWMPCdromBurn.get_label, IWMPCdromBurn::get_label, IWMPCdromBurnget_label, get_label, get_label method [Windows Media Player], get_label method [Windows Media Player],IWMPCdromBurn interface, wmp.iwmpcdromburn_get_label, wmp/IWMPCdromBurn::get_label
 ms.topic: method
-f1_keywords: 
- - "wmp/IWMPCdromBurn.get_label"
+f1_keywords:
+- wmp/IWMPCdromBurn.get_label
 dev_langs:
- - c++
+- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wmp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmp.dll
+- wmp.dll
 api_name:
- - IWMPCdromBurn.get_label
+- IWMPCdromBurn.get_label
 targetos: Windows
 req.typenames: 
 req.redist: 

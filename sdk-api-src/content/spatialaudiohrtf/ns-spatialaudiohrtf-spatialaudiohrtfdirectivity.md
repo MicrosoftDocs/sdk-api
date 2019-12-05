@@ -1,19 +1,17 @@
 ---
 UID: NS:spatialaudiohrtf.SpatialAudioHrtfDirectivity
 title: SpatialAudioHrtfDirectivity (spatialaudiohrtf.h)
-
 description: Represents an omnidirectional model for an ISpatialAudioObjectForHrtf. The omnidirectional emission is interpolated linearly with the directivity model specified in the Type field based on the value of the Scaling field.
 old-location: coreaudio\spatialaudiohrtfdirectivity.htm
 tech.root: CoreAudio
 ms.assetid: A3D149E0-F2C1-47C7-8858-35C5F51C7F75
-
 ms.date: 12/05/2018
 ms.keywords: PSpatialAudioHrtfDirectivity, PSpatialAudioHrtfDirectivity structure pointer [Core Audio], SpatialAudioHrtfDirectivity, SpatialAudioHrtfDirectivity structure [Core Audio], coreaudio.spatialaudiohrtfdirectivity, spatialaudiohrtf/PSpatialAudioHrtfDirectivity, spatialaudiohrtf/SpatialAudioHrtfDirectivity
 ms.topic: struct
-f1_keywords: 
- - "spatialaudiohrtf/SpatialAudioHrtfDirectivity"
+f1_keywords:
+- spatialaudiohrtf/SpatialAudioHrtfDirectivity
 dev_langs:
- - c++
+- c++
 req.header: spatialaudiohrtf.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - spatialaudiohrtf.h
+- spatialaudiohrtf.h
 api_name:
- - SpatialAudioHrtfDirectivity
+- SpatialAudioHrtfDirectivity
 targetos: Windows
 req.typenames: SpatialAudioHrtfDirectivity
 req.redist: 

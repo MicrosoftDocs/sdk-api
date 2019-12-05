@@ -1,19 +1,17 @@
 ---
 UID: NS:schannel._SecPkgContext_SessionInfo
 title: SecPkgContext_SessionInfo (schannel.h)
-
 description: Specifies whether the session is a reconnection and retrieves a value that identifies the session.
 old-location: security\secpkgcontext_sessioninfo.htm
 tech.root: SecAuthN
 ms.assetid: d7725803-1f4c-4d5d-8c53-81ec24d5a9d8
-
 ms.date: 12/05/2018
-ms.keywords: "*PSecPkgContext_SessionInfo, PSecPkgContext_SessionInfo, PSecPkgContext_SessionInfo structure pointer [Security], SSL_SESSION_RECONNECT, SecPkgContext_SessionInfo, SecPkgContext_SessionInfo structure [Security], schannel/PSecPkgContext_SessionInfo, schannel/SecPkgContext_SessionInfo, security.secpkgcontext_sessioninfo"
+ms.keywords: '*PSecPkgContext_SessionInfo, PSecPkgContext_SessionInfo, PSecPkgContext_SessionInfo structure pointer [Security], SSL_SESSION_RECONNECT, SecPkgContext_SessionInfo, SecPkgContext_SessionInfo structure [Security], schannel/PSecPkgContext_SessionInfo, schannel/SecPkgContext_SessionInfo, security.secpkgcontext_sessioninfo'
 ms.topic: struct
-f1_keywords: 
- - "schannel/SecPkgContext_SessionInfo"
+f1_keywords:
+- schannel/SecPkgContext_SessionInfo
 dev_langs:
- - c++
+- c++
 req.header: schannel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Schannel.h
+- Schannel.h
 api_name:
- - SecPkgContext_SessionInfo
+- SecPkgContext_SessionInfo
 targetos: Windows
 req.typenames: SecPkgContext_SessionInfo, *PSecPkgContext_SessionInfo
 req.redist: 

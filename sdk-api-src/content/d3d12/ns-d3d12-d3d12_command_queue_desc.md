@@ -1,19 +1,17 @@
 ---
 UID: NS:d3d12.D3D12_COMMAND_QUEUE_DESC
 title: D3D12_COMMAND_QUEUE_DESC (d3d12.h)
-
 description: Describes a command queue.
 old-location: direct3d12\d3d12_command_queue_desc.htm
 tech.root: direct3d12
 ms.assetid: 8C43C45B-0A7B-4336-B546-1E6F13D153F3
-
 ms.date: 12/05/2018
 ms.keywords: D3D12_COMMAND_QUEUE_DESC, D3D12_COMMAND_QUEUE_DESC structure, d3d12/D3D12_COMMAND_QUEUE_DESC, direct3d12.d3d12_command_queue_desc
 ms.topic: struct
-f1_keywords: 
- - "d3d12/D3D12_COMMAND_QUEUE_DESC"
+f1_keywords:
+- d3d12/D3D12_COMMAND_QUEUE_DESC
 dev_langs:
- - c++
+- c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - d3d12.h
+- d3d12.h
 api_name:
- - D3D12_COMMAND_QUEUE_DESC
+- D3D12_COMMAND_QUEUE_DESC
 targetos: Windows
 req.typenames: D3D12_COMMAND_QUEUE_DESC
 req.redist: 

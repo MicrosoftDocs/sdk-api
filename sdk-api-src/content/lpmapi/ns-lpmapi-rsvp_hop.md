@@ -1,19 +1,17 @@
 ---
 UID: NS:lpmapi.__unnamed_struct_4
 title: RSVP_HOP (lpmapi.h)
-
 description: The RSVP_HOP structure contains information about an RSVP-enabled hop.
 old-location: qos\rsvp_hop.htm
 tech.root: QOS
 ms.assetid: 4b23bc0e-ccea-4161-93fa-b136099e88bd
-
 ms.date: 12/05/2018
 ms.keywords: RSVP_HOP, RSVP_HOP structure [QOS], lpmapi/RSVP_HOP, qos.rsvp_hop
 ms.topic: struct
-f1_keywords: 
- - "lpmapi/RSVP_HOP"
+f1_keywords:
+- lpmapi/RSVP_HOP
 dev_langs:
- - c++
+- c++
 req.header: lpmapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Lpmapi.h
+- Lpmapi.h
 api_name:
- - RSVP_HOP
+- RSVP_HOP
 targetos: Windows
 req.typenames: RSVP_HOP
 req.redist: 

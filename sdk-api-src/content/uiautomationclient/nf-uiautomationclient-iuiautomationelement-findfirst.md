@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationElement.FindFirst
 title: IUIAutomationElement::FindFirst (uiautomationclient.h)
-
 description: Retrieves the first child or descendant element that matches the specified condition.
 old-location: winauto\uiauto_IUIAutomationElement_FindFirst.htm
 tech.root: WinAuto
 ms.assetid: 84098431-46e8-49bd-a258-337ad1d68f91
-
 ms.date: 12/05/2018
 ms.keywords: FindFirst, FindFirst method [Windows Accessibility], FindFirst method [Windows Accessibility],IUIAutomationElement interface, IUIAutomationElement interface [Windows Accessibility],FindFirst method, IUIAutomationElement.FindFirst, IUIAutomationElement::FindFirst, uiauto.uiauto_IUIAutomationElement_FindFirst, uiauto_IUIAutomationElement_FindFirst, uiautomationclient/IUIAutomationElement::FindFirst, winauto.uiauto_IUIAutomationElement_FindFirst
 ms.topic: method
-f1_keywords: 
- - "uiautomationclient/IUIAutomationElement.FindFirst"
+f1_keywords:
+- uiautomationclient/IUIAutomationElement.FindFirst
 dev_langs:
- - c++
+- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationClient.h
+- UIAutomationClient.h
 api_name:
- - IUIAutomationElement.FindFirst
+- IUIAutomationElement.FindFirst
 targetos: Windows
 req.typenames: 
 req.redist: 

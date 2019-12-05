@@ -3,14 +3,13 @@ UID: NF:gdiplusgraphics.Graphics.TranslateClip(IN REAL,IN REAL)
 title: Graphics::TranslateClip
 description: The Graphics::TranslateClip method translates the clipping region of this Graphics object.
 ms.assetid: 323bc752-60d5-44f5-88dd-6bf0c4c0c926
-
 ms.date: 05/13/2019
 ms.keywords: Graphics::TranslateClip
 ms.topic: language-reference
-f1_keywords: 
- - "gdiplusgraphics/Graphics::TranslateClip"
+f1_keywords:
+- gdiplusgraphics/Graphics::TranslateClip
 dev_langs:
- - c++
+- c++
 targetos: Windows
 req.assembly: 
 req.construct-type: function
@@ -32,13 +31,13 @@ req.type-library:
 req.umdf-ver: 
 req.unicode-ansi: 
 topic_type:
- - apiref
+- apiref
 api_type:
- - COM
+- COM
 api_location:
- - gdiplusgraphics.h
+- gdiplusgraphics.h
 api_name:
- - Graphics::TranslateClip
+- Graphics::TranslateClip
 ---
 
 # TranslateClip(REAL,REAL)

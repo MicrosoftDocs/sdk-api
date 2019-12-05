@@ -1,19 +1,17 @@
 ---
 UID: NF:imapi.IRedbookDiscMaster.GetAudioBlockSize
 title: IRedbookDiscMaster::GetAudioBlockSize (imapi.h)
-
 description: Retrieves the size, in bytes, of an audio block.
 old-location: imapi\iredbookdiscmaster_getaudioblocksize.htm
 tech.root: imapi
 ms.assetid: 25e8fd75-7a24-421f-b61e-b131dfbbcc8c
-
 ms.date: 12/05/2018
 ms.keywords: GetAudioBlockSize, GetAudioBlockSize method [IMAPI], GetAudioBlockSize method [IMAPI],IRedbookDiscMaster interface, IRedbookDiscMaster interface [IMAPI],GetAudioBlockSize method, IRedbookDiscMaster.GetAudioBlockSize, IRedbookDiscMaster::GetAudioBlockSize, _win32_iredbookdiscmaster_getaudioblocksize, base.iredbookdiscmaster_getaudioblocksize, imapi.iredbookdiscmaster_getaudioblocksize, imapi/IRedbookDiscMaster::GetAudioBlockSize
 ms.topic: method
-f1_keywords: 
- - "imapi/IRedbookDiscMaster.GetAudioBlockSize"
+f1_keywords:
+- imapi/IRedbookDiscMaster.GetAudioBlockSize
 dev_langs:
- - c++
+- c++
 req.header: imapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Actxprxy.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Actxprxy.dll
+- Actxprxy.dll
 api_name:
- - IRedbookDiscMaster.GetAudioBlockSize
+- IRedbookDiscMaster.GetAudioBlockSize
 targetos: Windows
 req.typenames: 
 req.redist: 

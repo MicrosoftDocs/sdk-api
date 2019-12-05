@@ -1,19 +1,17 @@
 ---
 UID: NS:winwlx._WLX_TERMINAL_SERVICES_DATA
 title: WLX_TERMINAL_SERVICES_DATA (winwlx.h)
-
 description: Used to provide GINA with Terminal Services user configuration information.
 old-location: security\wlx_terminal_services_data.htm
 tech.root: SecAuthN
 ms.assetid: e3c6285e-cac3-490d-b2db-ea63871b3620
-
 ms.date: 12/05/2018
-ms.keywords: "*PWLX_TERMINAL_SERVICES_DATA, PWLX_TERMINAL_SERVICES_DATA, PWLX_TERMINAL_SERVICES_DATA structure pointer [Security], WLX_TERMINAL_SERVICES_DATA, WLX_TERMINAL_SERVICES_DATA structure [Security], _gina_wlx_terminal_services_data, security.wlx_terminal_services_data, winwlx/PWLX_TERMINAL_SERVICES_DATA, winwlx/WLX_TERMINAL_SERVICES_DATA"
+ms.keywords: '*PWLX_TERMINAL_SERVICES_DATA, PWLX_TERMINAL_SERVICES_DATA, PWLX_TERMINAL_SERVICES_DATA structure pointer [Security], WLX_TERMINAL_SERVICES_DATA, WLX_TERMINAL_SERVICES_DATA structure [Security], _gina_wlx_terminal_services_data, security.wlx_terminal_services_data, winwlx/PWLX_TERMINAL_SERVICES_DATA, winwlx/WLX_TERMINAL_SERVICES_DATA'
 ms.topic: struct
-f1_keywords: 
- - "winwlx/WLX_TERMINAL_SERVICES_DATA"
+f1_keywords:
+- winwlx/WLX_TERMINAL_SERVICES_DATA
 dev_langs:
- - c++
+- c++
 req.header: winwlx.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Winwlx.h
+- Winwlx.h
 api_name:
- - WLX_TERMINAL_SERVICES_DATA
+- WLX_TERMINAL_SERVICES_DATA
 targetos: Windows
 req.typenames: WLX_TERMINAL_SERVICES_DATA, *PWLX_TERMINAL_SERVICES_DATA
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NN:certenroll.IX509Enrollment2
 title: IX509Enrollment2 (certenroll.h)
-
 description: The IX509Enrollment2 interface enables you to enroll in a certificate hierarchy and install a certificate response.
 old-location: security\ix509enrollment2.htm
 tech.root: seccertenroll
 ms.assetid: 8e262b4b-de6a-417e-9ade-0b451bd4c09a
-
 ms.date: 12/05/2018
 ms.keywords: IX509Enrollment2, IX509Enrollment2 interface [Security], IX509Enrollment2 interface [Security],described, certenroll/IX509Enrollment2, security.ix509enrollment2
 ms.topic: interface
-f1_keywords: 
- - "certenroll/IX509Enrollment2"
+f1_keywords:
+- certenroll/IX509Enrollment2
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CertEnroll.dll
+- CertEnroll.dll
 api_name:
- - IX509Enrollment2
+- IX509Enrollment2
 targetos: Windows
 req.typenames: 
 req.redist: 

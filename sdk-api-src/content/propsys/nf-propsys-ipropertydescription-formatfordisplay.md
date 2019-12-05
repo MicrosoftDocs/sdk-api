@@ -1,19 +1,17 @@
 ---
 UID: NF:propsys.IPropertyDescription.FormatForDisplay
 title: IPropertyDescription::FormatForDisplay (propsys.h)
-
 description: Gets a formatted, Unicode string representation of a property value.
 old-location: properties\IPropertyDescription_FormatForDisplay.htm
 tech.root: properties
 ms.assetid: c900fce9-4462-4429-a5a1-9f0d1e73c681
-
 ms.date: 12/05/2018
 ms.keywords: FormatForDisplay, FormatForDisplay method [Windows Properties], FormatForDisplay method [Windows Properties],IPropertyDescription interface, IPropertyDescription interface [Windows Properties],FormatForDisplay method, IPropertyDescription.FormatForDisplay, IPropertyDescription::FormatForDisplay, properties.IPropertyDescription_FormatForDisplay, propsys/IPropertyDescription::FormatForDisplay, shell.IPropertyDescription_FormatForDisplay, shell_IPropertyDescription_FormatForDisplay
 ms.topic: method
 f1_keywords:
 - propsys/IPropertyDescription.FormatForDisplay
 dev_langs:
- - c++
+- c++
 req.header: propsys.h
 req.include-header: 
 req.target-type: Windows

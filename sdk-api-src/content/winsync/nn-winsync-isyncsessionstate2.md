@@ -1,19 +1,17 @@
 ---
 UID: NN:winsync.ISyncSessionState2
 title: ISyncSessionState2 (winsync.h)
-
 description: Represents additional information about the current synchronization session.
 old-location: winsync\isyncsessionstate2.htm
 tech.root: winsync
 ms.assetid: c98e675f-48f4-4ffa-bc81-18a58edd8c34
-
 ms.date: 12/05/2018
 ms.keywords: ISyncSessionState2, ISyncSessionState2 interface [Windows Sync], ISyncSessionState2 interface [Windows Sync],described, winsync.isyncsessionstate2, winsync/ISyncSessionState2
 ms.topic: interface
-f1_keywords: 
- - "winsync/ISyncSessionState2"
+f1_keywords:
+- winsync/ISyncSessionState2
 dev_langs:
- - c++
+- c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Winsync.h
+- Winsync.h
 api_name:
- - ISyncSessionState2
+- ISyncSessionState2
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:clusapi.CreateClusterGroupSet
 title: CreateClusterGroupSet function (clusapi.h)
-
 description: Adds a groupset to a cluster and returns a handle to the newly added groupset.
 old-location: mscs\createclustergroupcollection.htm
 tech.root: MsCS
 ms.assetid: cb0cdf78-c6d6-47b3-bd11-5ab70416131b
-
 ms.date: 12/05/2018
 ms.keywords: CreateClusterGroupSet, CreateClusterGroupSet function [Failover Cluster], PCLUSAPI_CREATE_CLUSTER_GROUP_GROUPSET, PCLUSAPI_CREATE_CLUSTER_GROUP_GROUPSET function [Failover Cluster], clusapi/CreateClusterGroupSet, clusapi/PCLUSAPI_CREATE_CLUSTER_GROUP_GROUPSET, mscs.createclustergroupcollection
 ms.topic: function
-f1_keywords: 
- - "clusapi/CreateClusterGroupSet"
+f1_keywords:
+- clusapi/CreateClusterGroupSet
 dev_langs:
- - c++
+- c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: ClusAPI.lib
 req.dll: ClusAPI.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - ClusAPI.dll
+- ClusAPI.dll
 api_name:
- - CreateClusterGroupSet
+- CreateClusterGroupSet
 targetos: Windows
 req.typenames: 
 req.redist: 

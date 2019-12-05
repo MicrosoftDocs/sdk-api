@@ -1,19 +1,17 @@
 ---
 UID: NF:inputscope.ITfInputScope.GetSRGS
 title: ITfInputScope::GetSRGS (inputscope.h)
-
 description: ITfInputScope::GetSRGS method
 old-location: tsf\itfinputscope_getSRGS.htm
 tech.root: TSF
 ms.assetid: 6514d925-b60e-4071-abb2-4c26a122089a
-
 ms.date: 12/05/2018
 ms.keywords: GetSRGS, GetSRGS method [Text Services Framework], GetSRGS method [Text Services Framework],ITfInputScope interface, ITfInputScope interface [Text Services Framework],GetSRGS method, ITfInputScope.GetSRGS, ITfInputScope::GetSRGS, inputscope/ITfInputScope::GetSRGS, tsf.itfinputscope_getSRGS
 ms.topic: method
-f1_keywords: 
- - "inputscope/ITfInputScope.GetSRGS"
+f1_keywords:
+- inputscope/ITfInputScope.GetSRGS
 dev_langs:
- - c++
+- c++
 req.header: inputscope.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msctf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msctf.dll
+- Msctf.dll
 api_name:
- - ITfInputScope.GetSRGS
+- ITfInputScope.GetSRGS
 targetos: Windows
 req.typenames: 
 req.redist: 

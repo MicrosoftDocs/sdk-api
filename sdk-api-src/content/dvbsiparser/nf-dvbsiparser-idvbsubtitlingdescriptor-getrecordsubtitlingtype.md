@@ -1,19 +1,17 @@
 ---
 UID: NF:dvbsiparser.IDvbSubtitlingDescriptor.GetRecordSubtitlingType
 title: IDvbSubtitlingDescriptor::GetRecordSubtitlingType (dvbsiparser.h)
-
 description: Gets the subtitling component type from a DVB subtitling descriptor.
 old-location: mstv\idvbsubtitlingdescriptor_getrecordsubtitlingtype.htm
 tech.root: mstv
 ms.assetid: 5ab91508-9afe-4ab7-957f-5467e87ce7ee
-
 ms.date: 12/05/2018
 ms.keywords: GetRecordSubtitlingType, GetRecordSubtitlingType method [Microsoft TV Technologies], GetRecordSubtitlingType method [Microsoft TV Technologies],IDvbSubtitlingDescriptor interface, IDvbSubtitlingDescriptor interface [Microsoft TV Technologies],GetRecordSubtitlingType method, IDvbSubtitlingDescriptor.GetRecordSubtitlingType, IDvbSubtitlingDescriptor::GetRecordSubtitlingType, dvbsiparser/IDvbSubtitlingDescriptor::GetRecordSubtitlingType, mstv.idvbsubtitlingdescriptor_getrecordsubtitlingtype
 ms.topic: method
-f1_keywords: 
- - "dvbsiparser/IDvbSubtitlingDescriptor.GetRecordSubtitlingType"
+f1_keywords:
+- dvbsiparser/IDvbSubtitlingDescriptor.GetRecordSubtitlingType
 dev_langs:
- - c++
+- c++
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dvbsiparser.h
+- dvbsiparser.h
 api_name:
- - IDvbSubtitlingDescriptor.GetRecordSubtitlingType
+- IDvbSubtitlingDescriptor.GetRecordSubtitlingType
 targetos: Windows
 req.typenames: 
 req.redist: 

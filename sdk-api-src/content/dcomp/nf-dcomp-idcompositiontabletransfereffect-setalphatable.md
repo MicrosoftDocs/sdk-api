@@ -1,19 +1,17 @@
 ---
 UID: NF:dcomp.IDCompositionTableTransferEffect.SetAlphaTable
 title: IDCompositionTableTransferEffect::SetAlphaTable (dcomp.h)
-
 description: Sets the list of values used to define the transfer function for the alpha channel.
 old-location: directcomp\idcompositiontabletransfereffect_setalphatable.htm
 tech.root: directcomp
 ms.assetid: 8CF6673B-9D9C-40B9-AC91-B2F63450FE64
-
 ms.date: 12/05/2018
 ms.keywords: IDCompositionTableTransferEffect interface [DirectComposition],SetAlphaTable method, IDCompositionTableTransferEffect.SetAlphaTable, IDCompositionTableTransferEffect::SetAlphaTable, SetAlphaTable, SetAlphaTable method [DirectComposition], SetAlphaTable method [DirectComposition],IDCompositionTableTransferEffect interface, dcomp/IDCompositionTableTransferEffect::SetAlphaTable, directcomp.idcompositiontabletransfereffect_setalphatable
 ms.topic: method
-f1_keywords: 
- - "dcomp/IDCompositionTableTransferEffect.SetAlphaTable"
+f1_keywords:
+- dcomp/IDCompositionTableTransferEffect.SetAlphaTable
 dev_langs:
- - c++
+- c++
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dcomp.lib
 req.dll: Dcomp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dcomp.dll
+- Dcomp.dll
 api_name:
- - IDCompositionTableTransferEffect.SetAlphaTable
+- IDCompositionTableTransferEffect.SetAlphaTable
 targetos: Windows
 req.typenames: 
 req.redist: 

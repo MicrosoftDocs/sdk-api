@@ -1,19 +1,17 @@
 ---
 UID: NF:oaidl.ICreateTypeInfo.SetFuncAndParamNames
 title: ICreateTypeInfo::SetFuncAndParamNames (oaidl.h)
-
 description: Sets the name of a function and the names of its parameters to the specified names.
 old-location: automat\icreatetypeinfo_setfuncandparamnames.htm
 tech.root: automat
 ms.assetid: e3764917-43ea-4151-95da-e01946a2ebb7
-
 ms.date: 12/05/2018
 ms.keywords: ICreateTypeInfo interface [Automation],SetFuncAndParamNames method, ICreateTypeInfo.SetFuncAndParamNames, ICreateTypeInfo::SetFuncAndParamNames, SetFuncAndParamNames, SetFuncAndParamNames method [Automation], SetFuncAndParamNames method [Automation],ICreateTypeInfo interface, _oa96_ICreateTypeInfo_SetFuncAndParamNames, automat.icreatetypeinfo_setfuncandparamnames, oaidl/ICreateTypeInfo::SetFuncAndParamNames
 ms.topic: method
-f1_keywords: 
- - "oaidl/ICreateTypeInfo.SetFuncAndParamNames"
+f1_keywords:
+- oaidl/ICreateTypeInfo.SetFuncAndParamNames
 dev_langs:
- - c++
+- c++
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - oaidl.h
+- oaidl.h
 api_name:
- - ICreateTypeInfo.SetFuncAndParamNames
+- ICreateTypeInfo.SetFuncAndParamNames
 targetos: Windows
 req.typenames: 
 req.redist: 

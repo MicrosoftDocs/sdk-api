@@ -1,19 +1,17 @@
 ---
 UID: NN:icontact.IContactCollection
 title: IContactCollection (icontact.h)
-
 description: Do not use. Enumerates the contacts known by the IContactManager.
 old-location: wincontacts\_wincontacts_IContactCollection.htm
 tech.root: wincontacts
 ms.assetid: 4d7f26b0-a2c0-4c7b-8f1d-f918cb1e0897
-
 ms.date: 12/05/2018
 ms.keywords: IContactCollection, IContactCollection interface [Windows Contacts], IContactCollection interface [Windows Contacts],described, _wincontacts_IContactCollection, icontact/IContactCollection, wincontacts._wincontacts_IContactCollection
 ms.topic: interface
-f1_keywords: 
- - "icontact/IContactCollection"
+f1_keywords:
+- icontact/IContactCollection
 dev_langs:
- - c++
+- c++
 req.header: icontact.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wab32.dll (Version 6.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wab32.dll
+- Wab32.dll
 api_name:
- - IContactCollection
+- IContactCollection
 targetos: Windows
 req.typenames: 
 req.redist: 

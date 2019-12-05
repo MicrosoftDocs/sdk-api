@@ -1,19 +1,17 @@
 ---
 UID: NF:rpcdce.RpcMgmtStatsVectorFree
 title: RpcMgmtStatsVectorFree function (rpcdce.h)
-
 description: The RpcMgmtStatsVectorFree function frees a statistics vector.
 old-location: rpc\rpcmgmtstatsvectorfree.htm
 tech.root: Rpc
 ms.assetid: 0dc98053-8599-4884-a56a-5889a4480dcb
-
 ms.date: 12/05/2018
 ms.keywords: RpcMgmtStatsVectorFree, RpcMgmtStatsVectorFree function [RPC], _rpc_rpcmgmtstatsvectorfree, rpc.rpcmgmtstatsvectorfree, rpcdce/RpcMgmtStatsVectorFree
 ms.topic: function
-f1_keywords: 
- - "rpcdce/RpcMgmtStatsVectorFree"
+f1_keywords:
+- rpcdce/RpcMgmtStatsVectorFree
 dev_langs:
- - c++
+- c++
 req.header: rpcdce.h
 req.include-header: Rpc.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Rpcrt4.lib
 req.dll: Rpcrt4.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Rpcrt4.dll
+- Rpcrt4.dll
 api_name:
- - RpcMgmtStatsVectorFree
+- RpcMgmtStatsVectorFree
 targetos: Windows
 req.typenames: 
 req.redist: 

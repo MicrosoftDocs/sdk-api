@@ -1,19 +1,17 @@
 ---
 UID: NF:portabledeviceapi.IPortableDeviceServiceCapabilities.GetInheritedServices
 title: IPortableDeviceServiceCapabilities::GetInheritedServices (portabledeviceapi.h)
-
 description: Retrieves the services having the specified inheritance type.
 old-location: wpdsdk\iportabledeviceservicecapabilities_getinheritedservices.htm
 tech.root: wpd_sdk
 ms.assetid: f5640d6a-6c2f-4bd3-adff-628017f5b867
-
 ms.date: 12/05/2018
 ms.keywords: GetInheritedServices, GetInheritedServices method [Windows Portable Devices SDK], GetInheritedServices method [Windows Portable Devices SDK],IPortableDeviceServiceCapabilities interface, IPortableDeviceServiceCapabilities interface [Windows Portable Devices SDK],GetInheritedServices method, IPortableDeviceServiceCapabilities.GetInheritedServices, IPortableDeviceServiceCapabilities::GetInheritedServices, portabledeviceapi/IPortableDeviceServiceCapabilities::GetInheritedServices, wpdsdk.iportabledeviceservicecapabilities_getinheritedservices
 ms.topic: method
-f1_keywords: 
- - "portabledeviceapi/IPortableDeviceServiceCapabilities.GetInheritedServices"
+f1_keywords:
+- portabledeviceapi/IPortableDeviceServiceCapabilities.GetInheritedServices
 dev_langs:
- - c++
+- c++
 req.header: portabledeviceapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - PortableDeviceAPI.h
+- PortableDeviceAPI.h
 api_name:
- - IPortableDeviceServiceCapabilities.GetInheritedServices
+- IPortableDeviceServiceCapabilities.GetInheritedServices
 targetos: Windows
 req.typenames: 
 req.redist: 

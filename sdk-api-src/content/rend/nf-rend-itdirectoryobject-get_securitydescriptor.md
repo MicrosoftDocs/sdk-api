@@ -1,19 +1,17 @@
 ---
 UID: NF:rend.ITDirectoryObject.get_SecurityDescriptor
 title: ITDirectoryObject::get_SecurityDescriptor (rend.h)
-
 description: The get_SecurityDescriptor method gets an IDispatch pointer on a directory service security descriptor object describing current security permissions.
 old-location: tapi3\itdirectoryobject_get_securitydescriptor.htm
 tech.root: Tapi
 ms.assetid: 746367e1-4319-4903-843f-7a25d60f4223
-
 ms.date: 12/05/2018
 ms.keywords: ITDirectoryObject interface [TAPI 2.2],get_SecurityDescriptor method, ITDirectoryObject.get_SecurityDescriptor, ITDirectoryObject::get_SecurityDescriptor, _tapi3_itdirectoryobject_get_securitydescriptor, get_SecurityDescriptor, get_SecurityDescriptor method [TAPI 2.2], get_SecurityDescriptor method [TAPI 2.2],ITDirectoryObject interface, rend/ITDirectoryObject::get_SecurityDescriptor, tapi3.itdirectoryobject_get_securitydescriptor
 ms.topic: method
-f1_keywords: 
- - "rend/ITDirectoryObject.get_SecurityDescriptor"
+f1_keywords:
+- rend/ITDirectoryObject.get_SecurityDescriptor
 dev_langs:
- - c++
+- c++
 req.header: rend.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Rend.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Rend.dll
+- Rend.dll
 api_name:
- - ITDirectoryObject.get_SecurityDescriptor
+- ITDirectoryObject.get_SecurityDescriptor
 targetos: Windows
 req.typenames: 
 req.redist: 

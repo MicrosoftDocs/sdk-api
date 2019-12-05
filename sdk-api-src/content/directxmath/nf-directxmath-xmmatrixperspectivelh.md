@@ -1,19 +1,17 @@
 ---
 UID: NF:directxmath.XMMatrixPerspectiveLH
 title: XMMatrixPerspectiveLH function (directxmath.h)
-
 description: Builds a left-handed perspective projection matrix.
 old-location: dxmath\xmmatrixperspectivelh.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.matrix.XMMatrixPerspectiveLH(float,float,float,float)
-
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMMatrixPerspectiveLH, XMMatrixPerspectiveLH, XMMatrixPerspectiveLH method [DirectX Math Support APIs], dxmath.xmmatrixperspectivelh
 ms.topic: function
-f1_keywords: 
- - "directxmath/XMMatrixPerspectiveLH"
+f1_keywords:
+- directxmath/XMMatrixPerspectiveLH
 dev_langs:
- - c++
+- c++
 req.header: directxmath.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - DirectXMath.h
+- DirectXMath.h
 api_name:
- - XMMatrixPerspectiveLH
+- XMMatrixPerspectiveLH
 targetos: Windows
 req.typenames: 
 req.redist: 

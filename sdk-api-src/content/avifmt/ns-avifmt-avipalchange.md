@@ -1,19 +1,17 @@
 ---
 UID: NS:avifmt.__unnamed_struct_3
 title: AVIPALCHANGE (avifmt.h)
-
 description: The AVIPALCHANGE structure defines a palette change in an AVI file.
 old-location: dshow\avipalchange.htm
 tech.root: DirectShow
 ms.assetid: f8f38fe0-f506-4cf8-9a6d-381cf46b51a4
-
 ms.date: 12/05/2018
 ms.keywords: AVIPALCHANGE, AVIPALCHANGE structure [DirectShow], AVIPALCHANGEStructure, _AVIPALchange, avifmt/AVIPALCHANGE, dshow.avipalchange
 ms.topic: struct
-f1_keywords: 
- - "avifmt/AVIPALCHANGE"
+f1_keywords:
+- avifmt/AVIPALCHANGE
 dev_langs:
- - c++
+- c++
 req.header: avifmt.h
 req.include-header: Vfw.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - avifmt.h
+- avifmt.h
 api_name:
- - AVIPALCHANGE
+- AVIPALCHANGE
 targetos: Windows
 req.typenames: AVIPALCHANGE
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:mswmdm.IWMDMOperation.End
 title: IWMDMOperation::End (mswmdm.h)
-
 description: The End method indicates that a read or write operation is finished, whether successful or not, and it returns a completion code.
 old-location: wmdm\iwmdmoperation_end.htm
 tech.root: WMDM
 ms.assetid: f1a3f0b7-033d-4e93-aaca-43db88a9b705
-
 ms.date: 12/05/2018
 ms.keywords: End, End method [windows Media Device Manager], End method [windows Media Device Manager],IWMDMOperation interface, IWMDMOperation interface [windows Media Device Manager],End method, IWMDMOperation.End, IWMDMOperation::End, IWMDMOperationEnd, mswmdm/IWMDMOperation::End, wmdm.iwmdmoperation_end
 ms.topic: method
-f1_keywords: 
- - "mswmdm/IWMDMOperation.End"
+f1_keywords:
+- mswmdm/IWMDMOperation.End
 dev_langs:
- - c++
+- c++
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mssachlp.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mssachlp.lib
- - mssachlp.dll
+- mssachlp.lib
+- mssachlp.dll
 api_name:
- - IWMDMOperation.End
+- IWMDMOperation.End
 targetos: Windows
 req.typenames: 
 req.redist: 

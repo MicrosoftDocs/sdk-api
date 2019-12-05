@@ -1,19 +1,17 @@
 ---
 UID: NF:tom.ITextRange.GetPoint
 title: ITextRange::GetPoint (tom.h)
-
 description: Retrieves screen coordinates for the start or end character position in the text range, along with the intra-line position.
 old-location: controls\ITextRange_GetPoint.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\getpoint.htm
-
 ms.date: 12/05/2018
 ms.keywords: GetPoint, GetPoint method [Windows Controls], GetPoint method [Windows Controls],ITextRange interface, ITextRange interface [Windows Controls],GetPoint method, ITextRange.GetPoint, ITextRange::GetPoint, _win32_ITextRange_GetPoint, _win32_ITextRange_GetPoint_cpp, controls.ITextRange_GetPoint, controls._win32_ITextRange_GetPoint, tom/ITextRange::GetPoint, tomAllowOffClient, tomClientCoord, tomEnd, tomObjectArg, tomStart, tomTransform
 ms.topic: method
-f1_keywords: 
- - "tom/ITextRange.GetPoint"
+f1_keywords:
+- tom/ITextRange.GetPoint
 dev_langs:
- - c++
+- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msftedit.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msftedit.dll
+- Msftedit.dll
 api_name:
- - ITextRange.GetPoint
+- ITextRange.GetPoint
 targetos: Windows
 req.typenames: 
 req.redist: 

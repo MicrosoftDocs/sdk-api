@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d9.IDirect3DVolume9.GetContainer
 title: IDirect3DVolume9::GetContainer (d3d9.h)
-
 description: Provides access to the parent volume texture object, if this surface is a child level of a volume texture.
 old-location: direct3d9\idirect3dvolume9__getcontainer.htm
 tech.root: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3dvolume9__getcontainer.htm
-
 ms.date: 12/05/2018
 ms.keywords: 0941591e-d47b-5e74-736a-768203a929fd, GetContainer, GetContainer method [Direct3D 9], GetContainer method [Direct3D 9],IDirect3DVolume9 interface, IDirect3DVolume9 interface [Direct3D 9],GetContainer method, IDirect3DVolume9.GetContainer, IDirect3DVolume9::GetContainer, d3d9helper/IDirect3DVolume9::GetContainer, direct3d9.idirect3dvolume9__getcontainer
 ms.topic: method
-f1_keywords: 
- - "d3d9/IDirect3DVolume9.GetContainer"
+f1_keywords:
+- d3d9/IDirect3DVolume9.GetContainer
 dev_langs:
- - c++
+- c++
 req.header: d3d9.h
 req.include-header: D3D9.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: D3D9.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D9.lib
- - D3D9.dll
+- D3D9.lib
+- D3D9.dll
 api_name:
- - IDirect3DVolume9.GetContainer
+- IDirect3DVolume9.GetContainer
 targetos: Windows
 req.typenames: 
 req.redist: 

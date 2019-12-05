@@ -1,19 +1,17 @@
 ---
 UID: NF:vds.IVdsVolumeShrink.QueryMaxReclaimableBytes
 title: IVdsVolumeShrink::QueryMaxReclaimableBytes (vds.h)
-
 description: Retrieves the maximum number of bytes that can be reclaimed from the current volume.
 old-location: base\ivdsvolumeshrink_querymaxreclaimablebytes.htm
 tech.root: VDS
 ms.assetid: 416ceb78-50fb-4976-8814-3981b594ebec
-
 ms.date: 12/05/2018
 ms.keywords: IVdsVolumeShrink interface,QueryMaxReclaimableBytes method, IVdsVolumeShrink.QueryMaxReclaimableBytes, IVdsVolumeShrink::QueryMaxReclaimableBytes, QueryMaxReclaimableBytes, QueryMaxReclaimableBytes method, QueryMaxReclaimableBytes method,IVdsVolumeShrink interface, base.ivdsvolumeshrink_querymaxreclaimablebytes, vds/IVdsVolumeShrink::QueryMaxReclaimableBytes
 ms.topic: method
-f1_keywords: 
- - "vds/IVdsVolumeShrink.QueryMaxReclaimableBytes"
+f1_keywords:
+- vds/IVdsVolumeShrink.QueryMaxReclaimableBytes
 dev_langs:
- - c++
+- c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Uuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Uuid.lib
- - Uuid.dll
+- Uuid.lib
+- Uuid.dll
 api_name:
- - IVdsVolumeShrink.QueryMaxReclaimableBytes
+- IVdsVolumeShrink.QueryMaxReclaimableBytes
 targetos: Windows
 req.typenames: 
 req.redist: 

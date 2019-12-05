@@ -1,19 +1,17 @@
 ---
 UID: NS:wingdi.tagEMRSETCOLORADJUSTMENT
 title: EMRSETCOLORADJUSTMENT (wingdi.h)
-
 description: The EMRSETCOLORADJUSTMENT structure contains members for the SetColorAdjustment enhanced metafile record.
 old-location: gdi\emrsetcoloradjustment.htm
 tech.root: gdi
 ms.assetid: d9f99f71-d102-484f-beb4-0d2de1070345
-
 ms.date: 12/05/2018
-ms.keywords: "*PEMRSETCOLORADJUSTMENT, EMRSETCOLORADJUSTMENT, EMRSETCOLORADJUSTMENT structure [Windows GDI], PEMRSETCOLORADJUSTMENT, PEMRSETCOLORADJUSTMENT structure pointer [Windows GDI], _win32_EMRSETCOLORADJUSTMENT_str, gdi.emrsetcoloradjustment, wingdi/EMRSETCOLORADJUSTMENT, wingdi/PEMRSETCOLORADJUSTMENT"
+ms.keywords: '*PEMRSETCOLORADJUSTMENT, EMRSETCOLORADJUSTMENT, EMRSETCOLORADJUSTMENT structure [Windows GDI], PEMRSETCOLORADJUSTMENT, PEMRSETCOLORADJUSTMENT structure pointer [Windows GDI], _win32_EMRSETCOLORADJUSTMENT_str, gdi.emrsetcoloradjustment, wingdi/EMRSETCOLORADJUSTMENT, wingdi/PEMRSETCOLORADJUSTMENT'
 ms.topic: struct
-f1_keywords: 
- - "wingdi/EMRSETCOLORADJUSTMENT"
+f1_keywords:
+- wingdi/EMRSETCOLORADJUSTMENT
 dev_langs:
- - c++
+- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wingdi.h
+- Wingdi.h
 api_name:
- - EMRSETCOLORADJUSTMENT
+- EMRSETCOLORADJUSTMENT
 targetos: Windows
 req.typenames: EMRSETCOLORADJUSTMENT, *PEMRSETCOLORADJUSTMENT
 req.redist: 

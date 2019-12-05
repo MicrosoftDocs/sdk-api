@@ -1,19 +1,17 @@
 ---
 UID: NN:tapi3if.IEnumLocation
 title: IEnumLocation (tapi3if.h)
-
 description: The IEnumLocation interface provides COM-standard enumeration methods for the ITLocationInfo interface. The ITAddressTranslation::EnumerateLocations method returns a pointer to IEnumLocation.
 old-location: tapi3\ienumlocation.htm
 tech.root: Tapi
 ms.assetid: fc8c235c-92ec-448f-bbea-c93192d36beb
-
 ms.date: 12/05/2018
 ms.keywords: IEnumLocation, IEnumLocation interface [TAPI 2.2], IEnumLocation interface [TAPI 2.2],described, _tapi3_ienumlocation, tapi3.ienumlocation, tapi3if/IEnumLocation
 ms.topic: interface
-f1_keywords: 
- - "tapi3if/IEnumLocation"
+f1_keywords:
+- tapi3if/IEnumLocation
 dev_langs:
- - c++
+- c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Tapi3.dll
+- Tapi3.dll
 api_name:
- - IEnumLocation
+- IEnumLocation
 targetos: Windows
 req.typenames: 
 req.redist: 

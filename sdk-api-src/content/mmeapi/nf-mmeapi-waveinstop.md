@@ -1,19 +1,17 @@
 ---
 UID: NF:mmeapi.waveInStop
 title: waveInStop function (mmeapi.h)
-
 description: The waveInStop function stops waveform-audio input.
 old-location: multimedia\waveinstop.htm
 tech.root: Multimedia
 ms.assetid: c56085f9-256d-41e2-a3d5-7d17d42f0e57
-
 ms.date: 12/05/2018
-ms.keywords: "_win32_waveInStop, mmeapi/waveInStop, multimedia.waveinstop, waveInStop, waveInStop function [Windows Multimedia]"
+ms.keywords: _win32_waveInStop, mmeapi/waveInStop, multimedia.waveinstop, waveInStop, waveInStop function [Windows Multimedia]
 ms.topic: function
-f1_keywords: 
- - "mmeapi/waveInStop"
+f1_keywords:
+- mmeapi/waveInStop
 dev_langs:
- - c++
+- c++
 req.header: mmeapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Winmm.lib
 req.dll: Winmm.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Winmm.dll
- - API-MS-Win-mm-mme-l1-1-0.dll
- - winmmbase.dll
+- Winmm.dll
+- API-MS-Win-mm-mme-l1-1-0.dll
+- winmmbase.dll
 api_name:
- - waveInStop
+- waveInStop
 targetos: Windows
 req.typenames: 
 req.redist: 

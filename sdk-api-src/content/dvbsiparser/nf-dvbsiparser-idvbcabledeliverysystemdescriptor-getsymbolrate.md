@@ -1,19 +1,17 @@
 ---
 UID: NF:dvbsiparser.IDvbCableDeliverySystemDescriptor.GetSymbolRate
 title: IDvbCableDeliverySystemDescriptor::GetSymbolRate (dvbsiparser.h)
-
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\idvbcabledeliverysystemdescriptor_getsymbolrate.htm
 tech.root: mstv
 ms.assetid: 0484e12d-6b93-4ed6-865a-d4992ad1de75
-
 ms.date: 12/05/2018
 ms.keywords: GetSymbolRate, GetSymbolRate method [Microsoft TV Technologies], GetSymbolRate method [Microsoft TV Technologies],IDvbCableDeliverySystemDescriptor interface, IDvbCableDeliverySystemDescriptor interface [Microsoft TV Technologies],GetSymbolRate method, IDvbCableDeliverySystemDescriptor.GetSymbolRate, IDvbCableDeliverySystemDescriptor::GetSymbolRate, IDvbCableDeliverySystemDescriptorGetSymbolRate, dvbsiparser/IDvbCableDeliverySystemDescriptor::GetSymbolRate, mstv.idvbcabledeliverysystemdescriptor_getsymbolrate
 ms.topic: method
-f1_keywords: 
- - "dvbsiparser/IDvbCableDeliverySystemDescriptor.GetSymbolRate"
+f1_keywords:
+- dvbsiparser/IDvbCableDeliverySystemDescriptor.GetSymbolRate
 dev_langs:
- - c++
+- c++
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dvbsiparser.h
+- dvbsiparser.h
 api_name:
- - IDvbCableDeliverySystemDescriptor.GetSymbolRate
+- IDvbCableDeliverySystemDescriptor.GetSymbolRate
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:comsvcs.ICrmMonitorLogRecords.GetLogRecord
 title: ICrmMonitorLogRecords::GetLogRecord (comsvcs.h)
-
 description: Retrieves an unstructured log record given its numeric index.
 old-location: cos\icrmmonitorlogrecords_getlogrecord.htm
 tech.root: cossdk
 ms.assetid: 9b5b566a-e98c-482d-9959-3498000875d3
-
 ms.date: 12/05/2018
 ms.keywords: GetLogRecord, GetLogRecord method [COM+], GetLogRecord method [COM+],ICrmMonitorLogRecords interface, ICrmMonitorLogRecords interface [COM+],GetLogRecord method, ICrmMonitorLogRecords.GetLogRecord, ICrmMonitorLogRecords::GetLogRecord, _dtc_ICrmMonitorLogRecords_GetLogRecord, comsvcs/ICrmMonitorLogRecords::GetLogRecord, cos.icrmmonitorlogrecords_getlogrecord
 ms.topic: method
-f1_keywords: 
- - "comsvcs/ICrmMonitorLogRecords.GetLogRecord"
+f1_keywords:
+- comsvcs/ICrmMonitorLogRecords.GetLogRecord
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - ICrmMonitorLogRecords.GetLogRecord
+- ICrmMonitorLogRecords.GetLogRecord
 targetos: Windows
 req.typenames: 
 req.redist: 

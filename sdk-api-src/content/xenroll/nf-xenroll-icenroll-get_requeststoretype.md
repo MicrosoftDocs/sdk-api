@@ -1,19 +1,17 @@
 ---
 UID: NF:xenroll.ICEnroll.get_RequestStoreType
 title: ICEnroll::get_RequestStoreType (xenroll.h)
-
 description: Sets or retrieves the type of store to use for the store specified by the RequestStoreName property. This store type is passed directly to the CertOpenStore function.
 old-location: security\icenroll4_requeststoretype.htm
 tech.root: SecCrypto
 ms.assetid: cc0d09bc-3589-454d-a1fe-141af46bc45b
-
 ms.date: 12/05/2018
 ms.keywords: CEnroll object [Security],RequestStoreType property, ICEnroll interface [Security],RequestStoreType property, ICEnroll.RequestStoreType, ICEnroll.get_RequestStoreType, ICEnroll2 interface [Security],RequestStoreType property, ICEnroll2.RequestStoreType, ICEnroll2::get_RequestStoreType, ICEnroll2::put_RequestStoreType, ICEnroll3 interface [Security],RequestStoreType property, ICEnroll3.RequestStoreType, ICEnroll3::get_RequestStoreType, ICEnroll3::put_RequestStoreType, ICEnroll4 interface [Security],RequestStoreType property, ICEnroll4.RequestStoreType, ICEnroll4::RequestStoreType, ICEnroll4::get_RequestStoreType, ICEnroll4::put_RequestStoreType, ICEnroll::get_RequestStoreType, ICEnroll::put_RequestStoreType, RequestStoreType property [Security], RequestStoreType property [Security],CEnroll object, RequestStoreType property [Security],ICEnroll interface, RequestStoreType property [Security],ICEnroll2 interface, RequestStoreType property [Security],ICEnroll3 interface, RequestStoreType property [Security],ICEnroll4 interface, get_RequestStoreType, security.icenroll4_requeststoretype, sz_CERT_STORE_PROV_SYSTEM, sz_CERT_STORE_PROV_SYSTEM_W, xenroll/ICEnroll2::RequestStoreType, xenroll/ICEnroll2::get_RequestStoreType, xenroll/ICEnroll2::put_RequestStoreType, xenroll/ICEnroll3::RequestStoreType, xenroll/ICEnroll3::get_RequestStoreType, xenroll/ICEnroll3::put_RequestStoreType, xenroll/ICEnroll4::RequestStoreType, xenroll/ICEnroll4::get_RequestStoreType, xenroll/ICEnroll4::put_RequestStoreType, xenroll/ICEnroll::RequestStoreType, xenroll/ICEnroll::get_RequestStoreType, xenroll/ICEnroll::put_RequestStoreType
 ms.topic: method
-f1_keywords: 
- - "xenroll/ICEnroll4.RequestStoreType"
+f1_keywords:
+- xenroll/ICEnroll4.RequestStoreType
 dev_langs:
- - c++
+- c++
 req.header: xenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,26 +30,26 @@ req.lib: Uuid.lib
 req.dll: Xenroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Xenroll.dll
+- Xenroll.dll
 api_name:
- - ICEnroll4.RequestStoreType
- - ICEnroll4.get_RequestStoreType
- - ICEnroll4.put_RequestStoreType
- - ICEnroll3.RequestStoreType
- - ICEnroll3.get_RequestStoreType
- - ICEnroll3.put_RequestStoreType
- - ICEnroll2.RequestStoreType
- - ICEnroll2.get_RequestStoreType
- - ICEnroll2.put_RequestStoreType
- - ICEnroll.RequestStoreType
- - ICEnroll.get_RequestStoreType
- - ICEnroll.put_RequestStoreType
- - CEnroll.RequestStoreType
+- ICEnroll4.RequestStoreType
+- ICEnroll4.get_RequestStoreType
+- ICEnroll4.put_RequestStoreType
+- ICEnroll3.RequestStoreType
+- ICEnroll3.get_RequestStoreType
+- ICEnroll3.put_RequestStoreType
+- ICEnroll2.RequestStoreType
+- ICEnroll2.get_RequestStoreType
+- ICEnroll2.put_RequestStoreType
+- ICEnroll.RequestStoreType
+- ICEnroll.get_RequestStoreType
+- ICEnroll.put_RequestStoreType
+- CEnroll.RequestStoreType
 targetos: Windows
 req.typenames: 
 req.redist: 

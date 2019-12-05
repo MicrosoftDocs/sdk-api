@@ -1,19 +1,17 @@
 ---
 UID: NF:iscsidsc.RemoveIScsiSendTargetPortalW
 title: RemoveIScsiSendTargetPortalW function (iscsidsc.h)
-
 description: RemoveIscsiSendTargetPortal function removes a portal from the list of portals to which the iSCSI initiator service sends SendTargets requests for target discovery.
 old-location: iscsidisc\removeiscsisendtargetportal.htm
 tech.root: iSCSIDisc
 ms.assetid: f9c05a86-3484-4092-b384-c599fbf1e60f
-
 ms.date: 12/05/2018
 ms.keywords: RemoveIScsiSendTargetPortalW, RemoveIscsiSendTargetPortal, RemoveIscsiSendTargetPortal function [iSCSI Discovery Library API], RemoveIscsiSendTargetPortalA, RemoveIscsiSendTargetPortalW, iscsidisc.removeiscsisendtargetportal, iscsidsc/RemoveIscsiSendTargetPortal, iscsidsc/RemoveIscsiSendTargetPortalA, iscsidsc/RemoveIscsiSendTargetPortalW
 ms.topic: function
-f1_keywords: 
- - "iscsidsc/RemoveIscsiSendTargetPortal"
+f1_keywords:
+- iscsidsc/RemoveIscsiSendTargetPortal
 dev_langs:
- - c++
+- c++
 req.header: iscsidsc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Iscsidsc.lib
 req.dll: Iscsidsc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Iscsidsc.dll
+- Iscsidsc.dll
 api_name:
- - RemoveIscsiSendTargetPortal
- - RemoveIscsiSendTargetPortalA
- - RemoveIscsiSendTargetPortalW
+- RemoveIscsiSendTargetPortal
+- RemoveIscsiSendTargetPortalA
+- RemoveIscsiSendTargetPortalW
 targetos: Windows
 req.typenames: 
 req.redist: 

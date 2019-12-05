@@ -1,19 +1,17 @@
 ---
 UID: NF:clusapi.ClusterGroupGetEnumCountEx
 title: ClusterGroupGetEnumCountEx function (clusapi.h)
-
 description: Returns the number of elements in the enumeration.
 old-location: mscs\clustergroupgetenumcountex.htm
 tech.root: MsCS
 ms.assetid: 28FCEC17-78C6-4902-BC4C-832BE3347380
-
 ms.date: 12/05/2018
 ms.keywords: ClusterGroupGetEnumCountEx, ClusterGroupGetEnumCountEx function [Failover Cluster], PCLUSAPI_CLUSTER_GROUP_GET_ENUM_COUNT_EX, PCLUSAPI_CLUSTER_GROUP_GET_ENUM_COUNT_EX function [Failover Cluster], clusapi/ClusterGroupGetEnumCountEx, clusapi/PCLUSAPI_CLUSTER_GROUP_GET_ENUM_COUNT_EX, mscs.clustergroupgetenumcountex
 ms.topic: function
-f1_keywords: 
- - "clusapi/ClusterGroupGetEnumCountEx"
+f1_keywords:
+- clusapi/ClusterGroupGetEnumCountEx
 dev_langs:
- - c++
+- c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: ClusAPI.lib
 req.dll: ClusAPI.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - ClusAPI.dll
+- ClusAPI.dll
 api_name:
- - ClusterGroupGetEnumCountEx
+- ClusterGroupGetEnumCountEx
 targetos: Windows
 req.typenames: 
 req.redist: 

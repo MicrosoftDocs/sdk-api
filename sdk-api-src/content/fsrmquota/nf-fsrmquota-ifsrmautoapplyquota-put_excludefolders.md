@@ -1,19 +1,17 @@
 ---
 UID: NF:fsrmquota.IFsrmAutoApplyQuota.put_ExcludeFolders
 title: IFsrmAutoApplyQuota::put_ExcludeFolders (fsrmquota.h)
-
 description: Retrieves or sets an array of immediate subdirectories to exclude from the automatic quota.
 old-location: fsrm\ifsrmautoapplyquota_excludefolders.htm
 tech.root: fsrm
 ms.assetid: 1682e53c-f494-4fa4-b192-203b76e47394
-
 ms.date: 12/05/2018
 ms.keywords: ExcludeFolders property [File Server Resource Manager], ExcludeFolders property [File Server Resource Manager],IFsrmAutoApplyQuota interface, IFsrmAutoApplyQuota interface [File Server Resource Manager],ExcludeFolders property, IFsrmAutoApplyQuota.ExcludeFolders, IFsrmAutoApplyQuota.put_ExcludeFolders, IFsrmAutoApplyQuota::ExcludeFolders, IFsrmAutoApplyQuota::get_ExcludeFolders, IFsrmAutoApplyQuota::put_ExcludeFolders, fs.ifsrmautoapplyquota_excludefolders, fsrm.ifsrmautoapplyquota_excludefolders, fsrmquota/IFsrmAutoApplyQuota::ExcludeFolders, fsrmquota/IFsrmAutoApplyQuota::get_ExcludeFolders, fsrmquota/IFsrmAutoApplyQuota::put_ExcludeFolders, put_ExcludeFolders
 ms.topic: method
-f1_keywords: 
- - "fsrmquota/IFsrmAutoApplyQuota.ExcludeFolders"
+f1_keywords:
+- fsrmquota/IFsrmAutoApplyQuota.ExcludeFolders
 dev_langs:
- - c++
+- c++
 req.header: fsrmquota.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: SrmSvc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - SrmSvc.dll
+- SrmSvc.dll
 api_name:
- - IFsrmAutoApplyQuota.ExcludeFolders
- - IFsrmAutoApplyQuota.get_ExcludeFolders
- - IFsrmAutoApplyQuota.put_ExcludeFolders
+- IFsrmAutoApplyQuota.ExcludeFolders
+- IFsrmAutoApplyQuota.get_ExcludeFolders
+- IFsrmAutoApplyQuota.put_ExcludeFolders
 targetos: Windows
 req.typenames: 
 req.redist: 

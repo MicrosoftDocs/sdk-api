@@ -1,19 +1,17 @@
 ---
 UID: NF:mmc.MMCPropertyHelp
 title: MMCPropertyHelp function (mmc.h)
-
 description: Displays the specified HTML Help topic in the merged MMC HTML Help file for a property page.
 old-location: mmc\mmcpropertyhelp.htm
 tech.root: mmc
 ms.assetid: c3b0fa86-dff4-4c35-9b08-633448db18be
-
 ms.date: 12/05/2018
 ms.keywords: MMCPropertyHelp, MMCPropertyHelp callback, MMCPropertyHelp callback function [MMC], _slate_mmcpropertyhelp, mmc.mmcpropertyhelp, mmc/MMCPropertyHelp
 ms.topic: function
-f1_keywords: 
- - "mmc/MMCPropertyHelp"
+f1_keywords:
+- mmc/MMCPropertyHelp
 dev_langs:
- - c++
+- c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Mmc.h
+- Mmc.h
 api_name:
- - MMCPropertyHelp
+- MMCPropertyHelp
 targetos: Windows
 req.typenames: 
 req.redist: 

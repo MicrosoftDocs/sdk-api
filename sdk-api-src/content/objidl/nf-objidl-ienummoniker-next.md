@@ -1,19 +1,17 @@
 ---
 UID: NF:objidl.IEnumMoniker.Next
 title: IEnumMoniker::Next (objidl.h)
-
 description: Retrieves the specified number of items in the enumeration sequence.
 old-location: com\ienummoniker_next.htm
 tech.root: com
 ms.assetid: ab4fd626-bddc-42b4-b279-b89d1f79b1e1
-
 ms.date: 12/05/2018
 ms.keywords: IEnumMoniker interface [COM],Next method, IEnumMoniker.Next, IEnumMoniker::Next, Next, Next method [COM], Next method [COM],IEnumMoniker interface, _ole_ienummoniker_next, com.ienummoniker_next, objidl/IEnumMoniker::Next
 ms.topic: method
-f1_keywords: 
- - "objidl/IEnumMoniker.Next"
+f1_keywords:
+- objidl/IEnumMoniker.Next
 dev_langs:
- - c++
+- c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ObjIdl.h
+- ObjIdl.h
 api_name:
- - IEnumMoniker.Next
+- IEnumMoniker.Next
 targetos: Windows
 req.typenames: 
 req.redist: 

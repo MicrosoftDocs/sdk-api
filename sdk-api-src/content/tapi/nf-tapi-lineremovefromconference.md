@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi.lineRemoveFromConference
 title: lineRemoveFromConference function (tapi.h)
-
 description: The lineRemoveFromConference function removes the specified call from the conference call to which it currently belongs. The remaining calls in the conference call are unaffected.
 old-location: tapi2\lineremovefromconference.htm
 tech.root: Tapi
 ms.assetid: 03363579-66c2-4bb5-b110-01084c20bf09
-
 ms.date: 12/05/2018
-ms.keywords: "_tapi2_lineremovefromconference, lineRemoveFromConference, lineRemoveFromConference function [TAPI 2.2], tapi/lineRemoveFromConference, tapi2.lineremovefromconference"
+ms.keywords: _tapi2_lineremovefromconference, lineRemoveFromConference, lineRemoveFromConference function [TAPI 2.2], tapi/lineRemoveFromConference, tapi2.lineremovefromconference
 ms.topic: function
-f1_keywords: 
- - "tapi/lineRemoveFromConference"
+f1_keywords:
+- tapi/lineRemoveFromConference
 dev_langs:
- - c++
+- c++
 req.header: tapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Tapi32.lib
 req.dll: Tapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Tapi32.dll
+- Tapi32.dll
 api_name:
- - lineRemoveFromConference
+- lineRemoveFromConference
 targetos: Windows
 req.typenames: 
 req.redist: 

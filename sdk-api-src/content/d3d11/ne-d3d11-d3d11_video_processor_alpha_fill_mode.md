@@ -1,19 +1,17 @@
 ---
 UID: NE:d3d11.D3D11_VIDEO_PROCESSOR_ALPHA_FILL_MODE
 title: D3D11_VIDEO_PROCESSOR_ALPHA_FILL_MODE (d3d11.h)
-
 description: Specifies the alpha fill mode for video processing.
 old-location: mf\d3d11_video_processor_alpha_fill_mode.htm
 tech.root: medfound
 ms.assetid: 185B71C5-1B27-4F7B-B842-CA04898F5DC1
-
 ms.date: 12/05/2018
 ms.keywords: D3D11_VIDEO_PROCESSOR_ALPHA_FILL_MODE, D3D11_VIDEO_PROCESSOR_ALPHA_FILL_MODE enumeration [Media Foundation], D3D11_VIDEO_PROCESSOR_ALPHA_FILL_MODE_BACKGROUND, D3D11_VIDEO_PROCESSOR_ALPHA_FILL_MODE_DESTINATION, D3D11_VIDEO_PROCESSOR_ALPHA_FILL_MODE_OPAQUE, D3D11_VIDEO_PROCESSOR_ALPHA_FILL_MODE_SOURCE_STREAM, d3d11/D3D11_VIDEO_PROCESSOR_ALPHA_FILL_MODE, d3d11/D3D11_VIDEO_PROCESSOR_ALPHA_FILL_MODE_BACKGROUND, d3d11/D3D11_VIDEO_PROCESSOR_ALPHA_FILL_MODE_DESTINATION, d3d11/D3D11_VIDEO_PROCESSOR_ALPHA_FILL_MODE_OPAQUE, d3d11/D3D11_VIDEO_PROCESSOR_ALPHA_FILL_MODE_SOURCE_STREAM, mf.d3d11_video_processor_alpha_fill_mode
 ms.topic: enum
-f1_keywords: 
- - "d3d11/D3D11_VIDEO_PROCESSOR_ALPHA_FILL_MODE"
+f1_keywords:
+- d3d11/D3D11_VIDEO_PROCESSOR_ALPHA_FILL_MODE
 dev_langs:
- - c++
+- c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - d3d11.h
+- d3d11.h
 api_name:
- - D3D11_VIDEO_PROCESSOR_ALPHA_FILL_MODE
+- D3D11_VIDEO_PROCESSOR_ALPHA_FILL_MODE
 targetos: Windows
 req.typenames: D3D11_VIDEO_PROCESSOR_ALPHA_FILL_MODE
 req.redist: 

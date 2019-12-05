@@ -1,19 +1,17 @@
 ---
 UID: NF:resapi.ClusWorkerCheckTerminate
 title: ClusWorkerCheckTerminate function (resapi.h)
-
 description: Determines whether a worker thread should exit as soon as possible. The PCLUSAPIClusWorkerCheckTerminate type defines a pointer to this function.
 old-location: mscs\clusworkercheckterminate.htm
 tech.root: MsCS
 ms.assetid: e8833961-ac0e-4d8c-a57e-5aabdb2c8c96
-
 ms.date: 12/05/2018
 ms.keywords: ClusWorkerCheckTerminate, ClusWorkerCheckTerminate function [Failover Cluster], PCLUSAPIClusWorkerCheckTerminate, PCLUSAPIClusWorkerCheckTerminate function [Failover Cluster], _wolf_clusworkercheckterminate, mscs.clusworkercheckterminate, resapi/ClusWorkerCheckTerminate, resapi/PCLUSAPIClusWorkerCheckTerminate
 ms.topic: function
-f1_keywords: 
- - "resapi/ClusWorkerCheckTerminate"
+f1_keywords:
+- resapi/ClusWorkerCheckTerminate
 dev_langs:
- - c++
+- c++
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: ResUtils.lib
 req.dll: ResUtils.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - ResUtils.dll
+- ResUtils.dll
 api_name:
- - ClusWorkerCheckTerminate
+- ClusWorkerCheckTerminate
 targetos: Windows
 req.typenames: 
 req.redist: 

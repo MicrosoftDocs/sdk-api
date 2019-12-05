@@ -1,19 +1,17 @@
 ---
 UID: NF:wuapi.IWebProxy.get_AutoDetect
 title: IWebProxy::get_AutoDetect (wuapi.h)
-
 description: Gets and sets a Boolean value that indicates whether IWebProxy automatically detects proxy settings.
 old-location: wua\iwebproxy_autodetect.htm
 tech.root: Wua_Sdk
 ms.assetid: cd222133-e44b-453a-9fbf-72f609cb2d4b
-
 ms.date: 12/05/2018
 ms.keywords: AutoDetect property [Windows Update Agent], AutoDetect property [Windows Update Agent],IWebProxy interface, IWebProxy interface [Windows Update Agent],AutoDetect property, IWebProxy.AutoDetect, IWebProxy.get_AutoDetect, IWebProxy::AutoDetect, IWebProxy::get_AutoDetect, IWebProxy::put_AutoDetect, get_AutoDetect, wua.iwebproxy_autodetect, wuapi/IWebProxy::AutoDetect, wuapi/IWebProxy::get_AutoDetect, wuapi/IWebProxy::put_AutoDetect
 ms.topic: method
-f1_keywords: 
- - "wuapi/IWebProxy.AutoDetect"
+f1_keywords:
+- wuapi/IWebProxy.AutoDetect
 dev_langs:
- - c++
+- c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Wuguid.lib
 req.dll: Wuapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wuapi.dll
+- Wuapi.dll
 api_name:
- - IWebProxy.AutoDetect
- - IWebProxy.get_AutoDetect
- - IWebProxy.put_AutoDetect
+- IWebProxy.AutoDetect
+- IWebProxy.get_AutoDetect
+- IWebProxy.put_AutoDetect
 targetos: Windows
 req.typenames: 
 req.redist: 

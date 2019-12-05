@@ -1,19 +1,17 @@
 ---
 UID: NF:uxtheme.GetThemeBackgroundExtent
 title: GetThemeBackgroundExtent function (uxtheme.h)
-
 description: Calculates the size and location of the background, defined by the visual style, given the content area.
 old-location: controls\GetThemeBackgroundExtent.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\userex\functions\getthemebackgroundextent.htm
-
 ms.date: 12/05/2018
 ms.keywords: GetThemeBackgroundExtent, GetThemeBackgroundExtent function [Windows Controls], controls.GetThemeBackgroundExtent, controls.inet_GetThemeBackgroundExtent, inet_GetThemeBackgroundExtent, inet_GetThemeBackgroundExtent_cpp, uxtheme/GetThemeBackgroundExtent
 ms.topic: function
-f1_keywords: 
- - "uxtheme/GetThemeBackgroundExtent"
+f1_keywords:
+- uxtheme/GetThemeBackgroundExtent
 dev_langs:
- - c++
+- c++
 req.header: uxtheme.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: UxTheme.lib
 req.dll: UxTheme.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - UxTheme.dll
- - Ext-MS-Win-UXTheme-Themes-l1-1-0.dll
- - xamlpalwp.dll
- - ext-ms-win-uxtheme-themes-l1-1-1.dll
+- UxTheme.dll
+- Ext-MS-Win-UXTheme-Themes-l1-1-0.dll
+- xamlpalwp.dll
+- ext-ms-win-uxtheme-themes-l1-1-1.dll
 api_name:
- - GetThemeBackgroundExtent
+- GetThemeBackgroundExtent
 targetos: Windows
 req.typenames: 
 req.redist: 

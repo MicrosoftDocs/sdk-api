@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationcore.IWindowProvider.WaitForInputIdle
 title: IWindowProvider::WaitForInputIdle (uiautomationcore.h)
-
 description: Causes the calling code to block for the specified time or until the associated process enters an idle state, whichever completes first.
 old-location: winauto\uiauto_IWindowProvider_WaitForInputIdle.htm
 tech.root: WinAuto
 ms.assetid: 787f8309-09aa-4e6a-bfbc-fc03b917ead4
-
 ms.date: 12/05/2018
 ms.keywords: IWindowProvider interface [Windows Accessibility],WaitForInputIdle method, IWindowProvider.WaitForInputIdle, IWindowProvider::WaitForInputIdle, WaitForInputIdle, WaitForInputIdle method [Windows Accessibility], WaitForInputIdle method [Windows Accessibility],IWindowProvider interface, uiauto.uiauto_IWindowProvider_WaitForInputIdle, uiauto_IWindowProvider_WaitForInputIdle, uiautomationcore/IWindowProvider::WaitForInputIdle, winauto.uiauto_IWindowProvider_WaitForInputIdle
 ms.topic: method
-f1_keywords: 
- - "uiautomationcore/IWindowProvider.WaitForInputIdle"
+f1_keywords:
+- uiautomationcore/IWindowProvider.WaitForInputIdle
 dev_langs:
- - c++
+- c++
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationCore.h
+- UIAutomationCore.h
 api_name:
- - IWindowProvider.WaitForInputIdle
+- IWindowProvider.WaitForInputIdle
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IFileDialogCustomize.SetCheckButtonState
 title: IFileDialogCustomize::SetCheckButtonState (shobjidl_core.h)
-
 description: Sets the state of a check button (check box) in the dialog.
 old-location: shell\IFileDialogCustomize_SetCheckButtonState.htm
 tech.root: shell
 ms.assetid: b028a811-e559-4152-9081-abaec0cab347
-
 ms.date: 12/05/2018
 ms.keywords: IFileDialogCustomize interface [Windows Shell],SetCheckButtonState method, IFileDialogCustomize.SetCheckButtonState, IFileDialogCustomize::SetCheckButtonState, SetCheckButtonState, SetCheckButtonState method [Windows Shell], SetCheckButtonState method [Windows Shell],IFileDialogCustomize interface, shell.IFileDialogCustomize_SetCheckButtonState, shell_IFileDialogCustomize_SetCheckButtonState, shobjidl_core/IFileDialogCustomize::SetCheckButtonState
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IFileDialogCustomize.SetCheckButtonState"
+f1_keywords:
+- shobjidl_core/IFileDialogCustomize.SetCheckButtonState
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - IFileDialogCustomize.SetCheckButtonState
+- IFileDialogCustomize.SetCheckButtonState
 targetos: Windows
 req.typenames: 
 req.redist: 

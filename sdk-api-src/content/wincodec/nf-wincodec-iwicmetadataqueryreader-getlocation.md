@@ -1,19 +1,17 @@
 ---
 UID: NF:wincodec.IWICMetadataQueryReader.GetLocation
 title: IWICMetadataQueryReader::GetLocation (wincodec.h)
-
 description: Retrieves the current path relative to the root metadata block.
 old-location: wic\_wic_codec_iwicmetadataqueryreader_getlocation.htm
 tech.root: wic
 ms.assetid: e63fad36-e0b7-46b3-a854-d59cfcf20728
-
 ms.date: 12/05/2018
 ms.keywords: GetLocation, GetLocation method [Windows Imaging Component], GetLocation method [Windows Imaging Component],IWICMetadataQueryReader interface, IWICMetadataQueryReader interface [Windows Imaging Component],GetLocation method, IWICMetadataQueryReader.GetLocation, IWICMetadataQueryReader::GetLocation, _wic_codec_iwicmetadataqueryreader_getlocation, wic._wic_codec_iwicmetadataqueryreader_getlocation, wincodec/IWICMetadataQueryReader::GetLocation
 ms.topic: method
-f1_keywords: 
- - "wincodec/IWICMetadataQueryReader.GetLocation"
+f1_keywords:
+- wincodec/IWICMetadataQueryReader.GetLocation
 dev_langs:
- - c++
+- c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Windowscodecs.lib
 req.dll: Windowscodecs.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Windowscodecs.dll
+- Windowscodecs.dll
 api_name:
- - IWICMetadataQueryReader.GetLocation
+- IWICMetadataQueryReader.GetLocation
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.INameSpaceTreeControl.GetItemRect
 title: INameSpaceTreeControl::GetItemRect (shobjidl_core.h)
-
 description: Gets the RECT structure that describes the size and position of a given item.
 old-location: shell\INameSpaceTreeControl_GetItemRect.htm
 tech.root: shell
 ms.assetid: 57e7707c-0fe2-4cde-87d8-2d58e7c06bba
-
 ms.date: 12/05/2018
 ms.keywords: GetItemRect, GetItemRect method [Windows Shell], GetItemRect method [Windows Shell],INameSpaceTreeControl interface, INameSpaceTreeControl interface [Windows Shell],GetItemRect method, INameSpaceTreeControl.GetItemRect, INameSpaceTreeControl::GetItemRect, _shell_INameSpaceTreeControl_GetItemRect, shell.INameSpaceTreeControl_GetItemRect, shobjidl_core/INameSpaceTreeControl::GetItemRect
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/INameSpaceTreeControl.GetItemRect"
+f1_keywords:
+- shobjidl_core/INameSpaceTreeControl.GetItemRect
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - INameSpaceTreeControl.GetItemRect
+- INameSpaceTreeControl.GetItemRect
 targetos: Windows
 req.typenames: 
 req.redist: 

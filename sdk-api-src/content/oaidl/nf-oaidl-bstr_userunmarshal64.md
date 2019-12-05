@@ -1,19 +1,17 @@
 ---
 UID: NF:oaidl.BSTR_UserUnmarshal64
 title: BSTR_UserUnmarshal64 function (oaidl.h)
-
 description: Unmarshals a BSTR object from the RPC buffer.
 old-location: automat\bstr_userunmarshal64.htm
 tech.root: automat
 ms.assetid: 5d0bb71f-f8a2-4af7-b7e4-177997af2c9b
-
 ms.date: 12/05/2018
 ms.keywords: BSTR_UserUnmarshal64, BSTR_UserUnmarshal64 function [Automation], automat.bstr_userunmarshal64, oaidl/BSTR_UserUnmarshal64
 ms.topic: function
-f1_keywords: 
- - "oaidl/BSTR_UserUnmarshal64"
+f1_keywords:
+- oaidl/BSTR_UserUnmarshal64
 dev_langs:
- - c++
+- c++
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: OleAut32.lib
 req.dll: OleAut32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - OleAut32.dll
+- OleAut32.dll
 api_name:
- - BSTR_UserUnmarshal64
+- BSTR_UserUnmarshal64
 targetos: Windows
 req.typenames: 
 req.redist: 

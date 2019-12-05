@@ -1,19 +1,17 @@
 ---
 UID: NF:sbtsv.ITsSbProvider.CreateTargetPropertySetObject
 title: ITsSbProvider::CreateTargetPropertySetObject (sbtsv.h)
-
 description: Creates an ITsSbTargetPropertySet target property set object.
 old-location: termserv\itssbprovider_createtargetpropertysetobject.htm
 tech.root: TermServ
 ms.assetid: 82e9d414-2137-44f3-a984-dc12aba3ecd9
-
 ms.date: 12/05/2018
 ms.keywords: CreateTargetPropertySetObject, CreateTargetPropertySetObject method [Remote Desktop Services], CreateTargetPropertySetObject method [Remote Desktop Services],ITsSbProvider interface, ITsSbProvider interface [Remote Desktop Services],CreateTargetPropertySetObject method, ITsSbProvider.CreateTargetPropertySetObject, ITsSbProvider::CreateTargetPropertySetObject, sbtsv/ITsSbProvider::CreateTargetPropertySetObject, termserv.itssbprovider_createtargetpropertysetobject
 ms.topic: method
-f1_keywords: 
- - "sbtsv/ITsSbProvider.CreateTargetPropertySetObject"
+f1_keywords:
+- sbtsv/ITsSbProvider.CreateTargetPropertySetObject
 dev_langs:
- - c++
+- c++
 req.header: sbtsv.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - sbtsv.h
+- sbtsv.h
 api_name:
- - ITsSbProvider.CreateTargetPropertySetObject
+- ITsSbProvider.CreateTargetPropertySetObject
 targetos: Windows
 req.typenames: 
 req.redist: 

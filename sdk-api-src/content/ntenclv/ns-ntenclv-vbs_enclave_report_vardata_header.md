@@ -1,19 +1,17 @@
 ---
 UID: NS:ntenclv.VBS_ENCLAVE_REPORT_VARDATA_HEADER
 title: VBS_ENCLAVE_REPORT_VARDATA_HEADER (ntenclv.h)
-
 description: Describes the format of a variable data block contained in a report that the EnclaveGetAttestationReport function generates.
 old-location: base\vbs_enclave_report_vardata_header.htm
 tech.root: Memory
 ms.assetid: A0B02839-E8F4-45A1-B2BA-73E6EF9DA7C8
-
 ms.date: 12/05/2018
 ms.keywords: VBS_ENCLAVE_REPORT_VARDATA_HEADER, VBS_ENCLAVE_REPORT_VARDATA_HEADER structure, VBS_ENCLAVE_VARDATA_INVALID, VBS_ENCLAVE_VARDATA_MODULE, base.vbs_enclave_report_vardata_header, ntenclv/VBS_ENCLAVE_REPORT_VARDATA_HEADER
 ms.topic: struct
-f1_keywords: 
- - "ntenclv/VBS_ENCLAVE_REPORT_VARDATA_HEADER"
+f1_keywords:
+- ntenclv/VBS_ENCLAVE_REPORT_VARDATA_HEADER
 dev_langs:
- - c++
+- c++
 req.header: ntenclv.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - ntenclv.h
+- ntenclv.h
 api_name:
- - VBS_ENCLAVE_REPORT_VARDATA_HEADER
+- VBS_ENCLAVE_REPORT_VARDATA_HEADER
 targetos: Windows
 req.typenames: VBS_ENCLAVE_REPORT_VARDATA_HEADER
 req.redist: 

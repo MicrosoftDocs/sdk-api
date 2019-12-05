@@ -4,10 +4,10 @@ title: Graphics::BeginContainer
 ms.date: 01/30/19
 ms.keywords: Graphics::BeginContainer
 ms.topic: language-reference
-f1_keywords: 
- - "gdiplusgraphics/Graphics::BeginContainer"
+f1_keywords:
+- gdiplusgraphics/Graphics::BeginContainer
 dev_langs:
- - c++
+- c++
 targetos: Windows
 req.assembly: 
 req.construct-type: function
@@ -29,13 +29,13 @@ req.type-library:
 req.umdf-ver: 
 req.unicode-ansi: 
 topic_type:
- - apiref
+- apiref
 api_type:
- - COM
+- COM
 api_location:
- - gdiplusgraphics.h
+- gdiplusgraphics.h
 api_name:
- - Graphics::BeginContainer
+- Graphics::BeginContainer
 ---
 
 # Graphics::BeginContainer

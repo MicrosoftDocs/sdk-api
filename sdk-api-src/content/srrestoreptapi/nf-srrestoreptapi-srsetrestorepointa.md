@@ -1,19 +1,17 @@
 ---
 UID: NF:srrestoreptapi.SRSetRestorePointA
 title: SRSetRestorePointA function (srrestoreptapi.h)
-
 description: Specifies the beginning and the ending of a set of changes so that System Restore can create a restore point.
 old-location: sr\srsetrestorepoint.htm
 tech.root: sr
 ms.assetid: 46f0094d-9079-41b5-9efc-ef07082653d3
-
 ms.date: 12/05/2018
 ms.keywords: SRSetRestorePoint, SRSetRestorePoint function [System Restore], SRSetRestorePointA, SRSetRestorePointW, _sr_srsetrestorepoint, sr.srsetrestorepoint, srrestoreptapi/SRSetRestorePoint, srrestoreptapi/SRSetRestorePointA, srrestoreptapi/SRSetRestorePointW
 ms.topic: function
-f1_keywords: 
- - "srrestoreptapi/SRSetRestorePoint"
+f1_keywords:
+- srrestoreptapi/SRSetRestorePoint
 dev_langs:
- - c++
+- c++
 req.header: srrestoreptapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib:
 req.dll: SrClient.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - SrClient.dll
- - sfc.dll
+- SrClient.dll
+- sfc.dll
 api_name:
- - SRSetRestorePoint
- - SRSetRestorePointA
- - SRSetRestorePointW
+- SRSetRestorePoint
+- SRSetRestorePointA
+- SRSetRestorePointW
 targetos: Windows
 req.typenames: 
 req.redist: 

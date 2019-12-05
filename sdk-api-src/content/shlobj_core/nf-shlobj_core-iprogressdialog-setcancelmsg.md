@@ -1,19 +1,17 @@
 ---
 UID: NF:shlobj_core.IProgressDialog.SetCancelMsg
 title: IProgressDialog::SetCancelMsg (shlobj_core.h)
-
 description: Sets a message to be displayed if the user cancels the operation.
 old-location: shell\IProgressDialog_SetCancelMsg.htm
 tech.root: shell
 ms.assetid: 520e11c0-f356-45e1-a300-cc14e88eb42e
-
 ms.date: 12/05/2018
 ms.keywords: IProgressDialog interface [Windows Shell],SetCancelMsg method, IProgressDialog.SetCancelMsg, IProgressDialog::SetCancelMsg, SetCancelMsg, SetCancelMsg method [Windows Shell], SetCancelMsg method [Windows Shell],IProgressDialog interface, _win32_IProgressDialog_SetCancelMsg, shell.IProgressDialog_SetCancelMsg, shlobj_core/IProgressDialog::SetCancelMsg
 ms.topic: method
-f1_keywords: 
- - "shlobj_core/IProgressDialog.SetCancelMsg"
+f1_keywords:
+- shlobj_core/IProgressDialog.SetCancelMsg
 dev_langs:
- - c++
+- c++
 req.header: shlobj_core.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Shell32.dll (version 5.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - IProgressDialog.SetCancelMsg
+- IProgressDialog.SetCancelMsg
 targetos: Windows
 req.typenames: 
 req.redist: 

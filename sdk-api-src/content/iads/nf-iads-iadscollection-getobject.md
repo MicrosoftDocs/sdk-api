@@ -1,19 +1,17 @@
 ---
 UID: NF:iads.IADsCollection.GetObject
 title: IADsCollection::GetObject (iads.h)
-
 description: Retrieves an item of the collection.
 old-location: adsi\iadscollection_getobject.htm
 tech.root: adsi
 ms.assetid: 04b33451-505e-43de-8db4-3e37f9909ea6
-
 ms.date: 12/05/2018
 ms.keywords: GetObject, GetObject method [ADSI], GetObject method [ADSI],IADsCollection interface, IADsCollection interface [ADSI],GetObject method, IADsCollection.GetObject, IADsCollection::GetObject, _ds_iadscollection_getobject, adsi.iadscollection__getobject, adsi.iadscollection_getobject, iads/IADsCollection::GetObject
 ms.topic: method
-f1_keywords: 
- - "iads/IADsCollection.GetObject"
+f1_keywords:
+- iads/IADsCollection.GetObject
 dev_langs:
- - c++
+- c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Activeds.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Activeds.dll
+- Activeds.dll
 api_name:
- - IADsCollection.GetObject
+- IADsCollection.GetObject
 targetos: Windows
 req.typenames: 
 req.redist: 

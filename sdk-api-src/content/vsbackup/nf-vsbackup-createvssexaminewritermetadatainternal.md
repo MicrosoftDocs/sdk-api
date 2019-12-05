@@ -1,19 +1,17 @@
 ---
 UID: NF:vsbackup.CreateVssExamineWriterMetadataInternal
 title: CreateVssExamineWriterMetadataInternal function (vsbackup.h)
-
 description: The CreateVssExamineWriterMetadata function creates an IVssExamineWriterMetadata object.
 old-location: base\createvssexaminewritermetadata.htm
 tech.root: VSS
 ms.assetid: cb322541-d8c0-4a2e-9ce5-453d19ac3fd1
-
 ms.date: 12/05/2018
 ms.keywords: CreateVssExamineWriterMetadata, CreateVssExamineWriterMetadata function [VSS], CreateVssExamineWriterMetadataInternal, _win32_createvssexaminewritermetadata, base.createvssexaminewritermetadata, vsbackup/CreateVssExamineWriterMetadata, vsbackup/CreateVssExamineWriterMetadataInternal
 ms.topic: function
-f1_keywords: 
- - "vsbackup/CreateVssExamineWriterMetadata"
+f1_keywords:
+- vsbackup/CreateVssExamineWriterMetadata
 dev_langs:
- - c++
+- c++
 req.header: vsbackup.h
 req.include-header: VsBackup.h, Vss.h, VsWriter.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: VssApi.lib
 req.dll: VssApi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - VssApi.dll
+- VssApi.dll
 api_name:
- - CreateVssExamineWriterMetadata
- - CreateVssExamineWriterMetadataInternal
+- CreateVssExamineWriterMetadata
+- CreateVssExamineWriterMetadataInternal
 targetos: Windows
 req.typenames: 
 req.redist: 

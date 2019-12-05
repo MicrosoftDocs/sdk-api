@@ -1,19 +1,17 @@
 ---
 UID: NN:rendezvoussession.DRendezvousSessionEvents
 title: DRendezvousSessionEvents (rendezvoussession.h)
-
 description: Handles events that are generated or received by a IRendezvousSession object.
 old-location: remoteassist\remoteassist_DRendezvousSessionEvents.htm
 tech.root: remoteassist
 ms.assetid: VS|remoteassist|~\remoteassist\reference\events\drendezvoussessionevents\drendezvoussessionevents.htm
-
 ms.date: 12/05/2018
 ms.keywords: DRendezvousSessionEvents, DRendezvousSessionEvents interface [Remote Assistance], DRendezvousSessionEvents interface [Remote Assistance],described, remoteassist.remoteassist_DRendezvousSessionEvents, remoteassist_DRendezvousSessionEvents, rendezvoussession/DRendezvousSessionEvents
 ms.topic: interface
-f1_keywords: 
- - "rendezvoussession/DRendezvousSessionEvents"
+f1_keywords:
+- rendezvoussession/DRendezvousSessionEvents
 dev_langs:
- - c++
+- c++
 req.header: rendezvoussession.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - RendezvousSession.tlb
+- RendezvousSession.tlb
 api_name:
- - DRendezvousSessionEvents
+- DRendezvousSessionEvents
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NS:richedit._endropfiles
 title: ENDROPFILES (richedit.h)
-
 description: Contains information associated with an EN_DROPFILES notification code. A rich edit control sends this notification code when it receives a WM_DROPFILES message.
 old-location: controls\ENDROPFILES.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\richeditcontrols\richeditcontrolreference\richeditstructures\endropfiles.htm
-
 ms.date: 12/05/2018
 ms.keywords: ENDROPFILES, ENDROPFILES structure [Windows Controls], _win32_ENDROPFILES_str, _win32_ENDROPFILES_str_cpp, controls.ENDROPFILES, controls._win32_ENDROPFILES_str, richedit/ENDROPFILES
 ms.topic: struct
-f1_keywords: 
- - "richedit/ENDROPFILES"
+f1_keywords:
+- richedit/ENDROPFILES
 dev_langs:
- - c++
+- c++
 req.header: richedit.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Richedit.h
+- Richedit.h
 api_name:
- - ENDROPFILES
+- ENDROPFILES
 targetos: Windows
 req.typenames: ENDROPFILES
 req.redist: 

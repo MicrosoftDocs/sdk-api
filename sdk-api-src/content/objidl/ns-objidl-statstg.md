@@ -1,19 +1,17 @@
 ---
 UID: NS:objidl.tagSTATSTG
 title: STATSTG (objidl.h)
-
 description: Contains statistical data about an open storage, stream, or byte-array object.
 old-location: stg\statstg.htm
 tech.root: Stg
 ms.assetid: 54e1df08-de8f-430a-bf76-e66594df4839
-
 ms.date: 12/05/2018
 ms.keywords: STATSTG, STATSTG [Strctd Stg], STATSTG structure [Structured Storage], _stg_statstg, objidl/STATSTG, stg.statstg, tagSTATSTG
 ms.topic: struct
-f1_keywords: 
- - "objidl/STATSTG"
+f1_keywords:
+- objidl/STATSTG
 dev_langs:
- - c++
+- c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Objidl.h
+- Objidl.h
 api_name:
- - STATSTG
+- STATSTG
 targetos: Windows
 req.typenames: STATSTG
 req.redist: 

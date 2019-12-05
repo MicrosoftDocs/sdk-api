@@ -1,19 +1,17 @@
 ---
 UID: NS:cfgmgr32._CONFLICT_DETAILS_W
 title: CONFLICT_DETAILS_W (cfgmgr32.h)
-
 description: The CONFLICT_DETAILS structure is used as a parameter to the CM_Get_Resource_Conflict_Details function.
 old-location: devinst\conflict_details.htm
 tech.root: devinst
 ms.assetid: 7f095104-4478-4047-b411-ac6bcc44a11f
-
 ms.date: 12/05/2018
-ms.keywords: "*PCONFLICT_DETAILS_W, CONFLICT_DETAILS, CONFLICT_DETAILS structure [Device and Driver Installation], CONFLICT_DETAILS_W, PCONFLICT_DETAILS, PCONFLICT_DETAILS structure pointer [Device and Driver Installation], cfgmgr32/CONFLICT_DETAILS, cfgmgr32/PCONFLICT_DETAILS, cfgmgrst_c9b5c398-f35c-4c09-9e25-8949b1d8dc1a.xml, devinst.conflict_details"
+ms.keywords: '*PCONFLICT_DETAILS_W, CONFLICT_DETAILS, CONFLICT_DETAILS structure [Device and Driver Installation], CONFLICT_DETAILS_W, PCONFLICT_DETAILS, PCONFLICT_DETAILS structure pointer [Device and Driver Installation], cfgmgr32/CONFLICT_DETAILS, cfgmgr32/PCONFLICT_DETAILS, cfgmgrst_c9b5c398-f35c-4c09-9e25-8949b1d8dc1a.xml, devinst.conflict_details'
 ms.topic: struct
-f1_keywords: 
- - "cfgmgr32/CONFLICT_DETAILS"
+f1_keywords:
+- cfgmgr32/CONFLICT_DETAILS
 dev_langs:
- - c++
+- c++
 req.header: cfgmgr32.h
 req.include-header: Cfgmgr32.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - cfgmgr32.h
+- cfgmgr32.h
 api_name:
- - CONFLICT_DETAILS
- - conflict_details_w
+- CONFLICT_DETAILS
+- conflict_details_w
 targetos: Windows
 req.typenames: CONFLICT_DETAILS_W, *PCONFLICT_DETAILS_W
 req.redist: 

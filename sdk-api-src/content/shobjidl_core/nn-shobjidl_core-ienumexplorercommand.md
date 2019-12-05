@@ -1,19 +1,17 @@
 ---
 UID: NN:shobjidl_core.IEnumExplorerCommand
 title: IEnumExplorerCommand (shobjidl_core.h)
-
 description: Provided by an IExplorerCommandProvider. This interface contains the enumeration of commands to be put into the command bar.
 old-location: shell\IEnumExplorerCommand.htm
 tech.root: shell
 ms.assetid: c9a21e84-dd95-413a-b9db-e02008185bef
-
 ms.date: 12/05/2018
 ms.keywords: IEnumExplorerCommand, IEnumExplorerCommand interface [Windows Shell], IEnumExplorerCommand interface [Windows Shell],described, _shell_IEnumExplorerCommand, shell.IEnumExplorerCommand, shobjidl_core/IEnumExplorerCommand
 ms.topic: interface
-f1_keywords: 
- - "shobjidl_core/IEnumExplorerCommand"
+f1_keywords:
+- shobjidl_core/IEnumExplorerCommand
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - IEnumExplorerCommand
+- IEnumExplorerCommand
 targetos: Windows
 req.typenames: 
 req.redist: 

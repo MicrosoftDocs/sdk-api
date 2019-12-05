@@ -1,19 +1,17 @@
 ---
 UID: NF:winsnmp.SnmpContextToStr
 title: SnmpContextToStr function (winsnmp.h)
-
 description: The WinSNMP SnmpContextToStr function returns a string that identifies an SNMP context, which is a set of managed object resources. The function returns the string in an smiOCTETS structure.
 old-location: snmp\snmpcontexttostr.htm
 tech.root: SNMP
 ms.assetid: d82c352d-8685-4276-b58c-ce89557f074a
-
 ms.date: 12/05/2018
 ms.keywords: SnmpContextToStr, SnmpContextToStr function [SNMP], _snmp_snmpcontexttostr, snmp.snmpcontexttostr, winsnmp/SnmpContextToStr
 ms.topic: function
-f1_keywords: 
- - "winsnmp/SnmpContextToStr"
+f1_keywords:
+- winsnmp/SnmpContextToStr
 dev_langs:
- - c++
+- c++
 req.header: winsnmp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Wsnmp32.lib
 req.dll: Wsnmp32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Wsnmp32.dll
+- Wsnmp32.dll
 api_name:
- - SnmpContextToStr
+- SnmpContextToStr
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:lmsvc.NetServiceControl
 title: NetServiceControl function (lmsvc.h)
-
 description: The NetServiceControl function is obsolete. It is included for compatibility with 16-bit versions of Windows. Other applications should use the service functions.
 old-location: netmgmt\netservicecontrol.htm
 tech.root: NetMgmt
 ms.assetid: 4ea0e624-7b6e-459d-879e-f6c5998765cf
-
 ms.date: 12/05/2018
 ms.keywords: NetServiceControl, NetServiceControl function [Network Management], _win32_netservicecontrol, lmsvc/NetServiceControl, netmgmt.netservicecontrol
 ms.topic: function
-f1_keywords: 
- - "lmsvc/NetServiceControl"
+f1_keywords:
+- lmsvc/NetServiceControl
 dev_langs:
- - c++
+- c++
 req.header: lmsvc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - lmsvc.h
+- lmsvc.h
 api_name:
- - NetServiceControl
+- NetServiceControl
 targetos: Windows
 req.typenames: 
 req.redist: 

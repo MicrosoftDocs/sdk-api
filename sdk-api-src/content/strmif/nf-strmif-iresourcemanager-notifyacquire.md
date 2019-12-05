@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IResourceManager.NotifyAcquire
 title: IResourceManager::NotifyAcquire (strmif.h)
-
 description: The NotifyAcquire method notifies the resource manager that an attempt to acquire a resource has completed.
 old-location: dshow\iresourcemanager_notifyacquire.htm
 tech.root: DirectShow
 ms.assetid: a5c52f5b-1c21-4f4c-b698-15b6ec7f7fed
-
 ms.date: 12/05/2018
 ms.keywords: IResourceManager interface [DirectShow],NotifyAcquire method, IResourceManager.NotifyAcquire, IResourceManager::NotifyAcquire, IResourceManagerNotifyAcquire, NotifyAcquire, NotifyAcquire method [DirectShow], NotifyAcquire method [DirectShow],IResourceManager interface, dshow.iresourcemanager_notifyacquire, strmif/IResourceManager::NotifyAcquire
 ms.topic: method
-f1_keywords: 
- - "strmif/IResourceManager.NotifyAcquire"
+f1_keywords:
+- strmif/IResourceManager.NotifyAcquire
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IResourceManager.NotifyAcquire
+- IResourceManager.NotifyAcquire
 targetos: Windows
 req.typenames: 
 req.redist: 

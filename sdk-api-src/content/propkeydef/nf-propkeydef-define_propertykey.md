@@ -1,19 +1,17 @@
 ---
 UID: NF:propkeydef.DEFINE_PROPERTYKEY
 title: DEFINE_PROPERTYKEY macro (propkeydef.h)
-
 description: Used to pack a format identifier (FMTID) and property identifier (PID) into a PROPERTYKEY structure that represents a property key.
 old-location: shell\DEFINE_PROPERTYKEY.htm
 tech.root: shell
 ms.assetid: 099F8A20-63E4-4712-97F3-82C61A0C2DE0
-
 ms.date: 12/05/2018
 ms.keywords: DEFINE_PROPERTYKEY, DEFINE_PROPERTYKEY macro [Windows Shell], _shell_DEFINE_PROPERTYKEY, propkeydef/DEFINE_PROPERTYKEY, shell.DEFINE_PROPERTYKEY
 ms.topic: macro
 f1_keywords:
 - propkeydef/DEFINE_PROPERTYKEY
 dev_langs:
- - c++
+- c++
 req.header: propkeydef.h
 req.include-header: 
 req.target-type: Windows

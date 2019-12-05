@@ -1,19 +1,17 @@
 ---
 UID: NF:ntmsapi.GetVolumesFromDriveW
 title: GetVolumesFromDriveW function (ntmsapi.h)
-
 description: The GetVolumesFromDrive function retrieves the volume and drive letter for a given removable storage media drive.
 old-location: fs\getvolumesfromdrive.htm
 tech.root: Rsm
 ms.assetid: 2509aed9-193e-402c-b0b7-fe94a8a6e0d6
-
 ms.date: 12/05/2018
 ms.keywords: GetVolumesFromDrive, GetVolumesFromDrive function [Files], GetVolumesFromDriveA, GetVolumesFromDriveW, base.getvolumesfromdrive, fs.getvolumesfromdrive, ntmsapi/GetVolumesFromDrive, ntmsapi/GetVolumesFromDriveA, ntmsapi/GetVolumesFromDriveW
 ms.topic: function
-f1_keywords: 
- - "ntmsapi/GetVolumesFromDrive"
+f1_keywords:
+- ntmsapi/GetVolumesFromDrive
 dev_langs:
- - c++
+- c++
 req.header: ntmsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Ntmsapi.lib
 req.dll: Ntmsapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ntmsapi.dll
+- Ntmsapi.dll
 api_name:
- - GetVolumesFromDrive
- - GetVolumesFromDriveA
- - GetVolumesFromDriveW
+- GetVolumesFromDrive
+- GetVolumesFromDriveA
+- GetVolumesFromDriveW
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NN:uiribbon.IUIRibbon
 title: IUIRibbon (uiribbon.h)
-
 description: The IUIRibbon interface is implemented by the Windows Ribbon framework and provides the ability to specify settings and properties for a ribbon.
 old-location: windowsribbon\windowsribbon_iuiribbon.htm
 tech.root: windowsribbon
 ms.assetid: VS|scenicintent|~\scenicintent\reference\ifaces\iuiribbon\iuiribbon.htm
-
 ms.date: 12/05/2018
 ms.keywords: IUIRibbon, IUIRibbon interface [Windows Ribbon], IUIRibbon interface [Windows Ribbon],described, scenicintent_IUIRibbon, uiribbon/IUIRibbon, windowsribbon.windowsribbon_iuiribbon
 ms.topic: interface
-f1_keywords: 
- - "uiribbon/IUIRibbon"
+f1_keywords:
+- uiribbon/IUIRibbon
 dev_langs:
- - c++
+- c++
 req.header: uiribbon.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Uiribbon.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Uiribbon.dll
+- Uiribbon.dll
 api_name:
- - IUIRibbon
+- IUIRibbon
 targetos: Windows
 req.typenames: 
 req.redist: 

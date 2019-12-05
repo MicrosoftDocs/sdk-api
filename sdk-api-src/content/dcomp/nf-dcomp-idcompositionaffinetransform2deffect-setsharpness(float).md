@@ -1,19 +1,17 @@
 ---
 UID: NF:dcomp.IDCompositionAffineTransform2DEffect.SetSharpness(float)
 title: IDCompositionAffineTransform2DEffect::SetSharpness (dcomp.h)
-
 description: Sets the sharpness of the effect.
 old-location: directcomp\idcompositionaffinetransform2deffect_setsharpness.htm
 tech.root: directcomp
 ms.assetid: F55B942C-F55E-4F19-A838-568F4BF4ED47
-
 ms.date: 12/05/2018
 ms.keywords: IDCompositionAffineTransform2DEffect interface [DirectComposition],SetSharpness method, IDCompositionAffineTransform2DEffect.SetSharpness, IDCompositionAffineTransform2DEffect::SetSharpness, IDCompositionAffineTransform2DEffect::SetSharpness(float), SetSharpness, SetSharpness method [DirectComposition], SetSharpness method [DirectComposition],IDCompositionAffineTransform2DEffect interface, dcomp/IDCompositionAffineTransform2DEffect::SetSharpness, directcomp.idcompositionaffinetransform2deffect_setsharpness
 ms.topic: method
-f1_keywords: 
- - "dcomp/IDCompositionAffineTransform2DEffect.SetSharpness"
+f1_keywords:
+- dcomp/IDCompositionAffineTransform2DEffect.SetSharpness
 dev_langs:
- - c++
+- c++
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dcomp.lib
 req.dll: Dcomp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dcomp.dll
+- Dcomp.dll
 api_name:
- - IDCompositionAffineTransform2DEffect.SetSharpness
+- IDCompositionAffineTransform2DEffect.SetSharpness
 targetos: Windows
 req.typenames: 
 req.redist: 

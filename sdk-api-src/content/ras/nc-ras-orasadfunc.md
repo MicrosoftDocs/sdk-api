@@ -1,19 +1,17 @@
 ---
 UID: NC:ras.ORASADFUNC
 title: ORASADFUNC (ras.h)
-
 description: The ORASADFunc function is an application-defined callback function that is used to provide a customized user interface for autodialing.
 old-location: rras\orasadfunc.htm
 tech.root: RRAS
 ms.assetid: d3ad49e3-6807-419d-8d05-f703f5327020
-
 ms.date: 12/05/2018
 ms.keywords: ORASADFunc, ORASADFunc callback, ORASADFunc callback function [RAS], _ras_orasadfunc, ras/ORASADFunc, rras.orasadfunc
 ms.topic: callback
-f1_keywords: 
- - "ras/ORASADFunc"
+f1_keywords:
+- ras/ORASADFunc
 dev_langs:
- - c++
+- c++
 req.header: ras.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Ras.h
+- Ras.h
 api_name:
- - ORASADFunc
+- ORASADFunc
 targetos: Windows
 req.typenames: 
 req.redist: 

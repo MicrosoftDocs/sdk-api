@@ -1,19 +1,17 @@
 ---
 UID: NS:ntsecpkg._SECURITY_USER_DATA
 title: SECURITY_USER_DATA (ntsecpkg.h)
-
 description: The SecurityUserData structure contains information about the user of a security support provider/authentication package. This structure is used by the SpGetUserInfo function.
 old-location: security\securityuserdata.htm
 tech.root: SecAuthN
 ms.assetid: 1a56203a-ed6a-4f32-9e7c-b498ba61a64b
-
 ms.date: 12/05/2018
-ms.keywords: "*PSECURITY_USER_DATA, *PSecurityUserData, PSECURITY_USER_DATA, PSECURITY_USER_DATA structure pointer [Security], PSecurityUserData, PSecurityUserData structure pointer [Security], SECURITY_USER_DATA, SECURITY_USER_DATA structure [Security], SecurityUserData, SecurityUserData structure [Security], _ssp_securityuserdata, ntsecpkg/PSECURITY_USER_DATA, ntsecpkg/PSecurityUserData, ntsecpkg/SecurityUserData, security.securityuserdata"
+ms.keywords: '*PSECURITY_USER_DATA, *PSecurityUserData, PSECURITY_USER_DATA, PSECURITY_USER_DATA structure pointer [Security], PSecurityUserData, PSecurityUserData structure pointer [Security], SECURITY_USER_DATA, SECURITY_USER_DATA structure [Security], SecurityUserData, SecurityUserData structure [Security], _ssp_securityuserdata, ntsecpkg/PSECURITY_USER_DATA, ntsecpkg/PSecurityUserData, ntsecpkg/SecurityUserData, security.securityuserdata'
 ms.topic: struct
-f1_keywords: 
- - "ntsecpkg/SECURITY_USER_DATA"
+f1_keywords:
+- ntsecpkg/SECURITY_USER_DATA
 dev_langs:
- - c++
+- c++
 req.header: ntsecpkg.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Ntsecpkg.h
+- Ntsecpkg.h
 api_name:
- - SECURITY_USER_DATA
+- SECURITY_USER_DATA
 targetos: Windows
 req.typenames: SECURITY_USER_DATA, *PSECURITY_USER_DATA
 req.redist: 

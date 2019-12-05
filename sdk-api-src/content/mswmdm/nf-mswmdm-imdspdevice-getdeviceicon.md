@@ -1,19 +1,17 @@
 ---
 UID: NF:mswmdm.IMDSPDevice.GetDeviceIcon
 title: IMDSPDevice::GetDeviceIcon (mswmdm.h)
-
 description: The GetDeviceIcon method returns a HICON that represents the icon that the device service provider indicates must be used to represent this device.
 old-location: wmdm\imdspdevice_getdeviceicon.htm
 tech.root: WMDM
 ms.assetid: 0a7fcae6-cf7f-4b78-847c-de9db8c32871
-
 ms.date: 12/05/2018
 ms.keywords: GetDeviceIcon, GetDeviceIcon method [windows Media Device Manager], GetDeviceIcon method [windows Media Device Manager],IMDSPDevice interface, IMDSPDevice interface [windows Media Device Manager],GetDeviceIcon method, IMDSPDevice.GetDeviceIcon, IMDSPDevice::GetDeviceIcon, IMDSPDeviceGetDeviceIcon, mswmdm/IMDSPDevice::GetDeviceIcon, wmdm.imdspdevice_getdeviceicon
 ms.topic: method
-f1_keywords: 
- - "mswmdm/IMDSPDevice.GetDeviceIcon"
+f1_keywords:
+- mswmdm/IMDSPDevice.GetDeviceIcon
 dev_langs:
- - c++
+- c++
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mssachlp.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mssachlp.lib
- - mssachlp.dll
+- mssachlp.lib
+- mssachlp.dll
 api_name:
- - IMDSPDevice.GetDeviceIcon
+- IMDSPDevice.GetDeviceIcon
 targetos: Windows
 req.typenames: 
 req.redist: 

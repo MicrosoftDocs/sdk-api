@@ -1,19 +1,17 @@
 ---
 UID: NF:mfplay.IMFPMediaPlayer.SetBorderColor
 title: IMFPMediaPlayer::SetBorderColor (mfplay.h)
-
 description: Sets the color for the video border.
 old-location: mf\imfpmediaplayer_setbordercolor.htm
 tech.root: medfound
 ms.assetid: f66b671d-0c7d-4261-8210-05f2d2f8d9a5
-
 ms.date: 12/05/2018
 ms.keywords: IMFPMediaPlayer interface [Media Foundation],SetBorderColor method, IMFPMediaPlayer.SetBorderColor, IMFPMediaPlayer::SetBorderColor, SetBorderColor, SetBorderColor method [Media Foundation], SetBorderColor method [Media Foundation],IMFPMediaPlayer interface, mf.imfpmediaplayer_setbordercolor, mfplay/IMFPMediaPlayer::SetBorderColor
 ms.topic: method
-f1_keywords: 
- - "mfplay/IMFPMediaPlayer.SetBorderColor"
+f1_keywords:
+- mfplay/IMFPMediaPlayer.SetBorderColor
 dev_langs:
- - c++
+- c++
 req.header: mfplay.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfplay.h
+- mfplay.h
 api_name:
- - IMFPMediaPlayer.SetBorderColor
+- IMFPMediaPlayer.SetBorderColor
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NN:mswmdm.IMDSPDevice
 title: IMDSPDevice (mswmdm.h)
-
 description: The IMDSPDevice interface provides an instance-based association with a media device.
 old-location: wmdm\imdspdevice.htm
 tech.root: WMDM
 ms.assetid: 98f16547-4d8a-4422-ba08-c3c678142492
-
 ms.date: 12/05/2018
 ms.keywords: IMDSPDevice, IMDSPDevice interface [windows Media Device Manager], IMDSPDevice interface [windows Media Device Manager],described, IMDSPDeviceInterface, mswmdm/IMDSPDevice, wmdm.imdspdevice
 ms.topic: interface
-f1_keywords: 
- - "mswmdm/IMDSPDevice"
+f1_keywords:
+- mswmdm/IMDSPDevice
 dev_langs:
- - c++
+- c++
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mswmdm.h
+- mswmdm.h
 api_name:
- - IMDSPDevice
+- IMDSPDevice
 targetos: Windows
 req.typenames: 
 req.redist: 

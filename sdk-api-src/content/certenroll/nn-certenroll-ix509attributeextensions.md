@@ -1,19 +1,17 @@
 ---
 UID: NN:certenroll.IX509AttributeExtensions
 title: IX509AttributeExtensions (certenroll.h)
-
 description: Defines methods and properties that initialize and retrieve certificate extensions in a certificate request.
 old-location: security\ix509attributeextensions.htm
 tech.root: seccertenroll
 ms.assetid: d216bcfd-50be-4445-87a5-d1cb223aa70c
-
 ms.date: 12/05/2018
 ms.keywords: IX509AttributeExtensions, IX509AttributeExtensions interface [Security], IX509AttributeExtensions interface [Security],described, certenroll/IX509AttributeExtensions, security.ix509attributeextensions
 ms.topic: interface
-f1_keywords: 
- - "certenroll/IX509AttributeExtensions"
+f1_keywords:
+- certenroll/IX509AttributeExtensions
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: CertEnroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CertEnroll.dll
+- CertEnroll.dll
 api_name:
- - IX509AttributeExtensions
+- IX509AttributeExtensions
 targetos: Windows
 req.typenames: 
 req.redist: 

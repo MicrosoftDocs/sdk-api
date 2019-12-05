@@ -1,19 +1,17 @@
 ---
 UID: NS:d3d10.D3D10_BLEND_DESC
 title: D3D10_BLEND_DESC (d3d10.h)
-
 description: Describes the blend state.
 old-location: direct3d10\d3d10_blend_desc.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\d3d10_blend_desc.htm
-
 ms.date: 12/05/2018
 ms.keywords: 721f9aa7-5588-d838-c466-ccde084bdae9, D3D10_BLEND_DESC, D3D10_BLEND_DESC structure [Direct3D 10], d3d10/D3D10_BLEND_DESC, direct3d10.d3d10_blend_desc
 ms.topic: struct
-f1_keywords: 
- - "d3d10/D3D10_BLEND_DESC"
+f1_keywords:
+- d3d10/D3D10_BLEND_DESC
 dev_langs:
- - c++
+- c++
 req.header: d3d10.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - D3D10.h
+- D3D10.h
 api_name:
- - D3D10_BLEND_DESC
+- D3D10_BLEND_DESC
 targetos: Windows
 req.typenames: D3D10_BLEND_DESC
 req.redist: 

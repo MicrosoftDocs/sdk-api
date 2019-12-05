@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d11.ID3D11Device.CreateTexture2D
 title: ID3D11Device::CreateTexture2D (d3d11.h)
-
 description: Create an array of 2D textures.
 old-location: direct3d11\id3d11device_createtexture2d.htm
 tech.root: direct3d11
 ms.assetid: 69950ce7-9c8e-4f00-860d-e118e2bbc81a
-
 ms.date: 12/05/2018
 ms.keywords: 96e5176c-4fd3-2bab-29e2-e913ad58fe8b, CreateTexture2D, CreateTexture2D method [Direct3D 11], CreateTexture2D method [Direct3D 11],ID3D11Device interface, ID3D11Device interface [Direct3D 11],CreateTexture2D method, ID3D11Device.CreateTexture2D, ID3D11Device::CreateTexture2D, d3d11/ID3D11Device::CreateTexture2D, direct3d11.id3d11device_createtexture2d
 ms.topic: method
-f1_keywords: 
- - "d3d11/ID3D11Device.CreateTexture2D"
+f1_keywords:
+- d3d11/ID3D11Device.CreateTexture2D
 dev_langs:
- - c++
+- c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: D3D11.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D11.lib
- - D3D11.dll
+- D3D11.lib
+- D3D11.dll
 api_name:
- - ID3D11Device.CreateTexture2D
+- ID3D11Device.CreateTexture2D
 targetos: Windows
 req.typenames: 
 req.redist: 

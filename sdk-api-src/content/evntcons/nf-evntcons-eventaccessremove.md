@@ -1,19 +1,17 @@
 ---
 UID: NF:evntcons.EventAccessRemove
 title: EventAccessRemove function (evntcons.h)
-
 description: Removes the permissions defined in the registry for the specified provider or session.
 old-location: etw\eventaccessremove_func.htm
 tech.root: ETW
 ms.assetid: 9f25f163-046c-41b0-82f9-0b214b74b87e
-
 ms.date: 12/05/2018
 ms.keywords: EventAccessRemove, EventAccessRemove function [ETW], base.eventaccessremove_func, etw.eventaccessremove_func, evntcons/EventAccessRemove
 ms.topic: function
-f1_keywords: 
- - "evntcons/EventAccessRemove"
+f1_keywords:
+- evntcons/EventAccessRemove
 dev_langs:
- - c++
+- c++
 req.header: evntcons.h
 req.include-header: 
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib: Sechost.lib on Windows 8.1 and Windows Server 2012 R2; Advapi32.lib 
 req.dll: Sechost.dll on Windows 8.1 and Windows Server 2012; Advapi32.dll on Windows 8, Windows Server 2012, Windows 7, Windows Server 2008 R2, Windows Server 2008 and Windows Vista
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Sechost.dll
- - Advapi32.dll
- - API-MS-Win-DownLevel-AdvAPI32-l2-1-1.dll
- - API-MS-Win-Eventing-Controller-l1-1-0.dll
- - KernelBase.dll
+- Sechost.dll
+- Advapi32.dll
+- API-MS-Win-DownLevel-AdvAPI32-l2-1-1.dll
+- API-MS-Win-Eventing-Controller-l1-1-0.dll
+- KernelBase.dll
 api_name:
- - EventAccessRemove
+- EventAccessRemove
 targetos: Windows
 req.typenames: 
 req.redist: 

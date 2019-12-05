@@ -1,19 +1,17 @@
 ---
 UID: NE:windns._DnsSection
 title: DNS_SECTION (windns.h)
-
 description: The DNS_SECTION enumeration is used in record flags, and as an index into DNS wire message header section counts.
 old-location: dns\dns_section.htm
 tech.root: DNS
 ms.assetid: d51ef2c7-c2bb-4eed-a026-a559460352b6
-
 ms.date: 12/05/2018
 ms.keywords: DNS_SECTION, DNS_SECTION enumeration [DNS], DnsSectionAddtional, DnsSectionAnswer, DnsSectionAuthority, DnsSectionQuestion, dns.dns_section, windns/DNS_SECTION, windns/DnsSectionAddtional, windns/DnsSectionAnswer, windns/DnsSectionAuthority, windns/DnsSectionQuestion
 ms.topic: enum
-f1_keywords: 
- - "windns/DNS_SECTION"
+f1_keywords:
+- windns/DNS_SECTION
 dev_langs:
- - c++
+- c++
 req.header: windns.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Windns.h
+- Windns.h
 api_name:
- - DNS_SECTION
+- DNS_SECTION
 targetos: Windows
 req.typenames: DNS_SECTION
 req.redist: 

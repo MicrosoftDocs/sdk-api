@@ -1,19 +1,17 @@
 ---
 UID: NS:ktmtypes._TRANSACTION_NOTIFICATION
 title: TRANSACTION_NOTIFICATION (ktmtypes.h)
-
 description: Contains the data that is associated with a transaction notification.
 old-location: fs\transaction_notification.htm
 tech.root: ktm
 ms.assetid: 4f87de9d-a068-4ab9-8f38-b75f20552b1d
-
 ms.date: 12/05/2018
-ms.keywords: "*PTRANSACTION_NOTIFICATION, PTRANSACTION_NOTIFICATION, PTRANSACTION_NOTIFICATION structure pointer [Files], TRANSACTION_NOTIFICATION, TRANSACTION_NOTIFICATION structure [Files], fs.transaction_notification, ktmtypes/PTRANSACTION_NOTIFICATION, ktmtypes/TRANSACTION_NOTIFICATION"
+ms.keywords: '*PTRANSACTION_NOTIFICATION, PTRANSACTION_NOTIFICATION, PTRANSACTION_NOTIFICATION structure pointer [Files], TRANSACTION_NOTIFICATION, TRANSACTION_NOTIFICATION structure [Files], fs.transaction_notification, ktmtypes/PTRANSACTION_NOTIFICATION, ktmtypes/TRANSACTION_NOTIFICATION'
 ms.topic: struct
-f1_keywords: 
- - "ktmtypes/TRANSACTION_NOTIFICATION"
+f1_keywords:
+- ktmtypes/TRANSACTION_NOTIFICATION
 dev_langs:
- - c++
+- c++
 req.header: ktmtypes.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - KtmTypes.h
+- KtmTypes.h
 api_name:
- - TRANSACTION_NOTIFICATION
+- TRANSACTION_NOTIFICATION
 targetos: Windows
 req.typenames: TRANSACTION_NOTIFICATION, *PTRANSACTION_NOTIFICATION
 req.redist: 

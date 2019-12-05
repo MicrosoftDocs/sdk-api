@@ -1,19 +1,17 @@
 ---
 UID: NF:evntrace.EnumerateTraceGuids
 title: EnumerateTraceGuids function (evntrace.h)
-
 description: The EnumerateTraceGuids function retrieves information about registered event trace providers that are running on the computer.
 old-location: etw\enumeratetraceguids.htm
 tech.root: ETW
 ms.assetid: 9a9e2f53-9916-4a9c-a08e-c8affd5fc4c9
-
 ms.date: 12/05/2018
 ms.keywords: EnumerateTraceGuids, EnumerateTraceGuids function [ETW], _evt_enumeratetraceguids, base.enumeratetraceguids, etw.enumeratetraceguids, evntrace/EnumerateTraceGuids
 ms.topic: function
-f1_keywords: 
- - "evntrace/EnumerateTraceGuids"
+f1_keywords:
+- evntrace/EnumerateTraceGuids
 dev_langs:
- - c++
+- c++
 req.header: evntrace.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Advapi32.dll
- - API-MS-Win-eventing-Legacy-l1-1-0.dll
- - advapi32legacy.dll
+- Advapi32.dll
+- API-MS-Win-eventing-Legacy-l1-1-0.dll
+- advapi32legacy.dll
 api_name:
- - EnumerateTraceGuids
+- EnumerateTraceGuids
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NN:mmc.IComponent2
 title: IComponent2 (mmc.h)
-
 description: The IComponent2 interface, implemented by snap-ins, is introduced in MMC 2.0 and supersedes the IComponent interface.
 old-location: mmc\icomponent2.htm
 tech.root: mmc
 ms.assetid: b9e67a37-c09d-46f3-896f-e75122256812
-
 ms.date: 12/05/2018
 ms.keywords: IComponent2, IComponent2 interface [MMC], IComponent2 interface [MMC],described, _slate_icomponent2, mmc.icomponent2, mmc/IComponent2
 ms.topic: interface
-f1_keywords: 
- - "mmc/IComponent2"
+f1_keywords:
+- mmc/IComponent2
 dev_langs:
- - c++
+- c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mmc.h
+- Mmc.h
 api_name:
- - IComponent2
+- IComponent2
 targetos: Windows
 req.typenames: 
 req.redist: 

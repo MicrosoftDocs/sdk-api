@@ -1,19 +1,17 @@
 ---
 UID: NN:comsvcs.ICheckSxsConfig
 title: ICheckSxsConfig (comsvcs.h)
-
 description: Used to check the configuration of the current side-by-side assembly.
 old-location: cos\ichecksxsconfig.htm
 tech.root: cossdk
 ms.assetid: 34c97d61-694e-4ee3-92ed-55b0a787b747
-
 ms.date: 12/05/2018
 ms.keywords: ICheckSxSConfig, ICheckSxSConfig interface [COM+], ICheckSxSConfig interface [COM+],described, _cos_ICheckSxsConfig, comsvcs/ICheckSxSConfig, cos.ichecksxsconfig
 ms.topic: interface
-f1_keywords: 
- - "comsvcs/ICheckSxSConfig"
+f1_keywords:
+- comsvcs/ICheckSxSConfig
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - ICheckSxSConfig
+- ICheckSxSConfig
 targetos: Windows
 req.typenames: 
 req.redist: 

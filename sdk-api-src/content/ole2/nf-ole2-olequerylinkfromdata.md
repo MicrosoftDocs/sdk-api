@@ -1,19 +1,17 @@
 ---
 UID: NF:ole2.OleQueryLinkFromData
 title: OleQueryLinkFromData function (ole2.h)
-
 description: Determines whether an OLE linked object (rather than an OLE embedded object) can be created from a clipboard data object.
 old-location: com\olequerylinkfromdata.htm
 tech.root: com
 ms.assetid: 9ebdcd7f-06c1-4464-a66c-4d134a6b5d36
-
 ms.date: 12/05/2018
 ms.keywords: OleQueryLinkFromData, OleQueryLinkFromData function [COM], _ole_OleQueryLinkFromData, com.olequerylinkfromdata, ole2/OleQueryLinkFromData
 ms.topic: function
-f1_keywords: 
- - "ole2/OleQueryLinkFromData"
+f1_keywords:
+- ole2/OleQueryLinkFromData
 dev_langs:
- - c++
+- c++
 req.header: ole2.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Ole32.lib
 req.dll: Ole32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ole32.dll
- - Ext-MS-Win-Com-OLE32-l1-1-3.dll
- - Ext-MS-Win-Com-Ole32-L1-1-4.dll
+- Ole32.dll
+- Ext-MS-Win-Com-OLE32-l1-1-3.dll
+- Ext-MS-Win-Com-Ole32-L1-1-4.dll
 api_name:
- - OleQueryLinkFromData
+- OleQueryLinkFromData
 targetos: Windows
 req.typenames: 
 req.redist: 

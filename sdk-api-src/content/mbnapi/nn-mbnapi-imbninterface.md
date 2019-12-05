@@ -1,19 +1,17 @@
 ---
 UID: NN:mbnapi.IMbnInterface
 title: IMbnInterface (mbnapi.h)
-
 description: Represents a Mobile Broadband device.
 old-location: mbn\imbninterface.htm
 tech.root: mbn
 ms.assetid: 958bce42-4772-4706-8900-1f83c5d3d52b
-
 ms.date: 12/05/2018
 ms.keywords: IMbnInterface, IMbnInterface interface [Microsoft Broadband Networks], IMbnInterface interface [Microsoft Broadband Networks],described, mbn.imbninterface, mbnapi/IMbnInterface
 ms.topic: interface
-f1_keywords: 
- - "mbnapi/IMbnInterface"
+f1_keywords:
+- mbnapi/IMbnInterface
 dev_langs:
- - c++
+- c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mbnapi.h
+- mbnapi.h
 api_name:
- - IMbnInterface
+- IMbnInterface
 targetos: Windows
 req.typenames: 
 req.redist: 

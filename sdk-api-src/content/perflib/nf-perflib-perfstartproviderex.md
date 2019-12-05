@@ -1,19 +1,17 @@
 ---
 UID: NF:perflib.PerfStartProviderEx
 title: PerfStartProviderEx function (perflib.h)
-
 description: Registers the provider.
 old-location: perf\perfstartproviderex.htm
 tech.root: perfctrs
 ms.assetid: 9f3aefbf-0836-46fc-8a53-858c3c94cef9
-
 ms.date: 12/05/2018
 ms.keywords: PerfStartProviderEx, PerfStartProviderEx function [Perf], perf.perfstartproviderex, perflib/PerfStartProviderEx
 ms.topic: function
-f1_keywords: 
- - "perflib/PerfStartProviderEx"
+f1_keywords:
+- perflib/PerfStartProviderEx
 dev_langs:
- - c++
+- c++
 req.header: perflib.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Advapi32.dll
- - API-MS-Win-Core-perfcounters-l1-1-0.dll
- - KernelBase.dll
+- Advapi32.dll
+- API-MS-Win-Core-perfcounters-l1-1-0.dll
+- KernelBase.dll
 api_name:
- - PerfStartProviderEx
+- PerfStartProviderEx
 targetos: Windows
 req.typenames: 
 req.redist: 

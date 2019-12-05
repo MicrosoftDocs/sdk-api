@@ -1,19 +1,17 @@
 ---
 UID: NN:termmgr.ITTerminalManager
 title: ITTerminalManager (termmgr.h)
-
 description: The ITTerminalManager interface is used by the MSP to create dynamic terminals.
 old-location: tapi3\itterminalmanager.htm
 tech.root: Tapi
 ms.assetid: 7e5bd83d-42c5-463c-8ce0-c6f466f60588
-
 ms.date: 12/05/2018
 ms.keywords: ITTerminalManager, ITTerminalManager interface [TAPI 2.2], ITTerminalManager interface [TAPI 2.2],described, _tapi3_itterminalmanager, tapi3.itterminalmanager, termmgr/ITTerminalManager
 ms.topic: interface
-f1_keywords: 
- - "termmgr/ITTerminalManager"
+f1_keywords:
+- termmgr/ITTerminalManager
 dev_langs:
- - c++
+- c++
 req.header: termmgr.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Termmgr.h
+- Termmgr.h
 api_name:
- - ITTerminalManager
+- ITTerminalManager
 targetos: Windows
 req.typenames: 
 req.redist: 

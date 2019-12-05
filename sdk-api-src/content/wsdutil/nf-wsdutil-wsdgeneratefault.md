@@ -1,19 +1,17 @@
 ---
 UID: NF:wsdutil.WSDGenerateFault
 title: WSDGenerateFault function (wsdutil.h)
-
 description: Generates a SOAP fault.
 old-location: ncd\wsdgeneratefault.htm
 tech.root: WsdApi
 ms.assetid: eebecf71-2572-4e20-ad40-b1a2f811bedf
-
 ms.date: 12/05/2018
 ms.keywords: DataEncodingUnknown, MustUnderstand, Receiver, Sender, VersionMismatch, WSDGenerateFault, WSDGenerateFault function, ncd.wsdgeneratefault, wsdutil/WSDGenerateFault
 ms.topic: function
 f1_keywords:
 - wsdutil/WSDGenerateFault
 dev_langs:
- - c++
+- c++
 req.header: wsdutil.h
 req.include-header: Wsdapi.h
 req.target-type: Windows

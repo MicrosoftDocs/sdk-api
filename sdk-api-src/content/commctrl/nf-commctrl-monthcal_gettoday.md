@@ -1,19 +1,17 @@
 ---
 UID: NF:commctrl.MonthCal_GetToday
 title: MonthCal_GetToday macro (commctrl.h)
-
 description: Retrieves the date information for the date specified as &#0034;today&#0034; for a month calendar control. You can use this macro or send the MCM_GETTODAY message explicitly.
 old-location: controls\MonthCal_GetToday.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\monthcal\macros\monthcal_gettoday.htm
-
 ms.date: 12/05/2018
 ms.keywords: MonthCal_GetToday, MonthCal_GetToday macro [Windows Controls], _win32_MonthCal_GetToday, _win32_MonthCal_GetToday_cpp, commctrl/MonthCal_GetToday, controls.MonthCal_GetToday, controls._win32_MonthCal_GetToday
 ms.topic: macro
-f1_keywords: 
- - "commctrl/MonthCal_GetToday"
+f1_keywords:
+- commctrl/MonthCal_GetToday
 dev_langs:
- - c++
+- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Commctrl.h
+- Commctrl.h
 api_name:
- - MonthCal_GetToday
+- MonthCal_GetToday
 targetos: Windows
 req.typenames: 
 req.redist: 

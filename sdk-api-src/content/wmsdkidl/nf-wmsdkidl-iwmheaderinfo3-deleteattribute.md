@@ -1,19 +1,17 @@
 ---
 UID: NF:wmsdkidl.IWMHeaderInfo3.DeleteAttribute
 title: IWMHeaderInfo3::DeleteAttribute (wmsdkidl.h)
-
 description: The DeleteAttribute method removes an attribute from the file header.
 old-location: wmformat\iwmheaderinfo3_deleteattribute.htm
 tech.root: wmformat
 ms.assetid: a69da90f-c8c5-4bf7-a1d8-7031aa9d1704
-
 ms.date: 12/05/2018
 ms.keywords: DeleteAttribute, DeleteAttribute method [windows Media Format], DeleteAttribute method [windows Media Format],IWMHeaderInfo3 interface, IWMHeaderInfo3 interface [windows Media Format],DeleteAttribute method, IWMHeaderInfo3.DeleteAttribute, IWMHeaderInfo3::DeleteAttribute, IWMHeaderInfo3DeleteAttribute, wmformat.iwmheaderinfo3_deleteattribute, wmsdkidl/IWMHeaderInfo3::DeleteAttribute
 ms.topic: method
-f1_keywords: 
- - "wmsdkidl/IWMHeaderInfo3.DeleteAttribute"
+f1_keywords:
+- wmsdkidl/IWMHeaderInfo3.DeleteAttribute
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wmvcore.lib
- - Wmvcore.dll
- - WMStubDRM.lib
- - WMStubDRM.dll
+- Wmvcore.lib
+- Wmvcore.dll
+- WMStubDRM.lib
+- WMStubDRM.dll
 api_name:
- - IWMHeaderInfo3.DeleteAttribute
+- IWMHeaderInfo3.DeleteAttribute
 targetos: Windows
 req.typenames: 
 req.redist: 

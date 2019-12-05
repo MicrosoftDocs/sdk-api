@@ -1,19 +1,17 @@
 ---
 UID: NF:clusapi.ClusterRegBatchCloseNotification
 title: ClusterRegBatchCloseNotification function (clusapi.h)
-
 description: Frees the memory associated with the batch notification.
 old-location: mscs\clusterregbatchclosenotification.htm
 tech.root: MsCS
 ms.assetid: d7a127ba-6e97-46ac-8510-2da355359c50
-
 ms.date: 12/05/2018
 ms.keywords: ClusterRegBatchCloseNotification, ClusterRegBatchCloseNotification function [Failover Cluster], PCLUSTER_REG_BATCH_CLOSE_NOTIFICATION, clusapi/ClusterRegBatchCloseNotification, mscs.clusterregbatchclosenotification
 ms.topic: function
-f1_keywords: 
- - "clusapi/ClusterRegBatchCloseNotification"
+f1_keywords:
+- clusapi/ClusterRegBatchCloseNotification
 dev_langs:
- - c++
+- c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: ClusAPI.lib
 req.dll: ClusAPI.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - ClusAPI.dll
+- ClusAPI.dll
 api_name:
- - ClusterRegBatchCloseNotification
+- ClusterRegBatchCloseNotification
 targetos: Windows
 req.typenames: 
 req.redist: 

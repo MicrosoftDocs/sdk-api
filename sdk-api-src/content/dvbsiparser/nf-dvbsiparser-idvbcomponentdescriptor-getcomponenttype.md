@@ -1,19 +1,17 @@
 ---
 UID: NF:dvbsiparser.IDvbComponentDescriptor.GetComponentType
 title: IDvbComponentDescriptor::GetComponentType (dvbsiparser.h)
-
 description: Gets the component type code for a Digital Video Broadcast (DVB) component descriptor.
 old-location: mstv\idvbcomponentdescriptor_getcomponenttype.htm
 tech.root: mstv
 ms.assetid: c7bf5e21-1c88-4b5e-b043-33a127fad65f
-
 ms.date: 12/05/2018
 ms.keywords: GetComponentType, GetComponentType method [Microsoft TV Technologies], GetComponentType method [Microsoft TV Technologies],IDvbComponentDescriptor interface, IDvbComponentDescriptor interface [Microsoft TV Technologies],GetComponentType method, IDvbComponentDescriptor.GetComponentType, IDvbComponentDescriptor::GetComponentType, dvbsiparser/IDvbComponentDescriptor::GetComponentType, mstv.idvbcomponentdescriptor_getcomponenttype
 ms.topic: method
-f1_keywords: 
- - "dvbsiparser/IDvbComponentDescriptor.GetComponentType"
+f1_keywords:
+- dvbsiparser/IDvbComponentDescriptor.GetComponentType
 dev_langs:
- - c++
+- c++
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dvbsiparser.h
+- dvbsiparser.h
 api_name:
- - IDvbComponentDescriptor.GetComponentType
+- IDvbComponentDescriptor.GetComponentType
 targetos: Windows
 req.typenames: 
 req.redist: 

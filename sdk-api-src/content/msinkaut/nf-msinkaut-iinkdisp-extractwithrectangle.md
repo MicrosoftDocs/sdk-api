@@ -1,19 +1,17 @@
 ---
 UID: NF:msinkaut.IInkDisp.ExtractWithRectangle
 title: IInkDisp::ExtractWithRectangle (msinkaut.h)
-
 description: Cuts or copies strokes from an existing InkDisp object and pastes them into a new InkDisp object, by using the known rectangle to determine which strokes to extract.
 old-location: tablet\inkdisp_extractwithrectangle.htm
 tech.root: tablet
 ms.assetid: b32467a8-a677-4a80-8029-d364e6e372c6
-
 ms.date: 12/05/2018
 ms.keywords: ExtractWithRectangle, ExtractWithRectangle method [Tablet PC], ExtractWithRectangle method [Tablet PC],IInkDisp interface, IInkDisp interface [Tablet PC],ExtractWithRectangle method, IInkDisp.ExtractWithRectangle, IInkDisp::ExtractWithRectangle, b32467a8-a677-4a80-8029-d364e6e372c6, msinkaut/IInkDisp::ExtractWithRectangle, tablet.inkdisp_extractwithrectangle
 ms.topic: method
-f1_keywords: 
- - "msinkaut/IInkDisp.ExtractWithRectangle"
+f1_keywords:
+- msinkaut/IInkDisp.ExtractWithRectangle
 dev_langs:
- - c++
+- c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: InkObj.dll
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - InkObj.dll
- - InkObj.dll.dll
+- InkObj.dll
+- InkObj.dll.dll
 api_name:
- - IInkDisp.ExtractWithRectangle
+- IInkDisp.ExtractWithRectangle
 targetos: Windows
 req.typenames: 
 req.redist: 

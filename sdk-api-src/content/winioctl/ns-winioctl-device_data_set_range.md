@@ -1,19 +1,17 @@
 ---
 UID: NS:winioctl._DEVICE_DATA_SET_RANGE
 title: DEVICE_DATA_SET_RANGE
-
 description: Provides data set range information for use with the IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES control code.
 old-location: base\device_data_set_range.htm
 tech.root: devio
 ms.assetid: 5eea412e-ea16-4f47-ac69-46b543069eae
-
 ms.date: 12/05/2018
-ms.keywords: "*PDEVICE_DATA_SET_RANGE, *PDEVICE_DSM_RANGE, DEVICE_DATA_SET_RANGE, DEVICE_DATA_SET_RANGE structure, DEVICE_DSM_RANGE, PDEVICE_DATA_SET_RANGE, PDEVICE_DATA_SET_RANGE structure pointer, base.device_data_set_range, winioctl/DEVICE_DATA_SET_RANGE, winioctl/PDEVICE_DATA_SET_RANGE"
+ms.keywords: '*PDEVICE_DATA_SET_RANGE, *PDEVICE_DSM_RANGE, DEVICE_DATA_SET_RANGE, DEVICE_DATA_SET_RANGE structure, DEVICE_DSM_RANGE, PDEVICE_DATA_SET_RANGE, PDEVICE_DATA_SET_RANGE structure pointer, base.device_data_set_range, winioctl/DEVICE_DATA_SET_RANGE, winioctl/PDEVICE_DATA_SET_RANGE'
 ms.topic: struct
-f1_keywords: 
- - "winioctl/DEVICE_DATA_SET_RANGE"
+f1_keywords:
+- winioctl/DEVICE_DATA_SET_RANGE
 dev_langs:
- - c++
+- c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WinIoCtl.h
+- WinIoCtl.h
 api_name:
- - DEVICE_DATA_SET_RANGE
+- DEVICE_DATA_SET_RANGE
 targetos: Windows
 req.typenames: DEVICE_DATA_SET_RANGE, *PDEVICE_DATA_SET_RANGE, DEVICE_DSM_RANGE, *PDEVICE_DSM_RANGE
 req.redist: 

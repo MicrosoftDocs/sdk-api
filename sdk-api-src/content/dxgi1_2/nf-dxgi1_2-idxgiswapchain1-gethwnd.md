@@ -1,19 +1,17 @@
 ---
 UID: NF:dxgi1_2.IDXGISwapChain1.GetHwnd
 title: IDXGISwapChain1::GetHwnd (dxgi1_2.h)
-
 description: Retrieves the underlying HWND for this swap-chain object.
 old-location: direct3ddxgi\idxgiswapchain1_gethwnd.htm
 tech.root: direct3ddxgi
 ms.assetid: C1690710-FA63-4841-B3E2-68200E0B7B23
-
 ms.date: 12/05/2018
 ms.keywords: GetHwnd, GetHwnd method [DXGI], GetHwnd method [DXGI],IDXGISwapChain1 interface, IDXGISwapChain1 interface [DXGI],GetHwnd method, IDXGISwapChain1.GetHwnd, IDXGISwapChain1::GetHwnd, direct3ddxgi.idxgiswapchain1_gethwnd, dxgi1_2/IDXGISwapChain1::GetHwnd
 ms.topic: method
-f1_keywords: 
- - "dxgi1_2/IDXGISwapChain1.GetHwnd"
+f1_keywords:
+- dxgi1_2/IDXGISwapChain1.GetHwnd
 dev_langs:
- - c++
+- c++
 req.header: dxgi1_2.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Dxgi.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dxgi.lib
- - Dxgi.dll
+- Dxgi.lib
+- Dxgi.dll
 api_name:
- - IDXGISwapChain1.GetHwnd
+- IDXGISwapChain1.GetHwnd
 targetos: Windows
 req.typenames: 
 req.redist: 

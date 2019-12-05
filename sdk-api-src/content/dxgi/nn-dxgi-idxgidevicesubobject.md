@@ -1,19 +1,17 @@
 ---
 UID: NN:dxgi.IDXGIDeviceSubObject
 title: IDXGIDeviceSubObject (dxgi.h)
-
 description: Inherited from objects that are tied to the device so that they can retrieve a pointer to it.
 old-location: direct3ddxgi\idxgidevicesubobject.htm
 tech.root: direct3ddxgi
 ms.assetid: VS|directx_sdk|~\idxgidevicesubobject.htm
-
 ms.date: 12/05/2018
 ms.keywords: IDXGIDeviceSubObject, IDXGIDeviceSubObject interface [DXGI], IDXGIDeviceSubObject interface [DXGI],described, cafb6d61-7a76-585b-438f-57d6aaa898c1, direct3ddxgi.idxgidevicesubobject, dxgi/IDXGIDeviceSubObject
 ms.topic: interface
-f1_keywords: 
- - "dxgi/IDXGIDeviceSubObject"
+f1_keywords:
+- dxgi/IDXGIDeviceSubObject
 dev_langs:
- - c++
+- c++
 req.header: dxgi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: DXGI.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - DXGI.lib
- - DXGI.dll
+- DXGI.lib
+- DXGI.dll
 api_name:
- - IDXGIDeviceSubObject
+- IDXGIDeviceSubObject
 targetos: Windows
 req.typenames: 
 req.redist: 

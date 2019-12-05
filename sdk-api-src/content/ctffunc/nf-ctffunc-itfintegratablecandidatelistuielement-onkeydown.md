@@ -1,19 +1,17 @@
 ---
 UID: NF:ctffunc.ITfIntegratableCandidateListUIElement.OnKeyDown
 title: ITfIntegratableCandidateListUIElement::OnKeyDown (ctffunc.h)
-
 description: Processes a key press.
 old-location: tsf\itfintegratablecandidatelistuielement_onkeydown.htm
 tech.root: TSF
 ms.assetid: EF6A8FB1-9B48-44BE-A1B4-AA3F2EA0F6BA
-
 ms.date: 12/05/2018
 ms.keywords: ITfIntegratableCandidateListUIElement interface [Text Services Framework],OnKeyDown method, ITfIntegratableCandidateListUIElement.OnKeyDown, ITfIntegratableCandidateListUIElement::OnKeyDown, OnKeyDown, OnKeyDown method [Text Services Framework], OnKeyDown method [Text Services Framework],ITfIntegratableCandidateListUIElement interface, ctffunc/ITfIntegratableCandidateListUIElement::OnKeyDown, tsf.itfintegratablecandidatelistuielement_onkeydown
 ms.topic: method
-f1_keywords: 
- - "ctffunc/ITfIntegratableCandidateListUIElement.OnKeyDown"
+f1_keywords:
+- ctffunc/ITfIntegratableCandidateListUIElement.OnKeyDown
 dev_langs:
- - c++
+- c++
 req.header: ctffunc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Ctffunc.h
+- Ctffunc.h
 api_name:
- - ITfIntegratableCandidateListUIElement.OnKeyDown
+- ITfIntegratableCandidateListUIElement.OnKeyDown
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:objidl.ILayoutStorage.BeginMonitor
 title: ILayoutStorage::BeginMonitor (objidl.h)
-
 description: The BeginMonitor method is used to begin monitoring when a loading operation is started. When the operation is complete, the application must call ILayoutStorage::EndMonitor.
 old-location: stg\ilayoutstorage_beginmonitor.htm
 tech.root: Stg
 ms.assetid: 16371d6c-adb9-43c2-80a4-377e94854bbb
-
 ms.date: 12/05/2018
 ms.keywords: BeginMonitor, BeginMonitor method [Structured Storage], BeginMonitor method [Structured Storage],ILayoutStorage interface, ILayoutStorage interface [Structured Storage],BeginMonitor method, ILayoutStorage.BeginMonitor, ILayoutStorage::BeginMonitor, _stg_ilayoutstorage_beginmonitor, objidl/ILayoutStorage::BeginMonitor, stg.ilayoutstorage_beginmonitor
 ms.topic: method
-f1_keywords: 
- - "objidl/ILayoutStorage.BeginMonitor"
+f1_keywords:
+- objidl/ILayoutStorage.BeginMonitor
 dev_langs:
- - c++
+- c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Ole32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Ole32.dll
+- Ole32.dll
 api_name:
- - ILayoutStorage.BeginMonitor
+- ILayoutStorage.BeginMonitor
 targetos: Windows
 req.typenames: 
 req.redist: 

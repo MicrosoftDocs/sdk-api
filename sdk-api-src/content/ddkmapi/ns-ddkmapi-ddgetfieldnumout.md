@@ -1,19 +1,17 @@
 ---
 UID: NS:ddkmapi._DDGETFIELDNUMOUT
 title: DDGETFIELDNUMOUT (ddkmapi.h)
-
 description: The DDGETFIELDNUMOUT structure contains the hardware video port's field number.
 old-location: display\ddgetfieldnumout.htm
 tech.root: display
 ms.assetid: 6af9d0be-03b7-4153-a4d6-cf36afe4fd0e
-
 ms.date: 12/05/2018
-ms.keywords: "*LPDDGETFIELDNUMOUT, DDGETFIELDNUMOUT, DDGETFIELDNUMOUT structure [Display Devices], LPDDGETFIELDNUMOUT, LPDDGETFIELDNUMOUT structure pointer [Display Devices], ddkmapi/DDGETFIELDNUMOUT, ddkmapi/LPDDGETFIELDNUMOUT, ddstrcts_a52a121b-2050-41c3-a5ee-6ad474e3a666.xml, display.ddgetfieldnumout"
+ms.keywords: '*LPDDGETFIELDNUMOUT, DDGETFIELDNUMOUT, DDGETFIELDNUMOUT structure [Display Devices], LPDDGETFIELDNUMOUT, LPDDGETFIELDNUMOUT structure pointer [Display Devices], ddkmapi/DDGETFIELDNUMOUT, ddkmapi/LPDDGETFIELDNUMOUT, ddstrcts_a52a121b-2050-41c3-a5ee-6ad474e3a666.xml, display.ddgetfieldnumout'
 ms.topic: struct
-f1_keywords: 
- - "ddkmapi/DDGETFIELDNUMOUT"
+f1_keywords:
+- ddkmapi/DDGETFIELDNUMOUT
 dev_langs:
- - c++
+- c++
 req.header: ddkmapi.h
 req.include-header: Ddkmapi.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - ddkmapi.h
+- ddkmapi.h
 api_name:
- - DDGETFIELDNUMOUT
+- DDGETFIELDNUMOUT
 targetos: Windows
 req.typenames: DDGETFIELDNUMOUT, *LPDDGETFIELDNUMOUT
 req.redist: 

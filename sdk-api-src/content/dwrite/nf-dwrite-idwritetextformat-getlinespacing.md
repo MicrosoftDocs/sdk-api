@@ -1,19 +1,17 @@
 ---
 UID: NF:dwrite.IDWriteTextFormat.GetLineSpacing
 title: IDWriteTextFormat::GetLineSpacing (dwrite.h)
-
 description: Gets the line spacing adjustment set for a multiline text paragraph.
 old-location: directwrite\IDWriteTextFormat_GetLineSpacing.htm
 tech.root: DirectWrite
 ms.assetid: d9563d4d-0b7d-4921-b251-6ef1e24105f1
-
 ms.date: 12/05/2018
 ms.keywords: GetLineSpacing, GetLineSpacing method [Direct Write], GetLineSpacing method [Direct Write],IDWriteTextFormat interface, IDWriteTextFormat interface [Direct Write],GetLineSpacing method, IDWriteTextFormat.GetLineSpacing, IDWriteTextFormat::GetLineSpacing, directwrite.IDWriteTextFormat_GetLineSpacing, dwrite/IDWriteTextFormat::GetLineSpacing
 ms.topic: method
-f1_keywords: 
- - "dwrite/IDWriteTextFormat.GetLineSpacing"
+f1_keywords:
+- dwrite/IDWriteTextFormat.GetLineSpacing
 dev_langs:
- - c++
+- c++
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dwrite.lib
 req.dll: Dwrite.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dwrite.dll
+- dwrite.dll
 api_name:
- - IDWriteTextFormat.GetLineSpacing
+- IDWriteTextFormat.GetLineSpacing
 targetos: Windows
 req.typenames: 
 req.redist: 

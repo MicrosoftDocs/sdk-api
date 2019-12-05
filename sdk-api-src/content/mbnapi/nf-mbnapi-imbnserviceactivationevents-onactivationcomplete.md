@@ -1,19 +1,17 @@
 ---
 UID: NF:mbnapi.IMbnServiceActivationEvents.OnActivationComplete
 title: IMbnServiceActivationEvents::OnActivationComplete (mbnapi.h)
-
 description: Notification method called by the Mobile Broadband service to indicate that a service activation request ahs completed.
 old-location: mbn\imbnserviceactivationevents_onactivationcomplete.htm
 tech.root: mbn
 ms.assetid: bc1c85b3-1b7b-4439-9358-801da8f4c79b
-
 ms.date: 12/05/2018
 ms.keywords: E_INVALIDARG, E_MBN_BAD_SIM, E_MBN_PIN_REQUIRED, E_MBN_PROVIDER_NOT_VISIBLE, E_MBN_RADIO_POWER_OFF, E_MBN_SIM_NOT_INSERTED, HRESULT_FROM_WIN32(ERROR_NOT_SUPPORTED), IMbnServiceActivationEvents interface [Microsoft Broadband Networks],OnActivationComplete method, IMbnServiceActivationEvents.OnActivationComplete, IMbnServiceActivationEvents::OnActivationComplete, OnActivationComplete, OnActivationComplete method [Microsoft Broadband Networks], OnActivationComplete method [Microsoft Broadband Networks],IMbnServiceActivationEvents interface, S_OK, mbn.imbnserviceactivationevents_onactivationcomplete, mbnapi/IMbnServiceActivationEvents::OnActivationComplete
 ms.topic: method
-f1_keywords: 
- - "mbnapi/IMbnServiceActivationEvents.OnActivationComplete"
+f1_keywords:
+- mbnapi/IMbnServiceActivationEvents.OnActivationComplete
 dev_langs:
- - c++
+- c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mbnapi.h
+- mbnapi.h
 api_name:
- - IMbnServiceActivationEvents.OnActivationComplete
+- IMbnServiceActivationEvents.OnActivationComplete
 targetos: Windows
 req.typenames: 
 req.redist: 

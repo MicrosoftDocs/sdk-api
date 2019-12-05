@@ -1,19 +1,17 @@
 ---
 UID: NN:msctf.ITfTransitoryExtensionSink
 title: ITfTransitoryExtensionSink (msctf.h)
-
 description: The ITfTransitoryExtensionSink interface is implemented by the application that uses Transitory Extension dim. The application can track the changes that happened in the transitory extension by using this sink interface.
 old-location: tsf\itftransitoryextensionsink.htm
 tech.root: TSF
 ms.assetid: c2c11bd9-ae33-462e-8534-dc57a5131846
-
 ms.date: 12/05/2018
 ms.keywords: ITfTransitoryExtensionSink, ITfTransitoryExtensionSink interface [Text Services Framework], ITfTransitoryExtensionSink interface [Text Services Framework],described, _tsf_itftransitoryextensionsink_ref, msctf/ITfTransitoryExtensionSink, tsf.itftransitoryextensionsink
 ms.topic: interface
-f1_keywords: 
- - "msctf/ITfTransitoryExtensionSink"
+f1_keywords:
+- msctf/ITfTransitoryExtensionSink
 dev_langs:
- - c++
+- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msctf.h
+- Msctf.h
 api_name:
- - ITfTransitoryExtensionSink
+- ITfTransitoryExtensionSink
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

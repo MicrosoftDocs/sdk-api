@@ -1,19 +1,17 @@
 ---
 UID: NF:mfreadwrite.IMFReadWriteClassFactory.CreateInstanceFromURL
 title: IMFReadWriteClassFactory::CreateInstanceFromURL (mfreadwrite.h)
-
 description: Creates an instance of the sink writer or source reader, given a URL.
 old-location: mf\imfreadwriteclassfactory_createinstancefromurl.htm
 tech.root: medfound
 ms.assetid: 2769faa2-e381-4908-95f8-122ae4cd7ec5
-
 ms.date: 12/05/2018
 ms.keywords: CLSID_MFSinkWriter, CLSID_MFSourceReader, CreateInstanceFromURL, CreateInstanceFromURL method [Media Foundation], CreateInstanceFromURL method [Media Foundation],IMFReadWriteClassFactory interface, IMFReadWriteClassFactory interface [Media Foundation],CreateInstanceFromURL method, IMFReadWriteClassFactory.CreateInstanceFromURL, IMFReadWriteClassFactory::CreateInstanceFromURL, mf.imfreadwriteclassfactory_createinstancefromurl, mfreadwrite/IMFReadWriteClassFactory::CreateInstanceFromURL
 ms.topic: method
-f1_keywords: 
- - "mfreadwrite/IMFReadWriteClassFactory.CreateInstanceFromURL"
+f1_keywords:
+- mfreadwrite/IMFReadWriteClassFactory.CreateInstanceFromURL
 dev_langs:
- - c++
+- c++
 req.header: mfreadwrite.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfreadwrite.h
+- mfreadwrite.h
 api_name:
- - IMFReadWriteClassFactory.CreateInstanceFromURL
+- IMFReadWriteClassFactory.CreateInstanceFromURL
 targetos: Windows
 req.typenames: 
 req.redist: 

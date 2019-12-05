@@ -1,19 +1,17 @@
 ---
 UID: NF:segment.IMSVidGraphSegmentContainer.get_Graph
 title: IMSVidGraphSegmentContainer::get_Graph (segment.h)
-
 description: The get_Graph method returns a pointer to the Filter Graph Manager.
 old-location: mstv\imsvidgraphsegmentcontainer_get_graph.htm
 tech.root: mstv
 ms.assetid: fecc2953-84d6-4d1b-bb3f-5b966debef1e
-
 ms.date: 12/05/2018
 ms.keywords: IMSVidGraphSegmentContainer interface [Microsoft TV Technologies],get_Graph method, IMSVidGraphSegmentContainer.get_Graph, IMSVidGraphSegmentContainer::get_Graph, IMSVidGraphSegmentContainerget_Graph, get_Graph, get_Graph method [Microsoft TV Technologies], get_Graph method [Microsoft TV Technologies],IMSVidGraphSegmentContainer interface, mstv.imsvidgraphsegmentcontainer_get_graph, segment/IMSVidGraphSegmentContainer::get_Graph
 ms.topic: method
-f1_keywords: 
- - "segment/IMSVidGraphSegmentContainer.get_Graph"
+f1_keywords:
+- segment/IMSVidGraphSegmentContainer.get_Graph
 dev_langs:
- - c++
+- c++
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - segment.h
+- segment.h
 api_name:
- - IMSVidGraphSegmentContainer.get_Graph
+- IMSVidGraphSegmentContainer.get_Graph
 targetos: Windows
 req.typenames: 
 req.redist: 

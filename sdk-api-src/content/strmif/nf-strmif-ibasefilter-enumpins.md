@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IBaseFilter.EnumPins
 title: IBaseFilter::EnumPins (strmif.h)
-
 description: The EnumPins method enumerates the pins on this filter.
 old-location: dshow\ibasefilter_enumpins.htm
 tech.root: DirectShow
 ms.assetid: 02675c93-7901-40f6-a9fc-f6f13f56acca
-
 ms.date: 12/05/2018
 ms.keywords: EnumPins, EnumPins method [DirectShow], EnumPins method [DirectShow],IBaseFilter interface, IBaseFilter interface [DirectShow],EnumPins method, IBaseFilter.EnumPins, IBaseFilter::EnumPins, IBaseFilterEnumPins, dshow.ibasefilter_enumpins, strmif/IBaseFilter::EnumPins
 ms.topic: method
-f1_keywords: 
- - "strmif/IBaseFilter.EnumPins"
+f1_keywords:
+- strmif/IBaseFilter.EnumPins
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IBaseFilter.EnumPins
+- IBaseFilter.EnumPins
 targetos: Windows
 req.typenames: 
 req.redist: 

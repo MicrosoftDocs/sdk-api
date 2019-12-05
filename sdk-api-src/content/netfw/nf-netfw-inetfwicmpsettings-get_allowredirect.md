@@ -1,19 +1,17 @@
 ---
 UID: NF:netfw.INetFwIcmpSettings.get_AllowRedirect
 title: INetFwIcmpSettings::get_AllowRedirect (netfw.h)
-
 description: Indicates whether redirect is allowed.
 old-location: ics\inetfwicmpsettings_allowredirect.htm
 tech.root: ics
 ms.assetid: 2d4d5e8c-8903-46f6-ba41-a7a00ac50312
-
 ms.date: 12/05/2018
 ms.keywords: AllowRedirect property [ICS/ICF], AllowRedirect property [ICS/ICF],INetFwIcmpSettings interface, INetFwIcmpSettings interface [ICS/ICF],AllowRedirect property, INetFwIcmpSettings.AllowRedirect, INetFwIcmpSettings.get_AllowRedirect, INetFwIcmpSettings::AllowRedirect, INetFwIcmpSettings::get_AllowRedirect, INetFwIcmpSettings::put_AllowRedirect, get_AllowRedirect, ics.inetfwicmpsettings_allowredirect, netfw/INetFwIcmpSettings::AllowRedirect, netfw/INetFwIcmpSettings::get_AllowRedirect, netfw/INetFwIcmpSettings::put_AllowRedirect
 ms.topic: method
-f1_keywords: 
- - "netfw/INetFwIcmpSettings.AllowRedirect"
+f1_keywords:
+- netfw/INetFwIcmpSettings.AllowRedirect
 dev_langs:
- - c++
+- c++
 req.header: netfw.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib:
 req.dll: FirewallAPI.dll; Hnetcfg.dll on Windows XP with SP2
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - FirewallAPI.dll
- - Hnetcfg.dll
+- FirewallAPI.dll
+- Hnetcfg.dll
 api_name:
- - INetFwIcmpSettings.AllowRedirect
- - INetFwIcmpSettings.get_AllowRedirect
- - INetFwIcmpSettings.put_AllowRedirect
+- INetFwIcmpSettings.AllowRedirect
+- INetFwIcmpSettings.get_AllowRedirect
+- INetFwIcmpSettings.put_AllowRedirect
 targetos: Windows
 req.typenames: 
 req.redist: 

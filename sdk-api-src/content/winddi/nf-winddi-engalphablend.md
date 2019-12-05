@@ -1,19 +1,17 @@
 ---
 UID: NF:winddi.EngAlphaBlend
 title: EngAlphaBlend function (winddi.h)
-
 description: The EngAlphaBlend function provides bit-block transfer capabilities with alpha blending.
 old-location: display\engalphablend.htm
 tech.root: display
 ms.assetid: c8839271-0a75-4657-875f-114545f44777
-
 ms.date: 12/05/2018
 ms.keywords: EngAlphaBlend, EngAlphaBlend function [Display Devices], display.engalphablend, gdifncs_f7f6d10b-db7e-40af-8378-05cca946505f.xml, winddi/EngAlphaBlend
 ms.topic: function
 f1_keywords:
 - winddi/EngAlphaBlend
 dev_langs:
- - c++
+- c++
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Universal

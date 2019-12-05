@@ -1,19 +1,17 @@
 ---
 UID: NF:wincrypt.CryptExportKey
 title: CryptExportKey function (wincrypt.h)
-
 description: Exports a cryptographic key or a key pair from a cryptographic service provider (CSP) in a secure manner.
 old-location: security\cryptexportkey.htm
 tech.root: SecCrypto
 ms.assetid: 8a7c7b46-3bea-4043-b568-6d91d6335737
-
 ms.date: 12/05/2018
 ms.keywords: CRYPT_BLOB_VER3, CRYPT_DESTROYKEY, CRYPT_OAEP, CRYPT_SSL2_FALLBACK, CRYPT_Y_ONLY, CryptExportKey, CryptExportKey function [Security], OPAQUEKEYBLOB, PLAINTEXTKEYBLOB, PRIVATEKEYBLOB, PUBLICKEYBLOB, SIMPLEBLOB, SYMMETRICWRAPKEYBLOB, _crypto2_cryptexportkey, security.cryptexportkey, wincrypt/CryptExportKey
 ms.topic: function
-f1_keywords: 
- - "wincrypt/CryptExportKey"
+f1_keywords:
+- wincrypt/CryptExportKey
 dev_langs:
- - c++
+- c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Advapi32.dll
- - API-MS-Win-Security-cryptoapi-l1-1-0.dll
- - cryptsp.dll
+- Advapi32.dll
+- API-MS-Win-Security-cryptoapi-l1-1-0.dll
+- cryptsp.dll
 api_name:
- - CryptExportKey
+- CryptExportKey
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NE:clusapi._CLUSTER_SETUP_PHASE
 title: CLUSTER_SETUP_PHASE (clusapi.h)
-
 description: Used by the ClusterSetupProgressCallback function to identify the current phase of the cluster setup process.
 old-location: mscs\cluster_setup_phase.htm
 tech.root: MsCS
 ms.assetid: cc881b92-c312-4b88-8d8d-09f98925b5b5
-
 ms.date: 12/05/2018
 ms.keywords: CLUSTER_SETUP_PHASE, CLUSTER_SETUP_PHASE enumeration [Failover Cluster], ClusterSetupPhaseAddClusterProperties, ClusterSetupPhaseAddNodeToCluster, ClusterSetupPhaseCleanupCOs, ClusterSetupPhaseCleanupNode, ClusterSetupPhaseClusterGroupOnline, ClusterSetupPhaseConfigureClusSvc, ClusterSetupPhaseConfigureClusterAccount, ClusterSetupPhaseCoreGroupCleanup, ClusterSetupPhaseCreateClusterAccount, ClusterSetupPhaseCreateGroups, ClusterSetupPhaseCreateIPAddressResources, ClusterSetupPhaseCreateNetworkName, ClusterSetupPhaseCreateResourceTypes, ClusterSetupPhaseDeleteGroup, ClusterSetupPhaseEvictNode, ClusterSetupPhaseFailureCleanup, ClusterSetupPhaseFormingCluster, ClusterSetupPhaseGettingCurrentMembership, ClusterSetupPhaseInitialize, ClusterSetupPhaseMoveGroup, ClusterSetupPhaseNodeUp, ClusterSetupPhaseOfflineGroup, ClusterSetupPhaseQueryClusterNameAccount, ClusterSetupPhaseStartingClusSvc, ClusterSetupPhaseValidateClusDisk, ClusterSetupPhaseValidateClusterNameAccount, ClusterSetupPhaseValidateNetft, ClusterSetupPhaseValidateNodeState, clusapi/CLUSTER_SETUP_PHASE, clusapi/ClusterSetupPhaseAddClusterProperties, clusapi/ClusterSetupPhaseAddNodeToCluster, clusapi/ClusterSetupPhaseCleanupCOs, clusapi/ClusterSetupPhaseCleanupNode, clusapi/ClusterSetupPhaseClusterGroupOnline, clusapi/ClusterSetupPhaseConfigureClusSvc, clusapi/ClusterSetupPhaseConfigureClusterAccount, clusapi/ClusterSetupPhaseCoreGroupCleanup, clusapi/ClusterSetupPhaseCreateClusterAccount, clusapi/ClusterSetupPhaseCreateGroups, clusapi/ClusterSetupPhaseCreateIPAddressResources, clusapi/ClusterSetupPhaseCreateNetworkName, clusapi/ClusterSetupPhaseCreateResourceTypes, clusapi/ClusterSetupPhaseDeleteGroup, clusapi/ClusterSetupPhaseEvictNode, clusapi/ClusterSetupPhaseFailureCleanup, clusapi/ClusterSetupPhaseFormingCluster, clusapi/ClusterSetupPhaseGettingCurrentMembership, clusapi/ClusterSetupPhaseInitialize, clusapi/ClusterSetupPhaseMoveGroup, clusapi/ClusterSetupPhaseNodeUp, clusapi/ClusterSetupPhaseOfflineGroup, clusapi/ClusterSetupPhaseQueryClusterNameAccount, clusapi/ClusterSetupPhaseStartingClusSvc, clusapi/ClusterSetupPhaseValidateClusDisk, clusapi/ClusterSetupPhaseValidateClusterNameAccount, clusapi/ClusterSetupPhaseValidateNetft, clusapi/ClusterSetupPhaseValidateNodeState, mscs.cluster_setup_phase
 ms.topic: enum
-f1_keywords: 
- - "clusapi/CLUSTER_SETUP_PHASE"
+f1_keywords:
+- clusapi/CLUSTER_SETUP_PHASE
 dev_langs:
- - c++
+- c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - ClusAPI.h
+- ClusAPI.h
 api_name:
- - CLUSTER_SETUP_PHASE
+- CLUSTER_SETUP_PHASE
 targetos: Windows
 req.typenames: CLUSTER_SETUP_PHASE
 req.redist: 

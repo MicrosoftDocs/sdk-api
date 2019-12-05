@@ -1,19 +1,17 @@
 ---
 UID: NE:wsdbase._WSDUdpMessageType
 title: WSDUdpMessageType (wsdbase.h)
-
 description: Identifies the type of UDP message.
 old-location: ncd\wsdudpmessagetype.htm
 tech.root: WsdApi
 ms.assetid: 0af4fd37-b1a9-4916-986c-e071c060d020
-
 ms.date: 12/05/2018
 ms.keywords: ONE_WAY, TWO_WAY, WSDUdpMessageType, WSDUdpMessageType enumeration, ncd.wsdudpmessagetype, wsdbase/ONE_WAY, wsdbase/TWO_WAY, wsdbase/WSDUdpMessageType
 ms.topic: enum
-f1_keywords: 
- - "wsdbase/WSDUdpMessageType"
+f1_keywords:
+- wsdbase/WSDUdpMessageType
 dev_langs:
- - c++
+- c++
 req.header: wsdbase.h
 req.include-header: Wsdapi.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wsdbase.h
+- Wsdbase.h
 api_name:
- - WSDUdpMessageType
+- WSDUdpMessageType
 targetos: Windows
 req.typenames: WSDUdpMessageType
 req.redist: 

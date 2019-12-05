@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IConfigAviMux.GetMasterStream
 title: IConfigAviMux::GetMasterStream (strmif.h)
-
 description: The GetMasterStream method queries which stream will be used to synchronize the other streams in the file.
 old-location: dshow\iconfigavimux_getmasterstream.htm
 tech.root: DirectShow
 ms.assetid: 2085a510-16d5-4a82-b372-824026203ef6
-
 ms.date: 12/05/2018
 ms.keywords: GetMasterStream, GetMasterStream method [DirectShow], GetMasterStream method [DirectShow],IConfigAviMux interface, IConfigAviMux interface [DirectShow],GetMasterStream method, IConfigAviMux.GetMasterStream, IConfigAviMux::GetMasterStream, IConfigAviMuxGetMasterStream, dshow.iconfigavimux_getmasterstream, strmif/IConfigAviMux::GetMasterStream
 ms.topic: method
-f1_keywords: 
- - "strmif/IConfigAviMux.GetMasterStream"
+f1_keywords:
+- strmif/IConfigAviMux.GetMasterStream
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IConfigAviMux.GetMasterStream
+- IConfigAviMux.GetMasterStream
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:errhandlingapi.GetThreadErrorMode
 title: GetThreadErrorMode function (errhandlingapi.h)
-
 description: Retrieves the error mode for the calling thread.
 old-location: base\getthreaderrormode.htm
 tech.root: Debug
 ms.assetid: 246d838a-ba16-4ba4-8cd3-f25dfc7d2f23
-
 ms.date: 12/05/2018
 ms.keywords: GetThreadErrorMode, GetThreadErrorMode function, base.getthreaderrormode, errhandlingapi/GetThreadErrorMode
 ms.topic: function
-f1_keywords: 
- - "errhandlingapi/GetThreadErrorMode"
+f1_keywords:
+- errhandlingapi/GetThreadErrorMode
 dev_langs:
- - c++
+- c++
 req.header: errhandlingapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - kernel32.dll
- - API-Ms-Win-Core-ErrorHandling-L1-1-3.dll
- - KernelBase.dll
+- kernel32.dll
+- API-Ms-Win-Core-ErrorHandling-L1-1-3.dll
+- KernelBase.dll
 api_name:
- - GetThreadErrorMode
+- GetThreadErrorMode
 targetos: Windows
 req.typenames: 
 req.redist: 

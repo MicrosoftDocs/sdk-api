@@ -1,19 +1,17 @@
 ---
 UID: NF:oleacc.IAccessible.accHitTest
 title: IAccessible::accHitTest (oleacc.h)
-
 description: The IAccessible::accHitTest method retrieves the child element or child object that is displayed at a specific point on the screen.
 old-location: winauto\iaccessible_iaccessible__acchittest.htm
 tech.root: WinAuto
 ms.assetid: 87327086-a8f3-4d1c-ab4d-8f5aba00c61a
-
 ms.date: 12/05/2018
 ms.keywords: IAccessible interface [Windows Accessibility],accHitTest method, IAccessible.accHitTest, IAccessible::accHitTest, _msaa_IAccessible_accHitTest, accHitTest, accHitTest method [Windows Accessibility], accHitTest method [Windows Accessibility],IAccessible interface, msaa.iaccessible_iaccessible__acchittest, oleacc/IAccessible::accHitTest, winauto.iaccessible_iaccessible__acchittest
 ms.topic: method
-f1_keywords: 
- - "oleacc/IAccessible.accHitTest"
+f1_keywords:
+- oleacc/IAccessible.accHitTest
 dev_langs:
- - c++
+- c++
 req.header: oleacc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Oleacc.lib
 req.dll: Oleacc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Oleacc.dll
+- Oleacc.dll
 api_name:
- - IAccessible.accHitTest
+- IAccessible.accHitTest
 targetos: Windows
 req.typenames: 
 req.redist: Active Accessibility 1.3 RDK on Windows NT 4.0 with SP6 and later and Windows 95

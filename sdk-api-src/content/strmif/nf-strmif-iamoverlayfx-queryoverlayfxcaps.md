@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IAMOverlayFX.QueryOverlayFXCaps
 title: IAMOverlayFX::QueryOverlayFXCaps (strmif.h)
-
 description: The QueryOverlayFXCaps method retrieves information about which overlay effects are available to the Overlay Mixer filter.
 old-location: dshow\iamoverlayfx_queryoverlayfxcaps.htm
 tech.root: DirectShow
 ms.assetid: 01fdbe3d-bec7-4e66-87c5-b7e6c1044e8a
-
 ms.date: 12/05/2018
 ms.keywords: IAMOverlayFX interface [DirectShow],QueryOverlayFXCaps method, IAMOverlayFX.QueryOverlayFXCaps, IAMOverlayFX::QueryOverlayFXCaps, IAMOverlayFXQueryOverlayFXCaps, QueryOverlayFXCaps, QueryOverlayFXCaps method [DirectShow], QueryOverlayFXCaps method [DirectShow],IAMOverlayFX interface, dshow.iamoverlayfx_queryoverlayfxcaps, strmif/IAMOverlayFX::QueryOverlayFXCaps
 ms.topic: method
-f1_keywords: 
- - "strmif/IAMOverlayFX.QueryOverlayFXCaps"
+f1_keywords:
+- strmif/IAMOverlayFX.QueryOverlayFXCaps
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IAMOverlayFX.QueryOverlayFXCaps
+- IAMOverlayFX.QueryOverlayFXCaps
 targetos: Windows
 req.typenames: 
 req.redist: 

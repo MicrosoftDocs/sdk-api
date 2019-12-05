@@ -1,19 +1,17 @@
 ---
 UID: NS:usp10.tag_SCRIPT_DIGITSUBSTITUTE
 title: SCRIPT_DIGITSUBSTITUTE (usp10.h)
-
 description: Contains native digit and digit substitution settings.
 old-location: intl\script_digitsubstitute.htm
 tech.root: Intl
 ms.assetid: e96bf8b4-7456-4e16-a623-48320104dd66
-
 ms.date: 12/05/2018
 ms.keywords: SCRIPT_DIGITSUBSTITUTE, SCRIPT_DIGITSUBSTITUTE structure [Internationalization for Windows Applications], SCRIPT_DIGITSUBSTITUTE_CONTEXT, SCRIPT_DIGITSUBSTITUTE_NATIONAL, SCRIPT_DIGITSUBSTITUTE_NONE, SCRIPT_DIGITSUBSTITUTE_TRADITIONAL, _win32_SCRIPT_DIGITSUBSTITUTE_str, intl.script_digitsubstitute, usp10/SCRIPT_DIGITSUBSTITUTE
 ms.topic: struct
-f1_keywords: 
- - "usp10/SCRIPT_DIGITSUBSTITUTE"
+f1_keywords:
+- usp10/SCRIPT_DIGITSUBSTITUTE
 dev_langs:
- - c++
+- c++
 req.header: usp10.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Usp10.h
+- Usp10.h
 api_name:
- - SCRIPT_DIGITSUBSTITUTE
+- SCRIPT_DIGITSUBSTITUTE
 targetos: Windows
 req.typenames: SCRIPT_DIGITSUBSTITUTE
 req.redist: Internet Explorer 5 or later onWindows Me/98/95

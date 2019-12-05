@@ -1,19 +1,17 @@
 ---
 UID: NN:iads.IADsProperty
 title: IADsProperty (iads.h)
-
 description: The IADsProperty interface is designed to manage a single attribute definition for a schema class object.
 old-location: adsi\iadsproperty.htm
 tech.root: adsi
 ms.assetid: ebf03974-371b-4bf4-91b4-f137339bd784
-
 ms.date: 12/05/2018
 ms.keywords: IADsProperty, IADsProperty interface [ADSI], IADsProperty interface [ADSI],described, _ds_iadsproperty, adsi.iadsproperty, iads/IADsProperty
 ms.topic: interface
-f1_keywords: 
- - "iads/IADsProperty"
+f1_keywords:
+- iads/IADsProperty
 dev_langs:
- - c++
+- c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Activeds.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Activeds.dll
+- Activeds.dll
 api_name:
- - IADsProperty
+- IADsProperty
 targetos: Windows
 req.typenames: 
 req.redist: 

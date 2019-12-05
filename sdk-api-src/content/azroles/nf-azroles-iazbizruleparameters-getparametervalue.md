@@ -1,19 +1,17 @@
 ---
 UID: NF:azroles.IAzBizRuleParameters.GetParameterValue
 title: IAzBizRuleParameters::GetParameterValue (azroles.h)
-
 description: Gets the value type of the business rule (BizRule) parameter with the specified name.
 old-location: security\iazbizruleparameters_getparametervalue_method.htm
 tech.root: SecAuthZ
 ms.assetid: 210dc872-0879-4b4f-bdc3-cbb2208dafbe
-
 ms.date: 12/05/2018
 ms.keywords: GetParameterValue, GetParameterValue method [Security], GetParameterValue method [Security],IAzBizRuleParameters interface, IAzBizRuleParameters interface [Security],GetParameterValue method, IAzBizRuleParameters.GetParameterValue, IAzBizRuleParameters::GetParameterValue, azroles/IAzBizRuleParameters::GetParameterValue, security.iazbizruleparameters_getparametervalue_method
 ms.topic: method
-f1_keywords: 
- - "azroles/IAzBizRuleParameters.GetParameterValue"
+f1_keywords:
+- azroles/IAzBizRuleParameters.GetParameterValue
 dev_langs:
- - c++
+- c++
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Azroles.h
+- Azroles.h
 api_name:
- - IAzBizRuleParameters.GetParameterValue
+- IAzBizRuleParameters.GetParameterValue
 targetos: Windows
 req.typenames: 
 req.redist: 

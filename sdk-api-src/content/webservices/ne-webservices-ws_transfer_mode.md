@@ -1,19 +1,17 @@
 ---
 UID: NE:webservices.__unnamed_enum_20
 title: WS_TRANSFER_MODE (webservices.h)
-
 description: Whether messages that are sent or received are streamed or buffered.
 old-location: wsw\ws_transfer_mode.htm
 tech.root: wsw
 ms.assetid: 6153bef6-f37f-4bc6-b1c5-5fbedd6bd234
-
 ms.date: 12/05/2018
 ms.keywords: WS_BUFFERED_TRANSFER_MODE, WS_STREAMED_INPUT_TRANSFER_MODE, WS_STREAMED_OUTPUT_TRANSFER_MODE, WS_STREAMED_TRANSFER_MODE, WS_TRANSFER_MODE, WS_TRANSFER_MODE enumeration [Web Services for Windows], webservices/WS_BUFFERED_TRANSFER_MODE, webservices/WS_STREAMED_INPUT_TRANSFER_MODE, webservices/WS_STREAMED_OUTPUT_TRANSFER_MODE, webservices/WS_STREAMED_TRANSFER_MODE, webservices/WS_TRANSFER_MODE, wsw.ws_transfer_mode
 ms.topic: enum
-f1_keywords: 
- - "webservices/WS_TRANSFER_MODE"
+f1_keywords:
+- webservices/WS_TRANSFER_MODE
 dev_langs:
- - c++
+- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WebServices.h
+- WebServices.h
 api_name:
- - WS_TRANSFER_MODE
+- WS_TRANSFER_MODE
 targetos: Windows
 req.typenames: WS_TRANSFER_MODE
 req.redist: 

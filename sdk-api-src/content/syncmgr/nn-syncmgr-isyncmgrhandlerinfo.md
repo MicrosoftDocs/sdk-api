@@ -1,19 +1,17 @@
 ---
 UID: NN:syncmgr.ISyncMgrHandlerInfo
 title: ISyncMgrHandlerInfo (syncmgr.h)
-
 description: Exposes methods that allow a handler to provide property and state information to Sync Center.
 old-location: shell\ISyncMgrHandlerInfo.htm
 tech.root: shell
 ms.assetid: 29cded59-d0f3-4678-9601-4931687b48e4
-
 ms.date: 12/05/2018
 ms.keywords: ISyncMgrHandlerInfo, ISyncMgrHandlerInfo interface [Windows Shell], ISyncMgrHandlerInfo interface [Windows Shell],described, _shell_ISyncMgrHandlerInfo, shell.ISyncMgrHandlerInfo, syncmgr/ISyncMgrHandlerInfo
 ms.topic: interface
-f1_keywords: 
- - "syncmgr/ISyncMgrHandlerInfo"
+f1_keywords:
+- syncmgr/ISyncMgrHandlerInfo
 dev_langs:
- - c++
+- c++
 req.header: syncmgr.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Syncmgr.h
+- Syncmgr.h
 api_name:
- - ISyncMgrHandlerInfo
+- ISyncMgrHandlerInfo
 targetos: Windows
 req.typenames: 
 req.redist: 

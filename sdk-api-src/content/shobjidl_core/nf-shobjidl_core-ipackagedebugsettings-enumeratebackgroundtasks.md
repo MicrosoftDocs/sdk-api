@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IPackageDebugSettings.EnumerateBackgroundTasks
 title: IPackageDebugSettings::EnumerateBackgroundTasks (shobjidl_core.h)
-
 description: Gets the background tasks that are provided by the specified package.
 old-location: shell\IPackageDebugSettings_EnumerateBackgroundTasks.htm
 tech.root: shell
 ms.assetid: 14a516c8-fb15-41b6-807c-b14d81148e0e
-
 ms.date: 12/05/2018
 ms.keywords: EnumerateBackgroundTasks, EnumerateBackgroundTasks method [Windows Shell], EnumerateBackgroundTasks method [Windows Shell],IPackageDebugSettings interface, IPackageDebugSettings interface [Windows Shell],EnumerateBackgroundTasks method, IPackageDebugSettings.EnumerateBackgroundTasks, IPackageDebugSettings::EnumerateBackgroundTasks, shell.IPackageDebugSettings_EnumerateBackgroundTasks, shobjidl_core/IPackageDebugSettings::EnumerateBackgroundTasks
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IPackageDebugSettings.EnumerateBackgroundTasks"
+f1_keywords:
+- shobjidl_core/IPackageDebugSettings.EnumerateBackgroundTasks
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shobjidl_core.h
+- Shobjidl_core.h
 api_name:
- - IPackageDebugSettings.EnumerateBackgroundTasks
+- IPackageDebugSettings.EnumerateBackgroundTasks
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NN:mmc.IConsolePowerSink
 title: IConsolePowerSink (mmc.h)
-
 description: The IConsolePowerSink interface monitors and responds to power management messages.
 old-location: mmc\iconsolepowersink.htm
 tech.root: mmc
 ms.assetid: dd23c6dc-9219-4d13-b237-13405a2fcb5a
-
 ms.date: 12/05/2018
 ms.keywords: IConsolePowerSink, IConsolePowerSink interface [MMC], IConsolePowerSink interface [MMC],described, _slate_iconsolepowersink, mmc.iconsolepowersink, mmc/IConsolePowerSink
 ms.topic: interface
-f1_keywords: 
- - "mmc/IConsolePowerSink"
+f1_keywords:
+- mmc/IConsolePowerSink
 dev_langs:
- - c++
+- c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mmc.h
+- Mmc.h
 api_name:
- - IConsolePowerSink
+- IConsolePowerSink
 targetos: Windows
 req.typenames: 
 req.redist: 

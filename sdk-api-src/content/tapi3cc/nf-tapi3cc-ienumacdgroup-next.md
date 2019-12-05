@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi3cc.IEnumACDGroup.Next
 title: IEnumACDGroup::Next (tapi3cc.h)
-
 description: The Next method gets the next specified number of elements in the enumeration sequence.
 old-location: tapi3\ienumacdgroup_next.htm
 tech.root: Tapi
 ms.assetid: 20cad3aa-2c8c-4ef8-bb3a-b7662b125475
-
 ms.date: 12/05/2018
 ms.keywords: IEnumACDGroup interface [TAPI 2.2],Next method, IEnumACDGroup.Next, IEnumACDGroup::Next, Next, Next method [TAPI 2.2], Next method [TAPI 2.2],IEnumACDGroup interface, _tapi3_ienumacdgroup_next, tapi3.ienumacdgroup_next, tapi3cc/IEnumACDGroup::Next
 ms.topic: method
-f1_keywords: 
- - "tapi3cc/IEnumACDGroup.Next"
+f1_keywords:
+- tapi3cc/IEnumACDGroup.Next
 dev_langs:
- - c++
+- c++
 req.header: tapi3cc.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Tapi3.dll
+- Tapi3.dll
 api_name:
- - IEnumACDGroup.Next
+- IEnumACDGroup.Next
 targetos: Windows
 req.typenames: 
 req.redist: 

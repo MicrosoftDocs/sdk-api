@@ -1,19 +1,17 @@
 ---
 UID: NS:wintrust._CRYPT_PROVUI_DATA
 title: CRYPT_PROVUI_DATA (wintrust.h)
-
 description: Provides user interface (UI) data for a provider. This structure is used by the CRYPT_PROVUI_FUNCS structure.
 old-location: security\crypt_provui_data.htm
 tech.root: SecCrypto
 ms.assetid: 86f819f0-c243-45ba-8b7b-97ed906e6e8a
-
 ms.date: 12/05/2018
 ms.keywords: '*PCRYPT_PROVUI_DATA, CRYPT_PROVUI_DATA, CRYPT_PROVUI_DATA structure [Security], PCRYPT_PROVUI_DATA, PCRYPT_PROVUI_DATA structure pointer [Security], security.crypt_provui_data, wintrust/CRYPT_PROVUI_DATA, wintrust/PCRYPT_PROVUI_DATA'
 ms.topic: struct
 f1_keywords:
 - wintrust/CRYPT_PROVUI_DATA
 dev_langs:
- - c++
+- c++
 req.header: wintrust.h
 req.include-header: 
 req.target-type: Windows

@@ -1,19 +1,17 @@
 ---
 UID: NF:directxmath.XMColorNegative
 title: XMColorNegative function (directxmath.h)
-
 description: Determines the negative RGB color value of a color.
 old-location: dxmath\xmcolornegative.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.color.XMColorNegative(XMVECTOR)
-
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMColorNegative, XMColorNegative, XMColorNegative method [DirectX Math Support APIs], dxmath.xmcolornegative
 ms.topic: function
-f1_keywords: 
- - "directxmath/XMColorNegative"
+f1_keywords:
+- directxmath/XMColorNegative
 dev_langs:
- - c++
+- c++
 req.header: directxmath.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - DirectXMath.h
+- DirectXMath.h
 api_name:
- - XMColorNegative
+- XMColorNegative
 targetos: Windows
 req.typenames: 
 req.redist: 

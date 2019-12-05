@@ -1,19 +1,17 @@
 ---
 UID: NF:commctrl.ListView_SetTileInfo
 title: ListView_SetTileInfo macro (commctrl.h)
-
 description: Sets information for an existing tile of a list-view control. You can use this macro or send the LVM_SETTILEINFO message explicitly.
 old-location: controls\ListView_SetTileInfo.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_settileinfo.htm
-
 ms.date: 12/05/2018
 ms.keywords: ListView_SetTileInfo, ListView_SetTileInfo macro [Windows Controls], _win32_ListView_SetTileInfo, _win32_ListView_SetTileInfo_cpp, commctrl/ListView_SetTileInfo, controls.ListView_SetTileInfo, controls._win32_ListView_SetTileInfo
 ms.topic: macro
-f1_keywords: 
- - "commctrl/ListView_SetTileInfo"
+f1_keywords:
+- commctrl/ListView_SetTileInfo
 dev_langs:
- - c++
+- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Commctrl.h
+- Commctrl.h
 api_name:
- - ListView_SetTileInfo
+- ListView_SetTileInfo
 targetos: Windows
 req.typenames: 
 req.redist: 

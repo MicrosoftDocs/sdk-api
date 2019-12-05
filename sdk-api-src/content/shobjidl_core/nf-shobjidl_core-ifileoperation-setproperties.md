@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IFileOperation.SetProperties
 title: IFileOperation::SetProperties (shobjidl_core.h)
-
 description: Declares a set of properties and values to be set on an item or items.
 old-location: shell\IFileOperation_SetProperties.htm
 tech.root: shell
 ms.assetid: b54efc12-42e9-4a90-a4d9-0e75bcdba0d6
-
 ms.date: 12/05/2018
 ms.keywords: IFileOperation interface [Windows Shell],SetProperties method, IFileOperation.SetProperties, IFileOperation::SetProperties, SetProperties, SetProperties method [Windows Shell], SetProperties method [Windows Shell],IFileOperation interface, _shell_IFileOperation_SetProperties, shell.IFileOperation_SetProperties, shobjidl_core/IFileOperation::SetProperties
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IFileOperation.SetProperties"
+f1_keywords:
+- shobjidl_core/IFileOperation.SetProperties
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - IFileOperation.SetProperties
+- IFileOperation.SetProperties
 targetos: Windows
 req.typenames: 
 req.redist: 

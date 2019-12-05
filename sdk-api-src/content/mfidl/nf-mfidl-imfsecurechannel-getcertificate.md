@@ -1,19 +1,17 @@
 ---
 UID: NF:mfidl.IMFSecureChannel.GetCertificate
 title: IMFSecureChannel::GetCertificate (mfidl.h)
-
 description: Retrieves the client's certificate.
 old-location: mf\imfsecurechannel_getcertificate.htm
 tech.root: medfound
 ms.assetid: d5465070-1706-4420-8351-fab5e8e8cd08
-
 ms.date: 12/05/2018
 ms.keywords: GetCertificate, GetCertificate method [Media Foundation], GetCertificate method [Media Foundation],IMFSecureChannel interface, IMFSecureChannel interface [Media Foundation],GetCertificate method, IMFSecureChannel.GetCertificate, IMFSecureChannel::GetCertificate, d5465070-1706-4420-8351-fab5e8e8cd08, mf.imfsecurechannel_getcertificate, mfidl/IMFSecureChannel::GetCertificate
 ms.topic: method
-f1_keywords: 
- - "mfidl/IMFSecureChannel.GetCertificate"
+f1_keywords:
+- mfidl/IMFSecureChannel.GetCertificate
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFSecureChannel.GetCertificate
+- IMFSecureChannel.GetCertificate
 targetos: Windows
 req.typenames: 
 req.redist: 

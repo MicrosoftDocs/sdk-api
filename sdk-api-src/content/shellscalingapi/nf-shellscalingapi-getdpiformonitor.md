@@ -1,19 +1,17 @@
 ---
 UID: NF:shellscalingapi.GetDpiForMonitor
 title: GetDpiForMonitor function (shellscalingapi.h)
-
 description: Queries the dots per inch (dpi) of a display.
 old-location: hidpi\getdpiformonitor.htm
 tech.root: hidpi
 ms.assetid: AB741D14-0BA1-4C33-91D8-1331BE96DE95
-
 ms.date: 12/05/2018
 ms.keywords: GetDpiForMonitor, GetDpiForMonitor function [High DPI], hidpi.getdpiformonitor, shellscalingapi/GetDpiForMonitor
 ms.topic: function
-f1_keywords: 
- - "shellscalingapi/GetDpiForMonitor"
+f1_keywords:
+- shellscalingapi/GetDpiForMonitor
 dev_langs:
- - c++
+- c++
 req.header: shellscalingapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Shcore.lib
 req.dll: Shcore.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - shcore.dll
- - api-ms-win-shcore-scaling-l1-1-1.dll
- - API-MS-Win-ShCore-Scaling-L1-1-2.dll
+- shcore.dll
+- api-ms-win-shcore-scaling-l1-1-1.dll
+- API-MS-Win-ShCore-Scaling-L1-1-2.dll
 api_name:
- - GetDpiForMonitor
+- GetDpiForMonitor
 targetos: Windows
 req.typenames: 
 req.redist: 

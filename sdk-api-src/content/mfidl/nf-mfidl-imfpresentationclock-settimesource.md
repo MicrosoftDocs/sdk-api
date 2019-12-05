@@ -1,19 +1,17 @@
 ---
 UID: NF:mfidl.IMFPresentationClock.SetTimeSource
 title: IMFPresentationClock::SetTimeSource (mfidl.h)
-
 description: Sets the time source for the presentation clock. The time source is the object that drives the clock by providing the current time.
 old-location: mf\imfpresentationclock_settimesource.htm
 tech.root: medfound
 ms.assetid: 170b7c8e-9d1a-4168-964a-5fd057d1e8f9
-
 ms.date: 12/05/2018
 ms.keywords: 170b7c8e-9d1a-4168-964a-5fd057d1e8f9, IMFPresentationClock interface [Media Foundation],SetTimeSource method, IMFPresentationClock.SetTimeSource, IMFPresentationClock::SetTimeSource, SetTimeSource, SetTimeSource method [Media Foundation], SetTimeSource method [Media Foundation],IMFPresentationClock interface, mf.imfpresentationclock_settimesource, mfidl/IMFPresentationClock::SetTimeSource
 ms.topic: method
-f1_keywords: 
- - "mfidl/IMFPresentationClock.SetTimeSource"
+f1_keywords:
+- mfidl/IMFPresentationClock.SetTimeSource
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFPresentationClock.SetTimeSource
+- IMFPresentationClock.SetTimeSource
 targetos: Windows
 req.typenames: 
 req.redist: 

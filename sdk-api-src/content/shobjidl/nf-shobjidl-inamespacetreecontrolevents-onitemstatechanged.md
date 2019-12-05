@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl.INameSpaceTreeControlEvents.OnItemStateChanged
 title: INameSpaceTreeControlEvents::OnItemStateChanged (shobjidl.h)
-
 description: Not implemented.
 old-location: shell\INameSpaceTreeControlEvents_OnItemStateChanged.htm
 tech.root: shell
 ms.assetid: 0154d97b-44db-40bf-a202-e97ba318555f
-
 ms.date: 12/05/2018
 ms.keywords: INameSpaceTreeControlEvents interface [Windows Shell],OnItemStateChanged method, INameSpaceTreeControlEvents.OnItemStateChanged, INameSpaceTreeControlEvents::OnItemStateChanged, OnItemStateChanged, OnItemStateChanged method [Windows Shell], OnItemStateChanged method [Windows Shell],INameSpaceTreeControlEvents interface, _shell_INameSpaceTreeControlEvents_OnItemStateChanged, shell.INameSpaceTreeControlEvents_OnItemStateChanged, shobjidl/INameSpaceTreeControlEvents::OnItemStateChanged
 ms.topic: method
-f1_keywords: 
- - "shobjidl/INameSpaceTreeControlEvents.OnItemStateChanged"
+f1_keywords:
+- shobjidl/INameSpaceTreeControlEvents.OnItemStateChanged
 dev_langs:
- - c++
+- c++
 req.header: shobjidl.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl.h
+- shobjidl.h
 api_name:
- - INameSpaceTreeControlEvents.OnItemStateChanged
+- INameSpaceTreeControlEvents.OnItemStateChanged
 targetos: Windows
 req.typenames: 
 req.redist: 

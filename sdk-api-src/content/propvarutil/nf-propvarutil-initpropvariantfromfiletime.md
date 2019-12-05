@@ -1,19 +1,17 @@
 ---
 UID: NF:propvarutil.InitPropVariantFromFileTime
 title: InitPropVariantFromFileTime function (propvarutil.h)
-
 description: Initializes a PROPVARIANT structure based on information stored in a FILETIME structure.
 old-location: properties\InitPropVariantFromFileTime.htm
 tech.root: properties
 ms.assetid: 07c5ffe5-b2a5-46a3-969c-81201d9b8fdb
-
 ms.date: 12/05/2018
 ms.keywords: InitPropVariantFromFileTime, InitPropVariantFromFileTime function [Windows Properties], properties.InitPropVariantFromFileTime, propvarutil/InitPropVariantFromFileTime, shell.InitPropVariantFromFileTime, shell_InitPropVariantFromFileTime
 ms.topic: function
-f1_keywords: 
- - "propvarutil/InitPropVariantFromFileTime"
+f1_keywords:
+- propvarutil/InitPropVariantFromFileTime
 dev_langs:
- - c++
+- c++
 req.header: propvarutil.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Propsys.lib
 req.dll: Propsys.dll (version 6.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Propsys.dll
+- Propsys.dll
 api_name:
- - InitPropVariantFromFileTime
+- InitPropVariantFromFileTime
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0

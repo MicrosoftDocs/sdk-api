@@ -1,19 +1,17 @@
 ---
 UID: NN:xpsobjectmodel.IXpsOMPackage
 title: IXpsOMPackage (xpsobjectmodel.h)
-
 description: Provides the top-level entry into the XPS object model tree.
 old-location: xps\ixpsompackage.htm
 tech.root: printdocs
 ms.assetid: 7b0a36d6-1af1-4c2c-af14-d6139e9115c3
-
 ms.date: 12/05/2018
 ms.keywords: IXpsOMPackage, IXpsOMPackage interface [XPS Documents and Packaging], IXpsOMPackage interface [XPS Documents and Packaging],described, xps.ixpsompackage, xpsobjectmodel/IXpsOMPackage
 ms.topic: interface
-f1_keywords: 
- - "xpsobjectmodel/IXpsOMPackage"
+f1_keywords:
+- xpsobjectmodel/IXpsOMPackage
 dev_langs:
- - c++
+- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsobjectmodel.h
+- xpsobjectmodel.h
 api_name:
- - IXpsOMPackage
+- IXpsOMPackage
 targetos: Windows
 req.typenames: 
 req.redist: 

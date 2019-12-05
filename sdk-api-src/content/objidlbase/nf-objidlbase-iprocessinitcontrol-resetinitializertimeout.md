@@ -1,19 +1,17 @@
 ---
 UID: NF:objidlbase.IProcessInitControl.ResetInitializerTimeout
 title: IProcessInitControl::ResetInitializerTimeout (objidlbase.h)
-
 description: Sets the process initialization time-out.
 old-location: com\iprocessinitcontrol_resetinitializertimeout.htm
 tech.root: com
 ms.assetid: 1045b9c9-d7ad-4306-bd9d-7c2a4bda9a62
-
 ms.date: 12/05/2018
 ms.keywords: IProcessInitControl interface [COM],ResetInitializerTimeout method, IProcessInitControl.ResetInitializerTimeout, IProcessInitControl::ResetInitializerTimeout, ResetInitializerTimeout, ResetInitializerTimeout method [COM], ResetInitializerTimeout method [COM],IProcessInitControl interface, _com_iprocessinitcontrol_resetinitializertimeout, com.iprocessinitcontrol_resetinitializertimeout, objidlbase/IProcessInitControl::ResetInitializerTimeout
 ms.topic: method
-f1_keywords: 
- - "objidlbase/IProcessInitControl.ResetInitializerTimeout"
+f1_keywords:
+- objidlbase/IProcessInitControl.ResetInitializerTimeout
 dev_langs:
- - c++
+- c++
 req.header: objidlbase.h
 req.include-header: ObjIdl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - objidlbase.h
+- objidlbase.h
 api_name:
- - IProcessInitControl.ResetInitializerTimeout
+- IProcessInitControl.ResetInitializerTimeout
 targetos: Windows
 req.typenames: 
 req.redist: 

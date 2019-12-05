@@ -1,19 +1,17 @@
 ---
 UID: NE:wbemcli.tag_WBEM_SECURITY_FLAGS
 title: WBEM_SECURITY_FLAGS (wbemcli.h)
-
 description: Contains flags used for setting security access levels.
 old-location: wmi\wbem_security_flags.htm
 tech.root: WmiSdk
 ms.assetid: 28415184-B699-42D0-BC5C-0D3E055ABA16
-
 ms.date: 12/05/2018
 ms.keywords: WBEM_ENABLE, WBEM_FULL_WRITE_REP, WBEM_METHOD_EXECUTE, WBEM_PARTIAL_WRITE_REP, WBEM_REMOTE_ACCESS, WBEM_RIGHT_PUBLISH, WBEM_RIGHT_SUBSCRIBE, WBEM_SECURITY_FLAGS, WBEM_SECURITY_FLAGS enumeration [Windows Management Instrumentation], WBEM_WRITE_PROVIDER, wbemcli/WBEM_ENABLE, wbemcli/WBEM_FULL_WRITE_REP, wbemcli/WBEM_METHOD_EXECUTE, wbemcli/WBEM_PARTIAL_WRITE_REP, wbemcli/WBEM_REMOTE_ACCESS, wbemcli/WBEM_RIGHT_PUBLISH, wbemcli/WBEM_RIGHT_SUBSCRIBE, wbemcli/WBEM_SECURITY_FLAGS, wbemcli/WBEM_WRITE_PROVIDER, wmi.wbem_security_flags
 ms.topic: enum
-f1_keywords: 
- - "wbemcli/WBEM_SECURITY_FLAGS"
+f1_keywords:
+- wbemcli/WBEM_SECURITY_FLAGS
 dev_langs:
- - c++
+- c++
 req.header: wbemcli.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wbemcli.h
+- Wbemcli.h
 api_name:
- - WBEM_SECURITY_FLAGS
+- WBEM_SECURITY_FLAGS
 targetos: Windows
 req.typenames: WBEM_SECURITY_FLAGS
 req.redist: 

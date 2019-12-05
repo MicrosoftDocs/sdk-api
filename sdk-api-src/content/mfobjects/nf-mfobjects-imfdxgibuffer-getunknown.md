@@ -1,19 +1,17 @@
 ---
 UID: NF:mfobjects.IMFDXGIBuffer.GetUnknown
 title: IMFDXGIBuffer::GetUnknown (mfobjects.h)
-
 description: Gets an IUnknown pointer that was previously stored in the media buffer object.
 old-location: mf\imfdxgibuffer_getunknown.htm
 tech.root: medfound
 ms.assetid: 6B4A5E79-3A0A-439E-ABE1-F92C3D07FB57
-
 ms.date: 12/05/2018
 ms.keywords: GetUnknown, GetUnknown method [Media Foundation], GetUnknown method [Media Foundation],IMFDXGIBuffer interface, IMFDXGIBuffer interface [Media Foundation],GetUnknown method, IMFDXGIBuffer.GetUnknown, IMFDXGIBuffer::GetUnknown, mf.imfdxgibuffer_getunknown, mfobjects/IMFDXGIBuffer::GetUnknown
 ms.topic: method
-f1_keywords: 
- - "mfobjects/IMFDXGIBuffer.GetUnknown"
+f1_keywords:
+- mfobjects/IMFDXGIBuffer.GetUnknown
 dev_langs:
- - c++
+- c++
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfobjects.h
+- mfobjects.h
 api_name:
- - IMFDXGIBuffer.GetUnknown
+- IMFDXGIBuffer.GetUnknown
 targetos: Windows
 req.typenames: 
 req.redist: 

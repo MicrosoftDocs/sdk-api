@@ -1,19 +1,17 @@
 ---
 UID: NF:rdpappcontainerclient.IRemoteDesktopClientActions.ResumeScreenUpdates
 title: IRemoteDesktopClientActions::ResumeScreenUpdates (rdpappcontainerclient.h)
-
 description: Resumes screen updates being sent to the client.
 old-location: termserv\iremotedesktopclientactions_resumescreenupdates.htm
 tech.root: TermServ
 ms.assetid: be11f1c8-eb55-4ed3-80ca-eda9ee21c92c
-
 ms.date: 12/05/2018
 ms.keywords: IRemoteDesktopClientActions interface [Remote Desktop Services],ResumeScreenUpdates method, IRemoteDesktopClientActions.ResumeScreenUpdates, IRemoteDesktopClientActions::ResumeScreenUpdates, ResumeScreenUpdates, ResumeScreenUpdates method [Remote Desktop Services], ResumeScreenUpdates method [Remote Desktop Services],IRemoteDesktopClientActions interface, rdpappcontainerclient/IRemoteDesktopClientActions::ResumeScreenUpdates, termserv.iremotedesktopclientactions_resumescreenupdates
 ms.topic: method
-f1_keywords: 
- - "rdpappcontainerclient/IRemoteDesktopClientActions.ResumeScreenUpdates"
+f1_keywords:
+- rdpappcontainerclient/IRemoteDesktopClientActions.ResumeScreenUpdates
 dev_langs:
- - c++
+- c++
 req.header: rdpappcontainerclient.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: MsTscAx.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - MsTscAx.dll
+- MsTscAx.dll
 api_name:
- - IRemoteDesktopClientActions.ResumeScreenUpdates
+- IRemoteDesktopClientActions.ResumeScreenUpdates
 targetos: Windows
 req.typenames: 
 req.redist: 

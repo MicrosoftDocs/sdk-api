@@ -1,19 +1,17 @@
 ---
 UID: NF:mfidl.MFCreateSequencerSource
 title: MFCreateSequencerSource function (mfidl.h)
-
 description: Creates the sequencer source.
 old-location: mf\mfcreatesequencersource.htm
 tech.root: medfound
 ms.assetid: e4640731-f262-4ceb-8d17-908c2c6b192e
-
 ms.date: 12/05/2018
 ms.keywords: MFCreateSequencerSource, MFCreateSequencerSource function [Media Foundation], e4640731-f262-4ceb-8d17-908c2c6b192e, mf.mfcreatesequencersource, mfidl/MFCreateSequencerSource
 ms.topic: function
-f1_keywords: 
- - "mfidl/MFCreateSequencerSource"
+f1_keywords:
+- mfidl/MFCreateSequencerSource
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Mf.lib
 req.dll: Mf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - mf.dll
+- mf.dll
 api_name:
- - MFCreateSequencerSource
+- MFCreateSequencerSource
 targetos: Windows
 req.typenames: 
 req.redist: 

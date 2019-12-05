@@ -1,19 +1,17 @@
 ---
 UID: NF:tsuserex.IADsTSUserEx.get_TerminalServicesWorkDirectory
 title: IADsTSUserEx::get_TerminalServicesWorkDirectory (tsuserex.h)
-
 description: The working directory path for the user.
 old-location: termserv\iadstsuserex_terminalservicesworkdirectory.htm
 tech.root: TermServ
 ms.assetid: 66048329-ae5a-4e70-b6a4-dcdc312a74df
-
 ms.date: 12/05/2018
 ms.keywords: IADsTSUserEx interface [Remote Desktop Services],TerminalServicesWorkDirectory property, IADsTSUserEx.TerminalServicesWorkDirectory, IADsTSUserEx.get_TerminalServicesWorkDirectory, IADsTSUserEx::TerminalServicesWorkDirectory, IADsTSUserEx::get_TerminalServicesWorkDirectory, IADsTSUserEx::put_TerminalServicesWorkDirectory, TerminalServicesWorkDirectory property [Remote Desktop Services], TerminalServicesWorkDirectory property [Remote Desktop Services],IADsTSUserEx interface, get_TerminalServicesWorkDirectory, termserv.iadstsuserex_terminalservicesworkdirectory, tsuserex/IADsTSUserEx::TerminalServicesWorkDirectory, tsuserex/IADsTSUserEx::get_TerminalServicesWorkDirectory, tsuserex/IADsTSUserEx::put_TerminalServicesWorkDirectory
 ms.topic: method
-f1_keywords: 
- - "tsuserex/IADsTSUserEx.TerminalServicesWorkDirectory"
+f1_keywords:
+- tsuserex/IADsTSUserEx.TerminalServicesWorkDirectory
 dev_langs:
- - c++
+- c++
 req.header: tsuserex.h
 req.include-header: Tsuserex.h, Tsuserex_i.c
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: Tsuserex.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Tsuserex.dll
+- Tsuserex.dll
 api_name:
- - IADsTSUserEx.TerminalServicesWorkDirectory
- - IADsTSUserEx.get_TerminalServicesWorkDirectory
- - IADsTSUserEx.put_TerminalServicesWorkDirectory
+- IADsTSUserEx.TerminalServicesWorkDirectory
+- IADsTSUserEx.get_TerminalServicesWorkDirectory
+- IADsTSUserEx.put_TerminalServicesWorkDirectory
 targetos: Windows
 req.typenames: 
 req.redist: 

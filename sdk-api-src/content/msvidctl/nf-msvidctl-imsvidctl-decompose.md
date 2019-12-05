@@ -1,19 +1,17 @@
 ---
 UID: NF:msvidctl.IMSVidCtl.Decompose
 title: IMSVidCtl::Decompose (msvidctl.h)
-
 description: The Decompose method tears down the filter graph.
 old-location: mstv\imsvidctl_decompose.htm
 tech.root: mstv
 ms.assetid: e67bf380-dc2c-42c9-a995-17951c65fbda
-
 ms.date: 12/05/2018
 ms.keywords: Decompose, Decompose method [Microsoft TV Technologies], Decompose method [Microsoft TV Technologies],IMSVidCtl interface, IMSVidCtl interface [Microsoft TV Technologies],Decompose method, IMSVidCtl.Decompose, IMSVidCtl::Decompose, IMSVidCtlDecompose, mstv.imsvidctl_decompose, msvidctl/IMSVidCtl::Decompose
 ms.topic: method
-f1_keywords: 
- - "msvidctl/IMSVidCtl.Decompose"
+f1_keywords:
+- msvidctl/IMSVidCtl.Decompose
 dev_langs:
- - c++
+- c++
 req.header: msvidctl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msvidctl.h
+- msvidctl.h
 api_name:
- - IMSVidCtl.Decompose
+- IMSVidCtl.Decompose
 targetos: Windows
 req.typenames: 
 req.redist: 

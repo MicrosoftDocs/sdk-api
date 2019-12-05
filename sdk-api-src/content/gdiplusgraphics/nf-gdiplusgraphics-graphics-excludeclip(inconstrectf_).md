@@ -3,14 +3,13 @@ UID: NF:gdiplusgraphics.Graphics.ExcludeClip(IN const RectF &)
 title: Graphics::ExcludeClip
 description: The Graphics::ExcludeClip method updates the clipping region to the portion of itself that does not intersect the specified rectangle.
 ms.assetid: 3123dbf3-ea4c-4597-abe8-7fb97ec669f5
-
 ms.date: 05/13/2019
 ms.keywords: Graphics::ExcludeClip
 ms.topic: language-reference
-f1_keywords: 
- - "gdiplusgraphics/Graphics::ExcludeClip"
+f1_keywords:
+- gdiplusgraphics/Graphics::ExcludeClip
 dev_langs:
- - c++
+- c++
 targetos: Windows
 req.assembly: 
 req.construct-type: function
@@ -32,13 +31,13 @@ req.type-library:
 req.umdf-ver: 
 req.unicode-ansi: 
 topic_type:
- - apiref
+- apiref
 api_type:
- - COM
+- COM
 api_location:
- - gdiplusgraphics.h
+- gdiplusgraphics.h
 api_name:
- - Graphics::ExcludeClip
+- Graphics::ExcludeClip
 ---
 
 # ExcludeClip(RectF&)

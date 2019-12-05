@@ -1,19 +1,17 @@
 ---
 UID: NF:sspi.SspiPromptForCredentialsA
 title: SspiPromptForCredentialsA function (sspi.h)
-
 description: Allows a Security Support Provider Interface (SSPI) application to prompt a user to enter credentials.
 old-location: security\sspipromptforcredentials.htm
 tech.root: SecAuthN
 ms.assetid: 2af2ac00-0e91-4384-9ffa-3e100df218c1
-
 ms.date: 12/05/2018
 ms.keywords: SSPIPFC_CREDPROV_DO_NOT_SAVE, SSPIPFC_NO_CHECKBOX, SspiPromptForCredentials, SspiPromptForCredentials function [Security], SspiPromptForCredentialsA, SspiPromptForCredentialsW, security.sspipromptforcredentials, sspi/SspiPromptForCredentials, sspi/SspiPromptForCredentialsA, sspi/SspiPromptForCredentialsW
 ms.topic: function
 f1_keywords:
 - sspi/SspiPromptForCredentials
 dev_langs:
- - c++
+- c++
 req.header: sspi.h
 req.include-header: 
 req.target-type: Windows

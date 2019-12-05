@@ -1,19 +1,17 @@
 ---
 UID: NF:shdeprecated.IBrowserService4._ResizeAllBorders
 title: IBrowserService4::_ResizeAllBorders (shdeprecated.h)
-
 description: Deprecated.
 old-location: shell\IBrowserService4__ResizeAllBorders.htm
 tech.root: shell
 ms.assetid: 31d9d993-e5f2-4ecb-98fe-558b1b2d7f26
-
 ms.date: 12/05/2018
 ms.keywords: IBrowserService4 interface [Windows Shell],_ResizeAllBorders method, IBrowserService4._ResizeAllBorders, IBrowserService4::_ResizeAllBorders, _ResizeAllBorders, _ResizeAllBorders method [Windows Shell], _ResizeAllBorders method [Windows Shell],IBrowserService4 interface, _shell_IBrowserService4__ResizeAllBorders, shdeprecated/IBrowserService4::_ResizeAllBorders, shell.IBrowserService4__ResizeAllBorders
 ms.topic: method
-f1_keywords: 
- - "shdeprecated/IBrowserService4._ResizeAllBorders"
+f1_keywords:
+- shdeprecated/IBrowserService4._ResizeAllBorders
 dev_langs:
- - c++
+- c++
 req.header: shdeprecated.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shdeprecated.h
+- Shdeprecated.h
 api_name:
- - IBrowserService4._ResizeAllBorders
+- IBrowserService4._ResizeAllBorders
 targetos: Windows
 req.typenames: 
 req.redist: 

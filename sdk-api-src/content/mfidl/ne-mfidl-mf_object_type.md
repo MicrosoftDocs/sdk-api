@@ -1,19 +1,17 @@
 ---
 UID: NE:mfidl.MF_OBJECT_TYPE
 title: MF_OBJECT_TYPE (mfidl.h)
-
 description: Defines the object types that are created by the source resolver.
 old-location: mf\mf_object_type.htm
 tech.root: medfound
 ms.assetid: e919ae78-e3a5-42c5-b4e0-186e7e4fe54a
-
 ms.date: 12/05/2018
 ms.keywords: MF_OBJECT_BYTESTREAM, MF_OBJECT_INVALID, MF_OBJECT_MEDIASOURCE, MF_OBJECT_TYPE, MF_OBJECT_TYPE enumeration [Media Foundation], e919ae78-e3a5-42c5-b4e0-186e7e4fe54a, mf.mf_object_type, mfidl/MF_OBJECT_BYTESTREAM, mfidl/MF_OBJECT_INVALID, mfidl/MF_OBJECT_MEDIASOURCE, mfidl/MF_OBJECT_TYPE
 ms.topic: enum
-f1_keywords: 
- - "mfidl/MF_OBJECT_TYPE"
+f1_keywords:
+- mfidl/MF_OBJECT_TYPE
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - mfidl.h
+- mfidl.h
 api_name:
- - MF_OBJECT_TYPE
+- MF_OBJECT_TYPE
 targetos: Windows
 req.typenames: MF_OBJECT_TYPE
 req.redist: 

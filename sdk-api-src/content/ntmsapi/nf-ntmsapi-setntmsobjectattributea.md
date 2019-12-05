@@ -1,19 +1,17 @@
 ---
 UID: NF:ntmsapi.SetNtmsObjectAttributeA
 title: SetNtmsObjectAttributeA function (ntmsapi.h)
-
 description: The SetNtmsObjectAttribute function creates an extended attribute (named private data) in the specified RSM object.
 old-location: fs\setntmsobjectattribute.htm
 tech.root: Rsm
 ms.assetid: ce572b2a-f4c3-4cf3-8bb3-074ba3d1ec30
-
 ms.date: 12/05/2018
 ms.keywords: SetNtmsObjectAttribute, SetNtmsObjectAttribute function [Files], SetNtmsObjectAttributeA, SetNtmsObjectAttributeW, _zaw_setntmsobjectattribute, base.setntmsobjectattribute, fs.setntmsobjectattribute, ntmsapi/SetNtmsObjectAttribute, ntmsapi/SetNtmsObjectAttributeA, ntmsapi/SetNtmsObjectAttributeW
 ms.topic: function
-f1_keywords: 
- - "ntmsapi/SetNtmsObjectAttribute"
+f1_keywords:
+- ntmsapi/SetNtmsObjectAttribute
 dev_langs:
- - c++
+- c++
 req.header: ntmsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Ntmsapi.lib
 req.dll: Ntmsapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ntmsapi.dll
+- Ntmsapi.dll
 api_name:
- - SetNtmsObjectAttribute
- - SetNtmsObjectAttributeA
- - SetNtmsObjectAttributeW
+- SetNtmsObjectAttribute
+- SetNtmsObjectAttributeA
+- SetNtmsObjectAttributeW
 targetos: Windows
 req.typenames: 
 req.redist: 

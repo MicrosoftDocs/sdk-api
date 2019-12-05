@@ -1,19 +1,17 @@
 ---
 UID: NF:mixerocx.IMixerOCXNotify.OnStatusChange
 title: IMixerOCXNotify::OnStatusChange (mixerocx.h)
-
 description: The OnStatusChange method informs the client that a status change has occurred.
 old-location: dshow\imixerocxnotify_onstatuschange.htm
 tech.root: DirectShow
 ms.assetid: b6e49306-59bc-45a2-826b-cea2cf77214b
-
 ms.date: 12/05/2018
 ms.keywords: IMixerOCXNotify interface [DirectShow],OnStatusChange method, IMixerOCXNotify.OnStatusChange, IMixerOCXNotify::OnStatusChange, IMixerOCXNotifyOnStatusChange, OnStatusChange, OnStatusChange method [DirectShow], OnStatusChange method [DirectShow],IMixerOCXNotify interface, dshow.imixerocxnotify_onstatuschange, mixerocx/IMixerOCXNotify::OnStatusChange
 ms.topic: method
-f1_keywords: 
- - "mixerocx/IMixerOCXNotify.OnStatusChange"
+f1_keywords:
+- mixerocx/IMixerOCXNotify.OnStatusChange
 dev_langs:
- - c++
+- c++
 req.header: mixerocx.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IMixerOCXNotify.OnStatusChange
+- IMixerOCXNotify.OnStatusChange
 targetos: Windows
 req.typenames: 
 req.redist: 

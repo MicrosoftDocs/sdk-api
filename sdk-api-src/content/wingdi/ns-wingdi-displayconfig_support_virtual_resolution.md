@@ -1,19 +1,17 @@
 ---
 UID: NS:wingdi.DISPLAYCONFIG_SUPPORT_VIRTUAL_RESOLUTION
 title: DISPLAYCONFIG_SUPPORT_VIRTUAL_RESOLUTION (wingdi.h)
-
 description: The DISPLAYCONFIG_SUPPORT_VIRTUAL_RESOLUTION structure contains information on the state of virtual resolution support for the monitor.
 old-location: display\displayconfig_support_virtual_resolution.htm
 tech.root: display
 ms.assetid: D9208D00-F437-4B2E-8C39-044F75088659
-
 ms.date: 12/05/2018
 ms.keywords: DISPLAYCONFIG_SUPPORT_VIRTUAL_RESOLUTION, DISPLAYCONFIG_SUPPORT_VIRTUAL_RESOLUTION structure [Display Devices], display.displayconfig_support_virtual_resolution, wingdi/DISPLAYCONFIG_SUPPORT_VIRTUAL_RESOLUTION
 ms.topic: struct
-f1_keywords: 
- - "wingdi/DISPLAYCONFIG_SUPPORT_VIRTUAL_RESOLUTION"
+f1_keywords:
+- wingdi/DISPLAYCONFIG_SUPPORT_VIRTUAL_RESOLUTION
 dev_langs:
- - c++
+- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - wingdi.h
+- wingdi.h
 api_name:
- - DISPLAYCONFIG_SUPPORT_VIRTUAL_RESOLUTION
+- DISPLAYCONFIG_SUPPORT_VIRTUAL_RESOLUTION
 targetos: Windows
 req.typenames: DISPLAYCONFIG_SUPPORT_VIRTUAL_RESOLUTION
 req.redist: 

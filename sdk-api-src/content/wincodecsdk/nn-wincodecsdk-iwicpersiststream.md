@@ -1,19 +1,17 @@
 ---
 UID: NN:wincodecsdk.IWICPersistStream
 title: IWICPersistStream (wincodecsdk.h)
-
 description: Exposes methods that provide additional load and save methods that take WICPersistOptions.
 old-location: wic\_wic_codec_iwicpersiststream.htm
 tech.root: wic
 ms.assetid: 9381cc2c-9554-4071-b9b5-3464d857c02d
-
 ms.date: 12/05/2018
 ms.keywords: IWICPersistStream, IWICPersistStream interface [Windows Imaging Component], IWICPersistStream interface [Windows Imaging Component],described, _wic_codec_iwicpersiststream, wic._wic_codec_iwicpersiststream, wincodecsdk/IWICPersistStream
 ms.topic: interface
-f1_keywords: 
- - "wincodecsdk/IWICPersistStream"
+f1_keywords:
+- wincodecsdk/IWICPersistStream
 dev_langs:
- - c++
+- c++
 req.header: wincodecsdk.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Windowscodecs.lib
 req.dll: Windowscodecs.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Windowscodecs.dll
+- Windowscodecs.dll
 api_name:
- - IWICPersistStream
+- IWICPersistStream
 targetos: Windows
 req.typenames: 
 req.redist: 

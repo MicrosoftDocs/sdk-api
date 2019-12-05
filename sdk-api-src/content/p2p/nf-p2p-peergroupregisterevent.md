@@ -1,19 +1,17 @@
 ---
 UID: NF:p2p.PeerGroupRegisterEvent
 title: PeerGroupRegisterEvent function (p2p.h)
-
 description: The PeerGroupRegisterEvent function registers a peer for specific peer group events.
 old-location: p2p\peergroupregisterevent.htm
 tech.root: P2PSdk
 ms.assetid: a4dc100a-d3dc-408e-a425-bded11d04db5
-
 ms.date: 12/05/2018
 ms.keywords: PeerGroupRegisterEvent, PeerGroupRegisterEvent function [Peer Networking], p2p.peergroupregisterevent, p2p/PeerGroupRegisterEvent
 ms.topic: function
-f1_keywords: 
- - "p2p/PeerGroupRegisterEvent"
+f1_keywords:
+- p2p/PeerGroupRegisterEvent
 dev_langs:
- - c++
+- c++
 req.header: p2p.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: P2P.lib
 req.dll: P2P.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - P2P.dll
+- P2P.dll
 api_name:
- - PeerGroupRegisterEvent
+- PeerGroupRegisterEvent
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:mswmdm.IWMDMEnumDevice.Reset
 title: IWMDMEnumDevice::Reset (mswmdm.h)
-
 description: The Reset method resets the enumeration so that Next returns a pointer to the first device.
 old-location: wmdm\iwmdmenumdevice_reset.htm
 tech.root: WMDM
 ms.assetid: af06bc07-2043-4ef5-a1f2-381797fb750b
-
 ms.date: 12/05/2018
 ms.keywords: IWMDMEnumDevice interface [windows Media Device Manager],Reset method, IWMDMEnumDevice.Reset, IWMDMEnumDevice::Reset, IWMDMEnumDeviceReset, Reset, Reset method [windows Media Device Manager], Reset method [windows Media Device Manager],IWMDMEnumDevice interface, mswmdm/IWMDMEnumDevice::Reset, wmdm.iwmdmenumdevice_reset
 ms.topic: method
-f1_keywords: 
- - "mswmdm/IWMDMEnumDevice.Reset"
+f1_keywords:
+- mswmdm/IWMDMEnumDevice.Reset
 dev_langs:
- - c++
+- c++
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mssachlp.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mssachlp.lib
- - mssachlp.dll
+- mssachlp.lib
+- mssachlp.dll
 api_name:
- - IWMDMEnumDevice.Reset
+- IWMDMEnumDevice.Reset
 targetos: Windows
 req.typenames: 
 req.redist: 

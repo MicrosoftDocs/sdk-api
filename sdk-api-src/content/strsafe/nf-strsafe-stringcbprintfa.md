@@ -1,19 +1,17 @@
 ---
 UID: NF:strsafe.StringCbPrintfA
 title: StringCbPrintfA function (strsafe.h)
-
 description: Writes formatted data to the specified string.
 old-location: menurc\stringcbprintf.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\strings\stringreference\stringfunctions\stringcbprintf.htm
-
 ms.date: 12/05/2018
 ms.keywords: StringCbPrintf, StringCbPrintf function [Menus and Other Resources], StringCbPrintfA, StringCbPrintfW, _shell_StringCbPrintf, _shell_stringcbprintf_cpp, menurc.stringcbprintf, strsafe/StringCbPrintf, strsafe/StringCbPrintfA, strsafe/StringCbPrintfW, winui._shell_stringcbprintf
 ms.topic: function
-f1_keywords: 
- - "strsafe/StringCbPrintf"
+f1_keywords:
+- strsafe/StringCbPrintf
 dev_langs:
- - c++
+- c++
 req.header: strsafe.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Strsafe.h
+- Strsafe.h
 api_name:
- - StringCbPrintf
- - StringCbPrintfA
- - StringCbPrintfW
+- StringCbPrintf
+- StringCbPrintfA
+- StringCbPrintfW
 targetos: Windows
 req.typenames: 
 req.redist: 

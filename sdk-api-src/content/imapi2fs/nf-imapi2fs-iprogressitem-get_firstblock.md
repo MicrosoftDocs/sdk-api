@@ -1,19 +1,17 @@
 ---
 UID: NF:imapi2fs.IProgressItem.get_FirstBlock
 title: IProgressItem::get_FirstBlock (imapi2fs.h)
-
 description: Retrieves the first block number in this segment of the result image.
 old-location: imapi\iprogressitem_get_firstblock.htm
 tech.root: imapi
 ms.assetid: 9c1c5932-0301-4752-871d-609d3c128906
-
 ms.date: 12/05/2018
 ms.keywords: IProgressItem interface [IMAPI],get_FirstBlock method, IProgressItem.get_FirstBlock, IProgressItem::get_FirstBlock, get_FirstBlock, get_FirstBlock method [IMAPI], get_FirstBlock method [IMAPI],IProgressItem interface, imapi.iprogressitem_get_firstblock, imapi2fs/IProgressItem::get_FirstBlock
 ms.topic: method
-f1_keywords: 
- - "imapi2fs/IProgressItem.get_FirstBlock"
+f1_keywords:
+- imapi2fs/IProgressItem.get_FirstBlock
 dev_langs:
- - c++
+- c++
 req.header: imapi2fs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - imapi2fs.h
+- imapi2fs.h
 api_name:
- - IProgressItem.get_FirstBlock
+- IProgressItem.get_FirstBlock
 targetos: Windows
 req.typenames: 
 req.redist: 

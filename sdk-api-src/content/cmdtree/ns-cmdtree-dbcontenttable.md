@@ -1,19 +1,17 @@
 ---
 UID: NS:cmdtree.tagDBCONTENTTABLE
 title: DBCONTENTTABLE (cmdtree.h)
-
 description: The DBCONTENTTABLE structure represents the machine and catalog names for a command tree.
 old-location: indexsrv\dbcontenttable.htm
 tech.root: IndexSrv
 ms.assetid: VS|indexsrv|~\html\ixoledb_1zs5.htm
-
 ms.date: 12/05/2018
 ms.keywords: DBCONTENTTABLE, DBCONTENTTABLE structure [Indexing Service], _idxs_DBCONTENTTABLE, cmdtree/DBCONTENTTABLE, indexsrv.dbcontenttable, tagDBCONTENTTABLE
 ms.topic: struct
-f1_keywords: 
- - "cmdtree/DBCONTENTTABLE"
+f1_keywords:
+- cmdtree/DBCONTENTTABLE
 dev_langs:
- - c++
+- c++
 req.header: cmdtree.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - cmdtree.h
+- cmdtree.h
 api_name:
- - DBCONTENTTABLE
+- DBCONTENTTABLE
 targetos: Windows
 req.typenames: DBCONTENTTABLE
 req.redist: 

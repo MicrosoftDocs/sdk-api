@@ -1,19 +1,17 @@
 ---
 UID: NF:coml2api.GetHGlobalFromILockBytes
 title: GetHGlobalFromILockBytes function (coml2api.h)
-
 description: The GetHGlobalFromILockBytes function retrieves a global memory handle to a byte array object created using the CreateILockBytesOnHGlobal function.
 old-location: stg\gethglobalfromilockbytes.htm
 tech.root: Stg
 ms.assetid: 084fcd1d-5b85-448c-862a-378353e1e2e6
-
 ms.date: 12/05/2018
 ms.keywords: GetHGlobalFromILockBytes, GetHGlobalFromILockBytes function [Structured Storage], _stg_gethglobalfromilockbytes, coml2api/GetHGlobalFromILockBytes, stg.gethglobalfromilockbytes
 ms.topic: function
-f1_keywords: 
- - "coml2api/GetHGlobalFromILockBytes"
+f1_keywords:
+- coml2api/GetHGlobalFromILockBytes
 dev_langs:
- - c++
+- c++
 req.header: coml2api.h
 req.include-header: Ole2.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Ole32.lib
 req.dll: Ole32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ole32.dll
- - API-MS-Win-Core-Com-l2-1-1.dll
- - coml2.dll
+- Ole32.dll
+- API-MS-Win-Core-Com-l2-1-1.dll
+- coml2.dll
 api_name:
- - GetHGlobalFromILockBytes
+- GetHGlobalFromILockBytes
 targetos: Windows
 req.typenames: 
 req.redist: 

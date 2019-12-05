@@ -1,19 +1,17 @@
 ---
 UID: NL:gdiplustypes.CharacterRange
 title: CharacterRange (gdiplustypes.h)
-
 description: A CharacterRange object specifies a range of character positions within a string.
 old-location: gdiplus\_gdiplus_CLASS_CharacterRange_Class.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\characterrange.htm
-
 ms.date: 12/05/2018
 ms.keywords: CharacterRange, CharacterRange class [GDI+], CharacterRange class [GDI+],described, _gdiplus_CLASS_CharacterRange_Class, gdiplus._gdiplus_CLASS_CharacterRange_Class, gdiplustypes/CharacterRange
 ms.topic: class
-f1_keywords: 
- - "gdiplustypes/CharacterRange"
+f1_keywords:
+- gdiplustypes/CharacterRange
 dev_langs:
- - c++
+- c++
 req.header: gdiplustypes.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - gdiplustypes.h
+- gdiplustypes.h
 api_name:
- - CharacterRange
+- CharacterRange
 targetos: Windows
 req.typenames: 
 req.redist: 

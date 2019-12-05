@@ -1,19 +1,17 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMRadialGradientBrush.GetCenter
 title: IXpsOMRadialGradientBrush::GetCenter (xpsobjectmodel.h)
-
 description: Gets the center point of the radial gradient region ellipse.
 old-location: xps\ixpsomradialgradientbrush_getcenter.htm
 tech.root: printdocs
 ms.assetid: 92ce3433-6c3d-4759-81f8-055fdcc58dcf
-
 ms.date: 12/05/2018
 ms.keywords: GetCenter, GetCenter method [XPS Documents and Packaging], GetCenter method [XPS Documents and Packaging],IXpsOMRadialGradientBrush interface, IXpsOMRadialGradientBrush interface [XPS Documents and Packaging],GetCenter method, IXpsOMRadialGradientBrush.GetCenter, IXpsOMRadialGradientBrush::GetCenter, xps.ixpsomradialgradientbrush_getcenter, xpsobjectmodel/IXpsOMRadialGradientBrush::GetCenter
 ms.topic: method
-f1_keywords: 
- - "xpsobjectmodel/IXpsOMRadialGradientBrush.GetCenter"
+f1_keywords:
+- xpsobjectmodel/IXpsOMRadialGradientBrush.GetCenter
 dev_langs:
- - c++
+- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsobjectmodel.h
+- xpsobjectmodel.h
 api_name:
- - IXpsOMRadialGradientBrush.GetCenter
+- IXpsOMRadialGradientBrush.GetCenter
 targetos: Windows
 req.typenames: 
 req.redist: 

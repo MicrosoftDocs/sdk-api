@@ -1,19 +1,17 @@
 ---
 UID: NN:objidlbase.IFastRundown
 title: IFastRundown (objidlbase.h)
-
 description: Marks an interface as eligible for fast rundown behavior.
 old-location: com\ifastrundown.htm
 tech.root: com
 ms.assetid: 8406B781-7CBE-47F8-B7EF-5FF599BB8EDE
-
 ms.date: 12/05/2018
 ms.keywords: IFastRundown, IFastRundown interface [COM], IFastRundown interface [COM],described, com.ifastrundown, objidl/IFastRundown
 ms.topic: interface
-f1_keywords: 
- - "objidlbase/IFastRundown"
+f1_keywords:
+- objidlbase/IFastRundown
 dev_langs:
- - c++
+- c++
 req.header: objidlbase.h
 req.include-header: Objidlbase.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - objidl.h
+- objidl.h
 api_name:
- - IFastRundown
+- IFastRundown
 targetos: Windows
 req.typenames: 
 req.redist: 

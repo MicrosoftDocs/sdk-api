@@ -1,19 +1,17 @@
 ---
 UID: NF:peerdist.PeerDistUnregisterForStatusChangeNotification
 title: PeerDistUnregisterForStatusChangeNotification function (peerdist.h)
-
 description: PeerDistUnregisterForStatusChangeNotification function unregisters the status change notification for the session associated with the specified handle.
 old-location: p2p\peerdistunregisterforstatuschangenotification.htm
 tech.root: P2PSdk
 ms.assetid: cb18c8bb-92b3-4d4e-9ce8-77c5628a9a1a
-
 ms.date: 12/05/2018
 ms.keywords: PeerDistUnregisterForStatusChangeNotification, PeerDistUnregisterForStatusChangeNotification function [Peer Networking], p2p.peerdistunregisterforstatuschangenotification, peerdist/PeerDistUnregisterForStatusChangeNotification
 ms.topic: function
-f1_keywords: 
- - "peerdist/PeerDistUnregisterForStatusChangeNotification"
+f1_keywords:
+- peerdist/PeerDistUnregisterForStatusChangeNotification
 dev_langs:
- - c++
+- c++
 req.header: peerdist.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: PeerDist.lib
 req.dll: PeerDist.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - PeerDist.dll
+- PeerDist.dll
 api_name:
- - PeerDistUnregisterForStatusChangeNotification
+- PeerDistUnregisterForStatusChangeNotification
 targetos: Windows
 req.typenames: 
 req.redist: 

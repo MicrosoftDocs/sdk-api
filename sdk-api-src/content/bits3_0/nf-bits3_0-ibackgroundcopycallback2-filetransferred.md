@@ -1,19 +1,17 @@
 ---
 UID: NF:bits3_0.IBackgroundCopyCallback2.FileTransferred
 title: IBackgroundCopyCallback2::FileTransferred (bits3_0.h)
-
 description: BITS calls your implementation of the FileTransferred method when BITS successfully finishes transferring a file.
 old-location: bits\ibackgroundcopycallback2_filetransferred.htm
 tech.root: Bits
 ms.assetid: c7e22911-9c14-48ef-8283-f0787b089432
-
 ms.date: 12/05/2018
 ms.keywords: FileTransferred, FileTransferred method [BITS], FileTransferred method [BITS],IBackgroundCopyCallback2 interface, IBackgroundCopyCallback2 interface [BITS],FileTransferred method, IBackgroundCopyCallback2.FileTransferred, IBackgroundCopyCallback2::FileTransferred, bits.ibackgroundcopycallback2_filetransferred, bits3_0/IBackgroundCopyCallback2::FileTransferred
 ms.topic: method
-f1_keywords: 
- - "bits3_0/IBackgroundCopyCallback2.FileTransferred"
+f1_keywords:
+- bits3_0/IBackgroundCopyCallback2.FileTransferred
 dev_langs:
- - c++
+- c++
 req.header: bits3_0.h
 req.include-header: Bits.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Bits.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Bits.lib
- - Bits.dll
+- Bits.lib
+- Bits.dll
 api_name:
- - IBackgroundCopyCallback2.FileTransferred
+- IBackgroundCopyCallback2.FileTransferred
 targetos: Windows
 req.typenames: 
 req.redist: 

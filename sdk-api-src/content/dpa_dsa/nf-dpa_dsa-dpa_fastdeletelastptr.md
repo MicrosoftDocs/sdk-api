@@ -1,19 +1,17 @@
 ---
 UID: NF:dpa_dsa.DPA_FastDeleteLastPtr
 title: DPA_FastDeleteLastPtr macro (dpa_dsa.h)
-
 description: Deletes the last pointer from a dynamic pointer array (DPA).
 old-location: controls\DPA_FastDeleteLastPtr.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\common\macros\dpa_fastdeletelastptr.htm
-
 ms.date: 12/05/2018
 ms.keywords: DPA_FastDeleteLastPtr, DPA_FastDeleteLastPtr macro [Windows Controls], _shell_DPA_FastDeleteLastPtr, _shell_DPA_FastDeleteLastPtr_cpp, controls.DPA_FastDeleteLastPtr, controls._shell_DPA_FastDeleteLastPtr, dpa_dsa/DPA_FastDeleteLastPtr
 ms.topic: macro
-f1_keywords: 
- - "dpa_dsa/DPA_FastDeleteLastPtr"
+f1_keywords:
+- dpa_dsa/DPA_FastDeleteLastPtr
 dev_langs:
- - c++
+- c++
 req.header: dpa_dsa.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - dpa_dsa.h
+- dpa_dsa.h
 api_name:
- - DPA_FastDeleteLastPtr
+- DPA_FastDeleteLastPtr
 targetos: Windows
 req.typenames: 
 req.redist: 

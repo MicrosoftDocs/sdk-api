@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IPersistMediaPropertyBag.InitNew
 title: IPersistMediaPropertyBag::InitNew (strmif.h)
-
 description: The InitNew method initializes the object to receive new properties.
 old-location: dshow\ipersistmediapropertybag_initnew.htm
 tech.root: DirectShow
 ms.assetid: 46d51c05-b653-4f14-810a-eb49d33da359
-
 ms.date: 12/05/2018
 ms.keywords: IPersistMediaPropertyBag interface [DirectShow],InitNew method, IPersistMediaPropertyBag.InitNew, IPersistMediaPropertyBag::InitNew, IPersistMediaPropertyBagInitNew, InitNew, InitNew method [DirectShow], InitNew method [DirectShow],IPersistMediaPropertyBag interface, dshow.ipersistmediapropertybag_initnew, strmif/IPersistMediaPropertyBag::InitNew
 ms.topic: method
-f1_keywords: 
- - "strmif/IPersistMediaPropertyBag.InitNew"
+f1_keywords:
+- strmif/IPersistMediaPropertyBag.InitNew
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IPersistMediaPropertyBag.InitNew
+- IPersistMediaPropertyBag.InitNew
 targetos: Windows
 req.typenames: 
 req.redist: 

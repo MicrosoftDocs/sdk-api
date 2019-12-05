@@ -1,19 +1,17 @@
 ---
 UID: NN:windows.ui.composition.interop.ICompositionDrawingSurfaceInterop
 title: ICompositionDrawingSurfaceInterop (windows.ui.composition.interop.h)
-
 description: Native interoperation interface that allows drawing on a surface object using a RECT to define the area to draw into. This interface is available in C++ only.
 old-location: w_ui_comp\icompositiondrawingsurfaceinterop.htm
 tech.root: w_ui_comp
 ms.assetid: C8A94128-009A-4327-8E77-A4E155D0910E
-
 ms.date: 12/05/2018
 ms.keywords: ICompositionDrawingSurfaceInterop, ICompositionDrawingSurfaceInterop interface, ICompositionDrawingSurfaceInterop interface,described, w_ui_comp.icompositiondrawingsurfaceinterop, windows/ICompositionDrawingSurfaceInterop
 ms.topic: interface
-f1_keywords: 
- - "windows.ui.composition.interop/ICompositionDrawingSurfaceInterop"
+f1_keywords:
+- windows.ui.composition.interop/ICompositionDrawingSurfaceInterop
 dev_langs:
- - c++
+- c++
 req.header: windows.ui.composition.interop.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - windows.ui.composition.interop.h
+- windows.ui.composition.interop.h
 api_name:
- - ICompositionDrawingSurfaceInterop
+- ICompositionDrawingSurfaceInterop
 targetos: Windows
 req.typenames: 
 req.redist: 

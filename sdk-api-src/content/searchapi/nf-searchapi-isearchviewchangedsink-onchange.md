@@ -1,19 +1,17 @@
 ---
 UID: NF:searchapi.ISearchViewChangedSink.OnChange
 title: ISearchViewChangedSink::OnChange (searchapi.h)
-
 description: Not implemented.
 old-location: search\_search_ISearchViewChangedSink_OnChange.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\notifications\isearchviewchangedsink\onchange.htm
-
 ms.date: 12/05/2018
 ms.keywords: ISearchViewChangedSink interface [search],OnChange method, ISearchViewChangedSink.OnChange, ISearchViewChangedSink::OnChange, OnChange, OnChange method [search], OnChange method [search],ISearchViewChangedSink interface, _search_ISearchViewChangedSink_OnChange, search._search_ISearchViewChangedSink_OnChange, searchapi/ISearchViewChangedSink::OnChange
 ms.topic: method
-f1_keywords: 
- - "searchapi/ISearchViewChangedSink.OnChange"
+f1_keywords:
+- searchapi/ISearchViewChangedSink.OnChange
 dev_langs:
- - c++
+- c++
 req.header: searchapi.h
 req.include-header: Searchapi.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - searchapi.h
+- searchapi.h
 api_name:
- - ISearchViewChangedSink.OnChange
+- ISearchViewChangedSink.OnChange
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0

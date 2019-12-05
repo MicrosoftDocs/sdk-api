@@ -1,19 +1,17 @@
 ---
 UID: NF:ctfspui.ITfSpeechUIServer.ShowUI
 title: ITfSpeechUIServer::ShowUI (ctfspui.h)
-
 description: ITfSpeechUIServer::ShowUI method
 old-location: tsf\itfspeechuiserver_showui.htm
 tech.root: TSF
 ms.assetid: 4491a3f0-b748-45a8-a8bd-c8fa78d49fa7
-
 ms.date: 12/05/2018
 ms.keywords: ITfSpeechUIServer interface [Text Services Framework],ShowUI method, ITfSpeechUIServer.ShowUI, ITfSpeechUIServer::ShowUI, ShowUI, ShowUI method [Text Services Framework], ShowUI method [Text Services Framework],ITfSpeechUIServer interface, ctfspui/ITfSpeechUIServer::ShowUI, tsf.itfspeechuiserver_showui
 ms.topic: method
-f1_keywords: 
- - "ctfspui/ITfSpeechUIServer.ShowUI"
+f1_keywords:
+- ctfspui/ITfSpeechUIServer.ShowUI
 dev_langs:
- - c++
+- c++
 req.header: ctfspui.h
 req.include-header: Ctfutb.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Sptip.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - sptip.dll
+- sptip.dll
 api_name:
- - ITfSpeechUIServer.ShowUI
+- ITfSpeechUIServer.ShowUI
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

@@ -1,19 +1,17 @@
 ---
 UID: NF:urlmon.CreateFormatEnumerator
 title: CreateFormatEnumerator function (urlmon.h)
-
 description: Creates an object that implements IEnumFORMATETC over a static array of FORMATETC structures.
 old-location: com\createformatenumerator.htm
 tech.root: com
 ms.assetid: 302418e5-48b6-46ee-bb96-2a8170c4af5e
-
 ms.date: 12/05/2018
 ms.keywords: CreateFormatEnumerator, CreateFormatEnumerator function [COM], _ole_CreateFormatEnumerator, com.createformatenumerator, urlmon/CreateFormatEnumerator
 ms.topic: function
-f1_keywords: 
- - "urlmon/CreateFormatEnumerator"
+f1_keywords:
+- urlmon/CreateFormatEnumerator
 dev_langs:
- - c++
+- c++
 req.header: urlmon.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Urlmon.lib
 req.dll: Urlmon.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Urlmon.dll
+- Urlmon.dll
 api_name:
- - CreateFormatEnumerator
+- CreateFormatEnumerator
 targetos: Windows
 req.typenames: 
 req.redist: 

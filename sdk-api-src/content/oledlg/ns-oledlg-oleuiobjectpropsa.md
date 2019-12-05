@@ -1,19 +1,17 @@
 ---
 UID: NS:oledlg.tagOLEUIOBJECTPROPSA
 title: OLEUIOBJECTPROPSA (oledlg.h)
-
 description: Contains information that is used to initialize the standard Object Properties dialog box.
 old-location: com\oleuiobjectprops_struct.htm
 tech.root: com
 ms.assetid: 7a6216d6-061f-48c3-8e3f-5f3e5a63ffb3
-
 ms.date: 12/05/2018
 ms.keywords: '*LPOLEUIOBJECTPROPSA, *POLEUIOBJECTPROPSA, LPOLEUIOBJECTPROPS, LPOLEUIOBJECTPROPS structure pointer [COM], OLEUIOBJECTPROPS, OLEUIOBJECTPROPS structure [COM], OLEUIOBJECTPROPSA, OLEUIOBJECTPROPSW, OPF_DISABLECONVERT, OPF_NOFILLDEFAULT, OPF_OBJECTISLINK, OPF_SHOWHELP, POLEUIOBJECTPROPS, POLEUIOBJECTPROPS structure pointer [COM], _ole_OLEUIOBJECTPROPS, com.oleuiobjectprops_struct, oledlg/LPOLEUIOBJECTPROPS, oledlg/OLEUIOBJECTPROPS, oledlg/OLEUIOBJECTPROPSA, oledlg/OLEUIOBJECTPROPSW, oledlg/POLEUIOBJECTPROPS'
 ms.topic: struct
 f1_keywords:
 - oledlg/OLEUIOBJECTPROPS
 dev_langs:
- - c++
+- c++
 req.header: oledlg.h
 req.include-header: 
 req.target-type: Windows

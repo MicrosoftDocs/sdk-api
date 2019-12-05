@@ -1,19 +1,17 @@
 ---
 UID: NF:upnp.IUPnPService.get_LastTransportStatus
 title: IUPnPService::get_LastTransportStatus (upnp.h)
-
 description: For queries related to evented variables, the LastTransportStatus property specifies the HTTP status of the last IUPnPService::InvokeAction operation.
 old-location: upnp\iupnpservice_lasttransportstatus.htm
 tech.root: upnp
 ms.assetid: 8593b800-ae0a-41b8-9a61-92bdfc106c8b
-
 ms.date: 12/05/2018
 ms.keywords: IUPnPService interface [UPnP APIs],get_LastTransportStatus method, IUPnPService.get_LastTransportStatus, IUPnPService::get_LastTransportStatus, _upnp_iupnpservice_lasttransportstatus, get_LastTransportStatus, get_LastTransportStatus method [UPnP APIs], get_LastTransportStatus method [UPnP APIs],IUPnPService interface, upnp.iupnpservice_lasttransportstatus, upnp/IUPnPService::get_LastTransportStatus
 ms.topic: method
-f1_keywords: 
- - "upnp/IUPnPService.get_LastTransportStatus"
+f1_keywords:
+- upnp/IUPnPService.get_LastTransportStatus
 dev_langs:
- - c++
+- c++
 req.header: upnp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Upnp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Upnp.dll
+- Upnp.dll
 api_name:
- - IUPnPService.get_LastTransportStatus
+- IUPnPService.get_LastTransportStatus
 targetos: Windows
 req.typenames: 
 req.redist: 

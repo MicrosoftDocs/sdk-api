@@ -1,19 +1,17 @@
 ---
 UID: NF:p2p.PeerCollabSignin
 title: PeerCollabSignin function (p2p.h)
-
 description: Signs the peer into a hosted Internet (serverless presence) or subnet (&#0034;People Near Me&#0034;) peer collaboration network presence provider.
 old-location: p2p\peercollabsignin.htm
 tech.root: P2PSdk
 ms.assetid: 927cccfa-2711-439c-833f-348087927c09
-
 ms.date: 12/05/2018
 ms.keywords: PeerCollabSignin, PeerCollabSignin function [Peer Networking], p2p.peercollabsignin, p2p/PeerCollabSignin
 ms.topic: function
-f1_keywords: 
- - "p2p/PeerCollabSignin"
+f1_keywords:
+- p2p/PeerCollabSignin
 dev_langs:
- - c++
+- c++
 req.header: p2p.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: P2P.lib
 req.dll: P2P.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - P2P.dll
+- P2P.dll
 api_name:
- - PeerCollabSignin
+- PeerCollabSignin
 targetos: Windows
 req.typenames: 
 req.redist: 

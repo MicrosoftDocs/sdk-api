@@ -1,19 +1,17 @@
 ---
 UID: NF:directxmath.XMColorAdjustSaturation
 title: XMColorAdjustSaturation function (directxmath.h)
-
 description: Adjusts the saturation value of a color.
 old-location: dxmath\xmcoloradjustsaturation.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.color.XMColorAdjustSaturation(XMVECTOR,float)
-
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMColorAdjustSaturation, XMColorAdjustSaturation, XMColorAdjustSaturation method [DirectX Math Support APIs], dxmath.xmcoloradjustsaturation
 ms.topic: function
-f1_keywords: 
- - "directxmath/XMColorAdjustSaturation"
+f1_keywords:
+- directxmath/XMColorAdjustSaturation
 dev_langs:
- - c++
+- c++
 req.header: directxmath.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - DirectXMath.h
+- DirectXMath.h
 api_name:
- - XMColorAdjustSaturation
+- XMColorAdjustSaturation
 targetos: Windows
 req.typenames: 
 req.redist: 

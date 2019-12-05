@@ -1,19 +1,17 @@
 ---
 UID: NF:pla.ITraceDataCollector.get_MinimumBuffers
 title: ITraceDataCollector::get_MinimumBuffers (pla.h)
-
 description: Retrieves or sets the minimum number of buffers allocated for the event tracing session's buffer pool.
 old-location: pla\itracedatacollector_minimumbuffers.htm
 tech.root: PLA
 ms.assetid: 67b53e9a-c72c-4da5-835f-5623a02a14e1
-
 ms.date: 12/05/2018
 ms.keywords: ITraceDataCollector interface [PLA],MinimumBuffers property, ITraceDataCollector.MinimumBuffers, ITraceDataCollector.get_MinimumBuffers, ITraceDataCollector::MinimumBuffers, ITraceDataCollector::get_MinimumBuffers, ITraceDataCollector::put_MinimumBuffers, MinimumBuffers property [PLA], MinimumBuffers property [PLA],ITraceDataCollector interface, base.itracedatacollector_minimumbuffers, get_MinimumBuffers, pla.itracedatacollector_minimumbuffers, pla/ITraceDataCollector::MinimumBuffers, pla/ITraceDataCollector::get_MinimumBuffers, pla/ITraceDataCollector::put_MinimumBuffers
 ms.topic: method
-f1_keywords: 
- - "pla/ITraceDataCollector.MinimumBuffers"
+f1_keywords:
+- pla/ITraceDataCollector.MinimumBuffers
 dev_langs:
- - c++
+- c++
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: Pla.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Pla.dll
+- Pla.dll
 api_name:
- - ITraceDataCollector.MinimumBuffers
- - ITraceDataCollector.get_MinimumBuffers
- - ITraceDataCollector.put_MinimumBuffers
+- ITraceDataCollector.MinimumBuffers
+- ITraceDataCollector.get_MinimumBuffers
+- ITraceDataCollector.put_MinimumBuffers
 targetos: Windows
 req.typenames: 
 req.redist: 

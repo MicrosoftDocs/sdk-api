@@ -1,19 +1,17 @@
 ---
 UID: NF:rometadataapi.IMetaDataImport.FindMemberRef
 title: IMetaDataImport::FindMemberRef (rometadataapi.h)
-
 description: Gets a pointer to the MemberRef token for the member reference that is enclosed by the specified Type and that has the specified name and metadata signature.
 old-location: winrt\imetadataimport_findmemberref.htm
 tech.root: WinRT
 ms.assetid: beb32bb3-06e3-4817-90f0-0745756e1955
-
 ms.date: 12/05/2018
 ms.keywords: FindMemberRef, FindMemberRef method [Windows Runtime], FindMemberRef method [Windows Runtime],IMetaDataImport interface, IMetaDataImport interface [Windows Runtime],FindMemberRef method, IMetaDataImport.FindMemberRef, IMetaDataImport::FindMemberRef, rometadataapi/IMetaDataImport::FindMemberRef, winrt.imetadataimport_findmemberref
 ms.topic: method
-f1_keywords: 
- - "rometadataapi/IMetaDataImport.FindMemberRef"
+f1_keywords:
+- rometadataapi/IMetaDataImport.FindMemberRef
 dev_langs:
- - c++
+- c++
 req.header: rometadataapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - rometadataapi.h
+- rometadataapi.h
 api_name:
- - IMetaDataImport.FindMemberRef
+- IMetaDataImport.FindMemberRef
 targetos: Windows
 req.typenames: 
 req.redist: 

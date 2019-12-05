@@ -1,19 +1,17 @@
 ---
 UID: NF:qos2.QOSStopTrackingClient
 title: QOSStopTrackingClient function (qos2.h)
-
 description: The QOSStopTrackingClient function notifies the QoS subsystem to stop tracking a client that has previously used the QOSStartTrackingClient function. If a flow is currently in progress, this function will not affect it.
 old-location: qos\qosstoptrackingclient.htm
 tech.root: QOS
 ms.assetid: 7db9971e-3b53-458e-81ff-94f355c49973
-
 ms.date: 12/05/2018
 ms.keywords: QOSStopTrackingClient, QOSStopTrackingClient function [QOS], qos.qosstoptrackingclient, qos2/QOSStopTrackingClient
 ms.topic: function
-f1_keywords: 
- - "qos2/QOSStopTrackingClient"
+f1_keywords:
+- qos2/QOSStopTrackingClient
 dev_langs:
- - c++
+- c++
 req.header: qos2.h
 req.include-header: Qos2.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Qwave.lib
 req.dll: Qwave.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - qwave.dll
+- qwave.dll
 api_name:
- - QOSStopTrackingClient
+- QOSStopTrackingClient
 targetos: Windows
 req.typenames: 
 req.redist: 

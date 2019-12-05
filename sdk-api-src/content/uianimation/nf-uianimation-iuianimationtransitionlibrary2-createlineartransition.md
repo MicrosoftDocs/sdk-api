@@ -1,19 +1,17 @@
 ---
 UID: NF:uianimation.IUIAnimationTransitionLibrary2.CreateLinearTransition
 title: IUIAnimationTransitionLibrary2::CreateLinearTransition (uianimation.h)
-
 description: Creates a linear scalar transition.
 old-location: uianimation\iuianimationtransitionlibrary2_createlineartransition.htm
 tech.root: UIAnimation
 ms.assetid: BD0A9D4E-0306-4C76-8CC2-AA1A747C4538
-
 ms.date: 12/05/2018
 ms.keywords: CreateLinearTransition, CreateLinearTransition method [Windows Animation], CreateLinearTransition method [Windows Animation],IUIAnimationTransitionLibrary2 interface, IUIAnimationTransitionLibrary2 interface [Windows Animation],CreateLinearTransition method, IUIAnimationTransitionLibrary2.CreateLinearTransition, IUIAnimationTransitionLibrary2::CreateLinearTransition, uianimation.iuianimationtransitionlibrary2_createlineartransition, uianimation/IUIAnimationTransitionLibrary2::CreateLinearTransition
 ms.topic: method
-f1_keywords: 
- - "uianimation/IUIAnimationTransitionLibrary2.CreateLinearTransition"
+f1_keywords:
+- uianimation/IUIAnimationTransitionLibrary2.CreateLinearTransition
 dev_langs:
- - c++
+- c++
 req.header: uianimation.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: UIAnimation.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAnimation.dll
+- UIAnimation.dll
 api_name:
- - IUIAnimationTransitionLibrary2.CreateLinearTransition
+- IUIAnimationTransitionLibrary2.CreateLinearTransition
 targetos: Windows
 req.typenames: 
 req.redist: 

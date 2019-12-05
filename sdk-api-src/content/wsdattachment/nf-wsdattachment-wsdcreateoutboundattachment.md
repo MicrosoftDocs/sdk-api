@@ -1,19 +1,17 @@
 ---
 UID: NF:wsdattachment.WSDCreateOutboundAttachment
 title: WSDCreateOutboundAttachment function (wsdattachment.h)
-
 description: Creates an IWSDOutboundAttachment object.
 old-location: ncd\wsdcreateoutboundattachment.htm
 tech.root: WsdApi
 ms.assetid: 92e4ed8a-4a17-49dd-9ed8-bc867ec8bba9
-
 ms.date: 12/05/2018
 ms.keywords: WSDCreateOutboundAttachment, WSDCreateOutboundAttachment function, ncd.wsdcreateoutboundattachment, wsdattachment/WSDCreateOutboundAttachment
 ms.topic: function
-f1_keywords: 
- - "wsdattachment/WSDCreateOutboundAttachment"
+f1_keywords:
+- wsdattachment/WSDCreateOutboundAttachment
 dev_langs:
- - c++
+- c++
 req.header: wsdattachment.h
 req.include-header: Wsdapi.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Wsdapi.lib
 req.dll: Wsdapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Wsdapi.dll
+- Wsdapi.dll
 api_name:
- - WSDCreateOutboundAttachment
+- WSDCreateOutboundAttachment
 targetos: Windows
 req.typenames: 
 req.redist: 

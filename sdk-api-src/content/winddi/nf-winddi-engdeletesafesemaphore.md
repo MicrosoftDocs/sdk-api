@@ -1,19 +1,17 @@
 ---
 UID: NF:winddi.EngDeleteSafeSemaphore
 title: EngDeleteSafeSemaphore function (winddi.h)
-
 description: The EngDeleteSafeSemaphore function removes a reference to the specified safe semaphore.
 old-location: display\engdeletesafesemaphore.htm
 tech.root: display
 ms.assetid: d4789803-2343-4d9a-a146-79206d88d59e
-
 ms.date: 12/05/2018
 ms.keywords: EngDeleteSafeSemaphore, EngDeleteSafeSemaphore function [Display Devices], display.engdeletesafesemaphore, gdifncs_ffbf0904-619e-48be-ada1-4269c8a92f55.xml, winddi/EngDeleteSafeSemaphore
 ms.topic: function
 f1_keywords:
 - winddi/EngDeleteSafeSemaphore
 dev_langs:
- - c++
+- c++
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Universal

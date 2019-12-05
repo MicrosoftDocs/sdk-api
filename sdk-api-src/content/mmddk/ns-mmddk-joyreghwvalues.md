@@ -1,19 +1,17 @@
 ---
 UID: NS:mmddk.joyreghwvalues_tag
 title: JOYREGHWVALUES (mmddk.h)
-
 description: The JOYREGHWVALUES structure contains the range of values returned by the hardware (filled in by calibration).
 old-location: hid\joyreghwvalues.htm
 tech.root: hid
 ms.assetid: cd59611f-7bf2-4bba-80dc-f54c815af3e6
-
 ms.date: 12/05/2018
-ms.keywords: "*LPJOYREGHWVALUES, FAR *LPJOYREGHWVALUES, FAR *LPJOYREGHWVALUES structure [Human Input Devices], JOYREGHWVALUES, JOYREGHWVALUES structure [Human Input Devices], di_ref_bd51a1ee-82e2-417f-81a1-9732931706a3.xml, hid.joyreghwvalues, mmddk/FAR *LPJOYREGHWVALUES, mmddk/JOYREGHWVALUES"
+ms.keywords: '*LPJOYREGHWVALUES, FAR *LPJOYREGHWVALUES, FAR *LPJOYREGHWVALUES structure [Human Input Devices], JOYREGHWVALUES, JOYREGHWVALUES structure [Human Input Devices], di_ref_bd51a1ee-82e2-417f-81a1-9732931706a3.xml, hid.joyreghwvalues, mmddk/FAR *LPJOYREGHWVALUES, mmddk/JOYREGHWVALUES'
 ms.topic: struct
-f1_keywords: 
- - "mmddk/JOYREGHWVALUES"
+f1_keywords:
+- mmddk/JOYREGHWVALUES
 dev_langs:
- - c++
+- c++
 req.header: mmddk.h
 req.include-header: Dinputd.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Mmddk.h
+- Mmddk.h
 api_name:
- - JOYREGHWVALUES
+- JOYREGHWVALUES
 targetos: Windows
 req.typenames: JOYREGHWVALUES, *LPJOYREGHWVALUES
 req.redist: 

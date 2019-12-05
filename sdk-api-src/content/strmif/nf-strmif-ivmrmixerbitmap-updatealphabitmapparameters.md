@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IVMRMixerBitmap.UpdateAlphaBitmapParameters
 title: IVMRMixerBitmap::UpdateAlphaBitmapParameters (strmif.h)
-
 description: The UpdateAlphaBitmapParameters method changes the bitmap location, size and blending value.
 old-location: dshow\ivmrmixerbitmap_updatealphabitmapparameters.htm
 tech.root: DirectShow
 ms.assetid: 039cb675-c384-4909-b06d-b331cc281df6
-
 ms.date: 12/05/2018
 ms.keywords: IVMRMixerBitmap interface [DirectShow],UpdateAlphaBitmapParameters method, IVMRMixerBitmap.UpdateAlphaBitmapParameters, IVMRMixerBitmap::UpdateAlphaBitmapParameters, IVMRMixerBitmapUpdateAlphaBitmapParameters, UpdateAlphaBitmapParameters, UpdateAlphaBitmapParameters method [DirectShow], UpdateAlphaBitmapParameters method [DirectShow],IVMRMixerBitmap interface, dshow.ivmrmixerbitmap_updatealphabitmapparameters, strmif/IVMRMixerBitmap::UpdateAlphaBitmapParameters
 ms.topic: method
 f1_keywords:
 - strmif/IVMRMixerBitmap.UpdateAlphaBitmapParameters
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

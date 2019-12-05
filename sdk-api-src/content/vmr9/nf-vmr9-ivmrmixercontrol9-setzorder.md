@@ -1,19 +1,17 @@
 ---
 UID: NF:vmr9.IVMRMixerControl9.SetZOrder
 title: IVMRMixerControl9::SetZOrder (vmr9.h)
-
 description: The SetZOrder method sets this video stream's position in the Z-order; larger values are further away.
 old-location: dshow\ivmrmixercontrol9_setzorder.htm
 tech.root: DirectShow
 ms.assetid: fbc847d4-5d93-4994-b5f4-d753a528532a
-
 ms.date: 12/05/2018
 ms.keywords: IVMRMixerControl9 interface [DirectShow],SetZOrder method, IVMRMixerControl9.SetZOrder, IVMRMixerControl9::SetZOrder, IVMRMixerControl9SetZOrder, SetZOrder, SetZOrder method [DirectShow], SetZOrder method [DirectShow],IVMRMixerControl9 interface, dshow.ivmrmixercontrol9_setzorder, vmr9/IVMRMixerControl9::SetZOrder
 ms.topic: method
-f1_keywords: 
- - "vmr9/IVMRMixerControl9.SetZOrder"
+f1_keywords:
+- vmr9/IVMRMixerControl9.SetZOrder
 dev_langs:
- - c++
+- c++
 req.header: vmr9.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IVMRMixerControl9.SetZOrder
+- IVMRMixerControl9.SetZOrder
 targetos: Windows
 req.typenames: 
 req.redist: 

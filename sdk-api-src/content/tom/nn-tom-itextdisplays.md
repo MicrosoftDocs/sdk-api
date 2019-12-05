@@ -1,19 +1,17 @@
 ---
 UID: NN:tom.ITextDisplays
 title: ITextDisplays (tom.h)
-
 description: Represents the displays collection for this Text Object Model (TOM) engine instance.
 old-location: controls\itextdisplays.htm
 tech.root: Controls
 ms.assetid: e7266734-c066-4f80-8d3d-99ffb251cd39
-
 ms.date: 12/05/2018
 ms.keywords: ITextDisplays, ITextDisplays interface [Windows Controls], ITextDisplays interface [Windows Controls],described, controls.itextdisplays, tom/ITextDisplays
 ms.topic: interface
-f1_keywords: 
- - "tom/ITextDisplays"
+f1_keywords:
+- tom/ITextDisplays
 dev_langs:
- - c++
+- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msftedit.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msftedit.dll
+- Msftedit.dll
 api_name:
- - ITextDisplays
+- ITextDisplays
 targetos: Windows
 req.typenames: 
 req.redist: 

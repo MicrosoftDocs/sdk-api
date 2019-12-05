@@ -1,19 +1,17 @@
 ---
 UID: NF:wsdutil.WSDSetConfigurationOption
 title: WSDSetConfigurationOption function (wsdutil.h)
-
 description: Sets a WSDAPI configuration option.
 old-location: ncd\wsdsetconfigurationoption.htm
 tech.root: WsdApi
 ms.assetid: d7d9b946-9f02-4770-aafe-5ee9e04a51cd
-
 ms.date: 12/05/2018
 ms.keywords: WSDAPI_OPTION_MAX_INBOUND_MESSAGE_SIZE, WSDSetConfigurationOption, WSDSetConfigurationOption function, ncd.wsdsetconfigurationoption, wsdutil/WSDSetConfigurationOption
 ms.topic: function
-f1_keywords: 
- - "wsdutil/WSDSetConfigurationOption"
+f1_keywords:
+- wsdutil/WSDSetConfigurationOption
 dev_langs:
- - c++
+- c++
 req.header: wsdutil.h
 req.include-header: Wsdapi.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Wsdapi.lib
 req.dll: Wsdapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Wsdapi.dll
+- Wsdapi.dll
 api_name:
- - WSDSetConfigurationOption
+- WSDSetConfigurationOption
 targetos: Windows
 req.typenames: 
 req.redist: 

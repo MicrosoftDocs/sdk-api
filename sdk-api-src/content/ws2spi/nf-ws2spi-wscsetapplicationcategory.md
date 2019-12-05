@@ -1,19 +1,17 @@
 ---
 UID: NF:ws2spi.WSCSetApplicationCategory
 title: WSCSetApplicationCategory function (ws2spi.h)
-
 description: Sets the permitted layered service provider (LSP) categories associated with an application.
 old-location: winsock\wscsetapplicationcategory.htm
 tech.root: WinSock
 ms.assetid: 266c9424-f6ab-4630-843d-bc0833d74e4f
-
 ms.date: 12/05/2018
 ms.keywords: WSCSetApplicationCategory, WSCSetApplicationCategory function [Winsock], winsock.wscsetapplicationcategory, ws2spi/WSCSetApplicationCategory
 ms.topic: function
-f1_keywords: 
- - "ws2spi/WSCSetApplicationCategory"
+f1_keywords:
+- ws2spi/WSCSetApplicationCategory
 dev_langs:
- - c++
+- c++
 req.header: ws2spi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Ws2_32.lib
 req.dll: Ws2_32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ws2_32.dll
+- Ws2_32.dll
 api_name:
- - WSCSetApplicationCategory
+- WSCSetApplicationCategory
 targetos: Windows
 req.typenames: 
 req.redist: 

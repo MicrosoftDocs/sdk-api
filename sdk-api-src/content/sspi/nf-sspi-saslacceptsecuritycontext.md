@@ -1,19 +1,17 @@
 ---
 UID: NF:sspi.SaslAcceptSecurityContext
 title: SaslAcceptSecurityContext function (sspi.h)
-
 description: Wraps a standard call to the Security Support Provider Interface AcceptSecurityContext (General) function and includes creation of SASL server cookies.
 old-location: security\saslacceptsecuritycontext.htm
 tech.root: SecAuthN
 ms.assetid: 39ef6522-ff70-4066-a34d-f2af2174f6ee
-
 ms.date: 12/05/2018
 ms.keywords: ASC_REQ_CONFIDENTIALITY, ASC_REQ_HTTP, SaslAcceptSecurityContext, SaslAcceptSecurityContext function [Security], security.saslacceptsecuritycontext, sspi/SaslAcceptSecurityContext
 ms.topic: function
 f1_keywords:
 - sspi/SaslAcceptSecurityContext
 dev_langs:
- - c++
+- c++
 req.header: sspi.h
 req.include-header: Security.h
 req.target-type: Windows

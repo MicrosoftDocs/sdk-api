@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d11_1.ID3D11VideoContext1.DecoderEnableDownsampling
 title: ID3D11VideoContext1::DecoderEnableDownsampling (d3d11_1.h)
-
 description: Indicates that decoder downsampling will be used and that the driver should allocate the appropriate reference frames.
 old-location: mf\id3d11videocontext1_decoderenabledownsampling.htm
 tech.root: medfound
 ms.assetid: 0BE7E6EC-E090-4A13-9D18-108BDBBC211A
-
 ms.date: 12/05/2018
 ms.keywords: DecoderEnableDownsampling, DecoderEnableDownsampling method [Media Foundation], DecoderEnableDownsampling method [Media Foundation],ID3D11VideoContext1 interface, ID3D11VideoContext1 interface [Media Foundation],DecoderEnableDownsampling method, ID3D11VideoContext1.DecoderEnableDownsampling, ID3D11VideoContext1::DecoderEnableDownsampling, d3d11_1/ID3D11VideoContext1::DecoderEnableDownsampling, mf.id3d11videocontext1_decoderenabledownsampling
 ms.topic: method
-f1_keywords: 
- - "d3d11_1/ID3D11VideoContext1.DecoderEnableDownsampling"
+f1_keywords:
+- d3d11_1/ID3D11VideoContext1.DecoderEnableDownsampling
 dev_langs:
- - c++
+- c++
 req.header: d3d11_1.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - d3d11_1.h
+- d3d11_1.h
 api_name:
- - ID3D11VideoContext1.DecoderEnableDownsampling
+- ID3D11VideoContext1.DecoderEnableDownsampling
 targetos: Windows
 req.typenames: 
 req.redist: 

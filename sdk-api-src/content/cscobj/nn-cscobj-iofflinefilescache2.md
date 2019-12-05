@@ -1,19 +1,17 @@
 ---
 UID: NN:cscobj.IOfflineFilesCache2
 title: IOfflineFilesCache2 (cscobj.h)
-
 description: Implements the RenameItemEx method.
 old-location: of\iofflinefilescache2.htm
 tech.root: offlinefiles
 ms.assetid: B4E2C2B0-AA6B-4657-8711-E5057720AF15
-
 ms.date: 12/05/2018
 ms.keywords: IOfflineFilesCache2, IOfflineFilesCache2 interface [Offline Files], IOfflineFilesCache2 interface [Offline Files],described, cscobj/IOfflineFilesCache2, of.iofflinefilescache2
 ms.topic: interface
-f1_keywords: 
- - "cscobj/IOfflineFilesCache2"
+f1_keywords:
+- cscobj/IOfflineFilesCache2
 dev_langs:
- - c++
+- c++
 req.header: cscobj.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: CscSvc.dll; CscObj.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CscSvc.dll
- - CscObj.dll
+- CscSvc.dll
+- CscObj.dll
 api_name:
- - IOfflineFilesCache2
+- IOfflineFilesCache2
 targetos: Windows
 req.typenames: 
 req.redist: 

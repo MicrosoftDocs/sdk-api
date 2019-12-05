@@ -1,19 +1,17 @@
 ---
 UID: NN:dwrite_3.IDWriteRemoteFontFileStream
 title: IDWriteRemoteFontFileStream (dwrite_3.h)
-
 description: Represents a font file stream, parts of which may be non-local.
 old-location: directwrite\idwriteremotefontfilestream.htm
 tech.root: DirectWrite
 ms.assetid: 2CC73CE0-162A-4808-ACB6-A9599FD4D09F
-
 ms.date: 12/05/2018
 ms.keywords: IDWriteRemoteFontFileStream, IDWriteRemoteFontFileStream interface [Direct Write], IDWriteRemoteFontFileStream interface [Direct Write],described, directwrite.idwriteremotefontfilestream, dwrite_3/IDWriteRemoteFontFileStream
 ms.topic: interface
-f1_keywords: 
- - "dwrite_3/IDWriteRemoteFontFileStream"
+f1_keywords:
+- dwrite_3/IDWriteRemoteFontFileStream
 dev_langs:
- - c++
+- c++
 req.header: dwrite_3.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Dwrite.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dwrite.lib
- - Dwrite.dll
+- Dwrite.lib
+- Dwrite.dll
 api_name:
- - IDWriteRemoteFontFileStream
+- IDWriteRemoteFontFileStream
 targetos: Windows
 req.typenames: 
 req.redist: 

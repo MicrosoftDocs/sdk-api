@@ -1,19 +1,17 @@
 ---
 UID: NN:shobjidl.IFileDialog2
 title: IFileDialog2 (shobjidl.h)
-
 description: Extends the IFileDialog interface by providing methods that allow the caller to name a specific, restricted location that can be browsed in the common file dialog as well as to specify alternate text to display as a label on the Cancel button.
 old-location: shell\IFileDialog2.htm
 tech.root: shell
 ms.assetid: be67a020-285d-4c1e-a8b5-8e1e90fae594
-
 ms.date: 12/05/2018
 ms.keywords: IFileDialog2, IFileDialog2 interface [Windows Shell], IFileDialog2 interface [Windows Shell],described, _shell_IFileDialog2, shell.IFileDialog2, shobjidl/IFileDialog2
 ms.topic: interface
-f1_keywords: 
- - "shobjidl/IFileDialog2"
+f1_keywords:
+- shobjidl/IFileDialog2
 dev_langs:
- - c++
+- c++
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Comdlg32.lib
 req.dll: Comdlg32.dll (version 6.1 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Comdlg32.dll
+- Comdlg32.dll
 api_name:
- - IFileDialog2
+- IFileDialog2
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:dwrite_2.IDWriteColorGlyphRunEnumerator.GetCurrentRun
 title: IDWriteColorGlyphRunEnumerator::GetCurrentRun (dwrite_2.h)
-
 description: Returns the current glyph run of the enumerator.
 old-location: directwrite\idwritecolorglyphrunenumerator_getcurrentrun.htm
 tech.root: DirectWrite
 ms.assetid: F4D89E35-3846-41F0-A724-3648DC9D487E
-
 ms.date: 12/05/2018
 ms.keywords: GetCurrentRun, GetCurrentRun method [Direct Write], GetCurrentRun method [Direct Write],IDWriteColorGlyphRunEnumerator interface, IDWriteColorGlyphRunEnumerator interface [Direct Write],GetCurrentRun method, IDWriteColorGlyphRunEnumerator.GetCurrentRun, IDWriteColorGlyphRunEnumerator::GetCurrentRun, directwrite.idwritecolorglyphrunenumerator_getcurrentrun, dwrite_2/IDWriteColorGlyphRunEnumerator::GetCurrentRun
 ms.topic: method
-f1_keywords: 
- - "dwrite_2/IDWriteColorGlyphRunEnumerator.GetCurrentRun"
+f1_keywords:
+- dwrite_2/IDWriteColorGlyphRunEnumerator.GetCurrentRun
 dev_langs:
- - c++
+- c++
 req.header: dwrite_2.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dwrite.lib
 req.dll: Dwrite.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dwrite.dll
+- dwrite.dll
 api_name:
- - IDWriteColorGlyphRunEnumerator.GetCurrentRun
+- IDWriteColorGlyphRunEnumerator.GetCurrentRun
 targetos: Windows
 req.typenames: 
 req.redist: 

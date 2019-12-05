@@ -1,19 +1,17 @@
 ---
 UID: NE:wuapi.tagDownloadPhase
 title: DownloadPhase (wuapi.h)
-
 description: Defines the progress of the download of the current update that is returned by the CurrentUpdateDownloadPhase property of the IDownloadProgress interface.
 old-location: wua\downloadphase.htm
 tech.root: Wua_Sdk
 ms.assetid: a7e930dd-1dfa-42cc-9761-d4252c9a92ae
-
 ms.date: 12/05/2018
 ms.keywords: DownloadPhase, DownloadPhase enumeration [Windows Update Agent], dphDownloading, dphInitializing, dphVerifying, wua.downloadphase, wuapi/DownloadPhase, wuapi/dphDownloading, wuapi/dphInitializing, wuapi/dphVerifying
 ms.topic: enum
-f1_keywords: 
- - "wuapi/DownloadPhase"
+f1_keywords:
+- wuapi/DownloadPhase
 dev_langs:
- - c++
+- c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wuapi.h
+- Wuapi.h
 api_name:
- - DownloadPhase
+- DownloadPhase
 targetos: Windows
 req.typenames: DownloadPhase
 req.redist: 

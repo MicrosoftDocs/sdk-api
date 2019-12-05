@@ -1,19 +1,17 @@
 ---
 UID: NF:fwpmu.IkeextGetStatistics1
 title: IkeextGetStatistics1 function (fwpmu.h)
-
 description: Retrieves Internet Key Exchange (IKE) and Authenticated Internet Protocol (AuthIP) statistics.
 old-location: fwp\ikeextgetstatistics1.htm
 tech.root: fwp
 ms.assetid: c1742e08-a998-4773-a216-cfbbee8608b7
-
 ms.date: 12/05/2018
 ms.keywords: IkeextGetStatistics1, IkeextGetStatistics1 function [Filtering], fwp.ikeextgetstatistics1, fwpmu/IkeextGetStatistics1
 ms.topic: function
-f1_keywords: 
- - "fwpmu/IkeextGetStatistics1"
+f1_keywords:
+- fwpmu/IkeextGetStatistics1
 dev_langs:
- - c++
+- c++
 req.header: fwpmu.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Fwpuclnt.lib
 req.dll: Fwpuclnt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Fwpuclnt.dll
+- Fwpuclnt.dll
 api_name:
- - IkeextGetStatistics1
+- IkeextGetStatistics1
 targetos: Windows
 req.typenames: 
 req.redist: 

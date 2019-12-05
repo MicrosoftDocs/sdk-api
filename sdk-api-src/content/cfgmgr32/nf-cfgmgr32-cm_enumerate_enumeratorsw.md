@@ -1,19 +1,17 @@
 ---
 UID: NF:cfgmgr32.CM_Enumerate_EnumeratorsW
 title: CM_Enumerate_EnumeratorsW function (cfgmgr32.h)
-
 description: The CM_Enumerate_Enumerators function enumerates the local machine's device enumerators by supplying each enumerator's name.
 old-location: devinst\cm_enumerate_enumerators.htm
 tech.root: devinst
 ms.assetid: 85fbca44-bd3b-4654-bba2-099135c42d23
-
 ms.date: 12/05/2018
 ms.keywords: CM_Enumerate_Enumerators, CM_Enumerate_Enumerators function [Device and Driver Installation], CM_Enumerate_EnumeratorsW, cfgmgr32/CM_Enumerate_Enumerators, cfgmgr32/CM_Enumerate_EnumeratorsW, cfgmgrfn_16448772-e0d6-4182-9cfd-52bc354ce487.xml, devinst.cm_enumerate_enumerators
 ms.topic: function
-f1_keywords: 
- - "cfgmgr32/CM_Enumerate_Enumerators"
+f1_keywords:
+- cfgmgr32/CM_Enumerate_Enumerators
 dev_langs:
- - c++
+- c++
 req.header: cfgmgr32.h
 req.include-header: Cfgmgr32.h
 req.target-type: Desktop
@@ -32,16 +30,16 @@ req.lib: Cfgmgr32.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - LibDef
+- LibDef
 api_location:
- - Cfgmgr32.lib
- - Cfgmgr32.dll
+- Cfgmgr32.lib
+- Cfgmgr32.dll
 api_name:
- - CM_Enumerate_Enumerators
- - CM_Enumerate_EnumeratorsW
+- CM_Enumerate_Enumerators
+- CM_Enumerate_EnumeratorsW
 targetos: Windows
 req.typenames: 
 req.redist: 

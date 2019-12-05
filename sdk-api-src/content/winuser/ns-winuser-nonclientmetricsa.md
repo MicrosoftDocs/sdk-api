@@ -1,19 +1,17 @@
 ---
 UID: NS:winuser.tagNONCLIENTMETRICSA
 title: NONCLIENTMETRICSA (winuser.h)
-
 description: Contains the scalable metrics associated with the nonclient area of a nonminimized window.
 old-location: winmsg\nonclientmetrics_str.htm
 tech.root: winmsg
 ms.assetid: 663d3aff-1764-4bc4-96f5-809ddb4e9348
-
 ms.date: 12/05/2018
-ms.keywords: "*LPNONCLIENTMETRICSA, *PNONCLIENTMETRICSA, LPNONCLIENTMETRICS, LPNONCLIENTMETRICS structure pointer [Windows and Messages], NONCLIENTMETRICS, NONCLIENTMETRICS structure [Windows and Messages], NONCLIENTMETRICSA, NONCLIENTMETRICSW, PNONCLIENTMETRICS, PNONCLIENTMETRICS structure pointer [Windows and Messages], _win32_nonclientmetrics_str, base.nonclientmetrics_str, nonclientmetrics_str_cpp, tagNONCLIENTMETRICS, winmsg.nonclientmetrics_str, winui.nonclientmetrics_str, winuser/LPNONCLIENTMETRICS, winuser/NONCLIENTMETRICS, winuser/NONCLIENTMETRICSA, winuser/NONCLIENTMETRICSW, winuser/PNONCLIENTMETRICS"
+ms.keywords: '*LPNONCLIENTMETRICSA, *PNONCLIENTMETRICSA, LPNONCLIENTMETRICS, LPNONCLIENTMETRICS structure pointer [Windows and Messages], NONCLIENTMETRICS, NONCLIENTMETRICS structure [Windows and Messages], NONCLIENTMETRICSA, NONCLIENTMETRICSW, PNONCLIENTMETRICS, PNONCLIENTMETRICS structure pointer [Windows and Messages], _win32_nonclientmetrics_str, base.nonclientmetrics_str, nonclientmetrics_str_cpp, tagNONCLIENTMETRICS, winmsg.nonclientmetrics_str, winui.nonclientmetrics_str, winuser/LPNONCLIENTMETRICS, winuser/NONCLIENTMETRICS, winuser/NONCLIENTMETRICSA, winuser/NONCLIENTMETRICSW, winuser/PNONCLIENTMETRICS'
 ms.topic: struct
-f1_keywords: 
- - "winuser/NONCLIENTMETRICS"
+f1_keywords:
+- winuser/NONCLIENTMETRICS
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Winuser.h
+- Winuser.h
 api_name:
- - NONCLIENTMETRICS
- - NONCLIENTMETRICSA
- - NONCLIENTMETRICSW
+- NONCLIENTMETRICS
+- NONCLIENTMETRICSA
+- NONCLIENTMETRICSW
 targetos: Windows
 req.typenames: NONCLIENTMETRICSA, *PNONCLIENTMETRICSA, *LPNONCLIENTMETRICSA
 req.redist: 

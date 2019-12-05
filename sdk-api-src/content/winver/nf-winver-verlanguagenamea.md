@@ -1,19 +1,17 @@
 ---
 UID: NF:winver.VerLanguageNameA
 title: VerLanguageNameA function (winver.h)
-
 description: Retrieves a description string for the language associated with a specified binary Microsoft language identifier.
 old-location: menurc\verlanguagename.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\versioninformation\versioninformationreference\versioninformationfunctions\verlanguagename.htm
-
 ms.date: 12/05/2018
 ms.keywords: VerLanguageName, VerLanguageName function [Menus and Other Resources], VerLanguageNameA, VerLanguageNameW, _win32_VerLanguageName, _win32_verlanguagename_cpp, menurc.verlanguagename, winui._win32_verlanguagename, winver/VerLanguageName, winver/VerLanguageNameA, winver/VerLanguageNameW
 ms.topic: function
-f1_keywords: 
- - "winver/VerLanguageName"
+f1_keywords:
+- winver/VerLanguageName
 dev_langs:
- - c++
+- c++
 req.header: winver.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,24 +30,24 @@ req.lib: Version.lib
 req.dll: Api-ms-win-core-localization-l1-2-1.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - api-ms-win-core-localization-l1-2-1.dll
- - API-MS-Win-Core-Localization-l1-1-0.dll
- - KernelBase.dll
- - API-MS-Win-Core-Localization-l1-2-0.dll
- - API-MS-Win-Core-Localization-l1-2-1.dll
- - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
- - MinKernelBase.dll
- - API-MS-Win-Core-Localization-L1-2-2.dll
- - kernel32.dll
+- api-ms-win-core-localization-l1-2-1.dll
+- API-MS-Win-Core-Localization-l1-1-0.dll
+- KernelBase.dll
+- API-MS-Win-Core-Localization-l1-2-0.dll
+- API-MS-Win-Core-Localization-l1-2-1.dll
+- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+- MinKernelBase.dll
+- API-MS-Win-Core-Localization-L1-2-2.dll
+- kernel32.dll
 api_name:
- - VerLanguageName
- - VerLanguageNameA
- - VerLanguageNameW
+- VerLanguageName
+- VerLanguageNameA
+- VerLanguageNameW
 targetos: Windows
 req.typenames: 
 req.redist: 

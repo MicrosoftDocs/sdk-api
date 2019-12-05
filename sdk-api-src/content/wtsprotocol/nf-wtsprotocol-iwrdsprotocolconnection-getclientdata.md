@@ -1,19 +1,17 @@
 ---
 UID: NF:wtsprotocol.IWRdsProtocolConnection.GetClientData
 title: IWRdsProtocolConnection::GetClientData (wtsprotocol.h)
-
 description: Requests client settings from the protocol.
 old-location: termserv\iwrdsprotocolconnection_getclientdata.htm
 tech.root: TermServ
 ms.assetid: 4005ff92-56ea-46ae-a546-e08a80303ef5
-
 ms.date: 12/05/2018
 ms.keywords: GetClientData, GetClientData method [Remote Desktop Services], GetClientData method [Remote Desktop Services],IWRdsProtocolConnection interface, IWRdsProtocolConnection interface [Remote Desktop Services],GetClientData method, IWRdsProtocolConnection.GetClientData, IWRdsProtocolConnection::GetClientData, termserv.iwrdsprotocolconnection_getclientdata, wtsprotocol/IWRdsProtocolConnection::GetClientData
 ms.topic: method
 f1_keywords:
 - wtsprotocol/IWRdsProtocolConnection.GetClientData
 dev_langs:
- - c++
+- c++
 req.header: wtsprotocol.h
 req.include-header: 
 req.target-type: Windows

@@ -1,19 +1,17 @@
 ---
 UID: NF:uxtheme.SetThemeAppProperties
 title: SetThemeAppProperties function (uxtheme.h)
-
 description: Sets the flags that determine how visual styles are implemented in the calling application.
 old-location: controls\SetThemeAppProperties.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\userex\functions\setthemeappproperties.htm
-
 ms.date: 12/05/2018
 ms.keywords: SetThemeAppProperties, SetThemeAppProperties function [Windows Controls], controls.SetThemeAppProperties, controls.inet_SetThemeAppProperties, inet_SetThemeAppProperties, inet_SetThemeAppProperties_cpp, uxtheme/SetThemeAppProperties
 ms.topic: function
-f1_keywords: 
- - "uxtheme/SetThemeAppProperties"
+f1_keywords:
+- uxtheme/SetThemeAppProperties
 dev_langs:
- - c++
+- c++
 req.header: uxtheme.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: UxTheme.lib
 req.dll: UxTheme.dll (version 1.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - UxTheme.dll
+- UxTheme.dll
 api_name:
- - SetThemeAppProperties
+- SetThemeAppProperties
 targetos: Windows
 req.typenames: 
 req.redist: 

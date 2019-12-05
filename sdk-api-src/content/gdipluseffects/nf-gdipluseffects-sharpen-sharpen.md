@@ -1,19 +1,17 @@
 ---
 UID: NF:gdipluseffects.Sharpen.Sharpen
 title: Sharpen::Sharpen (gdipluseffects.h)
-
 description: Creates a Sharpen object.
 old-location: gdiplus\_gdiplus_CLASS_Sharpen_Sharpen_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\sharpenclass\sharpenconstructors\sharpen.htm
-
 ms.date: 12/05/2018
 ms.keywords: Sharpen, Sharpen class [GDI+],Sharpen constructor, Sharpen constructor [GDI+], Sharpen constructor [GDI+],Sharpen class, Sharpen.Sharpen, Sharpen::Sharpen, _gdiplus_CLASS_Sharpen_Sharpen_, gdiplus._gdiplus_CLASS_Sharpen_Sharpen_
 ms.topic: method
-f1_keywords: 
- - "gdipluseffects/Sharpen.Sharpen"
+f1_keywords:
+- gdipluseffects/Sharpen.Sharpen
 dev_langs:
- - c++
+- c++
 req.header: gdipluseffects.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - Sharpen.Sharpen
+- Sharpen.Sharpen
 targetos: Windows
 req.typenames: 
 req.redist: 

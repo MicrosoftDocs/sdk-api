@@ -1,19 +1,17 @@
 ---
 UID: NF:dpa_dsa.DPA_EnumCallback
 title: DPA_EnumCallback function (dpa_dsa.h)
-
 description: Iterates through the Dynamic Pointer Array (DPA) and calls pfnCB on each item.
 old-location: controls\DPA_EnumCallback.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\common\functions\dpa_enumcallback.htm
-
 ms.date: 12/05/2018
 ms.keywords: DPA_EnumCallback, DPA_EnumCallback function [Windows Controls], _win32_DPA_EnumCallback, _win32_DPA_EnumCallback_cpp, controls.DPA_EnumCallback, controls._win32_DPA_EnumCallback, dpa_dsa/DPA_EnumCallback
 ms.topic: function
-f1_keywords: 
- - "dpa_dsa/DPA_EnumCallback"
+f1_keywords:
+- dpa_dsa/DPA_EnumCallback
 dev_langs:
- - c++
+- c++
 req.header: dpa_dsa.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Comctl32.lib
 req.dll: ComCtl32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - ComCtl32.dll
+- ComCtl32.dll
 api_name:
- - DPA_EnumCallback
+- DPA_EnumCallback
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:ncryptprotect.NCryptRegisterProtectionDescriptorName
 title: NCryptRegisterProtectionDescriptorName function (ncryptprotect.h)
-
 description: Registers the display name and the associated rule string for a protection descriptor.
 old-location: security\ncryptregisterprotectiondescriptorname.htm
 tech.root: SecCNG
 ms.assetid: DAB03CB2-630F-4BB3-93BD-06BE9126B1C4
-
 ms.date: 12/05/2018
 ms.keywords: NCryptRegisterProtectionDescriptorName, NCryptRegisterProtectionDescriptorName function [Security], ncryptprotect/NCryptRegisterProtectionDescriptorName, security.ncryptregisterprotectiondescriptorname
 ms.topic: function
-f1_keywords: 
- - "ncryptprotect/NCryptRegisterProtectionDescriptorName"
+f1_keywords:
+- ncryptprotect/NCryptRegisterProtectionDescriptorName
 dev_langs:
- - c++
+- c++
 req.header: ncryptprotect.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: NCrypt.lib
 req.dll: NCrypt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - NCrypt.dll
+- NCrypt.dll
 api_name:
- - NCryptRegisterProtectionDescriptorName
+- NCryptRegisterProtectionDescriptorName
 targetos: Windows
 req.typenames: 
 req.redist: 

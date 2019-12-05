@@ -1,19 +1,17 @@
 ---
 UID: NF:oleidl.IViewObject.Unfreeze
 title: IViewObject::Unfreeze (oleidl.h)
-
 description: Releases a drawing that was previously frozen using IViewObject::Freeze. The most common use of this method is for banded printing.
 old-location: com\iviewobject_unfreeze.htm
 tech.root: com
 ms.assetid: 76f3c5f6-3f29-4a89-94e2-f77489e6a744
-
 ms.date: 12/05/2018
 ms.keywords: IViewObject interface [COM],Unfreeze method, IViewObject.Unfreeze, IViewObject::Unfreeze, Unfreeze, Unfreeze method [COM], Unfreeze method [COM],IViewObject interface, _ole_iviewobject_unfreeze, com.iviewobject_unfreeze, oleidl/IViewObject::Unfreeze
 ms.topic: method
-f1_keywords: 
- - "oleidl/IViewObject.Unfreeze"
+f1_keywords:
+- oleidl/IViewObject.Unfreeze
 dev_langs:
- - c++
+- c++
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - OleIdl.h
+- OleIdl.h
 api_name:
- - IViewObject.Unfreeze
+- IViewObject.Unfreeze
 targetos: Windows
 req.typenames: 
 req.redist: 

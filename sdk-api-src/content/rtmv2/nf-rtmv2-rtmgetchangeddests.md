@@ -1,19 +1,17 @@
 ---
 UID: NF:rtmv2.RtmGetChangedDests
 title: RtmGetChangedDests function (rtmv2.h)
-
 description: The RtmGetChangedDests function returns a set of destinations with changed information.
 old-location: rras\rtmgetchangeddests.htm
 tech.root: RRAS
 ms.assetid: 2b22927d-a857-4bcb-9d89-6ca156b04ea9
-
 ms.date: 12/05/2018
 ms.keywords: RtmGetChangedDests, RtmGetChangedDests function [RAS], _rtmv2ref_rtmgetchangeddests, rras.rtmgetchangeddests, rtmv2/RtmGetChangedDests
 ms.topic: function
 f1_keywords:
 - rtmv2/RtmGetChangedDests
 dev_langs:
- - c++
+- c++
 req.header: rtmv2.h
 req.include-header: 
 req.target-type: Windows

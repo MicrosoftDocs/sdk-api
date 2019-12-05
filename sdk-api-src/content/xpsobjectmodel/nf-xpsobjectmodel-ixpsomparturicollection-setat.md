@@ -1,19 +1,17 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMPartUriCollection.SetAt
 title: IXpsOMPartUriCollection::SetAt (xpsobjectmodel.h)
-
 description: Replaces an IOpcPartUri interface pointer at a specified location in the collection.
 old-location: xps\ixpsomparturicollection_setat.htm
 tech.root: printdocs
 ms.assetid: b41602ae-7d9e-48e4-b9f4-8db09e65f5c8
-
 ms.date: 12/05/2018
 ms.keywords: IXpsOMPartUriCollection interface [XPS Documents and Packaging],SetAt method, IXpsOMPartUriCollection.SetAt, IXpsOMPartUriCollection::SetAt, SetAt, SetAt method [XPS Documents and Packaging], SetAt method [XPS Documents and Packaging],IXpsOMPartUriCollection interface, xps.ixpsomparturicollection_setat, xpsobjectmodel/IXpsOMPartUriCollection::SetAt
 ms.topic: method
-f1_keywords: 
- - "xpsobjectmodel/IXpsOMPartUriCollection.SetAt"
+f1_keywords:
+- xpsobjectmodel/IXpsOMPartUriCollection.SetAt
 dev_langs:
- - c++
+- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsobjectmodel.h
+- xpsobjectmodel.h
 api_name:
- - IXpsOMPartUriCollection.SetAt
+- IXpsOMPartUriCollection.SetAt
 targetos: Windows
 req.typenames: 
 req.redist: 

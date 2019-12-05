@@ -1,19 +1,17 @@
 ---
 UID: NF:mmc.IConsole.SetHeader
 title: IConsole::SetHeader (mmc.h)
-
 description: Sets the header interface to use for this instance of IComponent. This is used only by instances of IComponent.
 old-location: mmc\iconsole_setheader.htm
 tech.root: mmc
 ms.assetid: B607F719-3D74-48EB-A1FD-A311B5C3F6A1
-
 ms.date: 12/05/2018
 ms.keywords: IConsole interface [MMC],SetHeader method, IConsole.SetHeader, IConsole::SetHeader, SetHeader, SetHeader method [MMC], SetHeader method [MMC],IConsole interface, mmc.iconsole_setheader, mmc/IConsole::SetHeader
 ms.topic: method
-f1_keywords: 
- - "mmc/IConsole.SetHeader"
+f1_keywords:
+- mmc/IConsole.SetHeader
 dev_langs:
- - c++
+- c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Mmcndmgr.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mmcndmgr.dll
+- Mmcndmgr.dll
 api_name:
- - IConsole.SetHeader
+- IConsole.SetHeader
 targetos: Windows
 req.typenames: 
 req.redist: 

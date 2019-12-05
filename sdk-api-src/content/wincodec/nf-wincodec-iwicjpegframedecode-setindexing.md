@@ -1,19 +1,17 @@
 ---
 UID: NF:wincodec.IWICJpegFrameDecode.SetIndexing
 title: IWICJpegFrameDecode::SetIndexing (wincodec.h)
-
 description: Enables indexing of the JPEG for efficient random access.
 old-location: wic\iwicjpegframedecode_setindexing.htm
 tech.root: wic
 ms.assetid: D97A48E5-0398-460C-AFA9-2E1B8744926B
-
 ms.date: 12/05/2018
 ms.keywords: IWICJpegFrameDecode interface [Windows Imaging Component],SetIndexing method, IWICJpegFrameDecode.SetIndexing, IWICJpegFrameDecode::SetIndexing, SetIndexing, SetIndexing method [Windows Imaging Component], SetIndexing method [Windows Imaging Component],IWICJpegFrameDecode interface, wic.iwicjpegframedecode_setindexing, wincodec/IWICJpegFrameDecode::SetIndexing
 ms.topic: method
-f1_keywords: 
- - "wincodec/IWICJpegFrameDecode.SetIndexing"
+f1_keywords:
+- wincodec/IWICJpegFrameDecode.SetIndexing
 dev_langs:
- - c++
+- c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Windowscodecs.lib
 req.dll: Windowscodecs.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Windowscodecs.dll
+- Windowscodecs.dll
 api_name:
- - IWICJpegFrameDecode.SetIndexing
+- IWICJpegFrameDecode.SetIndexing
 targetos: Windows
 req.typenames: 
 req.redist: 

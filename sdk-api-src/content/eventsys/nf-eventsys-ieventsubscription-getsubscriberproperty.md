@@ -1,19 +1,17 @@
 ---
 UID: NF:eventsys.IEventSubscription.GetSubscriberProperty
 title: IEventSubscription::GetSubscriberProperty (eventsys.h)
-
 description: Retrieves the value of a property stored in the property bag to define subscriber context.
 old-location: cos\ieventsubscription_getsubscriberproperty.htm
 tech.root: cossdk
 ms.assetid: 6e16557a-e4ea-46ae-8285-0446189cea8e
-
 ms.date: 12/05/2018
 ms.keywords: GetSubscriberProperty, GetSubscriberProperty method [COM+], GetSubscriberProperty method [COM+],IEventSubscription interface, IEventSubscription interface [COM+],GetSubscriberProperty method, IEventSubscription.GetSubscriberProperty, IEventSubscription::GetSubscriberProperty, _cos_IEventSubscription_GetSubscriberProperty, cos.ieventsubscription_getsubscriberproperty, eventsys/IEventSubscription::GetSubscriberProperty
 ms.topic: method
-f1_keywords: 
- - "eventsys/IEventSubscription.GetSubscriberProperty"
+f1_keywords:
+- eventsys/IEventSubscription.GetSubscriberProperty
 dev_langs:
- - c++
+- c++
 req.header: eventsys.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - EventSys.h
+- EventSys.h
 api_name:
- - IEventSubscription.GetSubscriberProperty
+- IEventSubscription.GetSubscriberProperty
 targetos: Windows
 req.typenames: 
 req.redist: 

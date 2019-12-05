@@ -1,19 +1,17 @@
 ---
 UID: NF:syncmgr.ISyncMgrConflictResolveInfo.GetItemChoice
 title: ISyncMgrConflictResolveInfo::GetItemChoice (syncmgr.h)
-
 description: Gets the index of an item that the user wants to keep.
 old-location: shell\ISyncMgrConflictResolveInfo_GetItemChoice.htm
 tech.root: shell
 ms.assetid: 3c857e53-756b-44c2-b3fa-6d57c21939e7
-
 ms.date: 12/05/2018
 ms.keywords: GetItemChoice, GetItemChoice method [Windows Shell], GetItemChoice method [Windows Shell],ISyncMgrConflictResolveInfo interface, ISyncMgrConflictResolveInfo interface [Windows Shell],GetItemChoice method, ISyncMgrConflictResolveInfo.GetItemChoice, ISyncMgrConflictResolveInfo::GetItemChoice, _shell_ISyncMgrConflictResolveInfo_GetItemChoice, shell.ISyncMgrConflictResolveInfo_GetItemChoice, syncmgr/ISyncMgrConflictResolveInfo::GetItemChoice
 ms.topic: method
-f1_keywords: 
- - "syncmgr/ISyncMgrConflictResolveInfo.GetItemChoice"
+f1_keywords:
+- syncmgr/ISyncMgrConflictResolveInfo.GetItemChoice
 dev_langs:
- - c++
+- c++
 req.header: syncmgr.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Syncmgr.h
+- Syncmgr.h
 api_name:
- - ISyncMgrConflictResolveInfo.GetItemChoice
+- ISyncMgrConflictResolveInfo.GetItemChoice
 targetos: Windows
 req.typenames: 
 req.redist: 

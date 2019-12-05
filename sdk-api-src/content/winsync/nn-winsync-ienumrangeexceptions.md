@@ -1,19 +1,17 @@
 ---
 UID: NN:winsync.IEnumRangeExceptions
 title: IEnumRangeExceptions (winsync.h)
-
 description: Enumerates range exceptions that are stored in a knowledge object.
 old-location: winsync\ienumrangeexceptions.htm
 tech.root: winsync
 ms.assetid: 1b2724a3-2f5f-4f30-8cf5-e31f16d4cd14
-
 ms.date: 12/05/2018
 ms.keywords: IEnumRangeExceptions, IEnumRangeExceptions interface [Windows Sync], IEnumRangeExceptions interface [Windows Sync],described, winsync.ienumrangeexceptions, winsync/IEnumRangeExceptions
 ms.topic: interface
-f1_keywords: 
- - "winsync/IEnumRangeExceptions"
+f1_keywords:
+- winsync/IEnumRangeExceptions
 dev_langs:
- - c++
+- c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - winsync.h
+- winsync.h
 api_name:
- - IEnumRangeExceptions
+- IEnumRangeExceptions
 targetos: Windows
 req.typenames: 
 req.redist: 

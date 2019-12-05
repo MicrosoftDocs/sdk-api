@@ -1,19 +1,17 @@
 ---
 UID: NF:gdiplusheaders.PrivateFontCollection.AddFontFile
 title: PrivateFontCollection::AddFontFile (gdiplusheaders.h)
-
 description: The PrivateFontCollection::AddFontFile method adds a font file to this private font collection.
 old-location: gdiplus\_gdiplus_CLASS_PrivateFontCollection_AddFontFile_filename_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\privatefontcollectionclass\privatefontcollectionmethods\addfontfile.htm
-
 ms.date: 12/05/2018
 ms.keywords: AddFontFile, AddFontFile method [GDI+], AddFontFile method [GDI+],PrivateFontCollection class, PrivateFontCollection class [GDI+],AddFontFile method, PrivateFontCollection.AddFontFile, PrivateFontCollection::AddFontFile, _gdiplus_CLASS_PrivateFontCollection_AddFontFile_filename_, gdiplus._gdiplus_CLASS_PrivateFontCollection_AddFontFile_filename_
 ms.topic: method
-f1_keywords: 
- - "gdiplusheaders/PrivateFontCollection.AddFontFile"
+f1_keywords:
+- gdiplusheaders/PrivateFontCollection.AddFontFile
 dev_langs:
- - c++
+- c++
 req.header: gdiplusheaders.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - PrivateFontCollection.AddFontFile
+- PrivateFontCollection.AddFontFile
 targetos: Windows
 req.typenames: 
 req.redist: 

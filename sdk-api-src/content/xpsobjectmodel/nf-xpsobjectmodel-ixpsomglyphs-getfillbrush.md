@@ -1,19 +1,17 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMGlyphs.GetFillBrush
 title: IXpsOMGlyphs::GetFillBrush (xpsobjectmodel.h)
-
 description: Gets a pointer to the resolved IXpsOMBrush interface of the fill brush to be used for the text.
 old-location: xps\ixpsomglyphs_getfillbrush.htm
 tech.root: printdocs
 ms.assetid: 0deadd8e-24c5-4be1-8eaf-43cd59e22243
-
 ms.date: 12/05/2018
 ms.keywords: GetFillBrush, GetFillBrush method [XPS Documents and Packaging], GetFillBrush method [XPS Documents and Packaging],IXpsOMGlyphs interface, IXpsOMGlyphs interface [XPS Documents and Packaging],GetFillBrush method, IXpsOMGlyphs.GetFillBrush, IXpsOMGlyphs::GetFillBrush, xps.ixpsomglyphs_getfillbrush, xpsobjectmodel/IXpsOMGlyphs::GetFillBrush
 ms.topic: method
-f1_keywords: 
- - "xpsobjectmodel/IXpsOMGlyphs.GetFillBrush"
+f1_keywords:
+- xpsobjectmodel/IXpsOMGlyphs.GetFillBrush
 dev_langs:
- - c++
+- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsobjectmodel.h
+- xpsobjectmodel.h
 api_name:
- - IXpsOMGlyphs.GetFillBrush
+- IXpsOMGlyphs.GetFillBrush
 targetos: Windows
 req.typenames: 
 req.redist: 

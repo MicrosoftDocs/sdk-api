@@ -1,19 +1,17 @@
 ---
 UID: NS:evntcons._EVENT_EXTENDED_ITEM_TS_ID
 title: EVENT_EXTENDED_ITEM_TS_ID (evntcons.h)
-
 description: Defines the terminal session that logged the event.
 old-location: etw\event_extended_item_ts_id.htm
 tech.root: ETW
 ms.assetid: fcf1252d-9730-45a2-b601-60f76decd0dd
-
 ms.date: 12/05/2018
 ms.keywords: '*PEVENT_EXTENDED_ITEM_TS_ID, EVENT_EXTENDED_ITEM_TS_ID, EVENT_EXTENDED_ITEM_TS_ID structure [ETW], PEVENT_EXTENDED_ITEM_TS_ID, PEVENT_EXTENDED_ITEM_TS_ID structure pointer [ETW], base.event_extended_item_ts_id, etw.event_extended_item_ts_id, evntcons/EVENT_EXTENDED_ITEM_TS_ID, evntcons/PEVENT_EXTENDED_ITEM_TS_ID'
 ms.topic: struct
 f1_keywords:
 - evntcons/EVENT_EXTENDED_ITEM_TS_ID
 dev_langs:
- - c++
+- c++
 req.header: evntcons.h
 req.include-header: 
 req.target-type: Windows

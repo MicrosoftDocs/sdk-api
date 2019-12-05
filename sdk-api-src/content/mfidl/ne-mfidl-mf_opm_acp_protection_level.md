@@ -1,19 +1,17 @@
 ---
 UID: NE:mfidl._MF_OPM_ACP_PROTECTION_LEVEL
 title: MF_OPM_ACP_PROTECTION_LEVEL (mfidl.h)
-
 description: Defines protection levels for MFPROTECTION_ACP.
 old-location: mf\mf_opm_acp_protection_level.htm
 tech.root: medfound
 ms.assetid: 82D289EE-7A81-4FBB-A259-6CF0CBD0D76A
-
 ms.date: 12/05/2018
 ms.keywords: MF_OPM_ACP_FORCE_ULONG, MF_OPM_ACP_LEVEL_ONE, MF_OPM_ACP_LEVEL_THREE, MF_OPM_ACP_LEVEL_TWO, MF_OPM_ACP_OFF, MF_OPM_ACP_PROTECTION_LEVEL, MF_OPM_ACP_PROTECTION_LEVEL enumeration [Media Foundation], mf.mf_opm_acp_protection_level, mfidl/MF_OPM_ACP_FORCE_ULONG, mfidl/MF_OPM_ACP_LEVEL_ONE, mfidl/MF_OPM_ACP_LEVEL_THREE, mfidl/MF_OPM_ACP_LEVEL_TWO, mfidl/MF_OPM_ACP_OFF, mfidl/MF_OPM_ACP_PROTECTION_LEVEL
 ms.topic: enum
-f1_keywords: 
- - "mfidl/MF_OPM_ACP_PROTECTION_LEVEL"
+f1_keywords:
+- mfidl/MF_OPM_ACP_PROTECTION_LEVEL
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - mfidl.h
+- mfidl.h
 api_name:
- - MF_OPM_ACP_PROTECTION_LEVEL
+- MF_OPM_ACP_PROTECTION_LEVEL
 targetos: Windows
 req.typenames: MF_OPM_ACP_PROTECTION_LEVEL
 req.redist: 

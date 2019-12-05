@@ -1,19 +1,17 @@
 ---
 UID: NN:wtsprotocol.IWRdsProtocolShadowConnection
 title: IWRdsProtocolShadowConnection (wtsprotocol.h)
-
 description: Exposes methods that notify the protocol provider about the status of session shadowing.
 old-location: termserv\iwrdsprotocolshadowconnection.htm
 tech.root: TermServ
 ms.assetid: d23c4902-4e61-45ff-8a49-62eea1b92d4a
-
 ms.date: 12/05/2018
 ms.keywords: IWRdsProtocolShadowConnection, IWRdsProtocolShadowConnection interface [Remote Desktop Services], IWRdsProtocolShadowConnection interface [Remote Desktop Services],described, termserv.iwrdsprotocolshadowconnection, wtsprotocol/IWRdsProtocolShadowConnection
 ms.topic: interface
-f1_keywords: 
- - "wtsprotocol/IWRdsProtocolShadowConnection"
+f1_keywords:
+- wtsprotocol/IWRdsProtocolShadowConnection
 dev_langs:
- - c++
+- c++
 req.header: wtsprotocol.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wtsprotocol.h
+- wtsprotocol.h
 api_name:
- - IWRdsProtocolShadowConnection
+- IWRdsProtocolShadowConnection
 targetos: Windows
 req.typenames: 
 req.redist: 

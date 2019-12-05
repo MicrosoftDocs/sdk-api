@@ -1,19 +1,17 @@
 ---
 UID: NF:upnp.IUPnPServiceCallback.ServiceInstanceDied
 title: IUPnPServiceCallback::ServiceInstanceDied (upnp.h)
-
 description: The ServiceInstanceDied method is invoked when a service is no longer sending events.
 old-location: upnp\iupnpservicecallback_serviceinstancedied.htm
 tech.root: upnp
 ms.assetid: 13b6d2b1-f95d-4b07-bd69-2793158ee27b
-
 ms.date: 12/05/2018
 ms.keywords: IUPnPServiceCallback interface [UPnP APIs],ServiceInstanceDied method, IUPnPServiceCallback.ServiceInstanceDied, IUPnPServiceCallback::ServiceInstanceDied, ServiceInstanceDied, ServiceInstanceDied method [UPnP APIs], ServiceInstanceDied method [UPnP APIs],IUPnPServiceCallback interface, _upnp_iupnpservicecallback_serviceinstancedied, upnp.iupnpservicecallback_serviceinstancedied, upnp/IUPnPServiceCallback::ServiceInstanceDied
 ms.topic: method
-f1_keywords: 
- - "upnp/IUPnPServiceCallback.ServiceInstanceDied"
+f1_keywords:
+- upnp/IUPnPServiceCallback.ServiceInstanceDied
 dev_langs:
- - c++
+- c++
 req.header: upnp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Upnp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Upnp.dll
+- Upnp.dll
 api_name:
- - IUPnPServiceCallback.ServiceInstanceDied
+- IUPnPServiceCallback.ServiceInstanceDied
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:cfapi.CfUpdatePlaceholder
 title: CfUpdatePlaceholder function (cfapi.h)
-
 description: Updates characteristics of the placeholder file or directory.
 old-location: cloudapi\cfupdateplaceholder.htm
 tech.root: cfApi
 ms.assetid: 13F2BF9A-505F-4CFB-B008-7DDE85A3C581
-
 ms.date: 12/05/2018
 ms.keywords: CfUpdatePlaceholder, CfUpdatePlaceholder function, cfapi/CfUpdatePlaceholder, cloudApi.cfupdateplaceholder
 ms.topic: function
-f1_keywords: 
- - "cfapi/CfUpdatePlaceholder"
+f1_keywords:
+- cfapi/CfUpdatePlaceholder
 dev_langs:
- - c++
+- c++
 req.header: cfapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: CldApi.lib
 req.dll: CldApi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - CldApi.dll
+- CldApi.dll
 api_name:
- - CfUpdatePlaceholder
+- CfUpdatePlaceholder
 targetos: Windows
 req.typenames: 
 req.redist: 

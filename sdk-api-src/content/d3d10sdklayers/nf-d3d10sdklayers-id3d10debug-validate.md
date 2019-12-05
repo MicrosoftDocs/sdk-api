@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d10sdklayers.ID3D10Debug.Validate
 title: ID3D10Debug::Validate (d3d10sdklayers.h)
-
 description: Check the validity of pipeline state.
 old-location: direct3d10\id3d10debug_validate.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10debug_validate.htm
-
 ms.date: 12/05/2018
 ms.keywords: ID3D10Debug interface [Direct3D 10],Validate method, ID3D10Debug.Validate, ID3D10Debug::Validate, Validate, Validate method [Direct3D 10], Validate method [Direct3D 10],ID3D10Debug interface, c86b1899-e23f-c78e-1175-217019325010, d3d10sdklayers/ID3D10Debug::Validate, direct3d10.id3d10debug_validate
 ms.topic: method
-f1_keywords: 
- - "d3d10sdklayers/ID3D10Debug.Validate"
+f1_keywords:
+- d3d10sdklayers/ID3D10Debug.Validate
 dev_langs:
- - c++
+- c++
 req.header: d3d10sdklayers.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D10SDKLayers.h
+- D3D10SDKLayers.h
 api_name:
- - ID3D10Debug.Validate
+- ID3D10Debug.Validate
 targetos: Windows
 req.typenames: 
 req.redist: 

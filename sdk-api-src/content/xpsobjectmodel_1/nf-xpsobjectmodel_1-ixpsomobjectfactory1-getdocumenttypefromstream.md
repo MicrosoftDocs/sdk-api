@@ -1,19 +1,17 @@
 ---
 UID: NF:xpsobjectmodel_1.IXpsOMObjectFactory1.GetDocumentTypeFromStream
 title: IXpsOMObjectFactory1::GetDocumentTypeFromStream (xpsobjectmodel_1.h)
-
 description: Detects the type of XPS document that is stored in the specified stream.
 old-location: xps\ixpsomobjectfactory1_getdocumenttypefromstream.htm
 tech.root: printdocs
 ms.assetid: 98d5bfc1-75f7-425f-b69d-11e74c15f08e
-
 ms.date: 12/05/2018
 ms.keywords: GetDocumentTypeFromStream, GetDocumentTypeFromStream method [XPS Documents and Packaging], GetDocumentTypeFromStream method [XPS Documents and Packaging],IXpsOMObjectFactory1 interface, IXpsOMObjectFactory1 interface [XPS Documents and Packaging],GetDocumentTypeFromStream method, IXpsOMObjectFactory1.GetDocumentTypeFromStream, IXpsOMObjectFactory1::GetDocumentTypeFromStream, xps.ixpsomobjectfactory1_getdocumenttypefromstream, xpsobjectmodel_1/IXpsOMObjectFactory1::GetDocumentTypeFromStream
 ms.topic: method
-f1_keywords: 
- - "xpsobjectmodel_1/IXpsOMObjectFactory1.GetDocumentTypeFromStream"
+f1_keywords:
+- xpsobjectmodel_1/IXpsOMObjectFactory1.GetDocumentTypeFromStream
 dev_langs:
- - c++
+- c++
 req.header: xpsobjectmodel_1.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: None
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - none
- - none.dll
+- none
+- none.dll
 api_name:
- - IXpsOMObjectFactory1.GetDocumentTypeFromStream
+- IXpsOMObjectFactory1.GetDocumentTypeFromStream
 targetos: Windows
 req.typenames: 
 req.redist: 

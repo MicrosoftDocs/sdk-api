@@ -1,19 +1,17 @@
 ---
 UID: NF:dcompanimation.IDCompositionAnimation.End
 title: IDCompositionAnimation::End (dcompanimation.h)
-
 description: Adds an end segment that marks the end of an animation function.
 old-location: directcomp\idcompositionanimation_end.htm
 tech.root: directcomp
 ms.assetid: 71287ae2-d930-4e96-8c12-538d2b58ccc6
-
 ms.date: 12/05/2018
 ms.keywords: End, End method [DirectComposition], End method [DirectComposition],IDCompositionAnimation interface, IDCompositionAnimation interface [DirectComposition],End method, IDCompositionAnimation.End, IDCompositionAnimation::End, dcompanimation/IDCompositionAnimation::End, directcomp.idcompositionanimation_end
 ms.topic: method
-f1_keywords: 
- - "dcompanimation/IDCompositionAnimation.End"
+f1_keywords:
+- dcompanimation/IDCompositionAnimation.End
 dev_langs:
- - c++
+- c++
 req.header: dcompanimation.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dcomp.lib
 req.dll: Dcomp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dcomp.dll
+- Dcomp.dll
 api_name:
- - IDCompositionAnimation.End
+- IDCompositionAnimation.End
 targetos: Windows
 req.typenames: 
 req.redist: 

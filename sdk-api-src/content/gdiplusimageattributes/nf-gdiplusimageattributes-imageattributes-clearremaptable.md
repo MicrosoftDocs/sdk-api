@@ -1,19 +1,17 @@
 ---
 UID: NF:gdiplusimageattributes.ImageAttributes.ClearRemapTable
 title: ImageAttributes::ClearRemapTable (gdiplusimageattributes.h)
-
 description: The ImageAttributes::ClearRemapTable method clears the color-remap table for a specified category.
 old-location: gdiplus\_gdiplus_CLASS_ImageAttributes_ClearRemapTable_type_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\imageattributesclass\imageattributesmethods\clearremaptable.htm
-
 ms.date: 12/05/2018
 ms.keywords: ClearRemapTable, ClearRemapTable method [GDI+], ClearRemapTable method [GDI+],ImageAttributes class, ImageAttributes class [GDI+],ClearRemapTable method, ImageAttributes.ClearRemapTable, ImageAttributes::ClearRemapTable, _gdiplus_CLASS_ImageAttributes_ClearRemapTable_type_, gdiplus._gdiplus_CLASS_ImageAttributes_ClearRemapTable_type_
 ms.topic: method
-f1_keywords: 
- - "gdiplusimageattributes/ImageAttributes.ClearRemapTable"
+f1_keywords:
+- gdiplusimageattributes/ImageAttributes.ClearRemapTable
 dev_langs:
- - c++
+- c++
 req.header: gdiplusimageattributes.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - ImageAttributes.ClearRemapTable
+- ImageAttributes.ClearRemapTable
 targetos: Windows
 req.typenames: 
 req.redist: 

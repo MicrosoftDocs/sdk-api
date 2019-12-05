@@ -1,19 +1,17 @@
 ---
 UID: NF:lmserver.NetServerComputerNameDel
 title: NetServerComputerNameDel function (lmserver.h)
-
 description: The NetServerComputerNameDel function causes the specified server to cease supporting the emulated server name set by a previous call to the NetServerComputerNameAdd function. The function does this by unbinding network transports from the emulated name.
 old-location: netmgmt\netservercomputernamedel.htm
 tech.root: NetMgmt
 ms.assetid: 501232ad-2821-4bbd-9f16-0f49984f6101
-
 ms.date: 12/05/2018
 ms.keywords: NetServerComputerNameDel, NetServerComputerNameDel function [Network Management], _win32_netservercomputernamedel, lmserver/NetServerComputerNameDel, netmgmt.netservercomputernamedel
 ms.topic: function
-f1_keywords: 
- - "lmserver/NetServerComputerNameDel"
+f1_keywords:
+- lmserver/NetServerComputerNameDel
 dev_langs:
- - c++
+- c++
 req.header: lmserver.h
 req.include-header: Lm.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Netapi32.lib
 req.dll: Netapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Netapi32.dll
+- Netapi32.dll
 api_name:
- - NetServerComputerNameDel
+- NetServerComputerNameDel
 targetos: Windows
 req.typenames: 
 req.redist: 

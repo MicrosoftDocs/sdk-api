@@ -1,19 +1,17 @@
 ---
 UID: NF:mfidl.IMFAudioPolicy.GetIconPath
 title: IMFAudioPolicy::GetIconPath (mfidl.h)
-
 description: Retrieves the icon resource for the audio session. The Windows volume control displays this icon.
 old-location: mf\imfaudiopolicy_geticonpath.htm
 tech.root: medfound
 ms.assetid: f2114f15-4357-4b5a-b384-695165d887de
-
 ms.date: 12/05/2018
 ms.keywords: GetIconPath, GetIconPath method [Media Foundation], GetIconPath method [Media Foundation],IMFAudioPolicy interface, IMFAudioPolicy interface [Media Foundation],GetIconPath method, IMFAudioPolicy.GetIconPath, IMFAudioPolicy::GetIconPath, f2114f15-4357-4b5a-b384-695165d887de, mf.imfaudiopolicy_geticonpath, mfidl/IMFAudioPolicy::GetIconPath
 ms.topic: method
-f1_keywords: 
- - "mfidl/IMFAudioPolicy.GetIconPath"
+f1_keywords:
+- mfidl/IMFAudioPolicy.GetIconPath
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFAudioPolicy.GetIconPath
+- IMFAudioPolicy.GetIconPath
 targetos: Windows
 req.typenames: 
 req.redist: 

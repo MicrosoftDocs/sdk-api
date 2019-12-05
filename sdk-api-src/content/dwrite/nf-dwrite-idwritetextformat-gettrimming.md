@@ -1,19 +1,17 @@
 ---
 UID: NF:dwrite.IDWriteTextFormat.GetTrimming
 title: IDWriteTextFormat::GetTrimming (dwrite.h)
-
 description: Gets the trimming options for text that overflows the layout box.
 old-location: directwrite\IDWriteTextFormat_GetTrimming.htm
 tech.root: DirectWrite
 ms.assetid: 6147d0a4-8f50-40c6-864e-734cfef57089
-
 ms.date: 12/05/2018
 ms.keywords: GetTrimming, GetTrimming method [Direct Write], GetTrimming method [Direct Write],IDWriteTextFormat interface, IDWriteTextFormat interface [Direct Write],GetTrimming method, IDWriteTextFormat.GetTrimming, IDWriteTextFormat::GetTrimming, directwrite.IDWriteTextFormat_GetTrimming, dwrite/IDWriteTextFormat::GetTrimming
 ms.topic: method
-f1_keywords: 
- - "dwrite/IDWriteTextFormat.GetTrimming"
+f1_keywords:
+- dwrite/IDWriteTextFormat.GetTrimming
 dev_langs:
- - c++
+- c++
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dwrite.lib
 req.dll: Dwrite.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dwrite.dll
+- dwrite.dll
 api_name:
- - IDWriteTextFormat.GetTrimming
+- IDWriteTextFormat.GetTrimming
 targetos: Windows
 req.typenames: 
 req.redist: 

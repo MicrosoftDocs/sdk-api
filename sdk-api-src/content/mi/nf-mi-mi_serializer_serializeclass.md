@@ -1,19 +1,17 @@
 ---
 UID: NF:mi.MI_Serializer_SerializeClass
 title: MI_Serializer_SerializeClass function (mi.h)
-
 description: Serializes an MI_Class into a buffer in the format specified when the serializer was created. Options can be passed into the flags to control if the class and all its parent classes are serialized, or just the child-most class.
 old-location: wmi_v2\mi_serializer_serializeclass.htm
 tech.root: wmi_v2
 ms.assetid: 3417731d-8727-4dcb-8ce4-2b07b6addd19
-
 ms.date: 12/05/2018
 ms.keywords: MI_Serializer_SerializeClass, MI_Serializer_SerializeClass function [Windows Management Infrastructure (MI)], mi/MI_Serializer_SerializeClass, wmi_v2.mi_serializer_serializeclass
 ms.topic: function
 f1_keywords:
 - mi/MI_Serializer_SerializeClass
 dev_langs:
- - c++
+- c++
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows

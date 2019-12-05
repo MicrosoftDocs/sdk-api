@@ -1,19 +1,17 @@
 ---
 UID: NF:rpcdce.RpcEpResolveBinding
 title: RpcEpResolveBinding function (rpcdce.h)
-
 description: The RpcEpResolveBinding function resolves a partially-bound server binding handle into a fully-bound server binding handle.
 old-location: rpc\rpcepresolvebinding.htm
 tech.root: Rpc
 ms.assetid: 839eefea-f06d-412b-9637-4af01b783121
-
 ms.date: 12/05/2018
 ms.keywords: RpcEpResolveBinding, RpcEpResolveBinding function [RPC], _rpc_rpcepresolvebinding, rpc.rpcepresolvebinding, rpcdce/RpcEpResolveBinding
 ms.topic: function
-f1_keywords: 
- - "rpcdce/RpcEpResolveBinding"
+f1_keywords:
+- rpcdce/RpcEpResolveBinding
 dev_langs:
- - c++
+- c++
 req.header: rpcdce.h
 req.include-header: Rpc.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Rpcrt4.lib
 req.dll: Rpcrt4.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Rpcrt4.dll
+- Rpcrt4.dll
 api_name:
- - RpcEpResolveBinding
+- RpcEpResolveBinding
 targetos: Windows
 req.typenames: 
 req.redist: 

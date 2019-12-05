@@ -1,17 +1,15 @@
 ---
 UID: NF:d3d12.ID3D12LifetimeTracker.DestroyOwnedObject
 title: ID3D12LifetimeTracker::DestroyOwnedObject
-
 description: Destroys a lifetime-tracked object.
 tech.root: direct3d12
-
 ms.date: 10/30/2019
 ms.keywords: ID3D12LifetimeTracker::DestroyOwnedObject
 ms.topic: language-reference
-f1_keywords: 
- - "d3d12/ID3D12LifetimeTracker.DestroyOwnedObject"
+f1_keywords:
+- d3d12/ID3D12LifetimeTracker.DestroyOwnedObject
 dev_langs:
- - c++
+- c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +28,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - d3d12.dll
+- d3d12.dll
 api_name:
- - ID3D12LifetimeTracker::DestroyOwnedObject
+- ID3D12LifetimeTracker::DestroyOwnedObject
 targetos: Windows
 req.typenames: 
 req.redist: 

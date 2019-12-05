@@ -1,19 +1,17 @@
 ---
 UID: NF:msdrm.DRMParseUnboundLicense
 title: DRMParseUnboundLicense function (msdrm.h)
-
 description: Creates a handle to an unbound license, to allow an application to navigate its objects and attributes.
 old-location: rm\drmparseunboundlicense.htm
 tech.root: AdRms_Sdk
 ms.assetid: 2ae65ed2-7702-4e9b-b986-68b83ebe8bf5
-
 ms.date: 12/05/2018
 ms.keywords: DRMParseUnboundLicense, DRMParseUnboundLicense function [Active Directory Rights Management Services SDK 1.0], msdrm/DRMParseUnboundLicense, rm.drmparseunboundlicense
 ms.topic: function
-f1_keywords: 
- - "msdrm/DRMParseUnboundLicense"
+f1_keywords:
+- msdrm/DRMParseUnboundLicense
 dev_langs:
- - c++
+- c++
 req.header: msdrm.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Msdrm.lib
 req.dll: Msdrm.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Msdrm.dll
+- Msdrm.dll
 api_name:
- - DRMParseUnboundLicense
+- DRMParseUnboundLicense
 targetos: Windows
 req.typenames: 
 req.redist: 

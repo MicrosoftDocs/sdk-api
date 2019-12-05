@@ -1,19 +1,17 @@
 ---
 UID: NS:evntrace._EVENT_TRACE_HEADER
 title: EVENT_TRACE_HEADER (evntrace.h)
-
 description: The EVENT_TRACE_HEADER structure contains standard event tracing information common to all events.
 old-location: etw\event_trace_header.htm
 tech.root: ETW
 ms.assetid: 33c2de6b-afc2-4323-8d81-2970e66edf5e
-
 ms.date: 12/05/2018
-ms.keywords: "*PEVENT_TRACE_HEADER, EVENT_TRACE_HEADER, EVENT_TRACE_HEADER structure [ETW], EVENT_TRACE_TYPE_CHECKPOINT, EVENT_TRACE_TYPE_DC_END, EVENT_TRACE_TYPE_DC_START, EVENT_TRACE_TYPE_DEQUEUE, EVENT_TRACE_TYPE_END, EVENT_TRACE_TYPE_EXTENSION, EVENT_TRACE_TYPE_INFO, EVENT_TRACE_TYPE_REPLY, EVENT_TRACE_TYPE_START, PEVENT_TRACE_HEADER, PEVENT_TRACE_HEADER structure pointer [ETW], TRACE_LEVEL_ERROR, TRACE_LEVEL_FATAL, TRACE_LEVEL_INFORMATION, TRACE_LEVEL_VERBOSE, TRACE_LEVEL_WARNING, WNODE_FLAG_USE_GUID_PTR, WNODE_FLAG_USE_MOF_PTR, _EVENT_TRACE_HEADER, _evt_event_trace_header, base.event_trace_header, etw.event_trace_header, evntrace/EVENT_TRACE_HEADER, evntrace/PEVENT_TRACE_HEADER"
+ms.keywords: '*PEVENT_TRACE_HEADER, EVENT_TRACE_HEADER, EVENT_TRACE_HEADER structure [ETW], EVENT_TRACE_TYPE_CHECKPOINT, EVENT_TRACE_TYPE_DC_END, EVENT_TRACE_TYPE_DC_START, EVENT_TRACE_TYPE_DEQUEUE, EVENT_TRACE_TYPE_END, EVENT_TRACE_TYPE_EXTENSION, EVENT_TRACE_TYPE_INFO, EVENT_TRACE_TYPE_REPLY, EVENT_TRACE_TYPE_START, PEVENT_TRACE_HEADER, PEVENT_TRACE_HEADER structure pointer [ETW], TRACE_LEVEL_ERROR, TRACE_LEVEL_FATAL, TRACE_LEVEL_INFORMATION, TRACE_LEVEL_VERBOSE, TRACE_LEVEL_WARNING, WNODE_FLAG_USE_GUID_PTR, WNODE_FLAG_USE_MOF_PTR, _EVENT_TRACE_HEADER, _evt_event_trace_header, base.event_trace_header, etw.event_trace_header, evntrace/EVENT_TRACE_HEADER, evntrace/PEVENT_TRACE_HEADER'
 ms.topic: struct
-f1_keywords: 
- - "evntrace/EVENT_TRACE_HEADER"
+f1_keywords:
+- evntrace/EVENT_TRACE_HEADER
 dev_langs:
- - c++
+- c++
 req.header: evntrace.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Evntrace.h
+- Evntrace.h
 api_name:
- - EVENT_TRACE_HEADER
+- EVENT_TRACE_HEADER
 targetos: Windows
 req.typenames: EVENT_TRACE_HEADER, *PEVENT_TRACE_HEADER
 req.redist: 

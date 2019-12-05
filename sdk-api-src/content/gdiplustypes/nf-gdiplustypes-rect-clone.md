@@ -1,19 +1,17 @@
 ---
 UID: NF:gdiplustypes.Rect.Clone
 title: Rect::Clone (gdiplustypes.h)
-
 description: The Rect::Clone method creates a new Rect object and initializes it with the contents of this Rect object.
 old-location: gdiplus\_gdiplus_CLASS_Rect_Clone_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\rectclass\rectmethods\clone_11.htm
-
 ms.date: 12/05/2018
 ms.keywords: Clone, Clone method [GDI+], Clone method [GDI+],Rect class, Rect class [GDI+],Clone method, Rect.Clone, Rect::Clone, _gdiplus_CLASS_Rect_Clone_, gdiplus._gdiplus_CLASS_Rect_Clone_
 ms.topic: method
-f1_keywords: 
- - "gdiplustypes/Rect.Clone"
+f1_keywords:
+- gdiplustypes/Rect.Clone
 dev_langs:
- - c++
+- c++
 req.header: gdiplustypes.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - Rect.Clone
+- Rect.Clone
 targetos: Windows
 req.typenames: 
 req.redist: 

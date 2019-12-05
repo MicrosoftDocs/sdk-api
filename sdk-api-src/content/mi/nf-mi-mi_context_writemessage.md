@@ -1,19 +1,17 @@
 ---
 UID: NF:mi.MI_Context_WriteMessage
 title: MI_Context_WriteMessage function (mi.h)
-
 description: Sends an operational message to the client.
 old-location: wmi_v2\mi_context_writemessage.htm
 tech.root: wmi_v2
 ms.assetid: 2e4dbb4d-5482-4ed0-9903-34b3bb87b16f
-
 ms.date: 12/05/2018
 ms.keywords: MI_Context_WriteMessage, MI_Context_WriteMessage function [Windows Management Infrastructure (MI)], MI_WRITEMESSAGE_CHANNEL_DEBUG, MI_WRITEMESSAGE_CHANNEL_VERBOSE, MI_WRITEMESSAGE_CHANNEL_WARNING, mi/MI_Context_WriteMessage, wmi.mi_writemessage, wmi_v2.mi_context_writemessage
 ms.topic: function
 f1_keywords:
 - mi/MI_Context_WriteMessage
 dev_langs:
- - c++
+- c++
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows

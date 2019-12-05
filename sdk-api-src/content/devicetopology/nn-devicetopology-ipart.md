@@ -1,19 +1,17 @@
 ---
 UID: NN:devicetopology.IPart
 title: IPart (devicetopology.h)
-
 description: The IPart interface represents a part (connector or subunit) of a device topology.
 old-location: coreaudio\ipart.htm
 tech.root: CoreAudio
 ms.assetid: 3bcfab9f-fad8-4605-8780-0b7c2068fcdf
-
 ms.date: 12/05/2018
 ms.keywords: IPart, IPart interface [Core Audio], IPart interface [Core Audio],described, coreaudio.ipart, devicetopology/IPart
 ms.topic: interface
-f1_keywords: 
- - "devicetopology/IPart"
+f1_keywords:
+- devicetopology/IPart
 dev_langs:
- - c++
+- c++
 req.header: devicetopology.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Devicetopology.h
+- Devicetopology.h
 api_name:
- - IPart
+- IPart
 targetos: Windows
 req.typenames: 
 req.redist: 

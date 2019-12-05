@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IShellItemResources.CreateResource
 title: IShellItemResources::CreateResource (shobjidl_core.h)
-
 description: Creates a specified resource.
 old-location: shell\IShellItemResources_CreateResource.htm
 tech.root: shell
 ms.assetid: b854ee5f-ee4c-49e8-b0de-249154ec9b43
-
 ms.date: 12/05/2018
 ms.keywords: CreateResource, CreateResource method [Windows Shell], CreateResource method [Windows Shell],IShellItemResources interface, IShellItemResources interface [Windows Shell],CreateResource method, IShellItemResources.CreateResource, IShellItemResources::CreateResource, _shell_IShellItemResources_CreateResource, shell.IShellItemResources_CreateResource, shobjidl_core/IShellItemResources::CreateResource
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IShellItemResources.CreateResource"
+f1_keywords:
+- shobjidl_core/IShellItemResources.CreateResource
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - IShellItemResources.CreateResource
+- IShellItemResources.CreateResource
 targetos: Windows
 req.typenames: 
 req.redist: 

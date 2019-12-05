@@ -1,19 +1,17 @@
 ---
 UID: NN:d3d10.ID3D10View
 title: ID3D10View (d3d10.h)
-
 description: A view interface specifies the parts of a resource the pipeline can access during rendering (see view).
 old-location: direct3d10\id3d10view.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10view.htm
-
 ms.date: 12/05/2018
 ms.keywords: ID3D10View, ID3D10View interface [Direct3D 10], ID3D10View interface [Direct3D 10],described, d3d10/ID3D10View, direct3d10.id3d10view, f36206a8-55f1-ac58-4818-8c308ce6e81f
 ms.topic: interface
-f1_keywords: 
- - "d3d10/ID3D10View"
+f1_keywords:
+- d3d10/ID3D10View
 dev_langs:
- - c++
+- c++
 req.header: d3d10.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: D3D10.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D10.lib
- - D3D10.dll
+- D3D10.lib
+- D3D10.dll
 api_name:
- - ID3D10View
+- ID3D10View
 targetos: Windows
 req.typenames: 
 req.redist: 

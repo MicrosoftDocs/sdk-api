@@ -1,19 +1,17 @@
 ---
 UID: NF:propvarutil.PropVariantToBooleanVectorAlloc
 title: PropVariantToBooleanVectorAlloc function (propvarutil.h)
-
 description: Extracts data from a PROPVARIANT structure into a newly allocated Boolean vector.
 old-location: properties\PropVariantToBooleanVectorAlloc.htm
 tech.root: properties
 ms.assetid: 241f43b6-5ff0-4ce6-b0a4-59dc9cb6cf8f
-
 ms.date: 12/05/2018
 ms.keywords: PropVariantToBooleanVectorAlloc, PropVariantToBooleanVectorAlloc function [Windows Properties], _shell_PropVariantToBooleanVectorAlloc, properties.PropVariantToBooleanVectorAlloc, propvarutil/PropVariantToBooleanVectorAlloc, shell.PropVariantToBooleanVectorAlloc
 ms.topic: function
-f1_keywords: 
- - "propvarutil/PropVariantToBooleanVectorAlloc"
+f1_keywords:
+- propvarutil/PropVariantToBooleanVectorAlloc
 dev_langs:
- - c++
+- c++
 req.header: propvarutil.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Propsys.lib
 req.dll: Propsys.dll (version 6.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Propsys.dll
+- Propsys.dll
 api_name:
- - PropVariantToBooleanVectorAlloc
+- PropVariantToBooleanVectorAlloc
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0

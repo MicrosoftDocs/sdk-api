@@ -1,19 +1,17 @@
 ---
 UID: NN:shobjidl.IUserAccountChangeCallback
 title: IUserAccountChangeCallback (shobjidl.h)
-
 description: Exposes a method which is called when the picture that represents a user account is changed.
 old-location: shell\IUserAccountChangeCallback.htm
 tech.root: shell
 ms.assetid: de72aa25-7d0c-445c-aa1b-f0f3bdc07d10
-
 ms.date: 12/05/2018
 ms.keywords: IUserAccountChangeCallback, IUserAccountChangeCallback interface [Windows Shell], IUserAccountChangeCallback interface [Windows Shell],described, _shell_IUserAccountChangeCallback, shell.IUserAccountChangeCallback, shobjidl/IUserAccountChangeCallback
 ms.topic: interface
-f1_keywords: 
- - "shobjidl/IUserAccountChangeCallback"
+f1_keywords:
+- shobjidl/IUserAccountChangeCallback
 dev_langs:
- - c++
+- c++
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shobjidl.h
+- Shobjidl.h
 api_name:
- - IUserAccountChangeCallback
+- IUserAccountChangeCallback
 targetos: Windows
 req.typenames: 
 req.redist: 

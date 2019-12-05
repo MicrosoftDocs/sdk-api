@@ -1,19 +1,17 @@
 ---
 UID: NF:wsdbase.IWSDHttpMessageParameters.GetInboundHttpHeaders
 title: IWSDHttpMessageParameters::GetInboundHttpHeaders (wsdbase.h)
-
 description: Retrieves the current HTTP headers used for inbound SOAP-over-HTTP transmissions.
 old-location: ncd\iwsdhttpmessageparameters_getinboundhttpheaders.htm
 tech.root: WsdApi
 ms.assetid: 99b30444-1059-45c3-ac72-a0f98d722365
-
 ms.date: 12/05/2018
 ms.keywords: GetInboundHttpHeaders, GetInboundHttpHeaders method, GetInboundHttpHeaders method,IWSDHttpMessageParameters interface, IWSDHttpMessageParameters interface,GetInboundHttpHeaders method, IWSDHttpMessageParameters.GetInboundHttpHeaders, IWSDHttpMessageParameters::GetInboundHttpHeaders, ncd.iwsdhttpmessageparameters_getinboundhttpheaders, wsdbase/IWSDHttpMessageParameters::GetInboundHttpHeaders
 ms.topic: method
-f1_keywords: 
- - "wsdbase/IWSDHttpMessageParameters.GetInboundHttpHeaders"
+f1_keywords:
+- wsdbase/IWSDHttpMessageParameters.GetInboundHttpHeaders
 dev_langs:
- - c++
+- c++
 req.header: wsdbase.h
 req.include-header: Wsdapi.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wsdapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wsdapi.dll
+- Wsdapi.dll
 api_name:
- - IWSDHttpMessageParameters.GetInboundHttpHeaders
+- IWSDHttpMessageParameters.GetInboundHttpHeaders
 targetos: Windows
 req.typenames: 
 req.redist: 

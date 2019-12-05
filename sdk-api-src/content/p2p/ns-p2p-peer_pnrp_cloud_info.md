@@ -1,19 +1,17 @@
 ---
 UID: NS:p2p.peer_pnrp_cloud_info_tag
 title: PEER_PNRP_CLOUD_INFO (p2p.h)
-
 description: Contains information about a Peer Name Resolution Protocol (PNRP) cloud.
 old-location: p2p\peer_pnrp_cloud_info.htm
 tech.root: P2PSdk
 ms.assetid: b6121bae-22b7-4f23-ac8e-08822beef559
-
 ms.date: 12/05/2018
-ms.keywords: "*PPEER_PNRP_CLOUD_INFO, PEER_PNRP_CLOUD_INFO, PEER_PNRP_CLOUD_INFO structure [Peer Networking], PNRP_GLOBAL_SCOPE, PNRP_LINK_LOCAL_SCOPE, PNRP_SCOPE_ANY, PNRP_SITE_LOCAL_SCOPE, PPEER_PNRP_CLOUD_INFO, PPEER_PNRP_CLOUD_INFO structure pointer [Peer Networking], p2p.peer_pnrp_cloud_info, p2p/PEER_PNRP_CLOUD_INFO, p2p/PPEER_PNRP_CLOUD_INFO"
+ms.keywords: '*PPEER_PNRP_CLOUD_INFO, PEER_PNRP_CLOUD_INFO, PEER_PNRP_CLOUD_INFO structure [Peer Networking], PNRP_GLOBAL_SCOPE, PNRP_LINK_LOCAL_SCOPE, PNRP_SCOPE_ANY, PNRP_SITE_LOCAL_SCOPE, PPEER_PNRP_CLOUD_INFO, PPEER_PNRP_CLOUD_INFO structure pointer [Peer Networking], p2p.peer_pnrp_cloud_info, p2p/PEER_PNRP_CLOUD_INFO, p2p/PPEER_PNRP_CLOUD_INFO'
 ms.topic: struct
-f1_keywords: 
- - "p2p/PEER_PNRP_CLOUD_INFO"
+f1_keywords:
+- p2p/PEER_PNRP_CLOUD_INFO
 dev_langs:
- - c++
+- c++
 req.header: p2p.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - P2P.h
+- P2P.h
 api_name:
- - PEER_PNRP_CLOUD_INFO
+- PEER_PNRP_CLOUD_INFO
 targetos: Windows
 req.typenames: PEER_PNRP_CLOUD_INFO, *PPEER_PNRP_CLOUD_INFO
 req.redist: 

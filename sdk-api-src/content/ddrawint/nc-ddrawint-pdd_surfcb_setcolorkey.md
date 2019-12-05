@@ -1,19 +1,17 @@
 ---
 UID: NC:ddrawint.PDD_SURFCB_SETCOLORKEY
 title: PDD_SURFCB_SETCOLORKEY (ddrawint.h)
-
 description: The DdSetColorKey callback function sets the color key value for the specified surface.
 old-location: display\ddsetcolorkey.htm
 tech.root: display
 ms.assetid: 4b4ee889-15c8-4a7c-a9d8-adab27b271dd
-
 ms.date: 12/05/2018
 ms.keywords: DdSetColorKey, DdSetColorKey callback function [Display Devices], PDD_SURFCB_SETCOLORKEY, PDD_SURFCB_SETCOLORKEY callback, ddfncs_d15b9bba-6ff4-441e-8bbe-f23e85de8e32.xml, ddrawint/DdSetColorKey, display.ddsetcolorkey
 ms.topic: callback
 f1_keywords:
 - ddrawint/DdSetColorKey
 dev_langs:
- - c++
+- c++
 req.header: ddrawint.h
 req.include-header: Winddi.h
 req.target-type: Desktop

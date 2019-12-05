@@ -1,19 +1,17 @@
 ---
 UID: NF:dwrite.IDWriteGdiInterop.CreateBitmapRenderTarget
 title: IDWriteGdiInterop::CreateBitmapRenderTarget (dwrite.h)
-
 description: Creates an object that encapsulates a bitmap and memory DC (device context) which can be used for rendering glyphs.
 old-location: directwrite\IDWriteGdiInterop_CreateBitmapRenderTarget.htm
 tech.root: DirectWrite
 ms.assetid: 1a1bd200-6da6-4e4d-83d3-1f6a4a5e7152
-
 ms.date: 12/05/2018
 ms.keywords: CreateBitmapRenderTarget, CreateBitmapRenderTarget method [Direct Write], CreateBitmapRenderTarget method [Direct Write],IDWriteGdiInterop interface, IDWriteGdiInterop interface [Direct Write],CreateBitmapRenderTarget method, IDWriteGdiInterop.CreateBitmapRenderTarget, IDWriteGdiInterop::CreateBitmapRenderTarget, directwrite.IDWriteGdiInterop_CreateBitmapRenderTarget, dwrite/IDWriteGdiInterop::CreateBitmapRenderTarget
 ms.topic: method
-f1_keywords: 
- - "dwrite/IDWriteGdiInterop.CreateBitmapRenderTarget"
+f1_keywords:
+- dwrite/IDWriteGdiInterop.CreateBitmapRenderTarget
 dev_langs:
- - c++
+- c++
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dwrite.lib
 req.dll: Dwrite.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dwrite.dll
+- dwrite.dll
 api_name:
- - IDWriteGdiInterop.CreateBitmapRenderTarget
+- IDWriteGdiInterop.CreateBitmapRenderTarget
 targetos: Windows
 req.typenames: 
 req.redist: 

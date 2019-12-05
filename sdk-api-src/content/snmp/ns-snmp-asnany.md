@@ -1,19 +1,17 @@
 ---
 UID: NS:snmp.__unnamed_struct_2
 title: AsnAny (snmp.h)
-
 description: The AsnAny structure contains an SNMP variable type and value. This structure is a member of the SnmpVarBind structure that is used as a parameter in many of the SNMP functions. This structure is not used by the WinSNMP API functions.
 old-location: snmp\asnany_str.htm
 tech.root: SNMP
 ms.assetid: ce8d002e-f357-499c-b976-f8ebaf1e7142
-
 ms.date: 12/05/2018
 ms.keywords: ASN_BITS, ASN_COUNTER32, ASN_COUNTER64, ASN_GAUGE32, ASN_INTEGER, ASN_INTEGER32, ASN_IPADDRESS, ASN_OBJECTIDENTIFIER, ASN_OCTETSTRING, ASN_OPAQUE, ASN_SEQUENCE, ASN_TIMETICKS, ASN_UNSIGNED32, AsnAny, AsnAny structure [SNMP], AsnObjectSyntax, SNMP_EXCEPTION_ENDOFMIBVIEW, SNMP_EXCEPTION_NOSUCHINSTANCE, SNMP_EXCEPTION_NOSUCHOBJECT, _snmp_asnany_str, snmp.asnany_str, snmp/AsnAny
 ms.topic: struct
-f1_keywords: 
- - "snmp/AsnAny"
+f1_keywords:
+- snmp/AsnAny
 dev_langs:
- - c++
+- c++
 req.header: snmp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Snmp.h
+- Snmp.h
 api_name:
- - AsnAny
+- AsnAny
 targetos: Windows
 req.typenames: AsnAny
 req.redist: 

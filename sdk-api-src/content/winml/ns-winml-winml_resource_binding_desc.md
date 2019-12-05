@@ -1,19 +1,17 @@
 ---
 UID: NS:winml.WINML_RESOURCE_BINDING_DESC
 title: WINML_RESOURCE_BINDING_DESC (winml.h)
-
 description: Contains description properties of the resource binding.
 old-location: machinelearning\winml_resource_binding_desc.htm
 tech.root: MachineLearning
 ms.assetid: 14008D12-1F46-4629-A7A3-190EA2B4DC76
-
 ms.date: 12/05/2018
 ms.keywords: MachineLearning.winml_resource_binding_desc, PWINML_RESOURCE_BINDING_DESC, PWINML_RESOURCE_BINDING_DESC structure pointer, WINML_RESOURCE_BINDING_DESC, WINML_RESOURCE_BINDING_DESC structure, winml/PWINML_RESOURCE_BINDING_DESC, winml/WINML_RESOURCE_BINDING_DESC
 ms.topic: struct
-f1_keywords: 
- - "winml/WINML_RESOURCE_BINDING_DESC"
+f1_keywords:
+- winml/WINML_RESOURCE_BINDING_DESC
 dev_langs:
- - c++
+- c++
 req.header: winml.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - winml.h
+- winml.h
 api_name:
- - WINML_RESOURCE_BINDING_DESC
+- WINML_RESOURCE_BINDING_DESC
 targetos: Windows
 req.typenames: WINML_RESOURCE_BINDING_DESC
 req.redist: 

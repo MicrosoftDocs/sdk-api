@@ -1,19 +1,17 @@
 ---
 UID: NF:winuser.ShowScrollBar
 title: ShowScrollBar function (winuser.h)
-
 description: The ShowScrollBar function shows or hides the specified scroll bar.
 old-location: controls\ShowScrollBar.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\scrollbars\scrollbarreference\scrollbarfunctions\showscrollbar.htm
-
 ms.date: 12/05/2018
 ms.keywords: SB_BOTH, SB_CTL, SB_HORZ, SB_VERT, ShowScrollBar, ShowScrollBar function [Windows Controls], _win32_ShowScrollBar, _win32_ShowScrollBar_cpp, controls.ShowScrollBar, controls._win32_ShowScrollBar, winuser/ShowScrollBar
 ms.topic: function
-f1_keywords: 
- - "winuser/ShowScrollBar"
+f1_keywords:
+- winuser/ShowScrollBar
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,20 +30,20 @@ req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - User32.dll
- - Ext-MS-Win-NTUser-Misc-l1-2-0.dll
- - Ext-MS-Win-NTUser-Misc-l1-3-0.dll
- - ext-ms-win-ntuser-misc-l1-3-1.dll
- - Ext-MS-Win-NTUser-Misc-L1-4-0.dll
- - Ext-Ms-Win-NTUser-Misc-L1-5-0.dll
- - Ext-MS-Win-NTUser-Misc-L1-5-1.dll
+- User32.dll
+- Ext-MS-Win-NTUser-Misc-l1-2-0.dll
+- Ext-MS-Win-NTUser-Misc-l1-3-0.dll
+- ext-ms-win-ntuser-misc-l1-3-1.dll
+- Ext-MS-Win-NTUser-Misc-L1-4-0.dll
+- Ext-Ms-Win-NTUser-Misc-L1-5-0.dll
+- Ext-MS-Win-NTUser-Misc-L1-5-1.dll
 api_name:
- - ShowScrollBar
+- ShowScrollBar
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NC:evr.MFCreateVideoSampleFromSurface
 title: MFCreateVideoSampleFromSurface (evr.h)
-
 description: Creates a media sample that manages a Direct3D surface.
 old-location: mf\mfcreatevideosamplefromsurface.htm
 tech.root: medfound
 ms.assetid: d34d423b-4510-44ce-ab46-51560b01f205
-
 ms.date: 12/05/2018
 ms.keywords: MFCreateVideoSampleFromSurface, MFCreateVideoSampleFromSurface callback, MFCreateVideoSampleFromSurface callback function [Media Foundation], d34d423b-4510-44ce-ab46-51560b01f205, evr/MFCreateVideoSampleFromSurface, mf.mfcreatevideosamplefromsurface
 ms.topic: callback
-f1_keywords: 
- - "evr/MFCreateVideoSampleFromSurface"
+f1_keywords:
+- evr/MFCreateVideoSampleFromSurface
 dev_langs:
- - c++
+- c++
 req.header: evr.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - evr.h
+- evr.h
 api_name:
- - MFCreateVideoSampleFromSurface
+- MFCreateVideoSampleFromSurface
 targetos: Windows
 req.typenames: 
 req.redist: 

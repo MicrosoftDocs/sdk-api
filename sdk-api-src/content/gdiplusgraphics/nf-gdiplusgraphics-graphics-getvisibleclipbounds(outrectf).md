@@ -3,14 +3,13 @@ UID: NF:gdiplusgraphics.Graphics.GetVisibleClipBounds(OUT RectF)
 title: Graphics::GetVisibleClipBounds
 description: The Graphics::GetVisibleClipBounds method gets a rectangle that encloses the visible clipping region of this Graphics object.
 ms.assetid: dda12bab-2ffc-4fca-9280-3bc88798fac2
-
 ms.date: 05/13/2019
 ms.keywords: Graphics::GetVisibleClipBounds
 ms.topic: language-reference
-f1_keywords: 
- - "gdiplusgraphics/Graphics::GetVisibleClipBounds"
+f1_keywords:
+- gdiplusgraphics/Graphics::GetVisibleClipBounds
 dev_langs:
- - c++
+- c++
 targetos: Windows
 req.assembly: 
 req.construct-type: function
@@ -32,13 +31,13 @@ req.type-library:
 req.umdf-ver: 
 req.unicode-ansi: 
 topic_type:
- - apiref
+- apiref
 api_type:
- - COM
+- COM
 api_location:
- - gdiplusgraphics.h
+- gdiplusgraphics.h
 api_name:
- - Graphics::GetVisibleClipBounds
+- Graphics::GetVisibleClipBounds
 ---
 
 # GetVisibleClipBounds(RectF*)

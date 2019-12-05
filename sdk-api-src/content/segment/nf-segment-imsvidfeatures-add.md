@@ -1,19 +1,17 @@
 ---
 UID: NF:segment.IMSVidFeatures.Add
 title: IMSVidFeatures::Add (segment.h)
-
 description: The Add method adds a feature to the collection.
 old-location: mstv\imsvidfeatures_add.htm
 tech.root: mstv
 ms.assetid: 1bdb5e4a-4dd7-49dc-bb9c-b6a9e435219b
-
 ms.date: 12/05/2018
 ms.keywords: Add, Add method [Microsoft TV Technologies], Add method [Microsoft TV Technologies],IMSVidFeatures interface, IMSVidFeatures interface [Microsoft TV Technologies],Add method, IMSVidFeatures.Add, IMSVidFeatures::Add, IMSVidFeaturesAdd, mstv.imsvidfeatures_add, segment/IMSVidFeatures::Add
 ms.topic: method
-f1_keywords: 
- - "segment/IMSVidFeatures.Add"
+f1_keywords:
+- segment/IMSVidFeatures.Add
 dev_langs:
- - c++
+- c++
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - segment.h
+- segment.h
 api_name:
- - IMSVidFeatures.Add
+- IMSVidFeatures.Add
 targetos: Windows
 req.typenames: 
 req.redist: 

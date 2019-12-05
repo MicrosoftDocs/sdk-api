@@ -1,19 +1,17 @@
 ---
 UID: NF:wmsdkidl.IWMReaderPlaylistBurn.InitPlaylistBurn
 title: IWMReaderPlaylistBurn::InitPlaylistBurn (wmsdkidl.h)
-
 description: The InitPlaylistBurn method initiates the playlist burning process, by checking the files in the playlist to ensure that they are licensed for copying as part of a playlist.
 old-location: wmformat\iwmreaderplaylistburn_initplaylistburn.htm
 tech.root: wmformat
 ms.assetid: a20a70af-49bc-408f-8c64-779525436f8d
-
 ms.date: 12/05/2018
 ms.keywords: IWMReaderPlaylistBurn interface [windows Media Format],InitPlaylistBurn method, IWMReaderPlaylistBurn.InitPlaylistBurn, IWMReaderPlaylistBurn::InitPlaylistBurn, IWMReaderPlaylistBurnInitPlaylistBurn, InitPlaylistBurn, InitPlaylistBurn method [windows Media Format], InitPlaylistBurn method [windows Media Format],IWMReaderPlaylistBurn interface, wmformat.iwmreaderplaylistburn_initplaylistburn, wmsdkidl/IWMReaderPlaylistBurn::InitPlaylistBurn
 ms.topic: method
-f1_keywords: 
- - "wmsdkidl/IWMReaderPlaylistBurn.InitPlaylistBurn"
+f1_keywords:
+- wmsdkidl/IWMReaderPlaylistBurn.InitPlaylistBurn
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wmvcore.lib
- - Wmvcore.dll
- - WMStubDRM.lib
- - WMStubDRM.dll
+- Wmvcore.lib
+- Wmvcore.dll
+- WMStubDRM.lib
+- WMStubDRM.dll
 api_name:
- - IWMReaderPlaylistBurn.InitPlaylistBurn
+- IWMReaderPlaylistBurn.InitPlaylistBurn
 targetos: Windows
 req.typenames: 
 req.redist: 

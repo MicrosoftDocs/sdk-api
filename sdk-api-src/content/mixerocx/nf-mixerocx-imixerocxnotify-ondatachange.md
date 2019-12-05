@@ -1,19 +1,17 @@
 ---
 UID: NF:mixerocx.IMixerOCXNotify.OnDataChange
 title: IMixerOCXNotify::OnDataChange (mixerocx.h)
-
 description: The OnDataChange method notifies the client when the video rectangle's aspect ratio or size, or the display palette, has changed.
 old-location: dshow\imixerocxnotify_ondatachange.htm
 tech.root: DirectShow
 ms.assetid: d8080e5f-99e7-47eb-96ff-53c4ed8d2ff1
-
 ms.date: 12/05/2018
 ms.keywords: IMixerOCXNotify interface [DirectShow],OnDataChange method, IMixerOCXNotify.OnDataChange, IMixerOCXNotify::OnDataChange, IMixerOCXNotifyOnDataChange, OnDataChange, OnDataChange method [DirectShow], OnDataChange method [DirectShow],IMixerOCXNotify interface, dshow.imixerocxnotify_ondatachange, mixerocx/IMixerOCXNotify::OnDataChange
 ms.topic: method
-f1_keywords: 
- - "mixerocx/IMixerOCXNotify.OnDataChange"
+f1_keywords:
+- mixerocx/IMixerOCXNotify.OnDataChange
 dev_langs:
- - c++
+- c++
 req.header: mixerocx.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IMixerOCXNotify.OnDataChange
+- IMixerOCXNotify.OnDataChange
 targetos: Windows
 req.typenames: 
 req.redist: 

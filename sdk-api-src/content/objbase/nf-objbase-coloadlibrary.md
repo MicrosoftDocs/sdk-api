@@ -1,19 +1,17 @@
 ---
 UID: NF:objbase.CoLoadLibrary
 title: CoLoadLibrary function (objbase.h)
-
 description: Loads a specific DLL into the caller's process.
 old-location: com\coloadlibrary.htm
 tech.root: com
 ms.assetid: be0d9e82-2438-488e-88c3-68dc7ac3e16f
-
 ms.date: 12/05/2018
 ms.keywords: CoLoadLibrary, CoLoadLibrary function [COM], _com_CoLoadLibrary, com.coloadlibrary, objbase/CoLoadLibrary
 ms.topic: function
-f1_keywords: 
- - "objbase/CoLoadLibrary"
+f1_keywords:
+- objbase/CoLoadLibrary
 dev_langs:
- - c++
+- c++
 req.header: objbase.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Ole32.lib
 req.dll: Ole32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ole32.dll
+- Ole32.dll
 api_name:
- - CoLoadLibrary
+- CoLoadLibrary
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:winuser.RegisterTouchHitTestingWindow
 title: RegisterTouchHitTestingWindow function (winuser.h)
-
 description: Registers a window to process the WM_TOUCHHITTESTING notification.
 old-location: input_touchhittest\registertouchhittestingwindow.htm
 tech.root: Input_TouchHitTest
 ms.assetid: 52e48cea-b5c7-405f-8df6-26052304b62c
-
 ms.date: 12/05/2018
 ms.keywords: RegisterTouchHitTestingWindow, RegisterTouchHitTestingWindow function, input_touchhittest.registertouchhittestingwindow, touch_hittest.registertouchhittestingwindow, winuser/RegisterTouchHitTestingWindow
 ms.topic: function
-f1_keywords: 
- - "winuser/RegisterTouchHitTestingWindow"
+f1_keywords:
+- winuser/RegisterTouchHitTestingWindow
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - User32.dll
- - Ext-MS-Win-NTUser-Touch-HitTest-l1-1-0.dll
- - MinUser.dll
+- User32.dll
+- Ext-MS-Win-NTUser-Touch-HitTest-l1-1-0.dll
+- MinUser.dll
 api_name:
- - RegisterTouchHitTestingWindow
+- RegisterTouchHitTestingWindow
 targetos: Windows
 req.typenames: 
 req.redist: 

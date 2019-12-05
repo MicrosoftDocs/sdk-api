@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationcore.ITransformProvider2.ZoomByUnit
 title: ITransformProvider2::ZoomByUnit (uiautomationcore.h)
-
 description: Zooms the viewport of the control by the specified logical unit.
 old-location: winauto\uiauto_itransformprovider2_zoombyunit.htm
 tech.root: WinAuto
 ms.assetid: FB75D568-A1E4-4B39-A0FE-FE42E79C93B2
-
 ms.date: 12/05/2018
 ms.keywords: ITransformProvider2 interface [Windows Accessibility],ZoomByUnit method, ITransformProvider2.ZoomByUnit, ITransformProvider2::ZoomByUnit, ZoomByUnit, ZoomByUnit method [Windows Accessibility], ZoomByUnit method [Windows Accessibility],ITransformProvider2 interface, uiautomationcore/ITransformProvider2::ZoomByUnit, winauto.uiauto_itransformprovider2_zoombyunit
 ms.topic: method
-f1_keywords: 
- - "uiautomationcore/ITransformProvider2.ZoomByUnit"
+f1_keywords:
+- uiautomationcore/ITransformProvider2.ZoomByUnit
 dev_langs:
- - c++
+- c++
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationCore.h
+- UIAutomationCore.h
 api_name:
- - ITransformProvider2.ZoomByUnit
+- ITransformProvider2.ZoomByUnit
 targetos: Windows
 req.typenames: 
 req.redist: 

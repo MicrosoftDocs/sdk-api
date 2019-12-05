@@ -1,19 +1,17 @@
 ---
 UID: NF:shlobj_core.SHBindToParent
 title: SHBindToParent function (shlobj_core.h)
-
 description: Takes a pointer to a fully qualified item identifier list (PIDL), and returns a specified interface pointer on the parent object.
 old-location: shell\SHBindToParent.htm
 tech.root: shell
 ms.assetid: 1cb283a6-3ebf-4986-9f32-5f6ab8d977ad
-
 ms.date: 12/05/2018
 ms.keywords: SHBindToParent, SHBindToParent function [Windows Shell], _win32_SHBindToParent, shell.SHBindToParent, shlobj_core/SHBindToParent
 ms.topic: function
-f1_keywords: 
- - "shlobj_core/SHBindToParent"
+f1_keywords:
+- shlobj_core/SHBindToParent
 dev_langs:
- - c++
+- c++
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib: Shell32.lib
 req.dll: Shell32.dll (version 5.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Shell32.dll
- - API-MS-Win-Shell-Namespace-L1-1-0.dll
- - Ext-MS-Win-Shell-Shell32-L1-2-1.dll
- - Ext-MS-Win-Shell-Shell32-L1-2-2.dll
- - Windows.Storage.Dll
+- Shell32.dll
+- API-MS-Win-Shell-Namespace-L1-1-0.dll
+- Ext-MS-Win-Shell-Shell32-L1-2-1.dll
+- Ext-MS-Win-Shell-Shell32-L1-2-2.dll
+- Windows.Storage.Dll
 api_name:
- - SHBindToParent
+- SHBindToParent
 targetos: Windows
 req.typenames: 
 req.redist: 

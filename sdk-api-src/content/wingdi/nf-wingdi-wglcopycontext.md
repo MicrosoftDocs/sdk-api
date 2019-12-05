@@ -1,19 +1,17 @@
 ---
 UID: NF:wingdi.wglCopyContext
 title: wglCopyContext function (wingdi.h)
-
 description: The wglCopyContext function copies selected groups of rendering states from one OpenGL rendering context to another.
 old-location: opengl\wglcopycontext.htm
 tech.root: OpenGL
 ms.assetid: dc350848-7921-41b8-96f1-c0eabad3d157
-
 ms.date: 12/05/2018
-ms.keywords: "_ogl_wglCopyContext, opengl.wglcopycontext, wglCopyContext, wglCopyContext function [OpenGL], wingdi/wglCopyContext"
+ms.keywords: _ogl_wglCopyContext, opengl.wglcopycontext, wglCopyContext, wglCopyContext function [OpenGL], wingdi/wglCopyContext
 ms.topic: function
-f1_keywords: 
- - "wingdi/wglCopyContext"
+f1_keywords:
+- wingdi/wglCopyContext
 dev_langs:
- - c++
+- c++
 req.header: wingdi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Opengl32.lib
 req.dll: Opengl32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - opengl32.dll
+- opengl32.dll
 api_name:
- - wglCopyContext
+- wglCopyContext
 targetos: Windows
 req.typenames: 
 req.redist: 

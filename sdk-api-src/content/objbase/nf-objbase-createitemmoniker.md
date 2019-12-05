@@ -1,19 +1,17 @@
 ---
 UID: NF:objbase.CreateItemMoniker
 title: CreateItemMoniker function (objbase.h)
-
 description: Creates an item moniker that identifies an object within a containing object (typically a compound document).
 old-location: com\createitemmoniker.htm
 tech.root: com
 ms.assetid: 339919ed-660c-4239-825b-7fa96c48e5cd
-
 ms.date: 12/05/2018
 ms.keywords: CreateItemMoniker, CreateItemMoniker function [COM], _com_CreateItemMoniker, com.createitemmoniker, objbase/CreateItemMoniker
 ms.topic: function
-f1_keywords: 
- - "objbase/CreateItemMoniker"
+f1_keywords:
+- objbase/CreateItemMoniker
 dev_langs:
- - c++
+- c++
 req.header: objbase.h
 req.include-header: 
 req.target-type: Windows
@@ -32,19 +30,19 @@ req.lib: Ole32.lib
 req.dll: Ole32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ole32.dll
- - Ext-MS-Win-COM-OLE32-l1-1-0.dll
- - Ext-MS-Win-COM-OLE32-l1-1-1.dll
- - Ext-MS-Win-COM-OLE32-l1-1-2.dll
- - ext-ms-win-com-ole32-l1-1-3.dll
- - Ext-MS-Win-Com-Ole32-L1-1-4.dll
+- Ole32.dll
+- Ext-MS-Win-COM-OLE32-l1-1-0.dll
+- Ext-MS-Win-COM-OLE32-l1-1-1.dll
+- Ext-MS-Win-COM-OLE32-l1-1-2.dll
+- ext-ms-win-com-ole32-l1-1-3.dll
+- Ext-MS-Win-Com-Ole32-L1-1-4.dll
 api_name:
- - CreateItemMoniker
+- CreateItemMoniker
 targetos: Windows
 req.typenames: 
 req.redist: 

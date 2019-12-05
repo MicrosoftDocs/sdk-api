@@ -1,19 +1,17 @@
 ---
 UID: NF:winldap.ldap_parse_vlv_controlA
 title: ldap_parse_vlv_controlA function (winldap.h)
-
 description: Used to find and parse VLV search results.
 old-location: ldap\ldap_parse_vlv_control.htm
 tech.root: ldap
 ms.assetid: a1a1e47f-c53b-48a3-9c40-0e1518c5c729
-
 ms.date: 12/05/2018
-ms.keywords: "_ldap_ldap_parse_vlv_control, ldap.ldap__parse__vlv__control, ldap.ldap_parse_vlv_control, ldap_parse_vlv_control, ldap_parse_vlv_control function [LDAP], ldap_parse_vlv_controlA, ldap_parse_vlv_controlW, winldap/ldap_parse_vlv_control, winldap/ldap_parse_vlv_controlA, winldap/ldap_parse_vlv_controlW"
+ms.keywords: _ldap_ldap_parse_vlv_control, ldap.ldap__parse__vlv__control, ldap.ldap_parse_vlv_control, ldap_parse_vlv_control, ldap_parse_vlv_control function [LDAP], ldap_parse_vlv_controlA, ldap_parse_vlv_controlW, winldap/ldap_parse_vlv_control, winldap/ldap_parse_vlv_controlA, winldap/ldap_parse_vlv_controlW
 ms.topic: function
-f1_keywords: 
- - "winldap/ldap_parse_vlv_control"
+f1_keywords:
+- winldap/ldap_parse_vlv_control
 dev_langs:
- - c++
+- c++
 req.header: winldap.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Wldap32.lib
 req.dll: Wldap32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Wldap32.dll
+- Wldap32.dll
 api_name:
- - ldap_parse_vlv_control
- - ldap_parse_vlv_controlA
- - ldap_parse_vlv_controlW
+- ldap_parse_vlv_control
+- ldap_parse_vlv_controlA
+- ldap_parse_vlv_controlW
 targetos: Windows
 req.typenames: 
 req.redist: 

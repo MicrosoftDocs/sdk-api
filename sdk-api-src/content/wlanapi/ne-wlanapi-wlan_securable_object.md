@@ -1,19 +1,17 @@
 ---
 UID: NE:wlanapi._WLAN_SECURABLE_OBJECT
 title: WLAN_SECURABLE_OBJECT (wlanapi.h)
-
 description: Defines the securable objects used by Native Wifi Functions.
 old-location: nwifi\wlan_securable_object.htm
 tech.root: NativeWiFi
 ms.assetid: 1f6e1460-d27f-4800-8a32-6f9f509753cf
-
 ms.date: 12/05/2018
-ms.keywords: "*PWLAN_SECURABLE_OBJECT, PWLAN_SECURABLE_OBJECT, PWLAN_SECURABLE_OBJECT enumeration pointer [NativeWIFI], WLAN_SECURABLE_OBJECT, WLAN_SECURABLE_OBJECT enumeration [NativeWIFI], nwifi.wlan_securable_object, wlan_secure_ac_enabled, wlan_secure_add_new_all_user_profiles, wlan_secure_add_new_per_user_profiles, wlan_secure_all_user_profiles_order, wlan_secure_bc_scan_enabled, wlan_secure_bss_type, wlan_secure_current_operation_mode, wlan_secure_deny_list, wlan_secure_get_plaintext_key, wlan_secure_hosted_network_elevated_access, wlan_secure_ihv_control, wlan_secure_interface_properties, wlan_secure_media_streaming_mode_enabled, wlan_secure_permit_list, wlan_secure_show_denied, wlan_secure_virtual_station_extensibility, wlan_secure_wfd_elevated_access, wlanapi/PWLAN_SECURABLE_OBJECT, wlanapi/WLAN_SECURABLE_OBJECT, wlanapi/wlan_secure_ac_enabled, wlanapi/wlan_secure_add_new_all_user_profiles, wlanapi/wlan_secure_add_new_per_user_profiles, wlanapi/wlan_secure_all_user_profiles_order, wlanapi/wlan_secure_bc_scan_enabled, wlanapi/wlan_secure_bss_type, wlanapi/wlan_secure_current_operation_mode, wlanapi/wlan_secure_deny_list, wlanapi/wlan_secure_get_plaintext_key, wlanapi/wlan_secure_hosted_network_elevated_access, wlanapi/wlan_secure_ihv_control, wlanapi/wlan_secure_interface_properties, wlanapi/wlan_secure_media_streaming_mode_enabled, wlanapi/wlan_secure_permit_list, wlanapi/wlan_secure_show_denied, wlanapi/wlan_secure_virtual_station_extensibility, wlanapi/wlan_secure_wfd_elevated_access"
+ms.keywords: '*PWLAN_SECURABLE_OBJECT, PWLAN_SECURABLE_OBJECT, PWLAN_SECURABLE_OBJECT enumeration pointer [NativeWIFI], WLAN_SECURABLE_OBJECT, WLAN_SECURABLE_OBJECT enumeration [NativeWIFI], nwifi.wlan_securable_object, wlan_secure_ac_enabled, wlan_secure_add_new_all_user_profiles, wlan_secure_add_new_per_user_profiles, wlan_secure_all_user_profiles_order, wlan_secure_bc_scan_enabled, wlan_secure_bss_type, wlan_secure_current_operation_mode, wlan_secure_deny_list, wlan_secure_get_plaintext_key, wlan_secure_hosted_network_elevated_access, wlan_secure_ihv_control, wlan_secure_interface_properties, wlan_secure_media_streaming_mode_enabled, wlan_secure_permit_list, wlan_secure_show_denied, wlan_secure_virtual_station_extensibility, wlan_secure_wfd_elevated_access, wlanapi/PWLAN_SECURABLE_OBJECT, wlanapi/WLAN_SECURABLE_OBJECT, wlanapi/wlan_secure_ac_enabled, wlanapi/wlan_secure_add_new_all_user_profiles, wlanapi/wlan_secure_add_new_per_user_profiles, wlanapi/wlan_secure_all_user_profiles_order, wlanapi/wlan_secure_bc_scan_enabled, wlanapi/wlan_secure_bss_type, wlanapi/wlan_secure_current_operation_mode, wlanapi/wlan_secure_deny_list, wlanapi/wlan_secure_get_plaintext_key, wlanapi/wlan_secure_hosted_network_elevated_access, wlanapi/wlan_secure_ihv_control, wlanapi/wlan_secure_interface_properties, wlanapi/wlan_secure_media_streaming_mode_enabled, wlanapi/wlan_secure_permit_list, wlanapi/wlan_secure_show_denied, wlanapi/wlan_secure_virtual_station_extensibility, wlanapi/wlan_secure_wfd_elevated_access'
 ms.topic: enum
-f1_keywords: 
- - "wlanapi/WLAN_SECURABLE_OBJECT"
+f1_keywords:
+- wlanapi/WLAN_SECURABLE_OBJECT
 dev_langs:
- - c++
+- c++
 req.header: wlanapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - wlanapi.h
+- wlanapi.h
 api_name:
- - WLAN_SECURABLE_OBJECT
+- WLAN_SECURABLE_OBJECT
 targetos: Windows
 req.typenames: WLAN_SECURABLE_OBJECT, *PWLAN_SECURABLE_OBJECT
 req.redist: 

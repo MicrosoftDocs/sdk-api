@@ -1,19 +1,17 @@
 ---
 UID: NF:termmgr.ITPluggableTerminalClassRegistration.get_CLSID
 title: ITPluggableTerminalClassRegistration::get_CLSID (termmgr.h)
-
 description: The get_CLSID method gets the CLSID used to CoCreateInstance the terminal.
 old-location: tapi3\itpluggableterminalclassregistration_get_clsid.htm
 tech.root: Tapi
 ms.assetid: 085139b8-3f72-40d5-8323-c6083f06abe7
-
 ms.date: 12/05/2018
 ms.keywords: ITPluggableTerminalClassRegistration interface [TAPI 2.2],get_CLSID method, ITPluggableTerminalClassRegistration.get_CLSID, ITPluggableTerminalClassRegistration::get_CLSID, _tapi3_itpluggableterminalclassregistration_get_clsid, get_CLSID, get_CLSID method [TAPI 2.2], get_CLSID method [TAPI 2.2],ITPluggableTerminalClassRegistration interface, tapi3.itpluggableterminalclassregistration_get_clsid, termmgr/ITPluggableTerminalClassRegistration::get_CLSID
 ms.topic: method
-f1_keywords: 
- - "termmgr/ITPluggableTerminalClassRegistration.get_CLSID"
+f1_keywords:
+- termmgr/ITPluggableTerminalClassRegistration.get_CLSID
 dev_langs:
- - c++
+- c++
 req.header: termmgr.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Tapi3.dll
+- Tapi3.dll
 api_name:
- - ITPluggableTerminalClassRegistration.get_CLSID
+- ITPluggableTerminalClassRegistration.get_CLSID
 targetos: Windows
 req.typenames: 
 req.redist: 

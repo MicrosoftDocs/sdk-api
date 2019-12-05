@@ -1,19 +1,17 @@
 ---
 UID: NF:fsrmscreen.IFsrmFileScreenException.get_Path
 title: IFsrmFileScreenException::get_Path (fsrmscreen.h)
-
 description: Retrieves the path that is associated with this file screen exception.
 old-location: fsrm\ifsrmfilescreenexception_path.htm
 tech.root: fsrm
 ms.assetid: ac447042-b87b-4387-bb8f-2e69df9e7f8f
-
 ms.date: 12/05/2018
 ms.keywords: IFsrmFileScreenException interface [File Server Resource Manager],Path property, IFsrmFileScreenException.Path, IFsrmFileScreenException.get_Path, IFsrmFileScreenException::Path, IFsrmFileScreenException::get_Path, Path property [File Server Resource Manager], Path property [File Server Resource Manager],IFsrmFileScreenException interface, fs.ifsrmfilescreenexception_path, fsrm.ifsrmfilescreenexception_path, fsrmscreen/IFsrmFileScreenException::Path, fsrmscreen/IFsrmFileScreenException::get_Path, get_Path
 ms.topic: method
-f1_keywords: 
- - "fsrmscreen/IFsrmFileScreenException.Path"
+f1_keywords:
+- fsrmscreen/IFsrmFileScreenException.Path
 dev_langs:
- - c++
+- c++
 req.header: fsrmscreen.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: SrmSvc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - SrmSvc.dll
+- SrmSvc.dll
 api_name:
- - IFsrmFileScreenException.Path
- - IFsrmFileScreenException.get_Path
+- IFsrmFileScreenException.Path
+- IFsrmFileScreenException.get_Path
 targetos: Windows
 req.typenames: 
 req.redist: 

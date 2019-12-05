@@ -1,19 +1,17 @@
 ---
 UID: NF:imapi2.IStreamInterleave.Initialize
 title: IStreamInterleave::Initialize (imapi2.h)
-
 description: Initialize this interleaved stream from an array of input streams and interleave sizes.
 old-location: imapi\istreaminterleave_initialize.htm
 tech.root: imapi
 ms.assetid: 889db097-3a16-4c35-9a79-e4a9d8060832
-
 ms.date: 12/05/2018
 ms.keywords: IStreamInterleave interface [IMAPI],Initialize method, IStreamInterleave.Initialize, IStreamInterleave::Initialize, Initialize, Initialize method [IMAPI], Initialize method [IMAPI],IStreamInterleave interface, imapi.istreaminterleave_initialize, imapi2/IStreamInterleave::Initialize
 ms.topic: method
-f1_keywords: 
- - "imapi2/IStreamInterleave.Initialize"
+f1_keywords:
+- imapi2/IStreamInterleave.Initialize
 dev_langs:
- - c++
+- c++
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - imapi2.h
+- imapi2.h
 api_name:
- - IStreamInterleave.Initialize
+- IStreamInterleave.Initialize
 targetos: Windows
 req.typenames: 
 req.redist: 

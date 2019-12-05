@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.ITransferSource.ApplyPropertiesToItem
 title: ITransferSource::ApplyPropertiesToItem (shobjidl_core.h)
-
 description: Apply a set of property changes to an item.
 old-location: shell\ITransferSource_ApplyPropertiesToItem.htm
 tech.root: shell
 ms.assetid: f3a99637-8ce7-4177-bcf7-716ed7698934
-
 ms.date: 12/05/2018
 ms.keywords: ApplyPropertiesToItem, ApplyPropertiesToItem method [Windows Shell], ApplyPropertiesToItem method [Windows Shell],ITransferSource interface, ITransferSource interface [Windows Shell],ApplyPropertiesToItem method, ITransferSource.ApplyPropertiesToItem, ITransferSource::ApplyPropertiesToItem, _shell_ITransferSource_ApplyPropertiesToItem, shell.ITransferSource_ApplyPropertiesToItem, shobjidl_core/ITransferSource::ApplyPropertiesToItem
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/ITransferSource.ApplyPropertiesToItem"
+f1_keywords:
+- shobjidl_core/ITransferSource.ApplyPropertiesToItem
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - ITransferSource.ApplyPropertiesToItem
+- ITransferSource.ApplyPropertiesToItem
 targetos: Windows
 req.typenames: 
 req.redist: 

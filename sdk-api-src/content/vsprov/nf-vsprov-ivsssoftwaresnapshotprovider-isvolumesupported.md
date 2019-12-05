@@ -1,19 +1,17 @@
 ---
 UID: NF:vsprov.IVssSoftwareSnapshotProvider.IsVolumeSupported
 title: IVssSoftwareSnapshotProvider::IsVolumeSupported (vsprov.h)
-
 description: Determines whether the provider supports shadow copies on the specified volume.
 old-location: base\ivsssoftwaresnapshotprovider_isvolumesupported.htm
 tech.root: VSS
 ms.assetid: 5dbaa5ad-4a35-49e2-a528-de1ea38e6e0b
-
 ms.date: 12/05/2018
 ms.keywords: IVssSoftwareSnapshotProvider interface,IsVolumeSupported method, IVssSoftwareSnapshotProvider.IsVolumeSupported, IVssSoftwareSnapshotProvider::IsVolumeSupported, IsVolumeSupported, IsVolumeSupported method, IsVolumeSupported method,IVssSoftwareSnapshotProvider interface, base.ivsssoftwaresnapshotprovider_isvolumesupported, vsprov/IVssSoftwareSnapshotProvider::IsVolumeSupported
 ms.topic: method
-f1_keywords: 
- - "vsprov/IVssSoftwareSnapshotProvider.IsVolumeSupported"
+f1_keywords:
+- vsprov/IVssSoftwareSnapshotProvider.IsVolumeSupported
 dev_langs:
- - c++
+- c++
 req.header: vsprov.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: VssApi.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - VssApi.lib
- - VssApi.dll
+- VssApi.lib
+- VssApi.dll
 api_name:
- - IVssSoftwareSnapshotProvider.IsVolumeSupported
+- IVssSoftwareSnapshotProvider.IsVolumeSupported
 targetos: Windows
 req.typenames: 
 req.redist: 

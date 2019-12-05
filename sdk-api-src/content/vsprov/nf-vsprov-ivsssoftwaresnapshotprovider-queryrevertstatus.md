@@ -1,19 +1,17 @@
 ---
 UID: NF:vsprov.IVssSoftwareSnapshotProvider.QueryRevertStatus
 title: IVssSoftwareSnapshotProvider::QueryRevertStatus (vsprov.h)
-
 description: Returns an IVssAsync interface pointer that can be used to determine the status of the revert operation.
 old-location: base\ivsssoftwaresnapshotprovider_queryrevertstatus.htm
 tech.root: VSS
 ms.assetid: 05c70761-d839-4333-a5d6-6bd8b95851bb
-
 ms.date: 12/05/2018
 ms.keywords: IVssSoftwareSnapshotProvider interface,QueryRevertStatus method, IVssSoftwareSnapshotProvider.QueryRevertStatus, IVssSoftwareSnapshotProvider::QueryRevertStatus, QueryRevertStatus, QueryRevertStatus method, QueryRevertStatus method,IVssSoftwareSnapshotProvider interface, base.ivsssoftwaresnapshotprovider_queryrevertstatus, vsprov/IVssSoftwareSnapshotProvider::QueryRevertStatus
 ms.topic: method
-f1_keywords: 
- - "vsprov/IVssSoftwareSnapshotProvider.QueryRevertStatus"
+f1_keywords:
+- vsprov/IVssSoftwareSnapshotProvider.QueryRevertStatus
 dev_langs:
- - c++
+- c++
 req.header: vsprov.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: VssApi.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - VssApi.lib
- - VssApi.dll
+- VssApi.lib
+- VssApi.dll
 api_name:
- - IVssSoftwareSnapshotProvider.QueryRevertStatus
+- IVssSoftwareSnapshotProvider.QueryRevertStatus
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IAMExtTransport.GetBump
 title: IAMExtTransport::GetBump (strmif.h)
-
 description: The GetBump method retrieves the status of bump mode.
 old-location: dshow\iamexttransport_getbump.htm
 tech.root: DirectShow
 ms.assetid: 340b7c9a-cfd9-4915-b0fc-0d12d7663578
-
 ms.date: 12/05/2018
 ms.keywords: GetBump, GetBump method [DirectShow], GetBump method [DirectShow],IAMExtTransport interface, IAMExtTransport interface [DirectShow],GetBump method, IAMExtTransport.GetBump, IAMExtTransport::GetBump, IAMExtTransportGetBump, dshow.iamexttransport_getbump, strmif/IAMExtTransport::GetBump
 ms.topic: method
-f1_keywords: 
- - "strmif/IAMExtTransport.GetBump"
+f1_keywords:
+- strmif/IAMExtTransport.GetBump
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IAMExtTransport.GetBump
+- IAMExtTransport.GetBump
 targetos: Windows
 req.typenames: 
 req.redist: 

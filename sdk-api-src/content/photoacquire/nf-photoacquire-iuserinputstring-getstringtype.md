@@ -1,19 +1,17 @@
 ---
 UID: NF:photoacquire.IUserInputString.GetStringType
 title: IUserInputString::GetStringType (photoacquire.h)
-
 description: The GetStringType method retrieves a value indicating the type of string to obtain from the user.
 old-location: picacq\iuserinputstring_getstringtype.htm
 tech.root: acquisition
 ms.assetid: 57f0c750-9c66-4c30-adc1-0cfd23d878d1
-
 ms.date: 12/05/2018
 ms.keywords: GetStringType, GetStringType method [Picture Acquisition], GetStringType method [Picture Acquisition],IUserInputString interface, IUserInputString interface [Picture Acquisition],GetStringType method, IUserInputString.GetStringType, IUserInputString::GetStringType, IUserInputStringGetStringType, photoacquire/IUserInputString::GetStringType, picacq.iuserinputstring_getstringtype
 ms.topic: method
-f1_keywords: 
- - "photoacquire/IUserInputString.GetStringType"
+f1_keywords:
+- photoacquire/IUserInputString.GetStringType
 dev_langs:
- - c++
+- c++
 req.header: photoacquire.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: PhotoAcquireUID.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - PhotoAcquireUID.lib
- - PhotoAcquireUID.dll
+- PhotoAcquireUID.lib
+- PhotoAcquireUID.dll
 api_name:
- - IUserInputString.GetStringType
+- IUserInputString.GetStringType
 targetos: Windows
 req.typenames: 
 req.redist: 

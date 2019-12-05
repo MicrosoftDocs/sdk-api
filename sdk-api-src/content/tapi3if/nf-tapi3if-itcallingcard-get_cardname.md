@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi3if.ITCallingCard.get_CardName
 title: ITCallingCard::get_CardName (tapi3if.h)
-
 description: The get_CardName method gets the friendly name for the calling card.
 old-location: tapi3\itcallingcard_get_cardname.htm
 tech.root: Tapi
 ms.assetid: d971d5ef-30d0-42a4-9a23-5b1388a0cb26
-
 ms.date: 12/05/2018
 ms.keywords: ITCallingCard interface [TAPI 2.2],get_CardName method, ITCallingCard.get_CardName, ITCallingCard::get_CardName, _tapi3_itcallingcard_get_cardname, get_CardName, get_CardName method [TAPI 2.2], get_CardName method [TAPI 2.2],ITCallingCard interface, tapi3.itcallingcard_get_cardname, tapi3if/ITCallingCard::get_CardName
 ms.topic: method
-f1_keywords: 
- - "tapi3if/ITCallingCard.get_CardName"
+f1_keywords:
+- tapi3if/ITCallingCard.get_CardName
 dev_langs:
- - c++
+- c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Tapi3.dll
+- Tapi3.dll
 api_name:
- - ITCallingCard.get_CardName
+- ITCallingCard.get_CardName
 targetos: Windows
 req.typenames: 
 req.redist: 

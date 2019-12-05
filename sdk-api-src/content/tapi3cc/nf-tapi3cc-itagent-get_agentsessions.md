@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi3cc.ITAgent.get_AgentSessions
 title: ITAgent::get_AgentSessions (tapi3cc.h)
-
 description: The get_AgentSessions method creates a collection of current agent sessions. This method is provided for Automation client applications, such as those written in Visual Basic. C and C++ applications must use the EnumerateAgentSessions method.
 old-location: tapi3\itagent_get_agentsessions.htm
 tech.root: Tapi
 ms.assetid: 25503eae-ebee-4b57-ab5c-b3f152de9a96
-
 ms.date: 12/05/2018
 ms.keywords: ITAgent interface [TAPI 2.2],get_AgentSessions method, ITAgent.get_AgentSessions, ITAgent::get_AgentSessions, _tapi3_itagent_get_agentsessions, get_AgentSessions, get_AgentSessions method [TAPI 2.2], get_AgentSessions method [TAPI 2.2],ITAgent interface, tapi3.itagent_get_agentsessions, tapi3cc/ITAgent::get_AgentSessions
 ms.topic: method
-f1_keywords: 
- - "tapi3cc/ITAgent.get_AgentSessions"
+f1_keywords:
+- tapi3cc/ITAgent.get_AgentSessions
 dev_langs:
- - c++
+- c++
 req.header: tapi3cc.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Tapi3.dll
+- Tapi3.dll
 api_name:
- - ITAgent.get_AgentSessions
+- ITAgent.get_AgentSessions
 targetos: Windows
 req.typenames: 
 req.redist: 

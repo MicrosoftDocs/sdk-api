@@ -1,19 +1,17 @@
 ---
 UID: NF:synchapi.InitializeCriticalSectionAndSpinCount
 title: InitializeCriticalSectionAndSpinCount function (synchapi.h)
-
 description: Initializes a critical section object and sets the spin count for the critical section.
 old-location: base\initializecriticalsectionandspincount.htm
 tech.root: Sync
 ms.assetid: 4b84b305-8bc0-4592-9378-b757bbc0de19
-
 ms.date: 12/05/2018
 ms.keywords: InitializeCriticalSectionAndSpinCount, InitializeCriticalSectionAndSpinCount function, _win32_initializecriticalsectionandspincount, base.initializecriticalsectionandspincount, synchapi/InitializeCriticalSectionAndSpinCount, winbase/InitializeCriticalSectionAndSpinCount
 ms.topic: function
-f1_keywords: 
- - "synchapi/InitializeCriticalSectionAndSpinCount"
+f1_keywords:
+- synchapi/InitializeCriticalSectionAndSpinCount
 dev_langs:
- - c++
+- c++
 req.header: synchapi.h
 req.include-header: Windows Server 2003, Windows Vista, Windows 7, Windows Server 2008  Windows Server 2008 R2, Windows.h
 req.target-type: Windows
@@ -32,20 +30,20 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-Synch-l1-1-0.dll
- - KernelBase.dll
- - API-MS-Win-Core-Synch-l1-2-0.dll
- - API-MS-Win-Core-Synch-l1-2-1.dll
- - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
- - MinKernelBase.dll
+- Kernel32.dll
+- API-MS-Win-Core-Synch-l1-1-0.dll
+- KernelBase.dll
+- API-MS-Win-Core-Synch-l1-2-0.dll
+- API-MS-Win-Core-Synch-l1-2-1.dll
+- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+- MinKernelBase.dll
 api_name:
- - InitializeCriticalSectionAndSpinCount
+- InitializeCriticalSectionAndSpinCount
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NN:windows.media.streaming.IActiveBasicDeviceStatics
 title: IActiveBasicDeviceStatics (windows.media.streaming.h)
-
 description: Provides static methods for creating IActiveBasicDevice objects.
 old-location: mediastreaming\iactivebasicdevicestatics.htm
 tech.root: mediastreaming
 ms.assetid: B4D8BAEF-AD30-4FEC-9527-583E88C8B4C7
-
 ms.date: 12/05/2018
 ms.keywords: IActiveBasicDeviceStatics, IActiveBasicDeviceStatics interface [Media Streaming API], IActiveBasicDeviceStatics interface [Media Streaming API],described, mediastreaming.iactivebasicdevicestatics, windows/IActiveBasicDeviceStatics
 ms.topic: interface
-f1_keywords: 
- - "windows.media.streaming/IActiveBasicDeviceStatics"
+f1_keywords:
+- windows.media.streaming/IActiveBasicDeviceStatics
 dev_langs:
- - c++
+- c++
 req.header: windows.media.streaming.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: PlayToDevice.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - PlayToDevice.dll
+- PlayToDevice.dll
 api_name:
- - IActiveBasicDeviceStatics
+- IActiveBasicDeviceStatics
 targetos: Windows
 req.typenames: 
 req.redist: 

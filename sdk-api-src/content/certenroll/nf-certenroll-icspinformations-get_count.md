@@ -1,19 +1,17 @@
 ---
 UID: NF:certenroll.ICspInformations.get_Count
 title: ICspInformations::get_Count (certenroll.h)
-
 description: Retrieves the number of ICspInformation objects in the collection.
 old-location: security\icspinformations_count_property.htm
 tech.root: seccertenroll
 ms.assetid: 7221e564-07c4-47ab-bb32-c1e94406eab9
-
 ms.date: 12/05/2018
 ms.keywords: Count property [Security], Count property [Security],ICspInformations interface, ICspInformations interface [Security],Count property, ICspInformations.Count, ICspInformations.get_Count, ICspInformations::Count, ICspInformations::get_Count, certenroll/ICspInformations::Count, certenroll/ICspInformations::get_Count, get_Count, security.icspinformations_count_property
 ms.topic: method
-f1_keywords: 
- - "certenroll/ICspInformations.Count"
+f1_keywords:
+- certenroll/ICspInformations.Count
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: CertEnroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CertEnroll.dll
+- CertEnroll.dll
 api_name:
- - ICspInformations.Count
- - ICspInformations.get_Count
+- ICspInformations.Count
+- ICspInformations.get_Count
 targetos: Windows
 req.typenames: 
 req.redist: 

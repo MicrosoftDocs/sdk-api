@@ -1,19 +1,17 @@
 ---
 UID: NF:propsys.PSPropertyBag_WriteInt
 title: PSPropertyBag_WriteInt function (propsys.h)
-
 description: Sets the int value of a property in a property bag.
 old-location: properties\PSPropertyBag_WriteInt.htm
 tech.root: properties
 ms.assetid: 1FCC59B1-5084-4981-8F1D-A5860744F221
-
 ms.date: 12/05/2018
 ms.keywords: PSPropertyBag_WriteInt, PSPropertyBag_WriteInt function [Windows Properties], properties.PSPropertyBag_WriteInt, propsys/PSPropertyBag_WriteInt, shell.PSPropertyBag_WriteInt, shell_PSPropertyBag_WriteInt
 ms.topic: function
-f1_keywords: 
- - "propsys/PSPropertyBag_WriteInt"
+f1_keywords:
+- propsys/PSPropertyBag_WriteInt
 dev_langs:
- - c++
+- c++
 req.header: propsys.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Propsys.lib
 req.dll: Propsys.dll (version 6.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Propsys.dll
+- Propsys.dll
 api_name:
- - PSPropertyBag_WriteInt
+- PSPropertyBag_WriteInt
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:commctrl.ListView_Arrange
 title: ListView_Arrange macro (commctrl.h)
-
 description: Arranges items in icon view. You can use this macro or send the LVM_ARRANGE message explicitly.
 old-location: controls\ListView_Arrange.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_arrange.htm
-
 ms.date: 12/05/2018
 ms.keywords: LVA_ALIGNLEFT, LVA_ALIGNTOP, LVA_DEFAULT, LVA_SNAPTOGRID, ListView_Arrange, ListView_Arrange macro [Windows Controls], _win32_ListView_Arrange, _win32_ListView_Arrange_cpp, commctrl/ListView_Arrange, controls.ListView_Arrange, controls._win32_ListView_Arrange
 ms.topic: macro
-f1_keywords: 
- - "commctrl/ListView_Arrange"
+f1_keywords:
+- commctrl/ListView_Arrange
 dev_langs:
- - c++
+- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Commctrl.h
+- Commctrl.h
 api_name:
- - ListView_Arrange
+- ListView_Arrange
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NS:devicetopology._LUID
 title: LUID (devicetopology.h)
-
 description: The LUID structure stores the video port identifier. This structure is stored in the PortId member of the KSJACK_SINK_INFORMATION structure.
 old-location: coreaudio\luid.htm
 tech.root: CoreAudio
 ms.assetid: fce02fa7-ce96-417a-b389-cf19e1e3b91c
-
 ms.date: 12/05/2018
-ms.keywords: "*PLUID, LUID, LUID structure [Core Audio], PLUID, PLUID structure pointer [Core Audio], _LUID, coreaudio.luid, devicetopology/LUID, devicetopology/PLUID"
+ms.keywords: '*PLUID, LUID, LUID structure [Core Audio], PLUID, PLUID structure pointer [Core Audio], _LUID, coreaudio.luid, devicetopology/LUID, devicetopology/PLUID'
 ms.topic: struct
-f1_keywords: 
- - "devicetopology/LUID"
+f1_keywords:
+- devicetopology/LUID
 dev_langs:
- - c++
+- c++
 req.header: devicetopology.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Devicetopology.h
+- Devicetopology.h
 api_name:
- - LUID
+- LUID
 targetos: Windows
 req.typenames: LUID, *PLUID
 req.redist: 

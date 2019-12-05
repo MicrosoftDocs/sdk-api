@@ -1,19 +1,17 @@
 ---
 UID: NN:gpedit.IRSOPInformation
 title: IRSOPInformation (gpedit.h)
-
 description: The IRSOPInformation interface provides methods for Microsoft Management Console (MMC) extension snap-ins to communicate with the main Resultant Set of Policy (RSoP) snap-in. For more information about MMC, see the Microsoft Management Console.
 old-location: policy\irsopinformation.htm
 tech.root: Policy
 ms.assetid: e3662977-d7a7-47bc-989b-a820d4c05382
-
 ms.date: 12/05/2018
 ms.keywords: IRSOPInformation, IRSOPInformation interface [Group Policy], IRSOPInformation interface [Group Policy],described, _win32_irsopinformation, gpedit/IRSOPInformation, policy.irsopinformation
 ms.topic: interface
-f1_keywords: 
- - "gpedit/IRSOPInformation"
+f1_keywords:
+- gpedit/IRSOPInformation
 dev_langs:
- - c++
+- c++
 req.header: gpedit.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Gpedit.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gpedit.dll
+- Gpedit.dll
 api_name:
- - IRSOPInformation
+- IRSOPInformation
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NS:webservices._WS_CERT_ENDPOINT_IDENTITY
 title: WS_CERT_ENDPOINT_IDENTITY (webservices.h)
-
 description: Type for certificate endpoint identity
 old-location: wsw\ws_cert_endpoint_identity.htm
 tech.root: wsw
 ms.assetid: c4d0f409-49c8-4b8c-82fd-302e96cb6a84
-
 ms.date: 12/05/2018
 ms.keywords: WS_CERT_ENDPOINT_IDENTITY, WS_CERT_ENDPOINT_IDENTITY structure [Web Services for Windows], webservices/WS_CERT_ENDPOINT_IDENTITY, wsw.ws_cert_endpoint_identity
 ms.topic: struct
-f1_keywords: 
- - "webservices/WS_CERT_ENDPOINT_IDENTITY"
+f1_keywords:
+- webservices/WS_CERT_ENDPOINT_IDENTITY
 dev_langs:
- - c++
+- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WebServices.h
+- WebServices.h
 api_name:
- - WS_CERT_ENDPOINT_IDENTITY
+- WS_CERT_ENDPOINT_IDENTITY
 targetos: Windows
 req.typenames: WS_CERT_ENDPOINT_IDENTITY
 req.redist: 

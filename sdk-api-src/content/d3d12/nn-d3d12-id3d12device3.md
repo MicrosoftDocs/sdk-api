@@ -1,19 +1,17 @@
 ---
 UID: NN:d3d12.ID3D12Device3
 title: ID3D12Device3 (d3d12.h)
-
 description: Represents a virtual adapter. This interface extends ID3D12Device2 to support the creation of special-purpose diagnostic heaps in system memory that persist even in the event of a GPU-fault or device-removed scenario.
 old-location: direct3d12\id3d12device3.htm
 tech.root: direct3d12
 ms.assetid: 038E546C-4000-401A-8A11-7A83F391676E
-
 ms.date: 12/05/2018
 ms.keywords: ID3D12Device3, ID3D12Device3 interface, ID3D12Device3 interface,described, d3d12/ID3D12Device3, direct3d12.id3d12device3
 ms.topic: interface
-f1_keywords: 
- - "d3d12/ID3D12Device3"
+f1_keywords:
+- d3d12/ID3D12Device3
 dev_langs:
- - c++
+- c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: D3d12.lib
 req.dll: D3d12.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3d12.dll
+- D3d12.dll
 api_name:
- - ID3D12Device3
+- ID3D12Device3
 targetos: Windows
 req.typenames: 
 req.redist: 

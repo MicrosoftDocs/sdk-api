@@ -1,19 +1,17 @@
 ---
 UID: NF:il21dec.IAMLine21Decoder.SetOutputFormat
 title: IAMLine21Decoder::SetOutputFormat (il21dec.h)
-
 description: The SetOutputFormat method sets the Line 21 Decoder filter's output format.
 old-location: dshow\iamline21decoder_setoutputformat.htm
 tech.root: DirectShow
 ms.assetid: 72d63092-8ac6-42c5-a0da-6c64f3a127c5
-
 ms.date: 12/05/2018
 ms.keywords: IAMLine21Decoder interface [DirectShow],SetOutputFormat method, IAMLine21Decoder.SetOutputFormat, IAMLine21Decoder::SetOutputFormat, IAMLine21DecoderSetOutputFormat, SetOutputFormat, SetOutputFormat method [DirectShow], SetOutputFormat method [DirectShow],IAMLine21Decoder interface, dshow.iamline21decoder_setoutputformat, il21dec/IAMLine21Decoder::SetOutputFormat
 ms.topic: method
-f1_keywords: 
- - "il21dec/IAMLine21Decoder.SetOutputFormat"
+f1_keywords:
+- il21dec/IAMLine21Decoder.SetOutputFormat
 dev_langs:
- - c++
+- c++
 req.header: il21dec.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IAMLine21Decoder.SetOutputFormat
+- IAMLine21Decoder.SetOutputFormat
 targetos: Windows
 req.typenames: 
 req.redist: 

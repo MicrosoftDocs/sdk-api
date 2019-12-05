@@ -1,19 +1,17 @@
 ---
 UID: NF:d3dcompiler.D3DGetInputAndOutputSignatureBlob
 title: D3DGetInputAndOutputSignatureBlob function (d3dcompiler.h)
-
 description: Note  D3DGetInputAndOutputSignatureBlob may be altered or unavailable for releases after Windows 8.1. Instead use D3DGetBlobPart with the D3D_BLOB_INPUT_AND_OUTPUT_SIGNATURE_BLOB value.  Gets the input and output signatures from a compilation result.
 old-location: direct3dhlsl\d3dgetinputandoutputsignatureblob.htm
 tech.root: direct3dhlsl
 ms.assetid: VS|directx_sdk|~\d3dgetinputandoutputsignatureblob.htm
-
 ms.date: 12/05/2018
 ms.keywords: 12cc3e6c-b766-e3b2-191f-39df167573bd, D3DGetInputAndOutputSignatureBlob, D3DGetInputAndOutputSignatureBlob function [HLSL], d3dcompiler/D3DGetInputAndOutputSignatureBlob, direct3dhlsl.d3dgetinputandoutputsignatureblob
 ms.topic: function
-f1_keywords: 
- - "d3dcompiler/D3DGetInputAndOutputSignatureBlob"
+f1_keywords:
+- d3dcompiler/D3DGetInputAndOutputSignatureBlob
 dev_langs:
- - c++
+- c++
 req.header: d3dcompiler.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: D3dcompiler_47.lib
 req.dll: D3dcompiler_47.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - d3dcompiler_47.dll
+- d3dcompiler_47.dll
 api_name:
- - D3DGetInputAndOutputSignatureBlob
+- D3DGetInputAndOutputSignatureBlob
 targetos: Windows
 req.typenames: 
 req.redist: 

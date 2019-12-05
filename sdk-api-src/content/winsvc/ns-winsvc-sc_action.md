@@ -1,19 +1,17 @@
 ---
 UID: NS:winsvc._SC_ACTION
 title: SC_ACTION (winsvc.h)
-
 description: Represents an action that the service control manager can perform.
 old-location: base\sc_action_str.htm
 tech.root: Services
 ms.assetid: e2c355a6-affe-46bf-a3e6-f8c420422d46
-
 ms.date: 12/05/2018
 ms.keywords: '*LPSC_ACTION, LPSC_ACTION, LPSC_ACTION structure pointer, SC_ACTION, SC_ACTION structure, SC_ACTION_NONE, SC_ACTION_REBOOT, SC_ACTION_RESTART, SC_ACTION_RUN_COMMAND, _win32_sc_action_str, base.sc_action_str, winsvc/LPSC_ACTION, winsvc/SC_ACTION'
 ms.topic: struct
 f1_keywords:
 - winsvc/SC_ACTION
 dev_langs:
- - c++
+- c++
 req.header: winsvc.h
 req.include-header: Windows.h
 req.target-type: Windows

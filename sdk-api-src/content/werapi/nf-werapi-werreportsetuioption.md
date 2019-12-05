@@ -1,19 +1,17 @@
 ---
 UID: NF:werapi.WerReportSetUIOption
 title: WerReportSetUIOption function (werapi.h)
-
 description: Sets the user interface options for the specified report.
 old-location: wer\werreportsetuioption.htm
 tech.root: wer
 ms.assetid: c8816782-faec-490e-898f-a40df8fb205b
-
 ms.date: 12/05/2018
 ms.keywords: WerReportSetUIOption, WerReportSetUIOption function [Windows Error Reporting], WerUIAdditionalDataDlgHeader, WerUICloseDlgBody, WerUICloseDlgButtonText, WerUICloseDlgHeader, WerUICloseText, WerUIConsentDlgBody, WerUIConsentDlgHeader, WerUIIconFilePath, WerUIOfflineSolutionCheckText, WerUIOnlineSolutionCheckText, base.werreportsetuioption, wer.werreportsetuioption, werapi/WerReportSetUIOption
 ms.topic: function
-f1_keywords: 
- - "werapi/WerReportSetUIOption"
+f1_keywords:
+- werapi/WerReportSetUIOption
 dev_langs:
- - c++
+- c++
 req.header: werapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Wer.lib
 req.dll: Wer.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Wer.dll
+- Wer.dll
 api_name:
- - WerReportSetUIOption
+- WerReportSetUIOption
 targetos: Windows
 req.typenames: 
 req.redist: 

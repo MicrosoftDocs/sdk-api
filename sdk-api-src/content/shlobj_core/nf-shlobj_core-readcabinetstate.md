@@ -1,19 +1,17 @@
 ---
 UID: NF:shlobj_core.ReadCabinetState
 title: ReadCabinetState function (shlobj_core.h)
-
 description: ReadCabinetState may be altered or unavailable.
 old-location: shell\ReadCabinetState.htm
 tech.root: shell
 ms.assetid: 0f0c6a10-588f-4c79-b73b-cf0bf9336ffc
-
 ms.date: 12/05/2018
 ms.keywords: ReadCabinetState, ReadCabinetState function [Windows Shell], _win32_ReadCabinetState, shell.ReadCabinetState, shlobj_core/ReadCabinetState
 ms.topic: function
-f1_keywords: 
- - "shlobj_core/ReadCabinetState"
+f1_keywords:
+- shlobj_core/ReadCabinetState
 dev_langs:
- - c++
+- c++
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Shell32.lib
 req.dll: Shell32.dll (version 5.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - ReadCabinetState
+- ReadCabinetState
 targetos: Windows
 req.typenames: 
 req.redist: 

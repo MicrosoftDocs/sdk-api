@@ -1,19 +1,17 @@
 ---
 UID: NE:winnt.__unnamed_enum_7
 title: SYSTEM_POWER_CONDITION (winnt.h)
-
 description: Used by the GUID_ACDC_POWER_SOURCE power event to indicate the current power source.
 old-location: base\system_power_condition.htm
 tech.root: power
 ms.assetid: 66636507-466c-43fd-b46c-0b4dddecc15d
-
 ms.date: 12/05/2018
 ms.keywords: PoAc, PoConditionMaximum, PoDc, PoHot, SYSTEM_POWER_CONDITION, SYSTEM_POWER_CONDITION enumeration, base.system_power_condition, winnt/PoAc, winnt/PoConditionMaximum, winnt/PoDc, winnt/PoHot, winnt/SYSTEM_POWER_CONDITION
 ms.topic: enum
-f1_keywords: 
- - "winnt/SYSTEM_POWER_CONDITION"
+f1_keywords:
+- winnt/SYSTEM_POWER_CONDITION
 dev_langs:
- - c++
+- c++
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WinNT.h
+- WinNT.h
 api_name:
- - SYSTEM_POWER_CONDITION
+- SYSTEM_POWER_CONDITION
 targetos: Windows
 req.typenames: SYSTEM_POWER_CONDITION
 req.redist: 

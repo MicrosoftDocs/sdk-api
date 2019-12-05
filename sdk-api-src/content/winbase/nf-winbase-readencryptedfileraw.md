@@ -1,19 +1,17 @@
 ---
 UID: NF:winbase.ReadEncryptedFileRaw
 title: ReadEncryptedFileRaw function (winbase.h)
-
 description: Backs up (export) encrypted files.
 old-location: fs\readencryptedfileraw.htm
 tech.root: FileIO
 ms.assetid: 15f6f617-969d-4a40-9038-b902a3c2518b
-
 ms.date: 12/05/2018
 ms.keywords: ReadEncryptedFileRaw, ReadEncryptedFileRaw function [Files], base.readencryptedfileraw, fs.readencryptedfileraw, winbase/ReadEncryptedFileRaw
 ms.topic: function
-f1_keywords: 
- - "winbase/ReadEncryptedFileRaw"
+f1_keywords:
+- winbase/ReadEncryptedFileRaw
 dev_langs:
- - c++
+- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Advapi32.dll
- - Ext-MS-Win-AdvAPI32-EncryptedFile-l1-1-0.dll
- - Ext-MS-Win-AdvAPI32-EncryptedFile-L1-1-1.dll
+- Advapi32.dll
+- Ext-MS-Win-AdvAPI32-EncryptedFile-l1-1-0.dll
+- Ext-MS-Win-AdvAPI32-EncryptedFile-L1-1-1.dll
 api_name:
- - ReadEncryptedFileRaw
+- ReadEncryptedFileRaw
 targetos: Windows
 req.typenames: 
 req.redist: 

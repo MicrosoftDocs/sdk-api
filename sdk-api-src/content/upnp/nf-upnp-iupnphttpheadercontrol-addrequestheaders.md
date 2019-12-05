@@ -1,19 +1,17 @@
 ---
 UID: NF:upnp.IUPnPHttpHeaderControl.AddRequestHeaders
 title: IUPnPHttpHeaderControl::AddRequestHeaders (upnp.h)
-
 description: Adds the supplied HTTP header to an HTTP request.
 old-location: upnp\iupnphttpheadercontrol_addrequestheaders.htm
 tech.root: upnp
 ms.assetid: e44f83de-eaf6-4b16-a70e-64f4daffc6b3
-
 ms.date: 12/05/2018
 ms.keywords: AddRequestHeaders, AddRequestHeaders method [UPnP APIs], AddRequestHeaders method [UPnP APIs],IUPnPHttpHeaderControl interface, IUPnPHttpHeaderControl interface [UPnP APIs],AddRequestHeaders method, IUPnPHttpHeaderControl.AddRequestHeaders, IUPnPHttpHeaderControl::AddRequestHeaders, upnp.iupnphttpheadercontrol_addrequestheaders, upnp/IUPnPHttpHeaderControl::AddRequestHeaders
 ms.topic: method
-f1_keywords: 
- - "upnp/IUPnPHttpHeaderControl.AddRequestHeaders"
+f1_keywords:
+- upnp/IUPnPHttpHeaderControl.AddRequestHeaders
 dev_langs:
- - c++
+- c++
 req.header: upnp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Upnp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Upnp.dll
+- Upnp.dll
 api_name:
- - IUPnPHttpHeaderControl.AddRequestHeaders
+- IUPnPHttpHeaderControl.AddRequestHeaders
 targetos: Windows
 req.typenames: 
 req.redist: 

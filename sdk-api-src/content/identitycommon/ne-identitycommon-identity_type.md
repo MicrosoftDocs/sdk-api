@@ -1,19 +1,17 @@
 ---
 UID: NE:identitycommon._IdentityType
 title: IDENTITY_TYPE (identitycommon.h)
-
 description: Specifies the type of identities to enumerate.
 old-location: security\identity_type.htm
 tech.root: SecAuthN
 ms.assetid: b15fadf6-5331-4c66-9a6b-0cfdef2ca867
-
 ms.date: 12/05/2018
 ms.keywords: IDENTITIES_ALL, IDENTITIES_ME_ONLY, IDENTITY_TYPE, IDENTITY_TYPE enumeration [Security], identitycommon/IDENTITIES_ALL, identitycommon/IDENTITIES_ME_ONLY, identitycommon/IDENTITY_TYPE, security.identity_type
 ms.topic: enum
-f1_keywords: 
- - "identitycommon/IDENTITY_TYPE"
+f1_keywords:
+- identitycommon/IDENTITY_TYPE
 dev_langs:
- - c++
+- c++
 req.header: identitycommon.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Identitycommon.h
+- Identitycommon.h
 api_name:
- - IDENTITY_TYPE
+- IDENTITY_TYPE
 targetos: Windows
 req.typenames: IDENTITY_TYPE
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:winbase.GetActiveProcessorGroupCount
 title: GetActiveProcessorGroupCount function (winbase.h)
-
 description: Returns the number of active processor groups in the system.
 old-location: base\getactiveprocessorgroupcount.htm
 tech.root: ProcThread
 ms.assetid: 566c6abe-9269-4e0e-9c98-e4607c808452
-
 ms.date: 12/05/2018
 ms.keywords: GetActiveProcessorGroupCount, GetActiveProcessorGroupCount function, base.getactiveprocessorgroupcount, winbase/GetActiveProcessorGroupCount
 ms.topic: function
-f1_keywords: 
- - "winbase/GetActiveProcessorGroupCount"
+f1_keywords:
+- winbase/GetActiveProcessorGroupCount
 dev_langs:
- - c++
+- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - kernel32.dll
- - API-MS-Win-Core-ProcessTopology-Obsolete-L1-1-1.dll
- - Kernel32Legacy.dll
+- kernel32.dll
+- API-MS-Win-Core-ProcessTopology-Obsolete-L1-1-1.dll
+- Kernel32Legacy.dll
 api_name:
- - GetActiveProcessorGroupCount
+- GetActiveProcessorGroupCount
 targetos: Windows
 req.typenames: 
 req.redist: 

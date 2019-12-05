@@ -1,19 +1,17 @@
 ---
 UID: NF:msinkaut.IInkStrokeDisp.Split
 title: IInkStrokeDisp::Split (msinkaut.h)
-
 description: Splits the stroke at the specified location on the stroke.
 old-location: tablet\iinkstrokedisp_split.htm
 tech.root: tablet
 ms.assetid: 1ae627e9-c546-485a-880c-e59d2191884d
-
 ms.date: 12/05/2018
 ms.keywords: 1ae627e9-c546-485a-880c-e59d2191884d, IInkStrokeDisp interface [Tablet PC],Split method, IInkStrokeDisp.Split, IInkStrokeDisp::Split, Split, Split method [Tablet PC], Split method [Tablet PC],IInkStrokeDisp interface, msinkaut/IInkStrokeDisp::Split, tablet.iinkstrokedisp_split
 ms.topic: method
-f1_keywords: 
- - "msinkaut/IInkStrokeDisp.Split"
+f1_keywords:
+- msinkaut/IInkStrokeDisp.Split
 dev_langs:
- - c++
+- c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: InkObj.dll
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - InkObj.dll
- - InkObj.dll.dll
+- InkObj.dll
+- InkObj.dll.dll
 api_name:
- - IInkStrokeDisp.Split
+- IInkStrokeDisp.Split
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:dvbsiparser.IDVB_ST.GetDataLength
 title: IDVB_ST::GetDataLength (dvbsiparser.h)
-
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\idvb_st_getdatalength.htm
 tech.root: mstv
 ms.assetid: 6d42f147-b82d-4236-9e58-c42019d6b413
-
 ms.date: 12/05/2018
 ms.keywords: GetDataLength, GetDataLength method [Microsoft TV Technologies], GetDataLength method [Microsoft TV Technologies],IDVB_ST interface, IDVB_ST interface [Microsoft TV Technologies],GetDataLength method, IDVB_ST.GetDataLength, IDVB_ST::GetDataLength, IDVB_STGetDataLength, dvbsiparser/IDVB_ST::GetDataLength, mstv.idvb_st_getdatalength
 ms.topic: method
-f1_keywords: 
- - "dvbsiparser/IDVB_ST.GetDataLength"
+f1_keywords:
+- dvbsiparser/IDVB_ST.GetDataLength
 dev_langs:
- - c++
+- c++
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dvbsiparser.h
+- dvbsiparser.h
 api_name:
- - IDVB_ST.GetDataLength
+- IDVB_ST.GetDataLength
 targetos: Windows
 req.typenames: 
 req.redist: 

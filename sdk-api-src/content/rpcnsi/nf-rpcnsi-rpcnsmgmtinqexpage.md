@@ -1,19 +1,17 @@
 ---
 UID: NF:rpcnsi.RpcNsMgmtInqExpAge
 title: RpcNsMgmtInqExpAge function (rpcnsi.h)
-
 description: The RpcNsMgmtInqExpAge function returns the global expiration age for local copies of name-service data.
 old-location: rpc\rpcnsmgmtinqexpage.htm
 tech.root: Rpc
 ms.assetid: b9e27fba-c4ee-4a0e-ab95-af4c975e9123
-
 ms.date: 12/05/2018
 ms.keywords: RpcNsMgmtInqExpAge, RpcNsMgmtInqExpAge function [RPC], _rpc_rpcnsmgmtinqexpage, rpc.rpcnsmgmtinqexpage, rpcnsi/RpcNsMgmtInqExpAge
 ms.topic: function
-f1_keywords: 
- - "rpcnsi/RpcNsMgmtInqExpAge"
+f1_keywords:
+- rpcnsi/RpcNsMgmtInqExpAge
 dev_langs:
- - c++
+- c++
 req.header: rpcnsi.h
 req.include-header: Rpc.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Rpcns4.lib
 req.dll: Rpcns4.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Rpcns4.dll
+- Rpcns4.dll
 api_name:
- - RpcNsMgmtInqExpAge
+- RpcNsMgmtInqExpAge
 targetos: Windows
 req.typenames: 
 req.redist: 

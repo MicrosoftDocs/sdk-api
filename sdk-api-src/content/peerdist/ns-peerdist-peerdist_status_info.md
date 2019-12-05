@@ -1,19 +1,17 @@
 ---
 UID: NS:peerdist.peerdist_status_info_tag
 title: PEERDIST_STATUS_INFO (peerdist.h)
-
 description: The PEERDIST_STATUS_INFO structure contains information about the current status and capabilities of the BranchCache service on the local computer.
 old-location: p2p\peerdist_status_info.htm
 tech.root: P2PSdk
 ms.assetid: 6EE58EA9-BA0A-4A96-9F9C-EFAF2ABA37C6
-
 ms.date: 12/05/2018
-ms.keywords: "*PPEERDIST_STATUS_INFO, PCPEERDIST_STATUS_INFO, PCPEERDIST_STATUS_INFO structure pointer [Peer Networking], PEERDIST_RETRIEVAL_OPTIONS_CONTENTINFO_VERSION_1, PEERDIST_RETRIEVAL_OPTIONS_CONTENTINFO_VERSION_2, PEERDIST_STATUS_INFO, PEERDIST_STATUS_INFO structure [Peer Networking], PPEERDIST_STATUS_INFO, PPEERDIST_STATUS_INFO structure pointer [Peer Networking], p2p.peerdist_status_info, peerdist/PCPEERDIST_STATUS_INFO, peerdist/PEERDIST_STATUS_INFO, peerdist/PPEERDIST_STATUS_INFO"
+ms.keywords: '*PPEERDIST_STATUS_INFO, PCPEERDIST_STATUS_INFO, PCPEERDIST_STATUS_INFO structure pointer [Peer Networking], PEERDIST_RETRIEVAL_OPTIONS_CONTENTINFO_VERSION_1, PEERDIST_RETRIEVAL_OPTIONS_CONTENTINFO_VERSION_2, PEERDIST_STATUS_INFO, PEERDIST_STATUS_INFO structure [Peer Networking], PPEERDIST_STATUS_INFO, PPEERDIST_STATUS_INFO structure pointer [Peer Networking], p2p.peerdist_status_info, peerdist/PCPEERDIST_STATUS_INFO, peerdist/PEERDIST_STATUS_INFO, peerdist/PPEERDIST_STATUS_INFO'
 ms.topic: struct
-f1_keywords: 
- - "peerdist/PEERDIST_STATUS_INFO"
+f1_keywords:
+- peerdist/PEERDIST_STATUS_INFO
 dev_langs:
- - c++
+- c++
 req.header: peerdist.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - peerdist.h
+- peerdist.h
 api_name:
- - PEERDIST_STATUS_INFO
+- PEERDIST_STATUS_INFO
 targetos: Windows
 req.typenames: PEERDIST_STATUS_INFO, *PPEERDIST_STATUS_INFO
 req.redist: 

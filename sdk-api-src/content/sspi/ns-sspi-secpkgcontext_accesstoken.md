@@ -1,19 +1,17 @@
 ---
 UID: NS:sspi._SecPkgContext_AccessToken
 title: SecPkgContext_AccessToken (sspi.h)
-
 description: Returns a handle to the access token for the current security context.
 old-location: security\secpkgcontext_accesstoken.htm
 tech.root: SecAuthN
 ms.assetid: 4dc11cbd-7f28-4cb9-aaea-6e5a89ac91f0
-
 ms.date: 12/05/2018
-ms.keywords: "*PSecPkgContext_AccessToken, PSecPkgContext_AccessToken, PSecPkgContext_AccessToken structure pointer [Security], SecPkgContext_AccessToken, SecPkgContext_AccessToken structure [Security], security.secpkgcontext_accesstoken, sspi/PSecPkgContext_AccessToken, sspi/SecPkgContext_AccessToken"
+ms.keywords: '*PSecPkgContext_AccessToken, PSecPkgContext_AccessToken, PSecPkgContext_AccessToken structure pointer [Security], SecPkgContext_AccessToken, SecPkgContext_AccessToken structure [Security], security.secpkgcontext_accesstoken, sspi/PSecPkgContext_AccessToken, sspi/SecPkgContext_AccessToken'
 ms.topic: struct
-f1_keywords: 
- - "sspi/SecPkgContext_AccessToken"
+f1_keywords:
+- sspi/SecPkgContext_AccessToken
 dev_langs:
- - c++
+- c++
 req.header: sspi.h
 req.include-header: Security.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Sspi.h
+- Sspi.h
 api_name:
- - SecPkgContext_AccessToken
+- SecPkgContext_AccessToken
 targetos: Windows
 req.typenames: SecPkgContext_AccessToken, *PSecPkgContext_AccessToken
 req.redist: 

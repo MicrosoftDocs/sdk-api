@@ -1,19 +1,17 @@
 ---
 UID: NS:ws2ipdef.in6_pktinfo
 title: IN6_PKTINFO (ws2ipdef.h)
-
 description: The in6_pktinfo structure is used to store received IPv6 packet address information, and is used by Windows to return information about received packets and also allows specifying the local IPv6 address to use for sending packets.
 old-location: winsock\in6_pktinfo_2.htm
 tech.root: WinSock
 ms.assetid: d0f1006c-2b6f-4bc9-855b-e268c27f6ca2
-
 ms.date: 12/05/2018
-ms.keywords: "*PIN6_PKTINFO, IN6_PKTINFO, IN6_PKTINFO structure [Winsock], PIN6_PKTINFO, PIN6_PKTINFO structure pointer [Winsock], _win32_in6_pktinfo_2, in6_pktinfo, in6_pktinfo structure [Winsock], winsock.in6_pktinfo_2, ws2ipdef/PIN6_PKTINFO, ws2ipdef/in6_pktinfo, ws2tcpip/PIN6_PKTINFO, ws2tcpip/in6_pktinfo"
+ms.keywords: '*PIN6_PKTINFO, IN6_PKTINFO, IN6_PKTINFO structure [Winsock], PIN6_PKTINFO, PIN6_PKTINFO structure pointer [Winsock], _win32_in6_pktinfo_2, in6_pktinfo, in6_pktinfo structure [Winsock], winsock.in6_pktinfo_2, ws2ipdef/PIN6_PKTINFO, ws2ipdef/in6_pktinfo, ws2tcpip/PIN6_PKTINFO, ws2tcpip/in6_pktinfo'
 ms.topic: struct
-f1_keywords: 
- - "ws2ipdef/IN6_PKTINFO"
+f1_keywords:
+- ws2ipdef/IN6_PKTINFO
 dev_langs:
- - c++
+- c++
 req.header: ws2ipdef.h
 req.include-header: Ws2tcpip.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Ws2ipdef.h
- - Ws2tcpip.h
+- Ws2ipdef.h
+- Ws2tcpip.h
 api_name:
- - IN6_PKTINFO
+- IN6_PKTINFO
 targetos: Windows
 req.typenames: IN6_PKTINFO, *PIN6_PKTINFO
 req.redist: 

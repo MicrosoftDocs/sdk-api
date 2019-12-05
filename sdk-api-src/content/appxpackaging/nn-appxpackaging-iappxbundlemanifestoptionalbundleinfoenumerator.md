@@ -1,19 +1,17 @@
 ---
 UID: NN:appxpackaging.IAppxBundleManifestOptionalBundleInfoEnumerator
 title: IAppxBundleManifestOptionalBundleInfoEnumerator (appxpackaging.h)
-
 description: Enumerates the optional bundle information from a bundle.
 old-location: appxpkg\iappxbundlemanifestoptionalbundleinfoenumerator.htm
 tech.root: appxpkg
 ms.assetid: 5BF38EC7-7C04-455B-AFAA-CC2A78E54A4F
-
 ms.date: 12/05/2018
 ms.keywords: IAppxBundleManifestOptionalBundleInfoEnumerator, IAppxBundleManifestOptionalBundleInfoEnumerator interface [App packaging and management], IAppxBundleManifestOptionalBundleInfoEnumerator interface [App packaging and management],described, appxpackaging/IAppxBundleManifestOptionalBundleInfoEnumerator, appxpkg.iappxbundlemanifestoptionalbundleinfoenumerator
 ms.topic: interface
-f1_keywords: 
- - "appxpackaging/IAppxBundleManifestOptionalBundleInfoEnumerator"
+f1_keywords:
+- appxpackaging/IAppxBundleManifestOptionalBundleInfoEnumerator
 dev_langs:
- - c++
+- c++
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - AppxPackaging.h
+- AppxPackaging.h
 api_name:
- - IAppxBundleManifestOptionalBundleInfoEnumerator
+- IAppxBundleManifestOptionalBundleInfoEnumerator
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NS:commctrl.__unnamed_struct_10
 title: NMCOMBOBOXEXW (commctrl.h)
-
 description: Contains information specific to ComboBoxEx items for use with notification codes.
 old-location: controls\NMCOMBOBOXEX.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\comboex\structures\nmcomboboxex.htm
-
 ms.date: 12/05/2018
 ms.keywords: '*PNMCOMBOBOXEXW, NMCOMBOBOXEX, NMCOMBOBOXEX structure [Windows Controls], NMCOMBOBOXEXA, NMCOMBOBOXEXW, PNMCOMBOBOXEX, PNMCOMBOBOXEX structure pointer [Windows Controls], _win32_NMCOMBOBOXEX, _win32_NMCOMBOBOXEX_cpp, commctrl/NMCOMBOBOXEX, commctrl/NMCOMBOBOXEXA, commctrl/NMCOMBOBOXEXW, commctrl/PNMCOMBOBOXEX, controls.NMCOMBOBOXEX, controls._win32_NMCOMBOBOXEX'
 ms.topic: struct
 f1_keywords:
 - commctrl/NMCOMBOBOXEX
 dev_langs:
- - c++
+- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

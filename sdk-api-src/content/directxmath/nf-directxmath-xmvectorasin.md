@@ -1,19 +1,17 @@
 ---
 UID: NF:directxmath.XMVectorASin
 title: XMVectorASin function (directxmath.h)
-
 description: Computes the arcsine of each component of an XMVECTOR.
 old-location: dxmath\xmvectorasin.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.transcendental.XMVectorASin(XMVECTOR)
-
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMVectorASin, XMVectorASin, XMVectorASin method [DirectX Math Support APIs], dxmath.xmvectorasin
 ms.topic: function
-f1_keywords: 
- - "directxmath/XMVectorASin"
+f1_keywords:
+- directxmath/XMVectorASin
 dev_langs:
- - c++
+- c++
 req.header: directxmath.h
 req.include-header: DirectXMath.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - directxmathvector.inl
+- directxmathvector.inl
 api_name:
- - XMVectorASin
+- XMVectorASin
 targetos: Windows
 req.typenames: 
 req.redist: 

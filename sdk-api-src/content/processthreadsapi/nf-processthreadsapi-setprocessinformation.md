@@ -1,19 +1,17 @@
 ---
 UID: NF:processthreadsapi.SetProcessInformation
 title: SetProcessInformation function (processthreadsapi.h)
-
 description: Sets information for the specified process.
 old-location: base\setprocessinformation.htm
 tech.root: ProcThread
 ms.assetid: 1739fadf-6b43-4b89-8a17-87d9867d5197
-
 ms.date: 12/05/2018
 ms.keywords: SetProcessInformation, SetProcessInformation function, base.setprocessinformation, processthreadsapi/SetProcessInformation
 ms.topic: function
-f1_keywords: 
- - "processthreadsapi/SetProcessInformation"
+f1_keywords:
+- processthreadsapi/SetProcessInformation
 dev_langs:
- - c++
+- c++
 req.header: processthreadsapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-ProcessThreads-L1-1-3.dll
- - KernelBase.dll
+- Kernel32.dll
+- API-MS-Win-Core-ProcessThreads-L1-1-3.dll
+- KernelBase.dll
 api_name:
- - SetProcessInformation
+- SetProcessInformation
 targetos: Windows
 req.typenames: 
 req.redist: 

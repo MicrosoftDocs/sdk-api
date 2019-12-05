@@ -1,19 +1,17 @@
 ---
 UID: NF:comsvcs.CoLeaveServiceDomain
 title: CoLeaveServiceDomain function (comsvcs.h)
-
 description: Used to leave code that uses COM+ services.
 old-location: cos\coleaveservicedomain.htm
 tech.root: cossdk
 ms.assetid: b67b3cf6-4462-4578-b61b-c5c61d809822
-
 ms.date: 12/05/2018
 ms.keywords: CoLeaveServiceDomain, CoLeaveServiceDomain function [COM+], _cos_CoLeaveServiceDomain, comsvcs/CoLeaveServiceDomain, cos.coleaveservicedomain
 ms.topic: function
-f1_keywords: 
- - "comsvcs/CoLeaveServiceDomain"
+f1_keywords:
+- comsvcs/CoLeaveServiceDomain
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: ComSvcs.lib
 req.dll: ComSvcs.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - ComSvcs.dll
+- ComSvcs.dll
 api_name:
- - CoLeaveServiceDomain
+- CoLeaveServiceDomain
 targetos: Windows
 req.typenames: 
 req.redist: 

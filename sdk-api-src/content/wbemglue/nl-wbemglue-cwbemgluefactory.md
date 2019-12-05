@@ -1,19 +1,17 @@
 ---
 UID: NL:wbemglue.CWbemGlueFactory
 title: CWbemGlueFactory (wbemglue.h)
-
 description: The CWbemGlueFactory class is part of the WMI Provider Framework. The Provider Framework implements methods of this interface internally to create new instances of classes for the provider.
 old-location: wmi\cwbemgluefactory.htm
 tech.root: WmiSdk
 ms.assetid: 1287cb02-695a-47df-88f6-0d9dfd6b81af
-
 ms.date: 12/05/2018
-ms.keywords: "??1CWbemGlueFactory@@QAE@XZ, ??1CWbemGlueFactory@@QEAA@XZ, CWbemGlueFactory, CWbemGlueFactory class [Windows Management Instrumentation], CWbemGlueFactory class [Windows Management Instrumentation],described, wbemglue/CWbemGlueFactory, wmi.cwbemgluefactory"
+ms.keywords: ??1CWbemGlueFactory@@QAE@XZ, ??1CWbemGlueFactory@@QEAA@XZ, CWbemGlueFactory, CWbemGlueFactory class [Windows Management Instrumentation], CWbemGlueFactory class [Windows Management Instrumentation],described, wbemglue/CWbemGlueFactory, wmi.cwbemgluefactory
 ms.topic: class
-f1_keywords: 
- - "wbemglue/CWbemGlueFactory"
+f1_keywords:
+- wbemglue/CWbemGlueFactory
 dev_langs:
- - c++
+- c++
 req.header: wbemglue.h
 req.include-header: FwCommon.h
 req.target-type: Windows
@@ -32,19 +30,19 @@ req.lib: FrameDyn.lib
 req.dll: FrameDynOS.dll; FrameDyn.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - FrameDynOS.dll
- - FrameDyn.dll
+- FrameDynOS.dll
+- FrameDyn.dll
 api_name:
- - CWbemGlueFactory
- - CreateInstance
- - LockServer
- - ??1CWbemGlueFactory@@QAE@XZ
- - ??1CWbemGlueFactory@@QEAA@XZ
+- CWbemGlueFactory
+- CreateInstance
+- LockServer
+- ??1CWbemGlueFactory@@QAE@XZ
+- ??1CWbemGlueFactory@@QEAA@XZ
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:devicetopology.IAudioOutputSelector.SetSelection
 title: IAudioOutputSelector::SetSelection (devicetopology.h)
-
 description: The SetSelection method selects one of the outputs of the output selector.
 old-location: coreaudio\iaudiooutputselector_setselection.htm
 tech.root: CoreAudio
 ms.assetid: e81d54f4-1451-4bd0-be06-28ff01fb65ab
-
 ms.date: 12/05/2018
 ms.keywords: IAudioOutputSelector interface [Core Audio],SetSelection method, IAudioOutputSelector.SetSelection, IAudioOutputSelector::SetSelection, IAudioOutputSelectorSetSelection, SetSelection, SetSelection method [Core Audio], SetSelection method [Core Audio],IAudioOutputSelector interface, coreaudio.iaudiooutputselector_setselection, devicetopology/IAudioOutputSelector::SetSelection
 ms.topic: method
-f1_keywords: 
- - "devicetopology/IAudioOutputSelector.SetSelection"
+f1_keywords:
+- devicetopology/IAudioOutputSelector.SetSelection
 dev_langs:
- - c++
+- c++
 req.header: devicetopology.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Devicetopology.h
+- Devicetopology.h
 api_name:
- - IAudioOutputSelector.SetSelection
+- IAudioOutputSelector.SetSelection
 targetos: Windows
 req.typenames: 
 req.redist: 

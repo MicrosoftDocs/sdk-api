@@ -1,19 +1,17 @@
 ---
 UID: NF:manipulations._IManipulationEvents.ManipulationStarted
 title: _IManipulationEvents::ManipulationStarted (manipulations.h)
-
 description: Handles the event for when manipulation or inertia begins.
 old-location: wintouch\_imanipulationevents_manipulationstarted.htm
 tech.root: wintouch
 ms.assetid: c3e63eb7-65e7-4394-89e4-d95d7e7877cf
-
 ms.date: 12/05/2018
 ms.keywords: ManipulationStarted, ManipulationStarted method [Windows Touch], ManipulationStarted method [Windows Touch],_IManipulationEvents interface, _IManipulationEvents interface [Windows Touch],ManipulationStarted method, _IManipulationEvents.ManipulationStarted, _IManipulationEvents::ManipulationStarted, manipulations/_IManipulationEvents::ManipulationStarted, wintouch._imanipulationevents_manipulationstarted
 ms.topic: method
-f1_keywords: 
- - "manipulations/_IManipulationEvents.ManipulationStarted"
+f1_keywords:
+- manipulations/_IManipulationEvents.ManipulationStarted
 dev_langs:
- - c++
+- c++
 req.header: manipulations.h
 req.include-header: Manipulations.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - manipulations.h
+- manipulations.h
 api_name:
- - _IManipulationEvents.ManipulationStarted
+- _IManipulationEvents.ManipulationStarted
 targetos: Windows
 req.typenames: 
 req.redist: 

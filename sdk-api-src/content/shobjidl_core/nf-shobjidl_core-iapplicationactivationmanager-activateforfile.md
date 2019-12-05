@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IApplicationActivationManager.ActivateForFile
 title: IApplicationActivationManager::ActivateForFile (shobjidl_core.h)
-
 description: Activates the specified Windows Store app for the file contract (Windows.File).
 old-location: shell\IApplicationActivationManager_ActivateForFile.htm
 tech.root: shell
 ms.assetid: E7EBB743-4847-4966-A2EA-486BBA6A4A6F
-
 ms.date: 12/05/2018
 ms.keywords: ActivateForFile, ActivateForFile method [Windows Shell], ActivateForFile method [Windows Shell],IApplicationActivationManager interface, IApplicationActivationManager interface [Windows Shell],ActivateForFile method, IApplicationActivationManager.ActivateForFile, IApplicationActivationManager::ActivateForFile, shell.IApplicationActivationManager_ActivateForFile, shobjidl_core/IApplicationActivationManager::ActivateForFile
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IApplicationActivationManager.ActivateForFile"
+f1_keywords:
+- shobjidl_core/IApplicationActivationManager.ActivateForFile
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - IApplicationActivationManager.ActivateForFile
+- IApplicationActivationManager.ActivateForFile
 targetos: Windows
 req.typenames: 
 req.redist: 

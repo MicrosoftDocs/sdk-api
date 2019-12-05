@@ -1,19 +1,17 @@
 ---
 UID: NF:shdeprecated.IShellService.SetOwner
 title: IShellService::SetOwner (shdeprecated.h)
-
 description: Deprecated. Declares an owner reference to the service object.
 old-location: shell\IShellService_SetOwner.htm
 tech.root: shell
 ms.assetid: ef3865b2-b651-4072-86f2-2996fce061a4
-
 ms.date: 12/05/2018
 ms.keywords: IShellService interface [Windows Shell],SetOwner method, IShellService.SetOwner, IShellService::SetOwner, SetOwner, SetOwner method [Windows Shell], SetOwner method [Windows Shell],IShellService interface, shdeprecated/IShellService::SetOwner, shell.IShellService_SetOwner, zone_IShellService_SetOwner
 ms.topic: method
-f1_keywords: 
- - "shdeprecated/IShellService.SetOwner"
+f1_keywords:
+- shdeprecated/IShellService.SetOwner
 dev_langs:
- - c++
+- c++
 req.header: shdeprecated.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shdeprecated.h
+- Shdeprecated.h
 api_name:
- - IShellService.SetOwner
+- IShellService.SetOwner
 targetos: Windows
 req.typenames: 
 req.redist: 

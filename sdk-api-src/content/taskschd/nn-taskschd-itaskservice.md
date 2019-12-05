@@ -1,19 +1,17 @@
 ---
 UID: NN:taskschd.ITaskService
 title: ITaskService (taskschd.h)
-
 description: Provides access to the Task Scheduler service for managing registered tasks.
 old-location: taskschd\itaskservice.htm
 tech.root: taskschd
 ms.assetid: 2459aaae-4c3a-458a-ad2c-bfff3a0322d3
-
 ms.date: 12/05/2018
 ms.keywords: ITaskService, ITaskService interface [Task Scheduler], ITaskService interface [Task Scheduler],described, taskschd.itaskservice, taskschd/ITaskService
 ms.topic: interface
-f1_keywords: 
- - "taskschd/ITaskService"
+f1_keywords:
+- taskschd/ITaskService
 dev_langs:
- - c++
+- c++
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Taskschd.lib
 req.dll: Taskschd.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - taskschd.dll
+- taskschd.dll
 api_name:
- - ITaskService
+- ITaskService
 targetos: Windows
 req.typenames: 
 req.redist: 

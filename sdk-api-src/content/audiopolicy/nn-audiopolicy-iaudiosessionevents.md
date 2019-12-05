@@ -1,19 +1,17 @@
 ---
 UID: NN:audiopolicy.IAudioSessionEvents
 title: IAudioSessionEvents (audiopolicy.h)
-
 description: The IAudioSessionEvents interface provides notifications of session-related events such as changes in the volume level, display name, and session state.
 old-location: coreaudio\iaudiosessionevents.htm
 tech.root: CoreAudio
 ms.assetid: fd287ef7-8a37-4342-b4c2-79b84a56c30e
-
 ms.date: 12/05/2018
 ms.keywords: IAudioSessionEvents, IAudioSessionEvents interface [Core Audio], IAudioSessionEvents interface [Core Audio],described, audiopolicy/IAudioSessionEvents, coreaudio.iaudiosessionevents
 ms.topic: interface
-f1_keywords: 
- - "audiopolicy/IAudioSessionEvents"
+f1_keywords:
+- audiopolicy/IAudioSessionEvents
 dev_langs:
- - c++
+- c++
 req.header: audiopolicy.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Audiopolicy.h
+- Audiopolicy.h
 api_name:
- - IAudioSessionEvents
+- IAudioSessionEvents
 targetos: Windows
 req.typenames: 
 req.redist: 

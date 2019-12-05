@@ -1,19 +1,17 @@
 ---
 UID: NF:xenroll.IEnroll4.acceptFileResponseWStr
 title: IEnroll4::acceptFileResponseWStr (xenroll.h)
-
 description: Accepts delivery of the credentials issued in response to an earlier call to createFileRequestWStr, and it places the credentials in the appropriate store.
 old-location: security\ienroll4_acceptfileresponsewstr.htm
 tech.root: SecCrypto
 ms.assetid: b9c92f20-5f23-4dda-9e80-df9bf400ac08
-
 ms.date: 12/05/2018
 ms.keywords: IEnroll4 interface [Security],acceptFileResponseWStr method, IEnroll4.acceptFileResponseWStr, IEnroll4::acceptFileResponseWStr, acceptFileResponseWStr, acceptFileResponseWStr method [Security], acceptFileResponseWStr method [Security],IEnroll4 interface, security.ienroll4_acceptfileresponsewstr, xenroll/IEnroll4::acceptFileResponseWStr
 ms.topic: method
-f1_keywords: 
- - "xenroll/IEnroll4.acceptFileResponseWStr"
+f1_keywords:
+- xenroll/IEnroll4.acceptFileResponseWStr
 dev_langs:
- - c++
+- c++
 req.header: xenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Xenroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Xenroll.dll
+- Xenroll.dll
 api_name:
- - IEnroll4.acceptFileResponseWStr
+- IEnroll4.acceptFileResponseWStr
 targetos: Windows
 req.typenames: 
 req.redist: 

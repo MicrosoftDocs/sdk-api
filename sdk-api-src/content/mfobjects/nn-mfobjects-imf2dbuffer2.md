@@ -1,19 +1,17 @@
 ---
 UID: NN:mfobjects.IMF2DBuffer2
 title: IMF2DBuffer2 (mfobjects.h)
-
 description: Represents a buffer that contains a two-dimensional surface, such as a video frame.
 old-location: mf\imf2dbuffer2.htm
 tech.root: medfound
 ms.assetid: BFA73B1A-F8A7-4100-9DBD-234CCA06F9F5
-
 ms.date: 12/05/2018
 ms.keywords: IMF2DBuffer2, IMF2DBuffer2 interface [Media Foundation], IMF2DBuffer2 interface [Media Foundation],described, mf.imf2dbuffer2, mfobjects/IMF2DBuffer2
 ms.topic: interface
-f1_keywords: 
- - "mfobjects/IMF2DBuffer2"
+f1_keywords:
+- mfobjects/IMF2DBuffer2
 dev_langs:
- - c++
+- c++
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfobjects.h
+- mfobjects.h
 api_name:
- - IMF2DBuffer2
+- IMF2DBuffer2
 targetos: Windows
 req.typenames: 
 req.redist: 

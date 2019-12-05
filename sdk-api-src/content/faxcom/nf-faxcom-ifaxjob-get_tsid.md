@@ -1,19 +1,17 @@
 ---
 UID: NF:faxcom.IFaxJob.get_Tsid
 title: IFaxJob::get_Tsid (faxcom.h)
-
 description: The IFaxJob::get_Tsid property is a null-terminated string that contains the transmitting station identifier (TSID)) associated with the fax job.
 old-location: fax\_mfax_ifaxjob_mfax_ifaxjob_get_tsid_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_4zz8.htm
-
 ms.date: 12/05/2018
 ms.keywords: IFaxJob interface [Fax Service],Tsid property, IFaxJob.Tsid, IFaxJob.get_Tsid, IFaxJob::Tsid, IFaxJob::get_Tsid, Tsid property [Fax Service], Tsid property [Fax Service],IFaxJob interface, _mfax_ifaxjob_get_tsid, fax._mfax_ifaxjob_get_tsid, fax._mfax_ifaxjob_mfax_ifaxjob_get_tsid_cpp, faxcom/IFaxJob::Tsid, faxcom/IFaxJob::get_Tsid, get_Tsid
 ms.topic: method
-f1_keywords: 
- - "faxcom/IFaxJob.Tsid"
+f1_keywords:
+- faxcom/IFaxJob.Tsid
 dev_langs:
- - c++
+- c++
 req.header: faxcom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: Faxcom.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Faxcom.dll
+- Faxcom.dll
 api_name:
- - IFaxJob.Tsid
- - IFaxJob.get_Tsid
+- IFaxJob.Tsid
+- IFaxJob.get_Tsid
 targetos: Windows
 req.typenames: 
 req.redist: 

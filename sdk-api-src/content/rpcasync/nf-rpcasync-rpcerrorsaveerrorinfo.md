@@ -1,19 +1,17 @@
 ---
 UID: NF:rpcasync.RpcErrorSaveErrorInfo
 title: RpcErrorSaveErrorInfo function (rpcasync.h)
-
 description: The RpcErrorSaveErrorInfo function returns all error information for an enumeration handle as a BLOB.
 old-location: rpc\rpcerrorsaveerrorinfo.htm
 tech.root: Rpc
 ms.assetid: 59a3ba71-10bd-47d1-91b0-eba5ffa5051b
-
 ms.date: 12/05/2018
 ms.keywords: RpcErrorSaveErrorInfo, RpcErrorSaveErrorInfo function [RPC], _rpc_rpcerrorsaveerrorinfo, rpc.rpcerrorsaveerrorinfo, rpcasync/RpcErrorSaveErrorInfo
 ms.topic: function
-f1_keywords: 
- - "rpcasync/RpcErrorSaveErrorInfo"
+f1_keywords:
+- rpcasync/RpcErrorSaveErrorInfo
 dev_langs:
- - c++
+- c++
 req.header: rpcasync.h
 req.include-header: Rpc.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Rpcrt4.lib
 req.dll: Rpcrt4.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Rpcrt4.dll
+- Rpcrt4.dll
 api_name:
- - RpcErrorSaveErrorInfo
+- RpcErrorSaveErrorInfo
 targetos: Windows
 req.typenames: 
 req.redist: 

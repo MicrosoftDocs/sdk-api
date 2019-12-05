@@ -1,19 +1,17 @@
 ---
 UID: NF:wmsdkidl.IWMWriterAdvanced.GetWriterTime
 title: IWMWriterAdvanced::GetWriterTime (wmsdkidl.h)
-
 description: The GetWriterTime method retrieves the clock time that the writer is working to.
 old-location: wmformat\iwmwriteradvanced_getwritertime.htm
 tech.root: wmformat
 ms.assetid: ed15e545-8b37-4098-8e2f-96f4cfb271d3
-
 ms.date: 12/05/2018
 ms.keywords: GetWriterTime, GetWriterTime method [windows Media Format], GetWriterTime method [windows Media Format],IWMWriterAdvanced interface, IWMWriterAdvanced interface [windows Media Format],GetWriterTime method, IWMWriterAdvanced.GetWriterTime, IWMWriterAdvanced::GetWriterTime, IWMWriterAdvancedGetWriterTime, wmformat.iwmwriteradvanced_getwritertime, wmsdkidl/IWMWriterAdvanced::GetWriterTime
 ms.topic: method
-f1_keywords: 
- - "wmsdkidl/IWMWriterAdvanced.GetWriterTime"
+f1_keywords:
+- wmsdkidl/IWMWriterAdvanced.GetWriterTime
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wmvcore.lib
- - Wmvcore.dll
- - WMStubDRM.lib
- - WMStubDRM.dll
+- Wmvcore.lib
+- Wmvcore.dll
+- WMStubDRM.lib
+- WMStubDRM.dll
 api_name:
- - IWMWriterAdvanced.GetWriterTime
+- IWMWriterAdvanced.GetWriterTime
 targetos: Windows
 req.typenames: 
 req.redist: 

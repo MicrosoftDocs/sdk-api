@@ -1,19 +1,17 @@
 ---
 UID: NF:shlwapi.GetProcessReference
 title: GetProcessReference function (shlwapi.h)
-
 description: Retrieves the process-specific object supplied by SetProcessReference, incrementing the reference count to keep the process alive.
 old-location: shell\GetProcessReference.htm
 tech.root: shell
 ms.assetid: C46468A6-684D-494c-8261-87F16485B97B
-
 ms.date: 12/05/2018
 ms.keywords: GetProcessReference, GetProcessReference function [Windows Shell], shell.GetProcessReference, shlwapi/GetProcessReference
 ms.topic: function
-f1_keywords: 
- - "shlwapi/GetProcessReference"
+f1_keywords:
+- shlwapi/GetProcessReference
 dev_langs:
- - c++
+- c++
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Shlwapi.lib
 req.dll: Api-ms-win-shcore-thread-L1-1-0.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - api-ms-win-shcore-thread-L1-1-0.dll
- - ShCore.dll
+- api-ms-win-shcore-thread-L1-1-0.dll
+- ShCore.dll
 api_name:
- - GetProcessReference
+- GetProcessReference
 targetos: Windows
 req.typenames: 
 req.redist: 

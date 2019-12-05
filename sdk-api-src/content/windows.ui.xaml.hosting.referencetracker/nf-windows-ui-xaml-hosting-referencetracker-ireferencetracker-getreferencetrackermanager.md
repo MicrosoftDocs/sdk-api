@@ -1,19 +1,17 @@
 ---
 UID: NF:windows.ui.xaml.hosting.referencetracker.IReferenceTracker.GetReferenceTrackerManager
 title: IReferenceTracker::xaml (windows.ui.xaml.hosting.referencetracker.h)
-
 description: Gets an IReferenceTrackerManager interface from a XAML object.
 old-location: winrt\ireferencetracker_getreferencetrackermanager.htm
 tech.root: WinRT
 ms.assetid: c65f1220-24e6-4f63-9318-5b9e57d96e1b
-
 ms.date: 12/05/2018
 ms.keywords: GetReferenceTrackerManager, GetReferenceTrackerManager method [Windows Runtime], GetReferenceTrackerManager method [Windows Runtime],IReferenceTracker interface, IReferenceTracker interface [Windows Runtime],GetReferenceTrackerManager method, IReferenceTracker.GetReferenceTrackerManager, IReferenceTracker.xaml, IReferenceTracker::GetReferenceTrackerManager, IReferenceTracker::xaml, windows/IReferenceTracker::GetReferenceTrackerManager, winrt.ireferencetracker_getreferencetrackermanager
 ms.topic: method
-f1_keywords: 
- - "windows.ui.xaml.hosting.referencetracker/IReferenceTracker.GetReferenceTrackerManager"
+f1_keywords:
+- windows.ui.xaml.hosting.referencetracker/IReferenceTracker.GetReferenceTrackerManager
 dev_langs:
- - c++
+- c++
 req.header: windows.ui.xaml.hosting.referencetracker.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Windows.ui.xaml.hosting.referencetracker.h
+- Windows.ui.xaml.hosting.referencetracker.h
 api_name:
- - IReferenceTracker.GetReferenceTrackerManager
+- IReferenceTracker.GetReferenceTrackerManager
 targetos: Windows
 req.typenames: 
 req.redist: 

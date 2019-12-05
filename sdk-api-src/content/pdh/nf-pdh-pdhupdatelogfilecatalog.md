@@ -1,19 +1,17 @@
 ---
 UID: NF:pdh.PdhUpdateLogFileCatalog
 title: PdhUpdateLogFileCatalog function (pdh.h)
-
 description: Synchronizes the information in the log file catalog with the performance data in the log file.
 old-location: perf\pdhupdatelogfilecatalog.htm
 tech.root: perfctrs
 ms.assetid: e8aa8462-48f1-4ccd-8c41-a7358975e056
-
 ms.date: 12/05/2018
 ms.keywords: PdhUpdateLogFileCatalog, PdhUpdateLogFileCatalog function [Perf], _win32_pdhupdatelogfilecatalog, base.pdhupdatelogfilecatalog, pdh/PdhUpdateLogFileCatalog, perf.pdhupdatelogfilecatalog
 ms.topic: function
-f1_keywords: 
- - "pdh/PdhUpdateLogFileCatalog"
+f1_keywords:
+- pdh/PdhUpdateLogFileCatalog
 dev_langs:
- - c++
+- c++
 req.header: pdh.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Pdh.lib
 req.dll: Pdh.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Pdh.dll
+- Pdh.dll
 api_name:
- - PdhUpdateLogFileCatalog
+- PdhUpdateLogFileCatalog
 targetos: Windows
 req.typenames: 
 req.redist: 

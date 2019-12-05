@@ -1,19 +1,17 @@
 ---
 UID: NN:uiautomationclient.IUIAutomationTogglePattern
 title: IUIAutomationTogglePattern (uiautomationclient.h)
-
 description: Provides access to a control that can cycle through a set of states, and maintain a state after it is set.
 old-location: winauto\uiauto_IUIAutomationTogglePattern.htm
 tech.root: WinAuto
 ms.assetid: f2e69387-271f-4f85-85d5-19ba5d231f85
-
 ms.date: 12/05/2018
 ms.keywords: IUIAutomationTogglePattern, IUIAutomationTogglePattern interface [Windows Accessibility], IUIAutomationTogglePattern interface [Windows Accessibility],described, uiauto.uiauto_IUIAutomationTogglePattern, uiauto_IUIAutomationTogglePattern, uiautomationclient/IUIAutomationTogglePattern, winauto.uiauto_IUIAutomationTogglePattern
 ms.topic: interface
-f1_keywords: 
- - "uiautomationclient/IUIAutomationTogglePattern"
+f1_keywords:
+- uiautomationclient/IUIAutomationTogglePattern
 dev_langs:
- - c++
+- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: UIAutomationCore.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationCore.dll
+- UIAutomationCore.dll
 api_name:
- - IUIAutomationTogglePattern
+- IUIAutomationTogglePattern
 targetos: Windows
 req.typenames: 
 req.redist: 

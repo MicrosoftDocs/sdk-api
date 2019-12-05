@@ -1,19 +1,17 @@
 ---
 UID: NF:sbe.ISBE2Crossbar.EnumStreams
 title: ISBE2Crossbar::EnumStreams (sbe.h)
-
 description: Gets an enumeration object for all streams that are discovered in a WTV file. The filter crossbar, which exposes the ISBE2Crossbar interface, manages the mappings between the streams in the WTV file and the filter output pins.
 old-location: mstv\isbe2crossbar_enumstreams.htm
 tech.root: mstv
 ms.assetid: 891dc676-8930-41bc-a0ae-4a080c6d4cd6
-
 ms.date: 12/05/2018
 ms.keywords: EnumStreams, EnumStreams method [Microsoft TV Technologies], EnumStreams method [Microsoft TV Technologies],ISBE2Crossbar interface, ISBE2Crossbar interface [Microsoft TV Technologies],EnumStreams method, ISBE2Crossbar.EnumStreams, ISBE2Crossbar::EnumStreams, mstv.isbe2crossbar_enumstreams, sbe/ISBE2Crossbar::EnumStreams
 ms.topic: method
-f1_keywords: 
- - "sbe/ISBE2Crossbar.EnumStreams"
+f1_keywords:
+- sbe/ISBE2Crossbar.EnumStreams
 dev_langs:
- - c++
+- c++
 req.header: sbe.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - sbe.h
+- sbe.h
 api_name:
- - ISBE2Crossbar.EnumStreams
+- ISBE2Crossbar.EnumStreams
 targetos: Windows
 req.typenames: 
 req.redist: 

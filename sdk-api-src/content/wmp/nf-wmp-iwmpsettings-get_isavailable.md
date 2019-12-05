@@ -1,19 +1,17 @@
 ---
 UID: NF:wmp.IWMPSettings.get_isAvailable
 title: IWMPSettings::get_isAvailable (wmp.h)
-
 description: The get_isAvailable method indicates whether a specified action can be performed.
 old-location: wmp\iwmpsettings_get_isavailable.htm
 tech.root: WMP
 ms.assetid: 0773792f-4046-4d58-9673-cbfef0ec5bf5
-
 ms.date: 12/05/2018
 ms.keywords: IWMPSettings interface [Windows Media Player],get_isAvailable method, IWMPSettings.get_isAvailable, IWMPSettings::get_isAvailable, IWMPSettingsget_isAvailable, get_isAvailable, get_isAvailable method [Windows Media Player], get_isAvailable method [Windows Media Player],IWMPSettings interface, wmp.iwmpsettings_get_isavailable, wmp/IWMPSettings::get_isAvailable
 ms.topic: method
-f1_keywords: 
- - "wmp/IWMPSettings.get_isAvailable"
+f1_keywords:
+- wmp/IWMPSettings.get_isAvailable
 dev_langs:
- - c++
+- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wmp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmp.dll
+- wmp.dll
 api_name:
- - IWMPSettings.get_isAvailable
+- IWMPSettings.get_isAvailable
 targetos: Windows
 req.typenames: 
 req.redist: 

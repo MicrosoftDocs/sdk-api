@@ -1,19 +1,17 @@
 ---
 UID: NS:mmc._SCOPEDATAITEM
 title: SCOPEDATAITEM (mmc.h)
-
 description: The SCOPEDATAITEM structure specifies items to be inserted into the scope pane.
 old-location: mmc\scopedataitem.htm
 tech.root: mmc
 ms.assetid: c392f25c-80e7-4c91-9063-36143320b9aa
-
 ms.date: 12/05/2018
-ms.keywords: "*LPSCOPEDATAITEM, LPSCOPEDATAITEM, LPSCOPEDATAITEM structure pointer [MMC], SCOPEDATAITEM, SCOPEDATAITEM structure [MMC], SDI_CHILDREN, SDI_FIRST, SDI_IMAGE, SDI_NEXT, SDI_OPENIMAGE, SDI_PARAM, SDI_PARENT, SDI_PREVIOUS, SDI_STATE, SDI_STR, _slate_scopedataitem, mmc.scopedataitem, mmc/LPSCOPEDATAITEM, mmc/SCOPEDATAITEM"
+ms.keywords: '*LPSCOPEDATAITEM, LPSCOPEDATAITEM, LPSCOPEDATAITEM structure pointer [MMC], SCOPEDATAITEM, SCOPEDATAITEM structure [MMC], SDI_CHILDREN, SDI_FIRST, SDI_IMAGE, SDI_NEXT, SDI_OPENIMAGE, SDI_PARAM, SDI_PARENT, SDI_PREVIOUS, SDI_STATE, SDI_STR, _slate_scopedataitem, mmc.scopedataitem, mmc/LPSCOPEDATAITEM, mmc/SCOPEDATAITEM'
 ms.topic: struct
-f1_keywords: 
- - "mmc/SCOPEDATAITEM"
+f1_keywords:
+- mmc/SCOPEDATAITEM
 dev_langs:
- - c++
+- c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Mmc.h
+- Mmc.h
 api_name:
- - SCOPEDATAITEM
+- SCOPEDATAITEM
 targetos: Windows
 req.typenames: SCOPEDATAITEM
 req.redist: 

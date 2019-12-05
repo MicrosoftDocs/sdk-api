@@ -1,19 +1,17 @@
 ---
 UID: NS:vds._VDS_SUB_SYSTEM_NOTIFICATION
 title: VDS_SUB_SYSTEM_NOTIFICATION (vds.h)
-
 description: Defines the details of subsystem events.
 old-location: base\vds_sub_system_notification.htm
 tech.root: VDS
 ms.assetid: 368e5b3d-11ba-400e-8dd0-929d45199dd9
-
 ms.date: 12/05/2018
 ms.keywords: VDS_NF_SUB_SYSTEM_ARRIVE, VDS_NF_SUB_SYSTEM_DEPART, VDS_NF_SUB_SYSTEM_MODIFY, VDS_SUB_SYSTEM_NOTIFICATION, VDS_SUB_SYSTEM_NOTIFICATION structure [VDS], base.vds_sub_system_notification, vds/_VDS_SUB_SYSTEM_NOTIFICATION, vdshwprv/_VDS_SUB_SYSTEM_NOTIFICATION
 ms.topic: struct
 f1_keywords:
 - vds/VDS_SUB_SYSTEM_NOTIFICATION
 dev_langs:
- - c++
+- c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

@@ -1,19 +1,17 @@
 ---
 UID: NF:ioapiset.CancelIo
 title: CancelIo function (ioapiset.h)
-
 description: Cancels all pending input and output (I/O) operations that are issued by the calling thread for the specified file.
 old-location: fs\cancelio.htm
 tech.root: FileIO
 ms.assetid: b28162dc-0da8-41c6-9901-29381d2d72c4
-
 ms.date: 12/05/2018
 ms.keywords: CancelIo, CancelIo function [Files], _win32_cancelio, base.cancelio, fs.cancelio, ioapiset/CancelIo, winbase/CancelIo
 ms.topic: function
-f1_keywords: 
- - "ioapiset/CancelIo"
+f1_keywords:
+- ioapiset/CancelIo
 dev_langs:
- - c++
+- c++
 req.header: ioapiset.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-io-l1-1-1.dll
- - KernelBase.dll
- - MinKernelBase.dll
- - api-ms-win-downlevel-kernel32-l1-1-0.dll
+- Kernel32.dll
+- API-MS-Win-Core-io-l1-1-1.dll
+- KernelBase.dll
+- MinKernelBase.dll
+- api-ms-win-downlevel-kernel32-l1-1-0.dll
 api_name:
- - CancelIo
+- CancelIo
 targetos: Windows
 req.typenames: 
 req.redist: 

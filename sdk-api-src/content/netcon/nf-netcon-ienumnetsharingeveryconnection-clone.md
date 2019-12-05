@@ -1,19 +1,17 @@
 ---
 UID: NF:netcon.IEnumNetSharingEveryConnection.Clone
 title: IEnumNetSharingEveryConnection::Clone (netcon.h)
-
 description: The Clone method creates a new enumeration interface from this enumeration.
 old-location: ics\ienumnetsharingeveryconnection_clone.htm
 tech.root: ics
 ms.assetid: 7adeec50-23a7-4a20-94a8-adc7767368ed
-
 ms.date: 12/05/2018
 ms.keywords: Clone, Clone method [ICS/ICF], Clone method [ICS/ICF],IEnumNetSharingEveryConnection interface, IEnumNetSharingEveryConnection interface [ICS/ICF],Clone method, IEnumNetSharingEveryConnection.Clone, IEnumNetSharingEveryConnection::Clone, _ics_ienumnetsharingeveryconnection_clone, ics.ienumnetsharingeveryconnection_clone, netcon/IEnumNetSharingEveryConnection::Clone
 ms.topic: method
-f1_keywords: 
- - "netcon/IEnumNetSharingEveryConnection.Clone"
+f1_keywords:
+- netcon/IEnumNetSharingEveryConnection.Clone
 dev_langs:
- - c++
+- c++
 req.header: netcon.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Hnetcfg.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Hnetcfg.dll
+- Hnetcfg.dll
 api_name:
- - IEnumNetSharingEveryConnection.Clone
+- IEnumNetSharingEveryConnection.Clone
 targetos: Windows
 req.typenames: 
 req.redist: 

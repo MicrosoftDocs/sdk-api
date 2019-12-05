@@ -1,19 +1,17 @@
 ---
 UID: NF:wmsdkidl.IWMWriterNetworkSink.Disconnect
 title: IWMWriterNetworkSink::Disconnect (wmsdkidl.h)
-
 description: The Disconnect method disconnects all clients from the network sink.
 old-location: wmformat\iwmwriternetworksink_disconnect.htm
 tech.root: wmformat
 ms.assetid: cf4f294c-148c-469f-83e7-c2cd1c585aa3
-
 ms.date: 12/05/2018
 ms.keywords: Disconnect, Disconnect method [windows Media Format], Disconnect method [windows Media Format],IWMWriterNetworkSink interface, IWMWriterNetworkSink interface [windows Media Format],Disconnect method, IWMWriterNetworkSink.Disconnect, IWMWriterNetworkSink::Disconnect, IWMWriterNetworkSinkDisconnect, wmformat.iwmwriternetworksink_disconnect, wmsdkidl/IWMWriterNetworkSink::Disconnect
 ms.topic: method
-f1_keywords: 
- - "wmsdkidl/IWMWriterNetworkSink.Disconnect"
+f1_keywords:
+- wmsdkidl/IWMWriterNetworkSink.Disconnect
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wmvcore.lib
- - Wmvcore.dll
- - WMStubDRM.lib
- - WMStubDRM.dll
+- Wmvcore.lib
+- Wmvcore.dll
+- WMStubDRM.lib
+- WMStubDRM.dll
 api_name:
- - IWMWriterNetworkSink.Disconnect
+- IWMWriterNetworkSink.Disconnect
 targetos: Windows
 req.typenames: 
 req.redist: 

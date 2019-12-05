@@ -1,19 +1,17 @@
 ---
 UID: NF:securitybaseapi.AreAllAccessesGranted
 title: AreAllAccessesGranted function (securitybaseapi.h)
-
 description: Checks whether a set of requested access rights has been granted. The access rights are represented as bit flags in an access mask.
 old-location: security\areallaccessesgranted.htm
 tech.root: SecAuthZ
 ms.assetid: 91349693-8667-49dd-a813-657497b7d467
-
 ms.date: 12/05/2018
 ms.keywords: AreAllAccessesGranted, AreAllAccessesGranted function [Security], _win32_areallaccessesgranted, security.areallaccessesgranted, securitybaseapi/AreAllAccessesGranted
 ms.topic: function
-f1_keywords: 
- - "securitybaseapi/AreAllAccessesGranted"
+f1_keywords:
+- securitybaseapi/AreAllAccessesGranted
 dev_langs:
- - c++
+- c++
 req.header: securitybaseapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,21 +30,21 @@ req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Advapi32.dll
- - API-MS-Win-DownLevel-AdvApi32-l1-1-0.dll
- - KernelBase.dll
- - API-MS-Win-DownLevel-AdvApi32-l1-1-1.dll
- - API-MS-Win-Security-base-l1-1-0.dll
- - API-MS-Win-Security-base-l1-2-0.dll
- - MinKernelBase.dll
- - API-MS-Win-Security-Base-L1-2-1.dll
+- Advapi32.dll
+- API-MS-Win-DownLevel-AdvApi32-l1-1-0.dll
+- KernelBase.dll
+- API-MS-Win-DownLevel-AdvApi32-l1-1-1.dll
+- API-MS-Win-Security-base-l1-1-0.dll
+- API-MS-Win-Security-base-l1-2-0.dll
+- MinKernelBase.dll
+- API-MS-Win-Security-Base-L1-2-1.dll
 api_name:
- - AreAllAccessesGranted
+- AreAllAccessesGranted
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:oleauto.VarBstrFromCy
 title: VarBstrFromCy function (oleauto.h)
-
 description: Converts a currency value to a BSTR value.
 old-location: automat\varbstrfromcy.htm
 tech.root: automat
 ms.assetid: 5aa53d2c-ca43-4f10-a517-00a2fe80016e
-
 ms.date: 12/05/2018
 ms.keywords: LOCALE_NOUSEROVERRIDE, LOCALE_USE_NLS, VarBstrFromCy, VarBstrFromCy function [Automation], _oa96_VarBstrFromCy, automat.varbstrfromcy, oleauto/VarBstrFromCy
 ms.topic: function
-f1_keywords: 
- - "oleauto/VarBstrFromCy"
+f1_keywords:
+- oleauto/VarBstrFromCy
 dev_langs:
- - c++
+- c++
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: OleAut32.lib
 req.dll: OleAut32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - OleAut32.dll
+- OleAut32.dll
 api_name:
- - VarBstrFromCy
+- VarBstrFromCy
 targetos: Windows
 req.typenames: 
 req.redist: 

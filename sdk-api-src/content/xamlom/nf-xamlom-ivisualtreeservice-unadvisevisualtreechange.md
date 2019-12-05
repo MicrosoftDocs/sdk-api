@@ -1,19 +1,17 @@
 ---
 UID: NF:xamlom.IVisualTreeService.UnadviseVisualTreeChange
 title: IVisualTreeService::UnadviseVisualTreeChange (xamlom.h)
-
 description: Stops listening for changes to the visual tree.
 old-location: xaml_diagnostics\ivisualtreeservice_unadvisevisualtreechange.htm
 tech.root: xaml_diagnostics
 ms.assetid: E77CBED8-F214-48AC-903E-F01B6EECA2ED
-
 ms.date: 12/05/2018
 ms.keywords: IVisualTreeService interface,UnadviseVisualTreeChange method, IVisualTreeService.UnadviseVisualTreeChange, IVisualTreeService::UnadviseVisualTreeChange, UnadviseVisualTreeChange, UnadviseVisualTreeChange method, UnadviseVisualTreeChange method,IVisualTreeService interface, xaml_diagnostics.ivisualtreeservice_unadvisevisualtreechange, xamlom/IVisualTreeService::UnadviseVisualTreeChange
 ms.topic: method
-f1_keywords: 
- - "xamlom/IVisualTreeService.UnadviseVisualTreeChange"
+f1_keywords:
+- xamlom/IVisualTreeService.UnadviseVisualTreeChange
 dev_langs:
- - c++
+- c++
 req.header: xamlom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xamlom.h
+- xamlom.h
 api_name:
- - IVisualTreeService.UnadviseVisualTreeChange
+- IVisualTreeService.UnadviseVisualTreeChange
 targetos: Windows
 req.typenames: 
 req.redist: 

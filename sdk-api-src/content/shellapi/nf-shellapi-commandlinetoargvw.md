@@ -1,19 +1,17 @@
 ---
 UID: NF:shellapi.CommandLineToArgvW
 title: CommandLineToArgvW function (shellapi.h)
-
 description: Parses a Unicode command line string and returns an array of pointers to the command line arguments, along with a count of such arguments, in a way that is similar to the standard C run-time argv and argc values.
 old-location: shell\CommandLineToArgvW.htm
 tech.root: shell
 ms.assetid: 9889a016-b7a5-402b-8305-6f7c199d41b3
-
 ms.date: 12/05/2018
 ms.keywords: CommandLineToArgvW, CommandLineToArgvW function [Windows Shell], _shell_CommandLineToArgvW, shell.CommandLineToArgvW, shellapi/CommandLineToArgvW
 ms.topic: function
-f1_keywords: 
- - "shellapi/CommandLineToArgvW"
+f1_keywords:
+- shellapi/CommandLineToArgvW
 dev_langs:
- - c++
+- c++
 req.header: shellapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib: Shell32.lib
 req.dll: Shell32.dll (version 6.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Shell32.dll
- - API-MS-Win-DownLevel-shell32-l1-1-0.dll
- - ShCore.dll
- - API-MS-Win-ShCore-Obsolete-l1-1-0.dll
+- Shell32.dll
+- API-MS-Win-DownLevel-shell32-l1-1-0.dll
+- ShCore.dll
+- API-MS-Win-ShCore-Obsolete-l1-1-0.dll
 api_name:
- - CommandLineToArgvW
- - CommandLineToArgvW
+- CommandLineToArgvW
+- CommandLineToArgvW
 targetos: Windows
 req.typenames: 
 req.redist: 

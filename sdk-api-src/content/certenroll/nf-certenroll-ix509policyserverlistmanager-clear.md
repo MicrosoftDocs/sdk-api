@@ -1,19 +1,17 @@
 ---
 UID: NF:certenroll.IX509PolicyServerListManager.Clear
 title: IX509PolicyServerListManager::Clear (certenroll.h)
-
 description: Removes all IX509PolicyServerUrl objects from the collection.
 old-location: security\ix509policyserverlistmanager_clear.htm
 tech.root: seccertenroll
 ms.assetid: c9be8128-ed19-4087-9057-3d1a0d215a96
-
 ms.date: 12/05/2018
 ms.keywords: Clear, Clear method [Security], Clear method [Security],IX509PolicyServerListManager interface, IX509PolicyServerListManager interface [Security],Clear method, IX509PolicyServerListManager.Clear, IX509PolicyServerListManager::Clear, certenroll/IX509PolicyServerListManager::Clear, security.ix509policyserverlistmanager_clear
 ms.topic: method
-f1_keywords: 
- - "certenroll/IX509PolicyServerListManager.Clear"
+f1_keywords:
+- certenroll/IX509PolicyServerListManager.Clear
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: CertEnroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CertEnroll.dll
+- CertEnroll.dll
 api_name:
- - IX509PolicyServerListManager.Clear
+- IX509PolicyServerListManager.Clear
 targetos: Windows
 req.typenames: 
 req.redist: 

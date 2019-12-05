@@ -1,19 +1,17 @@
 ---
 UID: NE:eaphostpeertypes._ISOLATION_STATE
 title: ISOLATION_STATE (eaphostpeertypes.h)
-
 description: Defines the set of possible isolation state values of a machine.
 old-location: eaphost\isolation_state.htm
 tech.root: eaphost
 ms.assetid: 460e447b-87c6-41df-8e8b-055e95426ca6
-
 ms.date: 12/05/2018
 ms.keywords: ISOLATION_STATE, ISOLATION_STATE enumeration [EAPHost], ISOLATION_STATE_IN_PROBATION, ISOLATION_STATE_NOT_RESTRICTED, ISOLATION_STATE_RESTRICTED_ACCESS, ISOLATION_STATE_UNKNOWN, eaphost.isolation_state, eaphostpeertypes/ISOLATION_STATE, eaphostpeertypes/ISOLATION_STATE_IN_PROBATION, eaphostpeertypes/ISOLATION_STATE_NOT_RESTRICTED, eaphostpeertypes/ISOLATION_STATE_RESTRICTED_ACCESS, eaphostpeertypes/ISOLATION_STATE_UNKNOWN
 ms.topic: enum
-f1_keywords: 
- - "eaphostpeertypes/ISOLATION_STATE"
+f1_keywords:
+- eaphostpeertypes/ISOLATION_STATE
 dev_langs:
- - c++
+- c++
 req.header: eaphostpeertypes.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - eaphostpeertypes.h
+- eaphostpeertypes.h
 api_name:
- - ISOLATION_STATE
+- ISOLATION_STATE
 targetos: Windows
 req.typenames: ISOLATION_STATE
 req.redist: 

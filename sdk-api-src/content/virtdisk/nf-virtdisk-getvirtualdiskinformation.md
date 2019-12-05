@@ -1,19 +1,17 @@
 ---
 UID: NF:virtdisk.GetVirtualDiskInformation
 title: GetVirtualDiskInformation function (virtdisk.h)
-
 description: Retrieves information about a VHD.
 old-location: vhd\getvirtualdiskinformation.htm
 tech.root: VStor
 ms.assetid: c3832be0-e9b8-4f6a-a663-06349c7fd639
-
 ms.date: 12/05/2018
 ms.keywords: GetVirtualDiskInformation, GetVirtualDiskInformation function [VHD], vdssys/GetVirtualDiskInformation, vhd.getvirtualdiskinformation, virtdisk/GetVirtualDiskInformation
 ms.topic: function
-f1_keywords: 
- - "virtdisk/GetVirtualDiskInformation"
+f1_keywords:
+- virtdisk/GetVirtualDiskInformation
 dev_langs:
- - c++
+- c++
 req.header: virtdisk.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: VirtDisk.lib
 req.dll: VirtDisk.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - VirtDisk.dll
+- VirtDisk.dll
 api_name:
- - GetVirtualDiskInformation
+- GetVirtualDiskInformation
 targetos: Windows
 req.typenames: 
 req.redist: 

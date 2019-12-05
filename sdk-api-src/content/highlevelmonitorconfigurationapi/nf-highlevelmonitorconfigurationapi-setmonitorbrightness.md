@@ -1,19 +1,17 @@
 ---
 UID: NF:highlevelmonitorconfigurationapi.SetMonitorBrightness
 title: SetMonitorBrightness function (highlevelmonitorconfigurationapi.h)
-
 description: Sets a monitor's brightness value.
 old-location: monitor\setmonitorbrightness.htm
 tech.root: Monitor
 ms.assetid: e7cf47f2-f833-4f34-89d2-3143ab57b561
-
 ms.date: 12/05/2018
 ms.keywords: SetMonitorBrightness, SetMonitorBrightness function [Monitor Configuration], highlevelmonitorconfigurationapi/SetMonitorBrightness, monitor.setmonitorbrightness
 ms.topic: function
-f1_keywords: 
- - "highlevelmonitorconfigurationapi/SetMonitorBrightness"
+f1_keywords:
+- highlevelmonitorconfigurationapi/SetMonitorBrightness
 dev_langs:
- - c++
+- c++
 req.header: highlevelmonitorconfigurationapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dxva2.lib
 req.dll: Dxva2.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - dxva2.dll
+- dxva2.dll
 api_name:
- - SetMonitorBrightness
+- SetMonitorBrightness
 targetos: Windows
 req.typenames: 
 req.redist: 

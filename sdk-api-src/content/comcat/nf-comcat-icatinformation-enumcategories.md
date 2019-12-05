@@ -1,19 +1,17 @@
 ---
 UID: NF:comcat.ICatInformation.EnumCategories
 title: ICatInformation::EnumCategories (comcat.h)
-
 description: Retrieves an enumerator for the component categories registered on the system.
 old-location: com\icatinformation_enumcategories.htm
 tech.root: com
 ms.assetid: d8e744f0-6e50-4260-89df-e2cc59937398
-
 ms.date: 12/05/2018
 ms.keywords: EnumCategories, EnumCategories method [COM], EnumCategories method [COM],ICatInformation interface, ICatInformation interface [COM],EnumCategories method, ICatInformation.EnumCategories, ICatInformation::EnumCategories, _com_icatinformation_enumcategories, com.icatinformation_enumcategories, comcat/ICatInformation::EnumCategories
 ms.topic: method
-f1_keywords: 
- - "comcat/ICatInformation.EnumCategories"
+f1_keywords:
+- comcat/ICatInformation.EnumCategories
 dev_langs:
- - c++
+- c++
 req.header: comcat.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComCat.h
+- ComCat.h
 api_name:
- - ICatInformation.EnumCategories
+- ICatInformation.EnumCategories
 targetos: Windows
 req.typenames: 
 req.redist: 

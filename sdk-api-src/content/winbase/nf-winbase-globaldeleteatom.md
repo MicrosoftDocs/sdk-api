@@ -1,19 +1,17 @@
 ---
 UID: NF:winbase.GlobalDeleteAtom
 title: GlobalDeleteAtom function (winbase.h)
-
 description: Decrements the reference count of a global string atom. If the atom's reference count reaches zero, GlobalDeleteAtom removes the string associated with the atom from the global atom table.
 old-location: dataxchg\globaldeleteatom.htm
 tech.root: dataxchg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\dataexchange\atoms\atomreference\atomfunctions\globaldeleteatom.htm
-
 ms.date: 12/05/2018
 ms.keywords: GlobalDeleteAtom, GlobalDeleteAtom function [Data Exchange], _win32_GlobalDeleteAtom, _win32_globaldeleteatom_cpp, dataxchg.globaldeleteatom, winbase/GlobalDeleteAtom, winui._win32_globaldeleteatom
 ms.topic: function
-f1_keywords: 
- - "winbase/GlobalDeleteAtom"
+f1_keywords:
+- winbase/GlobalDeleteAtom
 dev_langs:
- - c++
+- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-atoms-l1-1-0.dll
- - kernel32legacy.dll
- - API-MS-Win-DownLevel-Kernel32-l2-1-0.dll
+- Kernel32.dll
+- API-MS-Win-Core-atoms-l1-1-0.dll
+- kernel32legacy.dll
+- API-MS-Win-DownLevel-Kernel32-l2-1-0.dll
 api_name:
- - GlobalDeleteAtom
+- GlobalDeleteAtom
 targetos: Windows
 req.typenames: 
 req.redist: 

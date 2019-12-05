@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl.IResultsFolder.RemoveIDList
 title: IResultsFolder::RemoveIDList (shobjidl.h)
-
 description: Removes a pointer to an item identifier list (PIDL) from a results folder.
 old-location: shell\IResultsFolder_RemoveIDList.htm
 tech.root: shell
 ms.assetid: 188d4f7f-954c-4bba-ad4e-164085e0cc5a
-
 ms.date: 12/05/2018
 ms.keywords: IResultsFolder interface [Windows Shell],RemoveIDList method, IResultsFolder.RemoveIDList, IResultsFolder::RemoveIDList, RemoveIDList, RemoveIDList method [Windows Shell], RemoveIDList method [Windows Shell],IResultsFolder interface, _shell_IResultsFolder_RemoveIDList, shell.IResultsFolder_RemoveIDList, shobjidl/IResultsFolder::RemoveIDList
 ms.topic: method
-f1_keywords: 
- - "shobjidl/IResultsFolder.RemoveIDList"
+f1_keywords:
+- shobjidl/IResultsFolder.RemoveIDList
 dev_langs:
- - c++
+- c++
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shobjidl.h
+- Shobjidl.h
 api_name:
- - IResultsFolder.RemoveIDList
+- IResultsFolder.RemoveIDList
 targetos: Windows
 req.typenames: 
 req.redist: 

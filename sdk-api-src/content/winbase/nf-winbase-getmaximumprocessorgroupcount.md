@@ -1,19 +1,17 @@
 ---
 UID: NF:winbase.GetMaximumProcessorGroupCount
 title: GetMaximumProcessorGroupCount function (winbase.h)
-
 description: Returns the maximum number of processor groups that the system can have.
 old-location: base\getmaximumprocessorgroupcount.htm
 tech.root: ProcThread
 ms.assetid: 7762ec89-5892-4af3-9032-bf084aef9075
-
 ms.date: 12/05/2018
 ms.keywords: GetMaximumProcessorGroupCount, GetMaximumProcessorGroupCount function, base.getmaximumprocessorgroupcount, winbase/GetMaximumProcessorGroupCount
 ms.topic: function
-f1_keywords: 
- - "winbase/GetMaximumProcessorGroupCount"
+f1_keywords:
+- winbase/GetMaximumProcessorGroupCount
 dev_langs:
- - c++
+- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,22 +30,22 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - kernel32.dll
- - API-MS-Win-Core-Kernel32-Legacy-l1-1-0.dll
- - kernel32legacy.dll
- - API-MS-Win-Core-Kernel32-Legacy-l1-1-1.dll
- - API-MS-Win-Core-Kernel32-Legacy-l1-1-2.dll
- - API-MS-Win-DownLevel-Kernel32-l2-1-0.dll
- - API-MS-Win-Core-Kernel32-Legacy-L1-1-3.dll
- - API-MS-Win-Core-Kernel32-Legacy-L1-1-4.dll
- - API-MS-Win-Core-Kernel32-Legacy-L1-1-5.dll
+- kernel32.dll
+- API-MS-Win-Core-Kernel32-Legacy-l1-1-0.dll
+- kernel32legacy.dll
+- API-MS-Win-Core-Kernel32-Legacy-l1-1-1.dll
+- API-MS-Win-Core-Kernel32-Legacy-l1-1-2.dll
+- API-MS-Win-DownLevel-Kernel32-l2-1-0.dll
+- API-MS-Win-Core-Kernel32-Legacy-L1-1-3.dll
+- API-MS-Win-Core-Kernel32-Legacy-L1-1-4.dll
+- API-MS-Win-Core-Kernel32-Legacy-L1-1-5.dll
 api_name:
- - GetMaximumProcessorGroupCount
+- GetMaximumProcessorGroupCount
 targetos: Windows
 req.typenames: 
 req.redist: 

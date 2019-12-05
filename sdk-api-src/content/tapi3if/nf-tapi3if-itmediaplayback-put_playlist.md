@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi3if.ITMediaPlayback.put_PlayList
 title: ITMediaPlayback::put_PlayList (tapi3if.h)
-
 description: The put_PlayList method provides the file playback terminal with the list of files to play.
 old-location: tapi3\itmediaplayback_put_playlist.htm
 tech.root: Tapi
 ms.assetid: 685712ef-100f-4f8d-9b1f-c43170c0f197
-
 ms.date: 12/05/2018
 ms.keywords: ITMediaPlayback interface [TAPI 2.2],put_PlayList method, ITMediaPlayback.put_PlayList, ITMediaPlayback::put_PlayList, _tapi3_itmediaplayback_put_playlist, put_PlayList, put_PlayList method [TAPI 2.2], put_PlayList method [TAPI 2.2],ITMediaPlayback interface, tapi3.itmediaplayback_put_playlist, tapi3if/ITMediaPlayback::put_PlayList
 ms.topic: method
-f1_keywords: 
- - "tapi3if/ITMediaPlayback.put_PlayList"
+f1_keywords:
+- tapi3if/ITMediaPlayback.put_PlayList
 dev_langs:
- - c++
+- c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Tapi3.dll
+- Tapi3.dll
 api_name:
- - ITMediaPlayback.put_PlayList
+- ITMediaPlayback.put_PlayList
 targetos: Windows
 req.typenames: 
 req.redist: 

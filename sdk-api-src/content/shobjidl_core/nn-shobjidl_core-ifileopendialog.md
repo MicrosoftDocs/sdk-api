@@ -1,19 +1,17 @@
 ---
 UID: NN:shobjidl_core.IFileOpenDialog
 title: IFileOpenDialog (shobjidl_core.h)
-
 description: Extends the IFileDialog interface by adding methods specific to the open dialog.
 old-location: shell\IFileOpenDialog.htm
 tech.root: shell
 ms.assetid: f95b7106-18ab-4f7f-8d3f-267ac0293245
-
 ms.date: 12/05/2018
 ms.keywords: IFileOpenDialog, IFileOpenDialog interface [Windows Shell], IFileOpenDialog interface [Windows Shell],described, shell.IFileOpenDialog, shell_IFileOpenDialog, shobjidl_core/IFileOpenDialog
 ms.topic: interface
-f1_keywords: 
- - "shobjidl_core/IFileOpenDialog"
+f1_keywords:
+- shobjidl_core/IFileOpenDialog
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - IFileOpenDialog
+- IFileOpenDialog
 targetos: Windows
 req.typenames: 
 req.redist: 

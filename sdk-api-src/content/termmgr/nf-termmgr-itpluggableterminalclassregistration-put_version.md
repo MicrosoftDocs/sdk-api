@@ -1,19 +1,17 @@
 ---
 UID: NF:termmgr.ITPluggableTerminalClassRegistration.put_Version
 title: ITPluggableTerminalClassRegistration::put_Version (termmgr.h)
-
 description: The put_Version method sets the terminal version.
 old-location: tapi3\itpluggableterminalclassregistration_put_version.htm
 tech.root: Tapi
 ms.assetid: 1fd659d3-869b-4055-bbd2-e567d13f239d
-
 ms.date: 12/05/2018
 ms.keywords: ITPluggableTerminalClassRegistration interface [TAPI 2.2],put_Version method, ITPluggableTerminalClassRegistration.put_Version, ITPluggableTerminalClassRegistration::put_Version, _tapi3_itpluggableterminalclassregistration_put_version, put_Version, put_Version method [TAPI 2.2], put_Version method [TAPI 2.2],ITPluggableTerminalClassRegistration interface, tapi3.itpluggableterminalclassregistration_put_version, termmgr/ITPluggableTerminalClassRegistration::put_Version
 ms.topic: method
-f1_keywords: 
- - "termmgr/ITPluggableTerminalClassRegistration.put_Version"
+f1_keywords:
+- termmgr/ITPluggableTerminalClassRegistration.put_Version
 dev_langs:
- - c++
+- c++
 req.header: termmgr.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Tapi3.dll
+- Tapi3.dll
 api_name:
- - ITPluggableTerminalClassRegistration.put_Version
+- ITPluggableTerminalClassRegistration.put_Version
 targetos: Windows
 req.typenames: 
 req.redist: 

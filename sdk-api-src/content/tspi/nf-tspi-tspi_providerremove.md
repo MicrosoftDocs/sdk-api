@@ -1,19 +1,17 @@
 ---
 UID: NF:tspi.TSPI_providerRemove
 title: TSPI_providerRemove function (tspi.h)
-
 description: The TSPI_providerRemove function is obsolete. TAPI version 1.4 or earlier service providers can implement this TSPI function. TAPI version 2.0 or later TSPs implement TUISPI_providerRemove.
 old-location: tspi\tspi_providerremove.htm
 tech.root: Tapi
 ms.assetid: 3d6c6183-d5ab-4939-8f44-dfc42458706f
-
 ms.date: 12/05/2018
 ms.keywords: TSPI_providerRemove, TSPI_providerRemove function [TAPI 2.2], _tspi_tspi_providerremove, tspi.tspi_providerremove, tspi/TSPI_providerRemove
 ms.topic: function
-f1_keywords: 
- - "tspi/TSPI_providerRemove"
+f1_keywords:
+- tspi/TSPI_providerRemove
 dev_langs:
- - c++
+- c++
 req.header: tspi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Tspi.h
+- Tspi.h
 api_name:
- - TSPI_providerRemove
+- TSPI_providerRemove
 targetos: Windows
 req.typenames: 
 req.redist: 

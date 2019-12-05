@@ -1,19 +1,17 @@
 ---
 UID: NF:winuser.UnhookWindowsHookEx
 title: UnhookWindowsHookEx function (winuser.h)
-
 description: Removes a hook procedure installed in a hook chain by the SetWindowsHookEx function.
 old-location: winmsg\unhookwindowshookex.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\hooks\hookreference\hookfunctions\unhookwindowshookex.htm
-
 ms.date: 12/05/2018
 ms.keywords: UnhookWindowsHookEx, UnhookWindowsHookEx function [Windows and Messages], _win32_UnhookWindowsHookEx, _win32_unhookwindowshookex_cpp, winmsg.unhookwindowshookex, winui._win32_unhookwindowshookex, winuser/UnhookWindowsHookEx
 ms.topic: function
-f1_keywords: 
- - "winuser/UnhookWindowsHookEx"
+f1_keywords:
+- winuser/UnhookWindowsHookEx
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,21 +30,21 @@ req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - User32.dll
- - Ext-MS-Win-NTUser-Window-l1-1-0.dll
- - Ext-MS-Win-NTUser-Window-l1-1-1.dll
- - Ext-MS-Win-NTUser-Window-l1-1-2.dll
- - Ext-MS-Win-RTCore-NTUser-Window-Ext-l1-1-0.dll
- - minuser.dll
- - ext-ms-win-ntuser-window-l1-1-3.dll
- - Ext-MS-Win-NTUser-Window-L1-1-4.dll
+- User32.dll
+- Ext-MS-Win-NTUser-Window-l1-1-0.dll
+- Ext-MS-Win-NTUser-Window-l1-1-1.dll
+- Ext-MS-Win-NTUser-Window-l1-1-2.dll
+- Ext-MS-Win-RTCore-NTUser-Window-Ext-l1-1-0.dll
+- minuser.dll
+- ext-ms-win-ntuser-window-l1-1-3.dll
+- Ext-MS-Win-NTUser-Window-L1-1-4.dll
 api_name:
- - UnhookWindowsHookEx
+- UnhookWindowsHookEx
 targetos: Windows
 req.typenames: 
 req.redist: 

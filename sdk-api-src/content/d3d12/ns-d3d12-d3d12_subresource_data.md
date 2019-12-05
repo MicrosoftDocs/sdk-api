@@ -1,19 +1,17 @@
 ---
 UID: NS:d3d12.D3D12_SUBRESOURCE_DATA
 title: D3D12_SUBRESOURCE_DATA (d3d12.h)
-
 description: Describes subresource data.
 old-location: direct3d12\d3d12_subresource_data.htm
 tech.root: direct3d12
 ms.assetid: A2749C3A-FD61-4775-8727-2D1CFC79A0F8
-
 ms.date: 12/05/2018
 ms.keywords: D3D12_SUBRESOURCE_DATA, D3D12_SUBRESOURCE_DATA structure, d3d12/D3D12_SUBRESOURCE_DATA, direct3d12.d3d12_subresource_data
 ms.topic: struct
-f1_keywords: 
- - "d3d12/D3D12_SUBRESOURCE_DATA"
+f1_keywords:
+- d3d12/D3D12_SUBRESOURCE_DATA
 dev_langs:
- - c++
+- c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - D3D12.h
+- D3D12.h
 api_name:
- - D3D12_SUBRESOURCE_DATA
+- D3D12_SUBRESOURCE_DATA
 targetos: Windows
 req.typenames: D3D12_SUBRESOURCE_DATA
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:winuser.CreateIcon
 title: CreateIcon function (winuser.h)
-
 description: Creates an icon that has the specified size, colors, and bit patterns.
 old-location: menurc\createicon.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\icons\iconreference\iconfunctions\createicon.htm
-
 ms.date: 12/05/2018
 ms.keywords: CreateIcon, CreateIcon function [Menus and Other Resources], _win32_CreateIcon, _win32_createicon_cpp, menurc.createicon, winui._win32_createicon, winuser/CreateIcon
 ms.topic: function
-f1_keywords: 
- - "winuser/CreateIcon"
+f1_keywords:
+- winuser/CreateIcon
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - User32.dll
+- User32.dll
 api_name:
- - CreateIcon
+- CreateIcon
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:shlwapi.IntlStrEqNIW
 title: IntlStrEqNIW macro (shlwapi.h)
-
 description: Performs a case-insensitive comparison of a specified number of characters from the beginning of two localized strings.
 old-location: shell\IntlStrEqNI.htm
 tech.root: shell
 ms.assetid: 3d201726-b24a-4739-84fb-49b54d3f0f07
-
 ms.date: 12/05/2018
 ms.keywords: IntlStrEqNI, IntlStrEqNI function [Windows Shell], IntlStrEqNIA, IntlStrEqNIW, _win32_IntlStrEqNI, shell.IntlStrEqNI, shlwapi/IntlStrEqNI, shlwapi/IntlStrEqNIA, shlwapi/IntlStrEqNIW
 ms.topic: macro
-f1_keywords: 
- - "shlwapi/IntlStrEqNI"
+f1_keywords:
+- shlwapi/IntlStrEqNI
 dev_langs:
- - c++
+- c++
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Shlwapi.lib
 req.dll: Shlwapi.dll (version 5.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Shlwapi.dll
+- Shlwapi.dll
 api_name:
- - IntlStrEqNI
- - IntlStrEqNIA
- - IntlStrEqNIW
+- IntlStrEqNI
+- IntlStrEqNIA
+- IntlStrEqNIW
 targetos: Windows
 req.typenames: 
 req.redist: 

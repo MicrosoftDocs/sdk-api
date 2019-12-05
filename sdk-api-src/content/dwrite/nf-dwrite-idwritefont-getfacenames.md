@@ -1,19 +1,17 @@
 ---
 UID: NF:dwrite.IDWriteFont.GetFaceNames
 title: IDWriteFont::GetFaceNames (dwrite.h)
-
 description: Gets a localized strings collection containing the face names for the font (such as Regular or Bold), indexed by locale name.
 old-location: directwrite\IDWriteFont_GetFaceNames.htm
 tech.root: DirectWrite
 ms.assetid: 6475610a-68f0-4568-9d47-c83515dfa761
-
 ms.date: 12/05/2018
 ms.keywords: GetFaceNames, GetFaceNames method [Direct Write], GetFaceNames method [Direct Write],IDWriteFont interface, IDWriteFont interface [Direct Write],GetFaceNames method, IDWriteFont.GetFaceNames, IDWriteFont::GetFaceNames, directwrite.IDWriteFont_GetFaceNames, dwrite/IDWriteFont::GetFaceNames
 ms.topic: method
-f1_keywords: 
- - "dwrite/IDWriteFont.GetFaceNames"
+f1_keywords:
+- dwrite/IDWriteFont.GetFaceNames
 dev_langs:
- - c++
+- c++
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dwrite.lib
 req.dll: Dwrite.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dwrite.dll
+- dwrite.dll
 api_name:
- - IDWriteFont.GetFaceNames
+- IDWriteFont.GetFaceNames
 targetos: Windows
 req.typenames: 
 req.redist: 

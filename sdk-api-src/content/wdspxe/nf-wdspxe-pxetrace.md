@@ -1,19 +1,17 @@
 ---
 UID: NF:wdspxe.PxeTrace
 title: PxeTrace function (wdspxe.h)
-
 description: Adds a trace entry to the PXE log.
 old-location: wds\pxetrace.htm
 tech.root: wds
 ms.assetid: 220f15bf-f33a-4706-a52d-f11c40f49ac0
-
 ms.date: 12/05/2018
 ms.keywords: PXE_TRACE_ERROR, PXE_TRACE_FATAL, PXE_TRACE_INFO, PXE_TRACE_VERBOSE, PXE_TRACE_WARNING, PxeTrace, PxeTrace function [Windows Deployment Services], wds.pxetrace, wdspxe/PxeTrace
 ms.topic: function
-f1_keywords: 
- - "wdspxe/PxeTrace"
+f1_keywords:
+- wdspxe/PxeTrace
 dev_langs:
- - c++
+- c++
 req.header: wdspxe.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: WdsPxe.lib
 req.dll: WdsPxe.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - WdsPxe.dll
+- WdsPxe.dll
 api_name:
- - PxeTrace
+- PxeTrace
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NS:msctf.TF_HALTCOND
 title: TF_HALTCOND (msctf.h)
-
 description: The TF_HALTCOND structure is used to contain conditions of a range shift.
 old-location: tsf\tf_haltcond.htm
 tech.root: TSF
 ms.assetid: 055f3228-1e3b-4e31-9035-e509a98016a8
-
 ms.date: 12/05/2018
 ms.keywords: TF_HALTCOND, TF_HALTCOND structure [Text Services Framework], _tsf_tf_haltcond_ref, msctf/TF_HALTCOND, tsf.tf_haltcond
 ms.topic: struct
-f1_keywords: 
- - "msctf/TF_HALTCOND"
+f1_keywords:
+- msctf/TF_HALTCOND
 dev_langs:
- - c++
+- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Msctf.h
+- Msctf.h
 api_name:
- - TF_HALTCOND
+- TF_HALTCOND
 targetos: Windows
 req.typenames: TF_HALTCOND
 req.redist: TSF 1.0 on Windows 2000 Professional

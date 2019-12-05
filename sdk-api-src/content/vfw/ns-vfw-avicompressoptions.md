@@ -1,19 +1,17 @@
 ---
 UID: NS:vfw.__unnamed_struct_17
 title: AVICOMPRESSOPTIONS (vfw.h)
-
 description: The AVICOMPRESSOPTIONS structure contains information about a stream and how it is compressed and saved. This structure passes data to the AVIMakeCompressedStream function (or the AVISave function, which uses AVIMakeCompressedStream).
 old-location: multimedia\avicompressoptions.htm
 tech.root: Multimedia
 ms.assetid: 8084adc3-792f-4a6c-b407-51e0e435e629
-
 ms.date: 12/05/2018
-ms.keywords: "*LPAVICOMPRESSOPTIONS, AVICOMPRESSF_DATARATE, AVICOMPRESSF_INTERLEAVE, AVICOMPRESSF_KEYFRAMES, AVICOMPRESSF_VALID, AVICOMPRESSOPTIONS, AVICOMPRESSOPTIONS structure [Windows Multimedia], _win32_AVICOMPRESSOPTIONS_str, multimedia.avicompressoptions, streamtypeAUDIO, streamtypeMIDI, streamtypeTEXT, streamtypeVIDEO, vfw/AVICOMPRESSOPTIONS"
+ms.keywords: '*LPAVICOMPRESSOPTIONS, AVICOMPRESSF_DATARATE, AVICOMPRESSF_INTERLEAVE, AVICOMPRESSF_KEYFRAMES, AVICOMPRESSF_VALID, AVICOMPRESSOPTIONS, AVICOMPRESSOPTIONS structure [Windows Multimedia], _win32_AVICOMPRESSOPTIONS_str, multimedia.avicompressoptions, streamtypeAUDIO, streamtypeMIDI, streamtypeTEXT, streamtypeVIDEO, vfw/AVICOMPRESSOPTIONS'
 ms.topic: struct
-f1_keywords: 
- - "vfw/AVICOMPRESSOPTIONS"
+f1_keywords:
+- vfw/AVICOMPRESSOPTIONS
 dev_langs:
- - c++
+- c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Vfw.h
+- Vfw.h
 api_name:
- - AVICOMPRESSOPTIONS
+- AVICOMPRESSOPTIONS
 targetos: Windows
 req.typenames: AVICOMPRESSOPTIONS, *LPAVICOMPRESSOPTIONS
 req.redist: 

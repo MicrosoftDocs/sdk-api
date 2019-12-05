@@ -1,19 +1,17 @@
 ---
 UID: NF:wia_xp.IWiaItemExtras.GetExtendedErrorInfo
 title: IWiaItemExtras::GetExtendedErrorInfo (wia_xp.h)
-
 description: The IWiaItemExtras::GetExtendedErrorInfo method gets a string from the device driver that contains information about the most recent error.
 old-location: wia\_wia_IWiaItemExtras_GetExtendedErrorInfo.htm
 tech.root: wia
 ms.assetid: VS|wia|~\wia\refwia\ifaces\iwiaitemextras\getextendederrorinfo.htm
-
 ms.date: 12/05/2018
 ms.keywords: GetExtendedErrorInfo, GetExtendedErrorInfo method [WIA], GetExtendedErrorInfo method [WIA],IWiaItemExtras interface, IWiaItemExtras interface [WIA],GetExtendedErrorInfo method, IWiaItemExtras.GetExtendedErrorInfo, IWiaItemExtras::GetExtendedErrorInfo, _wia_IWiaItemExtras_GetExtendedErrorInfo, wia._wia_IWiaItemExtras_GetExtendedErrorInfo, wia_xp/IWiaItemExtras::GetExtendedErrorInfo
 ms.topic: method
-f1_keywords: 
- - "wia_xp/IWiaItemExtras.GetExtendedErrorInfo"
+f1_keywords:
+- wia_xp/IWiaItemExtras.GetExtendedErrorInfo
 dev_langs:
- - c++
+- c++
 req.header: wia_xp.h
 req.include-header: Wia.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Wiaguid.lib
 req.dll: Wiaservc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wiaservc.dll
+- Wiaservc.dll
 api_name:
- - IWiaItemExtras.GetExtendedErrorInfo
+- IWiaItemExtras.GetExtendedErrorInfo
 targetos: Windows
 req.typenames: 
 req.redist: 

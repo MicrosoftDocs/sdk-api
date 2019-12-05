@@ -1,19 +1,17 @@
 ---
 UID: NF:winuser.GetSystemMenu
 title: GetSystemMenu function (winuser.h)
-
 description: Enables the application to access the window menu (also known as the system menu or the control menu) for copying and modifying.
 old-location: menurc\getsystemmenu.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\menus\menureference\menufunctions\getsystemmenu.htm
-
 ms.date: 12/05/2018
 ms.keywords: GetSystemMenu, GetSystemMenu function [Menus and Other Resources], _win32_GetSystemMenu, _win32_getsystemmenu_cpp, menurc.getsystemmenu, winui._win32_getsystemmenu, winuser/GetSystemMenu
 ms.topic: function
-f1_keywords: 
- - "winuser/GetSystemMenu"
+f1_keywords:
+- winuser/GetSystemMenu
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - User32.dll
- - Ext-MS-Win-NTUser-Menu-l1-1-0.dll
- - Ext-MS-Win-NTUser-Menu-l1-1-1.dll
- - ext-ms-win-ntuser-menu-l1-1-2.dll
- - Ext-MS-Win-NTUser-Menu-L1-1-3.dll
+- User32.dll
+- Ext-MS-Win-NTUser-Menu-l1-1-0.dll
+- Ext-MS-Win-NTUser-Menu-l1-1-1.dll
+- ext-ms-win-ntuser-menu-l1-1-2.dll
+- Ext-MS-Win-NTUser-Menu-L1-1-3.dll
 api_name:
- - GetSystemMenu
+- GetSystemMenu
 targetos: Windows
 req.typenames: 
 req.redist: 

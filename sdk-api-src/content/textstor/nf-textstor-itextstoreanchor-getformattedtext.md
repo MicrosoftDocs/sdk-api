@@ -1,19 +1,17 @@
 ---
 UID: NF:textstor.ITextStoreAnchor.GetFormattedText
 title: ITextStoreAnchor::GetFormattedText (textstor.h)
-
 description: The ITextStoreAnchor::GetFormattedText method returns formatted text information from a text stream.
 old-location: tsf\itextstoreanchor_getformattedtext.htm
 tech.root: TSF
 ms.assetid: 2b104b0a-b900-4acb-801e-d9716e3a0146
-
 ms.date: 12/05/2018
 ms.keywords: GetFormattedText, GetFormattedText method [Text Services Framework], GetFormattedText method [Text Services Framework],ITextStoreAnchor interface, ITextStoreAnchor interface [Text Services Framework],GetFormattedText method, ITextStoreAnchor.GetFormattedText, ITextStoreAnchor::GetFormattedText, textstor/ITextStoreAnchor::GetFormattedText, tsf.itextstoreanchor_getformattedtext
 ms.topic: method
-f1_keywords: 
- - "textstor/ITextStoreAnchor.GetFormattedText"
+f1_keywords:
+- textstor/ITextStoreAnchor.GetFormattedText
 dev_langs:
- - c++
+- c++
 req.header: textstor.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msctf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msctf.dll
+- msctf.dll
 api_name:
- - ITextStoreAnchor.GetFormattedText
+- ITextStoreAnchor.GetFormattedText
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

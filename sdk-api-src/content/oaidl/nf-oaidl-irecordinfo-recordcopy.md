@@ -1,19 +1,17 @@
 ---
 UID: NF:oaidl.IRecordInfo.RecordCopy
 title: IRecordInfo::RecordCopy (oaidl.h)
-
 description: Copies an existing record into the passed in buffer.
 old-location: automat\irecordinfo_recordcopy.htm
 tech.root: automat
 ms.assetid: 0e5a57a2-06d1-47b3-8e3c-c8718b550bcb
-
 ms.date: 12/05/2018
 ms.keywords: IRecordInfo interface [Automation],RecordCopy method, IRecordInfo.RecordCopy, IRecordInfo::RecordCopy, RecordCopy, RecordCopy method [Automation], RecordCopy method [Automation],IRecordInfo interface, _oa96_IRecordInfo_RecordCopy, automat.irecordinfo_recordcopy, oaidl/IRecordInfo::RecordCopy
 ms.topic: method
-f1_keywords: 
- - "oaidl/IRecordInfo.RecordCopy"
+f1_keywords:
+- oaidl/IRecordInfo.RecordCopy
 dev_langs:
- - c++
+- c++
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - oaidl.h
+- oaidl.h
 api_name:
- - IRecordInfo.RecordCopy
+- IRecordInfo.RecordCopy
 targetos: Windows
 req.typenames: 
 req.redist: 

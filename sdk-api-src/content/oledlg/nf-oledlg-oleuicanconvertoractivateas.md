@@ -1,19 +1,17 @@
 ---
 UID: NF:oledlg.OleUICanConvertOrActivateAs
 title: OleUICanConvertOrActivateAs function (oledlg.h)
-
 description: Determines if there are any OLE object classes in the registry that can be used to convert or activate the specified CLSID from.
 old-location: com\oleuicanconvertoractivateas.htm
 tech.root: com
 ms.assetid: 9ecd978e-eded-472b-8d45-525bae56bded
-
 ms.date: 12/05/2018
 ms.keywords: OleUICanConvertOrActivateAs, OleUICanConvertOrActivateAs function [COM], _ole_OleUICanConvertOrActivateAs, com.oleuicanconvertoractivateas, oledlg/OleUICanConvertOrActivateAs
 ms.topic: function
-f1_keywords: 
- - "oledlg/OleUICanConvertOrActivateAs"
+f1_keywords:
+- oledlg/OleUICanConvertOrActivateAs
 dev_langs:
- - c++
+- c++
 req.header: oledlg.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: OleDlg.lib
 req.dll: OleDlg.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - OleDlg.dll
+- OleDlg.dll
 api_name:
- - OleUICanConvertOrActivateAs
+- OleUICanConvertOrActivateAs
 targetos: Windows
 req.typenames: 
 req.redist: 

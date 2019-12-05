@@ -1,19 +1,17 @@
 ---
 UID: NF:mfmediaengine.IMFMediaEngine.HasAudio
 title: IMFMediaEngine::HasAudio (mfmediaengine.h)
-
 description: Queries whether the current media resource contains an audio stream.
 old-location: mf\imfmediaengine_hasaudio.htm
 tech.root: medfound
 ms.assetid: D06A773E-8D41-40D1-BA10-65AEFF2D7667
-
 ms.date: 12/05/2018
 ms.keywords: HasAudio, HasAudio method [Media Foundation], HasAudio method [Media Foundation],IMFMediaEngine interface, IMFMediaEngine interface [Media Foundation],HasAudio method, IMFMediaEngine.HasAudio, IMFMediaEngine::HasAudio, mf.imfmediaengine_hasaudio, mfmediaengine/IMFMediaEngine::HasAudio
 ms.topic: method
-f1_keywords: 
- - "mfmediaengine/IMFMediaEngine.HasAudio"
+f1_keywords:
+- mfmediaengine/IMFMediaEngine.HasAudio
 dev_langs:
- - c++
+- c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfmediaengine.h
+- mfmediaengine.h
 api_name:
- - IMFMediaEngine.HasAudio
+- IMFMediaEngine.HasAudio
 targetos: Windows
 req.typenames: 
 req.redist: 

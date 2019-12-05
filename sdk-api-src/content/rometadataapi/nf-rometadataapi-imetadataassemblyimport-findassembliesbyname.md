@@ -1,19 +1,17 @@
 ---
 UID: NF:rometadataapi.IMetaDataAssemblyImport.FindAssembliesByName
 title: IMetaDataAssemblyImport::FindAssembliesByName (rometadataapi.h)
-
 description: Gets an array of assemblies with the specified name, using the standard rules employed by the common language runtime (CLR) for resolving references.
 old-location: winrt\imetadataassemblyimport_findassembliesbyname.htm
 tech.root: WinRT
 ms.assetid: 147158ba-060e-404e-9721-3d0c2498f5c9
-
 ms.date: 12/05/2018
 ms.keywords: FindAssembliesByName, FindAssembliesByName method [Windows Runtime], FindAssembliesByName method [Windows Runtime],IMetaDataAssemblyImport interface, IMetaDataAssemblyImport interface [Windows Runtime],FindAssembliesByName method, IMetaDataAssemblyImport.FindAssembliesByName, IMetaDataAssemblyImport::FindAssembliesByName, rometadataapi/IMetaDataAssemblyImport::FindAssembliesByName, winrt.imetadataassemblyimport_findassembliesbyname
 ms.topic: method
-f1_keywords: 
- - "rometadataapi/IMetaDataAssemblyImport.FindAssembliesByName"
+f1_keywords:
+- rometadataapi/IMetaDataAssemblyImport.FindAssembliesByName
 dev_langs:
- - c++
+- c++
 req.header: rometadataapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - rometadataapi.h
+- rometadataapi.h
 api_name:
- - IMetaDataAssemblyImport.FindAssembliesByName
+- IMetaDataAssemblyImport.FindAssembliesByName
 targetos: Windows
 req.typenames: 
 req.redist: 

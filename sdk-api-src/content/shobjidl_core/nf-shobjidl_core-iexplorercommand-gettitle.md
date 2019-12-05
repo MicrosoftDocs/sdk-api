@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IExplorerCommand.GetTitle
 title: IExplorerCommand::GetTitle (shobjidl_core.h)
-
 description: Gets the title text of the button or menu item that launches a specified Windows Explorer command item.
 old-location: shell\IExplorerCommand_GetTitle.htm
 tech.root: shell
 ms.assetid: d03ca4c5-80a5-4b7d-a47b-a67c72b7883c
-
 ms.date: 12/05/2018
 ms.keywords: GetTitle, GetTitle method [Windows Shell], GetTitle method [Windows Shell],IExplorerCommand interface, IExplorerCommand interface [Windows Shell],GetTitle method, IExplorerCommand.GetTitle, IExplorerCommand::GetTitle, _shell_IExplorerCommand_GetTitle, shell.IExplorerCommand_GetTitle, shobjidl_core/IExplorerCommand::GetTitle
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IExplorerCommand.GetTitle"
+f1_keywords:
+- shobjidl_core/IExplorerCommand.GetTitle
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - IExplorerCommand.GetTitle
+- IExplorerCommand.GetTitle
 targetos: Windows
 req.typenames: 
 req.redist: 

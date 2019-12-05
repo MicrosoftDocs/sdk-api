@@ -1,19 +1,17 @@
 ---
 UID: NF:casetup.IMSCEPSetup.GetProviderNameList
 title: IMSCEPSetup::GetProviderNameList (casetup.h)
-
 description: Gets the list of cryptographic service providers (CSPs) that provide asymmetric key signature and exchange algorithms on the computer.
 old-location: security\imscepsetup_getprovidernamelist.htm
 tech.root: SecCrypto
 ms.assetid: e2b5bae3-fc85-4277-8ee9-3911dacf3302
-
 ms.date: 12/05/2018
 ms.keywords: GetProviderNameList, GetProviderNameList method [Security], GetProviderNameList method [Security],IMSCEPSetup interface, IMSCEPSetup interface [Security],GetProviderNameList method, IMSCEPSetup.GetProviderNameList, IMSCEPSetup::GetProviderNameList, casetup/IMSCEPSetup::GetProviderNameList, security.imscepsetup_getprovidernamelist
 ms.topic: method
-f1_keywords: 
- - "casetup/IMSCEPSetup.GetProviderNameList"
+f1_keywords:
+- casetup/IMSCEPSetup.GetProviderNameList
 dev_langs:
- - c++
+- c++
 req.header: casetup.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Certocm.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Certocm.dll
+- Certocm.dll
 api_name:
- - IMSCEPSetup.GetProviderNameList
+- IMSCEPSetup.GetProviderNameList
 targetos: Windows
 req.typenames: 
 req.redist: 

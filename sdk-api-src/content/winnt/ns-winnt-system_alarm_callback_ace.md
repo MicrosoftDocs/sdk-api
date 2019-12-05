@@ -1,19 +1,17 @@
 ---
 UID: NS:winnt._SYSTEM_ALARM_CALLBACK_ACE
 title: SYSTEM_ALARM_CALLBACK_ACE (winnt.h)
-
 description: The SYSTEM_ALARM_CALLBACK_ACE structure is reserved for future use.
 old-location: security\system_alarm_callback_ace.htm
 tech.root: SecAuthZ
 ms.assetid: 8bfb579f-4bee-454e-827b-63a800bccf85
-
 ms.date: 12/05/2018
 ms.keywords: '*PSYSTEM_ALARM_CALLBACK_ACE, SYSTEM_ALARM_CALLBACK_ACE, SYSTEM_ALARM_CALLBACK_ACE structure [Security], security.system_alarm_callback_ace, winnt/SYSTEM_ALARM_CALLBACK_ACE'
 ms.topic: struct
 f1_keywords:
 - winnt/SYSTEM_ALARM_CALLBACK_ACE
 dev_langs:
- - c++
+- c++
 req.header: winnt.h
 req.include-header: 
 req.target-type: Windows

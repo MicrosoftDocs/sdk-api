@@ -1,19 +1,17 @@
 ---
 UID: NF:imapi.IDiscMaster.GetActiveDiscMasterFormat
 title: IDiscMaster::GetActiveDiscMasterFormat (imapi.h)
-
 description: Retrieves the active disc recorder format. The active format specifies both the structure of the staged image file content (audio/data) and the COM interface that must be used to manipulate that staged image.
 old-location: imapi\idiscmaster_getactivediscmasterformat.htm
 tech.root: imapi
 ms.assetid: 37677090-fa1d-4515-9b01-13bfa55d8ebb
-
 ms.date: 12/05/2018
 ms.keywords: GetActiveDiscMasterFormat, GetActiveDiscMasterFormat method [IMAPI], GetActiveDiscMasterFormat method [IMAPI],IDiscMaster interface, IDiscMaster interface [IMAPI],GetActiveDiscMasterFormat method, IDiscMaster.GetActiveDiscMasterFormat, IDiscMaster::GetActiveDiscMasterFormat, _win32_idiscmaster_getactivediscmasterformat, base.idiscmaster_getactivediscmasterformat, imapi.idiscmaster_getactivediscmasterformat, imapi/IDiscMaster::GetActiveDiscMasterFormat
 ms.topic: method
-f1_keywords: 
- - "imapi/IDiscMaster.GetActiveDiscMasterFormat"
+f1_keywords:
+- imapi/IDiscMaster.GetActiveDiscMasterFormat
 dev_langs:
- - c++
+- c++
 req.header: imapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Actxprxy.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Actxprxy.dll
+- Actxprxy.dll
 api_name:
- - IDiscMaster.GetActiveDiscMasterFormat
+- IDiscMaster.GetActiveDiscMasterFormat
 targetos: Windows
 req.typenames: 
 req.redist: 

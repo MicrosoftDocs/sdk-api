@@ -1,19 +1,17 @@
 ---
 UID: NN:devicetopology.IKsJackSinkInformation
 title: IKsJackSinkInformation (devicetopology.h)
-
 description: The IKsJackSinkInformation interface provides access to jack sink information if the jack is supported by the hardware.
 old-location: coreaudio\iksjacksinkinformation.htm
 tech.root: CoreAudio
 ms.assetid: 4116a912-5ff2-4fc0-96c6-61d1e62cd973
-
 ms.date: 12/05/2018
 ms.keywords: IKsJackSinkInformation, IKsJackSinkInformation interface [Core Audio], IKsJackSinkInformation interface [Core Audio],described, coreaudio.iksjacksinkinformation, devicetopology/IKsJackSinkInformation
 ms.topic: interface
-f1_keywords: 
- - "devicetopology/IKsJackSinkInformation"
+f1_keywords:
+- devicetopology/IKsJackSinkInformation
 dev_langs:
- - c++
+- c++
 req.header: devicetopology.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Devicetopology.h
+- Devicetopology.h
 api_name:
- - IKsJackSinkInformation
+- IKsJackSinkInformation
 targetos: Windows
 req.typenames: 
 req.redist: 

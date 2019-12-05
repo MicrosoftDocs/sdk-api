@@ -1,19 +1,17 @@
 ---
 UID: NS:d3d11shadertracing.D3D11_TRACE_STEP
 title: D3D11_TRACE_STEP (d3d11shadertracing.h)
-
 description: Describes a trace step, which is an instruction.
 old-location: direct3d11\d3d11_trace_step.htm
 tech.root: direct3d11
 ms.assetid: E4C4757F-4948-41C9-97FB-446B26BE8E93
-
 ms.date: 12/05/2018
 ms.keywords: D3D11_TRACE_STEP, D3D11_TRACE_STEP structure [Direct3D 11], d3d11shadertracing/D3D11_TRACE_STEP, direct3d11.d3d11_trace_step
 ms.topic: struct
-f1_keywords: 
- - "d3d11shadertracing/D3D11_TRACE_STEP"
+f1_keywords:
+- d3d11shadertracing/D3D11_TRACE_STEP
 dev_langs:
- - c++
+- c++
 req.header: d3d11shadertracing.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - D3D11ShaderTracing.h
+- D3D11ShaderTracing.h
 api_name:
- - D3D11_TRACE_STEP
+- D3D11_TRACE_STEP
 targetos: Windows
 req.typenames: D3D11_TRACE_STEP
 req.redist: 

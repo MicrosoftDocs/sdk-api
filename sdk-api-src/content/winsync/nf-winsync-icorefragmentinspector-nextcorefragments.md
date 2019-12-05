@@ -1,19 +1,17 @@
 ---
 UID: NF:winsync.ICoreFragmentInspector.NextCoreFragments
 title: ICoreFragmentInspector::NextCoreFragments (winsync.h)
-
 description: Returns the next ICoreFragment objects in the knowledge, if they are available.
 old-location: winsync\icorefragmentinspector_nextcorefragments.htm
 tech.root: winsync
 ms.assetid: 801a2643-d954-44b8-83ce-021be893d06a
-
 ms.date: 12/05/2018
 ms.keywords: ICoreFragmentInspector interface [Windows Sync],NextCoreFragments method, ICoreFragmentInspector.NextCoreFragments, ICoreFragmentInspector::NextCoreFragments, NextCoreFragments, NextCoreFragments method [Windows Sync], NextCoreFragments method [Windows Sync],ICoreFragmentInspector interface, winsync.icorefragmentinspector_nextcorefragments, winsync/ICoreFragmentInspector::NextCoreFragments
 ms.topic: method
-f1_keywords: 
- - "winsync/ICoreFragmentInspector.NextCoreFragments"
+f1_keywords:
+- winsync/ICoreFragmentInspector.NextCoreFragments
 dev_langs:
- - c++
+- c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - winsync.h
+- winsync.h
 api_name:
- - ICoreFragmentInspector.NextCoreFragments
+- ICoreFragmentInspector.NextCoreFragments
 targetos: Windows
 req.typenames: 
 req.redist: 

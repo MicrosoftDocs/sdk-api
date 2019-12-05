@@ -1,19 +1,17 @@
 ---
 UID: NF:objidlbase.IRpcProxyBuffer.Disconnect
 title: IRpcProxyBuffer::Disconnect (objidlbase.h)
-
 description: Disconnects a client proxy from any RPC channel to which it is connected.
 old-location: com\irpcproxybuffer_disconnect.htm
 tech.root: com
 ms.assetid: 4ead4a47-7089-472d-b489-b725329ea5ab
-
 ms.date: 12/05/2018
 ms.keywords: Disconnect, Disconnect method [COM], Disconnect method [COM],IRpcProxyBuffer interface, IRpcProxyBuffer interface [COM],Disconnect method, IRpcProxyBuffer.Disconnect, IRpcProxyBuffer::Disconnect, _com_irpcproxybuffer_disconnect, com.irpcproxybuffer_disconnect, objidlbase/IRpcProxyBuffer::Disconnect
 ms.topic: method
-f1_keywords: 
- - "objidlbase/IRpcProxyBuffer.Disconnect"
+f1_keywords:
+- objidlbase/IRpcProxyBuffer.Disconnect
 dev_langs:
- - c++
+- c++
 req.header: objidlbase.h
 req.include-header: ObjIdl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - objidlbase.h
+- objidlbase.h
 api_name:
- - IRpcProxyBuffer.Disconnect
+- IRpcProxyBuffer.Disconnect
 targetos: Windows
 req.typenames: 
 req.redist: 

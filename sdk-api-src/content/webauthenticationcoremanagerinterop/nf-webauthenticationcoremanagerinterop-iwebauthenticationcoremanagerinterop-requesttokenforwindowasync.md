@@ -5,10 +5,10 @@ description: Asynchronously requests a token from a web account provider. If nec
 ms.date: 5/28/2019
 ms.keywords: IWebAuthenticationCoreManagerInterop::RequestTokenForWindowAsync
 ms.topic: language-reference
-f1_keywords: 
- - "webauthenticationcoremanagerinterop/IWebAuthenticationCoreManagerInterop::RequestTokenForWindowAsync"
+f1_keywords:
+- webauthenticationcoremanagerinterop/IWebAuthenticationCoreManagerInterop::RequestTokenForWindowAsync
 dev_langs:
- - c++
+- c++
 targetos: Windows
 req.assembly: 
 req.construct-type: function
@@ -30,13 +30,13 @@ req.type-library:
 req.umdf-ver: 
 req.unicode-ansi: 
 topic_type:
- - apiref
+- apiref
 api_type:
- - COM
+- COM
 api_location:
- - webauthenticationcoremanagerinterop.h
+- webauthenticationcoremanagerinterop.h
 api_name:
- - IWebAuthenticationCoreManagerInterop::RequestTokenForWindowAsync
+- IWebAuthenticationCoreManagerInterop::RequestTokenForWindowAsync
 tech.root: winrt
 ---
 

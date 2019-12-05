@@ -1,19 +1,17 @@
 ---
 UID: NF:shlwapi.SHRegEnumUSKeyW
 title: SHRegEnumUSKeyW function (shlwapi.h)
-
 description: Enumerates the subkeys of a registry subkey in a user-specific subtree (HKEY_CURRENT_USER or HKEY_LOCAL_MACHINE).
 old-location: shell\SHRegEnumUSKey.htm
 tech.root: shell
 ms.assetid: 9418ad45-f451-4976-afd7-fa1e0088038d
-
 ms.date: 12/05/2018
 ms.keywords: SHRegEnumUSKey, SHRegEnumUSKey function [Windows Shell], SHRegEnumUSKeyA, SHRegEnumUSKeyW, _win32_SHRegEnumUSKey, shell.SHRegEnumUSKey, shlwapi/SHRegEnumUSKey, shlwapi/SHRegEnumUSKeyA, shlwapi/SHRegEnumUSKeyW
 ms.topic: function
-f1_keywords: 
- - "shlwapi/SHRegEnumUSKey"
+f1_keywords:
+- shlwapi/SHRegEnumUSKey
 dev_langs:
- - c++
+- c++
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,20 +30,20 @@ req.lib: Shlwapi.lib
 req.dll: Shlwapi.dll (version 4.71 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Shlwapi.dll
- - API-MS-Win-Core-Registryuserspecific-l1-1-0.dll
- - KernelBase.dll
- - API-MS-Win-DownLevel-shlwapi-l1-1-0.dll
- - API-MS-Win-DownLevel-shlwapi-l1-1-1.dll
+- Shlwapi.dll
+- API-MS-Win-Core-Registryuserspecific-l1-1-0.dll
+- KernelBase.dll
+- API-MS-Win-DownLevel-shlwapi-l1-1-0.dll
+- API-MS-Win-DownLevel-shlwapi-l1-1-1.dll
 api_name:
- - SHRegEnumUSKey
- - SHRegEnumUSKeyA
- - SHRegEnumUSKeyW
+- SHRegEnumUSKey
+- SHRegEnumUSKeyA
+- SHRegEnumUSKeyW
 targetos: Windows
 req.typenames: 
 req.redist: 

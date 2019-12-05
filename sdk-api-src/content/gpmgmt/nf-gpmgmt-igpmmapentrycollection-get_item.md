@@ -1,19 +1,17 @@
 ---
 UID: NF:gpmgmt.IGPMMapEntryCollection.get_Item
 title: IGPMMapEntryCollection::get_Item (gpmgmt.h)
-
 description: Given an index, returns a map entry from the collection.
 old-location: gpmc\igpmmapentrycollection_get_item.htm
 tech.root: gpmc
 ms.assetid: d68d4531-bf68-42ac-8055-9e00ce4a2c00
-
 ms.date: 12/05/2018
 ms.keywords: GPMMapEntryCollection class [GPMC],Item property, IGPMMapEntryCollection interface [GPMC],Item property, IGPMMapEntryCollection.Item, IGPMMapEntryCollection.get_Item, IGPMMapEntryCollection::Item, IGPMMapEntryCollection::get_Item, Item property [GPMC], Item property [GPMC],GPMMapEntryCollection class, Item property [GPMC],IGPMMapEntryCollection interface, get_Item, gpmc.igpmmapentrycollection_get_item, gpmgmt/IGPMMapEntryCollection::Item, gpmgmt/IGPMMapEntryCollection::get_Item
 ms.topic: method
-f1_keywords: 
- - "gpmgmt/IGPMMapEntryCollection.Item"
+f1_keywords:
+- gpmgmt/IGPMMapEntryCollection.Item
 dev_langs:
- - c++
+- c++
 req.header: gpmgmt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: Gpmgmt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gpmgmt.dll
+- Gpmgmt.dll
 api_name:
- - IGPMMapEntryCollection.Item
- - IGPMMapEntryCollection.get_Item
- - GPMMapEntryCollection.Item
+- IGPMMapEntryCollection.Item
+- IGPMMapEntryCollection.get_Item
+- GPMMapEntryCollection.Item
 targetos: Windows
 req.typenames: 
 req.redist: 

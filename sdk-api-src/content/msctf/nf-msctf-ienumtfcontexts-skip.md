@@ -1,19 +1,17 @@
 ---
 UID: NF:msctf.IEnumTfContexts.Skip
 title: IEnumTfContexts::Skip (msctf.h)
-
 description: IEnumTfContexts::Skip method
 old-location: tsf\ienumtfcontexts_skip.htm
 tech.root: TSF
 ms.assetid: 68f0c073-0ba5-4a46-a459-b213145aebd6
-
 ms.date: 12/05/2018
 ms.keywords: IEnumTfContexts interface [Text Services Framework],Skip method, IEnumTfContexts.Skip, IEnumTfContexts::Skip, Skip, Skip method [Text Services Framework], Skip method [Text Services Framework],IEnumTfContexts interface, _tsf_ienumtfcontexts_skip_ref, msctf/IEnumTfContexts::Skip, tsf.ienumtfcontexts_skip
 ms.topic: method
-f1_keywords: 
- - "msctf/IEnumTfContexts.Skip"
+f1_keywords:
+- msctf/IEnumTfContexts.Skip
 dev_langs:
- - c++
+- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msctf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msctf.dll
+- msctf.dll
 api_name:
- - IEnumTfContexts.Skip
+- IEnumTfContexts.Skip
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

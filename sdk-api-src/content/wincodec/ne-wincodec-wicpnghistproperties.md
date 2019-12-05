@@ -1,19 +1,17 @@
 ---
 UID: NE:wincodec.WICPngHistProperties
 title: WICPngHistProperties (wincodec.h)
-
 description: Specifies the Portable Network Graphics (PNG) hIST chunk metadata properties.
 old-location: wic\_wic_codec_wicpnghistproperties.htm
 tech.root: wic
 ms.assetid: ab3ddddb-5916-43b8-8688-5361cee05902
-
 ms.date: 12/05/2018
 ms.keywords: WICPngHistFrequencies, WICPngHistProperties, WICPngHistProperties enumeration [Windows Imaging Component], _wic_codec_wicpnghistproperties, wic._wic_codec_wicpnghistproperties, wincodec/WICPngHistFrequencies, wincodec/WICPngHistProperties
 ms.topic: enum
-f1_keywords: 
- - "wincodec/WICPngHistProperties"
+f1_keywords:
+- wincodec/WICPngHistProperties
 dev_langs:
- - c++
+- c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wincodec.h
+- Wincodec.h
 api_name:
- - WICPngHistProperties
+- WICPngHistProperties
 targetos: Windows
 req.typenames: WICPngHistProperties
 req.redist: 

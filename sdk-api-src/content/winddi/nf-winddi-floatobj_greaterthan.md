@@ -1,19 +1,17 @@
 ---
 UID: NF:winddi.FLOATOBJ_GreaterThan
 title: FLOATOBJ_GreaterThan function (winddi.h)
-
 description: The FLOATOBJ_GreaterThan function determines whether the first FLOATOBJ is greater than the second FLOATOBJ.
 old-location: display\floatobj_greaterthan.htm
 tech.root: display
 ms.assetid: 45e743e4-a72d-413a-9ee3-79eab517c87e
-
 ms.date: 12/05/2018
 ms.keywords: FLOATOBJ_GreaterThan, FLOATOBJ_GreaterThan function [Display Devices], display.floatobj_greaterthan, gdifncs_ac52408a-8df9-4fe2-bf33-35bdfb9fa5d8.xml, winddi/FLOATOBJ_GreaterThan
 ms.topic: function
 f1_keywords:
 - winddi/FLOATOBJ_GreaterThan
 dev_langs:
- - c++
+- c++
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Universal

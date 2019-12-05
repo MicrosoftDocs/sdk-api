@@ -1,19 +1,17 @@
 ---
 UID: NS:mschapp._SAMPR_ENCRYPTED_USER_PASSWORD
 title: SAMPR_ENCRYPTED_USER_PASSWORD (mschapp.h)
-
 description: The SAMPR_ENCRYPTED_USER_PASSWORD stores a user's encrypted password.
 old-location: mschap\sampr_encrypted_user_password.htm
 tech.root: MsChap
 ms.assetid: 10137c59-db99-4d70-9716-6f05369084a0
-
 ms.date: 12/05/2018
-ms.keywords: "*PSAMPR_ENCRYPTED_USER_PASSWORD, *PSAMPR_ENCRYPTED_USER_PASSWORD structure [MS-CHAP], SAMPR_ENCRYPTED_USER_PASSWORD, SAMPR_ENCRYPTED_USER_PASSWORD structure [MS-CHAP], mschap.sampr_encrypted_user_password, mschapp/*PSAMPR_ENCRYPTED_USER_PASSWORD, mschapp/SAMPR_ENCRYPTED_USER_PASSWORD"
+ms.keywords: '*PSAMPR_ENCRYPTED_USER_PASSWORD, *PSAMPR_ENCRYPTED_USER_PASSWORD structure [MS-CHAP], SAMPR_ENCRYPTED_USER_PASSWORD, SAMPR_ENCRYPTED_USER_PASSWORD structure [MS-CHAP], mschap.sampr_encrypted_user_password, mschapp/*PSAMPR_ENCRYPTED_USER_PASSWORD, mschapp/SAMPR_ENCRYPTED_USER_PASSWORD'
 ms.topic: struct
-f1_keywords: 
- - "mschapp/SAMPR_ENCRYPTED_USER_PASSWORD"
+f1_keywords:
+- mschapp/SAMPR_ENCRYPTED_USER_PASSWORD
 dev_langs:
- - c++
+- c++
 req.header: mschapp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - MsChapp.h
+- MsChapp.h
 api_name:
- - SAMPR_ENCRYPTED_USER_PASSWORD
+- SAMPR_ENCRYPTED_USER_PASSWORD
 targetos: Windows
 req.typenames: SAMPR_ENCRYPTED_USER_PASSWORD, *PSAMPR_ENCRYPTED_USER_PASSWORD
 req.redist: 

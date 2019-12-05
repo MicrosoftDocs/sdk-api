@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.ICaptureGraphBuilder2.ControlStream
 title: ICaptureGraphBuilder2::ControlStream (strmif.h)
-
 description: The ControlStream method sets the start and stop times for one or more streams of captured data.
 old-location: dshow\icapturegraphbuilder2_controlstream.htm
 tech.root: DirectShow
 ms.assetid: f5c91444-6ddb-403c-bff5-33d9ce91fae3
-
 ms.date: 12/05/2018
 ms.keywords: ControlStream, ControlStream method [DirectShow], ControlStream method [DirectShow],ICaptureGraphBuilder2 interface, ICaptureGraphBuilder2 interface [DirectShow],ControlStream method, ICaptureGraphBuilder2.ControlStream, ICaptureGraphBuilder2::ControlStream, ICaptureGraphBuilder2ControlStream, dshow.icapturegraphbuilder2_controlstream, strmif/ICaptureGraphBuilder2::ControlStream
 ms.topic: method
-f1_keywords: 
- - "strmif/ICaptureGraphBuilder2.ControlStream"
+f1_keywords:
+- strmif/ICaptureGraphBuilder2.ControlStream
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - ICaptureGraphBuilder2.ControlStream
+- ICaptureGraphBuilder2.ControlStream
 targetos: Windows
 req.typenames: 
 req.redist: 

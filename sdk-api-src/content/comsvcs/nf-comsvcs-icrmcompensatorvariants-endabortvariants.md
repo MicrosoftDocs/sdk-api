@@ -1,19 +1,17 @@
 ---
 UID: NF:comsvcs.ICrmCompensatorVariants.EndAbortVariants
 title: ICrmCompensatorVariants::EndAbortVariants (comsvcs.h)
-
 description: Notifies the CRM Compensator that it has received all the log records available during the abort phase.
 old-location: cos\icrmcompensatorvariants_endabortvariants.htm
 tech.root: cossdk
 ms.assetid: 021880c3-e52c-4fa7-9815-3180ee1564da
-
 ms.date: 12/05/2018
 ms.keywords: EndAbortVariants, EndAbortVariants method [COM+], EndAbortVariants method [COM+],ICrmCompensatorVariants interface, ICrmCompensatorVariants interface [COM+],EndAbortVariants method, ICrmCompensatorVariants.EndAbortVariants, ICrmCompensatorVariants::EndAbortVariants, _dtc_ICrmCompensatorVariants_EndAbortVariants, comsvcs/ICrmCompensatorVariants::EndAbortVariants, cos.icrmcompensatorvariants_endabortvariants
 ms.topic: method
-f1_keywords: 
- - "comsvcs/ICrmCompensatorVariants.EndAbortVariants"
+f1_keywords:
+- comsvcs/ICrmCompensatorVariants.EndAbortVariants
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - ICrmCompensatorVariants.EndAbortVariants
+- ICrmCompensatorVariants.EndAbortVariants
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:credentialprovider.IConnectableCredentialProviderCredential.Disconnect
 title: IConnectableCredentialProviderCredential::Disconnect (credentialprovider.h)
-
 description: Disconnects an IConnectableCredentialProviderCredential object.
 old-location: shell\IConnectableCredentialProviderCredential_Disconnect.htm
 tech.root: shell
 ms.assetid: 749147ce-9c05-4303-9ed2-62af047e6608
-
 ms.date: 12/05/2018
 ms.keywords: Disconnect, Disconnect method [Windows Shell], Disconnect method [Windows Shell],IConnectableCredentialProviderCredential interface, IConnectableCredentialProviderCredential interface [Windows Shell],Disconnect method, IConnectableCredentialProviderCredential.Disconnect, IConnectableCredentialProviderCredential::Disconnect, _shell_IConnectableCredentialProviderCredential_Disconnect, credentialprovider/IConnectableCredentialProviderCredential::Disconnect, shell.IConnectableCredentialProviderCredential_Disconnect
 ms.topic: method
-f1_keywords: 
- - "credentialprovider/IConnectableCredentialProviderCredential.Disconnect"
+f1_keywords:
+- credentialprovider/IConnectableCredentialProviderCredential.Disconnect
 dev_langs:
- - c++
+- c++
 req.header: credentialprovider.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Credentialprovider.h
+- Credentialprovider.h
 api_name:
- - IConnectableCredentialProviderCredential.Disconnect
+- IConnectableCredentialProviderCredential.Disconnect
 targetos: Windows
 req.typenames: 
 req.redist: 

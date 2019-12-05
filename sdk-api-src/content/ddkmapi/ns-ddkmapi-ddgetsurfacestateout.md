@@ -1,19 +1,17 @@
 ---
 UID: NS:ddkmapi._DDGETSURFACESTATEOUT
 title: DDGETSURFACESTATEOUT (ddkmapi.h)
-
 description: The DDGETSURFACESTATEOUT structure contains the capabilities and status of the specified surface.
 old-location: display\ddgetsurfacestateout.htm
 tech.root: display
 ms.assetid: 8d84fcdf-c880-4a3e-a57d-12bb8e59cb5b
-
 ms.date: 12/05/2018
-ms.keywords: "*LPDDGETSURFACESTATEOUT, DDGETSURFACESTATEOUT, DDGETSURFACESTATEOUT structure [Display Devices], LPDDGETSURFACESTATEOUT, LPDDGETSURFACESTATEOUT structure pointer [Display Devices], ddkmapi/DDGETSURFACESTATEOUT, ddkmapi/LPDDGETSURFACESTATEOUT, ddstrcts_bfeeac46-f803-48ee-aac4-39cb4781f925.xml, display.ddgetsurfacestateout"
+ms.keywords: '*LPDDGETSURFACESTATEOUT, DDGETSURFACESTATEOUT, DDGETSURFACESTATEOUT structure [Display Devices], LPDDGETSURFACESTATEOUT, LPDDGETSURFACESTATEOUT structure pointer [Display Devices], ddkmapi/DDGETSURFACESTATEOUT, ddkmapi/LPDDGETSURFACESTATEOUT, ddstrcts_bfeeac46-f803-48ee-aac4-39cb4781f925.xml, display.ddgetsurfacestateout'
 ms.topic: struct
-f1_keywords: 
- - "ddkmapi/DDGETSURFACESTATEOUT"
+f1_keywords:
+- ddkmapi/DDGETSURFACESTATEOUT
 dev_langs:
- - c++
+- c++
 req.header: ddkmapi.h
 req.include-header: Ddkmapi.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - ddkmapi.h
+- ddkmapi.h
 api_name:
- - DDGETSURFACESTATEOUT
+- DDGETSURFACESTATEOUT
 targetos: Windows
 req.typenames: DDGETSURFACESTATEOUT, *LPDDGETSURFACESTATEOUT
 req.redist: 

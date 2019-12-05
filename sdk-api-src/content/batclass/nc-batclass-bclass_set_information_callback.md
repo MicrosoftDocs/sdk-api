@@ -1,19 +1,17 @@
 ---
 UID: NC:batclass.BCLASS_SET_INFORMATION_CALLBACK
 title: BCLASS_SET_INFORMATION_CALLBACK (batclass.h)
-
 description: BatteryMiniSetInformation requests that a battery enter the charging or discharging state, or sets a critical bias value for the battery.
 old-location: battery\batteryminisetinformation.htm
 tech.root: battery
 ms.assetid: ebfcabb7-7447-486d-b980-7cb5456332f4
-
 ms.date: 12/05/2018
 ms.keywords: BCLASS_SET_INFORMATION_CALLBACK, BCLASS_SET_INFORMATION_CALLBACK callback, BatteryMiniSetInformation, BatteryMiniSetInformation callback function [Battery Devices], bat-mini_abc151e1-9d35-4b39-b1e8-576503335d3b.xml, batclass/BatteryMiniSetInformation, battery.batteryminisetinformation
 ms.topic: callback
-f1_keywords: 
- - "batclass/BatteryMiniSetInformation"
+f1_keywords:
+- batclass/BatteryMiniSetInformation
 dev_langs:
- - c++
+- c++
 req.header: batclass.h
 req.include-header: Batclass.h
 req.target-type: Desktop
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Batclass.h
+- Batclass.h
 api_name:
- - BatteryMiniSetInformation
+- BatteryMiniSetInformation
 targetos: Windows
 req.typenames: 
 req.redist: 

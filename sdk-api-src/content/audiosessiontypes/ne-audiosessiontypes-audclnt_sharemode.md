@@ -1,19 +1,17 @@
 ---
 UID: NE:audiosessiontypes._AUDCLNT_SHAREMODE
 title: AUDCLNT_SHAREMODE (audiosessiontypes.h)
-
 description: The AUDCLNT_SHAREMODE enumeration defines constants that indicate whether an audio stream will run in shared mode or in exclusive mode.
 old-location: coreaudio\audclnt_sharemode.htm
 tech.root: CoreAudio
 ms.assetid: f4870d0f-85d1-48ad-afe0-2f5a960c08fb
-
 ms.date: 12/05/2018
 ms.keywords: AUDCLNT_SHAREMODE, AUDCLNT_SHAREMODE , AUDCLNT_SHAREMODE enumeration [Core Audio], AUDCLNT_SHAREMODE_EXCLUSIVE, AUDCLNT_SHAREMODE_SHARED, audiosessiontypes/AUDCLNT_SHAREMODE, audiosessiontypes/AUDCLNT_SHAREMODE_EXCLUSIVE, audiosessiontypes/AUDCLNT_SHAREMODE_SHARED, coreaudio.audclnt_sharemode
 ms.topic: enum
-f1_keywords: 
- - "audiosessiontypes/AUDCLNT_SHAREMODE"
+f1_keywords:
+- audiosessiontypes/AUDCLNT_SHAREMODE
 dev_langs:
- - c++
+- c++
 req.header: audiosessiontypes.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Audiosessiontypes.h
+- Audiosessiontypes.h
 api_name:
- - AUDCLNT_SHAREMODE
+- AUDCLNT_SHAREMODE
 targetos: Windows
 req.typenames: AUDCLNT_SHAREMODE
 req.redist: 

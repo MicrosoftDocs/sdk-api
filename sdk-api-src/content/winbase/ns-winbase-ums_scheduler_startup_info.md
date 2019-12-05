@@ -1,19 +1,17 @@
 ---
 UID: NS:winbase._UMS_SCHEDULER_STARTUP_INFO
 title: UMS_SCHEDULER_STARTUP_INFO (winbase.h)
-
 description: Specifies attributes for a user-mode scheduling (UMS) scheduler thread.
 old-location: base\ums_scheduler_startup_info.htm
 tech.root: ProcThread
 ms.assetid: e3f7b1b7-d2b8-432d-bce7-3633292e855b
-
 ms.date: 12/05/2018
-ms.keywords: "*PUMS_SCHEDULER_STARTUP_INFO, PUMS_SCHEDULER_STARTUP_INFO, PUMS_SCHEDULER_STARTUP_INFO structure pointer, UMS_SCHEDULER_STARTUP_INFO, UMS_SCHEDULER_STARTUP_INFO structure, _UMS_SCHEDULER_STARTUP_INFO, base.ums_scheduler_startup_info, winbase/PUMS_SCHEDULER_STARTUP_INFO, winbase/UMS_SCHEDULER_STARTUP_INFO"
+ms.keywords: '*PUMS_SCHEDULER_STARTUP_INFO, PUMS_SCHEDULER_STARTUP_INFO, PUMS_SCHEDULER_STARTUP_INFO structure pointer, UMS_SCHEDULER_STARTUP_INFO, UMS_SCHEDULER_STARTUP_INFO structure, _UMS_SCHEDULER_STARTUP_INFO, base.ums_scheduler_startup_info, winbase/PUMS_SCHEDULER_STARTUP_INFO, winbase/UMS_SCHEDULER_STARTUP_INFO'
 ms.topic: struct
-f1_keywords: 
- - "winbase/UMS_SCHEDULER_STARTUP_INFO"
+f1_keywords:
+- winbase/UMS_SCHEDULER_STARTUP_INFO
 dev_langs:
- - c++
+- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WinBase.h
+- WinBase.h
 api_name:
- - UMS_SCHEDULER_STARTUP_INFO
+- UMS_SCHEDULER_STARTUP_INFO
 targetos: Windows
 req.typenames: UMS_SCHEDULER_STARTUP_INFO, *PUMS_SCHEDULER_STARTUP_INFO
 req.redist: 

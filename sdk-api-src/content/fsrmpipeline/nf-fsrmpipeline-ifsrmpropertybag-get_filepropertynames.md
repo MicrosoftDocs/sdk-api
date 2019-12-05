@@ -1,19 +1,17 @@
 ---
 UID: NF:fsrmpipeline.IFsrmPropertyBag.get_FilePropertyNames
 title: IFsrmPropertyBag::get_FilePropertyNames (fsrmpipeline.h)
-
 description: A list of the names of the properties that the bag contains.
 old-location: fsrm\ifsrmpropertybag_filepropertynames.htm
 tech.root: fsrm
 ms.assetid: 5dfbf1a8-99a4-4348-8fc4-9d582330be57
-
 ms.date: 12/05/2018
 ms.keywords: FilePropertyNames property [File Server Resource Manager], FilePropertyNames property [File Server Resource Manager],IFsrmPropertyBag interface, IFsrmPropertyBag interface [File Server Resource Manager],FilePropertyNames property, IFsrmPropertyBag.FilePropertyNames, IFsrmPropertyBag.get_FilePropertyNames, IFsrmPropertyBag::FilePropertyNames, IFsrmPropertyBag::get_FilePropertyNames, fs.ifsrmpropertybag_filepropertynames, fsrm.ifsrmpropertybag_filepropertynames, fsrmpipeline/IFsrmPropertyBag::FilePropertyNames, fsrmpipeline/IFsrmPropertyBag::get_FilePropertyNames, get_FilePropertyNames
 ms.topic: method
-f1_keywords: 
- - "fsrmpipeline/IFsrmPropertyBag.FilePropertyNames"
+f1_keywords:
+- fsrmpipeline/IFsrmPropertyBag.FilePropertyNames
 dev_langs:
- - c++
+- c++
 req.header: fsrmpipeline.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: SrmSvc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - SrmSvc.dll
+- SrmSvc.dll
 api_name:
- - IFsrmPropertyBag.FilePropertyNames
- - IFsrmPropertyBag.get_FilePropertyNames
+- IFsrmPropertyBag.FilePropertyNames
+- IFsrmPropertyBag.get_FilePropertyNames
 targetos: Windows
 req.typenames: 
 req.redist: 

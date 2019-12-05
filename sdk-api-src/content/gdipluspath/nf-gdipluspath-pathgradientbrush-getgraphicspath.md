@@ -1,19 +1,17 @@
 ---
 UID: NF:gdipluspath.PathGradientBrush.GetGraphicsPath
 title: PathGradientBrush::GetGraphicsPath (gdipluspath.h)
-
 description: The PathGradientBrush::GetGraphicsPath method is not implemented in Windows GDI+ version 1.0.
 old-location: gdiplus\_gdiplus_CLASS_PathGradientBrush_GetGraphicsPath_path_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\pathgradientbrushclass\pathgradientbrushmethods\getgraphicspath.htm
-
 ms.date: 12/05/2018
 ms.keywords: GetGraphicsPath, GetGraphicsPath method [GDI+], GetGraphicsPath method [GDI+],PathGradientBrush class, PathGradientBrush class [GDI+],GetGraphicsPath method, PathGradientBrush.GetGraphicsPath, PathGradientBrush::GetGraphicsPath, _gdiplus_CLASS_PathGradientBrush_GetGraphicsPath_path_, gdiplus._gdiplus_CLASS_PathGradientBrush_GetGraphicsPath_path_
 ms.topic: method
-f1_keywords: 
- - "gdipluspath/PathGradientBrush.GetGraphicsPath"
+f1_keywords:
+- gdipluspath/PathGradientBrush.GetGraphicsPath
 dev_langs:
- - c++
+- c++
 req.header: gdipluspath.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - PathGradientBrush.GetGraphicsPath
+- PathGradientBrush.GetGraphicsPath
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:faxcomex.IFaxOutgoingArchive.get_SizeLow
 title: IFaxOutgoingArchive::get_SizeLow (faxcomex.h)
-
 description: The IFaxOutgoingArchive::get_SizeLow property is a value that specifies the low 32-bit value (in bytes) for the size of the archive of outgoing fax messages.
 old-location: fax\_mfax_faxoutgoingarchive_cpp_mfax_faxoutgoingarchive_sizelow_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_8v93.htm
-
 ms.date: 12/05/2018
 ms.keywords: IFaxOutgoingArchive interface [Fax Service],SizeLow property, IFaxOutgoingArchive.SizeLow, IFaxOutgoingArchive.get_SizeLow, IFaxOutgoingArchive::SizeLow, IFaxOutgoingArchive::get_SizeLow, SizeLow property [Fax Service], SizeLow property [Fax Service],IFaxOutgoingArchive interface, _mfax_faxoutgoingarchive.sizelow, fax._mfax_faxoutgoingarchive_cpp_mfax_faxoutgoingarchive_sizelow_cpp, fax._mfax_faxoutgoingarchive_sizelow, faxcomex/IFaxOutgoingArchive::SizeLow, faxcomex/IFaxOutgoingArchive::get_SizeLow, get_SizeLow
 ms.topic: method
-f1_keywords: 
- - "faxcomex/IFaxOutgoingArchive.SizeLow"
+f1_keywords:
+- faxcomex/IFaxOutgoingArchive.SizeLow
 dev_langs:
- - c++
+- c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: Fxscomex.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Fxscomex.dll
+- Fxscomex.dll
 api_name:
- - IFaxOutgoingArchive.SizeLow
- - IFaxOutgoingArchive.get_SizeLow
- - IFaxOutgoingArchive.get_SizeLow
+- IFaxOutgoingArchive.SizeLow
+- IFaxOutgoingArchive.get_SizeLow
+- IFaxOutgoingArchive.get_SizeLow
 targetos: Windows
 req.typenames: 
 req.redist: 

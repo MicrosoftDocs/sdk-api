@@ -1,19 +1,17 @@
 ---
 UID: NF:wmsdkidl.IWMSyncReader.GetOutputCount
 title: IWMSyncReader::GetOutputCount (wmsdkidl.h)
-
 description: The GetOutputCount method retrieves the number of outputs that exist for the file open in the synchronous reader.
 old-location: wmformat\iwmsyncreader_getoutputcount.htm
 tech.root: wmformat
 ms.assetid: fde0a136-6c13-43d9-9969-e1226be60f76
-
 ms.date: 12/05/2018
 ms.keywords: GetOutputCount, GetOutputCount method [windows Media Format], GetOutputCount method [windows Media Format],IWMSyncReader interface, IWMSyncReader interface [windows Media Format],GetOutputCount method, IWMSyncReader.GetOutputCount, IWMSyncReader::GetOutputCount, IWMSyncReaderGetOutputCount, wmformat.iwmsyncreader_getoutputcount, wmsdkidl/IWMSyncReader::GetOutputCount
 ms.topic: method
-f1_keywords: 
- - "wmsdkidl/IWMSyncReader.GetOutputCount"
+f1_keywords:
+- wmsdkidl/IWMSyncReader.GetOutputCount
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wmvcore.lib
- - Wmvcore.dll
- - WMStubDRM.lib
- - WMStubDRM.dll
+- Wmvcore.lib
+- Wmvcore.dll
+- WMStubDRM.lib
+- WMStubDRM.dll
 api_name:
- - IWMSyncReader.GetOutputCount
+- IWMSyncReader.GetOutputCount
 targetos: Windows
 req.typenames: 
 req.redist: 

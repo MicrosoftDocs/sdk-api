@@ -1,19 +1,17 @@
 ---
 UID: NF:inked.IInkEdit.put_BorderStyle
 title: IInkEdit::put_BorderStyle (inked.h)
-
 description: Gets or sets a value that determines whether the InkEdit control has a border.
 old-location: tablet\inkedit_borderstyle.htm
 tech.root: tablet
 ms.assetid: 89d42f9c-6354-4159-9717-23c6484b10af
-
 ms.date: 12/05/2018
 ms.keywords: BorderStyle property [Tablet PC], BorderStyle property [Tablet PC],IInkEdit interface, IInkEdit interface [Tablet PC],BorderStyle property, IInkEdit.BorderStyle, IInkEdit.put_BorderStyle, IInkEdit::BorderStyle, IInkEdit::get_BorderStyle, IInkEdit::put_BorderStyle, InkEdit.get_BorderStyle, InkEdit.put_BorderStyle, get_BorderStyle, inked/IInkEdit::BorderStyle, inked/IInkEdit::get_BorderStyle, inked/IInkEdit::put_BorderStyle, put_BorderStyle, rtfFixedSingle, rtfNoBorder, tablet.inkedit_borderstyle
 ms.topic: method
-f1_keywords: 
- - "inked/IInkEdit.BorderStyle"
+f1_keywords:
+- inked/IInkEdit.BorderStyle
 dev_langs:
- - c++
+- c++
 req.header: inked.h
 req.include-header: 
 req.target-type: Windows
@@ -32,19 +30,19 @@ req.lib: InkEd.dll
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - InkEd.dll
- - InkEd.dll.dll
+- InkEd.dll
+- InkEd.dll.dll
 api_name:
- - IInkEdit.BorderStyle
- - IInkEdit.get_BorderStyle
- - IInkEdit.put_BorderStyle
- - InkEdit.get_BorderStyle
- - InkEdit.put_BorderStyle
+- IInkEdit.BorderStyle
+- IInkEdit.get_BorderStyle
+- IInkEdit.put_BorderStyle
+- InkEdit.get_BorderStyle
+- InkEdit.put_BorderStyle
 targetos: Windows
 req.typenames: 
 req.redist: 

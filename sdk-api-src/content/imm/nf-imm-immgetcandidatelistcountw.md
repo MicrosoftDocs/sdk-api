@@ -1,19 +1,17 @@
 ---
 UID: NF:imm.ImmGetCandidateListCountW
 title: ImmGetCandidateListCountW function (imm.h)
-
 description: Retrieves the size of the candidate lists.
 old-location: intl\immgetcandidatelistcount.htm
 tech.root: Intl
 ms.assetid: da7c4eee-3c79-4ea8-b9a5-3b43befa0021
-
 ms.date: 12/05/2018
 ms.keywords: ImmGetCandidateListCount, ImmGetCandidateListCount function [Internationalization for Windows Applications], ImmGetCandidateListCountA, ImmGetCandidateListCountW, _win32_ImmGetCandidateListCount, imm/ImmGetCandidateListCount, imm/ImmGetCandidateListCountA, imm/ImmGetCandidateListCountW, intl.immgetcandidatelistcount
 ms.topic: function
-f1_keywords: 
- - "imm/ImmGetCandidateListCount"
+f1_keywords:
+- imm/ImmGetCandidateListCount
 dev_langs:
- - c++
+- c++
 req.header: imm.h
 req.include-header: Immdev.h, Windows.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Imm32.lib
 req.dll: Imm32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Imm32.dll
+- Imm32.dll
 api_name:
- - ImmGetCandidateListCount
- - ImmGetCandidateListCountA
- - ImmGetCandidateListCountW
+- ImmGetCandidateListCount
+- ImmGetCandidateListCountA
+- ImmGetCandidateListCountW
 targetos: Windows
 req.typenames: 
 req.redist: 

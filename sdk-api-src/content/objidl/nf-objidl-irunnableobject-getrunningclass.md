@@ -1,19 +1,17 @@
 ---
 UID: NF:objidl.IRunnableObject.GetRunningClass
 title: IRunnableObject::GetRunningClass (objidl.h)
-
 description: Retrieves the CLSID of a running object.
 old-location: com\irunnableobject_getrunningclass.htm
 tech.root: com
 ms.assetid: dfe80741-ceda-44cd-8506-1807bb664ad0
-
 ms.date: 12/05/2018
 ms.keywords: GetRunningClass, GetRunningClass method [COM], GetRunningClass method [COM],IRunnableObject interface, IRunnableObject interface [COM],GetRunningClass method, IRunnableObject.GetRunningClass, IRunnableObject::GetRunningClass, _com_irunnableobject_getrunningclass, com.irunnableobject_getrunningclass, objidl/IRunnableObject::GetRunningClass
 ms.topic: method
-f1_keywords: 
- - "objidl/IRunnableObject.GetRunningClass"
+f1_keywords:
+- objidl/IRunnableObject.GetRunningClass
 dev_langs:
- - c++
+- c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ObjIdl.h
+- ObjIdl.h
 api_name:
- - IRunnableObject.GetRunningClass
+- IRunnableObject.GetRunningClass
 targetos: Windows
 req.typenames: 
 req.redist: 

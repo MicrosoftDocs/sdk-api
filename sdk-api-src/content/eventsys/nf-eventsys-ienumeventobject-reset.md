@@ -1,19 +1,17 @@
 ---
 UID: NF:eventsys.IEnumEventObject.Reset
 title: IEnumEventObject::Reset (eventsys.h)
-
 description: Resets the enumeration sequence to the beginning.
 old-location: cos\ienumeventobject_reset.htm
 tech.root: cossdk
 ms.assetid: 9a92c9de-e259-4b62-8f74-dff3f9947d1a
-
 ms.date: 12/05/2018
 ms.keywords: IEnumEventObject interface [COM+],Reset method, IEnumEventObject.Reset, IEnumEventObject::Reset, Reset, Reset method [COM+], Reset method [COM+],IEnumEventObject interface, _cos_ienumeventobject_reset, cos.ienumeventobject_reset, eventsys/IEnumEventObject::Reset
 ms.topic: method
-f1_keywords: 
- - "eventsys/IEnumEventObject.Reset"
+f1_keywords:
+- eventsys/IEnumEventObject.Reset
 dev_langs:
- - c++
+- c++
 req.header: eventsys.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Eventsys.h
+- Eventsys.h
 api_name:
- - IEnumEventObject.Reset
+- IEnumEventObject.Reset
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NS:iscsidsc.__unnamed_struct_20
 title: ISCSI_DEVICE_ON_SESSIONW (iscsidsc.h)
-
 description: ISCSI_DEVICE_ON_SESSION structure specifies multiple methods for identifying a device associated with an iSCSI login session.
 old-location: iscsidisc\iscsi_device_on_session.htm
 tech.root: iSCSIDisc
 ms.assetid: ea5d01ee-64c7-43bb-8945-af38d06de36c
-
 ms.date: 12/05/2018
-ms.keywords: "*PISCSI_DEVICE_ON_SESSIONW, ISCSI_DEVICE_ON_SESSION, ISCSI_DEVICE_ON_SESSION structure [iSCSI Discovery Library API], ISCSI_DEVICE_ON_SESSIONA, ISCSI_DEVICE_ON_SESSIONW, PISCSI_DEVICE_ON_SESSION, PISCSI_DEVICE_ON_SESSION structure pointer [iSCSI Discovery Library API], iscsidisc.iscsi_device_on_session, iscsidsc/ISCSI_DEVICE_ON_SESSION, iscsidsc/ISCSI_DEVICE_ON_SESSIONA, iscsidsc/ISCSI_DEVICE_ON_SESSIONW, iscsidsc/PISCSI_DEVICE_ON_SESSION"
+ms.keywords: '*PISCSI_DEVICE_ON_SESSIONW, ISCSI_DEVICE_ON_SESSION, ISCSI_DEVICE_ON_SESSION structure [iSCSI Discovery Library API], ISCSI_DEVICE_ON_SESSIONA, ISCSI_DEVICE_ON_SESSIONW, PISCSI_DEVICE_ON_SESSION, PISCSI_DEVICE_ON_SESSION structure pointer [iSCSI Discovery Library API], iscsidisc.iscsi_device_on_session, iscsidsc/ISCSI_DEVICE_ON_SESSION, iscsidsc/ISCSI_DEVICE_ON_SESSIONA, iscsidsc/ISCSI_DEVICE_ON_SESSIONW, iscsidsc/PISCSI_DEVICE_ON_SESSION'
 ms.topic: struct
-f1_keywords: 
- - "iscsidsc/ISCSI_DEVICE_ON_SESSION"
+f1_keywords:
+- iscsidsc/ISCSI_DEVICE_ON_SESSION
 dev_langs:
- - c++
+- c++
 req.header: iscsidsc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Iscsidsc.h
+- Iscsidsc.h
 api_name:
- - ISCSI_DEVICE_ON_SESSION
- - ISCSI_DEVICE_ON_SESSIONA
- - ISCSI_DEVICE_ON_SESSIONW
+- ISCSI_DEVICE_ON_SESSION
+- ISCSI_DEVICE_ON_SESSIONA
+- ISCSI_DEVICE_ON_SESSIONW
 targetos: Windows
 req.typenames: ISCSI_DEVICE_ON_SESSIONW, *PISCSI_DEVICE_ON_SESSIONW
 req.redist: 

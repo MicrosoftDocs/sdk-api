@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationcore.ILegacyIAccessibleProvider.get_KeyboardShortcut
 title: ILegacyIAccessibleProvider::get_KeyboardShortcut (uiautomationcore.h)
-
 description: Specifies the keyboard shortcut for this element.
 old-location: winauto\uiauto_ILegacyIAccessibleProvider_KeyboardShortcut.htm
 tech.root: WinAuto
 ms.assetid: cedb3a14-026f-4d2a-857f-313f4b5efad7
-
 ms.date: 12/05/2018
 ms.keywords: ILegacyIAccessibleProvider interface [Windows Accessibility],KeyboardShortcut property, ILegacyIAccessibleProvider.KeyboardShortcut, ILegacyIAccessibleProvider.get_KeyboardShortcut, ILegacyIAccessibleProvider::KeyboardShortcut, ILegacyIAccessibleProvider::get_KeyboardShortcut, KeyboardShortcut property [Windows Accessibility], KeyboardShortcut property [Windows Accessibility],ILegacyIAccessibleProvider interface, get_KeyboardShortcut, uiauto.uiauto_ILegacyIAccessibleProvider_KeyboardShortcut, uiauto_ILegacyIAccessibleProvider_KeyboardShortcut, uiautomationcore/ILegacyIAccessibleProvider::KeyboardShortcut, uiautomationcore/ILegacyIAccessibleProvider::get_KeyboardShortcut, winauto.uiauto_ILegacyIAccessibleProvider_KeyboardShortcut
 ms.topic: method
-f1_keywords: 
- - "uiautomationcore/ILegacyIAccessibleProvider.KeyboardShortcut"
+f1_keywords:
+- uiautomationcore/ILegacyIAccessibleProvider.KeyboardShortcut
 dev_langs:
- - c++
+- c++
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: UiAutomationCore.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UiAutomationCore.dll
+- UiAutomationCore.dll
 api_name:
- - ILegacyIAccessibleProvider.KeyboardShortcut
- - ILegacyIAccessibleProvider.get_KeyboardShortcut
+- ILegacyIAccessibleProvider.KeyboardShortcut
+- ILegacyIAccessibleProvider.get_KeyboardShortcut
 targetos: Windows
 req.typenames: 
 req.redist: 

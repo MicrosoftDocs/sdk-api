@@ -1,19 +1,17 @@
 ---
 UID: NF:wmsdkidl.IWMOutputMediaProps.GetStreamGroupName
 title: IWMOutputMediaProps::GetStreamGroupName (wmsdkidl.h)
-
 description: The GetStreamGroupName method is not implemented in this release, and returns the empty string.
 old-location: wmformat\iwmoutputmediaprops_getstreamgroupname.htm
 tech.root: wmformat
 ms.assetid: 65251316-c98f-46a3-a0cf-164531ef0b46
-
 ms.date: 12/05/2018
 ms.keywords: GetStreamGroupName, GetStreamGroupName method [windows Media Format], GetStreamGroupName method [windows Media Format],IWMOutputMediaProps interface, IWMOutputMediaProps interface [windows Media Format],GetStreamGroupName method, IWMOutputMediaProps.GetStreamGroupName, IWMOutputMediaProps::GetStreamGroupName, IWMOutputMediaPropsGetStreamGroupName, wmformat.iwmoutputmediaprops_getstreamgroupname, wmsdkidl/IWMOutputMediaProps::GetStreamGroupName
 ms.topic: method
-f1_keywords: 
- - "wmsdkidl/IWMOutputMediaProps.GetStreamGroupName"
+f1_keywords:
+- wmsdkidl/IWMOutputMediaProps.GetStreamGroupName
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wmvcore.lib
- - Wmvcore.dll
- - WMStubDRM.lib
- - WMStubDRM.dll
+- Wmvcore.lib
+- Wmvcore.dll
+- WMStubDRM.lib
+- WMStubDRM.dll
 api_name:
- - IWMOutputMediaProps.GetStreamGroupName
+- IWMOutputMediaProps.GetStreamGroupName
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NE:d3d12sdklayers.D3D12_DEBUG_FEATURE
 title: D3D12_DEBUG_FEATURE (d3d12sdklayers.h)
-
 description: Flags for optional D3D12 Debug Layer features.
 old-location: direct3d12\d3d12_debug_feature.htm
 tech.root: direct3d12
 ms.assetid: 36E0A5DC-8313-4D9D-988C-21E6FFCC8730
-
 ms.date: 12/05/2018
 ms.keywords: D3D12_DEBUG_FEATURE, D3D12_DEBUG_FEATURE enumeration, D3D12_DEBUG_FEATURE_ALLOW_BEHAVIOR_CHANGING_DEBUG_AIDS, D3D12_DEBUG_FEATURE_CONSERVATIVE_RESOURCE_STATE_TRACKING, D3D12_DEBUG_FEATURE_DISABLE_VIRTUALIZED_BUNDLES_VALIDATION, D3D12_DEBUG_FEATURE_NONE, D3D12_DEBUG_FEATURE_VALID_MASK, d3d12sdklayers/D3D12_DEBUG_FEATURE, d3d12sdklayers/D3D12_DEBUG_FEATURE_ALLOW_BEHAVIOR_CHANGING_DEBUG_AIDS, d3d12sdklayers/D3D12_DEBUG_FEATURE_CONSERVATIVE_RESOURCE_STATE_TRACKING, d3d12sdklayers/D3D12_DEBUG_FEATURE_DISABLE_VIRTUALIZED_BUNDLES_VALIDATION, d3d12sdklayers/D3D12_DEBUG_FEATURE_NONE, d3d12sdklayers/D3D12_DEBUG_FEATURE_VALID_MASK, direct3d12.d3d12_debug_feature
 ms.topic: enum
-f1_keywords: 
- - "d3d12sdklayers/D3D12_DEBUG_FEATURE"
+f1_keywords:
+- d3d12sdklayers/D3D12_DEBUG_FEATURE
 dev_langs:
- - c++
+- c++
 req.header: d3d12sdklayers.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - d3d12sdklayers.h
+- d3d12sdklayers.h
 api_name:
- - D3D12_DEBUG_FEATURE
+- D3D12_DEBUG_FEATURE
 targetos: Windows
 req.typenames: D3D12_DEBUG_FEATURE
 req.redist: 

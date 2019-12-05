@@ -1,19 +1,17 @@
 ---
 UID: NN:msctf.ITfCompositionSink
 title: ITfCompositionSink (msctf.h)
-
 description: The ITfCompositionSink interface is implemented by a text service to receive a notification when a composition is terminated.
 old-location: tsf\itfcompositionsink.htm
 tech.root: TSF
 ms.assetid: 17d5eab5-a308-40a5-823a-f176508dda71
-
 ms.date: 12/05/2018
 ms.keywords: ITfCompositionSink, ITfCompositionSink interface [Text Services Framework], ITfCompositionSink interface [Text Services Framework],described, _tsf_itfcompositionsink_ref, msctf/ITfCompositionSink, tsf.itfcompositionsink
 ms.topic: interface
-f1_keywords: 
- - "msctf/ITfCompositionSink"
+f1_keywords:
+- msctf/ITfCompositionSink
 dev_langs:
- - c++
+- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Imekrcic.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - imekrcic.dll
+- imekrcic.dll
 api_name:
- - ITfCompositionSink
+- ITfCompositionSink
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

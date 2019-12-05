@@ -1,19 +1,17 @@
 ---
 UID: NF:appxpackaging.IAppxBundleManifestPackageInfo2.GetIsDefaultApplicablePackage
 title: IAppxBundleManifestPackageInfo2::GetIsDefaultApplicablePackage (appxpackaging.h)
-
 description: Determines whether the app package is a default applicable package.
 old-location: appxpkg\iappxbundlemanifestpackageinfo2_getisdefaultapplicablepackage.htm
 tech.root: appxpkg
 ms.assetid: 0C1181F5-0BD9-4F8E-A4E3-75A562ADF56A
-
 ms.date: 12/05/2018
 ms.keywords: GetIsDefaultApplicablePackage, GetIsDefaultApplicablePackage method [App packaging and management], GetIsDefaultApplicablePackage method [App packaging and management],IAppxBundleManifestPackageInfo2 interface, IAppxBundleManifestPackageInfo2 interface [App packaging and management],GetIsDefaultApplicablePackage method, IAppxBundleManifestPackageInfo2.GetIsDefaultApplicablePackage, IAppxBundleManifestPackageInfo2::GetIsDefaultApplicablePackage, appxpackaging/IAppxBundleManifestPackageInfo2::GetIsDefaultApplicablePackage, appxpkg.iappxbundlemanifestpackageinfo2_getisdefaultapplicablepackage
 ms.topic: method
-f1_keywords: 
- - "appxpackaging/IAppxBundleManifestPackageInfo2.GetIsDefaultApplicablePackage"
+f1_keywords:
+- appxpackaging/IAppxBundleManifestPackageInfo2.GetIsDefaultApplicablePackage
 dev_langs:
- - c++
+- c++
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - AppxPackaging.h
+- AppxPackaging.h
 api_name:
- - IAppxBundleManifestPackageInfo2.GetIsDefaultApplicablePackage
+- IAppxBundleManifestPackageInfo2.GetIsDefaultApplicablePackage
 targetos: Windows
 req.typenames: 
 req.redist: 

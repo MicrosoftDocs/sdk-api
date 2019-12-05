@@ -1,19 +1,17 @@
 ---
 UID: NN:certadm.IOCSPAdmin
 title: IOCSPAdmin (certadm.h)
-
 description: Provides functionality to manage an Online Certificate Status Protocol (OCSP) responder server.
 old-location: security\iocspadmin.htm
 tech.root: SecCrypto
 ms.assetid: cf76e934-07a2-46de-b2cf-7f6d3e274d71
-
 ms.date: 12/05/2018
 ms.keywords: IOCSPAdmin, IOCSPAdmin interface [Security], IOCSPAdmin interface [Security],described, OCSPAdmin object, certadm/IOCSPAdmin, security.iocspadmin
 ms.topic: interface
-f1_keywords: 
- - "certadm/IOCSPAdmin"
+f1_keywords:
+- certadm/IOCSPAdmin
 dev_langs:
- - c++
+- c++
 req.header: certadm.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Certadm.lib
 req.dll: Certadm.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Certadm.dll
+- Certadm.dll
 api_name:
- - IOCSPAdmin
+- IOCSPAdmin
 targetos: Windows
 req.typenames: 
 req.redist: 

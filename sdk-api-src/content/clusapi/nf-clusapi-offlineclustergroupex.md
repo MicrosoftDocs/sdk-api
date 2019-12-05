@@ -1,19 +1,17 @@
 ---
 UID: NF:clusapi.OfflineClusterGroupEx
 title: OfflineClusterGroupEx function (clusapi.h)
-
 description: Extends the OfflineClusterGroup method.
 old-location: mscs\offlineclustergroupex.htm
 tech.root: MsCS
 ms.assetid: ED22150C-7149-4CED-9C9B-356BCEEBF11F
-
 ms.date: 12/05/2018
 ms.keywords: OfflineClusterGroupEx, OfflineClusterGroupEx function [Failover Cluster], clusapi/OfflineClusterGroupEx, mscs.offlineclustergroupex
 ms.topic: function
-f1_keywords: 
- - "clusapi/OfflineClusterGroupEx"
+f1_keywords:
+- clusapi/OfflineClusterGroupEx
 dev_langs:
- - c++
+- c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: ClusAPI.lib
 req.dll: ClusAPI.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - ClusAPI.dll
+- ClusAPI.dll
 api_name:
- - OfflineClusterGroupEx
+- OfflineClusterGroupEx
 targetos: Windows
 req.typenames: 
 req.redist: 

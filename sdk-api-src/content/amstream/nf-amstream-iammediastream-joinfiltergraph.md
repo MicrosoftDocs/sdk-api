@@ -1,19 +1,17 @@
 ---
 UID: NF:amstream.IAMMediaStream.JoinFilterGraph
 title: IAMMediaStream::JoinFilterGraph (amstream.h)
-
 description: Note  This interface is deprecated. New applications should not use it. The JoinFilterGraph method connects a media stream filter to a filter graph.
 old-location: dshow\iammediastream_joinfiltergraph.htm
 tech.root: DirectShow
 ms.assetid: b14e9be4-f292-4a71-b541-4fda2640591d
-
 ms.date: 12/05/2018
 ms.keywords: IAMMediaStream interface [DirectShow],JoinFilterGraph method, IAMMediaStream.JoinFilterGraph, IAMMediaStream::JoinFilterGraph, IAMMediaStreamJoinFilterGraph, JoinFilterGraph, JoinFilterGraph method [DirectShow], JoinFilterGraph method [DirectShow],IAMMediaStream interface, amstream/IAMMediaStream::JoinFilterGraph, dshow.iammediastream_joinfiltergraph
 ms.topic: method
-f1_keywords: 
- - "amstream/IAMMediaStream.JoinFilterGraph"
+f1_keywords:
+- amstream/IAMMediaStream.JoinFilterGraph
 dev_langs:
- - c++
+- c++
 req.header: amstream.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - amstream.h
+- amstream.h
 api_name:
- - IAMMediaStream.JoinFilterGraph
+- IAMMediaStream.JoinFilterGraph
 targetos: Windows
 req.typenames: 
 req.redist: 

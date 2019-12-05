@@ -1,19 +1,17 @@
 ---
 UID: NE:d3dcommon._D3D_SHADER_INPUT_TYPE
 title: D3D_SHADER_INPUT_TYPE (d3dcommon.h)
-
 description: Values that identify resource types that can be bound to a shader and that are reflected as part of the resource description for the shader.
 old-location: direct3d11\d3d_shader_input_type.htm
 tech.root: direct3d11
 ms.assetid: c6106f9e-420d-43e1-92ba-bc3a6e544e7d
-
 ms.date: 12/05/2018
 ms.keywords: D3D10_SIT_CBUFFER, D3D10_SIT_SAMPLER, D3D10_SIT_TBUFFER, D3D10_SIT_TEXTURE, D3D11_SIT_BYTEADDRESS, D3D11_SIT_STRUCTURED, D3D11_SIT_UAV_APPEND_STRUCTURED, D3D11_SIT_UAV_CONSUME_STRUCTURED, D3D11_SIT_UAV_RWBYTEADDRESS, D3D11_SIT_UAV_RWSTRUCTURED, D3D11_SIT_UAV_RWSTRUCTURED_WITH_COUNTER, D3D11_SIT_UAV_RWTYPED, D3D_SHADER_INPUT_TYPE, D3D_SHADER_INPUT_TYPE enumeration [Direct3D 11], D3D_SIT_BYTEADDRESS, D3D_SIT_CBUFFER, D3D_SIT_SAMPLER, D3D_SIT_STRUCTURED, D3D_SIT_TBUFFER, D3D_SIT_TEXTURE, D3D_SIT_UAV_APPEND_STRUCTURED, D3D_SIT_UAV_CONSUME_STRUCTURED, D3D_SIT_UAV_RWBYTEADDRESS, D3D_SIT_UAV_RWSTRUCTURED, D3D_SIT_UAV_RWSTRUCTURED_WITH_COUNTER, D3D_SIT_UAV_RWTYPED, d3dcommon/D3D10_SIT_CBUFFER, d3dcommon/D3D10_SIT_SAMPLER, d3dcommon/D3D10_SIT_TBUFFER, d3dcommon/D3D10_SIT_TEXTURE, d3dcommon/D3D11_SIT_BYTEADDRESS, d3dcommon/D3D11_SIT_STRUCTURED, d3dcommon/D3D11_SIT_UAV_APPEND_STRUCTURED, d3dcommon/D3D11_SIT_UAV_CONSUME_STRUCTURED, d3dcommon/D3D11_SIT_UAV_RWBYTEADDRESS, d3dcommon/D3D11_SIT_UAV_RWSTRUCTURED, d3dcommon/D3D11_SIT_UAV_RWSTRUCTURED_WITH_COUNTER, d3dcommon/D3D11_SIT_UAV_RWTYPED, d3dcommon/D3D_SHADER_INPUT_TYPE, d3dcommon/D3D_SIT_BYTEADDRESS, d3dcommon/D3D_SIT_CBUFFER, d3dcommon/D3D_SIT_SAMPLER, d3dcommon/D3D_SIT_STRUCTURED, d3dcommon/D3D_SIT_TBUFFER, d3dcommon/D3D_SIT_TEXTURE, d3dcommon/D3D_SIT_UAV_APPEND_STRUCTURED, d3dcommon/D3D_SIT_UAV_CONSUME_STRUCTURED, d3dcommon/D3D_SIT_UAV_RWBYTEADDRESS, d3dcommon/D3D_SIT_UAV_RWSTRUCTURED, d3dcommon/D3D_SIT_UAV_RWSTRUCTURED_WITH_COUNTER, d3dcommon/D3D_SIT_UAV_RWTYPED, direct3d11.d3d_shader_input_type
 ms.topic: enum
-f1_keywords: 
- - "d3dcommon/D3D_SHADER_INPUT_TYPE"
+f1_keywords:
+- d3dcommon/D3D_SHADER_INPUT_TYPE
 dev_langs:
- - c++
+- c++
 req.header: d3dcommon.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - D3DCommon.h
+- D3DCommon.h
 api_name:
- - D3D_SHADER_INPUT_TYPE
+- D3D_SHADER_INPUT_TYPE
 targetos: Windows
 req.typenames: D3D_SHADER_INPUT_TYPE
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:tsuserex.IADsTSUserEx.get_MaxIdleTime
 title: IADsTSUserEx::get_MaxIdleTime (tsuserex.h)
-
 description: The maximum amount of time that the Remote Desktop Services session can remain idle. After the specified number of minutes has elapsed, the session can be disconnected or terminated.
 old-location: termserv\iadstsuserex_maxidletime.htm
 tech.root: TermServ
 ms.assetid: adb9c654-1f24-4ded-bea8-27a11d420677
-
 ms.date: 12/05/2018
 ms.keywords: IADsTSUserEx interface [Remote Desktop Services],MaxIdleTime property, IADsTSUserEx.MaxIdleTime, IADsTSUserEx.get_MaxIdleTime, IADsTSUserEx::MaxIdleTime, IADsTSUserEx::get_MaxIdleTime, IADsTSUserEx::put_MaxIdleTime, MaxIdleTime property [Remote Desktop Services], MaxIdleTime property [Remote Desktop Services],IADsTSUserEx interface, get_MaxIdleTime, termserv.iadstsuserex_maxidletime, tsuserex/IADsTSUserEx::MaxIdleTime, tsuserex/IADsTSUserEx::get_MaxIdleTime, tsuserex/IADsTSUserEx::put_MaxIdleTime
 ms.topic: method
-f1_keywords: 
- - "tsuserex/IADsTSUserEx.MaxIdleTime"
+f1_keywords:
+- tsuserex/IADsTSUserEx.MaxIdleTime
 dev_langs:
- - c++
+- c++
 req.header: tsuserex.h
 req.include-header: Tsuserex.h, Tsuserex_i.c
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: Tsuserex.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Tsuserex.dll
+- Tsuserex.dll
 api_name:
- - IADsTSUserEx.MaxIdleTime
- - IADsTSUserEx.get_MaxIdleTime
- - IADsTSUserEx.put_MaxIdleTime
+- IADsTSUserEx.MaxIdleTime
+- IADsTSUserEx.get_MaxIdleTime
+- IADsTSUserEx.put_MaxIdleTime
 targetos: Windows
 req.typenames: 
 req.redist: 

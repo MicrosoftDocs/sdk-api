@@ -1,19 +1,17 @@
 ---
 UID: NE:dcomptypes.DCOMPOSITION_BITMAP_INTERPOLATION_MODE
 title: DCOMPOSITION_BITMAP_INTERPOLATION_MODE (dcomptypes.h)
-
 description: Specifies the interpolation mode to be used when a bitmap is composed with any transform where the pixels in the bitmap don't line up exactly one-to-one with pixels on screen.
 old-location: directcomp\dcomposition_bitmap_interpolation_mode.htm
 tech.root: directcomp
 ms.assetid: 0B919A5C-DEDD-4131-B743-A61CA49CA2B6
-
 ms.date: 12/05/2018
 ms.keywords: DCOMPOSITION_BITMAP_INTERPOLATION_MODE, DCOMPOSITION_BITMAP_INTERPOLATION_MODE enumeration [DirectComposition], DCOMPOSITION_BITMAP_INTERPOLATION_MODE_INHERIT, DCOMPOSITION_BITMAP_INTERPOLATION_MODE_LINEAR, DCOMPOSITION_BITMAP_INTERPOLATION_MODE_NEAREST_NEIGHBOR, dcomptypes/DCOMPOSITION_BITMAP_INTERPOLATION_MODE, dcomptypes/DCOMPOSITION_BITMAP_INTERPOLATION_MODE_INHERIT, dcomptypes/DCOMPOSITION_BITMAP_INTERPOLATION_MODE_LINEAR, dcomptypes/DCOMPOSITION_BITMAP_INTERPOLATION_MODE_NEAREST_NEIGHBOR, directcomp.dcomposition_bitmap_interpolation_mode
 ms.topic: enum
-f1_keywords: 
- - "dcomptypes/DCOMPOSITION_BITMAP_INTERPOLATION_MODE"
+f1_keywords:
+- dcomptypes/DCOMPOSITION_BITMAP_INTERPOLATION_MODE
 dev_langs:
- - c++
+- c++
 req.header: dcomptypes.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - DcompTypes.h
+- DcompTypes.h
 api_name:
- - DCOMPOSITION_BITMAP_INTERPOLATION_MODE
+- DCOMPOSITION_BITMAP_INTERPOLATION_MODE
 targetos: Windows
 req.typenames: 
 req.redist: 

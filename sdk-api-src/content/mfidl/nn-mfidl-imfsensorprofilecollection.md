@@ -1,19 +1,17 @@
 ---
 UID: NN:mfidl.IMFSensorProfileCollection
 title: IMFSensorProfileCollection (mfidl.h)
-
 description: Contains a collection of media foundation sensor profile objects.
 old-location: mf\imfsensorprofilecollection.htm
 tech.root: medfound
 ms.assetid: 406EDC3F-39AD-41E0-A8AA-E4476C93F353
-
 ms.date: 12/05/2018
 ms.keywords: IMFSensorProfileCollection, IMFSensorProfileCollection interface [Media Foundation], IMFSensorProfileCollection interface [Media Foundation],described, mf.imfsensorprofilecollection, mfidl/IMFSensorProfileCollection
 ms.topic: interface
-f1_keywords: 
- - "mfidl/IMFSensorProfileCollection"
+f1_keywords:
+- mfidl/IMFSensorProfileCollection
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Mfsensorgroup.lib
 req.dll: Mfsensorgroup.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mfsensorgroup.dll
+- Mfsensorgroup.dll
 api_name:
- - IMFSensorProfileCollection
+- IMFSensorProfileCollection
 targetos: Windows
 req.typenames: 
 req.redist: 

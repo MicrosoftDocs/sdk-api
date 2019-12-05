@@ -1,19 +1,17 @@
 ---
 UID: NF:mdmregistration.GetManagementAppHyperlink
 title: GetManagementAppHyperlink function (mdmregistration.h)
-
 description: Retrieves the management app hyperlink associated with the MDM service.
 old-location: mdmreg\getmanagementapphyperlink.htm
 tech.root: MDMReg
 ms.assetid: e319dd2e-3d2b-4c65-9b59-cd4aab930f12
-
 ms.date: 12/05/2018
 ms.keywords: GetManagementAppHyperlink, GetManagementAppHyperlink function [MDM Registration], mdmreg.getmanagementapphyperlink, mdmregistration/GetManagementAppHyperlink
 ms.topic: function
-f1_keywords: 
- - "mdmregistration/GetManagementAppHyperlink"
+f1_keywords:
+- mdmregistration/GetManagementAppHyperlink
 dev_langs:
- - c++
+- c++
 req.header: mdmregistration.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: MDMRegistration.lib
 req.dll: MDMRegistration.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - MDMRegistration.dll
+- MDMRegistration.dll
 api_name:
- - GetManagementAppHyperlink
+- GetManagementAppHyperlink
 targetos: Windows
 req.typenames: 
 req.redist: 

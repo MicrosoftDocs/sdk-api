@@ -1,19 +1,17 @@
 ---
 UID: NF:mfidl.IMFByteStreamHandler.CancelObjectCreation
 title: IMFByteStreamHandler::CancelObjectCreation (mfidl.h)
-
 description: Cancels the current request to create a media source.
 old-location: mf\imfbytestreamhandler_cancelobjectcreation.htm
 tech.root: medfound
 ms.assetid: 9731dac4-879c-4cbc-97b4-fa596b20c033
-
 ms.date: 12/05/2018
 ms.keywords: 9731dac4-879c-4cbc-97b4-fa596b20c033, CancelObjectCreation, CancelObjectCreation method [Media Foundation], CancelObjectCreation method [Media Foundation],IMFByteStreamHandler interface, IMFByteStreamHandler interface [Media Foundation],CancelObjectCreation method, IMFByteStreamHandler.CancelObjectCreation, IMFByteStreamHandler::CancelObjectCreation, mf.imfbytestreamhandler_cancelobjectcreation, mfidl/IMFByteStreamHandler::CancelObjectCreation
 ms.topic: method
-f1_keywords: 
- - "mfidl/IMFByteStreamHandler.CancelObjectCreation"
+f1_keywords:
+- mfidl/IMFByteStreamHandler.CancelObjectCreation
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFByteStreamHandler.CancelObjectCreation
+- IMFByteStreamHandler.CancelObjectCreation
 targetos: Windows
 req.typenames: 
 req.redist: 

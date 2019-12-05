@@ -1,19 +1,17 @@
 ---
 UID: NF:oleidl.IOleWindow.ContextSensitiveHelp
 title: IOleWindow::ContextSensitiveHelp (oleidl.h)
-
 description: Determines whether context-sensitive help mode should be entered during an in-place activation session.
 old-location: com\iolewindow_contextsensitivehelp.htm
 tech.root: com
 ms.assetid: 253f26c6-b5dd-4837-9135-96e11b4688c8
-
 ms.date: 12/05/2018
 ms.keywords: ContextSensitiveHelp, ContextSensitiveHelp method [COM], ContextSensitiveHelp method [COM],IOleWindow interface, IOleInPlaceSiteWindowless.ContextSensitiveHelp, IOleWindow interface [COM],ContextSensitiveHelp method, IOleWindow.ContextSensitiveHelp, IOleWindow::ContextSensitiveHelp, _ole_iolewindow_contextsensitivehelp, com.iolewindow_contextsensitivehelp, oleidl/IOleWindow::ContextSensitiveHelp
 ms.topic: method
-f1_keywords: 
- - "oleidl/IOleWindow.ContextSensitiveHelp"
+f1_keywords:
+- oleidl/IOleWindow.ContextSensitiveHelp
 dev_langs:
- - c++
+- c++
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - OleIdl.h
- - browsewm.dll
+- OleIdl.h
+- browsewm.dll
 api_name:
- - IOleWindow.ContextSensitiveHelp
- - IOleInPlaceSiteWindowless.ContextSensitiveHelp
+- IOleWindow.ContextSensitiveHelp
+- IOleInPlaceSiteWindowless.ContextSensitiveHelp
 targetos: Windows
 req.typenames: 
 req.redist: 

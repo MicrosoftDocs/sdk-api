@@ -1,19 +1,17 @@
 ---
 UID: NF:tom.ITextFont2.SetPositionSubSuper
 title: ITextFont2::SetPositionSubSuper (tom.h)
-
 description: Sets the position of a subscript or superscript relative to the baseline, as a percentage of the font height.
 old-location: controls\itextfont2_setpositionsubsuper.htm
 tech.root: Controls
 ms.assetid: 3f78a91b-17a3-48ff-9ca0-1eb4f9c95be4
-
 ms.date: 12/05/2018
 ms.keywords: ITextFont2 interface [Windows Controls],SetPositionSubSuper method, ITextFont2.SetPositionSubSuper, ITextFont2::SetPositionSubSuper, SetPositionSubSuper, SetPositionSubSuper method [Windows Controls], SetPositionSubSuper method [Windows Controls],ITextFont2 interface, controls.itextfont2_setpositionsubsuper, tom/ITextFont2::SetPositionSubSuper
 ms.topic: method
-f1_keywords: 
- - "tom/ITextFont2.SetPositionSubSuper"
+f1_keywords:
+- tom/ITextFont2.SetPositionSubSuper
 dev_langs:
- - c++
+- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msftedit.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msftedit.dll
+- Msftedit.dll
 api_name:
- - ITextFont2.SetPositionSubSuper
+- ITextFont2.SetPositionSubSuper
 targetos: Windows
 req.typenames: 
 req.redist: 

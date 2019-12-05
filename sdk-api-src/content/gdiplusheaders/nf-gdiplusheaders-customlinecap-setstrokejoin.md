@@ -1,19 +1,17 @@
 ---
 UID: NF:gdiplusheaders.CustomLineCap.SetStrokeJoin
 title: CustomLineCap::SetStrokeJoin (gdiplusheaders.h)
-
 description: The CustomLineCap::SetStrokeJoin method sets the style of line join for the stroke. The line join specifies how two lines that intersect within the GraphicsPath object that makes up the custom line cap are joined.
 old-location: gdiplus\_gdiplus_CLASS_CustomLineCap_SetStrokeJoin_lineJoin_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\customlinecapclass\customlinecapmethods\setstrokejoin.htm
-
 ms.date: 12/05/2018
 ms.keywords: CustomLineCap class [GDI+],SetStrokeJoin method, CustomLineCap.SetStrokeJoin, CustomLineCap::SetStrokeJoin, SetStrokeJoin, SetStrokeJoin method [GDI+], SetStrokeJoin method [GDI+],CustomLineCap class, _gdiplus_CLASS_CustomLineCap_SetStrokeJoin_lineJoin_, gdiplus._gdiplus_CLASS_CustomLineCap_SetStrokeJoin_lineJoin_
 ms.topic: method
-f1_keywords: 
- - "gdiplusheaders/CustomLineCap.SetStrokeJoin"
+f1_keywords:
+- gdiplusheaders/CustomLineCap.SetStrokeJoin
 dev_langs:
- - c++
+- c++
 req.header: gdiplusheaders.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - CustomLineCap.SetStrokeJoin
+- CustomLineCap.SetStrokeJoin
 targetos: Windows
 req.typenames: 
 req.redist: 

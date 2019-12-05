@@ -1,19 +1,17 @@
 ---
 UID: NF:tuner.IESValueUpdatedEvent.GetValueNames
 title: IESValueUpdatedEvent::GetValueNames (tuner.h)
-
 description: For a name-value pair in the PBDA General Purpose Name-Value Service, gets the name for the value that has been updated.
 old-location: mstv\iesvalueupdatedevent_getvaluenames.htm
 tech.root: mstv
 ms.assetid: bc008b4a-fa6f-4b62-90da-417813081344
-
 ms.date: 12/05/2018
 ms.keywords: GetValueNames, GetValueNames method [Microsoft TV Technologies], GetValueNames method [Microsoft TV Technologies],IESValueUpdatedEvent interface, IESValueUpdatedEvent interface [Microsoft TV Technologies],GetValueNames method, IESValueUpdatedEvent.GetValueNames, IESValueUpdatedEvent::GetValueNames, mstv.iesvalueupdatedevent_getvaluenames, tuner/IESValueUpdatedEvent::GetValueNames
 ms.topic: method
-f1_keywords: 
- - "tuner/IESValueUpdatedEvent.GetValueNames"
+f1_keywords:
+- tuner/IESValueUpdatedEvent.GetValueNames
 dev_langs:
- - c++
+- c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - tuner.h
+- tuner.h
 api_name:
- - IESValueUpdatedEvent.GetValueNames
+- IESValueUpdatedEvent.GetValueNames
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:fsrmpipeline.IFsrmPipelineModuleDefinition.get_Version
 title: IFsrmPipelineModuleDefinition::get_Version (fsrmpipeline.h)
-
 description: The version of the module definition.
 old-location: fsrm\ifsrmpipelinemoduledefinition_version.htm
 tech.root: fsrm
 ms.assetid: 02dbd15f-d3a2-4a81-a1e3-1f18676c2f5c
-
 ms.date: 12/05/2018
 ms.keywords: IFsrmPipelineModuleDefinition interface [File Server Resource Manager],Version property, IFsrmPipelineModuleDefinition.Version, IFsrmPipelineModuleDefinition.get_Version, IFsrmPipelineModuleDefinition::Version, IFsrmPipelineModuleDefinition::get_Version, IFsrmPipelineModuleDefinition::put_Version, Version property [File Server Resource Manager], Version property [File Server Resource Manager],IFsrmPipelineModuleDefinition interface, fs.ifsrmpipelinemoduledefinition_version, fsrm.ifsrmpipelinemoduledefinition_version, fsrmpipeline/IFsrmPipelineModuleDefinition::Version, fsrmpipeline/IFsrmPipelineModuleDefinition::get_Version, fsrmpipeline/IFsrmPipelineModuleDefinition::put_Version, get_Version
 ms.topic: method
-f1_keywords: 
- - "fsrmpipeline/IFsrmPipelineModuleDefinition.Version"
+f1_keywords:
+- fsrmpipeline/IFsrmPipelineModuleDefinition.Version
 dev_langs:
- - c++
+- c++
 req.header: fsrmpipeline.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: SrmSvc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - SrmSvc.dll
+- SrmSvc.dll
 api_name:
- - IFsrmPipelineModuleDefinition.Version
- - IFsrmPipelineModuleDefinition.get_Version
- - IFsrmPipelineModuleDefinition.put_Version
+- IFsrmPipelineModuleDefinition.Version
+- IFsrmPipelineModuleDefinition.get_Version
+- IFsrmPipelineModuleDefinition.put_Version
 targetos: Windows
 req.typenames: 
 req.redist: 

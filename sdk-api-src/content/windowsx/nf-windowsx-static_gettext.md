@@ -1,19 +1,17 @@
 ---
 UID: NF:windowsx.Static_GetText
 title: Static_GetText macro (windowsx.h)
-
 description: Gets the text of a static control.
 old-location: controls\Static_GetText.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\staticcontrols\staticcontrolreference\staticcontrolmacros\static_gettext.htm
-
 ms.date: 12/05/2018
 ms.keywords: Static_GetText, Static_GetText macro [Windows Controls], _win32_Static_GetText, _win32_Static_GetText_cpp, controls.Static_GetText, controls._win32_Static_GetText, windowsx/Static_GetText
 ms.topic: macro
-f1_keywords: 
- - "windowsx/Static_GetText"
+f1_keywords:
+- windowsx/Static_GetText
 dev_langs:
- - c++
+- c++
 req.header: windowsx.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Windowsx.h
+- Windowsx.h
 api_name:
- - Static_GetText
+- Static_GetText
 targetos: Windows
 req.typenames: 
 req.redist: 

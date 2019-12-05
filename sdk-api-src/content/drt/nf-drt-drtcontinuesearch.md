@@ -1,19 +1,17 @@
 ---
 UID: NF:drt.DrtContinueSearch
 title: DrtContinueSearch function (drt.h)
-
 description: DrtContinueSearch function continues an iterative search for a key.
 old-location: p2p\drtcontinuesearch.htm
 tech.root: P2PSdk
 ms.assetid: 04bdeb53-4901-41d4-835e-da665095edc5
-
 ms.date: 12/05/2018
 ms.keywords: DrtContinueSearch, DrtContinueSearch function [Peer Networking], drt/DrtContinueSearch, p2p.drtcontinuesearch
 ms.topic: function
-f1_keywords: 
- - "drt/DrtContinueSearch"
+f1_keywords:
+- drt/DrtContinueSearch
 dev_langs:
- - c++
+- c++
 req.header: drt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Drt.lib
 req.dll: Drt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - drt.dll
+- drt.dll
 api_name:
- - DrtContinueSearch
+- DrtContinueSearch
 targetos: Windows
 req.typenames: 
 req.redist: 

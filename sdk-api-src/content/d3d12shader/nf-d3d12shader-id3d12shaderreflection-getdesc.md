@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d12shader.ID3D12ShaderReflection.GetDesc
 title: ID3D12ShaderReflection::GetDesc (d3d12shader.h)
-
 description: Gets a shader description.
 old-location: direct3d12\id3d12shaderreflection_getdesc.htm
 tech.root: direct3d12
 ms.assetid: D84DC99E-4E0C-4CFC-B061-FCD3C42D7937
-
 ms.date: 12/05/2018
 ms.keywords: GetDesc, GetDesc method, GetDesc method,ID3D12ShaderReflection interface, ID3D12ShaderReflection interface,GetDesc method, ID3D12ShaderReflection.GetDesc, ID3D12ShaderReflection::GetDesc, d3d12shader/ID3D12ShaderReflection::GetDesc, direct3d12.id3d12shaderreflection_getdesc
 ms.topic: method
 f1_keywords:
 - d3d12shader/ID3D12ShaderReflection.GetDesc
 dev_langs:
- - c++
+- c++
 req.header: d3d12shader.h
 req.include-header: 
 req.target-type: Windows

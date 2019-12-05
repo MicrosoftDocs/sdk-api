@@ -1,19 +1,17 @@
 ---
 UID: NF:winuser.FlashWindowEx
 title: FlashWindowEx function (winuser.h)
-
 description: Flashes the specified window. It does not change the active state of the window.
 old-location: base\flashwindowex.htm
 tech.root: Debug
 ms.assetid: 474ec2d9-3ee9-4622-843e-d6ae36fedd7f
-
 ms.date: 12/05/2018
 ms.keywords: FlashWindowEx, FlashWindowEx function, _win32_flashwindowex, base.flashwindowex, winuser/FlashWindowEx
 ms.topic: function
-f1_keywords: 
- - "winuser/FlashWindowEx"
+f1_keywords:
+- winuser/FlashWindowEx
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - User32.dll
- - ext-ms-win-ntuser-misc-l1-3-1.dll
- - Ext-MS-Win-NTUser-Misc-L1-4-0.dll
- - Ext-Ms-Win-NTUser-Misc-L1-5-0.dll
- - Ext-MS-Win-NTUser-Misc-L1-5-1.dll
+- User32.dll
+- ext-ms-win-ntuser-misc-l1-3-1.dll
+- Ext-MS-Win-NTUser-Misc-L1-4-0.dll
+- Ext-Ms-Win-NTUser-Misc-L1-5-0.dll
+- Ext-MS-Win-NTUser-Misc-L1-5-1.dll
 api_name:
- - FlashWindowEx
+- FlashWindowEx
 targetos: Windows
 req.typenames: 
 req.redist: 

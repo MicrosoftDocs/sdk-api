@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d10.ID3D10Resource.GetType
 title: ID3D10Resource::GetType (d3d10.h)
-
 description: Get the type of the resource.
 old-location: direct3d10\id3d10resource_gettype.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10resource_gettype.htm
-
 ms.date: 12/05/2018
 ms.keywords: GetType, GetType method [Direct3D 10], GetType method [Direct3D 10],ID3D10Resource interface, ID3D10Resource interface [Direct3D 10],GetType method, ID3D10Resource.GetType, ID3D10Resource::GetType, bf044bba-84f5-5192-908b-5b26b497c5e7, d3d10/ID3D10Resource::GetType, direct3d10.id3d10resource_gettype
 ms.topic: method
-f1_keywords: 
- - "d3d10/ID3D10Resource.GetType"
+f1_keywords:
+- d3d10/ID3D10Resource.GetType
 dev_langs:
- - c++
+- c++
 req.header: d3d10.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: D3D10.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D10.lib
- - D3D10.dll
+- D3D10.lib
+- D3D10.dll
 api_name:
- - ID3D10Resource.GetType
+- ID3D10Resource.GetType
 targetos: Windows
 req.typenames: 
 req.redist: 

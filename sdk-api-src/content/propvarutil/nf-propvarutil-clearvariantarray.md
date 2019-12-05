@@ -1,19 +1,17 @@
 ---
 UID: NF:propvarutil.ClearVariantArray
 title: ClearVariantArray function (propvarutil.h)
-
 description: Frees the memory and references used by an array of VARIANT structures stored in an array.
 old-location: properties\ClearVariantArray.htm
 tech.root: properties
 ms.assetid: 8126392e-d86c-420c-9f0d-ca7cb97030b0
-
 ms.date: 12/05/2018
 ms.keywords: ClearVariantArray, ClearVariantArray function [Windows Properties], _shell_ClearVariantArray, properties.ClearVariantArray, propvarutil/ClearVariantArray, shell.ClearVariantArray
 ms.topic: function
-f1_keywords: 
- - "propvarutil/ClearVariantArray"
+f1_keywords:
+- propvarutil/ClearVariantArray
 dev_langs:
- - c++
+- c++
 req.header: propvarutil.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Propsys.lib
 req.dll: Propsys.dll (version 6.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Propsys.dll
+- Propsys.dll
 api_name:
- - ClearVariantArray
+- ClearVariantArray
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0

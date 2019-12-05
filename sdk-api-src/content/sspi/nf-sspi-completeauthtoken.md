@@ -1,19 +1,17 @@
 ---
 UID: NF:sspi.CompleteAuthToken
 title: CompleteAuthToken function (sspi.h)
-
 description: Completes an authentication token.
 old-location: security\completeauthtoken.htm
 tech.root: SecAuthN
 ms.assetid: a404d0a3-d1ea-4708-87d7-2d216e9a5f5f
-
 ms.date: 12/05/2018
 ms.keywords: CompleteAuthToken, CompleteAuthToken function [Security], _ssp_completeauthtoken, security.completeauthtoken, sspi/CompleteAuthToken
 ms.topic: function
 f1_keywords:
 - sspi/CompleteAuthToken
 dev_langs:
- - c++
+- c++
 req.header: sspi.h
 req.include-header: Security.h
 req.target-type: Windows

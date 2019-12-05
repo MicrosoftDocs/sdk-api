@@ -1,19 +1,17 @@
 ---
 UID: NS:mfsharingengine.DEVICE_INFO
 title: DEVICE_INFO (mfsharingengine.h)
-
 description: Contains information about a media sharing device.
 old-location: mf\device_info.htm
 tech.root: medfound
 ms.assetid: B006298C-B733-4E76-BD31-A3D1DD4DC766
-
 ms.date: 12/05/2018
 ms.keywords: DEVICE_INFO, DEVICE_INFO structure [Media Foundation], mf.device_info, mfsharingengine/DEVICE_INFO
 ms.topic: struct
-f1_keywords: 
- - "mfsharingengine/DEVICE_INFO"
+f1_keywords:
+- mfsharingengine/DEVICE_INFO
 dev_langs:
- - c++
+- c++
 req.header: mfsharingengine.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - mfsharingengine.h
+- mfsharingengine.h
 api_name:
- - DEVICE_INFO
+- DEVICE_INFO
 targetos: Windows
 req.typenames: DEVICE_INFO
 req.redist: 

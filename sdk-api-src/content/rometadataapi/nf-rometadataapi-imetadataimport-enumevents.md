@@ -1,19 +1,17 @@
 ---
 UID: NF:rometadataapi.IMetaDataImport.EnumEvents
 title: IMetaDataImport::EnumEvents (rometadataapi.h)
-
 description: Enumerates event definition tokens for the specified TypeDef token.
 old-location: winrt\imetadataimport_enumevents.htm
 tech.root: WinRT
 ms.assetid: 442b5db1-1e5f-4314-9c53-dbd0f0651d3c
-
 ms.date: 12/05/2018
 ms.keywords: EnumEvents, EnumEvents method [Windows Runtime], EnumEvents method [Windows Runtime],IMetaDataImport interface, IMetaDataImport interface [Windows Runtime],EnumEvents method, IMetaDataImport.EnumEvents, IMetaDataImport::EnumEvents, rometadataapi/IMetaDataImport::EnumEvents, winrt.imetadataimport_enumevents
 ms.topic: method
-f1_keywords: 
- - "rometadataapi/IMetaDataImport.EnumEvents"
+f1_keywords:
+- rometadataapi/IMetaDataImport.EnumEvents
 dev_langs:
- - c++
+- c++
 req.header: rometadataapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - rometadataapi.h
+- rometadataapi.h
 api_name:
- - IMetaDataImport.EnumEvents
+- IMetaDataImport.EnumEvents
 targetos: Windows
 req.typenames: 
 req.redist: 

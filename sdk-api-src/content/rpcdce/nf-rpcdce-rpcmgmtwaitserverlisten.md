@@ -1,19 +1,17 @@
 ---
 UID: NF:rpcdce.RpcMgmtWaitServerListen
 title: RpcMgmtWaitServerListen function (rpcdce.h)
-
 description: The RpcMgmtWaitServerListen function performs the wait operation usually associated with RpcServerListen.
 old-location: rpc\rpcmgmtwaitserverlisten.htm
 tech.root: Rpc
 ms.assetid: 19fa750f-76f8-4005-992f-9c2707e48668
-
 ms.date: 12/05/2018
 ms.keywords: RpcMgmtWaitServerListen, RpcMgmtWaitServerListen function [RPC], _rpc_rpcmgmtwaitserverlisten, rpc.rpcmgmtwaitserverlisten, rpcdce/RpcMgmtWaitServerListen
 ms.topic: function
-f1_keywords: 
- - "rpcdce/RpcMgmtWaitServerListen"
+f1_keywords:
+- rpcdce/RpcMgmtWaitServerListen
 dev_langs:
- - c++
+- c++
 req.header: rpcdce.h
 req.include-header: Rpc.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Rpcrt4.lib
 req.dll: Rpcrt4.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Rpcrt4.dll
+- Rpcrt4.dll
 api_name:
- - RpcMgmtWaitServerListen
+- RpcMgmtWaitServerListen
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NE:eaphostpeertypes._EAPHOST_AUTH_STATUS
 title: EAPHOST_AUTH_STATUS (eaphostpeertypes.h)
-
 description: Defines the set of possible EAP authentication session status values during the authentication process.
 old-location: eaphost\eaphost_auth_status.htm
 tech.root: eaphost
 ms.assetid: e1d0ff30-955c-4998-ae01-5dbadf3f4123
-
 ms.date: 12/05/2018
 ms.keywords: EAPHOST_AUTH_STATUS, EAPHOST_AUTH_STATUS enumeration [EAPHost], EapHostAuthFailed, EapHostAuthIdentityExchange, EapHostAuthInProgress, EapHostAuthNegotiatingType, EapHostAuthNotStarted, EapHostAuthSucceeded, EapHostInvalidSession, eaphost.eaphost_auth_status, eaphostpeertypes/EAPHOST_AUTH_STATUS, eaphostpeertypes/EapHostAuthFailed, eaphostpeertypes/EapHostAuthIdentityExchange, eaphostpeertypes/EapHostAuthInProgress, eaphostpeertypes/EapHostAuthNegotiatingType, eaphostpeertypes/EapHostAuthNotStarted, eaphostpeertypes/EapHostAuthSucceeded, eaphostpeertypes/EapHostInvalidSession
 ms.topic: enum
-f1_keywords: 
- - "eaphostpeertypes/EAPHOST_AUTH_STATUS"
+f1_keywords:
+- eaphostpeertypes/EAPHOST_AUTH_STATUS
 dev_langs:
- - c++
+- c++
 req.header: eaphostpeertypes.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - eaphostpeertypes.h
+- eaphostpeertypes.h
 api_name:
- - EAPHOST_AUTH_STATUS
+- EAPHOST_AUTH_STATUS
 targetos: Windows
 req.typenames: EAPHOST_AUTH_STATUS
 req.redist: 

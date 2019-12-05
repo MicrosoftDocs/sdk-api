@@ -1,19 +1,17 @@
 ---
 UID: NF:resapi.ResUtilGetResourceName
 title: ResUtilGetResourceName function (resapi.h)
-
 description: Returns the name of a resource. The PRESUTIL_GET_RESOURCE_NAME type defines a pointer to this function.
 old-location: mscs\resutilgetresourcename.htm
 tech.root: MsCS
 ms.assetid: 968d013f-6502-4981-982e-7b3f10c53b60
-
 ms.date: 12/05/2018
 ms.keywords: PRESUTIL_GET_RESOURCE_NAME, PRESUTIL_GET_RESOURCE_NAME function [Failover Cluster], ResUtilGetResourceName, ResUtilGetResourceName function [Failover Cluster], _wolf_resutilgetresourcename, mscs.resutilgetresourcename, resapi/PRESUTIL_GET_RESOURCE_NAME, resapi/ResUtilGetResourceName
 ms.topic: function
-f1_keywords: 
- - "resapi/ResUtilGetResourceName"
+f1_keywords:
+- resapi/ResUtilGetResourceName
 dev_langs:
- - c++
+- c++
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: ResUtils.lib
 req.dll: ResUtils.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - ResUtils.dll
- - Ext-MS-Win-Cluster-Resutils-L1-1-1.dll
+- ResUtils.dll
+- Ext-MS-Win-Cluster-Resutils-L1-1-1.dll
 api_name:
- - ResUtilGetResourceName
+- ResUtilGetResourceName
 targetos: Windows
 req.typenames: 
 req.redist: 

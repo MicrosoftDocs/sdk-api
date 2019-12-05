@@ -1,19 +1,17 @@
 ---
 UID: NF:vsmgmt.IVssSnapshotMgmt.GetProviderMgmtInterface
 title: IVssSnapshotMgmt::GetProviderMgmtInterface (vsmgmt.h)
-
 description: Returns an interface to further configure the system provider.
 old-location: base\ivsssnapshotmgmt_getprovidermgmtinterface.htm
 tech.root: VSS
 ms.assetid: 814c6e2c-a5f8-4f44-b508-3a2e95bb1c54
-
 ms.date: 12/05/2018
 ms.keywords: GetProviderMgmtInterface, GetProviderMgmtInterface method [VSS], GetProviderMgmtInterface method [VSS],IVssSnapshotMgmt interface, IVssSnapshotMgmt interface [VSS],GetProviderMgmtInterface method, IVssSnapshotMgmt.GetProviderMgmtInterface, IVssSnapshotMgmt::GetProviderMgmtInterface, base.ivsssnapshotmgmt_getprovidermgmtinterface, vsmgmt/IVssSnapshotMgmt::GetProviderMgmtInterface
 ms.topic: method
-f1_keywords: 
- - "vsmgmt/IVssSnapshotMgmt.GetProviderMgmtInterface"
+f1_keywords:
+- vsmgmt/IVssSnapshotMgmt.GetProviderMgmtInterface
 dev_langs:
- - c++
+- c++
 req.header: vsmgmt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - VsMgmt.h
+- VsMgmt.h
 api_name:
- - IVssSnapshotMgmt.GetProviderMgmtInterface
+- IVssSnapshotMgmt.GetProviderMgmtInterface
 targetos: Windows
 req.typenames: 
 req.redist: 

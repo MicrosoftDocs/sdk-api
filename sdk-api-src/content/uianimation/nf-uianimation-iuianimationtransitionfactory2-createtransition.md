@@ -1,19 +1,17 @@
 ---
 UID: NF:uianimation.IUIAnimationTransitionFactory2.CreateTransition
 title: IUIAnimationTransitionFactory2::CreateTransition (uianimation.h)
-
 description: Creates a transition from a custom interpolator for a given dimension.
 old-location: uianimation\iuianimationtransitionfactory2_createtransition.htm
 tech.root: UIAnimation
 ms.assetid: CFF79A6B-B2C1-4B48-8F1E-70ED2CBC567A
-
 ms.date: 12/05/2018
 ms.keywords: CreateTransition, CreateTransition method [Windows Animation], CreateTransition method [Windows Animation],IUIAnimationTransitionFactory2 interface, IUIAnimationTransitionFactory2 interface [Windows Animation],CreateTransition method, IUIAnimationTransitionFactory2.CreateTransition, IUIAnimationTransitionFactory2::CreateTransition, uianimation.iuianimationtransitionfactory2_createtransition, uianimation/IUIAnimationTransitionFactory2::CreateTransition
 ms.topic: method
-f1_keywords: 
- - "uianimation/IUIAnimationTransitionFactory2.CreateTransition"
+f1_keywords:
+- uianimation/IUIAnimationTransitionFactory2.CreateTransition
 dev_langs:
- - c++
+- c++
 req.header: uianimation.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: UIAnimation.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAnimation.dll
+- UIAnimation.dll
 api_name:
- - IUIAnimationTransitionFactory2.CreateTransition
+- IUIAnimationTransitionFactory2.CreateTransition
 targetos: Windows
 req.typenames: 
 req.redist: 

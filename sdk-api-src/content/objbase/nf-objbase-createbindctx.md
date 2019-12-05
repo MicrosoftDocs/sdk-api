@@ -1,19 +1,17 @@
 ---
 UID: NF:objbase.CreateBindCtx
 title: CreateBindCtx function (objbase.h)
-
 description: Returns a pointer to an implementation of IBindCtx (a bind context object). This object stores information about a particular moniker-binding operation.
 old-location: com\createbindctx.htm
 tech.root: com
 ms.assetid: 0f0ded09-7a7c-40bb-8198-b9f5058827d4
-
 ms.date: 12/05/2018
 ms.keywords: CreateBindCtx, CreateBindCtx function [COM], _com_CreateBindCtx, com.createbindctx, objbase/CreateBindCtx
 ms.topic: function
-f1_keywords: 
- - "objbase/CreateBindCtx"
+f1_keywords:
+- objbase/CreateBindCtx
 dev_langs:
- - c++
+- c++
 req.header: objbase.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Ole32.lib
 req.dll: Ole32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ole32.dll
- - API-MS-Win-OLE32-IE-l1-1-0.dll
- - ole32_wp.dll
- - Ext-MS-Win-OLE32-bindctx-l1-1-0.dll
+- Ole32.dll
+- API-MS-Win-OLE32-IE-l1-1-0.dll
+- ole32_wp.dll
+- Ext-MS-Win-OLE32-bindctx-l1-1-0.dll
 api_name:
- - CreateBindCtx
+- CreateBindCtx
 targetos: Windows
 req.typenames: 
 req.redist: 

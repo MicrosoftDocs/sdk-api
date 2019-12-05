@@ -1,19 +1,17 @@
 ---
 UID: NF:gdiplusmetaheader.MetafileHeader.GetDpiX
 title: MetafileHeader::GetDpiX (gdiplusmetaheader.h)
-
 description: The MetafileHeader::GetDpiX method gets the horizontal dots per inch of the associated metafile.
 old-location: gdiplus\_gdiplus_CLASS_MetafileHeader_GetDpiX_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\metafileheaderclass\metafileheadermethods\getdpix_56.htm
-
 ms.date: 12/05/2018
 ms.keywords: GetDpiX, GetDpiX method [GDI+], GetDpiX method [GDI+],MetafileHeader class, MetafileHeader class [GDI+],GetDpiX method, MetafileHeader.GetDpiX, MetafileHeader::GetDpiX, _gdiplus_CLASS_MetafileHeader_GetDpiX_, gdiplus._gdiplus_CLASS_MetafileHeader_GetDpiX_
 ms.topic: method
-f1_keywords: 
- - "gdiplusmetaheader/MetafileHeader.GetDpiX"
+f1_keywords:
+- gdiplusmetaheader/MetafileHeader.GetDpiX
 dev_langs:
- - c++
+- c++
 req.header: gdiplusmetaheader.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - MetafileHeader.GetDpiX
+- MetafileHeader.GetDpiX
 targetos: Windows
 req.typenames: 
 req.redist: 

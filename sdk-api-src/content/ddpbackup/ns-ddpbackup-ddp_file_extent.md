@@ -1,19 +1,17 @@
 ---
 UID: NS:ddpbackup._DDP_FILE_EXTENT
 title: DDP_FILE_EXTENT (ddpbackup.h)
-
 description: DDP_FILE_EXTENT represents the extent of data in a file that is to be read in a pending call to ReadBackupFile.
 old-location: dedup\ddp_file_extent.htm
 tech.root: dedup
 ms.assetid: B4AB7297-6FFE-4B93-ABDE-C15D7C90FA5B
-
 ms.date: 12/05/2018
 ms.keywords: DDP_FILE_EXTENT, DDP_FILE_EXTENT structure [Data Deduplication API], PDDP_FILE_EXTENT, PDDP_FILE_EXTENT structure pointer [Data Deduplication API], ddpbackup/DDP_FILE_EXTENT, ddpbackup/PDDP_FILE_EXTENT, dedup.ddp_file_extent
 ms.topic: struct
-f1_keywords: 
- - "ddpbackup/DDP_FILE_EXTENT"
+f1_keywords:
+- ddpbackup/DDP_FILE_EXTENT
 dev_langs:
- - c++
+- c++
 req.header: ddpbackup.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - DdpBackup.h
+- DdpBackup.h
 api_name:
- - DDP_FILE_EXTENT
+- DDP_FILE_EXTENT
 targetos: Windows
 req.typenames: DDP_FILE_EXTENT
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:p2p.PeerCollabAddContact
 title: PeerCollabAddContact function (p2p.h)
-
 description: Adds a contact to the contact list of a peer.
 old-location: p2p\peercollabaddcontact.htm
 tech.root: P2PSdk
 ms.assetid: 0e4ba039-2016-487d-b4df-e96648db1a05
-
 ms.date: 12/05/2018
 ms.keywords: PeerCollabAddContact, PeerCollabAddContact function [Peer Networking], p2p.peercollabaddcontact, p2p/PeerCollabAddContact
 ms.topic: function
-f1_keywords: 
- - "p2p/PeerCollabAddContact"
+f1_keywords:
+- p2p/PeerCollabAddContact
 dev_langs:
- - c++
+- c++
 req.header: p2p.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: P2P.lib
 req.dll: P2P.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - P2P.dll
+- P2P.dll
 api_name:
- - PeerCollabAddContact
+- PeerCollabAddContact
 targetos: Windows
 req.typenames: 
 req.redist: 

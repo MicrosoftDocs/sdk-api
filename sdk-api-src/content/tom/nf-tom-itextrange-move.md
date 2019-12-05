@@ -1,19 +1,17 @@
 ---
 UID: NF:tom.ITextRange.Move
 title: ITextRange::Move (tom.h)
-
 description: Moves the insertion point forward or backward a specified number of units. If the range is nondegenerate, the range is collapsed to an insertion point at either end, depending on Count, and then is moved.
 old-location: controls\ITextRange_Move.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\move.htm
-
 ms.date: 12/05/2018
 ms.keywords: ITextRange interface [Windows Controls],Move method, ITextRange.Move, ITextRange::Move, Move, Move method [Windows Controls], Move method [Windows Controls],ITextRange interface, _win32_ITextRange_Move, _win32_ITextRange_Move_cpp, controls.ITextRange_Move, controls._win32_ITextRange_Move, tom/ITextRange::Move
 ms.topic: method
-f1_keywords: 
- - "tom/ITextRange.Move"
+f1_keywords:
+- tom/ITextRange.Move
 dev_langs:
- - c++
+- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msftedit.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msftedit.dll
+- Msftedit.dll
 api_name:
- - ITextRange.Move
+- ITextRange.Move
 targetos: Windows
 req.typenames: 
 req.redist: 

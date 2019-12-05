@@ -1,19 +1,17 @@
 ---
 UID: NF:wsmandisp.IWSManEx.SessionFlagEnableSPNServerPort
 title: IWSManEx::SessionFlagEnableSPNServerPort (wsmandisp.h)
-
 description: Returns the value of the authentication flag WSManFlagEnableSPNServerPort for use in the flags parameter of IWSMan::CreateSession.
 old-location: winrm\iwsmanex_sessionflagenablespnserverport.htm
 tech.root: winrm
 ms.assetid: a8fe2077-0606-4517-8e50-dc42a4c39b77
-
 ms.date: 12/05/2018
 ms.keywords: IWSManEx interface [Windows Remote Management],SessionFlagEnableSPNServerPort method, IWSManEx.SessionFlagEnableSPNServerPort, IWSManEx::SessionFlagEnableSPNServerPort, SessionFlagEnableSPNServerPort, SessionFlagEnableSPNServerPort method [Windows Remote Management], SessionFlagEnableSPNServerPort method [Windows Remote Management],IWSManEx interface, winrm.iwsmanex_sessionflagenablespnserverport, wsmandisp/IWSManEx::SessionFlagEnableSPNServerPort
 ms.topic: method
-f1_keywords: 
- - "wsmandisp/IWSManEx.SessionFlagEnableSPNServerPort"
+f1_keywords:
+- wsmandisp/IWSManEx.SessionFlagEnableSPNServerPort
 dev_langs:
- - c++
+- c++
 req.header: wsmandisp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: WSManDisp.tlb
 req.dll: WSMAuto.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - WSMAuto.dll
+- WSMAuto.dll
 api_name:
- - IWSManEx.SessionFlagEnableSPNServerPort
+- IWSManEx.SessionFlagEnableSPNServerPort
 targetos: Windows
 req.typenames: 
 req.redist: 

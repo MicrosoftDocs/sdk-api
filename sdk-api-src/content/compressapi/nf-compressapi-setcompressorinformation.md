@@ -1,19 +1,17 @@
 ---
 UID: NF:compressapi.SetCompressorInformation
 title: SetCompressorInformation function (compressapi.h)
-
 description: Sets information in a compressor for a particular compression algorithm.
 old-location: cmpapi\setcompressorinformation.htm
 tech.root: cmpapi
 ms.assetid: f8c2c425-9b21-4fe3-8b81-d8bf3cd8ec5b
-
 ms.date: 12/05/2018
 ms.keywords: SetCompressorInformation, SetCompressorInformation function [Compression API], cmpapi.setcompressorinformation, compressapi/SetCompressorInformation
 ms.topic: function
-f1_keywords: 
- - "compressapi/SetCompressorInformation"
+f1_keywords:
+- compressapi/SetCompressorInformation
 dev_langs:
- - c++
+- c++
 req.header: compressapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Cabinet.lib
 req.dll: Cabinet.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - cabinet.dll
+- cabinet.dll
 api_name:
- - SetCompressorInformation
+- SetCompressorInformation
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:wuapi.IUpdate.get_RecommendedMemory
 title: IUpdate::get_RecommendedMemory (wuapi.h)
-
 description: Gets the recommended physical memory size that should be available in your computer before you install the update. The physical memory size is specified in megabytes (MB).
 old-location: wua\iupdate_recommendedmemory.htm
 tech.root: Wua_Sdk
 ms.assetid: 68a8341b-ba0a-4694-89c3-34fefb950bf7
-
 ms.date: 12/05/2018
 ms.keywords: IUpdate interface [Windows Update Agent],RecommendedMemory property, IUpdate.RecommendedMemory, IUpdate.get_RecommendedMemory, IUpdate::RecommendedMemory, IUpdate::get_RecommendedMemory, RecommendedMemory property [Windows Update Agent], RecommendedMemory property [Windows Update Agent],IUpdate interface, get_RecommendedMemory, wua.iupdate_recommendedmemory, wuapi/IUpdate::RecommendedMemory, wuapi/IUpdate::get_RecommendedMemory
 ms.topic: method
-f1_keywords: 
- - "wuapi/IUpdate.RecommendedMemory"
+f1_keywords:
+- wuapi/IUpdate.RecommendedMemory
 dev_langs:
- - c++
+- c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Wuguid.lib
 req.dll: Wuapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wuapi.dll
+- Wuapi.dll
 api_name:
- - IUpdate.RecommendedMemory
- - IUpdate.get_RecommendedMemory
+- IUpdate.RecommendedMemory
+- IUpdate.get_RecommendedMemory
 targetos: Windows
 req.typenames: 
 req.redist: 

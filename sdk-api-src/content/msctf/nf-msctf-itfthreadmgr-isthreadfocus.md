@@ -1,19 +1,17 @@
 ---
 UID: NF:msctf.ITfThreadMgr.IsThreadFocus
 title: ITfThreadMgr::IsThreadFocus (msctf.h)
-
 description: ITfThreadMgr::IsThreadFocus method
 old-location: tsf\itfthreadmgr_isthreadfocus.htm
 tech.root: TSF
 ms.assetid: fa753a4d-4f78-45e0-b711-c294adbb307a
-
 ms.date: 12/05/2018
 ms.keywords: ITfThreadMgr interface [Text Services Framework],IsThreadFocus method, ITfThreadMgr.IsThreadFocus, ITfThreadMgr::IsThreadFocus, IsThreadFocus, IsThreadFocus method [Text Services Framework], IsThreadFocus method [Text Services Framework],ITfThreadMgr interface, _tsf_itfthreadmgr_isthreadfocus_ref, msctf/ITfThreadMgr::IsThreadFocus, tsf.itfthreadmgr_isthreadfocus
 ms.topic: method
-f1_keywords: 
- - "msctf/ITfThreadMgr.IsThreadFocus"
+f1_keywords:
+- msctf/ITfThreadMgr.IsThreadFocus
 dev_langs:
- - c++
+- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msctf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msctf.dll
+- Msctf.dll
 api_name:
- - ITfThreadMgr.IsThreadFocus
+- ITfThreadMgr.IsThreadFocus
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

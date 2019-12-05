@@ -1,19 +1,17 @@
 ---
 UID: NF:xaudio2.IXAudio2.SetDebugConfiguration
 title: IXAudio2::SetDebugConfiguration (xaudio2.h)
-
 description: Changes global debug logging options for XAudio2.
 old-location: xaudio2\ixaudio2_interface_setdebugconfiguration.htm
 tech.root: xaudio2
 ms.assetid: M:Microsoft.directx_sdk.ixaudio2.IXAudio2.SetDebugConfiguration(XAUDIO2_DEBUG_CONFIGURATION)
-
 ms.date: 12/05/2018
 ms.keywords: IXAudio2 interface [XAudio2 Audio Mixing APIs],SetDebugConfiguration method, IXAudio2.SetDebugConfiguration, IXAudio2::SetDebugConfiguration, SetDebugConfiguration, SetDebugConfiguration method [XAudio2 Audio Mixing APIs], SetDebugConfiguration method [XAudio2 Audio Mixing APIs],IXAudio2 interface, xaudio2.ixaudio2_interface_setdebugconfiguration, xaudio2/IXAudio2::SetDebugConfiguration
 ms.topic: method
-f1_keywords: 
- - "xaudio2/IXAudio2.SetDebugConfiguration"
+f1_keywords:
+- xaudio2/IXAudio2.SetDebugConfiguration
 dev_langs:
- - c++
+- c++
 req.header: xaudio2.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xaudio2.h
+- xaudio2.h
 api_name:
- - IXAudio2.SetDebugConfiguration
+- IXAudio2.SetDebugConfiguration
 targetos: Windows
 req.typenames: 
 req.redist: 

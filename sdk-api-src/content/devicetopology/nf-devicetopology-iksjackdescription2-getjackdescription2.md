@@ -1,19 +1,17 @@
 ---
 UID: NF:devicetopology.IKsJackDescription2.GetJackDescription2
 title: IKsJackDescription2::GetJackDescription2 (devicetopology.h)
-
 description: The GetJackDescription2 method gets the description of a specified audio jack.
 old-location: coreaudio\iksjackdescription2_getjackdescription2.htm
 tech.root: CoreAudio
 ms.assetid: 724a75c2-22be-431c-b29a-8bf916d085e7
-
 ms.date: 12/05/2018
 ms.keywords: GetJackDescription2, GetJackDescription2 method [Core Audio], GetJackDescription2 method [Core Audio],IKsJackDescription2 interface, IKsJackDescription2 interface [Core Audio],GetJackDescription2 method, IKsJackDescription2.GetJackDescription2, IKsJackDescription2::GetJackDescription2, coreaudio.iksjackdescription2_getjackdescription2, devicetopology/IKsJackDescription2::GetJackDescription2
 ms.topic: method
-f1_keywords: 
- - "devicetopology/IKsJackDescription2.GetJackDescription2"
+f1_keywords:
+- devicetopology/IKsJackDescription2.GetJackDescription2
 dev_langs:
- - c++
+- c++
 req.header: devicetopology.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Devicetopology.h
+- Devicetopology.h
 api_name:
- - IKsJackDescription2.GetJackDescription2
+- IKsJackDescription2.GetJackDescription2
 targetos: Windows
 req.typenames: 
 req.redist: 

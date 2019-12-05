@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IShellLinkA.SetArguments
 title: IShellLinkA::SetArguments (shobjidl_core.h)
-
 description: Sets the command-line arguments for a Shell link object.
 old-location: shell\IShellLink_SetArguments.htm
 tech.root: shell
 ms.assetid: 5ad5fabd-be12-40bc-a6b3-498bcde7223a
-
 ms.date: 12/05/2018
 ms.keywords: IShellLink interface [Windows Shell],SetArguments method, IShellLink::SetArguments, IShellLinkA interface [Windows Shell],SetArguments method, IShellLinkA.SetArguments, IShellLinkA::SetArguments, IShellLinkW interface [Windows Shell],SetArguments method, IShellLinkW::SetArguments, SetArguments, SetArguments method [Windows Shell], SetArguments method [Windows Shell],IShellLink interface, SetArguments method [Windows Shell],IShellLinkA interface, SetArguments method [Windows Shell],IShellLinkW interface, _win32_IShellLink_SetArguments, shell.IShellLink_SetArguments, shobjidl_core/IShellLink::SetArguments, shobjidl_core/IShellLinkA::SetArguments, shobjidl_core/IShellLinkW::SetArguments
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IShellLink.SetArguments"
+f1_keywords:
+- shobjidl_core/IShellLink.SetArguments
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: Shell32.dll (version 4.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - IShellLink.SetArguments
- - IShellLinkA.SetArguments
- - IShellLinkW.SetArguments
+- IShellLink.SetArguments
+- IShellLinkA.SetArguments
+- IShellLinkW.SetArguments
 targetos: Windows
 req.typenames: 
 req.redist: 

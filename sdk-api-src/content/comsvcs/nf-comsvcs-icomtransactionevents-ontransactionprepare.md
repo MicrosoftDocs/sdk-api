@@ -1,19 +1,17 @@
 ---
 UID: NF:comsvcs.IComTransactionEvents.OnTransactionPrepare
 title: IComTransactionEvents::OnTransactionPrepare (comsvcs.h)
-
 description: Generated when the prepare phase of the two-phase commit protocol of the transaction is completed.
 old-location: cos\icomtransactionevents_ontransactionprepare.htm
 tech.root: cossdk
 ms.assetid: ab56c3fc-daeb-4c7a-ac7f-a2c6d70c1006
-
 ms.date: 12/05/2018
 ms.keywords: IComTransactionEvents interface [COM+],OnTransactionPrepare method, IComTransactionEvents.OnTransactionPrepare, IComTransactionEvents::OnTransactionPrepare, OnTransactionPrepare, OnTransactionPrepare method [COM+], OnTransactionPrepare method [COM+],IComTransactionEvents interface, _dtc_IComTransactionEvents_OnTransactionPrepare, comsvcs/IComTransactionEvents::OnTransactionPrepare, cos.icomtransactionevents_ontransactionprepare
 ms.topic: method
-f1_keywords: 
- - "comsvcs/IComTransactionEvents.OnTransactionPrepare"
+f1_keywords:
+- comsvcs/IComTransactionEvents.OnTransactionPrepare
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - IComTransactionEvents.OnTransactionPrepare
+- IComTransactionEvents.OnTransactionPrepare
 targetos: Windows
 req.typenames: 
 req.redist: 

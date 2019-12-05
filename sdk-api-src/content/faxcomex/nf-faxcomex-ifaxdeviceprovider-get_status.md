@@ -1,19 +1,17 @@
 ---
 UID: NF:faxcomex.IFaxDeviceProvider.get_Status
 title: IFaxDeviceProvider::get_Status (faxcomex.h)
-
 description: The IFaxDeviceProvider::get_Status property is a number that indicates whether the fax service provider (FSP) loaded and initialized successfully.
 old-location: fax\_mfax_faxdeviceprovider_status.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_8joz.htm
-
 ms.date: 12/05/2018
 ms.keywords: IFaxDeviceProvider interface [Fax Service],Status property, IFaxDeviceProvider.Status, IFaxDeviceProvider.get_Status, IFaxDeviceProvider::Status, IFaxDeviceProvider::get_Status, Status property [Fax Service], Status property [Fax Service],IFaxDeviceProvider interface, _mfax_faxdeviceprovider.status, fax._mfax_faxdeviceprovider_status, faxcomex/IFaxDeviceProvider::Status, faxcomex/IFaxDeviceProvider::get_Status, get_Status
 ms.topic: method
-f1_keywords: 
- - "faxcomex/IFaxDeviceProvider.Status"
+f1_keywords:
+- faxcomex/IFaxDeviceProvider.Status
 dev_langs:
- - c++
+- c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: Fxscomex.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Fxscomex.dll
+- Fxscomex.dll
 api_name:
- - IFaxDeviceProvider.Status
- - IFaxDeviceProvider.get_Status
+- IFaxDeviceProvider.Status
+- IFaxDeviceProvider.get_Status
 targetos: Windows
 req.typenames: 
 req.redist: 

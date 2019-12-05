@@ -1,19 +1,17 @@
 ---
 UID: NF:azroles.IAzAuthorizationStore3.UpgradeStoresFunctionalLevel
 title: IAzAuthorizationStore3::UpgradeStoresFunctionalLevel (azroles.h)
-
 description: Upgrades this authorization store from version 1 to version 2.
 old-location: security\iazauthorizationstore3_upgradestoresfunctionallevel_method.htm
 tech.root: SecAuthZ
 ms.assetid: 7719e3fd-5b06-468c-9034-f1f0bb41a5be
-
 ms.date: 12/05/2018
 ms.keywords: IAzAuthorizationStore3 interface [Security],UpgradeStoresFunctionalLevel method, IAzAuthorizationStore3.UpgradeStoresFunctionalLevel, IAzAuthorizationStore3::UpgradeStoresFunctionalLevel, UpgradeStoresFunctionalLevel, UpgradeStoresFunctionalLevel method [Security], UpgradeStoresFunctionalLevel method [Security],IAzAuthorizationStore3 interface, azroles/IAzAuthorizationStore3::UpgradeStoresFunctionalLevel, security.iazauthorizationstore3_upgradestoresfunctionallevel_method
 ms.topic: method
-f1_keywords: 
- - "azroles/IAzAuthorizationStore3.UpgradeStoresFunctionalLevel"
+f1_keywords:
+- azroles/IAzAuthorizationStore3.UpgradeStoresFunctionalLevel
 dev_langs:
- - c++
+- c++
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Azroles.h
+- Azroles.h
 api_name:
- - IAzAuthorizationStore3.UpgradeStoresFunctionalLevel
+- IAzAuthorizationStore3.UpgradeStoresFunctionalLevel
 targetos: Windows
 req.typenames: 
 req.redist: 

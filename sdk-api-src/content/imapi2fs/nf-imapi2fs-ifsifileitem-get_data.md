@@ -1,19 +1,17 @@
 ---
 UID: NF:imapi2fs.IFsiFileItem.get_Data
 title: IFsiFileItem::get_Data (imapi2fs.h)
-
 description: Retrieves the data stream of the file's content.
 old-location: imapi\ifsifileitem_get_data.htm
 tech.root: imapi
 ms.assetid: 90ed4c81-7113-4329-ae1e-9114740b7e09
-
 ms.date: 12/05/2018
 ms.keywords: IFsiFileItem interface [IMAPI],get_Data method, IFsiFileItem.get_Data, IFsiFileItem::get_Data, get_Data, get_Data method [IMAPI], get_Data method [IMAPI],IFsiFileItem interface, imapi.ifsifileitem_get_data, imapi2fs/IFsiFileItem::get_Data
 ms.topic: method
-f1_keywords: 
- - "imapi2fs/IFsiFileItem.get_Data"
+f1_keywords:
+- imapi2fs/IFsiFileItem.get_Data
 dev_langs:
- - c++
+- c++
 req.header: imapi2fs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - imapi2fs.h
+- imapi2fs.h
 api_name:
- - IFsiFileItem.get_Data
+- IFsiFileItem.get_Data
 targetos: Windows
 req.typenames: 
 req.redist: 

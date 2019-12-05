@@ -1,19 +1,17 @@
 ---
 UID: NF:setupapi.SetupEnumInfSectionsW
 title: SetupEnumInfSectionsW function (setupapi.h)
-
 description: The SetupEnumInfSections function retrieves section names from an INF file.
 old-location: setup\setupenuminfsections.htm
 tech.root: SetupApi
 ms.assetid: 9b19ced6-728a-48e7-9e87-03fc53f7fb72
-
 ms.date: 12/05/2018
 ms.keywords: SetupEnumInfSections, SetupEnumInfSections function [Setup API], SetupEnumInfSectionsA, SetupEnumInfSectionsW, setup.setupenuminfsections, setupapi/SetupEnumInfSections, setupapi/SetupEnumInfSectionsA, setupapi/SetupEnumInfSectionsW
 ms.topic: function
-f1_keywords: 
- - "setupapi/SetupEnumInfSections"
+f1_keywords:
+- setupapi/SetupEnumInfSections
 dev_langs:
- - c++
+- c++
 req.header: setupapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Setupapi.lib
 req.dll: Setupapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Setupapi.dll
- - Ext-MS-Win-SetupAPI-Inf-L1-1-1.dll
+- Setupapi.dll
+- Ext-MS-Win-SetupAPI-Inf-L1-1-1.dll
 api_name:
- - SetupEnumInfSections
- - SetupEnumInfSectionsA
- - SetupEnumInfSectionsW
+- SetupEnumInfSections
+- SetupEnumInfSectionsA
+- SetupEnumInfSectionsW
 targetos: Windows
 req.typenames: 
 req.redist: 

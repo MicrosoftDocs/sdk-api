@@ -1,19 +1,17 @@
 ---
 UID: NF:uianimation.IUIAnimationManager.CreateAnimationVariable
 title: IUIAnimationManager::CreateAnimationVariable (uianimation.h)
-
 description: Creates a new animation variable.
 old-location: uianimation\iuianimationmanager_createanimationvariable.htm
 tech.root: UIAnimation
 ms.assetid: e4c38e78-1b9e-4918-ba15-6a4c5c390c07
-
 ms.date: 12/05/2018
 ms.keywords: CreateAnimationVariable, CreateAnimationVariable method [Windows Animation], CreateAnimationVariable method [Windows Animation],IUIAnimationManager interface, IUIAnimationManager interface [Windows Animation],CreateAnimationVariable method, IUIAnimationManager.CreateAnimationVariable, IUIAnimationManager::CreateAnimationVariable, uianimation.iuianimationmanager_createanimationvariable, uianimation/IUIAnimationManager::CreateAnimationVariable
 ms.topic: method
-f1_keywords: 
- - "uianimation/IUIAnimationManager.CreateAnimationVariable"
+f1_keywords:
+- uianimation/IUIAnimationManager.CreateAnimationVariable
 dev_langs:
- - c++
+- c++
 req.header: uianimation.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: UIAnimation.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAnimation.dll
+- UIAnimation.dll
 api_name:
- - IUIAnimationManager.CreateAnimationVariable
+- IUIAnimationManager.CreateAnimationVariable
 targetos: Windows
 req.typenames: 
 req.redist: 

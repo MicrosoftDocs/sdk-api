@@ -1,19 +1,17 @@
 ---
 UID: NF:d2d1_3.ID2D1SvgGlyphStyle.GetStroke
 title: ID2D1SvgGlyphStyle::GetStroke (d2d1_3.h)
-
 description: Returns the requested stroke parameters.
 old-location: direct2d\id2d1svgglyphstyle_getstroke.htm
 tech.root: Direct2D
 ms.assetid: 5EC78516-E0E2-4758-9C36-47F951D1BCAE
-
 ms.date: 12/05/2018
 ms.keywords: GetStroke, GetStroke method [Direct2D], GetStroke method [Direct2D],ID2D1SvgGlyphStyle interface, ID2D1SvgGlyphStyle interface [Direct2D],GetStroke method, ID2D1SvgGlyphStyle.GetStroke, ID2D1SvgGlyphStyle::GetStroke, d2d1_3/ID2D1SvgGlyphStyle::GetStroke, direct2d.id2d1svgglyphstyle_getstroke
 ms.topic: method
-f1_keywords: 
- - "d2d1_3/ID2D1SvgGlyphStyle.GetStroke"
+f1_keywords:
+- d2d1_3/ID2D1SvgGlyphStyle.GetStroke
 dev_langs:
- - c++
+- c++
 req.header: d2d1_3.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: D2d1.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D2d1.dll
+- D2d1.dll
 api_name:
- - ID2D1SvgGlyphStyle.GetStroke
+- ID2D1SvgGlyphStyle.GetStroke
 targetos: Windows
 req.typenames: 
 req.redist: 

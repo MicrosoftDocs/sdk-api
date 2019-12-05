@@ -1,19 +1,17 @@
 ---
 UID: NS:ddrawint._DD_DESTROYMOCOMPDATA
 title: DD_DESTROYMOCOMPDATA (ddrawint.h)
-
 description: The DD_DESTROYMOCOMPDATA structure contains the information required to finish performing motion compensation.
 old-location: display\dd_destroymocompdata.htm
 tech.root: display
 ms.assetid: 0db32ded-2e32-471d-a752-1f5beffec684
-
 ms.date: 12/05/2018
 ms.keywords: '*PDD_DESTROYMOCOMPDATA, DD_DESTROYMOCOMPDATA, DD_DESTROYMOCOMPDATA structure [Display Devices], ddrawint/DD_DESTROYMOCOMPDATA, ddstrcts_1a3d548c-c0f7-4334-b0c6-b63c155d854c.xml, display.dd_destroymocompdata'
 ms.topic: struct
 f1_keywords:
 - ddrawint/DD_DESTROYMOCOMPDATA
 dev_langs:
- - c++
+- c++
 req.header: ddrawint.h
 req.include-header: Winddi.h
 req.target-type: Windows

@@ -1,19 +1,17 @@
 ---
 UID: NF:dhcpsapi.DhcpCreateSubnetV6
 title: DhcpCreateSubnetV6 function (dhcpsapi.h)
-
 description: The DhcpCreateSubnetV6 function creates a new subnet on the DHCP server.
 old-location: dhcp\dhcpcreatesubnetv6.htm
 tech.root: DHCP
 ms.assetid: a27ac111-39bf-4695-989a-1c83e7704ff4
-
 ms.date: 12/05/2018
 ms.keywords: DhcpCreateSubnetV6, DhcpCreateSubnetV6 function [DHCP], dhcp.dhcpcreatesubnetv6, dhcpsapi/DhcpCreateSubnetV6
 ms.topic: function
-f1_keywords: 
- - "dhcpsapi/DhcpCreateSubnetV6"
+f1_keywords:
+- dhcpsapi/DhcpCreateSubnetV6
 dev_langs:
- - c++
+- c++
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dhcpsapi.lib
 req.dll: Dhcpsapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Dhcpsapi.dll
+- Dhcpsapi.dll
 api_name:
- - DhcpCreateSubnetV6
+- DhcpCreateSubnetV6
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:lmserver.NetServerComputerNameAdd
 title: NetServerComputerNameAdd function (lmserver.h)
-
 description: The NetServerComputerNameAdd function enumerates the transports on which the specified server is active, and binds the emulated server name to each of the transports.
 old-location: netmgmt\netservercomputernameadd.htm
 tech.root: NetMgmt
 ms.assetid: 0789fbfe-be91-4849-a31c-1e1a6ae1e70d
-
 ms.date: 12/05/2018
 ms.keywords: NetServerComputerNameAdd, NetServerComputerNameAdd function [Network Management], _win32_netservercomputernameadd, lmserver/NetServerComputerNameAdd, netmgmt.netservercomputernameadd
 ms.topic: function
-f1_keywords: 
- - "lmserver/NetServerComputerNameAdd"
+f1_keywords:
+- lmserver/NetServerComputerNameAdd
 dev_langs:
- - c++
+- c++
 req.header: lmserver.h
 req.include-header: Lm.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Netapi32.lib
 req.dll: Netapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Netapi32.dll
+- Netapi32.dll
 api_name:
- - NetServerComputerNameAdd
+- NetServerComputerNameAdd
 targetos: Windows
 req.typenames: 
 req.redist: 

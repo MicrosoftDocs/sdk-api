@@ -1,19 +1,17 @@
 ---
 UID: NF:wsdclient.IWSDAsyncResult.GetEndpointProxy
 title: IWSDAsyncResult::GetEndpointProxy (wsdclient.h)
-
 description: Retrieves the endpoint proxy for the asynchronous operation.
 old-location: ncd\iwsdasyncresult_getendpointproxy.htm
 tech.root: WsdApi
 ms.assetid: f2b1f43a-e86c-4ec9-a39f-9c5050f3e3c3
-
 ms.date: 12/05/2018
 ms.keywords: GetEndpointProxy, GetEndpointProxy method, GetEndpointProxy method,IWSDAsyncResult interface, IWSDAsyncResult interface,GetEndpointProxy method, IWSDAsyncResult.GetEndpointProxy, IWSDAsyncResult::GetEndpointProxy, ncd.iwsdasyncresult_getendpointproxy, wsdclient/IWSDAsyncResult::GetEndpointProxy
 ms.topic: method
-f1_keywords: 
- - "wsdclient/IWSDAsyncResult.GetEndpointProxy"
+f1_keywords:
+- wsdclient/IWSDAsyncResult.GetEndpointProxy
 dev_langs:
- - c++
+- c++
 req.header: wsdclient.h
 req.include-header: Wsdapi.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wsdapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wsdapi.dll
+- wsdapi.dll
 api_name:
- - IWSDAsyncResult.GetEndpointProxy
+- IWSDAsyncResult.GetEndpointProxy
 targetos: Windows
 req.typenames: 
 req.redist: 

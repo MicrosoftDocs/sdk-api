@@ -1,19 +1,17 @@
 ---
 UID: NF:clusapi.ClusterNodeOpenEnumEx
 title: ClusterNodeOpenEnumEx function (clusapi.h)
-
 description: Opens an enumerator that can iterate through the network interfaces or groups that are installed on a node.
 old-location: mscs\clusternodeopenenumex.htm
 tech.root: MsCS
 ms.assetid: A251C5A3-2C9F-4030-8013-4846AD83A2E9
-
 ms.date: 12/05/2018
 ms.keywords: ClusterNodeOpenEnumEx, ClusterNodeOpenEnumEx function [Failover Cluster], PCLUSAPI_CLUSTER_NODE_OPEN_ENUM_EX, PCLUSAPI_CLUSTER_NODE_OPEN_ENUM_EX function [Failover Cluster], clusapi/ClusterNodeOpenEnumEx, clusapi/PCLUSAPI_CLUSTER_NODE_OPEN_ENUM_EX, mscs.clusternodeopenenumex
 ms.topic: function
-f1_keywords: 
- - "clusapi/ClusterNodeOpenEnumEx"
+f1_keywords:
+- clusapi/ClusterNodeOpenEnumEx
 dev_langs:
- - c++
+- c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,13 +30,13 @@ req.lib: ClusAPI.lib
 req.dll: ClusAPI.dll
 req.irql: 
 topic_type:
- - kbSyntax
+- kbSyntax
 api_type:
- - <TBD>
+- <TBD>
 api_location:
- -
+- 
 api_name:
- - ClusterNodeOpenEnumEx
+- ClusterNodeOpenEnumEx
 targetos: Windows
 req.typenames: 
 req.redist: 

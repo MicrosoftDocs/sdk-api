@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IHomeGroup.ShowSharingWizard
 title: IHomeGroup::ShowSharingWizard (shobjidl_core.h)
-
 description: Displays a wizard that allows a user to create a Home Group, and then retrieves the sharing options that the user selected through the wizard.
 old-location: shell\IHomeGroup_ShowSharingWizard.htm
 tech.root: shell
 ms.assetid: D73A97EE-B427-4c53-B023-3662D864E801
-
 ms.date: 12/05/2018
 ms.keywords: HGSC_DOCUMENTSLIBRARY, HGSC_MUSICLIBRARY, HGSC_NONE, HGSC_PICTURESLIBRARY, HGSC_PRINTERS, HGSC_VIDEOSLIBRARY, IHomeGroup interface [Windows Shell],ShowSharingWizard method, IHomeGroup.ShowSharingWizard, IHomeGroup::ShowSharingWizard, ShowSharingWizard, ShowSharingWizard method [Windows Shell], ShowSharingWizard method [Windows Shell],IHomeGroup interface, _shell_IHomeGroup_ShowSharingWizard, shell.IHomeGroup_ShowSharingWizard, shobjidl_core/IHomeGroup::ShowSharingWizard
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IHomeGroup.ShowSharingWizard"
+f1_keywords:
+- shobjidl_core/IHomeGroup.ShowSharingWizard
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - IHomeGroup.ShowSharingWizard
+- IHomeGroup.ShowSharingWizard
 targetos: Windows
 req.typenames: 
 req.redist: 

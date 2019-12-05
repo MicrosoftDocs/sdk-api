@@ -1,19 +1,17 @@
 ---
 UID: NN:webapplication.IWebApplicationUIEvents
 title: IWebApplicationUIEvents (webapplication.h)
-
 description: Enables a debugging or authoring app to receive notification of user interface events and respond to events that require user interaction.
 old-location: debug\iwebapplicationuievents.htm
 tech.root: debug_wwahost
 ms.assetid: e7cfc572-f727-41f4-b4a5-b15f3f3cd4e1
-
 ms.date: 12/05/2018
 ms.keywords: IWebApplicationUIEvents, IWebApplicationUIEvents interface [Debugging Windows Store apps], IWebApplicationUIEvents interface [Debugging Windows Store apps],described, debug.iwebapplicationuievents, webapplication/IWebApplicationUIEvents
 ms.topic: interface
-f1_keywords: 
- - "webapplication/IWebApplicationUIEvents"
+f1_keywords:
+- webapplication/IWebApplicationUIEvents
 dev_langs:
- - c++
+- c++
 req.header: webapplication.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - webapplication.h
+- webapplication.h
 api_name:
- - IWebApplicationUIEvents
+- IWebApplicationUIEvents
 targetos: Windows
 req.typenames: 
 req.redist: 

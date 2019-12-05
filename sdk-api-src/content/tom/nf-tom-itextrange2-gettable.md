@@ -1,19 +1,17 @@
 ---
 UID: NF:tom.ITextRange2.GetTable
 title: ITextRange2::GetTable (tom.h)
-
 description: Gets the table properties in the currently selected table.
 old-location: controls\itextrange2_gettable.htm
 tech.root: Controls
 ms.assetid: ade77edf-6a9e-4c8d-a522-3158c802b6dd
-
 ms.date: 12/05/2018
 ms.keywords: GetTable, GetTable method [Windows Controls], GetTable method [Windows Controls],ITextRange2 interface, ITextRange2 interface [Windows Controls],GetTable method, ITextRange2.GetTable, ITextRange2::GetTable, controls.itextrange2_gettable, tom/ITextRange2::GetTable
 ms.topic: method
-f1_keywords: 
- - "tom/ITextRange2.GetTable"
+f1_keywords:
+- tom/ITextRange2.GetTable
 dev_langs:
- - c++
+- c++
 req.header: tom.h
 req.include-header: Tom.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msftedit.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msftedit.dll
+- Msftedit.dll
 api_name:
- - ITextRange2.GetTable
+- ITextRange2.GetTable
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:comsvcs.ICrmMonitorClerks.get_Count
 title: ICrmMonitorClerks::get_Count (comsvcs.h)
-
 description: Retrieves the count of CRM clerks in the collection.
 old-location: cos\icrmmonitorclerks_get_count.htm
 tech.root: cossdk
 ms.assetid: 677f39e5-6f77-46a5-9429-682c0d2933df
-
 ms.date: 12/05/2018
 ms.keywords: ICrmMonitorClerks interface [COM+],get_Count method, ICrmMonitorClerks.get_Count, ICrmMonitorClerks::get_Count, _dtc_ICrmMonitorClerks_Count, comsvcs/ICrmMonitorClerks::get_Count, cos.icrmmonitorclerks_get_count, get_Count, get_Count method [COM+], get_Count method [COM+],ICrmMonitorClerks interface
 ms.topic: method
-f1_keywords: 
- - "comsvcs/ICrmMonitorClerks.get_Count"
+f1_keywords:
+- comsvcs/ICrmMonitorClerks.get_Count
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - ICrmMonitorClerks.get_Count
+- ICrmMonitorClerks.get_Count
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NN:tapi3if.IEnumPluggableTerminalClassInfo
 title: IEnumPluggableTerminalClassInfo (tapi3if.h)
-
 description: The IEnumPluggableTerminalClassInfo interface provides COM-standard enumeration methods for the ITPluggableTerminalClassInfo interface. The ITTerminalSupport2::EnumeratePluggableTerminalClasses method returns a pointer to IEnumPluggableTerminalClassInfo.
 old-location: tapi3\ienumpluggableterminalclassinfo.htm
 tech.root: Tapi
 ms.assetid: 72c0db41-8391-4923-8961-6aefce9886c4
-
 ms.date: 12/05/2018
 ms.keywords: IEnumPluggableTerminalClassInfo, IEnumPluggableTerminalClassInfo interface [TAPI 2.2], IEnumPluggableTerminalClassInfo interface [TAPI 2.2],described, _tapi3_ienumpluggableterminalclassinfo, tapi3.ienumpluggableterminalclassinfo, tapi3if/IEnumPluggableTerminalClassInfo
 ms.topic: interface
-f1_keywords: 
- - "tapi3if/IEnumPluggableTerminalClassInfo"
+f1_keywords:
+- tapi3if/IEnumPluggableTerminalClassInfo
 dev_langs:
- - c++
+- c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Tapi3.dll
+- Tapi3.dll
 api_name:
- - IEnumPluggableTerminalClassInfo
+- IEnumPluggableTerminalClassInfo
 targetos: Windows
 req.typenames: 
 req.redist: 

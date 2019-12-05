@@ -1,19 +1,17 @@
 ---
 UID: NF:gdipluseffects.ColorBalance.GetParameters
 title: ColorBalance::GetParameters (gdipluseffects.h)
-
 description: The ColorBalance::GetParameters method gets the current values of the parameters of this ColorBalance object.
 old-location: gdiplus\_gdiplus_CLASS_ColorBalance_GetParameters_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\colorbalanceclass\colorbalancemethods\getparameters.htm
-
 ms.date: 12/05/2018
 ms.keywords: ColorBalance class [GDI+],GetParameters method, ColorBalance.GetParameters, ColorBalance::GetParameters, GetParameters, GetParameters method [GDI+], GetParameters method [GDI+],ColorBalance class, _gdiplus_CLASS_ColorBalance_GetParameters_, gdiplus._gdiplus_CLASS_ColorBalance_GetParameters_
 ms.topic: method
-f1_keywords: 
- - "gdipluseffects/ColorBalance.GetParameters"
+f1_keywords:
+- gdipluseffects/ColorBalance.GetParameters
 dev_langs:
- - c++
+- c++
 req.header: gdipluseffects.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - ColorBalance.GetParameters
+- ColorBalance.GetParameters
 targetos: Windows
 req.typenames: 
 req.redist: 

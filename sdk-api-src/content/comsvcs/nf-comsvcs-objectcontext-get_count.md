@@ -1,19 +1,17 @@
 ---
 UID: NF:comsvcs.ObjectContext.get_Count
 title: ObjectContext::get_Count (comsvcs.h)
-
 description: Retrieves the number of named context object properties.
 old-location: cos\objectcontext_get_count.htm
 tech.root: cossdk
 ms.assetid: 0844876e-6e21-4fac-9d74-01c221e1d78a
-
 ms.date: 12/05/2018
 ms.keywords: ObjectContext interface [COM+],get_Count method, ObjectContext.get_Count, ObjectContext::get_Count, _cos_ObjectContext_get_Count, comsvcs/ObjectContext::get_Count, cos.objectcontext_get_count, get_Count, get_Count method [COM+], get_Count method [COM+],ObjectContext interface
 ms.topic: method
-f1_keywords: 
- - "comsvcs/ObjectContext.get_Count"
+f1_keywords:
+- comsvcs/ObjectContext.get_Count
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - ObjectContext.get_Count
+- ObjectContext.get_Count
 targetos: Windows
 req.typenames: 
 req.redist: 

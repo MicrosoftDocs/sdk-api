@@ -1,19 +1,17 @@
 ---
 UID: NS:bluetoothapis._BLUETOOTH_DEVICE_INFO
 title: BLUETOOTH_DEVICE_INFO_STRUCT (bluetoothapis.h)
-
 description: The BLUETOOTH_DEVICE_INFO structure provides information about a Bluetooth device.
 old-location: bluetooth\bluetooth_device_info.htm
 tech.root: bluetooth
 ms.assetid: 41b14980-8217-4948-b084-1f44051d12f7
-
 ms.date: 12/05/2018
 ms.keywords: BLUETOOTH_DEVICE_INFO, BLUETOOTH_DEVICE_INFO structure [Bluetooth], BLUETOOTH_DEVICE_INFO_STRUCT, _BLUETOOTH_DEVICE_INFO, _bth_bluetooth_device_info, bluetooth.bluetooth_device_info, bluetoothapis/BLUETOOTH_DEVICE_INFO
 ms.topic: struct
-f1_keywords: 
- - "bluetoothapis/BLUETOOTH_DEVICE_INFO"
+f1_keywords:
+- bluetoothapis/BLUETOOTH_DEVICE_INFO
 dev_langs:
- - c++
+- c++
 req.header: bluetoothapis.h
 req.include-header: Bthsdpdef.h, BluetoothAPIs.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - BluetoothAPIs.h
+- BluetoothAPIs.h
 api_name:
- - BLUETOOTH_DEVICE_INFO
+- BLUETOOTH_DEVICE_INFO
 targetos: Windows
 req.typenames: BLUETOOTH_DEVICE_INFO_STRUCT
 req.redist: 

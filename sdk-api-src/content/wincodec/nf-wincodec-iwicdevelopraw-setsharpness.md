@@ -1,19 +1,17 @@
 ---
 UID: NF:wincodec.IWICDevelopRaw.SetSharpness
 title: IWICDevelopRaw::SetSharpness (wincodec.h)
-
 description: Sets the sharpness value of the raw image.
 old-location: wic\_wic_codec_iwicdevelopraw_setsharpness.htm
 tech.root: wic
 ms.assetid: 0c989362-0c76-4028-ac27-c49e3ec1c6fd
-
 ms.date: 12/05/2018
 ms.keywords: IWICDevelopRaw interface [Windows Imaging Component],SetSharpness method, IWICDevelopRaw.SetSharpness, IWICDevelopRaw::SetSharpness, SetSharpness, SetSharpness method [Windows Imaging Component], SetSharpness method [Windows Imaging Component],IWICDevelopRaw interface, _wic_codec_iwicdevelopraw_setsharpness, wic._wic_codec_iwicdevelopraw_setsharpness, wincodec/IWICDevelopRaw::SetSharpness
 ms.topic: method
-f1_keywords: 
- - "wincodec/IWICDevelopRaw.SetSharpness"
+f1_keywords:
+- wincodec/IWICDevelopRaw.SetSharpness
 dev_langs:
- - c++
+- c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Windowscodecs.lib
 req.dll: Windowscodecs.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Windowscodecs.dll
+- Windowscodecs.dll
 api_name:
- - IWICDevelopRaw.SetSharpness
+- IWICDevelopRaw.SetSharpness
 targetos: Windows
 req.typenames: 
 req.redist: 

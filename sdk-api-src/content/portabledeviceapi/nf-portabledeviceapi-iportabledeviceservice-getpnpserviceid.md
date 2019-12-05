@@ -1,19 +1,17 @@
 ---
 UID: NF:portabledeviceapi.IPortableDeviceService.GetPnPServiceID
 title: IPortableDeviceService::GetPnPServiceID (portabledeviceapi.h)
-
 description: Retrieves a Plug and Play (PnP) identifier for the service.
 old-location: wpdsdk\iportabledeviceservice_getpnpserviceid.htm
 tech.root: wpd_sdk
 ms.assetid: c73261a5-1436-4706-8d8b-ff8183429ac4
-
 ms.date: 12/05/2018
 ms.keywords: GetPnPServiceID, GetPnPServiceID method [Windows Portable Devices SDK], GetPnPServiceID method [Windows Portable Devices SDK],IPortableDeviceService interface, IPortableDeviceService interface [Windows Portable Devices SDK],GetPnPServiceID method, IPortableDeviceService.GetPnPServiceID, IPortableDeviceService::GetPnPServiceID, portabledeviceapi/IPortableDeviceService::GetPnPServiceID, wpdsdk.iportabledeviceservice_getpnpserviceid
 ms.topic: method
-f1_keywords: 
- - "portabledeviceapi/IPortableDeviceService.GetPnPServiceID"
+f1_keywords:
+- portabledeviceapi/IPortableDeviceService.GetPnPServiceID
 dev_langs:
- - c++
+- c++
 req.header: portabledeviceapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - PortableDeviceAPI.h
+- PortableDeviceAPI.h
 api_name:
- - IPortableDeviceService.GetPnPServiceID
+- IPortableDeviceService.GetPnPServiceID
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:winsnmp.SnmpGetRetry
 title: SnmpGetRetry function (winsnmp.h)
-
 description: The WinSNMP SnmpGetRetry function returns the retry count value, in units, for the retransmission of SNMP message requests. The retry count applies to calls that a WinSNMP application makes to the SnmpSendMsg function for a specified management entity.
 old-location: snmp\snmpgetretry.htm
 tech.root: SNMP
 ms.assetid: 0c01994b-adce-4525-a41c-71cbe2fde2a8
-
 ms.date: 12/05/2018
 ms.keywords: SnmpGetRetry, SnmpGetRetry function [SNMP], _snmp_snmpgetretry, snmp.snmpgetretry, winsnmp/SnmpGetRetry
 ms.topic: function
-f1_keywords: 
- - "winsnmp/SnmpGetRetry"
+f1_keywords:
+- winsnmp/SnmpGetRetry
 dev_langs:
- - c++
+- c++
 req.header: winsnmp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Wsnmp32.lib
 req.dll: Wsnmp32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Wsnmp32.dll
+- Wsnmp32.dll
 api_name:
- - SnmpGetRetry
+- SnmpGetRetry
 targetos: Windows
 req.typenames: 
 req.redist: 

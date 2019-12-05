@@ -1,19 +1,17 @@
 ---
 UID: NF:winldap.ldap_first_attribute
 title: ldap_first_attribute function (winldap.h)
-
 description: Returns the first attribute.
 old-location: ldap\ldap_first_attribute.htm
 tech.root: ldap
 ms.assetid: 2a654ef4-519f-41a7-943e-3befe5c932e8
-
 ms.date: 12/05/2018
-ms.keywords: "_ldap_ldap_first_attribute, ldap.ldap__first__attribute, ldap.ldap_first_attribute, ldap_first_attribute, ldap_first_attribute function [LDAP], ldap_first_attributeA, ldap_first_attributeW, winldap/ldap_first_attribute, winldap/ldap_first_attributeA, winldap/ldap_first_attributeW"
+ms.keywords: _ldap_ldap_first_attribute, ldap.ldap__first__attribute, ldap.ldap_first_attribute, ldap_first_attribute, ldap_first_attribute function [LDAP], ldap_first_attributeA, ldap_first_attributeW, winldap/ldap_first_attribute, winldap/ldap_first_attributeA, winldap/ldap_first_attributeW
 ms.topic: function
-f1_keywords: 
- - "winldap/ldap_first_attribute"
+f1_keywords:
+- winldap/ldap_first_attribute
 dev_langs:
- - c++
+- c++
 req.header: winldap.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Wldap32.lib
 req.dll: Wldap32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Wldap32.dll
+- Wldap32.dll
 api_name:
- - ldap_first_attribute
- - ldap_first_attributeA
- - ldap_first_attributeW
+- ldap_first_attribute
+- ldap_first_attributeA
+- ldap_first_attributeW
 targetos: Windows
 req.typenames: 
 req.redist: 

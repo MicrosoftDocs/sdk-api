@@ -1,19 +1,17 @@
 ---
 UID: NF:gdiplusheaders.Region.GetRegionScans(IN const Matrix,OUT Rect,OUT INT)
 title: Region::GetRegionScans(IN const Matrix,OUT Rect,OUT INT) (gdiplusheaders.h)
-
 description: The Region::GetRegionScans method gets an array of rectangles that approximate this region. The region is transformed by a specified matrix before the rectangles are calculated.
 old-location: gdiplus\_gdiplus_CLASS_Region_GetRegionScans_Matrix_matrix_Rect_rects_INT_count_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\regionclass\regionmethods\regiongetregionscansmethods\getregionscans.htm
-
 ms.date: 12/05/2018
 ms.keywords: GetRegionScans, GetRegionScans method [GDI+], GetRegionScans method [GDI+],Region class, Region class [GDI+],GetRegionScans method, Region.GetRegionScans, Region.GetRegionScans(IN const Matrix,OUT Rect,OUT INT), Region.GetRegionScans(const Matrix*,Rect*,INT*), Region::GetRegionScans, Region::GetRegionScans(IN const Matrix,OUT Rect,OUT INT), _gdiplus_CLASS_Region_GetRegionScans_Matrix_matrix_Rect_rects_INT_count_, gdiplus._gdiplus_CLASS_Region_GetRegionScans_Matrix_matrix_Rect_rects_INT_count_
 ms.topic: method
-f1_keywords: 
- - "gdiplusheaders/Region.GetRegionScans"
+f1_keywords:
+- gdiplusheaders/Region.GetRegionScans
 dev_langs:
- - c++
+- c++
 req.header: gdiplusheaders.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - Region.GetRegionScans
+- Region.GetRegionScans
 targetos: Windows
 req.typenames: 
 req.redist: 

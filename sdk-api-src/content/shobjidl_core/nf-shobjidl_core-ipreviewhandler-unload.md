@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IPreviewHandler.Unload
 title: IPreviewHandler::Unload (shobjidl_core.h)
-
 description: Directs the preview handler to cease rendering a preview and to release all resources that have been allocated based on the item passed in during the initialization.
 old-location: shell\IPreviewHandler_Unload.htm
 tech.root: shell
 ms.assetid: cefa9888-66cf-48a1-a6cd-49e273076d39
-
 ms.date: 12/05/2018
 ms.keywords: IPreviewHandler interface [Windows Shell],Unload method, IPreviewHandler.Unload, IPreviewHandler::Unload, Unload, Unload method [Windows Shell], Unload method [Windows Shell],IPreviewHandler interface, _shell_IPreviewHandler_Unload, shell.IPreviewHandler_Unload, shobjidl_core/IPreviewHandler::Unload
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IPreviewHandler.Unload"
+f1_keywords:
+- shobjidl_core/IPreviewHandler.Unload
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - IPreviewHandler.Unload
+- IPreviewHandler.Unload
 targetos: Windows
 req.typenames: 
 req.redist: Windows Search 4 or later

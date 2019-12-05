@@ -1,19 +1,17 @@
 ---
 UID: NF:clusapi.GetClusterFromNetInterface
 title: GetClusterFromNetInterface function (clusapi.h)
-
 description: Returns a handle to the cluster associated with a network interface.
 old-location: mscs\getclusterfromnetinterface.htm
 tech.root: MsCS
 ms.assetid: 7c6c6883-0d88-4162-a70d-cb6f1153226e
-
 ms.date: 12/05/2018
 ms.keywords: GetClusterFromNetInterface, GetClusterFromNetInterface function [Failover Cluster], PCLUSAPI_GET_CLUSTER_FROM_NET_INTERFACE, PCLUSAPI_GET_CLUSTER_FROM_NET_INTERFACE function [Failover Cluster], _wolf_getclusterfromnetinterface, clusapi/GetClusterFromNetInterface, clusapi/PCLUSAPI_GET_CLUSTER_FROM_NET_INTERFACE, mscs.getclusterfromnetinterface
 ms.topic: function
-f1_keywords: 
- - "clusapi/GetClusterFromNetInterface"
+f1_keywords:
+- clusapi/GetClusterFromNetInterface
 dev_langs:
- - c++
+- c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: ClusAPI.lib
 req.dll: ClusAPI.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - ClusAPI.dll
+- ClusAPI.dll
 api_name:
- - GetClusterFromNetInterface
+- GetClusterFromNetInterface
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:wincodec.IWICPlanarBitmapFrameEncode.WritePixels
 title: IWICPlanarBitmapFrameEncode::WritePixels (wincodec.h)
-
 description: Writes lines from the source planes to the encoded format.
 old-location: wic\iwicplanarbitmapframeencode_writepixels.htm
 tech.root: wic
 ms.assetid: 57DB1340-9BE4-46ED-9ADE-9B91657F09B7
-
 ms.date: 12/05/2018
 ms.keywords: IWICPlanarBitmapFrameEncode interface [Windows Imaging Component],WritePixels method, IWICPlanarBitmapFrameEncode.WritePixels, IWICPlanarBitmapFrameEncode::WritePixels, WritePixels, WritePixels method [Windows Imaging Component], WritePixels method [Windows Imaging Component],IWICPlanarBitmapFrameEncode interface, wic.iwicplanarbitmapframeencode_writepixels, wincodec/IWICPlanarBitmapFrameEncode::WritePixels
 ms.topic: method
-f1_keywords: 
- - "wincodec/IWICPlanarBitmapFrameEncode.WritePixels"
+f1_keywords:
+- wincodec/IWICPlanarBitmapFrameEncode.WritePixels
 dev_langs:
- - c++
+- c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Windowscodecs.lib
 req.dll: Windowscodecs.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Windowscodecs.dll
+- Windowscodecs.dll
 api_name:
- - IWICPlanarBitmapFrameEncode.WritePixels
+- IWICPlanarBitmapFrameEncode.WritePixels
 targetos: Windows
 req.typenames: 
 req.redist: 

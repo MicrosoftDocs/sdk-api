@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d11_1.ID3D11DeviceContext1.DiscardView
 title: ID3D11DeviceContext1::DiscardView (d3d11_1.h)
-
 description: Discards a resource view from the device context.
 old-location: direct3d11\id3d11devicecontext1_discardview.htm
 tech.root: direct3d11
 ms.assetid: 7BBF20BC-3777-46B9-8DE3-40B7B88DAF6C
-
 ms.date: 12/05/2018
 ms.keywords: DiscardView, DiscardView method [Direct3D 11], DiscardView method [Direct3D 11],ID3D11DeviceContext1 interface, ID3D11DeviceContext1 interface [Direct3D 11],DiscardView method, ID3D11DeviceContext1.DiscardView, ID3D11DeviceContext1::DiscardView, d3d11_1/ID3D11DeviceContext1::DiscardView, direct3d11.id3d11devicecontext1_discardview
 ms.topic: method
-f1_keywords: 
- - "d3d11_1/ID3D11DeviceContext1.DiscardView"
+f1_keywords:
+- d3d11_1/ID3D11DeviceContext1.DiscardView
 dev_langs:
- - c++
+- c++
 req.header: d3d11_1.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: D3D11.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D11.lib
- - D3D11.dll
+- D3D11.lib
+- D3D11.dll
 api_name:
- - ID3D11DeviceContext1.DiscardView
+- ID3D11DeviceContext1.DiscardView
 targetos: Windows
 req.typenames: 
 req.redist: 

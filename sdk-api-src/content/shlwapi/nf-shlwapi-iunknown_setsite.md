@@ -1,19 +1,17 @@
 ---
 UID: NF:shlwapi.IUnknown_SetSite
 title: IUnknown_SetSite function (shlwapi.h)
-
 description: Sets the specified object's site by calling its IObjectWithSite::SetSite method.
 old-location: shell\IUnknown_SetSite.htm
 tech.root: shell
 ms.assetid: 66175435-f85b-4e26-b148-f4edb74cb41d
-
 ms.date: 12/05/2018
 ms.keywords: IUnknown_SetSite, IUnknown_SetSite function [Windows Shell], _win32_IUnknown_SetSite, shell.IUnknown_SetSite, shlwapi/IUnknown_SetSite
 ms.topic: function
-f1_keywords: 
- - "shlwapi/IUnknown_SetSite"
+f1_keywords:
+- shlwapi/IUnknown_SetSite
 dev_langs:
- - c++
+- c++
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib:
 req.dll: Shlwapi.dll (version 5.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Shlwapi.dll
- - API-MS-Win-DownLevel-shlwapi-l2-1-0.dll
- - ShCore.dll
- - API-MS-Win-DownLevel-shlwapi-l2-1-1.dll
- - API-MS-Win-ShCore-comhelpers-l1-1-0.dll
+- Shlwapi.dll
+- API-MS-Win-DownLevel-shlwapi-l2-1-0.dll
+- ShCore.dll
+- API-MS-Win-DownLevel-shlwapi-l2-1-1.dll
+- API-MS-Win-ShCore-comhelpers-l1-1-0.dll
 api_name:
- - IUnknown_SetSite
+- IUnknown_SetSite
 targetos: Windows
 req.typenames: 
 req.redist: 

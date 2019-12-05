@@ -1,19 +1,17 @@
 ---
 UID: NF:xaudio2.IXAudio2VoiceCallback.OnLoopEnd
 title: IXAudio2VoiceCallback::OnLoopEnd (xaudio2.h)
-
 description: Called when the voice reaches the end position of a loop.
 old-location: xaudio2\ixaudio2voicecallback_interface_onloopend.htm
 tech.root: xaudio2
 ms.assetid: M:Microsoft.directx_sdk.ixaudio2voicecallback.IXAudio2VoiceCallback.OnLoopEnd(void)
-
 ms.date: 12/05/2018
 ms.keywords: IXAudio2VoiceCallback interface [XAudio2 Audio Mixing APIs],OnLoopEnd method, IXAudio2VoiceCallback.OnLoopEnd, IXAudio2VoiceCallback::OnLoopEnd, OnLoopEnd, OnLoopEnd method [XAudio2 Audio Mixing APIs], OnLoopEnd method [XAudio2 Audio Mixing APIs],IXAudio2VoiceCallback interface, xaudio2.ixaudio2voicecallback_interface_onloopend, xaudio2/IXAudio2VoiceCallback::OnLoopEnd
 ms.topic: method
-f1_keywords: 
- - "xaudio2/IXAudio2VoiceCallback.OnLoopEnd"
+f1_keywords:
+- xaudio2/IXAudio2VoiceCallback.OnLoopEnd
 dev_langs:
- - c++
+- c++
 req.header: xaudio2.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xaudio2.h
+- xaudio2.h
 api_name:
- - IXAudio2VoiceCallback.OnLoopEnd
+- IXAudio2VoiceCallback.OnLoopEnd
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi3.ITACDGroupEvent.get_Event
 title: ITACDGroupEvent::get_Event (tapi3.h)
-
 description: The get_Event method gets the descriptor of an event which indicates that a new ACD group has been added.
 old-location: tapi3\itacdgroupevent_get_event.htm
 tech.root: Tapi
 ms.assetid: 9bc67911-cfb6-450c-bdc6-ade8d4617271
-
 ms.date: 12/05/2018
 ms.keywords: ITACDGroupEvent interface [TAPI 2.2],get_Event method, ITACDGroupEvent.get_Event, ITACDGroupEvent::get_Event, _tapi3_itacdgroupevent_get_event, get_Event, get_Event method [TAPI 2.2], get_Event method [TAPI 2.2],ITACDGroupEvent interface, tapi3.itacdgroupevent_get_event, tapi3cc/ITACDGroupEvent::get_Event
 ms.topic: method
-f1_keywords: 
- - "tapi3/ITACDGroupEvent.get_Event"
+f1_keywords:
+- tapi3/ITACDGroupEvent.get_Event
 dev_langs:
- - c++
+- c++
 req.header: tapi3.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Tapi3.dll
+- Tapi3.dll
 api_name:
- - ITACDGroupEvent.get_Event
+- ITACDGroupEvent.get_Event
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:ws2tcpip.setipv4sourcefilter
 title: setipv4sourcefilter function (ws2tcpip.h)
-
 description: Sets the multicast filter state for an IPv4 socket.
 old-location: winsock\setipv4sourcefilter.htm
 tech.root: WinSock
 ms.assetid: C296D050-9195-42B5-8EBE-C6004F2DA855
-
 ms.date: 12/05/2018
 ms.keywords: setipv4sourcefilter, setipv4sourcefilter function [Winsock], winsock.setipv4sourcefilter, ws2tcpip/setipv4sourcefilter
 ms.topic: function
-f1_keywords: 
- - "ws2tcpip/setipv4sourcefilter"
+f1_keywords:
+- ws2tcpip/setipv4sourcefilter
 dev_langs:
- - c++
+- c++
 req.header: ws2tcpip.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Ws2_32.lib
 req.dll: Ws2_32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ws2_32.dll
+- Ws2_32.dll
 api_name:
- - setipv4sourcefilter
+- setipv4sourcefilter
 targetos: Windows
 req.typenames: 
 req.redist: 

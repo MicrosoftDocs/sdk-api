@@ -1,18 +1,15 @@
 ---
 UID: NF:bits10_3.IBackgroundCopyServerCertificateValidationCallback.ValidateServerCertificate
 title: IBackgroundCopyServerCertificateValidationCallback::ValidateServerCertificate
-
 ms.date: 05/09/2019
 ms.keywords: IBackgroundCopyServerCertificateValidationCallback::ValidateServerCertificate
 description: A callback method that you implement that will be called so that you can validate the server certificates sent when an HTTPS connection is opened.
 tech.root: Bits
-
-ms.date: 05/09/2019
 ms.topic: method
-f1_keywords: 
- - "bits10_3/IBackgroundCopyServerCertificateValidationCallback::ValidateServerCertificate"
+f1_keywords:
+- bits10_3/IBackgroundCopyServerCertificateValidationCallback::ValidateServerCertificate
 dev_langs:
- - c++
+- c++
 targetos: Windows
 req.assembly: 
 req.construct-type: function
@@ -34,13 +31,13 @@ req.type-library:
 req.umdf-ver: 
 req.unicode-ansi: 
 topic_type:
- - apiref
+- apiref
 api_type:
- - COM
+- COM
 api_location:
- - bits10_3.h
+- bits10_3.h
 api_name:
- - IBackgroundCopyServerCertificateValidationCallback::ValidateServerCertificate
+- IBackgroundCopyServerCertificateValidationCallback::ValidateServerCertificate
 ---
 
 ## -description

@@ -1,19 +1,17 @@
 ---
 UID: NF:qnetwork.IAMMediaContent.get_AuthorName
 title: IAMMediaContent::get_AuthorName (qnetwork.h)
-
 description: The get_AuthorName method retrieves the author name.
 old-location: dshow\iammediacontent_get_authorname.htm
 tech.root: DirectShow
 ms.assetid: 49ccb07c-1f20-47e9-a05b-f8f3b77acc99
-
 ms.date: 12/05/2018
 ms.keywords: IAMMediaContent interface [DirectShow],get_AuthorName method, IAMMediaContent.get_AuthorName, IAMMediaContent::get_AuthorName, IAMMediaContentget_AuthorName, dshow.iammediacontent_get_authorname, get_AuthorName, get_AuthorName method [DirectShow], get_AuthorName method [DirectShow],IAMMediaContent interface, qnetwork/IAMMediaContent::get_AuthorName
 ms.topic: method
-f1_keywords: 
- - "qnetwork/IAMMediaContent.get_AuthorName"
+f1_keywords:
+- qnetwork/IAMMediaContent.get_AuthorName
 dev_langs:
- - c++
+- c++
 req.header: qnetwork.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Qnetwork.h
+- Qnetwork.h
 api_name:
- - IAMMediaContent.get_AuthorName
+- IAMMediaContent.get_AuthorName
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:dwrite.IDWriteFontCollection.FindFamilyName
 title: IDWriteFontCollection::FindFamilyName (dwrite.h)
-
 description: Finds the font family with the specified family name.
 old-location: directwrite\IDWriteFontCollection_FindFamilyName.htm
 tech.root: DirectWrite
 ms.assetid: 5537988f-aba0-4477-be01-72a5f8e66395
-
 ms.date: 12/05/2018
 ms.keywords: FindFamilyName, FindFamilyName method [Direct Write], FindFamilyName method [Direct Write],IDWriteFontCollection interface, IDWriteFontCollection interface [Direct Write],FindFamilyName method, IDWriteFontCollection.FindFamilyName, IDWriteFontCollection::FindFamilyName, directwrite.IDWriteFontCollection_FindFamilyName, dwrite/IDWriteFontCollection::FindFamilyName
 ms.topic: method
-f1_keywords: 
- - "dwrite/IDWriteFontCollection.FindFamilyName"
+f1_keywords:
+- dwrite/IDWriteFontCollection.FindFamilyName
 dev_langs:
- - c++
+- c++
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dwrite.lib
 req.dll: Dwrite.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dwrite.dll
+- dwrite.dll
 api_name:
- - IDWriteFontCollection.FindFamilyName
+- IDWriteFontCollection.FindFamilyName
 targetos: Windows
 req.typenames: 
 req.redist: 

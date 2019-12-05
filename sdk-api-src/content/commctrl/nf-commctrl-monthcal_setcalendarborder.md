@@ -1,19 +1,17 @@
 ---
 UID: NF:commctrl.MonthCal_SetCalendarBorder
 title: MonthCal_SetCalendarBorder macro (commctrl.h)
-
 description: Sets the border size, in pixels, of a month calendar control. You can use this macro or send the MCM_SETCALENDARBORDER message explicitly.
 old-location: controls\MonthCal_SetCalendarBorder.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\monthcal\macros\monthcal_setcalendarborder.htm
-
 ms.date: 12/05/2018
 ms.keywords: MonthCal_SetCalendarBorder, MonthCal_SetCalendarBorder macro [Windows Controls], _shell_MonthCal_SetCalendarBorder, _shell_MonthCal_SetCalendarBorder_cpp, commctrl/MonthCal_SetCalendarBorder, controls.MonthCal_SetCalendarBorder, controls._shell_MonthCal_SetCalendarBorder
 ms.topic: macro
-f1_keywords: 
- - "commctrl/MonthCal_SetCalendarBorder"
+f1_keywords:
+- commctrl/MonthCal_SetCalendarBorder
 dev_langs:
- - c++
+- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Commctrl.h
+- Commctrl.h
 api_name:
- - MonthCal_SetCalendarBorder
+- MonthCal_SetCalendarBorder
 targetos: Windows
 req.typenames: 
 req.redist: 

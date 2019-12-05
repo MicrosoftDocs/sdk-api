@@ -1,19 +1,17 @@
 ---
 UID: NF:wbemcli.IWbemServices.ExecQuery
 title: IWbemServices::ExecQuery (wbemcli.h)
-
 description: The IWbemServices::ExecQuery method executes a query to retrieve objects.
 old-location: wmi\iwbemservices_execquery.htm
 tech.root: WmiSdk
 ms.assetid: 8cb4a42b-f8ae-4a6f-884c-fa808b11dc8a
-
 ms.date: 12/05/2018
 ms.keywords: ExecQuery, ExecQuery method [Windows Management Instrumentation], ExecQuery method [Windows Management Instrumentation],IWbemServices interface, IWbemServices interface [Windows Management Instrumentation],ExecQuery method, IWbemServices.ExecQuery, IWbemServices::ExecQuery, WBEM_FLAG_BIDIRECTIONAL, WBEM_FLAG_DIRECT_READ, WBEM_FLAG_ENSURE_LOCATABLE, WBEM_FLAG_FORWARD_ONLY, WBEM_FLAG_PROTOTYPE, WBEM_FLAG_RETURN_IMMEDIATELY, WBEM_FLAG_USE_AMENDED_QUALIFIERS, _hmm_iwbemservices_execquery, wbemcli/IWbemServices::ExecQuery, wmi.iwbemservices_execquery
 ms.topic: method
-f1_keywords: 
- - "wbemcli/IWbemServices.ExecQuery"
+f1_keywords:
+- wbemcli/IWbemServices.ExecQuery
 dev_langs:
- - c++
+- c++
 req.header: wbemcli.h
 req.include-header: Wbemidl.h
 req.target-type: Windows
@@ -32,28 +30,28 @@ req.lib: Wbemuuid.lib
 req.dll: Fastprox.dll; Esscli.dll; FrameDyn.dll; FrameDynOS.dll; Ntevt.dll; Stdprov.dll; Viewprov.dll; Wbemcomn.dll; Wbemcore.dll; Wbemess.dll; Wbemsvc.dll; Wmipicmp.dll; Wmidcprv.dll; Wmipjobj.dll; Wmiprvsd.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Fastprox.dll
- - Esscli.dll
- - FrameDyn.dll
- - FrameDynOS.dll
- - Ntevt.dll
- - Stdprov.dll
- - Viewprov.dll
- - Wbemcomn.dll
- - Wbemcore.dll
- - Wbemess.dll
- - Wbemsvc.dll
- - Wmipicmp.dll
- - Wmidcprv.dll
- - Wmipjobj.dll
- - Wmiprvsd.dll
+- Fastprox.dll
+- Esscli.dll
+- FrameDyn.dll
+- FrameDynOS.dll
+- Ntevt.dll
+- Stdprov.dll
+- Viewprov.dll
+- Wbemcomn.dll
+- Wbemcore.dll
+- Wbemess.dll
+- Wbemsvc.dll
+- Wmipicmp.dll
+- Wmidcprv.dll
+- Wmipjobj.dll
+- Wmiprvsd.dll
 api_name:
- - IWbemServices.ExecQuery
+- IWbemServices.ExecQuery
 targetos: Windows
 req.typenames: 
 req.redist: 

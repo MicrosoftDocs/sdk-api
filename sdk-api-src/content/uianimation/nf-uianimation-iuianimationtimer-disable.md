@@ -1,19 +1,17 @@
 ---
 UID: NF:uianimation.IUIAnimationTimer.Disable
 title: IUIAnimationTimer::Disable (uianimation.h)
-
 description: Disables the animation timer.
 old-location: uianimation\iuianimationtimer_disable.htm
 tech.root: UIAnimation
 ms.assetid: 981f2086-3588-4150-aa0a-c427b93ef8bb
-
 ms.date: 12/05/2018
 ms.keywords: Disable, Disable method [Windows Animation], Disable method [Windows Animation],IUIAnimationTimer interface, IUIAnimationTimer interface [Windows Animation],Disable method, IUIAnimationTimer.Disable, IUIAnimationTimer::Disable, uianimation.iuianimationtimer_disable, uianimation/IUIAnimationTimer::Disable
 ms.topic: method
-f1_keywords: 
- - "uianimation/IUIAnimationTimer.Disable"
+f1_keywords:
+- uianimation/IUIAnimationTimer.Disable
 dev_langs:
- - c++
+- c++
 req.header: uianimation.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: UIAnimation.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAnimation.dll
+- UIAnimation.dll
 api_name:
- - IUIAnimationTimer.Disable
+- IUIAnimationTimer.Disable
 targetos: Windows
 req.typenames: 
 req.redist: 

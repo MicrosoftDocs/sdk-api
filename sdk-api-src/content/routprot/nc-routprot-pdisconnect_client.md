@@ -1,19 +1,17 @@
 ---
 UID: NC:routprot.PDISCONNECT_CLIENT
 title: PDISCONNECT_CLIENT (routprot.h)
-
 description: The router manager calls the DisconnectClient function when a client disconnects from an interface on which the routing protocol is running.
 old-location: rras\disconnectclient.htm
 tech.root: RRAS
 ms.assetid: 45859605-2981-4236-9546-9b88e07673fe
-
 ms.date: 12/05/2018
 ms.keywords: DisconnectClient, DisconnectClient callback function [RAS], PDISCONNECT_CLIENT, PDISCONNECT_CLIENT callback, _mpr_disconnectclient, routprot/DisconnectClient, rras.disconnectclient
 ms.topic: callback
 f1_keywords:
 - routprot/DisconnectClient
 dev_langs:
- - c++
+- c++
 req.header: routprot.h
 req.include-header: 
 req.target-type: Windows

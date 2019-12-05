@@ -1,19 +1,17 @@
 ---
 UID: NF:msinkaut.IInkRecognitionAlternate.get_Baseline
 title: IInkRecognitionAlternate::get_Baseline (msinkaut.h)
-
 description: Gets the baseline for a IInkRecognitionAlternate object that represents a single line of text.
 old-location: tablet\iinkrecognitionalternate_baseline.htm
 tech.root: tablet
 ms.assetid: 5fb53534-b15f-44e8-8bb3-31d6ba3a9bb4
-
 ms.date: 12/05/2018
 ms.keywords: 5fb53534-b15f-44e8-8bb3-31d6ba3a9bb4, Baseline property [Tablet PC], Baseline property [Tablet PC],IInkRecognitionAlternate interface, IInkRecognitionAlternate interface [Tablet PC],Baseline property, IInkRecognitionAlternate.Baseline, IInkRecognitionAlternate.get_Baseline, IInkRecognitionAlternate::Baseline, IInkRecognitionAlternate::get_Baseline, get_Baseline, msinkaut/IInkRecognitionAlternate::Baseline, msinkaut/IInkRecognitionAlternate::get_Baseline, tablet.iinkrecognitionalternate_baseline
 ms.topic: method
-f1_keywords: 
- - "msinkaut/IInkRecognitionAlternate.Baseline"
+f1_keywords:
+- msinkaut/IInkRecognitionAlternate.Baseline
 dev_langs:
- - c++
+- c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: InkObj.dll
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - InkObj.dll
- - InkObj.dll.dll
+- InkObj.dll
+- InkObj.dll.dll
 api_name:
- - IInkRecognitionAlternate.Baseline
- - IInkRecognitionAlternate.get_Baseline
- - IInkRecognitionAlternate.get_Baseline
+- IInkRecognitionAlternate.Baseline
+- IInkRecognitionAlternate.get_Baseline
+- IInkRecognitionAlternate.get_Baseline
 targetos: Windows
 req.typenames: 
 req.redist: 

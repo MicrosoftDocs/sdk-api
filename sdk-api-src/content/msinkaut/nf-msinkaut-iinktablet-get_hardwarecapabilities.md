@@ -1,19 +1,17 @@
 ---
 UID: NF:msinkaut.IInkTablet.get_HardwareCapabilities
 title: IInkTablet::get_HardwareCapabilities (msinkaut.h)
-
 description: Gets a bitmask that defines the hardware capabilities of the tablet, such as whether a cursor must be in physical contact with the tablet to report its position.
 old-location: tablet\iinktablet_hardwarecapabilities.htm
 tech.root: tablet
 ms.assetid: 886c1e7c-fec0-4294-aba1-8e0806c2d0ca
-
 ms.date: 12/05/2018
 ms.keywords: 886c1e7c-fec0-4294-aba1-8e0806c2d0ca, HardwareCapabilities property [Tablet PC], HardwareCapabilities property [Tablet PC],IInkTablet interface, IInkTablet interface [Tablet PC],HardwareCapabilities property, IInkTablet.HardwareCapabilities, IInkTablet.get_HardwareCapabilities, IInkTablet::HardwareCapabilities, IInkTablet::get_HardwareCapabilities, get_HardwareCapabilities, msinkaut/IInkTablet::HardwareCapabilities, msinkaut/IInkTablet::get_HardwareCapabilities, tablet.iinktablet_hardwarecapabilities
 ms.topic: method
-f1_keywords: 
- - "msinkaut/IInkTablet.HardwareCapabilities"
+f1_keywords:
+- msinkaut/IInkTablet.HardwareCapabilities
 dev_langs:
- - c++
+- c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: InkObj.dll
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - InkObj.dll
- - InkObj.dll.dll
+- InkObj.dll
+- InkObj.dll.dll
 api_name:
- - IInkTablet.HardwareCapabilities
- - IInkTablet.get_HardwareCapabilities
- - IInkTablet.get_HardwareCapabilities
+- IInkTablet.HardwareCapabilities
+- IInkTablet.get_HardwareCapabilities
+- IInkTablet.get_HardwareCapabilities
 targetos: Windows
 req.typenames: 
 req.redist: 

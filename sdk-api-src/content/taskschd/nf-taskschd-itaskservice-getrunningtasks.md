@@ -1,19 +1,17 @@
 ---
 UID: NF:taskschd.ITaskService.GetRunningTasks
 title: ITaskService::GetRunningTasks (taskschd.h)
-
 description: Gets a collection of running tasks.
 old-location: taskschd\itaskservice_getrunningtasks.htm
 tech.root: taskschd
 ms.assetid: 6248cf51-acd8-4317-9837-99dcf918e816
-
 ms.date: 12/05/2018
 ms.keywords: GetRunningTasks, GetRunningTasks method [Task Scheduler], GetRunningTasks method [Task Scheduler],ITaskService interface, ITaskService interface [Task Scheduler],GetRunningTasks method, ITaskService.GetRunningTasks, ITaskService::GetRunningTasks, taskschd.itaskservice_getrunningtasks, taskschd/ITaskService::GetRunningTasks
 ms.topic: method
 f1_keywords:
 - taskschd/ITaskService.GetRunningTasks
 dev_langs:
- - c++
+- c++
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows

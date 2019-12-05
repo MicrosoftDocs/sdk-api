@@ -1,19 +1,17 @@
 ---
 UID: NF:mediaobj.IMediaObject.GetInputType
 title: IMediaObject::GetInputType (mediaobj.h)
-
 description: The GetInputType method retrieves a preferred media type for a specified input stream.
 old-location: dshow\imediaobject_getinputtype.htm
 tech.root: DirectShow
 ms.assetid: 22693a22-97be-487d-ad17-31a2d8ee874c
-
 ms.date: 12/05/2018
 ms.keywords: GetInputType, GetInputType method [DirectShow], GetInputType method [DirectShow],IMediaObject interface, IMediaObject interface [DirectShow],GetInputType method, IMediaObject.GetInputType, IMediaObject::GetInputType, IMediaObjectGetInputType, dshow.imediaobject_getinputtype, mediaobj/IMediaObject::GetInputType
 ms.topic: method
-f1_keywords: 
- - "mediaobj/IMediaObject.GetInputType"
+f1_keywords:
+- mediaobj/IMediaObject.GetInputType
 dev_langs:
- - c++
+- c++
 req.header: mediaobj.h
 req.include-header: Dmo.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Dmoguids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dmoguids.lib
- - Dmoguids.dll
+- Dmoguids.lib
+- Dmoguids.dll
 api_name:
- - IMediaObject.GetInputType
+- IMediaObject.GetInputType
 targetos: Windows
 req.typenames: 
 req.redist: 

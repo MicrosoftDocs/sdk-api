@@ -1,19 +1,17 @@
 ---
 UID: NN:xamlom.IVisualTreeServiceCallback
 title: IVisualTreeServiceCallback (xamlom.h)
-
 description: Communicates the state of the visual tree.
 old-location: xaml_diagnostics\ivisualtreeservicecallback.htm
 tech.root: xaml_diagnostics
 ms.assetid: 85B94DA2-11EF-49ED-8076-DA5AB36EF781
-
 ms.date: 12/05/2018
 ms.keywords: IVisualTreeServiceCallback, IVisualTreeServiceCallback interface, IVisualTreeServiceCallback interface,described, xaml_diagnostics.ivisualtreeservicecallback, xamlom/IVisualTreeServiceCallback
 ms.topic: interface
-f1_keywords: 
- - "xamlom/IVisualTreeServiceCallback"
+f1_keywords:
+- xamlom/IVisualTreeServiceCallback
 dev_langs:
- - c++
+- c++
 req.header: xamlom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xamlom.h
+- xamlom.h
 api_name:
- - IVisualTreeServiceCallback
+- IVisualTreeServiceCallback
 targetos: Windows
 req.typenames: 
 req.redist: 

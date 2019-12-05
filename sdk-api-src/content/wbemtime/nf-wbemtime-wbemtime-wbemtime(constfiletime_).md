@@ -1,19 +1,17 @@
 ---
 UID: NF:wbemtime.WBEMTime.WBEMTime(const FILETIME &)
 title: WBEMTime::WBEMTime(const FILETIME &) (wbemtime.h)
-
 description: The WBEMTime overload class constructor takes a FILETIME reference parameter.
 old-location: wmi\wbemtime_wbemtime_const_filetime__.htm
 tech.root: WmiSdk
 ms.assetid: 6538fee8-a807-45ce-abdf-1c20524d78f2
-
 ms.date: 12/05/2018
-ms.keywords: "??0WBEMTime@@QAE@ABU_FILETIME@@@Z, ??0WBEMTime@@QEAA@AEBU_FILETIME@@@Z, WBEMTime, WBEMTime constructor [Windows Management Instrumentation], WBEMTime constructor [Windows Management Instrumentation],WBEMTime interface, WBEMTime interface [Windows Management Instrumentation],WBEMTime constructor, WBEMTime.WBEMTime, WBEMTime.WBEMTime(const FILETIME &), WBEMTime::WBEMTime, WBEMTime::WBEMTime(const FILETIME &), WBEMTime::WBEMTime(const FILETIME&), wbemtime/WBEMTime::WBEMTime, wmi.wbemtime_wbemtime_const_filetime__"
+ms.keywords: ??0WBEMTime@@QAE@ABU_FILETIME@@@Z, ??0WBEMTime@@QEAA@AEBU_FILETIME@@@Z, WBEMTime, WBEMTime constructor [Windows Management Instrumentation], WBEMTime constructor [Windows Management Instrumentation],WBEMTime interface, WBEMTime interface [Windows Management Instrumentation],WBEMTime constructor, WBEMTime.WBEMTime, WBEMTime.WBEMTime(const FILETIME &), WBEMTime::WBEMTime, WBEMTime::WBEMTime(const FILETIME &), WBEMTime::WBEMTime(const FILETIME&), wbemtime/WBEMTime::WBEMTime, wmi.wbemtime_wbemtime_const_filetime__
 ms.topic: method
-f1_keywords: 
- - "wbemtime/WBEMTime.WBEMTime"
+f1_keywords:
+- wbemtime/WBEMTime.WBEMTime
 dev_langs:
- - c++
+- c++
 req.header: wbemtime.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib:
 req.dll: FrameDynOS.dll; FrameDyn.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - FrameDynOS.dll
- - FrameDyn.dll
+- FrameDynOS.dll
+- FrameDyn.dll
 api_name:
- - WBEMTime.WBEMTime
- - ??0WBEMTime@@QAE@ABU_FILETIME@@@Z
- - ??0WBEMTime@@QEAA@AEBU_FILETIME@@@Z
+- WBEMTime.WBEMTime
+- ??0WBEMTime@@QAE@ABU_FILETIME@@@Z
+- ??0WBEMTime@@QEAA@AEBU_FILETIME@@@Z
 targetos: Windows
 req.typenames: 
 req.redist: 

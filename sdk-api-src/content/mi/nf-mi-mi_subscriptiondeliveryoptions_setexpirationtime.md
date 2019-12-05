@@ -1,19 +1,17 @@
 ---
 UID: NF:mi.MI_SubscriptionDeliveryOptions_SetExpirationTime
 title: MI_SubscriptionDeliveryOptions_SetExpirationTime function (mi.h)
-
 description: Sets the subscription expiration time (when the subscription will shut down).
 old-location: wmi_v2\mi_subscriptiondeliveryoptions_setexpirationtime.htm
 tech.root: wmi_v2
 ms.assetid: c5cae015-7958-463b-9e44-a0452e366a14
-
 ms.date: 12/05/2018
 ms.keywords: MI_SubscriptionDeliveryOptions_SetExpirationTime, MI_SubscriptionDeliveryOptions_SetExpirationTime function [Windows Management Infrastructure (MI)], mi/MI_SubscriptionDeliveryOptions_SetExpirationTime, wmi_v2.mi_subscriptiondeliveryoptions_setexpirationtime
 ms.topic: function
 f1_keywords:
 - mi/MI_SubscriptionDeliveryOptions_SetExpirationTime
 dev_langs:
- - c++
+- c++
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows

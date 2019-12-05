@@ -5,9 +5,9 @@ ms.date: 4/26/2019
 ms.keywords: HeapSummary
 ms.topic: language-reference
 f1_keywords:
- - HeapSummary
+- HeapSummary
 dev_langs:
- - c++
+- c++
 targetos: Windows
 req.assembly: 
 req.construct-type: function
@@ -29,13 +29,13 @@ req.type-library:
 req.umdf-ver: 
 req.unicode-ansi: 
 topic_type:
- - apiref
+- apiref
 api_type:
- - DllExport
+- DllExport
 api_location:
- - api-ms-win-core-heap-l1-1-0.dll
+- api-ms-win-core-heap-l1-1-0.dll
 api_name:
- - HeapSummary
+- HeapSummary
 ---
 
 ## -description

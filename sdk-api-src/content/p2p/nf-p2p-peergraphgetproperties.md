@@ -1,19 +1,17 @@
 ---
 UID: NF:p2p.PeerGraphGetProperties
 title: PeerGraphGetProperties function (p2p.h)
-
 description: The PeerGraphGetProperties function retrieves the current peer graph properties.
 old-location: p2p\peergraphgetproperties.htm
 tech.root: P2PSdk
 ms.assetid: f62fadf8-8cc2-4597-93b0-e076258ccd6a
-
 ms.date: 12/05/2018
 ms.keywords: PeerGraphGetProperties, PeerGraphGetProperties function [Peer Networking], p2p.peergraphgetproperties, p2p/PeerGraphGetProperties
 ms.topic: function
-f1_keywords: 
- - "p2p/PeerGraphGetProperties"
+f1_keywords:
+- p2p/PeerGraphGetProperties
 dev_langs:
- - c++
+- c++
 req.header: p2p.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: P2PGraph.lib
 req.dll: P2PGraph.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - P2PGraph.dll
+- P2PGraph.dll
 api_name:
- - PeerGraphGetProperties
+- PeerGraphGetProperties
 targetos: Windows
 req.typenames: 
 req.redist: 

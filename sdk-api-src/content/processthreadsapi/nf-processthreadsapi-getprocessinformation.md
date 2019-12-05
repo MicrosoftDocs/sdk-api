@@ -1,19 +1,17 @@
 ---
 UID: NF:processthreadsapi.GetProcessInformation
 title: GetProcessInformation function (processthreadsapi.h)
-
 description: Retrieves information about the specified process.
 old-location: base\getprocessinformation.htm
 tech.root: ProcThread
 ms.assetid: 2b075405-b7b6-4da0-b78d-45eaa9c6c8cd
-
 ms.date: 12/05/2018
 ms.keywords: GetProcessInformation, GetProcessInformation function, base.getprocessinformation, processthreadsapi/GetProcessInformation
 ms.topic: function
-f1_keywords: 
- - "processthreadsapi/GetProcessInformation"
+f1_keywords:
+- processthreadsapi/GetProcessInformation
 dev_langs:
- - c++
+- c++
 req.header: processthreadsapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-ProcessThreads-L1-1-3.dll
- - KernelBase.dll
+- Kernel32.dll
+- API-MS-Win-Core-ProcessThreads-L1-1-3.dll
+- KernelBase.dll
 api_name:
- - GetProcessInformation
+- GetProcessInformation
 targetos: Windows
 req.typenames: 
 req.redist: 

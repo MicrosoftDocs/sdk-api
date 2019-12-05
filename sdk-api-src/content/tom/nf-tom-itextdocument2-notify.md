@@ -1,19 +1,17 @@
 ---
 UID: NF:tom.ITextDocument2.Notify
 title: ITextDocument2::Notify (tom.h)
-
 description: Notifies the Text Object Model (TOM) engine client of particular Input Method Editor (IME) events.
 old-location: controls\itextdocument2_notify.htm
 tech.root: Controls
 ms.assetid: 5c7962a5-5f8d-4db1-bb94-a77738cf75bb
-
 ms.date: 12/05/2018
 ms.keywords: ITextDocument2 interface [Windows Controls],Notify method, ITextDocument2.Notify, ITextDocument2::Notify, Notify, Notify method [Windows Controls], Notify method [Windows Controls],ITextDocument2 interface, controls.itextdocument2_notify, tom/ITextDocument2::Notify
 ms.topic: method
-f1_keywords: 
- - "tom/ITextDocument2.Notify"
+f1_keywords:
+- tom/ITextDocument2.Notify
 dev_langs:
- - c++
+- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msftedit.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msftedit.dll
+- Msftedit.dll
 api_name:
- - ITextDocument2.Notify
+- ITextDocument2.Notify
 targetos: Windows
 req.typenames: 
 req.redist: 

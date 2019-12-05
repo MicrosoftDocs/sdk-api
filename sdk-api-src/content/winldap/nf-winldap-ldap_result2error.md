@@ -1,19 +1,17 @@
 ---
 UID: NF:winldap.ldap_result2error
 title: ldap_result2error function (winldap.h)
-
 description: The ldap_result2error function parses a message and returns the error code.
 old-location: ldap\ldap_result2error.htm
 tech.root: ldap
 ms.assetid: 67198ed0-c210-4eb1-b0f9-13cdb128c57d
-
 ms.date: 12/05/2018
-ms.keywords: "_ldap_ldap_result2error, ldap.ldap__result2error, ldap.ldap_result2error, ldap_result2error, ldap_result2error function [LDAP], winldap/ldap_result2error"
+ms.keywords: _ldap_ldap_result2error, ldap.ldap__result2error, ldap.ldap_result2error, ldap_result2error, ldap_result2error function [LDAP], winldap/ldap_result2error
 ms.topic: function
-f1_keywords: 
- - "winldap/ldap_result2error"
+f1_keywords:
+- winldap/ldap_result2error
 dev_langs:
- - c++
+- c++
 req.header: winldap.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Wldap32.lib
 req.dll: Wldap32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Wldap32.dll
+- Wldap32.dll
 api_name:
- - ldap_result2error
+- ldap_result2error
 targetos: Windows
 req.typenames: 
 req.redist: 

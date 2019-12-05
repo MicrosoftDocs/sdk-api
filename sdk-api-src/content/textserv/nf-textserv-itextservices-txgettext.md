@@ -1,19 +1,17 @@
 ---
 UID: NF:textserv.ITextServices.TxGetText
 title: ITextServices::TxGetText (textserv.h)
-
 description: Returns all of the Unicode plain text in the control as a BSTR.
 old-location: controls\ITextServices_TxGetText.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\windowlessricheditcontrols\windowlessricheditcontrolsreference\windowlessricheditcontrolinterfaces\txgettext.htm
-
 ms.date: 12/05/2018
 ms.keywords: ITextServices interface [Windows Controls],TxGetText method, ITextServices.TxGetText, ITextServices::TxGetText, TxGetText, TxGetText method [Windows Controls], TxGetText method [Windows Controls],ITextServices interface, _win32_ITextServices_TxGetText, _win32_ITextServices_TxGetText_cpp, controls.ITextServices_TxGetText, controls._win32_ITextServices_TxGetText, textserv/ITextServices::TxGetText
 ms.topic: method
-f1_keywords: 
- - "textserv/ITextServices.TxGetText"
+f1_keywords:
+- textserv/ITextServices.TxGetText
 dev_langs:
- - c++
+- c++
 req.header: textserv.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msftedit.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msftedit.dll
+- Msftedit.dll
 api_name:
- - ITextServices.TxGetText
+- ITextServices.TxGetText
 targetos: Windows
 req.typenames: 
 req.redist: 

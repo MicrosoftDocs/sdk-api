@@ -1,19 +1,17 @@
 ---
 UID: NF:certbcli.CertSrvBackupGetDatabaseNamesW
 title: CertSrvBackupGetDatabaseNamesW function (certbcli.h)
-
 description: Retrieves the list of Certificate Services database file names that need to be backed up for the given backup context.
 old-location: security\certsrvbackupgetdatabasenames.htm
 tech.root: SecCrypto
 ms.assetid: 5e62be79-693a-4543-8d83-262f00686c99
-
 ms.date: 12/05/2018
 ms.keywords: CSBFT_CERTSERVER_DATABASE, CertSrvBackupGetDatabaseNames, CertSrvBackupGetDatabaseNames function [Security], CertSrvBackupGetDatabaseNamesW, _certsrv_certsrvbackupgetdatabasenames, certbcli/CertSrvBackupGetDatabaseNames, certbcli/CertSrvBackupGetDatabaseNamesW, security.certsrvbackupgetdatabasenames
 ms.topic: function
-f1_keywords: 
- - "certbcli/CertSrvBackupGetDatabaseNames"
+f1_keywords:
+- certbcli/CertSrvBackupGetDatabaseNames
 dev_langs:
- - c++
+- c++
 req.header: certbcli.h
 req.include-header: Certsrv.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Certadm.lib
 req.dll: Certadm.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Certadm.dll
+- Certadm.dll
 api_name:
- - CertSrvBackupGetDatabaseNames
- - CertSrvBackupGetDatabaseNamesW
+- CertSrvBackupGetDatabaseNames
+- CertSrvBackupGetDatabaseNamesW
 targetos: Windows
 req.typenames: 
 req.redist: 

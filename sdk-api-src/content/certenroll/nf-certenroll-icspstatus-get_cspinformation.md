@@ -1,19 +1,17 @@
 ---
 UID: NF:certenroll.ICspStatus.get_CspInformation
 title: ICspStatus::get_CspInformation (certenroll.h)
-
 description: Retrieves an ICspInformation object that contains general information about the provider.
 old-location: security\icspstatus_cspinformation.htm
 tech.root: seccertenroll
 ms.assetid: 9e9202ad-086e-493b-8830-0a0f8980cec5
-
 ms.date: 12/05/2018
 ms.keywords: CspInformation property [Security], CspInformation property [Security],ICspStatus interface, ICspStatus interface [Security],CspInformation property, ICspStatus.CspInformation, ICspStatus.get_CspInformation, ICspStatus::CspInformation, ICspStatus::get_CspInformation, certenroll/ICspStatus::CspInformation, certenroll/ICspStatus::get_CspInformation, get_CspInformation, security.icspstatus_cspinformation
 ms.topic: method
-f1_keywords: 
- - "certenroll/ICspStatus.CspInformation"
+f1_keywords:
+- certenroll/ICspStatus.CspInformation
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: CertEnroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CertEnroll.dll
+- CertEnroll.dll
 api_name:
- - ICspStatus.CspInformation
- - ICspStatus.get_CspInformation
+- ICspStatus.CspInformation
+- ICspStatus.get_CspInformation
 targetos: Windows
 req.typenames: 
 req.redist: 

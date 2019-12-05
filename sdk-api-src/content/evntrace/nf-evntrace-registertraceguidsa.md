@@ -1,19 +1,17 @@
 ---
 UID: NF:evntrace.RegisterTraceGuidsA
 title: RegisterTraceGuidsA function (evntrace.h)
-
 description: The RegisterTraceGuids function registers an event trace provider and the event trace classes that it uses to generate events. This function also specifies the function the provider uses to enable and disable tracing.
 old-location: etw\registertraceguids.htm
 tech.root: ETW
 ms.assetid: c9158292-281b-4a02-b280-956e340d225c
-
 ms.date: 12/05/2018
 ms.keywords: RegisterTraceGuids, RegisterTraceGuids function [ETW], RegisterTraceGuidsA, RegisterTraceGuidsW, _evt_registertraceguids, base.registertraceguids, etw.registertraceguids, evntrace/RegisterTraceGuids, evntrace/RegisterTraceGuidsA, evntrace/RegisterTraceGuidsW
 ms.topic: function
-f1_keywords: 
- - "evntrace/RegisterTraceGuids"
+f1_keywords:
+- evntrace/RegisterTraceGuids
 dev_langs:
- - c++
+- c++
 req.header: evntrace.h
 req.include-header: 
 req.target-type: Windows
@@ -32,23 +30,23 @@ req.lib: Sechost.lib on Windows 8.1 and Windows Server 2012 R2; Advapi32.lib 
 req.dll: Sechost.dll on Windows 8.1 and Windows Server 2012 R2; Advapi32.dll on Windows 8, Windows Server 2012, Windows 7, Windows Server 2008 R2, Windows Server 2008, Windows Vista and Windows XP
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Sechost.dll
- - Advapi32.dll
- - API-MS-Win-DownLevel-AdvAPI32-l2-1-1.dll
- - API-MS-Win-eventing-Obsolete-l1-1-0.dll
- - API-MS-Win-DownLevel-AdvApi32-l1-1-0.dll
- - KernelBase.dll
- - API-MS-Win-DownLevel-AdvApi32-l1-1-1.dll
- - API-MS-Win-eventing-classicprovider-l1-1-0.dll
+- Sechost.dll
+- Advapi32.dll
+- API-MS-Win-DownLevel-AdvAPI32-l2-1-1.dll
+- API-MS-Win-eventing-Obsolete-l1-1-0.dll
+- API-MS-Win-DownLevel-AdvApi32-l1-1-0.dll
+- KernelBase.dll
+- API-MS-Win-DownLevel-AdvApi32-l1-1-1.dll
+- API-MS-Win-eventing-classicprovider-l1-1-0.dll
 api_name:
- - RegisterTraceGuids
- - RegisterTraceGuidsA
- - RegisterTraceGuidsW
+- RegisterTraceGuids
+- RegisterTraceGuidsA
+- RegisterTraceGuidsW
 targetos: Windows
 req.typenames: 
 req.redist: 

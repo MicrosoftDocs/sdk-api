@@ -1,19 +1,17 @@
 ---
 UID: NF:dvbsiparser.IIsdbCAServiceDescriptor.GetMessageControl
 title: IIsdbCAServiceDescriptor::GetMessageControl (dvbsiparser.h)
-
 description: Gets the delay time, in days, before the automatic entitlement management message (EMM) is displayed from a conditional access (CA) service descriptor.
 old-location: mstv\iisdbcaservicedescriptor_getmessagecontrol.htm
 tech.root: mstv
 ms.assetid: 0a911c5e-a026-4d35-a6a2-e33ba53f3057
-
 ms.date: 12/05/2018
 ms.keywords: GetMessageControl, GetMessageControl method [Microsoft TV Technologies], GetMessageControl method [Microsoft TV Technologies],IIsdbCAServiceDescriptor interface, IIsdbCAServiceDescriptor interface [Microsoft TV Technologies],GetMessageControl method, IIsdbCAServiceDescriptor.GetMessageControl, IIsdbCAServiceDescriptor::GetMessageControl, dvbsiparser/IIsdbCAServiceDescriptor::GetMessageControl, mstv.iisdbcaservicedescriptor_getmessagecontrol
 ms.topic: method
-f1_keywords: 
- - "dvbsiparser/IIsdbCAServiceDescriptor.GetMessageControl"
+f1_keywords:
+- dvbsiparser/IIsdbCAServiceDescriptor.GetMessageControl
 dev_langs:
- - c++
+- c++
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dvbsiparser.h
+- dvbsiparser.h
 api_name:
- - IIsdbCAServiceDescriptor.GetMessageControl
+- IIsdbCAServiceDescriptor.GetMessageControl
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:mileffects.IMILBitmapEffectConnectorInfo.GetOptimalFormat
 title: IMILBitmapEffectConnectorInfo::GetOptimalFormat (mileffects.h)
-
 description: Retrieves the optimal pixel format for the pin.
 old-location: wibe\_wibe_imilbitmapeffectconnectorinfo_getoptimalformat.htm
 tech.root: wibe
 ms.assetid: VS|wibe|~\wibelh\reference\ifaces\imilbitmapeffectconnectorinfo\getoptimalformat.htm
-
 ms.date: 12/05/2018
 ms.keywords: GetOptimalFormat, GetOptimalFormat method [WPF Bitmap Effects], GetOptimalFormat method [WPF Bitmap Effects],IMILBitmapEffectConnectorInfo interface, IMILBitmapEffectConnectorInfo interface [WPF Bitmap Effects],GetOptimalFormat method, IMILBitmapEffectConnectorInfo.GetOptimalFormat, IMILBitmapEffectConnectorInfo::GetOptimalFormat, _wibe_imilbitmapeffectconnectorinfo_getoptimalformat, mileffects/IMILBitmapEffectConnectorInfo::GetOptimalFormat, wibe._wibe_imilbitmapeffectconnectorinfo_getoptimalformat
 ms.topic: method
-f1_keywords: 
- - "mileffects/IMILBitmapEffectConnectorInfo.GetOptimalFormat"
+f1_keywords:
+- mileffects/IMILBitmapEffectConnectorInfo.GetOptimalFormat
 dev_langs:
- - c++
+- c++
 req.header: mileffects.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mileffects.h
+- Mileffects.h
 api_name:
- - IMILBitmapEffectConnectorInfo.GetOptimalFormat
+- IMILBitmapEffectConnectorInfo.GetOptimalFormat
 targetos: Windows
 req.typenames: 
 req.redist: Microsoft .Net 3.0

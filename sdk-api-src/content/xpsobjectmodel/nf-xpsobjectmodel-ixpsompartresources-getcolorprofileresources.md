@@ -1,19 +1,17 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMPartResources.GetColorProfileResources
 title: IXpsOMPartResources::GetColorProfileResources (xpsobjectmodel.h)
-
 description: Gets the IXpsOMColorProfileResourceCollection interface that contains the color profiles that are used in the XPS document.
 old-location: xps\ixpsompartresources_getcolorprofileresources.htm
 tech.root: printdocs
 ms.assetid: ad986a95-a77d-4e04-b857-09ee137070e2
-
 ms.date: 12/05/2018
 ms.keywords: GetColorProfileResources, GetColorProfileResources method [XPS Documents and Packaging], GetColorProfileResources method [XPS Documents and Packaging],IXpsOMPartResources interface, IXpsOMPartResources interface [XPS Documents and Packaging],GetColorProfileResources method, IXpsOMPartResources.GetColorProfileResources, IXpsOMPartResources::GetColorProfileResources, xps.ixpsompartresources_getcolorprofileresources, xpsobjectmodel/IXpsOMPartResources::GetColorProfileResources
 ms.topic: method
-f1_keywords: 
- - "xpsobjectmodel/IXpsOMPartResources.GetColorProfileResources"
+f1_keywords:
+- xpsobjectmodel/IXpsOMPartResources.GetColorProfileResources
 dev_langs:
- - c++
+- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsobjectmodel.h
+- xpsobjectmodel.h
 api_name:
- - IXpsOMPartResources.GetColorProfileResources
+- IXpsOMPartResources.GetColorProfileResources
 targetos: Windows
 req.typenames: 
 req.redist: 

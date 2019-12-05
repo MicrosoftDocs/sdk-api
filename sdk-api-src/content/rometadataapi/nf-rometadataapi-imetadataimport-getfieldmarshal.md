@@ -1,19 +1,17 @@
 ---
 UID: NF:rometadataapi.IMetaDataImport.GetFieldMarshal
 title: IMetaDataImport::GetFieldMarshal (rometadataapi.h)
-
 description: Gets a pointer to the native, unmanaged type of the field represented by the specified field metadata token.
 old-location: winrt\imetadataimport_getfieldmarshal.htm
 tech.root: WinRT
 ms.assetid: a176ce92-761f-48fd-b9e8-01990176df27
-
 ms.date: 12/05/2018
 ms.keywords: GetFieldMarshal, GetFieldMarshal method [Windows Runtime], GetFieldMarshal method [Windows Runtime],IMetaDataImport interface, IMetaDataImport interface [Windows Runtime],GetFieldMarshal method, IMetaDataImport.GetFieldMarshal, IMetaDataImport::GetFieldMarshal, rometadataapi/IMetaDataImport::GetFieldMarshal, winrt.imetadataimport_getfieldmarshal
 ms.topic: method
-f1_keywords: 
- - "rometadataapi/IMetaDataImport.GetFieldMarshal"
+f1_keywords:
+- rometadataapi/IMetaDataImport.GetFieldMarshal
 dev_langs:
- - c++
+- c++
 req.header: rometadataapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - rometadataapi.h
+- rometadataapi.h
 api_name:
- - IMetaDataImport.GetFieldMarshal
+- IMetaDataImport.GetFieldMarshal
 targetos: Windows
 req.typenames: 
 req.redist: 

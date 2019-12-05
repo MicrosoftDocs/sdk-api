@@ -1,19 +1,17 @@
 ---
 UID: NF:mfmediaengine.IMFMediaEngine.GetStartTime
 title: IMFMediaEngine::GetStartTime (mfmediaengine.h)
-
 description: Gets the initial playback position.
 old-location: mf\imfmediaengine_getstarttime.htm
 tech.root: medfound
 ms.assetid: 18793EC9-D04A-443F-8469-44CC00C4EE27
-
 ms.date: 12/05/2018
 ms.keywords: GetStartTime, GetStartTime method [Media Foundation], GetStartTime method [Media Foundation],IMFMediaEngine interface, IMFMediaEngine interface [Media Foundation],GetStartTime method, IMFMediaEngine.GetStartTime, IMFMediaEngine::GetStartTime, mf.imfmediaengine_getstarttime, mfmediaengine/IMFMediaEngine::GetStartTime
 ms.topic: method
-f1_keywords: 
- - "mfmediaengine/IMFMediaEngine.GetStartTime"
+f1_keywords:
+- mfmediaengine/IMFMediaEngine.GetStartTime
 dev_langs:
- - c++
+- c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfmediaengine.h
+- mfmediaengine.h
 api_name:
- - IMFMediaEngine.GetStartTime
+- IMFMediaEngine.GetStartTime
 targetos: Windows
 req.typenames: 
 req.redist: 

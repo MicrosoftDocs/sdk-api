@@ -1,19 +1,17 @@
 ---
 UID: NF:tspi.TUISPI_providerRemove
 title: TUISPI_providerRemove function (tspi.h)
-
 description: The TUISPI_providerRemove function asks the user to confirm elimination of the service provider. This function makes the TSPI_providerRemove function obsolete in version 2.0 and later (supported in version 1.4 and earlier).
 old-location: tspi\tuispi_providerremove.htm
 tech.root: Tapi
 ms.assetid: 217d1f40-7f3f-49a0-b29e-e2da85ba47f1
-
 ms.date: 12/05/2018
 ms.keywords: TUISPI_providerRemove, TUISPI_providerRemove function [TAPI 2.2], _tspi_tuispi_providerremove, tspi.tuispi_providerremove, tspi/TUISPI_providerRemove
 ms.topic: function
-f1_keywords: 
- - "tspi/TUISPI_providerRemove"
+f1_keywords:
+- tspi/TUISPI_providerRemove
 dev_langs:
- - c++
+- c++
 req.header: tspi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Tspi.h
+- Tspi.h
 api_name:
- - TUISPI_providerRemove
+- TUISPI_providerRemove
 targetos: Windows
 req.typenames: 
 req.redist: 

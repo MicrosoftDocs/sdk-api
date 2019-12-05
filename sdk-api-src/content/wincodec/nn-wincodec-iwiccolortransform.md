@@ -1,19 +1,17 @@
 ---
 UID: NN:wincodec.IWICColorTransform
 title: IWICColorTransform (wincodec.h)
-
 description: Exposes methods that transforms an IWICBitmapSource from one color context to another.
 old-location: wic\_wic_codec_iwiccolortransform.htm
 tech.root: wic
 ms.assetid: 6c8ae787-3175-4128-ae9f-e11cb0e4c317
-
 ms.date: 12/05/2018
 ms.keywords: IWICColorTransform, IWICColorTransform interface [Windows Imaging Component], IWICColorTransform interface [Windows Imaging Component],described, _wic_codec_iwiccolortransform, wic._wic_codec_iwiccolortransform, wincodec/IWICColorTransform
 ms.topic: interface
-f1_keywords: 
- - "wincodec/IWICColorTransform"
+f1_keywords:
+- wincodec/IWICColorTransform
 dev_langs:
- - c++
+- c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Windowscodecs.lib
 req.dll: Windowscodecs.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Windowscodecs.dll
+- Windowscodecs.dll
 api_name:
- - IWICColorTransform
+- IWICColorTransform
 targetos: Windows
 req.typenames: 
 req.redist: 

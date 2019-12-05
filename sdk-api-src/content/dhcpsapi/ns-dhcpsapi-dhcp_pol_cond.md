@@ -1,19 +1,17 @@
 ---
 UID: NS:dhcpsapi._DHCP_POL_COND
 title: DHCP_POL_COND (dhcpsapi.h)
-
 description: The DHCP_POL_COND structure defines the DHCP server policy condition.
 old-location: dhcp\dhcp_pol_cond.htm
 tech.root: DHCP
 ms.assetid: 99A36029-1CBD-4A93-B25A-A0239D1C08D7
-
 ms.date: 12/05/2018
 ms.keywords: '*LPDHCP_POL_COND, *PDHCP_POL_COND, DHCP_POL_COND, DHCP_POL_COND structure [DHCP], LPDHCP_POL_COND, LPDHCP_POL_COND structure pointer [DHCP], PDHCP_POL_COND, PDHCP_POL_COND structure pointer [DHCP], dhcp.dhcp_pol_cond, dhcpsapi/DHCP_POL_COND, dhcpsapi/LPDHCP_POL_COND, dhcpsapi/PDHCP_POL_COND'
 ms.topic: struct
 f1_keywords:
 - dhcpsapi/DHCP_POL_COND
 dev_langs:
- - c++
+- c++
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows

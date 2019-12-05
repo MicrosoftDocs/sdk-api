@@ -1,19 +1,17 @@
 ---
 UID: NS:webservices._WS_SSL_TRANSPORT_SECURITY_BINDING_CONSTRAINT
 title: WS_SSL_TRANSPORT_SECURITY_BINDING_CONSTRAINT (webservices.h)
-
 description: A security binding constraint that corresponds to the WS_SSL_TRANSPORT_SECURITY_BINDING.
 old-location: wsw\ws_ssl_transport_security_binding_constraint.htm
 tech.root: wsw
 ms.assetid: 1f547d95-0a9a-44c5-81db-b92880238b1d
-
 ms.date: 12/05/2018
 ms.keywords: WS_SSL_TRANSPORT_SECURITY_BINDING_CONSTRAINT, WS_SSL_TRANSPORT_SECURITY_BINDING_CONSTRAINT structure [Web Services for Windows], webservices/WS_SSL_TRANSPORT_SECURITY_BINDING_CONSTRAINT, wsw.ws_ssl_transport_security_binding_constraint
 ms.topic: struct
 f1_keywords:
 - webservices/WS_SSL_TRANSPORT_SECURITY_BINDING_CONSTRAINT
 dev_langs:
- - c++
+- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

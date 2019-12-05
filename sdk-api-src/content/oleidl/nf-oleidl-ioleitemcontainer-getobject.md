@@ -1,19 +1,17 @@
 ---
 UID: NF:oleidl.IOleItemContainer.GetObject
 title: IOleItemContainer::GetObject (oleidl.h)
-
 description: Retrieves a pointer to the specified object.
 old-location: com\ioleitemcontainer_getobject.htm
 tech.root: com
 ms.assetid: 08569037-7ecd-4e63-9f94-c2552c327800
-
 ms.date: 12/05/2018
 ms.keywords: GetObject, GetObject method [COM], GetObject method [COM],IOleItemContainer interface, IOleItemContainer interface [COM],GetObject method, IOleItemContainer.GetObject, IOleItemContainer::GetObject, _com_ioleitemcontainer_getobject, com.ioleitemcontainer_getobject, oleidl/IOleItemContainer::GetObject
 ms.topic: method
-f1_keywords: 
- - "oleidl/IOleItemContainer.GetObject"
+f1_keywords:
+- oleidl/IOleItemContainer.GetObject
 dev_langs:
- - c++
+- c++
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - OleIdl.h
+- OleIdl.h
 api_name:
- - IOleItemContainer.GetObject
+- IOleItemContainer.GetObject
 targetos: Windows
 req.typenames: 
 req.redist: 

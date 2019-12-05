@@ -1,19 +1,17 @@
 ---
 UID: NF:rtmv2.RtmLockDestination
 title: RtmLockDestination function (rtmv2.h)
-
 description: The RtmLockDestination function locks or unlocks a destination in the routing table. Use this function to protect a destination while changing opaque pointers.
 old-location: rras\rtmlockdestination.htm
 tech.root: RRAS
 ms.assetid: 5666dc47-811f-481e-8bda-bf814a4028de
-
 ms.date: 12/05/2018
 ms.keywords: RtmLockDestination, RtmLockDestination function [RAS], _rtmv2ref_rtmlockdestination, rras.rtmlockdestination, rtmv2/RtmLockDestination
 ms.topic: function
-f1_keywords: 
- - "rtmv2/RtmLockDestination"
+f1_keywords:
+- rtmv2/RtmLockDestination
 dev_langs:
- - c++
+- c++
 req.header: rtmv2.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Rtm.lib
 req.dll: Rtm.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Rtm.dll
+- Rtm.dll
 api_name:
- - RtmLockDestination
+- RtmLockDestination
 targetos: Windows
 req.typenames: 
 req.redist: 

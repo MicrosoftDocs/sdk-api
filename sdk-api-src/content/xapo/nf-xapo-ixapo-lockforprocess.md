@@ -1,19 +1,17 @@
 ---
 UID: NF:xapo.IXAPO.LockForProcess
 title: IXAPO::LockForProcess (xapo.h)
-
 description: Called by XAudio2 to lock the input and output configurations of an XAPO allowing it to do any final initialization before Process is called on the realtime thread.
 old-location: xaudio2\ixapo_interface_lockforprocess.htm
 tech.root: xaudio2
 ms.assetid: M:Microsoft.directx_sdk.ixapo.IXAPO.LockForProcess(UINT32,const XAPO_LOCKFORPROCESS_BUFFER_PARAMETERS,UINT32,const XAPO_LOCKFORPROCESS_BUFFER_PARAMETERS)
-
 ms.date: 12/05/2018
 ms.keywords: IXAPO interface [XAudio2 Audio Mixing APIs],LockForProcess method, IXAPO.LockForProcess, IXAPO::LockForProcess, LockForProcess, LockForProcess method [XAudio2 Audio Mixing APIs], LockForProcess method [XAudio2 Audio Mixing APIs],IXAPO interface, xapo/IXAPO::LockForProcess, xaudio2.ixapo_interface_lockforprocess
 ms.topic: method
-f1_keywords: 
- - "xapo/IXAPO.LockForProcess"
+f1_keywords:
+- xapo/IXAPO.LockForProcess
 dev_langs:
- - c++
+- c++
 req.header: xapo.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - XAPO.h
+- XAPO.h
 api_name:
- - IXAPO.LockForProcess
+- IXAPO.LockForProcess
 targetos: Windows
 req.typenames: 
 req.redist: 

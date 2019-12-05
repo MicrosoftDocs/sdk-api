@@ -1,19 +1,17 @@
 ---
 UID: NS:windns.__unnamed_struct_29
 title: DNS_NXT_DATAA (windns.h)
-
 description: The DNS_NXT_DATA structure represents a DNS next (NXT) resource record (RR) as specified in section 5 of RFC 2535.
 old-location: dns\dns_nxt_data.htm
 tech.root: DNS
 ms.assetid: 0e5370c2-30d3-4bb7-85a0-f4412f5572fd
-
 ms.date: 12/05/2018
-ms.keywords: "*PDNS_NXT_DATA, *PDNS_NXT_DATAA, DNS_NXT_DATA, DNS_NXT_DATA structure [DNS], DNS_NXT_DATAA, PDNS_NXT_DATA, PDNS_NXT_DATA structure pointer [DNS], _dns_dns_nxt_data, dns.dns_nxt_data, windns/DNS_NXT_DATA, windns/PDNS_NXT_DATA"
+ms.keywords: '*PDNS_NXT_DATA, *PDNS_NXT_DATAA, DNS_NXT_DATA, DNS_NXT_DATA structure [DNS], DNS_NXT_DATAA, PDNS_NXT_DATA, PDNS_NXT_DATA structure pointer [DNS], _dns_dns_nxt_data, dns.dns_nxt_data, windns/DNS_NXT_DATA, windns/PDNS_NXT_DATA'
 ms.topic: struct
-f1_keywords: 
- - "windns/DNS_NXT_DATA"
+f1_keywords:
+- windns/DNS_NXT_DATA
 dev_langs:
- - c++
+- c++
 req.header: windns.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Windns.h
+- Windns.h
 api_name:
- - DNS_NXT_DATA
+- DNS_NXT_DATA
 targetos: Windows
 req.typenames: DNS_NXT_DATAA, *PDNS_NXT_DATAA
 req.redist: 

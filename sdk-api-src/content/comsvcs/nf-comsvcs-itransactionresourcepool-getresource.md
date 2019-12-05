@@ -1,19 +1,17 @@
 ---
 UID: NF:comsvcs.ITransactionResourcePool.GetResource
 title: ITransactionResourcePool::GetResource (comsvcs.h)
-
 description: Retrieves an object from the list of pooled objects.
 old-location: cos\itransactionresourcepool_getresource.htm
 tech.root: cossdk
 ms.assetid: 68e71746-e3a1-4f33-a3b8-fa8bf9608776
-
 ms.date: 12/05/2018
 ms.keywords: GetResource, GetResource method [COM+], GetResource method [COM+],ITransactionResourcePool interface, ITransactionResourcePool interface [COM+],GetResource method, ITransactionResourcePool.GetResource, ITransactionResourcePool::GetResource, _cos_ITransactionResourcePool_GetResource, comsvcs/ITransactionResourcePool::GetResource, cos.itransactionresourcepool_getresource
 ms.topic: method
-f1_keywords: 
- - "comsvcs/ITransactionResourcePool.GetResource"
+f1_keywords:
+- comsvcs/ITransactionResourcePool.GetResource
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - ITransactionResourcePool.GetResource
+- ITransactionResourcePool.GetResource
 targetos: Windows
 req.typenames: 
 req.redist: 

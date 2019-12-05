@@ -1,19 +1,17 @@
 ---
 UID: NE:mfidl._MF_TRANSCODE_ADJUST_PROFILE_FLAGS
 title: MF_TRANSCODE_ADJUST_PROFILE_FLAGS (mfidl.h)
-
 description: Defines the profile flags that are set in the MF_TRANSCODE_ADJUST_PROFILE attribute.
 old-location: mf\mf_transcode_adjust_profile_flags.htm
 tech.root: medfound
 ms.assetid: 65d7350f-a9d9-43c0-b3b6-c6169a727b4e
-
 ms.date: 12/05/2018
 ms.keywords: MF_TRANSCODE_ADJUST_PROFILE_DEFAULT, MF_TRANSCODE_ADJUST_PROFILE_FLAGS, MF_TRANSCODE_ADJUST_PROFILE_FLAGS enumeration [Media Foundation], MF_TRANSCODE_ADJUST_PROFILE_USE_SOURCE_ATTRIBUTES, mf.mf_transcode_adjust_profile_flags, mfidl/MF_TRANSCODE_ADJUST_PROFILE_DEFAULT, mfidl/MF_TRANSCODE_ADJUST_PROFILE_FLAGS, mfidl/MF_TRANSCODE_ADJUST_PROFILE_USE_SOURCE_ATTRIBUTES
 ms.topic: enum
-f1_keywords: 
- - "mfidl/MF_TRANSCODE_ADJUST_PROFILE_FLAGS"
+f1_keywords:
+- mfidl/MF_TRANSCODE_ADJUST_PROFILE_FLAGS
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - mfidl.h
+- mfidl.h
 api_name:
- - MF_TRANSCODE_ADJUST_PROFILE_FLAGS
+- MF_TRANSCODE_ADJUST_PROFILE_FLAGS
 targetos: Windows
 req.typenames: MF_TRANSCODE_ADJUST_PROFILE_FLAGS
 req.redist: 

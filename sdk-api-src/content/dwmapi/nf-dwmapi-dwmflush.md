@@ -1,19 +1,17 @@
 ---
 UID: NF:dwmapi.DwmFlush
 title: DwmFlush function (dwmapi.h)
-
 description: Issues a flush call that blocks the caller until the next present, when all of the Microsoft DirectX surface updates that are currently outstanding have been made. This compensates for very complex scenes or calling processes with very low priority.
 old-location: dwm\dwmflush.htm
 tech.root: dwm
 ms.assetid: VS|winui|~\winui\desktopwindowmanager\reference\functions\dwmflush.htm
-
 ms.date: 12/05/2018
 ms.keywords: DwmFlush, DwmFlush function [Desktop Window Manager], _udwm_dwmflush, _udwm_dwmflush_cpp, dwm.dwmflush, dwmapi/DwmFlush, winui._udwm_dwmflush
 ms.topic: function
-f1_keywords: 
- - "dwmapi/DwmFlush"
+f1_keywords:
+- dwmapi/DwmFlush
 dev_langs:
- - c++
+- c++
 req.header: dwmapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Dwmapi.lib
 req.dll: Dwmapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Dwmapi.dll
- - ext-ms-win-dwmapi-ext-l1-1-0.dll
- - API-Ms-Win-DwmAPI-L1-1-0.dll
- - DComp.dll
+- Dwmapi.dll
+- ext-ms-win-dwmapi-ext-l1-1-0.dll
+- API-Ms-Win-DwmAPI-L1-1-0.dll
+- DComp.dll
 api_name:
- - DwmFlush
+- DwmFlush
 targetos: Windows
 req.typenames: 
 req.redist: 

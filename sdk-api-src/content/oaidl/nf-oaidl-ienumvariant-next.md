@@ -1,19 +1,17 @@
 ---
 UID: NF:oaidl.IEnumVARIANT.Next
 title: IEnumVARIANT::Next (oaidl.h)
-
 description: Retrieves the specified items in the enumeration sequence.
 old-location: automat\ienumvariant_next.htm
 tech.root: automat
 ms.assetid: 691c1624-8d01-41e0-890e-a4782eba1f59
-
 ms.date: 12/05/2018
 ms.keywords: IEnumVARIANT interface [Automation],Next method, IEnumVARIANT.Next, IEnumVARIANT::Next, Next, Next method [Automation], Next method [Automation],IEnumVARIANT interface, _oa96_IEnumVARIANT::Next, automat.ienumvariant_next, oaidl/IEnumVARIANT::Next
 ms.topic: method
-f1_keywords: 
- - "oaidl/IEnumVARIANT.Next"
+f1_keywords:
+- oaidl/IEnumVARIANT.Next
 dev_langs:
- - c++
+- c++
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - oaidl.h
+- oaidl.h
 api_name:
- - IEnumVARIANT.Next
+- IEnumVARIANT.Next
 targetos: Windows
 req.typenames: 
 req.redist: 

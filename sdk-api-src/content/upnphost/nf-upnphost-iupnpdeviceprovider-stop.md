@@ -1,19 +1,17 @@
 ---
 UID: NF:upnphost.IUPnPDeviceProvider.Stop
 title: IUPnPDeviceProvider::Stop (upnphost.h)
-
 description: The Stop method stops the device provider.
 old-location: upnp\iupnpdeviceprovider_stop.htm
 tech.root: upnp
 ms.assetid: c8e4cd95-a6dc-4bf9-921e-63fbac743028
-
 ms.date: 12/05/2018
 ms.keywords: IUPnPDeviceProvider interface [UPnP APIs],Stop method, IUPnPDeviceProvider.Stop, IUPnPDeviceProvider::Stop, Stop, Stop method [UPnP APIs], Stop method [UPnP APIs],IUPnPDeviceProvider interface, _upnp_iupnpdeviceprovider_stop, upnp.iupnpdeviceprovider_stop, upnphost/IUPnPDeviceProvider::Stop
 ms.topic: method
-f1_keywords: 
- - "upnphost/IUPnPDeviceProvider.Stop"
+f1_keywords:
+- upnphost/IUPnPDeviceProvider.Stop
 dev_langs:
- - c++
+- c++
 req.header: upnphost.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Upnphost.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Upnphost.dll
+- Upnphost.dll
 api_name:
- - IUPnPDeviceProvider.Stop
+- IUPnPDeviceProvider.Stop
 targetos: Windows
 req.typenames: 
 req.redist: 

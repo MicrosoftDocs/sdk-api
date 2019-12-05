@@ -1,19 +1,17 @@
 ---
 UID: NF:certview.IEnumCERTVIEWEXTENSION.Next
 title: IEnumCERTVIEWEXTENSION::Next (certview.h)
-
 description: Moves to the next extension in the extension-enumeration sequence.
 old-location: security\ienumcertviewextension_next.htm
 tech.root: SecCrypto
 ms.assetid: 658daf9d-0f61-4c93-9688-a7c74464ca89
-
 ms.date: 12/05/2018
 ms.keywords: IEnumCERTVIEWEXTENSION interface [Security],Next method, IEnumCERTVIEWEXTENSION object [Security],Next method, IEnumCERTVIEWEXTENSION.Next, IEnumCERTVIEWEXTENSION::Next, Next, Next method [Security], Next method [Security],IEnumCERTVIEWEXTENSION interface, Next method [Security],IEnumCERTVIEWEXTENSION object, _certsrv_ienumcertviewextension_next, certview/IEnumCERTVIEWEXTENSION::Next, security.ienumcertviewextension_next
 ms.topic: method
-f1_keywords: 
- - "certview/IEnumCERTVIEWEXTENSION.Next"
+f1_keywords:
+- certview/IEnumCERTVIEWEXTENSION.Next
 dev_langs:
- - c++
+- c++
 req.header: certview.h
 req.include-header: Certsrv.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Certidl.lib
 req.dll: Certadm.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Certadm.dll
+- Certadm.dll
 api_name:
- - IEnumCERTVIEWEXTENSION.Next
- - IEnumCERTVIEWEXTENSION.Next
+- IEnumCERTVIEWEXTENSION.Next
+- IEnumCERTVIEWEXTENSION.Next
 targetos: Windows
 req.typenames: 
 req.redist: 

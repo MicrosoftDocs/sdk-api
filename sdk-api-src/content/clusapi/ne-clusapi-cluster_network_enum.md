@@ -1,19 +1,17 @@
 ---
 UID: NE:clusapi.CLUSTER_NETWORK_ENUM
 title: CLUSTER_NETWORK_ENUM (clusapi.h)
-
 description: Describes the type of cluster object being enumerated by the ClusterNetworkEnum and ClusterNetworkOpenEnum functions.
 old-location: mscs\cluster_network_enum.htm
 tech.root: MsCS
 ms.assetid: f5b02ce2-92d0-4ae7-a5bb-8e5d9c987095
-
 ms.date: 12/05/2018
 ms.keywords: CLUSTER_NETWORK_ENUM, CLUSTER_NETWORK_ENUM enumeration [Failover Cluster], CLUSTER_NETWORK_ENUM_ALL, CLUSTER_NETWORK_ENUM_NETINTERFACES, _CLUSTER_NETWORK_ENUM, _CLUSTER_NETWORK_ENUM enumeration [Failover Cluster], clusapi/CLUSTER_NETWORK_ENUM, clusapi/CLUSTER_NETWORK_ENUM_ALL, clusapi/CLUSTER_NETWORK_ENUM_NETINTERFACES, clusapi/_CLUSTER_NETWORK_ENUM, msclus/CLUSTER_NETWORK_ENUM, msclus/CLUSTER_NETWORK_ENUM_ALL, msclus/CLUSTER_NETWORK_ENUM_NETINTERFACES, msclus/_CLUSTER_NETWORK_ENUM, mscs.cluster_network_enum
 ms.topic: enum
-f1_keywords: 
- - "clusapi/CLUSTER_NETWORK_ENUM"
+f1_keywords:
+- clusapi/CLUSTER_NETWORK_ENUM
 dev_langs:
- - c++
+- c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - ClusAPI.h
- - MsClus.h
+- ClusAPI.h
+- MsClus.h
 api_name:
- - CLUSTER_NETWORK_ENUM
+- CLUSTER_NETWORK_ENUM
 targetos: Windows
 req.typenames: CLUSTER_NETWORK_ENUM
 req.redist: 

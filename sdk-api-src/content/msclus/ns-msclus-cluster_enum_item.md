@@ -1,19 +1,17 @@
 ---
 UID: NS:msclus._CLUSTER_ENUM_ITEM
 title: CLUSTER_ENUM_ITEM (msclus.h)
-
 description: Contains the properties of a cluster object. This structure is used to enumerate clusters in the ClusterEnumEx and ClusterNodeEnumEx functions.
 old-location: mscs\cluster_enum_item.htm
 tech.root: MsCS
 ms.assetid: 2E7FB4DA-88AD-4739-ACE0-D43670F914D4
-
 ms.date: 12/05/2018
-ms.keywords: "*PCLUSTER_ENUM_ITEM, CLUSTER_ENUM_ITEM, CLUSTER_ENUM_ITEM structure [Failover Cluster], PCLUSTER_ENUM_ITEM, PCLUSTER_ENUM_ITEM structure pointer [Failover Cluster], _CLUSTER_ENUM_ITEM, _CLUSTER_ENUM_ITEM structure [Failover Cluster], clusapi/CLUSTER_ENUM_ITEM, clusapi/PCLUSTER_ENUM_ITEM, clusapi/_CLUSTER_ENUM_ITEM, msclus/CLUSTER_ENUM_ITEM, msclus/PCLUSTER_ENUM_ITEM, msclus/_CLUSTER_ENUM_ITEM, mscs.cluster_enum_item"
+ms.keywords: '*PCLUSTER_ENUM_ITEM, CLUSTER_ENUM_ITEM, CLUSTER_ENUM_ITEM structure [Failover Cluster], PCLUSTER_ENUM_ITEM, PCLUSTER_ENUM_ITEM structure pointer [Failover Cluster], _CLUSTER_ENUM_ITEM, _CLUSTER_ENUM_ITEM structure [Failover Cluster], clusapi/CLUSTER_ENUM_ITEM, clusapi/PCLUSTER_ENUM_ITEM, clusapi/_CLUSTER_ENUM_ITEM, msclus/CLUSTER_ENUM_ITEM, msclus/PCLUSTER_ENUM_ITEM, msclus/_CLUSTER_ENUM_ITEM, mscs.cluster_enum_item'
 ms.topic: struct
-f1_keywords: 
- - "msclus/CLUSTER_ENUM_ITEM"
+f1_keywords:
+- msclus/CLUSTER_ENUM_ITEM
 dev_langs:
- - c++
+- c++
 req.header: msclus.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - ClusApi.h
- - MSClus.h
+- ClusApi.h
+- MSClus.h
 api_name:
- - CLUSTER_ENUM_ITEM
+- CLUSTER_ENUM_ITEM
 targetos: Windows
 req.typenames: CLUSTER_ENUM_ITEM, *PCLUSTER_ENUM_ITEM
 req.redist: 

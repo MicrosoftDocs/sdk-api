@@ -1,19 +1,17 @@
 ---
 UID: NF:winreg.RegOpenUserClassesRoot
 title: RegOpenUserClassesRoot function (winreg.h)
-
 description: Retrieves a handle to the HKEY_CLASSES_ROOT key for a specified user. The user is identified by an access token.
 old-location: base\regopenuserclassesroot.htm
 tech.root: SysInfo
 ms.assetid: bd068826-cf88-4fc7-a7d6-96cc03e923c7
-
 ms.date: 12/05/2018
 ms.keywords: RegOpenUserClassesRoot, RegOpenUserClassesRoot function, _win32_regopenuserclassesroot, base.regopenuserclassesroot, winreg/RegOpenUserClassesRoot
 ms.topic: function
-f1_keywords: 
- - "winreg/RegOpenUserClassesRoot"
+f1_keywords:
+- winreg/RegOpenUserClassesRoot
 dev_langs:
- - c++
+- c++
 req.header: winreg.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,21 +30,21 @@ req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Advapi32.dll
- - API-MS-Win-Core-Localregistry-l1-1-0.dll
- - KernelBase.dll
- - API-MS-Win-Core-Registry-l1-1-0.dll
- - API-MS-Win-DownLevel-AdvApi32-l1-1-0.dll
- - API-MS-Win-DownLevel-AdvApi32-l1-1-1.dll
- - MinKernelBase.dll
- - api-ms-win-core-registry-l1-1-1.dll
+- Advapi32.dll
+- API-MS-Win-Core-Localregistry-l1-1-0.dll
+- KernelBase.dll
+- API-MS-Win-Core-Registry-l1-1-0.dll
+- API-MS-Win-DownLevel-AdvApi32-l1-1-0.dll
+- API-MS-Win-DownLevel-AdvApi32-l1-1-1.dll
+- MinKernelBase.dll
+- api-ms-win-core-registry-l1-1-1.dll
 api_name:
- - RegOpenUserClassesRoot
+- RegOpenUserClassesRoot
 targetos: Windows
 req.typenames: 
 req.redist: 

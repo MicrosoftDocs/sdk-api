@@ -1,19 +1,17 @@
 ---
 UID: NS:routprot._SUPPORT_FUNCTIONS_50
 title: SUPPORT_FUNCTIONS_50 (routprot.h)
-
 description: The SUPPORT_FUNCTIONS structure is used by the router manager to pass the routing protocol a set of pointers to functions provided by the router manager.
 old-location: rras\support_functions.htm
 tech.root: RRAS
 ms.assetid: c6e1e3a3-2c2a-40ef-965f-554263614bdf
-
 ms.date: 12/05/2018
-ms.keywords: "*PSUPPORT_FUNCTIONS, PSUPPORT_FUNCTIONS, PSUPPORT_FUNCTIONS structure pointer [RAS], SUPPORT_FUNCTIONS, SUPPORT_FUNCTIONS structure [RAS], SUPPORT_FUNCTIONS_50, _mpr_support_functions, routprot/PSUPPORT_FUNCTIONS, routprot/SUPPORT_FUNCTIONS, rras.support_functions"
+ms.keywords: '*PSUPPORT_FUNCTIONS, PSUPPORT_FUNCTIONS, PSUPPORT_FUNCTIONS structure pointer [RAS], SUPPORT_FUNCTIONS, SUPPORT_FUNCTIONS structure [RAS], SUPPORT_FUNCTIONS_50, _mpr_support_functions, routprot/PSUPPORT_FUNCTIONS, routprot/SUPPORT_FUNCTIONS, rras.support_functions'
 ms.topic: struct
-f1_keywords: 
- - "routprot/SUPPORT_FUNCTIONS"
+f1_keywords:
+- routprot/SUPPORT_FUNCTIONS
 dev_langs:
- - c++
+- c++
 req.header: routprot.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Routprot.h
+- Routprot.h
 api_name:
- - SUPPORT_FUNCTIONS
+- SUPPORT_FUNCTIONS
 targetos: Windows
 req.typenames: SUPPORT_FUNCTIONS_50
 req.redist: 

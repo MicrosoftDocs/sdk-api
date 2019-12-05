@@ -1,19 +1,17 @@
 ---
 UID: NF:shlwapi.PathMakeSystemFolderW
 title: PathMakeSystemFolderW function (shlwapi.h)
-
 description: Gives an existing folder the proper attributes to become a system folder.
 old-location: shell\PathMakeSystemFolder.htm
 tech.root: shell
 ms.assetid: 5b0faeb8-f8ae-481b-b5b2-cae9efe638e5
-
 ms.date: 12/05/2018
 ms.keywords: PathMakeSystemFolder, PathMakeSystemFolder function [Windows Shell], PathMakeSystemFolderA, PathMakeSystemFolderW, _win32_PathMakeSystemFolder, shell.PathMakeSystemFolder, shlwapi/PathMakeSystemFolder, shlwapi/PathMakeSystemFolderA, shlwapi/PathMakeSystemFolderW
 ms.topic: function
-f1_keywords: 
- - "shlwapi/PathMakeSystemFolder"
+f1_keywords:
+- shlwapi/PathMakeSystemFolder
 dev_langs:
- - c++
+- c++
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib: Shlwapi.lib
 req.dll: Shlwapi.dll (version 4.71 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Shlwapi.dll
- - API-MS-Win-shlwapi-Winrt-storage-l1-1-0.dll
- - api-ms-win-shlwapi-winrt-storage-l1-1-1.dll
+- Shlwapi.dll
+- API-MS-Win-shlwapi-Winrt-storage-l1-1-0.dll
+- api-ms-win-shlwapi-winrt-storage-l1-1-1.dll
 api_name:
- - PathMakeSystemFolder
- - PathMakeSystemFolderA
- - PathMakeSystemFolderW
+- PathMakeSystemFolder
+- PathMakeSystemFolderA
+- PathMakeSystemFolderW
 targetos: Windows
 req.typenames: 
 req.redist: 

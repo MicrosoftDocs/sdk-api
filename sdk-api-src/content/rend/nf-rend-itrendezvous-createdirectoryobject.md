@@ -1,19 +1,17 @@
 ---
 UID: NF:rend.ITRendezvous.CreateDirectoryObject
 title: ITRendezvous::CreateDirectoryObject (rend.h)
-
 description: The CreateDirectoryObject method creates a new ITDirectoryObject object.
 old-location: tapi3\itrendezvous_createdirectoryobject.htm
 tech.root: Tapi
 ms.assetid: e3ad77cf-9112-4561-896c-2eba7e07eb19
-
 ms.date: 12/05/2018
 ms.keywords: CreateDirectoryObject, CreateDirectoryObject method [TAPI 2.2], CreateDirectoryObject method [TAPI 2.2],ITRendezvous interface, ITRendezvous interface [TAPI 2.2],CreateDirectoryObject method, ITRendezvous.CreateDirectoryObject, ITRendezvous::CreateDirectoryObject, _tapi3_itrendezvous_createdirectoryobject, rend/ITRendezvous::CreateDirectoryObject, tapi3.itrendezvous_createdirectoryobject
 ms.topic: method
-f1_keywords: 
- - "rend/ITRendezvous.CreateDirectoryObject"
+f1_keywords:
+- rend/ITRendezvous.CreateDirectoryObject
 dev_langs:
- - c++
+- c++
 req.header: rend.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Rend.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Rend.dll
+- Rend.dll
 api_name:
- - ITRendezvous.CreateDirectoryObject
+- ITRendezvous.CreateDirectoryObject
 targetos: Windows
 req.typenames: 
 req.redist: 

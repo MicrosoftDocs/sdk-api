@@ -1,19 +1,17 @@
 ---
 UID: NF:cfgmgr32.CM_Delete_Class_Key
 title: CM_Delete_Class_Key function (cfgmgr32.h)
-
 description: The CM_Delete_Class_Key function removes the specified installed device class from the system.
 old-location: devinst\cm_delete_class_key.htm
 tech.root: devinst
 ms.assetid: f315f5fa-eb67-4898-ac4e-acb92b8e9b3e
-
 ms.date: 12/05/2018
 ms.keywords: CM_Delete_Class_Key, CM_Delete_Class_Key function [Device and Driver Installation], cfgmgr32/CM_Delete_Class_Key, cfgmgrfn_4e8a0362-3fd5-4cb6-af2b-33a904bcafde.xml, devinst.cm_delete_class_key
 ms.topic: function
 f1_keywords:
 - cfgmgr32/CM_Delete_Class_Key
 dev_langs:
- - c++
+- c++
 req.header: cfgmgr32.h
 req.include-header: Cfgmgr32.h
 req.target-type: Universal

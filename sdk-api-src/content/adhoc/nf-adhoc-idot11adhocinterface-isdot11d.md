@@ -1,19 +1,17 @@
 ---
 UID: NF:adhoc.IDot11AdHocInterface.IsDot11d
 title: IDot11AdHocInterface::IsDot11d (adhoc.h)
-
 description: Specifies whether the NIC is 802.11d compliant.
 old-location: nwifi\idot11adhocinterface_isdot11d.htm
 tech.root: NativeWiFi
 ms.assetid: 3854b2e3-853d-44cd-9b43-6c583f0df08f
-
 ms.date: 12/05/2018
 ms.keywords: IDot11AdHocInterface interface [NativeWIFI],IsDot11d method, IDot11AdHocInterface.IsDot11d, IDot11AdHocInterface::IsDot11d, IsDot11d, IsDot11d method [NativeWIFI], IsDot11d method [NativeWIFI],IDot11AdHocInterface interface, adhoc/IDot11AdHocInterface::IsDot11d, nwifi.idot11adhocinterface_isdot11d
 ms.topic: method
-f1_keywords: 
- - "adhoc/IDot11AdHocInterface.IsDot11d"
+f1_keywords:
+- adhoc/IDot11AdHocInterface.IsDot11d
 dev_langs:
- - c++
+- c++
 req.header: adhoc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - adhoc.h
+- adhoc.h
 api_name:
- - IDot11AdHocInterface.IsDot11d
+- IDot11AdHocInterface.IsDot11d
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:wmsbuffer.INSSBuffer.GetMaxLength
 title: INSSBuffer::GetMaxLength (wmsbuffer.h)
-
 description: The GetMaxLength method retrieves the maximum size to which a buffer can be set.
 old-location: wmformat\inssbuffer_getmaxlength.htm
 tech.root: wmformat
 ms.assetid: 6b386c24-1737-4e30-98fa-444fc8a34503
-
 ms.date: 12/05/2018
 ms.keywords: GetMaxLength, GetMaxLength method [windows Media Format], GetMaxLength method [windows Media Format],INSSBuffer interface, INSSBuffer interface [windows Media Format],GetMaxLength method, INSSBuffer.GetMaxLength, INSSBuffer::GetMaxLength, INSSBufferGetMaxLength, wmformat.inssbuffer_getmaxlength, wmsbuffer/INSSBuffer::GetMaxLength
 ms.topic: method
-f1_keywords: 
- - "wmsbuffer/INSSBuffer.GetMaxLength"
+f1_keywords:
+- wmsbuffer/INSSBuffer.GetMaxLength
 dev_langs:
- - c++
+- c++
 req.header: wmsbuffer.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wmvcore.lib
- - Wmvcore.dll
- - WMStubDRM.lib
- - WMStubDRM.dll
+- Wmvcore.lib
+- Wmvcore.dll
+- WMStubDRM.lib
+- WMStubDRM.dll
 api_name:
- - INSSBuffer.GetMaxLength
+- INSSBuffer.GetMaxLength
 targetos: Windows
 req.typenames: 
 req.redist: 

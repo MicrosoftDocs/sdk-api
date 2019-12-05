@@ -1,19 +1,17 @@
 ---
 UID: NF:dhcpsapi.DhcpRemoveOptionValueV6
 title: DhcpRemoveOptionValueV6 function (dhcpsapi.h)
-
 description: The DhcpRemoveOptionValueV6 function removes an option value from a scope defined on the DHCP server.
 old-location: dhcp\dhcpremoveoptionvaluev6.htm
 tech.root: DHCP
 ms.assetid: 757ed807-58f4-427d-8500-92f933518d03
-
 ms.date: 12/05/2018
 ms.keywords: DHCP_FLAGS_OPTION_IS_VENDOR, DhcpRemoveOptionValueV6, DhcpRemoveOptionValueV6 function [DHCP], dhcp.dhcpremoveoptionvaluev6, dhcpsapi/DhcpRemoveOptionValueV6
 ms.topic: function
-f1_keywords: 
- - "dhcpsapi/DhcpRemoveOptionValueV6"
+f1_keywords:
+- dhcpsapi/DhcpRemoveOptionValueV6
 dev_langs:
- - c++
+- c++
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dhcpsapi.lib
 req.dll: Dhcpsapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Dhcpsapi.dll
+- Dhcpsapi.dll
 api_name:
- - DhcpRemoveOptionValueV6
+- DhcpRemoveOptionValueV6
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NS:wingdi.tagEMR
 title: EMR (wingdi.h)
-
 description: The EMR structure provides the base structure for all enhanced metafile records. An enhanced metafile record contains the parameters for a specific GDI function used to create part of a picture in an enhanced format metafile.
 old-location: gdi\emr.htm
 tech.root: gdi
 ms.assetid: 06582047-b64b-44ec-ae27-1f8ed7c56b97
-
 ms.date: 12/05/2018
-ms.keywords: "*PEMR, EMR, EMR structure [Windows GDI], PEMR, PEMR structure pointer [Windows GDI], _win32_EMR_str, gdi.emr, wingdi/EMR, wingdi/PEMR"
+ms.keywords: '*PEMR, EMR, EMR structure [Windows GDI], PEMR, PEMR structure pointer [Windows GDI], _win32_EMR_str, gdi.emr, wingdi/EMR, wingdi/PEMR'
 ms.topic: struct
-f1_keywords: 
- - "wingdi/EMR"
+f1_keywords:
+- wingdi/EMR
 dev_langs:
- - c++
+- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wingdi.h
+- Wingdi.h
 api_name:
- - EMR
+- EMR
 targetos: Windows
 req.typenames: EMR, *PEMR
 req.redist: 

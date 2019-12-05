@@ -1,19 +1,17 @@
 ---
 UID: NN:shobjidl_core.ITransferDestination
 title: ITransferDestination (shobjidl_core.h)
-
 description: Exposes methods that create a destination Shell item for a copy or move operation. This interface is provided to allow more control over file operations by providing an ITransferDestination::Advise method.
 old-location: shell\ITransferDestination.htm
 tech.root: shell
 ms.assetid: 8d0049e0-e227-40ae-a282-cdc17f227e24
-
 ms.date: 12/05/2018
 ms.keywords: ITransferDestination, ITransferDestination interface [Windows Shell], ITransferDestination interface [Windows Shell],described, _shell_ITransferDestination, shell.ITransferDestination, shobjidl_core/ITransferDestination
 ms.topic: interface
-f1_keywords: 
- - "shobjidl_core/ITransferDestination"
+f1_keywords:
+- shobjidl_core/ITransferDestination
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - ITransferDestination
+- ITransferDestination
 targetos: Windows
 req.typenames: 
 req.redist: 

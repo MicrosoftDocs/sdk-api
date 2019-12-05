@@ -1,19 +1,17 @@
 ---
 UID: NF:resapi.ClusWorkerCreate
 title: ClusWorkerCreate function (resapi.h)
-
 description: Creates a worker thread. The PCLUSAPI_CLUS_WORKER_CREATE type defines a pointer to this function.
 old-location: mscs\clusworkercreate.htm
 tech.root: MsCS
 ms.assetid: a7e8f8ad-c9de-4c6b-8926-b9a46d85924d
-
 ms.date: 12/05/2018
 ms.keywords: ClusWorkerCreate, ClusWorkerCreate function [Failover Cluster], PCLUSAPI_CLUS_WORKER_CREATE, PCLUSAPI_CLUS_WORKER_CREATE function [Failover Cluster], _wolf_clusworkercreate, mscs.clusworkercreate, resapi/ClusWorkerCreate, resapi/PCLUSAPI_CLUS_WORKER_CREATE
 ms.topic: function
-f1_keywords: 
- - "resapi/ClusWorkerCreate"
+f1_keywords:
+- resapi/ClusWorkerCreate
 dev_langs:
- - c++
+- c++
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: ResUtils.lib
 req.dll: ResUtils.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - ResUtils.dll
+- ResUtils.dll
 api_name:
- - ClusWorkerCreate
+- ClusWorkerCreate
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:credentialprovider.ICredentialProviderCredential.GetFieldState
 title: ICredentialProviderCredential::GetFieldState (credentialprovider.h)
-
 description: Retrieves the field state. The Logon UI and Credential UI use this to gain information about a field of a credential to display this information in the user tile.
 old-location: shell\ICredentialProviderCredential_GetFieldState.htm
 tech.root: shell
 ms.assetid: 9a709835-cf89-464d-a257-d16a1312ab44
-
 ms.date: 12/05/2018
 ms.keywords: GetFieldState, GetFieldState method [Windows Shell], GetFieldState method [Windows Shell],ICredentialProviderCredential interface, ICredentialProviderCredential interface [Windows Shell],GetFieldState method, ICredentialProviderCredential.GetFieldState, ICredentialProviderCredential::GetFieldState, _shell_ICredentialProviderCredential_GetFieldState, credentialprovider/ICredentialProviderCredential::GetFieldState, shell.ICredentialProviderCredential_GetFieldState
 ms.topic: method
-f1_keywords: 
- - "credentialprovider/ICredentialProviderCredential.GetFieldState"
+f1_keywords:
+- credentialprovider/ICredentialProviderCredential.GetFieldState
 dev_langs:
- - c++
+- c++
 req.header: credentialprovider.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Credentialprovider.h
+- Credentialprovider.h
 api_name:
- - ICredentialProviderCredential.GetFieldState
+- ICredentialProviderCredential.GetFieldState
 targetos: Windows
 req.typenames: 
 req.redist: 

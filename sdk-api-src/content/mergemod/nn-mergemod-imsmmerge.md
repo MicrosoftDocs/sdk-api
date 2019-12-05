@@ -1,19 +1,17 @@
 ---
 UID: NN:mergemod.IMsmMerge
 title: IMsmMerge (mergemod.h)
-
 description: The IMsmMerge interface and the IMsmMerge2 interface provide interfaces to the Merge object.
 old-location: setup\imsmmerge_interface.htm
 tech.root: Msi
 ms.assetid: 6cb4b620-88ce-4348-ab72-6d2ed60c6298
-
 ms.date: 12/05/2018
 ms.keywords: IMsmMerge, IMsmMerge interface, IMsmMerge interface,described, _msi_imsmmerge_interface, mergemod/IMsmMerge, setup.imsmmerge_interface
 ms.topic: interface
-f1_keywords: 
- - "mergemod/IMsmMerge"
+f1_keywords:
+- mergemod/IMsmMerge
 dev_langs:
- - c++
+- c++
 req.header: mergemod.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Mergemod.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mergemod.dll
+- Mergemod.dll
 api_name:
- - IMsmMerge
+- IMsmMerge
 targetos: Windows
 req.typenames: 
 req.redist: 

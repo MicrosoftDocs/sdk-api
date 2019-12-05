@@ -1,19 +1,17 @@
 ---
 UID: NF:textserv.ITextServices.TxQueryHitPoint
 title: ITextServices::TxQueryHitPoint (textserv.h)
-
 description: Tests whether a specified point is within the rectangle of the text services object.
 old-location: controls\ITextServices_TxQueryHitPoint.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\windowlessricheditcontrols\windowlessricheditcontrolsreference\windowlessricheditcontrolinterfaces\txqueryhitpoint.htm
-
 ms.date: 12/05/2018
 ms.keywords: DVASPECT_CONTENT, DVASPECT_DOCPRINT, ITextServices interface [Windows Controls],TxQueryHitPoint method, ITextServices.TxQueryHitPoint, ITextServices::TxQueryHitPoint, TXTHITRESULT_CLOSE, TXTHITRESULT_HIT, TXTHITRESULT_NOHIT, TXTHITRESULT_TRANSPARENT, TxQueryHitPoint, TxQueryHitPoint method [Windows Controls], TxQueryHitPoint method [Windows Controls],ITextServices interface, _win32_ITextServices_TxQueryHitPoint, _win32_ITextServices_TxQueryHitPoint_cpp, controls.ITextServices_TxQueryHitPoint, controls._win32_ITextServices_TxQueryHitPoint, textserv/ITextServices::TxQueryHitPoint
 ms.topic: method
-f1_keywords: 
- - "textserv/ITextServices.TxQueryHitPoint"
+f1_keywords:
+- textserv/ITextServices.TxQueryHitPoint
 dev_langs:
- - c++
+- c++
 req.header: textserv.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msftedit.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msftedit.dll
+- Msftedit.dll
 api_name:
- - ITextServices.TxQueryHitPoint
+- ITextServices.TxQueryHitPoint
 targetos: Windows
 req.typenames: 
 req.redist: 

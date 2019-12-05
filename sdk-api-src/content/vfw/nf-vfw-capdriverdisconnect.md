@@ -1,19 +1,17 @@
 ---
 UID: NF:vfw.capDriverDisconnect
 title: capDriverDisconnect macro (vfw.h)
-
 description: The capDriverDisconnect macro disconnects a capture driver from a capture window. You can use this macro or explicitly send the WM_CAP_DRIVER_DISCONNECT message.
 old-location: multimedia\capdriverdisconnect.htm
 tech.root: Multimedia
 ms.assetid: c009adb4-bc73-4d0d-9ab1-801e92e8851f
-
 ms.date: 12/05/2018
-ms.keywords: "_win32_capDriverDisconnect, capDriverDisconnect, capDriverDisconnect macro [Windows Multimedia], multimedia.capdriverdisconnect, vfw/capDriverDisconnect"
+ms.keywords: _win32_capDriverDisconnect, capDriverDisconnect, capDriverDisconnect macro [Windows Multimedia], multimedia.capdriverdisconnect, vfw/capDriverDisconnect
 ms.topic: macro
-f1_keywords: 
- - "vfw/capDriverDisconnect"
+f1_keywords:
+- vfw/capDriverDisconnect
 dev_langs:
- - c++
+- c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Vfw.h
+- Vfw.h
 api_name:
- - capDriverDisconnect
+- capDriverDisconnect
 targetos: Windows
 req.typenames: 
 req.redist: 

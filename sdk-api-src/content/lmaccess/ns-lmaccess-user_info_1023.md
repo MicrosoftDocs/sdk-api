@@ -1,19 +1,17 @@
 ---
 UID: NS:lmaccess._USER_INFO_1023
 title: USER_INFO_1023 (lmaccess.h)
-
 description: The USER_INFO_1023 structure contains the name of the server to which network logon requests should be sent. This information level is valid only when you call the NetUserSetInfo function.
 old-location: netmgmt\user_info_1023_str.htm
 tech.root: NetMgmt
 ms.assetid: 44985bbe-48d2-4fe9-9247-2800089269cb
-
 ms.date: 12/05/2018
-ms.keywords: "*LPUSER_INFO_1023, *PUSER_INFO_1023, LPUSER_INFO_1023, LPUSER_INFO_1023 structure pointer [Network Management], PUSER_INFO_1023, PUSER_INFO_1023 structure pointer [Network Management], USER_INFO_1023, USER_INFO_1023 structure [Network Management], _win32_user_info_1023_str, lmaccess/LPUSER_INFO_1023, lmaccess/PUSER_INFO_1023, lmaccess/USER_INFO_1023, netmgmt.user_info_1023_str"
+ms.keywords: '*LPUSER_INFO_1023, *PUSER_INFO_1023, LPUSER_INFO_1023, LPUSER_INFO_1023 structure pointer [Network Management], PUSER_INFO_1023, PUSER_INFO_1023 structure pointer [Network Management], USER_INFO_1023, USER_INFO_1023 structure [Network Management], _win32_user_info_1023_str, lmaccess/LPUSER_INFO_1023, lmaccess/PUSER_INFO_1023, lmaccess/USER_INFO_1023, netmgmt.user_info_1023_str'
 ms.topic: struct
-f1_keywords: 
- - "lmaccess/USER_INFO_1023"
+f1_keywords:
+- lmaccess/USER_INFO_1023
 dev_langs:
- - c++
+- c++
 req.header: lmaccess.h
 req.include-header: Lm.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Lmaccess.h
+- Lmaccess.h
 api_name:
- - USER_INFO_1023
+- USER_INFO_1023
 targetos: Windows
 req.typenames: USER_INFO_1023, *PUSER_INFO_1023, *LPUSER_INFO_1023
 req.redist: 

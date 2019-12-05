@@ -1,19 +1,17 @@
 ---
 UID: NF:propsys.IPropertySystem.RefreshPropertySchema
 title: IPropertySystem::RefreshPropertySchema (propsys.h)
-
 description: Not supported.
 old-location: properties\IPropertySystem_RefreshPropertySchema.htm
 tech.root: properties
 ms.assetid: 9aa0c678-5139-42a4-ac71-deb39dae4129
-
 ms.date: 12/05/2018
 ms.keywords: IPropertySystem interface [Windows Properties],RefreshPropertySchema method, IPropertySystem.RefreshPropertySchema, IPropertySystem::RefreshPropertySchema, RefreshPropertySchema, RefreshPropertySchema method [Windows Properties], RefreshPropertySchema method [Windows Properties],IPropertySystem interface, properties.IPropertySystem_RefreshPropertySchema, propsys/IPropertySystem::RefreshPropertySchema, shell.IPropertySystem_RefreshPropertySchema, shell_IPropertySystem_RefreshPropertySchema
 ms.topic: method
-f1_keywords: 
- - "propsys/IPropertySystem.RefreshPropertySchema"
+f1_keywords:
+- propsys/IPropertySystem.RefreshPropertySchema
 dev_langs:
- - c++
+- c++
 req.header: propsys.h
 req.include-header: Propsys.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Propsys.dll (version 5.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Propsys.dll
+- Propsys.dll
 api_name:
- - IPropertySystem.RefreshPropertySchema
+- IPropertySystem.RefreshPropertySchema
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0

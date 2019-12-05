@@ -1,19 +1,17 @@
 ---
 UID: NF:uianimation.IUIAnimationInterpolator.GetDuration
 title: IUIAnimationInterpolator::GetDuration (uianimation.h)
-
 description: Gets the duration of a transition.
 old-location: uianimation\iuianimationinterpolator_getduration.htm
 tech.root: UIAnimation
 ms.assetid: c39acf72-7c03-4d8b-b4f2-776e4b32f781
-
 ms.date: 12/05/2018
 ms.keywords: GetDuration, GetDuration method [Windows Animation], GetDuration method [Windows Animation],IUIAnimationInterpolator interface, IUIAnimationInterpolator interface [Windows Animation],GetDuration method, IUIAnimationInterpolator.GetDuration, IUIAnimationInterpolator::GetDuration, uianimation.iuianimationinterpolator_getduration, uianimation/IUIAnimationInterpolator::GetDuration
 ms.topic: method
-f1_keywords: 
- - "uianimation/IUIAnimationInterpolator.GetDuration"
+f1_keywords:
+- uianimation/IUIAnimationInterpolator.GetDuration
 dev_langs:
- - c++
+- c++
 req.header: uianimation.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: UIAnimation.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAnimation.dll
+- UIAnimation.dll
 api_name:
- - IUIAnimationInterpolator.GetDuration
+- IUIAnimationInterpolator.GetDuration
 targetos: Windows
 req.typenames: 
 req.redist: 

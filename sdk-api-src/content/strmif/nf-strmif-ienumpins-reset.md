@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IEnumPins.Reset
 title: IEnumPins::Reset (strmif.h)
-
 description: The Reset method resets the enumeration sequence to the beginning.
 old-location: dshow\ienumpins_reset.htm
 tech.root: DirectShow
 ms.assetid: c2147884-aec2-43ae-b85a-61383ad6ca15
-
 ms.date: 12/05/2018
 ms.keywords: IEnumPins interface [DirectShow],Reset method, IEnumPins.Reset, IEnumPins::Reset, IEnumPinsReset, Reset, Reset method [DirectShow], Reset method [DirectShow],IEnumPins interface, dshow.ienumpins_reset, strmif/IEnumPins::Reset
 ms.topic: method
-f1_keywords: 
- - "strmif/IEnumPins.Reset"
+f1_keywords:
+- strmif/IEnumPins.Reset
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IEnumPins.Reset
+- IEnumPins.Reset
 targetos: Windows
 req.typenames: 
 req.redist: 

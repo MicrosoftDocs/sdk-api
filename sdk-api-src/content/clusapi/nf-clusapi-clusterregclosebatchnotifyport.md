@@ -1,19 +1,17 @@
 ---
 UID: NF:clusapi.ClusterRegCloseBatchNotifyPort
 title: ClusterRegCloseBatchNotifyPort function (clusapi.h)
-
 description: Closes a subscription to a batch notification port created by the ClusterRegCreateBatchNotifyPort function.
 old-location: mscs\clusterregclosebatchnotifyport.htm
 tech.root: MsCS
 ms.assetid: 7ae10343-c97e-4036-9fe6-b894394bb605
-
 ms.date: 12/05/2018
 ms.keywords: ClusterRegCloseBatchNotifyPort, ClusterRegCloseBatchNotifyPort function [Failover Cluster], PCLUSTER_REG_CLOSE_BATCH_NOTIFY_PORT, clusapi/ClusterRegCloseBatchNotifyPort, mscs.clusterregclosebatchnotifyport
 ms.topic: function
-f1_keywords: 
- - "clusapi/ClusterRegCloseBatchNotifyPort"
+f1_keywords:
+- clusapi/ClusterRegCloseBatchNotifyPort
 dev_langs:
- - c++
+- c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: ClusAPI.lib
 req.dll: ClusAPI.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - ClusAPI.dll
+- ClusAPI.dll
 api_name:
- - ClusterRegCloseBatchNotifyPort
+- ClusterRegCloseBatchNotifyPort
 targetos: Windows
 req.typenames: 
 req.redist: 

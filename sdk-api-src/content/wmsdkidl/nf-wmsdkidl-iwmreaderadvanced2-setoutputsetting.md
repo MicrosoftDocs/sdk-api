@@ -1,19 +1,17 @@
 ---
 UID: NF:wmsdkidl.IWMReaderAdvanced2.SetOutputSetting
 title: IWMReaderAdvanced2::SetOutputSetting (wmsdkidl.h)
-
 description: The SetOutputSetting method specifies a named setting for a particular output.
 old-location: wmformat\iwmreaderadvanced2_setoutputsetting.htm
 tech.root: wmformat
 ms.assetid: 035a74d2-288d-4754-8cb2-4508b7fe4649
-
 ms.date: 12/05/2018
 ms.keywords: IWMReaderAdvanced2 interface [windows Media Format],SetOutputSetting method, IWMReaderAdvanced2.SetOutputSetting, IWMReaderAdvanced2::SetOutputSetting, IWMReaderAdvanced2SetOutputSetting, SetOutputSetting, SetOutputSetting method [windows Media Format], SetOutputSetting method [windows Media Format],IWMReaderAdvanced2 interface, wmformat.iwmreaderadvanced2_setoutputsetting, wmsdkidl/IWMReaderAdvanced2::SetOutputSetting
 ms.topic: method
-f1_keywords: 
- - "wmsdkidl/IWMReaderAdvanced2.SetOutputSetting"
+f1_keywords:
+- wmsdkidl/IWMReaderAdvanced2.SetOutputSetting
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wmvcore.lib
- - Wmvcore.dll
- - WMStubDRM.lib
- - WMStubDRM.dll
+- Wmvcore.lib
+- Wmvcore.dll
+- WMStubDRM.lib
+- WMStubDRM.dll
 api_name:
- - IWMReaderAdvanced2.SetOutputSetting
+- IWMReaderAdvanced2.SetOutputSetting
 targetos: Windows
 req.typenames: 
 req.redist: 

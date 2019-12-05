@@ -1,19 +1,17 @@
 ---
 UID: NF:appxpackaging.IAppxFactory.CreatePackageWriter
 title: IAppxFactory::CreatePackageWriter (appxpackaging.h)
-
 description: Creates a write-only package object to which files can be added.
 old-location: appxpkg\iappxfactory_createpackagewriter.htm
 tech.root: appxpkg
 ms.assetid: 10E9250E-7A64-4FB0-ACB9-10CB144A0FBE
-
 ms.date: 12/05/2018
 ms.keywords: CreatePackageWriter, CreatePackageWriter method [App packaging and management], CreatePackageWriter method [App packaging and management],IAppxFactory interface, IAppxFactory interface [App packaging and management],CreatePackageWriter method, IAppxFactory.CreatePackageWriter, IAppxFactory::CreatePackageWriter, appxpackaging/IAppxFactory::CreatePackageWriter, appxpkg.iappxfactory_createpackagewriter
 ms.topic: method
-f1_keywords: 
- - "appxpackaging/IAppxFactory.CreatePackageWriter"
+f1_keywords:
+- appxpackaging/IAppxFactory.CreatePackageWriter
 dev_langs:
- - c++
+- c++
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - AppxPackaging.h
+- AppxPackaging.h
 api_name:
- - IAppxFactory.CreatePackageWriter
+- IAppxFactory.CreatePackageWriter
 targetos: Windows
 req.typenames: 
 req.redist: 

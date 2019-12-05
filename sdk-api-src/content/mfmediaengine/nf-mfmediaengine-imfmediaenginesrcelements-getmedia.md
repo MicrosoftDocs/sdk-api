@@ -1,19 +1,17 @@
 ---
 UID: NF:mfmediaengine.IMFMediaEngineSrcElements.GetMedia
 title: IMFMediaEngineSrcElements::GetMedia (mfmediaengine.h)
-
 description: Gets the intended media type of an element in the list.
 old-location: mf\imfmediaenginesrcelements_getmedia.htm
 tech.root: medfound
 ms.assetid: AC99D8D0-ACA6-4FE9-A061-1D3A7D92E596
-
 ms.date: 12/05/2018
 ms.keywords: GetMedia, GetMedia method [Media Foundation], GetMedia method [Media Foundation],IMFMediaEngineSrcElements interface, IMFMediaEngineSrcElements interface [Media Foundation],GetMedia method, IMFMediaEngineSrcElements.GetMedia, IMFMediaEngineSrcElements::GetMedia, mf.imfmediaenginesrcelements_getmedia, mfmediaengine/IMFMediaEngineSrcElements::GetMedia
 ms.topic: method
-f1_keywords: 
- - "mfmediaengine/IMFMediaEngineSrcElements.GetMedia"
+f1_keywords:
+- mfmediaengine/IMFMediaEngineSrcElements.GetMedia
 dev_langs:
- - c++
+- c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfmediaengine.h
+- mfmediaengine.h
 api_name:
- - IMFMediaEngineSrcElements.GetMedia
+- IMFMediaEngineSrcElements.GetMedia
 targetos: Windows
 req.typenames: 
 req.redist: 

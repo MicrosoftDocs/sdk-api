@@ -1,19 +1,17 @@
 ---
 UID: NN:wtsprotocol.IWTSProtocolLogonErrorRedirector
 title: IWTSProtocolLogonErrorRedirector (wtsprotocol.h)
-
 description: IWTSProtocolLogonErrorRedirector is no longer available. Instead, use IWRdsProtocolLogonErrorRedirector.
 old-location: termserv\iwtsprotocollogonerrorredirector.htm
 tech.root: TermServ
 ms.assetid: 1ff30217-9091-47df-a38f-30784538f0b9
-
 ms.date: 12/05/2018
 ms.keywords: IWTSProtocolLogonErrorRedirector, IWTSProtocolLogonErrorRedirector interface [Remote Desktop Services], IWTSProtocolLogonErrorRedirector interface [Remote Desktop Services],described, termserv.iwtsprotocollogonerrorredirector, wtsprotocol/IWTSProtocolLogonErrorRedirector
 ms.topic: interface
-f1_keywords: 
- - "wtsprotocol/IWTSProtocolLogonErrorRedirector"
+f1_keywords:
+- wtsprotocol/IWTSProtocolLogonErrorRedirector
 dev_langs:
- - c++
+- c++
 req.header: wtsprotocol.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wtsprotocol.h
+- wtsprotocol.h
 api_name:
- - IWTSProtocolLogonErrorRedirector
+- IWTSProtocolLogonErrorRedirector
 targetos: Windows
 req.typenames: 
 req.redist: 

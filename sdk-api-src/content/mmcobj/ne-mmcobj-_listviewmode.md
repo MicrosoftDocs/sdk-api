@@ -1,19 +1,17 @@
 ---
 UID: NE:mmcobj.ListViewMode
 title: _ListViewMode (mmcobj.h)
-
 description: The ListViewMode enumeration is used by the View.ListViewMode property to define the list view.
 old-location: mmc\listviewmode.htm
 tech.root: mmc
 ms.assetid: 4f9bcc24-676b-4697-ae11-0d97a6ed4a71
-
 ms.date: 12/05/2018
-ms.keywords: "*PLISTVIEWMODE, LISTVIEWMODE, ListMode_Detail, ListMode_Filtered, ListMode_Large_Icons, ListMode_List, ListMode_Small_Icons, ListViewMode, ListViewMode enumeration [MMC], PLISTVIEWMODE, PLISTVIEWMODE enumeration pointer [MMC], PPLISTVIEWMODE, PPLISTVIEWMODE enumeration pointer [MMC], _ListViewMode, _ListViewMode enumeration [MMC], _slate_listviewmode, mmc.listviewmode, mmcobj/ListMode_Detail, mmcobj/ListMode_Filtered, mmcobj/ListMode_Large_Icons, mmcobj/ListMode_List, mmcobj/ListMode_Small_Icons, mmcobj/ListViewMode, mmcobj/PLISTVIEWMODE, mmcobj/PPLISTVIEWMODE"
+ms.keywords: '*PLISTVIEWMODE, LISTVIEWMODE, ListMode_Detail, ListMode_Filtered, ListMode_Large_Icons, ListMode_List, ListMode_Small_Icons, ListViewMode, ListViewMode enumeration [MMC], PLISTVIEWMODE, PLISTVIEWMODE enumeration pointer [MMC], PPLISTVIEWMODE, PPLISTVIEWMODE enumeration pointer [MMC], _ListViewMode, _ListViewMode enumeration [MMC], _slate_listviewmode, mmc.listviewmode, mmcobj/ListMode_Detail, mmcobj/ListMode_Filtered, mmcobj/ListMode_Large_Icons, mmcobj/ListMode_List, mmcobj/ListMode_Small_Icons, mmcobj/ListViewMode, mmcobj/PLISTVIEWMODE, mmcobj/PPLISTVIEWMODE'
 ms.topic: enum
-f1_keywords: 
- - "mmcobj/_ListViewMode"
+f1_keywords:
+- mmcobj/_ListViewMode
 dev_langs:
- - c++
+- c++
 req.header: mmcobj.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - MmcObj.h
+- MmcObj.h
 api_name:
- - _ListViewMode
+- _ListViewMode
 targetos: Windows
-req.typenames: "_ListViewMode, LISTVIEWMODE, *PLISTVIEWMODE"
+req.typenames: _ListViewMode, LISTVIEWMODE, *PLISTVIEWMODE
 req.redist: 
 ms.custom: 19H1
 ---

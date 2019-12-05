@@ -1,19 +1,17 @@
 ---
 UID: NF:fwpmu.FwpmConnectionGetById0
 title: FwpmConnectionGetById0 function (fwpmu.h)
-
 description: Retrieves a connection object.
 old-location: fwp\fwpmconnectiongetbyid0.htm
 tech.root: fwp
 ms.assetid: 630f513b-49c9-4d3a-a5e2-7ea6b940d333
-
 ms.date: 12/05/2018
 ms.keywords: FwpmConnectionGetById0, FwpmConnectionGetById0 function [Filtering], fwp.fwpmconnectiongetbyid0, fwpmu/FwpmConnectionGetById0
 ms.topic: function
-f1_keywords: 
- - "fwpmu/FwpmConnectionGetById0"
+f1_keywords:
+- fwpmu/FwpmConnectionGetById0
 dev_langs:
- - c++
+- c++
 req.header: fwpmu.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Fwpuclnt.lib
 req.dll: Fwpuclnt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Fwpuclnt.dll
+- Fwpuclnt.dll
 api_name:
- - FwpmConnectionGetById0
+- FwpmConnectionGetById0
 targetos: Windows
 req.typenames: 
 req.redist: 

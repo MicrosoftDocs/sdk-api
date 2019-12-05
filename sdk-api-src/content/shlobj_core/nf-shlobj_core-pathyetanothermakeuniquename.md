@@ -1,19 +1,17 @@
 ---
 UID: NF:shlobj_core.PathYetAnotherMakeUniqueName
 title: PathYetAnotherMakeUniqueName function (shlobj_core.h)
-
 description: Creates a unique filename based on an existing filename.
 old-location: shell\PathYetAnotherMakeUniqueName.htm
 tech.root: shell
 ms.assetid: 1f76ecfa-6f2f-4dde-b05e-4252c92660d9
-
 ms.date: 12/05/2018
 ms.keywords: PathYetAnotherMakeUniqueName, PathYetAnotherMakeUniqueName function [Windows Shell], _win32_PathYetAnotherMakeUniqueName, shell.PathYetAnotherMakeUniqueName, shlobj_core/PathYetAnotherMakeUniqueName
 ms.topic: function
-f1_keywords: 
- - "shlobj_core/PathYetAnotherMakeUniqueName"
+f1_keywords:
+- shlobj_core/PathYetAnotherMakeUniqueName
 dev_langs:
- - c++
+- c++
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Shell32.lib
 req.dll: Shell32.dll (version 5.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Shell32.dll
- - ext-ms-win-shell-shell32-l1-2-1.dll
- - Ext-MS-Win-Shell-Shell32-L1-2-2.dll
+- Shell32.dll
+- ext-ms-win-shell-shell32-l1-2-1.dll
+- Ext-MS-Win-Shell-Shell32-L1-2-2.dll
 api_name:
- - PathYetAnotherMakeUniqueName
+- PathYetAnotherMakeUniqueName
 targetos: Windows
 req.typenames: 
 req.redist: 

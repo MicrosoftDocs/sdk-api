@@ -1,19 +1,17 @@
 ---
 UID: NE:clusapi.CLUS_RESSUBCLASS
 title: CLUS_RESSUBCLASS (clusapi.h)
-
 description: Identifies a resource subclass that manages a shared resource.
 old-location: mscs\clus_ressubclass.htm
 tech.root: MsCS
 ms.assetid: 2e10a529-a12d-4259-a18a-be96471ab3a5
-
 ms.date: 12/05/2018
 ms.keywords: CLUS_RESSUBCLASS, CLUS_RESSUBCLASS enumeration [Failover Cluster], CLUS_RESSUBCLASS_SHARED, _CLUS_RESSUBCLASS, _CLUS_RESSUBCLASS enumeration [Failover Cluster], clusapi/CLUS_RESSUBCLASS, clusapi/CLUS_RESSUBCLASS_SHARED, clusapi/_CLUS_RESSUBCLASS, msclus/CLUS_RESSUBCLASS, msclus/CLUS_RESSUBCLASS_SHARED, msclus/_CLUS_RESSUBCLASS, mscs.clus_ressubclass
 ms.topic: enum
-f1_keywords: 
- - "clusapi/CLUS_RESSUBCLASS"
+f1_keywords:
+- clusapi/CLUS_RESSUBCLASS
 dev_langs:
- - c++
+- c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - ClusAPI.h
- - MsClus.h
+- ClusAPI.h
+- MsClus.h
 api_name:
- - CLUS_RESSUBCLASS
+- CLUS_RESSUBCLASS
 targetos: Windows
 req.typenames: CLUS_RESSUBCLASS
 req.redist: 

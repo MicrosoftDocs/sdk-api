@@ -1,19 +1,17 @@
 ---
 UID: NF:comsvcs.ISecurityCallersColl.get_Item
 title: ISecurityCallersColl::get_Item (comsvcs.h)
-
 description: Retrieves a specified caller in the security callers collection.
 old-location: cos\isecuritycallerscoll_get_item.htm
 tech.root: cossdk
 ms.assetid: 24473ebe-8d29-46cd-817d-48f24b03c405
-
 ms.date: 12/05/2018
 ms.keywords: ISecurityCallersColl interface [COM+],get_Item method, ISecurityCallersColl.get_Item, ISecurityCallersColl::get_Item, _cos_ISecurityCallersColl_get_Item, comsvcs/ISecurityCallersColl::get_Item, cos.isecuritycallerscoll_get_item, get_Item, get_Item method [COM+], get_Item method [COM+],ISecurityCallersColl interface
 ms.topic: method
-f1_keywords: 
- - "comsvcs/ISecurityCallersColl.get_Item"
+f1_keywords:
+- comsvcs/ISecurityCallersColl.get_Item
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - ISecurityCallersColl.get_Item
+- ISecurityCallersColl.get_Item
 targetos: Windows
 req.typenames: 
 req.redist: 

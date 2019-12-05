@@ -1,19 +1,17 @@
 ---
 UID: NF:cmnquery.IPersistQuery.Clear
 title: IPersistQuery::Clear (cmnquery.h)
-
 description: Empties the contents of the query store.
 old-location: ad\ipersistquery_clear.htm
 tech.root: ad
 ms.assetid: 1ce97afa-6d59-446c-9af2-595ec18db2b7
-
 ms.date: 12/05/2018
 ms.keywords: Clear, Clear method [Active Directory], Clear method [Active Directory],IPersistQuery interface, IPersistQuery interface [Active Directory],Clear method, IPersistQuery.Clear, IPersistQuery::Clear, _glines_ipersistquery_clear, ad.ipersistquery__clear, ad.ipersistquery_clear, cmnquery/IPersistQuery::Clear
 ms.topic: method
-f1_keywords: 
- - "cmnquery/IPersistQuery.Clear"
+f1_keywords:
+- cmnquery/IPersistQuery.Clear
 dev_langs:
- - c++
+- c++
 req.header: cmnquery.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Dsquery.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dsquery.dll
+- Dsquery.dll
 api_name:
- - IPersistQuery.Clear
+- IPersistQuery.Clear
 targetos: Windows
 req.typenames: 
 req.redist: 

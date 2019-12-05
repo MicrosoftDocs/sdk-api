@@ -1,19 +1,17 @@
 ---
 UID: NN:comsvcs.ITransactionStatus
 title: ITransactionStatus (comsvcs.h)
-
 description: Used to discover the status of the transaction that is completed by the call to CoLeaveServiceDomain when CServiceConfig is configured to use transactions in the call to CoEnterServiceDomain.
 old-location: cos\itransactionstatus.htm
 tech.root: cossdk
 ms.assetid: df5eba93-6db7-478c-b6d7-831c20398d66
-
 ms.date: 12/05/2018
 ms.keywords: ITransactionStatus, ITransactionStatus interface [COM+], ITransactionStatus interface [COM+],described, _cos_ITransactionStatus, comsvcs/ITransactionStatus, cos.itransactionstatus
 ms.topic: interface
-f1_keywords: 
- - "comsvcs/ITransactionStatus"
+f1_keywords:
+- comsvcs/ITransactionStatus
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - ITransactionStatus
+- ITransactionStatus
 targetos: Windows
 req.typenames: 
 req.redist: 

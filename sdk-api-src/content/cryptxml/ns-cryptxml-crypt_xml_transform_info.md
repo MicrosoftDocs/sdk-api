@@ -1,19 +1,17 @@
 ---
 UID: NS:cryptxml._CRYPT_XML_TRANSFORM_INFO
 title: CRYPT_XML_TRANSFORM_INFO (cryptxml.h)
-
 description: Contains information that is used when applying the data transform.
 old-location: security\crypt_xml_transform_info.htm
 tech.root: SecCrypto
 ms.assetid: 4821dc8f-11d4-4083-bb17-9d9637d99af5
-
 ms.date: 12/05/2018
-ms.keywords: "*PCRYPT_XML_TRANSFORM_INFO, CRYPT_XML_TRANSFORM_INFO, CRYPT_XML_TRANSFORM_INFO structure [Security], CRYPT_XML_TRANSFORM_ON_NODESET, CRYPT_XML_TRANSFORM_ON_STREAM, CRYPT_XML_TRANSFORM_URI_QUERY_STRING, PCRYPT_XML_TRANSFORM_INFO, PCRYPT_XML_TRANSFORM_INFO structure pointer [Security], cryptxml/CRYPT_XML_TRANSFORM_INFO, cryptxml/PCRYPT_XML_TRANSFORM_INFO, security.crypt_xml_transform_info"
+ms.keywords: '*PCRYPT_XML_TRANSFORM_INFO, CRYPT_XML_TRANSFORM_INFO, CRYPT_XML_TRANSFORM_INFO structure [Security], CRYPT_XML_TRANSFORM_ON_NODESET, CRYPT_XML_TRANSFORM_ON_STREAM, CRYPT_XML_TRANSFORM_URI_QUERY_STRING, PCRYPT_XML_TRANSFORM_INFO, PCRYPT_XML_TRANSFORM_INFO structure pointer [Security], cryptxml/CRYPT_XML_TRANSFORM_INFO, cryptxml/PCRYPT_XML_TRANSFORM_INFO, security.crypt_xml_transform_info'
 ms.topic: struct
-f1_keywords: 
- - "cryptxml/CRYPT_XML_TRANSFORM_INFO"
+f1_keywords:
+- cryptxml/CRYPT_XML_TRANSFORM_INFO
 dev_langs:
- - c++
+- c++
 req.header: cryptxml.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Cryptxml.h
+- Cryptxml.h
 api_name:
- - CRYPT_XML_TRANSFORM_INFO
+- CRYPT_XML_TRANSFORM_INFO
 targetos: Windows
 req.typenames: CRYPT_XML_TRANSFORM_INFO, *PCRYPT_XML_TRANSFORM_INFO
 req.redist: 

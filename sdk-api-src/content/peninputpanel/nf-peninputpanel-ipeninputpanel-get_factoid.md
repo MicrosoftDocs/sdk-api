@@ -1,19 +1,17 @@
 ---
 UID: NF:peninputpanel.IPenInputPanel.get_Factoid
 title: IPenInputPanel::get_Factoid (peninputpanel.h)
-
 description: Deprecated. The PenInputPanel has been replaced by the Text Input Panel (TIP).Gets or sets the string name of the factoid used by the PenInputPanel object.
 old-location: tablet\peninputpanel_factoid.htm
 tech.root: tablet
 ms.assetid: 1497502f-ce0e-4965-ab6a-af3c3ecdb0fe
-
 ms.date: 12/05/2018
 ms.keywords: 1497502f-ce0e-4965-ab6a-af3c3ecdb0fe, Factoid property [Tablet PC], Factoid property [Tablet PC],IPenInputPanel interface, IPenInputPanel interface [Tablet PC],Factoid property, IPenInputPanel.Factoid, IPenInputPanel.get_Factoid, IPenInputPanel::Factoid, IPenInputPanel::get_Factoid, IPenInputPanel::put_Factoid, PenInputPanel.get_Factoid, PenInputPanel.put_Factoid, get_Factoid, peninputpanel/IPenInputPanel::Factoid, peninputpanel/IPenInputPanel::get_Factoid, peninputpanel/IPenInputPanel::put_Factoid, put_Factoid, tablet.peninputpanel_factoid
 ms.topic: method
-f1_keywords: 
- - "peninputpanel/IPenInputPanel.Factoid"
+f1_keywords:
+- peninputpanel/IPenInputPanel.Factoid
 dev_langs:
- - c++
+- c++
 req.header: peninputpanel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,19 +30,19 @@ req.lib: InkObj.dll
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - InkObj.dll
- - InkObj.dll.dll
+- InkObj.dll
+- InkObj.dll.dll
 api_name:
- - IPenInputPanel.Factoid
- - IPenInputPanel.get_Factoid
- - IPenInputPanel.put_Factoid
- - PenInputPanel.get_Factoid
- - PenInputPanel.put_Factoid
+- IPenInputPanel.Factoid
+- IPenInputPanel.get_Factoid
+- IPenInputPanel.put_Factoid
+- PenInputPanel.get_Factoid
+- PenInputPanel.put_Factoid
 targetos: Windows
 req.typenames: 
 req.redist: 

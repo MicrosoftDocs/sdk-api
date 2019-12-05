@@ -1,19 +1,17 @@
 ---
 UID: NF:vds.IVdsIscsiInitiatorPortal.GetIpsecSecurity
 title: IVdsIscsiInitiatorPortal::GetIpsecSecurity (vds.h)
-
 description: Not supported.This method is reserved for future use.
 old-location: base\ivdsiscsiinitiatorportal_getipsecsecurity.htm
 tech.root: VDS
 ms.assetid: 755ff0fb-c61f-4427-b7dc-a91dd203fb64
-
 ms.date: 12/05/2018
 ms.keywords: GetIpsecSecurity, GetIpsecSecurity method [VDS], GetIpsecSecurity method [VDS],IVdsIscsiInitiatorPortal interface, IVdsIscsiInitiatorPortal interface [VDS],GetIpsecSecurity method, IVdsIscsiInitiatorPortal.GetIpsecSecurity, IVdsIscsiInitiatorPortal::GetIpsecSecurity, base.ivdsiscsiinitiatorportal_getipsecsecurity, vds/IVdsIscsiInitiatorPortal::GetIpsecSecurity
 ms.topic: method
-f1_keywords: 
- - "vds/IVdsIscsiInitiatorPortal.GetIpsecSecurity"
+f1_keywords:
+- vds/IVdsIscsiInitiatorPortal.GetIpsecSecurity
 dev_langs:
- - c++
+- c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Uuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Uuid.lib
- - Uuid.dll
+- Uuid.lib
+- Uuid.dll
 api_name:
- - IVdsIscsiInitiatorPortal.GetIpsecSecurity
+- IVdsIscsiInitiatorPortal.GetIpsecSecurity
 targetos: Windows
 req.typenames: 
 req.redist: VDS 1.1

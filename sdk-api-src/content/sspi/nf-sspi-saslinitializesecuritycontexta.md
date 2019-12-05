@@ -1,19 +1,17 @@
 ---
 UID: NF:sspi.SaslInitializeSecurityContextA
 title: SaslInitializeSecurityContextA function (sspi.h)
-
 description: Wraps a standard call to the Security Support Provider Interface InitializeSecurityContext (General) function and processes SASL server cookies from the server.
 old-location: security\saslinitializesecuritycontext.htm
 tech.root: SecAuthN
 ms.assetid: 9cc661b7-f1b0-4fb1-b799-5b318d87fd4d
-
 ms.date: 12/05/2018
 ms.keywords: ISC_REQ_CONFIDENTIALITY, ISC_REQ_CONNECTION, ISC_REQ_EXTENDED_ERROR, ISC_REQ_INTEGRITY, ISC_REQ_MUTUAL_AUTH, ISC_REQ_REPLAY_DETECT, ISC_REQ_SEQUENCE_DETECT, ISC_REQ_STREAM, SaslInitializeSecurityContext, SaslInitializeSecurityContext function [Security], SaslInitializeSecurityContextA, SaslInitializeSecurityContextW, security.saslinitializesecuritycontext, sspi/SaslInitializeSecurityContext, sspi/SaslInitializeSecurityContextA, sspi/SaslInitializeSecurityContextW
 ms.topic: function
 f1_keywords:
 - sspi/SaslInitializeSecurityContext
 dev_langs:
- - c++
+- c++
 req.header: sspi.h
 req.include-header: Security.h
 req.target-type: Windows

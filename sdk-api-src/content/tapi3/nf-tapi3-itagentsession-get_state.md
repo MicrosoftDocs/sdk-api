@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi3.ITAgentSession.get_State
 title: ITAgentSession::get_State (tapi3.h)
-
 description: The get_State method gets the current state of this session.
 old-location: tapi3\itagentsession_get_state.htm
 tech.root: Tapi
 ms.assetid: 85a389ee-2d6c-4607-873a-8ca0c16a0fac
-
 ms.date: 12/05/2018
 ms.keywords: ITAgentSession interface [TAPI 2.2],get_State method, ITAgentSession.get_State, ITAgentSession::get_State, _tapi3_itagentsession_get_state, get_State, get_State method [TAPI 2.2], get_State method [TAPI 2.2],ITAgentSession interface, tapi3.itagentsession_get_state, tapi3cc/ITAgentSession::get_State
 ms.topic: method
-f1_keywords: 
- - "tapi3/ITAgentSession.get_State"
+f1_keywords:
+- tapi3/ITAgentSession.get_State
 dev_langs:
- - c++
+- c++
 req.header: tapi3.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Tapi3.dll
+- Tapi3.dll
 api_name:
- - ITAgentSession.get_State
+- ITAgentSession.get_State
 targetos: Windows
 req.typenames: 
 req.redist: 

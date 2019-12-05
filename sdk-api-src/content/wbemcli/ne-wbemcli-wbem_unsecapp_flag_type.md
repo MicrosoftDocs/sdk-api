@@ -1,19 +1,17 @@
 ---
 UID: NE:wbemcli.tag_WBEM_UNSECAPP_FLAG_TYPE
 title: WBEM_UNSECAPP_FLAG_TYPE (wbemcli.h)
-
 description: Used to control access checks on callbacks when using the IWbemUnsecuredApartment::CreateSinkStub method.
 old-location: wmi\wbem_unsecapp_flag_type.htm
 tech.root: WmiSdk
 ms.assetid: DE009790-86D0-4030-AC28-F04DD6601261
-
 ms.date: 12/05/2018
 ms.keywords: WBEM_FLAG_UNSECAPP_CHECK_ACCESS, WBEM_FLAG_UNSECAPP_DEFAULT_CHECK_ACCESS, WBEM_FLAG_UNSECAPP_DONT_CHECK_ACCESS, WBEM_UNSECAPP_FLAG_TYPE, WBEM_UNSECAPP_FLAG_TYPE enumeration [Windows Management Instrumentation], wbemcli/WBEM_FLAG_UNSECAPP_CHECK_ACCESS, wbemcli/WBEM_FLAG_UNSECAPP_DEFAULT_CHECK_ACCESS, wbemcli/WBEM_FLAG_UNSECAPP_DONT_CHECK_ACCESS, wbemcli/WBEM_UNSECAPP_FLAG_TYPE, wmi.wbem_unsecapp_flag_type
 ms.topic: enum
-f1_keywords: 
- - "wbemcli/WBEM_UNSECAPP_FLAG_TYPE"
+f1_keywords:
+- wbemcli/WBEM_UNSECAPP_FLAG_TYPE
 dev_langs:
- - c++
+- c++
 req.header: wbemcli.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wbemcli.h
+- Wbemcli.h
 api_name:
- - WBEM_UNSECAPP_FLAG_TYPE
+- WBEM_UNSECAPP_FLAG_TYPE
 targetos: Windows
 req.typenames: WBEM_UNSECAPP_FLAG_TYPE
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:eventsys.IEventControl.GetSubscriptions
 title: IEventControl::GetSubscriptions (eventsys.h)
-
 description: Retrieves the collection of subscriptions associated with an event method.
 old-location: cos\ieventcontrol_getsubscriptions.htm
 tech.root: cossdk
 ms.assetid: ba39305d-8dc3-40fe-b6f6-d5c22f54a180
-
 ms.date: 12/05/2018
 ms.keywords: GetSubscriptions, GetSubscriptions method [COM+], GetSubscriptions method [COM+],IEventControl interface, IEventControl interface [COM+],GetSubscriptions method, IEventControl.GetSubscriptions, IEventControl::GetSubscriptions, _cos_IEventControl_GetSubscriptions, cos.ieventcontrol_getsubscriptions, eventsys/IEventControl::GetSubscriptions
 ms.topic: method
-f1_keywords: 
- - "eventsys/IEventControl.GetSubscriptions"
+f1_keywords:
+- eventsys/IEventControl.GetSubscriptions
 dev_langs:
- - c++
+- c++
 req.header: eventsys.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Eventsys.h
+- Eventsys.h
 api_name:
- - IEventControl.GetSubscriptions
+- IEventControl.GetSubscriptions
 targetos: Windows
 req.typenames: 
 req.redist: 

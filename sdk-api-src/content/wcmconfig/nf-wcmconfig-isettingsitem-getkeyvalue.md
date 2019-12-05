@@ -1,19 +1,17 @@
 ---
 UID: NF:wcmconfig.ISettingsItem.GetKeyValue
 title: ISettingsItem::GetKeyValue (wcmconfig.h)
-
 description: Extracts key values for any list that already exists in the image, for example, DNS, http settings, and user account information.
 old-location: smi\isettingsitem_getkeyvalue.htm
 tech.root: SMI
 ms.assetid: a627d0aa-05ef-43b6-a8e8-bb0770dd8873
-
 ms.date: 12/05/2018
 ms.keywords: GetKeyValue, GetKeyValue method [SMI], GetKeyValue method [SMI],ISettingsItem interface, ISettingsItem interface [SMI],GetKeyValue method, ISettingsItem.GetKeyValue, ISettingsItem::GetKeyValue, smi.isettingsitem_getkeyvalue, wcmconfig/ISettingsItem::GetKeyValue
 ms.topic: method
-f1_keywords: 
- - "wcmconfig/ISettingsItem.GetKeyValue"
+f1_keywords:
+- wcmconfig/ISettingsItem.GetKeyValue
 dev_langs:
- - c++
+- c++
 req.header: wcmconfig.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: SMIEngine.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - SMIEngine.dll
+- SMIEngine.dll
 api_name:
- - ISettingsItem.GetKeyValue
+- ISettingsItem.GetKeyValue
 targetos: Windows
 req.typenames: 
 req.redist: 

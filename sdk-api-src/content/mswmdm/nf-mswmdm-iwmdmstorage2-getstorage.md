@@ -1,19 +1,17 @@
 ---
 UID: NF:mswmdm.IWMDMStorage2.GetStorage
 title: IWMDMStorage2::GetStorage (mswmdm.h)
-
 description: The GetStorage method retrieves a child storage by name directly from the current storage without having to enumerate through all the children.
 old-location: wmdm\iwmdmstorage2_getstorage.htm
 tech.root: WMDM
 ms.assetid: be7b3da1-583b-4bad-8e35-19f309242744
-
 ms.date: 12/05/2018
 ms.keywords: GetStorage, GetStorage method [windows Media Device Manager], GetStorage method [windows Media Device Manager],IWMDMStorage2 interface, IWMDMStorage2 interface [windows Media Device Manager],GetStorage method, IWMDMStorage2.GetStorage, IWMDMStorage2::GetStorage, IWMDMStorage2GetStorage, mswmdm/IWMDMStorage2::GetStorage, wmdm.iwmdmstorage2_getstorage
 ms.topic: method
-f1_keywords: 
- - "mswmdm/IWMDMStorage2.GetStorage"
+f1_keywords:
+- mswmdm/IWMDMStorage2.GetStorage
 dev_langs:
- - c++
+- c++
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mssachlp.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mssachlp.lib
- - mssachlp.dll
+- mssachlp.lib
+- mssachlp.dll
 api_name:
- - IWMDMStorage2.GetStorage
+- IWMDMStorage2.GetStorage
 targetos: Windows
 req.typenames: 
 req.redist: 

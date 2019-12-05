@@ -1,19 +1,17 @@
 ---
 UID: NF:wingdi.GetBValue
 title: GetBValue macro (wingdi.h)
-
 description: The GetBValue macro retrieves an intensity value for the blue component of a red, green, blue (RGB) value.
 old-location: gdi\getbvalue.htm
 tech.root: gdi
 ms.assetid: 97e2644c-5298-4dea-b35a-fc0e2c74f9c8
-
 ms.date: 12/05/2018
 ms.keywords: GetBValue, GetBValue macro [Windows GDI], _win32_GetBValue, gdi.getbvalue, wingdi/GetBValue
 ms.topic: macro
-f1_keywords: 
- - "wingdi/GetBValue"
+f1_keywords:
+- wingdi/GetBValue
 dev_langs:
- - c++
+- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wingdi.h
+- Wingdi.h
 api_name:
- - GetBValue
+- GetBValue
 targetos: Windows
 req.typenames: 
 req.redist: 

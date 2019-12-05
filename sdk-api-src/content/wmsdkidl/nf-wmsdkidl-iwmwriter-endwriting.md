@@ -1,19 +1,17 @@
 ---
 UID: NF:wmsdkidl.IWMWriter.EndWriting
 title: IWMWriter::EndWriting (wmsdkidl.h)
-
 description: The EndWriting method performs tasks required at the end of a writing session.
 old-location: wmformat\iwmwriter_endwriting.htm
 tech.root: wmformat
 ms.assetid: 020e2c9d-9581-48c9-bc7b-a0e9e5a60c63
-
 ms.date: 12/05/2018
 ms.keywords: EndWriting, EndWriting method [windows Media Format], EndWriting method [windows Media Format],IWMWriter interface, IWMWriter interface [windows Media Format],EndWriting method, IWMWriter.EndWriting, IWMWriter::EndWriting, IWMWriterEndWriting, wmformat.iwmwriter_endwriting, wmsdkidl/IWMWriter::EndWriting
 ms.topic: method
-f1_keywords: 
- - "wmsdkidl/IWMWriter.EndWriting"
+f1_keywords:
+- wmsdkidl/IWMWriter.EndWriting
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wmvcore.lib
- - Wmvcore.dll
- - WMStubDRM.lib
- - WMStubDRM.dll
+- Wmvcore.lib
+- Wmvcore.dll
+- WMStubDRM.lib
+- WMStubDRM.dll
 api_name:
- - IWMWriter.EndWriting
+- IWMWriter.EndWriting
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:bdatif.IGuideDataProperty.get_Value
 title: IGuideDataProperty::get_Value (bdatif.h)
-
 description: The get_Value method retrieves the value associated with the property.
 old-location: mstv\iguidedataproperty_get_value.htm
 tech.root: mstv
 ms.assetid: 3a6014aa-a8a2-4436-b7a3-d083f2f0fa98
-
 ms.date: 12/05/2018
 ms.keywords: IGuideDataProperty interface [Microsoft TV Technologies],get_Value method, IGuideDataProperty.get_Value, IGuideDataProperty::get_Value, IGuideDataPropertyget_Value, bdatif/IGuideDataProperty::get_Value, get_Value, get_Value method [Microsoft TV Technologies], get_Value method [Microsoft TV Technologies],IGuideDataProperty interface, mstv.iguidedataproperty_get_value
 ms.topic: method
-f1_keywords: 
- - "bdatif/IGuideDataProperty.get_Value"
+f1_keywords:
+- bdatif/IGuideDataProperty.get_Value
 dev_langs:
- - c++
+- c++
 req.header: bdatif.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - bdatif.h
+- bdatif.h
 api_name:
- - IGuideDataProperty.get_Value
+- IGuideDataProperty.get_Value
 targetos: Windows
 req.typenames: 
 req.redist: 

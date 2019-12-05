@@ -1,19 +1,17 @@
 ---
 UID: NF:bits.IBackgroundCopyJob.EnumFiles
 title: IBackgroundCopyJob::EnumFiles (bits.h)
-
 description: Retrieves an IEnumBackgroundCopyFiles interface pointer that you use to enumerate the files in a job.
 old-location: bits\ibackgroundcopyjob_enumfiles.htm
 tech.root: Bits
 ms.assetid: c6b8ef69-9c67-447f-9f90-b6905a5a5a19
-
 ms.date: 12/05/2018
 ms.keywords: EnumFiles, EnumFiles method [BITS], EnumFiles method [BITS],IBackgroundCopyJob interface, IBackgroundCopyJob interface [BITS],EnumFiles method, IBackgroundCopyJob.EnumFiles, IBackgroundCopyJob::EnumFiles, _drz_ibackgroundcopyjob_enumfiles, bits.ibackgroundcopyjob_enumfiles, bits/IBackgroundCopyJob::EnumFiles
 ms.topic: method
-f1_keywords: 
- - "bits/IBackgroundCopyJob.EnumFiles"
+f1_keywords:
+- bits/IBackgroundCopyJob.EnumFiles
 dev_langs:
- - c++
+- c++
 req.header: bits.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Bits.lib
 req.dll: QmgrPrxy.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - QmgrPrxy.dll
+- QmgrPrxy.dll
 api_name:
- - IBackgroundCopyJob.EnumFiles
+- IBackgroundCopyJob.EnumFiles
 targetos: Windows
 req.typenames: 
 req.redist: 

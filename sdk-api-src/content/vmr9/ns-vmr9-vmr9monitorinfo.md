@@ -1,19 +1,17 @@
 ---
 UID: NS:vmr9._VMR9MonitorInfo
 title: VMR9MonitorInfo (vmr9.h)
-
 description: The VMR9MonitorInfo structure is used with the VMR-9 in the IVMRMonitorConfig9::GetAvailableMonitors method to set and retrieve information about monitors on the system.
 old-location: dshow\vmr9monitorinfo.htm
 tech.root: DirectShow
 ms.assetid: cb7d5c27-8762-450e-ba47-2a46e3106472
-
 ms.date: 12/05/2018
 ms.keywords: VMR9MonitorInfo, VMR9MonitorInfo structure [DirectShow], VMR9MonitorInfoStructure, dshow.vmr9monitorinfo, vmr9/VMR9MonitorInfo
 ms.topic: struct
-f1_keywords: 
- - "vmr9/VMR9MonitorInfo"
+f1_keywords:
+- vmr9/VMR9MonitorInfo
 dev_langs:
- - c++
+- c++
 req.header: vmr9.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Vmr9.h
+- Vmr9.h
 api_name:
- - VMR9MonitorInfo
+- VMR9MonitorInfo
 targetos: Windows
 req.typenames: VMR9MonitorInfo
 req.redist: 

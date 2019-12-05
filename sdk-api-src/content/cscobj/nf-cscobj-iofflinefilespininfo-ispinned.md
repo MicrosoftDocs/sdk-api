@@ -1,19 +1,17 @@
 ---
 UID: NF:cscobj.IOfflineFilesPinInfo.IsPinned
 title: IOfflineFilesPinInfo::IsPinned (cscobj.h)
-
 description: Determines whether the item is pinned.
 old-location: of\iofflinefilespininfo_ispinned.htm
 tech.root: offlinefiles
 ms.assetid: 143cf346-dbe0-42cf-871e-a0cb54722403
-
 ms.date: 12/05/2018
 ms.keywords: IOfflineFilesPinInfo interface [Offline Files],IsPinned method, IOfflineFilesPinInfo.IsPinned, IOfflineFilesPinInfo::IsPinned, IsPinned, IsPinned method [Offline Files], IsPinned method [Offline Files],IOfflineFilesPinInfo interface, cscobj/IOfflineFilesPinInfo::IsPinned, of.iofflinefilespininfo_ispinned
 ms.topic: method
-f1_keywords: 
- - "cscobj/IOfflineFilesPinInfo.IsPinned"
+f1_keywords:
+- cscobj/IOfflineFilesPinInfo.IsPinned
 dev_langs:
- - c++
+- c++
 req.header: cscobj.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: CscSvc.dll; CscObj.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CscSvc.dll
- - CscObj.dll
+- CscSvc.dll
+- CscObj.dll
 api_name:
- - IOfflineFilesPinInfo.IsPinned
+- IOfflineFilesPinInfo.IsPinned
 targetos: Windows
 req.typenames: 
 req.redist: 

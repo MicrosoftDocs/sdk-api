@@ -1,19 +1,17 @@
 ---
 UID: NF:rpcndr.NdrAsyncServerCall
 title: NdrAsyncServerCall function (rpcndr.h)
-
 description: NdrAsyncServerCall is not intended to be directly called by applications.
 old-location: rpc\ndrasyncservercall.htm
 tech.root: Rpc
 ms.assetid: 5AA8EFA3-E7A7-44F5-9FC8-7CA86D94746A
-
 ms.date: 12/05/2018
 ms.keywords: NdrAsyncServerCall, NdrAsyncServerCall function [RPC], rpc.ndrasyncservercall, rpcndr/NdrAsyncServerCall
 ms.topic: function
-f1_keywords: 
- - "rpcndr/NdrAsyncServerCall"
+f1_keywords:
+- rpcndr/NdrAsyncServerCall
 dev_langs:
- - c++
+- c++
 req.header: rpcndr.h
 req.include-header: Rpc.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: RpcRT4.lib
 req.dll: RpcRT4.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - RpcRT4.dll
+- RpcRT4.dll
 api_name:
- - NdrAsyncServerCall
+- NdrAsyncServerCall
 targetos: Windows
 req.typenames: 
 req.redist: 

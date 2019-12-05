@@ -1,19 +1,17 @@
 ---
 UID: NF:dxgidebug.IDXGIInfoQueue.PushStorageFilter
 title: IDXGIInfoQueue::PushStorageFilter (dxgidebug.h)
-
 description: Pushes a storage filter onto the storage-filter stack.
 old-location: direct3ddxgi\idxgiinfoqueue_pushstoragefilter.htm
 tech.root: direct3ddxgi
 ms.assetid: D90738A8-2C9F-4955-9A96-762C650F3B00
-
 ms.date: 12/05/2018
 ms.keywords: IDXGIInfoQueue interface [DXGI],PushStorageFilter method, IDXGIInfoQueue.PushStorageFilter, IDXGIInfoQueue::PushStorageFilter, PushStorageFilter, PushStorageFilter method [DXGI], PushStorageFilter method [DXGI],IDXGIInfoQueue interface, direct3ddxgi.idxgiinfoqueue_pushstoragefilter, dxgidebug/IDXGIInfoQueue::PushStorageFilter
 ms.topic: method
-f1_keywords: 
- - "dxgidebug/IDXGIInfoQueue.PushStorageFilter"
+f1_keywords:
+- dxgidebug/IDXGIInfoQueue.PushStorageFilter
 dev_langs:
- - c++
+- c++
 req.header: dxgidebug.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: DXGIDebug.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - DXGIDebug.dll
+- DXGIDebug.dll
 api_name:
- - IDXGIInfoQueue.PushStorageFilter
+- IDXGIInfoQueue.PushStorageFilter
 targetos: Windows
 req.typenames: 
 req.redist: 

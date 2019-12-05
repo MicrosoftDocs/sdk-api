@@ -1,19 +1,17 @@
 ---
 UID: NF:ktmw32.CommitEnlistment
 title: CommitEnlistment function (ktmw32.h)
-
 description: Commits the transaction associated with this enlistment handle. This function is used by communication resource managers (sometimes called superior transaction managers).
 old-location: fs\commitenlistment.htm
 tech.root: ktm
 ms.assetid: d1e1043d-2db3-4f05-affc-2d32744baf10
-
 ms.date: 12/05/2018
 ms.keywords: CommitEnlistment, CommitEnlistment function [Files], fs.commitenlistment, ktmw32/CommitEnlistment
 ms.topic: function
-f1_keywords: 
- - "ktmw32/CommitEnlistment"
+f1_keywords:
+- ktmw32/CommitEnlistment
 dev_langs:
- - c++
+- c++
 req.header: ktmw32.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: KtmW32.lib
 req.dll: KtmW32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - KtmW32.dll
+- KtmW32.dll
 api_name:
- - CommitEnlistment
+- CommitEnlistment
 targetos: Windows
 req.typenames: 
 req.redist: 

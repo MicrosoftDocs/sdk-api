@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationcoreapi.TextRange_RemoveFromSelection
 title: TextRange_RemoveFromSelection function (uiautomationcoreapi.h)
-
 description: Removes the selected text, corresponding to the calling text range TextPatternRangeEndpoint_Start and TextPatternRangeEndpoint_End endpoints, from an existing collection of selected text in a text container that supports multiple, disjoint selections.
 old-location: winauto\uiauto_TextRange_RemoveFromSelectionConPat.htm
 tech.root: WinAuto
 ms.assetid: c8de1889-82e8-4147-9c71-f77bf05c72a0
-
 ms.date: 12/05/2018
 ms.keywords: TextRange_RemoveFromSelection, TextRange_RemoveFromSelection function [Windows Accessibility], uiauto.uiauto_TextRange_RemoveFromSelectionConPat, uiauto_TextRange_RemoveFromSelectionConPat, uiautomationcoreapi/TextRange_RemoveFromSelection, winauto.uiauto_TextRange_RemoveFromSelectionConPat
 ms.topic: function
-f1_keywords: 
- - "uiautomationcoreapi/TextRange_RemoveFromSelection"
+f1_keywords:
+- uiautomationcoreapi/TextRange_RemoveFromSelection
 dev_langs:
- - c++
+- c++
 req.header: uiautomationcoreapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uiautomationcore.lib
 req.dll: Uiautomationcore.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Uiautomationcore.dll
+- Uiautomationcore.dll
 api_name:
- - TextRange_RemoveFromSelection
+- TextRange_RemoveFromSelection
 targetos: Windows
 req.typenames: 
 req.redist: 

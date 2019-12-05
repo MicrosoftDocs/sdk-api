@@ -1,19 +1,17 @@
 ---
 UID: NF:winuser.PrivateExtractIconsA
 title: PrivateExtractIconsA function (winuser.h)
-
 description: Creates an array of handles to icons that are extracted from a specified file.
 old-location: menurc\privateextracticons.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\icons\iconreference\iconfunctions\privateextracticons.htm
-
 ms.date: 12/05/2018
 ms.keywords: PrivateExtractIcons, PrivateExtractIcons function [Menus and Other Resources], PrivateExtractIconsA, PrivateExtractIconsW, _win32_PrivateExtractIcons, _win32_privateextracticons_cpp, menurc.privateextracticons, winui._win32_privateextracticons, winuser/PrivateExtractIcons, winuser/PrivateExtractIconsA, winuser/PrivateExtractIconsW
 ms.topic: function
-f1_keywords: 
- - "winuser/PrivateExtractIcons"
+f1_keywords:
+- winuser/PrivateExtractIcons
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - User32.dll
- - Ext-MS-Win-NTUser-Misc-L1-5-1.dll
+- User32.dll
+- Ext-MS-Win-NTUser-Misc-L1-5-1.dll
 api_name:
- - PrivateExtractIcons
- - PrivateExtractIconsA
- - PrivateExtractIconsW
+- PrivateExtractIcons
+- PrivateExtractIconsA
+- PrivateExtractIconsW
 targetos: Windows
 req.typenames: 
 req.redist: 

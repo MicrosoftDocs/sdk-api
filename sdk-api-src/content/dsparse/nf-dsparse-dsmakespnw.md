@@ -1,19 +1,17 @@
 ---
 UID: NF:dsparse.DsMakeSpnW
 title: DsMakeSpnW function (dsparse.h)
-
 description: Constructs a service principal name (SPN) that identifies a service instance.
 old-location: ad\dsmakespn.htm
 tech.root: ad
 ms.assetid: fca3c59c-bb81-42a0-acd3-2e55c902febe
-
 ms.date: 12/05/2018
 ms.keywords: DsMakeSpn, DsMakeSpn function [Active Directory], DsMakeSpnA, DsMakeSpnW, _glines_dsmakespn, ad.dsmakespn, dsparse/DsMakeSpn, dsparse/DsMakeSpnA, dsparse/DsMakeSpnW
 ms.topic: function
-f1_keywords: 
- - "dsparse/DsMakeSpn"
+f1_keywords:
+- dsparse/DsMakeSpn
 dev_langs:
- - c++
+- c++
 req.header: dsparse.h
 req.include-header: Ntdsapi.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Ntdsapi.lib
 req.dll: Ntdsapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ntdsapi.dll
+- Ntdsapi.dll
 api_name:
- - DsMakeSpn
- - DsMakeSpnA
- - DsMakeSpnW
+- DsMakeSpn
+- DsMakeSpnA
+- DsMakeSpnW
 targetos: Windows
 req.typenames: 
 req.redist: 

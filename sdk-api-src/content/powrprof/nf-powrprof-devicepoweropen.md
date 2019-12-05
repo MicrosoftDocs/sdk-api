@@ -1,19 +1,17 @@
 ---
 UID: NF:powrprof.DevicePowerOpen
 title: DevicePowerOpen function (powrprof.h)
-
 description: Initializes a device list by querying all the devices.
 old-location: base\devicepoweropen.htm
 tech.root: power
 ms.assetid: 1f0e8ee6-cd9e-468a-ba9a-f11e17852f89
-
 ms.date: 12/05/2018
 ms.keywords: DevicePowerOpen, DevicePowerOpen function, base.devicepoweropen, powrprof/DevicePowerOpen
 ms.topic: function
-f1_keywords: 
- - "powrprof/DevicePowerOpen"
+f1_keywords:
+- powrprof/DevicePowerOpen
 dev_langs:
- - c++
+- c++
 req.header: powrprof.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: PowrProf.lib
 req.dll: PowrProf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - PowrProf.dll
+- PowrProf.dll
 api_name:
- - DevicePowerOpen
+- DevicePowerOpen
 targetos: Windows
 req.typenames: 
 req.redist: 

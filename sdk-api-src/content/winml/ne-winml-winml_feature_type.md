@@ -1,19 +1,17 @@
 ---
 UID: NE:winml.WINML_FEATURE_TYPE
 title: WINML_FEATURE_TYPE (winml.h)
-
 description: Specifies the different types of WinML features.
 old-location: machinelearning\winml_feature_type.htm
 tech.root: MachineLearning
 ms.assetid: 179DD392-15B6-4BDE-8BD3-91256951DCD3
-
 ms.date: 12/05/2018
 ms.keywords: MachineLearning.winml_feature_type, WINML_FEATURE_TYPE, WINML_FEATURE_TYPE enumeration, WINML_TENSOR_IMAGE, WINML_TENSOR_MAP, WINML_TENSOR_SEQUENCE, WINML_TENSOR_TENSOR, WINML_TENSOR_UNDEFINED, winml/WINML_FEATURE_TYPE, winml/WINML_TENSOR_IMAGE, winml/WINML_TENSOR_MAP, winml/WINML_TENSOR_SEQUENCE, winml/WINML_TENSOR_TENSOR, winml/WINML_TENSOR_UNDEFINED
 ms.topic: enum
-f1_keywords: 
- - "winml/WINML_FEATURE_TYPE"
+f1_keywords:
+- winml/WINML_FEATURE_TYPE
 dev_langs:
- - c++
+- c++
 req.header: winml.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - winml.h
+- winml.h
 api_name:
- - WINML_FEATURE_TYPE
+- WINML_FEATURE_TYPE
 targetos: Windows
 req.typenames: WINML_FEATURE_TYPE
 req.redist: 

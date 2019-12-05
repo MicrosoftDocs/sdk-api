@@ -1,19 +1,17 @@
 ---
 UID: NF:spatialinteractionmanagerinterop.ISpatialInteractionManagerInterop.GetForWindow
 title: ISpatialInteractionManagerInterop::GetForWindow (spatialinteractionmanagerinterop.h)
-
 description: Retrieves a SpatialInteractionManager object bound to the active application.
 old-location: mixedreality\ispatialinteractionmanager_getforwindow.htm
 tech.root: MixedReality
 ms.assetid: 5D11BF4D-2EE3-40A3-A1EE-202DD5B904FE
-
 ms.date: 01/25/2019
 ms.keywords: GetForWindow, GetForWindow method, GetForWindow method,ISpatialInteractionManagerInterop interface, ISpatialInteractionManagerInterop interface,GetForWindow method, ISpatialInteractionManagerInterop.GetForWindow, ISpatialInteractionManagerInterop::GetForWindow, MixedReality.ispatialinteractionmanager_getforwindow, spatialinteractionmanagerinterop/ISpatialInteractionManagerInterop::GetForWindow
 ms.topic: method
-f1_keywords: 
- - "spatialinteractionmanagerinterop/ISpatialInteractionManagerInterop.GetForWindow"
+f1_keywords:
+- spatialinteractionmanagerinterop/ISpatialInteractionManagerInterop.GetForWindow
 dev_langs:
- - c++
+- c++
 req.header: spatialinteractionmanagerinterop.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - SpatialInteractionManagerInterop.h
+- SpatialInteractionManagerInterop.h
 api_name:
- - ISpatialInteractionManagerInterop.GetForWindow
+- ISpatialInteractionManagerInterop.GetForWindow
 targetos: Windows
 req.typenames: 
 req.redist: 

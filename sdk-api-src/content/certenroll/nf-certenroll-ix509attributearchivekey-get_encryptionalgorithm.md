@@ -1,19 +1,17 @@
 ---
 UID: NF:certenroll.IX509AttributeArchiveKey.get_EncryptionAlgorithm
 title: IX509AttributeArchiveKey::get_EncryptionAlgorithm (certenroll.h)
-
 description: Retrieves the object identifier (OID) of the symmetric encryption algorithm used to encrypt the private key.
 old-location: security\ix509attributearchivekey_encryptionalgorithm_property.htm
 tech.root: seccertenroll
 ms.assetid: 7aef6c1e-c3f1-4124-b397-bf13ca610135
-
 ms.date: 12/05/2018
 ms.keywords: EncryptionAlgorithm property [Security], EncryptionAlgorithm property [Security],IX509AttributeArchiveKey interface, IX509AttributeArchiveKey interface [Security],EncryptionAlgorithm property, IX509AttributeArchiveKey.EncryptionAlgorithm, IX509AttributeArchiveKey.get_EncryptionAlgorithm, IX509AttributeArchiveKey::EncryptionAlgorithm, IX509AttributeArchiveKey::get_EncryptionAlgorithm, certenroll/IX509AttributeArchiveKey::EncryptionAlgorithm, certenroll/IX509AttributeArchiveKey::get_EncryptionAlgorithm, get_EncryptionAlgorithm, security.ix509attributearchivekey_encryptionalgorithm_property
 ms.topic: method
-f1_keywords: 
- - "certenroll/IX509AttributeArchiveKey.EncryptionAlgorithm"
+f1_keywords:
+- certenroll/IX509AttributeArchiveKey.EncryptionAlgorithm
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: CertEnroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CertEnroll.dll
+- CertEnroll.dll
 api_name:
- - IX509AttributeArchiveKey.EncryptionAlgorithm
- - IX509AttributeArchiveKey.get_EncryptionAlgorithm
+- IX509AttributeArchiveKey.EncryptionAlgorithm
+- IX509AttributeArchiveKey.get_EncryptionAlgorithm
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:wsbapp.IWsbApplicationRestoreSupport.PreRestore
 title: IWsbApplicationRestoreSupport::PreRestore (wsbapp.h)
-
 description: Performs application-specific PreRestore operations.
 old-location: wsb\iwsbapplicationrestoresupport_prerestore.htm
 tech.root: wsb
 ms.assetid: 2e1b73f9-a931-42a2-a1b1-f939f492c449
-
 ms.date: 12/05/2018
 ms.keywords: IWsbApplicationRestoreSupport interface [Windows Server Backup],PreRestore method, IWsbApplicationRestoreSupport.PreRestore, IWsbApplicationRestoreSupport::PreRestore, PreRestore, PreRestore method [Windows Server Backup], PreRestore method [Windows Server Backup],IWsbApplicationRestoreSupport interface, wsb.iwsbapplicationrestoresupport_prerestore, wsbapp/IWsbApplicationRestoreSupport::PreRestore
 ms.topic: method
-f1_keywords: 
- - "wsbapp/IWsbApplicationRestoreSupport.PreRestore"
+f1_keywords:
+- wsbapp/IWsbApplicationRestoreSupport.PreRestore
 dev_langs:
- - c++
+- c++
 req.header: wsbapp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - WsbApp.h
+- WsbApp.h
 api_name:
- - IWsbApplicationRestoreSupport.PreRestore
+- IWsbApplicationRestoreSupport.PreRestore
 targetos: Windows
 req.typenames: 
 req.redist: 

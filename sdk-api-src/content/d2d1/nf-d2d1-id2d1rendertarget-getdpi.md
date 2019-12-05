@@ -1,19 +1,17 @@
 ---
 UID: NF:d2d1.ID2D1RenderTarget.GetDpi
 title: ID2D1RenderTarget::GetDpi (d2d1.h)
-
 description: Return the render target's dots per inch (DPI).
 old-location: direct2d\ID2D1RenderTarget_GetDpi.htm
 tech.root: Direct2D
 ms.assetid: 72a25b78-96fd-42bf-9e71-6bb80efea0ac
-
 ms.date: 12/05/2018
 ms.keywords: GetDpi, GetDpi method [Direct2D], GetDpi method [Direct2D],ID2D1RenderTarget interface, ID2D1RenderTarget interface [Direct2D],GetDpi method, ID2D1RenderTarget.GetDpi, ID2D1RenderTarget::GetDpi, d2d1/ID2D1RenderTarget::GetDpi, direct2d.ID2D1RenderTarget_GetDpi
 ms.topic: method
-f1_keywords: 
- - "d2d1/ID2D1RenderTarget.GetDpi"
+f1_keywords:
+- d2d1/ID2D1RenderTarget.GetDpi
 dev_langs:
- - c++
+- c++
 req.header: d2d1.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: D2d1.lib
 req.dll: D2d1.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D2d1.dll
+- D2d1.dll
 api_name:
- - ID2D1RenderTarget.GetDpi
+- ID2D1RenderTarget.GetDpi
 targetos: Windows
 req.typenames: 
 req.redist: 

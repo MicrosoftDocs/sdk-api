@@ -1,19 +1,17 @@
 ---
 UID: NF:wtsapi32.WTSEnableChildSessions
 title: WTSEnableChildSessions function (wtsapi32.h)
-
 description: Enables or disables Child Sessions.
 old-location: termserv\wtsenablechildsessions.htm
 tech.root: TermServ
 ms.assetid: BA995C04-9004-4A41-8E4A-8701E8C64F2E
-
 ms.date: 12/05/2018
 ms.keywords: WTSEnableChildSessions, WTSEnableChildSessions function [Remote Desktop Services], termserv.wtsenablechildsessions, wtsapi32/WTSEnableChildSessions
 ms.topic: function
-f1_keywords: 
- - "wtsapi32/WTSEnableChildSessions"
+f1_keywords:
+- wtsapi32/WTSEnableChildSessions
 dev_langs:
- - c++
+- c++
 req.header: wtsapi32.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Wtsapi32.lib
 req.dll: Wtsapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Wtsapi32.dll
+- Wtsapi32.dll
 api_name:
- - WTSEnableChildSessions
+- WTSEnableChildSessions
 targetos: Windows
 req.typenames: 
 req.redist: 

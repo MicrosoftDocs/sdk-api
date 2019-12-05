@@ -1,19 +1,17 @@
 ---
 UID: NF:amvideo.IDirectDrawVideo.UseOverlayStretch
 title: IDirectDrawVideo::UseOverlayStretch (amvideo.h)
-
 description: The UseOverlayStretch method determines whether the renderer should check overlay stretch limitations.
 old-location: dshow\idirectdrawvideo_useoverlaystretch.htm
 tech.root: DirectShow
 ms.assetid: e617b40d-ba5b-4fc8-825e-3c751f72bc2c
-
 ms.date: 12/05/2018
 ms.keywords: IDirectDrawVideo interface [DirectShow],UseOverlayStretch method, IDirectDrawVideo.UseOverlayStretch, IDirectDrawVideo::UseOverlayStretch, IDirectDrawVideoUseOverlayStretch, UseOverlayStretch, UseOverlayStretch method [DirectShow], UseOverlayStretch method [DirectShow],IDirectDrawVideo interface, amvideo/IDirectDrawVideo::UseOverlayStretch, dshow.idirectdrawvideo_useoverlaystretch
 ms.topic: method
-f1_keywords: 
- - "amvideo/IDirectDrawVideo.UseOverlayStretch"
+f1_keywords:
+- amvideo/IDirectDrawVideo.UseOverlayStretch
 dev_langs:
- - c++
+- c++
 req.header: amvideo.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IDirectDrawVideo.UseOverlayStretch
+- IDirectDrawVideo.UseOverlayStretch
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:comadmin.ICOMAdminCatalog2.get_CurrentPartitionID
 title: ICOMAdminCatalog2::get_CurrentPartitionID (comadmin.h)
-
 description: Retrieves the identifier for the current partition.
 old-location: cos\icomadmincatalog2_currentpartitionid.htm
 tech.root: cossdk
 ms.assetid: bba572c7-54c5-4c98-9d05-5f72d5648e6a
-
 ms.date: 12/05/2018
 ms.keywords: CurrentPartitionID property [COM+], CurrentPartitionID property [COM+],ICOMAdminCatalog2 interface, ICOMAdminCatalog2 interface [COM+],CurrentPartitionID property, ICOMAdminCatalog2.CurrentPartitionID, ICOMAdminCatalog2.get_CurrentPartitionID, ICOMAdminCatalog2::CurrentPartitionID, ICOMAdminCatalog2::get_CurrentPartitionID, _cos_IComAdminCatalog2_get_CurrentPartitionID, comadmin/ICOMAdminCatalog2::CurrentPartitionID, comadmin/ICOMAdminCatalog2::get_CurrentPartitionID, cos.icomadmincatalog2_currentpartitionid, get_CurrentPartitionID
 ms.topic: method
-f1_keywords: 
- - "comadmin/ICOMAdminCatalog2.CurrentPartitionID"
+f1_keywords:
+- comadmin/ICOMAdminCatalog2.CurrentPartitionID
 dev_langs:
- - c++
+- c++
 req.header: comadmin.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComAdmin.h
+- ComAdmin.h
 api_name:
- - ICOMAdminCatalog2.CurrentPartitionID
- - ICOMAdminCatalog2.get_CurrentPartitionID
+- ICOMAdminCatalog2.CurrentPartitionID
+- ICOMAdminCatalog2.get_CurrentPartitionID
 targetos: Windows
 req.typenames: 
 req.redist: 

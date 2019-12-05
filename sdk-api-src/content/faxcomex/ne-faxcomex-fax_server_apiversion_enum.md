@@ -1,19 +1,17 @@
 ---
 UID: NE:faxcomex.FAX_SERVER_APIVERSION_ENUM
 title: FAX_SERVER_APIVERSION_ENUM (faxcomex.h)
-
 description: The FAX_SERVER_APIVERSION_ENUM enumeration defines the version of the fax API. No value below is supported on any version of the fax service earlier than the one it designates.
 old-location: fax\_mfax_fax_server_apiversion_enum.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_0pbh.htm
-
 ms.date: 12/05/2018
 ms.keywords: FAX_SERVER_APIVERSION_ENUM, FAX_SERVER_APIVERSION_ENUM enumeration [Fax Service], _mfax_fax_server_apiversion_enum, fax._mfax_fax_server_apiversion_enum, faxcomex/FAX_SERVER_APIVERSION_ENUM, faxcomex/fsAPI_VERSION_0, faxcomex/fsAPI_VERSION_1, faxcomex/fsAPI_VERSION_2, faxcomex/fsAPI_VERSION_3, fsAPI_VERSION_0, fsAPI_VERSION_1, fsAPI_VERSION_2, fsAPI_VERSION_3
 ms.topic: enum
-f1_keywords: 
- - "faxcomex/FAX_SERVER_APIVERSION_ENUM"
+f1_keywords:
+- faxcomex/FAX_SERVER_APIVERSION_ENUM
 dev_langs:
- - c++
+- c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - FaxComex.h
+- FaxComex.h
 api_name:
- - FAX_SERVER_APIVERSION_ENUM
+- FAX_SERVER_APIVERSION_ENUM
 targetos: Windows
 req.typenames: FAX_SERVER_APIVERSION_ENUM
 req.redist: the value used)

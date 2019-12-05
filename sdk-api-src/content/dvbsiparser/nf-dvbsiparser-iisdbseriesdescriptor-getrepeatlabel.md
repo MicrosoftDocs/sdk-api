@@ -1,19 +1,17 @@
 ---
 UID: NF:dvbsiparser.IIsdbSeriesDescriptor.GetRepeatLabel
 title: IIsdbSeriesDescriptor::GetRepeatLabel (dvbsiparser.h)
-
 description: Gets a label that identifies a series repeat from an Integrated Services Digital Broadcasting (ISDB) series descriptor.
 old-location: mstv\iisdbseriesdescriptor_getrepeatlabel.htm
 tech.root: mstv
 ms.assetid: 04b47836-0c27-41da-b71d-6c4abca6dd56
-
 ms.date: 12/05/2018
 ms.keywords: GetRepeatLabel, GetRepeatLabel method [Microsoft TV Technologies], GetRepeatLabel method [Microsoft TV Technologies],IIsdbSeriesDescriptor interface, IIsdbSeriesDescriptor interface [Microsoft TV Technologies],GetRepeatLabel method, IIsdbSeriesDescriptor.GetRepeatLabel, IIsdbSeriesDescriptor::GetRepeatLabel, dvbsiparser/IIsdbSeriesDescriptor::GetRepeatLabel, mstv.iisdbseriesdescriptor_getrepeatlabel
 ms.topic: method
-f1_keywords: 
- - "dvbsiparser/IIsdbSeriesDescriptor.GetRepeatLabel"
+f1_keywords:
+- dvbsiparser/IIsdbSeriesDescriptor.GetRepeatLabel
 dev_langs:
- - c++
+- c++
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dvbsiparser.h
+- dvbsiparser.h
 api_name:
- - IIsdbSeriesDescriptor.GetRepeatLabel
+- IIsdbSeriesDescriptor.GetRepeatLabel
 targetos: Windows
 req.typenames: 
 req.redist: 

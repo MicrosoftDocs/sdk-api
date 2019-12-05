@@ -1,19 +1,17 @@
 ---
 UID: NF:vidcap.ISelector.get_SourceNodeId
 title: ISelector::get_SourceNodeId (vidcap.h)
-
 description: The get_SourceNodeId method returns the index of the active source node.
 old-location: dshow\iselector_get_sourcenodeid.htm
 tech.root: DirectShow
 ms.assetid: ae2b0e1a-1527-4634-b2f9-47c9519b55a6
-
 ms.date: 12/05/2018
 ms.keywords: ISelector interface [DirectShow],get_SourceNodeId method, ISelector.get_SourceNodeId, ISelector::get_SourceNodeId, ISelectorget_SourceNodeId, dshow.iselector_get_sourcenodeid, get_SourceNodeId, get_SourceNodeId method [DirectShow], get_SourceNodeId method [DirectShow],ISelector interface, vidcap/ISelector::get_SourceNodeId
 ms.topic: method
-f1_keywords: 
- - "vidcap/ISelector.get_SourceNodeId"
+f1_keywords:
+- vidcap/ISelector.get_SourceNodeId
 dev_langs:
- - c++
+- c++
 req.header: vidcap.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Vidcap.h
+- Vidcap.h
 api_name:
- - ISelector.get_SourceNodeId
+- ISelector.get_SourceNodeId
 targetos: Windows
 req.typenames: 
 req.redist: 

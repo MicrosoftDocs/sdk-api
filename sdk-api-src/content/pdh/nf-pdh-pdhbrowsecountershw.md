@@ -1,19 +1,17 @@
 ---
 UID: NF:pdh.PdhBrowseCountersHW
 title: PdhBrowseCountersHW function (pdh.h)
-
 description: Displays a Browse Counters dialog box that the user can use to select one or more counters that they want to add to the query. This function is identical to the PdhBrowseCounters function, except that it supports the use of handles to data sources.
 old-location: perf\pdhbrowsecountersh.htm
 tech.root: perfctrs
 ms.assetid: ab835bf8-1adc-463f-99c3-654a328af98a
-
 ms.date: 12/05/2018
 ms.keywords: PdhBrowseCountersH, PdhBrowseCountersH function [Perf], PdhBrowseCountersHA, PdhBrowseCountersHW, _win32_pdhbrowsecountersh, base.pdhbrowsecountersh, pdh/PdhBrowseCountersH, pdh/PdhBrowseCountersHA, pdh/PdhBrowseCountersHW, perf.pdhbrowsecountersh
 ms.topic: function
-f1_keywords: 
- - "pdh/PdhBrowseCountersH"
+f1_keywords:
+- pdh/PdhBrowseCountersH
 dev_langs:
- - c++
+- c++
 req.header: pdh.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Pdh.lib
 req.dll: Pdh.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Pdh.dll
+- Pdh.dll
 api_name:
- - PdhBrowseCountersH
- - PdhBrowseCountersHA
- - PdhBrowseCountersHW
+- PdhBrowseCountersH
+- PdhBrowseCountersHA
+- PdhBrowseCountersHW
 targetos: Windows
 req.typenames: 
 req.redist: 

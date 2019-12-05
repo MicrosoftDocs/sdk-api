@@ -3,14 +3,13 @@ UID: NF:gdiplusgraphics.Graphics.DrawImage(IN Image,IN const PointF &)
 title: Graphics::DrawImage
 description: The Graphics::DrawImage method draws an image.
 ms.assetid: 933bdaec-75a8-4437-b42a-0799c2925d66
-
 ms.date: 05/13/2019
 ms.keywords: Graphics::DrawImage
 ms.topic: language-reference
-f1_keywords: 
- - "gdiplusgraphics/Graphics::DrawImage"
+f1_keywords:
+- gdiplusgraphics/Graphics::DrawImage
 dev_langs:
- - c++
+- c++
 targetos: Windows
 req.assembly: 
 req.construct-type: function
@@ -32,13 +31,13 @@ req.type-library:
 req.umdf-ver: 
 req.unicode-ansi: 
 topic_type:
- - apiref
+- apiref
 api_type:
- - COM
+- COM
 api_location:
- - gdiplusgraphics.h
+- gdiplusgraphics.h
 api_name:
- - Graphics::DrawImage
+- Graphics::DrawImage
 ---
 
 # DrawImage(Image*,PointF&)

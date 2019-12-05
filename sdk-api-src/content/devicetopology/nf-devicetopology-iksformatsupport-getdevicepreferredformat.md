@@ -1,19 +1,17 @@
 ---
 UID: NF:devicetopology.IKsFormatSupport.GetDevicePreferredFormat
 title: IKsFormatSupport::GetDevicePreferredFormat (devicetopology.h)
-
 description: The GetDevicePreferredFormat method gets the preferred audio stream format for the connection.
 old-location: coreaudio\iksformatsupport_getdevicepreferredformat.htm
 tech.root: CoreAudio
 ms.assetid: a550ed25-020f-4d09-bfb4-76680539c50a
-
 ms.date: 12/05/2018
 ms.keywords: GetDevicePreferredFormat, GetDevicePreferredFormat method [Core Audio], GetDevicePreferredFormat method [Core Audio],IKsFormatSupport interface, IKsFormatSupport interface [Core Audio],GetDevicePreferredFormat method, IKsFormatSupport.GetDevicePreferredFormat, IKsFormatSupport::GetDevicePreferredFormat, IKsFormatSupportGetDevicePreferredFormat, coreaudio.iksformatsupport_getdevicepreferredformat, devicetopology/IKsFormatSupport::GetDevicePreferredFormat
 ms.topic: method
-f1_keywords: 
- - "devicetopology/IKsFormatSupport.GetDevicePreferredFormat"
+f1_keywords:
+- devicetopology/IKsFormatSupport.GetDevicePreferredFormat
 dev_langs:
- - c++
+- c++
 req.header: devicetopology.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Devicetopology.h
+- Devicetopology.h
 api_name:
- - IKsFormatSupport.GetDevicePreferredFormat
+- IKsFormatSupport.GetDevicePreferredFormat
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NE:certpol.X509SCEPFailInfo
 title: X509SCEPFailInfo (certpol.h)
-
 description: Describes the nature of an SCEP certificate enrollment failure.
 old-location: security\x509scepfailinfo.htm
 tech.root: seccertenroll
 ms.assetid: A2C314FB-A348-41CE-9736-2BDE05F7E70E
-
 ms.date: 12/05/2018
 ms.keywords: SCEPFailBadAlgorithm, SCEPFailBadCertId, SCEPFailBadMessageCheck, SCEPFailBadRequest, SCEPFailBadTime, X509SCEPFailInfo, X509SCEPFailInfo enumeration [Security], certpol/SCEPFailBadAlgorithm, certpol/SCEPFailBadCertId, certpol/SCEPFailBadMessageCheck, certpol/SCEPFailBadRequest, certpol/SCEPFailBadTime, certpol/X509SCEPFailInfo, security.x509scepfailinfo
 ms.topic: enum
-f1_keywords: 
- - "certpol/X509SCEPFailInfo"
+f1_keywords:
+- certpol/X509SCEPFailInfo
 dev_langs:
- - c++
+- c++
 req.header: certpol.h
 req.include-header: CertEnroll.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - certpol.h
+- certpol.h
 api_name:
- - X509SCEPFailInfo
+- X509SCEPFailInfo
 targetos: Windows
 req.typenames: X509SCEPFailInfo
 req.redist: 

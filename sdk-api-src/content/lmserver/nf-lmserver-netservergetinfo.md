@@ -1,19 +1,17 @@
 ---
 UID: NF:lmserver.NetServerGetInfo
 title: NetServerGetInfo function (lmserver.h)
-
 description: The NetServerGetInfo function retrieves current configuration information for the specified server.
 old-location: netmgmt\netservergetinfo.htm
 tech.root: NetMgmt
 ms.assetid: ed15e1b5-3fdc-4841-85d1-89269684df0e
-
 ms.date: 12/05/2018
 ms.keywords: 100, 101, 102, NetServerGetInfo, NetServerGetInfo function [Network Management], _win32_netservergetinfo, lmserver/NetServerGetInfo, netmgmt.netservergetinfo
 ms.topic: function
 f1_keywords:
 - lmserver/NetServerGetInfo
 dev_langs:
- - c++
+- c++
 req.header: lmserver.h
 req.include-header: Lm.h
 req.target-type: Windows

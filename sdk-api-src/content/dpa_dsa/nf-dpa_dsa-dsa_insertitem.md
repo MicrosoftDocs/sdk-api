@@ -1,19 +1,17 @@
 ---
 UID: NF:dpa_dsa.DSA_InsertItem
 title: DSA_InsertItem function (dpa_dsa.h)
-
 description: Inserts a new item into a dynamic structure array (DSA). If necessary, the DSA expands to accommodate the new item.
 old-location: controls\DSA_InsertItem.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\common\functions\dsa_insertitem.htm
-
 ms.date: 12/05/2018
 ms.keywords: DSA_InsertItem, DSA_InsertItem function [Windows Controls], _win32_DSA_InsertItem, _win32_DSA_InsertItem_cpp, controls.DSA_InsertItem, controls._win32_DSA_InsertItem, dpa_dsa/DSA_InsertItem
 ms.topic: function
-f1_keywords: 
- - "dpa_dsa/DSA_InsertItem"
+f1_keywords:
+- dpa_dsa/DSA_InsertItem
 dev_langs:
- - c++
+- c++
 req.header: dpa_dsa.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Comctl32.lib
 req.dll: ComCtl32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - ComCtl32.dll
+- ComCtl32.dll
 api_name:
- - DSA_InsertItem
+- DSA_InsertItem
 targetos: Windows
 req.typenames: 
 req.redist: 

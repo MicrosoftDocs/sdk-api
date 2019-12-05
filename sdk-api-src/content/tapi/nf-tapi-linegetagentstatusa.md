@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi.lineGetAgentStatusA
 title: lineGetAgentStatusA function (tapi.h)
-
 description: The lineGetAgentStatus function obtains the agent-related status on the specified address.
 old-location: tapi2\linegetagentstatus.htm
 tech.root: Tapi
 ms.assetid: 6736cde5-af38-493d-b09a-a807d9e9a382
-
 ms.date: 12/05/2018
-ms.keywords: "_tapi2_linegetagentstatus, lineGetAgentStatus, lineGetAgentStatus function [TAPI 2.2], lineGetAgentStatusA, lineGetAgentStatusW, tapi/lineGetAgentStatus, tapi/lineGetAgentStatusA, tapi/lineGetAgentStatusW, tapi2.linegetagentstatus"
+ms.keywords: _tapi2_linegetagentstatus, lineGetAgentStatus, lineGetAgentStatus function [TAPI 2.2], lineGetAgentStatusA, lineGetAgentStatusW, tapi/lineGetAgentStatus, tapi/lineGetAgentStatusA, tapi/lineGetAgentStatusW, tapi2.linegetagentstatus
 ms.topic: function
-f1_keywords: 
- - "tapi/lineGetAgentStatus"
+f1_keywords:
+- tapi/lineGetAgentStatus
 dev_langs:
- - c++
+- c++
 req.header: tapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Tapi32.lib
 req.dll: Tapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Tapi32.dll
+- Tapi32.dll
 api_name:
- - lineGetAgentStatus
- - lineGetAgentStatusA
- - lineGetAgentStatusW
+- lineGetAgentStatus
+- lineGetAgentStatusA
+- lineGetAgentStatusW
 targetos: Windows
 req.typenames: 
 req.redist: 

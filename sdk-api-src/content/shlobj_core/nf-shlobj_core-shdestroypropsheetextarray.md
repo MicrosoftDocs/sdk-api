@@ -1,19 +1,17 @@
 ---
 UID: NF:shlobj_core.SHDestroyPropSheetExtArray
 title: SHDestroyPropSheetExtArray function (shlobj_core.h)
-
 description: Frees property sheet handlers that are pointed to an array created by SHCreatePropSheetExtArray.
 old-location: shell\SHDestroyPropSheetExtArray.htm
 tech.root: shell
 ms.assetid: beb3c1b1-deef-440d-8cf7-f76b3f396efa
-
 ms.date: 12/05/2018
 ms.keywords: SHDestroyPropSheetExtArray, SHDestroyPropSheetExtArray function [Windows Shell], _win32_SHDestroyPropSheetExtArray, shell.SHDestroyPropSheetExtArray, shlobj_core/SHDestroyPropSheetExtArray
 ms.topic: function
-f1_keywords: 
- - "shlobj_core/SHDestroyPropSheetExtArray"
+f1_keywords:
+- shlobj_core/SHDestroyPropSheetExtArray
 dev_langs:
- - c++
+- c++
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Shell32.lib
 req.dll: Shell32.dll (version 5.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - SHDestroyPropSheetExtArray
+- SHDestroyPropSheetExtArray
 targetos: Windows
 req.typenames: 
 req.redist: 

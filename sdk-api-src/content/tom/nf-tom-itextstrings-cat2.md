@@ -1,19 +1,17 @@
 ---
 UID: NF:tom.ITextStrings.Cat2
 title: ITextStrings::Cat2 (tom.h)
-
 description: Concatenates two strings.
 old-location: controls\itextstrings_cat2.htm
 tech.root: Controls
 ms.assetid: 9691d04f-5c87-42a3-81f2-efb051e2ed30
-
 ms.date: 12/05/2018
 ms.keywords: Cat2, Cat2 method [Windows Controls], Cat2 method [Windows Controls],ITextStrings interface, ITextStrings interface [Windows Controls],Cat2 method, ITextStrings.Cat2, ITextStrings::Cat2, controls.itextstrings_cat2, tom/ITextStrings::Cat2
 ms.topic: method
-f1_keywords: 
- - "tom/ITextStrings.Cat2"
+f1_keywords:
+- tom/ITextStrings.Cat2
 dev_langs:
- - c++
+- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msftedit.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msftedit.dll
+- Msftedit.dll
 api_name:
- - ITextStrings.Cat2
+- ITextStrings.Cat2
 targetos: Windows
 req.typenames: 
 req.redist: 

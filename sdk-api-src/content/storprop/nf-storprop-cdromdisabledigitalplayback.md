@@ -1,19 +1,17 @@
 ---
 UID: NF:storprop.CdromDisableDigitalPlayback
 title: CdromDisableDigitalPlayback function (storprop.h)
-
 description: Disables digital playback for the specified CD-ROM or DVD drive.
 old-location: base\cdromdisabledigitalplayback.htm
 tech.root: devio
 ms.assetid: 289812ac-cec1-4ccc-b4ef-146b19a26ebd
-
 ms.date: 12/05/2018
 ms.keywords: CdromDisableDigitalPlayback, CdromDisableDigitalPlayback function, base.cdromdisabledigitalplayback, storprop/CdromDisableDigitalPlayback
 ms.topic: function
 f1_keywords:
 - storprop/CdromDisableDigitalPlayback
 dev_langs:
- - c++
+- c++
 req.header: storprop.h
 req.include-header: 
 req.target-type: Windows

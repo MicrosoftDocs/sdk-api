@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationclient.IUIAutomation6.get_CoalesceEvents
 title: IUIAutomation6::get_CoalesceEvents (uiautomationclient.h)
-
 description: Gets or sets whether an accessible technology client receives all events, or a subset where duplicate events are detected and filtered.
 old-location: winauto\uiauto_IUIAutomation6_CoalesceEvents.htm
 tech.root: WinAuto
 ms.assetid: 44BBBE06-6A41-4DE7-8C1B-E277D3FCB545
-
 ms.date: 12/05/2018
 ms.keywords: CoalesceEvents property [Windows Accessibility], CoalesceEvents property [Windows Accessibility],IUIAutomation6 interface, IUIAutomation6 interface [Windows Accessibility],CoalesceEvents property, IUIAutomation6.CoalesceEvents, IUIAutomation6.get_CoalesceEvents, IUIAutomation6::CoalesceEvents, IUIAutomation6::get_CoalesceEvents, IUIAutomation6::put_CoalesceEvents, get_CoalesceEvents, uiautomationclient/IUIAutomation6::CoalesceEvents, uiautomationclient/IUIAutomation6::get_CoalesceEvents, uiautomationclient/IUIAutomation6::put_CoalesceEvents, winauto.uiauto_IUIAutomation6_CoalesceEvents
 ms.topic: method
-f1_keywords: 
- - "uiautomationclient/IUIAutomation6.CoalesceEvents"
+f1_keywords:
+- uiautomationclient/IUIAutomation6.CoalesceEvents
 dev_langs:
- - c++
+- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationClient.h
+- UIAutomationClient.h
 api_name:
- - IUIAutomation6.CoalesceEvents
- - IUIAutomation6.get_CoalesceEvents
- - IUIAutomation6.put_CoalesceEvents
+- IUIAutomation6.CoalesceEvents
+- IUIAutomation6.get_CoalesceEvents
+- IUIAutomation6.put_CoalesceEvents
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:cfgmgr32.CM_WaitNoPendingInstallEvents
 title: CM_WaitNoPendingInstallEvents function (cfgmgr32.h)
-
 description: The CMP_WaitNoPendingInstallEvents (CM_WaitNoPendingInstallEvents) function waits until there are no pending device installation activities for the PnP manager to perform.
 old-location: devinst\cmp_waitnopendinginstallevents.htm
 tech.root: devinst
 ms.assetid: 5be4c315-0e47-44ec-970c-855f302b355c
-
 ms.date: 12/05/2018
 ms.keywords: CMP_WaitNoPendingInstallEvents, CM_WaitNoPendingInstallEvents, CM_WaitNoPendingInstallEvents function [Device and Driver Installation], cfgmgr32/CM_WaitNoPendingInstallEvents, cfgmgrfn_096076fd-3ea8-42cb-9b51-ea551bde863d.xml, devinst.cmp_waitnopendinginstallevents
 ms.topic: function
-f1_keywords: 
- - "cfgmgr32/CM_WaitNoPendingInstallEvents"
+f1_keywords:
+- cfgmgr32/CM_WaitNoPendingInstallEvents
 dev_langs:
- - c++
+- c++
 req.header: cfgmgr32.h
 req.include-header: Cfgmgr32.h
 req.target-type: Desktop
@@ -32,15 +30,15 @@ req.lib: Cfgmgr32.lib
 req.dll: Cfgmgr32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Cfgmgr32.dll
- - setupapi.dll
+- Cfgmgr32.dll
+- setupapi.dll
 api_name:
- - CM_WaitNoPendingInstallEvents
+- CM_WaitNoPendingInstallEvents
 targetos: Windows
 req.typenames: 
 req.redist: 

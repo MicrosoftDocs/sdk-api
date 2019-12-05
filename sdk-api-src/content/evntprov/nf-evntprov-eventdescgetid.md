@@ -1,19 +1,17 @@
 ---
 UID: NF:evntprov.EventDescGetId
 title: EventDescGetId function (evntprov.h)
-
 description: Retrieves the event identifier from the event descriptor.
 old-location: etw\eventdescgetid_func.htm
 tech.root: ETW
 ms.assetid: 33deea6e-27e0-44ae-8d18-e8c854bc1819
-
 ms.date: 12/05/2018
 ms.keywords: EventDescGetId, EventDescGetId function [ETW], base.eventdescgetid_func, etw.eventdescgetid_func, evntprov/EventDescGetId
 ms.topic: function
 f1_keywords:
 - evntprov/EventDescGetId
 dev_langs:
- - c++
+- c++
 req.header: evntprov.h
 req.include-header: 
 req.target-type: Windows

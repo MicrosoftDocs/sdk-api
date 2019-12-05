@@ -1,19 +1,17 @@
 ---
 UID: NN:objidl.IMallocSpy
 title: IMallocSpy (objidl.h)
-
 description: Enables application developers to monitor (spy on) memory allocation, detect memory leaks, and simulate memory failure in calls to IMalloc methods.
 old-location: com\imallocspy.htm
 tech.root: com
 ms.assetid: 8ba500f7-c070-4788-b7fe-58b6a4e6a94c
-
 ms.date: 12/05/2018
 ms.keywords: IMallocSpy, IMallocSpy interface [COM], IMallocSpy interface [COM],described, _com_imallocspy, com.imallocspy, objidl/IMallocSpy
 ms.topic: interface
-f1_keywords: 
- - "objidl/IMallocSpy"
+f1_keywords:
+- objidl/IMallocSpy
 dev_langs:
- - c++
+- c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ObjIdl.h
+- ObjIdl.h
 api_name:
- - IMallocSpy
+- IMallocSpy
 targetos: Windows
 req.typenames: 
 req.redist: 

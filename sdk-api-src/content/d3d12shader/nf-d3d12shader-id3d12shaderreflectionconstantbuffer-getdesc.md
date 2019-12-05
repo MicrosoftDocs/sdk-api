@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d12shader.ID3D12ShaderReflectionConstantBuffer.GetDesc
 title: ID3D12ShaderReflectionConstantBuffer::GetDesc (d3d12shader.h)
-
 description: Gets a constant-buffer description.
 old-location: direct3d12\id3d12shaderreflectionconstantbuffer_getdesc.htm
 tech.root: direct3d12
 ms.assetid: 33D6926F-BF1B-4424-BC28-83F8A4A30589
-
 ms.date: 12/05/2018
 ms.keywords: GetDesc, GetDesc method, GetDesc method,ID3D12ShaderReflectionConstantBuffer interface, ID3D12ShaderReflectionConstantBuffer interface,GetDesc method, ID3D12ShaderReflectionConstantBuffer.GetDesc, ID3D12ShaderReflectionConstantBuffer::GetDesc, d3d12shader/ID3D12ShaderReflectionConstantBuffer::GetDesc, direct3d12.id3d12shaderreflectionconstantbuffer_getdesc
 ms.topic: method
 f1_keywords:
 - d3d12shader/ID3D12ShaderReflectionConstantBuffer.GetDesc
 dev_langs:
- - c++
+- c++
 req.header: d3d12shader.h
 req.include-header: 
 req.target-type: Windows

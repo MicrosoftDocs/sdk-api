@@ -1,19 +1,17 @@
 ---
 UID: NN:tapi3if.ITCustomTone
 title: ITCustomTone (tapi3if.h)
-
 description: The ITCustomTone interface exposes methods that allow detailed control over the custom tones that are available with some phone sets.
 old-location: tapi3\itcustomtone.htm
 tech.root: Tapi
 ms.assetid: f2c51048-93aa-4469-b00e-911e62b5702d
-
 ms.date: 12/05/2018
 ms.keywords: ITCustomTone, ITCustomTone interface [TAPI 2.2], ITCustomTone interface [TAPI 2.2],described, _tapi3_itcustomtone, tapi3.itcustomtone, tapi3if/ITCustomTone
 ms.topic: interface
-f1_keywords: 
- - "tapi3if/ITCustomTone"
+f1_keywords:
+- tapi3if/ITCustomTone
 dev_langs:
- - c++
+- c++
 req.header: tapi3if.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Tapi3.dll
+- Tapi3.dll
 api_name:
- - ITCustomTone
+- ITCustomTone
 targetos: Windows
 req.typenames: 
 req.redist: 

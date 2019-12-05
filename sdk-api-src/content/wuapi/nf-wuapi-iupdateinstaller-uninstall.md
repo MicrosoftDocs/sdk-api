@@ -1,19 +1,17 @@
 ---
 UID: NF:wuapi.IUpdateInstaller.Uninstall
 title: IUpdateInstaller::Uninstall (wuapi.h)
-
 description: Starts a synchronous uninstallation of the updates.
 old-location: wua\iupdateinstaller_uninstall.htm
 tech.root: Wua_Sdk
 ms.assetid: fd00fc89-077e-4897-a7ec-d2e06167b7b0
-
 ms.date: 12/05/2018
 ms.keywords: IUpdateInstaller interface [Windows Update Agent],Uninstall method, IUpdateInstaller.Uninstall, IUpdateInstaller::Uninstall, Uninstall, Uninstall method [Windows Update Agent], Uninstall method [Windows Update Agent],IUpdateInstaller interface, wua.iupdateinstaller_uninstall, wuapi/IUpdateInstaller::Uninstall
 ms.topic: method
-f1_keywords: 
- - "wuapi/IUpdateInstaller.Uninstall"
+f1_keywords:
+- wuapi/IUpdateInstaller.Uninstall
 dev_langs:
- - c++
+- c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Wuguid.lib
 req.dll: Wuapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wuapi.dll
+- Wuapi.dll
 api_name:
- - IUpdateInstaller.Uninstall
+- IUpdateInstaller.Uninstall
 targetos: Windows
 req.typenames: 
 req.redist: 

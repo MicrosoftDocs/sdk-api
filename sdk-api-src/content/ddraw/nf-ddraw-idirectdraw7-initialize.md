@@ -1,19 +1,17 @@
 ---
 UID: NF:ddraw.IDirectDraw7.Initialize
 title: IDirectDraw7::Initialize (ddraw.h)
-
 description: Initializes a DirectDraw object that was created by using the CoCreateInstance COM function.
 old-location: directdraw\idirectdraw7_initialize.htm
 tech.root: directdraw
 ms.assetid: e641d8e7-ce29-454a-80fc-d404a27e9b63
-
 ms.date: 12/05/2018
 ms.keywords: IDirectDraw7 interface [DirectDraw],Initialize method, IDirectDraw7.Initialize, IDirectDraw7::Initialize, Initialize, Initialize method [DirectDraw], Initialize method [DirectDraw],IDirectDraw7 interface, ddraw/IDirectDraw7::Initialize, directdraw.idirectdraw7_initialize
 ms.topic: method
-f1_keywords: 
- - "ddraw/IDirectDraw7.Initialize"
+f1_keywords:
+- ddraw/IDirectDraw7.Initialize
 dev_langs:
- - c++
+- c++
 req.header: ddraw.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Ddraw.lib
 req.dll: Ddraw.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Ddraw.dll
+- Ddraw.dll
 api_name:
- - IDirectDraw7.Initialize
+- IDirectDraw7.Initialize
 targetos: Windows
 req.typenames: 
 req.redist: 

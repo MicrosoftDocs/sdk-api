@@ -1,19 +1,17 @@
 ---
 UID: NF:manipulations.IInertiaProcessor.Process
 title: IInertiaProcessor::Process (manipulations.h)
-
 description: The Process method performs calculations and can raise the Started, Delta, or Completed event depending on whether extrapolation is completed or not. If extrapolation finished at the previous tick, the method is no-op.
 old-location: wintouch\iinertiaprocessor_process.htm
 tech.root: wintouch
 ms.assetid: f63cafa0-0da6-46ba-91d3-956dc804dd79
-
 ms.date: 12/05/2018
 ms.keywords: IInertiaProcessor interface [Windows Touch],Process method, IInertiaProcessor.Process, IInertiaProcessor::Process, Process, Process method [Windows Touch], Process method [Windows Touch],IInertiaProcessor interface, manipulations/IInertiaProcessor::Process, wintouch.iinertiaprocessor_process
 ms.topic: method
-f1_keywords: 
- - "manipulations/IInertiaProcessor.Process"
+f1_keywords:
+- manipulations/IInertiaProcessor.Process
 dev_langs:
- - c++
+- c++
 req.header: manipulations.h
 req.include-header: Manipulations.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - manipulations.h
+- manipulations.h
 api_name:
- - IInertiaProcessor.Process
+- IInertiaProcessor.Process
 targetos: Windows
 req.typenames: 
 req.redist: 

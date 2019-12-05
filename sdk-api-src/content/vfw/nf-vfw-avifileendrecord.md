@@ -1,19 +1,17 @@
 ---
 UID: NF:vfw.AVIFileEndRecord
 title: AVIFileEndRecord function (vfw.h)
-
 description: The AVIFileEndRecord function marks the end of a record when writing an interleaved file that uses a 1:1 interleave factor of video to audio data. (Each frame of video is interspersed with an equivalent amount of audio data.).
 old-location: multimedia\avifileendrecord.htm
 tech.root: Multimedia
 ms.assetid: 0f04c384-7702-43d4-9c7e-e9e74d6f2796
-
 ms.date: 12/05/2018
 ms.keywords: AVIFileEndRecord, AVIFileEndRecord function [Windows Multimedia], _win32_AVIFileEndRecord, multimedia.avifileendrecord, vfw/AVIFileEndRecord
 ms.topic: function
-f1_keywords: 
- - "vfw/AVIFileEndRecord"
+f1_keywords:
+- vfw/AVIFileEndRecord
 dev_langs:
- - c++
+- c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Vfw32.lib
 req.dll: Avifil32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Avifil32.dll
+- Avifil32.dll
 api_name:
- - AVIFileEndRecord
+- AVIFileEndRecord
 targetos: Windows
 req.typenames: 
 req.redist: 

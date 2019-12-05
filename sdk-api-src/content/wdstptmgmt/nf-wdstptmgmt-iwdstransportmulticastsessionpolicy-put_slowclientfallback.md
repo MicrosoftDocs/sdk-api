@@ -1,19 +1,17 @@
 ---
 UID: NF:wdstptmgmt.IWdsTransportMulticastSessionPolicy.put_SlowClientFallback
 title: IWdsTransportMulticastSessionPolicy::put_SlowClientFallback (wdstptmgmt.h)
-
 description: Receives a value that indicates the fallback policy requested by the server when automatically disconnecting slow clients from a multicast transmission.
 old-location: wds\iwdstransportmulticastsessionpolicy_slowclientfallback.htm
 tech.root: wds
 ms.assetid: cce0ba98-382a-45d5-8381-06864061c529
-
 ms.date: 12/05/2018
 ms.keywords: IWdsTransportMulticastSessionPolicy interface [Windows Deployment Services],SlowClientFallback property, IWdsTransportMulticastSessionPolicy.SlowClientFallback, IWdsTransportMulticastSessionPolicy.put_SlowClientFallback, IWdsTransportMulticastSessionPolicy::SlowClientFallback, IWdsTransportMulticastSessionPolicy::get_SlowClientFallback, IWdsTransportMulticastSessionPolicy::put_SlowClientFallback, SlowClientFallback property [Windows Deployment Services], SlowClientFallback property [Windows Deployment Services],IWdsTransportMulticastSessionPolicy interface, put_SlowClientFallback, wds.iwdstransportmulticastsessionpolicy_slowclientfallback, wdstptmgmt/IWdsTransportMulticastSessionPolicy::SlowClientFallback, wdstptmgmt/IWdsTransportMulticastSessionPolicy::get_SlowClientFallback, wdstptmgmt/IWdsTransportMulticastSessionPolicy::put_SlowClientFallback
 ms.topic: method
-f1_keywords: 
- - "wdstptmgmt/IWdsTransportMulticastSessionPolicy.SlowClientFallback"
+f1_keywords:
+- wdstptmgmt/IWdsTransportMulticastSessionPolicy.SlowClientFallback
 dev_langs:
- - c++
+- c++
 req.header: wdstptmgmt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: Wdstptmgmt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wdstptmgmt.dll
+- Wdstptmgmt.dll
 api_name:
- - IWdsTransportMulticastSessionPolicy.SlowClientFallback
- - IWdsTransportMulticastSessionPolicy.get_SlowClientFallback
- - IWdsTransportMulticastSessionPolicy.put_SlowClientFallback
+- IWdsTransportMulticastSessionPolicy.SlowClientFallback
+- IWdsTransportMulticastSessionPolicy.get_SlowClientFallback
+- IWdsTransportMulticastSessionPolicy.put_SlowClientFallback
 targetos: Windows
 req.typenames: 
 req.redist: 

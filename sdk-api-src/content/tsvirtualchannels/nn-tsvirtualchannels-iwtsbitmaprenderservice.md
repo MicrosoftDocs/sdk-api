@@ -1,19 +1,17 @@
 ---
 UID: NN:tsvirtualchannels.IWTSBitmapRenderService
 title: IWTSBitmapRenderService (tsvirtualchannels.h)
-
 description: This service is used to create a visual mapping on the client corresponding to a mapped window on the server.
 old-location: termserv\iwtsbitmaprenderservice.htm
 tech.root: TermServ
 ms.assetid: 5ddc6ad8-1006-473e-b0f4-a5829045219a
-
 ms.date: 12/05/2018
 ms.keywords: IWTSBitmapRenderService, IWTSBitmapRenderService interface [Remote Desktop Services], IWTSBitmapRenderService interface [Remote Desktop Services],described, termserv.iwtsbitmaprenderservice, tsvirtualchannels/IWTSBitmapRenderService
 ms.topic: interface
-f1_keywords: 
- - "tsvirtualchannels/IWTSBitmapRenderService"
+f1_keywords:
+- tsvirtualchannels/IWTSBitmapRenderService
 dev_langs:
- - c++
+- c++
 req.header: tsvirtualchannels.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - tsvirtualchannels.h
+- tsvirtualchannels.h
 api_name:
- - IWTSBitmapRenderService
+- IWTSBitmapRenderService
 targetos: Windows
 req.typenames: 
 req.redist: 

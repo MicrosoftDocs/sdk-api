@@ -1,19 +1,17 @@
 ---
 UID: NF:vsprov.IVssFileShareSnapshotProvider.DeleteSnapshots
 title: IVssFileShareSnapshotProvider::DeleteSnapshots (vsprov.h)
-
 description: Deletes specific snapshots, or all snapshots in a specified snapshot set.
 old-location: base\ivssfilesharesnapshotprovider_deletesnapshots.htm
 tech.root: VSS
 ms.assetid: 3fd48346-8a85-4ddf-9a6d-ac0cb82d4133
-
 ms.date: 12/05/2018
 ms.keywords: DeleteSnapshots, DeleteSnapshots method [VSS], DeleteSnapshots method [VSS],IVssFileShareSnapshotProvider interface, IVssFileShareSnapshotProvider interface [VSS],DeleteSnapshots method, IVssFileShareSnapshotProvider.DeleteSnapshots, IVssFileShareSnapshotProvider::DeleteSnapshots, base.ivssfilesharesnapshotprovider_deletesnapshots, vsprov/IVssFileShareSnapshotProvider::DeleteSnapshots
 ms.topic: method
-f1_keywords: 
- - "vsprov/IVssFileShareSnapshotProvider.DeleteSnapshots"
+f1_keywords:
+- vsprov/IVssFileShareSnapshotProvider.DeleteSnapshots
 dev_langs:
- - c++
+- c++
 req.header: vsprov.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: VssApi.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - VssApi.lib
- - VssApi.dll
+- VssApi.lib
+- VssApi.dll
 api_name:
- - IVssFileShareSnapshotProvider.DeleteSnapshots
+- IVssFileShareSnapshotProvider.DeleteSnapshots
 targetos: Windows
 req.typenames: 
 req.redist: 

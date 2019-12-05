@@ -1,19 +1,17 @@
 ---
 UID: NF:wmcontainer.IMFASFIndexer.GetIndexPosition
 title: IMFASFIndexer::GetIndexPosition (wmcontainer.h)
-
 description: Retrieves the offset of the index object from the start of the content.
 old-location: mf\imfasfindexer_getindexposition.htm
 tech.root: medfound
 ms.assetid: 7ef0e36c-1be5-44ac-8f6a-e29805c99e78
-
 ms.date: 12/05/2018
 ms.keywords: 7ef0e36c-1be5-44ac-8f6a-e29805c99e78, GetIndexPosition, GetIndexPosition method [Media Foundation], GetIndexPosition method [Media Foundation],IMFASFIndexer interface, IMFASFIndexer interface [Media Foundation],GetIndexPosition method, IMFASFIndexer.GetIndexPosition, IMFASFIndexer::GetIndexPosition, mf.imfasfindexer_getindexposition, wmcontainer/IMFASFIndexer::GetIndexPosition
 ms.topic: method
-f1_keywords: 
- - "wmcontainer/IMFASFIndexer.GetIndexPosition"
+f1_keywords:
+- wmcontainer/IMFASFIndexer.GetIndexPosition
 dev_langs:
- - c++
+- c++
 req.header: wmcontainer.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFASFIndexer.GetIndexPosition
+- IMFASFIndexer.GetIndexPosition
 targetos: Windows
 req.typenames: 
 req.redist: 

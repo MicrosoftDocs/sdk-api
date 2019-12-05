@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.SHCreateDefaultExtractIcon
 title: SHCreateDefaultExtractIcon function (shobjidl_core.h)
-
 description: Creates a standard icon extractor, whose defaults can be further configured via the IDefaultExtractIconInit interface.
 old-location: shell\SHCreateDefaultExtractIcon.htm
 tech.root: shell
 ms.assetid: 483dc9ae-4820-47f1-888e-ad7a6bdf3d29
-
 ms.date: 12/05/2018
 ms.keywords: SHCreateDefaultExtractIcon, SHCreateDefaultExtractIcon function [Windows Shell], _shell_SHCreateDefaultExtractIcon, shell.SHCreateDefaultExtractIcon, shobjidl_core/SHCreateDefaultExtractIcon
 ms.topic: function
-f1_keywords: 
- - "shobjidl_core/SHCreateDefaultExtractIcon"
+f1_keywords:
+- shobjidl_core/SHCreateDefaultExtractIcon
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: Shell32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Shell32.dll
- - ext-ms-win-shell-shell32-l1-2-1.dll
- - Ext-MS-Win-Shell-Shell32-L1-2-2.dll
+- Shell32.dll
+- ext-ms-win-shell-shell32-l1-2-1.dll
+- Ext-MS-Win-Shell-Shell32-L1-2-2.dll
 api_name:
- - SHCreateDefaultExtractIcon
+- SHCreateDefaultExtractIcon
 targetos: Windows
 req.typenames: 
 req.redist: 

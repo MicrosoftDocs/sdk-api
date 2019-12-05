@@ -1,19 +1,17 @@
 ---
 UID: NF:fwpmu.FwpmProviderContextCreateEnumHandle0
 title: FwpmProviderContextCreateEnumHandle0 function (fwpmu.h)
-
 description: Creates a handle used to enumerate a set of provider contexts.
 old-location: fwp\fwpmprovidercontextcreateenumhandle0_func.htm
 tech.root: fwp
 ms.assetid: 3b660e3a-fba6-4466-aa82-eb90c27ae004
-
 ms.date: 12/05/2018
 ms.keywords: FwpmProviderContextCreateEnumHandle0, FwpmProviderContextCreateEnumHandle0 function [Filtering], fwp.fwpmprovidercontextcreateenumhandle0_func, fwpmu/FwpmProviderContextCreateEnumHandle0
 ms.topic: function
-f1_keywords: 
- - "fwpmu/FwpmProviderContextCreateEnumHandle0"
+f1_keywords:
+- fwpmu/FwpmProviderContextCreateEnumHandle0
 dev_langs:
- - c++
+- c++
 req.header: fwpmu.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Fwpuclnt.lib
 req.dll: Fwpuclnt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Fwpuclnt.dll
+- Fwpuclnt.dll
 api_name:
- - FwpmProviderContextCreateEnumHandle0
+- FwpmProviderContextCreateEnumHandle0
 targetos: Windows
 req.typenames: 
 req.redist: 

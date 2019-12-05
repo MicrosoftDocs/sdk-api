@@ -1,19 +1,17 @@
 ---
 UID: NF:gpmgmt.IGPMSecurityInfo.get__NewEnum
 title: IGPMSecurityInfo::get__NewEnum (gpmgmt.h)
-
 description: Retrieves an enumerator for the collection.
 old-location: gpmc\igpmsecurityinfo_get__newenum.htm
 tech.root: gpmc
 ms.assetid: f8dc2ee1-d1cb-4e7a-abf4-1a388320b681
-
 ms.date: 12/05/2018
 ms.keywords: IGPMSecurityInfo interface [GPMC],get__NewEnum method, IGPMSecurityInfo.get__NewEnum, IGPMSecurityInfo::get__NewEnum, _win32_igpmsecurityinfo_get__newenum, get__NewEnum, get__NewEnum method [GPMC], get__NewEnum method [GPMC],IGPMSecurityInfo interface, gpmc.igpmsecurityinfo_get__newenum, gpmgmt/IGPMSecurityInfo::get__NewEnum
 ms.topic: method
-f1_keywords: 
- - "gpmgmt/IGPMSecurityInfo.get__NewEnum"
+f1_keywords:
+- gpmgmt/IGPMSecurityInfo.get__NewEnum
 dev_langs:
- - c++
+- c++
 req.header: gpmgmt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Gpmgmt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gpmgmt.dll
+- Gpmgmt.dll
 api_name:
- - IGPMSecurityInfo.get__NewEnum
+- IGPMSecurityInfo.get__NewEnum
 targetos: Windows
 req.typenames: 
 req.redist: 

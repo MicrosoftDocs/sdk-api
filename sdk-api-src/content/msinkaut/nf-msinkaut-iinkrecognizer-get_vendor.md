@@ -1,19 +1,17 @@
 ---
 UID: NF:msinkaut.IInkRecognizer.get_Vendor
 title: IInkRecognizer::get_Vendor (msinkaut.h)
-
 description: Gets the vendor name of the IInkRecognizer object.
 old-location: tablet\iinkrecognizer_vendor.htm
 tech.root: tablet
 ms.assetid: 6b302453-ec9e-474b-b9ee-5776d464f4f8
-
 ms.date: 12/05/2018
 ms.keywords: 6b302453-ec9e-474b-b9ee-5776d464f4f8, IInkRecognizer interface [Tablet PC],Vendor property, IInkRecognizer.Vendor, IInkRecognizer.get_Vendor, IInkRecognizer::Vendor, IInkRecognizer::get_Vendor, Vendor property [Tablet PC], Vendor property [Tablet PC],IInkRecognizer interface, get_Vendor, msinkaut/IInkRecognizer::Vendor, msinkaut/IInkRecognizer::get_Vendor, tablet.iinkrecognizer_vendor
 ms.topic: method
-f1_keywords: 
- - "msinkaut/IInkRecognizer.Vendor"
+f1_keywords:
+- msinkaut/IInkRecognizer.Vendor
 dev_langs:
- - c++
+- c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: InkObj.dll
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - InkObj.dll
- - InkObj.dll.dll
+- InkObj.dll
+- InkObj.dll.dll
 api_name:
- - IInkRecognizer.Vendor
- - IInkRecognizer.get_Vendor
- - IInkRecognizer.get_Vendor
+- IInkRecognizer.Vendor
+- IInkRecognizer.get_Vendor
+- IInkRecognizer.get_Vendor
 targetos: Windows
 req.typenames: 
 req.redist: 

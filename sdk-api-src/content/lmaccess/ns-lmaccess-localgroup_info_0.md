@@ -1,19 +1,17 @@
 ---
 UID: NS:lmaccess._LOCALGROUP_INFO_0
 title: LOCALGROUP_INFO_0 (lmaccess.h)
-
 description: The LOCALGROUP_INFO_0 structure contains a local group name.
 old-location: netmgmt\localgroup_info_0_str.htm
 tech.root: NetMgmt
 ms.assetid: dfdb4c20-ea4a-45c9-b4f3-d6a844f89bb6
-
 ms.date: 12/05/2018
-ms.keywords: "*LPLOCALGROUP_INFO_0, *PLOCALGROUP_INFO_0, LOCALGROUP_INFO_0, LOCALGROUP_INFO_0 structure [Network Management], LPLOCALGROUP_INFO_0, LPLOCALGROUP_INFO_0 structure pointer [Network Management], PLOCALGROUP_INFO_0, PLOCALGROUP_INFO_0 structure pointer [Network Management], _win32_localgroup_info_0_str, lmaccess/LOCALGROUP_INFO_0, lmaccess/LPLOCALGROUP_INFO_0, lmaccess/PLOCALGROUP_INFO_0, netmgmt.localgroup_info_0_str"
+ms.keywords: '*LPLOCALGROUP_INFO_0, *PLOCALGROUP_INFO_0, LOCALGROUP_INFO_0, LOCALGROUP_INFO_0 structure [Network Management], LPLOCALGROUP_INFO_0, LPLOCALGROUP_INFO_0 structure pointer [Network Management], PLOCALGROUP_INFO_0, PLOCALGROUP_INFO_0 structure pointer [Network Management], _win32_localgroup_info_0_str, lmaccess/LOCALGROUP_INFO_0, lmaccess/LPLOCALGROUP_INFO_0, lmaccess/PLOCALGROUP_INFO_0, netmgmt.localgroup_info_0_str'
 ms.topic: struct
-f1_keywords: 
- - "lmaccess/LOCALGROUP_INFO_0"
+f1_keywords:
+- lmaccess/LOCALGROUP_INFO_0
 dev_langs:
- - c++
+- c++
 req.header: lmaccess.h
 req.include-header: Lm.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Lmaccess.h
+- Lmaccess.h
 api_name:
- - LOCALGROUP_INFO_0
+- LOCALGROUP_INFO_0
 targetos: Windows
 req.typenames: LOCALGROUP_INFO_0, *PLOCALGROUP_INFO_0, *LPLOCALGROUP_INFO_0
 req.redist: 

@@ -1,17 +1,15 @@
 ---
 UID: NF:bits10_3.IBackgroundCopyJobHttpOptions3.MakeCustomHeadersWriteOnly
 title: IBackgroundCopyJobHttpOptions3::MakeCustomHeadersWriteOnly
-
 ms.keywords: IBackgroundCopyJobHttpOptions3::MakeCustomHeadersWriteOnly
 description: Sets the HTTP custom headers for this job to be write-only.
 tech.root: Bits
-
 ms.date: 05/09/2019
 ms.topic: method
-f1_keywords: 
- - "bits10_3/IBackgroundCopyJobHttpOptions3::MakeCustomHeadersWriteOnly"
+f1_keywords:
+- bits10_3/IBackgroundCopyJobHttpOptions3::MakeCustomHeadersWriteOnly
 dev_langs:
- - c++
+- c++
 targetos: Windows
 req.assembly: 
 req.construct-type: function
@@ -33,13 +31,13 @@ req.type-library:
 req.umdf-ver: 
 req.unicode-ansi: 
 topic_type:
- - apiref
+- apiref
 api_type:
- - COM
+- COM
 api_location:
- - bits10_3.h
+- bits10_3.h
 api_name:
- - IBackgroundCopyJobHttpOptions3::MakeCustomHeadersWriteOnly
+- IBackgroundCopyJobHttpOptions3::MakeCustomHeadersWriteOnly
 ---
 
 ## -description

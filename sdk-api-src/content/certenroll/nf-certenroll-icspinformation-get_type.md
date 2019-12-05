@@ -1,19 +1,17 @@
 ---
 UID: NF:certenroll.ICspInformation.get_Type
 title: ICspInformation::get_Type (certenroll.h)
-
 description: Retrieves the type of the provider.
 old-location: security\icspinformation_type_property.htm
 tech.root: seccertenroll
 ms.assetid: a52caea6-fbd5-4c06-8a25-e65f7b4a72f7
-
 ms.date: 12/05/2018
 ms.keywords: ICspInformation interface [Security],Type property, ICspInformation.Type, ICspInformation.get_Type, ICspInformation::Type, ICspInformation::get_Type, Type property [Security], Type property [Security],ICspInformation interface, certenroll/ICspInformation::Type, certenroll/ICspInformation::get_Type, get_Type, security.icspinformation_type_property
 ms.topic: method
-f1_keywords: 
- - "certenroll/ICspInformation.Type"
+f1_keywords:
+- certenroll/ICspInformation.Type
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: CertEnroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CertEnroll.dll
+- CertEnroll.dll
 api_name:
- - ICspInformation.Type
- - ICspInformation.get_Type
+- ICspInformation.Type
+- ICspInformation.get_Type
 targetos: Windows
 req.typenames: 
 req.redist: 

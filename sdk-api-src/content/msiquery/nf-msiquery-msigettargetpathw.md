@@ -1,19 +1,17 @@
 ---
 UID: NF:msiquery.MsiGetTargetPathW
 title: MsiGetTargetPathW function (msiquery.h)
-
 description: The MsiGetTargetPath function returns the full target path for a folder in the Directory table.
 old-location: setup\msigettargetpath.htm
 tech.root: Msi
 ms.assetid: cad0e1c1-3f3a-4438-8b85-ea146c943579
-
 ms.date: 12/05/2018
 ms.keywords: MsiGetTargetPath, MsiGetTargetPath function, MsiGetTargetPathA, MsiGetTargetPathW, _msi_msigettargetpath, msiquery/MsiGetTargetPath, msiquery/MsiGetTargetPathA, msiquery/MsiGetTargetPathW, setup.msigettargetpath
 ms.topic: function
-f1_keywords: 
- - "msiquery/MsiGetTargetPath"
+f1_keywords:
+- msiquery/MsiGetTargetPath
 dev_langs:
- - c++
+- c++
 req.header: msiquery.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Msi.lib
 req.dll: Msi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Msi.dll
+- Msi.dll
 api_name:
- - MsiGetTargetPath
- - MsiGetTargetPathA
- - MsiGetTargetPathW
+- MsiGetTargetPath
+- MsiGetTargetPathA
+- MsiGetTargetPathW
 targetos: Windows
 req.typenames: 
 req.redist: 

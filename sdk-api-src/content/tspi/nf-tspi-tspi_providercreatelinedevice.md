@@ -1,19 +1,17 @@
 ---
 UID: NF:tspi.TSPI_providerCreateLineDevice
 title: TSPI_providerCreateLineDevice function (tspi.h)
-
 description: The TSPI_providerCreateLineDevice function is called by TAPI in response to receipt of a LINE_CREATE message from the service provider, which allows the dynamic creation of a new line device.
 old-location: tspi\tspi_providercreatelinedevice.htm
 tech.root: Tapi
 ms.assetid: 58c28934-7c2f-49ec-af40-b32b05ec921a
-
 ms.date: 12/05/2018
 ms.keywords: TSPI_providerCreateLineDevice, TSPI_providerCreateLineDevice function [TAPI 2.2], _tspi_tspi_providercreatelinedevice, tspi.tspi_providercreatelinedevice, tspi/TSPI_providerCreateLineDevice
 ms.topic: function
-f1_keywords: 
- - "tspi/TSPI_providerCreateLineDevice"
+f1_keywords:
+- tspi/TSPI_providerCreateLineDevice
 dev_langs:
- - c++
+- c++
 req.header: tspi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Tspi.h
+- Tspi.h
 api_name:
- - TSPI_providerCreateLineDevice
+- TSPI_providerCreateLineDevice
 targetos: Windows
 req.typenames: 
 req.redist: 

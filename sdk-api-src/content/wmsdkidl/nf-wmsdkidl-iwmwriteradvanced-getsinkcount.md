@@ -1,19 +1,17 @@
 ---
 UID: NF:wmsdkidl.IWMWriterAdvanced.GetSinkCount
 title: IWMWriterAdvanced::GetSinkCount (wmsdkidl.h)
-
 description: The GetSinkCount method retrieves the number of writer sinks associated with the writer object.
 old-location: wmformat\iwmwriteradvanced_getsinkcount.htm
 tech.root: wmformat
 ms.assetid: 210c96bc-3659-43e6-acb2-4d9f328e81e0
-
 ms.date: 12/05/2018
 ms.keywords: GetSinkCount, GetSinkCount method [windows Media Format], GetSinkCount method [windows Media Format],IWMWriterAdvanced interface, IWMWriterAdvanced interface [windows Media Format],GetSinkCount method, IWMWriterAdvanced.GetSinkCount, IWMWriterAdvanced::GetSinkCount, IWMWriterAdvancedGetSinkCount, wmformat.iwmwriteradvanced_getsinkcount, wmsdkidl/IWMWriterAdvanced::GetSinkCount
 ms.topic: method
-f1_keywords: 
- - "wmsdkidl/IWMWriterAdvanced.GetSinkCount"
+f1_keywords:
+- wmsdkidl/IWMWriterAdvanced.GetSinkCount
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wmvcore.lib
- - Wmvcore.dll
- - WMStubDRM.lib
- - WMStubDRM.dll
+- Wmvcore.lib
+- Wmvcore.dll
+- WMStubDRM.lib
+- WMStubDRM.dll
 api_name:
- - IWMWriterAdvanced.GetSinkCount
+- IWMWriterAdvanced.GetSinkCount
 targetos: Windows
 req.typenames: 
 req.redist: 

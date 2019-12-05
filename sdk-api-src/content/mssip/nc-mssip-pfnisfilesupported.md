@@ -1,19 +1,17 @@
 ---
 UID: NC:mssip.pfnIsFileSupported
 title: pfnIsFileSupported (mssip.h)
-
 description: Queries the subject interface packages (SIPs) listed in the registry to determine which SIP handles the file type.
 old-location: security\pfnisfilesupported.htm
 tech.root: SecCrypto
 ms.assetid: cf12d057-328a-4975-b7e5-842c4ea2e760
-
 ms.date: 12/05/2018
 ms.keywords: mssip/pfnIsFileSupported, pfnIsFileSupported, pfnIsFileSupported callback, pfnIsFileSupported callback function [Security], security.pfnisfilesupported
 ms.topic: callback
-f1_keywords: 
- - "mssip/pfnIsFileSupported"
+f1_keywords:
+- mssip/pfnIsFileSupported
 dev_langs:
- - c++
+- c++
 req.header: mssip.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Mssip.h
+- Mssip.h
 api_name:
- - pfnIsFileSupported
+- pfnIsFileSupported
 targetos: Windows
 req.typenames: 
 req.redist: 

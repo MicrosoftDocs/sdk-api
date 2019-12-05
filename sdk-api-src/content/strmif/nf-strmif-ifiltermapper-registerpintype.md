@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IFilterMapper.RegisterPinType
 title: IFilterMapper::RegisterPinType (strmif.h)
-
 description: Note  The IFilterMapper interface is deprecated. Use IFilterMapper2 instead. Registers this pin type.
 old-location: dshow\ifiltermapper_registerpintype.htm
 tech.root: DirectShow
 ms.assetid: 7f92745b-2b97-4cc6-9755-a580827b5bba
-
 ms.date: 12/05/2018
 ms.keywords: IFilterMapper interface [DirectShow],RegisterPinType method, IFilterMapper.RegisterPinType, IFilterMapper::RegisterPinType, IFilterMapperRegisterPinType, RegisterPinType, RegisterPinType method [DirectShow], RegisterPinType method [DirectShow],IFilterMapper interface, dshow.ifiltermapper_registerpintype, strmif/IFilterMapper::RegisterPinType
 ms.topic: method
-f1_keywords: 
- - "strmif/IFilterMapper.RegisterPinType"
+f1_keywords:
+- strmif/IFilterMapper.RegisterPinType
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmif.h
+- Strmif.h
 api_name:
- - IFilterMapper.RegisterPinType
+- IFilterMapper.RegisterPinType
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationcoreapi.SynchronizedInputPattern_StartListening
 title: SynchronizedInputPattern_StartListening function (uiautomationcoreapi.h)
-
 description: Causes the UI Automation provider to start listening for mouse or keyboard input.
 old-location: winauto\uiauto_SynchronizedInputPattern_StartListening.htm
 tech.root: WinAuto
 ms.assetid: 6c8c88fc-25b2-4ca3-86d7-f1d666fc45e1
-
 ms.date: 12/05/2018
 ms.keywords: SynchronizedInputPattern_StartListening, SynchronizedInputPattern_StartListening function [Windows Accessibility], uiauto.uiauto_SynchronizedInputPattern_StartListening, uiauto_SynchronizedInputPattern_StartListening, uiautomationcoreapi/SynchronizedInputPattern_StartListening, winauto.uiauto_SynchronizedInputPattern_StartListening
 ms.topic: function
-f1_keywords: 
- - "uiautomationcoreapi/SynchronizedInputPattern_StartListening"
+f1_keywords:
+- uiautomationcoreapi/SynchronizedInputPattern_StartListening
 dev_langs:
- - c++
+- c++
 req.header: uiautomationcoreapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uiautomationcore.lib
 req.dll: Uiautomationcore.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Uiautomationcore.dll
+- Uiautomationcore.dll
 api_name:
- - SynchronizedInputPattern_StartListening
+- SynchronizedInputPattern_StartListening
 targetos: Windows
 req.typenames: 
 req.redist: 

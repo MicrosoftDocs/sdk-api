@@ -1,19 +1,17 @@
 ---
 UID: NS:clusapi.CLUS_STARTING_PARAMS
 title: CLUS_STARTING_PARAMS (clusapi.h)
-
 description: Indicates whether a node's attempt to start the Cluster service represents an attempt to form or join a cluster, and whether the node has attempted to start this version of the Cluster service before.
 old-location: mscs\clus_starting_params.htm
 tech.root: MsCS
 ms.assetid: 255c68ff-0ca0-4718-b7fe-c689c93d0203
-
 ms.date: 12/05/2018
-ms.keywords: "*PCLUS_STARTING_PARAMS, CLUS_STARTING_PARAMS, CLUS_STARTING_PARAMS structure [Failover Cluster], FALSE, PCLUS_STARTING_PARAMS, PCLUS_STARTING_PARAMS structure pointer [Failover Cluster], TRUE, _wolf_clus_starting_params, clusapi/CLUS_STARTING_PARAMS, clusapi/PCLUS_STARTING_PARAMS, mscs.clus_starting_params"
+ms.keywords: '*PCLUS_STARTING_PARAMS, CLUS_STARTING_PARAMS, CLUS_STARTING_PARAMS structure [Failover Cluster], FALSE, PCLUS_STARTING_PARAMS, PCLUS_STARTING_PARAMS structure pointer [Failover Cluster], TRUE, _wolf_clus_starting_params, clusapi/CLUS_STARTING_PARAMS, clusapi/PCLUS_STARTING_PARAMS, mscs.clus_starting_params'
 ms.topic: struct
-f1_keywords: 
- - "clusapi/CLUS_STARTING_PARAMS"
+f1_keywords:
+- clusapi/CLUS_STARTING_PARAMS
 dev_langs:
- - c++
+- c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - ClusAPI.h
+- ClusAPI.h
 api_name:
- - CLUS_STARTING_PARAMS
+- CLUS_STARTING_PARAMS
 targetos: Windows
 req.typenames: CLUS_STARTING_PARAMS, *PCLUS_STARTING_PARAMS
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:wmsdkidl.IWMReaderNetworkConfig.SetProxyExceptionList
 title: IWMReaderNetworkConfig::SetProxyExceptionList (wmsdkidl.h)
-
 description: The SetProxyExceptionList method specifies the proxy exception list.
 old-location: wmformat\iwmreadernetworkconfig_setproxyexceptionlist.htm
 tech.root: wmformat
 ms.assetid: 1f6c6bb6-3a42-44da-ab80-e72a19b8d272
-
 ms.date: 12/05/2018
 ms.keywords: IWMReaderNetworkConfig interface [windows Media Format],SetProxyExceptionList method, IWMReaderNetworkConfig.SetProxyExceptionList, IWMReaderNetworkConfig::SetProxyExceptionList, IWMReaderNetworkConfigSetProxyExceptionList, SetProxyExceptionList, SetProxyExceptionList method [windows Media Format], SetProxyExceptionList method [windows Media Format],IWMReaderNetworkConfig interface, wmformat.iwmreadernetworkconfig_setproxyexceptionlist, wmsdkidl/IWMReaderNetworkConfig::SetProxyExceptionList
 ms.topic: method
-f1_keywords: 
- - "wmsdkidl/IWMReaderNetworkConfig.SetProxyExceptionList"
+f1_keywords:
+- wmsdkidl/IWMReaderNetworkConfig.SetProxyExceptionList
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wmvcore.lib
- - Wmvcore.dll
- - WMStubDRM.lib
- - WMStubDRM.dll
+- Wmvcore.lib
+- Wmvcore.dll
+- WMStubDRM.lib
+- WMStubDRM.dll
 api_name:
- - IWMReaderNetworkConfig.SetProxyExceptionList
+- IWMReaderNetworkConfig.SetProxyExceptionList
 targetos: Windows
 req.typenames: 
 req.redist: 

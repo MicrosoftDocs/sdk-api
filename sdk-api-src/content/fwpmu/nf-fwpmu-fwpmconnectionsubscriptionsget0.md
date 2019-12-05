@@ -1,19 +1,17 @@
 ---
 UID: NF:fwpmu.FwpmConnectionSubscriptionsGet0
 title: FwpmConnectionSubscriptionsGet0 function (fwpmu.h)
-
 description: Retrieves an array of all the current connection object change notification subscriptions.
 old-location: fwp\fwpmconnectionsubscriptionsget0.htm
 tech.root: fwp
 ms.assetid: fc6c94be-9c2f-4b32-9cf5-4af33b8f1c97
-
 ms.date: 12/05/2018
 ms.keywords: FwpmConnectionSubscriptionsGet0, FwpmConnectionSubscriptionsGet0 function [Filtering], fwp.fwpmconnectionsubscriptionsget0, fwpmu/FwpmConnectionSubscriptionsGet0
 ms.topic: function
-f1_keywords: 
- - "fwpmu/FwpmConnectionSubscriptionsGet0"
+f1_keywords:
+- fwpmu/FwpmConnectionSubscriptionsGet0
 dev_langs:
- - c++
+- c++
 req.header: fwpmu.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Fwpuclnt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Fwpuclnt.dll
+- Fwpuclnt.dll
 api_name:
- - FwpmConnectionSubscriptionsGet0
+- FwpmConnectionSubscriptionsGet0
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:dcomp.IDCompositionDevice3.CreateTurbulenceEffect
 title: IDCompositionDevice3::CreateTurbulenceEffect (dcomp.h)
-
 description: Creates an instance of IDCompositionTurbulenceEffect.
 old-location: directcomp\idcompositiondevice3_createturbulenceeffect.htm
 tech.root: directcomp
 ms.assetid: 40BCD422-7545-4CB9-9C8E-2F0D2B4E6C51
-
 ms.date: 12/05/2018
 ms.keywords: CreateTurbulenceEffect, CreateTurbulenceEffect method [DirectComposition], CreateTurbulenceEffect method [DirectComposition],IDCompositionDevice3 interface, IDCompositionDevice3 interface [DirectComposition],CreateTurbulenceEffect method, IDCompositionDevice3.CreateTurbulenceEffect, IDCompositionDevice3::CreateTurbulenceEffect, dcomp/IDCompositionDevice3::CreateTurbulenceEffect, directcomp.idcompositiondevice3_createturbulenceeffect
 ms.topic: method
-f1_keywords: 
- - "dcomp/IDCompositionDevice3.CreateTurbulenceEffect"
+f1_keywords:
+- dcomp/IDCompositionDevice3.CreateTurbulenceEffect
 dev_langs:
- - c++
+- c++
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dcomp.lib
 req.dll: Dcomp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dcomp.dll
+- dcomp.dll
 api_name:
- - IDCompositionDevice3.CreateTurbulenceEffect
+- IDCompositionDevice3.CreateTurbulenceEffect
 targetos: Windows
 req.typenames: 
 req.redist: 

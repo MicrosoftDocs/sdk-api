@@ -5,10 +5,10 @@ description: Contains the necessary information to perform an mDNS query.
 ms.date: 02/19/2019
 ms.keywords: _MDNS_QUERY_REQUEST, MDNS_QUERY_REQUEST
 ms.topic: language-reference
-f1_keywords: 
- - "windns/_MDNS_QUERY_REQUEST"
+f1_keywords:
+- windns/_MDNS_QUERY_REQUEST
 dev_langs:
- - c++
+- c++
 targetos: Windows
 req.assembly: 
 req.construct-type: structure
@@ -31,14 +31,14 @@ req.typenames: MDNS_QUERY_REQUEST, *PMDNS_QUERY_REQUEST
 req.umdf-ver: 
 req.unicode-ansi: 
 topic_type:
- - apiref
+- apiref
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - windns.h
+- windns.h
 api_name:
- - _MDNS_QUERY_REQUEST
- - MDNS_QUERY_REQUEST
+- _MDNS_QUERY_REQUEST
+- MDNS_QUERY_REQUEST
 ms.custom: 19H1
 ---
 

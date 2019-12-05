@@ -1,19 +1,17 @@
 ---
 UID: NF:syncmgr.ISyncMgrEvent.GetHandlerID
 title: ISyncMgrEvent::GetHandlerID (syncmgr.h)
-
 description: Gets the ID of the handler for which the event was logged.
 old-location: shell\ISyncMgrEvent_GetHandlerID.htm
 tech.root: shell
 ms.assetid: b2f3bcbf-f14d-41ce-b4fc-3f491465ce84
-
 ms.date: 12/05/2018
 ms.keywords: GetHandlerID, GetHandlerID method [Windows Shell], GetHandlerID method [Windows Shell],ISyncMgrEvent interface, ISyncMgrEvent interface [Windows Shell],GetHandlerID method, ISyncMgrEvent.GetHandlerID, ISyncMgrEvent::GetHandlerID, _shell_ISyncMgrEvent_GetHandlerID, shell.ISyncMgrEvent_GetHandlerID, syncmgr/ISyncMgrEvent::GetHandlerID
 ms.topic: method
-f1_keywords: 
- - "syncmgr/ISyncMgrEvent.GetHandlerID"
+f1_keywords:
+- syncmgr/ISyncMgrEvent.GetHandlerID
 dev_langs:
- - c++
+- c++
 req.header: syncmgr.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Syncmgr.h
+- Syncmgr.h
 api_name:
- - ISyncMgrEvent.GetHandlerID
+- ISyncMgrEvent.GetHandlerID
 targetos: Windows
 req.typenames: 
 req.redist: 

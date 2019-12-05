@@ -1,19 +1,17 @@
 ---
 UID: NF:d2d1_1helper.EffectInputDescription
 title: EffectInputDescription function (d2d1_1helper.h)
-
 description: Creates a D2D1_EFFECT_INPUT_DESCRIPTION structure.
 old-location: direct2d\effectinputdescription.htm
 tech.root: Direct2D
 ms.assetid: 3246476C-4110-43EC-88A3-55682A141383
-
 ms.date: 12/05/2018
 ms.keywords: EffectInputDescription, EffectInputDescription function [Direct2D], d2d1_1helper/EffectInputDescription, direct2d.effectinputdescription
 ms.topic: function
-f1_keywords: 
- - "d2d1_1helper/EffectInputDescription"
+f1_keywords:
+- d2d1_1helper/EffectInputDescription
 dev_langs:
- - c++
+- c++
 req.header: d2d1_1helper.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: D2d1.lib
 req.dll: D2d1.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - D2d1.dll
+- D2d1.dll
 api_name:
- - EffectInputDescription
+- EffectInputDescription
 targetos: Windows
 req.typenames: 
 req.redist: 

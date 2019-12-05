@@ -1,19 +1,17 @@
 ---
 UID: NS:webservices._WS_CERT_SIGNED_SAML_AUTHENTICATOR
 title: WS_CERT_SIGNED_SAML_AUTHENTICATOR (webservices.h)
-
 description: The type for specifying a SAML token authenticator based on an array of expected issuer certificates.
 old-location: wsw\ws_cert_signed_saml_authenticator.htm
 tech.root: wsw
 ms.assetid: 228ba94f-6e99-4bbf-93be-19d0311985ee
-
 ms.date: 12/05/2018
 ms.keywords: WS_CERT_SIGNED_SAML_AUTHENTICATOR, WS_CERT_SIGNED_SAML_AUTHENTICATOR structure [Web Services for Windows], webservices/WS_CERT_SIGNED_SAML_AUTHENTICATOR, wsw.ws_cert_signed_saml_authenticator
 ms.topic: struct
-f1_keywords: 
- - "webservices/WS_CERT_SIGNED_SAML_AUTHENTICATOR"
+f1_keywords:
+- webservices/WS_CERT_SIGNED_SAML_AUTHENTICATOR
 dev_langs:
- - c++
+- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WebServices.h
+- WebServices.h
 api_name:
- - WS_CERT_SIGNED_SAML_AUTHENTICATOR
+- WS_CERT_SIGNED_SAML_AUTHENTICATOR
 targetos: Windows
 req.typenames: WS_CERT_SIGNED_SAML_AUTHENTICATOR
 req.redist: 

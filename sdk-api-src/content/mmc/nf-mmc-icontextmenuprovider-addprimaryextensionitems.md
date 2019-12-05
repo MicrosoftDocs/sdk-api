@@ -1,19 +1,17 @@
 ---
 UID: NF:mmc.IContextMenuProvider.AddPrimaryExtensionItems
 title: IContextMenuProvider::AddPrimaryExtensionItems (mmc.h)
-
 description: The IContextMenuProvider::AddPrimaryExtensionItems method enables one specific extension to add items to the insertion points defined for this context menu.
 old-location: mmc\icontextmenuprovider_addprimaryextensionitems.htm
 tech.root: mmc
 ms.assetid: 423106cd-3e81-4c4b-b28a-f7abc3bfe38b
-
 ms.date: 12/05/2018
 ms.keywords: AddPrimaryExtensionItems, AddPrimaryExtensionItems method [MMC], AddPrimaryExtensionItems method [MMC],IContextMenuProvider interface, IContextMenuProvider interface [MMC],AddPrimaryExtensionItems method, IContextMenuProvider.AddPrimaryExtensionItems, IContextMenuProvider::AddPrimaryExtensionItems, _slate_icontextmenuprovider_addprimaryextensionitems, mmc.icontextmenuprovider_addprimaryextensionitems, mmc/IContextMenuProvider::AddPrimaryExtensionItems
 ms.topic: method
-f1_keywords: 
- - "mmc/IContextMenuProvider.AddPrimaryExtensionItems"
+f1_keywords:
+- mmc/IContextMenuProvider.AddPrimaryExtensionItems
 dev_langs:
- - c++
+- c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Mmcndmgr.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mmcndmgr.dll
+- Mmcndmgr.dll
 api_name:
- - IContextMenuProvider.AddPrimaryExtensionItems
+- IContextMenuProvider.AddPrimaryExtensionItems
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:wdspxe.PxeProviderEnumFirst
 title: PxeProviderEnumFirst function (wdspxe.h)
-
 description: Starts an enumeration of registered providers.
 old-location: wds\pxeproviderenumfirst.htm
 tech.root: wds
 ms.assetid: b810455b-219b-49da-a4eb-c1a170711c68
-
 ms.date: 12/05/2018
 ms.keywords: PxeProviderEnumFirst, PxeProviderEnumFirst function [Windows Deployment Services], wds.pxeproviderenumfirst, wdspxe/PxeProviderEnumFirst
 ms.topic: function
-f1_keywords: 
- - "wdspxe/PxeProviderEnumFirst"
+f1_keywords:
+- wdspxe/PxeProviderEnumFirst
 dev_langs:
- - c++
+- c++
 req.header: wdspxe.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: WdsPxe.lib
 req.dll: WdsPxe.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - WdsPxe.dll
+- WdsPxe.dll
 api_name:
- - PxeProviderEnumFirst
+- PxeProviderEnumFirst
 targetos: Windows
 req.typenames: 
 req.redist: 

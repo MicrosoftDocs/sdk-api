@@ -1,19 +1,17 @@
 ---
 UID: NF:xenroll.IEnroll4.resetExtensions
 title: IEnroll4::resetExtensions (xenroll.h)
-
 description: Removes all extensions from the request.
 old-location: security\ienroll4_resetextensions.htm
 tech.root: SecCrypto
 ms.assetid: 6e03ecaa-3996-4aea-b328-e438194f30d5
-
 ms.date: 12/05/2018
 ms.keywords: IEnroll4 interface [Security],resetExtensions method, IEnroll4.resetExtensions, IEnroll4::resetExtensions, resetExtensions, resetExtensions method [Security], resetExtensions method [Security],IEnroll4 interface, security.ienroll4_resetextensions, xenroll/IEnroll4::resetExtensions
 ms.topic: method
-f1_keywords: 
- - "xenroll/IEnroll4.resetExtensions"
+f1_keywords:
+- xenroll/IEnroll4.resetExtensions
 dev_langs:
- - c++
+- c++
 req.header: xenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Xenroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Xenroll.dll
+- Xenroll.dll
 api_name:
- - IEnroll4.resetExtensions
+- IEnroll4.resetExtensions
 targetos: Windows
 req.typenames: 
 req.redist: 

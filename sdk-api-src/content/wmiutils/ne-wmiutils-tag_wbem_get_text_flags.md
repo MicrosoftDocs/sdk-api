@@ -1,19 +1,17 @@
 ---
 UID: NE:wmiutils.tag_WBEM_GET_TEXT_FLAGS
 title: tag_WBEM_GET_TEXT_FLAGS (wmiutils.h)
-
 description: Contains flags which controls how the text is returned.
 old-location: wmi\tag_wbem_get_text_flags.htm
 tech.root: WmiSdk
 ms.assetid: 5b6cb2c0-d4e4-452b-840f-01fec2d57743
-
 ms.date: 12/05/2018
 ms.keywords: WBEMPATH_COMPRESSED, WBEMPATH_GET_NAMESPACE_ONLY, WBEMPATH_GET_ORIGINAL, WBEMPATH_GET_RELATIVE_ONLY, WBEMPATH_GET_SERVER_AND_NAMESPACE_ONLY, WBEMPATH_GET_SERVER_TOO, tag_WBEM_GET_TEXT_FLAGS, tag_WBEM_GET_TEXT_FLAGS enumeration [Windows Management Instrumentation], wmi.tag_wbem_get_text_flags, wmiutils/WBEMPATH_COMPRESSED, wmiutils/WBEMPATH_GET_NAMESPACE_ONLY, wmiutils/WBEMPATH_GET_ORIGINAL, wmiutils/WBEMPATH_GET_RELATIVE_ONLY, wmiutils/WBEMPATH_GET_SERVER_AND_NAMESPACE_ONLY, wmiutils/WBEMPATH_GET_SERVER_TOO, wmiutils/tag_WBEM_GET_TEXT_FLAGS
 ms.topic: enum
-f1_keywords: 
- - "wmiutils/tag_WBEM_GET_TEXT_FLAGS"
+f1_keywords:
+- wmiutils/tag_WBEM_GET_TEXT_FLAGS
 dev_langs:
- - c++
+- c++
 req.header: wmiutils.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WMIUtils.h
+- WMIUtils.h
 api_name:
- - tag_WBEM_GET_TEXT_FLAGS
+- tag_WBEM_GET_TEXT_FLAGS
 targetos: Windows
 req.typenames: tag_WBEM_GET_TEXT_FLAGS
 req.redist: 

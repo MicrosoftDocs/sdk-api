@@ -1,19 +1,17 @@
 ---
 UID: NF:vidcap.ICameraControl.get_Pan
 title: ICameraControl::get_Pan (vidcap.h)
-
 description: The get_Pan method returns the camera's panning angle.
 old-location: dshow\icameracontrol_get_pan.htm
 tech.root: DirectShow
 ms.assetid: 4cbf7582-63ad-4572-be62-be1fe5bc60b3
-
 ms.date: 12/05/2018
 ms.keywords: ICameraControl interface [DirectShow],get_Pan method, ICameraControl.get_Pan, ICameraControl::get_Pan, ICameraControlget_Pan, dshow.icameracontrol_get_pan, get_Pan, get_Pan method [DirectShow], get_Pan method [DirectShow],ICameraControl interface, vidcap/ICameraControl::get_Pan
 ms.topic: method
-f1_keywords: 
- - "vidcap/ICameraControl.get_Pan"
+f1_keywords:
+- vidcap/ICameraControl.get_Pan
 dev_langs:
- - c++
+- c++
 req.header: vidcap.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - ICameraControl.get_Pan
+- ICameraControl.get_Pan
 targetos: Windows
 req.typenames: 
 req.redist: 

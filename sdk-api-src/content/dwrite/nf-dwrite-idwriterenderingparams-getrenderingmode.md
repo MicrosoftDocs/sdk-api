@@ -1,19 +1,17 @@
 ---
 UID: NF:dwrite.IDWriteRenderingParams.GetRenderingMode
 title: IDWriteRenderingParams::GetRenderingMode (dwrite.h)
-
 description: Gets the rendering mode of the rendering parameters object.
 old-location: directwrite\IDWriteRenderingParams_GetRenderingMode.htm
 tech.root: DirectWrite
 ms.assetid: 657360c6-3351-400b-bb41-bcd92de3c48d
-
 ms.date: 12/05/2018
 ms.keywords: GetRenderingMode, GetRenderingMode method [Direct Write], GetRenderingMode method [Direct Write],IDWriteRenderingParams interface, IDWriteRenderingParams interface [Direct Write],GetRenderingMode method, IDWriteRenderingParams.GetRenderingMode, IDWriteRenderingParams::GetRenderingMode, directwrite.IDWriteRenderingParams_GetRenderingMode, dwrite/IDWriteRenderingParams::GetRenderingMode
 ms.topic: method
-f1_keywords: 
- - "dwrite/IDWriteRenderingParams.GetRenderingMode"
+f1_keywords:
+- dwrite/IDWriteRenderingParams.GetRenderingMode
 dev_langs:
- - c++
+- c++
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dwrite.lib
 req.dll: Dwrite.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dwrite.dll
+- dwrite.dll
 api_name:
- - IDWriteRenderingParams.GetRenderingMode
+- IDWriteRenderingParams.GetRenderingMode
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:certenroll.ISmimeCapabilities.AddAvailableSmimeCapabilities
 title: ISmimeCapabilities::AddAvailableSmimeCapabilities (certenroll.h)
-
 description: Adds ISmimeCapability objects to the collection by identifying the encryption algorithms supported by the default RSA cryptographic provider.
 old-location: security\ismimecapabilities_addavailablesmimecapabilities_method.htm
 tech.root: seccertenroll
 ms.assetid: b3b087e7-9934-4d29-a516-db5bba824774
-
 ms.date: 12/05/2018
 ms.keywords: AddAvailableSmimeCapabilities, AddAvailableSmimeCapabilities method [Security], AddAvailableSmimeCapabilities method [Security],ISmimeCapabilities interface, ISmimeCapabilities interface [Security],AddAvailableSmimeCapabilities method, ISmimeCapabilities.AddAvailableSmimeCapabilities, ISmimeCapabilities::AddAvailableSmimeCapabilities, certenroll/ISmimeCapabilities::AddAvailableSmimeCapabilities, security.ismimecapabilities_addavailablesmimecapabilities_method
 ms.topic: method
-f1_keywords: 
- - "certenroll/ISmimeCapabilities.AddAvailableSmimeCapabilities"
+f1_keywords:
+- certenroll/ISmimeCapabilities.AddAvailableSmimeCapabilities
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: CertEnroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CertEnroll.dll
+- CertEnroll.dll
 api_name:
- - ISmimeCapabilities.AddAvailableSmimeCapabilities
+- ISmimeCapabilities.AddAvailableSmimeCapabilities
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IDvdInfo2.GetCurrentButton
 title: IDvdInfo2::GetCurrentButton (strmif.h)
-
 description: The GetCurrentButton method retrieves the number of available buttons and the number of the currently selected button.
 old-location: dshow\idvdinfo2_getcurrentbutton.htm
 tech.root: DirectShow
 ms.assetid: 9e8d8a0e-6db8-495b-b968-8a4e63435b99
-
 ms.date: 12/05/2018
 ms.keywords: GetCurrentButton, GetCurrentButton method [DirectShow], GetCurrentButton method [DirectShow],IDvdInfo2 interface, IDvdInfo2 interface [DirectShow],GetCurrentButton method, IDvdInfo2.GetCurrentButton, IDvdInfo2::GetCurrentButton, IDvdInfo2GetCurrentButton, dshow.idvdinfo2_getcurrentbutton, strmif/IDvdInfo2::GetCurrentButton
 ms.topic: method
-f1_keywords: 
- - "strmif/IDvdInfo2.GetCurrentButton"
+f1_keywords:
+- strmif/IDvdInfo2.GetCurrentButton
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IDvdInfo2.GetCurrentButton
+- IDvdInfo2.GetCurrentButton
 targetos: Windows
 req.typenames: 
 req.redist: 

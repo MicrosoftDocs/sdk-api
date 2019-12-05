@@ -1,19 +1,17 @@
 ---
 UID: NF:p2p.PeerCollabEnumPeopleNearMe
 title: PeerCollabEnumPeopleNearMe function (p2p.h)
-
 description: Returns a handle to an enumerated set that contains all of the peer collaboration network &#0034;people near me&#0034; endpoints currently available on the subnet of the calling peer.
 old-location: p2p\peercollabenumpeoplenearme.htm
 tech.root: P2PSdk
 ms.assetid: 4dc53f43-e662-4696-bc16-42b124f3358f
-
 ms.date: 12/05/2018
 ms.keywords: PeerCollabEnumPeopleNearMe, PeerCollabEnumPeopleNearMe function [Peer Networking], p2p.peercollabenumpeoplenearme, p2p/PeerCollabEnumPeopleNearMe
 ms.topic: function
-f1_keywords: 
- - "p2p/PeerCollabEnumPeopleNearMe"
+f1_keywords:
+- p2p/PeerCollabEnumPeopleNearMe
 dev_langs:
- - c++
+- c++
 req.header: p2p.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: P2P.lib
 req.dll: P2P.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - P2P.dll
+- P2P.dll
 api_name:
- - PeerCollabEnumPeopleNearMe
+- PeerCollabEnumPeopleNearMe
 targetos: Windows
 req.typenames: 
 req.redist: 

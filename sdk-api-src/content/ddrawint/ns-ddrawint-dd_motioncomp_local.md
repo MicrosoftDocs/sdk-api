@@ -1,19 +1,17 @@
 ---
 UID: NS:ddrawint._DD_MOTIONCOMP_LOCAL
 title: DD_MOTIONCOMP_LOCAL (ddrawint.h)
-
 description: The DD_MOTIONCOMP_LOCAL structure contains local data for each individual Microsoft DirectDraw motion compensation object.
 old-location: display\dd_motioncomp_local.htm
 tech.root: display
 ms.assetid: 41cde03a-f9da-4701-a0df-0dba0c17ba26
-
 ms.date: 12/05/2018
 ms.keywords: '*PDD_MOTIONCOMP_LOCAL, DD_MOTIONCOMP_LOCAL, DD_MOTIONCOMP_LOCAL structure [Display Devices], ddrawint/DD_MOTIONCOMP_LOCAL, ddstrcts_cc4890b6-b2b6-484c-b979-4627fa902d7d.xml, display.dd_motioncomp_local'
 ms.topic: struct
 f1_keywords:
 - ddrawint/DD_MOTIONCOMP_LOCAL
 dev_langs:
- - c++
+- c++
 req.header: ddrawint.h
 req.include-header: Winddi.h
 req.target-type: Windows

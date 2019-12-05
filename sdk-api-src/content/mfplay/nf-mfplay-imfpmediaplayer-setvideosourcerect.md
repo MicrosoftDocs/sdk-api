@@ -1,19 +1,17 @@
 ---
 UID: NF:mfplay.IMFPMediaPlayer.SetVideoSourceRect
 title: IMFPMediaPlayer::SetVideoSourceRect (mfplay.h)
-
 description: Sets the video source rectangle.
 old-location: mf\imfpmediaplayer_setvideosourcerect.htm
 tech.root: medfound
 ms.assetid: c95d724f-40a9-43c5-b81a-8505eda516f7
-
 ms.date: 12/05/2018
 ms.keywords: IMFPMediaPlayer interface [Media Foundation],SetVideoSourceRect method, IMFPMediaPlayer.SetVideoSourceRect, IMFPMediaPlayer::SetVideoSourceRect, SetVideoSourceRect, SetVideoSourceRect method [Media Foundation], SetVideoSourceRect method [Media Foundation],IMFPMediaPlayer interface, mf.imfpmediaplayer_setvideosourcerect, mfplay/IMFPMediaPlayer::SetVideoSourceRect
 ms.topic: method
-f1_keywords: 
- - "mfplay/IMFPMediaPlayer.SetVideoSourceRect"
+f1_keywords:
+- mfplay/IMFPMediaPlayer.SetVideoSourceRect
 dev_langs:
- - c++
+- c++
 req.header: mfplay.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfplay.h
+- mfplay.h
 api_name:
- - IMFPMediaPlayer.SetVideoSourceRect
+- IMFPMediaPlayer.SetVideoSourceRect
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:atscpsipparser.ISCTE_EAS.GetAlertPriority
 title: ISCTE_EAS::GetAlertPriority (atscpsipparser.h)
-
 description: The GetAlertPriority method returns the alert priority.
 old-location: mstv\iscte_eas_getalertpriority.htm
 tech.root: mstv
 ms.assetid: 3862ae19-972b-4822-8b52-5a868a2fc58d
-
 ms.date: 12/05/2018
 ms.keywords: GetAlertPriority, GetAlertPriority method [Microsoft TV Technologies], GetAlertPriority method [Microsoft TV Technologies],ISCTE_EAS interface, ISCTE_EAS interface [Microsoft TV Technologies],GetAlertPriority method, ISCTE_EAS.GetAlertPriority, ISCTE_EAS::GetAlertPriority, ISCTE_EASGetAlertPriority, atscpsipparser/ISCTE_EAS::GetAlertPriority, mstv.iscte_eas_getalertpriority
 ms.topic: method
-f1_keywords: 
- - "atscpsipparser/ISCTE_EAS.GetAlertPriority"
+f1_keywords:
+- atscpsipparser/ISCTE_EAS.GetAlertPriority
 dev_langs:
- - c++
+- c++
 req.header: atscpsipparser.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - atscpsipparser.h
+- atscpsipparser.h
 api_name:
- - ISCTE_EAS.GetAlertPriority
+- ISCTE_EAS.GetAlertPriority
 targetos: Windows
 req.typenames: 
 req.redist: 

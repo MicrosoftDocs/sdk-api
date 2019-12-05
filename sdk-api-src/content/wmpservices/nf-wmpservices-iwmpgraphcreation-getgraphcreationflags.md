@@ -1,19 +1,17 @@
 ---
 UID: NF:wmpservices.IWMPGraphCreation.GetGraphCreationFlags
 title: IWMPGraphCreation::GetGraphCreationFlags (wmpservices.h)
-
 description: One of the flags documented on this page is available in Windows Media Player 10 and Windows Media Player 11 running on Microsoft Windows XP. It might not be available in subsequent versions.
 old-location: wmp\iwmpgraphcreation_getgraphcreationflags.htm
 tech.root: WMP
 ms.assetid: 26cac321-f32a-4569-87a8-f397173f058b
-
 ms.date: 12/05/2018
 ms.keywords: GetGraphCreationFlags, GetGraphCreationFlags method [Windows Media Player], GetGraphCreationFlags method [Windows Media Player],IWMPGraphCreation interface, IWMPGraphCreation interface [Windows Media Player],GetGraphCreationFlags method, IWMPGraphCreation.GetGraphCreationFlags, IWMPGraphCreation::GetGraphCreationFlags, IWMPGraphCreationGetGraphCreationFlags, wmp.iwmpgraphcreation_getgraphcreationflags, wmpservices/IWMPGraphCreation::GetGraphCreationFlags
 ms.topic: method
-f1_keywords: 
- - "wmpservices/IWMPGraphCreation.GetGraphCreationFlags"
+f1_keywords:
+- wmpservices/IWMPGraphCreation.GetGraphCreationFlags
 dev_langs:
- - c++
+- c++
 req.header: wmpservices.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wmp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmp.dll
+- wmp.dll
 api_name:
- - IWMPGraphCreation.GetGraphCreationFlags
+- IWMPGraphCreation.GetGraphCreationFlags
 targetos: Windows
 req.typenames: 
 req.redist: 

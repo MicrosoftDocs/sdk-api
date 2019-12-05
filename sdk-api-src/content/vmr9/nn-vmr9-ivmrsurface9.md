@@ -1,19 +1,17 @@
 ---
 UID: NN:vmr9.IVMRSurface9
 title: IVMRSurface9 (vmr9.h)
-
 description: The IVMRSurface9 interface is implemented on the media samples used by the Video Mixing Renderer Filter 9.
 old-location: dshow\ivmrsurface9.htm
 tech.root: DirectShow
 ms.assetid: b24dae7d-5e88-4973-8507-8bd13cdccbde
-
 ms.date: 12/05/2018
 ms.keywords: IVMRSurface9, IVMRSurface9 interface [DirectShow], IVMRSurface9 interface [DirectShow],described, IVMRSurface9Interface, dshow.ivmrsurface9, vmr9/IVMRSurface9
 ms.topic: interface
-f1_keywords: 
- - "vmr9/IVMRSurface9"
+f1_keywords:
+- vmr9/IVMRSurface9
 dev_langs:
- - c++
+- c++
 req.header: vmr9.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IVMRSurface9
+- IVMRSurface9
 targetos: Windows
 req.typenames: 
 req.redist: 

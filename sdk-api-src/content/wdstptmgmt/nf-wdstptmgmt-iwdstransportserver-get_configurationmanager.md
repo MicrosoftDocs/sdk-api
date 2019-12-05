@@ -1,19 +1,17 @@
 ---
 UID: NF:wdstptmgmt.IWdsTransportServer.get_ConfigurationManager
 title: IWdsTransportServer::get_ConfigurationManager (wdstptmgmt.h)
-
 description: Returns a pointer to the object of an IWdsTransportConfigurationManager interface used to manage the configuration of this server.
 old-location: wds\iwdstransportserver_configurationmanager.htm
 tech.root: wds
 ms.assetid: 007e166b-a8f9-4acc-8963-ffa14b22084a
-
 ms.date: 12/05/2018
 ms.keywords: ConfigurationManager property [Windows Deployment Services], ConfigurationManager property [Windows Deployment Services],IWdsTransportServer interface, IWdsTransportServer interface [Windows Deployment Services],ConfigurationManager property, IWdsTransportServer.ConfigurationManager, IWdsTransportServer.get_ConfigurationManager, IWdsTransportServer::ConfigurationManager, IWdsTransportServer::get_ConfigurationManager, get_ConfigurationManager, wds.iwdstransportserver_configurationmanager, wdstptmgmt/IWdsTransportServer::ConfigurationManager, wdstptmgmt/IWdsTransportServer::get_ConfigurationManager
 ms.topic: method
-f1_keywords: 
- - "wdstptmgmt/IWdsTransportServer.ConfigurationManager"
+f1_keywords:
+- wdstptmgmt/IWdsTransportServer.ConfigurationManager
 dev_langs:
- - c++
+- c++
 req.header: wdstptmgmt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: Wdstptmgmt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wdstptmgmt.dll
+- Wdstptmgmt.dll
 api_name:
- - IWdsTransportServer.ConfigurationManager
- - IWdsTransportServer.get_ConfigurationManager
+- IWdsTransportServer.ConfigurationManager
+- IWdsTransportServer.get_ConfigurationManager
 targetos: Windows
 req.typenames: 
 req.redist: 

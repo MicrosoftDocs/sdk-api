@@ -1,19 +1,17 @@
 ---
 UID: NF:mmeapi.waveInGetPosition
 title: waveInGetPosition function (mmeapi.h)
-
 description: waveInGetPosition is no longer supported for use as of Windows Vista.
 old-location: multimedia\waveingetposition.htm
 tech.root: Multimedia
 ms.assetid: 91764c6e-e9d4-4d8e-819a-6e27ca2478d8
-
 ms.date: 12/05/2018
-ms.keywords: "_win32_waveInGetPosition, mmeapi/waveInGetPosition, multimedia.waveingetposition, waveInGetPosition, waveInGetPosition function [Windows Multimedia]"
+ms.keywords: _win32_waveInGetPosition, mmeapi/waveInGetPosition, multimedia.waveingetposition, waveInGetPosition, waveInGetPosition function [Windows Multimedia]
 ms.topic: function
-f1_keywords: 
- - "mmeapi/waveInGetPosition"
+f1_keywords:
+- mmeapi/waveInGetPosition
 dev_langs:
- - c++
+- c++
 req.header: mmeapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Winmm.lib
 req.dll: Winmm.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Winmm.dll
- - API-MS-Win-mm-mme-l1-1-0.dll
- - winmmbase.dll
+- Winmm.dll
+- API-MS-Win-mm-mme-l1-1-0.dll
+- winmmbase.dll
 api_name:
- - waveInGetPosition
+- waveInGetPosition
 targetos: Windows
 req.typenames: 
 req.redist: 

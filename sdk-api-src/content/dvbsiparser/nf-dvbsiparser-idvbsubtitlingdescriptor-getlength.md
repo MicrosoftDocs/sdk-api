@@ -1,19 +1,17 @@
 ---
 UID: NF:dvbsiparser.IDvbSubtitlingDescriptor.GetLength
 title: IDvbSubtitlingDescriptor::GetLength (dvbsiparser.h)
-
 description: Gets the body length of a Digital Video Broadcast (DVB) subtitling descriptor.
 old-location: mstv\idvbsubtitlingdescriptor_getlength.htm
 tech.root: mstv
 ms.assetid: 1b02c37c-4411-4d69-af5d-d758b18fe42c
-
 ms.date: 12/05/2018
 ms.keywords: GetLength, GetLength method [Microsoft TV Technologies], GetLength method [Microsoft TV Technologies],IDvbSubtitlingDescriptor interface, IDvbSubtitlingDescriptor interface [Microsoft TV Technologies],GetLength method, IDvbSubtitlingDescriptor.GetLength, IDvbSubtitlingDescriptor::GetLength, dvbsiparser/IDvbSubtitlingDescriptor::GetLength, mstv.idvbsubtitlingdescriptor_getlength
 ms.topic: method
-f1_keywords: 
- - "dvbsiparser/IDvbSubtitlingDescriptor.GetLength"
+f1_keywords:
+- dvbsiparser/IDvbSubtitlingDescriptor.GetLength
 dev_langs:
- - c++
+- c++
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dvbsiparser.h
+- dvbsiparser.h
 api_name:
- - IDvbSubtitlingDescriptor.GetLength
+- IDvbSubtitlingDescriptor.GetLength
 targetos: Windows
 req.typenames: 
 req.redist: 

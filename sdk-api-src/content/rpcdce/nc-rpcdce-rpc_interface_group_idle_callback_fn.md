@@ -1,19 +1,17 @@
 ---
 UID: NC:rpcdce.RPC_INTERFACE_GROUP_IDLE_CALLBACK_FN
 title: RPC_INTERFACE_GROUP_IDLE_CALLBACK_FN (rpcdce.h)
-
 description: The RPC_INTERFACE_GROUP_IDLE_CALLBACK_FN is a user-defined callback that can be implemented for each defined interface group. This callback is invoked by the RPC runtime when it detects that the idle state of an interface group has changed.
 old-location: rpc\rpc_interface_group_idle_callback_fn.htm
 tech.root: Rpc
 ms.assetid: D34F2902-80EE-4011-A837-2A8C21E5A136
-
 ms.date: 12/05/2018
 ms.keywords: RPC_INTERFACE_GROUP_IDLE_CALLBACK_FN, RPC_INTERFACE_GROUP_IDLE_CALLBACK_FN callback, RPC_INTERFACE_GROUP_IDLE_CALLBACK_FN callback function [RPC], rpc.rpc_interface_group_idle_callback_fn, rpcdce/RPC_INTERFACE_GROUP_IDLE_CALLBACK_FN
 ms.topic: callback
-f1_keywords: 
- - "rpcdce/RPC_INTERFACE_GROUP_IDLE_CALLBACK_FN"
+f1_keywords:
+- rpcdce/RPC_INTERFACE_GROUP_IDLE_CALLBACK_FN
 dev_langs:
- - c++
+- c++
 req.header: rpcdce.h
 req.include-header: Rpc.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Rpcdce.h
+- Rpcdce.h
 api_name:
- - RPC_INTERFACE_GROUP_IDLE_CALLBACK_FN
+- RPC_INTERFACE_GROUP_IDLE_CALLBACK_FN
 targetos: Windows
 req.typenames: 
 req.redist: 

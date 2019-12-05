@@ -1,19 +1,17 @@
 ---
 UID: NF:tom.ITextRange.GetPara
 title: ITextRange::GetPara (tom.h)
-
 description: Gets an ITextPara object with the paragraph attributes of the specified range.
 old-location: controls\ITextRange_GetPara.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\getpara.htm
-
 ms.date: 12/05/2018
 ms.keywords: GetPara, GetPara method [Windows Controls], GetPara method [Windows Controls],ITextRange interface, ITextRange interface [Windows Controls],GetPara method, ITextRange.GetPara, ITextRange::GetPara, _win32_ITextRange_GetPara, _win32_ITextRange_GetPara_cpp, controls.ITextRange_GetPara, controls._win32_ITextRange_GetPara, tom/ITextRange::GetPara
 ms.topic: method
-f1_keywords: 
- - "tom/ITextRange.GetPara"
+f1_keywords:
+- tom/ITextRange.GetPara
 dev_langs:
- - c++
+- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msftedit.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msftedit.dll
+- Msftedit.dll
 api_name:
- - ITextRange.GetPara
+- ITextRange.GetPara
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:structuredquerycondition.ICondition.GetInputTerms
 title: ICondition::GetInputTerms (structuredquerycondition.h)
-
 description: For a leaf node, ICondition::GetInputTerms retrieves information about what parts (or ranges) of the input string produced the property, the operation, and the value for the search condition node.
 old-location: search\_search_ICondition_GetInputTerms.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\icondition\getinputterms.htm
-
 ms.date: 12/05/2018
 ms.keywords: GetInputTerms, GetInputTerms method [search], GetInputTerms method [search],ICondition interface, ICondition interface [search],GetInputTerms method, ICondition.GetInputTerms, ICondition::GetInputTerms, _search_ICondition_GetInputTerms, search._search_ICondition_GetInputTerms, structuredquerycondition/ICondition::GetInputTerms
 ms.topic: method
-f1_keywords: 
- - "structuredquerycondition/ICondition.GetInputTerms"
+f1_keywords:
+- structuredquerycondition/ICondition.GetInputTerms
 dev_langs:
- - c++
+- c++
 req.header: structuredquerycondition.h
 req.include-header: Structuredquery.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - structuredquerycondition.h
+- structuredquerycondition.h
 api_name:
- - ICondition.GetInputTerms
+- ICondition.GetInputTerms
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0

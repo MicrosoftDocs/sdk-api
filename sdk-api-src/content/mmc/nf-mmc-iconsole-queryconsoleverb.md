@@ -1,19 +1,17 @@
 ---
 UID: NF:mmc.IConsole.QueryConsoleVerb
 title: IConsole::QueryConsoleVerb (mmc.h)
-
 description: Queries for the IConsoleVerb interface.
 old-location: mmc\iconsole_queryconsoleverb.htm
 tech.root: mmc
 ms.assetid: 6C40014C-EBCC-455C-A575-4637B253439C
-
 ms.date: 12/05/2018
 ms.keywords: IConsole interface [MMC],QueryConsoleVerb method, IConsole.QueryConsoleVerb, IConsole::QueryConsoleVerb, QueryConsoleVerb, QueryConsoleVerb method [MMC], QueryConsoleVerb method [MMC],IConsole interface, mmc.iconsole_queryconsoleverb, mmc/IConsole::QueryConsoleVerb
 ms.topic: method
-f1_keywords: 
- - "mmc/IConsole.QueryConsoleVerb"
+f1_keywords:
+- mmc/IConsole.QueryConsoleVerb
 dev_langs:
- - c++
+- c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Mmcndmgr.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mmcndmgr.dll
+- Mmcndmgr.dll
 api_name:
- - IConsole.QueryConsoleVerb
+- IConsole.QueryConsoleVerb
 targetos: Windows
 req.typenames: 
 req.redist: 

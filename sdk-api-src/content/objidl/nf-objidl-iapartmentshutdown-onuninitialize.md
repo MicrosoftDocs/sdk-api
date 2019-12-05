@@ -1,19 +1,17 @@
 ---
 UID: NF:objidl.IApartmentShutdown.OnUninitialize
 title: IApartmentShutdown::OnUninitialize (objidl.h)
-
 description: Called when a registered apartment is shut down.
 old-location: winrt\iapartmentshutdown_onuninitialize.htm
 tech.root: WinRT
 ms.assetid: FAEBC952-EDCB-4855-AB2B-193B87E3ECF7
-
 ms.date: 12/05/2018
 ms.keywords: IApartmentShutdown interface [Windows Runtime],OnUninitialize method, IApartmentShutdown.OnUninitialize, IApartmentShutdown::OnUninitialize, OnUninitialize, OnUninitialize method [Windows Runtime], OnUninitialize method [Windows Runtime],IApartmentShutdown interface, objidl/IApartmentShutdown::OnUninitialize, winrt.iapartmentshutdown_onuninitialize
 ms.topic: method
-f1_keywords: 
- - "objidl/IApartmentShutdown.OnUninitialize"
+f1_keywords:
+- objidl/IApartmentShutdown.OnUninitialize
 dev_langs:
- - c++
+- c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - objidl.h
+- objidl.h
 api_name:
- - IApartmentShutdown.OnUninitialize
+- IApartmentShutdown.OnUninitialize
 targetos: Windows
 req.typenames: 
 req.redist: 

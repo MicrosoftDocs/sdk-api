@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d12.ID3D12Device.CreateQueryHeap
 title: ID3D12Device::CreateQueryHeap (d3d12.h)
-
 description: Creates a query heap. A query heap contains an array of queries.
 old-location: direct3d12\id3d12device_createqueryheap.htm
 tech.root: direct3d12
 ms.assetid: 98B238D0-8E4D-46C1-AC2C-09473A972E71
-
 ms.date: 12/05/2018
 ms.keywords: CreateQueryHeap, CreateQueryHeap method, CreateQueryHeap method,ID3D12Device interface, ID3D12Device interface,CreateQueryHeap method, ID3D12Device.CreateQueryHeap, ID3D12Device::CreateQueryHeap, d3d12/ID3D12Device::CreateQueryHeap, direct3d12.id3d12device_createqueryheap
 ms.topic: method
-f1_keywords: 
- - "d3d12/ID3D12Device.CreateQueryHeap"
+f1_keywords:
+- d3d12/ID3D12Device.CreateQueryHeap
 dev_langs:
- - c++
+- c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: D3D12.lib
 req.dll: D3D12.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D12.dll
+- D3D12.dll
 api_name:
- - ID3D12Device.CreateQueryHeap
+- ID3D12Device.CreateQueryHeap
 targetos: Windows
 req.typenames: 
 req.redist: 

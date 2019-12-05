@@ -1,19 +1,17 @@
 ---
 UID: NF:rpcdce.RpcEpRegisterNoReplaceA
 title: RpcEpRegisterNoReplaceA function (rpcdce.h)
-
 description: The RpcEpRegisterNoReplace function adds server-address information to the local endpoint-map database.
 old-location: rpc\rpcepregisternoreplace.htm
 tech.root: Rpc
 ms.assetid: eaf132a8-0bc2-4201-945a-76b6c2eab559
-
 ms.date: 12/05/2018
 ms.keywords: RpcEpRegisterNoReplace, RpcEpRegisterNoReplace function [RPC], RpcEpRegisterNoReplaceA, RpcEpRegisterNoReplaceW, _rpc_rpcepregisternoreplace, rpc.rpcepregisternoreplace, rpcdce/RpcEpRegisterNoReplace, rpcdce/RpcEpRegisterNoReplaceA, rpcdce/RpcEpRegisterNoReplaceW
 ms.topic: function
-f1_keywords: 
- - "rpcdce/RpcEpRegisterNoReplace"
+f1_keywords:
+- rpcdce/RpcEpRegisterNoReplace
 dev_langs:
- - c++
+- c++
 req.header: rpcdce.h
 req.include-header: Rpc.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Rpcrt4.lib
 req.dll: Rpcrt4.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Rpcrt4.dll
+- Rpcrt4.dll
 api_name:
- - RpcEpRegisterNoReplace
- - RpcEpRegisterNoReplaceA
- - RpcEpRegisterNoReplaceW
+- RpcEpRegisterNoReplace
+- RpcEpRegisterNoReplaceA
+- RpcEpRegisterNoReplaceW
 targetos: Windows
 req.typenames: 
 req.redist: 

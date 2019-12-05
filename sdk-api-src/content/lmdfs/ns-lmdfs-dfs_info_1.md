@@ -1,19 +1,17 @@
 ---
 UID: NS:lmdfs._DFS_INFO_1
 title: DFS_INFO_1 (lmdfs.h)
-
 description: Contains the name of a Distributed File System (DFS) root or link.
 old-location: dfs\dfs_info_1_str.htm
 tech.root: Dfs
 ms.assetid: 96647570-badd-4925-ab90-054a00ba04c4
-
 ms.date: 12/05/2018
-ms.keywords: "*LPDFS_INFO_1, *PDFS_INFO_1, DFS_INFO_1, DFS_INFO_1 structure [Distributed File System], LPDFS_INFO_1, LPDFS_INFO_1 structure pointer [Distributed File System], PDFS_INFO_1, PDFS_INFO_1 structure pointer [Distributed File System], _win32_dfs_info_1_str, dfs.dfs_info_1_str, fs.dfs_info_1_str, lmdfs/DFS_INFO_1, lmdfs/LPDFS_INFO_1, lmdfs/PDFS_INFO_1, netmgmt.dfs_info_1_str"
+ms.keywords: '*LPDFS_INFO_1, *PDFS_INFO_1, DFS_INFO_1, DFS_INFO_1 structure [Distributed File System], LPDFS_INFO_1, LPDFS_INFO_1 structure pointer [Distributed File System], PDFS_INFO_1, PDFS_INFO_1 structure pointer [Distributed File System], _win32_dfs_info_1_str, dfs.dfs_info_1_str, fs.dfs_info_1_str, lmdfs/DFS_INFO_1, lmdfs/LPDFS_INFO_1, lmdfs/PDFS_INFO_1, netmgmt.dfs_info_1_str'
 ms.topic: struct
-f1_keywords: 
- - "lmdfs/DFS_INFO_1"
+f1_keywords:
+- lmdfs/DFS_INFO_1
 dev_langs:
- - c++
+- c++
 req.header: lmdfs.h
 req.include-header: LmDfs.h, Lm.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - LmDfs.h
+- LmDfs.h
 api_name:
- - DFS_INFO_1
+- DFS_INFO_1
 targetos: Windows
 req.typenames: DFS_INFO_1, *PDFS_INFO_1, *LPDFS_INFO_1
 req.redist: 

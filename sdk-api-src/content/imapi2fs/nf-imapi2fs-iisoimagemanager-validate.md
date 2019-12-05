@@ -1,19 +1,17 @@
 ---
 UID: NF:imapi2fs.IIsoImageManager.Validate
 title: IIsoImageManager::Validate (imapi2fs.h)
-
 description: Determines if the provided .iso image is valid.
 old-location: imapi\iisoimagemanager_validate.htm
 tech.root: imapi
 ms.assetid: 0fd9f0fc-8a77-4b94-9111-c8ce223329b6
-
 ms.date: 12/05/2018
 ms.keywords: IIsoImageManager interface [IMAPI],Validate method, IIsoImageManager.Validate, IIsoImageManager::Validate, Validate, Validate method [IMAPI], Validate method [IMAPI],IIsoImageManager interface, imapi.iisoimagemanager_validate, imapi2fs/IIsoImageManager::Validate
 ms.topic: method
-f1_keywords: 
- - "imapi2fs/IIsoImageManager.Validate"
+f1_keywords:
+- imapi2fs/IIsoImageManager.Validate
 dev_langs:
- - c++
+- c++
 req.header: imapi2fs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - imapi2fs.h
+- imapi2fs.h
 api_name:
- - IIsoImageManager.Validate
+- IIsoImageManager.Validate
 targetos: Windows
 req.typenames: 
 req.redist: 

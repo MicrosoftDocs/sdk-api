@@ -1,19 +1,17 @@
 ---
 UID: NN:identityprovider.IAssociatedIdentityProvider
 title: IAssociatedIdentityProvider (identityprovider.h)
-
 description: Allows an identity provider to associate identities with local user accounts.
 old-location: security\iassociatedidentityprovider.htm
 tech.root: SecAuthN
 ms.assetid: 007d5daf-f0cf-4bfb-bd87-bb949bf90126
-
 ms.date: 12/05/2018
 ms.keywords: IAssociatedIdentityProvider, IAssociatedIdentityProvider interface [Security], IAssociatedIdentityProvider interface [Security],described, identityprovider/IAssociatedIdentityProvider, identitystore/IAssociatedIdentityProvider, security.iassociatedidentityprovider
 ms.topic: interface
-f1_keywords: 
- - "identityprovider/IAssociatedIdentityProvider"
+f1_keywords:
+- identityprovider/IAssociatedIdentityProvider
 dev_langs:
- - c++
+- c++
 req.header: identityprovider.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - IdentityProvider.h
- - Identitystore.h
+- IdentityProvider.h
+- Identitystore.h
 api_name:
- - IAssociatedIdentityProvider
+- IAssociatedIdentityProvider
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:certenroll.IX509CertificateRequestPkcs10.get_SuppressOids
 title: IX509CertificateRequestPkcs10::get_SuppressOids (certenroll.h)
-
 description: Retrieves a collection of the default extension and attribute object identifiers (OIDs) that were not added to the request when the request was encoded.
 old-location: security\ix509certificaterequestpkcs10_suppressoids_property.htm
 tech.root: seccertenroll
 ms.assetid: 3f7a6d23-00d3-4ab6-817a-a37490f0cb84
-
 ms.date: 12/05/2018
 ms.keywords: IX509CertificateRequestPkcs10 interface [Security],SuppressOids property, IX509CertificateRequestPkcs10.SuppressOids, IX509CertificateRequestPkcs10.get_SuppressOids, IX509CertificateRequestPkcs10::SuppressOids, IX509CertificateRequestPkcs10::get_SuppressOids, SuppressOids property [Security], SuppressOids property [Security],IX509CertificateRequestPkcs10 interface, certenroll/IX509CertificateRequestPkcs10::SuppressOids, certenroll/IX509CertificateRequestPkcs10::get_SuppressOids, get_SuppressOids, security.ix509certificaterequestpkcs10_suppressoids_property
 ms.topic: method
-f1_keywords: 
- - "certenroll/IX509CertificateRequestPkcs10.SuppressOids"
+f1_keywords:
+- certenroll/IX509CertificateRequestPkcs10.SuppressOids
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: CertEnroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CertEnroll.dll
+- CertEnroll.dll
 api_name:
- - IX509CertificateRequestPkcs10.SuppressOids
- - IX509CertificateRequestPkcs10.get_SuppressOids
+- IX509CertificateRequestPkcs10.SuppressOids
+- IX509CertificateRequestPkcs10.get_SuppressOids
 targetos: Windows
 req.typenames: 
 req.redist: 

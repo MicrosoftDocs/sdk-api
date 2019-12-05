@@ -1,19 +1,17 @@
 ---
 UID: NF:mmeapi.mixerGetID
 title: mixerGetID function (mmeapi.h)
-
 description: The mixerGetID function retrieves the device identifier for a mixer device associated with a specified device handle.
 old-location: multimedia\mixergetid.htm
 tech.root: Multimedia
 ms.assetid: e70d6be0-858c-4042-bfaf-6a62bafa269c
-
 ms.date: 12/05/2018
-ms.keywords: "_win32_mixerGetID, mixerGetID, mixerGetID function [Windows Multimedia], mmeapi/mixerGetID, multimedia.mixergetid"
+ms.keywords: _win32_mixerGetID, mixerGetID, mixerGetID function [Windows Multimedia], mmeapi/mixerGetID, multimedia.mixergetid
 ms.topic: function
-f1_keywords: 
- - "mmeapi/mixerGetID"
+f1_keywords:
+- mmeapi/mixerGetID
 dev_langs:
- - c++
+- c++
 req.header: mmeapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Winmm.lib
 req.dll: Winmm.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Winmm.dll
- - API-MS-Win-mm-mme-l1-1-0.dll
- - winmmbase.dll
+- Winmm.dll
+- API-MS-Win-mm-mme-l1-1-0.dll
+- winmmbase.dll
 api_name:
- - mixerGetID
+- mixerGetID
 targetos: Windows
 req.typenames: 
 req.redist: 

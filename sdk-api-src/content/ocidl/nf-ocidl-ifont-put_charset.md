@@ -1,19 +1,17 @@
 ---
 UID: NF:ocidl.IFont.put_Charset
 title: IFont::put_Charset (ocidl.h)
-
 description: Sets the font's character set.
 old-location: com\ifont_put_charset.htm
 tech.root: com
 ms.assetid: da48fefa-28d2-41aa-a324-dc259504c9ed
-
 ms.date: 12/05/2018
 ms.keywords: IFont interface [COM],put_Charset method, IFont.put_Charset, IFont::put_Charset, _ctrl_ifont_put_charset, com.ifont_put_charset, ocidl/IFont::put_Charset, put_Charset, put_Charset method [COM], put_Charset method [COM],IFont interface
 ms.topic: method
-f1_keywords: 
- - "ocidl/IFont.put_Charset"
+f1_keywords:
+- ocidl/IFont.put_Charset
 dev_langs:
- - c++
+- c++
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - OCIdl.h
+- OCIdl.h
 api_name:
- - IFont.put_Charset
+- IFont.put_Charset
 targetos: Windows
 req.typenames: 
 req.redist: 

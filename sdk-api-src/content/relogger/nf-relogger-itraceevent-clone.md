@@ -1,19 +1,17 @@
 ---
 UID: NF:relogger.ITraceEvent.Clone
 title: ITraceEvent::Clone (relogger.h)
-
 description: Creates a duplicate copy of an event.
 old-location: etw\ievent_clone.htm
 tech.root: ETW
 ms.assetid: a4fa29f4-a265-4b42-a499-bc53566dc889
-
 ms.date: 12/05/2018
 ms.keywords: Clone, Clone method [ETW], Clone method [ETW],ITraceEvent interface, ITraceEvent interface [ETW],Clone method, ITraceEvent.Clone, ITraceEvent::Clone, etw.ievent_clone, relogger/ITraceEvent::Clone
 ms.topic: method
-f1_keywords: 
- - "relogger/ITraceEvent.Clone"
+f1_keywords:
+- relogger/ITraceEvent.Clone
 dev_langs:
- - c++
+- c++
 req.header: relogger.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Relogger.h
+- Relogger.h
 api_name:
- - ITraceEvent.Clone
+- ITraceEvent.Clone
 targetos: Windows
 req.typenames: 
 req.redist: 

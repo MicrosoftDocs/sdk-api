@@ -1,19 +1,17 @@
 ---
 UID: NF:interactioncontext.AddPointerInteractionContext
 title: AddPointerInteractionContext function (interactioncontext.h)
-
 description: Include the specified pointer in the set of pointers processed by the Interaction Context object.
 old-location: input_intcontext\addpointerinteractioncontext.htm
 tech.root: Input_IntContext
 ms.assetid: a720284f-af50-4e55-ae48-c78a1e826dc4
-
 ms.date: 12/05/2018
 ms.keywords: AddPointerInteractionContext, AddPointerInteractionContext function, input_intcontext.addpointerinteractioncontext, interactioncontext.addpointerinteractioncontext, interactioncontext/AddPointerInteractionContext
 ms.topic: function
-f1_keywords: 
- - "interactioncontext/AddPointerInteractionContext"
+f1_keywords:
+- interactioncontext/AddPointerInteractionContext
 dev_langs:
- - c++
+- c++
 req.header: interactioncontext.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Ninput.lib
 req.dll: Ninput.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - ninput.dll
- - API-MS-Win-Input-IE-InteractionContext-l1-1-0.dll
- - IE_Shims.dll
+- ninput.dll
+- API-MS-Win-Input-IE-InteractionContext-l1-1-0.dll
+- IE_Shims.dll
 api_name:
- - AddPointerInteractionContext
+- AddPointerInteractionContext
 targetos: Windows
 req.typenames: 
 req.redist: 

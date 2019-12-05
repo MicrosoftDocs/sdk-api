@@ -1,19 +1,17 @@
 ---
 UID: NE:d3d12.D3D12_TEXTURE_ADDRESS_MODE
 title: D3D12_TEXTURE_ADDRESS_MODE (d3d12.h)
-
 description: Identifies a technique for resolving texture coordinates that are outside of the boundaries of a texture.
 old-location: direct3d12\d3d12_texture_address_mode.htm
 tech.root: direct3d12
 ms.assetid: 7F67C8B6-1B01-49C0-9900-AFDBEDE5508F
-
 ms.date: 12/05/2018
 ms.keywords: D3D12_TEXTURE_ADDRESS_MODE, D3D12_TEXTURE_ADDRESS_MODE enumeration, D3D12_TEXTURE_ADDRESS_MODE_BORDER, D3D12_TEXTURE_ADDRESS_MODE_CLAMP, D3D12_TEXTURE_ADDRESS_MODE_MIRROR, D3D12_TEXTURE_ADDRESS_MODE_MIRROR_ONCE, D3D12_TEXTURE_ADDRESS_MODE_WRAP, d3d12/D3D12_TEXTURE_ADDRESS_MODE, d3d12/D3D12_TEXTURE_ADDRESS_MODE_BORDER, d3d12/D3D12_TEXTURE_ADDRESS_MODE_CLAMP, d3d12/D3D12_TEXTURE_ADDRESS_MODE_MIRROR, d3d12/D3D12_TEXTURE_ADDRESS_MODE_MIRROR_ONCE, d3d12/D3D12_TEXTURE_ADDRESS_MODE_WRAP, direct3d12.d3d12_texture_address_mode
 ms.topic: enum
-f1_keywords: 
- - "d3d12/D3D12_TEXTURE_ADDRESS_MODE"
+f1_keywords:
+- d3d12/D3D12_TEXTURE_ADDRESS_MODE
 dev_langs:
- - c++
+- c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - D3D12.h
+- D3D12.h
 api_name:
- - D3D12_TEXTURE_ADDRESS_MODE
+- D3D12_TEXTURE_ADDRESS_MODE
 targetos: Windows
 req.typenames: D3D12_TEXTURE_ADDRESS_MODE
 req.redist: 

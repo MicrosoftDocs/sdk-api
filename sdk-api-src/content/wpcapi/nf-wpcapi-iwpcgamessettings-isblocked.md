@@ -1,19 +1,17 @@
 ---
 UID: NF:wpcapi.IWPCGamesSettings.IsBlocked
 title: IWPCGamesSettings::IsBlocked (wpcapi.h)
-
 description: Determines whether the specified game is blocked from execution.
 old-location: parcon\iwpcgamessettings_isblocked.htm
 tech.root: parcon
 ms.assetid: a8cdd3ca-8a0d-4e4a-8a54-eb3ddcab52ff
-
 ms.date: 12/05/2018
 ms.keywords: IWPCGamesSettings interface,IsBlocked method, IWPCGamesSettings.IsBlocked, IWPCGamesSettings::IsBlocked, IsBlocked, IsBlocked method, IsBlocked method,IWPCGamesSettings interface, parcon.iwpcgamessettings_isblocked, wpcapi/IWPCGamesSettings::IsBlocked
 ms.topic: method
-f1_keywords: 
- - "wpcapi/IWPCGamesSettings.IsBlocked"
+f1_keywords:
+- wpcapi/IWPCGamesSettings.IsBlocked
 dev_langs:
- - c++
+- c++
 req.header: wpcapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wpcapi.h
+- Wpcapi.h
 api_name:
- - IWPCGamesSettings.IsBlocked
+- IWPCGamesSettings.IsBlocked
 targetos: Windows
 req.typenames: 
 req.redist: 

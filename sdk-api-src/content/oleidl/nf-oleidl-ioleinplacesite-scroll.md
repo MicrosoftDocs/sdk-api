@@ -1,19 +1,17 @@
 ---
 UID: NF:oleidl.IOleInPlaceSite.Scroll
 title: IOleInPlaceSite::Scroll (oleidl.h)
-
 description: Instructs the container to scroll the view of the object by the specified number of pixels.
 old-location: com\ioleinplacesite_scroll.htm
 tech.root: com
 ms.assetid: a169c4c6-b600-4812-bf71-d7fcd7486ff1
-
 ms.date: 12/05/2018
 ms.keywords: IOleInPlaceSite interface [COM],Scroll method, IOleInPlaceSite.Scroll, IOleInPlaceSite::Scroll, IOleInPlaceSiteWindowless.Scroll, Scroll, Scroll method [COM], Scroll method [COM],IOleInPlaceSite interface, _ole_ioleinplacesite_scroll, com.ioleinplacesite_scroll, oleidl/IOleInPlaceSite::Scroll
 ms.topic: method
-f1_keywords: 
- - "oleidl/IOleInPlaceSite.Scroll"
+f1_keywords:
+- oleidl/IOleInPlaceSite.Scroll
 dev_langs:
- - c++
+- c++
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - OleIdl.h
- - browsewm.dll
+- OleIdl.h
+- browsewm.dll
 api_name:
- - IOleInPlaceSite.Scroll
- - IOleInPlaceSiteWindowless.Scroll
+- IOleInPlaceSite.Scroll
+- IOleInPlaceSiteWindowless.Scroll
 targetos: Windows
 req.typenames: 
 req.redist: 

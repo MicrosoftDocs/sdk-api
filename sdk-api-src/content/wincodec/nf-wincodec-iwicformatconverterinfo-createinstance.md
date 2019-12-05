@@ -1,19 +1,17 @@
 ---
 UID: NF:wincodec.IWICFormatConverterInfo.CreateInstance
 title: IWICFormatConverterInfo::CreateInstance (wincodec.h)
-
 description: Creates a new IWICFormatConverter instance.
 old-location: wic\_wic_codec_iwicformatconverterinfo_createinstance.htm
 tech.root: wic
 ms.assetid: 5b0f2cac-6bd7-46a8-884c-89735f3968a0
-
 ms.date: 12/05/2018
 ms.keywords: CreateInstance, CreateInstance method [Windows Imaging Component], CreateInstance method [Windows Imaging Component],IWICFormatConverterInfo interface, IWICFormatConverterInfo interface [Windows Imaging Component],CreateInstance method, IWICFormatConverterInfo.CreateInstance, IWICFormatConverterInfo::CreateInstance, _wic_codec_iwicformatconverterinfo_createinstance, wic._wic_codec_iwicformatconverterinfo_createinstance, wincodec/IWICFormatConverterInfo::CreateInstance
 ms.topic: method
-f1_keywords: 
- - "wincodec/IWICFormatConverterInfo.CreateInstance"
+f1_keywords:
+- wincodec/IWICFormatConverterInfo.CreateInstance
 dev_langs:
- - c++
+- c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Windowscodecs.lib
 req.dll: Windowscodecs.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Windowscodecs.dll
+- Windowscodecs.dll
 api_name:
- - IWICFormatConverterInfo.CreateInstance
+- IWICFormatConverterInfo.CreateInstance
 targetos: Windows
 req.typenames: 
 req.redist: 

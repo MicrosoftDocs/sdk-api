@@ -1,19 +1,17 @@
 ---
 UID: NF:combaseapi.CoRegisterActivationFilter
 title: CoRegisterActivationFilter function (combaseapi.h)
-
 description: Registers a process-wide filter to process activation requests.
 old-location: com\coregisteractivationfilter.htm
 tech.root: com
 ms.assetid: 4189633F-9B14-4EAD-84BD-F74355376164
-
 ms.date: 12/05/2018
 ms.keywords: CoRegisterActivationFilter, CoRegisterActivationFilter function [COM], com.coregisteractivationfilter, combaseapi/CoRegisterActivationFilter
 ms.topic: function
-f1_keywords: 
- - "combaseapi/CoRegisterActivationFilter"
+f1_keywords:
+- combaseapi/CoRegisterActivationFilter
 dev_langs:
- - c++
+- c++
 req.header: combaseapi.h
 req.include-header: Objbase.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Ole32.lib
 req.dll: Ole32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ole32.dll
- - ComBase.dll
+- Ole32.dll
+- ComBase.dll
 api_name:
- - CoRegisterActivationFilter
+- CoRegisterActivationFilter
 targetos: Windows
 req.typenames: 
 req.redist: 

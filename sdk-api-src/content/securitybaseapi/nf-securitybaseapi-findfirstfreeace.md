@@ -1,19 +1,17 @@
 ---
 UID: NF:securitybaseapi.FindFirstFreeAce
 title: FindFirstFreeAce function (securitybaseapi.h)
-
 description: Retrieves a pointer to the first free byte in an access control list (ACL).
 old-location: security\findfirstfreeace.htm
 tech.root: SecAuthZ
 ms.assetid: bf770761-008a-4a35-b31f-b781d5a8622b
-
 ms.date: 12/05/2018
 ms.keywords: FindFirstFreeAce, FindFirstFreeAce function [Security], _win32_findfirstfreeace, security.findfirstfreeace, securitybaseapi/FindFirstFreeAce
 ms.topic: function
-f1_keywords: 
- - "securitybaseapi/FindFirstFreeAce"
+f1_keywords:
+- securitybaseapi/FindFirstFreeAce
 dev_langs:
- - c++
+- c++
 req.header: securitybaseapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,21 +30,21 @@ req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Advapi32.dll
- - API-MS-Win-DownLevel-AdvApi32-l1-1-0.dll
- - KernelBase.dll
- - API-MS-Win-DownLevel-AdvApi32-l1-1-1.dll
- - API-MS-Win-Security-base-l1-1-0.dll
- - API-MS-Win-Security-base-l1-2-0.dll
- - MinKernelBase.dll
- - API-MS-Win-Security-Base-L1-2-1.dll
+- Advapi32.dll
+- API-MS-Win-DownLevel-AdvApi32-l1-1-0.dll
+- KernelBase.dll
+- API-MS-Win-DownLevel-AdvApi32-l1-1-1.dll
+- API-MS-Win-Security-base-l1-1-0.dll
+- API-MS-Win-Security-base-l1-2-0.dll
+- MinKernelBase.dll
+- API-MS-Win-Security-Base-L1-2-1.dll
 api_name:
- - FindFirstFreeAce
+- FindFirstFreeAce
 targetos: Windows
 req.typenames: 
 req.redist: 

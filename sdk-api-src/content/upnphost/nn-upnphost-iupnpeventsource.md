@@ -1,19 +1,17 @@
 ---
 UID: NN:upnphost.IUPnPEventSource
 title: IUPnPEventSource (upnphost.h)
-
 description: The IUPnPEventSource interface allows the device host to manage event subscriptions for the hosted service.
 old-location: upnp\iupnpeventsource.htm
 tech.root: upnp
 ms.assetid: f20dfcaa-b8fe-43c8-b353-067dad4cf2b4
-
 ms.date: 12/05/2018
 ms.keywords: IUPnPEventSource, IUPnPEventSource interface [UPnP APIs], IUPnPEventSource interface [UPnP APIs],described, _upnp_iupnpeventsource, upnp.iupnpeventsource, upnphost/IUPnPEventSource
 ms.topic: interface
-f1_keywords: 
- - "upnphost/IUPnPEventSource"
+f1_keywords:
+- upnphost/IUPnPEventSource
 dev_langs:
- - c++
+- c++
 req.header: upnphost.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Upnphost.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Upnphost.dll
+- Upnphost.dll
 api_name:
- - IUPnPEventSource
+- IUPnPEventSource
 targetos: Windows
 req.typenames: 
 req.redist: 

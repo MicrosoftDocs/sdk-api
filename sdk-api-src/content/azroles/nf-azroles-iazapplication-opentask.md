@@ -1,19 +1,17 @@
 ---
 UID: NF:azroles.IAzApplication.OpenTask
 title: IAzApplication::OpenTask (azroles.h)
-
 description: Opens an IAzTask object with the specified name.
 old-location: security\iazapplication_opentask.htm
 tech.root: SecAuthZ
 ms.assetid: 2d34a56d-ada8-4d7d-b026-4f1abfa290ac
-
 ms.date: 12/05/2018
 ms.keywords: AzApplication object [Security],OpenTask method, IAzApplication interface [Security],OpenTask method, IAzApplication.OpenTask, IAzApplication::OpenTask, OpenTask, OpenTask method [Security], OpenTask method [Security],AzApplication object, OpenTask method [Security],IAzApplication interface, azroles/IAzApplication::OpenTask, security.iazapplication_opentask
 ms.topic: method
-f1_keywords: 
- - "azroles/IAzApplication.OpenTask"
+f1_keywords:
+- azroles/IAzApplication.OpenTask
 dev_langs:
- - c++
+- c++
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Azroles.lib
 req.dll: Azroles.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Azroles.dll
+- Azroles.dll
 api_name:
- - IAzApplication.OpenTask
- - AzApplication.OpenTask
+- IAzApplication.OpenTask
+- AzApplication.OpenTask
 targetos: Windows
 req.typenames: 
 req.redist: Windows Server 2003 Administration Tools Pack on Windows XP

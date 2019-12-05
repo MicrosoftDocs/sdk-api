@@ -1,19 +1,17 @@
 ---
 UID: NF:windowsx.ListBox_SelectString
 title: ListBox_SelectString macro (windowsx.h)
-
 description: Searches a list box for an item that begins with the characters in a specified string. If a matching item is found, the item is selected. You can use this macro or send the LB_SELECTSTRING message explicitly.
 old-location: controls\ListBox_SelectString.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listboxes\listboxreference\listboxmacros\listbox_selectstring.htm
-
 ms.date: 12/05/2018
 ms.keywords: ListBox_SelectString, ListBox_SelectString macro [Windows Controls], _win32_ListBox_SelectString, _win32_ListBox_SelectString_cpp, controls.ListBox_SelectString, controls._win32_ListBox_SelectString, windowsx/ListBox_SelectString
 ms.topic: macro
-f1_keywords: 
- - "windowsx/ListBox_SelectString"
+f1_keywords:
+- windowsx/ListBox_SelectString
 dev_langs:
- - c++
+- c++
 req.header: windowsx.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Windowsx.h
+- Windowsx.h
 api_name:
- - ListBox_SelectString
+- ListBox_SelectString
 targetos: Windows
 req.typenames: 
 req.redist: 

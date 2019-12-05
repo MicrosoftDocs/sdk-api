@@ -1,19 +1,17 @@
 ---
 UID: NE:ipmib.__unnamed_enum_4
 title: ICMP4_TYPE (ipmib.h)
-
 description: Defines the set of Internet Control Message Protocol (ICMP) for IP version 4.0 (IPv4) message types.
 old-location: mib\icmp4_type.htm
 tech.root: MIB
 ms.assetid: e284ef78-d3ec-48a4-9d99-d23d84f9456e
-
 ms.date: 12/05/2018
-ms.keywords: "*PICMP4_TYPE, ICMP4_DST_UNREACH, ICMP4_ECHO_REPLY, ICMP4_ECHO_REQUEST, ICMP4_MASK_REPLY, ICMP4_MASK_REQUEST, ICMP4_PARAM_PROB, ICMP4_REDIRECT, ICMP4_ROUTER_ADVERT, ICMP4_ROUTER_SOLICIT, ICMP4_SOURCE_QUENCH, ICMP4_TIMESTAMP_REPLY, ICMP4_TIMESTAMP_REQUEST, ICMP4_TIME_EXCEEDED, ICMP4_TYPE, ICMP4_TYPE enumeration [MIB], PICMP4_TYPE, PICMP4_TYPE enumeration pointer [MIB], ipmib/ICMP4_DST_UNREACH, ipmib/ICMP4_ECHO_REPLY, ipmib/ICMP4_ECHO_REQUEST, ipmib/ICMP4_MASK_REPLY, ipmib/ICMP4_MASK_REQUEST, ipmib/ICMP4_PARAM_PROB, ipmib/ICMP4_REDIRECT, ipmib/ICMP4_ROUTER_ADVERT, ipmib/ICMP4_ROUTER_SOLICIT, ipmib/ICMP4_SOURCE_QUENCH, ipmib/ICMP4_TIMESTAMP_REPLY, ipmib/ICMP4_TIMESTAMP_REQUEST, ipmib/ICMP4_TIME_EXCEEDED, ipmib/ICMP4_TYPE, ipmib/PICMP4_TYPE, iprtrmib/ICMP4_DST_UNREACH, iprtrmib/ICMP4_ECHO_REPLY, iprtrmib/ICMP4_ECHO_REQUEST, iprtrmib/ICMP4_MASK_REPLY, iprtrmib/ICMP4_MASK_REQUEST, iprtrmib/ICMP4_PARAM_PROB, iprtrmib/ICMP4_REDIRECT, iprtrmib/ICMP4_ROUTER_ADVERT, iprtrmib/ICMP4_ROUTER_SOLICIT, iprtrmib/ICMP4_SOURCE_QUENCH, iprtrmib/ICMP4_TIMESTAMP_REPLY, iprtrmib/ICMP4_TIMESTAMP_REQUEST, iprtrmib/ICMP4_TIME_EXCEEDED, iprtrmib/ICMP4_TYPE, iprtrmib/PICMP4_TYPE, mib.icmp4_type"
+ms.keywords: '*PICMP4_TYPE, ICMP4_DST_UNREACH, ICMP4_ECHO_REPLY, ICMP4_ECHO_REQUEST, ICMP4_MASK_REPLY, ICMP4_MASK_REQUEST, ICMP4_PARAM_PROB, ICMP4_REDIRECT, ICMP4_ROUTER_ADVERT, ICMP4_ROUTER_SOLICIT, ICMP4_SOURCE_QUENCH, ICMP4_TIMESTAMP_REPLY, ICMP4_TIMESTAMP_REQUEST, ICMP4_TIME_EXCEEDED, ICMP4_TYPE, ICMP4_TYPE enumeration [MIB], PICMP4_TYPE, PICMP4_TYPE enumeration pointer [MIB], ipmib/ICMP4_DST_UNREACH, ipmib/ICMP4_ECHO_REPLY, ipmib/ICMP4_ECHO_REQUEST, ipmib/ICMP4_MASK_REPLY, ipmib/ICMP4_MASK_REQUEST, ipmib/ICMP4_PARAM_PROB, ipmib/ICMP4_REDIRECT, ipmib/ICMP4_ROUTER_ADVERT, ipmib/ICMP4_ROUTER_SOLICIT, ipmib/ICMP4_SOURCE_QUENCH, ipmib/ICMP4_TIMESTAMP_REPLY, ipmib/ICMP4_TIMESTAMP_REQUEST, ipmib/ICMP4_TIME_EXCEEDED, ipmib/ICMP4_TYPE, ipmib/PICMP4_TYPE, iprtrmib/ICMP4_DST_UNREACH, iprtrmib/ICMP4_ECHO_REPLY, iprtrmib/ICMP4_ECHO_REQUEST, iprtrmib/ICMP4_MASK_REPLY, iprtrmib/ICMP4_MASK_REQUEST, iprtrmib/ICMP4_PARAM_PROB, iprtrmib/ICMP4_REDIRECT, iprtrmib/ICMP4_ROUTER_ADVERT, iprtrmib/ICMP4_ROUTER_SOLICIT, iprtrmib/ICMP4_SOURCE_QUENCH, iprtrmib/ICMP4_TIMESTAMP_REPLY, iprtrmib/ICMP4_TIMESTAMP_REQUEST, iprtrmib/ICMP4_TIME_EXCEEDED, iprtrmib/ICMP4_TYPE, iprtrmib/PICMP4_TYPE, mib.icmp4_type'
 ms.topic: enum
-f1_keywords: 
- - "ipmib/ICMP4_TYPE"
+f1_keywords:
+- ipmib/ICMP4_TYPE
 dev_langs:
- - c++
+- c++
 req.header: ipmib.h
 req.include-header: Iphlpapi.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Ipmib.h
- - Iprtrmib.h
+- Ipmib.h
+- Iprtrmib.h
 api_name:
- - ICMP4_TYPE
+- ICMP4_TYPE
 targetos: Windows
 req.typenames: ICMP4_TYPE, *PICMP4_TYPE
 req.redist: 

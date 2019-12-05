@@ -1,19 +1,17 @@
 ---
 UID: NN:wmcodecdsp.IWMCodecProps
 title: IWMCodecProps (wmcodecdsp.h)
-
 description: Provides methods that retrieve format-specific codec properties.
 old-location: mf\iwmcodecpropsinterface.htm
 tech.root: medfound
 ms.assetid: b49e506b-8c87-44b9-be6c-b9a33f6c9ecb
-
 ms.date: 12/05/2018
 ms.keywords: IWMCodecProps, IWMCodecProps interface [Media Foundation], IWMCodecProps interface [Media Foundation],described, codecapi.iwmcodecpropsinterface, mf.iwmcodecprops, mf.iwmcodecpropsinterface, wmcodecdsp/IWMCodecProps
 ms.topic: interface
-f1_keywords: 
- - "wmcodecdsp/IWMCodecProps"
+f1_keywords:
+- wmcodecdsp/IWMCodecProps
 dev_langs:
- - c++
+- c++
 req.header: wmcodecdsp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmcodecdsp.h
+- wmcodecdsp.h
 api_name:
- - IWMCodecProps
+- IWMCodecProps
 targetos: Windows
 req.typenames: 
 req.redist: 

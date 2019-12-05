@@ -1,19 +1,17 @@
 ---
 UID: NE:d3d11.D3D11_BIND_FLAG
 title: D3D11_BIND_FLAG (d3d11.h)
-
 description: Identifies how to bind a resource to the pipeline.
 old-location: direct3d11\d3d11_bind_flag.htm
 tech.root: direct3d11
 ms.assetid: 4ffa1714-bd85-4d5a-930d-20526f46e4b9
-
 ms.date: 12/05/2018
 ms.keywords: D3D11_BIND_CONSTANT_BUFFER, D3D11_BIND_DECODER, D3D11_BIND_DEPTH_STENCIL, D3D11_BIND_FLAG, D3D11_BIND_FLAG enumeration [Direct3D 11], D3D11_BIND_INDEX_BUFFER, D3D11_BIND_RENDER_TARGET, D3D11_BIND_SHADER_RESOURCE, D3D11_BIND_STREAM_OUTPUT, D3D11_BIND_UNORDERED_ACCESS, D3D11_BIND_VERTEX_BUFFER, D3D11_BIND_VIDEO_ENCODER, d3d11/D3D11_BIND_CONSTANT_BUFFER, d3d11/D3D11_BIND_DECODER, d3d11/D3D11_BIND_DEPTH_STENCIL, d3d11/D3D11_BIND_FLAG, d3d11/D3D11_BIND_INDEX_BUFFER, d3d11/D3D11_BIND_RENDER_TARGET, d3d11/D3D11_BIND_SHADER_RESOURCE, d3d11/D3D11_BIND_STREAM_OUTPUT, d3d11/D3D11_BIND_UNORDERED_ACCESS, d3d11/D3D11_BIND_VERTEX_BUFFER, d3d11/D3D11_BIND_VIDEO_ENCODER, direct3d11.d3d11_bind_flag, f5054b36-4a79-15b3-51ed-9c008399e353
 ms.topic: enum
-f1_keywords: 
- - "d3d11/D3D11_BIND_FLAG"
+f1_keywords:
+- d3d11/D3D11_BIND_FLAG
 dev_langs:
- - c++
+- c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - D3D11.h
+- D3D11.h
 api_name:
- - D3D11_BIND_FLAG
+- D3D11_BIND_FLAG
 targetos: Windows
 req.typenames: D3D11_BIND_FLAG
 req.redist: 

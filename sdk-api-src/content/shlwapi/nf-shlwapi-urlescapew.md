@@ -1,19 +1,17 @@
 ---
 UID: NF:shlwapi.UrlEscapeW
 title: UrlEscapeW function (shlwapi.h)
-
 description: Converts characters or surrogate pairs in a URL that might be altered during transport across the Internet (&#0034;unsafe&#0034; characters) into their corresponding escape sequences.
 old-location: shell\UrlEscape.htm
 tech.root: shell
 ms.assetid: 52ee1501-2cd4-4193-8363-0af91673ec88
-
 ms.date: 12/05/2018
 ms.keywords: URL_BROWSER_MODE, URL_DONT_ESCAPE_EXTRA_INFO, URL_ESCAPE_ASCII_URI_COMPONENT, URL_ESCAPE_AS_UTF8, URL_ESCAPE_PERCENT, URL_ESCAPE_SEGMENT_ONLY, URL_ESCAPE_SPACES_ONLY, UrlEscape, UrlEscape function [Windows Shell], UrlEscapeA, UrlEscapeW, _win32_UrlEscape, shell.UrlEscape, shlwapi/UrlEscape, shlwapi/UrlEscapeA, shlwapi/UrlEscapeW
 ms.topic: function
-f1_keywords: 
- - "shlwapi/UrlEscape"
+f1_keywords:
+- shlwapi/UrlEscape
 dev_langs:
- - c++
+- c++
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,20 +30,20 @@ req.lib: Shlwapi.lib
 req.dll: Shlwapi.dll (version 5.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Shlwapi.dll
- - API-MS-Win-Core-url-l1-1-0.dll
- - KernelBase.dll
- - API-MS-Win-DownLevel-shlwapi-l1-1-0.dll
- - API-MS-Win-DownLevel-shlwapi-l1-1-1.dll
+- Shlwapi.dll
+- API-MS-Win-Core-url-l1-1-0.dll
+- KernelBase.dll
+- API-MS-Win-DownLevel-shlwapi-l1-1-0.dll
+- API-MS-Win-DownLevel-shlwapi-l1-1-1.dll
 api_name:
- - UrlEscape
- - UrlEscapeA
- - UrlEscapeW
+- UrlEscape
+- UrlEscapeA
+- UrlEscapeW
 targetos: Windows
 req.typenames: 
 req.redist: 

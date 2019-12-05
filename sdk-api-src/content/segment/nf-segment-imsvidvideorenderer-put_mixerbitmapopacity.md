@@ -1,19 +1,17 @@
 ---
 UID: NF:segment.IMSVidVideoRenderer.put_MixerBitmapOpacity
 title: IMSVidVideoRenderer::put_MixerBitmapOpacity (segment.h)
-
 description: The put_MixerBitmapOpacity method specifies the opacity of the static bitmap image.
 old-location: mstv\imsvidvideorenderer_put_mixerbitmapopacity.htm
 tech.root: mstv
 ms.assetid: 5dba67ab-9522-48a3-be09-8ed8c27bffee
-
 ms.date: 12/05/2018
 ms.keywords: IMSVidVideoRenderer interface [Microsoft TV Technologies],put_MixerBitmapOpacity method, IMSVidVideoRenderer.put_MixerBitmapOpacity, IMSVidVideoRenderer::put_MixerBitmapOpacity, IMSVidVideoRendererput_MixerBitmapOpacity, mstv.imsvidvideorenderer_put_mixerbitmapopacity, put_MixerBitmapOpacity, put_MixerBitmapOpacity method [Microsoft TV Technologies], put_MixerBitmapOpacity method [Microsoft TV Technologies],IMSVidVideoRenderer interface, segment/IMSVidVideoRenderer::put_MixerBitmapOpacity
 ms.topic: method
-f1_keywords: 
- - "segment/IMSVidVideoRenderer.put_MixerBitmapOpacity"
+f1_keywords:
+- segment/IMSVidVideoRenderer.put_MixerBitmapOpacity
 dev_langs:
- - c++
+- c++
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - segment.h
+- segment.h
 api_name:
- - IMSVidVideoRenderer.put_MixerBitmapOpacity
+- IMSVidVideoRenderer.put_MixerBitmapOpacity
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:wingdi.GetDIBColorTable
 title: GetDIBColorTable function (wingdi.h)
-
 description: The GetDIBColorTable function retrieves RGB (red, green, blue) color values from a range of entries in the color table of the DIB section bitmap that is currently selected into a specified device context.
 old-location: gdi\getdibcolortable.htm
 tech.root: gdi
 ms.assetid: 3e3319be-8a3d-4ac2-ba36-9dbf18243472
-
 ms.date: 12/05/2018
 ms.keywords: GetDIBColorTable, GetDIBColorTable function [Windows GDI], _win32_GetDIBColorTable, gdi.getdibcolortable, wingdi/GetDIBColorTable
 ms.topic: function
-f1_keywords: 
- - "wingdi/GetDIBColorTable"
+f1_keywords:
+- wingdi/GetDIBColorTable
 dev_langs:
- - c++
+- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - gdi32.dll
- - Ext-MS-Win-GDI-Draw-L1-1-2.dll
- - Ext-MS-Win-GDI-Draw-L1-1-3.dll
- - GDI32Full.dll
+- gdi32.dll
+- Ext-MS-Win-GDI-Draw-L1-1-2.dll
+- Ext-MS-Win-GDI-Draw-L1-1-3.dll
+- GDI32Full.dll
 api_name:
- - GetDIBColorTable
+- GetDIBColorTable
 targetos: Windows
 req.typenames: 
 req.redist: 

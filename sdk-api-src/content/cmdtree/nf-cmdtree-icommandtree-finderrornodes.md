@@ -1,19 +1,17 @@
 ---
 UID: NF:cmdtree.ICommandTree.FindErrorNodes
 title: ICommandTree::FindErrorNodes (cmdtree.h)
-
 description: The ICommandTree::FindErrorNodes method traverses a command tree and returns an array of nodes with errors in them.
 old-location: indexsrv\icommandtree_finderrornodes.htm
 tech.root: IndexSrv
 ms.assetid: VS|indexsrv|~\html\ixoledb_68tv.htm
-
 ms.date: 12/05/2018
 ms.keywords: FindErrorNodes, FindErrorNodes method [Indexing Service], FindErrorNodes method [Indexing Service],ICommandTree interface, ICommandTree interface [Indexing Service],FindErrorNodes method, ICommandTree.FindErrorNodes, ICommandTree::FindErrorNodes, _idxs_ICommandTree_FindErrorNodes, cmdtree/ICommandTree::FindErrorNodes, indexsrv.icommandtree_finderrornodes
 ms.topic: method
-f1_keywords: 
- - "cmdtree/ICommandTree.FindErrorNodes"
+f1_keywords:
+- cmdtree/ICommandTree.FindErrorNodes
 dev_langs:
- - c++
+- c++
 req.header: cmdtree.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - cmdtree.h
+- cmdtree.h
 api_name:
- - ICommandTree.FindErrorNodes
+- ICommandTree.FindErrorNodes
 targetos: Windows
 req.typenames: 
 req.redist: 

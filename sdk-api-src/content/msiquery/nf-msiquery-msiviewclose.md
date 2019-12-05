@@ -1,19 +1,17 @@
 ---
 UID: NF:msiquery.MsiViewClose
 title: MsiViewClose function (msiquery.h)
-
 description: The MsiViewClose function releases the result set for an executed view.
 old-location: setup\msiviewclose.htm
 tech.root: Msi
 ms.assetid: bd38be52-d76c-4f1b-bc29-12f93aac2aa9
-
 ms.date: 12/05/2018
 ms.keywords: MsiViewClose, MsiViewClose function, _msi_msiviewclose, msiquery/MsiViewClose, setup.msiviewclose
 ms.topic: function
-f1_keywords: 
- - "msiquery/MsiViewClose"
+f1_keywords:
+- msiquery/MsiViewClose
 dev_langs:
- - c++
+- c++
 req.header: msiquery.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Msi.lib
 req.dll: Msi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Msi.dll
+- Msi.dll
 api_name:
- - MsiViewClose
+- MsiViewClose
 targetos: Windows
 req.typenames: 
 req.redist: 

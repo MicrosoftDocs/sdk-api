@@ -1,19 +1,17 @@
 ---
 UID: NF:mfobjects.IMFAttributes.SetUnknown
 title: IMFAttributes::SetUnknown (mfobjects.h)
-
 description: Associates an IUnknown pointer with a key.
 old-location: mf\imfattributes_setunknown.htm
 tech.root: medfound
 ms.assetid: da0c3d59-07c4-4431-a137-8655ddbf6258
-
 ms.date: 12/05/2018
 ms.keywords: IMFAttributes interface [Media Foundation],SetUnknown method, IMFAttributes.SetUnknown, IMFAttributes::SetUnknown, SetUnknown, SetUnknown method [Media Foundation], SetUnknown method [Media Foundation],IMFAttributes interface, da0c3d59-07c4-4431-a137-8655ddbf6258, mf.imfattributes_setunknown, mfobjects/IMFAttributes::SetUnknown
 ms.topic: method
-f1_keywords: 
- - "mfobjects/IMFAttributes.SetUnknown"
+f1_keywords:
+- mfobjects/IMFAttributes.SetUnknown
 dev_langs:
- - c++
+- c++
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFAttributes.SetUnknown
+- IMFAttributes.SetUnknown
 targetos: Windows
 req.typenames: 
 req.redist: 

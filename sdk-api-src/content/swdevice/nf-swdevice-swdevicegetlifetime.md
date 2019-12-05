@@ -1,19 +1,17 @@
 ---
 UID: NF:swdevice.SwDeviceGetLifetime
 title: SwDeviceGetLifetime function (swdevice.h)
-
 description: Gets the lifetime of a software device.
 old-location: swdevice\swdevicegetlifetime.htm
 tech.root: swdevice
 ms.assetid: 62DF53E6-30C5-41D1-867A-9A5D288AADC7
-
 ms.date: 12/05/2018
 ms.keywords: SWDeviceLifetimeHandle, SWDeviceLifetimeParentPresent, SwDeviceGetLifetime, SwDeviceGetLifetime function, swdevice.swdevicegetlifetime, swdevice/SwDeviceGetLifetime
 ms.topic: function
-f1_keywords: 
- - "swdevice/SwDeviceGetLifetime"
+f1_keywords:
+- swdevice/SwDeviceGetLifetime
 dev_langs:
- - c++
+- c++
 req.header: swdevice.h
 req.include-header: 
 req.target-type: Universal
@@ -32,15 +30,15 @@ req.lib: Swdevice.lib; OneCoreUAP.lib on Windows 10
 req.dll: Cfgmgr32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Cfgmgr32.dll
- - API-MS-Win-devices-swdevice-l1-1-1.dll
+- Cfgmgr32.dll
+- API-MS-Win-devices-swdevice-l1-1-1.dll
 api_name:
- - SwDeviceGetLifetime
+- SwDeviceGetLifetime
 targetos: Windows
 req.typenames: 
 req.redist: 

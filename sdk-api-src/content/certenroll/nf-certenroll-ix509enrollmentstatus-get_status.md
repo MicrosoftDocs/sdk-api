@@ -1,19 +1,17 @@
 ---
 UID: NF:certenroll.IX509EnrollmentStatus.get_Status
 title: IX509EnrollmentStatus::get_Status (certenroll.h)
-
 description: Specifies or retrieves a value that indicates the status of the enrollment process.
 old-location: security\ix509enrollmentstatus_status_property.htm
 tech.root: seccertenroll
 ms.assetid: ca1105eb-a29a-458d-abbb-34c9b67d7c8a
-
 ms.date: 12/05/2018
 ms.keywords: IX509EnrollmentStatus interface [Security],Status property, IX509EnrollmentStatus.Status, IX509EnrollmentStatus.get_Status, IX509EnrollmentStatus::Status, IX509EnrollmentStatus::get_Status, IX509EnrollmentStatus::put_Status, Status property [Security], Status property [Security],IX509EnrollmentStatus interface, certenroll/IX509EnrollmentStatus::Status, certenroll/IX509EnrollmentStatus::get_Status, certenroll/IX509EnrollmentStatus::put_Status, get_Status, security.ix509enrollmentstatus_status_property
 ms.topic: method
-f1_keywords: 
- - "certenroll/IX509EnrollmentStatus.Status"
+f1_keywords:
+- certenroll/IX509EnrollmentStatus.Status
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: CertEnroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CertEnroll.dll
+- CertEnroll.dll
 api_name:
- - IX509EnrollmentStatus.Status
- - IX509EnrollmentStatus.get_Status
- - IX509EnrollmentStatus.put_Status
+- IX509EnrollmentStatus.Status
+- IX509EnrollmentStatus.get_Status
+- IX509EnrollmentStatus.put_Status
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:processthreadsapi.QueryProtectedPolicy
 title: QueryProtectedPolicy function (processthreadsapi.h)
-
 description: Queries the value associated with a protected policy.
 old-location: base\queryprotectedpolicy.htm
 tech.root: ProcThread
 ms.assetid: A9B37117-DE6A-426C-B554-2178247FD4C8
-
 ms.date: 12/05/2018
 ms.keywords: QueryProtectedPolicy, QueryProtectedPolicy function, base.getprotectedpolicy, base.queryprotectedpolicy, processthreadsapi/QueryProtectedPolicy
 ms.topic: function
-f1_keywords: 
- - "processthreadsapi/QueryProtectedPolicy"
+f1_keywords:
+- processthreadsapi/QueryProtectedPolicy
 dev_langs:
- - c++
+- c++
 req.header: processthreadsapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-Ms-Win-Core-ProcessThreads-L1-1-2.dll
- - API-Ms-Win-Core-ProcessThreads-L1-1-3.dll
- - KernelBase.dll
- - MinKernelBase.dll
+- Kernel32.dll
+- API-Ms-Win-Core-ProcessThreads-L1-1-2.dll
+- API-Ms-Win-Core-ProcessThreads-L1-1-3.dll
+- KernelBase.dll
+- MinKernelBase.dll
 api_name:
- - QueryProtectedPolicy
+- QueryProtectedPolicy
 targetos: Windows
 req.typenames: 
 req.redist: 

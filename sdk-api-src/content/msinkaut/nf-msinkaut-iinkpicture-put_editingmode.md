@@ -1,19 +1,17 @@
 ---
 UID: NF:msinkaut.IInkPicture.put_EditingMode
 title: IInkPicture::put_EditingMode (msinkaut.h)
-
 description: Gets or sets a value that specifies whether the InkPicture control is in ink mode, deletion mode, or selecting/editing mode.
 old-location: tablet\inkpicture_editingmode.htm
 tech.root: tablet
 ms.assetid: 5767f768-d59c-404e-9098-ab5e0c427c7d
-
 ms.date: 12/05/2018
 ms.keywords: 5767f768-d59c-404e-9098-ab5e0c427c7d, EditingMode property [Tablet PC], EditingMode property [Tablet PC],IInkPicture interface, IInkPicture interface [Tablet PC],EditingMode property, IInkPicture.EditingMode, IInkPicture.put_EditingMode, IInkPicture::EditingMode, IInkPicture::get_EditingMode, IInkPicture::put_EditingMode, InkPicture.get_EditingMode, InkPicture.put_EditingMode, get_EditingMode, msinkaut/IInkPicture::EditingMode, msinkaut/IInkPicture::get_EditingMode, msinkaut/IInkPicture::put_EditingMode, put_EditingMode, tablet.inkpicture_editingmode
 ms.topic: method
-f1_keywords: 
- - "msinkaut/IInkPicture.EditingMode"
+f1_keywords:
+- msinkaut/IInkPicture.EditingMode
 dev_langs:
- - c++
+- c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows
@@ -32,19 +30,19 @@ req.lib: InkObj.dll
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - InkObj.dll
- - InkObj.dll.dll
+- InkObj.dll
+- InkObj.dll.dll
 api_name:
- - IInkPicture.EditingMode
- - IInkPicture.get_EditingMode
- - IInkPicture.put_EditingMode
- - InkPicture.get_EditingMode
- - InkPicture.put_EditingMode
+- IInkPicture.EditingMode
+- IInkPicture.get_EditingMode
+- IInkPicture.put_EditingMode
+- InkPicture.get_EditingMode
+- InkPicture.put_EditingMode
 targetos: Windows
 req.typenames: 
 req.redist: 

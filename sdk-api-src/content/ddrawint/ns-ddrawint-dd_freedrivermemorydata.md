@@ -1,19 +1,17 @@
 ---
 UID: NS:ddrawint._DD_FREEDRIVERMEMORYDATA
 title: DD_FREEDRIVERMEMORYDATA (ddrawint.h)
-
 description: The DD_FREEDRIVERMEMORYDATA structure contains the details of the free request.
 old-location: display\dd_freedrivermemorydata.htm
 tech.root: display
 ms.assetid: 48a42f19-bb4f-4325-b68b-91f59a674771
-
 ms.date: 12/05/2018
 ms.keywords: '*PDD_FREEDRIVERMEMORYDATA, DD_FREEDRIVERMEMORYDATA, DD_FREEDRIVERMEMORYDATA structure [Display Devices], ddrawint/DD_FREEDRIVERMEMORYDATA, ddstrcts_a2d4a52f-25d5-4e02-8165-27ceadbddb36.xml, display.dd_freedrivermemorydata'
 ms.topic: struct
 f1_keywords:
 - ddrawint/DD_FREEDRIVERMEMORYDATA
 dev_langs:
- - c++
+- c++
 req.header: ddrawint.h
 req.include-header: Winddi.h
 req.target-type: Windows

@@ -1,19 +1,17 @@
 ---
 UID: NF:msaatext.IAccClientDocMgr.GetDocuments
 title: IAccClientDocMgr::GetDocuments (msaatext.h)
-
 description: Clients call IAccClientDocMgr::GetDocuments to get a list of all documents that have been registered with the Microsoft Active Accessibility run time.
 old-location: winauto\iaccclientdocmgr_iaccclientdocmgr__getdocuments.htm
 tech.root: WinAuto
 ms.assetid: 490a202b-1fb4-4f2e-a8f2-f9134a8a9daf
-
 ms.date: 12/05/2018
 ms.keywords: GetDocuments, GetDocuments method [Windows Accessibility], GetDocuments method [Windows Accessibility],IAccClientDocMgr interface, IAccClientDocMgr interface [Windows Accessibility],GetDocuments method, IAccClientDocMgr.GetDocuments, IAccClientDocMgr::GetDocuments, _msaa_IAccClientDocMgr_GetDocuments, msaa.iaccclientdocmgr_iaccclientdocmgr__getdocuments, msaatext/IAccClientDocMgr::GetDocuments, winauto.iaccclientdocmgr_iaccclientdocmgr__getdocuments
 ms.topic: method
-f1_keywords: 
- - "msaatext/IAccClientDocMgr.GetDocuments"
+f1_keywords:
+- msaatext/IAccClientDocMgr.GetDocuments
 dev_langs:
- - c++
+- c++
 req.header: msaatext.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msaatext.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msaatext.dll
+- msaatext.dll
 api_name:
- - IAccClientDocMgr.GetDocuments
+- IAccClientDocMgr.GetDocuments
 targetos: Windows
 req.typenames: 
 req.redist: Active Accessibility 2.0 RDK on Windows NT 4.0 with SP6 and later and Windows 98

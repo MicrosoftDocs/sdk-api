@@ -1,19 +1,17 @@
 ---
 UID: NF:immdev.ImmIsIME
 title: ImmIsIME function (immdev.h)
-
 description: Determines if the specified input locale has an IME.
 old-location: intl\immisime.htm
 tech.root: Intl
 ms.assetid: 87bd38ce-c82c-4a65-8157-fcd69bc79566
-
 ms.date: 12/05/2018
 ms.keywords: ImmIsIME, ImmIsIME function [Internationalization for Windows Applications], _win32_ImmIsIME, imm/ImmIsIME, intl.immisime
 ms.topic: function
-f1_keywords: 
- - "immdev/ImmIsIME"
+f1_keywords:
+- immdev/ImmIsIME
 dev_langs:
- - c++
+- c++
 req.header: immdev.h
 req.include-header: Immdev.h, Windows.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Imm32.lib
 req.dll: Imm32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Imm32.dll
- - Ext-MS-Win-imm-l1-1-0.dll
- - ext-ms-win-imm-l1-1-1.dll
+- Imm32.dll
+- Ext-MS-Win-imm-l1-1-0.dll
+- ext-ms-win-imm-l1-1-1.dll
 api_name:
- - ImmIsIME
+- ImmIsIME
 targetos: Windows
 req.typenames: 
 req.redist: 

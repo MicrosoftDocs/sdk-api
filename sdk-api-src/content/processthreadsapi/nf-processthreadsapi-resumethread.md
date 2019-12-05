@@ -1,19 +1,17 @@
 ---
 UID: NF:processthreadsapi.ResumeThread
 title: ResumeThread function (processthreadsapi.h)
-
 description: Decrements a thread's suspend count. When the suspend count is decremented to zero, the execution of the thread is resumed.
 old-location: base\resumethread.htm
 tech.root: ProcThread
 ms.assetid: ffc4e474-635b-4bf7-a68f-073899fb3fde
-
 ms.date: 12/05/2018
 ms.keywords: ResumeThread, ResumeThread function, _win32_resumethread, base.resumethread, processthreadsapi/ResumeThread, winbase/ResumeThread
 ms.topic: function
-f1_keywords: 
- - "processthreadsapi/ResumeThread"
+f1_keywords:
+- processthreadsapi/ResumeThread
 dev_langs:
- - c++
+- c++
 req.header: processthreadsapi.h
 req.include-header: Windows Server 2003, Windows Vista, Windows 7, Windows Server 2008  Windows Server 2008 R2, Windows.h
 req.target-type: Windows
@@ -32,21 +30,21 @@ req.lib: Kernel32.lib; WindowsPhoneCore.lib on Windows Phone 8.1
 req.dll: Kernel32.dll; KernelBase.dll on Windows Phone 8.1
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - KernelBase.dll
- - API-MS-Win-Core-ProcessThreads-l1-1-0.dll
- - MinKernelBase.dll
- - API-MS-Win-Core-ProcessThreads-l1-1-1.dll
- - API-MS-Win-Core-ProcessThreads-l1-1-2.dll
- - api-ms-win-downlevel-kernel32-l1-1-0.dll
- - API-MS-Win-Core-ProcessThreads-L1-1-3.dll
+- Kernel32.dll
+- KernelBase.dll
+- API-MS-Win-Core-ProcessThreads-l1-1-0.dll
+- MinKernelBase.dll
+- API-MS-Win-Core-ProcessThreads-l1-1-1.dll
+- API-MS-Win-Core-ProcessThreads-l1-1-2.dll
+- api-ms-win-downlevel-kernel32-l1-1-0.dll
+- API-MS-Win-Core-ProcessThreads-L1-1-3.dll
 api_name:
- - ResumeThread
+- ResumeThread
 targetos: Windows
 req.typenames: 
 req.redist: 

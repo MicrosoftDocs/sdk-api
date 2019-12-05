@@ -1,19 +1,17 @@
 ---
 UID: NF:shlobj.PathIsSlowA
 title: PathIsSlowA function (shlobj.h)
-
 description: PathIsSlow may be altered or unavailable.
 old-location: shell\PathIsSlow.htm
 tech.root: shell
 ms.assetid: f848a098-9248-453b-a957-77c35d70e528
-
 ms.date: 12/05/2018
 ms.keywords: PathIsSlow, PathIsSlow function [Windows Shell], PathIsSlowA, PathIsSlowW, _win32_PathIsSlow, shell.PathIsSlow, shlobj/PathIsSlow, shlobj/PathIsSlowA, shlobj/PathIsSlowW
 ms.topic: function
-f1_keywords: 
- - "shlobj/PathIsSlow"
+f1_keywords:
+- shlobj/PathIsSlow
 dev_langs:
- - c++
+- c++
 req.header: shlobj.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Shell32.lib
 req.dll: Shell32.dll (version 5.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - PathIsSlow
- - PathIsSlowA
- - PathIsSlowW
+- PathIsSlow
+- PathIsSlowA
+- PathIsSlowW
 targetos: Windows
 req.typenames: 
 req.redist: 

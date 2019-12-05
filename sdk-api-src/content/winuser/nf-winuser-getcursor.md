@@ -1,19 +1,17 @@
 ---
 UID: NF:winuser.GetCursor
 title: GetCursor function (winuser.h)
-
 description: Retrieves a handle to the current cursor.
 old-location: menurc\getcursor.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\cursors\cursorreference\cursorfunctions\getcursor.htm
-
 ms.date: 12/05/2018
 ms.keywords: GetCursor, GetCursor function [Menus and Other Resources], _win32_GetCursor, _win32_getcursor_cpp, menurc.getcursor, winui._win32_getcursor, winuser/GetCursor
 ms.topic: function
-f1_keywords: 
- - "winuser/GetCursor"
+f1_keywords:
+- winuser/GetCursor
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,22 +30,22 @@ req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - User32.dll
- - Ext-MS-Win-NTUser-GUI-l1-1-0.dll
- - Ext-MS-Win-NTUser-GUI-l1-1-1.dll
- - Ext-MS-Win-NTUser-GUI-l1-2-0.dll
- - api-ms-win-ntuser-ie-gui-l1-1-0.dll
- - ie_stubs.dll
- - ext-ms-win-ntuser-gui-l1-2-1.dll
- - Ext-MS-Win-RTCore-NTUser-Cursor-L1-1-0.dll
- - MinUser.dll
+- User32.dll
+- Ext-MS-Win-NTUser-GUI-l1-1-0.dll
+- Ext-MS-Win-NTUser-GUI-l1-1-1.dll
+- Ext-MS-Win-NTUser-GUI-l1-2-0.dll
+- api-ms-win-ntuser-ie-gui-l1-1-0.dll
+- ie_stubs.dll
+- ext-ms-win-ntuser-gui-l1-2-1.dll
+- Ext-MS-Win-RTCore-NTUser-Cursor-L1-1-0.dll
+- MinUser.dll
 api_name:
- - GetCursor
+- GetCursor
 targetos: Windows
 req.typenames: 
 req.redist: 

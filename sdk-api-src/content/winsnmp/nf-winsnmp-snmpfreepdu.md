@@ -1,19 +1,17 @@
 ---
 UID: NF:winsnmp.SnmpFreePdu
 title: SnmpFreePdu function (winsnmp.h)
-
 description: The WinSNMP SnmpFreePdu function releases resources associated with an SNMP protocol data unit (PDU) created by the SnmpCreatePdu or the SnmpDuplicatePdu function.
 old-location: snmp\snmpfreepdu.htm
 tech.root: SNMP
 ms.assetid: 243e52aa-2b05-4c41-9f89-cf9c66517da6
-
 ms.date: 12/05/2018
 ms.keywords: SnmpFreePdu, SnmpFreePdu function [SNMP], _snmp_snmpfreepdu, snmp.snmpfreepdu, winsnmp/SnmpFreePdu
 ms.topic: function
-f1_keywords: 
- - "winsnmp/SnmpFreePdu"
+f1_keywords:
+- winsnmp/SnmpFreePdu
 dev_langs:
- - c++
+- c++
 req.header: winsnmp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Wsnmp32.lib
 req.dll: Wsnmp32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Wsnmp32.dll
+- Wsnmp32.dll
 api_name:
- - SnmpFreePdu
+- SnmpFreePdu
 targetos: Windows
 req.typenames: 
 req.redist: 

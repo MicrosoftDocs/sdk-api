@@ -1,19 +1,17 @@
 ---
 UID: NE:objidl.tagGLOBALOPT_UNMARSHALING_POLICY_VALUES
 title: GLOBALOPT_UNMARSHALING_POLICY_VALUES (objidl.h)
-
 description: Provides values for the COM unmarshaling policy global option.
 old-location: com\globalopt_unmarshaling_policy_values.htm
 tech.root: com
 ms.assetid: 7F557290-7162-4B32-880B-9A445A083F91
-
 ms.date: 12/05/2018
 ms.keywords: COMGLB_UNMARSHALING_POLICY_HYBRID, COMGLB_UNMARSHALING_POLICY_NORMAL, COMGLB_UNMARSHALING_POLICY_STRONG, GLOBALOPT_UNMARSHALING_POLICY_VALUES, GLOBALOPT_UNMARSHALING_POLICY_VALUES enumeration [COM], com.globalopt_unmarshaling_policy_values, objidl/COMGLB_UNMARSHALING_POLICY_HYBRID, objidl/COMGLB_UNMARSHALING_POLICY_NORMAL, objidl/COMGLB_UNMARSHALING_POLICY_STRONG, objidl/GLOBALOPT_UNMARSHALING_POLICY_VALUES
 ms.topic: enum
-f1_keywords: 
- - "objidl/GLOBALOPT_UNMARSHALING_POLICY_VALUES"
+f1_keywords:
+- objidl/GLOBALOPT_UNMARSHALING_POLICY_VALUES
 dev_langs:
- - c++
+- c++
 req.header: objidl.h
 req.include-header: Objidlbase.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - objidl.h
+- objidl.h
 api_name:
- - GLOBALOPT_UNMARSHALING_POLICY_VALUES
+- GLOBALOPT_UNMARSHALING_POLICY_VALUES
 targetos: Windows
 req.typenames: GLOBALOPT_UNMARSHALING_POLICY_VALUES
 req.redist: 

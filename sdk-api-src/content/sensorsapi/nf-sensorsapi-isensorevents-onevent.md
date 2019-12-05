@@ -1,19 +1,17 @@
 ---
 UID: NF:sensorsapi.ISensorEvents.OnEvent
 title: ISensorEvents::OnEvent (sensorsapi.h)
-
 description: Provides custom event notifications.
 old-location: winsensors_com_ref\isensorevents_onevent.htm
 tech.root: SensorsAPI
 ms.assetid: 7dfe25d1-dc0e-4e97-8dad-ca66a829aa4c
-
 ms.date: 12/05/2018
 ms.keywords: ISensorEvents interface,OnEvent method, ISensorEvents.OnEvent, ISensorEvents::OnEvent, OnEvent, OnEvent method, OnEvent method,ISensorEvents interface, sensorsapi/ISensorEvents::OnEvent, winsensors_com_ref.isensorevents_onevent
 ms.topic: method
-f1_keywords: 
- - "sensorsapi/ISensorEvents.OnEvent"
+f1_keywords:
+- sensorsapi/ISensorEvents.OnEvent
 dev_langs:
- - c++
+- c++
 req.header: sensorsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Sensorsapi.lib
 req.dll: Sensorsapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - sensorsapi.dll
+- sensorsapi.dll
 api_name:
- - ISensorEvents.OnEvent
+- ISensorEvents.OnEvent
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NE:cmdtree.DBCOMMANDOPENUM
 title: DBCOMMANDOPENUM (cmdtree.h)
-
 description: The DBCOMMANDOPENUM enumerated type contains a list of the possible command operators for nodes in a command tree.
 old-location: indexsrv\dbcommandopenum.htm
 tech.root: IndexSrv
 ms.assetid: VS|indexsrv|~\html\ixoledb_6yp9.htm
-
 ms.date: 12/05/2018
 ms.keywords: DBCOMMANDOPENUM, DBCOMMANDOPENUM enumeration [Indexing Service], See below., _idxs_DBCOMMANDOPENUM, cmdtree/DBCOMMANDOPENUM, cmdtree/See below., indexsrv.dbcommandopenum
 ms.topic: enum
-f1_keywords: 
- - "cmdtree/DBCOMMANDOPENUM"
+f1_keywords:
+- cmdtree/DBCOMMANDOPENUM
 dev_langs:
- - c++
+- c++
 req.header: cmdtree.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - cmdtree.h
+- cmdtree.h
 api_name:
- - DBCOMMANDOPENUM
+- DBCOMMANDOPENUM
 targetos: Windows
 req.typenames: 
 req.redist: 

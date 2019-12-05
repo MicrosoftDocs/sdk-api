@@ -1,19 +1,17 @@
 ---
 UID: NS:winuser.tagMOUSEINPUT
 title: MOUSEINPUT (winuser.h)
-
 description: Contains information about a simulated mouse event.
 old-location: inputdev\mouseinput.htm
 tech.root: inputdev
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\keyboardinput\keyboardinputreference\keyboardinputstructures\mouseinput.htm
-
 ms.date: 12/05/2018
-ms.keywords: "*LPMOUSEINPUT, *PMOUSEINPUT, MOUSEEVENTF_ABSOLUTE, MOUSEEVENTF_HWHEEL, MOUSEEVENTF_LEFTDOWN, MOUSEEVENTF_LEFTUP, MOUSEEVENTF_MIDDLEDOWN, MOUSEEVENTF_MIDDLEUP, MOUSEEVENTF_MOVE, MOUSEEVENTF_MOVE_NOCOALESCE, MOUSEEVENTF_RIGHTDOWN, MOUSEEVENTF_RIGHTUP, MOUSEEVENTF_VIRTUALDESK, MOUSEEVENTF_WHEEL, MOUSEEVENTF_XDOWN, MOUSEEVENTF_XUP, MOUSEINPUT, MOUSEINPUT structure [Keyboard and Mouse Input], PMOUSEINPUT, PMOUSEINPUT structure pointer [Keyboard and Mouse Input], XBUTTON1, XBUTTON2, _win32_MOUSEINPUT_str, _win32_mouseinput_str_cpp, inputdev.mouseinput, winui._win32_mouseinput_str, winuser/MOUSEINPUT, winuser/PMOUSEINPUT"
+ms.keywords: '*LPMOUSEINPUT, *PMOUSEINPUT, MOUSEEVENTF_ABSOLUTE, MOUSEEVENTF_HWHEEL, MOUSEEVENTF_LEFTDOWN, MOUSEEVENTF_LEFTUP, MOUSEEVENTF_MIDDLEDOWN, MOUSEEVENTF_MIDDLEUP, MOUSEEVENTF_MOVE, MOUSEEVENTF_MOVE_NOCOALESCE, MOUSEEVENTF_RIGHTDOWN, MOUSEEVENTF_RIGHTUP, MOUSEEVENTF_VIRTUALDESK, MOUSEEVENTF_WHEEL, MOUSEEVENTF_XDOWN, MOUSEEVENTF_XUP, MOUSEINPUT, MOUSEINPUT structure [Keyboard and Mouse Input], PMOUSEINPUT, PMOUSEINPUT structure pointer [Keyboard and Mouse Input], XBUTTON1, XBUTTON2, _win32_MOUSEINPUT_str, _win32_mouseinput_str_cpp, inputdev.mouseinput, winui._win32_mouseinput_str, winuser/MOUSEINPUT, winuser/PMOUSEINPUT'
 ms.topic: struct
-f1_keywords: 
- - "winuser/MOUSEINPUT"
+f1_keywords:
+- winuser/MOUSEINPUT
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Winuser.h
+- Winuser.h
 api_name:
- - MOUSEINPUT
+- MOUSEINPUT
 targetos: Windows
 req.typenames: MOUSEINPUT, *PMOUSEINPUT, *LPMOUSEINPUT
 req.redist: 

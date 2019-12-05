@@ -1,19 +1,17 @@
 ---
 UID: NF:peerdist.PeerDistGetStatus
 title: PeerDistGetStatus function (peerdist.h)
-
 description: PeerDistGetStatus function returns the current status of the Peer Distribution service.
 old-location: p2p\peerdistgetstatus.htm
 tech.root: P2PSdk
 ms.assetid: 1ab188cc-db79-49b2-977f-0b8fccf7f274
-
 ms.date: 12/05/2018
 ms.keywords: PeerDistGetStatus, PeerDistGetStatus function [Peer Networking], p2p.peerdistgetstatus, peerdist/PeerDistGetStatus
 ms.topic: function
-f1_keywords: 
- - "peerdist/PeerDistGetStatus"
+f1_keywords:
+- peerdist/PeerDistGetStatus
 dev_langs:
- - c++
+- c++
 req.header: peerdist.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: PeerDist.lib
 req.dll: PeerDist.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - PeerDist.dll
+- PeerDist.dll
 api_name:
- - PeerDistGetStatus
+- PeerDistGetStatus
 targetos: Windows
 req.typenames: 
 req.redist: 

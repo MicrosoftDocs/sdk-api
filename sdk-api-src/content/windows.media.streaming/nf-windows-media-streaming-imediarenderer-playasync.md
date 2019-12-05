@@ -1,19 +1,17 @@
 ---
 UID: NF:windows.media.streaming.IMediaRenderer.PlayAsync
 title: IMediaRenderer::streaming (windows.media.streaming.h)
-
 description: Instructs the DMR asynchronously to play the content that was specified by calling the SetSourceFromUriAsync, SetSourceFromStreamAsync, or SetSourceFromMediaSourceAsync method.
 old-location: mediastreaming\imediarenderer_playasync.htm
 tech.root: mediastreaming
 ms.assetid: 32084664-2D1B-4303-B3B7-9B896A07CB17
-
 ms.date: 12/05/2018
 ms.keywords: IMediaRenderer interface [Media Streaming API],PlayAsync method, IMediaRenderer.PlayAsync, IMediaRenderer.streaming, IMediaRenderer::PlayAsync, IMediaRenderer::streaming, PlayAsync, PlayAsync method [Media Streaming API], PlayAsync method [Media Streaming API],IMediaRenderer interface, mediastreaming.imediarenderer_playasync, windows/IMediaRenderer::PlayAsync
 ms.topic: method
-f1_keywords: 
- - "windows.media.streaming/IMediaRenderer.PlayAsync"
+f1_keywords:
+- windows.media.streaming/IMediaRenderer.PlayAsync
 dev_langs:
- - c++
+- c++
 req.header: windows.media.streaming.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - windows.media.streaming.h
+- windows.media.streaming.h
 api_name:
- - IMediaRenderer.PlayAsync
+- IMediaRenderer.PlayAsync
 targetos: Windows
 req.typenames: 
 req.redist: 

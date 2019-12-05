@@ -1,19 +1,17 @@
 ---
 UID: NF:certenroll.IX509SignatureInformation.put_Parameters
 title: IX509SignatureInformation::put_Parameters (certenroll.h)
-
 description: Retrieves a byte array that contains the parameters associated with the signature algorithm.
 old-location: security\ix509signatureinformation_parameters_property.htm
 tech.root: seccertenroll
 ms.assetid: cb5675d5-cf06-4407-a7fd-b703a56cacba
-
 ms.date: 12/05/2018
 ms.keywords: IX509SignatureInformation interface [Security],Parameters property, IX509SignatureInformation.Parameters, IX509SignatureInformation.put_Parameters, IX509SignatureInformation::Parameters, IX509SignatureInformation::get_Parameters, IX509SignatureInformation::put_Parameters, Parameters property [Security], Parameters property [Security],IX509SignatureInformation interface, certenroll/IX509SignatureInformation::Parameters, certenroll/IX509SignatureInformation::get_Parameters, certenroll/IX509SignatureInformation::put_Parameters, put_Parameters, security.ix509signatureinformation_parameters_property
 ms.topic: method
-f1_keywords: 
- - "certenroll/IX509SignatureInformation.Parameters"
+f1_keywords:
+- certenroll/IX509SignatureInformation.Parameters
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: CertEnroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CertEnroll.dll
+- CertEnroll.dll
 api_name:
- - IX509SignatureInformation.Parameters
- - IX509SignatureInformation.get_Parameters
- - IX509SignatureInformation.put_Parameters
+- IX509SignatureInformation.Parameters
+- IX509SignatureInformation.get_Parameters
+- IX509SignatureInformation.put_Parameters
 targetos: Windows
 req.typenames: 
 req.redist: 

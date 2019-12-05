@@ -1,19 +1,17 @@
 ---
 UID: NN:mmc.IConsole
 title: IConsole (mmc.h)
-
 description: Enables communication with the console.
 old-location: mmc\iconsole.htm
 tech.root: mmc
 ms.assetid: 65154EB1-ABE5-4C4F-8B09-08633D82FD62
-
 ms.date: 12/05/2018
 ms.keywords: IConsole, IConsole interface [MMC], IConsole interface [MMC],described, mmc.iconsole, mmc/IConsole
 ms.topic: interface
-f1_keywords: 
- - "mmc/IConsole"
+f1_keywords:
+- mmc/IConsole
 dev_langs:
- - c++
+- c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Mmcndmgr.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mmcndmgr.dll
+- Mmcndmgr.dll
 api_name:
- - IConsole
+- IConsole
 targetos: Windows
 req.typenames: 
 req.redist: 

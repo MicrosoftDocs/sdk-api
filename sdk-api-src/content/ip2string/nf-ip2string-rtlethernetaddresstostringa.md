@@ -1,19 +1,17 @@
 ---
 UID: NF:ip2string.RtlEthernetAddressToStringA
 title: RtlEthernetAddressToStringA function (ip2string.h)
-
 description: Converts a binary Ethernet address to a string representation of the Ethernet MAC address.
 old-location: iphlp\rtlethernetaddresstostring.htm
 tech.root: IpHlp
 ms.assetid: 5DE1A1EF-86B3-4414-A21F-90635B48242A
-
 ms.date: 12/05/2018
 ms.keywords: RtlEthernetAddressToString, RtlEthernetAddressToString function [IP Helper], RtlEthernetAddressToStringA, RtlEthernetAddressToStringW, ip2string/RtlEthernetAddressToString, ip2string/RtlEthernetAddressToStringA, ip2string/RtlEthernetAddressToStringW, iphlp.rtlethernetaddresstostring
 ms.topic: function
-f1_keywords: 
- - "ip2string/RtlEthernetAddressToString"
+f1_keywords:
+- ip2string/RtlEthernetAddressToString
 dev_langs:
- - c++
+- c++
 req.header: ip2string.h
 req.include-header: Mstcpip.h, Ip2string.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: Ntdll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ntdll.dll
+- Ntdll.dll
 api_name:
- - RtlEthernetAddressToString
- - RtlEthernetAddressToStringA
- - RtlEthernetAddressToStringW
+- RtlEthernetAddressToString
+- RtlEthernetAddressToStringA
+- RtlEthernetAddressToStringW
 targetos: Windows
 req.typenames: 
 req.redist: 

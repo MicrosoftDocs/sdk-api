@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d11.ID3D11DeviceContext.HSSetShader
 title: ID3D11DeviceContext::HSSetShader (d3d11.h)
-
 description: Set a hull shader to the device.
 old-location: direct3d11\id3d11devicecontext_hssetshader.htm
 tech.root: direct3d11
 ms.assetid: e540f88f-fbf8-4135-b1ee-873ec18bc2c8
-
 ms.date: 12/05/2018
 ms.keywords: 12c23e83-63d7-9b87-4fe7-75e515f02660, HSSetShader, HSSetShader method [Direct3D 11], HSSetShader method [Direct3D 11],ID3D11DeviceContext interface, ID3D11DeviceContext interface [Direct3D 11],HSSetShader method, ID3D11DeviceContext.HSSetShader, ID3D11DeviceContext::HSSetShader, d3d11/ID3D11DeviceContext::HSSetShader, direct3d11.id3d11devicecontext_hssetshader
 ms.topic: method
-f1_keywords: 
- - "d3d11/ID3D11DeviceContext.HSSetShader"
+f1_keywords:
+- d3d11/ID3D11DeviceContext.HSSetShader
 dev_langs:
- - c++
+- c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: D3D11.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D11.lib
- - D3D11.dll
+- D3D11.lib
+- D3D11.dll
 api_name:
- - ID3D11DeviceContext.HSSetShader
+- ID3D11DeviceContext.HSSetShader
 targetos: Windows
 req.typenames: 
 req.redist: 

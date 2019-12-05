@@ -1,19 +1,17 @@
 ---
 UID: NF:cfgmgr32.CM_Get_Version
 title: CM_Get_Version function (cfgmgr32.h)
-
 description: The CM_Get_Version function returns version 4.0 of the Plug and Play (PnP) Configuration Manager DLL (Cfgmgr32.dll) for a local machine.
 old-location: devinst\cm_get_version.htm
 tech.root: devinst
 ms.assetid: 998c6c57-b242-4aa0-8c9f-cfff61d2a642
-
 ms.date: 12/05/2018
 ms.keywords: CM_Get_Version, CM_Get_Version function [Device and Driver Installation], cfgmgr32/CM_Get_Version, cfgmgrfn_505306b1-3e78-4de2-aa51-128fe87c17ed.xml, devinst.cm_get_version
 ms.topic: function
-f1_keywords: 
- - "cfgmgr32/CM_Get_Version"
+f1_keywords:
+- cfgmgr32/CM_Get_Version
 dev_langs:
- - c++
+- c++
 req.header: cfgmgr32.h
 req.include-header: Cfgmgr32.h
 req.target-type: Desktop
@@ -32,14 +30,14 @@ req.lib: Cfgmgr32.lib
 req.dll: Cfgmgr32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Cfgmgr32.dll
+- Cfgmgr32.dll
 api_name:
- - CM_Get_Version
+- CM_Get_Version
 targetos: Windows
 req.typenames: 
 req.redist: 

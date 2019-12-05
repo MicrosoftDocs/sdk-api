@@ -1,19 +1,17 @@
 ---
 UID: NF:xaudio2.IXAudio2SourceVoice.SubmitSourceBuffer
 title: IXAudio2SourceVoice::SubmitSourceBuffer (xaudio2.h)
-
 description: Adds a new audio buffer to the voice queue.
 old-location: xaudio2\ixaudio2sourcevoice_interface_submitsourcebuffer.htm
 tech.root: xaudio2
 ms.assetid: M:Microsoft.directx_sdk.ixaudio2sourcevoice.IXAudio2SourceVoice.SubmitSourceBuffer(const XAUDIO2_BUFFER,const XAUDIO2_BUFFER_WMA)
-
 ms.date: 12/05/2018
 ms.keywords: IXAudio2SourceVoice interface [XAudio2 Audio Mixing APIs],SubmitSourceBuffer method, IXAudio2SourceVoice.SubmitSourceBuffer, IXAudio2SourceVoice::SubmitSourceBuffer, SubmitSourceBuffer, SubmitSourceBuffer method [XAudio2 Audio Mixing APIs], SubmitSourceBuffer method [XAudio2 Audio Mixing APIs],IXAudio2SourceVoice interface, xaudio2.ixaudio2sourcevoice_interface_submitsourcebuffer, xaudio2/IXAudio2SourceVoice::SubmitSourceBuffer
 ms.topic: method
-f1_keywords: 
- - "xaudio2/IXAudio2SourceVoice.SubmitSourceBuffer"
+f1_keywords:
+- xaudio2/IXAudio2SourceVoice.SubmitSourceBuffer
 dev_langs:
- - c++
+- c++
 req.header: xaudio2.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xaudio2.h
+- xaudio2.h
 api_name:
- - IXAudio2SourceVoice.SubmitSourceBuffer
+- IXAudio2SourceVoice.SubmitSourceBuffer
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:windowsx.ListBox_FindItemData
 title: ListBox_FindItemData macro (windowsx.h)
-
 description: Finds the first item in a list box that has the specified item data. You can use this macro or send the LB_FINDSTRING message explicitly.
 old-location: controls\ListBox_FindItemData.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listboxes\listboxreference\listboxmacros\listbox_finditemdata.htm
-
 ms.date: 12/05/2018
 ms.keywords: ListBox_FindItemData, ListBox_FindItemData macro [Windows Controls], _win32_ListBox_FindItemData, _win32_ListBox_FindItemData_cpp, controls.ListBox_FindItemData, controls._win32_ListBox_FindItemData, windowsx/ListBox_FindItemData
 ms.topic: macro
-f1_keywords: 
- - "windowsx/ListBox_FindItemData"
+f1_keywords:
+- windowsx/ListBox_FindItemData
 dev_langs:
- - c++
+- c++
 req.header: windowsx.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Windowsx.h
+- Windowsx.h
 api_name:
- - ListBox_FindItemData
+- ListBox_FindItemData
 targetos: Windows
 req.typenames: 
 req.redist: 

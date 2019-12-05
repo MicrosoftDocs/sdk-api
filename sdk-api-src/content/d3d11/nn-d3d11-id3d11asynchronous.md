@@ -1,19 +1,17 @@
 ---
 UID: NN:d3d11.ID3D11Asynchronous
 title: ID3D11Asynchronous (d3d11.h)
-
 description: This interface encapsulates methods for retrieving data from the GPU asynchronously.
 old-location: direct3d11\id3d11asynchronous.htm
 tech.root: direct3d11
 ms.assetid: 37ff9dc0-5ec2-4cd5-b252-44e2dac45355
-
 ms.date: 12/05/2018
 ms.keywords: ID3D11Asynchronous, ID3D11Asynchronous interface [Direct3D 11], ID3D11Asynchronous interface [Direct3D 11],described, ba273b1e-153b-fd26-ff4e-e9755f4ea1f2, d3d11/ID3D11Asynchronous, direct3d11.id3d11asynchronous
 ms.topic: interface
-f1_keywords: 
- - "d3d11/ID3D11Asynchronous"
+f1_keywords:
+- d3d11/ID3D11Asynchronous
 dev_langs:
- - c++
+- c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: D3D11.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D11.lib
- - D3D11.dll
+- D3D11.lib
+- D3D11.dll
 api_name:
- - ID3D11Asynchronous
+- ID3D11Asynchronous
 targetos: Windows
 req.typenames: 
 req.redist: 

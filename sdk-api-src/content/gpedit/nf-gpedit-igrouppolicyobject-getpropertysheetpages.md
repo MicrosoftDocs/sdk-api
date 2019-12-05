@@ -1,19 +1,17 @@
 ---
 UID: NF:gpedit.IGroupPolicyObject.GetPropertySheetPages
 title: IGroupPolicyObject::GetPropertySheetPages (gpedit.h)
-
 description: The GetPropertySheetPages method retrieves the property sheet pages associated with the GPO.
 old-location: policy\igrouppolicyobject_getpropertysheetpages.htm
 tech.root: Policy
 ms.assetid: d464d5fc-64f0-4f34-bcc0-35d92e65f79b
-
 ms.date: 12/05/2018
 ms.keywords: GetPropertySheetPages, GetPropertySheetPages method [Group Policy], GetPropertySheetPages method [Group Policy],IGroupPolicyObject interface, IGroupPolicyObject interface [Group Policy],GetPropertySheetPages method, IGroupPolicyObject.GetPropertySheetPages, IGroupPolicyObject::GetPropertySheetPages, _win32_igrouppolicyobject_getpropertysheetpages, gpedit/IGroupPolicyObject::GetPropertySheetPages, policy.igrouppolicyobject_getpropertysheetpages
 ms.topic: method
-f1_keywords: 
- - "gpedit/IGroupPolicyObject.GetPropertySheetPages"
+f1_keywords:
+- gpedit/IGroupPolicyObject.GetPropertySheetPages
 dev_langs:
- - c++
+- c++
 req.header: gpedit.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Gpedit.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gpedit.dll
+- Gpedit.dll
 api_name:
- - IGroupPolicyObject.GetPropertySheetPages
+- IGroupPolicyObject.GetPropertySheetPages
 targetos: Windows
 req.typenames: 
 req.redist: 

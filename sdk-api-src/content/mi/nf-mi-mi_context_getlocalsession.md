@@ -1,19 +1,17 @@
 ---
 UID: NF:mi.MI_Context_GetLocalSession
 title: MI_Context_GetLocalSession function (mi.h)
-
 description: Gets the local session (MI_Session) which allows the provider to perform CIM operations against the local server hosting the provider.
 old-location: wmi_v2\mi_context_getlocalsession.htm
 tech.root: wmi_v2
 ms.assetid: 275657b1-9e74-456e-9ef9-28b621d27fc7
-
 ms.date: 12/05/2018
 ms.keywords: MI_Context_GetLocalSession, MI_Context_GetLocalSession function [Windows Management Infrastructure (MI)], mi/MI_Context_GetLocalSession, wmi.mi_getlocalsession, wmi_v2.mi_context_getlocalsession
 ms.topic: function
 f1_keywords:
 - mi/MI_Context_GetLocalSession
 dev_langs:
- - c++
+- c++
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows

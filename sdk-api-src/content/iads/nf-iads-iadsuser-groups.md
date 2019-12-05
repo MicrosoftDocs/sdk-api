@@ -1,19 +1,17 @@
 ---
 UID: NF:iads.IADsUser.Groups
 title: IADsUser::Groups (iads.h)
-
 description: Obtains a collection of the ADSI group objects to which this user belongs.
 old-location: adsi\iadsuser_groups.htm
 tech.root: adsi
 ms.assetid: 0d250815-a7d8-4e61-b125-a66f1c2fde43
-
 ms.date: 12/05/2018
 ms.keywords: Groups, Groups method [ADSI], Groups method [ADSI],IADsUser interface, IADsUser interface [ADSI],Groups method, IADsUser.Groups, IADsUser::Groups, _ds_iadsuser_groups, adsi.iadsuser__groups, adsi.iadsuser_groups, iads/IADsUser::Groups
 ms.topic: method
-f1_keywords: 
- - "iads/IADsUser.Groups"
+f1_keywords:
+- iads/IADsUser.Groups
 dev_langs:
- - c++
+- c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Activeds.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Activeds.dll
+- Activeds.dll
 api_name:
- - IADsUser.Groups
+- IADsUser.Groups
 targetos: Windows
 req.typenames: 
 req.redist: 

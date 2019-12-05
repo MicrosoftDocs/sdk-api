@@ -1,19 +1,17 @@
 ---
 UID: NF:windows.foundation.IPropertyValue.GetUInt64
 title: IPropertyValue::IPropertyValue (windows.foundation.h)
-
 description: Gets the unsigned 64-bit integer value that is stored in the current IPropertyValue object.
 old-location: winrt\ipropertyvalue_getuint64.htm
 tech.root: WinRT
 ms.assetid: 2FD209CA-9A8D-40F3-B82E-E80A7D212A5D
-
 ms.date: 12/05/2018
 ms.keywords: GetUInt64, GetUInt64 method [Windows Runtime], GetUInt64 method [Windows Runtime],IPropertyValue interface, IPropertyValue interface [Windows Runtime],GetUInt64 method, IPropertyValue.GetUInt64, IPropertyValue.IPropertyValue, IPropertyValue::GetUInt64, IPropertyValue::IPropertyValue, windows/IPropertyValue::GetUInt64, winrt.ipropertyvalue_getuint64
 ms.topic: method
-f1_keywords: 
- - "windows.foundation/IPropertyValue.GetUInt64"
+f1_keywords:
+- windows.foundation/IPropertyValue.GetUInt64
 dev_langs:
- - c++
+- c++
 req.header: windows.foundation.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Windows.Foundation.h
+- Windows.Foundation.h
 api_name:
- - IPropertyValue.GetUInt64
+- IPropertyValue.GetUInt64
 targetos: Windows
 req.typenames: 
 req.redist: 

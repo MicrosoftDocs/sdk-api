@@ -1,19 +1,17 @@
 ---
 UID: NF:tsvirtualchannels.IWTSBitmapRenderer.RemoveMapping
 title: IWTSBitmapRenderer::RemoveMapping (tsvirtualchannels.h)
-
 description: Called by a dynamic virtual channel plug-in to remove a render mapping.
 old-location: termserv\iwtsbitmaprenderer_removemapping.htm
 tech.root: TermServ
 ms.assetid: 7961ba11-4ef8-4b08-8c50-68bd26999dc2
-
 ms.date: 12/05/2018
 ms.keywords: IWTSBitmapRenderer interface [Remote Desktop Services],RemoveMapping method, IWTSBitmapRenderer.RemoveMapping, IWTSBitmapRenderer::RemoveMapping, RemoveMapping, RemoveMapping method [Remote Desktop Services], RemoveMapping method [Remote Desktop Services],IWTSBitmapRenderer interface, termserv.iwtsbitmaprenderer_removemapping, tsvirtualchannels/IWTSBitmapRenderer::RemoveMapping
 ms.topic: method
-f1_keywords: 
- - "tsvirtualchannels/IWTSBitmapRenderer.RemoveMapping"
+f1_keywords:
+- tsvirtualchannels/IWTSBitmapRenderer.RemoveMapping
 dev_langs:
- - c++
+- c++
 req.header: tsvirtualchannels.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - tsvirtualchannels.h
+- tsvirtualchannels.h
 api_name:
- - IWTSBitmapRenderer.RemoveMapping
+- IWTSBitmapRenderer.RemoveMapping
 targetos: Windows
 req.typenames: 
 req.redist: 

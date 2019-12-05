@@ -1,19 +1,17 @@
 ---
 UID: NF:imapi2.IRawCDImageCreator.put_StartingTrackNumber
 title: IRawCDImageCreator::put_StartingTrackNumber (imapi2.h)
-
 description: Sets the starting track number.
 old-location: imapi\irawcdimagecreator_put_startingtracknumber.htm
 tech.root: imapi
 ms.assetid: 38d1319b-0350-41bf-8984-fbeb4f5f3204
-
 ms.date: 12/05/2018
 ms.keywords: IRawCDImageCreator interface [IMAPI],put_StartingTrackNumber method, IRawCDImageCreator.put_StartingTrackNumber, IRawCDImageCreator::put_StartingTrackNumber, imapi.irawcdimagecreator_put_startingtracknumber, imapi2/IRawCDImageCreator::put_StartingTrackNumber, put_StartingTrackNumber, put_StartingTrackNumber method [IMAPI], put_StartingTrackNumber method [IMAPI],IRawCDImageCreator interface
 ms.topic: method
-f1_keywords: 
- - "imapi2/IRawCDImageCreator.put_StartingTrackNumber"
+f1_keywords:
+- imapi2/IRawCDImageCreator.put_StartingTrackNumber
 dev_langs:
- - c++
+- c++
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - imapi2.h
+- imapi2.h
 api_name:
- - IRawCDImageCreator.put_StartingTrackNumber
+- IRawCDImageCreator.put_StartingTrackNumber
 targetos: Windows
 req.typenames: 
 req.redist: 

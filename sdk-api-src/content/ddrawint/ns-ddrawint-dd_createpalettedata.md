@@ -1,19 +1,17 @@
 ---
 UID: NS:ddrawint._DD_CREATEPALETTEDATA
 title: DD_CREATEPALETTEDATA (ddrawint.h)
-
 description: The DD_CREATEPALETTEDATA structure contains information necessary to create a DirectDrawPalette object for this Microsoft DirectDraw object.
 old-location: display\dd_createpalettedata.htm
 tech.root: display
 ms.assetid: e43ad510-b44b-4a4d-abb2-10062ce69140
-
 ms.date: 12/05/2018
 ms.keywords: '*PDD_CREATEPALETTEDATA, DD_CREATEPALETTEDATA, DD_CREATEPALETTEDATA structure [Display Devices], ddrawint/DD_CREATEPALETTEDATA, ddstrcts_9370d793-ebdf-47ef-bc5f-869906c6e20a.xml, display.dd_createpalettedata'
 ms.topic: struct
 f1_keywords:
 - ddrawint/DD_CREATEPALETTEDATA
 dev_langs:
- - c++
+- c++
 req.header: ddrawint.h
 req.include-header: Winddi.h
 req.target-type: Windows

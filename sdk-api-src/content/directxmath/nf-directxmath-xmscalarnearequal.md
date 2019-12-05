@@ -1,19 +1,17 @@
 ---
 UID: NF:directxmath.XMScalarNearEqual
 title: XMScalarNearEqual function (directxmath.h)
-
 description: Determines if two floating-point values are nearly equal.
 old-location: dxmath\xmscalarnearequal.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.scalar.XMScalarNearEqual(float,float,float)
-
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMScalarNearEqual, XMScalarNearEqual, XMScalarNearEqual method [DirectX Math Support APIs], dxmath.xmscalarnearequal
 ms.topic: function
-f1_keywords: 
- - "directxmath/XMScalarNearEqual"
+f1_keywords:
+- directxmath/XMScalarNearEqual
 dev_langs:
- - c++
+- c++
 req.header: directxmath.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - DirectXMath.h
+- DirectXMath.h
 api_name:
- - XMScalarNearEqual
+- XMScalarNearEqual
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:rtworkq.RtwqCreateAsyncResult
 title: RtwqCreateAsyncResult function (rtworkq.h)
-
 description: Creates an asynchronous result object. Use this function if you are implementing an asynchronous method.
 old-location: base\rtwqcreateasyncresult.htm
 tech.root: ProcThread
 ms.assetid: ba8e888a-5bd6-4624-94a6-2f2ce0a080d1
-
 ms.date: 12/05/2018
 ms.keywords: RtwqCreateAsyncResult, RtwqCreateAsyncResult function, base.rtwqcreateasyncresult, rtworkq/RtwqCreateAsyncResult
 ms.topic: function
-f1_keywords: 
- - "rtworkq/RtwqCreateAsyncResult"
+f1_keywords:
+- rtworkq/RtwqCreateAsyncResult
 dev_langs:
- - c++
+- c++
 req.header: rtworkq.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Rtworkq.lib
 req.dll: RTWorkQ.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - RTWorkQ.dll
+- RTWorkQ.dll
 api_name:
- - RtwqCreateAsyncResult
+- RtwqCreateAsyncResult
 targetos: Windows
 req.typenames: 
 req.redist: 

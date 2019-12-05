@@ -1,19 +1,17 @@
 ---
 UID: NN:mmc.IConsoleVerb
 title: IConsoleVerb (mmc.h)
-
 description: The IConsoleVerb interface allows snap-ins to enable standard verbs including cut, copy, paste, delete, properties, rename, refresh, and print. When an item is selected, the snap-in can update the state of these verbs.
 old-location: mmc\iconsoleverb.htm
 tech.root: mmc
 ms.assetid: 9c4338c1-eb5e-47f3-8b5b-0623690bd5f6
-
 ms.date: 12/05/2018
 ms.keywords: IConsoleVerb, IConsoleVerb interface [MMC], IConsoleVerb interface [MMC],described, _slate_iconsoleverb, mmc.iconsoleverb, mmc/IConsoleVerb
 ms.topic: interface
-f1_keywords: 
- - "mmc/IConsoleVerb"
+f1_keywords:
+- mmc/IConsoleVerb
 dev_langs:
- - c++
+- c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Mmcndmgr.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mmcndmgr.dll
+- Mmcndmgr.dll
 api_name:
- - IConsoleVerb
+- IConsoleVerb
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NN:dvbsiparser.IIsdbLogoTransmissionDescriptor
 title: IIsdbLogoTransmissionDescriptor (dvbsiparser.h)
-
 description: Implements methods that get data from an Integrated Services Digital Broadcasting (ISDB) logo transmission descriptor.
 old-location: mstv\iisdblogotransmissiondescriptor.htm
 tech.root: mstv
 ms.assetid: 9c0930f6-6c05-48c9-91e4-2abdd3355a32
-
 ms.date: 12/05/2018
 ms.keywords: IIsdbLogoTransmissionDescriptor, IIsdbLogoTransmissionDescriptor interface [Microsoft TV Technologies], IIsdbLogoTransmissionDescriptor interface [Microsoft TV Technologies],described, dvbsiparser/IIsdbLogoTransmissionDescriptor, mstv.iisdblogotransmissiondescriptor
 ms.topic: interface
-f1_keywords: 
- - "dvbsiparser/IIsdbLogoTransmissionDescriptor"
+f1_keywords:
+- dvbsiparser/IIsdbLogoTransmissionDescriptor
 dev_langs:
- - c++
+- c++
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dvbsiparser.h
+- dvbsiparser.h
 api_name:
- - IIsdbLogoTransmissionDescriptor
+- IIsdbLogoTransmissionDescriptor
 targetos: Windows
 req.typenames: 
 req.redist: 

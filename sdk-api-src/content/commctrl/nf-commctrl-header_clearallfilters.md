@@ -1,19 +1,17 @@
 ---
 UID: NF:commctrl.Header_ClearAllFilters
 title: Header_ClearAllFilters macro (commctrl.h)
-
 description: Clears all of the filters for a given header control. You can use this macro or send the HDM_CLEARFILTER message explicitly.
 old-location: controls\Header_ClearAllFilters.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\header\macros\header_clearallfilters.htm
-
 ms.date: 12/05/2018
 ms.keywords: Header_ClearAllFilters, Header_ClearAllFilters macro [Windows Controls], _win32_Header_ClearAllFilters, _win32_Header_ClearAllFilters_cpp, commctrl/Header_ClearAllFilters, controls.Header_ClearAllFilters, controls._win32_Header_ClearAllFilters
 ms.topic: macro
-f1_keywords: 
- - "commctrl/Header_ClearAllFilters"
+f1_keywords:
+- commctrl/Header_ClearAllFilters
 dev_langs:
- - c++
+- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Commctrl.h
+- Commctrl.h
 api_name:
- - Header_ClearAllFilters
+- Header_ClearAllFilters
 targetos: Windows
 req.typenames: 
 req.redist: 

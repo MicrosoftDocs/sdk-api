@@ -1,19 +1,17 @@
 ---
 UID: NF:tom.ITextRow.GetCellCountCache
 title: ITextRow::GetCellCountCache (tom.h)
-
 description: Gets the count of cells cached for this row.
 old-location: controls\itextrow_getcellcountcache.htm
 tech.root: Controls
 ms.assetid: e94abbcb-2a7a-4904-a832-0d2158d49010
-
 ms.date: 12/05/2018
 ms.keywords: GetCellCountCache, GetCellCountCache method [Windows Controls], GetCellCountCache method [Windows Controls],ITextRow interface, ITextRow interface [Windows Controls],GetCellCountCache method, ITextRow.GetCellCountCache, ITextRow::GetCellCountCache, controls.itextrow_getcellcountcache, tom/ITextRow::GetCellCountCache
 ms.topic: method
-f1_keywords: 
- - "tom/ITextRow.GetCellCountCache"
+f1_keywords:
+- tom/ITextRow.GetCellCountCache
 dev_langs:
- - c++
+- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msftedit.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msftedit.dll
+- Msftedit.dll
 api_name:
- - ITextRow.GetCellCountCache
+- ITextRow.GetCellCountCache
 targetos: Windows
 req.typenames: 
 req.redist: 

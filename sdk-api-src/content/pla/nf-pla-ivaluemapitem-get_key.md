@@ -1,19 +1,17 @@
 ---
 UID: NF:pla.IValueMapItem.get_Key
 title: IValueMapItem::get_Key (pla.h)
-
 description: Retrieves or sets the name of the item.
 old-location: pla\ivaluemapitem_key.htm
 tech.root: PLA
 ms.assetid: 965a5ac4-a811-4fd3-8862-51d82d27c0e9
-
 ms.date: 12/05/2018
 ms.keywords: IValueMapItem interface [PLA],Key property, IValueMapItem.Key, IValueMapItem.get_Key, IValueMapItem::Key, IValueMapItem::get_Key, IValueMapItem::put_Key, Key property [PLA], Key property [PLA],IValueMapItem interface, base.ivaluemapitem_key, get_Key, pla.ivaluemapitem_key, pla/IValueMapItem::Key, pla/IValueMapItem::get_Key, pla/IValueMapItem::put_Key
 ms.topic: method
-f1_keywords: 
- - "pla/IValueMapItem.Key"
+f1_keywords:
+- pla/IValueMapItem.Key
 dev_langs:
- - c++
+- c++
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: Pla.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Pla.dll
+- Pla.dll
 api_name:
- - IValueMapItem.Key
- - IValueMapItem.get_Key
- - IValueMapItem.put_Key
+- IValueMapItem.Key
+- IValueMapItem.get_Key
+- IValueMapItem.put_Key
 targetos: Windows
 req.typenames: 
 req.redist: 

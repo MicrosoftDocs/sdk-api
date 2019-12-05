@@ -1,19 +1,17 @@
 ---
 UID: NF:winhttp.WinHttpSetStatusCallback
 title: WinHttpSetStatusCallback function (winhttp.h)
-
 description: The WinHttpSetStatusCallback function sets up a callback function that WinHTTP can call as progress is made during an operation.
 old-location: http\winhttpsetstatuscallback.htm
 tech.root: WinHttp
 ms.assetid: b093daf0-7abe-49cb-8c09-9519e3c130b6
-
 ms.date: 12/05/2018
 ms.keywords: WINHTTP_CALLBACK_FLAG_ALL_COMPLETIONS, WINHTTP_CALLBACK_FLAG_ALL_NOTIFICATIONS, WINHTTP_CALLBACK_FLAG_CLOSE_CONNECTION, WINHTTP_CALLBACK_FLAG_CONNECT_TO_SERVER, WINHTTP_CALLBACK_FLAG_DATA_AVAILABLE, WINHTTP_CALLBACK_FLAG_DETECTING_PROXY, WINHTTP_CALLBACK_FLAG_HANDLES, WINHTTP_CALLBACK_FLAG_HEADERS_AVAILABLE, WINHTTP_CALLBACK_FLAG_INTERMEDIATE_RESPONSE, WINHTTP_CALLBACK_FLAG_READ_COMPLETE, WINHTTP_CALLBACK_FLAG_RECEIVE_RESPONSE, WINHTTP_CALLBACK_FLAG_REDIRECT, WINHTTP_CALLBACK_FLAG_REQUEST_ERROR, WINHTTP_CALLBACK_FLAG_RESOLVE_NAME, WINHTTP_CALLBACK_FLAG_SECURE_FAILURE, WINHTTP_CALLBACK_FLAG_SENDREQUEST_COMPLETE, WINHTTP_CALLBACK_FLAG_SEND_REQUEST, WINHTTP_CALLBACK_FLAG_WRITE_COMPLETE, WinHttpSetStatusCallback, WinHttpSetStatusCallback function [WinHTTP], http.winhttpsetstatuscallback, winhttp.winhttpsetstatuscallback_function, winhttp/WinHttpSetStatusCallback
 ms.topic: function
-f1_keywords: 
- - "winhttp/WinHttpSetStatusCallback"
+f1_keywords:
+- winhttp/WinHttpSetStatusCallback
 dev_langs:
- - c++
+- c++
 req.header: winhttp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Winhttp.lib
 req.dll: Winhttp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Winhttp.dll
+- Winhttp.dll
 api_name:
- - WinHttpSetStatusCallback
+- WinHttpSetStatusCallback
 targetos: Windows
 req.typenames: 
 req.redist: WinHTTP 5.0 and Internet Explorer 5.01 or later on Windows XP and Windows 2000.

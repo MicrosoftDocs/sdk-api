@@ -1,19 +1,17 @@
 ---
 UID: NN:objidl.IPersist
 title: IPersist (objidl.h)
-
 description: Provides the CLSID of an object that can be stored persistently in the system. Allows the object to specify which object handler to use in the client process, as it is used in the default implementation of marshaling.
 old-location: com\ipersist.htm
 tech.root: com
 ms.assetid: 932eb0e2-35a6-482e-9138-00cff30508a9
-
 ms.date: 12/05/2018
 ms.keywords: IPersist, IPersist interface [COM], IPersist interface [COM],described, _com_ipersist, com.ipersist, objidl/IPersist
 ms.topic: interface
-f1_keywords: 
- - "objidl/IPersist"
+f1_keywords:
+- objidl/IPersist
 dev_langs:
- - c++
+- c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ObjIdl.h
+- ObjIdl.h
 api_name:
- - IPersist
+- IPersist
 targetos: Windows
 req.typenames: 
 req.redist: 

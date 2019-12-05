@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IAssocHandler.IsRecommended
 title: IAssocHandler::IsRecommended (shobjidl_core.h)
-
 description: Indicates whether the application is registered as a recommended handler for the queried file type.
 old-location: shell\IAssocHandler_IsRecommended.htm
 tech.root: shell
 ms.assetid: 3c312db3-a656-436c-a012-669553355fa5
-
 ms.date: 12/05/2018
 ms.keywords: IAssocHandler interface [Windows Shell],IsRecommended method, IAssocHandler.IsRecommended, IAssocHandler::IsRecommended, IsRecommended, IsRecommended method [Windows Shell], IsRecommended method [Windows Shell],IAssocHandler interface, _shell_IAssocHandler_IsRecommended, shell.IAssocHandler_IsRecommended, shobjidl_core/IAssocHandler::IsRecommended
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IAssocHandler.IsRecommended"
+f1_keywords:
+- shobjidl_core/IAssocHandler.IsRecommended
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - IAssocHandler.IsRecommended
+- IAssocHandler.IsRecommended
 targetos: Windows
 req.typenames: 
 req.redist: 

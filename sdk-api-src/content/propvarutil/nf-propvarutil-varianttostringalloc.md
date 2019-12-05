@@ -1,19 +1,17 @@
 ---
 UID: NF:propvarutil.VariantToStringAlloc
 title: VariantToStringAlloc function (propvarutil.h)
-
 description: Extracts the variant value of a variant structure to a newly-allocated string. If no value can be extracted, then a default value is assigned.
 old-location: properties\VariantToStringAlloc.htm
 tech.root: properties
 ms.assetid: 9cd4433c-d8ad-43ef-bdb9-9c1b8d8bea01
-
 ms.date: 12/05/2018
 ms.keywords: VariantToStringAlloc, VariantToStringAlloc function [Windows Properties], _shell_VariantToStringAlloc, properties.VariantToStringAlloc, propvarutil/VariantToStringAlloc, shell.VariantToStringAlloc
 ms.topic: function
-f1_keywords: 
- - "propvarutil/VariantToStringAlloc"
+f1_keywords:
+- propvarutil/VariantToStringAlloc
 dev_langs:
- - c++
+- c++
 req.header: propvarutil.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Propsys.lib
 req.dll: Propsys.dll (version 6.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Propsys.dll
+- Propsys.dll
 api_name:
- - VariantToStringAlloc
+- VariantToStringAlloc
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0

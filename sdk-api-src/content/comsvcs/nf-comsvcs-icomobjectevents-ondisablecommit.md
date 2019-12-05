@@ -1,19 +1,17 @@
 ---
 UID: NF:comsvcs.IComObjectEvents.OnDisableCommit
 title: IComObjectEvents::OnDisableCommit (comsvcs.h)
-
 description: Generated when the client calls DisableCommit on a context.
 old-location: cos\icomobjectevents_ondisablecommit.htm
 tech.root: cossdk
 ms.assetid: 413d7216-294c-4e46-b24c-abe1d1a09239
-
 ms.date: 12/05/2018
 ms.keywords: IComObjectEvents interface [COM+],OnDisableCommit method, IComObjectEvents.OnDisableCommit, IComObjectEvents::OnDisableCommit, OnDisableCommit, OnDisableCommit method [COM+], OnDisableCommit method [COM+],IComObjectEvents interface, _dtc_IComObjectEvents_OnDisableCommit, comsvcs/IComObjectEvents::OnDisableCommit, cos.icomobjectevents_ondisablecommit
 ms.topic: method
-f1_keywords: 
- - "comsvcs/IComObjectEvents.OnDisableCommit"
+f1_keywords:
+- comsvcs/IComObjectEvents.OnDisableCommit
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - IComObjectEvents.OnDisableCommit
+- IComObjectEvents.OnDisableCommit
 targetos: Windows
 req.typenames: 
 req.redist: 

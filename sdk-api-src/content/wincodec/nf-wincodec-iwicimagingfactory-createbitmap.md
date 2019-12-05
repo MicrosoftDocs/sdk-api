@@ -1,19 +1,17 @@
 ---
 UID: NF:wincodec.IWICImagingFactory.CreateBitmap
 title: IWICImagingFactory::CreateBitmap (wincodec.h)
-
 description: Creates an IWICBitmap object.
 old-location: wic\_wic_codec_iwicimagingfactory_createbitmap.htm
 tech.root: wic
 ms.assetid: 76741d1e-3e1b-4018-b092-b668ecfd43c9
-
 ms.date: 12/05/2018
 ms.keywords: CreateBitmap, CreateBitmap method [Windows Imaging Component], CreateBitmap method [Windows Imaging Component],IWICImagingFactory interface, IWICImagingFactory interface [Windows Imaging Component],CreateBitmap method, IWICImagingFactory.CreateBitmap, IWICImagingFactory::CreateBitmap, WICBitmapCacheOnDemand, WICBitmapCacheOnLoad, WICBitmapNoCache, _wic_codec_iwicimagingfactory_createbitmap, wic._wic_codec_iwicimagingfactory_createbitmap, wincodec/IWICImagingFactory::CreateBitmap
 ms.topic: method
-f1_keywords: 
- - "wincodec/IWICImagingFactory.CreateBitmap"
+f1_keywords:
+- wincodec/IWICImagingFactory.CreateBitmap
 dev_langs:
- - c++
+- c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Windowscodecs.lib
 req.dll: Windowscodecs.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Windowscodecs.dll
+- Windowscodecs.dll
 api_name:
- - IWICImagingFactory.CreateBitmap
+- IWICImagingFactory.CreateBitmap
 targetos: Windows
 req.typenames: 
 req.redist: 

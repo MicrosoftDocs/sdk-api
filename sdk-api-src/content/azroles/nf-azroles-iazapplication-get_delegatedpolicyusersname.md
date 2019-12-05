@@ -1,19 +1,17 @@
 ---
 UID: NF:azroles.IAzApplication.get_DelegatedPolicyUsersName
 title: IAzApplication::get_DelegatedPolicyUsersName (azroles.h)
-
 description: The DelegatedPolicyUsersName property of IAzApplication retrieves the account names of principals that act as delegated policy users.
 old-location: security\iazapplication_delegatedpolicyusersname.htm
 tech.root: SecAuthZ
 ms.assetid: ee18b86f-7ae2-4984-ac7a-3909eda647e3
-
 ms.date: 12/05/2018
 ms.keywords: AzApplication object [Security],DelegatedPolicyUsersName property, DelegatedPolicyUsersName property [Security], DelegatedPolicyUsersName property [Security],AzApplication object, DelegatedPolicyUsersName property [Security],IAzApplication interface, IAzApplication interface [Security],DelegatedPolicyUsersName property, IAzApplication.DelegatedPolicyUsersName, IAzApplication.get_DelegatedPolicyUsersName, IAzApplication::DelegatedPolicyUsersName, IAzApplication::get_DelegatedPolicyUsersName, azroles/IAzApplication::DelegatedPolicyUsersName, azroles/IAzApplication::get_DelegatedPolicyUsersName, get_DelegatedPolicyUsersName, security.iazapplication_delegatedpolicyusersname
 ms.topic: method
-f1_keywords: 
- - "azroles/IAzApplication.DelegatedPolicyUsersName"
+f1_keywords:
+- azroles/IAzApplication.DelegatedPolicyUsersName
 dev_langs:
- - c++
+- c++
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Azroles.lib
 req.dll: Azroles.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Azroles.dll
+- Azroles.dll
 api_name:
- - IAzApplication.DelegatedPolicyUsersName
- - IAzApplication.get_DelegatedPolicyUsersName
- - AzApplication.DelegatedPolicyUsersName
+- IAzApplication.DelegatedPolicyUsersName
+- IAzApplication.get_DelegatedPolicyUsersName
+- AzApplication.DelegatedPolicyUsersName
 targetos: Windows
 req.typenames: 
 req.redist: Windows Server 2003 Administration Tools Pack on Windows XP

@@ -1,19 +1,17 @@
 ---
 UID: NF:tuner.IAnalogRadioTuningSpace.put_MinFrequency
 title: IAnalogRadioTuningSpace::put_MinFrequency (tuner.h)
-
 description: The put_MinFrequency method sets the minimum frequency for this tuning space.
 old-location: mstv\ianalogradiotuningspace_put_minfrequency.htm
 tech.root: mstv
 ms.assetid: 5a7bb5e8-ed21-4b3b-96eb-861aa77621ca
-
 ms.date: 12/05/2018
 ms.keywords: IAnalogRadioTuningSpace interface [Microsoft TV Technologies],put_MinFrequency method, IAnalogRadioTuningSpace.put_MinFrequency, IAnalogRadioTuningSpace::put_MinFrequency, IAnalogRadioTuningSpaceput_MinFrequency, mstv.ianalogradiotuningspace_put_minfrequency, put_MinFrequency, put_MinFrequency method [Microsoft TV Technologies], put_MinFrequency method [Microsoft TV Technologies],IAnalogRadioTuningSpace interface, tuner/IAnalogRadioTuningSpace::put_MinFrequency
 ms.topic: method
-f1_keywords: 
- - "tuner/IAnalogRadioTuningSpace.put_MinFrequency"
+f1_keywords:
+- tuner/IAnalogRadioTuningSpace.put_MinFrequency
 dev_langs:
- - c++
+- c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - tuner.h
+- tuner.h
 api_name:
- - IAnalogRadioTuningSpace.put_MinFrequency
+- IAnalogRadioTuningSpace.put_MinFrequency
 targetos: Windows
 req.typenames: 
 req.redist: 

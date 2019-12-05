@@ -1,19 +1,17 @@
 ---
 UID: NN:dwrite_2.IDWriteFont2
 title: IDWriteFont2 (dwrite_2.h)
-
 description: Represents a physical font in a font collection.
 old-location: directwrite\idwritefont2.htm
 tech.root: DirectWrite
 ms.assetid: 4E3069AE-5882-4A26-A36D-BE7D7EE1B0C3
-
 ms.date: 12/05/2018
 ms.keywords: IDWriteFont2, IDWriteFont2 interface [Direct Write], IDWriteFont2 interface [Direct Write],described, directwrite.idwritefont2, dwrite_2/IDWriteFont2
 ms.topic: interface
-f1_keywords: 
- - "dwrite_2/IDWriteFont2"
+f1_keywords:
+- dwrite_2/IDWriteFont2
 dev_langs:
- - c++
+- c++
 req.header: dwrite_2.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dwrite.lib
 req.dll: Dwrite.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dwrite.dll
+- dwrite.dll
 api_name:
- - IDWriteFont2
+- IDWriteFont2
 targetos: Windows
 req.typenames: 
 req.redist: 

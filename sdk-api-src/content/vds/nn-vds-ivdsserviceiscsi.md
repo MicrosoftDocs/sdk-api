@@ -1,19 +1,17 @@
 ---
 UID: NN:vds.IVdsServiceIscsi
 title: IVdsServiceIscsi (vds.h)
-
 description: Provides methods to interface with the local initiator service, including the ability to set CHAP security settings and to log into targets.
 old-location: base\ivdsserviceiscsi.htm
 tech.root: VDS
 ms.assetid: 07bbfb4b-f054-4ec2-8f0b-3910115db5c1
-
 ms.date: 12/05/2018
 ms.keywords: IVdsServiceIscsi, IVdsServiceIscsi interface [VDS], IVdsServiceIscsi interface [VDS],described, base.ivdsserviceiscsi, vds/IVdsServiceIscsi
 ms.topic: interface
-f1_keywords: 
- - "vds/IVdsServiceIscsi"
+f1_keywords:
+- vds/IVdsServiceIscsi
 dev_langs:
- - c++
+- c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Uuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Uuid.lib
- - Uuid.dll
+- Uuid.lib
+- Uuid.dll
 api_name:
- - IVdsServiceIscsi
+- IVdsServiceIscsi
 targetos: Windows
 req.typenames: 
 req.redist: VDS 1.1

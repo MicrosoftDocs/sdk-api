@@ -1,19 +1,17 @@
 ---
 UID: NN:dmodshow.IDMOWrapperFilter
 title: IDMOWrapperFilter (dmodshow.h)
-
 description: The IDMOWrapperFilter interface enables an application to use a DirectX Media Object (DMO) inside a filter graph.
 old-location: dshow\idmowrapperfilter.htm
 tech.root: DirectShow
 ms.assetid: c85b828c-095d-4991-85a8-65b96529f305
-
 ms.date: 12/05/2018
 ms.keywords: IDMOWrapperFilter, IDMOWrapperFilter interface [DirectShow], IDMOWrapperFilter interface [DirectShow],described, IDMOWrapperFilterInterface, dmodshow/IDMOWrapperFilter, dshow.idmowrapperfilter
 ms.topic: interface
-f1_keywords: 
- - "dmodshow/IDMOWrapperFilter"
+f1_keywords:
+- dmodshow/IDMOWrapperFilter
 dev_langs:
- - c++
+- c++
 req.header: dmodshow.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Dmoguids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dmoguids.lib
- - Dmoguids.dll
+- Dmoguids.lib
+- Dmoguids.dll
 api_name:
- - IDMOWrapperFilter
+- IDMOWrapperFilter
 targetos: Windows
 req.typenames: 
 req.redist: 

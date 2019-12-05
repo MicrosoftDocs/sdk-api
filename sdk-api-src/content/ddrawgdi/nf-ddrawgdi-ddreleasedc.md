@@ -1,19 +1,17 @@
 ---
 UID: NF:ddrawgdi.DdReleaseDC
 title: DdReleaseDC function (ddrawgdi.h)
-
 description: Wrapper for the NtGdiDdReleaseDC function and releases a device context (DC) previously obtained through DdGetDC or GdiEntry7. GdiEntry8 is defined as an alias for this function.
 old-location: winprog\_dxgkernel_ddreleasedc.htm
 tech.root: DevNotes
 ms.assetid: VS|winui|~\winui\windowsuserinterface\lowlevelclientsupport\graphics\ddreleasedc.htm
-
 ms.date: 12/05/2018
 ms.keywords: DdReleaseDC, DdReleaseDC function [Windows API], GdiEntry8, _dxgkernel_ddreleasedc, ddrawgdi/DdReleaseDC, ddrawgdi/GdiEntry8, winprog._dxgkernel_ddreleasedc, winui._dxgkernel_ddreleasedc
 ms.topic: function
-f1_keywords: 
- - "ddrawgdi/DdReleaseDC"
+f1_keywords:
+- ddrawgdi/DdReleaseDC
 dev_langs:
- - c++
+- c++
 req.header: ddrawgdi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ddrawgdi.h
- - Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
- - GDI32.dll
- - GDI32Full.dll
+- Ddrawgdi.h
+- Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
+- GDI32.dll
+- GDI32Full.dll
 api_name:
- - DdReleaseDC
- - GdiEntry8
+- DdReleaseDC
+- GdiEntry8
 targetos: Windows
 req.typenames: 
 req.redist: 

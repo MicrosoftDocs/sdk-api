@@ -1,19 +1,17 @@
 ---
 UID: NF:comsvcs.IComTrackingInfoCollection.Type
 title: IComTrackingInfoCollection::Type (comsvcs.h)
-
 description: Retrieves the type of a tracking information collection.
 old-location: cos\icomtrackinginfocollection_type.htm
 tech.root: cossdk
 ms.assetid: ee7c16ac-be47-44e7-b8a6-46a7ec29a2c1
-
 ms.date: 12/05/2018
 ms.keywords: IComTrackingInfoCollection interface [COM+],Type method, IComTrackingInfoCollection.Type, IComTrackingInfoCollection::Type, Type, Type method [COM+], Type method [COM+],IComTrackingInfoCollection interface, _dtc_IComTrackingInfoCollection_Type, comsvcs/IComTrackingInfoCollection::Type, cos.icomtrackinginfocollection_type
 ms.topic: method
-f1_keywords: 
- - "comsvcs/IComTrackingInfoCollection.Type"
+f1_keywords:
+- comsvcs/IComTrackingInfoCollection.Type
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - IComTrackingInfoCollection.Type
+- IComTrackingInfoCollection.Type
 targetos: Windows
 req.typenames: 
 req.redist: 

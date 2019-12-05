@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d9.IDirect3DDevice9.DeletePatch
 title: IDirect3DDevice9::DeletePatch (d3d9.h)
-
 description: Frees a cached high-order patch.
 old-location: direct3d9\idirect3ddevice9__deletepatch.htm
 tech.root: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3ddevice9__deletepatch.htm
-
 ms.date: 12/05/2018
 ms.keywords: 2eb17a58-7131-6669-67fe-a5a0226a6e9c, DeletePatch, DeletePatch method [Direct3D 9], DeletePatch method [Direct3D 9],IDirect3DDevice9 interface, IDirect3DDevice9 interface [Direct3D 9],DeletePatch method, IDirect3DDevice9.DeletePatch, IDirect3DDevice9::DeletePatch, d3d9helper/IDirect3DDevice9::DeletePatch, direct3d9.idirect3ddevice9__deletepatch
 ms.topic: method
-f1_keywords: 
- - "d3d9/IDirect3DDevice9.DeletePatch"
+f1_keywords:
+- d3d9/IDirect3DDevice9.DeletePatch
 dev_langs:
- - c++
+- c++
 req.header: d3d9.h
 req.include-header: D3D9.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: D3D9.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D9.lib
- - D3D9.dll
+- D3D9.lib
+- D3D9.dll
 api_name:
- - IDirect3DDevice9.DeletePatch
+- IDirect3DDevice9.DeletePatch
 targetos: Windows
 req.typenames: 
 req.redist: 

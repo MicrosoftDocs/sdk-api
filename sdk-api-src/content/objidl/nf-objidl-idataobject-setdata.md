@@ -1,19 +1,17 @@
 ---
 UID: NF:objidl.IDataObject.SetData
 title: IDataObject::SetData (objidl.h)
-
 description: Called by an object containing a data source to transfer data to the object that implements this method.
 old-location: com\idataobject_setdata.htm
 tech.root: com
 ms.assetid: 7430d12c-ab07-4a9c-a845-4743818afbc7
-
 ms.date: 12/05/2018
 ms.keywords: IDataObject interface [COM],SetData method, IDataObject.SetData, IDataObject::SetData, SetData, SetData method [COM], SetData method [COM],IDataObject interface, _ole_idataobject_setdata, com.idataobject_setdata, objidl/IDataObject::SetData
 ms.topic: method
-f1_keywords: 
- - "objidl/IDataObject.SetData"
+f1_keywords:
+- objidl/IDataObject.SetData
 dev_langs:
- - c++
+- c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ObjIdl.h
+- ObjIdl.h
 api_name:
- - IDataObject.SetData
+- IDataObject.SetData
 targetos: Windows
 req.typenames: 
 req.redist: 

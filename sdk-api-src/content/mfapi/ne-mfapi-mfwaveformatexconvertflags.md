@@ -1,19 +1,17 @@
 ---
 UID: NE:mfapi._MFWaveFormatExConvertFlags
 title: MFWaveFormatExConvertFlags (mfapi.h)
-
 description: Contains flags that specify how to convert an audio media type.
 old-location: mf\mfwaveformatexconvertflags.htm
 tech.root: medfound
 ms.assetid: cd4a54f3-58e5-4e39-8615-e5037972c9c4
-
 ms.date: 12/05/2018
 ms.keywords: MFWaveFormatExConvertFlag_ForceExtensible, MFWaveFormatExConvertFlag_Normal, MFWaveFormatExConvertFlags, MFWaveFormatExConvertFlags enumeration [Media Foundation], cd4a54f3-58e5-4e39-8615-e5037972c9c4, mf.mfwaveformatexconvertflags, mfapi/MFWaveFormatExConvertFlag_ForceExtensible, mfapi/MFWaveFormatExConvertFlag_Normal, mfapi/MFWaveFormatExConvertFlags
 ms.topic: enum
-f1_keywords: 
- - "mfapi/MFWaveFormatExConvertFlags"
+f1_keywords:
+- mfapi/MFWaveFormatExConvertFlags
 dev_langs:
- - c++
+- c++
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - mfapi.h
+- mfapi.h
 api_name:
- - MFWaveFormatExConvertFlags
+- MFWaveFormatExConvertFlags
 targetos: Windows
 req.typenames: MFWaveFormatExConvertFlags
 req.redist: 

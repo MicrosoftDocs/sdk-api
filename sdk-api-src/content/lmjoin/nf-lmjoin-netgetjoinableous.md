@@ -1,19 +1,17 @@
 ---
 UID: NF:lmjoin.NetGetJoinableOUs
 title: NetGetJoinableOUs function (lmjoin.h)
-
 description: The NetGetJoinableOUs function retrieves a list of organizational units (OUs) in which a computer account can be created.
 old-location: netmgmt\netgetjoinableous.htm
 tech.root: NetMgmt
 ms.assetid: 1faa912b-c56d-431c-95d5-d36790b0d467
-
 ms.date: 12/05/2018
 ms.keywords: NetGetJoinableOUs, NetGetJoinableOUs function [Network Management], _win32_netgetjoinableous, lmjoin/NetGetJoinableOUs, netmgmt.netgetjoinableous
 ms.topic: function
-f1_keywords: 
- - "lmjoin/NetGetJoinableOUs"
+f1_keywords:
+- lmjoin/NetGetJoinableOUs
 dev_langs:
- - c++
+- c++
 req.header: lmjoin.h
 req.include-header: Lm.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Netapi32.lib
 req.dll: Netapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Netapi32.dll
+- Netapi32.dll
 api_name:
- - NetGetJoinableOUs
+- NetGetJoinableOUs
 targetos: Windows
 req.typenames: 
 req.redist: 

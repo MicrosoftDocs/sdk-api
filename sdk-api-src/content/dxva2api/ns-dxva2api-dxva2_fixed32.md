@@ -1,19 +1,17 @@
 ---
 UID: NS:dxva2api._DXVA2_Fixed32
 title: DXVA2_Fixed32 (dxva2api.h)
-
 description: Defines a 32-bit fixed-point number.
 old-location: mf\dxva2_fixed32.htm
 tech.root: medfound
 ms.assetid: 5f8f4515-1cf4-4060-813b-c746649c5c40
-
 ms.date: 12/05/2018
 ms.keywords: 5f8f4515-1cf4-4060-813b-c746649c5c40, DXVA2_Fixed32, DXVA2_Fixed32 structure [Media Foundation], dxva2api/DXVA2_Fixed32, mf.dxva2_fixed32
 ms.topic: struct
-f1_keywords: 
- - "dxva2api/DXVA2_Fixed32"
+f1_keywords:
+- dxva2api/DXVA2_Fixed32
 dev_langs:
- - c++
+- c++
 req.header: dxva2api.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - dxva2api.h
+- dxva2api.h
 api_name:
- - DXVA2_Fixed32
+- DXVA2_Fixed32
 targetos: Windows
 req.typenames: DXVA2_Fixed32
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NS:shobjidl._OVERLAPPED
 title: OVERLAPPED (shobjidl.h)
-
 description: Contains information used in asynchronous (overlapped) input/output (I/O).
 old-location: shell\OVERLAPPED.htm
 tech.root: shell
 ms.assetid: 2b5964e5-dfc8-44f9-86a7-5ea5acc68c1b
-
 ms.date: 12/05/2018
-ms.keywords: "*LPOVERLAPPED, LPOVERLAPPED, LPOVERLAPPED structure pointer [Windows Shell], OVERLAPPED, OVERLAPPED structure [Windows Shell], _shell_OVERLAPPED, shell.OVERLAPPED, shobjidl/LPOVERLAPPED, shobjidl/OVERLAPPED"
+ms.keywords: '*LPOVERLAPPED, LPOVERLAPPED, LPOVERLAPPED structure pointer [Windows Shell], OVERLAPPED, OVERLAPPED structure [Windows Shell], _shell_OVERLAPPED, shell.OVERLAPPED, shobjidl/LPOVERLAPPED, shobjidl/OVERLAPPED'
 ms.topic: struct
-f1_keywords: 
- - "shobjidl/OVERLAPPED"
+f1_keywords:
+- shobjidl/OVERLAPPED
 dev_langs:
- - c++
+- c++
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Shobjidl.h
+- Shobjidl.h
 api_name:
- - OVERLAPPED
+- OVERLAPPED
 targetos: Windows
 req.typenames: OVERLAPPED, *LPOVERLAPPED
 req.redist: 

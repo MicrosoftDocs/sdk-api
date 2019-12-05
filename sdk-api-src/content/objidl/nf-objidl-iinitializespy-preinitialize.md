@@ -1,19 +1,17 @@
 ---
 UID: NF:objidl.IInitializeSpy.PreInitialize
 title: IInitializeSpy::PreInitialize (objidl.h)
-
 description: Performs initialization steps required before calling the CoInitializeEx function.
 old-location: com\iinitializespy_preinitialize.htm
 tech.root: com
 ms.assetid: f5b345d1-ab37-401a-9cb4-b01ef7254fc8
-
 ms.date: 12/05/2018
 ms.keywords: IInitializeSpy interface [COM],PreInitialize method, IInitializeSpy.PreInitialize, IInitializeSpy::PreInitialize, PreInitialize, PreInitialize method [COM], PreInitialize method [COM],IInitializeSpy interface, _com_iinitializespy_preinitialize, com.iinitializespy_preinitialize, objidl/IInitializeSpy::PreInitialize
 ms.topic: method
-f1_keywords: 
- - "objidl/IInitializeSpy.PreInitialize"
+f1_keywords:
+- objidl/IInitializeSpy.PreInitialize
 dev_langs:
- - c++
+- c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ObjIdl.h
+- ObjIdl.h
 api_name:
- - IInitializeSpy.PreInitialize
+- IInitializeSpy.PreInitialize
 targetos: Windows
 req.typenames: 
 req.redist: 

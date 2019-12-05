@@ -1,19 +1,17 @@
 ---
 UID: NC:lpmapi.CBADMITRESULT
 title: CBADMITRESULT (lpmapi.h)
-
 description: The cbAdmitResult function is used by LPMs to return results for the LPM_AdmitRsvpMsg request.
 old-location: qos\cbadmitresult.htm
 tech.root: QOS
 ms.assetid: 9040155b-6c6d-4deb-a63a-74e5fc8123ba
-
 ms.date: 12/05/2018
 ms.keywords: CBADMITRESULT, CBADMITRESULT callback function [QOS], DUP_RESULTS, INV_LPM_HANDLE, INV_REQ_HANDLE, INV_RESULTS, LPM_TIME_OUT, cbAdmitResult, cbAdmitResult callback, cbAdmitResult callback function [QOS], lpmapi/cbAdmitResult, qos.cbadmitresult
 ms.topic: callback
-f1_keywords: 
- - "lpmapi/CBADMITRESULT"
+f1_keywords:
+- lpmapi/CBADMITRESULT
 dev_langs:
- - c++
+- c++
 req.header: lpmapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - lpmapi.h
+- lpmapi.h
 api_name:
- - CBADMITRESULT
+- CBADMITRESULT
 targetos: Windows
 req.typenames: 
 req.redist: 

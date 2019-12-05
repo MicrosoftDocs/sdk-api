@@ -1,19 +1,17 @@
 ---
 UID: NF:wmsdkidl.IWMReaderNetworkConfig.GetProxyBypassForLocal
 title: IWMReaderNetworkConfig::GetProxyBypassForLocal (wmsdkidl.h)
-
 description: The GetProxyBypassForLocal method queries whether the reader object bypasses the proxy server for local URLs.
 old-location: wmformat\iwmreadernetworkconfig_getproxybypassforlocal.htm
 tech.root: wmformat
 ms.assetid: 5e960fa9-d71c-4a13-9210-8a2a86e9989c
-
 ms.date: 12/05/2018
 ms.keywords: GetProxyBypassForLocal, GetProxyBypassForLocal method [windows Media Format], GetProxyBypassForLocal method [windows Media Format],IWMReaderNetworkConfig interface, IWMReaderNetworkConfig interface [windows Media Format],GetProxyBypassForLocal method, IWMReaderNetworkConfig.GetProxyBypassForLocal, IWMReaderNetworkConfig::GetProxyBypassForLocal, IWMReaderNetworkConfigGetProxyBypassForLocal, wmformat.iwmreadernetworkconfig_getproxybypassforlocal, wmsdkidl/IWMReaderNetworkConfig::GetProxyBypassForLocal
 ms.topic: method
-f1_keywords: 
- - "wmsdkidl/IWMReaderNetworkConfig.GetProxyBypassForLocal"
+f1_keywords:
+- wmsdkidl/IWMReaderNetworkConfig.GetProxyBypassForLocal
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wmvcore.lib
- - Wmvcore.dll
- - WMStubDRM.lib
- - WMStubDRM.dll
+- Wmvcore.lib
+- Wmvcore.dll
+- WMStubDRM.lib
+- WMStubDRM.dll
 api_name:
- - IWMReaderNetworkConfig.GetProxyBypassForLocal
+- IWMReaderNetworkConfig.GetProxyBypassForLocal
 targetos: Windows
 req.typenames: 
 req.redist: 

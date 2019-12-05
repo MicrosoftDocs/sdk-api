@@ -1,19 +1,17 @@
 ---
 UID: NF:gdiplusheaders.Bitmap.LockBits
 title: Bitmap::LockBits (gdiplusheaders.h)
-
 description: The Bitmap::LockBits method locks a rectangular portion of this bitmap and provides a temporary buffer that you can use to read or write pixel data in a specified format.
 old-location: gdiplus\_gdiplus_CLASS_Bitmap_LockBits_rect_flags_format_lockedBitmapData_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\bitmapclass\bitmapmethods\lockbits.htm
-
 ms.date: 12/05/2018
 ms.keywords: Bitmap class [GDI+],LockBits method, Bitmap.LockBits, Bitmap::LockBits, LockBits, LockBits method [GDI+], LockBits method [GDI+],Bitmap class, _gdiplus_CLASS_Bitmap_LockBits_rect_flags_format_lockedBitmapData_, gdiplus._gdiplus_CLASS_Bitmap_LockBits_rect_flags_format_lockedBitmapData_
 ms.topic: method
-f1_keywords: 
- - "gdiplusheaders/Bitmap.LockBits"
+f1_keywords:
+- gdiplusheaders/Bitmap.LockBits
 dev_langs:
- - c++
+- c++
 req.header: gdiplusheaders.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - Bitmap.LockBits
+- Bitmap.LockBits
 targetos: Windows
 req.typenames: 
 req.redist: 

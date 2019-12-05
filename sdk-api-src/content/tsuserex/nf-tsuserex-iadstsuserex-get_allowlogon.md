@@ -1,19 +1,17 @@
 ---
 UID: NF:tsuserex.IADsTSUserEx.get_AllowLogon
 title: IADsTSUserEx::get_AllowLogon (tsuserex.h)
-
 description: A value that specifies whether the user is allowed to log on to the Remote Desktop Session Host (RD Session Host) server.
 old-location: termserv\iadstsuserex_allowlogon.htm
 tech.root: TermServ
 ms.assetid: 60271637-b25a-4857-896d-109737d2f046
-
 ms.date: 12/05/2018
 ms.keywords: AllowLogon property [Remote Desktop Services], AllowLogon property [Remote Desktop Services],IADsTSUserEx interface, IADsTSUserEx interface [Remote Desktop Services],AllowLogon property, IADsTSUserEx.AllowLogon, IADsTSUserEx.get_AllowLogon, IADsTSUserEx::AllowLogon, IADsTSUserEx::get_AllowLogon, IADsTSUserEx::put_AllowLogon, get_AllowLogon, termserv.iadstsuserex_allowlogon, tsuserex/IADsTSUserEx::AllowLogon, tsuserex/IADsTSUserEx::get_AllowLogon, tsuserex/IADsTSUserEx::put_AllowLogon
 ms.topic: method
-f1_keywords: 
- - "tsuserex/IADsTSUserEx.AllowLogon"
+f1_keywords:
+- tsuserex/IADsTSUserEx.AllowLogon
 dev_langs:
- - c++
+- c++
 req.header: tsuserex.h
 req.include-header: Tsuserex.h, Tsuserex_i.c
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: Tsuserex.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Tsuserex.dll
+- Tsuserex.dll
 api_name:
- - IADsTSUserEx.AllowLogon
- - IADsTSUserEx.get_AllowLogon
- - IADsTSUserEx.put_AllowLogon
+- IADsTSUserEx.AllowLogon
+- IADsTSUserEx.get_AllowLogon
+- IADsTSUserEx.put_AllowLogon
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:wmsdkidl.IWMReaderAdvanced4.IsUsingFastCache
 title: IWMReaderAdvanced4::IsUsingFastCache (wmsdkidl.h)
-
 description: The IsUsingFastCache method queries whether the reader is using Fast Cache streaming.
 old-location: wmformat\iwmreaderadvanced4_isusingfastcache.htm
 tech.root: wmformat
 ms.assetid: 29d8d12c-db4c-4c2c-8747-30c8a5577f43
-
 ms.date: 12/05/2018
 ms.keywords: IWMReaderAdvanced4 interface [windows Media Format],IsUsingFastCache method, IWMReaderAdvanced4.IsUsingFastCache, IWMReaderAdvanced4::IsUsingFastCache, IWMReaderAdvanced4IsUsingFastCache, IsUsingFastCache, IsUsingFastCache method [windows Media Format], IsUsingFastCache method [windows Media Format],IWMReaderAdvanced4 interface, wmformat.iwmreaderadvanced4_isusingfastcache, wmsdkidl/IWMReaderAdvanced4::IsUsingFastCache
 ms.topic: method
-f1_keywords: 
- - "wmsdkidl/IWMReaderAdvanced4.IsUsingFastCache"
+f1_keywords:
+- wmsdkidl/IWMReaderAdvanced4.IsUsingFastCache
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wmvcore.lib
- - Wmvcore.dll
- - WMStubDRM.lib
- - WMStubDRM.dll
+- Wmvcore.lib
+- Wmvcore.dll
+- WMStubDRM.lib
+- WMStubDRM.dll
 api_name:
- - IWMReaderAdvanced4.IsUsingFastCache
+- IWMReaderAdvanced4.IsUsingFastCache
 targetos: Windows
 req.typenames: 
 req.redist: 

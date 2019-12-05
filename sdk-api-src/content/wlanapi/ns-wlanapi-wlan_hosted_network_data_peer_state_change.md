@@ -1,19 +1,17 @@
 ---
 UID: NS:wlanapi._WLAN_HOSTED_NETWORK_DATA_PEER_STATE_CHANGE
 title: WLAN_HOSTED_NETWORK_DATA_PEER_STATE_CHANGE (wlanapi.h)
-
 description: Contains information about a network state change for a data peer on the wireless Hosted Network.
 old-location: nwifi\wlan_hosted_network_data_peer_state_change.htm
 tech.root: NativeWiFi
 ms.assetid: 476b903d-7c87-4734-8a42-c8b75d292fb5
-
 ms.date: 12/05/2018
 ms.keywords: '*PWLAN_HOSTED_NETWORK_DATA_PEER_STATE_CHANGE, PWLAN_HOSTED_NETWORK_DATA_PEER_STATE_CHANGE, PWLAN_HOSTED_NETWORK_DATA_PEER_STATE_CHANGE structure pointer [NativeWIFI], WLAN_HOSTED_NETWORK_DATA_PEER_STATE_CHANGE, WLAN_HOSTED_NETWORK_DATA_PEER_STATE_CHANGE structure [NativeWIFI], nwifi.wlan_hosted_network_data_peer_state_change, wlanapi/PWLAN_HOSTED_NETWORK_DATA_PEER_STATE_CHANGE, wlanapi/WLAN_HOSTED_NETWORK_DATA_PEER_STATE_CHANGE'
 ms.topic: struct
 f1_keywords:
 - wlanapi/WLAN_HOSTED_NETWORK_DATA_PEER_STATE_CHANGE
 dev_langs:
- - c++
+- c++
 req.header: wlanapi.h
 req.include-header: Wlanapi.h
 req.target-type: Windows

@@ -1,19 +1,17 @@
 ---
 UID: NF:drt.DrtClose
 title: DrtClose function (drt.h)
-
 description: DrtClose function closes the local instance of the DRT.
 old-location: p2p\drtclose.htm
 tech.root: P2PSdk
 ms.assetid: 37c0a579-64be-4ed6-b1b3-852013875361
-
 ms.date: 12/05/2018
 ms.keywords: DrtClose, DrtClose function [Peer Networking], drt/DrtClose, p2p.drtclose
 ms.topic: function
-f1_keywords: 
- - "drt/DrtClose"
+f1_keywords:
+- drt/DrtClose
 dev_langs:
- - c++
+- c++
 req.header: drt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Drt.lib
 req.dll: Drt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - drt.dll
+- drt.dll
 api_name:
- - DrtClose
+- DrtClose
 targetos: Windows
 req.typenames: 
 req.redist: 

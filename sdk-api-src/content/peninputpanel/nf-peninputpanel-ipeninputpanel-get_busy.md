@@ -1,19 +1,17 @@
 ---
 UID: NF:peninputpanel.IPenInputPanel.get_Busy
 title: IPenInputPanel::get_Busy (peninputpanel.h)
-
 description: Deprecated. The PenInputPanel has been replaced by the Text Input Panel (TIP).Gets a a value that indicates whether the PenInputPanel object is currently processing ink.
 old-location: tablet\peninputpanel_busy.htm
 tech.root: tablet
 ms.assetid: c2ccf82a-2ca6-4358-96de-12efb77c2a68
-
 ms.date: 12/05/2018
 ms.keywords: Busy property [Tablet PC], Busy property [Tablet PC],IPenInputPanel interface, IPenInputPanel interface [Tablet PC],Busy property, IPenInputPanel.Busy, IPenInputPanel.get_Busy, IPenInputPanel::Busy, IPenInputPanel::get_Busy, PenInputPanel.get_Busy, c2ccf82a-2ca6-4358-96de-12efb77c2a68, get_Busy, peninputpanel/IPenInputPanel::Busy, peninputpanel/IPenInputPanel::get_Busy, tablet.peninputpanel_busy
 ms.topic: method
-f1_keywords: 
- - "peninputpanel/IPenInputPanel.Busy"
+f1_keywords:
+- peninputpanel/IPenInputPanel.Busy
 dev_langs:
- - c++
+- c++
 req.header: peninputpanel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: InkObj.dll
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - InkObj.dll
- - InkObj.dll.dll
+- InkObj.dll
+- InkObj.dll.dll
 api_name:
- - IPenInputPanel.Busy
- - IPenInputPanel.get_Busy
- - PenInputPanel.get_Busy
+- IPenInputPanel.Busy
+- IPenInputPanel.get_Busy
+- PenInputPanel.get_Busy
 targetos: Windows
 req.typenames: 
 req.redist: 

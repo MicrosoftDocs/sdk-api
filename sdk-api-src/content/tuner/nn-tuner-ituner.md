@@ -1,19 +1,17 @@
 ---
 UID: NN:tuner.ITuner
 title: ITuner (tuner.h)
-
 description: The ITuner interface is implemented on the Microsoft BDA Network Provider filters.
 old-location: mstv\ituner.htm
 tech.root: mstv
 ms.assetid: 1bc965a5-6bc9-488a-a2f9-f35d0cfbcccd
-
 ms.date: 12/05/2018
 ms.keywords: ITuner, ITuner interface [Microsoft TV Technologies], ITuner interface [Microsoft TV Technologies],described, ITunerInterface, mstv.ituner, tuner/ITuner
 ms.topic: interface
-f1_keywords: 
- - "tuner/ITuner"
+f1_keywords:
+- tuner/ITuner
 dev_langs:
- - c++
+- c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - tuner.h
+- tuner.h
 api_name:
- - ITuner
+- ITuner
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:taskschd.ITaskHandler.Stop
 title: ITaskHandler::Stop (taskschd.h)
-
 description: Called to stop the COM handler.
 old-location: taskschd\itaskhandler_stop.htm
 tech.root: taskschd
 ms.assetid: 93a112e7-5e44-42a9-a5f5-d61e1ad1eabc
-
 ms.date: 12/05/2018
 ms.keywords: ITaskHandler interface [Task Scheduler],Stop method, ITaskHandler.Stop, ITaskHandler::Stop, Stop, Stop method [Task Scheduler], Stop method [Task Scheduler],ITaskHandler interface, taskschd.itaskhandler_stop, taskschd/ITaskHandler::Stop
 ms.topic: method
-f1_keywords: 
- - "taskschd/ITaskHandler.Stop"
+f1_keywords:
+- taskschd/ITaskHandler.Stop
 dev_langs:
- - c++
+- c++
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Taskschd.lib
 req.dll: Taskschd.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - taskschd.dll
+- taskschd.dll
 api_name:
- - ITaskHandler.Stop
+- ITaskHandler.Stop
 targetos: Windows
 req.typenames: 
 req.redist: 

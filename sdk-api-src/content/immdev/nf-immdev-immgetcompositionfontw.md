@@ -1,19 +1,17 @@
 ---
 UID: NF:immdev.ImmGetCompositionFontW
 title: ImmGetCompositionFontW function (immdev.h)
-
 description: Retrieves information about the logical font currently used to display characters in the composition window.
 old-location: intl\immgetcompositionfont.htm
 tech.root: Intl
 ms.assetid: c38f424f-84d4-4181-9ada-bbd178a70373
-
 ms.date: 12/05/2018
 ms.keywords: ImmGetCompositionFont, ImmGetCompositionFont function [Internationalization for Windows Applications], ImmGetCompositionFontA, ImmGetCompositionFontW, _win32_ImmGetCompositionFont, imm/ImmGetCompositionFont, imm/ImmGetCompositionFontA, imm/ImmGetCompositionFontW, intl.immgetcompositionfont
 ms.topic: function
-f1_keywords: 
- - "immdev/ImmGetCompositionFont"
+f1_keywords:
+- immdev/ImmGetCompositionFont
 dev_langs:
- - c++
+- c++
 req.header: immdev.h
 req.include-header: Immdev.h, Windows.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Imm32.lib
 req.dll: Imm32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Imm32.dll
+- Imm32.dll
 api_name:
- - ImmGetCompositionFont
- - ImmGetCompositionFontA
- - ImmGetCompositionFontW
+- ImmGetCompositionFont
+- ImmGetCompositionFontA
+- ImmGetCompositionFontW
 targetos: Windows
 req.typenames: 
 req.redist: 

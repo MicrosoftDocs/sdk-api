@@ -1,19 +1,17 @@
 ---
 UID: NF:wbemcli.IWbemServices.ExecQueryAsync
 title: IWbemServices::ExecQueryAsync (wbemcli.h)
-
 description: The IWbemServices::ExecQueryAsync method executes a query to retrieve objects asynchronously.
 old-location: wmi\iwbemservices_execqueryasync.htm
 tech.root: WmiSdk
 ms.assetid: d8b55500-d84c-431b-93c6-99d1f1b845c3
-
 ms.date: 12/05/2018
 ms.keywords: ExecQueryAsync, ExecQueryAsync method [Windows Management Instrumentation], ExecQueryAsync method [Windows Management Instrumentation],IWbemServices interface, IWbemServices interface [Windows Management Instrumentation],ExecQueryAsync method, IWbemServices.ExecQueryAsync, IWbemServices::ExecQueryAsync, WBEM_FLAG_BIDIRECTIONAL, WBEM_FLAG_DIRECT_READ, WBEM_FLAG_ENSURE_LOCATABLE, WBEM_FLAG_PROTOTYPE, WBEM_FLAG_SEND_STATUS, WBEM_FLAG_USE_AMENDED_QUALIFIERS, _hmm_iwbemservices_execqueryasync, wbemcli/IWbemServices::ExecQueryAsync, wmi.iwbemservices_execqueryasync
 ms.topic: method
-f1_keywords: 
- - "wbemcli/IWbemServices.ExecQueryAsync"
+f1_keywords:
+- wbemcli/IWbemServices.ExecQueryAsync
 dev_langs:
- - c++
+- c++
 req.header: wbemcli.h
 req.include-header: Wbemidl.h
 req.target-type: Windows
@@ -32,28 +30,28 @@ req.lib: Wbemuuid.lib
 req.dll: Fastprox.dll; Esscli.dll; FrameDyn.dll; FrameDynOS.dll; Ntevt.dll; Stdprov.dll; Viewprov.dll; Wbemcomn.dll; Wbemcore.dll; Wbemess.dll; Wbemsvc.dll; Wmipicmp.dll; Wmidcprv.dll; Wmipjobj.dll; Wmiprvsd.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Fastprox.dll
- - Esscli.dll
- - FrameDyn.dll
- - FrameDynOS.dll
- - Ntevt.dll
- - Stdprov.dll
- - Viewprov.dll
- - Wbemcomn.dll
- - Wbemcore.dll
- - Wbemess.dll
- - Wbemsvc.dll
- - Wmipicmp.dll
- - Wmidcprv.dll
- - Wmipjobj.dll
- - Wmiprvsd.dll
+- Fastprox.dll
+- Esscli.dll
+- FrameDyn.dll
+- FrameDynOS.dll
+- Ntevt.dll
+- Stdprov.dll
+- Viewprov.dll
+- Wbemcomn.dll
+- Wbemcore.dll
+- Wbemess.dll
+- Wbemsvc.dll
+- Wmipicmp.dll
+- Wmidcprv.dll
+- Wmipjobj.dll
+- Wmiprvsd.dll
 api_name:
- - IWbemServices.ExecQueryAsync
+- IWbemServices.ExecQueryAsync
 targetos: Windows
 req.typenames: 
 req.redist: 

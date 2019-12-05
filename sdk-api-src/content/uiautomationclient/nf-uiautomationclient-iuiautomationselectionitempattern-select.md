@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationSelectionItemPattern.Select
 title: IUIAutomationSelectionItemPattern::Select (uiautomationclient.h)
-
 description: Clears any selected items and then selects the current element.
 old-location: winauto\uiauto_IUIAutomationSelectionItemPattern_Select.htm
 tech.root: WinAuto
 ms.assetid: 676d3fef-77b8-4f02-9a89-a7471898598f
-
 ms.date: 12/05/2018
 ms.keywords: IUIAutomationSelectionItemPattern interface [Windows Accessibility],Select method, IUIAutomationSelectionItemPattern.Select, IUIAutomationSelectionItemPattern::Select, Select, Select method [Windows Accessibility], Select method [Windows Accessibility],IUIAutomationSelectionItemPattern interface, uiauto.uiauto_IUIAutomationSelectionItemPattern_Select, uiauto_IUIAutomationSelectionItemPattern_Select, uiautomationclient/IUIAutomationSelectionItemPattern::Select, winauto.uiauto_IUIAutomationSelectionItemPattern_Select
 ms.topic: method
-f1_keywords: 
- - "uiautomationclient/IUIAutomationSelectionItemPattern.Select"
+f1_keywords:
+- uiautomationclient/IUIAutomationSelectionItemPattern.Select
 dev_langs:
- - c++
+- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationClient.h
+- UIAutomationClient.h
 api_name:
- - IUIAutomationSelectionItemPattern.Select
+- IUIAutomationSelectionItemPattern.Select
 targetos: Windows
 req.typenames: 
 req.redist: 

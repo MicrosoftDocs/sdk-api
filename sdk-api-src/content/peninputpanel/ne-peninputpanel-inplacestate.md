@@ -1,19 +1,17 @@
 ---
 UID: NE:peninputpanel.__MIDL___MIDL_itf_peninputpanel_0000_0000_0002
 title: InPlaceState (peninputpanel.h)
-
 description: Specifies the In-Place state values of the Tablet PC Input Panel.
 old-location: tablet\inplacestate.htm
 tech.root: tablet
 ms.assetid: 95642cbf-4520-44cc-95ba-80de1fe3b447
-
 ms.date: 12/05/2018
 ms.keywords: 95642cbf-4520-44cc-95ba-80de1fe3b447, InPlaceState, InPlaceState enumeration [Tablet PC], InPlaceState_Auto, InPlaceState_Expanded, InPlaceState_HoverTarget, peninputpanel/InPlaceState, peninputpanel/InPlaceState_Auto, peninputpanel/InPlaceState_Expanded, peninputpanel/InPlaceState_HoverTarget, tablet.inplacestate
 ms.topic: enum
-f1_keywords: 
- - "peninputpanel/InPlaceState"
+f1_keywords:
+- peninputpanel/InPlaceState
 dev_langs:
- - c++
+- c++
 req.header: peninputpanel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - peninputpanel.h
+- peninputpanel.h
 api_name:
- - InPlaceState
+- InPlaceState
 targetos: Windows
 req.typenames: InPlaceState
 req.redist: 

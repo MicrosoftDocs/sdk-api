@@ -1,19 +1,17 @@
 ---
 UID: NS:dwrite.DWRITE_FONT_FEATURE
 title: DWRITE_FONT_FEATURE (dwrite.h)
-
 description: Specifies properties used to identify and execute typographic features in the current font face.
 old-location: directwrite\dwrite_font_feature.htm
 tech.root: DirectWrite
 ms.assetid: f8c2b1b0-ecab-4556-b3e6-5eda75e206ed
-
 ms.date: 12/05/2018
 ms.keywords: DWRITE_FONT_FEATURE, DWRITE_FONT_FEATURE structure [Direct Write], directwrite.dwrite_font_feature, dwrite/DWRITE_FONT_FEATURE
 ms.topic: struct
-f1_keywords: 
- - "dwrite/DWRITE_FONT_FEATURE"
+f1_keywords:
+- dwrite/DWRITE_FONT_FEATURE
 dev_langs:
- - c++
+- c++
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - dwrite.h
+- dwrite.h
 api_name:
- - DWRITE_FONT_FEATURE
+- DWRITE_FONT_FEATURE
 targetos: Windows
 req.typenames: 
 req.redist: 

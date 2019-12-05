@@ -1,19 +1,17 @@
 ---
 UID: NF:dwmapi.DwmSetIconicLivePreviewBitmap
 title: DwmSetIconicLivePreviewBitmap function (dwmapi.h)
-
 description: Sets a static, iconic bitmap to display a live preview (also known as a Peek preview) of a window or tab. The taskbar can use this bitmap to show a full-sized preview of a window or tab.
 old-location: dwm\dwmseticoniclivepreviewbitmap.htm
 tech.root: dwm
 ms.assetid: VS|winui|~\winui\desktopwindowmanager\reference\functions\dwmseticoniclivepreviewbitmap.htm
-
 ms.date: 12/05/2018
 ms.keywords: DWM_SIT_DISPLAYFRAME, DwmSetIconicLivePreviewBitmap, DwmSetIconicLivePreviewBitmap function [Desktop Window Manager], _udwm_dwmseticoniclivepreviewbitmap, _udwm_dwmseticoniclivepreviewbitmap_cpp, dwm.dwmseticoniclivepreviewbitmap, dwmapi/DwmSetIconicLivePreviewBitmap, winui._udwm_dwmseticoniclivepreviewbitmap
 ms.topic: function
-f1_keywords: 
- - "dwmapi/DwmSetIconicLivePreviewBitmap"
+f1_keywords:
+- dwmapi/DwmSetIconicLivePreviewBitmap
 dev_langs:
- - c++
+- c++
 req.header: dwmapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib: Dwmapi.lib
 req.dll: Dwmapi.dll; Uxtheme.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Dwmapi.dll
- - uxtheme.dll
- - ext-ms-win-dwmapi-ext-l1-1-0.dll
- - ext-ms-win-dwmapi-ext-l1-1-1.dll
- - ext-ms-win-dwmapi-ext-l1-1-2.dll
+- Dwmapi.dll
+- uxtheme.dll
+- ext-ms-win-dwmapi-ext-l1-1-0.dll
+- ext-ms-win-dwmapi-ext-l1-1-1.dll
+- ext-ms-win-dwmapi-ext-l1-1-2.dll
 api_name:
- - DwmSetIconicLivePreviewBitmap
+- DwmSetIconicLivePreviewBitmap
 targetos: Windows
 req.typenames: 
 req.redist: 

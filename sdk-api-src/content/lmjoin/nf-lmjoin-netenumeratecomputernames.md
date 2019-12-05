@@ -1,19 +1,17 @@
 ---
 UID: NF:lmjoin.NetEnumerateComputerNames
 title: NetEnumerateComputerNames function (lmjoin.h)
-
 description: Enumerates names for the specified computer.
 old-location: netmgmt\netenumeratecomputernames.htm
 tech.root: NetMgmt
 ms.assetid: c657ae33-404e-4c36-a956-5fbcfa540be7
-
 ms.date: 12/05/2018
 ms.keywords: NetAllComputerNames, NetAlternateComputerNames, NetComputerNameTypeMax, NetEnumerateComputerNames, NetEnumerateComputerNames function [Network Management], NetPrimaryComputerName, lmjoin/NetEnumerateComputerNames, netmgmt.netenumeratecomputernames
 ms.topic: function
-f1_keywords: 
- - "lmjoin/NetEnumerateComputerNames"
+f1_keywords:
+- lmjoin/NetEnumerateComputerNames
 dev_langs:
- - c++
+- c++
 req.header: lmjoin.h
 req.include-header: Lm.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Netapi32.lib
 req.dll: Netapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Netapi32.dll
+- Netapi32.dll
 api_name:
- - NetEnumerateComputerNames
+- NetEnumerateComputerNames
 targetos: Windows
 req.typenames: 
 req.redist: 

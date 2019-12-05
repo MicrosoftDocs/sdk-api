@@ -1,19 +1,17 @@
 ---
 UID: NS:winuser.tagTOUCHINPUT
 title: TOUCHINPUT (winuser.h)
-
 description: Encapsulates data for touch input.
 old-location: wintouch\touchinput.htm
 tech.root: wintouch
 ms.assetid: fc382759-3a1e-401e-a6a7-1bf209a5434b
-
 ms.date: 12/05/2018
-ms.keywords: "*PTOUCHINPUT, PTOUCHINPUT, PTOUCHINPUT structure pointer [Windows Touch], TOUCHINPUT, TOUCHINPUT structure [Windows Touch], tagTOUCHINPUT, wintouch.touchinput, winuser/PTOUCHINPUT, winuser/TOUCHINPUT"
+ms.keywords: '*PTOUCHINPUT, PTOUCHINPUT, PTOUCHINPUT structure pointer [Windows Touch], TOUCHINPUT, TOUCHINPUT structure [Windows Touch], tagTOUCHINPUT, wintouch.touchinput, winuser/PTOUCHINPUT, winuser/TOUCHINPUT'
 ms.topic: struct
-f1_keywords: 
- - "winuser/TOUCHINPUT"
+f1_keywords:
+- winuser/TOUCHINPUT
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - winuser.h
+- winuser.h
 api_name:
- - TOUCHINPUT
+- TOUCHINPUT
 targetos: Windows
 req.typenames: TOUCHINPUT, *PTOUCHINPUT
 req.redist: 

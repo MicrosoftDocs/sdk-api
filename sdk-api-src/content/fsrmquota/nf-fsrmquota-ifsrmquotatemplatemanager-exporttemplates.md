@@ -1,19 +1,17 @@
 ---
 UID: NF:fsrmquota.IFsrmQuotaTemplateManager.ExportTemplates
 title: IFsrmQuotaTemplateManager::ExportTemplates (fsrmquota.h)
-
 description: Exports the quota templates as an XML string.
 old-location: fsrm\ifsrmquotatemplatemanager_exporttemplates.htm
 tech.root: fsrm
 ms.assetid: 36ba071b-4db2-42fb-90a8-838c45dfdd16
-
 ms.date: 12/05/2018
 ms.keywords: ExportTemplates, ExportTemplates method [File Server Resource Manager], ExportTemplates method [File Server Resource Manager],FsrmQuotaTemplateManager class, ExportTemplates method [File Server Resource Manager],IFsrmQuotaTemplateManager interface, FsrmQuotaTemplateManager class [File Server Resource Manager],ExportTemplates method, IFsrmQuotaTemplateManager interface [File Server Resource Manager],ExportTemplates method, IFsrmQuotaTemplateManager.ExportTemplates, IFsrmQuotaTemplateManager::ExportTemplates, fs.ifsrmquotatemplatemanager_exporttemplates, fsrm.ifsrmquotatemplatemanager_exporttemplates, fsrmquota/IFsrmQuotaTemplateManager::ExportTemplates
 ms.topic: method
-f1_keywords: 
- - "fsrmquota/IFsrmQuotaTemplateManager.ExportTemplates"
+f1_keywords:
+- fsrmquota/IFsrmQuotaTemplateManager.ExportTemplates
 dev_langs:
- - c++
+- c++
 req.header: fsrmquota.h
 req.include-header: FsrmQuota.h, FsrmTlb.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: SrmSvc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - SrmSvc.dll
+- SrmSvc.dll
 api_name:
- - IFsrmQuotaTemplateManager.ExportTemplates
- - FsrmQuotaTemplateManager.ExportTemplates
+- IFsrmQuotaTemplateManager.ExportTemplates
+- FsrmQuotaTemplateManager.ExportTemplates
 targetos: Windows
 req.typenames: 
 req.redist: 

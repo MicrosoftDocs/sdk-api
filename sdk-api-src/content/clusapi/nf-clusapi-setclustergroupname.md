@@ -1,19 +1,17 @@
 ---
 UID: NF:clusapi.SetClusterGroupName
 title: SetClusterGroupName function (clusapi.h)
-
 description: Sets the name for a group.
 old-location: mscs\setclustergroupname.htm
 tech.root: MsCS
 ms.assetid: d2dc3837-24d3-4455-8e3e-bb74b95b1d44
-
 ms.date: 12/05/2018
 ms.keywords: PCLUSAPI_SET_CLUSTER_GROUP_NAME, PCLUSAPI_SET_CLUSTER_GROUP_NAME function [Failover Cluster], SetClusterGroupName, SetClusterGroupName function [Failover Cluster], _wolf_setclustergroupname, clusapi/PCLUSAPI_SET_CLUSTER_GROUP_NAME, clusapi/SetClusterGroupName, mscs.setclustergroupname
 ms.topic: function
-f1_keywords: 
- - "clusapi/SetClusterGroupName"
+f1_keywords:
+- clusapi/SetClusterGroupName
 dev_langs:
- - c++
+- c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: ClusAPI.lib
 req.dll: ClusAPI.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - ClusAPI.dll
- - Ext-MS-Win-Cluster-ClusAPI-l1-1-0.dll
- - Ext-MS-Win-Cluster-ClusAPI-l1-1-1.dll
- - Ext-MS-Win-Cluster-ClusAPI-l1-1-2.dll
+- ClusAPI.dll
+- Ext-MS-Win-Cluster-ClusAPI-l1-1-0.dll
+- Ext-MS-Win-Cluster-ClusAPI-l1-1-1.dll
+- Ext-MS-Win-Cluster-ClusAPI-l1-1-2.dll
 api_name:
- - SetClusterGroupName
+- SetClusterGroupName
 targetos: Windows
 req.typenames: 
 req.redist: 

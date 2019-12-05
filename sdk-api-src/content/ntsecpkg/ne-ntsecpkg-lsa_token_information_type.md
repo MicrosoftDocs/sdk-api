@@ -1,19 +1,17 @@
 ---
 UID: NE:ntsecpkg._LSA_TOKEN_INFORMATION_TYPE
 title: LSA_TOKEN_INFORMATION_TYPE (ntsecpkg.h)
-
 description: Specifies the levels of information that can be included in a logon token.
 old-location: security\lsa_token_information_type.htm
 tech.root: SecAuthN
 ms.assetid: c8bf5b8d-6cb1-469d-a451-6cceafda24cf
-
 ms.date: 12/05/2018
 ms.keywords: '*PLSA_TOKEN_INFORMATION_TYPE, LSA_TOKEN_INFORMATION_TYPE, LSA_TOKEN_INFORMATION_TYPE enumeration [Security], LsaTokenInformationNull, LsaTokenInformationV1, PLSA_TOKEN_INFORMATION_TYPE, PLSA_TOKEN_INFORMATION_TYPE enumeration pointer [Security], _lsa_lsa_token_information_type, ntsecpkg/LSA_TOKEN_INFORMATION_TYPE, ntsecpkg/LsaTokenInformationNull, ntsecpkg/LsaTokenInformationV1, ntsecpkg/PLSA_TOKEN_INFORMATION_TYPE, security.lsa_token_information_type'
 ms.topic: enum
 f1_keywords:
 - ntsecpkg/LSA_TOKEN_INFORMATION_TYPE
 dev_langs:
- - c++
+- c++
 req.header: ntsecpkg.h
 req.include-header: 
 req.target-type: Windows

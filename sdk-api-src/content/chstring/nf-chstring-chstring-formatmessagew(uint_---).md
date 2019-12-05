@@ -3,14 +3,13 @@ UID: NF:chstring.CHString.FormatMessageW(UINT,...)
 title: CHString::FormatMessageW
 description: 
 ms.assetid: efa2f907-3a83-4508-95ef-5d40513f507e
-
 ms.date: 05/13/2019
 ms.keywords: CHString::FormatMessageW
 ms.topic: language-reference
-f1_keywords: 
- - "chstring/CHString::FormatMessageW"
+f1_keywords:
+- chstring/CHString::FormatMessageW
 dev_langs:
- - c++
+- c++
 targetos: Windows
 req.assembly: 
 req.construct-type: function
@@ -32,13 +31,13 @@ req.type-library:
 req.umdf-ver: 
 req.unicode-ansi: 
 topic_type:
- - apiref
+- apiref
 api_type:
- - COM
+- COM
 api_location:
- - chstring.h
+- chstring.h
 api_name:
- - CHString::FormatMessageW
+- CHString::FormatMessageW
 ---
 
 # CHString::FormatMessageW

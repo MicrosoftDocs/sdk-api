@@ -1,19 +1,17 @@
 ---
 UID: NF:uianimation.IUIAnimationPriorityComparison.HasPriority
 title: IUIAnimationPriorityComparison::HasPriority (uianimation.h)
-
 description: Determines whether a new storyboard has priority over a scheduled storyboard.
 old-location: uianimation\iuianimationprioritycomparison_haspriority.htm
 tech.root: UIAnimation
 ms.assetid: 82a90bd1-7bcf-4849-bad1-bae425169a2f
-
 ms.date: 12/05/2018
 ms.keywords: HasPriority, HasPriority method [Windows Animation], HasPriority method [Windows Animation],IUIAnimationPriorityComparison interface, IUIAnimationPriorityComparison interface [Windows Animation],HasPriority method, IUIAnimationPriorityComparison.HasPriority, IUIAnimationPriorityComparison::HasPriority, uianimation.iuianimationprioritycomparison_haspriority, uianimation/IUIAnimationPriorityComparison::HasPriority
 ms.topic: method
-f1_keywords: 
- - "uianimation/IUIAnimationPriorityComparison.HasPriority"
+f1_keywords:
+- uianimation/IUIAnimationPriorityComparison.HasPriority
 dev_langs:
- - c++
+- c++
 req.header: uianimation.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: UIAnimation.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAnimation.dll
+- UIAnimation.dll
 api_name:
- - IUIAnimationPriorityComparison.HasPriority
+- IUIAnimationPriorityComparison.HasPriority
 targetos: Windows
 req.typenames: 
 req.redist: 

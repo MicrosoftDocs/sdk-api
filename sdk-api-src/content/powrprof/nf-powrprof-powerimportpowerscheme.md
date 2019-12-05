@@ -1,19 +1,17 @@
 ---
 UID: NF:powrprof.PowerImportPowerScheme
 title: PowerImportPowerScheme function (powrprof.h)
-
 description: Imports a power scheme from a file.
 old-location: base\powerimportpowerscheme.htm
 tech.root: power
 ms.assetid: 84ba8cb6-13ad-459b-b154-c495aaeb67f3
-
 ms.date: 12/05/2018
 ms.keywords: PowerImportPowerScheme, PowerImportPowerScheme function, base.powerimportpowerscheme, powrprof/PowerImportPowerScheme
 ms.topic: function
-f1_keywords: 
- - "powrprof/PowerImportPowerScheme"
+f1_keywords:
+- powrprof/PowerImportPowerScheme
 dev_langs:
- - c++
+- c++
 req.header: powrprof.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: PowrProf.lib
 req.dll: PowrProf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - PowrProf.dll
+- PowrProf.dll
 api_name:
- - PowerImportPowerScheme
+- PowerImportPowerScheme
 targetos: Windows
 req.typenames: 
 req.redist: 

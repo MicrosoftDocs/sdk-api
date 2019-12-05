@@ -1,19 +1,17 @@
 ---
 UID: NF:wlanapi.WFDOpenHandle
 title: WFDOpenHandle function (wlanapi.h)
-
 description: Opens a handle to the Wi-Fi Direct service and negotiates a version of the Wi-FI Direct API to use.
 old-location: nwifi\wfdopenhandle.htm
 tech.root: NativeWiFi
 ms.assetid: D89FAC10-BC33-44BE-ABC8-962241949281
-
 ms.date: 12/05/2018
 ms.keywords: WFDOpenHandle, WFDOpenHandle function [NativeWIFI], nwifi.wfdopenhandle, wlanapi/WFDOpenHandle
 ms.topic: function
-f1_keywords: 
- - "wlanapi/WFDOpenHandle"
+f1_keywords:
+- wlanapi/WFDOpenHandle
 dev_langs:
- - c++
+- c++
 req.header: wlanapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Wlanapi.lib
 req.dll: Wlanapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - wlanapi.dll
+- wlanapi.dll
 api_name:
- - WFDOpenHandle
+- WFDOpenHandle
 targetos: Windows
 req.typenames: 
 req.redist: 

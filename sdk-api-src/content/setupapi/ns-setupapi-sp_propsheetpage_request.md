@@ -1,19 +1,17 @@
 ---
 UID: NS:setupapi._SP_PROPSHEETPAGE_REQUEST
 title: SP_PROPSHEETPAGE_REQUEST (setupapi.h)
-
 description: An SP_PROPSHEETPAGE_REQUEST structure can be passed as the first parameter (lpv) to the ExtensionPropSheetPageProc entry point in the SetupAPI DLL.
 old-location: devinst\sp_propsheetpage_request.htm
 tech.root: devinst
 ms.assetid: f9a4e685-e396-4b2f-a452-14389eb44620
-
 ms.date: 12/05/2018
 ms.keywords: '*PSP_PROPSHEETPAGE_REQUEST, PSP_PROPSHEETPAGE_REQUEST, PSP_PROPSHEETPAGE_REQUEST structure pointer [Device and Driver Installation], SP_PROPSHEETPAGE_REQUEST, SP_PROPSHEETPAGE_REQUEST structure [Device and Driver Installation], devinst.sp_propsheetpage_request, di-struct_03c50681-4081-4ae3-88ba-32a10e937207.xml, setupapi/PSP_PROPSHEETPAGE_REQUEST, setupapi/SP_PROPSHEETPAGE_REQUEST'
 ms.topic: struct
 f1_keywords:
 - setupapi/SP_PROPSHEETPAGE_REQUEST
 dev_langs:
- - c++
+- c++
 req.header: setupapi.h
 req.include-header: Setupapi.h
 req.target-type: Windows

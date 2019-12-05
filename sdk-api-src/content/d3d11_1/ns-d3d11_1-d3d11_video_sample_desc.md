@@ -1,19 +1,17 @@
 ---
 UID: NS:d3d11_1.D3D11_VIDEO_SAMPLE_DESC
 title: D3D11_VIDEO_SAMPLE_DESC (d3d11_1.h)
-
 description: Describes a video sample.
 old-location: mf\d3d11_video_sample_desc.htm
 tech.root: medfound
 ms.assetid: 3B6BF76A-6566-4C58-AD26-5B13E6D040CA
-
 ms.date: 12/05/2018
 ms.keywords: D3D11_VIDEO_SAMPLE_DESC, D3D11_VIDEO_SAMPLE_DESC structure [Media Foundation], d3d11_1/D3D11_VIDEO_SAMPLE_DESC, mf.d3d11_video_sample_desc
 ms.topic: struct
-f1_keywords: 
- - "d3d11_1/D3D11_VIDEO_SAMPLE_DESC"
+f1_keywords:
+- d3d11_1/D3D11_VIDEO_SAMPLE_DESC
 dev_langs:
- - c++
+- c++
 req.header: d3d11_1.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - d3d11_1.h
+- d3d11_1.h
 api_name:
- - D3D11_VIDEO_SAMPLE_DESC
+- D3D11_VIDEO_SAMPLE_DESC
 targetos: Windows
 req.typenames: D3D11_VIDEO_SAMPLE_DESC
 req.redist: 

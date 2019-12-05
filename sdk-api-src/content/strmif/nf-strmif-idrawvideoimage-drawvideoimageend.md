@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IDrawVideoImage.DrawVideoImageEnd
 title: IDrawVideoImage::DrawVideoImageEnd (strmif.h)
-
 description: Note  This interface has been deprecated. New applications should not use it. The DrawVideoImageEnd method turns DirectDraw back on after drawing has been performed.
 old-location: dshow\idrawvideoimage_drawvideoimageend.htm
 tech.root: DirectShow
 ms.assetid: 051fa283-849d-494c-bebf-d7adabb807a0
-
 ms.date: 12/05/2018
 ms.keywords: DrawVideoImageEnd, DrawVideoImageEnd method [DirectShow], DrawVideoImageEnd method [DirectShow],IDrawVideoImage interface, IDrawVideoImage interface [DirectShow],DrawVideoImageEnd method, IDrawVideoImage.DrawVideoImageEnd, IDrawVideoImage::DrawVideoImageEnd, IDrawVideoImageDrawVideoImageEnd, dshow.idrawvideoimage_drawvideoimageend, strmif/IDrawVideoImage::DrawVideoImageEnd
 ms.topic: method
-f1_keywords: 
- - "strmif/IDrawVideoImage.DrawVideoImageEnd"
+f1_keywords:
+- strmif/IDrawVideoImage.DrawVideoImageEnd
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmif.h
+- Strmif.h
 api_name:
- - IDrawVideoImage.DrawVideoImageEnd
+- IDrawVideoImage.DrawVideoImageEnd
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d10sdklayers.ID3D10InfoQueue.GetRetrievalFilterStackSize
 title: ID3D10InfoQueue::GetRetrievalFilterStackSize (d3d10sdklayers.h)
-
 description: Get the size of the retrieval-filter stack in bytes.
 old-location: direct3d10\id3d10infoqueue_getretrievalfilterstacksize.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10infoqueue_getretrievalfilterstacksize.htm
-
 ms.date: 12/05/2018
 ms.keywords: GetRetrievalFilterStackSize, GetRetrievalFilterStackSize method [Direct3D 10], GetRetrievalFilterStackSize method [Direct3D 10],ID3D10InfoQueue interface, ID3D10InfoQueue interface [Direct3D 10],GetRetrievalFilterStackSize method, ID3D10InfoQueue.GetRetrievalFilterStackSize, ID3D10InfoQueue::GetRetrievalFilterStackSize, bddf2f2d-336f-4fec-7c6a-30c33346bd46, d3d10sdklayers/ID3D10InfoQueue::GetRetrievalFilterStackSize, direct3d10.id3d10infoqueue_getretrievalfilterstacksize
 ms.topic: method
-f1_keywords: 
- - "d3d10sdklayers/ID3D10InfoQueue.GetRetrievalFilterStackSize"
+f1_keywords:
+- d3d10sdklayers/ID3D10InfoQueue.GetRetrievalFilterStackSize
 dev_langs:
- - c++
+- c++
 req.header: d3d10sdklayers.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D10SDKLayers.h
+- D3D10SDKLayers.h
 api_name:
- - ID3D10InfoQueue.GetRetrievalFilterStackSize
+- ID3D10InfoQueue.GetRetrievalFilterStackSize
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NN:dxgi1_6.IDXGIOutput6
 title: IDXGIOutput6 (dxgi1_6.h)
-
 description: Represents an adapter output (such as a monitor). The IDXGIOutput6 interface exposes methods to provide specific monitor capabilities.
 old-location: direct3ddxgi\idxgioutput6.htm
 tech.root: direct3ddxgi
 ms.assetid: 2F04E7F1-8295-441B-9E86-65C3DE5DE75F
-
 ms.date: 12/05/2018
 ms.keywords: IDXGIOutput6, IDXGIOutput6 interface [DXGI], IDXGIOutput6 interface [DXGI],described, direct3ddxgi.idxgioutput6, dxgi1_6/IDXGIOutput6
 ms.topic: interface
-f1_keywords: 
- - "dxgi1_6/IDXGIOutput6"
+f1_keywords:
+- dxgi1_6/IDXGIOutput6
 dev_langs:
- - c++
+- c++
 req.header: dxgi1_6.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dxgi.lib
 req.dll: Dxgi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dxgi.dll
+- dxgi.dll
 api_name:
- - IDXGIOutput6
+- IDXGIOutput6
 targetos: Windows
 req.typenames: 
 req.redist: 

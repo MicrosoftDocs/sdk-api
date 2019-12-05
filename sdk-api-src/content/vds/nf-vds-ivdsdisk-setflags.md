@@ -1,19 +1,17 @@
 ---
 UID: NF:vds.IVdsDisk.SetFlags
 title: IVdsDisk::SetFlags (vds.h)
-
 description: Sets the flags of a disk object.
 old-location: base\ivdsdisk_setflags.htm
 tech.root: VDS
 ms.assetid: 0ede6a22-b15c-4afd-8d49-c963ea7e2052
-
 ms.date: 12/05/2018
 ms.keywords: IVdsDisk interface [VDS],SetFlags method, IVdsDisk.SetFlags, IVdsDisk::SetFlags, SetFlags, SetFlags method [VDS], SetFlags method [VDS],IVdsDisk interface, base.ivdsdisk_setflags, vds/IVdsDisk::SetFlags
 ms.topic: method
 f1_keywords:
 - vds/IVdsDisk.SetFlags
 dev_langs:
- - c++
+- c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

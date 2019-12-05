@@ -1,19 +1,17 @@
 ---
 UID: NF:winuser.LoadCursorFromFileA
 title: LoadCursorFromFileA function (winuser.h)
-
 description: Creates a cursor based on data contained in a file.
 old-location: menurc\loadcursorfromfile.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\cursors\cursorreference\cursorfunctions\loadcursorfromfile.htm
-
 ms.date: 12/05/2018
 ms.keywords: LoadCursorFromFile, LoadCursorFromFile function [Menus and Other Resources], LoadCursorFromFileA, LoadCursorFromFileW, _win32_LoadCursorFromFile, _win32_loadcursorfromfile_cpp, menurc.loadcursorfromfile, winui._win32_loadcursorfromfile, winuser/LoadCursorFromFile, winuser/LoadCursorFromFileA, winuser/LoadCursorFromFileW
 ms.topic: function
-f1_keywords: 
- - "winuser/LoadCursorFromFile"
+f1_keywords:
+- winuser/LoadCursorFromFile
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - User32.dll
- - ext-ms-win-ntuser-gui-l1-2-1.dll
+- User32.dll
+- ext-ms-win-ntuser-gui-l1-2-1.dll
 api_name:
- - LoadCursorFromFile
- - LoadCursorFromFileA
- - LoadCursorFromFileW
+- LoadCursorFromFile
+- LoadCursorFromFileA
+- LoadCursorFromFileW
 targetos: Windows
 req.typenames: 
 req.redist: 

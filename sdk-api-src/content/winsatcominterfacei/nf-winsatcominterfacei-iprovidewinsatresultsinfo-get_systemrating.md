@@ -1,19 +1,17 @@
 ---
 UID: NF:winsatcominterfacei.IProvideWinSATResultsInfo.get_SystemRating
 title: IProvideWinSATResultsInfo::get_SystemRating (winsatcominterfacei.h)
-
 description: Retrieves the base score for the computer.
 old-location: winsat\iprovidewinsatresultsinfo_systemrating.htm
 tech.root: WinSAT
 ms.assetid: 4fe20830-bf86-4551-ba73-534740cabab5
-
 ms.date: 12/05/2018
 ms.keywords: IProvideWinSATResultsInfo interface [WinSAT],SystemRating property, IProvideWinSATResultsInfo.SystemRating, IProvideWinSATResultsInfo.get_SystemRating, IProvideWinSATResultsInfo::SystemRating, IProvideWinSATResultsInfo::get_SystemRating, SystemRating property [WinSAT], SystemRating property [WinSAT],IProvideWinSATResultsInfo interface, get_SystemRating, winsat.iprovidewinsatresultsinfo_systemrating, winsatcominterfacei/IProvideWinSATResultsInfo::SystemRating, winsatcominterfacei/IProvideWinSATResultsInfo::get_SystemRating
 ms.topic: method
-f1_keywords: 
- - "winsatcominterfacei/IProvideWinSATResultsInfo.SystemRating"
+f1_keywords:
+- winsatcominterfacei/IProvideWinSATResultsInfo.SystemRating
 dev_langs:
- - c++
+- c++
 req.header: winsatcominterfacei.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: Winsatapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Winsatapi.dll
+- Winsatapi.dll
 api_name:
- - IProvideWinSATResultsInfo.SystemRating
- - IProvideWinSATResultsInfo.get_SystemRating
+- IProvideWinSATResultsInfo.SystemRating
+- IProvideWinSATResultsInfo.get_SystemRating
 targetos: Windows
 req.typenames: 
 req.redist: 

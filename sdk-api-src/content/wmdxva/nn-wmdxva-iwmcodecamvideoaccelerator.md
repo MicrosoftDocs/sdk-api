@@ -1,19 +1,17 @@
 ---
 UID: NN:wmdxva.IWMCodecAMVideoAccelerator
 title: IWMCodecAMVideoAccelerator (wmdxva.h)
-
 description: This interface is exposed by the Windows Media Decoder DMO and is called by a media player source filter to set up the various connections required to enable DirectX&#174; video acceleration (VA) for decoding of Windows Media-based video content.
 old-location: wmformat\iwmcodecamvideoaccelerator.htm
 tech.root: wmformat
 ms.assetid: 48cfc4d1-4b79-47a5-9cc9-a1f19d2c0123
-
 ms.date: 12/05/2018
 ms.keywords: IWMCodecAMVideoAccelerator, IWMCodecAMVideoAccelerator interface [windows Media Format], IWMCodecAMVideoAccelerator interface [windows Media Format],described, IWMCodecAMVideoAcceleratorInterface, wmdxva/IWMCodecAMVideoAccelerator, wmformat.iwmcodecamvideoaccelerator
 ms.topic: interface
-f1_keywords: 
- - "wmdxva/IWMCodecAMVideoAccelerator"
+f1_keywords:
+- wmdxva/IWMCodecAMVideoAccelerator
 dev_langs:
- - c++
+- c++
 req.header: wmdxva.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmdxva.h
+- wmdxva.h
 api_name:
- - IWMCodecAMVideoAccelerator
+- IWMCodecAMVideoAccelerator
 targetos: Windows
 req.typenames: 
 req.redist: 

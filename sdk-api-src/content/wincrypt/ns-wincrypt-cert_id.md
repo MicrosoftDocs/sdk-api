@@ -1,19 +1,17 @@
 ---
 UID: NS:wincrypt._CERT_ID
 title: CERT_ID (wincrypt.h)
-
 description: Is used as a flexible means of uniquely identifying a certificate.
 old-location: security\cert_id.htm
 tech.root: SecCrypto
 ms.assetid: 9e33f661-c365-4725-8c3f-27b6cdd9a84e
-
 ms.date: 12/05/2018
 ms.keywords: '*PCERT_ID, CERT_ID, CERT_ID structure [Security], CERT_ID_ISSUER_SERIAL_NUMBER, CERT_ID_KEY_IDENTIFIER, CERT_ID_SHA1_HASH, PCERT_ID, PCERT_ID structure pointer [Security], _crypto2_cert_id, security.cert_id, wincrypt/CERT_ID, wincrypt/PCERT_ID'
 ms.topic: struct
 f1_keywords:
 - wincrypt/CERT_ID
 dev_langs:
- - c++
+- c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

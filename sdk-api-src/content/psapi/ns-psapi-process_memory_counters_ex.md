@@ -1,19 +1,17 @@
 ---
 UID: NS:psapi._PROCESS_MEMORY_COUNTERS_EX
 title: PROCESS_MEMORY_COUNTERS_EX (psapi.h)
-
 description: Contains extended memory statistics for a process.
 old-location: psapi\process_memory_counters_ex.htm
 tech.root: psapi
 ms.assetid: cf06445d-b71a-4320-afc8-4bd88ebfb284
-
 ms.date: 12/05/2018
-ms.keywords: "*PPROCESS_MEMORY_COUNTERS_EX, PPROCESS_MEMORY_COUNTERS_EX, PPROCESS_MEMORY_COUNTERS_EX structure pointer [PSAPI], PROCESS_MEMORY_COUNTERS_EX, PROCESS_MEMORY_COUNTERS_EX structure [PSAPI], _win32_process_memory_counters_ex, base.process_memory_counters_ex, psapi.process_memory_counters_ex, psapi/PPROCESS_MEMORY_COUNTERS_EX, psapi/PROCESS_MEMORY_COUNTERS_EX"
+ms.keywords: '*PPROCESS_MEMORY_COUNTERS_EX, PPROCESS_MEMORY_COUNTERS_EX, PPROCESS_MEMORY_COUNTERS_EX structure pointer [PSAPI], PROCESS_MEMORY_COUNTERS_EX, PROCESS_MEMORY_COUNTERS_EX structure [PSAPI], _win32_process_memory_counters_ex, base.process_memory_counters_ex, psapi.process_memory_counters_ex, psapi/PPROCESS_MEMORY_COUNTERS_EX, psapi/PROCESS_MEMORY_COUNTERS_EX'
 ms.topic: struct
-f1_keywords: 
- - "psapi/PROCESS_MEMORY_COUNTERS_EX"
+f1_keywords:
+- psapi/PROCESS_MEMORY_COUNTERS_EX
 dev_langs:
- - c++
+- c++
 req.header: psapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Psapi.h
+- Psapi.h
 api_name:
- - PROCESS_MEMORY_COUNTERS_EX
+- PROCESS_MEMORY_COUNTERS_EX
 targetos: Windows
 req.typenames: PROCESS_MEMORY_COUNTERS_EX
 req.redist: 

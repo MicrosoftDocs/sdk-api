@@ -1,19 +1,17 @@
 ---
 UID: NF:control.IVideoWindow.HideCursor
 title: IVideoWindow::HideCursor (control.h)
-
 description: The HideCursor method shows or hides the cursor when the mouse is positioned over the video window.
 old-location: dshow\ivideowindow_hidecursor.htm
 tech.root: DirectShow
 ms.assetid: c45da114-6711-427b-8533-4ed339a42ff4
-
 ms.date: 12/05/2018
 ms.keywords: HideCursor, HideCursor method [DirectShow], HideCursor method [DirectShow],IVideoWindow interface, IVideoWindow interface [DirectShow],HideCursor method, IVideoWindow.HideCursor, IVideoWindow::HideCursor, IVideoWindowHideCursor, OAFALSE, OATRUE, control/IVideoWindow::HideCursor, dshow.ivideowindow_hidecursor
 ms.topic: method
-f1_keywords: 
- - "control/IVideoWindow.HideCursor"
+f1_keywords:
+- control/IVideoWindow.HideCursor
 dev_langs:
- - c++
+- c++
 req.header: control.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IVideoWindow.HideCursor
+- IVideoWindow.HideCursor
 targetos: Windows
 req.typenames: 
 req.redist: 

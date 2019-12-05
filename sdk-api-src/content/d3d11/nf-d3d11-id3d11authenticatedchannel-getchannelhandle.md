@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d11.ID3D11AuthenticatedChannel.GetChannelHandle
 title: ID3D11AuthenticatedChannel::GetChannelHandle (d3d11.h)
-
 description: Gets a handle to the authenticated channel.
 old-location: mf\id3d11authenticatedchannel_getchannelhandle.htm
 tech.root: medfound
 ms.assetid: CA32D01B-B0B7-4F4F-8F48-747448DEC735
-
 ms.date: 12/05/2018
 ms.keywords: GetChannelHandle, GetChannelHandle method [Media Foundation], GetChannelHandle method [Media Foundation],ID3D11AuthenticatedChannel interface, ID3D11AuthenticatedChannel interface [Media Foundation],GetChannelHandle method, ID3D11AuthenticatedChannel.GetChannelHandle, ID3D11AuthenticatedChannel::GetChannelHandle, d3d11/ID3D11AuthenticatedChannel::GetChannelHandle, mf.id3d11authenticatedchannel_getchannelhandle
 ms.topic: method
-f1_keywords: 
- - "d3d11/ID3D11AuthenticatedChannel.GetChannelHandle"
+f1_keywords:
+- d3d11/ID3D11AuthenticatedChannel.GetChannelHandle
 dev_langs:
- - c++
+- c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - d3d11.h
+- d3d11.h
 api_name:
- - ID3D11AuthenticatedChannel.GetChannelHandle
+- ID3D11AuthenticatedChannel.GetChannelHandle
 targetos: Windows
 req.typenames: 
 req.redist: 

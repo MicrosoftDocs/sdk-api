@@ -1,19 +1,17 @@
 ---
 UID: NF:comsvcs.IComActivityEvents.OnActivityCreate
 title: IComActivityEvents::OnActivityCreate (comsvcs.h)
-
 description: Generated when an activity starts.
 old-location: cos\icomactivityevents_onactivitycreate.htm
 tech.root: cossdk
 ms.assetid: 27d6dfd6-24c8-480b-9d91-6c6cce08384c
-
 ms.date: 12/05/2018
 ms.keywords: IComActivityEvents interface [COM+],OnActivityCreate method, IComActivityEvents.OnActivityCreate, IComActivityEvents::OnActivityCreate, OnActivityCreate, OnActivityCreate method [COM+], OnActivityCreate method [COM+],IComActivityEvents interface, _dtc_IComActivityEvents_OnActivityCreate, comsvcs/IComActivityEvents::OnActivityCreate, cos.icomactivityevents_onactivitycreate
 ms.topic: method
-f1_keywords: 
- - "comsvcs/IComActivityEvents.OnActivityCreate"
+f1_keywords:
+- comsvcs/IComActivityEvents.OnActivityCreate
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - IComActivityEvents.OnActivityCreate
+- IComActivityEvents.OnActivityCreate
 targetos: Windows
 req.typenames: 
 req.redist: 

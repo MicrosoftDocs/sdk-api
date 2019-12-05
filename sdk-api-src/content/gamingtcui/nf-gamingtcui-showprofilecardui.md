@@ -1,19 +1,17 @@
 ---
 UID: NF:gamingtcui.ShowProfileCardUI
 title: ShowProfileCardUI function (gamingtcui.h)
-
 description: Do not use. This API is only supported for Xbox developers.
 old-location: tcui\showprofilecardui.htm
 tech.root: tcui
 ms.assetid: 1BFC3B4B-4E48-4FAF-8B52-6E04EB72A064
-
 ms.date: 12/05/2018
 ms.keywords: ShowProfileCardUI, ShowProfileCardUI function, gamingtcui/ShowProfileCardUI, tcui.showprofilecardui
 ms.topic: function
-f1_keywords: 
- - "gamingtcui/ShowProfileCardUI"
+f1_keywords:
+- gamingtcui/ShowProfileCardUI
 dev_langs:
- - c++
+- c++
 req.header: gamingtcui.h
 req.include-header: 
 req.target-type: Windows
@@ -32,19 +30,19 @@ req.lib: WindowsApp.lib
 req.dll: Gamingtcui.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - gamingtcui.dll
- - API-MS-Win-Gaming-Tcui-L1-1-0.dll
- - GamingTcuiStub.dll
- - API-MS-Win-Gaming-Tcui-L1-1-1.dll
- - Xbox.Shell.API.dll
- - API-MS-Win-Gaming-Tcui-L1-1-2.dll
+- gamingtcui.dll
+- API-MS-Win-Gaming-Tcui-L1-1-0.dll
+- GamingTcuiStub.dll
+- API-MS-Win-Gaming-Tcui-L1-1-1.dll
+- Xbox.Shell.API.dll
+- API-MS-Win-Gaming-Tcui-L1-1-2.dll
 api_name:
- - ShowProfileCardUI
+- ShowProfileCardUI
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:tuner.IDVBSTuningSpace.get_InputRange
 title: IDVBSTuningSpace::get_InputRange (tuner.h)
-
 description: The get_InputRange method retrieves an integer indicating which option or switch contains the requested signal source.
 old-location: mstv\idvbstuningspace_get_inputrange.htm
 tech.root: mstv
 ms.assetid: d116c1d1-df48-434b-ad49-eabd0efaa810
-
 ms.date: 12/05/2018
 ms.keywords: IDVBSTuningSpace interface [Microsoft TV Technologies],get_InputRange method, IDVBSTuningSpace.get_InputRange, IDVBSTuningSpace::get_InputRange, IDVBSTuningSpaceget_InputRange, get_InputRange, get_InputRange method [Microsoft TV Technologies], get_InputRange method [Microsoft TV Technologies],IDVBSTuningSpace interface, mstv.idvbstuningspace_get_inputrange, tuner/IDVBSTuningSpace::get_InputRange
 ms.topic: method
-f1_keywords: 
- - "tuner/IDVBSTuningSpace.get_InputRange"
+f1_keywords:
+- tuner/IDVBSTuningSpace.get_InputRange
 dev_langs:
- - c++
+- c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - tuner.h
+- tuner.h
 api_name:
- - IDVBSTuningSpace.get_InputRange
+- IDVBSTuningSpace.get_InputRange
 targetos: Windows
 req.typenames: 
 req.redist: 

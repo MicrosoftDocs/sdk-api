@@ -1,19 +1,17 @@
 ---
 UID: NF:winldap.ldap_get_option
 title: ldap_get_option function (winldap.h)
-
 description: Retrieves the current values of session-wide parameters.
 old-location: ldap\ldap_get_option.htm
 tech.root: ldap
 ms.assetid: e07c2c3d-8099-4f9c-9ee7-26c1287110d5
-
 ms.date: 12/05/2018
-ms.keywords: "_ldap_ldap_get_option, ldap.ldap__get__option, ldap.ldap_get_option, ldap_get_option, ldap_get_option function [LDAP], ldap_get_optionW, winldap/ldap_get_option, winldap/ldap_get_optionW"
+ms.keywords: _ldap_ldap_get_option, ldap.ldap__get__option, ldap.ldap_get_option, ldap_get_option, ldap_get_option function [LDAP], ldap_get_optionW, winldap/ldap_get_option, winldap/ldap_get_optionW
 ms.topic: function
-f1_keywords: 
- - "winldap/ldap_get_option"
+f1_keywords:
+- winldap/ldap_get_option
 dev_langs:
- - c++
+- c++
 req.header: winldap.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Wldap32.lib
 req.dll: Wldap32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Wldap32.dll
+- Wldap32.dll
 api_name:
- - ldap_get_option
- - ldap_get_option
- - ldap_get_optionW
+- ldap_get_option
+- ldap_get_option
+- ldap_get_optionW
 targetos: Windows
 req.typenames: 
 req.redist: 

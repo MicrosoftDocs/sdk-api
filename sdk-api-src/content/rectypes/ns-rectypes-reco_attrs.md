@@ -1,19 +1,17 @@
 ---
 UID: NS:rectypes.tagRECO_ATTRS
 title: RECO_ATTRS (rectypes.h)
-
 description: Retrieves the attributes of a recognizer or specifies which attributes to use when you search for an installed recognizer.
 old-location: tablet\reco_attrs.htm
 tech.root: tablet
 ms.assetid: 5ebbb47f-1a11-4e97-8e45-29dbe07fe86d
-
 ms.date: 12/05/2018
 ms.keywords: 5ebbb47f-1a11-4e97-8e45-29dbe07fe86d, RECO_ATTRS, RECO_ATTRS structure [Tablet PC], rectypes/RECO_ATTRS, tablet.reco_attrs
 ms.topic: struct
-f1_keywords: 
- - "rectypes/RECO_ATTRS"
+f1_keywords:
+- rectypes/RECO_ATTRS
 dev_langs:
- - c++
+- c++
 req.header: rectypes.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - rectypes.h
+- rectypes.h
 api_name:
- - RECO_ATTRS
+- RECO_ATTRS
 targetos: Windows
 req.typenames: RECO_ATTRS
 req.redist: 

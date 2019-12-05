@@ -1,19 +1,17 @@
 ---
 UID: NN:shobjidl_core.IShellFolder2
 title: IShellFolder2 (shobjidl_core.h)
-
 description: Extends the capabilities of IShellFolder. Its methods provide a variety of information about the contents of a Shell folder.
 old-location: shell\IShellFolder2.htm
 tech.root: shell
 ms.assetid: 9b008034-3576-429e-b67c-e2222592ca46
-
 ms.date: 12/05/2018
 ms.keywords: IShellFolder2, IShellFolder2 interface [Windows Shell], IShellFolder2 interface [Windows Shell],described, _win32_IShellFolder2, shell.IShellFolder2, shobjidl_core/IShellFolder2
 ms.topic: interface
-f1_keywords: 
- - "shobjidl_core/IShellFolder2"
+f1_keywords:
+- shobjidl_core/IShellFolder2
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: Shell32.dll (version 5.0 or later); Netshell.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shell32.dll
- - netshell.dll
+- Shell32.dll
+- netshell.dll
 api_name:
- - IShellFolder2
+- IShellFolder2
 targetos: Windows
 req.typenames: 
 req.redist: 

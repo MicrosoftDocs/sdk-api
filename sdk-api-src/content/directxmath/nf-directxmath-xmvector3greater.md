@@ -1,19 +1,17 @@
 ---
 UID: NF:directxmath.XMVector3Greater
 title: XMVector3Greater function (directxmath.h)
-
 description: Tests whether one 3D vector is greater than another 3D vector.
 old-location: dxmath\xmvector3greater.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.comparison.XMVector3Greater(XMVECTOR,XMVECTOR)
-
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMVector3Greater, XMVector3Greater, XMVector3Greater method [DirectX Math Support APIs], dxmath.xmvector3greater
 ms.topic: function
-f1_keywords: 
- - "directxmath/XMVector3Greater"
+f1_keywords:
+- directxmath/XMVector3Greater
 dev_langs:
- - c++
+- c++
 req.header: directxmath.h
 req.include-header: DirectXMath.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - directxmathvector.inl
+- directxmathvector.inl
 api_name:
- - XMVector3Greater
+- XMVector3Greater
 targetos: Windows
 req.typenames: 
 req.redist: 

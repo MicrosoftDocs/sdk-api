@@ -1,19 +1,17 @@
 ---
 UID: NF:tuner.ILanguageComponentType.put_LangID
 title: ILanguageComponentType::put_LangID (tuner.h)
-
 description: The put_LangID method specifies the LCID that identifies the language.
 old-location: mstv\ilanguagecomponenttype_put_langid.htm
 tech.root: mstv
 ms.assetid: c0dc0141-a839-4fdc-9313-24ddd3eaf63d
-
 ms.date: 12/05/2018
 ms.keywords: ILanguageComponentType interface [Microsoft TV Technologies],put_LangID method, ILanguageComponentType.put_LangID, ILanguageComponentType::put_LangID, ILanguageComponentTypeput_LangID, mstv.ilanguagecomponenttype_put_langid, put_LangID, put_LangID method [Microsoft TV Technologies], put_LangID method [Microsoft TV Technologies],ILanguageComponentType interface, tuner/ILanguageComponentType::put_LangID
 ms.topic: method
-f1_keywords: 
- - "tuner/ILanguageComponentType.put_LangID"
+f1_keywords:
+- tuner/ILanguageComponentType.put_LangID
 dev_langs:
- - c++
+- c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - tuner.h
+- tuner.h
 api_name:
- - ILanguageComponentType.put_LangID
+- ILanguageComponentType.put_LangID
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:sdoias.ISdoCollection.Item
 title: ISdoCollection::Item (sdoias.h)
-
 description: The Item method retrieves the specified item from the collection.
 old-location: nps\SDO_isdocollection_item.htm
 tech.root: Nps
 ms.assetid: 1c830e23-dc6f-49dd-83fe-8ddd39ac1bf6
-
 ms.date: 12/05/2018
 ms.keywords: ISdoCollection interface [Network Policy Server],Item method, ISdoCollection.Item, ISdoCollection::Item, Item, Item method [Network Policy Server], Item method [Network Policy Server],ISdoCollection interface, _sdo_isdocollection_item, nps.SDO_isdocollection_item, sdo.isdocollection_item, sdoias/ISdoCollection::Item
 ms.topic: method
 f1_keywords:
 - sdoias/ISdoCollection.Item
 dev_langs:
- - c++
+- c++
 req.header: sdoias.h
 req.include-header: 
 req.target-type: Windows

@@ -1,19 +1,17 @@
 ---
 UID: NF:dwrite_1.IDWriteFontFace1.GetUnicodeRanges
 title: IDWriteFontFace1::GetUnicodeRanges (dwrite_1.h)
-
 description: Retrieves a list of character ranges supported by a font.
 old-location: directwrite\idwritefontface1_getunicoderanges.htm
 tech.root: DirectWrite
 ms.assetid: 0464BA91-B098-463D-A4A9-8D3C05E45F0E
-
 ms.date: 12/05/2018
 ms.keywords: GetUnicodeRanges, GetUnicodeRanges method [Direct Write], GetUnicodeRanges method [Direct Write],IDWriteFontFace1 interface, IDWriteFontFace1 interface [Direct Write],GetUnicodeRanges method, IDWriteFontFace1.GetUnicodeRanges, IDWriteFontFace1::GetUnicodeRanges, directwrite.idwritefontface1_getunicoderanges, dwrite_1/IDWriteFontFace1::GetUnicodeRanges
 ms.topic: method
-f1_keywords: 
- - "dwrite_1/IDWriteFontFace1.GetUnicodeRanges"
+f1_keywords:
+- dwrite_1/IDWriteFontFace1.GetUnicodeRanges
 dev_langs:
- - c++
+- c++
 req.header: dwrite_1.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dwrite_1.lib
 req.dll: Dwrite_1.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dwrite_1.dll
+- dwrite_1.dll
 api_name:
- - IDWriteFontFace1.GetUnicodeRanges
+- IDWriteFontFace1.GetUnicodeRanges
 targetos: Windows
 req.typenames: 
 req.redist: 

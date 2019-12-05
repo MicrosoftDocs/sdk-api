@@ -1,19 +1,17 @@
 ---
 UID: NF:iscsidsc.AddPersistentIScsiDeviceA
 title: AddPersistentIScsiDeviceA function (iscsidsc.h)
-
 description: AddPersistentIscsiDevice function adds a volume device name, drive letter, or mount point symbolic link to the list of iSCSI persistently bound volumes and devices.
 old-location: iscsidisc\addpersistentiscsidevice.htm
 tech.root: iSCSIDisc
 ms.assetid: 184b256b-0cb0-45c1-8f73-5ff28fb388fb
-
 ms.date: 12/05/2018
 ms.keywords: AddPersistentIScsiDeviceA, AddPersistentIscsiDevice, AddPersistentIscsiDevice function [iSCSI Discovery Library API], AddPersistentIscsiDeviceA, AddPersistentIscsiDeviceW, AddPersistentiScsiDevice, iscsidisc.addpersistentiscsidevice, iscsidsc/AddPersistentIscsiDevice, iscsidsc/AddPersistentIscsiDeviceA, iscsidsc/AddPersistentIscsiDeviceW
 ms.topic: function
-f1_keywords: 
- - "iscsidsc/AddPersistentIscsiDevice"
+f1_keywords:
+- iscsidsc/AddPersistentIscsiDevice
 dev_langs:
- - c++
+- c++
 req.header: iscsidsc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Iscsidsc.lib
 req.dll: Iscsidsc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Iscsidsc.dll
+- Iscsidsc.dll
 api_name:
- - AddPersistentIscsiDevice
- - AddPersistentIscsiDeviceA
- - AddPersistentIscsiDeviceW
+- AddPersistentIscsiDevice
+- AddPersistentIscsiDeviceA
+- AddPersistentIscsiDeviceW
 targetos: Windows
 req.typenames: 
 req.redist: 

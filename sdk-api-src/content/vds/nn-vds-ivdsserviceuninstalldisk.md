@@ -1,19 +1,17 @@
 ---
 UID: NN:vds.IVdsServiceUninstallDisk
 title: IVdsServiceUninstallDisk (vds.h)
-
 description: Provides methods to uninstall basic and dynamic disks.
 old-location: base\ivdsserviceuninstalldisk.htm
 tech.root: VDS
 ms.assetid: 2d111105-9970-40a3-bb8d-a92d38985fd9
-
 ms.date: 12/05/2018
 ms.keywords: IVdsServiceUninstallDisk, IVdsServiceUninstallDisk interface, IVdsServiceUninstallDisk interface,described, base.ivdsserviceuninstalldisk, vds/IVdsServiceUninstallDisk
 ms.topic: interface
-f1_keywords: 
- - "vds/IVdsServiceUninstallDisk"
+f1_keywords:
+- vds/IVdsServiceUninstallDisk
 dev_langs:
- - c++
+- c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Uuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Uuid.lib
- - Uuid.dll
+- Uuid.lib
+- Uuid.dll
 api_name:
- - IVdsServiceUninstallDisk
+- IVdsServiceUninstallDisk
 targetos: Windows
 req.typenames: 
 req.redist: 

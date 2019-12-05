@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl.IApplicationAssociationRegistrationUI.LaunchAdvancedAssociationUI
 title: IApplicationAssociationRegistrationUI::LaunchAdvancedAssociationUI (shobjidl.h)
-
 description: Launches an advanced association dialog box through which the user can customize the associations for the application specified in pszAppRegName.
 old-location: shell\IApplicationAssociationRegistrationUI_LaunchAdvancedAssociationUI.htm
 tech.root: shell
 ms.assetid: db2fc087-2f22-40df-8ec9-f673c0fe81ff
-
 ms.date: 12/05/2018
 ms.keywords: IApplicationAssociationRegistrationUI interface [Windows Shell],LaunchAdvancedAssociationUI method, IApplicationAssociationRegistrationUI.LaunchAdvancedAssociationUI, IApplicationAssociationRegistrationUI::LaunchAdvancedAssociationUI, LaunchAdvancedAssociationUI, LaunchAdvancedAssociationUI method [Windows Shell], LaunchAdvancedAssociationUI method [Windows Shell],IApplicationAssociationRegistrationUI interface, _shell_IApplicationAssociationRegistrationUI_LaunchAdvancedAssociationUI, shell.IApplicationAssociationRegistrationUI_LaunchAdvancedAssociationUI, shobjidl/IApplicationAssociationRegistrationUI::LaunchAdvancedAssociationUI
 ms.topic: method
-f1_keywords: 
- - "shobjidl/IApplicationAssociationRegistrationUI.LaunchAdvancedAssociationUI"
+f1_keywords:
+- shobjidl/IApplicationAssociationRegistrationUI.LaunchAdvancedAssociationUI
 dev_langs:
- - c++
+- c++
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shobjidl.h
+- Shobjidl.h
 api_name:
- - IApplicationAssociationRegistrationUI.LaunchAdvancedAssociationUI
+- IApplicationAssociationRegistrationUI.LaunchAdvancedAssociationUI
 targetos: Windows
 req.typenames: 
 req.redist: 

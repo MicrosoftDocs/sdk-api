@@ -1,19 +1,17 @@
 ---
 UID: NF:fsrmpipeline.IFsrmPipelineModuleDefinition.put_NeedsFileContent
 title: IFsrmPipelineModuleDefinition::put_NeedsFileContent (fsrmpipeline.h)
-
 description: Determines whether the module needs to read the contents of the file.
 old-location: fsrm\ifsrmpipelinemoduledefinition_needsfilecontent.htm
 tech.root: fsrm
 ms.assetid: c2cbcfe1-113c-4eb9-9dea-5619bcda58a2
-
 ms.date: 12/05/2018
 ms.keywords: IFsrmPipelineModuleDefinition interface [File Server Resource Manager],NeedsFileContent property, IFsrmPipelineModuleDefinition.NeedsFileContent, IFsrmPipelineModuleDefinition.put_NeedsFileContent, IFsrmPipelineModuleDefinition::NeedsFileContent, IFsrmPipelineModuleDefinition::get_NeedsFileContent, IFsrmPipelineModuleDefinition::put_NeedsFileContent, NeedsFileContent property [File Server Resource Manager], NeedsFileContent property [File Server Resource Manager],IFsrmPipelineModuleDefinition interface, fs.ifsrmpipelinemoduledefinition_needsfilecontent, fsrm.ifsrmpipelinemoduledefinition_needsfilecontent, fsrmpipeline/IFsrmPipelineModuleDefinition::NeedsFileContent, fsrmpipeline/IFsrmPipelineModuleDefinition::get_NeedsFileContent, fsrmpipeline/IFsrmPipelineModuleDefinition::put_NeedsFileContent, put_NeedsFileContent
 ms.topic: method
-f1_keywords: 
- - "fsrmpipeline/IFsrmPipelineModuleDefinition.NeedsFileContent"
+f1_keywords:
+- fsrmpipeline/IFsrmPipelineModuleDefinition.NeedsFileContent
 dev_langs:
- - c++
+- c++
 req.header: fsrmpipeline.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: SrmSvc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - SrmSvc.dll
+- SrmSvc.dll
 api_name:
- - IFsrmPipelineModuleDefinition.NeedsFileContent
- - IFsrmPipelineModuleDefinition.get_NeedsFileContent
- - IFsrmPipelineModuleDefinition.put_NeedsFileContent
+- IFsrmPipelineModuleDefinition.NeedsFileContent
+- IFsrmPipelineModuleDefinition.get_NeedsFileContent
+- IFsrmPipelineModuleDefinition.put_NeedsFileContent
 targetos: Windows
 req.typenames: 
 req.redist: 

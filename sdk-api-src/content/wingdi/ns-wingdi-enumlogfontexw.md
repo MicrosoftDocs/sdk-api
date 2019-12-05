@@ -1,19 +1,17 @@
 ---
 UID: NS:wingdi.tagENUMLOGFONTEXW
 title: ENUMLOGFONTEXW (wingdi.h)
-
 description: The ENUMLOGFONTEX structure contains information about an enumerated font.
 old-location: gdi\enumlogfontex.htm
 tech.root: gdi
 ms.assetid: 2e848e47-5b5f-46ad-9963-55d6bb6748a9
-
 ms.date: 12/05/2018
-ms.keywords: "*LPENUMLOGFONTEXW, ENUMLOGFONTEX, ENUMLOGFONTEX structure [Windows GDI], ENUMLOGFONTEXA, ENUMLOGFONTEXW, LPENUMLOGFONTEX, LPENUMLOGFONTEX structure pointer [Windows GDI], _win32_ENUMLOGFONTEX_str, gdi.enumlogfontex, wingdi/ENUMLOGFONTEX, wingdi/ENUMLOGFONTEXA, wingdi/ENUMLOGFONTEXW, wingdi/LPENUMLOGFONTEX"
+ms.keywords: '*LPENUMLOGFONTEXW, ENUMLOGFONTEX, ENUMLOGFONTEX structure [Windows GDI], ENUMLOGFONTEXA, ENUMLOGFONTEXW, LPENUMLOGFONTEX, LPENUMLOGFONTEX structure pointer [Windows GDI], _win32_ENUMLOGFONTEX_str, gdi.enumlogfontex, wingdi/ENUMLOGFONTEX, wingdi/ENUMLOGFONTEXA, wingdi/ENUMLOGFONTEXW, wingdi/LPENUMLOGFONTEX'
 ms.topic: struct
-f1_keywords: 
- - "wingdi/ENUMLOGFONTEX"
+f1_keywords:
+- wingdi/ENUMLOGFONTEX
 dev_langs:
- - c++
+- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wingdi.h
+- Wingdi.h
 api_name:
- - ENUMLOGFONTEX
- - ENUMLOGFONTEXA
- - ENUMLOGFONTEXW
+- ENUMLOGFONTEX
+- ENUMLOGFONTEXA
+- ENUMLOGFONTEXW
 targetos: Windows
 req.typenames: ENUMLOGFONTEXW, *LPENUMLOGFONTEXW
 req.redist: 

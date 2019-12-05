@@ -1,19 +1,17 @@
 ---
 UID: NF:netfw.INetFwProduct.get_PathToSignedProductExe
 title: INetFwProduct::get_PathToSignedProductExe (netfw.h)
-
 description: Indicates the path to the signed executable file of a third-party firewall product registration.
 old-location: ics\inetfwproduct_pathtosignedproductexe.htm
 tech.root: ics
 ms.assetid: 01a7046b-9cfa-44fa-b981-87f15af19ff1
-
 ms.date: 12/05/2018
 ms.keywords: INetFwProduct interface [ICS/ICF],PathToSignedProductExe property, INetFwProduct.PathToSignedProductExe, INetFwProduct.get_PathToSignedProductExe, INetFwProduct::PathToSignedProductExe, INetFwProduct::get_PathToSignedProductExe, PathToSignedProductExe property [ICS/ICF], PathToSignedProductExe property [ICS/ICF],INetFwProduct interface, get_PathToSignedProductExe, ics.inetfwproduct_pathtosignedproductexe, netfw/INetFwProduct::PathToSignedProductExe, netfw/INetFwProduct::get_PathToSignedProductExe
 ms.topic: method
-f1_keywords: 
- - "netfw/INetFwProduct.PathToSignedProductExe"
+f1_keywords:
+- netfw/INetFwProduct.PathToSignedProductExe
 dev_langs:
- - c++
+- c++
 req.header: netfw.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: FirewallAPI.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - FirewallAPI.dll
+- FirewallAPI.dll
 api_name:
- - INetFwProduct.PathToSignedProductExe
- - INetFwProduct.get_PathToSignedProductExe
+- INetFwProduct.PathToSignedProductExe
+- INetFwProduct.get_PathToSignedProductExe
 targetos: Windows
 req.typenames: 
 req.redist: 

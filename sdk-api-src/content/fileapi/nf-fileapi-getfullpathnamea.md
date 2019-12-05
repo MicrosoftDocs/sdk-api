@@ -1,19 +1,17 @@
 ---
 UID: NF:fileapi.GetFullPathNameA
 title: GetFullPathNameA function (fileapi.h)
-
 description: Retrieves the full path and file name of the specified file.
 old-location: fs\getfullpathname.htm
 tech.root: FileIO
 ms.assetid: 4cf59ee3-4065-4096-a2b5-fbed20aa5caa
-
 ms.date: 12/05/2018
 ms.keywords: GetFullPathName, GetFullPathName function [Files], GetFullPathNameA, GetFullPathNameW, _win32_getfullpathname, base.getfullpathname, fileapi/GetFullPathName, fileapi/GetFullPathNameA, fileapi/GetFullPathNameW, fs.getfullpathname, winbase/GetFullPathName, winbase/GetFullPathNameA, winbase/GetFullPathNameW
 ms.topic: function
-f1_keywords: 
- - "fileapi/GetFullPathName"
+f1_keywords:
+- fileapi/GetFullPathName
 dev_langs:
- - c++
+- c++
 req.header: fileapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,23 +30,23 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-File-l1-1-0.dll
- - KernelBase.dll
- - API-MS-Win-Core-File-l1-2-0.dll
- - API-MS-Win-Core-File-l1-2-1.dll
- - API-MS-Win-Core-File-l1-2-2.dll
- - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
- - MinKernelBase.dll
+- Kernel32.dll
+- API-MS-Win-Core-File-l1-1-0.dll
+- KernelBase.dll
+- API-MS-Win-Core-File-l1-2-0.dll
+- API-MS-Win-Core-File-l1-2-1.dll
+- API-MS-Win-Core-File-l1-2-2.dll
+- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+- MinKernelBase.dll
 api_name:
- - GetFullPathName
- - GetFullPathNameA
- - GetFullPathNameW
+- GetFullPathName
+- GetFullPathNameA
+- GetFullPathNameW
 targetos: Windows
 req.typenames: 
 req.redist: 

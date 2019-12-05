@@ -1,19 +1,17 @@
 ---
 UID: NS:dhcpcsdk._DHCPCAPI_CLASSID
 title: DHCPCAPI_CLASSID (dhcpcsdk.h)
-
 description: The DHCPCAPI_CLASSID structure defines a client Class ID.
 old-location: dhcp\dhcpcapi_classid.htm
 tech.root: DHCP
 ms.assetid: ef1167cb-fcfb-4de3-8b3c-d306f69472f3
-
 ms.date: 12/05/2018
-ms.keywords: "*LPDHCPCAPI_CLASSID, *LPDHCPCAPI_CLASSID structure [DHCP], *PDHCPCAPI_CLASSID, *PDHCPCAPI_CLASSID structure [DHCP], DHCPCAPI_CLASSID, DHCPCAPI_CLASSID structure [DHCP], dhcp.dhcpcapi_classid, dhcpcsdk/*LPDHCPCAPI_CLASSID, dhcpcsdk/*PDHCPCAPI_CLASSID, dhcpcsdk/DHCPCAPI_CLASSID"
+ms.keywords: '*LPDHCPCAPI_CLASSID, *LPDHCPCAPI_CLASSID structure [DHCP], *PDHCPCAPI_CLASSID, *PDHCPCAPI_CLASSID structure [DHCP], DHCPCAPI_CLASSID, DHCPCAPI_CLASSID structure [DHCP], dhcp.dhcpcapi_classid, dhcpcsdk/*LPDHCPCAPI_CLASSID, dhcpcsdk/*PDHCPCAPI_CLASSID, dhcpcsdk/DHCPCAPI_CLASSID'
 ms.topic: struct
-f1_keywords: 
- - "dhcpcsdk/DHCPCAPI_CLASSID"
+f1_keywords:
+- dhcpcsdk/DHCPCAPI_CLASSID
 dev_langs:
- - c++
+- c++
 req.header: dhcpcsdk.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Dhcpcsdk.h
+- Dhcpcsdk.h
 api_name:
- - DHCPCAPI_CLASSID
+- DHCPCAPI_CLASSID
 targetos: Windows
 req.typenames: DHCPCAPI_CLASSID, *PDHCPCAPI_CLASSID, *LPDHCPCAPI_CLASSID
 req.redist: 

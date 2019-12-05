@@ -1,19 +1,17 @@
 ---
 UID: NE:dvdmedia.__unnamed_enum_7
 title: AM_PROPERTY_DVD_RATE_CHANGE (dvdmedia.h)
-
 description: The AM_PROPERTY_DVD_RATE_CHANGE enumeration is not used.
 old-location: dshow\am_property_dvd_rate_change.htm
 tech.root: DirectShow
 ms.assetid: 1a8e1a93-893f-4aaa-bbcc-f660b064e8a9
-
 ms.date: 12/05/2018
 ms.keywords: AM_PROPERTY_DVD_RATE_CHANGE, AM_PROPERTY_DVD_RATE_CHANGE enumeration [DirectShow], AM_RATE_ChangeRate, AM_RATE_DecoderPosition, AM_RATE_DecoderVersion, AM_RATE_FullDataRateMax, AM_RATE_ReverseDecode, dshow.am_property_dvd_rate_change, dvdmedia/AM_PROPERTY_DVD_RATE_CHANGE, dvdmedia/AM_RATE_ChangeRate, dvdmedia/AM_RATE_DecoderPosition, dvdmedia/AM_RATE_DecoderVersion, dvdmedia/AM_RATE_FullDataRateMax, dvdmedia/AM_RATE_ReverseDecode
 ms.topic: enum
-f1_keywords: 
- - "dvdmedia/AM_PROPERTY_DVD_RATE_CHANGE"
+f1_keywords:
+- dvdmedia/AM_PROPERTY_DVD_RATE_CHANGE
 dev_langs:
- - c++
+- c++
 req.header: dvdmedia.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Dvdmedia.h
+- Dvdmedia.h
 api_name:
- - AM_PROPERTY_DVD_RATE_CHANGE
+- AM_PROPERTY_DVD_RATE_CHANGE
 targetos: Windows
 req.typenames: AM_PROPERTY_DVD_RATE_CHANGE
 req.redist: 

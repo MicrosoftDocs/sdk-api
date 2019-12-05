@@ -5,9 +5,9 @@ ms.date: 5/7/2019
 ms.keywords: TraceLoggingSetInformation
 ms.topic: language-reference
 f1_keywords:
- - TraceLoggingSetInformation
+- TraceLoggingSetInformation
 dev_langs:
- - c++
+- c++
 targetos: Windows
 req.assembly: 
 req.construct-type: function
@@ -29,13 +29,13 @@ req.type-library:
 req.umdf-ver: 
 req.unicode-ansi: 
 topic_type:
- - apiref
+- apiref
 api_type:
- - 
+- 
 api_location:
- - traceloggingprovider.h
+- traceloggingprovider.h
 api_name:
- - TraceLoggingSetInformation
+- TraceLoggingSetInformation
 ---
 
 ## -description

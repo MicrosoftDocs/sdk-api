@@ -1,19 +1,17 @@
 ---
 UID: NF:rpcdce.RpcServerUseProtseqA
 title: RpcServerUseProtseqA function (rpcdce.h)
-
 description: The RpcServerUseProtseq function tells the RPC run-time library to use the specified protocol sequence for receiving remote procedure calls.
 old-location: rpc\rpcserveruseprotseq.htm
 tech.root: Rpc
 ms.assetid: 9b2c9cf0-fe96-4063-a893-f2793595af57
-
 ms.date: 12/05/2018
 ms.keywords: RpcServerUseProtseq, RpcServerUseProtseq function [RPC], RpcServerUseProtseqA, RpcServerUseProtseqW, _rpc_rpcserveruseprotseq, rpc.rpcserveruseprotseq, rpcdce/RpcServerUseProtseq, rpcdce/RpcServerUseProtseqA, rpcdce/RpcServerUseProtseqW
 ms.topic: function
-f1_keywords: 
- - "rpcdce/RpcServerUseProtseq"
+f1_keywords:
+- rpcdce/RpcServerUseProtseq
 dev_langs:
- - c++
+- c++
 req.header: rpcdce.h
 req.include-header: Rpc.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Rpcrt4.lib
 req.dll: Rpcrt4.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Rpcrt4.dll
+- Rpcrt4.dll
 api_name:
- - RpcServerUseProtseq
- - RpcServerUseProtseqA
- - RpcServerUseProtseqW
+- RpcServerUseProtseq
+- RpcServerUseProtseqA
+- RpcServerUseProtseqW
 targetos: Windows
 req.typenames: 
 req.redist: 

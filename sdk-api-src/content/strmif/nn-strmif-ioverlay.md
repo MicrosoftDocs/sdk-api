@@ -1,19 +1,17 @@
 ---
 UID: NN:strmif.IOverlay
 title: IOverlay (strmif.h)
-
 description: The IOverlay interface provides information so that a filter can write directly to video memory while placing the video in the correct window position.
 old-location: dshow\ioverlay.htm
 tech.root: DirectShow
 ms.assetid: 2d49888a-7046-4779-9634-d181fa582584
-
 ms.date: 12/05/2018
 ms.keywords: IOverlay, IOverlay interface [DirectShow], IOverlay interface [DirectShow],described, IOverlayInterface, dshow.ioverlay, strmif/IOverlay
 ms.topic: interface
-f1_keywords: 
- - "strmif/IOverlay"
+f1_keywords:
+- strmif/IOverlay
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IOverlay
+- IOverlay
 targetos: Windows
 req.typenames: 
 req.redist: 

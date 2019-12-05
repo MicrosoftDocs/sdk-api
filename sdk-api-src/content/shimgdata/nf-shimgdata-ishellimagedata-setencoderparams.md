@@ -1,19 +1,17 @@
 ---
 UID: NF:shimgdata.IShellImageData.SetEncoderParams
 title: IShellImageData::SetEncoderParams (shimgdata.h)
-
 description: Sets encoder parameters.
 old-location: shell\IShellImageData_SetEncoderParams.htm
 tech.root: shell
 ms.assetid: 20a5b0ab-5dcb-4ea9-9c15-d7c1e6c2c6be
-
 ms.date: 12/05/2018
 ms.keywords: IShellImageData interface [Windows Shell],SetEncoderParams method, IShellImageData.SetEncoderParams, IShellImageData::SetEncoderParams, SetEncoderParams, SetEncoderParams method [Windows Shell], SetEncoderParams method [Windows Shell],IShellImageData interface, _shell_IShellImageData_SetEncoderParams, shell.IShellImageData_SetEncoderParams, shimgdata/IShellImageData::SetEncoderParams
 ms.topic: method
-f1_keywords: 
- - "shimgdata/IShellImageData.SetEncoderParams"
+f1_keywords:
+- shimgdata/IShellImageData.SetEncoderParams
 dev_langs:
- - c++
+- c++
 req.header: shimgdata.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Shell32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - IShellImageData.SetEncoderParams
+- IShellImageData.SetEncoderParams
 targetos: Windows
 req.typenames: 
 req.redist: 

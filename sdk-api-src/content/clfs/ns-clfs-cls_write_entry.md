@@ -1,19 +1,17 @@
 ---
 UID: NS:clfs._CLS_WRITE_ENTRY
 title: CLS_WRITE_ENTRY (clfs.h)
-
 description: Contains a user buffer, which is to become part of a log record, and its length.
 old-location: fs\clfs_write_entry.htm
 tech.root: Clfs
 ms.assetid: 7c81a695-b93c-4c74-8ee8-133eea9f12d9
-
 ms.date: 12/05/2018
-ms.keywords: "*PCLFS_WRITE_ENTRY, *PCLS_WRITE_ENTRY, CLFS_WRITE_ENTRY, CLFS_WRITE_ENTRY structure [Files], CLS_WRITE_ENTRY, PCLFS_WRITE_ENTRY, PCLFS_WRITE_ENTRY structure pointer [Files], PPCLS_WRITE_ENTRY, clfs/PCLFS_WRITE_ENTRY, clfs/_CLFS_WRITE_ENTRY, fs.clfs_write_entry"
+ms.keywords: '*PCLFS_WRITE_ENTRY, *PCLS_WRITE_ENTRY, CLFS_WRITE_ENTRY, CLFS_WRITE_ENTRY structure [Files], CLS_WRITE_ENTRY, PCLFS_WRITE_ENTRY, PCLFS_WRITE_ENTRY structure pointer [Files], PPCLS_WRITE_ENTRY, clfs/PCLFS_WRITE_ENTRY, clfs/_CLFS_WRITE_ENTRY, fs.clfs_write_entry'
 ms.topic: struct
-f1_keywords: 
- - "clfs/CLFS_WRITE_ENTRY"
+f1_keywords:
+- clfs/CLFS_WRITE_ENTRY
 dev_langs:
- - c++
+- c++
 req.header: clfs.h
 req.include-header: Clfsw32.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Clfs.h
+- Clfs.h
 api_name:
- - CLFS_WRITE_ENTRY
+- CLFS_WRITE_ENTRY
 targetos: Windows
 req.typenames: CLS_WRITE_ENTRY, *PCLS_WRITE_ENTRY, PPCLS_WRITE_ENTRY
 req.redist: 

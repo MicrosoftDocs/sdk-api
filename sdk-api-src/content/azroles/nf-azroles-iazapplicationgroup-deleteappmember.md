@@ -1,19 +1,17 @@
 ---
 UID: NF:azroles.IAzApplicationGroup.DeleteAppMember
 title: IAzApplicationGroup::DeleteAppMember (azroles.h)
-
 description: Removes the specified IAzApplicationGroup object from the list of application groups that belong to this application group.
 old-location: security\iazapplicationgroup_deleteappmember.htm
 tech.root: SecAuthZ
 ms.assetid: 856d9b18-927a-462a-b238-78b704bcc58b
-
 ms.date: 12/05/2018
 ms.keywords: AzApplicationGroup object [Security],DeleteAppMember method, DeleteAppMember, DeleteAppMember method [Security], DeleteAppMember method [Security],AzApplicationGroup object, DeleteAppMember method [Security],IAzApplicationGroup interface, IAzApplicationGroup interface [Security],DeleteAppMember method, IAzApplicationGroup.DeleteAppMember, IAzApplicationGroup::DeleteAppMember, azroles/IAzApplicationGroup::DeleteAppMember, security.iazapplicationgroup_deleteappmember
 ms.topic: method
-f1_keywords: 
- - "azroles/IAzApplicationGroup.DeleteAppMember"
+f1_keywords:
+- azroles/IAzApplicationGroup.DeleteAppMember
 dev_langs:
- - c++
+- c++
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Azroles.lib
 req.dll: Azroles.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Azroles.dll
+- Azroles.dll
 api_name:
- - IAzApplicationGroup.DeleteAppMember
- - AzApplicationGroup.DeleteAppMember
+- IAzApplicationGroup.DeleteAppMember
+- AzApplicationGroup.DeleteAppMember
 targetos: Windows
 req.typenames: 
 req.redist: Windows Server 2003 Administration Tools Pack on Windows XP

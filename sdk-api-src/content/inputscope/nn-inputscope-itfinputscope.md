@@ -1,19 +1,17 @@
 ---
 UID: NN:inputscope.ITfInputScope
 title: ITfInputScope (inputscope.h)
-
 description: The ITfInputScope interface is used by the text input processors to get the InputScope value that represents a document context associated with a window.
 old-location: tsf\ITfInputScope.htm
 tech.root: TSF
 ms.assetid: b2a045dd-dc2c-489d-bcb9-80710faef9c2
-
 ms.date: 12/05/2018
 ms.keywords: ITfInputScope, ITfInputScope interface [Text Services Framework], ITfInputScope interface [Text Services Framework],described, _tsf_itfinputscope_ref, inputscope/ITfInputScope, tsf.ITfInputScope
 ms.topic: interface
-f1_keywords: 
- - "inputscope/ITfInputScope"
+f1_keywords:
+- inputscope/ITfInputScope
 dev_langs:
- - c++
+- c++
 req.header: inputscope.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msctf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msctf.dll
+- msctf.dll
 api_name:
- - ITfInputScope
+- ITfInputScope
 targetos: Windows
 req.typenames: 
 req.redist: 

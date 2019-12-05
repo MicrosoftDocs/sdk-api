@@ -1,19 +1,17 @@
 ---
 UID: NS:wininet.AutoProxyHelperVtbl
 title: AutoProxyHelperVtbl (wininet.h)
-
 description: The AutoProxyHelperVtbl structure creates a v-table of pointers to Proxy AutoConfig (PAC) helper functions.See the Navigator Proxy Auto-Config (PAC) File Format documentation for a specification of the form and use of Proxy Auto-Config helper functions.
 old-location: wininet\autoproxyhelpervtbl.htm
 tech.root: wininet
 ms.assetid: df482b8d-38e1-4d0d-a12c-8ba0f2e6423a
-
 ms.date: 12/05/2018
 ms.keywords: AutoProxyHelperVtbl, AutoProxyHelperVtbl structure [WinINet], wininet.autoproxyhelpervtbl, wininet/AutoProxyHelperVtbl
 ms.topic: struct
-f1_keywords: 
- - "wininet/AutoProxyHelperVtbl"
+f1_keywords:
+- wininet/AutoProxyHelperVtbl
 dev_langs:
- - c++
+- c++
 req.header: wininet.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wininet.h
+- Wininet.h
 api_name:
- - AutoProxyHelperVtbl
+- AutoProxyHelperVtbl
 targetos: Windows
 req.typenames: AutoProxyHelperVtbl
 req.redist: 

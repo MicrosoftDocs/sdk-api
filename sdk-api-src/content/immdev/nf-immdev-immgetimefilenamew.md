@@ -1,19 +1,17 @@
 ---
 UID: NF:immdev.ImmGetIMEFileNameW
 title: ImmGetIMEFileNameW function (immdev.h)
-
 description: Retrieves the file name of the IME associated with the specified input locale.
 old-location: intl\immgetimefilename.htm
 tech.root: Intl
 ms.assetid: c2dafd0a-3cb9-4d9b-919b-c7ef86fb1cd4
-
 ms.date: 12/05/2018
 ms.keywords: ImmGetIMEFileName, ImmGetIMEFileName function [Internationalization for Windows Applications], ImmGetIMEFileNameA, ImmGetIMEFileNameW, _win32_ImmGetIMEFileName, imm/ImmGetIMEFileName, imm/ImmGetIMEFileNameA, imm/ImmGetIMEFileNameW, intl.immgetimefilename
 ms.topic: function
-f1_keywords: 
- - "immdev/ImmGetIMEFileName"
+f1_keywords:
+- immdev/ImmGetIMEFileName
 dev_langs:
- - c++
+- c++
 req.header: immdev.h
 req.include-header: Immdev.h, Windows.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Imm32.lib
 req.dll: Imm32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Imm32.dll
+- Imm32.dll
 api_name:
- - ImmGetIMEFileName
- - ImmGetIMEFileNameA
- - ImmGetIMEFileNameW
+- ImmGetIMEFileName
+- ImmGetIMEFileNameA
+- ImmGetIMEFileNameW
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationNotCondition.GetChild
 title: IUIAutomationNotCondition::GetChild (uiautomationclient.h)
-
 description: Retrieves the condition of which this condition is the negative.
 old-location: winauto\uiauto_IUIAutomationNotCondition_GetChild.htm
 tech.root: WinAuto
 ms.assetid: 5d3a5df4-045a-41bf-aa98-3e9ac20c1c52
-
 ms.date: 12/05/2018
 ms.keywords: GetChild, GetChild method [Windows Accessibility], GetChild method [Windows Accessibility],IUIAutomationNotCondition interface, IUIAutomationNotCondition interface [Windows Accessibility],GetChild method, IUIAutomationNotCondition.GetChild, IUIAutomationNotCondition::GetChild, uiauto.uiauto_IUIAutomationNotCondition_GetChild, uiauto_IUIAutomationNotCondition_GetChild, uiautomationclient/IUIAutomationNotCondition::GetChild, winauto.uiauto_IUIAutomationNotCondition_GetChild
 ms.topic: method
-f1_keywords: 
- - "uiautomationclient/IUIAutomationNotCondition.GetChild"
+f1_keywords:
+- uiautomationclient/IUIAutomationNotCondition.GetChild
 dev_langs:
- - c++
+- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationClient.h
+- UIAutomationClient.h
 api_name:
- - IUIAutomationNotCondition.GetChild
+- IUIAutomationNotCondition.GetChild
 targetos: Windows
 req.typenames: 
 req.redist: 

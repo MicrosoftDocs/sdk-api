@@ -1,19 +1,17 @@
 ---
 UID: NN:wabdefs.IABContainer
 title: IABContainer (wabdefs.h)
-
 description: Do not use. This interface provides access to address book containers. Applications call the methods of the interface to perform name resolution and to create, copy, and delete recipients.
 old-location: wab\_wab_IABContainer.htm
 tech.root: wab
 ms.assetid: VS|wab|~\wab\reference\ifaces\iabcontainer\iabcontainer.htm
-
 ms.date: 12/05/2018
 ms.keywords: IABContainer, IABContainer interface [Windows Address Book], IABContainer interface [Windows Address Book],described, _wab_IABContainer, wab._wab_IABContainer, wabdefs/IABContainer
 ms.topic: interface
-f1_keywords: 
- - "wabdefs/IABContainer"
+f1_keywords:
+- wabdefs/IABContainer
 dev_langs:
- - c++
+- c++
 req.header: wabdefs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wab32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wab32.dll
+- Wab32.dll
 api_name:
- - IABContainer
+- IABContainer
 targetos: Windows
 req.typenames: 
 req.redist: 

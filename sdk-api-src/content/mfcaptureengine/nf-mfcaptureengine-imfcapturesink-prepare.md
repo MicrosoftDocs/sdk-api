@@ -1,19 +1,17 @@
 ---
 UID: NF:mfcaptureengine.IMFCaptureSink.Prepare
 title: IMFCaptureSink::Prepare (mfcaptureengine.h)
-
 description: Prepares the capture sink by loading any required pipeline components, such as encoders, video processors, and media sinks.
 old-location: mf\imfcapturesink_prepare.htm
 tech.root: medfound
 ms.assetid: 244FD291-AD1D-4A51-87C3-C98B33978AA1
-
 ms.date: 12/05/2018
 ms.keywords: IMFCaptureSink interface [Media Foundation],Prepare method, IMFCaptureSink.Prepare, IMFCaptureSink::Prepare, Prepare, Prepare method [Media Foundation], Prepare method [Media Foundation],IMFCaptureSink interface, mf.imfcapturesink_prepare, mfcaptureengine/IMFCaptureSink::Prepare
 ms.topic: method
-f1_keywords: 
- - "mfcaptureengine/IMFCaptureSink.Prepare"
+f1_keywords:
+- mfcaptureengine/IMFCaptureSink.Prepare
 dev_langs:
- - c++
+- c++
 req.header: mfcaptureengine.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfcaptureengine.h
+- mfcaptureengine.h
 api_name:
- - IMFCaptureSink.Prepare
+- IMFCaptureSink.Prepare
 targetos: Windows
 req.typenames: 
 req.redist: 

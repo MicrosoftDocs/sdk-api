@@ -1,19 +1,17 @@
 ---
 UID: NF:winddi.EngFntCacheLookUp
 title: EngFntCacheLookUp function (winddi.h)
-
 description: The EngFntCacheLookUp function retrieves the address of cached font file data.
 old-location: display\engfntcachelookup.htm
 tech.root: display
 ms.assetid: daf93826-fdcb-4c9d-ade6-ad4f0ef40ff5
-
 ms.date: 12/05/2018
 ms.keywords: EngFntCacheLookUp, EngFntCacheLookUp function [Display Devices], display.engfntcachelookup, gdifncs_2fee1e8e-2cb5-4088-b0aa-f697689fe56f.xml, winddi/EngFntCacheLookUp
 ms.topic: function
-f1_keywords: 
- - "winddi/EngFntCacheLookUp"
+f1_keywords:
+- winddi/EngFntCacheLookUp
 dev_langs:
- - c++
+- c++
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Universal
@@ -32,14 +30,14 @@ req.lib: Win32k.lib
 req.dll: Win32k.sys
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Win32k.sys
+- Win32k.sys
 api_name:
- - EngFntCacheLookUp
+- EngFntCacheLookUp
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:mftransform.IMFDeviceTransform.ProcessInput
 title: IMFDeviceTransform::ProcessInput (mftransform.h)
-
 description: The ProcessInput method delivers data to an input stream on this Media Foundation transform (MFT).
 old-location: stream\imfdevicetransform_processinput.htm
 tech.root: stream
 ms.assetid: EB4197BA-5963-45E7-B196-94F907637EBB
-
 ms.date: 12/05/2018
 ms.keywords: IMFDeviceTransform interface [Streaming Media Devices],ProcessInput method, IMFDeviceTransform.ProcessInput, IMFDeviceTransform::ProcessInput, ProcessInput, ProcessInput method [Streaming Media Devices], ProcessInput method [Streaming Media Devices],IMFDeviceTransform interface, mftransform/IMFDeviceTransform::ProcessInput, stream.imfdevicetransform_processinput
 ms.topic: method
-f1_keywords: 
- - "mftransform/IMFDeviceTransform.ProcessInput"
+f1_keywords:
+- mftransform/IMFDeviceTransform.ProcessInput
 dev_langs:
- - c++
+- c++
 req.header: mftransform.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mftransform.h
+- mftransform.h
 api_name:
- - IMFDeviceTransform.ProcessInput
+- IMFDeviceTransform.ProcessInput
 targetos: Windows
 req.typenames: 
 req.redist: 

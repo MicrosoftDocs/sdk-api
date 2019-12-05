@@ -1,19 +1,17 @@
 ---
 UID: NF:mmeapi.midiInAddBuffer
 title: midiInAddBuffer function (mmeapi.h)
-
 description: The midiInAddBuffer function sends an input buffer to a specified opened MIDI input device. This function is used for system-exclusive messages.
 old-location: multimedia\midiinaddbuffer.htm
 tech.root: Multimedia
 ms.assetid: b673e252-91d0-45b9-a528-079868b47157
-
 ms.date: 12/05/2018
-ms.keywords: "_win32_midiInAddBuffer, midiInAddBuffer, midiInAddBuffer function [Windows Multimedia], mmeapi/midiInAddBuffer, multimedia.midiinaddbuffer"
+ms.keywords: _win32_midiInAddBuffer, midiInAddBuffer, midiInAddBuffer function [Windows Multimedia], mmeapi/midiInAddBuffer, multimedia.midiinaddbuffer
 ms.topic: function
-f1_keywords: 
- - "mmeapi/midiInAddBuffer"
+f1_keywords:
+- mmeapi/midiInAddBuffer
 dev_langs:
- - c++
+- c++
 req.header: mmeapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Winmm.lib
 req.dll: Winmm.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Winmm.dll
- - API-MS-Win-mm-mme-l1-1-0.dll
- - winmmbase.dll
+- Winmm.dll
+- API-MS-Win-mm-mme-l1-1-0.dll
+- winmmbase.dll
 api_name:
- - midiInAddBuffer
+- midiInAddBuffer
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:functiondiscoveryapi.IFunctionInstanceCollection.GetCount
 title: IFunctionInstanceCollection::GetCount (functiondiscoveryapi.h)
-
 description: Gets the number of function instances in the collection.
 old-location: ncd\ifunctioninstancecollection_getcount_method.htm
 tech.root: FunDisc
 ms.assetid: d74d10b1-dab1-4f7e-8dbc-434570bf9c79
-
 ms.date: 12/05/2018
 ms.keywords: GetCount, GetCount method, GetCount method,IFunctionInstanceCollection interface, IFunctionInstanceCollection interface,GetCount method, IFunctionInstanceCollection.GetCount, IFunctionInstanceCollection::GetCount, functiondiscoveryapi/IFunctionInstanceCollection::GetCount, ncd.ifunctioninstancecollection_getcount_method
 ms.topic: method
-f1_keywords: 
- - "functiondiscoveryapi/IFunctionInstanceCollection.GetCount"
+f1_keywords:
+- functiondiscoveryapi/IFunctionInstanceCollection.GetCount
 dev_langs:
- - c++
+- c++
 req.header: functiondiscoveryapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: FunDisc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - FunDisc.dll
+- FunDisc.dll
 api_name:
- - IFunctionInstanceCollection.GetCount
+- IFunctionInstanceCollection.GetCount
 targetos: Windows
 req.typenames: 
 req.redist: 

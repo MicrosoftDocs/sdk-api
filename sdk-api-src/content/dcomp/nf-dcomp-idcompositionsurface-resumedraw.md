@@ -1,19 +1,17 @@
 ---
 UID: NF:dcomp.IDCompositionSurface.ResumeDraw
 title: IDCompositionSurface::ResumeDraw (dcomp.h)
-
 description: Resumes drawing on this Microsoft DirectComposition surface object.
 old-location: directcomp\idcompositionsurface_resumedraw.htm
 tech.root: directcomp
 ms.assetid: EE008AAB-0C79-4D60-953C-7A9BCFED2C41
-
 ms.date: 12/05/2018
 ms.keywords: IDCompositionSurface interface [DirectComposition],ResumeDraw method, IDCompositionSurface.ResumeDraw, IDCompositionSurface::ResumeDraw, ResumeDraw, ResumeDraw method [DirectComposition], ResumeDraw method [DirectComposition],IDCompositionSurface interface, dcomp/IDCompositionSurface::ResumeDraw, directcomp.idcompositionsurface_resumedraw
 ms.topic: method
-f1_keywords: 
- - "dcomp/IDCompositionSurface.ResumeDraw"
+f1_keywords:
+- dcomp/IDCompositionSurface.ResumeDraw
 dev_langs:
- - c++
+- c++
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dcomp.lib
 req.dll: Dcomp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dcomp.dll
+- Dcomp.dll
 api_name:
- - IDCompositionSurface.ResumeDraw
+- IDCompositionSurface.ResumeDraw
 targetos: Windows
 req.typenames: 
 req.redist: 

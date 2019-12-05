@@ -1,19 +1,17 @@
 ---
 UID: NF:azroles.IAzRole.AddAppMember
 title: IAzRole::AddAppMember (azroles.h)
-
 description: Adds the specified IAzApplicationGroup object to the list of application groups that belong to this role.
 old-location: security\iazrole_addappmember.htm
 tech.root: SecAuthZ
 ms.assetid: 118387f8-a422-4a8d-9d12-a5b5ee1e7b06
-
 ms.date: 12/05/2018
 ms.keywords: AddAppMember, AddAppMember method [Security], AddAppMember method [Security],AzRole object, AddAppMember method [Security],IAzRole interface, AzRole object [Security],AddAppMember method, IAzRole interface [Security],AddAppMember method, IAzRole.AddAppMember, IAzRole::AddAppMember, azroles/IAzRole::AddAppMember, security.iazrole_addappmember
 ms.topic: method
-f1_keywords: 
- - "azroles/IAzRole.AddAppMember"
+f1_keywords:
+- azroles/IAzRole.AddAppMember
 dev_langs:
- - c++
+- c++
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Azroles.lib
 req.dll: Azroles.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Azroles.dll
+- Azroles.dll
 api_name:
- - IAzRole.AddAppMember
- - AzRole.AddAppMember
+- IAzRole.AddAppMember
+- AzRole.AddAppMember
 targetos: Windows
 req.typenames: 
 req.redist: Windows Server 2003 Administration Tools Pack on Windows XP

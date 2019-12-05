@@ -1,19 +1,17 @@
 ---
 UID: NN:wmsdkidl.IWMDRMWriter
 title: IWMDRMWriter (wmsdkidl.h)
-
 description: The IWMDRMWriter interface provides support for applying DRM protection to content in ASF files.
 old-location: wmformat\iwmdrmwriter.htm
 tech.root: wmformat
 ms.assetid: fd466cf8-b1f8-49aa-a486-8fd347b29178
-
 ms.date: 12/05/2018
 ms.keywords: IWMDRMWriter, IWMDRMWriter interface [windows Media Format], IWMDRMWriter interface [windows Media Format],described, IWMDRMWriterInterface, wmformat.iwmdrmwriter, wmsdkidl/IWMDRMWriter
 ms.topic: interface
-f1_keywords: 
- - "wmsdkidl/IWMDRMWriter"
+f1_keywords:
+- wmsdkidl/IWMDRMWriter
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmsdkidl.h
+- wmsdkidl.h
 api_name:
- - IWMDRMWriter
+- IWMDRMWriter
 targetos: Windows
 req.typenames: 
 req.redist: 

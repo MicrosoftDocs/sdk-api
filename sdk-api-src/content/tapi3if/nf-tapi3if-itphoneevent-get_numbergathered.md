@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi3if.ITPhoneEvent.get_NumberGathered
 title: ITPhoneEvent::get_NumberGathered (tapi3if.h)
-
 description: The get_NumberGathered method returns a BSTR value specifying the phone number that was gathered. This information is available only when the ITPhoneEvent::get_Event method returns PE_NUMBERGATHERED.
 old-location: tapi3\itphoneevent_get_numbergathered.htm
 tech.root: Tapi
 ms.assetid: 04537dbb-e1a1-445c-963e-13a8733f2566
-
 ms.date: 12/05/2018
 ms.keywords: ITPhoneEvent interface [TAPI 2.2],get_NumberGathered method, ITPhoneEvent.get_NumberGathered, ITPhoneEvent::get_NumberGathered, _tapi3_itphoneevent_get_numbergathered, get_NumberGathered, get_NumberGathered method [TAPI 2.2], get_NumberGathered method [TAPI 2.2],ITPhoneEvent interface, tapi3.itphoneevent_get_numbergathered, tapi3if/ITPhoneEvent::get_NumberGathered
 ms.topic: method
-f1_keywords: 
- - "tapi3if/ITPhoneEvent.get_NumberGathered"
+f1_keywords:
+- tapi3if/ITPhoneEvent.get_NumberGathered
 dev_langs:
- - c++
+- c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Tapi3.dll
+- Tapi3.dll
 api_name:
- - ITPhoneEvent.get_NumberGathered
+- ITPhoneEvent.get_NumberGathered
 targetos: Windows
 req.typenames: 
 req.redist: 

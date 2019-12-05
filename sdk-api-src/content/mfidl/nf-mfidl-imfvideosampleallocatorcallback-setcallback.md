@@ -1,19 +1,17 @@
 ---
 UID: NF:mfidl.IMFVideoSampleAllocatorCallback.SetCallback
 title: IMFVideoSampleAllocatorCallback::SetCallback (mfidl.h)
-
 description: Sets the callback object that receives notification whenever a video sample is returned to the allocator.
 old-location: mf\imfvideosampleallocatorcallback_setcallback.htm
 tech.root: medfound
 ms.assetid: edcf1ef2-d71f-4ca1-94db-ebf358e80e57
-
 ms.date: 12/05/2018
 ms.keywords: IMFVideoSampleAllocatorCallback interface [Media Foundation],SetCallback method, IMFVideoSampleAllocatorCallback.SetCallback, IMFVideoSampleAllocatorCallback::SetCallback, SetCallback, SetCallback method [Media Foundation], SetCallback method [Media Foundation],IMFVideoSampleAllocatorCallback interface, mf.imfvideosampleallocatorcallback_setcallback, mfidl/IMFVideoSampleAllocatorCallback::SetCallback
 ms.topic: method
-f1_keywords: 
- - "mfidl/IMFVideoSampleAllocatorCallback.SetCallback"
+f1_keywords:
+- mfidl/IMFVideoSampleAllocatorCallback.SetCallback
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfidl.h
+- mfidl.h
 api_name:
- - IMFVideoSampleAllocatorCallback.SetCallback
+- IMFVideoSampleAllocatorCallback.SetCallback
 targetos: Windows
 req.typenames: 
 req.redist: 

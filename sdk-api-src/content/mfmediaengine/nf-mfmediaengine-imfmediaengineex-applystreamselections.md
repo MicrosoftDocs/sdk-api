@@ -1,19 +1,17 @@
 ---
 UID: NF:mfmediaengine.IMFMediaEngineEx.ApplyStreamSelections
 title: IMFMediaEngineEx::ApplyStreamSelections (mfmediaengine.h)
-
 description: Applies the stream selections from previous calls to SetStreamSelection.
 old-location: mf\imfmediaengineex_applystreamselections.htm
 tech.root: medfound
 ms.assetid: aaf8ad21-a790-4a78-b733-b6e3ffd859e1
-
 ms.date: 12/05/2018
 ms.keywords: ApplyStreamSelections, ApplyStreamSelections method [Media Foundation], ApplyStreamSelections method [Media Foundation],IMFMediaEngineEx interface, IMFMediaEngineEx interface [Media Foundation],ApplyStreamSelections method, IMFMediaEngineEx.ApplyStreamSelections, IMFMediaEngineEx::ApplyStreamSelections, mf.imfmediaengineex_applystreamselections, mfmediaengine/IMFMediaEngineEx::ApplyStreamSelections
 ms.topic: method
-f1_keywords: 
- - "mfmediaengine/IMFMediaEngineEx.ApplyStreamSelections"
+f1_keywords:
+- mfmediaengine/IMFMediaEngineEx.ApplyStreamSelections
 dev_langs:
- - c++
+- c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfmediaengine.h
+- mfmediaengine.h
 api_name:
- - IMFMediaEngineEx.ApplyStreamSelections
+- IMFMediaEngineEx.ApplyStreamSelections
 targetos: Windows
 req.typenames: 
 req.redist: 

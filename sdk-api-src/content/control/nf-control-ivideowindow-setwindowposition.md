@@ -1,19 +1,17 @@
 ---
 UID: NF:control.IVideoWindow.SetWindowPosition
 title: IVideoWindow::SetWindowPosition (control.h)
-
 description: The SetWindowPosition method sets the position of the video window.
 old-location: dshow\ivideowindow_setwindowposition.htm
 tech.root: DirectShow
 ms.assetid: 5e667044-1781-4380-b855-d15cf8cd2349
-
 ms.date: 12/05/2018
 ms.keywords: IVideoWindow interface [DirectShow],SetWindowPosition method, IVideoWindow.SetWindowPosition, IVideoWindow::SetWindowPosition, IVideoWindowSetWindowPosition, SetWindowPosition, SetWindowPosition method [DirectShow], SetWindowPosition method [DirectShow],IVideoWindow interface, control/IVideoWindow::SetWindowPosition, dshow.ivideowindow_setwindowposition
 ms.topic: method
-f1_keywords: 
- - "control/IVideoWindow.SetWindowPosition"
+f1_keywords:
+- control/IVideoWindow.SetWindowPosition
 dev_langs:
- - c++
+- c++
 req.header: control.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IVideoWindow.SetWindowPosition
+- IVideoWindow.SetWindowPosition
 targetos: Windows
 req.typenames: 
 req.redist: 

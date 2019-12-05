@@ -1,19 +1,17 @@
 ---
 UID: NE:directml.DML_REDUCE_FUNCTION
 title: DML_REDUCE_FUNCTION
-
 description: Defines constants that specify the specific reduction algorithm to use for the DirectML reduce operator (as described by the DML_REDUCE_OPERATOR_DESC structure).
 old-location: direct3d12\dml_reduce_function.htm
 tech.root: direct3d12
 ms.assetid: 538BAB2E-C7AE-4A9E-AD87-4BDEEB677504
-
 ms.date: 12/5/2018
 ms.keywords: DML_REDUCE_FUNCTION, DML_REDUCE_FUNCTION enumeration, DML_REDUCE_FUNCTION_ARGMAX, DML_REDUCE_FUNCTION_ARGMIN, DML_REDUCE_FUNCTION_AVERAGE, DML_REDUCE_FUNCTION_L1, DML_REDUCE_FUNCTION_L2, DML_REDUCE_FUNCTION_LOG_SUM, DML_REDUCE_FUNCTION_LOG_SUM_EXP, DML_REDUCE_FUNCTION_MAX, DML_REDUCE_FUNCTION_MIN, DML_REDUCE_FUNCTION_MULTIPLY, DML_REDUCE_FUNCTION_SUM, DML_REDUCE_FUNCTION_SUM_SQUARE, direct3d12.dml_reduce_function, directml/DML_REDUCE_FUNCTION, directml/DML_REDUCE_FUNCTION_ARGMAX, directml/DML_REDUCE_FUNCTION_ARGMIN, directml/DML_REDUCE_FUNCTION_AVERAGE, directml/DML_REDUCE_FUNCTION_L1, directml/DML_REDUCE_FUNCTION_L2, directml/DML_REDUCE_FUNCTION_LOG_SUM, directml/DML_REDUCE_FUNCTION_LOG_SUM_EXP, directml/DML_REDUCE_FUNCTION_MAX, directml/DML_REDUCE_FUNCTION_MIN, directml/DML_REDUCE_FUNCTION_MULTIPLY, directml/DML_REDUCE_FUNCTION_SUM, directml/DML_REDUCE_FUNCTION_SUM_SQUARE
 ms.topic: enum
-f1_keywords: 
- - "directml/DML_REDUCE_FUNCTION"
+f1_keywords:
+- directml/DML_REDUCE_FUNCTION
 dev_langs:
- - c++
+- c++
 req.header: directml.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - DirectML.h
+- DirectML.h
 api_name:
- - DML_REDUCE_FUNCTION
+- DML_REDUCE_FUNCTION
 targetos: Windows
 req.typenames: 
 req.redist: 

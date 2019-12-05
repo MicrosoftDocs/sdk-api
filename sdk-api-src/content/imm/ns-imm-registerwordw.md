@@ -1,19 +1,17 @@
 ---
 UID: NS:imm.tagREGISTERWORDW
 title: REGISTERWORDW (imm.h)
-
 description: Contains reading information or a word to register.
 old-location: intl\registerword.htm
 tech.root: Intl
 ms.assetid: 70a11a96-a0e3-4741-be91-b85eb38cd767
-
 ms.date: 12/05/2018
-ms.keywords: "*LPREGISTERWORDW, *NPREGISTERWORDW, *PREGISTERWORDW, PREGISTERWORD, PREGISTERWORD structure pointer [Internationalization for Windows Applications], REGISTERWORD, REGISTERWORD structure [Internationalization for Windows Applications], REGISTERWORDA, REGISTERWORDW, _win32_REGISTERWORD_str, imm/PREGISTERWORD, imm/REGISTERWORD, imm/REGISTERWORDA, imm/REGISTERWORDW, intl.registerword, tagREGISTERWORDA, tagREGISTERWORDW"
+ms.keywords: '*LPREGISTERWORDW, *NPREGISTERWORDW, *PREGISTERWORDW, PREGISTERWORD, PREGISTERWORD structure pointer [Internationalization for Windows Applications], REGISTERWORD, REGISTERWORD structure [Internationalization for Windows Applications], REGISTERWORDA, REGISTERWORDW, _win32_REGISTERWORD_str, imm/PREGISTERWORD, imm/REGISTERWORD, imm/REGISTERWORDA, imm/REGISTERWORDW, intl.registerword, tagREGISTERWORDA, tagREGISTERWORDW'
 ms.topic: struct
-f1_keywords: 
- - "imm/REGISTERWORD"
+f1_keywords:
+- imm/REGISTERWORD
 dev_langs:
- - c++
+- c++
 req.header: imm.h
 req.include-header: Immdev.h, Windows.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Imm.h
+- Imm.h
 api_name:
- - REGISTERWORD
- - REGISTERWORDA
- - REGISTERWORDW
+- REGISTERWORD
+- REGISTERWORDA
+- REGISTERWORDW
 targetos: Windows
 req.typenames: REGISTERWORDW, *PREGISTERWORDW, *NPREGISTERWORDW, *LPREGISTERWORDW
 req.redist: 

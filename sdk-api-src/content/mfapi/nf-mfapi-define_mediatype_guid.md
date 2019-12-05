@@ -1,19 +1,17 @@
 ---
 UID: NF:mfapi.DEFINE_MEDIATYPE_GUID
 title: DEFINE_MEDIATYPE_GUID macro (mfapi.h)
-
 description: Defines a media subtype GUID from a FOURCC code, D3DFORMAT value, or audio format type.
 old-location: mf\define_mediatype_guid_macro.htm
 tech.root: medfound
 ms.assetid: be094ccc-a475-480a-a345-bdad70b11f45
-
 ms.date: 12/05/2018
 ms.keywords: DEFINE_MEDIATYPE_GUID, DEFINE_MEDIATYPE_GUID macro [Media Foundation], be094ccc-a475-480a-a345-bdad70b11f45, mf.define_mediatype_guid_macro, mfapi/DEFINE_MEDIATYPE_GUID
 ms.topic: macro
-f1_keywords: 
- - "mfapi/DEFINE_MEDIATYPE_GUID"
+f1_keywords:
+- mfapi/DEFINE_MEDIATYPE_GUID
 dev_langs:
- - c++
+- c++
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - mfapi.h
+- mfapi.h
 api_name:
- - DEFINE_MEDIATYPE_GUID
+- DEFINE_MEDIATYPE_GUID
 targetos: Windows
 req.typenames: 
 req.redist: 

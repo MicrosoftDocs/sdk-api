@@ -1,19 +1,17 @@
 ---
 UID: NF:winsync.IRecoverableError.GetProvider
 title: IRecoverableError::GetProvider (winsync.h)
-
 description: Gets the role of the provider that skipped the item change.
 old-location: winsync\irecoverableerror_getprovider.htm
 tech.root: winsync
 ms.assetid: 48ecfc21-ab30-45c7-879b-c2487288419f
-
 ms.date: 12/05/2018
 ms.keywords: GetProvider, GetProvider method [Windows Sync], GetProvider method [Windows Sync],IRecoverableError interface, IRecoverableError interface [Windows Sync],GetProvider method, IRecoverableError.GetProvider, IRecoverableError::GetProvider, winsync.irecoverableerror_getprovider, winsync/IRecoverableError::GetProvider
 ms.topic: method
-f1_keywords: 
- - "winsync/IRecoverableError.GetProvider"
+f1_keywords:
+- winsync/IRecoverableError.GetProvider
 dev_langs:
- - c++
+- c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - winsync.h
+- winsync.h
 api_name:
- - IRecoverableError.GetProvider
+- IRecoverableError.GetProvider
 targetos: Windows
 req.typenames: 
 req.redist: 

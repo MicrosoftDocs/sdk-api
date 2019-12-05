@@ -1,19 +1,17 @@
 ---
 UID: NN:appxpackaging.IAppxBundleManifestPackageInfoEnumerator
 title: IAppxBundleManifestPackageInfoEnumerator (appxpackaging.h)
-
 description: Provides a read-only object model for the list of payload packages that are described in a bundle package manifest.
 old-location: appxpkg\iappxbundlemanifestpackageinfoenumerator.htm
 tech.root: appxpkg
 ms.assetid: 4861D5CF-9FDC-4BAA-8462-D239DAEB5195
-
 ms.date: 12/05/2018
 ms.keywords: IAppxBundleManifestPackageInfoEnumerator, IAppxBundleManifestPackageInfoEnumerator interface [App packaging and management], IAppxBundleManifestPackageInfoEnumerator interface [App packaging and management],described, appxpackaging/IAppxBundleManifestPackageInfoEnumerator, appxpkg.iappxbundlemanifestpackageinfoenumerator
 ms.topic: interface
-f1_keywords: 
- - "appxpackaging/IAppxBundleManifestPackageInfoEnumerator"
+f1_keywords:
+- appxpackaging/IAppxBundleManifestPackageInfoEnumerator
 dev_langs:
- - c++
+- c++
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - AppxPackaging.h
+- AppxPackaging.h
 api_name:
- - IAppxBundleManifestPackageInfoEnumerator
+- IAppxBundleManifestPackageInfoEnumerator
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,39 +1,37 @@
 ---
 UID: NN:tuner.IDVBCLocator~r1
 title: IDVBCLocator
-
 description: TBD
-tech.root:
+tech.root: 
 ms.assetid: 8e26394f-6534-45d3-8918-01b4c0408f9a
-
 ms.date: 11/14/2019
 ms.topic: interface
-f1_keywords: 
- - "tuner/IDVBCLocator"
+f1_keywords:
+- tuner/IDVBCLocator
 dev_langs:
- - c++
+- c++
 req.header: tuner.h
-req.include-header:
-req.redist:
-req.target-type:
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.umdf-ver:
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
+req.include-header: 
+req.redist: 
+req.target-type: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
 req.type-library: 
-topic_type: 
- - apiref
-api_type: 
- - COM
-api_location: 
- - tuner.h
-api_name: 
- - IDVBCLocator
+topic_type:
+- apiref
+api_type:
+- COM
+api_location:
+- tuner.h
+api_name:
+- IDVBCLocator
 targetos: Windows
 ms.custom: 19H1
 ---

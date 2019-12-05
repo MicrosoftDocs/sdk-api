@@ -1,19 +1,17 @@
 ---
 UID: NE:strmif.tagVideoProcAmpFlags
 title: VideoProcAmpFlags (strmif.h)
-
 description: The VideoProcAmpFlags enumeration indicates whether a particular video property is controlled manually or automatically.
 old-location: dshow\videoprocampflags.htm
 tech.root: DirectShow
 ms.assetid: 42876f3b-d2b9-4ddb-85c0-80f5177eef6b
-
 ms.date: 12/05/2018
 ms.keywords: VideoProcAmpFlags, VideoProcAmpFlags enumeration [DirectShow], VideoProcAmpFlagsEnumeration, VideoProcAmp_Flags_Auto, VideoProcAmp_Flags_Manual, dshow.videoprocampflags, strmif/VideoProcAmpFlags, strmif/VideoProcAmp_Flags_Auto, strmif/VideoProcAmp_Flags_Manual
 ms.topic: enum
-f1_keywords: 
- - "strmif/VideoProcAmpFlags"
+f1_keywords:
+- strmif/VideoProcAmpFlags
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - strmif.h
+- strmif.h
 api_name:
- - VideoProcAmpFlags
+- VideoProcAmpFlags
 targetos: Windows
 req.typenames: VideoProcAmpFlags
 req.redist: 

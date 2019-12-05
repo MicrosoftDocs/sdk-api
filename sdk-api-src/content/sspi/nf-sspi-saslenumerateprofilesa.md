@@ -1,19 +1,17 @@
 ---
 UID: NF:sspi.SaslEnumerateProfilesA
 title: SaslEnumerateProfilesA function (sspi.h)
-
 description: Lists the packages that provide a SASL interface.
 old-location: security\saslenumerateprofiles.htm
 tech.root: SecAuthN
 ms.assetid: 0c11e0e3-2538-4703-bc32-31c73d65a498
-
 ms.date: 12/05/2018
 ms.keywords: SaslEnumerateProfiles, SaslEnumerateProfiles function [Security], SaslEnumerateProfilesA, SaslEnumerateProfilesW, security.saslenumerateprofiles, sspi/SaslEnumerateProfiles, sspi/SaslEnumerateProfilesA, sspi/SaslEnumerateProfilesW
 ms.topic: function
-f1_keywords: 
- - "sspi/SaslEnumerateProfiles"
+f1_keywords:
+- sspi/SaslEnumerateProfiles
 dev_langs:
- - c++
+- c++
 req.header: sspi.h
 req.include-header: Security.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Secur32.lib
 req.dll: Secur32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Secur32.dll
+- Secur32.dll
 api_name:
- - SaslEnumerateProfiles
- - SaslEnumerateProfilesA
- - SaslEnumerateProfilesW
+- SaslEnumerateProfiles
+- SaslEnumerateProfilesA
+- SaslEnumerateProfilesW
 targetos: Windows
 req.typenames: 
 req.redist: 

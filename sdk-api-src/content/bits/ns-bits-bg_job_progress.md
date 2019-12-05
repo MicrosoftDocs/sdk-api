@@ -1,19 +1,17 @@
 ---
 UID: NS:bits._BG_JOB_PROGRESS
 title: BG_JOB_PROGRESS (bits.h)
-
 description: Provides job-related progress information, such as the number of bytes and files transferred.
 old-location: bits\bg_job_progress.htm
 tech.root: Bits
 ms.assetid: 92c5d1d6-1e0b-4b92-9dc5-ec9a4e2c4649
-
 ms.date: 12/05/2018
 ms.keywords: BG_JOB_PROGRESS, BG_JOB_PROGRESS structure [BITS], _drz_bg_job_progress, bits.bg_job_progress, bits/BG_JOB_PROGRESS
 ms.topic: struct
 f1_keywords:
 - bits/BG_JOB_PROGRESS
 dev_langs:
- - c++
+- c++
 req.header: bits.h
 req.include-header: 
 req.target-type: Windows

@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IMediaFilter.SetSyncSource
 title: IMediaFilter::SetSyncSource (strmif.h)
-
 description: The SetSyncSource method sets the reference clock.
 old-location: dshow\imediafilter_setsyncsource.htm
 tech.root: DirectShow
 ms.assetid: a374c963-cc28-41f6-814d-7ffc6efc67a6
-
 ms.date: 12/05/2018
 ms.keywords: IMediaFilter interface [DirectShow],SetSyncSource method, IMediaFilter.SetSyncSource, IMediaFilter::SetSyncSource, IMediaFilterSetSyncSource, SetSyncSource, SetSyncSource method [DirectShow], SetSyncSource method [DirectShow],IMediaFilter interface, dshow.imediafilter_setsyncsource, strmif/IMediaFilter::SetSyncSource
 ms.topic: method
-f1_keywords: 
- - "strmif/IMediaFilter.SetSyncSource"
+f1_keywords:
+- strmif/IMediaFilter.SetSyncSource
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IMediaFilter.SetSyncSource
+- IMediaFilter.SetSyncSource
 targetos: Windows
 req.typenames: 
 req.redist: 

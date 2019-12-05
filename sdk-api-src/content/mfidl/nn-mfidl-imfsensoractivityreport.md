@@ -1,19 +1,17 @@
 ---
 UID: NN:mfidl.IMFSensorActivityReport
 title: IMFSensorActivityReport (mfidl.h)
-
 description: Represents an activity report for a sensor.
 old-location: mf\imfsensoractivityreport.htm
 tech.root: medfound
 ms.assetid: 06612B8E-5C1E-487C-B6EF-15F65DEA27D0
-
 ms.date: 12/05/2018
 ms.keywords: IMFSensorActivityReport, IMFSensorActivityReport interface [Media Foundation], IMFSensorActivityReport interface [Media Foundation],described, mf.imfsensoractivityreport, mfidl/IMFSensorActivityReport
 ms.topic: interface
-f1_keywords: 
- - "mfidl/IMFSensorActivityReport"
+f1_keywords:
+- mfidl/IMFSensorActivityReport
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Mfplat.lib; Mfplat.dll
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfplat.lib
- - mfplat.dll
- - mfplat.dll
- - mfplat.dll.dll
+- mfplat.lib
+- mfplat.dll
+- mfplat.dll
+- mfplat.dll.dll
 api_name:
- - IMFSensorActivityReport
+- IMFSensorActivityReport
 targetos: Windows
 req.typenames: 
 req.redist: 

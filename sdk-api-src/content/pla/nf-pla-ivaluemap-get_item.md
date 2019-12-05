@@ -1,19 +1,17 @@
 ---
 UID: NF:pla.IValueMap.get_Item
 title: IValueMap::get_Item (pla.h)
-
 description: Retrieves the requested item from the collection.
 old-location: pla\ivaluemap_item.htm
 tech.root: PLA
 ms.assetid: a01f134d-9700-4826-9040-d5d6340241de
-
 ms.date: 12/05/2018
 ms.keywords: IValueMap interface [PLA],Item property, IValueMap.Item, IValueMap.get_Item, IValueMap::Item, IValueMap::get_Item, Item property [PLA], Item property [PLA],IValueMap interface, base.ivaluemap_item, get_Item, pla.ivaluemap_item, pla/IValueMap::Item, pla/IValueMap::get_Item
 ms.topic: method
-f1_keywords: 
- - "pla/IValueMap.Item"
+f1_keywords:
+- pla/IValueMap.Item
 dev_langs:
- - c++
+- c++
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: Pla.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Pla.dll
+- Pla.dll
 api_name:
- - IValueMap.Item
- - IValueMap.get_Item
+- IValueMap.Item
+- IValueMap.get_Item
 targetos: Windows
 req.typenames: 
 req.redist: 

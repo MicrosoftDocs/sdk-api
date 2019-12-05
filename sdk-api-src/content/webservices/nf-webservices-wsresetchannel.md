@@ -1,19 +1,17 @@
 ---
 UID: NF:webservices.WsResetChannel
 title: WsResetChannel function (webservices.h)
-
 description: Reset a channel so it can be reused.
 old-location: wsw\wsresetchannel.htm
 tech.root: wsw
 ms.assetid: 7aca8ae0-44a0-4ec7-87e8-bec9bd17d04b
-
 ms.date: 12/05/2018
 ms.keywords: WsResetChannel, WsResetChannel function [Web Services for Windows], webservices/WsResetChannel, wsw.wsresetchannel
 ms.topic: function
-f1_keywords: 
- - "webservices/WsResetChannel"
+f1_keywords:
+- webservices/WsResetChannel
 dev_langs:
- - c++
+- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: WebServices.lib
 req.dll: WebServices.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - WebServices.dll
+- WebServices.dll
 api_name:
- - WsResetChannel
+- WsResetChannel
 targetos: Windows
 req.typenames: 
 req.redist: 

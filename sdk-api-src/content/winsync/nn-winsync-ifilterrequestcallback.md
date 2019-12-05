@@ -1,19 +1,17 @@
 ---
 UID: NN:winsync.IFilterRequestCallback
 title: IFilterRequestCallback (winsync.h)
-
 description: Mediates filter negotiation between a destination provider and a source provider.
 old-location: winsync\ifilterrequestcallback.htm
 tech.root: winsync
 ms.assetid: 11ba822e-63d6-4947-8e21-7134bdbcbdc0
-
 ms.date: 12/05/2018
 ms.keywords: IFilterRequestCallback, IFilterRequestCallback interface [Windows Sync], IFilterRequestCallback interface [Windows Sync],described, winsync.ifilterrequestcallback, winsync/IFilterRequestCallback
 ms.topic: interface
-f1_keywords: 
- - "winsync/IFilterRequestCallback"
+f1_keywords:
+- winsync/IFilterRequestCallback
 dev_langs:
- - c++
+- c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - winsync.h
+- winsync.h
 api_name:
- - IFilterRequestCallback
+- IFilterRequestCallback
 targetos: Windows
 req.typenames: 
 req.redist: 

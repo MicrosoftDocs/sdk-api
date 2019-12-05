@@ -1,19 +1,17 @@
 ---
 UID: NF:wmp.IWMPPlaylistCollection.importPlaylist
 title: IWMPPlaylistCollection::importPlaylist (wmp.h)
-
 description: The importPlaylist method adds a static playlist to the library.
 old-location: wmp\iwmpplaylistcollection_importplaylist.htm
 tech.root: WMP
 ms.assetid: 421a1bd3-65c1-4d8f-be75-918b1cfa06d2
-
 ms.date: 12/05/2018
 ms.keywords: IWMPPlaylistCollection interface [Windows Media Player],importPlaylist method, IWMPPlaylistCollection.importPlaylist, IWMPPlaylistCollection::importPlaylist, IWMPPlaylistCollectionimportPlaylist, importPlaylist, importPlaylist method [Windows Media Player], importPlaylist method [Windows Media Player],IWMPPlaylistCollection interface, wmp.iwmpplaylistcollection_importplaylist, wmp/IWMPPlaylistCollection::importPlaylist
 ms.topic: method
-f1_keywords: 
- - "wmp/IWMPPlaylistCollection.importPlaylist"
+f1_keywords:
+- wmp/IWMPPlaylistCollection.importPlaylist
 dev_langs:
- - c++
+- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wmp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmp.dll
+- wmp.dll
 api_name:
- - IWMPPlaylistCollection.importPlaylist
+- IWMPPlaylistCollection.importPlaylist
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:uxtheme.GetThemeBackgroundContentRect
 title: GetThemeBackgroundContentRect function (uxtheme.h)
-
 description: Retrieves the size of the content area for the background defined by the visual style.
 old-location: controls\GetThemeBackgroundContentRect.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\userex\functions\getthemebackgroundcontentrect.htm
-
 ms.date: 12/05/2018
 ms.keywords: GetThemeBackgroundContentRect, GetThemeBackgroundContentRect function [Windows Controls], controls.GetThemeBackgroundContentRect, controls.inet_GetThemeBackgroundContentRect, inet_GetThemeBackgroundContentRect, inet_GetThemeBackgroundContentRect_cpp, uxtheme/GetThemeBackgroundContentRect
 ms.topic: function
-f1_keywords: 
- - "uxtheme/GetThemeBackgroundContentRect"
+f1_keywords:
+- uxtheme/GetThemeBackgroundContentRect
 dev_langs:
- - c++
+- c++
 req.header: uxtheme.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: UxTheme.lib
 req.dll: UxTheme.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - UxTheme.dll
- - ext-ms-win-uxtheme-themes-l1-1-1.dll
- - xamlpalwp.dll
+- UxTheme.dll
+- ext-ms-win-uxtheme-themes-l1-1-1.dll
+- xamlpalwp.dll
 api_name:
- - GetThemeBackgroundContentRect
+- GetThemeBackgroundContentRect
 targetos: Windows
 req.typenames: 
 req.redist: 

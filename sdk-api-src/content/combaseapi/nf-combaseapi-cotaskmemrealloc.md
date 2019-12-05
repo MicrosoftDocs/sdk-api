@@ -1,19 +1,17 @@
 ---
 UID: NF:combaseapi.CoTaskMemRealloc
 title: CoTaskMemRealloc function (combaseapi.h)
-
 description: Changes the size of a previously allocated block of task memory.
 old-location: com\cotaskmemrealloc.htm
 tech.root: com
 ms.assetid: 83014a3e-198d-4b4b-91aa-0c0804c8e1bf
-
 ms.date: 12/05/2018
 ms.keywords: CoTaskMemRealloc, CoTaskMemRealloc function [COM], _com_CoTaskMemRealloc, com.cotaskmemrealloc, combaseapi/CoTaskMemRealloc
 ms.topic: function
-f1_keywords: 
- - "combaseapi/CoTaskMemRealloc"
+f1_keywords:
+- combaseapi/CoTaskMemRealloc
 dev_langs:
- - c++
+- c++
 req.header: combaseapi.h
 req.include-header: Objbase.h
 req.target-type: Windows
@@ -32,19 +30,19 @@ req.lib: Ole32.lib
 req.dll: Ole32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ole32.dll
- - API-MS-Win-Core-Com-l1-1-0.dll
- - ComBase.dll
- - API-MS-Win-Core-Com-l1-1-1.dll
- - API-MS-Win-DownLevel-Ole32-l1-1-0.dll
- - API-MS-Win-DownLevel-Ole32-l1-1-1.dll
+- Ole32.dll
+- API-MS-Win-Core-Com-l1-1-0.dll
+- ComBase.dll
+- API-MS-Win-Core-Com-l1-1-1.dll
+- API-MS-Win-DownLevel-Ole32-l1-1-0.dll
+- API-MS-Win-DownLevel-Ole32-l1-1-1.dll
 api_name:
- - CoTaskMemRealloc
+- CoTaskMemRealloc
 targetos: Windows
 req.typenames: 
 req.redist: 

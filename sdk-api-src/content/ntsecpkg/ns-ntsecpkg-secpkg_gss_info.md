@@ -1,19 +1,17 @@
 ---
 UID: NS:ntsecpkg._SECPKG_GSS_INFO
 title: SECPKG_GSS_INFO (ntsecpkg.h)
-
 description: A SECPKG_GSS_INFO structure contains information used for GSS-compatible negotiations.
 old-location: security\secpkg_gss_info.htm
 tech.root: SecAuthN
 ms.assetid: a2df73ee-6c95-40d9-b1cb-9eaddb4100d6
-
 ms.date: 12/05/2018
-ms.keywords: "*PSECPKG_GSS_INFO, PSECPKG_GSS_INFO, PSECPKG_GSS_INFO structure pointer [Security], SECPKG_GSS_INFO, SECPKG_GSS_INFO structure [Security], _ssp_secpkg_gss_info, ntsecpkg/PSECPKG_GSS_INFO, ntsecpkg/SECPKG_GSS_INFO, security.secpkg_gss_info"
+ms.keywords: '*PSECPKG_GSS_INFO, PSECPKG_GSS_INFO, PSECPKG_GSS_INFO structure pointer [Security], SECPKG_GSS_INFO, SECPKG_GSS_INFO structure [Security], _ssp_secpkg_gss_info, ntsecpkg/PSECPKG_GSS_INFO, ntsecpkg/SECPKG_GSS_INFO, security.secpkg_gss_info'
 ms.topic: struct
-f1_keywords: 
- - "ntsecpkg/SECPKG_GSS_INFO"
+f1_keywords:
+- ntsecpkg/SECPKG_GSS_INFO
 dev_langs:
- - c++
+- c++
 req.header: ntsecpkg.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Ntsecpkg.h
+- Ntsecpkg.h
 api_name:
- - SECPKG_GSS_INFO
+- SECPKG_GSS_INFO
 targetos: Windows
 req.typenames: SECPKG_GSS_INFO, *PSECPKG_GSS_INFO
 req.redist: 

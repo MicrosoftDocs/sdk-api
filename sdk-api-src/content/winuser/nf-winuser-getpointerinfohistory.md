@@ -1,19 +1,17 @@
 ---
 UID: NF:winuser.GetPointerInfoHistory
 title: GetPointerInfoHistory function (winuser.h)
-
 description: Gets the information associated with the individual inputs, if any, that were coalesced into the current message for the specified pointer.
 old-location: inputmsg\getpointerinfohistory.htm
 tech.root: InputMsg
 ms.assetid: 92173197-45e8-4ee7-8959-2f14f90c2d21
-
 ms.date: 12/05/2018
 ms.keywords: GetPointerInfoHistory, GetPointerInfoHistory function [Input Messages and Notifications], inputmsg.getpointerinfohistory, winuser/GetPointerInfoHistory
 ms.topic: function
-f1_keywords: 
- - "winuser/GetPointerInfoHistory"
+f1_keywords:
+- winuser/GetPointerInfoHistory
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,21 +30,21 @@ req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - User32.dll
- - API-MS-Win-NTUser-IE-WMPointer-l1-1-0.dll
- - ie_shims.dll
- - API-MS-Win-RTCore-NTUser-WMPointer-l1-1-0.dll
- - MinUser.dll
- - API-MS-Win-RTCore-NTUser-WMPointer-l1-1-1.dll
- - API-Ms-Win-RTCore-NTUser-WMPointer-L1-1-2.dll
- - API-MS-Win-RTCore-NTUser-WMPointer-L1-1-3.dll
+- User32.dll
+- API-MS-Win-NTUser-IE-WMPointer-l1-1-0.dll
+- ie_shims.dll
+- API-MS-Win-RTCore-NTUser-WMPointer-l1-1-0.dll
+- MinUser.dll
+- API-MS-Win-RTCore-NTUser-WMPointer-l1-1-1.dll
+- API-Ms-Win-RTCore-NTUser-WMPointer-L1-1-2.dll
+- API-MS-Win-RTCore-NTUser-WMPointer-L1-1-3.dll
 api_name:
- - GetPointerInfoHistory
+- GetPointerInfoHistory
 targetos: Windows
 req.typenames: 
 req.redist: 

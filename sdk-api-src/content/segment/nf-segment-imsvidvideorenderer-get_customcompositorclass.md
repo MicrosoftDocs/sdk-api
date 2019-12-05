@@ -1,19 +1,17 @@
 ---
 UID: NF:segment.IMSVidVideoRenderer.get_CustomCompositorClass
 title: IMSVidVideoRenderer::get_CustomCompositorClass (segment.h)
-
 description: The get_CustomCompositorClass method retrieves the class identifier (CLSID) of the Video Mixing Renderer's current image compositor, as a BSTR.
 old-location: mstv\imsvidvideorenderer_get_customcompositorclass.htm
 tech.root: mstv
 ms.assetid: d6ff1968-e891-432d-9271-f6d6a6a8a756
-
 ms.date: 12/05/2018
 ms.keywords: IMSVidVideoRenderer interface [Microsoft TV Technologies],get_CustomCompositorClass method, IMSVidVideoRenderer.get_CustomCompositorClass, IMSVidVideoRenderer::get_CustomCompositorClass, IMSVidVideoRendererget_CustomCompositorClass, get_CustomCompositorClass, get_CustomCompositorClass method [Microsoft TV Technologies], get_CustomCompositorClass method [Microsoft TV Technologies],IMSVidVideoRenderer interface, mstv.imsvidvideorenderer_get_customcompositorclass, segment/IMSVidVideoRenderer::get_CustomCompositorClass
 ms.topic: method
-f1_keywords: 
- - "segment/IMSVidVideoRenderer.get_CustomCompositorClass"
+f1_keywords:
+- segment/IMSVidVideoRenderer.get_CustomCompositorClass
 dev_langs:
- - c++
+- c++
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - segment.h
+- segment.h
 api_name:
- - IMSVidVideoRenderer.get_CustomCompositorClass
+- IMSVidVideoRenderer.get_CustomCompositorClass
 targetos: Windows
 req.typenames: 
 req.redist: 

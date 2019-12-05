@@ -1,19 +1,17 @@
 ---
 UID: NF:dvbsiparser.IPBDA_EIT.GetRecordEventId
 title: IPBDA_EIT::GetRecordEventId (dvbsiparser.h)
-
 description: Receives the unique identifier from an event record in an event information table (EIT) in a Protected Broadcast Device Architecture (PBDA) transport stream.
 old-location: mstv\ipbda_eit_getrecordeventid.htm
 tech.root: mstv
 ms.assetid: c34ad3ee-f4f9-4088-88ae-1340ea503cf5
-
 ms.date: 12/05/2018
 ms.keywords: GetRecordEventId, GetRecordEventId method [Microsoft TV Technologies], GetRecordEventId method [Microsoft TV Technologies],IPBDA_EIT interface, IPBDA_EIT interface [Microsoft TV Technologies],GetRecordEventId method, IPBDA_EIT.GetRecordEventId, IPBDA_EIT::GetRecordEventId, dvbsiparser/IPBDA_EIT::GetRecordEventId, mstv.ipbda_eit_getrecordeventid
 ms.topic: method
-f1_keywords: 
- - "dvbsiparser/IPBDA_EIT.GetRecordEventId"
+f1_keywords:
+- dvbsiparser/IPBDA_EIT.GetRecordEventId
 dev_langs:
- - c++
+- c++
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dvbsiparser.h
+- dvbsiparser.h
 api_name:
- - IPBDA_EIT.GetRecordEventId
+- IPBDA_EIT.GetRecordEventId
 targetos: Windows
 req.typenames: 
 req.redist: 

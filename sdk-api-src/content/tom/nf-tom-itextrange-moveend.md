@@ -1,19 +1,17 @@
 ---
 UID: NF:tom.ITextRange.MoveEnd
 title: ITextRange::MoveEnd (tom.h)
-
 description: Moves the end position of the range.
 old-location: controls\ITextRange_MoveEnd.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\moveend.htm
-
 ms.date: 12/05/2018
 ms.keywords: ITextRange interface [Windows Controls],MoveEnd method, ITextRange.MoveEnd, ITextRange::MoveEnd, MoveEnd, MoveEnd method [Windows Controls], MoveEnd method [Windows Controls],ITextRange interface, _win32_ITextRange_MoveEnd, _win32_ITextRange_MoveEnd_cpp, controls.ITextRange_MoveEnd, controls._win32_ITextRange_MoveEnd, tom/ITextRange::MoveEnd
 ms.topic: method
-f1_keywords: 
- - "tom/ITextRange.MoveEnd"
+f1_keywords:
+- tom/ITextRange.MoveEnd
 dev_langs:
- - c++
+- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msftedit.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msftedit.dll
+- Msftedit.dll
 api_name:
- - ITextRange.MoveEnd
+- ITextRange.MoveEnd
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:shellapi.SHFreeNameMappings
 title: SHFreeNameMappings function (shellapi.h)
-
 description: Frees a file name mapping object that was retrieved by the SHFileOperation function.
 old-location: shell\SHFreeNameMappings.htm
 tech.root: shell
 ms.assetid: 4552b2e0-9257-48f8-84cc-003217f1696f
-
 ms.date: 12/05/2018
 ms.keywords: SHFreeNameMappings, SHFreeNameMappings function [Windows Shell], _win32_SHFreeNameMappings, shell.SHFreeNameMappings, shellapi/SHFreeNameMappings
 ms.topic: function
-f1_keywords: 
- - "shellapi/SHFreeNameMappings"
+f1_keywords:
+- shellapi/SHFreeNameMappings
 dev_langs:
- - c++
+- c++
 req.header: shellapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Shell32.lib
 req.dll: Shell32.dll (version 4.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - SHFreeNameMappings
+- SHFreeNameMappings
 targetos: Windows
 req.typenames: 
 req.redist: 

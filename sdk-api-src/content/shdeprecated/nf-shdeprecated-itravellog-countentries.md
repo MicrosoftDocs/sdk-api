@@ -1,19 +1,17 @@
 ---
 UID: NF:shdeprecated.ITravelLog.CountEntries
 title: ITravelLog::CountEntries (shdeprecated.h)
-
 description: Deprecated. Generates the number of entries in the travel log.
 old-location: shell\ITravelLog_CountEntries.htm
 tech.root: shell
 ms.assetid: 490f7350-6c67-4c79-a100-af266b269472
-
 ms.date: 12/05/2018
 ms.keywords: CountEntries, CountEntries method [Windows Shell], CountEntries method [Windows Shell],ITravelLog interface, ITravelLog interface [Windows Shell],CountEntries method, ITravelLog.CountEntries, ITravelLog::CountEntries, shdeprecated/ITravelLog::CountEntries, shell.ITravelLog_CountEntries, zone_ITravelLog_CountEntries
 ms.topic: method
-f1_keywords: 
- - "shdeprecated/ITravelLog.CountEntries"
+f1_keywords:
+- shdeprecated/ITravelLog.CountEntries
 dev_langs:
- - c++
+- c++
 req.header: shdeprecated.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shdeprecated.h
+- Shdeprecated.h
 api_name:
- - ITravelLog.CountEntries
+- ITravelLog.CountEntries
 targetos: Windows
 req.typenames: 
 req.redist: 

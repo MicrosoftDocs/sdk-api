@@ -1,19 +1,17 @@
 ---
 UID: NE:msctf.__MIDL_ITfRange_0002
 title: TfShiftDir (msctf.h)
-
 description: Elements of the TfShiftDir enumeration specify which direction a range anchor is moved.
 old-location: tsf\tfshiftdir.htm
 tech.root: TSF
 ms.assetid: f6a9f9a2-9691-49c7-a481-47ad2cd67a4d
-
 ms.date: 12/05/2018
 ms.keywords: TF_SD_BACKWARD, TF_SD_FORWARD, TfShiftDir, TfShiftDir enumeration [Text Services Framework], _tsf_tfshiftdir_ref, msctf/TF_SD_BACKWARD, msctf/TF_SD_FORWARD, msctf/TfShiftDir, tsf.tfshiftdir
 ms.topic: enum
-f1_keywords: 
- - "msctf/TfShiftDir"
+f1_keywords:
+- msctf/TfShiftDir
 dev_langs:
- - c++
+- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Msctf.h
+- Msctf.h
 api_name:
- - TfShiftDir
+- TfShiftDir
 targetos: Windows
 req.typenames: TfShiftDir
 req.redist: TSF 1.0 on Windows 2000 Professional

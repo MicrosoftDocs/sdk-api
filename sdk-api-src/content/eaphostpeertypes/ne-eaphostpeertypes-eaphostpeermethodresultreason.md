@@ -1,19 +1,17 @@
 ---
 UID: NE:eaphostpeertypes.tagEapHostPeerMethodResultReason
 title: EapHostPeerMethodResultReason (eaphostpeertypes.h)
-
 description: Defines the set of possible reasons that describe the results returned by an EAP method to a supplicant.
 old-location: eaphost\eaphostpeermethodresultreason.htm
 tech.root: eaphost
 ms.assetid: f43d2883-d23f-455b-bde0-244a88630d25
-
 ms.date: 12/05/2018
 ms.keywords: EapHostPeerMethodResultAltSuccessReceived, EapHostPeerMethodResultFromMethod, EapHostPeerMethodResultReason, EapHostPeerMethodResultReason enumeration [EAPHost], EapHostPeerMethodResultTimeout, eaphost.eaphostpeermethodresultreason, eaphostpeertypes/EapHostPeerMethodResultAltSuccessReceived, eaphostpeertypes/EapHostPeerMethodResultFromMethod, eaphostpeertypes/EapHostPeerMethodResultReason, eaphostpeertypes/EapHostPeerMethodResultTimeout
 ms.topic: enum
-f1_keywords: 
- - "eaphostpeertypes/EapHostPeerMethodResultReason"
+f1_keywords:
+- eaphostpeertypes/EapHostPeerMethodResultReason
 dev_langs:
- - c++
+- c++
 req.header: eaphostpeertypes.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - eaphostpeertypes.h
+- eaphostpeertypes.h
 api_name:
- - EapHostPeerMethodResultReason
+- EapHostPeerMethodResultReason
 targetos: Windows
 req.typenames: EapHostPeerMethodResultReason
 req.redist: 

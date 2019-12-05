@@ -1,19 +1,17 @@
 ---
 UID: NF:mswmdm.IMDSPObject.Delete
 title: IMDSPObject::Delete (mswmdm.h)
-
 description: The Delete method removes an object or objects from a storage medium on a media device.
 old-location: wmdm\imdspobject_delete.htm
 tech.root: WMDM
 ms.assetid: debaaa15-dbc5-44dd-8ad9-f7f900146231
-
 ms.date: 12/05/2018
 ms.keywords: Delete, Delete method [windows Media Device Manager], Delete method [windows Media Device Manager],IMDSPObject interface, IMDSPObject interface [windows Media Device Manager],Delete method, IMDSPObject.Delete, IMDSPObject::Delete, IMDSPObjectDelete, mswmdm/IMDSPObject::Delete, wmdm.imdspobject_delete
 ms.topic: method
-f1_keywords: 
- - "mswmdm/IMDSPObject.Delete"
+f1_keywords:
+- mswmdm/IMDSPObject.Delete
 dev_langs:
- - c++
+- c++
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mssachlp.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mssachlp.lib
- - mssachlp.dll
+- mssachlp.lib
+- mssachlp.dll
 api_name:
- - IMDSPObject.Delete
+- IMDSPObject.Delete
 targetos: Windows
 req.typenames: 
 req.redist: 

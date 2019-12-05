@@ -1,19 +1,17 @@
 ---
 UID: NF:msopc.IOpcRelationship.GetId
 title: IOpcRelationship::GetId (msopc.h)
-
 description: Gets the unique identifier of the relationship.
 old-location: opc\iopcrelationship_getid.htm
 tech.root: OPC
 ms.assetid: 8646d592-d568-4b82-80f3-2673cd0d2721
-
 ms.date: 12/05/2018
 ms.keywords: GetId, GetId method [Open Packaging Conventions], GetId method [Open Packaging Conventions],IOpcRelationship interface, IOpcRelationship interface [Open Packaging Conventions],GetId method, IOpcRelationship.GetId, IOpcRelationship::GetId, msopc/IOpcRelationship::GetId, opc.iopcrelationship_getid
 ms.topic: method
-f1_keywords: 
- - "msopc/IOpcRelationship.GetId"
+f1_keywords:
+- msopc/IOpcRelationship.GetId
 dev_langs:
- - c++
+- c++
 req.header: msopc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msopc.h
+- msopc.h
 api_name:
- - IOpcRelationship.GetId
+- IOpcRelationship.GetId
 targetos: Windows
 req.typenames: 
 req.redist: 

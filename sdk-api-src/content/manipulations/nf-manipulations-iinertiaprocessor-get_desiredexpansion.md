@@ -1,19 +1,17 @@
 ---
 UID: NF:manipulations.IInertiaProcessor.get_DesiredExpansion
 title: IInertiaProcessor::get_DesiredExpansion (manipulations.h)
-
 description: The DesiredExpansion property specifies the desired change in the object's average radius.
 old-location: wintouch\iinertiaprocessor_desiredexpansion.htm
 tech.root: wintouch
 ms.assetid: 1d686bb1-a00b-43fc-804b-5a1d8bb69499
-
 ms.date: 12/05/2018
 ms.keywords: DesiredExpansion property [Windows Touch], DesiredExpansion property [Windows Touch],IInertiaProcessor interface, IInertiaProcessor interface [Windows Touch],DesiredExpansion property, IInertiaProcessor.DesiredExpansion, IInertiaProcessor.get_DesiredExpansion, IInertiaProcessor::DesiredExpansion, IInertiaProcessor::get_DesiredExpansion, IInertiaProcessor::put_DesiredExpansion, get_DesiredExpansion, manipulations/IInertiaProcessor::DesiredExpansion, manipulations/IInertiaProcessor::get_DesiredExpansion, manipulations/IInertiaProcessor::put_DesiredExpansion, wintouch.iinertiaprocessor_desiredexpansion
 ms.topic: method
-f1_keywords: 
- - "manipulations/IInertiaProcessor.DesiredExpansion"
+f1_keywords:
+- manipulations/IInertiaProcessor.DesiredExpansion
 dev_langs:
- - c++
+- c++
 req.header: manipulations.h
 req.include-header: Manipulations.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - manipulations.h
+- manipulations.h
 api_name:
- - IInertiaProcessor.DesiredExpansion
- - IInertiaProcessor.get_DesiredExpansion
- - IInertiaProcessor.put_DesiredExpansion
+- IInertiaProcessor.DesiredExpansion
+- IInertiaProcessor.get_DesiredExpansion
+- IInertiaProcessor.put_DesiredExpansion
 targetos: Windows
 req.typenames: 
 req.redist: 

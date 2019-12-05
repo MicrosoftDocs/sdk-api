@@ -1,19 +1,17 @@
 ---
 UID: NF:shlobj.IDockingWindowFrame.FindToolbar
 title: IDockingWindowFrame::FindToolbar (shlobj.h)
-
 description: Finds the specified IDockingWindow object in the toolbar frame and returns an interface pointer to it.
 old-location: shell\IDockingWindowFrame_FindToolbar.htm
 tech.root: shell
 ms.assetid: 9086f8ae-6a81-463d-9482-7a60701ab8de
-
 ms.date: 12/05/2018
 ms.keywords: FindToolbar, FindToolbar method [Windows Shell], FindToolbar method [Windows Shell],IDockingWindowFrame interface, IDockingWindowFrame interface [Windows Shell],FindToolbar method, IDockingWindowFrame.FindToolbar, IDockingWindowFrame::FindToolbar, _win32_IDockingWindowFrame_FindToolbar, shell.IDockingWindowFrame_FindToolbar, shlobj/IDockingWindowFrame::FindToolbar
 ms.topic: method
-f1_keywords: 
- - "shlobj/IDockingWindowFrame.FindToolbar"
+f1_keywords:
+- shlobj/IDockingWindowFrame.FindToolbar
 dev_langs:
- - c++
+- c++
 req.header: shlobj.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Shell32.dll (version 4.71 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - IDockingWindowFrame.FindToolbar
+- IDockingWindowFrame.FindToolbar
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:clusapi.ClusterNetworkOpenEnum
 title: ClusterNetworkOpenEnum function (clusapi.h)
-
 description: Opens an enumerator for iterating through objects on a network.
 old-location: mscs\clusternetworkopenenum.htm
 tech.root: MsCS
 ms.assetid: 59f6fd26-1d96-4b04-858d-bfd3e4d25d01
-
 ms.date: 12/05/2018
 ms.keywords: CLUSTER_NETWORK_ENUM_NETINTERFACES, ClusterNetworkOpenEnum, ClusterNetworkOpenEnum function [Failover Cluster], PCLUSAPI_CLUSTER_NETWORK_OPEN_ENUM, PCLUSAPI_CLUSTER_NETWORK_OPEN_ENUM function [Failover Cluster], _wolf_clusternetworkopenenum, clusapi/ClusterNetworkOpenEnum, clusapi/PCLUSAPI_CLUSTER_NETWORK_OPEN_ENUM, mscs.clusternetworkopenenum
 ms.topic: function
-f1_keywords: 
- - "clusapi/ClusterNetworkOpenEnum"
+f1_keywords:
+- clusapi/ClusterNetworkOpenEnum
 dev_langs:
- - c++
+- c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: ClusAPI.lib
 req.dll: ClusAPI.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - ClusAPI.dll
+- ClusAPI.dll
 api_name:
- - ClusterNetworkOpenEnum
+- ClusterNetworkOpenEnum
 targetos: Windows
 req.typenames: 
 req.redist: 

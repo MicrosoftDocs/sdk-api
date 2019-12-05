@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi3ds.ITAllocatorProperties.SetAllocatorProperties
 title: ITAllocatorProperties::SetAllocatorProperties (tapi3ds.h)
-
 description: The SetAllocatorProperties method must be called before connection and will force the MSP to use these values during filter negotiation. If the connecting filter doesn't accept these values, the connection is not established.
 old-location: tapi3\itallocatorproperties_setallocatorproperties.htm
 tech.root: Tapi
 ms.assetid: 3ab13fac-2667-44ce-aa1a-72cd18d37b0a
-
 ms.date: 12/05/2018
 ms.keywords: ITAllocatorProperties interface [TAPI 2.2],SetAllocatorProperties method, ITAllocatorProperties.SetAllocatorProperties, ITAllocatorProperties::SetAllocatorProperties, SetAllocatorProperties, SetAllocatorProperties method [TAPI 2.2], SetAllocatorProperties method [TAPI 2.2],ITAllocatorProperties interface, _tapi3_itallocatorproperties_setallocatorproperties, tapi3.itallocatorproperties_setallocatorproperties, tapi3ds/ITAllocatorProperties::SetAllocatorProperties
 ms.topic: method
-f1_keywords: 
- - "tapi3ds/ITAllocatorProperties.SetAllocatorProperties"
+f1_keywords:
+- tapi3ds/ITAllocatorProperties.SetAllocatorProperties
 dev_langs:
- - c++
+- c++
 req.header: tapi3ds.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Tapi3.dll
+- Tapi3.dll
 api_name:
- - ITAllocatorProperties.SetAllocatorProperties
+- ITAllocatorProperties.SetAllocatorProperties
 targetos: Windows
 req.typenames: 
 req.redist: 

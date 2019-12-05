@@ -1,19 +1,17 @@
 ---
 UID: NE:virtdisk._MERGE_VIRTUAL_DISK_VERSION
 title: MERGE_VIRTUAL_DISK_VERSION (virtdisk.h)
-
 description: Contains the version of the virtual hard disk (VHD) MERGE_VIRTUAL_DISK_PARAMETERS structure to use in calls to VHD functions.
 old-location: vhd\merge_virtual_disk_version.htm
 tech.root: VStor
 ms.assetid: 1f542a51-d314-4add-a389-d450785b0a73
-
 ms.date: 12/05/2018
 ms.keywords: MERGE_VIRTUAL_DISK_VERSION, MERGE_VIRTUAL_DISK_VERSION enumeration [VHD], MERGE_VIRTUAL_DISK_VERSION_1, MERGE_VIRTUAL_DISK_VERSION_2, MERGE_VIRTUAL_DISK_VERSION_UNSPECIFIED, vdssys/MERGE_VIRTUAL_DISK_VERSION, vdssys/MERGE_VIRTUAL_DISK_VERSION_1, vdssys/MERGE_VIRTUAL_DISK_VERSION_2, vdssys/MERGE_VIRTUAL_DISK_VERSION_UNSPECIFIED, vhd.merge_virtual_disk_version, virtdisk/MERGE_VIRTUAL_DISK_VERSION, virtdisk/MERGE_VIRTUAL_DISK_VERSION_1, virtdisk/MERGE_VIRTUAL_DISK_VERSION_2, virtdisk/MERGE_VIRTUAL_DISK_VERSION_UNSPECIFIED
 ms.topic: enum
-f1_keywords: 
- - "virtdisk/MERGE_VIRTUAL_DISK_VERSION"
+f1_keywords:
+- virtdisk/MERGE_VIRTUAL_DISK_VERSION
 dev_langs:
- - c++
+- c++
 req.header: virtdisk.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - VirtDisk.h
- - vdssys.h
+- VirtDisk.h
+- vdssys.h
 api_name:
- - MERGE_VIRTUAL_DISK_VERSION
+- MERGE_VIRTUAL_DISK_VERSION
 targetos: Windows
 req.typenames: MERGE_VIRTUAL_DISK_VERSION
 req.redist: 

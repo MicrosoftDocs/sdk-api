@@ -1,19 +1,17 @@
 ---
 UID: NF:tom.ITextDocument2.GetMathProperties
 title: ITextDocument2::GetMathProperties (tom.h)
-
 description: Gets the math properties for the document.
 old-location: controls\itextdocument2_getmathproperties.htm
 tech.root: Controls
 ms.assetid: 7686d0d6-5f49-4ab6-8a9e-1e53447ffe27
-
 ms.date: 12/05/2018
 ms.keywords: GetMathProperties, GetMathProperties method [Windows Controls], GetMathProperties method [Windows Controls],ITextDocument2 interface, ITextDocument2 interface [Windows Controls],GetMathProperties method, ITextDocument2.GetMathProperties, ITextDocument2::GetMathProperties, controls.itextdocument2_getmathproperties, tom/ITextDocument2::GetMathProperties, tomMathBrkBinAfter, tomMathBrkBinBefore, tomMathBrkBinDup, tomMathBrkBinMask, tomMathBrkBinSubMM, tomMathBrkBinSubMP, tomMathBrkBinSubMask, tomMathBrkBinSubPM, tomMathDispAlignCenter, tomMathDispAlignLeft, tomMathDispAlignMask, tomMathDispAlignRight, tomMathDispDef, tomMathDispFracTeX, tomMathDispIntUnderOver, tomMathDispNaryGrow, tomMathDispNarySubSup, tomMathDocDiffItalic, tomMathDocDiffMask, tomMathDocDiffOpenItalic, tomMathDocDiffUpright, tomMathDocEmptyArgAlways, tomMathDocEmptyArgAuto, tomMathDocEmptyArgMask, tomMathDocEmptyArgNever, tomMathDocSbSpOpUnchanged, tomMathEnableRtl
 ms.topic: method
-f1_keywords: 
- - "tom/ITextDocument2.GetMathProperties"
+f1_keywords:
+- tom/ITextDocument2.GetMathProperties
 dev_langs:
- - c++
+- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msftedit.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msftedit.dll
+- Msftedit.dll
 api_name:
- - ITextDocument2.GetMathProperties
+- ITextDocument2.GetMathProperties
 targetos: Windows
 req.typenames: 
 req.redist: 

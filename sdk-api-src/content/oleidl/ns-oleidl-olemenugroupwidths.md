@@ -1,19 +1,17 @@
 ---
 UID: NS:oleidl.tagOleMenuGroupWidths
 title: OLEMENUGROUPWIDTHS (oleidl.h)
-
 description: Indicates the number of menu items in each of the six menu groups of a menu shared between a container and an object server during an in-place editing session. This is the mechanism for building a shared menu.
 old-location: com\olemenugroupwidths.htm
 tech.root: com
 ms.assetid: e6ad4ab7-0e53-4fad-8f2e-a0ff7b376815
-
 ms.date: 12/05/2018
-ms.keywords: "*LPOLEMENUGROUPWIDTHS, LPOLEMENUGROUPWIDTHS, LPOLEMENUGROUPWIDTHS structure pointer [COM], OLEMENUGROUPWIDTHS, OLEMENUGROUPWIDTHS structure [COM], _ole_OLEMENUGROUPWIDTHS, com.olemenugroupwidths, oleidl/LPOLEMENUGROUPWIDTHS, oleidl/OLEMENUGROUPWIDTHS"
+ms.keywords: '*LPOLEMENUGROUPWIDTHS, LPOLEMENUGROUPWIDTHS, LPOLEMENUGROUPWIDTHS structure pointer [COM], OLEMENUGROUPWIDTHS, OLEMENUGROUPWIDTHS structure [COM], _ole_OLEMENUGROUPWIDTHS, com.olemenugroupwidths, oleidl/LPOLEMENUGROUPWIDTHS, oleidl/OLEMENUGROUPWIDTHS'
 ms.topic: struct
-f1_keywords: 
- - "oleidl/OLEMENUGROUPWIDTHS"
+f1_keywords:
+- oleidl/OLEMENUGROUPWIDTHS
 dev_langs:
- - c++
+- c++
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - OleIdl.h
+- OleIdl.h
 api_name:
- - OLEMENUGROUPWIDTHS
+- OLEMENUGROUPWIDTHS
 targetos: Windows
 req.typenames: OLEMENUGROUPWIDTHS, *LPOLEMENUGROUPWIDTHS
 req.redist: 

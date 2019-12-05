@@ -1,19 +1,17 @@
 ---
 UID: NF:credentialprovider.ICredentialProvider.GetCredentialAt
 title: ICredentialProvider::GetCredentialAt (credentialprovider.h)
-
 description: Gets a specific credential.
 old-location: shell\ICredentialProvider_GetCredentialAt.htm
 tech.root: shell
 ms.assetid: eec370b7-0db8-492f-8dc3-4f391e1a55e7
-
 ms.date: 12/05/2018
 ms.keywords: GetCredentialAt, GetCredentialAt method [Windows Shell], GetCredentialAt method [Windows Shell],ICredentialProvider interface, ICredentialProvider interface [Windows Shell],GetCredentialAt method, ICredentialProvider.GetCredentialAt, ICredentialProvider::GetCredentialAt, credentialprovider/ICredentialProvider::GetCredentialAt, shell.ICredentialProvider_GetCredentialAt, shell_ICredentialProvider_GetCredentialAt
 ms.topic: method
-f1_keywords: 
- - "credentialprovider/ICredentialProvider.GetCredentialAt"
+f1_keywords:
+- credentialprovider/ICredentialProvider.GetCredentialAt
 dev_langs:
- - c++
+- c++
 req.header: credentialprovider.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Credentialprovider.h
+- Credentialprovider.h
 api_name:
- - ICredentialProvider.GetCredentialAt
+- ICredentialProvider.GetCredentialAt
 targetos: Windows
 req.typenames: 
 req.redist: 

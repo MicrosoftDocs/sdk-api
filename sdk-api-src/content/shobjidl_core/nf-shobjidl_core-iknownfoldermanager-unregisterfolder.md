@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IKnownFolderManager.UnregisterFolder
 title: IKnownFolderManager::UnregisterFolder (shobjidl_core.h)
-
 description: Remove a known folder from the registry, which makes it unknown to the known folder system. This method does not remove the folder itself.
 old-location: shell\IKnownFolderManager_UnregisterFolder.htm
 tech.root: shell
 ms.assetid: 2c66f5e3-3479-414c-8888-0a888708dbe0
-
 ms.date: 12/05/2018
 ms.keywords: IKnownFolderManager interface [Windows Shell],UnregisterFolder method, IKnownFolderManager.UnregisterFolder, IKnownFolderManager::UnregisterFolder, UnregisterFolder, UnregisterFolder method [Windows Shell], UnregisterFolder method [Windows Shell],IKnownFolderManager interface, _shell_IKnownFolderManager_UnregisterFolder, shell.IKnownFolderManager_UnregisterFolder, shobjidl_core/IKnownFolderManager::UnregisterFolder
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IKnownFolderManager.UnregisterFolder"
+f1_keywords:
+- shobjidl_core/IKnownFolderManager.UnregisterFolder
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Shell32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - IKnownFolderManager.UnregisterFolder
+- IKnownFolderManager.UnregisterFolder
 targetos: Windows
 req.typenames: 
 req.redist: 

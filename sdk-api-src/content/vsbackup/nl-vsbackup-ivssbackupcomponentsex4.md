@@ -1,19 +1,17 @@
 ---
 UID: NL:vsbackup.IVssBackupComponentsEx4
 title: IVssBackupComponentsEx4 (vsbackup.h)
-
 description: Defines additional methods to support the processing of UNC file share paths in a requester.
 old-location: base\ivssbackupcomponentsex4.htm
 tech.root: VSS
 ms.assetid: 3D72F6FC-4EAA-49F9-9652-AC314FFAB504
-
 ms.date: 12/05/2018
 ms.keywords: IVssBackupComponentsEx4, IVssBackupComponentsEx4 interface, IVssBackupComponentsEx4 interface,described, base.ivssbackupcomponentsex4, vsbackup/IVssBackupComponentsEx4
 ms.topic: class
-f1_keywords: 
- - "vsbackup/IVssBackupComponentsEx4"
+f1_keywords:
+- vsbackup/IVssBackupComponentsEx4
 dev_langs:
- - c++
+- c++
 req.header: vsbackup.h
 req.include-header: VsBackup.h, Vss.h, VsWriter.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - VsBackup.h
+- VsBackup.h
 api_name:
- - IVssBackupComponentsEx4
+- IVssBackupComponentsEx4
 targetos: Windows
 req.typenames: 
 req.redist: 

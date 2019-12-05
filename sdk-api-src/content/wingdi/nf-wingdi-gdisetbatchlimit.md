@@ -1,19 +1,17 @@
 ---
 UID: NF:wingdi.GdiSetBatchLimit
 title: GdiSetBatchLimit function (wingdi.h)
-
 description: The GdiSetBatchLimit function sets the maximum number of function calls that can be accumulated in the calling thread's current batch. The system flushes the current batch whenever this limit is exceeded.
 old-location: gdi\gdisetbatchlimit.htm
 tech.root: gdi
 ms.assetid: 53bf0dfe-e93c-401d-ac5d-6717bad2625e
-
 ms.date: 12/05/2018
 ms.keywords: GdiSetBatchLimit, GdiSetBatchLimit function [Windows GDI], _win32_GdiSetBatchLimit, gdi.gdisetbatchlimit, wingdi/GdiSetBatchLimit
 ms.topic: function
-f1_keywords: 
- - "wingdi/GdiSetBatchLimit"
+f1_keywords:
+- wingdi/GdiSetBatchLimit
 dev_langs:
- - c++
+- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - gdi32.dll
- - Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
- - GDI32Full.dll
+- gdi32.dll
+- Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
+- GDI32Full.dll
 api_name:
- - GdiSetBatchLimit
+- GdiSetBatchLimit
 targetos: Windows
 req.typenames: 
 req.redist: 

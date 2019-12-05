@@ -1,19 +1,17 @@
 ---
 UID: NF:shlwapi.GetMenuPosFromID
 title: GetMenuPosFromID function (shlwapi.h)
-
 description: GetMenuPosFromID may be altered or unavailable.
 old-location: shell\GetMenuPosFromID.htm
 tech.root: shell
 ms.assetid: 25fb51bc-9b36-4afb-bb07-7bc455c7fbc4
-
 ms.date: 12/05/2018
 ms.keywords: GetMenuPosFromID, GetMenuPosFromID function [Windows Shell], _shell_GetMenuPosFromID, shell.GetMenuPosFromID, shlwapi/GetMenuPosFromID
 ms.topic: function
-f1_keywords: 
- - "shlwapi/GetMenuPosFromID"
+f1_keywords:
+- shlwapi/GetMenuPosFromID
 dev_langs:
- - c++
+- c++
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Shlwapi.lib
 req.dll: Shlwapi.dll (version 5.82 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Shlwapi.dll
- - API-MS-Win-shlwapi-Winrt-storage-l1-1-0.dll
- - api-ms-win-shlwapi-winrt-storage-l1-1-1.dll
+- Shlwapi.dll
+- API-MS-Win-shlwapi-Winrt-storage-l1-1-0.dll
+- api-ms-win-shlwapi-winrt-storage-l1-1-1.dll
 api_name:
- - GetMenuPosFromID
+- GetMenuPosFromID
 targetos: Windows
 req.typenames: 
 req.redist: 

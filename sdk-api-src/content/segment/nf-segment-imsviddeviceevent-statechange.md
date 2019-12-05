@@ -1,19 +1,17 @@
 ---
 UID: NF:segment.IMSVidDeviceEvent.StateChange
 title: IMSVidDeviceEvent::StateChange (segment.h)
-
 description: This topic applies to Windows XP or later.
 old-location: mstv\imsviddeviceevent_statechange.htm
 tech.root: mstv
 ms.assetid: 0f7a5e37-5a0d-415e-aca0-df5f9448b017
-
 ms.date: 12/05/2018
 ms.keywords: IMSVidDeviceEvent interface [Microsoft TV Technologies],StateChange method, IMSVidDeviceEvent.StateChange, IMSVidDeviceEvent::StateChange, IMSVidDeviceEventStateChange, StateChange, StateChange method [Microsoft TV Technologies], StateChange method [Microsoft TV Technologies],IMSVidDeviceEvent interface, mstv.imsviddeviceevent_statechange, segment/IMSVidDeviceEvent::StateChange
 ms.topic: method
-f1_keywords: 
- - "segment/IMSVidDeviceEvent.StateChange"
+f1_keywords:
+- segment/IMSVidDeviceEvent.StateChange
 dev_langs:
- - c++
+- c++
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - segment.h
+- segment.h
 api_name:
- - IMSVidDeviceEvent.StateChange
+- IMSVidDeviceEvent.StateChange
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:winldap.ldap_compare_sA
 title: ldap_compare_sA function (winldap.h)
-
 description: Use the ldap_compare_s function to determine whether an attribute for a given entry holds a known value.
 old-location: ldap\ldap_compare_s.htm
 tech.root: ldap
 ms.assetid: 44a7001d-d7ad-4b29-80bf-8d4b06e0fa43
-
 ms.date: 12/05/2018
-ms.keywords: "_ldap_ldap_compare_s, ldap.ldap__compare__s, ldap.ldap_compare_s, ldap_compare_s, ldap_compare_s function [LDAP], ldap_compare_sA, ldap_compare_sW, winldap/ldap_compare_s, winldap/ldap_compare_sA, winldap/ldap_compare_sW"
+ms.keywords: _ldap_ldap_compare_s, ldap.ldap__compare__s, ldap.ldap_compare_s, ldap_compare_s, ldap_compare_s function [LDAP], ldap_compare_sA, ldap_compare_sW, winldap/ldap_compare_s, winldap/ldap_compare_sA, winldap/ldap_compare_sW
 ms.topic: function
-f1_keywords: 
- - "winldap/ldap_compare_s"
+f1_keywords:
+- winldap/ldap_compare_s
 dev_langs:
- - c++
+- c++
 req.header: winldap.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Wldap32.lib
 req.dll: Wldap32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Wldap32.dll
+- Wldap32.dll
 api_name:
- - ldap_compare_s
- - ldap_compare_sA
- - ldap_compare_sW
+- ldap_compare_s
+- ldap_compare_sA
+- ldap_compare_sW
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:winsync.IDataRetrieverCallback.LoadChangeDataComplete
 title: IDataRetrieverCallback::LoadChangeDataComplete (winsync.h)
-
 description: Indicates that IAsynchronousDataRetriever::LoadChangeData has finished successfully.
 old-location: winsync\idataretrievercallback_loadchangedatacomplete.htm
 tech.root: winsync
 ms.assetid: b48f9a91-f211-4df4-b315-dfe8d48b3db7
-
 ms.date: 12/05/2018
 ms.keywords: IDataRetrieverCallback interface [Windows Sync],LoadChangeDataComplete method, IDataRetrieverCallback.LoadChangeDataComplete, IDataRetrieverCallback::LoadChangeDataComplete, LoadChangeDataComplete, LoadChangeDataComplete method [Windows Sync], LoadChangeDataComplete method [Windows Sync],IDataRetrieverCallback interface, winsync.idataretrievercallback_loadchangedatacomplete, winsync/IDataRetrieverCallback::LoadChangeDataComplete
 ms.topic: method
-f1_keywords: 
- - "winsync/IDataRetrieverCallback.LoadChangeDataComplete"
+f1_keywords:
+- winsync/IDataRetrieverCallback.LoadChangeDataComplete
 dev_langs:
- - c++
+- c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - winsync.h
+- winsync.h
 api_name:
- - IDataRetrieverCallback.LoadChangeDataComplete
+- IDataRetrieverCallback.LoadChangeDataComplete
 targetos: Windows
 req.typenames: 
 req.redist: 

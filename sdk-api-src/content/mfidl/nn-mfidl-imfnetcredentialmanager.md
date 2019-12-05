@@ -1,19 +1,17 @@
 ---
 UID: NN:mfidl.IMFNetCredentialManager
 title: IMFNetCredentialManager (mfidl.h)
-
 description: Implemented by applications to provide user credentials for a network source.
 old-location: mf\imfnetcredentialmanager.htm
 tech.root: medfound
 ms.assetid: 002d8608-4ef9-40fd-8dcc-fe6ade34478e
-
 ms.date: 12/05/2018
 ms.keywords: 002d8608-4ef9-40fd-8dcc-fe6ade34478e, IMFNetCredentialManager, IMFNetCredentialManager interface [Media Foundation], IMFNetCredentialManager interface [Media Foundation],described, mf.imfnetcredentialmanager, mfidl/IMFNetCredentialManager
 ms.topic: interface
-f1_keywords: 
- - "mfidl/IMFNetCredentialManager"
+f1_keywords:
+- mfidl/IMFNetCredentialManager
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFNetCredentialManager
+- IMFNetCredentialManager
 targetos: Windows
 req.typenames: 
 req.redist: 

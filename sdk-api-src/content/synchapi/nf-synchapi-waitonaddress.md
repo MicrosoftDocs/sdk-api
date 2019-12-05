@@ -1,19 +1,17 @@
 ---
 UID: NF:synchapi.WaitOnAddress
 title: WaitOnAddress function (synchapi.h)
-
 description: Waits for the value at the specified address to change.
 old-location: base\waitonaddress.htm
 tech.root: Sync
 ms.assetid: d40de436-f71e-47f6-a8c3-549c2699eb4c
-
 ms.date: 12/05/2018
 ms.keywords: WaitOnAddress, WaitOnAddress function, base.waitonaddress, synchapi/WaitOnAddress
 ms.topic: function
-f1_keywords: 
- - "synchapi/WaitOnAddress"
+f1_keywords:
+- synchapi/WaitOnAddress
 dev_langs:
- - c++
+- c++
 req.header: synchapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib: Synchronization.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-Synch-l1-2-0.dll
- - KernelBase.dll
- - API-MS-Win-Core-Synch-l1-2-1.dll
- - MinKernelBase.dll
+- Kernel32.dll
+- API-MS-Win-Core-Synch-l1-2-0.dll
+- KernelBase.dll
+- API-MS-Win-Core-Synch-l1-2-1.dll
+- MinKernelBase.dll
 api_name:
- - WaitOnAddress
+- WaitOnAddress
 targetos: Windows
 req.typenames: 
 req.redist: 

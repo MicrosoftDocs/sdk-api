@@ -1,19 +1,17 @@
 ---
 UID: NF:vds.IVdsAsync.Wait
 title: IVdsAsync::Wait (vds.h)
-
 description: Returns when the asynchronous operation has either finished successfully or failed.
 old-location: base\ivdsasync_wait.htm
 tech.root: VDS
 ms.assetid: 1bb30247-efb8-488f-b142-8912c351f5f2
-
 ms.date: 12/05/2018
 ms.keywords: IVdsAsync interface [VDS],Wait method, IVdsAsync.Wait, IVdsAsync::Wait, Wait, Wait method [VDS], Wait method [VDS],IVdsAsync interface, base.ivdsasync_wait, vds/IVdsAsync::Wait, vdshwprv/IVdsAsync::Wait
 ms.topic: method
 f1_keywords:
 - vds/IVdsAsync.Wait
 dev_langs:
- - c++
+- c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

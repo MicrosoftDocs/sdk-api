@@ -1,19 +1,17 @@
 ---
 UID: NS:d3d11.D3D11_VIDEO_PROCESSOR_STREAM
 title: D3D11_VIDEO_PROCESSOR_STREAM (d3d11.h)
-
 description: Contains stream-level data for the ID3D11VideoContext::VideoProcessorBlt method.
 old-location: mf\d3d11_video_processor_stream.htm
 tech.root: medfound
 ms.assetid: B861D00B-2FF2-4F8F-AD40-0EE6A9706A0C
-
 ms.date: 12/05/2018
 ms.keywords: D3D11_VIDEO_PROCESSOR_STREAM, D3D11_VIDEO_PROCESSOR_STREAM structure [Media Foundation], d3d11/D3D11_VIDEO_PROCESSOR_STREAM, mf.d3d11_video_processor_stream
 ms.topic: struct
-f1_keywords: 
- - "d3d11/D3D11_VIDEO_PROCESSOR_STREAM"
+f1_keywords:
+- d3d11/D3D11_VIDEO_PROCESSOR_STREAM
 dev_langs:
- - c++
+- c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - d3d11.h
+- d3d11.h
 api_name:
- - D3D11_VIDEO_PROCESSOR_STREAM
+- D3D11_VIDEO_PROCESSOR_STREAM
 targetos: Windows
 req.typenames: D3D11_VIDEO_PROCESSOR_STREAM
 req.redist: 

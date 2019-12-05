@@ -1,19 +1,17 @@
 ---
 UID: NF:objidlbase.IExternalConnection.AddConnection
 title: IExternalConnection::AddConnection (objidlbase.h)
-
 description: Increments the count of an object's strong external connections.
 old-location: com\iexternalconnection_addconnection.htm
 tech.root: com
 ms.assetid: 7439cb16-1da3-4fab-a16d-519f9ce1053a
-
 ms.date: 12/05/2018
 ms.keywords: AddConnection, AddConnection method [COM], AddConnection method [COM],IExternalConnection interface, IExternalConnection interface [COM],AddConnection method, IExternalConnection.AddConnection, IExternalConnection::AddConnection, _com_iexternalconnection_addconnection, com.iexternalconnection_addconnection, objidlbase/IExternalConnection::AddConnection
 ms.topic: method
-f1_keywords: 
- - "objidlbase/IExternalConnection.AddConnection"
+f1_keywords:
+- objidlbase/IExternalConnection.AddConnection
 dev_langs:
- - c++
+- c++
 req.header: objidlbase.h
 req.include-header: ObjIdl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - objidlbase.h
+- objidlbase.h
 api_name:
- - IExternalConnection.AddConnection
+- IExternalConnection.AddConnection
 targetos: Windows
 req.typenames: 
 req.redist: 

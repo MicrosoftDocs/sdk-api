@@ -1,19 +1,17 @@
 ---
 UID: NF:msctf.ITfEditRecord.GetSelectionStatus
 title: ITfEditRecord::GetSelectionStatus (msctf.h)
-
 description: ITfEditRecord::GetSelectionStatus method
 old-location: tsf\itfeditrecord_getselectionstatus.htm
 tech.root: TSF
 ms.assetid: ad7dbd71-6241-45a0-9815-1f0eedc5213a
-
 ms.date: 12/05/2018
 ms.keywords: GetSelectionStatus, GetSelectionStatus method [Text Services Framework], GetSelectionStatus method [Text Services Framework],ITfEditRecord interface, ITfEditRecord interface [Text Services Framework],GetSelectionStatus method, ITfEditRecord.GetSelectionStatus, ITfEditRecord::GetSelectionStatus, _tsf_itfeditrecord_getselectionstatus_ref, msctf/ITfEditRecord::GetSelectionStatus, tsf.itfeditrecord_getselectionstatus
 ms.topic: method
-f1_keywords: 
- - "msctf/ITfEditRecord.GetSelectionStatus"
+f1_keywords:
+- msctf/ITfEditRecord.GetSelectionStatus
 dev_langs:
- - c++
+- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msctf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msctf.dll
+- msctf.dll
 api_name:
- - ITfEditRecord.GetSelectionStatus
+- ITfEditRecord.GetSelectionStatus
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

@@ -1,19 +1,17 @@
 ---
 UID: NS:setupapi._FILEPATHS_A
 title: FILEPATHS_A (setupapi.h)
-
 description: The FILEPATHS structure stores source and target path information. The setup functions send the FILEPATHS structure as a parameter in several of the notifications sent to callback routines. For more information, see Notifications.
 old-location: setup\filepaths_str.htm
 tech.root: SetupApi
 ms.assetid: 220b1485-73f0-4c31-aa40-e4c9179bfd0f
-
 ms.date: 12/05/2018
-ms.keywords: "*PFILEPATHS_A, FILEOP_COPY, FILEOP_DELETE, FILEPATHS, FILEPATHS structure [Setup API], FILEPATHS_A, PFILEPATHS, PFILEPATHS structure pointer [Setup API], SP_COPY_NOBROWSE, SP_COPY_NOSKIP, SP_COPY_WARNIFSKIP, _setupapi_filepaths_str, setup.filepaths_str, setupapi/FILEPATHS, setupapi/PFILEPATHS"
+ms.keywords: '*PFILEPATHS_A, FILEOP_COPY, FILEOP_DELETE, FILEPATHS, FILEPATHS structure [Setup API], FILEPATHS_A, PFILEPATHS, PFILEPATHS structure pointer [Setup API], SP_COPY_NOBROWSE, SP_COPY_NOSKIP, SP_COPY_WARNIFSKIP, _setupapi_filepaths_str, setup.filepaths_str, setupapi/FILEPATHS, setupapi/PFILEPATHS'
 ms.topic: struct
-f1_keywords: 
- - "setupapi/FILEPATHS"
+f1_keywords:
+- setupapi/FILEPATHS
 dev_langs:
- - c++
+- c++
 req.header: setupapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Setupapi.h
+- Setupapi.h
 api_name:
- - FILEPATHS
- - filepaths_a
+- FILEPATHS
+- filepaths_a
 targetos: Windows
 req.typenames: FILEPATHS_A, *PFILEPATHS_A
 req.redist: 

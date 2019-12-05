@@ -1,19 +1,17 @@
 ---
 UID: NF:d2d1_3.ID2D1DeviceContext4.CreateSvgGlyphStyle
 title: ID2D1DeviceContext4::CreateSvgGlyphStyle (d2d1_3.h)
-
 description: Creates an SVG glyph style object.
 old-location: direct2d\id2d1devicecontext4_createsvgglyphstyle.htm
 tech.root: Direct2D
 ms.assetid: 56E357D3-D361-4A56-990F-1CD4051BD4F1
-
 ms.date: 12/05/2018
 ms.keywords: CreateSvgGlyphStyle, CreateSvgGlyphStyle method [Direct2D], CreateSvgGlyphStyle method [Direct2D],ID2D1DeviceContext4 interface, ID2D1DeviceContext4 interface [Direct2D],CreateSvgGlyphStyle method, ID2D1DeviceContext4.CreateSvgGlyphStyle, ID2D1DeviceContext4::CreateSvgGlyphStyle, d2d1_3/ID2D1DeviceContext4::CreateSvgGlyphStyle, direct2d.id2d1devicecontext4_createsvgglyphstyle
 ms.topic: method
-f1_keywords: 
- - "d2d1_3/ID2D1DeviceContext4.CreateSvgGlyphStyle"
+f1_keywords:
+- d2d1_3/ID2D1DeviceContext4.CreateSvgGlyphStyle
 dev_langs:
- - c++
+- c++
 req.header: d2d1_3.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: D2d1.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D2d1.dll
+- D2d1.dll
 api_name:
- - ID2D1DeviceContext4.CreateSvgGlyphStyle
+- ID2D1DeviceContext4.CreateSvgGlyphStyle
 targetos: Windows
 req.typenames: 
 req.redist: 

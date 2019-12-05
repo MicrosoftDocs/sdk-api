@@ -1,19 +1,17 @@
 ---
 UID: NF:weakreference.IWeakReference.Resolve(T,)
 title: IWeakReference::Resolve(T,) (weakreference.h)
-
 description: Resolves a weak reference by returning a strong reference to the specified object.
 old-location: winrt\iweakreference_resolve.htm
 tech.root: WinRT
 ms.assetid: 642e44f1-7090-4391-b56c-9ba203c30e37
-
 ms.date: 12/05/2018
 ms.keywords: IWeakReference interface [Windows Runtime],Resolve method, IWeakReference.Resolve, IWeakReference.Resolve(T,), IWeakReference::Resolve, IWeakReference::Resolve(T,), Resolve, Resolve method [Windows Runtime], Resolve method [Windows Runtime],IWeakReference interface, weakreference/IWeakReference::Resolve, winrt.iweakreference_resolve
 ms.topic: method
-f1_keywords: 
- - "weakreference/IWeakReference.Resolve"
+f1_keywords:
+- weakreference/IWeakReference.Resolve
 dev_langs:
- - c++
+- c++
 req.header: weakreference.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - WeakReference.h
+- WeakReference.h
 api_name:
- - IWeakReference.Resolve
+- IWeakReference.Resolve
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:mbnapi.IMbnSms.GetSmsConfiguration
 title: IMbnSms::GetSmsConfiguration (mbnapi.h)
-
 description: Gets the SMS configuration of a device.
 old-location: mbn\imbnsms_getsmsconfiguration.htm
 tech.root: mbn
 ms.assetid: b868bb6f-3ac0-4d77-82dd-b9bc94882a8b
-
 ms.date: 12/05/2018
 ms.keywords: GetSmsConfiguration, GetSmsConfiguration method [Microsoft Broadband Networks], GetSmsConfiguration method [Microsoft Broadband Networks],IMbnSms interface, IMbnSms interface [Microsoft Broadband Networks],GetSmsConfiguration method, IMbnSms.GetSmsConfiguration, IMbnSms::GetSmsConfiguration, mbn.imbnsms_getsmsconfiguration, mbnapi/IMbnSms::GetSmsConfiguration
 ms.topic: method
-f1_keywords: 
- - "mbnapi/IMbnSms.GetSmsConfiguration"
+f1_keywords:
+- mbnapi/IMbnSms.GetSmsConfiguration
 dev_langs:
- - c++
+- c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mbnapi.h
+- mbnapi.h
 api_name:
- - IMbnSms.GetSmsConfiguration
+- IMbnSms.GetSmsConfiguration
 targetos: Windows
 req.typenames: 
 req.redist: 

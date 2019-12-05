@@ -1,19 +1,17 @@
 ---
 UID: NN:faxcomex.IFaxAccountIncomingQueue
 title: IFaxAccountIncomingQueue (faxcomex.h)
-
 description: Used by a fax client application to retrieve the inbound fax jobs (FaxIncomingJobs object) in the job queue for a particular fax account.
 old-location: fax\_mfax_faxaccountincomingqueue_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\reference\serviceextendedcom\i\ifaxaccountincomingqueue\faxinta_n_ifaxaccountincomingqueue_cpp.htm
-
 ms.date: 12/05/2018
 ms.keywords: IFaxAccountIncomingQueue, IFaxAccountIncomingQueue interface [Fax Service], IFaxAccountIncomingQueue interface [Fax Service],described, _mfax_faxaccountincomingqueue_cpp, fax._mfax_faxaccountincomingqueue_cpp, faxcomex/IFaxAccountIncomingQueue
 ms.topic: interface
-f1_keywords: 
- - "faxcomex/IFaxAccountIncomingQueue"
+f1_keywords:
+- faxcomex/IFaxAccountIncomingQueue
 dev_langs:
- - c++
+- c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Fxscomex.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Fxscomex.dll
+- Fxscomex.dll
 api_name:
- - IFaxAccountIncomingQueue
+- IFaxAccountIncomingQueue
 targetos: Windows
 req.typenames: 
 req.redist: 

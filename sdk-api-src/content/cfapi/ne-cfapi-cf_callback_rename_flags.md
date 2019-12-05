@@ -1,19 +1,17 @@
 ---
 UID: NE:cfapi.CF_CALLBACK_RENAME_FLAGS
 title: CF_CALLBACK_RENAME_FLAGS (cfapi.h)
-
 description: Call back flags to inform the sync provider that a placeholder under one of its sync roots is about to be renamed or moved.
 old-location: cloudapi\cf_callback_rename_flags.htm
 tech.root: cfApi
 ms.assetid: 7506ED1D-F6A8-49EB-B03B-B629264DFBB2
-
 ms.date: 12/05/2018
 ms.keywords: CF_CALLBACK_RENAME_FLAGS, CF_CALLBACK_RENAME_FLAGS enumeration, CF_CALLBACK_RENAME_FLAG_IS_DIRECTORY, CF_CALLBACK_RENAME_FLAG_NONE, CF_CALLBACK_RENAME_FLAG_SOURCE_IN_SCOPE, CF_CALLBACK_RENAME_FLAG_TARGET_IN_SCOPE, cfapi/CF_CALLBACK_RENAME_FLAGS, cfapi/CF_CALLBACK_RENAME_FLAG_IS_DIRECTORY, cfapi/CF_CALLBACK_RENAME_FLAG_NONE, cfapi/CF_CALLBACK_RENAME_FLAG_SOURCE_IN_SCOPE, cfapi/CF_CALLBACK_RENAME_FLAG_TARGET_IN_SCOPE, cloudApi.cf_callback_rename_flags
 ms.topic: enum
-f1_keywords: 
- - "cfapi/CF_CALLBACK_RENAME_FLAGS"
+f1_keywords:
+- cfapi/CF_CALLBACK_RENAME_FLAGS
 dev_langs:
- - c++
+- c++
 req.header: cfapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - CfApi.h
+- CfApi.h
 api_name:
- - CF_CALLBACK_RENAME_FLAGS
+- CF_CALLBACK_RENAME_FLAGS
 targetos: Windows
 req.typenames: CF_CALLBACK_RENAME_FLAGS
 req.redist: 

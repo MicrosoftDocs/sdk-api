@@ -1,19 +1,17 @@
 ---
 UID: NF:bdaiface.IBDA_EventingService.CompleteEvent
 title: IBDA_EventingService::CompleteEvent (bdaiface.h)
-
 description: Notifies the media transform device (MTD) when the media sink device (MSD) completes an event.
 old-location: mstv\ibda_eventingservice_completeevent.htm
 tech.root: mstv
 ms.assetid: 399530a7-5a02-485e-aa5e-6b3ddb7f3d54
-
 ms.date: 12/05/2018
 ms.keywords: CompleteEvent, CompleteEvent method [Microsoft TV Technologies], CompleteEvent method [Microsoft TV Technologies],IBDA_EventingService interface, IBDA_EventingService interface [Microsoft TV Technologies],CompleteEvent method, IBDA_EventingService.CompleteEvent, IBDA_EventingService::CompleteEvent, bdaiface/IBDA_EventingService::CompleteEvent, mstv.ibda_eventingservice_completeevent
 ms.topic: method
-f1_keywords: 
- - "bdaiface/IBDA_EventingService.CompleteEvent"
+f1_keywords:
+- bdaiface/IBDA_EventingService.CompleteEvent
 dev_langs:
- - c++
+- c++
 req.header: bdaiface.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - bdaiface.h
+- bdaiface.h
 api_name:
- - IBDA_EventingService.CompleteEvent
+- IBDA_EventingService.CompleteEvent
 targetos: Windows
 req.typenames: 
 req.redist: 

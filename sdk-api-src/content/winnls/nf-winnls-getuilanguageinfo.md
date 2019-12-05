@@ -1,19 +1,17 @@
 ---
 UID: NF:winnls.GetUILanguageInfo
 title: GetUILanguageInfo function (winnls.h)
-
 description: Retrieves a variety of information about an installed UI language
 old-location: intl\getuilanguageinfo.htm
 tech.root: Intl
 ms.assetid: 7eb17073-f79a-4a87-a85b-94007e77888a
-
 ms.date: 12/05/2018
 ms.keywords: GetUILanguageInfo, GetUILanguageInfo function [Internationalization for Windows Applications], MUI_FULL_LANGUAGE, MUI_LANGUAGE_ID, MUI_LANGUAGE_INSTALLED, MUI_LANGUAGE_LICENSED, MUI_LANGUAGE_NAME, MUI_LIP_LANGUAGE, MUI_PARTIAL_LANGUAGE, _win32_GetUILanguageInfo, intl.getuilanguageinfo, winnls/GetUILanguageInfo
 ms.topic: function
-f1_keywords: 
- - "winnls/GetUILanguageInfo"
+f1_keywords:
+- winnls/GetUILanguageInfo
 dev_langs:
- - c++
+- c++
 req.header: winnls.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,21 +30,21 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-Localization-l1-1-0.dll
- - KernelBase.dll
- - API-MS-Win-Core-Localization-l1-2-0.dll
- - API-MS-Win-Core-Localization-l1-2-1.dll
- - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
- - MinKernelBase.dll
- - API-MS-Win-Core-Localization-L1-2-2.dll
+- Kernel32.dll
+- API-MS-Win-Core-Localization-l1-1-0.dll
+- KernelBase.dll
+- API-MS-Win-Core-Localization-l1-2-0.dll
+- API-MS-Win-Core-Localization-l1-2-1.dll
+- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+- MinKernelBase.dll
+- API-MS-Win-Core-Localization-L1-2-2.dll
 api_name:
- - GetUILanguageInfo
+- GetUILanguageInfo
 targetos: Windows
 req.typenames: 
 req.redist: 

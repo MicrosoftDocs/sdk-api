@@ -1,19 +1,17 @@
 ---
 UID: NF:mfidl.IMFNetSchemeHandlerConfig.ResetProtocolRolloverSettings
 title: IMFNetSchemeHandlerConfig::ResetProtocolRolloverSettings (mfidl.h)
-
 description: Not implemented in this release.
 old-location: mf\imfnetschemehandlerconfig_resetprotocolrolloversettings.htm
 tech.root: medfound
 ms.assetid: f2f792a4-811b-4eec-849b-bdd22774c4a8
-
 ms.date: 12/05/2018
 ms.keywords: IMFNetSchemeHandlerConfig interface [Media Foundation],ResetProtocolRolloverSettings method, IMFNetSchemeHandlerConfig.ResetProtocolRolloverSettings, IMFNetSchemeHandlerConfig::ResetProtocolRolloverSettings, ResetProtocolRolloverSettings, ResetProtocolRolloverSettings method [Media Foundation], ResetProtocolRolloverSettings method [Media Foundation],IMFNetSchemeHandlerConfig interface, f2f792a4-811b-4eec-849b-bdd22774c4a8, mf.imfnetschemehandlerconfig_resetprotocolrolloversettings, mfidl/IMFNetSchemeHandlerConfig::ResetProtocolRolloverSettings
 ms.topic: method
-f1_keywords: 
- - "mfidl/IMFNetSchemeHandlerConfig.ResetProtocolRolloverSettings"
+f1_keywords:
+- mfidl/IMFNetSchemeHandlerConfig.ResetProtocolRolloverSettings
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFNetSchemeHandlerConfig.ResetProtocolRolloverSettings
+- IMFNetSchemeHandlerConfig.ResetProtocolRolloverSettings
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NN:wuapi.IUpdate5
 title: IUpdate5 (wuapi.h)
-
 description: Contains the properties and methods that are available to an update.
 old-location: wua\iupdate5.htm
 tech.root: Wua_Sdk
 ms.assetid: ff290e39-7d7c-42da-a522-ba9e672721b8
-
 ms.date: 12/05/2018
 ms.keywords: IUpdate5, IUpdate5 interface [Windows Update Agent], IUpdate5 interface [Windows Update Agent],described, wua.iupdate5, wuapi/IUpdate5
 ms.topic: interface
-f1_keywords: 
- - "wuapi/IUpdate5"
+f1_keywords:
+- wuapi/IUpdate5
 dev_langs:
- - c++
+- c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Wuguid.lib
 req.dll: Wuapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wuapi.dll
+- Wuapi.dll
 api_name:
- - IUpdate5
+- IUpdate5
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NE:propsys.PROPDESC_FORMAT_FLAGS
 title: PROPDESC_FORMAT_FLAGS (propsys.h)
-
 description: Used by property description helper functions, such as PSFormatForDisplay, to indicate the format of a property string.
 old-location: properties\PROPDESC_FORMAT_FLAGS.htm
 tech.root: properties
 ms.assetid: 4425d97f-2530-40d4-ba1a-06bc85f2f567
-
 ms.date: 12/05/2018
 ms.keywords: PDFF_ALWAYSKB, PDFF_DEFAULT, PDFF_FILENAME, PDFF_HIDEDATE, PDFF_HIDETIME, PDFF_LONGDATE, PDFF_LONGTIME, PDFF_NOAUTOREADINGORDER, PDFF_PREFIXNAME, PDFF_READONLY, PDFF_RELATIVEDATE, PDFF_RESERVED_RIGHTTOLEFT, PDFF_SHORTDATE, PDFF_SHORTTIME, PDFF_USEEDITINVITATION, PROPDESC_FORMAT_FLAGS, PROPDESC_FORMAT_FLAGS enumeration [Windows Properties], _shell_PROPDESC_FORMAT_FLAGS, properties.PROPDESC_FORMAT_FLAGS, propsys/PDFF_ALWAYSKB, propsys/PDFF_DEFAULT, propsys/PDFF_FILENAME, propsys/PDFF_HIDEDATE, propsys/PDFF_HIDETIME, propsys/PDFF_LONGDATE, propsys/PDFF_LONGTIME, propsys/PDFF_NOAUTOREADINGORDER, propsys/PDFF_PREFIXNAME, propsys/PDFF_READONLY, propsys/PDFF_RELATIVEDATE, propsys/PDFF_RESERVED_RIGHTTOLEFT, propsys/PDFF_SHORTDATE, propsys/PDFF_SHORTTIME, propsys/PDFF_USEEDITINVITATION, propsys/PROPDESC_FORMAT_FLAGS, shell.PROPDESC_FORMAT_FLAGS
 ms.topic: enum
-f1_keywords: 
- - "propsys/PROPDESC_FORMAT_FLAGS"
+f1_keywords:
+- propsys/PROPDESC_FORMAT_FLAGS
 dev_langs:
- - c++
+- c++
 req.header: propsys.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Propsys.h
+- Propsys.h
 api_name:
- - PROPDESC_FORMAT_FLAGS
+- PROPDESC_FORMAT_FLAGS
 targetos: Windows
 req.typenames: PROPDESC_FORMAT_FLAGS
 req.redist: 

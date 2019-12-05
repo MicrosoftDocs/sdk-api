@@ -1,19 +1,17 @@
 ---
 UID: NF:directmanipulation.IDirectManipulationViewport.GetPrimaryContent
 title: IDirectManipulationViewport::GetPrimaryContent (directmanipulation.h)
-
 description: Gets the primary content of a viewport that implements IDirectManipulationContent and IDirectManipulationPrimaryContent.
 old-location: directmanipulation\idirectmanipulationviewport_getprimarycontent.htm
 tech.root: directmanipulation
 ms.assetid: 1aa70be3-9e95-4c35-8cca-45c1b238961e
-
 ms.date: 12/05/2018
 ms.keywords: GetPrimaryContent, GetPrimaryContent method [Direct Manipulation], GetPrimaryContent method [Direct Manipulation],IDirectManipulationViewport interface, IDirectManipulationViewport interface [Direct Manipulation],GetPrimaryContent method, IDirectManipulationViewport.GetPrimaryContent, IDirectManipulationViewport::GetPrimaryContent, directmanipulation.idirectmanipulationviewport_getprimarycontent, directmanipulation/IDirectManipulationViewport::GetPrimaryContent
 ms.topic: method
-f1_keywords: 
- - "directmanipulation/IDirectManipulationViewport.GetPrimaryContent"
+f1_keywords:
+- directmanipulation/IDirectManipulationViewport.GetPrimaryContent
 dev_langs:
- - c++
+- c++
 req.header: directmanipulation.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - DirectManipulation.h
+- DirectManipulation.h
 api_name:
- - IDirectManipulationViewport.GetPrimaryContent
+- IDirectManipulationViewport.GetPrimaryContent
 targetos: Windows
 req.typenames: 
 req.redist: 

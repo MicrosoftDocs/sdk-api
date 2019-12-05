@@ -1,19 +1,17 @@
 ---
 UID: NF:winbase.SetThreadpoolCallbackPersistent
 title: SetThreadpoolCallbackPersistent function (winbase.h)
-
 description: Specifies that the callback should run on a persistent thread.
 old-location: base\setthreadpoolcallbackpersistent.htm
 tech.root: ProcThread
 ms.assetid: 3f209586-5452-4928-8f97-70648b22460d
-
 ms.date: 12/05/2018
 ms.keywords: SetThreadpoolCallbackPersistent, SetThreadpoolCallbackPersistent function, base.setthreadpoolcallbackpersistent, winbase/SetThreadpoolCallbackPersistent
 ms.topic: function
-f1_keywords: 
- - "winbase/SetThreadpoolCallbackPersistent"
+f1_keywords:
+- winbase/SetThreadpoolCallbackPersistent
 dev_langs:
- - c++
+- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WinBase.h
+- WinBase.h
 api_name:
- - SetThreadpoolCallbackPersistent
+- SetThreadpoolCallbackPersistent
 targetos: Windows
 req.typenames: 
 req.redist: 

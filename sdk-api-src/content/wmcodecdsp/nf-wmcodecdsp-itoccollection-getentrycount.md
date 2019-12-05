@@ -1,19 +1,17 @@
 ---
 UID: NF:wmcodecdsp.ITocCollection.GetEntryCount
 title: ITocCollection::GetEntryCount (wmcodecdsp.h)
-
 description: The GetEntryCount method retrieves the number of tables of contents in the collection.
 old-location: mf\itoccollection_getentrycount.htm
 tech.root: medfound
 ms.assetid: 494efcde-cab3-4e72-9bc6-1df61f125f62
-
 ms.date: 12/05/2018
 ms.keywords: GetEntryCount, GetEntryCount method [Media Foundation], GetEntryCount method [Media Foundation],ITocCollection interface, ITocCollection interface [Media Foundation],GetEntryCount method, ITocCollection.GetEntryCount, ITocCollection::GetEntryCount, codecapi.itoccollection_getentrycount, mf.itoccollection_getentrycount, wmcodecdsp/ITocCollection::GetEntryCount
 ms.topic: method
-f1_keywords: 
- - "wmcodecdsp/ITocCollection.GetEntryCount"
+f1_keywords:
+- wmcodecdsp/ITocCollection.GetEntryCount
 dev_langs:
- - c++
+- c++
 req.header: wmcodecdsp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wmvdspa.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmvdspa.dll
+- wmvdspa.dll
 api_name:
- - ITocCollection.GetEntryCount
+- ITocCollection.GetEntryCount
 targetos: Windows
 req.typenames: 
 req.redist: 

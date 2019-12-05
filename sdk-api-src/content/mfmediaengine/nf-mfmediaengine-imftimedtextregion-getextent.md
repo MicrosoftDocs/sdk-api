@@ -1,19 +1,17 @@
 ---
 UID: NF:mfmediaengine.IMFTimedTextRegion.GetExtent
 title: IMFTimedTextRegion::GetExtent (mfmediaengine.h)
-
 description: Gets the extent of the region.
 old-location: mf\imftimedtextregion_getextent.htm
 tech.root: medfound
 ms.assetid: 581D9A8D-FBED-4E67-9E81-77D9C29ADF82
-
 ms.date: 12/05/2018
 ms.keywords: GetExtent, GetExtent method [Media Foundation], GetExtent method [Media Foundation],IMFTimedTextRegion interface, IMFTimedTextRegion interface [Media Foundation],GetExtent method, IMFTimedTextRegion.GetExtent, IMFTimedTextRegion::GetExtent, mf.imftimedtextregion_getextent, mfmediaengine/IMFTimedTextRegion::GetExtent
 ms.topic: method
-f1_keywords: 
- - "mfmediaengine/IMFTimedTextRegion.GetExtent"
+f1_keywords:
+- mfmediaengine/IMFTimedTextRegion.GetExtent
 dev_langs:
- - c++
+- c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfmediaengine.h
+- mfmediaengine.h
 api_name:
- - IMFTimedTextRegion.GetExtent
+- IMFTimedTextRegion.GetExtent
 targetos: Windows
 req.typenames: 
 req.redist: 

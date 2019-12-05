@@ -1,19 +1,17 @@
 ---
 UID: NF:gdiplusheaders.Region.Equals
 title: Region::Equals (gdiplusheaders.h)
-
 description: The Region::Equals method determines whether this region is equal to a specified region.
 old-location: gdiplus\_gdiplus_CLASS_Region_Equals_region_g_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\regionclass\regionmethods\equals_59region_g.htm
-
 ms.date: 12/05/2018
 ms.keywords: Equals, Equals method [GDI+], Equals method [GDI+],Region class, Region class [GDI+],Equals method, Region.Equals, Region::Equals, _gdiplus_CLASS_Region_Equals_region_g_, gdiplus._gdiplus_CLASS_Region_Equals_region_g_
 ms.topic: method
-f1_keywords: 
- - "gdiplusheaders/Region.Equals"
+f1_keywords:
+- gdiplusheaders/Region.Equals
 dev_langs:
- - c++
+- c++
 req.header: gdiplusheaders.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - Region.Equals
+- Region.Equals
 targetos: Windows
 req.typenames: 
 req.redist: 

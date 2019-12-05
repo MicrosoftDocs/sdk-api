@@ -1,19 +1,17 @@
 ---
 UID: NF:lowlevelmonitorconfigurationapi.SaveCurrentSettings
 title: SaveCurrentSettings function (lowlevelmonitorconfigurationapi.h)
-
 description: Saves the current monitor settings to the display's nonvolatile storage.
 old-location: monitor\savecurrentsettings.htm
 tech.root: Monitor
 ms.assetid: e5903e52-d04c-4ac3-9566-eb4f2559464b
-
 ms.date: 12/05/2018
 ms.keywords: SaveCurrentSettings, SaveCurrentSettings function [Monitor Configuration], lowlevelmonitorconfigurationapi/SaveCurrentSettings, monitor.savecurrentsettings
 ms.topic: function
-f1_keywords: 
- - "lowlevelmonitorconfigurationapi/SaveCurrentSettings"
+f1_keywords:
+- lowlevelmonitorconfigurationapi/SaveCurrentSettings
 dev_langs:
- - c++
+- c++
 req.header: lowlevelmonitorconfigurationapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dxva2.lib
 req.dll: Dxva2.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - dxva2.dll
+- dxva2.dll
 api_name:
- - SaveCurrentSettings
+- SaveCurrentSettings
 targetos: Windows
 req.typenames: 
 req.redist: 

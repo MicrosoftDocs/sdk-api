@@ -1,19 +1,17 @@
 ---
 UID: NS:winnt._HARDWARE_COUNTER_DATA
 title: HARDWARE_COUNTER_DATA (winnt.h)
-
 description: Contains the hardware counter value.
 old-location: hcp\hardware_counter_data.htm
 tech.root: hcp
 ms.assetid: 7224b623-c097-44e8-b9da-5fdfad3fb505
-
 ms.date: 12/05/2018
 ms.keywords: '*PHARDWARE_COUNTER_DATA, HARDWARE_COUNTER_DATA, HARDWARE_COUNTER_DATA structure [Hardware Counter Profiling], PHARDWARE_COUNTER_DATA, PHARDWARE_COUNTER_DATA structure pointer [Hardware Counter Profiling], _HARDWARE_COUNTER_DATA, hcp.hardware_counter_data, winnt/HARDWARE_COUNTER_DATA, winnt/PHARDWARE_COUNTER_DATA'
 ms.topic: struct
 f1_keywords:
 - winnt/HARDWARE_COUNTER_DATA
 dev_langs:
- - c++
+- c++
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows

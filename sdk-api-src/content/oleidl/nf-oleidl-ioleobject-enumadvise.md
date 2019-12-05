@@ -1,19 +1,17 @@
 ---
 UID: NF:oleidl.IOleObject.EnumAdvise
 title: IOleObject::EnumAdvise (oleidl.h)
-
 description: Retrieves a pointer to an enumerator that can be used to enumerate the advisory connections registered for an object, so a container can know what to release prior to closing down.
 old-location: com\ioleobject_enumadvise.htm
 tech.root: com
 ms.assetid: 4e1d6d9e-ebf2-4cd6-b7b4-00f9e7bd9bdc
-
 ms.date: 12/05/2018
 ms.keywords: EnumAdvise, EnumAdvise method [COM], EnumAdvise method [COM],IOleObject interface, IOleObject interface [COM],EnumAdvise method, IOleObject.EnumAdvise, IOleObject::EnumAdvise, _ole_ioleobject_enumadvise, com.ioleobject_enumadvise, oleidl/IOleObject::EnumAdvise
 ms.topic: method
-f1_keywords: 
- - "oleidl/IOleObject.EnumAdvise"
+f1_keywords:
+- oleidl/IOleObject.EnumAdvise
 dev_langs:
- - c++
+- c++
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - OleIdl.h
+- OleIdl.h
 api_name:
- - IOleObject.EnumAdvise
+- IOleObject.EnumAdvise
 targetos: Windows
 req.typenames: 
 req.redist: 

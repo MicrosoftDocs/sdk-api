@@ -1,19 +1,17 @@
 ---
 UID: NF:wincred.CredUIConfirmCredentialsA
 title: CredUIConfirmCredentialsA function (wincred.h)
-
 description: Is called after CredUIPromptForCredentials or CredUICmdLinePromptForCredentials, to confirm the validity of the credential harvested.
 old-location: security\creduiconfirmcredentials.htm
 tech.root: SecAuthN
 ms.assetid: 67262844-75f0-4f68-90f6-63f9a6d2b0a1
-
 ms.date: 12/05/2018
 ms.keywords: CredUIConfirmCredentials, CredUIConfirmCredentials function [Security], CredUIConfirmCredentialsA, CredUIConfirmCredentialsW, _cred_creduiconfirmcredentials, security.creduiconfirmcredentials, wincred/CredUIConfirmCredentials, wincred/CredUIConfirmCredentialsA, wincred/CredUIConfirmCredentialsW
 ms.topic: function
-f1_keywords: 
- - "wincred/CredUIConfirmCredentials"
+f1_keywords:
+- wincred/CredUIConfirmCredentials
 dev_langs:
- - c++
+- c++
 req.header: wincred.h
 req.include-header: 
 req.target-type: Windows
@@ -32,19 +30,19 @@ req.lib: Credui.lib
 req.dll: Credui.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Credui.dll
- - Ext-MS-Win-security-credui-l1-1-0.dll
- - Ext-MS-Win-security-credui-l1-1-1.dll
- - AnalogCredUI.dll
+- Credui.dll
+- Ext-MS-Win-security-credui-l1-1-0.dll
+- Ext-MS-Win-security-credui-l1-1-1.dll
+- AnalogCredUI.dll
 api_name:
- - CredUIConfirmCredentials
- - CredUIConfirmCredentialsA
- - CredUIConfirmCredentialsW
+- CredUIConfirmCredentials
+- CredUIConfirmCredentialsA
+- CredUIConfirmCredentialsW
 targetos: Windows
 req.typenames: 
 req.redist: 

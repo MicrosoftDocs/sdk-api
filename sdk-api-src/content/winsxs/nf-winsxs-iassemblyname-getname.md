@@ -1,19 +1,17 @@
 ---
 UID: NF:winsxs.IAssemblyName.GetName
 title: IAssemblyName::GetName (winsxs.h)
-
 description: The GetName method returns the name portion of the assembly name.
 old-location: setup\iassemblyname_getname.htm
 tech.root: SbsCs
 ms.assetid: b27ebe4e-02b6-473f-a8cb-c68a3e65e493
-
 ms.date: 12/05/2018
 ms.keywords: GetName, GetName method [Side-by-side Assemblies], GetName method [Side-by-side Assemblies],IAssemblyName interface, IAssemblyName interface [Side-by-side Assemblies],GetName method, IAssemblyName.GetName, IAssemblyName::GetName, setup.iassemblyname_getname, winsxs/IAssemblyName::GetName
 ms.topic: method
-f1_keywords: 
- - "winsxs/IAssemblyName.GetName"
+f1_keywords:
+- winsxs/IAssemblyName.GetName
 dev_langs:
- - c++
+- c++
 req.header: winsxs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Sxs.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - sxs.dll
+- sxs.dll
 api_name:
- - IAssemblyName.GetName
+- IAssemblyName.GetName
 targetos: Windows
 req.typenames: 
 req.redist: 

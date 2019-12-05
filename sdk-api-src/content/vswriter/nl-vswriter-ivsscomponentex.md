@@ -1,19 +1,17 @@
 ---
 UID: NL:vswriter.IVssComponentEx
 title: IVssComponentEx (vswriter.h)
-
 description: Defines additional methods for examining and modifying information about components contained in a requester's Backup Components Document.
 old-location: base\ivsscomponentex.htm
 tech.root: VSS
 ms.assetid: b11f65b0-2de2-478b-88b6-4696a8da2419
-
 ms.date: 12/05/2018
 ms.keywords: IVssComponentEx, IVssComponentEx interface, IVssComponentEx interface,described, base.ivsscomponentex, vswriter/IVssComponentEx
 ms.topic: class
-f1_keywords: 
- - "vswriter/IVssComponentEx"
+f1_keywords:
+- vswriter/IVssComponentEx
 dev_langs:
- - c++
+- c++
 req.header: vswriter.h
 req.include-header: Vss.h, VsWriter.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: VssApi.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - VssApi.lib
- - VssApi.dll
+- VssApi.lib
+- VssApi.dll
 api_name:
- - IVssComponentEx
+- IVssComponentEx
 targetos: Windows
 req.typenames: 
 req.redist: 

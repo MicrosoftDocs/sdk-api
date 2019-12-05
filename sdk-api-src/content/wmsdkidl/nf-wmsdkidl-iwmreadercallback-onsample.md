@@ -1,19 +1,17 @@
 ---
 UID: NF:wmsdkidl.IWMReaderCallback.OnSample
 title: IWMReaderCallback::OnSample (wmsdkidl.h)
-
 description: The OnSample method is called during the reading of a file (due to a Start call) indicating that new data is available.
 old-location: wmformat\iwmreadercallback_onsample.htm
 tech.root: wmformat
 ms.assetid: 0f6e4d4f-4295-44ff-95bc-e683bdbab8e0
-
 ms.date: 12/05/2018
 ms.keywords: IWMReaderCallback interface [windows Media Format],OnSample method, IWMReaderCallback.OnSample, IWMReaderCallback::OnSample, IWMReaderCallbackOnSample, OnSample, OnSample method [windows Media Format], OnSample method [windows Media Format],IWMReaderCallback interface, wmformat.iwmreadercallback_onsample, wmsdkidl/IWMReaderCallback::OnSample
 ms.topic: method
-f1_keywords: 
- - "wmsdkidl/IWMReaderCallback.OnSample"
+f1_keywords:
+- wmsdkidl/IWMReaderCallback.OnSample
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wmsdkidl.h
+- Wmsdkidl.h
 api_name:
- - IWMReaderCallback.OnSample
+- IWMReaderCallback.OnSample
 targetos: Windows
 req.typenames: 
 req.redist: 

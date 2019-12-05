@@ -1,19 +1,17 @@
 ---
 UID: NE:d3d12.D3D12_RENDER_PASS_BEGINNING_ACCESS_TYPE
 title: D3D12_RENDER_PASS_BEGINNING_ACCESS_TYPE (d3d12.h)
-
 description: Specifies the type of access that an application is given to the specified resource(s) at the transition into a render pass.
 old-location: direct3d12\d3d12_render_pass_beginning_access_type.htm
 tech.root: direct3d12
 ms.assetid: 12B376DB-2CCF-493E-8B21-BAAE66B5FF1E
-
 ms.date: 12/05/2018
 ms.keywords: D3D12_RENDER_PASS_BEGINNING_ACCESS_TYPE, D3D12_RENDER_PASS_BEGINNING_ACCESS_TYPE enumeration, D3D12_RENDER_PASS_BEGINNING_ACCESS_TYPE_CLEAR, D3D12_RENDER_PASS_BEGINNING_ACCESS_TYPE_DISCARD, D3D12_RENDER_PASS_BEGINNING_ACCESS_TYPE_NO_ACCESS, D3D12_RENDER_PASS_BEGINNING_ACCESS_TYPE_PRESERVE, d3d12/D3D12_RENDER_PASS_BEGINNING_ACCESS_TYPE, d3d12/D3D12_RENDER_PASS_BEGINNING_ACCESS_TYPE_CLEAR, d3d12/D3D12_RENDER_PASS_BEGINNING_ACCESS_TYPE_DISCARD, d3d12/D3D12_RENDER_PASS_BEGINNING_ACCESS_TYPE_NO_ACCESS, d3d12/D3D12_RENDER_PASS_BEGINNING_ACCESS_TYPE_PRESERVE, direct3d12.d3d12_render_pass_beginning_access_type
 ms.topic: enum
-f1_keywords: 
- - "d3d12/D3D12_RENDER_PASS_BEGINNING_ACCESS_TYPE"
+f1_keywords:
+- d3d12/D3D12_RENDER_PASS_BEGINNING_ACCESS_TYPE
 dev_langs:
- - c++
+- c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - d3d12.h
+- d3d12.h
 api_name:
- - D3D12_RENDER_PASS_BEGINNING_ACCESS_TYPE
+- D3D12_RENDER_PASS_BEGINNING_ACCESS_TYPE
 targetos: Windows
 req.typenames: D3D12_RENDER_PASS_BEGINNING_ACCESS_TYPE
 req.redist: 

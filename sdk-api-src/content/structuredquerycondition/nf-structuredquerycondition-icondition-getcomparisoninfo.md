@@ -1,19 +1,17 @@
 ---
 UID: NF:structuredquerycondition.ICondition.GetComparisonInfo
 title: ICondition::GetComparisonInfo (structuredquerycondition.h)
-
 description: Retrieves the property name, operation, and value from a leaf search condition node.
 old-location: search\_search_ICondition_GetComparisonInfo.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\icondition\getcomparisoninfo.htm
-
 ms.date: 12/05/2018
 ms.keywords: GetComparisonInfo, GetComparisonInfo method [search], GetComparisonInfo method [search],ICondition interface, ICondition interface [search],GetComparisonInfo method, ICondition.GetComparisonInfo, ICondition::GetComparisonInfo, _search_ICondition_GetComparisonInfo, search._search_ICondition_GetComparisonInfo, structuredquerycondition/ICondition::GetComparisonInfo
 ms.topic: method
-f1_keywords: 
- - "structuredquerycondition/ICondition.GetComparisonInfo"
+f1_keywords:
+- structuredquerycondition/ICondition.GetComparisonInfo
 dev_langs:
- - c++
+- c++
 req.header: structuredquerycondition.h
 req.include-header: Structuredquery.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - structuredquerycondition.h
+- structuredquerycondition.h
 api_name:
- - ICondition.GetComparisonInfo
+- ICondition.GetComparisonInfo
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0

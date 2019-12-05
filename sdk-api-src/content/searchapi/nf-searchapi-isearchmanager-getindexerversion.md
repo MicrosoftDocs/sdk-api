@@ -1,19 +1,17 @@
 ---
 UID: NF:searchapi.ISearchManager.GetIndexerVersion
 title: ISearchManager::GetIndexerVersion (searchapi.h)
-
 description: Retrieves the version of the current indexer in two chunks:\_the major version signifier and the minor version signifier.
 old-location: search\_search_ISearchManager_GetIndexerVersion.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\indexmanagement\isearchmanager\getindexerversion.htm
-
 ms.date: 12/05/2018
 ms.keywords: GetIndexerVersion, GetIndexerVersion method [search], GetIndexerVersion method [search],ISearchManager interface, ISearchManager interface [search],GetIndexerVersion method, ISearchManager.GetIndexerVersion, ISearchManager::GetIndexerVersion, _search_ISearchManager_GetIndexerVersion, search._search_ISearchManager_GetIndexerVersion, searchapi/ISearchManager::GetIndexerVersion
 ms.topic: method
-f1_keywords: 
- - "searchapi/ISearchManager.GetIndexerVersion"
+f1_keywords:
+- searchapi/ISearchManager.GetIndexerVersion
 dev_langs:
- - c++
+- c++
 req.header: searchapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Searchapi.h
+- Searchapi.h
 api_name:
- - ISearchManager.GetIndexerVersion
+- ISearchManager.GetIndexerVersion
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0

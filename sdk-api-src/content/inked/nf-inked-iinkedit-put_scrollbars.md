@@ -1,19 +1,17 @@
 ---
 UID: NF:inked.IInkEdit.put_ScrollBars
 title: IInkEdit::put_ScrollBars (inked.h)
-
 description: Gets or sets the type of scroll bars, if any, to display in the InkEdit control.
 old-location: tablet\inkedit_scrollbars.htm
 tech.root: tablet
 ms.assetid: d6b798dc-6e8f-4c89-b5a8-c4a189ebe6cd
-
 ms.date: 12/05/2018
 ms.keywords: IInkEdit interface [Tablet PC],ScrollBars property, IInkEdit.ScrollBars, IInkEdit.put_ScrollBars, IInkEdit::ScrollBars, IInkEdit::get_ScrollBars, IInkEdit::put_ScrollBars, InkEdit.get_ScrollBars, InkEdit.put_ScrollBars, ScrollBars property [Tablet PC], ScrollBars property [Tablet PC],IInkEdit interface, get_ScrollBars, inked/IInkEdit::ScrollBars, inked/IInkEdit::get_ScrollBars, inked/IInkEdit::put_ScrollBars, put_ScrollBars, rtfBoth, rtfHorizontal, rtfNone, rtfVertical, tablet.inkedit_scrollbars
 ms.topic: method
-f1_keywords: 
- - "inked/IInkEdit.ScrollBars"
+f1_keywords:
+- inked/IInkEdit.ScrollBars
 dev_langs:
- - c++
+- c++
 req.header: inked.h
 req.include-header: 
 req.target-type: Windows
@@ -32,19 +30,19 @@ req.lib: InkEd.dll
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - InkEd.dll
- - InkEd.dll.dll
+- InkEd.dll
+- InkEd.dll.dll
 api_name:
- - IInkEdit.ScrollBars
- - IInkEdit.get_ScrollBars
- - IInkEdit.put_ScrollBars
- - InkEdit.get_ScrollBars
- - InkEdit.put_ScrollBars
+- IInkEdit.ScrollBars
+- IInkEdit.get_ScrollBars
+- IInkEdit.put_ScrollBars
+- InkEdit.get_ScrollBars
+- InkEdit.put_ScrollBars
 targetos: Windows
 req.typenames: 
 req.redist: 

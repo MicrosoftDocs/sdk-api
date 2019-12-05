@@ -1,19 +1,17 @@
 ---
 UID: NF:msi.MsiConfigureFeatureW
 title: MsiConfigureFeatureW function (msi.h)
-
 description: The MsiConfigureFeature function configures the installed state for a product feature.
 old-location: setup\msiconfigurefeature.htm
 tech.root: Msi
 ms.assetid: 067d6fbb-833f-4e0e-bfdb-18d1b8608f58
-
 ms.date: 12/05/2018
 ms.keywords: INSTALLSTATE_ABSENT, INSTALLSTATE_ADVERTISED, INSTALLSTATE_DEFAULT, INSTALLSTATE_LOCAL, INSTALLSTATE_SOURCE, MsiConfigureFeature, MsiConfigureFeature function, MsiConfigureFeatureA, MsiConfigureFeatureW, _msi_msiconfigurefeature, msi/MsiConfigureFeature, msi/MsiConfigureFeatureA, msi/MsiConfigureFeatureW, setup.msiconfigurefeature
 ms.topic: function
-f1_keywords: 
- - "msi/MsiConfigureFeature"
+f1_keywords:
+- msi/MsiConfigureFeature
 dev_langs:
- - c++
+- c++
 req.header: msi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Msi.lib
 req.dll: Msi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Msi.dll
+- Msi.dll
 api_name:
- - MsiConfigureFeature
- - MsiConfigureFeatureA
- - MsiConfigureFeatureW
+- MsiConfigureFeature
+- MsiConfigureFeatureA
+- MsiConfigureFeatureW
 targetos: Windows
 req.typenames: 
 req.redist: 

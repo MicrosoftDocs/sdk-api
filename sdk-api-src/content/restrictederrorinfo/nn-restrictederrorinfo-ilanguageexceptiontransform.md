@@ -1,19 +1,17 @@
 ---
 UID: NN:restrictederrorinfo.ILanguageExceptionTransform
 title: ILanguageExceptionTransform (restrictederrorinfo.h)
-
 description: Allows language projections to make available to the system any and all context from an exception that gets thrown from the context of a catch handler that catches a different exception.
 old-location: winrt\ilanguageexceptiontransform.htm
 tech.root: WinRT
 ms.assetid: A42470EE-FA05-4716-BA17-009D59FEE259
-
 ms.date: 12/05/2018
 ms.keywords: ILanguageExceptionTransform, ILanguageExceptionTransform interface [Windows Runtime], ILanguageExceptionTransform interface [Windows Runtime],described, restrictederrorinfo/ILanguageExceptionTransform, winrt.ilanguageexceptiontransform
 ms.topic: interface
-f1_keywords: 
- - "restrictederrorinfo/ILanguageExceptionTransform"
+f1_keywords:
+- restrictederrorinfo/ILanguageExceptionTransform
 dev_langs:
- - c++
+- c++
 req.header: restrictederrorinfo.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - restrictederrorinfo.h
+- restrictederrorinfo.h
 api_name:
- - ILanguageExceptionTransform
+- ILanguageExceptionTransform
 targetos: Windows
 req.typenames: 
 req.redist: 

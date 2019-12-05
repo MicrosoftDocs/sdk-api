@@ -1,19 +1,17 @@
 ---
 UID: NF:coml2api.PropStgNameToFmtId
 title: PropStgNameToFmtId function (coml2api.h)
-
 description: Converts a property set storage or stream name to its format identifier.
 old-location: stg\propstgnametofmtid.htm
 tech.root: Stg
 ms.assetid: bbbaf5a3-df17-42fd-ba2b-ad5b572c8a3f
-
 ms.date: 12/05/2018
 ms.keywords: PropStgNameToFmtId, PropStgNameToFmtId function [Structured Storage], _stg_propstgnametofmtid, coml2api/PropStgNameToFmtId, stg.propstgnametofmtid
 ms.topic: function
-f1_keywords: 
- - "coml2api/PropStgNameToFmtId"
+f1_keywords:
+- coml2api/PropStgNameToFmtId
 dev_langs:
- - c++
+- c++
 req.header: coml2api.h
 req.include-header: Propidl.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Ole32.lib
 req.dll: Ole32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ole32.dll
- - API-MS-Win-Core-Com-l2-1-1.dll
- - coml2.dll
+- Ole32.dll
+- API-MS-Win-Core-Com-l2-1-1.dll
+- coml2.dll
 api_name:
- - PropStgNameToFmtId
+- PropStgNameToFmtId
 targetos: Windows
 req.typenames: 
 req.redist: 

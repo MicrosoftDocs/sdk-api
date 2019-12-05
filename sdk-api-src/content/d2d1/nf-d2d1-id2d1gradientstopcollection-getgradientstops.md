@@ -1,19 +1,17 @@
 ---
 UID: NF:d2d1.ID2D1GradientStopCollection.GetGradientStops
 title: ID2D1GradientStopCollection::GetGradientStops (d2d1.h)
-
 description: Copies the gradient stops from the collection into an array of D2D1_GRADIENT_STOP structures.
 old-location: direct2d\ID2D1GradientStopCollection_GetGradientStops.htm
 tech.root: Direct2D
 ms.assetid: a5ae1b14-2694-4593-8eba-17d93b45bb9c
-
 ms.date: 12/05/2018
 ms.keywords: GetGradientStops, GetGradientStops method [Direct2D], GetGradientStops method [Direct2D],ID2D1GradientStopCollection interface, ID2D1GradientStopCollection interface [Direct2D],GetGradientStops method, ID2D1GradientStopCollection.GetGradientStops, ID2D1GradientStopCollection::GetGradientStops, d2d1/ID2D1GradientStopCollection::GetGradientStops, direct2d.ID2D1GradientStopCollection_GetGradientStops
 ms.topic: method
-f1_keywords: 
- - "d2d1/ID2D1GradientStopCollection.GetGradientStops"
+f1_keywords:
+- d2d1/ID2D1GradientStopCollection.GetGradientStops
 dev_langs:
- - c++
+- c++
 req.header: d2d1.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: D2d1.lib
 req.dll: D2d1.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D2d1.dll
+- D2d1.dll
 api_name:
- - ID2D1GradientStopCollection.GetGradientStops
+- ID2D1GradientStopCollection.GetGradientStops
 targetos: Windows
 req.typenames: 
 req.redist: 

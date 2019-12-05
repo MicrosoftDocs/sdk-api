@@ -1,19 +1,17 @@
 ---
 UID: NN:iads.IADsFaxNumber
 title: IADsFaxNumber (iads.h)
-
 description: The IADsFaxNumber interface provides methods for an ADSI client to access the Facsimile Telephone Number attribute.
 old-location: adsi\iadsfaxnumber.htm
 tech.root: adsi
 ms.assetid: 1c78bb35-dfa9-40f0-b3a4-db4a1c212cf7
-
 ms.date: 12/05/2018
 ms.keywords: IADsFaxNumber, IADsFaxNumber interface [ADSI], IADsFaxNumber interface [ADSI],described, _ds_iadsfaxnumber, adsi.iadsfaxnumber, iads/IADsFaxNumber
 ms.topic: interface
-f1_keywords: 
- - "iads/IADsFaxNumber"
+f1_keywords:
+- iads/IADsFaxNumber
 dev_langs:
- - c++
+- c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Activeds.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Activeds.dll
+- Activeds.dll
 api_name:
- - IADsFaxNumber
+- IADsFaxNumber
 targetos: Windows
 req.typenames: 
 req.redist: 

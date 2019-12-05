@@ -1,19 +1,17 @@
 ---
 UID: NF:searchapi.ISearchQueryHelper.get_QueryKeywordLocale
 title: ISearchQueryHelper::get_QueryKeywordLocale (searchapi.h)
-
 description: Gets the language code identifier (LCID) for the locale to use when parsing Advanced Query Syntax (AQS) keywords.
 old-location: search\_search_ISearchQueryHelper_get_QueryKeywordLocale.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\isearchqueryhelper\get_querykeywordlocale.htm
-
 ms.date: 12/05/2018
 ms.keywords: ISearchQueryHelper interface [search],get_QueryKeywordLocale method, ISearchQueryHelper.get_QueryKeywordLocale, ISearchQueryHelper::get_QueryKeywordLocale, _search_ISearchQueryHelper_get_QueryKeywordLocale, get_QueryKeywordLocale, get_QueryKeywordLocale method [search], get_QueryKeywordLocale method [search],ISearchQueryHelper interface, search._search_ISearchQueryHelper_get_QueryKeywordLocale, searchapi/ISearchQueryHelper::get_QueryKeywordLocale
 ms.topic: method
-f1_keywords: 
- - "searchapi/ISearchQueryHelper.get_QueryKeywordLocale"
+f1_keywords:
+- searchapi/ISearchQueryHelper.get_QueryKeywordLocale
 dev_langs:
- - c++
+- c++
 req.header: searchapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Searchapi.h
+- Searchapi.h
 api_name:
- - ISearchQueryHelper.get_QueryKeywordLocale
+- ISearchQueryHelper.get_QueryKeywordLocale
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0

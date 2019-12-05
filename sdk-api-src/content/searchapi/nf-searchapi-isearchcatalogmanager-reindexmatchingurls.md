@@ -1,19 +1,17 @@
 ---
 UID: NF:searchapi.ISearchCatalogManager.ReindexMatchingURLs
 title: ISearchCatalogManager::ReindexMatchingURLs (searchapi.h)
-
 description: Reindexes all items that match the provided pattern. This method was not implemented prior to Windows 7.
 old-location: search\_search_ISearchCatalogManager_ReindexMatchingURLs.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\indexmanagement\isearchcatalogmanager\reindexmatchingurls.htm
-
 ms.date: 12/05/2018
 ms.keywords: ISearchCatalogManager interface [search],ReindexMatchingURLs method, ISearchCatalogManager.ReindexMatchingURLs, ISearchCatalogManager::ReindexMatchingURLs, ReindexMatchingURLs, ReindexMatchingURLs method [search], ReindexMatchingURLs method [search],ISearchCatalogManager interface, _search_ISearchCatalogManager_ReindexMatchingURLs, search._search_ISearchCatalogManager_ReindexMatchingURLs, searchapi/ISearchCatalogManager::ReindexMatchingURLs
 ms.topic: method
-f1_keywords: 
- - "searchapi/ISearchCatalogManager.ReindexMatchingURLs"
+f1_keywords:
+- searchapi/ISearchCatalogManager.ReindexMatchingURLs
 dev_langs:
- - c++
+- c++
 req.header: searchapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Searchapi.h
+- Searchapi.h
 api_name:
- - ISearchCatalogManager.ReindexMatchingURLs
+- ISearchCatalogManager.ReindexMatchingURLs
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0

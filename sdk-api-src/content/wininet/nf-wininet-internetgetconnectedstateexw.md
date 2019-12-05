@@ -1,19 +1,17 @@
 ---
 UID: NF:wininet.InternetGetConnectedStateExW
 title: InternetGetConnectedStateExW function (wininet.h)
-
 description: Note  Using this API is not recommended, use the INetworkListManager::GetConnectivity method instead. Retrieves the connected state of the specified Internet connection.
 old-location: wininet\internetgetconnectedstateex.htm
 tech.root: wininet
 ms.assetid: 0b27b86d-6e55-4022-84ce-d4116d71f124
-
 ms.date: 12/05/2018
 ms.keywords: INTERNET_CONNECTION_CONFIGURED, INTERNET_CONNECTION_LAN, INTERNET_CONNECTION_MODEM, INTERNET_CONNECTION_MODEM_BUSY, INTERNET_CONNECTION_OFFLINE, INTERNET_CONNECTION_PROXY, InternetGetConnectedStateEx, InternetGetConnectedStateEx function [WinINet], InternetGetConnectedStateExA, InternetGetConnectedStateExW, _inet_internetgetconnectedstateex_function, wininet.internetgetconnectedstateex, winineti/InternetGetConnectedStateEx, winineti/InternetGetConnectedStateExA, winineti/InternetGetConnectedStateExW
 ms.topic: function
-f1_keywords: 
- - "wininet/InternetGetConnectedStateEx"
+f1_keywords:
+- wininet/InternetGetConnectedStateEx
 dev_langs:
- - c++
+- c++
 req.header: wininet.h
 req.include-header: Wininet.h, Winineti.h, Wininet.h, Winineti.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Wininet.lib
 req.dll: Wininet.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Wininet.dll
+- Wininet.dll
 api_name:
- - InternetGetConnectedStateEx
- - InternetGetConnectedStateExA
- - InternetGetConnectedStateExW
+- InternetGetConnectedStateEx
+- InternetGetConnectedStateExA
+- InternetGetConnectedStateExW
 targetos: Windows
 req.typenames: 
 req.redist: 

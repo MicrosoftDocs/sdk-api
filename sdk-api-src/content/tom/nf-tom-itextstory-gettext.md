@@ -1,19 +1,17 @@
 ---
 UID: NF:tom.ITextStory.GetText
 title: ITextStory::GetText (tom.h)
-
 description: Gets the text in a story according to the specified conversion flags.
 old-location: controls\itextstory_gettext.htm
 tech.root: Controls
 ms.assetid: 8107910f-eb77-4313-97f5-1bd8126d6dec
-
 ms.date: 12/05/2018
 ms.keywords: GetText, GetText method [Windows Controls], GetText method [Windows Controls],ITextStory interface, ITextStory interface [Windows Controls],GetText method, ITextStory.GetText, ITextStory::GetText, controls.itextstory_gettext, tom/ITextStory::GetText, tomAdjustCRLF, tomAllowFinalEOP, tomFoldMathAlpha, tomIncludeNumbering, tomLanguageTag, tomNoHidden, tomNoMathZoneBrackets, tomTextize, tomTranslateTableCell, tomUseCRLF
 ms.topic: method
-f1_keywords: 
- - "tom/ITextStory.GetText"
+f1_keywords:
+- tom/ITextStory.GetText
 dev_langs:
- - c++
+- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - tom.h
+- tom.h
 api_name:
- - ITextStory.GetText
+- ITextStory.GetText
 targetos: Windows
 req.typenames: 
 req.redist: 

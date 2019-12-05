@@ -1,19 +1,17 @@
 ---
 UID: NF:keycredmgr.KeyCredentialManagerGetOperationErrorStates
 title: KeyCredentialManagerGetOperationErrorStates function (keycredmgr.h)
-
 description: Prerequisite API to call to determine if the operation will be successful prior.
 old-location: security\keycredentialmanagergetoperationerrorstates.htm
 tech.root: SecAuthN
 ms.assetid: 0E34340F-D886-4E69-9AF3-D9142E350173
-
 ms.date: 12/05/2018
 ms.keywords: KeyCredentialManagerGetOperationErrorStates, KeyCredentialManagerGetOperationErrorStates function [Security], keycredmgr/KeyCredentialManagerGetOperationErrorStates, security.keycredentialmanagergetoperationerrorstates
 ms.topic: function
-f1_keywords: 
- - "keycredmgr/KeyCredentialManagerGetOperationErrorStates"
+f1_keywords:
+- keycredmgr/KeyCredentialManagerGetOperationErrorStates
 dev_langs:
- - c++
+- c++
 req.header: keycredmgr.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Keycredmgr.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - LibDef
+- LibDef
 api_location:
- - keycredmgr.lib
- - keycredmgr.dll
+- keycredmgr.lib
+- keycredmgr.dll
 api_name:
- - KeyCredentialManagerGetOperationErrorStates
+- KeyCredentialManagerGetOperationErrorStates
 targetos: Windows
 req.typenames: 
 req.redist: 

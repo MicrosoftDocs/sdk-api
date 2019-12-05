@@ -1,19 +1,17 @@
 ---
 UID: NF:wbemtime.WBEMTime.SetDMTF
 title: WBEMTime::SetDMTF (wbemtime.h)
-
 description: The SetDMTF method sets the time in the WBEMTime object. The time is given by its BSTR parameter in Date and Time Format. A date and time argument earlier than midnight January 1, 1601 is not valid.
 old-location: wmi\wbemtime_setdmtf.htm
 tech.root: WmiSdk
 ms.assetid: 5a2ed11d-34d8-44b1-a8ce-e8aa7c96c730
-
 ms.date: 12/05/2018
-ms.keywords: "?SetDMTF@WBEMTime@@QAEHQAG@Z, SetDMTF, SetDMTF method [Windows Management Instrumentation], SetDMTF method [Windows Management Instrumentation],WBEMTime interface, WBEMTime interface [Windows Management Instrumentation],SetDMTF method, WBEMTime.SetDMTF, WBEMTime::SetDMTF, _hmm_wbemtime_setdmtf, wbemtime/WBEMTime::SetDMTF, wmi.wbemtime_setdmtf"
+ms.keywords: ?SetDMTF@WBEMTime@@QAEHQAG@Z, SetDMTF, SetDMTF method [Windows Management Instrumentation], SetDMTF method [Windows Management Instrumentation],WBEMTime interface, WBEMTime interface [Windows Management Instrumentation],SetDMTF method, WBEMTime.SetDMTF, WBEMTime::SetDMTF, _hmm_wbemtime_setdmtf, wbemtime/WBEMTime::SetDMTF, wmi.wbemtime_setdmtf
 ms.topic: method
-f1_keywords: 
- - "wbemtime/WBEMTime.SetDMTF"
+f1_keywords:
+- wbemtime/WBEMTime.SetDMTF
 dev_langs:
- - c++
+- c++
 req.header: wbemtime.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: FrameDynOS.dll; FrameDyn.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - FrameDynOS.dll
- - FrameDyn.dll
+- FrameDynOS.dll
+- FrameDyn.dll
 api_name:
- - WBEMTime.SetDMTF
- - ?SetDMTF@WBEMTime@@QAEHQAG@Z
+- WBEMTime.SetDMTF
+- ?SetDMTF@WBEMTime@@QAEHQAG@Z
 targetos: Windows
 req.typenames: 
 req.redist: 

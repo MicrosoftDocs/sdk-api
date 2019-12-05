@@ -1,19 +1,17 @@
 ---
 UID: NS:wsdtypes._WSD_EVENTING_FILTER
 title: WSD_EVENTING_FILTER (wsdtypes.h)
-
 description: Represents an event filter used in WS-Eventing Subscribe messages.
 old-location: ncd\wsd_eventing_filter.htm
 tech.root: WsdApi
 ms.assetid: e702aca8-9784-4e51-988b-f4311573c700
-
 ms.date: 12/05/2018
 ms.keywords: WSD_EVENTING_FILTER, WSD_EVENTING_FILTER structure, http://schemas.xmlsoap.org/ws/2006/02/devprof/Action, ncd.wsd_eventing_filter, wsdtypes/WSD_EVENTING_FILTER
 ms.topic: struct
-f1_keywords: 
- - "wsdtypes/WSD_EVENTING_FILTER"
+f1_keywords:
+- wsdtypes/WSD_EVENTING_FILTER
 dev_langs:
- - c++
+- c++
 req.header: wsdtypes.h
 req.include-header: Wsdapi.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WsdTypes.h
+- WsdTypes.h
 api_name:
- - WSD_EVENTING_FILTER
+- WSD_EVENTING_FILTER
 targetos: Windows
 req.typenames: WSD_EVENTING_FILTER
 req.redist: 

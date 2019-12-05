@@ -1,19 +1,17 @@
 ---
 UID: NN:cscobj.IEnumOfflineFilesItems
 title: IEnumOfflineFilesItems (cscobj.h)
-
 description: Represents a collection of IOfflineFilesItem interface pointers.
 old-location: of\ienumofflinefilesitems.htm
 tech.root: offlinefiles
 ms.assetid: 9bb1fa14-74d2-4c6f-b8ba-47c6e78d7a4f
-
 ms.date: 12/05/2018
 ms.keywords: IEnumOfflineFilesItems, IEnumOfflineFilesItems interface [Offline Files], IEnumOfflineFilesItems interface [Offline Files],described, cscobj/IEnumOfflineFilesItems, of.ienumofflinefilesitems
 ms.topic: interface
-f1_keywords: 
- - "cscobj/IEnumOfflineFilesItems"
+f1_keywords:
+- cscobj/IEnumOfflineFilesItems
 dev_langs:
- - c++
+- c++
 req.header: cscobj.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: CscSvc.dll; CscObj.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CscSvc.dll
- - CscObj.dll
+- CscSvc.dll
+- CscObj.dll
 api_name:
- - IEnumOfflineFilesItems
+- IEnumOfflineFilesItems
 targetos: Windows
 req.typenames: 
 req.redist: 

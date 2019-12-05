@@ -1,19 +1,17 @@
 ---
 UID: NF:lmaccess.NetUserChangePassword
 title: NetUserChangePassword function (lmaccess.h)
-
 description: The NetUserChangePassword function changes a user's password for a specified network server or domain.
 old-location: netmgmt\netuserchangepassword.htm
 tech.root: NetMgmt
 ms.assetid: e3791756-3bd4-490b-983a-9687373d846b
-
 ms.date: 12/05/2018
 ms.keywords: NetUserChangePassword, NetUserChangePassword function [Network Management], _win32_netuserchangepassword, lmaccess/NetUserChangePassword, netmgmt.netuserchangepassword
 ms.topic: function
-f1_keywords: 
- - "lmaccess/NetUserChangePassword"
+f1_keywords:
+- lmaccess/NetUserChangePassword
 dev_langs:
- - c++
+- c++
 req.header: lmaccess.h
 req.include-header: Lm.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Netapi32.lib
 req.dll: Netapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Netapi32.dll
+- Netapi32.dll
 api_name:
- - NetUserChangePassword
+- NetUserChangePassword
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:winuser.GetUpdateRect
 title: GetUpdateRect function (winuser.h)
-
 description: The GetUpdateRect function retrieves the coordinates of the smallest rectangle that completely encloses the update region of the specified window.
 old-location: gdi\getupdaterect.htm
 tech.root: gdi
 ms.assetid: e54483a1-8738-4b22-a24e-c0b31f6ca9d6
-
 ms.date: 12/05/2018
 ms.keywords: GetUpdateRect, GetUpdateRect function [Windows GDI], _win32_GetUpdateRect, gdi.getupdaterect, winuser/GetUpdateRect
 ms.topic: function
-f1_keywords: 
- - "winuser/GetUpdateRect"
+f1_keywords:
+- winuser/GetUpdateRect
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - user32.dll
- - Ext-MS-Win-NTUser-Draw-l1-1-0.dll
- - Ext-MS-Win-NTUser-Draw-l1-1-1.dll
- - ext-ms-win-ntuser-draw-l1-1-2.dll
+- user32.dll
+- Ext-MS-Win-NTUser-Draw-l1-1-0.dll
+- Ext-MS-Win-NTUser-Draw-l1-1-1.dll
+- ext-ms-win-ntuser-draw-l1-1-2.dll
 api_name:
- - GetUpdateRect
+- GetUpdateRect
 targetos: Windows
 req.typenames: 
 req.redist: 

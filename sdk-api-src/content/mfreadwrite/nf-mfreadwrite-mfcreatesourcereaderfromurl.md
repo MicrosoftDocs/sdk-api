@@ -1,19 +1,17 @@
 ---
 UID: NF:mfreadwrite.MFCreateSourceReaderFromURL
 title: MFCreateSourceReaderFromURL function (mfreadwrite.h)
-
 description: Creates the source reader from a URL.
 old-location: mf\mfcreatesourcereaderfromurl.htm
 tech.root: medfound
 ms.assetid: 060b4ab3-9a9f-4c90-a8c5-9c6d81877e2f
-
 ms.date: 12/05/2018
 ms.keywords: MFCreateSourceReaderFromURL, MFCreateSourceReaderFromURL function [Media Foundation], mf.mfcreatesourcereaderfromurl, mfreadwrite/MFCreateSourceReaderFromURL
 ms.topic: function
-f1_keywords: 
- - "mfreadwrite/MFCreateSourceReaderFromURL"
+f1_keywords:
+- mfreadwrite/MFCreateSourceReaderFromURL
 dev_langs:
- - c++
+- c++
 req.header: mfreadwrite.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Mfreadwrite.lib
 req.dll: Mfreadwrite.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - mfreadwrite.dll
+- mfreadwrite.dll
 api_name:
- - MFCreateSourceReaderFromURL
+- MFCreateSourceReaderFromURL
 targetos: Windows
 req.typenames: 
 req.redist: 

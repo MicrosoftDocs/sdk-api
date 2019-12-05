@@ -1,19 +1,17 @@
 ---
 UID: NF:rpcdce.RpcBindingInqAuthInfoW
 title: RpcBindingInqAuthInfoW function (rpcdce.h)
-
 description: The RpcBindingInqAuthInfo function returns authentication and authorization information from a binding handle.
 old-location: rpc\rpcbindinginqauthinfo.htm
 tech.root: Rpc
 ms.assetid: becb2c58-bfc7-47a7-ad2f-947ecf7bba2b
-
 ms.date: 12/05/2018
 ms.keywords: RpcBindingInqAuthInfo, RpcBindingInqAuthInfo function [RPC], RpcBindingInqAuthInfoA, RpcBindingInqAuthInfoW, _rpc_rpcbindinginqauthinfo, rpc.rpcbindinginqauthinfo, rpcdce/RpcBindingInqAuthInfo, rpcdce/RpcBindingInqAuthInfoA, rpcdce/RpcBindingInqAuthInfoW
 ms.topic: function
-f1_keywords: 
- - "rpcdce/RpcBindingInqAuthInfo"
+f1_keywords:
+- rpcdce/RpcBindingInqAuthInfo
 dev_langs:
- - c++
+- c++
 req.header: rpcdce.h
 req.include-header: Rpc.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Rpcrt4.lib
 req.dll: Rpcrt4.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Rpcrt4.dll
+- Rpcrt4.dll
 api_name:
- - RpcBindingInqAuthInfo
- - RpcBindingInqAuthInfoA
- - RpcBindingInqAuthInfoW
+- RpcBindingInqAuthInfo
+- RpcBindingInqAuthInfoA
+- RpcBindingInqAuthInfoW
 targetos: Windows
 req.typenames: 
 req.redist: 

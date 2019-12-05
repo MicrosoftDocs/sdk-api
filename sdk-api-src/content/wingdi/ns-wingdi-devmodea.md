@@ -1,19 +1,17 @@
 ---
 UID: NS:wingdi._devicemodeA
 title: DEVMODEA (wingdi.h)
-
 description: The DEVMODE data structure contains information about the initialization and environment of a printer or a display device.
 old-location: gdi\devmode.htm
 tech.root: printdocs
 ms.assetid: 85741025-9393-42ab-8a6d-27f1ae2c0f1b
-
 ms.date: 12/05/2018
-ms.keywords: "*LPDEVMODEA, *NPDEVMODEA, *PDEVMODEA, DEVMODE, DEVMODE structure [Windows GDI], DEVMODEA, DMBIN_AUTO, DMBIN_CASSETTE, DMBIN_ENVELOPE, DMBIN_ENVMANUAL, DMBIN_FIRST, DMBIN_FORMSOURCE, DMBIN_LARGECAPACITY, DMBIN_LARGEFMT, DMBIN_LAST, DMBIN_LOWER, DMBIN_MANUAL, DMBIN_MIDDLE, DMBIN_ONLYONE, DMBIN_SMALLFMT, DMBIN_TRACTOR, DMBIN_UPPER, DMRES_DRAFT, DMRES_HIGH, DMRES_LOW, DMRES_MEDIUM, LPDEVMODE, LPDEVMODE structure pointer [Windows GDI], PDEVMODE, PDEVMODE structure pointer [Windows GDI], _DEVMODEA, _DEVMODEW, _win32_DEVMODE_str, gdi.devmode, wingdi/DEVMODE, wingdi/LPDEVMODE, wingdi/PDEVMODE, wingdi/_DEVMODEA, wingdi/_DEVMODEW"
+ms.keywords: '*LPDEVMODEA, *NPDEVMODEA, *PDEVMODEA, DEVMODE, DEVMODE structure [Windows GDI], DEVMODEA, DMBIN_AUTO, DMBIN_CASSETTE, DMBIN_ENVELOPE, DMBIN_ENVMANUAL, DMBIN_FIRST, DMBIN_FORMSOURCE, DMBIN_LARGECAPACITY, DMBIN_LARGEFMT, DMBIN_LAST, DMBIN_LOWER, DMBIN_MANUAL, DMBIN_MIDDLE, DMBIN_ONLYONE, DMBIN_SMALLFMT, DMBIN_TRACTOR, DMBIN_UPPER, DMRES_DRAFT, DMRES_HIGH, DMRES_LOW, DMRES_MEDIUM, LPDEVMODE, LPDEVMODE structure pointer [Windows GDI], PDEVMODE, PDEVMODE structure pointer [Windows GDI], _DEVMODEA, _DEVMODEW, _win32_DEVMODE_str, gdi.devmode, wingdi/DEVMODE, wingdi/LPDEVMODE, wingdi/PDEVMODE, wingdi/_DEVMODEA, wingdi/_DEVMODEW'
 ms.topic: struct
-f1_keywords: 
- - "wingdi/DEVMODE"
+f1_keywords:
+- wingdi/DEVMODE
 dev_langs:
- - c++
+- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -22,7 +20,7 @@ req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: "_DEVMODEW (Unicode) and _DEVMODEA (ANSI)"
+req.unicode-ansi: _DEVMODEW (Unicode) and _DEVMODEA (ANSI)
 req.idl: 
 req.max-support: 
 req.namespace: 
@@ -32,16 +30,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wingdi.h
+- Wingdi.h
 api_name:
- - DEVMODE
- - _DEVMODEA
- - _DEVMODEW
+- DEVMODE
+- _DEVMODEA
+- _DEVMODEW
 targetos: Windows
 req.typenames: DEVMODEA, *PDEVMODEA, *NPDEVMODEA, *LPDEVMODEA
 req.redist: 

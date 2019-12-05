@@ -1,19 +1,17 @@
 ---
 UID: NF:sbe.IStreamBufferConfigure2.SetFFTransitionRates
 title: IStreamBufferConfigure2::SetFFTransitionRates (sbe.h)
-
 description: The SetFFTransitionRates method sets the behavior of fast-forward play (&#0034;trick mode&#0034;) in the Stream Buffer Engine.
 old-location: mstv\istreambufferconfigure2_setfftransitionrates.htm
 tech.root: mstv
 ms.assetid: c6e7b27a-b217-4430-adf7-c7ebc7e17bf6
-
 ms.date: 12/05/2018
 ms.keywords: IStreamBufferConfigure2 interface [Microsoft TV Technologies],SetFFTransitionRates method, IStreamBufferConfigure2.SetFFTransitionRates, IStreamBufferConfigure2::SetFFTransitionRates, IStreamBufferConfigure2SetFFTransitionRates, SetFFTransitionRates, SetFFTransitionRates method [Microsoft TV Technologies], SetFFTransitionRates method [Microsoft TV Technologies],IStreamBufferConfigure2 interface, mstv.istreambufferconfigure2_setfftransitionrates, sbe/IStreamBufferConfigure2::SetFFTransitionRates
 ms.topic: method
-f1_keywords: 
- - "sbe/IStreamBufferConfigure2.SetFFTransitionRates"
+f1_keywords:
+- sbe/IStreamBufferConfigure2.SetFFTransitionRates
 dev_langs:
- - c++
+- c++
 req.header: sbe.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Sbe.h
+- Sbe.h
 api_name:
- - IStreamBufferConfigure2.SetFFTransitionRates
+- IStreamBufferConfigure2.SetFFTransitionRates
 targetos: Windows
 req.typenames: 
 req.redist: 

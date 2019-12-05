@@ -1,19 +1,17 @@
 ---
 UID: NF:wincodec.IWICDevelopRaw.GetGamma
 title: IWICDevelopRaw::GetGamma (wincodec.h)
-
 description: Gets the current gamma setting of the raw image.
 old-location: wic\_wic_codec_iwicdevelopraw_getgamma.htm
 tech.root: wic
 ms.assetid: d76fc2dc-9bcc-4d7b-93fd-82a9647e7b6f
-
 ms.date: 12/05/2018
 ms.keywords: GetGamma, GetGamma method [Windows Imaging Component], GetGamma method [Windows Imaging Component],IWICDevelopRaw interface, IWICDevelopRaw interface [Windows Imaging Component],GetGamma method, IWICDevelopRaw.GetGamma, IWICDevelopRaw::GetGamma, _wic_codec_iwicdevelopraw_getgamma, wic._wic_codec_iwicdevelopraw_getgamma, wincodec/IWICDevelopRaw::GetGamma
 ms.topic: method
-f1_keywords: 
- - "wincodec/IWICDevelopRaw.GetGamma"
+f1_keywords:
+- wincodec/IWICDevelopRaw.GetGamma
 dev_langs:
- - c++
+- c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Windowscodecs.lib
 req.dll: Windowscodecs.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Windowscodecs.dll
+- Windowscodecs.dll
 api_name:
- - IWICDevelopRaw.GetGamma
+- IWICDevelopRaw.GetGamma
 targetos: Windows
 req.typenames: 
 req.redist: 

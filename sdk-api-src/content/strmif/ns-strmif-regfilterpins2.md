@@ -1,19 +1,17 @@
 ---
 UID: NS:strmif.REGFILTERPINS2
 title: REGFILTERPINS2 (strmif.h)
-
 description: The REGFILTERPINS2 structure contains information for registering a filter through the IFilterMapper2 interface.
 old-location: dshow\regfilterpins2.htm
 tech.root: DirectShow
 ms.assetid: a78327f1-a0aa-4e25-b6f8-cf45b92191fa
-
 ms.date: 12/05/2018
 ms.keywords: REGFILTERPINS2, REGFILTERPINS2 structure [DirectShow], REGFILTERPINS2Structure, dshow.regfilterpins2, strmif/REGFILTERPINS2
 ms.topic: struct
-f1_keywords: 
- - "strmif/REGFILTERPINS2"
+f1_keywords:
+- strmif/REGFILTERPINS2
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - strmif.h
+- strmif.h
 api_name:
- - REGFILTERPINS2
+- REGFILTERPINS2
 targetos: Windows
 req.typenames: REGFILTERPINS2
 req.redist: 

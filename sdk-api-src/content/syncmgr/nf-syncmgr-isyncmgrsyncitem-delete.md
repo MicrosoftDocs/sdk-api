@@ -1,19 +1,17 @@
 ---
 UID: NF:syncmgr.ISyncMgrSyncItem.Delete
 title: ISyncMgrSyncItem::Delete (syncmgr.h)
-
 description: Deletes a sync item.
 old-location: shell\ISyncMgrSyncItem_Delete.htm
 tech.root: shell
 ms.assetid: 403c01fe-928d-4b9b-a087-6cc68d1aa90a
-
 ms.date: 12/05/2018
 ms.keywords: Delete, Delete method [Windows Shell], Delete method [Windows Shell],ISyncMgrSyncItem interface, ISyncMgrSyncItem interface [Windows Shell],Delete method, ISyncMgrSyncItem.Delete, ISyncMgrSyncItem::Delete, _shell_ISyncMgrSyncItem_Delete, shell.ISyncMgrSyncItem_Delete, syncmgr/ISyncMgrSyncItem::Delete
 ms.topic: method
-f1_keywords: 
- - "syncmgr/ISyncMgrSyncItem.Delete"
+f1_keywords:
+- syncmgr/ISyncMgrSyncItem.Delete
 dev_langs:
- - c++
+- c++
 req.header: syncmgr.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Syncmgr.h
+- Syncmgr.h
 api_name:
- - ISyncMgrSyncItem.Delete
+- ISyncMgrSyncItem.Delete
 targetos: Windows
 req.typenames: 
 req.redist: 

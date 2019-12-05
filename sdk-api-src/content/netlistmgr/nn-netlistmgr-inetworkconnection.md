@@ -1,19 +1,17 @@
 ---
 UID: NN:netlistmgr.INetworkConnection
 title: INetworkConnection (netlistmgr.h)
-
 description: The INetworkConnection interface represents a single network connection.
 old-location: nla\inetworkconnection.htm
 tech.root: nla
 ms.assetid: 666761b5-0146-438d-9986-ecce3b45b5ff
-
 ms.date: 12/05/2018
 ms.keywords: INetworkConnection, INetworkConnection interface [Network Awareness], INetworkConnection interface [Network Awareness],described, netlistmgr/INetworkConnection, nla.inetworkconnection
 ms.topic: interface
-f1_keywords: 
- - "netlistmgr/INetworkConnection"
+f1_keywords:
+- netlistmgr/INetworkConnection
 dev_langs:
- - c++
+- c++
 req.header: netlistmgr.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Netlistmgr.h
+- Netlistmgr.h
 api_name:
- - INetworkConnection
+- INetworkConnection
 targetos: Windows
 req.typenames: 
 req.redist: 

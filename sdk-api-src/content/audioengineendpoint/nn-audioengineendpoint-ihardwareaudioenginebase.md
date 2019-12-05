@@ -1,19 +1,17 @@
 ---
 UID: NN:audioengineendpoint.IHardwareAudioEngineBase
 title: IHardwareAudioEngineBase (audioengineendpoint.h)
-
 description: The IHardwareAudioEngineBase interface is implemented by audio endpoints for the audio stack to use to configure and retrieve information about the hardware audio engine.
 old-location: coreaudio\ihardwareaudioenginebase.htm
 tech.root: CoreAudio
 ms.assetid: 6FB9BEDB-111B-4F0A-B8BB-B0BA2024EB24
-
 ms.date: 12/05/2018
 ms.keywords: IHardwareAudioEngineBase, IHardwareAudioEngineBase interface [Core Audio], IHardwareAudioEngineBase interface [Core Audio],described, audioengineendpoint/IHardwareAudioEngineBase, coreaudio.ihardwareaudioenginebase
 ms.topic: interface
-f1_keywords: 
- - "audioengineendpoint/IHardwareAudioEngineBase"
+f1_keywords:
+- audioengineendpoint/IHardwareAudioEngineBase
 dev_langs:
- - c++
+- c++
 req.header: audioengineendpoint.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Audioengineendpoint.h
+- Audioengineendpoint.h
 api_name:
- - IHardwareAudioEngineBase
+- IHardwareAudioEngineBase
 targetos: Windows
 req.typenames: 
 req.redist: 

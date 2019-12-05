@@ -1,19 +1,17 @@
 ---
 UID: NS:mi._MI_Qualifier
 title: MI_Qualifier (mi.h)
-
 description: Represents a CIM qualifier.
 old-location: wmi_v2\mi_qualifier.htm
 tech.root: wmi_v2
 ms.assetid: 4BEBE8AB-90D3-4BBA-A544-7722309160A1
-
 ms.date: 12/05/2018
 ms.keywords: MI_Qualifier, MI_Qualifier structure [Windows Management Infrastructure (MI)], mi/MI_Qualifier, wmi_v2.mi_qualifier
 ms.topic: struct
 f1_keywords:
 - mi/MI_Qualifier
 dev_langs:
- - c++
+- c++
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows

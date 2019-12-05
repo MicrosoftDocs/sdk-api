@@ -1,19 +1,17 @@
 ---
 UID: NN:cluadmex.IWCPropertySheetCallback
 title: IWCPropertySheetCallback (cluadmex.h)
-
 description: The IWCPropertySheetCallback interface is called by a Failover Cluster Administrator extension to add property pages to a Failover Cluster Administrator property sheet.
 old-location: mscs\iwcpropertysheetcallback.htm
 tech.root: MsCS
 ms.assetid: f90f9eb3-5568-4db1-8ff8-fda2d3bea952
-
 ms.date: 12/05/2018
 ms.keywords: IWCPropertySheetCallback, IWCPropertySheetCallback interface [Failover Cluster], IWCPropertySheetCallback interface [Failover Cluster],described, _wolf_iwcpropertysheetcallback, cluadmex/IWCPropertySheetCallback, mscs.iwcpropertysheetcallback
 ms.topic: interface
-f1_keywords: 
- - "cluadmex/IWCPropertySheetCallback"
+f1_keywords:
+- cluadmex/IWCPropertySheetCallback
 dev_langs:
- - c++
+- c++
 req.header: cluadmex.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - cluadmex.h
+- cluadmex.h
 api_name:
- - IWCPropertySheetCallback
+- IWCPropertySheetCallback
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:winbase.GetDllDirectoryW
 title: GetDllDirectoryW function (winbase.h)
-
 description: Retrieves the application-specific portion of the search path used to locate DLLs for the application.
 old-location: base\getdlldirectory.htm
 tech.root: Dlls
 ms.assetid: f892546a-6c48-48f2-8d9a-46e448fffb89
-
 ms.date: 12/05/2018
 ms.keywords: GetDllDirectory, GetDllDirectory function, GetDllDirectoryA, GetDllDirectoryW, base.getdlldirectory, winbase/GetDllDirectory, winbase/GetDllDirectoryA, winbase/GetDllDirectoryW
 ms.topic: function
-f1_keywords: 
- - "winbase/GetDllDirectory"
+f1_keywords:
+- winbase/GetDllDirectory
 dev_langs:
- - c++
+- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-Kernel32-Legacy-L1-1-5.dll
- - Kernel32Legacy.dll
+- Kernel32.dll
+- API-MS-Win-Core-Kernel32-Legacy-L1-1-5.dll
+- Kernel32Legacy.dll
 api_name:
- - GetDllDirectory
- - GetDllDirectoryA
- - GetDllDirectoryW
+- GetDllDirectory
+- GetDllDirectoryA
+- GetDllDirectoryW
 targetos: Windows
 req.typenames: 
 req.redist: 

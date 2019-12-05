@@ -1,19 +1,17 @@
 ---
 UID: NF:wsdutil.WSDFreeLinkedMemory
 title: WSDFreeLinkedMemory function (wsdutil.h)
-
 description: Frees a memory block previously allocated with WSDAllocateLinkedMemory.
 old-location: ncd\wsdfreelinkedmemory_func.htm
 tech.root: WsdApi
 ms.assetid: 8fe6f586-a262-4248-9650-dec0fae8cd74
-
 ms.date: 12/05/2018
 ms.keywords: WSDFreeLinkedMemory, WSDFreeLinkedMemory function, ncd.wsdfreelinkedmemory_func, wsdutil/WSDFreeLinkedMemory
 ms.topic: function
-f1_keywords: 
- - "wsdutil/WSDFreeLinkedMemory"
+f1_keywords:
+- wsdutil/WSDFreeLinkedMemory
 dev_langs:
- - c++
+- c++
 req.header: wsdutil.h
 req.include-header: Wsdapi.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Wsdapi.lib
 req.dll: Wsdapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Wsdapi.dll
+- Wsdapi.dll
 api_name:
- - WSDFreeLinkedMemory
+- WSDFreeLinkedMemory
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:cscobj.IOfflineFilesCache2.RenameItemEx
 title: IOfflineFilesCache2::RenameItemEx (cscobj.h)
-
 description: Renames an item in the cache. This method is identical to the IOfflineFilesCache::RenameItem method, except that it will attempt to do the rename operation right away.
 old-location: of\iofflinefilescache2_renameitemex.htm
 tech.root: offlinefiles
 ms.assetid: 766ABFE7-4417-47BA-ADF2-AA876C3A868A
-
 ms.date: 12/05/2018
 ms.keywords: IOfflineFilesCache2 interface [Offline Files],RenameItemEx method, IOfflineFilesCache2.RenameItemEx, IOfflineFilesCache2::RenameItemEx, RenameItemEx, RenameItemEx method [Offline Files], RenameItemEx method [Offline Files],IOfflineFilesCache2 interface, cscobj/IOfflineFilesCache2::RenameItemEx, of.iofflinefilescache2_renameitemex
 ms.topic: method
-f1_keywords: 
- - "cscobj/IOfflineFilesCache2.RenameItemEx"
+f1_keywords:
+- cscobj/IOfflineFilesCache2.RenameItemEx
 dev_langs:
- - c++
+- c++
 req.header: cscobj.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: CscSvc.dll; CscObj.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CscSvc.dll
- - CscObj.dll
+- CscSvc.dll
+- CscObj.dll
 api_name:
- - IOfflineFilesCache2.RenameItemEx
+- IOfflineFilesCache2.RenameItemEx
 targetos: Windows
 req.typenames: 
 req.redist: 

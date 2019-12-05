@@ -1,19 +1,17 @@
 ---
 UID: NF:usp10.ScriptCPtoX
 title: ScriptCPtoX function (usp10.h)
-
 description: Generates the x offset from the left end or leading edge of a run to either the leading or trailing edge of a logical character cluster.
 old-location: intl\scriptcptox.htm
 tech.root: Intl
 ms.assetid: 65a11b21-3f4b-463a-b347-a00add32380c
-
 ms.date: 12/05/2018
 ms.keywords: ScriptCPtoX, ScriptCPtoX function [Internationalization for Windows Applications], _win32_ScriptCPtoX, intl.scriptcptox, usp10/ScriptCPtoX
 ms.topic: function
-f1_keywords: 
- - "usp10/ScriptCPtoX"
+f1_keywords:
+- usp10/ScriptCPtoX
 dev_langs:
- - c++
+- c++
 req.header: usp10.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Usp10.lib
 req.dll: Usp10.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - usp10.dll
- - Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
- - GDI32.dll
- - GDI32Full.dll
+- usp10.dll
+- Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
+- GDI32.dll
+- GDI32Full.dll
 api_name:
- - ScriptCPtoX
+- ScriptCPtoX
 targetos: Windows
 req.typenames: 
 req.redist: Internet Explorer 5 or later on Windows Me/98/95

@@ -1,19 +1,17 @@
 ---
 UID: NF:xenroll.IEnroll2.put_HashAlgID
 title: IEnroll2::put_HashAlgID (xenroll.h)
-
-description: The HashAlgID property of IEnroll4 sets or retrieves the hash algorithm used when signing a PKCS #10 certificate request.
+description: The HashAlgID property of IEnroll4 sets or retrieves the hash algorithm used when signing a PKCS
 old-location: security\ienroll4_hashalgid.htm
 tech.root: SecCrypto
 ms.assetid: ebf4a7c7-4bd4-4a5f-8f32-bb30a6a8af0e
-
 ms.date: 12/05/2018
 ms.keywords: HashAlgID property [Security], HashAlgID property [Security],IEnroll2 interface, HashAlgID property [Security],IEnroll4 interface, IEnroll2 interface [Security],HashAlgID property, IEnroll2.HashAlgID, IEnroll2.put_HashAlgID, IEnroll2::HashAlgID, IEnroll2::get_HashAlgID, IEnroll2::put_HashAlgID, IEnroll4 interface [Security],HashAlgID property, IEnroll4.HashAlgID, IEnroll4::get_HashAlgID, IEnroll4::put_HashAlgID, get_HashAlgID, put_HashAlgID, security.ienroll4_hashalgid, xenroll/IEnroll2::HashAlgID, xenroll/IEnroll2::get_HashAlgID, xenroll/IEnroll2::put_HashAlgID, xenroll/IEnroll4::HashAlgID, xenroll/IEnroll4::get_HashAlgID, xenroll/IEnroll4::put_HashAlgID
 ms.topic: method
-f1_keywords: 
- - "xenroll/IEnroll2.HashAlgID"
+f1_keywords:
+- xenroll/IEnroll2.HashAlgID
 dev_langs:
- - c++
+- c++
 req.header: xenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,19 +30,19 @@ req.lib: Uuid.lib
 req.dll: Xenroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Xenroll.dll
+- Xenroll.dll
 api_name:
- - IEnroll2.HashAlgID
- - IEnroll2.get_HashAlgID
- - IEnroll2.put_HashAlgID
- - IEnroll4.HashAlgID
- - IEnroll4.get_HashAlgID
- - IEnroll4.put_HashAlgID
+- IEnroll2.HashAlgID
+- IEnroll2.get_HashAlgID
+- IEnroll2.put_HashAlgID
+- IEnroll4.HashAlgID
+- IEnroll4.get_HashAlgID
+- IEnroll4.put_HashAlgID
 targetos: Windows
 req.typenames: 
 req.redist: 

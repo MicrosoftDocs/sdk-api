@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d11.ID3D11DeviceContext.PSSetConstantBuffers
 title: ID3D11DeviceContext::PSSetConstantBuffers (d3d11.h)
-
 description: Sets the constant buffers used by the pixel shader pipeline stage.
 old-location: direct3d11\id3d11devicecontext_pssetconstantbuffers.htm
 tech.root: direct3d11
 ms.assetid: 03e5f255-3a5d-4c77-ad3b-5a188c9eb35b
-
 ms.date: 12/05/2018
 ms.keywords: 1d5ebba7-ca6f-9bb1-f5b2-4f1482759e6a, ID3D11DeviceContext interface [Direct3D 11],PSSetConstantBuffers method, ID3D11DeviceContext.PSSetConstantBuffers, ID3D11DeviceContext::PSSetConstantBuffers, PSSetConstantBuffers, PSSetConstantBuffers method [Direct3D 11], PSSetConstantBuffers method [Direct3D 11],ID3D11DeviceContext interface, d3d11/ID3D11DeviceContext::PSSetConstantBuffers, direct3d11.id3d11devicecontext_pssetconstantbuffers
 ms.topic: method
-f1_keywords: 
- - "d3d11/ID3D11DeviceContext.PSSetConstantBuffers"
+f1_keywords:
+- d3d11/ID3D11DeviceContext.PSSetConstantBuffers
 dev_langs:
- - c++
+- c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: D3D11.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D11.lib
- - D3D11.dll
+- D3D11.lib
+- D3D11.dll
 api_name:
- - ID3D11DeviceContext.PSSetConstantBuffers
+- ID3D11DeviceContext.PSSetConstantBuffers
 targetos: Windows
 req.typenames: 
 req.redist: 

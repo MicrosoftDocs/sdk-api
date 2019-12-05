@@ -1,19 +1,17 @@
 ---
 UID: NS:shlobj_core.__unnamed_struct_3
 title: EXP_SPECIAL_FOLDER (shlobj_core.h)
-
 description: Holds an extra data block used by IShellLinkDataList. It holds special folder information.
 old-location: shell\EXP_SPECIAL_FOLDER_str.htm
 tech.root: shell
 ms.assetid: e80fa582-8dd1-4924-a3ca-a2ee668653d3
-
 ms.date: 12/05/2018
-ms.keywords: "*LPEXP_SPECIAL_FOLDER, EXP_SPECIAL_FOLDER, EXP_SPECIAL_FOLDER structure [Windows Shell], LPEXP_SPECIAL_FOLDER, LPEXP_SPECIAL_FOLDER structure pointer [Windows Shell], _win32_EXP_SPECIAL_FOLDER_str, shell.EXP_SPECIAL_FOLDER_str, shlobj_core/EXP_SPECIAL_FOLDER, shlobj_core/LPEXP_SPECIAL_FOLDER"
+ms.keywords: '*LPEXP_SPECIAL_FOLDER, EXP_SPECIAL_FOLDER, EXP_SPECIAL_FOLDER structure [Windows Shell], LPEXP_SPECIAL_FOLDER, LPEXP_SPECIAL_FOLDER structure pointer [Windows Shell], _win32_EXP_SPECIAL_FOLDER_str, shell.EXP_SPECIAL_FOLDER_str, shlobj_core/EXP_SPECIAL_FOLDER, shlobj_core/LPEXP_SPECIAL_FOLDER'
 ms.topic: struct
-f1_keywords: 
- - "shlobj_core/EXP_SPECIAL_FOLDER"
+f1_keywords:
+- shlobj_core/EXP_SPECIAL_FOLDER
 dev_langs:
- - c++
+- c++
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - shlobj_core.h
+- shlobj_core.h
 api_name:
- - EXP_SPECIAL_FOLDER
+- EXP_SPECIAL_FOLDER
 targetos: Windows
 req.typenames: EXP_SPECIAL_FOLDER, *LPEXP_SPECIAL_FOLDER
 req.redist: 

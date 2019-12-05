@@ -1,19 +1,17 @@
 ---
 UID: NF:webservices.WsResetMetadata
 title: WsResetMetadata function (webservices.h)
-
 description: Resets a metadata object state to WS_METADATA_STATE_CREATED. In this state the Metadata object can be reused. WS_POLICY objects that were retrieved using the Metadata object will be released.
 old-location: wsw\wsresetmetadata.htm
 tech.root: wsw
 ms.assetid: 091a227a-62d4-4625-9e96-b03f96e2304a
-
 ms.date: 12/05/2018
 ms.keywords: WsResetMetadata, WsResetMetadata function [Web Services for Windows], webservices/WsResetMetadata, wsw.wsresetmetadata
 ms.topic: function
-f1_keywords: 
- - "webservices/WsResetMetadata"
+f1_keywords:
+- webservices/WsResetMetadata
 dev_langs:
- - c++
+- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: WebServices.lib
 req.dll: WebServices.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - WebServices.dll
+- WebServices.dll
 api_name:
- - WsResetMetadata
+- WsResetMetadata
 targetos: Windows
 req.typenames: 
 req.redist: 

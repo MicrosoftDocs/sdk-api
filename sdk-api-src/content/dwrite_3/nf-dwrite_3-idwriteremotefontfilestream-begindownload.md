@@ -1,19 +1,17 @@
 ---
 UID: NF:dwrite_3.IDWriteRemoteFontFileStream.BeginDownload
 title: IDWriteRemoteFontFileStream::BeginDownload (dwrite_3.h)
-
 description: Begins downloading all or part of the font file.
 old-location: directwrite\idwriteremotefontfilestream_begindownload.htm
 tech.root: DirectWrite
 ms.assetid: A0EE8383-81A8-4974-B213-142704EFA210
-
 ms.date: 12/05/2018
 ms.keywords: BeginDownload, BeginDownload method [Direct Write], BeginDownload method [Direct Write],IDWriteRemoteFontFileStream interface, IDWriteRemoteFontFileStream interface [Direct Write],BeginDownload method, IDWriteRemoteFontFileStream.BeginDownload, IDWriteRemoteFontFileStream::BeginDownload, directwrite.idwriteremotefontfilestream_begindownload, dwrite_3/IDWriteRemoteFontFileStream::BeginDownload
 ms.topic: method
-f1_keywords: 
- - "dwrite_3/IDWriteRemoteFontFileStream.BeginDownload"
+f1_keywords:
+- dwrite_3/IDWriteRemoteFontFileStream.BeginDownload
 dev_langs:
- - c++
+- c++
 req.header: dwrite_3.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Dwrite.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dwrite.lib
- - Dwrite.dll
+- Dwrite.lib
+- Dwrite.dll
 api_name:
- - IDWriteRemoteFontFileStream.BeginDownload
+- IDWriteRemoteFontFileStream.BeginDownload
 targetos: Windows
 req.typenames: 
 req.redist: 

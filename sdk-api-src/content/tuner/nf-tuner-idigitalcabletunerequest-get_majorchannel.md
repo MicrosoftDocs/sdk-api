@@ -1,19 +1,17 @@
 ---
 UID: NF:tuner.IDigitalCableTuneRequest.get_MajorChannel
 title: IDigitalCableTuneRequest::get_MajorChannel (tuner.h)
-
 description: The get_MajorChannel method retrieves the major channel number.
 old-location: mstv\idigitalcabletunerequest_get_majorchannel.htm
 tech.root: mstv
 ms.assetid: f8c59c66-1c86-4cfd-b295-ac1d1a75af17
-
 ms.date: 12/05/2018
 ms.keywords: IDigitalCableTuneRequest interface [Microsoft TV Technologies],get_MajorChannel method, IDigitalCableTuneRequest.get_MajorChannel, IDigitalCableTuneRequest::get_MajorChannel, IDigitalCableTuneRequestget_MajorChannel, get_MajorChannel, get_MajorChannel method [Microsoft TV Technologies], get_MajorChannel method [Microsoft TV Technologies],IDigitalCableTuneRequest interface, mstv.idigitalcabletunerequest_get_majorchannel, tuner/IDigitalCableTuneRequest::get_MajorChannel
 ms.topic: method
-f1_keywords: 
- - "tuner/IDigitalCableTuneRequest.get_MajorChannel"
+f1_keywords:
+- tuner/IDigitalCableTuneRequest.get_MajorChannel
 dev_langs:
- - c++
+- c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - tuner.h
+- tuner.h
 api_name:
- - IDigitalCableTuneRequest.get_MajorChannel
+- IDigitalCableTuneRequest.get_MajorChannel
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:cscobj.IOfflineFilesItem.GetParentItem
 title: IOfflineFilesItem::GetParentItem (cscobj.h)
-
 description: Retrieves the IOfflineFilesItem interface for the parent of the item.
 old-location: of\iofflinefilesitem_getparentitem.htm
 tech.root: offlinefiles
 ms.assetid: 4fa89807-cd0c-4868-bd65-a8a0a42dff7d
-
 ms.date: 12/05/2018
 ms.keywords: GetParentItem, GetParentItem method [Offline Files], GetParentItem method [Offline Files],IOfflineFilesItem interface, IOfflineFilesItem interface [Offline Files],GetParentItem method, IOfflineFilesItem.GetParentItem, IOfflineFilesItem::GetParentItem, cscobj/IOfflineFilesItem::GetParentItem, of.iofflinefilesitem_getparentitem
 ms.topic: method
-f1_keywords: 
- - "cscobj/IOfflineFilesItem.GetParentItem"
+f1_keywords:
+- cscobj/IOfflineFilesItem.GetParentItem
 dev_langs:
- - c++
+- c++
 req.header: cscobj.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: CscSvc.dll; CscObj.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CscSvc.dll
- - CscObj.dll
+- CscSvc.dll
+- CscObj.dll
 api_name:
- - IOfflineFilesItem.GetParentItem
+- IOfflineFilesItem.GetParentItem
 targetos: Windows
 req.typenames: 
 req.redist: 

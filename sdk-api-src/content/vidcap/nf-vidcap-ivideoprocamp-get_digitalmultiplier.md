@@ -1,19 +1,17 @@
 ---
 UID: NF:vidcap.IVideoProcAmp.get_DigitalMultiplier
 title: IVideoProcAmp::get_DigitalMultiplier (vidcap.h)
-
 description: The get_DigitalMultiplier method returns the camera's digital zoom level.
 old-location: dshow\ivideoprocamp_get_digitalmultiplier.htm
 tech.root: DirectShow
 ms.assetid: 0b7ab1a3-193c-4682-af35-ae0cc5f28f45
-
 ms.date: 12/05/2018
 ms.keywords: IVideoProcAmp interface [DirectShow],get_DigitalMultiplier method, IVideoProcAmp.get_DigitalMultiplier, IVideoProcAmp::get_DigitalMultiplier, IVideoProcAmpget_DigitalMultiplier, dshow.ivideoprocamp_get_digitalmultiplier, get_DigitalMultiplier, get_DigitalMultiplier method [DirectShow], get_DigitalMultiplier method [DirectShow],IVideoProcAmp interface, vidcap/IVideoProcAmp::get_DigitalMultiplier
 ms.topic: method
-f1_keywords: 
- - "vidcap/IVideoProcAmp.get_DigitalMultiplier"
+f1_keywords:
+- vidcap/IVideoProcAmp.get_DigitalMultiplier
 dev_langs:
- - c++
+- c++
 req.header: vidcap.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Vidcap.h
+- Vidcap.h
 api_name:
- - IVideoProcAmp.get_DigitalMultiplier
+- IVideoProcAmp.get_DigitalMultiplier
 targetos: Windows
 req.typenames: 
 req.redist: 

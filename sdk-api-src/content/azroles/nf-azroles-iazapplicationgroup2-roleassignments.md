@@ -1,19 +1,17 @@
 ---
 UID: NF:azroles.IAzApplicationGroup2.RoleAssignments
 title: IAzApplicationGroup2::RoleAssignments (azroles.h)
-
 description: Gets a collection of IAzRoleAssignment objects associated with this application group.
 old-location: security\iazapplicationgroup2_roleassignments_method.htm
 tech.root: SecAuthZ
 ms.assetid: 4996fb10-7b46-48e4-8028-a24ae4072bec
-
 ms.date: 12/05/2018
 ms.keywords: IAzApplicationGroup2 interface [Security],RoleAssignments property, IAzApplicationGroup2.RoleAssignments, IAzApplicationGroup2::RoleAssignments, IAzApplicationGroup2::get_RoleAssignments, RoleAssignments, RoleAssignments property [Security], RoleAssignments property [Security],IAzApplicationGroup2 interface, azroles/IAzApplicationGroup2::RoleAssignments, azroles/IAzApplicationGroup2::get_RoleAssignments, security.iazapplicationgroup2_roleassignments_method
 ms.topic: method
-f1_keywords: 
- - "azroles/IAzApplicationGroup2.RoleAssignments"
+f1_keywords:
+- azroles/IAzApplicationGroup2.RoleAssignments
 dev_langs:
- - c++
+- c++
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Azroles.h
+- Azroles.h
 api_name:
- - IAzApplicationGroup2.RoleAssignments
- - IAzApplicationGroup2.get_RoleAssignments
+- IAzApplicationGroup2.RoleAssignments
+- IAzApplicationGroup2.get_RoleAssignments
 targetos: Windows
 req.typenames: 
 req.redist: 

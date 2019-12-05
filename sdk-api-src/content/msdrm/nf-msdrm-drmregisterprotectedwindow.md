@@ -1,19 +1,17 @@
 ---
 UID: NF:msdrm.DRMRegisterProtectedWindow
 title: DRMRegisterProtectedWindow function (msdrm.h)
-
 description: Registers a window in the protected environment.
 old-location: rm\drmregisterprotectedwindow.htm
 tech.root: AdRms_Sdk
 ms.assetid: 4801ea8b-4437-4c2b-bec0-60aefaaa1251
-
 ms.date: 12/05/2018
 ms.keywords: DRMRegisterProtectedWindow, DRMRegisterProtectedWindow function [Active Directory Rights Management Services SDK 1.0], msdrm/DRMRegisterProtectedWindow, rm.drmregisterprotectedwindow
 ms.topic: function
-f1_keywords: 
- - "msdrm/DRMRegisterProtectedWindow"
+f1_keywords:
+- msdrm/DRMRegisterProtectedWindow
 dev_langs:
- - c++
+- c++
 req.header: msdrm.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Msdrm.lib
 req.dll: Msdrm.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Msdrm.dll
+- Msdrm.dll
 api_name:
- - DRMRegisterProtectedWindow
+- DRMRegisterProtectedWindow
 targetos: Windows
 req.typenames: 
 req.redist: 

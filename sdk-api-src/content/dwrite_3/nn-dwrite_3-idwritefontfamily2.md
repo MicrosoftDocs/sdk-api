@@ -2,16 +2,14 @@
 UID: NN:dwrite_3.IDWriteFontFamily2
 title: IDWriteFontFamily2
 description: Represents a family of related fonts. **IDWriteFontFamily2** adds new facilities, including retrieving fonts by font axis values.
-
 tech.root: DirectWrite
-
 ms.date: 09/13/2019
 ms.keywords: IDWriteFontFamily2, IDWriteFontFamily2 interface [Direct Write], IDWriteFontFamily2 interface [Direct Write],described, directwrite.idwritefontfamily2, dwrite_3/IDWriteFontFamily2
 ms.topic: interface
 f1_keywords:
- - IDWriteFontFamily2
+- IDWriteFontFamily2
 dev_langs:
- - c++
+- c++
 targetos: Windows
 req.assembly: 
 req.construct-type: iface
@@ -28,15 +26,15 @@ req.target-min-winversvr:
 req.target-type: Windows
 req.unicode-ansi: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dwrite.lib
- - Dwrite.dll
+- Dwrite.lib
+- Dwrite.dll
 api_name:
- - IDWriteFontFamily2
+- IDWriteFontFamily2
 ---
 
 ## -description

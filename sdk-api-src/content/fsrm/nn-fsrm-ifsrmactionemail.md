@@ -1,19 +1,17 @@
 ---
 UID: NN:fsrm.IFsrmActionEmail
 title: IFsrmActionEmail (fsrm.h)
-
 description: Used to send an email message in response to a quota or file screen event.
 old-location: fsrm\ifsrmactionemail.htm
 tech.root: fsrm
 ms.assetid: 6eb6d82e-018d-4977-ad60-fce296c16e83
-
 ms.date: 12/05/2018
 ms.keywords: IFsrmActionEmail, IFsrmActionEmail interface [File Server Resource Manager], IFsrmActionEmail interface [File Server Resource Manager],described, fs.ifsrmactionemail, fsrm.ifsrmactionemail, fsrm/IFsrmActionEmail
 ms.topic: interface
-f1_keywords: 
- - "fsrm/IFsrmActionEmail"
+f1_keywords:
+- fsrm/IFsrmActionEmail
 dev_langs:
- - c++
+- c++
 req.header: fsrm.h
 req.include-header: FsrmPipeline.h, FsrmQuota.h, FsrmReports.h, FsrmScreen.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: SrmSvc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - SrmSvc.dll
+- SrmSvc.dll
 api_name:
- - IFsrmActionEmail
+- IFsrmActionEmail
 targetos: Windows
 req.typenames: 
 req.redist: 

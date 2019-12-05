@@ -1,19 +1,17 @@
 ---
 UID: NN:uiautomationcore.IRawElementProviderHwndOverride
 title: IRawElementProviderHwndOverride (uiautomationcore.h)
-
 description: Exposes a method that enables repositioning of window-based elements within the fragment's UI Automation tree.
 old-location: winauto\uiauto_IRawElementProviderHwndOverride.htm
 tech.root: WinAuto
 ms.assetid: c2aa8f29-afec-474f-8ee5-55285f06ddff
-
 ms.date: 12/05/2018
 ms.keywords: IRawElementProviderHwndOverride, IRawElementProviderHwndOverride interface [Windows Accessibility], IRawElementProviderHwndOverride interface [Windows Accessibility],described, uiauto.uiauto_IRawElementProviderHwndOverride, uiauto_IRawElementProviderHwndOverride, uiautomationcore/IRawElementProviderHwndOverride, winauto.uiauto_IRawElementProviderHwndOverride
 ms.topic: interface
-f1_keywords: 
- - "uiautomationcore/IRawElementProviderHwndOverride"
+f1_keywords:
+- uiautomationcore/IRawElementProviderHwndOverride
 dev_langs:
- - c++
+- c++
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: UIAutomationCore.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationCore.dll
+- UIAutomationCore.dll
 api_name:
- - IRawElementProviderHwndOverride
+- IRawElementProviderHwndOverride
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NN:bdaiface.IBDA_DiseqCommand
 title: IBDA_DiseqCommand (bdaiface.h)
-
 description: Controls cable television satelite equipment, using Digital Satellite Equipment Control (DiSEqC) commands.
 old-location: mstv\ibda_diseqcommand.htm
 tech.root: mstv
 ms.assetid: 0148a32d-b131-46ba-bbf0-82e2cf9c7d86
-
 ms.date: 12/05/2018
 ms.keywords: IBDA_DiseqCommand, IBDA_DiseqCommand interface [Microsoft TV Technologies], IBDA_DiseqCommand interface [Microsoft TV Technologies],described, bdaiface/IBDA_DiseqCommand, mstv.ibda_diseqcommand
 ms.topic: interface
-f1_keywords: 
- - "bdaiface/IBDA_DiseqCommand"
+f1_keywords:
+- bdaiface/IBDA_DiseqCommand
 dev_langs:
- - c++
+- c++
 req.header: bdaiface.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - bdaiface.h
+- bdaiface.h
 api_name:
- - IBDA_DiseqCommand
+- IBDA_DiseqCommand
 targetos: Windows
 req.typenames: 
 req.redist: 

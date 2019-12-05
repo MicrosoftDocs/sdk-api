@@ -1,19 +1,17 @@
 ---
 UID: NF:certenroll.IX509ExtensionSubjectKeyIdentifier.InitializeEncode
 title: IX509ExtensionSubjectKeyIdentifier::InitializeEncode (certenroll.h)
-
 description: Initializes the extension from a byte array that contains the key identifier.
 old-location: security\ix509extensionsubjectkeyidentifier_initializeencode_method.htm
 tech.root: seccertenroll
 ms.assetid: 0faf3567-3908-473e-9f5c-392991ea668c
-
 ms.date: 12/05/2018
 ms.keywords: IX509ExtensionSubjectKeyIdentifier interface [Security],InitializeEncode method, IX509ExtensionSubjectKeyIdentifier.InitializeEncode, IX509ExtensionSubjectKeyIdentifier::InitializeEncode, InitializeEncode, InitializeEncode method [Security], InitializeEncode method [Security],IX509ExtensionSubjectKeyIdentifier interface, certenroll/IX509ExtensionSubjectKeyIdentifier::InitializeEncode, security.ix509extensionsubjectkeyidentifier_initializeencode_method
 ms.topic: method
-f1_keywords: 
- - "certenroll/IX509ExtensionSubjectKeyIdentifier.InitializeEncode"
+f1_keywords:
+- certenroll/IX509ExtensionSubjectKeyIdentifier.InitializeEncode
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: CertEnroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CertEnroll.dll
+- CertEnroll.dll
 api_name:
- - IX509ExtensionSubjectKeyIdentifier.InitializeEncode
+- IX509ExtensionSubjectKeyIdentifier.InitializeEncode
 targetos: Windows
 req.typenames: 
 req.redist: 

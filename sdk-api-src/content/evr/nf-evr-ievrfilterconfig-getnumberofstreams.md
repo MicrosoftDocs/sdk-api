@@ -1,19 +1,17 @@
 ---
 UID: NF:evr.IEVRFilterConfig.GetNumberOfStreams
 title: IEVRFilterConfig::GetNumberOfStreams (evr.h)
-
 description: Retrieves the number of input pins on the EVR filter. The EVR filter always has at least one input pin, which corresponds to the reference stream.
 old-location: mf\ievrfilterconfig_getnumberofstreams.htm
 tech.root: medfound
 ms.assetid: 94e15032-efb6-4919-b018-953eee803135
-
 ms.date: 12/05/2018
 ms.keywords: 94e15032-efb6-4919-b018-953eee803135, GetNumberOfStreams, GetNumberOfStreams method [Media Foundation], GetNumberOfStreams method [Media Foundation],IEVRFilterConfig interface, IEVRFilterConfig interface [Media Foundation],GetNumberOfStreams method, IEVRFilterConfig.GetNumberOfStreams, IEVRFilterConfig::GetNumberOfStreams, evr/IEVRFilterConfig::GetNumberOfStreams, mf.ievrfilterconfig_getnumberofstreams
 ms.topic: method
-f1_keywords: 
- - "evr/IEVRFilterConfig.GetNumberOfStreams"
+f1_keywords:
+- evr/IEVRFilterConfig.GetNumberOfStreams
 dev_langs:
- - c++
+- c++
 req.header: evr.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - strmiids.lib
- - strmiids.dll
+- strmiids.lib
+- strmiids.dll
 api_name:
- - IEVRFilterConfig.GetNumberOfStreams
+- IEVRFilterConfig.GetNumberOfStreams
 targetos: Windows
 req.typenames: 
 req.redist: 

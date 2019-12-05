@@ -1,19 +1,17 @@
 ---
 UID: NF:wincrypt.CertVerifyCRLRevocation
 title: CertVerifyCRLRevocation function (wincrypt.h)
-
 description: Check a certificate revocation list (CRL) to determine whether a subject's certificate has or has not been revoked.
 old-location: security\certverifycrlrevocation.htm
 tech.root: SecCrypto
 ms.assetid: a46ac5b5-bc44-4857-a7fb-4f35d438e3f7
-
 ms.date: 12/05/2018
 ms.keywords: CertVerifyCRLRevocation, CertVerifyCRLRevocation function [Security], _crypto2_certverifycrlrevocation, security.certverifycrlrevocation, wincrypt/CertVerifyCRLRevocation
 ms.topic: function
 f1_keywords:
 - wincrypt/CertVerifyCRLRevocation
 dev_langs:
- - c++
+- c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

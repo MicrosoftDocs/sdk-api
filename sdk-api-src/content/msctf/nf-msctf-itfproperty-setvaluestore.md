@@ -1,19 +1,17 @@
 ---
 UID: NF:msctf.ITfProperty.SetValueStore
 title: ITfProperty::SetValueStore (msctf.h)
-
 description: ITfProperty::SetValueStore method
 old-location: tsf\itfproperty_setvaluestore.htm
 tech.root: TSF
 ms.assetid: 146af429-54a8-41b6-b44e-b5d35f933435
-
 ms.date: 12/05/2018
 ms.keywords: ITfProperty interface [Text Services Framework],SetValueStore method, ITfProperty.SetValueStore, ITfProperty::SetValueStore, SetValueStore, SetValueStore method [Text Services Framework], SetValueStore method [Text Services Framework],ITfProperty interface, _tsf_itfproperty_setvaluestore_ref, msctf/ITfProperty::SetValueStore, tsf.itfproperty_setvaluestore
 ms.topic: method
-f1_keywords: 
- - "msctf/ITfProperty.SetValueStore"
+f1_keywords:
+- msctf/ITfProperty.SetValueStore
 dev_langs:
- - c++
+- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msctf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msctf.dll
+- Msctf.dll
 api_name:
- - ITfProperty.SetValueStore
+- ITfProperty.SetValueStore
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

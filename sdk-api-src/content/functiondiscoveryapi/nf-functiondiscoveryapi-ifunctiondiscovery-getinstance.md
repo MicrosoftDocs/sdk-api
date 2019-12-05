@@ -1,19 +1,17 @@
 ---
 UID: NF:functiondiscoveryapi.IFunctionDiscovery.GetInstance
 title: IFunctionDiscovery::GetInstance (functiondiscoveryapi.h)
-
 description: Gets the specified function instance, based on identifier.
 old-location: ncd\ifunctiondiscovery_getinstance_method.htm
 tech.root: FunDisc
 ms.assetid: 8f3b2517-0acf-4a43-9539-d905c78be426
-
 ms.date: 12/05/2018
 ms.keywords: GetInstance, GetInstance method, GetInstance method,IFunctionDiscovery interface, IFunctionDiscovery interface,GetInstance method, IFunctionDiscovery.GetInstance, IFunctionDiscovery::GetInstance, functiondiscoveryapi/IFunctionDiscovery::GetInstance, ncd.ifunctiondiscovery_getinstance_method
 ms.topic: method
-f1_keywords: 
- - "functiondiscoveryapi/IFunctionDiscovery.GetInstance"
+f1_keywords:
+- functiondiscoveryapi/IFunctionDiscovery.GetInstance
 dev_langs:
- - c++
+- c++
 req.header: functiondiscoveryapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: FunDisc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - FunDisc.dll
+- FunDisc.dll
 api_name:
- - IFunctionDiscovery.GetInstance
+- IFunctionDiscovery.GetInstance
 targetos: Windows
 req.typenames: 
 req.redist: 

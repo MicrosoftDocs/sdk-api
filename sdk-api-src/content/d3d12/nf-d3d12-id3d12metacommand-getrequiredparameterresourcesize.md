@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d12.ID3D12MetaCommand.GetRequiredParameterResourceSize
 title: ID3D12MetaCommand::GetRequiredParameterResourceSize (d3d12.h)
-
 description: Retrieves the amount of memory required for the specified runtime parameter resource for a meta command, for the specified stage.
 old-location: direct3d12\id3d12metacommand_getrequiredparameterresourcesize.htm
 tech.root: direct3d12
 ms.assetid: DE619146-CEF7-4D8C-A4E7-D2BCE1BD1FBC
-
 ms.date: 12/05/2018
 ms.keywords: GetRequiredParameterResourceSize, GetRequiredParameterResourceSize method, GetRequiredParameterResourceSize method,ID3D12MetaCommand interface, ID3D12MetaCommand interface,GetRequiredParameterResourceSize method, ID3D12MetaCommand.GetRequiredParameterResourceSize, ID3D12MetaCommand::GetRequiredParameterResourceSize, d3d12/ID3D12MetaCommand::GetRequiredParameterResourceSize, direct3d12.id3d12metacommand_getrequiredparameterresourcesize
 ms.topic: method
-f1_keywords: 
- - "d3d12/ID3D12MetaCommand.GetRequiredParameterResourceSize"
+f1_keywords:
+- d3d12/ID3D12MetaCommand.GetRequiredParameterResourceSize
 dev_langs:
- - c++
+- c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D12.h
+- D3D12.h
 api_name:
- - ID3D12MetaCommand.GetRequiredParameterResourceSize
+- ID3D12MetaCommand.GetRequiredParameterResourceSize
 targetos: Windows
 req.typenames: 
 req.redist: 

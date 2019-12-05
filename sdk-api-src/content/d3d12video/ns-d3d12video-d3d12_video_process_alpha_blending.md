@@ -1,40 +1,38 @@
 ---
 UID: NS:d3d12video.D3D12_VIDEO_PROCESS_ALPHA_BLENDING
 title: D3D12_VIDEO_PROCESS_ALPHA_BLENDING
-
 description: Specifies alpha blending parameters for video processing.
 tech.root: mf
 ms.assetid: 8907413b-b313-4b9e-bbe7-7e6c2a58de68
-
-ms.date: 05/28/2019 
+ms.date: 05/28/2019
 ms.topic: struct
 f1_keywords:
- - D3D12_VIDEO_PROCESS_ALPHA_BLENDING
+- D3D12_VIDEO_PROCESS_ALPHA_BLENDING
 dev_langs:
- - c++
-ms.keywords: D3D12_VIDEO_PROCESS_ALPHA_BLENDING, D3D12_VIDEO_PROCESS_ALPHA_BLENDING, 
+- c++
+ms.keywords: D3D12_VIDEO_PROCESS_ALPHA_BLENDING, D3D12_VIDEO_PROCESS_ALPHA_BLENDING,
 req.header: d3d12video.h
-req.include-header:
-req.redist:
-req.target-type:
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
+req.include-header: 
+req.redist: 
+req.target-type: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
 req.dll: d3d12.dll
-req.ddi-compliance:
-req.unicode-ansi:
-req.max-support:
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.max-support: 
 req.typenames: D3D12_VIDEO_PROCESS_ALPHA_BLENDING
-topic_type: 
- - apiref
-api_type: 
- - HeaderDef
-api_location: 
- - d3d12video.h
-api_name: 
- - D3D12_VIDEO_PROCESS_ALPHA_BLENDING
+topic_type:
+- apiref
+api_type:
+- HeaderDef
+api_location:
+- d3d12video.h
+api_name:
+- D3D12_VIDEO_PROCESS_ALPHA_BLENDING
 targetos: Windows
 ---
 

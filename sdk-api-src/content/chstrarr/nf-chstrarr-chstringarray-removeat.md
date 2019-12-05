@@ -1,19 +1,17 @@
 ---
 UID: NF:chstrarr.CHStringArray.RemoveAt
 title: CHStringArray::RemoveAt (chstrarr.h)
-
 description: The RemoveAt method removes one or more elements starting at a specified index in an array.
 old-location: wmi\chstringarray_removeat.htm
 tech.root: WmiSdk
 ms.assetid: b7555074-4f9a-46be-b321-f16e00663c32
-
 ms.date: 12/05/2018
 ms.keywords: CHStringArray interface [Windows Management Instrumentation],RemoveAt method, CHStringArray.RemoveAt, CHStringArray::RemoveAt, RemoveAt, RemoveAt method [Windows Management Instrumentation], RemoveAt method [Windows Management Instrumentation],CHStringArray interface, _hmm_chstringarray_removeat, chstrarr/CHStringArray::RemoveAt, wmi.chstringarray_removeat
 ms.topic: method
-f1_keywords: 
- - "chstrarr/CHStringArray.RemoveAt"
+f1_keywords:
+- chstrarr/CHStringArray.RemoveAt
 dev_langs:
- - c++
+- c++
 req.header: chstrarr.h
 req.include-header: FwCommon.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: FrameDyn.lib
 req.dll: FrameDynOS.dll; FrameDyn.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - FrameDynOS.dll
- - FrameDyn.dll
+- FrameDynOS.dll
+- FrameDyn.dll
 api_name:
- - CHStringArray.RemoveAt
+- CHStringArray.RemoveAt
 targetos: Windows
 req.typenames: 
 req.redist: 

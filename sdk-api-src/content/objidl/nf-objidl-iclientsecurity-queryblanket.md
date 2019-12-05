@@ -1,19 +1,17 @@
 ---
 UID: NF:objidl.IClientSecurity.QueryBlanket
 title: IClientSecurity::QueryBlanket (objidl.h)
-
 description: Retrieves authentication information the client uses to make calls on the specified proxy.
 old-location: com\iclientsecurity_queryblanket.htm
 tech.root: com
 ms.assetid: 8761bb58-9f28-4fe6-bf24-2687608ec5e8
-
 ms.date: 12/05/2018
 ms.keywords: IClientSecurity interface [COM],QueryBlanket method, IClientSecurity.QueryBlanket, IClientSecurity::QueryBlanket, QueryBlanket, QueryBlanket method [COM], QueryBlanket method [COM],IClientSecurity interface, _com_iclientsecurity_queryblanket, com.iclientsecurity_queryblanket, objidlbase/IClientSecurity::QueryBlanket
 ms.topic: method
-f1_keywords: 
- - "objidl/IClientSecurity.QueryBlanket"
+f1_keywords:
+- objidl/IClientSecurity.QueryBlanket
 dev_langs:
- - c++
+- c++
 req.header: objidl.h
 req.include-header: ObjIdl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - objidlbase.h
+- objidlbase.h
 api_name:
- - IClientSecurity.QueryBlanket
+- IClientSecurity.QueryBlanket
 targetos: Windows
 req.typenames: 
 req.redist: 

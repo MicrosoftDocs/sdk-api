@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d12.ID3D12GraphicsCommandList.ClearUnorderedAccessViewUint
 title: ID3D12GraphicsCommandList::ClearUnorderedAccessViewUint (d3d12.h)
-
 description: Sets all the elements in a unordered-access view (UAV) to the specified integer values.
 old-location: direct3d12\id3d12graphicscommandlist_clearunorderedaccessviewuint.htm
 tech.root: direct3d12
 ms.assetid: A048BF0C-9141-4DDF-91F9-B53464033A44
-
 ms.date: 12/05/2018
 ms.keywords: ClearUnorderedAccessViewUint, ClearUnorderedAccessViewUint method, ClearUnorderedAccessViewUint method,ID3D12GraphicsCommandList interface, ID3D12GraphicsCommandList interface,ClearUnorderedAccessViewUint method, ID3D12GraphicsCommandList.ClearUnorderedAccessViewUint, ID3D12GraphicsCommandList::ClearUnorderedAccessViewUint, d3d12/ID3D12GraphicsCommandList::ClearUnorderedAccessViewUint, direct3d12.id3d12graphicscommandlist_clearunorderedaccessviewuint
 ms.topic: method
-f1_keywords: 
- - "d3d12/ID3D12GraphicsCommandList.ClearUnorderedAccessViewUint"
+f1_keywords:
+- d3d12/ID3D12GraphicsCommandList.ClearUnorderedAccessViewUint
 dev_langs:
- - c++
+- c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: D3d12.lib
 req.dll: D3d12.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - d3d12.dll
+- d3d12.dll
 api_name:
- - ID3D12GraphicsCommandList.ClearUnorderedAccessViewUint
+- ID3D12GraphicsCommandList.ClearUnorderedAccessViewUint
 targetos: Windows
 req.typenames: 
 req.redist: 

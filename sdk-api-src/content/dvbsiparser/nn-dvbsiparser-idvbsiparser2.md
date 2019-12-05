@@ -1,19 +1,17 @@
 ---
 UID: NN:dvbsiparser.IDvbSiParser2
 title: IDvbSiParser2 (dvbsiparser.h)
-
 description: The IDvbSiParser2 interface retrieves program specific information (PSI) and service information (SI) tables from a DVB transport stream.
 old-location: mstv\idvbsiparser2.htm
 tech.root: mstv
 ms.assetid: 085808e7-b067-470e-9edd-8795f4881485
-
 ms.date: 12/05/2018
 ms.keywords: IDvbSiParser2, IDvbSiParser2 interface [Microsoft TV Technologies], IDvbSiParser2 interface [Microsoft TV Technologies],described, dvbsiparser/IDvbSiParser2, mstv.idvbsiparser2
 ms.topic: interface
-f1_keywords: 
- - "dvbsiparser/IDvbSiParser2"
+f1_keywords:
+- dvbsiparser/IDvbSiParser2
 dev_langs:
- - c++
+- c++
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dvbsiparser.h
+- dvbsiparser.h
 api_name:
- - IDvbSiParser2
+- IDvbSiParser2
 targetos: Windows
 req.typenames: 
 req.redist: 

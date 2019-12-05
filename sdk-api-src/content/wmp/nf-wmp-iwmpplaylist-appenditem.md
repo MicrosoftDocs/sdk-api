@@ -1,19 +1,17 @@
 ---
 UID: NF:wmp.IWMPPlaylist.appendItem
 title: IWMPPlaylist::appendItem (wmp.h)
-
 description: The appendItem method adds a media item to the end of the playlist.
 old-location: wmp\iwmpplaylist_appenditem.htm
 tech.root: WMP
 ms.assetid: e6db41d8-a4d5-4cab-9612-0562f3e92c25
-
 ms.date: 12/05/2018
 ms.keywords: IWMPPlaylist interface [Windows Media Player],appendItem method, IWMPPlaylist.appendItem, IWMPPlaylist::appendItem, IWMPPlaylistappendItem, appendItem, appendItem method [Windows Media Player], appendItem method [Windows Media Player],IWMPPlaylist interface, wmp.iwmpplaylist_appenditem, wmp/IWMPPlaylist::appendItem
 ms.topic: method
-f1_keywords: 
- - "wmp/IWMPPlaylist.appendItem"
+f1_keywords:
+- wmp/IWMPPlaylist.appendItem
 dev_langs:
- - c++
+- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wmp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmp.dll
+- wmp.dll
 api_name:
- - IWMPPlaylist.appendItem
+- IWMPPlaylist.appendItem
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NS:wtsdefs._WTS_DISPLAY_IOCTL
 title: WTS_DISPLAY_IOCTL (wtsdefs.h)
-
 description: Contains information about the client display.
 old-location: termserv\wts_display_ioctl.htm
 tech.root: TermServ
 ms.assetid: 1a052b7c-8c15-4921-8548-8fa461210e9a
-
 ms.date: 12/05/2018
-ms.keywords: "*PWTS_DISPLAY_IOCTL, PWRDS_DISPLAY_IOCTL, PWRDS_DISPLAY_IOCTL structure pointer [Remote Desktop Services], PWTS_DISPLAY_IOCTL, PWTS_DISPLAY_IOCTL structure pointer [Remote Desktop Services], WRDS_DISPLAY_IOCTL, WRDS_DISPLAY_IOCTL structure [Remote Desktop Services], WTS_DISPLAY_IOCTL, WTS_DISPLAY_IOCTL structure [Remote Desktop Services], termserv.wts_display_ioctl, wtsdefs/PWRDS_DISPLAY_IOCTL, wtsdefs/PWTS_DISPLAY_IOCTL, wtsdefs/WRDS_DISPLAY_IOCTL, wtsdefs/WTS_DISPLAY_IOCTL"
+ms.keywords: '*PWTS_DISPLAY_IOCTL, PWRDS_DISPLAY_IOCTL, PWRDS_DISPLAY_IOCTL structure pointer [Remote Desktop Services], PWTS_DISPLAY_IOCTL, PWTS_DISPLAY_IOCTL structure pointer [Remote Desktop Services], WRDS_DISPLAY_IOCTL, WRDS_DISPLAY_IOCTL structure [Remote Desktop Services], WTS_DISPLAY_IOCTL, WTS_DISPLAY_IOCTL structure [Remote Desktop Services], termserv.wts_display_ioctl, wtsdefs/PWRDS_DISPLAY_IOCTL, wtsdefs/PWTS_DISPLAY_IOCTL, wtsdefs/WRDS_DISPLAY_IOCTL, wtsdefs/WTS_DISPLAY_IOCTL'
 ms.topic: struct
-f1_keywords: 
- - "wtsdefs/WTS_DISPLAY_IOCTL"
+f1_keywords:
+- wtsdefs/WTS_DISPLAY_IOCTL
 dev_langs:
- - c++
+- c++
 req.header: wtsdefs.h
 req.include-header: Wtsprotocol.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wtsdefs.h
+- Wtsdefs.h
 api_name:
- - WTS_DISPLAY_IOCTL
+- WTS_DISPLAY_IOCTL
 targetos: Windows
 req.typenames: WTS_DISPLAY_IOCTL, *PWTS_DISPLAY_IOCTL
 req.redist: 

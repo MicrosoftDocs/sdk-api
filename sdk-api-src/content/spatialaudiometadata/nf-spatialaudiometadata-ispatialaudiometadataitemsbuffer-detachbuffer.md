@@ -1,19 +1,17 @@
 ---
 UID: NF:spatialaudiometadata.ISpatialAudioMetadataItemsBuffer.DetachBuffer
 title: ISpatialAudioMetadataItemsBuffer::DetachBuffer (spatialaudiometadata.h)
-
 description: Detaches the buffer. Memory can only be attached to a single metadata item at a time.
 old-location: coreaudio\ispatialaudiometadataitemsbuffer_detachbuffer.htm
 tech.root: CoreAudio
 ms.assetid: EE914F58-31C3-4621-987D-D0804CE90CA9
-
 ms.date: 12/05/2018
 ms.keywords: DetachBuffer, DetachBuffer method [Core Audio], DetachBuffer method [Core Audio],ISpatialAudioMetadataItemsBuffer interface, ISpatialAudioMetadataItemsBuffer interface [Core Audio],DetachBuffer method, ISpatialAudioMetadataItemsBuffer.DetachBuffer, ISpatialAudioMetadataItemsBuffer::DetachBuffer, coreaudio.ispatialaudiometadataitemsbuffer_detachbuffer, spatialaudiometadata/ISpatialAudioMetadataItemsBuffer::DetachBuffer
 ms.topic: method
-f1_keywords: 
- - "spatialaudiometadata/ISpatialAudioMetadataItemsBuffer.DetachBuffer"
+f1_keywords:
+- spatialaudiometadata/ISpatialAudioMetadataItemsBuffer.DetachBuffer
 dev_langs:
- - c++
+- c++
 req.header: spatialaudiometadata.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - SpatialAudioMetadata.h
+- SpatialAudioMetadata.h
 api_name:
- - ISpatialAudioMetadataItemsBuffer.DetachBuffer
+- ISpatialAudioMetadataItemsBuffer.DetachBuffer
 targetos: Windows
 req.typenames: 
 req.redist: 

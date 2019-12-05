@@ -1,19 +1,17 @@
 ---
 UID: NN:azroles.IAzOperation
 title: IAzOperation (azroles.h)
-
 description: Defines a low-level operation supported by an application.
 old-location: security\iazoperation.htm
 tech.root: SecAuthZ
 ms.assetid: 054fa4aa-70be-4618-a635-3941c830ea4e
-
 ms.date: 12/05/2018
 ms.keywords: IAzOperation, IAzOperation interface [Security], IAzOperation interface [Security],described, azroles/IAzOperation, security.iazoperation
 ms.topic: interface
-f1_keywords: 
- - "azroles/IAzOperation"
+f1_keywords:
+- azroles/IAzOperation
 dev_langs:
- - c++
+- c++
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Azroles.lib
 req.dll: Azroles.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Azroles.dll
+- Azroles.dll
 api_name:
- - IAzOperation
+- IAzOperation
 targetos: Windows
 req.typenames: 
 req.redist: Windows Server 2003 Administration Tools Pack on Windows XP

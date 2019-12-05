@@ -1,19 +1,17 @@
 ---
 UID: NF:resapi.ResUtilFindSzProperty
 title: ResUtilFindSzProperty function (resapi.h)
-
 description: Locates a string property in a property list. The PRESUTIL_FIND_SZ_PROPERTY type defines a pointer to this function.
 old-location: mscs\resutilfindszproperty.htm
 tech.root: MsCS
 ms.assetid: b7fb6c7e-5a13-4838-98f4-45931e9e96d0
-
 ms.date: 12/05/2018
 ms.keywords: PRESUTIL_FIND_SZ_PROPERTY, PRESUTIL_FIND_SZ_PROPERTY function [Failover Cluster], ResUtilFindSzProperty, ResUtilFindSzProperty function [Failover Cluster], _wolf_resutilfindszproperty, mscs.resutilfindszproperty, resapi/PRESUTIL_FIND_SZ_PROPERTY, resapi/ResUtilFindSzProperty
 ms.topic: function
-f1_keywords: 
- - "resapi/ResUtilFindSzProperty"
+f1_keywords:
+- resapi/ResUtilFindSzProperty
 dev_langs:
- - c++
+- c++
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: ResUtils.lib
 req.dll: ResUtils.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - ResUtils.dll
- - ext-ms-win-cluster-resutils-l1-1-0.dll
- - ext-ms-win-cluster-resutils-l1-1-1.dll
+- ResUtils.dll
+- ext-ms-win-cluster-resutils-l1-1-0.dll
+- ext-ms-win-cluster-resutils-l1-1-1.dll
 api_name:
- - ResUtilFindSzProperty
+- ResUtilFindSzProperty
 targetos: Windows
 req.typenames: 
 req.redist: 

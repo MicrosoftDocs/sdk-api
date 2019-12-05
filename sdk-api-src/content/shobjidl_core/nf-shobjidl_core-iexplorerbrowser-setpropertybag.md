@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IExplorerBrowser.SetPropertyBag
 title: IExplorerBrowser::SetPropertyBag (shobjidl_core.h)
-
 description: Sets the name of the property bag.
 old-location: shell\IExplorerBrowser_SetPropertyBag.htm
 tech.root: shell
 ms.assetid: e43cc4a0-2ff4-42a2-ac60-78a884c37d75
-
 ms.date: 12/05/2018
 ms.keywords: IExplorerBrowser interface [Windows Shell],SetPropertyBag method, IExplorerBrowser.SetPropertyBag, IExplorerBrowser::SetPropertyBag, SetPropertyBag, SetPropertyBag method [Windows Shell], SetPropertyBag method [Windows Shell],IExplorerBrowser interface, _shell_IExplorerBrowser_SetPropertyBag, shell.IExplorerBrowser_SetPropertyBag, shobjidl_core/IExplorerBrowser::SetPropertyBag
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IExplorerBrowser.SetPropertyBag"
+f1_keywords:
+- shobjidl_core/IExplorerBrowser.SetPropertyBag
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - IExplorerBrowser.SetPropertyBag
+- IExplorerBrowser.SetPropertyBag
 targetos: Windows
 req.typenames: 
 req.redist: 

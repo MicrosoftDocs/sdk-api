@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d11.ID3D11CryptoSession.GetCryptoType
 title: ID3D11CryptoSession::GetCryptoType (d3d11.h)
-
 description: Gets the type of encryption that is supported by this session.
 old-location: mf\id3d11cryptosession_getcryptotype.htm
 tech.root: medfound
 ms.assetid: D5F62BFA-EA46-4BDD-8D8C-5D9D5BB590B9
-
 ms.date: 12/05/2018
 ms.keywords: D3D11_CRYPTO_TYPE_AES128_CTR, GetCryptoType, GetCryptoType method [Media Foundation], GetCryptoType method [Media Foundation],ID3D11CryptoSession interface, ID3D11CryptoSession interface [Media Foundation],GetCryptoType method, ID3D11CryptoSession.GetCryptoType, ID3D11CryptoSession::GetCryptoType, d3d11/ID3D11CryptoSession::GetCryptoType, mf.id3d11cryptosession_getcryptotype
 ms.topic: method
-f1_keywords: 
- - "d3d11/ID3D11CryptoSession.GetCryptoType"
+f1_keywords:
+- d3d11/ID3D11CryptoSession.GetCryptoType
 dev_langs:
- - c++
+- c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - d3d11.h
+- d3d11.h
 api_name:
- - ID3D11CryptoSession.GetCryptoType
+- ID3D11CryptoSession.GetCryptoType
 targetos: Windows
 req.typenames: 
 req.redist: 

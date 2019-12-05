@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi3cc.ITAgentHandler.EnumerateACDGroups
 title: ITAgentHandler::EnumerateACDGroups (tapi3cc.h)
-
 description: The EnumerateACDGroups method enumerates ACD groups currently associated with the agent handler.
 old-location: tapi3\itagenthandler_enumerateacdgroups.htm
 tech.root: Tapi
 ms.assetid: a9078166-ff6a-4520-8209-e785bd6e7100
-
 ms.date: 12/05/2018
 ms.keywords: EnumerateACDGroups, EnumerateACDGroups method [TAPI 2.2], EnumerateACDGroups method [TAPI 2.2],ITAgentHandler interface, ITAgentHandler interface [TAPI 2.2],EnumerateACDGroups method, ITAgentHandler.EnumerateACDGroups, ITAgentHandler::EnumerateACDGroups, _tapi3_itagenthandler_enumerateacdgroups, tapi3.itagenthandler_enumerateacdgroups, tapi3cc/ITAgentHandler::EnumerateACDGroups
 ms.topic: method
-f1_keywords: 
- - "tapi3cc/ITAgentHandler.EnumerateACDGroups"
+f1_keywords:
+- tapi3cc/ITAgentHandler.EnumerateACDGroups
 dev_langs:
- - c++
+- c++
 req.header: tapi3cc.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Tapi3.dll
+- Tapi3.dll
 api_name:
- - ITAgentHandler.EnumerateACDGroups
+- ITAgentHandler.EnumerateACDGroups
 targetos: Windows
 req.typenames: 
 req.redist: 

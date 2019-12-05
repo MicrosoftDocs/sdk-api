@@ -1,19 +1,17 @@
 ---
 UID: NE:wuapi.tagOperationResultCode
 title: OperationResultCode (wuapi.h)
-
 description: Defines the possible results of a download, install, uninstall, or verification operation on an update.
 old-location: wua\operationresultcode.htm
 tech.root: Wua_Sdk
 ms.assetid: 02d3442e-d098-42b6-b1b1-cc2d1a815fa4
-
 ms.date: 12/05/2018
 ms.keywords: OperationResultCode, OperationResultCode enumeration [Windows Update Agent], orcAborted, orcFailed, orcInProgress, orcNotStarted, orcSucceeded, orcSucceededWithErrors, wua.operationresultcode, wuapi/OperationResultCode, wuapi/orcAborted, wuapi/orcFailed, wuapi/orcInProgress, wuapi/orcNotStarted, wuapi/orcSucceeded, wuapi/orcSucceededWithErrors
 ms.topic: enum
-f1_keywords: 
- - "wuapi/OperationResultCode"
+f1_keywords:
+- wuapi/OperationResultCode
 dev_langs:
- - c++
+- c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wuapi.h
+- Wuapi.h
 api_name:
- - OperationResultCode
+- OperationResultCode
 targetos: Windows
 req.typenames: OperationResultCode
 req.redist: 

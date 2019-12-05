@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl.INameSpaceTreeControlEvents.OnGetToolTip
 title: INameSpaceTreeControlEvents::OnGetToolTip (shobjidl.h)
-
 description: Enables you to provide a tooltip.
 old-location: shell\INameSpaceTreeControlEvents_OnGetToolTip.htm
 tech.root: shell
 ms.assetid: 57970b8d-2461-43af-8959-c51f27679407
-
 ms.date: 12/05/2018
 ms.keywords: INameSpaceTreeControlEvents interface [Windows Shell],OnGetToolTip method, INameSpaceTreeControlEvents.OnGetToolTip, INameSpaceTreeControlEvents::OnGetToolTip, OnGetToolTip, OnGetToolTip method [Windows Shell], OnGetToolTip method [Windows Shell],INameSpaceTreeControlEvents interface, _shell_INameSpaceTreeControlEvents_OnGetToolTip, shell.INameSpaceTreeControlEvents_OnGetToolTip, shobjidl/INameSpaceTreeControlEvents::OnGetToolTip
 ms.topic: method
-f1_keywords: 
- - "shobjidl/INameSpaceTreeControlEvents.OnGetToolTip"
+f1_keywords:
+- shobjidl/INameSpaceTreeControlEvents.OnGetToolTip
 dev_langs:
- - c++
+- c++
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shobjidl.h
+- Shobjidl.h
 api_name:
- - INameSpaceTreeControlEvents.OnGetToolTip
+- INameSpaceTreeControlEvents.OnGetToolTip
 targetos: Windows
 req.typenames: 
 req.redist: 

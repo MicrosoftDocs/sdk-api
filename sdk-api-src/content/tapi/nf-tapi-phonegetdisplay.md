@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi.phoneGetDisplay
 title: phoneGetDisplay function (tapi.h)
-
 description: The phoneGetDisplay function returns the current contents of the specified phone display.
 old-location: tapi2\phonegetdisplay.htm
 tech.root: Tapi
 ms.assetid: f9176550-f48a-451d-be98-ad4bd593276b
-
 ms.date: 12/05/2018
-ms.keywords: "_tapi2_phonegetdisplay, phoneGetDisplay, phoneGetDisplay function [TAPI 2.2], tapi/phoneGetDisplay, tapi2.phonegetdisplay"
+ms.keywords: _tapi2_phonegetdisplay, phoneGetDisplay, phoneGetDisplay function [TAPI 2.2], tapi/phoneGetDisplay, tapi2.phonegetdisplay
 ms.topic: function
-f1_keywords: 
- - "tapi/phoneGetDisplay"
+f1_keywords:
+- tapi/phoneGetDisplay
 dev_langs:
- - c++
+- c++
 req.header: tapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Tapi32.lib
 req.dll: Tapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Tapi32.dll
+- Tapi32.dll
 api_name:
- - phoneGetDisplay
+- phoneGetDisplay
 targetos: Windows
 req.typenames: 
 req.redist: 

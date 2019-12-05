@@ -1,19 +1,17 @@
 ---
 UID: NF:windows.graphics.imaging.interop.ISoftwareBitmapNativeFactory.CreateFromWICBitmap
 title: ISoftwareBitmapNativeFactory::imaging (windows.graphics.imaging.interop.h)
-
 description: Creates an ISoftwareBitmapNative from the provided IWICBitmap.
 old-location: winrt\isoftwarebitmapnativefactory_createfromwicbitmap.htm
 tech.root: WinRT
 ms.assetid: D52F70E8-AF26-40A5-8E9E-1A5B9D20E35F
-
 ms.date: 12/05/2018
 ms.keywords: CreateFromWICBitmap, CreateFromWICBitmap method [Windows Runtime], CreateFromWICBitmap method [Windows Runtime],ISoftwareBitmapNativeFactory interface, ISoftwareBitmapNativeFactory interface [Windows Runtime],CreateFromWICBitmap method, ISoftwareBitmapNativeFactory.CreateFromWICBitmap, ISoftwareBitmapNativeFactory.imaging, ISoftwareBitmapNativeFactory::CreateFromWICBitmap, ISoftwareBitmapNativeFactory::imaging, windows/ISoftwareBitmapNativeFactory::CreateFromWICBitmap, winrt.isoftwarebitmapnativefactory_createfromwicbitmap
 ms.topic: method
-f1_keywords: 
- - "windows.graphics.imaging.interop/ISoftwareBitmapNativeFactory.CreateFromWICBitmap"
+f1_keywords:
+- windows.graphics.imaging.interop/ISoftwareBitmapNativeFactory.CreateFromWICBitmap
 dev_langs:
- - c++
+- c++
 req.header: windows.graphics.imaging.interop.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Windows.graphics.imaging.interop.lib
 req.dll: Windows.graphics.imaging.interop.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - windows.graphics.imaging.interop.dll
+- windows.graphics.imaging.interop.dll
 api_name:
- - ISoftwareBitmapNativeFactory.CreateFromWICBitmap
+- ISoftwareBitmapNativeFactory.CreateFromWICBitmap
 targetos: Windows
 req.typenames: 
 req.redist: 

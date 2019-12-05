@@ -1,19 +1,17 @@
 ---
 UID: NF:netlistmgr.INetworkCostManager.GetDataPlanStatus
 title: INetworkCostManager::GetDataPlanStatus (netlistmgr.h)
-
 description: GetDataPlanStatus retrieves the data plan status for either a machine-wide internet connection , or the first-hop of routing to a specific destination on a connection.
 old-location: nla\inetworkcostmanager_getdataplanstatus.htm
 tech.root: nla
 ms.assetid: 82B4FF65-5D45-4D79-8F11-EA4CF4760EE2
-
 ms.date: 12/05/2018
 ms.keywords: GetDataPlanStatus, GetDataPlanStatus method [Network Awareness], GetDataPlanStatus method [Network Awareness],INetworkCostManager interface, INetworkCostManager interface [Network Awareness],GetDataPlanStatus method, INetworkCostManager.GetDataPlanStatus, INetworkCostManager::GetDataPlanStatus, netlistmgr/INetworkCostManager::GetDataPlanStatus, nla.inetworkcostmanager_getdataplanstatus
 ms.topic: method
-f1_keywords: 
- - "netlistmgr/INetworkCostManager.GetDataPlanStatus"
+f1_keywords:
+- netlistmgr/INetworkCostManager.GetDataPlanStatus
 dev_langs:
- - c++
+- c++
 req.header: netlistmgr.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Netlistmgr.h
+- Netlistmgr.h
 api_name:
- - INetworkCostManager.GetDataPlanStatus
+- INetworkCostManager.GetDataPlanStatus
 targetos: Windows
 req.typenames: 
 req.redist: 

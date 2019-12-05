@@ -1,19 +1,17 @@
 ---
 UID: NF:manipulations.IInertiaProcessor.ProcessTime
 title: IInertiaProcessor::ProcessTime (manipulations.h)
-
 description: The ProcessTime method performs calculations for the given tick and can raise the Started, Delta, or Completed event depending on whether extrapolation is completed or not. If extrapolation finished at the previous tick, the method is no-op.
 old-location: wintouch\iinertiaprocessor_processtime.htm
 tech.root: wintouch
 ms.assetid: 06132573-e198-4b2c-922b-3eeda53ac10b
-
 ms.date: 12/05/2018
 ms.keywords: IInertiaProcessor interface [Windows Touch],ProcessTime method, IInertiaProcessor.ProcessTime, IInertiaProcessor::ProcessTime, ProcessTime, ProcessTime method [Windows Touch], ProcessTime method [Windows Touch],IInertiaProcessor interface, manipulations/IInertiaProcessor::ProcessTime, wintouch.iinertiaprocessor_processtime
 ms.topic: method
-f1_keywords: 
- - "manipulations/IInertiaProcessor.ProcessTime"
+f1_keywords:
+- manipulations/IInertiaProcessor.ProcessTime
 dev_langs:
- - c++
+- c++
 req.header: manipulations.h
 req.include-header: Manipulations.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - manipulations.h
+- manipulations.h
 api_name:
- - IInertiaProcessor.ProcessTime
+- IInertiaProcessor.ProcessTime
 targetos: Windows
 req.typenames: 
 req.redist: 

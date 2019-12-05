@@ -1,19 +1,17 @@
 ---
 UID: NF:comadmin.ICOMAdminCatalog.StopRouter
 title: ICOMAdminCatalog::StopRouter (comadmin.h)
-
 description: Stops the component load balancing service if the service is currently installed.
 old-location: cos\icomadmincatalog_stoprouter.htm
 tech.root: cossdk
 ms.assetid: 23b0e4af-bdab-4f58-b3ab-82aab5516b48
-
 ms.date: 12/05/2018
 ms.keywords: ICOMAdminCatalog interface [COM+],StopRouter method, ICOMAdminCatalog.StopRouter, ICOMAdminCatalog::StopRouter, StopRouter, StopRouter method [COM+], StopRouter method [COM+],ICOMAdminCatalog interface, _cos_ICOMAdminCatalog_StopRouter, comadmin/ICOMAdminCatalog::StopRouter, cos.icomadmincatalog_stoprouter
 ms.topic: method
-f1_keywords: 
- - "comadmin/ICOMAdminCatalog.StopRouter"
+f1_keywords:
+- comadmin/ICOMAdminCatalog.StopRouter
 dev_langs:
- - c++
+- c++
 req.header: comadmin.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComAdmin.h
+- ComAdmin.h
 api_name:
- - ICOMAdminCatalog.StopRouter
+- ICOMAdminCatalog.StopRouter
 targetos: Windows
 req.typenames: 
 req.redist: 

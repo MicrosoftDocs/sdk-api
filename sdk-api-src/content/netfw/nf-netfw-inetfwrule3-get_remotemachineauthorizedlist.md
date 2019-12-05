@@ -1,19 +1,17 @@
 ---
 UID: NF:netfw.INetFwRule3.get_RemoteMachineAuthorizedList
 title: INetFwRule3::get_RemoteMachineAuthorizedList (netfw.h)
-
 description: Specifies a list of remote computers which are authorized to access an app container.
 old-location: ics\inetfwrule3_remotemachineauthorizedlist.htm
 tech.root: ics
 ms.assetid: 43acf254-594a-4d19-a9e4-bce0a188a9de
-
 ms.date: 12/05/2018
 ms.keywords: INetFwRule3 interface [ICS/ICF],RemoteMachineAuthorizedList property, INetFwRule3.RemoteMachineAuthorizedList, INetFwRule3.get_RemoteMachineAuthorizedList, INetFwRule3::RemoteMachineAuthorizedList, INetFwRule3::get_RemoteMachineAuthorizedList, INetFwRule3::put_RemoteMachineAuthorizedList, RemoteMachineAuthorizedList property [ICS/ICF], RemoteMachineAuthorizedList property [ICS/ICF],INetFwRule3 interface, get_RemoteMachineAuthorizedList, ics.inetfwrule3_remotemachineauthorizedlist, netfw/INetFwRule3::RemoteMachineAuthorizedList, netfw/INetFwRule3::get_RemoteMachineAuthorizedList, netfw/INetFwRule3::put_RemoteMachineAuthorizedList
 ms.topic: method
-f1_keywords: 
- - "netfw/INetFwRule3.RemoteMachineAuthorizedList"
+f1_keywords:
+- netfw/INetFwRule3.RemoteMachineAuthorizedList
 dev_langs:
- - c++
+- c++
 req.header: netfw.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: FirewallAPI.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - FirewallAPI.dll
+- FirewallAPI.dll
 api_name:
- - INetFwRule3.RemoteMachineAuthorizedList
- - INetFwRule3.get_RemoteMachineAuthorizedList
- - INetFwRule3.put_RemoteMachineAuthorizedList
+- INetFwRule3.RemoteMachineAuthorizedList
+- INetFwRule3.get_RemoteMachineAuthorizedList
+- INetFwRule3.put_RemoteMachineAuthorizedList
 targetos: Windows
 req.typenames: 
 req.redist: 

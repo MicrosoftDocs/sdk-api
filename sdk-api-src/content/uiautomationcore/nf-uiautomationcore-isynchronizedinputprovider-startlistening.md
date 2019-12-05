@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationcore.ISynchronizedInputProvider.StartListening
 title: ISynchronizedInputProvider::StartListening (uiautomationcore.h)
-
 description: Starts listening for input of the specified type.
 old-location: winauto\uiauto_ISynchronizedInputProvider_StartListening.htm
 tech.root: WinAuto
 ms.assetid: ad9e6ca3-b38c-41f8-9c61-ce51786672eb
-
 ms.date: 12/05/2018
 ms.keywords: ISynchronizedInputProvider interface [Windows Accessibility],StartListening method, ISynchronizedInputProvider.StartListening, ISynchronizedInputProvider::StartListening, StartListening, StartListening method [Windows Accessibility], StartListening method [Windows Accessibility],ISynchronizedInputProvider interface, uiauto.uiauto_ISynchronizedInputProvider_StartListening, uiauto_ISynchronizedInputProvider_StartListening, uiautomationcore/ISynchronizedInputProvider::StartListening, winauto.uiauto_ISynchronizedInputProvider_StartListening
 ms.topic: method
-f1_keywords: 
- - "uiautomationcore/ISynchronizedInputProvider.StartListening"
+f1_keywords:
+- uiautomationcore/ISynchronizedInputProvider.StartListening
 dev_langs:
- - c++
+- c++
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationCore.h
+- UIAutomationCore.h
 api_name:
- - ISynchronizedInputProvider.StartListening
+- ISynchronizedInputProvider.StartListening
 targetos: Windows
 req.typenames: 
 req.redist: 

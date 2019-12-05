@@ -1,19 +1,17 @@
 ---
 UID: NE:comsvcs.tagCSC_ThreadPool
 title: CSC_ThreadPool (comsvcs.h)
-
 description: Indicates the thread pool in which the work runs that is submitted through the activity returned from CoCreateActivity.
 old-location: cos\csc_threadpool.htm
 tech.root: cossdk
 ms.assetid: 5acf5c6b-b015-448b-ad4c-e4361a97c31e
-
 ms.date: 12/05/2018
 ms.keywords: CSC_MTAThreadPool, CSC_STAThreadPool, CSC_ThreadPool, CSC_ThreadPool enumeration [COM+], CSC_ThreadPoolInherit, CSC_ThreadPoolNone, _cos_CSC_ThreadPool, comsvcs/CSC_MTAThreadPool, comsvcs/CSC_STAThreadPool, comsvcs/CSC_ThreadPool, comsvcs/CSC_ThreadPoolInherit, comsvcs/CSC_ThreadPoolNone, cos.csc_threadpool
 ms.topic: enum
-f1_keywords: 
- - "comsvcs/CSC_ThreadPool"
+f1_keywords:
+- comsvcs/CSC_ThreadPool
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - CSC_ThreadPool
+- CSC_ThreadPool
 targetos: Windows
 req.typenames: CSC_ThreadPool
 req.redist: 

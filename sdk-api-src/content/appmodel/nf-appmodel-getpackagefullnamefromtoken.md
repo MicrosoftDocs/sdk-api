@@ -1,19 +1,17 @@
 ---
 UID: NF:appmodel.GetPackageFullNameFromToken
 title: GetPackageFullNameFromToken function (appmodel.h)
-
 description: Gets the package full name for the specified token.
 old-location: appxpkg\getpackagefullnamefromtoken.htm
 tech.root: appxpkg
 ms.assetid: 7B0D574E-A2F5-4D08-AEFB-9E040BBC729F
-
 ms.date: 12/05/2018
 ms.keywords: GetPackageFullNameFromToken, GetPackageFullNameFromToken function [App packaging and management], appmodel/GetPackageFullNameFromToken, appxpkg.getpackagefullnamefromtoken
 ms.topic: function
-f1_keywords: 
- - "appmodel/GetPackageFullNameFromToken"
+f1_keywords:
+- appmodel/GetPackageFullNameFromToken
 dev_langs:
- - c++
+- c++
 req.header: appmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,25 +30,25 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-AppModel-Runtime-Internal-L1-1-1.dll
- - API-MS-Win-AppModel-Runtime-Internal-L1-1-2.dll
- - API-MS-Win-AppModel-Runtime-Internal-L1-1-3.dll
- - API-MS-Win-AppModel-Runtime-L1-1-0.dll
- - API-MS-Win-AppModel-Runtime-L1-1-1.dll
- - API-MS-Win-AppModel-Runtime-L1-1-2.dll
- - Ext-MS-Win-Kernel32-Package-L1-1-0.dll
- - Ext-MS-Win-Kernel32-Package-L1-1-1.dll
- - Ext-MS-Win-Kernel32-Package-L1-1-2.dll
- - Kernel.AppCore.dll
- - Kernel32Legacy.dll
+- Kernel32.dll
+- API-MS-Win-AppModel-Runtime-Internal-L1-1-1.dll
+- API-MS-Win-AppModel-Runtime-Internal-L1-1-2.dll
+- API-MS-Win-AppModel-Runtime-Internal-L1-1-3.dll
+- API-MS-Win-AppModel-Runtime-L1-1-0.dll
+- API-MS-Win-AppModel-Runtime-L1-1-1.dll
+- API-MS-Win-AppModel-Runtime-L1-1-2.dll
+- Ext-MS-Win-Kernel32-Package-L1-1-0.dll
+- Ext-MS-Win-Kernel32-Package-L1-1-1.dll
+- Ext-MS-Win-Kernel32-Package-L1-1-2.dll
+- Kernel.AppCore.dll
+- Kernel32Legacy.dll
 api_name:
- - GetPackageFullNameFromToken
+- GetPackageFullNameFromToken
 targetos: Windows
 req.typenames: 
 req.redist: 

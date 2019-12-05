@@ -1,19 +1,17 @@
 ---
 UID: NC:imagehlp.PIMAGEHLP_STATUS_ROUTINE
 title: PIMAGEHLP_STATUS_ROUTINE (imagehlp.h)
-
 description: An application-defined callback function used with the BindImageEx function. The status routine is called during the process of the image binding.
 old-location: base\statusroutine.htm
 tech.root: Debug
 ms.assetid: 38a6ddee-5ef1-416f-99ca-11a50643fc97
-
 ms.date: 12/05/2018
 ms.keywords: BindExpandFileHeaders, BindForwarder, BindForwarderNOT, BindImageComplete, BindImageModified, BindImportModule, BindImportModuleFailed, BindImportProcedure, BindImportProcedureFailed, BindMismatchedSymbols, BindNoRoomInImage, BindOutOfMemory, BindRvaToVaFailed, BindSymbolsNotUpdated, PIMAGEHLP_STATUS_ROUTINE, StatusRoutine, StatusRoutine callback, StatusRoutine callback function, _win32_statusroutine, base.statusroutine, imagehlp/StatusRoutine
 ms.topic: callback
-f1_keywords: 
- - "imagehlp/StatusRoutine"
+f1_keywords:
+- imagehlp/StatusRoutine
 dev_langs:
- - c++
+- c++
 req.header: imagehlp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Imagehlp.h
+- Imagehlp.h
 api_name:
- - StatusRoutine
+- StatusRoutine
 targetos: Windows
 req.typenames: 
 req.redist: 

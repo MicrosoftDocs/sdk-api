@@ -1,19 +1,17 @@
 ---
 UID: NF:windowsx.ListBox_SetItemHeight
 title: ListBox_SetItemHeight macro (windowsx.h)
-
 description: Sets the height of items in a list box.
 old-location: controls\ListBox_SetItemHeight.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listboxes\listboxreference\listboxmacros\listbox_setitemheight.htm
-
 ms.date: 12/05/2018
 ms.keywords: ListBox_SetItemHeight, ListBox_SetItemHeight macro [Windows Controls], _win32_ListBox_SetItemHeight, _win32_ListBox_SetItemHeight_cpp, controls.ListBox_SetItemHeight, controls._win32_ListBox_SetItemHeight, windowsx/ListBox_SetItemHeight
 ms.topic: macro
-f1_keywords: 
- - "windowsx/ListBox_SetItemHeight"
+f1_keywords:
+- windowsx/ListBox_SetItemHeight
 dev_langs:
- - c++
+- c++
 req.header: windowsx.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Windowsx.h
+- Windowsx.h
 api_name:
- - ListBox_SetItemHeight
+- ListBox_SetItemHeight
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:mfidl.CreatePropertyStore
 title: CreatePropertyStore function (mfidl.h)
-
 description: Creates an empty property store object.
 old-location: mf\createpropertystore.htm
 tech.root: medfound
 ms.assetid: bb0d32ef-ec16-4341-8b66-d57ebec785f9
-
 ms.date: 12/05/2018
 ms.keywords: CreatePropertyStore, CreatePropertyStore function [Media Foundation], bb0d32ef-ec16-4341-8b66-d57ebec785f9, mf.createpropertystore, mfidl/CreatePropertyStore
 ms.topic: function
-f1_keywords: 
- - "mfidl/CreatePropertyStore"
+f1_keywords:
+- mfidl/CreatePropertyStore
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Mfplat.lib
 req.dll: Mfplat.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - mfplat.dll
+- mfplat.dll
 api_name:
- - CreatePropertyStore
+- CreatePropertyStore
 targetos: Windows
 req.typenames: 
 req.redist: 

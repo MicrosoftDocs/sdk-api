@@ -1,19 +1,17 @@
 ---
 UID: NE:audioenginebaseapo.APO_FLAG
 title: APO_FLAG (audioenginebaseapo.h)
-
 description: The APO_FLAG enumeration defines constants that are used as flags by an audio processing object (APO).
 old-location: audio\apo_flag.htm
 tech.root: audio
 ms.assetid: 42134625-A351-4CB6-B83C-3F2E662D1938
-
 ms.date: 12/05/2018
 ms.keywords: APO_FLAG, APO_FLAG enumeration [Audio Devices], APO_FLAG_BITSPERSAMPLE_MUST_MATCH, APO_FLAG_DEFAULT, APO_FLAG_FRAMESPERSECOND_MUST_MATCH, APO_FLAG_INPLACE, APO_FLAG_NONE, APO_FLAG_SAMPLESPERFRAME_MUST_MATCH, audio.apo_flag, audioenginebaseapo/APO_FLAG, audioenginebaseapo/APO_FLAG_BITSPERSAMPLE_MUST_MATCH, audioenginebaseapo/APO_FLAG_DEFAULT, audioenginebaseapo/APO_FLAG_FRAMESPERSECOND_MUST_MATCH, audioenginebaseapo/APO_FLAG_INPLACE, audioenginebaseapo/APO_FLAG_NONE, audioenginebaseapo/APO_FLAG_SAMPLESPERFRAME_MUST_MATCH
 ms.topic: enum
-f1_keywords: 
- - "audioenginebaseapo/APO_FLAG"
+f1_keywords:
+- audioenginebaseapo/APO_FLAG
 dev_langs:
- - c++
+- c++
 req.header: audioenginebaseapo.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - audioenginebaseapo.h
+- audioenginebaseapo.h
 api_name:
- - APO_FLAG
+- APO_FLAG
 targetos: Windows
 req.typenames: APO_FLAG
 req.redist: 

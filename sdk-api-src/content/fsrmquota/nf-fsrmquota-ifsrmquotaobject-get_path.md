@@ -1,19 +1,17 @@
 ---
 UID: NF:fsrmquota.IFsrmQuotaObject.get_Path
 title: IFsrmQuotaObject::get_Path (fsrmquota.h)
-
 description: Retrieves the path to which the quota applies.
 old-location: fsrm\ifsrmquotaobject_path.htm
 tech.root: fsrm
 ms.assetid: de587430-5179-4c9e-9ad0-86bb57757d1c
-
 ms.date: 12/05/2018
 ms.keywords: IFsrmQuotaObject interface [File Server Resource Manager],Path property, IFsrmQuotaObject.Path, IFsrmQuotaObject.get_Path, IFsrmQuotaObject::Path, IFsrmQuotaObject::get_Path, Path property [File Server Resource Manager], Path property [File Server Resource Manager],IFsrmQuotaObject interface, fs.ifsrmquotaobject_path, fsrm.ifsrmquotaobject_path, fsrmquota/IFsrmQuotaObject::Path, fsrmquota/IFsrmQuotaObject::get_Path, get_Path
 ms.topic: method
-f1_keywords: 
- - "fsrmquota/IFsrmQuotaObject.Path"
+f1_keywords:
+- fsrmquota/IFsrmQuotaObject.Path
 dev_langs:
- - c++
+- c++
 req.header: fsrmquota.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: SrmSvc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - SrmSvc.dll
+- SrmSvc.dll
 api_name:
- - IFsrmQuotaObject.Path
- - IFsrmQuotaObject.get_Path
+- IFsrmQuotaObject.Path
+- IFsrmQuotaObject.get_Path
 targetos: Windows
 req.typenames: 
 req.redist: 

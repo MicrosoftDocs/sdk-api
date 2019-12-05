@@ -1,19 +1,17 @@
 ---
 UID: NF:certenroll.IX509CertificateRequest.get_RenewalCertificate
 title: IX509CertificateRequest::get_RenewalCertificate (certenroll.h)
-
 description: Specifies or retrieves a byte array that contains the Distinguished Encoding Rules (DER) encoded certificate that is being renewed.
 old-location: security\ix509certificaterequest_renewalcertificate_property.htm
 tech.root: seccertenroll
 ms.assetid: ab046b65-a059-4b48-a6cd-7e2f0b18bc65
-
 ms.date: 12/05/2018
 ms.keywords: IX509CertificateRequest interface [Security],RenewalCertificate property, IX509CertificateRequest.RenewalCertificate, IX509CertificateRequest.get_RenewalCertificate, IX509CertificateRequest::RenewalCertificate, IX509CertificateRequest::get_RenewalCertificate, IX509CertificateRequest::put_RenewalCertificate, RenewalCertificate property [Security], RenewalCertificate property [Security],IX509CertificateRequest interface, certenroll/IX509CertificateRequest::RenewalCertificate, certenroll/IX509CertificateRequest::get_RenewalCertificate, certenroll/IX509CertificateRequest::put_RenewalCertificate, get_RenewalCertificate, security.ix509certificaterequest_renewalcertificate_property
 ms.topic: method
-f1_keywords: 
- - "certenroll/IX509CertificateRequest.RenewalCertificate"
+f1_keywords:
+- certenroll/IX509CertificateRequest.RenewalCertificate
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: CertEnroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CertEnroll.dll
+- CertEnroll.dll
 api_name:
- - IX509CertificateRequest.RenewalCertificate
- - IX509CertificateRequest.get_RenewalCertificate
- - IX509CertificateRequest.put_RenewalCertificate
+- IX509CertificateRequest.RenewalCertificate
+- IX509CertificateRequest.get_RenewalCertificate
+- IX509CertificateRequest.put_RenewalCertificate
 targetos: Windows
 req.typenames: 
 req.redist: 

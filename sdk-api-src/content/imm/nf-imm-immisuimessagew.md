@@ -1,19 +1,17 @@
 ---
 UID: NF:imm.ImmIsUIMessageW
 title: ImmIsUIMessageW function (imm.h)
-
 description: Checks for messages intended for the IME window and sends those messages to the window.
 old-location: intl\immisuimessage.htm
 tech.root: Intl
 ms.assetid: 9c07c7b8-87cb-4bcb-a837-20f582ff7712
-
 ms.date: 12/05/2018
 ms.keywords: ImmIsUIMessage, ImmIsUIMessage function [Internationalization for Windows Applications], ImmIsUIMessageA, ImmIsUIMessageW, _win32_ImmIsUIMessage, imm/ImmIsUIMessage, imm/ImmIsUIMessageA, imm/ImmIsUIMessageW, intl.immisuimessage
 ms.topic: function
-f1_keywords: 
- - "imm/ImmIsUIMessage"
+f1_keywords:
+- imm/ImmIsUIMessage
 dev_langs:
- - c++
+- c++
 req.header: imm.h
 req.include-header: Immdev.h, Windows.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Imm32.lib
 req.dll: Imm32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Imm32.dll
+- Imm32.dll
 api_name:
- - ImmIsUIMessage
- - ImmIsUIMessageA
- - ImmIsUIMessageW
+- ImmIsUIMessage
+- ImmIsUIMessageA
+- ImmIsUIMessageW
 targetos: Windows
 req.typenames: 
 req.redist: 

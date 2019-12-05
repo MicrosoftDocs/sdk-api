@@ -1,19 +1,17 @@
 ---
 UID: NN:wsdbase.IWSDHttpMessageParameters
 title: IWSDHttpMessageParameters (wsdbase.h)
-
 description: Provides access to the HTTP headers used when transmitting messages via SOAP-over-HTTP.
 old-location: ncd\iwsdhttpmessageparameters.htm
 tech.root: WsdApi
 ms.assetid: fae10e9e-0c2b-4817-bd28-a4a85ca180cc
-
 ms.date: 12/05/2018
 ms.keywords: IWSDHttpMessageParameters, IWSDHttpMessageParameters interface, IWSDHttpMessageParameters interface,described, ncd.iwsdhttpmessageparameters, wsdbase/IWSDHttpMessageParameters
 ms.topic: interface
-f1_keywords: 
- - "wsdbase/IWSDHttpMessageParameters"
+f1_keywords:
+- wsdbase/IWSDHttpMessageParameters
 dev_langs:
- - c++
+- c++
 req.header: wsdbase.h
 req.include-header: Wsdapi.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wsdapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wsdapi.dll
+- Wsdapi.dll
 api_name:
- - IWSDHttpMessageParameters
+- IWSDHttpMessageParameters
 targetos: Windows
 req.typenames: 
 req.redist: 

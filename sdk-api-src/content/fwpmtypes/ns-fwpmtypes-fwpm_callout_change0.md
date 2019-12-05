@@ -1,19 +1,17 @@
 ---
 UID: NS:fwpmtypes.FWPM_CALLOUT_CHANGE0_
 title: FWPM_CALLOUT_CHANGE0 (fwpmtypes.h)
-
 description: Specifies a change notification dispatched to subscribers.
 old-location: fwp\fwpm_callout_change0_struct.htm
 tech.root: fwp
 ms.assetid: 70e2eaae-dd75-4acc-87fb-ab2ad450a234
-
 ms.date: 12/05/2018
 ms.keywords: FWPM_CALLOUT_CHANGE0, FWPM_CALLOUT_CHANGE0 structure [Filtering], fwp.fwpm_callout_change0_struct, fwpmtypes/FWPM_CALLOUT_CHANGE0
 ms.topic: struct
-f1_keywords: 
- - "fwpmtypes/FWPM_CALLOUT_CHANGE0"
+f1_keywords:
+- fwpmtypes/FWPM_CALLOUT_CHANGE0
 dev_langs:
- - c++
+- c++
 req.header: fwpmtypes.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Fwpmtypes.h
+- Fwpmtypes.h
 api_name:
- - FWPM_CALLOUT_CHANGE0
+- FWPM_CALLOUT_CHANGE0
 targetos: Windows
 req.typenames: FWPM_CALLOUT_CHANGE0
 req.redist: 

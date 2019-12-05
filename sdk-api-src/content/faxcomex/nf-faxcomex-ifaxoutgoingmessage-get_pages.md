@@ -1,19 +1,17 @@
 ---
 UID: NF:faxcomex.IFaxOutgoingMessage.get_Pages
 title: IFaxOutgoingMessage::get_Pages (faxcomex.h)
-
 description: The IFaxOutgoingMessage::get_Pages property is a number that indicates the total number of pages in the outbound fax message.
 old-location: fax\_mfax_faxoutgoingmessage_cpp_mfax_faxoutgoingmessage_pages_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_14fn.htm
-
 ms.date: 12/05/2018
 ms.keywords: IFaxOutgoingMessage interface [Fax Service],Pages property, IFaxOutgoingMessage.Pages, IFaxOutgoingMessage.get_Pages, IFaxOutgoingMessage::Pages, IFaxOutgoingMessage::get_Pages, Pages property [Fax Service], Pages property [Fax Service],IFaxOutgoingMessage interface, _mfax_faxoutgoingmessage.pages, fax._mfax_faxoutgoingmessage_cpp_mfax_faxoutgoingmessage_pages_cpp, fax._mfax_faxoutgoingmessage_pages, faxcomex/IFaxOutgoingMessage::Pages, faxcomex/IFaxOutgoingMessage::get_Pages, get_Pages
 ms.topic: method
-f1_keywords: 
- - "faxcomex/IFaxOutgoingMessage.Pages"
+f1_keywords:
+- faxcomex/IFaxOutgoingMessage.Pages
 dev_langs:
- - c++
+- c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: Fxscomex.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Fxscomex.dll
+- Fxscomex.dll
 api_name:
- - IFaxOutgoingMessage.Pages
- - IFaxOutgoingMessage.get_Pages
- - IFaxOutgoingMessage.get_Pages
+- IFaxOutgoingMessage.Pages
+- IFaxOutgoingMessage.get_Pages
+- IFaxOutgoingMessage.get_Pages
 targetos: Windows
 req.typenames: 
 req.redist: 

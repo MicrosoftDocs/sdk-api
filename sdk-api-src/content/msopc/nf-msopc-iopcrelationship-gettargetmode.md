@@ -1,19 +1,17 @@
 ---
 UID: NF:msopc.IOpcRelationship.GetTargetMode
 title: IOpcRelationship::GetTargetMode (msopc.h)
-
 description: Gets a value that describes whether the relationship's target is internal or external to the package.
 old-location: opc\iopcrelationship_gettargetmode.htm
 tech.root: OPC
 ms.assetid: 5fb103c9-cb73-46b3-9102-6811d6673faf
-
 ms.date: 12/05/2018
 ms.keywords: GetTargetMode, GetTargetMode method [Open Packaging Conventions], GetTargetMode method [Open Packaging Conventions],IOpcRelationship interface, IOpcRelationship interface [Open Packaging Conventions],GetTargetMode method, IOpcRelationship.GetTargetMode, IOpcRelationship::GetTargetMode, msopc/IOpcRelationship::GetTargetMode, opc.iopcrelationship_gettargetmode
 ms.topic: method
-f1_keywords: 
- - "msopc/IOpcRelationship.GetTargetMode"
+f1_keywords:
+- msopc/IOpcRelationship.GetTargetMode
 dev_langs:
- - c++
+- c++
 req.header: msopc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msopc.h
+- msopc.h
 api_name:
- - IOpcRelationship.GetTargetMode
+- IOpcRelationship.GetTargetMode
 targetos: Windows
 req.typenames: 
 req.redist: 

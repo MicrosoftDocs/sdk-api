@@ -1,19 +1,17 @@
 ---
 UID: NF:rtworkq.RtwqLockPlatform
 title: RtwqLockPlatform function (rtworkq.h)
-
 description: Adds a reference to indicate to the platform that there are still pending asynchronous items. Blocks the RtwqShutdown function if there are active asynchronous items.
 old-location: base\rtwqlockplatform.htm
 tech.root: ProcThread
 ms.assetid: 25baa2ad-95b8-4ac0-a838-e95c6141e13b
-
 ms.date: 12/05/2018
 ms.keywords: RtwqLockPlatform, RtwqLockPlatform function, base.rtwqlockplatform, rtworkq/RtwqLockPlatform
 ms.topic: function
-f1_keywords: 
- - "rtworkq/RtwqLockPlatform"
+f1_keywords:
+- rtworkq/RtwqLockPlatform
 dev_langs:
- - c++
+- c++
 req.header: rtworkq.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Rtworkq.lib
 req.dll: RTWorkQ.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - RTWorkQ.dll
+- RTWorkQ.dll
 api_name:
- - RtwqLockPlatform
+- RtwqLockPlatform
 targetos: Windows
 req.typenames: 
 req.redist: 

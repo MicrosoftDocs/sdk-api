@@ -3,14 +3,13 @@ UID: NF:gdiplusgraphics.Graphics.DrawClosedCurve(IN const Pen,IN const PointF,IN
 title: Graphics::DrawClosedCurve
 description: The Graphics::DrawClosedCurve method draws a closed cardinal spline.
 ms.assetid: 49d14771-2cfb-4b42-b0cd-e8f9ef209b32
-
 ms.date: 05/13/2019
 ms.keywords: Graphics::DrawClosedCurve
 ms.topic: language-reference
-f1_keywords: 
- - "gdiplusgraphics/Graphics::DrawClosedCurve"
+f1_keywords:
+- gdiplusgraphics/Graphics::DrawClosedCurve
 dev_langs:
- - c++
+- c++
 targetos: Windows
 req.assembly: 
 req.construct-type: function
@@ -32,13 +31,13 @@ req.type-library:
 req.umdf-ver: 
 req.unicode-ansi: 
 topic_type:
- - apiref
+- apiref
 api_type:
- - COM
+- COM
 api_location:
- - gdiplusgraphics.h
+- gdiplusgraphics.h
 api_name:
- - Graphics::DrawClosedCurve
+- Graphics::DrawClosedCurve
 ---
 
 # DrawClosedCurve(Pen*,PointF*,INT)

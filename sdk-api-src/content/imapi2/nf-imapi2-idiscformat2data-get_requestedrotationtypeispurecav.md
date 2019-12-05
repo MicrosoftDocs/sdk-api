@@ -1,19 +1,17 @@
 ---
 UID: NF:imapi2.IDiscFormat2Data.get_RequestedRotationTypeIsPureCAV
 title: IDiscFormat2Data::get_RequestedRotationTypeIsPureCAV (imapi2.h)
-
 description: Retrieves the requested rotational-speed control type.
 old-location: imapi\idiscformat2data_get_requestedrotationtypeispurecav.htm
 tech.root: imapi
 ms.assetid: edf3a5a7-3164-4fba-bbbe-525932b0284d
-
 ms.date: 12/05/2018
 ms.keywords: IDiscFormat2Data interface [IMAPI],get_RequestedRotationTypeIsPureCAV method, IDiscFormat2Data.get_RequestedRotationTypeIsPureCAV, IDiscFormat2Data::get_RequestedRotationTypeIsPureCAV, get_RequestedRotationTypeIsPureCAV, get_RequestedRotationTypeIsPureCAV method [IMAPI], get_RequestedRotationTypeIsPureCAV method [IMAPI],IDiscFormat2Data interface, imapi.idiscformat2data_get_requestedrotationtypeispurecav, imapi2/IDiscFormat2Data::get_RequestedRotationTypeIsPureCAV
 ms.topic: method
-f1_keywords: 
- - "imapi2/IDiscFormat2Data.get_RequestedRotationTypeIsPureCAV"
+f1_keywords:
+- imapi2/IDiscFormat2Data.get_RequestedRotationTypeIsPureCAV
 dev_langs:
- - c++
+- c++
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - imapi2.h
+- imapi2.h
 api_name:
- - IDiscFormat2Data.get_RequestedRotationTypeIsPureCAV
+- IDiscFormat2Data.get_RequestedRotationTypeIsPureCAV
 targetos: Windows
 req.typenames: 
 req.redist: 

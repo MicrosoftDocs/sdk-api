@@ -1,19 +1,17 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMCoreProperties.SetLanguage
 title: IXpsOMCoreProperties::SetLanguage (xpsobjectmodel.h)
-
 description: Sets the language property.
 old-location: xps\ixpsomcoreproperties_setlanguage.htm
 tech.root: printdocs
 ms.assetid: e17901e8-9adb-488e-9c8d-6fa1351520ac
-
 ms.date: 12/05/2018
 ms.keywords: IXpsOMCoreProperties interface [XPS Documents and Packaging],SetLanguage method, IXpsOMCoreProperties.SetLanguage, IXpsOMCoreProperties::SetLanguage, SetLanguage, SetLanguage method [XPS Documents and Packaging], SetLanguage method [XPS Documents and Packaging],IXpsOMCoreProperties interface, xps.ixpsomcoreproperties_setlanguage, xpsobjectmodel/IXpsOMCoreProperties::SetLanguage
 ms.topic: method
-f1_keywords: 
- - "xpsobjectmodel/IXpsOMCoreProperties.SetLanguage"
+f1_keywords:
+- xpsobjectmodel/IXpsOMCoreProperties.SetLanguage
 dev_langs:
- - c++
+- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsobjectmodel.h
+- xpsobjectmodel.h
 api_name:
- - IXpsOMCoreProperties.SetLanguage
+- IXpsOMCoreProperties.SetLanguage
 targetos: Windows
 req.typenames: 
 req.redist: 

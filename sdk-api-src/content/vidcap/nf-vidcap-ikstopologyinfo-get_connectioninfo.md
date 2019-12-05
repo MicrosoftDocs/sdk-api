@@ -1,19 +1,17 @@
 ---
 UID: NF:vidcap.IKsTopologyInfo.get_ConnectionInfo
 title: IKsTopologyInfo::get_ConnectionInfo (vidcap.h)
-
 description: The get_ConnectionInfo method returns information about one node connection in the filter.
 old-location: dshow\ikstopologyinfo_get_connectioninfo.htm
 tech.root: DirectShow
 ms.assetid: ef062e0f-0866-48ca-bd27-26000cd4983a
-
 ms.date: 12/05/2018
 ms.keywords: IKsTopologyInfo interface [DirectShow],get_ConnectionInfo method, IKsTopologyInfo.get_ConnectionInfo, IKsTopologyInfo::get_ConnectionInfo, IKsTopologyInfoget_ConnectionInfo, dshow.ikstopologyinfo_get_connectioninfo, get_ConnectionInfo, get_ConnectionInfo method [DirectShow], get_ConnectionInfo method [DirectShow],IKsTopologyInfo interface, vidcap/IKsTopologyInfo::get_ConnectionInfo
 ms.topic: method
-f1_keywords: 
- - "vidcap/IKsTopologyInfo.get_ConnectionInfo"
+f1_keywords:
+- vidcap/IKsTopologyInfo.get_ConnectionInfo
 dev_langs:
- - c++
+- c++
 req.header: vidcap.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Vidcap.h
+- Vidcap.h
 api_name:
- - IKsTopologyInfo.get_ConnectionInfo
+- IKsTopologyInfo.get_ConnectionInfo
 targetos: Windows
 req.typenames: 
 req.redist: 

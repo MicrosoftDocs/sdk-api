@@ -1,19 +1,17 @@
 ---
 UID: NF:wmp.IWMPEvents.MediaCollectionAttributeStringRemoved
 title: IWMPEvents::MediaCollectionAttributeStringRemoved (wmp.h)
-
 description: The MediaCollectionAttributeStringRemoved event occurs when an attribute is removed from the library.
 old-location: wmp\iwmpevents_iwmpevents__mediacollectionattributestringremoved.htm
 tech.root: WMP
 ms.assetid: 4e7a3d71-4ec1-4c33-9101-d9d90ee8b1f9
-
 ms.date: 12/05/2018
 ms.keywords: IWMPEvents interface [Windows Media Player],MediaCollectionAttributeStringRemoved method, IWMPEvents.MediaCollectionAttributeStringRemoved, IWMPEvents::MediaCollectionAttributeStringRemoved, IWMPEventsMediaCollectionAttributeStringRemoved, MediaCollectionAttributeStringRemoved, MediaCollectionAttributeStringRemoved method [Windows Media Player], MediaCollectionAttributeStringRemoved method [Windows Media Player],IWMPEvents interface, wmp.iwmpevents_iwmpevents__mediacollectionattributestringremoved, wmp/IWMPEvents::MediaCollectionAttributeStringRemoved
 ms.topic: method
-f1_keywords: 
- - "wmp/IWMPEvents.MediaCollectionAttributeStringRemoved"
+f1_keywords:
+- wmp/IWMPEvents.MediaCollectionAttributeStringRemoved
 dev_langs:
- - c++
+- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wmp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmp.dll
+- wmp.dll
 api_name:
- - IWMPEvents.MediaCollectionAttributeStringRemoved
+- IWMPEvents.MediaCollectionAttributeStringRemoved
 targetos: Windows
 req.typenames: 
 req.redist: 

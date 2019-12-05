@@ -1,19 +1,17 @@
 ---
 UID: NE:shobjidl_core.EXPLORER_BROWSER_FILL_FLAGS
 title: EXPLORER_BROWSER_FILL_FLAGS (shobjidl_core.h)
-
 description: These flags are used with IExplorerBrowser::FillFromObject.
 old-location: shell\EXPLORER_BROWSER_FILL_FLAGS.htm
 tech.root: shell
 ms.assetid: 5be62600-147d-4625-8e6c-aa6687da2168
-
 ms.date: 12/05/2018
 ms.keywords: EBF_NODROPTARGET, EBF_NONE, EBF_SELECTFROMDATAOBJECT, EXPLORER_BROWSER_FILL_FLAGS, EXPLORER_BROWSER_FILL_FLAGS enumeration [Windows Shell], _shell_EXPLORER_BROWSER_FILL_FLAGS, shell.EXPLORER_BROWSER_FILL_FLAGS, shobjidl_core/EBF_NODROPTARGET, shobjidl_core/EBF_NONE, shobjidl_core/EBF_SELECTFROMDATAOBJECT, shobjidl_core/EXPLORER_BROWSER_FILL_FLAGS
 ms.topic: enum
-f1_keywords: 
- - "shobjidl_core/EXPLORER_BROWSER_FILL_FLAGS"
+f1_keywords:
+- shobjidl_core/EXPLORER_BROWSER_FILL_FLAGS
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - EXPLORER_BROWSER_FILL_FLAGS
+- EXPLORER_BROWSER_FILL_FLAGS
 targetos: Windows
 req.typenames: EXPLORER_BROWSER_FILL_FLAGS
 req.redist: 

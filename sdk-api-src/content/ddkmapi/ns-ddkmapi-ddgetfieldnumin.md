@@ -1,19 +1,17 @@
 ---
 UID: NS:ddkmapi._DDGETFIELDNUMIN
 title: DDGETFIELDNUMIN (ddkmapi.h)
-
 description: The DDGETFIELDNUMIN structure contains the Microsoft DirectDraw and video port extensions (VPE) object handle information.
 old-location: display\ddgetfieldnumin.htm
 tech.root: display
 ms.assetid: d0f8d7d0-6af6-44d1-8f18-d77ce6502b3f
-
 ms.date: 12/05/2018
-ms.keywords: "*LPDDGETFIELDNUMIN, DDGETFIELDNUMIN, DDGETFIELDNUMIN structure [Display Devices], LPDDGETFIELDNUMIN, LPDDGETFIELDNUMIN structure pointer [Display Devices], ddkmapi/DDGETFIELDNUMIN, ddkmapi/LPDDGETFIELDNUMIN, ddstrcts_d975a952-2893-44cf-a7cb-57b3dd3b633c.xml, display.ddgetfieldnumin"
+ms.keywords: '*LPDDGETFIELDNUMIN, DDGETFIELDNUMIN, DDGETFIELDNUMIN structure [Display Devices], LPDDGETFIELDNUMIN, LPDDGETFIELDNUMIN structure pointer [Display Devices], ddkmapi/DDGETFIELDNUMIN, ddkmapi/LPDDGETFIELDNUMIN, ddstrcts_d975a952-2893-44cf-a7cb-57b3dd3b633c.xml, display.ddgetfieldnumin'
 ms.topic: struct
-f1_keywords: 
- - "ddkmapi/DDGETFIELDNUMIN"
+f1_keywords:
+- ddkmapi/DDGETFIELDNUMIN
 dev_langs:
- - c++
+- c++
 req.header: ddkmapi.h
 req.include-header: Ddkmapi.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - ddkmapi.h
+- ddkmapi.h
 api_name:
- - DDGETFIELDNUMIN
+- DDGETFIELDNUMIN
 targetos: Windows
 req.typenames: DDGETFIELDNUMIN, *LPDDGETFIELDNUMIN
 req.redist: 

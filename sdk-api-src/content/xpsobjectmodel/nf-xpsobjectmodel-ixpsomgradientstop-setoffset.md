@@ -1,19 +1,17 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMGradientStop.SetOffset
 title: IXpsOMGradientStop::SetOffset (xpsobjectmodel.h)
-
 description: Sets the offset location of the gradient stop.
 old-location: xps\ixpsomgradientstop_setoffset.htm
 tech.root: printdocs
 ms.assetid: 8c1932b0-386b-4779-a4e4-e239e42e1d16
-
 ms.date: 12/05/2018
 ms.keywords: IXpsOMGradientStop interface [XPS Documents and Packaging],SetOffset method, IXpsOMGradientStop.SetOffset, IXpsOMGradientStop::SetOffset, SetOffset, SetOffset method [XPS Documents and Packaging], SetOffset method [XPS Documents and Packaging],IXpsOMGradientStop interface, xps.ixpsomgradientstop_setoffset, xpsobjectmodel/IXpsOMGradientStop::SetOffset
 ms.topic: method
-f1_keywords: 
- - "xpsobjectmodel/IXpsOMGradientStop.SetOffset"
+f1_keywords:
+- xpsobjectmodel/IXpsOMGradientStop.SetOffset
 dev_langs:
- - c++
+- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsobjectmodel.h
+- xpsobjectmodel.h
 api_name:
- - IXpsOMGradientStop.SetOffset
+- IXpsOMGradientStop.SetOffset
 targetos: Windows
 req.typenames: 
 req.redist: 

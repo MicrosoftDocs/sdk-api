@@ -1,19 +1,17 @@
 ---
 UID: NF:gdipluspath.GraphicsPath.AddLine(IN INT,IN INT,IN INT,IN INT)
 title: GraphicsPath::AddLine(IN INT,IN INT,IN INT,IN INT) (gdipluspath.h)
-
 description: The GraphicsPath::AddLine method adds a line to the current figure of this path.
 old-location: gdiplus\_gdiplus_CLASS_GraphicsPath_AddLine_INT_x1_INT_y1_INT_x2_INT_y2_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicspathclass\graphicspathmethods\graphicspathaddlinemethods\addline_82intx1_inty1_intx2_inty2.htm
-
 ms.date: 12/05/2018
 ms.keywords: AddLine, AddLine method [GDI+], AddLine method [GDI+],GraphicsPath class, GraphicsPath class [GDI+],AddLine method, GraphicsPath.AddLine, GraphicsPath.AddLine(IN INT,IN INT,IN INT,IN INT), GraphicsPath.AddLine(INT,INT,INT,INT), GraphicsPath::AddLine, GraphicsPath::AddLine(IN INT,IN INT,IN INT,IN INT), _gdiplus_CLASS_GraphicsPath_AddLine_INT_x1_INT_y1_INT_x2_INT_y2_, gdiplus._gdiplus_CLASS_GraphicsPath_AddLine_INT_x1_INT_y1_INT_x2_INT_y2_
 ms.topic: method
-f1_keywords: 
- - "gdipluspath/GraphicsPath.AddLine"
+f1_keywords:
+- gdipluspath/GraphicsPath.AddLine
 dev_langs:
- - c++
+- c++
 req.header: gdipluspath.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - GraphicsPath.AddLine
+- GraphicsPath.AddLine
 targetos: Windows
 req.typenames: 
 req.redist: 

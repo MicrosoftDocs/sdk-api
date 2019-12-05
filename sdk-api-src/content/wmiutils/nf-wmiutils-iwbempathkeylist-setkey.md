@@ -1,19 +1,17 @@
 ---
 UID: NF:wmiutils.IWbemPathKeyList.SetKey
 title: IWbemPathKeyList::SetKey (wmiutils.h)
-
 description: Sets the name or value pair for a key.
 old-location: wmi\iwbempathkeylist_setkey.htm
 tech.root: WmiSdk
 ms.assetid: d655c5c7-0830-46fc-a81d-9bfa16f80d68
-
 ms.date: 12/05/2018
 ms.keywords: IWbemPathKeyList interface [Windows Management Instrumentation],SetKey method, IWbemPathKeyList.SetKey, IWbemPathKeyList::SetKey, SetKey, SetKey method [Windows Management Instrumentation], SetKey method [Windows Management Instrumentation],IWbemPathKeyList interface, _hmm_iwbempathkeylist_setkey, wmi.iwbempathkeylist_setkey, wmiutils/IWbemPathKeyList::SetKey
 ms.topic: method
-f1_keywords: 
- - "wmiutils/IWbemPathKeyList.SetKey"
+f1_keywords:
+- wmiutils/IWbemPathKeyList.SetKey
 dev_langs:
- - c++
+- c++
 req.header: wmiutils.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Wbemuuid.lib
 req.dll: Wmiutils.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wmiutils.dll
+- Wmiutils.dll
 api_name:
- - IWbemPathKeyList.SetKey
+- IWbemPathKeyList.SetKey
 targetos: Windows
 req.typenames: 
 req.redist: 

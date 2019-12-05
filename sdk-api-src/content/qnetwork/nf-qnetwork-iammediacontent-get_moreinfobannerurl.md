@@ -1,19 +1,17 @@
 ---
 UID: NF:qnetwork.IAMMediaContent.get_MoreInfoBannerURL
 title: IAMMediaContent::get_MoreInfoBannerURL (qnetwork.h)
-
 description: The get_MoreInfoBannerURL method retrieves a URL for a related-information banner.
 old-location: dshow\iammediacontent_get_moreinfobannerurl.htm
 tech.root: DirectShow
 ms.assetid: cc820849-cab2-4770-bdb2-6c4b32f3cc56
-
 ms.date: 12/05/2018
 ms.keywords: IAMMediaContent interface [DirectShow],get_MoreInfoBannerURL method, IAMMediaContent.get_MoreInfoBannerURL, IAMMediaContent::get_MoreInfoBannerURL, IAMMediaContentget_MoreInfoBannerURL, dshow.iammediacontent_get_moreinfobannerurl, get_MoreInfoBannerURL, get_MoreInfoBannerURL method [DirectShow], get_MoreInfoBannerURL method [DirectShow],IAMMediaContent interface, qnetwork/IAMMediaContent::get_MoreInfoBannerURL
 ms.topic: method
-f1_keywords: 
- - "qnetwork/IAMMediaContent.get_MoreInfoBannerURL"
+f1_keywords:
+- qnetwork/IAMMediaContent.get_MoreInfoBannerURL
 dev_langs:
- - c++
+- c++
 req.header: qnetwork.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Qnetwork.h
+- Qnetwork.h
 api_name:
- - IAMMediaContent.get_MoreInfoBannerURL
+- IAMMediaContent.get_MoreInfoBannerURL
 targetos: Windows
 req.typenames: 
 req.redist: 

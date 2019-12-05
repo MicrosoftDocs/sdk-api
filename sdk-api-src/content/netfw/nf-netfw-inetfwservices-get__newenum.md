@@ -1,19 +1,17 @@
 ---
 UID: NF:netfw.INetFwServices.get__NewEnum
 title: INetFwServices::get__NewEnum (netfw.h)
-
 description: Returns an object supporting IEnumVARIANT that can be used to iterate through all the services in the collection.
 old-location: ics\inetfwservices_newenum.htm
 tech.root: ics
 ms.assetid: 2da6560f-2eca-4391-88c1-a86948d19d58
-
 ms.date: 12/05/2018
 ms.keywords: INetFwServices interface [ICS/ICF],_NewEnum property, INetFwServices._NewEnum, INetFwServices.get__NewEnum, INetFwServices::_NewEnum, INetFwServices::get__NewEnum, _NewEnum property [ICS/ICF], _NewEnum property [ICS/ICF],INetFwServices interface, get__NewEnum, ics.inetfwservices_newenum, netfw/INetFwServices::_NewEnum, netfw/INetFwServices::get__NewEnum
 ms.topic: method
-f1_keywords: 
- - "netfw/INetFwServices._NewEnum"
+f1_keywords:
+- netfw/INetFwServices._NewEnum
 dev_langs:
- - c++
+- c++
 req.header: netfw.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: FirewallAPI.dll; Hnetcfg.dll on Windows XP with SP2
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - FirewallAPI.dll
- - Hnetcfg.dll
+- FirewallAPI.dll
+- Hnetcfg.dll
 api_name:
- - INetFwServices._NewEnum
- - INetFwServices.get__NewEnum
+- INetFwServices._NewEnum
+- INetFwServices.get__NewEnum
 targetos: Windows
 req.typenames: 
 req.redist: 

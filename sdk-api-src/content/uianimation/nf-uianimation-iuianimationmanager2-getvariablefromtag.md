@@ -1,19 +1,17 @@
 ---
 UID: NF:uianimation.IUIAnimationManager2.GetVariableFromTag
 title: IUIAnimationManager2::GetVariableFromTag (uianimation.h)
-
 description: Gets the animation variable with the specified tag.
 old-location: uianimation\iuianimationmanager2_getvariablefromtag.htm
 tech.root: UIAnimation
 ms.assetid: ED367DB7-91D6-4D2E-BDAB-27FA4340F091
-
 ms.date: 12/05/2018
 ms.keywords: GetVariableFromTag, GetVariableFromTag method [Windows Animation], GetVariableFromTag method [Windows Animation],IUIAnimationManager2 interface, IUIAnimationManager2 interface [Windows Animation],GetVariableFromTag method, IUIAnimationManager2.GetVariableFromTag, IUIAnimationManager2::GetVariableFromTag, uianimation.iuianimationmanager2_getvariablefromtag, uianimation/IUIAnimationManager2::GetVariableFromTag
 ms.topic: method
-f1_keywords: 
- - "uianimation/IUIAnimationManager2.GetVariableFromTag"
+f1_keywords:
+- uianimation/IUIAnimationManager2.GetVariableFromTag
 dev_langs:
- - c++
+- c++
 req.header: uianimation.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: UIAnimation.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAnimation.dll
+- UIAnimation.dll
 api_name:
- - IUIAnimationManager2.GetVariableFromTag
+- IUIAnimationManager2.GetVariableFromTag
 targetos: Windows
 req.typenames: 
 req.redist: 

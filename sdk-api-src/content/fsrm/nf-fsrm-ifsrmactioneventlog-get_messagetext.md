@@ -1,19 +1,17 @@
 ---
 UID: NF:fsrm.IFsrmActionEventLog.get_MessageText
 title: IFsrmActionEventLog::get_MessageText (fsrm.h)
-
 description: Retrieves or sets the event text that is logged when the action runs.
 old-location: fsrm\ifsrmactioneventlog_messagetext.htm
 tech.root: fsrm
 ms.assetid: 3a883032-808a-47f9-845e-50bad5424304
-
 ms.date: 12/05/2018
 ms.keywords: IFsrmActionEventLog interface [File Server Resource Manager],MessageText property, IFsrmActionEventLog.MessageText, IFsrmActionEventLog.get_MessageText, IFsrmActionEventLog::MessageText, IFsrmActionEventLog::get_MessageText, IFsrmActionEventLog::put_MessageText, MessageText property [File Server Resource Manager], MessageText property [File Server Resource Manager],IFsrmActionEventLog interface, fs.ifsrmactioneventlog_messagetext, fsrm.ifsrmactioneventlog_messagetext, fsrm/IFsrmActionEventLog::MessageText, fsrm/IFsrmActionEventLog::get_MessageText, fsrm/IFsrmActionEventLog::put_MessageText, get_MessageText
 ms.topic: method
-f1_keywords: 
- - "fsrm/IFsrmActionEventLog.MessageText"
+f1_keywords:
+- fsrm/IFsrmActionEventLog.MessageText
 dev_langs:
- - c++
+- c++
 req.header: fsrm.h
 req.include-header: FsrmQuota.h, FsrmScreen.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: SrmSvc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - SrmSvc.dll
+- SrmSvc.dll
 api_name:
- - IFsrmActionEventLog.MessageText
- - IFsrmActionEventLog.get_MessageText
- - IFsrmActionEventLog.put_MessageText
+- IFsrmActionEventLog.MessageText
+- IFsrmActionEventLog.get_MessageText
+- IFsrmActionEventLog.put_MessageText
 targetos: Windows
 req.typenames: 
 req.redist: 

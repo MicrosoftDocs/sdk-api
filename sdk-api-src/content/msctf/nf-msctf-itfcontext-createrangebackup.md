@@ -1,19 +1,17 @@
 ---
 UID: NF:msctf.ITfContext.CreateRangeBackup
 title: ITfContext::CreateRangeBackup (msctf.h)
-
 description: ITfContext::CreateRangeBackup method
 old-location: tsf\itfcontext_createrangebackup.htm
 tech.root: TSF
 ms.assetid: c3b52170-af1b-407b-9160-1265ae3c9afc
-
 ms.date: 12/05/2018
 ms.keywords: CreateRangeBackup, CreateRangeBackup method [Text Services Framework], CreateRangeBackup method [Text Services Framework],ITfContext interface, ITfContext interface [Text Services Framework],CreateRangeBackup method, ITfContext.CreateRangeBackup, ITfContext::CreateRangeBackup, _tsf_itfcontext_createrangebackup_ref, msctf/ITfContext::CreateRangeBackup, tsf.itfcontext_createrangebackup
 ms.topic: method
-f1_keywords: 
- - "msctf/ITfContext.CreateRangeBackup"
+f1_keywords:
+- msctf/ITfContext.CreateRangeBackup
 dev_langs:
- - c++
+- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msctf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msctf.dll
+- msctf.dll
 api_name:
- - ITfContext.CreateRangeBackup
+- ITfContext.CreateRangeBackup
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

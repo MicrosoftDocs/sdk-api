@@ -1,19 +1,17 @@
 ---
 UID: NN:iads.IADsPath
 title: IADsPath (iads.h)
-
 description: The IADsPath interface provides methods for an ADSI client to access the Path attribute.
 old-location: adsi\iadspath.htm
 tech.root: adsi
 ms.assetid: e588195c-eb4f-48d3-a2fa-777dd6dc2901
-
 ms.date: 12/05/2018
 ms.keywords: IADsPath, IADsPath interface [ADSI], IADsPath interface [ADSI],described, _ds_iadspath, adsi.iadspath, iads/IADsPath
 ms.topic: interface
-f1_keywords: 
- - "iads/IADsPath"
+f1_keywords:
+- iads/IADsPath
 dev_langs:
- - c++
+- c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Activeds.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Activeds.dll
+- Activeds.dll
 api_name:
- - IADsPath
+- IADsPath
 targetos: Windows
 req.typenames: 
 req.redist: 

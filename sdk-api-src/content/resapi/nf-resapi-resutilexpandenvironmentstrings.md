@@ -1,19 +1,17 @@
 ---
 UID: NF:resapi.ResUtilExpandEnvironmentStrings
 title: ResUtilExpandEnvironmentStrings function (resapi.h)
-
 description: Expands strings containing unexpanded references to environment variables. The PRESUTIL_EXPAND_ENVIRONMENT_STRINGS type defines a pointer to this function.
 old-location: mscs\resutilexpandenvironmentstrings.htm
 tech.root: MsCS
 ms.assetid: 633e49f5-e01c-4cbd-a2ef-61fcb9e192f4
-
 ms.date: 12/05/2018
 ms.keywords: PRESUTIL_EXPAND_ENVIRONMENT_STRINGS, PRESUTIL_EXPAND_ENVIRONMENT_STRINGS function [Failover Cluster], ResUtilExpandEnvironmentStrings, ResUtilExpandEnvironmentStrings function [Failover Cluster], _wolf_resutilexpandenvironmentstrings, mscs.resutilexpandenvironmentstrings, resapi/PRESUTIL_EXPAND_ENVIRONMENT_STRINGS, resapi/ResUtilExpandEnvironmentStrings
 ms.topic: function
-f1_keywords: 
- - "resapi/ResUtilExpandEnvironmentStrings"
+f1_keywords:
+- resapi/ResUtilExpandEnvironmentStrings
 dev_langs:
- - c++
+- c++
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: ResUtils.lib
 req.dll: ResUtils.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - ResUtils.dll
+- ResUtils.dll
 api_name:
- - ResUtilExpandEnvironmentStrings
+- ResUtilExpandEnvironmentStrings
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NS:mi._MI_ConstChar16A
 title: MI_ConstChar16A (mi.h)
-
 description: Represents an array of MI_Char16 types.
 old-location: wmi_v2\mi_constchar16a.htm
 tech.root: wmi_v2
 ms.assetid: b8b44470-1183-4e88-ab84-fb97806d3f92
-
 ms.date: 12/05/2018
 ms.keywords: MI_ConstChar16A, MI_ConstChar16A structure [Windows Management Infrastructure (MI)], mi/MI_ConstChar16A, wmi._mi_constchar16a, wmi_v2.mi_constchar16a
 ms.topic: struct
-f1_keywords: 
- - "mi/MI_ConstChar16A"
+f1_keywords:
+- mi/MI_ConstChar16A
 dev_langs:
- - c++
+- c++
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Mi.h
+- Mi.h
 api_name:
- - MI_ConstChar16A
+- MI_ConstChar16A
 targetos: Windows
 req.typenames: MI_ConstChar16A
 req.redist: Windows Management Framework 3.0 on Windows Server 2008 R2 with SP1, Windows 7 with SP1, and Windows Server 2008 with SP2

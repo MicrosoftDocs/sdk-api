@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationcore.ITransformProvider.Move
 title: ITransformProvider::Move (uiautomationcore.h)
-
 description: Moves the control.
 old-location: winauto\uiauto_ITransformProvider_Move.htm
 tech.root: WinAuto
 ms.assetid: 5abd6b54-a555-4e6f-9868-9c9b3e2f6e50
-
 ms.date: 12/05/2018
 ms.keywords: ITransformProvider interface [Windows Accessibility],Move method, ITransformProvider.Move, ITransformProvider::Move, Move, Move method [Windows Accessibility], Move method [Windows Accessibility],ITransformProvider interface, uiauto.uiauto_ITransformProvider_Move, uiauto_ITransformProvider_Move, uiautomationcore/ITransformProvider::Move, winauto.uiauto_ITransformProvider_Move
 ms.topic: method
-f1_keywords: 
- - "uiautomationcore/ITransformProvider.Move"
+f1_keywords:
+- uiautomationcore/ITransformProvider.Move
 dev_langs:
- - c++
+- c++
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationCore.h
+- UIAutomationCore.h
 api_name:
- - ITransformProvider.Move
+- ITransformProvider.Move
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:winusb.WinUsb_GetAdjustedFrameNumber
 title: WinUsb_GetAdjustedFrameNumber function (winusb.h)
-
 description: The WinUsb_GetAdjustedFrameNumber function computes what the current USB frame number should be based on the frame number value and timestamp.
 old-location: buses\winusb_getadjustedframenumber.htm
 tech.root: usbref
 ms.assetid: 4FB5D8D5-992C-49D2-87FE-FA1F34D98D70
-
 ms.date: 12/05/2018
 ms.keywords: WinUsb_GetAdjustedFrameNumber, WinUsb_GetAdjustedFrameNumber function [Buses], buses.winusb_getadjustedframenumber, winusb/WinUsb_GetAdjustedFrameNumber
 ms.topic: function
-f1_keywords: 
- - "winusb/WinUsb_GetAdjustedFrameNumber"
+f1_keywords:
+- winusb/WinUsb_GetAdjustedFrameNumber
 dev_langs:
- - c++
+- c++
 req.header: winusb.h
 req.include-header: Winusb.h
 req.target-type: Universal
@@ -32,14 +30,14 @@ req.lib: Winusb.lib
 req.dll: Winusb.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Winusb.dll
+- Winusb.dll
 api_name:
- - WinUsb_GetAdjustedFrameNumber
+- WinUsb_GetAdjustedFrameNumber
 targetos: Windows
 req.typenames: 
 req.redist: 

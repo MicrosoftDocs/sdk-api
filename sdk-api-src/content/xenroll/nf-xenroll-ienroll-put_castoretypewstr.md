@@ -1,19 +1,17 @@
 ---
 UID: NF:xenroll.IEnroll.put_CAStoreTypeWStr
 title: IEnroll::put_CAStoreTypeWStr (xenroll.h)
-
 description: Sets or retrieves the type of store to use for the store specified by the CAStoreNameWStr property.
 old-location: security\ienroll4_castoretypewstr.htm
 tech.root: SecCrypto
 ms.assetid: cbb60c1c-04ed-4477-bf8e-4dae9fd964ef
-
 ms.date: 12/05/2018
 ms.keywords: CAStoreTypeWStr property [Security], CAStoreTypeWStr property [Security],IEnroll interface, IEnroll interface [Security],CAStoreTypeWStr property, IEnroll.CAStoreTypeWStr, IEnroll.put_CAStoreTypeWStr, IEnroll::CAStoreTypeWStr, IEnroll::get_CAStoreTypeWStr, IEnroll::put_CAStoreTypeWStr, put_CAStoreTypeWStr, security.ienroll4_castoretypewstr, sz_CERT_STORE_PROV_SYSTEM_W, xenroll/IEnroll::CAStoreTypeWStr, xenroll/IEnroll::get_CAStoreTypeWStr, xenroll/IEnroll::put_CAStoreTypeWStr
 ms.topic: method
-f1_keywords: 
- - "xenroll/IEnroll.CAStoreTypeWStr"
+f1_keywords:
+- xenroll/IEnroll.CAStoreTypeWStr
 dev_langs:
- - c++
+- c++
 req.header: xenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Uuid.lib
 req.dll: Xenroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Xenroll.dll
+- Xenroll.dll
 api_name:
- - IEnroll.CAStoreTypeWStr
- - IEnroll.get_CAStoreTypeWStr
- - IEnroll.put_CAStoreTypeWStr
+- IEnroll.CAStoreTypeWStr
+- IEnroll.get_CAStoreTypeWStr
+- IEnroll.put_CAStoreTypeWStr
 targetos: Windows
 req.typenames: 
 req.redist: 

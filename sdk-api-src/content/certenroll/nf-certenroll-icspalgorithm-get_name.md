@@ -1,19 +1,17 @@
 ---
 UID: NF:certenroll.ICspAlgorithm.get_Name
 title: ICspAlgorithm::get_Name (certenroll.h)
-
 description: Retrieves the abbreviated algorithm name.
 old-location: security\icspalgorithm_name_property.htm
 tech.root: seccertenroll
 ms.assetid: af7fa894-58e2-4607-9b6e-c32d4f412ddf
-
 ms.date: 12/05/2018
 ms.keywords: ICspAlgorithm interface [Security],Name property, ICspAlgorithm.Name, ICspAlgorithm.get_Name, ICspAlgorithm::Name, ICspAlgorithm::get_Name, Name property [Security], Name property [Security],ICspAlgorithm interface, certenroll/ICspAlgorithm::Name, certenroll/ICspAlgorithm::get_Name, get_Name, security.icspalgorithm_name_property
 ms.topic: method
-f1_keywords: 
- - "certenroll/ICspAlgorithm.Name"
+f1_keywords:
+- certenroll/ICspAlgorithm.Name
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: CertEnroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CertEnroll.dll
+- CertEnroll.dll
 api_name:
- - ICspAlgorithm.Name
- - ICspAlgorithm.get_Name
+- ICspAlgorithm.Name
+- ICspAlgorithm.get_Name
 targetos: Windows
 req.typenames: 
 req.redist: 

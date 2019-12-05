@@ -1,19 +1,17 @@
 ---
 UID: NF:vswriter.CVssWriter.GetContext
 title: CVssWriter::GetContext (vswriter.h)
-
 description: The GetContext information returns the current context for any ongoing or possible shadow copies.
 old-location: base\cvsswriter_getcontext.htm
 tech.root: VSS
 ms.assetid: efe2f43b-fbcf-4b30-a6d4-31d563d321c5
-
 ms.date: 12/05/2018
 ms.keywords: CVssWriter interface [VSS],GetContext method, CVssWriter.GetContext, CVssWriter::GetContext, GetContext, GetContext method [VSS], GetContext method [VSS],CVssWriter interface, _win32_cvsswriter_getcontext, base.cvsswriter_getcontext, vswriter/CVssWriter::GetContext
 ms.topic: method
 f1_keywords:
 - vswriter/CVssWriter.GetContext
 dev_langs:
- - c++
+- c++
 req.header: vswriter.h
 req.include-header: Vss.h, VsWriter.h
 req.target-type: Windows

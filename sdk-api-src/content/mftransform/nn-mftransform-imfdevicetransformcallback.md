@@ -1,19 +1,17 @@
 ---
 UID: NN:mftransform.IMFDeviceTransformCallback
 title: IMFDeviceTransformCallback (mftransform.h)
-
 description: Implement this callback to receive notifications when system-allocated frame buffers are sent to the device driver.
 old-location: stream\imfdevicetransformcallback.htm
 tech.root: stream
 ms.assetid: F603F92A-9233-4786-9DE8-AE10BA981DE3
-
 ms.date: 12/05/2018
 ms.keywords: IMFDeviceTransformCallback, IMFDeviceTransformCallback interface [Streaming Media Devices], IMFDeviceTransformCallback interface [Streaming Media Devices],described, mftransform/IMFDeviceTransformCallback, stream.imfdevicetransformcallback
 ms.topic: interface
-f1_keywords: 
- - "mftransform/IMFDeviceTransformCallback"
+f1_keywords:
+- mftransform/IMFDeviceTransformCallback
 dev_langs:
- - c++
+- c++
 req.header: mftransform.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mftransform.h
+- mftransform.h
 api_name:
- - IMFDeviceTransformCallback
+- IMFDeviceTransformCallback
 targetos: Windows
 req.typenames: 
 req.redist: 

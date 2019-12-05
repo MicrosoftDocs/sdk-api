@@ -1,19 +1,17 @@
 ---
 UID: NN:mfidl.IMFMediaStream
 title: IMFMediaStream (mfidl.h)
-
 description: Represents one stream in a media source.
 old-location: mf\imfmediastream.htm
 tech.root: medfound
 ms.assetid: 66d07292-3bfe-4e68-b26f-890996262b98
-
 ms.date: 12/05/2018
 ms.keywords: 66d07292-3bfe-4e68-b26f-890996262b98, IMFMediaStream, IMFMediaStream interface [Media Foundation], IMFMediaStream interface [Media Foundation],described, mf.imfmediastream, mfidl/IMFMediaStream
 ms.topic: interface
-f1_keywords: 
- - "mfidl/IMFMediaStream"
+f1_keywords:
+- mfidl/IMFMediaStream
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFMediaStream
+- IMFMediaStream
 targetos: Windows
 req.typenames: 
 req.redist: 

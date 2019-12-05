@@ -1,18 +1,15 @@
 ---
 UID: NF:bits10_3.IBackgroundCopyJobHttpOptions3.SetServerCertificateValidationInterface
 title: IBackgroundCopyJobHttpOptions3::SetServerCertificateValidationInterface
-
 ms.date: 05/09/2019
 ms.keywords: IBackgroundCopyJobHttpOptions3::SetServerCertificateValidationInterface
 description: Server certificates are sent when an HTTPS connection is opened. Use this method to set a callback to be called to validate those server certificates.
 tech.root: Bits
-
-ms.date: 05/09/2019
 ms.topic: method
-f1_keywords: 
- - "bits10_3/IBackgroundCopyJobHttpOptions3::SetServerCertificateValidationInterface"
+f1_keywords:
+- bits10_3/IBackgroundCopyJobHttpOptions3::SetServerCertificateValidationInterface
 dev_langs:
- - c++
+- c++
 targetos: Windows
 req.assembly: 
 req.construct-type: function
@@ -34,13 +31,13 @@ req.type-library:
 req.umdf-ver: 
 req.unicode-ansi: 
 topic_type:
- - apiref
+- apiref
 api_type:
- - COM
+- COM
 api_location:
- - bits10_3.h
+- bits10_3.h
 api_name:
- - IBackgroundCopyJobHttpOptions3::SetServerCertificateValidationInterface
+- IBackgroundCopyJobHttpOptions3::SetServerCertificateValidationInterface
 ---
 
 ## -description

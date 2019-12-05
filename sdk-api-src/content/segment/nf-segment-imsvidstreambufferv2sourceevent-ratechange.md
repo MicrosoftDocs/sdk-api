@@ -1,19 +1,17 @@
 ---
 UID: NF:segment.IMSVidStreamBufferV2SourceEvent.RateChange
 title: IMSVidStreamBufferV2SourceEvent::RateChange (segment.h)
-
 description: Fired when the SBE2 source filter receives a STREAMBUFFER_EC_RATE_CHANGED event, which indicates the playback rate has changed.
 old-location: mstv\imsvidstreambufferv2sourceevent_ratechange.htm
 tech.root: mstv
 ms.assetid: 32af2323-0018-4e77-bf2e-9ff95e59f91e
-
 ms.date: 12/05/2018
 ms.keywords: IMSVidStreamBufferV2SourceEvent interface [Microsoft TV Technologies],RateChange method, IMSVidStreamBufferV2SourceEvent.RateChange, IMSVidStreamBufferV2SourceEvent::RateChange, RateChange, RateChange method [Microsoft TV Technologies], RateChange method [Microsoft TV Technologies],IMSVidStreamBufferV2SourceEvent interface, mstv.imsvidstreambufferv2sourceevent_ratechange, segment/IMSVidStreamBufferV2SourceEvent::RateChange
 ms.topic: method
-f1_keywords: 
- - "segment/IMSVidStreamBufferV2SourceEvent.RateChange"
+f1_keywords:
+- segment/IMSVidStreamBufferV2SourceEvent.RateChange
 dev_langs:
- - c++
+- c++
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - segment.h
+- segment.h
 api_name:
- - IMSVidStreamBufferV2SourceEvent.RateChange
+- IMSVidStreamBufferV2SourceEvent.RateChange
 targetos: Windows
 req.typenames: 
 req.redist: 

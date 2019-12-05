@@ -1,19 +1,17 @@
 ---
 UID: NN:strmif.IMemAllocatorCallbackTemp
 title: IMemAllocatorCallbackTemp (strmif.h)
-
 description: The IMemAllocatorCallbackTemp interface enables a filter to receive a callback notification from an allocator whenever a sample is returned to the allocator's free list.The use of this interface is deprecated.
 old-location: dshow\imemallocatorcallbacktemp.htm
 tech.root: DirectShow
 ms.assetid: 6213faaa-86ff-46e7-80da-a043cae40805
-
 ms.date: 12/05/2018
 ms.keywords: IMemAllocatorCallbackTemp, IMemAllocatorCallbackTemp interface [DirectShow], IMemAllocatorCallbackTemp interface [DirectShow],described, IMemAllocatorCallbackTempInterface, dshow.imemallocatorcallbacktemp, strmif/IMemAllocatorCallbackTemp
 ms.topic: interface
-f1_keywords: 
- - "strmif/IMemAllocatorCallbackTemp"
+f1_keywords:
+- strmif/IMemAllocatorCallbackTemp
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IMemAllocatorCallbackTemp
+- IMemAllocatorCallbackTemp
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationcore.ILegacyIAccessibleProvider.get_Role
 title: ILegacyIAccessibleProvider::get_Role (uiautomationcore.h)
-
 description: Specifies the role identifier of this element.
 old-location: winauto\uiauto_ILegacyIAccessibleProvider_Role.htm
 tech.root: WinAuto
 ms.assetid: de2c0101-61fd-4a2d-8bef-dc7e30d0d9f4
-
 ms.date: 12/05/2018
 ms.keywords: ILegacyIAccessibleProvider interface [Windows Accessibility],Role property, ILegacyIAccessibleProvider.Role, ILegacyIAccessibleProvider.get_Role, ILegacyIAccessibleProvider::Role, ILegacyIAccessibleProvider::get_Role, Role property [Windows Accessibility], Role property [Windows Accessibility],ILegacyIAccessibleProvider interface, get_Role, uiauto.uiauto_ILegacyIAccessibleProvider_Role, uiauto_ILegacyIAccessibleProvider_Role, uiautomationcore/ILegacyIAccessibleProvider::Role, uiautomationcore/ILegacyIAccessibleProvider::get_Role, winauto.uiauto_ILegacyIAccessibleProvider_Role
 ms.topic: method
-f1_keywords: 
- - "uiautomationcore/ILegacyIAccessibleProvider.Role"
+f1_keywords:
+- uiautomationcore/ILegacyIAccessibleProvider.Role
 dev_langs:
- - c++
+- c++
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: UiAutomationCore.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UiAutomationCore.dll
+- UiAutomationCore.dll
 api_name:
- - ILegacyIAccessibleProvider.Role
- - ILegacyIAccessibleProvider.get_Role
+- ILegacyIAccessibleProvider.Role
+- ILegacyIAccessibleProvider.get_Role
 targetos: Windows
 req.typenames: 
 req.redist: 

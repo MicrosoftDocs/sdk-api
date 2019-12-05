@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.ICustomDestinationList.CommitList
 title: ICustomDestinationList::CommitList (shobjidl_core.h)
-
 description: Declares that the Jump List initiated by a call to ICustomDestinationList::BeginList is complete and ready for display.
 old-location: shell\ICustomDestinationList_CommitList.htm
 tech.root: shell
 ms.assetid: 5f9aa598-9a94-4210-84cd-f4b39e47b260
-
 ms.date: 12/05/2018
 ms.keywords: CommitList, CommitList method [Windows Shell], CommitList method [Windows Shell],ICustomDestinationList interface, ICustomDestinationList interface [Windows Shell],CommitList method, ICustomDestinationList.CommitList, ICustomDestinationList::CommitList, _shell_ICustomDestinationList_CommitList, shell.ICustomDestinationList_CommitList, shobjidl_core/ICustomDestinationList::CommitList
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/ICustomDestinationList.CommitList"
+f1_keywords:
+- shobjidl_core/ICustomDestinationList.CommitList
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Shell32.lib
 req.dll: Shell32.dll (version 6.1 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - ICustomDestinationList.CommitList
+- ICustomDestinationList.CommitList
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:webservices.WsCreateListener
 title: WsCreateListener function (webservices.h)
-
 description: Creates a listener with the specified properties.
 old-location: wsw\wscreatelistener.htm
 tech.root: wsw
 ms.assetid: 2e592fd2-cf88-4f87-a71b-1c3416917fa7
-
 ms.date: 12/05/2018
 ms.keywords: WsCreateListener, WsCreateListener function [Web Services for Windows], webservices/WsCreateListener, wsw.wscreatelistener
 ms.topic: function
 f1_keywords:
 - webservices/WsCreateListener
 dev_langs:
- - c++
+- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

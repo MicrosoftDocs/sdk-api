@@ -1,19 +1,17 @@
 ---
 UID: NF:spellcheck.IUserDictionariesRegistrar.RegisterUserDictionary
 title: IUserDictionariesRegistrar::RegisterUserDictionary (spellcheck.h)
-
 description: Registers a file to be used as a user dictionary for the current user, until unregistered.
 old-location: intl\iuserdictionariesregistrar_registeruserdictionary.htm
 tech.root: Intl
 ms.assetid: 5dd64e20-af2d-4d84-9e66-01ac19f34212
-
 ms.date: 12/05/2018
 ms.keywords: IUserDictionariesRegistrar interface [Internationalization for Windows Applications],RegisterUserDictionary method, IUserDictionariesRegistrar.RegisterUserDictionary, IUserDictionariesRegistrar::RegisterUserDictionary, RegisterUserDictionary, RegisterUserDictionary method [Internationalization for Windows Applications], RegisterUserDictionary method [Internationalization for Windows Applications],IUserDictionariesRegistrar interface, intl.iuserdictionariesregistrar_registeruserdictionary, spellcheck/IUserDictionariesRegistrar::RegisterUserDictionary
 ms.topic: method
-f1_keywords: 
- - "spellcheck/IUserDictionariesRegistrar.RegisterUserDictionary"
+f1_keywords:
+- spellcheck/IUserDictionariesRegistrar.RegisterUserDictionary
 dev_langs:
- - c++
+- c++
 req.header: spellcheck.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Spellcheck.h
+- Spellcheck.h
 api_name:
- - IUserDictionariesRegistrar.RegisterUserDictionary
+- IUserDictionariesRegistrar.RegisterUserDictionary
 targetos: Windows
 req.typenames: 
 req.redist: 

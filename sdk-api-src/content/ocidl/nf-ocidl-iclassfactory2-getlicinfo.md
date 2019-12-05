@@ -1,19 +1,17 @@
 ---
 UID: NF:ocidl.IClassFactory2.GetLicInfo
 title: IClassFactory2::GetLicInfo (ocidl.h)
-
 description: Retrieves information about the licensing capabilities of this class factory.
 old-location: com\iclassfactory2_getlicinfo.htm
 tech.root: com
 ms.assetid: e55d1089-b1df-4de0-9a19-cbd255b36126
-
 ms.date: 12/05/2018
 ms.keywords: GetLicInfo, GetLicInfo method [COM], GetLicInfo method [COM],IClassFactory2 interface, IClassFactory2 interface [COM],GetLicInfo method, IClassFactory2.GetLicInfo, IClassFactory2::GetLicInfo, _com_iclassfactory2_getlicinfo, com.iclassfactory2_getlicinfo, ocidl/IClassFactory2::GetLicInfo
 ms.topic: method
-f1_keywords: 
- - "ocidl/IClassFactory2.GetLicInfo"
+f1_keywords:
+- ocidl/IClassFactory2.GetLicInfo
 dev_langs:
- - c++
+- c++
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - OCIdl.h
+- OCIdl.h
 api_name:
- - IClassFactory2.GetLicInfo
+- IClassFactory2.GetLicInfo
 targetos: Windows
 req.typenames: 
 req.redist: 

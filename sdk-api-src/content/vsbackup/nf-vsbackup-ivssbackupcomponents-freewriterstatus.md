@@ -1,19 +1,17 @@
 ---
 UID: NF:vsbackup.IVssBackupComponents.FreeWriterStatus
 title: IVssBackupComponents::FreeWriterStatus (vsbackup.h)
-
 description: The FreeWriterStatus method frees system resources allocated during the call to IVssBackupComponents::GatherWriterStatus.
 old-location: base\ivssbackupcomponents_freewriterstatus.htm
 tech.root: VSS
 ms.assetid: 2bf4c575-f94d-43df-b141-94ed5a55294b
-
 ms.date: 12/05/2018
 ms.keywords: FreeWriterStatus, FreeWriterStatus method [VSS], FreeWriterStatus method [VSS],IVssBackupComponents interface, IVssBackupComponents interface [VSS],FreeWriterStatus method, IVssBackupComponents.FreeWriterStatus, IVssBackupComponents::FreeWriterStatus, _win32_ivssbackupcomponents_freewriterstatus, base.ivssbackupcomponents_freewriterstatus, vsbackup/IVssBackupComponents::FreeWriterStatus
 ms.topic: method
-f1_keywords: 
- - "vsbackup/IVssBackupComponents.FreeWriterStatus"
+f1_keywords:
+- vsbackup/IVssBackupComponents.FreeWriterStatus
 dev_langs:
- - c++
+- c++
 req.header: vsbackup.h
 req.include-header: VsBackup.h, Vss.h, VsWriter.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: VssApi.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - VssApi.lib
- - VssApi.dll
+- VssApi.lib
+- VssApi.dll
 api_name:
- - IVssBackupComponents.FreeWriterStatus
+- IVssBackupComponents.FreeWriterStatus
 targetos: Windows
 req.typenames: 
 req.redist: 

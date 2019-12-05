@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationcore.ITransformProvider2.get_ZoomMinimum
 title: ITransformProvider2::get_ZoomMinimum (uiautomationcore.h)
-
 description: Retrieves the minimum zoom level of the element.
 old-location: winauto\uiauto_itransformprovider2_zoomminimum.htm
 tech.root: WinAuto
 ms.assetid: 823C5043-214F-455E-8F6F-172A097A169F
-
 ms.date: 12/05/2018
 ms.keywords: ITransformProvider2 interface [Windows Accessibility],ZoomMinimum property, ITransformProvider2.ZoomMinimum, ITransformProvider2.get_ZoomMinimum, ITransformProvider2::ZoomMinimum, ITransformProvider2::get_ZoomMinimum, ZoomMinimum property [Windows Accessibility], ZoomMinimum property [Windows Accessibility],ITransformProvider2 interface, get_ZoomMinimum, uiautomationcore/ITransformProvider2::ZoomMinimum, uiautomationcore/ITransformProvider2::get_ZoomMinimum, winauto.uiauto_itransformprovider2_zoomminimum
 ms.topic: method
-f1_keywords: 
- - "uiautomationcore/ITransformProvider2.ZoomMinimum"
+f1_keywords:
+- uiautomationcore/ITransformProvider2.ZoomMinimum
 dev_langs:
- - c++
+- c++
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationCore.h
+- UIAutomationCore.h
 api_name:
- - ITransformProvider2.ZoomMinimum
- - ITransformProvider2.get_ZoomMinimum
+- ITransformProvider2.ZoomMinimum
+- ITransformProvider2.get_ZoomMinimum
 targetos: Windows
 req.typenames: 
 req.redist: 

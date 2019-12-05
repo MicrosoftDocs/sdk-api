@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi3if.ITMediaControl.Pause
 title: ITMediaControl::Pause (tapi3if.h)
-
 description: The Pause method pauses the action, remaining at the current location in the file.
 old-location: tapi3\itmediacontrol_pause.htm
 tech.root: Tapi
 ms.assetid: ede287ff-2f13-4258-9afe-f6d0958e53b4
-
 ms.date: 12/05/2018
 ms.keywords: ITMediaControl interface [TAPI 2.2],Pause method, ITMediaControl.Pause, ITMediaControl::Pause, Pause, Pause method [TAPI 2.2], Pause method [TAPI 2.2],ITMediaControl interface, _tapi3_itmediacontrol_pause, tapi3.itmediacontrol_pause, tapi3if/ITMediaControl::Pause
 ms.topic: method
-f1_keywords: 
- - "tapi3if/ITMediaControl.Pause"
+f1_keywords:
+- tapi3if/ITMediaControl.Pause
 dev_langs:
- - c++
+- c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Tapi3.dll
+- Tapi3.dll
 api_name:
- - ITMediaControl.Pause
+- ITMediaControl.Pause
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:taskschd.IRegisteredTaskCollection.get__NewEnum
 title: IRegisteredTaskCollection::get__NewEnum (taskschd.h)
-
 description: Gets the collection enumerator for the register task collection.
 old-location: taskschd\iregisteredtaskcollection__newenum.htm
 tech.root: taskschd
 ms.assetid: a28d8615-e13f-4fce-a5c8-1fbb28da9bf4
-
 ms.date: 12/05/2018
 ms.keywords: IRegisteredTaskCollection interface [Task Scheduler],_NewEnum property, IRegisteredTaskCollection._NewEnum, IRegisteredTaskCollection.get__NewEnum, IRegisteredTaskCollection::_NewEnum, IRegisteredTaskCollection::get__NewEnum, _NewEnum property [Task Scheduler], _NewEnum property [Task Scheduler],IRegisteredTaskCollection interface, get__NewEnum, taskschd.iregisteredtaskcollection__newenum, taskschd/IRegisteredTaskCollection::_NewEnum, taskschd/IRegisteredTaskCollection::get__NewEnum
 ms.topic: method
-f1_keywords: 
- - "taskschd/IRegisteredTaskCollection._NewEnum"
+f1_keywords:
+- taskschd/IRegisteredTaskCollection._NewEnum
 dev_langs:
- - c++
+- c++
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Taskschd.lib
 req.dll: Taskschd.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - taskschd.dll
+- taskschd.dll
 api_name:
- - IRegisteredTaskCollection._NewEnum
- - IRegisteredTaskCollection.get__NewEnum
+- IRegisteredTaskCollection._NewEnum
+- IRegisteredTaskCollection.get__NewEnum
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:imapi2.IMultisession.put_InUse
 title: IMultisession::put_InUse (imapi2.h)
-
 description: Determines if this multi-session interface is the one you should use on the current media.
 old-location: imapi\imultisession_put_inuse.htm
 tech.root: imapi
 ms.assetid: d4eef9de-8b7e-4326-b66f-dddbe2b8a05d
-
 ms.date: 12/05/2018
 ms.keywords: IMultisession interface [IMAPI],put_InUse method, IMultisession.put_InUse, IMultisession::put_InUse, imapi.imultisession_put_inuse, imapi2/IMultisession::put_InUse, put_InUse, put_InUse method [IMAPI], put_InUse method [IMAPI],IMultisession interface
 ms.topic: method
-f1_keywords: 
- - "imapi2/IMultisession.put_InUse"
+f1_keywords:
+- imapi2/IMultisession.put_InUse
 dev_langs:
- - c++
+- c++
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - imapi2.h
+- imapi2.h
 api_name:
- - IMultisession.put_InUse
+- IMultisession.put_InUse
 targetos: Windows
 req.typenames: 
 req.redist: 

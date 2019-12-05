@@ -1,19 +1,17 @@
 ---
 UID: NF:winhttp.WinHttpCheckPlatform
 title: WinHttpCheckPlatform function (winhttp.h)
-
 description: The WinHttpCheckPlatform function determines whether the current platform is supported by this version of Microsoft Windows HTTP Services (WinHTTP).
 old-location: http\winhttpcheckplatform.htm
 tech.root: WinHttp
 ms.assetid: 0daec97f-c1c9-4d87-8e24-485e262d8a85
-
 ms.date: 12/05/2018
 ms.keywords: WinHttpCheckPlatform, WinHttpCheckPlatform function [WinHTTP], http.winhttpcheckplatform, winhttp.winhttpcheckplatform_function, winhttp/WinHttpCheckPlatform
 ms.topic: function
-f1_keywords: 
- - "winhttp/WinHttpCheckPlatform"
+f1_keywords:
+- winhttp/WinHttpCheckPlatform
 dev_langs:
- - c++
+- c++
 req.header: winhttp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Winhttp.lib
 req.dll: Winhttp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Winhttp.dll
+- Winhttp.dll
 api_name:
- - WinHttpCheckPlatform
+- WinHttpCheckPlatform
 targetos: Windows
 req.typenames: 
 req.redist: 

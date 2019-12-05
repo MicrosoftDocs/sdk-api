@@ -1,19 +1,17 @@
 ---
 UID: NF:mmc.IPropertySheetCallback.AddPage
 title: IPropertySheetCallback::AddPage (mmc.h)
-
 description: The IPropertySheetCallback::AddPage method enables a snap-in to add a page to a property sheet.
 old-location: mmc\ipropertysheetcallback_addpage.htm
 tech.root: mmc
 ms.assetid: db19fc38-7111-42f2-83a9-a08473a4d49b
-
 ms.date: 12/05/2018
 ms.keywords: AddPage, AddPage method [MMC], AddPage method [MMC],IPropertySheetCallback interface, IPropertySheetCallback interface [MMC],AddPage method, IPropertySheetCallback.AddPage, IPropertySheetCallback::AddPage, _slate_ipropertysheetcallback_addpage, mmc.ipropertysheetcallback_addpage, mmc/IPropertySheetCallback::AddPage
 ms.topic: method
-f1_keywords: 
- - "mmc/IPropertySheetCallback.AddPage"
+f1_keywords:
+- mmc/IPropertySheetCallback.AddPage
 dev_langs:
- - c++
+- c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Mmcndmgr.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mmcndmgr.dll
+- Mmcndmgr.dll
 api_name:
- - IPropertySheetCallback.AddPage
+- IPropertySheetCallback.AddPage
 targetos: Windows
 req.typenames: 
 req.redist: 

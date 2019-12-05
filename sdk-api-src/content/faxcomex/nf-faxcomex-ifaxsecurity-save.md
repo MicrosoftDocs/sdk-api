@@ -1,19 +1,17 @@
 ---
 UID: NF:faxcomex.IFaxSecurity.Save
 title: IFaxSecurity::Save (faxcomex.h)
-
 description: The IFaxSecurity::Save method saves the FaxSecurity object data.
 old-location: fax\_mfax_faxsecurity_cpp_mfax_faxsecurity_save_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_9qzp.htm
-
 ms.date: 12/05/2018
 ms.keywords: IFaxSecurity interface [Fax Service],Save method, IFaxSecurity.Save, IFaxSecurity::Save, Save, Save method [Fax Service], Save method [Fax Service],IFaxSecurity interface, _mfax_faxsecurity.save, fax._mfax_faxsecurity_cpp_mfax_faxsecurity_save_cpp, fax._mfax_faxsecurity_save, faxcomex/IFaxSecurity::Save
 ms.topic: method
-f1_keywords: 
- - "faxcomex/IFaxSecurity.Save"
+f1_keywords:
+- faxcomex/IFaxSecurity.Save
 dev_langs:
- - c++
+- c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: Fxscomex.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Fxscomex.dll
+- Fxscomex.dll
 api_name:
- - IFaxSecurity.Save
- - IFaxSecurity.Save
+- IFaxSecurity.Save
+- IFaxSecurity.Save
 targetos: Windows
 req.typenames: 
 req.redist: 

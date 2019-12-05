@@ -1,19 +1,17 @@
 ---
 UID: NN:sbtsv.ITsSbPropertySet
 title: ITsSbPropertySet (sbtsv.h)
-
 description: Can be used to define custom properties as appropriate.
 old-location: termserv\itssbpropertyset.htm
 tech.root: TermServ
 ms.assetid: 687a96db-f066-465b-858b-2c19fe2f171c
-
 ms.date: 12/05/2018
 ms.keywords: ITsSbPropertySet, ITsSbPropertySet interface [Remote Desktop Services], ITsSbPropertySet interface [Remote Desktop Services],described, sbtsv/ITsSbPropertySet, termserv.itssbpropertyset
 ms.topic: interface
-f1_keywords: 
- - "sbtsv/ITsSbPropertySet"
+f1_keywords:
+- sbtsv/ITsSbPropertySet
 dev_langs:
- - c++
+- c++
 req.header: sbtsv.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - sbtsv.h
+- sbtsv.h
 api_name:
- - ITsSbPropertySet
+- ITsSbPropertySet
 targetos: Windows
 req.typenames: 
 req.redist: 

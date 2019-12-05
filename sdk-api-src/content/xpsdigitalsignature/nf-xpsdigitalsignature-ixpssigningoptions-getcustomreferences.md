@@ -1,19 +1,17 @@
 ---
 UID: NF:xpsdigitalsignature.IXpsSigningOptions.GetCustomReferences
 title: IXpsSigningOptions::GetCustomReferences (xpsdigitalsignature.h)
-
 description: Gets a pointer to an IOpcSignatureReferenceSet interface, which contains a set of signature custom references.
 old-location: xps\ixpssigningoptions_getcustomreferences.htm
 tech.root: printdocs
 ms.assetid: 1a9ab939-4581-40a9-acd3-2afe02c5e201
-
 ms.date: 12/05/2018
 ms.keywords: GetCustomReferences, GetCustomReferences method [XPS Documents and Packaging], GetCustomReferences method [XPS Documents and Packaging],IXpsSigningOptions interface, IXpsSigningOptions interface [XPS Documents and Packaging],GetCustomReferences method, IXpsSigningOptions.GetCustomReferences, IXpsSigningOptions::GetCustomReferences, xps.ixpssigningoptions_getcustomreferences, xpsdigitalsignature/IXpsSigningOptions::GetCustomReferences
 ms.topic: method
-f1_keywords: 
- - "xpsdigitalsignature/IXpsSigningOptions.GetCustomReferences"
+f1_keywords:
+- xpsdigitalsignature/IXpsSigningOptions.GetCustomReferences
 dev_langs:
- - c++
+- c++
 req.header: xpsdigitalsignature.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsdigitalsignature.h
+- xpsdigitalsignature.h
 api_name:
- - IXpsSigningOptions.GetCustomReferences
+- IXpsSigningOptions.GetCustomReferences
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:windows.foundation.IPropertyValueStatics.CreateSizeArray
 title: IPropertyValueStatics::IPropertyValueStatics (windows.foundation.h)
-
 description: Creates a new IPropertyValue object that contains the specified array of Size values.
 old-location: winrt\ipropertyvaluestatics_createsizearray.htm
 tech.root: WinRT
 ms.assetid: 8b9916e7-0a0d-44b1-8f8d-8307c145e57a
-
 ms.date: 12/05/2018
 ms.keywords: CreateSizeArray, CreateSizeArray method [Windows Runtime], CreateSizeArray method [Windows Runtime],IPropertyValueStatics interface, IPropertyValueStatics interface [Windows Runtime],CreateSizeArray method, IPropertyValueStatics.CreateSizeArray, IPropertyValueStatics.IPropertyValueStatics, IPropertyValueStatics::CreateSizeArray, IPropertyValueStatics::IPropertyValueStatics, windows/IPropertyValueStatics::CreateSizeArray, winrt.ipropertyvaluefactory_createsizearray, winrt.ipropertyvaluestatics_createsizearray
 ms.topic: method
-f1_keywords: 
- - "windows.foundation/IPropertyValueStatics.CreateSizeArray"
+f1_keywords:
+- windows.foundation/IPropertyValueStatics.CreateSizeArray
 dev_langs:
- - c++
+- c++
 req.header: windows.foundation.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Windows.Foundation.h
+- Windows.Foundation.h
 api_name:
- - IPropertyValueStatics.CreateSizeArray
+- IPropertyValueStatics.CreateSizeArray
 targetos: Windows
 req.typenames: 
 req.redist: 

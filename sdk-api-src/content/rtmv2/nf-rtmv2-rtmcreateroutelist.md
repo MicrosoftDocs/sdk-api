@@ -1,19 +1,17 @@
 ---
 UID: NF:rtmv2.RtmCreateRouteList
 title: RtmCreateRouteList function (rtmv2.h)
-
 description: The RtmCreateRouteList function creates a list in which the caller can keep a copy of the routes it owns.
 old-location: rras\rtmcreateroutelist.htm
 tech.root: RRAS
 ms.assetid: 6fa732a8-6c2f-4034-ab13-d64845fab14c
-
 ms.date: 12/05/2018
 ms.keywords: RtmCreateRouteList, RtmCreateRouteList function [RAS], _rtmv2ref_rtmcreateroutelist, rras.rtmcreateroutelist, rtmv2/RtmCreateRouteList
 ms.topic: function
-f1_keywords: 
- - "rtmv2/RtmCreateRouteList"
+f1_keywords:
+- rtmv2/RtmCreateRouteList
 dev_langs:
- - c++
+- c++
 req.header: rtmv2.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Rtm.lib
 req.dll: Rtm.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Rtm.dll
+- Rtm.dll
 api_name:
- - RtmCreateRouteList
+- RtmCreateRouteList
 targetos: Windows
 req.typenames: 
 req.redist: 

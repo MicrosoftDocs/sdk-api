@@ -1,19 +1,17 @@
 ---
 UID: NN:uianimation.IUIAnimationVariableIntegerChangeHandler2
 title: IUIAnimationVariableIntegerChangeHandler2 (uianimation.h)
-
 description: Defines a method for handling animation variable update events. IUIAnimationVariableIntegerChangeHandler2 handles events that occur in a specified dimension.
 old-location: uianimation\iuianimationvariableintegerchangehandler2.htm
 tech.root: UIAnimation
 ms.assetid: 778BE01B-360C-431C-9515-DE43B4F2B77D
-
 ms.date: 12/05/2018
 ms.keywords: IUIAnimationVariableIntegerChangeHandler2, IUIAnimationVariableIntegerChangeHandler2 interface [Windows Animation], IUIAnimationVariableIntegerChangeHandler2 interface [Windows Animation],described, uianimation.iuianimationvariableintegerchangehandler2, uianimation/IUIAnimationVariableIntegerChangeHandler2
 ms.topic: interface
-f1_keywords: 
- - "uianimation/IUIAnimationVariableIntegerChangeHandler2"
+f1_keywords:
+- uianimation/IUIAnimationVariableIntegerChangeHandler2
 dev_langs:
- - c++
+- c++
 req.header: uianimation.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: UIAnimation.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAnimation.dll
+- UIAnimation.dll
 api_name:
- - IUIAnimationVariableIntegerChangeHandler2
+- IUIAnimationVariableIntegerChangeHandler2
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi3if.ITCallInfo.put_CallInfoBuffer
 title: ITCallInfo::put_CallInfoBuffer (tapi3if.h)
-
 description: The put_CallInfoBuffer method sets call information items which require a buffer, such as user-user information.
 old-location: tapi3\itcallinfo_put_callinfobuffer.htm
 tech.root: Tapi
 ms.assetid: 4404ec08-2443-4d1a-8f94-5eb1b3315169
-
 ms.date: 12/05/2018
 ms.keywords: ITCallInfo interface [TAPI 2.2],put_CallInfoBuffer method, ITCallInfo.put_CallInfoBuffer, ITCallInfo::put_CallInfoBuffer, _tapi3_itcallinfo_put_callinfobuffer, put_CallInfoBuffer, put_CallInfoBuffer method [TAPI 2.2], put_CallInfoBuffer method [TAPI 2.2],ITCallInfo interface, tapi3.itcallinfo_put_callinfobuffer, tapi3if/ITCallInfo::put_CallInfoBuffer
 ms.topic: method
-f1_keywords: 
- - "tapi3if/ITCallInfo.put_CallInfoBuffer"
+f1_keywords:
+- tapi3if/ITCallInfo.put_CallInfoBuffer
 dev_langs:
- - c++
+- c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Tapi3.dll
+- Tapi3.dll
 api_name:
- - ITCallInfo.put_CallInfoBuffer
+- ITCallInfo.put_CallInfoBuffer
 targetos: Windows
 req.typenames: 
 req.redist: 

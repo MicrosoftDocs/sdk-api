@@ -1,19 +1,17 @@
 ---
 UID: NF:shlwapi.PathRemoveArgsW
 title: PathRemoveArgsW function (shlwapi.h)
-
 description: Removes any arguments from a given path.
 old-location: shell\PathRemoveArgs.htm
 tech.root: shell
 ms.assetid: 430072bc-4ddc-4b3d-bf32-fb60d7b56faf
-
 ms.date: 12/05/2018
 ms.keywords: PathRemoveArgs, PathRemoveArgs function [Windows Shell], PathRemoveArgsA, PathRemoveArgsW, _win32_PathRemoveArgs, shell.PathRemoveArgs, shlwapi/PathRemoveArgs, shlwapi/PathRemoveArgsA, shlwapi/PathRemoveArgsW
 ms.topic: function
-f1_keywords: 
- - "shlwapi/PathRemoveArgs"
+f1_keywords:
+- shlwapi/PathRemoveArgs
 dev_langs:
- - c++
+- c++
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib: Shlwapi.lib
 req.dll: Shlwapi.dll (version 4.71 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Shlwapi.dll
- - API-MS-Win-shlwapi-Winrt-storage-l1-1-0.dll
- - api-ms-win-shlwapi-winrt-storage-l1-1-1.dll
+- Shlwapi.dll
+- API-MS-Win-shlwapi-Winrt-storage-l1-1-0.dll
+- api-ms-win-shlwapi-winrt-storage-l1-1-1.dll
 api_name:
- - PathRemoveArgs
- - PathRemoveArgsA
- - PathRemoveArgsW
+- PathRemoveArgs
+- PathRemoveArgsA
+- PathRemoveArgsW
 targetos: Windows
 req.typenames: 
 req.redist: 

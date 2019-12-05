@@ -1,19 +1,17 @@
 ---
 UID: NN:dsadmin.IDsAdminNewObjPrimarySite
 title: IDsAdminNewObjPrimarySite (dsadmin.h)
-
 description: The IDsAdminNewObjPrimarySite interface is implemented by the system and is used by a primary object creation extension to create a new temporary object in Active Directory Domain Services and then commit the object to persistent memory.
 old-location: ad\idsadminnewobjprimarysite.htm
 tech.root: ad
 ms.assetid: cb46cb8f-28ae-44d0-b1de-dc6c090f8fc6
-
 ms.date: 12/05/2018
 ms.keywords: IDsAdminNewObjPrimarySite, IDsAdminNewObjPrimarySite interface [Active Directory], IDsAdminNewObjPrimarySite interface [Active Directory],described, _glines_idsadminnewobjprimarysite, ad.idsadminnewobjprimarysite, dsadmin/IDsAdminNewObjPrimarySite
 ms.topic: interface
-f1_keywords: 
- - "dsadmin/IDsAdminNewObjPrimarySite"
+f1_keywords:
+- dsadmin/IDsAdminNewObjPrimarySite
 dev_langs:
- - c++
+- c++
 req.header: dsadmin.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: DSAdmin.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - DSAdmin.dll
+- DSAdmin.dll
 api_name:
- - IDsAdminNewObjPrimarySite
+- IDsAdminNewObjPrimarySite
 targetos: Windows
 req.typenames: 
 req.redist: 

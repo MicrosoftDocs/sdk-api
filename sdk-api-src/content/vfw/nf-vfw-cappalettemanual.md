@@ -1,19 +1,17 @@
 ---
 UID: NF:vfw.capPaletteManual
 title: capPaletteManual macro (vfw.h)
-
 description: The capPaletteManual macro requests that the capture driver manually sample video frames and create a new palette. You can use this macro or explicitly call the WM_CAP_PAL_MANUALCREATE message.
 old-location: multimedia\cappalettemanual.htm
 tech.root: Multimedia
 ms.assetid: 81dc204a-36a5-45eb-8c29-a6004d3cd49c
-
 ms.date: 12/05/2018
-ms.keywords: "_win32_capPaletteManual, capPaletteManual, capPaletteManual macro [Windows Multimedia], multimedia.cappalettemanual, vfw/capPaletteManual"
+ms.keywords: _win32_capPaletteManual, capPaletteManual, capPaletteManual macro [Windows Multimedia], multimedia.cappalettemanual, vfw/capPaletteManual
 ms.topic: macro
-f1_keywords: 
- - "vfw/capPaletteManual"
+f1_keywords:
+- vfw/capPaletteManual
 dev_langs:
- - c++
+- c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Vfw.h
+- Vfw.h
 api_name:
- - capPaletteManual
+- capPaletteManual
 targetos: Windows
 req.typenames: 
 req.redist: 

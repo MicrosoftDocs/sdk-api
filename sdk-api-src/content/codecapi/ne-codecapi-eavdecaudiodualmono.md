@@ -1,19 +1,17 @@
 ---
 UID: NE:codecapi.eAVDecAudioDualMono
 title: eAVDecAudioDualMono (codecapi.h)
-
 description: Specifies whether the input audio stream is stereo or dual mono. This enumeration is used with the AVDecAudioDualMono property.
 old-location: dshow\eavdecaudiodualmono.htm
 tech.root: DirectShow
 ms.assetid: d9d3cc66-5622-4641-b302-6ecc6a05b1aa
-
 ms.date: 12/05/2018
 ms.keywords: codecapi/eAVDecAudioDualMono, codecapi/eAVDecAudioDualMono_IsDualMono, codecapi/eAVDecAudioDualMono_IsNotDualMono, codecapi/eAVDecAudioDualMono_UnSpecified, dshow.eavdecaudiodualmono, eAVDecAudioDualMono, eAVDecAudioDualMono enumeration [DirectShow], eAVDecAudioDualMonoEnumeration, eAVDecAudioDualMono_IsDualMono, eAVDecAudioDualMono_IsNotDualMono, eAVDecAudioDualMono_UnSpecified
 ms.topic: enum
-f1_keywords: 
- - "codecapi/eAVDecAudioDualMono"
+f1_keywords:
+- codecapi/eAVDecAudioDualMono
 dev_langs:
- - c++
+- c++
 req.header: codecapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - codecapi.h
+- codecapi.h
 api_name:
- - eAVDecAudioDualMono
+- eAVDecAudioDualMono
 targetos: Windows
 req.typenames: 
 req.redist: 

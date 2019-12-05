@@ -1,19 +1,17 @@
 ---
 UID: NF:oleauto.LHashValOfNameSys
 title: LHashValOfNameSys function (oleauto.h)
-
 description: Computes a hash value for a name.
 old-location: automat\lhashvalofnamesys.htm
 tech.root: automat
 ms.assetid: 929c2307-8e73-4576-a705-1cde1f728ba4
-
 ms.date: 12/05/2018
 ms.keywords: LHashValOfNameSys, LHashValOfNameSys function [Automation], _oa96_LHashValOfNameSys, automat.lhashvalofnamesys, oleauto/LHashValOfNameSys
 ms.topic: function
-f1_keywords: 
- - "oleauto/LHashValOfNameSys"
+f1_keywords:
+- oleauto/LHashValOfNameSys
 dev_langs:
- - c++
+- c++
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: OleAut32.lib
 req.dll: OleAut32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - OleAut32.dll
+- OleAut32.dll
 api_name:
- - LHashValOfNameSys
+- LHashValOfNameSys
 targetos: Windows
 req.typenames: 
 req.redist: 

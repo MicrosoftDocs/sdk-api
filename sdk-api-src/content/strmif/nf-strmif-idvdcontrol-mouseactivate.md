@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IDvdControl.MouseActivate
 title: IDvdControl::MouseActivate (strmif.h)
-
 description: Note  The IDvdControl interface is deprecated. Use IDvdControl2 instread. Selects and activates a DVD button in response to a mouse click.
 old-location: dshow\idvdcontrol_mouseactivate.htm
 tech.root: DirectShow
 ms.assetid: ed84c7c8-0ae4-47f5-8a73-c975923722ab
-
 ms.date: 12/05/2018
 ms.keywords: IDvdControl interface [DirectShow],MouseActivate method, IDvdControl.MouseActivate, IDvdControl::MouseActivate, IDvdControlMouseActivate, MouseActivate, MouseActivate method [DirectShow], MouseActivate method [DirectShow],IDvdControl interface, dshow.idvdcontrol_mouseactivate, strmif/IDvdControl::MouseActivate
 ms.topic: method
-f1_keywords: 
- - "strmif/IDvdControl.MouseActivate"
+f1_keywords:
+- strmif/IDvdControl.MouseActivate
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmif.h
+- Strmif.h
 api_name:
- - IDvdControl.MouseActivate
+- IDvdControl.MouseActivate
 targetos: Windows
 req.typenames: 
 req.redist: 

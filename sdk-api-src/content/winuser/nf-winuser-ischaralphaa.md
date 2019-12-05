@@ -1,19 +1,17 @@
 ---
 UID: NF:winuser.IsCharAlphaA
 title: IsCharAlphaA function (winuser.h)
-
 description: Determines whether a character is an alphabetical character. This determination is based on the semantics of the language selected by the user during setup or through Control Panel.
 old-location: menurc\ischaralpha.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\strings\stringreference\stringfunctions\ischaralpha.htm
-
 ms.date: 12/05/2018
 ms.keywords: IsCharAlpha, IsCharAlpha function [Menus and Other Resources], IsCharAlphaA, IsCharAlphaW, _win32_IsCharAlpha, _win32_ischaralpha_cpp, menurc.ischaralpha, winui._win32_ischaralpha, winuser/IsCharAlpha, winuser/IsCharAlphaA, winuser/IsCharAlphaW
 ms.topic: function
-f1_keywords: 
- - "winuser/IsCharAlpha"
+f1_keywords:
+- winuser/IsCharAlpha
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,22 +30,22 @@ req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - User32.dll
- - API-MS-Win-Core-String-l2-1-0.dll
- - KernelBase.dll
- - API-MS-Win-Core-String-l2-1-1.dll
- - API-MS-Win-Core-Stringansi-l1-1-0.dll
- - API-MS-Win-DownLevel-user32-l1-1-0.dll
- - API-MS-Win-DownLevel-user32-l1-1-1.dll
+- User32.dll
+- API-MS-Win-Core-String-l2-1-0.dll
+- KernelBase.dll
+- API-MS-Win-Core-String-l2-1-1.dll
+- API-MS-Win-Core-Stringansi-l1-1-0.dll
+- API-MS-Win-DownLevel-user32-l1-1-0.dll
+- API-MS-Win-DownLevel-user32-l1-1-1.dll
 api_name:
- - IsCharAlpha
- - IsCharAlphaA
- - IsCharAlphaW
+- IsCharAlpha
+- IsCharAlphaA
+- IsCharAlphaW
 targetos: Windows
 req.typenames: 
 req.redist: 

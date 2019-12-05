@@ -1,19 +1,17 @@
 ---
 UID: NF:mswmdm.IMDSPEnumDevice.Skip
 title: IMDSPEnumDevice::Skip (mswmdm.h)
-
 description: The Skip method skips over the next specified number of media device interface(s) in the enumeration sequence.
 old-location: wmdm\imdspenumdevice_skip.htm
 tech.root: WMDM
 ms.assetid: 17b4e680-7f55-4f96-a0ca-acfda9f17784
-
 ms.date: 12/05/2018
 ms.keywords: IMDSPEnumDevice interface [windows Media Device Manager],Skip method, IMDSPEnumDevice.Skip, IMDSPEnumDevice::Skip, IMDSPEnumDeviceSkip, Skip, Skip method [windows Media Device Manager], Skip method [windows Media Device Manager],IMDSPEnumDevice interface, mswmdm/IMDSPEnumDevice::Skip, wmdm.imdspenumdevice_skip
 ms.topic: method
-f1_keywords: 
- - "mswmdm/IMDSPEnumDevice.Skip"
+f1_keywords:
+- mswmdm/IMDSPEnumDevice.Skip
 dev_langs:
- - c++
+- c++
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mssachlp.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mssachlp.lib
- - mssachlp.dll
+- mssachlp.lib
+- mssachlp.dll
 api_name:
- - IMDSPEnumDevice.Skip
+- IMDSPEnumDevice.Skip
 targetos: Windows
 req.typenames: 
 req.redist: 

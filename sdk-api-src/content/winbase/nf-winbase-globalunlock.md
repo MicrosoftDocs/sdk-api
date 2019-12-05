@@ -1,19 +1,17 @@
 ---
 UID: NF:winbase.GlobalUnlock
 title: GlobalUnlock function (winbase.h)
-
 description: Decrements the lock count associated with a memory object that was allocated with GMEM_MOVEABLE.
 old-location: base\globalunlock.htm
 tech.root: Memory
 ms.assetid: 580a2873-7f06-47a1-acf5-c2b3c96e15e7
-
 ms.date: 12/05/2018
 ms.keywords: GlobalUnlock, GlobalUnlock function, _win32_globalunlock, base.globalunlock, winbase/GlobalUnlock
 ms.topic: function
-f1_keywords: 
- - "winbase/GlobalUnlock"
+f1_keywords:
+- winbase/GlobalUnlock
 dev_langs:
- - c++
+- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-Heap-Obsolete-l1-1-0.dll
- - kernel32legacy.dll
- - API-MS-Win-DownLevel-Kernel32-l2-1-0.dll
+- Kernel32.dll
+- API-MS-Win-Core-Heap-Obsolete-l1-1-0.dll
+- kernel32legacy.dll
+- API-MS-Win-DownLevel-Kernel32-l2-1-0.dll
 api_name:
- - GlobalUnlock
+- GlobalUnlock
 targetos: Windows
 req.typenames: 
 req.redist: 

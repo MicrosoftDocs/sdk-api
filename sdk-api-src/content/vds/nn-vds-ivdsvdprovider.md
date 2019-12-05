@@ -1,19 +1,17 @@
 ---
 UID: NN:vds.IVdsVdProvider
 title: IVdsVdProvider (vds.h)
-
 description: Defines methods for creating and managing virtual disks.
 old-location: base\ivdsvdprovider.htm
 tech.root: VDS
 ms.assetid: 812e8ac5-91c5-455a-94e7-2edf55d92cdc
-
 ms.date: 12/05/2018
 ms.keywords: IVdsVdProvider, IVdsVdProvider interface, IVdsVdProvider interface,described, base.ivdsvdprovider, vds/IVdsVdProvider
 ms.topic: interface
-f1_keywords: 
- - "vds/IVdsVdProvider"
+f1_keywords:
+- vds/IVdsVdProvider
 dev_langs:
- - c++
+- c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Uuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Uuid.lib
- - Uuid.dll
+- Uuid.lib
+- Uuid.dll
 api_name:
- - IVdsVdProvider
+- IVdsVdProvider
 targetos: Windows
 req.typenames: 
 req.redist: 

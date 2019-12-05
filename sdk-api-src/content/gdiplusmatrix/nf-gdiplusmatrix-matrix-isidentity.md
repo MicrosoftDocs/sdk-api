@@ -1,19 +1,17 @@
 ---
 UID: NF:gdiplusmatrix.Matrix.IsIdentity
 title: Matrix::IsIdentity (gdiplusmatrix.h)
-
 description: The Matrix::IsIdentity method determines whether this matrix is the identity matrix.
 old-location: gdiplus\_gdiplus_CLASS_Matrix_IsIdentity_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\matrixclass\matrixmethods\isidentity.htm
-
 ms.date: 12/05/2018
 ms.keywords: IsIdentity, IsIdentity method [GDI+], IsIdentity method [GDI+],Matrix class, Matrix class [GDI+],IsIdentity method, Matrix.IsIdentity, Matrix::IsIdentity, _gdiplus_CLASS_Matrix_IsIdentity_, gdiplus._gdiplus_CLASS_Matrix_IsIdentity_
 ms.topic: method
-f1_keywords: 
- - "gdiplusmatrix/Matrix.IsIdentity"
+f1_keywords:
+- gdiplusmatrix/Matrix.IsIdentity
 dev_langs:
- - c++
+- c++
 req.header: gdiplusmatrix.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - Matrix.IsIdentity
+- Matrix.IsIdentity
 targetos: Windows
 req.typenames: 
 req.redist: 

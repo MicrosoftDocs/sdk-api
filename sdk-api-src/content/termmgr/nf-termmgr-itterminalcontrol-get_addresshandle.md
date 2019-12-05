@@ -1,19 +1,17 @@
 ---
 UID: NF:termmgr.ITTerminalControl.get_AddressHandle
 title: ITTerminalControl::get_AddressHandle (termmgr.h)
-
 description: The get_AddressHandle method gets the MSP address handle.
 old-location: tapi3\itterminalcontrol_get_addresshandle.htm
 tech.root: Tapi
 ms.assetid: 6f222dea-059a-4eda-bcbc-cd6c61cdf2fa
-
 ms.date: 12/05/2018
 ms.keywords: ITTerminalControl interface [TAPI 2.2],get_AddressHandle method, ITTerminalControl.get_AddressHandle, ITTerminalControl::get_AddressHandle, _tapi3_itterminalcontrol_get_addresshandle, get_AddressHandle, get_AddressHandle method [TAPI 2.2], get_AddressHandle method [TAPI 2.2],ITTerminalControl interface, tapi3.itterminalcontrol_get_addresshandle, termmgr/ITTerminalControl::get_AddressHandle
 ms.topic: method
-f1_keywords: 
- - "termmgr/ITTerminalControl.get_AddressHandle"
+f1_keywords:
+- termmgr/ITTerminalControl.get_AddressHandle
 dev_langs:
- - c++
+- c++
 req.header: termmgr.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Termmgr.h
+- Termmgr.h
 api_name:
- - ITTerminalControl.get_AddressHandle
+- ITTerminalControl.get_AddressHandle
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:dwmapi.DwmRenderGesture
 title: DwmRenderGesture function (dwmapi.h)
-
 description: Notifies Desktop Window Manager (DWM) that a touch contact has been recognized as a gesture, and that DWM should draw feedback for that gesture.
 old-location: dwm\dwmrendergesture.htm
 tech.root: dwm
 ms.assetid: 2daad062-dd7f-4a0b-a31e-134980f5bebd
-
 ms.date: 12/05/2018
 ms.keywords: DwmRenderGesture, DwmRenderGesture function [Desktop Window Manager], dwm.dwmrendergesture, dwmapi/DwmRenderGesture
 ms.topic: function
-f1_keywords: 
- - "dwmapi/DwmRenderGesture"
+f1_keywords:
+- dwmapi/DwmRenderGesture
 dev_langs:
- - c++
+- c++
 req.header: dwmapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Dwmapi.lib
 req.dll: Dwmapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Dwmapi.dll
- - API-MS-Win-dwmapi-l1-1-0.dll
- - Ext-Ms-Win-DwmAPI-Ext-L1-1-0.dll
+- Dwmapi.dll
+- API-MS-Win-dwmapi-l1-1-0.dll
+- Ext-Ms-Win-DwmAPI-Ext-L1-1-0.dll
 api_name:
- - DwmRenderGesture
+- DwmRenderGesture
 targetos: Windows
 req.typenames: 
 req.redist: 

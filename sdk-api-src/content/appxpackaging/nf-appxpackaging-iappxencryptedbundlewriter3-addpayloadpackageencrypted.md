@@ -1,19 +1,17 @@
 ---
 UID: NF:appxpackaging.IAppxEncryptedBundleWriter3.AddPayloadPackageEncrypted
 title: IAppxEncryptedBundleWriter3::AddPayloadPackageEncrypted (appxpackaging.h)
-
 description: Encrypts a new payload package to the bundle.
 old-location: appxpkg\iappxencryptedbundlewriter3_addpayloadpackageencrypted.htm
 tech.root: appxpkg
 ms.assetid: DB20D7FE-BB30-4E66-9617-BDDF1E00BB6A
-
 ms.date: 12/05/2018
 ms.keywords: AddPayloadPackageEncrypted, AddPayloadPackageEncrypted method [App packaging and management], AddPayloadPackageEncrypted method [App packaging and management],IAppxEncryptedBundleWriter3 interface, IAppxEncryptedBundleWriter3 interface [App packaging and management],AddPayloadPackageEncrypted method, IAppxEncryptedBundleWriter3.AddPayloadPackageEncrypted, IAppxEncryptedBundleWriter3::AddPayloadPackageEncrypted, appxpackaging/IAppxEncryptedBundleWriter3::AddPayloadPackageEncrypted, appxpkg.iappxencryptedbundlewriter3_addpayloadpackageencrypted
 ms.topic: method
-f1_keywords: 
- - "appxpackaging/IAppxEncryptedBundleWriter3.AddPayloadPackageEncrypted"
+f1_keywords:
+- appxpackaging/IAppxEncryptedBundleWriter3.AddPayloadPackageEncrypted
 dev_langs:
- - c++
+- c++
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - AppxPackaging.h
+- AppxPackaging.h
 api_name:
- - IAppxEncryptedBundleWriter3.AddPayloadPackageEncrypted
+- IAppxEncryptedBundleWriter3.AddPayloadPackageEncrypted
 targetos: Windows
 req.typenames: 
 req.redist: 

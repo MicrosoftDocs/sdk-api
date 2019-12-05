@@ -1,19 +1,17 @@
 ---
 UID: NN:tuner.IEnumComponentTypes
 title: IEnumComponentTypes (tuner.h)
-
 description: The IEnumComponentTypes interface is implemented on a standard COM collection of ComponentType objects associated with a given broadcast stream, and returned through a call to IComponentTypes::EnumComponentTypes.
 old-location: mstv\ienumcomponenttypes.htm
 tech.root: mstv
 ms.assetid: ad7fb66d-6592-47ae-9a2f-4432d8aaaebb
-
 ms.date: 12/05/2018
 ms.keywords: IEnumComponentTypes, IEnumComponentTypes interface [Microsoft TV Technologies], IEnumComponentTypes interface [Microsoft TV Technologies],described, IEnumComponentTypesInterface, mstv.ienumcomponenttypes, tuner/IEnumComponentTypes
 ms.topic: interface
-f1_keywords: 
- - "tuner/IEnumComponentTypes"
+f1_keywords:
+- tuner/IEnumComponentTypes
 dev_langs:
- - c++
+- c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - tuner.h
+- tuner.h
 api_name:
- - IEnumComponentTypes
+- IEnumComponentTypes
 targetos: Windows
 req.typenames: 
 req.redist: 

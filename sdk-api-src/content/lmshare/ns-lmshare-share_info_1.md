@@ -1,19 +1,17 @@
 ---
 UID: NS:lmshare._SHARE_INFO_1
 title: SHARE_INFO_1 (lmshare.h)
-
 description: Contains information about the shared resource, including the name and type of the resource, and a comment associated with the resource.
 old-location: fs\share_info_1_str.htm
 tech.root: NetShare
 ms.assetid: 9bc69340-4ea5-4180-ae5c-667c0a245b66
-
 ms.date: 12/05/2018
-ms.keywords: "*LPSHARE_INFO_1, *PSHARE_INFO_1, LPSHARE_INFO_1, LPSHARE_INFO_1 structure pointer [Files], PSHARE_INFO_1, PSHARE_INFO_1 structure pointer [Files], SHARE_INFO_1, SHARE_INFO_1 structure [Files], STYPE_DEVICE, STYPE_DISKTREE, STYPE_IPC, STYPE_PRINTQ, STYPE_SPECIAL, STYPE_TEMPORARY, _win32_share_info_1_str, fs.share_info_1_str, lmshare/LPSHARE_INFO_1, lmshare/PSHARE_INFO_1, lmshare/SHARE_INFO_1, netmgmt.share_info_1_str"
+ms.keywords: '*LPSHARE_INFO_1, *PSHARE_INFO_1, LPSHARE_INFO_1, LPSHARE_INFO_1 structure pointer [Files], PSHARE_INFO_1, PSHARE_INFO_1 structure pointer [Files], SHARE_INFO_1, SHARE_INFO_1 structure [Files], STYPE_DEVICE, STYPE_DISKTREE, STYPE_IPC, STYPE_PRINTQ, STYPE_SPECIAL, STYPE_TEMPORARY, _win32_share_info_1_str, fs.share_info_1_str, lmshare/LPSHARE_INFO_1, lmshare/PSHARE_INFO_1, lmshare/SHARE_INFO_1, netmgmt.share_info_1_str'
 ms.topic: struct
-f1_keywords: 
- - "lmshare/SHARE_INFO_1"
+f1_keywords:
+- lmshare/SHARE_INFO_1
 dev_langs:
- - c++
+- c++
 req.header: lmshare.h
 req.include-header: Lm.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Lmshare.h
+- Lmshare.h
 api_name:
- - SHARE_INFO_1
+- SHARE_INFO_1
 targetos: Windows
 req.typenames: SHARE_INFO_1, *PSHARE_INFO_1, *LPSHARE_INFO_1
 req.redist: 

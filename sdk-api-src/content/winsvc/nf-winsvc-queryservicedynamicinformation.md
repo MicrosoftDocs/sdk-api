@@ -1,19 +1,17 @@
 ---
 UID: NF:winsvc.QueryServiceDynamicInformation
 title: QueryServiceDynamicInformation function (winsvc.h)
-
 description: Retrieves dynamic information related to the current service start.
 old-location: base\queryservicedynamicinformation.htm
 tech.root: Services
 ms.assetid: 499b63fd-e77b-4b90-9ee7-ff4b7b12c431
-
 ms.date: 12/05/2018
 ms.keywords: QueryServiceDynamicInformation, QueryServiceDynamicInformation function, SERVICE_DYNAMIC_INFORMATION_LEVEL_START_REASON, base.queryservicedynamicinformation, winsvc/QueryServiceDynamicInformation
 ms.topic: function
-f1_keywords: 
- - "winsvc/QueryServiceDynamicInformation"
+f1_keywords:
+- winsvc/QueryServiceDynamicInformation
 dev_langs:
- - c++
+- c++
 req.header: winsvc.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Advapi32.dll
- - API-MS-Win-Service-Core-l1-1-1.dll
- - sechost.dll
- - API-Ms-Win-Service-Core-L1-1-2.dll
+- Advapi32.dll
+- API-MS-Win-Service-Core-l1-1-1.dll
+- sechost.dll
+- API-Ms-Win-Service-Core-L1-1-2.dll
 api_name:
- - QueryServiceDynamicInformation
+- QueryServiceDynamicInformation
 targetos: Windows
 req.typenames: 
 req.redist: 

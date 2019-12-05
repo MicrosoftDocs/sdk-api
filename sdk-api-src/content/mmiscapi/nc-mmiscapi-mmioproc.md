@@ -1,19 +1,17 @@
 ---
 UID: NC:mmiscapi.MMIOPROC
 title: MMIOPROC (mmiscapi.h)
-
 description: The MMIOProc function is a custom input/output (I/O) procedure installed by the mmioInstallIOProc function.
 old-location: multimedia\mmioproc.htm
 tech.root: Multimedia
 ms.assetid: 8f7ca236-8bdf-477d-843d-d825cc606e0e
-
 ms.date: 12/05/2018
 ms.keywords: MMIOProc, MMIOProc callback, MMIOProc callback function [Windows Multimedia], _win32_MMIOProc, mmsystem/MMIOProc, multimedia.mmioproc
 ms.topic: callback
-f1_keywords: 
- - "mmiscapi/MMIOProc"
+f1_keywords:
+- mmiscapi/MMIOProc
 dev_langs:
- - c++
+- c++
 req.header: mmiscapi.h
 req.include-header: Mmiscapi.h, Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Mmsystem.h
+- Mmsystem.h
 api_name:
- - MMIOProc
+- MMIOProc
 targetos: Windows
 req.typenames: 
 req.redist: 

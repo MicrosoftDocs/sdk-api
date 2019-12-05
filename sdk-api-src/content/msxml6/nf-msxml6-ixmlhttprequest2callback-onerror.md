@@ -1,19 +1,17 @@
 ---
 UID: NF:msxml6.IXMLHTTPRequest2Callback.OnError
 title: IXMLHTTPRequest2Callback::OnError (msxml6.h)
-
 description: Occurs when an error is encountered or the request has been aborted.
 old-location: ixhr2\ixmlhttprequest2callback_onerror.htm
 tech.root: ixhr2
 ms.assetid: 532C97A7-B952-47BE-A9C7-5B1E5AB4C3D3
-
 ms.date: 12/05/2018
 ms.keywords: IXMLHTTPRequest2Callback interface [XMLHttpRequest2],OnError method, IXMLHTTPRequest2Callback.OnError, IXMLHTTPRequest2Callback::OnError, OnError, OnError method [XMLHttpRequest2], OnError method [XMLHttpRequest2],IXMLHTTPRequest2Callback interface, ixhr2.ixmlhttprequest2callback_onerror, msxml6/IXMLHTTPRequest2Callback::OnError
 ms.topic: method
-f1_keywords: 
- - "msxml6/IXMLHTTPRequest2Callback.OnError"
+f1_keywords:
+- msxml6/IXMLHTTPRequest2Callback.OnError
 dev_langs:
- - c++
+- c++
 req.header: msxml6.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msxml6.h
+- msxml6.h
 api_name:
- - IXMLHTTPRequest2Callback.OnError
+- IXMLHTTPRequest2Callback.OnError
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:contentpartner.IWMPContentPartner.Buy
 title: IWMPContentPartner::Buy (contentpartner.h)
-
 description: Note  This section describes functionality designed for use by online stores. Use of this functionality outside the context of an online store is not supported. The Buy method initiates the purchase of digital media content.
 old-location: wmp\iwmpcontentpartner_buy.htm
 tech.root: WMP
 ms.assetid: a79c3d6e-b587-4bbc-b3bf-6489a54d71f9
-
 ms.date: 12/05/2018
 ms.keywords: Buy, Buy method [Windows Media Player], Buy method [Windows Media Player],IWMPContentPartner interface, IWMPContentPartner interface [Windows Media Player],Buy method, IWMPContentPartner.Buy, IWMPContentPartner::Buy, IWMPContentPartnerBuy, contentpartner/IWMPContentPartner::Buy, wmp.iwmpcontentpartner_buy
 ms.topic: method
-f1_keywords: 
- - "contentpartner/IWMPContentPartner.Buy"
+f1_keywords:
+- contentpartner/IWMPContentPartner.Buy
 dev_langs:
- - c++
+- c++
 req.header: contentpartner.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - contentpartner.h
+- contentpartner.h
 api_name:
- - IWMPContentPartner.Buy
+- IWMPContentPartner.Buy
 targetos: Windows
 req.typenames: 
 req.redist: 

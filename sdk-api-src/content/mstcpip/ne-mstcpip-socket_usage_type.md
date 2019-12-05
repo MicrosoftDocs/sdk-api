@@ -1,19 +1,17 @@
 ---
 UID: NE:mstcpip._SOCKET_USAGE_TYPE
 title: SOCKET_USAGE_TYPE (mstcpip.h)
-
 description: Used to specified the usage type for the socket.
 old-location: winsock\socket_usage_type.htm
 tech.root: WinSock
 ms.assetid: 27142160-7381-47d0-8664-4064be801a06
-
 ms.date: 12/05/2018
 ms.keywords: SOCKET_USAGE_TYPE, SOCKET_USAGE_TYPE enumeration [Winsock], SYSTEM_CRITICAL_SOCKET, mstcpip/SOCKET_USAGE_TYPE, mstcpip/SYSTEM_CRITICAL_SOCKET, winsock.socket_usage_type
 ms.topic: enum
-f1_keywords: 
- - "mstcpip/SOCKET_USAGE_TYPE"
+f1_keywords:
+- mstcpip/SOCKET_USAGE_TYPE
 dev_langs:
- - c++
+- c++
 req.header: mstcpip.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Mstcpip.h
+- Mstcpip.h
 api_name:
- - SOCKET_USAGE_TYPE
+- SOCKET_USAGE_TYPE
 targetos: Windows
 req.typenames: SOCKET_USAGE_TYPE
 req.redist: 

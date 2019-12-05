@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d11.ID3D11DeviceContext.PSGetSamplers
 title: ID3D11DeviceContext::PSGetSamplers (d3d11.h)
-
 description: Get an array of sampler states from the pixel shader pipeline stage.
 old-location: direct3d11\id3d11devicecontext_psgetsamplers.htm
 tech.root: direct3d11
 ms.assetid: 8a86f6c8-4095-48d5-a3aa-a3eef9f4b3e8
-
 ms.date: 12/05/2018
 ms.keywords: ID3D11DeviceContext interface [Direct3D 11],PSGetSamplers method, ID3D11DeviceContext.PSGetSamplers, ID3D11DeviceContext::PSGetSamplers, PSGetSamplers, PSGetSamplers method [Direct3D 11], PSGetSamplers method [Direct3D 11],ID3D11DeviceContext interface, d3d11/ID3D11DeviceContext::PSGetSamplers, direct3d11.id3d11devicecontext_psgetsamplers, ffce57e5-f18e-d0e2-8fb6-4ee3acfcbb90
 ms.topic: method
-f1_keywords: 
- - "d3d11/ID3D11DeviceContext.PSGetSamplers"
+f1_keywords:
+- d3d11/ID3D11DeviceContext.PSGetSamplers
 dev_langs:
- - c++
+- c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: D3D11.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D11.lib
- - D3D11.dll
+- D3D11.lib
+- D3D11.dll
 api_name:
- - ID3D11DeviceContext.PSGetSamplers
+- ID3D11DeviceContext.PSGetSamplers
 targetos: Windows
 req.typenames: 
 req.redist: 

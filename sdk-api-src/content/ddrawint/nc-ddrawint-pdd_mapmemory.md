@@ -1,19 +1,17 @@
 ---
 UID: NC:ddrawint.PDD_MAPMEMORY
 title: PDD_MAPMEMORY (ddrawint.h)
-
 description: The DdMapMemory callback function maps application-modifiable portions of the frame buffer into the user-mode address space of the specified process, or unmaps memory.
 old-location: display\ddmapmemory.htm
 tech.root: display
 ms.assetid: a05e2ba8-dfe1-447d-acfa-0eb8f4252107
-
 ms.date: 12/05/2018
 ms.keywords: DdMapMemory, DdMapMemory callback function [Display Devices], PDD_MAPMEMORY, PDD_MAPMEMORY callback, ddfncs_565a064a-cd87-4f20-8478-05176ce57ad8.xml, ddrawint/DdMapMemory, display.ddmapmemory
 ms.topic: callback
 f1_keywords:
 - ddrawint/DdMapMemory
 dev_langs:
- - c++
+- c++
 req.header: ddrawint.h
 req.include-header: Winddi.h
 req.target-type: Desktop

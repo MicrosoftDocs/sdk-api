@@ -1,19 +1,17 @@
 ---
 UID: NF:windows.ui.xaml.hosting.referencetracker.IReferenceTrackerHost.ReleaseDisconnectedReferenceSources
 title: IReferenceTrackerHost::xaml (windows.ui.xaml.hosting.referencetracker.h)
-
 description: Requests that the host call IUnknown::Release on any reference tracker objects that have been disconnected by a reference source.
 old-location: winrt\ireferencetrackerhost_releasedisconnectedreferencesources.htm
 tech.root: WinRT
 ms.assetid: c8b6f458-a9b9-41b7-a718-a193803842d8
-
 ms.date: 12/05/2018
 ms.keywords: IReferenceTrackerHost interface [Windows Runtime],ReleaseDisconnectedReferenceSources method, IReferenceTrackerHost.ReleaseDisconnectedReferenceSources, IReferenceTrackerHost.xaml, IReferenceTrackerHost::ReleaseDisconnectedReferenceSources, IReferenceTrackerHost::xaml, ReleaseDisconnectedReferenceSources, ReleaseDisconnectedReferenceSources method [Windows Runtime], ReleaseDisconnectedReferenceSources method [Windows Runtime],IReferenceTrackerHost interface, windows/IReferenceTrackerHost::ReleaseDisconnectedReferenceSources, winrt.ireferencetrackerhost_releasedisconnectedreferencesources
 ms.topic: method
-f1_keywords: 
- - "windows.ui.xaml.hosting.referencetracker/IReferenceTrackerHost.ReleaseDisconnectedReferenceSources"
+f1_keywords:
+- windows.ui.xaml.hosting.referencetracker/IReferenceTrackerHost.ReleaseDisconnectedReferenceSources
 dev_langs:
- - c++
+- c++
 req.header: windows.ui.xaml.hosting.referencetracker.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Windows.ui.xaml.hosting.referencetracker.h
+- Windows.ui.xaml.hosting.referencetracker.h
 api_name:
- - IReferenceTrackerHost.ReleaseDisconnectedReferenceSources
+- IReferenceTrackerHost.ReleaseDisconnectedReferenceSources
 targetos: Windows
 req.typenames: 
 req.redist: 

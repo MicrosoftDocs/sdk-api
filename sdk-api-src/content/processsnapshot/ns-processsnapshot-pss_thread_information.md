@@ -1,19 +1,17 @@
 ---
 UID: NS:processsnapshot.__unnamed_struct_5
 title: PSS_THREAD_INFORMATION (processsnapshot.h)
-
 description: Holds thread information returned by PssQuerySnapshot.
 old-location: proc_snap\pss_thread_information.htm
 tech.root: proc_snap
 ms.assetid: 68BC42FD-9A30-462F-AFB1-DF9587C50F45
-
 ms.date: 12/05/2018
 ms.keywords: PSS_THREAD_INFORMATION, PSS_THREAD_INFORMATION structure, proc_snap.pss_thread_information, processsnapshot/PSS_THREAD_INFORMATION
 ms.topic: struct
-f1_keywords: 
- - "processsnapshot/PSS_THREAD_INFORMATION"
+f1_keywords:
+- processsnapshot/PSS_THREAD_INFORMATION
 dev_langs:
- - c++
+- c++
 req.header: processsnapshot.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - processsnapshot.h
+- processsnapshot.h
 api_name:
- - PSS_THREAD_INFORMATION
+- PSS_THREAD_INFORMATION
 targetos: Windows
 req.typenames: PSS_THREAD_INFORMATION
 req.redist: 

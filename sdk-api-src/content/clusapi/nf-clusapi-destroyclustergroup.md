@@ -1,19 +1,17 @@
 ---
 UID: NF:clusapi.DestroyClusterGroup
 title: DestroyClusterGroup function (clusapi.h)
-
 description: Deletes the specified group from a cluster.
 old-location: mscs\destroyclustergroup.htm
 tech.root: MsCS
 ms.assetid: ac293d5b-edc8-4c5f-9b05-9e2349bf1453
-
 ms.date: 12/05/2018
 ms.keywords: DestroyClusterGroup, DestroyClusterGroup function [Failover Cluster], PCLUSAPI_DESTROY_CLUSTER_GROUP, PCLUSAPI_DESTROY_CLUSTER_GROUP function [Failover Cluster], clusapi/DestroyClusterGroup, clusapi/PCLUSAPI_DESTROY_CLUSTER_GROUP, mscs.destroyclustergroup
 ms.topic: function
-f1_keywords: 
- - "clusapi/DestroyClusterGroup"
+f1_keywords:
+- clusapi/DestroyClusterGroup
 dev_langs:
- - c++
+- c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib: ClusAPI.lib
 req.dll: ClusAPI.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - ClusAPI.dll
- - Ext-MS-Win-Cluster-ClusAPI-l1-1-0.dll
- - Ext-MS-Win-Cluster-ClusAPI-l1-1-1.dll
- - Ext-MS-Win-Cluster-ClusAPI-l1-1-2.dll
- - ext-ms-win-cluster-clusapi-l1-1-3.dll
+- ClusAPI.dll
+- Ext-MS-Win-Cluster-ClusAPI-l1-1-0.dll
+- Ext-MS-Win-Cluster-ClusAPI-l1-1-1.dll
+- Ext-MS-Win-Cluster-ClusAPI-l1-1-2.dll
+- ext-ms-win-cluster-clusapi-l1-1-3.dll
 api_name:
- - DestroyClusterGroup
+- DestroyClusterGroup
 targetos: Windows
 req.typenames: 
 req.redist: 

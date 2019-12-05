@@ -1,19 +1,17 @@
 ---
 UID: NF:winbase.QueryThreadProfiling
 title: QueryThreadProfiling function (winbase.h)
-
 description: Determines whether thread profiling is enabled for the specified thread.
 old-location: hcp\querythreadprofiling.htm
 tech.root: hcp
 ms.assetid: cf746694-cc3a-4791-8877-fd879e968811
-
 ms.date: 12/05/2018
 ms.keywords: QueryThreadProfiling, QueryThreadProfiling function [Hardware Counter Profiling], hcp.querythreadprofiling, winbase/QueryThreadProfiling
 ms.topic: function
-f1_keywords: 
- - "winbase/QueryThreadProfiling"
+f1_keywords:
+- winbase/QueryThreadProfiling
 dev_langs:
- - c++
+- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
+- Kernel32.dll
 api_name:
- - QueryThreadProfiling
+- QueryThreadProfiling
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:windowsx.ListBox_InsertString
 title: ListBox_InsertString macro (windowsx.h)
-
 description: Adds a string to a list box at the specified location. You can use this macro or send the LB_INSERTSTRING message explicitly.
 old-location: controls\ListBox_InsertString.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listboxes\listboxreference\listboxmacros\listbox_insertstring.htm
-
 ms.date: 12/05/2018
 ms.keywords: ListBox_InsertString, ListBox_InsertString macro [Windows Controls], _win32_ListBox_InsertString, _win32_ListBox_InsertString_cpp, controls.ListBox_InsertString, controls._win32_ListBox_InsertString, windowsx/ListBox_InsertString
 ms.topic: macro
-f1_keywords: 
- - "windowsx/ListBox_InsertString"
+f1_keywords:
+- windowsx/ListBox_InsertString
 dev_langs:
- - c++
+- c++
 req.header: windowsx.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Windowsx.h
+- Windowsx.h
 api_name:
- - ListBox_InsertString
+- ListBox_InsertString
 targetos: Windows
 req.typenames: 
 req.redist: 

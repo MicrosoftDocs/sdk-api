@@ -1,19 +1,17 @@
 ---
 UID: NF:wdstpdi.WdsTransportProviderGetContentMetadata
 title: WdsTransportProviderGetContentMetadata function (wdstpdi.h)
-
 description: Retrieves metadata for an open content stream.
 old-location: wds\wdstransportprovidergetcontentmetadata.htm
 tech.root: wds
 ms.assetid: ed243373-b5ff-418d-811c-544589ea11ac
-
 ms.date: 12/05/2018
 ms.keywords: WdsTransportProviderGetContentMetadata, WdsTransportProviderGetContentMetadata callback, WdsTransportProviderGetContentMetadata callback function [Windows Deployment Services], wds.wdstransportprovidergetcontentmetadata, wdstpdi/WdsTransportProviderGetContentMetadata
 ms.topic: function
-f1_keywords: 
- - "wdstpdi/WdsTransportProviderGetContentMetadata"
+f1_keywords:
+- wdstpdi/WdsTransportProviderGetContentMetadata
 dev_langs:
- - c++
+- c++
 req.header: wdstpdi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - wdstpdi.h
+- wdstpdi.h
 api_name:
- - WdsTransportProviderGetContentMetadata
+- WdsTransportProviderGetContentMetadata
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NL:vswriter.IVssCreateExpressWriterMetadata
 title: IVssCreateExpressWriterMetadata (vswriter.h)
-
 description: The IVssCreateExpressWriterMetadata interface is a COM interface containing methods to construct the Writer Metadata Document for an express writer.
 old-location: base\ivsscreateexpresswritermetadata.htm
 tech.root: VSS
 ms.assetid: 49112cff-9e61-4218-a013-5ae5eb58b534
-
 ms.date: 12/05/2018
 ms.keywords: IVssCreateExpressWriterMetadata, IVssCreateExpressWriterMetadata interface, IVssCreateExpressWriterMetadata interface,described, base.ivsscreateexpresswritermetadata, vswriter/IVssCreateExpressWriterMetadata
 ms.topic: class
-f1_keywords: 
- - "vswriter/IVssCreateExpressWriterMetadata"
+f1_keywords:
+- vswriter/IVssCreateExpressWriterMetadata
 dev_langs:
- - c++
+- c++
 req.header: vswriter.h
 req.include-header: Vss.h, VsWriter.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: VssApi.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - VssApi.lib
- - VssApi.dll
+- VssApi.lib
+- VssApi.dll
 api_name:
- - IVssCreateExpressWriterMetadata
+- IVssCreateExpressWriterMetadata
 targetos: Windows
 req.typenames: 
 req.redist: 

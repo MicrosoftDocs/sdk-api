@@ -1,19 +1,17 @@
 ---
 UID: NN:faxcomex.IFaxActivity
 title: IFaxActivity (faxcomex.h)
-
 description: The IFaxActivity interface defines a read-only configuration object.
 old-location: fax\_mfax_faxactivity_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_4k55_cpp.htm
-
 ms.date: 12/05/2018
 ms.keywords: IFaxActivity, IFaxActivity interface [Fax Service], IFaxActivity interface [Fax Service],described, _mfax_faxactivity_cpp, fax._mfax_faxactivity_cpp, faxcomex/IFaxActivity
 ms.topic: interface
-f1_keywords: 
- - "faxcomex/IFaxActivity"
+f1_keywords:
+- faxcomex/IFaxActivity
 dev_langs:
- - c++
+- c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Fxscomex.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Fxscomex.dll
+- Fxscomex.dll
 api_name:
- - IFaxActivity
+- IFaxActivity
 targetos: Windows
 req.typenames: 
 req.redist: 

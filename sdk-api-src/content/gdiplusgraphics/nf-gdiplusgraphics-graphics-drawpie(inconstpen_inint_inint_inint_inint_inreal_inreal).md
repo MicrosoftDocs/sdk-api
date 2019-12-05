@@ -1,19 +1,17 @@
 ---
 UID: NF:gdiplusgraphics.Graphics.DrawPie(IN const Pen,IN INT,IN INT,IN INT,IN INT,IN REAL,IN REAL)
 title: Graphics::DrawPie(IN const Pen,IN INT,IN INT,IN INT,IN INT,IN REAL,IN REAL) (gdiplusgraphics.h)
-
 description: The Graphics::DrawPie method draws a pie.
 old-location: gdiplus\_gdiplus_CLASS_Graphics_DrawPie_Pen_pen_INT_x_INT_y_INT_width_INT_height_REAL_startAngle_REAL_sweepA.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\graphicsdrawpiemethods\drawpie_2penpen_intx_inty_intwidth_intheight_rea.htm
-
 ms.date: 12/05/2018
 ms.keywords: DrawPie, DrawPie method [GDI+], DrawPie method [GDI+],Graphics class, Graphics class [GDI+],DrawPie method, Graphics.DrawPie, Graphics.DrawPie(IN const Pen,IN INT,IN INT,IN INT,IN INT,IN REAL,IN REAL), Graphics.DrawPie(const Pen*,INT,INT,INT,INT,REAL,REAL), Graphics::DrawPie, Graphics::DrawPie(IN const Pen,IN INT,IN INT,IN INT,IN INT,IN REAL,IN REAL), _gdiplus_CLASS_Graphics_DrawPie_Pen_pen_INT_x_INT_y_INT_width_INT_height_REAL_startAngle_REAL_sweepA, gdiplus._gdiplus_CLASS_Graphics_DrawPie_Pen_pen_INT_x_INT_y_INT_width_INT_height_REAL_startAngle_REAL_sweepA
 ms.topic: method
-f1_keywords: 
- - "gdiplusgraphics/Graphics.DrawPie"
+f1_keywords:
+- gdiplusgraphics/Graphics.DrawPie
 dev_langs:
- - c++
+- c++
 req.header: gdiplusgraphics.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - Graphics.DrawPie
+- Graphics.DrawPie
 targetos: Windows
 req.typenames: 
 req.redist: 

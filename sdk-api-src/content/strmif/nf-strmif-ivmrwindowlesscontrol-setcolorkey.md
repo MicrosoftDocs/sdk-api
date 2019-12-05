@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IVMRWindowlessControl.SetColorKey
 title: IVMRWindowlessControl::SetColorKey (strmif.h)
-
 description: The SetColorKey method sets the source color key value that the VMR should use.
 old-location: dshow\ivmrwindowlesscontrol_setcolorkey.htm
 tech.root: DirectShow
 ms.assetid: 9facf4af-ed56-4a94-b351-35ddd7f63e6e
-
 ms.date: 12/05/2018
 ms.keywords: IVMRWindowlessControl interface [DirectShow],SetColorKey method, IVMRWindowlessControl.SetColorKey, IVMRWindowlessControl::SetColorKey, IVMRWindowlessControlSetColorKey, SetColorKey, SetColorKey method [DirectShow], SetColorKey method [DirectShow],IVMRWindowlessControl interface, dshow.ivmrwindowlesscontrol_setcolorkey, strmif/IVMRWindowlessControl::SetColorKey
 ms.topic: method
-f1_keywords: 
- - "strmif/IVMRWindowlessControl.SetColorKey"
+f1_keywords:
+- strmif/IVMRWindowlessControl.SetColorKey
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IVMRWindowlessControl.SetColorKey
+- IVMRWindowlessControl.SetColorKey
 targetos: Windows
 req.typenames: 
 req.redist: 

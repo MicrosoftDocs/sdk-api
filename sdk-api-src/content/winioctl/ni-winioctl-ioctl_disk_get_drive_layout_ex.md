@@ -1,19 +1,17 @@
 ---
 UID: NI:winioctl.IOCTL_DISK_GET_DRIVE_LAYOUT_EX
 title: IOCTL_DISK_GET_DRIVE_LAYOUT_EX
-
 description: Retrieves extended information for each entry in the partition tables for a disk.
 old-location: fs\ioctl_disk_get_drive_layout_ex.htm
 tech.root: FileIO
 ms.assetid: 21507182-5a33-4e58-b5ed-3724feefa4ed
-
 ms.date: 12/05/2018
 ms.keywords: IOCTL_DISK_GET_DRIVE_LAYOUT_EX, IOCTL_DISK_GET_DRIVE_LAYOUT_EX control, IOCTL_DISK_GET_DRIVE_LAYOUT_EX control code [Files], _win32_ioctl_disk_get_drive_layout_ex, base.ioctl_disk_get_drive_layout_ex, fs.ioctl_disk_get_drive_layout_ex, winioctl/IOCTL_DISK_GET_DRIVE_LAYOUT_EX
 ms.topic: ioctl
 f1_keywords:
 - winioctl/IOCTL_DISK_GET_DRIVE_LAYOUT_EX
 dev_langs:
- - c++
+- c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

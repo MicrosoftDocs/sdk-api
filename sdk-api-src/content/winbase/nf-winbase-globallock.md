@@ -1,19 +1,17 @@
 ---
 UID: NF:winbase.GlobalLock
 title: GlobalLock function (winbase.h)
-
 description: Locks a global memory object and returns a pointer to the first byte of the object's memory block.
 old-location: base\globallock.htm
 tech.root: Memory
 ms.assetid: 0d7deac2-c9c4-4adc-8a0a-edfc512a4d6c
-
 ms.date: 12/05/2018
 ms.keywords: GlobalLock, GlobalLock function, _win32_globallock, base.globallock, winbase/GlobalLock
 ms.topic: function
-f1_keywords: 
- - "winbase/GlobalLock"
+f1_keywords:
+- winbase/GlobalLock
 dev_langs:
- - c++
+- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-Heap-Obsolete-l1-1-0.dll
- - kernel32legacy.dll
- - API-MS-Win-DownLevel-Kernel32-l2-1-0.dll
+- Kernel32.dll
+- API-MS-Win-Core-Heap-Obsolete-l1-1-0.dll
+- kernel32legacy.dll
+- API-MS-Win-DownLevel-Kernel32-l2-1-0.dll
 api_name:
- - GlobalLock
+- GlobalLock
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:gdipluspen.Pen.GetCompoundArrayCount
 title: Pen::GetCompoundArrayCount (gdipluspen.h)
-
 description: The Pen::GetCompoundArrayCount method gets the number of elements in a compound array.
 old-location: gdiplus\_gdiplus_CLASS_Pen_GetCompoundArrayCount_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\penclass\penmethods\getcompoundarraycount.htm
-
 ms.date: 12/05/2018
 ms.keywords: GetCompoundArrayCount, GetCompoundArrayCount method [GDI+], GetCompoundArrayCount method [GDI+],Pen class, Pen class [GDI+],GetCompoundArrayCount method, Pen.GetCompoundArrayCount, Pen::GetCompoundArrayCount, _gdiplus_CLASS_Pen_GetCompoundArrayCount_, gdiplus._gdiplus_CLASS_Pen_GetCompoundArrayCount_
 ms.topic: method
-f1_keywords: 
- - "gdipluspen/Pen.GetCompoundArrayCount"
+f1_keywords:
+- gdipluspen/Pen.GetCompoundArrayCount
 dev_langs:
- - c++
+- c++
 req.header: gdipluspen.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - Pen.GetCompoundArrayCount
+- Pen.GetCompoundArrayCount
 targetos: Windows
 req.typenames: 
 req.redist: 

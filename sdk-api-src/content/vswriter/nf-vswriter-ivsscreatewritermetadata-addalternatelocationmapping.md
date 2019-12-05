@@ -1,19 +1,17 @@
 ---
 UID: NF:vswriter.IVssCreateWriterMetadata.AddAlternateLocationMapping
 title: IVssCreateWriterMetadata::AddAlternateLocationMapping (vswriter.h)
-
 description: The AddAlternateLocationMapping method creates an alternate location mapping for a file set.
 old-location: base\ivsscreatewritermetadata_addalternatelocationmapping.htm
 tech.root: VSS
 ms.assetid: 966c40d4-8c19-43cc-ba49-028763478f49
-
 ms.date: 12/05/2018
 ms.keywords: AddAlternateLocationMapping, AddAlternateLocationMapping method [VSS], AddAlternateLocationMapping method [VSS],IVssCreateWriterMetadata interface, IVssCreateWriterMetadata interface [VSS],AddAlternateLocationMapping method, IVssCreateWriterMetadata.AddAlternateLocationMapping, IVssCreateWriterMetadata::AddAlternateLocationMapping, _win32_ivsscreatewritermetadata_addalternatelocationmapping, base.ivsscreatewritermetadata_addalternatelocationmapping, vswriter/IVssCreateWriterMetadata::AddAlternateLocationMapping
 ms.topic: method
-f1_keywords: 
- - "vswriter/IVssCreateWriterMetadata.AddAlternateLocationMapping"
+f1_keywords:
+- vswriter/IVssCreateWriterMetadata.AddAlternateLocationMapping
 dev_langs:
- - c++
+- c++
 req.header: vswriter.h
 req.include-header: Vss.h, VsWriter.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: VssApi.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - VssApi.lib
- - VssApi.dll
+- VssApi.lib
+- VssApi.dll
 api_name:
- - IVssCreateWriterMetadata.AddAlternateLocationMapping
+- IVssCreateWriterMetadata.AddAlternateLocationMapping
 targetos: Windows
 req.typenames: 
 req.redist: 

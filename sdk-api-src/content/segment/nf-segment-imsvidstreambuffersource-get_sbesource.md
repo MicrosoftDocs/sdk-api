@@ -1,19 +1,17 @@
 ---
 UID: NF:segment.IMSVidStreamBufferSource.get_SBESource
 title: IMSVidStreamBufferSource::get_SBESource (segment.h)
-
 description: The get_SBESource method retrieves a pointer to the Stream Buffer Source filter.
 old-location: mstv\imsvidstreambuffersource_get_sbesource.htm
 tech.root: mstv
 ms.assetid: 6ba9cf64-bf26-4a17-ae7a-3e92fc67138d
-
 ms.date: 12/05/2018
 ms.keywords: IMSVidStreamBufferSource interface [Microsoft TV Technologies],get_SBESource method, IMSVidStreamBufferSource.get_SBESource, IMSVidStreamBufferSource::get_SBESource, IMSVidStreamBufferSourceget_SBESource, get_SBESource, get_SBESource method [Microsoft TV Technologies], get_SBESource method [Microsoft TV Technologies],IMSVidStreamBufferSource interface, mstv.imsvidstreambuffersource_get_sbesource, segment/IMSVidStreamBufferSource::get_SBESource
 ms.topic: method
-f1_keywords: 
- - "segment/IMSVidStreamBufferSource.get_SBESource"
+f1_keywords:
+- segment/IMSVidStreamBufferSource.get_SBESource
 dev_langs:
- - c++
+- c++
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - segment.h
+- segment.h
 api_name:
- - IMSVidStreamBufferSource.get_SBESource
+- IMSVidStreamBufferSource.get_SBESource
 targetos: Windows
 req.typenames: 
 req.redist: 

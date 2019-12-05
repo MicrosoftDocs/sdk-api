@@ -1,19 +1,17 @@
 ---
 UID: NF:xblidpauthmanager.IXblIdpAuthManager.SetAppViewInitialized
 title: IXblIdpAuthManager::SetAppViewInitialized (xblidpauthmanager.h)
-
 description: Reserved for Microsoft use.
 old-location: xblidp\ixblidpauthmanager_setappviewinitialized.htm
 tech.root: xblidp
 ms.assetid: 0FC3C8A8-FB37-4207-9EC4-4DA15721C7AF
-
 ms.date: 12/05/2018
 ms.keywords: IXblIdpAuthManager interface,SetAppViewInitialized method, IXblIdpAuthManager.SetAppViewInitialized, IXblIdpAuthManager::SetAppViewInitialized, SetAppViewInitialized, SetAppViewInitialized method, SetAppViewInitialized method,IXblIdpAuthManager interface, xblidp.ixblidpauthmanager_setappviewinitialized, xblidpauthmanager/IXblIdpAuthManager::SetAppViewInitialized
 ms.topic: method
-f1_keywords: 
- - "xblidpauthmanager/IXblIdpAuthManager.SetAppViewInitialized"
+f1_keywords:
+- xblidpauthmanager/IXblIdpAuthManager.SetAppViewInitialized
 dev_langs:
- - c++
+- c++
 req.header: xblidpauthmanager.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - XblIdpAuthManager.h
+- XblIdpAuthManager.h
 api_name:
- - IXblIdpAuthManager.SetAppViewInitialized
+- IXblIdpAuthManager.SetAppViewInitialized
 targetos: Windows
 req.typenames: 
 req.redist: 

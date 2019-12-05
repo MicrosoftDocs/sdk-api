@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d11shader.ID3D11ShaderReflectionType.IsEqual
 title: ID3D11ShaderReflectionType::IsEqual (d3d11shader.h)
-
 description: Indicates whether two ID3D11ShaderReflectionType Interface pointers have the same underlying type.
 old-location: direct3d11\id3d11shaderreflectiontype_isequal.htm
 tech.root: direct3d11
 ms.assetid: 99a70bf3-bbd1-49a1-a59f-c35f7236b16f
-
 ms.date: 12/05/2018
 ms.keywords: 5ed95f14-be4b-bff2-83ce-cbf5f239bf3b, ID3D11ShaderReflectionType interface [Direct3D 11],IsEqual method, ID3D11ShaderReflectionType.IsEqual, ID3D11ShaderReflectionType::IsEqual, IsEqual, IsEqual method [Direct3D 11], IsEqual method [Direct3D 11],ID3D11ShaderReflectionType interface, d3d11shader/ID3D11ShaderReflectionType::IsEqual, direct3d11.id3d11shaderreflectiontype_isequal
 ms.topic: method
-f1_keywords: 
- - "d3d11shader/ID3D11ShaderReflectionType.IsEqual"
+f1_keywords:
+- d3d11shader/ID3D11ShaderReflectionType.IsEqual
 dev_langs:
- - c++
+- c++
 req.header: d3d11shader.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: D3DCompiler.lib
 req.dll: D3DCompiler_47.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3DCompiler_47.dll
+- D3DCompiler_47.dll
 api_name:
- - ID3D11ShaderReflectionType.IsEqual
+- ID3D11ShaderReflectionType.IsEqual
 targetos: Windows
 req.typenames: 
 req.redist: 

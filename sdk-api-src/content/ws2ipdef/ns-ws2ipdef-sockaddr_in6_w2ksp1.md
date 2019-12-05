@@ -1,19 +1,17 @@
 ---
 UID: NS:ws2ipdef.sockaddr_in6_w2ksp1
 title: SOCKADDR_IN6_W2KSP1 (ws2ipdef.h)
-
 description: The SOCKADDR_IN6 structure specifies a transport address and port for the AF_INET6 address family.
 old-location: netvista\sockaddr_in6.htm
 tech.root: NetVista
 ms.assetid: ef2955d2-5dc1-420b-a9e0-32a584059d5a
-
 ms.date: 12/05/2018
-ms.keywords: "*LPSOCKADDR_IN6, *LPSOCKADDR_IN6_W2KSP1, *PSOCKADDR_IN6, *PSOCKADDR_IN6_W2KSP1, PSOCKADDR_IN6, PSOCKADDR_IN6 structure pointer [Network Drivers Starting with Windows Vista], SOCKADDR_IN6, SOCKADDR_IN6 structure [Network Drivers Starting with Windows Vista], SOCKADDR_IN6_W2KSP1, netvista.sockaddr_in6, ws2ipdef/PSOCKADDR_IN6, ws2ipdef/SOCKADDR_IN6, wskref_7e70684f-ef0d-45c5-8075-3e9b6fa87337.xml"
+ms.keywords: '*LPSOCKADDR_IN6, *LPSOCKADDR_IN6_W2KSP1, *PSOCKADDR_IN6, *PSOCKADDR_IN6_W2KSP1, PSOCKADDR_IN6, PSOCKADDR_IN6 structure pointer [Network Drivers Starting with Windows Vista], SOCKADDR_IN6, SOCKADDR_IN6 structure [Network Drivers Starting with Windows Vista], SOCKADDR_IN6_W2KSP1, netvista.sockaddr_in6, ws2ipdef/PSOCKADDR_IN6, ws2ipdef/SOCKADDR_IN6, wskref_7e70684f-ef0d-45c5-8075-3e9b6fa87337.xml'
 ms.topic: struct
-f1_keywords: 
- - "ws2ipdef/SOCKADDR_IN6"
+f1_keywords:
+- ws2ipdef/SOCKADDR_IN6
 dev_langs:
- - c++
+- c++
 req.header: ws2ipdef.h
 req.include-header: Ws2ipdef.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Ws2ipdef.h
+- Ws2ipdef.h
 api_name:
- - SOCKADDR_IN6
+- SOCKADDR_IN6
 targetos: Windows
 req.typenames: SOCKADDR_IN6_W2KSP1, *PSOCKADDR_IN6_W2KSP1, *LPSOCKADDR_IN6_W2KSP1
 req.redist: 

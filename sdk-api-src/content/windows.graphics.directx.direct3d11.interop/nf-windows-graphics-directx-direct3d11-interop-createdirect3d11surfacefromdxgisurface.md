@@ -1,18 +1,16 @@
 ---
 UID: NF:windows.graphics.directx.direct3d11.interop.CreateDirect3D11SurfaceFromDXGISurface
 title: CreateDirect3D11SurfaceFromDXGISurface function
-
 description: Creates an instance of IDirect3DSurface from an IDXGISurface.
 tech.root: direct3d11
 ms.assetid: 81213ad6-5736-1d54-c0a6-628697437568
-
 ms.date: 05/13/2019
 ms.keywords: 81213ad6-5736-1d54-c0a6-628697437568, CreateDirect3D11SurfaceFromDXGISurface, CreateDirect3D11SurfaceFromDXGISurface function [Direct3D 11], windows.graphics.directx.direct3d11.interop/CreateDirect3D11SurfaceFromDXGISurface, direct3d11.createdirect3d11surfacefromdxgisurface
 ms.topic: function
-f1_keywords: 
- - "windows.graphics.directx.direct3d11.interop/CreateDirect3D11SurfaceFromDXGISurface"
+f1_keywords:
+- windows.graphics.directx.direct3d11.interop/CreateDirect3D11SurfaceFromDXGISurface
 dev_langs:
- - c++
+- c++
 req.header: windows.graphics.directx.direct3d11.interop.h
 req.include-header: 
 req.target-type: Windows
@@ -31,14 +29,14 @@ req.lib: D3D11.lib
 req.dll: D3D11.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - D3D11.dll
+- D3D11.dll
 api_name:
- - CreateDirect3D11SurfaceFromDXGISurface
+- CreateDirect3D11SurfaceFromDXGISurface
 targetos: Windows
 req.typenames: 
 req.redist: 

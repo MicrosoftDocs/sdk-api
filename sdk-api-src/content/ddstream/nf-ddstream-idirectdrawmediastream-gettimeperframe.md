@@ -1,19 +1,17 @@
 ---
 UID: NF:ddstream.IDirectDrawMediaStream.GetTimePerFrame
 title: IDirectDrawMediaStream::GetTimePerFrame (ddstream.h)
-
 description: Note  This interface is deprecated. New applications should not use it. Retrieves the average frames per second from a video stream.
 old-location: dshow\idirectdrawmediastream_gettimeperframe.htm
 tech.root: DirectShow
 ms.assetid: 24133185-0d5f-41fc-b381-ef982db46dd1
-
 ms.date: 12/05/2018
 ms.keywords: GetTimePerFrame, GetTimePerFrame method [DirectShow], GetTimePerFrame method [DirectShow],IDirectDrawMediaStream interface, IDirectDrawMediaStream interface [DirectShow],GetTimePerFrame method, IDirectDrawMediaStream.GetTimePerFrame, IDirectDrawMediaStream::GetTimePerFrame, IDirectDrawMediaStreamGetTimePerFrame, ddstream/IDirectDrawMediaStream::GetTimePerFrame, dshow.idirectdrawmediastream_gettimeperframe
 ms.topic: method
-f1_keywords: 
- - "ddstream/IDirectDrawMediaStream.GetTimePerFrame"
+f1_keywords:
+- ddstream/IDirectDrawMediaStream.GetTimePerFrame
 dev_langs:
- - c++
+- c++
 req.header: ddstream.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ddstream.h
+- ddstream.h
 api_name:
- - IDirectDrawMediaStream.GetTimePerFrame
+- IDirectDrawMediaStream.GetTimePerFrame
 targetos: Windows
 req.typenames: 
 req.redist: 

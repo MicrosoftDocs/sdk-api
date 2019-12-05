@@ -1,19 +1,17 @@
 ---
 UID: NF:rend.ITDirectoryObjectConference.put_Description
 title: ITDirectoryObjectConference::put_Description (rend.h)
-
 description: The put_Description method sets the description of the conference.
 old-location: tapi3\itdirectoryobjectconference_put_description.htm
 tech.root: Tapi
 ms.assetid: 46f58067-22ec-490e-b6cc-0fdc12dbb8f7
-
 ms.date: 12/05/2018
 ms.keywords: ITDirectoryObjectConference interface [TAPI 2.2],put_Description method, ITDirectoryObjectConference.put_Description, ITDirectoryObjectConference::put_Description, _tapi3_itdirectoryobjectconference_put_description, put_Description, put_Description method [TAPI 2.2], put_Description method [TAPI 2.2],ITDirectoryObjectConference interface, rend/ITDirectoryObjectConference::put_Description, tapi3.itdirectoryobjectconference_put_description
 ms.topic: method
-f1_keywords: 
- - "rend/ITDirectoryObjectConference.put_Description"
+f1_keywords:
+- rend/ITDirectoryObjectConference.put_Description
 dev_langs:
- - c++
+- c++
 req.header: rend.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Rend.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Rend.dll
+- Rend.dll
 api_name:
- - ITDirectoryObjectConference.put_Description
+- ITDirectoryObjectConference.put_Description
 targetos: Windows
 req.typenames: 
 req.redist: 

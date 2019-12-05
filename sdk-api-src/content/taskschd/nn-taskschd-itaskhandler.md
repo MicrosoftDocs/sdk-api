@@ -1,19 +1,17 @@
 ---
 UID: NN:taskschd.ITaskHandler
 title: ITaskHandler (taskschd.h)
-
 description: Defines the methods that are called by the Task Scheduler service to manage a COM handler.
 old-location: taskschd\itaskhandler.htm
 tech.root: taskschd
 ms.assetid: ea3100d7-a80b-4487-9786-24124f2d72f1
-
 ms.date: 12/05/2018
 ms.keywords: ITaskHandler, ITaskHandler interface [Task Scheduler], ITaskHandler interface [Task Scheduler],described, taskschd.itaskhandler, taskschd/ITaskHandler
 ms.topic: interface
-f1_keywords: 
- - "taskschd/ITaskHandler"
+f1_keywords:
+- taskschd/ITaskHandler
 dev_langs:
- - c++
+- c++
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Taskschd.lib
 req.dll: Taskschd.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - taskschd.dll
+- taskschd.dll
 api_name:
- - ITaskHandler
+- ITaskHandler
 targetos: Windows
 req.typenames: 
 req.redist: 

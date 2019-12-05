@@ -1,19 +1,17 @@
 ---
 UID: NC:resapi.PSET_RESOURCE_STATUS_ROUTINE_EX
 title: PSET_RESOURCE_STATUS_ROUTINE_EX (resapi.h)
-
 description: Called to update the status of a resource.
 old-location: mscs\setresourcestatusex.htm
 tech.root: MsCS
 ms.assetid: 3733F912-9D43-489B-91D8-7128D0F5D1A4
-
 ms.date: 12/05/2018
 ms.keywords: PSET_RESOURCE_STATUS_ROUTINE_EX, PSET_RESOURCE_STATUS_ROUTINE_EX callback function [Failover Cluster], SetResourceStatusEx, SetResourceStatusEx callback, SetResourceStatusEx callback function [Failover Cluster], mscs.setresourcestatusex, resapi/PSET_RESOURCE_STATUS_ROUTINE_EX, resapi/SetResourceStatusEx
 ms.topic: callback
 f1_keywords:
 - resapi/SetResourceStatusEx
 dev_langs:
- - c++
+- c++
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows

@@ -1,19 +1,17 @@
 ---
 UID: NF:inputpanelconfiguration.IInputPanelConfiguration.EnableFocusTracking
 title: IInputPanelConfiguration::EnableFocusTracking (inputpanelconfiguration.h)
-
 description: Enables a client process to opt-in to the focus tracking mechanism for Windows Store apps that controls the invoking and dismissing semantics of the touch keyboard.
 old-location: shell\iinputpanelconfiguration_enablefocustracking.htm
 tech.root: shell
 ms.assetid: C20962EF-DB24-43EE-ADA6-4550163F9F73
-
 ms.date: 12/05/2018
 ms.keywords: EnableFocusTracking, EnableFocusTracking method [Windows Shell], EnableFocusTracking method [Windows Shell],IInputPanelConfiguration interface, IInputPanelConfiguration interface [Windows Shell],EnableFocusTracking method, IInputPanelConfiguration.EnableFocusTracking, IInputPanelConfiguration::EnableFocusTracking, inputpanelconfiguration/IInputPanelConfiguration::EnableFocusTracking, shell.iinputpanelconfiguration_enablefocustracking
 ms.topic: method
-f1_keywords: 
- - "inputpanelconfiguration/IInputPanelConfiguration.EnableFocusTracking"
+f1_keywords:
+- inputpanelconfiguration/IInputPanelConfiguration.EnableFocusTracking
 dev_langs:
- - c++
+- c++
 req.header: inputpanelconfiguration.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - inputpanelconfiguration.h
+- inputpanelconfiguration.h
 api_name:
- - IInputPanelConfiguration.EnableFocusTracking
+- IInputPanelConfiguration.EnableFocusTracking
 targetos: Windows
 req.typenames: 
 req.redist: 

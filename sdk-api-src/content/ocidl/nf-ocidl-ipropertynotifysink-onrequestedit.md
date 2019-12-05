@@ -1,19 +1,17 @@
 ---
 UID: NF:ocidl.IPropertyNotifySink.OnRequestEdit
 title: IPropertyNotifySink::OnRequestEdit (ocidl.h)
-
 description: Notifies a sink that a requestedit property is about to change.
 old-location: com\ipropertynotifysink_onrequestedit.htm
 tech.root: com
 ms.assetid: 52f4c45d-d658-4de2-a494-2ae164604681
-
 ms.date: 12/05/2018
 ms.keywords: IPropertyNotifySink interface [COM],OnRequestEdit method, IPropertyNotifySink.OnRequestEdit, IPropertyNotifySink::OnRequestEdit, OnRequestEdit, OnRequestEdit method [COM], OnRequestEdit method [COM],IPropertyNotifySink interface, _ctrl_ipropertynotifysink_onrequestedit, com.ipropertynotifysink_onrequestedit, ocidl/IPropertyNotifySink::OnRequestEdit
 ms.topic: method
-f1_keywords: 
- - "ocidl/IPropertyNotifySink.OnRequestEdit"
+f1_keywords:
+- ocidl/IPropertyNotifySink.OnRequestEdit
 dev_langs:
- - c++
+- c++
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - OCIdl.h
+- OCIdl.h
 api_name:
- - IPropertyNotifySink.OnRequestEdit
+- IPropertyNotifySink.OnRequestEdit
 targetos: Windows
 req.typenames: 
 req.redist: 

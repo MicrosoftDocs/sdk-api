@@ -1,19 +1,17 @@
 ---
 UID: NF:mfidl.IMFSensorStream.CloneSensorStream
 title: IMFSensorStream::CloneSensorStream (mfidl.h)
-
 description: Clones the IMFSensorStream.
 old-location: mf\imfsensorstream_clonesensorstream.htm
 tech.root: medfound
 ms.assetid: A9729DEB-AA59-476B-A309-A960C3B1E40E
-
 ms.date: 12/05/2018
 ms.keywords: CloneSensorStream, CloneSensorStream method [Media Foundation], CloneSensorStream method [Media Foundation],IMFSensorStream interface, IMFSensorStream interface [Media Foundation],CloneSensorStream method, IMFSensorStream.CloneSensorStream, IMFSensorStream::CloneSensorStream, mf.imfsensorstream_clonesensorstream, mfidl/IMFSensorStream::CloneSensorStream
 ms.topic: method
-f1_keywords: 
- - "mfidl/IMFSensorStream.CloneSensorStream"
+f1_keywords:
+- mfidl/IMFSensorStream.CloneSensorStream
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Mfplat.lib; Mfplat.dll
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfplat.lib
- - mfplat.dll
- - mfplat.dll
- - mfplat.dll.dll
+- mfplat.lib
+- mfplat.dll
+- mfplat.dll
+- mfplat.dll.dll
 api_name:
- - IMFSensorStream.CloneSensorStream
+- IMFSensorStream.CloneSensorStream
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:shlobj_core.SHGetKnownFolderItem
 title: SHGetKnownFolderItem function (shlobj_core.h)
-
 description: Retrieves an IShellItem object that represents a known folder.
 old-location: shell\SHGetKnownFolderItem.htm
 tech.root: shell
 ms.assetid: d0880a8c-20dd-47cc-b6c5-23dedb32d453
-
 ms.date: 12/05/2018
 ms.keywords: SHGetKnownFolderItem, SHGetKnownFolderItem function [Windows Shell], _shell_SHGetKnownFolderItem, shell.SHGetKnownFolderItem, shlobj_core/SHGetKnownFolderItem
 ms.topic: function
-f1_keywords: 
- - "shlobj_core/SHGetKnownFolderItem"
+f1_keywords:
+- shlobj_core/SHGetKnownFolderItem
 dev_langs:
- - c++
+- c++
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
 req.target-type: Windows
@@ -32,19 +30,19 @@ req.lib: Shell32.lib
 req.dll: Shell32.dll (version 6.1 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Shell32.dll
- - Ext-MS-Win-shell-shell32-l1-2-0.dll
- - ext-ms-win-shell-shell32-l1-2-1.dll
- - API-MS-Win-Storage-Exports-Internal-L1-1-0.dll
- - Windows.Storage.dll
- - Ext-MS-Win-Shell-Shell32-L1-2-2.dll
+- Shell32.dll
+- Ext-MS-Win-shell-shell32-l1-2-0.dll
+- ext-ms-win-shell-shell32-l1-2-1.dll
+- API-MS-Win-Storage-Exports-Internal-L1-1-0.dll
+- Windows.Storage.dll
+- Ext-MS-Win-Shell-Shell32-L1-2-2.dll
 api_name:
- - SHGetKnownFolderItem
+- SHGetKnownFolderItem
 targetos: Windows
 req.typenames: 
 req.redist: 

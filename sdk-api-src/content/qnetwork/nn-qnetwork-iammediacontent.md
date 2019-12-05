@@ -1,19 +1,17 @@
 ---
 UID: NN:qnetwork.IAMMediaContent
 title: IAMMediaContent (qnetwork.h)
-
 description: The IAMMediaContent interface retrieves metadata from a stream.
 old-location: dshow\iammediacontent.htm
 tech.root: DirectShow
 ms.assetid: bd9cc96d-9664-41f3-9d4f-e5bdb1cb8d09
-
 ms.date: 12/05/2018
 ms.keywords: IAMMediaContent, IAMMediaContent interface [DirectShow], IAMMediaContent interface [DirectShow],described, IAMMediaContentInterface, dshow.iammediacontent, qnetwork/IAMMediaContent
 ms.topic: interface
-f1_keywords: 
- - "qnetwork/IAMMediaContent"
+f1_keywords:
+- qnetwork/IAMMediaContent
 dev_langs:
- - c++
+- c++
 req.header: qnetwork.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Qnetwork.h
+- Qnetwork.h
 api_name:
- - IAMMediaContent
+- IAMMediaContent
 targetos: Windows
 req.typenames: 
 req.redist: 

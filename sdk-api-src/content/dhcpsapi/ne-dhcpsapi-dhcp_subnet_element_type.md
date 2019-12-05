@@ -1,19 +1,17 @@
 ---
 UID: NE:dhcpsapi._DHCP_SUBNET_ELEMENT_TYPE_V5
 title: DHCP_SUBNET_ELEMENT_TYPE (dhcpsapi.h)
-
 description: The DHCP_SUBNET_ELEMENT_TYPE enumeration defines the set of possible subnet element types.
 old-location: dhcp\dhcp_subnet_element_type.htm
 tech.root: DHCP
 ms.assetid: 291be329-0588-4b67-835f-4f2b2369772a
-
 ms.date: 12/05/2018
 ms.keywords: '*LPDHCP_SUBNET_ELEMENT_TYPE, DHCP_SUBNET_ELEMENT_TYPE, DHCP_SUBNET_ELEMENT_TYPE enumeration [DHCP], DhcpExcludedIpRanges, DhcpIpRanges, DhcpIpRangesBootpOnly, DhcpIpRangesDhcpBootp, DhcpIpRangesDhcpOnly, DhcpReservedIps, DhcpSecondaryHosts, LPDHCP_SUBNET_ELEMENT_TYPE, LPDHCP_SUBNET_ELEMENT_TYPE enumeration pointer [DHCP], dhcp.dhcp_subnet_element_type, dhcpsapi/DHCP_SUBNET_ELEMENT_TYPE, dhcpsapi/DhcpExcludedIpRanges, dhcpsapi/DhcpIpRanges, dhcpsapi/DhcpIpRangesBootpOnly, dhcpsapi/DhcpIpRangesDhcpBootp, dhcpsapi/DhcpIpRangesDhcpOnly, dhcpsapi/DhcpReservedIps, dhcpsapi/DhcpSecondaryHosts, dhcpsapi/LPDHCP_SUBNET_ELEMENT_TYPE'
 ms.topic: enum
 f1_keywords:
 - dhcpsapi/DHCP_SUBNET_ELEMENT_TYPE
 dev_langs:
- - c++
+- c++
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows

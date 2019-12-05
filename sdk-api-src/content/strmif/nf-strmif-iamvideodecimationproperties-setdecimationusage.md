@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IAMVideoDecimationProperties.SetDecimationUsage
 title: IAMVideoDecimationProperties::SetDecimationUsage (strmif.h)
-
 description: The SetDecimationUsage method sets the decimation strategy.
 old-location: dshow\iamvideodecimationproperties_setdecimationusage.htm
 tech.root: DirectShow
 ms.assetid: c6456154-48f5-41d9-b6f5-863b30a53596
-
 ms.date: 12/05/2018
 ms.keywords: IAMVideoDecimationProperties interface [DirectShow],SetDecimationUsage method, IAMVideoDecimationProperties.SetDecimationUsage, IAMVideoDecimationProperties::SetDecimationUsage, IAMVideoDecimationPropertiesSetDecimationUsage, SetDecimationUsage, SetDecimationUsage method [DirectShow], SetDecimationUsage method [DirectShow],IAMVideoDecimationProperties interface, dshow.iamvideodecimationproperties_setdecimationusage, strmif/IAMVideoDecimationProperties::SetDecimationUsage
 ms.topic: method
 f1_keywords:
 - strmif/IAMVideoDecimationProperties.SetDecimationUsage
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

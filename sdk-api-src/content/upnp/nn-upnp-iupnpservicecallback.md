@@ -1,19 +1,17 @@
 ---
 UID: NN:upnp.IUPnPServiceCallback
 title: IUPnPServiceCallback (upnp.h)
-
 description: The IUPnPServiceCallback interface is used to send event notifications to clients of Service objects.
 old-location: upnp\iupnpservicecallback.htm
 tech.root: upnp
 ms.assetid: 44515be4-891b-4f3d-a2c2-1699e468e708
-
 ms.date: 12/05/2018
 ms.keywords: IUPnPServiceCallback, IUPnPServiceCallback interface [UPnP APIs], IUPnPServiceCallback interface [UPnP APIs],described, _upnp_iupnpservicecallback, upnp.iupnpservicecallback, upnp/IUPnPServiceCallback
 ms.topic: interface
-f1_keywords: 
- - "upnp/IUPnPServiceCallback"
+f1_keywords:
+- upnp/IUPnPServiceCallback
 dev_langs:
- - c++
+- c++
 req.header: upnp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Upnp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Upnp.dll
+- Upnp.dll
 api_name:
- - IUPnPServiceCallback
+- IUPnPServiceCallback
 targetos: Windows
 req.typenames: 
 req.redist: 

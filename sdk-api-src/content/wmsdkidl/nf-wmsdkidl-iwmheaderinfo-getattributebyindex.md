@@ -1,19 +1,17 @@
 ---
 UID: NF:wmsdkidl.IWMHeaderInfo.GetAttributeByIndex
 title: IWMHeaderInfo::GetAttributeByIndex (wmsdkidl.h)
-
 description: The GetAttributeByIndex method returns a descriptive attribute that is stored in the header section of the ASF file. This method is replaced by IWMHeaderInfo3::GetAttributeByIndexEx and should not be used.
 old-location: wmformat\iwmheaderinfo_getattributebyindex.htm
 tech.root: wmformat
 ms.assetid: 905fdf2c-a398-457e-80e9-aac124301f99
-
 ms.date: 12/05/2018
 ms.keywords: GetAttributeByIndex, GetAttributeByIndex method [windows Media Format], GetAttributeByIndex method [windows Media Format],IWMHeaderInfo interface, GetAttributeByIndex method [windows Media Format],IWMHeaderInfo2 interface, GetAttributeByIndex method [windows Media Format],IWMHeaderInfo3 interface, IWMHeaderInfo interface [windows Media Format],GetAttributeByIndex method, IWMHeaderInfo.GetAttributeByIndex, IWMHeaderInfo2 interface [windows Media Format],GetAttributeByIndex method, IWMHeaderInfo2::GetAttributeByIndex, IWMHeaderInfo3 interface [windows Media Format],GetAttributeByIndex method, IWMHeaderInfo3::GetAttributeByIndex, IWMHeaderInfo::GetAttributeByIndex, IWMHeaderInfoGetAttributeByIndex, wmformat.iwmheaderinfo_getattributebyindex, wmsdkidl/IWMHeaderInfo2::GetAttributeByIndex, wmsdkidl/IWMHeaderInfo3::GetAttributeByIndex, wmsdkidl/IWMHeaderInfo::GetAttributeByIndex
 ms.topic: method
-f1_keywords: 
- - "wmsdkidl/IWMHeaderInfo.GetAttributeByIndex"
+f1_keywords:
+- wmsdkidl/IWMHeaderInfo.GetAttributeByIndex
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -32,20 +30,20 @@ req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wmvcore.lib
- - Wmvcore.dll
- - WMStubDRM.lib
- - WMStubDRM.dll
- - qasf.dll
+- Wmvcore.lib
+- Wmvcore.dll
+- WMStubDRM.lib
+- WMStubDRM.dll
+- qasf.dll
 api_name:
- - IWMHeaderInfo.GetAttributeByIndex
- - IWMHeaderInfo2.GetAttributeByIndex
- - IWMHeaderInfo3.GetAttributeByIndex
+- IWMHeaderInfo.GetAttributeByIndex
+- IWMHeaderInfo2.GetAttributeByIndex
+- IWMHeaderInfo3.GetAttributeByIndex
 targetos: Windows
 req.typenames: 
 req.redist: 

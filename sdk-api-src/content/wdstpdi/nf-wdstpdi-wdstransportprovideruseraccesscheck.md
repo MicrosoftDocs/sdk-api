@@ -1,19 +1,17 @@
 ---
 UID: NF:wdstpdi.WdsTransportProviderUserAccessCheck
 title: WdsTransportProviderUserAccessCheck function (wdstpdi.h)
-
 description: Specifies access to a content stream based on a user's token.
 old-location: wds\wdstransportprovideruseraccesscheck.htm
 tech.root: wds
 ms.assetid: 3ce381d3-d6f6-4f64-a825-116c3cff4747
-
 ms.date: 12/05/2018
 ms.keywords: WdsTransportProviderUserAccessCheck, WdsTransportProviderUserAccessCheck callback, WdsTransportProviderUserAccessCheck callback function [Windows Deployment Services], wds.wdstransportprovideruseraccesscheck, wdstpdi/WdsTransportProviderUserAccessCheck
 ms.topic: function
-f1_keywords: 
- - "wdstpdi/WdsTransportProviderUserAccessCheck"
+f1_keywords:
+- wdstpdi/WdsTransportProviderUserAccessCheck
 dev_langs:
- - c++
+- c++
 req.header: wdstpdi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - wdstpdi.h
+- wdstpdi.h
 api_name:
- - WdsTransportProviderUserAccessCheck
+- WdsTransportProviderUserAccessCheck
 targetos: Windows
 req.typenames: 
 req.redist: 

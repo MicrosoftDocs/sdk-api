@@ -1,19 +1,17 @@
 ---
 UID: NF:msdrm.DRMCreateIssuanceLicense
 title: DRMCreateIssuanceLicense function (msdrm.h)
-
 description: Creates an issuance license from scratch, from a template, or from a signed issuance license.
 old-location: rm\drmcreateissuancelicense.htm
 tech.root: AdRms_Sdk
 ms.assetid: db2e9aa6-7021-4805-8fd7-94c8d02776b0
-
 ms.date: 12/05/2018
 ms.keywords: DRMCreateIssuanceLicense, DRMCreateIssuanceLicense function [Active Directory Rights Management Services SDK 1.0], msdrm/DRMCreateIssuanceLicense, rm.drmcreateissuancelicense
 ms.topic: function
-f1_keywords: 
- - "msdrm/DRMCreateIssuanceLicense"
+f1_keywords:
+- msdrm/DRMCreateIssuanceLicense
 dev_langs:
- - c++
+- c++
 req.header: msdrm.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Msdrm.lib
 req.dll: Msdrm.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Msdrm.dll
+- Msdrm.dll
 api_name:
- - DRMCreateIssuanceLicense
+- DRMCreateIssuanceLicense
 targetos: Windows
 req.typenames: 
 req.redist: 

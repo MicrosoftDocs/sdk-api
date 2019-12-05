@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IShellItemResources.EnumResources
 title: IShellItemResources::EnumResources (shobjidl_core.h)
-
 description: Gets a resource enumerator object.
 old-location: shell\IShellItemResources_EnumResources.htm
 tech.root: shell
 ms.assetid: 29ac8ac9-4bd1-470c-885a-56f860d50a70
-
 ms.date: 12/05/2018
 ms.keywords: EnumResources, EnumResources method [Windows Shell], EnumResources method [Windows Shell],IShellItemResources interface, IShellItemResources interface [Windows Shell],EnumResources method, IShellItemResources.EnumResources, IShellItemResources::EnumResources, _shell_IShellItemResources_EnumResources, shell.IShellItemResources_EnumResources, shobjidl_core/IShellItemResources::EnumResources
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IShellItemResources.EnumResources"
+f1_keywords:
+- shobjidl_core/IShellItemResources.EnumResources
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - IShellItemResources.EnumResources
+- IShellItemResources.EnumResources
 targetos: Windows
 req.typenames: 
 req.redist: 

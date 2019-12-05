@@ -1,19 +1,17 @@
 ---
 UID: NF:winbase.ActivateActCtx
 title: ActivateActCtx function (winbase.h)
-
 description: The ActivateActCtx function activates the specified activation context.
 old-location: setup\activateactctx.htm
 tech.root: SbsCs
 ms.assetid: 03381d95-1b5d-4b70-8c86-937ab9b2672d
-
 ms.date: 12/05/2018
 ms.keywords: ActivateActCtx, ActivateActCtx function [Side-by-side Assemblies], _win32_activateactctx, setup.activateactctx, winbase/ActivateActCtx
 ms.topic: function
-f1_keywords: 
- - "winbase/ActivateActCtx"
+f1_keywords:
+- winbase/ActivateActCtx
 dev_langs:
- - c++
+- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-sidebyside-l1-1-0.dll
- - KernelBase.dll
+- Kernel32.dll
+- API-MS-Win-Core-sidebyside-l1-1-0.dll
+- KernelBase.dll
 api_name:
- - ActivateActCtx
+- ActivateActCtx
 targetos: Windows
 req.typenames: 
 req.redist: 

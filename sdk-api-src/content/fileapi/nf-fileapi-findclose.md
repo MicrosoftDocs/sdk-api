@@ -1,19 +1,17 @@
 ---
 UID: NF:fileapi.FindClose
 title: FindClose function (fileapi.h)
-
 description: Closes a file search handle opened by the FindFirstFile, FindFirstFileEx, FindFirstFileNameW, FindFirstFileNameTransactedW, FindFirstFileTransacted, FindFirstStreamTransactedW, or FindFirstStreamW functions.
 old-location: fs\findclose.htm
 tech.root: FileIO
 ms.assetid: 64b3bc49-1e0e-4572-9d9f-936c45f5b01c
-
 ms.date: 12/05/2018
 ms.keywords: FindClose, FindClose function [Files], _win32_findclose, base.findclose, fileapi/FindClose, fs.findclose, winbase/FindClose
 ms.topic: function
-f1_keywords: 
- - "fileapi/FindClose"
+f1_keywords:
+- fileapi/FindClose
 dev_langs:
- - c++
+- c++
 req.header: fileapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,21 +30,21 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-File-l1-1-0.dll
- - KernelBase.dll
- - API-MS-Win-Core-File-l1-2-0.dll
- - API-MS-Win-Core-File-l1-2-1.dll
- - API-MS-Win-Core-File-l1-2-2.dll
- - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
- - MinKernelBase.dll
+- Kernel32.dll
+- API-MS-Win-Core-File-l1-1-0.dll
+- KernelBase.dll
+- API-MS-Win-Core-File-l1-2-0.dll
+- API-MS-Win-Core-File-l1-2-1.dll
+- API-MS-Win-Core-File-l1-2-2.dll
+- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+- MinKernelBase.dll
 api_name:
- - FindClose
+- FindClose
 targetos: Windows
 req.typenames: 
 req.redist: 

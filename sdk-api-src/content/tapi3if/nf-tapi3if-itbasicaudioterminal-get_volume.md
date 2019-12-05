@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi3if.ITBasicAudioTerminal.get_Volume
 title: ITBasicAudioTerminal::get_Volume (tapi3if.h)
-
 description: The get_Volume method gets the volume.
 old-location: tapi3\itbasicaudioterminal_get_volume.htm
 tech.root: Tapi
 ms.assetid: 2d3a64fa-41b6-44c4-a67e-08113e771cc7
-
 ms.date: 12/05/2018
 ms.keywords: ITBasicAudioTerminal interface [TAPI 2.2],get_Volume method, ITBasicAudioTerminal.get_Volume, ITBasicAudioTerminal::get_Volume, _tapi3_itbasicaudioterminal_get_volume, get_Volume, get_Volume method [TAPI 2.2], get_Volume method [TAPI 2.2],ITBasicAudioTerminal interface, tapi3.itbasicaudioterminal_get_volume, tapi3if/ITBasicAudioTerminal::get_Volume
 ms.topic: method
-f1_keywords: 
- - "tapi3if/ITBasicAudioTerminal.get_Volume"
+f1_keywords:
+- tapi3if/ITBasicAudioTerminal.get_Volume
 dev_langs:
- - c++
+- c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Tapi3.dll
+- Tapi3.dll
 api_name:
- - ITBasicAudioTerminal.get_Volume
+- ITBasicAudioTerminal.get_Volume
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:mbnapi.IMbnSubscriberInformation.get_TelephoneNumbers
 title: IMbnSubscriberInformation::get_TelephoneNumbers (mbnapi.h)
-
 description: The telephone numbers associated with the device.
 old-location: mbn\imbnsubscriberinformation_telephonenumbers.htm
 tech.root: mbn
 ms.assetid: 0f50735e-e57b-4724-8754-1fc4a5634cb3
-
 ms.date: 12/05/2018
 ms.keywords: IMbnSubscriberInformation interface [Microsoft Broadband Networks],TelephoneNumbers property, IMbnSubscriberInformation.TelephoneNumbers, IMbnSubscriberInformation.get_TelephoneNumbers, IMbnSubscriberInformation::TelephoneNumbers, IMbnSubscriberInformation::get_TelephoneNumbers, TelephoneNumbers property [Microsoft Broadband Networks], TelephoneNumbers property [Microsoft Broadband Networks],IMbnSubscriberInformation interface, get_TelephoneNumbers, mbn.imbnsubscriberinformation_telephonenumbers, mbnapi/IMbnSubscriberInformation::TelephoneNumbers, mbnapi/IMbnSubscriberInformation::get_TelephoneNumbers
 ms.topic: method
-f1_keywords: 
- - "mbnapi/IMbnSubscriberInformation.TelephoneNumbers"
+f1_keywords:
+- mbnapi/IMbnSubscriberInformation.TelephoneNumbers
 dev_langs:
- - c++
+- c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mbnapi.h
+- mbnapi.h
 api_name:
- - IMbnSubscriberInformation.TelephoneNumbers
- - IMbnSubscriberInformation.get_TelephoneNumbers
+- IMbnSubscriberInformation.TelephoneNumbers
+- IMbnSubscriberInformation.get_TelephoneNumbers
 targetos: Windows
 req.typenames: 
 req.redist: 

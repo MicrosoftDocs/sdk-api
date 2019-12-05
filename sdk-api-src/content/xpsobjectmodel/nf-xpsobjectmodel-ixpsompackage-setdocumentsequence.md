@@ -1,19 +1,17 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMPackage.SetDocumentSequence
 title: IXpsOMPackage::SetDocumentSequence (xpsobjectmodel.h)
-
 description: Sets the IXpsOMDocumentSequence interface of the XPS package.
 old-location: xps\ixpsompackage_setdocumentsequence.htm
 tech.root: printdocs
 ms.assetid: cc159b7e-7cce-4f3b-ad0d-ce7b625b61d3
-
 ms.date: 12/05/2018
 ms.keywords: IXpsOMPackage interface [XPS Documents and Packaging],SetDocumentSequence method, IXpsOMPackage.SetDocumentSequence, IXpsOMPackage::SetDocumentSequence, SetDocumentSequence, SetDocumentSequence method [XPS Documents and Packaging], SetDocumentSequence method [XPS Documents and Packaging],IXpsOMPackage interface, xps.ixpsompackage_setdocumentsequence, xpsobjectmodel/IXpsOMPackage::SetDocumentSequence
 ms.topic: method
-f1_keywords: 
- - "xpsobjectmodel/IXpsOMPackage.SetDocumentSequence"
+f1_keywords:
+- xpsobjectmodel/IXpsOMPackage.SetDocumentSequence
 dev_langs:
- - c++
+- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsobjectmodel.h
+- xpsobjectmodel.h
 api_name:
- - IXpsOMPackage.SetDocumentSequence
+- IXpsOMPackage.SetDocumentSequence
 targetos: Windows
 req.typenames: 
 req.redist: 

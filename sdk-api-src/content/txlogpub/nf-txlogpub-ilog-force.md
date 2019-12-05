@@ -1,19 +1,17 @@
 ---
 UID: NF:txlogpub.ILog.Force
 title: ILog::Force (txlogpub.h)
-
 description: Forces the contents of the log to disk, at least up through the specified LSN.
 old-location: com\ilog_force.htm
 tech.root: com
 ms.assetid: 91df6049-37ce-4a46-b401-9af7d9c09f14
-
 ms.date: 12/05/2018
 ms.keywords: Force, Force method [COM], Force method [COM],ILog interface, ILog interface [COM],Force method, ILog.Force, ILog::Force, _com_ilog_force, com.ilog_force, txlogpub/ILog::Force
 ms.topic: method
-f1_keywords: 
- - "txlogpub/ILog.Force"
+f1_keywords:
+- txlogpub/ILog.Force
 dev_langs:
- - c++
+- c++
 req.header: txlogpub.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Txlogpub.h
+- Txlogpub.h
 api_name:
- - ILog.Force
+- ILog.Force
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:winnls32.WINNLSEnableIME
 title: WINNLSEnableIME function (winnls32.h)
-
 description: Temporarily enables or disables an Input Method Editor (IME) and, at the same time, turns on or off the display of all windows owned by the IME.
 old-location: winprog\_win32_winnlsenableime.htm
 tech.root: DevNotes
 ms.assetid: VS|winui|~\winui\windowsuserinterface\lowlevelclientsupport\misc\winnlsenableime.htm
-
 ms.date: 12/05/2018
 ms.keywords: WINNLSEnableIME, WINNLSEnableIME function [Windows API], _win32_WINNLSEnableIME, winnls32/WINNLSEnableIME, winprog._win32_winnlsenableime, winui._win32_winnlsenableime
 ms.topic: function
-f1_keywords: 
- - "winnls32/WINNLSEnableIME"
+f1_keywords:
+- winnls32/WINNLSEnableIME
 dev_langs:
- - c++
+- c++
 req.header: winnls32.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - User32.dll
+- User32.dll
 api_name:
- - WINNLSEnableIME
+- WINNLSEnableIME
 targetos: Windows
 req.typenames: 
 req.redist: 

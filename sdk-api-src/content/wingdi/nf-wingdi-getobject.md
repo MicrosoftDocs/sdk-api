@@ -1,19 +1,17 @@
 ---
 UID: NF:wingdi.GetObject
 title: GetObject function (wingdi.h)
-
 description: The GetObject function retrieves information for the specified graphics object.
 old-location: gdi\getobject.htm
 tech.root: gdi
 ms.assetid: 555ab876-d990-426d-915c-f98df82a10aa
-
 ms.date: 12/05/2018
 ms.keywords: GetObject, GetObject function [Windows GDI], GetObjectA, GetObjectW, HBITMAP, HBITMAP returned from a call to CreateDIBSection, HBRUSH, HFONT, HPALETTE, HPEN, HPEN returned from a call to ExtCreatePen, _win32_GetObject, gdi.getobject, wingdi/GetObject, wingdi/GetObjectA, wingdi/GetObjectW
 ms.topic: function
-f1_keywords: 
- - "wingdi/GetObject"
+f1_keywords:
+- wingdi/GetObject
 dev_langs:
- - c++
+- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,20 +30,20 @@ req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - gdi32.dll
- - Ext-MS-Win-GDI-DC-l1-2-0.dll
- - ext-ms-win-gdi-dc-l1-1-0.dll
- - ext-ms-win-gdi-dc-l1-2-1.dll
- - GDI32Full.dll
+- gdi32.dll
+- Ext-MS-Win-GDI-DC-l1-2-0.dll
+- ext-ms-win-gdi-dc-l1-1-0.dll
+- ext-ms-win-gdi-dc-l1-2-1.dll
+- GDI32Full.dll
 api_name:
- - GetObject
- - GetObjectA
- - GetObjectW
+- GetObject
+- GetObjectA
+- GetObjectW
 targetos: Windows
 req.typenames: 
 req.redist: 

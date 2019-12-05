@@ -1,19 +1,17 @@
 ---
 UID: NF:wsman.WSManDeinitialize
 title: WSManDeinitialize function (wsman.h)
-
 description: Deinitializes the Windows Remote Management client stack.
 old-location: winrm\wsmandeinitialize.htm
 tech.root: winrm
 ms.assetid: 1b20ead1-cda0-4449-a454-1e695fe71de6
-
 ms.date: 12/05/2018
 ms.keywords: WSManDeinitialize, WSManDeinitialize function [Windows Remote Management], winrm.wsmandeinitialize, wsman/WSManDeinitialize
 ms.topic: function
-f1_keywords: 
- - "wsman/WSManDeinitialize"
+f1_keywords:
+- wsman/WSManDeinitialize
 dev_langs:
- - c++
+- c++
 req.header: wsman.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: WsmSvc.lib
 req.dll: WsmSvc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - WsmSvc.dll
+- WsmSvc.dll
 api_name:
- - WSManDeinitialize
+- WSManDeinitialize
 targetos: Windows
 req.typenames: 
 req.redist: Windows Management Framework on Windows Server 2008 with SP2 and Windows Vista with SP2

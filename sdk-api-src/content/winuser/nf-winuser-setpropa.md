@@ -1,19 +1,17 @@
 ---
 UID: NF:winuser.SetPropA
 title: SetPropA function (winuser.h)
-
 description: Adds a new entry or changes an existing entry in the property list of the specified window.
 old-location: winmsg\setprop.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windowproperties\windowpropertyreference\windowpropertyfunctions\setprop.htm
-
 ms.date: 12/05/2018
 ms.keywords: SetProp, SetProp function [Windows and Messages], SetPropA, SetPropW, _win32_SetProp, _win32_setprop_cpp, winmsg.setprop, winui._win32_setprop, winuser/SetProp, winuser/SetPropA, winuser/SetPropW
 ms.topic: function
-f1_keywords: 
- - "winuser/SetProp"
+f1_keywords:
+- winuser/SetProp
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,26 +30,26 @@ req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - User32.dll
- - API-MS-Win-NTUser-IE-Window-l1-1-0.dll
- - ie_shims.dll
- - API-MS-Win-RTCore-NTUser-Window-l1-1-0.dll
- - minuser.dll
- - Ext-MS-Win-NTUser-Window-l1-1-0.dll
- - Ext-MS-Win-NTUser-Window-l1-1-1.dll
- - Ext-MS-Win-NTUser-Window-l1-1-2.dll
- - Ext-MS-Win-RTCore-NTUser-Window-Ext-l1-1-0.dll
- - ext-ms-win-ntuser-window-l1-1-3.dll
- - Ext-MS-Win-NTUser-Window-L1-1-4.dll
+- User32.dll
+- API-MS-Win-NTUser-IE-Window-l1-1-0.dll
+- ie_shims.dll
+- API-MS-Win-RTCore-NTUser-Window-l1-1-0.dll
+- minuser.dll
+- Ext-MS-Win-NTUser-Window-l1-1-0.dll
+- Ext-MS-Win-NTUser-Window-l1-1-1.dll
+- Ext-MS-Win-NTUser-Window-l1-1-2.dll
+- Ext-MS-Win-RTCore-NTUser-Window-Ext-l1-1-0.dll
+- ext-ms-win-ntuser-window-l1-1-3.dll
+- Ext-MS-Win-NTUser-Window-L1-1-4.dll
 api_name:
- - SetProp
- - SetPropA
- - SetPropW
+- SetProp
+- SetPropA
+- SetPropW
 targetos: Windows
 req.typenames: 
 req.redist: 

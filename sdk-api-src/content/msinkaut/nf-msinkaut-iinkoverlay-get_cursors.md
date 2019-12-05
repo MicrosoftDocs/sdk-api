@@ -1,19 +1,17 @@
 ---
 UID: NF:msinkaut.IInkOverlay.get_Cursors
 title: IInkOverlay::get_Cursors (msinkaut.h)
-
 description: Gets the collection of cursors that are available for use in the inking region. Each cursor corresponds to the tip of a pen or other ink input device.
 old-location: tablet\inkoverlay_cursors.htm
 tech.root: tablet
 ms.assetid: ee18a2a2-f08d-408b-9751-4bbb282eba3f
-
 ms.date: 12/05/2018
 ms.keywords: Cursors property [Tablet PC], Cursors property [Tablet PC],IInkOverlay interface, IInkOverlay interface [Tablet PC],Cursors property, IInkOverlay.Cursors, IInkOverlay.get_Cursors, IInkOverlay::Cursors, IInkOverlay::get_Cursors, InkOverlay.get_Cursors, get_Cursors, msinkaut/IInkOverlay::Cursors, msinkaut/IInkOverlay::get_Cursors, put_Cursors, tablet.inkoverlay_cursors
 ms.topic: method
-f1_keywords: 
- - "msinkaut/IInkOverlay.Cursors"
+f1_keywords:
+- msinkaut/IInkOverlay.Cursors
 dev_langs:
- - c++
+- c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: InkObj.dll
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - InkObj.dll
- - InkObj.dll.dll
+- InkObj.dll
+- InkObj.dll.dll
 api_name:
- - IInkOverlay.Cursors
- - IInkOverlay.get_Cursors
- - InkOverlay.get_Cursors
+- IInkOverlay.Cursors
+- IInkOverlay.get_Cursors
+- InkOverlay.get_Cursors
 targetos: Windows
 req.typenames: 
 req.redist: 

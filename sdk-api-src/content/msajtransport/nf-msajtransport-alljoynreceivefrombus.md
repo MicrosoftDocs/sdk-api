@@ -1,19 +1,17 @@
 ---
 UID: NF:msajtransport.AllJoynReceiveFromBus
 title: AllJoynReceiveFromBus function (msajtransport.h)
-
 description: Receives data from the bus via named pipe.
 old-location: alljoyn\alljoynreceivefrombus.htm
 tech.root: AllJoyn
 ms.assetid: 5E11BCDC-319C-4C53-914E-73B2FEC4747E
-
 ms.date: 12/05/2018
 ms.keywords: AllJoynReceiveFromBus, AllJoynReceiveFromBus function [AllJoyn API], alljoyn.alljoynreceivefrombus, msajtransport/AllJoynReceiveFromBus
 ms.topic: function
-f1_keywords: 
- - "msajtransport/AllJoynReceiveFromBus"
+f1_keywords:
+- msajtransport/AllJoynReceiveFromBus
 dev_langs:
- - c++
+- c++
 req.header: msajtransport.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: MSAJApi.lib
 req.dll: MSAJApi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - MSAJApi.dll
+- MSAJApi.dll
 api_name:
- - AllJoynReceiveFromBus
+- AllJoynReceiveFromBus
 targetos: Windows
 req.typenames: 
 req.redist: 

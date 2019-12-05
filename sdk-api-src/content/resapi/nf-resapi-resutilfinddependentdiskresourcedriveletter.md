@@ -1,19 +1,17 @@
 ---
 UID: NF:resapi.ResUtilFindDependentDiskResourceDriveLetter
 title: ResUtilFindDependentDiskResourceDriveLetter function (resapi.h)
-
 description: Retrieves the drive letter associated with a Physical Disk dependency of a resource. The PRESUTIL_FIND_DEPENDENT_DISK_RESOURCE_DRIVE_LETTER type defines a pointer to this function.
 old-location: mscs\resutilfinddependentdiskresourcedriveletter.htm
 tech.root: MsCS
 ms.assetid: 8f2187e3-6bb7-4756-af2b-a28857581bcb
-
 ms.date: 12/05/2018
 ms.keywords: PRESUTIL_FIND_DEPENDENT_DISK_RESOURCE_DRIVE_LETTER, PRESUTIL_FIND_DEPENDENT_DISK_RESOURCE_DRIVE_LETTER function [Failover Cluster], ResUtilFindDependentDiskResourceDriveLetter, ResUtilFindDependentDiskResourceDriveLetter function [Failover Cluster], _wolf_resutilfinddependentdiskresourcedriveletter, mscs.resutilfinddependentdiskresourcedriveletter, resapi/PRESUTIL_FIND_DEPENDENT_DISK_RESOURCE_DRIVE_LETTER, resapi/ResUtilFindDependentDiskResourceDriveLetter
 ms.topic: function
-f1_keywords: 
- - "resapi/ResUtilFindDependentDiskResourceDriveLetter"
+f1_keywords:
+- resapi/ResUtilFindDependentDiskResourceDriveLetter
 dev_langs:
- - c++
+- c++
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: ResUtils.lib
 req.dll: ResUtils.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - ResUtils.dll
+- ResUtils.dll
 api_name:
- - ResUtilFindDependentDiskResourceDriveLetter
+- ResUtilFindDependentDiskResourceDriveLetter
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NS:directml.DML_BINDING_PROPERTIES
 title: DML_BINDING_PROPERTIES
-
 description: Contains information about the binding requirements of a particular compiled operator, or operator initializer. This struct is retrieved from IDMLDispatchable::GetBindingProperties.
 old-location: direct3d12\dml_binding_properties.htm
 tech.root: direct3d12
 ms.assetid: 000A1236-A557-4DCD-8A25-23AA5CF29C2D
-
 ms.date: 12/5/2018
 ms.keywords: DML_BINDING_PROPERTIES, DML_BINDING_PROPERTIES structure, direct3d12.dml_binding_properties, directml/DML_BINDING_PROPERTIES
 ms.topic: struct
-f1_keywords: 
- - "directml/DML_BINDING_PROPERTIES"
+f1_keywords:
+- directml/DML_BINDING_PROPERTIES
 dev_langs:
- - c++
+- c++
 req.header: directml.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - DirectML.h
+- DirectML.h
 api_name:
- - DML_BINDING_PROPERTIES
+- DML_BINDING_PROPERTIES
 targetos: Windows
 req.typenames: 
 req.redist: 

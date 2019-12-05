@@ -1,19 +1,17 @@
 ---
 UID: NS:minwinbase._LOAD_DLL_DEBUG_INFO
 title: LOAD_DLL_DEBUG_INFO (minwinbase.h)
-
 description: Contains information about a dynamic-link library (DLL) that has just been loaded.
 old-location: base\load_dll_debug_info_str.htm
 tech.root: Debug
 ms.assetid: 80edb12f-1d1f-4480-9032-5f7a17f47910
-
 ms.date: 12/05/2018
-ms.keywords: "*LPLOAD_DLL_DEBUG_INFO, LOAD_DLL_DEBUG_INFO, LOAD_DLL_DEBUG_INFO structure, LPLOAD_DLL_DEBUG_INFO, LPLOAD_DLL_DEBUG_INFO structure pointer, _LOAD_DLL_DEBUG_INFO, _win32_load_dll_debug_info_str, base.load_dll_debug_info_str, minwinbase/LOAD_DLL_DEBUG_INFO, minwinbase/LPLOAD_DLL_DEBUG_INFO"
+ms.keywords: '*LPLOAD_DLL_DEBUG_INFO, LOAD_DLL_DEBUG_INFO, LOAD_DLL_DEBUG_INFO structure, LPLOAD_DLL_DEBUG_INFO, LPLOAD_DLL_DEBUG_INFO structure pointer, _LOAD_DLL_DEBUG_INFO, _win32_load_dll_debug_info_str, base.load_dll_debug_info_str, minwinbase/LOAD_DLL_DEBUG_INFO, minwinbase/LPLOAD_DLL_DEBUG_INFO'
 ms.topic: struct
-f1_keywords: 
- - "minwinbase/LOAD_DLL_DEBUG_INFO"
+f1_keywords:
+- minwinbase/LOAD_DLL_DEBUG_INFO
 dev_langs:
- - c++
+- c++
 req.header: minwinbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - minwinbase.h
+- minwinbase.h
 api_name:
- - LOAD_DLL_DEBUG_INFO
+- LOAD_DLL_DEBUG_INFO
 targetos: Windows
 req.typenames: LOAD_DLL_DEBUG_INFO, *LPLOAD_DLL_DEBUG_INFO
 req.redist: 

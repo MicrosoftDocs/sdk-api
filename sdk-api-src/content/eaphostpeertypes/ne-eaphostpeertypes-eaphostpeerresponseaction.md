@@ -1,19 +1,17 @@
 ---
 UID: NE:eaphostpeertypes.tagEapHostPeerResponseAction
 title: EapHostPeerResponseAction (eaphostpeertypes.h)
-
 description: Defines the set of actions an EAP authenticator or peer method can indicate to a supplicant during authentication.
 old-location: eaphost\eaphostpeerresponseaction.htm
 tech.root: eaphost
 ms.assetid: 59bf6e02-90b5-4f9a-9865-b71852c61db9
-
 ms.date: 12/05/2018
 ms.keywords: EapHostPeerResponseAction, EapHostPeerResponseAction enumeration [EAPHost], EapHostPeerResponseDiscard, EapHostPeerResponseInvokeUI, EapHostPeerResponseNone, EapHostPeerResponseRespond, EapHostPeerResponseResult, EapHostPeerResponseSend, EapHostPeerResponseStartAuthentication, eaphost.eaphostpeerresponseaction, eaphostpeertypes/EapHostPeerResponseAction, eaphostpeertypes/EapHostPeerResponseDiscard, eaphostpeertypes/EapHostPeerResponseInvokeUI, eaphostpeertypes/EapHostPeerResponseNone, eaphostpeertypes/EapHostPeerResponseRespond, eaphostpeertypes/EapHostPeerResponseResult, eaphostpeertypes/EapHostPeerResponseSend, eaphostpeertypes/EapHostPeerResponseStartAuthentication
 ms.topic: enum
-f1_keywords: 
- - "eaphostpeertypes/EapHostPeerResponseAction"
+f1_keywords:
+- eaphostpeertypes/EapHostPeerResponseAction
 dev_langs:
- - c++
+- c++
 req.header: eaphostpeertypes.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - eaphostpeertypes.h
+- eaphostpeertypes.h
 api_name:
- - EapHostPeerResponseAction
+- EapHostPeerResponseAction
 targetos: Windows
 req.typenames: EapHostPeerResponseAction
 req.redist: 

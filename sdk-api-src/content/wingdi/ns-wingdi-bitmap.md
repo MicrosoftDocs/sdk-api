@@ -1,19 +1,17 @@
 ---
 UID: NS:wingdi.tagBITMAP
 title: BITMAP (wingdi.h)
-
 description: The BITMAP structure defines the type, width, height, color format, and bit values of a bitmap.
 old-location: gdi\bitmap.htm
 tech.root: gdi
 ms.assetid: 6ee382da-dd63-442b-80c3-59472defb41f
-
 ms.date: 12/05/2018
-ms.keywords: "*LPBITMAP, *NPBITMAP, *PBITMAP, BITMAP, BITMAP structure [Windows GDI], PBITMAP, PBITMAP structure pointer [Windows GDI], _win32_BITMAP_str, gdi.bitmap, wingdi/BITMAP, wingdi/PBITMAP"
+ms.keywords: '*LPBITMAP, *NPBITMAP, *PBITMAP, BITMAP, BITMAP structure [Windows GDI], PBITMAP, PBITMAP structure pointer [Windows GDI], _win32_BITMAP_str, gdi.bitmap, wingdi/BITMAP, wingdi/PBITMAP'
 ms.topic: struct
-f1_keywords: 
- - "wingdi/BITMAP"
+f1_keywords:
+- wingdi/BITMAP
 dev_langs:
- - c++
+- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wingdi.h
+- Wingdi.h
 api_name:
- - BITMAP
+- BITMAP
 targetos: Windows
 req.typenames: BITMAP, *PBITMAP, *NPBITMAP, *LPBITMAP
 req.redist: 

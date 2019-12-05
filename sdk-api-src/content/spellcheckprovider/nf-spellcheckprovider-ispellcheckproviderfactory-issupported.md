@@ -1,19 +1,17 @@
 ---
 UID: NF:spellcheckprovider.ISpellCheckProviderFactory.IsSupported
 title: ISpellCheckProviderFactory::IsSupported (spellcheckprovider.h)
-
 description: Determines if the specified language is supported by this spell checker.
 old-location: intl\ispellcheckproviderfactory_issupported.htm
 tech.root: Intl
 ms.assetid: 88689384-E95E-4D56-BAD4-9889816F76EB
-
 ms.date: 12/05/2018
 ms.keywords: ISpellCheckProviderFactory interface [Internationalization for Windows Applications],IsSupported method, ISpellCheckProviderFactory.IsSupported, ISpellCheckProviderFactory::IsSupported, IsSupported, IsSupported method [Internationalization for Windows Applications], IsSupported method [Internationalization for Windows Applications],ISpellCheckProviderFactory interface, intl.ispellcheckproviderfactory_issupported, spellcheckprovider/ISpellCheckProviderFactory::IsSupported
 ms.topic: method
-f1_keywords: 
- - "spellcheckprovider/ISpellCheckProviderFactory.IsSupported"
+f1_keywords:
+- spellcheckprovider/ISpellCheckProviderFactory.IsSupported
 dev_langs:
- - c++
+- c++
 req.header: spellcheckprovider.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Spellcheckprovider.h
+- Spellcheckprovider.h
 api_name:
- - ISpellCheckProviderFactory.IsSupported
+- ISpellCheckProviderFactory.IsSupported
 targetos: Windows
 req.typenames: 
 req.redist: 

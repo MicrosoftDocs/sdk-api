@@ -1,19 +1,17 @@
 ---
 UID: NF:oleidl.IOleLink.GetBoundSource
 title: IOleLink::GetBoundSource (oleidl.h)
-
 description: Retrieves a pointer to the link source if the connection is active.
 old-location: com\iolelink_getboundsource.htm
 tech.root: com
 ms.assetid: 37d24337-eacc-453a-9a90-043ec9b35e9c
-
 ms.date: 12/05/2018
 ms.keywords: GetBoundSource, GetBoundSource method [COM], GetBoundSource method [COM],IOleLink interface, IOleLink interface [COM],GetBoundSource method, IOleLink.GetBoundSource, IOleLink::GetBoundSource, _ole_iolelink_getboundsource, com.iolelink_getboundsource, oleidl/IOleLink::GetBoundSource
 ms.topic: method
-f1_keywords: 
- - "oleidl/IOleLink.GetBoundSource"
+f1_keywords:
+- oleidl/IOleLink.GetBoundSource
 dev_langs:
- - c++
+- c++
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - OleIdl.h
+- OleIdl.h
 api_name:
- - IOleLink.GetBoundSource
+- IOleLink.GetBoundSource
 targetos: Windows
 req.typenames: 
 req.redist: 

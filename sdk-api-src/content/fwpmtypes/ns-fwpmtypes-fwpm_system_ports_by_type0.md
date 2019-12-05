@@ -1,19 +1,17 @@
 ---
 UID: NS:fwpmtypes.FWPM_SYSTEM_PORTS_BY_TYPE0_
 title: FWPM_SYSTEM_PORTS_BY_TYPE0 (fwpmtypes.h)
-
 description: The FWPM_SYSTEM_PORTS_BY_TYPE0 structure.
 old-location: fwp\fwpm_system_ports_by_type0.htm
 tech.root: fwp
 ms.assetid: 9a1d5431-fe83-468e-bc0e-8e55342ae205
-
 ms.date: 12/05/2018
 ms.keywords: FWPM_SYSTEM_PORTS_BY_TYPE0, FWPM_SYSTEM_PORTS_BY_TYPE0 structure [Filtering], fwp.fwpm_system_ports_by_type0, fwpmtypes/FWPM_SYSTEM_PORTS_BY_TYPE0
 ms.topic: struct
-f1_keywords: 
- - "fwpmtypes/FWPM_SYSTEM_PORTS_BY_TYPE0"
+f1_keywords:
+- fwpmtypes/FWPM_SYSTEM_PORTS_BY_TYPE0
 dev_langs:
- - c++
+- c++
 req.header: fwpmtypes.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Fwpmtypes.h
+- Fwpmtypes.h
 api_name:
- - FWPM_SYSTEM_PORTS_BY_TYPE0
+- FWPM_SYSTEM_PORTS_BY_TYPE0
 targetos: Windows
 req.typenames: FWPM_SYSTEM_PORTS_BY_TYPE0
 req.redist: 

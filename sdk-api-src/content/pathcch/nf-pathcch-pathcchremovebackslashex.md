@@ -1,19 +1,17 @@
 ---
 UID: NF:pathcch.PathCchRemoveBackslashEx
 title: PathCchRemoveBackslashEx function (pathcch.h)
-
 description: Removes the trailing backslash from the end of a path string.This function differs from PathCchRemoveBackslash in that it can return a pointer to the new end of the string and report the number of unused characters remaining in the buffer.This function differs from PathRemoveBackslash in that it accepts paths with &#0034;\\&#0034;, &#0034;\\?\&#0034; and &#0034;\\?\UNC\&#0034; prefixes.
 old-location: shell\PathCchRemoveBackslashEx.htm
 tech.root: shell
 ms.assetid: 250c2faa-94bb-42c1-97d4-37f8f59dbde6
-
 ms.date: 12/05/2018
 ms.keywords: PathCchRemoveBackslashEx, PathCchRemoveBackslashEx function [Windows Shell], pathcch/PathCchRemoveBackslashEx, shell.PathCchRemoveBackslashEx
 ms.topic: function
-f1_keywords: 
- - "pathcch/PathCchRemoveBackslashEx"
+f1_keywords:
+- pathcch/PathCchRemoveBackslashEx
 dev_langs:
- - c++
+- c++
 req.header: pathcch.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Pathcch.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - pathcch.lib
- - API-MS-Win-Core-Path-l1-1-0.dll
- - KernelBase.dll
+- pathcch.lib
+- API-MS-Win-Core-Path-l1-1-0.dll
+- KernelBase.dll
 api_name:
- - PathCchRemoveBackslashEx
+- PathCchRemoveBackslashEx
 targetos: Windows
 req.typenames: 
 req.redist: 

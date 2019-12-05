@@ -1,19 +1,17 @@
 ---
 UID: NF:wingdi.CopyEnhMetaFileW
 title: CopyEnhMetaFileW function (wingdi.h)
-
 description: The CopyEnhMetaFile function copies the contents of an enhanced-format metafile to a specified file.
 old-location: gdi\copyenhmetafile.htm
 tech.root: gdi
 ms.assetid: 7c428828-b239-41d4-926c-88caa0aa7214
-
 ms.date: 12/05/2018
 ms.keywords: CopyEnhMetaFile, CopyEnhMetaFile function [Windows GDI], CopyEnhMetaFileA, CopyEnhMetaFileW, _win32_CopyEnhMetaFile, gdi.copyenhmetafile, wingdi/CopyEnhMetaFile, wingdi/CopyEnhMetaFileA, wingdi/CopyEnhMetaFileW
 ms.topic: function
-f1_keywords: 
- - "wingdi/CopyEnhMetaFile"
+f1_keywords:
+- wingdi/CopyEnhMetaFile
 dev_langs:
- - c++
+- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - gdi32.dll
- - Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
- - GDI32Full.dll
+- gdi32.dll
+- Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
+- GDI32Full.dll
 api_name:
- - CopyEnhMetaFile
- - CopyEnhMetaFileA
- - CopyEnhMetaFileW
+- CopyEnhMetaFile
+- CopyEnhMetaFileA
+- CopyEnhMetaFileW
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NN:vds.IVdsSwProvider
 title: IVdsSwProvider (vds.h)
-
 description: Provides methods to perform operations specific to the software provider.
 old-location: base\ivdsswprovider.htm
 tech.root: VDS
 ms.assetid: 0602d4d6-a31d-4425-ad21-a267c6e1dd7b
-
 ms.date: 12/05/2018
 ms.keywords: IVdsSwProvider, IVdsSwProvider interface [VDS], IVdsSwProvider interface [VDS],described, base.ivdsswprovider, vds/IVdsSwProvider
 ms.topic: interface
-f1_keywords: 
- - "vds/IVdsSwProvider"
+f1_keywords:
+- vds/IVdsSwProvider
 dev_langs:
- - c++
+- c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Uuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Uuid.lib
- - Uuid.dll
+- Uuid.lib
+- Uuid.dll
 api_name:
- - IVdsSwProvider
+- IVdsSwProvider
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:tuner.IDVBTLocator.get_Bandwidth
 title: IDVBTLocator::get_Bandwidth (tuner.h)
-
 description: The get_Bandwidth method retrieves the bandwidth of the frequency.
 old-location: mstv\idvbtlocator_get_bandwidth.htm
 tech.root: mstv
 ms.assetid: 7483d876-fdcc-4eee-b4f3-338846a159c0
-
 ms.date: 12/05/2018
 ms.keywords: IDVBTLocator interface [Microsoft TV Technologies],get_Bandwidth method, IDVBTLocator.get_Bandwidth, IDVBTLocator::get_Bandwidth, IDVBTLocatorget_Bandwidth, get_Bandwidth, get_Bandwidth method [Microsoft TV Technologies], get_Bandwidth method [Microsoft TV Technologies],IDVBTLocator interface, mstv.idvbtlocator_get_bandwidth, tuner/IDVBTLocator::get_Bandwidth
 ms.topic: method
-f1_keywords: 
- - "tuner/IDVBTLocator.get_Bandwidth"
+f1_keywords:
+- tuner/IDVBTLocator.get_Bandwidth
 dev_langs:
- - c++
+- c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - tuner.h
+- tuner.h
 api_name:
- - IDVBTLocator.get_Bandwidth
+- IDVBTLocator.get_Bandwidth
 targetos: Windows
 req.typenames: 
 req.redist: 

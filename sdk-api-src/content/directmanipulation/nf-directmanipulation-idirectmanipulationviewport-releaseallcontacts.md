@@ -1,19 +1,17 @@
 ---
 UID: NF:directmanipulation.IDirectManipulationViewport.ReleaseAllContacts
 title: IDirectManipulationViewport::ReleaseAllContacts (directmanipulation.h)
-
 description: Removes all contacts that are associated with the viewport. Inertia is started if the viewport supports inertia.
 old-location: directmanipulation\idirectmanipulationviewport_releaseallcontacts.htm
 tech.root: directmanipulation
 ms.assetid: 6ef43920-92bf-49c5-8e10-954d1b2b4440
-
 ms.date: 12/05/2018
 ms.keywords: IDirectManipulationViewport interface [Direct Manipulation],ReleaseAllContacts method, IDirectManipulationViewport.ReleaseAllContacts, IDirectManipulationViewport::ReleaseAllContacts, ReleaseAllContacts, ReleaseAllContacts method [Direct Manipulation], ReleaseAllContacts method [Direct Manipulation],IDirectManipulationViewport interface, directmanipulation.idirectmanipulationviewport_releaseallcontacts, directmanipulation/IDirectManipulationViewport::ReleaseAllContacts
 ms.topic: method
-f1_keywords: 
- - "directmanipulation/IDirectManipulationViewport.ReleaseAllContacts"
+f1_keywords:
+- directmanipulation/IDirectManipulationViewport.ReleaseAllContacts
 dev_langs:
- - c++
+- c++
 req.header: directmanipulation.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - DirectManipulation.h
+- DirectManipulation.h
 api_name:
- - IDirectManipulationViewport.ReleaseAllContacts
+- IDirectManipulationViewport.ReleaseAllContacts
 targetos: Windows
 req.typenames: 
 req.redist: 

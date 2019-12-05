@@ -1,19 +1,17 @@
 ---
 UID: NF:vfw.ICCompressorFree
 title: ICCompressorFree function (vfw.h)
-
 description: The ICCompressorFree function frees the resources in the COMPVARS structure used by other VCM functions.
 old-location: multimedia\iccompressorfree.htm
 tech.root: Multimedia
 ms.assetid: 6d0c9a7d-6458-4330-af74-3f471555cbfc
-
 ms.date: 12/05/2018
 ms.keywords: ICCompressorFree, ICCompressorFree function [Windows Multimedia], _win32_ICCompressorFree, multimedia.iccompressorfree, vfw/ICCompressorFree
 ms.topic: function
-f1_keywords: 
- - "vfw/ICCompressorFree"
+f1_keywords:
+- vfw/ICCompressorFree
 dev_langs:
- - c++
+- c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Vfw32.lib
 req.dll: Msvfw32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Msvfw32.dll
+- Msvfw32.dll
 api_name:
- - ICCompressorFree
+- ICCompressorFree
 targetos: Windows
 req.typenames: 
 req.redist: 

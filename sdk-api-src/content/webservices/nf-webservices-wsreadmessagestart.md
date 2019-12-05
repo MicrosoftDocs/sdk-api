@@ -1,19 +1,17 @@
 ---
 UID: NF:webservices.WsReadMessageStart
 title: WsReadMessageStart function (webservices.h)
-
 description: Read the headers of the next message from the channel, and prepare to read the body elements.
 old-location: wsw\wsreadmessagestart.htm
 tech.root: wsw
 ms.assetid: e4f92e99-f272-47b5-8eaa-56713b22df7e
-
 ms.date: 12/05/2018
 ms.keywords: WsReadMessageStart, WsReadMessageStart function [Web Services for Windows], webservices/WsReadMessageStart, wsw.wsreadmessagestart
 ms.topic: function
-f1_keywords: 
- - "webservices/WsReadMessageStart"
+f1_keywords:
+- webservices/WsReadMessageStart
 dev_langs:
- - c++
+- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: WebServices.lib
 req.dll: WebServices.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - WebServices.dll
+- WebServices.dll
 api_name:
- - WsReadMessageStart
+- WsReadMessageStart
 targetos: Windows
 req.typenames: 
 req.redist: 

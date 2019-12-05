@@ -1,19 +1,17 @@
 ---
 UID: NF:winsock2.WSAConnectByList
 title: WSAConnectByList function (winsock2.h)
-
 description: Establishes a connection to one out of a collection of possible endpoints represented by a set of destination addresses (host names and ports).
 old-location: winsock\wsaconnectbylist.htm
 tech.root: WinSock
 ms.assetid: 7323d814-e96e-44b9-8ade-a9317e4fbf17
-
 ms.date: 12/05/2018
 ms.keywords: WSAConnectByList, WSAConnectByList function [Winsock], winsock.wsaconnectbylist, winsock2/WSAConnectByList
 ms.topic: function
-f1_keywords: 
- - "winsock2/WSAConnectByList"
+f1_keywords:
+- winsock2/WSAConnectByList
 dev_langs:
- - c++
+- c++
 req.header: winsock2.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Ws2_32.lib
 req.dll: Ws2_32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ws2_32.dll
+- Ws2_32.dll
 api_name:
- - WSAConnectByList
+- WSAConnectByList
 targetos: Windows
 req.typenames: 
 req.redist: 

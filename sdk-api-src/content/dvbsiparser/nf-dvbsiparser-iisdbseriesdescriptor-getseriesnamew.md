@@ -1,19 +1,17 @@
 ---
 UID: NF:dvbsiparser.IIsdbSeriesDescriptor.GetSeriesNameW
 title: IIsdbSeriesDescriptor::GetSeriesNameW (dvbsiparser.h)
-
 description: Gets the series name from an Integrated Services Digital Broadcasting (ISDB) series descriptor.
 old-location: mstv\iisdbseriesdescriptor_getseriesnamew.htm
 tech.root: mstv
 ms.assetid: 7638dc5b-6542-42f4-9996-f851704098a0
-
 ms.date: 12/05/2018
 ms.keywords: GetSeriesNameW, GetSeriesNameW method [Microsoft TV Technologies], GetSeriesNameW method [Microsoft TV Technologies],IIsdbSeriesDescriptor interface, IIsdbSeriesDescriptor interface [Microsoft TV Technologies],GetSeriesNameW method, IIsdbSeriesDescriptor.GetSeriesNameW, IIsdbSeriesDescriptor::GetSeriesNameW, dvbsiparser/IIsdbSeriesDescriptor::GetSeriesNameW, mstv.iisdbseriesdescriptor_getseriesnamew
 ms.topic: method
-f1_keywords: 
- - "dvbsiparser/IIsdbSeriesDescriptor.GetSeriesNameW"
+f1_keywords:
+- dvbsiparser/IIsdbSeriesDescriptor.GetSeriesNameW
 dev_langs:
- - c++
+- c++
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dvbsiparser.h
+- dvbsiparser.h
 api_name:
- - IIsdbSeriesDescriptor.GetSeriesNameW
+- IIsdbSeriesDescriptor.GetSeriesNameW
 targetos: Windows
 req.typenames: 
 req.redist: 

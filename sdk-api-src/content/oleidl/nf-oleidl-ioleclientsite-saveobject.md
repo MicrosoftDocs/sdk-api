@@ -1,19 +1,17 @@
 ---
 UID: NF:oleidl.IOleClientSite.SaveObject
 title: IOleClientSite::SaveObject (oleidl.h)
-
 description: Saves the embedded object associated with the client site. This function is synchronous; by the time it returns, the save will be completed.
 old-location: com\ioleclientsite_saveobject.htm
 tech.root: com
 ms.assetid: ef1a0085-f4fa-4d77-adab-0386f354dfe7
-
 ms.date: 12/05/2018
 ms.keywords: IOleClientSite interface [COM],SaveObject method, IOleClientSite.SaveObject, IOleClientSite::SaveObject, SaveObject, SaveObject method [COM], SaveObject method [COM],IOleClientSite interface, _ole_ioleclientsite_saveobject, com.ioleclientsite_saveobject, oleidl/IOleClientSite::SaveObject
 ms.topic: method
-f1_keywords: 
- - "oleidl/IOleClientSite.SaveObject"
+f1_keywords:
+- oleidl/IOleClientSite.SaveObject
 dev_langs:
- - c++
+- c++
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - OleIdl.h
+- OleIdl.h
 api_name:
- - IOleClientSite.SaveObject
+- IOleClientSite.SaveObject
 targetos: Windows
 req.typenames: 
 req.redist: 

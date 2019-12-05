@@ -1,19 +1,17 @@
 ---
 UID: NE:qos2._QOS_TRAFFIC_TYPE
 title: QOS_TRAFFIC_TYPE (qos2.h)
-
 description: The QOS_TRAFFIC_TYPE enumeration defines the various traffic types. Each flow has a single traffic type. This allows the QOS subsystem to apply user-specified policies to each type.
 old-location: qos\qos_traffic_type.htm
 tech.root: QOS
 ms.assetid: 89145c7f-0b67-4eff-b462-049b047e6602
-
 ms.date: 12/05/2018
-ms.keywords: "*PQOS_TRAFFIC_TYPE, PQOS_TRAFFIC_TYPE, PQOS_TRAFFIC_TYPE enumeration pointer [QOS], QOSTrafficTypeAudioVideo, QOSTrafficTypeBackground, QOSTrafficTypeBestEffort, QOSTrafficTypeControl, QOSTrafficTypeExcellentEffort, QOSTrafficTypeVoice, QOS_TRAFFIC_TYPE, QOS_TRAFFIC_TYPE enumeration [QOS], qos.qos_traffic_type, qos2/PQOS_TRAFFIC_TYPE, qos2/QOSTrafficTypeAudioVideo, qos2/QOSTrafficTypeBackground, qos2/QOSTrafficTypeBestEffort, qos2/QOSTrafficTypeControl, qos2/QOSTrafficTypeExcellentEffort, qos2/QOSTrafficTypeVoice, qos2/QOS_TRAFFIC_TYPE"
+ms.keywords: '*PQOS_TRAFFIC_TYPE, PQOS_TRAFFIC_TYPE, PQOS_TRAFFIC_TYPE enumeration pointer [QOS], QOSTrafficTypeAudioVideo, QOSTrafficTypeBackground, QOSTrafficTypeBestEffort, QOSTrafficTypeControl, QOSTrafficTypeExcellentEffort, QOSTrafficTypeVoice, QOS_TRAFFIC_TYPE, QOS_TRAFFIC_TYPE enumeration [QOS], qos.qos_traffic_type, qos2/PQOS_TRAFFIC_TYPE, qos2/QOSTrafficTypeAudioVideo, qos2/QOSTrafficTypeBackground, qos2/QOSTrafficTypeBestEffort, qos2/QOSTrafficTypeControl, qos2/QOSTrafficTypeExcellentEffort, qos2/QOSTrafficTypeVoice, qos2/QOS_TRAFFIC_TYPE'
 ms.topic: enum
-f1_keywords: 
- - "qos2/QOS_TRAFFIC_TYPE"
+f1_keywords:
+- qos2/QOS_TRAFFIC_TYPE
 dev_langs:
- - c++
+- c++
 req.header: qos2.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Qos2.h
+- Qos2.h
 api_name:
- - QOS_TRAFFIC_TYPE
+- QOS_TRAFFIC_TYPE
 targetos: Windows
 req.typenames: QOS_TRAFFIC_TYPE, *PQOS_TRAFFIC_TYPE
 req.redist: 

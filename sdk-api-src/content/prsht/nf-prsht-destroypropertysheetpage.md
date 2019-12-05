@@ -1,19 +1,17 @@
 ---
 UID: NF:prsht.DestroyPropertySheetPage
 title: DestroyPropertySheetPage function (prsht.h)
-
 description: Destroys a property sheet page. An application must call this function for pages that have not been passed to the PropertySheet function.
 old-location: controls\DestroyPropertySheetPage.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\propsheet\functions\destroypropertysheetpage.htm
-
 ms.date: 12/05/2018
 ms.keywords: DestroyPropertySheetPage, DestroyPropertySheetPage function [Windows Controls], _win32_DestroyPropertySheetPage, _win32_DestroyPropertySheetPage_cpp, controls.DestroyPropertySheetPage, controls._win32_DestroyPropertySheetPage, prsht/DestroyPropertySheetPage
 ms.topic: function
-f1_keywords: 
- - "prsht/DestroyPropertySheetPage"
+f1_keywords:
+- prsht/DestroyPropertySheetPage
 dev_langs:
- - c++
+- c++
 req.header: prsht.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Comctl32.lib
 req.dll: Comctl32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Comctl32.dll
+- Comctl32.dll
 api_name:
- - DestroyPropertySheetPage
+- DestroyPropertySheetPage
 targetos: Windows
 req.typenames: 
 req.redist: 

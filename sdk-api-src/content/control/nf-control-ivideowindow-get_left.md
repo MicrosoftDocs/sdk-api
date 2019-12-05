@@ -1,19 +1,17 @@
 ---
 UID: NF:control.IVideoWindow.get_Left
 title: IVideoWindow::get_Left (control.h)
-
 description: The get_Left method retrieves the video window's x-axis coordinate.
 old-location: dshow\ivideowindow_get_left.htm
 tech.root: DirectShow
 ms.assetid: 6d75c926-588c-4fb2-b537-f27602799b2e
-
 ms.date: 12/05/2018
 ms.keywords: IVideoWindow interface [DirectShow],get_Left method, IVideoWindow.get_Left, IVideoWindow::get_Left, IVideoWindowget_Left, control/IVideoWindow::get_Left, dshow.ivideowindow_get_left, get_Left, get_Left method [DirectShow], get_Left method [DirectShow],IVideoWindow interface
 ms.topic: method
-f1_keywords: 
- - "control/IVideoWindow.get_Left"
+f1_keywords:
+- control/IVideoWindow.get_Left
 dev_langs:
- - c++
+- c++
 req.header: control.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IVideoWindow.get_Left
+- IVideoWindow.get_Left
 targetos: Windows
 req.typenames: 
 req.redist: 

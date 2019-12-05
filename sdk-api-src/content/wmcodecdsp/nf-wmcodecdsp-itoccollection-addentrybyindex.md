@@ -1,19 +1,17 @@
 ---
 UID: NF:wmcodecdsp.ITocCollection.AddEntryByIndex
 title: ITocCollection::AddEntryByIndex (wmcodecdsp.h)
-
 description: The AddEntryByIndex adds an individual table of contents to the collection and associates a caller-supplied index with the table of contents.
 old-location: mf\itoccollection_addentrybyindex.htm
 tech.root: medfound
 ms.assetid: 61f3103b-9b81-4729-a410-ab5ea63e072c
-
 ms.date: 12/05/2018
 ms.keywords: AddEntryByIndex, AddEntryByIndex method [Media Foundation], AddEntryByIndex method [Media Foundation],ITocCollection interface, ITocCollection interface [Media Foundation],AddEntryByIndex method, ITocCollection.AddEntryByIndex, ITocCollection::AddEntryByIndex, codecapi.itoccollection_addentrybyindex, mf.itoccollection_addentrybyindex, wmcodecdsp/ITocCollection::AddEntryByIndex
 ms.topic: method
-f1_keywords: 
- - "wmcodecdsp/ITocCollection.AddEntryByIndex"
+f1_keywords:
+- wmcodecdsp/ITocCollection.AddEntryByIndex
 dev_langs:
- - c++
+- c++
 req.header: wmcodecdsp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wmvdspa.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmvdspa.dll
+- wmvdspa.dll
 api_name:
- - ITocCollection.AddEntryByIndex
+- ITocCollection.AddEntryByIndex
 targetos: Windows
 req.typenames: 
 req.redist: 

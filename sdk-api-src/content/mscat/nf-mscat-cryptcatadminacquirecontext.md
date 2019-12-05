@@ -1,19 +1,17 @@
 ---
 UID: NF:mscat.CryptCATAdminAcquireContext
 title: CryptCATAdminAcquireContext function (mscat.h)
-
 description: Acquires a handle to a catalog administrator context.
 old-location: security\cryptcatadminacquirecontext.htm
 tech.root: SecCrypto
 ms.assetid: 693af055-fa93-4526-aa9c-3a659f8ff78f
-
 ms.date: 12/05/2018
 ms.keywords: CryptCATAdminAcquireContext, CryptCATAdminAcquireContext function [Security], mscat/CryptCATAdminAcquireContext, security.cryptcatadminacquirecontext
 ms.topic: function
-f1_keywords: 
- - "mscat/CryptCATAdminAcquireContext"
+f1_keywords:
+- mscat/CryptCATAdminAcquireContext
 dev_langs:
- - c++
+- c++
 req.header: mscat.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Wintrust.lib
 req.dll: Wintrust.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Wintrust.dll
+- Wintrust.dll
 api_name:
- - CryptCATAdminAcquireContext
+- CryptCATAdminAcquireContext
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NN:mfmediaengine.IMFTimedTextNotify
 title: IMFTimedTextNotify (mfmediaengine.h)
-
 description: Interface that defines callbacks for Microsoft Media Foundation Timed Text notifications.
 old-location: mf\imftimedtextnotify.htm
 tech.root: medfound
 ms.assetid: FE782D90-8CD4-4F8B-A20E-CE3F792A2DB4
-
 ms.date: 12/05/2018
 ms.keywords: IMFTimedTextNotify, IMFTimedTextNotify interface [Media Foundation], IMFTimedTextNotify interface [Media Foundation],described, mf.imftimedtextnotify, mfmediaengine/IMFTimedTextNotify
 ms.topic: interface
-f1_keywords: 
- - "mfmediaengine/IMFTimedTextNotify"
+f1_keywords:
+- mfmediaengine/IMFTimedTextNotify
 dev_langs:
- - c++
+- c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfmediaengine.h
+- mfmediaengine.h
 api_name:
- - IMFTimedTextNotify
+- IMFTimedTextNotify
 targetos: Windows
 req.typenames: 
 req.redist: 

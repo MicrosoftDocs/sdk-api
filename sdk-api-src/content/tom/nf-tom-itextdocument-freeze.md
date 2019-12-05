@@ -1,19 +1,17 @@
 ---
 UID: NF:tom.ITextDocument.Freeze
 title: ITextDocument::Freeze (tom.h)
-
 description: Increments the freeze count.
 old-location: controls\ITextDocument_Freeze.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\freeze.htm
-
 ms.date: 12/05/2018
 ms.keywords: Freeze, Freeze method [Windows Controls], Freeze method [Windows Controls],ITextDocument interface, ITextDocument interface [Windows Controls],Freeze method, ITextDocument.Freeze, ITextDocument::Freeze, _win32_ITextDocument_Freeze, _win32_ITextDocument_Freeze_cpp, controls.ITextDocument_Freeze, controls._win32_ITextDocument_Freeze, tom/ITextDocument::Freeze
 ms.topic: method
-f1_keywords: 
- - "tom/ITextDocument.Freeze"
+f1_keywords:
+- tom/ITextDocument.Freeze
 dev_langs:
- - c++
+- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msftedit.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msftedit.dll
+- Msftedit.dll
 api_name:
- - ITextDocument.Freeze
+- ITextDocument.Freeze
 targetos: Windows
 req.typenames: 
 req.redist: 

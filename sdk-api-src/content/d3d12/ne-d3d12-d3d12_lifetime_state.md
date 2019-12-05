@@ -1,16 +1,14 @@
 ---
 UID: NE:d3d12.D3D12_LIFETIME_STATE
 title: D3D12_LIFETIME_STATE
-
 description: Defines constants that specify the lifetime state of a lifetime-tracked object.
-
 ms.date: 10/30/2019
 ms.keywords: D3D12_LIFETIME_STATE
 ms.topic: language-reference
-f1_keywords: 
- - "d3d12/D3D12_LIFETIME_STATE"
+f1_keywords:
+- d3d12/D3D12_LIFETIME_STATE
 dev_langs:
- - c++
+- c++
 targetos: Windows
 req.construct-type: enumeration
 req.ddi-compliance: 
@@ -24,13 +22,13 @@ req.target-type:
 req.typenames: D3D12_LIFETIME_STATE
 req.umdf-ver: 
 topic_type:
- - apiref
+- apiref
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - d3d12.h
+- d3d12.h
 api_name:
- - D3D12_LIFETIME_STATE
+- D3D12_LIFETIME_STATE
 ---
 
 ## -description

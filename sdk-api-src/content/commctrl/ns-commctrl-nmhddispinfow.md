@@ -1,19 +1,17 @@
 ---
 UID: NS:commctrl.tagNMHDDISPINFOW
 title: NMHDDISPINFOW (commctrl.h)
-
 description: Contains information used in handling HDN_GETDISPINFO notification codes.
 old-location: controls\NMHDDISPINFO.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\header\structures\nmhddispinfo.htm
-
 ms.date: 12/05/2018
 ms.keywords: '*LPNMHDDISPINFOW, HDI_DI_SETITEM, HDI_IMAGE, HDI_LPARAM, HDI_TEXT, LPNMHDDISPINFO, LPNMHDDISPINFO structure pointer [Windows Controls], NMHDDISPINFO, NMHDDISPINFO structure [Windows Controls], NMHDDISPINFOA, NMHDDISPINFOW, _win32_NMHDDISPINFO, _win32_NMHDDISPINFO_cpp, commctrl/LPNMHDDISPINFO, commctrl/NMHDDISPINFO, commctrl/NMHDDISPINFOA, commctrl/NMHDDISPINFOW, controls.NMHDDISPINFO, controls._win32_NMHDDISPINFO'
 ms.topic: struct
 f1_keywords:
 - commctrl/NMHDDISPINFO
 dev_langs:
- - c++
+- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

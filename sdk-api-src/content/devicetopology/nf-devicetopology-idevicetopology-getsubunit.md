@@ -1,19 +1,17 @@
 ---
 UID: NF:devicetopology.IDeviceTopology.GetSubunit
 title: IDeviceTopology::GetSubunit (devicetopology.h)
-
 description: The GetSubunit method gets the subunit that is specified by a subunit number.
 old-location: coreaudio\idevicetopology_getsubunit.htm
 tech.root: CoreAudio
 ms.assetid: 6251cabd-9284-4311-bd5c-0c5b6d9a9be4
-
 ms.date: 12/05/2018
 ms.keywords: GetSubunit, GetSubunit method [Core Audio], GetSubunit method [Core Audio],IDeviceTopology interface, IDeviceTopology interface [Core Audio],GetSubunit method, IDeviceTopology.GetSubunit, IDeviceTopology::GetSubunit, IDeviceTopologyGetSubunit, coreaudio.idevicetopology_getsubunit, devicetopology/IDeviceTopology::GetSubunit
 ms.topic: method
-f1_keywords: 
- - "devicetopology/IDeviceTopology.GetSubunit"
+f1_keywords:
+- devicetopology/IDeviceTopology.GetSubunit
 dev_langs:
- - c++
+- c++
 req.header: devicetopology.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Devicetopology.h
+- Devicetopology.h
 api_name:
- - IDeviceTopology.GetSubunit
+- IDeviceTopology.GetSubunit
 targetos: Windows
 req.typenames: 
 req.redist: 

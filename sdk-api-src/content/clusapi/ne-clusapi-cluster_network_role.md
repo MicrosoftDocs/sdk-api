@@ -1,19 +1,17 @@
 ---
 UID: NE:clusapi.CLUSTER_NETWORK_ROLE
 title: CLUSTER_NETWORK_ROLE (clusapi.h)
-
 description: Describes the role a network plays in the cluster.
 old-location: mscs\cluster_network_role.htm
 tech.root: MsCS
 ms.assetid: 9c495cc4-d4d5-4465-9172-3171e55a14b0
-
 ms.date: 12/05/2018
 ms.keywords: CLUSTER_NETWORK_ROLE, CLUSTER_NETWORK_ROLE enumeration [Failover Cluster], ClusterNetworkRoleClientAccess, ClusterNetworkRoleInternalAndClient, ClusterNetworkRoleInternalUse, ClusterNetworkRoleNone, _CLUSTER_NETWORK_ROLE, _CLUSTER_NETWORK_ROLE enumeration [Failover Cluster], clusapi/CLUSTER_NETWORK_ROLE, clusapi/ClusterNetworkRoleClientAccess, clusapi/ClusterNetworkRoleInternalAndClient, clusapi/ClusterNetworkRoleInternalUse, clusapi/ClusterNetworkRoleNone, clusapi/_CLUSTER_NETWORK_ROLE, msclus/CLUSTER_NETWORK_ROLE, msclus/ClusterNetworkRoleClientAccess, msclus/ClusterNetworkRoleInternalAndClient, msclus/ClusterNetworkRoleInternalUse, msclus/ClusterNetworkRoleNone, msclus/_CLUSTER_NETWORK_ROLE, mscs.cluster_network_role
 ms.topic: enum
-f1_keywords: 
- - "clusapi/CLUSTER_NETWORK_ROLE"
+f1_keywords:
+- clusapi/CLUSTER_NETWORK_ROLE
 dev_langs:
- - c++
+- c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - ClusAPI.h
- - MsClus.h
+- ClusAPI.h
+- MsClus.h
 api_name:
- - CLUSTER_NETWORK_ROLE
+- CLUSTER_NETWORK_ROLE
 targetos: Windows
 req.typenames: CLUSTER_NETWORK_ROLE
 req.redist: 

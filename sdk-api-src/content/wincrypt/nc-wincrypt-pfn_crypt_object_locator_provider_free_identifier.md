@@ -1,19 +1,17 @@
 ---
 UID: NC:wincrypt.PFN_CRYPT_OBJECT_LOCATOR_PROVIDER_FREE_IDENTIFIER
 title: PFN_CRYPT_OBJECT_LOCATOR_PROVIDER_FREE_IDENTIFIER (wincrypt.h)
-
 description: Releases memory for an object identifier.
 old-location: security\pfn_crypt_object_locator_provider_free_identifier.htm
 tech.root: SecCrypto
 ms.assetid: C2ED3B51-8B98-412C-A571-D107F2BEC5F1
-
 ms.date: 12/05/2018
 ms.keywords: PFN_CRYPT_OBJECT_LOCATOR_PROVIDER_FREE_IDENTIFIER, PFN_CRYPT_OBJECT_LOCATOR_PROVIDER_FREE_IDENTIFIER callback, PFN_CRYPT_OBJECT_LOCATOR_PROVIDER_FREE_IDENTIFIER callback function [Security], security.pfn_crypt_object_locator_provider_free_identifier, wincrypt/PFN_CRYPT_OBJECT_LOCATOR_PROVIDER_FREE_IDENTIFIER
 ms.topic: callback
-f1_keywords: 
- - "wincrypt/PFN_CRYPT_OBJECT_LOCATOR_PROVIDER_FREE_IDENTIFIER"
+f1_keywords:
+- wincrypt/PFN_CRYPT_OBJECT_LOCATOR_PROVIDER_FREE_IDENTIFIER
 dev_langs:
- - c++
+- c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Wincrypt.h
+- Wincrypt.h
 api_name:
- - PFN_CRYPT_OBJECT_LOCATOR_PROVIDER_FREE_IDENTIFIER
+- PFN_CRYPT_OBJECT_LOCATOR_PROVIDER_FREE_IDENTIFIER
 targetos: Windows
 req.typenames: 
 req.redist: 

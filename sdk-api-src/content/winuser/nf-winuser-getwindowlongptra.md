@@ -1,19 +1,17 @@
 ---
 UID: NF:winuser.GetWindowLongPtrA
 title: GetWindowLongPtrA function (winuser.h)
-
 description: Retrieves information about the specified window. The function also retrieves the value at a specified offset into the extra window memory.
 old-location: winmsg\getwindowlongptr.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windowclasses\windowclassreference\windowclassfunctions\getwindowlongptr.htm
-
 ms.date: 12/05/2018
 ms.keywords: DWLP_DLGPROC, DWLP_MSGRESULT, DWLP_USER, GWLP_HINSTANCE, GWLP_HWNDPARENT, GWLP_ID, GWLP_USERDATA, GWLP_WNDPROC, GWL_EXSTYLE, GWL_STYLE, GetWindowLongPtr, GetWindowLongPtr function [Windows and Messages], GetWindowLongPtrA, GetWindowLongPtrW, _win32_GetWindowLongPtr, _win32_getwindowlongptr_cpp, winmsg.getwindowlongptr, winui._win32_getwindowlongptr, winuser/GetWindowLongPtr, winuser/GetWindowLongPtrA, winuser/GetWindowLongPtrW
 ms.topic: function
-f1_keywords: 
- - "winuser/GetWindowLongPtr"
+f1_keywords:
+- winuser/GetWindowLongPtr
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,24 +30,24 @@ req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - User32.dll
- - API-MS-Win-NTUser-IE-Window-l1-1-0.dll
- - ie_shims.dll
- - API-MS-Win-RTCore-NTUser-Window-l1-1-0.dll
- - minuser.dll
- - Ext-MS-Win-NTUser-Windowclass-l1-1-0.dll
- - Ext-MS-Win-NTUser-Windowclass-l1-1-1.dll
- - Ext-MS-Win-RTCore-NTUser-Window-Ext-l1-1-0.dll
- - ext-ms-win-ntuser-windowclass-l1-1-2.dll
+- User32.dll
+- API-MS-Win-NTUser-IE-Window-l1-1-0.dll
+- ie_shims.dll
+- API-MS-Win-RTCore-NTUser-Window-l1-1-0.dll
+- minuser.dll
+- Ext-MS-Win-NTUser-Windowclass-l1-1-0.dll
+- Ext-MS-Win-NTUser-Windowclass-l1-1-1.dll
+- Ext-MS-Win-RTCore-NTUser-Window-Ext-l1-1-0.dll
+- ext-ms-win-ntuser-windowclass-l1-1-2.dll
 api_name:
- - GetWindowLongPtr
- - GetWindowLongPtrA
- - GetWindowLongPtrW
+- GetWindowLongPtr
+- GetWindowLongPtrA
+- GetWindowLongPtrW
 targetos: Windows
 req.typenames: 
 req.redist: 

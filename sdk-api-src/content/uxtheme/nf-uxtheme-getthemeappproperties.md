@@ -1,19 +1,17 @@
 ---
 UID: NF:uxtheme.GetThemeAppProperties
 title: GetThemeAppProperties function (uxtheme.h)
-
 description: Retrieves the property flags that control how visual styles are applied in the current application.
 old-location: controls\GetThemeAppProperties.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\userex\functions\getthemeappproperties.htm
-
 ms.date: 12/05/2018
 ms.keywords: GetThemeAppProperties, GetThemeAppProperties function [Windows Controls], controls.GetThemeAppProperties, controls.inet_GetThemeAppProperties, inet_GetThemeAppProperties, inet_GetThemeAppProperties_cpp, uxtheme/GetThemeAppProperties
 ms.topic: function
-f1_keywords: 
- - "uxtheme/GetThemeAppProperties"
+f1_keywords:
+- uxtheme/GetThemeAppProperties
 dev_langs:
- - c++
+- c++
 req.header: uxtheme.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: UxTheme.lib
 req.dll: UxTheme.dll (version 1.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - UxTheme.dll
- - ext-ms-win-uxtheme-themes-l1-1-1.dll
- - xamlpalwp.dll
+- UxTheme.dll
+- ext-ms-win-uxtheme-themes-l1-1-1.dll
+- xamlpalwp.dll
 api_name:
- - GetThemeAppProperties
+- GetThemeAppProperties
 targetos: Windows
 req.typenames: 
 req.redist: 

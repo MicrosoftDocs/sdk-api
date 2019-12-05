@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IEnumFilters.Reset
 title: IEnumFilters::Reset (strmif.h)
-
 description: The Reset method resets the enumeration sequence to the beginning.
 old-location: dshow\ienumfilters_reset.htm
 tech.root: DirectShow
 ms.assetid: 997a6e56-cd11-42bf-b12c-a4418a4dc644
-
 ms.date: 12/05/2018
 ms.keywords: IEnumFilters interface [DirectShow],Reset method, IEnumFilters.Reset, IEnumFilters::Reset, IEnumFiltersReset, Reset, Reset method [DirectShow], Reset method [DirectShow],IEnumFilters interface, dshow.ienumfilters_reset, strmif/IEnumFilters::Reset
 ms.topic: method
-f1_keywords: 
- - "strmif/IEnumFilters.Reset"
+f1_keywords:
+- strmif/IEnumFilters.Reset
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IEnumFilters.Reset
+- IEnumFilters.Reset
 targetos: Windows
 req.typenames: 
 req.redist: 

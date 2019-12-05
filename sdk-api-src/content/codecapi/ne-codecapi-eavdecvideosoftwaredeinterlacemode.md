@@ -1,19 +1,17 @@
 ---
 UID: NE:codecapi.eAVDecVideoSoftwareDeinterlaceMode
 title: eAVDecVideoSoftwareDeinterlaceMode (codecapi.h)
-
 description: Specifies a video decoder's software deinterlace mode. This enumeration is used with the AVDecVideoSoftwareDeinterlaceMode property.
 old-location: dshow\eavdecvideosoftwaredeinterlacemode.htm
 tech.root: DirectShow
 ms.assetid: 3c72e714-1252-4c8b-9371-58f995e5b163
-
 ms.date: 12/05/2018
 ms.keywords: codecapi/eAVDecVideoSoftwareDeinterlaceMode, codecapi/eAVDecVideoSoftwareDeinterlaceMode_BOBDeinterlacing, codecapi/eAVDecVideoSoftwareDeinterlaceMode_NoDeinterlacing, codecapi/eAVDecVideoSoftwareDeinterlaceMode_ProgressiveDeinterlacing, codecapi/eAVDecVideoSoftwareDeinterlaceMode_SmartBOBDeinterlacing, dshow.eavdecvideosoftwaredeinterlacemode, eAVDecVideoSoftwareDeinterlaceMode, eAVDecVideoSoftwareDeinterlaceMode enumeration [DirectShow], eAVDecVideoSoftwareDeinterlaceMode_BOBDeinterlacing, eAVDecVideoSoftwareDeinterlaceMode_NoDeinterlacing, eAVDecVideoSoftwareDeinterlaceMode_ProgressiveDeinterlacing, eAVDecVideoSoftwareDeinterlaceMode_SmartBOBDeinterlacing
 ms.topic: enum
-f1_keywords: 
- - "codecapi/eAVDecVideoSoftwareDeinterlaceMode"
+f1_keywords:
+- codecapi/eAVDecVideoSoftwareDeinterlaceMode
 dev_langs:
- - c++
+- c++
 req.header: codecapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - codecapi.h
+- codecapi.h
 api_name:
- - eAVDecVideoSoftwareDeinterlaceMode
+- eAVDecVideoSoftwareDeinterlaceMode
 targetos: Windows
 req.typenames: 
 req.redist: 

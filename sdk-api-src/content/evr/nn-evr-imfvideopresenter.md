@@ -1,19 +1,17 @@
 ---
 UID: NN:evr.IMFVideoPresenter
 title: IMFVideoPresenter (evr.h)
-
 description: Represents a video presenter. A video presenter is an object that receives video frames, typically from a video mixer, and presents them in some way, typically by rendering them to the display.
 old-location: mf\imfvideopresenter.htm
 tech.root: medfound
 ms.assetid: 8f6e3132-03e9-4a2e-9160-e39d29cf2408
-
 ms.date: 12/05/2018
 ms.keywords: 8f6e3132-03e9-4a2e-9160-e39d29cf2408, IMFVideoPresenter, IMFVideoPresenter interface [Media Foundation], IMFVideoPresenter interface [Media Foundation],described, evr/IMFVideoPresenter, mf.imfvideopresenter
 ms.topic: interface
-f1_keywords: 
- - "evr/IMFVideoPresenter"
+f1_keywords:
+- evr/IMFVideoPresenter
 dev_langs:
- - c++
+- c++
 req.header: evr.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - strmiids.lib
- - strmiids.dll
+- strmiids.lib
+- strmiids.dll
 api_name:
- - IMFVideoPresenter
+- IMFVideoPresenter
 targetos: Windows
 req.typenames: 
 req.redist: 

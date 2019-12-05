@@ -1,19 +1,17 @@
 ---
 UID: NF:vswriter.CVssWriterEx2.IsWriterShuttingDown
 title: CVssWriterEx2::IsWriterShuttingDown (vswriter.h)
-
 description: Determines whether the writer is shutting down.
 old-location: base\cvsswriterex2_iswritershuttingdown.htm
 tech.root: VSS
 ms.assetid: 78ea5993-ee86-435b-a225-8cb6e5f1a240
-
 ms.date: 12/05/2018
 ms.keywords: CVssWriterEx2 interface,IsWriterShuttingDown method, CVssWriterEx2.IsWriterShuttingDown, CVssWriterEx2::IsWriterShuttingDown, IsWriterShuttingDown, IsWriterShuttingDown method, IsWriterShuttingDown method,CVssWriterEx2 interface, base.cvsswriterex2_iswritershuttingdown, vswriter/CVssWriterEx2::IsWriterShuttingDown
 ms.topic: method
-f1_keywords: 
- - "vswriter/CVssWriterEx2.IsWriterShuttingDown"
+f1_keywords:
+- vswriter/CVssWriterEx2.IsWriterShuttingDown
 dev_langs:
- - c++
+- c++
 req.header: vswriter.h
 req.include-header: Vss.h, VsWriter.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: VssApi.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - VssApi.lib
- - VssApi.dll
+- VssApi.lib
+- VssApi.dll
 api_name:
- - CVssWriterEx2.IsWriterShuttingDown
+- CVssWriterEx2.IsWriterShuttingDown
 targetos: Windows
 req.typenames: 
 req.redist: 

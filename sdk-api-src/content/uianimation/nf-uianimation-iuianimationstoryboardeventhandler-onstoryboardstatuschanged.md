@@ -1,19 +1,17 @@
 ---
 UID: NF:uianimation.IUIAnimationStoryboardEventHandler.OnStoryboardStatusChanged
 title: IUIAnimationStoryboardEventHandler::OnStoryboardStatusChanged (uianimation.h)
-
 description: Handles events that occur when a storyboard's status changes.
 old-location: uianimation\iuianimationstoryboardeventhandler_onstoryboardstatuschanged.htm
 tech.root: UIAnimation
 ms.assetid: e1ccf0e3-64fc-444e-a27b-1a5bc1d9d6fd
-
 ms.date: 12/05/2018
 ms.keywords: IUIAnimationStoryboardEventHandler interface [Windows Animation],OnStoryboardStatusChanged method, IUIAnimationStoryboardEventHandler.OnStoryboardStatusChanged, IUIAnimationStoryboardEventHandler::OnStoryboardStatusChanged, OnStoryboardStatusChanged, OnStoryboardStatusChanged method [Windows Animation], OnStoryboardStatusChanged method [Windows Animation],IUIAnimationStoryboardEventHandler interface, uianimation.iuianimationstoryboardeventhandler_onstoryboardstatuschanged, uianimation/IUIAnimationStoryboardEventHandler::OnStoryboardStatusChanged
 ms.topic: method
-f1_keywords: 
- - "uianimation/IUIAnimationStoryboardEventHandler.OnStoryboardStatusChanged"
+f1_keywords:
+- uianimation/IUIAnimationStoryboardEventHandler.OnStoryboardStatusChanged
 dev_langs:
- - c++
+- c++
 req.header: uianimation.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: UIAnimation.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAnimation.dll
+- UIAnimation.dll
 api_name:
- - IUIAnimationStoryboardEventHandler.OnStoryboardStatusChanged
+- IUIAnimationStoryboardEventHandler.OnStoryboardStatusChanged
 targetos: Windows
 req.typenames: 
 req.redist: 

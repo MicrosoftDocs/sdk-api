@@ -1,19 +1,17 @@
 ---
 UID: NF:lmdfs.NetDfsRemoveFtRootForced
 title: NetDfsRemoveFtRootForced function (lmdfs.h)
-
 description: Removes the specified root target from a domain-based Distributed File System (DFS) namespace, even if the root target server is offline.
 old-location: dfs\netdfsremoveftrootforced.htm
 tech.root: Dfs
 ms.assetid: 4eaa0e2a-fa09-4a20-98e1-4c0c4ff5d0ef
-
 ms.date: 12/05/2018
 ms.keywords: NetDfsRemoveFtRootForced, NetDfsRemoveFtRootForced function [Distributed File System], _win32_netdfsremoveftrootforced, dfs.netdfsremoveftrootforced, fs.netdfsremoveftrootforced, lmdfs/NetDfsRemoveFtRootForced, netmgmt.netdfsremoveftrootforced
 ms.topic: function
-f1_keywords: 
- - "lmdfs/NetDfsRemoveFtRootForced"
+f1_keywords:
+- lmdfs/NetDfsRemoveFtRootForced
 dev_langs:
- - c++
+- c++
 req.header: lmdfs.h
 req.include-header: LmDfs.h, Lm.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Netapi32.lib
 req.dll: Netapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Netapi32.dll
+- Netapi32.dll
 api_name:
- - NetDfsRemoveFtRootForced
+- NetDfsRemoveFtRootForced
 targetos: Windows
 req.typenames: 
 req.redist: 

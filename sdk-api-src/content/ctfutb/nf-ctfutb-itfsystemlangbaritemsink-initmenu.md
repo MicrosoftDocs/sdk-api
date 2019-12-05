@@ -1,19 +1,17 @@
 ---
 UID: NF:ctfutb.ITfSystemLangBarItemSink.InitMenu
 title: ITfSystemLangBarItemSink::InitMenu (ctfutb.h)
-
 description: ITfSystemLangBarItemSink::InitMenu method
 old-location: tsf\itfsystemlangbaritemsink_initmenu.htm
 tech.root: TSF
 ms.assetid: 6e8ba0ef-2f0a-4d67-95c1-06fee763bc14
-
 ms.date: 12/05/2018
 ms.keywords: ITfSystemLangBarItemSink interface [Text Services Framework],InitMenu method, ITfSystemLangBarItemSink.InitMenu, ITfSystemLangBarItemSink::InitMenu, InitMenu, InitMenu method [Text Services Framework], InitMenu method [Text Services Framework],ITfSystemLangBarItemSink interface, _tsf_itfsystemlangbaritemsink_initmenu_ref, ctfutb/ITfSystemLangBarItemSink::InitMenu, tsf.itfsystemlangbaritemsink_initmenu
 ms.topic: method
-f1_keywords: 
- - "ctfutb/ITfSystemLangBarItemSink.InitMenu"
+f1_keywords:
+- ctfutb/ITfSystemLangBarItemSink.InitMenu
 dev_langs:
- - c++
+- c++
 req.header: ctfutb.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msctf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msctf.dll
+- Msctf.dll
 api_name:
- - ITfSystemLangBarItemSink.InitMenu
+- ITfSystemLangBarItemSink.InitMenu
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

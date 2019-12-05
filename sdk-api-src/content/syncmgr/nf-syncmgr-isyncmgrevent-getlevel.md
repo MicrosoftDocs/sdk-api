@@ -1,19 +1,17 @@
 ---
 UID: NF:syncmgr.ISyncMgrEvent.GetLevel
 title: ISyncMgrEvent::GetLevel (syncmgr.h)
-
 description: Gets the log level of the event.
 old-location: shell\ISyncMgrEvent_GetLevel.htm
 tech.root: shell
 ms.assetid: 2937dc05-9576-43b4-9fbe-6c151dffcace
-
 ms.date: 12/05/2018
 ms.keywords: GetLevel, GetLevel method [Windows Shell], GetLevel method [Windows Shell],ISyncMgrEvent interface, ISyncMgrEvent interface [Windows Shell],GetLevel method, ISyncMgrEvent.GetLevel, ISyncMgrEvent::GetLevel, _shell_ISyncMgrEvent_GetLevel, shell.ISyncMgrEvent_GetLevel, syncmgr/ISyncMgrEvent::GetLevel
 ms.topic: method
-f1_keywords: 
- - "syncmgr/ISyncMgrEvent.GetLevel"
+f1_keywords:
+- syncmgr/ISyncMgrEvent.GetLevel
 dev_langs:
- - c++
+- c++
 req.header: syncmgr.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Syncmgr.h
+- Syncmgr.h
 api_name:
- - ISyncMgrEvent.GetLevel
+- ISyncMgrEvent.GetLevel
 targetos: Windows
 req.typenames: 
 req.redist: 

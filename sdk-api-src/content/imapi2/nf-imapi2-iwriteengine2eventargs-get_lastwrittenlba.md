@@ -1,19 +1,17 @@
 ---
 UID: NF:imapi2.IWriteEngine2EventArgs.get_LastWrittenLba
 title: IWriteEngine2EventArgs::get_LastWrittenLba (imapi2.h)
-
 description: Retrieves the address of the sector most recently written to the device.
 old-location: imapi\iwriteengine2eventargs_get_lastwrittenlba.htm
 tech.root: imapi
 ms.assetid: ccb964b5-dd6f-4250-b6d2-41154258872f
-
 ms.date: 12/05/2018
 ms.keywords: IWriteEngine2EventArgs interface [IMAPI],get_LastWrittenLba method, IWriteEngine2EventArgs.get_LastWrittenLba, IWriteEngine2EventArgs::get_LastWrittenLba, get_LastWrittenLba, get_LastWrittenLba method [IMAPI], get_LastWrittenLba method [IMAPI],IWriteEngine2EventArgs interface, imapi.iwriteengine2eventargs_get_lastwrittenlba, imapi2/IWriteEngine2EventArgs::get_LastWrittenLba
 ms.topic: method
-f1_keywords: 
- - "imapi2/IWriteEngine2EventArgs.get_LastWrittenLba"
+f1_keywords:
+- imapi2/IWriteEngine2EventArgs.get_LastWrittenLba
 dev_langs:
- - c++
+- c++
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - imapi2.h
+- imapi2.h
 api_name:
- - IWriteEngine2EventArgs.get_LastWrittenLba
+- IWriteEngine2EventArgs.get_LastWrittenLba
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:immdev.ImmAssociateContext
 title: ImmAssociateContext function (immdev.h)
-
 description: Associates the specified input context with the specified window. By default, the operating system associates the default input context with each window as it is created.
 old-location: intl\immassociatecontext.htm
 tech.root: Intl
 ms.assetid: 978ea304-c44d-4f00-b86f-932bbd5f603c
-
 ms.date: 12/05/2018
 ms.keywords: ImmAssociateContext, ImmAssociateContext function [Internationalization for Windows Applications], _win32_ImmAssociateContext, imm/ImmAssociateContext, intl.immassociatecontext
 ms.topic: function
-f1_keywords: 
- - "immdev/ImmAssociateContext"
+f1_keywords:
+- immdev/ImmAssociateContext
 dev_langs:
- - c++
+- c++
 req.header: immdev.h
 req.include-header: Immdev.h, Windows.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Imm32.lib
 req.dll: Imm32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Imm32.dll
- - Ext-MS-Win-imm-l1-1-0.dll
- - ext-ms-win-imm-l1-1-1.dll
+- Imm32.dll
+- Ext-MS-Win-imm-l1-1-0.dll
+- ext-ms-win-imm-l1-1-1.dll
 api_name:
- - ImmAssociateContext
+- ImmAssociateContext
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NN:dcomp.IDCompositionBlendEffect
 title: IDCompositionBlendEffect (dcomp.h)
-
 description: The Blend Effect is used to combine 2 images.
 old-location: directcomp\idcompositionblendeffect.htm
 tech.root: directcomp
 ms.assetid: F8EDEA1D-A990-48C0-B4D4-3DD9261B47B2
-
 ms.date: 12/05/2018
 ms.keywords: IDCompositionBlendEffect, IDCompositionBlendEffect interface [DirectComposition], IDCompositionBlendEffect interface [DirectComposition],described, dcomp/IDCompositionBlendEffect, directcomp.idcompositionblendeffect
 ms.topic: interface
-f1_keywords: 
- - "dcomp/IDCompositionBlendEffect"
+f1_keywords:
+- dcomp/IDCompositionBlendEffect
 dev_langs:
- - c++
+- c++
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dcomp.lib
 req.dll: Dcomp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dcomp.dll
+- Dcomp.dll
 api_name:
- - IDCompositionBlendEffect
+- IDCompositionBlendEffect
 targetos: Windows
 req.typenames: 
 req.redist: 

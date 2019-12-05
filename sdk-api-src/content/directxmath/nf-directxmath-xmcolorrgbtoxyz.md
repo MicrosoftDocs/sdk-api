@@ -1,19 +1,17 @@
 ---
 UID: NF:directxmath.XMColorRGBToXYZ
 title: XMColorRGBToXYZ function (directxmath.h)
-
 description: Converts RGB color values to XYZ color values.
 old-location: dxmath\xmcolorrgbtoxyz.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.color.XMColorRGBToXYZ(XMVECTOR)
-
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMColorRGBToXYZ, XMColorRGBToXYZ, XMColorRGBToXYZ method [DirectX Math Support APIs], dxmath.xmcolorrgbtoxyz
 ms.topic: function
-f1_keywords: 
- - "directxmath/XMColorRGBToXYZ"
+f1_keywords:
+- directxmath/XMColorRGBToXYZ
 dev_langs:
- - c++
+- c++
 req.header: directxmath.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - DirectXMath.h
+- DirectXMath.h
 api_name:
- - XMColorRGBToXYZ
+- XMColorRGBToXYZ
 targetos: Windows
 req.typenames: 
 req.redist: 

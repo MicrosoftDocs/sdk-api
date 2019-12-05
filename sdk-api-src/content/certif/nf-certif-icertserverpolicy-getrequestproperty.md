@@ -1,19 +1,17 @@
 ---
 UID: NF:certif.ICertServerPolicy.GetRequestProperty
 title: ICertServerPolicy::GetRequestProperty (certif.h)
-
 description: Retrieves a specific property from a request.
 old-location: security\icertserverpolicy_getrequestproperty.htm
 tech.root: SecCrypto
 ms.assetid: 4055008a-7034-47f3-bbae-c870165ab3ef
-
 ms.date: 12/05/2018
 ms.keywords: CCertServerPolicy object [Security],GetRequestProperty method, GetRequestProperty, GetRequestProperty method [Security], GetRequestProperty method [Security],CCertServerPolicy object, GetRequestProperty method [Security],ICertServerPolicy interface, ICertServerPolicy interface [Security],GetRequestProperty method, ICertServerPolicy.GetRequestProperty, ICertServerPolicy::GetRequestProperty, PROPTYPE_BINARY, PROPTYPE_DATE, PROPTYPE_LONG, PROPTYPE_STRING, RawRequest, RequestAttributes, RequestID, RequestType, RequesterName, SubmittedWhen, _certsrv_icertserverpolicy_getrequestproperty, certif/ICertServerPolicy::GetRequestProperty, security.icertserverpolicy_getrequestproperty
 ms.topic: method
-f1_keywords: 
- - "certif/ICertServerPolicy.GetRequestProperty"
+f1_keywords:
+- certif/ICertServerPolicy.GetRequestProperty
 dev_langs:
- - c++
+- c++
 req.header: certif.h
 req.include-header: Certsrv.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Certidl.lib
 req.dll: Certcli.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Certcli.dll
+- Certcli.dll
 api_name:
- - ICertServerPolicy.GetRequestProperty
- - CCertServerPolicy.GetRequestProperty
+- ICertServerPolicy.GetRequestProperty
+- CCertServerPolicy.GetRequestProperty
 targetos: Windows
 req.typenames: 
 req.redist: 

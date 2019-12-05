@@ -1,19 +1,17 @@
 ---
 UID: NF:rtmv2.RtmReleaseDests
 title: RtmReleaseDests function (rtmv2.h)
-
 description: The RtmReleaseDests function releases the destination handles.
 old-location: rras\rtmreleasedests.htm
 tech.root: RRAS
 ms.assetid: eb338b7f-8461-4980-b92f-09d976661ff2
-
 ms.date: 12/05/2018
 ms.keywords: RtmReleaseDests, RtmReleaseDests function [RAS], _rtmv2ref_rtmreleasedests, rras.rtmreleasedests, rtmv2/RtmReleaseDests
 ms.topic: function
 f1_keywords:
 - rtmv2/RtmReleaseDests
 dev_langs:
- - c++
+- c++
 req.header: rtmv2.h
 req.include-header: 
 req.target-type: Windows

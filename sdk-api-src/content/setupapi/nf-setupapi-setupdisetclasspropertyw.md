@@ -1,19 +1,17 @@
 ---
 UID: NF:setupapi.SetupDiSetClassPropertyW
 title: SetupDiSetClassPropertyW function (setupapi.h)
-
 description: The SetupDiSetClassProperty function sets a class property for a device setup class or a device interface class.
 old-location: devinst\setupdisetclassproperty.htm
 tech.root: devinst
 ms.assetid: 12402336-9894-4d0d-b176-c6907e0cdcd4
-
 ms.date: 12/05/2018
 ms.keywords: SetupDiSetClassProperty, SetupDiSetClassProperty function [Device and Driver Installation], SetupDiSetClassPropertyA, SetupDiSetClassPropertyW, devinst.setupdisetclassproperty, di-rtns_c0346a11-5f87-4578-af46-5cb82e5b6101.xml, setupapi/SetupDiSetClassProperty, setupapi/SetupDiSetClassPropertyA, setupapi/SetupDiSetClassPropertyW
 ms.topic: function
 f1_keywords:
 - setupapi/SetupDiSetClassProperty
 dev_langs:
- - c++
+- c++
 req.header: setupapi.h
 req.include-header: Setupapi.h
 req.target-type: DesktopFor universal, call CM_Set_Class_Property

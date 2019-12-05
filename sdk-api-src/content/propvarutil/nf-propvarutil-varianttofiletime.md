@@ -1,19 +1,17 @@
 ---
 UID: NF:propvarutil.VariantToFileTime
 title: VariantToFileTime function (propvarutil.h)
-
 description: Extracts a FILETIME structure from a variant structure.
 old-location: properties\VariantToFileTime.htm
 tech.root: properties
 ms.assetid: e3094bd1-e641-43d8-8bc5-926c8d5a6ebe
-
 ms.date: 12/05/2018
 ms.keywords: PSTF_LOCAL, PSTF_UTC, VariantToFileTime, VariantToFileTime function [Windows Properties], _shell_VariantToFileTime, properties.VariantToFileTime, propvarutil/VariantToFileTime, shell.VariantToFileTime
 ms.topic: function
-f1_keywords: 
- - "propvarutil/VariantToFileTime"
+f1_keywords:
+- propvarutil/VariantToFileTime
 dev_langs:
- - c++
+- c++
 req.header: propvarutil.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Propsys.lib
 req.dll: Propsys.dll (version 6.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Propsys.dll
+- Propsys.dll
 api_name:
- - VariantToFileTime
+- VariantToFileTime
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0

@@ -1,19 +1,17 @@
 ---
 UID: NF:comsvcs.IAppDomainHelper.Initialize
 title: IAppDomainHelper::Initialize (comsvcs.h)
-
 description: Binds the calling object to the current application domain and provides a callback function for shutdown that is executed when the application domain is unloaded.
 old-location: cos\iappdomainhelper_initialize.htm
 tech.root: cossdk
 ms.assetid: c5cdff7f-6fb4-4f49-995a-63e4ecaef71a
-
 ms.date: 12/05/2018
 ms.keywords: IAppDomainHelper interface [COM+],Initialize method, IAppDomainHelper.Initialize, IAppDomainHelper::Initialize, Initialize, Initialize method [COM+], Initialize method [COM+],IAppDomainHelper interface, _cos_IAppDomainHelper_Initialize, comsvcs/IAppDomainHelper::Initialize, cos.iappdomainhelper_initialize
 ms.topic: method
-f1_keywords: 
- - "comsvcs/IAppDomainHelper.Initialize"
+f1_keywords:
+- comsvcs/IAppDomainHelper.Initialize
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - IAppDomainHelper.Initialize
+- IAppDomainHelper.Initialize
 targetos: Windows
 req.typenames: 
 req.redist: 

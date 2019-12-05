@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d10effect.ID3D10EffectType.GetMemberSemantic
 title: ID3D10EffectType::GetMemberSemantic (d3d10effect.h)
-
 description: Get the semantic attached to a member.
 old-location: direct3d10\id3d10effecttype_getmembersemantic.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10effecttype_getmembersemantic.htm
-
 ms.date: 12/05/2018
 ms.keywords: 8384b4a1-a5bd-59ab-0b4d-d909f359d489, GetMemberSemantic, GetMemberSemantic method [Direct3D 10], GetMemberSemantic method [Direct3D 10],ID3D10EffectType interface, ID3D10EffectType interface [Direct3D 10],GetMemberSemantic method, ID3D10EffectType.GetMemberSemantic, ID3D10EffectType::GetMemberSemantic, d3d10effect/ID3D10EffectType::GetMemberSemantic, direct3d10.id3d10effecttype_getmembersemantic
 ms.topic: method
-f1_keywords: 
- - "d3d10effect/ID3D10EffectType.GetMemberSemantic"
+f1_keywords:
+- d3d10effect/ID3D10EffectType.GetMemberSemantic
 dev_langs:
- - c++
+- c++
 req.header: d3d10effect.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D10Effect.h
+- D3D10Effect.h
 api_name:
- - ID3D10EffectType.GetMemberSemantic
+- ID3D10EffectType.GetMemberSemantic
 targetos: Windows
 req.typenames: 
 req.redist: 

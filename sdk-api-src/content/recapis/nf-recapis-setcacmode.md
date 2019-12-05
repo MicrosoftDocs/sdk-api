@@ -1,19 +1,17 @@
 ---
 UID: NF:recapis.SetCACMode
 title: SetCACMode function (recapis.h)
-
 description: Specifies character Autocomplete mode for character or word recognition.You cannot turn off character Autocomplete after it is set.
 old-location: tablet\setcacmode.htm
 tech.root: tablet
 ms.assetid: 4f51e2e1-612a-484e-acba-6f3ae268082a
-
 ms.date: 12/05/2018
 ms.keywords: 4f51e2e1-612a-484e-acba-6f3ae268082a, CAC_FULL, CAC_PREFIX, CAC_RANDOM, SetCACMode, SetCACMode function [Tablet PC], recapis/SetCACMode, tablet.setcacmode
 ms.topic: function
-f1_keywords: 
- - "recapis/SetCACMode"
+f1_keywords:
+- recapis/SetCACMode
 dev_langs:
- - c++
+- c++
 req.header: recapis.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - recapis.h
+- recapis.h
 api_name:
- - SetCACMode
+- SetCACMode
 targetos: Windows
 req.typenames: 
 req.redist: 

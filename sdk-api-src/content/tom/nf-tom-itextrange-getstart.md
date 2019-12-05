@@ -1,19 +1,17 @@
 ---
 UID: NF:tom.ITextRange.GetStart
 title: ITextRange::GetStart (tom.h)
-
 description: Gets the start character position of the range.
 old-location: controls\ITextRange_GetStart.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\getstart.htm
-
 ms.date: 12/05/2018
 ms.keywords: GetStart, GetStart method [Windows Controls], GetStart method [Windows Controls],ITextRange interface, ITextRange interface [Windows Controls],GetStart method, ITextRange.GetStart, ITextRange::GetStart, _win32_ITextRange_GetStart, _win32_ITextRange_GetStart_cpp, controls.ITextRange_GetStart, controls._win32_ITextRange_GetStart, tom/ITextRange::GetStart
 ms.topic: method
-f1_keywords: 
- - "tom/ITextRange.GetStart"
+f1_keywords:
+- tom/ITextRange.GetStart
 dev_langs:
- - c++
+- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msftedit.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msftedit.dll
+- Msftedit.dll
 api_name:
- - ITextRange.GetStart
+- ITextRange.GetStart
 targetos: Windows
 req.typenames: 
 req.redist: 

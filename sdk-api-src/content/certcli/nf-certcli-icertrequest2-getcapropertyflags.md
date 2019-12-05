@@ -1,19 +1,17 @@
 ---
 UID: NF:certcli.ICertRequest2.GetCAPropertyFlags
 title: ICertRequest2::GetCAPropertyFlags (certcli.h)
-
 description: Retrieves the property flags for a certification authority (CA) property.
 old-location: security\icertrequest2_getcapropertyflags.htm
 tech.root: SecCrypto
 ms.assetid: bdc6ab73-a0b4-44cd-9e46-c453dcb45a41
-
 ms.date: 12/05/2018
 ms.keywords: CCertRequest object [Security],GetCAPropertyFlags method, GetCAPropertyFlags, GetCAPropertyFlags method [Security], GetCAPropertyFlags method [Security],CCertRequest object, GetCAPropertyFlags method [Security],ICertRequest interface, GetCAPropertyFlags method [Security],ICertRequest2 interface, GetCAPropertyFlags method [Security],ICertRequest3 interface, ICertRequest interface [Security],GetCAPropertyFlags method, ICertRequest2 interface [Security],GetCAPropertyFlags method, ICertRequest2.GetCAPropertyFlags, ICertRequest2::GetCAPropertyFlags, ICertRequest3 interface [Security],GetCAPropertyFlags method, ICertRequest3::GetCAPropertyFlags, ICertRequest::GetCAPropertyFlags, _certsrv_icertrequest2_getcapropertyflags, certcli/ICertRequest2::GetCAPropertyFlags, certcli/ICertRequest3::GetCAPropertyFlags, certcli/ICertRequest::GetCAPropertyFlags, security.icertrequest2_getcapropertyflags
 ms.topic: method
-f1_keywords: 
- - "certcli/ICertRequest3.GetCAPropertyFlags"
+f1_keywords:
+- certcli/ICertRequest3.GetCAPropertyFlags
 dev_langs:
- - c++
+- c++
 req.header: certcli.h
 req.include-header: Certsrv.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Certidl.lib
 req.dll: Certcli.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Certcli.dll
+- Certcli.dll
 api_name:
- - ICertRequest3.GetCAPropertyFlags
- - ICertRequest2.GetCAPropertyFlags
- - ICertRequest.GetCAPropertyFlags
- - CCertRequest.GetCAPropertyFlags
+- ICertRequest3.GetCAPropertyFlags
+- ICertRequest2.GetCAPropertyFlags
+- ICertRequest.GetCAPropertyFlags
+- CCertRequest.GetCAPropertyFlags
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:wbemcli.IWbemObjectAccess.WriteQWORD
 title: IWbemObjectAccess::WriteQWORD (wbemcli.h)
-
 description: The WriteQWORD method writes 64 bits of data to a property by using a property handle.
 old-location: wmi\iwbemobjectaccess_writeqword.htm
 tech.root: WmiSdk
 ms.assetid: f0d098b7-06f4-4a0a-8db9-fa1ef9be4468
-
 ms.date: 12/05/2018
 ms.keywords: IWbemObjectAccess interface [Windows Management Instrumentation],WriteQWORD method, IWbemObjectAccess.WriteQWORD, IWbemObjectAccess::WriteQWORD, WriteQWORD, WriteQWORD method [Windows Management Instrumentation], WriteQWORD method [Windows Management Instrumentation],IWbemObjectAccess interface, _hmm_iwbemobjectaccess_writeqword, wbemcli/IWbemObjectAccess::WriteQWORD, wmi.iwbemobjectaccess_writeqword
 ms.topic: method
-f1_keywords: 
- - "wbemcli/IWbemObjectAccess.WriteQWORD"
+f1_keywords:
+- wbemcli/IWbemObjectAccess.WriteQWORD
 dev_langs:
- - c++
+- c++
 req.header: wbemcli.h
 req.include-header: Wbemidl.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Wbemuuid.lib
 req.dll: Esscli.dll; Fastprox.dll; Wbemess.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Esscli.dll
- - Fastprox.dll
- - Wbemess.dll
+- Esscli.dll
+- Fastprox.dll
+- Wbemess.dll
 api_name:
- - IWbemObjectAccess.WriteQWORD
+- IWbemObjectAccess.WriteQWORD
 targetos: Windows
 req.typenames: 
 req.redist: 

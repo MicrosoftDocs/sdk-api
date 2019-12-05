@@ -1,19 +1,17 @@
 ---
 UID: NF:atscpsipparser.ISCTE_EAS.GetRawAlertText
 title: ISCTE_EAS::GetRawAlertText (atscpsipparser.h)
-
 description: Gets the raw alert_text field from the EAS table.
 old-location: mstv\iscte_eas_getrawalerttext.htm
 tech.root: mstv
 ms.assetid: e5ed18e8-e83e-4708-995b-99acd12427a7
-
 ms.date: 12/05/2018
 ms.keywords: GetRawAlertText, GetRawAlertText method [Microsoft TV Technologies], GetRawAlertText method [Microsoft TV Technologies],ISCTE_EAS interface, ISCTE_EAS interface [Microsoft TV Technologies],GetRawAlertText method, ISCTE_EAS.GetRawAlertText, ISCTE_EAS::GetRawAlertText, atscpsipparser/ISCTE_EAS::GetRawAlertText, mstv.iscte_eas_getrawalerttext
 ms.topic: method
-f1_keywords: 
- - "atscpsipparser/ISCTE_EAS.GetRawAlertText"
+f1_keywords:
+- atscpsipparser/ISCTE_EAS.GetRawAlertText
 dev_langs:
- - c++
+- c++
 req.header: atscpsipparser.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - atscpsipparser.h
+- atscpsipparser.h
 api_name:
- - ISCTE_EAS.GetRawAlertText
+- ISCTE_EAS.GetRawAlertText
 targetos: Windows
 req.typenames: 
 req.redist: 

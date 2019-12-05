@@ -1,19 +1,17 @@
 ---
 UID: NF:winuser.GetPointerType
 title: GetPointerType function (winuser.h)
-
 description: Retrieves the pointer type for a specified pointer.
 old-location: inputmsg\getpointertype.htm
 tech.root: InputMsg
 ms.assetid: 63bfc340-9691-463c-96ca-0a5b80b8fe40
-
 ms.date: 12/05/2018
 ms.keywords: GetPointerType, GetPointerType function [Input Messages and Notifications], inputmsg.getpointertype, winuser/GetPointerType
 ms.topic: function
-f1_keywords: 
- - "winuser/GetPointerType"
+f1_keywords:
+- winuser/GetPointerType
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,21 +30,21 @@ req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - User32.dll
- - API-MS-Win-NTUser-IE-WMPointer-l1-1-0.dll
- - ie_shims.dll
- - API-MS-Win-RTCore-NTUser-WMPointer-l1-1-0.dll
- - MinUser.dll
- - API-MS-Win-RTCore-NTUser-WMPointer-l1-1-1.dll
- - API-Ms-Win-RTCore-NTUser-WMPointer-L1-1-2.dll
- - API-MS-Win-RTCore-NTUser-WMPointer-L1-1-3.dll
+- User32.dll
+- API-MS-Win-NTUser-IE-WMPointer-l1-1-0.dll
+- ie_shims.dll
+- API-MS-Win-RTCore-NTUser-WMPointer-l1-1-0.dll
+- MinUser.dll
+- API-MS-Win-RTCore-NTUser-WMPointer-l1-1-1.dll
+- API-Ms-Win-RTCore-NTUser-WMPointer-L1-1-2.dll
+- API-MS-Win-RTCore-NTUser-WMPointer-L1-1-3.dll
 api_name:
- - GetPointerType
+- GetPointerType
 targetos: Windows
 req.typenames: 
 req.redist: 

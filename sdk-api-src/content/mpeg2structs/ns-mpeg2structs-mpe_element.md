@@ -1,19 +1,17 @@
 ---
 UID: NS:mpeg2structs._MPE_ELEMENT
 title: MPE_ELEMENT (mpeg2structs.h)
-
 description: The MPE_ELEMENT structure contains information from a multi-protocol encapsulation (MPE) element.
 old-location: mstv\mpe_element.htm
 tech.root: mstv
 ms.assetid: 2753160b-de52-4d62-960a-c200c6f5f29a
-
 ms.date: 12/05/2018
-ms.keywords: "*PMPE_ELEMENT, MPE_ELEMENT, MPE_ELEMENT structure [Microsoft TV Technologies], PMPE_ELEMENT, PMPE_ELEMENT structure pointer [Microsoft TV Technologies], mpeg2structs/MPE_ELEMENT, mpeg2structs/PMPE_ELEMENT, mstv.mpe_element"
+ms.keywords: '*PMPE_ELEMENT, MPE_ELEMENT, MPE_ELEMENT structure [Microsoft TV Technologies], PMPE_ELEMENT, PMPE_ELEMENT structure pointer [Microsoft TV Technologies], mpeg2structs/MPE_ELEMENT, mpeg2structs/PMPE_ELEMENT, mstv.mpe_element'
 ms.topic: struct
-f1_keywords: 
- - "mpeg2structs/MPE_ELEMENT"
+f1_keywords:
+- mpeg2structs/MPE_ELEMENT
 dev_langs:
- - c++
+- c++
 req.header: mpeg2structs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Mpeg2Structs.h
+- Mpeg2Structs.h
 api_name:
- - MPE_ELEMENT
+- MPE_ELEMENT
 targetos: Windows
 req.typenames: MPE_ELEMENT, *PMPE_ELEMENT
 req.redist: 

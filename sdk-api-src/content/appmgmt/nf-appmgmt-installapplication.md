@@ -1,19 +1,17 @@
 ---
 UID: NF:appmgmt.InstallApplication
 title: InstallApplication function (appmgmt.h)
-
 description: The InstallApplication function can install applications that have been deployed to target users that belong to a domain.
 old-location: policy\installapplication.htm
 tech.root: Policy
 ms.assetid: 5b2e1d82-a421-42af-9e1b-391ae9d4813e
-
 ms.date: 12/05/2018
 ms.keywords: InstallApplication, InstallApplication function [Group Policy], appmgmt/InstallApplication, policy.installapplication
 ms.topic: function
 f1_keywords:
 - appmgmt/InstallApplication
 dev_langs:
- - c++
+- c++
 req.header: appmgmt.h
 req.include-header: 
 req.target-type: Windows

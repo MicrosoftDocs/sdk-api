@@ -1,19 +1,17 @@
 ---
 UID: NF:dvbsiparser.IDvbSatelliteDeliverySystemDescriptor.GetFECInner
 title: IDvbSatelliteDeliverySystemDescriptor::GetFECInner (dvbsiparser.h)
-
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\idvbsatellitedeliverysystemdescriptor_getfecinner.htm
 tech.root: mstv
 ms.assetid: fe90fcd7-e77b-42c8-935f-4cf02957400f
-
 ms.date: 12/05/2018
 ms.keywords: GetFECInner, GetFECInner method [Microsoft TV Technologies], GetFECInner method [Microsoft TV Technologies],IDvbSatelliteDeliverySystemDescriptor interface, IDvbSatelliteDeliverySystemDescriptor interface [Microsoft TV Technologies],GetFECInner method, IDvbSatelliteDeliverySystemDescriptor.GetFECInner, IDvbSatelliteDeliverySystemDescriptor::GetFECInner, IDvbSatelliteDeliverySystemDescriptorGetFECInner, dvbsiparser/IDvbSatelliteDeliverySystemDescriptor::GetFECInner, mstv.idvbsatellitedeliverysystemdescriptor_getfecinner
 ms.topic: method
-f1_keywords: 
- - "dvbsiparser/IDvbSatelliteDeliverySystemDescriptor.GetFECInner"
+f1_keywords:
+- dvbsiparser/IDvbSatelliteDeliverySystemDescriptor.GetFECInner
 dev_langs:
- - c++
+- c++
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dvbsiparser.h
+- dvbsiparser.h
 api_name:
- - IDvbSatelliteDeliverySystemDescriptor.GetFECInner
+- IDvbSatelliteDeliverySystemDescriptor.GetFECInner
 targetos: Windows
 req.typenames: 
 req.redist: 

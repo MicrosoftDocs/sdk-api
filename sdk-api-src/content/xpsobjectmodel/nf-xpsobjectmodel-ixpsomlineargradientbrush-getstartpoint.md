@@ -1,19 +1,17 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMLinearGradientBrush.GetStartPoint
 title: IXpsOMLinearGradientBrush::GetStartPoint (xpsobjectmodel.h)
-
 description: Gets the start point of the gradient.
 old-location: xps\ixpsomlineargradientbrush_getstartpoint.htm
 tech.root: printdocs
 ms.assetid: 03e9884b-6249-4ccb-a6ee-d360655c5f75
-
 ms.date: 12/05/2018
 ms.keywords: GetStartPoint, GetStartPoint method [XPS Documents and Packaging], GetStartPoint method [XPS Documents and Packaging],IXpsOMLinearGradientBrush interface, IXpsOMLinearGradientBrush interface [XPS Documents and Packaging],GetStartPoint method, IXpsOMLinearGradientBrush.GetStartPoint, IXpsOMLinearGradientBrush::GetStartPoint, xps.ixpsomlineargradientbrush_getstartpoint, xpsobjectmodel/IXpsOMLinearGradientBrush::GetStartPoint
 ms.topic: method
-f1_keywords: 
- - "xpsobjectmodel/IXpsOMLinearGradientBrush.GetStartPoint"
+f1_keywords:
+- xpsobjectmodel/IXpsOMLinearGradientBrush.GetStartPoint
 dev_langs:
- - c++
+- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsobjectmodel.h
+- xpsobjectmodel.h
 api_name:
- - IXpsOMLinearGradientBrush.GetStartPoint
+- IXpsOMLinearGradientBrush.GetStartPoint
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NN:imapi2.IBlockRangeList
 title: IBlockRangeList (imapi2.h)
-
 description: Use this interface to retrieve a list of continuous sector ranges on the media. This interface is used to describe the sectors that need to be updated on a rewritable disc when a new logical session is recorded.
 old-location: imapi\iblockrangelist.htm
 tech.root: imapi
 ms.assetid: f2a3bd54-4f40-4bf0-9cbf-b507819d669f
-
 ms.date: 12/05/2018
 ms.keywords: IBlockRangeList, IBlockRangeList interface [IMAPI], IBlockRangeList interface [IMAPI],described, imapi.iblockrangelist, imapi2/IBlockRangeList
 ms.topic: interface
-f1_keywords: 
- - "imapi2/IBlockRangeList"
+f1_keywords:
+- imapi2/IBlockRangeList
 dev_langs:
- - c++
+- c++
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - imapi2.h
+- imapi2.h
 api_name:
- - IBlockRangeList
- - IBlockRangeList.get_BlockRanges
+- IBlockRangeList
+- IBlockRangeList.get_BlockRanges
 targetos: Windows
 req.typenames: 
 req.redist: 

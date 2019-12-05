@@ -1,19 +1,17 @@
 ---
 UID: NS:wia_xp._WIA_PROPID_TO_NAME
 title: WIA_PROPID_TO_NAME (wia_xp.h)
-
 description: Provides a quick means by which applications can look up the standard Windows Image Acquisition (WIA) property name from the WIA property ID (or vice versa).
 old-location: wia\_wia_WIA_PROPID_TO_NAME.htm
 tech.root: wia
 ms.assetid: VS|wia|~\wia\refwia\structs\wia_propid_to_name.htm
-
 ms.date: 12/05/2018
-ms.keywords: "*PWIA_PROPID_TO_NAME, PWIA_PROPID_TO_NAME, PWIA_PROPID_TO_NAME structure pointer [WIA], WIA_PROPID_TO_NAME, WIA_PROPID_TO_NAME structure [WIA], _wia_WIA_PROPID_TO_NAME, wia._wia_WIA_PROPID_TO_NAME, wia_xp/PWIA_PROPID_TO_NAME, wia_xp/WIA_PROPID_TO_NAME"
+ms.keywords: '*PWIA_PROPID_TO_NAME, PWIA_PROPID_TO_NAME, PWIA_PROPID_TO_NAME structure pointer [WIA], WIA_PROPID_TO_NAME, WIA_PROPID_TO_NAME structure [WIA], _wia_WIA_PROPID_TO_NAME, wia._wia_WIA_PROPID_TO_NAME, wia_xp/PWIA_PROPID_TO_NAME, wia_xp/WIA_PROPID_TO_NAME'
 ms.topic: struct
-f1_keywords: 
- - "wia_xp/WIA_PROPID_TO_NAME"
+f1_keywords:
+- wia_xp/WIA_PROPID_TO_NAME
 dev_langs:
- - c++
+- c++
 req.header: wia_xp.h
 req.include-header: Wia.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - wia_xp.h
+- wia_xp.h
 api_name:
- - WIA_PROPID_TO_NAME
+- WIA_PROPID_TO_NAME
 targetos: Windows
 req.typenames: WIA_PROPID_TO_NAME, *PWIA_PROPID_TO_NAME
 req.redist: 

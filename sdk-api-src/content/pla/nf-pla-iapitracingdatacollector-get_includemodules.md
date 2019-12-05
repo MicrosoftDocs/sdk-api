@@ -1,19 +1,17 @@
 ---
 UID: NF:pla.IApiTracingDataCollector.get_IncludeModules
 title: IApiTracingDataCollector::get_IncludeModules (pla.h)
-
 description: Retrieves or sets the list of modules to include in the trace.
 old-location: pla\iapitracingdatacollector_includemodules.htm
 tech.root: PLA
 ms.assetid: ec97533c-88a7-4360-bc2d-8e6465256032
-
 ms.date: 12/05/2018
 ms.keywords: IApiTracingDataCollector interface [PLA],IncludeModules property, IApiTracingDataCollector.IncludeModules, IApiTracingDataCollector.get_IncludeModules, IApiTracingDataCollector::IncludeModules, IApiTracingDataCollector::get_IncludeModules, IApiTracingDataCollector::put_IncludeModules, IncludeModules property [PLA], IncludeModules property [PLA],IApiTracingDataCollector interface, base.iapitracingdatacollector_includemodules, get_IncludeModules, pla.iapitracingdatacollector_includemodules, pla/IApiTracingDataCollector::IncludeModules, pla/IApiTracingDataCollector::get_IncludeModules, pla/IApiTracingDataCollector::put_IncludeModules
 ms.topic: method
-f1_keywords: 
- - "pla/IApiTracingDataCollector.IncludeModules"
+f1_keywords:
+- pla/IApiTracingDataCollector.IncludeModules
 dev_langs:
- - c++
+- c++
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: Pla.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Pla.dll
+- Pla.dll
 api_name:
- - IApiTracingDataCollector.IncludeModules
- - IApiTracingDataCollector.get_IncludeModules
- - IApiTracingDataCollector.put_IncludeModules
+- IApiTracingDataCollector.IncludeModules
+- IApiTracingDataCollector.get_IncludeModules
+- IApiTracingDataCollector.put_IncludeModules
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:rdpencomapi.IRDPSRAPIInvitation.get_Password
 title: IRDPSRAPIInvitation::get_Password (rdpencomapi.h)
-
 description: The password string.
 old-location: rdp\irdpsrapiinvitation_password.htm
 tech.root: rdp
 ms.assetid: 53d55a81-73c3-4196-b23e-b4719a1ceced
-
 ms.date: 12/05/2018
 ms.keywords: IRDPSRAPIInvitation interface [RDP],Password property, IRDPSRAPIInvitation.Password, IRDPSRAPIInvitation.get_Password, IRDPSRAPIInvitation::Password, IRDPSRAPIInvitation::get_Password, Password property [RDP], Password property [RDP],IRDPSRAPIInvitation interface, Password property [RDP],RDPSRAPIInvitation object, RDPSRAPIInvitation object [RDP],Password property, get_Password, rdp.irdpsrapiinvitation_password, rdpencomapi/IRDPSRAPIInvitation::Password, rdpencomapi/IRDPSRAPIInvitation::get_Password
 ms.topic: method
-f1_keywords: 
- - "rdpencomapi/IRDPSRAPIInvitation.Password"
+f1_keywords:
+- rdpencomapi/IRDPSRAPIInvitation.Password
 dev_langs:
- - c++
+- c++
 req.header: rdpencomapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: RdpEncom.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - RdpEncom.dll
+- RdpEncom.dll
 api_name:
- - IRDPSRAPIInvitation.Password
- - IRDPSRAPIInvitation.get_Password
- - RDPSRAPIInvitation.Password
+- IRDPSRAPIInvitation.Password
+- IRDPSRAPIInvitation.get_Password
+- RDPSRAPIInvitation.Password
 targetos: Windows
 req.typenames: 
 req.redist: 

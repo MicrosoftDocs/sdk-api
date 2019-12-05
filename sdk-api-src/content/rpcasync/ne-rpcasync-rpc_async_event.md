@@ -1,19 +1,17 @@
 ---
 UID: NE:rpcasync._RPC_ASYNC_EVENT
 title: RPC_ASYNC_EVENT (rpcasync.h)
-
 description: The RPC_ASYNC_EVENT enumerated type describes the asynchronous notification events that an RPC application can receive.
 old-location: rpc\rpc_async_event.htm
 tech.root: Rpc
 ms.assetid: 6b173ec8-2b58-4a99-87cd-cdf1f92a35ad
-
 ms.date: 12/05/2018
 ms.keywords: RPC_ASYNC_EVENT, RPC_ASYNC_EVENT enumeration [RPC], RpcCallComplete, RpcClientCancel, RpcClientDisconnect, RpcReceiveComplete, RpcSendComplete, _rpc_rpc_async_event, rpc.rpc_async_event, rpcasync/RPC_ASYNC_EVENT, rpcasync/RpcCallComplete, rpcasync/RpcClientCancel, rpcasync/RpcClientDisconnect, rpcasync/RpcReceiveComplete, rpcasync/RpcSendComplete
 ms.topic: enum
-f1_keywords: 
- - "rpcasync/RPC_ASYNC_EVENT"
+f1_keywords:
+- rpcasync/RPC_ASYNC_EVENT
 dev_langs:
- - c++
+- c++
 req.header: rpcasync.h
 req.include-header: Rpc.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Rpcasync.h
+- Rpcasync.h
 api_name:
- - RPC_ASYNC_EVENT
+- RPC_ASYNC_EVENT
 targetos: Windows
 req.typenames: RPC_ASYNC_EVENT
 req.redist: 

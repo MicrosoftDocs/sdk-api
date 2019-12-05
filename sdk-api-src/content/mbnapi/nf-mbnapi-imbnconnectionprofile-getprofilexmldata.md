@@ -1,19 +1,17 @@
 ---
 UID: NF:mbnapi.IMbnConnectionProfile.GetProfileXmlData
 title: IMbnConnectionProfile::GetProfileXmlData (mbnapi.h)
-
 description: Gets the XML data of the current profile.
 old-location: mbn\imbnconnectionprofile_getprofilexmldata.htm
 tech.root: mbn
 ms.assetid: 4a94dd33-1dad-4d0a-98e8-1ccce83f345e
-
 ms.date: 12/05/2018
 ms.keywords: GetProfileXmlData, GetProfileXmlData method [Microsoft Broadband Networks], GetProfileXmlData method [Microsoft Broadband Networks],IMbnConnectionProfile interface, IMbnConnectionProfile interface [Microsoft Broadband Networks],GetProfileXmlData method, IMbnConnectionProfile.GetProfileXmlData, IMbnConnectionProfile::GetProfileXmlData, mbn.imbnconnectionprofile_getprofilexmldata, mbnapi/IMbnConnectionProfile::GetProfileXmlData
 ms.topic: method
-f1_keywords: 
- - "mbnapi/IMbnConnectionProfile.GetProfileXmlData"
+f1_keywords:
+- mbnapi/IMbnConnectionProfile.GetProfileXmlData
 dev_langs:
- - c++
+- c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mbnapi.h
+- mbnapi.h
 api_name:
- - IMbnConnectionProfile.GetProfileXmlData
+- IMbnConnectionProfile.GetProfileXmlData
 targetos: Windows
 req.typenames: 
 req.redist: 

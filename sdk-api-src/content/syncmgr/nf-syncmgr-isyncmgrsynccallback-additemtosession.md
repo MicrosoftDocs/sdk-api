@@ -1,19 +1,17 @@
 ---
 UID: NF:syncmgr.ISyncMgrSyncCallback.AddItemToSession
 title: ISyncMgrSyncCallback::AddItemToSession (syncmgr.h)
-
 description: Adds a specified item to the set of items currently being synchronized.
 old-location: shell\ISyncMgrSyncCallback_AddItemToSession.htm
 tech.root: shell
 ms.assetid: 1de3d6c0-cdf8-48fa-b7ff-2dc75f6757fc
-
 ms.date: 12/05/2018
 ms.keywords: AddItemToSession, AddItemToSession method [Windows Shell], AddItemToSession method [Windows Shell],ISyncMgrSyncCallback interface, ISyncMgrSyncCallback interface [Windows Shell],AddItemToSession method, ISyncMgrSyncCallback.AddItemToSession, ISyncMgrSyncCallback::AddItemToSession, _shell_ISyncMgrSyncCallback_AddItemToSession, shell.ISyncMgrSyncCallback_AddItemToSession, syncmgr/ISyncMgrSyncCallback::AddItemToSession
 ms.topic: method
-f1_keywords: 
- - "syncmgr/ISyncMgrSyncCallback.AddItemToSession"
+f1_keywords:
+- syncmgr/ISyncMgrSyncCallback.AddItemToSession
 dev_langs:
- - c++
+- c++
 req.header: syncmgr.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Syncmgr.h
+- Syncmgr.h
 api_name:
- - ISyncMgrSyncCallback.AddItemToSession
+- ISyncMgrSyncCallback.AddItemToSession
 targetos: Windows
 req.typenames: 
 req.redist: 

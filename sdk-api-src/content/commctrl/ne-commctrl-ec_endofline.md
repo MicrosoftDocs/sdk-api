@@ -1,19 +1,17 @@
 ---
 UID: NE:commctrl.EC_ENDOFLINE
 title: EC_ENDOFLINE (commctrl.h)
-
 description: Indicates the end of line character used by an edit control.
 old-location: controls\ec_endofline.htm
 tech.root: Controls
 ms.assetid: 8F84EFE4-E562-46D4-AEC8-2782C9EC31F7
-
 ms.date: 12/05/2018
 ms.keywords: EC_ENDOFLINE, EC_ENDOFLINE enumeration [Windows Controls], EC_ENDOFLINE_CR, EC_ENDOFLINE_CRLF, EC_ENDOFLINE_DETECTFROMCONTENT, EC_ENDOFLINE_LF, commctrl/EC_ENDOFLINE, commctrl/EC_ENDOFLINE_CR, commctrl/EC_ENDOFLINE_CRLF, commctrl/EC_ENDOFLINE_DETECTFROMCONTENT, commctrl/EC_ENDOFLINE_LF, controls.ec_endofline
 ms.topic: enum
-f1_keywords: 
- - "commctrl/EC_ENDOFLINE"
+f1_keywords:
+- commctrl/EC_ENDOFLINE
 dev_langs:
- - c++
+- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Commctrl.h
+- Commctrl.h
 api_name:
- - EC_ENDOFLINE
+- EC_ENDOFLINE
 targetos: Windows
 req.typenames: EC_ENDOFLINE
 req.redist: 

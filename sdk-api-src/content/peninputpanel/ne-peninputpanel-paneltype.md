@@ -1,19 +1,17 @@
 ---
 UID: NE:peninputpanel.PanelType
 title: PanelType (peninputpanel.h)
-
 description: Defines the type of input currently available in the PenInputPanel object.
 old-location: tablet\paneltype.htm
 tech.root: tablet
 ms.assetid: fbf0ecce-0286-4d1b-99ba-9d28fc25da30
-
 ms.date: 12/05/2018
 ms.keywords: PT_Default, PT_Handwriting, PT_Inactive, PT_Keyboard, PanelType, PanelType enumeration [Tablet PC], fbf0ecce-0286-4d1b-99ba-9d28fc25da30, peninputpanel/PT_Default, peninputpanel/PT_Handwriting, peninputpanel/PT_Inactive, peninputpanel/PT_Keyboard, peninputpanel/PanelType, tablet.paneltype
 ms.topic: enum
-f1_keywords: 
- - "peninputpanel/PanelType"
+f1_keywords:
+- peninputpanel/PanelType
 dev_langs:
- - c++
+- c++
 req.header: peninputpanel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - peninputpanel.h
+- peninputpanel.h
 api_name:
- - PanelType
+- PanelType
 targetos: Windows
 req.typenames: PanelType
 req.redist: 

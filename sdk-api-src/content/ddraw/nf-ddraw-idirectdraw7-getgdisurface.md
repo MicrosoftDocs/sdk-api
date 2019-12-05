@@ -1,19 +1,17 @@
 ---
 UID: NF:ddraw.IDirectDraw7.GetGDISurface
 title: IDirectDraw7::GetGDISurface (ddraw.h)
-
 description: Retrieves the DirectDrawSurface object that currently represents the surface memory that GDI is treating as the primary surface.
 old-location: directdraw\idirectdraw7_getgdisurface.htm
 tech.root: directdraw
 ms.assetid: 4d0b827d-86f8-4d71-a193-9e330db0fbfd
-
 ms.date: 12/05/2018
 ms.keywords: GetGDISurface, GetGDISurface method [DirectDraw], GetGDISurface method [DirectDraw],IDirectDraw7 interface, IDirectDraw7 interface [DirectDraw],GetGDISurface method, IDirectDraw7.GetGDISurface, IDirectDraw7::GetGDISurface, ddraw/IDirectDraw7::GetGDISurface, directdraw.idirectdraw7_getgdisurface
 ms.topic: method
-f1_keywords: 
- - "ddraw/IDirectDraw7.GetGDISurface"
+f1_keywords:
+- ddraw/IDirectDraw7.GetGDISurface
 dev_langs:
- - c++
+- c++
 req.header: ddraw.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Ddraw.lib
 req.dll: Ddraw.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Ddraw.dll
+- Ddraw.dll
 api_name:
- - IDirectDraw7.GetGDISurface
+- IDirectDraw7.GetGDISurface
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:uianimation.IUIAnimationStoryboard2.AddTransitionAtKeyframe
 title: IUIAnimationStoryboard2::AddTransitionAtKeyframe (uianimation.h)
-
 description: Adds a transition that starts at the specified keyframe.
 old-location: uianimation\iuianimationstoryboard2_addtransitionatkeyframe.htm
 tech.root: UIAnimation
 ms.assetid: F4DAB833-E857-4FD8-87E2-8F32AF460F90
-
 ms.date: 12/05/2018
 ms.keywords: AddTransitionAtKeyframe, AddTransitionAtKeyframe method [Windows Animation], AddTransitionAtKeyframe method [Windows Animation],IUIAnimationStoryboard2 interface, IUIAnimationStoryboard2 interface [Windows Animation],AddTransitionAtKeyframe method, IUIAnimationStoryboard2.AddTransitionAtKeyframe, IUIAnimationStoryboard2::AddTransitionAtKeyframe, uianimation.iuianimationstoryboard2_addtransitionatkeyframe, uianimation/IUIAnimationStoryboard2::AddTransitionAtKeyframe
 ms.topic: method
-f1_keywords: 
- - "uianimation/IUIAnimationStoryboard2.AddTransitionAtKeyframe"
+f1_keywords:
+- uianimation/IUIAnimationStoryboard2.AddTransitionAtKeyframe
 dev_langs:
- - c++
+- c++
 req.header: uianimation.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: UIAnimation.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAnimation.dll
+- UIAnimation.dll
 api_name:
- - IUIAnimationStoryboard2.AddTransitionAtKeyframe
+- IUIAnimationStoryboard2.AddTransitionAtKeyframe
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NN:tom.ITextStrings
 title: ITextStrings (tom.h)
-
 description: The ITextStrings interface represents a collection of rich-text strings that are useful for manipulating rich text.
 old-location: controls\itextstrings.htm
 tech.root: Controls
 ms.assetid: c878d0db-ac13-4ac9-8601-d1c1ba76cd85
-
 ms.date: 12/05/2018
 ms.keywords: ITextStrings, ITextStrings interface [Windows Controls], ITextStrings interface [Windows Controls],described, controls.itextstrings, tom/ITextStrings
 ms.topic: interface
-f1_keywords: 
- - "tom/ITextStrings"
+f1_keywords:
+- tom/ITextStrings
 dev_langs:
- - c++
+- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msftedit.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msftedit.dll
+- Msftedit.dll
 api_name:
- - ITextStrings
+- ITextStrings
 targetos: Windows
 req.typenames: 
 req.redist: 

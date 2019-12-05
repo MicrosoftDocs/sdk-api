@@ -1,19 +1,17 @@
 ---
 UID: NF:ntsecapi.LsaNtStatusToWinError
 title: LsaNtStatusToWinError function (ntsecapi.h)
-
 description: The LsaNtStatusToWinError function converts an NTSTATUS code returned by an LSA function to a Windows error code.
 old-location: security\lsantstatustowinerror.htm
 tech.root: SecMgmt
 ms.assetid: fa91794c-c502-4b36-84cc-a8d77c8e9d9f
-
 ms.date: 12/05/2018
 ms.keywords: LsaNtStatusToWinError, LsaNtStatusToWinError function [Security], _lsa_lsantstatustowinerror, ntsecapi/LsaNtStatusToWinError, security.lsantstatustowinerror
 ms.topic: function
-f1_keywords: 
- - "ntsecapi/LsaNtStatusToWinError"
+f1_keywords:
+- ntsecapi/LsaNtStatusToWinError
 dev_langs:
- - c++
+- c++
 req.header: ntsecapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Advapi32.dll
- - Secur32.dll
+- Advapi32.dll
+- Secur32.dll
 api_name:
- - LsaNtStatusToWinError
+- LsaNtStatusToWinError
 targetos: Windows
 req.typenames: 
 req.redist: 

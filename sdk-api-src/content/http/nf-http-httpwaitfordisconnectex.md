@@ -1,19 +1,17 @@
 ---
 UID: NF:http.HttpWaitForDisconnectEx
 title: HttpWaitForDisconnectEx function (http.h)
-
 description: This function is an extension to HttpWaitForDisconnect.
 old-location: http\httpwaitfordisconnectex.htm
 tech.root: http
 ms.assetid: D4946ECF-0E0E-439E-AEE5-BF24BD73D2B6
-
 ms.date: 12/05/2018
 ms.keywords: HttpWaitForDisconnectEx, HttpWaitForDisconnectEx function [HTTP], http.httpwaitfordisconnectex, http/HttpWaitForDisconnectEx
 ms.topic: function
-f1_keywords: 
- - "http/HttpWaitForDisconnectEx"
+f1_keywords:
+- http/HttpWaitForDisconnectEx
 dev_langs:
- - c++
+- c++
 req.header: http.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Httpapi.lib
 req.dll: Httpapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Httpapi.dll
+- Httpapi.dll
 api_name:
- - HttpWaitForDisconnectEx
+- HttpWaitForDisconnectEx
 targetos: Windows
 req.typenames: 
 req.redist: 

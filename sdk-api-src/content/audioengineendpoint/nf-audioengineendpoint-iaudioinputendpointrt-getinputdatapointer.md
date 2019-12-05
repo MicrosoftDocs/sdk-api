@@ -1,19 +1,17 @@
 ---
 UID: NF:audioengineendpoint.IAudioInputEndpointRT.GetInputDataPointer
 title: IAudioInputEndpointRT::GetInputDataPointer (audioengineendpoint.h)
-
 description: Gets a pointer to the buffer from which data will be read by the audio engine.
 old-location: termserv\iaudioinputendpointrt_getinputdatapointer.htm
 tech.root: TermServ
 ms.assetid: 1da81a49-d421-4643-9be6-b13d45d678f0
-
 ms.date: 12/05/2018
 ms.keywords: GetInputDataPointer, GetInputDataPointer method [Remote Desktop Services], GetInputDataPointer method [Remote Desktop Services],IAudioInputEndpointRT interface, IAudioInputEndpointRT interface [Remote Desktop Services],GetInputDataPointer method, IAudioInputEndpointRT.GetInputDataPointer, IAudioInputEndpointRT::GetInputDataPointer, audioengineendpoint/IAudioInputEndpointRT::GetInputDataPointer, termserv.iaudioinputendpointrt_getinputdatapointer
 ms.topic: method
-f1_keywords: 
- - "audioengineendpoint/IAudioInputEndpointRT.GetInputDataPointer"
+f1_keywords:
+- audioengineendpoint/IAudioInputEndpointRT.GetInputDataPointer
 dev_langs:
- - c++
+- c++
 req.header: audioengineendpoint.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Audioengineendpoint.h
+- Audioengineendpoint.h
 api_name:
- - IAudioInputEndpointRT.GetInputDataPointer
+- IAudioInputEndpointRT.GetInputDataPointer
 targetos: Windows
 req.typenames: 
 req.redist: 

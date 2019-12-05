@@ -1,19 +1,17 @@
 ---
 UID: NF:dwrite.IDWriteFontFileStream.GetFileSize
 title: IDWriteFontFileStream::GetFileSize (dwrite.h)
-
 description: Obtains the total size of a file.
 old-location: directwrite\IDWriteFontFileStream_GetFileSize.htm
 tech.root: DirectWrite
 ms.assetid: 52186ddb-ea08-4615-a3df-35ea7288270c
-
 ms.date: 12/05/2018
 ms.keywords: GetFileSize, GetFileSize method [Direct Write], GetFileSize method [Direct Write],IDWriteFontFileStream interface, IDWriteFontFileStream interface [Direct Write],GetFileSize method, IDWriteFontFileStream.GetFileSize, IDWriteFontFileStream::GetFileSize, directwrite.IDWriteFontFileStream_GetFileSize, dwrite/IDWriteFontFileStream::GetFileSize
 ms.topic: method
-f1_keywords: 
- - "dwrite/IDWriteFontFileStream.GetFileSize"
+f1_keywords:
+- dwrite/IDWriteFontFileStream.GetFileSize
 dev_langs:
- - c++
+- c++
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dwrite.lib
 req.dll: Dwrite.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dwrite.dll
+- dwrite.dll
 api_name:
- - IDWriteFontFileStream.GetFileSize
+- IDWriteFontFileStream.GetFileSize
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:resapi.ResUtilGetDwordValue
 title: ResUtilGetDwordValue function (resapi.h)
-
 description: Returns a numeric value from the cluster database.
 old-location: mscs\resutilgetdwordvalue.htm
 tech.root: MsCS
 ms.assetid: 2db6126e-a3a7-415b-a436-c3d0748fbc65
-
 ms.date: 12/05/2018
 ms.keywords: PRESUTIL_GET_DWORD_VALUE, PRESUTIL_GET_DWORD_VALUE function [Failover Cluster], ResUtilGetDwordValue, ResUtilGetDwordValue function [Failover Cluster], _wolf_resutilgetdwordvalue, mscs.resutilgetdwordvalue, resapi/PRESUTIL_GET_DWORD_VALUE, resapi/ResUtilGetDwordValue
 ms.topic: function
-f1_keywords: 
- - "resapi/ResUtilGetDwordValue"
+f1_keywords:
+- resapi/ResUtilGetDwordValue
 dev_langs:
- - c++
+- c++
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: ResUtils.lib
 req.dll: ResUtils.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - ResUtils.dll
+- ResUtils.dll
 api_name:
- - ResUtilGetDwordValue
+- ResUtilGetDwordValue
 targetos: Windows
 req.typenames: 
 req.redist: 

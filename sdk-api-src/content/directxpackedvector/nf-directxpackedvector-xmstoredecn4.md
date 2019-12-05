@@ -1,19 +1,17 @@
 ---
 UID: NF:directxpackedvector.XMStoreDecN4
 title: XMStoreDecN4 function (directxpackedvector.h)
-
 description: Stores an XMVECTOR in an XMDECN4.
 old-location: dxmath\xmstoredecn4.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.storing.XMStoreDecN4(XMDECN4@,XMVECTOR)
-
 ms.date: 12/05/2018
 ms.keywords: DirectX::PackedVector.XMStoreDecN4, XMStoreDecN4, XMStoreDecN4 method [DirectX Math Support APIs], dxmath.xmstoredecn4
 ms.topic: function
-f1_keywords: 
- - "directxpackedvector/XMStoreDecN4"
+f1_keywords:
+- directxpackedvector/XMStoreDecN4
 dev_langs:
- - c++
+- c++
 req.header: directxpackedvector.h
 req.include-header: DirectXPackedVector.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - directxpackedvector.inl
+- directxpackedvector.inl
 api_name:
- - XMStoreDecN4
+- XMStoreDecN4
 targetos: Windows
 req.typenames: 
 req.redist: 

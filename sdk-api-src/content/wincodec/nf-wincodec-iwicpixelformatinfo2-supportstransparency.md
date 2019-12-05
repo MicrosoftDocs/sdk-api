@@ -1,19 +1,17 @@
 ---
 UID: NF:wincodec.IWICPixelFormatInfo2.SupportsTransparency
 title: IWICPixelFormatInfo2::SupportsTransparency (wincodec.h)
-
 description: Returns whether the format supports transparent pixels.
 old-location: wic\_wic_codec_iwicpixelformatinfo2_supportstransparency.htm
 tech.root: wic
 ms.assetid: 953cc1f0-28ee-4717-ac95-73ab39126b27
-
 ms.date: 12/05/2018
 ms.keywords: IWICPixelFormatInfo2 interface [Windows Imaging Component],SupportsTransparency method, IWICPixelFormatInfo2.SupportsTransparency, IWICPixelFormatInfo2::SupportsTransparency, SupportsTransparency, SupportsTransparency method [Windows Imaging Component], SupportsTransparency method [Windows Imaging Component],IWICPixelFormatInfo2 interface, _wic_codec_iwicpixelformatinfo2_supportstransparency, wic._wic_codec_iwicpixelformatinfo2_supportstransparency, wincodec/IWICPixelFormatInfo2::SupportsTransparency
 ms.topic: method
-f1_keywords: 
- - "wincodec/IWICPixelFormatInfo2.SupportsTransparency"
+f1_keywords:
+- wincodec/IWICPixelFormatInfo2.SupportsTransparency
 dev_langs:
- - c++
+- c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Windowscodecs.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Windowscodecs.dll
+- Windowscodecs.dll
 api_name:
- - IWICPixelFormatInfo2.SupportsTransparency
+- IWICPixelFormatInfo2.SupportsTransparency
 targetos: Windows
 req.typenames: 
 req.redist: 

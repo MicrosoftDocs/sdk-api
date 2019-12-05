@@ -1,19 +1,17 @@
 ---
 UID: NF:userenv.ProcessGroupPolicyCompleted
 title: ProcessGroupPolicyCompleted function (userenv.h)
-
 description: The ProcessGroupPolicyCompleted function notifies the system that the specified extension has finished applying policy.
 old-location: policy\processgrouppolicycompleted.htm
 tech.root: Policy
 ms.assetid: f88c8072-af4c-44e0-a816-ecb841dd1a78
-
 ms.date: 12/05/2018
 ms.keywords: ProcessGroupPolicyCompleted, ProcessGroupPolicyCompleted function [Group Policy], _win32_processgrouppolicycompleted, policy.processgrouppolicycompleted, userenv/ProcessGroupPolicyCompleted
 ms.topic: function
-f1_keywords: 
- - "userenv/ProcessGroupPolicyCompleted"
+f1_keywords:
+- userenv/ProcessGroupPolicyCompleted
 dev_langs:
- - c++
+- c++
 req.header: userenv.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Userenv.lib
 req.dll: Userenv.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Userenv.dll
+- Userenv.dll
 api_name:
- - ProcessGroupPolicyCompleted
+- ProcessGroupPolicyCompleted
 targetos: Windows
 req.typenames: 
 req.redist: 

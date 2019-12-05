@@ -1,19 +1,17 @@
 ---
 UID: NN:rdpencomapi.IRDPSRAPITransportStreamEvents
 title: IRDPSRAPITransportStreamEvents (rdpencomapi.h)
-
 description: Exposes methods called by the stream interface (IRDPSRAPITransportStream) to notify the Remote Desktop Protocol (RDP) stack about the completion of events.
 old-location: rdp\irdpsrapitransportstreamevents.htm
 tech.root: rdp
 ms.assetid: d38ee3fb-3867-40c9-8e6a-35c94762fdf4
-
 ms.date: 12/05/2018
 ms.keywords: IRDPSRAPITransportStreamEvents, IRDPSRAPITransportStreamEvents interface [RDP], IRDPSRAPITransportStreamEvents interface [RDP],described, rdp.irdpsrapitransportstreamevents, rdpencomapi/IRDPSRAPITransportStreamEvents
 ms.topic: interface
-f1_keywords: 
- - "rdpencomapi/IRDPSRAPITransportStreamEvents"
+f1_keywords:
+- rdpencomapi/IRDPSRAPITransportStreamEvents
 dev_langs:
- - c++
+- c++
 req.header: rdpencomapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: RdpEncom.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - RdpEncom.dll
+- RdpEncom.dll
 api_name:
- - IRDPSRAPITransportStreamEvents
+- IRDPSRAPITransportStreamEvents
 targetos: Windows
 req.typenames: 
 req.redist: 

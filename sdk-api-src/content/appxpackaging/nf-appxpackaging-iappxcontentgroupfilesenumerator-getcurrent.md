@@ -1,19 +1,17 @@
 ---
 UID: NF:appxpackaging.IAppxContentGroupFilesEnumerator.GetCurrent
 title: IAppxContentGroupFilesEnumerator::GetCurrent (appxpackaging.h)
-
 description: Gets the file from the content group at the current position of the enumerator.
 old-location: appxpkg\iappxcontentgroupfilesenumerator__getcurrent.htm
 tech.root: appxpkg
 ms.assetid: B8BD3A9A-5330-4328-9FFD-69BF07CA93C7
-
 ms.date: 12/05/2018
 ms.keywords: GetCurrent, GetCurrent method [App packaging and management], GetCurrent method [App packaging and management],IAppxContentGroupFilesEnumerator interface, IAppxContentGroupFilesEnumerator interface [App packaging and management],GetCurrent method, IAppxContentGroupFilesEnumerator.GetCurrent, IAppxContentGroupFilesEnumerator::GetCurrent, appxpackaging/IAppxContentGroupFilesEnumerator::GetCurrent, appxpkg.iappxcontentgroupfilesenumerator__getcurrent
 ms.topic: method
-f1_keywords: 
- - "appxpackaging/IAppxContentGroupFilesEnumerator.GetCurrent"
+f1_keywords:
+- appxpackaging/IAppxContentGroupFilesEnumerator.GetCurrent
 dev_langs:
- - c++
+- c++
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - AppxPackaging.h
+- AppxPackaging.h
 api_name:
- - IAppxContentGroupFilesEnumerator.GetCurrent
+- IAppxContentGroupFilesEnumerator.GetCurrent
 targetos: Windows
 req.typenames: 
 req.redist: 

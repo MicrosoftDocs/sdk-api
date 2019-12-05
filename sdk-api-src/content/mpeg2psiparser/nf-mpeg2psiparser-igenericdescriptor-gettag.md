@@ -1,19 +1,17 @@
 ---
 UID: NF:mpeg2psiparser.IGenericDescriptor.GetTag
 title: IGenericDescriptor::GetTag (mpeg2psiparser.h)
-
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005.
 old-location: mstv\igenericdescriptor_gettag.htm
 tech.root: mstv
 ms.assetid: b8923e91-46e1-48fa-a24c-d43cc4a09bd2
-
 ms.date: 12/05/2018
 ms.keywords: GetTag, GetTag method [Microsoft TV Technologies], GetTag method [Microsoft TV Technologies],IGenericDescriptor interface, IGenericDescriptor interface [Microsoft TV Technologies],GetTag method, IGenericDescriptor.GetTag, IGenericDescriptor::GetTag, IGenericDescriptorGetTag, mpeg2psiparser/IGenericDescriptor::GetTag, mstv.igenericdescriptor_gettag
 ms.topic: method
-f1_keywords: 
- - "mpeg2psiparser/IGenericDescriptor.GetTag"
+f1_keywords:
+- mpeg2psiparser/IGenericDescriptor.GetTag
 dev_langs:
- - c++
+- c++
 req.header: mpeg2psiparser.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mpeg2PsiParser.h
+- Mpeg2PsiParser.h
 api_name:
- - IGenericDescriptor.GetTag
+- IGenericDescriptor.GetTag
 targetos: Windows
 req.typenames: 
 req.redist: 

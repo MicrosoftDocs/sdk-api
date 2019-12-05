@@ -1,19 +1,17 @@
 ---
 UID: NF:msdrm.DRMDuplicateEnvironmentHandle
 title: DRMDuplicateEnvironmentHandle function (msdrm.h)
-
 description: Creates a copy of an environment handle.
 old-location: rm\drmduplicateenvironmenthandle.htm
 tech.root: AdRms_Sdk
 ms.assetid: 6e246181-1d93-49b4-bc3f-e54083d4cad2
-
 ms.date: 12/05/2018
 ms.keywords: DRMDuplicateEnvironmentHandle, DRMDuplicateEnvironmentHandle function [Active Directory Rights Management Services SDK 1.0], msdrm/DRMDuplicateEnvironmentHandle, rm.drmduplicateenvironmenthandle
 ms.topic: function
-f1_keywords: 
- - "msdrm/DRMDuplicateEnvironmentHandle"
+f1_keywords:
+- msdrm/DRMDuplicateEnvironmentHandle
 dev_langs:
- - c++
+- c++
 req.header: msdrm.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Msdrm.lib
 req.dll: Msdrm.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Msdrm.dll
+- Msdrm.dll
 api_name:
- - DRMDuplicateEnvironmentHandle
+- DRMDuplicateEnvironmentHandle
 targetos: Windows
 req.typenames: 
 req.redist: 

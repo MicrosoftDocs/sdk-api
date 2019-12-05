@@ -1,19 +1,17 @@
 ---
 UID: NF:tom.ITextPara.SetAlignment
 title: ITextPara::SetAlignment (tom.h)
-
 description: Sets the paragraph alignment.
 old-location: controls\ITextPara_SetAlignment.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\setalignment.htm
-
 ms.date: 12/05/2018
 ms.keywords: ITextPara interface [Windows Controls],SetAlignment method, ITextPara.SetAlignment, ITextPara::SetAlignment, SetAlignment, SetAlignment method [Windows Controls], SetAlignment method [Windows Controls],ITextPara interface, _win32_ITextPara_SetAlignment, _win32_ITextPara_SetAlignment_cpp, controls.ITextPara_SetAlignment, controls._win32_ITextPara_SetAlignment, tom/ITextPara::SetAlignment
 ms.topic: method
-f1_keywords: 
- - "tom/ITextPara.SetAlignment"
+f1_keywords:
+- tom/ITextPara.SetAlignment
 dev_langs:
- - c++
+- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msftedit.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msftedit.dll
+- Msftedit.dll
 api_name:
- - ITextPara.SetAlignment
+- ITextPara.SetAlignment
 targetos: Windows
 req.typenames: 
 req.redist: 

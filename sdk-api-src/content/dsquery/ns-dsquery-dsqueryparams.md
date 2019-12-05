@@ -1,19 +1,17 @@
 ---
 UID: NS:dsquery.__unnamed_struct_2
 title: DSQUERYPARAMS (dsquery.h)
-
 description: The DSQUERYPARAMS structure contains query data used by the directory service query when searching the directory service.
 old-location: ad\dsqueryparams.htm
 tech.root: ad
 ms.assetid: 78c3fb1c-275e-45b6-bbe9-ae2d85864e6a
-
 ms.date: 12/05/2018
-ms.keywords: "*LPDSQUERYPARAMS, DSQUERYPARAMS, DSQUERYPARAMS structure [Active Directory], LPDSQUERYPARAMS, LPDSQUERYPARAMS structure pointer [Active Directory], _glines_dsqueryparams, ad.dsqueryparams, dsquery/DSQUERYPARAMS, dsquery/LPDSQUERYPARAMS"
+ms.keywords: '*LPDSQUERYPARAMS, DSQUERYPARAMS, DSQUERYPARAMS structure [Active Directory], LPDSQUERYPARAMS, LPDSQUERYPARAMS structure pointer [Active Directory], _glines_dsqueryparams, ad.dsqueryparams, dsquery/DSQUERYPARAMS, dsquery/LPDSQUERYPARAMS'
 ms.topic: struct
-f1_keywords: 
- - "dsquery/DSQUERYPARAMS"
+f1_keywords:
+- dsquery/DSQUERYPARAMS
 dev_langs:
- - c++
+- c++
 req.header: dsquery.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Dsquery.h
+- Dsquery.h
 api_name:
- - DSQUERYPARAMS
+- DSQUERYPARAMS
 targetos: Windows
 req.typenames: DSQUERYPARAMS, *LPDSQUERYPARAMS
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d11.CD3D11_COUNTER_DESC.~CD3D11_COUNTER_DESC
 title: CD3D11_COUNTER_DESC::~CD3D11_COUNTER_DESC (d3d11.h)
-
 description: Destroys an instance of a CD3D11_COUNTER_DESC structure.
 old-location: direct3d11\cd3d11_counter_desc__cd3d11_counter_desc__.htm
 tech.root: direct3d11
 ms.assetid: 055213AA-0D49-489A-9D1B-8E426375AF99
-
 ms.date: 12/05/2018
 ms.keywords: CD3D11_COUNTER_DESC interface [Direct3D 11],~CD3D11_COUNTER_DESC destructor, CD3D11_COUNTER_DESC.~CD3D11_COUNTER_DESC, CD3D11_COUNTER_DESC::~CD3D11_COUNTER_DESC, CD3D11_COUNTER_DESC::~CD3D11_COUNTER_DESC(), d3d11/CD3D11_COUNTER_DESC::~CD3D11_COUNTER_DESC, direct3d11.cd3d11_counter_desc__cd3d11_counter_desc__, ~CD3D11_COUNTER_DESC, ~CD3D11_COUNTER_DESC destructor [Direct3D 11], ~CD3D11_COUNTER_DESC destructor [Direct3D 11],CD3D11_COUNTER_DESC interface
 ms.topic: method
-f1_keywords: 
- - "d3d11/CD3D11_COUNTER_DESC.~CD3D11_COUNTER_DESC"
+f1_keywords:
+- d3d11/CD3D11_COUNTER_DESC.~CD3D11_COUNTER_DESC
 dev_langs:
- - c++
+- c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: D3D11.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D11.lib
- - D3D11.dll
+- D3D11.lib
+- D3D11.dll
 api_name:
- - CD3D11_COUNTER_DESC.~CD3D11_COUNTER_DESC
+- CD3D11_COUNTER_DESC.~CD3D11_COUNTER_DESC
 targetos: Windows
 req.typenames: 
 req.redist: 

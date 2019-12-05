@@ -3,14 +3,13 @@ UID: NF:gdiplusgraphics.Graphics.FillPie(IN const Brush,IN const RectF &,IN REAL
 title: Graphics::FillPie
 description: The Graphics::FillPie method uses a brush to fill the interior of a pie.
 ms.assetid: b849f776-ca4b-47dc-8442-5f8cc7864677
-
 ms.date: 05/13/2019
 ms.keywords: Graphics::FillPie
 ms.topic: language-reference
-f1_keywords: 
- - "gdiplusgraphics/Graphics::FillPie"
+f1_keywords:
+- gdiplusgraphics/Graphics::FillPie
 dev_langs:
- - c++
+- c++
 targetos: Windows
 req.assembly: 
 req.construct-type: function
@@ -32,13 +31,13 @@ req.type-library:
 req.umdf-ver: 
 req.unicode-ansi: 
 topic_type:
- - apiref
+- apiref
 api_type:
- - COM
+- COM
 api_location:
- - gdiplusgraphics.h
+- gdiplusgraphics.h
 api_name:
- - Graphics::FillPie
+- Graphics::FillPie
 ---
 
 # FillPie(Brush*,RectF&,REAL,REAL)

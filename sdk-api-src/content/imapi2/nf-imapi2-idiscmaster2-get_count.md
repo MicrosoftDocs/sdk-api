@@ -1,19 +1,17 @@
 ---
 UID: NF:imapi2.IDiscMaster2.get_Count
 title: IDiscMaster2::get_Count (imapi2.h)
-
 description: Retrieves the number of the CD and DVD disc devices installed on the computer.
 old-location: imapi\idiscmaster2_get_count.htm
 tech.root: imapi
 ms.assetid: b1e0ec8f-4c66-4648-ad76-2998200ea574
-
 ms.date: 12/05/2018
 ms.keywords: IDiscMaster2 interface [IMAPI],get_Count method, IDiscMaster2.get_Count, IDiscMaster2::get_Count, get_Count, get_Count method [IMAPI], get_Count method [IMAPI],IDiscMaster2 interface, imapi.idiscmaster2_get_count, imapi2/IDiscMaster2::get_Count
 ms.topic: method
-f1_keywords: 
- - "imapi2/IDiscMaster2.get_Count"
+f1_keywords:
+- imapi2/IDiscMaster2.get_Count
 dev_langs:
- - c++
+- c++
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - imapi2.h
+- imapi2.h
 api_name:
- - IDiscMaster2.get_Count
+- IDiscMaster2.get_Count
 targetos: Windows
 req.typenames: 
 req.redist: 

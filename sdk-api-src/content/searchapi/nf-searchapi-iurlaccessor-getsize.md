@@ -1,19 +1,17 @@
 ---
 UID: NF:searchapi.IUrlAccessor.GetSize
 title: IUrlAccessor::GetSize (searchapi.h)
-
 description: Gets the size of the content designated by the URL.
 old-location: search\_search_IUrlAccessor_GetSize.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\protocolhandlers\iurlaccessor\getsize.htm
-
 ms.date: 12/05/2018
 ms.keywords: GetSize, GetSize method [search], GetSize method [search],IUrlAccessor interface, IUrlAccessor interface [search],GetSize method, IUrlAccessor.GetSize, IUrlAccessor::GetSize, _search_IUrlAccessor_GetSize, search._search_IUrlAccessor_GetSize, searchapi/IUrlAccessor::GetSize
 ms.topic: method
-f1_keywords: 
- - "searchapi/IUrlAccessor.GetSize"
+f1_keywords:
+- searchapi/IUrlAccessor.GetSize
 dev_langs:
- - c++
+- c++
 req.header: searchapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Searchapi.h
+- Searchapi.h
 api_name:
- - IUrlAccessor.GetSize
+- IUrlAccessor.GetSize
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0

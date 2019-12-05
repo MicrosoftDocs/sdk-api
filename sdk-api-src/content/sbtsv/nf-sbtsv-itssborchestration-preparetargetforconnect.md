@@ -1,19 +1,17 @@
 ---
 UID: NF:sbtsv.ITsSbOrchestration.PrepareTargetForConnect
 title: ITsSbOrchestration::PrepareTargetForConnect (sbtsv.h)
-
 description: Prepares the target for a client connection.
 old-location: termserv\itssborchestration_preparetargetforconnect.htm
 tech.root: TermServ
 ms.assetid: 46ffad8a-bafc-426f-9963-9a6f6f60329b
-
 ms.date: 12/05/2018
 ms.keywords: ITsSbOrchestration interface [Remote Desktop Services],PrepareTargetForConnect method, ITsSbOrchestration.PrepareTargetForConnect, ITsSbOrchestration::PrepareTargetForConnect, PrepareTargetForConnect, PrepareTargetForConnect method [Remote Desktop Services], PrepareTargetForConnect method [Remote Desktop Services],ITsSbOrchestration interface, sbtsv/ITsSbOrchestration::PrepareTargetForConnect, termserv.itssborchestration_preparetargetforconnect
 ms.topic: method
-f1_keywords: 
- - "sbtsv/ITsSbOrchestration.PrepareTargetForConnect"
+f1_keywords:
+- sbtsv/ITsSbOrchestration.PrepareTargetForConnect
 dev_langs:
- - c++
+- c++
 req.header: sbtsv.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - sbtsv.h
+- sbtsv.h
 api_name:
- - ITsSbOrchestration.PrepareTargetForConnect
+- ITsSbOrchestration.PrepareTargetForConnect
 targetos: Windows
 req.typenames: 
 req.redist: 

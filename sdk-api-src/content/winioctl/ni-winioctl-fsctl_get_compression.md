@@ -1,19 +1,17 @@
 ---
 UID: NI:winioctl.FSCTL_GET_COMPRESSION
 title: FSCTL_GET_COMPRESSION
-
 description: Retrieves the current compression state of a file or directory on a volume whose file system supports per-stream compression.
 old-location: fs\fsctl_get_compression.htm
 tech.root: FileIO
 ms.assetid: c9932867-4b86-4119-ad13-f99aadfa559a
-
 ms.date: 12/05/2018
 ms.keywords: COMPRESSION_FORMAT_LZNT1, COMPRESSION_FORMAT_NONE, FSCTL_GET_COMPRESSION, FSCTL_GET_COMPRESSION control, FSCTL_GET_COMPRESSION control code [Files], _win32_fsctl_get_compression, all other values, base.fsctl_get_compression, fs.fsctl_get_compression, winioctl/FSCTL_GET_COMPRESSION
 ms.topic: ioctl
-f1_keywords: 
- - "winioctl/FSCTL_GET_COMPRESSION"
+f1_keywords:
+- winioctl/FSCTL_GET_COMPRESSION
 dev_langs:
- - c++
+- c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WinIoCtl.h
+- WinIoCtl.h
 api_name:
- - FSCTL_GET_COMPRESSION
+- FSCTL_GET_COMPRESSION
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:dwrite.IDWriteTextFormat.GetFontStretch
 title: IDWriteTextFormat::GetFontStretch (dwrite.h)
-
 description: Gets the font stretch of the text.
 old-location: directwrite\IDWriteTextFormat_GetFontStretch.htm
 tech.root: DirectWrite
 ms.assetid: 57ff471d-5daa-4657-8bfa-1fd6e173411f
-
 ms.date: 12/05/2018
 ms.keywords: GetFontStretch, GetFontStretch method [Direct Write], GetFontStretch method [Direct Write],IDWriteTextFormat interface, IDWriteTextFormat interface [Direct Write],GetFontStretch method, IDWriteTextFormat.GetFontStretch, IDWriteTextFormat::GetFontStretch, directwrite.IDWriteTextFormat_GetFontStretch, dwrite/IDWriteTextFormat::GetFontStretch
 ms.topic: method
-f1_keywords: 
- - "dwrite/IDWriteTextFormat.GetFontStretch"
+f1_keywords:
+- dwrite/IDWriteTextFormat.GetFontStretch
 dev_langs:
- - c++
+- c++
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dwrite.lib
 req.dll: Dwrite.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dwrite.dll
+- dwrite.dll
 api_name:
- - IDWriteTextFormat.GetFontStretch
+- IDWriteTextFormat.GetFontStretch
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:processthreadsapi.SetThreadIdealProcessor
 title: SetThreadIdealProcessor function (processthreadsapi.h)
-
 description: Sets a preferred processor for a thread. The system schedules threads on their preferred processors whenever possible.
 old-location: base\setthreadidealprocessor.htm
 tech.root: ProcThread
 ms.assetid: b174f74b-4b61-4170-a8a6-2ddc4cc5e375
-
 ms.date: 12/05/2018
 ms.keywords: SetThreadIdealProcessor, SetThreadIdealProcessor function, _win32_setthreadidealprocessor, base.setthreadidealprocessor, processthreadsapi/SetThreadIdealProcessor
 ms.topic: function
-f1_keywords: 
- - "processthreadsapi/SetThreadIdealProcessor"
+f1_keywords:
+- processthreadsapi/SetThreadIdealProcessor
 dev_langs:
- - c++
+- c++
 req.header: processthreadsapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,23 +30,23 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-Kernel32-Legacy-l1-1-1.dll
- - kernel32legacy.dll
- - API-MS-Win-Core-Kernel32-Legacy-l1-1-2.dll
- - API-MS-Win-DownLevel-Kernel32-l2-1-0.dll
- - API-MS-Win-Core-ProcessThreads-L1-1-3.dll
- - KernelBase.dll
- - API-MS-Win-Core-Kernel32-Legacy-L1-1-3.dll
- - API-MS-Win-Core-Kernel32-Legacy-L1-1-4.dll
- - API-MS-Win-Core-Kernel32-Legacy-L1-1-5.dll
+- Kernel32.dll
+- API-MS-Win-Core-Kernel32-Legacy-l1-1-1.dll
+- kernel32legacy.dll
+- API-MS-Win-Core-Kernel32-Legacy-l1-1-2.dll
+- API-MS-Win-DownLevel-Kernel32-l2-1-0.dll
+- API-MS-Win-Core-ProcessThreads-L1-1-3.dll
+- KernelBase.dll
+- API-MS-Win-Core-Kernel32-Legacy-L1-1-3.dll
+- API-MS-Win-Core-Kernel32-Legacy-L1-1-4.dll
+- API-MS-Win-Core-Kernel32-Legacy-L1-1-5.dll
 api_name:
- - SetThreadIdealProcessor
+- SetThreadIdealProcessor
 targetos: Windows
 req.typenames: 
 req.redist: 

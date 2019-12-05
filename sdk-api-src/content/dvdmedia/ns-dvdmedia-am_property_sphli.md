@@ -1,19 +1,17 @@
 ---
 UID: NS:dvdmedia._AM_PROPERTY_SPHLI
 title: AM_PROPERTY_SPHLI (dvdmedia.h)
-
 description: Describes the currently selected button from the DVD highlight information.
 old-location: dshow\am_property_sphli.htm
 tech.root: DirectShow
 ms.assetid: fc073d53-bebb-47fc-b60c-7467b4df88c1
-
 ms.date: 12/05/2018
 ms.keywords: '*PAM_PROPERTY_SPHLI, AM_PROPERTY_SPHLI, AM_PROPERTY_SPHLI structure [DirectShow], PAM_PROPERTY_SPHLI, PAM_PROPERTY_SPHLI structure pointer [DirectShow], dshow.am_property_sphli, dvdmedia/AM_PROPERTY_SPHLI, dvdmedia/PAM_PROPERTY_SPHLI'
 ms.topic: struct
 f1_keywords:
 - dvdmedia/AM_PROPERTY_SPHLI
 dev_langs:
- - c++
+- c++
 req.header: dvdmedia.h
 req.include-header: 
 req.target-type: Windows

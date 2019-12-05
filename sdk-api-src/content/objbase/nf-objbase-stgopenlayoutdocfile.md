@@ -1,19 +1,17 @@
 ---
 UID: NF:objbase.StgOpenLayoutDocfile
 title: StgOpenLayoutDocfile function (objbase.h)
-
 description: Opens a compound file on an ILockBytes implementation that is capable of monitoring sector data.
 old-location: stg\stgopenlayoutdocfile.htm
 tech.root: Stg
 ms.assetid: 6ecfb6bd-e623-42b6-9b95-f0563921ac15
-
 ms.date: 12/05/2018
 ms.keywords: StgOpenLayoutDocfile, StgOpenLayoutDocfile function [Structured Storage], _stg_stgopenlayoutdocfile, objbase/StgOpenLayoutDocfile, stg.stgopenlayoutdocfile
 ms.topic: function
-f1_keywords: 
- - "objbase/StgOpenLayoutDocfile"
+f1_keywords:
+- objbase/StgOpenLayoutDocfile
 dev_langs:
- - c++
+- c++
 req.header: objbase.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: DfLayout.lib
 req.dll: DfLayout.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - DfLayout.dll
+- DfLayout.dll
 api_name:
- - StgOpenLayoutDocfile
+- StgOpenLayoutDocfile
 targetos: Windows
 req.typenames: 
 req.redist: 

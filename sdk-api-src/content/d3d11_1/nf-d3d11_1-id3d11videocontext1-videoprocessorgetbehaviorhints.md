@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d11_1.ID3D11VideoContext1.VideoProcessorGetBehaviorHints
 title: ID3D11VideoContext1::VideoProcessorGetBehaviorHints (d3d11_1.h)
-
 description: Returns driver hints that indicate which of the video processor operations are best performed using multi-plane overlay hardware rather than ID3D11VideoContext::VideoProcessorBlt method.
 old-location: mf\id3d11videocontext1_videoprocessorgetbehaviorhints.htm
 tech.root: medfound
 ms.assetid: DDA8B3DE-A9D2-48A5-ABEE-E3F7A0EEB965
-
 ms.date: 12/05/2018
 ms.keywords: ID3D11VideoContext1 interface [Media Foundation],VideoProcessorGetBehaviorHints method, ID3D11VideoContext1.VideoProcessorGetBehaviorHints, ID3D11VideoContext1::VideoProcessorGetBehaviorHints, VideoProcessorGetBehaviorHints, VideoProcessorGetBehaviorHints method [Media Foundation], VideoProcessorGetBehaviorHints method [Media Foundation],ID3D11VideoContext1 interface, d3d11_1/ID3D11VideoContext1::VideoProcessorGetBehaviorHints, mf.id3d11videocontext1_videoprocessorgetbehaviorhints
 ms.topic: method
-f1_keywords: 
- - "d3d11_1/ID3D11VideoContext1.VideoProcessorGetBehaviorHints"
+f1_keywords:
+- d3d11_1/ID3D11VideoContext1.VideoProcessorGetBehaviorHints
 dev_langs:
- - c++
+- c++
 req.header: d3d11_1.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - d3d11_1.h
+- d3d11_1.h
 api_name:
- - ID3D11VideoContext1.VideoProcessorGetBehaviorHints
+- ID3D11VideoContext1.VideoProcessorGetBehaviorHints
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:wsdxml.WSDXMLCreateContext
 title: WSDXMLCreateContext function (wsdxml.h)
-
 description: Creates a new IWSDXMLContext object.
 old-location: ncd\wsdxmlcreatecontext.htm
 tech.root: WsdApi
 ms.assetid: fb0d8c28-1dc3-43be-a1cf-c00de6c1f43e
-
 ms.date: 12/05/2018
 ms.keywords: WSDXMLCreateContext, WSDXMLCreateContext function, ncd.wsdxmlcreatecontext, wsdxml/WSDXMLCreateContext
 ms.topic: function
-f1_keywords: 
- - "wsdxml/WSDXMLCreateContext"
+f1_keywords:
+- wsdxml/WSDXMLCreateContext
 dev_langs:
- - c++
+- c++
 req.header: wsdxml.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: WsdApi.lib
 req.dll: WsdApi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - WsdApi.dll
+- WsdApi.dll
 api_name:
- - WSDXMLCreateContext
+- WSDXMLCreateContext
 targetos: Windows
 req.typenames: 
 req.redist: 

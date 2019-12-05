@@ -1,19 +1,17 @@
 ---
 UID: NS:d3d11_2.D3D11_PACKED_MIP_DESC
 title: D3D11_PACKED_MIP_DESC (d3d11_2.h)
-
 description: Describes the tile structure of a tiled resource with mipmaps.
 old-location: direct3d11\d3d11_packed_mip_desc.htm
 tech.root: direct3d11
 ms.assetid: 1c200c44-6cd6-4e77-8187-54cd6cd79c84
-
 ms.date: 12/05/2018
 ms.keywords: D3D11_PACKED_MIP_DESC, D3D11_PACKED_MIP_DESC structure [Direct3D 11], d3d11_2/D3D11_PACKED_MIP_DESC, direct3d11.d3d11_packed_mip_desc
 ms.topic: struct
-f1_keywords: 
- - "d3d11_2/D3D11_PACKED_MIP_DESC"
+f1_keywords:
+- d3d11_2/D3D11_PACKED_MIP_DESC
 dev_langs:
- - c++
+- c++
 req.header: d3d11_2.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - d3d11_2.h
+- d3d11_2.h
 api_name:
- - D3D11_PACKED_MIP_DESC
+- D3D11_PACKED_MIP_DESC
 targetos: Windows
 req.typenames: D3D11_PACKED_MIP_DESC
 req.redist: 

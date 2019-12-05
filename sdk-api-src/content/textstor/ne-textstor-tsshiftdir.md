@@ -1,19 +1,17 @@
 ---
 UID: NE:textstor.__MIDL_IAnchor_0002
 title: TsShiftDir (textstor.h)
-
 description: Elements of the TsShiftDir enumeration specify which direction an anchor is moved.
 old-location: tsf\tsshiftdir.htm
 tech.root: TSF
 ms.assetid: e247b79d-354c-4211-9160-e705436d669c
-
 ms.date: 12/05/2018
 ms.keywords: TS_SD_BACKWARD, TS_SD_FORWARD, TsShiftDir, TsShiftDir enumeration [Text Services Framework], _tsf_tsshiftdir_ref, textstor/TS_SD_BACKWARD, textstor/TS_SD_FORWARD, textstor/TsShiftDir, tsf.tsshiftdir
 ms.topic: enum
-f1_keywords: 
- - "textstor/TsShiftDir"
+f1_keywords:
+- textstor/TsShiftDir
 dev_langs:
- - c++
+- c++
 req.header: textstor.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Textstor.h
+- Textstor.h
 api_name:
- - TsShiftDir
+- TsShiftDir
 targetos: Windows
 req.typenames: TsShiftDir
 req.redist: TSF 1.0 on Windows 2000 Professional

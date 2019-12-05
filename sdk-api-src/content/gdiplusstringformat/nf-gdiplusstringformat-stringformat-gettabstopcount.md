@@ -1,19 +1,17 @@
 ---
 UID: NF:gdiplusstringformat.StringFormat.GetTabStopCount
 title: StringFormat::GetTabStopCount (gdiplusstringformat.h)
-
 description: The StringFormat::GetTabStopCount method gets the number of tab-stop offsets in this StringFormat object.
 old-location: gdiplus\_gdiplus_CLASS_StringFormat_GetTabStopCount_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\stringformatclass\stringformatmethods\gettabstopcount.htm
-
 ms.date: 12/05/2018
 ms.keywords: GetTabStopCount, GetTabStopCount method [GDI+], GetTabStopCount method [GDI+],StringFormat class, StringFormat class [GDI+],GetTabStopCount method, StringFormat.GetTabStopCount, StringFormat::GetTabStopCount, _gdiplus_CLASS_StringFormat_GetTabStopCount_, gdiplus._gdiplus_CLASS_StringFormat_GetTabStopCount_
 ms.topic: method
-f1_keywords: 
- - "gdiplusstringformat/StringFormat.GetTabStopCount"
+f1_keywords:
+- gdiplusstringformat/StringFormat.GetTabStopCount
 dev_langs:
- - c++
+- c++
 req.header: gdiplusstringformat.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - StringFormat.GetTabStopCount
+- StringFormat.GetTabStopCount
 targetos: Windows
 req.typenames: 
 req.redist: 

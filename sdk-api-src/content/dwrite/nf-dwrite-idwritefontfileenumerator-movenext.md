@@ -1,19 +1,17 @@
 ---
 UID: NF:dwrite.IDWriteFontFileEnumerator.MoveNext
 title: IDWriteFontFileEnumerator::MoveNext (dwrite.h)
-
 description: Advances to the next font file in the collection. When it is first created, the enumerator is positioned before the first element of the collection and the first call to MoveNext advances to the first file.
 old-location: directwrite\IDWriteFontFileEnumerator_MoveNext.htm
 tech.root: DirectWrite
 ms.assetid: ffacdf0b-2e37-4b69-a6b5-7c6552ecdb60
-
 ms.date: 12/05/2018
 ms.keywords: IDWriteFontFileEnumerator interface [Direct Write],MoveNext method, IDWriteFontFileEnumerator.MoveNext, IDWriteFontFileEnumerator::MoveNext, MoveNext, MoveNext method [Direct Write], MoveNext method [Direct Write],IDWriteFontFileEnumerator interface, directwrite.IDWriteFontFileEnumerator_MoveNext, dwrite/IDWriteFontFileEnumerator::MoveNext
 ms.topic: method
-f1_keywords: 
- - "dwrite/IDWriteFontFileEnumerator.MoveNext"
+f1_keywords:
+- dwrite/IDWriteFontFileEnumerator.MoveNext
 dev_langs:
- - c++
+- c++
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dwrite.lib
 req.dll: Dwrite.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dwrite.dll
+- dwrite.dll
 api_name:
- - IDWriteFontFileEnumerator.MoveNext
+- IDWriteFontFileEnumerator.MoveNext
 targetos: Windows
 req.typenames: 
 req.redist: 

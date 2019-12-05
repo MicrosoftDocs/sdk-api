@@ -1,19 +1,17 @@
 ---
 UID: NF:oleacc.IAccPropServices.DecomposeHmenuIdentityString
 title: IAccPropServices::DecomposeHmenuIdentityString (oleacc.h)
-
 description: Use this method to determine the HMENU, object ID, and child ID for the accessible element identified by the identity string.
 old-location: winauto\iaccpropservices_iaccpropservices__decomposehmenuidentitystring.htm
 tech.root: WinAuto
 ms.assetid: b76c4ba8-fb9a-438b-8547-b73b3c459ec6
-
 ms.date: 12/05/2018
 ms.keywords: DecomposeHmenuIdentityString, DecomposeHmenuIdentityString method [Windows Accessibility], DecomposeHmenuIdentityString method [Windows Accessibility],IAccPropServices interface, IAccPropServices interface [Windows Accessibility],DecomposeHmenuIdentityString method, IAccPropServices.DecomposeHmenuIdentityString, IAccPropServices::DecomposeHmenuIdentityString, oleacc/IAccPropServices::DecomposeHmenuIdentityString, winauto.iaccpropservices_iaccpropservices__decomposehmenuidentitystring
 ms.topic: method
-f1_keywords: 
- - "oleacc/IAccPropServices.DecomposeHmenuIdentityString"
+f1_keywords:
+- oleacc/IAccPropServices.DecomposeHmenuIdentityString
 dev_langs:
- - c++
+- c++
 req.header: oleacc.h
 req.include-header: OleAcc.h Include Initguid.h first.
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Oleacc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Oleacc.dll
+- Oleacc.dll
 api_name:
- - IAccPropServices.DecomposeHmenuIdentityString
+- IAccPropServices.DecomposeHmenuIdentityString
 targetos: Windows
 req.typenames: 
 req.redist: Active Accessibility 2.0 RDK on Windows NT 4.0 with SP6 and later and Windows 98

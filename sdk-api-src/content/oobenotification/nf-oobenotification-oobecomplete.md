@@ -1,19 +1,17 @@
 ---
 UID: NF:oobenotification.OOBEComplete
 title: OOBEComplete function (oobenotification.h)
-
 description: Determines whether OOBE (Windows Welcome) has been completed.
 old-location: windowssetupandmigration\oobecomplete.htm
 tech.root: WNF
 ms.assetid: D543CD82-9985-49E2-A902-34CB5880B875
-
 ms.date: 12/05/2018
 ms.keywords: OOBEComplete, isOOBEComplete, isOOBEComplete function, oobenotification/isOOBEComplete, windowssetupandmigration.oobecomplete
 ms.topic: function
-f1_keywords: 
- - "oobenotification/isOOBEComplete"
+f1_keywords:
+- oobenotification/isOOBEComplete
 dev_langs:
- - c++
+- c++
 req.header: oobenotification.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-OOBE-Notification-L1-1-0.dll
- - Kernel32Legacy.dll
+- Kernel32.dll
+- API-MS-Win-OOBE-Notification-L1-1-0.dll
+- Kernel32Legacy.dll
 api_name:
- - isOOBEComplete
+- isOOBEComplete
 targetos: Windows
 req.typenames: 
 req.redist: 

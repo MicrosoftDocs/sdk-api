@@ -1,19 +1,17 @@
 ---
 UID: NF:chstring.CHString.GetBuffer
 title: CHString::GetBuffer (chstring.h)
-
 description: The GetBuffer method returns a pointer to the internal character buffer for the CHString object.
 old-location: wmi\chstring_getbuffer.htm
 tech.root: WmiSdk
 ms.assetid: 07fa7cae-8af6-491b-a561-8947afde47ab
-
 ms.date: 12/05/2018
-ms.keywords: "?GetBuffer@CHString@@QAEPAGH@Z, ?GetBuffer@CHString@@QEAAPEAGH@Z, CHString interface [Windows Management Instrumentation],GetBuffer method, CHString.GetBuffer, CHString::GetBuffer, GetBuffer, GetBuffer method [Windows Management Instrumentation], GetBuffer method [Windows Management Instrumentation],CHString interface, _hmm_chstring_getbuffer, chstring/CHString::GetBuffer, wmi.chstring_getbuffer"
+ms.keywords: ?GetBuffer@CHString@@QAEPAGH@Z, ?GetBuffer@CHString@@QEAAPEAGH@Z, CHString interface [Windows Management Instrumentation],GetBuffer method, CHString.GetBuffer, CHString::GetBuffer, GetBuffer, GetBuffer method [Windows Management Instrumentation], GetBuffer method [Windows Management Instrumentation],CHString interface, _hmm_chstring_getbuffer, chstring/CHString::GetBuffer, wmi.chstring_getbuffer
 ms.topic: method
-f1_keywords: 
- - "chstring/CHString.GetBuffer"
+f1_keywords:
+- chstring/CHString.GetBuffer
 dev_langs:
- - c++
+- c++
 req.header: chstring.h
 req.include-header: FwCommon.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: FrameDyn.lib
 req.dll: FrameDynOS.dll; FrameDyn.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - FrameDynOS.dll
- - FrameDyn.dll
+- FrameDynOS.dll
+- FrameDyn.dll
 api_name:
- - CHString.GetBuffer
- - ?GetBuffer@CHString@@QAEPAGH@Z
- - ?GetBuffer@CHString@@QEAAPEAGH@Z
+- CHString.GetBuffer
+- ?GetBuffer@CHString@@QAEPAGH@Z
+- ?GetBuffer@CHString@@QEAAPEAGH@Z
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:rpcnsi.RpcNsBindingUnexportW
 title: RpcNsBindingUnexportW function (rpcnsi.h)
-
 description: The RpcNsBindingUnexport function removes the binding handles for an interface and objects from an entry in the name-service database.
 old-location: rpc\rpcnsbindingunexport.htm
 tech.root: Rpc
 ms.assetid: 70662e7e-7a81-4953-9814-e29b46422c5b
-
 ms.date: 12/05/2018
 ms.keywords: RpcNsBindingUnexport, RpcNsBindingUnexport function [RPC], RpcNsBindingUnexportA, RpcNsBindingUnexportW, _rpc_rpcnsbindingunexport, rpc.rpcnsbindingunexport, rpcnsi/RpcNsBindingUnexport, rpcnsi/RpcNsBindingUnexportA, rpcnsi/RpcNsBindingUnexportW
 ms.topic: function
-f1_keywords: 
- - "rpcnsi/RpcNsBindingUnexport"
+f1_keywords:
+- rpcnsi/RpcNsBindingUnexport
 dev_langs:
- - c++
+- c++
 req.header: rpcnsi.h
 req.include-header: Rpc.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Rpcns4.lib
 req.dll: Rpcns4.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Rpcns4.dll
+- Rpcns4.dll
 api_name:
- - RpcNsBindingUnexport
- - RpcNsBindingUnexportA
- - RpcNsBindingUnexportW
+- RpcNsBindingUnexport
+- RpcNsBindingUnexportA
+- RpcNsBindingUnexportW
 targetos: Windows
 req.typenames: 
 req.redist: 

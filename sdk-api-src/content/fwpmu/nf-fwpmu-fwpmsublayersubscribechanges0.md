@@ -1,19 +1,17 @@
 ---
 UID: NF:fwpmu.FwpmSubLayerSubscribeChanges0
 title: FwpmSubLayerSubscribeChanges0 function (fwpmu.h)
-
 description: Is used to request the delivery of notifications regarding changes in a particular sublayer.
 old-location: fwp\fwpmsublayersubscribechanges0_func.htm
 tech.root: fwp
 ms.assetid: 63b672ab-6625-417a-86ff-7b834d7444cc
-
 ms.date: 12/05/2018
 ms.keywords: FwpmSubLayerSubscribeChanges0, FwpmSubLayerSubscribeChanges0 function [Filtering], fwp.fwpmsublayersubscribechanges0_func, fwpmu/FwpmSubLayerSubscribeChanges0
 ms.topic: function
-f1_keywords: 
- - "fwpmu/FwpmSubLayerSubscribeChanges0"
+f1_keywords:
+- fwpmu/FwpmSubLayerSubscribeChanges0
 dev_langs:
- - c++
+- c++
 req.header: fwpmu.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Fwpuclnt.lib
 req.dll: Fwpuclnt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Fwpuclnt.dll
+- Fwpuclnt.dll
 api_name:
- - FwpmSubLayerSubscribeChanges0
+- FwpmSubLayerSubscribeChanges0
 targetos: Windows
 req.typenames: 
 req.redist: 

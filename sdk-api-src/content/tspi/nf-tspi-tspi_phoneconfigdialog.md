@@ -1,19 +1,17 @@
 ---
 UID: NF:tspi.TSPI_phoneConfigDialog
 title: TSPI_phoneConfigDialog function (tspi.h)
-
 description: The TSPI_phoneConfigDialog function is obsolete. TAPI version 1.4 or earlier service providers can implement this TSPI function. TAPI version 2.0 or later TSPs implement TUISPI_phoneConfigDialog.
 old-location: tspi\tspi_phoneconfigdialog.htm
 tech.root: Tapi
 ms.assetid: cce9460c-0914-4f02-a6a4-efb7f43ed22a
-
 ms.date: 12/05/2018
 ms.keywords: TSPI_phoneConfigDialog, TSPI_phoneConfigDialog function [TAPI 2.2], _tspi_tspi_phoneconfigdialog, tspi.tspi_phoneconfigdialog, tspi/TSPI_phoneConfigDialog
 ms.topic: function
-f1_keywords: 
- - "tspi/TSPI_phoneConfigDialog"
+f1_keywords:
+- tspi/TSPI_phoneConfigDialog
 dev_langs:
- - c++
+- c++
 req.header: tspi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Tspi.h
+- Tspi.h
 api_name:
- - TSPI_phoneConfigDialog
+- TSPI_phoneConfigDialog
 targetos: Windows
 req.typenames: 
 req.redist: 

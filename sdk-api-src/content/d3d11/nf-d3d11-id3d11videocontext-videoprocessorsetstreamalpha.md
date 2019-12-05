@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d11.ID3D11VideoContext.VideoProcessorSetStreamAlpha
 title: ID3D11VideoContext::VideoProcessorSetStreamAlpha (d3d11.h)
-
 description: Sets the planar alpha for an input stream on the video processor.
 old-location: mf\id3d11videocontext_videoprocessorsetstreamalpha.htm
 tech.root: medfound
 ms.assetid: DA869E3F-25BB-4794-B7AE-A3C2DA968800
-
 ms.date: 12/05/2018
 ms.keywords: ID3D11VideoContext interface [Media Foundation],VideoProcessorSetStreamAlpha method, ID3D11VideoContext.VideoProcessorSetStreamAlpha, ID3D11VideoContext::VideoProcessorSetStreamAlpha, VideoProcessorSetStreamAlpha, VideoProcessorSetStreamAlpha method [Media Foundation], VideoProcessorSetStreamAlpha method [Media Foundation],ID3D11VideoContext interface, d3d11/ID3D11VideoContext::VideoProcessorSetStreamAlpha, mf.id3d11videocontext_videoprocessorsetstreamalpha
 ms.topic: method
-f1_keywords: 
- - "d3d11/ID3D11VideoContext.VideoProcessorSetStreamAlpha"
+f1_keywords:
+- d3d11/ID3D11VideoContext.VideoProcessorSetStreamAlpha
 dev_langs:
- - c++
+- c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - d3d11.h
+- d3d11.h
 api_name:
- - ID3D11VideoContext.VideoProcessorSetStreamAlpha
+- ID3D11VideoContext.VideoProcessorSetStreamAlpha
 targetos: Windows
 req.typenames: 
 req.redist: 

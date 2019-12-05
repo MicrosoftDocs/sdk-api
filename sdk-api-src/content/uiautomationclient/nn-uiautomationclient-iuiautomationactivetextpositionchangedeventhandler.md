@@ -1,19 +1,17 @@
 ---
 UID: NN:uiautomationclient.IUIAutomationActiveTextPositionChangedEventHandler
 title: IUIAutomationActiveTextPositionChangedEventHandler (uiautomationclient.h)
-
 description: Exposes a method to handle Microsoft UI Automation events that occur when the active text position changes.
 old-location: winauto\uiauto_IUIAutomationActiveTextPositionChangedEventHandler.htm
 tech.root: WinAuto
 ms.assetid: 038AD911-2FDB-42E5-86E0-76C58F765114
-
 ms.date: 12/05/2018
 ms.keywords: IUIAutomationActiveTextPositionChangedEventHandler, IUIAutomationActiveTextPositionChangedEventHandler interface [Windows Accessibility], IUIAutomationActiveTextPositionChangedEventHandler interface [Windows Accessibility],described, uiautomationclient/IUIAutomationActiveTextPositionChangedEventHandler, winauto.uiauto_IUIAutomationActiveTextPositionChangedEventHandler
 ms.topic: interface
-f1_keywords: 
- - "uiautomationclient/IUIAutomationActiveTextPositionChangedEventHandler"
+f1_keywords:
+- uiautomationclient/IUIAutomationActiveTextPositionChangedEventHandler
 dev_langs:
- - c++
+- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: UIAutomationCore.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationCore.dll
+- UIAutomationCore.dll
 api_name:
- - IUIAutomationActiveTextPositionChangedEventHandler
+- IUIAutomationActiveTextPositionChangedEventHandler
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:cryptuiapi.CryptUIDlgViewContext
 title: CryptUIDlgViewContext function (cryptuiapi.h)
-
 description: Displays a certificate, CTL, or CRL context.
 old-location: security\cryptuidlgviewcontext.htm
 tech.root: SecCrypto
 ms.assetid: d4b8f01b-7c3e-4286-bc37-d5ec4a1e1c2f
-
 ms.date: 12/05/2018
 ms.keywords: CERT_STORE_CERTIFICATE_CONTEXT, CERT_STORE_CRL_CONTEXT, CERT_STORE_CTL_CONTEXT, CryptUIDlgViewContext, CryptUIDlgViewContext function [Security], _crypto2_cryptuidlgviewcontext, cryptuiapi/CryptUIDlgViewContext, security.cryptuidlgviewcontext
 ms.topic: function
-f1_keywords: 
- - "cryptuiapi/CryptUIDlgViewContext"
+f1_keywords:
+- cryptuiapi/CryptUIDlgViewContext
 dev_langs:
- - c++
+- c++
 req.header: cryptuiapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Cryptui.lib
 req.dll: Cryptui.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Cryptui.dll
+- Cryptui.dll
 api_name:
- - CryptUIDlgViewContext
+- CryptUIDlgViewContext
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NS:rectypes.tagLATTICE_METRICS
 title: LATTICE_METRICS (rectypes.h)
-
 description: Describes the baseline and the midline height.
 old-location: tablet\lattice_metrics.htm
 tech.root: tablet
 ms.assetid: 4fdeaaf9-9026-4bf1-8e78-d03a98d44b32
-
 ms.date: 12/05/2018
 ms.keywords: 4fdeaaf9-9026-4bf1-8e78-d03a98d44b32, LATTICE_METRICS, LATTICE_METRICS structure [Tablet PC], rectypes/LATTICE_METRICS, tablet.lattice_metrics
 ms.topic: struct
-f1_keywords: 
- - "rectypes/LATTICE_METRICS"
+f1_keywords:
+- rectypes/LATTICE_METRICS
 dev_langs:
- - c++
+- c++
 req.header: rectypes.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - rectypes.h
+- rectypes.h
 api_name:
- - LATTICE_METRICS
+- LATTICE_METRICS
 targetos: Windows
 req.typenames: LATTICE_METRICS
 req.redist: 

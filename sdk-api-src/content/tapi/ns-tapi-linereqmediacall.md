@@ -1,19 +1,17 @@
 ---
 UID: NS:tapi.linereqmediacall_tag
 title: LINEREQMEDIACALL (tapi.h)
-
 description: Describes a request initiated by a call to the lineGetRequest function. This data structure is obsolete and should not be used.
 old-location: tapi2\linereqmediacall_str.htm
 tech.root: Tapi
 ms.assetid: 4b0e4919-ebf9-496c-a8c9-bb8357879c65
-
 ms.date: 12/05/2018
-ms.keywords: "*LPLINEREQMEDIACALL, LINEREQMEDIACALL, LINEREQMEDIACALL structure [TAPI 2.2], LPLINEREQMEDIACALL, LPLINEREQMEDIACALL structure pointer [TAPI 2.2], _tapi2_linereqmediacall_str, tapi/LINEREQMEDIACALL, tapi/LPLINEREQMEDIACALL, tapi2.linereqmediacall_str"
+ms.keywords: '*LPLINEREQMEDIACALL, LINEREQMEDIACALL, LINEREQMEDIACALL structure [TAPI 2.2], LPLINEREQMEDIACALL, LPLINEREQMEDIACALL structure pointer [TAPI 2.2], _tapi2_linereqmediacall_str, tapi/LINEREQMEDIACALL, tapi/LPLINEREQMEDIACALL, tapi2.linereqmediacall_str'
 ms.topic: struct
-f1_keywords: 
- - "tapi/LINEREQMEDIACALL"
+f1_keywords:
+- tapi/LINEREQMEDIACALL
 dev_langs:
- - c++
+- c++
 req.header: tapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Tapi.h
+- Tapi.h
 api_name:
- - LINEREQMEDIACALL
+- LINEREQMEDIACALL
 targetos: Windows
 req.typenames: LINEREQMEDIACALL, *LPLINEREQMEDIACALL
 req.redist: 

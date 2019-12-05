@@ -1,19 +1,17 @@
 ---
 UID: NF:wincodec.WICConvertBitmapSource
 title: WICConvertBitmapSource function (wincodec.h)
-
 description: Obtains a IWICBitmapSource in the desired pixel format from a given IWICBitmapSource.
 old-location: wic\_wic_codec_wicconvertbitmapsource.htm
 tech.root: wic
 ms.assetid: ea735296-1bfd-4175-b8c9-cb5a61ab4203
-
 ms.date: 12/05/2018
 ms.keywords: WICConvertBitmapSource, WICConvertBitmapSource function [Windows Imaging Component], _wic_codec_wicconvertbitmapsource, wic._wic_codec_wicconvertbitmapsource, wincodec/WICConvertBitmapSource
 ms.topic: function
-f1_keywords: 
- - "wincodec/WICConvertBitmapSource"
+f1_keywords:
+- wincodec/WICConvertBitmapSource
 dev_langs:
- - c++
+- c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: Windowscodecs.dll; Wincodec.lib
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Windowscodecs.dll
- - Wincodec.lib
+- Windowscodecs.dll
+- Wincodec.lib
 api_name:
- - WICConvertBitmapSource
+- WICConvertBitmapSource
 targetos: Windows
 req.typenames: 
 req.redist: 

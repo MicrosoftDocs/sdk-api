@@ -1,19 +1,17 @@
 ---
 UID: NF:mmeapi.midiInReset
 title: midiInReset function (mmeapi.h)
-
 description: The midiInReset function stops input on a given MIDI input device.
 old-location: multimedia\midiinreset.htm
 tech.root: Multimedia
 ms.assetid: 74df14c2-df28-40c0-81f2-aed2147f7072
-
 ms.date: 12/05/2018
-ms.keywords: "_win32_midiInReset, midiInReset, midiInReset function [Windows Multimedia], mmeapi/midiInReset, multimedia.midiinreset"
+ms.keywords: _win32_midiInReset, midiInReset, midiInReset function [Windows Multimedia], mmeapi/midiInReset, multimedia.midiinreset
 ms.topic: function
-f1_keywords: 
- - "mmeapi/midiInReset"
+f1_keywords:
+- mmeapi/midiInReset
 dev_langs:
- - c++
+- c++
 req.header: mmeapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Winmm.lib
 req.dll: Winmm.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Winmm.dll
- - API-MS-Win-mm-mme-l1-1-0.dll
- - winmmbase.dll
+- Winmm.dll
+- API-MS-Win-mm-mme-l1-1-0.dll
+- winmmbase.dll
 api_name:
- - midiInReset
+- midiInReset
 targetos: Windows
 req.typenames: 
 req.redist: 

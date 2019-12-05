@@ -1,19 +1,17 @@
 ---
 UID: NS:winioctl._CSV_QUERY_MDS_PATH
 title: CSV_QUERY_MDS_PATH
-
 description: Contains the path that is used by CSV to communicate to the MDS.
 old-location: fs\csv_query_mds_path.htm
 tech.root: FileIO
 ms.assetid: 478AE3FD-1668-46CE-876D-51E4BB679C87
-
 ms.date: 12/05/2018
 ms.keywords: '*PCSV_QUERY_MDS_PATH, CSV_QUERY_MDS_PATH, CSV_QUERY_MDS_PATH structure [Files], PCSV_QUERY_MDS_PATH, PCSV_QUERY_MDS_PATH structure pointer [Files], fs.csv_query_mds_path, winioctl/CSV_QUERY_MDS_PATH, winioctl/PCSV_QUERY_MDS_PATH'
 ms.topic: struct
 f1_keywords:
 - winioctl/CSV_QUERY_MDS_PATH
 dev_langs:
- - c++
+- c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

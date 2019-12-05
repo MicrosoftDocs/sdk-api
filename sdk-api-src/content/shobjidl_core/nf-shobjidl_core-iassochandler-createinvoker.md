@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IAssocHandler.CreateInvoker
 title: IAssocHandler::CreateInvoker (shobjidl_core.h)
-
 description: Retrieves an object that enables the invocation of the associated handler on the current selection. The invoker includes the ability to verify whether the current selection is supported.
 old-location: shell\IAssocHandler_CreateInvoker.htm
 tech.root: shell
 ms.assetid: 12ffd2f1-e041-41f1-9b57-282a166ccbf7
-
 ms.date: 12/05/2018
 ms.keywords: CreateInvoker, CreateInvoker method [Windows Shell], CreateInvoker method [Windows Shell],IAssocHandler interface, IAssocHandler interface [Windows Shell],CreateInvoker method, IAssocHandler.CreateInvoker, IAssocHandler::CreateInvoker, _shell_IAssocHandler_CreateInvoker, shell.IAssocHandler_CreateInvoker, shobjidl_core/IAssocHandler::CreateInvoker
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IAssocHandler.CreateInvoker"
+f1_keywords:
+- shobjidl_core/IAssocHandler.CreateInvoker
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - IAssocHandler.CreateInvoker
+- IAssocHandler.CreateInvoker
 targetos: Windows
 req.typenames: 
 req.redist: 

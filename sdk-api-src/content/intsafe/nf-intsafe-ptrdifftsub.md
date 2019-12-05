@@ -1,19 +1,17 @@
 ---
 UID: NF:intsafe.PtrdiffTSub
 title: PtrdiffTSub function (intsafe.h)
-
 description: Subtracts one value of type ptrdiff_t from another.
 old-location: shell\PtrdiffTSub.htm
 tech.root: shell
 ms.assetid: 633ba8f5-ce8b-41a0-8af3-c06f69c9b676
-
 ms.date: 12/05/2018
 ms.keywords: PtrdiffTSub, PtrdiffTSub function [Windows Shell], intsafe/PtrdiffTSub, shell.PtrdiffTSub
 ms.topic: function
-f1_keywords: 
- - "intsafe/PtrdiffTSub"
+f1_keywords:
+- intsafe/PtrdiffTSub
 dev_langs:
- - c++
+- c++
 req.header: intsafe.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - intsafe.h
+- intsafe.h
 api_name:
- - PtrdiffTSub
+- PtrdiffTSub
 targetos: Windows
 req.typenames: 
 req.redist: 

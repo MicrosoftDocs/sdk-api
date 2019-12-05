@@ -1,19 +1,17 @@
 ---
 UID: NN:msinkaut.IInkRecognitionAlternate
 title: IInkRecognitionAlternate (msinkaut.h)
-
 description: Represents the possible word matches for segments of ink that are compared to a recognizers dictionary.
 old-location: tablet\iinkrecognitionalternate.htm
 tech.root: tablet
 ms.assetid: 219e96ee-6492-4f76-9928-f2e8dc28493d
-
 ms.date: 12/05/2018
 ms.keywords: 219e96ee-6492-4f76-9928-f2e8dc28493d, IInkRecognitionAlternate, IInkRecognitionAlternate interface [Tablet PC], IInkRecognitionAlternate interface [Tablet PC],described, msinkaut/IInkRecognitionAlternate, tablet.iinkrecognitionalternate
 ms.topic: interface
-f1_keywords: 
- - "msinkaut/IInkRecognitionAlternate"
+f1_keywords:
+- msinkaut/IInkRecognitionAlternate
 dev_langs:
- - c++
+- c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: InkObj.dll
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - InkObj.dll
- - InkObj.dll.dll
+- InkObj.dll
+- InkObj.dll.dll
 api_name:
- - IInkRecognitionAlternate
+- IInkRecognitionAlternate
 targetos: Windows
 req.typenames: 
 req.redist: 

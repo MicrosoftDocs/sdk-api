@@ -1,19 +1,17 @@
 ---
 UID: NF:taskschd.IExecAction.put_WorkingDirectory
 title: IExecAction::put_WorkingDirectory (taskschd.h)
-
 description: Gets or sets the directory that contains either the executable file or the files that are used by the executable file.
 old-location: taskschd\iexecaction_workingdirectory.htm
 tech.root: taskschd
 ms.assetid: 7cebc827-2587-46e4-a963-ad0fccfbcec7
-
 ms.date: 12/05/2018
 ms.keywords: IExecAction interface [Task Scheduler],WorkingDirectory property, IExecAction.WorkingDirectory, IExecAction.put_WorkingDirectory, IExecAction::WorkingDirectory, IExecAction::get_WorkingDirectory, IExecAction::put_WorkingDirectory, WorkingDirectory property [Task Scheduler], WorkingDirectory property [Task Scheduler],IExecAction interface, put_WorkingDirectory, taskschd.iexecaction_workingdirectory, taskschd/IExecAction::WorkingDirectory, taskschd/IExecAction::get_WorkingDirectory, taskschd/IExecAction::put_WorkingDirectory
 ms.topic: method
-f1_keywords: 
- - "taskschd/IExecAction.WorkingDirectory"
+f1_keywords:
+- taskschd/IExecAction.WorkingDirectory
 dev_langs:
- - c++
+- c++
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Taskschd.lib
 req.dll: Taskschd.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - taskschd.dll
+- taskschd.dll
 api_name:
- - IExecAction.WorkingDirectory
- - IExecAction.get_WorkingDirectory
- - IExecAction.put_WorkingDirectory
+- IExecAction.WorkingDirectory
+- IExecAction.get_WorkingDirectory
+- IExecAction.put_WorkingDirectory
 targetos: Windows
 req.typenames: 
 req.redist: 

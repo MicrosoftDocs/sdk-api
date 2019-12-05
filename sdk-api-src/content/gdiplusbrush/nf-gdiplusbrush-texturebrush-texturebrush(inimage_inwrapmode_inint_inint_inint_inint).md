@@ -1,19 +1,17 @@
 ---
 UID: NF:gdiplusbrush.TextureBrush.TextureBrush(IN Image,IN WrapMode,IN INT,IN INT,IN INT,IN INT)
 title: TextureBrush::TextureBrush(IN Image,IN WrapMode,IN INT,IN INT,IN INT,IN INT) (gdiplusbrush.h)
-
 description: Creates a TextureBrush object based on an image, a wrap mode, and a defining set of coordinates.
 old-location: gdiplus\_gdiplus_CLASS_TextureBrush_TextureBrush_Image_image_WrapMode_wrapMode_INT_dstX_INT_dstY_INT_dstWidt.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\texturebrushclass\texturebrushconstructors\texturebrush_29imageimage_wrapmodewrapmode_intdstx_in.htm
-
 ms.date: 12/05/2018
 ms.keywords: TextureBrush, TextureBrush class [GDI+],TextureBrush constructor, TextureBrush constructor [GDI+], TextureBrush constructor [GDI+],TextureBrush class, TextureBrush.TextureBrush, TextureBrush.TextureBrush(IN Image,IN WrapMode,IN INT,IN INT,IN INT,IN INT), TextureBrush.TextureBrush(Image*,WrapMode,INT,INT,INT,INT), TextureBrush::TextureBrush, TextureBrush::TextureBrush(IN Image,IN WrapMode,IN INT,IN INT,IN INT,IN INT), _gdiplus_CLASS_TextureBrush_TextureBrush_Image_image_WrapMode_wrapMode_INT_dstX_INT_dstY_INT_dstWidt, gdiplus._gdiplus_CLASS_TextureBrush_TextureBrush_Image_image_WrapMode_wrapMode_INT_dstX_INT_dstY_INT_dstWidt
 ms.topic: method
-f1_keywords: 
- - "gdiplusbrush/TextureBrush.TextureBrush"
+f1_keywords:
+- gdiplusbrush/TextureBrush.TextureBrush
 dev_langs:
- - c++
+- c++
 req.header: gdiplusbrush.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - TextureBrush.TextureBrush
+- TextureBrush.TextureBrush
 targetos: Windows
 req.typenames: 
 req.redist: 

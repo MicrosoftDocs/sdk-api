@@ -1,19 +1,17 @@
 ---
 UID: NF:winuser.GetWindowContextHelpId
 title: GetWindowContextHelpId function (winuser.h)
-
 description: Retrieves the Help context identifier, if any, associated with the specified window.
 old-location: shell\GetWindowContextHelpId.htm
 tech.root: shell
 ms.assetid: 28e57c01-0327-4f64-9ef4-ca13c3c32b0c
-
 ms.date: 12/05/2018
 ms.keywords: GetWindowContextHelpId, GetWindowContextHelpId function [Windows Shell], _win32_GetWindowContextHelpId, shell.GetWindowContextHelpId, winuser/GetWindowContextHelpId
 ms.topic: function
-f1_keywords: 
- - "winuser/GetWindowContextHelpId"
+f1_keywords:
+- winuser/GetWindowContextHelpId
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - User32.dll
+- User32.dll
 api_name:
- - GetWindowContextHelpId
+- GetWindowContextHelpId
 targetos: Windows
 req.typenames: 
 req.redist: 

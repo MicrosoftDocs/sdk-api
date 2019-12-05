@@ -1,19 +1,17 @@
 ---
 UID: NF:amvideo.IDirectDrawVideo.CanUseScanLine
 title: IDirectDrawVideo::CanUseScanLine (amvideo.h)
-
 description: The CanUseScanLine method determines whether the renderer will check the current scan line when drawing.
 old-location: dshow\idirectdrawvideo_canusescanline.htm
 tech.root: DirectShow
 ms.assetid: 2fa11ebb-0408-4ea7-9d18-c85860d6e2fc
-
 ms.date: 12/05/2018
 ms.keywords: CanUseScanLine, CanUseScanLine method [DirectShow], CanUseScanLine method [DirectShow],IDirectDrawVideo interface, IDirectDrawVideo interface [DirectShow],CanUseScanLine method, IDirectDrawVideo.CanUseScanLine, IDirectDrawVideo::CanUseScanLine, IDirectDrawVideoCanUseScanLine, amvideo/IDirectDrawVideo::CanUseScanLine, dshow.idirectdrawvideo_canusescanline
 ms.topic: method
-f1_keywords: 
- - "amvideo/IDirectDrawVideo.CanUseScanLine"
+f1_keywords:
+- amvideo/IDirectDrawVideo.CanUseScanLine
 dev_langs:
- - c++
+- c++
 req.header: amvideo.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IDirectDrawVideo.CanUseScanLine
+- IDirectDrawVideo.CanUseScanLine
 targetos: Windows
 req.typenames: 
 req.redist: 

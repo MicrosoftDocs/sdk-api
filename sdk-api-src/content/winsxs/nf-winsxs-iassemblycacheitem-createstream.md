@@ -1,19 +1,17 @@
 ---
 UID: NF:winsxs.IAssemblyCacheItem.CreateStream
 title: IAssemblyCacheItem::CreateStream (winsxs.h)
-
 description: The CreateStream method copies the source of a manifest or module into a stream.
 old-location: setup\iassemblycacheitem_createstream.htm
 tech.root: SbsCs
 ms.assetid: 3b3726cc-91c2-4614-a3a7-3f89f201e04a
-
 ms.date: 12/05/2018
 ms.keywords: CreateStream, CreateStream method [Side-by-side Assemblies], CreateStream method [Side-by-side Assemblies],IAssemblyCacheItem interface, IAssemblyCacheItem interface [Side-by-side Assemblies],CreateStream method, IAssemblyCacheItem.CreateStream, IAssemblyCacheItem::CreateStream, STREAM_FORMAT_COMPLIB_MANIFEST, STREAM_FORMAT_COMPLIB_MODULE, STREAM_FORMAT_WIN32_MANIFEST, STREAM_FORMAT_WIN32_MODULE, setup.iassemblycacheitem_createstream, winsxs/IAssemblyCacheItem::CreateStream
 ms.topic: method
-f1_keywords: 
- - "winsxs/IAssemblyCacheItem.CreateStream"
+f1_keywords:
+- winsxs/IAssemblyCacheItem.CreateStream
 dev_langs:
- - c++
+- c++
 req.header: winsxs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Sxs.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - sxs.dll
+- sxs.dll
 api_name:
- - IAssemblyCacheItem.CreateStream
+- IAssemblyCacheItem.CreateStream
 targetos: Windows
 req.typenames: 
 req.redist: 

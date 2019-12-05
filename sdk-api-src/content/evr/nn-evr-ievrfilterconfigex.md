@@ -1,19 +1,17 @@
 ---
 UID: NN:evr.IEVRFilterConfigEx
 title: IEVRFilterConfigEx (evr.h)
-
 description: Configures the DirectShow Enhanced Video Renderer (EVR) filter.
 old-location: mf\ievrfilterconfigex.htm
 tech.root: medfound
 ms.assetid: bbe85dc1-af9c-4be7-9064-d61bba160942
-
 ms.date: 12/05/2018
 ms.keywords: IEVRFilterConfigEx, IEVRFilterConfigEx interface [Media Foundation], IEVRFilterConfigEx interface [Media Foundation],described, evr/IEVRFilterConfigEx, mf.ievrfilterconfigex
 ms.topic: interface
-f1_keywords: 
- - "evr/IEVRFilterConfigEx"
+f1_keywords:
+- evr/IEVRFilterConfigEx
 dev_langs:
- - c++
+- c++
 req.header: evr.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - evr.h
+- evr.h
 api_name:
- - IEVRFilterConfigEx
+- IEVRFilterConfigEx
 targetos: Windows
 req.typenames: 
 req.redist: 

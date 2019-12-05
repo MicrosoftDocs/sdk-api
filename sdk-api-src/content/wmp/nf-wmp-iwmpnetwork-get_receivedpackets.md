@@ -1,19 +1,17 @@
 ---
 UID: NF:wmp.IWMPNetwork.get_receivedPackets
 title: IWMPNetwork::get_receivedPackets (wmp.h)
-
 description: The get_receivedPackets method retrieves the number of packets received.
 old-location: wmp\iwmpnetwork_get_receivedpackets.htm
 tech.root: WMP
 ms.assetid: 9a896a67-ef0c-4fd7-b352-3c091bea1ad8
-
 ms.date: 12/05/2018
 ms.keywords: IWMPNetwork interface [Windows Media Player],get_receivedPackets method, IWMPNetwork.get_receivedPackets, IWMPNetwork::get_receivedPackets, IWMPNetworkget_receivedPackets, get_receivedPackets, get_receivedPackets method [Windows Media Player], get_receivedPackets method [Windows Media Player],IWMPNetwork interface, wmp.iwmpnetwork_get_receivedpackets, wmp/IWMPNetwork::get_receivedPackets
 ms.topic: method
-f1_keywords: 
- - "wmp/IWMPNetwork.get_receivedPackets"
+f1_keywords:
+- wmp/IWMPNetwork.get_receivedPackets
 dev_langs:
- - c++
+- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wmp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmp.dll
+- wmp.dll
 api_name:
- - IWMPNetwork.get_receivedPackets
+- IWMPNetwork.get_receivedPackets
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:winnt.MemoryBarrier
 title: MemoryBarrier function (winnt.h)
-
 description: Creates a hardware memory barrier (fence) that prevents the CPU from re-ordering read and write operations. It may also prevent the compiler from re-ordering read and write operations.
 old-location: base\memorybarrier.htm
 tech.root: Sync
 ms.assetid: f2c06679-fa2f-4357-ae11-6cec1e50fd8f
-
 ms.date: 12/05/2018
 ms.keywords: MemoryBarrier, MemoryBarrier function, base.memorybarrier, winnt/MemoryBarrier
 ms.topic: function
-f1_keywords: 
- - "winnt/MemoryBarrier"
+f1_keywords:
+- winnt/MemoryBarrier
 dev_langs:
- - c++
+- c++
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Winnt.h
+- Winnt.h
 api_name:
- - MemoryBarrier
+- MemoryBarrier
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NN:wsdattachment.IWSDAttachment
 title: IWSDAttachment (wsdattachment.h)
-
 description: Is the base interface for all other attachment types.
 old-location: ncd\iwsdattachment.htm
 tech.root: WsdApi
 ms.assetid: 9acbbca2-9b43-4bed-8917-be99f13fce13
-
 ms.date: 12/05/2018
 ms.keywords: IWSDAttachment, IWSDAttachment interface, IWSDAttachment interface,described, ncd.iwsdattachment, wsdattachment/IWSDAttachment
 ms.topic: interface
-f1_keywords: 
- - "wsdattachment/IWSDAttachment"
+f1_keywords:
+- wsdattachment/IWSDAttachment
 dev_langs:
- - c++
+- c++
 req.header: wsdattachment.h
 req.include-header: Wsdapi.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wsdapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wsdapi.dll
+- Wsdapi.dll
 api_name:
- - IWSDAttachment
+- IWSDAttachment
 targetos: Windows
 req.typenames: 
 req.redist: 

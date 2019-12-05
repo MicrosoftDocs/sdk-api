@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IMemInputPin.ReceiveMultiple
 title: IMemInputPin::ReceiveMultiple (strmif.h)
-
 description: The ReceiveMultiple method receives multiple samples in the stream.
 old-location: dshow\imeminputpin_receivemultiple.htm
 tech.root: DirectShow
 ms.assetid: cf90a6e8-0758-4cee-887d-3ac9f7aa764d
-
 ms.date: 12/05/2018
 ms.keywords: IMemInputPin interface [DirectShow],ReceiveMultiple method, IMemInputPin.ReceiveMultiple, IMemInputPin::ReceiveMultiple, IMemInputPinReceiveMultiple, ReceiveMultiple, ReceiveMultiple method [DirectShow], ReceiveMultiple method [DirectShow],IMemInputPin interface, dshow.imeminputpin_receivemultiple, strmif/IMemInputPin::ReceiveMultiple
 ms.topic: method
-f1_keywords: 
- - "strmif/IMemInputPin.ReceiveMultiple"
+f1_keywords:
+- strmif/IMemInputPin.ReceiveMultiple
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IMemInputPin.ReceiveMultiple
+- IMemInputPin.ReceiveMultiple
 targetos: Windows
 req.typenames: 
 req.redist: 

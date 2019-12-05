@@ -1,19 +1,17 @@
 ---
 UID: NF:clusapi.RemoveClusterResourceDependency
 title: RemoveClusterResourceDependency function (clusapi.h)
-
 description: Removes a dependency relationship between two resources.
 old-location: mscs\removeclusterresourcedependency.htm
 tech.root: MsCS
 ms.assetid: 3640ad8d-db0d-4e55-bff0-35fb5d26776f
-
 ms.date: 12/05/2018
 ms.keywords: PCLUSAPI_REMOVE_CLUSTER_RESOURCE_DEPENDENCY, PCLUSAPI_REMOVE_CLUSTER_RESOURCE_DEPENDENCY function [Failover Cluster], RemoveClusterResourceDependency, RemoveClusterResourceDependency function [Failover Cluster], _wolf_removeclusterresourcedependency, clusapi/PCLUSAPI_REMOVE_CLUSTER_RESOURCE_DEPENDENCY, clusapi/RemoveClusterResourceDependency, mscs.removeclusterresourcedependency
 ms.topic: function
-f1_keywords: 
- - "clusapi/RemoveClusterResourceDependency"
+f1_keywords:
+- clusapi/RemoveClusterResourceDependency
 dev_langs:
- - c++
+- c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: ClusAPI.lib
 req.dll: ClusAPI.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - ClusAPI.dll
- - Ext-MS-Win-Cluster-ClusAPI-L1-1-2.dll
- - ext-ms-win-cluster-clusapi-l1-1-3.dll
+- ClusAPI.dll
+- Ext-MS-Win-Cluster-ClusAPI-L1-1-2.dll
+- ext-ms-win-cluster-clusapi-l1-1-3.dll
 api_name:
- - RemoveClusterResourceDependency
+- RemoveClusterResourceDependency
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationLegacyIAccessiblePattern.get_CurrentRole
 title: IUIAutomationLegacyIAccessiblePattern::get_CurrentRole (uiautomationclient.h)
-
 description: Retrieves the Microsoft Active Accessibility role identifier of the element.
 old-location: winauto\uiauto_IUIAutomationLegacyIAccessiblePattern_CurrentRole.htm
 tech.root: WinAuto
 ms.assetid: 9159e114-edc6-4dfa-b32f-a5a786dabe99
-
 ms.date: 12/05/2018
 ms.keywords: CurrentRole property [Windows Accessibility], CurrentRole property [Windows Accessibility],IUIAutomationLegacyIAccessiblePattern interface, IUIAutomationLegacyIAccessiblePattern interface [Windows Accessibility],CurrentRole property, IUIAutomationLegacyIAccessiblePattern.CurrentRole, IUIAutomationLegacyIAccessiblePattern.get_CurrentRole, IUIAutomationLegacyIAccessiblePattern::CurrentRole, IUIAutomationLegacyIAccessiblePattern::get_CurrentRole, get_CurrentRole, uiauto.uiauto_IUIAutomationLegacyIAccessiblePattern_CurrentRole, uiauto_IUIAutomationLegacyIAccessiblePattern_CurrentRole, uiautomationclient/IUIAutomationLegacyIAccessiblePattern::CurrentRole, uiautomationclient/IUIAutomationLegacyIAccessiblePattern::get_CurrentRole, winauto.uiauto_IUIAutomationLegacyIAccessiblePattern_CurrentRole
 ms.topic: method
-f1_keywords: 
- - "uiautomationclient/IUIAutomationLegacyIAccessiblePattern.CurrentRole"
+f1_keywords:
+- uiautomationclient/IUIAutomationLegacyIAccessiblePattern.CurrentRole
 dev_langs:
- - c++
+- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationClient.h
+- UIAutomationClient.h
 api_name:
- - IUIAutomationLegacyIAccessiblePattern.CurrentRole
- - IUIAutomationLegacyIAccessiblePattern.get_CurrentRole
+- IUIAutomationLegacyIAccessiblePattern.CurrentRole
+- IUIAutomationLegacyIAccessiblePattern.get_CurrentRole
 targetos: Windows
 req.typenames: 
 req.redist: 

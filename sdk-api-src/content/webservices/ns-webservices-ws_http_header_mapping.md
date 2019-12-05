@@ -1,19 +1,17 @@
 ---
 UID: NS:webservices._WS_HTTP_HEADER_MAPPING
 title: WS_HTTP_HEADER_MAPPING (webservices.h)
-
 description: Specifies an individual header that is mapped as part of WS_HTTP_MESSAGE_MAPPING.
 old-location: wsw\ws_http_header_mapping.htm
 tech.root: wsw
 ms.assetid: bca1f244-4692-42bb-bbd7-c96647038a06
-
 ms.date: 12/05/2018
 ms.keywords: WS_HTTP_HEADER_MAPPING, WS_HTTP_HEADER_MAPPING structure [Web Services for Windows], webservices/WS_HTTP_HEADER_MAPPING, wsw.ws_http_header_mapping
 ms.topic: struct
 f1_keywords:
 - webservices/WS_HTTP_HEADER_MAPPING
 dev_langs:
- - c++
+- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

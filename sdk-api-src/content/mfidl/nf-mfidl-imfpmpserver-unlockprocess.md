@@ -1,19 +1,17 @@
 ---
 UID: NF:mfidl.IMFPMPServer.UnlockProcess
 title: IMFPMPServer::UnlockProcess (mfidl.h)
-
 description: Decrements the lock count on the protected media path (PMP) process. Call this method once for each call to IMFPMPServer::LockProcess.
 old-location: mf\imfpmpserver_unlockprocess.htm
 tech.root: medfound
 ms.assetid: 2f64252f-c08b-4624-8df6-db922a630891
-
 ms.date: 12/05/2018
 ms.keywords: 2f64252f-c08b-4624-8df6-db922a630891, IMFPMPServer interface [Media Foundation],UnlockProcess method, IMFPMPServer.UnlockProcess, IMFPMPServer::UnlockProcess, UnlockProcess, UnlockProcess method [Media Foundation], UnlockProcess method [Media Foundation],IMFPMPServer interface, mf.imfpmpserver_unlockprocess, mfidl/IMFPMPServer::UnlockProcess
 ms.topic: method
-f1_keywords: 
- - "mfidl/IMFPMPServer.UnlockProcess"
+f1_keywords:
+- mfidl/IMFPMPServer.UnlockProcess
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFPMPServer.UnlockProcess
+- IMFPMPServer.UnlockProcess
 targetos: Windows
 req.typenames: 
 req.redist: 

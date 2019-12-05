@@ -1,19 +1,17 @@
 ---
 UID: NF:d2d1_3.ID2D1DeviceContext4.DrawTextLayout
 title: ID2D1DeviceContext4::DrawTextLayout (d2d1_3.h)
-
 description: Draws a text layout object. If the layout is not subsequently changed, this can be more efficient than DrawText when drawing the same layout repeatedly.
 old-location: direct2d\id2d1devicecontext4_drawtextlayout.htm
 tech.root: Direct2D
 ms.assetid: 54993EFD-A649-4613-8A9C-744FE22F7BFC
-
 ms.date: 12/05/2018
 ms.keywords: DrawTextLayout, DrawTextLayout method [Direct2D], DrawTextLayout method [Direct2D],ID2D1DeviceContext4 interface, ID2D1DeviceContext4 interface [Direct2D],DrawTextLayout method, ID2D1DeviceContext4.DrawTextLayout, ID2D1DeviceContext4::DrawTextLayout, d2d1_3/ID2D1DeviceContext4::DrawTextLayout, direct2d.id2d1devicecontext4_drawtextlayout
 ms.topic: method
-f1_keywords: 
- - "d2d1_3/ID2D1DeviceContext4.DrawTextLayout"
+f1_keywords:
+- d2d1_3/ID2D1DeviceContext4.DrawTextLayout
 dev_langs:
- - c++
+- c++
 req.header: d2d1_3.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: D2d1.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D2d1.dll
+- D2d1.dll
 api_name:
- - ID2D1DeviceContext4.DrawTextLayout
+- ID2D1DeviceContext4.DrawTextLayout
 targetos: Windows
 req.typenames: 
 req.redist: 

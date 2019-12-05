@@ -1,19 +1,17 @@
 ---
 UID: NF:wincrypt.CryptUninstallDefaultContext
 title: CryptUninstallDefaultContext function (wincrypt.h)
-
 description: Important  This API is deprecated.
 old-location: security\cryptuninstalldefaultcontext.htm
 tech.root: SecCrypto
 ms.assetid: ad7be5cf-f078-4a9f-81c4-959e4203dba8
-
 ms.date: 12/05/2018
 ms.keywords: CryptUninstallDefaultContext, CryptUninstallDefaultContext function [Security], _crypto2_cryptuninstalldefaultcontext, security.cryptuninstalldefaultcontext, wincrypt/CryptUninstallDefaultContext
 ms.topic: function
-f1_keywords: 
- - "wincrypt/CryptUninstallDefaultContext"
+f1_keywords:
+- wincrypt/CryptUninstallDefaultContext
 dev_langs:
- - c++
+- c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Crypt32.lib
 req.dll: Crypt32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Crypt32.dll
+- Crypt32.dll
 api_name:
- - CryptUninstallDefaultContext
+- CryptUninstallDefaultContext
 targetos: Windows
 req.typenames: 
 req.redist: 

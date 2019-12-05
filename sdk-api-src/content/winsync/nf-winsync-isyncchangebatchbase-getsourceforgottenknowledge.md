@@ -1,19 +1,17 @@
 ---
 UID: NF:winsync.ISyncChangeBatchBase.GetSourceForgottenKnowledge
 title: ISyncChangeBatchBase::GetSourceForgottenKnowledge (winsync.h)
-
 description: Gets the forgotten knowledge of the source replica.
 old-location: winsync\isyncchangebatchbase_getsourceforgottenknowledge.htm
 tech.root: winsync
 ms.assetid: 309b2c83-4480-421c-ae90-9cbe7ac11055
-
 ms.date: 12/05/2018
 ms.keywords: GetSourceForgottenKnowledge, GetSourceForgottenKnowledge method [Windows Sync], GetSourceForgottenKnowledge method [Windows Sync],ISyncChangeBatchBase interface, ISyncChangeBatchBase interface [Windows Sync],GetSourceForgottenKnowledge method, ISyncChangeBatchBase.GetSourceForgottenKnowledge, ISyncChangeBatchBase::GetSourceForgottenKnowledge, winsync.isyncchangebatchbase_getsourceforgottenknowledge, winsync/ISyncChangeBatchBase::GetSourceForgottenKnowledge
 ms.topic: method
-f1_keywords: 
- - "winsync/ISyncChangeBatchBase.GetSourceForgottenKnowledge"
+f1_keywords:
+- winsync/ISyncChangeBatchBase.GetSourceForgottenKnowledge
 dev_langs:
- - c++
+- c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - winsync.h
+- winsync.h
 api_name:
- - ISyncChangeBatchBase.GetSourceForgottenKnowledge
+- ISyncChangeBatchBase.GetSourceForgottenKnowledge
 targetos: Windows
 req.typenames: 
 req.redist: 

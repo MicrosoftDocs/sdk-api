@@ -1,19 +1,17 @@
 ---
 UID: NF:oleauto.VarCyCmpR8
 title: VarCyCmpR8 function (oleauto.h)
-
 description: Compares a variant of type currency with a value of type double.
 old-location: automat\varcycmpr8.htm
 tech.root: automat
 ms.assetid: 391ace93-7f08-4fa3-a897-1f4012fe631b
-
 ms.date: 12/05/2018
 ms.keywords: VarCyCmpR8, VarCyCmpR8 function [Automation], _oa96_VarCyCmpR8, automat.varcycmpr8, oleauto/VarCyCmpR8
 ms.topic: function
-f1_keywords: 
- - "oleauto/VarCyCmpR8"
+f1_keywords:
+- oleauto/VarCyCmpR8
 dev_langs:
- - c++
+- c++
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: OleAut32.lib
 req.dll: OleAut32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - OleAut32.dll
+- OleAut32.dll
 api_name:
- - VarCyCmpR8
+- VarCyCmpR8
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NE:bits1_5.BG_AUTH_SCHEME
 title: BG_AUTH_SCHEME
-
 description: Defines constants that specify the authentication scheme to use when a proxy or server requests user authentication.
 old-location: bits\bg_auth_scheme.htm
 tech.root: Bits
 ms.assetid: e5a97cee-0012-4e30-850a-9adc258a36d3
-
 ms.date: 02/20/2019
 ms.keywords: BG_AUTH_SCHEME, BG_AUTH_SCHEME enumeration [BITS], BG_AUTH_SCHEME_BASIC, BG_AUTH_SCHEME_DIGEST, BG_AUTH_SCHEME_NEGOTIATE, BG_AUTH_SCHEME_NTLM, BG_AUTH_SCHEME_PASSPORT, _drz_bg_auth_scheme, bits.bg_auth_scheme, bits1_5/BG_AUTH_SCHEME, bits1_5/BG_AUTH_SCHEME_BASIC, bits1_5/BG_AUTH_SCHEME_DIGEST, bits1_5/BG_AUTH_SCHEME_NEGOTIATE, bits1_5/BG_AUTH_SCHEME_NTLM, bits1_5/BG_AUTH_SCHEME_PASSPORT
 ms.topic: enum
-f1_keywords: 
- - "bits1_5/BG_AUTH_SCHEME"
+f1_keywords:
+- bits1_5/BG_AUTH_SCHEME
 dev_langs:
- - c++
+- c++
 req.header: bits1_5.h
 req.include-header: Bits.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Bits1_5.h
+- Bits1_5.h
 api_name:
- - BG_AUTH_SCHEME
+- BG_AUTH_SCHEME
 targetos: Windows
 req.typenames: BG_AUTH_SCHEME
 req.redist: BITS 1.5 on Windows XP

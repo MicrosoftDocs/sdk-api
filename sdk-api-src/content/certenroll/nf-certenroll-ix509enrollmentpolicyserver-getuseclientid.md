@@ -1,19 +1,17 @@
 ---
 UID: NF:certenroll.IX509EnrollmentPolicyServer.GetUseClientId
 title: IX509EnrollmentPolicyServer::GetUseClientId (certenroll.h)
-
 description: Retrieves a value that specifies whether the ClientId attribute is set in the policy server flags of the certificate enrollment policy (CEP) server.
 old-location: security\ix509enrollmentpolicyserver_getuseclientid.htm
 tech.root: seccertenroll
 ms.assetid: 5fd74752-60bb-4bdb-973d-76d4ab0ae4c4
-
 ms.date: 12/05/2018
 ms.keywords: GetUseClientId, GetUseClientId method [Security], GetUseClientId method [Security],IX509EnrollmentPolicyServer interface, IX509EnrollmentPolicyServer interface [Security],GetUseClientId method, IX509EnrollmentPolicyServer.GetUseClientId, IX509EnrollmentPolicyServer::GetUseClientId, certenroll/IX509EnrollmentPolicyServer::GetUseClientId, security.ix509enrollmentpolicyserver_getuseclientid
 ms.topic: method
-f1_keywords: 
- - "certenroll/IX509EnrollmentPolicyServer.GetUseClientId"
+f1_keywords:
+- certenroll/IX509EnrollmentPolicyServer.GetUseClientId
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Certenroll.h
+- Certenroll.h
 api_name:
- - IX509EnrollmentPolicyServer.GetUseClientId
+- IX509EnrollmentPolicyServer.GetUseClientId
 targetos: Windows
 req.typenames: 
 req.redist: 

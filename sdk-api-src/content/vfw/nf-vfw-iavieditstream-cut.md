@@ -1,19 +1,17 @@
 ---
 UID: NF:vfw.IAVIEditStream.Cut
 title: IAVIEditStream::Cut (vfw.h)
-
 description: The Cut method removes a portion of a stream and places it in a temporary stream. Called when an application uses the EditStreamCut function.
 old-location: multimedia\iavieditstream_cut.htm
 tech.root: Multimedia
 ms.assetid: e889d435-5c33-402d-bd69-c9122670e404
-
 ms.date: 12/05/2018
 ms.keywords: Cut, Cut method [Windows Multimedia], Cut method [Windows Multimedia],IAVIEditStream interface, IAVIEditStream interface [Windows Multimedia],Cut method, IAVIEditStream.Cut, IAVIEditStream::Cut, _win32_IAVIEditStream_Cut, multimedia.iavieditstream_cut, vfw/IAVIEditStream::Cut
 ms.topic: method
-f1_keywords: 
- - "vfw/IAVIEditStream.Cut"
+f1_keywords:
+- vfw/IAVIEditStream.Cut
 dev_langs:
- - c++
+- c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Vfw32.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Vfw32.lib
- - Vfw32.dll
+- Vfw32.lib
+- Vfw32.dll
 api_name:
- - IAVIEditStream.Cut
+- IAVIEditStream.Cut
 targetos: Windows
 req.typenames: 
 req.redist: 

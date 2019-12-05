@@ -1,19 +1,17 @@
 ---
 UID: NS:dwrite.DWRITE_GLYPH_OFFSET
 title: DWRITE_GLYPH_OFFSET (dwrite.h)
-
 description: The optional adjustment to a glyph's position.
 old-location: directwrite\dwrite_glyph_offset.htm
 tech.root: DirectWrite
 ms.assetid: f5a231c0-78df-4fe0-99a8-81fcad517cda
-
 ms.date: 12/05/2018
 ms.keywords: DWRITE_GLYPH_OFFSET, DWRITE_GLYPH_OFFSET structure [Direct Write], directwrite.dwrite_glyph_offset, dwrite/DWRITE_GLYPH_OFFSET
 ms.topic: struct
-f1_keywords: 
- - "dwrite/DWRITE_GLYPH_OFFSET"
+f1_keywords:
+- dwrite/DWRITE_GLYPH_OFFSET
 dev_langs:
- - c++
+- c++
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - dwrite.h
+- dwrite.h
 api_name:
- - DWRITE_GLYPH_OFFSET
+- DWRITE_GLYPH_OFFSET
 targetos: Windows
 req.typenames: 
 req.redist: 

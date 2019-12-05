@@ -1,19 +1,17 @@
 ---
 UID: NF:tspi.TSPI_lineReleaseUserUserInfo
 title: TSPI_lineReleaseUserUserInfo function (tspi.h)
-
 description: The TSPI_lineReleaseUserUserInfo function informs the service provider that the user-user information contained in the LINECALLINFO structure has been processed, and that subsequently received user-user information can now be written into that structure.
 old-location: tspi\tspi_linereleaseuseruserinfo.htm
 tech.root: Tapi
 ms.assetid: 3c760254-a8c0-406a-aa15-3a5a42aba2e7
-
 ms.date: 12/05/2018
 ms.keywords: TSPI_lineReleaseUserUserInfo, TSPI_lineReleaseUserUserInfo function [TAPI 2.2], _tspi_tspi_linereleaseuseruserinfo, tspi.tspi_linereleaseuseruserinfo, tspi/TSPI_lineReleaseUserUserInfo
 ms.topic: function
-f1_keywords: 
- - "tspi/TSPI_lineReleaseUserUserInfo"
+f1_keywords:
+- tspi/TSPI_lineReleaseUserUserInfo
 dev_langs:
- - c++
+- c++
 req.header: tspi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Tspi.h
+- Tspi.h
 api_name:
- - TSPI_lineReleaseUserUserInfo
+- TSPI_lineReleaseUserUserInfo
 targetos: Windows
 req.typenames: 
 req.redist: 

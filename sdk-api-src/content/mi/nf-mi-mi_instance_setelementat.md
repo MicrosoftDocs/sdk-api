@@ -1,19 +1,17 @@
 ---
 UID: NF:mi.MI_Instance_SetElementAt
 title: MI_Instance_SetElementAt function (mi.h)
-
 description: Set the value of the element at the given index of an instance.
 old-location: wmi_v2\mi_instance_setelementat.htm
 tech.root: wmi_v2
 ms.assetid: 4070af24-b7f9-4484-ab13-d3a52c9e55a0
-
 ms.date: 12/05/2018
 ms.keywords: MI_FLAG_ADOPT, MI_FLAG_BORROW, MI_FLAG_NULL, MI_Instance_SetElementAt, MI_Instance_SetElementAt function [Windows Management Infrastructure (MI)], mi/MI_Instance_SetElementAt, wmi_v2.mi_instance_setelementat
 ms.topic: function
-f1_keywords: 
- - "mi/MI_Instance_SetElementAt"
+f1_keywords:
+- mi/MI_Instance_SetElementAt
 dev_langs:
- - c++
+- c++
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Mi.h
+- Mi.h
 api_name:
- - MI_Instance_SetElementAt
+- MI_Instance_SetElementAt
 targetos: Windows
 req.typenames: 
 req.redist: Windows Management Framework 3.0 on Windows Server 2008 R2 with SP1, Windows 7 with SP1, and Windows Server 2008 with SP2

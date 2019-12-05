@@ -1,19 +1,17 @@
 ---
 UID: NE:d2d1effects.D2D1_HISTOGRAM_PROP
 title: D2D1_HISTOGRAM_PROP (d2d1effects.h)
-
 description: Identifiers for properties of the Histogram effect.
 old-location: direct2d\d2d1_histogram_prop.htm
 tech.root: Direct2D
 ms.assetid: 7CBF945C-3BBA-4243-A76B-5CDAC045E79C
-
 ms.date: 12/05/2018
 ms.keywords: D2D1_HISTOGRAM_PROP, D2D1_HISTOGRAM_PROP enumeration [Direct2D], D2D1_HISTOGRAM_PROP_CHANNEL_SELECT, D2D1_HISTOGRAM_PROP_HISTOGRAM_OUTPUT, D2D1_HISTOGRAM_PROP_NUM_BINS, d2d1effects/D2D1_HISTOGRAM_PROP, d2d1effects/D2D1_HISTOGRAM_PROP_CHANNEL_SELECT, d2d1effects/D2D1_HISTOGRAM_PROP_HISTOGRAM_OUTPUT, d2d1effects/D2D1_HISTOGRAM_PROP_NUM_BINS, direct2d.d2d1_histogram_prop
 ms.topic: enum
-f1_keywords: 
- - "d2d1effects/D2D1_HISTOGRAM_PROP"
+f1_keywords:
+- d2d1effects/D2D1_HISTOGRAM_PROP
 dev_langs:
- - c++
+- c++
 req.header: d2d1effects.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - d2d1effects.h
+- d2d1effects.h
 api_name:
- - D2D1_HISTOGRAM_PROP
+- D2D1_HISTOGRAM_PROP
 targetos: Windows
 req.typenames: D2D1_HISTOGRAM_PROP
 req.redist: 

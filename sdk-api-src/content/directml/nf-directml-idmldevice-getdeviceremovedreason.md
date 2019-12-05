@@ -1,19 +1,17 @@
 ---
 UID: NF:directml.IDMLDevice.GetDeviceRemovedReason
 title: IDMLDevice::GetDeviceRemovedReason
-
 description: Retrieves the reason that the DirectML device was removed.
 old-location: direct3d12\idmldevice_getdeviceremovedreason.htm
 tech.root: direct3d12
 ms.assetid: 59C889EB-35FB-408E-91AB-8CDC7E53E6F2
-
 ms.date: 12/5/2018
 ms.keywords: GetDeviceRemovedReason, GetDeviceRemovedReason method, GetDeviceRemovedReason method,IDMLDevice interface, IDMLDevice interface,GetDeviceRemovedReason method, IDMLDevice.GetDeviceRemovedReason, IDMLDevice::GetDeviceRemovedReason, direct3d12.idmldevice_getdeviceremovedreason, directml/IDMLDevice::GetDeviceRemovedReason
 ms.topic: method
-f1_keywords: 
- - "directml/IDMLDevice.GetDeviceRemovedReason"
+f1_keywords:
+- directml/IDMLDevice.GetDeviceRemovedReason
 dev_langs:
- - c++
+- c++
 req.header: directml.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: DirectML.lib
 req.dll: DirectML.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - DirectML.dll
+- DirectML.dll
 api_name:
- - IDMLDevice.GetDeviceRemovedReason
+- IDMLDevice.GetDeviceRemovedReason
 targetos: Windows
 req.typenames: 
 req.redist: 

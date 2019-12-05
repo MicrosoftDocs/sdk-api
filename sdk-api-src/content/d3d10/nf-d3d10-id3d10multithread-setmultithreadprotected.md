@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d10.ID3D10Multithread.SetMultithreadProtected
 title: ID3D10Multithread::SetMultithreadProtected (d3d10.h)
-
 description: Turn multithreading on or off.
 old-location: direct3d10\id3d10multithread_setmultithreadprotected.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10multithread_setmultithreadprotected.htm
-
 ms.date: 12/05/2018
 ms.keywords: 22302703-e7e4-5872-896b-8c2360171b16, ID3D10Multithread interface [Direct3D 10],SetMultithreadProtected method, ID3D10Multithread.SetMultithreadProtected, ID3D10Multithread::SetMultithreadProtected, SetMultithreadProtected, SetMultithreadProtected method [Direct3D 10], SetMultithreadProtected method [Direct3D 10],ID3D10Multithread interface, d3d10/ID3D10Multithread::SetMultithreadProtected, direct3d10.id3d10multithread_setmultithreadprotected
 ms.topic: method
-f1_keywords: 
- - "d3d10/ID3D10Multithread.SetMultithreadProtected"
+f1_keywords:
+- d3d10/ID3D10Multithread.SetMultithreadProtected
 dev_langs:
- - c++
+- c++
 req.header: d3d10.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: D3D10.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D10.lib
- - D3D10.dll
+- D3D10.lib
+- D3D10.dll
 api_name:
- - ID3D10Multithread.SetMultithreadProtected
+- ID3D10Multithread.SetMultithreadProtected
 targetos: Windows
 req.typenames: 
 req.redist: 

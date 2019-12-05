@@ -1,19 +1,17 @@
 ---
 UID: NF:commctrl.FlatSB_SetScrollPos
 title: FlatSB_SetScrollPos function (commctrl.h)
-
 description: Sets the current position of the thumb in a flat scroll bar. If flat scroll bars are not initialized for the window, this function calls the standard SetScrollPos function.
 old-location: controls\FlatSB_SetScrollPos.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\flatsb\functions\flatsb_setscrollpos.htm
-
 ms.date: 12/05/2018
 ms.keywords: FlatSB_SetScrollPos, FlatSB_SetScrollPos function [Windows Controls], SB_HORZ, SB_VERT, _win32_FlatSB_SetScrollPos, _win32_FlatSB_SetScrollPos_cpp, commctrl/FlatSB_SetScrollPos, controls.FlatSB_SetScrollPos, controls._win32_FlatSB_SetScrollPos
 ms.topic: function
-f1_keywords: 
- - "commctrl/FlatSB_SetScrollPos"
+f1_keywords:
+- commctrl/FlatSB_SetScrollPos
 dev_langs:
- - c++
+- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Comctl32.lib
 req.dll: Comctl32.dll (version 4.71 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Comctl32.dll
+- Comctl32.dll
 api_name:
- - FlatSB_SetScrollPos
+- FlatSB_SetScrollPos
 targetos: Windows
 req.typenames: 
 req.redist: 

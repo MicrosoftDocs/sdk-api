@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d12.ID3D12DescriptorHeap.GetGPUDescriptorHandleForHeapStart
 title: ID3D12DescriptorHeap::GetGPUDescriptorHandleForHeapStart (d3d12.h)
-
 description: Gets the GPU descriptor handle that represents the start of the heap.
 old-location: direct3d12\id3d12descriptorheap_getgpudescriptorhandleforheapstart.htm
 tech.root: direct3d12
 ms.assetid: 63A031A1-EF53-4308-A8F9-179E21C7CE7B
-
 ms.date: 12/05/2018
 ms.keywords: GetGPUDescriptorHandleForHeapStart, GetGPUDescriptorHandleForHeapStart method, GetGPUDescriptorHandleForHeapStart method,ID3D12DescriptorHeap interface, ID3D12DescriptorHeap interface,GetGPUDescriptorHandleForHeapStart method, ID3D12DescriptorHeap.GetGPUDescriptorHandleForHeapStart, ID3D12DescriptorHeap::GetGPUDescriptorHandleForHeapStart, d3d12/ID3D12DescriptorHeap::GetGPUDescriptorHandleForHeapStart, direct3d12.id3d12descriptorheap_getgpudescriptorhandleforheapstart
 ms.topic: method
-f1_keywords: 
- - "d3d12/ID3D12DescriptorHeap.GetGPUDescriptorHandleForHeapStart"
+f1_keywords:
+- d3d12/ID3D12DescriptorHeap.GetGPUDescriptorHandleForHeapStart
 dev_langs:
- - c++
+- c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: D3D12.lib
 req.dll: D3D12.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D12.dll
+- D3D12.dll
 api_name:
- - ID3D12DescriptorHeap.GetGPUDescriptorHandleForHeapStart
+- ID3D12DescriptorHeap.GetGPUDescriptorHandleForHeapStart
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:rend.ITDirectory.Bind
 title: ITDirectory::Bind (rend.h)
-
 description: The Bind method binds to the server.
 old-location: tapi3\itdirectory_bind.htm
 tech.root: Tapi
 ms.assetid: 4bcf994c-3091-445e-ad79-91958e48960a
-
 ms.date: 12/05/2018
 ms.keywords: Bind, Bind method [TAPI 2.2], Bind method [TAPI 2.2],ITDirectory interface, ITDirectory interface [TAPI 2.2],Bind method, ITDirectory.Bind, ITDirectory::Bind, _tapi3_itdirectory_bind, rend/ITDirectory::Bind, tapi3.itdirectory_bind
 ms.topic: method
-f1_keywords: 
- - "rend/ITDirectory.Bind"
+f1_keywords:
+- rend/ITDirectory.Bind
 dev_langs:
- - c++
+- c++
 req.header: rend.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Rend.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Rend.dll
+- Rend.dll
 api_name:
- - ITDirectory.Bind
+- ITDirectory.Bind
 targetos: Windows
 req.typenames: 
 req.redist: 

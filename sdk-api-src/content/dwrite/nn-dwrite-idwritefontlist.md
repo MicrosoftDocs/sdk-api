@@ -1,19 +1,17 @@
 ---
 UID: NN:dwrite.IDWriteFontList
 title: IDWriteFontList (dwrite.h)
-
 description: Represents a list of fonts.
 old-location: directwrite\IDWriteFontList.htm
 tech.root: DirectWrite
 ms.assetid: 00c41c5f-4405-45ff-98e5-03858dc3056f
-
 ms.date: 12/05/2018
 ms.keywords: IDWriteFontList, IDWriteFontList interface [Direct Write], IDWriteFontList interface [Direct Write],described, directwrite.IDWriteFontList, dwrite/IDWriteFontList
 ms.topic: interface
-f1_keywords: 
- - "dwrite/IDWriteFontList"
+f1_keywords:
+- dwrite/IDWriteFontList
 dev_langs:
- - c++
+- c++
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dwrite.lib
 req.dll: Dwrite.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dwrite.dll
+- dwrite.dll
 api_name:
- - IDWriteFontList
+- IDWriteFontList
 targetos: Windows
 req.typenames: 
 req.redist: 

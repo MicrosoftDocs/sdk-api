@@ -1,19 +1,17 @@
 ---
 UID: NF:wdstptmgmt.IWdsTransportServer2.get_TftpManager
 title: IWdsTransportServer2::get_TftpManager (wdstptmgmt.h)
-
 description: Receives a pointer to the object of the IWdsTransportTftpManager interface used to manage the WDS TFTP server.
 old-location: wds\iwdstransportserver2_tftpmanager.htm
 tech.root: wds
 ms.assetid: FD0D1B95-6964-43A0-94BF-F2BCFCDA8F99
-
 ms.date: 12/05/2018
 ms.keywords: IWdsTransportServer2 interface [Windows Deployment Services],TftpManager property, IWdsTransportServer2.TftpManager, IWdsTransportServer2.get_TftpManager, IWdsTransportServer2::TftpManager, IWdsTransportServer2::get_TftpManager, TftpManager property [Windows Deployment Services], TftpManager property [Windows Deployment Services],IWdsTransportServer2 interface, get_TftpManager, wds.iwdstransportserver2_tftpmanager, wdstptmgmt/IWdsTransportServer2::TftpManager, wdstptmgmt/IWdsTransportServer2::get_TftpManager
 ms.topic: method
-f1_keywords: 
- - "wdstptmgmt/IWdsTransportServer2.TftpManager"
+f1_keywords:
+- wdstptmgmt/IWdsTransportServer2.TftpManager
 dev_langs:
- - c++
+- c++
 req.header: wdstptmgmt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: Wdstptmgmt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wdstptmgmt.dll
+- Wdstptmgmt.dll
 api_name:
- - IWdsTransportServer2.TftpManager
- - IWdsTransportServer2.get_TftpManager
+- IWdsTransportServer2.TftpManager
+- IWdsTransportServer2.get_TftpManager
 targetos: Windows
 req.typenames: 
 req.redist: 

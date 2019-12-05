@@ -1,19 +1,17 @@
 ---
 UID: NF:wmcodecdsp.ITocEntryList.AddEntryByIndex
 title: ITocEntryList::AddEntryByIndex (wmcodecdsp.h)
-
 description: The AddEntryByIndex method adds an individual entry to the list and associates a caller-supplied index with the entry.
 old-location: mf\itocentrylist_addentrybyindex.htm
 tech.root: medfound
 ms.assetid: c8146c0f-ac91-42c7-9368-dd2db6079d3d
-
 ms.date: 12/05/2018
 ms.keywords: AddEntryByIndex, AddEntryByIndex method [Media Foundation], AddEntryByIndex method [Media Foundation],ITocEntryList interface, ITocEntryList interface [Media Foundation],AddEntryByIndex method, ITocEntryList.AddEntryByIndex, ITocEntryList::AddEntryByIndex, codecapi.itocentrylist_addentrybyindex, mf.itocentrylist_addentrybyindex, wmcodecdsp/ITocEntryList::AddEntryByIndex
 ms.topic: method
-f1_keywords: 
- - "wmcodecdsp/ITocEntryList.AddEntryByIndex"
+f1_keywords:
+- wmcodecdsp/ITocEntryList.AddEntryByIndex
 dev_langs:
- - c++
+- c++
 req.header: wmcodecdsp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wmvdspa.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmvdspa.dll
+- wmvdspa.dll
 api_name:
- - ITocEntryList.AddEntryByIndex
+- ITocEntryList.AddEntryByIndex
 targetos: Windows
 req.typenames: 
 req.redist: 

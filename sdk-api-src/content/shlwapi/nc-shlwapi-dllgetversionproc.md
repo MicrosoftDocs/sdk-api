@@ -1,19 +1,17 @@
 ---
 UID: NC:shlwapi.DLLGETVERSIONPROC
 title: DLLGETVERSIONPROC (shlwapi.h)
-
 description: Implemented by many of the Windows Shell DLLs to allow applications to obtain DLL-specific version information.
 old-location: shell\DllGetVersion.htm
 tech.root: shell
 ms.assetid: d7ec0f7d-ba2f-4aa4-b867-a2615244a580
-
 ms.date: 12/05/2018
 ms.keywords: DLLGETVERSIONPROC, DLLGETVERSIONPROC callback, DllGetVersion, DllGetVersion callback function [Windows Shell], _win32_DllGetVersion, _win32_DllGetVersion_cpp, shell.DllGetVersion, shlwapi/DllGetVersion
 ms.topic: callback
 f1_keywords:
 - shlwapi/DllGetVersion
 dev_langs:
- - c++
+- c++
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows

@@ -1,19 +1,17 @@
 ---
 UID: NF:wdsclientapi.WdsCliGetImageHalName
 title: WdsCliGetImageHalName function (wdsclientapi.h)
-
 description: Returns the Hardware Abstraction Layer (HAL) name for the current image.
 old-location: wds\wdscligetimagehalname.htm
 tech.root: wds
 ms.assetid: c7e3dde3-2f69-4c58-a732-4fd059a9222e
-
 ms.date: 12/05/2018
 ms.keywords: WdsCliGetImageHalName, WdsCliGetImageHalName function [Windows Deployment Services], wds.wdscligetimagehalname, wdsclientapi/WdsCliGetImageHalName
 ms.topic: function
-f1_keywords: 
- - "wdsclientapi/WdsCliGetImageHalName"
+f1_keywords:
+- wdsclientapi/WdsCliGetImageHalName
 dev_langs:
- - c++
+- c++
 req.header: wdsclientapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: WdsClientAPI.lib
 req.dll: WdsClientAPI.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - WdsClientAPI.dll
+- WdsClientAPI.dll
 api_name:
- - WdsCliGetImageHalName
+- WdsCliGetImageHalName
 targetos: Windows
 req.typenames: 
 req.redist: 

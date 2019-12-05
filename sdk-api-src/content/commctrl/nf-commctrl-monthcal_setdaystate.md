@@ -1,19 +1,17 @@
 ---
 UID: NF:commctrl.MonthCal_SetDayState
 title: MonthCal_SetDayState macro (commctrl.h)
-
 description: Sets the day states for all months that are currently visible within a month calendar control. You can use this macro or send the MCM_SETDAYSTATE message explicitly.
 old-location: controls\MonthCal_SetDayState.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\monthcal\macros\monthcal_setdaystate.htm
-
 ms.date: 12/05/2018
 ms.keywords: MonthCal_SetDayState, MonthCal_SetDayState macro [Windows Controls], _win32_MonthCal_SetDayState, _win32_MonthCal_SetDayState_cpp, commctrl/MonthCal_SetDayState, controls.MonthCal_SetDayState, controls._win32_MonthCal_SetDayState
 ms.topic: macro
-f1_keywords: 
- - "commctrl/MonthCal_SetDayState"
+f1_keywords:
+- commctrl/MonthCal_SetDayState
 dev_langs:
- - c++
+- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Commctrl.h
+- Commctrl.h
 api_name:
- - MonthCal_SetDayState
+- MonthCal_SetDayState
 targetos: Windows
 req.typenames: 
 req.redist: 

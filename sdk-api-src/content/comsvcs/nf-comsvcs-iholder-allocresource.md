@@ -1,19 +1,17 @@
 ---
 UID: NF:comsvcs.IHolder.AllocResource
 title: IHolder::AllocResource (comsvcs.h)
-
 description: Allocates a resource from the inventory.
 old-location: cos\iholder_allocresource.htm
 tech.root: cossdk
 ms.assetid: 2b6c5d54-4917-460f-9740-abe4b578761f
-
 ms.date: 12/05/2018
 ms.keywords: AllocResource, AllocResource method [COM+], AllocResource method [COM+],IHolder interface, IHolder interface [COM+],AllocResource method, IHolder.AllocResource, IHolder::AllocResource, _dtc_IHolder_AllocResource, comsvcs/IHolder::AllocResource, cos.iholder_allocresource
 ms.topic: method
-f1_keywords: 
- - "comsvcs/IHolder.AllocResource"
+f1_keywords:
+- comsvcs/IHolder.AllocResource
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - IHolder.AllocResource
+- IHolder.AllocResource
 targetos: Windows
 req.typenames: 
 req.redist: 

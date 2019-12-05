@@ -1,19 +1,17 @@
 ---
 UID: NF:shlobj_core.SHFind_InitMenuPopup
 title: SHFind_InitMenuPopup function (shlobj_core.h)
-
 description: SHFind_InitMenuPopup may be altered or unavailable.
 old-location: shell\SHFind_InitMenuPopup.htm
 tech.root: shell
 ms.assetid: ca44bd57-6af0-45b3-9331-914e93360743
-
 ms.date: 12/05/2018
 ms.keywords: SHFind_InitMenuPopup, SHFind_InitMenuPopup function [Windows Shell], _win32_SHFind_InitMenuPopup, shell.SHFind_InitMenuPopup, shlobj_core/SHFind_InitMenuPopup
 ms.topic: function
-f1_keywords: 
- - "shlobj_core/SHFind_InitMenuPopup"
+f1_keywords:
+- shlobj_core/SHFind_InitMenuPopup
 dev_langs:
- - c++
+- c++
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Shell32.lib
 req.dll: Shell32.dll (version 6.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - SHFind_InitMenuPopup
+- SHFind_InitMenuPopup
 targetos: Windows
 req.typenames: 
 req.redist: 

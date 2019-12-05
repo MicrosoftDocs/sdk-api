@@ -1,19 +1,17 @@
 ---
 UID: NF:taskschd.IRepetitionPattern.put_StopAtDurationEnd
 title: IRepetitionPattern::put_StopAtDurationEnd (taskschd.h)
-
 description: Gets or sets a Boolean value that indicates if a running instance of the task is stopped at the end of the repetition pattern duration.
 old-location: taskschd\irepetitionpattern_stopatdurationend.htm
 tech.root: taskschd
 ms.assetid: a43b5b32-a496-4f59-89f2-4b8566332e03
-
 ms.date: 12/05/2018
 ms.keywords: IRepetitionPattern interface [Task Scheduler],StopAtDurationEnd property, IRepetitionPattern.StopAtDurationEnd, IRepetitionPattern.put_StopAtDurationEnd, IRepetitionPattern::StopAtDurationEnd, IRepetitionPattern::get_StopAtDurationEnd, IRepetitionPattern::put_StopAtDurationEnd, StopAtDurationEnd property [Task Scheduler], StopAtDurationEnd property [Task Scheduler],IRepetitionPattern interface, put_StopAtDurationEnd, taskschd.irepetitionpattern_stopatdurationend, taskschd/IRepetitionPattern::StopAtDurationEnd, taskschd/IRepetitionPattern::get_StopAtDurationEnd, taskschd/IRepetitionPattern::put_StopAtDurationEnd
 ms.topic: method
-f1_keywords: 
- - "taskschd/IRepetitionPattern.StopAtDurationEnd"
+f1_keywords:
+- taskschd/IRepetitionPattern.StopAtDurationEnd
 dev_langs:
- - c++
+- c++
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Taskschd.lib
 req.dll: Taskschd.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - taskschd.dll
+- taskschd.dll
 api_name:
- - IRepetitionPattern.StopAtDurationEnd
- - IRepetitionPattern.get_StopAtDurationEnd
- - IRepetitionPattern.put_StopAtDurationEnd
+- IRepetitionPattern.StopAtDurationEnd
+- IRepetitionPattern.get_StopAtDurationEnd
+- IRepetitionPattern.put_StopAtDurationEnd
 targetos: Windows
 req.typenames: 
 req.redist: 

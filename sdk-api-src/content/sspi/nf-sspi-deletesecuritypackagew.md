@@ -1,19 +1,17 @@
 ---
 UID: NF:sspi.DeleteSecurityPackageW
 title: DeleteSecurityPackageW function (sspi.h)
-
 description: Deletes a security support provider from the list of providers supported by Microsoft Negotiate.
 old-location: security\deletesecuritypackage.htm
 tech.root: SecAuthN
 ms.assetid: 7a9a2c64-92a4-419b-8b20-d0f5cba64147
-
 ms.date: 12/05/2018
 ms.keywords: DeleteSecurityPackage, DeleteSecurityPackage function [Security], DeleteSecurityPackageA, DeleteSecurityPackageW, security.deletesecuritypackage, sspi/DeleteSecurityPackage, sspi/DeleteSecurityPackageA, sspi/DeleteSecurityPackageW
 ms.topic: function
-f1_keywords: 
- - "sspi/DeleteSecurityPackage"
+f1_keywords:
+- sspi/DeleteSecurityPackage
 dev_langs:
- - c++
+- c++
 req.header: sspi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Secur32.lib
 req.dll: Secur32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Secur32.dll
+- Secur32.dll
 api_name:
- - DeleteSecurityPackage
- - DeleteSecurityPackageA
- - DeleteSecurityPackageW
+- DeleteSecurityPackage
+- DeleteSecurityPackageA
+- DeleteSecurityPackageW
 targetos: Windows
 req.typenames: 
 req.redist: 

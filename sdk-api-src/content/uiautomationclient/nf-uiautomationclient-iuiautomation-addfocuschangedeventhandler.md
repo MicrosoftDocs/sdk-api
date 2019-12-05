@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationclient.IUIAutomation.AddFocusChangedEventHandler
 title: IUIAutomation::AddFocusChangedEventHandler (uiautomationclient.h)
-
 description: Registers a method that handles focus-changed events.Note  Before implementing an event handler, you should be familiar with the threading issues described in Understanding Threading Issues.
 old-location: winauto\uiauto_IUIAutomation_AddFocusChangedEventHandler.htm
 tech.root: WinAuto
 ms.assetid: 469e9c3e-366f-4c13-8c27-58fdb705d4d9
-
 ms.date: 12/05/2018
 ms.keywords: AddFocusChangedEventHandler, AddFocusChangedEventHandler method [Windows Accessibility], AddFocusChangedEventHandler method [Windows Accessibility],IUIAutomation interface, IUIAutomation interface [Windows Accessibility],AddFocusChangedEventHandler method, IUIAutomation.AddFocusChangedEventHandler, IUIAutomation::AddFocusChangedEventHandler, uiauto.uiauto_IUIAutomation_AddFocusChangedEventHandler, uiauto_IUIAutomation_AddFocusChangedEventHandler, uiautomationclient/IUIAutomation::AddFocusChangedEventHandler, winauto.uiauto_IUIAutomation_AddFocusChangedEventHandler
 ms.topic: method
-f1_keywords: 
- - "uiautomationclient/IUIAutomation.AddFocusChangedEventHandler"
+f1_keywords:
+- uiautomationclient/IUIAutomation.AddFocusChangedEventHandler
 dev_langs:
- - c++
+- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationClient.h
+- UIAutomationClient.h
 api_name:
- - IUIAutomation.AddFocusChangedEventHandler
+- IUIAutomation.AddFocusChangedEventHandler
 targetos: Windows
 req.typenames: 
 req.redist: 

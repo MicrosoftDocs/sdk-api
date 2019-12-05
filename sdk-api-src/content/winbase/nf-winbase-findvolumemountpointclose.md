@@ -1,19 +1,17 @@
 ---
 UID: NF:winbase.FindVolumeMountPointClose
 title: FindVolumeMountPointClose function (winbase.h)
-
 description: Closes the specified mounted folder search handle.
 old-location: fs\findvolumemountpointclose.htm
 tech.root: FileIO
 ms.assetid: f0f09a9d-e463-4457-9078-3d324fa8d4d6
-
 ms.date: 12/05/2018
 ms.keywords: FindVolumeMountPointClose, FindVolumeMountPointClose function [Files], _win32_findvolumemountpointclose, base.findvolumemountpointclose, fs.findvolumemountpointclose, winbase/FindVolumeMountPointClose
 ms.topic: function
-f1_keywords: 
- - "winbase/FindVolumeMountPointClose"
+f1_keywords:
+- winbase/FindVolumeMountPointClose
 dev_langs:
- - c++
+- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,20 +30,20 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-Kernel32-Legacy-l1-1-1.dll
- - kernel32legacy.dll
- - API-MS-Win-Core-Kernel32-Legacy-l1-1-2.dll
- - API-MS-Win-Core-Kernel32-Legacy-L1-1-3.dll
- - API-MS-Win-Core-Kernel32-Legacy-L1-1-4.dll
- - API-MS-Win-Core-Kernel32-Legacy-L1-1-5.dll
+- Kernel32.dll
+- API-MS-Win-Core-Kernel32-Legacy-l1-1-1.dll
+- kernel32legacy.dll
+- API-MS-Win-Core-Kernel32-Legacy-l1-1-2.dll
+- API-MS-Win-Core-Kernel32-Legacy-L1-1-3.dll
+- API-MS-Win-Core-Kernel32-Legacy-L1-1-4.dll
+- API-MS-Win-Core-Kernel32-Legacy-L1-1-5.dll
 api_name:
- - FindVolumeMountPointClose
+- FindVolumeMountPointClose
 targetos: Windows
 req.typenames: 
 req.redist: 

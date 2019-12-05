@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IActionProgress.QueryCancel
 title: IActionProgress::QueryCancel (shobjidl_core.h)
-
 description: Provides information about whether the action is being canceled.
 old-location: shell\IActionProgress_QueryCancel.htm
 tech.root: shell
 ms.assetid: a5db4344-c1b4-4e76-9291-46dafc82e88d
-
 ms.date: 12/05/2018
 ms.keywords: IActionProgress interface [Windows Shell],QueryCancel method, IActionProgress.QueryCancel, IActionProgress::QueryCancel, QueryCancel, QueryCancel method [Windows Shell], QueryCancel method [Windows Shell],IActionProgress interface, shell.IActionProgress_QueryCancel, shell_IActionProgress_QueryCancel, shobjidl_core/IActionProgress::QueryCancel
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IActionProgress.QueryCancel"
+f1_keywords:
+- shobjidl_core/IActionProgress.QueryCancel
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Shobjidl.idl
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shobjidl.idl
+- Shobjidl.idl
 api_name:
- - IActionProgress.QueryCancel
+- IActionProgress.QueryCancel
 targetos: Windows
 req.typenames: 
 req.redist: 

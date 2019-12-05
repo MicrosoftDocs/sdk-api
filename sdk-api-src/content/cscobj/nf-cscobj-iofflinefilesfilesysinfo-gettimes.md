@@ -1,19 +1,17 @@
 ---
 UID: NF:cscobj.IOfflineFilesFileSysInfo.GetTimes
 title: IOfflineFilesFileSysInfo::GetTimes (cscobj.h)
-
 description: Retrieves the time values associated with an item.
 old-location: of\iofflinefilesfilesysinfo_gettimes.htm
 tech.root: offlinefiles
 ms.assetid: 120b3f7c-6a92-4a03-8676-1ad4e4dc96b3
-
 ms.date: 12/05/2018
 ms.keywords: GetTimes, GetTimes method [Offline Files], GetTimes method [Offline Files],IOfflineFilesFileSysInfo interface, IOfflineFilesFileSysInfo interface [Offline Files],GetTimes method, IOfflineFilesFileSysInfo.GetTimes, IOfflineFilesFileSysInfo::GetTimes, cscobj/IOfflineFilesFileSysInfo::GetTimes, of.iofflinefilesfilesysinfo_gettimes
 ms.topic: method
-f1_keywords: 
- - "cscobj/IOfflineFilesFileSysInfo.GetTimes"
+f1_keywords:
+- cscobj/IOfflineFilesFileSysInfo.GetTimes
 dev_langs:
- - c++
+- c++
 req.header: cscobj.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: CscSvc.dll; CscObj.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CscSvc.dll
- - CscObj.dll
+- CscSvc.dll
+- CscObj.dll
 api_name:
- - IOfflineFilesFileSysInfo.GetTimes
+- IOfflineFilesFileSysInfo.GetTimes
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:syncmgr.ISyncMgrConflict.GetConflictIdInfo
 title: ISyncMgrConflict::GetConflictIdInfo (syncmgr.h)
-
 description: Gets information that identifies a conflict within a conflict store.
 old-location: shell\ISyncMgrConflict_GetConflictIdInfo.htm
 tech.root: shell
 ms.assetid: 9686a6e5-5a0a-4520-803e-1660676d9f61
-
 ms.date: 12/05/2018
 ms.keywords: GetConflictIdInfo, GetConflictIdInfo method [Windows Shell], GetConflictIdInfo method [Windows Shell],ISyncMgrConflict interface, ISyncMgrConflict interface [Windows Shell],GetConflictIdInfo method, ISyncMgrConflict.GetConflictIdInfo, ISyncMgrConflict::GetConflictIdInfo, _shell_ISyncMgrConflict_GetConflictIdInfo, shell.ISyncMgrConflict_GetConflictIdInfo, syncmgr/ISyncMgrConflict::GetConflictIdInfo
 ms.topic: method
-f1_keywords: 
- - "syncmgr/ISyncMgrConflict.GetConflictIdInfo"
+f1_keywords:
+- syncmgr/ISyncMgrConflict.GetConflictIdInfo
 dev_langs:
- - c++
+- c++
 req.header: syncmgr.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Syncmgr.h
+- Syncmgr.h
 api_name:
- - ISyncMgrConflict.GetConflictIdInfo
+- ISyncMgrConflict.GetConflictIdInfo
 targetos: Windows
 req.typenames: 
 req.redist: 

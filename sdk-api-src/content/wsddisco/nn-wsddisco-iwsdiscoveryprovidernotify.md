@@ -1,19 +1,17 @@
 ---
 UID: NN:wsddisco.IWSDiscoveryProviderNotify
 title: IWSDiscoveryProviderNotify (wsddisco.h)
-
 description: Is implemented by the client program to receive callback notifications from IWSDiscoveryProvider.
 old-location: ncd\iwsdiscoveryprovidernotify.htm
 tech.root: WsdApi
 ms.assetid: e186f721-14d9-4d9b-942a-1c05ada2bee6
-
 ms.date: 12/05/2018
 ms.keywords: IWSDiscoveryProviderNotify, IWSDiscoveryProviderNotify interface, IWSDiscoveryProviderNotify interface,described, ncd.iwsdiscoveryprovidernotify, wsddisco/IWSDiscoveryProviderNotify
 ms.topic: interface
-f1_keywords: 
- - "wsddisco/IWSDiscoveryProviderNotify"
+f1_keywords:
+- wsddisco/IWSDiscoveryProviderNotify
 dev_langs:
- - c++
+- c++
 req.header: wsddisco.h
 req.include-header: Wsdapi.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wsdapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wsdapi.dll
+- Wsdapi.dll
 api_name:
- - IWSDiscoveryProviderNotify
+- IWSDiscoveryProviderNotify
 targetos: Windows
 req.typenames: 
 req.redist: 

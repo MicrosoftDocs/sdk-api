@@ -1,19 +1,17 @@
 ---
 UID: NN:msctf.ITfCandidateListUIElementBehavior
 title: ITfCandidateListUIElementBehavior (msctf.h)
-
 description: This interface is implemented by a text service that has a candidate list UI and its UI can be controlled by the application. The application QI this interface from ITfUIElement and controls the candidate list behavior.
 old-location: tsf\itfcandidatelistuielementbehavior.htm
 tech.root: TSF
 ms.assetid: 3e1c53c6-f356-4b60-bb85-0f5a7251219d
-
 ms.date: 12/05/2018
 ms.keywords: ITfCandidateListUIElementBehavior, ITfCandidateListUIElementBehavior interface [Text Services Framework], ITfCandidateListUIElementBehavior interface [Text Services Framework],described, _tsf_itfcandidatelistuielementbehavior_ref, msctf/ITfCandidateListUIElementBehavior, tsf.itfcandidatelistuielementbehavior
 ms.topic: interface
-f1_keywords: 
- - "msctf/ITfCandidateListUIElementBehavior"
+f1_keywords:
+- msctf/ITfCandidateListUIElementBehavior
 dev_langs:
- - c++
+- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msctf.h
+- Msctf.h
 api_name:
- - ITfCandidateListUIElementBehavior
+- ITfCandidateListUIElementBehavior
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

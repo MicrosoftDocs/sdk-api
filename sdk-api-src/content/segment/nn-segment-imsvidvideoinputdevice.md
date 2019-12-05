@@ -1,19 +1,17 @@
 ---
 UID: NN:segment.IMSVidVideoInputDevice
 title: IMSVidVideoInputDevice (segment.h)
-
 description: The IMSVidVideoInputDevice interface represents a video input device. This interface inherits from the IMSVidInputDevice interface but adds no methods to it. It exists to support polymorphism.
 old-location: mstv\imsvidvideoinputdevice.htm
 tech.root: mstv
 ms.assetid: cbc687b1-826d-4738-8d0a-a7b90f5ff20d
-
 ms.date: 12/05/2018
 ms.keywords: IMSVidVideoInputDevice, IMSVidVideoInputDevice interface [Microsoft TV Technologies], IMSVidVideoInputDevice interface [Microsoft TV Technologies],described, mstv.imsvidvideoinputdevice, segment/IMSVidVideoInputDevice
 ms.topic: interface
-f1_keywords: 
- - "segment/IMSVidVideoInputDevice"
+f1_keywords:
+- segment/IMSVidVideoInputDevice
 dev_langs:
- - c++
+- c++
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - segment.h
+- segment.h
 api_name:
- - IMSVidVideoInputDevice
+- IMSVidVideoInputDevice
 targetos: Windows
 req.typenames: 
 req.redist: 

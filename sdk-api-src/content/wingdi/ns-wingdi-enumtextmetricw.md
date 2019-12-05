@@ -1,19 +1,17 @@
 ---
 UID: NS:wingdi.tagENUMTEXTMETRICW
 title: ENUMTEXTMETRICW (wingdi.h)
-
 description: The ENUMTEXTMETRIC structure contains information about a physical font.
 old-location: gdi\enumtextmetric.htm
 tech.root: gdi
 ms.assetid: deb81846-3ada-4c88-8c26-74224538d282
-
 ms.date: 12/05/2018
-ms.keywords: "*LPENUMTEXTMETRICW, *PENUMTEXTMETRICW, ENUMTEXTMETRIC, ENUMTEXTMETRIC structure [Windows GDI], ENUMTEXTMETRICA, ENUMTEXTMETRICW, PENUMTEXTMETRIC, PENUMTEXTMETRIC structure pointer [Windows GDI], _win32_ENUMTEXTMETRIC_str, gdi.enumtextmetric, wingdi/ENUMTEXTMETRIC, wingdi/ENUMTEXTMETRICA, wingdi/ENUMTEXTMETRICW, wingdi/PENUMTEXTMETRIC"
+ms.keywords: '*LPENUMTEXTMETRICW, *PENUMTEXTMETRICW, ENUMTEXTMETRIC, ENUMTEXTMETRIC structure [Windows GDI], ENUMTEXTMETRICA, ENUMTEXTMETRICW, PENUMTEXTMETRIC, PENUMTEXTMETRIC structure pointer [Windows GDI], _win32_ENUMTEXTMETRIC_str, gdi.enumtextmetric, wingdi/ENUMTEXTMETRIC, wingdi/ENUMTEXTMETRICA, wingdi/ENUMTEXTMETRICW, wingdi/PENUMTEXTMETRIC'
 ms.topic: struct
-f1_keywords: 
- - "wingdi/ENUMTEXTMETRIC"
+f1_keywords:
+- wingdi/ENUMTEXTMETRIC
 dev_langs:
- - c++
+- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wingdi.h
+- Wingdi.h
 api_name:
- - ENUMTEXTMETRIC
- - ENUMTEXTMETRICA
- - ENUMTEXTMETRICW
+- ENUMTEXTMETRIC
+- ENUMTEXTMETRICA
+- ENUMTEXTMETRICW
 targetos: Windows
 req.typenames: ENUMTEXTMETRICW, *PENUMTEXTMETRICW, *LPENUMTEXTMETRICW
 req.redist: 

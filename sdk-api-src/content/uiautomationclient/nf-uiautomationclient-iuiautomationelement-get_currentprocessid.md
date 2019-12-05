@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationElement.get_CurrentProcessId
 title: IUIAutomationElement::get_CurrentProcessId (uiautomationclient.h)
-
 description: Retrieves the identifier of the process that hosts the element.
 old-location: winauto\uiauto_IUIAutomationElement_CurrentProcessId.htm
 tech.root: WinAuto
 ms.assetid: c230cd82-99f9-4922-9626-cb67fa2942c1
-
 ms.date: 12/05/2018
 ms.keywords: CurrentProcessId property [Windows Accessibility], CurrentProcessId property [Windows Accessibility],IUIAutomationElement interface, IUIAutomationElement interface [Windows Accessibility],CurrentProcessId property, IUIAutomationElement.CurrentProcessId, IUIAutomationElement.get_CurrentProcessId, IUIAutomationElement::CurrentProcessId, IUIAutomationElement::get_CurrentProcessId, get_CurrentProcessId, uiauto.uiauto_IUIAutomationElement_CurrentProcessId, uiauto_IUIAutomationElement_CurrentProcessId, uiautomationclient/IUIAutomationElement::CurrentProcessId, uiautomationclient/IUIAutomationElement::get_CurrentProcessId, winauto.uiauto_IUIAutomationElement_CurrentProcessId
 ms.topic: method
-f1_keywords: 
- - "uiautomationclient/IUIAutomationElement.CurrentProcessId"
+f1_keywords:
+- uiautomationclient/IUIAutomationElement.CurrentProcessId
 dev_langs:
- - c++
+- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationClient.h
+- UIAutomationClient.h
 api_name:
- - IUIAutomationElement.CurrentProcessId
- - IUIAutomationElement.get_CurrentProcessId
+- IUIAutomationElement.CurrentProcessId
+- IUIAutomationElement.get_CurrentProcessId
 targetos: Windows
 req.typenames: 
 req.redist: 

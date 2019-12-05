@@ -1,19 +1,17 @@
 ---
 UID: NF:fsrmscreen.IFsrmFileScreen.get_Path
 title: IFsrmFileScreen::get_Path (fsrmscreen.h)
-
 description: Retrieves the directory path associated with the file screen object.
 old-location: fsrm\ifsrmfilescreen_path.htm
 tech.root: fsrm
 ms.assetid: 383e829c-5089-4404-a6bd-429812069e85
-
 ms.date: 12/05/2018
 ms.keywords: IFsrmFileScreen interface [File Server Resource Manager],Path property, IFsrmFileScreen.Path, IFsrmFileScreen.get_Path, IFsrmFileScreen::Path, IFsrmFileScreen::get_Path, Path property [File Server Resource Manager], Path property [File Server Resource Manager],IFsrmFileScreen interface, fs.ifsrmfilescreen_path, fsrm.ifsrmfilescreen_path, fsrmscreen/IFsrmFileScreen::Path, fsrmscreen/IFsrmFileScreen::get_Path, get_Path
 ms.topic: method
-f1_keywords: 
- - "fsrmscreen/IFsrmFileScreen.Path"
+f1_keywords:
+- fsrmscreen/IFsrmFileScreen.Path
 dev_langs:
- - c++
+- c++
 req.header: fsrmscreen.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: SrmSvc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - SrmSvc.dll
+- SrmSvc.dll
 api_name:
- - IFsrmFileScreen.Path
- - IFsrmFileScreen.get_Path
+- IFsrmFileScreen.Path
+- IFsrmFileScreen.get_Path
 targetos: Windows
 req.typenames: 
 req.redist: 

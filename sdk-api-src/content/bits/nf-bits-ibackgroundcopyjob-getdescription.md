@@ -1,19 +1,17 @@
 ---
 UID: NF:bits.IBackgroundCopyJob.GetDescription
 title: IBackgroundCopyJob::GetDescription (bits.h)
-
 description: Retrieves the description of the job.
 old-location: bits\ibackgroundcopyjob_getdescription.htm
 tech.root: Bits
 ms.assetid: 1a791390-2bd8-4732-98a2-74f740cfd822
-
 ms.date: 12/05/2018
 ms.keywords: GetDescription, GetDescription method [BITS], GetDescription method [BITS],IBackgroundCopyJob interface, IBackgroundCopyJob interface [BITS],GetDescription method, IBackgroundCopyJob.GetDescription, IBackgroundCopyJob::GetDescription, _drz_ibackgroundcopyjob_getdescription, bits.ibackgroundcopyjob_getdescription, bits/IBackgroundCopyJob::GetDescription
 ms.topic: method
-f1_keywords: 
- - "bits/IBackgroundCopyJob.GetDescription"
+f1_keywords:
+- bits/IBackgroundCopyJob.GetDescription
 dev_langs:
- - c++
+- c++
 req.header: bits.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Bits.lib
 req.dll: QmgrPrxy.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - QmgrPrxy.dll
+- QmgrPrxy.dll
 api_name:
- - IBackgroundCopyJob.GetDescription
+- IBackgroundCopyJob.GetDescription
 targetos: Windows
 req.typenames: 
 req.redist: 

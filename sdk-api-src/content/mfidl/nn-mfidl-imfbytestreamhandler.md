@@ -1,19 +1,17 @@
 ---
 UID: NN:mfidl.IMFByteStreamHandler
 title: IMFByteStreamHandler (mfidl.h)
-
 description: Creates a media source from a byte stream.
 old-location: mf\imfbytestreamhandler.htm
 tech.root: medfound
 ms.assetid: 80c402d4-8246-42ee-a981-69c8d605cb0f
-
 ms.date: 12/05/2018
 ms.keywords: 80c402d4-8246-42ee-a981-69c8d605cb0f, IMFByteStreamHandler, IMFByteStreamHandler interface [Media Foundation], IMFByteStreamHandler interface [Media Foundation],described, mf.imfbytestreamhandler, mfidl/IMFByteStreamHandler
 ms.topic: interface
-f1_keywords: 
- - "mfidl/IMFByteStreamHandler"
+f1_keywords:
+- mfidl/IMFByteStreamHandler
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFByteStreamHandler
+- IMFByteStreamHandler
 targetos: Windows
 req.typenames: 
 req.redist: 

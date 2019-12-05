@@ -1,19 +1,17 @@
 ---
 UID: NN:shobjidl_core.IOpenSearchSource
 title: IOpenSearchSource (shobjidl_core.h)
-
 description: Exposes a method to get search results from a custom client-side OpenSearch data source.
 old-location: shell\IOpenSearchSource.htm
 tech.root: shell
 ms.assetid: 8d5d376f-b59d-4420-a6be-d64459cb6aa3
-
 ms.date: 12/05/2018
 ms.keywords: IOpenSearchSource, IOpenSearchSource interface [Windows Shell], IOpenSearchSource interface [Windows Shell],described, _shell_IOpenSearchSource, shell.IOpenSearchSource, shobjidl_core/IOpenSearchSource
 ms.topic: interface
-f1_keywords: 
- - "shobjidl_core/IOpenSearchSource"
+f1_keywords:
+- shobjidl_core/IOpenSearchSource
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - IOpenSearchSource
+- IOpenSearchSource
 targetos: Windows
 req.typenames: 
 req.redist: 

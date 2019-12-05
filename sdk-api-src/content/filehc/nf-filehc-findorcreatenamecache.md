@@ -1,19 +1,17 @@
 ---
 UID: NF:filehc.FindOrCreateNameCache
 title: FindOrCreateNameCache function (filehc.h)
-
 description: Finds or creates a name cache.
 old-location: winprog\_findorcreatenamecache.htm
 tech.root: DevNotes
 ms.assetid: c10a501c-cc25-4586-a62a-7c7be207cbd9
-
 ms.date: 12/05/2018
 ms.keywords: FindOrCreateNameCache, FindOrCreateNameCache function [Windows API], filehc/FindOrCreateNameCache, winprog._findorcreatenamecache
 ms.topic: function
-f1_keywords: 
- - "filehc/FindOrCreateNameCache"
+f1_keywords:
+- filehc/FindOrCreateNameCache
 dev_langs:
- - c++
+- c++
 req.header: filehc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Fcachdll.lib
 req.dll: Fcachdll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Fcachdll.dll
+- Fcachdll.dll
 api_name:
- - FindOrCreateNameCache
+- FindOrCreateNameCache
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NS:ddrawi._DDCORECAPS
 title: DDCORECAPS (ddrawi.h)
-
 description: The DDCORECAPS structure specifies the core capabilities of the Microsoft DirectDraw driver and its device, which are exposed to an application through the DirectDraw object.
 old-location: display\ddcorecaps.htm
 tech.root: display
 ms.assetid: 529d60b5-658d-4d55-a599-fa35386c01a7
-
 ms.date: 12/05/2018
 ms.keywords: '*LPDDCORECAPS, DDCORECAPS, DDCORECAPS structure [Display Devices], ddrawi/DDCORECAPS, ddstrcts_c5f9b49c-9c33-453b-af30-1f2ed36d5851.xml, display.ddcorecaps'
 ms.topic: struct
 f1_keywords:
 - ddrawi/DDCORECAPS
 dev_langs:
- - c++
+- c++
 req.header: ddrawi.h
 req.include-header: Ddrawi.h
 req.target-type: Windows

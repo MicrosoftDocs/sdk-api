@@ -1,19 +1,17 @@
 ---
 UID: NN:filter.IFilter
 title: IFilter (filter.h)
-
 description: Scans documents for text and properties (also called attributes).
 old-location: indexsrv\ifilter.htm
 tech.root: IndexSrv
 ms.assetid: VS|indexsrv|~\html\ixrefint_9sfm.htm
-
 ms.date: 12/05/2018
 ms.keywords: IFilter, IFilter interface [Indexing Service], IFilter interface [Indexing Service],described, _idxs_IFilter, filter/IFilter, indexsrv.ifilter
 ms.topic: interface
-f1_keywords: 
- - "filter/IFilter"
+f1_keywords:
+- filter/IFilter
 dev_langs:
- - c++
+- c++
 req.header: filter.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Filter.h
+- Filter.h
 api_name:
- - IFilter
+- IFilter
 targetos: Windows
 req.typenames: 
 req.redist: 

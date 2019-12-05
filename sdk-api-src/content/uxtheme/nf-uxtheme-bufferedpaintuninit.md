@@ -1,19 +1,17 @@
 ---
 UID: NF:uxtheme.BufferedPaintUnInit
 title: BufferedPaintUnInit function (uxtheme.h)
-
 description: Closes down buffered painting for the current thread. Called once for each call to BufferedPaintInit after calls to BeginBufferedPaint are no longer needed.
 old-location: controls\BufferedPaintUnInit.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\userex\functions\bufferedpaintuninit.htm
-
 ms.date: 12/05/2018
 ms.keywords: BufferedPaintUnInit, BufferedPaintUnInit function [Windows Controls], _shell_BufferedPaintUnInit, _shell_BufferedPaintUnInit_cpp, controls.BufferedPaintUnInit, controls._shell_BufferedPaintUnInit, uxtheme/BufferedPaintUnInit
 ms.topic: function
-f1_keywords: 
- - "uxtheme/BufferedPaintUnInit"
+f1_keywords:
+- uxtheme/BufferedPaintUnInit
 dev_langs:
- - c++
+- c++
 req.header: uxtheme.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: UxTheme.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - UxTheme.dll
- - ext-ms-win-uxtheme-themes-l1-1-1.dll
- - xamlpalwp.dll
+- UxTheme.dll
+- ext-ms-win-uxtheme-themes-l1-1-1.dll
+- xamlpalwp.dll
 api_name:
- - BufferedPaintUnInit
+- BufferedPaintUnInit
 targetos: Windows
 req.typenames: 
 req.redist: 

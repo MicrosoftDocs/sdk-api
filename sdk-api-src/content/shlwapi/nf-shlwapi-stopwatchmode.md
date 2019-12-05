@@ -1,19 +1,17 @@
 ---
 UID: NF:shlwapi.StopWatchMode
 title: StopWatchMode function (shlwapi.h)
-
 description: StopWatchMode may be altered or unavailable.
 old-location: shell\StopWatchMode.htm
 tech.root: shell
 ms.assetid: 3db69040-0720-41a3-ba88-db885a2685aa
-
 ms.date: 12/05/2018
 ms.keywords: StopWatchMode, StopWatchMode function [Windows Shell], _win32_StopWatchMode, shell.StopWatchMode, shlwapi/StopWatchMode
 ms.topic: function
-f1_keywords: 
- - "shlwapi/StopWatchMode"
+f1_keywords:
+- shlwapi/StopWatchMode
 dev_langs:
- - c++
+- c++
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Shlwapi.dll (version 5.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Shlwapi.dll
+- Shlwapi.dll
 api_name:
- - StopWatchMode
+- StopWatchMode
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:xenroll.ICEnroll4.createFilePFX
 title: ICEnroll4::createFilePFX (xenroll.h)
-
 description: Saves the accepted certificate chain and private key in a file in Personal Information Exchange (PFX) format. This method was first defined in the ICEnroll4 interface.
 old-location: security\icenroll4_createfilepfx.htm
 tech.root: SecCrypto
 ms.assetid: df58ba41-5301-48dd-9255-7173bb73965c
-
 ms.date: 12/05/2018
 ms.keywords: CEnroll object [Security],createFilePFX method, ICEnroll4 interface [Security],createFilePFX method, ICEnroll4.createFilePFX, ICEnroll4::createFilePFX, _xen_icenroll4_createfilepfx, createFilePFX, createFilePFX method [Security], createFilePFX method [Security],CEnroll object, createFilePFX method [Security],ICEnroll4 interface, security.icenroll4_createfilepfx, xenroll/ICEnroll4::createFilePFX
 ms.topic: method
-f1_keywords: 
- - "xenroll/ICEnroll4.createFilePFX"
+f1_keywords:
+- xenroll/ICEnroll4.createFilePFX
 dev_langs:
- - c++
+- c++
 req.header: xenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Uuid.lib
 req.dll: Xenroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Xenroll.dll
+- Xenroll.dll
 api_name:
- - ICEnroll4.createFilePFX
- - CEnroll.createFilePFX
+- ICEnroll4.createFilePFX
+- CEnroll.createFilePFX
 targetos: Windows
 req.typenames: 
 req.redist: 

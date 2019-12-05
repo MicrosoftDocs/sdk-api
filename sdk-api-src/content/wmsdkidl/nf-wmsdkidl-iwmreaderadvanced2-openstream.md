@@ -1,19 +1,17 @@
 ---
 UID: NF:wmsdkidl.IWMReaderAdvanced2.OpenStream
 title: IWMReaderAdvanced2::OpenStream (wmsdkidl.h)
-
 description: The OpenStream method opens a Windows Media stream for reading.
 old-location: wmformat\iwmreaderadvanced2_openstream.htm
 tech.root: wmformat
 ms.assetid: 20822e1d-b367-4b03-9d8a-985427f0062d
-
 ms.date: 12/05/2018
 ms.keywords: IWMReaderAdvanced2 interface [windows Media Format],OpenStream method, IWMReaderAdvanced2.OpenStream, IWMReaderAdvanced2::OpenStream, IWMReaderAdvanced2OpenStream, OpenStream, OpenStream method [windows Media Format], OpenStream method [windows Media Format],IWMReaderAdvanced2 interface, wmformat.iwmreaderadvanced2_openstream, wmsdkidl/IWMReaderAdvanced2::OpenStream
 ms.topic: method
-f1_keywords: 
- - "wmsdkidl/IWMReaderAdvanced2.OpenStream"
+f1_keywords:
+- wmsdkidl/IWMReaderAdvanced2.OpenStream
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wmvcore.lib
- - Wmvcore.dll
- - WMStubDRM.lib
- - WMStubDRM.dll
+- Wmvcore.lib
+- Wmvcore.dll
+- WMStubDRM.lib
+- WMStubDRM.dll
 api_name:
- - IWMReaderAdvanced2.OpenStream
+- IWMReaderAdvanced2.OpenStream
 targetos: Windows
 req.typenames: 
 req.redist: 

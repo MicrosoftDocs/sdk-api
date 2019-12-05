@@ -1,19 +1,17 @@
 ---
 UID: NF:faxcomex.IFaxIncomingArchive.get_SizeQuotaWarning
 title: IFaxIncomingArchive::get_SizeQuotaWarning (faxcomex.h)
-
 description: The SizeQuotaWarning property is a Boolean value that indicates whether the fax service issues a warning in the event log when the size of the inbound archive exceeds the limit defined by the HighQuotaWaterMark property.
 old-location: fax\_mfax_faxincomingarchive_cpp_mfax_faxincomingarchive_sizequotawarning_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_3t5z.htm
-
 ms.date: 12/05/2018
 ms.keywords: IFaxIncomingArchive interface [Fax Service],SizeQuotaWarning property, IFaxIncomingArchive.SizeQuotaWarning, IFaxIncomingArchive.get_SizeQuotaWarning, IFaxIncomingArchive.put_SizeQuotaWarning, IFaxIncomingArchive::SizeQuotaWarning, IFaxIncomingArchive::get_SizeQuotaWarning, IFaxIncomingArchive::put_SizeQuotaWarning, SizeQuotaWarning property [Fax Service], SizeQuotaWarning property [Fax Service],IFaxIncomingArchive interface, _mfax_faxincomingarchive.sizequotawarning, fax._mfax_faxincomingarchive_cpp_mfax_faxincomingarchive_sizequotawarning_cpp, fax._mfax_faxincomingarchive_sizequotawarning, faxcomex/IFaxIncomingArchive::SizeQuotaWarning, faxcomex/IFaxIncomingArchive::get_SizeQuotaWarning, faxcomex/IFaxIncomingArchive::put_SizeQuotaWarning, get_SizeQuotaWarning
 ms.topic: method
-f1_keywords: 
- - "faxcomex/IFaxIncomingArchive.SizeQuotaWarning"
+f1_keywords:
+- faxcomex/IFaxIncomingArchive.SizeQuotaWarning
 dev_langs:
- - c++
+- c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib:
 req.dll: Fxscomex.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Fxscomex.dll
+- Fxscomex.dll
 api_name:
- - IFaxIncomingArchive.SizeQuotaWarning
- - IFaxIncomingArchive.get_SizeQuotaWarning
- - IFaxIncomingArchive.put_SizeQuotaWarning
- - IFaxIncomingArchive.get_SizeQuotaWarning
- - IFaxIncomingArchive.put_SizeQuotaWarning
+- IFaxIncomingArchive.SizeQuotaWarning
+- IFaxIncomingArchive.get_SizeQuotaWarning
+- IFaxIncomingArchive.put_SizeQuotaWarning
+- IFaxIncomingArchive.get_SizeQuotaWarning
+- IFaxIncomingArchive.put_SizeQuotaWarning
 targetos: Windows
 req.typenames: 
 req.redist: 

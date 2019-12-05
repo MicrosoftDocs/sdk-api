@@ -1,19 +1,17 @@
 ---
 UID: NS:udpmib._MIB_UDPSTATS
 title: MIB_UDPSTATS (udpmib.h)
-
 description: Contains statistics for the User Datagram Protocol (UDP) running on the local computer.
 old-location: mib\mib_udpstats.htm
 tech.root: MIB
 ms.assetid: 128bae44-59a2-4e37-a588-a18805b9e340
-
 ms.date: 12/05/2018
 ms.keywords: '*PMIB_UDPSTATS, MIB_UDPSTATS, MIB_UDPSTATS structure [MIB], PMIB_UDPSTATS, PMIB_UDPSTATS structure pointer [MIB], _mpr_mib_udpstats, iprtrmib/MIB_UDPSTATS, iprtrmib/PMIB_UDPSTATS, mib.mib_udpstats, rras.mib_udpstats, udpmib/MIB_UDPSTATS, udpmib/PMIB_UDPSTATS'
 ms.topic: struct
 f1_keywords:
 - udpmib/MIB_UDPSTATS
 dev_langs:
- - c++
+- c++
 req.header: udpmib.h
 req.include-header: Iphlpapi.h
 req.target-type: Windows

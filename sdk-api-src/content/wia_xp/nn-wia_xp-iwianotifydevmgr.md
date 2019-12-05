@@ -1,19 +1,17 @@
 ---
 UID: NN:wia_xp.IWiaNotifyDevMgr
 title: IWiaNotifyDevMgr (wia_xp.h)
-
 description: This interface is not implemented.
 old-location: wia\_wia_IWiaNotifyDevMgr.htm
 tech.root: wia
 ms.assetid: VS|wia|~\wia\refwia\ifaces\iwianotifydevmgr\iwianotifydevmgr.htm
-
 ms.date: 12/05/2018
 ms.keywords: IWiaNotifyDevMgr, IWiaNotifyDevMgr interface [WIA], IWiaNotifyDevMgr interface [WIA],described, _wia_IWiaNotifyDevMgr, wia._wia_IWiaNotifyDevMgr, wia_xp/IWiaNotifyDevMgr
 ms.topic: interface
-f1_keywords: 
- - "wia_xp/IWiaNotifyDevMgr"
+f1_keywords:
+- wia_xp/IWiaNotifyDevMgr
 dev_langs:
- - c++
+- c++
 req.header: wia_xp.h
 req.include-header: Wia.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Wiaguid.lib
 req.dll: Wiaservc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wiaservc.dll
+- Wiaservc.dll
 api_name:
- - IWiaNotifyDevMgr
+- IWiaNotifyDevMgr
 targetos: Windows
 req.typenames: 
 req.redist: 

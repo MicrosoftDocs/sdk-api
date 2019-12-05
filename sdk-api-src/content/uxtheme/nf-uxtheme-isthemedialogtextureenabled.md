@@ -1,19 +1,17 @@
 ---
 UID: NF:uxtheme.IsThemeDialogTextureEnabled
 title: IsThemeDialogTextureEnabled function (uxtheme.h)
-
 description: Reports whether a specified dialog window supports background texturing.
 old-location: controls\IsThemeDialogTextureEnabled.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\userex\functions\isthemedialogtextureenabled.htm
-
 ms.date: 12/05/2018
 ms.keywords: IsThemeDialogTextureEnabled, IsThemeDialogTextureEnabled function [Windows Controls], controls.IsThemeDialogTextureEnabled, controls.inet_IsThemeDialogTextureEnabled, inet_IsThemeDialogTextureEnabled, inet_IsThemeDialogTextureEnabled_cpp, uxtheme/IsThemeDialogTextureEnabled
 ms.topic: function
-f1_keywords: 
- - "uxtheme/IsThemeDialogTextureEnabled"
+f1_keywords:
+- uxtheme/IsThemeDialogTextureEnabled
 dev_langs:
- - c++
+- c++
 req.header: uxtheme.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: UxTheme.lib
 req.dll: UxTheme.dll (version 1.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - UxTheme.dll
+- UxTheme.dll
 api_name:
- - IsThemeDialogTextureEnabled
+- IsThemeDialogTextureEnabled
 targetos: Windows
 req.typenames: 
 req.redist: 

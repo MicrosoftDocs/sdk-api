@@ -1,19 +1,17 @@
 ---
 UID: NF:mstask.ITaskTrigger.SetTrigger
 title: ITaskTrigger::SetTrigger (mstask.h)
-
 description: The SetTrigger method sets the trigger criteria for a task trigger.
 old-location: taskschd\itasktrigger_settrigger.htm
 tech.root: taskschd
 ms.assetid: 2f445835-a409-4a03-b853-4e0b07ded1ea
-
 ms.date: 12/05/2018
 ms.keywords: ITaskTrigger interface [Task Scheduler],SetTrigger method, ITaskTrigger.SetTrigger, ITaskTrigger::SetTrigger, SetTrigger, SetTrigger method [Task Scheduler], SetTrigger method [Task Scheduler],ITaskTrigger interface, _msb_itasktrigger_settrigger, mstask/ITaskTrigger::SetTrigger, taskschd.itasktrigger_settrigger
 ms.topic: method
 f1_keywords:
 - mstask/ITaskTrigger.SetTrigger
 dev_langs:
- - c++
+- c++
 req.header: mstask.h
 req.include-header: 
 req.target-type: Windows

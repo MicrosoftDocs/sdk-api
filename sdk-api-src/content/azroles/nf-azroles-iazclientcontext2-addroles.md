@@ -1,19 +1,17 @@
 ---
 UID: NF:azroles.IAzClientContext2.AddRoles
 title: IAzClientContext2::AddRoles (azroles.h)
-
 description: Adds the specified array of existing IAzRole objects to the client context.
 old-location: security\iazclientcontext2_addroles.htm
 tech.root: SecAuthZ
 ms.assetid: fa81e935-1207-44dd-85cb-215f754575fe
-
 ms.date: 12/05/2018
 ms.keywords: AddRoles, AddRoles method [Security], AddRoles method [Security],IAzClientContext2 interface, IAzClientContext2 interface [Security],AddRoles method, IAzClientContext2.AddRoles, IAzClientContext2::AddRoles, azroles/IAzClientContext2::AddRoles, security.iazclientcontext2_addroles
 ms.topic: method
-f1_keywords: 
- - "azroles/IAzClientContext2.AddRoles"
+f1_keywords:
+- azroles/IAzClientContext2.AddRoles
 dev_langs:
- - c++
+- c++
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Azroles.lib
 req.dll: Azroles.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Azroles.dll
+- Azroles.dll
 api_name:
- - IAzClientContext2.AddRoles
+- IAzClientContext2.AddRoles
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IAMAnalogVideoEncoder.put_TVFormat
 title: IAMAnalogVideoEncoder::put_TVFormat (strmif.h)
-
 description: Note  The IAMAnalogVideoEncoder interface is deprecated. The put_TVFormat method sets the encoder to a particular analog video standard (NTSC/M, PAL/B, SECAM/K1, and so on).
 old-location: dshow\iamanalogvideoencoder_put_tvformat.htm
 tech.root: DirectShow
 ms.assetid: 76109fa1-2f7a-4538-9755-6e2de5852d4b
-
 ms.date: 12/05/2018
 ms.keywords: IAMAnalogVideoEncoder interface [DirectShow],put_TVFormat method, IAMAnalogVideoEncoder.put_TVFormat, IAMAnalogVideoEncoder::put_TVFormat, IAMAnalogVideoEncoderput_TVFormat, dshow.iamanalogvideoencoder_put_tvformat, put_TVFormat, put_TVFormat method [DirectShow], put_TVFormat method [DirectShow],IAMAnalogVideoEncoder interface, strmif/IAMAnalogVideoEncoder::put_TVFormat
 ms.topic: method
-f1_keywords: 
- - "strmif/IAMAnalogVideoEncoder.put_TVFormat"
+f1_keywords:
+- strmif/IAMAnalogVideoEncoder.put_TVFormat
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmif.h
+- Strmif.h
 api_name:
- - IAMAnalogVideoEncoder.put_TVFormat
+- IAMAnalogVideoEncoder.put_TVFormat
 targetos: Windows
 req.typenames: 
 req.redist: 

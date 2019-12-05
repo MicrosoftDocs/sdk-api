@@ -1,19 +1,17 @@
 ---
 UID: NF:winsync.ISyncCallback2.OnChangeFailed
 title: ISyncCallback2::OnChangeFailed (winsync.h)
-
 description: Occurs after a change fails to apply.
 old-location: winsync\isynccallback2_onchangefailed.htm
 tech.root: winsync
 ms.assetid: 69064507-414b-49be-91a5-3523160f3a01
-
 ms.date: 12/05/2018
 ms.keywords: ISyncCallback2 interface [Windows Sync],OnChangeFailed method, ISyncCallback2.OnChangeFailed, ISyncCallback2::OnChangeFailed, OnChangeFailed, OnChangeFailed method [Windows Sync], OnChangeFailed method [Windows Sync],ISyncCallback2 interface, winsync.isynccallback2_onchangefailed, winsync/ISyncCallback2::OnChangeFailed
 ms.topic: method
-f1_keywords: 
- - "winsync/ISyncCallback2.OnChangeFailed"
+f1_keywords:
+- winsync/ISyncCallback2.OnChangeFailed
 dev_langs:
- - c++
+- c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - winsync.h
+- winsync.h
 api_name:
- - ISyncCallback2.OnChangeFailed
+- ISyncCallback2.OnChangeFailed
 targetos: Windows
 req.typenames: 
 req.redist: 

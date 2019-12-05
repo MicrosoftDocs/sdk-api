@@ -1,19 +1,17 @@
 ---
 UID: NF:cfapi.CfQuerySyncProviderStatus
 title: CfQuerySyncProviderStatus function (cfapi.h)
-
 description: Queries a sync provider to get the status of the provider.
 old-location: cloudapi\cfquerysyncproviderstatus.htm
 tech.root: cfApi
 ms.assetid: 02E6197B-D84A-4E3F-A74C-F5DACAA60AF9
-
 ms.date: 12/05/2018
 ms.keywords: CfQuerySyncProviderStatus, CfQuerySyncProviderStatus function, cfapi/CfQuerySyncProviderStatus, cloudApi.cfquerysyncproviderstatus
 ms.topic: function
-f1_keywords: 
- - "cfapi/CfQuerySyncProviderStatus"
+f1_keywords:
+- cfapi/CfQuerySyncProviderStatus
 dev_langs:
- - c++
+- c++
 req.header: cfapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: CldApi.lib
 req.dll: CldApi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - CldApi.dll
+- CldApi.dll
 api_name:
- - CfQuerySyncProviderStatus
+- CfQuerySyncProviderStatus
 targetos: Windows
 req.typenames: 
 req.redist: 

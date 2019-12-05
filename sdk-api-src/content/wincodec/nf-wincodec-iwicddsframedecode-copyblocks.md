@@ -1,19 +1,17 @@
 ---
 UID: NF:wincodec.IWICDdsFrameDecode.CopyBlocks
 title: IWICDdsFrameDecode::CopyBlocks (wincodec.h)
-
 description: Requests pixel data as it is natively stored within the DDS file.
 old-location: wic\iwicddsframedecode_copyblocks.htm
 tech.root: wic
 ms.assetid: D090AA8E-46F2-40C9-A156-12038053E040
-
 ms.date: 12/05/2018
 ms.keywords: CopyBlocks, CopyBlocks method [Windows Imaging Component], CopyBlocks method [Windows Imaging Component],IWICDdsFrameDecode interface, IWICDdsFrameDecode interface [Windows Imaging Component],CopyBlocks method, IWICDdsFrameDecode.CopyBlocks, IWICDdsFrameDecode::CopyBlocks, wic.iwicddsframedecode_copyblocks, wincodec/IWICDdsFrameDecode::CopyBlocks
 ms.topic: method
-f1_keywords: 
- - "wincodec/IWICDdsFrameDecode.CopyBlocks"
+f1_keywords:
+- wincodec/IWICDdsFrameDecode.CopyBlocks
 dev_langs:
- - c++
+- c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Windowscodecs.lib
 req.dll: Windowscodecs.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Windowscodecs.dll
+- Windowscodecs.dll
 api_name:
- - IWICDdsFrameDecode.CopyBlocks
+- IWICDdsFrameDecode.CopyBlocks
 targetos: Windows
 req.typenames: 
 req.redist: 

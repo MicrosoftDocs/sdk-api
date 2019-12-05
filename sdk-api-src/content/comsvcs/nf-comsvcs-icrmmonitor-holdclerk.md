@@ -1,19 +1,17 @@
 ---
 UID: NF:comsvcs.ICrmMonitor.HoldClerk
 title: ICrmMonitor::HoldClerk (comsvcs.h)
-
 description: Retrieves a pointer on the specified clerk.
 old-location: cos\icrmmonitor_holdclerk.htm
 tech.root: cossdk
 ms.assetid: 8e0f5197-d423-4b74-aaa1-2ec60e01d75c
-
 ms.date: 12/05/2018
 ms.keywords: HoldClerk, HoldClerk method [COM+], HoldClerk method [COM+],ICrmMonitor interface, ICrmMonitor interface [COM+],HoldClerk method, ICrmMonitor.HoldClerk, ICrmMonitor::HoldClerk, _dtc_ICrmMonitor_HoldClerk, comsvcs/ICrmMonitor::HoldClerk, cos.icrmmonitor_holdclerk
 ms.topic: method
-f1_keywords: 
- - "comsvcs/ICrmMonitor.HoldClerk"
+f1_keywords:
+- comsvcs/ICrmMonitor.HoldClerk
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - ICrmMonitor.HoldClerk
+- ICrmMonitor.HoldClerk
 targetos: Windows
 req.typenames: 
 req.redist: 

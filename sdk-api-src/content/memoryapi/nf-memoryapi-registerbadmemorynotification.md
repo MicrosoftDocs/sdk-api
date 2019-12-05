@@ -1,19 +1,17 @@
 ---
 UID: NF:memoryapi.RegisterBadMemoryNotification
 title: RegisterBadMemoryNotification function (memoryapi.h)
-
 description: Registers a bad memory notification that is called when one or more bad memory pages are detected.
 old-location: base\registerbadmemorynotification.htm
 tech.root: Memory
 ms.assetid: 4a3a621a-49ed-4538-9e36-b8eab5d57eb7
-
 ms.date: 12/05/2018
 ms.keywords: RegisterBadMemoryNotification, RegisterBadMemoryNotification function, base.registerbadmemorynotification, winbase/RegisterBadMemoryNotification
 ms.topic: function
-f1_keywords: 
- - "memoryapi/RegisterBadMemoryNotification"
+f1_keywords:
+- memoryapi/RegisterBadMemoryNotification
 dev_langs:
- - c++
+- c++
 req.header: memoryapi.h
 req.include-header: Windows.h, Memoryapi.h
 req.target-type: Windows
@@ -32,20 +30,20 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-memory-l1-1-2.dll
- - KernelBase.dll
- - API-MS-Win-Core-memory-l1-1-3.dll
- - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
- - MinKernelBase.dll
- - API-MS-Win-Core-Memory-L1-1-4.dll
+- Kernel32.dll
+- API-MS-Win-Core-memory-l1-1-2.dll
+- KernelBase.dll
+- API-MS-Win-Core-memory-l1-1-3.dll
+- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+- MinKernelBase.dll
+- API-MS-Win-Core-Memory-L1-1-4.dll
 api_name:
- - RegisterBadMemoryNotification
+- RegisterBadMemoryNotification
 targetos: Windows
 req.typenames: 
 req.redist: 

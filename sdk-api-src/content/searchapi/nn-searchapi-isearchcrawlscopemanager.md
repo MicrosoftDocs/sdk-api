@@ -1,19 +1,17 @@
 ---
 UID: NN:searchapi.ISearchCrawlScopeManager
 title: ISearchCrawlScopeManager (searchapi.h)
-
 description: Provides methods that notify the search engine of containers to crawl and/or watch, and items under those containers to include or exclude when crawling or watching.
 old-location: search\_search_ISearchCrawlScopeManager.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\crawlscope\isearchcrawlscopemanager\isearchcrawlscopemanager.htm
-
 ms.date: 12/05/2018
 ms.keywords: ISearchCrawlScopeManager, ISearchCrawlScopeManager interface [search], ISearchCrawlScopeManager interface [search],described, _search_ISearchCrawlScopeManager, search._search_ISearchCrawlScopeManager, searchapi/ISearchCrawlScopeManager
 ms.topic: interface
-f1_keywords: 
- - "searchapi/ISearchCrawlScopeManager"
+f1_keywords:
+- searchapi/ISearchCrawlScopeManager
 dev_langs:
- - c++
+- c++
 req.header: searchapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Searchapi.h
+- Searchapi.h
 api_name:
- - ISearchCrawlScopeManager
+- ISearchCrawlScopeManager
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0

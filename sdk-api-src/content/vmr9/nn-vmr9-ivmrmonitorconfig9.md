@@ -1,19 +1,17 @@
 ---
 UID: NN:vmr9.IVMRMonitorConfig9
 title: IVMRMonitorConfig9 (vmr9.h)
-
 description: The IVMRMonitorConfig9 interface is implemented by the Video Mixing Renderer Filter 9 (VMR-9).
 old-location: dshow\ivmrmonitorconfig9.htm
 tech.root: DirectShow
 ms.assetid: 27a3a598-d8de-48b2-8b8c-6b5497db4c6c
-
 ms.date: 12/05/2018
 ms.keywords: IVMRMonitorConfig9, IVMRMonitorConfig9 interface [DirectShow], IVMRMonitorConfig9 interface [DirectShow],described, IVMRMonitorConfig9Interface, dshow.ivmrmonitorconfig9, vmr9/IVMRMonitorConfig9
 ms.topic: interface
-f1_keywords: 
- - "vmr9/IVMRMonitorConfig9"
+f1_keywords:
+- vmr9/IVMRMonitorConfig9
 dev_langs:
- - c++
+- c++
 req.header: vmr9.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IVMRMonitorConfig9
+- IVMRMonitorConfig9
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NC:webservices.WS_WRITE_MESSAGE_END_CALLBACK
 title: WS_WRITE_MESSAGE_END_CALLBACK (webservices.h)
-
 description: Handles the WsWriteMessageEnd call for a WS_CUSTOM_CHANNEL_BINDING.
 old-location: wsw\ws_write_message_end_callback.htm
 tech.root: wsw
 ms.assetid: 308f4df8-6dc3-4b78-a066-3fc6da3155b9
-
 ms.date: 12/05/2018
 ms.keywords: WS_WRITE_MESSAGE_END_CALLBACK, WS_WRITE_MESSAGE_END_CALLBACK callback, WS_WRITE_MESSAGE_END_CALLBACK callback function [Web Services for Windows], webservices/WS_WRITE_MESSAGE_END_CALLBACK, wsw.ws_write_message_end_callback
 ms.topic: callback
-f1_keywords: 
- - "webservices/WS_WRITE_MESSAGE_END_CALLBACK"
+f1_keywords:
+- webservices/WS_WRITE_MESSAGE_END_CALLBACK
 dev_langs:
- - c++
+- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - WebServices.h
+- WebServices.h
 api_name:
- - WS_WRITE_MESSAGE_END_CALLBACK
+- WS_WRITE_MESSAGE_END_CALLBACK
 targetos: Windows
 req.typenames: 
 req.redist: 

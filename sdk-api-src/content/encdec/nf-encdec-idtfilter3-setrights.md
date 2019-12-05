@@ -1,19 +1,17 @@
 ---
 UID: NF:encdec.IDTFilter3.SetRights
 title: IDTFilter3::SetRights (encdec.h)
-
 description: Not implemented in this release.
 old-location: mstv\idtfilter3_setrights.htm
 tech.root: mstv
 ms.assetid: d5c93f87-6988-4ca8-b50a-b6c7bdf3e76c
-
 ms.date: 12/05/2018
 ms.keywords: IDTFilter3 interface [Microsoft TV Technologies],SetRights method, IDTFilter3.SetRights, IDTFilter3::SetRights, IDTFilter3SetRights, SetRights, SetRights method [Microsoft TV Technologies], SetRights method [Microsoft TV Technologies],IDTFilter3 interface, encdec/IDTFilter3::SetRights, mstv.idtfilter3_setrights
 ms.topic: method
-f1_keywords: 
- - "encdec/IDTFilter3.SetRights"
+f1_keywords:
+- encdec/IDTFilter3.SetRights
 dev_langs:
- - c++
+- c++
 req.header: encdec.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - EncDec.h
+- EncDec.h
 api_name:
- - IDTFilter3.SetRights
+- IDTFilter3.SetRights
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NS:mpegtype.tagAM_MPEGSYSTEMTYPE
 title: AM_MPEGSYSTEMTYPE (mpegtype.h)
-
 description: The AM_MPEGSYSTEMTYPE structure defines the format block for an MPEG-1 system stream.
 old-location: dshow\am_mpegsystemtype.htm
 tech.root: DirectShow
 ms.assetid: 218bf0c3-e618-4dcc-8618-34cd1fb5c0a8
-
 ms.date: 12/05/2018
 ms.keywords: AM_MPEGSYSTEMTYPE, AM_MPEGSYSTEMTYPE structure [DirectShow], dshow.am_mpegsystemtype, mpegtype/AM_MPEGSYSTEMTYPE
 ms.topic: struct
-f1_keywords: 
- - "mpegtype/AM_MPEGSYSTEMTYPE"
+f1_keywords:
+- mpegtype/AM_MPEGSYSTEMTYPE
 dev_langs:
- - c++
+- c++
 req.header: mpegtype.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - mpegtype.h
+- mpegtype.h
 api_name:
- - AM_MPEGSYSTEMTYPE
+- AM_MPEGSYSTEMTYPE
 targetos: Windows
 req.typenames: AM_MPEGSYSTEMTYPE
 req.redist: 

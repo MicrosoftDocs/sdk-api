@@ -1,19 +1,17 @@
 ---
 UID: NE:inked.BorderStyleConstants
 title: BorderStyleConstants (inked.h)
-
 description: Specifies how the borders of an InkEdit control appear on the screen.
 old-location: tablet\borderstyleconstants.htm
 tech.root: tablet
 ms.assetid: 0bb4ff9b-3024-4563-a654-5bc9ed8e0520
-
 ms.date: 12/05/2018
 ms.keywords: 0bb4ff9b-3024-4563-a654-5bc9ed8e0520, BorderStyleConstants, BorderStyleConstants enumeration [Tablet PC], inked/BorderStyleConstants, inked/rtfFixedSingle, inked/rtfNoBorder, rtfFixedSingle, rtfNoBorder, tablet.borderstyleconstants
 ms.topic: enum
-f1_keywords: 
- - "inked/BorderStyleConstants"
+f1_keywords:
+- inked/BorderStyleConstants
 dev_langs:
- - c++
+- c++
 req.header: inked.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - inked.h
+- inked.h
 api_name:
- - BorderStyleConstants
+- BorderStyleConstants
 targetos: Windows
 req.typenames: BorderStyleConstants
 req.redist: 

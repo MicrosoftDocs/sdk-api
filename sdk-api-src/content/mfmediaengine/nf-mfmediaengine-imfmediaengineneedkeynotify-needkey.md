@@ -1,19 +1,17 @@
 ---
 UID: NF:mfmediaengine.IMFMediaEngineNeedKeyNotify.NeedKey
 title: IMFMediaEngineNeedKeyNotify::NeedKey (mfmediaengine.h)
-
 description: Notifies the application that a key or keys are needed along with any initialization data.
 old-location: mf\imfmediaengineneedkeynotify_needkey.htm
 tech.root: medfound
 ms.assetid: 2b9a64d6-1a0f-4375-973a-42734ac5658e
-
 ms.date: 12/05/2018
 ms.keywords: IMFMediaEngineNeedKeyNotify interface [Media Foundation],NeedKey method, IMFMediaEngineNeedKeyNotify.NeedKey, IMFMediaEngineNeedKeyNotify::NeedKey, NeedKey, NeedKey method [Media Foundation], NeedKey method [Media Foundation],IMFMediaEngineNeedKeyNotify interface, mf.imfmediaengineneedkeynotify_needkey, mfmediaengine/IMFMediaEngineNeedKeyNotify::NeedKey
 ms.topic: method
-f1_keywords: 
- - "mfmediaengine/IMFMediaEngineNeedKeyNotify.NeedKey"
+f1_keywords:
+- mfmediaengine/IMFMediaEngineNeedKeyNotify.NeedKey
 dev_langs:
- - c++
+- c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfmediaengine.h
+- mfmediaengine.h
 api_name:
- - IMFMediaEngineNeedKeyNotify.NeedKey
+- IMFMediaEngineNeedKeyNotify.NeedKey
 targetos: Windows
 req.typenames: 
 req.redist: 

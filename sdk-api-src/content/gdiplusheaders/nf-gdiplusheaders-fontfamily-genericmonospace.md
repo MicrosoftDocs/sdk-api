@@ -1,19 +1,17 @@
 ---
 UID: NF:gdiplusheaders.FontFamily.GenericMonospace
 title: FontFamily::GenericMonospace (gdiplusheaders.h)
-
 description: The FontFamily::GenericMonospace method gets a FontFamily object that specifies a generic monospace typeface.
 old-location: gdiplus\_gdiplus_CLASS_FontFamily_GenericMonospace_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\fontfamilyclass\fontfamilymethods\genericmonospace.htm
-
 ms.date: 12/05/2018
 ms.keywords: FontFamily class [GDI+],GenericMonospace method, FontFamily.GenericMonospace, FontFamily::GenericMonospace, GenericMonospace, GenericMonospace method [GDI+], GenericMonospace method [GDI+],FontFamily class, _gdiplus_CLASS_FontFamily_GenericMonospace_, gdiplus._gdiplus_CLASS_FontFamily_GenericMonospace_
 ms.topic: method
-f1_keywords: 
- - "gdiplusheaders/FontFamily.GenericMonospace"
+f1_keywords:
+- gdiplusheaders/FontFamily.GenericMonospace
 dev_langs:
- - c++
+- c++
 req.header: gdiplusheaders.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - FontFamily.GenericMonospace
+- FontFamily.GenericMonospace
 targetos: Windows
 req.typenames: 
 req.redist: 

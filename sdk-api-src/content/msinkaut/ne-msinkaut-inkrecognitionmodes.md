@@ -1,19 +1,17 @@
 ---
 UID: NE:msinkaut.InkRecognitionModes
 title: InkRecognitionModes (msinkaut.h)
-
 description: Specifies how the recognizer interprets the ink and determines the result string.
 old-location: tablet\inkrecognitionmodes.htm
 tech.root: tablet
 ms.assetid: ab9f4164-ea07-41d1-be6a-50009fa9464d
-
 ms.date: 12/05/2018
 ms.keywords: IRM_AutoSpace, IRM_Coerce, IRM_DisablePersonalization, IRM_LineMode, IRM_Max, IRM_None, IRM_PrefixOk, IRM_TopInkBreaksOnly, IRM_WordModeOnly, InkRecognitionModes, InkRecognitionModes enumeration [Tablet PC], ab9f4164-ea07-41d1-be6a-50009fa9464d, msinkaut/IRM_AutoSpace, msinkaut/IRM_Coerce, msinkaut/IRM_DisablePersonalization, msinkaut/IRM_LineMode, msinkaut/IRM_Max, msinkaut/IRM_None, msinkaut/IRM_PrefixOk, msinkaut/IRM_TopInkBreaksOnly, msinkaut/IRM_WordModeOnly, msinkaut/InkRecognitionModes, tablet.inkrecognitionmodes
 ms.topic: enum
-f1_keywords: 
- - "msinkaut/InkRecognitionModes"
+f1_keywords:
+- msinkaut/InkRecognitionModes
 dev_langs:
- - c++
+- c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - msinkaut.h
+- msinkaut.h
 api_name:
- - InkRecognitionModes
+- InkRecognitionModes
 targetos: Windows
 req.typenames: InkRecognitionModes
 req.redist: 

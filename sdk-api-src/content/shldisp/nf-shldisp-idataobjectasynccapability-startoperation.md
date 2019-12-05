@@ -1,19 +1,17 @@
 ---
 UID: NF:shldisp.IDataObjectAsyncCapability.StartOperation
 title: IDataObjectAsyncCapability::StartOperation (shldisp.h)
-
 description: Called by a drop target to indicate that asynchronous data extraction is starting.
 old-location: shell\IDataObjectAsyncCapability_StartOperation.htm
 tech.root: shell
 ms.assetid: 84C1E709-ADFD-4c00-B767-C0DB4C30578A
-
 ms.date: 12/05/2018
 ms.keywords: IDataObjectAsyncCapability interface [Windows Shell],StartOperation method, IDataObjectAsyncCapability.StartOperation, IDataObjectAsyncCapability::StartOperation, StartOperation, StartOperation method [Windows Shell], StartOperation method [Windows Shell],IDataObjectAsyncCapability interface, shell.IDataObjectAsyncCapability_StartOperation, shldisp/IDataObjectAsyncCapability::StartOperation
 ms.topic: method
-f1_keywords: 
- - "shldisp/IDataObjectAsyncCapability.StartOperation"
+f1_keywords:
+- shldisp/IDataObjectAsyncCapability.StartOperation
 dev_langs:
- - c++
+- c++
 req.header: shldisp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Shell32.dll (version 6.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - IDataObjectAsyncCapability.StartOperation
+- IDataObjectAsyncCapability.StartOperation
 targetos: Windows
 req.typenames: 
 req.redist: 

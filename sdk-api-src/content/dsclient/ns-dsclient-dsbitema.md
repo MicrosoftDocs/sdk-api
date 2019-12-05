@@ -1,19 +1,17 @@
 ---
 UID: NS:dsclient.__unnamed_struct_8
 title: DSBITEMA (dsclient.h)
-
 description: Contains data about an item in the Active Directory container browser dialog box.
 old-location: ad\dsbitem.htm
 tech.root: ad
 ms.assetid: 580b8aea-8411-41de-a2d9-1c3e3b35dd5a
-
 ms.date: 12/05/2018
-ms.keywords: "*PDSBITEMA, DSBF_DISPLAYNAME, DSBF_ICONLOCATION, DSBF_STATE, DSBITEM, DSBITEM structure [Active Directory], DSBITEMA, DSBITEMW, DSBS_CHECKED, DSBS_HIDDEN, DSBS_ROOT, PDSBITEM, PDSBITEM structure pointer [Active Directory], _glines_dsbitem, ad.dsbitem, dsclient/DSBITEM, dsclient/DSBITEMA, dsclient/DSBITEMW, dsclient/PDSBITEM"
+ms.keywords: '*PDSBITEMA, DSBF_DISPLAYNAME, DSBF_ICONLOCATION, DSBF_STATE, DSBITEM, DSBITEM structure [Active Directory], DSBITEMA, DSBITEMW, DSBS_CHECKED, DSBS_HIDDEN, DSBS_ROOT, PDSBITEM, PDSBITEM structure pointer [Active Directory], _glines_dsbitem, ad.dsbitem, dsclient/DSBITEM, dsclient/DSBITEMA, dsclient/DSBITEMW, dsclient/PDSBITEM'
 ms.topic: struct
-f1_keywords: 
- - "dsclient/DSBITEM"
+f1_keywords:
+- dsclient/DSBITEM
 dev_langs:
- - c++
+- c++
 req.header: dsclient.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Dsclient.h
+- Dsclient.h
 api_name:
- - DSBITEM
- - DSBITEMA
- - DSBITEMW
+- DSBITEM
+- DSBITEMA
+- DSBITEMW
 targetos: Windows
 req.typenames: DSBITEMA, *PDSBITEMA
 req.redist: 

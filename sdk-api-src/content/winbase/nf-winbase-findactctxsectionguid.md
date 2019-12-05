@@ -1,19 +1,17 @@
 ---
 UID: NF:winbase.FindActCtxSectionGuid
 title: FindActCtxSectionGuid function (winbase.h)
-
 description: The FindActCtxSectionGuid function retrieves information on a specific GUID in the current activation context and returns a ACTCTX_SECTION_KEYED_DATA structure.
 old-location: setup\findactctxsectionguid.htm
 tech.root: SbsCs
 ms.assetid: 3889505c-29a0-49dd-aca8-a26417b25a94
-
 ms.date: 12/05/2018
 ms.keywords: FIND_ACTCTX_SECTION_KEY_RETURN_HACTCTX, FindActCtxSectionGuid, FindActCtxSectionGuid function [Side-by-side Assemblies], _win32_findactctxsectionguid, setup.findactctxsectionguid, winbase/FindActCtxSectionGuid
 ms.topic: function
-f1_keywords: 
- - "winbase/FindActCtxSectionGuid"
+f1_keywords:
+- winbase/FindActCtxSectionGuid
 dev_langs:
- - c++
+- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-sidebyside-l1-1-0.dll
- - KernelBase.dll
+- Kernel32.dll
+- API-MS-Win-Core-sidebyside-l1-1-0.dll
+- KernelBase.dll
 api_name:
- - FindActCtxSectionGuid
+- FindActCtxSectionGuid
 targetos: Windows
 req.typenames: 
 req.redist: 

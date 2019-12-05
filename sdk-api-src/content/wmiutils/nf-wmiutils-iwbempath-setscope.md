@@ -1,19 +1,17 @@
 ---
 UID: NF:wmiutils.IWbemPath.SetScope
 title: IWbemPath::SetScope (wmiutils.h)
-
 description: The IWbemPath::SetScope method sets a scope in the path based upon an index. The index is always 0 (zero) and the scope is the class or key portion of the path. This method also sets the class name.
 old-location: wmi\iwbempath_setscope.htm
 tech.root: WmiSdk
 ms.assetid: 0b4597ec-0d08-4929-9591-21588ded66bb
-
 ms.date: 12/05/2018
 ms.keywords: IWbemPath interface [Windows Management Instrumentation],SetScope method, IWbemPath.SetScope, IWbemPath::SetScope, SetScope, SetScope method [Windows Management Instrumentation], SetScope method [Windows Management Instrumentation],IWbemPath interface, _hmm_iwbempath_setscope, wmi.iwbempath_setscope, wmiutils/IWbemPath::SetScope
 ms.topic: method
-f1_keywords: 
- - "wmiutils/IWbemPath.SetScope"
+f1_keywords:
+- wmiutils/IWbemPath.SetScope
 dev_langs:
- - c++
+- c++
 req.header: wmiutils.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Wbemuuid.lib
 req.dll: Wmiutils.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wmiutils.dll
+- Wmiutils.dll
 api_name:
- - IWbemPath.SetScope
+- IWbemPath.SetScope
 targetos: Windows
 req.typenames: 
 req.redist: 

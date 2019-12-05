@@ -1,19 +1,17 @@
 ---
 UID: NF:vswriter.IVssComponentEx2.GetFailure
 title: IVssComponentEx2::GetFailure (vswriter.h)
-
 description: VSS requesters call this method to retrieve component-level errors reported by writers.
 old-location: base\ivsscomponentex2_getfailure.htm
 tech.root: VSS
 ms.assetid: a5d739d3-9169-4b25-a590-35703e77dacc
-
 ms.date: 12/05/2018
 ms.keywords: GetFailure, GetFailure method, GetFailure method,IVssComponentEx2 interface, IVssComponentEx2 interface,GetFailure method, IVssComponentEx2.GetFailure, IVssComponentEx2::GetFailure, S_OK, VSS_E_WRITERERROR_INCONSISTENTSNAPSHOT, VSS_E_WRITERERROR_NONRETRYABLE, VSS_E_WRITERERROR_OUTOFRESOURCES, VSS_E_WRITERERROR_RETRYABLE, VSS_E_WRITERERROR_TIMEOUT, VSS_E_WRITER_NOT_RESPONDING, VSS_E_WRITER_STATUS_NOT_AVAILABLE, base.ivsscomponentex2_getfailure, vswriter/IVssComponentEx2::GetFailure
 ms.topic: method
-f1_keywords: 
- - "vswriter/IVssComponentEx2.GetFailure"
+f1_keywords:
+- vswriter/IVssComponentEx2.GetFailure
 dev_langs:
- - c++
+- c++
 req.header: vswriter.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - vswriter.h
+- vswriter.h
 api_name:
- - IVssComponentEx2.GetFailure
+- IVssComponentEx2.GetFailure
 targetos: Windows
 req.typenames: 
 req.redist: 

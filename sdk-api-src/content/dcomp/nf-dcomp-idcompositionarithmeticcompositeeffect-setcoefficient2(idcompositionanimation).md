@@ -1,19 +1,17 @@
 ---
 UID: NF:dcomp.IDCompositionArithmeticCompositeEffect.SetCoefficient2(IDCompositionAnimation)
 title: IDCompositionArithmeticCompositeEffect::SetCoefficient2(IDCompositionAnimation) (dcomp.h)
-
 description: Sets the second coefficient for the equation used to composite the two input images.
 old-location: directcomp\idcompositionarithmeticcompositeeffect_setcoefficient2_2.htm
 tech.root: directcomp
 ms.assetid: C1A43316-58FA-4F42-827D-AF11104F5E60
-
 ms.date: 12/05/2018
 ms.keywords: IDCompositionArithmeticCompositeEffect interface [DirectComposition],SetCoefficient2 method, IDCompositionArithmeticCompositeEffect.SetCoefficient2, IDCompositionArithmeticCompositeEffect.SetCoefficient2(IDCompositionAnimation), IDCompositionArithmeticCompositeEffect::SetCoefficient2, IDCompositionArithmeticCompositeEffect::SetCoefficient2(IDCompositionAnimation), SetCoefficient2, SetCoefficient2 method [DirectComposition], SetCoefficient2 method [DirectComposition],IDCompositionArithmeticCompositeEffect interface, dcomp/IDCompositionArithmeticCompositeEffect::SetCoefficient2, directcomp.idcompositionarithmeticcompositeeffect_setcoefficient2_2
 ms.topic: method
-f1_keywords: 
- - "dcomp/IDCompositionArithmeticCompositeEffect.SetCoefficient2"
+f1_keywords:
+- dcomp/IDCompositionArithmeticCompositeEffect.SetCoefficient2
 dev_langs:
- - c++
+- c++
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dcomp.lib
 req.dll: Dcomp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dcomp.dll
+- Dcomp.dll
 api_name:
- - IDCompositionArithmeticCompositeEffect.SetCoefficient2
+- IDCompositionArithmeticCompositeEffect.SetCoefficient2
 targetos: Windows
 req.typenames: 
 req.redist: 

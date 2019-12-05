@@ -1,19 +1,17 @@
 ---
 UID: NS:ddkmapi._DDOPENSURFACEIN
 title: DDOPENSURFACEIN (ddkmapi.h)
-
 description: The DDOPENSURFACEIN structure contains the DirectDrawSurface object information.
 old-location: display\ddopensurfacein.htm
 tech.root: display
 ms.assetid: 98a5d436-096d-4698-8f2c-31a0455300ff
-
 ms.date: 12/05/2018
-ms.keywords: "*LPDDOPENSURFACEIN, DDOPENSURFACEIN, DDOPENSURFACEIN structure [Display Devices], LPDDOPENSURFACEIN, LPDDOPENSURFACEIN structure pointer [Display Devices], ddkmapi/DDOPENSURFACEIN, ddkmapi/LPDDOPENSURFACEIN, ddstrcts_406539e4-c43f-4871-b00b-30c71433d1fd.xml, display.ddopensurfacein"
+ms.keywords: '*LPDDOPENSURFACEIN, DDOPENSURFACEIN, DDOPENSURFACEIN structure [Display Devices], LPDDOPENSURFACEIN, LPDDOPENSURFACEIN structure pointer [Display Devices], ddkmapi/DDOPENSURFACEIN, ddkmapi/LPDDOPENSURFACEIN, ddstrcts_406539e4-c43f-4871-b00b-30c71433d1fd.xml, display.ddopensurfacein'
 ms.topic: struct
-f1_keywords: 
- - "ddkmapi/DDOPENSURFACEIN"
+f1_keywords:
+- ddkmapi/DDOPENSURFACEIN
 dev_langs:
- - c++
+- c++
 req.header: ddkmapi.h
 req.include-header: Ddkmapi.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - ddkmapi.h
+- ddkmapi.h
 api_name:
- - DDOPENSURFACEIN
+- DDOPENSURFACEIN
 targetos: Windows
 req.typenames: DDOPENSURFACEIN, *LPDDOPENSURFACEIN
 req.redist: 

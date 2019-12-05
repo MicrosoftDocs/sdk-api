@@ -1,19 +1,17 @@
 ---
 UID: NF:uianimation.IUIAnimationTransitionLibrary2.CreateCubicBezierLinearVectorTransition
 title: IUIAnimationTransitionLibrary2::CreateCubicBezierLinearVectorTransition (uianimation.h)
-
 description: Creates a cubic Bézier linear vector transition for each specified dimension.
 old-location: uianimation\iuianimationtransitionlibrary2_createcubicbezierlinearvectortransition.htm
 tech.root: UIAnimation
 ms.assetid: AA1630D4-7E8B-4B1D-B3F8-1BDB9C3F73C7
-
 ms.date: 12/05/2018
 ms.keywords: CreateCubicBezierLinearVectorTransition, CreateCubicBezierLinearVectorTransition method [Windows Animation], CreateCubicBezierLinearVectorTransition method [Windows Animation],IUIAnimationTransitionLibrary2 interface, IUIAnimationTransitionLibrary2 interface [Windows Animation],CreateCubicBezierLinearVectorTransition method, IUIAnimationTransitionLibrary2.CreateCubicBezierLinearVectorTransition, IUIAnimationTransitionLibrary2::CreateCubicBezierLinearVectorTransition, uianimation.iuianimationtransitionlibrary2_createcubicbezierlinearvectortransition, uianimation/IUIAnimationTransitionLibrary2::CreateCubicBezierLinearVectorTransition
 ms.topic: method
-f1_keywords: 
- - "uianimation/IUIAnimationTransitionLibrary2.CreateCubicBezierLinearVectorTransition"
+f1_keywords:
+- uianimation/IUIAnimationTransitionLibrary2.CreateCubicBezierLinearVectorTransition
 dev_langs:
- - c++
+- c++
 req.header: uianimation.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: UIAnimation.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAnimation.dll
+- UIAnimation.dll
 api_name:
- - IUIAnimationTransitionLibrary2.CreateCubicBezierLinearVectorTransition
+- IUIAnimationTransitionLibrary2.CreateCubicBezierLinearVectorTransition
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NN:mmc.IRequiredExtensions
 title: IRequiredExtensions (mmc.h)
-
 description: The IRequiredExtensions interface is introduced in MMC 1.1.
 old-location: mmc\irequiredextensions.htm
 tech.root: mmc
 ms.assetid: 55832db9-30d9-4a5f-bfef-a014b1050f22
-
 ms.date: 12/05/2018
 ms.keywords: IRequiredExtensions, IRequiredExtensions interface [MMC], IRequiredExtensions interface [MMC],described, _slate_irequiredextensions, mmc.irequiredextensions, mmc/IRequiredExtensions
 ms.topic: interface
-f1_keywords: 
- - "mmc/IRequiredExtensions"
+f1_keywords:
+- mmc/IRequiredExtensions
 dev_langs:
- - c++
+- c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mmc.h
+- Mmc.h
 api_name:
- - IRequiredExtensions
+- IRequiredExtensions
 targetos: Windows
 req.typenames: 
 req.redist: 

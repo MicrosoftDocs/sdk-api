@@ -1,19 +1,17 @@
 ---
 UID: NF:rdpappcontainerclient.IRemoteDesktopClient.attachEvent
 title: IRemoteDesktopClient::attachEvent (rdpappcontainerclient.h)
-
 description: Attaches an event handler to an event.
 old-location: termserv\iremotedesktopclient_attachevent.htm
 tech.root: TermServ
 ms.assetid: a904827b-644b-459b-b1bd-399bad21f94f
-
 ms.date: 12/05/2018
 ms.keywords: IRemoteDesktopClient interface [Remote Desktop Services],attachEvent method, IRemoteDesktopClient.attachEvent, IRemoteDesktopClient::attachEvent, attachEvent, attachEvent method [Remote Desktop Services], attachEvent method [Remote Desktop Services],IRemoteDesktopClient interface, rdpappcontainerclient/IRemoteDesktopClient::attachEvent, termserv.iremotedesktopclient_attachevent
 ms.topic: method
-f1_keywords: 
- - "rdpappcontainerclient/IRemoteDesktopClient.attachEvent"
+f1_keywords:
+- rdpappcontainerclient/IRemoteDesktopClient.attachEvent
 dev_langs:
- - c++
+- c++
 req.header: rdpappcontainerclient.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: MsTscAx.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - MsTscAx.dll
+- MsTscAx.dll
 api_name:
- - IRemoteDesktopClient.attachEvent
+- IRemoteDesktopClient.attachEvent
 targetos: Windows
 req.typenames: 
 req.redist: 

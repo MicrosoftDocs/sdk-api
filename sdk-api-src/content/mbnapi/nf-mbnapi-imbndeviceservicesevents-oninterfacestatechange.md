@@ -1,19 +1,17 @@
 ---
 UID: NF:mbnapi.IMbnDeviceServicesEvents.OnInterfaceStateChange
 title: IMbnDeviceServicesEvents::OnInterfaceStateChange (mbnapi.h)
-
 description: Notification method that signals a change in the state of device services on the system.
 old-location: mbn\imbndeviceservicesevents_oninterfacestatechange.htm
 tech.root: mbn
 ms.assetid: 6677E80E-A9D1-45B5-AE3F-71EE22A7CCB6
-
 ms.date: 12/05/2018
 ms.keywords: IMbnDeviceServicesEvents interface [Microsoft Broadband Networks],OnInterfaceStateChange method, IMbnDeviceServicesEvents.OnInterfaceStateChange, IMbnDeviceServicesEvents::OnInterfaceStateChange, OnInterfaceStateChange, OnInterfaceStateChange method [Microsoft Broadband Networks], OnInterfaceStateChange method [Microsoft Broadband Networks],IMbnDeviceServicesEvents interface, mbn.imbndeviceservicesevents_oninterfacestatechange, mbnapi/IMbnDeviceServicesEvents::OnInterfaceStateChange
 ms.topic: method
-f1_keywords: 
- - "mbnapi/IMbnDeviceServicesEvents.OnInterfaceStateChange"
+f1_keywords:
+- mbnapi/IMbnDeviceServicesEvents.OnInterfaceStateChange
 dev_langs:
- - c++
+- c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mbnapi.h
+- mbnapi.h
 api_name:
- - IMbnDeviceServicesEvents.OnInterfaceStateChange
+- IMbnDeviceServicesEvents.OnInterfaceStateChange
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:highlevelmonitorconfigurationapi.SetMonitorRedGreenOrBlueGain
 title: SetMonitorRedGreenOrBlueGain function (highlevelmonitorconfigurationapi.h)
-
 description: Sets a monitor's red, green, or blue gain value.
 old-location: monitor\setmonitorredgreenorbluegain.htm
 tech.root: Monitor
 ms.assetid: e8814478-1129-421e-999c-f59321db69b9
-
 ms.date: 12/05/2018
 ms.keywords: SetMonitorRedGreenOrBlueGain, SetMonitorRedGreenOrBlueGain function [Monitor Configuration], highlevelmonitorconfigurationapi/SetMonitorRedGreenOrBlueGain, monitor.setmonitorredgreenorbluegain
 ms.topic: function
-f1_keywords: 
- - "highlevelmonitorconfigurationapi/SetMonitorRedGreenOrBlueGain"
+f1_keywords:
+- highlevelmonitorconfigurationapi/SetMonitorRedGreenOrBlueGain
 dev_langs:
- - c++
+- c++
 req.header: highlevelmonitorconfigurationapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dxva2.lib
 req.dll: Dxva2.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - dxva2.dll
+- dxva2.dll
 api_name:
- - SetMonitorRedGreenOrBlueGain
+- SetMonitorRedGreenOrBlueGain
 targetos: Windows
 req.typenames: 
 req.redist: 

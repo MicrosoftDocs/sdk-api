@@ -1,19 +1,17 @@
 ---
 UID: NF:azroles.IAzRoleAssignments.get_Count
 title: IAzRoleAssignments::get_Count (azroles.h)
-
 description: Retrieves the number of IAzRoleAssignments objects in the collection.
 old-location: security\iazroleassignments_count.htm
 tech.root: SecAuthZ
 ms.assetid: a137b247-ee0c-46da-8994-23ba88d207ad
-
 ms.date: 12/05/2018
 ms.keywords: Count property [Security], Count property [Security],IAzRoleAssignments interface, IAzRoleAssignments interface [Security],Count property, IAzRoleAssignments.Count, IAzRoleAssignments.get_Count, IAzRoleAssignments::Count, IAzRoleAssignments::get_Count, azroles/IAzRoleAssignments::Count, azroles/IAzRoleAssignments::get_Count, get_Count, security.iazroleassignments_count
 ms.topic: method
-f1_keywords: 
- - "azroles/IAzRoleAssignments.Count"
+f1_keywords:
+- azroles/IAzRoleAssignments.Count
 dev_langs:
- - c++
+- c++
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: Azroles.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Azroles.dll
+- Azroles.dll
 api_name:
- - IAzRoleAssignments.Count
- - IAzRoleAssignments.get_Count
+- IAzRoleAssignments.Count
+- IAzRoleAssignments.get_Count
 targetos: Windows
 req.typenames: 
 req.redist: 

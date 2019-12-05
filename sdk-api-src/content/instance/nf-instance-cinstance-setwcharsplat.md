@@ -1,19 +1,17 @@
 ---
 UID: NF:instance.CInstance.SetWCHARSplat
 title: CInstance::SetWCHARSplat (instance.h)
-
 description: The SetWCHARSplat method sets a string property.
 old-location: wmi\cinstance_setwcharsplat.htm
 tech.root: WmiSdk
 ms.assetid: 3c565630-3626-4d60-9bd2-74c2218bec11
-
 ms.date: 12/05/2018
 ms.keywords: CInstance interface [Windows Management Instrumentation],SetWCHARSplat method, CInstance.SetWCHARSplat, CInstance::SetWCHARSplat, SetWCHARSplat, SetWCHARSplat method [Windows Management Instrumentation], SetWCHARSplat method [Windows Management Instrumentation],CInstance interface, _hmm_cinstance_setwcharsplat, instance/CInstance::SetWCHARSplat, wmi.cinstance_setwcharsplat
 ms.topic: method
-f1_keywords: 
- - "instance/CInstance.SetWCHARSplat"
+f1_keywords:
+- instance/CInstance.SetWCHARSplat
 dev_langs:
- - c++
+- c++
 req.header: instance.h
 req.include-header: FwCommon.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: FrameDyn.lib
 req.dll: FrameDynOS.dll; FrameDyn.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - FrameDynOS.dll
- - FrameDyn.dll
+- FrameDynOS.dll
+- FrameDyn.dll
 api_name:
- - CInstance.SetWCHARSplat
+- CInstance.SetWCHARSplat
 targetos: Windows
 req.typenames: 
 req.redist: 

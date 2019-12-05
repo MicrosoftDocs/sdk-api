@@ -1,19 +1,17 @@
 ---
 UID: NN:fsrm.IFsrmActionEmail2
 title: IFsrmActionEmail2 (fsrm.h)
-
 description: Used to limit the number of expired files listed in the email notification.
 old-location: fsrm\ifsrmactionemail2.htm
 tech.root: fsrm
 ms.assetid: 278ef98d-fb1d-42a4-a740-07c5e713a230
-
 ms.date: 12/05/2018
 ms.keywords: IFsrmActionEmail2, IFsrmActionEmail2 interface [File Server Resource Manager], IFsrmActionEmail2 interface [File Server Resource Manager],described, fs.ifsrmactionemail2, fsrm.ifsrmactionemail2, fsrm/IFsrmActionEmail2
 ms.topic: interface
-f1_keywords: 
- - "fsrm/IFsrmActionEmail2"
+f1_keywords:
+- fsrm/IFsrmActionEmail2
 dev_langs:
- - c++
+- c++
 req.header: fsrm.h
 req.include-header: FsrmPipeline.h, FsrmQuota.h, FsrmReports.h, FsrmScreen.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: SrmSvc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - SrmSvc.dll
+- SrmSvc.dll
 api_name:
- - IFsrmActionEmail2
+- IFsrmActionEmail2
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:uxtheme.GetThemePosition
 title: GetThemePosition function (uxtheme.h)
-
 description: Retrieves the value of a position property.
 old-location: controls\GetThemePosition.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\userex\functions\getthemeposition.htm
-
 ms.date: 12/05/2018
 ms.keywords: GetThemePosition, GetThemePosition function [Windows Controls], controls.GetThemePosition, controls.inet_GetThemePosition, inet_GetThemePosition, inet_GetThemePosition_cpp, uxtheme/GetThemePosition
 ms.topic: function
-f1_keywords: 
- - "uxtheme/GetThemePosition"
+f1_keywords:
+- uxtheme/GetThemePosition
 dev_langs:
- - c++
+- c++
 req.header: uxtheme.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: UxTheme.lib
 req.dll: UxTheme.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - UxTheme.dll
- - Ext-MS-Win-UXTheme-Themes-l1-1-0.dll
- - xamlpalwp.dll
- - ext-ms-win-uxtheme-themes-l1-1-1.dll
+- UxTheme.dll
+- Ext-MS-Win-UXTheme-Themes-l1-1-0.dll
+- xamlpalwp.dll
+- ext-ms-win-uxtheme-themes-l1-1-1.dll
 api_name:
- - GetThemePosition
+- GetThemePosition
 targetos: Windows
 req.typenames: 
 req.redist: 

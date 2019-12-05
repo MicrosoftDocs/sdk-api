@@ -1,19 +1,17 @@
 ---
 UID: NE:tssbx.__MIDL_IWTSSBPlugin_0008
 title: WTSSBX_SESSION_STATE (tssbx.h)
-
 description: Contains values that indicate the connection state of a user session.
 old-location: termserv\wtssbx_session_state.htm
 tech.root: TermServ
 ms.assetid: d31118c5-56a3-4792-83fd-fdd3cd7a79ea
-
 ms.date: 12/05/2018
 ms.keywords: WTSSBX_SESSION_STATE, WTSSBX_SESSION_STATE enumeration [Remote Desktop Services], WTSSBX_SESSION_STATE_ACTIVE, WTSSBX_SESSION_STATE_DISCONNECTED, WTSSBX_SESSION_STATE_UNSPEC, termserv.wtssbx_session_state, tssbx/WTSSBX_SESSION_STATE, tssbx/WTSSBX_SESSION_STATE_ACTIVE, tssbx/WTSSBX_SESSION_STATE_DISCONNECTED, tssbx/WTSSBX_SESSION_STATE_UNSPEC
 ms.topic: enum
-f1_keywords: 
- - "tssbx/WTSSBX_SESSION_STATE"
+f1_keywords:
+- tssbx/WTSSBX_SESSION_STATE
 dev_langs:
- - c++
+- c++
 req.header: tssbx.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Tssbx.h
+- Tssbx.h
 api_name:
- - WTSSBX_SESSION_STATE
+- WTSSBX_SESSION_STATE
 targetos: Windows
 req.typenames: WTSSBX_SESSION_STATE
 req.redist: 

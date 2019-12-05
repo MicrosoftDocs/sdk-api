@@ -1,19 +1,17 @@
 ---
 UID: NF:mmeapi.midiDisconnect
 title: midiDisconnect function (mmeapi.h)
-
 description: The midiDisconnect function disconnects a MIDI input device from a MIDI thru or output device, or disconnects a MIDI thru device from a MIDI output device.
 old-location: multimedia\mididisconnect.htm
 tech.root: Multimedia
 ms.assetid: bf6ea7d0-eb0a-429f-8029-d283808fb85e
-
 ms.date: 12/05/2018
-ms.keywords: "_win32_midiDisconnect, midiDisconnect, midiDisconnect function [Windows Multimedia], mmeapi/midiDisconnect, multimedia.mididisconnect"
+ms.keywords: _win32_midiDisconnect, midiDisconnect, midiDisconnect function [Windows Multimedia], mmeapi/midiDisconnect, multimedia.mididisconnect
 ms.topic: function
-f1_keywords: 
- - "mmeapi/midiDisconnect"
+f1_keywords:
+- mmeapi/midiDisconnect
 dev_langs:
- - c++
+- c++
 req.header: mmeapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Winmm.lib
 req.dll: Winmm.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Winmm.dll
- - API-MS-Win-mm-mme-l1-1-0.dll
- - winmmbase.dll
+- Winmm.dll
+- API-MS-Win-mm-mme-l1-1-0.dll
+- winmmbase.dll
 api_name:
- - midiDisconnect
+- midiDisconnect
 targetos: Windows
 req.typenames: 
 req.redist: 

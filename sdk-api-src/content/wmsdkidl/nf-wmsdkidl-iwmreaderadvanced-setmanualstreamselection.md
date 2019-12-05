@@ -1,19 +1,17 @@
 ---
 UID: NF:wmsdkidl.IWMReaderAdvanced.SetManualStreamSelection
 title: IWMReaderAdvanced::SetManualStreamSelection (wmsdkidl.h)
-
 description: The SetManualStreamSelection method specifies whether stream selection is to be controlled manually.
 old-location: wmformat\iwmreaderadvanced_setmanualstreamselection.htm
 tech.root: wmformat
 ms.assetid: 6950b26c-1763-4578-ab5c-0ea29d3d77f1
-
 ms.date: 12/05/2018
 ms.keywords: IWMReaderAdvanced interface [windows Media Format],SetManualStreamSelection method, IWMReaderAdvanced.SetManualStreamSelection, IWMReaderAdvanced::SetManualStreamSelection, IWMReaderAdvancedSetManualStreamSelection, SetManualStreamSelection, SetManualStreamSelection method [windows Media Format], SetManualStreamSelection method [windows Media Format],IWMReaderAdvanced interface, wmformat.iwmreaderadvanced_setmanualstreamselection, wmsdkidl/IWMReaderAdvanced::SetManualStreamSelection
 ms.topic: method
-f1_keywords: 
- - "wmsdkidl/IWMReaderAdvanced.SetManualStreamSelection"
+f1_keywords:
+- wmsdkidl/IWMReaderAdvanced.SetManualStreamSelection
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wmvcore.lib
- - Wmvcore.dll
- - WMStubDRM.lib
- - WMStubDRM.dll
+- Wmvcore.lib
+- Wmvcore.dll
+- WMStubDRM.lib
+- WMStubDRM.dll
 api_name:
- - IWMReaderAdvanced.SetManualStreamSelection
+- IWMReaderAdvanced.SetManualStreamSelection
 targetos: Windows
 req.typenames: 
 req.redist: 

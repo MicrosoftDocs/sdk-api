@@ -1,19 +1,17 @@
 ---
 UID: NS:xpsobjectmodel.__MIDL___MIDL_itf_xpsobjectmodel_0000_0000_0017
 title: XPS_POINT (xpsobjectmodel.h)
-
 description: Represents an x- and y-coordinate pair in two-dimensional space.
 old-location: xps\xps_point.htm
 tech.root: printdocs
 ms.assetid: 3e5f693a-a0e4-41cf-a2a6-1f61c8e189e3
-
 ms.date: 12/05/2018
 ms.keywords: XPS_POINT, XPS_POINT structure [XPS Documents and Packaging], xps.xps_point, xpsobjectmodel/XPS_POINT
 ms.topic: struct
-f1_keywords: 
- - "xpsobjectmodel/XPS_POINT"
+f1_keywords:
+- xpsobjectmodel/XPS_POINT
 dev_langs:
- - c++
+- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - xpsobjectmodel.h
+- xpsobjectmodel.h
 api_name:
- - XPS_POINT
+- XPS_POINT
 targetos: Windows
 req.typenames: XPS_POINT
 req.redist: 

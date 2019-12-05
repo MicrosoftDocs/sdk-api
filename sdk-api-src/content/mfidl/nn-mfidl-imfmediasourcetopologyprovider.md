@@ -1,19 +1,17 @@
 ---
 UID: NN:mfidl.IMFMediaSourceTopologyProvider
 title: IMFMediaSourceTopologyProvider (mfidl.h)
-
 description: Enables an application to get a topology from the sequencer source.
 old-location: mf\imfmediasourcetopologyprovider.htm
 tech.root: medfound
 ms.assetid: 7c08fb54-6a78-4b6d-aae7-4b3a823eb880
-
 ms.date: 12/05/2018
 ms.keywords: 7c08fb54-6a78-4b6d-aae7-4b3a823eb880, IMFMediaSourceTopologyProvider, IMFMediaSourceTopologyProvider interface [Media Foundation], IMFMediaSourceTopologyProvider interface [Media Foundation],described, mf.imfmediasourcetopologyprovider, mfidl/IMFMediaSourceTopologyProvider
 ms.topic: interface
-f1_keywords: 
- - "mfidl/IMFMediaSourceTopologyProvider"
+f1_keywords:
+- mfidl/IMFMediaSourceTopologyProvider
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFMediaSourceTopologyProvider
+- IMFMediaSourceTopologyProvider
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:eventsys.IEventClass2.get_FireInParallel
 title: IEventClass2::get_FireInParallel (eventsys.h)
-
 description: Indicates whether events of this class can be fired in parallel.
 old-location: cos\ieventclass2_fireinparallel.htm
 tech.root: cossdk
 ms.assetid: 83db1bcd-8b41-4036-9073-c417e97826ed
-
 ms.date: 12/05/2018
 ms.keywords: FireInParallel property [COM+], FireInParallel property [COM+],IEventClass2 interface, IEventClass2 interface [COM+],FireInParallel property, IEventClass2.FireInParallel, IEventClass2.get_FireInParallel, IEventClass2::FireInParallel, IEventClass2::get_FireInParallel, IEventClass2::put_FireInParallel, _cos_IEventClass2_get_FireInParallel, _cos_IEventClass2_put_FireInParallel, cos.ieventclass2_fireinparallel, eventsys/IEventClass2::FireInParallel, eventsys/IEventClass2::get_FireInParallel, eventsys/IEventClass2::put_FireInParallel, get_FireInParallel
 ms.topic: method
-f1_keywords: 
- - "eventsys/IEventClass2.FireInParallel"
+f1_keywords:
+- eventsys/IEventClass2.FireInParallel
 dev_langs:
- - c++
+- c++
 req.header: eventsys.h
 req.include-header: Eventsys.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - eventsys.h
+- eventsys.h
 api_name:
- - IEventClass2.FireInParallel
- - IEventClass2.get_FireInParallel
- - IEventClass2.put_FireInParallel
+- IEventClass2.FireInParallel
+- IEventClass2.get_FireInParallel
+- IEventClass2.put_FireInParallel
 targetos: Windows
 req.typenames: 
 req.redist: 

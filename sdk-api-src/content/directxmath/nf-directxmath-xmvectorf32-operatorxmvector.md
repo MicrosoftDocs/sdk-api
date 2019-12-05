@@ -3,14 +3,13 @@ UID: NF:directxmath.XMVECTORF32.operator XMVECTOR
 title: XMVECTORF32::operator XMVECTOR
 description: Returns the instance of XMVECTOR implementing the current instance of XMVECTORF32.
 ms.assetid: 94dd9676-f570-45bf-a3ff-b8fc4449a7db
-
 ms.date: 05/13/2019
 ms.keywords: XMVECTORF32::operator XMVECTOR
 ms.topic: language-reference
-f1_keywords: 
- - "directxmath/XMVECTORF32::operator XMVECTOR"
+f1_keywords:
+- directxmath/XMVECTORF32::operator XMVECTOR
 dev_langs:
- - c++
+- c++
 targetos: Windows
 req.assembly: 
 req.construct-type: function
@@ -32,13 +31,13 @@ req.type-library:
 req.umdf-ver: 
 req.unicode-ansi: 
 topic_type:
- - apiref
+- apiref
 api_type:
- - 
+- 
 api_location:
- - directxmath.h
+- directxmath.h
 api_name:
- - XMVECTORF32::operator XMVECTOR
+- XMVECTORF32::operator XMVECTOR
 ---
 
 # XMVECTORF32::operator XMVECTOR

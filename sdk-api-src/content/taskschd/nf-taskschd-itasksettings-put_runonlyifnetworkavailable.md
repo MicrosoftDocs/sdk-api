@@ -1,19 +1,17 @@
 ---
 UID: NF:taskschd.ITaskSettings.put_RunOnlyIfNetworkAvailable
 title: ITaskSettings::put_RunOnlyIfNetworkAvailable (taskschd.h)
-
 description: Gets or sets a Boolean value that indicates that the Task Scheduler will run the task only when a network is available.
 old-location: taskschd\itasksettings_runonlyifnetworkavailable.htm
 tech.root: taskschd
 ms.assetid: d0926d75-e7d9-469c-aaa0-ddee8fe22dcd
-
 ms.date: 12/05/2018
 ms.keywords: ITaskSettings interface [Task Scheduler],RunOnlyIfNetworkAvailable property, ITaskSettings.RunOnlyIfNetworkAvailable, ITaskSettings.put_RunOnlyIfNetworkAvailable, ITaskSettings::RunOnlyIfNetworkAvailable, ITaskSettings::get_RunOnlyIfNetworkAvailable, ITaskSettings::put_RunOnlyIfNetworkAvailable, RunOnlyIfNetworkAvailable property [Task Scheduler], RunOnlyIfNetworkAvailable property [Task Scheduler],ITaskSettings interface, put_RunOnlyIfNetworkAvailable, taskschd.itasksettings_runonlyifnetworkavailable, taskschd/ITaskSettings::RunOnlyIfNetworkAvailable, taskschd/ITaskSettings::get_RunOnlyIfNetworkAvailable, taskschd/ITaskSettings::put_RunOnlyIfNetworkAvailable
 ms.topic: method
-f1_keywords: 
- - "taskschd/ITaskSettings.RunOnlyIfNetworkAvailable"
+f1_keywords:
+- taskschd/ITaskSettings.RunOnlyIfNetworkAvailable
 dev_langs:
- - c++
+- c++
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Taskschd.lib
 req.dll: Taskschd.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - taskschd.dll
+- taskschd.dll
 api_name:
- - ITaskSettings.RunOnlyIfNetworkAvailable
- - ITaskSettings.get_RunOnlyIfNetworkAvailable
- - ITaskSettings.put_RunOnlyIfNetworkAvailable
+- ITaskSettings.RunOnlyIfNetworkAvailable
+- ITaskSettings.get_RunOnlyIfNetworkAvailable
+- ITaskSettings.put_RunOnlyIfNetworkAvailable
 targetos: Windows
 req.typenames: 
 req.redist: 

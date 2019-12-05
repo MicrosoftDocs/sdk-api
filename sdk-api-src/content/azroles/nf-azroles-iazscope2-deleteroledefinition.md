@@ -1,19 +1,17 @@
 ---
 UID: NF:azroles.IAzScope2.DeleteRoleDefinition
 title: IAzScope2::DeleteRoleDefinition (azroles.h)
-
 description: Removes the specified IAzRoleDefinition object from this scope.
 old-location: security\iazscope2_deleteroledefinition.htm
 tech.root: SecAuthZ
 ms.assetid: 12eddceb-15e2-4c9a-8372-749b0eccdd79
-
 ms.date: 12/05/2018
 ms.keywords: DeleteRoleDefinition, DeleteRoleDefinition method [Security], DeleteRoleDefinition method [Security],IAzScope2 interface, IAzScope2 interface [Security],DeleteRoleDefinition method, IAzScope2.DeleteRoleDefinition, IAzScope2::DeleteRoleDefinition, azroles/IAzScope2::DeleteRoleDefinition, security.iazscope2_deleteroledefinition
 ms.topic: method
-f1_keywords: 
- - "azroles/IAzScope2.DeleteRoleDefinition"
+f1_keywords:
+- azroles/IAzScope2.DeleteRoleDefinition
 dev_langs:
- - c++
+- c++
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Azroles.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Azroles.dll
+- Azroles.dll
 api_name:
- - IAzScope2.DeleteRoleDefinition
+- IAzScope2.DeleteRoleDefinition
 targetos: Windows
 req.typenames: 
 req.redist: 

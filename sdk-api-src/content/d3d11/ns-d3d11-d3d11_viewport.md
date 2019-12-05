@@ -1,19 +1,17 @@
 ---
 UID: NS:d3d11.D3D11_VIEWPORT
 title: D3D11_VIEWPORT (d3d11.h)
-
 description: Defines the dimensions of a viewport.
 old-location: direct3d11\d3d11_viewport.htm
 tech.root: direct3d11
 ms.assetid: 7ef29e40-4b42-4794-83b6-44581c0d529f
-
 ms.date: 12/05/2018
 ms.keywords: D3D11_VIEWPORT, D3D11_VIEWPORT structure [Direct3D 11], d3d11/D3D11_VIEWPORT, direct3d11.d3d11_viewport, e40eb7eb-7ea6-54bc-b846-b83c9856e3fe
 ms.topic: struct
-f1_keywords: 
- - "d3d11/D3D11_VIEWPORT"
+f1_keywords:
+- d3d11/D3D11_VIEWPORT
 dev_langs:
- - c++
+- c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - D3D11.h
+- D3D11.h
 api_name:
- - D3D11_VIEWPORT
+- D3D11_VIEWPORT
 targetos: Windows
 req.typenames: D3D11_VIEWPORT
 req.redist: 

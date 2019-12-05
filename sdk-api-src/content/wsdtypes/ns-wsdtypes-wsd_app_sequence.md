@@ -1,19 +1,17 @@
 ---
 UID: NS:wsdtypes._WSD_APP_SEQUENCE
 title: WSD_APP_SEQUENCE (wsdtypes.h)
-
 description: Represents application sequence information relating to WS-Discovery messages.
 old-location: ncd\wsd_app_sequence_struct.htm
 tech.root: WsdApi
 ms.assetid: e9aa8e2f-0162-4f2e-ad70-54b6352105f9
-
 ms.date: 12/05/2018
 ms.keywords: WSD_APP_SEQUENCE, WSD_APP_SEQUENCE structure, ncd.wsd_app_sequence_struct, wsdtypes/WSD_APP_SEQUENCE
 ms.topic: struct
-f1_keywords: 
- - "wsdtypes/WSD_APP_SEQUENCE"
+f1_keywords:
+- wsdtypes/WSD_APP_SEQUENCE
 dev_langs:
- - c++
+- c++
 req.header: wsdtypes.h
 req.include-header: Wsdapi.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WsdTypes.h
+- WsdTypes.h
 api_name:
- - WSD_APP_SEQUENCE
+- WSD_APP_SEQUENCE
 targetos: Windows
 req.typenames: WSD_APP_SEQUENCE
 req.redist: 

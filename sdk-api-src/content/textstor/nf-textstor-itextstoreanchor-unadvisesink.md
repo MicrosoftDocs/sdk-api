@@ -1,19 +1,17 @@
 ---
 UID: NF:textstor.ITextStoreAnchor.UnadviseSink
 title: ITextStoreAnchor::UnadviseSink (textstor.h)
-
 description: ITextStoreAnchor::UnadviseSink method
 old-location: tsf\itextstoreanchor_unadvisesink.htm
 tech.root: TSF
 ms.assetid: 01ddc659-0ed9-41e9-bde9-92aad9d74716
-
 ms.date: 12/05/2018
 ms.keywords: ITextStoreAnchor interface [Text Services Framework],UnadviseSink method, ITextStoreAnchor.UnadviseSink, ITextStoreAnchor::UnadviseSink, UnadviseSink, UnadviseSink method [Text Services Framework], UnadviseSink method [Text Services Framework],ITextStoreAnchor interface, textstor/ITextStoreAnchor::UnadviseSink, tsf.itextstoreanchor_unadvisesink
 ms.topic: method
-f1_keywords: 
- - "textstor/ITextStoreAnchor.UnadviseSink"
+f1_keywords:
+- textstor/ITextStoreAnchor.UnadviseSink
 dev_langs:
- - c++
+- c++
 req.header: textstor.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msctf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msctf.dll
+- msctf.dll
 api_name:
- - ITextStoreAnchor.UnadviseSink
+- ITextStoreAnchor.UnadviseSink
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

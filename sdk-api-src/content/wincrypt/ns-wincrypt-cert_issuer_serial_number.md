@@ -1,19 +1,17 @@
 ---
 UID: NS:wincrypt._CERT_ISSUER_SERIAL_NUMBER
 title: CERT_ISSUER_SERIAL_NUMBER (wincrypt.h)
-
 description: Acts as a unique identifier of a certificate containing the issuer and issuer's serial number for a certificate.
 old-location: security\cert_issuer_serial_number.htm
 tech.root: SecCrypto
 ms.assetid: 4e44113f-81e7-4551-bf4d-50986d6d57bb
-
 ms.date: 12/05/2018
-ms.keywords: "*PCERT_ISSUER_SERIAL_NUMBER, CERT_ISSUER_SERIAL_NUMBER, CERT_ISSUER_SERIAL_NUMBER structure [Security], PCERT_ISSUER_SERIAL_NUMBER, PCERT_ISSUER_SERIAL_NUMBER structure pointer [Security], _crypto2_cert_issuer_serial_number, security.cert_issuer_serial_number, wincrypt/CERT_ISSUER_SERIAL_NUMBER, wincrypt/PCERT_ISSUER_SERIAL_NUMBER"
+ms.keywords: '*PCERT_ISSUER_SERIAL_NUMBER, CERT_ISSUER_SERIAL_NUMBER, CERT_ISSUER_SERIAL_NUMBER structure [Security], PCERT_ISSUER_SERIAL_NUMBER, PCERT_ISSUER_SERIAL_NUMBER structure pointer [Security], _crypto2_cert_issuer_serial_number, security.cert_issuer_serial_number, wincrypt/CERT_ISSUER_SERIAL_NUMBER, wincrypt/PCERT_ISSUER_SERIAL_NUMBER'
 ms.topic: struct
-f1_keywords: 
- - "wincrypt/CERT_ISSUER_SERIAL_NUMBER"
+f1_keywords:
+- wincrypt/CERT_ISSUER_SERIAL_NUMBER
 dev_langs:
- - c++
+- c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wincrypt.h
+- Wincrypt.h
 api_name:
- - CERT_ISSUER_SERIAL_NUMBER
+- CERT_ISSUER_SERIAL_NUMBER
 targetos: Windows
 req.typenames: CERT_ISSUER_SERIAL_NUMBER, *PCERT_ISSUER_SERIAL_NUMBER
 req.redist: 

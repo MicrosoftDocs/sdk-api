@@ -1,18 +1,16 @@
 ---
 UID: NE:d2d1effects_2.D2D1_WHITELEVELADJUSTMENT_PROP
 title: D2D1_WHITELEVELADJUSTMENT_PROP (d2d1effects_2.h)
-
 description: Defines constants that identify the top level properties of the White Level Adjustment effect.
 old-location: direct2d\d2d1_whiteleveladjustment_prop.htm
 tech.root: Direct2D
-
 ms.date: 01/30/2019
 ms.keywords: D2D1_WHITELEVELADJUSTMENT_PROP, D2D1_WHITELEVELADJUSTMENT_PROP enumeration [Direct2D], D2D1_WHITELEVELADJUSTMENT_PROP_INPUT_WHITE_LEVEL, D2D1_WHITELEVELADJUSTMENT_PROP_OUTPUT_WHITE_LEVEL, d2d1effects_2/D2D1_WHITELEVELADJUSTMENT_PROP, d2d1effects_2/D2D1_WHITELEVELADJUSTMENT_PROP_INPUT_WHITE_LEVEL, d2d1effects_2/D2D1_WHITELEVELADJUSTMENT_PROP_OUTPUT_WHITE_LEVEL, direct2d.d2d1_whiteleveladjustment_prop
 ms.topic: enum
-f1_keywords: 
- - "d2d1effects_2/D2D1_WHITELEVELADJUSTMENT_PROP"
+f1_keywords:
+- d2d1effects_2/D2D1_WHITELEVELADJUSTMENT_PROP
 dev_langs:
- - c++
+- c++
 req.header: d2d1effects_2.h
 req.include-header: 
 req.target-type: Windows
@@ -31,14 +29,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - d2d1effects_2.h
+- d2d1effects_2.h
 api_name:
- - D2D1_WHITELEVELADJUSTMENT_PROP
+- D2D1_WHITELEVELADJUSTMENT_PROP
 targetos: Windows
 req.typenames: D2D1_WHITELEVELADJUSTMENT_PROP
 req.redist: 

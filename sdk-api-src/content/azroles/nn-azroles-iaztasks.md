@@ -1,19 +1,17 @@
 ---
 UID: NN:azroles.IAzTasks
 title: IAzTasks (azroles.h)
-
 description: Represents a collection of IAzTask objects.
 old-location: security\iaztasks.htm
 tech.root: SecAuthZ
 ms.assetid: 324dec16-3fd6-4289-ba15-002e8626dec8
-
 ms.date: 12/05/2018
 ms.keywords: IAzTasks, IAzTasks interface [Security], IAzTasks interface [Security],described, azroles/IAzTasks, security.iaztasks
 ms.topic: interface
-f1_keywords: 
- - "azroles/IAzTasks"
+f1_keywords:
+- azroles/IAzTasks
 dev_langs:
- - c++
+- c++
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Azroles.lib
 req.dll: Azroles.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Azroles.dll
+- Azroles.dll
 api_name:
- - IAzTasks
+- IAzTasks
 targetos: Windows
 req.typenames: 
 req.redist: Windows Server 2003 Administration Tools Pack on Windows XP

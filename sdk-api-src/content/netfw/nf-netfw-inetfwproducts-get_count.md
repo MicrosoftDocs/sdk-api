@@ -1,19 +1,17 @@
 ---
 UID: NF:netfw.INetFwProducts.get_Count
 title: INetFwProducts::get_Count (netfw.h)
-
 description: Indicates the number of registered third-party firewall products.
 old-location: ics\inetfwproducts_count.htm
 tech.root: ics
 ms.assetid: 2090603e-33c8-4b2a-86d4-efc1c5665af8
-
 ms.date: 12/05/2018
 ms.keywords: Count property [ICS/ICF], Count property [ICS/ICF],INetFwProducts interface, INetFwProducts interface [ICS/ICF],Count property, INetFwProducts.Count, INetFwProducts.get_Count, INetFwProducts::Count, INetFwProducts::get_Count, get_Count, ics.inetfwproducts_count, netfw/INetFwProducts::Count, netfw/INetFwProducts::get_Count
 ms.topic: method
-f1_keywords: 
- - "netfw/INetFwProducts.Count"
+f1_keywords:
+- netfw/INetFwProducts.Count
 dev_langs:
- - c++
+- c++
 req.header: netfw.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: FirewallAPI.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - FirewallAPI.dll
+- FirewallAPI.dll
 api_name:
- - INetFwProducts.Count
- - INetFwProducts.get_Count
+- INetFwProducts.Count
+- INetFwProducts.get_Count
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NN:mbnapi.IMbnConnectionProfile
 title: IMbnConnectionProfile (mbnapi.h)
-
 description: This interface accesses connection parameters and preferences stored in Mobile Broadband profiles.
 old-location: mbn\imbnconnectionprofile.htm
 tech.root: mbn
 ms.assetid: f7730efe-e367-4642-8482-2a23052bab0c
-
 ms.date: 12/05/2018
 ms.keywords: IMbnConnectionProfile, IMbnConnectionProfile interface [Microsoft Broadband Networks], IMbnConnectionProfile interface [Microsoft Broadband Networks],described, mbn.imbnconnectionprofile, mbnapi/IMbnConnectionProfile
 ms.topic: interface
-f1_keywords: 
- - "mbnapi/IMbnConnectionProfile"
+f1_keywords:
+- mbnapi/IMbnConnectionProfile
 dev_langs:
- - c++
+- c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mbnapi.h
+- mbnapi.h
 api_name:
- - IMbnConnectionProfile
+- IMbnConnectionProfile
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NE:wmcodecdsp.AEC_SYSTEM_MODE
 title: AEC_SYSTEM_MODE (wmcodecdsp.h)
-
 description: Specifies the processing mode for the voice capture DSP. This enumeration is used with the MFPKEY_WMAAECMA_SYSTEM_MODE property.
 old-location: mf\aec_system_modeenumeration.htm
 tech.root: medfound
 ms.assetid: 637cccba-a2d0-41f4-ac50-eac7e7e29b6b
-
 ms.date: 12/05/2018
 ms.keywords: ADAPTIVE_ARRAY_AND_AEC, ADAPTIVE_ARRAY_ONLY, AEC_SYSTEM_MODE, AEC_SYSTEM_MODE enumeration [Media Foundation], MODE_NOT_SET, OPTIBEAM_ARRAY_AND_AEC, OPTIBEAM_ARRAY_ONLY, SINGLE_CHANNEL_AEC, SINGLE_CHANNEL_NSAGC, codecapi.aec_system_modeenumeration, mf.aec_system_modeenumeration, wmcodecdsp/ADAPTIVE_ARRAY_AND_AEC, wmcodecdsp/ADAPTIVE_ARRAY_ONLY, wmcodecdsp/AEC_SYSTEM_MODE, wmcodecdsp/MODE_NOT_SET, wmcodecdsp/OPTIBEAM_ARRAY_AND_AEC, wmcodecdsp/OPTIBEAM_ARRAY_ONLY, wmcodecdsp/SINGLE_CHANNEL_AEC, wmcodecdsp/SINGLE_CHANNEL_NSAGC
 ms.topic: enum
-f1_keywords: 
- - "wmcodecdsp/AEC_SYSTEM_MODE"
+f1_keywords:
+- wmcodecdsp/AEC_SYSTEM_MODE
 dev_langs:
- - c++
+- c++
 req.header: wmcodecdsp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - wmcodecdsp.h
+- wmcodecdsp.h
 api_name:
- - AEC_SYSTEM_MODE
+- AEC_SYSTEM_MODE
 targetos: Windows
 req.typenames: AEC_SYSTEM_MODE
 req.redist: 

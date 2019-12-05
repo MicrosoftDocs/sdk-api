@@ -1,19 +1,17 @@
 ---
 UID: NS:mbnapi.MBN_DEVICE_SERVICE
 title: MBN_DEVICE_SERVICE (mbnapi.h)
-
 description: The MBN_DEVICE_SERVICE structure provides information about a Mobile Broadband device service.
 old-location: mbn\mbn_device_service.htm
 tech.root: mbn
 ms.assetid: 83BB1CC3-2F00-4CB0-AF05-A8309D01942D
-
 ms.date: 12/05/2018
 ms.keywords: MBN_DEVICE_SERVICE, MBN_DEVICE_SERVICE structure [Microsoft Broadband Networks], PMBN_DEVICE_SERVICE, PMBN_DEVICE_SERVICE structure pointer [Microsoft Broadband Networks], mbn.mbn_device_service, mbnapi/MBN_DEVICE_SERVICE, mbnapi/PMBN_DEVICE_SERVICE
 ms.topic: struct
-f1_keywords: 
- - "mbnapi/MBN_DEVICE_SERVICE"
+f1_keywords:
+- mbnapi/MBN_DEVICE_SERVICE
 dev_langs:
- - c++
+- c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - mbnapi.h
+- mbnapi.h
 api_name:
- - MBN_DEVICE_SERVICE
+- MBN_DEVICE_SERVICE
 targetos: Windows
 req.typenames: MBN_DEVICE_SERVICE
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:shdeprecated.IBrowserService2.ForwardViewMsg
 title: IBrowserService2::ForwardViewMsg (shdeprecated.h)
-
 description: Deprecated. Calls the SendMessage function with a message received by the view, using the _hwndView member of the BASEBROWSERDATA structure as the SendMessage hWnd parameter.
 old-location: shell\IBrowserService2_ForwardViewMsg.htm
 tech.root: shell
 ms.assetid: 8db9fbf9-9132-47a4-a788-93c303598ba0
-
 ms.date: 12/05/2018
 ms.keywords: ForwardViewMsg, ForwardViewMsg method [Windows Shell], ForwardViewMsg method [Windows Shell],IBrowserService2 interface, IBrowserService2 interface [Windows Shell],ForwardViewMsg method, IBrowserService2.ForwardViewMsg, IBrowserService2::ForwardViewMsg, shdeprecated/IBrowserService2::ForwardViewMsg, shell.IBrowserService2_ForwardViewMsg, zone_IBrowserService2_ForwardViewMsg
 ms.topic: method
-f1_keywords: 
- - "shdeprecated/IBrowserService2.ForwardViewMsg"
+f1_keywords:
+- shdeprecated/IBrowserService2.ForwardViewMsg
 dev_langs:
- - c++
+- c++
 req.header: shdeprecated.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shdeprecated.h
+- Shdeprecated.h
 api_name:
- - IBrowserService2.ForwardViewMsg
+- IBrowserService2.ForwardViewMsg
 targetos: Windows
 req.typenames: 
 req.redist: 

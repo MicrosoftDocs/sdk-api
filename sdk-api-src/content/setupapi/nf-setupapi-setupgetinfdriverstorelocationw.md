@@ -1,19 +1,17 @@
 ---
 UID: NF:setupapi.SetupGetInfDriverStoreLocationW
 title: SetupGetInfDriverStoreLocationW function (setupapi.h)
-
 description: The SetupGetInfDriverStoreLocation function retrieves the fully qualified file name (directory path and file name) of an INF file in the driver store that corresponds to a specified INF file in the system INF file directory or a specified INF file in the driver store.
 old-location: devinst\setupgetinfdriverstorelocation.htm
 tech.root: devinst
 ms.assetid: 34131e9e-2e0e-4098-a988-3dadbf1789af
-
 ms.date: 12/05/2018
 ms.keywords: SetupGetInfDriverStoreLocation, SetupGetInfDriverStoreLocation function [Device and Driver Installation], SetupGetInfDriverStoreLocationA, SetupGetInfDriverStoreLocationW, devinst.setupgetinfdriverstorelocation, setup-ref_349dd5f9-d925-4bdf-b99d-b8abef1eb12b.xml, setupapi/SetupGetInfDriverStoreLocation
 ms.topic: function
 f1_keywords:
 - setupapi/SetupGetInfDriverStoreLocation
 dev_langs:
- - c++
+- c++
 req.header: setupapi.h
 req.include-header: Setupapi.h
 req.target-type: Desktop
@@ -40,8 +38,7 @@ api_location:
 - Setupapi.lib
 - Setupapi.dll
 api_name:
-- SetupGetInfDriverStoreLocation
- - SetupGetInfDriverStoreLocationW
+- SetupGetInfDriverStoreLocation - SetupGetInfDriverStoreLocationW
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NE:mfplay._MFP_MEDIAITEM_CHARACTERISTICS
 title: _MFP_MEDIAITEM_CHARACTERISTICS (mfplay.h)
-
 description: Contains flags that describe a media item.
 old-location: mf\_mfp_mediaitem_characteristics.htm
 tech.root: medfound
 ms.assetid: 7bbb45e6-717d-413c-95fd-db730ab960ff
-
 ms.date: 12/05/2018
 ms.keywords: MFP_MEDIAITEM_CAN_PAUSE, MFP_MEDIAITEM_CAN_SEEK, MFP_MEDIAITEM_HAS_SLOW_SEEK, MFP_MEDIAITEM_IS_LIVE, _MFP_MEDIAITEM_CHARACTERISTICS, _MFP_MEDIAITEM_CHARACTERISTICS enumeration [Media Foundation], mf._mfp_mediaitem_characteristics, mfplay/MFP_MEDIAITEM_CAN_PAUSE, mfplay/MFP_MEDIAITEM_CAN_SEEK, mfplay/MFP_MEDIAITEM_HAS_SLOW_SEEK, mfplay/MFP_MEDIAITEM_IS_LIVE, mfplay/_MFP_MEDIAITEM_CHARACTERISTICS
 ms.topic: enum
-f1_keywords: 
- - "mfplay/_MFP_MEDIAITEM_CHARACTERISTICS"
+f1_keywords:
+- mfplay/_MFP_MEDIAITEM_CHARACTERISTICS
 dev_langs:
- - c++
+- c++
 req.header: mfplay.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - mfplay.h
+- mfplay.h
 api_name:
- - _MFP_MEDIAITEM_CHARACTERISTICS
+- _MFP_MEDIAITEM_CHARACTERISTICS
 targetos: Windows
-req.typenames: "_MFP_MEDIAITEM_CHARACTERISTICS"
+req.typenames: _MFP_MEDIAITEM_CHARACTERISTICS
 req.redist: 
 ms.custom: 19H1
 ---

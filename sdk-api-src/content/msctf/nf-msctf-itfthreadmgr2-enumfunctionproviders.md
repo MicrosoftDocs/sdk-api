@@ -1,19 +1,17 @@
 ---
 UID: NF:msctf.ITfThreadMgr2.EnumFunctionProviders
 title: ITfThreadMgr2::EnumFunctionProviders (msctf.h)
-
 description: Obtains an enumerator for all of the function providers registered for the calling thread.
 old-location: tsf\itfthreadmgr2_enumfunctionproviders.htm
 tech.root: TSF
 ms.assetid: 0F28BDFD-4CD8-4D50-92D9-6A60B80122B2
-
 ms.date: 12/05/2018
 ms.keywords: EnumFunctionProviders, EnumFunctionProviders method [Text Services Framework], EnumFunctionProviders method [Text Services Framework],ITfThreadMgr2 interface, ITfThreadMgr2 interface [Text Services Framework],EnumFunctionProviders method, ITfThreadMgr2.EnumFunctionProviders, ITfThreadMgr2::EnumFunctionProviders, msctf/ITfThreadMgr2::EnumFunctionProviders, tsf.itfthreadmgr2_enumfunctionproviders
 ms.topic: method
-f1_keywords: 
- - "msctf/ITfThreadMgr2.EnumFunctionProviders"
+f1_keywords:
+- msctf/ITfThreadMgr2.EnumFunctionProviders
 dev_langs:
- - c++
+- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msctf.h
+- msctf.h
 api_name:
- - ITfThreadMgr2.EnumFunctionProviders
+- ITfThreadMgr2.EnumFunctionProviders
 targetos: Windows
 req.typenames: 
 req.redist: 

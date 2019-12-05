@@ -1,19 +1,17 @@
 ---
 UID: NE:wuapi.tagAutoDownloadMode
 title: AutoDownloadMode (wuapi.h)
-
 description: Defines the types of logic that is used to determine whether Automatic Updates will automatically download an update once it is determined to be applicable for the computer.
 old-location: wua\autodownloadmode.htm
 tech.root: Wua_Sdk
 ms.assetid: cabf21b8-790b-401b-9de2-0d8c5fa858e1
-
 ms.date: 12/05/2018
 ms.keywords: AutoDownloadMode, AutoDownloadMode enumeration [Windows Update Agent], adAlwaysAutoDownload, adLetWindowsUpdateDecide, adNeverAutoDownload, wua.autodownloadmode, wuapi/AutoDownloadMode, wuapi/adAlwaysAutoDownload, wuapi/adLetWindowsUpdateDecide, wuapi/adNeverAutoDownload
 ms.topic: enum
-f1_keywords: 
- - "wuapi/AutoDownloadMode"
+f1_keywords:
+- wuapi/AutoDownloadMode
 dev_langs:
- - c++
+- c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wuapi.h
+- Wuapi.h
 api_name:
- - AutoDownloadMode
+- AutoDownloadMode
 targetos: Windows
 req.typenames: AutoDownloadMode
 req.redist: 

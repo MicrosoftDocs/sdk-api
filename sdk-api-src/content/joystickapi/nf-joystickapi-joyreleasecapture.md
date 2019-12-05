@@ -1,19 +1,17 @@
 ---
 UID: NF:joystickapi.joyReleaseCapture
 title: joyReleaseCapture function (joystickapi.h)
-
 description: The joyReleaseCapture function releases the specified captured joystick.
 old-location: multimedia\joyreleasecapture.htm
 tech.root: Multimedia
 ms.assetid: deb1f280-12bd-4e4d-841a-667b7785207c
-
 ms.date: 12/05/2018
-ms.keywords: "_win32_joyReleaseCapture, joyReleaseCapture, joyReleaseCapture function [Windows Multimedia], joystickapi/joyReleaseCapture, multimedia.joyreleasecapture"
+ms.keywords: _win32_joyReleaseCapture, joyReleaseCapture, joyReleaseCapture function [Windows Multimedia], joystickapi/joyReleaseCapture, multimedia.joyreleasecapture
 ms.topic: function
-f1_keywords: 
- - "joystickapi/joyReleaseCapture"
+f1_keywords:
+- joystickapi/joyReleaseCapture
 dev_langs:
- - c++
+- c++
 req.header: joystickapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Winmm.lib
 req.dll: Winmm.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Winmm.dll
- - API-MS-Win-mm-joystick-l1-1-0.dll
- - winmmbase.dll
+- Winmm.dll
+- API-MS-Win-mm-joystick-l1-1-0.dll
+- winmmbase.dll
 api_name:
- - joyReleaseCapture
+- joyReleaseCapture
 targetos: Windows
 req.typenames: 
 req.redist: 

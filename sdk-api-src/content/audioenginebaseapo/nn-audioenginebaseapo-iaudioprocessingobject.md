@@ -1,19 +1,17 @@
 ---
 UID: NN:audioenginebaseapo.IAudioProcessingObject
 title: IAudioProcessingObject (audioenginebaseapo.h)
-
 description: System Effects Audio Processing Objects (sAPOs) are typically used in or called from real-time process threads.
 old-location: audio\iaudioprocessingobject.htm
 tech.root: audio
 ms.assetid: 71be0151-20dd-40e3-a478-d67e4d8d9c36
-
 ms.date: 12/05/2018
 ms.keywords: IAudioProcessingObject, IAudioProcessingObject interface [Audio Devices], IAudioProcessingObject interface [Audio Devices],described, audio.iaudioprocessingobject, audio_syseffects_r_7b8bb04d-2546-4fa3-ae7b-7e11df3b1e15.xml, audioenginebaseapo/IAudioProcessingObject
 ms.topic: interface
-f1_keywords: 
- - "audioenginebaseapo/IAudioProcessingObject"
+f1_keywords:
+- audioenginebaseapo/IAudioProcessingObject
 dev_langs:
- - c++
+- c++
 req.header: audioenginebaseapo.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - audioenginebaseapo.h
+- audioenginebaseapo.h
 api_name:
- - IAudioProcessingObject
+- IAudioProcessingObject
 targetos: Windows
 req.typenames: 
 req.redist: 

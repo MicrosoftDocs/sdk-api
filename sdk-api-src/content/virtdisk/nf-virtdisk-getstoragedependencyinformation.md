@@ -1,19 +1,17 @@
 ---
 UID: NF:virtdisk.GetStorageDependencyInformation
 title: GetStorageDependencyInformation function (virtdisk.h)
-
 description: Returns the relationships between virtual hard disks (VHDs) or CD or DVD image file (ISO) or the volumes contained within those disks and their parent disk or volume.
 old-location: vhd\getstoragedependencyinformation.htm
 tech.root: VStor
 ms.assetid: 9ed3ec7c-5e50-4e81-bba7-798f2fbcf29d
-
 ms.date: 12/05/2018
 ms.keywords: GetStorageDependencyInformation, GetStorageDependencyInformation function [VHD], vdssys/GetStorageDependencyInformation, vhd.getstoragedependencyinformation, virtdisk/GetStorageDependencyInformation
 ms.topic: function
-f1_keywords: 
- - "virtdisk/GetStorageDependencyInformation"
+f1_keywords:
+- virtdisk/GetStorageDependencyInformation
 dev_langs:
- - c++
+- c++
 req.header: virtdisk.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: VirtDisk.lib
 req.dll: VirtDisk.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - VirtDisk.dll
+- VirtDisk.dll
 api_name:
- - GetStorageDependencyInformation
+- GetStorageDependencyInformation
 targetos: Windows
 req.typenames: 
 req.redist: 

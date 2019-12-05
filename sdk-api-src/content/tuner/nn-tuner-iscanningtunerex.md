@@ -1,19 +1,17 @@
 ---
 UID: NN:tuner.IScanningTunerEx
 title: IScanningTunerEx (tuner.h)
-
 description: This topic applies to Windows Vista.
 old-location: mstv\iscanningtunerex.htm
 tech.root: mstv
 ms.assetid: 3f89173a-d24b-400c-a229-28efb7a703be
-
 ms.date: 12/05/2018
 ms.keywords: IScanningTunerEx, IScanningTunerEx interface [Microsoft TV Technologies], IScanningTunerEx interface [Microsoft TV Technologies],described, IScanningTunerExInterface, mstv.iscanningtunerex, tuner/IScanningTunerEx
 ms.topic: interface
-f1_keywords: 
- - "tuner/IScanningTunerEx"
+f1_keywords:
+- tuner/IScanningTunerEx
 dev_langs:
- - c++
+- c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Tuner.h
+- Tuner.h
 api_name:
- - IScanningTunerEx
+- IScanningTunerEx
 targetos: Windows
 req.typenames: 
 req.redist: 

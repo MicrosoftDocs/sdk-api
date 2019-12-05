@@ -1,19 +1,17 @@
 ---
 UID: NF:sensorsapi.ISensorManager.GetSensorsByType
 title: ISensorManager::GetSensorsByType (sensorsapi.h)
-
 description: Retrieves a collection containing all sensors associated with the specified type.
 old-location: winsensors_com_ref\isensormanager_getsensorsbytype.htm
 tech.root: SensorsAPI
 ms.assetid: f383d7e3-bcd0-457d-a410-9ac225f1d147
-
 ms.date: 12/05/2018
 ms.keywords: GetSensorsByType, GetSensorsByType method, GetSensorsByType method,ISensorManager interface, ISensorManager interface,GetSensorsByType method, ISensorManager.GetSensorsByType, ISensorManager::GetSensorsByType, sensorsapi/ISensorManager::GetSensorsByType, winsensors_com_ref.isensormanager_getsensorsbytype
 ms.topic: method
-f1_keywords: 
- - "sensorsapi/ISensorManager.GetSensorsByType"
+f1_keywords:
+- sensorsapi/ISensorManager.GetSensorsByType
 dev_langs:
- - c++
+- c++
 req.header: sensorsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Sensorsapi.lib
 req.dll: Sensorsapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - sensorsapi.dll
+- sensorsapi.dll
 api_name:
- - ISensorManager.GetSensorsByType
+- ISensorManager.GetSensorsByType
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NN:ndhelper.INetDiagHelperUtilFactory
 title: INetDiagHelperUtilFactory (ndhelper.h)
-
 description: Provides a reserved method that is used by the Network Diagnostics Framework (NDF).
 old-location: ndf\inetdiaghelperutilfactory.htm
 tech.root: NDF
 ms.assetid: 5e97ff3b-0dd5-4370-bf28-72fc92818564
-
 ms.date: 12/05/2018
 ms.keywords: INetDiagHelperUtilFactory, INetDiagHelperUtilFactory interface [NDF], INetDiagHelperUtilFactory interface [NDF],described, ndf.inetdiaghelperutilfactory, ndhelper/INetDiagHelperUtilFactory
 ms.topic: interface
-f1_keywords: 
- - "ndhelper/INetDiagHelperUtilFactory"
+f1_keywords:
+- ndhelper/INetDiagHelperUtilFactory
 dev_langs:
- - c++
+- c++
 req.header: ndhelper.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ndhelper.h
+- ndhelper.h
 api_name:
- - INetDiagHelperUtilFactory
+- INetDiagHelperUtilFactory
 targetos: Windows
 req.typenames: 
 req.redist: 

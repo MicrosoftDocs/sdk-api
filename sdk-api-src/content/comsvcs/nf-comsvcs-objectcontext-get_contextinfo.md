@@ -1,19 +1,17 @@
 ---
 UID: NF:comsvcs.ObjectContext.get_ContextInfo
 title: ObjectContext::get_ContextInfo (comsvcs.h)
-
 description: Retrieves the context information object of the current object's context.
 old-location: cos\objectcontext_get_contextinfo.htm
 tech.root: cossdk
 ms.assetid: 1974edd5-3348-4ac4-a80c-c549f2d79161
-
 ms.date: 12/05/2018
 ms.keywords: ObjectContext interface [COM+],get_ContextInfo method, ObjectContext.get_ContextInfo, ObjectContext::get_ContextInfo, _cos_ObjectContext_get_ContextInfo, comsvcs/ObjectContext::get_ContextInfo, cos.objectcontext_get_contextinfo, get_ContextInfo, get_ContextInfo method [COM+], get_ContextInfo method [COM+],ObjectContext interface
 ms.topic: method
-f1_keywords: 
- - "comsvcs/ObjectContext.get_ContextInfo"
+f1_keywords:
+- comsvcs/ObjectContext.get_ContextInfo
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - ObjectContext.get_ContextInfo
+- ObjectContext.get_ContextInfo
 targetos: Windows
 req.typenames: 
 req.redist: 

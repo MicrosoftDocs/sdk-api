@@ -1,19 +1,17 @@
 ---
 UID: NS:tapi.lineagentgrouplist_tag
 title: LINEAGENTGROUPLIST (tapi.h)
-
 description: The LINEAGENTGROUPLIST structure describes a list of ACD agent groups. This structure can contain an array of LINEAGENTGROUPENTRY structures.
 old-location: tapi2\lineagentgrouplist_str.htm
 tech.root: Tapi
 ms.assetid: 6189eb8e-20a4-4c87-bc7f-0a6af9605be7
-
 ms.date: 12/05/2018
-ms.keywords: "*LPLINEAGENTGROUPLIST, LINEAGENTGROUPLIST, LINEAGENTGROUPLIST structure [TAPI 2.2], LPLINEAGENTGROUPLIST, LPLINEAGENTGROUPLIST structure pointer [TAPI 2.2], _tapi2_lineagentgrouplist_str, tapi/LINEAGENTGROUPLIST, tapi/LPLINEAGENTGROUPLIST, tapi2.lineagentgrouplist_str"
+ms.keywords: '*LPLINEAGENTGROUPLIST, LINEAGENTGROUPLIST, LINEAGENTGROUPLIST structure [TAPI 2.2], LPLINEAGENTGROUPLIST, LPLINEAGENTGROUPLIST structure pointer [TAPI 2.2], _tapi2_lineagentgrouplist_str, tapi/LINEAGENTGROUPLIST, tapi/LPLINEAGENTGROUPLIST, tapi2.lineagentgrouplist_str'
 ms.topic: struct
-f1_keywords: 
- - "tapi/LINEAGENTGROUPLIST"
+f1_keywords:
+- tapi/LINEAGENTGROUPLIST
 dev_langs:
- - c++
+- c++
 req.header: tapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Tapi.h
+- Tapi.h
 api_name:
- - LINEAGENTGROUPLIST
+- LINEAGENTGROUPLIST
 targetos: Windows
 req.typenames: LINEAGENTGROUPLIST, *LPLINEAGENTGROUPLIST
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:cluadmex.IGetClusterUIInfo.GetClusterName
 title: IGetClusterUIInfo::GetClusterName (cluadmex.h)
-
 description: Returns the name of the cluster.
 old-location: mscs\igetclusteruiinfo_getclustername.htm
 tech.root: MsCS
 ms.assetid: 2c892250-80b7-4bf8-9514-64833d0e3450
-
 ms.date: 12/05/2018
 ms.keywords: GetClusterName, GetClusterName method [Failover Cluster], GetClusterName method [Failover Cluster],IGetClusterUIInfo interface, IGetClusterUIInfo interface [Failover Cluster],GetClusterName method, IGetClusterUIInfo.GetClusterName, IGetClusterUIInfo::GetClusterName, _wolf_igetclusteruiinfo_getclustername, cluadmex/IGetClusterUIInfo::GetClusterName, mscs.igetclusteruiinfo_getclustername
 ms.topic: method
-f1_keywords: 
- - "cluadmex/IGetClusterUIInfo.GetClusterName"
+f1_keywords:
+- cluadmex/IGetClusterUIInfo.GetClusterName
 dev_langs:
- - c++
+- c++
 req.header: cluadmex.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - cluadmex.h
+- cluadmex.h
 api_name:
- - IGetClusterUIInfo.GetClusterName
+- IGetClusterUIInfo.GetClusterName
 targetos: Windows
 req.typenames: 
 req.redist: 

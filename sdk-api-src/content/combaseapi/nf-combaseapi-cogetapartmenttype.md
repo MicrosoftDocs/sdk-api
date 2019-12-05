@@ -1,19 +1,17 @@
 ---
 UID: NF:combaseapi.CoGetApartmentType
 title: CoGetApartmentType function (combaseapi.h)
-
 description: Returns the current apartment type and type qualifier.
 old-location: com\cogetapartmenttype.htm
 tech.root: com
 ms.assetid: ab0b6008-397f-4210-ba26-1a041b709722
-
 ms.date: 12/05/2018
 ms.keywords: CoGetApartmentType, CoGetApartmentType function [COM], com.cogetapartmenttype, combaseapi/CoGetApartmentType
 ms.topic: function
 f1_keywords:
 - combaseapi/CoGetApartmentType
 dev_langs:
- - c++
+- c++
 req.header: combaseapi.h
 req.include-header: Objbase.h
 req.target-type: Windows

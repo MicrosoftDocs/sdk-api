@@ -1,19 +1,17 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMCanvas.SetAccessibilityLongDescription
 title: IXpsOMCanvas::SetAccessibilityLongDescription (xpsobjectmodel.h)
-
 description: Sets the long (detailed) textual description of the object's contents.
 old-location: xps\ixpsomcanvas_setaccessibilitylongdescription.htm
 tech.root: printdocs
 ms.assetid: 1b9da720-2823-4749-b881-3b9cd5c303a4
-
 ms.date: 12/05/2018
 ms.keywords: IXpsOMCanvas interface [XPS Documents and Packaging],SetAccessibilityLongDescription method, IXpsOMCanvas.SetAccessibilityLongDescription, IXpsOMCanvas::SetAccessibilityLongDescription, SetAccessibilityLongDescription, SetAccessibilityLongDescription method [XPS Documents and Packaging], SetAccessibilityLongDescription method [XPS Documents and Packaging],IXpsOMCanvas interface, xps.ixpsomcanvas_setaccessibilitylongdescription, xpsobjectmodel/IXpsOMCanvas::SetAccessibilityLongDescription
 ms.topic: method
-f1_keywords: 
- - "xpsobjectmodel/IXpsOMCanvas.SetAccessibilityLongDescription"
+f1_keywords:
+- xpsobjectmodel/IXpsOMCanvas.SetAccessibilityLongDescription
 dev_langs:
- - c++
+- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsobjectmodel.h
+- xpsobjectmodel.h
 api_name:
- - IXpsOMCanvas.SetAccessibilityLongDescription
+- IXpsOMCanvas.SetAccessibilityLongDescription
 targetos: Windows
 req.typenames: 
 req.redist: 

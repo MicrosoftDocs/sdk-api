@@ -1,19 +1,17 @@
 ---
 UID: NE:compressapi.__unnamed_enum_0
 title: COMPRESS_INFORMATION_CLASS (compressapi.h)
-
 description: The values of this enumeration identify the type of information class being set or retrieved.
 old-location: cmpapi\compress_information_class.htm
 tech.root: cmpapi
 ms.assetid: ebdcbe03-b7fb-4dec-b906-086f8fe9be4c
-
 ms.date: 12/05/2018
 ms.keywords: COMPRESS_INFORMATION_CLASS, COMPRESS_INFORMATION_CLASS enumeration [Compression API], COMPRESS_INFORMATION_CLASS_BLOCK_SIZE, COMPRESS_INFORMATION_CLASS_INVALID, COMPRESS_INFORMATION_CLASS_LEVEL, cmpapi.compress_information_class, compressapi/COMPRESS_INFORMATION_CLASS, compressapi/COMPRESS_INFORMATION_CLASS_BLOCK_SIZE, compressapi/COMPRESS_INFORMATION_CLASS_INVALID, compressapi/COMPRESS_INFORMATION_CLASS_LEVEL
 ms.topic: enum
-f1_keywords: 
- - "compressapi/COMPRESS_INFORMATION_CLASS"
+f1_keywords:
+- compressapi/COMPRESS_INFORMATION_CLASS
 dev_langs:
- - c++
+- c++
 req.header: compressapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - compressapi.h
+- compressapi.h
 api_name:
- - COMPRESS_INFORMATION_CLASS
+- COMPRESS_INFORMATION_CLASS
 targetos: Windows
 req.typenames: COMPRESS_INFORMATION_CLASS
 req.redist: 

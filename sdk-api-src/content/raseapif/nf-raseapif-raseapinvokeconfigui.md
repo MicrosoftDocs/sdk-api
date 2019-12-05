@@ -1,19 +1,17 @@
 ---
 UID: NF:raseapif.RasEapInvokeConfigUI
 title: RasEapInvokeConfigUI function (raseapif.h)
-
 description: The RAS connection manager calls the RasEapInvokeConfigUI function to display a dialog to obtain configuration information from the user.
 old-location: eap\raseapinvokeconfigui.htm
 tech.root: EAP
 ms.assetid: cdd9b081-e654-445e-9383-3665258f5cfa
-
 ms.date: 12/05/2018
 ms.keywords: RAS_EAP_FLAG_8021X_AUTH, RAS_EAP_FLAG_GUEST_ACCESS, RAS_EAP_FLAG_ROUTER, RasEapInvokeConfigUI, RasEapInvokeConfigUI callback, RasEapInvokeConfigUI callback function [EAP], _eap_raseapinvokeconfigui, eap.raseapinvokeconfigui, raseapif/RasEapInvokeConfigUI
 ms.topic: function
-f1_keywords: 
- - "raseapif/RasEapInvokeConfigUI"
+f1_keywords:
+- raseapif/RasEapInvokeConfigUI
 dev_langs:
- - c++
+- c++
 req.header: raseapif.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Raseapif.h
+- Raseapif.h
 api_name:
- - RasEapInvokeConfigUI
+- RasEapInvokeConfigUI
 targetos: Windows
 req.typenames: 
 req.redist: 

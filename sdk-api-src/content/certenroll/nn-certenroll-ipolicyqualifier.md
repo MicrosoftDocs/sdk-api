@@ -1,19 +1,17 @@
 ---
 UID: NN:certenroll.IPolicyQualifier
 title: IPolicyQualifier (certenroll.h)
-
 description: Represents a qualifier that can be associated with a certificate policy.
 old-location: security\ipolicyqualifier.htm
 tech.root: seccertenroll
 ms.assetid: 3804e372-17bb-458d-8da5-85d760fe5e60
-
 ms.date: 12/05/2018
 ms.keywords: IPolicyQualifier, IPolicyQualifier interface [Security], IPolicyQualifier interface [Security],described, certenroll/IPolicyQualifier, security.ipolicyqualifier
 ms.topic: interface
-f1_keywords: 
- - "certenroll/IPolicyQualifier"
+f1_keywords:
+- certenroll/IPolicyQualifier
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: CertEnroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CertEnroll.dll
+- CertEnroll.dll
 api_name:
- - IPolicyQualifier
+- IPolicyQualifier
 targetos: Windows
 req.typenames: 
 req.redist: 

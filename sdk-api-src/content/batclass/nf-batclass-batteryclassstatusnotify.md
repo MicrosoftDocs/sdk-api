@@ -1,19 +1,17 @@
 ---
 UID: NF:batclass.BatteryClassStatusNotify
 title: BatteryClassStatusNotify function (batclass.h)
-
 description: BatteryClassStatusNotify notifies the battery class driver of changes in battery status.
 old-location: battery\batteryclassstatusnotify.htm
 tech.root: battery
 ms.assetid: b74466e0-d900-49c6-a92e-d10a994fa948
-
 ms.date: 12/05/2018
 ms.keywords: BatteryClassStatusNotify, BatteryClassStatusNotify function [Battery Devices], bat-rtn_3e9d25d2-bd07-419a-80a5-98fcc08faedd.xml, batclass/BatteryClassStatusNotify, battery.batteryclassstatusnotify
 ms.topic: function
-f1_keywords: 
- - "batclass/BatteryClassStatusNotify"
+f1_keywords:
+- batclass/BatteryClassStatusNotify
 dev_langs:
- - c++
+- c++
 req.header: batclass.h
 req.include-header: Batclass.h
 req.target-type: Desktop
@@ -32,15 +30,15 @@ req.lib: Battc.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - LibDef
+- LibDef
 api_location:
- - Battc.lib
- - Battc.dll
+- Battc.lib
+- Battc.dll
 api_name:
- - BatteryClassStatusNotify
+- BatteryClassStatusNotify
 targetos: Windows
 req.typenames: 
 req.redist: 

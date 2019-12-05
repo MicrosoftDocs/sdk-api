@@ -1,19 +1,17 @@
 ---
 UID: NC:webservices.WS_OPERATION_CANCEL_CALLBACK
 title: WS_OPERATION_CANCEL_CALLBACK (webservices.h)
-
 description: Gives notification of the cancellation of an asynchronous service operation call as a result of an aborted shutdown of service host.
 old-location: wsw\ws_operation_cancel_callback.htm
 tech.root: wsw
 ms.assetid: 177f9abb-861d-42a9-8044-25076b026f1d
-
 ms.date: 12/05/2018
 ms.keywords: WS_OPERATION_CANCEL_CALLBACK, WS_OPERATION_CANCEL_CALLBACK callback, WS_OPERATION_CANCEL_CALLBACK callback function [Web Services for Windows], webservices/WS_OPERATION_CANCEL_CALLBACK, wsw.ws_operation_cancel_callback
 ms.topic: callback
-f1_keywords: 
- - "webservices/WS_OPERATION_CANCEL_CALLBACK"
+f1_keywords:
+- webservices/WS_OPERATION_CANCEL_CALLBACK
 dev_langs:
- - c++
+- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - WebServices.h
+- WebServices.h
 api_name:
- - WS_OPERATION_CANCEL_CALLBACK
+- WS_OPERATION_CANCEL_CALLBACK
 targetos: Windows
 req.typenames: 
 req.redist: 

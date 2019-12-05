@@ -1,19 +1,17 @@
 ---
 UID: NF:winsafer.SaferRecordEventLogEntry
 title: SaferRecordEventLogEntry function (winsafer.h)
-
 description: Saves messages to an event log.
 old-location: security\saferrecordeventlogentry.htm
 tech.root: SecMgmt
 ms.assetid: 7eb48f80-3a57-46ec-aca1-6ff8c1c514c6
-
 ms.date: 12/05/2018
 ms.keywords: SaferRecordEventLogEntry, SaferRecordEventLogEntry function [Security], _mnp_saferrecordeventlogentry, security.saferrecordeventlogentry, winsafer/SaferRecordEventLogEntry
 ms.topic: function
-f1_keywords: 
- - "winsafer/SaferRecordEventLogEntry"
+f1_keywords:
+- winsafer/SaferRecordEventLogEntry
 dev_langs:
- - c++
+- c++
 req.header: winsafer.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Advapi32.dll
+- Advapi32.dll
 api_name:
- - SaferRecordEventLogEntry
+- SaferRecordEventLogEntry
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:vswriter.CVssWriter.Subscribe
 title: CVssWriter::Subscribe (vswriter.h)
-
 description: The Subscribe method subscribes the writer with VSS.
 old-location: base\cvsswriter_subscribe.htm
 tech.root: VSS
 ms.assetid: ab9520c9-bd6b-4c81-87fc-f5cda6ee9c94
-
 ms.date: 12/05/2018
 ms.keywords: CVssWriter interface [VSS],Subscribe method, CVssWriter.Subscribe, CVssWriter::Subscribe, Subscribe, Subscribe method [VSS], Subscribe method [VSS],CVssWriter interface, _win32_cvsswriter_subscribe, base.cvsswriter_subscribe, vswriter/CVssWriter::Subscribe
 ms.topic: method
-f1_keywords: 
- - "vswriter/CVssWriter.Subscribe"
+f1_keywords:
+- vswriter/CVssWriter.Subscribe
 dev_langs:
- - c++
+- c++
 req.header: vswriter.h
 req.include-header: Vss.h, VsWriter.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: VssApi.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - VssApi.lib
- - VssApi.dll
+- VssApi.lib
+- VssApi.dll
 api_name:
- - CVssWriter.Subscribe
+- CVssWriter.Subscribe
 targetos: Windows
 req.typenames: 
 req.redist: 

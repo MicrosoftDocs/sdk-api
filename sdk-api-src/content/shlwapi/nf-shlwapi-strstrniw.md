@@ -1,19 +1,17 @@
 ---
 UID: NF:shlwapi.StrStrNIW
 title: StrStrNIW function (shlwapi.h)
-
 description: Finds the first occurrence of a substring within a string. The comparison is case-insensitive.
 old-location: shell\StrStrNIW.htm
 tech.root: shell
 ms.assetid: 743f74f6-a0a6-4c03-b3bf-7f819bbc665f
-
 ms.date: 12/05/2018
 ms.keywords: StrStrNIW, StrStrNIW function [Windows Shell], _shell_StrStrNIW, shell.StrStrNIW, shlwapi/StrStrNIW
 ms.topic: function
-f1_keywords: 
- - "shlwapi/StrStrNIW"
+f1_keywords:
+- shlwapi/StrStrNIW
 dev_langs:
- - c++
+- c++
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,19 +30,19 @@ req.lib:
 req.dll: Shell32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Shell32.dll
- - API-MS-Win-Core-shlwapi-Obsolete-l1-1-0.dll
- - KernelBase.dll
- - API-MS-Win-Core-shlwapi-Obsolete-l1-2-0.dll
- - API-MS-Win-DownLevel-shlwapi-l1-1-0.dll
- - API-MS-Win-DownLevel-shlwapi-l1-1-1.dll
+- Shell32.dll
+- API-MS-Win-Core-shlwapi-Obsolete-l1-1-0.dll
+- KernelBase.dll
+- API-MS-Win-Core-shlwapi-Obsolete-l1-2-0.dll
+- API-MS-Win-DownLevel-shlwapi-l1-1-0.dll
+- API-MS-Win-DownLevel-shlwapi-l1-1-1.dll
 api_name:
- - StrStrNIW
+- StrStrNIW
 targetos: Windows
 req.typenames: 
 req.redist: 

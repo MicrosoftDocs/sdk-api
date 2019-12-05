@@ -6,9 +6,9 @@ ms.date: 4/26/2019
 ms.keywords: tagOLEUICHANGEICONW, OLEUICHANGEICONW
 ms.topic: language-reference
 f1_keywords:
- - tagOLEUICHANGEICONW
+- tagOLEUICHANGEICONW
 dev_langs:
- - c++
+- c++
 targetos: Windows
 req.construct-type: structure
 req.ddi-compliance: 
@@ -26,14 +26,14 @@ req.typenames: OLEUICHANGEICONW, *POLEUICHANGEICONW, *LPOLEUICHANGEICONW
 req.umdf-ver: 
 req.unicode-ansi: 
 topic_type:
- - apiref
+- apiref
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - oledlg.h
+- oledlg.h
 api_name:
- - tagOLEUICHANGEICONW
- - OLEUICHANGEICONW
+- tagOLEUICHANGEICONW
+- OLEUICHANGEICONW
 ---
 
 ## -description

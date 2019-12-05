@@ -1,19 +1,17 @@
 ---
 UID: NF:pla.IDataManager.put_CheckBeforeRunning
 title: IDataManager::put_CheckBeforeRunning (pla.h)
-
 description: Retrieves or sets a value that indicates whether the data manager should check imposed limits, such as the minimum available free disk space, before collecting data.
 old-location: pla\idatamanager_checkbeforerunning.htm
 tech.root: PLA
 ms.assetid: 23c7aced-d159-4d5e-a9ff-f0ca5b3e4470
-
 ms.date: 12/05/2018
 ms.keywords: CheckBeforeRunning property [PLA], CheckBeforeRunning property [PLA],IDataManager interface, IDataManager interface [PLA],CheckBeforeRunning property, IDataManager.CheckBeforeRunning, IDataManager.put_CheckBeforeRunning, IDataManager::CheckBeforeRunning, IDataManager::get_CheckBeforeRunning, IDataManager::put_CheckBeforeRunning, base.idatamanager_checkbeforerunning, pla.idatamanager_checkbeforerunning, pla/IDataManager::CheckBeforeRunning, pla/IDataManager::get_CheckBeforeRunning, pla/IDataManager::put_CheckBeforeRunning, put_CheckBeforeRunning
 ms.topic: method
-f1_keywords: 
- - "pla/IDataManager.CheckBeforeRunning"
+f1_keywords:
+- pla/IDataManager.CheckBeforeRunning
 dev_langs:
- - c++
+- c++
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: Pla.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Pla.dll
+- Pla.dll
 api_name:
- - IDataManager.CheckBeforeRunning
- - IDataManager.get_CheckBeforeRunning
- - IDataManager.put_CheckBeforeRunning
+- IDataManager.CheckBeforeRunning
+- IDataManager.get_CheckBeforeRunning
+- IDataManager.put_CheckBeforeRunning
 targetos: Windows
 req.typenames: 
 req.redist: 

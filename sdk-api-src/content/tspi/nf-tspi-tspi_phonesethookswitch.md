@@ -1,19 +1,17 @@
 ---
 UID: NF:tspi.TSPI_phoneSetHookSwitch
 title: TSPI_phoneSetHookSwitch function (tspi.h)
-
 description: The TSPI_phoneSetHookSwitch function sets the hook state of the specified open phone's hookswitch devices to the specified mode. Only the hookswitch state of the hookswitch devices listed is affected.
 old-location: tspi\tspi_phonesethookswitch.htm
 tech.root: Tapi
 ms.assetid: e0cfe1b7-9904-4baf-8801-43bc1a5d05d8
-
 ms.date: 12/05/2018
 ms.keywords: TSPI_phoneSetHookSwitch, TSPI_phoneSetHookSwitch function [TAPI 2.2], _tspi_tspi_phonesethookswitch, tspi.tspi_phonesethookswitch, tspi/TSPI_phoneSetHookSwitch
 ms.topic: function
-f1_keywords: 
- - "tspi/TSPI_phoneSetHookSwitch"
+f1_keywords:
+- tspi/TSPI_phoneSetHookSwitch
 dev_langs:
- - c++
+- c++
 req.header: tspi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Tspi.h
+- Tspi.h
 api_name:
- - TSPI_phoneSetHookSwitch
+- TSPI_phoneSetHookSwitch
 targetos: Windows
 req.typenames: 
 req.redist: 

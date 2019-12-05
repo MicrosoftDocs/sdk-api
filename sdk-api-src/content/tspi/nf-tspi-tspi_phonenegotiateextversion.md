@@ -1,19 +1,17 @@
 ---
 UID: NF:tspi.TSPI_phoneNegotiateExtVersion
 title: TSPI_phoneNegotiateExtVersion function (tspi.h)
-
 description: The TSPI_phoneNegotiateExtVersion function returns the highest extension version number the service provider can operate under for this device, given the range of possible extension versions.
 old-location: tspi\tspi_phonenegotiateextversion.htm
 tech.root: Tapi
 ms.assetid: 03ea6d25-8e65-4c8a-80dc-f2ecd214ad0e
-
 ms.date: 12/05/2018
 ms.keywords: TSPI_phoneNegotiateExtVersion, TSPI_phoneNegotiateExtVersion function [TAPI 2.2], _tspi_tspi_phonenegotiateextversion, tspi.tspi_phonenegotiateextversion, tspi/TSPI_phoneNegotiateExtVersion
 ms.topic: function
-f1_keywords: 
- - "tspi/TSPI_phoneNegotiateExtVersion"
+f1_keywords:
+- tspi/TSPI_phoneNegotiateExtVersion
 dev_langs:
- - c++
+- c++
 req.header: tspi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Tspi.h
+- Tspi.h
 api_name:
- - TSPI_phoneNegotiateExtVersion
+- TSPI_phoneNegotiateExtVersion
 targetos: Windows
 req.typenames: 
 req.redist: 

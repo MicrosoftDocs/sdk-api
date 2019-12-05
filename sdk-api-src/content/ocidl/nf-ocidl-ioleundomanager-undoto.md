@@ -1,19 +1,17 @@
 ---
 UID: NF:ocidl.IOleUndoManager.UndoTo
 title: IOleUndoManager::UndoTo (ocidl.h)
-
 description: Instructs the undo manager to invoke undo actions back through the undo stack, down to and including the specified undo unit.
 old-location: com\ioleundomanager_undoto.htm
 tech.root: com
 ms.assetid: 49c98126-4b99-449e-b08c-f21f98c7c56a
-
 ms.date: 12/05/2018
 ms.keywords: IOleUndoManager interface [COM],UndoTo method, IOleUndoManager.UndoTo, IOleUndoManager::UndoTo, UndoTo, UndoTo method [COM], UndoTo method [COM],IOleUndoManager interface, _ole_ioleundomanager_undoto, com.ioleundomanager_undoto, ocidl/IOleUndoManager::UndoTo
 ms.topic: method
-f1_keywords: 
- - "ocidl/IOleUndoManager.UndoTo"
+f1_keywords:
+- ocidl/IOleUndoManager.UndoTo
 dev_langs:
- - c++
+- c++
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - OCIdl.h
+- OCIdl.h
 api_name:
- - IOleUndoManager.UndoTo
+- IOleUndoManager.UndoTo
 targetos: Windows
 req.typenames: 
 req.redist: 

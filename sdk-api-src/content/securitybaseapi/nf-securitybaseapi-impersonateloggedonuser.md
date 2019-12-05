@@ -1,19 +1,17 @@
 ---
 UID: NF:securitybaseapi.ImpersonateLoggedOnUser
 title: ImpersonateLoggedOnUser function (securitybaseapi.h)
-
 description: Lets the calling thread impersonate the security context of a logged-on user. The user is represented by a token handle.
 old-location: security\impersonateloggedonuser.htm
 tech.root: SecAuthZ
 ms.assetid: cf5c31ae-6749-45c2-888f-697060cc8c75
-
 ms.date: 12/05/2018
 ms.keywords: ImpersonateLoggedOnUser, ImpersonateLoggedOnUser function [Security], _win32_impersonateloggedonuser, security.impersonateloggedonuser, securitybaseapi/ImpersonateLoggedOnUser
 ms.topic: function
-f1_keywords: 
- - "securitybaseapi/ImpersonateLoggedOnUser"
+f1_keywords:
+- securitybaseapi/ImpersonateLoggedOnUser
 dev_langs:
- - c++
+- c++
 req.header: securitybaseapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,20 +30,20 @@ req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Advapi32.dll
- - API-MS-Win-DownLevel-AdvApi32-l1-1-1.dll
- - KernelBase.dll
- - API-MS-Win-Security-base-l1-1-0.dll
- - API-MS-Win-Security-base-l1-2-0.dll
- - MinKernelBase.dll
- - API-MS-Win-Security-Base-L1-2-1.dll
+- Advapi32.dll
+- API-MS-Win-DownLevel-AdvApi32-l1-1-1.dll
+- KernelBase.dll
+- API-MS-Win-Security-base-l1-1-0.dll
+- API-MS-Win-Security-base-l1-2-0.dll
+- MinKernelBase.dll
+- API-MS-Win-Security-Base-L1-2-1.dll
 api_name:
- - ImpersonateLoggedOnUser
+- ImpersonateLoggedOnUser
 targetos: Windows
 req.typenames: 
 req.redist: 

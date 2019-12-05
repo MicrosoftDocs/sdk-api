@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d11.ID3D11CryptoSession.GetCryptoSessionHandle
 title: ID3D11CryptoSession::GetCryptoSessionHandle (d3d11.h)
-
 description: Gets a handle to the cryptographic session.
 old-location: mf\id3d11cryptosession_getcryptosessionhandle.htm
 tech.root: medfound
 ms.assetid: AEF55A0B-7052-4264-BC82-DACE06D20A81
-
 ms.date: 12/05/2018
 ms.keywords: GetCryptoSessionHandle, GetCryptoSessionHandle method [Media Foundation], GetCryptoSessionHandle method [Media Foundation],ID3D11CryptoSession interface, ID3D11CryptoSession interface [Media Foundation],GetCryptoSessionHandle method, ID3D11CryptoSession.GetCryptoSessionHandle, ID3D11CryptoSession::GetCryptoSessionHandle, d3d11/ID3D11CryptoSession::GetCryptoSessionHandle, mf.id3d11cryptosession_getcryptosessionhandle
 ms.topic: method
-f1_keywords: 
- - "d3d11/ID3D11CryptoSession.GetCryptoSessionHandle"
+f1_keywords:
+- d3d11/ID3D11CryptoSession.GetCryptoSessionHandle
 dev_langs:
- - c++
+- c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - d3d11.h
+- d3d11.h
 api_name:
- - ID3D11CryptoSession.GetCryptoSessionHandle
+- ID3D11CryptoSession.GetCryptoSessionHandle
 targetos: Windows
 req.typenames: 
 req.redist: 

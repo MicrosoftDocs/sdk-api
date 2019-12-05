@@ -1,19 +1,17 @@
 ---
 UID: NF:windowsx.ComboBox_FindItemData
 title: ComboBox_FindItemData macro (windowsx.h)
-
 description: Finds the first item in a combo box list that has the specified item data. You can use this macro or send the CB_FINDSTRING message explicitly.
 old-location: controls\ComboBox_FindItemData.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\comboboxes\comboboxreference\comboboxmacros\combobox_finditemdata.htm
-
 ms.date: 12/05/2018
 ms.keywords: ComboBox_FindItemData, ComboBox_FindItemData macro [Windows Controls], _win32_ComboBox_FindItemData, _win32_ComboBox_FindItemData_cpp, controls.ComboBox_FindItemData, controls._win32_ComboBox_FindItemData, windowsx/ComboBox_FindItemData
 ms.topic: macro
-f1_keywords: 
- - "windowsx/ComboBox_FindItemData"
+f1_keywords:
+- windowsx/ComboBox_FindItemData
 dev_langs:
- - c++
+- c++
 req.header: windowsx.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Windowsx.h
+- Windowsx.h
 api_name:
- - ComboBox_FindItemData
+- ComboBox_FindItemData
 targetos: Windows
 req.typenames: 
 req.redist: 

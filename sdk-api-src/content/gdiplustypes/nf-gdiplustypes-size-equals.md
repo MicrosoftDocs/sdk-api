@@ -1,19 +1,17 @@
 ---
 UID: NF:gdiplustypes.Size.Equals
 title: Size::Equals (gdiplustypes.h)
-
 description: The Size::Equals method determines whether two Size objects are equal.
 old-location: gdiplus\_gdiplus_CLASS_Size_Equals_sz_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\sizeclass\sizemethods\equals_53sz.htm
-
 ms.date: 12/05/2018
 ms.keywords: Equals, Equals method [GDI+], Equals method [GDI+],Size class, Size class [GDI+],Equals method, Size.Equals, Size::Equals, _gdiplus_CLASS_Size_Equals_sz_, gdiplus._gdiplus_CLASS_Size_Equals_sz_
 ms.topic: method
-f1_keywords: 
- - "gdiplustypes/Size.Equals"
+f1_keywords:
+- gdiplustypes/Size.Equals
 dev_langs:
- - c++
+- c++
 req.header: gdiplustypes.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - Size.Equals
+- Size.Equals
 targetos: Windows
 req.typenames: 
 req.redist: 

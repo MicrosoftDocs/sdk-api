@@ -1,19 +1,17 @@
 ---
 UID: NS:sspi._SEC_CHANNEL_BINDINGS
 title: SEC_CHANNEL_BINDINGS (sspi.h)
-
 description: Specifies channel binding information for a security context.
 old-location: security\sec_channel_bindings.htm
 tech.root: SecAuthN
 ms.assetid: 1cdbe53f-3fa0-46b1-9449-8fd3db6cddce
-
 ms.date: 12/05/2018
 ms.keywords: '*PSEC_CHANNEL_BINDINGS, PSEC_CHANNEL_BINDINGS, PSEC_CHANNEL_BINDINGS structure pointer [Security], SEC_CHANNEL_BINDINGS, SEC_CHANNEL_BINDINGS structure [Security], security.sec_channel_bindings, sspi/PSEC_CHANNEL_BINDINGS, sspi/SEC_CHANNEL_BINDINGS'
 ms.topic: struct
 f1_keywords:
 - sspi/SEC_CHANNEL_BINDINGS
 dev_langs:
- - c++
+- c++
 req.header: sspi.h
 req.include-header: 
 req.target-type: Windows

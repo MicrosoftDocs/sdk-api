@@ -1,19 +1,17 @@
 ---
 UID: NF:certenroll.IX509CertificateRequestPkcs10.get_CryptAttributes
 title: IX509CertificateRequestPkcs10::get_CryptAttributes (certenroll.h)
-
 description: Retrieves an ICryptAttributes collection of optional certificate attributes.
 old-location: security\ix509certificaterequestpkcs10_cryptattributes_property.htm
 tech.root: seccertenroll
 ms.assetid: 078b6c55-8b56-4075-a8fa-b3230041ded0
-
 ms.date: 12/05/2018
 ms.keywords: CryptAttributes property [Security], CryptAttributes property [Security],IX509CertificateRequestPkcs10 interface, IX509CertificateRequestPkcs10 interface [Security],CryptAttributes property, IX509CertificateRequestPkcs10.CryptAttributes, IX509CertificateRequestPkcs10.get_CryptAttributes, IX509CertificateRequestPkcs10::CryptAttributes, IX509CertificateRequestPkcs10::get_CryptAttributes, certenroll/IX509CertificateRequestPkcs10::CryptAttributes, certenroll/IX509CertificateRequestPkcs10::get_CryptAttributes, get_CryptAttributes, security.ix509certificaterequestpkcs10_cryptattributes_property
 ms.topic: method
-f1_keywords: 
- - "certenroll/IX509CertificateRequestPkcs10.CryptAttributes"
+f1_keywords:
+- certenroll/IX509CertificateRequestPkcs10.CryptAttributes
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: CertEnroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CertEnroll.dll
+- CertEnroll.dll
 api_name:
- - IX509CertificateRequestPkcs10.CryptAttributes
- - IX509CertificateRequestPkcs10.get_CryptAttributes
+- IX509CertificateRequestPkcs10.CryptAttributes
+- IX509CertificateRequestPkcs10.get_CryptAttributes
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi3if.IEnumStream.Next
 title: IEnumStream::Next (tapi3if.h)
-
 description: The Next method gets the next specified number of elements in the enumeration sequence.
 old-location: tapi3\ienumstream_next.htm
 tech.root: Tapi
 ms.assetid: 96399092-88fa-4b3c-aede-ee61c7c0320a
-
 ms.date: 12/05/2018
 ms.keywords: IEnumStream interface [TAPI 2.2],Next method, IEnumStream.Next, IEnumStream::Next, Next, Next method [TAPI 2.2], Next method [TAPI 2.2],IEnumStream interface, _tapi3_ienumstream_next, tapi3.ienumstream_next, tapi3if/IEnumStream::Next
 ms.topic: method
-f1_keywords: 
- - "tapi3if/IEnumStream.Next"
+f1_keywords:
+- tapi3if/IEnumStream.Next
 dev_langs:
- - c++
+- c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - tapi3if.h
+- tapi3if.h
 api_name:
- - IEnumStream.Next
+- IEnumStream.Next
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NS:windns.__unnamed_struct_6
 title: DNS_SOA_DATAA (windns.h)
-
 description: The DNS_SOA_DATA structure represents a DNS start of authority (SOA) record as specified in section 3.3.13 of RFC 1035.
 old-location: dns\dns_soa_data.htm
 tech.root: DNS
 ms.assetid: 715cbb70-91fe-47ac-a713-1fe0701d4f8c
-
 ms.date: 12/05/2018
-ms.keywords: "*PDNS_SOA_DATA, *PDNS_SOA_DATAA, DNS_SOA_DATA, DNS_SOA_DATA structure [DNS], DNS_SOA_DATAA, PDNS_SOA_DATA, PDNS_SOA_DATA structure pointer [DNS], _dns_dns_soa_data, dns.dns_soa_data, windns/DNS_SOA_DATA, windns/PDNS_SOA_DATA"
+ms.keywords: '*PDNS_SOA_DATA, *PDNS_SOA_DATAA, DNS_SOA_DATA, DNS_SOA_DATA structure [DNS], DNS_SOA_DATAA, PDNS_SOA_DATA, PDNS_SOA_DATA structure pointer [DNS], _dns_dns_soa_data, dns.dns_soa_data, windns/DNS_SOA_DATA, windns/PDNS_SOA_DATA'
 ms.topic: struct
-f1_keywords: 
- - "windns/DNS_SOA_DATA"
+f1_keywords:
+- windns/DNS_SOA_DATA
 dev_langs:
- - c++
+- c++
 req.header: windns.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Windns.h
+- Windns.h
 api_name:
- - DNS_SOA_DATA
+- DNS_SOA_DATA
 targetos: Windows
 req.typenames: DNS_SOA_DATAA, *PDNS_SOA_DATAA
 req.redist: 

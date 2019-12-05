@@ -1,19 +1,17 @@
 ---
 UID: NS:bits1_5._BG_JOB_REPLY_PROGRESS
 title: BG_JOB_REPLY_PROGRESS
-
 description: Provides progress information related to the reply portion of an upload-reply job.
 old-location: bits\bg_job_reply_progress.htm
 tech.root: Bits
 ms.assetid: ea78ee22-87b2-4859-bd49-dd309c8aa234
-
 ms.date: 12/05/2018
 ms.keywords: BG_JOB_REPLY_PROGRESS, BG_JOB_REPLY_PROGRESS structure [BITS], _drz_bg_job_reply_progress, bits.bg_job_reply_progress, bits1_5/BG_JOB_REPLY_PROGRESS
 ms.topic: struct
-f1_keywords: 
- - "bits1_5/BG_JOB_REPLY_PROGRESS"
+f1_keywords:
+- bits1_5/BG_JOB_REPLY_PROGRESS
 dev_langs:
- - c++
+- c++
 req.header: bits1_5.h
 req.include-header: Bits.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Bits1_5.h
+- Bits1_5.h
 api_name:
- - BG_JOB_REPLY_PROGRESS
+- BG_JOB_REPLY_PROGRESS
 targetos: Windows
 req.typenames: BG_JOB_REPLY_PROGRESS
 req.redist: BITS 1.5 on  Windows XP

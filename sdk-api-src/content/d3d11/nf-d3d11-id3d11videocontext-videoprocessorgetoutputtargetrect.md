@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d11.ID3D11VideoContext.VideoProcessorGetOutputTargetRect
 title: ID3D11VideoContext::VideoProcessorGetOutputTargetRect (d3d11.h)
-
 description: Gets the current target rectangle for the video processor.
 old-location: mf\id3d11videocontext_videoprocessorgetoutputtargetrect.htm
 tech.root: medfound
 ms.assetid: 5D59822A-B322-4E79-A543-A89C2232C62F
-
 ms.date: 12/05/2018
 ms.keywords: ID3D11VideoContext interface [Media Foundation],VideoProcessorGetOutputTargetRect method, ID3D11VideoContext.VideoProcessorGetOutputTargetRect, ID3D11VideoContext::VideoProcessorGetOutputTargetRect, VideoProcessorGetOutputTargetRect, VideoProcessorGetOutputTargetRect method [Media Foundation], VideoProcessorGetOutputTargetRect method [Media Foundation],ID3D11VideoContext interface, d3d11/ID3D11VideoContext::VideoProcessorGetOutputTargetRect, mf.id3d11videocontext_videoprocessorgetoutputtargetrect
 ms.topic: method
-f1_keywords: 
- - "d3d11/ID3D11VideoContext.VideoProcessorGetOutputTargetRect"
+f1_keywords:
+- d3d11/ID3D11VideoContext.VideoProcessorGetOutputTargetRect
 dev_langs:
- - c++
+- c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - d3d11.h
+- d3d11.h
 api_name:
- - ID3D11VideoContext.VideoProcessorGetOutputTargetRect
+- ID3D11VideoContext.VideoProcessorGetOutputTargetRect
 targetos: Windows
 req.typenames: 
 req.redist: 

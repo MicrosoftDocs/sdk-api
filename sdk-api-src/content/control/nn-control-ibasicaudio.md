@@ -1,19 +1,17 @@
 ---
 UID: NN:control.IBasicAudio
 title: IBasicAudio (control.h)
-
 description: The IBasicAudio interface controls the volume and balance of the audio stream.This interface is implemented on the Audio Renderer (WaveOut) filter and the DirectSound Renderer filter, but is exposed to applications through the Filter Graph Manager.
 old-location: dshow\ibasicaudio.htm
 tech.root: DirectShow
 ms.assetid: 0335b263-8d32-4690-a606-ba2b3e382680
-
 ms.date: 12/05/2018
 ms.keywords: IBasicAudio, IBasicAudio interface [DirectShow], IBasicAudio interface [DirectShow],described, IBasicAudioInterface, control/IBasicAudio, dshow.ibasicaudio
 ms.topic: interface
-f1_keywords: 
- - "control/IBasicAudio"
+f1_keywords:
+- control/IBasicAudio
 dev_langs:
- - c++
+- c++
 req.header: control.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IBasicAudio
+- IBasicAudio
 targetos: Windows
 req.typenames: 
 req.redist: 

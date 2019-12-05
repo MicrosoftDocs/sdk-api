@@ -1,19 +1,17 @@
 ---
 UID: NF:dcompanimation.IDCompositionAnimation.AddRepeat
 title: IDCompositionAnimation::AddRepeat (dcompanimation.h)
-
 description: Adds a repeat segment that causes the specified portion of an animation function to be repeated.
 old-location: directcomp\idcompositionanimation_addrepeat.htm
 tech.root: directcomp
 ms.assetid: 14179e2f-3ede-4137-baa4-074bb31e1481
-
 ms.date: 12/05/2018
 ms.keywords: AddRepeat, AddRepeat method [DirectComposition], AddRepeat method [DirectComposition],IDCompositionAnimation interface, IDCompositionAnimation interface [DirectComposition],AddRepeat method, IDCompositionAnimation.AddRepeat, IDCompositionAnimation::AddRepeat, dcompanimation/IDCompositionAnimation::AddRepeat, directcomp.idcompositionanimation_addrepeat
 ms.topic: method
-f1_keywords: 
- - "dcompanimation/IDCompositionAnimation.AddRepeat"
+f1_keywords:
+- dcompanimation/IDCompositionAnimation.AddRepeat
 dev_langs:
- - c++
+- c++
 req.header: dcompanimation.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dcomp.lib
 req.dll: Dcomp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dcomp.dll
+- Dcomp.dll
 api_name:
- - IDCompositionAnimation.AddRepeat
+- IDCompositionAnimation.AddRepeat
 targetos: Windows
 req.typenames: 
 req.redist: 

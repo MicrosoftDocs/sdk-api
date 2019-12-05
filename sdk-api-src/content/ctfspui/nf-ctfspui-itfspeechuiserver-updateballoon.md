@@ -1,19 +1,17 @@
 ---
 UID: NF:ctfspui.ITfSpeechUIServer.UpdateBalloon
 title: ITfSpeechUIServer::UpdateBalloon (ctfspui.h)
-
 description: ITfSpeechUIServer::UpdateBalloon method
 old-location: tsf\itfspeechuiserver_updateballoon.htm
 tech.root: TSF
 ms.assetid: 5ef25aa6-afc4-4c91-8e49-cb5a7ecec36a
-
 ms.date: 12/05/2018
 ms.keywords: ITfSpeechUIServer interface [Text Services Framework],UpdateBalloon method, ITfSpeechUIServer.UpdateBalloon, ITfSpeechUIServer::UpdateBalloon, UpdateBalloon, UpdateBalloon method [Text Services Framework], UpdateBalloon method [Text Services Framework],ITfSpeechUIServer interface, ctfspui/ITfSpeechUIServer::UpdateBalloon, tsf.itfspeechuiserver_updateballoon
 ms.topic: method
-f1_keywords: 
- - "ctfspui/ITfSpeechUIServer.UpdateBalloon"
+f1_keywords:
+- ctfspui/ITfSpeechUIServer.UpdateBalloon
 dev_langs:
- - c++
+- c++
 req.header: ctfspui.h
 req.include-header: Ctfutb.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Sptip.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - sptip.dll
+- sptip.dll
 api_name:
- - ITfSpeechUIServer.UpdateBalloon
+- ITfSpeechUIServer.UpdateBalloon
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

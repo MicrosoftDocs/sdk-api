@@ -1,19 +1,17 @@
 ---
 UID: NS:winnt._SYSTEM_CPU_SET_INFORMATION
 title: SYSTEM_CPU_SET_INFORMATION (winnt.h)
-
 description: This structure is returned by GetSystemCpuSetInformation. It is used to enumerate the CPU Sets on the system and determine their current state.
 old-location: base\system_cpu_set_information.htm
 tech.root: ProcThread
 ms.assetid: 48C38098-C42E-46D0-B938-CBD0BA7F8586
-
 ms.date: 12/05/2018
-ms.keywords: "*PSYSTEM_CPU_SET_INFORMATION, PSYSTEM_CPU_SET_INFORMATION, PSYSTEM_CPU_SET_INFORMATION structure pointer, SYSTEM_CPU_SET_INFORMATION, SYSTEM_CPU_SET_INFORMATION structure, base.system_cpu_set_information, winnt/PSYSTEM_CPU_SET_INFORMATION, winnt/SYSTEM_CPU_SET_INFORMATION"
+ms.keywords: '*PSYSTEM_CPU_SET_INFORMATION, PSYSTEM_CPU_SET_INFORMATION, PSYSTEM_CPU_SET_INFORMATION structure pointer, SYSTEM_CPU_SET_INFORMATION, SYSTEM_CPU_SET_INFORMATION structure, base.system_cpu_set_information, winnt/PSYSTEM_CPU_SET_INFORMATION, winnt/SYSTEM_CPU_SET_INFORMATION'
 ms.topic: struct
-f1_keywords: 
- - "winnt/SYSTEM_CPU_SET_INFORMATION"
+f1_keywords:
+- winnt/SYSTEM_CPU_SET_INFORMATION
 dev_langs:
- - c++
+- c++
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - winnt.h
+- winnt.h
 api_name:
- - SYSTEM_CPU_SET_INFORMATION
+- SYSTEM_CPU_SET_INFORMATION
 targetos: Windows
 req.typenames: SYSTEM_CPU_SET_INFORMATION, *PSYSTEM_CPU_SET_INFORMATION
 req.redist: 

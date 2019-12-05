@@ -1,19 +1,17 @@
 ---
 UID: NN:sbtsv.ITsSbLoadBalancing
 title: ITsSbLoadBalancing (sbtsv.h)
-
 description: Exposes methods you can use to provide a custom load-balancing algorithm.
 old-location: termserv\itssbloadbalancing.htm
 tech.root: TermServ
 ms.assetid: 2dc9dd37-0dc1-4b73-bcac-9fb3d1158b54
-
 ms.date: 12/05/2018
 ms.keywords: ITsSbLoadBalancing, ITsSbLoadBalancing interface [Remote Desktop Services], ITsSbLoadBalancing interface [Remote Desktop Services],described, sbtsv/ITsSbLoadBalancing, termserv.itssbloadbalancing
 ms.topic: interface
-f1_keywords: 
- - "sbtsv/ITsSbLoadBalancing"
+f1_keywords:
+- sbtsv/ITsSbLoadBalancing
 dev_langs:
- - c++
+- c++
 req.header: sbtsv.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - sbtsv.h
+- sbtsv.h
 api_name:
- - ITsSbLoadBalancing
+- ITsSbLoadBalancing
 targetos: Windows
 req.typenames: 
 req.redist: 

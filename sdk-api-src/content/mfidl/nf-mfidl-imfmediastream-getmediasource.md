@@ -1,19 +1,17 @@
 ---
 UID: NF:mfidl.IMFMediaStream.GetMediaSource
 title: IMFMediaStream::GetMediaSource (mfidl.h)
-
 description: Retrieves a pointer to the media source that created this media stream.
 old-location: mf\imfmediastream_getmediasource.htm
 tech.root: medfound
 ms.assetid: ffca44ca-14ae-4f93-a719-9012a8151a7a
-
 ms.date: 12/05/2018
 ms.keywords: GetMediaSource, GetMediaSource method [Media Foundation], GetMediaSource method [Media Foundation],IMFMediaStream interface, IMFMediaStream interface [Media Foundation],GetMediaSource method, IMFMediaStream.GetMediaSource, IMFMediaStream::GetMediaSource, ffca44ca-14ae-4f93-a719-9012a8151a7a, mf.imfmediastream_getmediasource, mfidl/IMFMediaStream::GetMediaSource
 ms.topic: method
-f1_keywords: 
- - "mfidl/IMFMediaStream.GetMediaSource"
+f1_keywords:
+- mfidl/IMFMediaStream.GetMediaSource
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFMediaStream.GetMediaSource
+- IMFMediaStream.GetMediaSource
 targetos: Windows
 req.typenames: 
 req.redist: 

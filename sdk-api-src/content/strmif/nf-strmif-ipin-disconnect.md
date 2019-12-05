@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IPin.Disconnect
 title: IPin::Disconnect (strmif.h)
-
 description: The Disconnect method breaks the current pin connection.
 old-location: dshow\ipin_disconnect.htm
 tech.root: DirectShow
 ms.assetid: 46e1e99c-848b-4936-b6bf-4ef1703a1f42
-
 ms.date: 12/05/2018
 ms.keywords: Disconnect, Disconnect method [DirectShow], Disconnect method [DirectShow],IPin interface, IPin interface [DirectShow],Disconnect method, IPin.Disconnect, IPin::Disconnect, IPinDisconnect, dshow.ipin_disconnect, strmif/IPin::Disconnect
 ms.topic: method
-f1_keywords: 
- - "strmif/IPin.Disconnect"
+f1_keywords:
+- strmif/IPin.Disconnect
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IPin.Disconnect
+- IPin.Disconnect
 targetos: Windows
 req.typenames: 
 req.redist: 

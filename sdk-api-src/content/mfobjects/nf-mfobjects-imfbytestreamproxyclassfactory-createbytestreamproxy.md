@@ -1,19 +1,17 @@
 ---
 UID: NF:mfobjects.IMFByteStreamProxyClassFactory.CreateByteStreamProxy
 title: IMFByteStreamProxyClassFactory::CreateByteStreamProxy (mfobjects.h)
-
 description: Creates a proxy to a byte stream.
 old-location: mf\imfbytestreamproxyclassfactory_createbytestreamproxy.htm
 tech.root: medfound
 ms.assetid: 5A7E6218-615F-43E3-BB96-0D39138A4E28
-
 ms.date: 12/05/2018
 ms.keywords: CreateByteStreamProxy, CreateByteStreamProxy method [Media Foundation], CreateByteStreamProxy method [Media Foundation],IMFByteStreamProxyClassFactory interface, IMFByteStreamProxyClassFactory interface [Media Foundation],CreateByteStreamProxy method, IMFByteStreamProxyClassFactory.CreateByteStreamProxy, IMFByteStreamProxyClassFactory::CreateByteStreamProxy, mf.imfbytestreamproxyclassfactory_createbytestreamproxy, mfobjects/IMFByteStreamProxyClassFactory::CreateByteStreamProxy
 ms.topic: method
-f1_keywords: 
- - "mfobjects/IMFByteStreamProxyClassFactory.CreateByteStreamProxy"
+f1_keywords:
+- mfobjects/IMFByteStreamProxyClassFactory.CreateByteStreamProxy
 dev_langs:
- - c++
+- c++
 req.header: mfobjects.h
 req.include-header: Mfidl.idl
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfobjects.h
+- mfobjects.h
 api_name:
- - IMFByteStreamProxyClassFactory.CreateByteStreamProxy
+- IMFByteStreamProxyClassFactory.CreateByteStreamProxy
 targetos: Windows
 req.typenames: 
 req.redist: 

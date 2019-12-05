@@ -1,19 +1,17 @@
 ---
 UID: NF:sysinfoapi.SetSystemTimeAdjustmentPrecise
 title: SetSystemTimeAdjustmentPrecise function (sysinfoapi.h)
-
 description: Enables or disables periodic time adjustments to the system's time-of-day clock. When enabled, such time adjustments can be used to synchronize the time of day with some other source of time information.
 old-location: base\setsystemtimeadjustmentprecise.htm
 tech.root: SysInfo
 ms.assetid: 8B429BFC-9781-4434-9A2F-9E50E2BF299A
-
 ms.date: 12/05/2018
 ms.keywords: SetSystemTimeAdjustmentPrecise, SetSystemTimeAdjustmentPrecise function, base.setsystemtimeadjustmentprecise, sysinfoapi/SetSystemTimeAdjustmentPrecise
 ms.topic: function
-f1_keywords: 
- - "sysinfoapi/SetSystemTimeAdjustmentPrecise"
+f1_keywords:
+- sysinfoapi/SetSystemTimeAdjustmentPrecise
 dev_langs:
- - c++
+- c++
 req.header: sysinfoapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Mincore.lib
 req.dll: Api-ms-win-core-version-l1-2-3.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Api-ms-win-core-version-l1-2-3.dll
+- Api-ms-win-core-version-l1-2-3.dll
 api_name:
- - SetSystemTimeAdjustmentPrecise
+- SetSystemTimeAdjustmentPrecise
 targetos: Windows
 req.typenames: 
 req.redist: 

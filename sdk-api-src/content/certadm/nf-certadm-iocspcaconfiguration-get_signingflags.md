@@ -1,19 +1,17 @@
 ---
 UID: NF:certadm.IOCSPCAConfiguration.get_SigningFlags
 title: IOCSPCAConfiguration::get_SigningFlags (certadm.h)
-
 description: Gets or sets a combination of flag values. These values specify the management of signing certificates that belong to a certification authority (CA) configuration.
 old-location: security\iocspcaconfiguration_signingflags_method.htm
 tech.root: SecCrypto
 ms.assetid: 00575bb5-eb18-44f2-b2a8-f2f2fd361dec
-
 ms.date: 12/05/2018
 ms.keywords: IOCSPCAConfiguration interface [Security],SigningFlags property, IOCSPCAConfiguration.SigningFlags, IOCSPCAConfiguration.get_SigningFlags, IOCSPCAConfiguration::SigningFlags, IOCSPCAConfiguration::get_SigningFlags, IOCSPCAConfiguration::put_SigningFlags, SigningFlags property [Security], SigningFlags property [Security],IOCSPCAConfiguration interface, certadm/IOCSPCAConfiguration::SigningFlags, certadm/IOCSPCAConfiguration::get_SigningFlags, certadm/IOCSPCAConfiguration::put_SigningFlags, get_SigningFlags, security.iocspcaconfiguration_signingflags_method
 ms.topic: method
-f1_keywords: 
- - "certadm/IOCSPCAConfiguration.SigningFlags"
+f1_keywords:
+- certadm/IOCSPCAConfiguration.SigningFlags
 dev_langs:
- - c++
+- c++
 req.header: certadm.h
 req.include-header: Certserv.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Certadm.lib
 req.dll: Certadm.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Certadm.dll
+- Certadm.dll
 api_name:
- - IOCSPCAConfiguration.SigningFlags
- - IOCSPCAConfiguration.get_SigningFlags
- - IOCSPCAConfiguration.put_SigningFlags
+- IOCSPCAConfiguration.SigningFlags
+- IOCSPCAConfiguration.get_SigningFlags
+- IOCSPCAConfiguration.put_SigningFlags
 targetos: Windows
 req.typenames: 
 req.redist: 

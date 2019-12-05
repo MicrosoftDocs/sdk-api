@@ -1,19 +1,17 @@
 ---
 UID: NC:ntsecpkg.SpUnsealMessageFn
 title: SpUnsealMessageFn (ntsecpkg.h)
-
 description: Decrypts a message that was previously encrypted with the SpSealMessage function.
 old-location: security\spunsealmessage.htm
 tech.root: SecAuthN
 ms.assetid: 3ece6f30-bb8b-4fad-a8c4-9088c134cf25
-
 ms.date: 12/05/2018
 ms.keywords: SpUnsealMessage, SpUnsealMessage callback function [Security], SpUnsealMessageFn, SpUnsealMessageFn callback, _ssp_spunsealmessage, ntsecpkg/SpUnsealMessage, security.spunsealmessage
 ms.topic: callback
 f1_keywords:
 - ntsecpkg/SpUnsealMessage
 dev_langs:
- - c++
+- c++
 req.header: ntsecpkg.h
 req.include-header: 
 req.target-type: Windows

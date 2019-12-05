@@ -1,19 +1,17 @@
 ---
 UID: NF:wslapi.WslGetDistributionConfiguration
 title: WslGetDistributionConfiguration function (wslapi.h)
-
 description: Retrieves the current configuration of a distribution registered with the Windows Subsystem for Linux (WSL).
 old-location: wsl\wslgetdistributionconfiguration.htm
 tech.root: wsl
 ms.assetid: 7D680D81-921E-461F-8845-AADAF53EAEEE
-
 ms.date: 12/05/2018
 ms.keywords: WslGetDistributionConfiguration, WslGetDistributionConfiguration function, wsl.wslgetdistributionconfiguration, wslapi/WslGetDistributionConfiguration
 ms.topic: function
-f1_keywords: 
- - "wslapi/WslGetDistributionConfiguration"
+f1_keywords:
+- wslapi/WslGetDistributionConfiguration
 dev_langs:
- - c++
+- c++
 req.header: wslapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Wslapi.lib
 req.dll: Api-ms-win-wsl-api-l1-1-0.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - api-ms-win-wsl-api-l1-1-0.dll
+- api-ms-win-wsl-api-l1-1-0.dll
 api_name:
- - WslGetDistributionConfiguration
+- WslGetDistributionConfiguration
 targetos: Windows
 req.typenames: 
 req.redist: 

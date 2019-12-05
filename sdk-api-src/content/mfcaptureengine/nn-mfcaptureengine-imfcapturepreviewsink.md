@@ -1,19 +1,17 @@
 ---
 UID: NN:mfcaptureengine.IMFCapturePreviewSink
 title: IMFCapturePreviewSink (mfcaptureengine.h)
-
 description: Controls the preview sink.
 old-location: mf\imfcapturepreviewsink.htm
 tech.root: medfound
 ms.assetid: 5E64C24D-D6EC-419B-9DC8-309EBCE0077E
-
 ms.date: 12/05/2018
 ms.keywords: IMFCapturePreviewSink, IMFCapturePreviewSink interface [Media Foundation], IMFCapturePreviewSink interface [Media Foundation],described, mf.imfcapturepreviewsink, mfcaptureengine/IMFCapturePreviewSink
 ms.topic: interface
-f1_keywords: 
- - "mfcaptureengine/IMFCapturePreviewSink"
+f1_keywords:
+- mfcaptureengine/IMFCapturePreviewSink
 dev_langs:
- - c++
+- c++
 req.header: mfcaptureengine.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfcaptureengine.h
+- mfcaptureengine.h
 api_name:
- - IMFCapturePreviewSink
+- IMFCapturePreviewSink
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:mfobjects.IMFSample.CopyToBuffer
 title: IMFSample::CopyToBuffer (mfobjects.h)
-
 description: Copies the sample data to a buffer. This method concatenates the valid data from all of the buffers of the sample, in order.
 old-location: mf\imfsample_copytobuffer.htm
 tech.root: medfound
 ms.assetid: c8a23e0a-ed2f-449d-b834-f60f383d0b5e
-
 ms.date: 12/05/2018
 ms.keywords: CopyToBuffer, CopyToBuffer method [Media Foundation], CopyToBuffer method [Media Foundation],IMFSample interface, IMFSample interface [Media Foundation],CopyToBuffer method, IMFSample.CopyToBuffer, IMFSample::CopyToBuffer, c8a23e0a-ed2f-449d-b834-f60f383d0b5e, mf.imfsample_copytobuffer, mfobjects/IMFSample::CopyToBuffer
 ms.topic: method
-f1_keywords: 
- - "mfobjects/IMFSample.CopyToBuffer"
+f1_keywords:
+- mfobjects/IMFSample.CopyToBuffer
 dev_langs:
- - c++
+- c++
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFSample.CopyToBuffer
+- IMFSample.CopyToBuffer
 targetos: Windows
 req.typenames: 
 req.redist: 

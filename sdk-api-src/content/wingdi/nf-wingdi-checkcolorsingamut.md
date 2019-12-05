@@ -1,19 +1,17 @@
 ---
 UID: NF:wingdi.CheckColorsInGamut
 title: CheckColorsInGamut function (wingdi.h)
-
 description: The CheckColorsInGamut function determines whether a specified set of RGB triples lies in the output gamut of a specified device. The RGB triples are interpreted in the input logical color space.
 old-location: wcs\checkcolorsingamut.htm
 tech.root: WCS
 ms.assetid: 87bee1a6-e3dd-4d0b-ad8a-9584833d9463
-
 ms.date: 12/05/2018
 ms.keywords: CheckColorsInGamut, CheckColorsInGamut function [Windows Color System], _color_CheckColorsInGamut, wcs.checkcolorsingamut, wingdi/CheckColorsInGamut
 ms.topic: function
-f1_keywords: 
- - "wingdi/CheckColorsInGamut"
+f1_keywords:
+- wingdi/CheckColorsInGamut
 dev_langs:
- - c++
+- c++
 req.header: wingdi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - gdi32.dll
- - Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
- - GDI32Full.dll
+- gdi32.dll
+- Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
+- GDI32Full.dll
 api_name:
- - CheckColorsInGamut
+- CheckColorsInGamut
 targetos: Windows
 req.typenames: 
 req.redist: 

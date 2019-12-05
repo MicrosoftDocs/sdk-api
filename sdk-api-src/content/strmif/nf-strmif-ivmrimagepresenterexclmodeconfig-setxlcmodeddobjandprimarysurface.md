@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IVMRImagePresenterExclModeConfig.SetXlcModeDDObjAndPrimarySurface
 title: IVMRImagePresenterExclModeConfig::SetXlcModeDDObjAndPrimarySurface (strmif.h)
-
 description: The SetXlcModeDDObjAndPrimarySurface method informs the VMR of the DirectDraw object and primary surface that were created by the application.
 old-location: dshow\ivmrimagepresenterexclmodeconfig_setxlcmodeddobjandprimarysurface.htm
 tech.root: DirectShow
 ms.assetid: 3af69975-fe3c-45e6-b1f5-ce2dbda9a4dc
-
 ms.date: 12/05/2018
 ms.keywords: IVMRImagePresenterExclModeConfig interface [DirectShow],SetXlcModeDDObjAndPrimarySurface method, IVMRImagePresenterExclModeConfig.SetXlcModeDDObjAndPrimarySurface, IVMRImagePresenterExclModeConfig::SetXlcModeDDObjAndPrimarySurface, SetXlcModeDDObjAndPrimarySurface, SetXlcModeDDObjAndPrimarySurface method [DirectShow], SetXlcModeDDObjAndPrimarySurface method [DirectShow],IVMRImagePresenterExclModeConfig interface, dshow.ivmrimagepresenterexclmodeconfig_setxlcmodeddobjandprimarysurface, strmif/IVMRImagePresenterExclModeConfig::SetXlcModeDDObjAndPrimarySurface
 ms.topic: method
-f1_keywords: 
- - "strmif/IVMRImagePresenterExclModeConfig.SetXlcModeDDObjAndPrimarySurface"
+f1_keywords:
+- strmif/IVMRImagePresenterExclModeConfig.SetXlcModeDDObjAndPrimarySurface
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IVMRImagePresenterExclModeConfig.SetXlcModeDDObjAndPrimarySurface
+- IVMRImagePresenterExclModeConfig.SetXlcModeDDObjAndPrimarySurface
 targetos: Windows
 req.typenames: 
 req.redist: 

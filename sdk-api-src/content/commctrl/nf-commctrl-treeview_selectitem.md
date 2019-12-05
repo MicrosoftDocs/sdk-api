@@ -1,19 +1,17 @@
 ---
 UID: NF:commctrl.TreeView_SelectItem
 title: TreeView_SelectItem macro (commctrl.h)
-
 description: Selects the specified tree-view item. You can use this macro or the TreeView_Select macro, or you can send the TVM_SELECTITEM message explicitly.
 old-location: controls\TreeView_SelectItem.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\treeview\macros\treeview_selectitem.htm
-
 ms.date: 12/05/2018
 ms.keywords: TreeView_SelectItem, TreeView_SelectItem macro [Windows Controls], _win32_TreeView_SelectItem, _win32_TreeView_SelectItem_cpp, commctrl/TreeView_SelectItem, controls.TreeView_SelectItem, controls._win32_TreeView_SelectItem
 ms.topic: macro
-f1_keywords: 
- - "commctrl/TreeView_SelectItem"
+f1_keywords:
+- commctrl/TreeView_SelectItem
 dev_langs:
- - c++
+- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Commctrl.h
+- Commctrl.h
 api_name:
- - TreeView_SelectItem
+- TreeView_SelectItem
 targetos: Windows
 req.typenames: 
 req.redist: 

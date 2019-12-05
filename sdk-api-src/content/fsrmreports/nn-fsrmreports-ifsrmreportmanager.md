@@ -1,19 +1,17 @@
 ---
 UID: NN:fsrmreports.IFsrmReportManager
 title: IFsrmReportManager (fsrmreports.h)
-
 description: Used to manage report jobs.
 old-location: fsrm\ifsrmreportmanager.htm
 tech.root: fsrm
 ms.assetid: 112ed457-1083-4550-abd6-933f4b128e9a
-
 ms.date: 12/05/2018
 ms.keywords: IFsrmReportManager, IFsrmReportManager interface [File Server Resource Manager], IFsrmReportManager interface [File Server Resource Manager],described, fs.ifsrmreportmanager, fsrm.ifsrmreportmanager, fsrmreports/IFsrmReportManager
 ms.topic: interface
-f1_keywords: 
- - "fsrmreports/IFsrmReportManager"
+f1_keywords:
+- fsrmreports/IFsrmReportManager
 dev_langs:
- - c++
+- c++
 req.header: fsrmreports.h
 req.include-header: FsrmReports.h, FsrmTlb.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: SrmSvc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - SrmSvc.dll
+- SrmSvc.dll
 api_name:
- - IFsrmReportManager
+- IFsrmReportManager
 targetos: Windows
 req.typenames: 
 req.redist: 

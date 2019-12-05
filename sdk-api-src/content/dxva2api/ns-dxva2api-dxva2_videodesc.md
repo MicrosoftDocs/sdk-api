@@ -1,19 +1,17 @@
 ---
 UID: NS:dxva2api._DXVA2_VideoDesc
 title: DXVA2_VideoDesc (dxva2api.h)
-
 description: Describes a video stream for a DXVA decoder device or video processor device.
 old-location: mf\dxva2_videodesc.htm
 tech.root: medfound
 ms.assetid: 0e500a08-a3b5-475c-8bbc-e4b30cce247d
-
 ms.date: 12/05/2018
 ms.keywords: 0e500a08-a3b5-475c-8bbc-e4b30cce247d, DXVA2_VideoDesc, DXVA2_VideoDesc structure [Media Foundation], dxva2api/DXVA2_VideoDesc, mf.dxva2_videodesc
 ms.topic: struct
 f1_keywords:
 - dxva2api/DXVA2_VideoDesc
 dev_langs:
- - c++
+- c++
 req.header: dxva2api.h
 req.include-header: 
 req.target-type: Windows

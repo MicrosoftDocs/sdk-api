@@ -1,19 +1,17 @@
 ---
 UID: NF:errorrep.ReportFault
 title: ReportFault function (errorrep.h)
-
 description: Enables an application that performs its own exception handling to report faults to Microsoft.
 old-location: wer\reportfault.htm
 tech.root: wer
 ms.assetid: 9f7c2abc-4d9a-4f3b-a540-e4546ed709de
-
 ms.date: 12/05/2018
 ms.keywords: ReportFault, ReportFault function [Windows Error Reporting], _win32_reportfault, base.reportfault, errorrep/ReportFault, wer.reportfault
 ms.topic: function
 f1_keywords:
 - errorrep/ReportFault
 dev_langs:
- - c++
+- c++
 req.header: errorrep.h
 req.include-header: 
 req.target-type: Windows

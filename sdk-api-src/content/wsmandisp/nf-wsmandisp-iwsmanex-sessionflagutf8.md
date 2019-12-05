@@ -1,19 +1,17 @@
 ---
 UID: NF:wsmandisp.IWSManEx.SessionFlagUTF8
 title: IWSManEx::SessionFlagUTF8 (wsmandisp.h)
-
 description: Returns the value of the authentication flag WSManFlagUTF8 for use in the flags parameter of IWSMan::CreateSession.
 old-location: winrm\iwsmanex_sessionflagutf8.htm
 tech.root: winrm
 ms.assetid: 99c96057-fbd7-4d8c-a204-1660f84d640f
-
 ms.date: 12/05/2018
 ms.keywords: IWSManEx interface [Windows Remote Management],SessionFlagUTF8 method, IWSManEx.SessionFlagUTF8, IWSManEx::SessionFlagUTF8, SessionFlagUTF8, SessionFlagUTF8 method [Windows Remote Management], SessionFlagUTF8 method [Windows Remote Management],IWSManEx interface, winrm.iwsmanex_sessionflagutf8, wsmandisp/IWSManEx::SessionFlagUTF8
 ms.topic: method
-f1_keywords: 
- - "wsmandisp/IWSManEx.SessionFlagUTF8"
+f1_keywords:
+- wsmandisp/IWSManEx.SessionFlagUTF8
 dev_langs:
- - c++
+- c++
 req.header: wsmandisp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: WSManDisp.tlb
 req.dll: WSMAuto.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - WSMAuto.dll
+- WSMAuto.dll
 api_name:
- - IWSManEx.SessionFlagUTF8
+- IWSManEx.SessionFlagUTF8
 targetos: Windows
 req.typenames: 
 req.redist: 

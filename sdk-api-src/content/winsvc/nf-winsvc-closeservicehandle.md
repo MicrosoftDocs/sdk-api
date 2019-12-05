@@ -1,19 +1,17 @@
 ---
 UID: NF:winsvc.CloseServiceHandle
 title: CloseServiceHandle function (winsvc.h)
-
 description: Closes a handle to a service control manager or service object.
 old-location: base\closeservicehandle.htm
 tech.root: Services
 ms.assetid: 6cf25994-4939-4aff-af38-5ffc8fc606ae
-
 ms.date: 12/05/2018
 ms.keywords: CloseServiceHandle, CloseServiceHandle function, _win32_closeservicehandle, base.closeservicehandle, winsvc/CloseServiceHandle
 ms.topic: function
-f1_keywords: 
- - "winsvc/CloseServiceHandle"
+f1_keywords:
+- winsvc/CloseServiceHandle
 dev_langs:
- - c++
+- c++
 req.header: winsvc.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Advapi32.dll
- - API-MS-Win-DownLevel-AdvApi32-l2-1-0.dll
- - sechost.dll
- - API-MS-Win-DownLevel-AdvApi32-l2-1-1.dll
- - API-MS-Win-Service-management-l1-1-0.dll
+- Advapi32.dll
+- API-MS-Win-DownLevel-AdvApi32-l2-1-0.dll
+- sechost.dll
+- API-MS-Win-DownLevel-AdvApi32-l2-1-1.dll
+- API-MS-Win-Service-management-l1-1-0.dll
 api_name:
- - CloseServiceHandle
+- CloseServiceHandle
 targetos: Windows
 req.typenames: 
 req.redist: 

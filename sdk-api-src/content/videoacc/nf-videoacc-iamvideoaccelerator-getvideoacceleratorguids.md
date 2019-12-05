@@ -1,19 +1,17 @@
 ---
 UID: NF:videoacc.IAMVideoAccelerator.GetVideoAcceleratorGUIDs
 title: IAMVideoAccelerator::GetVideoAcceleratorGUIDs (videoacc.h)
-
 description: The GetVideoAcceleratorGUIDs method gets a list of DirectX Video Acceleration (DXVA) profiles supported by the display driver.
 old-location: dshow\iamvideoaccelerator_getvideoacceleratorguids.htm
 tech.root: DirectShow
 ms.assetid: 808ba120-f0e1-4348-94e7-69a27c77cf42
-
 ms.date: 12/05/2018
 ms.keywords: GetVideoAcceleratorGUIDs, GetVideoAcceleratorGUIDs method [DirectShow], GetVideoAcceleratorGUIDs method [DirectShow],IAMVideoAccelerator interface, IAMVideoAccelerator interface [DirectShow],GetVideoAcceleratorGUIDs method, IAMVideoAccelerator.GetVideoAcceleratorGUIDs, IAMVideoAccelerator::GetVideoAcceleratorGUIDs, IAMVideoAcceleratorGetVideoAcceleratorGUIDs, dshow.iamvideoaccelerator_getvideoacceleratorguids, videoacc/IAMVideoAccelerator::GetVideoAcceleratorGUIDs
 ms.topic: method
-f1_keywords: 
- - "videoacc/IAMVideoAccelerator.GetVideoAcceleratorGUIDs"
+f1_keywords:
+- videoacc/IAMVideoAccelerator.GetVideoAcceleratorGUIDs
 dev_langs:
- - c++
+- c++
 req.header: videoacc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IAMVideoAccelerator.GetVideoAcceleratorGUIDs
+- IAMVideoAccelerator.GetVideoAcceleratorGUIDs
 targetos: Windows
 req.typenames: 
 req.redist: 

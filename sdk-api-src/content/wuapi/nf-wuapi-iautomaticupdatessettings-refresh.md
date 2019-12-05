@@ -1,19 +1,17 @@
 ---
 UID: NF:wuapi.IAutomaticUpdatesSettings.Refresh
 title: IAutomaticUpdatesSettings::Refresh (wuapi.h)
-
 description: Retrieves the latest Automatic Updates settings.
 old-location: wua\iautomaticupdatessettings_refresh.htm
 tech.root: Wua_Sdk
 ms.assetid: 308426d9-d524-406a-931c-1fdb854aa4fb
-
 ms.date: 12/05/2018
 ms.keywords: IAutomaticUpdatesSettings interface [Windows Update Agent],Refresh method, IAutomaticUpdatesSettings.Refresh, IAutomaticUpdatesSettings::Refresh, Refresh, Refresh method [Windows Update Agent], Refresh method [Windows Update Agent],IAutomaticUpdatesSettings interface, wua.iautomaticupdatessettings_refresh, wuapi/IAutomaticUpdatesSettings::Refresh
 ms.topic: method
-f1_keywords: 
- - "wuapi/IAutomaticUpdatesSettings.Refresh"
+f1_keywords:
+- wuapi/IAutomaticUpdatesSettings.Refresh
 dev_langs:
- - c++
+- c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Wuguid.lib
 req.dll: Wuapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wuapi.dll
+- Wuapi.dll
 api_name:
- - IAutomaticUpdatesSettings.Refresh
+- IAutomaticUpdatesSettings.Refresh
 targetos: Windows
 req.typenames: 
 req.redist: 

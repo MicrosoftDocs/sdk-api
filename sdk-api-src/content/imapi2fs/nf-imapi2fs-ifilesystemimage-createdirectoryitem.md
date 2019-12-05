@@ -1,19 +1,17 @@
 ---
 UID: NF:imapi2fs.IFileSystemImage.CreateDirectoryItem
 title: IFileSystemImage::CreateDirectoryItem (imapi2fs.h)
-
 description: Create a directory item with the specified name.
 old-location: imapi\ifilesystemimage_createdirectoryitem.htm
 tech.root: imapi
 ms.assetid: 27eadc99-46b6-40e1-91e0-b5c532536491
-
 ms.date: 12/05/2018
 ms.keywords: CreateDirectoryItem, CreateDirectoryItem method [IMAPI], CreateDirectoryItem method [IMAPI],IFileSystemImage interface, IFileSystemImage interface [IMAPI],CreateDirectoryItem method, IFileSystemImage.CreateDirectoryItem, IFileSystemImage::CreateDirectoryItem, imapi.ifilesystemimage_createdirectoryitem, imapi2fs/IFileSystemImage::CreateDirectoryItem
 ms.topic: method
-f1_keywords: 
- - "imapi2fs/IFileSystemImage.CreateDirectoryItem"
+f1_keywords:
+- imapi2fs/IFileSystemImage.CreateDirectoryItem
 dev_langs:
- - c++
+- c++
 req.header: imapi2fs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - imapi2fs.h
+- imapi2fs.h
 api_name:
- - IFileSystemImage.CreateDirectoryItem
+- IFileSystemImage.CreateDirectoryItem
 targetos: Windows
 req.typenames: 
 req.redist: 

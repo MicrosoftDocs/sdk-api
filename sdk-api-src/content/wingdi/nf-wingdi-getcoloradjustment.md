@@ -1,19 +1,17 @@
 ---
 UID: NF:wingdi.GetColorAdjustment
 title: GetColorAdjustment function (wingdi.h)
-
 description: The GetColorAdjustment function retrieves the color adjustment values for the specified device context (DC).
 old-location: gdi\getcoloradjustment.htm
 tech.root: gdi
 ms.assetid: 405c0d0d-9433-4f4a-9957-5c42a0fb3a07
-
 ms.date: 12/05/2018
 ms.keywords: GetColorAdjustment, GetColorAdjustment function [Windows GDI], _win32_GetColorAdjustment, gdi.getcoloradjustment, wingdi/GetColorAdjustment
 ms.topic: function
-f1_keywords: 
- - "wingdi/GetColorAdjustment"
+f1_keywords:
+- wingdi/GetColorAdjustment
 dev_langs:
- - c++
+- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - gdi32.dll
- - Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
- - GDI32Full.dll
+- gdi32.dll
+- Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
+- GDI32Full.dll
 api_name:
- - GetColorAdjustment
+- GetColorAdjustment
 targetos: Windows
 req.typenames: 
 req.redist: 

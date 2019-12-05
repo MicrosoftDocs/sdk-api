@@ -1,19 +1,17 @@
 ---
 UID: NF:p2p.PeerCollabCancelInvitation
 title: PeerCollabCancelInvitation function (p2p.h)
-
 description: Cancels an invitation previously sent by the caller to a contact.
 old-location: p2p\peercollabcancelinvitation.htm
 tech.root: P2PSdk
 ms.assetid: 733c4ece-283b-4d25-8dab-1351f6ca7d12
-
 ms.date: 12/05/2018
 ms.keywords: PeerCollabCancelInvitation, PeerCollabCancelInvitation function [Peer Networking], p2p.peercollabcancelinvitation, p2p/PeerCollabCancelInvitation
 ms.topic: function
-f1_keywords: 
- - "p2p/PeerCollabCancelInvitation"
+f1_keywords:
+- p2p/PeerCollabCancelInvitation
 dev_langs:
- - c++
+- c++
 req.header: p2p.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: P2P.lib
 req.dll: P2P.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - P2P.dll
+- P2P.dll
 api_name:
- - PeerCollabCancelInvitation
+- PeerCollabCancelInvitation
 targetos: Windows
 req.typenames: 
 req.redist: 

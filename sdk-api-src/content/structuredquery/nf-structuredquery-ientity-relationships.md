@@ -1,19 +1,17 @@
 ---
 UID: NF:structuredquery.IEntity.Relationships
 title: IEntity::Relationships (structuredquery.h)
-
 description: Retrieves an enumeration of IRelationship objects, one for each relationship this entity has.
 old-location: search\_search_IEntity_Relationships.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\ientity\relationships.htm
-
 ms.date: 12/05/2018
 ms.keywords: IEntity interface [search],Relationships method, IEntity.Relationships, IEntity::Relationships, Relationships, Relationships method [search], Relationships method [search],IEntity interface, _search_IEntity_Relationships, search._search_IEntity_Relationships, structuredquery/IEntity::Relationships
 ms.topic: method
-f1_keywords: 
- - "structuredquery/IEntity.Relationships"
+f1_keywords:
+- structuredquery/IEntity.Relationships
 dev_langs:
- - c++
+- c++
 req.header: structuredquery.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Structuredquery.h
+- Structuredquery.h
 api_name:
- - IEntity.Relationships
+- IEntity.Relationships
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0

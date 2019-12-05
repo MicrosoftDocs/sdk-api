@@ -1,19 +1,17 @@
 ---
 UID: NF:windowsx.ListBox_SetHorizontalExtent
 title: ListBox_SetHorizontalExtent macro (windowsx.h)
-
 description: Set the width by which a list box can be scrolled horizontally (the scrollable width).
 old-location: controls\ListBox_SetHorizontalExtent.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listboxes\listboxreference\listboxmacros\listbox_sethorizontalextent.htm
-
 ms.date: 12/05/2018
 ms.keywords: ListBox_SetHorizontalExtent, ListBox_SetHorizontalExtent macro [Windows Controls], _win32_ListBox_SetHorizontalExtent, _win32_ListBox_SetHorizontalExtent_cpp, controls.ListBox_SetHorizontalExtent, controls._win32_ListBox_SetHorizontalExtent, windowsx/ListBox_SetHorizontalExtent
 ms.topic: macro
-f1_keywords: 
- - "windowsx/ListBox_SetHorizontalExtent"
+f1_keywords:
+- windowsx/ListBox_SetHorizontalExtent
 dev_langs:
- - c++
+- c++
 req.header: windowsx.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Windowsx.h
+- Windowsx.h
 api_name:
- - ListBox_SetHorizontalExtent
+- ListBox_SetHorizontalExtent
 targetos: Windows
 req.typenames: 
 req.redist: 

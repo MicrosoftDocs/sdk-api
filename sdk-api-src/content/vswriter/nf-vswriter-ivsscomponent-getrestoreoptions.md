@@ -1,19 +1,17 @@
 ---
 UID: NF:vswriter.IVssComponent.GetRestoreOptions
 title: IVssComponent::GetRestoreOptions (vswriter.h)
-
 description: The GetRestoreOptions method gets the restore options specified to the current writer by a requester using IVssBackupComponents::SetRestoreOptions.
 old-location: base\ivsscomponent_getrestoreoptions.htm
 tech.root: VSS
 ms.assetid: 818fd713-1b41-4abd-aca4-c74383fa3594
-
 ms.date: 12/05/2018
 ms.keywords: GetRestoreOptions, GetRestoreOptions method [VSS], GetRestoreOptions method [VSS],IVssComponent interface, IVssComponent interface [VSS],GetRestoreOptions method, IVssComponent.GetRestoreOptions, IVssComponent::GetRestoreOptions, _win32_ivsscomponent_getrestoreoptions, base.ivsscomponent_getrestoreoptions, vswriter/IVssComponent::GetRestoreOptions
 ms.topic: method
-f1_keywords: 
- - "vswriter/IVssComponent.GetRestoreOptions"
+f1_keywords:
+- vswriter/IVssComponent.GetRestoreOptions
 dev_langs:
- - c++
+- c++
 req.header: vswriter.h
 req.include-header: Vss.h, VsWriter.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: VssApi.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - VssApi.lib
- - VssApi.dll
+- VssApi.lib
+- VssApi.dll
 api_name:
- - IVssComponent.GetRestoreOptions
+- IVssComponent.GetRestoreOptions
 targetos: Windows
 req.typenames: 
 req.redist: 

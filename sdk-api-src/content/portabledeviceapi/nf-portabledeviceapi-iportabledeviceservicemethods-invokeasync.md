@@ -1,19 +1,17 @@
 ---
 UID: NF:portabledeviceapi.IPortableDeviceServiceMethods.InvokeAsync
 title: IPortableDeviceServiceMethods::InvokeAsync (portabledeviceapi.h)
-
 description: Asynchronously invokes a method.
 old-location: wpdsdk\iportabledeviceservicemethods_invokeasync.htm
 tech.root: wpd_sdk
 ms.assetid: 0acf416c-4d59-4eb5-b1ce-aef848b54949
-
 ms.date: 12/05/2018
 ms.keywords: IPortableDeviceServiceMethods interface [Windows Portable Devices SDK],InvokeAsync method, IPortableDeviceServiceMethods.InvokeAsync, IPortableDeviceServiceMethods::InvokeAsync, InvokeAsync, InvokeAsync method [Windows Portable Devices SDK], InvokeAsync method [Windows Portable Devices SDK],IPortableDeviceServiceMethods interface, portabledeviceapi/IPortableDeviceServiceMethods::InvokeAsync, wpdsdk.iportabledeviceservicemethods_invokeasync
 ms.topic: method
-f1_keywords: 
- - "portabledeviceapi/IPortableDeviceServiceMethods.InvokeAsync"
+f1_keywords:
+- portabledeviceapi/IPortableDeviceServiceMethods.InvokeAsync
 dev_langs:
- - c++
+- c++
 req.header: portabledeviceapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - PortableDeviceAPI.h
+- PortableDeviceAPI.h
 api_name:
- - IPortableDeviceServiceMethods.InvokeAsync
+- IPortableDeviceServiceMethods.InvokeAsync
 targetos: Windows
 req.typenames: 
 req.redist: 

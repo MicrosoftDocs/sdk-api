@@ -1,19 +1,17 @@
 ---
 UID: NF:credentialprovider.ICredentialProviderCredential.SetStringValue
 title: ICredentialProviderCredential::SetStringValue (credentialprovider.h)
-
 description: Enables a Logon UI or Credential UI to update the text for a CPFT_EDIT_TEXT fields as the user types in them.
 old-location: shell\ICredentialProviderCredential_SetStringValue.htm
 tech.root: shell
 ms.assetid: ea2007b9-fff1-4cd2-8656-61ec050a8e96
-
 ms.date: 12/05/2018
 ms.keywords: ICredentialProviderCredential interface [Windows Shell],SetStringValue method, ICredentialProviderCredential.SetStringValue, ICredentialProviderCredential::SetStringValue, SetStringValue, SetStringValue method [Windows Shell], SetStringValue method [Windows Shell],ICredentialProviderCredential interface, credentialprovider/ICredentialProviderCredential::SetStringValue, shell.ICredentialProviderCredential_SetStringValue, shell_ICredentialProviderCredential_SetStringValue
 ms.topic: method
-f1_keywords: 
- - "credentialprovider/ICredentialProviderCredential.SetStringValue"
+f1_keywords:
+- credentialprovider/ICredentialProviderCredential.SetStringValue
 dev_langs:
- - c++
+- c++
 req.header: credentialprovider.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Credentialprovider.h
+- Credentialprovider.h
 api_name:
- - ICredentialProviderCredential.SetStringValue
+- ICredentialProviderCredential.SetStringValue
 targetos: Windows
 req.typenames: 
 req.redist: 

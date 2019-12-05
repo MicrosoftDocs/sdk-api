@@ -1,19 +1,17 @@
 ---
 UID: NF:mmeapi.midiOutOpen
 title: midiOutOpen function (mmeapi.h)
-
 description: The midiOutOpen function opens a MIDI output device for playback.
 old-location: multimedia\midioutopen.htm
 tech.root: Multimedia
 ms.assetid: 929cd4d1-6912-4456-a6c7-24a819799e46
-
 ms.date: 12/05/2018
-ms.keywords: "_win32_midiOutOpen, midiOutOpen, midiOutOpen function [Windows Multimedia], mmeapi/midiOutOpen, multimedia.midioutopen"
+ms.keywords: _win32_midiOutOpen, midiOutOpen, midiOutOpen function [Windows Multimedia], mmeapi/midiOutOpen, multimedia.midioutopen
 ms.topic: function
-f1_keywords: 
- - "mmeapi/midiOutOpen"
+f1_keywords:
+- mmeapi/midiOutOpen
 dev_langs:
- - c++
+- c++
 req.header: mmeapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Winmm.lib
 req.dll: Winmm.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Winmm.dll
- - API-MS-Win-mm-mme-l1-1-0.dll
- - winmmbase.dll
+- Winmm.dll
+- API-MS-Win-mm-mme-l1-1-0.dll
+- winmmbase.dll
 api_name:
- - midiOutOpen
+- midiOutOpen
 targetos: Windows
 req.typenames: 
 req.redist: 

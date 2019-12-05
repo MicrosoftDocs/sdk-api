@@ -1,19 +1,17 @@
 ---
 UID: NS:dhcpsapi._DHCP_SUBNET_INFO_V6
 title: DHCP_SUBNET_INFO_V6 (dhcpsapi.h)
-
 description: Contains information about an IPv6 subnet.
 old-location: dhcp\dhcp_subnet_info_v6.htm
 tech.root: DHCP
 ms.assetid: cd60f9d0-3ac3-4661-aefe-ddb9052db3e1
-
 ms.date: 12/05/2018
 ms.keywords: '*LPDHCP_SUBNET_INFO_V6, *PDHCP_SUBNET_INFO_V6, DHCP_SUBNET_INFO_V6, DHCP_SUBNET_INFO_V6 structure [DHCP], PDHCP_SUBNET_INFO_V6, PDHCP_SUBNET_INFO_V6 structure pointer [DHCP], dhcp.dhcp_subnet_info_v6, dhcpsapi/DHCP_SUBNET_INFO_V6, dhcpsapi/PDHCP_SUBNET_INFO_V6'
 ms.topic: struct
 f1_keywords:
 - dhcpsapi/DHCP_SUBNET_INFO_V6
 dev_langs:
- - c++
+- c++
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows

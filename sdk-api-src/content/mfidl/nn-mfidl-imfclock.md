@@ -1,19 +1,17 @@
 ---
 UID: NN:mfidl.IMFClock
 title: IMFClock (mfidl.h)
-
 description: Provides timing information from a clock in Microsoft Media Foundation.
 old-location: mf\imfclock.htm
 tech.root: medfound
 ms.assetid: 3a60bfec-8511-4a84-a833-e0c73c593970
-
 ms.date: 12/05/2018
 ms.keywords: 3a60bfec-8511-4a84-a833-e0c73c593970, IMFClock, IMFClock interface [Media Foundation], IMFClock interface [Media Foundation],described, mf.imfclock, mfidl/IMFClock
 ms.topic: interface
-f1_keywords: 
- - "mfidl/IMFClock"
+f1_keywords:
+- mfidl/IMFClock
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFClock
+- IMFClock
 targetos: Windows
 req.typenames: 
 req.redist: 

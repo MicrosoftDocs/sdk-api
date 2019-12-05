@@ -1,19 +1,17 @@
 ---
 UID: NF:propsys.IInitializeWithStream.Initialize
 title: IInitializeWithStream::Initialize (propsys.h)
-
 description: Initializes a handler with a stream.
 old-location: shell\IInitializeWithStream_Initialize.htm
 tech.root: shell
 ms.assetid: 1e04c0a4-aa9b-4e2c-8307-525809ca903f
-
 ms.date: 12/05/2018
 ms.keywords: IInitializeWithStream interface [Windows Shell],Initialize method, IInitializeWithStream.Initialize, IInitializeWithStream::Initialize, Initialize, Initialize method [Windows Shell], Initialize method [Windows Shell],IInitializeWithStream interface, STGM_READ, STGM_READWRITE, propsys/IInitializeWithStream::Initialize, shell.IInitializeWithStream_Initialize, shell_IInitializeWithStream_Initialize
 ms.topic: method
-f1_keywords: 
- - "propsys/IInitializeWithStream.Initialize"
+f1_keywords:
+- propsys/IInitializeWithStream.Initialize
 dev_langs:
- - c++
+- c++
 req.header: propsys.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Propsys.h
+- Propsys.h
 api_name:
- - IInitializeWithStream.Initialize
+- IInitializeWithStream.Initialize
 targetos: Windows
 req.typenames: 
 req.redist: 

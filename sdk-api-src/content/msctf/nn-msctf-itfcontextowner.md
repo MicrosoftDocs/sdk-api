@@ -1,19 +1,17 @@
 ---
 UID: NN:msctf.ITfContextOwner
 title: ITfContextOwner (msctf.h)
-
 description: The ITfContextOwner interface is implemented by an application or a text service to receive text input without having a text store. An instance of this interface is obtained when the application calls the ITfSource::AdviseSink method.
 old-location: tsf\itfcontextowner.htm
 tech.root: TSF
 ms.assetid: 630646df-dd47-4dbf-9787-f9d697ad8d7a
-
 ms.date: 12/05/2018
 ms.keywords: ITfContextOwner, ITfContextOwner interface [Text Services Framework], ITfContextOwner interface [Text Services Framework],described, _tsf_itfcontextowner_ref, msctf/ITfContextOwner, tsf.itfcontextowner
 ms.topic: interface
-f1_keywords: 
- - "msctf/ITfContextOwner"
+f1_keywords:
+- msctf/ITfContextOwner
 dev_langs:
- - c++
+- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msimtf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msimtf.dll
+- msimtf.dll
 api_name:
- - ITfContextOwner
+- ITfContextOwner
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

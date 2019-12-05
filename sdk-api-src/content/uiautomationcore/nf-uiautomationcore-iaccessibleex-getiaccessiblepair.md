@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationcore.IAccessibleEx.GetIAccessiblePair
 title: IAccessibleEx::GetIAccessiblePair (uiautomationcore.h)
-
 description: Retrieves the IAccessible interface and child ID for this item.
 old-location: winauto\uiauto_IAccessibleEx_GetIAccessiblePair.htm
 tech.root: WinAuto
 ms.assetid: 282de8b1-67ce-42e3-9f17-dbd29374d910
-
 ms.date: 12/05/2018
 ms.keywords: GetIAccessiblePair, GetIAccessiblePair method [Windows Accessibility], GetIAccessiblePair method [Windows Accessibility],IAccessibleEx interface, IAccessibleEx interface [Windows Accessibility],GetIAccessiblePair method, IAccessibleEx.GetIAccessiblePair, IAccessibleEx::GetIAccessiblePair, uiauto.uiauto_IAccessibleEx_GetIAccessiblePair, uiauto_IAccessibleEx_GetIAccessiblePair, uiautomationcore/IAccessibleEx::GetIAccessiblePair, winauto.uiauto_IAccessibleEx_GetIAccessiblePair
 ms.topic: method
-f1_keywords: 
- - "uiautomationcore/IAccessibleEx.GetIAccessiblePair"
+f1_keywords:
+- uiautomationcore/IAccessibleEx.GetIAccessiblePair
 dev_langs:
- - c++
+- c++
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationCore.h
+- UIAutomationCore.h
 api_name:
- - IAccessibleEx.GetIAccessiblePair
+- IAccessibleEx.GetIAccessiblePair
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:xenroll.ICEnroll.enumProviders
 title: ICEnroll::enumProviders (xenroll.h)
-
 description: Retrieves the names of the available cryptographic service providers (CSPs) specified by the ProviderType property. This method was first defined in the ICEnroll interface.
 old-location: security\icenroll4_enumproviders.htm
 tech.root: SecCrypto
 ms.assetid: 05188aee-2b03-46bc-89f4-506a019496a4
-
 ms.date: 12/05/2018
 ms.keywords: CEnroll object [Security],enumProviders method, ICEnroll interface [Security],enumProviders method, ICEnroll.enumProviders, ICEnroll2 interface [Security],enumProviders method, ICEnroll2::enumProviders, ICEnroll3 interface [Security],enumProviders method, ICEnroll3::enumProviders, ICEnroll4 interface [Security],enumProviders method, ICEnroll4::enumProviders, ICEnroll::enumProviders, enumProviders, enumProviders method [Security], enumProviders method [Security],CEnroll object, enumProviders method [Security],ICEnroll interface, enumProviders method [Security],ICEnroll2 interface, enumProviders method [Security],ICEnroll3 interface, enumProviders method [Security],ICEnroll4 interface, security.icenroll4_enumproviders, xenroll/ICEnroll2::enumProviders, xenroll/ICEnroll3::enumProviders, xenroll/ICEnroll4::enumProviders, xenroll/ICEnroll::enumProviders
 ms.topic: method
-f1_keywords: 
- - "xenroll/ICEnroll4.enumProviders"
+f1_keywords:
+- xenroll/ICEnroll4.enumProviders
 dev_langs:
- - c++
+- c++
 req.header: xenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib: Uuid.lib
 req.dll: Xenroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Xenroll.dll
+- Xenroll.dll
 api_name:
- - ICEnroll4.enumProviders
- - ICEnroll3.enumProviders
- - ICEnroll2.enumProviders
- - ICEnroll.enumProviders
- - CEnroll.enumProviders
+- ICEnroll4.enumProviders
+- ICEnroll3.enumProviders
+- ICEnroll2.enumProviders
+- ICEnroll.enumProviders
+- CEnroll.enumProviders
 targetos: Windows
 req.typenames: 
 req.redist: 

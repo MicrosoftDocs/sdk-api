@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d10.ID3D10Device.CreateTexture2D
 title: ID3D10Device::CreateTexture2D (d3d10.h)
-
 description: Create an array of 2D textures (see Texture2D).
 old-location: direct3d10\id3d10device_createtexture2d.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10device_createtexture2d.htm
-
 ms.date: 12/05/2018
 ms.keywords: 38b3a1e8-7790-fb65-bd38-77d5f709bdbd, CreateTexture2D, CreateTexture2D method [Direct3D 10], CreateTexture2D method [Direct3D 10],ID3D10Device interface, ID3D10Device interface [Direct3D 10],CreateTexture2D method, ID3D10Device.CreateTexture2D, ID3D10Device::CreateTexture2D, d3d10/ID3D10Device::CreateTexture2D, direct3d10.id3d10device_createtexture2d
 ms.topic: method
-f1_keywords: 
- - "d3d10/ID3D10Device.CreateTexture2D"
+f1_keywords:
+- d3d10/ID3D10Device.CreateTexture2D
 dev_langs:
- - c++
+- c++
 req.header: d3d10.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: D3D10.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D10.lib
- - D3D10.dll
+- D3D10.lib
+- D3D10.dll
 api_name:
- - ID3D10Device.CreateTexture2D
+- ID3D10Device.CreateTexture2D
 targetos: Windows
 req.typenames: 
 req.redist: 

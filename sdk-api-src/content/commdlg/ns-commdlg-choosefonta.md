@@ -1,19 +1,17 @@
 ---
 UID: NS:commdlg.tagCHOOSEFONTA
 title: CHOOSEFONTA (commdlg.h)
-
 description: Contains information that the ChooseFont function uses to initialize the Font dialog box. After the user closes the dialog box, the system returns information about the user's selection in this structure.
 old-location: dlgbox\choosefont_str.htm
 tech.root: dlgbox
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\commondialogboxlibrary\commondialogboxreference\commondialogboxstructures\choosefont.htm
-
 ms.date: 12/05/2018
-ms.keywords: "*LPCHOOSEFONTA, BOLD_FONTTYPE, CF_ANSIONLY, CF_APPLY, CF_BOTH, CF_EFFECTS, CF_ENABLEHOOK, CF_ENABLETEMPLATE, CF_ENABLETEMPLATEHANDLE, CF_FIXEDPITCHONLY, CF_FORCEFONTEXIST, CF_INACTIVEFONTS, CF_INITTOLOGFONTSTRUCT, CF_LIMITSIZE, CF_NOFACESEL, CF_NOOEMFONTS, CF_NOSCRIPTSEL, CF_NOSIMULATIONS, CF_NOSIZESEL, CF_NOSTYLESEL, CF_NOVECTORFONTS, CF_NOVERTFONTS, CF_PRINTERFONTS, CF_SCALABLEONLY, CF_SCREENFONTS, CF_SCRIPTSONLY, CF_SELECTSCRIPT, CF_SHOWHELP, CF_TTONLY, CF_USESTYLE, CF_WYSIWYG, CHOOSEFONT, CHOOSEFONT structure [Dialog Boxes], CHOOSEFONTA, CHOOSEFONTW, ITALIC_FONTTYPE, LPCHOOSEFONT, LPCHOOSEFONT structure pointer [Dialog Boxes], PRINTER_FONTTYPE, REGULAR_FONTTYPE, SCREEN_FONTTYPE, SIMULATED_FONTTYPE, _win32_CHOOSEFONT_str, _win32_choosefont_str_cpp, commdlg/CHOOSEFONT, commdlg/CHOOSEFONTA, commdlg/CHOOSEFONTW, commdlg/LPCHOOSEFONT, dlgbox.choosefont_str, tagCHOOSEFONTA, tagCHOOSEFONTW, winui._win32_choosefont_str"
+ms.keywords: '*LPCHOOSEFONTA, BOLD_FONTTYPE, CF_ANSIONLY, CF_APPLY, CF_BOTH, CF_EFFECTS, CF_ENABLEHOOK, CF_ENABLETEMPLATE, CF_ENABLETEMPLATEHANDLE, CF_FIXEDPITCHONLY, CF_FORCEFONTEXIST, CF_INACTIVEFONTS, CF_INITTOLOGFONTSTRUCT, CF_LIMITSIZE, CF_NOFACESEL, CF_NOOEMFONTS, CF_NOSCRIPTSEL, CF_NOSIMULATIONS, CF_NOSIZESEL, CF_NOSTYLESEL, CF_NOVECTORFONTS, CF_NOVERTFONTS, CF_PRINTERFONTS, CF_SCALABLEONLY, CF_SCREENFONTS, CF_SCRIPTSONLY, CF_SELECTSCRIPT, CF_SHOWHELP, CF_TTONLY, CF_USESTYLE, CF_WYSIWYG, CHOOSEFONT, CHOOSEFONT structure [Dialog Boxes], CHOOSEFONTA, CHOOSEFONTW, ITALIC_FONTTYPE, LPCHOOSEFONT, LPCHOOSEFONT structure pointer [Dialog Boxes], PRINTER_FONTTYPE, REGULAR_FONTTYPE, SCREEN_FONTTYPE, SIMULATED_FONTTYPE, _win32_CHOOSEFONT_str, _win32_choosefont_str_cpp, commdlg/CHOOSEFONT, commdlg/CHOOSEFONTA, commdlg/CHOOSEFONTW, commdlg/LPCHOOSEFONT, dlgbox.choosefont_str, tagCHOOSEFONTA, tagCHOOSEFONTW, winui._win32_choosefont_str'
 ms.topic: struct
-f1_keywords: 
- - "commdlg/CHOOSEFONT"
+f1_keywords:
+- commdlg/CHOOSEFONT
 dev_langs:
- - c++
+- c++
 req.header: commdlg.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Commdlg.h
+- Commdlg.h
 api_name:
- - CHOOSEFONT
- - CHOOSEFONTA
- - CHOOSEFONTW
+- CHOOSEFONT
+- CHOOSEFONTA
+- CHOOSEFONTW
 targetos: Windows
 req.typenames: CHOOSEFONTA
 req.redist: 

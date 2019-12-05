@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl.ITrayDeskBand.ShowDeskBand
 title: ITrayDeskBand::ShowDeskBand (shobjidl.h)
-
 description: Shows a specified deskband.
 old-location: shell\ITrayDeskBand_ShowDeskBand.htm
 tech.root: shell
 ms.assetid: 6fd46acd-47b3-46dd-955d-c036995dd01b
-
 ms.date: 12/05/2018
 ms.keywords: ITrayDeskBand interface [Windows Shell],ShowDeskBand method, ITrayDeskBand.ShowDeskBand, ITrayDeskBand::ShowDeskBand, ShowDeskBand, ShowDeskBand method [Windows Shell], ShowDeskBand method [Windows Shell],ITrayDeskBand interface, _shell_ITrayDeskBand_ShowDeskBand, shell.ITrayDeskBand_ShowDeskBand, shobjidl/ITrayDeskBand::ShowDeskBand
 ms.topic: method
-f1_keywords: 
- - "shobjidl/ITrayDeskBand.ShowDeskBand"
+f1_keywords:
+- shobjidl/ITrayDeskBand.ShowDeskBand
 dev_langs:
- - c++
+- c++
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shobjidl.h
+- Shobjidl.h
 api_name:
- - ITrayDeskBand.ShowDeskBand
+- ITrayDeskBand.ShowDeskBand
 targetos: Windows
 req.typenames: 
 req.redist: 

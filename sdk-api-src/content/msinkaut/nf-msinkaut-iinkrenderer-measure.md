@@ -1,19 +1,17 @@
 ---
 UID: NF:msinkaut.IInkRenderer.Measure
 title: IInkRenderer::Measure (msinkaut.h)
-
 description: Calculates the rectangle on the device context that would contain a collection of strokes if the strokes were drawn with the InkRenderer object using the DrawStroke method.
 old-location: tablet\inkrenderer_measure.htm
 tech.root: tablet
 ms.assetid: 1ef9ef91-ae96-454f-9ef8-570e64852395
-
 ms.date: 12/05/2018
 ms.keywords: 1ef9ef91-ae96-454f-9ef8-570e64852395, IInkRenderer interface [Tablet PC],Measure method, IInkRenderer.Measure, IInkRenderer::Measure, Measure, Measure method [Tablet PC], Measure method [Tablet PC],IInkRenderer interface, msinkaut/IInkRenderer::Measure, tablet.inkrenderer_measure
 ms.topic: method
-f1_keywords: 
- - "msinkaut/IInkRenderer.Measure"
+f1_keywords:
+- msinkaut/IInkRenderer.Measure
 dev_langs:
- - c++
+- c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: InkObj.dll
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - InkObj.dll
- - InkObj.dll.dll
+- InkObj.dll
+- InkObj.dll.dll
 api_name:
- - IInkRenderer.Measure
+- IInkRenderer.Measure
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:msopc.IOpcPartSet.DeletePart
 title: IOpcPartSet::DeletePart (msopc.h)
-
 description: Deletes the IOpcPart interface pointer of a specified part object from the set.
 old-location: opc\iopcpartset_deletepart.htm
 tech.root: OPC
 ms.assetid: 2d69530f-7e10-409a-8832-f410d6f9582e
-
 ms.date: 12/05/2018
 ms.keywords: DeletePart, DeletePart method [Open Packaging Conventions], DeletePart method [Open Packaging Conventions],IOpcPartSet interface, IOpcPartSet interface [Open Packaging Conventions],DeletePart method, IOpcPartSet.DeletePart, IOpcPartSet::DeletePart, msopc/IOpcPartSet::DeletePart, opc.iopcpartset_deletepart
 ms.topic: method
-f1_keywords: 
- - "msopc/IOpcPartSet.DeletePart"
+f1_keywords:
+- msopc/IOpcPartSet.DeletePart
 dev_langs:
- - c++
+- c++
 req.header: msopc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msopc.h
+- msopc.h
 api_name:
- - IOpcPartSet.DeletePart
+- IOpcPartSet.DeletePart
 targetos: Windows
 req.typenames: 
 req.redist: 

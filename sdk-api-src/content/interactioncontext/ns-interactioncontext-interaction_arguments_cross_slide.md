@@ -1,19 +1,17 @@
 ---
 UID: NS:interactioncontext.INTERACTION_ARGUMENTS_CROSS_SLIDE
 title: INTERACTION_ARGUMENTS_CROSS_SLIDE (interactioncontext.h)
-
 description: Defines the state of the cross-slide interaction.
 old-location: input_intcontext\interaction_arguments_cross_slide.htm
 tech.root: Input_IntContext
 ms.assetid: 365b0bed-888e-4e9c-ad13-254a241b9de9
-
 ms.date: 12/05/2018
 ms.keywords: INTERACTION_ARGUMENTS_CROSS_SLIDE, INTERACTION_ARGUMENTS_CROSS_SLIDE structure, input_intcontext.interaction_arguments_cross_slide, interactioncontext.interaction_arguments_cross_slide, interactioncontext/INTERACTION_ARGUMENTS_CROSS_SLIDE
 ms.topic: struct
-f1_keywords: 
- - "interactioncontext/INTERACTION_ARGUMENTS_CROSS_SLIDE"
+f1_keywords:
+- interactioncontext/INTERACTION_ARGUMENTS_CROSS_SLIDE
 dev_langs:
- - c++
+- c++
 req.header: interactioncontext.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - interactioncontext.h
+- interactioncontext.h
 api_name:
- - INTERACTION_ARGUMENTS_CROSS_SLIDE
+- INTERACTION_ARGUMENTS_CROSS_SLIDE
 targetos: Windows
 req.typenames: INTERACTION_ARGUMENTS_CROSS_SLIDE
 req.redist: 

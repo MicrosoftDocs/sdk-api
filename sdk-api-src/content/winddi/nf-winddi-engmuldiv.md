@@ -1,19 +1,17 @@
 ---
 UID: NF:winddi.EngMulDiv
 title: EngMulDiv function (winddi.h)
-
 description: The EngMulDiv function multiplies two 32-bit values and then divides the 64-bit result by a third 32-bit value.
 old-location: display\engmuldiv.htm
 tech.root: display
 ms.assetid: e1d9d790-4038-445c-a1ea-fe689cb0e694
-
 ms.date: 12/05/2018
 ms.keywords: EngMulDiv, EngMulDiv function [Display Devices], display.engmuldiv, gdifncs_0d175bf5-b421-43e5-acc5-a11299b0d990.xml, winddi/EngMulDiv
 ms.topic: function
-f1_keywords: 
- - "winddi/EngMulDiv"
+f1_keywords:
+- winddi/EngMulDiv
 dev_langs:
- - c++
+- c++
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Universal
@@ -32,14 +30,14 @@ req.lib: Win32k.lib
 req.dll: Win32k.sys
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Win32k.sys
+- Win32k.sys
 api_name:
- - EngMulDiv
+- EngMulDiv
 targetos: Windows
 req.typenames: 
 req.redist: 

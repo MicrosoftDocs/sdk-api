@@ -1,19 +1,17 @@
 ---
 UID: NN:msctf.ITfThreadMgrEx
 title: ITfThreadMgrEx (msctf.h)
-
 description: The ITfThreadMgrEx interface is used by the application to activate the textservices with some flags. ITfThreadMgrEx can be obtained by QI from ITfThreadMgr.
 old-location: tsf\itfthreadmgrex.htm
 tech.root: TSF
 ms.assetid: c230c363-3c62-459f-9350-d96db916f29c
-
 ms.date: 12/05/2018
 ms.keywords: ITfThreadMgrEx, ITfThreadMgrEx interface [Text Services Framework], ITfThreadMgrEx interface [Text Services Framework],described, _tsf_itfthreadmgrex_ref, msctf/ITfThreadMgrEx, tsf.itfthreadmgrex
 ms.topic: interface
-f1_keywords: 
- - "msctf/ITfThreadMgrEx"
+f1_keywords:
+- msctf/ITfThreadMgrEx
 dev_langs:
- - c++
+- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msctf.h
+- Msctf.h
 api_name:
- - ITfThreadMgrEx
+- ITfThreadMgrEx
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

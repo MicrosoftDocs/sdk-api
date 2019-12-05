@@ -1,19 +1,17 @@
 ---
 UID: NF:wmp.IWMPClosedCaption2.getSAMILangName
 title: IWMPClosedCaption2::getSAMILangName (wmp.h)
-
 description: The getSAMILangName method retrieves the name of a language supported by the current SAMI file.
 old-location: wmp\iwmpclosedcaption2_getsamilangname.htm
 tech.root: WMP
 ms.assetid: f2da5045-4000-46d8-a610-f5f80cb6f713
-
 ms.date: 12/05/2018
 ms.keywords: IWMPClosedCaption2 interface [Windows Media Player],getSAMILangName method, IWMPClosedCaption2.getSAMILangName, IWMPClosedCaption2::getSAMILangName, IWMPClosedCaption2getSAMILangName, getSAMILangName, getSAMILangName method [Windows Media Player], getSAMILangName method [Windows Media Player],IWMPClosedCaption2 interface, wmp.iwmpclosedcaption2_getsamilangname, wmp/IWMPClosedCaption2::getSAMILangName
 ms.topic: method
-f1_keywords: 
- - "wmp/IWMPClosedCaption2.getSAMILangName"
+f1_keywords:
+- wmp/IWMPClosedCaption2.getSAMILangName
 dev_langs:
- - c++
+- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wmp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmp.dll
+- wmp.dll
 api_name:
- - IWMPClosedCaption2.getSAMILangName
+- IWMPClosedCaption2.getSAMILangName
 targetos: Windows
 req.typenames: 
 req.redist: 

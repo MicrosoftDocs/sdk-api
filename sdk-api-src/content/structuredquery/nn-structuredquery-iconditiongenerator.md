@@ -1,19 +1,17 @@
 ---
 UID: NN:structuredquery.IConditionGenerator
 title: IConditionGenerator (structuredquery.h)
-
 description: Provides methods for handling named entities and generating special conditions.
 old-location: search\_search_IConditionGenerator.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\iconditiongenerator\iconditiongenerator.htm
-
 ms.date: 12/05/2018
 ms.keywords: IConditionGenerator, IConditionGenerator interface [search], IConditionGenerator interface [search],described, _search_IConditionGenerator, search._search_IConditionGenerator, structuredquery/IConditionGenerator
 ms.topic: interface
-f1_keywords: 
- - "structuredquery/IConditionGenerator"
+f1_keywords:
+- structuredquery/IConditionGenerator
 dev_langs:
- - c++
+- c++
 req.header: structuredquery.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Structuredquery.h
+- Structuredquery.h
 api_name:
- - IConditionGenerator
+- IConditionGenerator
 targetos: Windows
 req.typenames: 
 req.redist: 

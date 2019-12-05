@@ -1,19 +1,17 @@
 ---
 UID: NF:wingdi.FrameRgn
 title: FrameRgn function (wingdi.h)
-
 description: The FrameRgn function draws a border around the specified region by using the specified brush.
 old-location: gdi\framergn.htm
 tech.root: gdi
 ms.assetid: d2c95392-7950-4963-8f10-2387daf23e93
-
 ms.date: 12/05/2018
 ms.keywords: FrameRgn, FrameRgn function [Windows GDI], _win32_FrameRgn, gdi.framergn, wingdi/FrameRgn
 ms.topic: function
-f1_keywords: 
- - "wingdi/FrameRgn"
+f1_keywords:
+- wingdi/FrameRgn
 dev_langs:
- - c++
+- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - gdi32.dll
- - Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
- - GDI32Full.dll
+- gdi32.dll
+- Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
+- GDI32Full.dll
 api_name:
- - FrameRgn
+- FrameRgn
 targetos: Windows
 req.typenames: 
 req.redist: 

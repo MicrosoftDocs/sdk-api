@@ -1,19 +1,17 @@
 ---
 UID: NF:spatialaudiometadata.ISpatialAudioMetadataReader.Open
 title: ISpatialAudioMetadataReader::Open (spatialaudiometadata.h)
-
 description: Opens an ISpatialAudioMetadataItems object for reading.
 old-location: coreaudio\ispatialaudiometadatareader_open.htm
 tech.root: CoreAudio
 ms.assetid: 50007A27-D885-47F6-9D3A-1F5B6D47BCDD
-
 ms.date: 12/05/2018
 ms.keywords: ISpatialAudioMetadataReader interface [Core Audio],Open method, ISpatialAudioMetadataReader.Open, ISpatialAudioMetadataReader::Open, Open, Open method [Core Audio], Open method [Core Audio],ISpatialAudioMetadataReader interface, coreaudio.ispatialaudiometadatareader_open, spatialaudiometadata/ISpatialAudioMetadataReader::Open
 ms.topic: method
-f1_keywords: 
- - "spatialaudiometadata/ISpatialAudioMetadataReader.Open"
+f1_keywords:
+- spatialaudiometadata/ISpatialAudioMetadataReader.Open
 dev_langs:
- - c++
+- c++
 req.header: spatialaudiometadata.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - SpatialAudioMetadata.h
+- SpatialAudioMetadata.h
 api_name:
- - ISpatialAudioMetadataReader.Open
+- ISpatialAudioMetadataReader.Open
 targetos: Windows
 req.typenames: 
 req.redist: 

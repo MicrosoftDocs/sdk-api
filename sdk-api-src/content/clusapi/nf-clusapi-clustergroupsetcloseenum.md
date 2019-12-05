@@ -1,19 +1,17 @@
 ---
 UID: NF:clusapi.ClusterGroupSetCloseEnum
 title: ClusterGroupSetCloseEnum function (clusapi.h)
-
 description: Closes an open enumeration for a groupset.
 old-location: mscs\clustergroupcollectioncloseenum.htm
 tech.root: MsCS
 ms.assetid: b82e13f0-364c-41cf-9fda-98a95f23ff7d
-
 ms.date: 12/05/2018
 ms.keywords: ClusterGroupSetCloseEnum, ClusterGroupSetCloseEnum function [Failover Cluster], PCLUSAPI_CLOSE_CLUSTER_GROUP_GROUPSET, PCLUSAPI_CLOSE_CLUSTER_GROUP_GROUPSET function [Failover Cluster], clusapi/ClusterGroupSetCloseEnum, clusapi/PCLUSAPI_CLOSE_CLUSTER_GROUP_GROUPSET, mscs.clustergroupcollectioncloseenum
 ms.topic: function
-f1_keywords: 
- - "clusapi/ClusterGroupSetCloseEnum"
+f1_keywords:
+- clusapi/ClusterGroupSetCloseEnum
 dev_langs:
- - c++
+- c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: ClusAPI.lib
 req.dll: ClusAPI.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - ClusAPI.dll
+- ClusAPI.dll
 api_name:
- - ClusterGroupSetCloseEnum
+- ClusterGroupSetCloseEnum
 targetos: Windows
 req.typenames: 
 req.redist: 

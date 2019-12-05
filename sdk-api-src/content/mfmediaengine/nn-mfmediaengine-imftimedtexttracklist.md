@@ -1,19 +1,17 @@
 ---
 UID: NN:mfmediaengine.IMFTimedTextTrackList
 title: IMFTimedTextTrackList (mfmediaengine.h)
-
 description: Represents a list of timed-text tracks.
 old-location: mf\imftimedtexttracklist.htm
 tech.root: medfound
 ms.assetid: EA94A81E-3B1D-4723-B00F-B216991E19E5
-
 ms.date: 12/05/2018
 ms.keywords: IMFTimedTextTrackList, IMFTimedTextTrackList interface [Media Foundation], IMFTimedTextTrackList interface [Media Foundation],described, mf.imftimedtexttracklist, mfmediaengine/IMFTimedTextTrackList
 ms.topic: interface
-f1_keywords: 
- - "mfmediaengine/IMFTimedTextTrackList"
+f1_keywords:
+- mfmediaengine/IMFTimedTextTrackList
 dev_langs:
- - c++
+- c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfmediaengine.h
+- mfmediaengine.h
 api_name:
- - IMFTimedTextTrackList
+- IMFTimedTextTrackList
 targetos: Windows
 req.typenames: 
 req.redist: 

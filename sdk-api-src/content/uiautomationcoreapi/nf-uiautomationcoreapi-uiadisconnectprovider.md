@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationcoreapi.UiaDisconnectProvider
 title: UiaDisconnectProvider function (uiautomationcoreapi.h)
-
 description: Releases all references that a particular provider holds to Microsoft UI Automation objects.
 old-location: winauto\uiauto_UiaDisconnectProvider.htm
 tech.root: WinAuto
 ms.assetid: D4CE0071-47C4-421D-A0F1-D6E2D9983838
-
 ms.date: 12/05/2018
 ms.keywords: UiaDisconnectProvider, UiaDisconnectProvider function [Windows Accessibility], uiautomationcoreapi/UiaDisconnectProvider, winauto.uiauto_UiaDisconnectProvider
 ms.topic: function
-f1_keywords: 
- - "uiautomationcoreapi/UiaDisconnectProvider"
+f1_keywords:
+- uiautomationcoreapi/UiaDisconnectProvider
 dev_langs:
- - c++
+- c++
 req.header: uiautomationcoreapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib: Uiautomationcore.lib
 req.dll: Uiautomationcore.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Uiautomationcore.dll
- - Ext-MS-Win-uiacore-l1-1-0.dll
- - Ext-MS-Win-UIaCore-l1-1-1.dll
- - Ext-MS-Win-UIaCore-l1-1-2.dll
- - Ext-MS-Win-UiaCore-L1-1-3.dll
+- Uiautomationcore.dll
+- Ext-MS-Win-uiacore-l1-1-0.dll
+- Ext-MS-Win-UIaCore-l1-1-1.dll
+- Ext-MS-Win-UIaCore-l1-1-2.dll
+- Ext-MS-Win-UiaCore-L1-1-3.dll
 api_name:
- - UiaDisconnectProvider
+- UiaDisconnectProvider
 targetos: Windows
 req.typenames: 
 req.redist: 

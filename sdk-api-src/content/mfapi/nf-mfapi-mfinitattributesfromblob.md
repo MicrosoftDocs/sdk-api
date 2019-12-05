@@ -1,19 +1,17 @@
 ---
 UID: NF:mfapi.MFInitAttributesFromBlob
 title: MFInitAttributesFromBlob function (mfapi.h)
-
 description: Initializes the contents of an attribute store from a byte array.
 old-location: mf\mfinitattributesfromblob.htm
 tech.root: medfound
 ms.assetid: da0f01a3-ed47-42a1-b4af-5f3cbc9271a3
-
 ms.date: 12/05/2018
 ms.keywords: MFInitAttributesFromBlob, MFInitAttributesFromBlob function [Media Foundation], da0f01a3-ed47-42a1-b4af-5f3cbc9271a3, mf.mfinitattributesfromblob, mfapi/MFInitAttributesFromBlob
 ms.topic: function
-f1_keywords: 
- - "mfapi/MFInitAttributesFromBlob"
+f1_keywords:
+- mfapi/MFInitAttributesFromBlob
 dev_langs:
- - c++
+- c++
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Mfplat.lib
 req.dll: Mfplat.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - mfplat.dll
+- mfplat.dll
 api_name:
- - MFInitAttributesFromBlob
+- MFInitAttributesFromBlob
 targetos: Windows
 req.typenames: 
 req.redist: 

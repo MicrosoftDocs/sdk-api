@@ -1,19 +1,17 @@
 ---
 UID: NF:processthreadsapi.SetThreadToken
 title: SetThreadToken function (processthreadsapi.h)
-
 description: Assigns an impersonation token to a thread. The function can also cause a thread to stop using an impersonation token.
 old-location: security\setthreadtoken.htm
 tech.root: SecAuthZ
 ms.assetid: ba1a4fce-b3cc-423d-b213-5dfca3dea708
-
 ms.date: 12/05/2018
 ms.keywords: SetThreadToken, SetThreadToken function [Security], _win32_setthreadtoken, processthreadsapi/SetThreadToken, security.setthreadtoken
 ms.topic: function
-f1_keywords: 
- - "processthreadsapi/SetThreadToken"
+f1_keywords:
+- processthreadsapi/SetThreadToken
 dev_langs:
- - c++
+- c++
 req.header: processthreadsapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,23 +30,23 @@ req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Advapi32.dll
- - API-MS-Win-Core-Processsecurity-l1-1-0.dll
- - Kernel32.dll
- - KernelBase.dll
- - API-MS-Win-Core-Processthreads-l1-1-0.dll
- - API-MS-Win-Core-Processthreads-l1-1-1.dll
- - API-MS-Win-Core-Processthreads-l1-1-2.dll
- - API-MS-Win-DownLevel-AdvApi32-l1-1-1.dll
- - MinKernelBase.dll
- - API-MS-Win-Core-ProcessThreads-L1-1-3.dll
+- Advapi32.dll
+- API-MS-Win-Core-Processsecurity-l1-1-0.dll
+- Kernel32.dll
+- KernelBase.dll
+- API-MS-Win-Core-Processthreads-l1-1-0.dll
+- API-MS-Win-Core-Processthreads-l1-1-1.dll
+- API-MS-Win-Core-Processthreads-l1-1-2.dll
+- API-MS-Win-DownLevel-AdvApi32-l1-1-1.dll
+- MinKernelBase.dll
+- API-MS-Win-Core-ProcessThreads-L1-1-3.dll
 api_name:
- - SetThreadToken
+- SetThreadToken
 targetos: Windows
 req.typenames: 
 req.redist: 

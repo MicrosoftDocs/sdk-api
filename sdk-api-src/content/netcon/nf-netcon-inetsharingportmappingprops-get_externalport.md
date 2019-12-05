@@ -1,19 +1,17 @@
 ---
 UID: NF:netcon.INetSharingPortMappingProps.get_ExternalPort
 title: INetSharingPortMappingProps::get_ExternalPort (netcon.h)
-
 description: The get_ExternalPort method retrieves the external port associated with this port mapping.
 old-location: ics\inetsharingportmappingprops_get_externalport.htm
 tech.root: ics
 ms.assetid: d1cf6a3f-c6d2-4514-89e6-af58be22dabb
-
 ms.date: 12/05/2018
 ms.keywords: INetSharingPortMappingProps interface [ICS/ICF],get_ExternalPort method, INetSharingPortMappingProps.get_ExternalPort, INetSharingPortMappingProps::get_ExternalPort, _ics_inetsharingportmappingprops_get_port, get_ExternalPort, get_ExternalPort method [ICS/ICF], get_ExternalPort method [ICS/ICF],INetSharingPortMappingProps interface, ics.inetsharingportmappingprops_get_externalport, ics.inetsharingportmappingprops_get_port, netcon/INetSharingPortMappingProps::get_ExternalPort
 ms.topic: method
-f1_keywords: 
- - "netcon/INetSharingPortMappingProps.get_ExternalPort"
+f1_keywords:
+- netcon/INetSharingPortMappingProps.get_ExternalPort
 dev_langs:
- - c++
+- c++
 req.header: netcon.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Hnetcfg.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Hnetcfg.dll
+- Hnetcfg.dll
 api_name:
- - INetSharingPortMappingProps.get_ExternalPort
+- INetSharingPortMappingProps.get_ExternalPort
 targetos: Windows
 req.typenames: 
 req.redist: 

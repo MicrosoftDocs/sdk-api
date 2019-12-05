@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IGraphConfigCallback.Reconfigure
 title: IGraphConfigCallback::Reconfigure (strmif.h)
-
 description: The Reconfigure method is a callback method passed to IGraphConfig::Reconfigure.
 old-location: dshow\igraphconfigcallback_reconfigure.htm
 tech.root: DirectShow
 ms.assetid: b4f44639-b3b0-412e-8b71-e1f994dee0e6
-
 ms.date: 12/05/2018
 ms.keywords: IGraphConfigCallback interface [DirectShow],Reconfigure method, IGraphConfigCallback.Reconfigure, IGraphConfigCallback::Reconfigure, IGraphConfigCallbackReconfigure, Reconfigure, Reconfigure method [DirectShow], Reconfigure method [DirectShow],IGraphConfigCallback interface, dshow.igraphconfigcallback_reconfigure, strmif/IGraphConfigCallback::Reconfigure
 ms.topic: method
-f1_keywords: 
- - "strmif/IGraphConfigCallback.Reconfigure"
+f1_keywords:
+- strmif/IGraphConfigCallback.Reconfigure
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IGraphConfigCallback.Reconfigure
+- IGraphConfigCallback.Reconfigure
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -3,14 +3,13 @@ UID: NF:directxmath.operator-mult~r1
 title: operator*
 description: Multiply an instance of XMVECTOR by a floating point value, returning the result a new instance of XMVECTOR.
 ms.assetid: ebfb61d9-0b98-4e89-a196-bb43881c7252
-
 ms.date: 05/13/2019
 ms.keywords: operator*
 ms.topic: language-reference
-f1_keywords: 
- - "directxmath/operator*"
+f1_keywords:
+- directxmath/operator*
 dev_langs:
- - c++
+- c++
 targetos: Windows
 req.assembly: 
 req.construct-type: function
@@ -32,13 +31,13 @@ req.type-library:
 req.umdf-ver: 
 req.unicode-ansi: 
 topic_type:
- - apiref
+- apiref
 api_type:
- - 
+- 
 api_location:
- - directxmath.h
+- directxmath.h
 api_name:
- - operator*
+- operator*
 ---
 
 # operator *(XMVECTOR, float)

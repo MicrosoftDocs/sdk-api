@@ -1,19 +1,17 @@
 ---
 UID: NF:wtsprotocol.IWRdsWddmIddProps.EnableWddmIdd
 title: IWRdsWddmIddProps::EnableWddmIdd (wtsprotocol.h)
-
 description: Termsrv uses this method to tell protocol stack which mode it is operating.
 old-location: termserv\iwrdswddmiddprops_enablewddmidd.htm
 tech.root: TermServ
 ms.assetid: 19F07236-6F9C-49F0-B100-E02F9DBF54F7
-
 ms.date: 12/05/2018
 ms.keywords: EnableWddmIdd, EnableWddmIdd method [Remote Desktop Services], EnableWddmIdd method [Remote Desktop Services],IWRdsWddmIddProps interface, IWRdsWddmIddProps interface [Remote Desktop Services],EnableWddmIdd method, IWRdsWddmIddProps.EnableWddmIdd, IWRdsWddmIddProps::EnableWddmIdd, termserv.iwrdswddmiddprops_enablewddmidd, wtsprotocol/IWRdsWddmIddProps::EnableWddmIdd
 ms.topic: method
-f1_keywords: 
- - "wtsprotocol/IWRdsWddmIddProps.EnableWddmIdd"
+f1_keywords:
+- wtsprotocol/IWRdsWddmIddProps.EnableWddmIdd
 dev_langs:
- - c++
+- c++
 req.header: wtsprotocol.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wtsprotocol.h
+- Wtsprotocol.h
 api_name:
- - IWRdsWddmIddProps.EnableWddmIdd
+- IWRdsWddmIddProps.EnableWddmIdd
 targetos: Windows
 req.typenames: 
 req.redist: 

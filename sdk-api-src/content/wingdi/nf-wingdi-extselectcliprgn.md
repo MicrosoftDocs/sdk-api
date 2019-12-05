@@ -1,19 +1,17 @@
 ---
 UID: NF:wingdi.ExtSelectClipRgn
 title: ExtSelectClipRgn function (wingdi.h)
-
 description: The ExtSelectClipRgn function combines the specified region with the current clipping region using the specified mode.
 old-location: gdi\extselectcliprgn.htm
 tech.root: gdi
 ms.assetid: d222defe-2ef9-4622-b2e1-462a91cb1b0a
-
 ms.date: 12/05/2018
 ms.keywords: ExtSelectClipRgn, ExtSelectClipRgn function [Windows GDI], RGN_AND, RGN_COPY, RGN_DIFF, RGN_OR, RGN_XOR, _win32_ExtSelectClipRgn, gdi.extselectcliprgn, wingdi/ExtSelectClipRgn
 ms.topic: function
-f1_keywords: 
- - "wingdi/ExtSelectClipRgn"
+f1_keywords:
+- wingdi/ExtSelectClipRgn
 dev_langs:
- - c++
+- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - gdi32.dll
- - Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
+- gdi32.dll
+- Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
 api_name:
- - ExtSelectClipRgn
+- ExtSelectClipRgn
 targetos: Windows
 req.typenames: 
 req.redist: 

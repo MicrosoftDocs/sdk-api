@@ -1,19 +1,17 @@
 ---
 UID: NF:oleidl.IOleInPlaceObject.InPlaceDeactivate
 title: IOleInPlaceObject::InPlaceDeactivate (oleidl.h)
-
 description: Deactivates an active in-place object and discards the object's undo state.
 old-location: com\ioleinplaceobject_inplacedeactivate.htm
 tech.root: com
 ms.assetid: 174a8bde-0795-4d4d-a294-7708c7d1823a
-
 ms.date: 12/05/2018
 ms.keywords: IOleInPlaceObject interface [COM],InPlaceDeactivate method, IOleInPlaceObject.InPlaceDeactivate, IOleInPlaceObject::InPlaceDeactivate, InPlaceDeactivate, InPlaceDeactivate method [COM], InPlaceDeactivate method [COM],IOleInPlaceObject interface, _ole_ioleinplaceobject_inplacedeactivate, com.ioleinplaceobject_inplacedeactivate, oleidl/IOleInPlaceObject::InPlaceDeactivate
 ms.topic: method
-f1_keywords: 
- - "oleidl/IOleInPlaceObject.InPlaceDeactivate"
+f1_keywords:
+- oleidl/IOleInPlaceObject.InPlaceDeactivate
 dev_langs:
- - c++
+- c++
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - OleIdl.h
+- OleIdl.h
 api_name:
- - IOleInPlaceObject.InPlaceDeactivate
+- IOleInPlaceObject.InPlaceDeactivate
 targetos: Windows
 req.typenames: 
 req.redist: 

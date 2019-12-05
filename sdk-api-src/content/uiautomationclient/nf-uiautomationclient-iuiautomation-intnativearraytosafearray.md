@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationclient.IUIAutomation.IntNativeArrayToSafeArray
 title: IUIAutomation::IntNativeArrayToSafeArray (uiautomationclient.h)
-
 description: Converts an array of integers to a SAFEARRAY.
 old-location: winauto\uiauto_IUIAutomation_IntNativeArrayToSafeArray.htm
 tech.root: WinAuto
 ms.assetid: f8fd2c2b-f8c7-454b-ad03-aeeb4bbcef61
-
 ms.date: 12/05/2018
 ms.keywords: IUIAutomation interface [Windows Accessibility],IntNativeArrayToSafeArray method, IUIAutomation.IntNativeArrayToSafeArray, IUIAutomation::IntNativeArrayToSafeArray, IntNativeArrayToSafeArray, IntNativeArrayToSafeArray method [Windows Accessibility], IntNativeArrayToSafeArray method [Windows Accessibility],IUIAutomation interface, uiauto.uiauto_IUIAutomation_IntNativeArrayToSafeArray, uiauto_IUIAutomation_IntNativeArrayToSafeArray, uiautomationclient/IUIAutomation::IntNativeArrayToSafeArray, winauto.uiauto_IUIAutomation_IntNativeArrayToSafeArray
 ms.topic: method
-f1_keywords: 
- - "uiautomationclient/IUIAutomation.IntNativeArrayToSafeArray"
+f1_keywords:
+- uiautomationclient/IUIAutomation.IntNativeArrayToSafeArray
 dev_langs:
- - c++
+- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationClient.h
+- UIAutomationClient.h
 api_name:
- - IUIAutomation.IntNativeArrayToSafeArray
+- IUIAutomation.IntNativeArrayToSafeArray
 targetos: Windows
 req.typenames: 
 req.redist: 

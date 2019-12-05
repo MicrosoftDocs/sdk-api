@@ -1,19 +1,17 @@
 ---
 UID: NF:imapi2.IDiscRecorder2.EjectMedia
 title: IDiscRecorder2::EjectMedia (imapi2.h)
-
 description: Ejects media from the device.
 old-location: imapi\idiscrecorder2_ejectmedia.htm
 tech.root: imapi
 ms.assetid: d8fc55d7-0840-4090-a653-eb38d3f37fac
-
 ms.date: 12/05/2018
 ms.keywords: EjectMedia, EjectMedia method [IMAPI], EjectMedia method [IMAPI],IDiscRecorder2 interface, IDiscRecorder2 interface [IMAPI],EjectMedia method, IDiscRecorder2.EjectMedia, IDiscRecorder2::EjectMedia, imapi.idiscrecorder2_ejectmedia, imapi2/IDiscRecorder2::EjectMedia
 ms.topic: method
-f1_keywords: 
- - "imapi2/IDiscRecorder2.EjectMedia"
+f1_keywords:
+- imapi2/IDiscRecorder2.EjectMedia
 dev_langs:
- - c++
+- c++
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - imapi2.h
+- imapi2.h
 api_name:
- - IDiscRecorder2.EjectMedia
+- IDiscRecorder2.EjectMedia
 targetos: Windows
 req.typenames: 
 req.redist: 

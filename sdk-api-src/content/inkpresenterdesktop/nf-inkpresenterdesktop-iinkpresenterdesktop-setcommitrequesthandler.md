@@ -1,19 +1,17 @@
 ---
 UID: NF:inkpresenterdesktop.IInkPresenterDesktop.SetCommitRequestHandler
 title: IInkPresenterDesktop::SetCommitRequestHandler (inkpresenterdesktop.h)
-
 description: Sets an IInkCommitRequestHandler object that enables the app (instead of an IInkPresenterDesktop object) to commit all pending Microsoft DirectComposition commands to the app's DirectComposition visual tree.
 old-location: input_ink\iinkpresenterdesktop_setcommitrequesthandler.htm
 tech.root: input_ink
 ms.assetid: b53eba5d-c53d-45a4-ae51-5a8a27043554
-
 ms.date: 12/05/2018
 ms.keywords: IInkPresenterDesktop interface,SetCommitRequestHandler method, IInkPresenterDesktop.SetCommitRequestHandler, IInkPresenterDesktop::SetCommitRequestHandler, InkPresenterDesktop.iinkpresenterdesktop_setcommitrequesthandler, SetCommitRequestHandler, SetCommitRequestHandler method, SetCommitRequestHandler method,IInkPresenterDesktop interface, inkpresenterdesktop/IInkPresenterDesktop::SetCommitRequestHandler, input_ink.iinkpresenterdesktop_setcommitrequesthandler
 ms.topic: method
-f1_keywords: 
- - "inkpresenterdesktop/IInkPresenterDesktop.SetCommitRequestHandler"
+f1_keywords:
+- inkpresenterdesktop/IInkPresenterDesktop.SetCommitRequestHandler
 dev_langs:
- - c++
+- c++
 req.header: inkpresenterdesktop.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - InkPresenterDesktop.h
+- InkPresenterDesktop.h
 api_name:
- - IInkPresenterDesktop.SetCommitRequestHandler
+- IInkPresenterDesktop.SetCommitRequestHandler
 targetos: Windows
 req.typenames: 
 req.redist: 

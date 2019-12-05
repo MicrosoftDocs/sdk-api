@@ -1,19 +1,17 @@
 ---
 UID: NS:d3d12.D3D12_RESOURCE_ALIASING_BARRIER
 title: D3D12_RESOURCE_ALIASING_BARRIER (d3d12.h)
-
 description: Describes the transition between usages of two different resources that have mappings into the same heap.
 old-location: direct3d12\d3d12_resource_aliasing_barrier.htm
 tech.root: direct3d12
 ms.assetid: 9855D609-E863-4334-B6BA-B6777FDAB82B
-
 ms.date: 12/05/2018
 ms.keywords: D3D12_RESOURCE_ALIASING_BARRIER, D3D12_RESOURCE_ALIASING_BARRIER structure, d3d12/D3D12_RESOURCE_ALIASING_BARRIER, direct3d12.d3d12_resource_aliasing_barrier
 ms.topic: struct
-f1_keywords: 
- - "d3d12/D3D12_RESOURCE_ALIASING_BARRIER"
+f1_keywords:
+- d3d12/D3D12_RESOURCE_ALIASING_BARRIER
 dev_langs:
- - c++
+- c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - D3D12.h
+- D3D12.h
 api_name:
- - D3D12_RESOURCE_ALIASING_BARRIER
+- D3D12_RESOURCE_ALIASING_BARRIER
 targetos: Windows
 req.typenames: D3D12_RESOURCE_ALIASING_BARRIER
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:roapi.RoActivateInstance
 title: RoActivateInstance function (roapi.h)
-
 description: Activates the specified Windows Runtime class.
 old-location: winrt\roactivateinstance.htm
 tech.root: WinRT
 ms.assetid: 20E469FE-100B-489F-956A-347716FA8A12
-
 ms.date: 12/05/2018
 ms.keywords: RoActivateInstance, RoActivateInstance function [Windows Runtime], WinRTActivateInstance, roapi/RoActivateInstance, roapi/WinRTActivateInstance, winrt.roactivateinstance, winrt.winrtactivateinstance
 ms.topic: function
-f1_keywords: 
- - "roapi/RoActivateInstance"
+f1_keywords:
+- roapi/RoActivateInstance
 dev_langs:
- - c++
+- c++
 req.header: roapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - roapi.h
- - API-MS-Win-Core-WinRT-l1-1-0.dll
- - ComBase.dll
+- roapi.h
+- API-MS-Win-Core-WinRT-l1-1-0.dll
+- ComBase.dll
 api_name:
- - RoActivateInstance
- - WinRTActivateInstance
+- RoActivateInstance
+- WinRTActivateInstance
 targetos: Windows
 req.typenames: 
 req.redist: 

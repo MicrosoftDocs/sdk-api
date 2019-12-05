@@ -1,19 +1,17 @@
 ---
 UID: NF:msajtransport.AllJoynCloseBusHandle
 title: AllJoynCloseBusHandle function (msajtransport.h)
-
 description: Closes the Named Pipe handle.
 old-location: alljoyn\alljoynclosebushandle.htm
 tech.root: AllJoyn
 ms.assetid: FE545239-F88D-4876-8A3F-52AC8CA63FBB
-
 ms.date: 12/05/2018
 ms.keywords: AllJoynCloseBusHandle, AllJoynCloseBusHandle function [AllJoyn API], alljoyn.alljoynclosebushandle, msajtransport/AllJoynCloseBusHandle
 ms.topic: function
-f1_keywords: 
- - "msajtransport/AllJoynCloseBusHandle"
+f1_keywords:
+- msajtransport/AllJoynCloseBusHandle
 dev_langs:
- - c++
+- c++
 req.header: msajtransport.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: MSAJApi.lib
 req.dll: MSAJApi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - MSAJApi.dll
+- MSAJApi.dll
 api_name:
- - AllJoynCloseBusHandle
+- AllJoynCloseBusHandle
 targetos: Windows
 req.typenames: 
 req.redist: 

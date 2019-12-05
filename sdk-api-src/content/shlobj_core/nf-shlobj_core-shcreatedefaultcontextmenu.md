@@ -1,19 +1,17 @@
 ---
 UID: NF:shlobj_core.SHCreateDefaultContextMenu
 title: SHCreateDefaultContextMenu function (shlobj_core.h)
-
 description: Creates an object that represents the Shell's default context menu implementation.
 old-location: shell\SHCreateDefaultContextMenu.htm
 tech.root: shell
 ms.assetid: 055ff0a0-9ba7-463d-9684-3fd072b190da
-
 ms.date: 12/05/2018
 ms.keywords: SHCreateDefaultContextMenu, SHCreateDefaultContextMenu function [Windows Shell], _shell_SHCreateDefaultContextMenu, shell.SHCreateDefaultContextMenu, shlobj_core/SHCreateDefaultContextMenu
 ms.topic: function
-f1_keywords: 
- - "shlobj_core/SHCreateDefaultContextMenu"
+f1_keywords:
+- shlobj_core/SHCreateDefaultContextMenu
 dev_langs:
- - c++
+- c++
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Shell32.dll (version 6.0.6000 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - SHCreateDefaultContextMenu
+- SHCreateDefaultContextMenu
 targetos: Windows
 req.typenames: 
 req.redist: 

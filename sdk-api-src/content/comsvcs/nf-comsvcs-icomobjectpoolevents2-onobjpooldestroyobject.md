@@ -1,19 +1,17 @@
 ---
 UID: NF:comsvcs.IComObjectPoolEvents2.OnObjPoolDestroyObject
 title: IComObjectPoolEvents2::OnObjPoolDestroyObject (comsvcs.h)
-
 description: Generated when an object is permanently removed from the pool.
 old-location: cos\icomobjectpoolevents2_onobjpooldestroyobject.htm
 tech.root: cossdk
 ms.assetid: c942da45-4d41-4483-a30b-862d3e0c13b7
-
 ms.date: 12/05/2018
 ms.keywords: IComObjectPoolEvents2 interface [COM+],OnObjPoolDestroyObject method, IComObjectPoolEvents2.OnObjPoolDestroyObject, IComObjectPoolEvents2::OnObjPoolDestroyObject, OnObjPoolDestroyObject, OnObjPoolDestroyObject method [COM+], OnObjPoolDestroyObject method [COM+],IComObjectPoolEvents2 interface, _dtc_IComObjectPoolEvents2_OnObjPoolDestroyObject, comsvcs/IComObjectPoolEvents2::OnObjPoolDestroyObject, cos.icomobjectpoolevents2_onobjpooldestroyobject
 ms.topic: method
-f1_keywords: 
- - "comsvcs/IComObjectPoolEvents2.OnObjPoolDestroyObject"
+f1_keywords:
+- comsvcs/IComObjectPoolEvents2.OnObjPoolDestroyObject
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - IComObjectPoolEvents2.OnObjPoolDestroyObject
+- IComObjectPoolEvents2.OnObjPoolDestroyObject
 targetos: Windows
 req.typenames: 
 req.redist: 

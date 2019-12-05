@@ -1,19 +1,17 @@
 ---
 UID: NF:faxcomex.IFaxConfiguration.get_UseArchive
 title: IFaxConfiguration::get_UseArchive (faxcomex.h)
-
 description: Sets or retrieves a value that indicates whether faxes should be archived.
 old-location: fax\_mfax_IFaxConfiguration_UseArchive.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\reference\serviceextendedcom\o\faxconfiguation\usearchive.htm
-
 ms.date: 12/05/2018
 ms.keywords: IFaxConfiguration interface [Fax Service],UseArchive property, IFaxConfiguration.UseArchive, IFaxConfiguration.get_UseArchive, IFaxConfiguration::UseArchive, IFaxConfiguration::get_UseArchive, IFaxConfiguration::put_UseArchive, UseArchive property [Fax Service], UseArchive property [Fax Service],IFaxConfiguration interface, _mfax_IFaxConfiguration_UseArchive, fax._mfax_IFaxConfiguration_UseArchive, faxcomex/IFaxConfiguration::UseArchive, faxcomex/IFaxConfiguration::get_UseArchive, faxcomex/IFaxConfiguration::put_UseArchive, get_UseArchive
 ms.topic: method
-f1_keywords: 
- - "faxcomex/IFaxConfiguration.UseArchive"
+f1_keywords:
+- faxcomex/IFaxConfiguration.UseArchive
 dev_langs:
- - c++
+- c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: Fxscomex.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Fxscomex.dll
+- Fxscomex.dll
 api_name:
- - IFaxConfiguration.UseArchive
- - IFaxConfiguration.get_UseArchive
- - IFaxConfiguration.put_UseArchive
+- IFaxConfiguration.UseArchive
+- IFaxConfiguration.get_UseArchive
+- IFaxConfiguration.put_UseArchive
 targetos: Windows
 req.typenames: 
 req.redist: 

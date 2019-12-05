@@ -1,19 +1,17 @@
 ---
 UID: NE:projectedfslib.PRJ_PLACEHOLDER_ID
 title: PRJ_PLACEHOLDER_ID (projectedfslib.h)
-
 description: Defines the length of a placeholder identifier.
 old-location: projfs\prj_placeholder_id.htm
 tech.root: ProjFS
 ms.assetid: 6E8574B4-C83D-4B0C-9B80-5ACD0BC45C1C
-
 ms.date: 12/05/2018
 ms.keywords: PRJ_PLACEHOLDER_ID, PRJ_PLACEHOLDER_ID enumeration, PRJ_PLACEHOLDER_ID_LENGTH, ProjFS.prj_placeholder_id, projectedfslib/PRJ_PLACEHOLDER_ID, projectedfslib/PRJ_PLACEHOLDER_ID_LENGTH
 ms.topic: enum
-f1_keywords: 
- - "projectedfslib/PRJ_PLACEHOLDER_ID"
+f1_keywords:
+- projectedfslib/PRJ_PLACEHOLDER_ID
 dev_langs:
- - c++
+- c++
 req.header: projectedfslib.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - projectedfslib.h
+- projectedfslib.h
 api_name:
- - PRJ_PLACEHOLDER_ID
+- PRJ_PLACEHOLDER_ID
 targetos: Windows
 req.typenames: PRJ_PLACEHOLDER_ID
 req.redist: 

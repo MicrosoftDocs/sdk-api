@@ -1,19 +1,17 @@
 ---
 UID: NF:dwrite.IDWriteTextFormat.SetWordWrapping
 title: IDWriteTextFormat::SetWordWrapping (dwrite.h)
-
 description: Sets the word wrapping option.
 old-location: directwrite\IDWriteTextFormat_SetWordWrapping.htm
 tech.root: DirectWrite
 ms.assetid: 04c9fc62-d5a3-470b-bcae-4c6570eebdaa
-
 ms.date: 12/05/2018
 ms.keywords: IDWriteTextFormat interface [Direct Write],SetWordWrapping method, IDWriteTextFormat.SetWordWrapping, IDWriteTextFormat::SetWordWrapping, SetWordWrapping, SetWordWrapping method [Direct Write], SetWordWrapping method [Direct Write],IDWriteTextFormat interface, directwrite.IDWriteTextFormat_SetWordWrapping, dwrite/IDWriteTextFormat::SetWordWrapping
 ms.topic: method
-f1_keywords: 
- - "dwrite/IDWriteTextFormat.SetWordWrapping"
+f1_keywords:
+- dwrite/IDWriteTextFormat.SetWordWrapping
 dev_langs:
- - c++
+- c++
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dwrite.lib
 req.dll: Dwrite.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dwrite.dll
+- dwrite.dll
 api_name:
- - IDWriteTextFormat.SetWordWrapping
+- IDWriteTextFormat.SetWordWrapping
 targetos: Windows
 req.typenames: 
 req.redist: 

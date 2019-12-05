@@ -1,19 +1,17 @@
 ---
 UID: NN:wtsprotocol.IWTSProtocolConnection
 title: IWTSProtocolConnection (wtsprotocol.h)
-
 description: IWTSProtocolConnection is no longer available. Instead, use IWRdsProtocolConnection.
 old-location: termserv\iwtsprotocolconnection.htm
 tech.root: TermServ
 ms.assetid: 584a6874-0df4-480e-a10a-4b603643870e
-
 ms.date: 12/05/2018
 ms.keywords: IWTSProtocolConnection, IWTSProtocolConnection interface [Remote Desktop Services], IWTSProtocolConnection interface [Remote Desktop Services],described, termserv.iwtsprotocolconnection, wtsprotocol/IWTSProtocolConnection
 ms.topic: interface
-f1_keywords: 
- - "wtsprotocol/IWTSProtocolConnection"
+f1_keywords:
+- wtsprotocol/IWTSProtocolConnection
 dev_langs:
- - c++
+- c++
 req.header: wtsprotocol.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wtsprotocol.h
+- wtsprotocol.h
 api_name:
- - IWTSProtocolConnection
+- IWTSProtocolConnection
 targetos: Windows
 req.typenames: 
 req.redist: 

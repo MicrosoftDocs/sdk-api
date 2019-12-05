@@ -1,19 +1,17 @@
 ---
 UID: NE:fsrmenums._FsrmAccountType
 title: FsrmAccountType (fsrmenums.h)
-
 description: Defines the computer account types under which a command action (see FsrmActionType) can run.
 old-location: fsrm\fsrmaccounttype.htm
 tech.root: fsrm
 ms.assetid: 8df04b24-e3dd-46ee-8d06-6a3763946fbe
-
 ms.date: 12/05/2018
 ms.keywords: FsrmAccountType, FsrmAccountType enumeration [File Server Resource Manager], FsrmAccountType_Automatic, FsrmAccountType_External, FsrmAccountType_InProc, FsrmAccountType_LocalService, FsrmAccountType_LocalSystem, FsrmAccountType_NetworkService, FsrmAccountType_Unknown, fs.fsrmaccounttype, fsrm.fsrmaccounttype, fsrmenums/FsrmAccountType, fsrmenums/FsrmAccountType_Automatic, fsrmenums/FsrmAccountType_External, fsrmenums/FsrmAccountType_InProc, fsrmenums/FsrmAccountType_LocalService, fsrmenums/FsrmAccountType_LocalSystem, fsrmenums/FsrmAccountType_NetworkService, fsrmenums/FsrmAccountType_Unknown
 ms.topic: enum
 f1_keywords:
 - fsrmenums/FsrmAccountType
 dev_langs:
- - c++
+- c++
 req.header: fsrmenums.h
 req.include-header: FsrmPipeline.h, FsrmQuota.h, FsrmReports.h, FsrmScreen.h
 req.target-type: Windows

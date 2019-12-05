@@ -1,19 +1,17 @@
 ---
 UID: NF:certadm.IOCSPAdmin.Ping
 title: IOCSPAdmin::Ping (certadm.h)
-
 description: Tests a DCOM connection with an Online Certificate Status Protocol (OCSP) responder service.
 old-location: security\iocspadmin_ping.htm
 tech.root: SecCrypto
 ms.assetid: 55d224c7-f309-471a-b2e5-38b8e2b8e00c
-
 ms.date: 12/05/2018
 ms.keywords: IOCSPAdmin interface [Security],Ping method, IOCSPAdmin.Ping, IOCSPAdmin::Ping, Ping, Ping method [Security], Ping method [Security],IOCSPAdmin interface, certadm/IOCSPAdmin::Ping, security.iocspadmin_ping
 ms.topic: method
-f1_keywords: 
- - "certadm/IOCSPAdmin.Ping"
+f1_keywords:
+- certadm/IOCSPAdmin.Ping
 dev_langs:
- - c++
+- c++
 req.header: certadm.h
 req.include-header: Certsrv.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Certadm.lib
 req.dll: Certadm.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Certadm.dll
+- Certadm.dll
 api_name:
- - IOCSPAdmin.Ping
+- IOCSPAdmin.Ping
 targetos: Windows
 req.typenames: 
 req.redist: 

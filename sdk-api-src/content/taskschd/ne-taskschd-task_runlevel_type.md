@@ -1,19 +1,17 @@
 ---
 UID: NE:taskschd._TASK_RUNLEVEL
 title: TASK_RUNLEVEL_TYPE (taskschd.h)
-
 description: Defines LUA elevation flags that specify with what privilege level the task will be run.
 old-location: taskschd\task_runlevel_type.htm
 tech.root: taskschd
 ms.assetid: 27e8e4c2-6898-4785-a311-b7fbbf7e0108
-
 ms.date: 12/05/2018
 ms.keywords: TASK_RUNLEVEL_HIGHEST, TASK_RUNLEVEL_LUA, TASK_RUNLEVEL_TYPE, TASK_RUNLEVEL_TYPE enumeration [Task Scheduler], taskschd.task_runlevel_type, taskschd/TASK_RUNLEVEL_HIGHEST, taskschd/TASK_RUNLEVEL_LUA, taskschd/TASK_RUNLEVEL_TYPE
 ms.topic: enum
-f1_keywords: 
- - "taskschd/TASK_RUNLEVEL_TYPE"
+f1_keywords:
+- taskschd/TASK_RUNLEVEL_TYPE
 dev_langs:
- - c++
+- c++
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - taskschd.h
+- taskschd.h
 api_name:
- - TASK_RUNLEVEL_TYPE
+- TASK_RUNLEVEL_TYPE
 targetos: Windows
 req.typenames: TASK_RUNLEVEL_TYPE
 req.redist: 

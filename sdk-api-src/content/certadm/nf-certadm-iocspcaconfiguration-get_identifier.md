@@ -1,19 +1,17 @@
 ---
 UID: NF:certadm.IOCSPCAConfiguration.get_Identifier
 title: IOCSPCAConfiguration::get_Identifier (certadm.h)
-
 description: Gets a name for the certification authority (CA) configuration.
 old-location: security\iocspcaconfiguration_identifier_method.htm
 tech.root: SecCrypto
 ms.assetid: a35aaaf1-8bad-4de1-a2e8-2e4947c30d72
-
 ms.date: 12/05/2018
 ms.keywords: IOCSPCAConfiguration interface [Security],Identifier property, IOCSPCAConfiguration.Identifier, IOCSPCAConfiguration.get_Identifier, IOCSPCAConfiguration::Identifier, IOCSPCAConfiguration::get_Identifier, Identifier property [Security], Identifier property [Security],IOCSPCAConfiguration interface, certadm/IOCSPCAConfiguration::Identifier, certadm/IOCSPCAConfiguration::get_Identifier, get_Identifier, security.iocspcaconfiguration_identifier_method
 ms.topic: method
-f1_keywords: 
- - "certadm/IOCSPCAConfiguration.Identifier"
+f1_keywords:
+- certadm/IOCSPCAConfiguration.Identifier
 dev_langs:
- - c++
+- c++
 req.header: certadm.h
 req.include-header: Certserv.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Certadm.lib
 req.dll: Certadm.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Certadm.dll
+- Certadm.dll
 api_name:
- - IOCSPCAConfiguration.Identifier
- - IOCSPCAConfiguration.get_Identifier
+- IOCSPCAConfiguration.Identifier
+- IOCSPCAConfiguration.get_Identifier
 targetos: Windows
 req.typenames: 
 req.redist: 

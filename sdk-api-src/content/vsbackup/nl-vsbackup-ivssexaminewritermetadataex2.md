@@ -1,19 +1,17 @@
 ---
 UID: NL:vsbackup.IVssExamineWriterMetadataEx2
 title: IVssExamineWriterMetadataEx2 (vsbackup.h)
-
 description: Defines methods to retrieve version information and other basic information for a specific writer instance.
 old-location: base\ivssexaminewritermetadataex2.htm
 tech.root: VSS
 ms.assetid: 1ef5a83c-8f63-4884-8b70-a8241ba4857b
-
 ms.date: 12/05/2018
 ms.keywords: IVssExamineWriterMetadataEx2, IVssExamineWriterMetadataEx2 interface, IVssExamineWriterMetadataEx2 interface,described, base.ivssexaminewritermetadataex2, vsbackup/IVssExamineWriterMetadataEx2
 ms.topic: class
-f1_keywords: 
- - "vsbackup/IVssExamineWriterMetadataEx2"
+f1_keywords:
+- vsbackup/IVssExamineWriterMetadataEx2
 dev_langs:
- - c++
+- c++
 req.header: vsbackup.h
 req.include-header: VsBackup.h, Vss.h, VsWriter.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - VsBackup.h
+- VsBackup.h
 api_name:
- - IVssExamineWriterMetadataEx2
+- IVssExamineWriterMetadataEx2
 targetos: Windows
 req.typenames: 
 req.redist: 

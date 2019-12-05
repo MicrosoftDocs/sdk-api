@@ -1,19 +1,17 @@
 ---
 UID: NF:tuner.IDVBTLocator2.put_PhysicalLayerPipeId
 title: IDVBTLocator2::put_PhysicalLayerPipeId (tuner.h)
-
 description: Identifies a Physical Layer Pipe (PLP) that carries a T2 logical data stream.
 old-location: mstv\idvbtlocator2_physicallayerpipeid.htm
 tech.root: mstv
 ms.assetid: b8292803-6fde-497e-9add-cf9cafc73a96
-
 ms.date: 12/05/2018
 ms.keywords: IDVBTLocator2 interface [Microsoft TV Technologies],PhysicalLayerPipeId property, IDVBTLocator2.PhysicalLayerPipeId, IDVBTLocator2.put_PhysicalLayerPipeId, IDVBTLocator2::PhysicalLayerPipeId, IDVBTLocator2::get_PhysicalLayerPipeId, IDVBTLocator2::put_PhysicalLayerPipeId, PhysicalLayerPipeId property [Microsoft TV Technologies], PhysicalLayerPipeId property [Microsoft TV Technologies],IDVBTLocator2 interface, mstv.idvbtlocator2_physicallayerpipeid, put_PhysicalLayerPipeId, tuner/IDVBTLocator2::PhysicalLayerPipeId, tuner/IDVBTLocator2::get_PhysicalLayerPipeId, tuner/IDVBTLocator2::put_PhysicalLayerPipeId
 ms.topic: method
-f1_keywords: 
- - "tuner/IDVBTLocator2.PhysicalLayerPipeId"
+f1_keywords:
+- tuner/IDVBTLocator2.PhysicalLayerPipeId
 dev_langs:
- - c++
+- c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - tuner.h
+- tuner.h
 api_name:
- - IDVBTLocator2.PhysicalLayerPipeId
- - IDVBTLocator2.get_PhysicalLayerPipeId
- - IDVBTLocator2.put_PhysicalLayerPipeId
+- IDVBTLocator2.PhysicalLayerPipeId
+- IDVBTLocator2.get_PhysicalLayerPipeId
+- IDVBTLocator2.put_PhysicalLayerPipeId
 targetos: Windows
 req.typenames: 
 req.redist: 

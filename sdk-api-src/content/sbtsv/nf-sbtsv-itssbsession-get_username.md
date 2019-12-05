@@ -1,19 +1,17 @@
 ---
 UID: NF:sbtsv.ITsSbSession.get_Username
 title: ITsSbSession::get_Username (sbtsv.h)
-
 description: Retrieves the user name for this session.
 old-location: termserv\itssbsession_username.htm
 tech.root: TermServ
 ms.assetid: 0034e8cc-b67b-4e30-a059-47a269bab0fd
-
 ms.date: 12/05/2018
 ms.keywords: ITsSbSession interface [Remote Desktop Services],Username property, ITsSbSession.Username, ITsSbSession.get_Username, ITsSbSession::Username, ITsSbSession::get_Username, Username property [Remote Desktop Services], Username property [Remote Desktop Services],ITsSbSession interface, get_Username, sbtsv/ITsSbSession::Username, sbtsv/ITsSbSession::get_Username, termserv.itssbsession_username
 ms.topic: method
-f1_keywords: 
- - "sbtsv/ITsSbSession.Username"
+f1_keywords:
+- sbtsv/ITsSbSession.Username
 dev_langs:
- - c++
+- c++
 req.header: sbtsv.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - sbtsv.h
+- sbtsv.h
 api_name:
- - ITsSbSession.Username
- - ITsSbSession.get_Username
+- ITsSbSession.Username
+- ITsSbSession.get_Username
 targetos: Windows
 req.typenames: 
 req.redist: 

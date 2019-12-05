@@ -1,19 +1,17 @@
 ---
 UID: NC:tapi.LINECALLBACK
 title: LINECALLBACK (tapi.h)
-
 description: The lineCallback function is a placeholder for the application-supplied function name.
 old-location: tapi2\linecallbackfunc.htm
 tech.root: Tapi
 ms.assetid: 449ecf4f-0b1b-449e-9eae-049770d41dbc
-
 ms.date: 12/05/2018
 ms.keywords: LINECALLBACK, LINECALLBACK callback function [TAPI 2.2], _tapi2_linecallbackfunc, lineCallback callback, tapi/LINECALLBACK, tapi2.linecallbackfunc
 ms.topic: callback
-f1_keywords: 
- - "tapi/LINECALLBACK"
+f1_keywords:
+- tapi/LINECALLBACK
 dev_langs:
- - c++
+- c++
 req.header: tapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Tapi.h
+- Tapi.h
 api_name:
- - LINECALLBACK
+- LINECALLBACK
 targetos: Windows
 req.typenames: 
 req.redist: 

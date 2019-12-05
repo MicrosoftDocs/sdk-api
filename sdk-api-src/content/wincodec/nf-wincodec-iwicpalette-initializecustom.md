@@ -1,19 +1,17 @@
 ---
 UID: NF:wincodec.IWICPalette.InitializeCustom
 title: IWICPalette::InitializeCustom (wincodec.h)
-
 description: Initializes a palette to the custom color entries provided.
 old-location: wic\_wic_codec_iwicpalette_initializecustom.htm
 tech.root: wic
 ms.assetid: eef17030-13eb-4d59-ac47-a49ffe2c80c8
-
 ms.date: 12/05/2018
 ms.keywords: IWICPalette interface [Windows Imaging Component],InitializeCustom method, IWICPalette.InitializeCustom, IWICPalette::InitializeCustom, InitializeCustom, InitializeCustom method [Windows Imaging Component], InitializeCustom method [Windows Imaging Component],IWICPalette interface, _wic_codec_iwicpalette_initializecustom, wic._wic_codec_iwicpalette_initializecustom, wincodec/IWICPalette::InitializeCustom
 ms.topic: method
-f1_keywords: 
- - "wincodec/IWICPalette.InitializeCustom"
+f1_keywords:
+- wincodec/IWICPalette.InitializeCustom
 dev_langs:
- - c++
+- c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Windowscodecs.lib
 req.dll: Windowscodecs.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Windowscodecs.dll
+- Windowscodecs.dll
 api_name:
- - IWICPalette.InitializeCustom
+- IWICPalette.InitializeCustom
 targetos: Windows
 req.typenames: 
 req.redist: 

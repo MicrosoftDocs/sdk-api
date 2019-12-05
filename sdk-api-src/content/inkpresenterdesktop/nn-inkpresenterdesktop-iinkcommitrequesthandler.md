@@ -1,19 +1,17 @@
 ---
 UID: NN:inkpresenterdesktop.IInkCommitRequestHandler
 title: IInkCommitRequestHandler (inkpresenterdesktop.h)
-
 description: An IInkCommitRequestHandler object enables the app (instead of an IInkPresenterDesktop object) to commit all pending Microsoft DirectComposition commands to the app's DirectComposition visual tree.
 old-location: input_ink\iinkcommitrequesthandler.htm
 tech.root: input_ink
 ms.assetid: ac6952b5-e2c7-4266-86c0-8e74b879f61c
-
 ms.date: 12/05/2018
 ms.keywords: IInkCommitRequestHandler, IInkCommitRequestHandler interface, IInkCommitRequestHandler interface,described, InkPresenterDesktop.iinkcommitrequesthandler, inkpresenterdesktop/IInkCommitRequestHandler, input_ink.iinkcommitrequesthandler
 ms.topic: interface
-f1_keywords: 
- - "inkpresenterdesktop/IInkCommitRequestHandler"
+f1_keywords:
+- inkpresenterdesktop/IInkCommitRequestHandler
 dev_langs:
- - c++
+- c++
 req.header: inkpresenterdesktop.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - InkPresenterDesktop.h
+- InkPresenterDesktop.h
 api_name:
- - IInkCommitRequestHandler
+- IInkCommitRequestHandler
 targetos: Windows
 req.typenames: 
 req.redist: 

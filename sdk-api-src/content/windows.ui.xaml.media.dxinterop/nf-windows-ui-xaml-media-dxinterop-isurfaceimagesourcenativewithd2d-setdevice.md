@@ -1,19 +1,17 @@
 ---
 UID: NF:windows.ui.xaml.media.dxinterop.ISurfaceImageSourceNativeWithD2D.SetDevice
 title: ISurfaceImageSourceNativeWithD2D::xaml (windows.ui.xaml.media.dxinterop.h)
-
 description: Sets the Microsoft DirectX Graphics Infrastructure (DXGI) or Direct2D device, created with D3D11_CREATE_DEVICE_BGRA_SUPPORT, that will draw the surface.
 old-location: winrt\isurfaceimagesourcenativewithd2d_setdevice.htm
 tech.root: WinRT
 ms.assetid: FBBF0A5E-68FF-4143-A874-0C1100100428
-
 ms.date: 12/05/2018
 ms.keywords: ISurfaceImageSourceNativeWithD2D interface [Windows Runtime],SetDevice method, ISurfaceImageSourceNativeWithD2D.SetDevice, ISurfaceImageSourceNativeWithD2D.xaml, ISurfaceImageSourceNativeWithD2D::SetDevice, ISurfaceImageSourceNativeWithD2D::xaml, SetDevice, SetDevice method [Windows Runtime], SetDevice method [Windows Runtime],ISurfaceImageSourceNativeWithD2D interface, windows/ISurfaceImageSourceNativeWithD2D::SetDevice, winrt.isurfaceimagesourcenativewithd2d_setdevice
 ms.topic: method
-f1_keywords: 
- - "windows.ui.xaml.media.dxinterop/ISurfaceImageSourceNativeWithD2D.SetDevice"
+f1_keywords:
+- windows.ui.xaml.media.dxinterop/ISurfaceImageSourceNativeWithD2D.SetDevice
 dev_langs:
- - c++
+- c++
 req.header: windows.ui.xaml.media.dxinterop.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Windows.UI.Xaml.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Windows.UI.Xaml.dll
+- Windows.UI.Xaml.dll
 api_name:
- - ISurfaceImageSourceNativeWithD2D.SetDevice
+- ISurfaceImageSourceNativeWithD2D.SetDevice
 targetos: Windows
 req.typenames: 
 req.redist: 

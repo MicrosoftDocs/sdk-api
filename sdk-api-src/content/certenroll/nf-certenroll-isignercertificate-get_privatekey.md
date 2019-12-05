@@ -1,19 +1,17 @@
 ---
 UID: NF:certenroll.ISignerCertificate.get_PrivateKey
 title: ISignerCertificate::get_PrivateKey (certenroll.h)
-
 description: Retrieves the private key associated with the ISignerCertificate object.
 old-location: security\isignercertificate_privatekey_property.htm
 tech.root: seccertenroll
 ms.assetid: 047a22ba-9817-45b7-aa9a-356245d2b824
-
 ms.date: 12/05/2018
 ms.keywords: ISignerCertificate interface [Security],PrivateKey property, ISignerCertificate.PrivateKey, ISignerCertificate.get_PrivateKey, ISignerCertificate::PrivateKey, ISignerCertificate::get_PrivateKey, PrivateKey property [Security], PrivateKey property [Security],ISignerCertificate interface, certenroll/ISignerCertificate::PrivateKey, certenroll/ISignerCertificate::get_PrivateKey, get_PrivateKey, security.isignercertificate_privatekey_property
 ms.topic: method
-f1_keywords: 
- - "certenroll/ISignerCertificate.PrivateKey"
+f1_keywords:
+- certenroll/ISignerCertificate.PrivateKey
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: CertEnroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CertEnroll.dll
+- CertEnroll.dll
 api_name:
- - ISignerCertificate.PrivateKey
- - ISignerCertificate.get_PrivateKey
+- ISignerCertificate.PrivateKey
+- ISignerCertificate.get_PrivateKey
 targetos: Windows
 req.typenames: 
 req.redist: 

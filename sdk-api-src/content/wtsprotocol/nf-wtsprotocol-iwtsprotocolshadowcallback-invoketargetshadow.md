@@ -1,19 +1,17 @@
 ---
 UID: NF:wtsprotocol.IWTSProtocolShadowCallback.InvokeTargetShadow
 title: IWTSProtocolShadowCallback::InvokeTargetShadow (wtsprotocol.h)
-
 description: IWTSProtocolShadowCallback::InvokeTargetShadow is no longer available. Instead, use IWRdsProtocolShadowCallback::InvokeTargetShadow.
 old-location: termserv\iwtsprotocolshadowcallback_invoketargetshadow.htm
 tech.root: TermServ
 ms.assetid: 1ce090cd-6824-4a89-acb4-138a1d0f6f76
-
 ms.date: 12/05/2018
 ms.keywords: IWTSProtocolShadowCallback interface [Remote Desktop Services],InvokeTargetShadow method, IWTSProtocolShadowCallback.InvokeTargetShadow, IWTSProtocolShadowCallback::InvokeTargetShadow, InvokeTargetShadow, InvokeTargetShadow method [Remote Desktop Services], InvokeTargetShadow method [Remote Desktop Services],IWTSProtocolShadowCallback interface, termserv.iwtsprotocolshadowcallback_invoketargetshadow, wtsprotocol/IWTSProtocolShadowCallback::InvokeTargetShadow
 ms.topic: method
-f1_keywords: 
- - "wtsprotocol/IWTSProtocolShadowCallback.InvokeTargetShadow"
+f1_keywords:
+- wtsprotocol/IWTSProtocolShadowCallback.InvokeTargetShadow
 dev_langs:
- - c++
+- c++
 req.header: wtsprotocol.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wtsprotocol.h
+- Wtsprotocol.h
 api_name:
- - IWTSProtocolShadowCallback.InvokeTargetShadow
+- IWTSProtocolShadowCallback.InvokeTargetShadow
 targetos: Windows
 req.typenames: 
 req.redist: 

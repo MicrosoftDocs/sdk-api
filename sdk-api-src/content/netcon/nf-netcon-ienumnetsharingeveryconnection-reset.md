@@ -1,19 +1,17 @@
 ---
 UID: NF:netcon.IEnumNetSharingEveryConnection.Reset
 title: IEnumNetSharingEveryConnection::Reset (netcon.h)
-
 description: The Reset method causes subsequent enumeration calls to operate from the beginning of the enumeration.
 old-location: ics\ienumnetsharingeveryconnection_reset.htm
 tech.root: ics
 ms.assetid: c41539b9-2596-4bb4-9194-fa9accde165d
-
 ms.date: 12/05/2018
 ms.keywords: IEnumNetSharingEveryConnection interface [ICS/ICF],Reset method, IEnumNetSharingEveryConnection.Reset, IEnumNetSharingEveryConnection::Reset, Reset, Reset method [ICS/ICF], Reset method [ICS/ICF],IEnumNetSharingEveryConnection interface, _ics_ienumnetsharingeveryconnection_reset, ics.ienumnetsharingeveryconnection_reset, netcon/IEnumNetSharingEveryConnection::Reset
 ms.topic: method
-f1_keywords: 
- - "netcon/IEnumNetSharingEveryConnection.Reset"
+f1_keywords:
+- netcon/IEnumNetSharingEveryConnection.Reset
 dev_langs:
- - c++
+- c++
 req.header: netcon.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Hnetcfg.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Hnetcfg.dll
+- Hnetcfg.dll
 api_name:
- - IEnumNetSharingEveryConnection.Reset
+- IEnumNetSharingEveryConnection.Reset
 targetos: Windows
 req.typenames: 
 req.redist: 

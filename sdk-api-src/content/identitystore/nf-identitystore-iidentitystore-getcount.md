@@ -1,19 +1,17 @@
 ---
 UID: NF:identitystore.IIdentityStore.GetCount
 title: IIdentityStore::GetCount (identitystore.h)
-
 description: Gets the number of identity providers registered on the system.
 old-location: security\iidentitystore_getcount.htm
 tech.root: SecAuthN
 ms.assetid: f7f30ab9-f55d-44fa-9098-c6bf865125f8
-
 ms.date: 12/05/2018
 ms.keywords: GetCount, GetCount method [Security], GetCount method [Security],IIdentityStore interface, IIdentityStore interface [Security],GetCount method, IIdentityStore.GetCount, IIdentityStore::GetCount, identitystore/IIdentityStore::GetCount, security.iidentitystore_getcount
 ms.topic: method
-f1_keywords: 
- - "identitystore/IIdentityStore.GetCount"
+f1_keywords:
+- identitystore/IIdentityStore.GetCount
 dev_langs:
- - c++
+- c++
 req.header: identitystore.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Identitystore.h
+- Identitystore.h
 api_name:
- - IIdentityStore.GetCount
+- IIdentityStore.GetCount
 targetos: Windows
 req.typenames: 
 req.redist: 

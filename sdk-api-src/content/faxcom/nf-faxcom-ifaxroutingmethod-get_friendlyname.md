@@ -1,19 +1,17 @@
 ---
 UID: NF:faxcom.IFaxRoutingMethod.get_FriendlyName
 title: IFaxRoutingMethod::get_FriendlyName (faxcom.h)
-
 description: The IFaxRoutingMethod::get_FriendlyName property is a null-terminated string that contains the user-friendly name for a fax routing method.
 old-location: fax\_mfax_ifaxroutingmethod_mfax_ifaxroutingmethod_get_friendlyname_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_8cdh.htm
-
 ms.date: 12/05/2018
 ms.keywords: FriendlyName property [Fax Service], FriendlyName property [Fax Service],IFaxRoutingMethod interface, IFaxRoutingMethod interface [Fax Service],FriendlyName property, IFaxRoutingMethod.FriendlyName, IFaxRoutingMethod.get_FriendlyName, IFaxRoutingMethod::FriendlyName, IFaxRoutingMethod::get_FriendlyName, _mfax_ifaxroutingmethod_get_friendlyname, fax._mfax_ifaxroutingmethod_get_friendlyname, fax._mfax_ifaxroutingmethod_mfax_ifaxroutingmethod_get_friendlyname_cpp, faxcom/IFaxRoutingMethod::FriendlyName, faxcom/IFaxRoutingMethod::get_FriendlyName, get_FriendlyName
 ms.topic: method
-f1_keywords: 
- - "faxcom/IFaxRoutingMethod.FriendlyName"
+f1_keywords:
+- faxcom/IFaxRoutingMethod.FriendlyName
 dev_langs:
- - c++
+- c++
 req.header: faxcom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: Faxcom.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Faxcom.dll
+- Faxcom.dll
 api_name:
- - IFaxRoutingMethod.FriendlyName
- - IFaxRoutingMethod.get_FriendlyName
+- IFaxRoutingMethod.FriendlyName
+- IFaxRoutingMethod.get_FriendlyName
 targetos: Windows
 req.typenames: 
 req.redist: 

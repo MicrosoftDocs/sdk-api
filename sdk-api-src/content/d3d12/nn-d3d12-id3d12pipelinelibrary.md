@@ -1,19 +1,17 @@
 ---
 UID: NN:d3d12.ID3D12PipelineLibrary
 title: ID3D12PipelineLibrary (d3d12.h)
-
 description: Manages a pipeline library, in particular loading and retrieving individual PSOs.
 old-location: direct3d12\id3d12pipelinelibrary.htm
 tech.root: direct3d12
 ms.assetid: 7A1D750D-51F1-48F6-9D74-6439A147F1EC
-
 ms.date: 12/05/2018
 ms.keywords: ID3D12PipelineLibrary, ID3D12PipelineLibrary interface, ID3D12PipelineLibrary interface,described, d3d12/ID3D12PipelineLibrary, direct3d12.id3d12pipelinelibrary
 ms.topic: interface
-f1_keywords: 
- - "d3d12/ID3D12PipelineLibrary"
+f1_keywords:
+- d3d12/ID3D12PipelineLibrary
 dev_langs:
- - c++
+- c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: D3d12.lib
 req.dll: D3d12.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - d3d12.dll
+- d3d12.dll
 api_name:
- - ID3D12PipelineLibrary
+- ID3D12PipelineLibrary
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:mileffects.IMILBitmapEffects.get_Count
 title: IMILBitmapEffects::get_Count (mileffects.h)
-
 description: Retrieves the number of items in the enumeration.
 old-location: wibe\_wibe_imilbitmapeffects_count.htm
 tech.root: wibe
 ms.assetid: VS|wibe|~\wibelh\reference\ifaces\imilbitmapeffects\count.htm
-
 ms.date: 12/05/2018
 ms.keywords: IMILBitmapEffects interface [WPF Bitmap Effects],get_Count method, IMILBitmapEffects.get_Count, IMILBitmapEffects::get_Count, _wibe_imilbitmapeffects_count, get_Count, get_Count method [WPF Bitmap Effects], get_Count method [WPF Bitmap Effects],IMILBitmapEffects interface, mileffects/IMILBitmapEffects::get_Count, wibe._wibe_imilbitmapeffects_count
 ms.topic: method
-f1_keywords: 
- - "mileffects/IMILBitmapEffects.get_Count"
+f1_keywords:
+- mileffects/IMILBitmapEffects.get_Count
 dev_langs:
- - c++
+- c++
 req.header: mileffects.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mileffects.h
+- Mileffects.h
 api_name:
- - IMILBitmapEffects.get_Count
+- IMILBitmapEffects.get_Count
 targetos: Windows
 req.typenames: 
 req.redist: Microsoft .Net 3.0

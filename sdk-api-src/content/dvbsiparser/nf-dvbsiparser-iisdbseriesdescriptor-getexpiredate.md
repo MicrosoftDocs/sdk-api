@@ -1,19 +1,17 @@
 ---
 UID: NF:dvbsiparser.IIsdbSeriesDescriptor.GetExpireDate
 title: IIsdbSeriesDescriptor::GetExpireDate (dvbsiparser.h)
-
 description: Gets a series expiration date from an Integrated Services Digital Broadcasting (ISDB) series descriptor.
 old-location: mstv\iisdbseriesdescriptor_getexpiredate.htm
 tech.root: mstv
 ms.assetid: 0d658904-4f81-443b-b69d-814e606dabc4
-
 ms.date: 12/05/2018
 ms.keywords: GetExpireDate, GetExpireDate method [Microsoft TV Technologies], GetExpireDate method [Microsoft TV Technologies],IIsdbSeriesDescriptor interface, IIsdbSeriesDescriptor interface [Microsoft TV Technologies],GetExpireDate method, IIsdbSeriesDescriptor.GetExpireDate, IIsdbSeriesDescriptor::GetExpireDate, dvbsiparser/IIsdbSeriesDescriptor::GetExpireDate, mstv.iisdbseriesdescriptor_getexpiredate
 ms.topic: method
-f1_keywords: 
- - "dvbsiparser/IIsdbSeriesDescriptor.GetExpireDate"
+f1_keywords:
+- dvbsiparser/IIsdbSeriesDescriptor.GetExpireDate
 dev_langs:
- - c++
+- c++
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dvbsiparser.h
+- dvbsiparser.h
 api_name:
- - IIsdbSeriesDescriptor.GetExpireDate
+- IIsdbSeriesDescriptor.GetExpireDate
 targetos: Windows
 req.typenames: 
 req.redist: 

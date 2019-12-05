@@ -1,19 +1,17 @@
 ---
 UID: NF:mfidl.IMFQualityManager.NotifyQualityEvent
 title: IMFQualityManager::NotifyQualityEvent (mfidl.h)
-
 description: Called when a pipeline component sends an MEQualityNotify event.
 old-location: mf\imfqualitymanager_notifyqualityevent.htm
 tech.root: medfound
 ms.assetid: e88a5672-7afd-4d7e-afa9-e92f9803aca7
-
 ms.date: 12/05/2018
 ms.keywords: IMFQualityManager interface [Media Foundation],NotifyQualityEvent method, IMFQualityManager.NotifyQualityEvent, IMFQualityManager::NotifyQualityEvent, NotifyQualityEvent, NotifyQualityEvent method [Media Foundation], NotifyQualityEvent method [Media Foundation],IMFQualityManager interface, e88a5672-7afd-4d7e-afa9-e92f9803aca7, mf.imfqualitymanager_notifyqualityevent, mfidl/IMFQualityManager::NotifyQualityEvent
 ms.topic: method
-f1_keywords: 
- - "mfidl/IMFQualityManager.NotifyQualityEvent"
+f1_keywords:
+- mfidl/IMFQualityManager.NotifyQualityEvent
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFQualityManager.NotifyQualityEvent
+- IMFQualityManager.NotifyQualityEvent
 targetos: Windows
 req.typenames: 
 req.redist: 

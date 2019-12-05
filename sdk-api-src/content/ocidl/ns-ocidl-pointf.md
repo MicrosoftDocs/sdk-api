@@ -1,19 +1,17 @@
 ---
 UID: NS:ocidl.tagPOINTF
 title: POINTF (ocidl.h)
-
 description: Contains information that is used to convert between container units, expressed in floating point, and control units, expressed in HIMETRIC.
 old-location: com\pointf.htm
 tech.root: com
 ms.assetid: 2b201df8-efee-4302-a93c-b514b982cf2b
-
 ms.date: 12/05/2018
-ms.keywords: "*LPPOINTF, LPPOINTF, LPPOINTF structure pointer [COM], POINTF, POINTF structure [COM], _ole_POINTF, com.pointf, ocidl/LPPOINTF, ocidl/POINTF"
+ms.keywords: '*LPPOINTF, LPPOINTF, LPPOINTF structure pointer [COM], POINTF, POINTF structure [COM], _ole_POINTF, com.pointf, ocidl/LPPOINTF, ocidl/POINTF'
 ms.topic: struct
-f1_keywords: 
- - "ocidl/POINTF"
+f1_keywords:
+- ocidl/POINTF
 dev_langs:
- - c++
+- c++
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - OCIdl.h
+- OCIdl.h
 api_name:
- - POINTF
+- POINTF
 targetos: Windows
 req.typenames: POINTF, *LPPOINTF
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:prnasnot.UnRegisterForPrintAsyncNotifications
 title: UnRegisterForPrintAsyncNotifications function (prnasnot.h)
-
 description: Enables an application that has registered to receive notifications from Print Spooler-hosted printing components to unregister.
 old-location: gdi\unregisterforprintasyncnotifications.htm
 tech.root: printdocs
 ms.assetid: 2b039018-71c0-4110-8c0b-702927f58df4
-
 ms.date: 12/05/2018
 ms.keywords: UnRegisterForPrintAsyncNotifications, UnRegisterForPrintAsyncNotifications function [Windows GDI], _win32_UnRegisterForPrintAsyncNotifications, gdi.unregisterforprintasyncnotifications, prnasnot/UnRegisterForPrintAsyncNotifications
 ms.topic: function
-f1_keywords: 
- - "prnasnot/UnRegisterForPrintAsyncNotifications"
+f1_keywords:
+- prnasnot/UnRegisterForPrintAsyncNotifications
 dev_langs:
- - c++
+- c++
 req.header: prnasnot.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: WinSpool.lib
 req.dll: Spoolss.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Spoolss.dll
+- Spoolss.dll
 api_name:
- - UnRegisterForPrintAsyncNotifications
+- UnRegisterForPrintAsyncNotifications
 targetos: Windows
 req.typenames: 
 req.redist: 

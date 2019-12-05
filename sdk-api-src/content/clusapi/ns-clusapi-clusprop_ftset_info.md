@@ -1,19 +1,17 @@
 ---
 UID: NS:clusapi.CLUSPROP_FTSET_INFO
 title: CLUSPROP_FTSET_INFO (clusapi.h)
-
 description: Contains information about an FT (fault tolerant) set. It is used as an entry in a value list and consists of a CLUSPROP_VALUE and a CLUS_FTSET_INFO structure.
 old-location: mscs\clusprop_ftset_info.htm
 tech.root: MsCS
 ms.assetid: 0BD016A6-B635-4514-886A-8CD136D3F715
-
 ms.date: 12/05/2018
-ms.keywords: "*PCLUSPROP_FTSET_INFO, CLUSPROP_FTSET_INFO, CLUSPROP_FTSET_INFO structure [Failover Cluster], PCLUSPROP_FTSET_INFO, PCLUSPROP_FTSET_INFO structure pointer [Failover Cluster], clusapi/CLUSPROP_FTSET_INFO, clusapi/PCLUSPROP_FTSET_INFO, mscs.clusprop_ftset_info"
+ms.keywords: '*PCLUSPROP_FTSET_INFO, CLUSPROP_FTSET_INFO, CLUSPROP_FTSET_INFO structure [Failover Cluster], PCLUSPROP_FTSET_INFO, PCLUSPROP_FTSET_INFO structure pointer [Failover Cluster], clusapi/CLUSPROP_FTSET_INFO, clusapi/PCLUSPROP_FTSET_INFO, mscs.clusprop_ftset_info'
 ms.topic: struct
-f1_keywords: 
- - "clusapi/CLUSPROP_FTSET_INFO"
+f1_keywords:
+- clusapi/CLUSPROP_FTSET_INFO
 dev_langs:
- - c++
+- c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - ClusAPI.h
+- ClusAPI.h
 api_name:
- - CLUSPROP_FTSET_INFO
+- CLUSPROP_FTSET_INFO
 targetos: Windows
 req.typenames: CLUSPROP_FTSET_INFO, *PCLUSPROP_FTSET_INFO
 req.redist: 

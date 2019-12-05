@@ -1,19 +1,17 @@
 ---
 UID: NF:oleacc.IAccessibleHandler.AccessibleObjectFromID
 title: IAccessibleHandler::AccessibleObjectFromID (oleacc.h)
-
 description: The AccessibleObjectFromID method retrieves an IAccessibleinterface pointer for the interface associated with the given object ID. Oleacc.dll uses this method to obtain an IAccessible interface pointer for proxies that are supplied by other code.
 old-location: winauto\iaccessiblehandler_iaccessiblehandler__accessibleobjectfromid.htm
 tech.root: WinAuto
 ms.assetid: c552b26a-a8db-42a1-85c9-9578230def74
-
 ms.date: 12/05/2018
 ms.keywords: AccessibleObjectFromID, AccessibleObjectFromID method [Windows Accessibility], AccessibleObjectFromID method [Windows Accessibility],IAccessibleHandler interface, IAccessibleHandler interface [Windows Accessibility],AccessibleObjectFromID method, IAccessibleHandler.AccessibleObjectFromID, IAccessibleHandler::AccessibleObjectFromID, _msaa_IAccessibleHandler_AccessibleObjectFromID, msaa.iaccessiblehandler_iaccessiblehandler__accessibleobjectfromid, oleacc/IAccessibleHandler::AccessibleObjectFromID, winauto.iaccessiblehandler_iaccessiblehandler__accessibleobjectfromid
 ms.topic: method
-f1_keywords: 
- - "oleacc/IAccessibleHandler.AccessibleObjectFromID"
+f1_keywords:
+- oleacc/IAccessibleHandler.AccessibleObjectFromID
 dev_langs:
- - c++
+- c++
 req.header: oleacc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Oleacc.lib
 req.dll: Oleacc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Oleacc.dll
+- Oleacc.dll
 api_name:
- - IAccessibleHandler.AccessibleObjectFromID
+- IAccessibleHandler.AccessibleObjectFromID
 targetos: Windows
 req.typenames: 
 req.redist: Active Accessibility 1.3 RDK on Windows NT 4.0 with SP6 and later and Windows 95

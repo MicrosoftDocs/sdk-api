@@ -1,19 +1,17 @@
 ---
 UID: NF:comsvcs.IComMethod2Events.OnMethodReturn2
 title: IComMethod2Events::OnMethodReturn2 (comsvcs.h)
-
 description: Generated when an object's method returns.
 old-location: cos\icommethod2events_onmethodreturn2.htm
 tech.root: cossdk
 ms.assetid: cf5a7b69-a794-4497-99c9-20c41d454753
-
 ms.date: 12/05/2018
 ms.keywords: IComMethod2Events interface [COM+],OnMethodReturn2 method, IComMethod2Events.OnMethodReturn2, IComMethod2Events::OnMethodReturn2, OnMethodReturn2, OnMethodReturn2 method [COM+], OnMethodReturn2 method [COM+],IComMethod2Events interface, _dtc_IComMethod2Events_OnMethodReturn2, comsvcs/IComMethod2Events::OnMethodReturn2, cos.icommethod2events_onmethodreturn2
 ms.topic: method
-f1_keywords: 
- - "comsvcs/IComMethod2Events.OnMethodReturn2"
+f1_keywords:
+- comsvcs/IComMethod2Events.OnMethodReturn2
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - IComMethod2Events.OnMethodReturn2
+- IComMethod2Events.OnMethodReturn2
 targetos: Windows
 req.typenames: 
 req.redist: 

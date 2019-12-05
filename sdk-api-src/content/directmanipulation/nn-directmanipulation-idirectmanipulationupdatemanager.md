@@ -1,19 +1,17 @@
 ---
 UID: NN:directmanipulation.IDirectManipulationUpdateManager
 title: IDirectManipulationUpdateManager (directmanipulation.h)
-
 description: Manages how compositor updates are sent to Direct Manipulation.
 old-location: directmanipulation\idirectmanipulationupdatemanager.htm
 tech.root: directmanipulation
 ms.assetid: 30626a22-1ded-49ff-a6c3-619a14d5ee3b
-
 ms.date: 12/05/2018
 ms.keywords: IDirectManipulationUpdateManager, IDirectManipulationUpdateManager interface [Direct Manipulation], IDirectManipulationUpdateManager interface [Direct Manipulation],described, directmanipulation.idirectmanipulationupdatemanager, directmanipulation/IDirectManipulationUpdateManager
 ms.topic: interface
-f1_keywords: 
- - "directmanipulation/IDirectManipulationUpdateManager"
+f1_keywords:
+- directmanipulation/IDirectManipulationUpdateManager
 dev_langs:
- - c++
+- c++
 req.header: directmanipulation.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - DirectManipulation.h
+- DirectManipulation.h
 api_name:
- - IDirectManipulationUpdateManager
+- IDirectManipulationUpdateManager
 targetos: Windows
 req.typenames: 
 req.redist: 

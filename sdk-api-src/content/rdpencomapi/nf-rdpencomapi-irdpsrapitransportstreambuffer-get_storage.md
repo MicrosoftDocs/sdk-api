@@ -1,19 +1,17 @@
 ---
 UID: NF:rdpencomapi.IRDPSRAPITransportStreamBuffer.get_Storage
 title: IRDPSRAPITransportStreamBuffer::get_Storage (rdpencomapi.h)
-
 description: The address of the internal storage buffer for the stream.
 old-location: rdp\irdpsrapitransportstreambuffer_storage.htm
 tech.root: rdp
 ms.assetid: bf9a0480-cecf-4235-af9a-f92878c70db9
-
 ms.date: 12/05/2018
 ms.keywords: IRDPSRAPITransportStreamBuffer interface [RDP],Storage property, IRDPSRAPITransportStreamBuffer.Storage, IRDPSRAPITransportStreamBuffer.get_Storage, IRDPSRAPITransportStreamBuffer::Storage, IRDPSRAPITransportStreamBuffer::get_Storage, Storage property [RDP], Storage property [RDP],IRDPSRAPITransportStreamBuffer interface, get_Storage, rdp.irdpsrapitransportstreambuffer_storage, rdpencomapi/IRDPSRAPITransportStreamBuffer::Storage, rdpencomapi/IRDPSRAPITransportStreamBuffer::get_Storage
 ms.topic: method
-f1_keywords: 
- - "rdpencomapi/IRDPSRAPITransportStreamBuffer::Storage"
+f1_keywords:
+- rdpencomapi/IRDPSRAPITransportStreamBuffer::Storage
 dev_langs:
- - c++
+- c++
 req.header: rdpencomapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,13 +30,13 @@ req.lib:
 req.dll: RdpEncom.dll
 req.irql: 
 topic_type:
- - kbSyntax
+- kbSyntax
 api_type:
- - <TBD>
+- <TBD>
 api_location:
- -
+- 
 api_name:
- - IRDPSRAPITransportStreamBuffer::Storage
+- IRDPSRAPITransportStreamBuffer::Storage
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:wmp.IWMPSyncDevice.get_deviceId
 title: IWMPSyncDevice::get_deviceId (wmp.h)
-
 description: The get_deviceId method retrieves the device identifier string.
 old-location: wmp\iwmpsyncdevice_get_deviceid.htm
 tech.root: WMP
 ms.assetid: 36d40dc4-5641-49dd-9ef4-31d2acd0f41d
-
 ms.date: 12/05/2018
 ms.keywords: IWMPSyncDevice interface [Windows Media Player],get_deviceId method, IWMPSyncDevice.get_deviceId, IWMPSyncDevice::get_deviceId, IWMPSyncDeviceget_deviceId, get_deviceId, get_deviceId method [Windows Media Player], get_deviceId method [Windows Media Player],IWMPSyncDevice interface, wmp.iwmpsyncdevice_get_deviceid, wmp/IWMPSyncDevice::get_deviceId
 ms.topic: method
-f1_keywords: 
- - "wmp/IWMPSyncDevice.get_deviceId"
+f1_keywords:
+- wmp/IWMPSyncDevice.get_deviceId
 dev_langs:
- - c++
+- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wmp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmp.dll
+- wmp.dll
 api_name:
- - IWMPSyncDevice.get_deviceId
+- IWMPSyncDevice.get_deviceId
 targetos: Windows
 req.typenames: 
 req.redist: 

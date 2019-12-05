@@ -1,19 +1,17 @@
 ---
 UID: NF:bcrypt.BCryptEnumContextFunctions
 title: BCryptEnumContextFunctions function (bcrypt.h)
-
 description: Obtains the cryptographic functions for a context in the specified configuration table.
 old-location: security\bcryptenumcontextfunctions.htm
 tech.root: SecCNG
 ms.assetid: 81bdfd47-7001-4e63-a8b3-33dae99f2c66
-
 ms.date: 12/05/2018
 ms.keywords: BCRYPT_ASYMMETRIC_ENCRYPTION_INTERFACE, BCRYPT_CIPHER_INTERFACE, BCRYPT_HASH_INTERFACE, BCRYPT_RNG_INTERFACE, BCRYPT_SECRET_AGREEMENT_INTERFACE, BCRYPT_SIGNATURE_INTERFACE, BCryptEnumContextFunctions, BCryptEnumContextFunctions function [Security], CRYPT_DOMAIN, CRYPT_LOCAL, NCRYPT_KEY_STORAGE_INTERFACE, NCRYPT_SCHANNEL_INTERFACE, bcrypt/BCryptEnumContextFunctions, security.bcryptenumcontextfunctions
 ms.topic: function
 f1_keywords:
 - bcrypt/BCryptEnumContextFunctions
 dev_langs:
- - c++
+- c++
 req.header: bcrypt.h
 req.include-header: 
 req.target-type: Windows

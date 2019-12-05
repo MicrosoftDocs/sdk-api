@@ -1,19 +1,17 @@
 ---
 UID: NF:evntrace.QueryTraceProcessingHandle
 title: QueryTraceProcessingHandle function (evntrace.h)
-
 description: Queries the system for the trace processing handle.
 old-location: etw\querytraceprocessinghandle.htm
 tech.root: ETW
 ms.assetid: 87666275-8752-4EC8-9C01-16D36AE4C5E8
-
 ms.date: 12/05/2018
 ms.keywords: QueryTraceProcessingHandle, QueryTraceProcessingHandle function [ETW], etw.querytraceprocessinghandle, evntrace/QueryTraceProcessingHandle
 ms.topic: function
-f1_keywords: 
- - "evntrace/QueryTraceProcessingHandle"
+f1_keywords:
+- evntrace/QueryTraceProcessingHandle
 dev_langs:
- - c++
+- c++
 req.header: evntrace.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: AdvAPI32.lib
 req.dll: AdvAPI32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - AdvAPI32.dll
- - Sechost.dll
+- AdvAPI32.dll
+- Sechost.dll
 api_name:
- - QueryTraceProcessingHandle
+- QueryTraceProcessingHandle
 targetos: Windows
 req.typenames: 
 req.redist: 

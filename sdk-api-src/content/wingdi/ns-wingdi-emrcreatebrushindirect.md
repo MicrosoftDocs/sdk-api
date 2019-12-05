@@ -1,19 +1,17 @@
 ---
 UID: NS:wingdi.tagEMRCREATEBRUSHINDIRECT
 title: EMRCREATEBRUSHINDIRECT (wingdi.h)
-
 description: The EMRCREATEBRUSHINDIRECT structure contains members for the CreateBrushIndirect enhanced metafile record.
 old-location: gdi\emrcreatebrushindirect.htm
 tech.root: gdi
 ms.assetid: fd87d52a-1227-48ba-8b7e-a8fd007c9d01
-
 ms.date: 12/05/2018
-ms.keywords: "*PEMRCREATEBRUSHINDIRECT, EMRCREATEBRUSHINDIRECT, EMRCREATEBRUSHINDIRECT structure [Windows GDI], PEMRCREATEBRUSHINDIRECT, PEMRCREATEBRUSHINDIRECT structure pointer [Windows GDI], _win32_EMRCREATEBRUSHINDIRECT_str, gdi.emrcreatebrushindirect, wingdi/EMRCREATEBRUSHINDIRECT, wingdi/PEMRCREATEBRUSHINDIRECT"
+ms.keywords: '*PEMRCREATEBRUSHINDIRECT, EMRCREATEBRUSHINDIRECT, EMRCREATEBRUSHINDIRECT structure [Windows GDI], PEMRCREATEBRUSHINDIRECT, PEMRCREATEBRUSHINDIRECT structure pointer [Windows GDI], _win32_EMRCREATEBRUSHINDIRECT_str, gdi.emrcreatebrushindirect, wingdi/EMRCREATEBRUSHINDIRECT, wingdi/PEMRCREATEBRUSHINDIRECT'
 ms.topic: struct
-f1_keywords: 
- - "wingdi/EMRCREATEBRUSHINDIRECT"
+f1_keywords:
+- wingdi/EMRCREATEBRUSHINDIRECT
 dev_langs:
- - c++
+- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wingdi.h
+- Wingdi.h
 api_name:
- - EMRCREATEBRUSHINDIRECT
+- EMRCREATEBRUSHINDIRECT
 targetos: Windows
 req.typenames: EMRCREATEBRUSHINDIRECT, *PEMRCREATEBRUSHINDIRECT
 req.redist: 

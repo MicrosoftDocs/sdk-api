@@ -1,19 +1,17 @@
 ---
 UID: NS:wingdi.tagNEWTEXTMETRICEXA
 title: NEWTEXTMETRICEXA (wingdi.h)
-
 description: The NEWTEXTMETRICEX structure contains information about a physical font.
 old-location: gdi\newtextmetricex.htm
 tech.root: gdi
 ms.assetid: b85ff705-2dd4-4877-9905-d4c2a0894e24
-
 ms.date: 12/05/2018
 ms.keywords: NEWTEXTMETRICEX, NEWTEXTMETRICEX structure [Windows GDI], NEWTEXTMETRICEXA, NEWTEXTMETRICEXW, _win32_NEWTEXTMETRICEX_str, gdi.newtextmetricex, wingdi/NEWTEXTMETRICEX, wingdi/NEWTEXTMETRICEXA, wingdi/NEWTEXTMETRICEXW
 ms.topic: struct
-f1_keywords: 
- - "wingdi/NEWTEXTMETRICEX"
+f1_keywords:
+- wingdi/NEWTEXTMETRICEX
 dev_langs:
- - c++
+- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wingdi.h
+- Wingdi.h
 api_name:
- - NEWTEXTMETRICEX
- - NEWTEXTMETRICEXA
- - NEWTEXTMETRICEXW
+- NEWTEXTMETRICEX
+- NEWTEXTMETRICEXA
+- NEWTEXTMETRICEXW
 targetos: Windows
 req.typenames: NEWTEXTMETRICEXA
 req.redist: 

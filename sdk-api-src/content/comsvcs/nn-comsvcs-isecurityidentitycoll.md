@@ -1,19 +1,17 @@
 ---
 UID: NN:comsvcs.ISecurityIdentityColl
 title: ISecurityIdentityColl (comsvcs.h)
-
 description: Provides access to a collection of security information representing a caller's identity. The items available in this collection are the SID, the account name, the authentication service, the authentication level, and the impersonation level.
 old-location: cos\isecurityidentitycoll.htm
 tech.root: cossdk
 ms.assetid: 6844bfb2-028f-4155-85a6-b7023432f6cd
-
 ms.date: 12/05/2018
 ms.keywords: ISecurityIdentityColl, ISecurityIdentityColl interface [COM+], ISecurityIdentityColl interface [COM+],described, _cos_ISecurityIdentityColl, comsvcs/ISecurityIdentityColl, cos.isecurityidentitycoll
 ms.topic: interface
-f1_keywords: 
- - "comsvcs/ISecurityIdentityColl"
+f1_keywords:
+- comsvcs/ISecurityIdentityColl
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - ISecurityIdentityColl
+- ISecurityIdentityColl
 targetos: Windows
 req.typenames: 
 req.redist: 

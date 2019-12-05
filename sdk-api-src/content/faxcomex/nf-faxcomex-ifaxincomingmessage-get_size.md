@@ -1,19 +1,17 @@
 ---
 UID: NF:faxcomex.IFaxIncomingMessage.get_Size
 title: IFaxIncomingMessage::get_Size (faxcomex.h)
-
 description: The Size property is a value that indicates the size of the Tagged Image File Format Class F (TIFF Class F) file associated with the inbound fax message.
 old-location: fax\_mfax_faxincomingmessage_cpp_mfax_faxincomingmessage_size_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_0did.htm
-
 ms.date: 12/05/2018
 ms.keywords: IFaxIncomingMessage interface [Fax Service],Size property, IFaxIncomingMessage.Size, IFaxIncomingMessage.get_Size, IFaxIncomingMessage::Size, IFaxIncomingMessage::get_Size, Size property [Fax Service], Size property [Fax Service],IFaxIncomingMessage interface, _mfax_faxincomingmessage.size, fax._mfax_faxincomingmessage_cpp_mfax_faxincomingmessage_size_cpp, fax._mfax_faxincomingmessage_size, faxcomex/IFaxIncomingMessage::Size, faxcomex/IFaxIncomingMessage::get_Size, get_Size
 ms.topic: method
-f1_keywords: 
- - "faxcomex/IFaxIncomingMessage.Size"
+f1_keywords:
+- faxcomex/IFaxIncomingMessage.Size
 dev_langs:
- - c++
+- c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: Fxscomex.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Fxscomex.dll
+- Fxscomex.dll
 api_name:
- - IFaxIncomingMessage.Size
- - IFaxIncomingMessage.get_Size
- - IFaxIncomingMessage.get_Size
+- IFaxIncomingMessage.Size
+- IFaxIncomingMessage.get_Size
+- IFaxIncomingMessage.get_Size
 targetos: Windows
 req.typenames: 
 req.redist: 

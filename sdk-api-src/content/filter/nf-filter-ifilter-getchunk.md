@@ -1,19 +1,17 @@
 ---
 UID: NF:filter.IFilter.GetChunk
 title: IFilter::GetChunk (filter.h)
-
 description: Positions the filter at the beginning of the next chunk, or at the first chunk if this is the first call to the GetChunk method, and returns a description of the current chunk.
 old-location: indexsrv\ifilter_getchunk.htm
 tech.root: IndexSrv
 ms.assetid: VS|indexsrv|~\html\ixrefint_96gb.htm
-
 ms.date: 12/05/2018
 ms.keywords: GetChunk, GetChunk method [Indexing Service], GetChunk method [Indexing Service],IFilter interface, IFilter interface [Indexing Service],GetChunk method, IFilter.GetChunk, IFilter::GetChunk, _idxs_IFilter_GetChunk, filter/IFilter::GetChunk, indexsrv.ifilter_getchunk
 ms.topic: method
-f1_keywords: 
- - "filter/IFilter.GetChunk"
+f1_keywords:
+- filter/IFilter.GetChunk
 dev_langs:
- - c++
+- c++
 req.header: filter.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Filter.h
+- Filter.h
 api_name:
- - IFilter.GetChunk
+- IFilter.GetChunk
 targetos: Windows
 req.typenames: 
 req.redist: 

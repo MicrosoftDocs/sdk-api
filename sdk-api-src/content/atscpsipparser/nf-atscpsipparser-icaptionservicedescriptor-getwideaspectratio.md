@@ -1,19 +1,17 @@
 ---
 UID: NF:atscpsipparser.ICaptionServiceDescriptor.GetWideAspectRatio
 title: ICaptionServiceDescriptor::GetWideAspectRatio (atscpsipparser.h)
-
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\icaptionservicedescriptor_getwideaspectratio.htm
 tech.root: mstv
 ms.assetid: 921d919a-5e23-4c09-abff-3ed1e7dbec01
-
 ms.date: 12/05/2018
 ms.keywords: GetWideAspectRatio, GetWideAspectRatio method [Microsoft TV Technologies], GetWideAspectRatio method [Microsoft TV Technologies],ICaptionServiceDescriptor interface, ICaptionServiceDescriptor interface [Microsoft TV Technologies],GetWideAspectRatio method, ICaptionServiceDescriptor.GetWideAspectRatio, ICaptionServiceDescriptor::GetWideAspectRatio, ICaptionServiceDescriptorGetWideAspectRatio, atscpsipparser/ICaptionServiceDescriptor::GetWideAspectRatio, mstv.icaptionservicedescriptor_getwideaspectratio
 ms.topic: method
-f1_keywords: 
- - "atscpsipparser/ICaptionServiceDescriptor.GetWideAspectRatio"
+f1_keywords:
+- atscpsipparser/ICaptionServiceDescriptor.GetWideAspectRatio
 dev_langs:
- - c++
+- c++
 req.header: atscpsipparser.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - atscpsipparser.h
+- atscpsipparser.h
 api_name:
- - ICaptionServiceDescriptor.GetWideAspectRatio
+- ICaptionServiceDescriptor.GetWideAspectRatio
 targetos: Windows
 req.typenames: 
 req.redist: 

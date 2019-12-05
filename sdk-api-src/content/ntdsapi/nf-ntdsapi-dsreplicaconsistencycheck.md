@@ -1,19 +1,17 @@
 ---
 UID: NF:ntdsapi.DsReplicaConsistencyCheck
 title: DsReplicaConsistencyCheck function (ntdsapi.h)
-
 description: Invokes the Knowledge Consistency Checker (KCC) to verify the replication topology.
 old-location: ad\dsreplicaconsistencycheck.htm
 tech.root: ad
 ms.assetid: 2a83ffcb-1ebd-4024-a186-9c079896f4e1
-
 ms.date: 12/05/2018
 ms.keywords: DS_KCC_FLAG_ASYNC_OP, DS_KCC_FLAG_DAMPED, DsReplicaConsistencyCheck, DsReplicaConsistencyCheck function [Active Directory], _glines_dsreplicaconsistencycheck, ad.dsreplicaconsistencycheck, ntdsapi/DsReplicaConsistencyCheck
 ms.topic: function
-f1_keywords: 
- - "ntdsapi/DsReplicaConsistencyCheck"
+f1_keywords:
+- ntdsapi/DsReplicaConsistencyCheck
 dev_langs:
- - c++
+- c++
 req.header: ntdsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Ntdsapi.lib
 req.dll: Ntdsapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ntdsapi.dll
+- Ntdsapi.dll
 api_name:
- - DsReplicaConsistencyCheck
+- DsReplicaConsistencyCheck
 targetos: Windows
 req.typenames: 
 req.redist: 

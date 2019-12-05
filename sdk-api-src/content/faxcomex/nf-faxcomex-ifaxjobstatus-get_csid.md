@@ -1,19 +1,17 @@
 ---
 UID: NF:faxcomex.IFaxJobStatus.get_CSID
 title: IFaxJobStatus::get_CSID (faxcomex.h)
-
 description: The CSID property is a null-terminated string that contains the called station identifier (CSID) for the job.
 old-location: fax\_mfax_faxjobstatus_cpp_mfax_faxjobstatus_csid_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_5db8.htm
-
 ms.date: 12/05/2018
 ms.keywords: CSID property [Fax Service], CSID property [Fax Service],IFaxJobStatus interface, IFaxJobStatus interface [Fax Service],CSID property, IFaxJobStatus.CSID, IFaxJobStatus.get_CSID, IFaxJobStatus::CSID, IFaxJobStatus::get_CSID, _mfax_faxjobstatus.csid, fax._mfax_faxjobstatus_cpp_mfax_faxjobstatus_csid_cpp, fax._mfax_faxjobstatus_csid, faxcomex/IFaxJobStatus::CSID, faxcomex/IFaxJobStatus::get_CSID, get_CSID
 ms.topic: method
-f1_keywords: 
- - "faxcomex/IFaxJobStatus.CSID"
+f1_keywords:
+- faxcomex/IFaxJobStatus.CSID
 dev_langs:
- - c++
+- c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: Fxscomex.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Fxscomex.dll
+- Fxscomex.dll
 api_name:
- - IFaxJobStatus.CSID
- - IFaxJobStatus.get_CSID
- - IFaxJobStatus.get_CSID
+- IFaxJobStatus.CSID
+- IFaxJobStatus.get_CSID
+- IFaxJobStatus.get_CSID
 targetos: Windows
 req.typenames: 
 req.redist: 

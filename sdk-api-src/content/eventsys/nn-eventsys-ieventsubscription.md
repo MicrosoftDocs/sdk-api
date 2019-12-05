@@ -1,19 +1,17 @@
 ---
 UID: NN:eventsys.IEventSubscription
 title: IEventSubscription (eventsys.h)
-
 description: Specifies information about the relationship between an event subscriber and an event to which it is subscribing. It is used by publisher filters.
 old-location: cos\ieventsubscription.htm
 tech.root: cossdk
 ms.assetid: ce3f9f7e-3d0a-445f-b3db-671ee595aedf
-
 ms.date: 12/05/2018
 ms.keywords: IEventSubscription, IEventSubscription interface [COM+], IEventSubscription interface [COM+],described, _cos_IEventSubscription, cos.ieventsubscription, eventsys/IEventSubscription
 ms.topic: interface
-f1_keywords: 
- - "eventsys/IEventSubscription"
+f1_keywords:
+- eventsys/IEventSubscription
 dev_langs:
- - c++
+- c++
 req.header: eventsys.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - EventSys.h
+- EventSys.h
 api_name:
- - IEventSubscription
+- IEventSubscription
 targetos: Windows
 req.typenames: 
 req.redist: 

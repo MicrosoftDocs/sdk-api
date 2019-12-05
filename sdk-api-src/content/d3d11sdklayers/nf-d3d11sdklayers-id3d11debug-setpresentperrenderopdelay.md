@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d11sdklayers.ID3D11Debug.SetPresentPerRenderOpDelay
 title: ID3D11Debug::SetPresentPerRenderOpDelay (d3d11sdklayers.h)
-
 description: Set the number of milliseconds to sleep after IDXGISwapChain::Present is called.
 old-location: direct3d11\id3d11debug_setpresentperrenderopdelay.htm
 tech.root: direct3d11
 ms.assetid: 72489871-819a-4f75-a3ad-03f93f5c7761
-
 ms.date: 12/05/2018
 ms.keywords: 573cbcb7-dbec-80ce-3edb-e1d60b5c1261, ID3D11Debug interface [Direct3D 11],SetPresentPerRenderOpDelay method, ID3D11Debug.SetPresentPerRenderOpDelay, ID3D11Debug::SetPresentPerRenderOpDelay, SetPresentPerRenderOpDelay, SetPresentPerRenderOpDelay method [Direct3D 11], SetPresentPerRenderOpDelay method [Direct3D 11],ID3D11Debug interface, d3d11sdklayers/ID3D11Debug::SetPresentPerRenderOpDelay, direct3d11.id3d11debug_setpresentperrenderopdelay
 ms.topic: method
-f1_keywords: 
- - "d3d11sdklayers/ID3D11Debug.SetPresentPerRenderOpDelay"
+f1_keywords:
+- d3d11sdklayers/ID3D11Debug.SetPresentPerRenderOpDelay
 dev_langs:
- - c++
+- c++
 req.header: d3d11sdklayers.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: D3D11.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D11.lib
- - D3D11.dll
+- D3D11.lib
+- D3D11.dll
 api_name:
- - ID3D11Debug.SetPresentPerRenderOpDelay
+- ID3D11Debug.SetPresentPerRenderOpDelay
 targetos: Windows
 req.typenames: 
 req.redist: 

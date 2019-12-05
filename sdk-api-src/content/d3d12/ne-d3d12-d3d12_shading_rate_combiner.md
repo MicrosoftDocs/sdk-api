@@ -5,10 +5,10 @@ description: Defines constants that specify a shading rate combiner (for variabl
 ms.date: 05/20/2019
 ms.keywords: D3D12_SHADING_RATE_COMBINER
 ms.topic: language-reference
-f1_keywords: 
- - "d3d12/D3D12_SHADING_RATE_COMBINER"
+f1_keywords:
+- d3d12/D3D12_SHADING_RATE_COMBINER
 dev_langs:
- - c++
+- c++
 targetos: Windows
 req.construct-type: enumeration
 req.ddi-compliance: 
@@ -22,13 +22,13 @@ req.target-type:
 req.typenames: 
 req.umdf-ver: 
 topic_type:
- - apiref
+- apiref
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - d3d12.h
+- d3d12.h
 api_name:
- - D3D12_SHADING_RATE_COMBINER
+- D3D12_SHADING_RATE_COMBINER
 ---
 
 ## -description

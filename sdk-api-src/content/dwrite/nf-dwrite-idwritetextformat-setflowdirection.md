@@ -1,19 +1,17 @@
 ---
 UID: NF:dwrite.IDWriteTextFormat.SetFlowDirection
 title: IDWriteTextFormat::SetFlowDirection (dwrite.h)
-
 description: Sets the paragraph flow direction.
 old-location: directwrite\IDWriteTextFormat_SetFlowDirection.htm
 tech.root: DirectWrite
 ms.assetid: 0eb1648c-b565-46e8-b6db-1fcc6a66b1bd
-
 ms.date: 12/05/2018
 ms.keywords: IDWriteTextFormat interface [Direct Write],SetFlowDirection method, IDWriteTextFormat.SetFlowDirection, IDWriteTextFormat::SetFlowDirection, SetFlowDirection, SetFlowDirection method [Direct Write], SetFlowDirection method [Direct Write],IDWriteTextFormat interface, directwrite.IDWriteTextFormat_SetFlowDirection, dwrite/IDWriteTextFormat::SetFlowDirection
 ms.topic: method
-f1_keywords: 
- - "dwrite/IDWriteTextFormat.SetFlowDirection"
+f1_keywords:
+- dwrite/IDWriteTextFormat.SetFlowDirection
 dev_langs:
- - c++
+- c++
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dwrite.lib
 req.dll: Dwrite.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dwrite.dll
+- dwrite.dll
 api_name:
- - IDWriteTextFormat.SetFlowDirection
+- IDWriteTextFormat.SetFlowDirection
 targetos: Windows
 req.typenames: 
 req.redist: 

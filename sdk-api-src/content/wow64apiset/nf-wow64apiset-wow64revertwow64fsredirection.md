@@ -1,19 +1,17 @@
 ---
 UID: NF:wow64apiset.Wow64RevertWow64FsRedirection
 title: Wow64RevertWow64FsRedirection function (wow64apiset.h)
-
 description: Restores file system redirection for the calling thread.
 old-location: fs\wow64revertwow64fsredirection.htm
 tech.root: FileIO
 ms.assetid: 8a09bdeb-b969-48b2-a432-c78dd4177000
-
 ms.date: 12/05/2018
 ms.keywords: Wow64RevertWow64FsRedirection, Wow64RevertWow64FsRedirection function [Files], base.wow64revertwow64fsredirection, fs.wow64revertwow64fsredirection, wow64apiset/Wow64RevertWow64FsRedirection
 ms.topic: function
-f1_keywords: 
- - "wow64apiset/Wow64RevertWow64FsRedirection"
+f1_keywords:
+- wow64apiset/Wow64RevertWow64FsRedirection
 dev_langs:
- - c++
+- c++
 req.header: wow64apiset.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,20 +30,20 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-misc-l1-1-0.dll
- - KernelBase.dll
- - API-MS-Win-Core-Wow64-l1-1-0.dll
- - API-MS-Win-Core-Wow64-l1-1-1.dll
- - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
- - MinKernelBase.dll
+- Kernel32.dll
+- API-MS-Win-Core-misc-l1-1-0.dll
+- KernelBase.dll
+- API-MS-Win-Core-Wow64-l1-1-0.dll
+- API-MS-Win-Core-Wow64-l1-1-1.dll
+- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+- MinKernelBase.dll
 api_name:
- - Wow64RevertWow64FsRedirection
+- Wow64RevertWow64FsRedirection
 targetos: Windows
 req.typenames: 
 req.redist: 

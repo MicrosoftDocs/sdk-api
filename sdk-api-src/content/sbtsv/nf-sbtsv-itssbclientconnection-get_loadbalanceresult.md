@@ -1,19 +1,17 @@
 ---
 UID: NF:sbtsv.ITsSbClientConnection.get_LoadBalanceResult
 title: ITsSbClientConnection::get_LoadBalanceResult (sbtsv.h)
-
 description: Retrieves a value that indicates the name of the target computer returned by load balancing.
 old-location: termserv\itssbclientconnection_loadbalanceresult.htm
 tech.root: TermServ
 ms.assetid: fdcd094c-d50b-4cdd-8164-23c24bb7017b
-
 ms.date: 12/05/2018
 ms.keywords: ITsSbClientConnection interface [Remote Desktop Services],LoadBalanceResult property, ITsSbClientConnection.LoadBalanceResult, ITsSbClientConnection.get_LoadBalanceResult, ITsSbClientConnection::LoadBalanceResult, ITsSbClientConnection::get_LoadBalanceResult, LoadBalanceResult property [Remote Desktop Services], LoadBalanceResult property [Remote Desktop Services],ITsSbClientConnection interface, get_LoadBalanceResult, sbtsv/ITsSbClientConnection::LoadBalanceResult, sbtsv/ITsSbClientConnection::get_LoadBalanceResult, termserv.itssbclientconnection_loadbalanceresult
 ms.topic: method
-f1_keywords: 
- - "sbtsv/ITsSbClientConnection.LoadBalanceResult"
+f1_keywords:
+- sbtsv/ITsSbClientConnection.LoadBalanceResult
 dev_langs:
- - c++
+- c++
 req.header: sbtsv.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - sbtsv.h
+- sbtsv.h
 api_name:
- - ITsSbClientConnection.LoadBalanceResult
- - ITsSbClientConnection.get_LoadBalanceResult
+- ITsSbClientConnection.LoadBalanceResult
+- ITsSbClientConnection.get_LoadBalanceResult
 targetos: Windows
 req.typenames: 
 req.redist: 

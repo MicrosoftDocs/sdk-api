@@ -1,19 +1,17 @@
 ---
 UID: NF:directxmath.XMVectorPermute
 title: XMVectorPermute function (directxmath.h)
-
 description: Permutes the components of two vectors to create a new vector.
 old-location: dxmath\xmvectorpermute.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.component-wise.XMVectorPermute(XMVECTOR,XMVECTOR,unit32_t,unit32_t,unit32_t,unit32_t)
-
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMVectorPermute, XMVectorPermute, XMVectorPermute method [DirectX Math Support APIs], dxmath.xmvectorpermute
 ms.topic: function
-f1_keywords: 
- - "directxmath/XMVectorPermute"
+f1_keywords:
+- directxmath/XMVectorPermute
 dev_langs:
- - c++
+- c++
 req.header: directxmath.h
 req.include-header: DirectXMath.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - directxmathvector.inl
+- directxmathvector.inl
 api_name:
- - XMVectorPermute
+- XMVectorPermute
 targetos: Windows
 req.typenames: 
 req.redist: 

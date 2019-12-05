@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi3if.ITPhoneEvent.get_HookSwitchDevice
 title: ITPhoneEvent::get_HookSwitchDevice (tapi3if.h)
-
 description: The get_HookSwitchDevice method returns a PHONE_HOOK_SWITCH_DEVICE value specifying the hookswitch device that changed state. This information is available only when the ITPhoneEvent::get_Event method returns PE_HOOKSWITCH.
 old-location: tapi3\itphoneevent_get_hookswitchdevice.htm
 tech.root: Tapi
 ms.assetid: acc25e8e-966f-4b54-ad59-226d2b7728b8
-
 ms.date: 12/05/2018
 ms.keywords: ITPhoneEvent interface [TAPI 2.2],get_HookSwitchDevice method, ITPhoneEvent.get_HookSwitchDevice, ITPhoneEvent::get_HookSwitchDevice, _tapi3_itphoneevent_get_hookswitchdevice, get_HookSwitchDevice, get_HookSwitchDevice method [TAPI 2.2], get_HookSwitchDevice method [TAPI 2.2],ITPhoneEvent interface, tapi3.itphoneevent_get_hookswitchdevice, tapi3if/ITPhoneEvent::get_HookSwitchDevice
 ms.topic: method
-f1_keywords: 
- - "tapi3if/ITPhoneEvent.get_HookSwitchDevice"
+f1_keywords:
+- tapi3if/ITPhoneEvent.get_HookSwitchDevice
 dev_langs:
- - c++
+- c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Tapi3.dll
+- Tapi3.dll
 api_name:
- - ITPhoneEvent.get_HookSwitchDevice
+- ITPhoneEvent.get_HookSwitchDevice
 targetos: Windows
 req.typenames: 
 req.redist: 

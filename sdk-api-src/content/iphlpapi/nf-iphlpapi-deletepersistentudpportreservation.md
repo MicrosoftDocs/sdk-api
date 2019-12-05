@@ -1,19 +1,17 @@
 ---
 UID: NF:iphlpapi.DeletePersistentUdpPortReservation
 title: DeletePersistentUdpPortReservation function (iphlpapi.h)
-
 description: Deletes a persistent TCP port reservation for a consecutive block of TCP ports on the local computer.
 old-location: iphlp\deletepersistentudpportreservation.htm
 tech.root: IpHlp
 ms.assetid: E6539B3F-48DA-41AA-8AD4-2EBBAF98069F
-
 ms.date: 12/05/2018
 ms.keywords: DeletePersistentUdpPortReservation, DeletePersistentUdpPortReservation function [IP Helper], iphlp.deletepersistentudpportreservation, iphlpapi/DeletePersistentUdpPortReservation
 ms.topic: function
-f1_keywords: 
- - "iphlpapi/DeletePersistentUdpPortReservation"
+f1_keywords:
+- iphlpapi/DeletePersistentUdpPortReservation
 dev_langs:
- - c++
+- c++
 req.header: iphlpapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Iphlpapi.lib
 req.dll: Iphlpapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Iphlpapi.dll
+- Iphlpapi.dll
 api_name:
- - DeletePersistentUdpPortReservation
+- DeletePersistentUdpPortReservation
 targetos: Windows
 req.typenames: 
 req.redist: 

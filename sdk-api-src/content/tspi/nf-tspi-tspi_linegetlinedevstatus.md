@@ -1,19 +1,17 @@
 ---
 UID: NF:tspi.TSPI_lineGetLineDevStatus
 title: TSPI_lineGetLineDevStatus function (tspi.h)
-
 description: The TSPI_lineGetLineDevStatus function queries the specified open line device for its current status. The information returned is global to all addresses on the line.
 old-location: tspi\tspi_linegetlinedevstatus.htm
 tech.root: Tapi
 ms.assetid: 14f7944b-e967-4967-9fb2-e7aeb78bb045
-
 ms.date: 12/05/2018
 ms.keywords: TSPI_lineGetLineDevStatus, TSPI_lineGetLineDevStatus function [TAPI 2.2], _tspi_tspi_linegetlinedevstatus, tspi.tspi_linegetlinedevstatus, tspi/TSPI_lineGetLineDevStatus
 ms.topic: function
-f1_keywords: 
- - "tspi/TSPI_lineGetLineDevStatus"
+f1_keywords:
+- tspi/TSPI_lineGetLineDevStatus
 dev_langs:
- - c++
+- c++
 req.header: tspi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Tspi.h
+- Tspi.h
 api_name:
- - TSPI_lineGetLineDevStatus
+- TSPI_lineGetLineDevStatus
 targetos: Windows
 req.typenames: 
 req.redist: 

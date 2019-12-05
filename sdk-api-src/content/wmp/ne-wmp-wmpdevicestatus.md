@@ -1,19 +1,17 @@
 ---
 UID: NE:wmp.WMPDeviceStatus
 title: WMPDeviceStatus (wmp.h)
-
 description: The WMPDeviceStatus enumeration type defines the possible values for the current status of a device. To use this enumeration, you must create a remoted instance of the Windows Media Player 10 or later control.
 old-location: wmp\wmpdevicestatus.htm
 tech.root: WMP
 ms.assetid: dbbb97f8-4b26-4add-a661-a48eff8ad0f5
-
 ms.date: 12/05/2018
 ms.keywords: WMPDeviceStatus, WMPDeviceStatus enumeration [Windows Media Player], wmp.wmpdevicestatus, wmp/WMPDeviceStatus, wmp/wmpdsLast, wmp/wmpdsManualDevice, wmp/wmpdsNewDevice, wmp/wmpdsPartnershipAnother, wmp/wmpdsPartnershipDeclined, wmp/wmpdsPartnershipExists, wmp/wmpdsUnknown, wmpdsLast, wmpdsManualDevice, wmpdsNewDevice, wmpdsPartnershipAnother, wmpdsPartnershipDeclined, wmpdsPartnershipExists, wmpdsUnknown
 ms.topic: enum
-f1_keywords: 
- - "wmp/WMPDeviceStatus"
+f1_keywords:
+- wmp/WMPDeviceStatus
 dev_langs:
- - c++
+- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - wmp.h
+- wmp.h
 api_name:
- - WMPDeviceStatus
+- WMPDeviceStatus
 targetos: Windows
 req.typenames: WMPDeviceStatus
 req.redist: 

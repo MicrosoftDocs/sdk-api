@@ -1,19 +1,17 @@
 ---
 UID: NF:winddi.EngMapFontFileFD
 title: EngMapFontFileFD function (winddi.h)
-
 description: The EngMapFontFileFD function maps a font file into system memory, if necessary, and returns a pointer to the base location of the font data in the file.
 old-location: display\engmapfontfilefd.htm
 tech.root: display
 ms.assetid: 582570b0-981f-4852-974f-cb6575c68717
-
 ms.date: 12/05/2018
 ms.keywords: EngMapFontFileFD, EngMapFontFileFD function [Display Devices], display.engmapfontfilefd, gdifncs_873b241c-9910-4699-8962-576e6083e1f0.xml, winddi/EngMapFontFileFD
 ms.topic: function
-f1_keywords: 
- - "winddi/EngMapFontFileFD"
+f1_keywords:
+- winddi/EngMapFontFileFD
 dev_langs:
- - c++
+- c++
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Universal
@@ -32,14 +30,14 @@ req.lib: Win32k.lib
 req.dll: Win32k.sys
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Win32k.sys
+- Win32k.sys
 api_name:
- - EngMapFontFileFD
+- EngMapFontFileFD
 targetos: Windows
 req.typenames: 
 req.redist: 

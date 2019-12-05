@@ -1,19 +1,17 @@
 ---
 UID: NE:certenroll.InstallResponseRestrictionFlags
 title: InstallResponseRestrictionFlags (certenroll.h)
-
 description: Contains flags that identify the restrictions placed on the local installation of a certificate chain.
 old-location: security\installresponserestrictionflags_enum.htm
 tech.root: seccertenroll
 ms.assetid: 070cadd8-08cf-44ce-a8b7-39a4fb11e724
-
 ms.date: 12/05/2018
 ms.keywords: AllowNoOutstandingRequest, AllowNone, AllowUntrustedCertificate, AllowUntrustedRoot, InstallResponseRestrictionFlags, InstallResponseRestrictionFlags enumeration [Security], certenroll/AllowNoOutstandingRequest, certenroll/AllowNone, certenroll/AllowUntrustedCertificate, certenroll/AllowUntrustedRoot, certenroll/InstallResponseRestrictionFlags, security.installresponserestrictionflags_enum
 ms.topic: enum
-f1_keywords: 
- - "certenroll/InstallResponseRestrictionFlags"
+f1_keywords:
+- certenroll/InstallResponseRestrictionFlags
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - CertEnroll.h
+- CertEnroll.h
 api_name:
- - InstallResponseRestrictionFlags
+- InstallResponseRestrictionFlags
 targetos: Windows
 req.typenames: InstallResponseRestrictionFlags
 req.redist: 

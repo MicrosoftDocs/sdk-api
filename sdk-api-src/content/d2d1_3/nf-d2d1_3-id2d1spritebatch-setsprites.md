@@ -1,19 +1,17 @@
 ---
 UID: NF:d2d1_3.ID2D1SpriteBatch.SetSprites
 title: ID2D1SpriteBatch::SetSprites (d2d1_3.h)
-
 description: Updates the properties of the specified sprites in this sprite batch.
 old-location: direct2d\id2d1spritebatch_setsprites.htm
 tech.root: Direct2D
 ms.assetid: 6BC5740F-520D-47EA-A90A-973E158F2AC2
-
 ms.date: 12/05/2018
 ms.keywords: ID2D1SpriteBatch interface [Direct2D],SetSprites method, ID2D1SpriteBatch.SetSprites, ID2D1SpriteBatch::SetSprites, SetSprites, SetSprites method [Direct2D], SetSprites method [Direct2D],ID2D1SpriteBatch interface, d2d1_3/ID2D1SpriteBatch::SetSprites, direct2d.id2d1spritebatch_setsprites
 ms.topic: method
-f1_keywords: 
- - "d2d1_3/ID2D1SpriteBatch.SetSprites"
+f1_keywords:
+- d2d1_3/ID2D1SpriteBatch.SetSprites
 dev_langs:
- - c++
+- c++
 req.header: d2d1_3.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: D2d1.lib
 req.dll: D2d1.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D2d1.dll
+- D2d1.dll
 api_name:
- - ID2D1SpriteBatch.SetSprites
+- ID2D1SpriteBatch.SetSprites
 targetos: Windows
 req.typenames: 
 req.redist: 

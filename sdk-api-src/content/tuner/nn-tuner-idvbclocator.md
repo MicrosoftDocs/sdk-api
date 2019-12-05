@@ -1,19 +1,17 @@
 ---
 UID: NN:tuner.IDVBCLocator
 title: IDVBCLocator
-
 description: The IDVBCLocator interface is implemented on DVBCLocator objects, which contain tuning information for DVB-C networks.
 old-location: mstv\idvbclocator.htm
 tech.root: mstv
 ms.assetid: c505042a-79b5-40f7-8b75-1e48c3794150
-
 ms.date: 12/05/2018
 ms.keywords: IDVBCLocator, IDVBCLocator interface [Microsoft TV Technologies], IDVBCLocator interface [Microsoft TV Technologies],described, IDVBCLocatorInterface, mstv.idvbclocator, tuner/IDVBCLocator
 ms.topic: interface
-f1_keywords: 
- - "tuner/IDVBCLocator"
+f1_keywords:
+- tuner/IDVBCLocator
 dev_langs:
- - c++
+- c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - tuner.h
+- tuner.h
 api_name:
- - IDVBCLocator
+- IDVBCLocator
 targetos: Windows
 req.typenames: 
 req.redist: 

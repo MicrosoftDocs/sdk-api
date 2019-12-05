@@ -1,19 +1,17 @@
 ---
 UID: NF:syncmgr.ISyncMgrSyncCallback.CanContinue
 title: ISyncMgrSyncCallback::CanContinue (syncmgr.h)
-
 description: Determines whether the synchronization has been canceled.
 old-location: shell\ISyncMgrSyncCallback_CanContinue.htm
 tech.root: shell
 ms.assetid: 02106b6f-4c1c-4bd6-b120-2948b1e6d25c
-
 ms.date: 12/05/2018
 ms.keywords: CanContinue, CanContinue method [Windows Shell], CanContinue method [Windows Shell],ISyncMgrSyncCallback interface, ISyncMgrSyncCallback interface [Windows Shell],CanContinue method, ISyncMgrSyncCallback.CanContinue, ISyncMgrSyncCallback::CanContinue, _shell_ISyncMgrSyncCallback_CanContinue, shell.ISyncMgrSyncCallback_CanContinue, syncmgr/ISyncMgrSyncCallback::CanContinue
 ms.topic: method
-f1_keywords: 
- - "syncmgr/ISyncMgrSyncCallback.CanContinue"
+f1_keywords:
+- syncmgr/ISyncMgrSyncCallback.CanContinue
 dev_langs:
- - c++
+- c++
 req.header: syncmgr.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Syncmgr.h
+- Syncmgr.h
 api_name:
- - ISyncMgrSyncCallback.CanContinue
+- ISyncMgrSyncCallback.CanContinue
 targetos: Windows
 req.typenames: 
 req.redist: 

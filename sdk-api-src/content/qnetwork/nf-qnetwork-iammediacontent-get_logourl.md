@@ -1,19 +1,17 @@
 ---
 UID: NF:qnetwork.IAMMediaContent.get_LogoURL
 title: IAMMediaContent::get_LogoURL (qnetwork.h)
-
 description: The get_LogoURL method retrieves a URL for the logo.
 old-location: dshow\iammediacontent_get_logourl.htm
 tech.root: DirectShow
 ms.assetid: 9a17c080-49a9-4b0b-8d94-054ad53b95b8
-
 ms.date: 12/05/2018
 ms.keywords: IAMMediaContent interface [DirectShow],get_LogoURL method, IAMMediaContent.get_LogoURL, IAMMediaContent::get_LogoURL, IAMMediaContentget_LogoURL, dshow.iammediacontent_get_logourl, get_LogoURL, get_LogoURL method [DirectShow], get_LogoURL method [DirectShow],IAMMediaContent interface, qnetwork/IAMMediaContent::get_LogoURL
 ms.topic: method
-f1_keywords: 
- - "qnetwork/IAMMediaContent.get_LogoURL"
+f1_keywords:
+- qnetwork/IAMMediaContent.get_LogoURL
 dev_langs:
- - c++
+- c++
 req.header: qnetwork.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Qnetwork.h
+- Qnetwork.h
 api_name:
- - IAMMediaContent.get_LogoURL
+- IAMMediaContent.get_LogoURL
 targetos: Windows
 req.typenames: 
 req.redist: 

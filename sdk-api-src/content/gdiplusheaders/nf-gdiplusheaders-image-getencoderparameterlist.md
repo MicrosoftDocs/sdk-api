@@ -1,19 +1,17 @@
 ---
 UID: NF:gdiplusheaders.Image.GetEncoderParameterList
 title: Image::GetEncoderParameterList (gdiplusheaders.h)
-
 description: The Image::GetEncoderParameterList method gets a list of the parameters supported by a specified image encoder.
 old-location: gdiplus\_gdiplus_CLASS_Image_GetEncoderParameterList_clsidEncoder_size_buffer_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\imageclass\imagemethods\getencoderparameterlist.htm
-
 ms.date: 12/05/2018
 ms.keywords: GetEncoderParameterList, GetEncoderParameterList method [GDI+], GetEncoderParameterList method [GDI+],Image class, Image class [GDI+],GetEncoderParameterList method, Image.GetEncoderParameterList, Image::GetEncoderParameterList, _gdiplus_CLASS_Image_GetEncoderParameterList_clsidEncoder_size_buffer_, gdiplus._gdiplus_CLASS_Image_GetEncoderParameterList_clsidEncoder_size_buffer_
 ms.topic: method
-f1_keywords: 
- - "gdiplusheaders/Image.GetEncoderParameterList"
+f1_keywords:
+- gdiplusheaders/Image.GetEncoderParameterList
 dev_langs:
- - c++
+- c++
 req.header: gdiplusheaders.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - Image.GetEncoderParameterList
+- Image.GetEncoderParameterList
 targetos: Windows
 req.typenames: 
 req.redist: 

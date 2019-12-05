@@ -1,19 +1,17 @@
 ---
 UID: NE:dsparse._DS_MANGLE_FOR
 title: DS_MANGLE_FOR (dsparse.h)
-
 description: The DS_MANGLE_FOR enumeration is used to define whether a relative distinguished name is mangled (encoded) and in what form the mangling occurs.
 old-location: ad\ds_mangle_for.htm
 tech.root: ad
 ms.assetid: 79a66a54-889e-464e-8199-ad911ea84a86
-
 ms.date: 12/05/2018
 ms.keywords: DS_MANGLE_FOR, DS_MANGLE_FOR enumeration [Active Directory], DS_MANGLE_OBJECT_RDN_FOR_DELETION, DS_MANGLE_OBJECT_RDN_FOR_NAME_CONFLICT, DS_MANGLE_UNKNOWN, _glines_ds_mangle_for, ad.ds__mangle__for, ad.ds_mangle_for, dsparse/DS_MANGLE_FOR, dsparse/DS_MANGLE_OBJECT_RDN_FOR_DELETION, dsparse/DS_MANGLE_OBJECT_RDN_FOR_NAME_CONFLICT, dsparse/DS_MANGLE_UNKNOWN
 ms.topic: enum
-f1_keywords: 
- - "dsparse/DS_MANGLE_FOR"
+f1_keywords:
+- dsparse/DS_MANGLE_FOR
 dev_langs:
- - c++
+- c++
 req.header: dsparse.h
 req.include-header: Ntdsapi.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Dsparse.h
+- Dsparse.h
 api_name:
- - DS_MANGLE_FOR
+- DS_MANGLE_FOR
 targetos: Windows
 req.typenames: DS_MANGLE_FOR
 req.redist: 

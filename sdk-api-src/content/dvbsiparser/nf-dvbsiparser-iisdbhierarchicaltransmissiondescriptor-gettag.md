@@ -1,19 +1,17 @@
 ---
 UID: NF:dvbsiparser.IIsdbHierarchicalTransmissionDescriptor.GetTag
 title: IIsdbHierarchicalTransmissionDescriptor::GetTag (dvbsiparser.h)
-
 description: Gets the tag that identifies a hierarchical transmission descriptor.
 old-location: mstv\iisdbhierarchicaltransmissiondescriptor_gettag.htm
 tech.root: mstv
 ms.assetid: 1aed2424-567b-4a6b-ae32-b3c74ce75026
-
 ms.date: 12/05/2018
 ms.keywords: GetTag, GetTag method [Microsoft TV Technologies], GetTag method [Microsoft TV Technologies],IIsdbHierarchicalTransmissionDescriptor interface, IIsdbHierarchicalTransmissionDescriptor interface [Microsoft TV Technologies],GetTag method, IIsdbHierarchicalTransmissionDescriptor.GetTag, IIsdbHierarchicalTransmissionDescriptor::GetTag, dvbsiparser/IIsdbHierarchicalTransmissionDescriptor::GetTag, mstv.iisdbhierarchicaltransmissiondescriptor_gettag
 ms.topic: method
-f1_keywords: 
- - "dvbsiparser/IIsdbHierarchicalTransmissionDescriptor.GetTag"
+f1_keywords:
+- dvbsiparser/IIsdbHierarchicalTransmissionDescriptor.GetTag
 dev_langs:
- - c++
+- c++
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dvbsiparser.h
+- dvbsiparser.h
 api_name:
- - IIsdbHierarchicalTransmissionDescriptor.GetTag
+- IIsdbHierarchicalTransmissionDescriptor.GetTag
 targetos: Windows
 req.typenames: 
 req.redist: 

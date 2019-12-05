@@ -1,19 +1,17 @@
 ---
 UID: NF:mbnapi.IMbnDeviceServicesEvents.OnEventNotification
 title: IMbnDeviceServicesEvents::OnEventNotification (mbnapi.h)
-
 description: Notification method signaling a device service state change event from the Mobile Broadband device.
 old-location: mbn\imbndeviceservicesevents_oneventnotification.htm
 tech.root: mbn
 ms.assetid: 6C3B223A-E791-4861-B93B-1EDC0DC8038B
-
 ms.date: 12/05/2018
 ms.keywords: IMbnDeviceServicesEvents interface [Microsoft Broadband Networks],OnEventNotification method, IMbnDeviceServicesEvents.OnEventNotification, IMbnDeviceServicesEvents::OnEventNotification, OnEventNotification, OnEventNotification method [Microsoft Broadband Networks], OnEventNotification method [Microsoft Broadband Networks],IMbnDeviceServicesEvents interface, mbn.imbndeviceservicesevents_oneventnotification, mbnapi/IMbnDeviceServicesEvents::OnEventNotification
 ms.topic: method
-f1_keywords: 
- - "mbnapi/IMbnDeviceServicesEvents.OnEventNotification"
+f1_keywords:
+- mbnapi/IMbnDeviceServicesEvents.OnEventNotification
 dev_langs:
- - c++
+- c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mbnapi.h
+- mbnapi.h
 api_name:
- - IMbnDeviceServicesEvents.OnEventNotification
+- IMbnDeviceServicesEvents.OnEventNotification
 targetos: Windows
 req.typenames: 
 req.redist: 

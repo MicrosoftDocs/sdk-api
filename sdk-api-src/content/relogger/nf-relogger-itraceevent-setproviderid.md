@@ -1,19 +1,17 @@
 ---
 UID: NF:relogger.ITraceEvent.SetProviderId
 title: ITraceEvent::SetProviderId (relogger.h)
-
 description: Sets the GUID for the provider which traced an event.
 old-location: etw\ievent_setproviderid.htm
 tech.root: ETW
 ms.assetid: dc61ff9e-2af9-4428-82df-84635313ddc6
-
 ms.date: 12/05/2018
 ms.keywords: ITraceEvent interface [ETW],SetProviderId method, ITraceEvent.SetProviderId, ITraceEvent::SetProviderId, SetProviderId, SetProviderId method [ETW], SetProviderId method [ETW],ITraceEvent interface, etw.ievent_setproviderid, relogger/ITraceEvent::SetProviderId
 ms.topic: method
-f1_keywords: 
- - "relogger/ITraceEvent.SetProviderId"
+f1_keywords:
+- relogger/ITraceEvent.SetProviderId
 dev_langs:
- - c++
+- c++
 req.header: relogger.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Relogger.h
+- Relogger.h
 api_name:
- - ITraceEvent.SetProviderId
+- ITraceEvent.SetProviderId
 targetos: Windows
 req.typenames: 
 req.redist: 

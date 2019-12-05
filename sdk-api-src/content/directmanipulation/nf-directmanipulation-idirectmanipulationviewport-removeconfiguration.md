@@ -1,19 +1,17 @@
 ---
 UID: NF:directmanipulation.IDirectManipulationViewport.RemoveConfiguration
 title: IDirectManipulationViewport::RemoveConfiguration (directmanipulation.h)
-
 description: Removes an interaction configuration for the viewport.
 old-location: directmanipulation\idirectmanipulationviewport_removeconfiguration.htm
 tech.root: directmanipulation
 ms.assetid: 2aac9468-a060-4f06-9e8e-139355be75f7
-
 ms.date: 12/05/2018
 ms.keywords: IDirectManipulationViewport interface [Direct Manipulation],RemoveConfiguration method, IDirectManipulationViewport.RemoveConfiguration, IDirectManipulationViewport::RemoveConfiguration, RemoveConfiguration, RemoveConfiguration method [Direct Manipulation], RemoveConfiguration method [Direct Manipulation],IDirectManipulationViewport interface, directmanipulation.idirectmanipulationviewport_removeconfiguration, directmanipulation/IDirectManipulationViewport::RemoveConfiguration
 ms.topic: method
-f1_keywords: 
- - "directmanipulation/IDirectManipulationViewport.RemoveConfiguration"
+f1_keywords:
+- directmanipulation/IDirectManipulationViewport.RemoveConfiguration
 dev_langs:
- - c++
+- c++
 req.header: directmanipulation.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - DirectManipulation.h
+- DirectManipulation.h
 api_name:
- - IDirectManipulationViewport.RemoveConfiguration
+- IDirectManipulationViewport.RemoveConfiguration
 targetos: Windows
 req.typenames: 
 req.redist: 

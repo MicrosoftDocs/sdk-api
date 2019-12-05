@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.ITaskbarList4.SetTabProperties
 title: ITaskbarList4::SetTabProperties (shobjidl_core.h)
-
 description: Allows a tab to specify whether the main application frame window or the tab window should be used as a thumbnail or in the peek feature under certain circumstances.
 old-location: shell\ITaskbarList4_SetTabProperties.htm
 tech.root: shell
 ms.assetid: cc3fec4b-7770-44af-9892-239a17dd96b8
-
 ms.date: 12/05/2018
 ms.keywords: ITaskbarList4 interface [Windows Shell],SetTabProperties method, ITaskbarList4.SetTabProperties, ITaskbarList4::SetTabProperties, SetTabProperties, SetTabProperties method [Windows Shell], SetTabProperties method [Windows Shell],ITaskbarList4 interface, _shell_ITaskbarList4_SetTabProperties, shell.ITaskbarList4_SetTabProperties, shobjidl_core/ITaskbarList4::SetTabProperties
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/ITaskbarList4.SetTabProperties"
+f1_keywords:
+- shobjidl_core/ITaskbarList4.SetTabProperties
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - ITaskbarList4.SetTabProperties
+- ITaskbarList4.SetTabProperties
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:textstor.ITextStoreACP.FindNextAttrTransition
 title: ITextStoreACP::FindNextAttrTransition (textstor.h)
-
 description: The ITextStoreACP::FindNextAttrTransition method determines the character position where a transition occurs in an attribute value. The specified attribute to check is application-dependent.
 old-location: tsf\itextstoreacp_findnextattrtransition.htm
 tech.root: TSF
 ms.assetid: f5917958-150e-48a5-9d0d-67240a88c232
-
 ms.date: 12/05/2018
 ms.keywords: FindNextAttrTransition, FindNextAttrTransition method [Text Services Framework], FindNextAttrTransition method [Text Services Framework],ITextStoreACP interface, ITextStoreACP interface [Text Services Framework],FindNextAttrTransition method, ITextStoreACP.FindNextAttrTransition, ITextStoreACP::FindNextAttrTransition, TS_ATTR_FIND_BACKWARDS, TS_ATTR_FIND_WANT_OFFSET, _tsf_itextstoreacp_findnextattrtransition_ref, textstor/ITextStoreACP::FindNextAttrTransition, tsf.itextstoreacp_findnextattrtransition
 ms.topic: method
-f1_keywords: 
- - "textstor/ITextStoreACP.FindNextAttrTransition"
+f1_keywords:
+- textstor/ITextStoreACP.FindNextAttrTransition
 dev_langs:
- - c++
+- c++
 req.header: textstor.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msctf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msctf.dll
+- msctf.dll
 api_name:
- - ITextStoreACP.FindNextAttrTransition
+- ITextStoreACP.FindNextAttrTransition
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

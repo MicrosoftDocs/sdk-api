@@ -1,19 +1,17 @@
 ---
 UID: NF:imapi.IDiscMaster.RecordDisc
 title: IDiscMaster::RecordDisc (imapi.h)
-
 description: Burns the staged image to media in the active disc recorder.
 old-location: imapi\idiscmaster_recorddisc.htm
 tech.root: imapi
 ms.assetid: 2b234dc5-2409-49d8-83be-0ffea74f5bcf
-
 ms.date: 12/05/2018
 ms.keywords: IDiscMaster interface [IMAPI],RecordDisc method, IDiscMaster.RecordDisc, IDiscMaster::RecordDisc, RecordDisc, RecordDisc method [IMAPI], RecordDisc method [IMAPI],IDiscMaster interface, _win32_idiscmaster_recorddisc, base.idiscmaster_recorddisc, imapi.idiscmaster_recorddisc, imapi/IDiscMaster::RecordDisc
 ms.topic: method
-f1_keywords: 
- - "imapi/IDiscMaster.RecordDisc"
+f1_keywords:
+- imapi/IDiscMaster.RecordDisc
 dev_langs:
- - c++
+- c++
 req.header: imapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Actxprxy.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Actxprxy.dll
+- Actxprxy.dll
 api_name:
- - IDiscMaster.RecordDisc
+- IDiscMaster.RecordDisc
 targetos: Windows
 req.typenames: 
 req.redist: 

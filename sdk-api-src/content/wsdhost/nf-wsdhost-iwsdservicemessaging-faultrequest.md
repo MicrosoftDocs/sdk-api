@@ -1,19 +1,17 @@
 ---
 UID: NF:wsdhost.IWSDServiceMessaging.FaultRequest
 title: IWSDServiceMessaging::FaultRequest (wsdhost.h)
-
 description: Sends a fault matching a given request context.
 old-location: ncd\iwsdservicemessaging_faultrequest.htm
 tech.root: WsdApi
 ms.assetid: 478cf63e-7cfe-4f6f-af7f-d288588d9c8d
-
 ms.date: 12/05/2018
 ms.keywords: FaultRequest, FaultRequest method, FaultRequest method,IWSDServiceMessaging interface, IWSDServiceMessaging interface,FaultRequest method, IWSDServiceMessaging.FaultRequest, IWSDServiceMessaging::FaultRequest, ncd.iwsdservicemessaging_faultrequest, wsdhost/IWSDServiceMessaging::FaultRequest
 ms.topic: method
 f1_keywords:
 - wsdhost/IWSDServiceMessaging.FaultRequest
 dev_langs:
- - c++
+- c++
 req.header: wsdhost.h
 req.include-header: Wsdapi.h
 req.target-type: Windows

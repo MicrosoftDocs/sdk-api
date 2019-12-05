@@ -1,19 +1,17 @@
 ---
 UID: NF:contentpartner.IWMPContentPartner.DownloadTrackComplete
 title: IWMPContentPartner::DownloadTrackComplete (contentpartner.h)
-
 description: Note  This section describes functionality designed for use by online stores.
 old-location: wmp\iwmpcontentpartner_downloadtrackcomplete.htm
 tech.root: WMP
 ms.assetid: 9614e266-259c-411f-93cf-9be87c930b16
-
 ms.date: 12/05/2018
 ms.keywords: DownloadTrackComplete, DownloadTrackComplete method [Windows Media Player], DownloadTrackComplete method [Windows Media Player],IWMPContentPartner interface, IWMPContentPartner interface [Windows Media Player],DownloadTrackComplete method, IWMPContentPartner.DownloadTrackComplete, IWMPContentPartner::DownloadTrackComplete, IWMPContentPartnerDownloadTrackComplete, contentpartner/IWMPContentPartner::DownloadTrackComplete, wmp.iwmpcontentpartner_downloadtrackcomplete
 ms.topic: method
-f1_keywords: 
- - "contentpartner/IWMPContentPartner.DownloadTrackComplete"
+f1_keywords:
+- contentpartner/IWMPContentPartner.DownloadTrackComplete
 dev_langs:
- - c++
+- c++
 req.header: contentpartner.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - contentpartner.h
+- contentpartner.h
 api_name:
- - IWMPContentPartner.DownloadTrackComplete
+- IWMPContentPartner.DownloadTrackComplete
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:wincodec.IWICBitmapCodecProgressNotification.RegisterProgressNotification
 title: IWICBitmapCodecProgressNotification::RegisterProgressNotification (wincodec.h)
-
 description: Registers a progress notification callback function.
 old-location: wic\_wic_codec_iwicbitmapcodecprogressnotification_registerprogressnotification.htm
 tech.root: wic
 ms.assetid: ac47178a-f149-4313-8673-ece59e88cfb3
-
 ms.date: 12/05/2018
 ms.keywords: IWICBitmapCodecProgressNotification interface [Windows Imaging Component],RegisterProgressNotification method, IWICBitmapCodecProgressNotification.RegisterProgressNotification, IWICBitmapCodecProgressNotification::RegisterProgressNotification, RegisterProgressNotification, RegisterProgressNotification method [Windows Imaging Component], RegisterProgressNotification method [Windows Imaging Component],IWICBitmapCodecProgressNotification interface, _wic_codec_iwicbitmapcodecprogressnotification_registerprogressnotification, wic._wic_codec_iwicbitmapcodecprogressnotification_registerprogressnotification, wincodec/IWICBitmapCodecProgressNotification::RegisterProgressNotification
 ms.topic: method
-f1_keywords: 
- - "wincodec/IWICBitmapCodecProgressNotification.RegisterProgressNotification"
+f1_keywords:
+- wincodec/IWICBitmapCodecProgressNotification.RegisterProgressNotification
 dev_langs:
- - c++
+- c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Windowscodecs.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Windowscodecs.lib
- - Windowscodecs.dll
+- Windowscodecs.lib
+- Windowscodecs.dll
 api_name:
- - IWICBitmapCodecProgressNotification.RegisterProgressNotification
+- IWICBitmapCodecProgressNotification.RegisterProgressNotification
 targetos: Windows
 req.typenames: 
 req.redist: 

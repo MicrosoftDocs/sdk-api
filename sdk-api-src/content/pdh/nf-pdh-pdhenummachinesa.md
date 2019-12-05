@@ -1,19 +1,17 @@
 ---
 UID: NF:pdh.PdhEnumMachinesA
 title: PdhEnumMachinesA function (pdh.h)
-
 description: Returns a list of the computer names associated with counters in a log file.
 old-location: perf\pdhenummachines.htm
 tech.root: perfctrs
 ms.assetid: 77584d3b-3ba5-4288-b730-be2458f4fc1c
-
 ms.date: 12/05/2018
 ms.keywords: PdhEnumMachines, PdhEnumMachines function [Perf], PdhEnumMachinesA, PdhEnumMachinesW, _win32_pdhenummachines, base.pdhenummachines, pdh/PdhEnumMachines, pdh/PdhEnumMachinesA, pdh/PdhEnumMachinesW, perf.pdhenummachines
 ms.topic: function
-f1_keywords: 
- - "pdh/PdhEnumMachines"
+f1_keywords:
+- pdh/PdhEnumMachines
 dev_langs:
- - c++
+- c++
 req.header: pdh.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Pdh.lib
 req.dll: Pdh.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Pdh.dll
+- Pdh.dll
 api_name:
- - PdhEnumMachines
- - PdhEnumMachinesA
- - PdhEnumMachinesW
+- PdhEnumMachines
+- PdhEnumMachinesA
+- PdhEnumMachinesW
 targetos: Windows
 req.typenames: 
 req.redist: 

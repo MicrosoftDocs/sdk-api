@@ -1,19 +1,17 @@
 ---
 UID: NF:imapi2fs.IBootOptions.AssignBootImage
 title: IBootOptions::AssignBootImage (imapi2fs.h)
-
 description: Sets the data stream that contains the boot image.
 old-location: imapi\ibootoptions_assignbootimage.htm
 tech.root: imapi
 ms.assetid: 63d598dd-72a8-4544-813d-11f2e7e53ec5
-
 ms.date: 12/05/2018
 ms.keywords: AssignBootImage, AssignBootImage method [IMAPI], AssignBootImage method [IMAPI],IBootOptions interface, IBootOptions interface [IMAPI],AssignBootImage method, IBootOptions.AssignBootImage, IBootOptions::AssignBootImage, imapi.ibootoptions_assignbootimage, imapi2fs/IBootOptions::AssignBootImage
 ms.topic: method
-f1_keywords: 
- - "imapi2fs/IBootOptions.AssignBootImage"
+f1_keywords:
+- imapi2fs/IBootOptions.AssignBootImage
 dev_langs:
- - c++
+- c++
 req.header: imapi2fs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - imapi2fs.h
+- imapi2fs.h
 api_name:
- - IBootOptions.AssignBootImage
+- IBootOptions.AssignBootImage
 targetos: Windows
 req.typenames: 
 req.redist: 

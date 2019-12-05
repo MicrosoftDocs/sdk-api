@@ -1,19 +1,17 @@
 ---
 UID: NF:searchapi.IUrlAccessor.IsDirectory
 title: IUrlAccessor::IsDirectory (searchapi.h)
-
 description: Ascertains whether the item URL points to a directory.
 old-location: search\_search_IUrlAccessor_IsDirectory.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\protocolhandlers\iurlaccessor\isdirectory.htm
-
 ms.date: 12/05/2018
 ms.keywords: IUrlAccessor interface [search],IsDirectory method, IUrlAccessor.IsDirectory, IUrlAccessor::IsDirectory, IsDirectory, IsDirectory method [search], IsDirectory method [search],IUrlAccessor interface, _search_IUrlAccessor_IsDirectory, search._search_IUrlAccessor_IsDirectory, searchapi/IUrlAccessor::IsDirectory
 ms.topic: method
-f1_keywords: 
- - "searchapi/IUrlAccessor.IsDirectory"
+f1_keywords:
+- searchapi/IUrlAccessor.IsDirectory
 dev_langs:
- - c++
+- c++
 req.header: searchapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Searchapi.h
+- Searchapi.h
 api_name:
- - IUrlAccessor.IsDirectory
+- IUrlAccessor.IsDirectory
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0

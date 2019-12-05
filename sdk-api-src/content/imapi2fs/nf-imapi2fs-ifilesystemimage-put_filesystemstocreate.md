@@ -1,19 +1,17 @@
 ---
 UID: NF:imapi2fs.IFileSystemImage.put_FileSystemsToCreate
 title: IFileSystemImage::put_FileSystemsToCreate (imapi2fs.h)
-
 description: Sets the file systems to create when generating the result stream.
 old-location: imapi\ifilesystemimage_put_filesystemstocreate.htm
 tech.root: imapi
 ms.assetid: c9bb2a86-2bdb-495e-ab5c-479667a211b2
-
 ms.date: 12/05/2018
 ms.keywords: IFileSystemImage interface [IMAPI],put_FileSystemsToCreate method, IFileSystemImage.put_FileSystemsToCreate, IFileSystemImage::put_FileSystemsToCreate, imapi.ifilesystemimage_put_filesystemstocreate, imapi2fs/IFileSystemImage::put_FileSystemsToCreate, put_FileSystemsToCreate, put_FileSystemsToCreate method [IMAPI], put_FileSystemsToCreate method [IMAPI],IFileSystemImage interface
 ms.topic: method
-f1_keywords: 
- - "imapi2fs/IFileSystemImage.put_FileSystemsToCreate"
+f1_keywords:
+- imapi2fs/IFileSystemImage.put_FileSystemsToCreate
 dev_langs:
- - c++
+- c++
 req.header: imapi2fs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - imapi2fs.h
+- imapi2fs.h
 api_name:
- - IFileSystemImage.put_FileSystemsToCreate
+- IFileSystemImage.put_FileSystemsToCreate
 targetos: Windows
 req.typenames: 
 req.redist: 

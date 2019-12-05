@@ -1,19 +1,17 @@
 ---
 UID: NF:tsgauthenticationengine.ITSGAuthenticationEngine.CancelAuthentication
 title: ITSGAuthenticationEngine::CancelAuthentication (tsgauthenticationengine.h)
-
 description: Cancels an existing authentication request.
 old-location: termserv\itsgauthenticationengine_cancelauthentication.htm
 tech.root: TermServ
 ms.assetid: 07da9ffa-b137-4e99-a1d1-14b7c14438a3
-
 ms.date: 12/05/2018
 ms.keywords: CancelAuthentication, CancelAuthentication method [Remote Desktop Services], CancelAuthentication method [Remote Desktop Services],ITSGAuthenticationEngine interface, ITSGAuthenticationEngine interface [Remote Desktop Services],CancelAuthentication method, ITSGAuthenticationEngine.CancelAuthentication, ITSGAuthenticationEngine::CancelAuthentication, termserv.itsgauthenticationengine_cancelauthentication, tsgauthenticationengine/ITSGAuthenticationEngine::CancelAuthentication
 ms.topic: method
-f1_keywords: 
- - "tsgauthenticationengine/ITSGAuthenticationEngine.CancelAuthentication"
+f1_keywords:
+- tsgauthenticationengine/ITSGAuthenticationEngine.CancelAuthentication
 dev_langs:
- - c++
+- c++
 req.header: tsgauthenticationengine.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - TSGAuthenticationEngine.h
+- TSGAuthenticationEngine.h
 api_name:
- - ITSGAuthenticationEngine.CancelAuthentication
+- ITSGAuthenticationEngine.CancelAuthentication
 targetos: Windows
 req.typenames: 
 req.redist: 

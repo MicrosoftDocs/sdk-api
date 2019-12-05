@@ -1,19 +1,17 @@
 ---
 UID: NS:credssp._SecPkgContext_ClientCreds
 title: SecPkgContext_ClientCreds (credssp.h)
-
 description: Specifies client credentials when calling the QueryContextAttributes (CredSSP) function.
 old-location: security\secpkgcontext_clientcreds.htm
 tech.root: SecAuthN
 ms.assetid: 85ab1bf7-a4d9-4b0e-b1e3-cb938c3183d3
-
 ms.date: 12/05/2018
-ms.keywords: "*PSecPkgContext_ClientCreds, PSecPkgContext_ClientCreds, PSecPkgContext_ClientCreds structure pointer [Security], SecPkgContext_ClientCreds, SecPkgContext_ClientCreds structure [Security], credssp/PSecPkgContext_ClientCreds, credssp/SecPkgContext_ClientCreds, security.secpkgcontext_clientcreds"
+ms.keywords: '*PSecPkgContext_ClientCreds, PSecPkgContext_ClientCreds, PSecPkgContext_ClientCreds structure pointer [Security], SecPkgContext_ClientCreds, SecPkgContext_ClientCreds structure [Security], credssp/PSecPkgContext_ClientCreds, credssp/SecPkgContext_ClientCreds, security.secpkgcontext_clientcreds'
 ms.topic: struct
-f1_keywords: 
- - "credssp/SecPkgContext_ClientCreds"
+f1_keywords:
+- credssp/SecPkgContext_ClientCreds
 dev_langs:
- - c++
+- c++
 req.header: credssp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Credssp.h
+- Credssp.h
 api_name:
- - SecPkgContext_ClientCreds
+- SecPkgContext_ClientCreds
 targetos: Windows
 req.typenames: SecPkgContext_ClientCreds, *PSecPkgContext_ClientCreds
 req.redist: 

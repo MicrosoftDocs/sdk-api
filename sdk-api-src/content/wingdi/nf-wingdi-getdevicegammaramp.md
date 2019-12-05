@@ -1,19 +1,17 @@
 ---
 UID: NF:wingdi.GetDeviceGammaRamp
 title: GetDeviceGammaRamp function (wingdi.h)
-
 description: The GetDeviceGammaRamp function gets the gamma ramp on direct color display boards having drivers that support downloadable gamma ramps in hardware.
 old-location: wcs\getdevicegammaramp.htm
 tech.root: WCS
 ms.assetid: c32600a9-545e-4bbf-a3c1-21878f5106b0
-
 ms.date: 12/05/2018
 ms.keywords: GetDeviceGammaRamp, GetDeviceGammaRamp function [Windows Color System], _color_GetDeviceGammaRamp, wcs.getdevicegammaramp, wingdi/GetDeviceGammaRamp
 ms.topic: function
-f1_keywords: 
- - "wingdi/GetDeviceGammaRamp"
+f1_keywords:
+- wingdi/GetDeviceGammaRamp
 dev_langs:
- - c++
+- c++
 req.header: wingdi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - gdi32.dll
- - Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
- - GDI32Full.dll
+- gdi32.dll
+- Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
+- GDI32Full.dll
 api_name:
- - GetDeviceGammaRamp
+- GetDeviceGammaRamp
 targetos: Windows
 req.typenames: 
 req.redist: 

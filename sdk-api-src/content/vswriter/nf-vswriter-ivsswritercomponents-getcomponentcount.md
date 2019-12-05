@@ -1,19 +1,17 @@
 ---
 UID: NF:vswriter.IVssWriterComponents.GetComponentCount
 title: IVssWriterComponents::GetComponentCount (vswriter.h)
-
 description: The GetComponentCount method returns the number of a given writer's components explicitly stored in the Backup Components Document.
 old-location: base\ivsswritercomponents_getcomponentcount.htm
 tech.root: VSS
 ms.assetid: ec89438f-4811-42f7-bda0-6df6d1b98f18
-
 ms.date: 12/05/2018
 ms.keywords: GetComponentCount, GetComponentCount method [VSS], GetComponentCount method [VSS],IVssWriterComponents interface, IVssWriterComponents interface [VSS],GetComponentCount method, IVssWriterComponents.GetComponentCount, IVssWriterComponents::GetComponentCount, _win32_ivsswritercomponents_getcomponentcount, base.ivsswritercomponents_getcomponentcount, vswriter/IVssWriterComponents::GetComponentCount
 ms.topic: method
-f1_keywords: 
- - "vswriter/IVssWriterComponents.GetComponentCount"
+f1_keywords:
+- vswriter/IVssWriterComponents.GetComponentCount
 dev_langs:
- - c++
+- c++
 req.header: vswriter.h
 req.include-header: Vss.h, VsWriter.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: VssApi.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - VssApi.lib
- - VssApi.dll
+- VssApi.lib
+- VssApi.dll
 api_name:
- - IVssWriterComponents.GetComponentCount
+- IVssWriterComponents.GetComponentCount
 targetos: Windows
 req.typenames: 
 req.redist: 

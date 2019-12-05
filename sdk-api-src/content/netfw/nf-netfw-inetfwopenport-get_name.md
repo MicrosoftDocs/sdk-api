@@ -1,19 +1,17 @@
 ---
 UID: NF:netfw.INetFwOpenPort.get_Name
 title: INetFwOpenPort::get_Name (netfw.h)
-
 description: Specifies the friendly name of this port.
 old-location: ics\inetfwopenport_name.htm
 tech.root: ics
 ms.assetid: f81abb86-095c-4459-af71-a0c10f7b1acd
-
 ms.date: 12/05/2018
 ms.keywords: INetFwOpenPort interface [ICS/ICF],Name property, INetFwOpenPort.Name, INetFwOpenPort.get_Name, INetFwOpenPort::Name, INetFwOpenPort::get_Name, INetFwOpenPort::put_Name, Name property [ICS/ICF], Name property [ICS/ICF],INetFwOpenPort interface, get_Name, ics.inetfwopenport_name, netfw/INetFwOpenPort::Name, netfw/INetFwOpenPort::get_Name, netfw/INetFwOpenPort::put_Name
 ms.topic: method
-f1_keywords: 
- - "netfw/INetFwOpenPort.Name"
+f1_keywords:
+- netfw/INetFwOpenPort.Name
 dev_langs:
- - c++
+- c++
 req.header: netfw.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib:
 req.dll: FirewallAPI.dll; Hnetcfg.dll on Windows XP with SP2
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - FirewallAPI.dll
- - Hnetcfg.dll
+- FirewallAPI.dll
+- Hnetcfg.dll
 api_name:
- - INetFwOpenPort.Name
- - INetFwOpenPort.get_Name
- - INetFwOpenPort.put_Name
+- INetFwOpenPort.Name
+- INetFwOpenPort.get_Name
+- INetFwOpenPort.put_Name
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:ntdsapi.DsWriteAccountSpnA
 title: DsWriteAccountSpnA function (ntdsapi.h)
-
 description: Writes an array of service principal names (SPNs) to the servicePrincipalName attribute of a specified user or computer account object in Active Directory Domain Services.
 old-location: ad\dswriteaccountspn.htm
 tech.root: ad
 ms.assetid: 2b555f6b-643d-4fa0-9aca-701e6b3313fa
-
 ms.date: 12/05/2018
 ms.keywords: DsWriteAccountSpn, DsWriteAccountSpn function [Active Directory], DsWriteAccountSpnA, DsWriteAccountSpnW, _glines_dswriteaccountspn, ad.dswriteaccountspn, ntdsapi/DsWriteAccountSpn, ntdsapi/DsWriteAccountSpnA, ntdsapi/DsWriteAccountSpnW
 ms.topic: function
-f1_keywords: 
- - "ntdsapi/DsWriteAccountSpn"
+f1_keywords:
+- ntdsapi/DsWriteAccountSpn
 dev_langs:
- - c++
+- c++
 req.header: ntdsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Ntdsapi.lib
 req.dll: Ntdsapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ntdsapi.dll
+- Ntdsapi.dll
 api_name:
- - DsWriteAccountSpn
- - DsWriteAccountSpnA
- - DsWriteAccountSpnW
+- DsWriteAccountSpn
+- DsWriteAccountSpnA
+- DsWriteAccountSpnW
 targetos: Windows
 req.typenames: 
 req.redist: 

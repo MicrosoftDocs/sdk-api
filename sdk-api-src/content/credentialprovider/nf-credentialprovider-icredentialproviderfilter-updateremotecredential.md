@@ -1,19 +1,17 @@
 ---
 UID: NF:credentialprovider.ICredentialProviderFilter.UpdateRemoteCredential
 title: ICredentialProviderFilter::UpdateRemoteCredential (credentialprovider.h)
-
 description: Updates a credential from a remote session.
 old-location: shell\ICredentialProviderFilter_UpdateRemoteCredential.htm
 tech.root: shell
 ms.assetid: d0730f67-e4f1-42b2-823a-75b08a5c952e
-
 ms.date: 12/05/2018
 ms.keywords: ICredentialProviderFilter interface [Windows Shell],UpdateRemoteCredential method, ICredentialProviderFilter.UpdateRemoteCredential, ICredentialProviderFilter::UpdateRemoteCredential, UpdateRemoteCredential, UpdateRemoteCredential method [Windows Shell], UpdateRemoteCredential method [Windows Shell],ICredentialProviderFilter interface, _shell_ICredentialProviderFilter_UpdateRemoteCredential, credentialprovider/ICredentialProviderFilter::UpdateRemoteCredential, shell.ICredentialProviderFilter_UpdateRemoteCredential
 ms.topic: method
-f1_keywords: 
- - "credentialprovider/ICredentialProviderFilter.UpdateRemoteCredential"
+f1_keywords:
+- credentialprovider/ICredentialProviderFilter.UpdateRemoteCredential
 dev_langs:
- - c++
+- c++
 req.header: credentialprovider.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Credentialprovider.h
+- Credentialprovider.h
 api_name:
- - ICredentialProviderFilter.UpdateRemoteCredential
+- ICredentialProviderFilter.UpdateRemoteCredential
 targetos: Windows
 req.typenames: 
 req.redist: 

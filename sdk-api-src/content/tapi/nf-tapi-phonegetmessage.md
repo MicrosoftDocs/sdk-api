@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi.phoneGetMessage
 title: phoneGetMessage function (tapi.h)
-
 description: The phoneGetMessage function returns the next TAPI message that is queued for delivery to an application that is using the Event Handle notification mechanism (see phoneInitializeEx for further details).
 old-location: tapi2\phonegetmessage.htm
 tech.root: Tapi
 ms.assetid: 8afa17ef-a47f-41af-b120-1e2d5acb4106
-
 ms.date: 12/05/2018
-ms.keywords: "_tapi2_phonegetmessage, phoneGetMessage, phoneGetMessage function [TAPI 2.2], tapi/phoneGetMessage, tapi2.phonegetmessage"
+ms.keywords: _tapi2_phonegetmessage, phoneGetMessage, phoneGetMessage function [TAPI 2.2], tapi/phoneGetMessage, tapi2.phonegetmessage
 ms.topic: function
-f1_keywords: 
- - "tapi/phoneGetMessage"
+f1_keywords:
+- tapi/phoneGetMessage
 dev_langs:
- - c++
+- c++
 req.header: tapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Tapi32.lib
 req.dll: Tapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Tapi32.dll
+- Tapi32.dll
 api_name:
- - phoneGetMessage
+- phoneGetMessage
 targetos: Windows
 req.typenames: 
 req.redist: 

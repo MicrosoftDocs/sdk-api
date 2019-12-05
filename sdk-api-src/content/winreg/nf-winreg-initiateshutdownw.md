@@ -1,19 +1,17 @@
 ---
 UID: NF:winreg.InitiateShutdownW
 title: InitiateShutdownW function (winreg.h)
-
 description: Initiates a shutdown and restart of the specified computer, and restarts any applications that have been registered for restart.
 old-location: base\initiateshutdown.htm
 tech.root: Shutdown
 ms.assetid: 9d0d3774-3e4d-4e56-b4c2-d59d74e797a1
-
 ms.date: 12/05/2018
 ms.keywords: InitiateShutdown, InitiateShutdown function, InitiateShutdownA, InitiateShutdownW, SHUTDOWN_FORCE_OTHERS, SHUTDOWN_FORCE_SELF, SHUTDOWN_GRACE_OVERRIDE, SHUTDOWN_HYBRID, SHUTDOWN_INSTALL_UPDATES, SHUTDOWN_NOREBOOT, SHUTDOWN_POWEROFF, SHUTDOWN_RESTART, SHUTDOWN_RESTARTAPPS, base.initiateshutdown, security.initiateshutdown, winreg/InitiateShutdown, winreg/InitiateShutdownA, winreg/InitiateShutdownW
 ms.topic: function
-f1_keywords: 
- - "winreg/InitiateShutdown"
+f1_keywords:
+- winreg/InitiateShutdown
 dev_langs:
- - c++
+- c++
 req.header: winreg.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,19 +30,19 @@ req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Advapi32.dll
- - API-MS-Win-Core-shutdown-l1-1-1.dll
- - advapi32legacy.dll
- - Ext-MS-Win-AdvAPI32-shutdown-l1-1-0.dll
+- Advapi32.dll
+- API-MS-Win-Core-shutdown-l1-1-1.dll
+- advapi32legacy.dll
+- Ext-MS-Win-AdvAPI32-shutdown-l1-1-0.dll
 api_name:
- - InitiateShutdown
- - InitiateShutdownA
- - InitiateShutdownW
+- InitiateShutdown
+- InitiateShutdownA
+- InitiateShutdownW
 targetos: Windows
 req.typenames: 
 req.redist: 

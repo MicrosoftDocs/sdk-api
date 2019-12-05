@@ -1,19 +1,17 @@
 ---
 UID: NF:msrdc.ISimilarityTraitsMappedView.GetView
 title: ISimilarityTraitsMappedView::GetView (msrdc.h)
-
 description: Returns the beginning and ending addresses for the mapped view of a similarity traits table file.
 old-location: rdc\isimilaritytraitsmappedview_getview.htm
 tech.root: rdc
 ms.assetid: ac229f59-eb2f-471e-9f31-0e7139becdcb
-
 ms.date: 12/05/2018
 ms.keywords: GetView, GetView method [Remote Differential Compression], GetView method [Remote Differential Compression],ISimilarityTraitsMappedView interface, ISimilarityTraitsMappedView interface [Remote Differential Compression],GetView method, ISimilarityTraitsMappedView.GetView, ISimilarityTraitsMappedView::GetView, fs.isimilaritytraitsmappedview_getview, msrdc/ISimilarityTraitsMappedView::GetView, rdc.isimilaritytraitsmappedview_getview
 ms.topic: method
-f1_keywords: 
- - "msrdc/ISimilarityTraitsMappedView.GetView"
+f1_keywords:
+- msrdc/ISimilarityTraitsMappedView.GetView
 dev_langs:
- - c++
+- c++
 req.header: msrdc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: MsRdc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - MsRdc.dll
+- MsRdc.dll
 api_name:
- - ISimilarityTraitsMappedView.GetView
+- ISimilarityTraitsMappedView.GetView
 targetos: Windows
 req.typenames: 
 req.redist: 

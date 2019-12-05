@@ -1,19 +1,17 @@
 ---
 UID: NF:endpointvolume.IAudioEndpointVolume.VolumeStepDown
 title: IAudioEndpointVolume::VolumeStepDown (endpointvolume.h)
-
 description: The VolumeStepDown method decrements, by one step, the volume level of the audio stream that enters or leaves the audio endpoint device.
 old-location: coreaudio\iaudioendpointvolume_volumestepdown.htm
 tech.root: CoreAudio
 ms.assetid: c334d780-784b-4fa3-bf4f-ea5d65459baf
-
 ms.date: 12/05/2018
 ms.keywords: IAudioEndpointVolume interface [Core Audio],VolumeStepDown method, IAudioEndpointVolume.VolumeStepDown, IAudioEndpointVolume::VolumeStepDown, IAudioEndpointVolumeVolumeStepDown, VolumeStepDown, VolumeStepDown method [Core Audio], VolumeStepDown method [Core Audio],IAudioEndpointVolume interface, coreaudio.iaudioendpointvolume_volumestepdown, endpointvolume/IAudioEndpointVolume::VolumeStepDown
 ms.topic: method
-f1_keywords: 
- - "endpointvolume/IAudioEndpointVolume.VolumeStepDown"
+f1_keywords:
+- endpointvolume/IAudioEndpointVolume.VolumeStepDown
 dev_langs:
- - c++
+- c++
 req.header: endpointvolume.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Endpointvolume.h
+- Endpointvolume.h
 api_name:
- - IAudioEndpointVolume.VolumeStepDown
+- IAudioEndpointVolume.VolumeStepDown
 targetos: Windows
 req.typenames: 
 req.redist: 

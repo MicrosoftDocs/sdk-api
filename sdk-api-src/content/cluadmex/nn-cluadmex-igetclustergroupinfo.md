@@ -1,19 +1,17 @@
 ---
 UID: NN:cluadmex.IGetClusterGroupInfo
 title: IGetClusterGroupInfo (cluadmex.h)
-
 description: The IGetClusterGroupInfo interface is called by a Failover Cluster Administrator extension to retrieve information about a group.
 old-location: mscs\igetclustergroupinfo.htm
 tech.root: MsCS
 ms.assetid: 335114ff-3db8-4867-b830-6806adef01f8
-
 ms.date: 12/05/2018
 ms.keywords: IGetClusterGroupInfo, IGetClusterGroupInfo interface [Failover Cluster], IGetClusterGroupInfo interface [Failover Cluster],described, _wolf_igetclustergroupinfo, cluadmex/IGetClusterGroupInfo, mscs.igetclustergroupinfo
 ms.topic: interface
-f1_keywords: 
- - "cluadmex/IGetClusterGroupInfo"
+f1_keywords:
+- cluadmex/IGetClusterGroupInfo
 dev_langs:
- - c++
+- c++
 req.header: cluadmex.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - cluadmex.h
+- cluadmex.h
 api_name:
- - IGetClusterGroupInfo
+- IGetClusterGroupInfo
 targetos: Windows
 req.typenames: 
 req.redist: 

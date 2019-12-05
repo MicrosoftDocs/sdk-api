@@ -1,19 +1,17 @@
 ---
 UID: NF:directmanipulation.IDirectManipulationViewport2.RemoveBehavior
 title: IDirectManipulationViewport2::RemoveBehavior (directmanipulation.h)
-
 description: Removes a behavior from the viewport that matches the given cookie.
 old-location: directmanipulation\idirectmanipulationviewport2_removebehavior.htm
 tech.root: directmanipulation
 ms.assetid: CA5FF0FC-6ED9-4964-9751-90387650A198
-
 ms.date: 12/05/2018
 ms.keywords: IDirectManipulationViewport2 interface [Direct Manipulation],RemoveBehavior method, IDirectManipulationViewport2.RemoveBehavior, IDirectManipulationViewport2::RemoveBehavior, RemoveBehavior, RemoveBehavior method [Direct Manipulation], RemoveBehavior method [Direct Manipulation],IDirectManipulationViewport2 interface, directmanipulation.idirectmanipulationviewport2_removebehavior, directmanipulation/IDirectManipulationViewport2::RemoveBehavior
 ms.topic: method
-f1_keywords: 
- - "directmanipulation/IDirectManipulationViewport2.RemoveBehavior"
+f1_keywords:
+- directmanipulation/IDirectManipulationViewport2.RemoveBehavior
 dev_langs:
- - c++
+- c++
 req.header: directmanipulation.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - DirectManipulation.h
+- DirectManipulation.h
 api_name:
- - IDirectManipulationViewport2.RemoveBehavior
+- IDirectManipulationViewport2.RemoveBehavior
 targetos: Windows
 req.typenames: 
 req.redist: 

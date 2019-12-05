@@ -1,19 +1,17 @@
 ---
 UID: NF:winbase.GetActiveProcessorCount
 title: GetActiveProcessorCount function (winbase.h)
-
 description: Returns the number of active processors in a processor group or in the system.
 old-location: base\getactiveprocessorcount.htm
 tech.root: ProcThread
 ms.assetid: f4ebb0a7-1c05-4478-85e3-80e6327ef8a4
-
 ms.date: 12/05/2018
 ms.keywords: GetActiveProcessorCount, GetActiveProcessorCount function, base.getactiveprocessorcount, winbase/GetActiveProcessorCount
 ms.topic: function
-f1_keywords: 
- - "winbase/GetActiveProcessorCount"
+f1_keywords:
+- winbase/GetActiveProcessorCount
 dev_langs:
- - c++
+- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - kernel32.dll
- - API-MS-Win-Core-processtopology-Obsolete-l1-1-0.dll
- - kernel32legacy.dll
- - API-MS-Win-DownLevel-Kernel32-l2-1-0.dll
- - API-MS-Win-Core-ProcessTopology-Obsolete-L1-1-1.dll
+- kernel32.dll
+- API-MS-Win-Core-processtopology-Obsolete-l1-1-0.dll
+- kernel32legacy.dll
+- API-MS-Win-DownLevel-Kernel32-l2-1-0.dll
+- API-MS-Win-Core-ProcessTopology-Obsolete-L1-1-1.dll
 api_name:
- - GetActiveProcessorCount
+- GetActiveProcessorCount
 targetos: Windows
 req.typenames: 
 req.redist: 

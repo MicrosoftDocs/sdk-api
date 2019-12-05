@@ -1,19 +1,17 @@
 ---
 UID: NF:fsrmpipeline.IFsrmPipelineModuleImplementation.OnUnload
 title: IFsrmPipelineModuleImplementation::OnUnload (fsrmpipeline.h)
-
 description: Notifies the module to perform any cleanup tasks.
 old-location: fsrm\ifsrmpipelinemoduleimplementation_onunload.htm
 tech.root: fsrm
 ms.assetid: c0febde2-f067-4ca7-8c2b-2f09da9e7d23
-
 ms.date: 12/05/2018
 ms.keywords: IFsrmClassifierModuleImplementation interface [File Server Resource Manager],OnUnload method, IFsrmClassifierModuleImplementation::OnUnload, IFsrmPipelineModuleImplementation interface [File Server Resource Manager],OnUnload method, IFsrmPipelineModuleImplementation.OnUnload, IFsrmPipelineModuleImplementation::OnUnload, IFsrmStorageModuleImplementation interface [File Server Resource Manager],OnUnload method, IFsrmStorageModuleImplementation::OnUnload, OnUnload, OnUnload method [File Server Resource Manager], OnUnload method [File Server Resource Manager],IFsrmClassifierModuleImplementation interface, OnUnload method [File Server Resource Manager],IFsrmPipelineModuleImplementation interface, OnUnload method [File Server Resource Manager],IFsrmStorageModuleImplementation interface, fs.ifsrmpipelinemoduleimplementation_onunload, fsrm.ifsrmpipelinemoduleimplementation_onunload, fsrmpipeline/IFsrmClassifierModuleImplementation::OnUnload, fsrmpipeline/IFsrmPipelineModuleImplementation::OnUnload, fsrmpipeline/IFsrmStorageModuleImplementation::OnUnload
 ms.topic: method
-f1_keywords: 
- - "fsrmpipeline/IFsrmPipelineModuleImplementation.OnUnload"
+f1_keywords:
+- fsrmpipeline/IFsrmPipelineModuleImplementation.OnUnload
 dev_langs:
- - c++
+- c++
 req.header: fsrmpipeline.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: SrmSvc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - SrmSvc.dll
+- SrmSvc.dll
 api_name:
- - IFsrmPipelineModuleImplementation.OnUnload
- - IFsrmStorageModuleImplementation.OnUnload
- - IFsrmClassifierModuleImplementation.OnUnload
+- IFsrmPipelineModuleImplementation.OnUnload
+- IFsrmStorageModuleImplementation.OnUnload
+- IFsrmClassifierModuleImplementation.OnUnload
 targetos: Windows
 req.typenames: 
 req.redist: 

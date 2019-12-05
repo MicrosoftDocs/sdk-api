@@ -1,19 +1,17 @@
 ---
 UID: NF:wincodec.IWICComponentInfo.GetComponentType
 title: IWICComponentInfo::GetComponentType (wincodec.h)
-
 description: Retrieves the component's WICComponentType.
 old-location: wic\_wic_codec_iwiccomponentinfo_getcomponenttype.htm
 tech.root: wic
 ms.assetid: e7599299-2854-4796-8760-740a6ae7ad4f
-
 ms.date: 12/05/2018
 ms.keywords: GetComponentType, GetComponentType method [Windows Imaging Component], GetComponentType method [Windows Imaging Component],IWICComponentInfo interface, IWICComponentInfo interface [Windows Imaging Component],GetComponentType method, IWICComponentInfo.GetComponentType, IWICComponentInfo::GetComponentType, _wic_codec_iwiccomponentinfo_getcomponenttype, wic._wic_codec_iwiccomponentinfo_getcomponenttype, wincodec/IWICComponentInfo::GetComponentType
 ms.topic: method
-f1_keywords: 
- - "wincodec/IWICComponentInfo.GetComponentType"
+f1_keywords:
+- wincodec/IWICComponentInfo.GetComponentType
 dev_langs:
- - c++
+- c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Windowscodecs.lib
 req.dll: Windowscodecs.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Windowscodecs.dll
+- Windowscodecs.dll
 api_name:
- - IWICComponentInfo.GetComponentType
+- IWICComponentInfo.GetComponentType
 targetos: Windows
 req.typenames: 
 req.redist: 

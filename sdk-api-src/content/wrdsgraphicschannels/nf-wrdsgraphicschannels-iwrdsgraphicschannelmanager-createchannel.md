@@ -1,19 +1,17 @@
 ---
 UID: NF:wrdsgraphicschannels.IWRdsGraphicsChannelManager.CreateChannel
 title: IWRdsGraphicsChannelManager::CreateChannel (wrdsgraphicschannels.h)
-
 description: Used to create a graphics virtual channel.
 old-location: termserv\iwrdsgraphicschannelmanager_createchannel.htm
 tech.root: TermServ
 ms.assetid: 2dcce4ac-aa1d-4bdf-9c95-8737f924d0e9
-
 ms.date: 12/05/2018
 ms.keywords: CreateChannel, CreateChannel method [Remote Desktop Services], CreateChannel method [Remote Desktop Services],IWRdsGraphicsChannelManager interface, IWRdsGraphicsChannelManager interface [Remote Desktop Services],CreateChannel method, IWRdsGraphicsChannelManager.CreateChannel, IWRdsGraphicsChannelManager::CreateChannel, termserv.iwrdsgraphicschannelmanager_createchannel, wrdsgraphicschannels/IWRdsGraphicsChannelManager::CreateChannel
 ms.topic: method
-f1_keywords: 
- - "wrdsgraphicschannels/IWRdsGraphicsChannelManager.CreateChannel"
+f1_keywords:
+- wrdsgraphicschannels/IWRdsGraphicsChannelManager.CreateChannel
 dev_langs:
- - c++
+- c++
 req.header: wrdsgraphicschannels.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wrdsgraphicschannels.h
+- wrdsgraphicschannels.h
 api_name:
- - IWRdsGraphicsChannelManager.CreateChannel
+- IWRdsGraphicsChannelManager.CreateChannel
 targetos: Windows
 req.typenames: 
 req.redist: 

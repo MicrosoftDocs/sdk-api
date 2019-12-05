@@ -1,19 +1,17 @@
 ---
 UID: NF:mfobjects.IMFAttributes.SetDouble
 title: IMFAttributes::SetDouble (mfobjects.h)
-
 description: Associates a double value with a key.
 old-location: mf\imfattributes_setdouble.htm
 tech.root: medfound
 ms.assetid: bb58f35e-0fca-4b19-9976-de2140e6ebc0
-
 ms.date: 12/05/2018
 ms.keywords: IMFAttributes interface [Media Foundation],SetDouble method, IMFAttributes.SetDouble, IMFAttributes::SetDouble, SetDouble, SetDouble method [Media Foundation], SetDouble method [Media Foundation],IMFAttributes interface, bb58f35e-0fca-4b19-9976-de2140e6ebc0, mf.imfattributes_setdouble, mfobjects/IMFAttributes::SetDouble
 ms.topic: method
-f1_keywords: 
- - "mfobjects/IMFAttributes.SetDouble"
+f1_keywords:
+- mfobjects/IMFAttributes.SetDouble
 dev_langs:
- - c++
+- c++
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFAttributes.SetDouble
+- IMFAttributes.SetDouble
 targetos: Windows
 req.typenames: 
 req.redist: 

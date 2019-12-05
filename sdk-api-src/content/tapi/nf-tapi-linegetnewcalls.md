@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi.lineGetNewCalls
 title: lineGetNewCalls function (tapi.h)
-
 description: The lineGetNewCalls function returns call handles to calls on a specified line or address for which the application currently does not have handles. The application is granted monitor privilege to these calls.
 old-location: tapi2\linegetnewcalls.htm
 tech.root: Tapi
 ms.assetid: 179af1a1-078f-401c-8c15-12fc8ca06e3c
-
 ms.date: 12/05/2018
-ms.keywords: "_tapi2_linegetnewcalls, lineGetNewCalls, lineGetNewCalls function [TAPI 2.2], tapi/lineGetNewCalls, tapi2.linegetnewcalls"
+ms.keywords: _tapi2_linegetnewcalls, lineGetNewCalls, lineGetNewCalls function [TAPI 2.2], tapi/lineGetNewCalls, tapi2.linegetnewcalls
 ms.topic: function
-f1_keywords: 
- - "tapi/lineGetNewCalls"
+f1_keywords:
+- tapi/lineGetNewCalls
 dev_langs:
- - c++
+- c++
 req.header: tapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Tapi32.lib
 req.dll: Tapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Tapi32.dll
+- Tapi32.dll
 api_name:
- - lineGetNewCalls
+- lineGetNewCalls
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:ddraw.IDirectDraw7.EnumDisplayModes
 title: IDirectDraw7::EnumDisplayModes (ddraw.h)
-
 description: Enumerates all the display modes that the hardware exposes through the DirectDraw object and that are compatible with a provided surface description.
 old-location: directdraw\idirectdraw7_enumdisplaymodes.htm
 tech.root: directdraw
 ms.assetid: 04ed2545-c611-435d-95ef-a0d854380a69
-
 ms.date: 12/05/2018
 ms.keywords: DDEDM_REFRESHRATES, DDEDM_STANDARDVGAMODES, EnumDisplayModes, EnumDisplayModes method [DirectDraw], EnumDisplayModes method [DirectDraw],IDirectDraw7 interface, IDirectDraw7 interface [DirectDraw],EnumDisplayModes method, IDirectDraw7.EnumDisplayModes, IDirectDraw7::EnumDisplayModes, ddraw/IDirectDraw7::EnumDisplayModes, directdraw.idirectdraw7_enumdisplaymodes
 ms.topic: method
-f1_keywords: 
- - "ddraw/IDirectDraw7.EnumDisplayModes"
+f1_keywords:
+- ddraw/IDirectDraw7.EnumDisplayModes
 dev_langs:
- - c++
+- c++
 req.header: ddraw.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Ddraw.lib
 req.dll: Ddraw.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Ddraw.dll
+- Ddraw.dll
 api_name:
- - IDirectDraw7.EnumDisplayModes
+- IDirectDraw7.EnumDisplayModes
 targetos: Windows
 req.typenames: 
 req.redist: 

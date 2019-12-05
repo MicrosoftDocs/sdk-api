@@ -1,19 +1,17 @@
 ---
 UID: NF:bdaiface.IBDA_FDC.AddTid
 title: IBDA_FDC::AddTid (bdaiface.h)
-
 description: Adds one or more table identifiers (TIDs) to the MPEG flow.
 old-location: mstv\ibda_fdc_addtid.htm
 tech.root: mstv
 ms.assetid: 2cd39bbc-106b-4411-bc42-a1adc360e121
-
 ms.date: 12/05/2018
 ms.keywords: AddTid, AddTid method [Microsoft TV Technologies], AddTid method [Microsoft TV Technologies],IBDA_FDC interface, IBDA_FDC interface [Microsoft TV Technologies],AddTid method, IBDA_FDC.AddTid, IBDA_FDC::AddTid, bdaiface/IBDA_FDC::AddTid, mstv.ibda_fdc_addtid
 ms.topic: method
-f1_keywords: 
- - "bdaiface/IBDA_FDC.AddTid"
+f1_keywords:
+- bdaiface/IBDA_FDC.AddTid
 dev_langs:
- - c++
+- c++
 req.header: bdaiface.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - bdaiface.h
+- bdaiface.h
 api_name:
- - IBDA_FDC.AddTid
+- IBDA_FDC.AddTid
 targetos: Windows
 req.typenames: 
 req.redist: 

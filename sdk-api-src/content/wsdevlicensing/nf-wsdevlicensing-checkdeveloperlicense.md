@@ -1,19 +1,17 @@
 ---
 UID: NF:wsdevlicensing.CheckDeveloperLicense
 title: CheckDeveloperLicense function (wsdevlicensing.h)
-
 description: Checks to see if a developer license exists.
 old-location: devlic\checkdeveloperlicense.htm
 tech.root: devlic
 ms.assetid: 957CBEDC-CF3A-4A65-B0D9-4CEACCAAC344
-
 ms.date: 12/05/2018
 ms.keywords: CheckDeveloperLicense, CheckDeveloperLicense function, devlic.checkdeveloperlicense, wsdevlicensing/CheckDeveloperLicense
 ms.topic: function
-f1_keywords: 
- - "wsdevlicensing/CheckDeveloperLicense"
+f1_keywords:
+- wsdevlicensing/CheckDeveloperLicense
 dev_langs:
- - c++
+- c++
 req.header: wsdevlicensing.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: WSClient.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - WSClient.dll
- - Ext-MS-Win-WSClient-devlicense-l1-1-0.dll
- - Ext-MS-Win-WSClient-devlicense-l1-1-1.dll
+- WSClient.dll
+- Ext-MS-Win-WSClient-devlicense-l1-1-0.dll
+- Ext-MS-Win-WSClient-devlicense-l1-1-1.dll
 api_name:
- - CheckDeveloperLicense
+- CheckDeveloperLicense
 targetos: Windows
 req.typenames: 
 req.redist: 

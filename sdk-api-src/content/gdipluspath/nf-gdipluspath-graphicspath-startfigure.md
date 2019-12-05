@@ -1,19 +1,17 @@
 ---
 UID: NF:gdipluspath.GraphicsPath.StartFigure
 title: GraphicsPath::StartFigure (gdipluspath.h)
-
 description: The GraphicsPath::StartFigure method starts a new figure without closing the current figure. Subsequent points added to this path are added to the new figure.
 old-location: gdiplus\_gdiplus_CLASS_GraphicsPath_StartFigure_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicspathclass\graphicspathmethods\startfigure.htm
-
 ms.date: 12/05/2018
 ms.keywords: GraphicsPath class [GDI+],StartFigure method, GraphicsPath.StartFigure, GraphicsPath::StartFigure, StartFigure, StartFigure method [GDI+], StartFigure method [GDI+],GraphicsPath class, _gdiplus_CLASS_GraphicsPath_StartFigure_, gdiplus._gdiplus_CLASS_GraphicsPath_StartFigure_
 ms.topic: method
-f1_keywords: 
- - "gdipluspath/GraphicsPath.StartFigure"
+f1_keywords:
+- gdipluspath/GraphicsPath.StartFigure
 dev_langs:
- - c++
+- c++
 req.header: gdipluspath.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - GraphicsPath.StartFigure
+- GraphicsPath.StartFigure
 targetos: Windows
 req.typenames: 
 req.redist: 

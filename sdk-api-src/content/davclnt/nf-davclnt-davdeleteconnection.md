@@ -1,19 +1,17 @@
 ---
 UID: NF:davclnt.DavDeleteConnection
 title: DavDeleteConnection function (davclnt.h)
-
 description: Closes a connection that was created by using the DavAddConnection function.
 old-location: webdav\davdeleteconnection.htm
 tech.root: WebDAV
 ms.assetid: 736b8a16-30db-410e-8295-97730297d04b
-
 ms.date: 12/05/2018
 ms.keywords: DavDeleteConnection, DavDeleteConnection function [WebDAV], davclnt/DavDeleteConnection, webdav.davdeleteconnection
 ms.topic: function
-f1_keywords: 
- - "davclnt/DavDeleteConnection"
+f1_keywords:
+- davclnt/DavDeleteConnection
 dev_langs:
- - c++
+- c++
 req.header: davclnt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Netapi32.lib
 req.dll: Netapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - netapi32.dll
- - DavHlpr.dll
- - Ext-MS-Win-Rdr-DavHlpr-L1-1-0.dll
+- netapi32.dll
+- DavHlpr.dll
+- Ext-MS-Win-Rdr-DavHlpr-L1-1-0.dll
 api_name:
- - DavDeleteConnection
+- DavDeleteConnection
 targetos: Windows
 req.typenames: 
 req.redist: 

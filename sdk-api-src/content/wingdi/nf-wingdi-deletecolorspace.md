@@ -1,19 +1,17 @@
 ---
 UID: NF:wingdi.DeleteColorSpace
 title: DeleteColorSpace function (wingdi.h)
-
 description: The DeleteColorSpace function removes and destroys a specified color space.
 old-location: wcs\deletecolorspace.htm
 tech.root: WCS
 ms.assetid: 5b241224-2994-4533-9629-d2a4b129ce86
-
 ms.date: 12/05/2018
 ms.keywords: DeleteColorSpace, DeleteColorSpace function [Windows Color System], _color_DeleteColorSpace, wcs.deletecolorspace, wingdi/DeleteColorSpace
 ms.topic: function
-f1_keywords: 
- - "wingdi/DeleteColorSpace"
+f1_keywords:
+- wingdi/DeleteColorSpace
 dev_langs:
- - c++
+- c++
 req.header: wingdi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - gdi32.dll
- - API-MS-Win-GDI-Internal-Uap-L1-1-0.dll
- - Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
- - GDI32Full.dll
- - GDI32Min.dll
+- gdi32.dll
+- API-MS-Win-GDI-Internal-Uap-L1-1-0.dll
+- Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
+- GDI32Full.dll
+- GDI32Min.dll
 api_name:
- - DeleteColorSpace
+- DeleteColorSpace
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:fwpmu.FwpmSystemPortsUnsubscribe0
 title: FwpmSystemPortsUnsubscribe0 function (fwpmu.h)
-
 description: Is used to cancel a system port subscription and stop receiving notifications.
 old-location: fwp\fwpmsystemportsunsubscribe0.htm
 tech.root: fwp
 ms.assetid: d078ae73-32a7-4341-b142-d1fdf8388255
-
 ms.date: 12/05/2018
 ms.keywords: FwpmSystemPortsUnsubscribe0, FwpmSystemPortsUnsubscribe0 function [Filtering], fwp.fwpmsystemportsunsubscribe0, fwpmu/FwpmSystemPortsUnsubscribe0
 ms.topic: function
-f1_keywords: 
- - "fwpmu/FwpmSystemPortsUnsubscribe0"
+f1_keywords:
+- fwpmu/FwpmSystemPortsUnsubscribe0
 dev_langs:
- - c++
+- c++
 req.header: fwpmu.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Fwpuclnt.lib
 req.dll: Fwpuclnt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Fwpuclnt.dll
+- Fwpuclnt.dll
 api_name:
- - FwpmSystemPortsUnsubscribe0
+- FwpmSystemPortsUnsubscribe0
 targetos: Windows
 req.typenames: 
 req.redist: 

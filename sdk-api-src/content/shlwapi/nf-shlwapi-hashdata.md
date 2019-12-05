@@ -1,19 +1,17 @@
 ---
 UID: NF:shlwapi.HashData
 title: HashData function (shlwapi.h)
-
 description: Hashes an array of data.
 old-location: shell\HashData.htm
 tech.root: shell
 ms.assetid: 7b42b3ae-c021-49be-b5a7-d3bc0a5d346a
-
 ms.date: 12/05/2018
 ms.keywords: HashData, HashData function [Windows Shell], _win32_HashData, shell.HashData, shlwapi/HashData
 ms.topic: function
-f1_keywords: 
- - "shlwapi/HashData"
+f1_keywords:
+- shlwapi/HashData
 dev_langs:
- - c++
+- c++
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib: Shlwapi.lib
 req.dll: Shlwapi.dll (version 5.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Shlwapi.dll
- - API-MS-Win-Core-url-l1-1-0.dll
- - KernelBase.dll
- - API-MS-Win-DownLevel-shlwapi-l1-1-0.dll
- - API-MS-Win-DownLevel-shlwapi-l1-1-1.dll
+- Shlwapi.dll
+- API-MS-Win-Core-url-l1-1-0.dll
+- KernelBase.dll
+- API-MS-Win-DownLevel-shlwapi-l1-1-0.dll
+- API-MS-Win-DownLevel-shlwapi-l1-1-1.dll
 api_name:
- - HashData
+- HashData
 targetos: Windows
 req.typenames: 
 req.redist: 

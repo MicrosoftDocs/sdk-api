@@ -1,46 +1,43 @@
 ---
 UID: NF:d3d12video.ID3D12VideoProcessCommandList.Reset
 title: ID3D12VideoProcessCommandList::Reset
-
 description: Resets a command list back to its initial state as if a new command list was just created.
 tech.root: mf
 ms.assetid: 95ddb93d-313e-48a3-ac09-e4675b4a1cad
-
 ms.date: 05/28/2019
 ms.topic: method
 f1_keywords:
- - ID3D12VideoProcessCommandList::Reset
+- ID3D12VideoProcessCommandList::Reset
 dev_langs:
- - c++
+- c++
 ms.keywords: ID3D12VideoProcessCommandList::Reset, Reset, ID3D12VideoProcessCommandList.Reset, ID3D12VideoProcessCommandList::Reset, ID3D12VideoProcessCommandList.Reset
 req.header: d3d12video.h
-req.include-header:
-req.redist:
-req.target-type:
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
+req.include-header: 
+req.redist: 
+req.target-type: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
 req.dll: d3d12.dll
 req.irql: 
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
-req.type-library:
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
 topic_type:
- - apiref
+- apiref
 api_type:
- - COM
+- COM
 api_location:
- - d3d12.dll
+- d3d12.dll
 api_name:
- - ID3D12VideoProcessCommandList::Reset
+- ID3D12VideoProcessCommandList::Reset
 targetos: Windows
-
 ---
 
 # ID3D12VideoProcessCommandList::Reset

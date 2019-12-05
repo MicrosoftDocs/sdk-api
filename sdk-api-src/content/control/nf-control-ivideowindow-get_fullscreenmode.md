@@ -1,19 +1,17 @@
 ---
 UID: NF:control.IVideoWindow.get_FullScreenMode
 title: IVideoWindow::get_FullScreenMode (control.h)
-
 description: The get_FullScreenMode method queries whether the video renderer is in full-screen mode.
 old-location: dshow\ivideowindow_get_fullscreenmode.htm
 tech.root: DirectShow
 ms.assetid: 742587c7-545a-4c5f-bff1-511ed6d0b1d5
-
 ms.date: 12/05/2018
 ms.keywords: IVideoWindow interface [DirectShow],get_FullScreenMode method, IVideoWindow.get_FullScreenMode, IVideoWindow::get_FullScreenMode, IVideoWindowget_FullScreenMode, control/IVideoWindow::get_FullScreenMode, dshow.ivideowindow_get_fullscreenmode, get_FullScreenMode, get_FullScreenMode method [DirectShow], get_FullScreenMode method [DirectShow],IVideoWindow interface
 ms.topic: method
-f1_keywords: 
- - "control/IVideoWindow.get_FullScreenMode"
+f1_keywords:
+- control/IVideoWindow.get_FullScreenMode
 dev_langs:
- - c++
+- c++
 req.header: control.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IVideoWindow.get_FullScreenMode
+- IVideoWindow.get_FullScreenMode
 targetos: Windows
 req.typenames: 
 req.redist: 

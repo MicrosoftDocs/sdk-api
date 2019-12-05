@@ -1,19 +1,17 @@
 ---
 UID: NF:oleauto.VarTokenizeFormatString
 title: VarTokenizeFormatString function (oleauto.h)
-
 description: Parses the actual format string into a series of tokens which can be used to format variants using VarFormatFromTokens.
 old-location: automat\vartokenizeformatstring.htm
 tech.root: automat
 ms.assetid: 7cec1bc5-39ea-4b47-880b-62584ff23536
-
 ms.date: 12/05/2018
 ms.keywords: VarTokenizeFormatString, VarTokenizeFormatString function [Automation], _oa96_VarTokenizeFormatString, automat.vartokenizeformatstring, oleauto/VarTokenizeFormatString
 ms.topic: function
-f1_keywords: 
- - "oleauto/VarTokenizeFormatString"
+f1_keywords:
+- oleauto/VarTokenizeFormatString
 dev_langs:
- - c++
+- c++
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: OleAut32.lib
 req.dll: OleAut32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - OleAut32.dll
+- OleAut32.dll
 api_name:
- - VarTokenizeFormatString
+- VarTokenizeFormatString
 targetos: Windows
 req.typenames: 
 req.redist: 

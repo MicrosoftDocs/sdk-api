@@ -1,19 +1,17 @@
 ---
 UID: NN:comsvcs.ITransactionProxy
 title: ITransactionProxy (comsvcs.h)
-
 description: Provides a way for a COM+ transaction context to work with a non-DTC transaction.
 old-location: cos\itransactionproxy.htm
 tech.root: cossdk
 ms.assetid: 58d40456-fd4f-4690-a679-3fa58b2f3cda
-
 ms.date: 12/05/2018
 ms.keywords: ITransactionProxy, ITransactionProxy interface [COM+], ITransactionProxy interface [COM+],described, comsvcs/ITransactionProxy, cos.itransactionproxy
 ms.topic: interface
-f1_keywords: 
- - "comsvcs/ITransactionProxy"
+f1_keywords:
+- comsvcs/ITransactionProxy
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - ITransactionProxy
+- ITransactionProxy
 targetos: Windows
 req.typenames: 
 req.redist: 

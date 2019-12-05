@@ -1,19 +1,17 @@
 ---
 UID: NF:dcomp.IDCompositionColorMatrixEffect.SetMatrix
 title: IDCompositionColorMatrixEffect::SetMatrix (dcomp.h)
-
 description: Sets the matrix used by the effect to multiply the RGBA values of the image.
 old-location: directcomp\idcompositioncolormatrixeffect_setmatrix.htm
 tech.root: directcomp
 ms.assetid: 1EE0C9B6-6309-40A3-AE80-A47C45BBA536
-
 ms.date: 12/05/2018
 ms.keywords: IDCompositionColorMatrixEffect interface [DirectComposition],SetMatrix method, IDCompositionColorMatrixEffect.SetMatrix, IDCompositionColorMatrixEffect::SetMatrix, SetMatrix, SetMatrix method [DirectComposition], SetMatrix method [DirectComposition],IDCompositionColorMatrixEffect interface, dcomp/IDCompositionColorMatrixEffect::SetMatrix, directcomp.idcompositioncolormatrixeffect_setmatrix
 ms.topic: method
-f1_keywords: 
- - "dcomp/IDCompositionColorMatrixEffect.SetMatrix"
+f1_keywords:
+- dcomp/IDCompositionColorMatrixEffect.SetMatrix
 dev_langs:
- - c++
+- c++
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dcomp.lib
 req.dll: Dcomp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dcomp.dll
+- Dcomp.dll
 api_name:
- - IDCompositionColorMatrixEffect.SetMatrix
+- IDCompositionColorMatrixEffect.SetMatrix
 targetos: Windows
 req.typenames: 
 req.redist: 

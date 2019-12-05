@@ -1,19 +1,17 @@
 ---
 UID: NF:wuapi.ISearchResult.get_Warnings
 title: ISearchResult::get_Warnings (wuapi.h)
-
 description: Gets a collection of the warnings that result from a search.
 old-location: wua\isearchresult_warnings.htm
 tech.root: Wua_Sdk
 ms.assetid: a341676e-75b3-46e5-8c55-b070147d4277
-
 ms.date: 12/05/2018
 ms.keywords: ISearchResult interface [Windows Update Agent],Warnings property, ISearchResult.Warnings, ISearchResult.get_Warnings, ISearchResult::Warnings, ISearchResult::get_Warnings, Warnings property [Windows Update Agent], Warnings property [Windows Update Agent],ISearchResult interface, get_Warnings, wua.isearchresult_warnings, wuapi/ISearchResult::Warnings, wuapi/ISearchResult::get_Warnings
 ms.topic: method
-f1_keywords: 
- - "wuapi/ISearchResult.Warnings"
+f1_keywords:
+- wuapi/ISearchResult.Warnings
 dev_langs:
- - c++
+- c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Wuguid.lib
 req.dll: Wuapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wuapi.dll
+- Wuapi.dll
 api_name:
- - ISearchResult.Warnings
- - ISearchResult.get_Warnings
+- ISearchResult.Warnings
+- ISearchResult.get_Warnings
 targetos: Windows
 req.typenames: 
 req.redist: 

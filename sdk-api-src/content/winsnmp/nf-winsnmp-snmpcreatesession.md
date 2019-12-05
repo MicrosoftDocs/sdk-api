@@ -1,19 +1,17 @@
 ---
 UID: NF:winsnmp.SnmpCreateSession
 title: SnmpCreateSession function (winsnmp.h)
-
 description: The SnmpCreateSession function requests the Microsoft WinSNMP implementation to open a session for the WinSNMP application.
 old-location: snmp\snmpcreatesession.htm
 tech.root: SNMP
 ms.assetid: 8d982eb5-a7b5-418e-94ad-3e5dc43d225c
-
 ms.date: 12/05/2018
 ms.keywords: SnmpCreateSession, SnmpCreateSession function [SNMP], _snmp_snmpcreatesession, snmp.snmpcreatesession, winsnmp/SnmpCreateSession
 ms.topic: function
-f1_keywords: 
- - "winsnmp/SnmpCreateSession"
+f1_keywords:
+- winsnmp/SnmpCreateSession
 dev_langs:
- - c++
+- c++
 req.header: winsnmp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Wsnmp32.lib
 req.dll: Wsnmp32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Wsnmp32.dll
+- Wsnmp32.dll
 api_name:
- - SnmpCreateSession
+- SnmpCreateSession
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:strsafe.StringCbCopyExW
 title: StringCbCopyExW function (strsafe.h)
-
 description: Copies one string to another.
 old-location: menurc\stringcbcopyex.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\strings\stringreference\stringfunctions\stringcbcopyex.htm
-
 ms.date: 12/05/2018
 ms.keywords: STRSAFE_FILL_BEHIND_NULL, STRSAFE_FILL_ON_FAILURE, STRSAFE_IGNORE_NULLS, STRSAFE_NO_TRUNCATION, STRSAFE_NULL_ON_FAILURE, StringCbCopyEx, StringCbCopyEx function [Menus and Other Resources], StringCbCopyExA, StringCbCopyExW, _shell_StringCbCopyEx, _shell_stringcbcopyex_cpp, menurc.stringcbcopyex, strsafe/StringCbCopyEx, strsafe/StringCbCopyExA, strsafe/StringCbCopyExW, winui._shell_stringcbcopyex
 ms.topic: function
-f1_keywords: 
- - "strsafe/StringCbCopyEx"
+f1_keywords:
+- strsafe/StringCbCopyEx
 dev_langs:
- - c++
+- c++
 req.header: strsafe.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Strsafe.h
+- Strsafe.h
 api_name:
- - StringCbCopyEx
- - StringCbCopyExA
- - StringCbCopyExW
+- StringCbCopyEx
+- StringCbCopyExA
+- StringCbCopyExW
 targetos: Windows
 req.typenames: 
 req.redist: 

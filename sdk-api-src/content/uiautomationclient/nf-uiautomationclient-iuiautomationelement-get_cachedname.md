@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationElement.get_CachedName
 title: IUIAutomationElement::get_CachedName (uiautomationclient.h)
-
 description: Retrieves the cached name of the element.
 old-location: winauto\uiauto_IUIAutomationElement_CachedName.htm
 tech.root: WinAuto
 ms.assetid: 9d70a40c-9bcf-4ca9-90dd-05d25ddb7e89
-
 ms.date: 12/05/2018
 ms.keywords: CachedName property [Windows Accessibility], CachedName property [Windows Accessibility],IUIAutomationElement interface, IUIAutomationElement interface [Windows Accessibility],CachedName property, IUIAutomationElement.CachedName, IUIAutomationElement.get_CachedName, IUIAutomationElement::CachedName, IUIAutomationElement::get_CachedName, get_CachedName, uiauto.uiauto_IUIAutomationElement_CachedName, uiauto_IUIAutomationElement_CachedName, uiautomationclient/IUIAutomationElement::CachedName, uiautomationclient/IUIAutomationElement::get_CachedName, winauto.uiauto_IUIAutomationElement_CachedName
 ms.topic: method
-f1_keywords: 
- - "uiautomationclient/IUIAutomationElement.CachedName"
+f1_keywords:
+- uiautomationclient/IUIAutomationElement.CachedName
 dev_langs:
- - c++
+- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationClient.h
+- UIAutomationClient.h
 api_name:
- - IUIAutomationElement.CachedName
- - IUIAutomationElement.get_CachedName
+- IUIAutomationElement.CachedName
+- IUIAutomationElement.get_CachedName
 targetos: Windows
 req.typenames: 
 req.redist: 

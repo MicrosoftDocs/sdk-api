@@ -1,19 +1,17 @@
 ---
 UID: NF:intsafe.PtrdiffTMult
 title: PtrdiffTMult function (intsafe.h)
-
 description: Multiplies two values of type ptrdiff_t.
 old-location: shell\PtrdiffTMult.htm
 tech.root: shell
 ms.assetid: 79b4d5e3-3f10-46fb-a7c8-316629a2a9dd
-
 ms.date: 12/05/2018
 ms.keywords: PtrdiffTMult, PtrdiffTMult function [Windows Shell], intsafe/PtrdiffTMult, shell.PtrdiffTMult
 ms.topic: function
-f1_keywords: 
- - "intsafe/PtrdiffTMult"
+f1_keywords:
+- intsafe/PtrdiffTMult
 dev_langs:
- - c++
+- c++
 req.header: intsafe.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - intsafe.h
+- intsafe.h
 api_name:
- - PtrdiffTMult
+- PtrdiffTMult
 targetos: Windows
 req.typenames: 
 req.redist: 

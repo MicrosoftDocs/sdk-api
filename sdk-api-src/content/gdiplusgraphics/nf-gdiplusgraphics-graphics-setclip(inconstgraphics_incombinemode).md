@@ -3,14 +3,13 @@ UID: NF:gdiplusgraphics.Graphics.SetClip(IN const Graphics,IN CombineMode)
 title: Graphics::SetClip
 description: The Graphics::SetClip method updates the clipping region of this Graphics object.
 ms.assetid: 77ca4449-3bd3-4476-9502-6b05638ecf7f
-
 ms.date: 05/13/2019
 ms.keywords: Graphics::SetClip
 ms.topic: language-reference
-f1_keywords: 
- - "gdiplusgraphics/Graphics::SetClip"
+f1_keywords:
+- gdiplusgraphics/Graphics::SetClip
 dev_langs:
- - c++
+- c++
 targetos: Windows
 req.assembly: 
 req.construct-type: function
@@ -32,13 +31,13 @@ req.type-library:
 req.umdf-ver: 
 req.unicode-ansi: 
 topic_type:
- - apiref
+- apiref
 api_type:
- - COM
+- COM
 api_location:
- - gdiplusgraphics.h
+- gdiplusgraphics.h
 api_name:
- - Graphics::SetClip
+- Graphics::SetClip
 ---
 
 # SetClip(Graphics*,CombineMode)

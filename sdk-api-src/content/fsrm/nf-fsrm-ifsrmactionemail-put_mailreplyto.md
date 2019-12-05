@@ -1,19 +1,17 @@
 ---
 UID: NF:fsrm.IFsrmActionEmail.put_MailReplyTo
 title: IFsrmActionEmail::put_MailReplyTo (fsrm.h)
-
 description: Retrieves or sets the email address to use as the reply-to address when the recipient of the email message replies.
 old-location: fsrm\ifsrmactionemail_mailreplyto.htm
 tech.root: fsrm
 ms.assetid: 54d1b801-1df5-4712-9b2e-6a993a62b48a
-
 ms.date: 12/05/2018
 ms.keywords: IFsrmActionEmail interface [File Server Resource Manager],MailReplyTo property, IFsrmActionEmail.MailReplyTo, IFsrmActionEmail.put_MailReplyTo, IFsrmActionEmail2 interface [File Server Resource Manager],MailReplyTo property, IFsrmActionEmail2.MailReplyTo, IFsrmActionEmail2::MailReplyTo, IFsrmActionEmail2::get_MailReplyTo, IFsrmActionEmail2::put_MailReplyTo, IFsrmActionEmail::get_MailReplyTo, IFsrmActionEmail::put_MailReplyTo, MailReplyTo property [File Server Resource Manager], MailReplyTo property [File Server Resource Manager],IFsrmActionEmail interface, MailReplyTo property [File Server Resource Manager],IFsrmActionEmail2 interface, fs.ifsrmactionemail_mailreplyto, fsrm.ifsrmactionemail_mailreplyto, fsrm/IFsrmActionEmail2::MailReplyTo, fsrm/IFsrmActionEmail2::get_MailReplyTo, fsrm/IFsrmActionEmail2::put_MailReplyTo, fsrm/IFsrmActionEmail::MailReplyTo, fsrm/IFsrmActionEmail::get_MailReplyTo, fsrm/IFsrmActionEmail::put_MailReplyTo, put_MailReplyTo
 ms.topic: method
-f1_keywords: 
- - "fsrm/IFsrmActionEmail2.MailReplyTo"
+f1_keywords:
+- fsrm/IFsrmActionEmail2.MailReplyTo
 dev_langs:
- - c++
+- c++
 req.header: fsrm.h
 req.include-header: FsrmQuota.h, FsrmScreen.h
 req.target-type: Windows
@@ -32,19 +30,19 @@ req.lib:
 req.dll: SrmSvc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - SrmSvc.dll
+- SrmSvc.dll
 api_name:
- - IFsrmActionEmail2.MailReplyTo
- - IFsrmActionEmail2.get_MailReplyTo
- - IFsrmActionEmail2.put_MailReplyTo
- - IFsrmActionEmail.MailReplyTo
- - IFsrmActionEmail.get_MailReplyTo
- - IFsrmActionEmail.put_MailReplyTo
+- IFsrmActionEmail2.MailReplyTo
+- IFsrmActionEmail2.get_MailReplyTo
+- IFsrmActionEmail2.put_MailReplyTo
+- IFsrmActionEmail.MailReplyTo
+- IFsrmActionEmail.get_MailReplyTo
+- IFsrmActionEmail.put_MailReplyTo
 targetos: Windows
 req.typenames: 
 req.redist: 

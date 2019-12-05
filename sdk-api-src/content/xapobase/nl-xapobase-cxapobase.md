@@ -1,19 +1,17 @@
 ---
 UID: NL:xapobase.CXAPOBase
 title: CXAPOBase (xapobase.h)
-
 description: Default implementation of the IXAPO interface.
 old-location: xaudio2\cxapobase.htm
 tech.root: xaudio2
 ms.assetid: T:Microsoft.directx_sdk.cxapobase.CXAPOBase
-
 ms.date: 12/05/2018
 ms.keywords: CXAPOBase, CXAPOBase class [XAudio2 Audio Mixing APIs], CXAPOBase class [XAudio2 Audio Mixing APIs],described, xapobase/CXAPOBase, xaudio2.cxapobase
 ms.topic: class
-f1_keywords: 
- - "xapobase/CXAPOBase"
+f1_keywords:
+- xapobase/CXAPOBase
 dev_langs:
- - c++
+- c++
 req.header: xapobase.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: XAPOBase.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - XAPOBase.lib
- - XAPOBase.dll
+- XAPOBase.lib
+- XAPOBase.dll
 api_name:
- - CXAPOBase
+- CXAPOBase
 targetos: Windows
 req.typenames: 
 req.redist: 

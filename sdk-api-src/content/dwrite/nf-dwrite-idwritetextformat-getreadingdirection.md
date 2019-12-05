@@ -1,19 +1,17 @@
 ---
 UID: NF:dwrite.IDWriteTextFormat.GetReadingDirection
 title: IDWriteTextFormat::GetReadingDirection (dwrite.h)
-
 description: Gets the current reading direction for text in a paragraph.
 old-location: directwrite\IDWriteTextFormat_GetReadingDirection.htm
 tech.root: DirectWrite
 ms.assetid: b89cfbab-5063-4c1b-92a8-d8ba067f7148
-
 ms.date: 12/05/2018
 ms.keywords: GetReadingDirection, GetReadingDirection method [Direct Write], GetReadingDirection method [Direct Write],IDWriteTextFormat interface, IDWriteTextFormat interface [Direct Write],GetReadingDirection method, IDWriteTextFormat.GetReadingDirection, IDWriteTextFormat::GetReadingDirection, directwrite.IDWriteTextFormat_GetReadingDirection, dwrite/IDWriteTextFormat::GetReadingDirection
 ms.topic: method
-f1_keywords: 
- - "dwrite/IDWriteTextFormat.GetReadingDirection"
+f1_keywords:
+- dwrite/IDWriteTextFormat.GetReadingDirection
 dev_langs:
- - c++
+- c++
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dwrite.lib
 req.dll: Dwrite.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dwrite.dll
+- dwrite.dll
 api_name:
- - IDWriteTextFormat.GetReadingDirection
+- IDWriteTextFormat.GetReadingDirection
 targetos: Windows
 req.typenames: 
 req.redist: 

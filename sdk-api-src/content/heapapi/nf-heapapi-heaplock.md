@@ -1,19 +1,17 @@
 ---
 UID: NF:heapapi.HeapLock
 title: HeapLock function (heapapi.h)
-
 description: Attempts to acquire the critical section object, or lock, that is associated with a specified heap.
 old-location: base\heaplock.htm
 tech.root: Memory
 ms.assetid: bc01b82d-ef10-40d7-af82-e599ba825944
-
 ms.date: 12/05/2018
 ms.keywords: HeapLock, HeapLock function, _win32_heaplock, base.heaplock, heapapi/HeapLock, winbase/HeapLock
 ms.topic: function
-f1_keywords: 
- - "heapapi/HeapLock"
+f1_keywords:
+- heapapi/HeapLock
 dev_langs:
- - c++
+- c++
 req.header: heapapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,19 +30,19 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-heap-l1-1-0.dll
- - KernelBase.dll
- - API-MS-Win-Core-heap-l1-2-0.dll
- - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
- - MinKernelBase.dll
+- Kernel32.dll
+- API-MS-Win-Core-heap-l1-1-0.dll
+- KernelBase.dll
+- API-MS-Win-Core-heap-l1-2-0.dll
+- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+- MinKernelBase.dll
 api_name:
- - HeapLock
+- HeapLock
 targetos: Windows
 req.typenames: 
 req.redist: 

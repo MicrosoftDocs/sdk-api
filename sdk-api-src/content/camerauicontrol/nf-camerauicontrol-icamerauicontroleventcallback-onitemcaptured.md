@@ -1,19 +1,17 @@
 ---
 UID: NF:camerauicontrol.ICameraUIControlEventCallback.OnItemCaptured
 title: ICameraUIControlEventCallback::OnItemCaptured (camerauicontrol.h)
-
 description: Occurs when an item is captured.
 old-location: winprog\icamerauicontroleventcallback_onitemcaptured.htm
 tech.root: DevNotes
 ms.assetid: 4f202b68-48e2-4ae7-ade6-2180c05eec4a
-
 ms.date: 12/05/2018
 ms.keywords: ICameraUIControlEventCallback interface [Windows API],OnItemCaptured method, ICameraUIControlEventCallback.OnItemCaptured, ICameraUIControlEventCallback::OnItemCaptured, OnItemCaptured, OnItemCaptured method [Windows API], OnItemCaptured method [Windows API],ICameraUIControlEventCallback interface, camerauicontrol/ICameraUIControlEventCallback::OnItemCaptured, winprog.icamerauicontroleventcallback_onitemcaptured
 ms.topic: method
-f1_keywords: 
- - "camerauicontrol/ICameraUIControlEventCallback.OnItemCaptured"
+f1_keywords:
+- camerauicontrol/ICameraUIControlEventCallback.OnItemCaptured
 dev_langs:
- - c++
+- c++
 req.header: camerauicontrol.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - camerauicontrol.h
+- camerauicontrol.h
 api_name:
- - ICameraUIControlEventCallback.OnItemCaptured
+- ICameraUIControlEventCallback.OnItemCaptured
 targetos: Windows
 req.typenames: 
 req.redist: 

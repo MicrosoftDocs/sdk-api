@@ -1,19 +1,17 @@
 ---
 UID: NF:msinkaut.IInkRecognizerContext.IsStringSupported
 title: IInkRecognizerContext::IsStringSupported (msinkaut.h)
-
 description: Indicates whether the system dictionary, user dictionary, or word list contain a specified string.
 old-location: tablet\inkrecognizercontext_isstringsupported.htm
 tech.root: tablet
 ms.assetid: 5344044a-0973-4ab2-bf5c-74e0d07d4e76
-
 ms.date: 12/05/2018
 ms.keywords: 5344044a-0973-4ab2-bf5c-74e0d07d4e76, IInkRecognizerContext interface [Tablet PC],IsStringSupported method, IInkRecognizerContext.IsStringSupported, IInkRecognizerContext::IsStringSupported, IsStringSupported, IsStringSupported method [Tablet PC], IsStringSupported method [Tablet PC],IInkRecognizerContext interface, msinkaut/IInkRecognizerContext::IsStringSupported, tablet.inkrecognizercontext_isstringsupported
 ms.topic: method
-f1_keywords: 
- - "msinkaut/IInkRecognizerContext.IsStringSupported"
+f1_keywords:
+- msinkaut/IInkRecognizerContext.IsStringSupported
 dev_langs:
- - c++
+- c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: InkObj.dll
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - InkObj.dll
- - InkObj.dll.dll
+- InkObj.dll
+- InkObj.dll.dll
 api_name:
- - IInkRecognizerContext.IsStringSupported
+- IInkRecognizerContext.IsStringSupported
 targetos: Windows
 req.typenames: 
 req.redist: 

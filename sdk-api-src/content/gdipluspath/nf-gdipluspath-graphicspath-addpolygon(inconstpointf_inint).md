@@ -3,14 +3,13 @@ UID: NF:gdipluspath.GraphicsPath.AddPolygon(IN const PointF,IN INT)
 title: GraphicsPath::AddPolygon
 description: The GraphicsPath::AddPolygon method adds a polygon to this path.
 ms.assetid: f342c271-baba-4a21-97c0-592114cd996a
-
 ms.date: 05/13/2019
 ms.keywords: GraphicsPath::AddPolygon
 ms.topic: language-reference
-f1_keywords: 
- - "gdipluspath/GraphicsPath::AddPolygon"
+f1_keywords:
+- gdipluspath/GraphicsPath::AddPolygon
 dev_langs:
- - c++
+- c++
 targetos: Windows
 req.assembly: 
 req.construct-type: function
@@ -32,13 +31,13 @@ req.type-library:
 req.umdf-ver: 
 req.unicode-ansi: 
 topic_type:
- - apiref
+- apiref
 api_type:
- - COM
+- COM
 api_location:
- - gdipluspath.h
+- gdipluspath.h
 api_name:
- - GraphicsPath::AddPolygon
+- GraphicsPath::AddPolygon
 ---
 
 # GraphicsPath::AddPolygon

@@ -1,19 +1,17 @@
 ---
 UID: NS:winioctl._STORAGE_OFFLOAD_TOKEN
 title: STORAGE_OFFLOAD_TOKEN
-
 description: The token used to represent a portion of a file used in by offload read and write operations.
 old-location: base\storage_offload_token.htm
 tech.root: devio
 ms.assetid: e33550d6-8d98-4fbb-8e61-d309f0e8e867
-
 ms.date: 12/05/2018
-ms.keywords: "*PSTORAGE_OFFLOAD_TOKEN, PSTORAGE_OFFLOAD_TOKEN, PSTORAGE_OFFLOAD_TOKEN structure pointer, STORAGE_OFFLOAD_TOKEN, STORAGE_OFFLOAD_TOKEN structure, STORAGE_OFFLOAD_TOKEN_TYPE_WELL_KNOWN, base.storage_offload_token, winioctl/PSTORAGE_OFFLOAD_TOKEN, winioctl/STORAGE_OFFLOAD_TOKEN"
+ms.keywords: '*PSTORAGE_OFFLOAD_TOKEN, PSTORAGE_OFFLOAD_TOKEN, PSTORAGE_OFFLOAD_TOKEN structure pointer, STORAGE_OFFLOAD_TOKEN, STORAGE_OFFLOAD_TOKEN structure, STORAGE_OFFLOAD_TOKEN_TYPE_WELL_KNOWN, base.storage_offload_token, winioctl/PSTORAGE_OFFLOAD_TOKEN, winioctl/STORAGE_OFFLOAD_TOKEN'
 ms.topic: struct
-f1_keywords: 
- - "winioctl/STORAGE_OFFLOAD_TOKEN"
+f1_keywords:
+- winioctl/STORAGE_OFFLOAD_TOKEN
 dev_langs:
- - c++
+- c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WinIoCtl.h
+- WinIoCtl.h
 api_name:
- - STORAGE_OFFLOAD_TOKEN
+- STORAGE_OFFLOAD_TOKEN
 targetos: Windows
 req.typenames: STORAGE_OFFLOAD_TOKEN, *PSTORAGE_OFFLOAD_TOKEN
 req.redist: 

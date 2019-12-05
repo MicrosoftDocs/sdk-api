@@ -1,19 +1,17 @@
 ---
 UID: NF:wcmconfig.ISettingsItem.GetAttribute
 title: ISettingsItem::GetAttribute (wcmconfig.h)
-
 description: Gets the value of an attribute by specifying its name.
 old-location: smi\isettingsitem_getattribute.htm
 tech.root: SMI
 ms.assetid: 995184e4-05ff-41f1-9404-872a82bedd49
-
 ms.date: 12/05/2018
 ms.keywords: GetAttribute, GetAttribute method [SMI], GetAttribute method [SMI],ISettingsItem interface, ISettingsItem interface [SMI],GetAttribute method, ISettingsItem.GetAttribute, ISettingsItem::GetAttribute, smi.isettingsitem_getattribute, wcmconfig/ISettingsItem::GetAttribute
 ms.topic: method
-f1_keywords: 
- - "wcmconfig/ISettingsItem.GetAttribute"
+f1_keywords:
+- wcmconfig/ISettingsItem.GetAttribute
 dev_langs:
- - c++
+- c++
 req.header: wcmconfig.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: SMIEngine.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - SMIEngine.dll
+- SMIEngine.dll
 api_name:
- - ISettingsItem.GetAttribute
+- ISettingsItem.GetAttribute
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:msctf.ITfInputProcessorProfiles.GetLanguageList
 title: ITfInputProcessorProfiles::GetLanguageList (msctf.h)
-
 description: ITfInputProcessorProfiles::GetLanguageList method
 old-location: tsf\itfinputprocessorprofiles_getlanguagelist.htm
 tech.root: TSF
 ms.assetid: dffca277-1c2c-4e3d-965f-42e7907ba603
-
 ms.date: 12/05/2018
 ms.keywords: GetLanguageList, GetLanguageList method [Text Services Framework], GetLanguageList method [Text Services Framework],ITfInputProcessorProfiles interface, ITfInputProcessorProfiles interface [Text Services Framework],GetLanguageList method, ITfInputProcessorProfiles.GetLanguageList, ITfInputProcessorProfiles::GetLanguageList, _tsf_itfinputprocessorprofiles_getlanguagelist_ref, msctf/ITfInputProcessorProfiles::GetLanguageList, tsf.itfinputprocessorprofiles_getlanguagelist
 ms.topic: method
-f1_keywords: 
- - "msctf/ITfInputProcessorProfiles.GetLanguageList"
+f1_keywords:
+- msctf/ITfInputProcessorProfiles.GetLanguageList
 dev_langs:
- - c++
+- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msctf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msctf.dll
+- Msctf.dll
 api_name:
- - ITfInputProcessorProfiles.GetLanguageList
+- ITfInputProcessorProfiles.GetLanguageList
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

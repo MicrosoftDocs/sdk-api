@@ -1,19 +1,17 @@
 ---
 UID: NF:wincrypt.CryptGetDefaultProviderA
 title: CryptGetDefaultProviderA function (wincrypt.h)
-
 description: Finds the default cryptographic service provider (CSP) of a specified provider type for the local computer or current user.
 old-location: security\cryptgetdefaultprovider.htm
 tech.root: SecCrypto
 ms.assetid: 5d15641e-1ad7-441d-9423-65fd51de9812
-
 ms.date: 12/05/2018
 ms.keywords: CRYPT_MACHINE_DEFAULT, CRYPT_USER_DEFAULT, CryptGetDefaultProvider, CryptGetDefaultProvider function [Security], CryptGetDefaultProviderA, CryptGetDefaultProviderW, _crypto2_cryptgetdefaultprovider, security.cryptgetdefaultprovider, wincrypt/CryptGetDefaultProvider, wincrypt/CryptGetDefaultProviderA, wincrypt/CryptGetDefaultProviderW
 ms.topic: function
-f1_keywords: 
- - "wincrypt/CryptGetDefaultProvider"
+f1_keywords:
+- wincrypt/CryptGetDefaultProvider
 dev_langs:
- - c++
+- c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Advapi32.dll
- - API-MS-Win-Security-cryptoapi-l1-1-0.dll
- - cryptsp.dll
+- Advapi32.dll
+- API-MS-Win-Security-cryptoapi-l1-1-0.dll
+- cryptsp.dll
 api_name:
- - CryptGetDefaultProvider
- - CryptGetDefaultProviderA
- - CryptGetDefaultProviderW
+- CryptGetDefaultProvider
+- CryptGetDefaultProviderA
+- CryptGetDefaultProviderW
 targetos: Windows
 req.typenames: 
 req.redist: 

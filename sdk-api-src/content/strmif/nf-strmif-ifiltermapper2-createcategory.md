@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IFilterMapper2.CreateCategory
 title: IFilterMapper2::CreateCategory (strmif.h)
-
 description: The CreateCategory method adds a new filter category to the registry.
 old-location: dshow\ifiltermapper2_createcategory.htm
 tech.root: DirectShow
 ms.assetid: 37dc50a0-530c-4b31-b766-9e161b04c6d5
-
 ms.date: 12/05/2018
 ms.keywords: CreateCategory, CreateCategory method [DirectShow], CreateCategory method [DirectShow],IFilterMapper2 interface, IFilterMapper2 interface [DirectShow],CreateCategory method, IFilterMapper2.CreateCategory, IFilterMapper2::CreateCategory, IFilterMapper2CreateCategory, dshow.ifiltermapper2_createcategory, strmif/IFilterMapper2::CreateCategory
 ms.topic: method
-f1_keywords: 
- - "strmif/IFilterMapper2.CreateCategory"
+f1_keywords:
+- strmif/IFilterMapper2.CreateCategory
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IFilterMapper2.CreateCategory
+- IFilterMapper2.CreateCategory
 targetos: Windows
 req.typenames: 
 req.redist: 

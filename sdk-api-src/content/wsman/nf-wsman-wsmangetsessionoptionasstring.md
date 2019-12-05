@@ -1,19 +1,17 @@
 ---
 UID: NF:wsman.WSManGetSessionOptionAsString
 title: WSManGetSessionOptionAsString function (wsman.h)
-
 description: Gets the value of a session option.
 old-location: winrm\wsmangetsessionoptionasstring.htm
 tech.root: winrm
 ms.assetid: 7fb1cec5-059f-4710-868a-d34c6ae2fd2a
-
 ms.date: 12/05/2018
 ms.keywords: WSManGetSessionOptionAsString, WSManGetSessionOptionAsString function [Windows Remote Management], winrm.wsmangetsessionoptionasstring, wsman/WSManGetSessionOptionAsString
 ms.topic: function
-f1_keywords: 
- - "wsman/WSManGetSessionOptionAsString"
+f1_keywords:
+- wsman/WSManGetSessionOptionAsString
 dev_langs:
- - c++
+- c++
 req.header: wsman.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: WsmSvc.lib
 req.dll: WsmSvc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - WsmSvc.dll
+- WsmSvc.dll
 api_name:
- - WSManGetSessionOptionAsString
+- WSManGetSessionOptionAsString
 targetos: Windows
 req.typenames: 
 req.redist: Windows Management Framework on Windows Server 2008 with SP2 and Windows Vista with SP2

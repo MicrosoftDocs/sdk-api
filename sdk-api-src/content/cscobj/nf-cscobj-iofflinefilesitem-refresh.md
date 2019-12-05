@@ -1,19 +1,17 @@
 ---
 UID: NF:cscobj.IOfflineFilesItem.Refresh
 title: IOfflineFilesItem::Refresh (cscobj.h)
-
 description: Refreshes any data cached in the object by rereading from the Offline Files cache.
 old-location: of\iofflinefilesitem_refresh.htm
 tech.root: offlinefiles
 ms.assetid: 7b54d6fa-18b6-4ffb-98ce-4cbc44ed5b77
-
 ms.date: 12/05/2018
 ms.keywords: IOfflineFilesItem interface [Offline Files],Refresh method, IOfflineFilesItem.Refresh, IOfflineFilesItem::Refresh, Refresh, Refresh method [Offline Files], Refresh method [Offline Files],IOfflineFilesItem interface, cscobj/IOfflineFilesItem::Refresh, of.iofflinefilesitem_refresh
 ms.topic: method
-f1_keywords: 
- - "cscobj/IOfflineFilesItem::Refresh"
+f1_keywords:
+- cscobj/IOfflineFilesItem::Refresh
 dev_langs:
- - c++
+- c++
 req.header: cscobj.h
 req.include-header: 
 req.target-type: Windows
@@ -32,13 +30,13 @@ req.lib:
 req.dll: CscSvc.dll; CscObj.dll
 req.irql: 
 topic_type:
- - kbSyntax
+- kbSyntax
 api_type:
- - <TBD>
+- <TBD>
 api_location:
- -
+- 
 api_name:
- - IOfflineFilesItem::Refresh
+- IOfflineFilesItem::Refresh
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:mbnapi.IMbnConnection.Disconnect
 title: IMbnConnection::Disconnect (mbnapi.h)
-
 description: Disconnects a data connection.
 old-location: mbn\imbnconnection_disconnect.htm
 tech.root: mbn
 ms.assetid: bc7f28db-499d-41be-a2cc-b4940a5bccd6
-
 ms.date: 12/05/2018
 ms.keywords: Disconnect, Disconnect method [Microsoft Broadband Networks], Disconnect method [Microsoft Broadband Networks],IMbnConnection interface, IMbnConnection interface [Microsoft Broadband Networks],Disconnect method, IMbnConnection.Disconnect, IMbnConnection::Disconnect, mbn.imbnconnection_disconnect, mbnapi/IMbnConnection::Disconnect
 ms.topic: method
-f1_keywords: 
- - "mbnapi/IMbnConnection.Disconnect"
+f1_keywords:
+- mbnapi/IMbnConnection.Disconnect
 dev_langs:
- - c++
+- c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mbnapi.h
+- mbnapi.h
 api_name:
- - IMbnConnection.Disconnect
+- IMbnConnection.Disconnect
 targetos: Windows
 req.typenames: 
 req.redist: 

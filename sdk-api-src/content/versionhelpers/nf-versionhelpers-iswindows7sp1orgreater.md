@@ -1,19 +1,17 @@
 ---
 UID: NF:versionhelpers.IsWindows7SP1OrGreater
 title: IsWindows7SP1OrGreater function (versionhelpers.h)
-
 description: Indicates if the current OS version matches, or is greater than, the Windows 7 with Service Pack 1 (SP1) version.
 old-location: base\iswindows7sp1orgreater.htm
 tech.root: SysInfo
 ms.assetid: E8AD3423-91EF-4ECE-9EF2-808C68CEA861
-
 ms.date: 12/05/2018
 ms.keywords: IsWindows7SP1OrGreater, IsWindows7SP1OrGreater function, base.iswindows7sp1orgreater, versionhelpers/IsWindows7SP1OrGreater
 ms.topic: function
-f1_keywords: 
- - "versionhelpers/IsWindows7SP1OrGreater"
+f1_keywords:
+- versionhelpers/IsWindows7SP1OrGreater
 dev_langs:
- - c++
+- c++
 req.header: versionhelpers.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Kernel32.lib; Ntdll.lib
 req.dll: Kernel32.dll; Ntdll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - ntdll.dll
+- Kernel32.dll
+- ntdll.dll
 api_name:
- - IsWindows7SP1OrGreater
+- IsWindows7SP1OrGreater
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d12.ID3D12GraphicsCommandList.SetComputeRoot32BitConstants
 title: ID3D12GraphicsCommandList::SetComputeRoot32BitConstants (d3d12.h)
-
 description: Sets a group of constants in the compute root signature.
 old-location: direct3d12\id3d12graphicscommandlist_setcomputeroot32bitconstants.htm
 tech.root: direct3d12
 ms.assetid: A4623522-4748-4999-80EC-E6AC8934136A
-
 ms.date: 12/05/2018
 ms.keywords: ID3D12GraphicsCommandList interface,SetComputeRoot32BitConstants method, ID3D12GraphicsCommandList.SetComputeRoot32BitConstants, ID3D12GraphicsCommandList::SetComputeRoot32BitConstants, SetComputeRoot32BitConstants, SetComputeRoot32BitConstants method, SetComputeRoot32BitConstants method,ID3D12GraphicsCommandList interface, d3d12/ID3D12GraphicsCommandList::SetComputeRoot32BitConstants, direct3d12.id3d12graphicscommandlist_setcomputeroot32bitconstants
 ms.topic: method
-f1_keywords: 
- - "d3d12/ID3D12GraphicsCommandList.SetComputeRoot32BitConstants"
+f1_keywords:
+- d3d12/ID3D12GraphicsCommandList.SetComputeRoot32BitConstants
 dev_langs:
- - c++
+- c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: D3d12.lib
 req.dll: D3d12.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - d3d12.dll
+- d3d12.dll
 api_name:
- - ID3D12GraphicsCommandList.SetComputeRoot32BitConstants
+- ID3D12GraphicsCommandList.SetComputeRoot32BitConstants
 targetos: Windows
 req.typenames: 
 req.redist: 

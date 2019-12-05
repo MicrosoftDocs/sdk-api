@@ -1,19 +1,17 @@
 ---
 UID: NN:tapi3if.ITBasicCallControl
 title: ITBasicCallControl (tapi3if.h)
-
 description: The ITBasicCallControl interface is used by the application to connect, answer, and perform basic telephony operations on a call object.
 old-location: tapi3\itbasiccallcontrol.htm
 tech.root: Tapi
 ms.assetid: a0b4c496-5ee8-4810-8170-8ea505c99f18
-
 ms.date: 12/05/2018
 ms.keywords: ITBasicCallControl, ITBasicCallControl interface [TAPI 2.2], ITBasicCallControl interface [TAPI 2.2],described, _tapi3_itbasiccallcontrol, tapi3.itbasiccallcontrol, tapi3if/ITBasicCallControl
 ms.topic: interface
-f1_keywords: 
- - "tapi3if/ITBasicCallControl"
+f1_keywords:
+- tapi3if/ITBasicCallControl
 dev_langs:
- - c++
+- c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Tapi3.dll
+- Tapi3.dll
 api_name:
- - ITBasicCallControl
+- ITBasicCallControl
 targetos: Windows
 req.typenames: 
 req.redist: 

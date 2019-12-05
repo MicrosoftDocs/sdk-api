@@ -1,19 +1,17 @@
 ---
 UID: NF:segment.IMSVidStreamBufferSourceEvent.RatingsBlocked
 title: IMSVidStreamBufferSourceEvent::RatingsBlocked (segment.h)
-
 description: This topic applies to Windows XP Service Pack 1 or later.
 old-location: mstv\imsvidstreambuffersourceevent_ratingsblocked.htm
 tech.root: mstv
 ms.assetid: 1d5e510e-9629-4249-a704-b7a995d27edf
-
 ms.date: 12/05/2018
 ms.keywords: IMSVidStreamBufferSourceEvent interface [Microsoft TV Technologies],RatingsBlocked method, IMSVidStreamBufferSourceEvent.RatingsBlocked, IMSVidStreamBufferSourceEvent::RatingsBlocked, IMSVidStreamBufferSourceEventRatingsBlocked, RatingsBlocked, RatingsBlocked method [Microsoft TV Technologies], RatingsBlocked method [Microsoft TV Technologies],IMSVidStreamBufferSourceEvent interface, mstv.imsvidstreambuffersourceevent_ratingsblocked, segment/IMSVidStreamBufferSourceEvent::RatingsBlocked
 ms.topic: method
-f1_keywords: 
- - "segment/IMSVidStreamBufferSourceEvent.RatingsBlocked"
+f1_keywords:
+- segment/IMSVidStreamBufferSourceEvent.RatingsBlocked
 dev_langs:
- - c++
+- c++
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - segment.h
+- segment.h
 api_name:
- - IMSVidStreamBufferSourceEvent.RatingsBlocked
+- IMSVidStreamBufferSourceEvent.RatingsBlocked
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:msdrm.DRMGetUsers
 title: DRMGetUsers function (msdrm.h)
-
 description: Retrieves a specific user from an issuance license.
 old-location: rm\drmgetusers.htm
 tech.root: AdRms_Sdk
 ms.assetid: 4c8c8249-2e90-4eea-9a3b-dd7d9970ba98
-
 ms.date: 12/05/2018
 ms.keywords: DRMGetUsers, DRMGetUsers function [Active Directory Rights Management Services SDK 1.0], msdrm/DRMGetUsers, rm.drmgetusers
 ms.topic: function
-f1_keywords: 
- - "msdrm/DRMGetUsers"
+f1_keywords:
+- msdrm/DRMGetUsers
 dev_langs:
- - c++
+- c++
 req.header: msdrm.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Msdrm.lib
 req.dll: Msdrm.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Msdrm.dll
+- Msdrm.dll
 api_name:
- - DRMGetUsers
+- DRMGetUsers
 targetos: Windows
 req.typenames: 
 req.redist: 

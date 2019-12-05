@@ -5,9 +5,9 @@ ms.date: 4/26/2019
 ms.keywords: InternetSetStatusCallbackW
 ms.topic: language-reference
 f1_keywords:
- - InternetSetStatusCallbackW
+- InternetSetStatusCallbackW
 dev_langs:
- - c++
+- c++
 targetos: Windows
 req.assembly: 
 req.construct-type: function
@@ -29,13 +29,13 @@ req.type-library:
 req.umdf-ver: 
 req.unicode-ansi: 
 topic_type:
- - apiref
+- apiref
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Wininet.dll
+- Wininet.dll
 api_name:
- - InternetSetStatusCallbackW
+- InternetSetStatusCallbackW
 ---
 
 ## -description

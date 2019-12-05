@@ -1,19 +1,17 @@
 ---
 UID: NF:memoryapi.MapViewOfFile3
 title: MapViewOfFile3 function (memoryapi.h)
-
 description: Maps a view of a file or a pagefile-backed section into the address space of the specified process.
 old-location: base\mapviewoffile3.htm
 tech.root: Memory
 ms.assetid: 585D7BA1-688F-4F24-8D8D-46A2FC137193
-
 ms.date: 12/05/2018
 ms.keywords: MEM_LARGE_PAGES, MEM_REPLACE_PLACEHOLDER, MEM_RESERVE, MapViewOfFile3, MapViewOfFile3 function, base.mapviewoffile3, memoryapi/MapViewOfFile3
 ms.topic: function
-f1_keywords: 
- - "memoryapi/MapViewOfFile3"
+f1_keywords:
+- memoryapi/MapViewOfFile3
 dev_langs:
- - c++
+- c++
 req.header: memoryapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - onecore.lib
+- Kernel32.dll
+- onecore.lib
 api_name:
- - MapViewOfFile3
+- MapViewOfFile3
 targetos: Windows
 req.typenames: 
 req.redist: 

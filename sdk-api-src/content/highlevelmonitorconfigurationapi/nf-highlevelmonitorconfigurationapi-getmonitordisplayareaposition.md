@@ -1,19 +1,17 @@
 ---
 UID: NF:highlevelmonitorconfigurationapi.GetMonitorDisplayAreaPosition
 title: GetMonitorDisplayAreaPosition function (highlevelmonitorconfigurationapi.h)
-
 description: Retrieves a monitor's minimum, maximum, and current horizontal or vertical position.
 old-location: monitor\getmonitordisplayareaposition.htm
 tech.root: Monitor
 ms.assetid: d6dca744-634e-420f-a025-5be9d136969f
-
 ms.date: 12/05/2018
 ms.keywords: GetMonitorDisplayAreaPosition, GetMonitorDisplayAreaPosition function [Monitor Configuration], highlevelmonitorconfigurationapi/GetMonitorDisplayAreaPosition, monitor.getmonitordisplayareaposition
 ms.topic: function
-f1_keywords: 
- - "highlevelmonitorconfigurationapi/GetMonitorDisplayAreaPosition"
+f1_keywords:
+- highlevelmonitorconfigurationapi/GetMonitorDisplayAreaPosition
 dev_langs:
- - c++
+- c++
 req.header: highlevelmonitorconfigurationapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dxva2.lib
 req.dll: Dxva2.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - dxva2.dll
+- dxva2.dll
 api_name:
- - GetMonitorDisplayAreaPosition
+- GetMonitorDisplayAreaPosition
 targetos: Windows
 req.typenames: 
 req.redist: 

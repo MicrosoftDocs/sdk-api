@@ -1,19 +1,17 @@
 ---
 UID: NS:commoncontrols.tagIMAGELISTSTATS
 title: IMAGELISTSTATS (commoncontrols.h)
-
 description: Contains image list statistics. Used by GetStatistics.
 old-location: controls\IMAGELISTSTATS.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\imagelist\structures\imageliststats.htm
-
 ms.date: 12/05/2018
 ms.keywords: IMAGELISTSTATS, IMAGELISTSTATS structure [Windows Controls], _shell_IMAGELISTSTATS, _shell_IMAGELISTSTATS_cpp, commoncontrols/IMAGELISTSTATS, controls.IMAGELISTSTATS, controls._shell_IMAGELISTSTATS
 ms.topic: struct
-f1_keywords: 
- - "commoncontrols/IMAGELISTSTATS"
+f1_keywords:
+- commoncontrols/IMAGELISTSTATS
 dev_langs:
- - c++
+- c++
 req.header: commoncontrols.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Commoncontrols.h
+- Commoncontrols.h
 api_name:
- - IMAGELISTSTATS
+- IMAGELISTSTATS
 targetos: Windows
 req.typenames: IMAGELISTSTATS
 req.redist: 

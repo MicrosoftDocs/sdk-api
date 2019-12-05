@@ -1,19 +1,17 @@
 ---
 UID: NS:ipsectypes.IPSEC_TUNNEL_ENDPOINT0_
 title: IPSEC_TUNNEL_ENDPOINT0 (ipsectypes.h)
-
 description: Used to store address information for an end point of a tunnel mode SA.
 old-location: fwp\ipsec_tunnel_endpoint0.htm
 tech.root: fwp
 ms.assetid: e536e9b0-1128-4548-9461-3cdeba509873
-
 ms.date: 12/05/2018
 ms.keywords: IPSEC_TUNNEL_ENDPOINT0, IPSEC_TUNNEL_ENDPOINT0 structure [Filtering], fwp.ipsec_tunnel_endpoint0, ipsectypes/IPSEC_TUNNEL_ENDPOINT0
 ms.topic: struct
-f1_keywords: 
- - "ipsectypes/IPSEC_TUNNEL_ENDPOINT0"
+f1_keywords:
+- ipsectypes/IPSEC_TUNNEL_ENDPOINT0
 dev_langs:
- - c++
+- c++
 req.header: ipsectypes.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - ipsectypes.h
+- ipsectypes.h
 api_name:
- - IPSEC_TUNNEL_ENDPOINT0
+- IPSEC_TUNNEL_ENDPOINT0
 targetos: Windows
 req.typenames: IPSEC_TUNNEL_ENDPOINT0
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:imapi.IDiscMaster.ClearFormatContent
 title: IDiscMaster::ClearFormatContent (imapi.h)
-
 description: Clears the contents of an unburned image (the current stash file).
 old-location: imapi\idiscmaster_clearformatcontent.htm
 tech.root: imapi
 ms.assetid: d3c0d850-914b-47ae-b614-a292411e6832
-
 ms.date: 12/05/2018
 ms.keywords: ClearFormatContent, ClearFormatContent method [IMAPI], ClearFormatContent method [IMAPI],IDiscMaster interface, IDiscMaster interface [IMAPI],ClearFormatContent method, IDiscMaster.ClearFormatContent, IDiscMaster::ClearFormatContent, _win32_idiscmaster_clearformatcontent, base.idiscmaster_clearformatcontent, imapi.idiscmaster_clearformatcontent, imapi/IDiscMaster::ClearFormatContent
 ms.topic: method
-f1_keywords: 
- - "imapi/IDiscMaster.ClearFormatContent"
+f1_keywords:
+- imapi/IDiscMaster.ClearFormatContent
 dev_langs:
- - c++
+- c++
 req.header: imapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Actxprxy.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Actxprxy.dll
+- Actxprxy.dll
 api_name:
- - IDiscMaster.ClearFormatContent
+- IDiscMaster.ClearFormatContent
 targetos: Windows
 req.typenames: 
 req.redist: 

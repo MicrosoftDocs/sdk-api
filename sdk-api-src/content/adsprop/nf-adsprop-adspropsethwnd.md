@@ -1,19 +1,17 @@
 ---
 UID: NF:adsprop.ADsPropSetHwnd
 title: ADsPropSetHwnd function (adsprop.h)
-
 description: Used to notify the notification object of the property page window handle.
 old-location: ad\adspropsethwnd.htm
 tech.root: ad
 ms.assetid: 9fc6b86b-e075-4969-842c-3ebddd43db8f
-
 ms.date: 12/05/2018
 ms.keywords: ADsPropSetHwnd, ADsPropSetHwnd function [Active Directory], _glines_adspropsethwnd, ad.adspropsethwnd, adsprop/ADsPropSetHwnd
 ms.topic: function
-f1_keywords: 
- - "adsprop/ADsPropSetHwnd"
+f1_keywords:
+- adsprop/ADsPropSetHwnd
 dev_langs:
- - c++
+- c++
 req.header: adsprop.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dsprop.lib
 req.dll: Dsprop.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Dsprop.dll
+- Dsprop.dll
 api_name:
- - ADsPropSetHwnd
+- ADsPropSetHwnd
 targetos: Windows
 req.typenames: 
 req.redist: 

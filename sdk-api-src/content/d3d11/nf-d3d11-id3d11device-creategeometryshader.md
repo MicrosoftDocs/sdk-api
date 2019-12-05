@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d11.ID3D11Device.CreateGeometryShader
 title: ID3D11Device::CreateGeometryShader (d3d11.h)
-
 description: Create a geometry shader.
 old-location: direct3d11\id3d11device_creategeometryshader.htm
 tech.root: direct3d11
 ms.assetid: fb9357d7-ac63-4515-9118-24a2d775e697
-
 ms.date: 12/05/2018
 ms.keywords: CreateGeometryShader, CreateGeometryShader method [Direct3D 11], CreateGeometryShader method [Direct3D 11],ID3D11Device interface, ID3D11Device interface [Direct3D 11],CreateGeometryShader method, ID3D11Device.CreateGeometryShader, ID3D11Device::CreateGeometryShader, c0fe27f5-e83c-fa7e-faca-a34ea90a0c53, d3d11/ID3D11Device::CreateGeometryShader, direct3d11.id3d11device_creategeometryshader
 ms.topic: method
-f1_keywords: 
- - "d3d11/ID3D11Device.CreateGeometryShader"
+f1_keywords:
+- d3d11/ID3D11Device.CreateGeometryShader
 dev_langs:
- - c++
+- c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: D3D11.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D11.lib
- - D3D11.dll
+- D3D11.lib
+- D3D11.dll
 api_name:
- - ID3D11Device.CreateGeometryShader
+- ID3D11Device.CreateGeometryShader
 targetos: Windows
 req.typenames: 
 req.redist: 

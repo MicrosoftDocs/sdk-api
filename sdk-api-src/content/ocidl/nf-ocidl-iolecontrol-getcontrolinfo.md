@@ -1,19 +1,17 @@
 ---
 UID: NF:ocidl.IOleControl.GetControlInfo
 title: IOleControl::GetControlInfo (ocidl.h)
-
 description: Retrieves information about the control's keyboard mnemonics and behavior.
 old-location: com\iolecontrol_getcontrolinfo.htm
 tech.root: com
 ms.assetid: defb7509-e586-45a0-9e56-de9eba17f18e
-
 ms.date: 12/05/2018
 ms.keywords: GetControlInfo, GetControlInfo method [COM], GetControlInfo method [COM],IOleControl interface, IOleControl interface [COM],GetControlInfo method, IOleControl.GetControlInfo, IOleControl::GetControlInfo, _ctrl_iolecontrol_getcontrolinfo, com.iolecontrol_getcontrolinfo, ocidl/IOleControl::GetControlInfo
 ms.topic: method
-f1_keywords: 
- - "ocidl/IOleControl.GetControlInfo"
+f1_keywords:
+- ocidl/IOleControl.GetControlInfo
 dev_langs:
- - c++
+- c++
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - OCIdl.h
+- OCIdl.h
 api_name:
- - IOleControl.GetControlInfo
+- IOleControl.GetControlInfo
 targetos: Windows
 req.typenames: 
 req.redist: 

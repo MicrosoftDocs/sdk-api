@@ -1,19 +1,17 @@
 ---
 UID: NS:processsnapshot.__unnamed_struct_10
 title: PSS_HANDLE_ENTRY (processsnapshot.h)
-
 description: Holds information about a handle returned by PssWalkSnapshot.
 old-location: proc_snap\pss_handle_entry.htm
 tech.root: proc_snap
 ms.assetid: F56E8C35-949A-4DEE-973F-CF24F6596036
-
 ms.date: 12/05/2018
 ms.keywords: PSS_HANDLE_ENTRY, PSS_HANDLE_ENTRY structure, proc_snap.pss_handle_entry, processsnapshot/PSS_HANDLE_ENTRY
 ms.topic: struct
-f1_keywords: 
- - "processsnapshot/PSS_HANDLE_ENTRY"
+f1_keywords:
+- processsnapshot/PSS_HANDLE_ENTRY
 dev_langs:
- - c++
+- c++
 req.header: processsnapshot.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - processsnapshot.h
+- processsnapshot.h
 api_name:
- - PSS_HANDLE_ENTRY
+- PSS_HANDLE_ENTRY
 targetos: Windows
 req.typenames: PSS_HANDLE_ENTRY
 req.redist: 

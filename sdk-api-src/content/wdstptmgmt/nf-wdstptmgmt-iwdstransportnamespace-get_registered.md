@@ -1,19 +1,17 @@
 ---
 UID: NF:wdstptmgmt.IWdsTransportNamespace.get_Registered
 title: IWdsTransportNamespace::get_Registered (wdstptmgmt.h)
-
 description: Returns a value that indicates whether the namespace is registered on the server.
 old-location: wds\iwdstransportnamespace_registered.htm
 tech.root: wds
 ms.assetid: b3255a79-5c6d-42cc-9ddd-30c8e13dcfd9
-
 ms.date: 12/05/2018
 ms.keywords: IWdsTransportNamespace interface [Windows Deployment Services],Registered property, IWdsTransportNamespace.Registered, IWdsTransportNamespace.get_Registered, IWdsTransportNamespace::Registered, IWdsTransportNamespace::get_Registered, Registered property [Windows Deployment Services], Registered property [Windows Deployment Services],IWdsTransportNamespace interface, get_Registered, wds.iwdstransportnamespace_registered, wdstptmgmt/IWdsTransportNamespace::Registered, wdstptmgmt/IWdsTransportNamespace::get_Registered
 ms.topic: method
-f1_keywords: 
- - "wdstptmgmt/IWdsTransportNamespace.Registered"
+f1_keywords:
+- wdstptmgmt/IWdsTransportNamespace.Registered
 dev_langs:
- - c++
+- c++
 req.header: wdstptmgmt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: Wdstptmgmt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wdstptmgmt.dll
+- Wdstptmgmt.dll
 api_name:
- - IWdsTransportNamespace.Registered
- - IWdsTransportNamespace.get_Registered
+- IWdsTransportNamespace.Registered
+- IWdsTransportNamespace.get_Registered
 targetos: Windows
 req.typenames: 
 req.redist: 

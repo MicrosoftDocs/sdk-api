@@ -1,19 +1,17 @@
 ---
 UID: NF:d2d1helper.RenderTargetProperties
 title: RenderTargetProperties function (d2d1helper.h)
-
 description: Creates a D2D1_RENDER_TARGET_PROPERTIES structure.
 old-location: direct2d\rendertargetproperties.htm
 tech.root: Direct2D
 ms.assetid: d384ff93-220f-4714-a76a-b8b495496d79
-
 ms.date: 12/05/2018
 ms.keywords: RenderTargetProperties, RenderTargetProperties function [Direct2D], d2d1helper/RenderTargetProperties, direct2d.rendertargetproperties
 ms.topic: function
-f1_keywords: 
- - "d2d1helper/RenderTargetProperties"
+f1_keywords:
+- d2d1helper/RenderTargetProperties
 dev_langs:
- - c++
+- c++
 req.header: d2d1helper.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: D2d1.lib
 req.dll: D2d1.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - D2d1.dll
+- D2d1.dll
 api_name:
- - RenderTargetProperties
+- RenderTargetProperties
 targetos: Windows
 req.typenames: 
 req.redist: 

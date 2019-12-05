@@ -1,19 +1,17 @@
 ---
 UID: NF:objidl.ICancelMethodCalls.TestCancel
 title: ICancelMethodCalls::TestCancel (objidl.h)
-
 description: Determines whether a call has been canceled.
 old-location: com\icancelmethodcalls_testcancel.htm
 tech.root: com
 ms.assetid: 31141d97-241e-4717-b707-e37d86c2267d
-
 ms.date: 12/05/2018
 ms.keywords: ICancelMethodCalls interface [COM],TestCancel method, ICancelMethodCalls.TestCancel, ICancelMethodCalls::TestCancel, TestCancel, TestCancel method [COM], TestCancel method [COM],ICancelMethodCalls interface, _com_icancelmethodcalls_testcancel, com.icancelmethodcalls_testcancel, objidlbase/ICancelMethodCalls::TestCancel
 ms.topic: method
-f1_keywords: 
- - "objidl/ICancelMethodCalls.TestCancel"
+f1_keywords:
+- objidl/ICancelMethodCalls.TestCancel
 dev_langs:
- - c++
+- c++
 req.header: objidl.h
 req.include-header: ObjIdl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - objidlbase.h
+- objidlbase.h
 api_name:
- - ICancelMethodCalls.TestCancel
+- ICancelMethodCalls.TestCancel
 targetos: Windows
 req.typenames: 
 req.redist: 

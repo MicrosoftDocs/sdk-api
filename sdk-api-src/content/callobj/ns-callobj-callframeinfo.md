@@ -1,19 +1,17 @@
 ---
 UID: NS:callobj.__MIDL_ICallFrame_0001
 title: CALLFRAMEINFO (callobj.h)
-
 description: Provides information about a call frame such as the method in the call frame, if it has in, out, or in/out parameters, the number of [in], [out], or [in, out] interfaces, the interface ID, the number of methods in the interface and the number of parameters in this method.
 old-location: com\callframeinfo.htm
 tech.root: com
 ms.assetid: 3d490c8b-d254-458b-b355-39c3942ddc5e
-
 ms.date: 12/05/2018
 ms.keywords: CALLFRAMEINFO, CALLFRAMEINFO structure [COM], callobj/CALLFRAMEINFO, com.callframeinfo
 ms.topic: struct
-f1_keywords: 
- - "callobj/CALLFRAMEINFO"
+f1_keywords:
+- callobj/CALLFRAMEINFO
 dev_langs:
- - c++
+- c++
 req.header: callobj.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - callobj.h
+- callobj.h
 api_name:
- - CALLFRAMEINFO
+- CALLFRAMEINFO
 targetos: Windows
 req.typenames: CALLFRAMEINFO
 req.redist: 

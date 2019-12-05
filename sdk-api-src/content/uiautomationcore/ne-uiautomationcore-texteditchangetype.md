@@ -1,19 +1,17 @@
 ---
 UID: NE:uiautomationcore.TextEditChangeType
 title: TextEditChangeType (uiautomationcore.h)
-
 description: Describes the text editing change being performed by controls when text-edit events are raised or handled.
 old-location: winauto\uiauto_TextEditChangeTypeEnum.htm
 tech.root: WinAuto
 ms.assetid: 212FD71E-BB79-F4A5-061E-F77FF7876998
-
 ms.date: 12/05/2018
 ms.keywords: TextEditChangeType, TextEditChangeType enumeration [Windows Accessibility], TextEditChangeType_AutoCorrect, TextEditChangeType_Composition, TextEditChangeType_CompositionFinalized, TextEditChangeType_None, uiautomationcore/TextEditChangeType, uiautomationcore/TextEditChangeType_AutoCorrect, uiautomationcore/TextEditChangeType_Composition, uiautomationcore/TextEditChangeType_CompositionFinalized, uiautomationcore/TextEditChangeType_None, winauto.uiauto_TextEditChangeTypeEnum
 ms.topic: enum
-f1_keywords: 
- - "uiautomationcore/TextEditChangeType"
+f1_keywords:
+- uiautomationcore/TextEditChangeType
 dev_langs:
- - c++
+- c++
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - UIAutomationCore.h
+- UIAutomationCore.h
 api_name:
- - TextEditChangeType
+- TextEditChangeType
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:ehstorapi.IEnhancedStorageACT.GetMatchingVolume
 title: IEnhancedStorageACT::GetMatchingVolume (ehstorapi.h)
-
 description: Returns the volume associated with the Addressable Command Target (ACT).
 old-location: enstor\ienhancedstorageact_getmatchingvolume.htm
 tech.root: enstor
 ms.assetid: aa5e5d33-0fc8-46bc-b1e8-c2bd341f0b4f
-
 ms.date: 12/05/2018
 ms.keywords: GetMatchingVolume, GetMatchingVolume method [Enhanced Storage], GetMatchingVolume method [Enhanced Storage],IEnhancedStorageACT interface, IEnhancedStorageACT interface [Enhanced Storage],GetMatchingVolume method, IEnhancedStorageACT.GetMatchingVolume, IEnhancedStorageACT::GetMatchingVolume, ehstorapi/IEnhancedStorageACT::GetMatchingVolume, enstor.ienhancedstorageact_getmatchingvolume
 ms.topic: method
-f1_keywords: 
- - "ehstorapi/IEnhancedStorageACT.GetMatchingVolume"
+f1_keywords:
+- ehstorapi/IEnhancedStorageACT.GetMatchingVolume
 dev_langs:
- - c++
+- c++
 req.header: ehstorapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - EhStorAPI.h
+- EhStorAPI.h
 api_name:
- - IEnhancedStorageACT.GetMatchingVolume
+- IEnhancedStorageACT.GetMatchingVolume
 targetos: Windows
 req.typenames: 
 req.redist: 

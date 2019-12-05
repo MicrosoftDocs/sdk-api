@@ -1,19 +1,17 @@
 ---
 UID: NF:commctrl.Button_SetTextMargin
 title: Button_SetTextMargin macro (commctrl.h)
-
 description: Sets the margins for drawing text in a button control. You can use this macro or send the BCM_SETTEXTMARGIN message explicitly.
 old-location: controls\Button_SetTextMargin.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\buttons\buttonreference\buttonmacros\button_settextmargin.htm
-
 ms.date: 12/05/2018
 ms.keywords: Button_SetTextMargin, Button_SetTextMargin macro [Windows Controls], _win32_Button_SetTextMargin, _win32_Button_SetTextMargin_cpp, commctrl/Button_SetTextMargin, controls.Button_SetTextMargin, controls._win32_Button_SetTextMargin
 ms.topic: macro
-f1_keywords: 
- - "commctrl/Button_SetTextMargin"
+f1_keywords:
+- commctrl/Button_SetTextMargin
 dev_langs:
- - c++
+- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Commctrl.h
+- Commctrl.h
 api_name:
- - Button_SetTextMargin
+- Button_SetTextMargin
 targetos: Windows
 req.typenames: 
 req.redist: 

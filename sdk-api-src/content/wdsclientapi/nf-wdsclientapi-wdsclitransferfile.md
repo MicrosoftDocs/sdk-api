@@ -1,19 +1,17 @@
 ---
 UID: NF:wdsclientapi.WdsCliTransferFile
 title: WdsCliTransferFile function (wdsclientapi.h)
-
 description: Transfers a file from a WDS server to the WDS client using a multicast transfer protocol.
 old-location: wds\wdsclitransferfile.htm
 tech.root: wds
 ms.assetid: d219b7ee-4cb8-43ce-959b-4793c7df17ff
-
 ms.date: 12/05/2018
 ms.keywords: WDS_CLI_TRANSFER_ASYNCHRONOUS, WdsCliTransferFile, WdsCliTransferFile function [Windows Deployment Services], wds.wdsclitransferfile, wdsclientapi/WdsCliTransferFile
 ms.topic: function
-f1_keywords: 
- - "wdsclientapi/WdsCliTransferFile"
+f1_keywords:
+- wdsclientapi/WdsCliTransferFile
 dev_langs:
- - c++
+- c++
 req.header: wdsclientapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: WdsClientAPI.lib
 req.dll: WdsClientAPI.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - WdsClientAPI.dll
+- WdsClientAPI.dll
 api_name:
- - WdsCliTransferFile
+- WdsCliTransferFile
 targetos: Windows
 req.typenames: 
 req.redist: 

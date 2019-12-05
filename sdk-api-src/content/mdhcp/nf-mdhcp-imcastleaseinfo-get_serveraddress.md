@@ -1,19 +1,17 @@
 ---
 UID: NF:mdhcp.IMcastLeaseInfo.get_ServerAddress
 title: IMcastLeaseInfo::get_ServerAddress (mdhcp.h)
-
 description: The get_ServerAddress method obtains a string representing the address of the multicast server granting this lease.
 old-location: tapi3\imcastleaseinfo_get_serveraddress.htm
 tech.root: Tapi
 ms.assetid: 15f33689-07d5-4bd9-978a-2b5d9088b2ed
-
 ms.date: 12/05/2018
 ms.keywords: IMcastLeaseInfo interface [TAPI 2.2],get_ServerAddress method, IMcastLeaseInfo.get_ServerAddress, IMcastLeaseInfo::get_ServerAddress, _tapi3_imcastleaseinfo_get_serveraddress, get_ServerAddress, get_ServerAddress method [TAPI 2.2], get_ServerAddress method [TAPI 2.2],IMcastLeaseInfo interface, mdhcp/IMcastLeaseInfo::get_ServerAddress, tapi3.imcastleaseinfo_get_serveraddress
 ms.topic: method
-f1_keywords: 
- - "mdhcp/IMcastLeaseInfo.get_ServerAddress"
+f1_keywords:
+- mdhcp/IMcastLeaseInfo.get_ServerAddress
 dev_langs:
- - c++
+- c++
 req.header: mdhcp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Mdhcp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mdhcp.dll
+- Mdhcp.dll
 api_name:
- - IMcastLeaseInfo.get_ServerAddress
+- IMcastLeaseInfo.get_ServerAddress
 targetos: Windows
 req.typenames: 
 req.redist: 

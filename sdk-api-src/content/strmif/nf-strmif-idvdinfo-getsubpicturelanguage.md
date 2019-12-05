@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IDvdInfo.GetSubpictureLanguage
 title: IDvdInfo::GetSubpictureLanguage (strmif.h)
-
 description: Note  The IDvdInfo interface is deprecated. Use IDvdInfo2 instead. Retrieves the language of the specified subpicture stream within the current title.
 old-location: dshow\idvdinfo_getsubpicturelanguage.htm
 tech.root: DirectShow
 ms.assetid: f75ef36d-8556-4ca0-9f7f-6c09b86da24e
-
 ms.date: 12/05/2018
 ms.keywords: GetSubpictureLanguage, GetSubpictureLanguage method [DirectShow], GetSubpictureLanguage method [DirectShow],IDvdInfo interface, IDvdInfo interface [DirectShow],GetSubpictureLanguage method, IDvdInfo.GetSubpictureLanguage, IDvdInfo::GetSubpictureLanguage, IDvdInfoGetSubpictureLanguage, dshow.idvdinfo_getsubpicturelanguage, strmif/IDvdInfo::GetSubpictureLanguage
 ms.topic: method
-f1_keywords: 
- - "strmif/IDvdInfo.GetSubpictureLanguage"
+f1_keywords:
+- strmif/IDvdInfo.GetSubpictureLanguage
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmif.h
+- Strmif.h
 api_name:
- - IDvdInfo.GetSubpictureLanguage
+- IDvdInfo.GetSubpictureLanguage
 targetos: Windows
 req.typenames: 
 req.redist: 

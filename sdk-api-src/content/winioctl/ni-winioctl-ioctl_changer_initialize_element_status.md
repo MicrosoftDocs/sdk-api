@@ -1,19 +1,17 @@
 ---
 UID: NI:winioctl.IOCTL_CHANGER_INITIALIZE_ELEMENT_STATUS
 title: IOCTL_CHANGER_INITIALIZE_ELEMENT_STATUS
-
 description: Initializes the status of all elements or the specified elements of a particular type.
 old-location: base\ioctl_changer_initialize_element_status.htm
 tech.root: devio
 ms.assetid: be054a22-cde4-4efd-bd66-eb67b007fd19
-
 ms.date: 12/05/2018
 ms.keywords: IOCTL_CHANGER_INITIALIZE_ELEMENT_STATUS, IOCTL_CHANGER_INITIALIZE_ELEMENT_STATUS control, IOCTL_CHANGER_INITIALIZE_ELEMENT_STATUS control code, _win32_ioctl_changer_initialize_element_status, base.ioctl_changer_initialize_element_status, winioctl/IOCTL_CHANGER_INITIALIZE_ELEMENT_STATUS
 ms.topic: ioctl
-f1_keywords: 
- - "winioctl/IOCTL_CHANGER_INITIALIZE_ELEMENT_STATUS"
+f1_keywords:
+- winioctl/IOCTL_CHANGER_INITIALIZE_ELEMENT_STATUS
 dev_langs:
- - c++
+- c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WinIoCtl.h
+- WinIoCtl.h
 api_name:
- - IOCTL_CHANGER_INITIALIZE_ELEMENT_STATUS
+- IOCTL_CHANGER_INITIALIZE_ELEMENT_STATUS
 targetos: Windows
 req.typenames: 
 req.redist: 

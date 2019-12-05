@@ -1,19 +1,17 @@
 ---
 UID: NF:winreg.RegEnableReflectionKey
 title: RegEnableReflectionKey function (winreg.h)
-
 description: Restores registry reflection for the specified disabled key. Restoring reflection for a key does not affect reflection of any subkeys.
 old-location: base\regenablereflectionkey.htm
 tech.root: SysInfo
 ms.assetid: 6dfbc3d8-cd71-4ee9-a10b-955c26a6894c
-
 ms.date: 12/05/2018
 ms.keywords: RegEnableReflectionKey, RegEnableReflectionKey function, base.regenablereflectionkey, winreg/RegEnableReflectionKey
 ms.topic: function
-f1_keywords: 
- - "winreg/RegEnableReflectionKey"
+f1_keywords:
+- winreg/RegEnableReflectionKey
 dev_langs:
- - c++
+- c++
 req.header: winreg.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Advapi32.dll
+- Advapi32.dll
 api_name:
- - RegEnableReflectionKey
+- RegEnableReflectionKey
 targetos: Windows
 req.typenames: 
 req.redist: 

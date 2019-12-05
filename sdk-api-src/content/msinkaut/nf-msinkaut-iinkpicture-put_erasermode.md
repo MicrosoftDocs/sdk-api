@@ -1,19 +1,17 @@
 ---
 UID: NF:msinkaut.IInkPicture.put_EraserMode
 title: IInkPicture::put_EraserMode (msinkaut.h)
-
 description: Gets or sets a value that specifies whether ink is erased by stroke or by point.
 old-location: tablet\inkpicture_erasermode.htm
 tech.root: tablet
 ms.assetid: f6471163-8209-4dd0-887c-0edd54ebb50e
-
 ms.date: 12/05/2018
 ms.keywords: EraserMode property [Tablet PC], EraserMode property [Tablet PC],IInkPicture interface, IInkPicture interface [Tablet PC],EraserMode property, IInkPicture.EraserMode, IInkPicture.put_EraserMode, IInkPicture::EraserMode, IInkPicture::get_EraserMode, IInkPicture::put_EraserMode, InkPicture.get_EraserMode, InkPicture.put_EraserMode, f6471163-8209-4dd0-887c-0edd54ebb50e, get_EraserMode, msinkaut/IInkPicture::EraserMode, msinkaut/IInkPicture::get_EraserMode, msinkaut/IInkPicture::put_EraserMode, put_EraserMode, tablet.inkpicture_erasermode
 ms.topic: method
-f1_keywords: 
- - "msinkaut/IInkPicture.EraserMode"
+f1_keywords:
+- msinkaut/IInkPicture.EraserMode
 dev_langs:
- - c++
+- c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows
@@ -32,19 +30,19 @@ req.lib: InkObj.dll
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - InkObj.dll
- - InkObj.dll.dll
+- InkObj.dll
+- InkObj.dll.dll
 api_name:
- - IInkPicture.EraserMode
- - IInkPicture.get_EraserMode
- - IInkPicture.put_EraserMode
- - InkPicture.get_EraserMode
- - InkPicture.put_EraserMode
+- IInkPicture.EraserMode
+- IInkPicture.get_EraserMode
+- IInkPicture.put_EraserMode
+- InkPicture.get_EraserMode
+- InkPicture.put_EraserMode
 targetos: Windows
 req.typenames: 
 req.redist: 

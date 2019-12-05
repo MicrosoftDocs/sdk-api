@@ -1,19 +1,17 @@
 ---
 UID: NF:mfcaptureengine.IMFCaptureEngine.TakePhoto
 title: IMFCaptureEngine::TakePhoto (mfcaptureengine.h)
-
 description: Captures a still image from the video stream.
 old-location: mf\imfcaptureengine_takephoto.htm
 tech.root: medfound
 ms.assetid: 6E633E90-9C8B-44B6-9149-704872143147
-
 ms.date: 12/05/2018
 ms.keywords: IMFCaptureEngine interface [Media Foundation],TakePhoto method, IMFCaptureEngine.TakePhoto, IMFCaptureEngine::TakePhoto, TakePhoto, TakePhoto method [Media Foundation], TakePhoto method [Media Foundation],IMFCaptureEngine interface, mf.imfcaptureengine_takephoto, mfcaptureengine/IMFCaptureEngine::TakePhoto
 ms.topic: method
-f1_keywords: 
- - "mfcaptureengine/IMFCaptureEngine.TakePhoto"
+f1_keywords:
+- mfcaptureengine/IMFCaptureEngine.TakePhoto
 dev_langs:
- - c++
+- c++
 req.header: mfcaptureengine.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfcaptureengine.h
+- mfcaptureengine.h
 api_name:
- - IMFCaptureEngine.TakePhoto
+- IMFCaptureEngine.TakePhoto
 targetos: Windows
 req.typenames: 
 req.redist: 

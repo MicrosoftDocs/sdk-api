@@ -1,19 +1,17 @@
 ---
 UID: NF:faxcom.IFaxDoc.put_EmailAddress
 title: IFaxDoc::put_EmailAddress (faxcom.h)
-
 description: Sets or retrieves the EmailAddress property of a FaxDoc object. The EmailAddress property is a null-terminated string that contains the email address of the sender of the fax transmission.
 old-location: fax\_mfax_ifaxdoc_mfax_ifaxdoc_get_emailaddress_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_7mwj.htm
-
 ms.date: 12/05/2018
 ms.keywords: EmailAddress property [Fax Service], EmailAddress property [Fax Service],IFaxDoc interface, IFaxDoc interface [Fax Service],EmailAddress property, IFaxDoc.EmailAddress, IFaxDoc.put_EmailAddress, IFaxDoc::EmailAddress, IFaxDoc::get_EmailAddress, IFaxDoc::put_EmailAddress, _mfax_ifaxdoc_get_emailaddress, fax._mfax_ifaxdoc_get_emailaddress, fax._mfax_ifaxdoc_mfax_ifaxdoc_get_emailaddress_cpp, faxcom/IFaxDoc::EmailAddress, faxcom/IFaxDoc::get_EmailAddress, faxcom/IFaxDoc::put_EmailAddress, put_EmailAddress
 ms.topic: method
-f1_keywords: 
- - "faxcom/IFaxDoc.EmailAddress"
+f1_keywords:
+- faxcom/IFaxDoc.EmailAddress
 dev_langs:
- - c++
+- c++
 req.header: faxcom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: Faxcom.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Faxcom.dll
+- Faxcom.dll
 api_name:
- - IFaxDoc.EmailAddress
- - IFaxDoc.get_EmailAddress
- - IFaxDoc.put_EmailAddress
+- IFaxDoc.EmailAddress
+- IFaxDoc.get_EmailAddress
+- IFaxDoc.put_EmailAddress
 targetos: Windows
 req.typenames: 
 req.redist: 

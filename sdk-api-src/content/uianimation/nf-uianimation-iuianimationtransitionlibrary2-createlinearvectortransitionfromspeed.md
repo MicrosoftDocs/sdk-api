@@ -1,19 +1,17 @@
 ---
 UID: NF:uianimation.IUIAnimationTransitionLibrary2.CreateLinearVectorTransitionFromSpeed
 title: IUIAnimationTransitionLibrary2::CreateLinearVectorTransitionFromSpeed (uianimation.h)
-
 description: Creates a linear-speed vector transition in the specified dimension.
 old-location: uianimation\iuianimationtransitionlibrary2_createlinearvectortransitionfromspeed.htm
 tech.root: UIAnimation
 ms.assetid: 5CFA1E23-26A7-4139-B533-8BD325E9F1B9
-
 ms.date: 12/05/2018
 ms.keywords: CreateLinearVectorTransitionFromSpeed, CreateLinearVectorTransitionFromSpeed method [Windows Animation], CreateLinearVectorTransitionFromSpeed method [Windows Animation],IUIAnimationTransitionLibrary2 interface, IUIAnimationTransitionLibrary2 interface [Windows Animation],CreateLinearVectorTransitionFromSpeed method, IUIAnimationTransitionLibrary2.CreateLinearVectorTransitionFromSpeed, IUIAnimationTransitionLibrary2::CreateLinearVectorTransitionFromSpeed, uianimation.iuianimationtransitionlibrary2_createlinearvectortransitionfromspeed, uianimation/IUIAnimationTransitionLibrary2::CreateLinearVectorTransitionFromSpeed
 ms.topic: method
-f1_keywords: 
- - "uianimation/IUIAnimationTransitionLibrary2.CreateLinearVectorTransitionFromSpeed"
+f1_keywords:
+- uianimation/IUIAnimationTransitionLibrary2.CreateLinearVectorTransitionFromSpeed
 dev_langs:
- - c++
+- c++
 req.header: uianimation.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: UIAnimation.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAnimation.dll
+- UIAnimation.dll
 api_name:
- - IUIAnimationTransitionLibrary2.CreateLinearVectorTransitionFromSpeed
+- IUIAnimationTransitionLibrary2.CreateLinearVectorTransitionFromSpeed
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:azroles.IAzAuthorizationStore.AddPolicyAdministrator
 title: IAzAuthorizationStore::AddPolicyAdministrator (azroles.h)
-
 description: Adds the specified security identifier (SID) in text form to the list of principals that act as policy administrators.
 old-location: security\azauthorizationstore_addpolicyadministrator.htm
 tech.root: SecAuthZ
 ms.assetid: 8d73bc05-1366-4b47-9eaf-4a247ebf8d93
-
 ms.date: 12/05/2018
 ms.keywords: AddPolicyAdministrator, AddPolicyAdministrator method [Security], AddPolicyAdministrator method [Security],AzAuthorizationStore object, AddPolicyAdministrator method [Security],IAzAuthorizationStore interface, AzAuthorizationStore object [Security],AddPolicyAdministrator method, IAzAuthorizationStore interface [Security],AddPolicyAdministrator method, IAzAuthorizationStore.AddPolicyAdministrator, IAzAuthorizationStore::AddPolicyAdministrator, azroles/IAzAuthorizationStore::AddPolicyAdministrator, security.azauthorizationstore_addpolicyadministrator
 ms.topic: method
-f1_keywords: 
- - "azroles/AzAuthorizationStore.AddPolicyAdministrator"
+f1_keywords:
+- azroles/AzAuthorizationStore.AddPolicyAdministrator
 dev_langs:
- - c++
+- c++
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Azroles.lib
 req.dll: Azroles.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Azroles.dll
+- Azroles.dll
 api_name:
- - AzAuthorizationStore.AddPolicyAdministrator
- - IAzAuthorizationStore.AddPolicyAdministrator
+- AzAuthorizationStore.AddPolicyAdministrator
+- IAzAuthorizationStore.AddPolicyAdministrator
 targetos: Windows
 req.typenames: 
 req.redist: Windows Server 2003 Administration Tools Pack on Windows XP

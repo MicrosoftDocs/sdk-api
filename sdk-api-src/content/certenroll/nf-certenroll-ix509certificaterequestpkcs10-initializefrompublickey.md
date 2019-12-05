@@ -1,19 +1,17 @@
 ---
 UID: NF:certenroll.IX509CertificateRequestPkcs10.InitializeFromPublicKey
 title: IX509CertificateRequestPkcs10::InitializeFromPublicKey (certenroll.h)
-
 description: Initializes a null-signed certificate request by using an IX509PublicKey object and, optionally, a template.
 old-location: security\ix509certificaterequestpkcs10_initializefrompublickey_method.htm
 tech.root: seccertenroll
 ms.assetid: 7b7e00dc-649b-4bcb-a9b6-5745b33ea48b
-
 ms.date: 12/05/2018
 ms.keywords: IX509CertificateRequestPkcs10 interface [Security],InitializeFromPublicKey method, IX509CertificateRequestPkcs10.InitializeFromPublicKey, IX509CertificateRequestPkcs10::InitializeFromPublicKey, InitializeFromPublicKey, InitializeFromPublicKey method [Security], InitializeFromPublicKey method [Security],IX509CertificateRequestPkcs10 interface, certenroll/IX509CertificateRequestPkcs10::InitializeFromPublicKey, security.ix509certificaterequestpkcs10_initializefrompublickey_method
 ms.topic: method
-f1_keywords: 
- - "certenroll/IX509CertificateRequestPkcs10.InitializeFromPublicKey"
+f1_keywords:
+- certenroll/IX509CertificateRequestPkcs10.InitializeFromPublicKey
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: CertEnroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CertEnroll.dll
+- CertEnroll.dll
 api_name:
- - IX509CertificateRequestPkcs10.InitializeFromPublicKey
+- IX509CertificateRequestPkcs10.InitializeFromPublicKey
 targetos: Windows
 req.typenames: 
 req.redist: 

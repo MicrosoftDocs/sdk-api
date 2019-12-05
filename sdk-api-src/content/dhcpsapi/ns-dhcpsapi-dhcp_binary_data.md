@@ -1,19 +1,17 @@
 ---
 UID: NS:dhcpsapi._DHCP_BINARY_DATA
 title: DHCP_BINARY_DATA (dhcpsapi.h)
-
 description: The DHCP_BINARY_DATA structure defines an opaque blob of binary data.
 old-location: dhcp\dhcp_binary_data.htm
 tech.root: DHCP
 ms.assetid: 0afdddb4-12f9-4c0b-937a-2cc311c126b4
-
 ms.date: 12/05/2018
-ms.keywords: "*LPDHCP_BINARY_DATA, DHCP_BINARY_DATA, DHCP_BINARY_DATA structure [DHCP], DHCP_CLIENT_UID, DHCP_CLIENT_UID structure [DHCP], LPDHCP_BINARY_DATA, LPDHCP_BINARY_DATA structure pointer [DHCP], dhcp.dhcp_binary_data, dhcpsapi/DHCP_CLIENT_UID, dhcpsapi/LPDHCP_BINARY_DATA, dhcpsapi/_DHCP_BINARY_DATA"
+ms.keywords: '*LPDHCP_BINARY_DATA, DHCP_BINARY_DATA, DHCP_BINARY_DATA structure [DHCP], DHCP_CLIENT_UID, DHCP_CLIENT_UID structure [DHCP], LPDHCP_BINARY_DATA, LPDHCP_BINARY_DATA structure pointer [DHCP], dhcp.dhcp_binary_data, dhcpsapi/DHCP_CLIENT_UID, dhcpsapi/LPDHCP_BINARY_DATA, dhcpsapi/_DHCP_BINARY_DATA'
 ms.topic: struct
-f1_keywords: 
- - "dhcpsapi/DHCP_BINARY_DATA"
+f1_keywords:
+- dhcpsapi/DHCP_BINARY_DATA
 dev_langs:
- - c++
+- c++
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Dhcpsapi.h
+- Dhcpsapi.h
 api_name:
- - DHCP_BINARY_DATA
+- DHCP_BINARY_DATA
 targetos: Windows
 req.typenames: DHCP_BINARY_DATA, *LPDHCP_BINARY_DATA
 req.redist: 

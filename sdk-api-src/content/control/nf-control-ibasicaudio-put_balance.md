@@ -1,19 +1,17 @@
 ---
 UID: NF:control.IBasicAudio.put_Balance
 title: IBasicAudio::put_Balance (control.h)
-
 description: The put_Balance method sets the balance of the audio signal.
 old-location: dshow\ibasicaudio_put_balance.htm
 tech.root: DirectShow
 ms.assetid: 88cf4639-8f32-424f-a097-272c44592f6f
-
 ms.date: 12/05/2018
 ms.keywords: IBasicAudio interface [DirectShow],put_Balance method, IBasicAudio.put_Balance, IBasicAudio::put_Balance, IBasicAudioput_Balance, control/IBasicAudio::put_Balance, dshow.ibasicaudio_put_balance, put_Balance, put_Balance method [DirectShow], put_Balance method [DirectShow],IBasicAudio interface
 ms.topic: method
-f1_keywords: 
- - "control/IBasicAudio.put_Balance"
+f1_keywords:
+- control/IBasicAudio.put_Balance
 dev_langs:
- - c++
+- c++
 req.header: control.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IBasicAudio.put_Balance
+- IBasicAudio.put_Balance
 targetos: Windows
 req.typenames: 
 req.redist: 

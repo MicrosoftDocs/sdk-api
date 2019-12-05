@@ -1,19 +1,17 @@
 ---
 UID: NF:rtworkq.RtwqUnlockPlatform
 title: RtwqUnlockPlatform function (rtworkq.h)
-
 description: Unlocks the platform after it was locked by a call to the RtwqLockPlatform function.
 old-location: base\rtwqunlockplatform.htm
 tech.root: ProcThread
 ms.assetid: 8f1e00fb-863a-49e6-a0e3-a3491637b47b
-
 ms.date: 12/05/2018
 ms.keywords: RtwqUnlockPlatform, RtwqUnlockPlatform function, base.rtwqunlockplatform, rtworkq/RtwqUnlockPlatform
 ms.topic: function
-f1_keywords: 
- - "rtworkq/RtwqUnlockPlatform"
+f1_keywords:
+- rtworkq/RtwqUnlockPlatform
 dev_langs:
- - c++
+- c++
 req.header: rtworkq.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Rtworkq.lib
 req.dll: RTWorkQ.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - RTWorkQ.dll
+- RTWorkQ.dll
 api_name:
- - RtwqUnlockPlatform
+- RtwqUnlockPlatform
 targetos: Windows
 req.typenames: 
 req.redist: 

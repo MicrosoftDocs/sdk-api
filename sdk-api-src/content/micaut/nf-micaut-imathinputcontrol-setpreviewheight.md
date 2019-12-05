@@ -1,19 +1,17 @@
 ---
 UID: NF:micaut.IMathInputControl.SetPreviewHeight
 title: IMathInputControl::SetPreviewHeight (micaut.h)
-
 description: Modifies the preview-area height in pixels.
 old-location: tablet\imathinputcontrol_setpreviewheight.htm
 tech.root: tablet
 ms.assetid: a5e011f6-cd51-4016-ba15-c47c152bfa99
-
 ms.date: 12/05/2018
 ms.keywords: IMathInputControl interface [Tablet PC],SetPreviewHeight method, IMathInputControl.SetPreviewHeight, IMathInputControl::SetPreviewHeight, SetPreviewHeight, SetPreviewHeight method [Tablet PC], SetPreviewHeight method [Tablet PC],IMathInputControl interface, micaut/IMathInputControl::SetPreviewHeight, tablet.imathinputcontrol_setpreviewheight
 ms.topic: method
-f1_keywords: 
- - "micaut/IMathInputControl.SetPreviewHeight"
+f1_keywords:
+- micaut/IMathInputControl.SetPreviewHeight
 dev_langs:
- - c++
+- c++
 req.header: micaut.h
 req.include-header: Micaut.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - micaut.h
+- micaut.h
 api_name:
- - IMathInputControl.SetPreviewHeight
+- IMathInputControl.SetPreviewHeight
 targetos: Windows
 req.typenames: 
 req.redist: 

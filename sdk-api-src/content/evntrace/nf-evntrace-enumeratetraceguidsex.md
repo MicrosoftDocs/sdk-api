@@ -1,19 +1,17 @@
 ---
 UID: NF:evntrace.EnumerateTraceGuidsEx
 title: EnumerateTraceGuidsEx function (evntrace.h)
-
 description: Use this function to retrieve information about trace providers that are registered on the computer.
 old-location: etw\enumeratetraceguidsex.htm
 tech.root: ETW
 ms.assetid: 9d70fe21-1750-4d60-a825-2004f7d666c7
-
 ms.date: 12/05/2018
 ms.keywords: EnumerateTraceGuidsEx, EnumerateTraceGuidsEx function [ETW], base.enumeratetraceguidsex, etw.enumeratetraceguidsex, evntrace/EnumerateTraceGuidsEx
 ms.topic: function
-f1_keywords: 
- - "evntrace/EnumerateTraceGuidsEx"
+f1_keywords:
+- evntrace/EnumerateTraceGuidsEx
 dev_langs:
- - c++
+- c++
 req.header: evntrace.h
 req.include-header: 
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Advapi32.dll
- - API-MS-Win-DownLevel-AdvApi32-l2-1-1.dll
- - sechost.dll
- - API-MS-Win-eventing-controller-l1-1-0.dll
- - kernelbase.dll
+- Advapi32.dll
+- API-MS-Win-DownLevel-AdvApi32-l2-1-1.dll
+- sechost.dll
+- API-MS-Win-eventing-controller-l1-1-0.dll
+- kernelbase.dll
 api_name:
- - EnumerateTraceGuidsEx
+- EnumerateTraceGuidsEx
 targetos: Windows
 req.typenames: 
 req.redist: 

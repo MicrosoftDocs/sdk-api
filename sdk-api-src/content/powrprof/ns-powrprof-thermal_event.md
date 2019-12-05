@@ -1,19 +1,17 @@
 ---
 UID: NS:powrprof._THERMAL_EVENT
 title: THERMAL_EVENT (powrprof.h)
-
 description: Contains a thermal event.
 old-location: base\thermal_event.htm
 tech.root: power
 ms.assetid: 80B6A494-AED6-4EF0-8B69-4AA5DA6BCBB3
-
 ms.date: 12/05/2018
-ms.keywords: "*PTHERMAL_EVENT, PTHERMAL_EVENT, PTHERMAL_EVENT structure pointer, THERMAL_EVENT, THERMAL_EVENT structure, base.thermal_event, powrprof/PTHERMAL_EVENT, powrprof/THERMAL_EVENT"
+ms.keywords: '*PTHERMAL_EVENT, PTHERMAL_EVENT, PTHERMAL_EVENT structure pointer, THERMAL_EVENT, THERMAL_EVENT structure, base.thermal_event, powrprof/PTHERMAL_EVENT, powrprof/THERMAL_EVENT'
 ms.topic: struct
-f1_keywords: 
- - "powrprof/THERMAL_EVENT"
+f1_keywords:
+- powrprof/THERMAL_EVENT
 dev_langs:
- - c++
+- c++
 req.header: powrprof.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - PowrProf.h
+- PowrProf.h
 api_name:
- - THERMAL_EVENT
+- THERMAL_EVENT
 targetos: Windows
 req.typenames: THERMAL_EVENT, *PTHERMAL_EVENT
 req.redist: 

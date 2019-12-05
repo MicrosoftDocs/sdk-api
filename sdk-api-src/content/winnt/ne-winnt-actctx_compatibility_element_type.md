@@ -1,19 +1,17 @@
 ---
 UID: NE:winnt.__unnamed_enum_9
 title: ACTCTX_COMPATIBILITY_ELEMENT_TYPE (winnt.h)
-
 description: The ACTCTX_COMPATIBILITY_ELEMENT_TYPE enumeration describes the compatibility element in the application manifest.
 old-location: setup\actctx_compatibility_element_type.htm
 tech.root: SbsCs
 ms.assetid: 3a3c99e5-9a73-4688-8192-baee0078c17c
-
 ms.date: 12/05/2018
 ms.keywords: ACTCTX_COMPATIBILITY_ELEMENT_TYPE, ACTCTX_COMPATIBILITY_ELEMENT_TYPE enumeration [Side-by-side Assemblies], ACTCX_COMPATIBILITY_ELEMENT_TYPE_OS, ACTCX_COMPATIBILITY_ELEMENT_TYPE_UNKNOWN, setup.actctx_compatibility_element_type, winnt/ACTCTX_COMPATIBILITY_ELEMENT_TYPE, winnt/ACTCX_COMPATIBILITY_ELEMENT_TYPE_OS, winnt/ACTCX_COMPATIBILITY_ELEMENT_TYPE_UNKNOWN
 ms.topic: enum
-f1_keywords: 
- - "winnt/ACTCTX_COMPATIBILITY_ELEMENT_TYPE"
+f1_keywords:
+- winnt/ACTCTX_COMPATIBILITY_ELEMENT_TYPE
 dev_langs:
- - c++
+- c++
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Winnt.h
+- Winnt.h
 api_name:
- - ACTCTX_COMPATIBILITY_ELEMENT_TYPE
+- ACTCTX_COMPATIBILITY_ELEMENT_TYPE
 targetos: Windows
 req.typenames: ACTCTX_COMPATIBILITY_ELEMENT_TYPE
 req.redist: 

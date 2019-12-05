@@ -1,19 +1,17 @@
 ---
 UID: NF:shlwapi.SHFormatDateTimeW
 title: SHFormatDateTimeW function (shlwapi.h)
-
 description: SHFormatDateTime may be altered or unavailable.
 old-location: shell\SHFormatDateTime.htm
 tech.root: shell
 ms.assetid: 2208ed29-6029-4051-bdcc-885c42fe5c1b
-
 ms.date: 12/05/2018
 ms.keywords: FDTF_DEFAULT, FDTF_LONGDATE, FDTF_LONGTIME, FDTF_LTRDATE, FDTF_NOAUTOREADINGORDER, FDTF_RELATIVE, FDTF_RTLDATE, FDTF_SHORTDATE, FDTF_SHORTTIME, SHFormatDateTime, SHFormatDateTime function [Windows Shell], SHFormatDateTimeA, SHFormatDateTimeW, _win32_SHFormatDateTime, shell.SHFormatDateTime, shlwapi/SHFormatDateTime, shlwapi/SHFormatDateTimeA, shlwapi/SHFormatDateTimeW
 ms.topic: function
-f1_keywords: 
- - "shlwapi/SHFormatDateTime"
+f1_keywords:
+- shlwapi/SHFormatDateTime
 dev_langs:
- - c++
+- c++
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib: Shlwapi.lib
 req.dll: Shlwapi.dll (version 5.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Shlwapi.dll
- - API-MS-Win-shlwapi-Winrt-storage-l1-1-0.dll
- - api-ms-win-shlwapi-winrt-storage-l1-1-1.dll
+- Shlwapi.dll
+- API-MS-Win-shlwapi-Winrt-storage-l1-1-0.dll
+- api-ms-win-shlwapi-winrt-storage-l1-1-1.dll
 api_name:
- - SHFormatDateTime
- - SHFormatDateTimeA
- - SHFormatDateTimeW
+- SHFormatDateTime
+- SHFormatDateTimeA
+- SHFormatDateTimeW
 targetos: Windows
 req.typenames: 
 req.redist: 

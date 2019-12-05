@@ -1,19 +1,17 @@
 ---
 UID: NF:shlobj_core.PathIsExe
 title: PathIsExe function (shlobj_core.h)
-
 description: PathIsExe may be altered or unavailable.
 old-location: shell\PathIsExe.htm
 tech.root: shell
 ms.assetid: 54e9dae7-f9c4-48b8-9b91-32ed21365fb7
-
 ms.date: 12/05/2018
 ms.keywords: PathIsExe, PathIsExe function [Windows Shell], _win32_PathIsExe, shell.PathIsExe, shlobj_core/PathIsExe
 ms.topic: function
-f1_keywords: 
- - "shlobj_core/PathIsExe"
+f1_keywords:
+- shlobj_core/PathIsExe
 dev_langs:
- - c++
+- c++
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
 req.target-type: Windows
@@ -32,19 +30,19 @@ req.lib: Shell32.lib
 req.dll: Shell32.dll (version 5.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Shell32.dll
- - API-MS-Win-shell-shellfolders-l1-1-0.dll
- - KernelBase.dll
- - Ext-MS-Win-Shell32-Shellfolders-L1-1-0.dll
- - Ext-MS-Win-Shell32-Shellfolders-L1-1-1.dll
- - Windows.Storage.dll
+- Shell32.dll
+- API-MS-Win-shell-shellfolders-l1-1-0.dll
+- KernelBase.dll
+- Ext-MS-Win-Shell32-Shellfolders-L1-1-0.dll
+- Ext-MS-Win-Shell32-Shellfolders-L1-1-1.dll
+- Windows.Storage.dll
 api_name:
- - PathIsExe
+- PathIsExe
 targetos: Windows
 req.typenames: 
 req.redist: 

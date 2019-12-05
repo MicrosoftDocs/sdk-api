@@ -1,19 +1,17 @@
 ---
 UID: NF:dhcpsapi.DhcpSetServerBindingInfo
 title: DhcpSetServerBindingInfo function (dhcpsapi.h)
-
 description: The DhcpSetServerBindingInfo function sets endpoint bindings for the DHCP server.
 old-location: dhcp\dhcpsetserverbindinginfo.htm
 tech.root: DHCP
 ms.assetid: 6291e266-e9d5-4899-8b34-53695f49a1b8
-
 ms.date: 12/05/2018
 ms.keywords: DHCP_ENDPOINT_FLAG_CANT_MODIFY, DhcpSetServerBindingInfo, DhcpSetServerBindingInfo function [DHCP], dhcp.dhcpsetserverbindinginfo, dhcpsapi/DhcpSetServerBindingInfo
 ms.topic: function
 f1_keywords:
 - dhcpsapi/DhcpSetServerBindingInfo
 dev_langs:
- - c++
+- c++
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows

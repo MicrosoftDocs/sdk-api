@@ -1,19 +1,17 @@
 ---
 UID: NF:dinputd.IDirectInputJoyConfig.OpenConfigKey
 title: IDirectInputJoyConfig::OpenConfigKey (dinputd.h)
-
 description: The IDirectInputJoyConfig8::OpenConfigKey method opens IDirectInputJoyConfigthe registry key associated with a joystick configuration.
 old-location: hid\idirectinputjoyconfig8_openconfigkey.htm
 tech.root: hid
 ms.assetid: f3e902e1-bc5d-419e-b728-2f9199dacb94
-
 ms.date: 12/05/2018
 ms.keywords: IDirectInputJoyConfig interface [Human Input Devices],OpenConfigKey method, IDirectInputJoyConfig.OpenConfigKey, IDirectInputJoyConfig::OpenConfigKey, OpenConfigKey, OpenConfigKey (IDirectInputJoyConfig8), OpenConfigKey method [Human Input Devices], OpenConfigKey method [Human Input Devices],IDirectInputJoyConfig interface, di_ref_d0c78a58-7e2c-46bb-a974-4996a2e488a3.xml, dinputd/IDirectInputJoyConfig::OpenConfigKey, hid.idirectinputjoyconfig8_openconfigkey
 ms.topic: method
-f1_keywords: 
- - "dinputd/IDirectInputJoyConfig.OpenConfigKey"
+f1_keywords:
+- dinputd/IDirectInputJoyConfig.OpenConfigKey
 dev_langs:
- - c++
+- c++
 req.header: dinputd.h
 req.include-header: Dinputd.h
 req.target-type: Desktop
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dinputd.h
+- Dinputd.h
 api_name:
- - IDirectInputJoyConfig.OpenConfigKey
+- IDirectInputJoyConfig.OpenConfigKey
 targetos: Windows
 req.typenames: 
 req.redist: 

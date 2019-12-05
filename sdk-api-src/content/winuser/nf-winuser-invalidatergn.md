@@ -1,19 +1,17 @@
 ---
 UID: NF:winuser.InvalidateRgn
 title: InvalidateRgn function (winuser.h)
-
 description: The InvalidateRgn function invalidates the client area within the specified region by adding it to the current update region of a window.
 old-location: gdi\invalidatergn.htm
 tech.root: gdi
 ms.assetid: b5b44efe-8045-4e54-89f9-1766689a053d
-
 ms.date: 12/05/2018
 ms.keywords: InvalidateRgn, InvalidateRgn function [Windows GDI], _win32_InvalidateRgn, gdi.invalidatergn, winuser/InvalidateRgn
 ms.topic: function
-f1_keywords: 
- - "winuser/InvalidateRgn"
+f1_keywords:
+- winuser/InvalidateRgn
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - user32.dll
- - Ext-MS-Win-NTUser-Draw-l1-1-0.dll
- - Ext-MS-Win-NTUser-Draw-l1-1-1.dll
- - ext-ms-win-ntuser-draw-l1-1-2.dll
+- user32.dll
+- Ext-MS-Win-NTUser-Draw-l1-1-0.dll
+- Ext-MS-Win-NTUser-Draw-l1-1-1.dll
+- ext-ms-win-ntuser-draw-l1-1-2.dll
 api_name:
- - InvalidateRgn
+- InvalidateRgn
 targetos: Windows
 req.typenames: 
 req.redist: 

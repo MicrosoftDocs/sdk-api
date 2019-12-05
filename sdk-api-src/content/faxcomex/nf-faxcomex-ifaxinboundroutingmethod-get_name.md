@@ -1,19 +1,17 @@
 ---
 UID: NF:faxcomex.IFaxInboundRoutingMethod.get_Name
 title: IFaxInboundRoutingMethod::get_Name (faxcomex.h)
-
 description: The IFaxInboundRoutingMethod::get_Name property is a null-terminated string that contains the user-friendly name associated with the inbound fax routing method. The string is suitable for display to users.
 old-location: fax\_mfax_faxinboundroutingmethod_cpp_mfax_faxinboundroutingmethod_name_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_392d.htm
-
 ms.date: 12/05/2018
 ms.keywords: IFaxInboundRoutingMethod interface [Fax Service],Name property, IFaxInboundRoutingMethod.Name, IFaxInboundRoutingMethod.get_Name, IFaxInboundRoutingMethod::Name, IFaxInboundRoutingMethod::get_Name, Name property [Fax Service], Name property [Fax Service],IFaxInboundRoutingMethod interface, _mfax_faxinboundroutingmethod.name, fax._mfax_faxinboundroutingmethod_cpp_mfax_faxinboundroutingmethod_name_cpp, fax._mfax_faxinboundroutingmethod_name, faxcomex/IFaxInboundRoutingMethod::Name, faxcomex/IFaxInboundRoutingMethod::get_Name, get_Name
 ms.topic: method
-f1_keywords: 
- - "faxcomex/IFaxInboundRoutingMethod.Name"
+f1_keywords:
+- faxcomex/IFaxInboundRoutingMethod.Name
 dev_langs:
- - c++
+- c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: Fxscomex.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Fxscomex.dll
+- Fxscomex.dll
 api_name:
- - IFaxInboundRoutingMethod.Name
- - IFaxInboundRoutingMethod.get_Name
- - IFaxInboundRoutingMethod.get_Name
+- IFaxInboundRoutingMethod.Name
+- IFaxInboundRoutingMethod.get_Name
+- IFaxInboundRoutingMethod.get_Name
 targetos: Windows
 req.typenames: 
 req.redist: 

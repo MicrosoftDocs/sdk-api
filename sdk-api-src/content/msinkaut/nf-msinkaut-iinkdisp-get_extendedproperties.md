@@ -1,19 +1,17 @@
 ---
 UID: NF:msinkaut.IInkDisp.get_ExtendedProperties
 title: IInkDisp::get_ExtendedProperties (msinkaut.h)
-
 description: Gets the collection of application-defined data that are stored in an object.
 old-location: tablet\inkdisp_extendedproperties.htm
 tech.root: tablet
 ms.assetid: 0272c1e9-d910-4a9a-9dee-9d875437ca99
-
 ms.date: 12/05/2018
 ms.keywords: ExtendedProperties property [Tablet PC], ExtendedProperties property [Tablet PC],IInkDisp interface, IInkDisp interface [Tablet PC],ExtendedProperties property, IInkDisp.ExtendedProperties, IInkDisp.get_ExtendedProperties, IInkDisp::ExtendedProperties, IInkDisp::get_ExtendedProperties, InkDisp.get_ExtendedProperties, get_ExtendedProperties, msinkaut/IInkDisp::ExtendedProperties, msinkaut/IInkDisp::get_ExtendedProperties, tablet.inkdisp_extendedproperties
 ms.topic: method
-f1_keywords: 
- - "msinkaut/IInkDisp.ExtendedProperties"
+f1_keywords:
+- msinkaut/IInkDisp.ExtendedProperties
 dev_langs:
- - c++
+- c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: InkObj.dll
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - InkObj.dll
- - InkObj.dll.dll
+- InkObj.dll
+- InkObj.dll.dll
 api_name:
- - IInkDisp.ExtendedProperties
- - IInkDisp.get_ExtendedProperties
- - InkDisp.get_ExtendedProperties
+- IInkDisp.ExtendedProperties
+- IInkDisp.get_ExtendedProperties
+- InkDisp.get_ExtendedProperties
 targetos: Windows
 req.typenames: 
 req.redist: 

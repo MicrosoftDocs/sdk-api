@@ -1,19 +1,17 @@
 ---
 UID: NN:winsatcominterfacei.IProvideWinSATVisuals
 title: IProvideWinSATVisuals (winsatcominterfacei.h)
-
 description: Retrieves elements that can be used in a user interface to graphically represent the WinSAT assessment.
 old-location: winsat\iprovidewinsatvisuals.htm
 tech.root: WinSAT
 ms.assetid: 9e8d2490-9d48-4512-b5f0-5c2f9cdeb287
-
 ms.date: 12/05/2018
 ms.keywords: IProvideWinSATVisuals, IProvideWinSATVisuals interface [WinSAT], IProvideWinSATVisuals interface [WinSAT],described, winsat.iprovidewinsatvisuals, winsatcominterfacei/IProvideWinSATVisuals
 ms.topic: interface
-f1_keywords: 
- - "winsatcominterfacei/IProvideWinSATVisuals"
+f1_keywords:
+- winsatcominterfacei/IProvideWinSATVisuals
 dev_langs:
- - c++
+- c++
 req.header: winsatcominterfacei.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Winsatapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Winsatapi.dll
+- Winsatapi.dll
 api_name:
- - IProvideWinSATVisuals
+- IProvideWinSATVisuals
 targetos: Windows
 req.typenames: 
 req.redist: 

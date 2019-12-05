@@ -1,19 +1,17 @@
 ---
 UID: NF:mfreadwrite.IMFReadWriteClassFactory.CreateInstanceFromObject
 title: IMFReadWriteClassFactory::CreateInstanceFromObject (mfreadwrite.h)
-
 description: Creates an instance of the sink writer or source reader, given an IUnknown pointer.
 old-location: mf\imfreadwriteclassfactory_createinstancefromobject.htm
 tech.root: medfound
 ms.assetid: 5da582c2-37f9-47ee-b8ea-d21f1323f1df
-
 ms.date: 12/05/2018
 ms.keywords: CLSID_MFSinkWriter, CLSID_MFSourceReader, CreateInstanceFromObject, CreateInstanceFromObject method [Media Foundation], CreateInstanceFromObject method [Media Foundation],IMFReadWriteClassFactory interface, IMFByteStream, IMFMediaSink, IMFMediaSource, IMFReadWriteClassFactory interface [Media Foundation],CreateInstanceFromObject method, IMFReadWriteClassFactory.CreateInstanceFromObject, IMFReadWriteClassFactory::CreateInstanceFromObject, mf.imfreadwriteclassfactory_createinstancefromobject, mfreadwrite/IMFReadWriteClassFactory::CreateInstanceFromObject
 ms.topic: method
-f1_keywords: 
- - "mfreadwrite/IMFReadWriteClassFactory.CreateInstanceFromObject"
+f1_keywords:
+- mfreadwrite/IMFReadWriteClassFactory.CreateInstanceFromObject
 dev_langs:
- - c++
+- c++
 req.header: mfreadwrite.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfreadwrite.h
+- mfreadwrite.h
 api_name:
- - IMFReadWriteClassFactory.CreateInstanceFromObject
+- IMFReadWriteClassFactory.CreateInstanceFromObject
 targetos: Windows
 req.typenames: 
 req.redist: 

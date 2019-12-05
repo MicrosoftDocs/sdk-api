@@ -1,19 +1,17 @@
 ---
 UID: NF:vds.IVdsController.GetSubSystem
 title: IVdsController::GetSubSystem (vds.h)
-
 description: Returns the subsystem to which the controller belongs.
 old-location: base\ivdscontroller_getsubsystem.htm
 tech.root: VDS
 ms.assetid: 8635d594-b58a-4ee1-9966-1340d954da81
-
 ms.date: 12/05/2018
 ms.keywords: GetSubSystem, GetSubSystem method [VDS], GetSubSystem method [VDS],IVdsController interface, IVdsController interface [VDS],GetSubSystem method, IVdsController.GetSubSystem, IVdsController::GetSubSystem, base.ivdscontroller_getsubsystem, vds/IVdsController::GetSubSystem, vdshwprv/IVdsController::GetSubSystem
 ms.topic: method
-f1_keywords: 
- - "vds/IVdsController.GetSubSystem"
+f1_keywords:
+- vds/IVdsController.GetSubSystem
 dev_langs:
- - c++
+- c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Uuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Uuid.lib
- - Uuid.dll
+- Uuid.lib
+- Uuid.dll
 api_name:
- - IVdsController.GetSubSystem
+- IVdsController.GetSubSystem
 targetos: Windows
 req.typenames: 
 req.redist: 

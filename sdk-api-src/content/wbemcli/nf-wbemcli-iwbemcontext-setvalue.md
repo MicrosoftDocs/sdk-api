@@ -1,19 +1,17 @@
 ---
 UID: NF:wbemcli.IWbemContext.SetValue
 title: IWbemContext::SetValue (wbemcli.h)
-
 description: The IWbemContext::SetValue method creates or overwrites a named context value.
 old-location: wmi\iwbemcontext_setvalue.htm
 tech.root: WmiSdk
 ms.assetid: 074d5ac7-aa86-44d8-99f9-959ef99a8004
-
 ms.date: 12/05/2018
 ms.keywords: IWbemContext interface [Windows Management Instrumentation],SetValue method, IWbemContext.SetValue, IWbemContext::SetValue, SetValue, SetValue method [Windows Management Instrumentation], SetValue method [Windows Management Instrumentation],IWbemContext interface, _hmm_iwbemcontext_setvalue, wbemcli/IWbemContext::SetValue, wmi.iwbemcontext_setvalue
 ms.topic: method
-f1_keywords: 
- - "wbemcli/IWbemContext.SetValue"
+f1_keywords:
+- wbemcli/IWbemContext.SetValue
 dev_langs:
- - c++
+- c++
 req.header: wbemcli.h
 req.include-header: Wbemidl.h
 req.target-type: Windows
@@ -32,21 +30,21 @@ req.lib: Wbemuuid.lib
 req.dll: Esscli.dll; Fastprox.dll; FrameDyn.dll; FrameDynOS.dll; Wbemcomn.dll; Wbemcore.dll; Wbemess.dll; Wmipjobj.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Esscli.dll
- - Fastprox.dll
- - FrameDyn.dll
- - FrameDynOS.dll
- - Wbemcomn.dll
- - Wbemcore.dll
- - Wbemess.dll
- - Wmipjobj.dll
+- Esscli.dll
+- Fastprox.dll
+- FrameDyn.dll
+- FrameDynOS.dll
+- Wbemcomn.dll
+- Wbemcore.dll
+- Wbemess.dll
+- Wmipjobj.dll
 api_name:
- - IWbemContext.SetValue
+- IWbemContext.SetValue
 targetos: Windows
 req.typenames: 
 req.redist: 

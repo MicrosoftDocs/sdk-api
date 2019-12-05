@@ -1,19 +1,17 @@
 ---
 UID: NF:winnls.EnumLanguageGroupLocalesW
 title: EnumLanguageGroupLocalesW function (winnls.h)
-
 description: Enumerates the locales in a specified language group.
 old-location: intl\enumlanguagegrouplocales.htm
 tech.root: Intl
 ms.assetid: 5a85c6bd-0362-46ff-80be-a198b1259482
-
 ms.date: 12/05/2018
 ms.keywords: EnumLanguageGroupLocales, EnumLanguageGroupLocales function [Internationalization for Windows Applications], EnumLanguageGroupLocalesA, EnumLanguageGroupLocalesW, _win32_EnumLanguageGroupLocales, intl.enumlanguagegrouplocales, winnls/EnumLanguageGroupLocales, winnls/EnumLanguageGroupLocalesA, winnls/EnumLanguageGroupLocalesW
 ms.topic: function
-f1_keywords: 
- - "winnls/EnumLanguageGroupLocales"
+f1_keywords:
+- winnls/EnumLanguageGroupLocales
 dev_langs:
- - c++
+- c++
 req.header: winnls.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,24 +30,24 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-Localization-Obsolete-l1-1-0.dll
- - KernelBase.dll
- - API-MS-Win-Core-Localization-Obsolete-l1-2-0.dll
- - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
- - MinKernelBase.dll
- - API-MS-Win-Core-Localization-Obsolete-L1-3-0.dll
- - API-MS-Win-Core-Localization-Ansi-L1-1-0.dll
- - Kernel32Legacy.dll
+- Kernel32.dll
+- API-MS-Win-Core-Localization-Obsolete-l1-1-0.dll
+- KernelBase.dll
+- API-MS-Win-Core-Localization-Obsolete-l1-2-0.dll
+- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+- MinKernelBase.dll
+- API-MS-Win-Core-Localization-Obsolete-L1-3-0.dll
+- API-MS-Win-Core-Localization-Ansi-L1-1-0.dll
+- Kernel32Legacy.dll
 api_name:
- - EnumLanguageGroupLocales
- - EnumLanguageGroupLocalesA
- - EnumLanguageGroupLocalesW
+- EnumLanguageGroupLocales
+- EnumLanguageGroupLocalesA
+- EnumLanguageGroupLocalesW
 targetos: Windows
 req.typenames: 
 req.redist: 

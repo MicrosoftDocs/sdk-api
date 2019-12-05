@@ -1,19 +1,17 @@
 ---
 UID: NF:qnetwork.IAMExtendedSeeking.put_PlaybackSpeed
 title: IAMExtendedSeeking::put_PlaybackSpeed (qnetwork.h)
-
 description: The put_PlaybackSpeed method specifies the playback speed.
 old-location: dshow\iamextendedseeking_put_playbackspeed.htm
 tech.root: DirectShow
 ms.assetid: c4f958eb-b573-44e4-94e1-5ac422dd1a99
-
 ms.date: 12/05/2018
 ms.keywords: IAMExtendedSeeking interface [DirectShow],put_PlaybackSpeed method, IAMExtendedSeeking.put_PlaybackSpeed, IAMExtendedSeeking::put_PlaybackSpeed, IAMExtendedSeekingput_PlaybackSpeed, dshow.iamextendedseeking_put_playbackspeed, put_PlaybackSpeed, put_PlaybackSpeed method [DirectShow], put_PlaybackSpeed method [DirectShow],IAMExtendedSeeking interface, qnetwork/IAMExtendedSeeking::put_PlaybackSpeed
 ms.topic: method
-f1_keywords: 
- - "qnetwork/IAMExtendedSeeking.put_PlaybackSpeed"
+f1_keywords:
+- qnetwork/IAMExtendedSeeking.put_PlaybackSpeed
 dev_langs:
- - c++
+- c++
 req.header: qnetwork.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Qnetwork.h
+- Qnetwork.h
 api_name:
- - IAMExtendedSeeking.put_PlaybackSpeed
+- IAMExtendedSeeking.put_PlaybackSpeed
 targetos: Windows
 req.typenames: 
 req.redist: 

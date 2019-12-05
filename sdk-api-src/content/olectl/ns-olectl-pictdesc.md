@@ -1,19 +1,17 @@
 ---
 UID: NS:olectl.tagPICTDESC
 title: PICTDESC (olectl.h)
-
 description: Contains parameters to create a picture object through the OleCreatePictureIndirect function.
 old-location: com\pictdesc.htm
 tech.root: com
 ms.assetid: eb1f1de7-dcfe-4c1c-8737-f5ab4d7977d6
-
 ms.date: 12/05/2018
-ms.keywords: "*LPPICTDESC, LPPICTDESC, LPPICTDESC structure pointer [COM], PICTDESC, PICTDESC structure [COM], _ctrl_PICTDESC, com.pictdesc, olectl/LPPICTDESC, olectl/PICTDESC"
+ms.keywords: '*LPPICTDESC, LPPICTDESC, LPPICTDESC structure pointer [COM], PICTDESC, PICTDESC structure [COM], _ctrl_PICTDESC, com.pictdesc, olectl/LPPICTDESC, olectl/PICTDESC'
 ms.topic: struct
-f1_keywords: 
- - "olectl/PICTDESC"
+f1_keywords:
+- olectl/PICTDESC
 dev_langs:
- - c++
+- c++
 req.header: olectl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Olectl.h
+- Olectl.h
 api_name:
- - PICTDESC
+- PICTDESC
 targetos: Windows
 req.typenames: PICTDESC, *LPPICTDESC
 req.redist: 

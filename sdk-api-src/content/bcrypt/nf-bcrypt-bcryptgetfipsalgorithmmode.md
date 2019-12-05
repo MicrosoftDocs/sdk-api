@@ -1,19 +1,17 @@
 ---
 UID: NF:bcrypt.BCryptGetFipsAlgorithmMode
 title: BCryptGetFipsAlgorithmMode function (bcrypt.h)
-
 description: Determines whether Federal Information Processing Standard (FIPS) compliance is enabled.
 old-location: security\bcryptgetfipsalgorithmmode.htm
 tech.root: SecCNG
 ms.assetid: eb7b758d-3466-49fe-8729-a8a059fadcde
-
 ms.date: 12/05/2018
 ms.keywords: BCryptGetFipsAlgorithmMode, BCryptGetFipsAlgorithmMode function [Security], bcrypt/BCryptGetFipsAlgorithmMode, security.bcryptgetfipsalgorithmmode
 ms.topic: function
-f1_keywords: 
- - "bcrypt/BCryptGetFipsAlgorithmMode"
+f1_keywords:
+- bcrypt/BCryptGetFipsAlgorithmMode
 dev_langs:
- - c++
+- c++
 req.header: bcrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Bcrypt.lib
 req.dll: Bcrypt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Bcrypt.dll
+- Bcrypt.dll
 api_name:
- - BCryptGetFipsAlgorithmMode
+- BCryptGetFipsAlgorithmMode
 targetos: Windows
 req.typenames: 
 req.redist: 

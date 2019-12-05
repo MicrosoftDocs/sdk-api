@@ -1,19 +1,17 @@
 ---
 UID: NF:syncregistration.ISyncProviderConfigUIInfo.GetSyncProviderConfigUI
 title: ISyncProviderConfigUIInfo::GetSyncProviderConfigUI (syncregistration.h)
-
 description: Creates an instance of a synchronization provider configuration UI.
 old-location: winsync\isyncproviderconfiguiinfo_getsyncproviderconfigui.htm
 tech.root: winsync
 ms.assetid: eb9a2f2f-4c9f-405c-90f6-b251ab1a652d
-
 ms.date: 12/05/2018
 ms.keywords: GetSyncProviderConfigUI, GetSyncProviderConfigUI method [Windows Sync], GetSyncProviderConfigUI method [Windows Sync],ISyncProviderConfigUIInfo interface, ISyncProviderConfigUIInfo interface [Windows Sync],GetSyncProviderConfigUI method, ISyncProviderConfigUIInfo.GetSyncProviderConfigUI, ISyncProviderConfigUIInfo::GetSyncProviderConfigUI, syncregistration/ISyncProviderConfigUIInfo::GetSyncProviderConfigUI, winsync.isyncproviderconfiguiinfo_getsyncproviderconfigui
 ms.topic: method
-f1_keywords: 
- - "syncregistration/ISyncProviderConfigUIInfo.GetSyncProviderConfigUI"
+f1_keywords:
+- syncregistration/ISyncProviderConfigUIInfo.GetSyncProviderConfigUI
 dev_langs:
- - c++
+- c++
 req.header: syncregistration.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Syncregistration.h
+- Syncregistration.h
 api_name:
- - ISyncProviderConfigUIInfo.GetSyncProviderConfigUI
+- ISyncProviderConfigUIInfo.GetSyncProviderConfigUI
 targetos: Windows
 req.typenames: 
 req.redist: 

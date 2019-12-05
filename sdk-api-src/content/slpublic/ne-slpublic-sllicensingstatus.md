@@ -1,19 +1,17 @@
 ---
 UID: NE:slpublic._tagSLLICENSINGSTATUS
 title: SLLICENSINGSTATUS (slpublic.h)
-
 description: Represents the licensing status.
 old-location: security\sllicensingstatus.htm
 tech.root: SecSLApi
 ms.assetid: 8af21021-ad18-4045-8a24-0af0d39db919
-
 ms.date: 12/05/2018
 ms.keywords: SLLICENSINGSTATUS, SLLICENSINGSTATUS enumeration [Security], SL_LICENSING_STATUS_IN_GRACE_PERIOD, SL_LICENSING_STATUS_LAST, SL_LICENSING_STATUS_LICENSED, SL_LICENSING_STATUS_NOTIFICATION, SL_LICENSING_STATUS_UNLICENSED, security.sllicensingstatus, slpublic/SLLICENSINGSTATUS, slpublic/SL_LICENSING_STATUS_IN_GRACE_PERIOD, slpublic/SL_LICENSING_STATUS_LAST, slpublic/SL_LICENSING_STATUS_LICENSED, slpublic/SL_LICENSING_STATUS_NOTIFICATION, slpublic/SL_LICENSING_STATUS_UNLICENSED
 ms.topic: enum
-f1_keywords: 
- - "slpublic/SLLICENSINGSTATUS"
+f1_keywords:
+- slpublic/SLLICENSINGSTATUS
 dev_langs:
- - c++
+- c++
 req.header: slpublic.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - slpublic.h
+- slpublic.h
 api_name:
- - SLLICENSINGSTATUS
+- SLLICENSINGSTATUS
 targetos: Windows
 req.typenames: SLLICENSINGSTATUS
 req.redist: 

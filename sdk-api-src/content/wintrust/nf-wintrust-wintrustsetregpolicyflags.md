@@ -1,19 +1,17 @@
 ---
 UID: NF:wintrust.WintrustSetRegPolicyFlags
 title: WintrustSetRegPolicyFlags function (wintrust.h)
-
 description: Sets policy flags for a policy provider.
 old-location: security\wintrustsetregpolicyflags.htm
 tech.root: SecCrypto
 ms.assetid: 8aaeecd0-3814-42a0-9e5b-82b0b220bc9a
-
 ms.date: 12/05/2018
 ms.keywords: WTPF_ALLOWONLYPERTRUST, WTPF_IGNOREEXPIRATION, WTPF_IGNOREREVOCATIONONTS, WTPF_IGNOREREVOKATION, WTPF_OFFLINEOKNBU_COM, WTPF_OFFLINEOKNBU_IND, WTPF_OFFLINEOK_COM, WTPF_OFFLINEOK_IND, WTPF_TESTCANBEVALID, WTPF_TRUSTTEST, WTPF_VERIFY_V1_OFF, WintrustSetRegPolicyFlags, WintrustSetRegPolicyFlags function [Security], security.wintrustsetregpolicyflags, wintrust/WintrustSetRegPolicyFlags
 ms.topic: function
-f1_keywords: 
- - "wintrust/WintrustSetRegPolicyFlags"
+f1_keywords:
+- wintrust/WintrustSetRegPolicyFlags
 dev_langs:
- - c++
+- c++
 req.header: wintrust.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wintrust.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Wintrust.dll
+- Wintrust.dll
 api_name:
- - WintrustSetRegPolicyFlags
+- WintrustSetRegPolicyFlags
 targetos: Windows
 req.typenames: 
 req.redist: 

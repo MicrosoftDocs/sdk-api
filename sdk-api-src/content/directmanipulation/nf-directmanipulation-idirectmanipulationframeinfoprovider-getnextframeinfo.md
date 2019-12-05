@@ -1,19 +1,17 @@
 ---
 UID: NF:directmanipulation.IDirectManipulationFrameInfoProvider.GetNextFrameInfo
 title: IDirectManipulationFrameInfoProvider::GetNextFrameInfo (directmanipulation.h)
-
 description: Retrieves the composition timing information from the compositor.
 old-location: directmanipulation\idirectmanipulationframeinfoprovider_getnextframeinfo.htm
 tech.root: directmanipulation
 ms.assetid: 3f561b81-241f-4f7a-bb5f-a89faf253c98
-
 ms.date: 12/05/2018
 ms.keywords: GetNextFrameInfo, GetNextFrameInfo method [Direct Manipulation], GetNextFrameInfo method [Direct Manipulation],IDirectManipulationFrameInfoProvider interface, IDirectManipulationFrameInfoProvider interface [Direct Manipulation],GetNextFrameInfo method, IDirectManipulationFrameInfoProvider.GetNextFrameInfo, IDirectManipulationFrameInfoProvider::GetNextFrameInfo, directmanipulation.idirectmanipulationframeinfoprovider_getnextframeinfo, directmanipulation/IDirectManipulationFrameInfoProvider::GetNextFrameInfo
 ms.topic: method
-f1_keywords: 
- - "directmanipulation/IDirectManipulationFrameInfoProvider.GetNextFrameInfo"
+f1_keywords:
+- directmanipulation/IDirectManipulationFrameInfoProvider.GetNextFrameInfo
 dev_langs:
- - c++
+- c++
 req.header: directmanipulation.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - DirectManipulation.h
+- DirectManipulation.h
 api_name:
- - IDirectManipulationFrameInfoProvider.GetNextFrameInfo
+- IDirectManipulationFrameInfoProvider.GetNextFrameInfo
 targetos: Windows
 req.typenames: 
 req.redist: 

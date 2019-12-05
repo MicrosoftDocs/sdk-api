@@ -1,19 +1,17 @@
 ---
 UID: NF:winsock2.WSAUnhookBlockingHook
 title: WSAUnhookBlockingHook function (winsock2.h)
-
 description: This function has been removed in compliance with the Windows Sockets 2 specification, revision 2.2.0.
 old-location: winsock\wsaunhookblockinghook_2.htm
 tech.root: WinSock
 ms.assetid: 944c3802-364e-4934-b7ec-6c70d06739ad
-
 ms.date: 12/05/2018
 ms.keywords: WSAUnhookBlockingHook, WSAUnhookBlockingHook function [Winsock], _win32_wsaunhookblockinghook_2, winsock.wsaunhookblockinghook_2, winsock2/WSAUnhookBlockingHook
 ms.topic: function
-f1_keywords: 
- - "winsock2/WSAUnhookBlockingHook"
+f1_keywords:
+- winsock2/WSAUnhookBlockingHook
 dev_langs:
- - c++
+- c++
 req.header: winsock2.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - winsock2.h
+- winsock2.h
 api_name:
- - WSAUnhookBlockingHook
+- WSAUnhookBlockingHook
 targetos: Windows
 req.typenames: 
 req.redist: 

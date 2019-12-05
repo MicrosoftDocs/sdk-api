@@ -1,19 +1,17 @@
 ---
 UID: NF:werapi.WerRegisterFile
 title: WerRegisterFile function (werapi.h)
-
 description: Registers a file to be collected when WER creates an error report.
 old-location: wer\werregisterfile.htm
 tech.root: wer
 ms.assetid: 4b4bb1bb-6782-447a-901f-75702256d907
-
 ms.date: 12/05/2018
 ms.keywords: WER_FILE_ANONYMOUS_DATA, WER_FILE_DELETE_WHEN_DONE, WerRegFileTypeMax, WerRegFileTypeOther, WerRegFileTypeUserDocument, WerRegisterFile, WerRegisterFile function [Windows Error Reporting], base.werregisterfile, wer.werregisterfile, werapi/WerRegisterFile
 ms.topic: function
-f1_keywords: 
- - "werapi/WerRegisterFile"
+f1_keywords:
+- werapi/WerRegisterFile
 dev_langs:
- - c++
+- c++
 req.header: werapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-Windowserrorreporting-l1-1-0.dll
- - KernelBase.dll
+- Kernel32.dll
+- API-MS-Win-Core-Windowserrorreporting-l1-1-0.dll
+- KernelBase.dll
 api_name:
- - WerRegisterFile
+- WerRegisterFile
 targetos: Windows
 req.typenames: 
 req.redist: 

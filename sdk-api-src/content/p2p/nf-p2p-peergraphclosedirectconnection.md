@@ -1,19 +1,17 @@
 ---
 UID: NF:p2p.PeerGraphCloseDirectConnection
 title: PeerGraphCloseDirectConnection function (p2p.h)
-
 description: The PeerGraphCloseDirectConnection function closes a specified direct connection.
 old-location: p2p\peergraphclosedirectconnection.htm
 tech.root: P2PSdk
 ms.assetid: e5547292-7f6f-456c-b47a-5d5948f51a7f
-
 ms.date: 12/05/2018
 ms.keywords: PeerGraphCloseDirectConnection, PeerGraphCloseDirectConnection function [Peer Networking], p2p.peergraphclosedirectconnection, p2p/PeerGraphCloseDirectConnection
 ms.topic: function
-f1_keywords: 
- - "p2p/PeerGraphCloseDirectConnection"
+f1_keywords:
+- p2p/PeerGraphCloseDirectConnection
 dev_langs:
- - c++
+- c++
 req.header: p2p.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: P2PGraph.lib
 req.dll: P2PGraph.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - P2PGraph.dll
+- P2PGraph.dll
 api_name:
- - PeerGraphCloseDirectConnection
+- PeerGraphCloseDirectConnection
 targetos: Windows
 req.typenames: 
 req.redist: 

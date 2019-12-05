@@ -1,19 +1,17 @@
 ---
 UID: NF:comsvcs.IMTSActivity.UnbindFromThread
 title: IMTSActivity::UnbindFromThread (comsvcs.h)
-
 description: Unbinds the batch work that is submitted using IMTSActivity::AsyncCall or IMTSActivity::SynchronousCall from the thread on which it is running.
 old-location: cos\imtsactivity_unbindfromthread.htm
 tech.root: cossdk
 ms.assetid: cb4c4f63-2a6e-4df7-8886-19d45e28d81a
-
 ms.date: 12/05/2018
 ms.keywords: IMTSActivity interface [COM+],UnbindFromThread method, IMTSActivity.UnbindFromThread, IMTSActivity::UnbindFromThread, UnbindFromThread, UnbindFromThread method [COM+], UnbindFromThread method [COM+],IMTSActivity interface, _cos_IMTSActivity_UnbindFromThread, comsvcs/IMTSActivity::UnbindFromThread, cos.imtsactivity_unbindfromthread
 ms.topic: method
-f1_keywords: 
- - "comsvcs/IMTSActivity.UnbindFromThread"
+f1_keywords:
+- comsvcs/IMTSActivity.UnbindFromThread
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - IMTSActivity.UnbindFromThread
+- IMTSActivity.UnbindFromThread
 targetos: Windows
 req.typenames: 
 req.redist: 

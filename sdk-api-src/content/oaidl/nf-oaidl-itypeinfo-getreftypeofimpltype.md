@@ -1,19 +1,17 @@
 ---
 UID: NF:oaidl.ITypeInfo.GetRefTypeOfImplType
 title: ITypeInfo::GetRefTypeOfImplType (oaidl.h)
-
 description: If a type description describes a COM class, it retrieves the type description of the implemented interface types.
 old-location: automat\itypeinfo_getreftypeofimpltype.htm
 tech.root: automat
 ms.assetid: aec61a9a-fa4f-42cd-a74b-100cdf2c2624
-
 ms.date: 12/05/2018
 ms.keywords: GetRefTypeOfImplType, GetRefTypeOfImplType method [Automation], GetRefTypeOfImplType method [Automation],ITypeInfo interface, ITypeInfo interface [Automation],GetRefTypeOfImplType method, ITypeInfo.GetRefTypeOfImplType, ITypeInfo::GetRefTypeOfImplType, _oa96_ITypeInfo_GetRefTypeOfImplType, automat.itypeinfo_getreftypeofimpltype, oaidl/ITypeInfo::GetRefTypeOfImplType
 ms.topic: method
-f1_keywords: 
- - "oaidl/ITypeInfo.GetRefTypeOfImplType"
+f1_keywords:
+- oaidl/ITypeInfo.GetRefTypeOfImplType
 dev_langs:
- - c++
+- c++
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - oaidl.h
+- oaidl.h
 api_name:
- - ITypeInfo.GetRefTypeOfImplType
+- ITypeInfo.GetRefTypeOfImplType
 targetos: Windows
 req.typenames: 
 req.redist: 

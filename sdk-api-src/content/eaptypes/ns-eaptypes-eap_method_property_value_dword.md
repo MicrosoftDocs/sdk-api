@@ -1,19 +1,17 @@
 ---
 UID: NS:eaptypes._EAP_METHOD_PROPERTY_VALUE_DWORD
 title: EAP_METHOD_PROPERTY_VALUE_DWORD (eaptypes.h)
-
 description: Contains the DWORD value of an EAP method property.
 old-location: eaphost\eap_method_property_value_dword.htm
 tech.root: eaphost
 ms.assetid: 79a1ff42-dfd9-4408-b96c-2fbc33c2ca93
-
 ms.date: 12/05/2018
 ms.keywords: EAP_METHOD_PROPERTY_VALUE_DWORD, EAP_METHOD_PROPERTY_VALUE_DWORD structure [EAPHost], PEAP_METHOD_PROPERTY_VALUE_DWORD, PEAP_METHOD_PROPERTY_VALUE_DWORD structure pointer [EAPHost], eaphost.eap_method_property_value_dword, eaptypes/EAP_METHOD_PROPERTY_VALUE_DWORD, eaptypes/PEAP_METHOD_PROPERTY_VALUE_DWORD
 ms.topic: struct
-f1_keywords: 
- - "eaptypes/EAP_METHOD_PROPERTY_VALUE_DWORD"
+f1_keywords:
+- eaptypes/EAP_METHOD_PROPERTY_VALUE_DWORD
 dev_langs:
- - c++
+- c++
 req.header: eaptypes.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - EapTypes.h
+- EapTypes.h
 api_name:
- - EAP_METHOD_PROPERTY_VALUE_DWORD
+- EAP_METHOD_PROPERTY_VALUE_DWORD
 targetos: Windows
 req.typenames: EAP_METHOD_PROPERTY_VALUE_DWORD
 req.redist: 

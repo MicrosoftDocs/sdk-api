@@ -1,19 +1,17 @@
 ---
 UID: NF:wininet.InternetErrorDlg
 title: InternetErrorDlg function (wininet.h)
-
 description: Displays a dialog box for the error that is passed to InternetErrorDlg, if an appropriate dialog box exists.
 old-location: wininet\interneterrordlg.htm
 tech.root: wininet
 ms.assetid: 09384ba9-e5cc-48fd-a52c-15df223f87dc
-
 ms.date: 12/05/2018
 ms.keywords: InternetErrorDlg, InternetErrorDlg function [WinINet], _inet_interneterrordlg_function, wininet.interneterrordlg, wininet/InternetErrorDlg
 ms.topic: function
-f1_keywords: 
- - "wininet/InternetErrorDlg"
+f1_keywords:
+- wininet/InternetErrorDlg
 dev_langs:
- - c++
+- c++
 req.header: wininet.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Wininet.lib
 req.dll: Wininet.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Wininet.dll
+- Wininet.dll
 api_name:
- - InternetErrorDlg
+- InternetErrorDlg
 targetos: Windows
 req.typenames: 
 req.redist: 

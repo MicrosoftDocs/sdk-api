@@ -1,19 +1,17 @@
 ---
 UID: NE:netioapi._MIB_IF_TABLE_LEVEL
 title: MIB_IF_TABLE_LEVEL (netioapi.h)
-
 description: The MIB_IF_TABLE_LEVEL enumeration type defines the level of interface information to retrieve.
 old-location: netvista\mib_if_table_level.htm
 tech.root: NetVista
 ms.assetid: ffbde22e-9851-4acd-b820-b71f2788b4d2
-
 ms.date: 12/05/2018
-ms.keywords: "*PMIB_IF_TABLE_LEVEL, MIB_IF_TABLE_LEVEL, MIB_IF_TABLE_LEVEL enumeration [Network Drivers Starting with Windows Vista], MibIfTableNormal, MibIfTableNormalWithoutStatistics, MibIfTableRaw, PMIB_IF_TABLE_LEVEL, PMIB_IF_TABLE_LEVEL enumeration pointer [Network Drivers Starting with Windows Vista], _MIB_IF_TABLE_LEVEL, _MIB_IF_TABLE_LEVEL enumeration [Network Drivers Starting with Windows Vista], iphelper_5f6cb0fa-b27b-45b6-882c-bb9852020775.xml, netioapi/MibIfTableNormal, netioapi/MibIfTableNormalWithoutStatistics, netioapi/MibIfTableRaw, netioapi/PMIB_IF_TABLE_LEVEL, netioapi/_MIB_IF_TABLE_LEVEL, netvista.mib_if_table_level"
+ms.keywords: '*PMIB_IF_TABLE_LEVEL, MIB_IF_TABLE_LEVEL, MIB_IF_TABLE_LEVEL enumeration [Network Drivers Starting with Windows Vista], MibIfTableNormal, MibIfTableNormalWithoutStatistics, MibIfTableRaw, PMIB_IF_TABLE_LEVEL, PMIB_IF_TABLE_LEVEL enumeration pointer [Network Drivers Starting with Windows Vista], _MIB_IF_TABLE_LEVEL, _MIB_IF_TABLE_LEVEL enumeration [Network Drivers Starting with Windows Vista], iphelper_5f6cb0fa-b27b-45b6-882c-bb9852020775.xml, netioapi/MibIfTableNormal, netioapi/MibIfTableNormalWithoutStatistics, netioapi/MibIfTableRaw, netioapi/PMIB_IF_TABLE_LEVEL, netioapi/_MIB_IF_TABLE_LEVEL, netvista.mib_if_table_level'
 ms.topic: enum
-f1_keywords: 
- - "netioapi/MIB_IF_TABLE_LEVEL"
+f1_keywords:
+- netioapi/MIB_IF_TABLE_LEVEL
 dev_langs:
- - c++
+- c++
 req.header: netioapi.h
 req.include-header: Netioapi.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - netioapi.h
+- netioapi.h
 api_name:
- - MIB_IF_TABLE_LEVEL
+- MIB_IF_TABLE_LEVEL
 targetos: Windows
 req.typenames: MIB_IF_TABLE_LEVEL, *PMIB_IF_TABLE_LEVEL
 req.redist: 

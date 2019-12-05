@@ -1,19 +1,17 @@
 ---
 UID: NN:d3d11_4.ID3D11Device5
 title: ID3D11Device5 (d3d11_4.h)
-
 description: The device interface represents a virtual adapter; it is used to create resources. ID3D11Device5 adds new methods to those in ID3D11Device4.
 old-location: direct3d11\id3d11device5.htm
 tech.root: direct3d11
 ms.assetid: C077BAD4-08D2-4F1F-8313-5066F68F014C
-
 ms.date: 12/05/2018
 ms.keywords: ID3D11Device5, ID3D11Device5 interface [Direct3D 11], ID3D11Device5 interface [Direct3D 11],described, d3d11_4/ID3D11Device5, direct3d11.id3d11device5
 ms.topic: interface
-f1_keywords: 
- - "d3d11_4/ID3D11Device5"
+f1_keywords:
+- d3d11_4/ID3D11Device5
 dev_langs:
- - c++
+- c++
 req.header: d3d11_4.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: D3d11.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - d3d11.lib
- - d3d11.dll
+- d3d11.lib
+- d3d11.dll
 api_name:
- - ID3D11Device5
+- ID3D11Device5
 targetos: Windows
 req.typenames: 
 req.redist: 

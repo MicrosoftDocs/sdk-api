@@ -1,19 +1,17 @@
 ---
 UID: NF:uianimation.IUIAnimationTimer.GetTime
 title: IUIAnimationTimer::GetTime (uianimation.h)
-
 description: Gets the current time.
 old-location: uianimation\iuianimationtimer_gettime.htm
 tech.root: UIAnimation
 ms.assetid: 32654e4b-158b-4d1a-afc7-98f90212b33b
-
 ms.date: 12/05/2018
 ms.keywords: GetTime, GetTime method [Windows Animation], GetTime method [Windows Animation],IUIAnimationTimer interface, IUIAnimationTimer interface [Windows Animation],GetTime method, IUIAnimationTimer.GetTime, IUIAnimationTimer::GetTime, uianimation.iuianimationtimer_gettime, uianimation/IUIAnimationTimer::GetTime
 ms.topic: method
-f1_keywords: 
- - "uianimation/IUIAnimationTimer.GetTime"
+f1_keywords:
+- uianimation/IUIAnimationTimer.GetTime
 dev_langs:
- - c++
+- c++
 req.header: uianimation.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: UIAnimation.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAnimation.dll
+- UIAnimation.dll
 api_name:
- - IUIAnimationTimer.GetTime
+- IUIAnimationTimer.GetTime
 targetos: Windows
 req.typenames: 
 req.redist: 

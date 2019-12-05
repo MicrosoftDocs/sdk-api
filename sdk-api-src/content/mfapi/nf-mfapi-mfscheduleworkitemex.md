@@ -1,19 +1,17 @@
 ---
 UID: NF:mfapi.MFScheduleWorkItemEx
 title: MFScheduleWorkItemEx function (mfapi.h)
-
 description: Schedules an asynchronous operation to be completed after a specified interval.
 old-location: mf\mfscheduleworkitemex.htm
 tech.root: medfound
 ms.assetid: b698cae1-4f3b-4649-b6f7-583f223eb90c
-
 ms.date: 12/05/2018
 ms.keywords: MFScheduleWorkItemEx, MFScheduleWorkItemEx function [Media Foundation], b698cae1-4f3b-4649-b6f7-583f223eb90c, mf.mfscheduleworkitemex, mfapi/MFScheduleWorkItemEx
 ms.topic: function
-f1_keywords: 
- - "mfapi/MFScheduleWorkItemEx"
+f1_keywords:
+- mfapi/MFScheduleWorkItemEx
 dev_langs:
- - c++
+- c++
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Mfplat.lib
 req.dll: Mfplat.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - mfplat.dll
+- mfplat.dll
 api_name:
- - MFScheduleWorkItemEx
+- MFScheduleWorkItemEx
 targetos: Windows
 req.typenames: 
 req.redist: 

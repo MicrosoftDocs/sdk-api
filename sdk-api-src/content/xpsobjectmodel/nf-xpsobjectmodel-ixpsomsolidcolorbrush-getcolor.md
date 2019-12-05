@@ -1,19 +1,17 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMSolidColorBrush.GetColor
 title: IXpsOMSolidColorBrush::GetColor (xpsobjectmodel.h)
-
 description: Gets the color value and color profile of the brush.
 old-location: xps\ixpsomsolidcolorbrush_getcolor.htm
 tech.root: printdocs
 ms.assetid: 07201e3d-af2f-4b85-ac03-2911c33f348b
-
 ms.date: 12/05/2018
 ms.keywords: GetColor, GetColor method [XPS Documents and Packaging], GetColor method [XPS Documents and Packaging],IXpsOMSolidColorBrush interface, IXpsOMSolidColorBrush interface [XPS Documents and Packaging],GetColor method, IXpsOMSolidColorBrush.GetColor, IXpsOMSolidColorBrush::GetColor, xps.ixpsomsolidcolorbrush_getcolor, xpsobjectmodel/IXpsOMSolidColorBrush::GetColor
 ms.topic: method
-f1_keywords: 
- - "xpsobjectmodel/IXpsOMSolidColorBrush.GetColor"
+f1_keywords:
+- xpsobjectmodel/IXpsOMSolidColorBrush.GetColor
 dev_langs:
- - c++
+- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsobjectmodel.h
+- xpsobjectmodel.h
 api_name:
- - IXpsOMSolidColorBrush.GetColor
+- IXpsOMSolidColorBrush.GetColor
 targetos: Windows
 req.typenames: 
 req.redist: 

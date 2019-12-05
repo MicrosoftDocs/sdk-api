@@ -1,19 +1,17 @@
 ---
 UID: NN:tapi3if.ITLegacyAddressMediaControl
 title: ITLegacyAddressMediaControl (tapi3if.h)
-
 description: The ITLegacyAddressMediaControl interface is provided to support legacy applications that require direct access to a device and its configuration. It is exposed by the Address Object and can be created by calling QueryInterface on ITAddress.
 old-location: tapi3\itlegacyaddressmediacontrol.htm
 tech.root: Tapi
 ms.assetid: 5f3d0189-fc9d-4fa5-bc8e-a0abf1f607f8
-
 ms.date: 12/05/2018
 ms.keywords: ITLegacyAddressMediaControl, ITLegacyAddressMediaControl interface [TAPI 2.2], ITLegacyAddressMediaControl interface [TAPI 2.2],described, _tapi3_itlegacyaddressmediacontrol, tapi3.itlegacyaddressmediacontrol, tapi3if/ITLegacyAddressMediaControl
 ms.topic: interface
-f1_keywords: 
- - "tapi3if/ITLegacyAddressMediaControl"
+f1_keywords:
+- tapi3if/ITLegacyAddressMediaControl
 dev_langs:
- - c++
+- c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Tapi3.dll
+- Tapi3.dll
 api_name:
- - ITLegacyAddressMediaControl
+- ITLegacyAddressMediaControl
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationcoreapi.TextRange_Move
 title: TextRange_Move function (uiautomationcoreapi.h)
-
 description: Moves the text range the specified number of units requested by the client.
 old-location: winauto\uiauto_TextRange_MoveConPat.htm
 tech.root: WinAuto
 ms.assetid: 9d63bd12-da79-46b4-ad93-cd940948a0f5
-
 ms.date: 12/05/2018
 ms.keywords: TextRange_Move, TextRange_Move function [Windows Accessibility], uiauto.uiauto_TextRange_MoveConPat, uiauto_TextRange_MoveConPat, uiautomationcoreapi/TextRange_Move, winauto.uiauto_TextRange_MoveConPat
 ms.topic: function
-f1_keywords: 
- - "uiautomationcoreapi/TextRange_Move"
+f1_keywords:
+- uiautomationcoreapi/TextRange_Move
 dev_langs:
- - c++
+- c++
 req.header: uiautomationcoreapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uiautomationcore.lib
 req.dll: Uiautomationcore.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Uiautomationcore.dll
+- Uiautomationcore.dll
 api_name:
- - TextRange_Move
+- TextRange_Move
 targetos: Windows
 req.typenames: 
 req.redist: 

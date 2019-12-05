@@ -1,19 +1,17 @@
 ---
 UID: NS:dwrite_1.DWRITE_CARET_METRICS
 title: DWRITE_CARET_METRICS (dwrite_1.h)
-
 description: The DWRITE_CARET_METRICS structure specifies the metrics for caret placement in a font.
 old-location: directwrite\dwrite_caret_metrics.htm
 tech.root: DirectWrite
 ms.assetid: CC7591F8-0671-436F-B0A7-C5D4C183D253
-
 ms.date: 12/05/2018
 ms.keywords: DWRITE_CARET_METRICS, DWRITE_CARET_METRICS structure [Direct Write], directwrite.dwrite_caret_metrics, dwrite_1/DWRITE_CARET_METRICS
 ms.topic: struct
-f1_keywords: 
- - "dwrite_1/DWRITE_CARET_METRICS"
+f1_keywords:
+- dwrite_1/DWRITE_CARET_METRICS
 dev_langs:
- - c++
+- c++
 req.header: dwrite_1.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Dwrite_1.h
+- Dwrite_1.h
 api_name:
- - DWRITE_CARET_METRICS
+- DWRITE_CARET_METRICS
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:mftransform.IMFTransform.GetInputStreamAttributes
 title: IMFTransform::GetInputStreamAttributes (mftransform.h)
-
 description: Gets the attribute store for an input stream on this Media Foundation transform (MFT).
 old-location: mf\imftransform_getinputstreamattributes.htm
 tech.root: medfound
 ms.assetid: 2698da30-6913-41a9-9d98-f124cf31e591
-
 ms.date: 12/05/2018
 ms.keywords: 2698da30-6913-41a9-9d98-f124cf31e591, GetInputStreamAttributes, GetInputStreamAttributes method [Media Foundation], GetInputStreamAttributes method [Media Foundation],IMFTransform interface, IMFTransform interface [Media Foundation],GetInputStreamAttributes method, IMFTransform.GetInputStreamAttributes, IMFTransform::GetInputStreamAttributes, mf.imftransform_getinputstreamattributes, mftransform/IMFTransform::GetInputStreamAttributes
 ms.topic: method
-f1_keywords: 
- - "mftransform/IMFTransform.GetInputStreamAttributes"
+f1_keywords:
+- mftransform/IMFTransform.GetInputStreamAttributes
 dev_langs:
- - c++
+- c++
 req.header: mftransform.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFTransform.GetInputStreamAttributes
+- IMFTransform.GetInputStreamAttributes
 targetos: Windows
 req.typenames: 
 req.redist: 

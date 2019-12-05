@@ -1,19 +1,17 @@
 ---
 UID: NS:searchapi._SEARCH_ITEM_PERSISTENT_CHANGE
 title: SEARCH_ITEM_PERSISTENT_CHANGE (searchapi.h)
-
 description: Contains information about the kind of change that has occurred in an item to be indexed. This structure is used with the ISearchPersistentItemsChangedSink::OnItemsChanged method to pass information to the indexer about what has changed.
 old-location: search\_search_SEARCH_ITEM_PERSISTENT_CHANGE.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\structures\search_item_persistent_change.htm
-
 ms.date: 12/05/2018
 ms.keywords: SEARCH_ITEM_PERSISTENT_CHANGE, SEARCH_ITEM_PERSISTENT_CHANGE structure [search], _search_SEARCH_ITEM_PERSISTENT_CHANGE, search._search_SEARCH_ITEM_PERSISTENT_CHANGE, searchapi/SEARCH_ITEM_PERSISTENT_CHANGE
 ms.topic: struct
 f1_keywords:
 - searchapi/SEARCH_ITEM_PERSISTENT_CHANGE
 dev_langs:
- - c++
+- c++
 req.header: searchapi.h
 req.include-header: 
 req.target-type: Windows

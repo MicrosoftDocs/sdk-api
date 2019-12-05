@@ -1,19 +1,17 @@
 ---
 UID: NF:immdev.ImmCreateContext
 title: ImmCreateContext function (immdev.h)
-
 description: Creates a new input context, allocating memory for the context and initializing it. An application calls this function to prepare its own input context.
 old-location: intl\immcreatecontext.htm
 tech.root: Intl
 ms.assetid: 2207927a-0edb-4d3a-a1b7-75b94d1616d5
-
 ms.date: 12/05/2018
 ms.keywords: ImmCreateContext, ImmCreateContext function [Internationalization for Windows Applications], _win32_ImmCreateContext, imm/ImmCreateContext, intl.immcreatecontext
 ms.topic: function
-f1_keywords: 
- - "immdev/ImmCreateContext"
+f1_keywords:
+- immdev/ImmCreateContext
 dev_langs:
- - c++
+- c++
 req.header: immdev.h
 req.include-header: Immdev.h, Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Imm32.lib
 req.dll: Imm32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - imm32.dll
+- imm32.dll
 api_name:
- - ImmCreateContext
+- ImmCreateContext
 targetos: Windows
 req.typenames: 
 req.redist: 

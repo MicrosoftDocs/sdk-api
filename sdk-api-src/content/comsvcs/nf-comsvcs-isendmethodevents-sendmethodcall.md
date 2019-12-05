@@ -1,19 +1,17 @@
 ---
 UID: NF:comsvcs.ISendMethodEvents.SendMethodCall
 title: ISendMethodEvents::SendMethodCall (comsvcs.h)
-
 description: Generated when a method is called through a component interface.
 old-location: cos\isendmethodevents_sendmethodcall.htm
 tech.root: cossdk
 ms.assetid: 730466c8-440c-42ee-899f-0d93007fbf8d
-
 ms.date: 12/05/2018
 ms.keywords: ISendMethodEvents interface [COM+],SendMethodCall method, ISendMethodEvents.SendMethodCall, ISendMethodEvents::SendMethodCall, SendMethodCall, SendMethodCall method [COM+], SendMethodCall method [COM+],ISendMethodEvents interface, _cos_ISendMethodEvents_SendMethodCall, comsvcs/ISendMethodEvents::SendMethodCall, cos.isendmethodevents_sendmethodcall
 ms.topic: method
-f1_keywords: 
- - "comsvcs/ISendMethodEvents.SendMethodCall"
+f1_keywords:
+- comsvcs/ISendMethodEvents.SendMethodCall
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - ISendMethodEvents.SendMethodCall
+- ISendMethodEvents.SendMethodCall
 targetos: Windows
 req.typenames: 
 req.redist: 

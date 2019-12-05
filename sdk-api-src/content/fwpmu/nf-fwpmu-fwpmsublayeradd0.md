@@ -1,19 +1,17 @@
 ---
 UID: NF:fwpmu.FwpmSubLayerAdd0
 title: FwpmSubLayerAdd0 function (fwpmu.h)
-
 description: Adds a new sublayer to the system.
 old-location: fwp\fwpmsublayeradd0_func.htm
 tech.root: fwp
 ms.assetid: 85a6f4a9-297f-491d-b2f7-38de21dbe06c
-
 ms.date: 12/05/2018
 ms.keywords: FwpmSubLayerAdd0, FwpmSubLayerAdd0 function [Filtering], fwp.fwpmsublayeradd0_func, fwpmu/FwpmSubLayerAdd0
 ms.topic: function
 f1_keywords:
 - fwpmu/FwpmSubLayerAdd0
 dev_langs:
- - c++
+- c++
 req.header: fwpmu.h
 req.include-header: 
 req.target-type: Windows

@@ -1,19 +1,17 @@
 ---
 UID: NF:dcomp.IDCompositionTurbulenceEffect.SetStitchable
 title: IDCompositionTurbulenceEffect::SetStitchable (dcomp.h)
-
 description: Specifies whether stitching is on or off.
 old-location: directcomp\idcompositionturbulenceeffect_setstitchable.htm
 tech.root: directcomp
 ms.assetid: A73474FD-FECE-4654-8B6C-F44C2DDD7D9C
-
 ms.date: 12/05/2018
 ms.keywords: IDCompositionTurbulenceEffect interface [DirectComposition],SetStitchable method, IDCompositionTurbulenceEffect.SetStitchable, IDCompositionTurbulenceEffect::SetStitchable, SetStitchable, SetStitchable method [DirectComposition], SetStitchable method [DirectComposition],IDCompositionTurbulenceEffect interface, dcomp/IDCompositionTurbulenceEffect::SetStitchable, directcomp.idcompositionturbulenceeffect_setstitchable
 ms.topic: method
-f1_keywords: 
- - "dcomp/IDCompositionTurbulenceEffect.SetStitchable"
+f1_keywords:
+- dcomp/IDCompositionTurbulenceEffect.SetStitchable
 dev_langs:
- - c++
+- c++
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dcomp.lib
 req.dll: Dcomp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dcomp.dll
+- Dcomp.dll
 api_name:
- - IDCompositionTurbulenceEffect.SetStitchable
+- IDCompositionTurbulenceEffect.SetStitchable
 targetos: Windows
 req.typenames: 
 req.redist: 

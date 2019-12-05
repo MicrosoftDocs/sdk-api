@@ -1,19 +1,17 @@
 ---
 UID: NF:tom.ITextFont.SetStyle
 title: ITextFont::SetStyle (tom.h)
-
 description: Sets the character style handle of the characters in a range.
 old-location: controls\ITextFont_SetStyle.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\itextfont\itextfontsetstyle.htm
-
 ms.date: 12/05/2018
 ms.keywords: ITextFont interface [Windows Controls],SetStyle method, ITextFont.SetStyle, ITextFont::SetStyle, SetStyle, SetStyle method [Windows Controls], SetStyle method [Windows Controls],ITextFont interface, _win32_ITextFont_SetStyle, _win32_ITextFont_SetStyle_cpp, controls.ITextFont_SetStyle, controls._win32_ITextFont_SetStyle, tom/ITextFont::SetStyle
 ms.topic: method
-f1_keywords: 
- - "tom/ITextFont.SetStyle"
+f1_keywords:
+- tom/ITextFont.SetStyle
 dev_langs:
- - c++
+- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msftedit.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msftedit.dll
+- Msftedit.dll
 api_name:
- - ITextFont.SetStyle
+- ITextFont.SetStyle
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NN:mbnapi.IMbnInterfaceEvents
 title: IMbnInterfaceEvents (mbnapi.h)
-
 description: This interface is a notification interface used to handle asynchronous IMbnInterface method calls as well as changes in the device state.
 old-location: mbn\imbninterfaceevents.htm
 tech.root: mbn
 ms.assetid: 3c641f14-9f53-4d69-9faa-2491189083df
-
 ms.date: 12/05/2018
 ms.keywords: IMbnInterfaceEvents, IMbnInterfaceEvents interface [Microsoft Broadband Networks], IMbnInterfaceEvents interface [Microsoft Broadband Networks],described, mbn.imbninterfaceevents, mbnapi/IMbnInterfaceEvents
 ms.topic: interface
-f1_keywords: 
- - "mbnapi/IMbnInterfaceEvents"
+f1_keywords:
+- mbnapi/IMbnInterfaceEvents
 dev_langs:
- - c++
+- c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mbnapi.h
+- mbnapi.h
 api_name:
- - IMbnInterfaceEvents
+- IMbnInterfaceEvents
 targetos: Windows
 req.typenames: 
 req.redist: 

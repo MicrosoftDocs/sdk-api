@@ -1,19 +1,17 @@
 ---
 UID: NF:evntrace.StopTraceA
 title: StopTraceA function (evntrace.h)
-
 description: The StopTrace function stops the specified event tracing session. The ControlTrace function supersedes this function.
 old-location: etw\stoptrace.htm
 tech.root: ETW
 ms.assetid: 604274a1-c4ed-4746-b69a-e18969f969db
-
 ms.date: 12/05/2018
 ms.keywords: StopTrace, StopTrace function [ETW], StopTraceA, StopTraceW, _evt_stoptrace, base.stoptrace, etw.stoptrace, evntrace/StopTrace, evntrace/StopTraceA, evntrace/StopTraceW
 ms.topic: function
-f1_keywords: 
- - "evntrace/StopTrace"
+f1_keywords:
+- evntrace/StopTrace
 dev_langs:
- - c++
+- c++
 req.header: evntrace.h
 req.include-header: 
 req.target-type: Windows
@@ -32,22 +30,22 @@ req.lib: Sechost.lib on Windows 8.1 and Windows Server 2012 R2; Advapi32.lib 
 req.dll: Sechost.dll on Windows 8.1 and Windows Server 2012 R2; Advapi32.dll on Windows 8, Windows Server 2012, Windows 7, Windows Server 2008 R2, Windows Server 2008, Windows Vista and Windows XP
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Sechost.dll
- - Advapi32.dll
- - AdvApi32Legacy.dll
- - API-MS-Win-DownLevel-AdvAPI32-l2-1-1.dll
- - API-MS-Win-Eventing-Controller-l1-1-0.dll
- - API-MS-Win-Eventing-Legacy-l1-1-0.dll
- - KernelBase.dll
+- Sechost.dll
+- Advapi32.dll
+- AdvApi32Legacy.dll
+- API-MS-Win-DownLevel-AdvAPI32-l2-1-1.dll
+- API-MS-Win-Eventing-Controller-l1-1-0.dll
+- API-MS-Win-Eventing-Legacy-l1-1-0.dll
+- KernelBase.dll
 api_name:
- - StopTrace
- - StopTraceA
- - StopTraceW
+- StopTrace
+- StopTraceA
+- StopTraceW
 targetos: Windows
 req.typenames: 
 req.redist: 

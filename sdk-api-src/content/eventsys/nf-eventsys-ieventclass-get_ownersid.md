@@ -1,19 +1,17 @@
 ---
 UID: NF:eventsys.IEventClass.get_OwnerSID
 title: IEventClass::get_OwnerSID (eventsys.h)
-
 description: The security ID of the event class object's creator. This property is supported only for backward compatibility.
 old-location: cos\ieventclass_ownersid.htm
 tech.root: cossdk
 ms.assetid: 3e1b91db-ee1f-42cd-a59d-69cec08f1a91
-
 ms.date: 12/05/2018
 ms.keywords: IEventClass interface [COM+],OwnerSID property, IEventClass.OwnerSID, IEventClass.get_OwnerSID, IEventClass::OwnerSID, IEventClass::get_OwnerSID, IEventClass::put_OwnerSID, OwnerSID property [COM+], OwnerSID property [COM+],IEventClass interface, cos.ieventclass_ownersid, eventsys/IEventClass::OwnerSID, eventsys/IEventClass::get_OwnerSID, eventsys/IEventClass::put_OwnerSID, get_OwnerSID
 ms.topic: method
-f1_keywords: 
- - "eventsys/IEventClass.OwnerSID"
+f1_keywords:
+- eventsys/IEventClass.OwnerSID
 dev_langs:
- - c++
+- c++
 req.header: eventsys.h
 req.include-header: Eventsys.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - eventsys.h
+- eventsys.h
 api_name:
- - IEventClass.OwnerSID
- - IEventClass.get_OwnerSID
- - IEventClass.put_OwnerSID
+- IEventClass.OwnerSID
+- IEventClass.get_OwnerSID
+- IEventClass.put_OwnerSID
 targetos: Windows
 req.typenames: 
 req.redist: 

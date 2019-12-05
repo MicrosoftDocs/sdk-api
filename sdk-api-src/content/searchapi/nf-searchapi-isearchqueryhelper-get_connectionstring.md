@@ -1,19 +1,17 @@
 ---
 UID: NF:searchapi.ISearchQueryHelper.get_ConnectionString
 title: ISearchQueryHelper::get_ConnectionString (searchapi.h)
-
 description: Returns the OLE DB connection string for the Window Search index.
 old-location: search\_search_ISearchQueryHelper_get_ConnectionString.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\isearchqueryhelper\get_connectionstring.htm
-
 ms.date: 12/05/2018
 ms.keywords: ISearchQueryHelper interface [search],get_ConnectionString method, ISearchQueryHelper.get_ConnectionString, ISearchQueryHelper::get_ConnectionString, _search_ISearchQueryHelper_get_ConnectionString, get_ConnectionString, get_ConnectionString method [search], get_ConnectionString method [search],ISearchQueryHelper interface, search._search_ISearchQueryHelper_get_ConnectionString, searchapi/ISearchQueryHelper::get_ConnectionString
 ms.topic: method
-f1_keywords: 
- - "searchapi/ISearchQueryHelper.get_ConnectionString"
+f1_keywords:
+- searchapi/ISearchQueryHelper.get_ConnectionString
 dev_langs:
- - c++
+- c++
 req.header: searchapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Searchapi.h
+- Searchapi.h
 api_name:
- - ISearchQueryHelper.get_ConnectionString
+- ISearchQueryHelper.get_ConnectionString
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0

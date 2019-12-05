@@ -1,19 +1,17 @@
 ---
 UID: NF:sbtsv.ITsSbTaskPluginNotifySink.OnUpdateTaskStatus
 title: ITsSbTaskPluginNotifySink::OnUpdateTaskStatus (sbtsv.h)
-
 description: Notifies Remote Desktop Connection Broker (RD Connection Broker) that the status of a task has changed.
 old-location: termserv\itssbtaskpluginnotifysink_onupdatetaskstatus.htm
 tech.root: TermServ
 ms.assetid: 5fc22173-12b2-41a4-a487-8092088ecfe9
-
 ms.date: 12/05/2018
 ms.keywords: ITsSbTaskPluginNotifySink interface [Remote Desktop Services],OnUpdateTaskStatus method, ITsSbTaskPluginNotifySink.OnUpdateTaskStatus, ITsSbTaskPluginNotifySink::OnUpdateTaskStatus, OnUpdateTaskStatus, OnUpdateTaskStatus method [Remote Desktop Services], OnUpdateTaskStatus method [Remote Desktop Services],ITsSbTaskPluginNotifySink interface, sbtsv/ITsSbTaskPluginNotifySink::OnUpdateTaskStatus, termserv.itssbtaskpluginnotifysink_onupdatetaskstatus
 ms.topic: method
-f1_keywords: 
- - "sbtsv/ITsSbTaskPluginNotifySink.OnUpdateTaskStatus"
+f1_keywords:
+- sbtsv/ITsSbTaskPluginNotifySink.OnUpdateTaskStatus
 dev_langs:
- - c++
+- c++
 req.header: sbtsv.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - sbtsv.h
+- sbtsv.h
 api_name:
- - ITsSbTaskPluginNotifySink.OnUpdateTaskStatus
+- ITsSbTaskPluginNotifySink.OnUpdateTaskStatus
 targetos: Windows
 req.typenames: 
 req.redist: 

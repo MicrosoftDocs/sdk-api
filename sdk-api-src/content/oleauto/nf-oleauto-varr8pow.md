@@ -1,19 +1,17 @@
 ---
 UID: NF:oleauto.VarR8Pow
 title: VarR8Pow function (oleauto.h)
-
 description: Performs the power function for variants of type double.
 old-location: automat\varr8pow.htm
 tech.root: automat
 ms.assetid: 45ad59e7-f829-43f0-85f8-9cabb2a36ddf
-
 ms.date: 12/05/2018
 ms.keywords: VarR8Pow, VarR8Pow function [Automation], _oa96_VarR8Pow, automat.varr8pow, oleauto/VarR8Pow
 ms.topic: function
-f1_keywords: 
- - "oleauto/VarR8Pow"
+f1_keywords:
+- oleauto/VarR8Pow
 dev_langs:
- - c++
+- c++
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: OleAut32.lib
 req.dll: OleAut32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - OleAut32.dll
+- OleAut32.dll
 api_name:
- - VarR8Pow
+- VarR8Pow
 targetos: Windows
 req.typenames: 
 req.redist: 

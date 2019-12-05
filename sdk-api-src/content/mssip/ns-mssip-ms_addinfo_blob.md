@@ -1,19 +1,17 @@
 ---
 UID: NS:mssip.MS_ADDINFO_BLOB_
 title: MS_ADDINFO_BLOB (mssip.h)
-
 description: Provides additional information for in-memory BLOB subject types.
 old-location: security\ms_addinfo_blob.htm
 tech.root: SecCrypto
 ms.assetid: 236c8778-0b80-4157-8a81-24712ebf9a77
-
 ms.date: 12/05/2018
-ms.keywords: "*PMS_ADDINFO_BLOB, MS_ADDINFO_BLOB, MS_ADDINFO_BLOB structure [Security], PMS_ADDINFO_BLOB, PMS_ADDINFO_BLOB structure pointer [Security], mssip/MS_ADDINFO_BLOB, mssip/PMS_ADDINFO_BLOB, security.ms_addinfo_blob"
+ms.keywords: '*PMS_ADDINFO_BLOB, MS_ADDINFO_BLOB, MS_ADDINFO_BLOB structure [Security], PMS_ADDINFO_BLOB, PMS_ADDINFO_BLOB structure pointer [Security], mssip/MS_ADDINFO_BLOB, mssip/PMS_ADDINFO_BLOB, security.ms_addinfo_blob'
 ms.topic: struct
-f1_keywords: 
- - "mssip/MS_ADDINFO_BLOB"
+f1_keywords:
+- mssip/MS_ADDINFO_BLOB
 dev_langs:
- - c++
+- c++
 req.header: mssip.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Mssip.h
+- Mssip.h
 api_name:
- - MS_ADDINFO_BLOB
+- MS_ADDINFO_BLOB
 targetos: Windows
 req.typenames: MS_ADDINFO_BLOB, *PMS_ADDINFO_BLOB
 req.redist: 

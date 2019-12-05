@@ -1,19 +1,17 @@
 ---
 UID: NF:webservices.WsFreeListener
 title: WsFreeListener function (webservices.h)
-
 description: Releases the memory resource associated with a Listener object.
 old-location: wsw\wsfreelistener.htm
 tech.root: wsw
 ms.assetid: 3a8a4cd3-d98e-467b-bbed-5cbd66f892ed
-
 ms.date: 12/05/2018
 ms.keywords: WsFreeListener, WsFreeListener function [Web Services for Windows], webservices/WsFreeListener, wsw.wsfreelistener
 ms.topic: function
-f1_keywords: 
- - "webservices/WsFreeListener"
+f1_keywords:
+- webservices/WsFreeListener
 dev_langs:
- - c++
+- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: WebServices.lib
 req.dll: WebServices.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - WebServices.dll
+- WebServices.dll
 api_name:
- - WsFreeListener
+- WsFreeListener
 targetos: Windows
 req.typenames: 
 req.redist: 

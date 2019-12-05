@@ -1,19 +1,17 @@
 ---
 UID: NF:tom.ITextRange2.HexToUnicode
 title: ITextRange2::HexToUnicode (tom.h)
-
 description: Converts and replaces the hexadecimal number at the end of this range to a Unicode character.
 old-location: controls\itextrange2_hextounicode.htm
 tech.root: Controls
 ms.assetid: 024f9f32-2362-4f1c-b8db-9b4fb1ee157c
-
 ms.date: 12/05/2018
 ms.keywords: HexToUnicode, HexToUnicode method [Windows Controls], HexToUnicode method [Windows Controls],ITextRange2 interface, ITextRange2 interface [Windows Controls],HexToUnicode method, ITextRange2.HexToUnicode, ITextRange2::HexToUnicode, controls.itextrange2_hextounicode, tom/ITextRange2::HexToUnicode
 ms.topic: method
-f1_keywords: 
- - "tom/ITextRange2.HexToUnicode"
+f1_keywords:
+- tom/ITextRange2.HexToUnicode
 dev_langs:
- - c++
+- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msftedit.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msftedit.dll
+- Msftedit.dll
 api_name:
- - ITextRange2.HexToUnicode
+- ITextRange2.HexToUnicode
 targetos: Windows
 req.typenames: 
 req.redist: 

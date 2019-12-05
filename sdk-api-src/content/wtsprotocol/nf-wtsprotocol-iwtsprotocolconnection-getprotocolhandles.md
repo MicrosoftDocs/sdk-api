@@ -1,19 +1,17 @@
 ---
 UID: NF:wtsprotocol.IWTSProtocolConnection.GetProtocolHandles
 title: IWTSProtocolConnection::GetProtocolHandles (wtsprotocol.h)
-
 description: IWTSProtocolConnection::GetProtocolHandles is no longer available.
 old-location: termserv\iwtsprotocolconnection_getprotocolhandles.htm
 tech.root: TermServ
 ms.assetid: d453ac71-4733-4a68-892c-ffca2d2954c6
-
 ms.date: 12/05/2018
 ms.keywords: GetProtocolHandles, GetProtocolHandles method [Remote Desktop Services], GetProtocolHandles method [Remote Desktop Services],IWTSProtocolConnection interface, IWTSProtocolConnection interface [Remote Desktop Services],GetProtocolHandles method, IWTSProtocolConnection.GetProtocolHandles, IWTSProtocolConnection::GetProtocolHandles, termserv.iwtsprotocolconnection_getprotocolhandles, wtsprotocol/IWTSProtocolConnection::GetProtocolHandles
 ms.topic: method
-f1_keywords: 
- - "wtsprotocol/IWTSProtocolConnection.GetProtocolHandles"
+f1_keywords:
+- wtsprotocol/IWTSProtocolConnection.GetProtocolHandles
 dev_langs:
- - c++
+- c++
 req.header: wtsprotocol.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wtsprotocol.h
+- Wtsprotocol.h
 api_name:
- - IWTSProtocolConnection.GetProtocolHandles
+- IWTSProtocolConnection.GetProtocolHandles
 targetos: Windows
 req.typenames: 
 req.redist: 

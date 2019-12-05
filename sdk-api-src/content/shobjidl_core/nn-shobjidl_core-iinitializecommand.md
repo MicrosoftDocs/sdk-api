@@ -1,19 +1,17 @@
 ---
 UID: NN:shobjidl_core.IInitializeCommand
 title: IInitializeCommand (shobjidl_core.h)
-
 description: Exposes a single method used to initialize objects that implement IExplorerCommandState, IExecuteCommand or IDropTarget with the application-specified command name and its registered properties.
 old-location: shell\IInitializeCommand.htm
 tech.root: shell
 ms.assetid: e5a2a4d3-2488-4da2-aaab-c27461859d9f
-
 ms.date: 12/05/2018
 ms.keywords: IInitializeCommand, IInitializeCommand interface [Windows Shell], IInitializeCommand interface [Windows Shell],described, _shell_IInitializeCommand, shell.IInitializeCommand, shobjidl_core/IInitializeCommand
 ms.topic: interface
-f1_keywords: 
- - "shobjidl_core/IInitializeCommand"
+f1_keywords:
+- shobjidl_core/IInitializeCommand
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Shell32.dll (version 4.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - IInitializeCommand
+- IInitializeCommand
 targetos: Windows
 req.typenames: 
 req.redist: 

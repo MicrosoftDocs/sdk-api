@@ -1,19 +1,17 @@
 ---
 UID: NF:winsafer.SaferCreateLevel
 title: SaferCreateLevel function (winsafer.h)
-
 description: Opens a SAFER_LEVEL_HANDLE.
 old-location: security\safercreatelevel.htm
 tech.root: SecMgmt
 ms.assetid: 7deb1365-5355-4983-900b-8e4fed009403
-
 ms.date: 12/05/2018
 ms.keywords: SAFER_LEVELID_CONSTRAINED, SAFER_LEVELID_DISALLOWED, SAFER_LEVELID_FULLYTRUSTED, SAFER_LEVELID_NORMALUSER, SAFER_LEVELID_UNTRUSTED, SAFER_LEVEL_OPEN, SAFER_SCOPEID_MACHINE, SAFER_SCOPEID_USER, SaferCreateLevel, SaferCreateLevel function [Security], _mnp_safercreatelevel, security.safercreatelevel, winsafer/SaferCreateLevel
 ms.topic: function
-f1_keywords: 
- - "winsafer/SaferCreateLevel"
+f1_keywords:
+- winsafer/SaferCreateLevel
 dev_langs:
- - c++
+- c++
 req.header: winsafer.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Advapi32.dll
- - Ext-MS-Win-AdvAPI32-safer-l1-1-0.dll
+- Advapi32.dll
+- Ext-MS-Win-AdvAPI32-safer-l1-1-0.dll
 api_name:
- - SaferCreateLevel
+- SaferCreateLevel
 targetos: Windows
 req.typenames: 
 req.redist: 

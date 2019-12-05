@@ -1,19 +1,17 @@
 ---
 UID: NN:wcmconfig.ISettingsEngine
 title: ISettingsEngine (wcmconfig.h)
-
 description: The central interface for opening namespaces and controlling how they are opened.
 old-location: smi\isettingsengine.htm
 tech.root: SMI
 ms.assetid: ba816a00-e238-4dbd-a09a-ad4e191d9c4e
-
 ms.date: 12/05/2018
 ms.keywords: ISettingsEngine, ISettingsEngine interface [SMI], ISettingsEngine interface [SMI],described, smi.isettingsengine, wcmconfig/ISettingsEngine
 ms.topic: interface
-f1_keywords: 
- - "wcmconfig/ISettingsEngine"
+f1_keywords:
+- wcmconfig/ISettingsEngine
 dev_langs:
- - c++
+- c++
 req.header: wcmconfig.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: SMIEngine.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - SMIEngine.dll
+- SMIEngine.dll
 api_name:
- - ISettingsEngine
+- ISettingsEngine
 targetos: Windows
 req.typenames: 
 req.redist: 

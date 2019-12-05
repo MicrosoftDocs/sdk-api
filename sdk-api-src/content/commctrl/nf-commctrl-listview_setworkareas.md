@@ -1,19 +1,17 @@
 ---
 UID: NF:commctrl.ListView_SetWorkAreas
 title: ListView_SetWorkAreas macro (commctrl.h)
-
 description: Sets the working areas within a list-view control. You can use this macro or send the LVM_SETWORKAREAS message explicitly.
 old-location: controls\ListView_SetWorkAreas.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_setworkareas.htm
-
 ms.date: 12/05/2018
 ms.keywords: ListView_SetWorkAreas, ListView_SetWorkAreas macro [Windows Controls], _win32_ListView_SetWorkAreas, _win32_ListView_SetWorkAreas_cpp, commctrl/ListView_SetWorkAreas, controls.ListView_SetWorkAreas, controls._win32_ListView_SetWorkAreas
 ms.topic: macro
-f1_keywords: 
- - "commctrl/ListView_SetWorkAreas"
+f1_keywords:
+- commctrl/ListView_SetWorkAreas
 dev_langs:
- - c++
+- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Commctrl.h
+- Commctrl.h
 api_name:
- - ListView_SetWorkAreas
+- ListView_SetWorkAreas
 targetos: Windows
 req.typenames: 
 req.redist: 

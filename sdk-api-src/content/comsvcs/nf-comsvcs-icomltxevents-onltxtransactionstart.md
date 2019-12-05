@@ -1,19 +1,17 @@
 ---
 UID: NF:comsvcs.IComLTxEvents.OnLtxTransactionStart
 title: IComLTxEvents::OnLtxTransactionStart (comsvcs.h)
-
 description: Generated when a transaction is started.
 old-location: cos\icomltxevents_onltxtransactionstart.htm
 tech.root: cossdk
 ms.assetid: 0d063e3f-d7f8-45b1-995f-29903c42ec37
-
 ms.date: 12/05/2018
 ms.keywords: IComLTxEvents interface [COM+],OnLtxTransactionStart method, IComLTxEvents.OnLtxTransactionStart, IComLTxEvents::OnLtxTransactionStart, OnLtxTransactionStart, OnLtxTransactionStart method [COM+], OnLtxTransactionStart method [COM+],IComLTxEvents interface, comsvcs/IComLTxEvents::OnLtxTransactionStart, cos.icomltxevents_onltxtransactionstart
 ms.topic: method
-f1_keywords: 
- - "comsvcs/IComLTxEvents.OnLtxTransactionStart"
+f1_keywords:
+- comsvcs/IComLTxEvents.OnLtxTransactionStart
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - IComLTxEvents.OnLtxTransactionStart
+- IComLTxEvents.OnLtxTransactionStart
 targetos: Windows
 req.typenames: 
 req.redist: 

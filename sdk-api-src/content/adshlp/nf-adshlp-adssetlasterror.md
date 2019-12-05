@@ -1,19 +1,17 @@
 ---
 UID: NF:adshlp.ADsSetLastError
 title: ADsSetLastError function (adshlp.h)
-
 description: The ADsSetLastError sets the last-error code value for the calling thread.
 old-location: adsi\adssetlasterror.htm
 tech.root: adsi
 ms.assetid: c9433af7-2ca5-492a-9b8e-9dfedb5e4d9d
-
 ms.date: 12/05/2018
 ms.keywords: ADsSetLastError, ADsSetLastError function [ADSI], _ds_adssetlasterror, adshlp/ADsSetLastError, adsi.adssetlasterror
 ms.topic: function
-f1_keywords: 
- - "adshlp/ADsSetLastError"
+f1_keywords:
+- adshlp/ADsSetLastError
 dev_langs:
- - c++
+- c++
 req.header: adshlp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Activeds.lib
 req.dll: Activeds.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Activeds.dll
+- Activeds.dll
 api_name:
- - ADsSetLastError
+- ADsSetLastError
 targetos: Windows
 req.typenames: 
 req.redist: 

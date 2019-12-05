@@ -1,19 +1,17 @@
 ---
 UID: NN:sbe.ISBE2FileScan
 title: ISBE2FileScan (sbe.h)
-
 description: Repairs a corrupted .WTV file.
 old-location: mstv\isbe2filescan.htm
 tech.root: mstv
 ms.assetid: 95d59004-b182-42b8-b05e-920bfc5ea6a0
-
 ms.date: 12/05/2018
 ms.keywords: ISBE2FileScan, ISBE2FileScan interface [Microsoft TV Technologies], ISBE2FileScan interface [Microsoft TV Technologies],described, mstv.isbe2filescan, sbe/ISBE2FileScan
 ms.topic: interface
-f1_keywords: 
- - "sbe/ISBE2FileScan"
+f1_keywords:
+- sbe/ISBE2FileScan
 dev_langs:
- - c++
+- c++
 req.header: sbe.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Sbe.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - sbe.dll
+- sbe.dll
 api_name:
- - ISBE2FileScan
+- ISBE2FileScan
 targetos: Windows
 req.typenames: 
 req.redist: 

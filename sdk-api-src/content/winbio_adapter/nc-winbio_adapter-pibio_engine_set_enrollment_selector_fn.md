@@ -1,19 +1,17 @@
 ---
 UID: NC:winbio_adapter.PIBIO_ENGINE_SET_ENROLLMENT_SELECTOR_FN
 title: PIBIO_ENGINE_SET_ENROLLMENT_SELECTOR_FN (winbio_adapter.h)
-
 description: Tells the Engine Adapter which person to track for the current enrollment operation.
 old-location: secbiomet\engineadaptersetenrollmentselector.htm
 tech.root: SecBioMet
 ms.assetid: 4374F4BA-2B09-4C89-9B5E-CF6B53220A4F
-
 ms.date: 12/05/2018
 ms.keywords: EngineAdapterSetEnrollmentSelector, EngineAdapterSetEnrollmentSelector callback function [Windows Biometric Framework API], PIBIO_ENGINE_SET_ENROLLMENT_SELECTOR_FN, PIBIO_ENGINE_SET_ENROLLMENT_SELECTOR_FN callback, secbiomet.engineadaptersetenrollmentselector, winbio_adapter/EngineAdapterSetEnrollmentSelector
 ms.topic: callback
 f1_keywords:
 - winbio_adapter/EngineAdapterSetEnrollmentSelector
 dev_langs:
- - c++
+- c++
 req.header: winbio_adapter.h
 req.include-header: Winbio_adapter.h
 req.target-type: Windows

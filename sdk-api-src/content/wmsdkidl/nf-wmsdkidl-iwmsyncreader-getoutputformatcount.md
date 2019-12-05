@@ -1,19 +1,17 @@
 ---
 UID: NF:wmsdkidl.IWMSyncReader.GetOutputFormatCount
 title: IWMSyncReader::GetOutputFormatCount (wmsdkidl.h)
-
 description: The GetOutputFormatCount method is used to determine all possible format types supported by this output on the synchronous reader.
 old-location: wmformat\iwmsyncreader_getoutputformatcount.htm
 tech.root: wmformat
 ms.assetid: 66f66784-791b-4f1b-8ba2-300a4521ce03
-
 ms.date: 12/05/2018
 ms.keywords: GetOutputFormatCount, GetOutputFormatCount method [windows Media Format], GetOutputFormatCount method [windows Media Format],IWMSyncReader interface, IWMSyncReader interface [windows Media Format],GetOutputFormatCount method, IWMSyncReader.GetOutputFormatCount, IWMSyncReader::GetOutputFormatCount, IWMSyncReaderGetOutputFormatCount, wmformat.iwmsyncreader_getoutputformatcount, wmsdkidl/IWMSyncReader::GetOutputFormatCount
 ms.topic: method
-f1_keywords: 
- - "wmsdkidl/IWMSyncReader.GetOutputFormatCount"
+f1_keywords:
+- wmsdkidl/IWMSyncReader.GetOutputFormatCount
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wmvcore.lib
- - Wmvcore.dll
- - WMStubDRM.lib
- - WMStubDRM.dll
+- Wmvcore.lib
+- Wmvcore.dll
+- WMStubDRM.lib
+- WMStubDRM.dll
 api_name:
- - IWMSyncReader.GetOutputFormatCount
+- IWMSyncReader.GetOutputFormatCount
 targetos: Windows
 req.typenames: 
 req.redist: 

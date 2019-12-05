@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IGraphBuilder.RenderFile
 title: IGraphBuilder::RenderFile (strmif.h)
-
 description: The RenderFile method builds a filter graph that renders the specified file.
 old-location: dshow\igraphbuilder_renderfile.htm
 tech.root: DirectShow
 ms.assetid: 449aec08-c03e-41d6-8c04-0e871e532d11
-
 ms.date: 12/05/2018
 ms.keywords: IGraphBuilder interface [DirectShow],RenderFile method, IGraphBuilder.RenderFile, IGraphBuilder::RenderFile, IGraphBuilderRenderFile, RenderFile, RenderFile method [DirectShow], RenderFile method [DirectShow],IGraphBuilder interface, dshow.igraphbuilder_renderfile, strmif/IGraphBuilder::RenderFile
 ms.topic: method
-f1_keywords: 
- - "strmif/IGraphBuilder.RenderFile"
+f1_keywords:
+- strmif/IGraphBuilder.RenderFile
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IGraphBuilder.RenderFile
+- IGraphBuilder.RenderFile
 targetos: Windows
 req.typenames: 
 req.redist: 

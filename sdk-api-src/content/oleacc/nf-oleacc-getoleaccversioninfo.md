@@ -1,19 +1,17 @@
 ---
 UID: NF:oleacc.GetOleaccVersionInfo
 title: GetOleaccVersionInfo function (oleacc.h)
-
 description: Retrieves the version number and build number of the Microsoft Active Accessibility file Oleacc.dll.
 old-location: winauto\getoleaccversioninfo.htm
 tech.root: WinAuto
 ms.assetid: 96dcdb85-4f35-4274-ba57-2f565c3ebb5f
-
 ms.date: 12/05/2018
 ms.keywords: GetOleaccVersionInfo, GetOleaccVersionInfo function [Windows Accessibility], _msaa_GetOleaccVersionInfo, msaa.getoleaccversioninfo, oleacc/GetOleaccVersionInfo, winauto.getoleaccversioninfo
 ms.topic: function
-f1_keywords: 
- - "oleacc/GetOleaccVersionInfo"
+f1_keywords:
+- oleacc/GetOleaccVersionInfo
 dev_langs:
- - c++
+- c++
 req.header: oleacc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Oleacc.lib
 req.dll: Oleacc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Oleacc.dll
+- Oleacc.dll
 api_name:
- - GetOleaccVersionInfo
+- GetOleaccVersionInfo
 targetos: Windows
 req.typenames: 
 req.redist: Active Accessibility 1.3 RDK on Windows NT 4.0 with SP6 and later and Windows 95

@@ -1,19 +1,17 @@
 ---
 UID: NN:winsync.IEnumSyncChanges
 title: IEnumSyncChanges (winsync.h)
-
 description: Enumerates a list of item changes.
 old-location: winsync\ienumsyncchanges.htm
 tech.root: winsync
 ms.assetid: c3f27c6d-4fc1-420c-afc1-0bd2bdbd6ab2
-
 ms.date: 12/05/2018
 ms.keywords: IEnumSyncChanges, IEnumSyncChanges interface [Windows Sync], IEnumSyncChanges interface [Windows Sync],described, winsync.ienumsyncchanges, winsync/IEnumSyncChanges
 ms.topic: interface
-f1_keywords: 
- - "winsync/IEnumSyncChanges"
+f1_keywords:
+- winsync/IEnumSyncChanges
 dev_langs:
- - c++
+- c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - winsync.h
+- winsync.h
 api_name:
- - IEnumSyncChanges
+- IEnumSyncChanges
 targetos: Windows
 req.typenames: 
 req.redist: 

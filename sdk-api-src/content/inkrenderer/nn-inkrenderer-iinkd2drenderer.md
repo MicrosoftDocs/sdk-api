@@ -1,19 +1,17 @@
 ---
 UID: NN:inkrenderer.IInkD2DRenderer
 title: IInkD2DRenderer (inkrenderer.h)
-
 description: An IInkD2DRenderer object enables the rendering of ink strokes onto the designated Direct2D device context of a Universal Windows app, instead of the default InkCanvas control.
 old-location: input_ink\iinkd2drenderer.htm
 tech.root: input_ink
 ms.assetid: d1bd910d-ce64-4424-a0e1-4f55110b0265
-
 ms.date: 12/05/2018
 ms.keywords: IInkD2DRenderer, IInkD2DRenderer interface, IInkD2DRenderer interface,described, inkrenderer/IInkD2DRenderer, input_ink.iinkd2drenderer
 ms.topic: interface
-f1_keywords: 
- - "inkrenderer/IInkD2DRenderer"
+f1_keywords:
+- inkrenderer/IInkD2DRenderer
 dev_langs:
- - c++
+- c++
 req.header: inkrenderer.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - inkrenderer.h
+- inkrenderer.h
 api_name:
- - IInkD2DRenderer
+- IInkD2DRenderer
 targetos: Windows
 req.typenames: 
 req.redist: 

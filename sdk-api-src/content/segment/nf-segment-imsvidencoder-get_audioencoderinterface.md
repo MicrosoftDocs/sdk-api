@@ -1,19 +1,17 @@
 ---
 UID: NF:segment.IMSVidEncoder.get_AudioEncoderInterface
 title: IMSVidEncoder::get_AudioEncoderInterface (segment.h)
-
 description: The get_AudioEncoderInterface method retrieves a pointer to the audio encoder interface.
 old-location: mstv\imsvidencoder_get_audioencoderinterface.htm
 tech.root: mstv
 ms.assetid: 5b22a062-7da5-411e-ac85-fb9c7b3650a7
-
 ms.date: 12/05/2018
 ms.keywords: IMSVidEncoder interface [Microsoft TV Technologies],get_AudioEncoderInterface method, IMSVidEncoder.get_AudioEncoderInterface, IMSVidEncoder::get_AudioEncoderInterface, IMSVidEncoderget_AudioEncoderInterface, get_AudioEncoderInterface, get_AudioEncoderInterface method [Microsoft TV Technologies], get_AudioEncoderInterface method [Microsoft TV Technologies],IMSVidEncoder interface, mstv.imsvidencoder_get_audioencoderinterface, segment/IMSVidEncoder::get_AudioEncoderInterface
 ms.topic: method
-f1_keywords: 
- - "segment/IMSVidEncoder.get_AudioEncoderInterface"
+f1_keywords:
+- segment/IMSVidEncoder.get_AudioEncoderInterface
 dev_langs:
- - c++
+- c++
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - segment.h
+- segment.h
 api_name:
- - IMSVidEncoder.get_AudioEncoderInterface
+- IMSVidEncoder.get_AudioEncoderInterface
 targetos: Windows
 req.typenames: 
 req.redist: 

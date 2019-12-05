@@ -1,19 +1,17 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMObjectFactory.CreateRemoteDictionaryResourceFromStream
 title: IXpsOMObjectFactory::CreateRemoteDictionaryResourceFromStream (xpsobjectmodel.h)
-
 description: Loads the remote resource dictionary markup into an unrooted IXpsOMRemoteDictionaryResource interface.
 old-location: xps\ixpsomobjectfactory_createremotedictionaryresourcefromstream.htm
 tech.root: printdocs
 ms.assetid: 996a97f5-320f-4e51-af15-f3b125d4f6c8
-
 ms.date: 12/05/2018
 ms.keywords: CreateRemoteDictionaryResourceFromStream, CreateRemoteDictionaryResourceFromStream method [XPS Documents and Packaging], CreateRemoteDictionaryResourceFromStream method [XPS Documents and Packaging],IXpsOMObjectFactory interface, IXpsOMObjectFactory interface [XPS Documents and Packaging],CreateRemoteDictionaryResourceFromStream method, IXpsOMObjectFactory.CreateRemoteDictionaryResourceFromStream, IXpsOMObjectFactory::CreateRemoteDictionaryResourceFromStream, xps.ixpsomobjectfactory_createremotedictionaryresourcefromstream, xpsobjectmodel/IXpsOMObjectFactory::CreateRemoteDictionaryResourceFromStream
 ms.topic: method
-f1_keywords: 
- - "xpsobjectmodel/IXpsOMObjectFactory.CreateRemoteDictionaryResourceFromStream"
+f1_keywords:
+- xpsobjectmodel/IXpsOMObjectFactory.CreateRemoteDictionaryResourceFromStream
 dev_langs:
- - c++
+- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsobjectmodel.h
+- xpsobjectmodel.h
 api_name:
- - IXpsOMObjectFactory.CreateRemoteDictionaryResourceFromStream
+- IXpsOMObjectFactory.CreateRemoteDictionaryResourceFromStream
 targetos: Windows
 req.typenames: 
 req.redist: 

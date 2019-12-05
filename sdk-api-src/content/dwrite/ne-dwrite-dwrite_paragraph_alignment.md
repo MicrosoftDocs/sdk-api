@@ -1,19 +1,17 @@
 ---
 UID: NE:dwrite.DWRITE_PARAGRAPH_ALIGNMENT
 title: DWRITE_PARAGRAPH_ALIGNMENT (dwrite.h)
-
 description: Specifies the alignment of paragraph text along the flow direction axis, relative to the top and bottom of the flow's layout box.
 old-location: directwrite\dwrite_paragraph_alignment.htm
 tech.root: DirectWrite
 ms.assetid: fcd11308-741a-47cb-aa7a-0ae2c7a9e769
-
 ms.date: 12/05/2018
 ms.keywords: DWRITE_PARAGRAPH_ALIGNMENT, DWRITE_PARAGRAPH_ALIGNMENT enumeration [Direct Write], DWRITE_PARAGRAPH_ALIGNMENT_CENTER, DWRITE_PARAGRAPH_ALIGNMENT_FAR, DWRITE_PARAGRAPH_ALIGNMENT_NEAR, directwrite.dwrite_paragraph_alignment, dwrite/DWRITE_PARAGRAPH_ALIGNMENT, dwrite/DWRITE_PARAGRAPH_ALIGNMENT_CENTER, dwrite/DWRITE_PARAGRAPH_ALIGNMENT_FAR, dwrite/DWRITE_PARAGRAPH_ALIGNMENT_NEAR
 ms.topic: enum
-f1_keywords: 
- - "dwrite/DWRITE_PARAGRAPH_ALIGNMENT"
+f1_keywords:
+- dwrite/DWRITE_PARAGRAPH_ALIGNMENT
 dev_langs:
- - c++
+- c++
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - dwrite.h
+- dwrite.h
 api_name:
- - DWRITE_PARAGRAPH_ALIGNMENT
+- DWRITE_PARAGRAPH_ALIGNMENT
 targetos: Windows
 req.typenames: 
 req.redist: 

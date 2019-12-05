@@ -1,19 +1,17 @@
 ---
 UID: NN:icontentprefetchertasktrigger.IContentPrefetcherTaskTrigger
 title: IContentPrefetcherTaskTrigger (icontentprefetchertasktrigger.h)
-
 description: The IContentPrefetcherTaskTrigger interface supports content prefetching behavior and performance testing by defining methods that allow you to verify that an installed app package is registered for this background task and manually trigger its content prefetch operations.
 old-location: wsw\icontentprefetchertasktrigger.htm
 tech.root: wsw
 ms.assetid: 5DB67142-4B8F-4B88-A77F-B69F48E75839
-
 ms.date: 12/05/2018
 ms.keywords: IContentPrefetcherTaskTrigger, IContentPrefetcherTaskTrigger interface [Web Services for Windows], IContentPrefetcherTaskTrigger interface [Web Services for Windows],described, icontentprefetchertasktrigger/IContentPrefetcherTaskTrigger, wsw.icontentprefetchertasktrigger
 ms.topic: interface
-f1_keywords: 
- - "icontentprefetchertasktrigger/IContentPrefetcherTaskTrigger"
+f1_keywords:
+- icontentprefetchertasktrigger/IContentPrefetcherTaskTrigger
 dev_langs:
- - c++
+- c++
 req.header: icontentprefetchertasktrigger.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - IContentPrefetcherTaskTrigger.h
+- IContentPrefetcherTaskTrigger.h
 api_name:
- - IContentPrefetcherTaskTrigger
+- IContentPrefetcherTaskTrigger
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationElement.GetCurrentPropertyValue
 title: IUIAutomationElement::GetCurrentPropertyValue (uiautomationclient.h)
-
 description: Retrieves the current value of a property for this UI Automation element.
 old-location: winauto\uiauto_IUIAutomationElement_GetCurrentPropertyValue.htm
 tech.root: WinAuto
 ms.assetid: 819e548e-7ff4-4f9f-969b-bfd1625f6151
-
 ms.date: 12/05/2018
 ms.keywords: GetCurrentPropertyValue, GetCurrentPropertyValue method [Windows Accessibility], GetCurrentPropertyValue method [Windows Accessibility],IUIAutomationElement interface, IUIAutomationElement interface [Windows Accessibility],GetCurrentPropertyValue method, IUIAutomationElement.GetCurrentPropertyValue, IUIAutomationElement::GetCurrentPropertyValue, uiauto.uiauto_IUIAutomationElement_GetCurrentPropertyValue, uiauto_IUIAutomationElement_GetCurrentPropertyValue, uiautomationclient/IUIAutomationElement::GetCurrentPropertyValue, winauto.uiauto_IUIAutomationElement_GetCurrentPropertyValue
 ms.topic: method
-f1_keywords: 
- - "uiautomationclient/IUIAutomationElement.GetCurrentPropertyValue"
+f1_keywords:
+- uiautomationclient/IUIAutomationElement.GetCurrentPropertyValue
 dev_langs:
- - c++
+- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationClient.h
+- UIAutomationClient.h
 api_name:
- - IUIAutomationElement.GetCurrentPropertyValue
+- IUIAutomationElement.GetCurrentPropertyValue
 targetos: Windows
 req.typenames: 
 req.redist: 

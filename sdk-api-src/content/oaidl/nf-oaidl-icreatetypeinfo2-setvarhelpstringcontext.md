@@ -1,19 +1,17 @@
 ---
 UID: NF:oaidl.ICreateTypeInfo2.SetVarHelpStringContext
 title: ICreateTypeInfo2::SetVarHelpStringContext (oaidl.h)
-
 description: Sets a Help context value for a specified variable.
 old-location: automat\icreatetypeinfo2_setvarhelpstringcontext.htm
 tech.root: automat
 ms.assetid: 0939e286-150c-4258-bb6a-c020b6323b35
-
 ms.date: 12/05/2018
 ms.keywords: ICreateTypeInfo2 interface [Automation],SetVarHelpStringContext method, ICreateTypeInfo2.SetVarHelpStringContext, ICreateTypeInfo2::SetVarHelpStringContext, SetVarHelpStringContext, SetVarHelpStringContext method [Automation], SetVarHelpStringContext method [Automation],ICreateTypeInfo2 interface, _oa96_ICreateTypeInfo2_SetVarHelpStringContext, automat.icreatetypeinfo2_setvarhelpstringcontext, oaidl/ICreateTypeInfo2::SetVarHelpStringContext
 ms.topic: method
-f1_keywords: 
- - "oaidl/ICreateTypeInfo2.SetVarHelpStringContext"
+f1_keywords:
+- oaidl/ICreateTypeInfo2.SetVarHelpStringContext
 dev_langs:
- - c++
+- c++
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - oaidl.h
+- oaidl.h
 api_name:
- - ICreateTypeInfo2.SetVarHelpStringContext
+- ICreateTypeInfo2.SetVarHelpStringContext
 targetos: Windows
 req.typenames: 
 req.redist: 

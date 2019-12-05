@@ -1,19 +1,17 @@
 ---
 UID: NS:imm.tagSTYLEBUFA
 title: STYLEBUFA (imm.h)
-
 description: Contains the identifier and name of a style.
 old-location: intl\stylebuf.htm
 tech.root: Intl
 ms.assetid: 72681071-58c4-490a-83d5-5013871ca875
-
 ms.date: 12/05/2018
-ms.keywords: "*LPSTYLEBUFA, *NPSTYLEBUFA, *PSTYLEBUFA, PSTYLEBUF, PSTYLEBUF structure pointer [Internationalization for Windows Applications], STYLEBUF, STYLEBUF structure [Internationalization for Windows Applications], STYLEBUFA, STYLEBUFW, _win32_STYLEBUF_str, imm/PSTYLEBUF, imm/STYLEBUF, imm/STYLEBUFA, imm/STYLEBUFW, intl.stylebuf, tagSTYLEBUFA, tagSTYLEBUFW"
+ms.keywords: '*LPSTYLEBUFA, *NPSTYLEBUFA, *PSTYLEBUFA, PSTYLEBUF, PSTYLEBUF structure pointer [Internationalization for Windows Applications], STYLEBUF, STYLEBUF structure [Internationalization for Windows Applications], STYLEBUFA, STYLEBUFW, _win32_STYLEBUF_str, imm/PSTYLEBUF, imm/STYLEBUF, imm/STYLEBUFA, imm/STYLEBUFW, intl.stylebuf, tagSTYLEBUFA, tagSTYLEBUFW'
 ms.topic: struct
-f1_keywords: 
- - "imm/STYLEBUF"
+f1_keywords:
+- imm/STYLEBUF
 dev_langs:
- - c++
+- c++
 req.header: imm.h
 req.include-header: Immdev.h, Windows.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Imm.h
+- Imm.h
 api_name:
- - STYLEBUF
- - STYLEBUFA
- - STYLEBUFW
+- STYLEBUF
+- STYLEBUFA
+- STYLEBUFW
 targetos: Windows
 req.typenames: STYLEBUFA, *PSTYLEBUFA, *NPSTYLEBUFA, *LPSTYLEBUFA
 req.redist: 

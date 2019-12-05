@@ -1,19 +1,17 @@
 ---
 UID: NF:ndfapi.NdfCreateConnectivityIncident
 title: NdfCreateConnectivityIncident function (ndfapi.h)
-
 description: Diagnoses generic Internet connectivity problems.
 old-location: ndf\ndfcreateconnectivityincident.htm
 tech.root: NDF
 ms.assetid: 7cc4f85a-04ea-44c0-9516-6b43a4dd51c0
-
 ms.date: 12/05/2018
 ms.keywords: NdfCreateConnectivityIncident, NdfCreateConnectivityIncident function [NDF], ndf.ndfcreateconnectivityincident, ndfapi/NdfCreateConnectivityIncident
 ms.topic: function
-f1_keywords: 
- - "ndfapi/NdfCreateConnectivityIncident"
+f1_keywords:
+- ndfapi/NdfCreateConnectivityIncident
 dev_langs:
- - c++
+- c++
 req.header: ndfapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Ndfapi.lib
 req.dll: Ndfapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ndfapi.dll
+- Ndfapi.dll
 api_name:
- - NdfCreateConnectivityIncident
+- NdfCreateConnectivityIncident
 targetos: Windows
 req.typenames: 
 req.redist: 

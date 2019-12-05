@@ -1,19 +1,17 @@
 ---
 UID: NN:dvbsiparser.IISDB_LDT
 title: IISDB_LDT (dvbsiparser.h)
-
 description: Implements methods that get information from an Integrated Services Digital Broadcasting (ISDB) linked description table (LDT). An LDT contains data used to collect reference information from other tables.
 old-location: mstv\iisdb_ldt.htm
 tech.root: mstv
 ms.assetid: 4fdf82f2-e931-406b-a8cb-7b24c1d0b8d3
-
 ms.date: 12/05/2018
 ms.keywords: IISDB_LDT, IISDB_LDT interface [Microsoft TV Technologies], IISDB_LDT interface [Microsoft TV Technologies],described, dvbsiparser/IISDB_LDT, mstv.iisdb_ldt
 ms.topic: interface
-f1_keywords: 
- - "dvbsiparser/IISDB_LDT"
+f1_keywords:
+- dvbsiparser/IISDB_LDT
 dev_langs:
- - c++
+- c++
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dvbsiparser.h
+- dvbsiparser.h
 api_name:
- - IISDB_LDT
+- IISDB_LDT
 targetos: Windows
 req.typenames: 
 req.redist: 

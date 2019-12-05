@@ -1,19 +1,17 @@
 ---
 UID: NF:dcomp.IDCompositionVisual.SetTransformParent
 title: IDCompositionVisual::SetTransformParent (dcomp.h)
-
 description: Sets the TransformParent property of this visual. The TransformParent property establishes the coordinate system relative to which this visual is composed.
 old-location: directcomp\idcompositionvisual_settransformparent.htm
 tech.root: directcomp
 ms.assetid: 06C02E3D-27FF-4E11-87C2-7D8281A69601
-
 ms.date: 12/05/2018
 ms.keywords: IDCompositionVisual interface [DirectComposition],SetTransformParent method, IDCompositionVisual.SetTransformParent, IDCompositionVisual::SetTransformParent, SetTransformParent, SetTransformParent method [DirectComposition], SetTransformParent method [DirectComposition],IDCompositionVisual interface, dcomp/IDCompositionVisual::SetTransformParent, directcomp.idcompositionvisual_settransformparent
 ms.topic: method
-f1_keywords: 
- - "dcomp/IDCompositionVisual.SetTransformParent"
+f1_keywords:
+- dcomp/IDCompositionVisual.SetTransformParent
 dev_langs:
- - c++
+- c++
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dcomp.lib
 req.dll: Dcomp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dcomp.dll
+- Dcomp.dll
 api_name:
- - IDCompositionVisual.SetTransformParent
+- IDCompositionVisual.SetTransformParent
 targetos: Windows
 req.typenames: 
 req.redist: 

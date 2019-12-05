@@ -1,19 +1,17 @@
 ---
 UID: NS:directxpackedvector.XMSHORT2
 title: XMSHORT2 (directxpackedvector.h)
-
 description: Describes a 2D vector consisting of 16-bit signed and normalized integer components.
 old-location: dxmath\xmshort2.htm
 tech.root: dxmath
 ms.assetid: T:Microsoft.directx_sdk.reference.XMSHORT2
-
 ms.date: 12/05/2018
 ms.keywords: XMSHORT2, XMSHORT2 structure [DirectX Math Support APIs], directxpackedvector/XMSHORT2, dxmath.xmshort2
 ms.topic: struct
-f1_keywords: 
- - "directxpackedvector/XMSHORT2"
+f1_keywords:
+- directxpackedvector/XMSHORT2
 dev_langs:
- - c++
+- c++
 req.header: directxpackedvector.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - DirectXPackedVector.h
+- DirectXPackedVector.h
 api_name:
- - XMSHORT2
+- XMSHORT2
 targetos: Windows
 req.typenames: 
 req.redist: 

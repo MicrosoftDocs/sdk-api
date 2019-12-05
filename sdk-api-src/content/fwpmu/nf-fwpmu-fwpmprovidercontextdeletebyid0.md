@@ -1,19 +1,17 @@
 ---
 UID: NF:fwpmu.FwpmProviderContextDeleteById0
 title: FwpmProviderContextDeleteById0 function (fwpmu.h)
-
 description: Removes a provider context from the system .
 old-location: fwp\fwpmprovidercontextdeletebyid0_func.htm
 tech.root: fwp
 ms.assetid: 073ecbc9-339d-4afa-a8da-6dac0c65e755
-
 ms.date: 12/05/2018
 ms.keywords: FwpmProviderContextDeleteById0, FwpmProviderContextDeleteById0 function [Filtering], fwp.fwpmprovidercontextdeletebyid0_func, fwpmu/FwpmProviderContextDeleteById0
 ms.topic: function
-f1_keywords: 
- - "fwpmu/FwpmProviderContextDeleteById0"
+f1_keywords:
+- fwpmu/FwpmProviderContextDeleteById0
 dev_langs:
- - c++
+- c++
 req.header: fwpmu.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Fwpuclnt.lib
 req.dll: Fwpuclnt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Fwpuclnt.dll
+- Fwpuclnt.dll
 api_name:
- - FwpmProviderContextDeleteById0
+- FwpmProviderContextDeleteById0
 targetos: Windows
 req.typenames: 
 req.redist: 

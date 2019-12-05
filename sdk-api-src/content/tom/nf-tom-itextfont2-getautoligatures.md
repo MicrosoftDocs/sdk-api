@@ -1,19 +1,17 @@
 ---
 UID: NF:tom.ITextFont2.GetAutoLigatures
 title: ITextFont2::GetAutoLigatures (tom.h)
-
 description: Gets whether support for automatic ligatures is active.
 old-location: controls\itextfont2_getautoligatures.htm
 tech.root: Controls
 ms.assetid: f8209c34-139c-45e6-b110-f6d3d76f5575
-
 ms.date: 12/05/2018
 ms.keywords: GetAutoLigatures, GetAutoLigatures method [Windows Controls], GetAutoLigatures method [Windows Controls],ITextFont2 interface, ITextFont2 interface [Windows Controls],GetAutoLigatures method, ITextFont2.GetAutoLigatures, ITextFont2::GetAutoLigatures, controls.itextfont2_getautoligatures, tom/ITextFont2::GetAutoLigatures
 ms.topic: method
-f1_keywords: 
- - "tom/ITextFont2.GetAutoLigatures"
+f1_keywords:
+- tom/ITextFont2.GetAutoLigatures
 dev_langs:
- - c++
+- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msftedit.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msftedit.dll
+- Msftedit.dll
 api_name:
- - ITextFont2.GetAutoLigatures
+- ITextFont2.GetAutoLigatures
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NS:wmsdkidl._WMWriterStatisticsEx
 title: WM_WRITER_STATISTICS_EX (wmsdkidl.h)
-
 description: The WM_WRITER_STATISTICS_EX structure is used by IWMWriterAdvanced3::GetStatisticsEx to obtain extended writer statistics.
 old-location: wmformat\wm_writer_statistics_ex.htm
 tech.root: wmformat
 ms.assetid: f98a5934-968e-4c74-9fd2-f824ad77692c
-
 ms.date: 12/05/2018
 ms.keywords: WM_WRITER_STATISTICS_EX, WM_WRITER_STATISTICS_EX structure [windows Media Format], wmformat.wm_writer_statistics_ex, wmsdkidl/WM_WRITER_STATISTICS_EX
 ms.topic: struct
-f1_keywords: 
- - "wmsdkidl/WM_WRITER_STATISTICS_EX"
+f1_keywords:
+- wmsdkidl/WM_WRITER_STATISTICS_EX
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wmsdkidl.h
+- Wmsdkidl.h
 api_name:
- - WM_WRITER_STATISTICS_EX
+- WM_WRITER_STATISTICS_EX
 targetos: Windows
 req.typenames: WM_WRITER_STATISTICS_EX
 req.redist: 

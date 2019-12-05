@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi3if.ITBasicCallControl2.SelectTerminalOnCall
 title: ITBasicCallControl2::SelectTerminalOnCall (tapi3if.h)
-
 description: The SelectTerminalOnCall method selects the terminal onto the call.
 old-location: tapi3\itbasiccallcontrol2_selectterminaloncall.htm
 tech.root: Tapi
 ms.assetid: 87117ec1-0d61-4edb-8ed6-0d029a77e1a5
-
 ms.date: 12/05/2018
 ms.keywords: ITBasicCallControl2 interface [TAPI 2.2],SelectTerminalOnCall method, ITBasicCallControl2.SelectTerminalOnCall, ITBasicCallControl2::SelectTerminalOnCall, SelectTerminalOnCall, SelectTerminalOnCall method [TAPI 2.2], SelectTerminalOnCall method [TAPI 2.2],ITBasicCallControl2 interface, _tapi3_itbasiccallcontrol2_selectterminaloncall, tapi3.itbasiccallcontrol2_selectterminaloncall, tapi3if/ITBasicCallControl2::SelectTerminalOnCall
 ms.topic: method
-f1_keywords: 
- - "tapi3if/ITBasicCallControl2.SelectTerminalOnCall"
+f1_keywords:
+- tapi3if/ITBasicCallControl2.SelectTerminalOnCall
 dev_langs:
- - c++
+- c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Tapi3.dll
+- Tapi3.dll
 api_name:
- - ITBasicCallControl2.SelectTerminalOnCall
+- ITBasicCallControl2.SelectTerminalOnCall
 targetos: Windows
 req.typenames: 
 req.redist: 

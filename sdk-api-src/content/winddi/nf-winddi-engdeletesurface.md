@@ -1,19 +1,17 @@
 ---
 UID: NF:winddi.EngDeleteSurface
 title: EngDeleteSurface function (winddi.h)
-
 description: The EngDeleteSurface function deletes the specified surface.
 old-location: display\engdeletesurface.htm
 tech.root: display
 ms.assetid: 9cde6fa3-26b6-49fd-9374-cbf91215aa39
-
 ms.date: 12/05/2018
 ms.keywords: EngDeleteSurface, EngDeleteSurface function [Display Devices], display.engdeletesurface, gdifncs_7ffbac74-6789-4f81-a4eb-4f6f1c41a444.xml, winddi/EngDeleteSurface
 ms.topic: function
-f1_keywords: 
- - "winddi/EngDeleteSurface"
+f1_keywords:
+- winddi/EngDeleteSurface
 dev_langs:
- - c++
+- c++
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Universal
@@ -32,14 +30,14 @@ req.lib: Win32k.lib
 req.dll: Win32k.sys
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Win32k.sys
+- Win32k.sys
 api_name:
- - EngDeleteSurface
+- EngDeleteSurface
 targetos: Windows
 req.typenames: 
 req.redist: 

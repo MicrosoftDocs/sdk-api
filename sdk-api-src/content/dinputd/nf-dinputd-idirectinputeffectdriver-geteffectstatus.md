@@ -1,19 +1,17 @@
 ---
 UID: NF:dinputd.IDirectInputEffectDriver.GetEffectStatus
 title: IDirectInputEffectDriver::GetEffectStatus (dinputd.h)
-
 description: The IDirectInputEffectDriver::GetEffectStatus method obtains information about the status of an effect.
 old-location: hid\idirectinputeffectdriver_geteffectstatus.htm
 tech.root: hid
 ms.assetid: 1332b89a-59ab-4baf-a729-2183b24ce70d
-
 ms.date: 12/05/2018
 ms.keywords: GetEffectStatus, GetEffectStatus method [Human Input Devices], GetEffectStatus method [Human Input Devices],IDirectInputEffectDriver interface, IDirectInputEffectDriver interface [Human Input Devices],GetEffectStatus method, IDirectInputEffectDriver.GetEffectStatus, IDirectInputEffectDriver::GetEffectStatus, di_ref_983ce615-4a09-4d28-af9d-968cd6c7054f.xml, dinputd/IDirectInputEffectDriver::GetEffectStatus, hid.idirectinputeffectdriver_geteffectstatus
 ms.topic: method
-f1_keywords: 
- - "dinputd/IDirectInputEffectDriver.GetEffectStatus"
+f1_keywords:
+- dinputd/IDirectInputEffectDriver.GetEffectStatus
 dev_langs:
- - c++
+- c++
 req.header: dinputd.h
 req.include-header: Dinputd.h
 req.target-type: Desktop
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dinputd.h
+- dinputd.h
 api_name:
- - IDirectInputEffectDriver.GetEffectStatus
+- IDirectInputEffectDriver.GetEffectStatus
 targetos: Windows
 req.typenames: 
 req.redist: 

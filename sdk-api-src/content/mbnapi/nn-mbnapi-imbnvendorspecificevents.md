@@ -1,19 +1,17 @@
 ---
 UID: NN:mbnapi.IMbnVendorSpecificEvents
 title: IMbnVendorSpecificEvents (mbnapi.h)
-
 description: This notification interface signals an application of the completion status of vendor-specific operations and other vendor-specific changes in the device state.
 old-location: mbn\imbnvendorspecificevents.htm
 tech.root: mbn
 ms.assetid: 28507e68-5eaa-4b9d-bbb4-e276f4c213d5
-
 ms.date: 12/05/2018
 ms.keywords: IMbnVendorSpecificEvents, IMbnVendorSpecificEvents interface [Microsoft Broadband Networks], IMbnVendorSpecificEvents interface [Microsoft Broadband Networks],described, mbn.imbnvendorspecificevents, mbnapi/IMbnVendorSpecificEvents
 ms.topic: interface
-f1_keywords: 
- - "mbnapi/IMbnVendorSpecificEvents"
+f1_keywords:
+- mbnapi/IMbnVendorSpecificEvents
 dev_langs:
- - c++
+- c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mbnapi.h
+- mbnapi.h
 api_name:
- - IMbnVendorSpecificEvents
+- IMbnVendorSpecificEvents
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:certenroll.IX509ExtensionEnhancedKeyUsage.InitializeEncode
 title: IX509ExtensionEnhancedKeyUsage::InitializeEncode (certenroll.h)
-
 description: Initializes the extension from a collection of IObjectId object identifiers (OIDs) that specify the intended uses of the public key.
 old-location: security\ix509extensionenhancedkeyusage_initializeencode_method.htm
 tech.root: seccertenroll
 ms.assetid: 6cb12736-db5d-4d65-b32f-4bd11ceea01d
-
 ms.date: 12/05/2018
 ms.keywords: IX509ExtensionEnhancedKeyUsage interface [Security],InitializeEncode method, IX509ExtensionEnhancedKeyUsage.InitializeEncode, IX509ExtensionEnhancedKeyUsage::InitializeEncode, InitializeEncode, InitializeEncode method [Security], InitializeEncode method [Security],IX509ExtensionEnhancedKeyUsage interface, certenroll/IX509ExtensionEnhancedKeyUsage::InitializeEncode, security.ix509extensionenhancedkeyusage_initializeencode_method
 ms.topic: method
-f1_keywords: 
- - "certenroll/IX509ExtensionEnhancedKeyUsage.InitializeEncode"
+f1_keywords:
+- certenroll/IX509ExtensionEnhancedKeyUsage.InitializeEncode
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: CertEnroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CertEnroll.dll
+- CertEnroll.dll
 api_name:
- - IX509ExtensionEnhancedKeyUsage.InitializeEncode
+- IX509ExtensionEnhancedKeyUsage.InitializeEncode
 targetos: Windows
 req.typenames: 
 req.redist: 

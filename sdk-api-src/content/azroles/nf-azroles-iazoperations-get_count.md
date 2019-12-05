@@ -1,19 +1,17 @@
 ---
 UID: NF:azroles.IAzOperations.get_Count
 title: IAzOperations::get_Count (azroles.h)
-
 description: Retrieves the number of IAzOperation objects in the collection.
 old-location: security\iazoperations_count.htm
 tech.root: SecAuthZ
 ms.assetid: 665fdf1f-4606-4cfc-b33b-6bae4ce3b6c9
-
 ms.date: 12/05/2018
 ms.keywords: AzOperations object [Security],Count property, Count property [Security], Count property [Security],AzOperations object, Count property [Security],IAzOperations interface, IAzOperations interface [Security],Count property, IAzOperations.Count, IAzOperations.get_Count, IAzOperations::Count, IAzOperations::get_Count, azroles/IAzOperations::Count, azroles/IAzOperations::get_Count, get_Count, security.iazoperations_count
 ms.topic: method
-f1_keywords: 
- - "azroles/IAzOperations.Count"
+f1_keywords:
+- azroles/IAzOperations.Count
 dev_langs:
- - c++
+- c++
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Azroles.lib
 req.dll: Azroles.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Azroles.dll
+- Azroles.dll
 api_name:
- - IAzOperations.Count
- - IAzOperations.get_Count
- - AzOperations.Count
+- IAzOperations.Count
+- IAzOperations.get_Count
+- AzOperations.Count
 targetos: Windows
 req.typenames: 
 req.redist: Windows Server 2003 Administration Tools Pack on Windows XP

@@ -1,19 +1,17 @@
 ---
 UID: NF:xblidpauthmanager.IXblIdpAuthTokenResult.GetErrorCode
 title: IXblIdpAuthTokenResult::GetErrorCode (xblidpauthmanager.h)
-
 description: Reserved for Microsoft use.
 old-location: xblidp\ixblidpauthtokenresult_geterrorcode.htm
 tech.root: xblidp
 ms.assetid: 0870EC42-9E67-4A5F-A465-CDD8B152D257
-
 ms.date: 12/05/2018
 ms.keywords: GetErrorCode, GetErrorCode method, GetErrorCode method,IXblIdpAuthTokenResult interface, IXblIdpAuthTokenResult interface,GetErrorCode method, IXblIdpAuthTokenResult.GetErrorCode, IXblIdpAuthTokenResult::GetErrorCode, xblidp.ixblidpauthtokenresult_geterrorcode, xblidpauthmanager/IXblIdpAuthTokenResult::GetErrorCode
 ms.topic: method
-f1_keywords: 
- - "xblidpauthmanager/IXblIdpAuthTokenResult.GetErrorCode"
+f1_keywords:
+- xblidpauthmanager/IXblIdpAuthTokenResult.GetErrorCode
 dev_langs:
- - c++
+- c++
 req.header: xblidpauthmanager.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - XblIdpAuthManager.h
+- XblIdpAuthManager.h
 api_name:
- - IXblIdpAuthTokenResult.GetErrorCode
+- IXblIdpAuthTokenResult.GetErrorCode
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:rtworkq.RtwqScheduleWorkItem
 title: RtwqScheduleWorkItem function (rtworkq.h)
-
 description: Schedules an asynchronous operation to be completed after a specified interval.
 old-location: base\rtwqscheduleworkitem.htm
 tech.root: ProcThread
 ms.assetid: cfc22cfb-44fc-441b-826c-61f72cb0bd68
-
 ms.date: 12/05/2018
 ms.keywords: RtwqScheduleWorkItem, RtwqScheduleWorkItem function, base.rtwqscheduleworkitem, rtworkq/RtwqScheduleWorkItem
 ms.topic: function
-f1_keywords: 
- - "rtworkq/RtwqScheduleWorkItem"
+f1_keywords:
+- rtworkq/RtwqScheduleWorkItem
 dev_langs:
- - c++
+- c++
 req.header: rtworkq.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Rtworkq.lib
 req.dll: RTWorkQ.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - RTWorkQ.dll
+- RTWorkQ.dll
 api_name:
- - RtwqScheduleWorkItem
+- RtwqScheduleWorkItem
 targetos: Windows
 req.typenames: 
 req.redist: 

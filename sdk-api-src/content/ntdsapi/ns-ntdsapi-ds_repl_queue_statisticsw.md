@@ -1,19 +1,17 @@
 ---
 UID: NS:ntdsapi._DS_REPL_QUEUE_STATISTICSW
 title: DS_REPL_QUEUE_STATISTICSW (ntdsapi.h)
-
 description: Used to contain replication queue statistics.
 old-location: ad\ds_repl_queue_statisticsw.htm
 tech.root: ad
 ms.assetid: bfddd7ed-0ff4-46ca-84c2-39020acb37d0
-
 ms.date: 12/05/2018
 ms.keywords: DS_REPL_QUEUE_STATISTICSW, DS_REPL_QUEUE_STATISTICSW structure [Active Directory], DS_REPL_QUEUE_STATISTICSW_BLOB, _DS_REPL_QUEUE_STATISTICSW, ad.ds_repl_queue_statisticsw, ntdsapi/DS_REPL_QUEUE_STATISTICSW
 ms.topic: struct
-f1_keywords: 
- - "ntdsapi/DS_REPL_QUEUE_STATISTICSW"
+f1_keywords:
+- ntdsapi/DS_REPL_QUEUE_STATISTICSW
 dev_langs:
- - c++
+- c++
 req.header: ntdsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Ntdsapi.h
+- Ntdsapi.h
 api_name:
- - DS_REPL_QUEUE_STATISTICSW
+- DS_REPL_QUEUE_STATISTICSW
 targetos: Windows
 req.typenames: DS_REPL_QUEUE_STATISTICSW, DS_REPL_QUEUE_STATISTICSW_BLOB
 req.redist: 

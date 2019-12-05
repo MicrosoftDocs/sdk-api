@@ -1,19 +1,17 @@
 ---
 UID: NF:powersetting.PowerSettingUnregisterNotification
 title: PowerSettingUnregisterNotification function (powersetting.h)
-
 description: Cancels a registration to receive notification when a power setting changes.
 old-location: base\powersettingunregisternotification.htm
 tech.root: power
 ms.assetid: 9853c347-4528-43bb-8326-13bcd819b8a6
-
 ms.date: 12/05/2018
 ms.keywords: PowerSettingUnregisterNotification, PowerSettingUnregisterNotification function, base.powersettingunregisternotification, powersetting/PowerSettingUnregisterNotification, powrprof/PowerSettingUnregisterNotification
 ms.topic: function
-f1_keywords: 
- - "powersetting/PowerSettingUnregisterNotification"
+f1_keywords:
+- powersetting/PowerSettingUnregisterNotification
 dev_langs:
- - c++
+- c++
 req.header: powersetting.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Powrprof.lib
 req.dll: Powrprof.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Powrprof.dll
- - API-MS-Win-power-setting-l1-1-0.dll
+- Powrprof.dll
+- API-MS-Win-power-setting-l1-1-0.dll
 api_name:
- - PowerSettingUnregisterNotification
+- PowerSettingUnregisterNotification
 targetos: Windows
 req.typenames: 
 req.redist: 

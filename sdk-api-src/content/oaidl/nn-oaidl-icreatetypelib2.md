@@ -1,19 +1,17 @@
 ---
 UID: NN:oaidl.ICreateTypeLib2
 title: ICreateTypeLib2 (oaidl.h)
-
 description: Provides the methods for creating and managing the component or file that contains type information.
 old-location: automat\icreatetypelib2.htm
 tech.root: automat
 ms.assetid: 97378353-8c2d-493a-8ee9-42d33ab47d18
-
 ms.date: 12/05/2018
 ms.keywords: ICreateTypeLib2, ICreateTypeLib2 interface [Automation], ICreateTypeLib2 interface [Automation],described, _oa96_ICreateTypeLib2_Interface, automat.icreatetypelib2, oaidl/ICreateTypeLib2
 ms.topic: interface
-f1_keywords: 
- - "oaidl/ICreateTypeLib2"
+f1_keywords:
+- oaidl/ICreateTypeLib2
 dev_langs:
- - c++
+- c++
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - oaidl.h
+- oaidl.h
 api_name:
- - ICreateTypeLib2
+- ICreateTypeLib2
 targetos: Windows
 req.typenames: 
 req.redist: 

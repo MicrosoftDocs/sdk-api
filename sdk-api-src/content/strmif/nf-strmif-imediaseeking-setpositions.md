@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IMediaSeeking.SetPositions
 title: IMediaSeeking::SetPositions (strmif.h)
-
 description: The SetPositions method sets the current position and the stop position.
 old-location: dshow\imediaseeking_setpositions.htm
 tech.root: DirectShow
 ms.assetid: aa1369fd-a57a-4246-bb23-969f6ce3cad8
-
 ms.date: 12/05/2018
 ms.keywords: IMediaSeeking interface [DirectShow],SetPositions method, IMediaSeeking.SetPositions, IMediaSeeking::SetPositions, IMediaSeekingSetPositions, SetPositions, SetPositions method [DirectShow], SetPositions method [DirectShow],IMediaSeeking interface, dshow.imediaseeking_setpositions, strmif/IMediaSeeking::SetPositions
 ms.topic: method
-f1_keywords: 
- - "strmif/IMediaSeeking.SetPositions"
+f1_keywords:
+- strmif/IMediaSeeking.SetPositions
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IMediaSeeking.SetPositions
+- IMediaSeeking.SetPositions
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:shlobj_core.SHRestricted
 title: SHRestricted function (shlobj_core.h)
-
 description: SHRestricted may be altered or unavailable.
 old-location: shell\SHRestricted.htm
 tech.root: shell
 ms.assetid: 94adf343-3879-455a-9770-70460cf383ca
-
 ms.date: 12/05/2018
 ms.keywords: SHRestricted, SHRestricted function [Windows Shell], _win32_SHRestricted, shell.SHRestricted, shlobj_core/SHRestricted
 ms.topic: function
-f1_keywords: 
- - "shlobj_core/SHRestricted"
+f1_keywords:
+- shlobj_core/SHRestricted
 dev_langs:
- - c++
+- c++
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Shell32.lib
 req.dll: Shell32.dll (version 5.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Shell32.dll
- - ext-ms-win-shell-shell32-l1-2-1.dll
- - Ext-MS-Win-Shell-Shell32-L1-2-2.dll
+- Shell32.dll
+- ext-ms-win-shell-shell32-l1-2-1.dll
+- Ext-MS-Win-Shell-Shell32-L1-2-2.dll
 api_name:
- - SHRestricted
+- SHRestricted
 targetos: Windows
 req.typenames: 
 req.redist: 

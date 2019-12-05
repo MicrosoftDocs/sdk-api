@@ -1,19 +1,17 @@
 ---
 UID: NF:traceloggingprovider.TraceLoggingRegisterEx
 title: TraceLoggingRegisterEx function (traceloggingprovider.h)
-
 description: Registers a TraceLogging provider with callback so that it can be used for to log events.
 old-location: tracelogging\traceloggingregisterex.htm
 tech.root: tracelogging
 ms.assetid: E64B3855-A43B-489B-8A73-930D65FA5F79
-
 ms.date: 12/05/2018
 ms.keywords: TraceLoggingRegisterEx, TraceLoggingRegisterEx function, tracelogging.traceloggingregisterex, traceloggingprovider/TraceLoggingRegisterEx
 ms.topic: function
-f1_keywords: 
- - "traceloggingprovider/TraceLoggingRegisterEx"
+f1_keywords:
+- traceloggingprovider/TraceLoggingRegisterEx
 dev_langs:
- - c++
+- c++
 req.header: traceloggingprovider.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Advapi32.lib
 req.dll: N/A
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - N/A
+- N/A
 api_name:
- - TraceLoggingRegisterEx
+- TraceLoggingRegisterEx
 targetos: Windows
 req.typenames: 
 req.redist: 

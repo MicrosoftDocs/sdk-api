@@ -1,19 +1,17 @@
 ---
 UID: NF:mprapi.MprInfoBlockFind
 title: MprInfoBlockFind function (mprapi.h)
-
 description: The MprInfoBlockFind function locates a specified block in an information header, and retrieves information about the block.
 old-location: rras\mprinfoblockfind.htm
 tech.root: RRAS
 ms.assetid: fd9a048b-03fb-4fe9-9f72-df07b35dd804
-
 ms.date: 12/05/2018
 ms.keywords: MprInfoBlockFind, MprInfoBlockFind function [RAS], _mpr_mprinfoblockfind, mprapi/MprInfoBlockFind, rras.mprinfoblockfind
 ms.topic: function
-f1_keywords: 
- - "mprapi/MprInfoBlockFind"
+f1_keywords:
+- mprapi/MprInfoBlockFind
 dev_langs:
- - c++
+- c++
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Mprapi.lib
 req.dll: Mprapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Mprapi.dll
+- Mprapi.dll
 api_name:
- - MprInfoBlockFind
+- MprInfoBlockFind
 targetos: Windows
 req.typenames: 
 req.redist: 

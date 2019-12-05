@@ -1,19 +1,17 @@
 ---
 UID: NN:netfw.INetFwAuthorizedApplications
 title: INetFwAuthorizedApplications (netfw.h)
-
 description: The INetFwAuthorizedApplications interface provides access to a collection of applications authorized open ports in the firewall.
 old-location: ics\inetfwauthorizedapplications.htm
 tech.root: ics
 ms.assetid: 70ea2cd1-5422-4db1-ab84-9924dab5623d
-
 ms.date: 12/05/2018
 ms.keywords: INetFwAuthorizedApplications, INetFwAuthorizedApplications interface [ICS/ICF], INetFwAuthorizedApplications interface [ICS/ICF],described, ics.inetfwauthorizedapplications, netfw/INetFwAuthorizedApplications
 ms.topic: interface
-f1_keywords: 
- - "netfw/INetFwAuthorizedApplications"
+f1_keywords:
+- netfw/INetFwAuthorizedApplications
 dev_langs:
- - c++
+- c++
 req.header: netfw.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: FirewallAPI.dll; Hnetcfg.dll on Windows XP with SP2
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - FirewallAPI.dll
- - Hnetcfg.dll
+- FirewallAPI.dll
+- Hnetcfg.dll
 api_name:
- - INetFwAuthorizedApplications
+- INetFwAuthorizedApplications
 targetos: Windows
 req.typenames: 
 req.redist: 

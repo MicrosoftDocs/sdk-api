@@ -1,19 +1,17 @@
 ---
 UID: NS:ntsecapi._PKU2U_CERT_BLOB
 title: PKU2U_CERT_BLOB (ntsecapi.h)
-
 description: Specifies PKU2U certificate data.
 old-location: security\pku2u_cert_blob.htm
 tech.root: SecAuthN
 ms.assetid: f840e81e-3fed-4d05-8ac4-b19ce0267517
-
 ms.date: 12/05/2018
-ms.keywords: "*PPKU2U_CERT_BLOB, PKU2U_CERT_BLOB, PKU2U_CERT_BLOB structure [Security], PPKU2U_CERT_BLOB, PPKU2U_CERT_BLOB structure pointer [Security], ntsecapi/PKU2U_CERT_BLOB, ntsecapi/PPKU2U_CERT_BLOB, security.pku2u_cert_blob"
+ms.keywords: '*PPKU2U_CERT_BLOB, PKU2U_CERT_BLOB, PKU2U_CERT_BLOB structure [Security], PPKU2U_CERT_BLOB, PPKU2U_CERT_BLOB structure pointer [Security], ntsecapi/PKU2U_CERT_BLOB, ntsecapi/PPKU2U_CERT_BLOB, security.pku2u_cert_blob'
 ms.topic: struct
-f1_keywords: 
- - "ntsecapi/PKU2U_CERT_BLOB"
+f1_keywords:
+- ntsecapi/PKU2U_CERT_BLOB
 dev_langs:
- - c++
+- c++
 req.header: ntsecapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Ntsecapi.h
+- Ntsecapi.h
 api_name:
- - PKU2U_CERT_BLOB
+- PKU2U_CERT_BLOB
 targetos: Windows
 req.typenames: PKU2U_CERT_BLOB, *PPKU2U_CERT_BLOB
 req.redist: 

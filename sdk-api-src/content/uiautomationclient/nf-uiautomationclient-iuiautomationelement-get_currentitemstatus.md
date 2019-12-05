@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationElement.get_CurrentItemStatus
 title: IUIAutomationElement::get_CurrentItemStatus (uiautomationclient.h)
-
 description: Retrieves the description of the status of an item in an element.
 old-location: winauto\uiauto_IUIAutomationElement_CurrentItemStatus.htm
 tech.root: WinAuto
 ms.assetid: a0bac87a-96ad-4b5a-9179-3149580cb18c
-
 ms.date: 12/05/2018
 ms.keywords: CurrentItemStatus property [Windows Accessibility], CurrentItemStatus property [Windows Accessibility],IUIAutomationElement interface, IUIAutomationElement interface [Windows Accessibility],CurrentItemStatus property, IUIAutomationElement.CurrentItemStatus, IUIAutomationElement.get_CurrentItemStatus, IUIAutomationElement::CurrentItemStatus, IUIAutomationElement::get_CurrentItemStatus, get_CurrentItemStatus, uiauto.uiauto_IUIAutomationElement_CurrentItemStatus, uiauto_IUIAutomationElement_CurrentItemStatus, uiautomationclient/IUIAutomationElement::CurrentItemStatus, uiautomationclient/IUIAutomationElement::get_CurrentItemStatus, winauto.uiauto_IUIAutomationElement_CurrentItemStatus
 ms.topic: method
-f1_keywords: 
- - "uiautomationclient/IUIAutomationElement.CurrentItemStatus"
+f1_keywords:
+- uiautomationclient/IUIAutomationElement.CurrentItemStatus
 dev_langs:
- - c++
+- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationClient.h
+- UIAutomationClient.h
 api_name:
- - IUIAutomationElement.CurrentItemStatus
- - IUIAutomationElement.get_CurrentItemStatus
+- IUIAutomationElement.CurrentItemStatus
+- IUIAutomationElement.get_CurrentItemStatus
 targetos: Windows
 req.typenames: 
 req.redist: 

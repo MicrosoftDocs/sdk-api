@@ -1,19 +1,17 @@
 ---
 UID: NF:d2d1_1.ID2D1Factory1.GetRegisteredEffects
 title: ID2D1Factory1::GetRegisteredEffects (d2d1_1.h)
-
 description: Returns the class IDs of the currently registered effects and global effects on this factory.
 old-location: direct2d\id2d1factory1_getregisteredeffects.htm
 tech.root: Direct2D
 ms.assetid: c3363411-908f-4b02-b77e-ca563094f9a5
-
 ms.date: 12/05/2018
 ms.keywords: GetRegisteredEffects, GetRegisteredEffects method [Direct2D], GetRegisteredEffects method [Direct2D],ID2D1Factory1 interface, ID2D1Factory1 interface [Direct2D],GetRegisteredEffects method, ID2D1Factory1.GetRegisteredEffects, ID2D1Factory1::GetRegisteredEffects, d2d1_1/ID2D1Factory1::GetRegisteredEffects, direct2d.id2d1factory1_getregisteredeffects
 ms.topic: method
 f1_keywords:
 - d2d1_1/ID2D1Factory1.GetRegisteredEffects
 dev_langs:
- - c++
+- c++
 req.header: d2d1_1.h
 req.include-header: 
 req.target-type: Windows

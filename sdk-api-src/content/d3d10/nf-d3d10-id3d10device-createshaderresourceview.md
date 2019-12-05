@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d10.ID3D10Device.CreateShaderResourceView
 title: ID3D10Device::CreateShaderResourceView (d3d10.h)
-
 description: Create a shader-resource view for accessing data in a resource.
 old-location: direct3d10\id3d10device_createshaderresourceview.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10device_createshaderresourceview.htm
-
 ms.date: 12/05/2018
 ms.keywords: 0714089a-e113-6e43-f46d-91d40fd54005, CreateShaderResourceView, CreateShaderResourceView method [Direct3D 10], CreateShaderResourceView method [Direct3D 10],ID3D10Device interface, ID3D10Device interface [Direct3D 10],CreateShaderResourceView method, ID3D10Device.CreateShaderResourceView, ID3D10Device::CreateShaderResourceView, d3d10/ID3D10Device::CreateShaderResourceView, direct3d10.id3d10device_createshaderresourceview
 ms.topic: method
-f1_keywords: 
- - "d3d10/ID3D10Device.CreateShaderResourceView"
+f1_keywords:
+- d3d10/ID3D10Device.CreateShaderResourceView
 dev_langs:
- - c++
+- c++
 req.header: d3d10.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: D3D10.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D10.lib
- - D3D10.dll
+- D3D10.lib
+- D3D10.dll
 api_name:
- - ID3D10Device.CreateShaderResourceView
+- ID3D10Device.CreateShaderResourceView
 targetos: Windows
 req.typenames: 
 req.redist: 

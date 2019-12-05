@@ -1,19 +1,17 @@
 ---
 UID: NF:spatialaudioclient.ISpatialAudioObjectRenderStreamBase.Start
 title: ISpatialAudioObjectRenderStreamBase::Start (spatialaudioclient.h)
-
 description: Starts the spatial audio stream.
 old-location: coreaudio\ispatialaudioobjectrenderstream_start.htm
 tech.root: CoreAudio
 ms.assetid: 25D968AC-F5D2-4CAB-87ED-29FC63E5A5A4
-
 ms.date: 12/05/2018
 ms.keywords: ISpatialAudioObjectRenderStreamBase interface [Core Audio],Start method, ISpatialAudioObjectRenderStreamBase.Start, ISpatialAudioObjectRenderStreamBase::Start, Start, Start method [Core Audio], Start method [Core Audio],ISpatialAudioObjectRenderStreamBase interface, coreaudio.ispatialaudioobjectrenderstream_start, spatialaudioclient/ISpatialAudioObjectRenderStreamBase::Start
 ms.topic: method
-f1_keywords: 
- - "spatialaudioclient/ISpatialAudioObjectRenderStreamBase.Start"
+f1_keywords:
+- spatialaudioclient/ISpatialAudioObjectRenderStreamBase.Start
 dev_langs:
- - c++
+- c++
 req.header: spatialaudioclient.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - spatialaudioclient.h
+- spatialaudioclient.h
 api_name:
- - ISpatialAudioObjectRenderStreamBase.Start
+- ISpatialAudioObjectRenderStreamBase.Start
 targetos: Windows
 req.typenames: 
 req.redist: 

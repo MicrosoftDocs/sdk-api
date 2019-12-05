@@ -1,19 +1,17 @@
 ---
 UID: NF:netcon.IEnumNetSharingPublicConnection.Next
 title: IEnumNetSharingPublicConnection::Next (netcon.h)
-
 description: The Next method retrieves the specified number of privately-shared connections that start from the current enumeration position.
 old-location: ics\ienumnetsharingpublicconnection_next.htm
 tech.root: ics
 ms.assetid: 36df4f20-785f-4335-ba75-094533068685
-
 ms.date: 12/05/2018
 ms.keywords: IEnumNetSharingPublicConnection interface [ICS/ICF],Next method, IEnumNetSharingPublicConnection.Next, IEnumNetSharingPublicConnection::Next, Next, Next method [ICS/ICF], Next method [ICS/ICF],IEnumNetSharingPublicConnection interface, _ics_ienumnetsharingpublicconnection_next, ics.ienumnetsharingpublicconnection_next, netcon/IEnumNetSharingPublicConnection::Next
 ms.topic: method
-f1_keywords: 
- - "netcon/IEnumNetSharingPublicConnection.Next"
+f1_keywords:
+- netcon/IEnumNetSharingPublicConnection.Next
 dev_langs:
- - c++
+- c++
 req.header: netcon.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Hnetcfg.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Hnetcfg.dll
+- Hnetcfg.dll
 api_name:
- - IEnumNetSharingPublicConnection.Next
+- IEnumNetSharingPublicConnection.Next
 targetos: Windows
 req.typenames: 
 req.redist: 

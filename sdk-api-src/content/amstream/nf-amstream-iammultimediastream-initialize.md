@@ -1,19 +1,17 @@
 ---
 UID: NF:amstream.IAMMultiMediaStream.Initialize
 title: IAMMultiMediaStream::Initialize (amstream.h)
-
 description: Note  This interface is deprecated. New applications should not use it. The Initialize method initializes the multimedia stream object.
 old-location: dshow\iammultimediastream_initialize.htm
 tech.root: DirectShow
 ms.assetid: c9c3295e-716f-4093-b437-f6c405f5bc7b
-
 ms.date: 12/05/2018
 ms.keywords: IAMMultiMediaStream interface [DirectShow],Initialize method, IAMMultiMediaStream.Initialize, IAMMultiMediaStream::Initialize, IAMMultiMediaStreamInitialize, Initialize, Initialize method [DirectShow], Initialize method [DirectShow],IAMMultiMediaStream interface, amstream/IAMMultiMediaStream::Initialize, dshow.iammultimediastream_initialize
 ms.topic: method
-f1_keywords: 
- - "amstream/IAMMultiMediaStream.Initialize"
+f1_keywords:
+- amstream/IAMMultiMediaStream.Initialize
 dev_langs:
- - c++
+- c++
 req.header: amstream.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - amstream.h
+- amstream.h
 api_name:
- - IAMMultiMediaStream.Initialize
+- IAMMultiMediaStream.Initialize
 targetos: Windows
 req.typenames: 
 req.redist: 

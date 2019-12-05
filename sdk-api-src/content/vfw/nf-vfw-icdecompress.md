@@ -1,19 +1,17 @@
 ---
 UID: NF:vfw.ICDecompress
 title: ICDecompress function (vfw.h)
-
 description: The ICDecompress function decompresses a single video frame.
 old-location: multimedia\icdecompress.htm
 tech.root: Multimedia
 ms.assetid: 779b63db-6b1d-4eb5-9df5-bb847b35863d
-
 ms.date: 12/05/2018
 ms.keywords: ICDecompress, ICDecompress function [Windows Multimedia], _win32_ICDecompress, multimedia.icdecompress, vfw/ICDecompress
 ms.topic: function
-f1_keywords: 
- - "vfw/ICDecompress"
+f1_keywords:
+- vfw/ICDecompress
 dev_langs:
- - c++
+- c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Vfw32.lib
 req.dll: Msvfw32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Msvfw32.dll
+- Msvfw32.dll
 api_name:
- - ICDecompress
+- ICDecompress
 targetos: Windows
 req.typenames: 
 req.redist: 

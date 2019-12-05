@@ -1,19 +1,17 @@
 ---
 UID: NN:windows.media.streaming.IDevicePair
 title: IDevicePair (windows.media.streaming.h)
-
 description: Represents a pair of ActiveBasicDevice objects which is comprised of a renderer and a server.
 old-location: mediastreaming\idevicepair.htm
 tech.root: mediastreaming
 ms.assetid: 0129ABDA-E634-4236-A3A9-76C94D35D052
-
 ms.date: 12/05/2018
 ms.keywords: IDevicePair, IDevicePair interface [Media Streaming API], IDevicePair interface [Media Streaming API],described, mediastreaming.idevicepair, windows/IDevicePair
 ms.topic: interface
-f1_keywords: 
- - "windows.media.streaming/IDevicePair"
+f1_keywords:
+- windows.media.streaming/IDevicePair
 dev_langs:
- - c++
+- c++
 req.header: windows.media.streaming.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: PlayToDevice.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - PlayToDevice.dll
+- PlayToDevice.dll
 api_name:
- - IDevicePair
+- IDevicePair
 targetos: Windows
 req.typenames: 
 req.redist: 

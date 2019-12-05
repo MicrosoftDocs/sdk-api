@@ -1,19 +1,17 @@
 ---
 UID: NF:propsys.IPersistSerializedPropStorage2.GetPropertyStorageSize
 title: IPersistSerializedPropStorage2::GetPropertyStorageSize (propsys.h)
-
 description: Gets the size of serialized property storage data from the property store instance.
 old-location: shell\IPersistSerializedPropStorage2_GetPropertyStorageSize.htm
 tech.root: shell
 ms.assetid: 90fe3148-457e-4d29-a117-b0b0e0df92c4
-
 ms.date: 12/05/2018
 ms.keywords: GetPropertyStorageSize, GetPropertyStorageSize method [Windows Shell], GetPropertyStorageSize method [Windows Shell],IPersistSerializedPropStorage2 interface, IPersistSerializedPropStorage2 interface [Windows Shell],GetPropertyStorageSize method, IPersistSerializedPropStorage2.GetPropertyStorageSize, IPersistSerializedPropStorage2::GetPropertyStorageSize, _shell_IPersistSerializedPropStorage2_GetPropertyStorageSize, propsys/IPersistSerializedPropStorage2::GetPropertyStorageSize, shell.IPersistSerializedPropStorage2_GetPropertyStorageSize
 ms.topic: method
-f1_keywords: 
- - "propsys/IPersistSerializedPropStorage2.GetPropertyStorageSize"
+f1_keywords:
+- propsys/IPersistSerializedPropStorage2.GetPropertyStorageSize
 dev_langs:
- - c++
+- c++
 req.header: propsys.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Propsys.h
+- Propsys.h
 api_name:
- - IPersistSerializedPropStorage2.GetPropertyStorageSize
+- IPersistSerializedPropStorage2.GetPropertyStorageSize
 targetos: Windows
 req.typenames: 
 req.redist: 

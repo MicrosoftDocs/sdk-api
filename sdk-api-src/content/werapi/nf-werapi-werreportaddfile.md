@@ -1,19 +1,17 @@
 ---
 UID: NF:werapi.WerReportAddFile
 title: WerReportAddFile function (werapi.h)
-
 description: Adds a file to the specified report.
 old-location: wer\werreportaddfile.htm
 tech.root: wer
 ms.assetid: 4b2c2060-a193-4168-90fc-afb95c160569
-
 ms.date: 12/05/2018
 ms.keywords: WER_FILE_ANONYMOUS_DATA, WER_FILE_DELETE_WHEN_DONE, WerFileTypeHeapdump, WerFileTypeMicrodump, WerFileTypeMinidump, WerFileTypeOther, WerFileTypeUserDocument, WerReportAddFile, WerReportAddFile function [Windows Error Reporting], base.werreportaddfile, wer.werreportaddfile, werapi/WerReportAddFile
 ms.topic: function
-f1_keywords: 
- - "werapi/WerReportAddFile"
+f1_keywords:
+- werapi/WerReportAddFile
 dev_langs:
- - c++
+- c++
 req.header: werapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Wer.lib
 req.dll: Wer.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Wer.dll
- - Ext-MS-Win-wer-reporting-l1-1-0.dll
- - errorhandlingext.dll
- - Ext-MS-Win-Wer-Reporting-L1-1-1.dll
+- Wer.dll
+- Ext-MS-Win-wer-reporting-l1-1-0.dll
+- errorhandlingext.dll
+- Ext-MS-Win-Wer-Reporting-L1-1-1.dll
 api_name:
- - WerReportAddFile
+- WerReportAddFile
 targetos: Windows
 req.typenames: 
 req.redist: 

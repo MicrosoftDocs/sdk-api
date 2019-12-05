@@ -1,19 +1,17 @@
 ---
 UID: NN:comcat.ICatInformation
 title: ICatInformation (comcat.h)
-
 description: Obtains information about the categories implemented or required by a certain class, as well as information about the categories registered on the specified computer.
 old-location: com\icatinformation.htm
 tech.root: com
 ms.assetid: 1fd68126-b512-4131-8e93-cea7c1c3e9c0
-
 ms.date: 12/05/2018
 ms.keywords: ICatInformation, ICatInformation interface [COM], ICatInformation interface [COM],described, _com_icatinformation, com.icatinformation, comcat/ICatInformation
 ms.topic: interface
-f1_keywords: 
- - "comcat/ICatInformation"
+f1_keywords:
+- comcat/ICatInformation
 dev_langs:
- - c++
+- c++
 req.header: comcat.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComCat.h
+- ComCat.h
 api_name:
- - ICatInformation
+- ICatInformation
 targetos: Windows
 req.typenames: 
 req.redist: 

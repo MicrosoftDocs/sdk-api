@@ -1,19 +1,17 @@
 ---
 UID: NE:wbemdisp.WbemComparisonFlagEnum
 title: WbemComparisonFlagEnum (wbemdisp.h)
-
 description: Define the settings for object comparison and are used by SWbemObject.CompareTo_.
 old-location: wmi\wbemcomparisonflagenum.htm
 tech.root: WmiSdk
 ms.assetid: 83fda164-1e98-499b-b599-f999e69ad501
-
 ms.date: 12/05/2018
 ms.keywords: WbemComparisonFlagEnum, WbemComparisonFlagEnum enumeration [Windows Management Instrumentation], _hmm_wbemcomparisonflagenum, wbemComparisonFlagIgnoreCase, wbemComparisonFlagIgnoreClass, wbemComparisonFlagIgnoreDefaultValues, wbemComparisonFlagIgnoreFlavor, wbemComparisonFlagIgnoreObjectSource, wbemComparisonFlagIgnoreQualifiers, wbemComparisonFlagIncludeAll, wbemdisp/WbemComparisonFlagEnum, wbemdisp/wbemComparisonFlagIgnoreCase, wbemdisp/wbemComparisonFlagIgnoreClass, wbemdisp/wbemComparisonFlagIgnoreDefaultValues, wbemdisp/wbemComparisonFlagIgnoreFlavor, wbemdisp/wbemComparisonFlagIgnoreObjectSource, wbemdisp/wbemComparisonFlagIgnoreQualifiers, wbemdisp/wbemComparisonFlagIncludeAll, wmi.wbemcomparisonflagenum
 ms.topic: enum
-f1_keywords: 
- - "wbemdisp/WbemComparisonFlagEnum"
+f1_keywords:
+- wbemdisp/WbemComparisonFlagEnum
 dev_langs:
- - c++
+- c++
 req.header: wbemdisp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wbemdisp.h
+- Wbemdisp.h
 api_name:
- - WbemComparisonFlagEnum
+- WbemComparisonFlagEnum
 targetos: Windows
 req.typenames: WbemComparisonFlagEnum
 req.redist: 

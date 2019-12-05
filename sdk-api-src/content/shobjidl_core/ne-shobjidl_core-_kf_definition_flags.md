@@ -1,19 +1,17 @@
 ---
 UID: NE:shobjidl_core._KF_DEFINITION_FLAGS
 title: _KF_DEFINITION_FLAGS (shobjidl_core.h)
-
 description: Flags that specify certain known folder behaviors. Used with the KNOWNFOLDER_DEFINITION structure.
 old-location: shell\KF_DEFINITION_FLAGS.htm
 tech.root: shell
 ms.assetid: c5267aea-19b7-4e4a-a443-24674a6ae608
-
 ms.date: 12/05/2018
 ms.keywords: KFDF_LOCAL_REDIRECT_ONLY, KFDF_NO_REDIRECT_UI, KFDF_PRECREATE, KFDF_PUBLISHEXPANDEDPATH, KFDF_ROAMABLE, KFDF_STREAM, KF_DEFINITION_FLAGS, KF_DEFINITION_FLAGS enumeration [Windows Shell], _KF_DEFINITION_FLAGS, _shell_KF_DEFINITION_FLAGS, shell.KF_DEFINITION_FLAGS, shobjidl_core/KFDF_LOCAL_REDIRECT_ONLY, shobjidl_core/KFDF_NO_REDIRECT_UI, shobjidl_core/KFDF_PRECREATE, shobjidl_core/KFDF_PUBLISHEXPANDEDPATH, shobjidl_core/KFDF_ROAMABLE, shobjidl_core/KFDF_STREAM, shobjidl_core/KF_DEFINITION_FLAGS
 ms.topic: enum
-f1_keywords: 
- - "shobjidl_core/KF_DEFINITION_FLAGS"
+f1_keywords:
+- shobjidl_core/KF_DEFINITION_FLAGS
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - KF_DEFINITION_FLAGS
+- KF_DEFINITION_FLAGS
 targetos: Windows
 req.typenames: 
 req.redist: 

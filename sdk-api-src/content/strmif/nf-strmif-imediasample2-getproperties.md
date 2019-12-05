@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IMediaSample2.GetProperties
 title: IMediaSample2::GetProperties (strmif.h)
-
 description: The GetProperties method retrieves the properties of a media sample.
 old-location: dshow\imediasample2_getproperties.htm
 tech.root: DirectShow
 ms.assetid: ef20deed-f906-459a-8c2a-f1c929ade9ac
-
 ms.date: 12/05/2018
 ms.keywords: GetProperties, GetProperties method [DirectShow], GetProperties method [DirectShow],IMediaSample2 interface, IMediaSample2 interface [DirectShow],GetProperties method, IMediaSample2.GetProperties, IMediaSample2::GetProperties, IMediaSample2GetProperties, dshow.imediasample2_getproperties, strmif/IMediaSample2::GetProperties
 ms.topic: method
-f1_keywords: 
- - "strmif/IMediaSample2.GetProperties"
+f1_keywords:
+- strmif/IMediaSample2.GetProperties
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IMediaSample2.GetProperties
+- IMediaSample2.GetProperties
 targetos: Windows
 req.typenames: 
 req.redist: 

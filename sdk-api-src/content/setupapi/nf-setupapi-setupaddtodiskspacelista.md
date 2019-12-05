@@ -1,19 +1,17 @@
 ---
 UID: NF:setupapi.SetupAddToDiskSpaceListA
 title: SetupAddToDiskSpaceListA function (setupapi.h)
-
 description: The SetupAddToDiskSpaceList function adds a single delete or copy operation to a disk-space list. To add all the file operations in a section of an INF file, use either SetupAddSectionToDiskSpaceList, or SetupAddInstallSectionToDiskSpaceList.
 old-location: setup\setupaddtodiskspacelist.htm
 tech.root: SetupApi
 ms.assetid: f1bb7096-b4a6-450b-9552-9a3dc4c71f24
-
 ms.date: 12/05/2018
 ms.keywords: FILEOP_COPY., FILEOP_DELETE, SetupAddToDiskSpaceList, SetupAddToDiskSpaceList function [Setup API], SetupAddToDiskSpaceListA, SetupAddToDiskSpaceListW, _setupapi_setupaddtodiskspacelist, setup.setupaddtodiskspacelist, setupapi/SetupAddToDiskSpaceList, setupapi/SetupAddToDiskSpaceListA, setupapi/SetupAddToDiskSpaceListW
 ms.topic: function
-f1_keywords: 
- - "setupapi/SetupAddToDiskSpaceList"
+f1_keywords:
+- setupapi/SetupAddToDiskSpaceList
 dev_langs:
- - c++
+- c++
 req.header: setupapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Setupapi.lib
 req.dll: Setupapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Setupapi.dll
+- Setupapi.dll
 api_name:
- - SetupAddToDiskSpaceList
- - SetupAddToDiskSpaceListA
- - SetupAddToDiskSpaceListW
+- SetupAddToDiskSpaceList
+- SetupAddToDiskSpaceListA
+- SetupAddToDiskSpaceListW
 targetos: Windows
 req.typenames: 
 req.redist: 

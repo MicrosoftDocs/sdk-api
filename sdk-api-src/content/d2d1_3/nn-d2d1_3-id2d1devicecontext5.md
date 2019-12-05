@@ -1,19 +1,17 @@
 ---
 UID: NN:d2d1_3.ID2D1DeviceContext5
 title: ID2D1DeviceContext5 (d2d1_3.h)
-
 description: This interface performs all the same functions as the ID2D1DeviceContext4 interface, plus it enables the creation of color contexts and Svg documents.
 old-location: direct2d\id2d1devicecontext5.htm
 tech.root: Direct2D
 ms.assetid: 38689191-3315-44F3-A259-DC1EB378485D
-
 ms.date: 12/05/2018
 ms.keywords: ID2D1DeviceContext5, ID2D1DeviceContext5 interface [Direct2D], ID2D1DeviceContext5 interface [Direct2D],described, d2d1_3/ID2D1DeviceContext5, direct2d.id2d1devicecontext5
 ms.topic: interface
-f1_keywords: 
- - "d2d1_3/ID2D1DeviceContext5"
+f1_keywords:
+- d2d1_3/ID2D1DeviceContext5
 dev_langs:
- - c++
+- c++
 req.header: d2d1_3.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: D2d1.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D2d1.dll
+- D2d1.dll
 api_name:
- - ID2D1DeviceContext5
+- ID2D1DeviceContext5
 targetos: Windows
 req.typenames: 
 req.redist: 

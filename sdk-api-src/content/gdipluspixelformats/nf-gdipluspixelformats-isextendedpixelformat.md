@@ -1,19 +1,17 @@
 ---
 UID: NF:gdipluspixelformats.IsExtendedPixelFormat
 title: IsExtendedPixelFormat function (gdipluspixelformats.h)
-
 description: The IsExtendedPixelFormat method determines whether a specified pixel format uses 16 bits per color channel.
 old-location: gdiplus\_gdiplus_FUNC_IsExtendedPixelFormat_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\functions\isextendedpixelformat.htm
-
 ms.date: 12/05/2018
 ms.keywords: IsExtendedPixelFormat, IsExtendedPixelFormat function [GDI+], _gdiplus_FUNC_IsExtendedPixelFormat_, gdiplus._gdiplus_FUNC_IsExtendedPixelFormat_, gdipluspixelformats/IsExtendedPixelFormat
 ms.topic: function
-f1_keywords: 
- - "gdipluspixelformats/IsExtendedPixelFormat"
+f1_keywords:
+- gdipluspixelformats/IsExtendedPixelFormat
 dev_langs:
- - c++
+- c++
 req.header: gdipluspixelformats.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Gdiplus.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - LibDef
+- LibDef
 api_location:
- - Gdiplus.lib
- - Gdiplus.dll
+- Gdiplus.lib
+- Gdiplus.dll
 api_name:
- - IsExtendedPixelFormat
+- IsExtendedPixelFormat
 targetos: Windows
 req.typenames: 
 req.redist: 

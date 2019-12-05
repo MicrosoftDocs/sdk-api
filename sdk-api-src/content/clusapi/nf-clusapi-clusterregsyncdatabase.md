@@ -1,19 +1,17 @@
 ---
 UID: NF:clusapi.ClusterRegSyncDatabase
 title: ClusterRegSyncDatabase function (clusapi.h)
-
 description: Synchronizes the Cluster Database with a cluster.
 old-location: mscs\clusterregsyncdatabase.htm
 tech.root: MsCS
 ms.assetid: 90A66286-F17D-40AD-B0CB-6E02C1E1709A
-
 ms.date: 12/05/2018
 ms.keywords: ClusterRegSyncDatabase, ClusterRegSyncDatabase function [Failover Cluster], PCLUSAPI_CLUSTER_REG_SYNC_DATABASE, PCLUSAPI_CLUSTER_REG_SYNC_DATABASE function [Failover Cluster], clusapi/ClusterRegSyncDatabase, clusapi/PCLUSAPI_CLUSTER_REG_SYNC_DATABASE, mscs.clusterregsyncdatabase
 ms.topic: function
-f1_keywords: 
- - "clusapi/ClusterRegSyncDatabase"
+f1_keywords:
+- clusapi/ClusterRegSyncDatabase
 dev_langs:
- - c++
+- c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: ClusAPI.lib
 req.dll: ClusAPI.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - ClusAPI.dll
+- ClusAPI.dll
 api_name:
- - ClusterRegSyncDatabase
+- ClusterRegSyncDatabase
 targetos: Windows
 req.typenames: 
 req.redist: 

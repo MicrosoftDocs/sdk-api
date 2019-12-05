@@ -1,19 +1,17 @@
 ---
 UID: NF:comadmin.ICOMAdminCatalog2.ResumeApplicationInstances
 title: ICOMAdminCatalog2::ResumeApplicationInstances (comadmin.h)
-
 description: Resumes the specified application server processes.
 old-location: cos\icomadmincatalog2_resumeapplicationinstances.htm
 tech.root: cossdk
 ms.assetid: 675ecabc-1414-4cf6-b691-805e9a5cb61c
-
 ms.date: 12/05/2018
 ms.keywords: ICOMAdminCatalog2 interface [COM+],ResumeApplicationInstances method, ICOMAdminCatalog2.ResumeApplicationInstances, ICOMAdminCatalog2::ResumeApplicationInstances, ResumeApplicationInstances, ResumeApplicationInstances method [COM+], ResumeApplicationInstances method [COM+],ICOMAdminCatalog2 interface, _cos_icomadmincatalog2_ResumeApplicationInstances, comadmin/ICOMAdminCatalog2::ResumeApplicationInstances, cos.icomadmincatalog2_resumeapplicationinstances
 ms.topic: method
-f1_keywords: 
- - "comadmin/ICOMAdminCatalog2.ResumeApplicationInstances"
+f1_keywords:
+- comadmin/ICOMAdminCatalog2.ResumeApplicationInstances
 dev_langs:
- - c++
+- c++
 req.header: comadmin.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComAdmin.h
+- ComAdmin.h
 api_name:
- - ICOMAdminCatalog2.ResumeApplicationInstances
+- ICOMAdminCatalog2.ResumeApplicationInstances
 targetos: Windows
 req.typenames: 
 req.redist: 

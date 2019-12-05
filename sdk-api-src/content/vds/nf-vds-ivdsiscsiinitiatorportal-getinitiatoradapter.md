@@ -1,19 +1,17 @@
 ---
 UID: NF:vds.IVdsIscsiInitiatorPortal.GetInitiatorAdapter
 title: IVdsIscsiInitiatorPortal::GetInitiatorAdapter (vds.h)
-
 description: Returns the initiator adapter to which the initiator portal belongs.
 old-location: base\ivdsiscsiinitiatorportal_getinitiatoradapter.htm
 tech.root: VDS
 ms.assetid: fcdd2083-36e0-4924-9af0-87a9fe4711e0
-
 ms.date: 12/05/2018
 ms.keywords: GetInitiatorAdapter, GetInitiatorAdapter method [VDS], GetInitiatorAdapter method [VDS],IVdsIscsiInitiatorPortal interface, IVdsIscsiInitiatorPortal interface [VDS],GetInitiatorAdapter method, IVdsIscsiInitiatorPortal.GetInitiatorAdapter, IVdsIscsiInitiatorPortal::GetInitiatorAdapter, base.ivdsiscsiinitiatorportal_getinitiatoradapter, vds/IVdsIscsiInitiatorPortal::GetInitiatorAdapter
 ms.topic: method
-f1_keywords: 
- - "vds/IVdsIscsiInitiatorPortal.GetInitiatorAdapter"
+f1_keywords:
+- vds/IVdsIscsiInitiatorPortal.GetInitiatorAdapter
 dev_langs:
- - c++
+- c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Uuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Uuid.lib
- - Uuid.dll
+- Uuid.lib
+- Uuid.dll
 api_name:
- - IVdsIscsiInitiatorPortal.GetInitiatorAdapter
+- IVdsIscsiInitiatorPortal.GetInitiatorAdapter
 targetos: Windows
 req.typenames: 
 req.redist: VDS 1.1

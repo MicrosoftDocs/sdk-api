@@ -1,19 +1,17 @@
 ---
 UID: NF:directxmath.XMQuaternionNormalizeEst
 title: XMQuaternionNormalizeEst function (directxmath.h)
-
 description: Estimates the normalized version of a quaternion.
 old-location: dxmath\xmquaternionnormalizeest.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.quaternion.XMQuaternionNormalizeEst(XMVECTOR)
-
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMQuaternionNormalizeEst, XMQuaternionNormalizeEst, XMQuaternionNormalizeEst method [DirectX Math Support APIs], dxmath.xmquaternionnormalizeest
 ms.topic: function
-f1_keywords: 
- - "directxmath/XMQuaternionNormalizeEst"
+f1_keywords:
+- directxmath/XMQuaternionNormalizeEst
 dev_langs:
- - c++
+- c++
 req.header: directxmath.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - DirectXMath.h
+- DirectXMath.h
 api_name:
- - XMQuaternionNormalizeEst
+- XMQuaternionNormalizeEst
 targetos: Windows
 req.typenames: 
 req.redist: 

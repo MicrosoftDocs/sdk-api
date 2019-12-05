@@ -1,19 +1,17 @@
 ---
 UID: NF:setupapi.SetupLogErrorA
 title: SetupLogErrorA function (setupapi.h)
-
 description: The SetupLogError function writes an error message to a log file.
 old-location: setup\setuplogerror.htm
 tech.root: SetupApi
 ms.assetid: 1e003338-9ada-48cb-89cc-557f12a43cd0
-
 ms.date: 12/05/2018
 ms.keywords: SetupLogError, SetupLogError function [Setup API], SetupLogErrorA, SetupLogErrorW, _setupapi_setuplogerror, setup.setuplogerror, setupapi/SetupLogError, setupapi/SetupLogErrorA, setupapi/SetupLogErrorW
 ms.topic: function
-f1_keywords: 
- - "setupapi/SetupLogError"
+f1_keywords:
+- setupapi/SetupLogError
 dev_langs:
- - c++
+- c++
 req.header: setupapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Setupapi.lib
 req.dll: Setupapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Setupapi.dll
- - Ext-MS-Win-setupapi-logging-l1-1-0.dll
+- Setupapi.dll
+- Ext-MS-Win-setupapi-logging-l1-1-0.dll
 api_name:
- - SetupLogError
- - SetupLogErrorA
- - SetupLogErrorW
+- SetupLogError
+- SetupLogErrorA
+- SetupLogErrorW
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NN:imapi.IRedbookDiscMaster
 title: IRedbookDiscMaster (imapi.h)
-
 description: The IRedbookDiscMaster interface enables the staging of an audio CD image. It represents one of the formats supported by MSDiscMasterObj, and it allows the creation of multi-track audio discs in Track-at-Once mode (fixed-size audio gaps).
 old-location: imapi\iredbookdiscmaster.htm
 tech.root: imapi
 ms.assetid: ea531b22-869a-400e-801f-00bb85ebaac2
-
 ms.date: 12/05/2018
 ms.keywords: IRedbookDiscMaster, IRedbookDiscMaster interface [IMAPI], IRedbookDiscMaster interface [IMAPI],described, _win32_iredbookdiscmaster, base.iredbookdiscmaster, imapi.iredbookdiscmaster, imapi/IRedbookDiscMaster
 ms.topic: interface
-f1_keywords: 
- - "imapi/IRedbookDiscMaster"
+f1_keywords:
+- imapi/IRedbookDiscMaster
 dev_langs:
- - c++
+- c++
 req.header: imapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Actxprxy.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Actxprxy.dll
+- Actxprxy.dll
 api_name:
- - IRedbookDiscMaster
+- IRedbookDiscMaster
 targetos: Windows
 req.typenames: 
 req.redist: 

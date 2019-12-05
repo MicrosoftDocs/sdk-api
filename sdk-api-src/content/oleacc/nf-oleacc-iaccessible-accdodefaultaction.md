@@ -1,19 +1,17 @@
 ---
 UID: NF:oleacc.IAccessible.accDoDefaultAction
 title: IAccessible::accDoDefaultAction (oleacc.h)
-
 description: The IAccessible::accDoDefaultAction method performs the specified object's default action. Not all objects have a default action.
 old-location: winauto\iaccessible_iaccessible__accdodefaultaction.htm
 tech.root: WinAuto
 ms.assetid: 5b731f52-d0b0-4b69-91a0-fdd84e91533d
-
 ms.date: 12/05/2018
 ms.keywords: IAccessible interface [Windows Accessibility],accDoDefaultAction method, IAccessible.accDoDefaultAction, IAccessible::accDoDefaultAction, _msaa_IAccessible_accDoDefaultAction, accDoDefaultAction, accDoDefaultAction method [Windows Accessibility], accDoDefaultAction method [Windows Accessibility],IAccessible interface, msaa.iaccessible_iaccessible__accdodefaultaction, oleacc/IAccessible::accDoDefaultAction, winauto.iaccessible_iaccessible__accdodefaultaction
 ms.topic: method
-f1_keywords: 
- - "oleacc/IAccessible.accDoDefaultAction"
+f1_keywords:
+- oleacc/IAccessible.accDoDefaultAction
 dev_langs:
- - c++
+- c++
 req.header: oleacc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Oleacc.lib
 req.dll: Oleacc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Oleacc.dll
+- Oleacc.dll
 api_name:
- - IAccessible.accDoDefaultAction
+- IAccessible.accDoDefaultAction
 targetos: Windows
 req.typenames: 
 req.redist: Active Accessibility 1.3 RDK on Windows NT Server 4.0 with SP6 and later and Windows 95

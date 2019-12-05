@@ -1,19 +1,17 @@
 ---
 UID: NS:netioapi._MIB_IPPATH_ROW
 title: MIB_IPPATH_ROW (netioapi.h)
-
 description: Stores information about an IP path entry.
 old-location: mib\mib_ippath_row.htm
 tech.root: MIB
 ms.assetid: 0cfef3cb-bb96-4250-864b-2468a46ba277
-
 ms.date: 12/05/2018
-ms.keywords: "*PMIB_IPPATH_ROW, MIB_IPPATH_ROW, MIB_IPPATH_ROW structure [MIB], PMIB_IPPATH_ROW, PMIB_IPPATH_ROW structure pointer [MIB], _MIB_IPPATH_ROW, mib.mib_ippath_row, netioapi/MIB_IPPATH_ROW, netioapi/PMIB_IPPATH_ROW"
+ms.keywords: '*PMIB_IPPATH_ROW, MIB_IPPATH_ROW, MIB_IPPATH_ROW structure [MIB], PMIB_IPPATH_ROW, PMIB_IPPATH_ROW structure pointer [MIB], _MIB_IPPATH_ROW, mib.mib_ippath_row, netioapi/MIB_IPPATH_ROW, netioapi/PMIB_IPPATH_ROW'
 ms.topic: struct
-f1_keywords: 
- - "netioapi/MIB_IPPATH_ROW"
+f1_keywords:
+- netioapi/MIB_IPPATH_ROW
 dev_langs:
- - c++
+- c++
 req.header: netioapi.h
 req.include-header: Iphlpapi.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Netioapi.h
+- Netioapi.h
 api_name:
- - MIB_IPPATH_ROW
+- MIB_IPPATH_ROW
 targetos: Windows
 req.typenames: MIB_IPPATH_ROW, *PMIB_IPPATH_ROW
 req.redist: 

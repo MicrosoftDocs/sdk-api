@@ -1,19 +1,17 @@
 ---
 UID: NF:objidl.IDataAdviseHolder.SendOnDataChange
 title: IDataAdviseHolder::SendOnDataChange (objidl.h)
-
 description: Sends notifications to each advise sink for which there is a connection established by calling the IAdviseSink::OnDataChange method for each advise sink currently being handled by this instance of the advise holder object.
 old-location: com\idataadviseholder_sendondatachange.htm
 tech.root: com
 ms.assetid: b7385116-2ec7-4e12-a2dc-c9029a38d8fd
-
 ms.date: 12/05/2018
 ms.keywords: IDataAdviseHolder interface [COM],SendOnDataChange method, IDataAdviseHolder.SendOnDataChange, IDataAdviseHolder::SendOnDataChange, SendOnDataChange, SendOnDataChange method [COM], SendOnDataChange method [COM],IDataAdviseHolder interface, _ole_idataadviseholder_sendondatachange, com.idataadviseholder_sendondatachange, objidl/IDataAdviseHolder::SendOnDataChange
 ms.topic: method
-f1_keywords: 
- - "objidl/IDataAdviseHolder.SendOnDataChange"
+f1_keywords:
+- objidl/IDataAdviseHolder.SendOnDataChange
 dev_langs:
- - c++
+- c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ObjIdl.h
+- ObjIdl.h
 api_name:
- - IDataAdviseHolder.SendOnDataChange
+- IDataAdviseHolder.SendOnDataChange
 targetos: Windows
 req.typenames: 
 req.redist: 

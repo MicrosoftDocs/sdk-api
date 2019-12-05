@@ -1,19 +1,17 @@
 ---
 UID: NF:processthreadsapi.GetThreadContext
 title: GetThreadContext function (processthreadsapi.h)
-
 description: Retrieves the context of the specified thread.
 old-location: base\getthreadcontext.htm
 tech.root: Debug
 ms.assetid: 3b65283e-34d2-4374-87fe-fa8ae45fbbcf
-
 ms.date: 12/05/2018
 ms.keywords: GetThreadContext, GetThreadContext function, _win32_getthreadcontext, base.getthreadcontext, processthreadsapi/GetThreadContext
 ms.topic: function
 f1_keywords:
 - processthreadsapi/GetThreadContext
 dev_langs:
- - c++
+- c++
 req.header: processthreadsapi.h
 req.include-header: Windows.h
 req.target-type: Windows

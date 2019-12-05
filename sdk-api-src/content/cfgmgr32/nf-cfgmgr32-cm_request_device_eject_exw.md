@@ -1,19 +1,17 @@
 ---
 UID: NF:cfgmgr32.CM_Request_Device_Eject_ExW
 title: CM_Request_Device_Eject_ExW function (cfgmgr32.h)
-
 description: The CM_Request_Device_Eject_Ex function prepares a local or a remote device instance for safe removal, if the device is removable. If the device can be physically ejected, it will be.
 old-location: devinst\cm_request_device_eject_ex.htm
 tech.root: devinst
 ms.assetid: 80285999-7bcb-4a11-8047-f64cd52cf95a
-
 ms.date: 12/05/2018
 ms.keywords: CM_Request_Device_Eject_Ex, CM_Request_Device_Eject_Ex function [Device and Driver Installation], CM_Request_Device_Eject_ExW, cfgmgr32/CM_Request_Device_Eject_Ex, cfgmgr32/CM_Request_Device_Eject_ExW, cfgmgrfn_96d92b58-b006-4c9d-bfbd-d5cd620f343f.xml, devinst.cm_request_device_eject_ex
 ms.topic: function
 f1_keywords:
 - cfgmgr32/CM_Request_Device_Eject_Ex
 dev_langs:
- - c++
+- c++
 req.header: cfgmgr32.h
 req.include-header: Cfgmgr32.h
 req.target-type: Desktop

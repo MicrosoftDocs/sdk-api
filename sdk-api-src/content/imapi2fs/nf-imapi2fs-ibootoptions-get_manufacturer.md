@@ -1,19 +1,17 @@
 ---
 UID: NF:imapi2fs.IBootOptions.get_Manufacturer
 title: IBootOptions::get_Manufacturer (imapi2fs.h)
-
 description: Retrieves the identifier of the manufacturer of the CD.
 old-location: imapi\ibootoptions_get_manufacturer.htm
 tech.root: imapi
 ms.assetid: e9c75760-42e8-4ad0-aa5c-82bfdc1327af
-
 ms.date: 12/05/2018
 ms.keywords: IBootOptions interface [IMAPI],get_Manufacturer method, IBootOptions.get_Manufacturer, IBootOptions::get_Manufacturer, get_Manufacturer, get_Manufacturer method [IMAPI], get_Manufacturer method [IMAPI],IBootOptions interface, imapi.ibootoptions_get_manufacturer, imapi2fs/IBootOptions::get_Manufacturer
 ms.topic: method
-f1_keywords: 
- - "imapi2fs/IBootOptions.get_Manufacturer"
+f1_keywords:
+- imapi2fs/IBootOptions.get_Manufacturer
 dev_langs:
- - c++
+- c++
 req.header: imapi2fs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - imapi2fs.h
+- imapi2fs.h
 api_name:
- - IBootOptions.get_Manufacturer
+- IBootOptions.get_Manufacturer
 targetos: Windows
 req.typenames: 
 req.redist: 

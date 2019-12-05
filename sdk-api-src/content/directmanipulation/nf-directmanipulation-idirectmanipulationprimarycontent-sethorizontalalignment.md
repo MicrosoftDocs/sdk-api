@@ -1,19 +1,17 @@
 ---
 UID: NF:directmanipulation.IDirectManipulationPrimaryContent.SetHorizontalAlignment
 title: IDirectManipulationPrimaryContent::SetHorizontalAlignment (directmanipulation.h)
-
 description: Sets the horizontal alignment of the primary content relative to the viewport.
 old-location: directmanipulation\idirectmanipulationprimarycontent_sethorizontalalignment.htm
 tech.root: directmanipulation
 ms.assetid: 94716ec8-325e-4e9e-9a30-1d9999bdb9c3
-
 ms.date: 12/05/2018
 ms.keywords: IDirectManipulationPrimaryContent interface [Direct Manipulation],SetHorizontalAlignment method, IDirectManipulationPrimaryContent.SetHorizontalAlignment, IDirectManipulationPrimaryContent::SetHorizontalAlignment, SetHorizontalAlignment, SetHorizontalAlignment method [Direct Manipulation], SetHorizontalAlignment method [Direct Manipulation],IDirectManipulationPrimaryContent interface, directmanipulation.idirectmanipulationprimarycontent_sethorizontalalignment, directmanipulation/IDirectManipulationPrimaryContent::SetHorizontalAlignment
 ms.topic: method
-f1_keywords: 
- - "directmanipulation/IDirectManipulationPrimaryContent.SetHorizontalAlignment"
+f1_keywords:
+- directmanipulation/IDirectManipulationPrimaryContent.SetHorizontalAlignment
 dev_langs:
- - c++
+- c++
 req.header: directmanipulation.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - DirectManipulation.h
+- DirectManipulation.h
 api_name:
- - IDirectManipulationPrimaryContent.SetHorizontalAlignment
+- IDirectManipulationPrimaryContent.SetHorizontalAlignment
 targetos: Windows
 req.typenames: 
 req.redist: 

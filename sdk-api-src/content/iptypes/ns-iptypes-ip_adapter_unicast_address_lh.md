@@ -1,19 +1,17 @@
 ---
 UID: NS:iptypes._IP_ADAPTER_UNICAST_ADDRESS_LH
 title: IP_ADAPTER_UNICAST_ADDRESS_LH (iptypes.h)
-
 description: The IP_ADAPTER_UNICAST_ADDRESS structure stores a single unicast IP address in a linked list of IP addresses for a particular adapter.
 old-location: iphlp\ip_adapter_unicast_address.htm
 tech.root: IpHlp
 ms.assetid: 65c3648c-89bd-417b-8a9b-feefa6149c4a
-
 ms.date: 12/05/2018
-ms.keywords: "*PIP_ADAPTER_UNICAST_ADDRESS, *PIP_ADAPTER_UNICAST_ADDRESS_LH, IP_ADAPTER_ADDRESS_DNS_ELIGIBLE, IP_ADAPTER_ADDRESS_TRANSIENT, IP_ADAPTER_UNICAST_ADDRESS, IP_ADAPTER_UNICAST_ADDRESS structure [IP Helper], IP_ADAPTER_UNICAST_ADDRESS_LH, IP_ADAPTER_UNICAST_ADDRESS_XP, PIP_ADAPTER_UNICAST_ADDRESS, PIP_ADAPTER_UNICAST_ADDRESS structure pointer [IP Helper], _iphlp_ip_adapter_unicast_address, iphlp.ip_adapter_unicast_address, iptypes/IP_ADAPTER_UNICAST_ADDRESS, iptypes/PIP_ADAPTER_UNICAST_ADDRESS"
+ms.keywords: '*PIP_ADAPTER_UNICAST_ADDRESS, *PIP_ADAPTER_UNICAST_ADDRESS_LH, IP_ADAPTER_ADDRESS_DNS_ELIGIBLE, IP_ADAPTER_ADDRESS_TRANSIENT, IP_ADAPTER_UNICAST_ADDRESS, IP_ADAPTER_UNICAST_ADDRESS structure [IP Helper], IP_ADAPTER_UNICAST_ADDRESS_LH, IP_ADAPTER_UNICAST_ADDRESS_XP, PIP_ADAPTER_UNICAST_ADDRESS, PIP_ADAPTER_UNICAST_ADDRESS structure pointer [IP Helper], _iphlp_ip_adapter_unicast_address, iphlp.ip_adapter_unicast_address, iptypes/IP_ADAPTER_UNICAST_ADDRESS, iptypes/PIP_ADAPTER_UNICAST_ADDRESS'
 ms.topic: struct
-f1_keywords: 
- - "iptypes/IP_ADAPTER_UNICAST_ADDRESS"
+f1_keywords:
+- iptypes/IP_ADAPTER_UNICAST_ADDRESS
 dev_langs:
- - c++
+- c++
 req.header: iptypes.h
 req.include-header: Iphlpapi.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Iptypes.h
+- Iptypes.h
 api_name:
- - IP_ADAPTER_UNICAST_ADDRESS
+- IP_ADAPTER_UNICAST_ADDRESS
 targetos: Windows
 req.typenames: IP_ADAPTER_UNICAST_ADDRESS_LH, *PIP_ADAPTER_UNICAST_ADDRESS_LH
 req.redist: 

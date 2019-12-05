@@ -1,19 +1,17 @@
 ---
 UID: NF:objidlbase.IPSFactoryBuffer.CreateProxy
 title: IPSFactoryBuffer::CreateProxy (objidlbase.h)
-
 description: Creates a proxy for the specified remote interface.
 old-location: com\ipsfactorybuffer_createproxy.htm
 tech.root: com
 ms.assetid: 7d0638d9-50bc-47f3-8ebd-47bb5cbcab9c
-
 ms.date: 12/05/2018
 ms.keywords: CreateProxy, CreateProxy method [COM], CreateProxy method [COM],IPSFactoryBuffer interface, IPSFactoryBuffer interface [COM],CreateProxy method, IPSFactoryBuffer.CreateProxy, IPSFactoryBuffer::CreateProxy, _com_ipsfactorybuffer_createproxy, com.ipsfactorybuffer_createproxy, objidlbase/IPSFactoryBuffer::CreateProxy
 ms.topic: method
-f1_keywords: 
- - "objidlbase/IPSFactoryBuffer.CreateProxy"
+f1_keywords:
+- objidlbase/IPSFactoryBuffer.CreateProxy
 dev_langs:
- - c++
+- c++
 req.header: objidlbase.h
 req.include-header: ObjIdl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - objidlbase.h
+- objidlbase.h
 api_name:
- - IPSFactoryBuffer.CreateProxy
+- IPSFactoryBuffer.CreateProxy
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:uxtheme.GetThemeBitmap
 title: GetThemeBitmap function (uxtheme.h)
-
 description: Retrieves the bitmap associated with a particular theme, part, state, and property.
 old-location: controls\GetThemeBitmap.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\userex\functions\getthemebitmap.htm
-
 ms.date: 12/05/2018
 ms.keywords: GBF_COPY, GBF_DIRECT, GBF_VALIDBITS, GetThemeBitmap, GetThemeBitmap function [Windows Controls], TMT_DIBDATA, TMT_GLYPHDIBDATA, TMT_HBITMAP, controls.GetThemeBitmap, controls.inet_GetThemeBitmap, inet_GetThemeBitmap, inet_GetThemeBitmap_cpp, uxtheme/GetThemeBitmap
 ms.topic: function
-f1_keywords: 
- - "uxtheme/GetThemeBitmap"
+f1_keywords:
+- uxtheme/GetThemeBitmap
 dev_langs:
- - c++
+- c++
 req.header: uxtheme.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: UxTheme.lib
 req.dll: UxTheme.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - UxTheme.dll
- - Ext-MS-Win-UXTheme-Themes-l1-1-0.dll
- - xamlpalwp.dll
- - ext-ms-win-uxtheme-themes-l1-1-1.dll
+- UxTheme.dll
+- Ext-MS-Win-UXTheme-Themes-l1-1-0.dll
+- xamlpalwp.dll
+- ext-ms-win-uxtheme-themes-l1-1-1.dll
 api_name:
- - GetThemeBitmap
+- GetThemeBitmap
 targetos: Windows
 req.typenames: 
 req.redist: 

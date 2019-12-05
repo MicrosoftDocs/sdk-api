@@ -1,19 +1,17 @@
 ---
 UID: NN:wia_xp.IWiaDataTransfer
 title: IWiaDataTransfer (wia_xp.h)
-
 description: The IWiaDataTransfer interface is a high performance data transfer interface.
 old-location: wia\_wia_IWiaDataTransfer.htm
 tech.root: wia
 ms.assetid: VS|wia|~\wia\refwia\ifaces\iwiadatatransfer\iwiadatatransfer.htm
-
 ms.date: 12/05/2018
 ms.keywords: IWiaDataTransfer, IWiaDataTransfer interface [WIA], IWiaDataTransfer interface [WIA],described, _wia_IWiaDataTransfer, wia._wia_IWiaDataTransfer, wia_xp/IWiaDataTransfer
 ms.topic: interface
-f1_keywords: 
- - "wia_xp/IWiaDataTransfer"
+f1_keywords:
+- wia_xp/IWiaDataTransfer
 dev_langs:
- - c++
+- c++
 req.header: wia_xp.h
 req.include-header: Wia.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Wiaguid.lib
 req.dll: Wiaservc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wiaservc.dll
+- Wiaservc.dll
 api_name:
- - IWiaDataTransfer
+- IWiaDataTransfer
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:fci.FCICreate
 title: FCICreate function (fci.h)
-
 description: The FCICreate function creates an FCI context.
 old-location: winprog\fcicreate.htm
 tech.root: DevNotes
 ms.assetid: bfcea06d-2f09-405c-955c-0f56149148f2
-
 ms.date: 12/05/2018
 ms.keywords: FCICreate, FCICreate function [Windows API], fci/FCICreate, winprog.fcicreate
 ms.topic: function
-f1_keywords: 
- - "fci/FCICreate"
+f1_keywords:
+- fci/FCICreate
 dev_langs:
- - c++
+- c++
 req.header: fci.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Cabinet.lib
 req.dll: Cabinet.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Cabinet.dll
+- Cabinet.dll
 api_name:
- - FCICreate
+- FCICreate
 targetos: Windows
 req.typenames: 
 req.redist: 

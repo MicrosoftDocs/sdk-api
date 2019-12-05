@@ -1,19 +1,17 @@
 ---
 UID: NE:certenroll.X509PrivateKeyVerify
 title: X509PrivateKeyVerify (certenroll.h)
-
 description: Specifies whether a user interface is displayed during private key verification and whether verification can proceed if the cryptographic provider is a smart card provider.
 old-location: security\x509privatekeyverify.htm
 tech.root: seccertenroll
 ms.assetid: 23466035-6554-490f-ad46-e97ba5a5d996
-
 ms.date: 12/05/2018
 ms.keywords: VerifyAllowUI, VerifyNone, VerifySilent, VerifySmartCardNone, VerifySmartCardSilent, X509PrivateKeyVerify, X509PrivateKeyVerify enumeration [Security], certenroll/VerifyAllowUI, certenroll/VerifyNone, certenroll/VerifySilent, certenroll/VerifySmartCardNone, certenroll/VerifySmartCardSilent, certenroll/X509PrivateKeyVerify, security.x509privatekeyverify
 ms.topic: enum
-f1_keywords: 
- - "certenroll/X509PrivateKeyVerify"
+f1_keywords:
+- certenroll/X509PrivateKeyVerify
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - CertEnroll.h
+- CertEnroll.h
 api_name:
- - X509PrivateKeyVerify
+- X509PrivateKeyVerify
 targetos: Windows
 req.typenames: X509PrivateKeyVerify
 req.redist: 

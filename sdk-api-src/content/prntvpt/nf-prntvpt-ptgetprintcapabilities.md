@@ -1,19 +1,17 @@
 ---
 UID: NF:prntvpt.PTGetPrintCapabilities
 title: PTGetPrintCapabilities function (prntvpt.h)
-
 description: Retrieves the printer's capabilities formatted in compliance with the XML Print Schema.
 old-location: gdi\ptgetprintcapabilities.htm
 tech.root: printdocs
 ms.assetid: 925e314c-85ff-4c1b-b3c9-f36aa4b55e01
-
 ms.date: 12/05/2018
 ms.keywords: PTGetPrintCapabilities, PTGetPrintCapabilities function [Windows GDI], _win32_PTGetPrintCapabilities, gdi.ptgetprintcapabilities, prntvpt/PTGetPrintCapabilities
 ms.topic: function
-f1_keywords: 
- - "prntvpt/PTGetPrintCapabilities"
+f1_keywords:
+- prntvpt/PTGetPrintCapabilities
 dev_langs:
- - c++
+- c++
 req.header: prntvpt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Prntvpt.lib
 req.dll: Prntvpt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - prntvpt.dll
- - Ext-MS-Win-printer-prntvpt-l1-1-0.dll
+- prntvpt.dll
+- Ext-MS-Win-printer-prntvpt-l1-1-0.dll
 api_name:
- - PTGetPrintCapabilities
+- PTGetPrintCapabilities
 targetos: Windows
 req.typenames: 
 req.redist: 

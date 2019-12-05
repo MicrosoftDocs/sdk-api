@@ -1,19 +1,17 @@
 ---
 UID: NF:gpmgmt.IGPMGPO.IsUserEnabled
 title: IGPMGPO::IsUserEnabled (gpmgmt.h)
-
 description: Checks whether the user policies in the GPO are enabled.
 old-location: gpmc\igpmgpo_isuserenabled.htm
 tech.root: gpmc
 ms.assetid: a5ed21bd-19b7-4518-97fa-6ffcd4ea80b4
-
 ms.date: 12/05/2018
 ms.keywords: GPMGPO class [GPMC],IsUserEnabled method, IGPMGPO interface [GPMC],IsUserEnabled method, IGPMGPO.IsUserEnabled, IGPMGPO::IsUserEnabled, IsUserEnabled, IsUserEnabled method [GPMC], IsUserEnabled method [GPMC],GPMGPO class, IsUserEnabled method [GPMC],IGPMGPO interface, _win32_igpmgpo_isuserenabled, gpmc.igpmgpo_isuserenabled, gpmgmt/IGPMGPO::IsUserEnabled
 ms.topic: method
-f1_keywords: 
- - "gpmgmt/IGPMGPO.IsUserEnabled"
+f1_keywords:
+- gpmgmt/IGPMGPO.IsUserEnabled
 dev_langs:
- - c++
+- c++
 req.header: gpmgmt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: Gpmgmt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gpmgmt.dll
+- Gpmgmt.dll
 api_name:
- - IGPMGPO.IsUserEnabled
- - GPMGPO.IsUserEnabled
+- IGPMGPO.IsUserEnabled
+- GPMGPO.IsUserEnabled
 targetos: Windows
 req.typenames: 
 req.redist: 

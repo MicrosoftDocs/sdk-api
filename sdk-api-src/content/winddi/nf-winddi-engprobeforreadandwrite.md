@@ -1,19 +1,17 @@
 ---
 UID: NF:winddi.EngProbeForReadAndWrite
 title: EngProbeForReadAndWrite function (winddi.h)
-
 description: The EngProbeForReadAndWrite function probes a structure for read and write accessibility.
 old-location: display\engprobeforreadandwrite.htm
 tech.root: display
 ms.assetid: 1b618bee-7069-410b-9a3d-65ee4b25874c
-
 ms.date: 12/05/2018
 ms.keywords: EngProbeForReadAndWrite, EngProbeForReadAndWrite function [Display Devices], display.engprobeforreadandwrite, gdifncs_a27f9e58-49c2-4c85-9f84-3aadc8776752.xml, winddi/EngProbeForReadAndWrite
 ms.topic: function
-f1_keywords: 
- - "winddi/EngProbeForReadAndWrite"
+f1_keywords:
+- winddi/EngProbeForReadAndWrite
 dev_langs:
- - c++
+- c++
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Universal
@@ -32,14 +30,14 @@ req.lib: Win32k.lib
 req.dll: Win32k.sys
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Win32k.sys
+- Win32k.sys
 api_name:
- - EngProbeForReadAndWrite
+- EngProbeForReadAndWrite
 targetos: Windows
 req.typenames: 
 req.redist: 

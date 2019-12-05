@@ -1,19 +1,17 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMGradientBrush.GetTransformLookup
 title: IXpsOMGradientBrush::GetTransformLookup (xpsobjectmodel.h)
-
 description: Gets the name of the lookup key of the shared matrix transform interface that is to be used for the brush.
 old-location: xps\ixpsomgradientbrush_gettransformlookup.htm
 tech.root: printdocs
 ms.assetid: 60a91156-f9c8-4f6b-92b7-21e2fcd337fc
-
 ms.date: 12/05/2018
 ms.keywords: GetTransformLookup, GetTransformLookup method [XPS Documents and Packaging], GetTransformLookup method [XPS Documents and Packaging],IXpsOMGradientBrush interface, IXpsOMGradientBrush interface [XPS Documents and Packaging],GetTransformLookup method, IXpsOMGradientBrush.GetTransformLookup, IXpsOMGradientBrush::GetTransformLookup, xps.ixpsomgradientbrush_gettransformlookup, xpsobjectmodel/IXpsOMGradientBrush::GetTransformLookup
 ms.topic: method
-f1_keywords: 
- - "xpsobjectmodel/IXpsOMGradientBrush.GetTransformLookup"
+f1_keywords:
+- xpsobjectmodel/IXpsOMGradientBrush.GetTransformLookup
 dev_langs:
- - c++
+- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsobjectmodel.h
+- xpsobjectmodel.h
 api_name:
- - IXpsOMGradientBrush.GetTransformLookup
+- IXpsOMGradientBrush.GetTransformLookup
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:gdiplusheaders.FontFamily.GenericSansSerif
 title: FontFamily::GenericSansSerif (gdiplusheaders.h)
-
 description: The FontFamily::GenericSansSerif method gets a FontFamily object that specifies a generic sans serif typeface.
 old-location: gdiplus\_gdiplus_CLASS_FontFamily_GenericSansSerif_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\fontfamilyclass\fontfamilymethods\genericsansserif.htm
-
 ms.date: 12/05/2018
 ms.keywords: FontFamily class [GDI+],GenericSansSerif method, FontFamily.GenericSansSerif, FontFamily::GenericSansSerif, GenericSansSerif, GenericSansSerif method [GDI+], GenericSansSerif method [GDI+],FontFamily class, _gdiplus_CLASS_FontFamily_GenericSansSerif_, gdiplus._gdiplus_CLASS_FontFamily_GenericSansSerif_
 ms.topic: method
-f1_keywords: 
- - "gdiplusheaders/FontFamily.GenericSansSerif"
+f1_keywords:
+- gdiplusheaders/FontFamily.GenericSansSerif
 dev_langs:
- - c++
+- c++
 req.header: gdiplusheaders.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - FontFamily.GenericSansSerif
+- FontFamily.GenericSansSerif
 targetos: Windows
 req.typenames: 
 req.redist: 

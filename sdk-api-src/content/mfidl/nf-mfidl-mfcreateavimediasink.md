@@ -1,19 +1,17 @@
 ---
 UID: NF:mfidl.MFCreateAVIMediaSink
 title: MFCreateAVIMediaSink function (mfidl.h)
-
 description: Creates an Audio-Video Interleaved (AVI) Sink.
 old-location: mf\mfcreateavimediasink.htm
 tech.root: medfound
 ms.assetid: BAF47469-783B-4035-BD83-2921A88877E4
-
 ms.date: 12/05/2018
 ms.keywords: MFCreateAVIMediaSink, MFCreateAVIMediaSink function [Media Foundation], mf.mfcreateavimediasink, mfidl/MFCreateAVIMediaSink
 ms.topic: function
-f1_keywords: 
- - "mfidl/MFCreateAVIMediaSink"
+f1_keywords:
+- mfidl/MFCreateAVIMediaSink
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Mf.lib
 req.dll: Mf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - mf.dll
+- mf.dll
 api_name:
- - MFCreateAVIMediaSink
+- MFCreateAVIMediaSink
 targetos: Windows
 req.typenames: 
 req.redist: 

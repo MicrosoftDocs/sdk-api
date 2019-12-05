@@ -1,19 +1,17 @@
 ---
 UID: NF:wmcontainer.IMFASFMutualExclusion.Clone
 title: IMFASFMutualExclusion::Clone (wmcontainer.h)
-
 description: Creates a copy of the Advanced Systems Format mutual exclusion object.
 old-location: mf\imfasfmutualexclusion_clone.htm
 tech.root: medfound
 ms.assetid: 32bd09d7-9d85-4692-8b2f-6afab3234fa9
-
 ms.date: 12/05/2018
 ms.keywords: 32bd09d7-9d85-4692-8b2f-6afab3234fa9, Clone, Clone method [Media Foundation], Clone method [Media Foundation],IMFASFMutualExclusion interface, IMFASFMutualExclusion interface [Media Foundation],Clone method, IMFASFMutualExclusion.Clone, IMFASFMutualExclusion::Clone, mf.imfasfmutualexclusion_clone, wmcontainer/IMFASFMutualExclusion::Clone
 ms.topic: method
-f1_keywords: 
- - "wmcontainer/IMFASFMutualExclusion.Clone"
+f1_keywords:
+- wmcontainer/IMFASFMutualExclusion.Clone
 dev_langs:
- - c++
+- c++
 req.header: wmcontainer.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFASFMutualExclusion.Clone
+- IMFASFMutualExclusion.Clone
 targetos: Windows
 req.typenames: 
 req.redist: 

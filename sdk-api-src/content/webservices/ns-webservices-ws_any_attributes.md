@@ -1,19 +1,17 @@
 ---
 UID: NS:webservices._WS_ANY_ATTRIBUTES
 title: WS_ANY_ATTRIBUTES (webservices.h)
-
 description: This type is used to store a set of attributes that have not been directly mapped to field of a structure.
 old-location: wsw\ws_any_attributes.htm
 tech.root: wsw
 ms.assetid: 6c428c99-755f-40ab-bc9e-e1a7a3d70c1d
-
 ms.date: 12/05/2018
 ms.keywords: WS_ANY_ATTRIBUTES, WS_ANY_ATTRIBUTES structure [Web Services for Windows], webservices/WS_ANY_ATTRIBUTES, wsw.ws_any_attributes
 ms.topic: struct
-f1_keywords: 
- - "webservices/WS_ANY_ATTRIBUTES"
+f1_keywords:
+- webservices/WS_ANY_ATTRIBUTES
 dev_langs:
- - c++
+- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WebServices.h
+- WebServices.h
 api_name:
- - WS_ANY_ATTRIBUTES
+- WS_ANY_ATTRIBUTES
 targetos: Windows
 req.typenames: WS_ANY_ATTRIBUTES
 req.redist: 

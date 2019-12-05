@@ -1,19 +1,17 @@
 ---
 UID: NS:webservices._WS_SERVICE_SECURITY_IDENTITIES
 title: WS_SERVICE_SECURITY_IDENTITIES (webservices.h)
-
 description: A list of Server Principal Names (SPNs) that are used to validate Extended Protection.
 old-location: wsw\ws_service_security_identities.htm
 tech.root: wsw
 ms.assetid: d38f0efd-2570-4db1-b4f7-113a45fe4449
-
 ms.date: 12/05/2018
 ms.keywords: WS_SERVICE_SECURITY_IDENTITIES, WS_SERVICE_SECURITY_IDENTITIES structure [Web Services for Windows], webservices/WS_SERVICE_SECURITY_IDENTITIES, wsw.ws_service_security_identities
 ms.topic: struct
-f1_keywords: 
- - "webservices/WS_SERVICE_SECURITY_IDENTITIES"
+f1_keywords:
+- webservices/WS_SERVICE_SECURITY_IDENTITIES
 dev_langs:
- - c++
+- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WebServices.h
+- WebServices.h
 api_name:
- - WS_SERVICE_SECURITY_IDENTITIES
+- WS_SERVICE_SECURITY_IDENTITIES
 targetos: Windows
 req.typenames: WS_SERVICE_SECURITY_IDENTITIES
 req.redist: 

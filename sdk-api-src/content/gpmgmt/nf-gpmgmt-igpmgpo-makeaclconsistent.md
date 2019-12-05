@@ -1,19 +1,17 @@
 ---
 UID: NF:gpmgmt.IGPMGPO.MakeACLConsistent
 title: IGPMGPO::MakeACLConsistent (gpmgmt.h)
-
 description: Makes ACLs consistent on the Directory Service and the system volume folder (SysVol) of the GPO. IsACLConsistent can be used to check for consistency of ACLs between the Directory Service and system volume folder (SysVol).
 old-location: gpmc\igpmgpo_makeaclconsistent.htm
 tech.root: gpmc
 ms.assetid: 936e7795-e5ab-4014-86df-6b74ab122b11
-
 ms.date: 12/05/2018
 ms.keywords: GPMGPO class [GPMC],MakeACLConsistent method, IGPMGPO interface [GPMC],MakeACLConsistent method, IGPMGPO.MakeACLConsistent, IGPMGPO::MakeACLConsistent, MakeACLConsistent, MakeACLConsistent method [GPMC], MakeACLConsistent method [GPMC],GPMGPO class, MakeACLConsistent method [GPMC],IGPMGPO interface, gpmc.igpmgpo_makeaclconsistent, gpmgmt/IGPMGPO::MakeACLConsistent
 ms.topic: method
-f1_keywords: 
- - "gpmgmt/IGPMGPO.MakeACLConsistent"
+f1_keywords:
+- gpmgmt/IGPMGPO.MakeACLConsistent
 dev_langs:
- - c++
+- c++
 req.header: gpmgmt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: Gpmgmt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gpmgmt.dll
+- Gpmgmt.dll
 api_name:
- - IGPMGPO.MakeACLConsistent
- - GPMGPO.MakeACLConsistent
+- IGPMGPO.MakeACLConsistent
+- GPMGPO.MakeACLConsistent
 targetos: Windows
 req.typenames: 
 req.redist: 

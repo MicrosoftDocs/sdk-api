@@ -1,19 +1,17 @@
 ---
 UID: NF:winbase.SetFileBandwidthReservation
 title: SetFileBandwidthReservation function (winbase.h)
-
 description: Requests that bandwidth for the specified file stream be reserved. The reservation is specified as a number of bytes in a period of milliseconds for I/O requests on the specified file handle.
 old-location: fs\setfilebandwidthreservation_func.htm
 tech.root: FileIO
 ms.assetid: a22bd8f3-4fbf-4f77-b8b6-7e786942615a
-
 ms.date: 12/05/2018
 ms.keywords: SetFileBandwidthReservation, SetFileBandwidthReservation function [Files], fs.setfilebandwidthreservation_func, winbase/SetFileBandwidthReservation
 ms.topic: function
-f1_keywords: 
- - "winbase/SetFileBandwidthReservation"
+f1_keywords:
+- winbase/SetFileBandwidthReservation
 dev_langs:
- - c++
+- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
+- Kernel32.dll
 api_name:
- - SetFileBandwidthReservation
+- SetFileBandwidthReservation
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:winscard.SCardIntroduceReaderGroupA
 title: SCardIntroduceReaderGroupA function (winscard.h)
-
 description: Introduces a reader group to the smart card subsystem. However, the reader group is not created until the group is specified when adding a reader to the smart card database.
 old-location: security\scardintroducereadergroup.htm
 tech.root: SecAuthN
 ms.assetid: aaf7d2f9-71d5-42bb-a96f-71124be40aa3
-
 ms.date: 12/05/2018
 ms.keywords: SCARD_ALL_READERS, SCARD_DEFAULT_READERS, SCARD_LOCAL_READERS, SCARD_SYSTEM_READERS, SCardIntroduceReaderGroup, SCardIntroduceReaderGroup function [Security], SCardIntroduceReaderGroupA, SCardIntroduceReaderGroupW, _smart_scardintroducereadergroup, security.scardintroducereadergroup, winscard/SCardIntroduceReaderGroup, winscard/SCardIntroduceReaderGroupA, winscard/SCardIntroduceReaderGroupW
 ms.topic: function
-f1_keywords: 
- - "winscard/SCardIntroduceReaderGroup"
+f1_keywords:
+- winscard/SCardIntroduceReaderGroup
 dev_langs:
- - c++
+- c++
 req.header: winscard.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Winscard.lib
 req.dll: Winscard.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Winscard.dll
+- Winscard.dll
 api_name:
- - SCardIntroduceReaderGroup
- - SCardIntroduceReaderGroupA
- - SCardIntroduceReaderGroupW
+- SCardIntroduceReaderGroup
+- SCardIntroduceReaderGroupA
+- SCardIntroduceReaderGroupW
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NS:clfs._CLFS_NODE_ID
 title: CLFS_NODE_ID (clfs.h)
-
 description: Represents a node identifier.
 old-location: fs\clfs_node_id.htm
 tech.root: Clfs
 ms.assetid: 99132138-b7ba-47a1-ac40-353d5d70db42
-
 ms.date: 12/05/2018
-ms.keywords: "*PCLFS_NODE_ID, CLFS_NODE_ID, CLFS_NODE_ID structure [Files], PCLFS_NODE_ID, PCLFS_NODE_ID structure pointer [Files], clfs/CLFS_NODE_ID, clfs/PCLFS_NODE_ID, fs.clfs_node_id"
+ms.keywords: '*PCLFS_NODE_ID, CLFS_NODE_ID, CLFS_NODE_ID structure [Files], PCLFS_NODE_ID, PCLFS_NODE_ID structure pointer [Files], clfs/CLFS_NODE_ID, clfs/PCLFS_NODE_ID, fs.clfs_node_id'
 ms.topic: struct
-f1_keywords: 
- - "clfs/CLFS_NODE_ID"
+f1_keywords:
+- clfs/CLFS_NODE_ID
 dev_langs:
- - c++
+- c++
 req.header: clfs.h
 req.include-header: Clfsw32.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Clfs.h
+- Clfs.h
 api_name:
- - CLFS_NODE_ID
+- CLFS_NODE_ID
 targetos: Windows
 req.typenames: CLFS_NODE_ID, *PCLFS_NODE_ID
 req.redist: 

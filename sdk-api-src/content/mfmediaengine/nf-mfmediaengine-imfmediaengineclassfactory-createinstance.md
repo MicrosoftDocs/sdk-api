@@ -1,19 +1,17 @@
 ---
 UID: NF:mfmediaengine.IMFMediaEngineClassFactory.CreateInstance
 title: IMFMediaEngineClassFactory::CreateInstance (mfmediaengine.h)
-
 description: Creates a new instance of the Media Engine.
 old-location: mf\imfmediaengineclassfactory_createinstance.htm
 tech.root: medfound
 ms.assetid: EDEAD2C4-5695-4E63-9E9E-B09D75B60B7F
-
 ms.date: 12/05/2018
 ms.keywords: CreateInstance, CreateInstance method [Media Foundation], CreateInstance method [Media Foundation],IMFMediaEngineClassFactory interface, IMFMediaEngineClassFactory interface [Media Foundation],CreateInstance method, IMFMediaEngineClassFactory.CreateInstance, IMFMediaEngineClassFactory::CreateInstance, mf.imfmediaengineclassfactory_createinstance, mfmediaengine/IMFMediaEngineClassFactory::CreateInstance
 ms.topic: method
-f1_keywords: 
- - "mfmediaengine/IMFMediaEngineClassFactory.CreateInstance"
+f1_keywords:
+- mfmediaengine/IMFMediaEngineClassFactory.CreateInstance
 dev_langs:
- - c++
+- c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfmediaengine.h
+- mfmediaengine.h
 api_name:
- - IMFMediaEngineClassFactory.CreateInstance
+- IMFMediaEngineClassFactory.CreateInstance
 targetos: Windows
 req.typenames: 
 req.redist: 

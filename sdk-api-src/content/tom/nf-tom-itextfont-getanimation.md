@@ -1,19 +1,17 @@
 ---
 UID: NF:tom.ITextFont.GetAnimation
 title: ITextFont::GetAnimation (tom.h)
-
 description: Gets the animation type.
 old-location: controls\ITextFont_GetAnimation.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\getanimation.htm
-
 ms.date: 12/05/2018
 ms.keywords: GetAnimation, GetAnimation method [Windows Controls], GetAnimation method [Windows Controls],ITextFont interface, ITextFont interface [Windows Controls],GetAnimation method, ITextFont.GetAnimation, ITextFont::GetAnimation, _win32_ITextFont_GetAnimation, _win32_ITextFont_GetAnimation_cpp, controls.ITextFont_GetAnimation, controls._win32_ITextFont_GetAnimation, tom/ITextFont::GetAnimation
 ms.topic: method
-f1_keywords: 
- - "tom/ITextFont.GetAnimation"
+f1_keywords:
+- tom/ITextFont.GetAnimation
 dev_langs:
- - c++
+- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msftedit.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msftedit.dll
+- Msftedit.dll
 api_name:
- - ITextFont.GetAnimation
+- ITextFont.GetAnimation
 targetos: Windows
 req.typenames: 
 req.redist: 

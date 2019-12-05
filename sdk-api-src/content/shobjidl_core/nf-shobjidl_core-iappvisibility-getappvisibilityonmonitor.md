@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IAppVisibility.GetAppVisibilityOnMonitor
 title: IAppVisibility::GetAppVisibilityOnMonitor (shobjidl_core.h)
-
 description: Queries the current mode of the specified monitor.
 old-location: shell\IAppVisibility_GetAppVisibilityOnMonitor.htm
 tech.root: shell
 ms.assetid: F03AEE1F-1156-4565-871E-4C8CB5C4EDCA
-
 ms.date: 12/05/2018
 ms.keywords: GetAppVisibilityOnMonitor, GetAppVisibilityOnMonitor method [Windows Shell], GetAppVisibilityOnMonitor method [Windows Shell],IAppVisibility interface, IAppVisibility interface [Windows Shell],GetAppVisibilityOnMonitor method, IAppVisibility.GetAppVisibilityOnMonitor, IAppVisibility::GetAppVisibilityOnMonitor, shell.IAppVisibility_GetAppVisibilityOnMonitor, shobjidl_core/IAppVisibility::GetAppVisibilityOnMonitor
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IAppVisibility.GetAppVisibilityOnMonitor"
+f1_keywords:
+- shobjidl_core/IAppVisibility.GetAppVisibilityOnMonitor
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - IAppVisibility.GetAppVisibilityOnMonitor
+- IAppVisibility.GetAppVisibilityOnMonitor
 targetos: Windows
 req.typenames: 
 req.redist: 

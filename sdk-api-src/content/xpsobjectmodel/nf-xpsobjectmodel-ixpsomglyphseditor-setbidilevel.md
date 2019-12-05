@@ -1,19 +1,17 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMGlyphsEditor.SetBidiLevel
 title: IXpsOMGlyphsEditor::SetBidiLevel (xpsobjectmodel.h)
-
 description: Sets the level of bidirectional text.
 old-location: xps\ixpsomglyphseditor_setbidilevel.htm
 tech.root: printdocs
 ms.assetid: a8035863-d1ed-4215-add3-6e60cfca7f1c
-
 ms.date: 12/05/2018
 ms.keywords: IXpsOMGlyphsEditor interface [XPS Documents and Packaging],SetBidiLevel method, IXpsOMGlyphsEditor.SetBidiLevel, IXpsOMGlyphsEditor::SetBidiLevel, SetBidiLevel, SetBidiLevel method [XPS Documents and Packaging], SetBidiLevel method [XPS Documents and Packaging],IXpsOMGlyphsEditor interface, xps.ixpsomglyphseditor_setbidilevel, xpsobjectmodel/IXpsOMGlyphsEditor::SetBidiLevel
 ms.topic: method
-f1_keywords: 
- - "xpsobjectmodel/IXpsOMGlyphsEditor.SetBidiLevel"
+f1_keywords:
+- xpsobjectmodel/IXpsOMGlyphsEditor.SetBidiLevel
 dev_langs:
- - c++
+- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsobjectmodel.h
+- xpsobjectmodel.h
 api_name:
- - IXpsOMGlyphsEditor.SetBidiLevel
+- IXpsOMGlyphsEditor.SetBidiLevel
 targetos: Windows
 req.typenames: 
 req.redist: 

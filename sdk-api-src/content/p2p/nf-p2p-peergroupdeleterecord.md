@@ -1,19 +1,17 @@
 ---
 UID: NF:p2p.PeerGroupDeleteRecord
 title: PeerGroupDeleteRecord function (p2p.h)
-
 description: The PeerGroupDeleteRecord function deletes a record from a peer group. The creator, as well as any other member in an administrative role may delete a specific record.
 old-location: p2p\peergroupdeleterecord.htm
 tech.root: P2PSdk
 ms.assetid: e80fbf7f-2193-4a45-8a7f-46707ae4acfe
-
 ms.date: 12/05/2018
 ms.keywords: PeerGroupDeleteRecord, PeerGroupDeleteRecord function [Peer Networking], p2p.peergroupdeleterecord, p2p/PeerGroupDeleteRecord
 ms.topic: function
-f1_keywords: 
- - "p2p/PeerGroupDeleteRecord"
+f1_keywords:
+- p2p/PeerGroupDeleteRecord
 dev_langs:
- - c++
+- c++
 req.header: p2p.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: P2P.lib
 req.dll: P2P.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - P2P.dll
+- P2P.dll
 api_name:
- - PeerGroupDeleteRecord
+- PeerGroupDeleteRecord
 targetos: Windows
 req.typenames: 
 req.redist: 

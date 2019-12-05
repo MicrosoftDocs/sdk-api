@@ -1,14 +1,14 @@
 ---
 UID: NE:d3d11_4.D3D11_VIDEO_DECODER_HISTOGRAM_COMPONENT_FLAGS
 title: D3D11_VIDEO_DECODER_HISTOGRAM_COMPONENT_FLAGS
-description: Flags for indicating a subset of components used with video decode histogram. 
+description: Flags for indicating a subset of components used with video decode histogram.
 ms.date: 4/26/2019
 ms.keywords: D3D11_VIDEO_DECODER_HISTOGRAM_COMPONENT_FLAGS
 ms.topic: language-reference
 f1_keywords:
- - D3D11_VIDEO_DECODER_HISTOGRAM_COMPONENT_FLAGS
+- D3D11_VIDEO_DECODER_HISTOGRAM_COMPONENT_FLAGS
 dev_langs:
- - c++
+- c++
 targetos: Windows
 req.construct-type: enumeration
 req.ddi-compliance: 
@@ -22,13 +22,13 @@ req.target-type:
 req.typenames: 
 req.umdf-ver: 
 topic_type:
- - apiref
+- apiref
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - d3d11_4.h
+- d3d11_4.h
 api_name:
- - D3D11_VIDEO_DECODER_HISTOGRAM_COMPONENT_FLAGS
+- D3D11_VIDEO_DECODER_HISTOGRAM_COMPONENT_FLAGS
 ---
 
 ## -description

@@ -1,19 +1,17 @@
 ---
 UID: NN:sbe.IStreamBufferSink
 title: IStreamBufferSink (sbe.h)
-
 description: The IStreamBufferSink interface is exposed by the Stream Buffer Sink filter. Use this interface to lock the filter before capture and to create new recordings.
 old-location: mstv\istreambuffersink.htm
 tech.root: mstv
 ms.assetid: 4ae5a9e9-da51-4034-9a2c-22b57374deac
-
 ms.date: 12/05/2018
 ms.keywords: IStreamBufferSink, IStreamBufferSink interface [Microsoft TV Technologies], IStreamBufferSink interface [Microsoft TV Technologies],described, IStreamBufferSinkInterface, mstv.istreambuffersink, sbe/IStreamBufferSink
 ms.topic: interface
-f1_keywords: 
- - "sbe/IStreamBufferSink"
+f1_keywords:
+- sbe/IStreamBufferSink
 dev_langs:
- - c++
+- c++
 req.header: sbe.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Sbe.h
+- Sbe.h
 api_name:
- - IStreamBufferSink
+- IStreamBufferSink
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,37 +1,35 @@
 ---
 UID: NE:d3d12video.D3D12_VIDEO_DECODE_SUPPORT_FLAGS
 title: D3D12_VIDEO_DECODE_SUPPORT_FLAGS
-
 description: Specifies whether a video decoding operation is supported.
 tech.root: mf
 ms.assetid: af73b6a9-3d14-4242-b0b3-b1783ebf2c7b
-
-ms.date: 05/28/2019 
+ms.date: 05/28/2019
 ms.topic: enum
 f1_keywords:
- - D3D12_VIDEO_DECODE_SUPPORT_FLAGS
+- D3D12_VIDEO_DECODE_SUPPORT_FLAGS
 dev_langs:
- - c++
-ms.keywords: D3D12_VIDEO_DECODE_SUPPORT_FLAGS, D3D12_VIDEO_DECODE_SUPPORT_FLAGS, 
+- c++
+ms.keywords: D3D12_VIDEO_DECODE_SUPPORT_FLAGS, D3D12_VIDEO_DECODE_SUPPORT_FLAGS,
 req.header: d3d12video.h
-req.include-header:
-req.redist:
-req.target-type:
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.ddi-compliance:
-req.max-support:
+req.include-header: 
+req.redist: 
+req.target-type: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.max-support: 
 req.typenames: D3D12_VIDEO_DECODE_SUPPORT_FLAGS
-topic_type: 
- - apiref
-api_type: 
- - HeaderDef
-api_location: 
- - d3d12video.h
-api_name: 
- - D3D12_VIDEO_DECODE_SUPPORT_FLAGS
+topic_type:
+- apiref
+api_type:
+- HeaderDef
+api_location:
+- d3d12video.h
+api_name:
+- D3D12_VIDEO_DECODE_SUPPORT_FLAGS
 targetos: Windows
 ---
 

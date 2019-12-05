@@ -1,19 +1,17 @@
 ---
 UID: NF:xapobase.CXAPOBase.ValidateFormatDefault
 title: CXAPOBase::ValidateFormatDefault (xapobase.h)
-
 description: Verifies that an audio format falls within the default ranges supported.
 old-location: xaudio2\cxapobase_validateformatdefault.htm
 tech.root: xaudio2
 ms.assetid: M:Microsoft.directx_sdk.cxapobase.CXAPOBase.ValidateFormatDefault(WAVEFORMATEX,BOOL)
-
 ms.date: 12/05/2018
 ms.keywords: CXAPOBase interface [XAudio2 Audio Mixing APIs],ValidateFormatDefault method, CXAPOBase.ValidateFormatDefault, CXAPOBase::ValidateFormatDefault, ValidateFormatDefault, ValidateFormatDefault method [XAudio2 Audio Mixing APIs], ValidateFormatDefault method [XAudio2 Audio Mixing APIs],CXAPOBase interface, xapobase/CXAPOBase::ValidateFormatDefault, xaudio2.cxapobase_validateformatdefault
 ms.topic: method
-f1_keywords: 
- - "xapobase/CXAPOBase.ValidateFormatDefault"
+f1_keywords:
+- xapobase/CXAPOBase.ValidateFormatDefault
 dev_langs:
- - c++
+- c++
 req.header: xapobase.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: XAPOBase.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - XAPOBase.lib
- - XAPOBase.dll
+- XAPOBase.lib
+- XAPOBase.dll
 api_name:
- - CXAPOBase.ValidateFormatDefault
+- CXAPOBase.ValidateFormatDefault
 targetos: Windows
 req.typenames: 
 req.redist: 

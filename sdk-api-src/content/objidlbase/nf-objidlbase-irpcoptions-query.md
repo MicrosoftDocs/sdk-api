@@ -1,19 +1,17 @@
 ---
 UID: NF:objidlbase.IRpcOptions.Query
 title: IRpcOptions::Query (objidlbase.h)
-
 description: Retrieves the value of an RPC binding option property.
 old-location: com\irpcoptions_query.htm
 tech.root: com
 ms.assetid: 82f59cad-3718-4202-99d3-c3aafb8dbf56
-
 ms.date: 12/05/2018
 ms.keywords: IRpcOptions interface [COM],Query method, IRpcOptions.Query, IRpcOptions::Query, Query, Query method [COM], Query method [COM],IRpcOptions interface, _com_irpcoptions_query, com.irpcoptions_query, objidlbase/IRpcOptions::Query
 ms.topic: method
-f1_keywords: 
- - "objidlbase/IRpcOptions.Query"
+f1_keywords:
+- objidlbase/IRpcOptions.Query
 dev_langs:
- - c++
+- c++
 req.header: objidlbase.h
 req.include-header: ObjIdl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - objidlbase.h
+- objidlbase.h
 api_name:
- - IRpcOptions.Query
+- IRpcOptions.Query
 targetos: Windows
 req.typenames: 
 req.redist: 

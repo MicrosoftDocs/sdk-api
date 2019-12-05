@@ -1,19 +1,17 @@
 ---
 UID: NF:processsnapshot.PssWalkMarkerGetPosition
 title: PssWalkMarkerGetPosition function (processsnapshot.h)
-
 description: Returns the current position of a walk marker.
 old-location: proc_snap\psswalkmarkergetposition.htm
 tech.root: proc_snap
 ms.assetid: A2058E81-2B01-4436-ACC6-2A3E58BC4E27
-
 ms.date: 12/05/2018
 ms.keywords: PssWalkMarkerGetPosition, PssWalkMarkerGetPosition function, proc_snap.psswalkmarkergetposition, processsnapshot/PssWalkMarkerGetPosition
 ms.topic: function
-f1_keywords: 
- - "processsnapshot/PssWalkMarkerGetPosition"
+f1_keywords:
+- processsnapshot/PssWalkMarkerGetPosition
 dev_langs:
- - c++
+- c++
 req.header: processsnapshot.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - kernel32.dll
- - API-MS-Win-Core-Processsnapshot-l1-1-0.dll
- - KernelBase.dll
+- kernel32.dll
+- API-MS-Win-Core-Processsnapshot-l1-1-0.dll
+- KernelBase.dll
 api_name:
- - PssWalkMarkerGetPosition
+- PssWalkMarkerGetPosition
 targetos: Windows
 req.typenames: 
 req.redist: 

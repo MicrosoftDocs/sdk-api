@@ -1,19 +1,17 @@
 ---
 UID: NF:msinkaut.IInkCursorButton.get_Name
 title: IInkCursorButton::get_Name (msinkaut.h)
-
 description: Gets the name of the object.
 old-location: tablet\iinkcursorbutton_name.htm
 tech.root: tablet
 ms.assetid: a431a359-12ea-4ac2-a966-6ad45a63e646
-
 ms.date: 12/05/2018
 ms.keywords: IInkCursorButton interface [Tablet PC],Name property, IInkCursorButton.Name, IInkCursorButton.get_Name, IInkCursorButton::Name, IInkCursorButton::get_Name, Name property [Tablet PC], Name property [Tablet PC],IInkCursorButton interface, get_Name, msinkaut/IInkCursorButton::Name, msinkaut/IInkCursorButton::get_Name, tablet.iinkcursorbutton_name
 ms.topic: method
-f1_keywords: 
- - "msinkaut/IInkCursorButton.Name"
+f1_keywords:
+- msinkaut/IInkCursorButton.Name
 dev_langs:
- - c++
+- c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: InkObj.dll
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - InkObj.dll
- - InkObj.dll.dll
+- InkObj.dll
+- InkObj.dll.dll
 api_name:
- - IInkCursorButton.Name
- - IInkCursorButton.get_Name
- - IInkCursorButton.get_Name
+- IInkCursorButton.Name
+- IInkCursorButton.get_Name
+- IInkCursorButton.get_Name
 targetos: Windows
 req.typenames: 
 req.redist: 

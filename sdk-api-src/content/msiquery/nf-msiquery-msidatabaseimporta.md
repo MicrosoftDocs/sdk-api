@@ -1,19 +1,17 @@
 ---
 UID: NF:msiquery.MsiDatabaseImportA
 title: MsiDatabaseImportA function (msiquery.h)
-
 description: The MsiDatabaseImport function imports an installer text archive file into an open database table.
 old-location: setup\msidatabaseimport.htm
 tech.root: Msi
 ms.assetid: df277641-393e-4202-bb92-4b813ddaa0ca
-
 ms.date: 12/05/2018
 ms.keywords: MsiDatabaseImport, MsiDatabaseImport function, MsiDatabaseImportA, MsiDatabaseImportW, _msi_msidatabaseimport, msiquery/MsiDatabaseImport, msiquery/MsiDatabaseImportA, msiquery/MsiDatabaseImportW, setup.msidatabaseimport
 ms.topic: function
-f1_keywords: 
- - "msiquery/MsiDatabaseImport"
+f1_keywords:
+- msiquery/MsiDatabaseImport
 dev_langs:
- - c++
+- c++
 req.header: msiquery.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Msi.lib
 req.dll: Msi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Msi.dll
+- Msi.dll
 api_name:
- - MsiDatabaseImport
- - MsiDatabaseImportA
- - MsiDatabaseImportW
+- MsiDatabaseImport
+- MsiDatabaseImportA
+- MsiDatabaseImportW
 targetos: Windows
 req.typenames: 
 req.redist: 

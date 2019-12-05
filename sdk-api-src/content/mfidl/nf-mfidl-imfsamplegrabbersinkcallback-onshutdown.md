@@ -1,19 +1,17 @@
 ---
 UID: NF:mfidl.IMFSampleGrabberSinkCallback.OnShutdown
 title: IMFSampleGrabberSinkCallback::OnShutdown (mfidl.h)
-
 description: Called when the sample-grabber sink is shut down.
 old-location: mf\imfsamplegrabbersinkcallback_onshutdown.htm
 tech.root: medfound
 ms.assetid: c6ab8ce3-fabb-4321-b90b-d9cdf03e7608
-
 ms.date: 12/05/2018
 ms.keywords: IMFSampleGrabberSinkCallback interface [Media Foundation],OnShutdown method, IMFSampleGrabberSinkCallback.OnShutdown, IMFSampleGrabberSinkCallback::OnShutdown, OnShutdown, OnShutdown method [Media Foundation], OnShutdown method [Media Foundation],IMFSampleGrabberSinkCallback interface, c6ab8ce3-fabb-4321-b90b-d9cdf03e7608, mf.imfsamplegrabbersinkcallback_onshutdown, mfidl/IMFSampleGrabberSinkCallback::OnShutdown
 ms.topic: method
-f1_keywords: 
- - "mfidl/IMFSampleGrabberSinkCallback.OnShutdown"
+f1_keywords:
+- mfidl/IMFSampleGrabberSinkCallback.OnShutdown
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFSampleGrabberSinkCallback.OnShutdown
+- IMFSampleGrabberSinkCallback.OnShutdown
 targetos: Windows
 req.typenames: 
 req.redist: 

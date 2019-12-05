@@ -1,19 +1,17 @@
 ---
 UID: NF:credentialprovider.ICredentialProviderUser.GetStringValue
 title: ICredentialProviderUser::GetStringValue (credentialprovider.h)
-
 description: Retrieves string properties from the ICredentialProviderUser object based on the input value.
 old-location: shell\ICredentialProviderUser_GetStringValue.htm
 tech.root: shell
 ms.assetid: 97FFD00F-6141-472c-A60C-A9A282190C9D
-
 ms.date: 12/05/2018
 ms.keywords: GetStringValue, GetStringValue method [Windows Shell], GetStringValue method [Windows Shell],ICredentialProviderUser interface, ICredentialProviderUser interface [Windows Shell],GetStringValue method, ICredentialProviderUser.GetStringValue, ICredentialProviderUser::GetStringValue, credentialprovider/ICredentialProviderUser::GetStringValue, shell.ICredentialProviderUser_GetStringValue
 ms.topic: method
-f1_keywords: 
- - "credentialprovider/ICredentialProviderUser.GetStringValue"
+f1_keywords:
+- credentialprovider/ICredentialProviderUser.GetStringValue
 dev_langs:
- - c++
+- c++
 req.header: credentialprovider.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: CredentialProvider.lib
 req.dll: Authui.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Authui.dll
+- Authui.dll
 api_name:
- - ICredentialProviderUser.GetStringValue
+- ICredentialProviderUser.GetStringValue
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NE:shobjidl_core._EXPLORERPANESTATE
 title: _EXPLORERPANESTATE (shobjidl_core.h)
-
 description: Indicate flags used by IExplorerPaneVisibility::GetPaneState to get the current state of the given Windows Explorer pane.
 old-location: shell\EXPLORERPANESTATE.htm
 tech.root: shell
 ms.assetid: 4caa2fe7-5bb3-4940-a429-fd32128eea84
-
 ms.date: 12/05/2018
 ms.keywords: EPS_DEFAULT_OFF, EPS_DEFAULT_ON, EPS_DONTCARE, EPS_FORCE, EPS_INITIALSTATE, EPS_STATEMASK, EXPLORERPANESTATE, EXPLORERPANESTATE enumeration [Windows Shell], _EXPLORERPANESTATE, _shell_EXPLORERPANESTATE, shell.EXPLORERPANESTATE, shobjidl_core/EPS_DEFAULT_OFF, shobjidl_core/EPS_DEFAULT_ON, shobjidl_core/EPS_DONTCARE, shobjidl_core/EPS_FORCE, shobjidl_core/EPS_INITIALSTATE, shobjidl_core/EPS_STATEMASK, shobjidl_core/EXPLORERPANESTATE
 ms.topic: enum
-f1_keywords: 
- - "shobjidl_core/EXPLORERPANESTATE"
+f1_keywords:
+- shobjidl_core/EXPLORERPANESTATE
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - EXPLORERPANESTATE
+- EXPLORERPANESTATE
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:combaseapi.CoAllowUnmarshalerCLSID
 title: CoAllowUnmarshalerCLSID function (combaseapi.h)
-
 description: Adds an unmarshaler CLSID to the allowed list for the calling process only.
 old-location: com\coallowunmarshalerclsid.htm
 tech.root: com
 ms.assetid: 4655C6B6-02CE-42B2-A157-0C0325D1BE52
-
 ms.date: 12/05/2018
 ms.keywords: CoAllowUnmarshalerCLSID, CoAllowUnmarshalerCLSID function [COM], com.coallowunmarshalerclsid, combaseapi/CoAllowUnmarshalerCLSID
 ms.topic: function
-f1_keywords: 
- - "combaseapi/CoAllowUnmarshalerCLSID"
+f1_keywords:
+- combaseapi/CoAllowUnmarshalerCLSID
 dev_langs:
- - c++
+- c++
 req.header: combaseapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Ole32.lib
 req.dll: Ole32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ole32.dll
- - API-MS-Win-Core-Com-l1-1-0.dll
- - ComBase.dll
- - API-MS-Win-Core-Com-l1-1-1.dll
+- Ole32.dll
+- API-MS-Win-Core-Com-l1-1-0.dll
+- ComBase.dll
+- API-MS-Win-Core-Com-l1-1-1.dll
 api_name:
- - CoAllowUnmarshalerCLSID
+- CoAllowUnmarshalerCLSID
 targetos: Windows
 req.typenames: 
 req.redist: 

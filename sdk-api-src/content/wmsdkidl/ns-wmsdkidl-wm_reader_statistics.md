@@ -1,19 +1,17 @@
 ---
 UID: NS:wmsdkidl._WMReaderStatistics
 title: WM_READER_STATISTICS (wmsdkidl.h)
-
 description: The WM_READER_STATISTICS structure describes the performance of a reading operation.
 old-location: wmformat\wm_reader_statistics.htm
 tech.root: wmformat
 ms.assetid: 30e58e9b-5247-4d9a-91dc-fd137d8f5613
-
 ms.date: 12/05/2018
 ms.keywords: WM_READER_STATISTICS, WM_READER_STATISTICS structure [windows Media Format], wmformat.wm_reader_statistics, wmsdkidl/WM_READER_STATISTICS
 ms.topic: struct
-f1_keywords: 
- - "wmsdkidl/WM_READER_STATISTICS"
+f1_keywords:
+- wmsdkidl/WM_READER_STATISTICS
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wmsdkidl.h
+- Wmsdkidl.h
 api_name:
- - WM_READER_STATISTICS
+- WM_READER_STATISTICS
 targetos: Windows
 req.typenames: WM_READER_STATISTICS
 req.redist: 

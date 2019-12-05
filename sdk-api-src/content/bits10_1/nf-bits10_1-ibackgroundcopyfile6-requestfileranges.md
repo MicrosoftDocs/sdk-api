@@ -1,19 +1,17 @@
 ---
 UID: NF:bits10_1.IBackgroundCopyFile6.RequestFileRanges
 title: IBackgroundCopyFile6::RequestFileRanges (bits10_1.h)
-
 description: Adds a new set of file ranges to be prioritized for download.
 old-location: bits\ibackgroundcopyfile6_requestfileranges.htm
 tech.root: Bits
 ms.assetid: C36BDE94-03AC-4F06-B17B-B8729226F8AC
-
 ms.date: 12/05/2018
 ms.keywords: IBackgroundCopyFile6 interface [BITS],RequestFileRanges method, IBackgroundCopyFile6.RequestFileRanges, IBackgroundCopyFile6::RequestFileRanges, RequestFileRanges, RequestFileRanges method [BITS], RequestFileRanges method [BITS],IBackgroundCopyFile6 interface, bits.ibackgroundcopyfile6_requestfileranges, bits10_1/IBackgroundCopyFile6::RequestFileRanges
 ms.topic: method
-f1_keywords: 
- - "bits10_1/IBackgroundCopyFile6.RequestFileRanges"
+f1_keywords:
+- bits10_1/IBackgroundCopyFile6.RequestFileRanges
 dev_langs:
- - c++
+- c++
 req.header: bits10_1.h
 req.include-header: Bits.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Bits.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Bits.lib
- - Bits.dll
+- Bits.lib
+- Bits.dll
 api_name:
- - IBackgroundCopyFile6.RequestFileRanges
+- IBackgroundCopyFile6.RequestFileRanges
 targetos: Windows
 req.typenames: 
 req.redist: 

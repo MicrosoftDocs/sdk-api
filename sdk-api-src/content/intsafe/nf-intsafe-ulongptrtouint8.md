@@ -1,19 +1,17 @@
 ---
 UID: NF:intsafe.ULongPtrToUInt8
 title: ULongPtrToUInt8 function (intsafe.h)
-
 description: Converts a value of type ULONG_PTR to a value of type UINT8.
 old-location: shell\ULongPtrToUInt8.htm
 tech.root: shell
 ms.assetid: 1a287c22-80d8-4cd9-8878-c19aaeddd407
-
 ms.date: 12/05/2018
 ms.keywords: ULongPtrToUInt8, ULongPtrToUInt8 function [Windows Shell], ULongToByte, intsafe/ULongPtrToUInt8, shell.ULongPtrToUInt8
 ms.topic: function
-f1_keywords: 
- - "intsafe/ULongPtrToUInt8"
+f1_keywords:
+- intsafe/ULongPtrToUInt8
 dev_langs:
- - c++
+- c++
 req.header: intsafe.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - intsafe.h
+- intsafe.h
 api_name:
- - ULongPtrToUInt8
+- ULongPtrToUInt8
 targetos: Windows
 req.typenames: 
 req.redist: 

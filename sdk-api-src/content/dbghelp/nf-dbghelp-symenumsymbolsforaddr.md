@@ -1,19 +1,17 @@
 ---
 UID: NF:dbghelp.SymEnumSymbolsForAddr
 title: SymEnumSymbolsForAddr function (dbghelp.h)
-
 description: Enumerates the symbols for the specified address.
 old-location: base\symenumsymbolsforaddr.htm
 tech.root: Debug
 ms.assetid: 1c622d1d-e7be-4b02-8d6d-68b5f07f2e35
-
 ms.date: 12/05/2018
 ms.keywords: SymEnumSymbolsForAddr, SymEnumSymbolsForAddr function, SymEnumSymbolsForAddrW, _win32_symenumsymbolsforaddr, base.symenumsymbolsforaddr, dbghelp/SymEnumSymbolsForAddr, dbghelp/SymEnumSymbolsForAddrW
 ms.topic: function
-f1_keywords: 
- - "dbghelp/SymEnumSymbolsForAddr"
+f1_keywords:
+- dbghelp/SymEnumSymbolsForAddr
 dev_langs:
- - c++
+- c++
 req.header: dbghelp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Dbghelp.lib
 req.dll: Dbghelp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Dbghelp.dll
+- Dbghelp.dll
 api_name:
- - SymEnumSymbolsForAddr
- - SymEnumSymbolsForAddr
- - SymEnumSymbolsForAddrW
+- SymEnumSymbolsForAddr
+- SymEnumSymbolsForAddr
+- SymEnumSymbolsForAddrW
 targetos: Windows
 req.typenames: 
 req.redist: DbgHelp.dll 6.0 or later

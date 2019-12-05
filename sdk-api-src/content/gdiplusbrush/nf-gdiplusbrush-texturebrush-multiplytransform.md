@@ -1,19 +1,17 @@
 ---
 UID: NF:gdiplusbrush.TextureBrush.MultiplyTransform
 title: TextureBrush::MultiplyTransform (gdiplusbrush.h)
-
 description: The TextureBrush::MultiplyTransform method updates this brush's transformation matrix with the product of itself and another matrix.
 old-location: gdiplus\_gdiplus_CLASS_TextureBrush_MultiplyTransform_matrix_order_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\texturebrushclass\texturebrushmethods\multiplytransform_37matrix_order.htm
-
 ms.date: 12/05/2018
 ms.keywords: MultiplyTransform, MultiplyTransform method [GDI+], MultiplyTransform method [GDI+],TextureBrush class, TextureBrush class [GDI+],MultiplyTransform method, TextureBrush.MultiplyTransform, TextureBrush::MultiplyTransform, _gdiplus_CLASS_TextureBrush_MultiplyTransform_matrix_order_, gdiplus._gdiplus_CLASS_TextureBrush_MultiplyTransform_matrix_order_
 ms.topic: method
-f1_keywords: 
- - "gdiplusbrush/TextureBrush.MultiplyTransform"
+f1_keywords:
+- gdiplusbrush/TextureBrush.MultiplyTransform
 dev_langs:
- - c++
+- c++
 req.header: gdiplusbrush.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - TextureBrush.MultiplyTransform
+- TextureBrush.MultiplyTransform
 targetos: Windows
 req.typenames: 
 req.redist: 

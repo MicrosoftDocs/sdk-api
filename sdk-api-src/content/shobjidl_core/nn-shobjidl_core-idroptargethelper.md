@@ -1,19 +1,17 @@
 ---
 UID: NN:shobjidl_core.IDropTargetHelper
 title: IDropTargetHelper (shobjidl_core.h)
-
 description: Exposes methods that allow drop targets to display a drag image while the image is over the target window.
 old-location: shell\IDropTargetHelper.htm
 tech.root: shell
 ms.assetid: b1ddbf7e-edf3-48fb-8983-ae39cb7bb4b0
-
 ms.date: 12/05/2018
 ms.keywords: IDropTargetHelper, IDropTargetHelper interface [Windows Shell], IDropTargetHelper interface [Windows Shell],described, _win32_IDropTargetHelper, shell.IDropTargetHelper, shobjidl_core/IDropTargetHelper
 ms.topic: interface
-f1_keywords: 
- - "shobjidl_core/IDropTargetHelper"
+f1_keywords:
+- shobjidl_core/IDropTargetHelper
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Shell32.dll (version 5.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - IDropTargetHelper
+- IDropTargetHelper
 targetos: Windows
 req.typenames: 
 req.redist: 

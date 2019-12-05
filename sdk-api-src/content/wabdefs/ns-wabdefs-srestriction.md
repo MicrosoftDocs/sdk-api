@@ -1,19 +1,17 @@
 ---
 UID: NS:wabdefs._SRestriction
 title: SRestriction (wabdefs.h)
-
 description: Do not use. Describes a filter for limiting the view of a table to particular rows.
 old-location: wab\_wab_SRestriction.htm
 tech.root: wab
 ms.assetid: VS|wab|~\wab\reference\structures\srestriction.htm
-
 ms.date: 12/05/2018
-ms.keywords: "*LPSRestriction, RES_AND, RES_BITMASK, RES_COMMENT, RES_COMPAREPROPS, RES_CONTENT, RES_EXIST, RES_NOT, RES_OR, RES_PROPERTY, RES_SIZE, RES_SUBRESTRICTION, SRestriction, SRestriction structure [Windows Address Book], _wab_SRestriction, wab._wab_SRestriction, wabdefs/SRestriction"
+ms.keywords: '*LPSRestriction, RES_AND, RES_BITMASK, RES_COMMENT, RES_COMPAREPROPS, RES_CONTENT, RES_EXIST, RES_NOT, RES_OR, RES_PROPERTY, RES_SIZE, RES_SUBRESTRICTION, SRestriction, SRestriction structure [Windows Address Book], _wab_SRestriction, wab._wab_SRestriction, wabdefs/SRestriction'
 ms.topic: struct
-f1_keywords: 
- - "wabdefs/SRestriction"
+f1_keywords:
+- wabdefs/SRestriction
 dev_langs:
- - c++
+- c++
 req.header: wabdefs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wabdefs.h
+- Wabdefs.h
 api_name:
- - SRestriction
+- SRestriction
 targetos: Windows
-req.typenames: "*LPSRestriction, SRestriction"
+req.typenames: '*LPSRestriction, SRestriction'
 req.redist: 
 req.product: Internet Explorer 4.0
 ms.custom: 19H1

@@ -1,19 +1,17 @@
 ---
 UID: NF:comcat.ICatInformation.GetCategoryDesc
 title: ICatInformation::GetCategoryDesc (comcat.h)
-
 description: Retrieves the localized description string for a specific category ID.
 old-location: com\icatinformation_getcategorydesc.htm
 tech.root: com
 ms.assetid: 66f004c2-2616-441e-8bb7-f56eb062bb35
-
 ms.date: 12/05/2018
 ms.keywords: GetCategoryDesc, GetCategoryDesc method [COM], GetCategoryDesc method [COM],ICatInformation interface, ICatInformation interface [COM],GetCategoryDesc method, ICatInformation.GetCategoryDesc, ICatInformation::GetCategoryDesc, _com_icatinformation_getcategorydesc, com.icatinformation_getcategorydesc, comcat/ICatInformation::GetCategoryDesc
 ms.topic: method
-f1_keywords: 
- - "comcat/ICatInformation.GetCategoryDesc"
+f1_keywords:
+- comcat/ICatInformation.GetCategoryDesc
 dev_langs:
- - c++
+- c++
 req.header: comcat.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComCat.h
+- ComCat.h
 api_name:
- - ICatInformation.GetCategoryDesc
+- ICatInformation.GetCategoryDesc
 targetos: Windows
 req.typenames: 
 req.redist: 

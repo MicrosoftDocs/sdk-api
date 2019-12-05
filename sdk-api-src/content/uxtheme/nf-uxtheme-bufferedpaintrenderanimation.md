@@ -1,19 +1,17 @@
 ---
 UID: NF:uxtheme.BufferedPaintRenderAnimation
 title: BufferedPaintRenderAnimation function (uxtheme.h)
-
 description: Paints the next frame of a buffered paint animation.
 old-location: controls\BufferedPaintRenderAnimation.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\userex\functions\bufferedpaintrenderanimation.htm
-
 ms.date: 12/05/2018
 ms.keywords: BufferedPaintRenderAnimation, BufferedPaintRenderAnimation function [Windows Controls], _shell_BufferedPaintRenderAnimation, _shell_BufferedPaintRenderAnimation_cpp, controls.BufferedPaintRenderAnimation, controls._shell_BufferedPaintRenderAnimation, uxtheme/BufferedPaintRenderAnimation
 ms.topic: function
-f1_keywords: 
- - "uxtheme/BufferedPaintRenderAnimation"
+f1_keywords:
+- uxtheme/BufferedPaintRenderAnimation
 dev_langs:
- - c++
+- c++
 req.header: uxtheme.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: UxTheme.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - UxTheme.dll
+- UxTheme.dll
 api_name:
- - BufferedPaintRenderAnimation
+- BufferedPaintRenderAnimation
 targetos: Windows
 req.typenames: 
 req.redist: 

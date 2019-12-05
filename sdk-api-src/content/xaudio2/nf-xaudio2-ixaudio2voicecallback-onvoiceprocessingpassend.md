@@ -1,19 +1,17 @@
 ---
 UID: NF:xaudio2.IXAudio2VoiceCallback.OnVoiceProcessingPassEnd
 title: IXAudio2VoiceCallback::OnVoiceProcessingPassEnd (xaudio2.h)
-
 description: Called just after the processing pass for the voice ends.
 old-location: xaudio2\ixaudio2voicecallback_interface_onvoiceprocessingpassend.htm
 tech.root: xaudio2
 ms.assetid: M:Microsoft.directx_sdk.ixaudio2voicecallback.IXAudio2VoiceCallback.OnVoiceProcessingPassEnd
-
 ms.date: 12/05/2018
 ms.keywords: IXAudio2VoiceCallback interface [XAudio2 Audio Mixing APIs],OnVoiceProcessingPassEnd method, IXAudio2VoiceCallback.OnVoiceProcessingPassEnd, IXAudio2VoiceCallback::OnVoiceProcessingPassEnd, OnVoiceProcessingPassEnd, OnVoiceProcessingPassEnd method [XAudio2 Audio Mixing APIs], OnVoiceProcessingPassEnd method [XAudio2 Audio Mixing APIs],IXAudio2VoiceCallback interface, xaudio2.ixaudio2voicecallback_interface_onvoiceprocessingpassend, xaudio2/IXAudio2VoiceCallback::OnVoiceProcessingPassEnd
 ms.topic: method
-f1_keywords: 
- - "xaudio2/IXAudio2VoiceCallback.OnVoiceProcessingPassEnd"
+f1_keywords:
+- xaudio2/IXAudio2VoiceCallback.OnVoiceProcessingPassEnd
 dev_langs:
- - c++
+- c++
 req.header: xaudio2.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xaudio2.h
+- xaudio2.h
 api_name:
- - IXAudio2VoiceCallback.OnVoiceProcessingPassEnd
+- IXAudio2VoiceCallback.OnVoiceProcessingPassEnd
 targetos: Windows
 req.typenames: 
 req.redist: 

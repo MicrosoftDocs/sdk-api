@@ -1,19 +1,17 @@
 ---
 UID: NF:gdiplustypes.Rect.GetLeft
 title: Rect::GetLeft (gdiplustypes.h)
-
 description: The Rect::GetLeft method gets the x-coordinate of the left edge of the rectangle.
 old-location: gdiplus\_gdiplus_CLASS_Rect_GetLeft_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\rectclass\rectmethods\getleft.htm
-
 ms.date: 12/05/2018
 ms.keywords: GetLeft, GetLeft method [GDI+], GetLeft method [GDI+],Rect class, Rect class [GDI+],GetLeft method, Rect.GetLeft, Rect::GetLeft, _gdiplus_CLASS_Rect_GetLeft_, gdiplus._gdiplus_CLASS_Rect_GetLeft_
 ms.topic: method
-f1_keywords: 
- - "gdiplustypes/Rect.GetLeft"
+f1_keywords:
+- gdiplustypes/Rect.GetLeft
 dev_langs:
- - c++
+- c++
 req.header: gdiplustypes.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - Rect.GetLeft
+- Rect.GetLeft
 targetos: Windows
 req.typenames: 
 req.redist: 

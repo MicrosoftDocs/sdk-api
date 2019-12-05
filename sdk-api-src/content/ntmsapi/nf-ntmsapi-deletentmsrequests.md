@@ -1,19 +1,17 @@
 ---
 UID: NF:ntmsapi.DeleteNtmsRequests
 title: DeleteNtmsRequests function (ntmsapi.h)
-
 description: The DeleteNtmsRequests function deletes a request or a list of requests from the RSM database.
 old-location: fs\deletentmsrequests.htm
 tech.root: Rsm
 ms.assetid: 5368184a-419c-4cb7-b27f-b55fc26b4e81
-
 ms.date: 12/05/2018
 ms.keywords: DeleteNtmsRequests, DeleteNtmsRequests function [Files], NTMS_LIBREQUEST, NTMS_OPREQUEST, _zaw_deletentmsrequests, base.deletentmsrequests, fs.deletentmsrequests, ntmsapi/DeleteNtmsRequests
 ms.topic: function
-f1_keywords: 
- - "ntmsapi/DeleteNtmsRequests"
+f1_keywords:
+- ntmsapi/DeleteNtmsRequests
 dev_langs:
- - c++
+- c++
 req.header: ntmsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Ntmsapi.lib
 req.dll: Ntmsapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ntmsapi.dll
+- Ntmsapi.dll
 api_name:
- - DeleteNtmsRequests
+- DeleteNtmsRequests
 targetos: Windows
 req.typenames: 
 req.redist: 

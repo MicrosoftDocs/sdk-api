@@ -1,19 +1,17 @@
 ---
 UID: NC:fwpmu.FWPM_NET_EVENT_CALLBACK0
 title: FWPM_NET_EVENT_CALLBACK0 (fwpmu.h)
-
 description: Is used to add custom behavior to the net event subscription process.
 old-location: fwp\fwpm_net_event_callback0_func.htm
 tech.root: fwp
 ms.assetid: 69b311c5-ac08-490b-823b-4049f7c46975
-
 ms.date: 12/05/2018
 ms.keywords: FWPM_NET_EVENT_CALLBACK0, FWPM_NET_EVENT_CALLBACK0 callback, FWPM_NET_EVENT_CALLBACK0 callback function [Filtering], fwp.fwpm_net_event_callback0_func, fwpmu/FWPM_NET_EVENT_CALLBACK0
 ms.topic: callback
-f1_keywords: 
- - "fwpmu/FWPM_NET_EVENT_CALLBACK0"
+f1_keywords:
+- fwpmu/FWPM_NET_EVENT_CALLBACK0
 dev_langs:
- - c++
+- c++
 req.header: fwpmu.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Fwpmu.h
+- Fwpmu.h
 api_name:
- - FWPM_NET_EVENT_CALLBACK0
+- FWPM_NET_EVENT_CALLBACK0
 targetos: Windows
 req.typenames: 
 req.redist: 

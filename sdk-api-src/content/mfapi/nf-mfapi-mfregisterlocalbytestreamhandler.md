@@ -1,19 +1,17 @@
 ---
 UID: NF:mfapi.MFRegisterLocalByteStreamHandler
 title: MFRegisterLocalByteStreamHandler function (mfapi.h)
-
 description: Registers a byte-stream handler in the caller's process.
 old-location: mf\mfregisterlocalbytestreamhandler.htm
 tech.root: medfound
 ms.assetid: B41FAA50-9CF7-4DD0-8571-1817C7C49276
-
 ms.date: 12/05/2018
 ms.keywords: MFRegisterLocalByteStreamHandler, MFRegisterLocalByteStreamHandler function [Media Foundation], mf.mfregisterlocalbytestreamhandler, mfapi/MFRegisterLocalByteStreamHandler
 ms.topic: function
-f1_keywords: 
- - "mfapi/MFRegisterLocalByteStreamHandler"
+f1_keywords:
+- mfapi/MFRegisterLocalByteStreamHandler
 dev_langs:
- - c++
+- c++
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Mfplat.lib
 req.dll: Mfplat.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - mfplat.dll
+- mfplat.dll
 api_name:
- - MFRegisterLocalByteStreamHandler
+- MFRegisterLocalByteStreamHandler
 targetos: Windows
 req.typenames: 
 req.redist: 

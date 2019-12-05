@@ -1,19 +1,17 @@
 ---
 UID: NF:netioapi.InitializeIpForwardEntry
 title: InitializeIpForwardEntry function (netioapi.h)
-
 description: Initializes a MIB_IPFORWARD_ROW2 structure with default values for an IP route entry on the local computer.
 old-location: iphlp\initializeipforwardentry.htm
 tech.root: IpHlp
 ms.assetid: 1968c4e5-4b28-4387-a918-3326bc80bb3e
-
 ms.date: 12/05/2018
 ms.keywords: InitializeIpForwardEntry, InitializeIpForwardEntry function [IP Helper], iphlp.initializeipforwardentry, netioapi/InitializeIpForwardEntry
 ms.topic: function
-f1_keywords: 
- - "netioapi/InitializeIpForwardEntry"
+f1_keywords:
+- netioapi/InitializeIpForwardEntry
 dev_langs:
- - c++
+- c++
 req.header: netioapi.h
 req.include-header: Iphlpapi.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Iphlpapi.lib
 req.dll: Iphlpapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Iphlpapi.dll
+- Iphlpapi.dll
 api_name:
- - InitializeIpForwardEntry
+- InitializeIpForwardEntry
 targetos: Windows
 req.typenames: 
 req.redist: 

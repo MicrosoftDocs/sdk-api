@@ -1,19 +1,17 @@
 ---
 UID: NF:dpa_dsa.DPA_Search
 title: DPA_Search function (dpa_dsa.h)
-
 description: Finds an item in a dynamic pointer array (DPA).
 old-location: controls\DPA_Search.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\common\functions\dpa_search.htm
-
 ms.date: 12/05/2018
 ms.keywords: DPAS_INSERTAFTER, DPAS_INSERTBEFORE, DPAS_SORTED, DPA_Search, DPA_Search function [Windows Controls], _win32_DPA_Search, _win32_DPA_Search_cpp, controls.DPA_Search, controls._win32_DPA_Search, dpa_dsa/DPA_Search
 ms.topic: function
-f1_keywords: 
- - "dpa_dsa/DPA_Search"
+f1_keywords:
+- dpa_dsa/DPA_Search
 dev_langs:
- - c++
+- c++
 req.header: dpa_dsa.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Comctl32.lib
 req.dll: ComCtl32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - ComCtl32.dll
+- ComCtl32.dll
 api_name:
- - DPA_Search
+- DPA_Search
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NN:iaccess.IAccessControl
 title: IAccessControl (iaccess.h)
-
 description: Enables the management of access to objects and properties on the objects.
 old-location: com\iaccesscontrol.htm
 tech.root: com
 ms.assetid: f7f19a9d-27ed-479f-b5d4-562cab5be12a
-
 ms.date: 12/05/2018
 ms.keywords: IAccessControl, IAccessControl interface [COM], IAccessControl interface [COM],described, _com_iaccesscontrol, com.iaccesscontrol, iaccess/IAccessControl
 ms.topic: interface
-f1_keywords: 
- - "iaccess/IAccessControl"
+f1_keywords:
+- iaccess/IAccessControl
 dev_langs:
- - c++
+- c++
 req.header: iaccess.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - IAccess.h
+- IAccess.h
 api_name:
- - IAccessControl
+- IAccessControl
 targetos: Windows
 req.typenames: 
 req.redist: 

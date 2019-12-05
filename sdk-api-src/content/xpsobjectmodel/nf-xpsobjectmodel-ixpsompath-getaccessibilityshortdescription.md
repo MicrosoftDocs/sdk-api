@@ -1,19 +1,17 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMPath.GetAccessibilityShortDescription
 title: IXpsOMPath::GetAccessibilityShortDescription (xpsobjectmodel.h)
-
 description: Gets the short textual description of the object's contents.
 old-location: xps\ixpsompath_getaccessibilityshortdescription.htm
 tech.root: printdocs
 ms.assetid: 0124d37a-74c1-4f8b-9d91-c12e92cd5e8c
-
 ms.date: 12/05/2018
 ms.keywords: GetAccessibilityShortDescription, GetAccessibilityShortDescription method [XPS Documents and Packaging], GetAccessibilityShortDescription method [XPS Documents and Packaging],IXpsOMPath interface, IXpsOMPath interface [XPS Documents and Packaging],GetAccessibilityShortDescription method, IXpsOMPath.GetAccessibilityShortDescription, IXpsOMPath::GetAccessibilityShortDescription, xps.ixpsompath_getaccessibilityshortdescription, xpsobjectmodel/IXpsOMPath::GetAccessibilityShortDescription
 ms.topic: method
-f1_keywords: 
- - "xpsobjectmodel/IXpsOMPath.GetAccessibilityShortDescription"
+f1_keywords:
+- xpsobjectmodel/IXpsOMPath.GetAccessibilityShortDescription
 dev_langs:
- - c++
+- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsobjectmodel.h
+- xpsobjectmodel.h
 api_name:
- - IXpsOMPath.GetAccessibilityShortDescription
+- IXpsOMPath.GetAccessibilityShortDescription
 targetos: Windows
 req.typenames: 
 req.redist: 

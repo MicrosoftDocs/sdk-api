@@ -1,19 +1,17 @@
 ---
 UID: NF:docobj.IOleDocumentSite.ActivateMe
 title: IOleDocumentSite::ActivateMe (docobj.h)
-
 description: Asks a document site to activate the document making the call as a document object rather than an in-place-active object and, optionally, specifies which view of the object document to activate.
 old-location: com\ioledocumentsite_activateme.htm
 tech.root: com
 ms.assetid: 4e4a746d-460a-478e-9ca5-be5f63b03d17
-
 ms.date: 12/05/2018
 ms.keywords: ActivateMe, ActivateMe method [COM], ActivateMe method [COM],IOleDocumentSite interface, IOleDocumentSite interface [COM],ActivateMe method, IOleDocumentSite.ActivateMe, IOleDocumentSite::ActivateMe, _ole_ioledocumentsite_activateme, com.ioledocumentsite_activateme, docobj/IOleDocumentSite::ActivateMe
 ms.topic: method
-f1_keywords: 
- - "docobj/IOleDocumentSite.ActivateMe"
+f1_keywords:
+- docobj/IOleDocumentSite.ActivateMe
 dev_langs:
- - c++
+- c++
 req.header: docobj.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - DocObj.h
+- DocObj.h
 api_name:
- - IOleDocumentSite.ActivateMe
+- IOleDocumentSite.ActivateMe
 targetos: Windows
 req.typenames: 
 req.redist: 

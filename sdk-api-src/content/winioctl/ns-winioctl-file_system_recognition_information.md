@@ -1,19 +1,17 @@
 ---
 UID: NS:winioctl._FILE_SYSTEM_RECOGNITION_INFORMATION
 title: FILE_SYSTEM_RECOGNITION_INFORMATION
-
 description: Contains file system recognition information retrieved by the FSCTL_QUERY_FILE_SYSTEM_RECOGNITION control code.
 old-location: fs\file_system_recognition_information.htm
 tech.root: FileIO
 ms.assetid: 27d9fd2b-d4c6-4237-8c15-0fa97b63b991
-
 ms.date: 12/05/2018
-ms.keywords: "*PFILE_SYSTEM_RECOGNITION_INFORMATION, FILE_SYSTEM_RECOGNITION_INFORMATION, FILE_SYSTEM_RECOGNITION_INFORMATION structure [Files], PFILE_SYSTEM_RECOGNITION_INFORMATION, PFILE_SYSTEM_RECOGNITION_INFORMATION structure pointer [Files], fs.file_system_recognition_information, winioctl/FILE_SYSTEM_RECOGNITION_INFORMATION, winioctl/PFILE_SYSTEM_RECOGNITION_INFORMATION"
+ms.keywords: '*PFILE_SYSTEM_RECOGNITION_INFORMATION, FILE_SYSTEM_RECOGNITION_INFORMATION, FILE_SYSTEM_RECOGNITION_INFORMATION structure [Files], PFILE_SYSTEM_RECOGNITION_INFORMATION, PFILE_SYSTEM_RECOGNITION_INFORMATION structure pointer [Files], fs.file_system_recognition_information, winioctl/FILE_SYSTEM_RECOGNITION_INFORMATION, winioctl/PFILE_SYSTEM_RECOGNITION_INFORMATION'
 ms.topic: struct
-f1_keywords: 
- - "winioctl/FILE_SYSTEM_RECOGNITION_INFORMATION"
+f1_keywords:
+- winioctl/FILE_SYSTEM_RECOGNITION_INFORMATION
 dev_langs:
- - c++
+- c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WinIoCtl.h
+- WinIoCtl.h
 api_name:
- - FILE_SYSTEM_RECOGNITION_INFORMATION
+- FILE_SYSTEM_RECOGNITION_INFORMATION
 targetos: Windows
 req.typenames: FILE_SYSTEM_RECOGNITION_INFORMATION, *PFILE_SYSTEM_RECOGNITION_INFORMATION
 req.redist: 

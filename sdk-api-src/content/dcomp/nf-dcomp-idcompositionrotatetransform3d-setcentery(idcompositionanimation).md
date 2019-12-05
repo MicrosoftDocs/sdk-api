@@ -1,19 +1,17 @@
 ---
 UID: NF:dcomp.IDCompositionRotateTransform3D.SetCenterY(IDCompositionAnimation)
 title: IDCompositionRotateTransform3D::SetCenterY(IDCompositionAnimation) (dcomp.h)
-
 description: Animates the value of the CenterY property of a 3D rotation transform. The CenterY property specifies the y-coordinate of the point about which the rotation is performed. The default value is zero.
 old-location: directcomp\idcompositionrotatetransform3d_setcentery_idcompositionanimation.htm
 tech.root: directcomp
 ms.assetid: 051E01E0-1A1B-4724-A8F2-F12F2EC27C4C
-
 ms.date: 12/05/2018
 ms.keywords: IDCompositionRotateTransform3D interface [DirectComposition],SetCenterY method, IDCompositionRotateTransform3D.SetCenterY, IDCompositionRotateTransform3D.SetCenterY(IDCompositionAnimation), IDCompositionRotateTransform3D::SetCenterY, IDCompositionRotateTransform3D::SetCenterY(IDCompositionAnimation), IDCompositionRotateTransform3D::SetCenterY(IDCompositionAnimation*), SetCenterY, SetCenterY method [DirectComposition], SetCenterY method [DirectComposition],IDCompositionRotateTransform3D interface, dcomp/IDCompositionRotateTransform3D::SetCenterY, directcomp.idcompositionrotatetransform3d_setcentery_idcompositionanimation
 ms.topic: method
-f1_keywords: 
- - "dcomp/IDCompositionRotateTransform3D.SetCenterY"
+f1_keywords:
+- dcomp/IDCompositionRotateTransform3D.SetCenterY
 dev_langs:
- - c++
+- c++
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dcomp.lib
 req.dll: Dcomp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dcomp.dll
+- Dcomp.dll
 api_name:
- - IDCompositionRotateTransform3D.SetCenterY
+- IDCompositionRotateTransform3D.SetCenterY
 targetos: Windows
 req.typenames: 
 req.redist: 

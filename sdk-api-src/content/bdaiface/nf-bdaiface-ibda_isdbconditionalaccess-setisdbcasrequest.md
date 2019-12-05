@@ -1,19 +1,17 @@
 ---
 UID: NF:bdaiface.IBDA_ISDBConditionalAccess.SetIsdbCasRequest
 title: IBDA_ISDBConditionalAccess::SetIsdbCasRequest (bdaiface.h)
-
 description: Sends a conditional access system (CAS) command for Integrated Services Digital Broadcasting (ISDB).
 old-location: mstv\ibda_isdbconditionalaccess_setisdbcasrequest.htm
 tech.root: mstv
 ms.assetid: c93351f5-1829-4405-b665-00f2e78391e0
-
 ms.date: 12/05/2018
 ms.keywords: IBDA_ISDBConditionalAccess interface [Microsoft TV Technologies],SetIsdbCasRequest method, IBDA_ISDBConditionalAccess.SetIsdbCasRequest, IBDA_ISDBConditionalAccess::SetIsdbCasRequest, SetIsdbCasRequest, SetIsdbCasRequest method [Microsoft TV Technologies], SetIsdbCasRequest method [Microsoft TV Technologies],IBDA_ISDBConditionalAccess interface, bdaiface/IBDA_ISDBConditionalAccess::SetIsdbCasRequest, mstv.ibda_isdbconditionalaccess_setisdbcasrequest
 ms.topic: method
-f1_keywords: 
- - "bdaiface/IBDA_ISDBConditionalAccess.SetIsdbCasRequest"
+f1_keywords:
+- bdaiface/IBDA_ISDBConditionalAccess.SetIsdbCasRequest
 dev_langs:
- - c++
+- c++
 req.header: bdaiface.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - bdaiface.h
+- bdaiface.h
 api_name:
- - IBDA_ISDBConditionalAccess.SetIsdbCasRequest
+- IBDA_ISDBConditionalAccess.SetIsdbCasRequest
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:strsafe.StringCbPrintfExW
 title: StringCbPrintfExW function (strsafe.h)
-
 description: Writes formatted data to the specified string.
 old-location: menurc\stringcbprintfex.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\strings\stringreference\stringfunctions\stringcbprintfex.htm
-
 ms.date: 12/05/2018
 ms.keywords: STRSAFE_FILL_BEHIND_NULL, STRSAFE_FILL_ON_FAILURE, STRSAFE_IGNORE_NULLS, STRSAFE_NO_TRUNCATION, STRSAFE_NULL_ON_FAILURE, StringCbPrintfEx, StringCbPrintfEx function [Menus and Other Resources], StringCbPrintfExA, StringCbPrintfExW, _shell_StringCbPrintfEx, _shell_stringcbprintfex_cpp, menurc.stringcbprintfex, strsafe/StringCbPrintfEx, strsafe/StringCbPrintfExA, strsafe/StringCbPrintfExW, winui._shell_stringcbprintfex
 ms.topic: function
-f1_keywords: 
- - "strsafe/StringCbPrintfEx"
+f1_keywords:
+- strsafe/StringCbPrintfEx
 dev_langs:
- - c++
+- c++
 req.header: strsafe.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Strsafe.h
+- Strsafe.h
 api_name:
- - StringCbPrintfEx
- - StringCbPrintfExA
- - StringCbPrintfExW
+- StringCbPrintfEx
+- StringCbPrintfExA
+- StringCbPrintfExW
 targetos: Windows
 req.typenames: 
 req.redist: 

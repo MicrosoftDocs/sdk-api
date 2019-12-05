@@ -1,19 +1,17 @@
 ---
 UID: NE:wincodec.WICPngBkgdProperties
 title: WICPngBkgdProperties (wincodec.h)
-
 description: Specifies the Portable Network Graphics (PNG) background (bKGD) chunk metadata properties.
 old-location: wic\_wic_codec_wicpngbkgdproperties.htm
 tech.root: wic
 ms.assetid: 979f6a91-79a2-4eba-8957-e2908636cdc5
-
 ms.date: 12/05/2018
 ms.keywords: WICPngBkgdBackgroundColor, WICPngBkgdProperties, WICPngBkgdProperties enumeration [Windows Imaging Component], _wic_codec_wicpngbkgdproperties, wic._wic_codec_wicpngbkgdproperties, wincodec/WICPngBkgdBackgroundColor, wincodec/WICPngBkgdProperties
 ms.topic: enum
-f1_keywords: 
- - "wincodec/WICPngBkgdProperties"
+f1_keywords:
+- wincodec/WICPngBkgdProperties
 dev_langs:
- - c++
+- c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wincodec.h
+- Wincodec.h
 api_name:
- - WICPngBkgdProperties
+- WICPngBkgdProperties
 targetos: Windows
 req.typenames: WICPngBkgdProperties
 req.redist: 

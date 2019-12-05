@@ -1,19 +1,17 @@
 ---
 UID: NF:mbnapi.IMbnConnectionProfile.Delete
 title: IMbnConnectionProfile::Delete (mbnapi.h)
-
 description: Deletes the profile from the system.
 old-location: mbn\imbnconnectionprofile_delete.htm
 tech.root: mbn
 ms.assetid: 4de7da76-c873-4a57-a021-17436d1a64a4
-
 ms.date: 12/05/2018
 ms.keywords: Delete, Delete method [Microsoft Broadband Networks], Delete method [Microsoft Broadband Networks],IMbnConnectionProfile interface, IMbnConnectionProfile interface [Microsoft Broadband Networks],Delete method, IMbnConnectionProfile.Delete, IMbnConnectionProfile::Delete, mbn.imbnconnectionprofile_delete, mbnapi/IMbnConnectionProfile::Delete
 ms.topic: method
-f1_keywords: 
- - "mbnapi/IMbnConnectionProfile.Delete"
+f1_keywords:
+- mbnapi/IMbnConnectionProfile.Delete
 dev_langs:
- - c++
+- c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mbnapi.h
+- mbnapi.h
 api_name:
- - IMbnConnectionProfile.Delete
+- IMbnConnectionProfile.Delete
 targetos: Windows
 req.typenames: 
 req.redist: 

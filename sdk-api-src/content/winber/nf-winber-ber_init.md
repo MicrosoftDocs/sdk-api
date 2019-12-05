@@ -1,19 +1,17 @@
 ---
 UID: NF:winber.ber_init
 title: ber_init function (winber.h)
-
 description: The ber_init function allocates a new BerElement structure containing the data taken from the supplied berval structure.
 old-location: ldap\ber_init.htm
 tech.root: ldap
 ms.assetid: ad6557e9-1683-4ffd-a59e-8f37eb67d089
-
 ms.date: 12/05/2018
-ms.keywords: "_ldap_ber_init, ber_init, ber_init function [LDAP], ldap.ber__init, ldap.ber_init, winber/ber_init"
+ms.keywords: _ldap_ber_init, ber_init, ber_init function [LDAP], ldap.ber__init, ldap.ber_init, winber/ber_init
 ms.topic: function
-f1_keywords: 
- - "winber/ber_init"
+f1_keywords:
+- winber/ber_init
 dev_langs:
- - c++
+- c++
 req.header: winber.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Wldap32.lib
 req.dll: Wldap32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Wldap32.dll
+- Wldap32.dll
 api_name:
- - ber_init
+- ber_init
 targetos: Windows
 req.typenames: 
 req.redist: 

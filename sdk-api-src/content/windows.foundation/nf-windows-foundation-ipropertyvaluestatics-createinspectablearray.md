@@ -1,19 +1,17 @@
 ---
 UID: NF:windows.foundation.IPropertyValueStatics.CreateInspectableArray
 title: IPropertyValueStatics::IPropertyValueStatics (windows.foundation.h)
-
 description: Creates a new IPropertyValue object that contains the specified array of IInspectable objects.
 old-location: winrt\ipropertyvaluestatics_createinspectablearray.htm
 tech.root: WinRT
 ms.assetid: 2bcb8530-07cb-4f54-b727-e08807c3f22b
-
 ms.date: 12/05/2018
 ms.keywords: CreateInspectableArray, CreateInspectableArray method [Windows Runtime], CreateInspectableArray method [Windows Runtime],IPropertyValueStatics interface, IPropertyValueStatics interface [Windows Runtime],CreateInspectableArray method, IPropertyValueStatics.CreateInspectableArray, IPropertyValueStatics.IPropertyValueStatics, IPropertyValueStatics::CreateInspectableArray, IPropertyValueStatics::IPropertyValueStatics, windows/IPropertyValueStatics::CreateInspectableArray, winrt.ipropertyvaluefactory_createinspectablearray, winrt.ipropertyvaluestatics_createinspectablearray
 ms.topic: method
-f1_keywords: 
- - "windows.foundation/IPropertyValueStatics.CreateInspectableArray"
+f1_keywords:
+- windows.foundation/IPropertyValueStatics.CreateInspectableArray
 dev_langs:
- - c++
+- c++
 req.header: windows.foundation.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Windows.Foundation.h
+- Windows.Foundation.h
 api_name:
- - IPropertyValueStatics.CreateInspectableArray
+- IPropertyValueStatics.CreateInspectableArray
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NS:winioctl.__unnamed_struct_16
 title: CREATE_USN_JOURNAL_DATA
-
 description: Contains information that describes an update sequence number (USN) change journal.
 old-location: fs\create_usn_journal_data_str.htm
 tech.root: FileIO
 ms.assetid: 84d00427-c6eb-41aa-a594-8c57bdd56202
-
 ms.date: 12/05/2018
-ms.keywords: "*PCREATE_USN_JOURNAL_DATA, CREATE_USN_JOURNAL_DATA, CREATE_USN_JOURNAL_DATA structure [Files], PCREATE_USN_JOURNAL_DATA, PCREATE_USN_JOURNAL_DATA structure pointer [Files], _win32_create_usn_journal_data_str, base.create_usn_journal_data_str, fs.create_usn_journal_data_str, winioctl/CREATE_USN_JOURNAL_DATA, winioctl/PCREATE_USN_JOURNAL_DATA"
+ms.keywords: '*PCREATE_USN_JOURNAL_DATA, CREATE_USN_JOURNAL_DATA, CREATE_USN_JOURNAL_DATA structure [Files], PCREATE_USN_JOURNAL_DATA, PCREATE_USN_JOURNAL_DATA structure pointer [Files], _win32_create_usn_journal_data_str, base.create_usn_journal_data_str, fs.create_usn_journal_data_str, winioctl/CREATE_USN_JOURNAL_DATA, winioctl/PCREATE_USN_JOURNAL_DATA'
 ms.topic: struct
-f1_keywords: 
- - "winioctl/CREATE_USN_JOURNAL_DATA"
+f1_keywords:
+- winioctl/CREATE_USN_JOURNAL_DATA
 dev_langs:
- - c++
+- c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WinIoCtl.h
+- WinIoCtl.h
 api_name:
- - CREATE_USN_JOURNAL_DATA
+- CREATE_USN_JOURNAL_DATA
 targetos: Windows
 req.typenames: CREATE_USN_JOURNAL_DATA, *PCREATE_USN_JOURNAL_DATA
 req.redist: 

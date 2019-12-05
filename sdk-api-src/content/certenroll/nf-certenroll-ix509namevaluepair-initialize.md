@@ -1,19 +1,17 @@
 ---
 UID: NF:certenroll.IX509NameValuePair.Initialize
 title: IX509NameValuePair::Initialize (certenroll.h)
-
 description: Initializes the object from strings that contain the name and associated value.
 old-location: security\ix509namevaluepair_initialize_method.htm
 tech.root: seccertenroll
 ms.assetid: 3e935718-a59a-443e-bff2-a010a41e7756
-
 ms.date: 12/05/2018
 ms.keywords: IX509NameValuePair interface [Security],Initialize method, IX509NameValuePair.Initialize, IX509NameValuePair::Initialize, Initialize, Initialize method [Security], Initialize method [Security],IX509NameValuePair interface, certenroll/IX509NameValuePair::Initialize, security.ix509namevaluepair_initialize_method
 ms.topic: method
-f1_keywords: 
- - "certenroll/IX509NameValuePair.Initialize"
+f1_keywords:
+- certenroll/IX509NameValuePair.Initialize
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: CertEnroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CertEnroll.dll
+- CertEnroll.dll
 api_name:
- - IX509NameValuePair.Initialize
+- IX509NameValuePair.Initialize
 targetos: Windows
 req.typenames: 
 req.redist: 

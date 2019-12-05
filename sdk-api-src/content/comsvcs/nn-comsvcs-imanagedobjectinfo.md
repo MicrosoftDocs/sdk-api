@@ -1,19 +1,17 @@
 ---
 UID: NN:comsvcs.IManagedObjectInfo
 title: IManagedObjectInfo (comsvcs.h)
-
 description: Describes the stub for a managed object.
 old-location: cos\imanagedobjectinfo.htm
 tech.root: cossdk
 ms.assetid: 7fa5f76e-df07-41b3-8fb0-62b84a034aa5
-
 ms.date: 12/05/2018
 ms.keywords: IManagedObjectInfo, IManagedObjectInfo interface [COM+], IManagedObjectInfo interface [COM+],described, _cos_IManagedObjectInfo, comsvcs/IManagedObjectInfo, cos.imanagedobjectinfo
 ms.topic: interface
-f1_keywords: 
- - "comsvcs/IManagedObjectInfo"
+f1_keywords:
+- comsvcs/IManagedObjectInfo
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - IManagedObjectInfo
+- IManagedObjectInfo
 targetos: Windows
 req.typenames: 
 req.redist: 

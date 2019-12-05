@@ -1,19 +1,17 @@
 ---
 UID: NN:shobjidl_core.IExplorerCommand
 title: IExplorerCommand (shobjidl_core.h)
-
 description: Exposes methods that get the command appearance, enumerate subcommands, or invoke the command.
 old-location: shell\IExplorerCommand.htm
 tech.root: shell
 ms.assetid: 61e94e50-9e12-4a2c-a6c7-64a9181f80b8
-
 ms.date: 12/05/2018
 ms.keywords: IExplorerCommand, IExplorerCommand interface [Windows Shell], IExplorerCommand interface [Windows Shell],described, _shell_IExplorerCommand, shell.IExplorerCommand, shobjidl_core/IExplorerCommand
 ms.topic: interface
-f1_keywords: 
- - "shobjidl_core/IExplorerCommand"
+f1_keywords:
+- shobjidl_core/IExplorerCommand
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - IExplorerCommand
+- IExplorerCommand
 targetos: Windows
 req.typenames: 
 req.redist: 

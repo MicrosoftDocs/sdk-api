@@ -1,19 +1,17 @@
 ---
 UID: NS:shobjidl_core.THUMBBUTTON
 title: THUMBBUTTON (shobjidl_core.h)
-
 description: Used by methods of the ITaskbarList3 interface to define buttons used in a toolbar embedded in a window's thumbnail representation.
 old-location: shell\THUMBBUTTON.htm
 tech.root: shell
 ms.assetid: c13657b2-5b96-45ae-b339-b06b13aca65d
-
 ms.date: 12/05/2018
-ms.keywords: "*LPTHUMBBUTTON, LPTHUMBBUTTON, LPTHUMBBUTTON structure pointer [Windows Shell], THUMBBUTTON, THUMBBUTTON structure [Windows Shell], _shell_THUMBBUTTON, shell.THUMBBUTTON, shobjidl_core/LPTHUMBBUTTON, shobjidl_core/THUMBBUTTON"
+ms.keywords: '*LPTHUMBBUTTON, LPTHUMBBUTTON, LPTHUMBBUTTON structure pointer [Windows Shell], THUMBBUTTON, THUMBBUTTON structure [Windows Shell], _shell_THUMBBUTTON, shell.THUMBBUTTON, shobjidl_core/LPTHUMBBUTTON, shobjidl_core/THUMBBUTTON'
 ms.topic: struct
-f1_keywords: 
- - "shobjidl_core/THUMBBUTTON"
+f1_keywords:
+- shobjidl_core/THUMBBUTTON
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Shobjidl_core.h
+- Shobjidl_core.h
 api_name:
- - THUMBBUTTON
+- THUMBBUTTON
 targetos: Windows
 req.typenames: THUMBBUTTON, *LPTHUMBBUTTON
 req.redist: 

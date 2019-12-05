@@ -1,19 +1,17 @@
 ---
 UID: NF:oleauto.VarUI1FromBool
 title: VarUI1FromBool function (oleauto.h)
-
 description: Converts a Boolean value to an unsigned char value.
 old-location: automat\varui1frombool.htm
 tech.root: automat
 ms.assetid: 27a06c84-ff09-48c6-9cd1-349fd74cd8df
-
 ms.date: 12/05/2018
 ms.keywords: VarUI1FromBool, VarUI1FromBool function [Automation], _oa96_VarUI1FromBool, automat.varui1frombool, oleauto/VarUI1FromBool
 ms.topic: function
-f1_keywords: 
- - "oleauto/VarUI1FromBool"
+f1_keywords:
+- oleauto/VarUI1FromBool
 dev_langs:
- - c++
+- c++
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: OleAut32.lib
 req.dll: OleAut32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - OleAut32.dll
+- OleAut32.dll
 api_name:
- - VarUI1FromBool
+- VarUI1FromBool
 targetos: Windows
 req.typenames: 
 req.redist: 

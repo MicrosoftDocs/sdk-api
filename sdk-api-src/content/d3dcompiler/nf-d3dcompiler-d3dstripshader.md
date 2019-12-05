@@ -1,19 +1,17 @@
 ---
 UID: NF:d3dcompiler.D3DStripShader
 title: D3DStripShader function (d3dcompiler.h)
-
 description: Removes unwanted blobs from a compilation result.
 old-location: direct3dhlsl\d3dstripshader.htm
 tech.root: direct3dhlsl
 ms.assetid: VS|directx_sdk|~\d3dstripshader.htm
-
 ms.date: 12/05/2018
 ms.keywords: 3320d273-7542-f3d8-0828-2c357608a8c8, D3DStripShader, D3DStripShader function [HLSL], d3dcompiler/D3DStripShader, direct3dhlsl.d3dstripshader
 ms.topic: function
-f1_keywords: 
- - "d3dcompiler/D3DStripShader"
+f1_keywords:
+- d3dcompiler/D3DStripShader
 dev_langs:
- - c++
+- c++
 req.header: d3dcompiler.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: D3dcompiler_47.lib
 req.dll: D3dcompiler_47.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - d3dcompiler_47.dll
+- d3dcompiler_47.dll
 api_name:
- - D3DStripShader
+- D3DStripShader
 targetos: Windows
 req.typenames: 
 req.redist: 

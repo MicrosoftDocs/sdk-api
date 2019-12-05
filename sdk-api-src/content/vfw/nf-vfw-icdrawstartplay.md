@@ -1,19 +1,17 @@
 ---
 UID: NF:vfw.ICDrawStartPlay
 title: ICDrawStartPlay macro (vfw.h)
-
 description: The ICDrawStartPlay macro provides the start and end times of a play operation to a rendering driver. You can use this macro or explicitly call the ICM_DRAW_START_PLAY message.
 old-location: multimedia\icdrawstartplay.htm
 tech.root: Multimedia
 ms.assetid: 74957f08-2912-4e5e-af45-7dc66b405bc2
-
 ms.date: 12/05/2018
 ms.keywords: ICDrawStartPlay, ICDrawStartPlay macro [Windows Multimedia], _win32_ICDrawStartPlay, multimedia.icdrawstartplay, vfw/ICDrawStartPlay
 ms.topic: macro
-f1_keywords: 
- - "vfw/ICDrawStartPlay"
+f1_keywords:
+- vfw/ICDrawStartPlay
 dev_langs:
- - c++
+- c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Vfw.h
+- Vfw.h
 api_name:
- - ICDrawStartPlay
+- ICDrawStartPlay
 targetos: Windows
 req.typenames: 
 req.redist: 

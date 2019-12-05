@@ -1,19 +1,17 @@
 ---
 UID: NF:mfidl.IMFByteStreamHandler.BeginCreateObject
 title: IMFByteStreamHandler::BeginCreateObject (mfidl.h)
-
 description: Begins an asynchronous request to create a media source from a byte stream.
 old-location: mf\imfbytestreamhandler_begincreateobject.htm
 tech.root: medfound
 ms.assetid: 31dffadd-4a5a-4306-80e9-9002782f092c
-
 ms.date: 12/05/2018
 ms.keywords: 31dffadd-4a5a-4306-80e9-9002782f092c, BeginCreateObject, BeginCreateObject method [Media Foundation], BeginCreateObject method [Media Foundation],IMFByteStreamHandler interface, IMFByteStreamHandler interface [Media Foundation],BeginCreateObject method, IMFByteStreamHandler.BeginCreateObject, IMFByteStreamHandler::BeginCreateObject, mf.imfbytestreamhandler_begincreateobject, mfidl/IMFByteStreamHandler::BeginCreateObject
 ms.topic: method
-f1_keywords: 
- - "mfidl/IMFByteStreamHandler.BeginCreateObject"
+f1_keywords:
+- mfidl/IMFByteStreamHandler.BeginCreateObject
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFByteStreamHandler.BeginCreateObject
+- IMFByteStreamHandler.BeginCreateObject
 targetos: Windows
 req.typenames: 
 req.redist: 

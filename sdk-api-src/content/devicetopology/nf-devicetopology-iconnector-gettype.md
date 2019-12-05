@@ -1,19 +1,17 @@
 ---
 UID: NF:devicetopology.IConnector.GetType
 title: IConnector::GetType (devicetopology.h)
-
 description: The GetType method gets the type of this connector.
 old-location: coreaudio\iconnector_gettype.htm
 tech.root: CoreAudio
 ms.assetid: 0e50d371-0a2e-4004-9225-4a9da7c3f139
-
 ms.date: 12/05/2018
 ms.keywords: GetType, GetType method [Core Audio], GetType method [Core Audio],IConnector interface, IConnector interface [Core Audio],GetType method, IConnector.GetType, IConnector::GetType, IConnectorGetType, coreaudio.iconnector_gettype, devicetopology/IConnector::GetType
 ms.topic: method
-f1_keywords: 
- - "devicetopology/IConnector.GetType"
+f1_keywords:
+- devicetopology/IConnector.GetType
 dev_langs:
- - c++
+- c++
 req.header: devicetopology.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Devicetopology.h
+- Devicetopology.h
 api_name:
- - IConnector.GetType
+- IConnector.GetType
 targetos: Windows
 req.typenames: 
 req.redist: 

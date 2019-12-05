@@ -1,19 +1,17 @@
 ---
 UID: NF:rpcdce.UuidCompare
 title: UuidCompare function (rpcdce.h)
-
 description: An application calls the UuidCompare function to compare two UUIDs and determine their order. The returned value gives the order.
 old-location: rpc\uuidcompare.htm
 tech.root: Rpc
 ms.assetid: 9a8c558b-c438-45f7-ac0f-1da20eb26e29
-
 ms.date: 12/05/2018
 ms.keywords: UuidCompare, UuidCompare function [RPC], _rpc_uuidcompare, rpc.uuidcompare, rpcdce/UuidCompare
 ms.topic: function
-f1_keywords: 
- - "rpcdce/UuidCompare"
+f1_keywords:
+- rpcdce/UuidCompare
 dev_langs:
- - c++
+- c++
 req.header: rpcdce.h
 req.include-header: Rpc.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Rpcrt4.lib
 req.dll: Rpcrt4.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Rpcrt4.dll
+- Rpcrt4.dll
 api_name:
- - UuidCompare
+- UuidCompare
 targetos: Windows
 req.typenames: 
 req.redist: 

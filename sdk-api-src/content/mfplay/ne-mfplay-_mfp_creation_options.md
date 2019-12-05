@@ -1,19 +1,17 @@
 ---
 UID: NE:mfplay._MFP_CREATION_OPTIONS
 title: MFP_CREATION_OPTIONS (mfplay.h)
-
 description: Specifies options for the MFPCreateMediaPlayer function.
 old-location: mf\_mfp_creation_options.htm
 tech.root: medfound
 ms.assetid: e01b402c-e21e-4db0-b933-5a32fdca5d2f
-
 ms.date: 12/05/2018
 ms.keywords: MFP_OPTION_FREE_THREADED_CALLBACK, MFP_OPTION_NONE, MFP_OPTION_NO_MMCSS, MFP_OPTION_NO_REMOTE_DESKTOP_OPTIMIZATION, _MFP_CREATION_OPTIONS, _MFP_CREATION_OPTIONS enumeration [Media Foundation], mf._mfp_creation_options, mfplay/MFP_OPTION_FREE_THREADED_CALLBACK, mfplay/MFP_OPTION_NONE, mfplay/MFP_OPTION_NO_MMCSS, mfplay/MFP_OPTION_NO_REMOTE_DESKTOP_OPTIMIZATION, mfplay/_MFP_CREATION_OPTIONS
 ms.topic: enum
-f1_keywords: 
- - "mfplay/_MFP_CREATION_OPTIONS"
+f1_keywords:
+- mfplay/_MFP_CREATION_OPTIONS
 dev_langs:
- - c++
+- c++
 req.header: mfplay.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - mfplay.h
+- mfplay.h
 api_name:
- - _MFP_CREATION_OPTIONS
+- _MFP_CREATION_OPTIONS
 targetos: Windows
-req.typenames: "_MFP_CREATION_OPTIONS"
+req.typenames: _MFP_CREATION_OPTIONS
 req.redist: 
 ms.custom: 19H1
 ---

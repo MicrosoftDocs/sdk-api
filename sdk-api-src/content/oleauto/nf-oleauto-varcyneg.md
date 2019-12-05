@@ -1,19 +1,17 @@
 ---
 UID: NF:oleauto.VarCyNeg
 title: VarCyNeg function (oleauto.h)
-
 description: Performs a logical negation on a variant of type currency.
 old-location: automat\varcyneg.htm
 tech.root: automat
 ms.assetid: cbd9711b-45f4-4917-84ec-22ee5438579f
-
 ms.date: 12/05/2018
 ms.keywords: VarCyNeg, VarCyNeg function [Automation], _oa96_VarCyNeg, automat.varcyneg, oleauto/VarCyNeg
 ms.topic: function
-f1_keywords: 
- - "oleauto/VarCyNeg"
+f1_keywords:
+- oleauto/VarCyNeg
 dev_langs:
- - c++
+- c++
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: OleAut32.lib
 req.dll: OleAut32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - OleAut32.dll
+- OleAut32.dll
 api_name:
- - VarCyNeg
+- VarCyNeg
 targetos: Windows
 req.typenames: 
 req.redist: 

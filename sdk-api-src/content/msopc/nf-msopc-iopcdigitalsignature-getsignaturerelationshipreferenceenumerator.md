@@ -1,19 +1,17 @@
 ---
 UID: NF:msopc.IOpcDigitalSignature.GetSignatureRelationshipReferenceEnumerator
 title: IOpcDigitalSignature::GetSignatureRelationshipReferenceEnumerator (msopc.h)
-
 description: Gets an enumerator of IOpcSignatureRelationshipReference interface pointers, which represent references to relationships that have been signed.
 old-location: opc\iopcdigitalsignature_getsignaturerelationshipreferenceenumerator.htm
 tech.root: OPC
 ms.assetid: ffb74828-1177-4c3d-8a8c-e40bb0c4cbf0
-
 ms.date: 12/05/2018
 ms.keywords: GetSignatureRelationshipReferenceEnumerator, GetSignatureRelationshipReferenceEnumerator method [Open Packaging Conventions], GetSignatureRelationshipReferenceEnumerator method [Open Packaging Conventions],IOpcDigitalSignature interface, IOpcDigitalSignature interface [Open Packaging Conventions],GetSignatureRelationshipReferenceEnumerator method, IOpcDigitalSignature.GetSignatureRelationshipReferenceEnumerator, IOpcDigitalSignature::GetSignatureRelationshipReferenceEnumerator, msopc/IOpcDigitalSignature::GetSignatureRelationshipReferenceEnumerator, opc.iopcdigitalsignature_getsignaturerelationshipreferenceenumerator
 ms.topic: method
-f1_keywords: 
- - "msopc/IOpcDigitalSignature.GetSignatureRelationshipReferenceEnumerator"
+f1_keywords:
+- msopc/IOpcDigitalSignature.GetSignatureRelationshipReferenceEnumerator
 dev_langs:
- - c++
+- c++
 req.header: msopc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msopc.h
+- msopc.h
 api_name:
- - IOpcDigitalSignature.GetSignatureRelationshipReferenceEnumerator
+- IOpcDigitalSignature.GetSignatureRelationshipReferenceEnumerator
 targetos: Windows
 req.typenames: 
 req.redist: 

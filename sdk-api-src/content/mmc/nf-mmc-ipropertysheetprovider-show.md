@@ -1,19 +1,17 @@
 ---
 UID: NF:mmc.IPropertySheetProvider.Show
 title: IPropertySheetProvider::Show (mmc.h)
-
 description: If the type that has been set in IPropertySheetProvider::CreatePropertySheet is a property sheet, IPropertySheetProvider::Show displays a property sheet frame that is parented to a hidden window.
 old-location: mmc\ipropertysheetprovider_show.htm
 tech.root: mmc
 ms.assetid: 08e1e3d9-9c9e-49c8-9d55-31c9519c5b0c
-
 ms.date: 12/05/2018
 ms.keywords: IPropertySheetProvider interface [MMC],Show method, IPropertySheetProvider.Show, IPropertySheetProvider::Show, Show, Show method [MMC], Show method [MMC],IPropertySheetProvider interface, _slate_ipropertysheetprovider_show, mmc.ipropertysheetprovider_show, mmc/IPropertySheetProvider::Show
 ms.topic: method
-f1_keywords: 
- - "mmc/IPropertySheetProvider.Show"
+f1_keywords:
+- mmc/IPropertySheetProvider.Show
 dev_langs:
- - c++
+- c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Mmcndmgr.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mmcndmgr.dll
+- Mmcndmgr.dll
 api_name:
- - IPropertySheetProvider.Show
+- IPropertySheetProvider.Show
 targetos: Windows
 req.typenames: 
 req.redist: 

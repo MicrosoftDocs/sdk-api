@@ -1,19 +1,17 @@
 ---
 UID: NF:azroles.IAzApplicationGroup.get_LdapQuery
 title: IAzApplicationGroup::get_LdapQuery (azroles.h)
-
 description: Sets or retrieves the Lightweight Directory Access Protocol (LDAP) query used to define membership for an LDAP query application group.
 old-location: security\iazapplicationgroup_ldapquery.htm
 tech.root: SecAuthZ
 ms.assetid: 963ee516-6dd5-419f-9186-578b7fe9c5bc
-
 ms.date: 12/05/2018
 ms.keywords: AzApplicationGroup object [Security],LdapQuery property, IAzApplicationGroup interface [Security],LdapQuery property, IAzApplicationGroup.LdapQuery, IAzApplicationGroup.get_LdapQuery, IAzApplicationGroup::LdapQuery, IAzApplicationGroup::get_LdapQuery, IAzApplicationGroup::put_LdapQuery, LdapQuery property [Security], LdapQuery property [Security],AzApplicationGroup object, LdapQuery property [Security],IAzApplicationGroup interface, azroles/IAzApplicationGroup::LdapQuery, azroles/IAzApplicationGroup::get_LdapQuery, azroles/IAzApplicationGroup::put_LdapQuery, get_LdapQuery, security.iazapplicationgroup_ldapquery
 ms.topic: method
-f1_keywords: 
- - "azroles/IAzApplicationGroup.LdapQuery"
+f1_keywords:
+- azroles/IAzApplicationGroup.LdapQuery
 dev_langs:
- - c++
+- c++
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Azroles.lib
 req.dll: Azroles.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Azroles.dll
+- Azroles.dll
 api_name:
- - IAzApplicationGroup.LdapQuery
- - IAzApplicationGroup.get_LdapQuery
- - IAzApplicationGroup.put_LdapQuery
- - AzApplicationGroup.LdapQuery
+- IAzApplicationGroup.LdapQuery
+- IAzApplicationGroup.get_LdapQuery
+- IAzApplicationGroup.put_LdapQuery
+- AzApplicationGroup.LdapQuery
 targetos: Windows
 req.typenames: 
 req.redist: Windows Server 2003 Administration Tools Pack on Windows XP

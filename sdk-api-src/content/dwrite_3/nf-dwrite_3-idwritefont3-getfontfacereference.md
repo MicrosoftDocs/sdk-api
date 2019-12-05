@@ -1,19 +1,17 @@
 ---
 UID: NF:dwrite_3.IDWriteFont3.GetFontFaceReference
 title: IDWriteFont3::GetFontFaceReference (dwrite_3.h)
-
 description: Gets a font face reference that identifies this font.
 old-location: directwrite\idwritefont3_getfontfacereference.htm
 tech.root: DirectWrite
 ms.assetid: 8939ADA0-B2D9-4489-B9AC-EA37776F6340
-
 ms.date: 12/05/2018
 ms.keywords: GetFontFaceReference, GetFontFaceReference method [Direct Write], GetFontFaceReference method [Direct Write],IDWriteFont3 interface, IDWriteFont3 interface [Direct Write],GetFontFaceReference method, IDWriteFont3.GetFontFaceReference, IDWriteFont3::GetFontFaceReference, directwrite.idwritefont3_getfontfacereference, dwrite_3/IDWriteFont3::GetFontFaceReference
 ms.topic: method
-f1_keywords: 
- - "dwrite_3/IDWriteFont3.GetFontFaceReference"
+f1_keywords:
+- dwrite_3/IDWriteFont3.GetFontFaceReference
 dev_langs:
- - c++
+- c++
 req.header: dwrite_3.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dwrite.lib
 req.dll: Dwrite.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dwrite.dll
+- dwrite.dll
 api_name:
- - IDWriteFont3.GetFontFaceReference
+- IDWriteFont3.GetFontFaceReference
 targetos: Windows
 req.typenames: 
 req.redist: 

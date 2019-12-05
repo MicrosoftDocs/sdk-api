@@ -1,19 +1,17 @@
 ---
 UID: NF:gdiplusgraphics.Graphics.GetClip
 title: Graphics::GetClip (gdiplusgraphics.h)
-
 description: The Graphics::GetClip method gets the clipping region of this Graphics object.
 old-location: gdiplus\_gdiplus_CLASS_Graphics_GetClip_region_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\getclip.htm
-
 ms.date: 12/05/2018
 ms.keywords: GetClip, GetClip method [GDI+], GetClip method [GDI+],Graphics class, Graphics class [GDI+],GetClip method, Graphics.GetClip, Graphics::GetClip, _gdiplus_CLASS_Graphics_GetClip_region_, gdiplus._gdiplus_CLASS_Graphics_GetClip_region_
 ms.topic: method
-f1_keywords: 
- - "gdiplusgraphics/Graphics.GetClip"
+f1_keywords:
+- gdiplusgraphics/Graphics.GetClip
 dev_langs:
- - c++
+- c++
 req.header: gdiplusgraphics.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - Graphics.GetClip
+- Graphics.GetClip
 targetos: Windows
 req.typenames: 
 req.redist: 

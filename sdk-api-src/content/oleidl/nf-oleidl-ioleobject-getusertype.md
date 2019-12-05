@@ -1,19 +1,17 @@
 ---
 UID: NF:oleidl.IOleObject.GetUserType
 title: IOleObject::GetUserType (oleidl.h)
-
 description: Retrieves the user-type name of an object for display in user-interface elements such as menus, list boxes, and dialog boxes.
 old-location: com\ioleobject_getusertype.htm
 tech.root: com
 ms.assetid: 8ffffa01-d118-4955-84d1-a4659ba9ddc9
-
 ms.date: 12/05/2018
 ms.keywords: GetUserType, GetUserType method [COM], GetUserType method [COM],IOleObject interface, IOleObject interface [COM],GetUserType method, IOleObject.GetUserType, IOleObject::GetUserType, _ole_ioleobject_getusertype, com.ioleobject_getusertype, oleidl/IOleObject::GetUserType
 ms.topic: method
-f1_keywords: 
- - "oleidl/IOleObject.GetUserType"
+f1_keywords:
+- oleidl/IOleObject.GetUserType
 dev_langs:
- - c++
+- c++
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - OleIdl.h
+- OleIdl.h
 api_name:
- - IOleObject.GetUserType
+- IOleObject.GetUserType
 targetos: Windows
 req.typenames: 
 req.redist: 

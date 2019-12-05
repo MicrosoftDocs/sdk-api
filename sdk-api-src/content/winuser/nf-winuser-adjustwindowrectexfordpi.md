@@ -1,19 +1,17 @@
 ---
 UID: NF:winuser.AdjustWindowRectExForDpi
 title: AdjustWindowRectExForDpi function (winuser.h)
-
 description: Calculates the required size of the window rectangle, based on the desired size of the client rectangle and the provided DPI.
 old-location: hidpi\adjustwindowrectexfordpi.htm
 tech.root: hidpi
 ms.assetid: C7126165-1D64-4C04-9B8D-4F90AC2F2C67
-
 ms.date: 12/05/2018
 ms.keywords: AdjustWindowRectExForDpi, AdjustWindowRectExForDpi function [High DPI], hidpi.adjustwindowrectexfordpi, winuser/AdjustWindowRectExForDpi
 ms.topic: function
-f1_keywords: 
- - "winuser/AdjustWindowRectExForDpi"
+f1_keywords:
+- winuser/AdjustWindowRectExForDpi
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,19 +30,19 @@ req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - User32.dll
- - Ext-MS-Win-NTUser-Window-l1-1-0.dll
- - Ext-MS-Win-NTUser-Window-l1-1-1.dll
- - Ext-MS-Win-NTUser-Window-l1-1-2.dll
- - ext-ms-win-ntuser-window-l1-1-3.dll
- - Ext-MS-Win-NTUser-Window-L1-1-4.dll
+- User32.dll
+- Ext-MS-Win-NTUser-Window-l1-1-0.dll
+- Ext-MS-Win-NTUser-Window-l1-1-1.dll
+- Ext-MS-Win-NTUser-Window-l1-1-2.dll
+- ext-ms-win-ntuser-window-l1-1-3.dll
+- Ext-MS-Win-NTUser-Window-L1-1-4.dll
 api_name:
- - AdjustWindowRectExForDpi
+- AdjustWindowRectExForDpi
 targetos: Windows
 req.typenames: 
 req.redist: 

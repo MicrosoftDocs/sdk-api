@@ -1,19 +1,17 @@
 ---
 UID: NE:avrfsdk.eUserAllocationState
 title: eUserAllocationState (avrfsdk.h)
-
 description: Specifies the application's current heap allocation state.
 old-location: winprog\euserallocationstate.htm
 tech.root: DevNotes
 ms.assetid: 8aa46c8a-1261-47da-8145-e7ff9826d2ab
-
 ms.date: 12/05/2018
 ms.keywords: AllocationStateBusy, AllocationStateFree, AllocationStateUnknown, avrfsdk/AllocationStateBusy, avrfsdk/AllocationStateFree, avrfsdk/AllocationStateUnknown, avrfsdk/eUserAllocationState, base.euserallocationstate, eUserAllocationState, eUserAllocationState enumeration [Windows API], winprog.euserallocationstate
 ms.topic: enum
-f1_keywords: 
- - "avrfsdk/eUserAllocationState"
+f1_keywords:
+- avrfsdk/eUserAllocationState
 dev_langs:
- - c++
+- c++
 req.header: avrfsdk.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Avrfsdk.h
+- Avrfsdk.h
 api_name:
- - eUserAllocationState
+- eUserAllocationState
 targetos: Windows
 req.typenames: 
 req.redist: 

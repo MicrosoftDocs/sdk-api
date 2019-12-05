@@ -1,19 +1,17 @@
 ---
 UID: NN:sbtsv.ITsSbTaskPlugin
 title: ITsSbTaskPlugin (sbtsv.h)
-
 description: Exposes methods that update the queue of tasks for Remote Desktop Connection Broker plugins.
 old-location: termserv\itssbtaskplugin.htm
 tech.root: TermServ
 ms.assetid: 56463b47-c2f2-43b7-884f-d6fab9bebbf0
-
 ms.date: 12/05/2018
 ms.keywords: ITsSbTaskPlugin, ITsSbTaskPlugin interface [Remote Desktop Services], ITsSbTaskPlugin interface [Remote Desktop Services],described, sbtsv/ITsSbTaskPlugin, termserv.itssbtaskplugin
 ms.topic: interface
-f1_keywords: 
- - "sbtsv/ITsSbTaskPlugin"
+f1_keywords:
+- sbtsv/ITsSbTaskPlugin
 dev_langs:
- - c++
+- c++
 req.header: sbtsv.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - sbtsv.h
+- sbtsv.h
 api_name:
- - ITsSbTaskPlugin
+- ITsSbTaskPlugin
 targetos: Windows
 req.typenames: 
 req.redist: 

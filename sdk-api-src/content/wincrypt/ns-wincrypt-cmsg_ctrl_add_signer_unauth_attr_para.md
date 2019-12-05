@@ -1,19 +1,17 @@
 ---
 UID: NS:wincrypt._CMSG_CTRL_ADD_SIGNER_UNAUTH_ATTR_PARA
 title: CMSG_CTRL_ADD_SIGNER_UNAUTH_ATTR_PARA (wincrypt.h)
-
 description: Used to add an unauthenticated attribute to a signer of a signed message.
 old-location: security\cmsg_ctrl_add_signer_unauth_attr_para.htm
 tech.root: SecCrypto
 ms.assetid: 5e347a50-942e-4278-a9ae-ad4c30c55c6b
-
 ms.date: 12/05/2018
 ms.keywords: '*PCMSG_CTRL_ADD_SIGNER_UNAUTH_ATTR_PARA, CMSG_CTRL_ADD_SIGNER_UNAUTH_ATTR_PARA, CMSG_CTRL_ADD_SIGNER_UNAUTH_ATTR_PARA structure [Security], PCMSG_CTRL_ADD_SIGNER_UNAUTH_ATTR_PARA, PCMSG_CTRL_ADD_SIGNER_UNAUTH_ATTR_PARA structure pointer [Security], _crypto2_cmsg_ctrl_add_signer_unauth_attr_para, security.cmsg_ctrl_add_signer_unauth_attr_para, wincrypt/CMSG_CTRL_ADD_SIGNER_UNAUTH_ATTR_PARA, wincrypt/PCMSG_CTRL_ADD_SIGNER_UNAUTH_ATTR_PARA'
 ms.topic: struct
 f1_keywords:
 - wincrypt/CMSG_CTRL_ADD_SIGNER_UNAUTH_ATTR_PARA
 dev_langs:
- - c++
+- c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

@@ -1,19 +1,17 @@
 ---
 UID: NF:wmsdkidl.IWMDeviceRegistration.GetFirstRegisteredDevice
 title: IWMDeviceRegistration::GetFirstRegisteredDevice (wmsdkidl.h)
-
 description: The GetFirstRegisteredDevice method retrieves information about the first device of a specified type that is in the device registration database.
 old-location: wmformat\iwmdeviceregistration_getfirstregistereddevice.htm
 tech.root: wmformat
 ms.assetid: a11249f5-0604-4de7-9dd2-152d570183c3
-
 ms.date: 12/05/2018
 ms.keywords: GetFirstRegisteredDevice, GetFirstRegisteredDevice method [windows Media Format], GetFirstRegisteredDevice method [windows Media Format],IWMDeviceRegistration interface, IWMDeviceRegistration interface [windows Media Format],GetFirstRegisteredDevice method, IWMDeviceRegistration.GetFirstRegisteredDevice, IWMDeviceRegistration::GetFirstRegisteredDevice, IWMDeviceRegistrationGetFirstRegisteredDevice, wmformat.iwmdeviceregistration_getfirstregistereddevice, wmsdkidl/IWMDeviceRegistration::GetFirstRegisteredDevice
 ms.topic: method
-f1_keywords: 
- - "wmsdkidl/IWMDeviceRegistration.GetFirstRegisteredDevice"
+f1_keywords:
+- wmsdkidl/IWMDeviceRegistration.GetFirstRegisteredDevice
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: WMStubDRM.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - WMStubDRM.lib
- - WMStubDRM.dll
+- WMStubDRM.lib
+- WMStubDRM.dll
 api_name:
- - IWMDeviceRegistration.GetFirstRegisteredDevice
+- IWMDeviceRegistration.GetFirstRegisteredDevice
 targetos: Windows
 req.typenames: 
 req.redist: 

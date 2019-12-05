@@ -1,19 +1,17 @@
 ---
 UID: NF:spatialaudioclient.ISpatialAudioObjectRenderStreamBase.Reset
 title: ISpatialAudioObjectRenderStreamBase::Reset (spatialaudioclient.h)
-
 description: Reset a stopped audio stream.
 old-location: coreaudio\ispatialaudioobjectrenderstream_reset.htm
 tech.root: CoreAudio
 ms.assetid: F6F096C0-3384-4463-B25F-99C6A7B3263B
-
 ms.date: 12/05/2018
 ms.keywords: ISpatialAudioObjectRenderStreamBase interface [Core Audio],Reset method, ISpatialAudioObjectRenderStreamBase.Reset, ISpatialAudioObjectRenderStreamBase::Reset, Reset, Reset method [Core Audio], Reset method [Core Audio],ISpatialAudioObjectRenderStreamBase interface, coreaudio.ispatialaudioobjectrenderstream_reset, spatialaudioclient/ISpatialAudioObjectRenderStreamBase::Reset
 ms.topic: method
-f1_keywords: 
- - "spatialaudioclient/ISpatialAudioObjectRenderStreamBase.Reset"
+f1_keywords:
+- spatialaudioclient/ISpatialAudioObjectRenderStreamBase.Reset
 dev_langs:
- - c++
+- c++
 req.header: spatialaudioclient.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - spatialaudioclient.h
+- spatialaudioclient.h
 api_name:
- - ISpatialAudioObjectRenderStreamBase.Reset
+- ISpatialAudioObjectRenderStreamBase.Reset
 targetos: Windows
 req.typenames: 
 req.redist: 

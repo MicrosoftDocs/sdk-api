@@ -1,19 +1,17 @@
 ---
 UID: NF:dwrite.IDWriteTextLayout.SetFontCollection
 title: IDWriteTextLayout::SetFontCollection (dwrite.h)
-
 description: Sets the font collection.
 old-location: directwrite\IDWriteTextLayout_SetFontCollection.htm
 tech.root: DirectWrite
 ms.assetid: e80038bd-e157-4f76-85c7-559cadacb5c4
-
 ms.date: 12/05/2018
 ms.keywords: IDWriteTextLayout interface [Direct Write],SetFontCollection method, IDWriteTextLayout.SetFontCollection, IDWriteTextLayout::SetFontCollection, SetFontCollection, SetFontCollection method [Direct Write], SetFontCollection method [Direct Write],IDWriteTextLayout interface, directwrite.IDWriteTextLayout_SetFontCollection, dwrite/IDWriteTextLayout::SetFontCollection
 ms.topic: method
-f1_keywords: 
- - "dwrite/IDWriteTextLayout.SetFontCollection"
+f1_keywords:
+- dwrite/IDWriteTextLayout.SetFontCollection
 dev_langs:
- - c++
+- c++
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dwrite.lib
 req.dll: Dwrite.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dwrite.dll
+- dwrite.dll
 api_name:
- - IDWriteTextLayout.SetFontCollection
+- IDWriteTextLayout.SetFontCollection
 targetos: Windows
 req.typenames: 
 req.redist: 

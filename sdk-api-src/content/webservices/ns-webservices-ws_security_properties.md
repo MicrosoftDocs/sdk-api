@@ -1,19 +1,17 @@
 ---
 UID: NS:webservices._WS_SECURITY_PROPERTIES
 title: WS_SECURITY_PROPERTIES (webservices.h)
-
 description: Specifies an array of channel-wide security settings.
 old-location: wsw\ws_security_properties.htm
 tech.root: wsw
 ms.assetid: 36a2dca5-d49f-4af7-ac1a-0ff7e9331e9a
-
 ms.date: 12/05/2018
 ms.keywords: WS_SECURITY_PROPERTIES, WS_SECURITY_PROPERTIES structure [Web Services for Windows], webservices/WS_SECURITY_PROPERTIES, wsw.ws_security_properties
 ms.topic: struct
-f1_keywords: 
- - "webservices/WS_SECURITY_PROPERTIES"
+f1_keywords:
+- webservices/WS_SECURITY_PROPERTIES
 dev_langs:
- - c++
+- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WebServices.h
+- WebServices.h
 api_name:
- - WS_SECURITY_PROPERTIES
+- WS_SECURITY_PROPERTIES
 targetos: Windows
 req.typenames: WS_SECURITY_PROPERTIES
 req.redist: 

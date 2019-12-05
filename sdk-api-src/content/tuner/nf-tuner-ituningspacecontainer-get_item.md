@@ -1,19 +1,17 @@
 ---
 UID: NF:tuner.ITuningSpaceContainer.get_Item
 title: ITuningSpaceContainer::get_Item (tuner.h)
-
 description: The get_Item method retrieves a tuning space with the specified ID.
 old-location: mstv\ituningspacecontainer_get_item.htm
 tech.root: mstv
 ms.assetid: 02e17867-dc72-481a-8693-68e9b0288bba
-
 ms.date: 12/05/2018
 ms.keywords: ITuningSpaceContainer interface [Microsoft TV Technologies],get_Item method, ITuningSpaceContainer.get_Item, ITuningSpaceContainer::get_Item, ITuningSpaceContainerget_Item, get_Item, get_Item method [Microsoft TV Technologies], get_Item method [Microsoft TV Technologies],ITuningSpaceContainer interface, mstv.ituningspacecontainer_get_item, tuner/ITuningSpaceContainer::get_Item
 ms.topic: method
-f1_keywords: 
- - "tuner/ITuningSpaceContainer.get_Item"
+f1_keywords:
+- tuner/ITuningSpaceContainer.get_Item
 dev_langs:
- - c++
+- c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - tuner.h
+- tuner.h
 api_name:
- - ITuningSpaceContainer.get_Item
+- ITuningSpaceContainer.get_Item
 targetos: Windows
 req.typenames: 
 req.redist: 

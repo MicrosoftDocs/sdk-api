@@ -1,19 +1,17 @@
 ---
 UID: NS:webservices._WS_HTTP_SSL_USERNAME_SECURITY_CONTEXT_BINDING_TEMPLATE
 title: WS_HTTP_SSL_USERNAME_SECURITY_CONTEXT_BINDING_TEMPLATE (webservices.h)
-
 description: Security template information to be filled in by application. Associated with WS_HTTP_SSL_USERNAME_SECURITY_CONTEXT_BINDING_TEMPLATE_TYPE.
 old-location: wsw\ws_http_ssl_username_security_context_binding_template.htm
 tech.root: wsw
 ms.assetid: 6c40831d-f3f4-4f41-90e0-a5955d53d90a
-
 ms.date: 12/05/2018
 ms.keywords: WS_HTTP_SSL_USERNAME_SECURITY_CONTEXT_BINDING_TEMPLATE, WS_HTTP_SSL_USERNAME_SECURITY_CONTEXT_BINDING_TEMPLATE structure [Web Services for Windows], webservices/WS_HTTP_SSL_USERNAME_SECURITY_CONTEXT_BINDING_TEMPLATE, wsw.ws_http_ssl_username_security_context_binding_template
 ms.topic: struct
-f1_keywords: 
- - "webservices/WS_HTTP_SSL_USERNAME_SECURITY_CONTEXT_BINDING_TEMPLATE"
+f1_keywords:
+- webservices/WS_HTTP_SSL_USERNAME_SECURITY_CONTEXT_BINDING_TEMPLATE
 dev_langs:
- - c++
+- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WebServices.h
+- WebServices.h
 api_name:
- - WS_HTTP_SSL_USERNAME_SECURITY_CONTEXT_BINDING_TEMPLATE
+- WS_HTTP_SSL_USERNAME_SECURITY_CONTEXT_BINDING_TEMPLATE
 targetos: Windows
 req.typenames: WS_HTTP_SSL_USERNAME_SECURITY_CONTEXT_BINDING_TEMPLATE
 req.redist: 

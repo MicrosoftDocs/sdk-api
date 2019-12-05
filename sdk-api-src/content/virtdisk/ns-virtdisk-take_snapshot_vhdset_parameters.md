@@ -1,19 +1,17 @@
 ---
 UID: NS:virtdisk._TAKE_SNAPSHOT_VHDSET_PARAMETERS
 title: TAKE_SNAPSHOT_VHDSET_PARAMETERS (virtdisk.h)
-
 description: Contains snapshot parameters, indicating information about the new snapshot to be created.
 old-location: vhd\take_snapshot_vhdset_parameters.htm
 tech.root: VStor
 ms.assetid: 39D7287B-FA5E-4584-8E0A-69A857736D02
-
 ms.date: 12/05/2018
-ms.keywords: "*PTAKE_SNAPSHOT_VHDSET_PARAMETERS, PTAKE_SNAPSHOT_VHDSET_PARAMETERS, PTAKE_SNAPSHOT_VHDSET_PARAMETERS structure pointer [VHD], TAKE_SNAPSHOT_VHDSET_PARAMETERS, TAKE_SNAPSHOT_VHDSET_PARAMETERS structure [VHD], _TAKE_SNAPSHOT_VHDSET_PARAMETERS, vdssys/PTAKE_SNAPSHOT_VHDSET_PARAMETERS, vdssys/TAKE_SNAPSHOT_VHDSET_PARAMETERS, vhd.take_snapshot_vhdset_parameters, virtdisk/PTAKE_SNAPSHOT_VHDSET_PARAMETERS, virtdisk/TAKE_SNAPSHOT_VHDSET_PARAMETERS"
+ms.keywords: '*PTAKE_SNAPSHOT_VHDSET_PARAMETERS, PTAKE_SNAPSHOT_VHDSET_PARAMETERS, PTAKE_SNAPSHOT_VHDSET_PARAMETERS structure pointer [VHD], TAKE_SNAPSHOT_VHDSET_PARAMETERS, TAKE_SNAPSHOT_VHDSET_PARAMETERS structure [VHD], _TAKE_SNAPSHOT_VHDSET_PARAMETERS, vdssys/PTAKE_SNAPSHOT_VHDSET_PARAMETERS, vdssys/TAKE_SNAPSHOT_VHDSET_PARAMETERS, vhd.take_snapshot_vhdset_parameters, virtdisk/PTAKE_SNAPSHOT_VHDSET_PARAMETERS, virtdisk/TAKE_SNAPSHOT_VHDSET_PARAMETERS'
 ms.topic: struct
-f1_keywords: 
- - "virtdisk/TAKE_SNAPSHOT_VHDSET_PARAMETERS"
+f1_keywords:
+- virtdisk/TAKE_SNAPSHOT_VHDSET_PARAMETERS
 dev_langs:
- - c++
+- c++
 req.header: virtdisk.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - VirtDisk.h
- - vdssys.h
+- VirtDisk.h
+- vdssys.h
 api_name:
- - TAKE_SNAPSHOT_VHDSET_PARAMETERS
+- TAKE_SNAPSHOT_VHDSET_PARAMETERS
 targetos: Windows
 req.typenames: TAKE_SNAPSHOT_VHDSET_PARAMETERS, *PTAKE_SNAPSHOT_VHDSET_PARAMETERS
 req.redist: 

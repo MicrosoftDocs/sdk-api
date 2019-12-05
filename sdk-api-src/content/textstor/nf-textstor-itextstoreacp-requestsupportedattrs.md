@@ -1,19 +1,17 @@
 ---
 UID: NF:textstor.ITextStoreACP.RequestSupportedAttrs
 title: ITextStoreACP::RequestSupportedAttrs (textstor.h)
-
 description: Get the attributes that are supported in the document.
 old-location: tsf\itextstoreacp_requestsupportedattrs.htm
 tech.root: TSF
 ms.assetid: 243cd002-c882-4ce9-b528-1a2229c46f4a
-
 ms.date: 12/05/2018
 ms.keywords: ITextStoreACP interface [Text Services Framework],RequestSupportedAttrs method, ITextStoreACP.RequestSupportedAttrs, ITextStoreACP::RequestSupportedAttrs, RequestSupportedAttrs, RequestSupportedAttrs method [Text Services Framework], RequestSupportedAttrs method [Text Services Framework],ITextStoreACP interface, _tsf_itextstoreacp_requestsupportedattrs_ref, textstor/ITextStoreACP::RequestSupportedAttrs, tsf.itextstoreacp_requestsupportedattrs
 ms.topic: method
-f1_keywords: 
- - "textstor/ITextStoreACP.RequestSupportedAttrs"
+f1_keywords:
+- textstor/ITextStoreACP.RequestSupportedAttrs
 dev_langs:
- - c++
+- c++
 req.header: textstor.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msctf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msctf.dll
+- msctf.dll
 api_name:
- - ITextStoreACP.RequestSupportedAttrs
+- ITextStoreACP.RequestSupportedAttrs
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

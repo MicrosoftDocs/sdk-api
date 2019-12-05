@@ -1,19 +1,17 @@
 ---
 UID: NF:clusapi.ClusterRegEnumValue
 title: ClusterRegEnumValue function (clusapi.h)
-
 description: Enumerates the values of an open cluster database key.
 old-location: mscs\clusterregenumvalue.htm
 tech.root: MsCS
 ms.assetid: 4ea2fc6f-6b52-4fa1-8d71-5bbae72368b3
-
 ms.date: 12/05/2018
 ms.keywords: ClusterRegEnumValue, ClusterRegEnumValue function [Failover Cluster], REG_BINARY, REG_DWORD, REG_DWORD_BIG_ENDIAN, REG_EXPAND_SZ, REG_MULTI_SZ, REG_NONE, REG_QWORD, REG_SZ, _wolf_clusterregenumvalue, clusapi/ClusterRegEnumValue, mscs.clusterregenumvalue
 ms.topic: function
-f1_keywords: 
- - "clusapi/ClusterRegEnumValue"
+f1_keywords:
+- clusapi/ClusterRegEnumValue
 dev_langs:
- - c++
+- c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: ClusAPI.lib
 req.dll: ClusAPI.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - ClusAPI.dll
+- ClusAPI.dll
 api_name:
- - ClusterRegEnumValue
+- ClusterRegEnumValue
 targetos: Windows
 req.typenames: 
 req.redist: 

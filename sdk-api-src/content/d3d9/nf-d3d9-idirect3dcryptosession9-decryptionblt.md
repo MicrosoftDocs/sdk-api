@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d9.IDirect3DCryptoSession9.DecryptionBlt
 title: IDirect3DCryptoSession9::DecryptionBlt (d3d9.h)
-
 description: Writes encrypted data to a protected surface.
 old-location: mf\idirect3dcryptosession9_decryptionblt.htm
 tech.root: medfound
 ms.assetid: 03032a3f-e10f-4f40-837e-01b7b113b29e
-
 ms.date: 12/05/2018
 ms.keywords: DecryptionBlt, DecryptionBlt method [Media Foundation], DecryptionBlt method [Media Foundation],IDirect3DCryptoSession9 interface, IDirect3DCryptoSession9 interface [Media Foundation],DecryptionBlt method, IDirect3DCryptoSession9.DecryptionBlt, IDirect3DCryptoSession9::DecryptionBlt, d3d9/IDirect3DCryptoSession9::DecryptionBlt, mf.idirect3dcryptosession9_decryptionblt
 ms.topic: method
 f1_keywords:
 - d3d9/IDirect3DCryptoSession9.DecryptionBlt
 dev_langs:
- - c++
+- c++
 req.header: d3d9.h
 req.include-header: 
 req.target-type: Windows

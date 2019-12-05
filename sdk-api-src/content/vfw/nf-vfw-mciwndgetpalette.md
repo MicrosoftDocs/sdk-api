@@ -1,19 +1,17 @@
 ---
 UID: NF:vfw.MCIWndGetPalette
 title: MCIWndGetPalette macro (vfw.h)
-
 description: The MCIWndGetPalette macro retrieves a handle of the palette used by an MCI device. You can use this macro or explicitly send the MCIWNDM_GETPALETTE message.
 old-location: multimedia\mciwndgetpalette.htm
 tech.root: Multimedia
 ms.assetid: cb42fdcc-35c0-4099-97bf-a3c8c1e53047
-
 ms.date: 12/05/2018
 ms.keywords: MCIWndGetPalette, MCIWndGetPalette macro [Windows Multimedia], _win32_MCIWndGetPalette, multimedia.mciwndgetpalette, vfw/MCIWndGetPalette
 ms.topic: macro
-f1_keywords: 
- - "vfw/MCIWndGetPalette"
+f1_keywords:
+- vfw/MCIWndGetPalette
 dev_langs:
- - c++
+- c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Vfw.h
+- Vfw.h
 api_name:
- - MCIWndGetPalette
+- MCIWndGetPalette
 targetos: Windows
 req.typenames: 
 req.redist: 

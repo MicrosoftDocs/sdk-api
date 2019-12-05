@@ -1,19 +1,17 @@
 ---
 UID: NS:wmsdkidl._WMT_WEBSTREAM_FORMAT
 title: WMT_WEBSTREAM_FORMAT (wmsdkidl.h)
-
 description: The WMT_WEBSTREAM_FORMAT structure contains information about a Web stream. This structure is used as the pbFormat member of the WM_MEDIA_TYPE structure for Web streams.
 old-location: wmformat\wmt_webstream_format.htm
 tech.root: wmformat
 ms.assetid: 3a392b33-6c2b-4465-86b4-6614940d7383
-
 ms.date: 12/05/2018
 ms.keywords: WMT_WEBSTREAM_FORMAT, WMT_WEBSTREAM_FORMAT structure [windows Media Format], wmformat.wmt_webstream_format, wmsdkidl/WMT_WEBSTREAM_FORMAT
 ms.topic: struct
-f1_keywords: 
- - "wmsdkidl/WMT_WEBSTREAM_FORMAT"
+f1_keywords:
+- wmsdkidl/WMT_WEBSTREAM_FORMAT
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wmsdkidl.h
+- Wmsdkidl.h
 api_name:
- - WMT_WEBSTREAM_FORMAT
+- WMT_WEBSTREAM_FORMAT
 targetos: Windows
 req.typenames: WMT_WEBSTREAM_FORMAT
 req.redist: 

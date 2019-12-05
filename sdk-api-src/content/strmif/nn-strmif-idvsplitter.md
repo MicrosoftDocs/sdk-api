@@ -1,19 +1,17 @@
 ---
 UID: NN:strmif.IDVSplitter
 title: IDVSplitter (strmif.h)
-
 description: Downgrades the frame rate on a digital video (DV) stream.
 old-location: dshow\idvsplitter.htm
 tech.root: DirectShow
 ms.assetid: a7fd27f4-2fc7-4115-b669-b08eed1ec032
-
 ms.date: 12/05/2018
 ms.keywords: IDVSplitter, IDVSplitter interface [DirectShow], IDVSplitter interface [DirectShow],described, IDVSplitterInterface, dshow.idvsplitter, strmif/IDVSplitter
 ms.topic: interface
-f1_keywords: 
- - "strmif/IDVSplitter"
+f1_keywords:
+- strmif/IDVSplitter
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IDVSplitter
+- IDVSplitter
 targetos: Windows
 req.typenames: 
 req.redist: 

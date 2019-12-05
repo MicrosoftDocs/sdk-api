@@ -1,19 +1,17 @@
 ---
 UID: NF:tuner.ITuner.EnumTuningSpaces
 title: ITuner::EnumTuningSpaces (tuner.h)
-
 description: The EnumTuningSpaces method creates a collection of tuning spaces preferred by this implementation.
 old-location: mstv\ituner_enumtuningspaces.htm
 tech.root: mstv
 ms.assetid: 6bd42b1b-b644-4fd7-9875-21a8d0f01243
-
 ms.date: 12/05/2018
 ms.keywords: EnumTuningSpaces, EnumTuningSpaces method [Microsoft TV Technologies], EnumTuningSpaces method [Microsoft TV Technologies],ITuner interface, ITuner interface [Microsoft TV Technologies],EnumTuningSpaces method, ITuner.EnumTuningSpaces, ITuner::EnumTuningSpaces, ITunerEnumTuningSpaces, mstv.ituner_enumtuningspaces, tuner/ITuner::EnumTuningSpaces
 ms.topic: method
-f1_keywords: 
- - "tuner/ITuner.EnumTuningSpaces"
+f1_keywords:
+- tuner/ITuner.EnumTuningSpaces
 dev_langs:
- - c++
+- c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - tuner.h
+- tuner.h
 api_name:
- - ITuner.EnumTuningSpaces
+- ITuner.EnumTuningSpaces
 targetos: Windows
 req.typenames: 
 req.redist: 

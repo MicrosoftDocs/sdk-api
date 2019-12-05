@@ -1,19 +1,17 @@
 ---
 UID: NE:winioctl._FILE_STORAGE_TIER_MEDIA_TYPE
 title: FILE_STORAGE_TIER_MEDIA_TYPE
-
 description: Specifies the storage media type.
 old-location: fs\file_storage_tier_media_type.htm
 tech.root: FileIO
 ms.assetid: 6D580AC6-5E3C-4F0B-A922-E81E6B8D8658
-
 ms.date: 12/05/2018
-ms.keywords: "*PFILE_STORAGE_TIER_MEDIA_TYPE, FILE_STORAGE_TIER_MEDIA_TYPE, FILE_STORAGE_TIER_MEDIA_TYPE enumeration [Files], FileStorageTierMediaTypeDisk, FileStorageTierMediaTypeSsd, FileStorageTierMediaTypeUnspecified, fs.file_storage_tier_media_type, winioctl/FILE_STORAGE_TIER_MEDIA_TYPE, winioctl/FileStorageTierMediaTypeDisk, winioctl/FileStorageTierMediaTypeSsd, winioctl/FileStorageTierMediaTypeUnspecified"
+ms.keywords: '*PFILE_STORAGE_TIER_MEDIA_TYPE, FILE_STORAGE_TIER_MEDIA_TYPE, FILE_STORAGE_TIER_MEDIA_TYPE enumeration [Files], FileStorageTierMediaTypeDisk, FileStorageTierMediaTypeSsd, FileStorageTierMediaTypeUnspecified, fs.file_storage_tier_media_type, winioctl/FILE_STORAGE_TIER_MEDIA_TYPE, winioctl/FileStorageTierMediaTypeDisk, winioctl/FileStorageTierMediaTypeSsd, winioctl/FileStorageTierMediaTypeUnspecified'
 ms.topic: enum
-f1_keywords: 
- - "winioctl/FILE_STORAGE_TIER_MEDIA_TYPE"
+f1_keywords:
+- winioctl/FILE_STORAGE_TIER_MEDIA_TYPE
 dev_langs:
- - c++
+- c++
 req.header: winioctl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WinIoctl.h
+- WinIoctl.h
 api_name:
- - FILE_STORAGE_TIER_MEDIA_TYPE
+- FILE_STORAGE_TIER_MEDIA_TYPE
 targetos: Windows
 req.typenames: FILE_STORAGE_TIER_MEDIA_TYPE, *PFILE_STORAGE_TIER_MEDIA_TYPE
 req.redist: 

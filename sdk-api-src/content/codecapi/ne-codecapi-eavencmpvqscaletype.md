@@ -1,19 +1,17 @@
 ---
 UID: NE:codecapi.eAVEncMPVQScaleType
 title: eAVEncMPVQScaleType (codecapi.h)
-
 description: Specifies whether the quantizer scale is linear or non-linear. This enumeration is used with the AVEncMPVQScaleType property.
 old-location: dshow\eavencmpvqscaletype.htm
 tech.root: DirectShow
 ms.assetid: cc36ac03-66cb-4855-acf5-5f67265376b7
-
 ms.date: 12/05/2018
 ms.keywords: codecapi/eAVEncMPVQScaleType, codecapi/eAVEncMPVQScaleType_Auto, codecapi/eAVEncMPVQScaleType_Linear, codecapi/eAVEncMPVScanPattern_AlternateScan, dshow.eavencmpvqscaletype, eAVEncMPVQScaleType, eAVEncMPVQScaleType enumeration [DirectShow], eAVEncMPVQScaleTypeEnumeration, eAVEncMPVQScaleType_Auto, eAVEncMPVQScaleType_Linear, eAVEncMPVScanPattern_AlternateScan
 ms.topic: enum
-f1_keywords: 
- - "codecapi/eAVEncMPVQScaleType"
+f1_keywords:
+- codecapi/eAVEncMPVQScaleType
 dev_langs:
- - c++
+- c++
 req.header: codecapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - codecapi.h
+- codecapi.h
 api_name:
- - eAVEncMPVQScaleType
+- eAVEncMPVQScaleType
 targetos: Windows
 req.typenames: 
 req.redist: 

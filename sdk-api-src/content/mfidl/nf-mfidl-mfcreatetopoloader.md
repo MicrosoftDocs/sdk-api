@@ -1,19 +1,17 @@
 ---
 UID: NF:mfidl.MFCreateTopoLoader
 title: MFCreateTopoLoader function (mfidl.h)
-
 description: Creates a new instance of the topology loader.
 old-location: mf\mfcreatetopoloader.htm
 tech.root: medfound
 ms.assetid: 0c0173ef-9c29-465c-b725-ce38b220f94f
-
 ms.date: 12/05/2018
 ms.keywords: 0c0173ef-9c29-465c-b725-ce38b220f94f, MFCreateTopoLoader, MFCreateTopoLoader function [Media Foundation], mf.mfcreatetopoloader, mfidl/MFCreateTopoLoader
 ms.topic: function
-f1_keywords: 
- - "mfidl/MFCreateTopoLoader"
+f1_keywords:
+- mfidl/MFCreateTopoLoader
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Mf.lib
 req.dll: Mf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - mf.dll
+- mf.dll
 api_name:
- - MFCreateTopoLoader
+- MFCreateTopoLoader
 targetos: Windows
 req.typenames: 
 req.redist: 

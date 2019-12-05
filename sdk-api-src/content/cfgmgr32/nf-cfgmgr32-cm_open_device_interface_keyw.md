@@ -1,19 +1,17 @@
 ---
 UID: NF:cfgmgr32.CM_Open_Device_Interface_KeyW
 title: CM_Open_Device_Interface_KeyW function (cfgmgr32.h)
-
 description: The CM_Open_Device_Interface_Key function opens the registry subkey that is used by applications and drivers to store information that is specific to a device interface.
 old-location: devinst\cm_open_device_interface_key.htm
 tech.root: devinst
 ms.assetid: 71802D33-9024-4D7F-9120-8EEFECA53A60
-
 ms.date: 12/05/2018
 ms.keywords: CM_Open_Device_Interface_Key, CM_Open_Device_Interface_Key function [Device and Driver Installation], CM_Open_Device_Interface_KeyA, CM_Open_Device_Interface_KeyW, cfgmgr32/CM_Open_Device_Interface_Key, cfgmgr32/CM_Open_Device_Interface_KeyA, cfgmgr32/CM_Open_Device_Interface_KeyW, devinst.cm_open_device_interface_key
 ms.topic: function
-f1_keywords: 
- - "cfgmgr32/CM_Open_Device_Interface_Key"
+f1_keywords:
+- cfgmgr32/CM_Open_Device_Interface_Key
 dev_langs:
- - c++
+- c++
 req.header: cfgmgr32.h
 req.include-header: Cfgmgr32.h
 req.target-type: Universal
@@ -32,20 +30,20 @@ req.lib: Cfgmgr32.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Cfgmgr32.lib
- - Cfgmgr32.dll
- - API-MS-Win-Devices-Config-L1-1-0.dll
- - API-MS-Win-Devices-Config-L1-1-1.dll
- - CfgMgr32.dll
+- Cfgmgr32.lib
+- Cfgmgr32.dll
+- API-MS-Win-Devices-Config-L1-1-0.dll
+- API-MS-Win-Devices-Config-L1-1-1.dll
+- CfgMgr32.dll
 api_name:
- - CM_Open_Device_Interface_Key
- - CM_Open_Device_Interface_KeyA
- - CM_Open_Device_Interface_KeyW
+- CM_Open_Device_Interface_Key
+- CM_Open_Device_Interface_KeyA
+- CM_Open_Device_Interface_KeyW
 targetos: Windows
 req.typenames: 
 req.redist: 

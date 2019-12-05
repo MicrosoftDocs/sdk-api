@@ -1,19 +1,17 @@
 ---
 UID: NF:gdiplusgraphics.Graphics.GetCompositingQuality
 title: Graphics::GetCompositingQuality (gdiplusgraphics.h)
-
 description: The Graphics::GetCompositingQuality method gets the compositing quality currently set for this Graphics object.
 old-location: gdiplus\_gdiplus_CLASS_Graphics_GetCompositingQuality_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\getcompositingquality.htm
-
 ms.date: 12/05/2018
 ms.keywords: GetCompositingQuality, GetCompositingQuality method [GDI+], GetCompositingQuality method [GDI+],Graphics class, Graphics class [GDI+],GetCompositingQuality method, Graphics.GetCompositingQuality, Graphics::GetCompositingQuality, _gdiplus_CLASS_Graphics_GetCompositingQuality_, gdiplus._gdiplus_CLASS_Graphics_GetCompositingQuality_
 ms.topic: method
-f1_keywords: 
- - "gdiplusgraphics/Graphics.GetCompositingQuality"
+f1_keywords:
+- gdiplusgraphics/Graphics.GetCompositingQuality
 dev_langs:
- - c++
+- c++
 req.header: gdiplusgraphics.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - Graphics.GetCompositingQuality
+- Graphics.GetCompositingQuality
 targetos: Windows
 req.typenames: 
 req.redist: 

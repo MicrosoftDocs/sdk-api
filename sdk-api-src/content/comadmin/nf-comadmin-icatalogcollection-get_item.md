@@ -1,19 +1,17 @@
 ---
 UID: NF:comadmin.ICatalogCollection.get_Item
 title: ICatalogCollection::get_Item (comadmin.h)
-
 description: Retrieves the item that correspond to the specified index.
 old-location: cos\icatalogcollection_item.htm
 tech.root: cossdk
 ms.assetid: 47c9dcfd-81fc-495c-848a-8c2b655e8fce
-
 ms.date: 12/05/2018
 ms.keywords: ICatalogCollection interface [COM+],Item property, ICatalogCollection.Item, ICatalogCollection.get_Item, ICatalogCollection::Item, ICatalogCollection::get_Item, Item property [COM+], Item property [COM+],ICatalogCollection interface, _cos_ICatalogCollection_get_Item, comadmin/ICatalogCollection::Item, comadmin/ICatalogCollection::get_Item, cos.icatalogcollection_item, get_Item
 ms.topic: method
-f1_keywords: 
- - "comadmin/ICatalogCollection.Item"
+f1_keywords:
+- comadmin/ICatalogCollection.Item
 dev_langs:
- - c++
+- c++
 req.header: comadmin.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComAdmin.h
+- ComAdmin.h
 api_name:
- - ICatalogCollection.Item
- - ICatalogCollection.get_Item
+- ICatalogCollection.Item
+- ICatalogCollection.get_Item
 targetos: Windows
 req.typenames: 
 req.redist: 

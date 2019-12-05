@@ -1,19 +1,17 @@
 ---
 UID: NF:setupapi.SetupDiClassNameFromGuidW
 title: SetupDiClassNameFromGuidW function (setupapi.h)
-
 description: The SetupDiClassNameFromGuid function retrieves the class name associated with a class GUID.
 old-location: devinst\setupdiclassnamefromguid.htm
 tech.root: devinst
 ms.assetid: e23631b4-eb7f-4a75-ac23-25d3d974a3e3
-
 ms.date: 12/05/2018
 ms.keywords: SetupDiClassNameFromGuid, SetupDiClassNameFromGuid function [Device and Driver Installation], SetupDiClassNameFromGuidA, SetupDiClassNameFromGuidW, devinst.setupdiclassnamefromguid, di-rtns_b17476f2-25e2-48ed-be4d-53af55541056.xml, setupapi/SetupDiClassNameFromGuid
 ms.topic: function
-f1_keywords: 
- - "setupapi/SetupDiClassNameFromGuid"
+f1_keywords:
+- setupapi/SetupDiClassNameFromGuid
 dev_langs:
- - c++
+- c++
 req.header: setupapi.h
 req.include-header: Setupapi.h
 req.target-type: Desktop
@@ -32,16 +30,16 @@ req.lib: Setupapi.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - LibDef
+- LibDef
 api_location:
- - Setupapi.lib
- - Setupapi.dll
+- Setupapi.lib
+- Setupapi.dll
 api_name:
- - SetupDiClassNameFromGuid
- - SetupDiClassNameFromGuidW
+- SetupDiClassNameFromGuid
+- SetupDiClassNameFromGuidW
 targetos: Windows
 req.typenames: 
 req.redist: 

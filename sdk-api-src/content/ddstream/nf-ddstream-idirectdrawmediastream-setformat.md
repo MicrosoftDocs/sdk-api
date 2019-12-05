@@ -1,19 +1,17 @@
 ---
 UID: NF:ddstream.IDirectDrawMediaStream.SetFormat
 title: IDirectDrawMediaStream::SetFormat (ddstream.h)
-
 description: Note  This interface is deprecated. New applications should not use it. Sets the format of the current media stream.
 old-location: dshow\idirectdrawmediastream_setformat.htm
 tech.root: DirectShow
 ms.assetid: 465b4f0c-40e1-4aec-be62-0b55c29fa05e
-
 ms.date: 12/05/2018
 ms.keywords: IDirectDrawMediaStream interface [DirectShow],SetFormat method, IDirectDrawMediaStream.SetFormat, IDirectDrawMediaStream::SetFormat, IDirectDrawMediaStreamSetFormat, SetFormat, SetFormat method [DirectShow], SetFormat method [DirectShow],IDirectDrawMediaStream interface, ddstream/IDirectDrawMediaStream::SetFormat, dshow.idirectdrawmediastream_setformat
 ms.topic: method
-f1_keywords: 
- - "ddstream/IDirectDrawMediaStream.SetFormat"
+f1_keywords:
+- ddstream/IDirectDrawMediaStream.SetFormat
 dev_langs:
- - c++
+- c++
 req.header: ddstream.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ddstream.h
+- ddstream.h
 api_name:
- - IDirectDrawMediaStream.SetFormat
+- IDirectDrawMediaStream.SetFormat
 targetos: Windows
 req.typenames: 
 req.redist: 

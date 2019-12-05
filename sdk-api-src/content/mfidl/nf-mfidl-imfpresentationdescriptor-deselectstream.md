@@ -1,19 +1,17 @@
 ---
 UID: NF:mfidl.IMFPresentationDescriptor.DeselectStream
 title: IMFPresentationDescriptor::DeselectStream (mfidl.h)
-
 description: Deselects a stream in the presentation.
 old-location: mf\imfpresentationdescriptor_deselectstream.htm
 tech.root: medfound
 ms.assetid: 3de1f0d5-10fc-415b-898b-4643a391ba79
-
 ms.date: 12/05/2018
 ms.keywords: 3de1f0d5-10fc-415b-898b-4643a391ba79, DeselectStream, DeselectStream method [Media Foundation], DeselectStream method [Media Foundation],IMFPresentationDescriptor interface, IMFPresentationDescriptor interface [Media Foundation],DeselectStream method, IMFPresentationDescriptor.DeselectStream, IMFPresentationDescriptor::DeselectStream, mf.imfpresentationdescriptor_deselectstream, mfidl/IMFPresentationDescriptor::DeselectStream
 ms.topic: method
-f1_keywords: 
- - "mfidl/IMFPresentationDescriptor.DeselectStream"
+f1_keywords:
+- mfidl/IMFPresentationDescriptor.DeselectStream
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFPresentationDescriptor.DeselectStream
+- IMFPresentationDescriptor.DeselectStream
 targetos: Windows
 req.typenames: 
 req.redist: 

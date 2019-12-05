@@ -1,19 +1,17 @@
 ---
 UID: NF:pla.ITraceDataProviderCollection.get_Count
 title: ITraceDataProviderCollection::get_Count (pla.h)
-
 description: Retrieves the number of trace providers in the collection.
 old-location: pla\itracedataprovidercollection_count.htm
 tech.root: PLA
 ms.assetid: d5ecc815-86c1-4a08-b434-88479df3d70c
-
 ms.date: 12/05/2018
 ms.keywords: Count property [PLA], Count property [PLA],ITraceDataProviderCollection interface, ITraceDataProviderCollection interface [PLA],Count property, ITraceDataProviderCollection.Count, ITraceDataProviderCollection.get_Count, ITraceDataProviderCollection::Count, ITraceDataProviderCollection::get_Count, base.itracedataprovidercollection_count, get_Count, pla.itracedataprovidercollection_count, pla/ITraceDataProviderCollection::Count, pla/ITraceDataProviderCollection::get_Count
 ms.topic: method
-f1_keywords: 
- - "pla/ITraceDataProviderCollection.Count"
+f1_keywords:
+- pla/ITraceDataProviderCollection.Count
 dev_langs:
- - c++
+- c++
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: Pla.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Pla.dll
+- Pla.dll
 api_name:
- - ITraceDataProviderCollection.Count
- - ITraceDataProviderCollection.get_Count
+- ITraceDataProviderCollection.Count
+- ITraceDataProviderCollection.get_Count
 targetos: Windows
 req.typenames: 
 req.redist: 

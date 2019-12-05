@@ -1,19 +1,17 @@
 ---
 UID: NF:wmsecure.IWMSecureChannel.WMSC_Unlock
 title: IWMSecureChannel::WMSC_Unlock (wmsecure.h)
-
 description: The WMSC_Unlock method unlocks access to the secure connection.
 old-location: wmformat\iwmsecurechannel_wmsc_unlock.htm
 tech.root: wmformat
 ms.assetid: 3127a3bb-380d-46f9-82a3-d584705b1c60
-
 ms.date: 12/05/2018
 ms.keywords: IWMSecureChannel interface [windows Media Format],WMSC_Unlock method, IWMSecureChannel.WMSC_Unlock, IWMSecureChannel::WMSC_Unlock, WMSC_Unlock, WMSC_Unlock method [windows Media Format], WMSC_Unlock method [windows Media Format],IWMSecureChannel interface, wmformat.iwmsecurechannel_wmsc_unlock, wmsecure/IWMSecureChannel::WMSC_Unlock
 ms.topic: method
-f1_keywords: 
- - "wmsecure/IWMSecureChannel.WMSC_Unlock"
+f1_keywords:
+- wmsecure/IWMSecureChannel.WMSC_Unlock
 dev_langs:
- - c++
+- c++
 req.header: wmsecure.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wmsecure.h
+- Wmsecure.h
 api_name:
- - IWMSecureChannel.WMSC_Unlock
+- IWMSecureChannel.WMSC_Unlock
 targetos: Windows
 req.typenames: 
 req.redist: 

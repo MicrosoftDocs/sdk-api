@@ -1,19 +1,17 @@
 ---
 UID: NF:winsvc.EnumDependentServicesW
 title: EnumDependentServicesW function (winsvc.h)
-
 description: Retrieves the name and status of each service that depends on the specified service.
 old-location: base\enumdependentservices.htm
 tech.root: Services
 ms.assetid: 905d4453-96d4-4055-8a17-36714c547cdd
-
 ms.date: 12/05/2018
 ms.keywords: EnumDependentServices, EnumDependentServices function, EnumDependentServicesA, EnumDependentServicesW, SERVICE_ACTIVE, SERVICE_INACTIVE, SERVICE_STATE_ALL, _win32_enumdependentservices, base.enumdependentservices, winsvc/EnumDependentServices, winsvc/EnumDependentServicesA, winsvc/EnumDependentServicesW
 ms.topic: function
 f1_keywords:
 - winsvc/EnumDependentServices
 dev_langs:
- - c++
+- c++
 req.header: winsvc.h
 req.include-header: Windows.h
 req.target-type: Windows

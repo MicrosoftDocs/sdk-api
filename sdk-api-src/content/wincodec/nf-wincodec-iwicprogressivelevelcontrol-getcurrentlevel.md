@@ -1,19 +1,17 @@
 ---
 UID: NF:wincodec.IWICProgressiveLevelControl.GetCurrentLevel
 title: IWICProgressiveLevelControl::GetCurrentLevel (wincodec.h)
-
 description: Gets the decoder's current progressive level.
 old-location: wic\_wic_codec_iwicprogressivelevelcontrol_getcurrentlevel.htm
 tech.root: wic
 ms.assetid: c6f848a0-e373-4344-8923-3ad77165ef71
-
 ms.date: 12/05/2018
 ms.keywords: GetCurrentLevel, GetCurrentLevel method [Windows Imaging Component], GetCurrentLevel method [Windows Imaging Component],IWICProgressiveLevelControl interface, IWICProgressiveLevelControl interface [Windows Imaging Component],GetCurrentLevel method, IWICProgressiveLevelControl.GetCurrentLevel, IWICProgressiveLevelControl::GetCurrentLevel, _wic_codec_iwicprogressivelevelcontrol_getcurrentlevel, wic._wic_codec_iwicprogressivelevelcontrol_getcurrentlevel, wincodec/IWICProgressiveLevelControl::GetCurrentLevel
 ms.topic: method
-f1_keywords: 
- - "wincodec/IWICProgressiveLevelControl.GetCurrentLevel"
+f1_keywords:
+- wincodec/IWICProgressiveLevelControl.GetCurrentLevel
 dev_langs:
- - c++
+- c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Windowscodecs.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Windowscodecs.dll
+- Windowscodecs.dll
 api_name:
- - IWICProgressiveLevelControl.GetCurrentLevel
+- IWICProgressiveLevelControl.GetCurrentLevel
 targetos: Windows
 req.typenames: 
 req.redist: 

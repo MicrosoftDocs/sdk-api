@@ -1,19 +1,17 @@
 ---
 UID: NF:dwrite_3.IDWriteFontFace3.GetInformationalStrings
 title: IDWriteFontFace3::GetInformationalStrings (dwrite_3.h)
-
 description: Gets a localized strings collection that contains the specified informational strings, indexed by locale name.
 old-location: directwrite\idwritefontface3_getinformationalstrings.htm
 tech.root: DirectWrite
 ms.assetid: F3CF5E9E-C0EA-4A29-8D42-11873DF5A9F2
-
 ms.date: 12/05/2018
 ms.keywords: GetInformationalStrings, GetInformationalStrings method [Direct Write], GetInformationalStrings method [Direct Write],IDWriteFontFace3 interface, IDWriteFontFace3 interface [Direct Write],GetInformationalStrings method, IDWriteFontFace3.GetInformationalStrings, IDWriteFontFace3::GetInformationalStrings, directwrite.idwritefontface3_getinformationalstrings, dwrite_3/IDWriteFontFace3::GetInformationalStrings
 ms.topic: method
-f1_keywords: 
- - "dwrite_3/IDWriteFontFace3.GetInformationalStrings"
+f1_keywords:
+- dwrite_3/IDWriteFontFace3.GetInformationalStrings
 dev_langs:
- - c++
+- c++
 req.header: dwrite_3.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dwrite.lib
 req.dll: Dwrite.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dwrite.dll
+- dwrite.dll
 api_name:
- - IDWriteFontFace3.GetInformationalStrings
+- IDWriteFontFace3.GetInformationalStrings
 targetos: Windows
 req.typenames: 
 req.redist: 

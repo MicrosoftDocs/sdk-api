@@ -1,19 +1,17 @@
 ---
 UID: NF:oaidl.ITypeComp.BindType
 title: ITypeComp::BindType (oaidl.h)
-
 description: Binds to the type descriptions contained within a type library.
 old-location: automat\itypecomp_bindtype.htm
 tech.root: automat
 ms.assetid: e1b6eb9c-aa5a-41b9-bc97-afa82206ccef
-
 ms.date: 12/05/2018
 ms.keywords: BindType, BindType method [Automation], BindType method [Automation],ITypeComp interface, ITypeComp interface [Automation],BindType method, ITypeComp.BindType, ITypeComp::BindType, _oa96_ITypeComp_BindType, automat.itypecomp_bindtype, oaidl/ITypeComp::BindType
 ms.topic: method
-f1_keywords: 
- - "oaidl/ITypeComp.BindType"
+f1_keywords:
+- oaidl/ITypeComp.BindType
 dev_langs:
- - c++
+- c++
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - oaidl.h
+- oaidl.h
 api_name:
- - ITypeComp.BindType
+- ITypeComp.BindType
 targetos: Windows
 req.typenames: 
 req.redist: 

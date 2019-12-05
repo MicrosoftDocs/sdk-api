@@ -1,19 +1,17 @@
 ---
 UID: NE:ipsectypes.IPSEC_CIPHER_TYPE_
 title: IPSEC_CIPHER_TYPE (ipsectypes.h)
-
 description: Indicates the type of encryption algorithm used in an IPsec SA for data privacy.
 old-location: fwp\ipsec_cipher_type_enum.htm
 tech.root: fwp
 ms.assetid: 88bcd239-83a6-4bc6-b9c8-2416c91ee4c4
-
 ms.date: 12/05/2018
 ms.keywords: IPSEC_CIPHER_TYPE, IPSEC_CIPHER_TYPE enumeration [Filtering], IPSEC_CIPHER_TYPE_3DES, IPSEC_CIPHER_TYPE_AES_128, IPSEC_CIPHER_TYPE_AES_192, IPSEC_CIPHER_TYPE_AES_256, IPSEC_CIPHER_TYPE_DES, IPSEC_CIPHER_TYPE_MAX, fwp.ipsec_cipher_type_enum, ipsectypes/IPSEC_CIPHER_TYPE, ipsectypes/IPSEC_CIPHER_TYPE_3DES, ipsectypes/IPSEC_CIPHER_TYPE_AES_128, ipsectypes/IPSEC_CIPHER_TYPE_AES_192, ipsectypes/IPSEC_CIPHER_TYPE_AES_256, ipsectypes/IPSEC_CIPHER_TYPE_DES, ipsectypes/IPSEC_CIPHER_TYPE_MAX
 ms.topic: enum
-f1_keywords: 
- - "ipsectypes/IPSEC_CIPHER_TYPE"
+f1_keywords:
+- ipsectypes/IPSEC_CIPHER_TYPE
 dev_langs:
- - c++
+- c++
 req.header: ipsectypes.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Ipsectypes.h
+- Ipsectypes.h
 api_name:
- - IPSEC_CIPHER_TYPE
+- IPSEC_CIPHER_TYPE
 targetos: Windows
 req.typenames: IPSEC_CIPHER_TYPE
 req.redist: 

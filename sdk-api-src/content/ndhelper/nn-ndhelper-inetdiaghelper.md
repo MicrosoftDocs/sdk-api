@@ -1,19 +1,17 @@
 ---
 UID: NN:ndhelper.INetDiagHelper
 title: INetDiagHelper (ndhelper.h)
-
 description: The INetDiagHelper interface provides methods that capture and provide information associated with diagnoses and resolution of network-related issues.
 old-location: ndf\inetdiaghelper.htm
 tech.root: NDF
 ms.assetid: 7f1b8a5b-389b-4276-a49d-94a39be3c35c
-
 ms.date: 12/05/2018
 ms.keywords: INetDiagHelper, INetDiagHelper interface [NDF], INetDiagHelper interface [NDF],described, ndf.inetdiaghelper, ndhelper/INetDiagHelper
 ms.topic: interface
-f1_keywords: 
- - "ndhelper/INetDiagHelper"
+f1_keywords:
+- ndhelper/INetDiagHelper
 dev_langs:
- - c++
+- c++
 req.header: ndhelper.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ndhelper.h
+- ndhelper.h
 api_name:
- - INetDiagHelper
+- INetDiagHelper
 targetos: Windows
 req.typenames: 
 req.redist: 

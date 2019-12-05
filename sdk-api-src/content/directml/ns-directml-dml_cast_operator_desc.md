@@ -1,19 +1,17 @@
 ---
 UID: NS:directml.DML_CAST_OPERATOR_DESC
 title: DML_CAST_OPERATOR_DESC
-
 description: Describes a DirectML data reorganization operator that performs the cast function f(x) = cast(x), casting each element in the input to the data type of the output tensor, and storing the result in the corresponding element in the output.
 old-location: direct3d12\dml_cast_operator_desc.htm
 tech.root: direct3d12
 ms.assetid: 6314667B-E22A-48E4-9B0D-07C8D948160C
-
 ms.date: 12/5/2018
 ms.keywords: DML_CAST_OPERATOR_DESC, DML_CAST_OPERATOR_DESC structure, direct3d12.dml_cast_operator_desc, directml/DML_CAST_OPERATOR_DESC
 ms.topic: struct
-f1_keywords: 
- - "directml/DML_CAST_OPERATOR_DESC"
+f1_keywords:
+- directml/DML_CAST_OPERATOR_DESC
 dev_langs:
- - c++
+- c++
 req.header: directml.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - DirectML.h
+- DirectML.h
 api_name:
- - DML_CAST_OPERATOR_DESC
+- DML_CAST_OPERATOR_DESC
 targetos: Windows
 req.typenames: 
 req.redist: 

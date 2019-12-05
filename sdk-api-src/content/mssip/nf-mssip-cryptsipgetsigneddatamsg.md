@@ -1,19 +1,17 @@
 ---
 UID: NF:mssip.CryptSIPGetSignedDataMsg
 title: CryptSIPGetSignedDataMsg function (mssip.h)
-
 description: Retrieves an Authenticode signature from the file.
 old-location: security\cryptsipgetsigneddatamsg.htm
 tech.root: SecCrypto
 ms.assetid: e3fabaa7-2dda-4c6c-8d1a-3ee5363e10b5
-
 ms.date: 12/05/2018
 ms.keywords: CryptSIPGetSignedDataMsg, CryptSIPGetSignedDataMsg function [Security], PKCS_7_ASN_ENCODING, X509_ASN_ENCODING, mssip/CryptSIPGetSignedDataMsg, security.cryptsipgetsigneddatamsg
 ms.topic: function
-f1_keywords: 
- - "mssip/CryptSIPGetSignedDataMsg"
+f1_keywords:
+- mssip/CryptSIPGetSignedDataMsg
 dev_langs:
- - c++
+- c++
 req.header: mssip.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Crypt32.lib
 req.dll: Crypt32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Crypt32.dll
+- Crypt32.dll
 api_name:
- - CryptSIPGetSignedDataMsg
+- CryptSIPGetSignedDataMsg
 targetos: Windows
 req.typenames: 
 req.redist: 

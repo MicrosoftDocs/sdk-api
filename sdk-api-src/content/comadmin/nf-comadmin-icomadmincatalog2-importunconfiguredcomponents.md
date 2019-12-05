@@ -1,19 +1,17 @@
 ---
 UID: NF:comadmin.ICOMAdminCatalog2.ImportUnconfiguredComponents
 title: ICOMAdminCatalog2::ImportUnconfiguredComponents (comadmin.h)
-
 description: Imports the specified classes into a COM+ application as unconfigured components.
 old-location: cos\icomadmincatalog2_importunconfiguredcomponents.htm
 tech.root: cossdk
 ms.assetid: 51bab6c7-5ec2-4651-a0c4-c54683a65d75
-
 ms.date: 12/05/2018
 ms.keywords: COMAdmin32BitComponent, COMAdmin64BitComponent, ICOMAdminCatalog2 interface [COM+],ImportUnconfiguredComponents method, ICOMAdminCatalog2.ImportUnconfiguredComponents, ICOMAdminCatalog2::ImportUnconfiguredComponents, ImportUnconfiguredComponents, ImportUnconfiguredComponents method [COM+], ImportUnconfiguredComponents method [COM+],ICOMAdminCatalog2 interface, _cos_icomadmincatalog2_ImportUnconfiguredComponents, comadmin/ICOMAdminCatalog2::ImportUnconfiguredComponents, cos.icomadmincatalog2_importunconfiguredcomponents
 ms.topic: method
-f1_keywords: 
- - "comadmin/ICOMAdminCatalog2.ImportUnconfiguredComponents"
+f1_keywords:
+- comadmin/ICOMAdminCatalog2.ImportUnconfiguredComponents
 dev_langs:
- - c++
+- c++
 req.header: comadmin.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComAdmin.h
+- ComAdmin.h
 api_name:
- - ICOMAdminCatalog2.ImportUnconfiguredComponents
+- ICOMAdminCatalog2.ImportUnconfiguredComponents
 targetos: Windows
 req.typenames: 
 req.redist: 

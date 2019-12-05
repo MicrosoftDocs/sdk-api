@@ -1,19 +1,17 @@
 ---
 UID: NS:appmodel.PACKAGE_VERSION
 title: PACKAGE_VERSION (appmodel.h)
-
 description: Represents the package version information.
 old-location: appxpkg\package_version.htm
 tech.root: appxpkg
 ms.assetid: 8543DF84-A908-4DF5-AEE6-169FECB2AA97
-
 ms.date: 12/05/2018
 ms.keywords: PACKAGE_VERSION, PACKAGE_VERSION structure [App packaging and management], appmodel/PACKAGE_VERSION, appxpkg.package_version
 ms.topic: struct
-f1_keywords: 
- - "appmodel/PACKAGE_VERSION"
+f1_keywords:
+- appmodel/PACKAGE_VERSION
 dev_langs:
- - c++
+- c++
 req.header: appmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - AppModel.h
+- AppModel.h
 api_name:
- - PACKAGE_VERSION
+- PACKAGE_VERSION
 targetos: Windows
 req.typenames: PACKAGE_VERSION
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:ncrypt.NCryptCreateClaim
 title: NCryptCreateClaim function (ncrypt.h)
-
 description: Creates a key attestation claim.
 old-location: security\ncryptcreateclaim.htm
 tech.root: SecCNG
 ms.assetid: EBEE3A67-0693-4B85-88B1-580CB2152703
-
 ms.date: 12/05/2018
 ms.keywords: NCryptCreateClaim, NCryptCreateClaim function [Security], ncrypt/NCryptCreateClaim, security.ncryptcreateclaim
 ms.topic: function
-f1_keywords: 
- - "ncrypt/NCryptCreateClaim"
+f1_keywords:
+- ncrypt/NCryptCreateClaim
 dev_langs:
- - c++
+- c++
 req.header: ncrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Ncrypt.lib
 req.dll: Ncrypt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - ncrypt.dll
+- ncrypt.dll
 api_name:
- - NCryptCreateClaim
+- NCryptCreateClaim
 targetos: Windows
 req.typenames: 
 req.redist: 

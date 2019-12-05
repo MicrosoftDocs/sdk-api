@@ -1,19 +1,17 @@
 ---
 UID: NF:fsrmreports.IFsrmReportJob.get_LastRun
 title: IFsrmReportJob::get_LastRun (fsrmreports.h)
-
 description: Retrieves the time stamp for when the reports were last run.
 old-location: fsrm\ifsrmreportjob_lastrun.htm
 tech.root: fsrm
 ms.assetid: 90acfd1d-9cef-4900-8b67-d44509503809
-
 ms.date: 12/05/2018
 ms.keywords: IFsrmReportJob interface [File Server Resource Manager],LastRun property, IFsrmReportJob.LastRun, IFsrmReportJob.get_LastRun, IFsrmReportJob::LastRun, IFsrmReportJob::get_LastRun, LastRun property [File Server Resource Manager], LastRun property [File Server Resource Manager],IFsrmReportJob interface, fs.ifsrmreportjob_lastrun, fsrm.ifsrmreportjob_lastrun, fsrmreports/IFsrmReportJob::LastRun, fsrmreports/IFsrmReportJob::get_LastRun, get_LastRun
 ms.topic: method
-f1_keywords: 
- - "fsrmreports/IFsrmReportJob.LastRun"
+f1_keywords:
+- fsrmreports/IFsrmReportJob.LastRun
 dev_langs:
- - c++
+- c++
 req.header: fsrmreports.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: SrmSvc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - SrmSvc.dll
+- SrmSvc.dll
 api_name:
- - IFsrmReportJob.LastRun
- - IFsrmReportJob.get_LastRun
+- IFsrmReportJob.LastRun
+- IFsrmReportJob.get_LastRun
 targetos: Windows
 req.typenames: 
 req.redist: 

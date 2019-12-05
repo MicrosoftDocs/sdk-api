@@ -1,19 +1,17 @@
 ---
 UID: NF:ctffunc.ITfIntegratableCandidateListUIElement.ShowCandidateNumbers
 title: ITfIntegratableCandidateListUIElement::ShowCandidateNumbers (ctffunc.h)
-
 description: Specifies whether candidate numbers should be shown.
 old-location: tsf\itfintegratablecandidatelistuielement_showcandidatenumbers.htm
 tech.root: TSF
 ms.assetid: 91F40471-69D0-457B-9614-1B5A690A82B7
-
 ms.date: 12/05/2018
 ms.keywords: ITfIntegratableCandidateListUIElement interface [Text Services Framework],ShowCandidateNumbers method, ITfIntegratableCandidateListUIElement.ShowCandidateNumbers, ITfIntegratableCandidateListUIElement::ShowCandidateNumbers, ShowCandidateNumbers, ShowCandidateNumbers method [Text Services Framework], ShowCandidateNumbers method [Text Services Framework],ITfIntegratableCandidateListUIElement interface, ctffunc/ITfIntegratableCandidateListUIElement::ShowCandidateNumbers, tsf.itfintegratablecandidatelistuielement_showcandidatenumbers
 ms.topic: method
-f1_keywords: 
- - "ctffunc/ITfIntegratableCandidateListUIElement.ShowCandidateNumbers"
+f1_keywords:
+- ctffunc/ITfIntegratableCandidateListUIElement.ShowCandidateNumbers
 dev_langs:
- - c++
+- c++
 req.header: ctffunc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Ctffunc.h
+- Ctffunc.h
 api_name:
- - ITfIntegratableCandidateListUIElement.ShowCandidateNumbers
+- ITfIntegratableCandidateListUIElement.ShowCandidateNumbers
 targetos: Windows
 req.typenames: 
 req.redist: 

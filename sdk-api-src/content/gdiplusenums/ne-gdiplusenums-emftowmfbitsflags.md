@@ -1,19 +1,17 @@
 ---
 UID: NE:gdiplusenums.EmfToWmfBitsFlags
 title: EmfToWmfBitsFlags (gdiplusenums.h)
-
 description: Specifies options for the Metafile::EmfToWmfBits method, which converts an Enhanced Metafile (EMF) metafile to a Windows Metafile Format (WMF) metafile.
 old-location: gdiplus\_gdiplus_ENUM_EmfToWmfBitsFlags.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\enumerations\emftowmfbitsflags.htm
-
 ms.date: 12/05/2018
 ms.keywords: EmfToWmfBitsFlags, EmfToWmfBitsFlags enumeration [GDI+], EmfToWmfBitsFlagsDefault, EmfToWmfBitsFlagsEmbedEmf, EmfToWmfBitsFlagsIncludePlaceable, EmfToWmfBitsFlagsNoXORClip, _gdiplus_ENUM_EmfToWmfBitsFlags, gdiplus._gdiplus_ENUM_EmfToWmfBitsFlags, gdiplusenums/EmfToWmfBitsFlags, gdiplusenums/EmfToWmfBitsFlagsDefault, gdiplusenums/EmfToWmfBitsFlagsEmbedEmf, gdiplusenums/EmfToWmfBitsFlagsIncludePlaceable, gdiplusenums/EmfToWmfBitsFlagsNoXORClip
 ms.topic: enum
-f1_keywords: 
- - "gdiplusenums/EmfToWmfBitsFlags"
+f1_keywords:
+- gdiplusenums/EmfToWmfBitsFlags
 dev_langs:
- - c++
+- c++
 req.header: gdiplusenums.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Gdiplusenums.h
+- Gdiplusenums.h
 api_name:
- - EmfToWmfBitsFlags
+- EmfToWmfBitsFlags
 targetos: Windows
 req.typenames: 
 req.redist: 

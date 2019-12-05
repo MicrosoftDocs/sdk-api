@@ -1,19 +1,17 @@
 ---
 UID: NF:clusapi.ClusterNodeCloseEnumEx
 title: ClusterNodeCloseEnumEx function (clusapi.h)
-
 description: Closes a node enumeration handle.
 old-location: mscs\clusternodecloseenumex.htm
 tech.root: MsCS
 ms.assetid: 1B743E4E-F8E0-4E73-B5FA-53D4FC547251
-
 ms.date: 12/05/2018
 ms.keywords: ClusterNodeCloseEnumEx, ClusterNodeCloseEnumEx function [Failover Cluster], PCLUSAPI_CLUSTER_NODE_CLOSE_ENUM_EX, PCLUSAPI_CLUSTER_NODE_CLOSE_ENUM_EX function [Failover Cluster], clusapi/ClusterNodeCloseEnumEx, clusapi/PCLUSAPI_CLUSTER_NODE_CLOSE_ENUM_EX, mscs.clusternodecloseenumex
 ms.topic: function
-f1_keywords: 
- - "clusapi/ClusterNodeCloseEnumEx"
+f1_keywords:
+- clusapi/ClusterNodeCloseEnumEx
 dev_langs:
- - c++
+- c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: ClusAPI.lib
 req.dll: ClusAPI.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - ClusAPI.dll
+- ClusAPI.dll
 api_name:
- - ClusterNodeCloseEnumEx
+- ClusterNodeCloseEnumEx
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:tom.ITextFont.GetPosition
 title: ITextFont::GetPosition (tom.h)
-
 description: Gets the amount that characters are offset vertically relative to the baseline.
 old-location: controls\ITextFont_GetPosition.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\getposition.htm
-
 ms.date: 12/05/2018
 ms.keywords: GetPosition, GetPosition method [Windows Controls], GetPosition method [Windows Controls],ITextFont interface, ITextFont interface [Windows Controls],GetPosition method, ITextFont.GetPosition, ITextFont::GetPosition, _win32_ITextFont_GetPosition, _win32_ITextFont_GetPosition_cpp, controls.ITextFont_GetPosition, controls._win32_ITextFont_GetPosition, tom/ITextFont::GetPosition
 ms.topic: method
-f1_keywords: 
- - "tom/ITextFont.GetPosition"
+f1_keywords:
+- tom/ITextFont.GetPosition
 dev_langs:
- - c++
+- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msftedit.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msftedit.dll
+- Msftedit.dll
 api_name:
- - ITextFont.GetPosition
+- ITextFont.GetPosition
 targetos: Windows
 req.typenames: 
 req.redist: 

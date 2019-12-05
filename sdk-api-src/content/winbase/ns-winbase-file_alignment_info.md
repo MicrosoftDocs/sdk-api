@@ -1,19 +1,17 @@
 ---
 UID: NS:winbase._FILE_ALIGNMENT_INFO
 title: FILE_ALIGNMENT_INFO (winbase.h)
-
 description: Contains alignment information for a file.
 old-location: fs\file_alignment_info.htm
 tech.root: FileIO
 ms.assetid: a6d3cba0-d59b-45c2-a763-ecdde5b36348
-
 ms.date: 12/05/2018
-ms.keywords: "*PFILE_ALIGNMENT_INFO, FILE_ALIGNMENT_INFO, FILE_ALIGNMENT_INFO structure [Files], PFILE_ALIGNMENT_INFO, PFILE_ALIGNMENT_INFO structure pointer [Files], _FILE_ALIGNMENT_INFO, fs.file_alignment_info, winbase/FILE_ALIGNMENT_INFO, winbase/PFILE_ALIGNMENT_INFO"
+ms.keywords: '*PFILE_ALIGNMENT_INFO, FILE_ALIGNMENT_INFO, FILE_ALIGNMENT_INFO structure [Files], PFILE_ALIGNMENT_INFO, PFILE_ALIGNMENT_INFO structure pointer [Files], _FILE_ALIGNMENT_INFO, fs.file_alignment_info, winbase/FILE_ALIGNMENT_INFO, winbase/PFILE_ALIGNMENT_INFO'
 ms.topic: struct
-f1_keywords: 
- - "winbase/FILE_ALIGNMENT_INFO"
+f1_keywords:
+- winbase/FILE_ALIGNMENT_INFO
 dev_langs:
- - c++
+- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WinBase.h
+- WinBase.h
 api_name:
- - FILE_ALIGNMENT_INFO
+- FILE_ALIGNMENT_INFO
 targetos: Windows
 req.typenames: FILE_ALIGNMENT_INFO, *PFILE_ALIGNMENT_INFO
 req.redist: 

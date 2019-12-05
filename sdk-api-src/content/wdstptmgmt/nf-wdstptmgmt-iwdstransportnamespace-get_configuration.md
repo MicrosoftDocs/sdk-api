@@ -1,19 +1,17 @@
 ---
 UID: NF:wdstptmgmt.IWdsTransportNamespace.get_Configuration
 title: IWdsTransportNamespace::get_Configuration (wdstptmgmt.h)
-
 description: Sets or retrieves the configuration information for the content provider of the namespace.
 old-location: wds\iwdstransportnamespace_configuration.htm
 tech.root: wds
 ms.assetid: 1934b5c2-2d78-4c94-9660-8c4e8b4aef77
-
 ms.date: 12/05/2018
 ms.keywords: Configuration property [Windows Deployment Services], Configuration property [Windows Deployment Services],IWdsTransportNamespace interface, IWdsTransportNamespace interface [Windows Deployment Services],Configuration property, IWdsTransportNamespace.Configuration, IWdsTransportNamespace.get_Configuration, IWdsTransportNamespace::Configuration, IWdsTransportNamespace::get_Configuration, IWdsTransportNamespace::put_Configuration, get_Configuration, wds.iwdstransportnamespace_configuration, wdstptmgmt/IWdsTransportNamespace::Configuration, wdstptmgmt/IWdsTransportNamespace::get_Configuration, wdstptmgmt/IWdsTransportNamespace::put_Configuration
 ms.topic: method
-f1_keywords: 
- - "wdstptmgmt/IWdsTransportNamespace.Configuration"
+f1_keywords:
+- wdstptmgmt/IWdsTransportNamespace.Configuration
 dev_langs:
- - c++
+- c++
 req.header: wdstptmgmt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: Wdstptmgmt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wdstptmgmt.dll
+- Wdstptmgmt.dll
 api_name:
- - IWdsTransportNamespace.Configuration
- - IWdsTransportNamespace.get_Configuration
- - IWdsTransportNamespace.put_Configuration
+- IWdsTransportNamespace.Configuration
+- IWdsTransportNamespace.get_Configuration
+- IWdsTransportNamespace.put_Configuration
 targetos: Windows
 req.typenames: 
 req.redist: 

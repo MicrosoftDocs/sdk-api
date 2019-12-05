@@ -1,19 +1,17 @@
 ---
 UID: NS:mi._MI_HostedProvider
 title: MI_HostedProvider (mi.h)
-
 description: Represents the hosting of a provider in a client application.
 old-location: wmi_v2\mi_hostedprovider.htm
 tech.root: wmi_v2
 ms.assetid: e63283b4-82eb-4bf4-a2f8-f7db29ccb6da
-
 ms.date: 12/05/2018
 ms.keywords: MI_HostedProvider, MI_HostedProvider structure [Windows Management Infrastructure (MI)], mi/MI_HostedProvider, wmi_v2.mi_hostedprovider
 ms.topic: struct
 f1_keywords:
 - mi/MI_HostedProvider
 dev_langs:
- - c++
+- c++
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows

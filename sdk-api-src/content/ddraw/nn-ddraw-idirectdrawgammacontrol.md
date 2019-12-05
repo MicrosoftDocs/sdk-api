@@ -1,19 +1,17 @@
 ---
 UID: NN:ddraw.IDirectDrawGammaControl
 title: IDirectDrawGammaControl (ddraw.h)
-
 description: Applications use the methods of the IDirectDrawGammaControl interface to adjust the red, green, and blue gamma ramp levels of the primary surface. This section is a reference to the methods of this interface.
 old-location: directdraw\idirectdrawgammacontrol.htm
 tech.root: directdraw
 ms.assetid: a6286a2d-76d5-49ec-afd5-cbf112528db8
-
 ms.date: 12/05/2018
 ms.keywords: IDirectDrawGammaControl, IDirectDrawGammaControl interface [DirectDraw], IDirectDrawGammaControl interface [DirectDraw],described, ddraw/IDirectDrawGammaControl, directdraw.idirectdrawgammacontrol
 ms.topic: interface
-f1_keywords: 
- - "ddraw/IDirectDrawGammaControl"
+f1_keywords:
+- ddraw/IDirectDrawGammaControl
 dev_langs:
- - c++
+- c++
 req.header: ddraw.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Ddraw.lib
 req.dll: Ddraw.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Ddraw.dll
+- Ddraw.dll
 api_name:
- - IDirectDrawGammaControl
+- IDirectDrawGammaControl
 targetos: Windows
 req.typenames: 
 req.redist: 

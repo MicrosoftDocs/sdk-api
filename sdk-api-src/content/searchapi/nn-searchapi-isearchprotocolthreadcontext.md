@@ -1,19 +1,17 @@
 ---
 UID: NN:searchapi.ISearchProtocolThreadContext
 title: ISearchProtocolThreadContext (searchapi.h)
-
 description: This optional interface enables the protocol handler to perform an action on the thread used for filtering in the protocol host.
 old-location: search\_search_ISearchProtocolThreadContext.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\protocolhandlers\isearchprotocolthreadcontext\isearchprotocolthreadcontext.htm
-
 ms.date: 12/05/2018
 ms.keywords: ISearchProtocolThreadContext, ISearchProtocolThreadContext interface [search], ISearchProtocolThreadContext interface [search],described, _search_ISearchProtocolThreadContext, search._search_ISearchProtocolThreadContext, searchapi/ISearchProtocolThreadContext
 ms.topic: interface
-f1_keywords: 
- - "searchapi/ISearchProtocolThreadContext"
+f1_keywords:
+- searchapi/ISearchProtocolThreadContext
 dev_langs:
- - c++
+- c++
 req.header: searchapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Searchapi.h
+- Searchapi.h
 api_name:
- - ISearchProtocolThreadContext
+- ISearchProtocolThreadContext
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0

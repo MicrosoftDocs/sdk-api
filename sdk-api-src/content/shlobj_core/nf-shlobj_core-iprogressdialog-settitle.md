@@ -1,19 +1,17 @@
 ---
 UID: NF:shlobj_core.IProgressDialog.SetTitle
 title: IProgressDialog::SetTitle (shlobj_core.h)
-
 description: Sets the title of the progress dialog box.
 old-location: shell\IProgressDialog_SetTitle.htm
 tech.root: shell
 ms.assetid: c5474ab2-bd13-45ba-9df5-977b909b0726
-
 ms.date: 12/05/2018
 ms.keywords: IProgressDialog interface [Windows Shell],SetTitle method, IProgressDialog.SetTitle, IProgressDialog::SetTitle, SetTitle, SetTitle method [Windows Shell], SetTitle method [Windows Shell],IProgressDialog interface, _win32_IProgressDialog_SetTitle, shell.IProgressDialog_SetTitle, shlobj_core/IProgressDialog::SetTitle
 ms.topic: method
-f1_keywords: 
- - "shlobj_core/IProgressDialog.SetTitle"
+f1_keywords:
+- shlobj_core/IProgressDialog.SetTitle
 dev_langs:
- - c++
+- c++
 req.header: shlobj_core.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Shell32.dll (version 5.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - IProgressDialog.SetTitle
+- IProgressDialog.SetTitle
 targetos: Windows
 req.typenames: 
 req.redist: 

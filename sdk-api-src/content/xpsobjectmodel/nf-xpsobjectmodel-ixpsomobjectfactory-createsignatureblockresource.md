@@ -1,19 +1,17 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMObjectFactory.CreateSignatureBlockResource
 title: IXpsOMObjectFactory::CreateSignatureBlockResource (xpsobjectmodel.h)
-
 description: Creates an IXpsOMSignatureBlockResource that can contain one or more signature requests.
 old-location: xps\ixpsomobjectfactory_createsignatureblockresource.htm
 tech.root: printdocs
 ms.assetid: 0948d495-f2da-4361-8365-d4316da72524
-
 ms.date: 12/05/2018
 ms.keywords: CreateSignatureBlockResource, CreateSignatureBlockResource method [XPS Documents and Packaging], CreateSignatureBlockResource method [XPS Documents and Packaging],IXpsOMObjectFactory interface, IXpsOMObjectFactory interface [XPS Documents and Packaging],CreateSignatureBlockResource method, IXpsOMObjectFactory.CreateSignatureBlockResource, IXpsOMObjectFactory::CreateSignatureBlockResource, xps.ixpsomobjectfactory_createsignatureblockresource, xpsobjectmodel/IXpsOMObjectFactory::CreateSignatureBlockResource
 ms.topic: method
-f1_keywords: 
- - "xpsobjectmodel/IXpsOMObjectFactory.CreateSignatureBlockResource"
+f1_keywords:
+- xpsobjectmodel/IXpsOMObjectFactory.CreateSignatureBlockResource
 dev_langs:
- - c++
+- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsobjectmodel.h
+- xpsobjectmodel.h
 api_name:
- - IXpsOMObjectFactory.CreateSignatureBlockResource
+- IXpsOMObjectFactory.CreateSignatureBlockResource
 targetos: Windows
 req.typenames: 
 req.redist: 

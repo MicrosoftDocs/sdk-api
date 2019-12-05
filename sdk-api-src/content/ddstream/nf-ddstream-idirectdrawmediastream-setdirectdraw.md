@@ -1,19 +1,17 @@
 ---
 UID: NF:ddstream.IDirectDrawMediaStream.SetDirectDraw
 title: IDirectDrawMediaStream::SetDirectDraw (ddstream.h)
-
 description: Note  This interface is deprecated. New applications should not use it. Sets the current media stream's DirectDraw object.
 old-location: dshow\idirectdrawmediastream_setdirectdraw.htm
 tech.root: DirectShow
 ms.assetid: ffa425c5-5f81-4963-bf23-2139d8b245b3
-
 ms.date: 12/05/2018
 ms.keywords: IDirectDrawMediaStream interface [DirectShow],SetDirectDraw method, IDirectDrawMediaStream.SetDirectDraw, IDirectDrawMediaStream::SetDirectDraw, IDirectDrawMediaStreamSetDirectDraw, SetDirectDraw, SetDirectDraw method [DirectShow], SetDirectDraw method [DirectShow],IDirectDrawMediaStream interface, ddstream/IDirectDrawMediaStream::SetDirectDraw, dshow.idirectdrawmediastream_setdirectdraw
 ms.topic: method
-f1_keywords: 
- - "ddstream/IDirectDrawMediaStream.SetDirectDraw"
+f1_keywords:
+- ddstream/IDirectDrawMediaStream.SetDirectDraw
 dev_langs:
- - c++
+- c++
 req.header: ddstream.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ddstream.h
+- ddstream.h
 api_name:
- - IDirectDrawMediaStream.SetDirectDraw
+- IDirectDrawMediaStream.SetDirectDraw
 targetos: Windows
 req.typenames: 
 req.redist: 

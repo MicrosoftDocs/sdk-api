@@ -1,19 +1,17 @@
 ---
 UID: NN:wmsdkidl.IWMReaderPlaylistBurn
 title: IWMReaderPlaylistBurn (wmsdkidl.h)
-
 description: The IWMReaderPlaylistBurn interface verifies that the files in a playlist can be copied to CD, in the order in which they are specified.
 old-location: wmformat\iwmreaderplaylistburn.htm
 tech.root: wmformat
 ms.assetid: a0e1a4f3-4226-44a2-b38e-e5512fda2048
-
 ms.date: 12/05/2018
 ms.keywords: IWMReaderPlaylistBurn, IWMReaderPlaylistBurn interface [windows Media Format], IWMReaderPlaylistBurn interface [windows Media Format],described, IWMReaderPlaylistBurnInterface, wmformat.iwmreaderplaylistburn, wmsdkidl/IWMReaderPlaylistBurn
 ms.topic: interface
-f1_keywords: 
- - "wmsdkidl/IWMReaderPlaylistBurn"
+f1_keywords:
+- wmsdkidl/IWMReaderPlaylistBurn
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmsdkidl.h
+- wmsdkidl.h
 api_name:
- - IWMReaderPlaylistBurn
+- IWMReaderPlaylistBurn
 targetos: Windows
 req.typenames: 
 req.redist: 

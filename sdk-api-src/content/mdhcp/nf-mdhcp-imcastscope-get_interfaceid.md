@@ -1,19 +1,17 @@
 ---
 UID: NF:mdhcp.IMcastScope.get_InterfaceID
 title: IMcastScope::get_InterfaceID (mdhcp.h)
-
 description: The get_InterfaceID method obtains an interface identifier of this scope, which identifies the interface on which the server that published this scope resides. This is normally the network address of the interface.
 old-location: tapi3\imcastscope_get_interfaceid.htm
 tech.root: Tapi
 ms.assetid: 376ccbe4-ad83-4eef-88bd-11ed95d14359
-
 ms.date: 12/05/2018
 ms.keywords: IMcastScope interface [TAPI 2.2],get_InterfaceID method, IMcastScope.get_InterfaceID, IMcastScope::get_InterfaceID, _tapi3_imcastscope_get_interfaceid, get_InterfaceID, get_InterfaceID method [TAPI 2.2], get_InterfaceID method [TAPI 2.2],IMcastScope interface, mdhcp/IMcastScope::get_InterfaceID, tapi3.imcastscope_get_interfaceid
 ms.topic: method
-f1_keywords: 
- - "mdhcp/IMcastScope.get_InterfaceID"
+f1_keywords:
+- mdhcp/IMcastScope.get_InterfaceID
 dev_langs:
- - c++
+- c++
 req.header: mdhcp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Mdhcp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mdhcp.dll
+- Mdhcp.dll
 api_name:
- - IMcastScope.get_InterfaceID
+- IMcastScope.get_InterfaceID
 targetos: Windows
 req.typenames: 
 req.redist: 

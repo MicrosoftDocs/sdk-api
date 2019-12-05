@@ -1,19 +1,17 @@
 ---
 UID: NF:ntmsapi.DisableNtmsObject
 title: DisableNtmsObject function (ntmsapi.h)
-
 description: The DisableNtmsObject function disables the specified RSM object.
 old-location: fs\disablentmsobject.htm
 tech.root: Rsm
 ms.assetid: 409d1ab6-c611-4118-aa10-095d585c099a
-
 ms.date: 12/05/2018
 ms.keywords: DisableNtmsObject, DisableNtmsObject function [Files], NTMS_DRIVE, NTMS_LIBRARY, NTMS_PHYSICAL_MEDIA, _zaw_disablentmsobject, base.disablentmsobject, fs.disablentmsobject, ntmsapi/DisableNtmsObject
 ms.topic: function
-f1_keywords: 
- - "ntmsapi/DisableNtmsObject"
+f1_keywords:
+- ntmsapi/DisableNtmsObject
 dev_langs:
- - c++
+- c++
 req.header: ntmsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Ntmsapi.lib
 req.dll: Ntmsapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ntmsapi.dll
+- Ntmsapi.dll
 api_name:
- - DisableNtmsObject
+- DisableNtmsObject
 targetos: Windows
 req.typenames: 
 req.redist: 

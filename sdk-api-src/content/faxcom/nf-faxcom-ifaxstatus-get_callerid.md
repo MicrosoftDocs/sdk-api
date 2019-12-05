@@ -1,19 +1,17 @@
 ---
 UID: NF:faxcom.IFaxStatus.get_CallerId
 title: IFaxStatus::get_CallerId (faxcom.h)
-
 description: Retrieves the CallerId property for the FaxStatus object of a parent FaxPort object. The CallerId property is a string that identifies the calling device that sent an inbound fax job.
 old-location: fax\_mfax_ifaxstatus_mfax_ifaxstatus_get_callerid_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_3kx0.htm
-
 ms.date: 12/05/2018
 ms.keywords: CallerId property [Fax Service], CallerId property [Fax Service],IFaxStatus interface, IFaxStatus interface [Fax Service],CallerId property, IFaxStatus.CallerId, IFaxStatus.get_CallerId, IFaxStatus::CallerId, IFaxStatus::get_CallerId, _mfax_ifaxstatus_get_callerid, fax._mfax_ifaxstatus_get_callerid, fax._mfax_ifaxstatus_mfax_ifaxstatus_get_callerid_cpp, faxcom/IFaxStatus::CallerId, faxcom/IFaxStatus::get_CallerId, get_CallerId
 ms.topic: method
-f1_keywords: 
- - "faxcom/IFaxStatus.CallerId"
+f1_keywords:
+- faxcom/IFaxStatus.CallerId
 dev_langs:
- - c++
+- c++
 req.header: faxcom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: Faxcom.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Faxcom.dll
+- Faxcom.dll
 api_name:
- - IFaxStatus.CallerId
- - IFaxStatus.get_CallerId
+- IFaxStatus.CallerId
+- IFaxStatus.get_CallerId
 targetos: Windows
 req.typenames: 
 req.redist: 

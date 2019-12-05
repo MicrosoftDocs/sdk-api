@@ -1,19 +1,17 @@
 ---
 UID: NN:msime.IFECommon
 title: IFECommon (msime.h)
-
 description: The IFECommon interface provides IME-related services that are common for different languages.
 old-location: intl\ifecommon.htm
 tech.root: Intl
 ms.assetid: 9FBECA6F-F162-485D-938F-FADC2D47083E
-
 ms.date: 12/05/2018
 ms.keywords: IFECommon, IFECommon interface [Internationalization for Windows Applications], IFECommon interface [Internationalization for Windows Applications],described, intl.ifecommon, msime/IFECommon
 ms.topic: interface
-f1_keywords: 
- - "msime/IFECommon"
+f1_keywords:
+- msime/IFECommon
 dev_langs:
- - c++
+- c++
 req.header: msime.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msime.h
+- Msime.h
 api_name:
- - IFECommon
+- IFECommon
 targetos: Windows
 req.typenames: 
 req.redist: 

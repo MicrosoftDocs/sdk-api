@@ -1,19 +1,17 @@
 ---
 UID: NF:dwrite_1.IDWriteTextAnalyzer1.GetJustifiedGlyphs
 title: IDWriteTextAnalyzer1::GetJustifiedGlyphs (dwrite_1.h)
-
 description: Fills in new glyphs for complex scripts where justification increased the advances of glyphs, such as Arabic with kashida.
 old-location: directwrite\idwritetextanalyzer1_getjustifiedglyphs.htm
 tech.root: DirectWrite
 ms.assetid: 8F7BB9EC-90AE-48BD-A596-EAF2EDC4053F
-
 ms.date: 12/05/2018
 ms.keywords: GetJustifiedGlyphs, GetJustifiedGlyphs method [Direct Write], GetJustifiedGlyphs method [Direct Write],IDWriteTextAnalyzer1 interface, IDWriteTextAnalyzer1 interface [Direct Write],GetJustifiedGlyphs method, IDWriteTextAnalyzer1.GetJustifiedGlyphs, IDWriteTextAnalyzer1::GetJustifiedGlyphs, directwrite.idwritetextanalyzer1_getjustifiedglyphs, dwrite_1/IDWriteTextAnalyzer1::GetJustifiedGlyphs
 ms.topic: method
-f1_keywords: 
- - "dwrite_1/IDWriteTextAnalyzer1.GetJustifiedGlyphs"
+f1_keywords:
+- dwrite_1/IDWriteTextAnalyzer1.GetJustifiedGlyphs
 dev_langs:
- - c++
+- c++
 req.header: dwrite_1.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dwrite.lib
 req.dll: Dwrite.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dwrite.dll
+- dwrite.dll
 api_name:
- - IDWriteTextAnalyzer1.GetJustifiedGlyphs
+- IDWriteTextAnalyzer1.GetJustifiedGlyphs
 targetos: Windows
 req.typenames: 
 req.redist: 

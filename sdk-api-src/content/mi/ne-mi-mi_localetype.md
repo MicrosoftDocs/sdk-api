@@ -1,19 +1,17 @@
 ---
 UID: NE:mi._MI_LocaleType
 title: MI_LocaleType (mi.h)
-
 description: Type of locale is needed when setting and getting locales.
 old-location: wmi_v2\mi_localetype.htm
 tech.root: wmi_v2
 ms.assetid: e7a57fc1-a5a2-4c7f-9223-19adfb420237
-
 ms.date: 12/05/2018
 ms.keywords: MI_LOCALE_TYPE_CLOSEST_DATA, MI_LOCALE_TYPE_CLOSEST_UI, MI_LOCALE_TYPE_REQUESTED_DATA, MI_LOCALE_TYPE_REQUESTED_UI, MI_LocaleType, MI_LocaleType enumeration [Windows Management Infrastructure (MI)], mi/MI_LOCALE_TYPE_CLOSEST_DATA, mi/MI_LOCALE_TYPE_CLOSEST_UI, mi/MI_LOCALE_TYPE_REQUESTED_DATA, mi/MI_LOCALE_TYPE_REQUESTED_UI, mi/MI_LocaleType, wmi._mi_localetype, wmi_v2.mi_localetype
 ms.topic: enum
-f1_keywords: 
- - "mi/MI_LocaleType"
+f1_keywords:
+- mi/MI_LocaleType
 dev_langs:
- - c++
+- c++
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Mi.h
+- Mi.h
 api_name:
- - MI_LocaleType
+- MI_LocaleType
 targetos: Windows
 req.typenames: MI_LocaleType
 req.redist: Windows Management Framework 3.0 on Windows Server 2008 R2 with SP1, Windows 7 with SP1, and Windows Server 2008 with SP2

@@ -1,19 +1,17 @@
 ---
 UID: NF:http.HttpSendResponseEntityBody
 title: HttpSendResponseEntityBody function (http.h)
-
 description: Sends entity-body data associated with an HTTP response.
 old-location: http\httpsendresponseentitybody.htm
 tech.root: http
 ms.assetid: f2ff2e40-ef1f-4c35-a615-f31ac63ab738
-
 ms.date: 12/05/2018
 ms.keywords: HTTP_SEND_RESPONSE_FLAG_BUFFER_DATA, HTTP_SEND_RESPONSE_FLAG_DISCONNECT, HTTP_SEND_RESPONSE_FLAG_ENABLE_NAGLING, HTTP_SEND_RESPONSE_FLAG_MORE_DATA, HTTP_SEND_RESPONSE_FLAG_OPAQUE, HTTP_SEND_RESPONSE_FLAG_PROCESS_RANGES, HttpSendResponseEntityBody, HttpSendResponseEntityBody function [HTTP], _http_httpsendresponseentitybody, http.httpsendresponseentitybody, http/HttpSendResponseEntityBody
 ms.topic: function
 f1_keywords:
 - http/HttpSendResponseEntityBody
 dev_langs:
- - c++
+- c++
 req.header: http.h
 req.include-header: 
 req.target-type: Windows

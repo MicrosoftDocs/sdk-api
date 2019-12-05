@@ -1,19 +1,17 @@
 ---
 UID: NF:mfcaptureengine.IMFCaptureRecordSink.SetSampleCallback
 title: IMFCaptureRecordSink::SetSampleCallback (mfcaptureengine.h)
-
 description: Sets a callback to receive the recording data for one stream.
 old-location: mf\imfcapturerecordsink_setsamplecallback.htm
 tech.root: medfound
 ms.assetid: 1D7BB0D1-3F77-4AF3-9624-73EE4D0D0BCE
-
 ms.date: 12/05/2018
 ms.keywords: IMFCaptureRecordSink interface [Media Foundation],SetSampleCallback method, IMFCaptureRecordSink.SetSampleCallback, IMFCaptureRecordSink::SetSampleCallback, SetSampleCallback, SetSampleCallback method [Media Foundation], SetSampleCallback method [Media Foundation],IMFCaptureRecordSink interface, mf.imfcapturerecordsink_setsamplecallback, mfcaptureengine/IMFCaptureRecordSink::SetSampleCallback
 ms.topic: method
-f1_keywords: 
- - "mfcaptureengine/IMFCaptureRecordSink.SetSampleCallback"
+f1_keywords:
+- mfcaptureengine/IMFCaptureRecordSink.SetSampleCallback
 dev_langs:
- - c++
+- c++
 req.header: mfcaptureengine.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfcaptureengine.h
+- mfcaptureengine.h
 api_name:
- - IMFCaptureRecordSink.SetSampleCallback
+- IMFCaptureRecordSink.SetSampleCallback
 targetos: Windows
 req.typenames: 
 req.redist: 

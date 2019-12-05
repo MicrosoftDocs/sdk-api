@@ -1,19 +1,17 @@
 ---
 UID: NF:vswriter.IVssComponent.GetPartialFile
 title: IVssComponent::GetPartialFile (vswriter.h)
-
 description: The GetPartialFile method returns information on a partial file associated with this component.
 old-location: base\ivsscomponent_getpartialfile.htm
 tech.root: VSS
 ms.assetid: ed589ae8-2abb-4c3b-9695-12649fc89818
-
 ms.date: 12/05/2018
 ms.keywords: GetPartialFile, GetPartialFile method [VSS], GetPartialFile method [VSS],IVssComponent interface, IVssComponent interface [VSS],GetPartialFile method, IVssComponent.GetPartialFile, IVssComponent::GetPartialFile, _win32_ivsscomponent_getpartialfile, base.ivsscomponent_getpartialfile, vswriter/IVssComponent::GetPartialFile
 ms.topic: method
-f1_keywords: 
- - "vswriter/IVssComponent.GetPartialFile"
+f1_keywords:
+- vswriter/IVssComponent.GetPartialFile
 dev_langs:
- - c++
+- c++
 req.header: vswriter.h
 req.include-header: Vss.h, VsWriter.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: VssApi.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - VssApi.lib
- - VssApi.dll
+- VssApi.lib
+- VssApi.dll
 api_name:
- - IVssComponent.GetPartialFile
+- IVssComponent.GetPartialFile
 targetos: Windows
 req.typenames: 
 req.redist: 

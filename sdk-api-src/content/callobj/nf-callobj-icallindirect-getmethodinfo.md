@@ -1,19 +1,17 @@
 ---
 UID: NF:callobj.ICallIndirect.GetMethodInfo
 title: ICallIndirect::GetMethodInfo (callobj.h)
-
 description: Retrieves information about the interface method from the call frame.
 old-location: com\icallindirect_getmethodinfo.htm
 tech.root: com
 ms.assetid: 1bfbbb24-0cdb-467b-abce-0291dfe8f641
-
 ms.date: 12/05/2018
 ms.keywords: GetMethodInfo, GetMethodInfo method [COM], GetMethodInfo method [COM],ICallIndirect interface, ICallIndirect interface [COM],GetMethodInfo method, ICallIndirect.GetMethodInfo, ICallIndirect::GetMethodInfo, _com_icallindirect_getmethodinfo, callobj/ICallIndirect::GetMethodInfo, com.icallindirect_getmethodinfo
 ms.topic: method
-f1_keywords: 
- - "callobj/ICallIndirect.GetMethodInfo"
+f1_keywords:
+- callobj/ICallIndirect.GetMethodInfo
 dev_langs:
- - c++
+- c++
 req.header: callobj.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Callobj.h
+- Callobj.h
 api_name:
- - ICallIndirect.GetMethodInfo
+- ICallIndirect.GetMethodInfo
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:winuser.RegisterPowerSettingNotification
 title: RegisterPowerSettingNotification function (winuser.h)
-
 description: Registers the application to receive power setting notifications for the specific power setting event.
 old-location: base\registerpowersettingnotification.htm
 tech.root: power
 ms.assetid: e072222e-da66-4b36-a38f-f4b618eaa391
-
 ms.date: 12/05/2018
 ms.keywords: DEVICE_NOTIFY_SERVICE_HANDLE, DEVICE_NOTIFY_WINDOW_HANDLE, RegisterPowerSettingNotification, RegisterPowerSettingNotification function, base.registerpowersettingnotification, winuser/RegisterPowerSettingNotification
 ms.topic: function
-f1_keywords: 
- - "winuser/RegisterPowerSettingNotification"
+f1_keywords:
+- winuser/RegisterPowerSettingNotification
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - User32.dll
- - API-MS-Win-RTCore-NTUser-powermanagement-l1-1-0.dll
- - minuser.dll
- - Ext-MS-Win-NTUser-powermanagement-l1-1-0.dll
+- User32.dll
+- API-MS-Win-RTCore-NTUser-powermanagement-l1-1-0.dll
+- minuser.dll
+- Ext-MS-Win-NTUser-powermanagement-l1-1-0.dll
 api_name:
- - RegisterPowerSettingNotification
+- RegisterPowerSettingNotification
 targetos: Windows
 req.typenames: 
 req.redist: 

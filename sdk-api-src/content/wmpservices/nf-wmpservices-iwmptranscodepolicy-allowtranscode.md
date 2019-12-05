@@ -1,19 +1,17 @@
 ---
 UID: NF:wmpservices.IWMPTranscodePolicy.allowTranscode
 title: IWMPTranscodePolicy::allowTranscode (wmpservices.h)
-
 description: The allowTranscode method retrieves a value specifying whether Windows Media Player is permitted to change the format of the digital media content to the Windows Media format.
 old-location: wmp\iwmptranscodepolicy_allowtranscode.htm
 tech.root: WMP
 ms.assetid: 6b43e247-cbb5-4ef1-8906-5ce7e1e58484
-
 ms.date: 12/05/2018
 ms.keywords: IWMPTranscodePolicy interface [Windows Media Player],allowTranscode method, IWMPTranscodePolicy.allowTranscode, IWMPTranscodePolicy::allowTranscode, IWMPTranscodePolicyallowTranscode, allowTranscode, allowTranscode method [Windows Media Player], allowTranscode method [Windows Media Player],IWMPTranscodePolicy interface, wmp.iwmptranscodepolicy_allowtranscode, wmpservices/IWMPTranscodePolicy::allowTranscode
 ms.topic: method
-f1_keywords: 
- - "wmpservices/IWMPTranscodePolicy.allowTranscode"
+f1_keywords:
+- wmpservices/IWMPTranscodePolicy.allowTranscode
 dev_langs:
- - c++
+- c++
 req.header: wmpservices.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wmp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmp.dll
+- wmp.dll
 api_name:
- - IWMPTranscodePolicy.allowTranscode
+- IWMPTranscodePolicy.allowTranscode
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NN:strmif.IDvdControl
 title: IDvdControl (strmif.h)
-
 description: Note  This interface has been deprecated.
 old-location: dshow\idvdcontrol.htm
 tech.root: DirectShow
 ms.assetid: a6ca0fe8-84e3-43e6-9421-29dcff056dfd
-
 ms.date: 12/05/2018
 ms.keywords: IDvdControl, IDvdControl interface [DirectShow], IDvdControl interface [DirectShow],described, IDvdControlInterface, dshow.idvdcontrol, strmif/IDvdControl
 ms.topic: interface
-f1_keywords: 
- - "strmif/IDvdControl"
+f1_keywords:
+- strmif/IDvdControl
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - strmif.h
+- strmif.h
 api_name:
- - IDvdControl
+- IDvdControl
 targetos: Windows
 req.typenames: 
 req.redist: 

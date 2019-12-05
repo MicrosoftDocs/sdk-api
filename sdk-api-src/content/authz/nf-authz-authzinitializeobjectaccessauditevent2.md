@@ -1,19 +1,17 @@
 ---
 UID: NF:authz.AuthzInitializeObjectAccessAuditEvent2
 title: AuthzInitializeObjectAccessAuditEvent2 function (authz.h)
-
 description: Allocates and initializes an AUTHZ_AUDIT_EVENT_HANDLE handle for use with the AuthzAccessCheck function.
 old-location: security\authzinitializeobjectaccessauditevent2.htm
 tech.root: SecAuthZ
 ms.assetid: c65bb799-0158-496a-b428-0331c4474b74
-
 ms.date: 12/05/2018
 ms.keywords: AUTHZ_NO_ALLOC_STRINGS, AUTHZ_NO_FAILURE_AUDIT, AUTHZ_NO_SUCCESS_AUDIT, AuthzInitializeObjectAccessAuditEvent2, AuthzInitializeObjectAccessAuditEvent2 function [Security], authz/AuthzInitializeObjectAccessAuditEvent2, security.authzinitializeobjectaccessauditevent2
 ms.topic: function
-f1_keywords: 
- - "authz/AuthzInitializeObjectAccessAuditEvent2"
+f1_keywords:
+- authz/AuthzInitializeObjectAccessAuditEvent2
 dev_langs:
- - c++
+- c++
 req.header: authz.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Authz.lib
 req.dll: Authz.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Authz.dll
+- Authz.dll
 api_name:
- - AuthzInitializeObjectAccessAuditEvent2
+- AuthzInitializeObjectAccessAuditEvent2
 targetos: Windows
 req.typenames: 
 req.redist: Windows Server 2003 Administration Tools Pack on Windows XP

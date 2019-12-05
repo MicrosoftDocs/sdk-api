@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d11.ID3D11VideoContext.VideoProcessorGetStreamLumaKey
 title: ID3D11VideoContext::VideoProcessorGetStreamLumaKey (d3d11.h)
-
 description: Gets the luma key for an input stream of the video processor.
 old-location: mf\id3d11videocontext_videoprocessorgetstreamlumakey.htm
 tech.root: medfound
 ms.assetid: 1DE22456-84E9-478F-A6CA-4C9CACF7E9AF
-
 ms.date: 12/05/2018
 ms.keywords: ID3D11VideoContext interface [Media Foundation],VideoProcessorGetStreamLumaKey method, ID3D11VideoContext.VideoProcessorGetStreamLumaKey, ID3D11VideoContext::VideoProcessorGetStreamLumaKey, VideoProcessorGetStreamLumaKey, VideoProcessorGetStreamLumaKey method [Media Foundation], VideoProcessorGetStreamLumaKey method [Media Foundation],ID3D11VideoContext interface, d3d11/ID3D11VideoContext::VideoProcessorGetStreamLumaKey, mf.id3d11videocontext_videoprocessorgetstreamlumakey
 ms.topic: method
-f1_keywords: 
- - "d3d11/ID3D11VideoContext.VideoProcessorGetStreamLumaKey"
+f1_keywords:
+- d3d11/ID3D11VideoContext.VideoProcessorGetStreamLumaKey
 dev_langs:
- - c++
+- c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - d3d11.h
+- d3d11.h
 api_name:
- - ID3D11VideoContext.VideoProcessorGetStreamLumaKey
+- ID3D11VideoContext.VideoProcessorGetStreamLumaKey
 targetos: Windows
 req.typenames: 
 req.redist: 

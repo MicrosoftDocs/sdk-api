@@ -1,19 +1,17 @@
 ---
 UID: NF:sbtsv.ITsSbFilterPluginStore.DeleteProperties
 title: ITsSbFilterPluginStore::DeleteProperties (sbtsv.h)
-
 description: Deletes a property.
 old-location: termserv\itssbfilterpluginstore_deleteproperties.htm
 tech.root: TermServ
 ms.assetid: 25c2ab34-0879-4dda-9ccb-fb5d7baea61c
-
 ms.date: 12/05/2018
 ms.keywords: DeleteProperties, DeleteProperties method [Remote Desktop Services], DeleteProperties method [Remote Desktop Services],ITsSbFilterPluginStore interface, ITsSbFilterPluginStore interface [Remote Desktop Services],DeleteProperties method, ITsSbFilterPluginStore.DeleteProperties, ITsSbFilterPluginStore::DeleteProperties, sbtsv/ITsSbFilterPluginStore::DeleteProperties, termserv.itssbfilterpluginstore_deleteproperties
 ms.topic: method
-f1_keywords: 
- - "sbtsv/ITsSbFilterPluginStore.DeleteProperties"
+f1_keywords:
+- sbtsv/ITsSbFilterPluginStore.DeleteProperties
 dev_langs:
- - c++
+- c++
 req.header: sbtsv.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - sbtsv.h
+- sbtsv.h
 api_name:
- - ITsSbFilterPluginStore.DeleteProperties
+- ITsSbFilterPluginStore.DeleteProperties
 targetos: Windows
 req.typenames: 
 req.redist: 

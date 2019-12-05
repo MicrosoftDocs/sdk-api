@@ -1,19 +1,17 @@
 ---
 UID: NN:oleidl.IOleInPlaceSite
 title: IOleInPlaceSite (oleidl.h)
-
 description: Manages the interaction between the container and the object's in-place client site. Recall that the client site is the display site for embedded objects, and provides position and conceptual information about the object.
 old-location: com\ioleinplacesite.htm
 tech.root: com
 ms.assetid: 6d37e022-8c19-48b3-affb-e0eca19b5e05
-
 ms.date: 12/05/2018
 ms.keywords: IOleInPlaceSite, IOleInPlaceSite interface [COM], IOleInPlaceSite interface [COM],described, _ole_ioleinplacesite, com.ioleinplacesite, oleidl/IOleInPlaceSite
 ms.topic: interface
-f1_keywords: 
- - "oleidl/IOleInPlaceSite"
+f1_keywords:
+- oleidl/IOleInPlaceSite
 dev_langs:
- - c++
+- c++
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - OleIdl.h
+- OleIdl.h
 api_name:
- - IOleInPlaceSite
+- IOleInPlaceSite
 targetos: Windows
 req.typenames: 
 req.redist: 

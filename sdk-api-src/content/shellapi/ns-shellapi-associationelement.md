@@ -1,19 +1,17 @@
 ---
 UID: NS:shellapi.ASSOCIATIONELEMENT
 title: ASSOCIATIONELEMENT (shellapi.h)
-
 description: Defines information used by AssocCreateForClasses to retrieve an IQueryAssociations interface for a given file association.
 old-location: shell\ASSOCIATIONELEMENT.htm
 tech.root: shell
 ms.assetid: 1d1a963f-7ebb-4ba6-9a97-795c8ef11ae4
-
 ms.date: 12/05/2018
 ms.keywords: ASSOCCLASS_APP_KEY, ASSOCCLASS_APP_STR, ASSOCCLASS_CLSID_KEY, ASSOCCLASS_CLSID_STR, ASSOCCLASS_FIXED_PROGID_STR, ASSOCCLASS_FOLDER, ASSOCCLASS_PROGID_KEY, ASSOCCLASS_PROGID_STR, ASSOCCLASS_PROTOCOL_STR, ASSOCCLASS_SHELL_KEY, ASSOCCLASS_STAR, ASSOCCLASS_SYSTEM_STR, ASSOCIATIONELEMENT, ASSOCIATIONELEMENT structure [Windows Shell], _shell_ASSOCIATIONELEMENT, shell.ASSOCIATIONELEMENT, shellapi/ASSOCIATIONELEMENT
 ms.topic: struct
-f1_keywords: 
- - "shellapi/ASSOCIATIONELEMENT"
+f1_keywords:
+- shellapi/ASSOCIATIONELEMENT
 dev_langs:
- - c++
+- c++
 req.header: shellapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Shellapi.h
+- Shellapi.h
 api_name:
- - ASSOCIATIONELEMENT
+- ASSOCIATIONELEMENT
 targetos: Windows
 req.typenames: ASSOCIATIONELEMENT
 req.redist: 

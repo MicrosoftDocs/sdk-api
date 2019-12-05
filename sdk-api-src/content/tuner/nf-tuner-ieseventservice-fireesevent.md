@@ -1,19 +1,17 @@
 ---
 UID: NF:tuner.IESEventService.FireESEvent
 title: IESEventService::FireESEvent (tuner.h)
-
 description: Raises an event derived from the IESEvent interface.
 old-location: mstv\ieseventservice_fireesevent.htm
 tech.root: mstv
 ms.assetid: 3781e50c-ab19-4bfa-86d6-af12223019ca
-
 ms.date: 12/05/2018
 ms.keywords: FireESEvent, FireESEvent method [Microsoft TV Technologies], FireESEvent method [Microsoft TV Technologies],IESEventService interface, IESEventService interface [Microsoft TV Technologies],FireESEvent method, IESEventService.FireESEvent, IESEventService::FireESEvent, mstv.ieseventservice_fireesevent, tuner/IESEventService::FireESEvent
 ms.topic: method
-f1_keywords: 
- - "tuner/IESEventService.FireESEvent"
+f1_keywords:
+- tuner/IESEventService.FireESEvent
 dev_langs:
- - c++
+- c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - tuner.h
+- tuner.h
 api_name:
- - IESEventService.FireESEvent
+- IESEventService.FireESEvent
 targetos: Windows
 req.typenames: 
 req.redist: 

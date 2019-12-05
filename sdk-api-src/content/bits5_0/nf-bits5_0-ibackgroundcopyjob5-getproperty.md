@@ -1,19 +1,17 @@
 ---
 UID: NF:bits5_0.IBackgroundCopyJob5.GetProperty
 title: IBackgroundCopyJob5::GetProperty (bits5_0.h)
-
 description: A generic method for getting BITS job properties.
 old-location: bits\ibackgroundcopyjob5_getproperty.htm
 tech.root: Bits
 ms.assetid: 567C21C7-C689-4A13-9DCA-D45766CB5150
-
 ms.date: 12/05/2018
 ms.keywords: GetProperty, GetProperty method [BITS], GetProperty method [BITS],IBackgroundCopyJob5 interface, IBackgroundCopyJob5 interface [BITS],GetProperty method, IBackgroundCopyJob5.GetProperty, IBackgroundCopyJob5::GetProperty, bits.ibackgroundcopyjob5_getproperty, bits5_0/IBackgroundCopyJob5::GetProperty
 ms.topic: method
-f1_keywords: 
- - "bits5_0/IBackgroundCopyJob5.GetProperty"
+f1_keywords:
+- bits5_0/IBackgroundCopyJob5.GetProperty
 dev_langs:
- - c++
+- c++
 req.header: bits5_0.h
 req.include-header: Bits.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Bits.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Bits.lib
- - Bits.dll
+- Bits.lib
+- Bits.dll
 api_name:
- - IBackgroundCopyJob5.GetProperty
+- IBackgroundCopyJob5.GetProperty
 targetos: Windows
 req.typenames: 
 req.redist: 

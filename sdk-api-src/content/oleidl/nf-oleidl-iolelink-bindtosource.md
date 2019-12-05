@@ -1,19 +1,17 @@
 ---
 UID: NF:oleidl.IOleLink.BindToSource
 title: IOleLink::BindToSource (oleidl.h)
-
 description: Activates the connection to the link source by binding the moniker stored within the linked object.
 old-location: com\iolelink_bindtosource.htm
 tech.root: com
 ms.assetid: 1fadd27d-cb2c-47fc-891a-16f82bdac0f6
-
 ms.date: 12/05/2018
 ms.keywords: BindToSource, BindToSource method [COM], BindToSource method [COM],IOleLink interface, IOleLink interface [COM],BindToSource method, IOleLink.BindToSource, IOleLink::BindToSource, _ole_iolelink_bindtosource, com.iolelink_bindtosource, oleidl/IOleLink::BindToSource
 ms.topic: method
-f1_keywords: 
- - "oleidl/IOleLink.BindToSource"
+f1_keywords:
+- oleidl/IOleLink.BindToSource
 dev_langs:
- - c++
+- c++
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - OleIdl.h
+- OleIdl.h
 api_name:
- - IOleLink.BindToSource
+- IOleLink.BindToSource
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:vsbackup.IVssBackupComponents.SetAdditionalRestores
 title: IVssBackupComponents::SetAdditionalRestores (vsbackup.h)
-
 description: The SetAdditionalRestores method is used by a requester during incremental or differential restore operations to indicate to writers that a given component will require additional restore operations to completely retrieve it.
 old-location: base\ivssbackupcomponents_setadditionalrestores.htm
 tech.root: VSS
 ms.assetid: b3a38348-ab89-40a5-bf77-612bcd99c31b
-
 ms.date: 12/05/2018
 ms.keywords: IVssBackupComponents interface [VSS],SetAdditionalRestores method, IVssBackupComponents.SetAdditionalRestores, IVssBackupComponents::SetAdditionalRestores, SetAdditionalRestores, SetAdditionalRestores method [VSS], SetAdditionalRestores method [VSS],IVssBackupComponents interface, _win32_ivssbackupcomponents_setadditionalrestores, base.ivssbackupcomponents_setadditionalrestores, vsbackup/IVssBackupComponents::SetAdditionalRestores
 ms.topic: method
-f1_keywords: 
- - "vsbackup/IVssBackupComponents.SetAdditionalRestores"
+f1_keywords:
+- vsbackup/IVssBackupComponents.SetAdditionalRestores
 dev_langs:
- - c++
+- c++
 req.header: vsbackup.h
 req.include-header: VsBackup.h, Vss.h, VsWriter.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: VssApi.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - VssApi.lib
- - VssApi.dll
+- VssApi.lib
+- VssApi.dll
 api_name:
- - IVssBackupComponents.SetAdditionalRestores
+- IVssBackupComponents.SetAdditionalRestores
 targetos: Windows
 req.typenames: 
 req.redist: 

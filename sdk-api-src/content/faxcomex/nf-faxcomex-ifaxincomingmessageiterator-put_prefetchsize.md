@@ -1,19 +1,17 @@
 ---
 UID: NF:faxcomex.IFaxIncomingMessageIterator.put_PrefetchSize
 title: IFaxIncomingMessageIterator::put_PrefetchSize (faxcomex.h)
-
 description: The PrefetchSize property indicates the size of the prefetch (read-ahead) buffer.
 old-location: fax\_mfax_faxincomingmessageiterator_prefetchsize_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_64th_cpp.htm
-
 ms.date: 12/05/2018
 ms.keywords: IFaxIncomingMessageIterator interface [Fax Service],PrefetchSize property, IFaxIncomingMessageIterator.PrefetchSize, IFaxIncomingMessageIterator.put_PrefetchSize, IFaxIncomingMessageIterator::PrefetchSize, IFaxIncomingMessageIterator::get_PrefetchSize, IFaxIncomingMessageIterator::put_PrefetchSize, PrefetchSize property [Fax Service], PrefetchSize property [Fax Service],IFaxIncomingMessageIterator interface, _mfax_faxincomingmessageiterator.prefetchsize_cpp, fax._mfax_faxincomingmessageiterator_prefetchsize_cpp, faxcomex/IFaxIncomingMessageIterator::PrefetchSize, faxcomex/IFaxIncomingMessageIterator::get_PrefetchSize, faxcomex/IFaxIncomingMessageIterator::put_PrefetchSize, put_PrefetchSize
 ms.topic: method
-f1_keywords: 
- - "faxcomex/IFaxIncomingMessageIterator.PrefetchSize"
+f1_keywords:
+- faxcomex/IFaxIncomingMessageIterator.PrefetchSize
 dev_langs:
- - c++
+- c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: Fxscomex.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Fxscomex.dll
+- Fxscomex.dll
 api_name:
- - IFaxIncomingMessageIterator.PrefetchSize
- - IFaxIncomingMessageIterator.get_PrefetchSize
- - IFaxIncomingMessageIterator.put_PrefetchSize
+- IFaxIncomingMessageIterator.PrefetchSize
+- IFaxIncomingMessageIterator.get_PrefetchSize
+- IFaxIncomingMessageIterator.put_PrefetchSize
 targetos: Windows
 req.typenames: 
 req.redist: 

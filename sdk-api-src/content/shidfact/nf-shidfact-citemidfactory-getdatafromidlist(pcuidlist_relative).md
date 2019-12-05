@@ -1,19 +1,17 @@
 ---
 UID: NF:shidfact.CItemIDFactory.GetDataFromIDList(PCUIDLIST_RELATIVE)
 title: CItemIDFactory::GetDataFromIDList(PCUIDLIST_RELATIVE) (shidfact.h)
-
 description: Gets a read only pointer to the client provided structure in the first ItemID in the IDList.
 old-location: shell\citemidfactory_getdatafromidlist.htm
 tech.root: shell
 ms.assetid: E3E2233D-F424-4BF9-AAC4-4DC2FB75E214
-
 ms.date: 12/05/2018
 ms.keywords: CItemIDFactory interface [Windows Shell],GetDataFromIDList method, CItemIDFactory.GetDataFromIDList, CItemIDFactory.GetDataFromIDList(PCUIDLIST_RELATIVE), CItemIDFactory::GetDataFromIDList, CItemIDFactory::GetDataFromIDList(PCUIDLIST_RELATIVE), GetDataFromIDList, GetDataFromIDList method [Windows Shell], GetDataFromIDList method [Windows Shell],CItemIDFactory interface, shell.citemidfactory_getdatafromidlist, shidfact/CItemIDFactory::GetDataFromIDList
 ms.topic: method
-f1_keywords: 
- - "shidfact/CItemIDFactory.GetDataFromIDList"
+f1_keywords:
+- shidfact/CItemIDFactory.GetDataFromIDList
 dev_langs:
- - c++
+- c++
 req.header: shidfact.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shidfact.h
+- shidfact.h
 api_name:
- - CItemIDFactory.GetDataFromIDList
+- CItemIDFactory.GetDataFromIDList
 targetos: Windows
 req.typenames: 
 req.redist: 

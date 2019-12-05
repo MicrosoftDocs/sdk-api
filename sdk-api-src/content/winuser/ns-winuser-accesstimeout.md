@@ -1,19 +1,17 @@
 ---
 UID: NS:winuser.tagACCESSTIMEOUT
 title: ACCESSTIMEOUT (winuser.h)
-
 description: Contains information about the time-out period associated with the accessibility features.
 old-location: winauto\accesstimeout.htm
 tech.root: WinAuto
 ms.assetid: 570a3a29-a7ce-4622-affd-7c6c4f381e36
-
 ms.date: 12/05/2018
-ms.keywords: "*LPACCESSTIMEOUT, ACCESSTIMEOUT, ACCESSTIMEOUT structure [Windows Accessibility], ATF_ONOFFFEEDBACK, ATF_TIMEOUTON, LPACCESSTIMEOUT, LPACCESSTIMEOUT structure pointer [Windows Accessibility], _win32_ACCESSTIMEOUT_str, msaa.accesstimeout, tagACCESSTIMEOUT, winauto.accesstimeout, winuser/ACCESSTIMEOUT, winuser/LPACCESSTIMEOUT"
+ms.keywords: '*LPACCESSTIMEOUT, ACCESSTIMEOUT, ACCESSTIMEOUT structure [Windows Accessibility], ATF_ONOFFFEEDBACK, ATF_TIMEOUTON, LPACCESSTIMEOUT, LPACCESSTIMEOUT structure pointer [Windows Accessibility], _win32_ACCESSTIMEOUT_str, msaa.accesstimeout, tagACCESSTIMEOUT, winauto.accesstimeout, winuser/ACCESSTIMEOUT, winuser/LPACCESSTIMEOUT'
 ms.topic: struct
-f1_keywords: 
- - "winuser/ACCESSTIMEOUT"
+f1_keywords:
+- winuser/ACCESSTIMEOUT
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Winuser.h
+- Winuser.h
 api_name:
- - ACCESSTIMEOUT
+- ACCESSTIMEOUT
 targetos: Windows
 req.typenames: ACCESSTIMEOUT, *LPACCESSTIMEOUT
 req.redist: 

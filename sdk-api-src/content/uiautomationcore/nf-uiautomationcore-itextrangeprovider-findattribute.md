@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationcore.ITextRangeProvider.FindAttribute
 title: ITextRangeProvider::FindAttribute (uiautomationcore.h)
-
 description: Returns a text range subset that has the specified text attribute value.
 old-location: winauto\uiauto_ITextRangeProvider_FindAttribute.htm
 tech.root: WinAuto
 ms.assetid: 623a9b66-7d8c-44d7-b0c1-5ed8a8b8f0c6
-
 ms.date: 12/05/2018
 ms.keywords: FindAttribute, FindAttribute method [Windows Accessibility], FindAttribute method [Windows Accessibility],ITextRangeProvider interface, ITextRangeProvider interface [Windows Accessibility],FindAttribute method, ITextRangeProvider.FindAttribute, ITextRangeProvider::FindAttribute, uiauto.uiauto_ITextRangeProvider_FindAttribute, uiauto_ITextRangeProvider_FindAttribute, uiautomationcore/ITextRangeProvider::FindAttribute, winauto.uiauto_ITextRangeProvider_FindAttribute
 ms.topic: method
-f1_keywords: 
- - "uiautomationcore/ITextRangeProvider.FindAttribute"
+f1_keywords:
+- uiautomationcore/ITextRangeProvider.FindAttribute
 dev_langs:
- - c++
+- c++
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationCore.h
+- UIAutomationCore.h
 api_name:
- - ITextRangeProvider.FindAttribute
+- ITextRangeProvider.FindAttribute
 targetos: Windows
 req.typenames: 
 req.redist: 

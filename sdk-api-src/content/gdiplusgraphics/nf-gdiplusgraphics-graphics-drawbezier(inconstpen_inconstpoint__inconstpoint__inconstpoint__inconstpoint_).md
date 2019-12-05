@@ -1,19 +1,17 @@
 ---
 UID: NF:gdiplusgraphics.Graphics.DrawBezier(IN const Pen,IN const Point &,IN const Point &,IN const Point &,IN const Point &)
 title: Graphics::DrawBezier(IN const Pen,IN const Point &,IN const Point &,IN const Point &,IN const Point &) (gdiplusgraphics.h)
-
 description: The Graphics::DrawBezier method draws a B&#233;zier spline.
 old-location: gdiplus\_gdiplus_CLASS_Graphics_DrawBezier_Pen_pen_Point_pt1_Point_pt2_Point_pt3_Point_pt4_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\graphicsdrawbeziermethods\drawbezier.htm
-
 ms.date: 12/05/2018
 ms.keywords: DrawBezier, DrawBezier method [GDI+], DrawBezier method [GDI+],Graphics class, Graphics class [GDI+],DrawBezier method, Graphics.DrawBezier, Graphics.DrawBezier(IN const Pen,IN const Point &,IN const Point &,IN const Point &,IN const Point &), Graphics.DrawBezier(const Pen*,const POINT&,const POINT&,const POINT&,const POINT&), Graphics::DrawBezier, Graphics::DrawBezier(IN const Pen,IN const Point &,IN const Point &,IN const Point &,IN const Point &), _gdiplus_CLASS_Graphics_DrawBezier_Pen_pen_Point_pt1_Point_pt2_Point_pt3_Point_pt4_, gdiplus._gdiplus_CLASS_Graphics_DrawBezier_Pen_pen_Point_pt1_Point_pt2_Point_pt3_Point_pt4_
 ms.topic: method
-f1_keywords: 
- - "gdiplusgraphics/Graphics.DrawBezier"
+f1_keywords:
+- gdiplusgraphics/Graphics.DrawBezier
 dev_langs:
- - c++
+- c++
 req.header: gdiplusgraphics.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - Graphics.DrawBezier
+- Graphics.DrawBezier
 targetos: Windows
 req.typenames: 
 req.redist: 

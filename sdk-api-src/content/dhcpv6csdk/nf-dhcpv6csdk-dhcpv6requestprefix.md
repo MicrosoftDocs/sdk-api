@@ -1,19 +1,17 @@
 ---
 UID: NF:dhcpv6csdk.Dhcpv6RequestPrefix
 title: Dhcpv6RequestPrefix function (dhcpv6csdk.h)
-
 description: Requests a specific prefix.
 old-location: dhcp\dhcpv6requestprefix.htm
 tech.root: DHCP
 ms.assetid: 60f18e54-a0a4-4fbe-a416-16b924ce4616
-
 ms.date: 12/05/2018
 ms.keywords: Dhcpv6RequestPrefix, Dhcpv6RequestPrefix function [DHCP], dhcp.dhcpv6requestprefix, dhcpv6csdk/Dhcpv6RequestPrefix
 ms.topic: function
 f1_keywords:
 - dhcpv6csdk/Dhcpv6RequestPrefix
 dev_langs:
- - c++
+- c++
 req.header: dhcpv6csdk.h
 req.include-header: 
 req.target-type: Windows

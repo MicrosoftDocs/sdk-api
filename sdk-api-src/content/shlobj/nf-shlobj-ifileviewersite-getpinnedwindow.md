@@ -1,19 +1,17 @@
 ---
 UID: NF:shlobj.IFileViewerSite.GetPinnedWindow
 title: IFileViewerSite::GetPinnedWindow (shlobj.h)
-
 description: Gets the handle to the current pinned window, if one exists.
 old-location: shell\IFileViewerSite_GetPinnedWindow.htm
 tech.root: shell
 ms.assetid: ef5b4668-1e74-42c2-903e-8d4cf5e2f74e
-
 ms.date: 12/05/2018
 ms.keywords: GetPinnedWindow, GetPinnedWindow method [Windows Shell], GetPinnedWindow method [Windows Shell],IFileViewerSite interface, IFileViewerSite interface [Windows Shell],GetPinnedWindow method, IFileViewerSite.GetPinnedWindow, IFileViewerSite::GetPinnedWindow, _win32_IFileViewerSite_GetPinnedWindow, shell.IFileViewerSite_GetPinnedWindow, shlobj/IFileViewerSite::GetPinnedWindow
 ms.topic: method
-f1_keywords: 
- - "shlobj/IFileViewerSite.GetPinnedWindow"
+f1_keywords:
+- shlobj/IFileViewerSite.GetPinnedWindow
 dev_langs:
- - c++
+- c++
 req.header: shlobj.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Shell32.dll (version 4.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - IFileViewerSite.GetPinnedWindow
+- IFileViewerSite.GetPinnedWindow
 targetos: Windows
 req.typenames: 
 req.redist: 

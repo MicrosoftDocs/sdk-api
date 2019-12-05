@@ -1,19 +1,17 @@
 ---
 UID: NF:propsys.IPersistSerializedPropStorage.SetPropertyStorage
 title: IPersistSerializedPropStorage::SetPropertyStorage (propsys.h)
-
 description: Initializes the property store instance from the specified serialized property storage data.
 old-location: shell\IPersistSerializedPropStorage_SetPropertyStorage.htm
 tech.root: shell
 ms.assetid: 5b6d14ba-3de3-493e-8551-0f3caa02f339
-
 ms.date: 12/05/2018
 ms.keywords: IPersistSerializedPropStorage interface [Windows Shell],SetPropertyStorage method, IPersistSerializedPropStorage.SetPropertyStorage, IPersistSerializedPropStorage::SetPropertyStorage, SetPropertyStorage, SetPropertyStorage method [Windows Shell], SetPropertyStorage method [Windows Shell],IPersistSerializedPropStorage interface, _shell_IPersistSerializedPropStorage_SetPropertyStorage, propsys/IPersistSerializedPropStorage::SetPropertyStorage, shell.IPersistSerializedPropStorage_SetPropertyStorage
 ms.topic: method
-f1_keywords: 
- - "propsys/IPersistSerializedPropStorage.SetPropertyStorage"
+f1_keywords:
+- propsys/IPersistSerializedPropStorage.SetPropertyStorage
 dev_langs:
- - c++
+- c++
 req.header: propsys.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Propsys.h
+- Propsys.h
 api_name:
- - IPersistSerializedPropStorage.SetPropertyStorage
+- IPersistSerializedPropStorage.SetPropertyStorage
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:commoncontrols.IImageList.DragEnter
 title: IImageList::DragEnter (commoncontrols.h)
-
 description: Locks updates to the specified window during a drag operation and displays the drag image at the specified position within the window.
 old-location: controls\IImageList_DragEnter.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\imagelist\ifaces\iimagelist\dragenter.htm
-
 ms.date: 12/05/2018
 ms.keywords: DragEnter, DragEnter method [Windows Controls], DragEnter method [Windows Controls],IImageList interface, IImageList interface [Windows Controls],DragEnter method, IImageList.DragEnter, IImageList::DragEnter, comctl_IImageList_DragEnter, comctl_IImageList_DragEnter_cpp, commoncontrols/IImageList::DragEnter, controls.IImageList_DragEnter, controls.comctl_IImageList_DragEnter
 ms.topic: method
-f1_keywords: 
- - "commoncontrols/IImageList.DragEnter"
+f1_keywords:
+- commoncontrols/IImageList.DragEnter
 dev_langs:
- - c++
+- c++
 req.header: commoncontrols.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Comctl32.dll (version 6.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Comctl32.dll
+- Comctl32.dll
 api_name:
- - IImageList.DragEnter
+- IImageList.DragEnter
 targetos: Windows
 req.typenames: 
 req.redist: 

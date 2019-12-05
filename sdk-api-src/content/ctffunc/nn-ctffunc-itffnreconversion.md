@@ -1,19 +1,17 @@
 ---
 UID: NN:ctffunc.ITfFnReconversion
 title: ITfFnReconversion (ctffunc.h)
-
 description: The ITfFnReconversion interface is implemented by a text service and is used by the TSF manager or a client to support reconversion of text provided by the text service.
 old-location: tsf\itffnreconversion.htm
 tech.root: TSF
 ms.assetid: deb5c007-58d5-4bae-92eb-a05675f5dfac
-
 ms.date: 12/05/2018
 ms.keywords: ITfFnReconversion, ITfFnReconversion interface [Text Services Framework], ITfFnReconversion interface [Text Services Framework],described, _tsf_itffnreconversion_ref, ctffunc/ITfFnReconversion, tsf.itffnreconversion
 ms.topic: interface
-f1_keywords: 
- - "ctffunc/ITfFnReconversion"
+f1_keywords:
+- ctffunc/ITfFnReconversion
 dev_langs:
- - c++
+- c++
 req.header: ctffunc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msctf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msctf.dll
+- Msctf.dll
 api_name:
- - ITfFnReconversion
+- ITfFnReconversion
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

@@ -1,19 +1,17 @@
 ---
 UID: NF:wdstptmgmt.IWdsTransportConfigurationManager.get_ServicePolicy
 title: IWdsTransportConfigurationManager::get_ServicePolicy (wdstptmgmt.h)
-
 description: Receives an interface pointer to the Configuration Manager's Service Policy object. This object can be used to configure service parameters such as the multicast IP address source and the active network profile.
 old-location: wds\iwdstransportconfigurationmanager_servicepolicy.htm
 tech.root: wds
 ms.assetid: 3ee3abe8-3ac4-409c-b994-023b0c4c6f72
-
 ms.date: 12/05/2018
 ms.keywords: IWdsTransportConfigurationManager interface [Windows Deployment Services],ServicePolicy property, IWdsTransportConfigurationManager.ServicePolicy, IWdsTransportConfigurationManager.get_ServicePolicy, IWdsTransportConfigurationManager::ServicePolicy, IWdsTransportConfigurationManager::get_ServicePolicy, ServicePolicy property [Windows Deployment Services], ServicePolicy property [Windows Deployment Services],IWdsTransportConfigurationManager interface, get_ServicePolicy, wds.iwdstransportconfigurationmanager_servicepolicy, wdstptmgmt/IWdsTransportConfigurationManager::ServicePolicy, wdstptmgmt/IWdsTransportConfigurationManager::get_ServicePolicy
 ms.topic: method
-f1_keywords: 
- - "wdstptmgmt/IWdsTransportConfigurationManager.ServicePolicy"
+f1_keywords:
+- wdstptmgmt/IWdsTransportConfigurationManager.ServicePolicy
 dev_langs:
- - c++
+- c++
 req.header: wdstptmgmt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: Wdstptmgmt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wdstptmgmt.dll
+- Wdstptmgmt.dll
 api_name:
- - IWdsTransportConfigurationManager.ServicePolicy
- - IWdsTransportConfigurationManager.get_ServicePolicy
+- IWdsTransportConfigurationManager.ServicePolicy
+- IWdsTransportConfigurationManager.get_ServicePolicy
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:bdaiface.IBDA_AutoDemodulate.put_AutoDemodulate
 title: IBDA_AutoDemodulate::put_AutoDemodulate (bdaiface.h)
-
 description: The put_AutoDemodulate method instructs the BDA device filter to automatically detect signal characteristics.
 old-location: mstv\ibda_autodemodulate_put_autodemodulate.htm
 tech.root: mstv
 ms.assetid: e0d2356d-3954-44e9-af55-664764076f4d
-
 ms.date: 12/05/2018
 ms.keywords: IBDA_AutoDemodulate interface [Microsoft TV Technologies],put_AutoDemodulate method, IBDA_AutoDemodulate.put_AutoDemodulate, IBDA_AutoDemodulate::put_AutoDemodulate, IBDA_AutoDemodulateput_AutoDemodulate, bdaiface/IBDA_AutoDemodulate::put_AutoDemodulate, mstv.ibda_autodemodulate_put_autodemodulate, put_AutoDemodulate, put_AutoDemodulate method [Microsoft TV Technologies], put_AutoDemodulate method [Microsoft TV Technologies],IBDA_AutoDemodulate interface
 ms.topic: method
-f1_keywords: 
- - "bdaiface/IBDA_AutoDemodulate.put_AutoDemodulate"
+f1_keywords:
+- bdaiface/IBDA_AutoDemodulate.put_AutoDemodulate
 dev_langs:
- - c++
+- c++
 req.header: bdaiface.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - bdaiface.h
+- bdaiface.h
 api_name:
- - IBDA_AutoDemodulate.put_AutoDemodulate
+- IBDA_AutoDemodulate.put_AutoDemodulate
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:dvbsiparser.IISDB_EMM.Initialize
 title: IISDB_EMM::Initialize (dvbsiparser.h)
-
 description: Initializes the data elements of an Integrated Services Digital Broadcasting (ISDB) entitlement management message (EMM) table by using the list of MPEG-2 EMM sections.
 old-location: mstv\iisdb_emm_initialize.htm
 tech.root: mstv
 ms.assetid: 127e7987-6782-4577-9104-86124d948d18
-
 ms.date: 12/05/2018
 ms.keywords: IISDB_EMM interface [Microsoft TV Technologies],Initialize method, IISDB_EMM.Initialize, IISDB_EMM::Initialize, Initialize, Initialize method [Microsoft TV Technologies], Initialize method [Microsoft TV Technologies],IISDB_EMM interface, dvbsiparser/IISDB_EMM::Initialize, mstv.iisdb_emm_initialize
 ms.topic: method
-f1_keywords: 
- - "dvbsiparser/IISDB_EMM.Initialize"
+f1_keywords:
+- dvbsiparser/IISDB_EMM.Initialize
 dev_langs:
- - c++
+- c++
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dvbsiparser.h
+- dvbsiparser.h
 api_name:
- - IISDB_EMM.Initialize
+- IISDB_EMM.Initialize
 targetos: Windows
 req.typenames: 
 req.redist: 

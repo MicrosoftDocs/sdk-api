@@ -1,19 +1,17 @@
 ---
 UID: NF:control.IVideoWindow.put_WindowState
 title: IVideoWindow::put_WindowState (control.h)
-
 description: The put_WindowState method shows, hides, minimizes, or maximizes the video window.
 old-location: dshow\ivideowindow_put_windowstate.htm
 tech.root: DirectShow
 ms.assetid: 75189754-61c4-4196-9cfb-3f8c8e33efbc
-
 ms.date: 12/05/2018
 ms.keywords: IVideoWindow interface [DirectShow],put_WindowState method, IVideoWindow.put_WindowState, IVideoWindow::put_WindowState, IVideoWindowput_WindowState, control/IVideoWindow::put_WindowState, dshow.ivideowindow_put_windowstate, put_WindowState, put_WindowState method [DirectShow], put_WindowState method [DirectShow],IVideoWindow interface
 ms.topic: method
-f1_keywords: 
- - "control/IVideoWindow.put_WindowState"
+f1_keywords:
+- control/IVideoWindow.put_WindowState
 dev_langs:
- - c++
+- c++
 req.header: control.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IVideoWindow.put_WindowState
+- IVideoWindow.put_WindowState
 targetos: Windows
 req.typenames: 
 req.redist: 

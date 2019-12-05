@@ -1,19 +1,17 @@
 ---
 UID: NF:winsync.IRecoverableErrorData.Initialize
 title: IRecoverableErrorData::Initialize (winsync.h)
-
 description: Initializes the object by using the specified display name of the item that caused the error and a description of the error.
 old-location: winsync\irecoverableerrordata_initialize.htm
 tech.root: winsync
 ms.assetid: df34b3ee-fc78-47ca-8916-ee4a81110628
-
 ms.date: 12/05/2018
 ms.keywords: IRecoverableErrorData interface [Windows Sync],Initialize method, IRecoverableErrorData.Initialize, IRecoverableErrorData::Initialize, Initialize, Initialize method [Windows Sync], Initialize method [Windows Sync],IRecoverableErrorData interface, winsync.irecoverableerrordata_initialize, winsync/IRecoverableErrorData::Initialize
 ms.topic: method
-f1_keywords: 
- - "winsync/IRecoverableErrorData.Initialize"
+f1_keywords:
+- winsync/IRecoverableErrorData.Initialize
 dev_langs:
- - c++
+- c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - winsync.h
+- winsync.h
 api_name:
- - IRecoverableErrorData.Initialize
+- IRecoverableErrorData.Initialize
 targetos: Windows
 req.typenames: 
 req.redist: 

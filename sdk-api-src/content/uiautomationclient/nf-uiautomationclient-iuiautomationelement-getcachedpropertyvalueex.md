@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationElement.GetCachedPropertyValueEx
 title: IUIAutomationElement::GetCachedPropertyValueEx (uiautomationclient.h)
-
 description: Retrieves a property value from the cache for this UI Automation element, optionally ignoring any default value.
 old-location: winauto\uiauto_IUIAutomationElement_GetCachedPropertyValueEx.htm
 tech.root: WinAuto
 ms.assetid: 3f496ee4-8508-4331-9c1c-7805e17874f9
-
 ms.date: 12/05/2018
 ms.keywords: GetCachedPropertyValueEx, GetCachedPropertyValueEx method [Windows Accessibility], GetCachedPropertyValueEx method [Windows Accessibility],IUIAutomationElement interface, IUIAutomationElement interface [Windows Accessibility],GetCachedPropertyValueEx method, IUIAutomationElement.GetCachedPropertyValueEx, IUIAutomationElement::GetCachedPropertyValueEx, uiauto.uiauto_IUIAutomationElement_GetCachedPropertyValueEx, uiauto_IUIAutomationElement_GetCachedPropertyValueEx, uiautomationclient/IUIAutomationElement::GetCachedPropertyValueEx, winauto.uiauto_IUIAutomationElement_GetCachedPropertyValueEx
 ms.topic: method
-f1_keywords: 
- - "uiautomationclient/IUIAutomationElement.GetCachedPropertyValueEx"
+f1_keywords:
+- uiautomationclient/IUIAutomationElement.GetCachedPropertyValueEx
 dev_langs:
- - c++
+- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationClient.h
+- UIAutomationClient.h
 api_name:
- - IUIAutomationElement.GetCachedPropertyValueEx
+- IUIAutomationElement.GetCachedPropertyValueEx
 targetos: Windows
 req.typenames: 
 req.redist: 

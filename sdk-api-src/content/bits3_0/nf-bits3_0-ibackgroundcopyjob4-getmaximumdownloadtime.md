@@ -1,19 +1,17 @@
 ---
 UID: NF:bits3_0.IBackgroundCopyJob4.GetMaximumDownloadTime
 title: IBackgroundCopyJob4::GetMaximumDownloadTime (bits3_0.h)
-
 description: Retrieves the maximum time that BITS will spend transferring the files in the job.
 old-location: bits\ibackgroundcopyjob4_getmaximumdownloadtime.htm
 tech.root: Bits
 ms.assetid: 2d258dc4-a6fd-46d7-ac90-2703c8ddc666
-
 ms.date: 12/05/2018
 ms.keywords: GetMaximumDownloadTime, GetMaximumDownloadTime method [BITS], GetMaximumDownloadTime method [BITS],IBackgroundCopyJob4 interface, IBackgroundCopyJob4 interface [BITS],GetMaximumDownloadTime method, IBackgroundCopyJob4.GetMaximumDownloadTime, IBackgroundCopyJob4::GetMaximumDownloadTime, bits.ibackgroundcopyjob4_getmaximumdownloadtime, bits3_0/IBackgroundCopyJob4::GetMaximumDownloadTime
 ms.topic: method
-f1_keywords: 
- - "bits3_0/IBackgroundCopyJob4.GetMaximumDownloadTime"
+f1_keywords:
+- bits3_0/IBackgroundCopyJob4.GetMaximumDownloadTime
 dev_langs:
- - c++
+- c++
 req.header: bits3_0.h
 req.include-header: Bits.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Bits.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Bits.lib
- - Bits.dll
+- Bits.lib
+- Bits.dll
 api_name:
- - IBackgroundCopyJob4.GetMaximumDownloadTime
+- IBackgroundCopyJob4.GetMaximumDownloadTime
 targetos: Windows
 req.typenames: 
 req.redist: 

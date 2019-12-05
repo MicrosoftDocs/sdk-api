@@ -1,19 +1,17 @@
 ---
 UID: NE:strmif.tagDVD_SUBPICTURE_LANG_EXT
 title: DVD_SUBPICTURE_LANG_EXT (strmif.h)
-
 description: Defines the possible language extensions in a specified subpicture stream.
 old-location: dshow\dvd_subpicture_lang_ext.htm
 tech.root: DirectShow
 ms.assetid: 314c6187-a475-44c9-b22a-b168211fceb3
-
 ms.date: 12/05/2018
 ms.keywords: DVD_SP_EXT_CC_Big, DVD_SP_EXT_CC_Children, DVD_SP_EXT_CC_Normal, DVD_SP_EXT_Caption_Big, DVD_SP_EXT_Caption_Children, DVD_SP_EXT_Caption_Normal, DVD_SP_EXT_DirectorComments_Big, DVD_SP_EXT_DirectorComments_Children, DVD_SP_EXT_DirectorComments_Normal, DVD_SP_EXT_Forced, DVD_SP_EXT_NotSpecified, DVD_SUBPICTURE_LANG_EXT, DVD_SUBPICTURE_LANG_EXT , DVD_SUBPICTURE_LANG_EXT enumeration [DirectShow], DVD_SUBPICTURE_LANG_EXTEnumeration, dshow.dvd_subpicture_lang_ext, strmif/DVD_SP_EXT_CC_Big, strmif/DVD_SP_EXT_CC_Children, strmif/DVD_SP_EXT_CC_Normal, strmif/DVD_SP_EXT_Caption_Big, strmif/DVD_SP_EXT_Caption_Children, strmif/DVD_SP_EXT_Caption_Normal, strmif/DVD_SP_EXT_DirectorComments_Big, strmif/DVD_SP_EXT_DirectorComments_Children, strmif/DVD_SP_EXT_DirectorComments_Normal, strmif/DVD_SP_EXT_Forced, strmif/DVD_SP_EXT_NotSpecified, strmif/DVD_SUBPICTURE_LANG_EXT
 ms.topic: enum
-f1_keywords: 
- - "strmif/DVD_SUBPICTURE_LANG_EXT"
+f1_keywords:
+- strmif/DVD_SUBPICTURE_LANG_EXT
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - strmif.h
+- strmif.h
 api_name:
- - DVD_SUBPICTURE_LANG_EXT
+- DVD_SUBPICTURE_LANG_EXT
 targetos: Windows
 req.typenames: DVD_SUBPICTURE_LANG_EXT
 req.redist: 

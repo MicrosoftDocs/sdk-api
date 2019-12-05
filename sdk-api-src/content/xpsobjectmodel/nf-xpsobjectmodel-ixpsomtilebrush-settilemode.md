@@ -1,19 +1,17 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMTileBrush.SetTileMode
 title: IXpsOMTileBrush::SetTileMode (xpsobjectmodel.h)
-
 description: Sets the XPS_TILE_MODE value that describes the tiling mode of the brush.
 old-location: xps\ixpsomtilebrush_settilemode.htm
 tech.root: printdocs
 ms.assetid: 5901e5ec-1907-404b-b1a8-a00e13d3eab8
-
 ms.date: 12/05/2018
 ms.keywords: IXpsOMTileBrush interface [XPS Documents and Packaging],SetTileMode method, IXpsOMTileBrush.SetTileMode, IXpsOMTileBrush::SetTileMode, SetTileMode, SetTileMode method [XPS Documents and Packaging], SetTileMode method [XPS Documents and Packaging],IXpsOMTileBrush interface, xps.ixpsomtilebrush_settilemode, xpsobjectmodel/IXpsOMTileBrush::SetTileMode
 ms.topic: method
-f1_keywords: 
- - "xpsobjectmodel/IXpsOMTileBrush.SetTileMode"
+f1_keywords:
+- xpsobjectmodel/IXpsOMTileBrush.SetTileMode
 dev_langs:
- - c++
+- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsobjectmodel.h
+- xpsobjectmodel.h
 api_name:
- - IXpsOMTileBrush.SetTileMode
+- IXpsOMTileBrush.SetTileMode
 targetos: Windows
 req.typenames: 
 req.redist: 

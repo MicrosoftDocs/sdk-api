@@ -1,19 +1,17 @@
 ---
 UID: NS:fwptypes.FWP_BYTE_ARRAY6_
 title: FWP_BYTE_ARRAY6 (fwptypes.h)
-
 description: Stores an array of exactly 6 bytes. Reserved.
 old-location: fwp\fwp_byte_array6.htm
 tech.root: fwp
 ms.assetid: 395b5c1c-988b-4d85-9b31-c1f84e02a90c
-
 ms.date: 12/05/2018
 ms.keywords: FWP_BYTE_ARRAY6, FWP_BYTE_ARRAY6 structure [Filtering], fwp.fwp_byte_array6, fwptypes/FWP_BYTE_ARRAY6
 ms.topic: struct
-f1_keywords: 
- - "fwptypes/FWP_BYTE_ARRAY6"
+f1_keywords:
+- fwptypes/FWP_BYTE_ARRAY6
 dev_langs:
- - c++
+- c++
 req.header: fwptypes.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Fwptypes.h
+- Fwptypes.h
 api_name:
- - FWP_BYTE_ARRAY6
+- FWP_BYTE_ARRAY6
 targetos: Windows
 req.typenames: FWP_BYTE_ARRAY6
 req.redist: 

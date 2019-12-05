@@ -1,19 +1,17 @@
 ---
 UID: NN:credentialprovider.ICredentialProviderUserArray
 title: ICredentialProviderUserArray (credentialprovider.h)
-
 description: Represents the set of users that will appear in the logon or credential UI. This information enables the credential provider to enumerate the set to retrieve property information about each user to populate fields or filter the set.
 old-location: shell\ICredentialProviderUserArray.htm
 tech.root: shell
 ms.assetid: 50FC43C1-B148-4e42-AB38-3559BD056855
-
 ms.date: 12/05/2018
 ms.keywords: ICredentialProviderUserArray, ICredentialProviderUserArray interface [Windows Shell], ICredentialProviderUserArray interface [Windows Shell],described, credentialprovider/ICredentialProviderUserArray, shell.ICredentialProviderUserArray
 ms.topic: interface
-f1_keywords: 
- - "credentialprovider/ICredentialProviderUserArray"
+f1_keywords:
+- credentialprovider/ICredentialProviderUserArray
 dev_langs:
- - c++
+- c++
 req.header: credentialprovider.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: CredentialProvider.lib
 req.dll: Authui.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Authui.dll
+- Authui.dll
 api_name:
- - ICredentialProviderUserArray
+- ICredentialProviderUserArray
 targetos: Windows
 req.typenames: 
 req.redist: 

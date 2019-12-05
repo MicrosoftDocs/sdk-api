@@ -1,19 +1,17 @@
 ---
 UID: NF:mswmdm.ISCPSecureQuery2.MakeDecision2
 title: ISCPSecureQuery2::MakeDecision2 (mswmdm.h)
-
 description: The MakeDecision2 method determines whether the secure content provider is responsible for the content by examining data that Windows Media Device Manager passes to this method.
 old-location: wmdm\iscpsecurequery2_makedecision2.htm
 tech.root: WMDM
 ms.assetid: a3031585-7a56-49d9-ad4b-d2f9e687dd6b
-
 ms.date: 12/05/2018
 ms.keywords: ISCPSecureQuery2 interface [windows Media Device Manager],MakeDecision2 method, ISCPSecureQuery2.MakeDecision2, ISCPSecureQuery2::MakeDecision2, ISCPSecureQuery2MakeDecision2, MakeDecision2, MakeDecision2 method [windows Media Device Manager], MakeDecision2 method [windows Media Device Manager],ISCPSecureQuery2 interface, mswmdm/ISCPSecureQuery2::MakeDecision2, wmdm.iscpsecurequery2_makedecision2
 ms.topic: method
-f1_keywords: 
- - "mswmdm/ISCPSecureQuery2.MakeDecision2"
+f1_keywords:
+- mswmdm/ISCPSecureQuery2.MakeDecision2
 dev_langs:
- - c++
+- c++
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mssachlp.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mssachlp.lib
- - mssachlp.dll
+- mssachlp.lib
+- mssachlp.dll
 api_name:
- - ISCPSecureQuery2.MakeDecision2
+- ISCPSecureQuery2.MakeDecision2
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:vds.IVdsSubSystem.QueryDrives
 title: IVdsSubSystem::QueryDrives (vds.h)
-
 description: Returns an object that enumerates the drives in the subsystem.
 old-location: base\ivdssubsystem_querydrives.htm
 tech.root: VDS
 ms.assetid: 7d54922f-0531-4eab-afa9-f51ce6c75bfe
-
 ms.date: 12/05/2018
 ms.keywords: IVdsSubSystem interface [VDS],QueryDrives method, IVdsSubSystem.QueryDrives, IVdsSubSystem::QueryDrives, QueryDrives, QueryDrives method [VDS], QueryDrives method [VDS],IVdsSubSystem interface, base.ivdssubsystem_querydrives, vds/IVdsSubSystem::QueryDrives, vdshwprv/IVdsSubSystem::QueryDrives
 ms.topic: method
-f1_keywords: 
- - "vds/IVdsSubSystem.QueryDrives"
+f1_keywords:
+- vds/IVdsSubSystem.QueryDrives
 dev_langs:
- - c++
+- c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Uuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Uuid.lib
- - Uuid.dll
+- Uuid.lib
+- Uuid.dll
 api_name:
- - IVdsSubSystem.QueryDrives
+- IVdsSubSystem.QueryDrives
 targetos: Windows
 req.typenames: 
 req.redist: 

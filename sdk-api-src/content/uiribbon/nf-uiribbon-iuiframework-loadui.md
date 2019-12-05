@@ -1,19 +1,17 @@
 ---
 UID: NF:uiribbon.IUIFramework.LoadUI
 title: IUIFramework::LoadUI (uiribbon.h)
-
 description: Loads the Windows Ribbon framework UI resource, or compiled markup, file.
 old-location: windowsribbon\windowsribbon_iuiframework_loadui.htm
 tech.root: windowsribbon
 ms.assetid: VS|scenicintent|~\scenicintent\reference\ifaces\iuiframework\loadui.htm
-
 ms.date: 12/05/2018
 ms.keywords: IUIFramework interface [Windows Ribbon],LoadUI method, IUIFramework.LoadUI, IUIFramework::LoadUI, LoadUI, LoadUI method [Windows Ribbon], LoadUI method [Windows Ribbon],IUIFramework interface, scenicintent_IUIFramework_LoadUI, uiribbon/IUIFramework::LoadUI, windowsribbon.windowsribbon_iuiframework_loadui
 ms.topic: method
-f1_keywords: 
- - "uiribbon/IUIFramework.LoadUI"
+f1_keywords:
+- uiribbon/IUIFramework.LoadUI
 dev_langs:
- - c++
+- c++
 req.header: uiribbon.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Mshtml.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mshtml.dll
+- Mshtml.dll
 api_name:
- - IUIFramework.LoadUI
+- IUIFramework.LoadUI
 targetos: Windows
 req.typenames: 
 req.redist: 

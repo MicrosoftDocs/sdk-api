@@ -1,19 +1,17 @@
 ---
 UID: NF:wcmconfig.ITargetInfo.GetTargetMode
 title: ITargetInfo::GetTargetMode (wcmconfig.h)
-
 description: Gets the current target mode.
 old-location: smi\itargetinfo_gettargetmode.htm
 tech.root: SMI
 ms.assetid: b21137a0-537f-43a4-857b-158a1642ea1c
-
 ms.date: 12/05/2018
 ms.keywords: GetTargetMode, GetTargetMode method [SMI], GetTargetMode method [SMI],ITargetInfo interface, ITargetInfo interface [SMI],GetTargetMode method, ITargetInfo.GetTargetMode, ITargetInfo::GetTargetMode, smi.itargetinfo_gettargetmode, wcmconfig/ITargetInfo::GetTargetMode
 ms.topic: method
-f1_keywords: 
- - "wcmconfig/ITargetInfo.GetTargetMode"
+f1_keywords:
+- wcmconfig/ITargetInfo.GetTargetMode
 dev_langs:
- - c++
+- c++
 req.header: wcmconfig.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: SMIEngine.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - SMIEngine.dll
+- SMIEngine.dll
 api_name:
- - ITargetInfo.GetTargetMode
+- ITargetInfo.GetTargetMode
 targetos: Windows
 req.typenames: 
 req.redist: 

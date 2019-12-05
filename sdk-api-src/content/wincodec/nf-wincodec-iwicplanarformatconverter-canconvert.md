@@ -1,19 +1,17 @@
 ---
 UID: NF:wincodec.IWICPlanarFormatConverter.CanConvert
 title: IWICPlanarFormatConverter::CanConvert (wincodec.h)
-
 description: Query if the format converter can convert from one format to another.
 old-location: wic\iwicplanarformatconverter_canconvert.htm
 tech.root: wic
 ms.assetid: 24E68425-3758-4E8E-B3F4-46EE8488E3E1
-
 ms.date: 12/05/2018
 ms.keywords: CanConvert, CanConvert method [Windows Imaging Component], CanConvert method [Windows Imaging Component],IWICPlanarFormatConverter interface, IWICPlanarFormatConverter interface [Windows Imaging Component],CanConvert method, IWICPlanarFormatConverter.CanConvert, IWICPlanarFormatConverter::CanConvert, wic.iwicplanarformatconverter_canconvert, wincodec/IWICPlanarFormatConverter::CanConvert
 ms.topic: method
-f1_keywords: 
- - "wincodec/IWICPlanarFormatConverter.CanConvert"
+f1_keywords:
+- wincodec/IWICPlanarFormatConverter.CanConvert
 dev_langs:
- - c++
+- c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Windowscodecs.lib
 req.dll: Windowscodecs.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Windowscodecs.dll
+- Windowscodecs.dll
 api_name:
- - IWICPlanarFormatConverter.CanConvert
+- IWICPlanarFormatConverter.CanConvert
 targetos: Windows
 req.typenames: 
 req.redist: 

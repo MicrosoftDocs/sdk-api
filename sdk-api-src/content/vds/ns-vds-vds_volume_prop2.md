@@ -1,19 +1,17 @@
 ---
 UID: NS:vds._VDS_VOLUME_PROP2
 title: VDS_VOLUME_PROP2 (vds.h)
-
 description: Defines the properties of a volume object. This structure is identical to the VDS_VOLUME_PROP structure, except that it also includes the volume GUIDs.
 old-location: base\vds_volume_prop2.htm
 tech.root: VDS
 ms.assetid: e99aaead-f5ad-4181-9208-9158e9fac38f
-
 ms.date: 12/05/2018
 ms.keywords: '*PVDS_VOLUME_PROP2, PVDS_VOLUME_PROP2, PVDS_VOLUME_PROP2 structure pointer, VDS_VOLUME_PROP2, VDS_VOLUME_PROP2 structure, base.vds_volume_prop2, vds/PVDS_VOLUME_PROP2, vds/VDS_VOLUME_PROP2'
 ms.topic: struct
 f1_keywords:
 - vds/VDS_VOLUME_PROP2
 dev_langs:
- - c++
+- c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

@@ -1,19 +1,17 @@
 ---
 UID: NF:wincodecsdk.IWICStreamProvider.GetPersistOptions
 title: IWICStreamProvider::GetPersistOptions (wincodecsdk.h)
-
 description: Gets the persist options used when initializing the component with a stream.
 old-location: wic\_wic_codec_iwicstreamprovider_getpersistoptions.htm
 tech.root: wic
 ms.assetid: 244d4335-ee5f-434e-8d0b-4ba5d984b207
-
 ms.date: 12/05/2018
 ms.keywords: GetPersistOptions, GetPersistOptions method [Windows Imaging Component], GetPersistOptions method [Windows Imaging Component],IWICStreamProvider interface, IWICStreamProvider interface [Windows Imaging Component],GetPersistOptions method, IWICStreamProvider.GetPersistOptions, IWICStreamProvider::GetPersistOptions, _wic_codec_iwicstreamprovider_getpersistoptions, wic._wic_codec_iwicstreamprovider_getpersistoptions, wincodecsdk/IWICStreamProvider::GetPersistOptions
 ms.topic: method
-f1_keywords: 
- - "wincodecsdk/IWICStreamProvider.GetPersistOptions"
+f1_keywords:
+- wincodecsdk/IWICStreamProvider.GetPersistOptions
 dev_langs:
- - c++
+- c++
 req.header: wincodecsdk.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Windowscodecs.lib
 req.dll: Windowscodecs.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Windowscodecs.dll
+- Windowscodecs.dll
 api_name:
- - IWICStreamProvider.GetPersistOptions
+- IWICStreamProvider.GetPersistOptions
 targetos: Windows
 req.typenames: 
 req.redist: 

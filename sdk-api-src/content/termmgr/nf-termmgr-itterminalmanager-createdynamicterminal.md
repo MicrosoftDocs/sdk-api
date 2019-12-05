@@ -1,19 +1,17 @@
 ---
 UID: NF:termmgr.ITTerminalManager.CreateDynamicTerminal
 title: ITTerminalManager::CreateDynamicTerminal (termmgr.h)
-
 description: The CreateDynamicTerminal method creates a dynamic terminal of a specified terminal class, media type, and direction.
 old-location: tapi3\itterminalmanager_createdynamicterminal.htm
 tech.root: Tapi
 ms.assetid: a6590503-8c95-496d-a35a-1bbb34c728e1
-
 ms.date: 12/05/2018
 ms.keywords: CreateDynamicTerminal, CreateDynamicTerminal method [TAPI 2.2], CreateDynamicTerminal method [TAPI 2.2],ITTerminalManager interface, ITTerminalManager interface [TAPI 2.2],CreateDynamicTerminal method, ITTerminalManager.CreateDynamicTerminal, ITTerminalManager::CreateDynamicTerminal, _tapi3_itterminalmanager_createdynamicterminal, tapi3.itterminalmanager_createdynamicterminal, termmgr/ITTerminalManager::CreateDynamicTerminal
 ms.topic: method
-f1_keywords: 
- - "termmgr/ITTerminalManager.CreateDynamicTerminal"
+f1_keywords:
+- termmgr/ITTerminalManager.CreateDynamicTerminal
 dev_langs:
- - c++
+- c++
 req.header: termmgr.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Termmgr.h
+- Termmgr.h
 api_name:
- - ITTerminalManager.CreateDynamicTerminal
+- ITTerminalManager.CreateDynamicTerminal
 targetos: Windows
 req.typenames: 
 req.redist: 

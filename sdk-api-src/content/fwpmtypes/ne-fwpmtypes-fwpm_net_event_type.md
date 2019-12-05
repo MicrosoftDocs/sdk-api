@@ -1,19 +1,17 @@
 ---
 UID: NE:fwpmtypes.FWPM_NET_EVENT_TYPE_
 title: FWPM_NET_EVENT_TYPE (fwpmtypes.h)
-
 description: Type of net event.
 old-location: fwp\fwpm_net_event_type.htm
 tech.root: fwp
 ms.assetid: 75dd3b0f-d809-421e-ac70-b8bf5d38757c
-
 ms.date: 12/05/2018
 ms.keywords: FWPM_NET_EVENT_TYPE, FWPM_NET_EVENT_TYPE enumeration [Filtering], FWPM_NET_EVENT_TYPE_CAPABILITY_ALLOW, FWPM_NET_EVENT_TYPE_CAPABILITY_DROP, FWPM_NET_EVENT_TYPE_CLASSIFY_ALLOW, FWPM_NET_EVENT_TYPE_CLASSIFY_DROP, FWPM_NET_EVENT_TYPE_CLASSIFY_DROP_MAC, FWPM_NET_EVENT_TYPE_IKEEXT_EM_FAILURE, FWPM_NET_EVENT_TYPE_IKEEXT_MM_FAILURE, FWPM_NET_EVENT_TYPE_IKEEXT_QM_FAILURE, FWPM_NET_EVENT_TYPE_IPSEC_DOSP_DROP, FWPM_NET_EVENT_TYPE_IPSEC_KERNEL_DROP, FWPM_NET_EVENT_TYPE_MAX, fwp.fwpm_net_event_type, fwpmtypes/FWPM_NET_EVENT_TYPE, fwpmtypes/FWPM_NET_EVENT_TYPE_CAPABILITY_ALLOW, fwpmtypes/FWPM_NET_EVENT_TYPE_CAPABILITY_DROP, fwpmtypes/FWPM_NET_EVENT_TYPE_CLASSIFY_ALLOW, fwpmtypes/FWPM_NET_EVENT_TYPE_CLASSIFY_DROP, fwpmtypes/FWPM_NET_EVENT_TYPE_CLASSIFY_DROP_MAC, fwpmtypes/FWPM_NET_EVENT_TYPE_IKEEXT_EM_FAILURE, fwpmtypes/FWPM_NET_EVENT_TYPE_IKEEXT_MM_FAILURE, fwpmtypes/FWPM_NET_EVENT_TYPE_IKEEXT_QM_FAILURE, fwpmtypes/FWPM_NET_EVENT_TYPE_IPSEC_DOSP_DROP, fwpmtypes/FWPM_NET_EVENT_TYPE_IPSEC_KERNEL_DROP, fwpmtypes/FWPM_NET_EVENT_TYPE_MAX
 ms.topic: enum
-f1_keywords: 
- - "fwpmtypes/FWPM_NET_EVENT_TYPE"
+f1_keywords:
+- fwpmtypes/FWPM_NET_EVENT_TYPE
 dev_langs:
- - c++
+- c++
 req.header: fwpmtypes.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Fwpmtypes.h
+- Fwpmtypes.h
 api_name:
- - FWPM_NET_EVENT_TYPE
+- FWPM_NET_EVENT_TYPE
 targetos: Windows
 req.typenames: FWPM_NET_EVENT_TYPE
 req.redist: 

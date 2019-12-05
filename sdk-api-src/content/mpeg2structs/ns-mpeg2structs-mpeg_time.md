@@ -1,19 +1,17 @@
 ---
 UID: NS:mpeg2structs.__MIDL___MIDL_itf_mpeg2structs_0000_0000_0024
 title: MPEG_TIME (mpeg2structs.h)
-
 description: The MPEG_TIME structure represents a time of day, or a duration.
 old-location: mstv\mpeg_time.htm
 tech.root: mstv
 ms.assetid: b0a28edb-fcd8-43b4-a65c-d45e8a0f02b3
-
 ms.date: 12/05/2018
 ms.keywords: MPEG_DURATION, MPEG_TIME, MPEG_TIME structure [Microsoft TV Technologies], mpeg2structs/MPEG_TIME, mstv.mpeg_time
 ms.topic: struct
-f1_keywords: 
- - "mpeg2structs/MPEG_TIME"
+f1_keywords:
+- mpeg2structs/MPEG_TIME
 dev_langs:
- - c++
+- c++
 req.header: mpeg2structs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Mpeg2Structs.h
+- Mpeg2Structs.h
 api_name:
- - MPEG_TIME
+- MPEG_TIME
 targetos: Windows
 req.typenames: MPEG_TIME
 req.redist: 

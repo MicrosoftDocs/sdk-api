@@ -1,19 +1,17 @@
 ---
 UID: NE:wbemcli.tag_WBEM_TIMEOUT_TYPE
 title: WBEM_TIMEOUT_TYPE (wbemcli.h)
-
 description: Contains values used to specify the timeout for the IEnumWbemClassObject::Next method.
 old-location: wmi\wbem_timeout_type.htm
 tech.root: WmiSdk
 ms.assetid: 5A4E800A-7CA2-42D0-AF40-DA18171B3DB8
-
 ms.date: 12/05/2018
 ms.keywords: WBEM_INFINITE, WBEM_NO_WAIT, WBEM_TIMEOUT_TYPE, WBEM_TIMEOUT_TYPE enumeration [Windows Management Instrumentation], wbemcli/WBEM_INFINITE, wbemcli/WBEM_NO_WAIT, wbemcli/WBEM_TIMEOUT_TYPE, wmi.wbem_timeout_type
 ms.topic: enum
-f1_keywords: 
- - "wbemcli/WBEM_TIMEOUT_TYPE"
+f1_keywords:
+- wbemcli/WBEM_TIMEOUT_TYPE
 dev_langs:
- - c++
+- c++
 req.header: wbemcli.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wbemcli.h
+- Wbemcli.h
 api_name:
- - WBEM_TIMEOUT_TYPE
+- WBEM_TIMEOUT_TYPE
 targetos: Windows
 req.typenames: WBEM_TIMEOUT_TYPE
 req.redist: 

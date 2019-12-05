@@ -1,19 +1,17 @@
 ---
 UID: NF:bits2_0.IBackgroundCopyJob3.ReplaceRemotePrefix
 title: IBackgroundCopyJob3::ReplaceRemotePrefix (bits2_0.h)
-
 description: Replaces the beginning text of all remote names in the download job with the specified string.
 old-location: bits\ibackgroundcopyjob3_replaceremoteprefix.htm
 tech.root: Bits
 ms.assetid: 5ea62d29-c40e-4bd2-b22a-fce2d9f4eecf
-
 ms.date: 12/05/2018
 ms.keywords: IBackgroundCopyJob3 interface [BITS],ReplaceRemotePrefix method, IBackgroundCopyJob3.ReplaceRemotePrefix, IBackgroundCopyJob3::ReplaceRemotePrefix, ReplaceRemotePrefix, ReplaceRemotePrefix method [BITS], ReplaceRemotePrefix method [BITS],IBackgroundCopyJob3 interface, bits.ibackgroundcopyjob3_replaceremoteprefix, bits2_0/IBackgroundCopyJob3::ReplaceRemotePrefix
 ms.topic: method
-f1_keywords: 
- - "bits2_0/IBackgroundCopyJob3.ReplaceRemotePrefix"
+f1_keywords:
+- bits2_0/IBackgroundCopyJob3.ReplaceRemotePrefix
 dev_langs:
- - c++
+- c++
 req.header: bits2_0.h
 req.include-header: Bits.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Bits.lib
 req.dll: BitsPrx3.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - BitsPrx3.dll
+- BitsPrx3.dll
 api_name:
- - IBackgroundCopyJob3.ReplaceRemotePrefix
+- IBackgroundCopyJob3.ReplaceRemotePrefix
 targetos: Windows
 req.typenames: 
 req.redist: 

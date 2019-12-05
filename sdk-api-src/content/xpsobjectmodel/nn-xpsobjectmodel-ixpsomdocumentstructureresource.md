@@ -1,19 +1,17 @@
 ---
 UID: NN:xpsobjectmodel.IXpsOMDocumentStructureResource
 title: IXpsOMDocumentStructureResource (xpsobjectmodel.h)
-
 description: Provides access to the XML content of the resource stream of the DocumentStructure part.
 old-location: xps\ixpsomdocumentstructureresource.htm
 tech.root: printdocs
 ms.assetid: a0cc8748-08b2-4471-9961-603786e983a4
-
 ms.date: 12/05/2018
 ms.keywords: IXpsOMDocumentStructureResource, IXpsOMDocumentStructureResource interface [XPS Documents and Packaging], IXpsOMDocumentStructureResource interface [XPS Documents and Packaging],described, xps.ixpsomdocumentstructureresource, xpsobjectmodel/IXpsOMDocumentStructureResource
 ms.topic: interface
-f1_keywords: 
- - "xpsobjectmodel/IXpsOMDocumentStructureResource"
+f1_keywords:
+- xpsobjectmodel/IXpsOMDocumentStructureResource
 dev_langs:
- - c++
+- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsobjectmodel.h
+- xpsobjectmodel.h
 api_name:
- - IXpsOMDocumentStructureResource
+- IXpsOMDocumentStructureResource
 targetos: Windows
 req.typenames: 
 req.redist: 

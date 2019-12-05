@@ -1,19 +1,17 @@
 ---
 UID: NF:mprapi.MprAdminMIBEntryCreate
 title: MprAdminMIBEntryCreate function (mprapi.h)
-
 description: The MprAdminMIBEntryCreate function creates an entry for one of the variables exported by a routing protocol or router manager.
 old-location: rras\mpradminmibentrycreate.htm
 tech.root: RRAS
 ms.assetid: b634ed78-ca01-4128-aeeb-fd8585e64f75
-
 ms.date: 12/05/2018
 ms.keywords: MprAdminMIBEntryCreate, MprAdminMIBEntryCreate function [RAS], _mpr_mpradminmibentrycreate, mprapi/MprAdminMIBEntryCreate, rras.mpradminmibentrycreate
 ms.topic: function
-f1_keywords: 
- - "mprapi/MprAdminMIBEntryCreate"
+f1_keywords:
+- mprapi/MprAdminMIBEntryCreate
 dev_langs:
- - c++
+- c++
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Mprapi.lib
 req.dll: Mprapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Mprapi.dll
+- Mprapi.dll
 api_name:
- - MprAdminMIBEntryCreate
+- MprAdminMIBEntryCreate
 targetos: Windows
 req.typenames: 
 req.redist: 

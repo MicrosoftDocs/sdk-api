@@ -1,19 +1,17 @@
 ---
 UID: NF:qnetwork.IAMMediaContent.get_MoreInfoURL
 title: IAMMediaContent::get_MoreInfoURL (qnetwork.h)
-
 description: The get_MoreInfoURL method retrieves a URL for additional information about the content.
 old-location: dshow\iammediacontent_get_moreinfourl.htm
 tech.root: DirectShow
 ms.assetid: 8efaa0b9-09c1-4434-a992-6290fc388cb2
-
 ms.date: 12/05/2018
 ms.keywords: IAMMediaContent interface [DirectShow],get_MoreInfoURL method, IAMMediaContent.get_MoreInfoURL, IAMMediaContent::get_MoreInfoURL, IAMMediaContentget_MoreInfoURL, dshow.iammediacontent_get_moreinfourl, get_MoreInfoURL, get_MoreInfoURL method [DirectShow], get_MoreInfoURL method [DirectShow],IAMMediaContent interface, qnetwork/IAMMediaContent::get_MoreInfoURL
 ms.topic: method
-f1_keywords: 
- - "qnetwork/IAMMediaContent.get_MoreInfoURL"
+f1_keywords:
+- qnetwork/IAMMediaContent.get_MoreInfoURL
 dev_langs:
- - c++
+- c++
 req.header: qnetwork.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Qnetwork.h
+- Qnetwork.h
 api_name:
- - IAMMediaContent.get_MoreInfoURL
+- IAMMediaContent.get_MoreInfoURL
 targetos: Windows
 req.typenames: 
 req.redist: 

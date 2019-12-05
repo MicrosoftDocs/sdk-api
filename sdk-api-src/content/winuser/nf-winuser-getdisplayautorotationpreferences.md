@@ -1,19 +1,17 @@
 ---
 UID: NF:winuser.GetDisplayAutoRotationPreferences
 title: GetDisplayAutoRotationPreferences function (winuser.h)
-
 description: Retrieves the screen auto-rotation preferences for the current process.
 old-location: base\getdisplayautorotationpreferences.htm
 tech.root: ProcThread
 ms.assetid: 48D609CC-3E2B-4E0E-9566-FE02853DD831
-
 ms.date: 12/05/2018
 ms.keywords: GetDisplayAutoRotationPreferences, GetDisplayAutoRotationPreferences function, base.getdisplayautorotationpreferences, winuser/GetDisplayAutoRotationPreferences
 ms.topic: function
-f1_keywords: 
- - "winuser/GetDisplayAutoRotationPreferences"
+f1_keywords:
+- winuser/GetDisplayAutoRotationPreferences
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib:
 req.dll: Kernel.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - kernel.dll
- - Ext-MS-Win-NTUser-rotationmanager-l1-1-1.dll
- - user32.dll
- - ext-ms-win-ntuser-rotationmanager-l1-1-0.dll
+- kernel.dll
+- Ext-MS-Win-NTUser-rotationmanager-l1-1-1.dll
+- user32.dll
+- ext-ms-win-ntuser-rotationmanager-l1-1-0.dll
 api_name:
- - GetDisplayAutoRotationPreferences
+- GetDisplayAutoRotationPreferences
 targetos: Windows
 req.typenames: 
 req.redist: 

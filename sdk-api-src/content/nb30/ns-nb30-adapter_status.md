@@ -1,19 +1,17 @@
 ---
 UID: NS:nb30._ADAPTER_STATUS
 title: ADAPTER_STATUS (nb30.h)
-
 description: The ADAPTER_STATUS structure contains information about a network adapter.
 old-location: netbios\adapter_status.htm
 tech.root: NetBIOS
 ms.assetid: 402bc5ce-bce4-4ba9-b82d-13cd3dc7097b
-
 ms.date: 12/05/2018
 ms.keywords: '*PADAPTER_STATUS, ADAPTER_STATUS, ADAPTER_STATUS structure [NetBIOS], PADAPTER_STATUS, PADAPTER_STATUS structure pointer [NetBIOS], nb30/ADAPTER_STATUS, nb30/PADAPTER_STATUS, netbios.adapter_status'
 ms.topic: struct
 f1_keywords:
 - nb30/ADAPTER_STATUS
 dev_langs:
- - c++
+- c++
 req.header: nb30.h
 req.include-header: 
 req.target-type: Windows

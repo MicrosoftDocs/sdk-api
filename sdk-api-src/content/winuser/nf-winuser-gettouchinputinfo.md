@@ -1,19 +1,17 @@
 ---
 UID: NF:winuser.GetTouchInputInfo
 title: GetTouchInputInfo function (winuser.h)
-
 description: Retrieves detailed information about touch inputs associated with a particular touch input handle.
 old-location: wintouch\gettouchinputinfo.htm
 tech.root: wintouch
 ms.assetid: 18caab11-9c22-46ac-b89f-dd3e662bea1e
-
 ms.date: 12/05/2018
 ms.keywords: GetTouchInputInfo, GetTouchInputInfo function [Windows Touch], wintouch.gettouchinputinfo, winuser/GetTouchInputInfo
 ms.topic: function
-f1_keywords: 
- - "winuser/GetTouchInputInfo"
+f1_keywords:
+- winuser/GetTouchInputInfo
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,20 +30,20 @@ req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - user32.dll
- - Ext-MS-Win-NTUser-Misc-l1-2-0.dll
- - Ext-MS-Win-NTUser-Misc-l1-3-0.dll
- - ext-ms-win-ntuser-misc-l1-3-1.dll
- - Ext-MS-Win-NTUser-Misc-L1-4-0.dll
- - Ext-Ms-Win-NTUser-Misc-L1-5-0.dll
- - Ext-MS-Win-NTUser-Misc-L1-5-1.dll
+- user32.dll
+- Ext-MS-Win-NTUser-Misc-l1-2-0.dll
+- Ext-MS-Win-NTUser-Misc-l1-3-0.dll
+- ext-ms-win-ntuser-misc-l1-3-1.dll
+- Ext-MS-Win-NTUser-Misc-L1-4-0.dll
+- Ext-Ms-Win-NTUser-Misc-L1-5-0.dll
+- Ext-MS-Win-NTUser-Misc-L1-5-1.dll
 api_name:
- - GetTouchInputInfo
+- GetTouchInputInfo
 targetos: Windows
 req.typenames: 
 req.redist: 

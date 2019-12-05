@@ -1,19 +1,17 @@
 ---
 UID: NF:wuapi.IUpdateSession.get_ClientApplicationID
 title: IUpdateSession::get_ClientApplicationID (wuapi.h)
-
 description: Gets and sets the current client application.
 old-location: wua\iupdatesession_clientapplicationid.htm
 tech.root: Wua_Sdk
 ms.assetid: 9e025c75-5884-4a45-ab11-24a8b66ab838
-
 ms.date: 12/05/2018
 ms.keywords: ClientApplicationID property [Windows Update Agent], ClientApplicationID property [Windows Update Agent],IUpdateSession interface, IUpdateSession interface [Windows Update Agent],ClientApplicationID property, IUpdateSession.ClientApplicationID, IUpdateSession.get_ClientApplicationID, IUpdateSession::ClientApplicationID, IUpdateSession::get_ClientApplicationID, IUpdateSession::put_ClientApplicationID, get_ClientApplicationID, wua.iupdatesession_clientapplicationid, wuapi/IUpdateSession::ClientApplicationID, wuapi/IUpdateSession::get_ClientApplicationID, wuapi/IUpdateSession::put_ClientApplicationID
 ms.topic: method
-f1_keywords: 
- - "wuapi/IUpdateSession.ClientApplicationID"
+f1_keywords:
+- wuapi/IUpdateSession.ClientApplicationID
 dev_langs:
- - c++
+- c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Wuguid.lib
 req.dll: Wuapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wuapi.dll
+- Wuapi.dll
 api_name:
- - IUpdateSession.ClientApplicationID
- - IUpdateSession.get_ClientApplicationID
- - IUpdateSession.put_ClientApplicationID
+- IUpdateSession.ClientApplicationID
+- IUpdateSession.get_ClientApplicationID
+- IUpdateSession.put_ClientApplicationID
 targetos: Windows
 req.typenames: 
 req.redist: 

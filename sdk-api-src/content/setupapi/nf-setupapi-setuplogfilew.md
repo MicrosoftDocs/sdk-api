@@ -1,19 +1,17 @@
 ---
 UID: NF:setupapi.SetupLogFileW
 title: SetupLogFileW function (setupapi.h)
-
 description: The SetupLogFile function adds an entry to the log file.
 old-location: setup\setuplogfile.htm
 tech.root: SetupApi
 ms.assetid: bc738212-ff81-4b52-b2ef-50aabf6658ab
-
 ms.date: 12/05/2018
 ms.keywords: SetupLogFile, SetupLogFile function [Setup API], SetupLogFileA, SetupLogFileW, _setupapi_setuplogfile, setup.setuplogfile, setupapi/SetupLogFile, setupapi/SetupLogFileA, setupapi/SetupLogFileW
 ms.topic: function
-f1_keywords: 
- - "setupapi/SetupLogFile"
+f1_keywords:
+- setupapi/SetupLogFile
 dev_langs:
- - c++
+- c++
 req.header: setupapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Setupapi.lib
 req.dll: Setupapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Setupapi.dll
+- Setupapi.dll
 api_name:
- - SetupLogFile
- - SetupLogFileA
- - SetupLogFileW
+- SetupLogFile
+- SetupLogFileA
+- SetupLogFileW
 targetos: Windows
 req.typenames: 
 req.redist: 

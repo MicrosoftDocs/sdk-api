@@ -1,19 +1,17 @@
 ---
 UID: NF:winuser.GetDlgItemInt
 title: GetDlgItemInt function (winuser.h)
-
 description: Translates the text of a specified control in a dialog box into an integer value.
 old-location: dlgbox\getdlgitemint.htm
 tech.root: dlgbox
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\dialogboxes\dialogboxreference\dialogboxfunctions\getdlgitemint.htm
-
 ms.date: 12/05/2018
 ms.keywords: GetDlgItemInt, GetDlgItemInt function [Dialog Boxes], _win32_GetDlgItemInt, _win32_getdlgitemint_cpp, dlgbox.getdlgitemint, winui._win32_getdlgitemint, winuser/GetDlgItemInt
 ms.topic: function
-f1_keywords: 
- - "winuser/GetDlgItemInt"
+f1_keywords:
+- winuser/GetDlgItemInt
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - User32.dll
- - ext-ms-win-ntuser-dialogbox-l1-1-2.dll
+- User32.dll
+- ext-ms-win-ntuser-dialogbox-l1-1-2.dll
 api_name:
- - GetDlgItemInt
+- GetDlgItemInt
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:cscobj.IOfflineFilesEvents.NoNetTransports
 title: IOfflineFilesEvents::NoNetTransports (cscobj.h)
-
 description: Reports that the Offline Files feature has detected that no network transports are available.
 old-location: of\iofflinefilesevents_nonettransports.htm
 tech.root: offlinefiles
 ms.assetid: 4970acd4-b99d-4d7a-a0bc-04c10a4423b8
-
 ms.date: 12/05/2018
 ms.keywords: IOfflineFilesEvents interface [Offline Files],NoNetTransports method, IOfflineFilesEvents.NoNetTransports, IOfflineFilesEvents::NoNetTransports, NoNetTransports, NoNetTransports method [Offline Files], NoNetTransports method [Offline Files],IOfflineFilesEvents interface, cscobj/IOfflineFilesEvents::NoNetTransports, of.iofflinefilesevents_nonettransports
 ms.topic: method
-f1_keywords: 
- - "cscobj/IOfflineFilesEvents.NoNetTransports"
+f1_keywords:
+- cscobj/IOfflineFilesEvents.NoNetTransports
 dev_langs:
- - c++
+- c++
 req.header: cscobj.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: CscSvc.dll; CscObj.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CscSvc.dll
- - CscObj.dll
+- CscSvc.dll
+- CscObj.dll
 api_name:
- - IOfflineFilesEvents.NoNetTransports
+- IOfflineFilesEvents.NoNetTransports
 targetos: Windows
 req.typenames: 
 req.redist: 

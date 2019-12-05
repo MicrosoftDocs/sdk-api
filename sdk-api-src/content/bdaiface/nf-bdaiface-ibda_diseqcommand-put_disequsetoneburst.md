@@ -1,19 +1,17 @@
 ---
 UID: NF:bdaiface.IBDA_DiseqCommand.put_DiseqUseToneBurst
 title: IBDA_DiseqCommand::put_DiseqUseToneBurst (bdaiface.h)
-
 description: Enables or disables Tone-Burst commands.
 old-location: mstv\ibda_diseqcommand_put_disequsetoneburst.htm
 tech.root: mstv
 ms.assetid: 23523ac9-19e0-4247-a697-24d6f1c07285
-
 ms.date: 12/05/2018
 ms.keywords: IBDA_DiseqCommand interface [Microsoft TV Technologies],put_DiseqUseToneBurst method, IBDA_DiseqCommand.put_DiseqUseToneBurst, IBDA_DiseqCommand::put_DiseqUseToneBurst, bdaiface/IBDA_DiseqCommand::put_DiseqUseToneBurst, mstv.ibda_diseqcommand_put_disequsetoneburst, put_DiseqUseToneBurst, put_DiseqUseToneBurst method [Microsoft TV Technologies], put_DiseqUseToneBurst method [Microsoft TV Technologies],IBDA_DiseqCommand interface
 ms.topic: method
-f1_keywords: 
- - "bdaiface/IBDA_DiseqCommand.put_DiseqUseToneBurst"
+f1_keywords:
+- bdaiface/IBDA_DiseqCommand.put_DiseqUseToneBurst
 dev_langs:
- - c++
+- c++
 req.header: bdaiface.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - bdaiface.h
+- bdaiface.h
 api_name:
- - IBDA_DiseqCommand.put_DiseqUseToneBurst
+- IBDA_DiseqCommand.put_DiseqUseToneBurst
 targetos: Windows
 req.typenames: 
 req.redist: 

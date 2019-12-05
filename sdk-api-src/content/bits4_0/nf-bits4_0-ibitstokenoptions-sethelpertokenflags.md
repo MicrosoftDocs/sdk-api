@@ -1,19 +1,17 @@
 ---
 UID: NF:bits4_0.IBitsTokenOptions.SetHelperTokenFlags
 title: IBitsTokenOptions::SetHelperTokenFlags (bits4_0.h)
-
 description: Sets the usage flags for a token that is associated with a BITS transfer job.
 old-location: bits\ibitstokenoptions_sethelpertokenflags.htm
 tech.root: Bits
 ms.assetid: bee8fda2-ec11-4969-be81-57a8b4177a1c
-
 ms.date: 12/05/2018
 ms.keywords: BG_TOKEN_LOCAL_FILE, BG_TOKEN_NETWORK, IBitsTokenOptions interface [BITS],SetHelperTokenFlags method, IBitsTokenOptions.SetHelperTokenFlags, IBitsTokenOptions::SetHelperTokenFlags, SetHelperTokenFlags, SetHelperTokenFlags method [BITS], SetHelperTokenFlags method [BITS],IBitsTokenOptions interface, bits.ibitstokenoptions_sethelpertokenflags, bits4_0/IBitsTokenOptions::SetHelperTokenFlags
 ms.topic: method
-f1_keywords: 
- - "bits4_0/IBitsTokenOptions.SetHelperTokenFlags"
+f1_keywords:
+- bits4_0/IBitsTokenOptions.SetHelperTokenFlags
 dev_langs:
- - c++
+- c++
 req.header: bits4_0.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Bits4_0.h
+- Bits4_0.h
 api_name:
- - IBitsTokenOptions.SetHelperTokenFlags
+- IBitsTokenOptions.SetHelperTokenFlags
 targetos: Windows
 req.typenames: 
 req.redist: Windows Management Framework on  Windows Vista with SP1,  Windows Vista with SP2, and  Windows Server 2008 with SP2

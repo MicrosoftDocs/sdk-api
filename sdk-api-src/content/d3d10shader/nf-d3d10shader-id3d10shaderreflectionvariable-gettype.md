@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d10shader.ID3D10ShaderReflectionVariable.GetType
 title: ID3D10ShaderReflectionVariable::GetType (d3d10shader.h)
-
 description: Get a shader-variable type.
 old-location: direct3d10\id3d10shaderreflectionvariable_gettype.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10shaderreflectionvariable_gettype.htm
-
 ms.date: 12/05/2018
 ms.keywords: 088c440d-f2c4-82ed-059a-f3ef98a485c6, GetType, GetType method [Direct3D 10], GetType method [Direct3D 10],ID3D10ShaderReflectionVariable interface, ID3D10ShaderReflectionVariable interface [Direct3D 10],GetType method, ID3D10ShaderReflectionVariable.GetType, ID3D10ShaderReflectionVariable::GetType, d3d10shader/ID3D10ShaderReflectionVariable::GetType, direct3d10.id3d10shaderreflectionvariable_gettype
 ms.topic: method
-f1_keywords: 
- - "d3d10shader/ID3D10ShaderReflectionVariable.GetType"
+f1_keywords:
+- d3d10shader/ID3D10ShaderReflectionVariable.GetType
 dev_langs:
- - c++
+- c++
 req.header: d3d10shader.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D10Shader.h
+- D3D10Shader.h
 api_name:
- - ID3D10ShaderReflectionVariable.GetType
+- ID3D10ShaderReflectionVariable.GetType
 targetos: Windows
 req.typenames: 
 req.redist: 

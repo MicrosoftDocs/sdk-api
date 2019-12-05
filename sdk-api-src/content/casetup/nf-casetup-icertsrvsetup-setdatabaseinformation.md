@@ -1,19 +1,17 @@
 ---
 UID: NF:casetup.ICertSrvSetup.SetDatabaseInformation
 title: ICertSrvSetup::SetDatabaseInformation (casetup.h)
-
 description: Sets the database related information for the certification authority (CA) role.
 old-location: security\icertsrvsetup_setdatabaseinformation.htm
 tech.root: SecCrypto
 ms.assetid: ae690d59-21fe-4429-8e80-ee2ce19a7090
-
 ms.date: 12/05/2018
 ms.keywords: ICertSrvSetup interface [Security],SetDatabaseInformation method, ICertSrvSetup.SetDatabaseInformation, ICertSrvSetup::SetDatabaseInformation, SetDatabaseInformation, SetDatabaseInformation method [Security], SetDatabaseInformation method [Security],ICertSrvSetup interface, casetup/ICertSrvSetup::SetDatabaseInformation, security.icertsrvsetup_setdatabaseinformation
 ms.topic: method
-f1_keywords: 
- - "casetup/ICertSrvSetup.SetDatabaseInformation"
+f1_keywords:
+- casetup/ICertSrvSetup.SetDatabaseInformation
 dev_langs:
- - c++
+- c++
 req.header: casetup.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Certocm.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Certocm.dll
+- Certocm.dll
 api_name:
- - ICertSrvSetup.SetDatabaseInformation
+- ICertSrvSetup.SetDatabaseInformation
 targetos: Windows
 req.typenames: 
 req.redist: 

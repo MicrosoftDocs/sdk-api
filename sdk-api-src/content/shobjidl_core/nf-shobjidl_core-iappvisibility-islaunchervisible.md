@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IAppVisibility.IsLauncherVisible
 title: IAppVisibility::IsLauncherVisible (shobjidl_core.h)
-
 description: Gets a value that indicates whether the Start screen is displayed.
 old-location: shell\IAppVisibility_IsLauncherVisible.htm
 tech.root: shell
 ms.assetid: 8D7BBAEC-A745-4707-861E-74CC331ED356
-
 ms.date: 12/05/2018
 ms.keywords: IAppVisibility interface [Windows Shell],IsLauncherVisible method, IAppVisibility.IsLauncherVisible, IAppVisibility::IsLauncherVisible, IsLauncherVisible, IsLauncherVisible method [Windows Shell], IsLauncherVisible method [Windows Shell],IAppVisibility interface, shell.IAppVisibility_IsLauncherVisible, shobjidl_core/IAppVisibility::IsLauncherVisible
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IAppVisibility.IsLauncherVisible"
+f1_keywords:
+- shobjidl_core/IAppVisibility.IsLauncherVisible
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - IAppVisibility.IsLauncherVisible
+- IAppVisibility.IsLauncherVisible
 targetos: Windows
 req.typenames: 
 req.redist: 

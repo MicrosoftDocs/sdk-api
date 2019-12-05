@@ -1,19 +1,17 @@
 ---
 UID: NF:wmsdkidl.IWMDRMReader.GetDRMProperty
 title: IWMDRMReader::GetDRMProperty (wmsdkidl.h)
-
 description: The GetDRMProperty method retrieves DRM-specific file attributes and run-time properties.
 old-location: wmformat\iwmdrmreader_getdrmproperty.htm
 tech.root: wmformat
 ms.assetid: 86ee18be-38a9-4f76-810c-e33281df8c23
-
 ms.date: 12/05/2018
 ms.keywords: GetDRMProperty, GetDRMProperty method [windows Media Format], GetDRMProperty method [windows Media Format],IWMDRMReader interface, IWMDRMReader interface [windows Media Format],GetDRMProperty method, IWMDRMReader.GetDRMProperty, IWMDRMReader::GetDRMProperty, IWMDRMReaderGetDRMProperty, wmformat.iwmdrmreader_getdrmproperty, wmsdkidl/IWMDRMReader::GetDRMProperty
 ms.topic: method
-f1_keywords: 
- - "wmsdkidl/IWMDRMReader.GetDRMProperty"
+f1_keywords:
+- wmsdkidl/IWMDRMReader.GetDRMProperty
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: WMStubDRM.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - WMStubDRM.lib
- - WMStubDRM.dll
+- WMStubDRM.lib
+- WMStubDRM.dll
 api_name:
- - IWMDRMReader.GetDRMProperty
+- IWMDRMReader.GetDRMProperty
 targetos: Windows
 req.typenames: 
 req.redist: 

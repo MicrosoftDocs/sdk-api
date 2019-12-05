@@ -1,19 +1,17 @@
 ---
 UID: NF:vmr9.IVMRMixerBitmap9.GetAlphaBitmapParameters
 title: IVMRMixerBitmap9::GetAlphaBitmapParameters (vmr9.h)
-
 description: The GetAlphaBitmapParameters method retrieves a copy of the current image and related blending parameters.
 old-location: dshow\ivmrmixerbitmap9_getalphabitmapparameters.htm
 tech.root: DirectShow
 ms.assetid: a5e5891f-6842-40e7-8bf4-29c6979c7551
-
 ms.date: 12/05/2018
 ms.keywords: GetAlphaBitmapParameters, GetAlphaBitmapParameters method [DirectShow], GetAlphaBitmapParameters method [DirectShow],IVMRMixerBitmap9 interface, IVMRMixerBitmap9 interface [DirectShow],GetAlphaBitmapParameters method, IVMRMixerBitmap9.GetAlphaBitmapParameters, IVMRMixerBitmap9::GetAlphaBitmapParameters, IVMRMixerBitmap9GetAlphaBitmapParameters, dshow.ivmrmixerbitmap9_getalphabitmapparameters, vmr9/IVMRMixerBitmap9::GetAlphaBitmapParameters
 ms.topic: method
 f1_keywords:
 - vmr9/IVMRMixerBitmap9.GetAlphaBitmapParameters
 dev_langs:
- - c++
+- c++
 req.header: vmr9.h
 req.include-header: 
 req.target-type: Windows

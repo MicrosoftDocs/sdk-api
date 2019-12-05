@@ -1,19 +1,17 @@
 ---
 UID: NF:dwrite_3.IDWriteStringList.GetStringLength
 title: IDWriteStringList::GetStringLength (dwrite_3.h)
-
 description: Gets the length in characters (not including the null terminator) of the string with the specified index.
 old-location: directwrite\idwritestringlist_getstringlength.htm
 tech.root: DirectWrite
 ms.assetid: 5511DD28-22B1-4006-A724-13C2C4A17E6C
-
 ms.date: 12/05/2018
 ms.keywords: GetStringLength, GetStringLength method [Direct Write], GetStringLength method [Direct Write],IDWriteStringList interface, IDWriteStringList interface [Direct Write],GetStringLength method, IDWriteStringList.GetStringLength, IDWriteStringList::GetStringLength, directwrite.idwritestringlist_getstringlength, dwrite_3/IDWriteStringList::GetStringLength
 ms.topic: method
-f1_keywords: 
- - "dwrite_3/IDWriteStringList.GetStringLength"
+f1_keywords:
+- dwrite_3/IDWriteStringList.GetStringLength
 dev_langs:
- - c++
+- c++
 req.header: dwrite_3.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dwrite.lib
 req.dll: Dwrite.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dwrite.dll
+- dwrite.dll
 api_name:
- - IDWriteStringList.GetStringLength
+- IDWriteStringList.GetStringLength
 targetos: Windows
 req.typenames: 
 req.redist: 

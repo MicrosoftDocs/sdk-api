@@ -1,19 +1,17 @@
 ---
 UID: NF:wmsdkidl.IWMProximityDetection.StartDetection
 title: IWMProximityDetection::StartDetection (wmsdkidl.h)
-
 description: The StartDetection method begins the proximity detection process. After calling this method, do not release the IWMProximityDetection until you recieve the WMT_PROXIMITY_COMPLETED message.
 old-location: wmformat\iwmproximitydetection_startdetection.htm
 tech.root: wmformat
 ms.assetid: 90db4712-cf3e-4526-b07b-ea74c521dbc3
-
 ms.date: 12/05/2018
 ms.keywords: IWMProximityDetection interface [windows Media Format],StartDetection method, IWMProximityDetection.StartDetection, IWMProximityDetection::StartDetection, IWMProximityDetectionStartDetection, StartDetection, StartDetection method [windows Media Format], StartDetection method [windows Media Format],IWMProximityDetection interface, wmformat.iwmproximitydetection_startdetection, wmsdkidl/IWMProximityDetection::StartDetection
 ms.topic: method
-f1_keywords: 
- - "wmsdkidl/IWMProximityDetection.StartDetection"
+f1_keywords:
+- wmsdkidl/IWMProximityDetection.StartDetection
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: WMStubDRM.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - WMStubDRM.lib
- - WMStubDRM.dll
+- WMStubDRM.lib
+- WMStubDRM.dll
 api_name:
- - IWMProximityDetection.StartDetection
+- IWMProximityDetection.StartDetection
 targetos: Windows
 req.typenames: 
 req.redist: 

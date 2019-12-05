@@ -1,19 +1,17 @@
 ---
 UID: NF:winsvc.UnlockServiceDatabase
 title: UnlockServiceDatabase function (winsvc.h)
-
 description: Unlocks a service control manager database by releasing the specified lock.
 old-location: base\unlockservicedatabase.htm
 tech.root: Services
 ms.assetid: 3277d175-ab0b-43ce-965f-f8087d0124e4
-
 ms.date: 12/05/2018
 ms.keywords: UnlockServiceDatabase, UnlockServiceDatabase function, _win32_unlockservicedatabase, base.unlockservicedatabase, winsvc/UnlockServiceDatabase
 ms.topic: function
-f1_keywords: 
- - "winsvc/UnlockServiceDatabase"
+f1_keywords:
+- winsvc/UnlockServiceDatabase
 dev_langs:
- - c++
+- c++
 req.header: winsvc.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Advapi32.dll
+- Advapi32.dll
 api_name:
- - UnlockServiceDatabase
+- UnlockServiceDatabase
 targetos: Windows
 req.typenames: 
 req.redist: 

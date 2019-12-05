@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl.INameSpaceTreeControl2.GetControlStyle
 title: INameSpaceTreeControl2::GetControlStyle (shobjidl.h)
-
 description: Gets the display styles set for the namespace object's treeview controls.
 old-location: shell\INameSpaceTreeControl2_GetControlStyle.htm
 tech.root: shell
 ms.assetid: 5305d7ba-e37f-4f95-8ae2-e0532012cb1e
-
 ms.date: 12/05/2018
 ms.keywords: GetControlStyle, GetControlStyle method [Windows Shell], GetControlStyle method [Windows Shell],INameSpaceTreeControl2 interface, INameSpaceTreeControl2 interface [Windows Shell],GetControlStyle method, INameSpaceTreeControl2.GetControlStyle, INameSpaceTreeControl2::GetControlStyle, _shell_INameSpaceTreeControl2_GetControlStyle, shell.INameSpaceTreeControl2_GetControlStyle, shobjidl/INameSpaceTreeControl2::GetControlStyle
 ms.topic: method
-f1_keywords: 
- - "shobjidl/INameSpaceTreeControl2.GetControlStyle"
+f1_keywords:
+- shobjidl/INameSpaceTreeControl2.GetControlStyle
 dev_langs:
- - c++
+- c++
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shobjidl.h
+- Shobjidl.h
 api_name:
- - INameSpaceTreeControl2.GetControlStyle
+- INameSpaceTreeControl2.GetControlStyle
 targetos: Windows
 req.typenames: 
 req.redist: 

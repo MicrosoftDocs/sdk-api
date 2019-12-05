@@ -1,19 +1,17 @@
 ---
 UID: NN:iwscapi.IWSCProductList
 title: IWSCProductList (iwscapi.h)
-
 description: Provides methods to collect product information for the selected type of providers installed on the computer.
 old-location: winprog\iwscproductlist.htm
 tech.root: DevNotes
 ms.assetid: 81BC78F1-6F95-49D3-8EDD-EB7E13119A86
-
 ms.date: 12/05/2018
 ms.keywords: IWSCProductList, IWSCProductList interface [Windows API], IWSCProductList interface [Windows API],described, iwscapi/IWSCProductList, winprog.iwscproductlist
 ms.topic: interface
-f1_keywords: 
- - "iwscapi/IWSCProductList"
+f1_keywords:
+- iwscapi/IWSCProductList
 dev_langs:
- - c++
+- c++
 req.header: iwscapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - iwscapi.h
+- iwscapi.h
 api_name:
- - IWSCProductList
+- IWSCProductList
 targetos: Windows
 req.typenames: 
 req.redist: 

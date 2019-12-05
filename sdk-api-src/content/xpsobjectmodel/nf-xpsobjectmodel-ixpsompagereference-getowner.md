@@ -1,19 +1,17 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMPageReference.GetOwner
 title: IXpsOMPageReference::GetOwner (xpsobjectmodel.h)
-
 description: Gets a pointer to the IXpsOMDocument interface that contains the page reference.
 old-location: xps\ixpsompagereference_getowner.htm
 tech.root: printdocs
 ms.assetid: 1229972d-ae0f-41db-aafb-99d9647360e1
-
 ms.date: 12/05/2018
 ms.keywords: GetOwner, GetOwner method [XPS Documents and Packaging], GetOwner method [XPS Documents and Packaging],IXpsOMPageReference interface, IXpsOMPageReference interface [XPS Documents and Packaging],GetOwner method, IXpsOMPageReference.GetOwner, IXpsOMPageReference::GetOwner, xps.ixpsompagereference_getowner, xpsobjectmodel/IXpsOMPageReference::GetOwner
 ms.topic: method
-f1_keywords: 
- - "xpsobjectmodel/IXpsOMPageReference.GetOwner"
+f1_keywords:
+- xpsobjectmodel/IXpsOMPageReference.GetOwner
 dev_langs:
- - c++
+- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsobjectmodel.h
+- xpsobjectmodel.h
 api_name:
- - IXpsOMPageReference.GetOwner
+- IXpsOMPageReference.GetOwner
 targetos: Windows
 req.typenames: 
 req.redist: 

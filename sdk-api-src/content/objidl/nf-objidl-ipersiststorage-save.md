@@ -1,19 +1,17 @@
 ---
 UID: NF:objidl.IPersistStorage.Save
 title: IPersistStorage::Save (objidl.h)
-
 description: Saves an object, and any nested objects that it contains, into the specified storage object. The object enters NoScribble mode.
 old-location: com\ipersiststorage_save.htm
 tech.root: com
 ms.assetid: 3a200812-48d9-4202-987a-1400aa66191c
-
 ms.date: 12/05/2018
 ms.keywords: IPersistStorage interface [COM],Save method, IPersistStorage.Save, IPersistStorage::Save, Save, Save method [COM], Save method [COM],IPersistStorage interface, _com_ipersiststorage_save, com.ipersiststorage_save, objidl/IPersistStorage::Save
 ms.topic: method
-f1_keywords: 
- - "objidl/IPersistStorage.Save"
+f1_keywords:
+- objidl/IPersistStorage.Save
 dev_langs:
- - c++
+- c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ObjIdl.h
+- ObjIdl.h
 api_name:
- - IPersistStorage.Save
+- IPersistStorage.Save
 targetos: Windows
 req.typenames: 
 req.redist: 

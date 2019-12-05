@@ -1,19 +1,17 @@
 ---
 UID: NF:xenroll.ICEnroll4.addExtensionToRequest
 title: ICEnroll4::addExtensionToRequest (xenroll.h)
-
 description: The ICEnroll4::addExtensionToRequest method adds an extension to the request.
 old-location: security\icenroll4_addextensiontorequest.htm
 tech.root: SecCrypto
 ms.assetid: 0bd46cd6-cc7e-4d87-b8ff-8fa01f639282
-
 ms.date: 12/05/2018
 ms.keywords: CEnroll object [Security],addExtensionToRequest method, ICEnroll4 interface [Security],addExtensionToRequest method, ICEnroll4.addExtensionToRequest, ICEnroll4::addExtensionToRequest, _xen_icenroll4_addextensiontorequest, addExtensionToRequest, addExtensionToRequest method [Security], addExtensionToRequest method [Security],CEnroll object, addExtensionToRequest method [Security],ICEnroll4 interface, security.icenroll4_addextensiontorequest, xenroll/ICEnroll4::addExtensionToRequest
 ms.topic: method
-f1_keywords: 
- - "xenroll/ICEnroll4.addExtensionToRequest"
+f1_keywords:
+- xenroll/ICEnroll4.addExtensionToRequest
 dev_langs:
- - c++
+- c++
 req.header: xenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Uuid.lib
 req.dll: Xenroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Xenroll.dll
+- Xenroll.dll
 api_name:
- - ICEnroll4.addExtensionToRequest
- - CEnroll.addExtensionToRequest
+- ICEnroll4.addExtensionToRequest
+- CEnroll.addExtensionToRequest
 targetos: Windows
 req.typenames: 
 req.redist: 

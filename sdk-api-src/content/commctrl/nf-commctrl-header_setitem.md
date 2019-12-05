@@ -1,19 +1,17 @@
 ---
 UID: NF:commctrl.Header_SetItem
 title: Header_SetItem macro (commctrl.h)
-
 description: Sets the attributes of the specified item in a header control. You can use this macro or send the HDM_SETITEM message explicitly.
 old-location: controls\Header_SetItem.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\header\macros\header_setitem.htm
-
 ms.date: 12/05/2018
 ms.keywords: Header_SetItem, Header_SetItem macro [Windows Controls], _win32_Header_SetItem, _win32_Header_SetItem_cpp, commctrl/Header_SetItem, controls.Header_SetItem, controls._win32_Header_SetItem
 ms.topic: macro
-f1_keywords: 
- - "commctrl/Header_SetItem"
+f1_keywords:
+- commctrl/Header_SetItem
 dev_langs:
- - c++
+- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Commctrl.h
+- Commctrl.h
 api_name:
- - Header_SetItem
+- Header_SetItem
 targetos: Windows
 req.typenames: 
 req.redist: 

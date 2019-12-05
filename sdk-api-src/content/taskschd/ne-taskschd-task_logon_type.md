@@ -1,19 +1,17 @@
 ---
 UID: NE:taskschd._TASK_LOGON_TYPE
 title: TASK_LOGON_TYPE (taskschd.h)
-
 description: Defines what logon technique is required to run a task.
 old-location: taskschd\task_logon_type.htm
 tech.root: taskschd
 ms.assetid: 93952769-6076-4e71-9ea4-d7e7c3c908d8
-
 ms.date: 12/05/2018
 ms.keywords: TASK_LOGON_GROUP, TASK_LOGON_INTERACTIVE_TOKEN, TASK_LOGON_INTERACTIVE_TOKEN_OR_PASSWORD, TASK_LOGON_NONE, TASK_LOGON_PASSWORD, TASK_LOGON_S4U, TASK_LOGON_SERVICE_ACCOUNT, TASK_LOGON_TYPE, TASK_LOGON_TYPE enumeration [Task Scheduler], taskschd.task_logon_type, taskschd/TASK_LOGON_GROUP, taskschd/TASK_LOGON_INTERACTIVE_TOKEN, taskschd/TASK_LOGON_INTERACTIVE_TOKEN_OR_PASSWORD, taskschd/TASK_LOGON_NONE, taskschd/TASK_LOGON_PASSWORD, taskschd/TASK_LOGON_S4U, taskschd/TASK_LOGON_SERVICE_ACCOUNT, taskschd/TASK_LOGON_TYPE
 ms.topic: enum
-f1_keywords: 
- - "taskschd/TASK_LOGON_TYPE"
+f1_keywords:
+- taskschd/TASK_LOGON_TYPE
 dev_langs:
- - c++
+- c++
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - taskschd.h
+- taskschd.h
 api_name:
- - TASK_LOGON_TYPE
+- TASK_LOGON_TYPE
 targetos: Windows
 req.typenames: TASK_LOGON_TYPE
 req.redist: 

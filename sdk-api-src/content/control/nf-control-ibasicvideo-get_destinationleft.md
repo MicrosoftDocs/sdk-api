@@ -1,19 +1,17 @@
 ---
 UID: NF:control.IBasicVideo.get_DestinationLeft
 title: IBasicVideo::get_DestinationLeft (control.h)
-
 description: The get_DestinationLeft method retrieves the x-coordinate of the destination rectangle.
 old-location: dshow\ibasicvideo_get_destinationleft.htm
 tech.root: DirectShow
 ms.assetid: 578f5bbd-23b0-4100-a1d8-0987381fd56f
-
 ms.date: 12/05/2018
 ms.keywords: IBasicVideo interface [DirectShow],get_DestinationLeft method, IBasicVideo.get_DestinationLeft, IBasicVideo::get_DestinationLeft, IBasicVideoget_DestinationLeft, control/IBasicVideo::get_DestinationLeft, dshow.ibasicvideo_get_destinationleft, get_DestinationLeft, get_DestinationLeft method [DirectShow], get_DestinationLeft method [DirectShow],IBasicVideo interface
 ms.topic: method
-f1_keywords: 
- - "control/IBasicVideo.get_DestinationLeft"
+f1_keywords:
+- control/IBasicVideo.get_DestinationLeft
 dev_langs:
- - c++
+- c++
 req.header: control.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IBasicVideo.get_DestinationLeft
+- IBasicVideo.get_DestinationLeft
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:mfmediaengine.IMFMediaEngineClassFactory2.CreateMediaKeys2
 title: IMFMediaEngineClassFactory2::CreateMediaKeys2 (mfmediaengine.h)
-
 description: Creates a media keys object based on the specified key system.
 old-location: mf\imfmediaengineclassfactory2_createmediakeys2.htm
 tech.root: medfound
 ms.assetid: 857F4573-41B3-488C-88A9-4744EBE5D38B
-
 ms.date: 12/05/2018
 ms.keywords: CreateMediaKeys2, CreateMediaKeys2 method [Media Foundation], CreateMediaKeys2 method [Media Foundation],IMFMediaEngineClassFactory2 interface, IMFMediaEngineClassFactory2 interface [Media Foundation],CreateMediaKeys2 method, IMFMediaEngineClassFactory2.CreateMediaKeys2, IMFMediaEngineClassFactory2::CreateMediaKeys2, mf.imfmediaengineclassfactory2_createmediakeys2, mfmediaengine/IMFMediaEngineClassFactory2::CreateMediaKeys2
 ms.topic: method
-f1_keywords: 
- - "mfmediaengine/IMFMediaEngineClassFactory2.CreateMediaKeys2"
+f1_keywords:
+- mfmediaengine/IMFMediaEngineClassFactory2.CreateMediaKeys2
 dev_langs:
- - c++
+- c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfmediaengine.h
+- mfmediaengine.h
 api_name:
- - IMFMediaEngineClassFactory2.CreateMediaKeys2
+- IMFMediaEngineClassFactory2.CreateMediaKeys2
 targetos: Windows
 req.typenames: 
 req.redist: 

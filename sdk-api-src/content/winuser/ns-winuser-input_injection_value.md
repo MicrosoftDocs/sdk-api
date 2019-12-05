@@ -1,19 +1,17 @@
 ---
 UID: NS:winuser.tagINPUT_INJECTION_VALUE
 title: INPUT_INJECTION_VALUE (winuser.h)
-
 description: Contains the input injection details.
 old-location: input_pointerdevice\input_injection_value.htm
 tech.root: Input_PointerDevice
 ms.assetid: 8F639719-A098-4850-933D-F84DEA412242
-
 ms.date: 12/05/2018
-ms.keywords: "*PINPUT_INJECTION_VALUE, INPUT_INJECTION_VALUE, INPUT_INJECTION_VALUE structure, PINPUT_INJECTION_VALUE, PINPUT_INJECTION_VALUE structure pointer, input_pointerdevice.input_injection_value, winuser/INPUT_INJECTION_VALUE, winuser/PINPUT_INJECTION_VALUE"
+ms.keywords: '*PINPUT_INJECTION_VALUE, INPUT_INJECTION_VALUE, INPUT_INJECTION_VALUE structure, PINPUT_INJECTION_VALUE, PINPUT_INJECTION_VALUE structure pointer, input_pointerdevice.input_injection_value, winuser/INPUT_INJECTION_VALUE, winuser/PINPUT_INJECTION_VALUE'
 ms.topic: struct
-f1_keywords: 
- - "winuser/INPUT_INJECTION_VALUE"
+f1_keywords:
+- winuser/INPUT_INJECTION_VALUE
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - winuser.h
+- winuser.h
 api_name:
- - INPUT_INJECTION_VALUE
+- INPUT_INJECTION_VALUE
 targetos: Windows
 req.typenames: INPUT_INJECTION_VALUE, *PINPUT_INJECTION_VALUE
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NN:msopc.IOpcRelationshipSelectorEnumerator
 title: IOpcRelationshipSelectorEnumerator (msopc.h)
-
 description: A read-only enumerator of IOpcRelationshipSelector interface pointers.
 old-location: opc\iopcrelationshipselectorenumerator.htm
 tech.root: OPC
 ms.assetid: 9c0bbc0d-d950-4929-9100-41a7f016a208
-
 ms.date: 12/05/2018
 ms.keywords: IOpcRelationshipSelectorEnumerator, IOpcRelationshipSelectorEnumerator interface [Open Packaging Conventions], IOpcRelationshipSelectorEnumerator interface [Open Packaging Conventions],described, msopc/IOpcRelationshipSelectorEnumerator, opc.iopcrelationshipselectorenumerator
 ms.topic: interface
-f1_keywords: 
- - "msopc/IOpcRelationshipSelectorEnumerator"
+f1_keywords:
+- msopc/IOpcRelationshipSelectorEnumerator
 dev_langs:
- - c++
+- c++
 req.header: msopc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msopc.h
+- msopc.h
 api_name:
- - IOpcRelationshipSelectorEnumerator
+- IOpcRelationshipSelectorEnumerator
 targetos: Windows
 req.typenames: 
 req.redist: 

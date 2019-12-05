@@ -1,19 +1,17 @@
 ---
 UID: NE:devicetopology.__MIDL___MIDL_itf_devicetopology_0000_0000_0013
 title: ConnectorType (devicetopology.h)
-
 description: The ConnectorType enumeration indicates the type of connection that a connector is part of.
 old-location: coreaudio\connectortype.htm
 tech.root: CoreAudio
 ms.assetid: 7171a880-2a3e-45aa-803d-26bf5e9e0365
-
 ms.date: 12/05/2018
 ms.keywords: ConnectorType, ConnectorType , ConnectorType enumeration [Core Audio], Network, Physical_External, Physical_Internal, Software_Fixed, Software_IO, Unknown_Connector, coreaudio.connectortype, devicetopology/ConnectorType, devicetopology/Network, devicetopology/Physical_External, devicetopology/Physical_Internal, devicetopology/Software_Fixed, devicetopology/Software_IO, devicetopology/Unknown_Connector
 ms.topic: enum
-f1_keywords: 
- - "devicetopology/ConnectorType"
+f1_keywords:
+- devicetopology/ConnectorType
 dev_langs:
- - c++
+- c++
 req.header: devicetopology.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Devicetopology.h
+- Devicetopology.h
 api_name:
- - ConnectorType
+- ConnectorType
 targetos: Windows
 req.typenames: ConnectorType
 req.redist: 

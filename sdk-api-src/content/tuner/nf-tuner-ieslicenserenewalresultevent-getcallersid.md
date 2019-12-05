@@ -1,19 +1,17 @@
 ---
 UID: NF:tuner.IESLicenseRenewalResultEvent.GetCallersId
 title: IESLicenseRenewalResultEvent::GetCallersId (tuner.h)
-
 description: Gets a unique identifier from a LicenseRenewalResult event that identifies the caller.
 old-location: mstv\ieslicenserenewalresultevent_getcallersid.htm
 tech.root: mstv
 ms.assetid: c1dfbd63-c165-4872-b992-3f536be9cad1
-
 ms.date: 12/05/2018
 ms.keywords: GetCallersId, GetCallersId method [DirectShow], GetCallersId method [DirectShow],IESLicenseRenewalResultEvent interface, IESLicenseRenewalResultEvent interface [DirectShow],GetCallersId method, IESLicenseRenewalResultEvent.GetCallersId, IESLicenseRenewalResultEvent::GetCallersId, mstv.ieslicenserenewalresultevent_getcallersid, tuner/IESLicenseRenewalResultEvent::GetCallersId
 ms.topic: method
-f1_keywords: 
- - "tuner/IESLicenseRenewalResultEvent.GetCallersId"
+f1_keywords:
+- tuner/IESLicenseRenewalResultEvent.GetCallersId
 dev_langs:
- - c++
+- c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - tuner.h
+- tuner.h
 api_name:
- - IESLicenseRenewalResultEvent.GetCallersId
+- IESLicenseRenewalResultEvent.GetCallersId
 targetos: Windows
 req.typenames: 
 req.redist: 

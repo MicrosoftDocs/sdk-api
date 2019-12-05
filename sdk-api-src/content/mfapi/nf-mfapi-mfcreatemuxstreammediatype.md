@@ -1,19 +1,17 @@
 ---
 UID: NF:mfapi.MFCreateMuxStreamMediaType
 title: MFCreateMuxStreamMediaType function (mfapi.h)
-
 description: Creates an IMFMediaType describing the media types of multiplexed substreams.
 old-location: mf\mfcreatemuxstreammediatype.htm
 tech.root: medfound
 ms.assetid: 27E1295C-BFB1-45EB-ABB2-DDFF927F6E30
-
 ms.date: 12/05/2018
 ms.keywords: MFCreateMuxStreamMediaType, MFCreateMuxStreamMediaType function [Media Foundation], mf.mfcreatemuxstreammediatype, mfapi/MFCreateMuxStreamMediaType
 ms.topic: function
-f1_keywords: 
- - "mfapi/MFCreateMuxStreamMediaType"
+f1_keywords:
+- mfapi/MFCreateMuxStreamMediaType
 dev_langs:
- - c++
+- c++
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Mfplat.lib
 req.dll: Mfplat.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - mfplat.dll
+- mfplat.dll
 api_name:
- - MFCreateMuxStreamMediaType
+- MFCreateMuxStreamMediaType
 targetos: Windows
 req.typenames: 
 req.redist: 

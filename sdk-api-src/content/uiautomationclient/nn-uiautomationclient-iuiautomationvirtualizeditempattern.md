@@ -1,19 +1,17 @@
 ---
 UID: NN:uiautomationclient.IUIAutomationVirtualizedItemPattern
 title: IUIAutomationVirtualizedItemPattern (uiautomationclient.h)
-
 description: Represents an virtualized item, which is an item that is represented by a placeholder automation element in the Microsoft UI Automation tree.
 old-location: winauto\uiauto_IUIAutomationVirtualizedItemPattern.htm
 tech.root: WinAuto
 ms.assetid: 48f066f3-c78c-47a2-9668-ab79b1438130
-
 ms.date: 12/05/2018
 ms.keywords: IUIAutomationVirtualizedItemPattern, IUIAutomationVirtualizedItemPattern interface [Windows Accessibility], IUIAutomationVirtualizedItemPattern interface [Windows Accessibility],described, uiauto.uiauto_IUIAutomationVirtualizedItemPattern, uiauto_IUIAutomationVirtualizedItemPattern, uiautomationclient/IUIAutomationVirtualizedItemPattern, winauto.uiauto_IUIAutomationVirtualizedItemPattern
 ms.topic: interface
-f1_keywords: 
- - "uiautomationclient/IUIAutomationVirtualizedItemPattern"
+f1_keywords:
+- uiautomationclient/IUIAutomationVirtualizedItemPattern
 dev_langs:
- - c++
+- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: UIAutomationCore.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationCore.dll
+- UIAutomationCore.dll
 api_name:
- - IUIAutomationVirtualizedItemPattern
+- IUIAutomationVirtualizedItemPattern
 targetos: Windows
 req.typenames: 
 req.redist: 

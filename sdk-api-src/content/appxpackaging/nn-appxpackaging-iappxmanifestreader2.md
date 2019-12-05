@@ -1,19 +1,17 @@
 ---
 UID: NN:appxpackaging.IAppxManifestReader2
 title: IAppxManifestReader2 (appxpackaging.h)
-
 description: Represents an object model of the package manifest that provides methods to access manifest elements and attributes.
 old-location: appxpkg\iappxmanifestreader2.htm
 tech.root: appxpkg
 ms.assetid: B10A1ACB-12F4-4338-A6D6-6D2B829F9D62
-
 ms.date: 12/05/2018
 ms.keywords: IAppxManifestReader2, IAppxManifestReader2 interface [App packaging and management], IAppxManifestReader2 interface [App packaging and management],described, appxpackaging/IAppxManifestReader2, appxpkg.iappxmanifestreader2
 ms.topic: interface
-f1_keywords: 
- - "appxpackaging/IAppxManifestReader2"
+f1_keywords:
+- appxpackaging/IAppxManifestReader2
 dev_langs:
- - c++
+- c++
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - AppxPackaging.h
+- AppxPackaging.h
 api_name:
- - IAppxManifestReader2
+- IAppxManifestReader2
 targetos: Windows
 req.typenames: 
 req.redist: 

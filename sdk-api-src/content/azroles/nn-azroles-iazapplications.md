@@ -1,19 +1,17 @@
 ---
 UID: NN:azroles.IAzApplications
 title: IAzApplications (azroles.h)
-
 description: Represents a collection of IAzApplication objects.
 old-location: security\iazapplications.htm
 tech.root: SecAuthZ
 ms.assetid: 04cee21c-253a-463a-9231-592ddad88188
-
 ms.date: 12/05/2018
 ms.keywords: IAzApplications, IAzApplications interface [Security], IAzApplications interface [Security],described, azroles/IAzApplications, security.iazapplications
 ms.topic: interface
-f1_keywords: 
- - "azroles/IAzApplications"
+f1_keywords:
+- azroles/IAzApplications
 dev_langs:
- - c++
+- c++
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Azroles.lib
 req.dll: Azroles.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Azroles.dll
+- Azroles.dll
 api_name:
- - IAzApplications
+- IAzApplications
 targetos: Windows
 req.typenames: 
 req.redist: Windows Server 2003 Administration Tools Pack on Windows XP

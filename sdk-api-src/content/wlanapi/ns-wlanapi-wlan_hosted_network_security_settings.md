@@ -1,19 +1,17 @@
 ---
 UID: NS:wlanapi._WLAN_HOSTED_NETWORK_SECURITY_SETTINGS
 title: WLAN_HOSTED_NETWORK_SECURITY_SETTINGS (wlanapi.h)
-
 description: Contains information about the security settings on the wireless Hosted Network.
 old-location: nwifi\wlan_hosted_network_security_settings.htm
 tech.root: NativeWiFi
 ms.assetid: b86beb10-52e5-4bc0-95fe-08307f8d1ccd
-
 ms.date: 12/05/2018
-ms.keywords: "*PWLAN_HOSTED_NETWORK_SECURITY_SETTINGS, PWLAN_HOSTED_NETWORK_SECURITY_SETTINGS, PWLAN_HOSTED_NETWORK_SECURITY_SETTINGS structure pointer [NativeWIFI], WLAN_HOSTED_NETWORK_SECURITY_SETTINGS, WLAN_HOSTED_NETWORK_SECURITY_SETTINGS structure [NativeWIFI], nwifi.wlan_hosted_network_security_settings, wlanapi/PWLAN_HOSTED_NETWORK_SECURITY_SETTINGS, wlanapi/WLAN_HOSTED_NETWORK_SECURITY_SETTINGS"
+ms.keywords: '*PWLAN_HOSTED_NETWORK_SECURITY_SETTINGS, PWLAN_HOSTED_NETWORK_SECURITY_SETTINGS, PWLAN_HOSTED_NETWORK_SECURITY_SETTINGS structure pointer [NativeWIFI], WLAN_HOSTED_NETWORK_SECURITY_SETTINGS, WLAN_HOSTED_NETWORK_SECURITY_SETTINGS structure [NativeWIFI], nwifi.wlan_hosted_network_security_settings, wlanapi/PWLAN_HOSTED_NETWORK_SECURITY_SETTINGS, wlanapi/WLAN_HOSTED_NETWORK_SECURITY_SETTINGS'
 ms.topic: struct
-f1_keywords: 
- - "wlanapi/WLAN_HOSTED_NETWORK_SECURITY_SETTINGS"
+f1_keywords:
+- wlanapi/WLAN_HOSTED_NETWORK_SECURITY_SETTINGS
 dev_langs:
- - c++
+- c++
 req.header: wlanapi.h
 req.include-header: Wlanapi.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wlanapi.h
+- Wlanapi.h
 api_name:
- - WLAN_HOSTED_NETWORK_SECURITY_SETTINGS
+- WLAN_HOSTED_NETWORK_SECURITY_SETTINGS
 targetos: Windows
 req.typenames: WLAN_HOSTED_NETWORK_SECURITY_SETTINGS, *PWLAN_HOSTED_NETWORK_SECURITY_SETTINGS
 req.redist: 

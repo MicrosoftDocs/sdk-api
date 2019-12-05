@@ -1,19 +1,17 @@
 ---
 UID: NF:shappmgr.IPublishedApp2.Install2
 title: IPublishedApp2::Install2 (shappmgr.h)
-
 description: Installs an application published by an application publisher, while preventing multiple windows from being active on the same thread.
 old-location: shell\IPublishedApp2_Install2.htm
 tech.root: shell
 ms.assetid: ce2319d0-e4e8-49a8-9803-ef386c6969a9
-
 ms.date: 12/05/2018
 ms.keywords: IPublishedApp2 interface [Windows Shell],Install2 method, IPublishedApp2.Install2, IPublishedApp2::Install2, Install2, Install2 method [Windows Shell], Install2 method [Windows Shell],IPublishedApp2 interface, _shell_IPublishedApp2_Install2, shappmgr/IPublishedApp2::Install2, shell.IPublishedApp2_Install2
 ms.topic: method
-f1_keywords: 
- - "shappmgr/IPublishedApp2.Install2"
+f1_keywords:
+- shappmgr/IPublishedApp2.Install2
 dev_langs:
- - c++
+- c++
 req.header: shappmgr.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shappmgr.h
+- Shappmgr.h
 api_name:
- - IPublishedApp2.Install2
+- IPublishedApp2.Install2
 targetos: Windows
 req.typenames: 
 req.redist: 

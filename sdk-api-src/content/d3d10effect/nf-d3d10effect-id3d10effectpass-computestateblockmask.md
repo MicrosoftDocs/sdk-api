@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d10effect.ID3D10EffectPass.ComputeStateBlockMask
 title: ID3D10EffectPass::ComputeStateBlockMask (d3d10effect.h)
-
 description: Generate a mask for allowing/preventing state changes.
 old-location: direct3d10\id3d10effectpass_computestateblockmask.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10effectpass_computestateblockmask.htm
-
 ms.date: 12/05/2018
 ms.keywords: 50c69f93-7d81-a766-082e-21f700d2f1ec, ComputeStateBlockMask, ComputeStateBlockMask method [Direct3D 10], ComputeStateBlockMask method [Direct3D 10],ID3D10EffectPass interface, ID3D10EffectPass interface [Direct3D 10],ComputeStateBlockMask method, ID3D10EffectPass.ComputeStateBlockMask, ID3D10EffectPass::ComputeStateBlockMask, d3d10effect/ID3D10EffectPass::ComputeStateBlockMask, direct3d10.id3d10effectpass_computestateblockmask
 ms.topic: method
 f1_keywords:
 - d3d10effect/ID3D10EffectPass.ComputeStateBlockMask
 dev_langs:
- - c++
+- c++
 req.header: d3d10effect.h
 req.include-header: 
 req.target-type: Windows

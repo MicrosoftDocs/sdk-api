@@ -1,19 +1,17 @@
 ---
 UID: NN:comsvcs.IComThreadEvents
 title: IComThreadEvents (comsvcs.h)
-
 description: Notifies the subscriber if a single-threaded apartment (STA) is created or terminated, and when an apartment thread is allocated.
 old-location: cos\icomthreadevents.htm
 tech.root: cossdk
 ms.assetid: a6523088-cca4-41c1-a3fe-d8cb7320ff33
-
 ms.date: 12/05/2018
 ms.keywords: IComThreadEvents, IComThreadEvents interface [COM+], IComThreadEvents interface [COM+],described, _dtc_IComThreadEvents, comsvcs/IComThreadEvents, cos.icomthreadevents
 ms.topic: interface
-f1_keywords: 
- - "comsvcs/IComThreadEvents"
+f1_keywords:
+- comsvcs/IComThreadEvents
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - IComThreadEvents
+- IComThreadEvents
 targetos: Windows
 req.typenames: 
 req.redist: 

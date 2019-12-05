@@ -1,19 +1,17 @@
 ---
 UID: NF:rtscom.IRealTimeStylus2.get_FlicksEnabled
 title: IRealTimeStylus2::get_FlicksEnabled (rtscom.h)
-
 description: Returns a value indicating whether flick gestures are enabled for the RTS.
 old-location: tablet\irealtimestylus2_get_flicksenabled.htm
 tech.root: tablet
 ms.assetid: b23d0a41-a5c4-40bc-a5d8-f8273119c92e
-
 ms.date: 12/05/2018
 ms.keywords: IRealTimeStylus2 interface [Tablet PC],get_FlicksEnabled method, IRealTimeStylus2.get_FlicksEnabled, IRealTimeStylus2::get_FlicksEnabled, b23d0a41-a5c4-40bc-a5d8-f8273119c92e, get_FlicksEnabled, get_FlicksEnabled method [Tablet PC], get_FlicksEnabled method [Tablet PC],IRealTimeStylus2 interface, rtscom/IRealTimeStylus2::get_FlicksEnabled, tablet.irealtimestylus2_get_flicksenabled
 ms.topic: method
-f1_keywords: 
- - "rtscom/IRealTimeStylus2.get_FlicksEnabled"
+f1_keywords:
+- rtscom/IRealTimeStylus2.get_FlicksEnabled
 dev_langs:
- - c++
+- c++
 req.header: rtscom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: RTSCom.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - RTSCom.dll
+- RTSCom.dll
 api_name:
- - IRealTimeStylus2.get_FlicksEnabled
+- IRealTimeStylus2.get_FlicksEnabled
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:dvbsiparser.IIsdbTerrestrialDeliverySystemDescriptor.GetAreaCode
 title: IIsdbTerrestrialDeliverySystemDescriptor::GetAreaCode (dvbsiparser.h)
-
 description: Gets the service area code from an Integrated Services Digital Broadcasting (ISDB) terrestrial delivery system descriptor.
 old-location: mstv\iisdbterrestrialdeliverysystemdescriptor_getareacode.htm
 tech.root: mstv
 ms.assetid: 14ba763d-c21c-48c1-b5d9-d29cc1108a58
-
 ms.date: 12/05/2018
 ms.keywords: GetAreaCode, GetAreaCode method [Microsoft TV Technologies], GetAreaCode method [Microsoft TV Technologies],IIsdbTerrestrialDeliverySystemDescriptor interface, IIsdbTerrestrialDeliverySystemDescriptor interface [Microsoft TV Technologies],GetAreaCode method, IIsdbTerrestrialDeliverySystemDescriptor.GetAreaCode, IIsdbTerrestrialDeliverySystemDescriptor::GetAreaCode, dvbsiparser/IIsdbTerrestrialDeliverySystemDescriptor::GetAreaCode, mstv.iisdbterrestrialdeliverysystemdescriptor_getareacode
 ms.topic: method
-f1_keywords: 
- - "dvbsiparser/IIsdbTerrestrialDeliverySystemDescriptor.GetAreaCode"
+f1_keywords:
+- dvbsiparser/IIsdbTerrestrialDeliverySystemDescriptor.GetAreaCode
 dev_langs:
- - c++
+- c++
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dvbsiparser.h
+- dvbsiparser.h
 api_name:
- - IIsdbTerrestrialDeliverySystemDescriptor.GetAreaCode
+- IIsdbTerrestrialDeliverySystemDescriptor.GetAreaCode
 targetos: Windows
 req.typenames: 
 req.redist: 

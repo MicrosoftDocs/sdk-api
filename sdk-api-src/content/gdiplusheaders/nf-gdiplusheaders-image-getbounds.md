@@ -1,19 +1,17 @@
 ---
 UID: NF:gdiplusheaders.Image.GetBounds
 title: Image::GetBounds (gdiplusheaders.h)
-
 description: The Image::GetBounds method gets the bounding rectangle for this image.
 old-location: gdiplus\_gdiplus_CLASS_Image_GetBounds_srcRect_srcUnit_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\imageclass\imagemethods\getbounds_74srcrect_srcunit.htm
-
 ms.date: 12/05/2018
 ms.keywords: GetBounds, GetBounds method [GDI+], GetBounds method [GDI+],Image class, Image class [GDI+],GetBounds method, Image.GetBounds, Image::GetBounds, _gdiplus_CLASS_Image_GetBounds_srcRect_srcUnit_, gdiplus._gdiplus_CLASS_Image_GetBounds_srcRect_srcUnit_
 ms.topic: method
-f1_keywords: 
- - "gdiplusheaders/Image.GetBounds"
+f1_keywords:
+- gdiplusheaders/Image.GetBounds
 dev_langs:
- - c++
+- c++
 req.header: gdiplusheaders.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - Image.GetBounds
+- Image.GetBounds
 targetos: Windows
 req.typenames: 
 req.redist: 

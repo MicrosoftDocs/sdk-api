@@ -1,19 +1,17 @@
 ---
 UID: NF:setupapi.SetupDiGetClassInstallParamsW
 title: SetupDiGetClassInstallParamsW function (setupapi.h)
-
 description: The SetupDiGetClassInstallParams function retrieves class installation parameters for a device information set or a particular device information element.
 old-location: devinst\setupdigetclassinstallparams.htm
 tech.root: devinst
 ms.assetid: 4ac1eb44-c7d6-48f3-bc7f-fb547e5a985e
-
 ms.date: 12/05/2018
 ms.keywords: SetupDiGetClassInstallParams, SetupDiGetClassInstallParams function [Device and Driver Installation], SetupDiGetClassInstallParamsA, SetupDiGetClassInstallParamsW, devinst.setupdigetclassinstallparams, di-rtns_2f7d5019-6b09-4dc0-8640-8a452d01e6da.xml, setupapi/SetupDiGetClassInstallParams
 ms.topic: function
 f1_keywords:
 - setupapi/SetupDiGetClassInstallParams
 dev_langs:
- - c++
+- c++
 req.header: setupapi.h
 req.include-header: Setupapi.h
 req.target-type: Desktop
@@ -40,8 +38,7 @@ api_location:
 - Setupapi.lib
 - Setupapi.dll
 api_name:
-- SetupDiGetClassInstallParams
- - SetupDiGetClassInstallParamsW
+- SetupDiGetClassInstallParams - SetupDiGetClassInstallParamsW
 targetos: Windows
 req.typenames: 
 req.redist: 

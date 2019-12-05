@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d10.ID3D10Device.SetPrivateDataInterface
 title: ID3D10Device::SetPrivateDataInterface (d3d10.h)
-
 description: Associate an IUnknown-derived interface with this device and associate that interface with an application-defined guid.
 old-location: direct3d10\id3d10device_setprivatedatainterface.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10device_setprivatedatainterface.htm
-
 ms.date: 12/05/2018
 ms.keywords: ID3D10Device interface [Direct3D 10],SetPrivateDataInterface method, ID3D10Device.SetPrivateDataInterface, ID3D10Device::SetPrivateDataInterface, SetPrivateDataInterface, SetPrivateDataInterface method [Direct3D 10], SetPrivateDataInterface method [Direct3D 10],ID3D10Device interface, ccad749b-460a-23ce-65bc-0e174fbf3d65, d3d10/ID3D10Device::SetPrivateDataInterface, direct3d10.id3d10device_setprivatedatainterface
 ms.topic: method
-f1_keywords: 
- - "d3d10/ID3D10Device.SetPrivateDataInterface"
+f1_keywords:
+- d3d10/ID3D10Device.SetPrivateDataInterface
 dev_langs:
- - c++
+- c++
 req.header: d3d10.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: D3D10.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D10.lib
- - D3D10.dll
+- D3D10.lib
+- D3D10.dll
 api_name:
- - ID3D10Device.SetPrivateDataInterface
+- ID3D10Device.SetPrivateDataInterface
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:propvarutil.PropVariantToInt32
 title: PropVariantToInt32 function (propvarutil.h)
-
 description: Extracts the Int32 property value of a PROPVARIANT structure. If no value can be extracted, then a default value is assigned.
 old-location: properties\PropVariantToInt32.htm
 tech.root: properties
 ms.assetid: 937722d6-cabf-4c4d-8ca9-06d6ed91b77a
-
 ms.date: 12/05/2018
 ms.keywords: PropVariantToInt32, PropVariantToInt32 function [Windows Properties], properties.PropVariantToInt32, propvarutil/PropVariantToInt32, shell.PropVariantToInt32, shell_PropVariantToInt32
 ms.topic: function
-f1_keywords: 
- - "propvarutil/PropVariantToInt32"
+f1_keywords:
+- propvarutil/PropVariantToInt32
 dev_langs:
- - c++
+- c++
 req.header: propvarutil.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Propsys.lib
 req.dll: Propsys.dll (version 6.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Propsys.dll
+- Propsys.dll
 api_name:
- - PropVariantToInt32
+- PropVariantToInt32
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0

@@ -1,19 +1,17 @@
 ---
 UID: NF:tom.ITextPara.SetPageBreakBefore
 title: ITextPara::SetPageBreakBefore (tom.h)
-
 description: Controls whether there is a page break before each paragraph in a range.
 old-location: controls\ITextPara_SetPageBreakBefore.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\setpagebreakbefore.htm
-
 ms.date: 12/05/2018
 ms.keywords: ITextPara interface [Windows Controls],SetPageBreakBefore method, ITextPara.SetPageBreakBefore, ITextPara::SetPageBreakBefore, SetPageBreakBefore, SetPageBreakBefore method [Windows Controls], SetPageBreakBefore method [Windows Controls],ITextPara interface, _win32_ITextPara_SetPageBreakBefore, _win32_ITextPara_SetPageBreakBefore_cpp, controls.ITextPara_SetPageBreakBefore, controls._win32_ITextPara_SetPageBreakBefore, tom/ITextPara::SetPageBreakBefore
 ms.topic: method
-f1_keywords: 
- - "tom/ITextPara.SetPageBreakBefore"
+f1_keywords:
+- tom/ITextPara.SetPageBreakBefore
 dev_langs:
- - c++
+- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msftedit.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msftedit.dll
+- Msftedit.dll
 api_name:
- - ITextPara.SetPageBreakBefore
+- ITextPara.SetPageBreakBefore
 targetos: Windows
 req.typenames: 
 req.redist: 

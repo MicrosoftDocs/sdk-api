@@ -1,19 +1,17 @@
 ---
 UID: NN:shobjidl.IVisualProperties
 title: IVisualProperties (shobjidl.h)
-
 description: Exposes methods that set and get visual properties.
 old-location: shell\IVisualProperties.htm
 tech.root: shell
 ms.assetid: 0f4921ad-18b4-447e-8e4b-0a40ce430137
-
 ms.date: 12/05/2018
 ms.keywords: IVisualProperties, IVisualProperties interface [Windows Shell], IVisualProperties interface [Windows Shell],described, _shell_IVisualProperties, shell.IVisualProperties, shobjidl/IVisualProperties
 ms.topic: interface
-f1_keywords: 
- - "shobjidl/IVisualProperties"
+f1_keywords:
+- shobjidl/IVisualProperties
 dev_langs:
- - c++
+- c++
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shobjidl.h
+- Shobjidl.h
 api_name:
- - IVisualProperties
+- IVisualProperties
 targetos: Windows
 req.typenames: 
 req.redist: 

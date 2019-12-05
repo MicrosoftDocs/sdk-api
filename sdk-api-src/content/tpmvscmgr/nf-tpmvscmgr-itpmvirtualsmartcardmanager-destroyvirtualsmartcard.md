@@ -1,19 +1,17 @@
 ---
 UID: NF:tpmvscmgr.ITpmVirtualSmartCardManager.DestroyVirtualSmartCard
 title: ITpmVirtualSmartCardManager::DestroyVirtualSmartCard (tpmvscmgr.h)
-
 description: Destroys the TPM virtual smart card that has the given instance ID.
 old-location: security\itpmvirtualsmartcardmanager_destroyvirtualsmartcard.htm
 tech.root: SecAuthN
 ms.assetid: C8624CBF-FC39-4269-9405-8E7B5EE88F8D
-
 ms.date: 12/05/2018
 ms.keywords: DestroyVirtualSmartCard, DestroyVirtualSmartCard method [Security], DestroyVirtualSmartCard method [Security],ITpmVirtualSmartCardManager interface, ITpmVirtualSmartCardManager interface [Security],DestroyVirtualSmartCard method, ITpmVirtualSmartCardManager.DestroyVirtualSmartCard, ITpmVirtualSmartCardManager::DestroyVirtualSmartCard, security.itpmvirtualsmartcardmanager_destroyvirtualsmartcard, tpmvscmgr/ITpmVirtualSmartCardManager::DestroyVirtualSmartCard
 ms.topic: method
-f1_keywords: 
- - "tpmvscmgr/ITpmVirtualSmartCardManager.DestroyVirtualSmartCard"
+f1_keywords:
+- tpmvscmgr/ITpmVirtualSmartCardManager.DestroyVirtualSmartCard
 dev_langs:
- - c++
+- c++
 req.header: tpmvscmgr.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Vscmgr.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Vscmgr.lib
- - Vscmgr.dll
+- Vscmgr.lib
+- Vscmgr.dll
 api_name:
- - ITpmVirtualSmartCardManager.DestroyVirtualSmartCard
+- ITpmVirtualSmartCardManager.DestroyVirtualSmartCard
 targetos: Windows
 req.typenames: 
 req.redist: 

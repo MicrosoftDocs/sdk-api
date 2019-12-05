@@ -1,19 +1,17 @@
 ---
 UID: NF:winreg.RegRestoreKeyW
 title: RegRestoreKeyW function (winreg.h)
-
 description: Reads the registry information in a specified file and copies it over the specified key. This registry information may be in the form of a key and multiple levels of subkeys.
 old-location: base\regrestorekey.htm
 tech.root: SysInfo
 ms.assetid: 6267383d-427a-4ae8-b9cc-9c1861d3b7bb
-
 ms.date: 12/05/2018
 ms.keywords: REG_FORCE_RESTORE, REG_WHOLE_HIVE_VOLATILE, RegRestoreKey, RegRestoreKey function, RegRestoreKeyA, RegRestoreKeyW, _win32_regrestorekey, base.regrestorekey, winreg/RegRestoreKey, winreg/RegRestoreKeyA, winreg/RegRestoreKeyW
 ms.topic: function
-f1_keywords: 
- - "winreg/RegRestoreKey"
+f1_keywords:
+- winreg/RegRestoreKey
 dev_langs:
- - c++
+- c++
 req.header: winreg.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,23 +30,23 @@ req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Advapi32.dll
- - API-MS-Win-Core-Localregistry-l1-1-0.dll
- - KernelBase.dll
- - API-MS-Win-Core-Registry-l1-1-0.dll
- - API-MS-Win-DownLevel-AdvApi32-l1-1-0.dll
- - API-MS-Win-DownLevel-AdvApi32-l1-1-1.dll
- - MinKernelBase.dll
- - api-ms-win-core-registry-l1-1-1.dll
+- Advapi32.dll
+- API-MS-Win-Core-Localregistry-l1-1-0.dll
+- KernelBase.dll
+- API-MS-Win-Core-Registry-l1-1-0.dll
+- API-MS-Win-DownLevel-AdvApi32-l1-1-0.dll
+- API-MS-Win-DownLevel-AdvApi32-l1-1-1.dll
+- MinKernelBase.dll
+- api-ms-win-core-registry-l1-1-1.dll
 api_name:
- - RegRestoreKey
- - RegRestoreKeyA
- - RegRestoreKeyW
+- RegRestoreKey
+- RegRestoreKeyA
+- RegRestoreKeyW
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:directxpackedvector.XMXDEC4.operator uint32_t
 title: XMXDEC4::operator uint32_t (directxpackedvector.h)
-
 description: Returns an instance of uint32_t containing the components of the XMXDEC4instance in a packed format.
 old-location: dxmath\xmxdec4_operator_uint32_t.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.reference.XMXDEC4.operator uint32_t
-
 ms.date: 12/05/2018
 ms.keywords: DirectX::PackedVector.XMXDEC4.operator uint32_t, DirectX::PackedVector::XMXDEC4::operator uint32_t, XMXDEC4 structure [DirectX Math Support APIs],operator uint32_t method, XMXDEC4.operator uint32_t, XMXDEC4::operator uint32_t, dxmath.xmxdec4_operator_uint32_t, operator uint32_t, operator uint32_t method [DirectX Math Support APIs], operator uint32_t method [DirectX Math Support APIs],XMXDEC4 structure
 ms.topic: method
-f1_keywords: 
- - "directxpackedvector/XMXDEC4.operator uint32_t"
+f1_keywords:
+- directxpackedvector/XMXDEC4.operator uint32_t
 dev_langs:
- - c++
+- c++
 req.header: directxpackedvector.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - DirectXPackedVector.h
+- DirectXPackedVector.h
 api_name:
- - XMXDEC4.operator uint32_t
+- XMXDEC4.operator uint32_t
 targetos: Windows
 req.typenames: 
 req.redist: 

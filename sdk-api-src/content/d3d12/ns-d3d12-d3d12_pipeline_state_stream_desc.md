@@ -1,19 +1,17 @@
 ---
 UID: NS:d3d12.D3D12_PIPELINE_STATE_STREAM_DESC
 title: D3D12_PIPELINE_STATE_STREAM_DESC (d3d12.h)
-
 description: Describes a pipeline state stream.
 old-location: direct3d12\d3d12_pipeline_state_stream_desc.htm
 tech.root: direct3d12
 ms.assetid: 2CC9051B-09B1-49F5-9392-3E0AE3AB1277
-
 ms.date: 12/05/2018
 ms.keywords: D3D12_PIPELINE_STATE_STREAM_DESC, D3D12_PIPELINE_STATE_STREAM_DESC structure, d3d12/D3D12_PIPELINE_STATE_STREAM_DESC, direct3d12.d3d12_pipeline_state_stream_desc
 ms.topic: struct
-f1_keywords: 
- - "d3d12/D3D12_PIPELINE_STATE_STREAM_DESC"
+f1_keywords:
+- d3d12/D3D12_PIPELINE_STATE_STREAM_DESC
 dev_langs:
- - c++
+- c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - d3d12.h
+- d3d12.h
 api_name:
- - D3D12_PIPELINE_STATE_STREAM_DESC
+- D3D12_PIPELINE_STATE_STREAM_DESC
 targetos: Windows
 req.typenames: D3D12_PIPELINE_STATE_STREAM_DESC
 req.redist: 

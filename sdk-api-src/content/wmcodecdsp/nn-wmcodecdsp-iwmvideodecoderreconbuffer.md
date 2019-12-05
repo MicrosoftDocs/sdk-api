@@ -1,19 +1,17 @@
 ---
 UID: NN:wmcodecdsp.IWMVideoDecoderReconBuffer
 title: IWMVideoDecoderReconBuffer (wmcodecdsp.h)
-
 description: Note  This interface is obsolete and should not be used. Manages reconstructed video frames.
 old-location: mf\iwmvideodecoderreconbufferinterface.htm
 tech.root: medfound
 ms.assetid: e2a4600e-3d55-42f1-804c-8dc5bdf5daec
-
 ms.date: 12/05/2018
 ms.keywords: IWMVideoDecoderReconBuffer, IWMVideoDecoderReconBuffer interface [Media Foundation], IWMVideoDecoderReconBuffer interface [Media Foundation],described, codecapi.iwmvideodecoderreconbufferinterface, mf.iwmvideodecoderreconbuffer, mf.iwmvideodecoderreconbufferinterface, wmcodecdsp/IWMVideoDecoderReconBuffer
 ms.topic: interface
-f1_keywords: 
- - "wmcodecdsp/IWMVideoDecoderReconBuffer"
+f1_keywords:
+- wmcodecdsp/IWMVideoDecoderReconBuffer
 dev_langs:
- - c++
+- c++
 req.header: wmcodecdsp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmcodecdsp.h
+- wmcodecdsp.h
 api_name:
- - IWMVideoDecoderReconBuffer
+- IWMVideoDecoderReconBuffer
 targetos: Windows
 req.typenames: 
 req.redist: 

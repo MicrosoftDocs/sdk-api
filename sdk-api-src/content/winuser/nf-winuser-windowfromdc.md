@@ -1,19 +1,17 @@
 ---
 UID: NF:winuser.WindowFromDC
 title: WindowFromDC function (winuser.h)
-
 description: The WindowFromDC function returns a handle to the window associated with the specified display device context (DC). Output functions that use the specified device context draw into this window.
 old-location: gdi\windowfromdc.htm
 tech.root: gdi
 ms.assetid: 57ecec82-03be-4d1a-84cf-6b64131af19d
-
 ms.date: 12/05/2018
 ms.keywords: WindowFromDC, WindowFromDC function [Windows GDI], _win32_WindowFromDC, gdi.windowfromdc, winuser/WindowFromDC
 ms.topic: function
-f1_keywords: 
- - "winuser/WindowFromDC"
+f1_keywords:
+- winuser/WindowFromDC
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - user32.dll
- - Ext-MS-Win-NTUser-Draw-l1-1-1.dll
- - ext-ms-win-ntuser-draw-l1-1-2.dll
+- user32.dll
+- Ext-MS-Win-NTUser-Draw-l1-1-1.dll
+- ext-ms-win-ntuser-draw-l1-1-2.dll
 api_name:
- - WindowFromDC
+- WindowFromDC
 targetos: Windows
 req.typenames: 
 req.redist: 

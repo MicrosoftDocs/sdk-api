@@ -1,19 +1,17 @@
 ---
 UID: NF:msctf.ITfReverseConversionList.GetLength
 title: ITfReverseConversionList::GetLength (msctf.h)
-
 description: Retrieves the number of keystroke sequences in the list.
 old-location: tsf\itfreverseconversionlist_getlength.htm
 tech.root: TSF
 ms.assetid: 0cf59b02-486b-412b-a8c2-b8a6e8e50248
-
 ms.date: 12/05/2018
 ms.keywords: GetLength, GetLength method [Text Services Framework], GetLength method [Text Services Framework],ITfReverseConversionList interface, ITfReverseConversionList interface [Text Services Framework],GetLength method, ITfReverseConversionList.GetLength, ITfReverseConversionList::GetLength, msctf/ITfReverseConversionList::GetLength, tsf.itfreverseconversionlist_getlength
 ms.topic: method
-f1_keywords: 
- - "msctf/ITfReverseConversionList.GetLength"
+f1_keywords:
+- msctf/ITfReverseConversionList.GetLength
 dev_langs:
- - c++
+- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msctf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msctf.dll
+- msctf.dll
 api_name:
- - ITfReverseConversionList.GetLength
+- ITfReverseConversionList.GetLength
 targetos: Windows
 req.typenames: 
 req.redist: 

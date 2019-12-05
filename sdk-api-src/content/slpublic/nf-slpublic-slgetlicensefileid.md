@@ -1,19 +1,17 @@
 ---
 UID: NF:slpublic.SLGetLicenseFileId
 title: SLGetLicenseFileId function (slpublic.h)
-
 description: Checks if the license BLOB has been installed already.
 old-location: security\slgetlicensefileid.htm
 tech.root: SecSLApi
 ms.assetid: b8474a25-2aef-43b6-85be-71dc287fd712
-
 ms.date: 12/05/2018
 ms.keywords: SLGetLicenseFileId, SLGetLicenseFileId function [Security], security.slgetlicensefileid, slpublic/SLGetLicenseFileId
 ms.topic: function
-f1_keywords: 
- - "slpublic/SLGetLicenseFileId"
+f1_keywords:
+- slpublic/SLGetLicenseFileId
 dev_langs:
- - c++
+- c++
 req.header: slpublic.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Slc.lib
 req.dll: Slc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Slc.dll
+- Slc.dll
 api_name:
- - SLGetLicenseFileId
+- SLGetLicenseFileId
 targetos: Windows
 req.typenames: 
 req.redist: 

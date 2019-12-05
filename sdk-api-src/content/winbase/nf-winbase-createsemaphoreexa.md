@@ -1,19 +1,17 @@
 ---
 UID: NF:winbase.CreateSemaphoreExA
 title: CreateSemaphoreExA function (winbase.h)
-
 description: Creates or opens a named or unnamed semaphore object and returns a handle to the object.
 old-location: base\createsemaphoreexa.htm
 tech.root: Sync
 ms.assetid: C66C9236-229F-4EBB-83F1-4BCB1957FF76
-
 ms.date: 12/05/2018
 ms.keywords: CreateSemaphoreExA, CreateSemaphoreExA function, CreateSemaphoreExW, base.createsemaphoreexa, winbase/CreateSemaphoreExA, winbase/CreateSemaphoreExW
 ms.topic: function
-f1_keywords: 
- - "winbase/CreateSemaphoreExA"
+f1_keywords:
+- winbase/CreateSemaphoreExA
 dev_langs:
- - c++
+- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,24 +30,24 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-Synch-l1-1-0.dll
- - KernelBase.dll
- - API-MS-Win-Core-Synch-l1-2-0.dll
- - API-MS-Win-Core-Synch-l1-2-1.dll
- - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
- - MinKernelBase.dll
- - API-MS-Win-Core-Synch-Ansi-L1-1-0.dll
- - Kernel32Legacy.dll
+- Kernel32.dll
+- API-MS-Win-Core-Synch-l1-1-0.dll
+- KernelBase.dll
+- API-MS-Win-Core-Synch-l1-2-0.dll
+- API-MS-Win-Core-Synch-l1-2-1.dll
+- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+- MinKernelBase.dll
+- API-MS-Win-Core-Synch-Ansi-L1-1-0.dll
+- Kernel32Legacy.dll
 api_name:
- - CreateSemaphoreExA
- - CreateSemaphoreExA
- - CreateSemaphoreExW
+- CreateSemaphoreExA
+- CreateSemaphoreExA
+- CreateSemaphoreExW
 targetos: Windows
 req.typenames: 
 req.redist: 

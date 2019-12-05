@@ -1,19 +1,17 @@
 ---
 UID: NF:locationapi.ILocation.GetReport
 title: ILocation::GetReport (locationapi.h)
-
 description: Retrieves a location report.
 old-location: winlocation_com_ref\ilocation_getreport.htm
 tech.root: locationapi
 ms.assetid: 69d0fed5-7f02-4d74-bdbd-3a0fd85e76ed
-
 ms.date: 12/05/2018
 ms.keywords: GetReport, GetReport method [WinLocation], GetReport method [WinLocation],ILocation interface, ILocation interface [WinLocation],GetReport method, ILocation.GetReport, ILocation::GetReport, WinLocation_COM_Ref.ilocation_getreport, locationapi/ILocation::GetReport
 ms.topic: method
-f1_keywords: 
- - "locationapi/ILocation.GetReport"
+f1_keywords:
+- locationapi/ILocation.GetReport
 dev_langs:
- - c++
+- c++
 req.header: locationapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: LocationAPI.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - LocationAPI.dll
+- LocationAPI.dll
 api_name:
- - ILocation.GetReport
+- ILocation.GetReport
 targetos: Windows
 req.typenames: 
 req.redist: 

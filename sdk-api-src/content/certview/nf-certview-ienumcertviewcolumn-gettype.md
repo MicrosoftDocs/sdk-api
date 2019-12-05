@@ -1,19 +1,17 @@
 ---
 UID: NF:certview.IEnumCERTVIEWCOLUMN.GetType
 title: IEnumCERTVIEWCOLUMN::GetType (certview.h)
-
 description: Retrieves the data type of the current column in the column-enumeration sequence.
 old-location: security\ienumcertviewcolumn_gettype.htm
 tech.root: SecCrypto
 ms.assetid: 53297e9e-6583-4edf-85f4-e2b2e4ba28b3
-
 ms.date: 12/05/2018
 ms.keywords: GetType, GetType method [Security], GetType method [Security],IEnumCERTVIEWCOLUMN interface, IEnumCERTVIEWCOLUMN interface [Security],GetType method, IEnumCERTVIEWCOLUMN.GetType, IEnumCERTVIEWCOLUMN::GetType, _certsrv_ienumcertviewcolumn_gettype, certview/IEnumCERTVIEWCOLUMN::GetType, security.ienumcertviewcolumn_gettype
 ms.topic: method
-f1_keywords: 
- - "certview/IEnumCERTVIEWCOLUMN.GetType"
+f1_keywords:
+- certview/IEnumCERTVIEWCOLUMN.GetType
 dev_langs:
- - c++
+- c++
 req.header: certview.h
 req.include-header: Certsrv.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Certidl.lib
 req.dll: Certadm.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Certadm.dll
+- Certadm.dll
 api_name:
- - IEnumCERTVIEWCOLUMN.GetType
- - IEnumCERTVIEWCOLUMN.GetType
+- IEnumCERTVIEWCOLUMN.GetType
+- IEnumCERTVIEWCOLUMN.GetType
 targetos: Windows
 req.typenames: 
 req.redist: 

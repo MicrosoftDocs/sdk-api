@@ -1,19 +1,17 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMPage.SetIsHyperlinkTarget
 title: IXpsOMPage::SetIsHyperlinkTarget (xpsobjectmodel.h)
-
 description: Specifies whether the page is the target of a hyperlink.
 old-location: xps\ixpsompage_setishyperlinktarget.htm
 tech.root: printdocs
 ms.assetid: a8096303-5940-4ad1-aa5a-de604efe8c9e
-
 ms.date: 12/05/2018
 ms.keywords: IXpsOMPage interface [XPS Documents and Packaging],SetIsHyperlinkTarget method, IXpsOMPage.SetIsHyperlinkTarget, IXpsOMPage::SetIsHyperlinkTarget, SetIsHyperlinkTarget, SetIsHyperlinkTarget method [XPS Documents and Packaging], SetIsHyperlinkTarget method [XPS Documents and Packaging],IXpsOMPage interface, xps.ixpsompage_setishyperlinktarget, xpsobjectmodel/IXpsOMPage::SetIsHyperlinkTarget
 ms.topic: method
-f1_keywords: 
- - "xpsobjectmodel/IXpsOMPage.SetIsHyperlinkTarget"
+f1_keywords:
+- xpsobjectmodel/IXpsOMPage.SetIsHyperlinkTarget
 dev_langs:
- - c++
+- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsobjectmodel.h
+- xpsobjectmodel.h
 api_name:
- - IXpsOMPage.SetIsHyperlinkTarget
+- IXpsOMPage.SetIsHyperlinkTarget
 targetos: Windows
 req.typenames: 
 req.redist: 

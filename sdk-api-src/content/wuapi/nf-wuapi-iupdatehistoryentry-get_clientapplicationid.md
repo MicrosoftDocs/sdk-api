@@ -1,19 +1,17 @@
 ---
 UID: NF:wuapi.IUpdateHistoryEntry.get_ClientApplicationID
 title: IUpdateHistoryEntry::get_ClientApplicationID (wuapi.h)
-
 description: Gets the identifier of the client application that processed an update.
 old-location: wua\iupdatehistoryentry_clientapplicationid.htm
 tech.root: Wua_Sdk
 ms.assetid: 7c2a209f-10e8-4158-8201-a062f86b5fdd
-
 ms.date: 12/05/2018
 ms.keywords: ClientApplicationID property [Windows Update Agent], ClientApplicationID property [Windows Update Agent],IUpdateHistoryEntry interface, IUpdateHistoryEntry interface [Windows Update Agent],ClientApplicationID property, IUpdateHistoryEntry.ClientApplicationID, IUpdateHistoryEntry.get_ClientApplicationID, IUpdateHistoryEntry::ClientApplicationID, IUpdateHistoryEntry::get_ClientApplicationID, get_ClientApplicationID, wua.iupdatehistoryentry_clientapplicationid, wuapi/IUpdateHistoryEntry::ClientApplicationID, wuapi/IUpdateHistoryEntry::get_ClientApplicationID
 ms.topic: method
-f1_keywords: 
- - "wuapi/IUpdateHistoryEntry.ClientApplicationID"
+f1_keywords:
+- wuapi/IUpdateHistoryEntry.ClientApplicationID
 dev_langs:
- - c++
+- c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Wuguid.lib
 req.dll: Wuapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wuapi.dll
+- Wuapi.dll
 api_name:
- - IUpdateHistoryEntry.ClientApplicationID
- - IUpdateHistoryEntry.get_ClientApplicationID
+- IUpdateHistoryEntry.ClientApplicationID
+- IUpdateHistoryEntry.get_ClientApplicationID
 targetos: Windows
 req.typenames: 
 req.redist: 

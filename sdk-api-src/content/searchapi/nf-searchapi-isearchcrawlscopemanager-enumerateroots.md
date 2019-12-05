@@ -1,19 +1,17 @@
 ---
 UID: NF:searchapi.ISearchCrawlScopeManager.EnumerateRoots
 title: ISearchCrawlScopeManager::EnumerateRoots (searchapi.h)
-
 description: Returns an enumeration of all the roots of which this instance of the ISearchCrawlScopeManager is aware.
 old-location: search\_search_ISearchCrawlScopeManager_EnumerateRoots.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\crawlscope\isearchcrawlscopemanager\enumerateroots.htm
-
 ms.date: 12/05/2018
 ms.keywords: EnumerateRoots, EnumerateRoots method [search], EnumerateRoots method [search],ISearchCrawlScopeManager interface, ISearchCrawlScopeManager interface [search],EnumerateRoots method, ISearchCrawlScopeManager.EnumerateRoots, ISearchCrawlScopeManager::EnumerateRoots, _search_ISearchCrawlScopeManager_EnumerateRoots, search._search_ISearchCrawlScopeManager_EnumerateRoots, searchapi/ISearchCrawlScopeManager::EnumerateRoots
 ms.topic: method
-f1_keywords: 
- - "searchapi/ISearchCrawlScopeManager.EnumerateRoots"
+f1_keywords:
+- searchapi/ISearchCrawlScopeManager.EnumerateRoots
 dev_langs:
- - c++
+- c++
 req.header: searchapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Searchapi.h
+- Searchapi.h
 api_name:
- - ISearchCrawlScopeManager.EnumerateRoots
+- ISearchCrawlScopeManager.EnumerateRoots
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0

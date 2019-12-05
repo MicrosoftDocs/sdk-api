@@ -1,19 +1,17 @@
 ---
 UID: NN:oaidl.ITypeChangeEvents
 title: ITypeChangeEvents (oaidl.h)
-
 description: Enables clients to subscribe to type change notifications on objects that implement the ITypeInfo, ITypeInfo2, ICreateTypeInfo, and ICreateTypeInfo2 interfaces.
 old-location: automat\itypechangeevents.htm
 tech.root: automat
 ms.assetid: 5e286a4b-b36b-40d6-9a39-d572086e5a2d
-
 ms.date: 12/05/2018
 ms.keywords: ITypeChangeEvents, ITypeChangeEvents interface [Automation], ITypeChangeEvents interface [Automation],described, automat.itypechangeevents, oaidl/ITypeChangeEvents
 ms.topic: interface
-f1_keywords: 
- - "oaidl/ITypeChangeEvents"
+f1_keywords:
+- oaidl/ITypeChangeEvents
 dev_langs:
- - c++
+- c++
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - oaidl.h
+- oaidl.h
 api_name:
- - ITypeChangeEvents
+- ITypeChangeEvents
 targetos: Windows
 req.typenames: 
 req.redist: 

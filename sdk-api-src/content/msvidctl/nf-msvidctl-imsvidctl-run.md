@@ -1,19 +1,17 @@
 ---
 UID: NF:msvidctl.IMSVidCtl.Run
 title: IMSVidCtl::Run (msvidctl.h)
-
 description: The Run method runs the filter graph.
 old-location: mstv\imsvidctl_run.htm
 tech.root: mstv
 ms.assetid: 37ed6d7b-2e44-4bce-b476-8e8b28635346
-
 ms.date: 12/05/2018
 ms.keywords: IMSVidCtl interface [Microsoft TV Technologies],Run method, IMSVidCtl.Run, IMSVidCtl::Run, IMSVidCtlRun, Run, Run method [Microsoft TV Technologies], Run method [Microsoft TV Technologies],IMSVidCtl interface, mstv.imsvidctl_run, msvidctl/IMSVidCtl::Run
 ms.topic: method
-f1_keywords: 
- - "msvidctl/IMSVidCtl.Run"
+f1_keywords:
+- msvidctl/IMSVidCtl.Run
 dev_langs:
- - c++
+- c++
 req.header: msvidctl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msvidctl.h
+- msvidctl.h
 api_name:
- - IMSVidCtl.Run
+- IMSVidCtl.Run
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:wmp.IWMPEvents3.CdromRipStateChange
 title: IWMPEvents3::CdromRipStateChange (wmp.h)
-
 description: The CdromRipStateChange event occurs when a CD ripping operation changes state.
 old-location: wmp\iwmpevents3_iwmpevents3__cdromripstatechange.htm
 tech.root: WMP
 ms.assetid: 08445295-4fed-412f-84ce-eaf337758472
-
 ms.date: 12/05/2018
 ms.keywords: CdromRipStateChange, CdromRipStateChange method [Windows Media Player], CdromRipStateChange method [Windows Media Player],IWMPEvents3 interface, IWMPEvents3 interface [Windows Media Player],CdromRipStateChange method, IWMPEvents3.CdromRipStateChange, IWMPEvents3::CdromRipStateChange, IWMPEvents3CdromRipStateChange, wmp.iwmpevents3_iwmpevents3__cdromripstatechange, wmp/IWMPEvents3::CdromRipStateChange
 ms.topic: method
-f1_keywords: 
- - "wmp/IWMPEvents3.CdromRipStateChange"
+f1_keywords:
+- wmp/IWMPEvents3.CdromRipStateChange
 dev_langs:
- - c++
+- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wmp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmp.dll
+- wmp.dll
 api_name:
- - IWMPEvents3.CdromRipStateChange
+- IWMPEvents3.CdromRipStateChange
 targetos: Windows
 req.typenames: 
 req.redist: 

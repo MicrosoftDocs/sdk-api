@@ -1,19 +1,17 @@
 ---
 UID: NF:amxmlgraphbuilder.IXMLGraphBuilder.SaveToXML
 title: IXMLGraphBuilder::SaveToXML (amxmlgraphbuilder.h)
-
 description: The SaveToXML method saves a filter graph to an XML element.
 old-location: dshow\ixmlgraphbuilder_savetoxml.htm
 tech.root: DirectShow
 ms.assetid: 02f710a4-3d13-46b0-b00d-4ffd2b4c3157
-
 ms.date: 12/05/2018
 ms.keywords: IXMLGraphBuilder interface [DirectShow],SaveToXML method, IXMLGraphBuilder.SaveToXML, IXMLGraphBuilder::SaveToXML, IXMLGraphBuilderSaveToXML, SaveToXML, SaveToXML method [DirectShow], SaveToXML method [DirectShow],IXMLGraphBuilder interface, amxmlgraphbuilder/IXMLGraphBuilder::SaveToXML, dshow.ixmlgraphbuilder_savetoxml
 ms.topic: method
-f1_keywords: 
- - "amxmlgraphbuilder/IXMLGraphBuilder.SaveToXML"
+f1_keywords:
+- amxmlgraphbuilder/IXMLGraphBuilder.SaveToXML
 dev_langs:
- - c++
+- c++
 req.header: amxmlgraphbuilder.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - amxmlgraphbuilder.h
+- amxmlgraphbuilder.h
 api_name:
- - IXMLGraphBuilder.SaveToXML
+- IXMLGraphBuilder.SaveToXML
 targetos: Windows
 req.typenames: 
 req.redist: 

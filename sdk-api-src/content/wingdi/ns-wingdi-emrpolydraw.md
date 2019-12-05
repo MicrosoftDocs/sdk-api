@@ -1,19 +1,17 @@
 ---
 UID: NS:wingdi.tagEMRPOLYDRAW
 title: EMRPOLYDRAW (wingdi.h)
-
 description: The EMRPOLYDRAW structure contains members for the PolyDraw enhanced metafile record.
 old-location: gdi\emrpolydraw.htm
 tech.root: gdi
 ms.assetid: c75d19bf-a7e3-45db-9534-f089d4cec3eb
-
 ms.date: 12/05/2018
-ms.keywords: "*PEMRPOLYDRAW, EMRPOLYDRAW, EMRPOLYDRAW structure [Windows GDI], PEMRPOLYDRAW, PEMRPOLYDRAW structure pointer [Windows GDI], _win32_EMRPOLYDRAW_str, gdi.emrpolydraw, wingdi/EMRPOLYDRAW, wingdi/PEMRPOLYDRAW"
+ms.keywords: '*PEMRPOLYDRAW, EMRPOLYDRAW, EMRPOLYDRAW structure [Windows GDI], PEMRPOLYDRAW, PEMRPOLYDRAW structure pointer [Windows GDI], _win32_EMRPOLYDRAW_str, gdi.emrpolydraw, wingdi/EMRPOLYDRAW, wingdi/PEMRPOLYDRAW'
 ms.topic: struct
-f1_keywords: 
- - "wingdi/EMRPOLYDRAW"
+f1_keywords:
+- wingdi/EMRPOLYDRAW
 dev_langs:
- - c++
+- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wingdi.h
+- Wingdi.h
 api_name:
- - EMRPOLYDRAW
+- EMRPOLYDRAW
 targetos: Windows
 req.typenames: EMRPOLYDRAW, *PEMRPOLYDRAW
 req.redist: 

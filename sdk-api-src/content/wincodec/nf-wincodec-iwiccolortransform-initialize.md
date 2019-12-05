@@ -1,19 +1,17 @@
 ---
 UID: NF:wincodec.IWICColorTransform.Initialize
 title: IWICColorTransform::Initialize (wincodec.h)
-
 description: Initializes an IWICColorTransform with a IWICBitmapSource and transforms it from one IWICColorContext to another.
 old-location: wic\_wic_codec_iwiccolortransform_initialize.htm
 tech.root: wic
 ms.assetid: 572a014b-10f9-4b76-9090-04ac13edfc3d
-
 ms.date: 12/05/2018
 ms.keywords: IWICColorTransform interface [Windows Imaging Component],Initialize method, IWICColorTransform.Initialize, IWICColorTransform::Initialize, Initialize, Initialize method [Windows Imaging Component], Initialize method [Windows Imaging Component],IWICColorTransform interface, _wic_codec_iwiccolortransform_initialize, wic._wic_codec_iwiccolortransform_initialize, wincodec/IWICColorTransform::Initialize
 ms.topic: method
-f1_keywords: 
- - "wincodec/IWICColorTransform.Initialize"
+f1_keywords:
+- wincodec/IWICColorTransform.Initialize
 dev_langs:
- - c++
+- c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Windowscodecs.lib
 req.dll: Windowscodecs.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Windowscodecs.dll
+- Windowscodecs.dll
 api_name:
- - IWICColorTransform.Initialize
+- IWICColorTransform.Initialize
 targetos: Windows
 req.typenames: 
 req.redist: 

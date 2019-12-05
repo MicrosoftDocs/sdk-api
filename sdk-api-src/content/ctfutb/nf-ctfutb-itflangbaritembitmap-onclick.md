@@ -1,19 +1,17 @@
 ---
 UID: NF:ctfutb.ITfLangBarItemBitmap.OnClick
 title: ITfLangBarItemBitmap::OnClick (ctfutb.h)
-
 description: ITfLangBarItemBitmap::OnClick method
 old-location: tsf\itflangbaritembitmap_onclick.htm
 tech.root: TSF
 ms.assetid: b4e5857e-7e0b-462d-90cd-cb0e7b1143d5
-
 ms.date: 12/05/2018
 ms.keywords: ITfLangBarItemBitmap interface [Text Services Framework],OnClick method, ITfLangBarItemBitmap.OnClick, ITfLangBarItemBitmap::OnClick, OnClick, OnClick method [Text Services Framework], OnClick method [Text Services Framework],ITfLangBarItemBitmap interface, _tsf_itflangbaritembitmap_onclick_ref, ctfutb/ITfLangBarItemBitmap::OnClick, tsf.itflangbaritembitmap_onclick
 ms.topic: method
-f1_keywords: 
- - "ctfutb/ITfLangBarItemBitmap.OnClick"
+f1_keywords:
+- ctfutb/ITfLangBarItemBitmap.OnClick
 dev_langs:
- - c++
+- c++
 req.header: ctfutb.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msctf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msctf.dll
+- msctf.dll
 api_name:
- - ITfLangBarItemBitmap.OnClick
+- ITfLangBarItemBitmap.OnClick
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

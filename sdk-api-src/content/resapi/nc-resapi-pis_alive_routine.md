@@ -1,19 +1,17 @@
 ---
 UID: NC:resapi.PIS_ALIVE_ROUTINE
 title: PIS_ALIVE_ROUTINE (resapi.h)
-
 description: Determines whether a resource is available for use.
 old-location: mscs\isalive.htm
 tech.root: MsCS
 ms.assetid: ff7661af-0a24-4a2e-bb31-c967845a4ff4
-
 ms.date: 12/05/2018
 ms.keywords: IsAlive, IsAlive callback, IsAlive callback function [Failover Cluster], PIS_ALIVE_ROUTINE, PIS_ALIVE_ROUTINE callback function [Failover Cluster], _wolf_isalive, mscs.isalive, resapi/IsAlive, resapi/PIS_ALIVE_ROUTINE
 ms.topic: callback
-f1_keywords: 
- - "resapi/IsAlive"
+f1_keywords:
+- resapi/IsAlive
 dev_langs:
- - c++
+- c++
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - ResApi.h
+- ResApi.h
 api_name:
- - IsAlive
+- IsAlive
 targetos: Windows
 req.typenames: 
 req.redist: 

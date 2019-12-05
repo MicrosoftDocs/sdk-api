@@ -1,19 +1,17 @@
 ---
 UID: NF:audioengineendpoint.IAudioEndpointRT.SetPinInactive
 title: IAudioEndpointRT::SetPinInactive (audioengineendpoint.h)
-
 description: Notifies the endpoint that it must change the state of the underlying stream resources to an inactive state.
 old-location: termserv\iaudioendpointrt_setpininactive.htm
 tech.root: TermServ
 ms.assetid: 07062063-cae1-4517-aeed-fb73ec602b27
-
 ms.date: 12/05/2018
 ms.keywords: IAudioEndpointRT interface [Remote Desktop Services],SetPinInactive method, IAudioEndpointRT.SetPinInactive, IAudioEndpointRT::SetPinInactive, SetPinInactive, SetPinInactive method [Remote Desktop Services], SetPinInactive method [Remote Desktop Services],IAudioEndpointRT interface, audioengineendpoint/IAudioEndpointRT::SetPinInactive, termserv.iaudioendpointrt_setpininactive
 ms.topic: method
-f1_keywords: 
- - "audioengineendpoint/IAudioEndpointRT.SetPinInactive"
+f1_keywords:
+- audioengineendpoint/IAudioEndpointRT.SetPinInactive
 dev_langs:
- - c++
+- c++
 req.header: audioengineendpoint.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Audioengineendpoint.h
+- Audioengineendpoint.h
 api_name:
- - IAudioEndpointRT.SetPinInactive
+- IAudioEndpointRT.SetPinInactive
 targetos: Windows
 req.typenames: 
 req.redist: 

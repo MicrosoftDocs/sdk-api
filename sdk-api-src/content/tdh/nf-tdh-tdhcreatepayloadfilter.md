@@ -1,19 +1,17 @@
 ---
 UID: NF:tdh.TdhCreatePayloadFilter
 title: TdhCreatePayloadFilter function (tdh.h)
-
 description: Creates a single filter for a single payload to be used with the EnableTraceEx2 function.
 old-location: etw\tdhcreatepayloadfilter.htm
 tech.root: ETW
 ms.assetid: B5132FF2-9DE3-40F3-82F0-90FE0640F646
-
 ms.date: 12/05/2018
 ms.keywords: TdhCreatePayloadFilter, TdhCreatePayloadFilter function [ETW], etw.tdhcreatepayloadfilter, tdh/TdhCreatePayloadFilter
 ms.topic: function
 f1_keywords:
 - tdh/TdhCreatePayloadFilter
 dev_langs:
- - c++
+- c++
 req.header: tdh.h
 req.include-header: 
 req.target-type: Windows

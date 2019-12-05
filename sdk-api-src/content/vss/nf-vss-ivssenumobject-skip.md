@@ -1,19 +1,17 @@
 ---
 UID: NF:vss.IVssEnumObject.Skip
 title: IVssEnumObject::Skip (vss.h)
-
 description: Skips the specified number of objects.
 old-location: base\ivssenumobject_skip.htm
 tech.root: VSS
 ms.assetid: a655978e-49fa-445d-8576-ba82b523750c
-
 ms.date: 12/05/2018
 ms.keywords: IVssEnumObject interface [VSS],Skip method, IVssEnumObject.Skip, IVssEnumObject::Skip, Skip, Skip method [VSS], Skip method [VSS],IVssEnumObject interface, _win32_ivssenumobject_skip, base.ivssenumobject_skip, vss/IVssEnumObject::Skip
 ms.topic: method
-f1_keywords: 
- - "vss/IVssEnumObject.Skip"
+f1_keywords:
+- vss/IVssEnumObject.Skip
 dev_langs:
- - c++
+- c++
 req.header: vss.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: VssApi.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - VssApi.lib
- - VssApi.dll
+- VssApi.lib
+- VssApi.dll
 api_name:
- - IVssEnumObject.Skip
+- IVssEnumObject.Skip
 targetos: Windows
 req.typenames: 
 req.redist: 

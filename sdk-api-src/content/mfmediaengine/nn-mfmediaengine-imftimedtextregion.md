@@ -1,19 +1,17 @@
 ---
 UID: NN:mfmediaengine.IMFTimedTextRegion
 title: IMFTimedTextRegion (mfmediaengine.h)
-
 description: Represents the display region of a timed-text object.
 old-location: mf\imftimedtextregion.htm
 tech.root: medfound
 ms.assetid: 1A6E068F-2E01-4A72-8BCF-D645B1D21ECF
-
 ms.date: 12/05/2018
 ms.keywords: IMFTimedTextRegion, IMFTimedTextRegion interface [Media Foundation], IMFTimedTextRegion interface [Media Foundation],described, mf.imftimedtextregion, mfmediaengine/IMFTimedTextRegion
 ms.topic: interface
-f1_keywords: 
- - "mfmediaengine/IMFTimedTextRegion"
+f1_keywords:
+- mfmediaengine/IMFTimedTextRegion
 dev_langs:
- - c++
+- c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfmediaengine.h
+- mfmediaengine.h
 api_name:
- - IMFTimedTextRegion
+- IMFTimedTextRegion
 targetos: Windows
 req.typenames: 
 req.redist: 

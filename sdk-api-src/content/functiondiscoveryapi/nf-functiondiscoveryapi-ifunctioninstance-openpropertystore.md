@@ -1,19 +1,17 @@
 ---
 UID: NF:functiondiscoveryapi.IFunctionInstance.OpenPropertyStore
 title: IFunctionInstance::OpenPropertyStore (functiondiscoveryapi.h)
-
 description: Opens the property store for the function instance.
 old-location: ncd\ifunctioninstance_openpropertystore_method.htm
 tech.root: FunDisc
 ms.assetid: 3e03567b-7bac-4bef-ae62-a040f0c33cfb
-
 ms.date: 12/05/2018
 ms.keywords: IFunctionInstance interface,OpenPropertyStore method, IFunctionInstance.OpenPropertyStore, IFunctionInstance::OpenPropertyStore, OpenPropertyStore, OpenPropertyStore method, OpenPropertyStore method,IFunctionInstance interface, STGM_READ, STGM_READWRITE, STGM_WRITE, functiondiscoveryapi/IFunctionInstance::OpenPropertyStore, ncd.ifunctioninstance_openpropertystore_method
 ms.topic: method
-f1_keywords: 
- - "functiondiscoveryapi/IFunctionInstance.OpenPropertyStore"
+f1_keywords:
+- functiondiscoveryapi/IFunctionInstance.OpenPropertyStore
 dev_langs:
- - c++
+- c++
 req.header: functiondiscoveryapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: FunDisc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - FunDisc.dll
+- FunDisc.dll
 api_name:
- - IFunctionInstance.OpenPropertyStore
+- IFunctionInstance.OpenPropertyStore
 targetos: Windows
 req.typenames: 
 req.redist: 

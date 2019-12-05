@@ -1,18 +1,16 @@
 ---
 UID: NF:d3d12.ID3D12DeviceRemovedExtendedDataSettings.SetPageFaultEnablement
 title: ID3D12DeviceRemovedExtendedDataSettings::SetPageFaultEnablement
-
 description: Configures the enablement settings for Device Removed Extended Data (DRED) page fault reporting.
 old-location: direct3d12\id3d12deviceremovedextendeddatasettings_setpagefaultenablement.htm
 tech.root: direct3d12
-
 ms.date: 02/08/2019
 ms.keywords: SetPageFaultEnablement, SetPageFaultEnablement method, ID3D12DeviceRemovedExtendedDataSettings, ID3D12DeviceRemovedExtendedDataSettings interface, ID3D12DeviceRemovedExtendedDataSettings.SetPageFaultEnablement, ID3D12DeviceRemovedExtendedDataSettings::SetPageFaultEnablement, d3d12/ID3D12DeviceRemovedExtendedDataSettings::SetPageFaultEnablement, direct3d12.id3d12deviceremovedextendeddatasettings_setpagefaultenablement
 ms.topic: method
-f1_keywords: 
- - "d3d12/ID3D12DeviceRemovedExtendedDataSettings::SetPageFaultEnablement"
+f1_keywords:
+- d3d12/ID3D12DeviceRemovedExtendedDataSettings::SetPageFaultEnablement
 dev_langs:
- - c++
+- c++
 req.construct-type: function
 req.ddi-compliance: 
 req.header: d3d12.h
@@ -22,7 +20,6 @@ req.target-min-winverclnt: Windows 10, version 1903
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
 req.max-support: 
@@ -33,14 +30,14 @@ req.lib: D3D12.lib
 req.dll: D3D12.dll
 req.irql: 
 topic_type:
- - apiref
- - kbSyntax
+- apiref
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - d3d12.h
+- d3d12.h
 api_name:
- - ID3D12DeviceRemovedExtendedDataSettings::SetPageFaultEnablement
+- ID3D12DeviceRemovedExtendedDataSettings::SetPageFaultEnablement
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationcore.ISpreadsheetItemProvider.GetAnnotationTypes
 title: ISpreadsheetItemProvider::GetAnnotationTypes (uiautomationcore.h)
-
 description: Retrieves an array of annotation type identifiers indicating the types of annotations that are associated with this spreadsheet cell.
 old-location: winauto\uiauto_ISpreadsheetItemProvider_GetAnnotationTypes.htm
 tech.root: WinAuto
 ms.assetid: 95DD80C7-AD98-42D5-BB2E-05ACA02F878A
-
 ms.date: 12/05/2018
 ms.keywords: GetAnnotationTypes, GetAnnotationTypes method [Windows Accessibility], GetAnnotationTypes method [Windows Accessibility],ISpreadsheetItemProvider interface, ISpreadsheetItemProvider interface [Windows Accessibility],GetAnnotationTypes method, ISpreadsheetItemProvider.GetAnnotationTypes, ISpreadsheetItemProvider::GetAnnotationTypes, uiautomationcore/ISpreadsheetItemProvider::GetAnnotationTypes, winauto.uiauto_ISpreadsheetItemProvider_GetAnnotationTypes
 ms.topic: method
-f1_keywords: 
- - "uiautomationcore/ISpreadsheetItemProvider.GetAnnotationTypes"
+f1_keywords:
+- uiautomationcore/ISpreadsheetItemProvider.GetAnnotationTypes
 dev_langs:
- - c++
+- c++
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationCore.h
+- UIAutomationCore.h
 api_name:
- - ISpreadsheetItemProvider.GetAnnotationTypes
+- ISpreadsheetItemProvider.GetAnnotationTypes
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:devicetopology.IPart.GetPartType
 title: IPart::GetPartType (devicetopology.h)
-
 description: The GetPartType method gets the part type of this part.
 old-location: coreaudio\ipart_getparttype.htm
 tech.root: CoreAudio
 ms.assetid: 79af1dce-b946-4ef2-af36-4437603966da
-
 ms.date: 12/05/2018
 ms.keywords: GetPartType, GetPartType method [Core Audio], GetPartType method [Core Audio],IPart interface, IPart interface [Core Audio],GetPartType method, IPart.GetPartType, IPart::GetPartType, IPartGetPartType, coreaudio.ipart_getparttype, devicetopology/IPart::GetPartType
 ms.topic: method
-f1_keywords: 
- - "devicetopology/IPart.GetPartType"
+f1_keywords:
+- devicetopology/IPart.GetPartType
 dev_langs:
- - c++
+- c++
 req.header: devicetopology.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Devicetopology.h
+- Devicetopology.h
 api_name:
- - IPart.GetPartType
+- IPart.GetPartType
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:ole2.OleCreateLinkFromDataEx
 title: OleCreateLinkFromDataEx function (ole2.h)
-
 description: Extends OleCreateLinkFromData functionality by supporting more efficient instantiation of objects in containers requiring caching of multiple formats of presentations or data, instead of the single format supported by OleCreateLinkFromData.
 old-location: com\olecreatelinkfromdataex.htm
 tech.root: com
 ms.assetid: f486dc73-3cb9-4839-931a-91cc3a5837d3
-
 ms.date: 12/05/2018
 ms.keywords: OleCreateLinkFromDataEx, OleCreateLinkFromDataEx function [COM], _ole_OleCreateLinkFromDataEx, com.olecreatelinkfromdataex, ole2/OleCreateLinkFromDataEx
 ms.topic: function
-f1_keywords: 
- - "ole2/OleCreateLinkFromDataEx"
+f1_keywords:
+- ole2/OleCreateLinkFromDataEx
 dev_langs:
- - c++
+- c++
 req.header: ole2.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Ole32.lib
 req.dll: Ole32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ole32.dll
+- Ole32.dll
 api_name:
- - OleCreateLinkFromDataEx
+- OleCreateLinkFromDataEx
 targetos: Windows
 req.typenames: 
 req.redist: 

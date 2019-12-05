@@ -1,19 +1,17 @@
 ---
 UID: NF:tom.ITextDocument2.GetCaretType
 title: ITextDocument2::GetCaretType (tom.h)
-
 description: Gets the caret type.
 old-location: controls\itextdocument2_getcarettype.htm
 tech.root: Controls
 ms.assetid: 4ab170d2-50a3-4fbf-8e02-92b031bc1e4f
-
 ms.date: 12/05/2018
 ms.keywords: GetCaretType, GetCaretType method [Windows Controls], GetCaretType method [Windows Controls],ITextDocument2 interface, ITextDocument2 interface [Windows Controls],GetCaretType method, ITextDocument2.GetCaretType, ITextDocument2::GetCaretType, controls.itextdocument2_getcarettype, tom/ITextDocument2::GetCaretType, tomKoreanBlockCaret, tomNormalCaret, tomNullCaret
 ms.topic: method
-f1_keywords: 
- - "tom/ITextDocument2.GetCaretType"
+f1_keywords:
+- tom/ITextDocument2.GetCaretType
 dev_langs:
- - c++
+- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msftedit.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msftedit.dll
+- Msftedit.dll
 api_name:
- - ITextDocument2.GetCaretType
+- ITextDocument2.GetCaretType
 targetos: Windows
 req.typenames: 
 req.redist: 

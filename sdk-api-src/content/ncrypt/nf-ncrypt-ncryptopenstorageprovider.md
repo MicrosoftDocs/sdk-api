@@ -1,19 +1,17 @@
 ---
 UID: NF:ncrypt.NCryptOpenStorageProvider
 title: NCryptOpenStorageProvider function (ncrypt.h)
-
 description: Loads and initializes a CNG key storage provider.
 old-location: security\ncryptopenstorageprovider_func.htm
 tech.root: SecCNG
 ms.assetid: febcf440-78b3-420b-b13d-030e8071cd50
-
 ms.date: 12/05/2018
 ms.keywords: MS_KEY_STORAGE_PROVIDER, MS_SMART_CARD_KEY_STORAGE_PROVIDER, MS_PLATFORM_CRYPTO_PROVIDER, NCryptOpenStorageProvider, NCryptOpenStorageProvider function [Security], ncrypt/NCryptOpenStorageProvider, security.ncryptopenstorageprovider_func
 ms.topic: function
-f1_keywords: 
- - "ncrypt/NCryptOpenStorageProvider"
+f1_keywords:
+- ncrypt/NCryptOpenStorageProvider
 dev_langs:
- - c++
+- c++
 req.header: ncrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Ncrypt.lib
 req.dll: Ncrypt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ncrypt.dll
+- Ncrypt.dll
 api_name:
- - NCryptOpenStorageProvider
+- NCryptOpenStorageProvider
 targetos: Windows
 req.typenames: 
 req.redist: 

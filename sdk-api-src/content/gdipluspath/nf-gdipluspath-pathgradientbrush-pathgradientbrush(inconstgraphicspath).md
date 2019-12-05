@@ -1,19 +1,17 @@
 ---
 UID: NF:gdipluspath.PathGradientBrush.PathGradientBrush(IN const GraphicsPath)
 title: PathGradientBrush::PathGradientBrush(IN const GraphicsPath) (gdipluspath.h)
-
 description: Creates a PathGradientBrush::PathGradientBrush object based on a GraphicsPath object.
 old-location: gdiplus\_gdiplus_CLASS_PathGradientBrush_PathGradientBrush_path_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\pathgradientbrushclass\pathgradientbrushconstructors\pathgradientbrush_39path.htm
-
 ms.date: 12/05/2018
 ms.keywords: PathGradientBrush, PathGradientBrush class [GDI+],PathGradientBrush constructor, PathGradientBrush constructor [GDI+], PathGradientBrush constructor [GDI+],PathGradientBrush class, PathGradientBrush.PathGradientBrush, PathGradientBrush.PathGradientBrush(IN const GraphicsPath), PathGradientBrush.PathGradientBrush(const GraphicsPath*), PathGradientBrush::PathGradientBrush, PathGradientBrush::PathGradientBrush(IN const GraphicsPath), _gdiplus_CLASS_PathGradientBrush_PathGradientBrush_path_, gdiplus._gdiplus_CLASS_PathGradientBrush_PathGradientBrush_path_
 ms.topic: method
-f1_keywords: 
- - "gdipluspath/PathGradientBrush.PathGradientBrush"
+f1_keywords:
+- gdipluspath/PathGradientBrush.PathGradientBrush
 dev_langs:
- - c++
+- c++
 req.header: gdipluspath.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - PathGradientBrush.PathGradientBrush
+- PathGradientBrush.PathGradientBrush
 targetos: Windows
 req.typenames: 
 req.redist: 

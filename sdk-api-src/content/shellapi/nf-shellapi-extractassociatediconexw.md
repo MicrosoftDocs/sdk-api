@@ -1,19 +1,17 @@
 ---
 UID: NF:shellapi.ExtractAssociatedIconExW
 title: ExtractAssociatedIconExW function (shellapi.h)
-
 description: ExtractAssociatedIconEx may be altered or unavailable.
 old-location: shell\ExtractAssociatedIconEx.htm
 tech.root: shell
 ms.assetid: f32260b0-917b-4406-aeee-34f71a7c7309
-
 ms.date: 12/05/2018
 ms.keywords: ExtractAssociatedIconEx, ExtractAssociatedIconEx function [Windows Shell], ExtractAssociatedIconExA, ExtractAssociatedIconExW, _win32_ExtractAssociatedIconEx, shell.ExtractAssociatedIconEx, shellapi/ExtractAssociatedIconEx, shellapi/ExtractAssociatedIconExA, shellapi/ExtractAssociatedIconExW
 ms.topic: function
-f1_keywords: 
- - "shellapi/ExtractAssociatedIconEx"
+f1_keywords:
+- shellapi/ExtractAssociatedIconEx
 dev_langs:
- - c++
+- c++
 req.header: shellapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Shell32.lib
 req.dll: Shell32.dll (version 5.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - ExtractAssociatedIconEx
- - ExtractAssociatedIconExA
- - ExtractAssociatedIconExW
+- ExtractAssociatedIconEx
+- ExtractAssociatedIconExA
+- ExtractAssociatedIconExW
 targetos: Windows
 req.typenames: 
 req.redist: 

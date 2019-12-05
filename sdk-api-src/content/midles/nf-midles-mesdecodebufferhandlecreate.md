@@ -1,19 +1,17 @@
 ---
 UID: NF:midles.MesDecodeBufferHandleCreate
 title: MesDecodeBufferHandleCreate function (midles.h)
-
 description: The MesDecodeBufferHandleCreate function creates a decoding handle and initializes it for a (fixed) buffer style of serialization.
 old-location: rpc\mesdecodebufferhandlecreate.htm
 tech.root: Rpc
 ms.assetid: 10a2312d-5969-4dde-bf62-308ad425569b
-
 ms.date: 12/05/2018
 ms.keywords: MesDecodeBufferHandleCreate, MesDecodeBufferHandleCreate function [RPC], _rpc_mesdecodebufferhandlecreate, midles/MesDecodeBufferHandleCreate, rpc.mesdecodebufferhandlecreate
 ms.topic: function
-f1_keywords: 
- - "midles/MesDecodeBufferHandleCreate"
+f1_keywords:
+- midles/MesDecodeBufferHandleCreate
 dev_langs:
- - c++
+- c++
 req.header: midles.h
 req.include-header: Rpc.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Rpcrt4.lib
 req.dll: Rpcrt4.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Rpcrt4.dll
+- Rpcrt4.dll
 api_name:
- - MesDecodeBufferHandleCreate
+- MesDecodeBufferHandleCreate
 targetos: Windows
 req.typenames: 
 req.redist: 

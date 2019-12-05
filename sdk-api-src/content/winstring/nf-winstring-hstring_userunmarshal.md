@@ -1,19 +1,17 @@
 ---
 UID: NF:winstring.HSTRING_UserUnmarshal
 title: HSTRING_UserUnmarshal function (winstring.h)
-
 description: Unmarshals an HSTRING object from the RPC buffer.
 old-location: winrt\hstring_userunmarshal.htm
 tech.root: WinRT
 ms.assetid: EFE4C76D-4219-43DA-B1F6-4A58ED763686
-
 ms.date: 12/05/2018
 ms.keywords: HSTRING_UserUnmarshal, HSTRING_UserUnmarshal function [Windows Runtime], remotesystemadditionalinfo/HSTRING_UserUnmarshal, winrt.hstring_userunmarshal
 ms.topic: function
-f1_keywords: 
- - "winstring/HSTRING_UserUnmarshal"
+f1_keywords:
+- winstring/HSTRING_UserUnmarshal
 dev_langs:
- - c++
+- c++
 req.header: winstring.h
 req.include-header: Winstring.h, Inspectable.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: RuntimeObject.lib
 req.dll: ComBase.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - ComBase.dll
- - API-MS-Win-Core-WinRT-String-l1-1-0.dll
- - API-MS-Win-Core-WinRT-String-L1-1-1.dll
+- ComBase.dll
+- API-MS-Win-Core-WinRT-String-l1-1-0.dll
+- API-MS-Win-Core-WinRT-String-L1-1-1.dll
 api_name:
- - HSTRING_UserUnmarshal
+- HSTRING_UserUnmarshal
 targetos: Windows
 req.typenames: 
 req.redist: 

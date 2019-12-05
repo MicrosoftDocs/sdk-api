@@ -1,19 +1,17 @@
 ---
 UID: NF:rometadataapi.IMetaDataDispenser.OpenScopeOnMemory
 title: IMetaDataDispenser::OpenScopeOnMemory (rometadataapi.h)
-
 description: Opens an area of memory that contains existing metadata. That is, this method opens a specified area of memory in which the existing data is treated as metadata.
 old-location: winrt\imetadatadispenser_openscopeonmemory.htm
 tech.root: WinRT
 ms.assetid: 4558b229-0fe9-4ff7-a666-e69b47cb8170
-
 ms.date: 12/05/2018
 ms.keywords: IMetaDataDispenser interface [Windows Runtime],OpenScopeOnMemory method, IMetaDataDispenser.OpenScopeOnMemory, IMetaDataDispenser::OpenScopeOnMemory, OpenScopeOnMemory, OpenScopeOnMemory method [Windows Runtime], OpenScopeOnMemory method [Windows Runtime],IMetaDataDispenser interface, rometadataapi/IMetaDataDispenser::OpenScopeOnMemory, winrt.imetadatadispenser_openscopeonmemory
 ms.topic: method
-f1_keywords: 
- - "rometadataapi/IMetaDataDispenser.OpenScopeOnMemory"
+f1_keywords:
+- rometadataapi/IMetaDataDispenser.OpenScopeOnMemory
 dev_langs:
- - c++
+- c++
 req.header: rometadataapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - rometadataapi.h
+- rometadataapi.h
 api_name:
- - IMetaDataDispenser.OpenScopeOnMemory
+- IMetaDataDispenser.OpenScopeOnMemory
 targetos: Windows
 req.typenames: 
 req.redist: 

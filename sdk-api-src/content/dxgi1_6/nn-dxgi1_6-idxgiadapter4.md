@@ -1,19 +1,17 @@
 ---
 UID: NN:dxgi1_6.IDXGIAdapter4
 title: IDXGIAdapter4 (dxgi1_6.h)
-
 description: This interface represents a display subsystem, and extends this family of interfaces to expose a method to check for an adapter's compatibility with Arbitrary Code Guard (ACG).
 old-location: direct3ddxgi\idxgiadapter4.htm
 tech.root: direct3ddxgi
 ms.assetid: 176958F9-94C8-4F80-B9A4-96BC9634292E
-
 ms.date: 12/05/2018
 ms.keywords: IDXGIAdapter4, IDXGIAdapter4 interface [DXGI], IDXGIAdapter4 interface [DXGI],described, direct3ddxgi.idxgiadapter4, dxgi1_6/IDXGIAdapter4
 ms.topic: interface
-f1_keywords: 
- - "dxgi1_6/IDXGIAdapter4"
+f1_keywords:
+- dxgi1_6/IDXGIAdapter4
 dev_langs:
- - c++
+- c++
 req.header: dxgi1_6.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dxgi.lib
 req.dll: Dxgi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dxgi.dll
+- dxgi.dll
 api_name:
- - IDXGIAdapter4
+- IDXGIAdapter4
 targetos: Windows
 req.typenames: 
 req.redist: 

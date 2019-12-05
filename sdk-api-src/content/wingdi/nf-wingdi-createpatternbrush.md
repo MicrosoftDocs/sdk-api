@@ -1,19 +1,17 @@
 ---
 UID: NF:wingdi.CreatePatternBrush
 title: CreatePatternBrush function (wingdi.h)
-
 description: The CreatePatternBrush function creates a logical brush with the specified bitmap pattern. The bitmap can be a DIB section bitmap, which is created by the CreateDIBSection function, or it can be a device-dependent bitmap.
 old-location: gdi\createpatternbrush.htm
 tech.root: gdi
 ms.assetid: a3cf347e-9803-4bb0-bdb3-98929ef859ab
-
 ms.date: 12/05/2018
 ms.keywords: CreatePatternBrush, CreatePatternBrush function [Windows GDI], _win32_CreatePatternBrush, gdi.createpatternbrush, wingdi/CreatePatternBrush
 ms.topic: function
-f1_keywords: 
- - "wingdi/CreatePatternBrush"
+f1_keywords:
+- wingdi/CreatePatternBrush
 dev_langs:
- - c++
+- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - gdi32.dll
- - Ext-MS-Win-GDI-Draw-l1-1-1.dll
- - ext-ms-win-gdi-draw-l1-1-2.dll
- - Ext-MS-Win-GDI-Draw-L1-1-3.dll
- - GDI32Full.dll
+- gdi32.dll
+- Ext-MS-Win-GDI-Draw-l1-1-1.dll
+- ext-ms-win-gdi-draw-l1-1-2.dll
+- Ext-MS-Win-GDI-Draw-L1-1-3.dll
+- GDI32Full.dll
 api_name:
- - CreatePatternBrush
+- CreatePatternBrush
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IExplorerBrowser.SetOptions
 title: IExplorerBrowser::SetOptions (shobjidl_core.h)
-
 description: Sets the current browser options.
 old-location: shell\IExplorerBrowser_SetOptions.htm
 tech.root: shell
 ms.assetid: b2f8fe1b-afcd-4fb0-b96b-41e38c7fea0b
-
 ms.date: 12/05/2018
 ms.keywords: IExplorerBrowser interface [Windows Shell],SetOptions method, IExplorerBrowser.SetOptions, IExplorerBrowser::SetOptions, SetOptions, SetOptions method [Windows Shell], SetOptions method [Windows Shell],IExplorerBrowser interface, _shell_IExplorerBrowser_SetOptions, shell.IExplorerBrowser_SetOptions, shobjidl_core/IExplorerBrowser::SetOptions
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IExplorerBrowser.SetOptions"
+f1_keywords:
+- shobjidl_core/IExplorerBrowser.SetOptions
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - IExplorerBrowser.SetOptions
+- IExplorerBrowser.SetOptions
 targetos: Windows
 req.typenames: 
 req.redist: 

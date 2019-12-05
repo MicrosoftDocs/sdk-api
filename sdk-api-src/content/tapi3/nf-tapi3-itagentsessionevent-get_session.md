@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi3.ITAgentSessionEvent.get_Session
 title: ITAgentSessionEvent::get_Session (tapi3.h)
-
 description: The get_Session method gets a pointer to the ITAgentSession on which the event occurred.
 old-location: tapi3\itagentsessionevent_get_session.htm
 tech.root: Tapi
 ms.assetid: 2868e5db-f596-424d-bd6a-0f0c5f52e1e7
-
 ms.date: 12/05/2018
 ms.keywords: ITAgentSessionEvent interface [TAPI 2.2],get_Session method, ITAgentSessionEvent.get_Session, ITAgentSessionEvent::get_Session, _tapi3_itagentsessionevent_get_session, get_Session, get_Session method [TAPI 2.2], get_Session method [TAPI 2.2],ITAgentSessionEvent interface, tapi3.itagentsessionevent_get_session, tapi3cc/ITAgentSessionEvent::get_Session
 ms.topic: method
-f1_keywords: 
- - "tapi3/ITAgentSessionEvent.get_Session"
+f1_keywords:
+- tapi3/ITAgentSessionEvent.get_Session
 dev_langs:
- - c++
+- c++
 req.header: tapi3.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Tapi3.dll
+- Tapi3.dll
 api_name:
- - ITAgentSessionEvent.get_Session
+- ITAgentSessionEvent.get_Session
 targetos: Windows
 req.typenames: 
 req.redist: 

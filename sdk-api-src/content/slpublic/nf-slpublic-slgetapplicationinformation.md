@@ -1,19 +1,17 @@
 ---
 UID: NF:slpublic.SLGetApplicationInformation
 title: SLGetApplicationInformation function (slpublic.h)
-
 description: Gets information about the specified application.
 old-location: security\slgetapplicationinformation.htm
 tech.root: SecSLApi
 ms.assetid: f745e1e1-74c8-4563-9c29-d3184d8d4f6d
-
 ms.date: 12/05/2018
 ms.keywords: SLGetApplicationInformation, SLGetApplicationInformation function [Security], SL_DATA_BINARY, SL_DATA_DWORD, SL_DATA_SZ, SL_INFO_KEY_IS_KMS, SL_INFO_KEY_KMS_CURRENT_COUNT, SL_INFO_KEY_KMS_FAILED_REQUESTS, SL_INFO_KEY_KMS_LICENSED_REQUESTS, SL_INFO_KEY_KMS_NON_GENUINE_GRACE_REQUESTS, SL_INFO_KEY_KMS_NOTIFICATION_REQUESTS, SL_INFO_KEY_KMS_OOB_GRACE_REQUESTS, SL_INFO_KEY_KMS_OOT_GRACE_REQUESTS, SL_INFO_KEY_KMS_REQUIRED_CLIENT_COUNT, SL_INFO_KEY_KMS_TOTAL_REQUESTS, SL_INFO_KEY_KMS_UNLICENSED_REQUESTS, security.slgetapplicationinformation, slpublic/SLGetApplicationInformation
 ms.topic: function
 f1_keywords:
 - slpublic/SLGetApplicationInformation
 dev_langs:
- - c++
+- c++
 req.header: slpublic.h
 req.include-header: 
 req.target-type: Windows

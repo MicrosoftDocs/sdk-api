@@ -1,19 +1,17 @@
 ---
 UID: NF:tuner.IAnalogTVTuningSpace.get_CountryCode
 title: IAnalogTVTuningSpace::get_CountryCode (tuner.h)
-
 description: The get_CountryCode method gets the country/region code of the tuning space (based on TAPI country/region codes).
 old-location: mstv\ianalogtvtuningspace_get_countrycode.htm
 tech.root: mstv
 ms.assetid: f74f31cc-8e3a-41b8-bf27-f60b9cbcfcdb
-
 ms.date: 12/05/2018
 ms.keywords: IAnalogTVTuningSpace interface [Microsoft TV Technologies],get_CountryCode method, IAnalogTVTuningSpace.get_CountryCode, IAnalogTVTuningSpace::get_CountryCode, IAnalogTVTuningSpaceget_CountryCode, get_CountryCode, get_CountryCode method [Microsoft TV Technologies], get_CountryCode method [Microsoft TV Technologies],IAnalogTVTuningSpace interface, mstv.ianalogtvtuningspace_get_countrycode, tuner/IAnalogTVTuningSpace::get_CountryCode
 ms.topic: method
-f1_keywords: 
- - "tuner/IAnalogTVTuningSpace.get_CountryCode"
+f1_keywords:
+- tuner/IAnalogTVTuningSpace.get_CountryCode
 dev_langs:
- - c++
+- c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - tuner.h
+- tuner.h
 api_name:
- - IAnalogTVTuningSpace.get_CountryCode
+- IAnalogTVTuningSpace.get_CountryCode
 targetos: Windows
 req.typenames: 
 req.redist: 

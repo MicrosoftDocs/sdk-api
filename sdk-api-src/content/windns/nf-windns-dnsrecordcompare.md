@@ -1,19 +1,17 @@
 ---
 UID: NF:windns.DnsRecordCompare
 title: DnsRecordCompare function (windns.h)
-
 description: The DnsRecordCompare function compares two DNS resource records (RR).
 old-location: dns\dnsrecordcompare.htm
 tech.root: DNS
 ms.assetid: c4449a23-d6d3-4f27-a963-a84144983e5e
-
 ms.date: 12/05/2018
 ms.keywords: DnsRecordCompare, DnsRecordCompare function [DNS], _dns_dnsrecordcompare, dns.dnsrecordcompare, windns/DnsRecordCompare
 ms.topic: function
-f1_keywords: 
- - "windns/DnsRecordCompare"
+f1_keywords:
+- windns/DnsRecordCompare
 dev_langs:
- - c++
+- c++
 req.header: windns.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dnsapi.lib
 req.dll: Dnsapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Dnsapi.dll
+- Dnsapi.dll
 api_name:
- - DnsRecordCompare
+- DnsRecordCompare
 targetos: Windows
 req.typenames: 
 req.redist: 

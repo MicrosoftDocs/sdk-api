@@ -1,19 +1,17 @@
 ---
 UID: NE:mfidl._MFNetAuthenticationFlags
 title: MFNetAuthenticationFlags (mfidl.h)
-
 description: Specifies how the user's credentials will be used.
 old-location: mf\mfnetauthenticationflags.htm
 tech.root: medfound
 ms.assetid: 4a2f5537-b78c-49a6-9b66-d3ca34c3fc67
-
 ms.date: 12/05/2018
 ms.keywords: 4a2f5537-b78c-49a6-9b66-d3ca34c3fc67, MFNET_AUTHENTICATION_CLEAR_TEXT, MFNET_AUTHENTICATION_LOGGED_ON_USER, MFNET_AUTHENTICATION_PROXY, MFNetAuthenticationFlags, MFNetAuthenticationFlags enumeration [Media Foundation], mf.mfnetauthenticationflags, mfidl/MFNET_AUTHENTICATION_CLEAR_TEXT, mfidl/MFNET_AUTHENTICATION_LOGGED_ON_USER, mfidl/MFNET_AUTHENTICATION_PROXY, mfidl/MFNetAuthenticationFlags
 ms.topic: enum
-f1_keywords: 
- - "mfidl/MFNetAuthenticationFlags"
+f1_keywords:
+- mfidl/MFNetAuthenticationFlags
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - mfidl.h
+- mfidl.h
 api_name:
- - MFNetAuthenticationFlags
+- MFNetAuthenticationFlags
 targetos: Windows
 req.typenames: MFNetAuthenticationFlags
 req.redist: 

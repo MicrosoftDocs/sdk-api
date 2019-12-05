@@ -1,19 +1,17 @@
 ---
 UID: NF:xpsdigitalsignature.IXpsSignatureManager.SavePackageToFile
 title: IXpsSignatureManager::SavePackageToFile (xpsdigitalsignature.h)
-
 description: Saves the XPS package to a file.
 old-location: xps\ixpssignaturemanager_savepackagetofile.htm
 tech.root: printdocs
 ms.assetid: 954d8eb1-8680-410b-909b-da7a6572c0f3
-
 ms.date: 12/05/2018
 ms.keywords: IXpsSignatureManager interface [XPS Documents and Packaging],SavePackageToFile method, IXpsSignatureManager.SavePackageToFile, IXpsSignatureManager::SavePackageToFile, SavePackageToFile, SavePackageToFile method [XPS Documents and Packaging], SavePackageToFile method [XPS Documents and Packaging],IXpsSignatureManager interface, xps.ixpssignaturemanager_savepackagetofile, xpsdigitalsignature/IXpsSignatureManager::SavePackageToFile
 ms.topic: method
-f1_keywords: 
- - "xpsdigitalsignature/IXpsSignatureManager.SavePackageToFile"
+f1_keywords:
+- xpsdigitalsignature/IXpsSignatureManager.SavePackageToFile
 dev_langs:
- - c++
+- c++
 req.header: xpsdigitalsignature.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsdigitalsignature.h
+- xpsdigitalsignature.h
 api_name:
- - IXpsSignatureManager.SavePackageToFile
+- IXpsSignatureManager.SavePackageToFile
 targetos: Windows
 req.typenames: 
 req.redist: 

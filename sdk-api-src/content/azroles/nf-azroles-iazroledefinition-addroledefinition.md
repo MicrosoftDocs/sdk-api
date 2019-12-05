@@ -1,19 +1,17 @@
 ---
 UID: NF:azroles.IAzRoleDefinition.AddRoleDefinition
 title: IAzRoleDefinition::AddRoleDefinition (azroles.h)
-
 description: Adds the specified IAzRoleDefinition object to this IAzRoleDefinition object.
 old-location: security\iazroledefinition_addroledefinition.htm
 tech.root: SecAuthZ
 ms.assetid: 38d65f5f-452b-4641-a683-2740fb529064
-
 ms.date: 12/05/2018
 ms.keywords: AddRoleDefinition, AddRoleDefinition method [Security], AddRoleDefinition method [Security],IAzRoleDefinition interface, IAzRoleDefinition interface [Security],AddRoleDefinition method, IAzRoleDefinition.AddRoleDefinition, IAzRoleDefinition::AddRoleDefinition, azroles/IAzRoleDefinition::AddRoleDefinition, security.iazroledefinition_addroledefinition
 ms.topic: method
-f1_keywords: 
- - "azroles/IAzRoleDefinition.AddRoleDefinition"
+f1_keywords:
+- azroles/IAzRoleDefinition.AddRoleDefinition
 dev_langs:
- - c++
+- c++
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Azroles.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Azroles.dll
+- Azroles.dll
 api_name:
- - IAzRoleDefinition.AddRoleDefinition
+- IAzRoleDefinition.AddRoleDefinition
 targetos: Windows
 req.typenames: 
 req.redist: 

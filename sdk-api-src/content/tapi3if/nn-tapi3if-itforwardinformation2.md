@@ -1,19 +1,17 @@
 ---
 UID: NN:tapi3if.ITForwardInformation2
 title: ITForwardInformation2 (tapi3if.h)
-
 description: The ITForwardInformation2 interface exposes methods that provide additional methods for the control of forwarding information. See ITForwardInformation for the basic forwarding control methods.
 old-location: tapi3\itforwardinformation2.htm
 tech.root: Tapi
 ms.assetid: 25c99955-1a9d-49fa-9432-962e19296ad5
-
 ms.date: 12/05/2018
 ms.keywords: ITForwardInformation2, ITForwardInformation2 interface [TAPI 2.2], ITForwardInformation2 interface [TAPI 2.2],described, _tapi3_itforwardinformation2, tapi3.itforwardinformation2, tapi3if/ITForwardInformation2
 ms.topic: interface
-f1_keywords: 
- - "tapi3if/ITForwardInformation2"
+f1_keywords:
+- tapi3if/ITForwardInformation2
 dev_langs:
- - c++
+- c++
 req.header: tapi3if.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Tapi3.dll
+- Tapi3.dll
 api_name:
- - ITForwardInformation2
+- ITForwardInformation2
 targetos: Windows
 req.typenames: 
 req.redist: 

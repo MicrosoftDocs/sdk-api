@@ -1,19 +1,17 @@
 ---
 UID: NF:objidlbase.IRpcChannelBuffer.FreeBuffer
 title: IRpcChannelBuffer::FreeBuffer (objidlbase.h)
-
 description: Frees a previously allocated RPC channel buffer.
 old-location: com\irpcchannelbuffer_freebuffer.htm
 tech.root: com
 ms.assetid: bcdd4783-4a75-42d0-86a9-ab2605abbbe1
-
 ms.date: 12/05/2018
 ms.keywords: FreeBuffer, FreeBuffer method [COM], FreeBuffer method [COM],IRpcChannelBuffer interface, IRpcChannelBuffer interface [COM],FreeBuffer method, IRpcChannelBuffer.FreeBuffer, IRpcChannelBuffer::FreeBuffer, _com_irpcchannelbuffer_freebuffer, com.irpcchannelbuffer_freebuffer, objidlbase/IRpcChannelBuffer::FreeBuffer
 ms.topic: method
-f1_keywords: 
- - "objidlbase/IRpcChannelBuffer.FreeBuffer"
+f1_keywords:
+- objidlbase/IRpcChannelBuffer.FreeBuffer
 dev_langs:
- - c++
+- c++
 req.header: objidlbase.h
 req.include-header: ObjIdl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - objidlbase.h
+- objidlbase.h
 api_name:
- - IRpcChannelBuffer.FreeBuffer
+- IRpcChannelBuffer.FreeBuffer
 targetos: Windows
 req.typenames: 
 req.redist: 

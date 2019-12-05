@@ -1,19 +1,17 @@
 ---
 UID: NS:vdshwprv._VDS_DRIVE_EXTENT
 title: VDS_DRIVE_EXTENT (vdshwprv.h)
-
 description: Defines the properties of a drive extent.
 old-location: base\vds_drive_extent.htm
 tech.root: VDS
 ms.assetid: c155d925-e86f-4bec-9032-dae2221172a7
-
 ms.date: 12/05/2018
-ms.keywords: "*PVDS_DRIVE_EXTENT, VDS_DRIVE_EXTENT, VDS_DRIVE_EXTENT structure [VDS], base.vds_drive_extent, vds/_VDS_DRIVE_EXTENT, vdshwprv/_VDS_DRIVE_EXTENT"
+ms.keywords: '*PVDS_DRIVE_EXTENT, VDS_DRIVE_EXTENT, VDS_DRIVE_EXTENT structure [VDS], base.vds_drive_extent, vds/_VDS_DRIVE_EXTENT, vdshwprv/_VDS_DRIVE_EXTENT'
 ms.topic: struct
-f1_keywords: 
- - "vdshwprv/VDS_DRIVE_EXTENT"
+f1_keywords:
+- vdshwprv/VDS_DRIVE_EXTENT
 dev_langs:
- - c++
+- c++
 req.header: vdshwprv.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Vds.h
- - VdsHwPrv.h
+- Vds.h
+- VdsHwPrv.h
 api_name:
- - VDS_DRIVE_EXTENT
+- VDS_DRIVE_EXTENT
 targetos: Windows
 req.typenames: VDS_DRIVE_EXTENT, *PVDS_DRIVE_EXTENT
 req.redist: 

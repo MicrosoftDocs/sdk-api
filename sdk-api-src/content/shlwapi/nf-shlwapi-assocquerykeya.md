@@ -1,19 +1,17 @@
 ---
 UID: NF:shlwapi.AssocQueryKeyA
 title: AssocQueryKeyA function (shlwapi.h)
-
 description: Searches for and retrieves a key related to a file or protocol association from the registry.
 old-location: shell\AssocQueryKey.htm
 tech.root: shell
 ms.assetid: 9eaeb885-0428-48c3-82a7-5dc21d5015ce
-
 ms.date: 12/05/2018
 ms.keywords: AssocQueryKey, AssocQueryKey function [Windows Shell], AssocQueryKeyA, AssocQueryKeyW, CLSID, Executable name, File name extension, ProgID, _win32_AssocQueryKey, shell.AssocQueryKey, shlwapi/AssocQueryKey, shlwapi/AssocQueryKeyA, shlwapi/AssocQueryKeyW
 ms.topic: function
-f1_keywords: 
- - "shlwapi/AssocQueryKey"
+f1_keywords:
+- shlwapi/AssocQueryKey
 dev_langs:
- - c++
+- c++
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Shlwapi.lib
 req.dll: Shlwapi.dll (version 5.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Shlwapi.dll
- - API-MS-Win-shlwapi-IE-l1-1-0.dll
+- Shlwapi.dll
+- API-MS-Win-shlwapi-IE-l1-1-0.dll
 api_name:
- - AssocQueryKey
- - AssocQueryKeyA
- - AssocQueryKeyW
+- AssocQueryKey
+- AssocQueryKeyA
+- AssocQueryKeyW
 targetos: Windows
 req.typenames: 
 req.redist: 

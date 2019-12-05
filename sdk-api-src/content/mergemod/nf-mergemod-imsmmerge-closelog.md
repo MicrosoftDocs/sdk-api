@@ -1,19 +1,17 @@
 ---
 UID: NF:mergemod.IMsmMerge.CloseLog
 title: IMsmMerge::CloseLog (mergemod.h)
-
 description: The CloseLog function method closes the current log. For more information, see the CloseLog method of the Merge object.
 old-location: setup\imsmmerge_closelog.htm
 tech.root: Msi
 ms.assetid: f683e405-da98-455f-85d5-d61dc1d73440
-
 ms.date: 12/05/2018
 ms.keywords: CloseLog, CloseLog method, CloseLog method,IMsmMerge interface, IMsmMerge interface,CloseLog method, IMsmMerge.CloseLog, IMsmMerge::CloseLog, _msi_closelog_function, mergemod/IMsmMerge::CloseLog, setup.imsmmerge_closelog
 ms.topic: method
-f1_keywords: 
- - "mergemod/IMsmMerge.CloseLog"
+f1_keywords:
+- mergemod/IMsmMerge.CloseLog
 dev_langs:
- - c++
+- c++
 req.header: mergemod.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Mergemod.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mergemod.dll
+- Mergemod.dll
 api_name:
- - IMsmMerge.CloseLog
+- IMsmMerge.CloseLog
 targetos: Windows
 req.typenames: 
 req.redist: 

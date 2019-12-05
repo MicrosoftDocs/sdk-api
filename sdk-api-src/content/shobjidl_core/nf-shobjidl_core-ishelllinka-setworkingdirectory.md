@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IShellLinkA.SetWorkingDirectory
 title: IShellLinkA::SetWorkingDirectory (shobjidl_core.h)
-
 description: Sets the name of the working directory for a Shell link object.
 old-location: shell\IShellLink_SetWorkingDirectory.htm
 tech.root: shell
 ms.assetid: 03767add-766c-4970-935e-ffa5aa401a95
-
 ms.date: 12/05/2018
 ms.keywords: IShellLink interface [Windows Shell],SetWorkingDirectory method, IShellLink::SetWorkingDirectory, IShellLinkA, IShellLinkA interface [Windows Shell],SetWorkingDirectory method, IShellLinkA.SetWorkingDirectory, IShellLinkA::SetWorkingDirectory, IShellLinkW, IShellLinkW interface [Windows Shell],SetWorkingDirectory method, IShellLinkW::SetWorkingDirectory, SetWorkingDirectory, SetWorkingDirectory method [Windows Shell], SetWorkingDirectory method [Windows Shell],IShellLink interface, SetWorkingDirectory method [Windows Shell],IShellLinkA interface, SetWorkingDirectory method [Windows Shell],IShellLinkW interface, _win32_IShellLink_SetWorkingDirectory, shell.IShellLink_SetWorkingDirectory, shobjidl_core/IShellLink::SetWorkingDirectory, shobjidl_core/IShellLinkA::SetWorkingDirectory, shobjidl_core/IShellLinkW::SetWorkingDirectory
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IShellLink.SetWorkingDirectory"
+f1_keywords:
+- shobjidl_core/IShellLink.SetWorkingDirectory
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: Shell32.dll (version 4.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - IShellLink.SetWorkingDirectory
- - IShellLinkA.SetWorkingDirectory
- - IShellLinkW.SetWorkingDirectory
+- IShellLink.SetWorkingDirectory
+- IShellLinkA.SetWorkingDirectory
+- IShellLinkW.SetWorkingDirectory
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NE:wuapi.tagAutomaticUpdatesScheduledInstallationDay
 title: AutomaticUpdatesScheduledInstallationDay (wuapi.h)
-
 description: Defines the days of the week when Automatic Updates installs or uninstalls updates.
 old-location: wua\automaticupdatesscheduledinstallationday.htm
 tech.root: Wua_Sdk
 ms.assetid: 8c7525bf-e15f-4c30-8e16-4b945d73f3cb
-
 ms.date: 12/05/2018
 ms.keywords: AutomaticUpdatesScheduledInstallationDay, AutomaticUpdatesScheduledInstallationDay enumeration [Windows Update Agent], ausidEveryDay, ausidEveryFriday, ausidEveryMonday, ausidEverySaturday, ausidEverySunday, ausidEveryThursday, ausidEveryTuesday, ausidEveryWednesday, wua.automaticupdatesscheduledinstallationday, wuapi/AutomaticUpdatesScheduledInstallationDay, wuapi/ausidEveryDay, wuapi/ausidEveryFriday, wuapi/ausidEveryMonday, wuapi/ausidEverySaturday, wuapi/ausidEverySunday, wuapi/ausidEveryThursday, wuapi/ausidEveryTuesday, wuapi/ausidEveryWednesday
 ms.topic: enum
-f1_keywords: 
- - "wuapi/AutomaticUpdatesScheduledInstallationDay"
+f1_keywords:
+- wuapi/AutomaticUpdatesScheduledInstallationDay
 dev_langs:
- - c++
+- c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wuapi.h
+- Wuapi.h
 api_name:
- - AutomaticUpdatesScheduledInstallationDay
+- AutomaticUpdatesScheduledInstallationDay
 targetos: Windows
 req.typenames: AutomaticUpdatesScheduledInstallationDay
 req.redist: 

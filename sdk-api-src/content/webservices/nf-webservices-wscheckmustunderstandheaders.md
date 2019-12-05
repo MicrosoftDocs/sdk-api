@@ -1,19 +1,17 @@
 ---
 UID: NF:webservices.WsCheckMustUnderstandHeaders
 title: WsCheckMustUnderstandHeaders function (webservices.h)
-
 description: Verifies that the specified headers were understood by the receiver. Note  This function should be called after all headers have been read for a received message.  .
 old-location: wsw\wscheckmustunderstandheaders.htm
 tech.root: wsw
 ms.assetid: 28ca98e5-911b-436d-a592-781b832ca6cc
-
 ms.date: 12/05/2018
 ms.keywords: WsCheckMustUnderstandHeaders, WsCheckMustUnderstandHeaders function [Web Services for Windows], webservices/WsCheckMustUnderstandHeaders, wsw.wscheckmustunderstandheaders
 ms.topic: function
-f1_keywords: 
- - "webservices/WsCheckMustUnderstandHeaders"
+f1_keywords:
+- webservices/WsCheckMustUnderstandHeaders
 dev_langs:
- - c++
+- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: WebServices.lib
 req.dll: WebServices.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - WebServices.dll
+- WebServices.dll
 api_name:
- - WsCheckMustUnderstandHeaders
+- WsCheckMustUnderstandHeaders
 targetos: Windows
 req.typenames: 
 req.redist: 

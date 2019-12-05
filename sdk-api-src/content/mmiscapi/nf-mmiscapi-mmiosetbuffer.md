@@ -1,19 +1,17 @@
 ---
 UID: NF:mmiscapi.mmioSetBuffer
 title: mmioSetBuffer function (mmiscapi.h)
-
 description: The mmioSetBuffer function enables or disables buffered I/O, or changes the buffer or buffer size for a file opened by using the mmioOpen function.
 old-location: multimedia\mmiosetbuffer.htm
 tech.root: Multimedia
 ms.assetid: 78bee0a3-1f9e-4268-8070-8267cc6aab5a
-
 ms.date: 12/05/2018
-ms.keywords: "_win32_mmioSetBuffer, mmioSetBuffer, mmioSetBuffer function [Windows Multimedia], mmsystem/mmioSetBuffer, multimedia.mmiosetbuffer"
+ms.keywords: _win32_mmioSetBuffer, mmioSetBuffer, mmioSetBuffer function [Windows Multimedia], mmsystem/mmioSetBuffer, multimedia.mmiosetbuffer
 ms.topic: function
-f1_keywords: 
- - "mmiscapi/mmioSetBuffer"
+f1_keywords:
+- mmiscapi/mmioSetBuffer
 dev_langs:
- - c++
+- c++
 req.header: mmiscapi.h
 req.include-header: Mmiscapi.h, Windows.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Winmm.lib
 req.dll: Winmm.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Winmm.dll
- - API-MS-Win-mm-misc-l1-1-0.dll
- - winmmbase.dll
- - API-MS-Win-mm-misc-l1-1-1.dll
+- Winmm.dll
+- API-MS-Win-mm-misc-l1-1-0.dll
+- winmmbase.dll
+- API-MS-Win-mm-misc-l1-1-1.dll
 api_name:
- - mmioSetBuffer
+- mmioSetBuffer
 targetos: Windows
 req.typenames: 
 req.redist: 

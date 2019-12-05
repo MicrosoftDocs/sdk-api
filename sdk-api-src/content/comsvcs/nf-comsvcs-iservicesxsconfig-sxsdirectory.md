@@ -1,19 +1,17 @@
 ---
 UID: NF:comsvcs.IServiceSxsConfig.SxsDirectory
 title: IServiceSxsConfig::SxsDirectory (comsvcs.h)
-
 description: Sets the directory for the side-by-side assembly for the enclosed work.
 old-location: cos\iservicesxsconfig_sxsdirectory.htm
 tech.root: cossdk
 ms.assetid: 5eb909a5-7730-4f0b-aee6-9bb8de076cea
-
 ms.date: 12/05/2018
 ms.keywords: IServiceSxsConfig interface [COM+],SxsDirectory method, IServiceSxsConfig.SxsDirectory, IServiceSxsConfig::SxsDirectory, SxsDirectory, SxsDirectory method [COM+], SxsDirectory method [COM+],IServiceSxsConfig interface, _cos_IServiceSxsConfig_SxsDirectory, comsvcs/IServiceSxsConfig::SxsDirectory, cos.iservicesxsconfig_sxsdirectory
 ms.topic: method
-f1_keywords: 
- - "comsvcs/IServiceSxsConfig.SxsDirectory"
+f1_keywords:
+- comsvcs/IServiceSxsConfig.SxsDirectory
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - IServiceSxsConfig.SxsDirectory
+- IServiceSxsConfig.SxsDirectory
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:commctrl.TreeView_GetChild
 title: TreeView_GetChild macro (commctrl.h)
-
 description: Retrieves the first child item of the specified tree-view item. You can use this macro, or you can explicitly send the TVM_GETNEXTITEM message with the TVGN_CHILD flag.
 old-location: controls\TreeView_GetChild.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\treeview\macros\treeview_getchild.htm
-
 ms.date: 12/05/2018
 ms.keywords: TreeView_GetChild, TreeView_GetChild macro [Windows Controls], _win32_TreeView_GetChild, _win32_TreeView_GetChild_cpp, commctrl/TreeView_GetChild, controls.TreeView_GetChild, controls._win32_TreeView_GetChild
 ms.topic: macro
-f1_keywords: 
- - "commctrl/TreeView_GetChild"
+f1_keywords:
+- commctrl/TreeView_GetChild
 dev_langs:
- - c++
+- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Commctrl.h
+- Commctrl.h
 api_name:
- - TreeView_GetChild
+- TreeView_GetChild
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NS:winioctl._DISK_PERFORMANCE
 title: DISK_PERFORMANCE
-
 description: Provides disk performance information.
 old-location: fs\disk_performance_str.htm
 tech.root: FileIO
 ms.assetid: 938ec37b-450e-4ebf-ad2b-9f1ac5f56112
-
 ms.date: 12/05/2018
-ms.keywords: "*PDISK_PERFORMANCE, DISK_PERFORMANCE, DISK_PERFORMANCE structure [Files], PDISK_PERFORMANCE, PDISK_PERFORMANCE structure pointer [Files], _win32_disk_performance_str, base.disk_performance_str, fs.disk_performance_str, winioctl/DISK_PERFORMANCE, winioctl/PDISK_PERFORMANCE"
+ms.keywords: '*PDISK_PERFORMANCE, DISK_PERFORMANCE, DISK_PERFORMANCE structure [Files], PDISK_PERFORMANCE, PDISK_PERFORMANCE structure pointer [Files], _win32_disk_performance_str, base.disk_performance_str, fs.disk_performance_str, winioctl/DISK_PERFORMANCE, winioctl/PDISK_PERFORMANCE'
 ms.topic: struct
-f1_keywords: 
- - "winioctl/DISK_PERFORMANCE"
+f1_keywords:
+- winioctl/DISK_PERFORMANCE
 dev_langs:
- - c++
+- c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WinIoCtl.h
+- WinIoCtl.h
 api_name:
- - DISK_PERFORMANCE
+- DISK_PERFORMANCE
 targetos: Windows
 req.typenames: DISK_PERFORMANCE, *PDISK_PERFORMANCE
 req.redist: 

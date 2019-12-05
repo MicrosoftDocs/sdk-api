@@ -1,19 +1,17 @@
 ---
 UID: NF:wdsclientapi.WdsCliGetImageNamespace
 title: WdsCliGetImageNamespace function (wdsclientapi.h)
-
 description: Returns the namespace of the current image.
 old-location: wds\wdscligetimagenamespace.htm
 tech.root: wds
 ms.assetid: 30396f0b-77bb-4c43-86a0-2d4454a05b72
-
 ms.date: 12/05/2018
 ms.keywords: WdsCliGetImageNamespace, WdsCliGetImageNamespace function [Windows Deployment Services], wds.wdscligetimagenamespace, wdsclientapi/WdsCliGetImageNamespace
 ms.topic: function
-f1_keywords: 
- - "wdsclientapi/WdsCliGetImageNamespace"
+f1_keywords:
+- wdsclientapi/WdsCliGetImageNamespace
 dev_langs:
- - c++
+- c++
 req.header: wdsclientapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: WdsClientApi.lib
 req.dll: WdsClientApi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - WdsClientApi.dll
+- WdsClientApi.dll
 api_name:
- - WdsCliGetImageNamespace
+- WdsCliGetImageNamespace
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IMediaSample.GetTime
 title: IMediaSample::GetTime (strmif.h)
-
 description: The GetTime method retrieves the stream times at which this sample should begin and finish.
 old-location: dshow\imediasample_gettime.htm
 tech.root: DirectShow
 ms.assetid: f5e95ef3-a101-41c4-8947-f099fcd2490e
-
 ms.date: 12/05/2018
 ms.keywords: GetTime, GetTime method [DirectShow], GetTime method [DirectShow],IMediaSample interface, IMediaSample interface [DirectShow],GetTime method, IMediaSample.GetTime, IMediaSample::GetTime, IMediaSampleGetTime, dshow.imediasample_gettime, strmif/IMediaSample::GetTime
 ms.topic: method
-f1_keywords: 
- - "strmif/IMediaSample.GetTime"
+f1_keywords:
+- strmif/IMediaSample.GetTime
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IMediaSample.GetTime
+- IMediaSample.GetTime
 targetos: Windows
 req.typenames: 
 req.redist: 

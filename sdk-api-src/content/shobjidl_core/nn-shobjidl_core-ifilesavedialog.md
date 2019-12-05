@@ -1,19 +1,17 @@
 ---
 UID: NN:shobjidl_core.IFileSaveDialog
 title: IFileSaveDialog (shobjidl_core.h)
-
 description: Extends the IFileDialog interface by adding methods specific to the save dialog, which include those that provide support for the collection of metadata to be persisted with the file.
 old-location: shell\IFileSaveDialog.htm
 tech.root: shell
 ms.assetid: 74021f92-54ff-4c02-a8cf-49bcd7b9171e
-
 ms.date: 12/05/2018
 ms.keywords: IFileSaveDialog, IFileSaveDialog interface [Windows Shell], IFileSaveDialog interface [Windows Shell],described, shell.IFileSaveDialog, shell_IFileSaveDialog, shobjidl_core/IFileSaveDialog
 ms.topic: interface
-f1_keywords: 
- - "shobjidl_core/IFileSaveDialog"
+f1_keywords:
+- shobjidl_core/IFileSaveDialog
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shobjidl_core.h
+- Shobjidl_core.h
 api_name:
- - IFileSaveDialog
+- IFileSaveDialog
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:traceloggingprovider.TraceLoggingWriteActivity
 title: TraceLoggingWriteActivity macro (traceloggingprovider.h)
-
 description: Emits an event with specific activity IDs.
 old-location: tracelogging\traceloggingwriteactivity.htm
 tech.root: tracelogging
 ms.assetid: 1BFEC534-A9D4-4310-9E40-FCC1AB301D0F
-
 ms.date: 12/05/2018
 ms.keywords: TraceLoggingWriteActivity, TraceLoggingWriteActivity macro, tracelogging.traceloggingwriteactivity, traceloggingprovider/TraceLoggingWriteActivity
 ms.topic: macro
-f1_keywords: 
- - "traceloggingprovider/TraceLoggingWriteActivity"
+f1_keywords:
+- traceloggingprovider/TraceLoggingWriteActivity
 dev_langs:
- - c++
+- c++
 req.header: traceloggingprovider.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - traceloggingprovider.h
+- traceloggingprovider.h
 api_name:
- - TraceLoggingWriteActivity
+- TraceLoggingWriteActivity
 targetos: Windows
 req.typenames: 
 req.redist: 

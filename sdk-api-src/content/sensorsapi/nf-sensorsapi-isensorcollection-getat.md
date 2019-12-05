@@ -1,19 +1,17 @@
 ---
 UID: NF:sensorsapi.ISensorCollection.GetAt
 title: ISensorCollection::GetAt (sensorsapi.h)
-
 description: Retrieves the sensor at the specified index in the collection.
 old-location: winsensors_com_ref\isensorcollection_getat.htm
 tech.root: SensorsAPI
 ms.assetid: 3117a46d-62f2-4d69-97e1-1a75c08a799e
-
 ms.date: 12/05/2018
 ms.keywords: GetAt, GetAt method, GetAt method,ISensorCollection interface, ISensorCollection interface,GetAt method, ISensorCollection.GetAt, ISensorCollection::GetAt, sensorsapi/ISensorCollection::GetAt, winsensors_com_ref.isensorcollection_getat
 ms.topic: method
-f1_keywords: 
- - "sensorsapi/ISensorCollection.GetAt"
+f1_keywords:
+- sensorsapi/ISensorCollection.GetAt
 dev_langs:
- - c++
+- c++
 req.header: sensorsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Sensorsapi.lib
 req.dll: Sensorsapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - sensorsapi.dll
+- sensorsapi.dll
 api_name:
- - ISensorCollection.GetAt
+- ISensorCollection.GetAt
 targetos: Windows
 req.typenames: 
 req.redist: 

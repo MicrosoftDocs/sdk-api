@@ -1,19 +1,17 @@
 ---
 UID: NF:p2p.PeerGraphStartup
 title: PeerGraphStartup function (p2p.h)
-
 description: The PeerGraphStartup function indicates to the Peer Graphing Infrastructure what version of the Peer protocols the calling application requires.
 old-location: p2p\peergraphstartup.htm
 tech.root: P2PSdk
 ms.assetid: 00ffdec7-f084-4170-a4a1-e6112bab4d61
-
 ms.date: 12/05/2018
 ms.keywords: PeerGraphStartup, PeerGraphStartup function [Peer Networking], p2p.peergraphstartup, p2p/PeerGraphStartup
 ms.topic: function
-f1_keywords: 
- - "p2p/PeerGraphStartup"
+f1_keywords:
+- p2p/PeerGraphStartup
 dev_langs:
- - c++
+- c++
 req.header: p2p.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: P2PGraph.lib
 req.dll: P2PGraph.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - P2PGraph.dll
+- P2PGraph.dll
 api_name:
- - PeerGraphStartup
+- PeerGraphStartup
 targetos: Windows
 req.typenames: 
 req.redist: 

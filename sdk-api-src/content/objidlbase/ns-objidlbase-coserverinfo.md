@@ -1,19 +1,17 @@
 ---
 UID: NS:objidlbase._COSERVERINFO
 title: COSERVERINFO (objidlbase.h)
-
 description: Identifies a remote computer resource to the activation functions.
 old-location: com\coserverinfo.htm
 tech.root: com
 ms.assetid: 88c94a7f-5cf0-4d61-833f-91cba45d8624
-
 ms.date: 12/05/2018
 ms.keywords: COSERVERINFO, COSERVERINFO structure [COM], _COSERVERINFO, _com_COSERVERINFO, com.coserverinfo, objidlbase/COSERVERINFO
 ms.topic: struct
 f1_keywords:
 - objidlbase/COSERVERINFO
 dev_langs:
- - c++
+- c++
 req.header: objidlbase.h
 req.include-header: Objidl.h
 req.target-type: Windows

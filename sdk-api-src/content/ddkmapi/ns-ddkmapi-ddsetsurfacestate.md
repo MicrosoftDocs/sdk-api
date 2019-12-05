@@ -1,19 +1,17 @@
 ---
 UID: NS:ddkmapi._DDSETSURFACETATE
 title: DDSETSURFACESTATE (ddkmapi.h)
-
 description: The DDSETSURFACESTATE structure contains the surface state information.
 old-location: display\ddsetsurfacestate.htm
 tech.root: display
 ms.assetid: a54b1496-1f7e-4ba9-acb3-2debbe7e980d
-
 ms.date: 12/05/2018
-ms.keywords: "*LPDDSETSURFACESTATE, DDSETSURFACESTATE, DDSETSURFACESTATE structure [Display Devices], LPDDSETSURFACESTATE, LPDDSETSURFACESTATE structure pointer [Display Devices], ddkmapi/DDSETSURFACESTATE, ddkmapi/LPDDSETSURFACESTATE, ddstrcts_ddf8814f-d375-4b3c-93dc-0a77d12f3aab.xml, display.ddsetsurfacestate"
+ms.keywords: '*LPDDSETSURFACESTATE, DDSETSURFACESTATE, DDSETSURFACESTATE structure [Display Devices], LPDDSETSURFACESTATE, LPDDSETSURFACESTATE structure pointer [Display Devices], ddkmapi/DDSETSURFACESTATE, ddkmapi/LPDDSETSURFACESTATE, ddstrcts_ddf8814f-d375-4b3c-93dc-0a77d12f3aab.xml, display.ddsetsurfacestate'
 ms.topic: struct
-f1_keywords: 
- - "ddkmapi/DDSETSURFACESTATE"
+f1_keywords:
+- ddkmapi/DDSETSURFACESTATE
 dev_langs:
- - c++
+- c++
 req.header: ddkmapi.h
 req.include-header: Ddkmapi.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - ddkmapi.h
+- ddkmapi.h
 api_name:
- - DDSETSURFACESTATE
+- DDSETSURFACESTATE
 targetos: Windows
 req.typenames: DDSETSURFACESTATE, *LPDDSETSURFACESTATE
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NE:shobjidl_core.DEFAULT_FOLDER_MENU_RESTRICTIONS
 title: DEFAULT_FOLDER_MENU_RESTRICTIONS (shobjidl_core.h)
-
-description: "."
+description: .
 old-location: shell\DEFAULT_FOLDER_MENU_RESTRICTIONS.htm
 tech.root: shell
 ms.assetid: E33EB02B-11FC-4c1f-AF38-0E5382CC8B5F
-
 ms.date: 12/05/2018
 ms.keywords: DEFAULT_FOLDER_MENU_RESTRICTIONS, DEFAULT_FOLDER_MENU_RESTRICTIONS enumeration [Windows Shell], DFMR_DEFAULT, DFMR_NO_ASYNC_VERBS, DFMR_NO_RESOURCE_VERBS, DFMR_NO_STATIC_VERBS, DFMR_OPTIN_HANDLERS_ONLY, DFMR_RESOURCE_AND_FOLDER_VERBS_ONLY, DFMR_STATIC_VERBS_ONLY, DFMR_USE_SPECIFIED_HANDLERS, DFMR_USE_SPECIFIED_VERBS, shell.DEFAULT_FOLDER_MENU_RESTRICTIONS, shobjidl_core/DEFAULT_FOLDER_MENU_RESTRICTIONS, shobjidl_core/DFMR_DEFAULT, shobjidl_core/DFMR_NO_ASYNC_VERBS, shobjidl_core/DFMR_NO_RESOURCE_VERBS, shobjidl_core/DFMR_NO_STATIC_VERBS, shobjidl_core/DFMR_OPTIN_HANDLERS_ONLY, shobjidl_core/DFMR_RESOURCE_AND_FOLDER_VERBS_ONLY, shobjidl_core/DFMR_STATIC_VERBS_ONLY, shobjidl_core/DFMR_USE_SPECIFIED_HANDLERS, shobjidl_core/DFMR_USE_SPECIFIED_VERBS
 ms.topic: enum
-f1_keywords: 
- - "shobjidl_core/DEFAULT_FOLDER_MENU_RESTRICTIONS"
+f1_keywords:
+- shobjidl_core/DEFAULT_FOLDER_MENU_RESTRICTIONS
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - DEFAULT_FOLDER_MENU_RESTRICTIONS
+- DEFAULT_FOLDER_MENU_RESTRICTIONS
 targetos: Windows
 req.typenames: DEFAULT_FOLDER_MENU_RESTRICTIONS
 req.redist: 

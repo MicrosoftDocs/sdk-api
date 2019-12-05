@@ -1,19 +1,17 @@
 ---
 UID: NF:p2p.PeerGroupUnregisterEvent
 title: PeerGroupUnregisterEvent function (p2p.h)
-
 description: The PeerGroupUnregisterEvent function unregisters a peer from notification of peer events associated with the supplied event handle.
 old-location: p2p\peergroupunregisterevent.htm
 tech.root: P2PSdk
 ms.assetid: ad13cbf6-0dc9-4de5-aae7-2ecf6af90ea6
-
 ms.date: 12/05/2018
 ms.keywords: PeerGroupUnregisterEvent, PeerGroupUnregisterEvent function [Peer Networking], p2p.peergroupunregisterevent, p2p/PeerGroupUnregisterEvent
 ms.topic: function
-f1_keywords: 
- - "p2p/PeerGroupUnregisterEvent"
+f1_keywords:
+- p2p/PeerGroupUnregisterEvent
 dev_langs:
- - c++
+- c++
 req.header: p2p.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: P2P.lib
 req.dll: P2P.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - P2P.dll
+- P2P.dll
 api_name:
- - PeerGroupUnregisterEvent
+- PeerGroupUnregisterEvent
 targetos: Windows
 req.typenames: 
 req.redist: 

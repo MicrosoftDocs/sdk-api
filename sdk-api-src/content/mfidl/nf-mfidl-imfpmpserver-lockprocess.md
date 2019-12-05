@@ -1,19 +1,17 @@
 ---
 UID: NF:mfidl.IMFPMPServer.LockProcess
 title: IMFPMPServer::LockProcess (mfidl.h)
-
 description: Blocks the protected media path (PMP) process from ending.
 old-location: mf\imfpmpserver_lockprocess.htm
 tech.root: medfound
 ms.assetid: 9a25abfb-5038-4869-ad70-1ae52e8cf599
-
 ms.date: 12/05/2018
 ms.keywords: 9a25abfb-5038-4869-ad70-1ae52e8cf599, IMFPMPServer interface [Media Foundation],LockProcess method, IMFPMPServer.LockProcess, IMFPMPServer::LockProcess, LockProcess, LockProcess method [Media Foundation], LockProcess method [Media Foundation],IMFPMPServer interface, mf.imfpmpserver_lockprocess, mfidl/IMFPMPServer::LockProcess
 ms.topic: method
-f1_keywords: 
- - "mfidl/IMFPMPServer.LockProcess"
+f1_keywords:
+- mfidl/IMFPMPServer.LockProcess
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFPMPServer.LockProcess
+- IMFPMPServer.LockProcess
 targetos: Windows
 req.typenames: 
 req.redist: 

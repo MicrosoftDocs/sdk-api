@@ -1,19 +1,17 @@
 ---
 UID: NF:structuredquery.INamedEntity.DefaultPhrase
 title: INamedEntity::DefaultPhrase (structuredquery.h)
-
 description: Retrieves a default phrase to use for this named entity in restatements.
 old-location: search\_search_INamedEntity_DefaultPhrase.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\inamedentity\defaultphrase.htm
-
 ms.date: 12/05/2018
 ms.keywords: DefaultPhrase, DefaultPhrase method [search], DefaultPhrase method [search],INamedEntity interface, INamedEntity interface [search],DefaultPhrase method, INamedEntity.DefaultPhrase, INamedEntity::DefaultPhrase, _search_INamedEntity_DefaultPhrase, search._search_INamedEntity_DefaultPhrase, structuredquery/INamedEntity::DefaultPhrase
 ms.topic: method
-f1_keywords: 
- - "structuredquery/INamedEntity.DefaultPhrase"
+f1_keywords:
+- structuredquery/INamedEntity.DefaultPhrase
 dev_langs:
- - c++
+- c++
 req.header: structuredquery.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Structuredquery.h
+- Structuredquery.h
 api_name:
- - INamedEntity.DefaultPhrase
+- INamedEntity.DefaultPhrase
 targetos: Windows
 req.typenames: 
 req.redist: 

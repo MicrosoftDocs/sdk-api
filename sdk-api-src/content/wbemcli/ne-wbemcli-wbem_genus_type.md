@@ -1,19 +1,17 @@
 ---
 UID: NE:wbemcli.tag_WBEM_GENUS_TYPE
 title: WBEM_GENUS_TYPE (wbemcli.h)
-
 description: Contains constants used to distinguish between classes and instances.
 old-location: wmi\wbem_genus_type.htm
 tech.root: WmiSdk
 ms.assetid: 5433C3F7-3499-4AC1-9E26-0BB943B69C4D
-
 ms.date: 12/05/2018
 ms.keywords: WBEM_GENUS_CLASS, WBEM_GENUS_INSTANCE, WBEM_GENUS_TYPE, WBEM_GENUS_TYPE enumeration [Windows Management Instrumentation], wbemcli/WBEM_GENUS_CLASS, wbemcli/WBEM_GENUS_INSTANCE, wbemcli/WBEM_GENUS_TYPE, wmi.wbem_genus_type
 ms.topic: enum
-f1_keywords: 
- - "wbemcli/WBEM_GENUS_TYPE"
+f1_keywords:
+- wbemcli/WBEM_GENUS_TYPE
 dev_langs:
- - c++
+- c++
 req.header: wbemcli.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wbemcli.h
+- Wbemcli.h
 api_name:
- - WBEM_GENUS_TYPE
+- WBEM_GENUS_TYPE
 targetos: Windows
 req.typenames: WBEM_GENUS_TYPE
 req.redist: 

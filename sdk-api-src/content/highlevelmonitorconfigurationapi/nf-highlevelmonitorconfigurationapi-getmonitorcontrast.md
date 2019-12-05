@@ -1,19 +1,17 @@
 ---
 UID: NF:highlevelmonitorconfigurationapi.GetMonitorContrast
 title: GetMonitorContrast function (highlevelmonitorconfigurationapi.h)
-
 description: Retrieves a monitor's minimum, maximum, and current contrast settings.
 old-location: monitor\getmonitorcontrast.htm
 tech.root: Monitor
 ms.assetid: 996d894d-3939-418f-b7d2-c0e9d667391e
-
 ms.date: 12/05/2018
 ms.keywords: GetMonitorContrast, GetMonitorContrast function [Monitor Configuration], highlevelmonitorconfigurationapi/GetMonitorContrast, monitor.getmonitorcontrast
 ms.topic: function
-f1_keywords: 
- - "highlevelmonitorconfigurationapi/GetMonitorContrast"
+f1_keywords:
+- highlevelmonitorconfigurationapi/GetMonitorContrast
 dev_langs:
- - c++
+- c++
 req.header: highlevelmonitorconfigurationapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dxva2.lib
 req.dll: Dxva2.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - dxva2.dll
+- dxva2.dll
 api_name:
- - GetMonitorContrast
+- GetMonitorContrast
 targetos: Windows
 req.typenames: 
 req.redist: 

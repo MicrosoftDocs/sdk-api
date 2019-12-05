@@ -1,19 +1,17 @@
 ---
 UID: NF:mfidl.IMFNetCredential.LoggedOnUser
 title: IMFNetCredential::LoggedOnUser (mfidl.h)
-
 description: Queries whether logged-on credentials should be used.
 old-location: mf\imfnetcredential_loggedonuser.htm
 tech.root: medfound
 ms.assetid: 70f3dc70-ed6b-417c-93cb-e00efcdb43ec
-
 ms.date: 12/05/2018
 ms.keywords: 70f3dc70-ed6b-417c-93cb-e00efcdb43ec, IMFNetCredential interface [Media Foundation],LoggedOnUser method, IMFNetCredential.LoggedOnUser, IMFNetCredential::LoggedOnUser, LoggedOnUser, LoggedOnUser method [Media Foundation], LoggedOnUser method [Media Foundation],IMFNetCredential interface, mf.imfnetcredential_loggedonuser, mfidl/IMFNetCredential::LoggedOnUser
 ms.topic: method
-f1_keywords: 
- - "mfidl/IMFNetCredential.LoggedOnUser"
+f1_keywords:
+- mfidl/IMFNetCredential.LoggedOnUser
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFNetCredential.LoggedOnUser
+- IMFNetCredential.LoggedOnUser
 targetos: Windows
 req.typenames: 
 req.redist: 

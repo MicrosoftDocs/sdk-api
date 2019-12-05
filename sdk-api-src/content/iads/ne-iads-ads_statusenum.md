@@ -1,19 +1,17 @@
 ---
 UID: NE:iads.__MIDL___MIDL_itf_ads_0000_0000_0019
 title: ADS_STATUSENUM (iads.h)
-
 description: Specifies the status of a search preference set with the IDirectorySearch::SetSearchPreference method.
 old-location: adsi\ads_statusenum.htm
 tech.root: adsi
 ms.assetid: dfc080da-f849-4df3-9b14-1193b9303742
-
 ms.date: 12/05/2018
-ms.keywords: "*PADS_STATUS, ADS_STATUS, ADS_STATUSENUM, ADS_STATUSENUM enumeration [ADSI], ADS_STATUS_INVALID_SEARCHPREF, ADS_STATUS_INVALID_SEARCHPREFVALUE, ADS_STATUS_S_OK, _ds_ads_statusenum, adsi.ads__statusenum, adsi.ads_statusenum, iads/ADS_STATUSENUM, iads/ADS_STATUS_INVALID_SEARCHPREF, iads/ADS_STATUS_INVALID_SEARCHPREFVALUE, iads/ADS_STATUS_S_OK"
+ms.keywords: '*PADS_STATUS, ADS_STATUS, ADS_STATUSENUM, ADS_STATUSENUM enumeration [ADSI], ADS_STATUS_INVALID_SEARCHPREF, ADS_STATUS_INVALID_SEARCHPREFVALUE, ADS_STATUS_S_OK, _ds_ads_statusenum, adsi.ads__statusenum, adsi.ads_statusenum, iads/ADS_STATUSENUM, iads/ADS_STATUS_INVALID_SEARCHPREF, iads/ADS_STATUS_INVALID_SEARCHPREFVALUE, iads/ADS_STATUS_S_OK'
 ms.topic: enum
-f1_keywords: 
- - "iads/ADS_STATUSENUM"
+f1_keywords:
+- iads/ADS_STATUSENUM
 dev_langs:
- - c++
+- c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Iads.h
+- Iads.h
 api_name:
- - ADS_STATUSENUM
+- ADS_STATUSENUM
 targetos: Windows
 req.typenames: ADS_STATUSENUM
 req.redist: 

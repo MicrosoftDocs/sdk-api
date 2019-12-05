@@ -1,19 +1,17 @@
 ---
 UID: NF:winsnmp.SnmpCleanup
 title: SnmpCleanup function (winsnmp.h)
-
 description: The SnmpCleanup function informs the Microsoft WinSNMP implementation that the calling WinSNMP application no longer requires the implementation's services.
 old-location: snmp\snmpcleanup.htm
 tech.root: SNMP
 ms.assetid: 348f06e6-b408-4962-a0bc-8ff3e2ee21fa
-
 ms.date: 12/05/2018
 ms.keywords: SnmpCleanup, SnmpCleanup function [SNMP], _snmp_snmpcleanup, snmp.snmpcleanup, winsnmp/SnmpCleanup
 ms.topic: function
-f1_keywords: 
- - "winsnmp/SnmpCleanup"
+f1_keywords:
+- winsnmp/SnmpCleanup
 dev_langs:
- - c++
+- c++
 req.header: winsnmp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Wsnmp32.lib
 req.dll: Wsnmp32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Wsnmp32.dll
+- Wsnmp32.dll
 api_name:
- - SnmpCleanup
+- SnmpCleanup
 targetos: Windows
 req.typenames: 
 req.redist: 

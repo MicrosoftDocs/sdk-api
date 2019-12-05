@@ -1,19 +1,17 @@
 ---
 UID: NF:traceloggingprovider.TraceLoggingOpcode
 title: TraceLoggingOpcode macro (traceloggingprovider.h)
-
 description: Wrapper macro for setting the event's opcode.
 old-location: tracelogging\traceloggingopcode.htm
 tech.root: tracelogging
 ms.assetid: 8D1459CE-51A8-49A8-A30B-EA8D87E822C3
-
 ms.date: 12/05/2018
 ms.keywords: TraceLoggingOpcode, TraceLoggingOpcode macro, tracelogging.traceloggingopcode, traceloggingprovider/TraceLoggingOpcode
 ms.topic: macro
-f1_keywords: 
- - "traceloggingprovider/TraceLoggingOpcode"
+f1_keywords:
+- traceloggingprovider/TraceLoggingOpcode
 dev_langs:
- - c++
+- c++
 req.header: traceloggingprovider.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - traceloggingprovider.h
+- traceloggingprovider.h
 api_name:
- - TraceLoggingOpcode
+- TraceLoggingOpcode
 targetos: Windows
 req.typenames: 
 req.redist: 

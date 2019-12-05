@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationclient.IUIAutomation.get_ProxyFactoryMapping
 title: IUIAutomation::get_ProxyFactoryMapping (uiautomationclient.h)
-
 description: Retrieves an object that represents the mapping of Window classnames and associated data to individual proxy factories.
 old-location: winauto\uiauto_IUIAutomation_ProxyFactoryMapping.htm
 tech.root: WinAuto
 ms.assetid: cf1aae6e-3f83-4b4e-9e5c-a57db6cfa9ce
-
 ms.date: 12/05/2018
 ms.keywords: IUIAutomation interface [Windows Accessibility],ProxyFactoryMapping property, IUIAutomation.ProxyFactoryMapping, IUIAutomation.get_ProxyFactoryMapping, IUIAutomation::ProxyFactoryMapping, IUIAutomation::get_ProxyFactoryMapping, ProxyFactoryMapping property [Windows Accessibility], ProxyFactoryMapping property [Windows Accessibility],IUIAutomation interface, get_ProxyFactoryMapping, uiauto.uiauto_IUIAutomation_ProxyFactoryMapping, uiauto_IUIAutomation_ProxyFactoryMapping, uiautomationclient/IUIAutomation::ProxyFactoryMapping, uiautomationclient/IUIAutomation::get_ProxyFactoryMapping, winauto.uiauto_IUIAutomation_ProxyFactoryMapping
 ms.topic: method
-f1_keywords: 
- - "uiautomationclient/IUIAutomation.ProxyFactoryMapping"
+f1_keywords:
+- uiautomationclient/IUIAutomation.ProxyFactoryMapping
 dev_langs:
- - c++
+- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationClient.h
+- UIAutomationClient.h
 api_name:
- - IUIAutomation.ProxyFactoryMapping
- - IUIAutomation.get_ProxyFactoryMapping
+- IUIAutomation.ProxyFactoryMapping
+- IUIAutomation.get_ProxyFactoryMapping
 targetos: Windows
 req.typenames: 
 req.redist: 

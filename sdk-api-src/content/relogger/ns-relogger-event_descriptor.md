@@ -1,19 +1,17 @@
 ---
 UID: NS:relogger._EVENT_DESCRIPTOR
 title: EVENT_DESCRIPTOR (relogger.h)
-
 description: Contains metadata that defines the event.
 old-location: etw\event_descriptor.htm
 tech.root: ETW
 ms.assetid: 907e6c38-5eaa-49da-9dc0-d055dcc69d1a
-
 ms.date: 12/05/2018
 ms.keywords: '*PEVENT_DESCRIPTOR, EVENT_DESCRIPTOR, EVENT_DESCRIPTOR structure [ETW], PCEVENT_DESCRIPTOR, PCEVENT_DESCRIPTOR structure pointer [ETW], PEVENT_DESCRIPTOR, PEVENT_DESCRIPTOR structure pointer [ETW], _EVENT_DESCRIPTOR, base.event_descriptor, etw.event_descriptor, relogger/EVENT_DESCRIPTOR, relogger/PCEVENT_DESCRIPTOR, relogger/PEVENT_DESCRIPTOR'
 ms.topic: struct
 f1_keywords:
 - relogger/EVENT_DESCRIPTOR
 dev_langs:
- - c++
+- c++
 req.header: relogger.h
 req.include-header: Evntprov.h
 req.target-type: Windows

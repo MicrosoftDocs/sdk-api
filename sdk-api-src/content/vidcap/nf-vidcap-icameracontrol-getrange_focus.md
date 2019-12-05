@@ -1,19 +1,17 @@
 ---
 UID: NF:vidcap.ICameraControl.getRange_Focus
 title: ICameraControl::getRange_Focus (vidcap.h)
-
 description: The getRange_Focus method returns the range of focal distances supported by the camera.
 old-location: dshow\icameracontrol_getrange_focus.htm
 tech.root: DirectShow
 ms.assetid: f2da5473-82c3-4719-bba6-04a1793a98eb
-
 ms.date: 12/05/2018
 ms.keywords: ICameraControl interface [DirectShow],getRange_Focus method, ICameraControl.getRange_Focus, ICameraControl::getRange_Focus, ICameraControlgetRange_Focus, dshow.icameracontrol_getrange_focus, getRange_Focus, getRange_Focus method [DirectShow], getRange_Focus method [DirectShow],ICameraControl interface, vidcap/ICameraControl::getRange_Focus
 ms.topic: method
-f1_keywords: 
- - "vidcap/ICameraControl.getRange_Focus"
+f1_keywords:
+- vidcap/ICameraControl.getRange_Focus
 dev_langs:
- - c++
+- c++
 req.header: vidcap.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - ICameraControl.getRange_Focus
+- ICameraControl.getRange_Focus
 targetos: Windows
 req.typenames: 
 req.redist: 

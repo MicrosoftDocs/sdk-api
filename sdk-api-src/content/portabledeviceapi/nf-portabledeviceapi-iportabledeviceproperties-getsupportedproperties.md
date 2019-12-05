@@ -1,19 +1,17 @@
 ---
 UID: NF:portabledeviceapi.IPortableDeviceProperties.GetSupportedProperties
 title: IPortableDeviceProperties::GetSupportedProperties (portabledeviceapi.h)
-
 description: The GetSupportedProperties method retrieves a list of properties that a specified object supports. Note that not all of these properties may actually have values.
 old-location: wpdsdk\iportabledeviceproperties_getsupportedproperties.htm
 tech.root: wpd_sdk
 ms.assetid: 0098bfe9-965b-4c70-b28a-d497ac79f44a
-
 ms.date: 12/05/2018
 ms.keywords: GetSupportedProperties, GetSupportedProperties method [Windows Portable Devices SDK], GetSupportedProperties method [Windows Portable Devices SDK],IPortableDeviceProperties interface, IPortableDeviceProperties interface [Windows Portable Devices SDK],GetSupportedProperties method, IPortableDeviceProperties.GetSupportedProperties, IPortableDeviceProperties::GetSupportedProperties, IPortableDevicePropertiesGetSupportedProperties, portabledeviceapi/IPortableDeviceProperties::GetSupportedProperties, wpdsdk.iportabledeviceproperties_getsupportedproperties
 ms.topic: method
-f1_keywords: 
- - "portabledeviceapi/IPortableDeviceProperties.GetSupportedProperties"
+f1_keywords:
+- portabledeviceapi/IPortableDeviceProperties.GetSupportedProperties
 dev_langs:
- - c++
+- c++
 req.header: portabledeviceapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: PortableDeviceGUIDs.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - PortableDeviceGUIDs.lib
- - PortableDeviceGUIDs.dll
+- PortableDeviceGUIDs.lib
+- PortableDeviceGUIDs.dll
 api_name:
- - IPortableDeviceProperties.GetSupportedProperties
+- IPortableDeviceProperties.GetSupportedProperties
 targetos: Windows
 req.typenames: 
 req.redist: 

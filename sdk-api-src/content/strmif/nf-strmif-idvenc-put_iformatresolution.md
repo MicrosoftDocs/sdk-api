@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IDVEnc.put_IFormatResolution
 title: IDVEnc::put_IFormatResolution (strmif.h)
-
 description: The put_IFormatResolution method sets the encoding resolution.
 old-location: dshow\idvenc_put_iformatresolution.htm
 tech.root: DirectShow
 ms.assetid: c9cf2544-1b04-4a77-8a0b-d7820af5ff9f
-
 ms.date: 12/05/2018
 ms.keywords: IDVEnc interface [DirectShow],put_IFormatResolution method, IDVEnc.put_IFormatResolution, IDVEnc::put_IFormatResolution, IDVEncput_IFormatResolution, dshow.idvenc_put_iformatresolution, put_IFormatResolution, put_IFormatResolution method [DirectShow], put_IFormatResolution method [DirectShow],IDVEnc interface, strmif/IDVEnc::put_IFormatResolution
 ms.topic: method
-f1_keywords: 
- - "strmif/IDVEnc.put_IFormatResolution"
+f1_keywords:
+- strmif/IDVEnc.put_IFormatResolution
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IDVEnc.put_IFormatResolution
+- IDVEnc.put_IFormatResolution
 targetos: Windows
 req.typenames: 
 req.redist: 

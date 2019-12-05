@@ -1,19 +1,17 @@
 ---
 UID: NN:mfidl.IMFFieldOfUseMFTUnlock
 title: IMFFieldOfUseMFTUnlock (mfidl.h)
-
 description: Enables an application to use a Media Foundation transform (MFT) that has restrictions on its use.
 old-location: mf\imffieldofusemftunlock.htm
 tech.root: medfound
 ms.assetid: b144589b-d559-4686-b617-0e3c393380e9
-
 ms.date: 12/05/2018
 ms.keywords: IMFFieldOfUseMFTUnlock, IMFFieldOfUseMFTUnlock interface [Media Foundation], IMFFieldOfUseMFTUnlock interface [Media Foundation],described, mf.imffieldofusemftunlock, mfidl/IMFFieldOfUseMFTUnlock
 ms.topic: interface
-f1_keywords: 
- - "mfidl/IMFFieldOfUseMFTUnlock"
+f1_keywords:
+- mfidl/IMFFieldOfUseMFTUnlock
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfidl.h
+- mfidl.h
 api_name:
- - IMFFieldOfUseMFTUnlock
+- IMFFieldOfUseMFTUnlock
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:vfw.capDlgVideoDisplay
 title: capDlgVideoDisplay macro (vfw.h)
-
 description: The capDlgVideoDisplay macro displays a dialog box in which the user can set or adjust the video output.
 old-location: multimedia\capdlgvideodisplay.htm
 tech.root: Multimedia
 ms.assetid: 3feb6964-b897-4d5b-8861-7fca829e25e4
-
 ms.date: 12/05/2018
-ms.keywords: "_win32_capDlgVideoDisplay, capDlgVideoDisplay, capDlgVideoDisplay macro [Windows Multimedia], multimedia.capdlgvideodisplay, vfw/capDlgVideoDisplay"
+ms.keywords: _win32_capDlgVideoDisplay, capDlgVideoDisplay, capDlgVideoDisplay macro [Windows Multimedia], multimedia.capdlgvideodisplay, vfw/capDlgVideoDisplay
 ms.topic: macro
-f1_keywords: 
- - "vfw/capDlgVideoDisplay"
+f1_keywords:
+- vfw/capDlgVideoDisplay
 dev_langs:
- - c++
+- c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Vfw.h
+- Vfw.h
 api_name:
- - capDlgVideoDisplay
+- capDlgVideoDisplay
 targetos: Windows
 req.typenames: 
 req.redist: 

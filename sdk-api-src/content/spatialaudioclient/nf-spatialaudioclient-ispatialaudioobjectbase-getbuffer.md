@@ -1,19 +1,17 @@
 ---
 UID: NF:spatialaudioclient.ISpatialAudioObjectBase.GetBuffer
 title: ISpatialAudioObjectBase::GetBuffer (spatialaudioclient.h)
-
 description: Gets a buffer that is used to supply the audio data for the ISpatialAudioObject.
 old-location: coreaudio\ispatialaudioobject_getbuffer.htm
 tech.root: CoreAudio
 ms.assetid: CD777E2D-4CA0-4C2D-A475-22BF770DD59D
-
 ms.date: 12/05/2018
 ms.keywords: GetBuffer, GetBuffer method [Core Audio], GetBuffer method [Core Audio],ISpatialAudioObjectBase interface, ISpatialAudioObjectBase interface [Core Audio],GetBuffer method, ISpatialAudioObjectBase.GetBuffer, ISpatialAudioObjectBase::GetBuffer, coreaudio.ispatialaudioobject_getbuffer, spatialaudioclient/ISpatialAudioObjectBase::GetBuffer
 ms.topic: method
-f1_keywords: 
- - "spatialaudioclient/ISpatialAudioObjectBase.GetBuffer"
+f1_keywords:
+- spatialaudioclient/ISpatialAudioObjectBase.GetBuffer
 dev_langs:
- - c++
+- c++
 req.header: spatialaudioclient.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - spatialaudioclient.h
+- spatialaudioclient.h
 api_name:
- - ISpatialAudioObjectBase.GetBuffer
+- ISpatialAudioObjectBase.GetBuffer
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:mfidl.IMFStreamSink.Flush
 title: IMFStreamSink::Flush (mfidl.h)
-
 description: Causes the stream sink to drop any samples that it has received and has not rendered yet.
 old-location: mf\imfstreamsink_flush.htm
 tech.root: medfound
 ms.assetid: 514d29bd-571d-46b1-9948-5d623c6703aa
-
 ms.date: 12/05/2018
 ms.keywords: 514d29bd-571d-46b1-9948-5d623c6703aa, Flush, Flush method [Media Foundation], Flush method [Media Foundation],IMFStreamSink interface, IMFStreamSink interface [Media Foundation],Flush method, IMFStreamSink.Flush, IMFStreamSink::Flush, mf.imfstreamsink_flush, mfidl/IMFStreamSink::Flush
 ms.topic: method
-f1_keywords: 
- - "mfidl/IMFStreamSink.Flush"
+f1_keywords:
+- mfidl/IMFStreamSink.Flush
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFStreamSink.Flush
+- IMFStreamSink.Flush
 targetos: Windows
 req.typenames: 
 req.redist: 

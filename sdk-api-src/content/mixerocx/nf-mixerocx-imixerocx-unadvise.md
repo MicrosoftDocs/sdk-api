@@ -1,19 +1,17 @@
 ---
 UID: NF:mixerocx.IMixerOCX.UnAdvise
 title: IMixerOCX::UnAdvise (mixerocx.h)
-
 description: The UnAdvise method instructs the Overlay Mixer to release its pointer to the client's IMixerOCXNotify interface.
 old-location: dshow\imixerocx_unadvise.htm
 tech.root: DirectShow
 ms.assetid: 9c2837c6-ee0f-45f4-b98a-9b8957e75b48
-
 ms.date: 12/05/2018
 ms.keywords: IMixerOCX interface [DirectShow],UnAdvise method, IMixerOCX.UnAdvise, IMixerOCX::UnAdvise, IMixerOCXUnAdvise, UnAdvise, UnAdvise method [DirectShow], UnAdvise method [DirectShow],IMixerOCX interface, dshow.imixerocx_unadvise, mixerocx/IMixerOCX::UnAdvise
 ms.topic: method
-f1_keywords: 
- - "mixerocx/IMixerOCX.UnAdvise"
+f1_keywords:
+- mixerocx/IMixerOCX.UnAdvise
 dev_langs:
- - c++
+- c++
 req.header: mixerocx.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IMixerOCX.UnAdvise
+- IMixerOCX.UnAdvise
 targetos: Windows
 req.typenames: 
 req.redist: 

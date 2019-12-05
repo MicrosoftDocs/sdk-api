@@ -1,19 +1,17 @@
 ---
 UID: NF:mfmediaengine.IMFMediaEngineEx.GetVideoSwapchainHandle
 title: IMFMediaEngineEx::GetVideoSwapchainHandle (mfmediaengine.h)
-
 description: Gets a handle to the windowless swap chain.
 old-location: mf\imfmediaengineex_getvideoswapchainhandle.htm
 tech.root: medfound
 ms.assetid: 23AE2296-F0BF-4060-9849-F6A0E0C13B86
-
 ms.date: 12/05/2018
 ms.keywords: GetVideoSwapchainHandle, GetVideoSwapchainHandle method [Media Foundation], GetVideoSwapchainHandle method [Media Foundation],IMFMediaEngineEx interface, IMFMediaEngineEx interface [Media Foundation],GetVideoSwapchainHandle method, IMFMediaEngineEx.GetVideoSwapchainHandle, IMFMediaEngineEx::GetVideoSwapchainHandle, mf.imfmediaengineex_getvideoswapchainhandle, mfmediaengine/IMFMediaEngineEx::GetVideoSwapchainHandle
 ms.topic: method
-f1_keywords: 
- - "mfmediaengine/IMFMediaEngineEx.GetVideoSwapchainHandle"
+f1_keywords:
+- mfmediaengine/IMFMediaEngineEx.GetVideoSwapchainHandle
 dev_langs:
- - c++
+- c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfmediaengine.h
+- mfmediaengine.h
 api_name:
- - IMFMediaEngineEx.GetVideoSwapchainHandle
+- IMFMediaEngineEx.GetVideoSwapchainHandle
 targetos: Windows
 req.typenames: 
 req.redist: 

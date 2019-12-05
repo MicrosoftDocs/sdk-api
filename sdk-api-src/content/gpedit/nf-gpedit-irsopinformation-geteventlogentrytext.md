@@ -1,19 +1,17 @@
 ---
 UID: NF:gpedit.IRSOPInformation.GetEventLogEntryText
 title: IRSOPInformation::GetEventLogEntryText (gpedit.h)
-
 description: The GetEventLogEntryText method returns the text for a specific entry in the event log.
 old-location: policy\irsopinformation_geteventlogentrytext.htm
 tech.root: Policy
 ms.assetid: ee408c0a-437e-4caa-90b7-9717d43e1452
-
 ms.date: 12/05/2018
 ms.keywords: GetEventLogEntryText, GetEventLogEntryText method [Group Policy], GetEventLogEntryText method [Group Policy],IRSOPInformation interface, IRSOPInformation interface [Group Policy],GetEventLogEntryText method, IRSOPInformation.GetEventLogEntryText, IRSOPInformation::GetEventLogEntryText, _win32_irsopinformation_geteventlogentrytext, gpedit/IRSOPInformation::GetEventLogEntryText, policy.irsopinformation_geteventlogentrytext
 ms.topic: method
-f1_keywords: 
- - "gpedit/IRSOPInformation.GetEventLogEntryText"
+f1_keywords:
+- gpedit/IRSOPInformation.GetEventLogEntryText
 dev_langs:
- - c++
+- c++
 req.header: gpedit.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Gpedit.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gpedit.dll
+- Gpedit.dll
 api_name:
- - IRSOPInformation.GetEventLogEntryText
+- IRSOPInformation.GetEventLogEntryText
 targetos: Windows
 req.typenames: 
 req.redist: 

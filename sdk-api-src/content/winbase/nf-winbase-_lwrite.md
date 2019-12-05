@@ -1,19 +1,17 @@
 ---
 UID: NF:winbase._lwrite
 title: _lwrite function (winbase.h)
-
 description: Writes data to the specified file.
 old-location: winprog\_lwrite.htm
 tech.root: DevNotes
 ms.assetid: 34b875a4-ca45-4f9d-a5be-e6e4d41c68bf
-
 ms.date: 12/05/2018
-ms.keywords: "_lwrite, _lwrite function [Windows API], winbase/_lwrite, winprog._lwrite"
+ms.keywords: _lwrite, _lwrite function [Windows API], winbase/_lwrite, winprog._lwrite
 ms.topic: function
-f1_keywords: 
- - "winbase/_lwrite"
+f1_keywords:
+- winbase/_lwrite
 dev_langs:
- - c++
+- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-Kernel32-Private-l1-1-0.dll
- - kernel32legacy.dll
- - API-MS-Win-Core-Kernel32-Private-l1-1-1.dll
- - API-MS-Win-Core-Kernel32-Private-l1-1-2.dll
+- Kernel32.dll
+- API-MS-Win-Core-Kernel32-Private-l1-1-0.dll
+- kernel32legacy.dll
+- API-MS-Win-Core-Kernel32-Private-l1-1-1.dll
+- API-MS-Win-Core-Kernel32-Private-l1-1-2.dll
 api_name:
- - _lwrite
+- _lwrite
 targetos: Windows
 req.typenames: 
 req.redist: 

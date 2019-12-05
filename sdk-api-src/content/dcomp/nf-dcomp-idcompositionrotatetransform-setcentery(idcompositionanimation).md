@@ -1,19 +1,17 @@
 ---
 UID: NF:dcomp.IDCompositionRotateTransform.SetCenterY(IDCompositionAnimation)
 title: IDCompositionRotateTransform::SetCenterY(IDCompositionAnimation) (dcomp.h)
-
 description: Animates the value of the CenterY property of a 2D rotation transform.
 old-location: directcomp\idcompositionrotatetransform_setcentery_idcompositionanimation.htm
 tech.root: directcomp
 ms.assetid: AD53EEF7-4DCE-4B6D-9A72-010033958155
-
 ms.date: 12/05/2018
 ms.keywords: IDCompositionRotateTransform interface [DirectComposition],SetCenterY method, IDCompositionRotateTransform.SetCenterY, IDCompositionRotateTransform.SetCenterY(IDCompositionAnimation), IDCompositionRotateTransform::SetCenterY, IDCompositionRotateTransform::SetCenterY(IDCompositionAnimation), IDCompositionRotateTransform::SetCenterY(IDCompositionAnimation*), SetCenterY, SetCenterY method [DirectComposition], SetCenterY method [DirectComposition],IDCompositionRotateTransform interface, dcomp/IDCompositionRotateTransform::SetCenterY, directcomp.idcompositionrotatetransform_setcentery_idcompositionanimation
 ms.topic: method
-f1_keywords: 
- - "dcomp/IDCompositionRotateTransform.SetCenterY"
+f1_keywords:
+- dcomp/IDCompositionRotateTransform.SetCenterY
 dev_langs:
- - c++
+- c++
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dcomp.lib
 req.dll: Dcomp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dcomp.dll
+- Dcomp.dll
 api_name:
- - IDCompositionRotateTransform.SetCenterY
+- IDCompositionRotateTransform.SetCenterY
 targetos: Windows
 req.typenames: 
 req.redist: 

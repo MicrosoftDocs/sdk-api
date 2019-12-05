@@ -1,19 +1,17 @@
 ---
 UID: NF:oaidl.IRecordInfo.RecordInit
 title: IRecordInfo::RecordInit (oaidl.h)
-
 description: Initializes a new instance of a record.
 old-location: automat\irecordinfo_recordinit.htm
 tech.root: automat
 ms.assetid: e10355b3-b751-487d-b7ce-77a39803c38c
-
 ms.date: 12/05/2018
 ms.keywords: IRecordInfo interface [Automation],RecordInit method, IRecordInfo.RecordInit, IRecordInfo::RecordInit, RecordInit, RecordInit method [Automation], RecordInit method [Automation],IRecordInfo interface, _oa96_IRecordInfo_RecordInit, automat.irecordinfo_recordinit, oaidl/IRecordInfo::RecordInit
 ms.topic: method
-f1_keywords: 
- - "oaidl/IRecordInfo.RecordInit"
+f1_keywords:
+- oaidl/IRecordInfo.RecordInit
 dev_langs:
- - c++
+- c++
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - oaidl.h
+- oaidl.h
 api_name:
- - IRecordInfo.RecordInit
+- IRecordInfo.RecordInit
 targetos: Windows
 req.typenames: 
 req.redist: 

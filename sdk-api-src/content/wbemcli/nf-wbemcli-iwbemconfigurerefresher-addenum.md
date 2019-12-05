@@ -1,19 +1,17 @@
 ---
 UID: NF:wbemcli.IWbemConfigureRefresher.AddEnum
 title: IWbemConfigureRefresher::AddEnum (wbemcli.h)
-
 description: The IWbemConfigureRefresher::AddEnum method adds an enumerator to the requested refresher.
 old-location: wmi\iwbemconfigurerefresher_addenum.htm
 tech.root: WmiSdk
 ms.assetid: 5b013267-78bc-4372-b55a-58e330acf927
-
 ms.date: 12/05/2018
 ms.keywords: AddEnum, AddEnum method [Windows Management Instrumentation], AddEnum method [Windows Management Instrumentation],IWbemConfigureRefresher interface, IWbemConfigureRefresher interface [Windows Management Instrumentation],AddEnum method, IWbemConfigureRefresher.AddEnum, IWbemConfigureRefresher::AddEnum, _hmm_iwbemconfigurerefresher_addenum, wbemcli/IWbemConfigureRefresher::AddEnum, wmi.iwbemconfigurerefresher_addenum
 ms.topic: method
-f1_keywords: 
- - "wbemcli/IWbemConfigureRefresher.AddEnum"
+f1_keywords:
+- wbemcli/IWbemConfigureRefresher.AddEnum
 dev_langs:
- - c++
+- c++
 req.header: wbemcli.h
 req.include-header: Wbemidl.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Wbemuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wbemuuid.lib
- - Wbemuuid.dll
+- Wbemuuid.lib
+- Wbemuuid.dll
 api_name:
- - IWbemConfigureRefresher.AddEnum
+- IWbemConfigureRefresher.AddEnum
 targetos: Windows
 req.typenames: 
 req.redist: 

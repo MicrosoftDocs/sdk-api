@@ -1,19 +1,17 @@
 ---
 UID: NF:vdshwprv.IVdsIscsiPortalGroup.AddPortal
 title: IVdsIscsiPortalGroup::AddPortal (vdshwprv.h)
-
 description: Adds a portal to a portal group.
 old-location: base\ivdsiscsiportalgroup_addportal.htm
 tech.root: VDS
 ms.assetid: 6a2c1427-5137-47d4-a4b9-88a1bbc1e6c9
-
 ms.date: 12/05/2018
 ms.keywords: AddPortal, AddPortal method [VDS], AddPortal method [VDS],IVdsIscsiPortalGroup interface, IVdsIscsiPortalGroup interface [VDS],AddPortal method, IVdsIscsiPortalGroup.AddPortal, IVdsIscsiPortalGroup::AddPortal, base.ivdsiscsiportalgroup_addportal, vds/IVdsIscsiPortalGroup::AddPortal, vdshwprv/IVdsIscsiPortalGroup::AddPortal
 ms.topic: method
 f1_keywords:
 - vdshwprv/IVdsIscsiPortalGroup.AddPortal
 dev_langs:
- - c++
+- c++
 req.header: vdshwprv.h
 req.include-header: 
 req.target-type: Windows

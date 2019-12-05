@@ -1,19 +1,17 @@
 ---
 UID: NF:ntmsapi.SetNtmsMediaComplete
 title: SetNtmsMediaComplete function (ntmsapi.h)
-
 description: The SetNtmsMediaComplete function marks a piece of logical media as complete.
 old-location: fs\setntmsmediacomplete.htm
 tech.root: Rsm
 ms.assetid: 1513b487-93b6-4615-aa7b-e135f81b6ad0
-
 ms.date: 12/05/2018
 ms.keywords: SetNtmsMediaComplete, SetNtmsMediaComplete function [Files], _zaw_setntmsmediacomplete, base.setntmsmediacomplete, fs.setntmsmediacomplete, ntmsapi/SetNtmsMediaComplete
 ms.topic: function
-f1_keywords: 
- - "ntmsapi/SetNtmsMediaComplete"
+f1_keywords:
+- ntmsapi/SetNtmsMediaComplete
 dev_langs:
- - c++
+- c++
 req.header: ntmsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Ntmsapi.lib
 req.dll: Ntmsapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ntmsapi.dll
+- Ntmsapi.dll
 api_name:
- - SetNtmsMediaComplete
+- SetNtmsMediaComplete
 targetos: Windows
 req.typenames: 
 req.redist: 

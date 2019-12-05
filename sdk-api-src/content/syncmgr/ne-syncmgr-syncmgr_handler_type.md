@@ -1,19 +1,17 @@
 ---
 UID: NE:syncmgr.SYNCMGR_HANDLER_TYPE
 title: SYNCMGR_HANDLER_TYPE (syncmgr.h)
-
 description: Specifies the type of a handler. Used by ISyncMgrHandlerInfo::GetType.
 old-location: shell\SYNCMGR_HANDLER_TYPE.htm
 tech.root: shell
 ms.assetid: 993a1d55-32ee-4ea7-823f-a533e9646f1f
-
 ms.date: 12/05/2018
 ms.keywords: SYNCMGR_HANDLER_TYPE, SYNCMGR_HANDLER_TYPE enumeration [Windows Shell], SYNCMGR_HT_APPLICATION, SYNCMGR_HT_COMPUTER, SYNCMGR_HT_DEVICE, SYNCMGR_HT_FOLDER, SYNCMGR_HT_MAX, SYNCMGR_HT_MIN, SYNCMGR_HT_SERVICE, SYNCMGR_HT_UNSPECIFIED, shell.SYNCMGR_HANDLER_TYPE, shell_SYNCMGR_HANDLER_TYPE, syncmgr/SYNCMGR_HANDLER_TYPE, syncmgr/SYNCMGR_HT_APPLICATION, syncmgr/SYNCMGR_HT_COMPUTER, syncmgr/SYNCMGR_HT_DEVICE, syncmgr/SYNCMGR_HT_FOLDER, syncmgr/SYNCMGR_HT_MAX, syncmgr/SYNCMGR_HT_MIN, syncmgr/SYNCMGR_HT_SERVICE, syncmgr/SYNCMGR_HT_UNSPECIFIED
 ms.topic: enum
-f1_keywords: 
- - "syncmgr/SYNCMGR_HANDLER_TYPE"
+f1_keywords:
+- syncmgr/SYNCMGR_HANDLER_TYPE
 dev_langs:
- - c++
+- c++
 req.header: syncmgr.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Syncmgr.h
+- Syncmgr.h
 api_name:
- - SYNCMGR_HANDLER_TYPE
+- SYNCMGR_HANDLER_TYPE
 targetos: Windows
 req.typenames: SYNCMGR_HANDLER_TYPE
 req.redist: 

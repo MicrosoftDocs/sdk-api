@@ -1,19 +1,17 @@
 ---
 UID: NF:iscsidsc.SetIScsiIKEInfoA
 title: SetIScsiIKEInfoA function (iscsidsc.h)
-
 description: SetIscsiIKEInfo function establishes the IPsec policy and preshared key for the indicated initiator to use when performing iSCSI connections.
 old-location: iscsidisc\setiscsiikeinfo.htm
 tech.root: iSCSIDisc
 ms.assetid: db020346-45cf-4944-9776-81bb38c7ee6a
-
 ms.date: 12/05/2018
 ms.keywords: SetIScsiIKEInfoA, SetIscsiIKEInfo, SetIscsiIKEInfo function [iSCSI Discovery Library API], SetIscsiIKEInfoA, SetIscsiIKEInfoW, iscsidisc.setiscsiikeinfo, iscsidsc/SetIscsiIKEInfo, iscsidsc/SetIscsiIKEInfoA, iscsidsc/SetIscsiIKEInfoW
 ms.topic: function
-f1_keywords: 
- - "iscsidsc/SetIscsiIKEInfo"
+f1_keywords:
+- iscsidsc/SetIscsiIKEInfo
 dev_langs:
- - c++
+- c++
 req.header: iscsidsc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Iscsidsc.lib
 req.dll: Iscsidsc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Iscsidsc.dll
+- Iscsidsc.dll
 api_name:
- - SetIscsiIKEInfo
- - SetIscsiIKEInfoA
- - SetIscsiIKEInfoW
+- SetIscsiIKEInfo
+- SetIscsiIKEInfoA
+- SetIscsiIKEInfoW
 targetos: Windows
 req.typenames: 
 req.redist: 

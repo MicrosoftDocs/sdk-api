@@ -1,19 +1,17 @@
 ---
 UID: NN:bits.IEnumBackgroundCopyJobs
 title: IEnumBackgroundCopyJobs (bits.h)
-
 description: Use the IEnumBackgroundCopyJobs interface to enumerate the list of jobs in the transfer queue. To get an IEnumBackgroundCopyJobs interface pointer, call the IBackgroundCopyManager::EnumJobs method.
 old-location: bits\ienumbackgroundcopyjobs.htm
 tech.root: Bits
 ms.assetid: 21ff88da-9fae-478f-bcba-488ed7a89608
-
 ms.date: 12/05/2018
 ms.keywords: IEnumBackgroundCopyJobs, IEnumBackgroundCopyJobs interface [BITS], IEnumBackgroundCopyJobs interface [BITS],described, _drz_ienumbackgroundcopyjobs, bits.ienumbackgroundcopyjobs, bits/IEnumBackgroundCopyJobs
 ms.topic: interface
-f1_keywords: 
- - "bits/IEnumBackgroundCopyJobs"
+f1_keywords:
+- bits/IEnumBackgroundCopyJobs
 dev_langs:
- - c++
+- c++
 req.header: bits.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Bits.lib
 req.dll: QmgrPrxy.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - QmgrPrxy.dll
+- QmgrPrxy.dll
 api_name:
- - IEnumBackgroundCopyJobs
+- IEnumBackgroundCopyJobs
 targetos: Windows
 req.typenames: 
 req.redist: 

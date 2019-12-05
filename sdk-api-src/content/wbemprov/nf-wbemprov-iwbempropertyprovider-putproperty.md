@@ -1,19 +1,17 @@
 ---
 UID: NF:wbemprov.IWbemPropertyProvider.PutProperty
 title: IWbemPropertyProvider::PutProperty (wbemprov.h)
-
 description: The IWbemPropertyProvider::PutProperty method is called by Windows Management to update a property value supported by a property provider.
 old-location: wmi\iwbempropertyprovider_putproperty.htm
 tech.root: WmiSdk
 ms.assetid: a1c25c5c-e0f9-461d-96ba-7d6d00d24d33
-
 ms.date: 12/05/2018
 ms.keywords: IWbemPropertyProvider interface [Windows Management Instrumentation],PutProperty method, IWbemPropertyProvider.PutProperty, IWbemPropertyProvider::PutProperty, PutProperty, PutProperty method [Windows Management Instrumentation], PutProperty method [Windows Management Instrumentation],IWbemPropertyProvider interface, _hmm_iwbempropertyprovider_putproperty, wbemprov/IWbemPropertyProvider::PutProperty, wmi.iwbempropertyprovider_putproperty
 ms.topic: method
-f1_keywords: 
- - "wbemprov/IWbemPropertyProvider.PutProperty"
+f1_keywords:
+- wbemprov/IWbemPropertyProvider.PutProperty
 dev_langs:
- - c++
+- c++
 req.header: wbemprov.h
 req.include-header: Wbemidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Wbemuuid.lib
 req.dll: Wbemsvc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wbemsvc.dll
+- Wbemsvc.dll
 api_name:
- - IWbemPropertyProvider.PutProperty
+- IWbemPropertyProvider.PutProperty
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NC:uiautomationcoreapi.UiaEventCallback
 title: UiaEventCallback (uiautomationcoreapi.h)
-
 description: A client-implemented function that is called by UI Automation when an event is raised that the client has subscribed to.
 old-location: winauto\uiauto_UiaEventCallbackClientEvent.htm
 tech.root: WinAuto
 ms.assetid: a7dbe077-e059-4e92-8fb8-950cb67c4975
-
 ms.date: 12/05/2018
 ms.keywords: UiaEventCallback, UiaEventCallback callback, UiaEventCallback callback function [Windows Accessibility], uiauto.uiauto_UiaEventCallbackClientEvent, uiauto_UiaEventCallbackClientEvent, uiautomationcoreapi/UiaEventCallback, winauto.uiauto_UiaEventCallbackClientEvent
 ms.topic: callback
-f1_keywords: 
- - "uiautomationcoreapi/UiaEventCallback"
+f1_keywords:
+- uiautomationcoreapi/UiaEventCallback
 dev_langs:
- - c++
+- c++
 req.header: uiautomationcoreapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - UIAutomationCoreApi.h
+- UIAutomationCoreApi.h
 api_name:
- - UiaEventCallback
+- UiaEventCallback
 targetos: Windows
 req.typenames: 
 req.redist: 

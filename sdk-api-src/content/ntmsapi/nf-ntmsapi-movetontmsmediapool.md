@@ -1,19 +1,17 @@
 ---
 UID: NF:ntmsapi.MoveToNtmsMediaPool
 title: MoveToNtmsMediaPool function (ntmsapi.h)
-
 description: The MoveToNtmsMediaPool function moves the specified medium from its current media pool to the specified media pool.
 old-location: fs\movetontmsmediapool.htm
 tech.root: Rsm
 ms.assetid: 6bc11877-6657-4e8b-8239-bb2720cfb256
-
 ms.date: 12/05/2018
 ms.keywords: MoveToNtmsMediaPool, MoveToNtmsMediaPool function [Files], _zaw_movetontmsmediapool, base.movetontmsmediapool, fs.movetontmsmediapool, ntmsapi/MoveToNtmsMediaPool
 ms.topic: function
-f1_keywords: 
- - "ntmsapi/MoveToNtmsMediaPool"
+f1_keywords:
+- ntmsapi/MoveToNtmsMediaPool
 dev_langs:
- - c++
+- c++
 req.header: ntmsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Ntmsapi.lib
 req.dll: Ntmsapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ntmsapi.dll
+- Ntmsapi.dll
 api_name:
- - MoveToNtmsMediaPool
+- MoveToNtmsMediaPool
 targetos: Windows
 req.typenames: 
 req.redist: 

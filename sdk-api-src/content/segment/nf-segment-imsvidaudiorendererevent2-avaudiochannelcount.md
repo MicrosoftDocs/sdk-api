@@ -1,19 +1,17 @@
 ---
 UID: NF:segment.IMSVidAudioRendererEvent2.AVAudioChannelCount
 title: IMSVidAudioRendererEvent2::AVAudioChannelCount (segment.h)
-
 description: Indicates a change in the AVAudioChannelCount codec property.
 old-location: mstv\imsvidaudiorendererevent2_avaudiochannelcount.htm
 tech.root: mstv
 ms.assetid: 5cfb27d0-eda9-4fef-9256-636ef0c6ebe8
-
 ms.date: 12/05/2018
 ms.keywords: AVAudioChannelCount, AVAudioChannelCount method [Microsoft TV Technologies], AVAudioChannelCount method [Microsoft TV Technologies],IMSVidAudioRendererEvent2 interface, IMSVidAudioRendererEvent2 interface [Microsoft TV Technologies],AVAudioChannelCount method, IMSVidAudioRendererEvent2.AVAudioChannelCount, IMSVidAudioRendererEvent2::AVAudioChannelCount, mstv.imsvidaudiorendererevent2_avaudiochannelcount, segment/IMSVidAudioRendererEvent2::AVAudioChannelCount
 ms.topic: method
-f1_keywords: 
- - "segment/IMSVidAudioRendererEvent2.AVAudioChannelCount"
+f1_keywords:
+- segment/IMSVidAudioRendererEvent2.AVAudioChannelCount
 dev_langs:
- - c++
+- c++
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - segment.h
+- segment.h
 api_name:
- - IMSVidAudioRendererEvent2.AVAudioChannelCount
+- IMSVidAudioRendererEvent2.AVAudioChannelCount
 targetos: Windows
 req.typenames: 
 req.redist: 

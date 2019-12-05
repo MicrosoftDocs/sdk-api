@@ -1,19 +1,17 @@
 ---
 UID: NF:directxmath.XMMatrixRotationAxis
 title: XMMatrixRotationAxis function (directxmath.h)
-
 description: Builds a matrix that rotates around an arbitrary axis.
 old-location: dxmath\xmmatrixrotationaxis.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.matrix.XMMatrixRotationAxis(XMVECTOR,float)
-
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMMatrixRotationAxis, XMMatrixRotationAxis, XMMatrixRotationAxis method [DirectX Math Support APIs], dxmath.xmmatrixrotationaxis
 ms.topic: function
-f1_keywords: 
- - "directxmath/XMMatrixRotationAxis"
+f1_keywords:
+- directxmath/XMMatrixRotationAxis
 dev_langs:
- - c++
+- c++
 req.header: directxmath.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - DirectXMath.h
+- DirectXMath.h
 api_name:
- - XMMatrixRotationAxis
+- XMMatrixRotationAxis
 targetos: Windows
 req.typenames: 
 req.redist: 

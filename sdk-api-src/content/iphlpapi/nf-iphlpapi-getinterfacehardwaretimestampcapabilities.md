@@ -1,19 +1,17 @@
 ---
 UID: NF:iphlpapi.GetInterfaceHardwareTimestampCapabilities
 title: GetInterfaceHardwareTimestampCapabilities function (iphlpapi.h)
-
 description: This function is reserved for system use, and you should not call it from your code.
 old-location: iphlp\getinterfacehardwaretimestampcapabilities.htm
 tech.root: IpHlp
 ms.assetid: E09F96C2-72C6-4426-B395-DD590D731E5B
-
 ms.date: 12/05/2018
 ms.keywords: GetInterfaceHardwareTimestampCapabilities, GetInterfaceHardwareTimestampCapabilities function [IP Helper], iphlp.getinterfacehardwaretimestampcapabilities, iphlpapi/GetInterfaceHardwareTimestampCapabilities
 ms.topic: function
-f1_keywords: 
- - "iphlpapi/GetInterfaceHardwareTimestampCapabilities"
+f1_keywords:
+- iphlpapi/GetInterfaceHardwareTimestampCapabilities
 dev_langs:
- - c++
+- c++
 req.header: iphlpapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Iphlpapi.lib
 req.dll: Iphlpapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Iphlpapi.dll
+- Iphlpapi.dll
 api_name:
- - GetInterfaceHardwareTimestampCapabilities
+- GetInterfaceHardwareTimestampCapabilities
 targetos: Windows
 req.typenames: 
 req.redist: 

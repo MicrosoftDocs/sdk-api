@@ -1,19 +1,17 @@
 ---
 UID: NE:dwrite.DWRITE_FACTORY_TYPE
 title: DWRITE_FACTORY_TYPE (dwrite.h)
-
 description: Specifies the type of DirectWrite factory object.
 old-location: directwrite\dwrite_factory_type.htm
 tech.root: DirectWrite
 ms.assetid: ce51d8cd-3125-49e3-878c-9d4b446e2422
-
 ms.date: 12/05/2018
 ms.keywords: DWRITE_FACTORY_TYPE, DWRITE_FACTORY_TYPE enumeration [Direct Write], DWRITE_FACTORY_TYPE_ISOLATED, DWRITE_FACTORY_TYPE_SHARED, directwrite.dwrite_factory_type, dwrite/DWRITE_FACTORY_TYPE, dwrite/DWRITE_FACTORY_TYPE_ISOLATED, dwrite/DWRITE_FACTORY_TYPE_SHARED
 ms.topic: enum
-f1_keywords: 
- - "dwrite/DWRITE_FACTORY_TYPE"
+f1_keywords:
+- dwrite/DWRITE_FACTORY_TYPE
 dev_langs:
- - c++
+- c++
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - dwrite.h
+- dwrite.h
 api_name:
- - DWRITE_FACTORY_TYPE
+- DWRITE_FACTORY_TYPE
 targetos: Windows
 req.typenames: 
 req.redist: 

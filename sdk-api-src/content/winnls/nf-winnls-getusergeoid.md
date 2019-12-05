@@ -1,19 +1,17 @@
 ---
 UID: NF:winnls.GetUserGeoID
 title: GetUserGeoID function (winnls.h)
-
 description: Retrieves information about the geographical location of the user. For more information, see Table of Geographical Locations.
 old-location: intl\getusergeoid.htm
 tech.root: Intl
 ms.assetid: 9d4d196d-4000-4866-a4c7-e7b9cb669c6f
-
 ms.date: 12/05/2018
 ms.keywords: GetUserGeoID, GetUserGeoID function [Internationalization for Windows Applications], _win32_GetUserGeoID, intl.getusergeoid, winnls/GetUserGeoID
 ms.topic: function
-f1_keywords: 
- - "winnls/GetUserGeoID"
+f1_keywords:
+- winnls/GetUserGeoID
 dev_langs:
- - c++
+- c++
 req.header: winnls.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,20 +30,20 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-Localization-l1-2-0.dll
- - KernelBase.dll
- - API-MS-Win-Core-Localization-l1-2-1.dll
- - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
- - MinKernelBase.dll
- - API-MS-Win-Core-Localization-L1-2-2.dll
+- Kernel32.dll
+- API-MS-Win-Core-Localization-l1-2-0.dll
+- KernelBase.dll
+- API-MS-Win-Core-Localization-l1-2-1.dll
+- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+- MinKernelBase.dll
+- API-MS-Win-Core-Localization-L1-2-2.dll
 api_name:
- - GetUserGeoID
+- GetUserGeoID
 targetos: Windows
 req.typenames: 
 req.redist: 

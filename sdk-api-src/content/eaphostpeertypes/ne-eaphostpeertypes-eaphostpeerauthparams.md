@@ -1,19 +1,17 @@
 ---
 UID: NE:eaphostpeertypes.tagEapHostPeerAuthParams
 title: EapHostPeerAuthParams (eaphostpeertypes.h)
-
 description: Defines the set of possible authentication parameter values.
 old-location: eaphost\eaphostpeerauthparams.htm
 tech.root: eaphost
 ms.assetid: adbb08d7-36a0-4e10-b0bc-2fb7030c2fcc
-
 ms.date: 12/05/2018
 ms.keywords: EapHostNapInfo, EapHostPeerAuthParams, EapHostPeerAuthParams enumeration [EAPHost], EapHostPeerAuthStatus, EapHostPeerIdentity, EapHostPeerIdentityExtendedInfo, eaphost.eaphostpeerauthparams, eaphostpeertypes/EapHostNapInfo, eaphostpeertypes/EapHostPeerAuthParams, eaphostpeertypes/EapHostPeerAuthStatus, eaphostpeertypes/EapHostPeerIdentity, eaphostpeertypes/EapHostPeerIdentityExtendedInfo
 ms.topic: enum
-f1_keywords: 
- - "eaphostpeertypes/EapHostPeerAuthParams"
+f1_keywords:
+- eaphostpeertypes/EapHostPeerAuthParams
 dev_langs:
- - c++
+- c++
 req.header: eaphostpeertypes.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - eaphostpeertypes.h
+- eaphostpeertypes.h
 api_name:
- - EapHostPeerAuthParams
+- EapHostPeerAuthParams
 targetos: Windows
 req.typenames: EapHostPeerAuthParams
 req.redist: 

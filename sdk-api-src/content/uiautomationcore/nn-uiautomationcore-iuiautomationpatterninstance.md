@@ -1,19 +1,17 @@
 ---
 UID: NN:uiautomationcore.IUIAutomationPatternInstance
 title: IUIAutomationPatternInstance (uiautomationcore.h)
-
 description: Represents a control pattern object. The client API wrapper uses this interface to implement all property and method calls in terms of the GetProperty and CallMethod methods.
 old-location: winauto\uiauto_IUIAutomationPatternInstance.htm
 tech.root: WinAuto
 ms.assetid: 54791426-3905-49d6-aaaf-87a18d3ef659
-
 ms.date: 12/05/2018
 ms.keywords: IUIAutomationPatternInstance, IUIAutomationPatternInstance interface [Windows Accessibility], IUIAutomationPatternInstance interface [Windows Accessibility],described, uiauto.uiauto_IUIAutomationPatternInstance, uiauto_IUIAutomationPatternInstance, uiautomationcore/IUIAutomationPatternInstance, winauto.uiauto_IUIAutomationPatternInstance
 ms.topic: interface
-f1_keywords: 
- - "uiautomationcore/IUIAutomationPatternInstance"
+f1_keywords:
+- uiautomationcore/IUIAutomationPatternInstance
 dev_langs:
- - c++
+- c++
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: UIAutomationCore.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationCore.dll
+- UIAutomationCore.dll
 api_name:
- - IUIAutomationPatternInstance
+- IUIAutomationPatternInstance
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:ctfutb.ITfSystemLangBarItemText.SetItemText
 title: ITfSystemLangBarItemText::SetItemText (ctfutb.h)
-
 description: The ITfSystemLangBarItemText::SetItemText method modifies the text displayed for the system language bar menu.
 old-location: tsf\itfsystemlangbaritemtext_setitemtext.htm
 tech.root: TSF
 ms.assetid: 4265f1b6-8688-4b88-b738-e373beea622b
-
 ms.date: 12/05/2018
 ms.keywords: ITfSystemLangBarItemText interface [Text Services Framework],SetItemText method, ITfSystemLangBarItemText.SetItemText, ITfSystemLangBarItemText::SetItemText, SetItemText, SetItemText method [Text Services Framework], SetItemText method [Text Services Framework],ITfSystemLangBarItemText interface, ctfutb/ITfSystemLangBarItemText::SetItemText, tsf.itfsystemlangbaritemtext_setitemtext
 ms.topic: method
-f1_keywords: 
- - "ctfutb/ITfSystemLangBarItemText.SetItemText"
+f1_keywords:
+- ctfutb/ITfSystemLangBarItemText.SetItemText
 dev_langs:
- - c++
+- c++
 req.header: ctfutb.h
 req.include-header: Msctf.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msctf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msctf.dll
+- Msctf.dll
 api_name:
- - ITfSystemLangBarItemText.SetItemText
+- ITfSystemLangBarItemText.SetItemText
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

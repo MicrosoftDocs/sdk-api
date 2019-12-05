@@ -1,19 +1,17 @@
 ---
 UID: NS:wincrypt._CRYPT_VERIFY_MESSAGE_PARA
 title: CRYPT_VERIFY_MESSAGE_PARA (wincrypt.h)
-
 description: The CRYPT_VERIFY_MESSAGE_PARA structure contains information needed to verify signed messages.
 old-location: security\crypt_verify_message_para.htm
 tech.root: SecCrypto
 ms.assetid: bbd56b5e-2bbe-420f-8842-1be50dca779f
-
 ms.date: 12/05/2018
 ms.keywords: '*PCRYPT_VERIFY_MESSAGE_PARA, CRYPT_VERIFY_MESSAGE_PARA, CRYPT_VERIFY_MESSAGE_PARA structure [Security], PCRYPT_VERIFY_MESSAGE_PARA, PCRYPT_VERIFY_MESSAGE_PARA structure pointer [Security], _crypto2_crypt_verify_message_para, security.crypt_verify_message_para, wincrypt/CRYPT_VERIFY_MESSAGE_PARA, wincrypt/PCRYPT_VERIFY_MESSAGE_PARA'
 ms.topic: struct
 f1_keywords:
 - wincrypt/CRYPT_VERIFY_MESSAGE_PARA
 dev_langs:
- - c++
+- c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

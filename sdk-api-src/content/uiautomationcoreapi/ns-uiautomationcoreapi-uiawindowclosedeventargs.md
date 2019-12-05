@@ -1,19 +1,17 @@
 ---
 UID: NS:uiautomationcoreapi.UiaWindowClosedEventArgs
 title: UiaWindowClosedEventArgs (uiautomationcoreapi.h)
-
 description: Note  This structure is deprecated.  Contains information about an event that is raised when one or more windows closes.
 old-location: winauto\uiauto_UiaWindowClosedEventArgsStruct.htm
 tech.root: WinAuto
 ms.assetid: e15b2e58-5eba-4804-9f4a-6bba4afa2051
-
 ms.date: 12/05/2018
 ms.keywords: UiaWindowClosedEventArgs, UiaWindowClosedEventArgs structure [Windows Accessibility], uiauto.uiauto_UiaWindowClosedEventArgsStruct, uiauto_UiaWindowClosedEventArgsStruct, uiautomationcoreapi/UiaWindowClosedEventArgs, winauto.uiauto_UiaWindowClosedEventArgsStruct
 ms.topic: struct
-f1_keywords: 
- - "uiautomationcoreapi/UiaWindowClosedEventArgs"
+f1_keywords:
+- uiautomationcoreapi/UiaWindowClosedEventArgs
 dev_langs:
- - c++
+- c++
 req.header: uiautomationcoreapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - UIAutomationCoreApi.h
+- UIAutomationCoreApi.h
 api_name:
- - UiaWindowClosedEventArgs
+- UiaWindowClosedEventArgs
 targetos: Windows
 req.typenames: 
 req.redist: 

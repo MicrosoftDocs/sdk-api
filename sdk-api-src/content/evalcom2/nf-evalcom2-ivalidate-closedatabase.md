@@ -1,19 +1,17 @@
 ---
 UID: NF:evalcom2.IValidate.CloseDatabase
 title: IValidate::CloseDatabase (evalcom2.h)
-
 description: The CloseDatabase method closes the currently open Windows Installer package or merge module. Windows Installer packages or merge modules can be opened by using the OpenDatabase method.
 old-location: setup\ivalidate_closedatabase.htm
 tech.root: Msi
 ms.assetid: 7124f467-4efd-4e8b-9ce2-8463779f6fb9
-
 ms.date: 12/05/2018
 ms.keywords: CloseDatabase, CloseDatabase method, CloseDatabase method,IValidate interface, IValidate interface,CloseDatabase method, IValidate.CloseDatabase, IValidate::CloseDatabase, evalcom2/IValidate::CloseDatabase, setup.ivalidate_closedatabase
 ms.topic: method
-f1_keywords: 
- - "evalcom2/IValidate.CloseDatabase"
+f1_keywords:
+- evalcom2/IValidate.CloseDatabase
 dev_langs:
- - c++
+- c++
 req.header: evalcom2.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Evalcom2.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Evalcom2.dll
+- Evalcom2.dll
 api_name:
- - IValidate.CloseDatabase
+- IValidate.CloseDatabase
 targetos: Windows
 req.typenames: 
 req.redist: 

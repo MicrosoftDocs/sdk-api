@@ -1,19 +1,17 @@
 ---
 UID: NN:appxpackaging.IAppxContentGroupMapReader
 title: IAppxContentGroupMapReader (appxpackaging.h)
-
 description: Gets information about a content group map.
 old-location: appxpkg\iappxcontentgroupmapreader.htm
 tech.root: appxpkg
 ms.assetid: 45C6F61E-8CF6-4188-9715-3954562F8AB0
-
 ms.date: 12/05/2018
 ms.keywords: IAppxContentGroupMapReader, IAppxContentGroupMapReader interface [App packaging and management], IAppxContentGroupMapReader interface [App packaging and management],described, appxpackaging/IAppxContentGroupMapReader, appxpkg.iappxcontentgroupmapreader
 ms.topic: interface
-f1_keywords: 
- - "appxpackaging/IAppxContentGroupMapReader"
+f1_keywords:
+- appxpackaging/IAppxContentGroupMapReader
 dev_langs:
- - c++
+- c++
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - AppxPackaging.h
+- AppxPackaging.h
 api_name:
- - IAppxContentGroupMapReader
+- IAppxContentGroupMapReader
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:strsafe.StringCbCopyNExA
 title: StringCbCopyNExA function (strsafe.h)
-
 description: Copies the specified number of bytes from one string to another.
 old-location: menurc\stringcbcopynex.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\strings\stringreference\stringfunctions\stringcbcopynex.htm
-
 ms.date: 12/05/2018
 ms.keywords: STRSAFE_FILL_BEHIND_NULL, STRSAFE_FILL_ON_FAILURE, STRSAFE_IGNORE_NULLS, STRSAFE_NO_TRUNCATION, STRSAFE_NULL_ON_FAILURE, StringCbCopyNEx, StringCbCopyNEx function [Menus and Other Resources], StringCbCopyNExA, StringCbCopyNExW, _shell_StringCbCopyNEx, _shell_stringcbcopynex_cpp, menurc.stringcbcopynex, strsafe/StringCbCopyNEx, strsafe/StringCbCopyNExA, strsafe/StringCbCopyNExW, winui._shell_stringcbcopynex
 ms.topic: function
-f1_keywords: 
- - "strsafe/StringCbCopyNEx"
+f1_keywords:
+- strsafe/StringCbCopyNEx
 dev_langs:
- - c++
+- c++
 req.header: strsafe.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Strsafe.h
+- Strsafe.h
 api_name:
- - StringCbCopyNEx
- - StringCbCopyNExA
- - StringCbCopyNExW
+- StringCbCopyNEx
+- StringCbCopyNExA
+- StringCbCopyNExW
 targetos: Windows
 req.typenames: 
 req.redist: 

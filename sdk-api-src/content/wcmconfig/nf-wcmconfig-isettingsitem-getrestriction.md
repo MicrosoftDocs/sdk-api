@@ -1,19 +1,17 @@
 ---
 UID: NF:wcmconfig.ISettingsItem.GetRestriction
 title: ISettingsItem::GetRestriction (wcmconfig.h)
-
 description: Gets the information for a given restriction.
 old-location: smi\isettingsitem_getrestriction.htm
 tech.root: SMI
 ms.assetid: 14bc4956-e8ea-464b-949e-ddc7ae445c1a
-
 ms.date: 12/05/2018
 ms.keywords: GetRestriction, GetRestriction method [SMI], GetRestriction method [SMI],ISettingsItem interface, ISettingsItem interface [SMI],GetRestriction method, ISettingsItem.GetRestriction, ISettingsItem::GetRestriction, smi.isettingsitem_getrestriction, wcmconfig/ISettingsItem::GetRestriction
 ms.topic: method
-f1_keywords: 
- - "wcmconfig/ISettingsItem.GetRestriction"
+f1_keywords:
+- wcmconfig/ISettingsItem.GetRestriction
 dev_langs:
- - c++
+- c++
 req.header: wcmconfig.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: SMIEngine.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - SMIEngine.dll
+- SMIEngine.dll
 api_name:
- - ISettingsItem.GetRestriction
+- ISettingsItem.GetRestriction
 targetos: Windows
 req.typenames: 
 req.redist: 

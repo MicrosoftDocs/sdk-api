@@ -1,19 +1,17 @@
 ---
 UID: NN:wmcontainer.IMFASFIndexer
 title: IMFASFIndexer (wmcontainer.h)
-
 description: Provides methods to work with indexes in Systems Format (ASF) files.
 old-location: mf\imfasfindexer.htm
 tech.root: medfound
 ms.assetid: 93127fe4-bca9-4674-ae21-012367d7dd2f
-
 ms.date: 12/05/2018
 ms.keywords: 93127fe4-bca9-4674-ae21-012367d7dd2f, IMFASFIndexer, IMFASFIndexer interface [Media Foundation], IMFASFIndexer interface [Media Foundation],described, mf.imfasfindexer, wmcontainer/IMFASFIndexer
 ms.topic: interface
-f1_keywords: 
- - "wmcontainer/IMFASFIndexer"
+f1_keywords:
+- wmcontainer/IMFASFIndexer
 dev_langs:
- - c++
+- c++
 req.header: wmcontainer.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFASFIndexer
+- IMFASFIndexer
 targetos: Windows
 req.typenames: 
 req.redist: 

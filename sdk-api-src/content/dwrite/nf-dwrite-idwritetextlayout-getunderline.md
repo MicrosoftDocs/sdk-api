@@ -1,19 +1,17 @@
 ---
 UID: NF:dwrite.IDWriteTextLayout.GetUnderline
 title: IDWriteTextLayout::GetUnderline (dwrite.h)
-
 description: Gets the underline presence of the text at the specified position.
 old-location: directwrite\IDWriteTextLayout_GetUnderline.htm
 tech.root: DirectWrite
 ms.assetid: cd34ba6b-748c-44ca-8db6-d4715a057def
-
 ms.date: 12/05/2018
 ms.keywords: GetUnderline, GetUnderline method [Direct Write], GetUnderline method [Direct Write],IDWriteTextLayout interface, IDWriteTextLayout interface [Direct Write],GetUnderline method, IDWriteTextLayout.GetUnderline, IDWriteTextLayout::GetUnderline, directwrite.IDWriteTextLayout_GetUnderline, dwrite/IDWriteTextLayout::GetUnderline
 ms.topic: method
-f1_keywords: 
- - "dwrite/IDWriteTextLayout.GetUnderline"
+f1_keywords:
+- dwrite/IDWriteTextLayout.GetUnderline
 dev_langs:
- - c++
+- c++
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dwrite.lib
 req.dll: Dwrite.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dwrite.dll
+- dwrite.dll
 api_name:
- - IDWriteTextLayout.GetUnderline
+- IDWriteTextLayout.GetUnderline
 targetos: Windows
 req.typenames: 
 req.redist: 

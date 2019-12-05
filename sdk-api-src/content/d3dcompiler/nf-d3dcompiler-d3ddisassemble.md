@@ -1,19 +1,17 @@
 ---
 UID: NF:d3dcompiler.D3DDisassemble
 title: D3DDisassemble function (d3dcompiler.h)
-
 description: Disassembles compiled HLSL code.
 old-location: direct3dhlsl\d3ddisassemble.htm
 tech.root: direct3dhlsl
 ms.assetid: VS|directx_sdk|~\d3ddisassemble.htm
-
 ms.date: 12/05/2018
 ms.keywords: 102070a9-01bc-45ad-cbcb-2ef04db4d6e7, D3DDisassemble, D3DDisassemble function [HLSL], d3dcompiler/D3DDisassemble, direct3dhlsl.d3ddisassemble
 ms.topic: function
-f1_keywords: 
- - "d3dcompiler/D3DDisassemble"
+f1_keywords:
+- d3dcompiler/D3DDisassemble
 dev_langs:
- - c++
+- c++
 req.header: d3dcompiler.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: D3dcompiler_47.lib
 req.dll: D3dcompiler_47.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - d3dcompiler_47.dll
+- d3dcompiler_47.dll
 api_name:
- - D3DDisassemble
+- D3DDisassemble
 targetos: Windows
 req.typenames: 
 req.redist: 

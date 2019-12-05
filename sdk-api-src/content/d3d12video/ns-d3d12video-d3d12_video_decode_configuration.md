@@ -1,40 +1,38 @@
 ---
 UID: NS:d3d12video.D3D12_VIDEO_DECODE_CONFIGURATION
 title: D3D12_VIDEO_DECODE_CONFIGURATION
-
 description: Describes the configuration for a video decoder.
 tech.root: mf
 ms.assetid: 5caab68c-7bdb-4344-beab-ca09341459a1
-
-ms.date: 05/28/2019 
+ms.date: 05/28/2019
 ms.topic: struct
 f1_keywords:
- - D3D12_VIDEO_DECODE_CONFIGURATION
+- D3D12_VIDEO_DECODE_CONFIGURATION
 dev_langs:
- - c++
-ms.keywords: D3D12_VIDEO_DECODE_CONFIGURATION, D3D12_VIDEO_DECODE_CONFIGURATION, 
+- c++
+ms.keywords: D3D12_VIDEO_DECODE_CONFIGURATION, D3D12_VIDEO_DECODE_CONFIGURATION,
 req.header: d3d12video.h
-req.include-header:
-req.redist:
-req.target-type:
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
+req.include-header: 
+req.redist: 
+req.target-type: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
 req.dll: d3d12.dll
-req.ddi-compliance:
-req.unicode-ansi:
-req.max-support:
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.max-support: 
 req.typenames: D3D12_VIDEO_DECODE_CONFIGURATION
-topic_type: 
- - apiref
-api_type: 
- - HeaderDef
-api_location: 
- - d3d12video.h
-api_name: 
- - D3D12_VIDEO_DECODE_CONFIGURATION
+topic_type:
+- apiref
+api_type:
+- HeaderDef
+api_location:
+- d3d12video.h
+api_name:
+- D3D12_VIDEO_DECODE_CONFIGURATION
 targetos: Windows
 ---
 

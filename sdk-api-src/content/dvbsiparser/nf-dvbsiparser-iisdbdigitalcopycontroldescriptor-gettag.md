@@ -1,19 +1,17 @@
 ---
 UID: NF:dvbsiparser.IIsdbDigitalCopyControlDescriptor.GetTag
 title: IIsdbDigitalCopyControlDescriptor::GetTag (dvbsiparser.h)
-
 description: Gets the tag that identifies an Integrated Services Digital Broadcasting (ISDB) digital copy control descriptor.
 old-location: mstv\iisdbdigitalcopycontroldescriptor_gettag.htm
 tech.root: mstv
 ms.assetid: 9e14cb87-3669-4fdf-9c84-b7f2e3c840c2
-
 ms.date: 12/05/2018
 ms.keywords: GetTag, GetTag method [Microsoft TV Technologies], GetTag method [Microsoft TV Technologies],IIsdbDigitalCopyControlDescriptor interface, IIsdbDigitalCopyControlDescriptor interface [Microsoft TV Technologies],GetTag method, IIsdbDigitalCopyControlDescriptor.GetTag, IIsdbDigitalCopyControlDescriptor::GetTag, dvbsiparser/IIsdbDigitalCopyControlDescriptor::GetTag, mstv.iisdbdigitalcopycontroldescriptor_gettag
 ms.topic: method
-f1_keywords: 
- - "dvbsiparser/IIsdbDigitalCopyControlDescriptor.GetTag"
+f1_keywords:
+- dvbsiparser/IIsdbDigitalCopyControlDescriptor.GetTag
 dev_langs:
- - c++
+- c++
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dvbsiparser.h
+- dvbsiparser.h
 api_name:
- - IIsdbDigitalCopyControlDescriptor.GetTag
+- IIsdbDigitalCopyControlDescriptor.GetTag
 targetos: Windows
 req.typenames: 
 req.redist: 

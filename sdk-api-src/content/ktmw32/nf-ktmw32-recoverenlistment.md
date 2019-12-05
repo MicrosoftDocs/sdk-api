@@ -1,19 +1,17 @@
 ---
 UID: NF:ktmw32.RecoverEnlistment
 title: RecoverEnlistment function (ktmw32.h)
-
 description: Recovers an enlistment's state.
 old-location: fs\recoverenlistment.htm
 tech.root: ktm
 ms.assetid: 5c36732f-bf4f-4071-959e-3359be0b2363
-
 ms.date: 12/05/2018
 ms.keywords: RecoverEnlistment, RecoverEnlistment function [Files], fs.recoverenlistment, ktmw32/RecoverEnlistment
 ms.topic: function
-f1_keywords: 
- - "ktmw32/RecoverEnlistment"
+f1_keywords:
+- ktmw32/RecoverEnlistment
 dev_langs:
- - c++
+- c++
 req.header: ktmw32.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Ktmw32.lib
 req.dll: Ktmw32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ktmw32.dll
+- Ktmw32.dll
 api_name:
- - RecoverEnlistment
+- RecoverEnlistment
 targetos: Windows
 req.typenames: 
 req.redist: 

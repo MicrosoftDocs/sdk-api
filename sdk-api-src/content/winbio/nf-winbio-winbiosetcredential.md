@@ -1,19 +1,17 @@
 ---
 UID: NF:winbio.WinBioSetCredential
 title: WinBioSetCredential function (winbio.h)
-
 description: Saves a biometric logon credential for the current user. Starting with Windows 10, build 1607, this function is available to use with a mobile image.
 old-location: secbiomet\winbiosetcredential.htm
 tech.root: SecBioMet
 ms.assetid: c35dd874-c545-418a-b08c-82f9e13e93fb
-
 ms.date: 12/05/2018
 ms.keywords: WINBIO_PASSWORD_GENERIC, WINBIO_PASSWORD_PACKED, WINBIO_PASSWORD_PROTECTED, WinBioSetCredential, WinBioSetCredential function [Windows Biometric Framework API], secbiomet.winbiosetcredential, winbio/WinBioSetCredential
 ms.topic: function
-f1_keywords: 
- - "winbio/WinBioSetCredential"
+f1_keywords:
+- winbio/WinBioSetCredential
 dev_langs:
- - c++
+- c++
 req.header: winbio.h
 req.include-header: Winbio.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Winbio.lib
 req.dll: Winbio.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Winbio.dll
- - ext-ms-win-biometrics-winbio-core-l1-1-0.dll
- - Ext-MS-Win-BioMetrics-WinBio-Core-L1-1-1.dll
+- Winbio.dll
+- ext-ms-win-biometrics-winbio-core-l1-1-0.dll
+- Ext-MS-Win-BioMetrics-WinBio-Core-L1-1-1.dll
 api_name:
- - WinBioSetCredential
+- WinBioSetCredential
 targetos: Windows
 req.typenames: 
 req.redist: 

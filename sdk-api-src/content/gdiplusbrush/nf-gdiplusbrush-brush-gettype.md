@@ -1,19 +1,17 @@
 ---
 UID: NF:gdiplusbrush.Brush.GetType
 title: Brush::GetType (gdiplusbrush.h)
-
 description: The Brush::GetType method gets the type of this brush.
 old-location: gdiplus\_gdiplus_CLASS_Brush_GetType_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\brushclass\brushmethods\gettype.htm
-
 ms.date: 12/05/2018
 ms.keywords: Brush class [GDI+],GetType method, Brush.GetType, Brush::GetType, GetType, GetType method [GDI+], GetType method [GDI+],Brush class, _gdiplus_CLASS_Brush_GetType_, gdiplus._gdiplus_CLASS_Brush_GetType_
 ms.topic: method
-f1_keywords: 
- - "gdiplusbrush/Brush.GetType"
+f1_keywords:
+- gdiplusbrush/Brush.GetType
 dev_langs:
- - c++
+- c++
 req.header: gdiplusbrush.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - Brush.GetType
+- Brush.GetType
 targetos: Windows
 req.typenames: 
 req.redist: 

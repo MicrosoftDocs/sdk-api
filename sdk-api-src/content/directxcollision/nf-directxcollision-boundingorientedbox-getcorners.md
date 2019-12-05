@@ -1,19 +1,17 @@
 ---
 UID: NF:directxcollision.BoundingOrientedBox.GetCorners
 title: BoundingOrientedBox::GetCorners
-
 description: Retrieves the corners of the BoundingOrientedBox.
 old-location: dxmath\boundingorientedbox_getcorners.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.directxmath.BoundingOrientedBox.GetCorners(XMFLOAT3)
-
 ms.date: 12/05/2018
 ms.keywords: BoundingOrientedBox interface [DirectX Math Support APIs],GetCorners method, BoundingOrientedBox.GetCorners, BoundingOrientedBox::GetCorners, GetCorners, GetCorners method [DirectX Math Support APIs], GetCorners method [DirectX Math Support APIs],BoundingOrientedBox interface, dxmath.boundingorientedbox_getcorners
 ms.topic: method
-f1_keywords: 
- - "directxcollision/BoundingOrientedBox.GetCorners"
+f1_keywords:
+- directxcollision/BoundingOrientedBox.GetCorners
 dev_langs:
- - c++
+- c++
 req.header: directxcollision.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - DirectXCollision.h
+- DirectXCollision.h
 api_name:
- - BoundingOrientedBox.GetCorners
+- BoundingOrientedBox.GetCorners
 targetos: Windows
 req.typenames: 
 req.redist: 

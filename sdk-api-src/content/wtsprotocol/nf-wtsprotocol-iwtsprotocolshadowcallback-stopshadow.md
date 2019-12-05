@@ -1,19 +1,17 @@
 ---
 UID: NF:wtsprotocol.IWTSProtocolShadowCallback.StopShadow
 title: IWTSProtocolShadowCallback::StopShadow (wtsprotocol.h)
-
 description: IWTSProtocolShadowCallback::StopShadow is no longer available. Instead, use IWRdsProtocolShadowCallback::StopShadow.
 old-location: termserv\iwtsprotocolshadowcallback_stopshadow.htm
 tech.root: TermServ
 ms.assetid: 54e47922-aea5-4e2f-b329-94300fc1ac3d
-
 ms.date: 12/05/2018
 ms.keywords: IWTSProtocolShadowCallback interface [Remote Desktop Services],StopShadow method, IWTSProtocolShadowCallback.StopShadow, IWTSProtocolShadowCallback::StopShadow, StopShadow, StopShadow method [Remote Desktop Services], StopShadow method [Remote Desktop Services],IWTSProtocolShadowCallback interface, termserv.iwtsprotocolshadowcallback_stopshadow, wtsprotocol/IWTSProtocolShadowCallback::StopShadow
 ms.topic: method
-f1_keywords: 
- - "wtsprotocol/IWTSProtocolShadowCallback.StopShadow"
+f1_keywords:
+- wtsprotocol/IWTSProtocolShadowCallback.StopShadow
 dev_langs:
- - c++
+- c++
 req.header: wtsprotocol.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wtsprotocol.h
+- Wtsprotocol.h
 api_name:
- - IWTSProtocolShadowCallback.StopShadow
+- IWTSProtocolShadowCallback.StopShadow
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NN:certadm.IOCSPCAConfigurationCollection
 title: IOCSPCAConfigurationCollection (certadm.h)
-
 description: Represents a set of certificates for which an Online Certificate Status Protocol (OCSP) service has been configured to provide certificate status responses.
 old-location: security\iocspcaconfigurationcollection.htm
 tech.root: SecCrypto
 ms.assetid: 4e232c34-b5ab-4269-903b-189aac5a8ddc
-
 ms.date: 12/05/2018
 ms.keywords: IOCSPCAConfigurationCollection, IOCSPCAConfigurationCollection interface [Security], IOCSPCAConfigurationCollection interface [Security],described, certadm/IOCSPCAConfigurationCollection, security.iocspcaconfigurationcollection
 ms.topic: interface
-f1_keywords: 
- - "certadm/IOCSPCAConfigurationCollection"
+f1_keywords:
+- certadm/IOCSPCAConfigurationCollection
 dev_langs:
- - c++
+- c++
 req.header: certadm.h
 req.include-header: Certsrv.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Certadm.lib
 req.dll: Certadm.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Certadm.dll
+- Certadm.dll
 api_name:
- - IOCSPCAConfigurationCollection
+- IOCSPCAConfigurationCollection
 targetos: Windows
 req.typenames: 
 req.redist: 

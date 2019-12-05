@@ -1,19 +1,17 @@
 ---
 UID: NF:winerror.SUCCEEDED
 title: SUCCEEDED macro (winerror.h)
-
 description: Provides a generic test for success on any status value.
 old-location: com\succeeded_macro.htm
 tech.root: com
 ms.assetid: 7a258b0b-d214-46c5-be0a-6493cd14a0e5
-
 ms.date: 12/05/2018
 ms.keywords: SUCCEEDED, SUCCEEDED macro [COM], _com_SUCCEEDED, com.succeeded, com.succeeded_macro, winerror/SUCCEEDED
 ms.topic: macro
-f1_keywords: 
- - "winerror/SUCCEEDED"
+f1_keywords:
+- winerror/SUCCEEDED
 dev_langs:
- - c++
+- c++
 req.header: winerror.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Winerror.h
+- Winerror.h
 api_name:
- - SUCCEEDED
+- SUCCEEDED
 targetos: Windows
 req.typenames: 
 req.redist: 

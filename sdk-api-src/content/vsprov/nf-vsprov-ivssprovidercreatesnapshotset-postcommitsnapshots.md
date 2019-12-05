@@ -1,19 +1,17 @@
 ---
 UID: NF:vsprov.IVssProviderCreateSnapshotSet.PostCommitSnapshots
 title: IVssProviderCreateSnapshotSet::PostCommitSnapshots (vsprov.h)
-
 description: Is called after all providers involved in the shadow copy set have succeeded with CommitSnapshots.
 old-location: base\ivssprovidercreatesnapshotset_postcommitsnapshots.htm
 tech.root: VSS
 ms.assetid: 191b263b-1bcf-4617-95d4-5b4c1ed714ee
-
 ms.date: 12/05/2018
 ms.keywords: IVssProviderCreateSnapshotSet interface [VSS],PostCommitSnapshots method, IVssProviderCreateSnapshotSet.PostCommitSnapshots, IVssProviderCreateSnapshotSet::PostCommitSnapshots, PostCommitSnapshots, PostCommitSnapshots method [VSS], PostCommitSnapshots method [VSS],IVssProviderCreateSnapshotSet interface, base.ivssprovidercreatesnapshotset_postcommitsnapshots, vsprov/IVssProviderCreateSnapshotSet::PostCommitSnapshots
 ms.topic: method
-f1_keywords: 
- - "vsprov/IVssProviderCreateSnapshotSet.PostCommitSnapshots"
+f1_keywords:
+- vsprov/IVssProviderCreateSnapshotSet.PostCommitSnapshots
 dev_langs:
- - c++
+- c++
 req.header: vsprov.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - VsProv.h
+- VsProv.h
 api_name:
- - IVssProviderCreateSnapshotSet.PostCommitSnapshots
+- IVssProviderCreateSnapshotSet.PostCommitSnapshots
 targetos: Windows
 req.typenames: 
 req.redist: 

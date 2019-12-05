@@ -1,19 +1,17 @@
 ---
 UID: NF:structuredquery.IEntity.GetNamedEntity
 title: IEntity::GetNamedEntity (structuredquery.h)
-
 description: Retrieves an INamedEntity object based on an entity name.
 old-location: search\_search_IEntity_GetNamedEntity.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\ientity\getnamedentity.htm
-
 ms.date: 12/05/2018
 ms.keywords: GetNamedEntity, GetNamedEntity method [search], GetNamedEntity method [search],IEntity interface, IEntity interface [search],GetNamedEntity method, IEntity.GetNamedEntity, IEntity::GetNamedEntity, _search_IEntity_GetNamedEntity, search._search_IEntity_GetNamedEntity, structuredquery/IEntity::GetNamedEntity
 ms.topic: method
-f1_keywords: 
- - "structuredquery/IEntity.GetNamedEntity"
+f1_keywords:
+- structuredquery/IEntity.GetNamedEntity
 dev_langs:
- - c++
+- c++
 req.header: structuredquery.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Structuredquery.h
+- Structuredquery.h
 api_name:
- - IEntity.GetNamedEntity
+- IEntity.GetNamedEntity
 targetos: Windows
 req.typenames: 
 req.redist: 

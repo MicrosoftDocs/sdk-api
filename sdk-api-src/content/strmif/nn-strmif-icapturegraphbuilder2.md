@@ -1,19 +1,17 @@
 ---
 UID: NN:strmif.ICaptureGraphBuilder2
 title: ICaptureGraphBuilder2 (strmif.h)
-
 description: The ICaptureGraphBuilder2 interface builds capture graphs and other custom filter graphs.
 old-location: dshow\icapturegraphbuilder2.htm
 tech.root: DirectShow
 ms.assetid: abdf6fb2-e98f-4df8-98ec-06d33798abb5
-
 ms.date: 12/05/2018
 ms.keywords: ICaptureGraphBuilder2, ICaptureGraphBuilder2 interface [DirectShow], ICaptureGraphBuilder2 interface [DirectShow],described, ICaptureGraphBuilder2Interface, dshow.icapturegraphbuilder2, strmif/ICaptureGraphBuilder2
 ms.topic: interface
-f1_keywords: 
- - "strmif/ICaptureGraphBuilder2"
+f1_keywords:
+- strmif/ICaptureGraphBuilder2
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - ICaptureGraphBuilder2
+- ICaptureGraphBuilder2
 targetos: Windows
 req.typenames: 
 req.redist: 

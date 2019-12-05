@@ -1,19 +1,17 @@
 ---
 UID: NF:msctf.ITfRange.ShiftStartToRange
 title: ITfRange::ShiftStartToRange (msctf.h)
-
 description: ITfRange::ShiftStartToRange method
 old-location: tsf\itfrange_shiftstarttorange.htm
 tech.root: TSF
 ms.assetid: 8e3e40a0-71ba-4abf-ac99-99d66856746c
-
 ms.date: 12/05/2018
 ms.keywords: ITfRange interface [Text Services Framework],ShiftStartToRange method, ITfRange.ShiftStartToRange, ITfRange::ShiftStartToRange, ShiftStartToRange, ShiftStartToRange method [Text Services Framework], ShiftStartToRange method [Text Services Framework],ITfRange interface, _tsf_itfrange_shiftstarttorange_ref, msctf/ITfRange::ShiftStartToRange, tsf.itfrange_shiftstarttorange
 ms.topic: method
-f1_keywords: 
- - "msctf/ITfRange.ShiftStartToRange"
+f1_keywords:
+- msctf/ITfRange.ShiftStartToRange
 dev_langs:
- - c++
+- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msctf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msctf.dll
+- Msctf.dll
 api_name:
- - ITfRange.ShiftStartToRange
+- ITfRange.ShiftStartToRange
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

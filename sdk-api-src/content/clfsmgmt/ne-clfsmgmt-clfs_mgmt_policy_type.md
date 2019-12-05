@@ -1,19 +1,17 @@
 ---
 UID: NE:clfsmgmt._CLFS_MGMT_POLICY_TYPE
 title: CLFS_MGMT_POLICY_TYPE (clfsmgmt.h)
-
 description: The CLFS_MGMT_POLICY_TYPE enumeration lists the valid policy types.
 old-location: fs\clfs_mgmt_policy_type.htm
 tech.root: Clfs
 ms.assetid: eaa817be-04ac-48c2-b7de-60509b1f65c7
-
 ms.date: 12/05/2018
 ms.keywords: '*PCLFS_MGMT_POLICY_TYPE, CLFS_MGMT_POLICY_TYPE, CLFS_MGMT_POLICY_TYPE enumeration [Files], ClfsMgmtPolicyAutoGrow, ClfsMgmtPolicyAutoShrink, ClfsMgmtPolicyGrowthRate, ClfsMgmtPolicyLogTail, ClfsMgmtPolicyMaximumSize, ClfsMgmtPolicyMinimumSize, ClfsMgmtPolicyNewContainerExtension, ClfsMgmtPolicyNewContainerPrefix, ClfsMgmtPolicyNewContainerSize, ClfsMgmtPolicyNewContainerSuffix, PCLFS_MGMT_POLICY_TYPE, PCLFS_MGMT_POLICY_TYPE enumeration pointer [Files], clfsmgmt/CLFS_MGMT_POLICY_TYPE, clfsmgmt/ClfsMgmtPolicyAutoGrow, clfsmgmt/ClfsMgmtPolicyAutoShrink, clfsmgmt/ClfsMgmtPolicyGrowthRate, clfsmgmt/ClfsMgmtPolicyLogTail, clfsmgmt/ClfsMgmtPolicyMaximumSize, clfsmgmt/ClfsMgmtPolicyMinimumSize, clfsmgmt/ClfsMgmtPolicyNewContainerExtension, clfsmgmt/ClfsMgmtPolicyNewContainerPrefix, clfsmgmt/ClfsMgmtPolicyNewContainerSize, clfsmgmt/ClfsMgmtPolicyNewContainerSuffix, clfsmgmt/PCLFS_MGMT_POLICY_TYPE, fs.clfs_mgmt_policy_type'
 ms.topic: enum
 f1_keywords:
 - clfsmgmt/CLFS_MGMT_POLICY_TYPE
 dev_langs:
- - c++
+- c++
 req.header: clfsmgmt.h
 req.include-header: 
 req.target-type: Windows

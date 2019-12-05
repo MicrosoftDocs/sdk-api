@@ -1,19 +1,17 @@
 ---
 UID: NF:certenroll.IX509PrivateKey.get_DefaultContainer
 title: IX509PrivateKey::get_DefaultContainer (certenroll.h)
-
 description: Retrieves a Boolean value that specifies whether the private key represents the default key container.
 old-location: security\ix509privatekey_defaultcontainer_property.htm
 tech.root: seccertenroll
 ms.assetid: 31998dee-b656-47b8-acb5-246e1a10382a
-
 ms.date: 12/05/2018
 ms.keywords: DefaultContainer property [Security], DefaultContainer property [Security],IX509PrivateKey interface, IX509PrivateKey interface [Security],DefaultContainer property, IX509PrivateKey.DefaultContainer, IX509PrivateKey.get_DefaultContainer, IX509PrivateKey::DefaultContainer, IX509PrivateKey::get_DefaultContainer, certenroll/IX509PrivateKey::DefaultContainer, certenroll/IX509PrivateKey::get_DefaultContainer, get_DefaultContainer, security.ix509privatekey_defaultcontainer_property
 ms.topic: method
-f1_keywords: 
- - "certenroll/IX509PrivateKey.DefaultContainer"
+f1_keywords:
+- certenroll/IX509PrivateKey.DefaultContainer
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: CertEnroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CertEnroll.dll
+- CertEnroll.dll
 api_name:
- - IX509PrivateKey.DefaultContainer
- - IX509PrivateKey.get_DefaultContainer
+- IX509PrivateKey.DefaultContainer
+- IX509PrivateKey.get_DefaultContainer
 targetos: Windows
 req.typenames: 
 req.redist: 

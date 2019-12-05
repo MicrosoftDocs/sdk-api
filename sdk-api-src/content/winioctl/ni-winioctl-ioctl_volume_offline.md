@@ -1,19 +1,17 @@
 ---
 UID: NI:winioctl.IOCTL_VOLUME_OFFLINE
 title: IOCTL_VOLUME_OFFLINE
-
 description: Takes a volume offline.
 old-location: fs\ioctl_volume_offline.htm
 tech.root: FileIO
 ms.assetid: 7c9b97eb-c167-41cd-b235-7a9d7830915e
-
 ms.date: 12/05/2018
 ms.keywords: IOCTL_VOLUME_OFFLINE, IOCTL_VOLUME_OFFLINE control, IOCTL_VOLUME_OFFLINE control code [Files], fs.ioctl_volume_offline, winioctl/IOCTL_VOLUME_OFFLINE
 ms.topic: ioctl
-f1_keywords: 
- - "winioctl/IOCTL_VOLUME_OFFLINE"
+f1_keywords:
+- winioctl/IOCTL_VOLUME_OFFLINE
 dev_langs:
- - c++
+- c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WinIoCtl.h
+- WinIoCtl.h
 api_name:
- - IOCTL_VOLUME_OFFLINE
+- IOCTL_VOLUME_OFFLINE
 targetos: Windows
 req.typenames: 
 req.redist: 

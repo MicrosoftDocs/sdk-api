@@ -1,19 +1,17 @@
 ---
 UID: NE:mbnapi.MBN_SMS_STATUS_FLAG
 title: MBN_SMS_STATUS_FLAG (mbnapi.h)
-
 description: The MBN_SMS_STATUS_FLAG enumerated type indicates the status of a device's SMS message store.
 old-location: mbn\mbn_sms_status_flag.htm
 tech.root: mbn
 ms.assetid: 835cfdfa-face-4779-8bbf-e35076b85521
-
 ms.date: 12/05/2018
 ms.keywords: MBN_SMS_FLAG_MESSAGE_STORE_FULL, MBN_SMS_FLAG_NEW_MESSAGE, MBN_SMS_FLAG_NONE, MBN_SMS_STATUS_FLAG, MBN_SMS_STATUS_FLAG enumeration [Microsoft Broadband Networks], mbn.mbn_sms_status_flag, mbnapi/MBN_SMS_FLAG_MESSAGE_STORE_FULL, mbnapi/MBN_SMS_FLAG_NEW_MESSAGE, mbnapi/MBN_SMS_FLAG_NONE, mbnapi/MBN_SMS_STATUS_FLAG
 ms.topic: enum
-f1_keywords: 
- - "mbnapi/MBN_SMS_STATUS_FLAG"
+f1_keywords:
+- mbnapi/MBN_SMS_STATUS_FLAG
 dev_langs:
- - c++
+- c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - mbnapi.h
+- mbnapi.h
 api_name:
- - MBN_SMS_STATUS_FLAG
+- MBN_SMS_STATUS_FLAG
 targetos: Windows
 req.typenames: MBN_SMS_STATUS_FLAG
 req.redist: 

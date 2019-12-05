@@ -1,19 +1,17 @@
 ---
 UID: NN:certenroll.IX509CertificateRequestPkcs7
 title: IX509CertificateRequestPkcs7 (certenroll.h)
-
-description: The IX509CertificateRequestPkcs7 interface represents a PKCS #7 certificate message syntax (CMS) object.
+description: The IX509CertificateRequestPkcs7 interface represents a PKCS
 old-location: security\ix509certificaterequestpkcs7.htm
 tech.root: seccertenroll
 ms.assetid: ae869557-6523-4387-835e-c9631898d864
-
 ms.date: 12/05/2018
 ms.keywords: IX509CertificateRequestPkcs7, IX509CertificateRequestPkcs7 interface [Security], IX509CertificateRequestPkcs7 interface [Security],described, certenroll/IX509CertificateRequestPkcs7, security.ix509certificaterequestpkcs7
 ms.topic: interface
-f1_keywords: 
- - "certenroll/IX509CertificateRequestPkcs7"
+f1_keywords:
+- certenroll/IX509CertificateRequestPkcs7
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: CertEnroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CertEnroll.dll
+- CertEnroll.dll
 api_name:
- - IX509CertificateRequestPkcs7
+- IX509CertificateRequestPkcs7
 targetos: Windows
 req.typenames: 
 req.redist: 

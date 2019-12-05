@@ -1,19 +1,17 @@
 ---
 UID: NF:winnt.InterlockedXor16
 title: InterlockedXor16 function (winnt.h)
-
 description: Performs an atomic XOR operation on the specified SHORT values.
 old-location: base\interlockedxor16.htm
 tech.root: Sync
 ms.assetid: 414830ba-ce2b-4ed0-96f4-db5edd8e4ebe
-
 ms.date: 12/05/2018
 ms.keywords: InterlockedXor16, InterlockedXor16 function, base.interlockedxor16, winnt/InterlockedXor16
 ms.topic: function
-f1_keywords: 
- - "winnt/InterlockedXor16"
+f1_keywords:
+- winnt/InterlockedXor16
 dev_langs:
- - c++
+- c++
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Winnt.h
+- Winnt.h
 api_name:
- - InterlockedXor16
+- InterlockedXor16
 targetos: Windows
 req.typenames: 
 req.redist: 

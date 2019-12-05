@@ -1,19 +1,17 @@
 ---
 UID: NE:d3d11.D3D11_VIDEO_PROCESSOR_STEREO_FLIP_MODE
 title: D3D11_VIDEO_PROCESSOR_STEREO_FLIP_MODE (d3d11.h)
-
 description: For stereo 3D video, specifies whether the data in frame 0 or frame 1 is flipped, either horizontally or vertically.
 old-location: mf\d3d11_video_processor_stereo_flip_mode.htm
 tech.root: medfound
 ms.assetid: 2BCC3190-BD27-465D-B9D6-346FAD5E01AF
-
 ms.date: 12/05/2018
 ms.keywords: D3D11_VIDEO_PROCESSOR_STEREO_FLIP_FRAME0, D3D11_VIDEO_PROCESSOR_STEREO_FLIP_FRAME1, D3D11_VIDEO_PROCESSOR_STEREO_FLIP_MODE, D3D11_VIDEO_PROCESSOR_STEREO_FLIP_MODE enumeration [Media Foundation], D3D11_VIDEO_PROCESSOR_STEREO_FLIP_NONE, d3d11/D3D11_VIDEO_PROCESSOR_STEREO_FLIP_FRAME0, d3d11/D3D11_VIDEO_PROCESSOR_STEREO_FLIP_FRAME1, d3d11/D3D11_VIDEO_PROCESSOR_STEREO_FLIP_MODE, d3d11/D3D11_VIDEO_PROCESSOR_STEREO_FLIP_NONE, mf.d3d11_video_processor_stereo_flip_mode
 ms.topic: enum
-f1_keywords: 
- - "d3d11/D3D11_VIDEO_PROCESSOR_STEREO_FLIP_MODE"
+f1_keywords:
+- d3d11/D3D11_VIDEO_PROCESSOR_STEREO_FLIP_MODE
 dev_langs:
- - c++
+- c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - d3d11.h
+- d3d11.h
 api_name:
- - D3D11_VIDEO_PROCESSOR_STEREO_FLIP_MODE
+- D3D11_VIDEO_PROCESSOR_STEREO_FLIP_MODE
 targetos: Windows
 req.typenames: D3D11_VIDEO_PROCESSOR_STEREO_FLIP_MODE
 req.redist: 

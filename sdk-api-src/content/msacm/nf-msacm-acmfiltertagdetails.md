@@ -1,19 +1,17 @@
 ---
 UID: NF:msacm.acmFilterTagDetails
 title: acmFilterTagDetails function (msacm.h)
-
 description: The acmFilterTagDetails function queries the ACM for details about a specific waveform-audio filter tag.
 old-location: multimedia\acmfiltertagdetails.htm
 tech.root: Multimedia
 ms.assetid: 6b1fd113-5753-4a45-974c-ecf3f5d27866
-
 ms.date: 12/05/2018
-ms.keywords: "_win32_acmFilterTagDetails, acmFilterTagDetails, acmFilterTagDetails function [Windows Multimedia], acmFilterTagDetailsA, acmFilterTagDetailsW, msacm/acmFilterTagDetails, msacm/acmFilterTagDetailsA, msacm/acmFilterTagDetailsW, multimedia.acmfiltertagdetails"
+ms.keywords: _win32_acmFilterTagDetails, acmFilterTagDetails, acmFilterTagDetails function [Windows Multimedia], acmFilterTagDetailsA, acmFilterTagDetailsW, msacm/acmFilterTagDetails, msacm/acmFilterTagDetailsA, msacm/acmFilterTagDetailsW, multimedia.acmfiltertagdetails
 ms.topic: function
-f1_keywords: 
- - "msacm/acmFilterTagDetails"
+f1_keywords:
+- msacm/acmFilterTagDetails
 dev_langs:
- - c++
+- c++
 req.header: msacm.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Msacm32.lib
 req.dll: Msacm32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Msacm32.dll
- - Ext-MS-Win-mm-msacm-l1-1-0.dll
+- Msacm32.dll
+- Ext-MS-Win-mm-msacm-l1-1-0.dll
 api_name:
- - acmFilterTagDetails
- - acmFilterTagDetailsA
- - acmFilterTagDetailsW
+- acmFilterTagDetails
+- acmFilterTagDetailsA
+- acmFilterTagDetailsW
 targetos: Windows
 req.typenames: 
 req.redist: 

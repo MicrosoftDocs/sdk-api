@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d11shadertracing.ID3D11ShaderTraceFactory.CreateShaderTrace
 title: ID3D11ShaderTraceFactory::CreateShaderTrace (d3d11shadertracing.h)
-
 description: Creates a shader-trace interface for a shader-trace information object.
 old-location: direct3d11\id3d11shadertracefactory_createshadertrace.htm
 tech.root: direct3d11
 ms.assetid: 8F63E8B3-0E36-49D5-AB3B-1B1C7A9B841A
-
 ms.date: 12/05/2018
 ms.keywords: CreateShaderTrace, CreateShaderTrace method [Direct3D 11], CreateShaderTrace method [Direct3D 11],ID3D11ShaderTraceFactory interface, ID3D11ShaderTraceFactory interface [Direct3D 11],CreateShaderTrace method, ID3D11ShaderTraceFactory.CreateShaderTrace, ID3D11ShaderTraceFactory::CreateShaderTrace, d3d11shadertracing/ID3D11ShaderTraceFactory::CreateShaderTrace, direct3d11.id3d11shadertracefactory_createshadertrace
 ms.topic: method
-f1_keywords: 
- - "d3d11shadertracing/ID3D11ShaderTraceFactory.CreateShaderTrace"
+f1_keywords:
+- d3d11shadertracing/ID3D11ShaderTraceFactory.CreateShaderTrace
 dev_langs:
- - c++
+- c++
 req.header: d3d11shadertracing.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: D3D11SDKLayers.dll; D3D11_1SDKLayers.dll; D3D11_2SDKLayers.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D11SDKLayers.dll
- - D3D11_1SDKLayers.dll
- - D3D11_2SDKLayers.dll
+- D3D11SDKLayers.dll
+- D3D11_1SDKLayers.dll
+- D3D11_2SDKLayers.dll
 api_name:
- - ID3D11ShaderTraceFactory.CreateShaderTrace
+- ID3D11ShaderTraceFactory.CreateShaderTrace
 targetos: Windows
 req.typenames: 
 req.redist: 

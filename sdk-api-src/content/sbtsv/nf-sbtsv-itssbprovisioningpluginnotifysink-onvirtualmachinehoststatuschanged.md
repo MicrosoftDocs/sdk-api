@@ -1,19 +1,17 @@
 ---
 UID: NF:sbtsv.ITsSbProvisioningPluginNotifySink.OnVirtualMachineHostStatusChanged
 title: ITsSbProvisioningPluginNotifySink::OnVirtualMachineHostStatusChanged (sbtsv.h)
-
 description: Notifies Remote Desktop Connection Broker (RD Connection Broker) that the status of the host of a virtual machine is changed.
 old-location: termserv\itssbprovisioningpluginnotifysink_onvirtualmachinehoststatuschanged.htm
 tech.root: TermServ
 ms.assetid: d86e9092-42ca-4e62-8613-cdcf2f8b627d
-
 ms.date: 12/05/2018
 ms.keywords: ITsSbProvisioningPluginNotifySink interface [Remote Desktop Services],OnVirtualMachineHostStatusChanged method, ITsSbProvisioningPluginNotifySink.OnVirtualMachineHostStatusChanged, ITsSbProvisioningPluginNotifySink::OnVirtualMachineHostStatusChanged, OnVirtualMachineHostStatusChanged, OnVirtualMachineHostStatusChanged method [Remote Desktop Services], OnVirtualMachineHostStatusChanged method [Remote Desktop Services],ITsSbProvisioningPluginNotifySink interface, sbtsv/ITsSbProvisioningPluginNotifySink::OnVirtualMachineHostStatusChanged, termserv.itssbprovisioningpluginnotifysink_onvirtualmachinehoststatuschanged
 ms.topic: method
-f1_keywords: 
- - "sbtsv/ITsSbProvisioningPluginNotifySink.OnVirtualMachineHostStatusChanged"
+f1_keywords:
+- sbtsv/ITsSbProvisioningPluginNotifySink.OnVirtualMachineHostStatusChanged
 dev_langs:
- - c++
+- c++
 req.header: sbtsv.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - sbtsv.h
+- sbtsv.h
 api_name:
- - ITsSbProvisioningPluginNotifySink.OnVirtualMachineHostStatusChanged
+- ITsSbProvisioningPluginNotifySink.OnVirtualMachineHostStatusChanged
 targetos: Windows
 req.typenames: 
 req.redist: 

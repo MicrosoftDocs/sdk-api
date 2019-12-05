@@ -1,19 +1,17 @@
 ---
 UID: NE:cfapi.CF_PLACEHOLDER_RANGE_INFO_CLASS
 title: CF_PLACEHOLDER_RANGE_INFO_CLASS (cfapi.h)
-
 description: Types of the range of placeholder file data.
 old-location: cloudapi\_cf_placeholder_range_info_class.htm
 tech.root: cfApi
 ms.assetid: 04533C98-894C-422F-9BE5-F2746BF13567
-
 ms.date: 12/05/2018
 ms.keywords: CF_PLACEHOLDER_RANGE_INFO_CLASS, CF_PLACEHOLDER_RANGE_INFO_CLASS enumeration, CF_PLACEHOLDER_RANGE_INFO_MODIFIED, CF_PLACEHOLDER_RANGE_INFO_ONDISK, CF_PLACEHOLDER_RANGE_INFO_VALIDATED, PCF_PLACEHOLDER_RANGE_INFO_CLASS, PCF_PLACEHOLDER_RANGE_INFO_CLASS enumeration pointer, cfapi/CF_PLACEHOLDER_RANGE_INFO_CLASS, cfapi/CF_PLACEHOLDER_RANGE_INFO_MODIFIED, cfapi/CF_PLACEHOLDER_RANGE_INFO_ONDISK, cfapi/CF_PLACEHOLDER_RANGE_INFO_VALIDATED, cfapi/PCF_PLACEHOLDER_RANGE_INFO_CLASS, cloudApi._cf_placeholder_range_info_class
 ms.topic: enum
-f1_keywords: 
- - "cfapi/CF_PLACEHOLDER_RANGE_INFO_CLASS"
+f1_keywords:
+- cfapi/CF_PLACEHOLDER_RANGE_INFO_CLASS
 dev_langs:
- - c++
+- c++
 req.header: cfapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - CfApi.h
+- CfApi.h
 api_name:
- - CF_PLACEHOLDER_RANGE_INFO_CLASS
+- CF_PLACEHOLDER_RANGE_INFO_CLASS
 targetos: Windows
 req.typenames: CF_PLACEHOLDER_RANGE_INFO_CLASS
 req.redist: 

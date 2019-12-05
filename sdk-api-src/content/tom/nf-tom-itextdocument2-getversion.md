@@ -1,19 +1,17 @@
 ---
 UID: NF:tom.ITextDocument2.GetVersion
 title: ITextDocument2::GetVersion (tom.h)
-
 description: Gets the version number of the Text Object Model (TOM) engine.
 old-location: controls\itextdocument2_getversion.htm
 tech.root: Controls
 ms.assetid: 4cc4502b-4e7c-4561-b7d4-a248bf248a8a
-
 ms.date: 12/05/2018
 ms.keywords: GetVersion, GetVersion method [Windows Controls], GetVersion method [Windows Controls],ITextDocument2 interface, ITextDocument2 interface [Windows Controls],GetVersion method, ITextDocument2.GetVersion, ITextDocument2::GetVersion, controls.itextdocument2_getversion, tom/ITextDocument2::GetVersion
 ms.topic: method
-f1_keywords: 
- - "tom/ITextDocument2.GetVersion"
+f1_keywords:
+- tom/ITextDocument2.GetVersion
 dev_langs:
- - c++
+- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msftedit.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msftedit.dll
+- Msftedit.dll
 api_name:
- - ITextDocument2.GetVersion
+- ITextDocument2.GetVersion
 targetos: Windows
 req.typenames: 
 req.redist: 

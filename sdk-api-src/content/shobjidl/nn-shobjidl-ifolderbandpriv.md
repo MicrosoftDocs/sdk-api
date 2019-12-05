@@ -1,19 +1,17 @@
 ---
 UID: NN:shobjidl.IFolderBandPriv
 title: IFolderBandPriv (shobjidl.h)
-
 description: IFolderBandPriv is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions.
 old-location: shell\IFolderBandPriv.htm
 tech.root: shell
 ms.assetid: d942a60d-aaac-4889-b74a-a8b4682ab619
-
 ms.date: 12/05/2018
 ms.keywords: IFolderBandPriv, IFolderBandPriv interface [Windows Shell], IFolderBandPriv interface [Windows Shell],described, _win32_IFolderBandPriv, shell.IFolderBandPriv, shobjidl/IFolderBandPriv
 ms.topic: interface
-f1_keywords: 
- - "shobjidl/IFolderBandPriv"
+f1_keywords:
+- shobjidl/IFolderBandPriv
 dev_langs:
- - c++
+- c++
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Shell32.dll (version 5.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - IFolderBandPriv
+- IFolderBandPriv
 targetos: Windows
 req.typenames: 
 req.redist: 

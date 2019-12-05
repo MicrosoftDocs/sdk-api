@@ -1,19 +1,17 @@
 ---
 UID: NF:clusapi.FailClusterResource
 title: FailClusterResource function (clusapi.h)
-
 description: Initiates a resource failure.
 old-location: mscs\failclusterresource.htm
 tech.root: MsCS
 ms.assetid: fcf0226e-4dd0-4c13-86eb-bc87e461234c
-
 ms.date: 12/05/2018
 ms.keywords: FailClusterResource, FailClusterResource function [Failover Cluster], PCLUSAPI_FAIL_CLUSTER_RESOURCE, PCLUSAPI_FAIL_CLUSTER_RESOURCE function [Failover Cluster], _wolf_failclusterresource, clusapi/FailClusterResource, clusapi/PCLUSAPI_FAIL_CLUSTER_RESOURCE, mscs.failclusterresource
 ms.topic: function
-f1_keywords: 
- - "clusapi/FailClusterResource"
+f1_keywords:
+- clusapi/FailClusterResource
 dev_langs:
- - c++
+- c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: ClusAPI.lib
 req.dll: ClusAPI.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - ClusAPI.dll
+- ClusAPI.dll
 api_name:
- - FailClusterResource
+- FailClusterResource
 targetos: Windows
 req.typenames: 
 req.redist: 

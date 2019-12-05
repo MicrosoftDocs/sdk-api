@@ -1,19 +1,17 @@
 ---
 UID: NF:ocidl.IPicture.get_hPal
 title: IPicture::get_hPal (ocidl.h)
-
 description: Retrieves a copy of the palette currently used by the picture object.
 old-location: com\ipicture_get_hpal.htm
 tech.root: com
 ms.assetid: 84887cb7-05b0-44cc-9772-117a598c1b94
-
 ms.date: 12/05/2018
 ms.keywords: IPicture interface [COM],get_hPal method, IPicture.get_hPal, IPicture::get_hPal, _ctrl_ipicture_get_hpal, com.ipicture_get_hpal, get_hPal, get_hPal method [COM], get_hPal method [COM],IPicture interface, ocidl/IPicture::get_hPal
 ms.topic: method
-f1_keywords: 
- - "ocidl/IPicture.get_hPal"
+f1_keywords:
+- ocidl/IPicture.get_hPal
 dev_langs:
- - c++
+- c++
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - OCIdl.h
+- OCIdl.h
 api_name:
- - IPicture.get_hPal
+- IPicture.get_hPal
 targetos: Windows
 req.typenames: 
 req.redist: 

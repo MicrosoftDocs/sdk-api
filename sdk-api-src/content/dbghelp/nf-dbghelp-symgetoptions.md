@@ -1,19 +1,17 @@
 ---
 UID: NF:dbghelp.SymGetOptions
 title: SymGetOptions function (dbghelp.h)
-
 description: Retrieves the current option mask.
 old-location: base\symgetoptions.htm
 tech.root: Debug
 ms.assetid: 3d9db826-1c4a-46d6-b007-c0dd5e6b17cc
-
 ms.date: 12/05/2018
 ms.keywords: SymGetOptions, SymGetOptions function, _win32_symgetoptions, base.symgetoptions, dbghelp/SymGetOptions
 ms.topic: function
-f1_keywords: 
- - "dbghelp/SymGetOptions"
+f1_keywords:
+- dbghelp/SymGetOptions
 dev_langs:
- - c++
+- c++
 req.header: dbghelp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dbghelp.lib
 req.dll: Dbghelp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Dbghelp.dll
+- Dbghelp.dll
 api_name:
- - SymGetOptions
+- SymGetOptions
 targetos: Windows
 req.typenames: 
 req.redist: DbgHelp.dll 5.1 or later

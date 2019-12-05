@@ -1,19 +1,17 @@
 ---
 UID: NF:wbemtime.WBEMTime.IsOk
 title: WBEMTime::IsOk (wbemtime.h)
-
 description: The IsOk method indicates whether the WBEMTime object represents a valid time.
 old-location: wmi\wbemtime_isok.htm
 tech.root: WmiSdk
 ms.assetid: e2d53db3-b247-40ac-9a8f-c6fef9f4e0d3
-
 ms.date: 12/05/2018
 ms.keywords: IsOk, IsOk method [Windows Management Instrumentation], IsOk method [Windows Management Instrumentation],WBEMTime interface, WBEMTime interface [Windows Management Instrumentation],IsOk method, WBEMTime.IsOk, WBEMTime::IsOk, _hmm_wbemtime_isok, wbemtime/WBEMTime::IsOk, wmi.wbemtime_isok
 ms.topic: method
-f1_keywords: 
- - "wbemtime/WBEMTime.IsOk"
+f1_keywords:
+- wbemtime/WBEMTime.IsOk
 dev_langs:
- - c++
+- c++
 req.header: wbemtime.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: FrameDynOS.dll; FrameDyn.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - FrameDynOS.dll
- - FrameDyn.dll
+- FrameDynOS.dll
+- FrameDyn.dll
 api_name:
- - WBEMTime.IsOk
+- WBEMTime.IsOk
 targetos: Windows
 req.typenames: 
 req.redist: 

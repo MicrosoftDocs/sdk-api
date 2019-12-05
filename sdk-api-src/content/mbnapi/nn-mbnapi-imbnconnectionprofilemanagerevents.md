@@ -1,19 +1,17 @@
 ---
 UID: NN:mbnapi.IMbnConnectionProfileManagerEvents
 title: IMbnConnectionProfileManagerEvents (mbnapi.h)
-
 description: This notification interface signals an application about the arrival and removal of IMbnConnectionProfile interfaces in the system.
 old-location: mbn\imbnconnectionprofilemanagerevents.htm
 tech.root: mbn
 ms.assetid: 08ec0bff-898f-4a54-b711-ceae80e7329d
-
 ms.date: 12/05/2018
 ms.keywords: IMbnConnectionProfileManagerEvents, IMbnConnectionProfileManagerEvents interface [Microsoft Broadband Networks], IMbnConnectionProfileManagerEvents interface [Microsoft Broadband Networks],described, mbn.imbnconnectionprofilemanagerevents, mbnapi/IMbnConnectionProfileManagerEvents
 ms.topic: interface
-f1_keywords: 
- - "mbnapi/IMbnConnectionProfileManagerEvents"
+f1_keywords:
+- mbnapi/IMbnConnectionProfileManagerEvents
 dev_langs:
- - c++
+- c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mbnapi.h
+- mbnapi.h
 api_name:
- - IMbnConnectionProfileManagerEvents
+- IMbnConnectionProfileManagerEvents
 targetos: Windows
 req.typenames: 
 req.redist: 

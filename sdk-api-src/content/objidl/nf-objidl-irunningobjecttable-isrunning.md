@@ -1,19 +1,17 @@
 ---
 UID: NF:objidl.IRunningObjectTable.IsRunning
 title: IRunningObjectTable::IsRunning (objidl.h)
-
 description: Determines whether the object identified by the specified moniker is currently running.
 old-location: com\irunningobjecttable_isrunning.htm
 tech.root: com
 ms.assetid: 44564e70-b157-4f60-9b51-337613f6a4c9
-
 ms.date: 12/05/2018
 ms.keywords: IRunningObjectTable interface [COM],IsRunning method, IRunningObjectTable.IsRunning, IRunningObjectTable::IsRunning, IsRunning, IsRunning method [COM], IsRunning method [COM],IRunningObjectTable interface, _com_irunningobjecttable_isrunning, com.irunningobjecttable_isrunning, objidl/IRunningObjectTable::IsRunning
 ms.topic: method
-f1_keywords: 
- - "objidl/IRunningObjectTable.IsRunning"
+f1_keywords:
+- objidl/IRunningObjectTable.IsRunning
 dev_langs:
- - c++
+- c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ObjIdl.h
+- ObjIdl.h
 api_name:
- - IRunningObjectTable.IsRunning
+- IRunningObjectTable.IsRunning
 targetos: Windows
 req.typenames: 
 req.redist: 

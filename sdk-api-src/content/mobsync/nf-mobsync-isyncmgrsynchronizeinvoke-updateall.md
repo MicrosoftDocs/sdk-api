@@ -1,19 +1,17 @@
 ---
 UID: NF:mobsync.ISyncMgrSynchronizeInvoke.UpdateAll
 title: ISyncMgrSynchronizeInvoke::UpdateAll (mobsync.h)
-
 description: Programmatically starts an update for all items.
 old-location: shell\syncmgr_isyncmgrsynchronizeinvoke_updateall.htm
 tech.root: shell
 ms.assetid: 94731c78-b7cf-4ad2-afe5-6355830a5550
-
 ms.date: 12/05/2018
 ms.keywords: ISyncMgrSynchronizeInvoke interface [Windows Shell],UpdateAll method, ISyncMgrSynchronizeInvoke.UpdateAll, ISyncMgrSynchronizeInvoke::UpdateAll, UpdateAll, UpdateAll method [Windows Shell], UpdateAll method [Windows Shell],ISyncMgrSynchronizeInvoke interface, mobsync/ISyncMgrSynchronizeInvoke::UpdateAll, shell.syncmgr_isyncmgrsynchronizeinvoke_updateall, syncmgr.isyncmgrsynchronizeinvoke_updateall
 ms.topic: method
-f1_keywords: 
- - "mobsync/ISyncMgrSynchronizeInvoke.UpdateAll"
+f1_keywords:
+- mobsync/ISyncMgrSynchronizeInvoke.UpdateAll
 dev_langs:
- - c++
+- c++
 req.header: mobsync.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Mobsync.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mobsync.dll
+- Mobsync.dll
 api_name:
- - ISyncMgrSynchronizeInvoke.UpdateAll
+- ISyncMgrSynchronizeInvoke.UpdateAll
 targetos: Windows
 req.typenames: 
 req.redist: 

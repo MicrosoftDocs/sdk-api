@@ -1,19 +1,17 @@
 ---
 UID: NS:winioctl._FILE_OBJECTID_BUFFER
 title: FILE_OBJECTID_BUFFER
-
 description: Contains an object identifier and user-defined metadata associated with the object identifier.
 old-location: fs\file_objectid_buffer_str.htm
 tech.root: FileIO
 ms.assetid: 4d58921c-a3ec-44f3-b077-528db6b1211c
-
 ms.date: 12/05/2018
-ms.keywords: "*PFILE_OBJECTID_BUFFER, FILE_OBJECTID_BUFFER, FILE_OBJECTID_BUFFER structure [Files], PFILE_OBJECTID_BUFFER, PFILE_OBJECTID_BUFFER structure pointer [Files], _win32_file_objectid_buffer_str, base.file_objectid_buffer_str, fs.file_objectid_buffer_str, winioctl/FILE_OBJECTID_BUFFER, winioctl/PFILE_OBJECTID_BUFFER"
+ms.keywords: '*PFILE_OBJECTID_BUFFER, FILE_OBJECTID_BUFFER, FILE_OBJECTID_BUFFER structure [Files], PFILE_OBJECTID_BUFFER, PFILE_OBJECTID_BUFFER structure pointer [Files], _win32_file_objectid_buffer_str, base.file_objectid_buffer_str, fs.file_objectid_buffer_str, winioctl/FILE_OBJECTID_BUFFER, winioctl/PFILE_OBJECTID_BUFFER'
 ms.topic: struct
-f1_keywords: 
- - "winioctl/FILE_OBJECTID_BUFFER"
+f1_keywords:
+- winioctl/FILE_OBJECTID_BUFFER
 dev_langs:
- - c++
+- c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WinIoCtl.h
+- WinIoCtl.h
 api_name:
- - FILE_OBJECTID_BUFFER
+- FILE_OBJECTID_BUFFER
 targetos: Windows
 req.typenames: FILE_OBJECTID_BUFFER, *PFILE_OBJECTID_BUFFER
 req.redist: 

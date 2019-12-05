@@ -1,19 +1,17 @@
 ---
 UID: NF:peninputpanel.ITextInputPanel.SetInPlacePosition
 title: ITextInputPanel::SetInPlacePosition (peninputpanel.h)
-
 description: Explicitly positions the Tablet PC Input Panel in screen coordinates.
 old-location: tablet\itextinputpanel_setinplaceposition.htm
 tech.root: tablet
 ms.assetid: 49bb1a89-7064-4822-866f-739434043869
-
 ms.date: 12/05/2018
 ms.keywords: 49bb1a89-7064-4822-866f-739434043869, ITextInputPanel interface [Tablet PC],SetInPlacePosition method, ITextInputPanel.SetInPlacePosition, ITextInputPanel::SetInPlacePosition, SetInPlacePosition, SetInPlacePosition method [Tablet PC], SetInPlacePosition method [Tablet PC],ITextInputPanel interface, peninputpanel/ITextInputPanel::SetInPlacePosition, tablet.itextinputpanel_setinplaceposition
 ms.topic: method
-f1_keywords: 
- - "peninputpanel/ITextInputPanel.SetInPlacePosition"
+f1_keywords:
+- peninputpanel/ITextInputPanel.SetInPlacePosition
 dev_langs:
- - c++
+- c++
 req.header: peninputpanel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Tiptsf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - tiptsf.dll
+- tiptsf.dll
 api_name:
- - ITextInputPanel.SetInPlacePosition
+- ITextInputPanel.SetInPlacePosition
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:xenroll.IEnroll.get_GenKeyFlags
 title: IEnroll::get_GenKeyFlags (xenroll.h)
-
 description: Sets or retrieves the values passed to CryptGenKey when the certificate request is generated.
 old-location: security\ienroll4_genkeyflags.htm
 tech.root: SecCrypto
 ms.assetid: 6dac3321-9dca-4b7d-8432-e8124bd51db7
-
 ms.date: 12/05/2018
 ms.keywords: GenKeyFlags property [Security], GenKeyFlags property [Security],IEnroll interface, IEnroll interface [Security],GenKeyFlags property, IEnroll.GenKeyFlags, IEnroll.get_GenKeyFlags, IEnroll::GenKeyFlags, IEnroll::get_GenKeyFlags, IEnroll::put_GenKeyFlags, get_GenKeyFlags, security.ienroll4_genkeyflags, xenroll/IEnroll::GenKeyFlags, xenroll/IEnroll::get_GenKeyFlags, xenroll/IEnroll::put_GenKeyFlags
 ms.topic: method
-f1_keywords: 
- - "xenroll/IEnroll.GenKeyFlags"
+f1_keywords:
+- xenroll/IEnroll.GenKeyFlags
 dev_langs:
- - c++
+- c++
 req.header: xenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Uuid.lib
 req.dll: Xenroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Xenroll.dll
+- Xenroll.dll
 api_name:
- - IEnroll.GenKeyFlags
- - IEnroll.get_GenKeyFlags
- - IEnroll.put_GenKeyFlags
+- IEnroll.GenKeyFlags
+- IEnroll.get_GenKeyFlags
+- IEnroll.put_GenKeyFlags
 targetos: Windows
 req.typenames: 
 req.redist: 

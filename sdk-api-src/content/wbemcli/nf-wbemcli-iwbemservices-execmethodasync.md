@@ -1,19 +1,17 @@
 ---
 UID: NF:wbemcli.IWbemServices.ExecMethodAsync
 title: IWbemServices::ExecMethodAsync (wbemcli.h)
-
 description: Asynchronously executes a method exported by a CIM object.
 old-location: wmi\iwbemservices_execmethodasync.htm
 tech.root: WmiSdk
 ms.assetid: 61966c03-80dc-4556-b2fc-97e879cf458c
-
 ms.date: 12/05/2018
 ms.keywords: ExecMethodAsync, ExecMethodAsync method [Windows Management Instrumentation], ExecMethodAsync method [Windows Management Instrumentation],IWbemServices interface, IWbemServices interface [Windows Management Instrumentation],ExecMethodAsync method, IWbemServices.ExecMethodAsync, IWbemServices::ExecMethodAsync, _hmm_iwbemservices_execmethodasync, wbemcli/IWbemServices::ExecMethodAsync, wmi.iwbemservices_execmethodasync
 ms.topic: method
-f1_keywords: 
- - "wbemcli/IWbemServices.ExecMethodAsync"
+f1_keywords:
+- wbemcli/IWbemServices.ExecMethodAsync
 dev_langs:
- - c++
+- c++
 req.header: wbemcli.h
 req.include-header: Wbemidl.h
 req.target-type: Windows
@@ -32,28 +30,28 @@ req.lib: Wbemuuid.lib
 req.dll: Fastprox.dll; Esscli.dll; FrameDyn.dll; FrameDynOS.dll; Ntevt.dll; Stdprov.dll; Viewprov.dll; Wbemcomn.dll; Wbemcore.dll; Wbemess.dll; Wbemsvc.dll; Wmipicmp.dll; Wmidcprv.dll; Wmipjobj.dll; Wmiprvsd.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Fastprox.dll
- - Esscli.dll
- - FrameDyn.dll
- - FrameDynOS.dll
- - Ntevt.dll
- - Stdprov.dll
- - Viewprov.dll
- - Wbemcomn.dll
- - Wbemcore.dll
- - Wbemess.dll
- - Wbemsvc.dll
- - Wmipicmp.dll
- - Wmidcprv.dll
- - Wmipjobj.dll
- - Wmiprvsd.dll
+- Fastprox.dll
+- Esscli.dll
+- FrameDyn.dll
+- FrameDynOS.dll
+- Ntevt.dll
+- Stdprov.dll
+- Viewprov.dll
+- Wbemcomn.dll
+- Wbemcore.dll
+- Wbemess.dll
+- Wbemsvc.dll
+- Wmipicmp.dll
+- Wmidcprv.dll
+- Wmipjobj.dll
+- Wmiprvsd.dll
 api_name:
- - IWbemServices.ExecMethodAsync
+- IWbemServices.ExecMethodAsync
 targetos: Windows
 req.typenames: 
 req.redist: 

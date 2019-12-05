@@ -1,19 +1,17 @@
 ---
 UID: NE:codecapi.eAVEncMPVFrameFieldMode
 title: eAVEncMPVFrameFieldMode (codecapi.h)
-
 description: Specifies whether the encoder produces encoded fields or encoded frames. This enumeration is used with the AVEncMPVFrameFieldMode property.
 old-location: dshow\eavencmpvframefieldmode.htm
 tech.root: DirectShow
 ms.assetid: 4e1d683c-cbeb-4e40-a8d2-484d09323cb9
-
 ms.date: 12/05/2018
 ms.keywords: codecapi/eAVEncMPVFrameFieldMode, codecapi/eAVEncMPVFrameFieldMode_FieldMode, codecapi/eAVEncMPVFrameFieldMode_FrameMode, dshow.eavencmpvframefieldmode, eAVEncMPVFrameFieldMode, eAVEncMPVFrameFieldMode enumeration [DirectShow], eAVEncMPVFrameFieldModeEnumeration, eAVEncMPVFrameFieldMode_FieldMode, eAVEncMPVFrameFieldMode_FrameMode
 ms.topic: enum
-f1_keywords: 
- - "codecapi/eAVEncMPVFrameFieldMode"
+f1_keywords:
+- codecapi/eAVEncMPVFrameFieldMode
 dev_langs:
- - c++
+- c++
 req.header: codecapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - codecapi.h
+- codecapi.h
 api_name:
- - eAVEncMPVFrameFieldMode
+- eAVEncMPVFrameFieldMode
 targetos: Windows
 req.typenames: 
 req.redist: 

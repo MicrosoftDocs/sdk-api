@@ -1,19 +1,17 @@
 ---
 UID: NF:wmp.IWMPNetwork.put_bufferingTime
 title: IWMPNetwork::put_bufferingTime (wmp.h)
-
 description: The put_bufferingTime method specifies the amount of time in milliseconds allocated for buffering incoming data before playing begins.
 old-location: wmp\iwmpnetwork_put_bufferingtime.htm
 tech.root: WMP
 ms.assetid: 9f25992f-e3a0-477b-b445-1f3fb7d9eae1
-
 ms.date: 12/05/2018
 ms.keywords: IWMPNetwork interface [Windows Media Player],put_bufferingTime method, IWMPNetwork.put_bufferingTime, IWMPNetwork::put_bufferingTime, IWMPNetworkput_bufferingTime, put_bufferingTime, put_bufferingTime method [Windows Media Player], put_bufferingTime method [Windows Media Player],IWMPNetwork interface, wmp.iwmpnetwork_put_bufferingtime, wmp/IWMPNetwork::put_bufferingTime
 ms.topic: method
-f1_keywords: 
- - "wmp/IWMPNetwork.put_bufferingTime"
+f1_keywords:
+- wmp/IWMPNetwork.put_bufferingTime
 dev_langs:
- - c++
+- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wmp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmp.dll
+- wmp.dll
 api_name:
- - IWMPNetwork.put_bufferingTime
+- IWMPNetwork.put_bufferingTime
 targetos: Windows
 req.typenames: 
 req.redist: 

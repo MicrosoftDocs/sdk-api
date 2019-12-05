@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d10effect.ID3D10EffectBlendVariable.GetBlendState
 title: ID3D10EffectBlendVariable::GetBlendState (d3d10effect.h)
-
 description: Get a pointer to a blend-state interface.
 old-location: direct3d10\id3d10effectblendvariable_getblendstate.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10effectblendvariable_getblendstate.htm
-
 ms.date: 12/05/2018
 ms.keywords: 23f9d59f-d37d-7bdf-874c-f23d35773bb5, GetBlendState, GetBlendState method [Direct3D 10], GetBlendState method [Direct3D 10],ID3D10EffectBlendVariable interface, ID3D10EffectBlendVariable interface [Direct3D 10],GetBlendState method, ID3D10EffectBlendVariable.GetBlendState, ID3D10EffectBlendVariable::GetBlendState, d3d10effect/ID3D10EffectBlendVariable::GetBlendState, direct3d10.id3d10effectblendvariable_getblendstate
 ms.topic: method
-f1_keywords: 
- - "d3d10effect/ID3D10EffectBlendVariable.GetBlendState"
+f1_keywords:
+- d3d10effect/ID3D10EffectBlendVariable.GetBlendState
 dev_langs:
- - c++
+- c++
 req.header: d3d10effect.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D10Effect.h
+- D3D10Effect.h
 api_name:
- - ID3D10EffectBlendVariable.GetBlendState
+- ID3D10EffectBlendVariable.GetBlendState
 targetos: Windows
 req.typenames: 
 req.redist: 

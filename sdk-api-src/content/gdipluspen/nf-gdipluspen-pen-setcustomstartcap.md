@@ -1,19 +1,17 @@
 ---
 UID: NF:gdipluspen.Pen.SetCustomStartCap
 title: Pen::SetCustomStartCap (gdipluspen.h)
-
 description: The Pen::SetCustomStartCap method sets the custom start cap for this Pen object.
 old-location: gdiplus\_gdiplus_CLASS_Pen_SetCustomStartCap_customCap_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\penclass\penmethods\setcustomstartcap.htm
-
 ms.date: 12/05/2018
 ms.keywords: Pen class [GDI+],SetCustomStartCap method, Pen.SetCustomStartCap, Pen::SetCustomStartCap, SetCustomStartCap, SetCustomStartCap method [GDI+], SetCustomStartCap method [GDI+],Pen class, _gdiplus_CLASS_Pen_SetCustomStartCap_customCap_, gdiplus._gdiplus_CLASS_Pen_SetCustomStartCap_customCap_
 ms.topic: method
-f1_keywords: 
- - "gdipluspen/Pen.SetCustomStartCap"
+f1_keywords:
+- gdipluspen/Pen.SetCustomStartCap
 dev_langs:
- - c++
+- c++
 req.header: gdipluspen.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - Pen.SetCustomStartCap
+- Pen.SetCustomStartCap
 targetos: Windows
 req.typenames: 
 req.redist: 

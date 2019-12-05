@@ -1,19 +1,17 @@
 ---
 UID: NF:ip2string.RtlIpv4StringToAddressExW
 title: RtlIpv4StringToAddressExW function (ip2string.h)
-
 description: Converts a string representation of an IPv4 address and port number to a binary IPv4 address and port.
 old-location: iphlp\rtlipv4stringtoaddressex.htm
 tech.root: IpHlp
 ms.assetid: 72d20cf0-38ff-4c00-93ec-949aaf6f96e2
-
 ms.date: 12/05/2018
 ms.keywords: RtlIpv4StringToAddressEx, RtlIpv4StringToAddressEx function [IP Helper], RtlIpv4StringToAddressExW, ip2string/RtlIpv4StringToAddressEx, ip2string/RtlIpv4StringToAddressExW, iphlp.rtlipv4stringtoaddressex
 ms.topic: function
-f1_keywords: 
- - "ip2string/RtlIpv4StringToAddressEx"
+f1_keywords:
+- ip2string/RtlIpv4StringToAddressEx
 dev_langs:
- - c++
+- c++
 req.header: ip2string.h
 req.include-header: Mstcpip.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: Ntdll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ntdll.dll
+- Ntdll.dll
 api_name:
- - RtlIpv4StringToAddressEx
- - RtlIpv4StringToAddressEx
- - RtlIpv4StringToAddressExW
+- RtlIpv4StringToAddressEx
+- RtlIpv4StringToAddressEx
+- RtlIpv4StringToAddressExW
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:vds.IVdsMaintenance.StopMaintenance
 title: IVdsMaintenance::StopMaintenance (vds.h)
-
 description: Stops a maintenance operation.
 old-location: base\ivdsmaintenance_stopmaintenance.htm
 tech.root: VDS
 ms.assetid: 542f84d7-eb97-4738-b7c0-1c95bc5e063c
-
 ms.date: 12/05/2018
 ms.keywords: IVdsMaintenance interface [VDS],StopMaintenance method, IVdsMaintenance.StopMaintenance, IVdsMaintenance::StopMaintenance, StopMaintenance, StopMaintenance method [VDS], StopMaintenance method [VDS],IVdsMaintenance interface, base.ivdsmaintenance_stopmaintenance, vds/IVdsMaintenance::StopMaintenance, vdshwprv/IVdsMaintenance::StopMaintenance
 ms.topic: method
 f1_keywords:
 - vds/IVdsMaintenance.StopMaintenance
 dev_langs:
- - c++
+- c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

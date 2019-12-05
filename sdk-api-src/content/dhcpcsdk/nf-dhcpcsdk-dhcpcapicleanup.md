@@ -1,19 +1,17 @@
 ---
 UID: NF:dhcpcsdk.DhcpCApiCleanup
 title: DhcpCApiCleanup function (dhcpcsdk.h)
-
 description: The DhcpCApiCleanup function enables DHCP to properly clean up resources allocated throughout the use of DHCP function calls. The DhcpCApiCleanup function must only be called if a previous call to DhcpCApiInitialize executed successfully.
 old-location: dhcp\dhcpcapicleanup.htm
 tech.root: DHCP
 ms.assetid: c1da731c-2e06-40ae-b104-25f144d50c36
-
 ms.date: 12/05/2018
 ms.keywords: DhcpCApiCleanup, DhcpCApiCleanup function [DHCP], _dhcp_dhcpcapicleanup, dhcp.dhcpcapicleanup, dhcpcsdk/DhcpCApiCleanup
 ms.topic: function
-f1_keywords: 
- - "dhcpcsdk/DhcpCApiCleanup"
+f1_keywords:
+- dhcpcsdk/DhcpCApiCleanup
 dev_langs:
- - c++
+- c++
 req.header: dhcpcsdk.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dhcpcsvc.lib
 req.dll: Dhcpcsvc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Dhcpcsvc.dll
+- Dhcpcsvc.dll
 api_name:
- - DhcpCApiCleanup
+- DhcpCApiCleanup
 targetos: Windows
 req.typenames: 
 req.redist: 

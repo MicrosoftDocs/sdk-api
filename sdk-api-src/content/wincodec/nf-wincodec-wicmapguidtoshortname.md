@@ -1,19 +1,17 @@
 ---
 UID: NF:wincodec.WICMapGuidToShortName
 title: WICMapGuidToShortName function (wincodec.h)
-
 description: Obtains the short name associated with a given GUID.
 old-location: wic\_wic_codec_wicmapguidtoshortname.htm
 tech.root: wic
 ms.assetid: ae1e4680-2c20-4a3e-b931-206d26f4d09c
-
 ms.date: 12/05/2018
 ms.keywords: WICMapGuidToShortName, WICMapGuidToShortName function [Windows Imaging Component], _wic_codec_wicmapguidtoshortname, wic._wic_codec_wicmapguidtoshortname, wincodec/WICMapGuidToShortName
 ms.topic: function
-f1_keywords: 
- - "wincodec/WICMapGuidToShortName"
+f1_keywords:
+- wincodec/WICMapGuidToShortName
 dev_langs:
- - c++
+- c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: WindowsCodecs.lib
 req.dll: WindowsCodecs.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - WindowsCodecs.dll
+- WindowsCodecs.dll
 api_name:
- - WICMapGuidToShortName
+- WICMapGuidToShortName
 targetos: Windows
 req.typenames: 
 req.redist: 

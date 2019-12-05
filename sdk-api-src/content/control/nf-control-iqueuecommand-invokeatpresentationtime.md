@@ -1,19 +1,17 @@
 ---
 UID: NF:control.IQueueCommand.InvokeAtPresentationTime
 title: IQueueCommand::InvokeAtPresentationTime (control.h)
-
 description: The InvokeAtPresentationTime method queues a method to be invoked at the specified presentation time.
 old-location: dshow\iqueuecommand_invokeatpresentationtime.htm
 tech.root: DirectShow
 ms.assetid: 95255a18-d6e3-4970-90cb-c87629560ff6
-
 ms.date: 12/05/2018
 ms.keywords: IQueueCommand interface [DirectShow],InvokeAtPresentationTime method, IQueueCommand.InvokeAtPresentationTime, IQueueCommand::InvokeAtPresentationTime, IQueueCommandInvokeAtPresentationTime, InvokeAtPresentationTime, InvokeAtPresentationTime method [DirectShow], InvokeAtPresentationTime method [DirectShow],IQueueCommand interface, control/IQueueCommand::InvokeAtPresentationTime, dshow.iqueuecommand_invokeatpresentationtime
 ms.topic: method
-f1_keywords: 
- - "control/IQueueCommand.InvokeAtPresentationTime"
+f1_keywords:
+- control/IQueueCommand.InvokeAtPresentationTime
 dev_langs:
- - c++
+- c++
 req.header: control.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IQueueCommand.InvokeAtPresentationTime
+- IQueueCommand.InvokeAtPresentationTime
 targetos: Windows
 req.typenames: 
 req.redist: 

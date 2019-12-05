@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d11.ID3D11VideoProcessorEnumerator.GetVideoProcessorFilterRange
 title: ID3D11VideoProcessorEnumerator::GetVideoProcessorFilterRange (d3d11.h)
-
 description: Gets the range of values for an image filter.
 old-location: mf\id3d11videoprocessorenumerator_getvideoprocessorfilterrange.htm
 tech.root: medfound
 ms.assetid: F43A01D7-A0FE-4509-B3B2-094B09A7F04A
-
 ms.date: 12/05/2018
 ms.keywords: GetVideoProcessorFilterRange, GetVideoProcessorFilterRange method [Media Foundation], GetVideoProcessorFilterRange method [Media Foundation],ID3D11VideoProcessorEnumerator interface, ID3D11VideoProcessorEnumerator interface [Media Foundation],GetVideoProcessorFilterRange method, ID3D11VideoProcessorEnumerator.GetVideoProcessorFilterRange, ID3D11VideoProcessorEnumerator::GetVideoProcessorFilterRange, d3d11/ID3D11VideoProcessorEnumerator::GetVideoProcessorFilterRange, mf.id3d11videoprocessorenumerator_getvideoprocessorfilterrange
 ms.topic: method
-f1_keywords: 
- - "d3d11/ID3D11VideoProcessorEnumerator.GetVideoProcessorFilterRange"
+f1_keywords:
+- d3d11/ID3D11VideoProcessorEnumerator.GetVideoProcessorFilterRange
 dev_langs:
- - c++
+- c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - d3d11.h
+- d3d11.h
 api_name:
- - ID3D11VideoProcessorEnumerator.GetVideoProcessorFilterRange
+- ID3D11VideoProcessorEnumerator.GetVideoProcessorFilterRange
 targetos: Windows
 req.typenames: 
 req.redist: 

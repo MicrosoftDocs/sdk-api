@@ -1,19 +1,17 @@
 ---
 UID: NF:vds.IVdsServiceIscsi.SetAllIpsecSecurity
 title: IVdsServiceIscsi::SetAllIpsecSecurity (vds.h)
-
 description: Not supported.
 old-location: base\ivdsserviceiscsi_setallipsecsecurity.htm
 tech.root: VDS
 ms.assetid: d76be416-c5e2-4b53-a1ff-0a27418c151e
-
 ms.date: 12/05/2018
 ms.keywords: IVdsServiceIscsi interface [VDS],SetAllIpsecSecurity method, IVdsServiceIscsi.SetAllIpsecSecurity, IVdsServiceIscsi::SetAllIpsecSecurity, SetAllIpsecSecurity, SetAllIpsecSecurity method [VDS], SetAllIpsecSecurity method [VDS],IVdsServiceIscsi interface, base.ivdsserviceiscsi_setallipsecsecurity, vds/IVdsServiceIscsi::SetAllIpsecSecurity
 ms.topic: method
-f1_keywords: 
- - "vds/IVdsServiceIscsi.SetAllIpsecSecurity"
+f1_keywords:
+- vds/IVdsServiceIscsi.SetAllIpsecSecurity
 dev_langs:
- - c++
+- c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Uuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Uuid.lib
- - Uuid.dll
+- Uuid.lib
+- Uuid.dll
 api_name:
- - IVdsServiceIscsi.SetAllIpsecSecurity
+- IVdsServiceIscsi.SetAllIpsecSecurity
 targetos: Windows
 req.typenames: 
 req.redist: VDS 1.1

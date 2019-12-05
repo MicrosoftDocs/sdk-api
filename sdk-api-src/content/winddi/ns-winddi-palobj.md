@@ -1,19 +1,17 @@
 ---
 UID: NS:winddi._PALOBJ
 title: PALOBJ (winddi.h)
-
 description: The PALOBJ structure is a user object that represents an indexed color palette.
 old-location: display\palobj.htm
 tech.root: display
 ms.assetid: 7c126067-eff8-4387-9fa7-2cde60796471
-
 ms.date: 12/05/2018
 ms.keywords: PALOBJ, PALOBJ structure [Display Devices], display.palobj, grstrcts_5f0545f6-cfea-466c-8a61-4ff3be44fc72.xml, winddi/PALOBJ
 ms.topic: struct
-f1_keywords: 
- - "winddi/PALOBJ"
+f1_keywords:
+- winddi/PALOBJ
 dev_langs:
- - c++
+- c++
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - winddi.h
+- winddi.h
 api_name:
- - PALOBJ
+- PALOBJ
 targetos: Windows
 req.typenames: PALOBJ
 req.redist: 

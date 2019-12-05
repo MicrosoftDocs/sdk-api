@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IShellLinkDataList.SetFlags
 title: IShellLinkDataList::SetFlags (shobjidl_core.h)
-
 description: Sets the current option settings.
 old-location: shell\IShellLinkDataList_SetFlags.htm
 tech.root: shell
 ms.assetid: 0fca6394-e8ad-4ef3-a7d8-60e85229556b
-
 ms.date: 12/05/2018
 ms.keywords: IShellLinkDataList interface [Windows Shell],SetFlags method, IShellLinkDataList.SetFlags, IShellLinkDataList::SetFlags, SetFlags, SetFlags method [Windows Shell], SetFlags method [Windows Shell],IShellLinkDataList interface, _win32_IShellLinkDataList_SetFlags, shell.IShellLinkDataList_SetFlags, shobjidl_core/IShellLinkDataList::SetFlags
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IShellLinkDataList.SetFlags"
+f1_keywords:
+- shobjidl_core/IShellLinkDataList.SetFlags
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Shell32.dll (version 5.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - IShellLinkDataList.SetFlags
+- IShellLinkDataList.SetFlags
 targetos: Windows
 req.typenames: 
 req.redist: 

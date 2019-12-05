@@ -1,19 +1,17 @@
 ---
 UID: NF:oleauto.VarDecCmp
 title: VarDecCmp function (oleauto.h)
-
 description: Compares two variants of type decimal.
 old-location: automat\vardeccmp.htm
 tech.root: automat
 ms.assetid: ebb418c0-c15d-42c2-88a3-1ffcd36a2750
-
 ms.date: 12/05/2018
 ms.keywords: VarDecCmp, VarDecCmp function [Automation], _oa96_VarDecCmp, automat.vardeccmp, oleauto/VarDecCmp
 ms.topic: function
-f1_keywords: 
- - "oleauto/VarDecCmp"
+f1_keywords:
+- oleauto/VarDecCmp
 dev_langs:
- - c++
+- c++
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: OleAut32.lib
 req.dll: OleAut32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - OleAut32.dll
+- OleAut32.dll
 api_name:
- - VarDecCmp
+- VarDecCmp
 targetos: Windows
 req.typenames: 
 req.redist: 

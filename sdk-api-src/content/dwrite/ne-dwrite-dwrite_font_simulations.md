@@ -1,19 +1,17 @@
 ---
 UID: NE:dwrite.DWRITE_FONT_SIMULATIONS
 title: DWRITE_FONT_SIMULATIONS (dwrite.h)
-
 description: Specifies algorithmic style simulations to be applied to the font face. Bold and oblique simulations can be combined via bitwise OR operation.
 old-location: directwrite\dwrite_font_simulations.htm
 tech.root: DirectWrite
 ms.assetid: 0881afec-2fa5-4f17-96a2-68a5293e0bba
-
 ms.date: 12/05/2018
 ms.keywords: DWRITE_FONT_SIMULATIONS, DWRITE_FONT_SIMULATIONS enumeration [Direct Write], DWRITE_FONT_SIMULATIONS_BOLD, DWRITE_FONT_SIMULATIONS_NONE, DWRITE_FONT_SIMULATIONS_OBLIQUE, directwrite.dwrite_font_simulations, dwrite/DWRITE_FONT_SIMULATIONS, dwrite/DWRITE_FONT_SIMULATIONS_BOLD, dwrite/DWRITE_FONT_SIMULATIONS_NONE, dwrite/DWRITE_FONT_SIMULATIONS_OBLIQUE
 ms.topic: enum
-f1_keywords: 
- - "dwrite/DWRITE_FONT_SIMULATIONS"
+f1_keywords:
+- dwrite/DWRITE_FONT_SIMULATIONS
 dev_langs:
- - c++
+- c++
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - dwrite.h
+- dwrite.h
 api_name:
- - DWRITE_FONT_SIMULATIONS
+- DWRITE_FONT_SIMULATIONS
 targetos: Windows
 req.typenames: 
 req.redist: 

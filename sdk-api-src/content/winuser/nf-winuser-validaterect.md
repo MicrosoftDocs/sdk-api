@@ -1,19 +1,17 @@
 ---
 UID: NF:winuser.ValidateRect
 title: ValidateRect function (winuser.h)
-
 description: The ValidateRect function validates the client area within a rectangle by removing the rectangle from the update region of the specified window.
 old-location: gdi\validaterect.htm
 tech.root: gdi
 ms.assetid: 961dd768-1849-44df-bc7f-480881ed6477
-
 ms.date: 12/05/2018
 ms.keywords: ValidateRect, ValidateRect function [Windows GDI], _win32_ValidateRect, gdi.validaterect, winuser/ValidateRect
 ms.topic: function
-f1_keywords: 
- - "winuser/ValidateRect"
+f1_keywords:
+- winuser/ValidateRect
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - user32.dll
- - Ext-MS-Win-NTUser-Draw-l1-1-0.dll
- - Ext-MS-Win-NTUser-Draw-l1-1-1.dll
- - ext-ms-win-ntuser-draw-l1-1-2.dll
+- user32.dll
+- Ext-MS-Win-NTUser-Draw-l1-1-0.dll
+- Ext-MS-Win-NTUser-Draw-l1-1-1.dll
+- ext-ms-win-ntuser-draw-l1-1-2.dll
 api_name:
- - ValidateRect
+- ValidateRect
 targetos: Windows
 req.typenames: 
 req.redist: 

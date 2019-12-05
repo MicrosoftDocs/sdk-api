@@ -1,19 +1,17 @@
 ---
 UID: NF:control.IBasicVideo.get_SourceLeft
 title: IBasicVideo::get_SourceLeft (control.h)
-
 description: The get_SourceLeft method retrieves the x-coordinate of the source rectangle.
 old-location: dshow\ibasicvideo_get_sourceleft.htm
 tech.root: DirectShow
 ms.assetid: 1ea64dae-d643-44c1-9026-f9b0dcd25ef1
-
 ms.date: 12/05/2018
 ms.keywords: IBasicVideo interface [DirectShow],get_SourceLeft method, IBasicVideo.get_SourceLeft, IBasicVideo::get_SourceLeft, IBasicVideoget_SourceLeft, control/IBasicVideo::get_SourceLeft, dshow.ibasicvideo_get_sourceleft, get_SourceLeft, get_SourceLeft method [DirectShow], get_SourceLeft method [DirectShow],IBasicVideo interface
 ms.topic: method
-f1_keywords: 
- - "control/IBasicVideo.get_SourceLeft"
+f1_keywords:
+- control/IBasicVideo.get_SourceLeft
 dev_langs:
- - c++
+- c++
 req.header: control.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IBasicVideo.get_SourceLeft
+- IBasicVideo.get_SourceLeft
 targetos: Windows
 req.typenames: 
 req.redist: 

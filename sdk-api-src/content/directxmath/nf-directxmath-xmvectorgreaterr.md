@@ -1,19 +1,17 @@
 ---
 UID: NF:directxmath.XMVectorGreaterR
 title: XMVectorGreaterR function (directxmath.h)
-
 description: Performs a per-component test for greater-than between two vectors and sets a comparison value that can be examined using functions such as XMComparisonAllTrue.
 old-location: dxmath\xmvectorgreaterr.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.comparison.XMVectorGreaterR(uint32_t@,XMVECTOR,XMVECTOR)
-
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMVectorGreaterR, XMVectorGreaterR, XMVectorGreaterR method [DirectX Math Support APIs], dxmath.xmvectorgreaterr
 ms.topic: function
-f1_keywords: 
- - "directxmath/XMVectorGreaterR"
+f1_keywords:
+- directxmath/XMVectorGreaterR
 dev_langs:
- - c++
+- c++
 req.header: directxmath.h
 req.include-header: DirectXMath.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - directxmathvector.inl
+- directxmathvector.inl
 api_name:
- - XMVectorGreaterR
+- XMVectorGreaterR
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:wmsdkidl.IWMDeviceRegistration.RegisterDevice
 title: IWMDeviceRegistration::RegisterDevice (wmsdkidl.h)
-
 description: The RegisterDevice method adds a device to the device list.
 old-location: wmformat\iwmdeviceregistration_registerdevice.htm
 tech.root: wmformat
 ms.assetid: cdce6941-dac9-4de5-8230-904c26e82642
-
 ms.date: 12/05/2018
 ms.keywords: IWMDeviceRegistration interface [windows Media Format],RegisterDevice method, IWMDeviceRegistration.RegisterDevice, IWMDeviceRegistration::RegisterDevice, IWMDeviceRegistrationRegisterDevice, RegisterDevice, RegisterDevice method [windows Media Format], RegisterDevice method [windows Media Format],IWMDeviceRegistration interface, wmformat.iwmdeviceregistration_registerdevice, wmsdkidl/IWMDeviceRegistration::RegisterDevice
 ms.topic: method
 f1_keywords:
 - wmsdkidl/IWMDeviceRegistration.RegisterDevice
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

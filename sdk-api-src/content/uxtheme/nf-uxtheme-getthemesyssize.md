@@ -1,19 +1,17 @@
 ---
 UID: NF:uxtheme.GetThemeSysSize
 title: GetThemeSysSize function (uxtheme.h)
-
 description: Retrieves the value of a system size metric from theme data.
 old-location: controls\GetThemeSysSize.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\userex\functions\getthemesyssize.htm
-
 ms.date: 12/05/2018
 ms.keywords: GetThemeSysSize, GetThemeSysSize function [Windows Controls], SM_CXBORDER, SM_CXHSCROLL, SM_CXMENUSIZE, SM_CXPADDEDBORDER, SM_CXSIZE, SM_CXSMSIZE, SM_CXVSCROLL, SM_CYMENUSIZE, SM_CYSIZE, SM_CYSMSIZE, controls.GetThemeSysSize, controls.inet_GetThemeSysSize, inet_GetThemeSysSize, inet_GetThemeSysSize_cpp, uxtheme/GetThemeSysSize
 ms.topic: function
-f1_keywords: 
- - "uxtheme/GetThemeSysSize"
+f1_keywords:
+- uxtheme/GetThemeSysSize
 dev_langs:
- - c++
+- c++
 req.header: uxtheme.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: UxTheme.lib
 req.dll: UxTheme.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - UxTheme.dll
+- UxTheme.dll
 api_name:
- - GetThemeSysSize
+- GetThemeSysSize
 targetos: Windows
 req.typenames: 
 req.redist: 

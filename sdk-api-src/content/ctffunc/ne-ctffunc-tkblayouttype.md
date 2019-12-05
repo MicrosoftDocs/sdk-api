@@ -1,19 +1,17 @@
 ---
 UID: NE:ctffunc.__MIDL_ITfFnGetPreferredTouchKeyboardLayout_0001
 title: TKBLayoutType (ctffunc.h)
-
 description: Elements of the TKBLayoutType enumeration are passed by an IME in a call to ITfFnGetPreferredTouchKeyboardLayout::GetLayout to specify the type of layout.
 old-location: tsf\tkblayouttype.htm
 tech.root: TSF
 ms.assetid: 65C46775-9D4D-4C80-A5F0-6713C805053D
-
 ms.date: 12/05/2018
 ms.keywords: TKBLT_CLASSIC, TKBLT_OPTIMIZED, TKBLT_UNDEFINED, TKBLayoutType, TKBLayoutType enumeration [Text Services Framework], ctffunc/TKBLT_CLASSIC, ctffunc/TKBLT_OPTIMIZED, ctffunc/TKBLT_UNDEFINED, ctffunc/TKBLayoutType, tsf.tkblayouttype
 ms.topic: enum
-f1_keywords: 
- - "ctffunc/TKBLayoutType"
+f1_keywords:
+- ctffunc/TKBLayoutType
 dev_langs:
- - c++
+- c++
 req.header: ctffunc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Ctffunc.h
+- Ctffunc.h
 api_name:
- - TKBLayoutType
+- TKBLayoutType
 targetos: Windows
 req.typenames: TKBLayoutType
 req.redist: 

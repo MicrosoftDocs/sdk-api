@@ -1,19 +1,17 @@
 ---
 UID: NF:ntdsapi.DsListRolesA
 title: DsListRolesA function (ntdsapi.h)
-
 description: The DsListRoles function lists roles recognized by the server.
 old-location: ad\dslistroles.htm
 tech.root: ad
 ms.assetid: 679a2dca-019b-4f6e-acd9-efb30e0d4b44
-
 ms.date: 12/05/2018
 ms.keywords: DS_ROLE_DOMAIN_OWNER, DS_ROLE_INFRASTRUCTURE_OWNER, DS_ROLE_PDC_OWNER, DS_ROLE_RID_OWNER, DS_ROLE_SCHEMA_OWNER, DsListRoles, DsListRoles function [Active Directory], DsListRolesA, DsListRolesW, _glines_dslistroles, ad.dslistroles, ntdsapi/DsListRoles, ntdsapi/DsListRolesA, ntdsapi/DsListRolesW
 ms.topic: function
-f1_keywords: 
- - "ntdsapi/DsListRoles"
+f1_keywords:
+- ntdsapi/DsListRoles
 dev_langs:
- - c++
+- c++
 req.header: ntdsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Ntdsapi.lib
 req.dll: Ntdsapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ntdsapi.dll
+- Ntdsapi.dll
 api_name:
- - DsListRoles
- - DsListRolesA
- - DsListRolesW
+- DsListRoles
+- DsListRolesA
+- DsListRolesW
 targetos: Windows
 req.typenames: 
 req.redist: 

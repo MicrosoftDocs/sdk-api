@@ -1,19 +1,17 @@
 ---
 UID: NF:comsvcs.IHolder.RequestDestroyResource
 title: IHolder::RequestDestroyResource (comsvcs.h)
-
 description: Deletes a resource, calling its destructor to free memory and other associated system resources.
 old-location: cos\iholder_requestdestroyresource.htm
 tech.root: cossdk
 ms.assetid: c1602718-2221-4e49-a57c-f65f87174dc9
-
 ms.date: 12/05/2018
 ms.keywords: IHolder interface [COM+],RequestDestroyResource method, IHolder.RequestDestroyResource, IHolder::RequestDestroyResource, RequestDestroyResource, RequestDestroyResource method [COM+], RequestDestroyResource method [COM+],IHolder interface, _dtc_IHolder_RequestDestroyResource, comsvcs/IHolder::RequestDestroyResource, cos.iholder_requestdestroyresource
 ms.topic: method
-f1_keywords: 
- - "comsvcs/IHolder.RequestDestroyResource"
+f1_keywords:
+- comsvcs/IHolder.RequestDestroyResource
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - IHolder.RequestDestroyResource
+- IHolder.RequestDestroyResource
 targetos: Windows
 req.typenames: 
 req.redist: 

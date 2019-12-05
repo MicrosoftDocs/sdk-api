@@ -2,16 +2,14 @@
 UID: NN:dwrite_3.IDWriteFactory7
 title: IDWriteFactory7
 description: This interface represents a factory object from which all DirectWrite objects are created. **IDWriteFactory7** adds new facilities for working with system fonts.
-
 tech.root: DirectWrite
-
 ms.date: 09/10/2019
 ms.keywords: IDWriteFactory7, IDWriteFactory7 interface [Direct Write], IDWriteFactory7 interface [Direct Write],described, directwrite.idwritefactory7, dwrite_3/IDWriteFactory7
 ms.topic: interface
 f1_keywords:
- - IDWriteFactory7
+- IDWriteFactory7
 dev_langs:
- - c++
+- c++
 targetos: Windows
 req.assembly: 
 req.construct-type: iface
@@ -28,15 +26,15 @@ req.target-min-winversvr:
 req.target-type: Windows
 req.unicode-ansi: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dwrite.lib
- - Dwrite.dll
+- Dwrite.lib
+- Dwrite.dll
 api_name:
- - IDWriteFactory7
+- IDWriteFactory7
 ---
 
 ## -description

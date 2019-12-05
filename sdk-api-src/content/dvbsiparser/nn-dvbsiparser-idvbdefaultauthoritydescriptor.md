@@ -1,19 +1,17 @@
 ---
 UID: NN:dvbsiparser.IDvbDefaultAuthorityDescriptor
 title: IDvbDefaultAuthorityDescriptor (dvbsiparser.h)
-
 description: Implements methods that get data from the default authority descriptor for a content reference identifier (CRID). The default authority descriptor is the first part of the CRID and identifies the body that created the CRID.
 old-location: mstv\idvbdefaultauthoritydescriptor.htm
 tech.root: mstv
 ms.assetid: 42d10cb5-dea9-4fdb-a588-7bc647e0b95b
-
 ms.date: 12/05/2018
 ms.keywords: IDvbDefaultAuthorityDescriptor, IDvbDefaultAuthorityDescriptor interface [Microsoft TV Technologies], IDvbDefaultAuthorityDescriptor interface [Microsoft TV Technologies],described, dvbsiparser/IDvbDefaultAuthorityDescriptor, mstv.idvbdefaultauthoritydescriptor
 ms.topic: interface
-f1_keywords: 
- - "dvbsiparser/IDvbDefaultAuthorityDescriptor"
+f1_keywords:
+- dvbsiparser/IDvbDefaultAuthorityDescriptor
 dev_langs:
- - c++
+- c++
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dvbsiparser.h
+- dvbsiparser.h
 api_name:
- - IDvbDefaultAuthorityDescriptor
+- IDvbDefaultAuthorityDescriptor
 targetos: Windows
 req.typenames: 
 req.redist: 

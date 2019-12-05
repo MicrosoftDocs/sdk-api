@@ -1,19 +1,17 @@
 ---
 UID: NF:comsvcs.IMtsEventInfo.get_DisplayName
 title: IMtsEventInfo::get_DisplayName (comsvcs.h)
-
 description: Retrieves the display name of the object.
 old-location: cos\imtseventinfo_get_displayname.htm
 tech.root: cossdk
 ms.assetid: d3d8ed52-0ad3-4073-877b-071bac90c71f
-
 ms.date: 12/05/2018
 ms.keywords: IMtsEventInfo interface [COM+],get_DisplayName method, IMtsEventInfo.get_DisplayName, IMtsEventInfo::get_DisplayName, _dtc_IMtsEventInfo_DisplayName, comsvcs/IMtsEventInfo::get_DisplayName, cos.imtseventinfo_get_displayname, get_DisplayName, get_DisplayName method [COM+], get_DisplayName method [COM+],IMtsEventInfo interface
 ms.topic: method
-f1_keywords: 
- - "comsvcs/IMtsEventInfo.get_DisplayName"
+f1_keywords:
+- comsvcs/IMtsEventInfo.get_DisplayName
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - IMtsEventInfo.get_DisplayName
+- IMtsEventInfo.get_DisplayName
 targetos: Windows
 req.typenames: 
 req.redist: 

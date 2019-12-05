@@ -1,19 +1,17 @@
 ---
 UID: NF:mfidl.IMFSensorProcessActivity.GetReportTime
 title: IMFSensorProcessActivity::GetReportTime (mfidl.h)
-
 description: Gets the time associated with the sensor activity report.
 old-location: mf\imfsensorprocessactivity_getreporttime.htm
 tech.root: medfound
 ms.assetid: 5C13F0ED-B2A6-43AC-92AA-87BF995DEFD7
-
 ms.date: 12/05/2018
 ms.keywords: GetReportTime, GetReportTime method [Media Foundation], GetReportTime method [Media Foundation],IMFSensorProcessActivity interface, IMFSensorProcessActivity interface [Media Foundation],GetReportTime method, IMFSensorProcessActivity.GetReportTime, IMFSensorProcessActivity::GetReportTime, mf.imfsensorprocessactivity_getreporttime, mfidl/IMFSensorProcessActivity::GetReportTime
 ms.topic: method
-f1_keywords: 
- - "mfidl/IMFSensorProcessActivity.GetReportTime"
+f1_keywords:
+- mfidl/IMFSensorProcessActivity.GetReportTime
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Mfplat.lib; Mfplat.dll
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfplat.lib
- - mfplat.dll
- - mfplat.dll
- - mfplat.dll.dll
+- mfplat.lib
+- mfplat.dll
+- mfplat.dll
+- mfplat.dll.dll
 api_name:
- - IMFSensorProcessActivity.GetReportTime
+- IMFSensorProcessActivity.GetReportTime
 targetos: Windows
 req.typenames: 
 req.redist: 

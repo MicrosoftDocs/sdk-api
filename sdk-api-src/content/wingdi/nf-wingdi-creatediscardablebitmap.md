@@ -1,19 +1,17 @@
 ---
 UID: NF:wingdi.CreateDiscardableBitmap
 title: CreateDiscardableBitmap function (wingdi.h)
-
 description: The CreateDiscardableBitmap function creates a discardable bitmap that is compatible with the specified device.
 old-location: gdi\creatediscardablebitmap.htm
 tech.root: gdi
 ms.assetid: 79168baf-26ea-4d24-b75c-d0658a56892c
-
 ms.date: 12/05/2018
 ms.keywords: CreateDiscardableBitmap, CreateDiscardableBitmap function [Windows GDI], _win32_CreateDiscardableBitmap, gdi.creatediscardablebitmap, wingdi/CreateDiscardableBitmap
 ms.topic: function
-f1_keywords: 
- - "wingdi/CreateDiscardableBitmap"
+f1_keywords:
+- wingdi/CreateDiscardableBitmap
 dev_langs:
- - c++
+- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - gdi32.dll
- - Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
- - GDI32Full.dll
+- gdi32.dll
+- Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
+- GDI32Full.dll
 api_name:
- - CreateDiscardableBitmap
+- CreateDiscardableBitmap
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:msinkaut.IInkDisp.HitTestCircle
 title: IInkDisp::HitTestCircle (msinkaut.h)
-
 description: Retrieves the InkStrokes collection that are either completely inside or intersected by a known circle.
 old-location: tablet\inkdisp_hittest_point__single.htm
 tech.root: tablet
 ms.assetid: 2025f728-cb08-4285-8584-c9ad537e58f2
-
 ms.date: 12/05/2018
 ms.keywords: 2025f728-cb08-4285-8584-c9ad537e58f2, HitTestCircle, HitTestCircle method [Tablet PC], HitTestCircle method [Tablet PC],IInkDisp interface, IInkDisp interface [Tablet PC],HitTestCircle method, IInkDisp.HitTestCircle, IInkDisp::HitTestCircle, msinkaut/IInkDisp::HitTestCircle, tablet.inkdisp_hittest_point__single
 ms.topic: method
-f1_keywords: 
- - "msinkaut/IInkDisp.HitTestCircle"
+f1_keywords:
+- msinkaut/IInkDisp.HitTestCircle
 dev_langs:
- - c++
+- c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: InkObj.dll
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - InkObj.dll
- - InkObj.dll.dll
+- InkObj.dll
+- InkObj.dll.dll
 api_name:
- - IInkDisp.HitTestCircle
+- IInkDisp.HitTestCircle
 targetos: Windows
 req.typenames: 
 req.redist: 

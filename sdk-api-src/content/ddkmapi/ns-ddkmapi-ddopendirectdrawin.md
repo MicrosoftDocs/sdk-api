@@ -1,19 +1,17 @@
 ---
 UID: NS:ddkmapi._DDOPENDIRECTDRAWIN
 title: DDOPENDIRECTDRAWIN (ddkmapi.h)
-
 description: The DDOPENDIRECTDRAWIN structure contains the Microsoft DirectDraw object information.
 old-location: display\ddopendirectdrawin.htm
 tech.root: display
 ms.assetid: 62a15685-5420-46cf-ae50-14bb8d97a3ce
-
 ms.date: 12/05/2018
-ms.keywords: "*LPDDOPENDIRECTDRAWIN, DDOPENDIRECTDRAWIN, DDOPENDIRECTDRAWIN structure [Display Devices], LPDDOPENDIRECTDRAWIN, LPDDOPENDIRECTDRAWIN structure pointer [Display Devices], ddkmapi/DDOPENDIRECTDRAWIN, ddkmapi/LPDDOPENDIRECTDRAWIN, ddstrcts_bd64cbc2-e2e3-4929-b127-9151f8b45819.xml, display.ddopendirectdrawin"
+ms.keywords: '*LPDDOPENDIRECTDRAWIN, DDOPENDIRECTDRAWIN, DDOPENDIRECTDRAWIN structure [Display Devices], LPDDOPENDIRECTDRAWIN, LPDDOPENDIRECTDRAWIN structure pointer [Display Devices], ddkmapi/DDOPENDIRECTDRAWIN, ddkmapi/LPDDOPENDIRECTDRAWIN, ddstrcts_bd64cbc2-e2e3-4929-b127-9151f8b45819.xml, display.ddopendirectdrawin'
 ms.topic: struct
-f1_keywords: 
- - "ddkmapi/DDOPENDIRECTDRAWIN"
+f1_keywords:
+- ddkmapi/DDOPENDIRECTDRAWIN
 dev_langs:
- - c++
+- c++
 req.header: ddkmapi.h
 req.include-header: Ddkmapi.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - ddkmapi.h
+- ddkmapi.h
 api_name:
- - DDOPENDIRECTDRAWIN
+- DDOPENDIRECTDRAWIN
 targetos: Windows
 req.typenames: DDOPENDIRECTDRAWIN, *LPDDOPENDIRECTDRAWIN
 req.redist: 

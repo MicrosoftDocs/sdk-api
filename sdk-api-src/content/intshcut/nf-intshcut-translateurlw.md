@@ -1,19 +1,17 @@
 ---
 UID: NF:intshcut.TranslateURLW
 title: TranslateURLW function (intshcut.h)
-
 description: Applies common translations to a given URL string, creating a new URL string.
 old-location: shell\TranslateURL.htm
 tech.root: shell
 ms.assetid: 2f089f5a-4d7c-4bb7-961c-5c6e3e73c7b7
-
 ms.date: 12/05/2018
 ms.keywords: TRANSLATEURL_FL_GUESS_PROTOCOL, TRANSLATEURL_FL_USE_DEFAULT_PROTOCOL, TranslateURL, TranslateURL function [Windows Shell], TranslateURLA, TranslateURLW, _win32_TranslateURL, intshcut/TranslateURL, intshcut/TranslateURLA, intshcut/TranslateURLW, shell.TranslateURL
 ms.topic: function
-f1_keywords: 
- - "intshcut/TranslateURL"
+f1_keywords:
+- intshcut/TranslateURL
 dev_langs:
- - c++
+- c++
 req.header: intshcut.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: Url.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Url.dll
+- Url.dll
 api_name:
- - TranslateURL
- - TranslateURLA
- - TranslateURLW
+- TranslateURL
+- TranslateURLA
+- TranslateURLW
 targetos: Windows
 req.typenames: 
 req.redist: 

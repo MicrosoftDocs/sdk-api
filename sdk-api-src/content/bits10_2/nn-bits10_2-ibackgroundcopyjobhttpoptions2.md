@@ -1,19 +1,17 @@
 ---
 UID: NN:bits10_2.IBackgroundCopyJobHttpOptions2
 title: IBackgroundCopyJobHttpOptions2 (bits10_2.h)
-
 description: Use this interface to retrieve and/or to override the HTTP method used for a BITS transfer.
 old-location: bits\ibackgroundcopyjobhttpoptions2.htm
 tech.root: Bits
 ms.assetid: 6E8A32CF-99F6-4C4D-A6EE-A05A1E601793
-
 ms.date: 12/05/2018
 ms.keywords: IBackgroundCopyJobHttpOptions2, IBackgroundCopyJobHttpOptions2 interface [BITS], IBackgroundCopyJobHttpOptions2 interface [BITS],described, bits.ibackgroundcopyjobhttpoptions2, bits10_2/IBackgroundCopyJobHttpOptions2
 ms.topic: interface
-f1_keywords: 
- - "bits10_2/IBackgroundCopyJobHttpOptions2"
+f1_keywords:
+- bits10_2/IBackgroundCopyJobHttpOptions2
 dev_langs:
- - c++
+- c++
 req.header: bits10_2.h
 req.include-header: Bits.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Bits.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Bits.lib
- - Bits.dll
+- Bits.lib
+- Bits.dll
 api_name:
- - IBackgroundCopyJobHttpOptions2
+- IBackgroundCopyJobHttpOptions2
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NS:dmemmgr._SURFACEALIGNMENT
 title: SURFACEALIGNMENT (dmemmgr.h)
-
 description: The SURFACEALIGNMENT structure is used by a display driver to describe the alignment restrictions for a surface being allocated by HeapVidMemAllocAligned.
 old-location: display\surfacealignment.htm
 tech.root: display
 ms.assetid: 200f4e08-b5d3-484e-b87a-b3069dc3c99f
-
 ms.date: 12/05/2018
-ms.keywords: "*LPSURFACEALIGNMENT, SURFACEALIGNMENT, SURFACEALIGNMENT structure [Display Devices], display.surfacealignment, dmemmgr/SURFACEALIGNMENT, grstrcts_8ab8c373-9600-45dc-9f16-f6c4de52a0c7.xml"
+ms.keywords: '*LPSURFACEALIGNMENT, SURFACEALIGNMENT, SURFACEALIGNMENT structure [Display Devices], display.surfacealignment, dmemmgr/SURFACEALIGNMENT, grstrcts_8ab8c373-9600-45dc-9f16-f6c4de52a0c7.xml'
 ms.topic: struct
-f1_keywords: 
- - "dmemmgr/SURFACEALIGNMENT"
+f1_keywords:
+- dmemmgr/SURFACEALIGNMENT
 dev_langs:
- - c++
+- c++
 req.header: dmemmgr.h
 req.include-header: Winddi.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - dmemmgr.h
+- dmemmgr.h
 api_name:
- - SURFACEALIGNMENT
+- SURFACEALIGNMENT
 targetos: Windows
 req.typenames: SURFACEALIGNMENT, *LPSURFACEALIGNMENT
 req.redist: 

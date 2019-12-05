@@ -1,19 +1,17 @@
 ---
 UID: NE:icftypes.NET_FW_RULE_DIRECTION_
 title: NET_FW_RULE_DIRECTION (icftypes.h)
-
 description: Specifies the direction of traffic to which a rule applies.
 old-location: ics\net_fw_rule_direction.htm
 tech.root: ics
 ms.assetid: ee60cb00-c7cb-468d-9295-002d1f87d382
-
 ms.date: 12/05/2018
 ms.keywords: NET_FW_RULE_DIRECTION, NET_FW_RULE_DIRECTION enumeration [ICS/ICF], NET_FW_RULE_DIR_IN, NET_FW_RULE_DIR_MAX, NET_FW_RULE_DIR_OUT, icftypes/NET_FW_RULE_DIRECTION, icftypes/NET_FW_RULE_DIR_IN, icftypes/NET_FW_RULE_DIR_MAX, icftypes/NET_FW_RULE_DIR_OUT, ics.net_fw_rule_direction
 ms.topic: enum
-f1_keywords: 
- - "icftypes/NET_FW_RULE_DIRECTION"
+f1_keywords:
+- icftypes/NET_FW_RULE_DIRECTION
 dev_langs:
- - c++
+- c++
 req.header: icftypes.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Icftypes.h
+- Icftypes.h
 api_name:
- - NET_FW_RULE_DIRECTION
+- NET_FW_RULE_DIRECTION
 targetos: Windows
 req.typenames: NET_FW_RULE_DIRECTION
 req.redist: 

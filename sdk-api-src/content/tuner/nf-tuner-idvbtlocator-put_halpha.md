@@ -1,19 +1,17 @@
 ---
 UID: NF:tuner.IDVBTLocator.put_HAlpha
 title: IDVBTLocator::put_HAlpha (tuner.h)
-
 description: The put_HAlpha method sets the hierarchy alpha.
 old-location: mstv\idvbtlocator_put_halpha.htm
 tech.root: mstv
 ms.assetid: 2f444c28-972e-4e90-ad99-8bc4f4ee25b7
-
 ms.date: 12/05/2018
 ms.keywords: IDVBTLocator interface [Microsoft TV Technologies],put_HAlpha method, IDVBTLocator.put_HAlpha, IDVBTLocator::put_HAlpha, IDVBTLocatorput_HAlpha, mstv.idvbtlocator_put_halpha, put_HAlpha, put_HAlpha method [Microsoft TV Technologies], put_HAlpha method [Microsoft TV Technologies],IDVBTLocator interface, tuner/IDVBTLocator::put_HAlpha
 ms.topic: method
-f1_keywords: 
- - "tuner/IDVBTLocator.put_HAlpha"
+f1_keywords:
+- tuner/IDVBTLocator.put_HAlpha
 dev_langs:
- - c++
+- c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - tuner.h
+- tuner.h
 api_name:
- - IDVBTLocator.put_HAlpha
+- IDVBTLocator.put_HAlpha
 targetos: Windows
 req.typenames: 
 req.redist: 

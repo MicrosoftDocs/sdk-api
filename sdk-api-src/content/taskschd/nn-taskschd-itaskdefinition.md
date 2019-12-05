@@ -1,19 +1,17 @@
 ---
 UID: NN:taskschd.ITaskDefinition
 title: ITaskDefinition (taskschd.h)
-
 description: Defines all the components of a task, such as the task settings, triggers, actions, and registration information.
 old-location: taskschd\itaskdefinition.htm
 tech.root: taskschd
 ms.assetid: 3787ed9b-9fd0-473b-9034-ade97dc330d9
-
 ms.date: 12/05/2018
 ms.keywords: ITaskDefinition, ITaskDefinition interface [Task Scheduler], ITaskDefinition interface [Task Scheduler],described, taskschd.itaskdefinition, taskschd/ITaskDefinition
 ms.topic: interface
-f1_keywords: 
- - "taskschd/ITaskDefinition"
+f1_keywords:
+- taskschd/ITaskDefinition
 dev_langs:
- - c++
+- c++
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Taskschd.lib
 req.dll: Taskschd.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - taskschd.dll
+- taskschd.dll
 api_name:
- - ITaskDefinition
+- ITaskDefinition
 targetos: Windows
 req.typenames: 
 req.redist: 

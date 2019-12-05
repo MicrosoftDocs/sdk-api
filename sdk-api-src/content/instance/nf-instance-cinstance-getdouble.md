@@ -1,19 +1,17 @@
 ---
 UID: NF:instance.CInstance.GetDOUBLE
 title: CInstance::GetDOUBLE (instance.h)
-
 description: The GetDOUBLE method retrieves a DOUBLE property.
 old-location: wmi\cinstance_getdouble.htm
 tech.root: WmiSdk
 ms.assetid: 39360e69-0d54-4b1f-8de8-0abf81e9238b
-
 ms.date: 12/05/2018
 ms.keywords: CInstance interface [Windows Management Instrumentation],GetDOUBLE method, CInstance.GetDOUBLE, CInstance::GetDOUBLE, GetDOUBLE, GetDOUBLE method [Windows Management Instrumentation], GetDOUBLE method [Windows Management Instrumentation],CInstance interface, _hmm_cinstance_getdouble, instance/CInstance::GetDOUBLE, wmi.cinstance_getdouble
 ms.topic: method
-f1_keywords: 
- - "instance/CInstance.GetDOUBLE"
+f1_keywords:
+- instance/CInstance.GetDOUBLE
 dev_langs:
- - c++
+- c++
 req.header: instance.h
 req.include-header: FwCommon.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: FrameDyn.lib
 req.dll: FrameDynOS.dll; FrameDyn.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - FrameDynOS.dll
- - FrameDyn.dll
+- FrameDynOS.dll
+- FrameDyn.dll
 api_name:
- - CInstance.GetDOUBLE
+- CInstance.GetDOUBLE
 targetos: Windows
 req.typenames: 
 req.redist: 

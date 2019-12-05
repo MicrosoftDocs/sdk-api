@@ -1,19 +1,17 @@
 ---
 UID: NF:propvarutil.PropVariantChangeType
 title: PropVariantChangeType function (propvarutil.h)
-
 description: Coerces a value stored as a PROPVARIANT structure to an equivalent value of a different variant type.
 old-location: properties\PropVariantChangeType.htm
 tech.root: properties
 ms.assetid: cb64ae1d-7dcf-4e73-b6ab-18fc9f91192d
-
 ms.date: 12/05/2018
 ms.keywords: PropVariantChangeType, PropVariantChangeType function [Windows Properties], _shell_PropVariantChangeType, properties.PropVariantChangeType, propvarutil/PropVariantChangeType, shell.PropVariantChangeType
 ms.topic: function
-f1_keywords: 
- - "propvarutil/PropVariantChangeType"
+f1_keywords:
+- propvarutil/PropVariantChangeType
 dev_langs:
- - c++
+- c++
 req.header: propvarutil.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Propsys.lib
 req.dll: Propsys.dll (version 6.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Propsys.dll
+- Propsys.dll
 api_name:
- - PropVariantChangeType
+- PropVariantChangeType
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0

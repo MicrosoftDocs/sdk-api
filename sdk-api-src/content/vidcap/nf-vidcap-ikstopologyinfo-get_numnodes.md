@@ -1,19 +1,17 @@
 ---
 UID: NF:vidcap.IKsTopologyInfo.get_NumNodes
 title: IKsTopologyInfo::get_NumNodes (vidcap.h)
-
 description: The get_NumNodes method returns the number of nodes in the filter.
 old-location: dshow\ikstopologyinfo_get_numnodes.htm
 tech.root: DirectShow
 ms.assetid: fdba99d5-fd44-4d4f-8575-867d98bf3339
-
 ms.date: 12/05/2018
 ms.keywords: IKsTopologyInfo interface [DirectShow],get_NumNodes method, IKsTopologyInfo.get_NumNodes, IKsTopologyInfo::get_NumNodes, IKsTopologyInfoget_NumNodes, dshow.ikstopologyinfo_get_numnodes, get_NumNodes, get_NumNodes method [DirectShow], get_NumNodes method [DirectShow],IKsTopologyInfo interface, vidcap/IKsTopologyInfo::get_NumNodes
 ms.topic: method
-f1_keywords: 
- - "vidcap/IKsTopologyInfo.get_NumNodes"
+f1_keywords:
+- vidcap/IKsTopologyInfo.get_NumNodes
 dev_langs:
- - c++
+- c++
 req.header: vidcap.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Vidcap.h
+- Vidcap.h
 api_name:
- - IKsTopologyInfo.get_NumNodes
+- IKsTopologyInfo.get_NumNodes
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:netioapi.GetIfStackTable
 title: GetIfStackTable function (netioapi.h)
-
 description: Retrieves a table of network interface stack row entries that specify the relationship of the network interfaces on an interface stack.
 old-location: iphlp\getifstacktable.htm
 tech.root: IpHlp
 ms.assetid: c1b0f091-2aef-447e-9866-a886838a6267
-
 ms.date: 12/05/2018
 ms.keywords: GetIfStackTable, GetIfStackTable function [IP Helper], iphlp.getifstacktable, netioapi/GetIfStackTable
 ms.topic: function
-f1_keywords: 
- - "netioapi/GetIfStackTable"
+f1_keywords:
+- netioapi/GetIfStackTable
 dev_langs:
- - c++
+- c++
 req.header: netioapi.h
 req.include-header: Iphlpapi.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Iphlpapi.lib
 req.dll: Iphlpapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Iphlpapi.dll
+- Iphlpapi.dll
 api_name:
- - GetIfStackTable
+- GetIfStackTable
 targetos: Windows
 req.typenames: 
 req.redist: 

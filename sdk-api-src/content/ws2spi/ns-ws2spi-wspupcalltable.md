@@ -1,19 +1,17 @@
 ---
 UID: NS:ws2spi._WSPUPCALLTABLE
 title: WSPUPCALLTABLE (ws2spi.h)
-
 description: Contains a table of pointers to service provider upcall functions.
 old-location: winsock\wspupcalltable.htm
 tech.root: WinSock
 ms.assetid: a5abf488-3e78-4e4e-ae5f-201bf0d77fc9
-
 ms.date: 12/05/2018
-ms.keywords: "*LPWSPUPCALLTABLE, FAR * LPWSPUPCALLTABLE, FAR * LPWSPUPCALLTABLE structure [Winsock], WSPUPCALLTABLE, WSPUPCALLTABLE structure [Winsock], winsock.wspupcalltable, ws2spi/FAR * LPWSPUPCALLTABLE, ws2spi/WSPUPCALLTABLE"
+ms.keywords: '*LPWSPUPCALLTABLE, FAR * LPWSPUPCALLTABLE, FAR * LPWSPUPCALLTABLE structure [Winsock], WSPUPCALLTABLE, WSPUPCALLTABLE structure [Winsock], winsock.wspupcalltable, ws2spi/FAR * LPWSPUPCALLTABLE, ws2spi/WSPUPCALLTABLE'
 ms.topic: struct
-f1_keywords: 
- - "ws2spi/WSPUPCALLTABLE"
+f1_keywords:
+- ws2spi/WSPUPCALLTABLE
 dev_langs:
- - c++
+- c++
 req.header: ws2spi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Ws2spi.h
+- Ws2spi.h
 api_name:
- - WSPUPCALLTABLE
+- WSPUPCALLTABLE
 targetos: Windows
 req.typenames: WSPUPCALLTABLE, *LPWSPUPCALLTABLE
 req.redist: 

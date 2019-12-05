@@ -1,19 +1,17 @@
 ---
 UID: NF:mfmediaengine.IMFMediaEngineEx.FrameStep
 title: IMFMediaEngineEx::FrameStep (mfmediaengine.h)
-
 description: Steps forward or backward one frame.
 old-location: mf\imfmediaengineex_framestep.htm
 tech.root: medfound
 ms.assetid: 090B5B6F-E4D1-43D7-AD09-BA3008B48104
-
 ms.date: 12/05/2018
 ms.keywords: FrameStep, FrameStep method [Media Foundation], FrameStep method [Media Foundation],IMFMediaEngineEx interface, IMFMediaEngineEx interface [Media Foundation],FrameStep method, IMFMediaEngineEx.FrameStep, IMFMediaEngineEx::FrameStep, mf.imfmediaengineex_framestep, mfmediaengine/IMFMediaEngineEx::FrameStep
 ms.topic: method
-f1_keywords: 
- - "mfmediaengine/IMFMediaEngineEx.FrameStep"
+f1_keywords:
+- mfmediaengine/IMFMediaEngineEx.FrameStep
 dev_langs:
- - c++
+- c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfmediaengine.h
+- mfmediaengine.h
 api_name:
- - IMFMediaEngineEx.FrameStep
+- IMFMediaEngineEx.FrameStep
 targetos: Windows
 req.typenames: 
 req.redist: 

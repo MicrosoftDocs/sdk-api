@@ -1,19 +1,17 @@
 ---
 UID: NE:fsrmenums._FsrmQuotaFlags
 title: FsrmQuotaFlags (fsrmenums.h)
-
 description: Defines the options for failing IO operations that violate a quota, enabling or disabling quota tracking, and providing the status of the quota scan operation.
 old-location: fsrm\fsrmquotaflags.htm
 tech.root: fsrm
 ms.assetid: 254a26c7-a859-4b23-a3e2-9d261c848eef
-
 ms.date: 12/05/2018
 ms.keywords: FsrmQuotaFlags, FsrmQuotaFlags enumeration [File Server Resource Manager], FsrmQuotaFlags_Disable, FsrmQuotaFlags_Enforce, FsrmQuotaFlags_StatusIncomplete, FsrmQuotaFlags_StatusRebuilding, fs.fsrmquotaflags, fsrm.fsrmquotaflags, fsrmenums/FsrmQuotaFlags, fsrmenums/FsrmQuotaFlags_Disable, fsrmenums/FsrmQuotaFlags_Enforce, fsrmenums/FsrmQuotaFlags_StatusIncomplete, fsrmenums/FsrmQuotaFlags_StatusRebuilding
 ms.topic: enum
-f1_keywords: 
- - "fsrmenums/FsrmQuotaFlags"
+f1_keywords:
+- fsrmenums/FsrmQuotaFlags
 dev_langs:
- - c++
+- c++
 req.header: fsrmenums.h
 req.include-header: FsrmPipeline.h, FsrmQuota.h, FsrmReports.h, FsrmScreen.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - FsrmEnums.h
+- FsrmEnums.h
 api_name:
- - FsrmQuotaFlags
+- FsrmQuotaFlags
 targetos: Windows
 req.typenames: FsrmQuotaFlags
 req.redist: 

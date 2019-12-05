@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationElement.get_CachedIsRequiredForForm
 title: IUIAutomationElement::get_CachedIsRequiredForForm (uiautomationclient.h)
-
 description: Retrieves a cached value that indicates whether the element is required to be filled out on a form.
 old-location: winauto\uiauto_IUIAutomationElement_CachedIsRequiredForForm.htm
 tech.root: WinAuto
 ms.assetid: d1edcdfb-0020-4d38-a1e7-4b2d9555bd21
-
 ms.date: 12/05/2018
 ms.keywords: CachedIsRequiredForForm property [Windows Accessibility], CachedIsRequiredForForm property [Windows Accessibility],IUIAutomationElement interface, IUIAutomationElement interface [Windows Accessibility],CachedIsRequiredForForm property, IUIAutomationElement.CachedIsRequiredForForm, IUIAutomationElement.get_CachedIsRequiredForForm, IUIAutomationElement::CachedIsRequiredForForm, IUIAutomationElement::get_CachedIsRequiredForForm, get_CachedIsRequiredForForm, uiauto.uiauto_IUIAutomationElement_CachedIsRequiredForForm, uiauto_IUIAutomationElement_CachedIsRequiredForForm, uiautomationclient/IUIAutomationElement::CachedIsRequiredForForm, uiautomationclient/IUIAutomationElement::get_CachedIsRequiredForForm, winauto.uiauto_IUIAutomationElement_CachedIsRequiredForForm
 ms.topic: method
-f1_keywords: 
- - "uiautomationclient/IUIAutomationElement.CachedIsRequiredForForm"
+f1_keywords:
+- uiautomationclient/IUIAutomationElement.CachedIsRequiredForForm
 dev_langs:
- - c++
+- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationClient.h
+- UIAutomationClient.h
 api_name:
- - IUIAutomationElement.CachedIsRequiredForForm
- - IUIAutomationElement.get_CachedIsRequiredForForm
+- IUIAutomationElement.CachedIsRequiredForForm
+- IUIAutomationElement.get_CachedIsRequiredForForm
 targetos: Windows
 req.typenames: 
 req.redist: 

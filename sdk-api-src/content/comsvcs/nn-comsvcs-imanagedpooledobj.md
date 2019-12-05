@@ -1,19 +1,17 @@
 ---
 UID: NN:comsvcs.IManagedPooledObj
 title: IManagedPooledObj (comsvcs.h)
-
 description: Describes how a managed object is used in the COM+ object pool.
 old-location: cos\imanagedpooledobj.htm
 tech.root: cossdk
 ms.assetid: 04853859-5d85-4b88-9e1b-422e3454fd3f
-
 ms.date: 12/05/2018
 ms.keywords: IManagedPooledObj, IManagedPooledObj interface [COM+], IManagedPooledObj interface [COM+],described, _cos_IManagedPooledObj, comsvcs/IManagedPooledObj, cos.imanagedpooledobj
 ms.topic: interface
-f1_keywords: 
- - "comsvcs/IManagedPooledObj"
+f1_keywords:
+- comsvcs/IManagedPooledObj
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - IManagedPooledObj
+- IManagedPooledObj
 targetos: Windows
 req.typenames: 
 req.redist: 

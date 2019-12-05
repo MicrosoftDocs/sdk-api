@@ -1,19 +1,17 @@
 ---
 UID: NF:msinkaut.IInkRecognizerContext.Recognize
 title: IInkRecognizerContext::Recognize (msinkaut.h)
-
 description: Performs recognition on an InkStrokes collection and returns recognition results.
 old-location: tablet\inkrecognizercontext_recognize.htm
 tech.root: tablet
 ms.assetid: 83695dfd-3634-47e7-8311-7216876a827a
-
 ms.date: 12/05/2018
 ms.keywords: 83695dfd-3634-47e7-8311-7216876a827a, IInkRecognizerContext interface [Tablet PC],Recognize method, IInkRecognizerContext.Recognize, IInkRecognizerContext::Recognize, Recognize, Recognize method [Tablet PC], Recognize method [Tablet PC],IInkRecognizerContext interface, msinkaut/IInkRecognizerContext::Recognize, tablet.inkrecognizercontext_recognize
 ms.topic: method
-f1_keywords: 
- - "msinkaut/IInkRecognizerContext.Recognize"
+f1_keywords:
+- msinkaut/IInkRecognizerContext.Recognize
 dev_langs:
- - c++
+- c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: InkObj.dll
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - InkObj.dll
- - InkObj.dll.dll
+- InkObj.dll
+- InkObj.dll.dll
 api_name:
- - IInkRecognizerContext.Recognize
+- IInkRecognizerContext.Recognize
 targetos: Windows
 req.typenames: 
 req.redist: 

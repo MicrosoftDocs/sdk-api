@@ -1,19 +1,17 @@
 ---
 UID: NF:wbemprov.IWbemProviderInitSink.SetStatus
 title: IWbemProviderInitSink::SetStatus (wbemprov.h)
-
 description: The IWbemProviderInitSink::SetStatus method indicates to Windows Management whether a provider is fully or partially initialized.
 old-location: wmi\iwbemproviderinitsink_setstatus.htm
 tech.root: WmiSdk
 ms.assetid: 909935ba-ae3a-477d-a466-1f2679764b10
-
 ms.date: 12/05/2018
 ms.keywords: IWbemProviderInitSink interface [Windows Management Instrumentation],SetStatus method, IWbemProviderInitSink.SetStatus, IWbemProviderInitSink::SetStatus, SetStatus, SetStatus method [Windows Management Instrumentation], SetStatus method [Windows Management Instrumentation],IWbemProviderInitSink interface, WBEM_E_FAILED, WBEM_S_INITIALIZED, _hmm_iwbemproviderinitsink_setstatus, wbemprov/IWbemProviderInitSink::SetStatus, wmi.iwbemproviderinitsink_setstatus
 ms.topic: method
-f1_keywords: 
- - "wbemprov/IWbemProviderInitSink.SetStatus"
+f1_keywords:
+- wbemprov/IWbemProviderInitSink.SetStatus
 dev_langs:
- - c++
+- c++
 req.header: wbemprov.h
 req.include-header: Wbemidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Wbemuuid.lib
 req.dll: Wbemsvc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wbemsvc.dll
+- Wbemsvc.dll
 api_name:
- - IWbemProviderInitSink.SetStatus
+- IWbemProviderInitSink.SetStatus
 targetos: Windows
 req.typenames: 
 req.redist: 

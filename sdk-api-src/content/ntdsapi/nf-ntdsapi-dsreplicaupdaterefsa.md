@@ -1,19 +1,17 @@
 ---
 UID: NF:ntdsapi.DsReplicaUpdateRefsA
 title: DsReplicaUpdateRefsA function (ntdsapi.h)
-
 description: Adds or removes a replication reference for a destination from a source naming context.
 old-location: ad\dsreplicaupdaterefs.htm
 tech.root: ad
 ms.assetid: 158c7e73-0e6c-4b71-a87f-2f60f3db91cb
-
 ms.date: 12/05/2018
 ms.keywords: DS_REPUPD_ADD_REFERENCE, DS_REPUPD_ASYNCHRONOUS_OPERATION, DS_REPUPD_DELETE_REFERENCE, DS_REPUPD_WRITEABLE, DsReplicaUpdateRefs, DsReplicaUpdateRefs function [Active Directory], DsReplicaUpdateRefsA, DsReplicaUpdateRefsW, _glines_dsreplicaupdaterefs, ad.dsreplicaupdaterefs, ntdsapi/DsReplicaUpdateRefs, ntdsapi/DsReplicaUpdateRefsA, ntdsapi/DsReplicaUpdateRefsW
 ms.topic: function
-f1_keywords: 
- - "ntdsapi/DsReplicaUpdateRefs"
+f1_keywords:
+- ntdsapi/DsReplicaUpdateRefs
 dev_langs:
- - c++
+- c++
 req.header: ntdsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Ntdsapi.lib
 req.dll: Ntdsapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ntdsapi.dll
+- Ntdsapi.dll
 api_name:
- - DsReplicaUpdateRefs
- - DsReplicaUpdateRefsA
- - DsReplicaUpdateRefsW
+- DsReplicaUpdateRefs
+- DsReplicaUpdateRefsA
+- DsReplicaUpdateRefsW
 targetos: Windows
 req.typenames: 
 req.redist: 

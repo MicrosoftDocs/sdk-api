@@ -1,19 +1,17 @@
 ---
 UID: NF:gdiplustypes.SizeF.Empty
 title: SizeF::Empty (gdiplustypes.h)
-
 description: The SizeF::Empty method determines whether a SizeF object is empty.
 old-location: gdiplus\_gdiplus_CLASS_SizeF_Empty_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\sizefclass\sizefmethods\empty_16.htm
-
 ms.date: 12/05/2018
 ms.keywords: Empty, Empty method [GDI+], Empty method [GDI+],SizeF class, SizeF class [GDI+],Empty method, SizeF.Empty, SizeF::Empty, _gdiplus_CLASS_SizeF_Empty_, gdiplus._gdiplus_CLASS_SizeF_Empty_
 ms.topic: method
-f1_keywords: 
- - "gdiplustypes/SizeF.Empty"
+f1_keywords:
+- gdiplustypes/SizeF.Empty
 dev_langs:
- - c++
+- c++
 req.header: gdiplustypes.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - SizeF.Empty
+- SizeF.Empty
 targetos: Windows
 req.typenames: 
 req.redist: 

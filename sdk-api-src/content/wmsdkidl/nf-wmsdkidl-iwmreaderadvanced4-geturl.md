@@ -1,19 +1,17 @@
 ---
 UID: NF:wmsdkidl.IWMReaderAdvanced4.GetURL
 title: IWMReaderAdvanced4::GetURL (wmsdkidl.h)
-
 description: The GetURL method retrieves the URL of the file being read. This URL might be different from the URL that was passed to IWMReader::Open, because the reader might have been redirected.
 old-location: wmformat\iwmreaderadvanced4_geturl.htm
 tech.root: wmformat
 ms.assetid: 1c17be57-da35-40f2-a216-97d6953c7311
-
 ms.date: 12/05/2018
 ms.keywords: GetURL, GetURL method [windows Media Format], GetURL method [windows Media Format],IWMReaderAdvanced4 interface, IWMReaderAdvanced4 interface [windows Media Format],GetURL method, IWMReaderAdvanced4.GetURL, IWMReaderAdvanced4::GetURL, IWMReaderAdvanced4GetURL, wmformat.iwmreaderadvanced4_geturl, wmsdkidl/IWMReaderAdvanced4::GetURL
 ms.topic: method
-f1_keywords: 
- - "wmsdkidl/IWMReaderAdvanced4.GetURL"
+f1_keywords:
+- wmsdkidl/IWMReaderAdvanced4.GetURL
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wmvcore.lib
- - Wmvcore.dll
- - WMStubDRM.lib
- - WMStubDRM.dll
+- Wmvcore.lib
+- Wmvcore.dll
+- WMStubDRM.lib
+- WMStubDRM.dll
 api_name:
- - IWMReaderAdvanced4.GetURL
+- IWMReaderAdvanced4.GetURL
 targetos: Windows
 req.typenames: 
 req.redist: 

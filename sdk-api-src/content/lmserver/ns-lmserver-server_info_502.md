@@ -1,19 +1,17 @@
 ---
 UID: NS:lmserver._SERVER_INFO_502
 title: SERVER_INFO_502 (lmserver.h)
-
 description: The SERVER_INFO_502 structure is obsolete. The structure contains information about a specified server.
 old-location: netmgmt\server_info_502_str.htm
 tech.root: NetMgmt
 ms.assetid: 97657dff-7bd1-4108-934b-8203f41b3742
-
 ms.date: 12/05/2018
-ms.keywords: "*LPSERVER_INFO_502, *PSERVER_INFO_502, LPSERVER_INFO_502, LPSERVER_INFO_502 structure pointer [Network Management], PSERVER_INFO_502, PSERVER_INFO_502 structure pointer [Network Management], SERVER_INFO_502, SERVER_INFO_502 structure [Network Management], _win32_server_info_502_str, lmserver/LPSERVER_INFO_502, lmserver/PSERVER_INFO_502, lmserver/SERVER_INFO_502, netmgmt.server_info_502_str"
+ms.keywords: '*LPSERVER_INFO_502, *PSERVER_INFO_502, LPSERVER_INFO_502, LPSERVER_INFO_502 structure pointer [Network Management], PSERVER_INFO_502, PSERVER_INFO_502 structure pointer [Network Management], SERVER_INFO_502, SERVER_INFO_502 structure [Network Management], _win32_server_info_502_str, lmserver/LPSERVER_INFO_502, lmserver/PSERVER_INFO_502, lmserver/SERVER_INFO_502, netmgmt.server_info_502_str'
 ms.topic: struct
-f1_keywords: 
- - "lmserver/SERVER_INFO_502"
+f1_keywords:
+- lmserver/SERVER_INFO_502
 dev_langs:
- - c++
+- c++
 req.header: lmserver.h
 req.include-header: Lm.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Lmserver.h
+- Lmserver.h
 api_name:
- - SERVER_INFO_502
+- SERVER_INFO_502
 targetos: Windows
 req.typenames: SERVER_INFO_502, *PSERVER_INFO_502, *LPSERVER_INFO_502
 req.redist: 

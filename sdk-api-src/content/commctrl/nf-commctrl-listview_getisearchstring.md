@@ -1,19 +1,17 @@
 ---
 UID: NF:commctrl.ListView_GetISearchString
 title: ListView_GetISearchString macro (commctrl.h)
-
 description: Gets the incremental search string of a list-view control. You can use this macro or send the LVM_GETISEARCHSTRING message explicitly.
 old-location: controls\ListView_GetISearchString.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_getisearchstring.htm
-
 ms.date: 12/05/2018
 ms.keywords: ListView_GetISearchString, ListView_GetISearchString macro [Windows Controls], _win32_ListView_GetISearchString, _win32_ListView_GetISearchString_cpp, commctrl/ListView_GetISearchString, controls.ListView_GetISearchString, controls._win32_ListView_GetISearchString
 ms.topic: macro
-f1_keywords: 
- - "commctrl/ListView_GetISearchString"
+f1_keywords:
+- commctrl/ListView_GetISearchString
 dev_langs:
- - c++
+- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Commctrl.h
+- Commctrl.h
 api_name:
- - ListView_GetISearchString
+- ListView_GetISearchString
 targetos: Windows
 req.typenames: 
 req.redist: 

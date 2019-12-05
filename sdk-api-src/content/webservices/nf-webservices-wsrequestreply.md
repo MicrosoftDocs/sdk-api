@@ -1,19 +1,17 @@
 ---
 UID: NF:webservices.WsRequestReply
 title: WsRequestReply function (webservices.h)
-
 description: Used to send a request message and receive a correlated reply message.
 old-location: wsw\wsrequestreply.htm
 tech.root: wsw
 ms.assetid: 681e9c1c-bb18-4ffa-9287-e1965274043b
-
 ms.date: 12/05/2018
 ms.keywords: WsRequestReply, WsRequestReply function [Web Services for Windows], webservices/WsRequestReply, wsw.wsrequestreply
 ms.topic: function
 f1_keywords:
 - webservices/WsRequestReply
 dev_langs:
- - c++
+- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

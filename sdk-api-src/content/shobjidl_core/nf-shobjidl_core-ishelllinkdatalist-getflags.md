@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IShellLinkDataList.GetFlags
 title: IShellLinkDataList::GetFlags (shobjidl_core.h)
-
 description: Gets the current option settings.
 old-location: shell\IShellLinkDataList_GetFlags.htm
 tech.root: shell
 ms.assetid: d6ebfd84-6ef4-43be-af16-71fc395c4735
-
 ms.date: 12/05/2018
 ms.keywords: GetFlags, GetFlags method [Windows Shell], GetFlags method [Windows Shell],IShellLinkDataList interface, IShellLinkDataList interface [Windows Shell],GetFlags method, IShellLinkDataList.GetFlags, IShellLinkDataList::GetFlags, _win32_IShellLinkDataList_GetFlags, shell.IShellLinkDataList_GetFlags, shobjidl_core/IShellLinkDataList::GetFlags
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IShellLinkDataList.GetFlags"
+f1_keywords:
+- shobjidl_core/IShellLinkDataList.GetFlags
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Shell32.dll (version 5.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - IShellLinkDataList.GetFlags
+- IShellLinkDataList.GetFlags
 targetos: Windows
 req.typenames: 
 req.redist: 

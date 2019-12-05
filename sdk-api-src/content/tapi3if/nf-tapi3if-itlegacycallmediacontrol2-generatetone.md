@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi3if.ITLegacyCallMediaControl2.GenerateTone
 title: ITLegacyCallMediaControl2::GenerateTone (tapi3if.h)
-
 description: The GenerateTone method generates the specified tone.
 old-location: tapi3\itlegacycallmediacontrol2_generatetone.htm
 tech.root: Tapi
 ms.assetid: 4c77ee53-3c40-4fdc-9a35-40a8e74b4ec4
-
 ms.date: 12/05/2018
 ms.keywords: GenerateTone, GenerateTone method [TAPI 2.2], GenerateTone method [TAPI 2.2],ITLegacyCallMediaControl2 interface, ITLegacyCallMediaControl2 interface [TAPI 2.2],GenerateTone method, ITLegacyCallMediaControl2.GenerateTone, ITLegacyCallMediaControl2::GenerateTone, _tapi3_itlegacycallmediacontrol2_generatetone, tapi3.itlegacycallmediacontrol2_generatetone, tapi3if/ITLegacyCallMediaControl2::GenerateTone
 ms.topic: method
-f1_keywords: 
- - "tapi3if/ITLegacyCallMediaControl2.GenerateTone"
+f1_keywords:
+- tapi3if/ITLegacyCallMediaControl2.GenerateTone
 dev_langs:
- - c++
+- c++
 req.header: tapi3if.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Tapi3.dll
+- Tapi3.dll
 api_name:
- - ITLegacyCallMediaControl2.GenerateTone
+- ITLegacyCallMediaControl2.GenerateTone
 targetos: Windows
 req.typenames: 
 req.redist: 

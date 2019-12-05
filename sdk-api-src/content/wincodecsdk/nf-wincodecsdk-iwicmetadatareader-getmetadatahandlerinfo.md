@@ -1,19 +1,17 @@
 ---
 UID: NF:wincodecsdk.IWICMetadataReader.GetMetadataHandlerInfo
 title: IWICMetadataReader::GetMetadataHandlerInfo (wincodecsdk.h)
-
 description: Gets the metadata handler info associated with the reader.
 old-location: wic\_wic_codec_iwicmetadatareader_getmetadatahandlerinfo.htm
 tech.root: wic
 ms.assetid: f3843044-4963-4e9f-8b5d-69d0201c9ec9
-
 ms.date: 12/05/2018
 ms.keywords: GetMetadataHandlerInfo, GetMetadataHandlerInfo method [Windows Imaging Component], GetMetadataHandlerInfo method [Windows Imaging Component],IWICMetadataReader interface, IWICMetadataReader interface [Windows Imaging Component],GetMetadataHandlerInfo method, IWICMetadataReader.GetMetadataHandlerInfo, IWICMetadataReader::GetMetadataHandlerInfo, _wic_codec_iwicmetadatareader_getmetadatahandlerinfo, wic._wic_codec_iwicmetadatareader_getmetadatahandlerinfo, wincodecsdk/IWICMetadataReader::GetMetadataHandlerInfo
 ms.topic: method
-f1_keywords: 
- - "wincodecsdk/IWICMetadataReader.GetMetadataHandlerInfo"
+f1_keywords:
+- wincodecsdk/IWICMetadataReader.GetMetadataHandlerInfo
 dev_langs:
- - c++
+- c++
 req.header: wincodecsdk.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Windowscodecs.lib
 req.dll: Windowscodecs.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Windowscodecs.dll
+- Windowscodecs.dll
 api_name:
- - IWICMetadataReader.GetMetadataHandlerInfo
+- IWICMetadataReader.GetMetadataHandlerInfo
 targetos: Windows
 req.typenames: 
 req.redist: 

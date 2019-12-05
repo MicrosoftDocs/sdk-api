@@ -1,19 +1,17 @@
 ---
 UID: NN:faxcom.IFaxPorts
 title: IFaxPorts (faxcom.h)
-
 description: The IFaxPorts dual interface is used by a fax client application to access the FaxPort objects derived from a FaxServer object. The interface enumerates port configuration information for a connection to an active fax server.
 old-location: fax\_mfax_ifaxports.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_1hwz.htm
-
 ms.date: 12/05/2018
 ms.keywords: IFaxPorts, IFaxPorts interface [Fax Service], IFaxPorts interface [Fax Service],described, _mfax_ifaxports, fax._mfax_ifaxports, faxcom/IFaxPorts
 ms.topic: interface
-f1_keywords: 
- - "faxcom/IFaxPorts"
+f1_keywords:
+- faxcom/IFaxPorts
 dev_langs:
- - c++
+- c++
 req.header: faxcom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Faxcom.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Faxcom.dll
+- Faxcom.dll
 api_name:
- - IFaxPorts
+- IFaxPorts
 targetos: Windows
 req.typenames: 
 req.redist: 

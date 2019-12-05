@@ -1,19 +1,17 @@
 ---
 UID: NF:mfmediaengine.IMFMediaEngineProtectedContent.ShareResources
 title: IMFMediaEngineProtectedContent::ShareResources (mfmediaengine.h)
-
 description: Enables the Media Engine to access protected content while in frame-server mode.
 old-location: mf\imfmediaengineprotectedcontent_shareresources.htm
 tech.root: medfound
 ms.assetid: 7C94AEA2-1D72-4C45-9EDF-90593CC60E2C
-
 ms.date: 12/05/2018
 ms.keywords: IMFMediaEngineProtectedContent interface [Media Foundation],ShareResources method, IMFMediaEngineProtectedContent.ShareResources, IMFMediaEngineProtectedContent::ShareResources, ShareResources, ShareResources method [Media Foundation], ShareResources method [Media Foundation],IMFMediaEngineProtectedContent interface, mf.imfmediaengineprotectedcontent_shareresources, mfmediaengine/IMFMediaEngineProtectedContent::ShareResources
 ms.topic: method
-f1_keywords: 
- - "mfmediaengine/IMFMediaEngineProtectedContent.ShareResources"
+f1_keywords:
+- mfmediaengine/IMFMediaEngineProtectedContent.ShareResources
 dev_langs:
- - c++
+- c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfmediaengine.h
+- mfmediaengine.h
 api_name:
- - IMFMediaEngineProtectedContent.ShareResources
+- IMFMediaEngineProtectedContent.ShareResources
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NS:cmdtree.tagDBCONTENTSCOPE
 title: DBCONTENTSCOPE (cmdtree.h)
-
 description: The DBCONTENTSCOPE structure is used to pass a scope argument in a command tree.
 old-location: indexsrv\dbcontentscope.htm
 tech.root: IndexSrv
 ms.assetid: VS|indexsrv|~\html\ixoledb_4s85.htm
-
 ms.date: 12/05/2018
 ms.keywords: DBCONTENTSCOPE, DBCONTENTSCOPE structure [Indexing Service], _idxs_DBCONTENTSCOPE, cmdtree/DBCONTENTSCOPE, indexsrv.dbcontentscope, tagDBCONTENTSCOPE
 ms.topic: struct
-f1_keywords: 
- - "cmdtree/DBCONTENTSCOPE"
+f1_keywords:
+- cmdtree/DBCONTENTSCOPE
 dev_langs:
- - c++
+- c++
 req.header: cmdtree.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - cmdtree.h
+- cmdtree.h
 api_name:
- - DBCONTENTSCOPE
+- DBCONTENTSCOPE
 targetos: Windows
 req.typenames: DBCONTENTSCOPE
 req.redist: 

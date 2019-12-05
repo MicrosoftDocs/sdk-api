@@ -1,19 +1,17 @@
 ---
 UID: NS:winuser.tagCOMPAREITEMSTRUCT
 title: COMPAREITEMSTRUCT (winuser.h)
-
 description: Supplies the identifiers and application-supplied data for two items in a sorted, owner-drawn list box or combo box.
 old-location: controls\COMPAREITEMSTRUCT.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\comboboxes\comboboxreference\comboboxstructures\compareitemstruct.htm
-
 ms.date: 12/05/2018
-ms.keywords: "*LPCOMPAREITEMSTRUCT, *PCOMPAREITEMSTRUCT, COMPAREITEMSTRUCT, COMPAREITEMSTRUCT structure [Windows Controls], _win32_COMPAREITEMSTRUCT_str, _win32_COMPAREITEMSTRUCT_str_cpp, controls.COMPAREITEMSTRUCT, controls._win32_COMPAREITEMSTRUCT_str, winuser/COMPAREITEMSTRUCT"
+ms.keywords: '*LPCOMPAREITEMSTRUCT, *PCOMPAREITEMSTRUCT, COMPAREITEMSTRUCT, COMPAREITEMSTRUCT structure [Windows Controls], _win32_COMPAREITEMSTRUCT_str, _win32_COMPAREITEMSTRUCT_str_cpp, controls.COMPAREITEMSTRUCT, controls._win32_COMPAREITEMSTRUCT_str, winuser/COMPAREITEMSTRUCT'
 ms.topic: struct
-f1_keywords: 
- - "winuser/COMPAREITEMSTRUCT"
+f1_keywords:
+- winuser/COMPAREITEMSTRUCT
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Winuser.h
+- Winuser.h
 api_name:
- - COMPAREITEMSTRUCT
+- COMPAREITEMSTRUCT
 targetos: Windows
 req.typenames: COMPAREITEMSTRUCT, *PCOMPAREITEMSTRUCT, *LPCOMPAREITEMSTRUCT
 req.redist: 

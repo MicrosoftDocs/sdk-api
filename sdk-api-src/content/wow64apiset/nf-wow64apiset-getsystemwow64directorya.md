@@ -1,19 +1,17 @@
 ---
 UID: NF:wow64apiset.GetSystemWow64DirectoryA
 title: GetSystemWow64DirectoryA function (wow64apiset.h)
-
 description: Retrieves the path of the system directory used by WOW64.
 old-location: base\getsystemwow64directory.htm
 tech.root: SysInfo
 ms.assetid: 31ccd1bf-87c7-4df6-ae9d-5a3dfbd8b38b
-
 ms.date: 12/05/2018
 ms.keywords: GetSystemWow64Directory, GetSystemWow64Directory function, GetSystemWow64DirectoryA, GetSystemWow64DirectoryW, _win32_getsystemwow64directory, base.getsystemwow64directory, wow64apiset/GetSystemWow64Directory, wow64apiset/GetSystemWow64DirectoryA, wow64apiset/GetSystemWow64DirectoryW
 ms.topic: function
-f1_keywords: 
- - "wow64apiset/GetSystemWow64Directory"
+f1_keywords:
+- wow64apiset/GetSystemWow64Directory
 dev_langs:
- - c++
+- c++
 req.header: wow64apiset.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,27 +30,27 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-Kernel32-Legacy-l1-1-0.dll
- - kernel32legacy.dll
- - API-MS-Win-Core-Kernel32-Legacy-l1-1-1.dll
- - API-MS-Win-Core-Kernel32-Legacy-l1-1-2.dll
- - API-MS-Win-DownLevel-Kernel32-l2-1-0.dll
- - API-MS-Win-Core-Wow64-l1-1-1.dll
- - KernelBase.dll
- - MinKernelBase.dll
- - API-MS-Win-Core-Kernel32-Legacy-L1-1-3.dll
- - API-MS-Win-Core-Kernel32-Legacy-L1-1-4.dll
- - API-MS-Win-Core-Kernel32-Legacy-L1-1-5.dll
+- Kernel32.dll
+- API-MS-Win-Core-Kernel32-Legacy-l1-1-0.dll
+- kernel32legacy.dll
+- API-MS-Win-Core-Kernel32-Legacy-l1-1-1.dll
+- API-MS-Win-Core-Kernel32-Legacy-l1-1-2.dll
+- API-MS-Win-DownLevel-Kernel32-l2-1-0.dll
+- API-MS-Win-Core-Wow64-l1-1-1.dll
+- KernelBase.dll
+- MinKernelBase.dll
+- API-MS-Win-Core-Kernel32-Legacy-L1-1-3.dll
+- API-MS-Win-Core-Kernel32-Legacy-L1-1-4.dll
+- API-MS-Win-Core-Kernel32-Legacy-L1-1-5.dll
 api_name:
- - GetSystemWow64Directory
- - GetSystemWow64DirectoryA
- - GetSystemWow64DirectoryW
+- GetSystemWow64Directory
+- GetSystemWow64DirectoryA
+- GetSystemWow64DirectoryW
 targetos: Windows
 req.typenames: 
 req.redist: 

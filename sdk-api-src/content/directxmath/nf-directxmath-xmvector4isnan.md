@@ -1,19 +1,17 @@
 ---
 UID: NF:directxmath.XMVector4IsNaN
 title: XMVector4IsNaN function (directxmath.h)
-
 description: Tests whether any component of a 4D vector is a NaN.
 old-location: dxmath\xmvector4isnan.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.comparison.XMVector4IsNaN(XMVECTOR)
-
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMVector4IsNaN, XMVector4IsNaN, XMVector4IsNaN method [DirectX Math Support APIs], dxmath.xmvector4isnan
 ms.topic: function
-f1_keywords: 
- - "directxmath/XMVector4IsNaN"
+f1_keywords:
+- directxmath/XMVector4IsNaN
 dev_langs:
- - c++
+- c++
 req.header: directxmath.h
 req.include-header: DirectXMath.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - directxmathvector.inl
+- directxmathvector.inl
 api_name:
- - XMVector4IsNaN
+- XMVector4IsNaN
 targetos: Windows
 req.typenames: 
 req.redist: 

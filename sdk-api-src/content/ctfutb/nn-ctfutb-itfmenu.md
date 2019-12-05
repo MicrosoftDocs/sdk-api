@@ -1,19 +1,17 @@
 ---
 UID: NN:ctfutb.ITfMenu
 title: ITfMenu (ctfutb.h)
-
 description: The ITfMenu interface is implemented by the language bar and used by a language bar button provider to add items to the menu that the language bar will display for the button.
 old-location: tsf\itfmenu.htm
 tech.root: TSF
 ms.assetid: 303115e1-8d52-4a0a-b05e-b5c92b8b3e2a
-
 ms.date: 12/05/2018
 ms.keywords: ITfMenu, ITfMenu interface [Text Services Framework], ITfMenu interface [Text Services Framework],described, _tsf_itfmenu_ref, ctfutb/ITfMenu, tsf.itfmenu
 ms.topic: interface
-f1_keywords: 
- - "ctfutb/ITfMenu"
+f1_keywords:
+- ctfutb/ITfMenu
 dev_langs:
- - c++
+- c++
 req.header: ctfutb.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msctf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msctf.dll
+- msctf.dll
 api_name:
- - ITfMenu
+- ITfMenu
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

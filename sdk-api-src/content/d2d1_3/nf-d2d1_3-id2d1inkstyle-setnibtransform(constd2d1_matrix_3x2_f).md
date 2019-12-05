@@ -1,19 +1,17 @@
 ---
 UID: NF:d2d1_3.ID2D1InkStyle.SetNibTransform(const D2D1_MATRIX_3X2_F)
 title: ID2D1InkStyle::SetNibTransform(const D2D1_MATRIX_3X2_F) (d2d1_3.h)
-
 description: Sets the transform to apply to this style's nib shape.
 old-location: direct2d\id2d1inkstyle_setnibtransform.htm
 tech.root: Direct2D
 ms.assetid: AE51951F-D8EA-46DD-8239-E1EAD2D9BD5C
-
 ms.date: 12/05/2018
 ms.keywords: ID2D1InkStyle interface [Direct2D],SetNibTransform method, ID2D1InkStyle.SetNibTransform, ID2D1InkStyle.SetNibTransform(const D2D1_MATRIX_3X2_F), ID2D1InkStyle::SetNibTransform, ID2D1InkStyle::SetNibTransform(const D2D1_MATRIX_3X2_F), SetNibTransform, SetNibTransform method [Direct2D], SetNibTransform method [Direct2D],ID2D1InkStyle interface, d2d1_3/ID2D1InkStyle::SetNibTransform, direct2d.id2d1inkstyle_setnibtransform
 ms.topic: method
-f1_keywords: 
- - "d2d1_3/ID2D1InkStyle.SetNibTransform"
+f1_keywords:
+- d2d1_3/ID2D1InkStyle.SetNibTransform
 dev_langs:
- - c++
+- c++
 req.header: d2d1_3.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: D2d1_3.lib
 req.dll: D2d1_3.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - d2d1_3.dll
+- d2d1_3.dll
 api_name:
- - ID2D1InkStyle.SetNibTransform
+- ID2D1InkStyle.SetNibTransform
 targetos: Windows
 req.typenames: 
 req.redist: 

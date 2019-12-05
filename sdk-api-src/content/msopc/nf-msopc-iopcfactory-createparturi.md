@@ -1,19 +1,17 @@
 ---
 UID: NF:msopc.IOpcFactory.CreatePartUri
 title: IOpcFactory::CreatePartUri (msopc.h)
-
 description: Creates a part URI object that represents a part name.
 old-location: opc\iopcfactory_createparturi.htm
 tech.root: OPC
 ms.assetid: 8634d166-767a-46a5-9001-5fca88bfa844
-
 ms.date: 12/05/2018
 ms.keywords: CreatePartUri, CreatePartUri method [Open Packaging Conventions], CreatePartUri method [Open Packaging Conventions],IOpcFactory interface, IOpcFactory interface [Open Packaging Conventions],CreatePartUri method, IOpcFactory.CreatePartUri, IOpcFactory::CreatePartUri, msopc/IOpcFactory::CreatePartUri, opc.iopcfactory_createparturi
 ms.topic: method
-f1_keywords: 
- - "msopc/IOpcFactory.CreatePartUri"
+f1_keywords:
+- msopc/IOpcFactory.CreatePartUri
 dev_langs:
- - c++
+- c++
 req.header: msopc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msopc.h
+- msopc.h
 api_name:
- - IOpcFactory.CreatePartUri
+- IOpcFactory.CreatePartUri
 targetos: Windows
 req.typenames: 
 req.redist: 

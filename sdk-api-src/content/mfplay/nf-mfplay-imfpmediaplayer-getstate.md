@@ -1,19 +1,17 @@
 ---
 UID: NF:mfplay.IMFPMediaPlayer.GetState
 title: IMFPMediaPlayer::GetState (mfplay.h)
-
 description: Gets the current playback state of the MFPlay player object.
 old-location: mf\imfpmediaplayer_getstate.htm
 tech.root: medfound
 ms.assetid: 072c5e93-b3ce-469c-8235-3e9c63bd77e3
-
 ms.date: 12/05/2018
 ms.keywords: GetState, GetState method [Media Foundation], GetState method [Media Foundation],IMFPMediaPlayer interface, IMFPMediaPlayer interface [Media Foundation],GetState method, IMFPMediaPlayer.GetState, IMFPMediaPlayer::GetState, mf.imfpmediaplayer_getstate, mfplay/IMFPMediaPlayer::GetState
 ms.topic: method
-f1_keywords: 
- - "mfplay/IMFPMediaPlayer.GetState"
+f1_keywords:
+- mfplay/IMFPMediaPlayer.GetState
 dev_langs:
- - c++
+- c++
 req.header: mfplay.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfplay.h
+- mfplay.h
 api_name:
- - IMFPMediaPlayer.GetState
+- IMFPMediaPlayer.GetState
 targetos: Windows
 req.typenames: 
 req.redist: 

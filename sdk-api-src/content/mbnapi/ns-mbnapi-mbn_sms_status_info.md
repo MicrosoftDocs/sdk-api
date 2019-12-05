@@ -1,19 +1,17 @@
 ---
 UID: NS:mbnapi.MBN_SMS_STATUS_INFO
 title: MBN_SMS_STATUS_INFO (mbnapi.h)
-
 description: The MBN_SMS_STATUS_INFO structure contains the status of the SMS message store of a device.
 old-location: mbn\mbn_sms_status_info.htm
 tech.root: mbn
 ms.assetid: 9146d230-c96c-4d70-9bc5-e91896e19d35
-
 ms.date: 12/05/2018
 ms.keywords: MBN_SMS_STATUS_INFO, MBN_SMS_STATUS_INFO structure [Microsoft Broadband Networks], mbn.mbn_sms_status_info, mbnapi/MBN_SMS_STATUS_INFO
 ms.topic: struct
-f1_keywords: 
- - "mbnapi/MBN_SMS_STATUS_INFO"
+f1_keywords:
+- mbnapi/MBN_SMS_STATUS_INFO
 dev_langs:
- - c++
+- c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - mbnapi.h
+- mbnapi.h
 api_name:
- - MBN_SMS_STATUS_INFO
+- MBN_SMS_STATUS_INFO
 targetos: Windows
 req.typenames: MBN_SMS_STATUS_INFO
 req.redist: 

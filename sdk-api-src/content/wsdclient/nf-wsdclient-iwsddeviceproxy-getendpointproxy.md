@@ -1,19 +1,17 @@
 ---
 UID: NF:wsdclient.IWSDDeviceProxy.GetEndpointProxy
 title: IWSDDeviceProxy::GetEndpointProxy (wsdclient.h)
-
 description: Retrieves the endpoint proxy for the device.
 old-location: ncd\iwsddeviceproxy_getendpointproxy.htm
 tech.root: WsdApi
 ms.assetid: 088c14a7-f2aa-4415-a056-a0c725602938
-
 ms.date: 12/05/2018
 ms.keywords: GetEndpointProxy, GetEndpointProxy method, GetEndpointProxy method,IWSDDeviceProxy interface, IWSDDeviceProxy interface,GetEndpointProxy method, IWSDDeviceProxy.GetEndpointProxy, IWSDDeviceProxy::GetEndpointProxy, ncd.iwsddeviceproxy_getendpointproxy, wsdclient/IWSDDeviceProxy::GetEndpointProxy
 ms.topic: method
-f1_keywords: 
- - "wsdclient/IWSDDeviceProxy.GetEndpointProxy"
+f1_keywords:
+- wsdclient/IWSDDeviceProxy.GetEndpointProxy
 dev_langs:
- - c++
+- c++
 req.header: wsdclient.h
 req.include-header: Wsdapi.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wsdapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wsdapi.dll
+- Wsdapi.dll
 api_name:
- - IWSDDeviceProxy.GetEndpointProxy
+- IWSDDeviceProxy.GetEndpointProxy
 targetos: Windows
 req.typenames: 
 req.redist: 

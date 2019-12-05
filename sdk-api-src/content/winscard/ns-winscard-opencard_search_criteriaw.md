@@ -1,19 +1,17 @@
 ---
 UID: NS:winscard.__unnamed_struct_3
 title: OPENCARD_SEARCH_CRITERIAW (winscard.h)
-
 description: The OPENCARD_SEARCH_CRITERIA structure is used by the SCardUIDlgSelectCard function in order to recognize cards that meet the requirements set forth by the caller. You can, however, call SCardUIDlgSelectCard without using this structure.
 old-location: security\opencard_search_criteria.htm
 tech.root: SecAuthN
 ms.assetid: f20874ca-a714-45b7-abcb-85bedc4e6245
-
 ms.date: 12/05/2018
-ms.keywords: "*LPOPENCARD_SEARCH_CRITERIAW, *POPENCARD_SEARCH_CRITERIAW, LPOPENCARD_SEARCH_CRITERIA, LPOPENCARD_SEARCH_CRITERIA structure pointer [Security], OPENCARD_SEARCH_CRITERIA, OPENCARD_SEARCH_CRITERIA structure [Security], OPENCARD_SEARCH_CRITERIAA, OPENCARD_SEARCH_CRITERIAW, POPENCARD_SEARCH_CRITERIA, POPENCARD_SEARCH_CRITERIA structure pointer [Security], _smart_opencard_search_criteria, security.opencard_search_criteria, winscard/LPOPENCARD_SEARCH_CRITERIA, winscard/OPENCARD_SEARCH_CRITERIA, winscard/OPENCARD_SEARCH_CRITERIAA, winscard/OPENCARD_SEARCH_CRITERIAW, winscard/POPENCARD_SEARCH_CRITERIA"
+ms.keywords: '*LPOPENCARD_SEARCH_CRITERIAW, *POPENCARD_SEARCH_CRITERIAW, LPOPENCARD_SEARCH_CRITERIA, LPOPENCARD_SEARCH_CRITERIA structure pointer [Security], OPENCARD_SEARCH_CRITERIA, OPENCARD_SEARCH_CRITERIA structure [Security], OPENCARD_SEARCH_CRITERIAA, OPENCARD_SEARCH_CRITERIAW, POPENCARD_SEARCH_CRITERIA, POPENCARD_SEARCH_CRITERIA structure pointer [Security], _smart_opencard_search_criteria, security.opencard_search_criteria, winscard/LPOPENCARD_SEARCH_CRITERIA, winscard/OPENCARD_SEARCH_CRITERIA, winscard/OPENCARD_SEARCH_CRITERIAA, winscard/OPENCARD_SEARCH_CRITERIAW, winscard/POPENCARD_SEARCH_CRITERIA'
 ms.topic: struct
-f1_keywords: 
- - "winscard/OPENCARD_SEARCH_CRITERIA"
+f1_keywords:
+- winscard/OPENCARD_SEARCH_CRITERIA
 dev_langs:
- - c++
+- c++
 req.header: winscard.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Winscard.h
+- Winscard.h
 api_name:
- - OPENCARD_SEARCH_CRITERIA
- - OPENCARD_SEARCH_CRITERIAA
- - OPENCARD_SEARCH_CRITERIAW
+- OPENCARD_SEARCH_CRITERIA
+- OPENCARD_SEARCH_CRITERIAA
+- OPENCARD_SEARCH_CRITERIAW
 targetos: Windows
 req.typenames: OPENCARD_SEARCH_CRITERIAW, *POPENCARD_SEARCH_CRITERIAW, *LPOPENCARD_SEARCH_CRITERIAW
 req.redist: 

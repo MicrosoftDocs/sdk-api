@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.ICodecAPI.RegisterForEvent
 title: ICodecAPI::RegisterForEvent (strmif.h)
-
 description: The RegisterForEvent method registers the application to receive events from the codec.
 old-location: dshow\icodecapi_registerforevent.htm
 tech.root: DirectShow
 ms.assetid: 87423ddb-7011-40ab-a449-eb43688efb26
-
 ms.date: 12/05/2018
 ms.keywords: A proprietary event GUID defined by the codec., CODECAPI_CHANGELISTS, ICodecAPI interface [DirectShow],RegisterForEvent method, ICodecAPI.RegisterForEvent, ICodecAPI::RegisterForEvent, ICodecAPIRegisterForEvent, One of the property GUIDs defined in codecapi.h. (See Codec API Properties.), RegisterForEvent, RegisterForEvent method [DirectShow], RegisterForEvent method [DirectShow],ICodecAPI interface, dshow.icodecapi_registerforevent, strmif/ICodecAPI::RegisterForEvent
 ms.topic: method
-f1_keywords: 
- - "strmif/ICodecAPI.RegisterForEvent"
+f1_keywords:
+- strmif/ICodecAPI.RegisterForEvent
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - ICodecAPI.RegisterForEvent
+- ICodecAPI.RegisterForEvent
 targetos: Windows
 req.typenames: 
 req.redist: 

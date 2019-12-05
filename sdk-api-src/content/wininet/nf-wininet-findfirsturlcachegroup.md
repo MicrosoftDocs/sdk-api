@@ -1,19 +1,17 @@
 ---
 UID: NF:wininet.FindFirstUrlCacheGroup
 title: FindFirstUrlCacheGroup function (wininet.h)
-
 description: Initiates the enumeration of the cache groups in the Internet cache.
 old-location: wininet\findfirsturlcachegroup.htm
 tech.root: wininet
 ms.assetid: a333cbc6-a880-4b1c-be0d-abb083909638
-
 ms.date: 12/05/2018
 ms.keywords: FindFirstUrlCacheGroup, FindFirstUrlCacheGroup function [WinINet], _inet_findfirsturlcachegroup_function, wininet.findfirsturlcachegroup, wininet/FindFirstUrlCacheGroup
 ms.topic: function
-f1_keywords: 
- - "wininet/FindFirstUrlCacheGroup"
+f1_keywords:
+- wininet/FindFirstUrlCacheGroup
 dev_langs:
- - c++
+- c++
 req.header: wininet.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Wininet.lib
 req.dll: Wininet.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Wininet.dll
+- Wininet.dll
 api_name:
- - FindFirstUrlCacheGroup
+- FindFirstUrlCacheGroup
 targetos: Windows
 req.typenames: 
 req.redist: 

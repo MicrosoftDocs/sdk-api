@@ -1,19 +1,17 @@
 ---
 UID: NF:wmsdkidl.IWMSyncReader.SetRangeByFrame
 title: IWMSyncReader::SetRangeByFrame (wmsdkidl.h)
-
 description: The SetRangeByFrame method configures the synchronous reader to read a portion of the file specified by a starting video frame number and a number of frames to read.
 old-location: wmformat\iwmsyncreader_setrangebyframe.htm
 tech.root: wmformat
 ms.assetid: 3d53838c-0d07-4aa6-8797-9ed7e07cb8fe
-
 ms.date: 12/05/2018
 ms.keywords: IWMSyncReader interface [windows Media Format],SetRangeByFrame method, IWMSyncReader.SetRangeByFrame, IWMSyncReader::SetRangeByFrame, IWMSyncReaderSetRangeByFrame, SetRangeByFrame, SetRangeByFrame method [windows Media Format], SetRangeByFrame method [windows Media Format],IWMSyncReader interface, wmformat.iwmsyncreader_setrangebyframe, wmsdkidl/IWMSyncReader::SetRangeByFrame
 ms.topic: method
-f1_keywords: 
- - "wmsdkidl/IWMSyncReader.SetRangeByFrame"
+f1_keywords:
+- wmsdkidl/IWMSyncReader.SetRangeByFrame
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wmvcore.lib
- - Wmvcore.dll
- - WMStubDRM.lib
- - WMStubDRM.dll
+- Wmvcore.lib
+- Wmvcore.dll
+- WMStubDRM.lib
+- WMStubDRM.dll
 api_name:
- - IWMSyncReader.SetRangeByFrame
+- IWMSyncReader.SetRangeByFrame
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:eapmethodauthenticatorapis.EapMethodAuthenticatorFreeMemory
 title: EapMethodAuthenticatorFreeMemory function (eapmethodauthenticatorapis.h)
-
 description: Releases all memory associated with an opaque user interface context data buffer.
 old-location: eaphost\eapmethodauthenticatorfreememory.htm
 tech.root: eaphost
 ms.assetid: 9ec9f468-4589-4832-9f17-ddc0b64b88f1
-
 ms.date: 12/05/2018
 ms.keywords: EapMethodAuthenticatorFreeMemory, EapMethodAuthenticatorFreeMemory function [EAPHost], eaphost.eapmethodauthenticatorfreememory, eapmethodauthenticatorapis/EapMethodAuthenticatorFreeMemory
 ms.topic: function
-f1_keywords: 
- - "eapmethodauthenticatorapis/EapMethodAuthenticatorFreeMemory"
+f1_keywords:
+- eapmethodauthenticatorapis/EapMethodAuthenticatorFreeMemory
 dev_langs:
- - c++
+- c++
 req.header: eapmethodauthenticatorapis.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - eapmethodauthenticatorapis.h
+- eapmethodauthenticatorapis.h
 api_name:
- - EapMethodAuthenticatorFreeMemory
+- EapMethodAuthenticatorFreeMemory
 targetos: Windows
 req.typenames: 
 req.redist: 

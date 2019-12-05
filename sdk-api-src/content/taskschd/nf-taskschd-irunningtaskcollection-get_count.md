@@ -1,19 +1,17 @@
 ---
 UID: NF:taskschd.IRunningTaskCollection.get_Count
 title: IRunningTaskCollection::get_Count (taskschd.h)
-
 description: Gets the number of running tasks in the collection.
 old-location: taskschd\irunningtaskcollection_count.htm
 tech.root: taskschd
 ms.assetid: 0365b804-6450-494d-8a5b-8fc805766611
-
 ms.date: 12/05/2018
 ms.keywords: Count property [Task Scheduler], Count property [Task Scheduler],IRunningTaskCollection interface, IRunningTaskCollection interface [Task Scheduler],Count property, IRunningTaskCollection.Count, IRunningTaskCollection.get_Count, IRunningTaskCollection::Count, IRunningTaskCollection::get_Count, get_Count, taskschd.irunningtaskcollection_count, taskschd/IRunningTaskCollection::Count, taskschd/IRunningTaskCollection::get_Count
 ms.topic: method
-f1_keywords: 
- - "taskschd/IRunningTaskCollection.Count"
+f1_keywords:
+- taskschd/IRunningTaskCollection.Count
 dev_langs:
- - c++
+- c++
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Taskschd.lib
 req.dll: Taskschd.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - taskschd.dll
+- taskschd.dll
 api_name:
- - IRunningTaskCollection.Count
- - IRunningTaskCollection.get_Count
+- IRunningTaskCollection.Count
+- IRunningTaskCollection.get_Count
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:control.IBasicVideo.get_VideoWidth
 title: IBasicVideo::get_VideoWidth (control.h)
-
 description: The get_VideoWidth method retrieves the native width of the video.
 old-location: dshow\ibasicvideo_get_videowidth.htm
 tech.root: DirectShow
 ms.assetid: d5167b1e-1341-43b0-bc72-e990ee76e3c4
-
 ms.date: 12/05/2018
 ms.keywords: IBasicVideo interface [DirectShow],get_VideoWidth method, IBasicVideo.get_VideoWidth, IBasicVideo::get_VideoWidth, IBasicVideoget_VideoWidth, control/IBasicVideo::get_VideoWidth, dshow.ibasicvideo_get_videowidth, get_VideoWidth, get_VideoWidth method [DirectShow], get_VideoWidth method [DirectShow],IBasicVideo interface
 ms.topic: method
-f1_keywords: 
- - "control/IBasicVideo.get_VideoWidth"
+f1_keywords:
+- control/IBasicVideo.get_VideoWidth
 dev_langs:
- - c++
+- c++
 req.header: control.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IBasicVideo.get_VideoWidth
+- IBasicVideo.get_VideoWidth
 targetos: Windows
 req.typenames: 
 req.redist: 

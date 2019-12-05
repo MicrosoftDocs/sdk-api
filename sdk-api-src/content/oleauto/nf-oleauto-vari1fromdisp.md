@@ -1,19 +1,17 @@
 ---
 UID: NF:oleauto.VarI1FromDisp
 title: VarI1FromDisp function (oleauto.h)
-
 description: Converts the default property of an IDispatch instance to a char value.
 old-location: automat\vari1fromdisp.htm
 tech.root: automat
 ms.assetid: 82439eb1-e46f-4179-9017-fc5dccdbfeaf
-
 ms.date: 12/05/2018
 ms.keywords: VarI1FromDisp, VarI1FromDisp function [Automation], _oa96_VarI1FromDisp, automat.vari1fromdisp, oleauto/VarI1FromDisp
 ms.topic: function
-f1_keywords: 
- - "oleauto/VarI1FromDisp"
+f1_keywords:
+- oleauto/VarI1FromDisp
 dev_langs:
- - c++
+- c++
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: OleAut32.lib
 req.dll: OleAut32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - OleAut32.dll
+- OleAut32.dll
 api_name:
- - VarI1FromDisp
+- VarI1FromDisp
 targetos: Windows
 req.typenames: 
 req.redist: 

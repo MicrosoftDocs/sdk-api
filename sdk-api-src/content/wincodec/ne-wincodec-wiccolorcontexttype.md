@@ -1,19 +1,17 @@
 ---
 UID: NE:wincodec.WICColorContextType
 title: WICColorContextType (wincodec.h)
-
 description: Specifies the color context types.
 old-location: wic\_wic_codec_wiccolorcontexttype.htm
 tech.root: wic
 ms.assetid: 30fab53b-8edf-488c-a6f2-5224b94e0500
-
 ms.date: 12/05/2018
 ms.keywords: WICColorContextExifColorSpace, WICColorContextProfile, WICColorContextType, WICColorContextType enumeration [Windows Imaging Component], WICColorContextUninitialized, _wic_codec_wiccolorcontexttype, wic._wic_codec_wiccolorcontexttype, wincodec/WICColorContextExifColorSpace, wincodec/WICColorContextProfile, wincodec/WICColorContextType, wincodec/WICColorContextUninitialized
 ms.topic: enum
-f1_keywords: 
- - "wincodec/WICColorContextType"
+f1_keywords:
+- wincodec/WICColorContextType
 dev_langs:
- - c++
+- c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wincodec.h
+- Wincodec.h
 api_name:
- - WICColorContextType
+- WICColorContextType
 targetos: Windows
 req.typenames: WICColorContextType
 req.redist: 

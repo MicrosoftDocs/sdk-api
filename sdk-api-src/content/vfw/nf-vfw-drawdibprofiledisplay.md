@@ -1,19 +1,17 @@
 ---
 UID: NF:vfw.DrawDibProfileDisplay
 title: DrawDibProfileDisplay function (vfw.h)
-
 description: The DrawDibProfileDisplay function determines settings for the display system when using DrawDib functions.
 old-location: multimedia\drawdibprofiledisplay.htm
 tech.root: Multimedia
 ms.assetid: 51f8b1a2-26e2-40d3-bbc0-5c6c1b482014
-
 ms.date: 12/05/2018
 ms.keywords: DrawDibProfileDisplay, DrawDibProfileDisplay function [Windows Multimedia], _win32_DrawDibProfileDisplay, multimedia.drawdibprofiledisplay, vfw/DrawDibProfileDisplay
 ms.topic: function
-f1_keywords: 
- - "vfw/DrawDibProfileDisplay"
+f1_keywords:
+- vfw/DrawDibProfileDisplay
 dev_langs:
- - c++
+- c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Vfw32.lib
 req.dll: Msvfw32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Msvfw32.dll
+- Msvfw32.dll
 api_name:
- - DrawDibProfileDisplay
+- DrawDibProfileDisplay
 targetos: Windows
 req.typenames: 
 req.redist: 

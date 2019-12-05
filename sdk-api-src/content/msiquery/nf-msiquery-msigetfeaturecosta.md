@@ -1,19 +1,17 @@
 ---
 UID: NF:msiquery.MsiGetFeatureCostA
 title: MsiGetFeatureCostA function (msiquery.h)
-
 description: The MsiGetFeatureCost function returns the disk space required by a feature and its selected children and parent features.
 old-location: setup\msigetfeaturecost.htm
 tech.root: Msi
 ms.assetid: 492968a5-d781-45de-a4b2-eb1be3f3f148
-
 ms.date: 12/05/2018
 ms.keywords: INSTALLSTATE_ABSENT, INSTALLSTATE_DEFAULT, INSTALLSTATE_LOCAL, INSTALLSTATE_SOURCE, INSTALLSTATE_UNKNOWN, MSICOSTTREE_CHILDREN, MSICOSTTREE_PARENTS, MSICOSTTREE_SELFONLY, MsiGetFeatureCost, MsiGetFeatureCost function, MsiGetFeatureCostA, MsiGetFeatureCostW, _msi_msigetfeaturecost, msiquery/MsiGetFeatureCost, msiquery/MsiGetFeatureCostA, msiquery/MsiGetFeatureCostW, setup.msigetfeaturecost
 ms.topic: function
-f1_keywords: 
- - "msiquery/MsiGetFeatureCost"
+f1_keywords:
+- msiquery/MsiGetFeatureCost
 dev_langs:
- - c++
+- c++
 req.header: msiquery.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Msi.lib
 req.dll: Msi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Msi.dll
+- Msi.dll
 api_name:
- - MsiGetFeatureCost
- - MsiGetFeatureCostA
- - MsiGetFeatureCostW
+- MsiGetFeatureCost
+- MsiGetFeatureCostA
+- MsiGetFeatureCostW
 targetos: Windows
 req.typenames: 
 req.redist: 

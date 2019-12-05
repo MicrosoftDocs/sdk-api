@@ -1,19 +1,17 @@
 ---
 UID: NF:winuser.DrawCaption
 title: DrawCaption function (winuser.h)
-
 description: The DrawCaption function draws a window caption.
 old-location: gdi\drawcaption.htm
 tech.root: gdi
 ms.assetid: 9348e29f-ce56-4664-8862-f5810c797622
-
 ms.date: 12/05/2018
 ms.keywords: DC_ACTIVE, DC_BUTTONS, DC_GRADIENT, DC_ICON, DC_INBUTTON, DC_SMALLCAP, DC_TEXT, DrawCaption, DrawCaption function [Windows GDI], _win32_DrawCaption, gdi.drawcaption, winuser/DrawCaption
 ms.topic: function
-f1_keywords: 
- - "winuser/DrawCaption"
+f1_keywords:
+- winuser/DrawCaption
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - user32.dll
+- user32.dll
 api_name:
- - DrawCaption
+- DrawCaption
 targetos: Windows
 req.typenames: 
 req.redist: 

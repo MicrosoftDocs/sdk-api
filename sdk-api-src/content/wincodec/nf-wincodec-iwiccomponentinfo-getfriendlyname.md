@@ -1,19 +1,17 @@
 ---
 UID: NF:wincodec.IWICComponentInfo.GetFriendlyName
 title: IWICComponentInfo::GetFriendlyName (wincodec.h)
-
 description: Retrieves the component's friendly name, which is a human-readable display name for the component.
 old-location: wic\_wic_codec_iwiccomponentinfo_getfriendlyname.htm
 tech.root: wic
 ms.assetid: c67e7a30-8bd5-427b-8a67-c77e3cf86e78
-
 ms.date: 12/05/2018
 ms.keywords: GetFriendlyName, GetFriendlyName method [Windows Imaging Component], GetFriendlyName method [Windows Imaging Component],IWICComponentInfo interface, IWICComponentInfo interface [Windows Imaging Component],GetFriendlyName method, IWICComponentInfo.GetFriendlyName, IWICComponentInfo::GetFriendlyName, _wic_codec_iwiccomponentinfo_getfriendlyname, wic._wic_codec_iwiccomponentinfo_getfriendlyname, wincodec/IWICComponentInfo::GetFriendlyName
 ms.topic: method
-f1_keywords: 
- - "wincodec/IWICComponentInfo.GetFriendlyName"
+f1_keywords:
+- wincodec/IWICComponentInfo.GetFriendlyName
 dev_langs:
- - c++
+- c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Windowscodecs.lib
 req.dll: Windowscodecs.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Windowscodecs.dll
+- Windowscodecs.dll
 api_name:
- - IWICComponentInfo.GetFriendlyName
+- IWICComponentInfo.GetFriendlyName
 targetos: Windows
 req.typenames: 
 req.redist: 

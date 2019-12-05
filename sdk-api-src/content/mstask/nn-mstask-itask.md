@@ -1,19 +1,17 @@
 ---
 UID: NN:mstask.ITask
 title: ITask (mstask.h)
-
 description: Provides the methods for running tasks, getting or setting task information, and terminating tasks. It is derived from the IScheduledWorkItem interface and inherits all the methods of that interface.
 old-location: taskschd\itask.htm
 tech.root: taskschd
 ms.assetid: 84a70dd0-43cb-42be-8360-35263bf1afb8
-
 ms.date: 12/05/2018
 ms.keywords: ITask, ITask interface [Task Scheduler], ITask interface [Task Scheduler],described, _msb_itask, mstask/ITask, taskschd.itask
 ms.topic: interface
-f1_keywords: 
- - "mstask/ITask"
+f1_keywords:
+- mstask/ITask
 dev_langs:
- - c++
+- c++
 req.header: mstask.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Mstask.lib
 req.dll: Mstask.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mstask.dll
+- Mstask.dll
 api_name:
- - ITask
+- ITask
 targetos: Windows
 req.typenames: 
 req.redist: Internet Explorer 4.0 or later on Windows NT 4.0 and Windows 95

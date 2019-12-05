@@ -1,19 +1,17 @@
 ---
 UID: NF:http.HttpCreateRequestQueue
 title: HttpCreateRequestQueue function (http.h)
-
 description: Creates a new request queue or opens an existing request queue.
 old-location: http\httpcreaterequestqueue.htm
 tech.root: http
 ms.assetid: a0f4112e-db81-4eda-afeb-d00117f7240c
-
 ms.date: 12/05/2018
 ms.keywords: HTTP_CREATE_REQUEST_QUEUE_FLAG_CONTROLLER, HTTP_CREATE_REQUEST_QUEUE_FLAG_OPEN_EXISTING, HttpCreateRequestQueue, HttpCreateRequestQueue function [HTTP], http.httpcreaterequestqueue, http/HttpCreateRequestQueue
 ms.topic: function
-f1_keywords: 
- - "http/HttpCreateRequestQueue"
+f1_keywords:
+- http/HttpCreateRequestQueue
 dev_langs:
- - c++
+- c++
 req.header: http.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Httpapi.lib
 req.dll: Httpapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Httpapi.dll
+- Httpapi.dll
 api_name:
- - HttpCreateRequestQueue
+- HttpCreateRequestQueue
 targetos: Windows
 req.typenames: 
 req.redist: 

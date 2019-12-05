@@ -1,19 +1,17 @@
 ---
 UID: NF:setupapi.SetupDiGetClassDescriptionA
 title: SetupDiGetClassDescriptionA function (setupapi.h)
-
 description: The SetupDiGetClassDescription function retrieves the class description associated with the specified setup class GUID.
 old-location: devinst\setupdigetclassdescription.htm
 tech.root: devinst
 ms.assetid: a9757c77-f873-4f75-be80-c4bd1d327299
-
 ms.date: 12/05/2018
 ms.keywords: SetupDiGetClassDescription, SetupDiGetClassDescription function [Device and Driver Installation], SetupDiGetClassDescriptionA, SetupDiGetClassDescriptionW, devinst.setupdigetclassdescription, di-rtns_90458b4a-959d-4344-ae06-c88cbdbbfbdf.xml, setupapi/SetupDiGetClassDescription
 ms.topic: function
-f1_keywords: 
- - "setupapi/SetupDiGetClassDescription"
+f1_keywords:
+- setupapi/SetupDiGetClassDescription
 dev_langs:
- - c++
+- c++
 req.header: setupapi.h
 req.include-header: Setupapi.h
 req.target-type: Desktop
@@ -32,16 +30,16 @@ req.lib: Setupapi.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - LibDef
+- LibDef
 api_location:
- - Setupapi.lib
- - Setupapi.dll
+- Setupapi.lib
+- Setupapi.dll
 api_name:
- - SetupDiGetClassDescription
- - SetupDiGetClassDescriptionA
+- SetupDiGetClassDescription
+- SetupDiGetClassDescriptionA
 targetos: Windows
 req.typenames: 
 req.redist: 

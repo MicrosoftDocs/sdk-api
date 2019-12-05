@@ -1,19 +1,17 @@
 ---
 UID: NF:d2d1helper.QuadraticBezierSegment
 title: QuadraticBezierSegment function (d2d1helper.h)
-
 description: Creates a D2D1_QUADRATIC_BEZIER_SEGMENT structure.
 old-location: direct2d\quadraticbeziersegment.htm
 tech.root: Direct2D
 ms.assetid: 9b72e367-85dd-4a1f-a67e-34fc4b078ebe
-
 ms.date: 12/05/2018
 ms.keywords: QuadraticBezierSegment, QuadraticBezierSegment function [Direct2D], d2d1helper/QuadraticBezierSegment, direct2d.quadraticbeziersegment
 ms.topic: function
-f1_keywords: 
- - "d2d1helper/QuadraticBezierSegment"
+f1_keywords:
+- d2d1helper/QuadraticBezierSegment
 dev_langs:
- - c++
+- c++
 req.header: d2d1helper.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: D2d1.lib
 req.dll: D2d1.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - D2d1.dll
+- D2d1.dll
 api_name:
- - QuadraticBezierSegment
+- QuadraticBezierSegment
 targetos: Windows
 req.typenames: 
 req.redist: 

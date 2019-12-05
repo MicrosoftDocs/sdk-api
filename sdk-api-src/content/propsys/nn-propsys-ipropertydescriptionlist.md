@@ -1,19 +1,17 @@
 ---
 UID: NN:propsys.IPropertyDescriptionList
 title: IPropertyDescriptionList (propsys.h)
-
 description: Exposes methods that extract information from a collection of property descriptions presented as a list.
 old-location: properties\IPropertyDescriptionList.htm
 tech.root: properties
 ms.assetid: e0530195-27da-4df7-884f-518e905f3c0e
-
 ms.date: 12/05/2018
 ms.keywords: IPropertyDescriptionList, IPropertyDescriptionList interface [Windows Properties], IPropertyDescriptionList interface [Windows Properties],described, _shell_IPropertyDescriptionList, properties.IPropertyDescriptionList, propsys/IPropertyDescriptionList, shell.IPropertyDescriptionList
 ms.topic: interface
-f1_keywords: 
- - "propsys/IPropertyDescriptionList"
+f1_keywords:
+- propsys/IPropertyDescriptionList
 dev_langs:
- - c++
+- c++
 req.header: propsys.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Propsys.h
+- Propsys.h
 api_name:
- - IPropertyDescriptionList
+- IPropertyDescriptionList
 targetos: Windows
 req.typenames: 
 req.redist: 

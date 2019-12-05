@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IAMVideoCompression.get_KeyFrameRate
 title: IAMVideoCompression::get_KeyFrameRate (strmif.h)
-
 description: The get_KeyFrameRate method retrieves the current key-frame rate.
 old-location: dshow\iamvideocompression_get_keyframerate.htm
 tech.root: DirectShow
 ms.assetid: af73cfaa-3297-44a7-96a7-8805aad057e2
-
 ms.date: 12/05/2018
 ms.keywords: IAMVideoCompression interface [DirectShow],get_KeyFrameRate method, IAMVideoCompression.get_KeyFrameRate, IAMVideoCompression::get_KeyFrameRate, IAMVideoCompressionget_KeyFrameRate, dshow.iamvideocompression_get_keyframerate, get_KeyFrameRate, get_KeyFrameRate method [DirectShow], get_KeyFrameRate method [DirectShow],IAMVideoCompression interface, strmif/IAMVideoCompression::get_KeyFrameRate
 ms.topic: method
-f1_keywords: 
- - "strmif/IAMVideoCompression.get_KeyFrameRate"
+f1_keywords:
+- strmif/IAMVideoCompression.get_KeyFrameRate
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IAMVideoCompression.get_KeyFrameRate
+- IAMVideoCompression.get_KeyFrameRate
 targetos: Windows
 req.typenames: 
 req.redist: 

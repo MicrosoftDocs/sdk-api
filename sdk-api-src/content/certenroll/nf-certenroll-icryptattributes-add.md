@@ -1,19 +1,17 @@
 ---
 UID: NF:certenroll.ICryptAttributes.Add
 title: ICryptAttributes::Add (certenroll.h)
-
 description: Adds an ICryptAttribute object to the collection.
 old-location: security\icryptattributes_add_method.htm
 tech.root: seccertenroll
 ms.assetid: a9288c74-3d7f-4293-b666-45c90a859166
-
 ms.date: 12/05/2018
 ms.keywords: Add, Add method [Security], Add method [Security],ICryptAttributes interface, ICryptAttributes interface [Security],Add method, ICryptAttributes.Add, ICryptAttributes::Add, certenroll/ICryptAttributes::Add, security.icryptattributes_add_method
 ms.topic: method
-f1_keywords: 
- - "certenroll/ICryptAttributes.Add"
+f1_keywords:
+- certenroll/ICryptAttributes.Add
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: CertEnroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CertEnroll.dll
+- CertEnroll.dll
 api_name:
- - ICryptAttributes.Add
+- ICryptAttributes.Add
 targetos: Windows
 req.typenames: 
 req.redist: 

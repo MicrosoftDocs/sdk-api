@@ -1,19 +1,17 @@
 ---
 UID: NF:dcomp.IDCompositionTurbulenceEffect.SetNumOctaves
 title: IDCompositionTurbulenceEffect::SetNumOctaves (dcomp.h)
-
 description: Sets the number of octaves for the noise function.
 old-location: directcomp\idcompositionturbulenceeffect_setnumoctaves.htm
 tech.root: directcomp
 ms.assetid: 759F03F2-4CA2-454D-8AAE-C18B5E3FD3D0
-
 ms.date: 12/05/2018
 ms.keywords: IDCompositionTurbulenceEffect interface [DirectComposition],SetNumOctaves method, IDCompositionTurbulenceEffect.SetNumOctaves, IDCompositionTurbulenceEffect::SetNumOctaves, SetNumOctaves, SetNumOctaves method [DirectComposition], SetNumOctaves method [DirectComposition],IDCompositionTurbulenceEffect interface, dcomp/IDCompositionTurbulenceEffect::SetNumOctaves, directcomp.idcompositionturbulenceeffect_setnumoctaves
 ms.topic: method
-f1_keywords: 
- - "dcomp/IDCompositionTurbulenceEffect.SetNumOctaves"
+f1_keywords:
+- dcomp/IDCompositionTurbulenceEffect.SetNumOctaves
 dev_langs:
- - c++
+- c++
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dcomp.lib
 req.dll: Dcomp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dcomp.dll
+- Dcomp.dll
 api_name:
- - IDCompositionTurbulenceEffect.SetNumOctaves
+- IDCompositionTurbulenceEffect.SetNumOctaves
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NE:mbnapi.MBN_COMPRESSION
 title: MBN_COMPRESSION (mbnapi.h)
-
 description: The MBN_COMPRESSION enumerated type specifies whether compression is to be used in the data link for header and data.
 old-location: mbn\mbn_compression.htm
 tech.root: mbn
 ms.assetid: fd5cbfba-2eea-4d81-9733-33feb402fd8d
-
 ms.date: 12/05/2018
 ms.keywords: MBN_COMPRESSION, MBN_COMPRESSION enumeration [Microsoft Broadband Networks], MBN_COMPRESSION_ENABLE, MBN_COMPRESSION_NONE, mbn.mbn_compression, mbnapi/MBN_COMPRESSION, mbnapi/MBN_COMPRESSION_ENABLE, mbnapi/MBN_COMPRESSION_NONE
 ms.topic: enum
-f1_keywords: 
- - "mbnapi/MBN_COMPRESSION"
+f1_keywords:
+- mbnapi/MBN_COMPRESSION
 dev_langs:
- - c++
+- c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - mbnapi.h
+- mbnapi.h
 api_name:
- - MBN_COMPRESSION
+- MBN_COMPRESSION
 targetos: Windows
 req.typenames: MBN_COMPRESSION
 req.redist: 

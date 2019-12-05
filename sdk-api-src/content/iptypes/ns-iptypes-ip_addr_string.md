@@ -1,19 +1,17 @@
 ---
 UID: NS:iptypes._IP_ADDR_STRING
 title: IP_ADDR_STRING (iptypes.h)
-
 description: Represents a node in a linked-list of IPv4 addresses.
 old-location: iphlp\ip_addr_string.htm
 tech.root: IpHlp
 ms.assetid: 783c383d-7fd3-45bc-90f6-2e8ce01db3c3
-
 ms.date: 12/05/2018
-ms.keywords: "*PIP_ADDR_STRING, IP_ADDR_STRING, IP_ADDR_STRING structure [IP Helper], PIP_ADDR_STRING, PIP_ADDR_STRING structure pointer [IP Helper], _iphlp_ip_addr_string, iphlp.ip_addr_string, iptypes/IP_ADDR_STRING, iptypes/PIP_ADDR_STRING"
+ms.keywords: '*PIP_ADDR_STRING, IP_ADDR_STRING, IP_ADDR_STRING structure [IP Helper], PIP_ADDR_STRING, PIP_ADDR_STRING structure pointer [IP Helper], _iphlp_ip_addr_string, iphlp.ip_addr_string, iptypes/IP_ADDR_STRING, iptypes/PIP_ADDR_STRING'
 ms.topic: struct
-f1_keywords: 
- - "iptypes/IP_ADDR_STRING"
+f1_keywords:
+- iptypes/IP_ADDR_STRING
 dev_langs:
- - c++
+- c++
 req.header: iptypes.h
 req.include-header: Iphlpapi.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Iptypes.h
+- Iptypes.h
 api_name:
- - IP_ADDR_STRING
+- IP_ADDR_STRING
 targetos: Windows
 req.typenames: IP_ADDR_STRING, *PIP_ADDR_STRING
 req.redist: 

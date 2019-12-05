@@ -1,19 +1,17 @@
 ---
 UID: NF:winnt.RtlDeleteGrowableFunctionTable
 title: RtlDeleteGrowableFunctionTable function (winnt.h)
-
 description: Informs the system that a previously reported dynamic function table is no longer in use.
 old-location: base\rtldeletegrowablefunctiontable.htm
 tech.root: Debug
 ms.assetid: 2ae4eef2-5cdc-4ebf-9285-ef6a1a4e9197
-
 ms.date: 12/05/2018
 ms.keywords: RtlDeleteGrowableFunctionTable, RtlDeleteGrowableFunctionTable function, base.rtldeletegrowablefunctiontable, winnt/RtlDeleteGrowableFunctionTable
 ms.topic: function
-f1_keywords: 
- - "winnt/RtlDeleteGrowableFunctionTable"
+f1_keywords:
+- winnt/RtlDeleteGrowableFunctionTable
 dev_langs:
- - c++
+- c++
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Ntdll.lib
 req.dll: Ntdll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - ntdll.dll
- - API-MS-Win-Core-RTLSupport-l1-2-0.dll
+- ntdll.dll
+- API-MS-Win-Core-RTLSupport-l1-2-0.dll
 api_name:
- - RtlDeleteGrowableFunctionTable
+- RtlDeleteGrowableFunctionTable
 targetos: Windows
 req.typenames: 
 req.redist: 

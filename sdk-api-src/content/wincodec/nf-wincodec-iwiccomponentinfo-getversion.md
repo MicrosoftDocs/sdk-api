@@ -1,19 +1,17 @@
 ---
 UID: NF:wincodec.IWICComponentInfo.GetVersion
 title: IWICComponentInfo::GetVersion (wincodec.h)
-
 description: Retrieves the component's version.
 old-location: wic\_wic_codec_iwiccomponentinfo_getversion.htm
 tech.root: wic
 ms.assetid: f65d13ae-ccec-49a8-8818-225464b3a117
-
 ms.date: 12/05/2018
 ms.keywords: GetVersion, GetVersion method [Windows Imaging Component], GetVersion method [Windows Imaging Component],IWICComponentInfo interface, IWICComponentInfo interface [Windows Imaging Component],GetVersion method, IWICComponentInfo.GetVersion, IWICComponentInfo::GetVersion, _wic_codec_iwiccomponentinfo_getversion, wic._wic_codec_iwiccomponentinfo_getversion, wincodec/IWICComponentInfo::GetVersion
 ms.topic: method
-f1_keywords: 
- - "wincodec/IWICComponentInfo.GetVersion"
+f1_keywords:
+- wincodec/IWICComponentInfo.GetVersion
 dev_langs:
- - c++
+- c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Windowscodecs.lib
 req.dll: Windowscodecs.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Windowscodecs.dll
+- Windowscodecs.dll
 api_name:
- - IWICComponentInfo.GetVersion
+- IWICComponentInfo.GetVersion
 targetos: Windows
 req.typenames: 
 req.redist: 

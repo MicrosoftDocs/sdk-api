@@ -1,19 +1,17 @@
 ---
 UID: NF:faxcomex.IFaxOutboundRoutingGroups.Add
 title: IFaxOutboundRoutingGroups::Add (faxcomex.h)
-
 description: The IFaxOutboundRoutingGroups::Add method adds an outbound routing group to the collection represented by the IFaxOutboundRoutingGroups interface.
 old-location: fax\_mfax_faxoutboundroutinggroups_add_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_35r8_cpp.htm
-
 ms.date: 12/05/2018
 ms.keywords: Add, Add method [Fax Service], Add method [Fax Service],IFaxOutboundRoutingGroups interface, IFaxOutboundRoutingGroups interface [Fax Service],Add method, IFaxOutboundRoutingGroups.Add, IFaxOutboundRoutingGroups::Add, _mfax_faxoutboundroutinggroups.add_cpp, fax._mfax_faxoutboundroutinggroups_add_cpp, faxcomex/IFaxOutboundRoutingGroups::Add
 ms.topic: method
-f1_keywords: 
- - "faxcomex/IFaxOutboundRoutingGroups.Add"
+f1_keywords:
+- faxcomex/IFaxOutboundRoutingGroups.Add
 dev_langs:
- - c++
+- c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Fxscomex.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Fxscomex.dll
+- Fxscomex.dll
 api_name:
- - IFaxOutboundRoutingGroups.Add
+- IFaxOutboundRoutingGroups.Add
 targetos: Windows
 req.typenames: 
 req.redist: 

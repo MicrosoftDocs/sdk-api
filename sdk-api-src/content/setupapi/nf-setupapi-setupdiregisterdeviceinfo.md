@@ -1,19 +1,17 @@
 ---
 UID: NF:setupapi.SetupDiRegisterDeviceInfo
 title: SetupDiRegisterDeviceInfo function (setupapi.h)
-
 description: The SetupDiRegisterDeviceInfo function is the default handler for the DIF_REGISTERDEVICE request.
 old-location: devinst\setupdiregisterdeviceinfo.htm
 tech.root: devinst
 ms.assetid: 76b2d1ab-3efb-46e6-8c44-d6913b0eecd5
-
 ms.date: 12/05/2018
 ms.keywords: SetupDiRegisterDeviceInfo, SetupDiRegisterDeviceInfo function [Device and Driver Installation], devinst.setupdiregisterdeviceinfo, di-rtns_ab9a56a2-3256-472f-a818-32918efd5673.xml, setupapi/SetupDiRegisterDeviceInfo
 ms.topic: function
 f1_keywords:
 - setupapi/SetupDiRegisterDeviceInfo
 dev_langs:
- - c++
+- c++
 req.header: setupapi.h
 req.include-header: Setupapi.h
 req.target-type: Desktop

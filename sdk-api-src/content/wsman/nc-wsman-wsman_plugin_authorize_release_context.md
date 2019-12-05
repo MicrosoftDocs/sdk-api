@@ -1,19 +1,17 @@
 ---
 UID: NC:wsman.WSMAN_PLUGIN_AUTHORIZE_RELEASE_CONTEXT
 title: WSMAN_PLUGIN_AUTHORIZE_RELEASE_CONTEXT (wsman.h)
-
 description: Releases the context that a plug-in reports from either WSManPluginAuthzUserComplete or WSManPluginAuthzOperationComplete.
 old-location: winrm\wsman_plugin_authorize_release_context.htm
 tech.root: winrm
 ms.assetid: f6cdf6cd-b62a-4678-a36e-a2a14662a9a5
-
 ms.date: 12/05/2018
 ms.keywords: WSMAN_PLUGIN_AUTHORIZE_RELEASE_CONTEXT, WSMAN_PLUGIN_AUTHORIZE_RELEASE_CONTEXT callback, WSMAN_PLUGIN_AUTHORIZE_RELEASE_CONTEXT callback function [Windows Remote Management], winrm.wsman_plugin_authorize_release_context, wsman/WSMAN_PLUGIN_AUTHORIZE_RELEASE_CONTEXT
 ms.topic: callback
-f1_keywords: 
- - "wsman/WSMAN_PLUGIN_AUTHORIZE_RELEASE_CONTEXT"
+f1_keywords:
+- wsman/WSMAN_PLUGIN_AUTHORIZE_RELEASE_CONTEXT
 dev_langs:
- - c++
+- c++
 req.header: wsman.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Wsman.h
+- Wsman.h
 api_name:
- - WSMAN_PLUGIN_AUTHORIZE_RELEASE_CONTEXT
+- WSMAN_PLUGIN_AUTHORIZE_RELEASE_CONTEXT
 targetos: Windows
 req.typenames: 
 req.redist: Windows Management Framework on Windows Server 2008 with SP2, Windows Vista with SP1, and Windows Vista with SP2

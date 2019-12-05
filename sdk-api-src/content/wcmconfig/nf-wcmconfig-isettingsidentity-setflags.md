@@ -1,19 +1,17 @@
 ---
 UID: NF:wcmconfig.ISettingsIdentity.SetFlags
 title: ISettingsIdentity::SetFlags (wcmconfig.h)
-
 description: Sets the identity flags for a namespace identity.
 old-location: smi\isettingsidentity_setflags.htm
 tech.root: SMI
 ms.assetid: f31f6ea1-e101-40c0-a431-ab3bdc9f02be
-
 ms.date: 12/05/2018
 ms.keywords: ISettingsIdentity interface [SMI],SetFlags method, ISettingsIdentity.SetFlags, ISettingsIdentity::SetFlags, SetFlags, SetFlags method [SMI], SetFlags method [SMI],ISettingsIdentity interface, smi.isettingsidentity_setflags, wcmconfig/ISettingsIdentity::SetFlags
 ms.topic: method
-f1_keywords: 
- - "wcmconfig/ISettingsIdentity.SetFlags"
+f1_keywords:
+- wcmconfig/ISettingsIdentity.SetFlags
 dev_langs:
- - c++
+- c++
 req.header: wcmconfig.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: SMIEngine.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - SMIEngine.dll
+- SMIEngine.dll
 api_name:
- - ISettingsIdentity.SetFlags
+- ISettingsIdentity.SetFlags
 targetos: Windows
 req.typenames: 
 req.redist: 

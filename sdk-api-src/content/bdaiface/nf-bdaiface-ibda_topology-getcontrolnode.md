@@ -1,19 +1,17 @@
 ---
 UID: NF:bdaiface.IBDA_Topology.GetControlNode
 title: IBDA_Topology::GetControlNode (bdaiface.h)
-
 description: The GetControlNode method retrieves an IUnknown interface pointer for a specified control node.
 old-location: mstv\ibda_topology_getcontrolnode.htm
 tech.root: mstv
 ms.assetid: eff76633-10c0-4f71-a267-b2e454dcfa6c
-
 ms.date: 12/05/2018
 ms.keywords: GetControlNode, GetControlNode method [Microsoft TV Technologies], GetControlNode method [Microsoft TV Technologies],IBDA_Topology interface, IBDA_Topology interface [Microsoft TV Technologies],GetControlNode method, IBDA_Topology.GetControlNode, IBDA_Topology::GetControlNode, IBDA_TopologyGetControlNode, bdaiface/IBDA_Topology::GetControlNode, mstv.ibda_topology_getcontrolnode
 ms.topic: method
-f1_keywords: 
- - "bdaiface/IBDA_Topology.GetControlNode"
+f1_keywords:
+- bdaiface/IBDA_Topology.GetControlNode
 dev_langs:
- - c++
+- c++
 req.header: bdaiface.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - bdaiface.h
+- bdaiface.h
 api_name:
- - IBDA_Topology.GetControlNode
+- IBDA_Topology.GetControlNode
 targetos: Windows
 req.typenames: 
 req.redist: 

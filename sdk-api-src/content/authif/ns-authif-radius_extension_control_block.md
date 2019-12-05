@@ -1,19 +1,17 @@
 ---
 UID: NS:authif._RADIUS_EXTENSION_CONTROL_BLOCK
 title: RADIUS_EXTENSION_CONTROL_BLOCK (authif.h)
-
 description: The RADIUS_EXTENSION_CONTROL_BLOCK structure provides information about the current RADIUS request. It also provides functions for obtaining the attributes associated with the request, and for setting the disposition of the request.
 old-location: nps\IAS_radius_extension_control_block.htm
 tech.root: Nps
 ms.assetid: 13ff0645-d3f8-4220-a5bc-11bb515bca95
-
 ms.date: 12/05/2018
 ms.keywords: '*PRADIUS_EXTENSION_CONTROL_BLOCK, PRADIUS_EXTENSION_CONTROL_BLOCK, PRADIUS_EXTENSION_CONTROL_BLOCK structure pointer [Network Policy Server], RADIUS_EXTENSION_CONTROL_BLOCK, RADIUS_EXTENSION_CONTROL_BLOCK structure [Network Policy Server], _ias_radius_extension_control_block, authif/PRADIUS_EXTENSION_CONTROL_BLOCK, authif/RADIUS_EXTENSION_CONTROL_BLOCK, ias.radius_extension_control_block, nps.IAS_radius_extension_control_block'
 ms.topic: struct
 f1_keywords:
 - authif/RADIUS_EXTENSION_CONTROL_BLOCK
 dev_langs:
- - c++
+- c++
 req.header: authif.h
 req.include-header: 
 req.target-type: Windows

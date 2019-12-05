@@ -1,19 +1,17 @@
 ---
 UID: NF:msacm.acmStreamMessage
 title: acmStreamMessage function (msacm.h)
-
 description: The acmStreamMessage function sends a driver-specific message to an ACM driver.
 old-location: multimedia\acmstreammessage.htm
 tech.root: Multimedia
 ms.assetid: 30f77126-a874-4014-bbde-ce194da2c61c
-
 ms.date: 12/05/2018
-ms.keywords: "_win32_acmStreamMessage, acmStreamMessage, acmStreamMessage function [Windows Multimedia], msacm/acmStreamMessage, multimedia.acmstreammessage"
+ms.keywords: _win32_acmStreamMessage, acmStreamMessage, acmStreamMessage function [Windows Multimedia], msacm/acmStreamMessage, multimedia.acmstreammessage
 ms.topic: function
-f1_keywords: 
- - "msacm/acmStreamMessage"
+f1_keywords:
+- msacm/acmStreamMessage
 dev_langs:
- - c++
+- c++
 req.header: msacm.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Msacm32.lib
 req.dll: Msacm32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Msacm32.dll
- - Ext-MS-Win-mm-msacm-l1-1-0.dll
+- Msacm32.dll
+- Ext-MS-Win-mm-msacm-l1-1-0.dll
 api_name:
- - acmStreamMessage
+- acmStreamMessage
 targetos: Windows
 req.typenames: 
 req.redist: 

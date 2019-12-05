@@ -1,19 +1,17 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMGlyphs.GetIsSideways
 title: IXpsOMGlyphs::GetIsSideways (xpsobjectmodel.h)
-
 description: Gets a Boolean value that indicates whether the text is to be rendered with the glyphs rotated sideways.
 old-location: xps\ixpsomglyphs_getissideways.htm
 tech.root: printdocs
 ms.assetid: 51a0c84b-6f66-4bd5-b64c-b43ef4af8462
-
 ms.date: 12/05/2018
 ms.keywords: FALSE, GetIsSideways, GetIsSideways method [XPS Documents and Packaging], GetIsSideways method [XPS Documents and Packaging],IXpsOMGlyphs interface, IXpsOMGlyphs interface [XPS Documents and Packaging],GetIsSideways method, IXpsOMGlyphs.GetIsSideways, IXpsOMGlyphs::GetIsSideways, TRUE, xps.ixpsomglyphs_getissideways, xpsobjectmodel/IXpsOMGlyphs::GetIsSideways
 ms.topic: method
-f1_keywords: 
- - "xpsobjectmodel/IXpsOMGlyphs.GetIsSideways"
+f1_keywords:
+- xpsobjectmodel/IXpsOMGlyphs.GetIsSideways
 dev_langs:
- - c++
+- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsobjectmodel.h
+- xpsobjectmodel.h
 api_name:
- - IXpsOMGlyphs.GetIsSideways
+- IXpsOMGlyphs.GetIsSideways
 targetos: Windows
 req.typenames: 
 req.redist: 

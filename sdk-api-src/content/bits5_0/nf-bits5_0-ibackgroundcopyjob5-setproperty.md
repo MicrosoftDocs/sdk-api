@@ -1,19 +1,17 @@
 ---
 UID: NF:bits5_0.IBackgroundCopyJob5.SetProperty
 title: IBackgroundCopyJob5::SetProperty (bits5_0.h)
-
 description: A generic method for setting BITS job properties.
 old-location: bits\ibackgroundcopyjob5_setproperty.htm
 tech.root: Bits
 ms.assetid: D5DB8A96-7417-4142-BA27-783314835CED
-
 ms.date: 12/05/2018
 ms.keywords: IBackgroundCopyJob5 interface [BITS],SetProperty method, IBackgroundCopyJob5.SetProperty, IBackgroundCopyJob5::SetProperty, SetProperty, SetProperty method [BITS], SetProperty method [BITS],IBackgroundCopyJob5 interface, bits.ibackgroundcopyjob5_setproperty, bits5_0/IBackgroundCopyJob5::SetProperty
 ms.topic: method
-f1_keywords: 
- - "bits5_0/IBackgroundCopyJob5.SetProperty"
+f1_keywords:
+- bits5_0/IBackgroundCopyJob5.SetProperty
 dev_langs:
- - c++
+- c++
 req.header: bits5_0.h
 req.include-header: Bits.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Bits.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Bits.lib
- - Bits.dll
+- Bits.lib
+- Bits.dll
 api_name:
- - IBackgroundCopyJob5.SetProperty
+- IBackgroundCopyJob5.SetProperty
 targetos: Windows
 req.typenames: 
 req.redist: 

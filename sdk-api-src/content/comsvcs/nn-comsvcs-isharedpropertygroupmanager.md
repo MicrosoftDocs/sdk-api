@@ -1,19 +1,17 @@
 ---
 UID: NN:comsvcs.ISharedPropertyGroupManager
 title: ISharedPropertyGroupManager (comsvcs.h)
-
 description: Used to create shared property groups and to obtain access to existing shared property groups.
 old-location: cos\isharedpropertygroupmanager.htm
 tech.root: cossdk
 ms.assetid: 71c0a1de-5ea5-4496-b0e9-56d0cc8129a9
-
 ms.date: 12/05/2018
 ms.keywords: ISharedPropertyGroupManager, ISharedPropertyGroupManager interface [COM+], ISharedPropertyGroupManager interface [COM+],described, _cos_ISharedPropertyGroupManager, comsvcs/ISharedPropertyGroupManager, cos.isharedpropertygroupmanager
 ms.topic: interface
-f1_keywords: 
- - "comsvcs/ISharedPropertyGroupManager"
+f1_keywords:
+- comsvcs/ISharedPropertyGroupManager
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - ISharedPropertyGroupManager
+- ISharedPropertyGroupManager
 targetos: Windows
 req.typenames: 
 req.redist: 

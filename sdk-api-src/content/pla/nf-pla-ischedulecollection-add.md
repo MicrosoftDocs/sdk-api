@@ -1,19 +1,17 @@
 ---
 UID: NF:pla.IScheduleCollection.Add
 title: IScheduleCollection::Add (pla.h)
-
 description: Adds a schedule to the collection.
 old-location: pla\ischedulecollection_add.htm
 tech.root: PLA
 ms.assetid: 92586c08-2f37-4462-b7cb-af58b6cfcecf
-
 ms.date: 12/05/2018
 ms.keywords: Add, Add method [PLA], Add method [PLA],IScheduleCollection interface, IScheduleCollection interface [PLA],Add method, IScheduleCollection.Add, IScheduleCollection::Add, base.ischedulecollection_add, pla.ischedulecollection_add, pla/IScheduleCollection::Add
 ms.topic: method
-f1_keywords: 
- - "pla/IScheduleCollection.Add"
+f1_keywords:
+- pla/IScheduleCollection.Add
 dev_langs:
- - c++
+- c++
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Pla.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Pla.dll
+- Pla.dll
 api_name:
- - IScheduleCollection.Add
+- IScheduleCollection.Add
 targetos: Windows
 req.typenames: 
 req.redist: 

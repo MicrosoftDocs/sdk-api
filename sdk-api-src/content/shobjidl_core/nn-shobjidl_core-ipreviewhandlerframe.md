@@ -1,19 +1,17 @@
 ---
 UID: NN:shobjidl_core.IPreviewHandlerFrame
 title: IPreviewHandlerFrame (shobjidl_core.h)
-
 description: Enables preview handlers to pass keyboard shortcuts to the host. This interface retrieves a list of keyboard shortcuts and directs the host to handle a keyboard shortcut.
 old-location: shell\IPreviewHandlerFrame.htm
 tech.root: shell
 ms.assetid: 4e1316e5-f736-4a9b-887b-ddc48a615c42
-
 ms.date: 12/05/2018
 ms.keywords: IPreviewHandlerFrame, IPreviewHandlerFrame interface [Windows Shell], IPreviewHandlerFrame interface [Windows Shell],described, _shell_IPreviewHandlerFrame, shell.IPreviewHandlerFrame, shobjidl_core/IPreviewHandlerFrame
 ms.topic: interface
-f1_keywords: 
- - "shobjidl_core/IPreviewHandlerFrame"
+f1_keywords:
+- shobjidl_core/IPreviewHandlerFrame
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - IPreviewHandlerFrame
+- IPreviewHandlerFrame
 targetos: Windows
 req.typenames: 
 req.redist: Windows Search 4 or later

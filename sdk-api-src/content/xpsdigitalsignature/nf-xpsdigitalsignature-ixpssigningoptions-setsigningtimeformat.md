@@ -1,19 +1,17 @@
 ---
 UID: NF:xpsdigitalsignature.IXpsSigningOptions.SetSigningTimeFormat
 title: IXpsSigningOptions::SetSigningTimeFormat (xpsdigitalsignature.h)
-
 description: Sets the format of the signing time string.
 old-location: xps\ixpssigningoptions_setsigningtimeformat.htm
 tech.root: printdocs
 ms.assetid: 55ed2bb7-56d0-41d6-a8c3-dc0ff8cde7f8
-
 ms.date: 12/05/2018
 ms.keywords: IXpsSigningOptions interface [XPS Documents and Packaging],SetSigningTimeFormat method, IXpsSigningOptions.SetSigningTimeFormat, IXpsSigningOptions::SetSigningTimeFormat, SetSigningTimeFormat, SetSigningTimeFormat method [XPS Documents and Packaging], SetSigningTimeFormat method [XPS Documents and Packaging],IXpsSigningOptions interface, xps.ixpssigningoptions_setsigningtimeformat, xpsdigitalsignature/IXpsSigningOptions::SetSigningTimeFormat
 ms.topic: method
-f1_keywords: 
- - "xpsdigitalsignature/IXpsSigningOptions.SetSigningTimeFormat"
+f1_keywords:
+- xpsdigitalsignature/IXpsSigningOptions.SetSigningTimeFormat
 dev_langs:
- - c++
+- c++
 req.header: xpsdigitalsignature.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsdigitalsignature.h
+- xpsdigitalsignature.h
 api_name:
- - IXpsSigningOptions.SetSigningTimeFormat
+- IXpsSigningOptions.SetSigningTimeFormat
 targetos: Windows
 req.typenames: 
 req.redist: 

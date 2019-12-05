@@ -1,19 +1,17 @@
 ---
 UID: NF:mfapi.MFUnwrapMediaType
 title: MFUnwrapMediaType function (mfapi.h)
-
 description: Retrieves a media type that was wrapped in another media type by the MFWrapMediaType function.
 old-location: mf\mfunwrapmediatype.htm
 tech.root: medfound
 ms.assetid: 2cb6a5ae-315f-4de2-8817-da9d41db14b8
-
 ms.date: 12/05/2018
 ms.keywords: 2cb6a5ae-315f-4de2-8817-da9d41db14b8, MFUnwrapMediaType, MFUnwrapMediaType function [Media Foundation], mf.mfunwrapmediatype, mfapi/MFUnwrapMediaType
 ms.topic: function
-f1_keywords: 
- - "mfapi/MFUnwrapMediaType"
+f1_keywords:
+- mfapi/MFUnwrapMediaType
 dev_langs:
- - c++
+- c++
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Mfplat.lib
 req.dll: Mfplat.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - mfplat.dll
+- mfplat.dll
 api_name:
- - MFUnwrapMediaType
+- MFUnwrapMediaType
 targetos: Windows
 req.typenames: 
 req.redist: 

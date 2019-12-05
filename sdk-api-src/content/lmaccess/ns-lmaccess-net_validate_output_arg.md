@@ -1,19 +1,17 @@
 ---
 UID: NS:lmaccess._NET_VALIDATE_OUTPUT_ARG
 title: NET_VALIDATE_OUTPUT_ARG (lmaccess.h)
-
 description: The NET_VALIDATE_OUTPUT_ARG structure contains information about persistent password-related data that has changed since the user's last logon as well as the result of the function's password validation check.
 old-location: netmgmt\net_validate_output_arg.htm
 tech.root: NetMgmt
 ms.assetid: 833c89c3-34ba-485b-a310-1d709aa618cd
-
 ms.date: 12/05/2018
-ms.keywords: "*PNET_VALIDATE_OUTPUT_ARG, NET_VALIDATE_OUTPUT_ARG, NET_VALIDATE_OUTPUT_ARG structure [Network Management], PNET_VALIDATE_OUTPUT_ARG, PNET_VALIDATE_OUTPUT_ARG structure pointer [Network Management], lmaccess/NET_VALIDATE_OUTPUT_ARG, lmaccess/PNET_VALIDATE_OUTPUT_ARG, netmgmt.net_validate_output_arg"
+ms.keywords: '*PNET_VALIDATE_OUTPUT_ARG, NET_VALIDATE_OUTPUT_ARG, NET_VALIDATE_OUTPUT_ARG structure [Network Management], PNET_VALIDATE_OUTPUT_ARG, PNET_VALIDATE_OUTPUT_ARG structure pointer [Network Management], lmaccess/NET_VALIDATE_OUTPUT_ARG, lmaccess/PNET_VALIDATE_OUTPUT_ARG, netmgmt.net_validate_output_arg'
 ms.topic: struct
-f1_keywords: 
- - "lmaccess/NET_VALIDATE_OUTPUT_ARG"
+f1_keywords:
+- lmaccess/NET_VALIDATE_OUTPUT_ARG
 dev_langs:
- - c++
+- c++
 req.header: lmaccess.h
 req.include-header: Lm.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Lmaccess.h
+- Lmaccess.h
 api_name:
- - NET_VALIDATE_OUTPUT_ARG
+- NET_VALIDATE_OUTPUT_ARG
 targetos: Windows
 req.typenames: NET_VALIDATE_OUTPUT_ARG, *PNET_VALIDATE_OUTPUT_ARG
 req.redist: 

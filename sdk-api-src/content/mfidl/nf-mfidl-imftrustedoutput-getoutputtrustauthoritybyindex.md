@@ -1,19 +1,17 @@
 ---
 UID: NF:mfidl.IMFTrustedOutput.GetOutputTrustAuthorityByIndex
 title: IMFTrustedOutput::GetOutputTrustAuthorityByIndex (mfidl.h)
-
 description: Gets an output trust authority (OTA), specified by index.
 old-location: mf\imftrustedoutput_getoutputtrustauthoritybyindex.htm
 tech.root: medfound
 ms.assetid: 4dd570e7-c6fb-4ffb-8ef5-b88a6638dbbf
-
 ms.date: 12/05/2018
 ms.keywords: 4dd570e7-c6fb-4ffb-8ef5-b88a6638dbbf, GetOutputTrustAuthorityByIndex, GetOutputTrustAuthorityByIndex method [Media Foundation], GetOutputTrustAuthorityByIndex method [Media Foundation],IMFTrustedOutput interface, IMFTrustedOutput interface [Media Foundation],GetOutputTrustAuthorityByIndex method, IMFTrustedOutput.GetOutputTrustAuthorityByIndex, IMFTrustedOutput::GetOutputTrustAuthorityByIndex, mf.imftrustedoutput_getoutputtrustauthoritybyindex, mfidl/IMFTrustedOutput::GetOutputTrustAuthorityByIndex
 ms.topic: method
-f1_keywords: 
- - "mfidl/IMFTrustedOutput.GetOutputTrustAuthorityByIndex"
+f1_keywords:
+- mfidl/IMFTrustedOutput.GetOutputTrustAuthorityByIndex
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFTrustedOutput.GetOutputTrustAuthorityByIndex
+- IMFTrustedOutput.GetOutputTrustAuthorityByIndex
 targetos: Windows
 req.typenames: 
 req.redist: 

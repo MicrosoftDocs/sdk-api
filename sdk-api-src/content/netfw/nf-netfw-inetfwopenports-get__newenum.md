@@ -1,19 +1,17 @@
 ---
 UID: NF:netfw.INetFwOpenPorts.get__NewEnum
 title: INetFwOpenPorts::get__NewEnum (netfw.h)
-
 description: Returns an object supporting IEnumVARIANT that can be used to iterate through all the ports in the collection.
 old-location: ics\inetfwopenports_newenum.htm
 tech.root: ics
 ms.assetid: a7de2fef-7966-4742-a821-7fce0bf3bba2
-
 ms.date: 12/05/2018
 ms.keywords: INetFwOpenPorts interface [ICS/ICF],_NewEnum property, INetFwOpenPorts._NewEnum, INetFwOpenPorts.get__NewEnum, INetFwOpenPorts::_NewEnum, INetFwOpenPorts::get__NewEnum, _NewEnum property [ICS/ICF], _NewEnum property [ICS/ICF],INetFwOpenPorts interface, get__NewEnum, ics.inetfwopenports_newenum, netfw/INetFwOpenPorts::_NewEnum, netfw/INetFwOpenPorts::get__NewEnum
 ms.topic: method
-f1_keywords: 
- - "netfw/INetFwOpenPorts._NewEnum"
+f1_keywords:
+- netfw/INetFwOpenPorts._NewEnum
 dev_langs:
- - c++
+- c++
 req.header: netfw.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: FirewallAPI.dll; Hnetcfg.dll on Windows XP with SP2
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - FirewallAPI.dll
- - Hnetcfg.dll
+- FirewallAPI.dll
+- Hnetcfg.dll
 api_name:
- - INetFwOpenPorts._NewEnum
- - INetFwOpenPorts.get__NewEnum
+- INetFwOpenPorts._NewEnum
+- INetFwOpenPorts.get__NewEnum
 targetos: Windows
 req.typenames: 
 req.redist: 

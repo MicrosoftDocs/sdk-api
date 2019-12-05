@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi3if.ITLegacyAddressMediaControl.GetDevConfig
 title: ITLegacyAddressMediaControl::GetDevConfig (tapi3if.h)
-
 description: The GetDevConfig method returns an opaque data structure.
 old-location: tapi3\itlegacyaddressmediacontrol_getdevconfig.htm
 tech.root: Tapi
 ms.assetid: ed8cc556-31a5-4725-92fe-1f78c16aadcd
-
 ms.date: 12/05/2018
 ms.keywords: GetDevConfig, GetDevConfig method [TAPI 2.2], GetDevConfig method [TAPI 2.2],ITLegacyAddressMediaControl interface, ITLegacyAddressMediaControl interface [TAPI 2.2],GetDevConfig method, ITLegacyAddressMediaControl.GetDevConfig, ITLegacyAddressMediaControl::GetDevConfig, _tapi3_itlegacyaddressmediacontrol_getdevconfig, tapi3.itlegacyaddressmediacontrol_getdevconfig, tapi3if/ITLegacyAddressMediaControl::GetDevConfig
 ms.topic: method
-f1_keywords: 
- - "tapi3if/ITLegacyAddressMediaControl.GetDevConfig"
+f1_keywords:
+- tapi3if/ITLegacyAddressMediaControl.GetDevConfig
 dev_langs:
- - c++
+- c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Tapi3.dll
+- Tapi3.dll
 api_name:
- - ITLegacyAddressMediaControl.GetDevConfig
+- ITLegacyAddressMediaControl.GetDevConfig
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:fci.FCIFlushCabinet
 title: FCIFlushCabinet function (fci.h)
-
 description: The FCIFlushCabinet function completes the current cabinet.
 old-location: winprog\fciflushcabinet.htm
 tech.root: DevNotes
 ms.assetid: dc586260-180e-4a6b-accf-2ddd62ac1335
-
 ms.date: 12/05/2018
 ms.keywords: FCIFlushCabinet, FCIFlushCabinet function [Windows API], fci/FCIFlushCabinet, winprog.fciflushcabinet
 ms.topic: function
-f1_keywords: 
- - "fci/FCIFlushCabinet"
+f1_keywords:
+- fci/FCIFlushCabinet
 dev_langs:
- - c++
+- c++
 req.header: fci.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Cabinet.lib
 req.dll: Cabinet.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Cabinet.dll
+- Cabinet.dll
 api_name:
- - FCIFlushCabinet
+- FCIFlushCabinet
 targetos: Windows
 req.typenames: 
 req.redist: 

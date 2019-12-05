@@ -1,19 +1,17 @@
 ---
 UID: NF:winnt.SUBLANGID
 title: SUBLANGID macro (winnt.h)
-
 description: Extracts a sublanguage identifier from a language identifier.
 old-location: intl\sublangid.htm
 tech.root: Intl
 ms.assetid: 0441c915-f910-4ac7-ac0a-0b113f490d40
-
 ms.date: 12/05/2018
 ms.keywords: SUBLANGID, SUBLANGID macro [Internationalization for Windows Applications], _win32_SUBLANGID, intl.sublangid, winnt/SUBLANGID
 ms.topic: macro
-f1_keywords: 
- - "winnt/SUBLANGID"
+f1_keywords:
+- winnt/SUBLANGID
 dev_langs:
- - c++
+- c++
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Winnt.h
+- Winnt.h
 api_name:
- - SUBLANGID
+- SUBLANGID
 targetos: Windows
 req.typenames: 
 req.redist: 

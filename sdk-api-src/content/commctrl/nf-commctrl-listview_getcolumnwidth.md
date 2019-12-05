@@ -1,19 +1,17 @@
 ---
 UID: NF:commctrl.ListView_GetColumnWidth
 title: ListView_GetColumnWidth macro (commctrl.h)
-
 description: Gets the width of a column in report or list view. You can use this macro or send the LVM_GETCOLUMNWIDTH message explicitly.
 old-location: controls\ListView_GetColumnWidth.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_getcolumnwidth.htm
-
 ms.date: 12/05/2018
 ms.keywords: ListView_GetColumnWidth, ListView_GetColumnWidth macro [Windows Controls], _win32_ListView_GetColumnWidth, _win32_ListView_GetColumnWidth_cpp, commctrl/ListView_GetColumnWidth, controls.ListView_GetColumnWidth, controls._win32_ListView_GetColumnWidth
 ms.topic: macro
-f1_keywords: 
- - "commctrl/ListView_GetColumnWidth"
+f1_keywords:
+- commctrl/ListView_GetColumnWidth
 dev_langs:
- - c++
+- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Commctrl.h
+- Commctrl.h
 api_name:
- - ListView_GetColumnWidth
+- ListView_GetColumnWidth
 targetos: Windows
 req.typenames: 
 req.redist: 

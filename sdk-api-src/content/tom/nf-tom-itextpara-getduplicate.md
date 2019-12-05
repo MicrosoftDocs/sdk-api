@@ -1,19 +1,17 @@
 ---
 UID: NF:tom.ITextPara.GetDuplicate
 title: ITextPara::GetDuplicate (tom.h)
-
 description: Creates a duplicate of the specified paragraph format object. The duplicate property is the default property of an ITextPara object.
 old-location: controls\ITextPara_GetDuplicate.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\itextpara\itextparagetduplicate.htm
-
 ms.date: 12/05/2018
 ms.keywords: GetDuplicate, GetDuplicate method [Windows Controls], GetDuplicate method [Windows Controls],ITextPara interface, ITextPara interface [Windows Controls],GetDuplicate method, ITextPara.GetDuplicate, ITextPara::GetDuplicate, _win32_ITextPara_GetDuplicate, _win32_ITextPara_GetDuplicate_cpp, controls.ITextPara_GetDuplicate, controls._win32_ITextPara_GetDuplicate, tom/ITextPara::GetDuplicate
 ms.topic: method
-f1_keywords: 
- - "tom/ITextPara.GetDuplicate"
+f1_keywords:
+- tom/ITextPara.GetDuplicate
 dev_langs:
- - c++
+- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msftedit.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msftedit.dll
+- Msftedit.dll
 api_name:
- - ITextPara.GetDuplicate
+- ITextPara.GetDuplicate
 targetos: Windows
 req.typenames: 
 req.redist: 

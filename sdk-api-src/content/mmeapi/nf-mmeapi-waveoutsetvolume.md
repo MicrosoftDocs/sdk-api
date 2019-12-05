@@ -1,19 +1,17 @@
 ---
 UID: NF:mmeapi.waveOutSetVolume
 title: waveOutSetVolume function (mmeapi.h)
-
 description: The waveOutSetVolume function sets the volume level of the specified waveform-audio output device.
 old-location: multimedia\waveoutsetvolume.htm
 tech.root: Multimedia
 ms.assetid: 6dcc53ae-b663-4812-8c93-a573b8dc6e57
-
 ms.date: 12/05/2018
-ms.keywords: "_win32_waveOutSetVolume, mmeapi/waveOutSetVolume, multimedia.waveoutsetvolume, waveOutSetVolume, waveOutSetVolume function [Windows Multimedia]"
+ms.keywords: _win32_waveOutSetVolume, mmeapi/waveOutSetVolume, multimedia.waveoutsetvolume, waveOutSetVolume, waveOutSetVolume function [Windows Multimedia]
 ms.topic: function
-f1_keywords: 
- - "mmeapi/waveOutSetVolume"
+f1_keywords:
+- mmeapi/waveOutSetVolume
 dev_langs:
- - c++
+- c++
 req.header: mmeapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Winmm.lib
 req.dll: Winmm.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Winmm.dll
- - API-MS-Win-mm-mme-l1-1-0.dll
- - winmmbase.dll
+- Winmm.dll
+- API-MS-Win-mm-mme-l1-1-0.dll
+- winmmbase.dll
 api_name:
- - waveOutSetVolume
+- waveOutSetVolume
 targetos: Windows
 req.typenames: 
 req.redist: 

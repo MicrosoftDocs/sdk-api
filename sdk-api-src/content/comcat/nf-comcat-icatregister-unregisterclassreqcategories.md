@@ -1,19 +1,17 @@
 ---
 UID: NF:comcat.ICatRegister.UnRegisterClassReqCategories
 title: ICatRegister::UnRegisterClassReqCategories (comcat.h)
-
 description: Removes one or more required category identifiers from a class.
 old-location: com\icatregister_unregisterclassreqcategories.htm
 tech.root: com
 ms.assetid: d957bc13-f5f7-4cb3-925e-4867ba9622cd
-
 ms.date: 12/05/2018
 ms.keywords: ICatRegister interface [COM],UnRegisterClassReqCategories method, ICatRegister.UnRegisterClassReqCategories, ICatRegister::UnRegisterClassReqCategories, UnRegisterClassReqCategories, UnRegisterClassReqCategories method [COM], UnRegisterClassReqCategories method [COM],ICatRegister interface, _com_icatregister_unregisterclassreqcategories, com.icatregister_unregisterclassreqcategories, comcat/ICatRegister::UnRegisterClassReqCategories
 ms.topic: method
-f1_keywords: 
- - "comcat/ICatRegister.UnRegisterClassReqCategories"
+f1_keywords:
+- comcat/ICatRegister.UnRegisterClassReqCategories
 dev_langs:
- - c++
+- c++
 req.header: comcat.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComCat.h
+- ComCat.h
 api_name:
- - ICatRegister.UnRegisterClassReqCategories
+- ICatRegister.UnRegisterClassReqCategories
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:psapi.EnumProcesses
 title: EnumProcesses function (psapi.h)
-
 description: Retrieves the process identifier for each process object in the system.
 old-location: psapi\enumprocesses.htm
 tech.root: psapi
 ms.assetid: 0c0445cb-27d2-4857-a4a5-7a4c180b068b
-
 ms.date: 12/05/2018
 ms.keywords: EnumProcesses, EnumProcesses function [PSAPI], K32EnumProcesses, _win32_enumprocesses, base.enumprocesses, psapi.enumprocesses, psapi/EnumProcesses, psapi/K32EnumProcesses
 ms.topic: function
-f1_keywords: 
- - "psapi/EnumProcesses"
+f1_keywords:
+- psapi/EnumProcesses
 dev_langs:
- - c++
+- c++
 req.header: psapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,19 +30,19 @@ req.lib: Kernel32.lib on Windows 7 and Windows Server 2008 R2; Psapi.lib (if 
 req.dll: Kernel32.dll on Windows 7 and Windows Server 2008 R2; Psapi.dll (if PSAPI_VERSION=1) on Windows 7 and Windows Server 2008 R2; Psapi.dll on Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - Psapi.dll
- - Psapi.dll
- - API-MS-Win-Core-PsAPI-L1-1-0.dll
- - KernelBase.dll
+- Kernel32.dll
+- Psapi.dll
+- Psapi.dll
+- API-MS-Win-Core-PsAPI-L1-1-0.dll
+- KernelBase.dll
 api_name:
- - EnumProcesses
- - K32EnumProcesses
+- EnumProcesses
+- K32EnumProcesses
 targetos: Windows
 req.typenames: 
 req.redist: 

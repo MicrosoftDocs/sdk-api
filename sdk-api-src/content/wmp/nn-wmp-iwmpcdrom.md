@@ -1,19 +1,17 @@
 ---
 UID: NN:wmp.IWMPCdrom
 title: IWMPCdrom (wmp.h)
-
 description: The IWMPCdrom interface provides a way to access a CD or DVD in its drive.
 old-location: wmp\iwmpcdrom.htm
 tech.root: WMP
 ms.assetid: 323a6841-ffbd-4bbb-ac04-1d121cf5bd06
-
 ms.date: 12/05/2018
 ms.keywords: IWMPCdrom, IWMPCdrom interface [Windows Media Player], IWMPCdrom interface [Windows Media Player],described, IWMPCdromInterface, wmp.iwmpcdrom, wmp/IWMPCdrom
 ms.topic: interface
-f1_keywords: 
- - "wmp/IWMPCdrom"
+f1_keywords:
+- wmp/IWMPCdrom
 dev_langs:
- - c++
+- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmp.h
+- wmp.h
 api_name:
- - IWMPCdrom
+- IWMPCdrom
 targetos: Windows
 req.typenames: 
 req.redist: 

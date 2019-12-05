@@ -1,19 +1,17 @@
 ---
 UID: NE:bdaiface.SmartCardStatusType
 title: SmartCardStatusType (bdaiface.h)
-
 description: The SmartCardStatusType enumeration type specifies the status of a smart card.
 old-location: mstv\smartcardstatustype.htm
 tech.root: mstv
 ms.assetid: c699c6a9-f554-4e2d-ac7f-9b5ff954fa6b
-
 ms.date: 12/05/2018
 ms.keywords: CardDataChanged, CardError, CardFirmwareUpgrade, CardInserted, CardRemoved, SmartCardStatusType, SmartCardStatusType enumeration [Microsoft TV Technologies], bdaiface/CardDataChanged, bdaiface/CardError, bdaiface/CardFirmwareUpgrade, bdaiface/CardInserted, bdaiface/CardRemoved, bdaiface/SmartCardStatusType, mstv.smartcardstatustype
 ms.topic: enum
-f1_keywords: 
- - "bdaiface/SmartCardStatusType"
+f1_keywords:
+- bdaiface/SmartCardStatusType
 dev_langs:
- - c++
+- c++
 req.header: bdaiface.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Bdaiface.h
+- Bdaiface.h
 api_name:
- - SmartCardStatusType
+- SmartCardStatusType
 targetos: Windows
 req.typenames: SmartCardStatusType
 req.redist: 

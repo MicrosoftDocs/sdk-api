@@ -1,19 +1,17 @@
 ---
 UID: NF:wmp.IWMPPlayerApplication.switchToControl
 title: IWMPPlayerApplication::switchToControl (wmp.h)
-
 description: The switchToControl method switches a remoted Windows Media Player control to the docked state.
 old-location: wmp\iwmpplayerapplication_switchtocontrol.htm
 tech.root: WMP
 ms.assetid: 15be3a28-4e51-46bf-bb64-e45e20ae3524
-
 ms.date: 12/05/2018
 ms.keywords: IWMPPlayerApplication interface [Windows Media Player],switchToControl method, IWMPPlayerApplication.switchToControl, IWMPPlayerApplication::switchToControl, IWMPPlayerApplicationswitchToControl, switchToControl, switchToControl method [Windows Media Player], switchToControl method [Windows Media Player],IWMPPlayerApplication interface, wmp.iwmpplayerapplication_switchtocontrol, wmp/IWMPPlayerApplication::switchToControl
 ms.topic: method
-f1_keywords: 
- - "wmp/IWMPPlayerApplication.switchToControl"
+f1_keywords:
+- wmp/IWMPPlayerApplication.switchToControl
 dev_langs:
- - c++
+- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wmp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmp.dll
+- wmp.dll
 api_name:
- - IWMPPlayerApplication.switchToControl
+- IWMPPlayerApplication.switchToControl
 targetos: Windows
 req.typenames: 
 req.redist: 

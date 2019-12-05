@@ -1,19 +1,17 @@
 ---
 UID: NF:dcomp.IDCompositionDevice3.CreateSaturationEffect
 title: IDCompositionDevice3::CreateSaturationEffect (dcomp.h)
-
 description: Creates an instance of IDCompositionSaturationEffect.
 old-location: directcomp\idcompositiondevice3_createsaturationeffect.htm
 tech.root: directcomp
 ms.assetid: 19613AF4-6EC0-4918-9FC1-147A04D321CA
-
 ms.date: 12/05/2018
 ms.keywords: CreateSaturationEffect, CreateSaturationEffect method [DirectComposition], CreateSaturationEffect method [DirectComposition],IDCompositionDevice3 interface, IDCompositionDevice3 interface [DirectComposition],CreateSaturationEffect method, IDCompositionDevice3.CreateSaturationEffect, IDCompositionDevice3::CreateSaturationEffect, dcomp/IDCompositionDevice3::CreateSaturationEffect, directcomp.idcompositiondevice3_createsaturationeffect
 ms.topic: method
-f1_keywords: 
- - "dcomp/IDCompositionDevice3.CreateSaturationEffect"
+f1_keywords:
+- dcomp/IDCompositionDevice3.CreateSaturationEffect
 dev_langs:
- - c++
+- c++
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dcomp.lib
 req.dll: Dcomp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dcomp.dll
+- dcomp.dll
 api_name:
- - IDCompositionDevice3.CreateSaturationEffect
+- IDCompositionDevice3.CreateSaturationEffect
 targetos: Windows
 req.typenames: 
 req.redist: 

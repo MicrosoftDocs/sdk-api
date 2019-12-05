@@ -1,19 +1,17 @@
 ---
 UID: NS:winnt._IMAGE_DEBUG_DIRECTORY
 title: IMAGE_DEBUG_DIRECTORY (winnt.h)
-
 description: Represents the debug directory format.
 old-location: base\image_debug_directory_str.htm
 tech.root: Debug
 ms.assetid: f89a3c9b-4d73-4ff5-8f45-2e58500d5084
-
 ms.date: 12/05/2018
-ms.keywords: "*PIMAGE_DEBUG_DIRECTORY, IMAGE_DEBUG_DIRECTORY, IMAGE_DEBUG_DIRECTORY structure, IMAGE_DEBUG_TYPE_BORLAND, IMAGE_DEBUG_TYPE_CODEVIEW, IMAGE_DEBUG_TYPE_COFF, IMAGE_DEBUG_TYPE_EXCEPTION, IMAGE_DEBUG_TYPE_FIXUP, IMAGE_DEBUG_TYPE_FPO, IMAGE_DEBUG_TYPE_MISC, IMAGE_DEBUG_TYPE_UNKNOWN, PIMAGE_DEBUG_DIRECTORY, PIMAGE_DEBUG_DIRECTORY structure pointer, _IMAGE_DEBUG_DIRECTORY, _win32_image_debug_directory_str, base.image_debug_directory_str, winnt/IMAGE_DEBUG_DIRECTORY, winnt/PIMAGE_DEBUG_DIRECTORY"
+ms.keywords: '*PIMAGE_DEBUG_DIRECTORY, IMAGE_DEBUG_DIRECTORY, IMAGE_DEBUG_DIRECTORY structure, IMAGE_DEBUG_TYPE_BORLAND, IMAGE_DEBUG_TYPE_CODEVIEW, IMAGE_DEBUG_TYPE_COFF, IMAGE_DEBUG_TYPE_EXCEPTION, IMAGE_DEBUG_TYPE_FIXUP, IMAGE_DEBUG_TYPE_FPO, IMAGE_DEBUG_TYPE_MISC, IMAGE_DEBUG_TYPE_UNKNOWN, PIMAGE_DEBUG_DIRECTORY, PIMAGE_DEBUG_DIRECTORY structure pointer, _IMAGE_DEBUG_DIRECTORY, _win32_image_debug_directory_str, base.image_debug_directory_str, winnt/IMAGE_DEBUG_DIRECTORY, winnt/PIMAGE_DEBUG_DIRECTORY'
 ms.topic: struct
-f1_keywords: 
- - "winnt/IMAGE_DEBUG_DIRECTORY"
+f1_keywords:
+- winnt/IMAGE_DEBUG_DIRECTORY
 dev_langs:
- - c++
+- c++
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WinNT.h
+- WinNT.h
 api_name:
- - IMAGE_DEBUG_DIRECTORY
+- IMAGE_DEBUG_DIRECTORY
 targetos: Windows
 req.typenames: IMAGE_DEBUG_DIRECTORY, *PIMAGE_DEBUG_DIRECTORY
 req.redist: 

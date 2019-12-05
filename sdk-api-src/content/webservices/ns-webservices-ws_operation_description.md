@@ -1,19 +1,17 @@
 ---
 UID: NS:webservices._WS_OPERATION_DESCRIPTION
 title: WS_OPERATION_DESCRIPTION (webservices.h)
-
 description: Metadata for the service operation.
 old-location: wsw\ws_operation_description.htm
 tech.root: wsw
 ms.assetid: d05b55aa-4159-4e48-ae75-2af36c0a7101
-
 ms.date: 12/05/2018
 ms.keywords: WS_OPERATION_DESCRIPTION, WS_OPERATION_DESCRIPTION structure [Web Services for Windows], webservices/WS_OPERATION_DESCRIPTION, wsw.ws_operation_description
 ms.topic: struct
-f1_keywords: 
- - "webservices/WS_OPERATION_DESCRIPTION"
+f1_keywords:
+- webservices/WS_OPERATION_DESCRIPTION
 dev_langs:
- - c++
+- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WebServices.h
+- WebServices.h
 api_name:
- - WS_OPERATION_DESCRIPTION
+- WS_OPERATION_DESCRIPTION
 targetos: Windows
 req.typenames: WS_OPERATION_DESCRIPTION
 req.redist: 

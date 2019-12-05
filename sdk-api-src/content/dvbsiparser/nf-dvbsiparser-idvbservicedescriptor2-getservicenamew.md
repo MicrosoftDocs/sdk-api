@@ -1,19 +1,17 @@
 ---
 UID: NF:dvbsiparser.IDvbServiceDescriptor2.GetServiceNameW
 title: IDvbServiceDescriptor2::GetServiceNameW (dvbsiparser.h)
-
 description: Gets a string containing the service name from a Digital Video Broadcast (DVB) service descriptor.
 old-location: mstv\idvbservicedescriptor2_getservicenamew.htm
 tech.root: mstv
 ms.assetid: 05d826fd-2795-4335-9f6f-f8e19a6dbe4c
-
 ms.date: 12/05/2018
 ms.keywords: GetServiceNameW, GetServiceNameW method [Microsoft TV Technologies], GetServiceNameW method [Microsoft TV Technologies],IDvbServiceDescriptor2 interface, IDvbServiceDescriptor2 interface [Microsoft TV Technologies],GetServiceNameW method, IDvbServiceDescriptor2.GetServiceNameW, IDvbServiceDescriptor2::GetServiceNameW, dvbsiparser/IDvbServiceDescriptor2::GetServiceNameW, mstv.idvbservicedescriptor2_getservicenamew
 ms.topic: method
-f1_keywords: 
- - "dvbsiparser/IDvbServiceDescriptor2.GetServiceNameW"
+f1_keywords:
+- dvbsiparser/IDvbServiceDescriptor2.GetServiceNameW
 dev_langs:
- - c++
+- c++
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dvbsiparser.h
+- dvbsiparser.h
 api_name:
- - IDvbServiceDescriptor2.GetServiceNameW
+- IDvbServiceDescriptor2.GetServiceNameW
 targetos: Windows
 req.typenames: 
 req.redist: 

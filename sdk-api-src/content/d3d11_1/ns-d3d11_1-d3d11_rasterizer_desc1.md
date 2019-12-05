@@ -1,19 +1,17 @@
 ---
 UID: NS:d3d11_1.D3D11_RASTERIZER_DESC1
 title: D3D11_RASTERIZER_DESC1 (d3d11_1.h)
-
 description: Describes rasterizer state.
 old-location: direct3d11\d3d11_rasterizer_desc1.htm
 tech.root: direct3d11
 ms.assetid: 7A0E526E-9352-408F-8B11-1B7A9FBC2BE1
-
 ms.date: 12/05/2018
 ms.keywords: CD3D11_RASTERIZER_DESC1, D3D11_RASTERIZER_DESC1, D3D11_RASTERIZER_DESC1 structure [Direct3D 11], d3d11_1/D3D11_RASTERIZER_DESC1, direct3d11.d3d11_rasterizer_desc1
 ms.topic: struct
-f1_keywords: 
- - "d3d11_1/D3D11_RASTERIZER_DESC1"
+f1_keywords:
+- d3d11_1/D3D11_RASTERIZER_DESC1
 dev_langs:
- - c++
+- c++
 req.header: d3d11_1.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - D3D11_1.h
+- D3D11_1.h
 api_name:
- - D3D11_RASTERIZER_DESC1
+- D3D11_RASTERIZER_DESC1
 targetos: Windows
 req.typenames: D3D11_RASTERIZER_DESC1
 req.redist: 

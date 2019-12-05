@@ -1,19 +1,17 @@
 ---
 UID: NN:winsxs.IAssemblyCache
 title: IAssemblyCache (winsxs.h)
-
 description: The IAssemblyCache interface can be used to install, uninstall, or query a side-by-side assembly. An instance of IAssemblyCache is obtained by calling the CreateAssemblyCache function.
 old-location: setup\iassemblycache.htm
 tech.root: SbsCs
 ms.assetid: 6c411ae7-5a8f-47ca-a9c1-e23000f64620
-
 ms.date: 12/05/2018
 ms.keywords: IAssemblyCache, IAssemblyCache interface [Side-by-side Assemblies], IAssemblyCache interface [Side-by-side Assemblies],described, setup.iassemblycache, winsxs/IAssemblyCache
 ms.topic: interface
-f1_keywords: 
- - "winsxs/IAssemblyCache"
+f1_keywords:
+- winsxs/IAssemblyCache
 dev_langs:
- - c++
+- c++
 req.header: winsxs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Sxs.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - sxs.dll
+- sxs.dll
 api_name:
- - IAssemblyCache
+- IAssemblyCache
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:d2d1helper.Matrix3x2F.Translation(D2D1_SIZE_F)
 title: Matrix3x2F::Translation (d2d1helper.h)
-
 description: Creates a translation transformation that has the specified x and y displacements.
 old-location: direct2d\matrix3x2f_translation.htm
 tech.root: Direct2D
 ms.assetid: eb289287-4f33-42cf-a306-120adda70371
-
 ms.date: 12/05/2018
 ms.keywords: D2D1.Matrix3x2F.Translation, D2D1::Matrix3x2F::Translation, Matrix3x2F class [Direct2D],Translation method, Matrix3x2F.Translation, Matrix3x2F::Translation, Matrix3x2F::Translation(D2D1_SIZE_F), Translation, Translation method [Direct2D], Translation method [Direct2D],Matrix3x2F class, d2d1helper/Matrix3x2F::Translation, direct2d.matrix3x2f_translation
 ms.topic: method
-f1_keywords: 
- - "d2d1helper/Matrix3x2F.Translation"
+f1_keywords:
+- d2d1helper/Matrix3x2F.Translation
 dev_langs:
- - c++
+- c++
 req.header: d2d1helper.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: D2d1.lib
 req.dll: D2d1.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D2d1.dll
+- D2d1.dll
 api_name:
- - Matrix3x2F.Translation
+- Matrix3x2F.Translation
 targetos: Windows
 req.typenames: 
 req.redist: 

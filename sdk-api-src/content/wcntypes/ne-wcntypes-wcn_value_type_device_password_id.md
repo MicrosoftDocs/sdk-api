@@ -1,19 +1,17 @@
 ---
 UID: NE:wcntypes.tagWCN_VALUE_TYPE_DEVICE_PASSWORD_ID
 title: WCN_VALUE_TYPE_DEVICE_PASSWORD_ID (wcntypes.h)
-
 description: WCN_VALUE_TYPE_DEVICE_PASSWORD_ID enumeration defines values that specify the origin or 'type' of a password.
 old-location: wcn\wcn_value_type_device_password_id.htm
 tech.root: wcn
 ms.assetid: 3642bb5d-ef19-4ff3-a8bc-b0f01ad197ce
-
 ms.date: 12/05/2018
 ms.keywords: WCN_VALUE_DP_DEFAULT, WCN_VALUE_DP_MACHINE_SPECIFIED, WCN_VALUE_DP_PUSHBUTTON, WCN_VALUE_DP_REGISTRAR_SPECIFIED, WCN_VALUE_DP_REKEY, WCN_VALUE_DP_USER_SPECIFIED, WCN_VALUE_TYPE_DEVICE_PASSWORD_ID, WCN_VALUE_TYPE_DEVICE_PASSWORD_ID enumeration [Windows Connect Now], wcn.wcn_value_type_device_password_id, wcntypes/WCN_VALUE_DP_DEFAULT, wcntypes/WCN_VALUE_DP_MACHINE_SPECIFIED, wcntypes/WCN_VALUE_DP_PUSHBUTTON, wcntypes/WCN_VALUE_DP_REGISTRAR_SPECIFIED, wcntypes/WCN_VALUE_DP_REKEY, wcntypes/WCN_VALUE_DP_USER_SPECIFIED, wcntypes/WCN_VALUE_TYPE_DEVICE_PASSWORD_ID
 ms.topic: enum
-f1_keywords: 
- - "wcntypes/WCN_VALUE_TYPE_DEVICE_PASSWORD_ID"
+f1_keywords:
+- wcntypes/WCN_VALUE_TYPE_DEVICE_PASSWORD_ID
 dev_langs:
- - c++
+- c++
 req.header: wcntypes.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - wcntypes.h
+- wcntypes.h
 api_name:
- - WCN_VALUE_TYPE_DEVICE_PASSWORD_ID
+- WCN_VALUE_TYPE_DEVICE_PASSWORD_ID
 targetos: Windows
 req.typenames: WCN_VALUE_TYPE_DEVICE_PASSWORD_ID
 req.redist: 

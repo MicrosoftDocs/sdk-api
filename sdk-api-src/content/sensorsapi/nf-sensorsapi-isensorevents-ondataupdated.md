@@ -1,19 +1,17 @@
 ---
 UID: NF:sensorsapi.ISensorEvents.OnDataUpdated
 title: ISensorEvents::OnDataUpdated (sensorsapi.h)
-
 description: Provides sensor event data.
 old-location: winsensors_com_ref\isensorevents_ondataupdated.htm
 tech.root: SensorsAPI
 ms.assetid: dda03a66-ffdb-4f1f-a6e4-17075eab7e00
-
 ms.date: 12/05/2018
 ms.keywords: ISensorEvents interface,OnDataUpdated method, ISensorEvents.OnDataUpdated, ISensorEvents::OnDataUpdated, OnDataUpdated, OnDataUpdated method, OnDataUpdated method,ISensorEvents interface, sensorsapi/ISensorEvents::OnDataUpdated, winsensors_com_ref.isensorevents_ondataupdated
 ms.topic: method
-f1_keywords: 
- - "sensorsapi/ISensorEvents.OnDataUpdated"
+f1_keywords:
+- sensorsapi/ISensorEvents.OnDataUpdated
 dev_langs:
- - c++
+- c++
 req.header: sensorsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Sensorsapi.lib
 req.dll: Sensorsapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - sensorsapi.dll
+- sensorsapi.dll
 api_name:
- - ISensorEvents.OnDataUpdated
+- ISensorEvents.OnDataUpdated
 targetos: Windows
 req.typenames: 
 req.redist: 

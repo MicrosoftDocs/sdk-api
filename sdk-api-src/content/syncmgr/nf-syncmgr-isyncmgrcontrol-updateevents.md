@@ -1,19 +1,17 @@
 ---
 UID: NF:syncmgr.ISyncMgrControl.UpdateEvents
 title: ISyncMgrControl::UpdateEvents (syncmgr.h)
-
 description: Informs Sync Center that events have been added for a specific handler or item.
 old-location: shell\ISyncMgrControl_UpdateEvents.htm
 tech.root: shell
 ms.assetid: 72848e6a-eec3-45fc-b599-a5a8da2e1070
-
 ms.date: 12/05/2018
 ms.keywords: ISyncMgrControl interface [Windows Shell],UpdateEvents method, ISyncMgrControl.UpdateEvents, ISyncMgrControl::UpdateEvents, UpdateEvents, UpdateEvents method [Windows Shell], UpdateEvents method [Windows Shell],ISyncMgrControl interface, _shell_ISyncMgrControl_UpdateEvents, shell.ISyncMgrControl_UpdateEvents, syncmgr/ISyncMgrControl::UpdateEvents
 ms.topic: method
-f1_keywords: 
- - "syncmgr/ISyncMgrControl.UpdateEvents"
+f1_keywords:
+- syncmgr/ISyncMgrControl.UpdateEvents
 dev_langs:
- - c++
+- c++
 req.header: syncmgr.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Syncmgr.h
+- Syncmgr.h
 api_name:
- - ISyncMgrControl.UpdateEvents
+- ISyncMgrControl.UpdateEvents
 targetos: Windows
 req.typenames: 
 req.redist: 

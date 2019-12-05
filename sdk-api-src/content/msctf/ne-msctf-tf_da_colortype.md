@@ -1,19 +1,17 @@
 ---
 UID: NE:msctf.__MIDL___MIDL_itf_msctf_0000_0070_0002
 title: TF_DA_COLORTYPE (msctf.h)
-
 description: Elements of the TF_DA_COLORTYPE enumeration specify the format of the color contained in the TF_DA_COLOR structure.
 old-location: tsf\tf_da_colortype.htm
 tech.root: TSF
 ms.assetid: f692e188-d2f4-453b-a576-c6c05fd5f02a
-
 ms.date: 12/05/2018
 ms.keywords: TF_CT_COLORREF, TF_CT_NONE, TF_CT_SYSCOLOR, TF_DA_COLORTYPE, TF_DA_COLORTYPE enumeration [Text Services Framework], _tsf_tf_da_colortype_ref, msctf/TF_CT_COLORREF, msctf/TF_CT_NONE, msctf/TF_CT_SYSCOLOR, msctf/TF_DA_COLORTYPE, tsf.tf_da_colortype
 ms.topic: enum
-f1_keywords: 
- - "msctf/TF_DA_COLORTYPE"
+f1_keywords:
+- msctf/TF_DA_COLORTYPE
 dev_langs:
- - c++
+- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Msctf.h
+- Msctf.h
 api_name:
- - TF_DA_COLORTYPE
+- TF_DA_COLORTYPE
 targetos: Windows
 req.typenames: TF_DA_COLORTYPE
 req.redist: TSF 1.0 on Windows 2000 Professional

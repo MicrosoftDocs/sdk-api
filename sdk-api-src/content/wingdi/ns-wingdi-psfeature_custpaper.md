@@ -1,19 +1,17 @@
 ---
 UID: NS:wingdi._PSFEATURE_CUSTPAPER
 title: PSFEATURE_CUSTPAPER (wingdi.h)
-
 description: The PSFEATURE_CUSTPAPER structure contains information about a custom paper size for a PostScript driver. This structure is used with the GET_PS_FEATURESETTING printer escape function.
 old-location: gdi\psfeature_custpaper.htm
 tech.root: printdocs
 ms.assetid: 3858154c-425f-4333-a637-6d977caf7290
-
 ms.date: 12/05/2018
-ms.keywords: "*PPSFEATURE_CUSTPAPER, PPSFEATURE_CUSTPAPER, PPSFEATURE_CUSTPAPER structure pointer [Windows GDI], PSFEATURE_CUSTPAPER, PSFEATURE_CUSTPAPER structure [Windows GDI], _win32_PSFEATURE_CUSTPAPER_str, gdi.psfeature_custpaper, wingdi/PPSFEATURE_CUSTPAPER, wingdi/PSFEATURE_CUSTPAPER"
+ms.keywords: '*PPSFEATURE_CUSTPAPER, PPSFEATURE_CUSTPAPER, PPSFEATURE_CUSTPAPER structure pointer [Windows GDI], PSFEATURE_CUSTPAPER, PSFEATURE_CUSTPAPER structure [Windows GDI], _win32_PSFEATURE_CUSTPAPER_str, gdi.psfeature_custpaper, wingdi/PPSFEATURE_CUSTPAPER, wingdi/PSFEATURE_CUSTPAPER'
 ms.topic: struct
-f1_keywords: 
- - "wingdi/PSFEATURE_CUSTPAPER"
+f1_keywords:
+- wingdi/PSFEATURE_CUSTPAPER
 dev_langs:
- - c++
+- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wingdi.h
+- Wingdi.h
 api_name:
- - PSFEATURE_CUSTPAPER
+- PSFEATURE_CUSTPAPER
 targetos: Windows
 req.typenames: PSFEATURE_CUSTPAPER, *PPSFEATURE_CUSTPAPER
 req.redist: 

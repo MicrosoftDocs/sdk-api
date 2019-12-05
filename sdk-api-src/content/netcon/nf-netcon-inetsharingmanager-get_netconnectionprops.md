@@ -1,19 +1,17 @@
 ---
 UID: NF:netcon.INetSharingManager.get_NetConnectionProps
 title: INetSharingManager::get_NetConnectionProps (netcon.h)
-
 description: The get_NetConnectionProps method retrieves a properties interface for the specified connection.
 old-location: ics\inetsharingmanager_get_netconnectionprops.htm
 tech.root: ics
 ms.assetid: bf2db553-f324-4f23-b96e-f8ae703aa3ea
-
 ms.date: 12/05/2018
 ms.keywords: INetSharingManager interface [ICS/ICF],get_NetConnectionProps method, INetSharingManager.get_NetConnectionProps, INetSharingManager::get_NetConnectionProps, _ics_inetsharingmanager_get_netconnectionprops, get_NetConnectionProps, get_NetConnectionProps method [ICS/ICF], get_NetConnectionProps method [ICS/ICF],INetSharingManager interface, ics.inetsharingmanager_get_netconnectionprops, netcon/INetSharingManager::get_NetConnectionProps
 ms.topic: method
-f1_keywords: 
- - "netcon/INetSharingManager.get_NetConnectionProps"
+f1_keywords:
+- netcon/INetSharingManager.get_NetConnectionProps
 dev_langs:
- - c++
+- c++
 req.header: netcon.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Hnetcfg.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Hnetcfg.dll
+- Hnetcfg.dll
 api_name:
- - INetSharingManager.get_NetConnectionProps
+- INetSharingManager.get_NetConnectionProps
 targetos: Windows
 req.typenames: 
 req.redist: 

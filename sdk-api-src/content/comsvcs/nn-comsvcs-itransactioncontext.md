@@ -1,19 +1,17 @@
 ---
 UID: NN:comsvcs.ITransactionContext
 title: ITransactionContext (comsvcs.h)
-
 description: Enables you to compose the work of multiple COM+ objects in a single transaction and explicitly commit or abort the transaction.
 old-location: cos\itransactioncontext.htm
 tech.root: cossdk
 ms.assetid: 818fe18b-04ed-4f54-aeb7-b19aafc8a51a
-
 ms.date: 12/05/2018
 ms.keywords: ITransactionContext, ITransactionContext interface [COM+], ITransactionContext interface [COM+],described, _cos_ITransactionContext_Interface, comsvcs/ITransactionContext, cos.itransactioncontext
 ms.topic: interface
-f1_keywords: 
- - "comsvcs/ITransactionContext"
+f1_keywords:
+- comsvcs/ITransactionContext
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - ITransactionContext
+- ITransactionContext
 targetos: Windows
 req.typenames: 
 req.redist: 

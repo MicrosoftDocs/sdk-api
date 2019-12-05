@@ -1,19 +1,17 @@
 ---
 UID: NF:werapi.WerRegisterCustomMetadata
 title: WerRegisterCustomMetadata function (werapi.h)
-
 description: Registers app-specific metadata to be collected (in the form of key/value strings) when WER creates an error report.
 old-location: wer\werregistercustommetadata.htm
 tech.root: wer
 ms.assetid: 55FB3110-314A-4327-AA8F-3AF77B7006DD
-
 ms.date: 12/05/2018
 ms.keywords: WerRegisterCustomMetadata, WerRegisterCustomMetadata function [Windows Error Reporting], wer.werregistercustommetadata, werapi/WerRegisterCustomMetadata
 ms.topic: function
-f1_keywords: 
- - "werapi/WerRegisterCustomMetadata"
+f1_keywords:
+- werapi/WerRegisterCustomMetadata
 dev_langs:
- - c++
+- c++
 req.header: werapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-Windowserrorreporting-l1-1-0.dll
- - KernelBase.dll
+- Kernel32.dll
+- API-MS-Win-Core-Windowserrorreporting-l1-1-0.dll
+- KernelBase.dll
 api_name:
- - WerRegisterCustomMetadata
+- WerRegisterCustomMetadata
 targetos: Windows
 req.typenames: 
 req.redist: 

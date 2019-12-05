@@ -1,19 +1,17 @@
 ---
 UID: NS:fwpmtypes.FWPM_FILTER_ENUM_TEMPLATE0_
 title: FWPM_FILTER_ENUM_TEMPLATE0 (fwpmtypes.h)
-
 description: Is used for enumerating filters.
 old-location: fwp\fwpm_filter_enum_template0_struct.htm
 tech.root: fwp
 ms.assetid: 5ae77ee2-42b2-4794-afec-80360fe4f4da
-
 ms.date: 12/05/2018
 ms.keywords: FWPM_FILTER_ENUM_TEMPLATE0, FWPM_FILTER_ENUM_TEMPLATE0 structure [Filtering], FWP_ACTION_FLAG_CALLOUT, FWP_FILTER_ENUM_FLAG_BEST_TERMINATING_MATCH, FWP_FILTER_ENUM_FLAG_BOOTTIME_ONLY, FWP_FILTER_ENUM_FLAG_INCLUDE_BOOTTIME, FWP_FILTER_ENUM_FLAG_INCLUDE_DISABLED, FWP_FILTER_ENUM_FLAG_SORTED, fwp.fwpm_filter_enum_template0_struct, fwpmtypes/FWPM_FILTER_ENUM_TEMPLATE0
 ms.topic: struct
-f1_keywords: 
- - "fwpmtypes/FWPM_FILTER_ENUM_TEMPLATE0"
+f1_keywords:
+- fwpmtypes/FWPM_FILTER_ENUM_TEMPLATE0
 dev_langs:
- - c++
+- c++
 req.header: fwpmtypes.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Fwpmtypes.h
+- Fwpmtypes.h
 api_name:
- - FWPM_FILTER_ENUM_TEMPLATE0
+- FWPM_FILTER_ENUM_TEMPLATE0
 targetos: Windows
 req.typenames: FWPM_FILTER_ENUM_TEMPLATE0
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:msctf.IEnumTfDisplayAttributeInfo.Skip
 title: IEnumTfDisplayAttributeInfo::Skip (msctf.h)
-
 description: IEnumTfDisplayAttributeInfo::Skip method
 old-location: tsf\ienumtfdisplayattributeinfo_skip.htm
 tech.root: TSF
 ms.assetid: 5c4c9ca9-a813-406f-a507-16ccb0ff2a2a
-
 ms.date: 12/05/2018
 ms.keywords: IEnumTfDisplayAttributeInfo interface [Text Services Framework],Skip method, IEnumTfDisplayAttributeInfo.Skip, IEnumTfDisplayAttributeInfo::Skip, Skip, Skip method [Text Services Framework], Skip method [Text Services Framework],IEnumTfDisplayAttributeInfo interface, _tsf_ienumtfdisplayattributeinfo_skip_ref, msctf/IEnumTfDisplayAttributeInfo::Skip, tsf.ienumtfdisplayattributeinfo_skip
 ms.topic: method
-f1_keywords: 
- - "msctf/IEnumTfDisplayAttributeInfo.Skip"
+f1_keywords:
+- msctf/IEnumTfDisplayAttributeInfo.Skip
 dev_langs:
- - c++
+- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msctf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msctf.dll
+- msctf.dll
 api_name:
- - IEnumTfDisplayAttributeInfo.Skip
+- IEnumTfDisplayAttributeInfo.Skip
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

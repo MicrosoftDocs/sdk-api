@@ -1,19 +1,17 @@
 ---
 UID: NF:slpublic.SLInstallProofOfPurchase
 title: SLInstallProofOfPurchase function (slpublic.h)
-
 description: Registers the product key with SL.
 old-location: security\slinstallproofofpurchase.htm
 tech.root: SecSLApi
 ms.assetid: ea9efcf0-5146-4ede-8ec3-dc8617e34156
-
 ms.date: 12/05/2018
 ms.keywords: SLInstallProofOfPurchase, SLInstallProofOfPurchase function [Security], security.slinstallproofofpurchase, slpublic/SLInstallProofOfPurchase
 ms.topic: function
-f1_keywords: 
- - "slpublic/SLInstallProofOfPurchase"
+f1_keywords:
+- slpublic/SLInstallProofOfPurchase
 dev_langs:
- - c++
+- c++
 req.header: slpublic.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Slc.lib
 req.dll: Slc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Slc.dll
+- Slc.dll
 api_name:
- - SLInstallProofOfPurchase
+- SLInstallProofOfPurchase
 targetos: Windows
 req.typenames: 
 req.redist: 

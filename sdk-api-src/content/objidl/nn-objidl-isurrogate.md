@@ -1,19 +1,17 @@
 ---
 UID: NN:objidl.ISurrogate
 title: ISurrogate (objidl.h)
-
 description: Used to dynamically load new DLL servers into an existing surrogate and free the surrogate when it is no longer needed.
 old-location: com\isurrogate.htm
 tech.root: com
 ms.assetid: fbed0514-3646-4744-aa7a-4a98f1a12cc0
-
 ms.date: 12/05/2018
 ms.keywords: ISurrogate, ISurrogate interface [COM], ISurrogate interface [COM],described, _com_isurrogate, com.isurrogate, objidlbase/ISurrogate
 ms.topic: interface
-f1_keywords: 
- - "objidl/ISurrogate"
+f1_keywords:
+- objidl/ISurrogate
 dev_langs:
- - c++
+- c++
 req.header: objidl.h
 req.include-header: ObjIdl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - objidlbase.h
+- objidlbase.h
 api_name:
- - ISurrogate
+- ISurrogate
 targetos: Windows
 req.typenames: 
 req.redist: 

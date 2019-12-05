@@ -1,19 +1,17 @@
 ---
 UID: NN:wbemcli.IWbemObjectTextSrc
 title: IWbemObjectTextSrc (wbemcli.h)
-
 description: The IWbemObjectTextSrc interface is used to translate IWbemClassObject instances to and from differing text formats.
 old-location: wmi\iwbemobjecttextsrc.htm
 tech.root: WmiSdk
 ms.assetid: b86fd54e-15a8-4a08-ba29-5bc086ababf8
-
 ms.date: 12/05/2018
 ms.keywords: IWbemObjectTextSrc, IWbemObjectTextSrc interface [Windows Management Instrumentation], IWbemObjectTextSrc interface [Windows Management Instrumentation],described, WbemObjectTextSrc, _hmm_iwbemobjecttextsrc, wbemcli/IWbemObjectTextSrc, wmi.iwbemobjecttextsrc
 ms.topic: interface
-f1_keywords: 
- - "wbemcli/IWbemObjectTextSrc"
+f1_keywords:
+- wbemcli/IWbemObjectTextSrc
 dev_langs:
- - c++
+- c++
 req.header: wbemcli.h
 req.include-header: Wbemidl.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Wbemuuid.lib
 req.dll: Fastprox.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Fastprox.dll
+- Fastprox.dll
 api_name:
- - IWbemObjectTextSrc
- - IWbemObjectTextSrc.CreateFromText
- - WbemObjectTextSrc
+- IWbemObjectTextSrc
+- IWbemObjectTextSrc.CreateFromText
+- WbemObjectTextSrc
 targetos: Windows
 req.typenames: 
 req.redist: 

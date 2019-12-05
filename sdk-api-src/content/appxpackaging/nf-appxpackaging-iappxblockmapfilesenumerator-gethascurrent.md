@@ -1,19 +1,17 @@
 ---
 UID: NF:appxpackaging.IAppxBlockMapFilesEnumerator.GetHasCurrent
 title: IAppxBlockMapFilesEnumerator::GetHasCurrent (appxpackaging.h)
-
 description: Determines whether there is a file at the current position of the enumerator.
 old-location: appxpkg\iappxblockmapfilesenumerator_gethascurrent.htm
 tech.root: appxpkg
 ms.assetid: B0021CBC-9A3F-4D2D-8898-FE797396B312
-
 ms.date: 12/05/2018
 ms.keywords: GetHasCurrent, GetHasCurrent method [App packaging and management], GetHasCurrent method [App packaging and management],IAppxBlockMapFilesEnumerator interface, IAppxBlockMapFilesEnumerator interface [App packaging and management],GetHasCurrent method, IAppxBlockMapFilesEnumerator.GetHasCurrent, IAppxBlockMapFilesEnumerator::GetHasCurrent, appxpackaging/IAppxBlockMapFilesEnumerator::GetHasCurrent, appxpkg.iappxblockmapfilesenumerator_gethascurrent
 ms.topic: method
-f1_keywords: 
- - "appxpackaging/IAppxBlockMapFilesEnumerator.GetHasCurrent"
+f1_keywords:
+- appxpackaging/IAppxBlockMapFilesEnumerator.GetHasCurrent
 dev_langs:
- - c++
+- c++
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - AppxPackaging.h
+- AppxPackaging.h
 api_name:
- - IAppxBlockMapFilesEnumerator.GetHasCurrent
+- IAppxBlockMapFilesEnumerator.GetHasCurrent
 targetos: Windows
 req.typenames: 
 req.redist: 

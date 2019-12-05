@@ -1,19 +1,17 @@
 ---
 UID: NS:windns.__unnamed_struct_18
 title: DNS_KEY_DATA (windns.h)
-
 description: The DNS_KEY_DATA structure represents a DNS key (KEY) resource record (RR) as specified in RFC 3445.
 old-location: dns\dns_key_data.htm
 tech.root: DNS
 ms.assetid: d7d60322-4d06-4c57-b181-c6a38e09e1ef
-
 ms.date: 12/05/2018
-ms.keywords: "*PDNS_DNSKEY_DATA, *PDNS_KEY_DATA, 1, 2, 3, 4, 5, DNS_DNSKEY_DATA, DNS_DNSKEY_DATA structure [DNS], DNS_KEY_DATA, DNS_KEY_DATA structure [DNS], PDNS_DNSKEY_DATA, PDNS_DNSKEY_DATA structure pointer [DNS], PDNS_KEY_DATA, PDNS_KEY_DATA structure pointer [DNS], _dns_dns_key_data, dns.dns_key_data, windns/DNS_DNSKEY_DATA, windns/DNS_KEY_DATA, windns/PDNS_DNSKEY_DATA, windns/PDNS_KEY_DATA"
+ms.keywords: '*PDNS_DNSKEY_DATA, *PDNS_KEY_DATA, 1, 2, 3, 4, 5, DNS_DNSKEY_DATA, DNS_DNSKEY_DATA structure [DNS], DNS_KEY_DATA, DNS_KEY_DATA structure [DNS], PDNS_DNSKEY_DATA, PDNS_DNSKEY_DATA structure pointer [DNS], PDNS_KEY_DATA, PDNS_KEY_DATA structure pointer [DNS], _dns_dns_key_data, dns.dns_key_data, windns/DNS_DNSKEY_DATA, windns/DNS_KEY_DATA, windns/PDNS_DNSKEY_DATA, windns/PDNS_KEY_DATA'
 ms.topic: struct
-f1_keywords: 
- - "windns/DNS_KEY_DATA"
+f1_keywords:
+- windns/DNS_KEY_DATA
 dev_langs:
- - c++
+- c++
 req.header: windns.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Windns.h
+- Windns.h
 api_name:
- - DNS_KEY_DATA
+- DNS_KEY_DATA
 targetos: Windows
 req.typenames: DNS_KEY_DATA, *PDNS_KEY_DATA, DNS_DNSKEY_DATA, *PDNS_DNSKEY_DATA
 req.redist: 

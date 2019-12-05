@@ -1,19 +1,17 @@
 ---
 UID: NF:webservices.WsCreateChannelForListener
 title: WsCreateChannelForListener function (webservices.h)
-
 description: Creates a channel associated with a specified listener.
 old-location: wsw\wscreatechannelforlistener.htm
 tech.root: wsw
 ms.assetid: d9a80506-d891-4cfd-b120-0d3fce946cf5
-
 ms.date: 12/05/2018
 ms.keywords: WsCreateChannelForListener, WsCreateChannelForListener function [Web Services for Windows], webservices/WsCreateChannelForListener, wsw.wscreatechannelforlistener
 ms.topic: function
 f1_keywords:
 - webservices/WsCreateChannelForListener
 dev_langs:
- - c++
+- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

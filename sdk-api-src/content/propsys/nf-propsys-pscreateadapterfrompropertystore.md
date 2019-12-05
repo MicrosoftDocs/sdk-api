@@ -1,19 +1,17 @@
 ---
 UID: NF:propsys.PSCreateAdapterFromPropertyStore
 title: PSCreateAdapterFromPropertyStore function (propsys.h)
-
 description: Creates an adapter from an IPropertyStore.
 old-location: properties\PSCreateAdapterFromPropertyStore.htm
 tech.root: properties
 ms.assetid: a3489f95-e790-481a-af6e-f30527dc476c
-
 ms.date: 12/05/2018
 ms.keywords: PSCreateAdapterFromPropertyStore, PSCreateAdapterFromPropertyStore function [Windows Properties], _shell_PSCreateAdapterFromPropertyStore, properties.PSCreateAdapterFromPropertyStore, propsys/PSCreateAdapterFromPropertyStore, shell.PSCreateAdapterFromPropertyStore
 ms.topic: function
-f1_keywords: 
- - "propsys/PSCreateAdapterFromPropertyStore"
+f1_keywords:
+- propsys/PSCreateAdapterFromPropertyStore
 dev_langs:
- - c++
+- c++
 req.header: propsys.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Propsys.lib
 req.dll: Propsys.dll (version 6.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Propsys.dll
- - Ext-MS-Win-shell-propsys-l1-1-0.dll
+- Propsys.dll
+- Ext-MS-Win-shell-propsys-l1-1-0.dll
 api_name:
- - PSCreateAdapterFromPropertyStore
+- PSCreateAdapterFromPropertyStore
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0

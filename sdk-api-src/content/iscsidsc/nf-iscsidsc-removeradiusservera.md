@@ -1,19 +1,17 @@
 ---
 UID: NF:iscsidsc.RemoveRadiusServerA
 title: RemoveRadiusServerA function (iscsidsc.h)
-
 description: RemoveRadiusServer function removes a Remote Authentication Dial-In User Service (RADIUS) server entry from the RADIUS server list with which an iSCSI initiator is configured.
 old-location: iscsidisc\removeradiusserver.htm
 tech.root: iSCSIDisc
 ms.assetid: e096a91b-84de-4b7d-a0d6-1364746ec488
-
 ms.date: 12/05/2018
 ms.keywords: RemoveRadiusServer, RemoveRadiusServer function [iSCSI Discovery Library API], RemoveRadiusServerA, RemoveRadiusServerW, iscsidisc.removeradiusserver, iscsidsc/RemoveRadiusServer, iscsidsc/RemoveRadiusServerA, iscsidsc/RemoveRadiusServerW
 ms.topic: function
-f1_keywords: 
- - "iscsidsc/RemoveRadiusServer"
+f1_keywords:
+- iscsidsc/RemoveRadiusServer
 dev_langs:
- - c++
+- c++
 req.header: iscsidsc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Iscsidsc.lib
 req.dll: Iscsidsc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Iscsidsc.dll
+- Iscsidsc.dll
 api_name:
- - RemoveRadiusServer
- - RemoveRadiusServerA
- - RemoveRadiusServerW
+- RemoveRadiusServer
+- RemoveRadiusServerA
+- RemoveRadiusServerW
 targetos: Windows
 req.typenames: 
 req.redist: 

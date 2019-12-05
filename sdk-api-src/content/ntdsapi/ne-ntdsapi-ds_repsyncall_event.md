@@ -1,19 +1,17 @@
 ---
 UID: NE:ntdsapi.__unnamed_enum_6
 title: DS_REPSYNCALL_EVENT (ntdsapi.h)
-
 description: The DS_REPSYNCALL_EVENT enumeration is used with the DS_REPSYNCALL_UPDATE structure to define which event the DS_REPSYNCALL_UPDATE structure represents.
 old-location: ad\ds_repsyncall_event.htm
 tech.root: ad
 ms.assetid: a732a906-0e26-45f6-b89c-58f2277057ba
-
 ms.date: 12/05/2018
 ms.keywords: DS_REPSYNCALL_EVENT, DS_REPSYNCALL_EVENT enumeration [Active Directory], DS_REPSYNCALL_EVENT_ERROR, DS_REPSYNCALL_EVENT_FINISHED, DS_REPSYNCALL_EVENT_SYNC_COMPLETED, DS_REPSYNCALL_EVENT_SYNC_STARTED, ad.ds_repsyncall_event, ntdsapi/DS_REPSYNCALL_EVENT, ntdsapi/DS_REPSYNCALL_EVENT_ERROR, ntdsapi/DS_REPSYNCALL_EVENT_FINISHED, ntdsapi/DS_REPSYNCALL_EVENT_SYNC_COMPLETED, ntdsapi/DS_REPSYNCALL_EVENT_SYNC_STARTED
 ms.topic: enum
-f1_keywords: 
- - "ntdsapi/DS_REPSYNCALL_EVENT"
+f1_keywords:
+- ntdsapi/DS_REPSYNCALL_EVENT
 dev_langs:
- - c++
+- c++
 req.header: ntdsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Ntdsapi.h
+- Ntdsapi.h
 api_name:
- - DS_REPSYNCALL_EVENT
+- DS_REPSYNCALL_EVENT
 targetos: Windows
 req.typenames: DS_REPSYNCALL_EVENT
 req.redist: 

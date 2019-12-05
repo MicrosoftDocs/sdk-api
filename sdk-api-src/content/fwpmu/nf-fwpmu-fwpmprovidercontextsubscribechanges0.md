@@ -1,19 +1,17 @@
 ---
 UID: NF:fwpmu.FwpmProviderContextSubscribeChanges0
 title: FwpmProviderContextSubscribeChanges0 function (fwpmu.h)
-
 description: Is used to request the delivery of notifications regarding changes in a particular provider context.
 old-location: fwp\fwpmprovidercontextsubscribechanges0_func.htm
 tech.root: fwp
 ms.assetid: cd8c9ec5-c93c-45e5-8a91-88bd89e465d7
-
 ms.date: 12/05/2018
 ms.keywords: FwpmProviderContextSubscribeChanges0, FwpmProviderContextSubscribeChanges0 function [Filtering], fwp.fwpmprovidercontextsubscribechanges0_func, fwpmu/FwpmProviderContextSubscribeChanges0
 ms.topic: function
-f1_keywords: 
- - "fwpmu/FwpmProviderContextSubscribeChanges0"
+f1_keywords:
+- fwpmu/FwpmProviderContextSubscribeChanges0
 dev_langs:
- - c++
+- c++
 req.header: fwpmu.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Fwpuclnt.lib
 req.dll: Fwpuclnt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Fwpuclnt.dll
+- Fwpuclnt.dll
 api_name:
- - FwpmProviderContextSubscribeChanges0
+- FwpmProviderContextSubscribeChanges0
 targetos: Windows
 req.typenames: 
 req.redist: 

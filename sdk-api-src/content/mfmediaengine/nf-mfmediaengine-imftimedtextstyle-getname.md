@@ -1,19 +1,17 @@
 ---
 UID: NF:mfmediaengine.IMFTimedTextStyle.GetName
 title: IMFTimedTextStyle::GetName (mfmediaengine.h)
-
 description: Gets the name of the timed-text style.
 old-location: mf\imftimedtextstyle_getname.htm
 tech.root: medfound
 ms.assetid: C1B28336-27D1-4592-B583-940C2C9EF9A0
-
 ms.date: 12/05/2018
 ms.keywords: GetName, GetName method [Media Foundation], GetName method [Media Foundation],IMFTimedTextStyle interface, IMFTimedTextStyle interface [Media Foundation],GetName method, IMFTimedTextStyle.GetName, IMFTimedTextStyle::GetName, mf.imftimedtextstyle_getname, mfmediaengine/IMFTimedTextStyle::GetName
 ms.topic: method
-f1_keywords: 
- - "mfmediaengine/IMFTimedTextStyle.GetName"
+f1_keywords:
+- mfmediaengine/IMFTimedTextStyle.GetName
 dev_langs:
- - c++
+- c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfmediaengine.h
+- mfmediaengine.h
 api_name:
- - IMFTimedTextStyle.GetName
+- IMFTimedTextStyle.GetName
 targetos: Windows
 req.typenames: 
 req.redist: 

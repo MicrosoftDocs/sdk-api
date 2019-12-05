@@ -1,19 +1,17 @@
 ---
 UID: NF:intsafe.IntSub
 title: IntSub function (intsafe.h)
-
 description: Subtracts one value of type INT from another.
 old-location: shell\IntSub.htm
 tech.root: shell
 ms.assetid: ee083a68-27fd-4c94-93e0-7e662c48d5cf
-
 ms.date: 12/05/2018
 ms.keywords: IntSub, IntSub function [Windows Shell], intsafe/IntSub, shell.IntSub
 ms.topic: function
-f1_keywords: 
- - "intsafe/IntSub"
+f1_keywords:
+- intsafe/IntSub
 dev_langs:
- - c++
+- c++
 req.header: intsafe.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - intsafe.h
+- intsafe.h
 api_name:
- - IntSub
+- IntSub
 targetos: Windows
 req.typenames: 
 req.redist: 

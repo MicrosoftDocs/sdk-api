@@ -1,19 +1,17 @@
 ---
 UID: NF:azroles.IAzRoleAssignments.get__NewEnum
 title: IAzRoleAssignments::get__NewEnum (azroles.h)
-
 description: Retrieves an IEnumVARIANT interface on an object that can be used to enumerate the IAzRoleAssignments collection. This property is hidden within Visual Basic and Visual Basic Scripting Edition (VBScript).
 old-location: security\iazroleassignments__newenum.htm
 tech.root: SecAuthZ
 ms.assetid: 84f19d93-5e89-47f9-ade1-afb243c93ce0
-
 ms.date: 12/05/2018
 ms.keywords: IAzRoleAssignments interface [Security],_NewEnum property, IAzRoleAssignments._NewEnum, IAzRoleAssignments.get__NewEnum, IAzRoleAssignments::_NewEnum, IAzRoleAssignments::get__NewEnum, _NewEnum property [Security], _NewEnum property [Security],IAzRoleAssignments interface, azroles/IAzRoleAssignments::_NewEnum, azroles/IAzRoleAssignments::get__NewEnum, get__NewEnum, security.iazroleassignments__newenum
 ms.topic: method
-f1_keywords: 
- - "azroles/IAzRoleAssignments._NewEnum"
+f1_keywords:
+- azroles/IAzRoleAssignments._NewEnum
 dev_langs:
- - c++
+- c++
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: Azroles.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Azroles.dll
+- Azroles.dll
 api_name:
- - IAzRoleAssignments._NewEnum
- - IAzRoleAssignments.get__NewEnum
+- IAzRoleAssignments._NewEnum
+- IAzRoleAssignments.get__NewEnum
 targetos: Windows
 req.typenames: 
 req.redist: 

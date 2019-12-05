@@ -1,19 +1,17 @@
 ---
 UID: NF:textserv.ITextHost.TxGetClientRect
 title: ITextHost::TxGetClientRect (textserv.h)
-
 description: Retrieves the client coordinates of the text host's client area.
 old-location: controls\ITextHost_TxGetClientRect.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\windowlessricheditcontrols\windowlessricheditcontrolsreference\windowlessricheditcontrolinterfaces\txgetclientrect.htm
-
 ms.date: 12/05/2018
 ms.keywords: ITextHost interface [Windows Controls],TxGetClientRect method, ITextHost.TxGetClientRect, ITextHost::TxGetClientRect, TxGetClientRect, TxGetClientRect method [Windows Controls], TxGetClientRect method [Windows Controls],ITextHost interface, _win32_ITextHost_TxGetClientRect, _win32_ITextHost_TxGetClientRect_cpp, controls.ITextHost_TxGetClientRect, controls._win32_ITextHost_TxGetClientRect, textserv/ITextHost::TxGetClientRect
 ms.topic: method
-f1_keywords: 
- - "textserv/ITextHost.TxGetClientRect"
+f1_keywords:
+- textserv/ITextHost.TxGetClientRect
 dev_langs:
- - c++
+- c++
 req.header: textserv.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msftedit.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msftedit.dll
+- Msftedit.dll
 api_name:
- - ITextHost.TxGetClientRect
+- ITextHost.TxGetClientRect
 targetos: Windows
 req.typenames: 
 req.redist: 

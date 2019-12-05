@@ -1,19 +1,17 @@
 ---
 UID: NN:xpsprint.IXpsPrintJob
 title: IXpsPrintJob (xpsprint.h)
-
 description: Provides access to a print job that is currently in progress.
 old-location: gdi\ixpsprintjob.htm
 tech.root: printdocs
 ms.assetid: aa17e059-6208-4348-87f3-556a3818f2b9
-
 ms.date: 12/05/2018
 ms.keywords: IXpsPrintJob, IXpsPrintJob interface [Windows GDI], IXpsPrintJob interface [Windows GDI],described, gdi.ixpsprintjob, xpsprint/IXpsPrintJob
 ms.topic: interface
-f1_keywords: 
- - "xpsprint/IXpsPrintJob"
+f1_keywords:
+- xpsprint/IXpsPrintJob
 dev_langs:
- - c++
+- c++
 req.header: xpsprint.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - XpsPrint.h
+- XpsPrint.h
 api_name:
- - IXpsPrintJob
+- IXpsPrintJob
 targetos: Windows
 req.typenames: 
 req.redist: 

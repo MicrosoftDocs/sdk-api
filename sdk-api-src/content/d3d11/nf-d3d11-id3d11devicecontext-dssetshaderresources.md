@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d11.ID3D11DeviceContext.DSSetShaderResources
 title: ID3D11DeviceContext::DSSetShaderResources (d3d11.h)
-
 description: Bind an array of shader resources to the domain-shader stage.
 old-location: direct3d11\id3d11devicecontext_dssetshaderresources.htm
 tech.root: direct3d11
 ms.assetid: 633aedf7-f5cc-4873-940a-1b6e15927ec6
-
 ms.date: 12/05/2018
 ms.keywords: DSSetShaderResources, DSSetShaderResources method [Direct3D 11], DSSetShaderResources method [Direct3D 11],ID3D11DeviceContext interface, ID3D11DeviceContext interface [Direct3D 11],DSSetShaderResources method, ID3D11DeviceContext.DSSetShaderResources, ID3D11DeviceContext::DSSetShaderResources, d3d11/ID3D11DeviceContext::DSSetShaderResources, direct3d11.id3d11devicecontext_dssetshaderresources, f29f7cbd-7143-217f-643c-21533afc6cda
 ms.topic: method
-f1_keywords: 
- - "d3d11/ID3D11DeviceContext.DSSetShaderResources"
+f1_keywords:
+- d3d11/ID3D11DeviceContext.DSSetShaderResources
 dev_langs:
- - c++
+- c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: D3D11.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D11.lib
- - D3D11.dll
+- D3D11.lib
+- D3D11.dll
 api_name:
- - ID3D11DeviceContext.DSSetShaderResources
+- ID3D11DeviceContext.DSSetShaderResources
 targetos: Windows
 req.typenames: 
 req.redist: 

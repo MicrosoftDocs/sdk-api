@@ -1,19 +1,17 @@
 ---
 UID: NF:wtsprotocol.IWRdsProtocolConnection.GetLastInputTime
 title: IWRdsProtocolConnection::GetLastInputTime (wtsprotocol.h)
-
 description: Retrieves the last time the protocol received user input.
 old-location: termserv\iwrdsprotocolconnection_getlastinputtime.htm
 tech.root: TermServ
 ms.assetid: 1a6acbd2-6155-4513-8892-50a4552abb12
-
 ms.date: 12/05/2018
 ms.keywords: GetLastInputTime, GetLastInputTime method [Remote Desktop Services], GetLastInputTime method [Remote Desktop Services],IWRdsProtocolConnection interface, IWRdsProtocolConnection interface [Remote Desktop Services],GetLastInputTime method, IWRdsProtocolConnection.GetLastInputTime, IWRdsProtocolConnection::GetLastInputTime, termserv.iwrdsprotocolconnection_getlastinputtime, wtsprotocol/IWRdsProtocolConnection::GetLastInputTime
 ms.topic: method
-f1_keywords: 
- - "wtsprotocol/IWRdsProtocolConnection.GetLastInputTime"
+f1_keywords:
+- wtsprotocol/IWRdsProtocolConnection.GetLastInputTime
 dev_langs:
- - c++
+- c++
 req.header: wtsprotocol.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wtsprotocol.h
+- wtsprotocol.h
 api_name:
- - IWRdsProtocolConnection.GetLastInputTime
+- IWRdsProtocolConnection.GetLastInputTime
 targetos: Windows
 req.typenames: 
 req.redist: 

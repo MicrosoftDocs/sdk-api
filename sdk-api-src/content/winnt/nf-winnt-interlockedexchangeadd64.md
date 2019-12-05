@@ -1,19 +1,17 @@
 ---
 UID: NF:winnt.InterlockedExchangeAdd64
 title: InterlockedExchangeAdd64 function (winnt.h)
-
 description: Performs an atomic addition of two 64-bit values.
 old-location: base\interlockedexchangeadd64.htm
 tech.root: Sync
 ms.assetid: f8cab5f8-8054-4c02-9a6d-80fd9d98cf74
-
 ms.date: 12/05/2018
 ms.keywords: InterlockedExchangeAdd64, InterlockedExchangeAdd64 function, base.interlockedexchangeadd64, winnt/InterlockedExchangeAdd64
 ms.topic: function
-f1_keywords: 
- - "winnt/InterlockedExchangeAdd64"
+f1_keywords:
+- winnt/InterlockedExchangeAdd64
 dev_langs:
- - c++
+- c++
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Winnt.h
+- Winnt.h
 api_name:
- - InterlockedExchangeAdd64
+- InterlockedExchangeAdd64
 targetos: Windows
 req.typenames: 
 req.redist: 

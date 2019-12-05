@@ -1,19 +1,17 @@
 ---
 UID: NF:dbghelp.EnumDirTree
 title: EnumDirTree function (dbghelp.h)
-
 description: Enumerates all occurrences of the specified file in the specified directory tree.
 old-location: base\enumdirtree.htm
 tech.root: Debug
 ms.assetid: 2dd132f3-83d4-4afd-b44d-9f8d385d6116
-
 ms.date: 12/05/2018
 ms.keywords: EnumDirTree, EnumDirTree function, EnumDirTreeW, _win32_enumdirtree, base.enumdirtree, dbghelp/EnumDirTree, dbghelp/EnumDirTreeW
 ms.topic: function
-f1_keywords: 
- - "dbghelp/EnumDirTree"
+f1_keywords:
+- dbghelp/EnumDirTree
 dev_langs:
- - c++
+- c++
 req.header: dbghelp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Dbghelp.lib
 req.dll: Dbghelp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Dbghelp.dll
+- Dbghelp.dll
 api_name:
- - EnumDirTree
- - EnumDirTree
- - EnumDirTreeW
+- EnumDirTree
+- EnumDirTree
+- EnumDirTreeW
 targetos: Windows
 req.typenames: 
 req.redist: DbgHelp.dll 6.0 or later

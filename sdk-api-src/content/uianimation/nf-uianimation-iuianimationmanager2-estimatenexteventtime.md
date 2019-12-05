@@ -1,19 +1,17 @@
 ---
 UID: NF:uianimation.IUIAnimationManager2.EstimateNextEventTime
 title: IUIAnimationManager2::EstimateNextEventTime (uianimation.h)
-
 description: Retrieves an estimate of the time interval before the next animation event.
 old-location: uianimation\iuianimationmanager2_estimatenexteventtime.htm
 tech.root: UIAnimation
 ms.assetid: C2F049B7-287F-4EC2-A737-965E01515056
-
 ms.date: 12/05/2018
 ms.keywords: EstimateNextEventTime, EstimateNextEventTime method [Windows Animation], EstimateNextEventTime method [Windows Animation],IUIAnimationManager2 interface, IUIAnimationManager2 interface [Windows Animation],EstimateNextEventTime method, IUIAnimationManager2.EstimateNextEventTime, IUIAnimationManager2::EstimateNextEventTime, uianimation.iuianimationmanager2_estimatenexteventtime, uianimation/IUIAnimationManager2::EstimateNextEventTime
 ms.topic: method
-f1_keywords: 
- - "uianimation/IUIAnimationManager2.EstimateNextEventTime"
+f1_keywords:
+- uianimation/IUIAnimationManager2.EstimateNextEventTime
 dev_langs:
- - c++
+- c++
 req.header: uianimation.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAnimation.h
+- UIAnimation.h
 api_name:
- - IUIAnimationManager2.EstimateNextEventTime
+- IUIAnimationManager2.EstimateNextEventTime
 targetos: Windows
 req.typenames: 
 req.redist: 

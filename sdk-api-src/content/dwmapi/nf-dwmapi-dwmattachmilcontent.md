@@ -1,19 +1,17 @@
 ---
 UID: NF:dwmapi.DwmAttachMilContent
 title: DwmAttachMilContent function (dwmapi.h)
-
 description: This function is not implemented.
 old-location: dwm\dwmattachmilcontent.htm
 tech.root: dwm
 ms.assetid: VS|winui|~\winui\desktopwindowmanager\reference\functions\dwmattachmilcontent.htm
-
 ms.date: 12/05/2018
 ms.keywords: DwmAttachMilContent, DwmAttachMilContent function [Desktop Window Manager], _udwm_dwmattachmilcontent, _udwm_dwmattachmilcontent_cpp, dwm.dwmattachmilcontent, dwmapi/DwmAttachMilContent, winui._udwm_dwmattachmilcontent
 ms.topic: function
-f1_keywords: 
- - "dwmapi/DwmAttachMilContent"
+f1_keywords:
+- dwmapi/DwmAttachMilContent
 dev_langs:
- - c++
+- c++
 req.header: dwmapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dwmapi.lib
 req.dll: Dwmapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Dwmapi.dll
+- Dwmapi.dll
 api_name:
- - DwmAttachMilContent
+- DwmAttachMilContent
 targetos: Windows
 req.typenames: 
 req.redist: 

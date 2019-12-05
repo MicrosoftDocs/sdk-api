@@ -1,19 +1,17 @@
 ---
 UID: NF:searchapi.ISearchPersistentItemsChangedSink.StartedMonitoringScope
 title: ISearchPersistentItemsChangedSink::StartedMonitoringScope (searchapi.h)
-
 description: Called by a notifications provider to notify the indexer to monitor changes to items within a specified hierarchical scope.
 old-location: search\_search_ISearchPersistentItemsChangedSink_StartedMonitoringScope.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\notifications\isearchpersistentitemschangedsink\startedmonitoringscope.htm
-
 ms.date: 12/05/2018
 ms.keywords: ISearchPersistentItemsChangedSink interface [search],StartedMonitoringScope method, ISearchPersistentItemsChangedSink.StartedMonitoringScope, ISearchPersistentItemsChangedSink::StartedMonitoringScope, StartedMonitoringScope, StartedMonitoringScope method [search], StartedMonitoringScope method [search],ISearchPersistentItemsChangedSink interface, _search_ISearchPersistentItemsChangedSink_StartedMonitoringScope, search._search_ISearchPersistentItemsChangedSink_StartedMonitoringScope, searchapi/ISearchPersistentItemsChangedSink::StartedMonitoringScope
 ms.topic: method
-f1_keywords: 
- - "searchapi/ISearchPersistentItemsChangedSink.StartedMonitoringScope"
+f1_keywords:
+- searchapi/ISearchPersistentItemsChangedSink.StartedMonitoringScope
 dev_langs:
- - c++
+- c++
 req.header: searchapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Searchapi.h
+- Searchapi.h
 api_name:
- - ISearchPersistentItemsChangedSink.StartedMonitoringScope
+- ISearchPersistentItemsChangedSink.StartedMonitoringScope
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0

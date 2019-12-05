@@ -1,19 +1,17 @@
 ---
 UID: NN:pla.IValueMapItem
 title: IValueMapItem (pla.h)
-
 description: Defines a name/value pair.To get this interface, call the IValueMap::Item property. To create this interface, call the IValueMap::CreateValueMapItem method.
 old-location: pla\ivaluemapitem.htm
 tech.root: PLA
 ms.assetid: 5fab2a62-d974-49f7-ac81-c704d9d8624c
-
 ms.date: 12/05/2018
 ms.keywords: IValueMapItem, IValueMapItem interface [PLA], IValueMapItem interface [PLA],described, base.ivaluemapitem, pla.ivaluemapitem, pla/IValueMapItem
 ms.topic: interface
-f1_keywords: 
- - "pla/IValueMapItem"
+f1_keywords:
+- pla/IValueMapItem
 dev_langs:
- - c++
+- c++
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Pla.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Pla.dll
+- Pla.dll
 api_name:
- - IValueMapItem
+- IValueMapItem
 targetos: Windows
 req.typenames: 
 req.redist: 

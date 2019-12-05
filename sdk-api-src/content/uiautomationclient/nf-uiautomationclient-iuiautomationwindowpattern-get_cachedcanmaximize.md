@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationWindowPattern.get_CachedCanMaximize
 title: IUIAutomationWindowPattern::get_CachedCanMaximize (uiautomationclient.h)
-
 description: Retrieves a cached value that indicates whether the window can be maximized.
 old-location: winauto\uiauto_IUIAutomationWindowPattern_CachedCanMaximize.htm
 tech.root: WinAuto
 ms.assetid: 614b6030-79c2-4c09-a28d-801d5b3832d9
-
 ms.date: 12/05/2018
 ms.keywords: CachedCanMaximize property [Windows Accessibility], CachedCanMaximize property [Windows Accessibility],IUIAutomationWindowPattern interface, IUIAutomationWindowPattern interface [Windows Accessibility],CachedCanMaximize property, IUIAutomationWindowPattern.CachedCanMaximize, IUIAutomationWindowPattern.get_CachedCanMaximize, IUIAutomationWindowPattern::CachedCanMaximize, IUIAutomationWindowPattern::get_CachedCanMaximize, get_CachedCanMaximize, uiauto.uiauto_IUIAutomationWindowPattern_CachedCanMaximize, uiauto_IUIAutomationWindowPattern_CachedCanMaximize, uiautomationclient/IUIAutomationWindowPattern::CachedCanMaximize, uiautomationclient/IUIAutomationWindowPattern::get_CachedCanMaximize, winauto.uiauto_IUIAutomationWindowPattern_CachedCanMaximize
 ms.topic: method
-f1_keywords: 
- - "uiautomationclient/IUIAutomationWindowPattern.CachedCanMaximize"
+f1_keywords:
+- uiautomationclient/IUIAutomationWindowPattern.CachedCanMaximize
 dev_langs:
- - c++
+- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationClient.h
+- UIAutomationClient.h
 api_name:
- - IUIAutomationWindowPattern.CachedCanMaximize
- - IUIAutomationWindowPattern.get_CachedCanMaximize
+- IUIAutomationWindowPattern.CachedCanMaximize
+- IUIAutomationWindowPattern.get_CachedCanMaximize
 targetos: Windows
 req.typenames: 
 req.redist: 

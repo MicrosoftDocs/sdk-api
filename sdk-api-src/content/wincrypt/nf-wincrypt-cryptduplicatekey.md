@@ -1,19 +1,17 @@
 ---
 UID: NF:wincrypt.CryptDuplicateKey
 title: CryptDuplicateKey function (wincrypt.h)
-
 description: Makes an exact copy of a key and the state of the key.
 old-location: security\cryptduplicatekey.htm
 tech.root: SecCrypto
 ms.assetid: c5658008-7c92-4877-871a-a764884efd79
-
 ms.date: 12/05/2018
 ms.keywords: CryptDuplicateKey, CryptDuplicateKey function [Security], _crypto2_cryptduplicatekey, security.cryptduplicatekey, wincrypt/CryptDuplicateKey
 ms.topic: function
-f1_keywords: 
- - "wincrypt/CryptDuplicateKey"
+f1_keywords:
+- wincrypt/CryptDuplicateKey
 dev_langs:
- - c++
+- c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Advapi32.dll
- - API-MS-Win-Security-cryptoapi-l1-1-0.dll
- - cryptsp.dll
+- Advapi32.dll
+- API-MS-Win-Security-cryptoapi-l1-1-0.dll
+- cryptsp.dll
 api_name:
- - CryptDuplicateKey
+- CryptDuplicateKey
 targetos: Windows
 req.typenames: 
 req.redist: 

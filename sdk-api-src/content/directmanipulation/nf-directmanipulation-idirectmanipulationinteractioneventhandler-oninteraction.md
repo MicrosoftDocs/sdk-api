@@ -1,19 +1,17 @@
 ---
 UID: NF:directmanipulation.IDirectManipulationInteractionEventHandler.OnInteraction
 title: IDirectManipulationInteractionEventHandler::OnInteraction (directmanipulation.h)
-
 description: Called when an interaction is detected.
 old-location: directmanipulation\idirectmanipulationinteractioneventhandler_oninteraction.htm
 tech.root: directmanipulation
 ms.assetid: 75822986-5691-4E2B-B6DB-A91D98B39BE8
-
 ms.date: 12/05/2018
 ms.keywords: IDirectManipulationInteractionEventHandler interface [Direct Manipulation],OnInteraction method, IDirectManipulationInteractionEventHandler.OnInteraction, IDirectManipulationInteractionEventHandler::OnInteraction, OnInteraction, OnInteraction method [Direct Manipulation], OnInteraction method [Direct Manipulation],IDirectManipulationInteractionEventHandler interface, directmanipulation.idirectmanipulationinteractioneventhandler_oninteraction, directmanipulation/IDirectManipulationInteractionEventHandler::OnInteraction
 ms.topic: method
-f1_keywords: 
- - "directmanipulation/IDirectManipulationInteractionEventHandler.OnInteraction"
+f1_keywords:
+- directmanipulation/IDirectManipulationInteractionEventHandler.OnInteraction
 dev_langs:
- - c++
+- c++
 req.header: directmanipulation.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - DirectManipulation.h
+- DirectManipulation.h
 api_name:
- - IDirectManipulationInteractionEventHandler.OnInteraction
+- IDirectManipulationInteractionEventHandler.OnInteraction
 targetos: Windows
 req.typenames: 
 req.redist: 

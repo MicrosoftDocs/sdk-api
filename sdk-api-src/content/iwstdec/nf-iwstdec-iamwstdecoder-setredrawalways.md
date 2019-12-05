@@ -1,19 +1,17 @@
 ---
 UID: NF:iwstdec.IAMWstDecoder.SetRedrawAlways
 title: IAMWstDecoder::SetRedrawAlways (iwstdec.h)
-
 description: Downstream filters use the SetRedrawAlways method to determine whether the whole output bitmap should be redrawn for each sample.
 old-location: dshow\iamwstdecoder_setredrawalways.htm
 tech.root: DirectShow
 ms.assetid: 4663a9c0-3d08-4f25-8742-458081536f98
-
 ms.date: 12/05/2018
 ms.keywords: IAMWstDecoder interface [DirectShow],SetRedrawAlways method, IAMWstDecoder.SetRedrawAlways, IAMWstDecoder::SetRedrawAlways, IAMWstDecoderSetRedrawAlways, SetRedrawAlways, SetRedrawAlways method [DirectShow], SetRedrawAlways method [DirectShow],IAMWstDecoder interface, dshow.iamwstdecoder_setredrawalways, iwstdec/IAMWstDecoder::SetRedrawAlways
 ms.topic: method
-f1_keywords: 
- - "iwstdec/IAMWstDecoder.SetRedrawAlways"
+f1_keywords:
+- iwstdec/IAMWstDecoder.SetRedrawAlways
 dev_langs:
- - c++
+- c++
 req.header: iwstdec.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IAMWstDecoder.SetRedrawAlways
+- IAMWstDecoder.SetRedrawAlways
 targetos: Windows
 req.typenames: 
 req.redist: 

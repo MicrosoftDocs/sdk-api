@@ -1,19 +1,17 @@
 ---
 UID: NF:dbghelp.SymSetScopeFromAddr
 title: SymSetScopeFromAddr function (dbghelp.h)
-
 description: Sets the local scope to the symbol that matches the specified address.
 old-location: base\symsetscopefromaddr.htm
 tech.root: Debug
 ms.assetid: 7f7bcf12-8d8d-4dea-8191-4f7b24be1b5a
-
 ms.date: 12/05/2018
 ms.keywords: SymSetScopeFromAddr, SymSetScopeFromAddr function, base.symsetscopefromaddr, dbghelp/SymSetScopeFromAddr
 ms.topic: function
-f1_keywords: 
- - "dbghelp/SymSetScopeFromAddr"
+f1_keywords:
+- dbghelp/SymSetScopeFromAddr
 dev_langs:
- - c++
+- c++
 req.header: dbghelp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dbghelp.lib
 req.dll: Dbghelp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Dbghelp.dll
+- Dbghelp.dll
 api_name:
- - SymSetScopeFromAddr
+- SymSetScopeFromAddr
 targetos: Windows
 req.typenames: 
 req.redist: DbgHelp.dll 6.8 or later

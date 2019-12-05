@@ -1,19 +1,17 @@
 ---
 UID: NS:wincrypt._CRL_DIST_POINTS_INFO
 title: CRL_DIST_POINTS_INFO (wincrypt.h)
-
 description: Contains a list of certificate revocation list (CRL) distribution points a certificate user can reference to determine whether the certificate has been revoked.
 old-location: security\crl_dist_points_info.htm
 tech.root: SecCrypto
 ms.assetid: cc0fe49c-80ab-42d8-9756-a6d6b885761e
-
 ms.date: 12/05/2018
 ms.keywords: '*PCRL_DIST_POINTS_INFO, CRL_DIST_POINTS_INFO, CRL_DIST_POINTS_INFO structure [Security], PCRL_DIST_POINTS_INFO, PCRL_DIST_POINTS_INFO structure pointer [Security], _crypto2_crl_dist_points_info, security.crl_dist_points_info, wincrypt/CRL_DIST_POINTS_INFO, wincrypt/PCRL_DIST_POINTS_INFO'
 ms.topic: struct
 f1_keywords:
 - wincrypt/CRL_DIST_POINTS_INFO
 dev_langs:
- - c++
+- c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

@@ -1,19 +1,17 @@
 ---
 UID: NF:shlwapi.PathUnmakeSystemFolderA
 title: PathUnmakeSystemFolderA function (shlwapi.h)
-
 description: Removes the attributes from a folder that make it a system folder. This folder must actually exist in the file system.
 old-location: shell\PathUnmakeSystemFolder.htm
 tech.root: shell
 ms.assetid: 9c748ed6-3ee6-4889-8fdd-b33ed9d711d0
-
 ms.date: 12/05/2018
 ms.keywords: PathUnmakeSystemFolder, PathUnmakeSystemFolder function [Windows Shell], PathUnmakeSystemFolderA, PathUnmakeSystemFolderW, _win32_PathUnmakeSystemFolder, shell.PathUnmakeSystemFolder, shlwapi/PathUnmakeSystemFolder, shlwapi/PathUnmakeSystemFolderA, shlwapi/PathUnmakeSystemFolderW
 ms.topic: function
-f1_keywords: 
- - "shlwapi/PathUnmakeSystemFolder"
+f1_keywords:
+- shlwapi/PathUnmakeSystemFolder
 dev_langs:
- - c++
+- c++
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Shlwapi.lib
 req.dll: Shlwapi.dll (version 4.71 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Shlwapi.dll
+- Shlwapi.dll
 api_name:
- - PathUnmakeSystemFolder
- - PathUnmakeSystemFolderA
- - PathUnmakeSystemFolderW
+- PathUnmakeSystemFolder
+- PathUnmakeSystemFolderA
+- PathUnmakeSystemFolderW
 targetos: Windows
 req.typenames: 
 req.redist: 

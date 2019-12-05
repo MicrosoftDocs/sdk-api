@@ -1,19 +1,17 @@
 ---
 UID: NF:manipulations.IManipulationProcessor.GetExpansionVelocity
 title: IManipulationProcessor::GetExpansionVelocity (manipulations.h)
-
 description: The GetExpansionVelocity method calculates the rate that the target object is expanding at.
 old-location: wintouch\imanipulationprocessor_getexpansionvelocity.htm
 tech.root: wintouch
 ms.assetid: 5dbaeaa3-4abf-485e-9f84-8450dce14fc9
-
 ms.date: 12/05/2018
 ms.keywords: GetExpansionVelocity, GetExpansionVelocity method [Windows Touch], GetExpansionVelocity method [Windows Touch],IManipulationProcessor interface, IManipulationProcessor interface [Windows Touch],GetExpansionVelocity method, IManipulationProcessor.GetExpansionVelocity, IManipulationProcessor::GetExpansionVelocity, manipulations/IManipulationProcessor::GetExpansionVelocity, wintouch.imanipulationprocessor_getexpansionvelocity
 ms.topic: method
-f1_keywords: 
- - "manipulations/IManipulationProcessor.GetExpansionVelocity"
+f1_keywords:
+- manipulations/IManipulationProcessor.GetExpansionVelocity
 dev_langs:
- - c++
+- c++
 req.header: manipulations.h
 req.include-header: Manipulations_i.c
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - manipulations.h
+- manipulations.h
 api_name:
- - IManipulationProcessor.GetExpansionVelocity
+- IManipulationProcessor.GetExpansionVelocity
 targetos: Windows
 req.typenames: 
 req.redist: 

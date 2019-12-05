@@ -1,19 +1,17 @@
 ---
 UID: NN:rend.ITDirectoryObject
 title: ITDirectoryObject (rend.h)
-
 description: The ITDirectoryObject interface is the common interface supported by all objects that can be added and deleted by using the ITDirectory interface.
 old-location: tapi3\itdirectoryobject.htm
 tech.root: Tapi
 ms.assetid: a48644a4-43e2-4c52-84be-0cb5c49e6436
-
 ms.date: 12/05/2018
 ms.keywords: ITDirectoryObject, ITDirectoryObject interface [TAPI 2.2], ITDirectoryObject interface [TAPI 2.2],described, _tapi3_itdirectoryobject, rend/ITDirectoryObject, tapi3.itdirectoryobject
 ms.topic: interface
-f1_keywords: 
- - "rend/ITDirectoryObject"
+f1_keywords:
+- rend/ITDirectoryObject
 dev_langs:
- - c++
+- c++
 req.header: rend.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Rend.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Rend.dll
+- Rend.dll
 api_name:
- - ITDirectoryObject
+- ITDirectoryObject
 targetos: Windows
 req.typenames: 
 req.redist: 

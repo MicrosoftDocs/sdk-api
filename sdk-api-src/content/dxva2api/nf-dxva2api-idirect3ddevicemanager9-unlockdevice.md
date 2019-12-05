@@ -1,19 +1,17 @@
 ---
 UID: NF:dxva2api.IDirect3DDeviceManager9.UnlockDevice
 title: IDirect3DDeviceManager9::UnlockDevice (dxva2api.h)
-
 description: Unlocks the Direct3D device.
 old-location: mf\idirect3ddevicemanager9_unlockdevice.htm
 tech.root: medfound
 ms.assetid: e5be74bc-55a2-4c8a-86eb-97b96a4091e7
-
 ms.date: 12/05/2018
 ms.keywords: IDirect3DDeviceManager9 interface [Media Foundation],UnlockDevice method, IDirect3DDeviceManager9.UnlockDevice, IDirect3DDeviceManager9::UnlockDevice, UnlockDevice, UnlockDevice method [Media Foundation], UnlockDevice method [Media Foundation],IDirect3DDeviceManager9 interface, dxva2api/IDirect3DDeviceManager9::UnlockDevice, e5be74bc-55a2-4c8a-86eb-97b96a4091e7, mf.idirect3ddevicemanager9_unlockdevice
 ms.topic: method
-f1_keywords: 
- - "dxva2api/IDirect3DDeviceManager9.UnlockDevice"
+f1_keywords:
+- dxva2api/IDirect3DDeviceManager9.UnlockDevice
 dev_langs:
- - c++
+- c++
 req.header: dxva2api.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dxva2api.h
+- dxva2api.h
 api_name:
- - IDirect3DDeviceManager9.UnlockDevice
+- IDirect3DDeviceManager9.UnlockDevice
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NS:d3d11.D3D11_COUNTER_DESC
 title: D3D11_COUNTER_DESC (d3d11.h)
-
 description: Describes a counter.
 old-location: direct3d11\d3d11_counter_desc.htm
 tech.root: direct3d11
 ms.assetid: a0816409-fbe1-4b45-9b69-6f85b20008cb
-
 ms.date: 12/05/2018
 ms.keywords: 37ab8337-bf1a-9bbe-268c-5a6aa3f34dda, D3D11_COUNTER_DESC, D3D11_COUNTER_DESC structure [Direct3D 11], d3d11/D3D11_COUNTER_DESC, direct3d11.d3d11_counter_desc
 ms.topic: struct
-f1_keywords: 
- - "d3d11/D3D11_COUNTER_DESC"
+f1_keywords:
+- d3d11/D3D11_COUNTER_DESC
 dev_langs:
- - c++
+- c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - D3D11.h
+- D3D11.h
 api_name:
- - D3D11_COUNTER_DESC
+- D3D11_COUNTER_DESC
 targetos: Windows
 req.typenames: D3D11_COUNTER_DESC
 req.redist: 

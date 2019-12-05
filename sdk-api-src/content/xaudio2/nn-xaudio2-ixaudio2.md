@@ -1,19 +1,17 @@
 ---
 UID: NN:xaudio2.IXAudio2
 title: IXAudio2 (xaudio2.h)
-
 description: IXAudio2 is the interface for the XAudio2 object that manages all audio engine states, the audio processing thread, the voice graph, and so forth.
 old-location: xaudio2\ixaudio2.htm
 tech.root: xaudio2
 ms.assetid: T:Microsoft.directx_sdk.ixaudio2.IXAudio2
-
 ms.date: 12/05/2018
 ms.keywords: IXAudio2, IXAudio2 Interface, IXAudio2 Interface interface [XAudio2 Audio Mixing APIs], IXAudio2 Interface interface [XAudio2 Audio Mixing APIs],described, xaudio2.ixaudio2, xaudio2/IXAudio2
 ms.topic: interface
-f1_keywords: 
- - "xaudio2/IXAudio2 Interface"
+f1_keywords:
+- xaudio2/IXAudio2 Interface
 dev_langs:
- - c++
+- c++
 req.header: xaudio2.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Xaudio2.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xaudio2.lib
- - xaudio2.dll
+- xaudio2.lib
+- xaudio2.dll
 api_name:
- - IXAudio2 Interface
+- IXAudio2 Interface
 targetos: Windows
 req.typenames: 
 req.redist: 

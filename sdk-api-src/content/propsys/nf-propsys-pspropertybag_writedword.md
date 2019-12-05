@@ -1,19 +1,17 @@
 ---
 UID: NF:propsys.PSPropertyBag_WriteDWORD
 title: PSPropertyBag_WriteDWORD function (propsys.h)
-
 description: Sets the DWORD value of a property in a property bag.
 old-location: properties\PSPropertyBag_WriteDWORD.htm
 tech.root: properties
 ms.assetid: 59142C21-032F-462c-B4A7-337483917ABC
-
 ms.date: 12/05/2018
 ms.keywords: PSPropertyBag_WriteDWORD, PSPropertyBag_WriteDWORD function [Windows Properties], properties.PSPropertyBag_WriteDWORD, propsys/PSPropertyBag_WriteDWORD, shell.PSPropertyBag_WriteDWORD, shell_PSPropertyBag_WriteDWORD
 ms.topic: function
-f1_keywords: 
- - "propsys/PSPropertyBag_WriteDWORD"
+f1_keywords:
+- propsys/PSPropertyBag_WriteDWORD
 dev_langs:
- - c++
+- c++
 req.header: propsys.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Propsys.lib
 req.dll: Propsys.dll (version 6.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Propsys.dll
+- Propsys.dll
 api_name:
- - PSPropertyBag_WriteDWORD
+- PSPropertyBag_WriteDWORD
 targetos: Windows
 req.typenames: 
 req.redist: 

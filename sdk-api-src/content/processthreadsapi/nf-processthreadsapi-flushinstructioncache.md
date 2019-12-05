@@ -1,19 +1,17 @@
 ---
 UID: NF:processthreadsapi.FlushInstructionCache
 title: FlushInstructionCache function (processthreadsapi.h)
-
 description: Flushes the instruction cache for the specified process.
 old-location: base\flushinstructioncache.htm
 tech.root: Debug
 ms.assetid: 6267adde-8169-4673-97ec-78c66e2135c1
-
 ms.date: 12/05/2018
 ms.keywords: FlushInstructionCache, FlushInstructionCache function, _win32_flushinstructioncache, base.flushinstructioncache, processthreadsapi/FlushInstructionCache
 ms.topic: function
-f1_keywords: 
- - "processthreadsapi/FlushInstructionCache"
+f1_keywords:
+- processthreadsapi/FlushInstructionCache
 dev_langs:
- - c++
+- c++
 req.header: processthreadsapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,20 +30,20 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-ProcessThreads-l1-1-1.dll
- - KernelBase.dll
- - MinKernelBase.dll
- - API-MS-Win-Core-ProcessThreads-l1-1-2.dll
- - api-ms-win-downlevel-kernel32-l1-1-0.dll
- - API-MS-Win-Core-ProcessThreads-L1-1-3.dll
+- Kernel32.dll
+- API-MS-Win-Core-ProcessThreads-l1-1-1.dll
+- KernelBase.dll
+- MinKernelBase.dll
+- API-MS-Win-Core-ProcessThreads-l1-1-2.dll
+- api-ms-win-downlevel-kernel32-l1-1-0.dll
+- API-MS-Win-Core-ProcessThreads-L1-1-3.dll
 api_name:
- - FlushInstructionCache
+- FlushInstructionCache
 targetos: Windows
 req.typenames: 
 req.redist: 

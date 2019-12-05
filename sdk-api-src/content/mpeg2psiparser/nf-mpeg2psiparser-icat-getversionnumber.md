@@ -1,19 +1,17 @@
 ---
 UID: NF:mpeg2psiparser.ICAT.GetVersionNumber
 title: ICAT::GetVersionNumber (mpeg2psiparser.h)
-
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\icat_getversionnumber.htm
 tech.root: mstv
 ms.assetid: d117e4dd-5e7f-4f60-b657-25eae0f655cc
-
 ms.date: 12/05/2018
 ms.keywords: GetVersionNumber, GetVersionNumber method [Microsoft TV Technologies], GetVersionNumber method [Microsoft TV Technologies],ICAT interface, ICAT interface [Microsoft TV Technologies],GetVersionNumber method, ICAT.GetVersionNumber, ICAT::GetVersionNumber, ICATGetVersionNumber, mpeg2psiparser/ICAT::GetVersionNumber, mstv.icat_getversionnumber
 ms.topic: method
-f1_keywords: 
- - "mpeg2psiparser/ICAT.GetVersionNumber"
+f1_keywords:
+- mpeg2psiparser/ICAT.GetVersionNumber
 dev_langs:
- - c++
+- c++
 req.header: mpeg2psiparser.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mpeg2psiparser.h
+- mpeg2psiparser.h
 api_name:
- - ICAT.GetVersionNumber
+- ICAT.GetVersionNumber
 targetos: Windows
 req.typenames: 
 req.redist: 

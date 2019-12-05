@@ -1,19 +1,17 @@
 ---
 UID: NS:htmlhelp.tagHHN_NOTIFY
 title: HHN_NOTIFY (htmlhelp.h)
-
 description: Use this structure to return the file name of the topic that has been navigated to, or to return the window type name of the help window that has been created.
 old-location: htmlhelp\hhn_notify_structure.htm
 tech.root: htmlhelp
 ms.assetid: VS|htmlhelp|~\html\vsconstrhhnnotify.htm
-
 ms.date: 12/05/2018
 ms.keywords: HHN_NOTIFY, HHN_NOTIFY structure [HTML Help Workshop], htmlhelp.hhn_notify_structure, htmlhelp/HHN_NOTIFY, vsconStrhhnnotify
 ms.topic: struct
-f1_keywords: 
- - "htmlhelp/HHN_NOTIFY"
+f1_keywords:
+- htmlhelp/HHN_NOTIFY
 dev_langs:
- - c++
+- c++
 req.header: htmlhelp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - HtmlHelp.h
+- HtmlHelp.h
 api_name:
- - HHN_NOTIFY
+- HHN_NOTIFY
 targetos: Windows
 req.typenames: HHN_NOTIFY
 req.redist: 

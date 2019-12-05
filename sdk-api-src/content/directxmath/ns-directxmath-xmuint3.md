@@ -1,19 +1,17 @@
 ---
 UID: NS:directxmath.XMUINT3
 title: XMUINT3 (directxmath.h)
-
 description: A 3D vector where each component is an unsigned integer.
 old-location: dxmath\xmuint3.htm
 tech.root: dxmath
 ms.assetid: T:Microsoft.directx_sdk.reference.XMUINT3
-
 ms.date: 12/05/2018
 ms.keywords: XMUINT3, XMUINT3 structure [DirectX Math Support APIs], directxmath/XMUINT3, dxmath.xmuint3
 ms.topic: struct
-f1_keywords: 
- - "directxmath/XMUINT3"
+f1_keywords:
+- directxmath/XMUINT3
 dev_langs:
- - c++
+- c++
 req.header: directxmath.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - DirectXMath.h
+- DirectXMath.h
 api_name:
- - XMUINT3
+- XMUINT3
 targetos: Windows
 req.typenames: 
 req.redist: 

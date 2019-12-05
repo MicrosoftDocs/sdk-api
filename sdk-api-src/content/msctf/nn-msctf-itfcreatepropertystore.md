@@ -1,19 +1,17 @@
 ---
 UID: NN:msctf.ITfCreatePropertyStore
 title: ITfCreatePropertyStore (msctf.h)
-
 description: The ITfCreatePropertyStore interface is implemented by a text service to support persistence of property store data.
 old-location: tsf\itfcreatepropertystore.htm
 tech.root: TSF
 ms.assetid: f21619c5-5f59-4cc4-9f84-fa5f8a178d40
-
 ms.date: 12/05/2018
 ms.keywords: ITfCreatePropertyStore, ITfCreatePropertyStore interface [Text Services Framework], ITfCreatePropertyStore interface [Text Services Framework],described, _tsf_itfcreatepropertystore_ref, msctf/ITfCreatePropertyStore, tsf.itfcreatepropertystore
 ms.topic: interface
-f1_keywords: 
- - "msctf/ITfCreatePropertyStore"
+f1_keywords:
+- msctf/ITfCreatePropertyStore
 dev_langs:
- - c++
+- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Tiptsf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - tiptsf.dll
+- tiptsf.dll
 api_name:
- - ITfCreatePropertyStore
+- ITfCreatePropertyStore
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

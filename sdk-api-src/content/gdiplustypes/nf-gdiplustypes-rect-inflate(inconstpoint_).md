@@ -1,19 +1,17 @@
 ---
 UID: NF:gdiplustypes.Rect.Inflate(IN const Point &)
 title: Rect::Inflate(IN const Point &) (gdiplustypes.h)
-
 description: The Rect::Inflate method expands the rectangle by the value of point.X on the left and right edges, and by the value of point.Y on the top and bottom edges.
 old-location: gdiplus\_gdiplus_CLASS_Rect_Inflate_point_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\rectclass\rectmethods\rectinflatemethods\inflate_0point.htm
-
 ms.date: 12/05/2018
 ms.keywords: Inflate, Inflate method [GDI+], Inflate method [GDI+],Rect class, Rect class [GDI+],Inflate method, Rect.Inflate, Rect.Inflate(IN const Point &), Rect.Inflate(const Point&), Rect::Inflate, Rect::Inflate(IN const Point &), _gdiplus_CLASS_Rect_Inflate_point_, gdiplus._gdiplus_CLASS_Rect_Inflate_point_
 ms.topic: method
-f1_keywords: 
- - "gdiplustypes/Rect.Inflate"
+f1_keywords:
+- gdiplustypes/Rect.Inflate
 dev_langs:
- - c++
+- c++
 req.header: gdiplustypes.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - Rect.Inflate
+- Rect.Inflate
 targetos: Windows
 req.typenames: 
 req.redist: 

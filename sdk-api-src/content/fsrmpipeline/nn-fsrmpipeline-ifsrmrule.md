@@ -1,19 +1,17 @@
 ---
 UID: NN:fsrmpipeline.IFsrmRule
 title: IFsrmRule (fsrmpipeline.h)
-
 description: Defines a rule.
 old-location: fsrm\ifsrmrule.htm
 tech.root: fsrm
 ms.assetid: e1de871f-a2c9-4787-a3e8-8c3428e9249e
-
 ms.date: 12/05/2018
 ms.keywords: IFsrmRule, IFsrmRule interface [File Server Resource Manager], IFsrmRule interface [File Server Resource Manager],described, fs.ifsrmrule, fsrm.ifsrmrule, fsrm/IFsrmRule
 ms.topic: interface
-f1_keywords: 
- - "fsrmpipeline/IFsrmRule"
+f1_keywords:
+- fsrmpipeline/IFsrmRule
 dev_langs:
- - c++
+- c++
 req.header: fsrmpipeline.h
 req.include-header: FsrmPipeline.h, FsrmQuota.h, FsrmReports.h, FsrmScreen.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: SrmSvc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - SrmSvc.dll
+- SrmSvc.dll
 api_name:
- - IFsrmRule
+- IFsrmRule
 targetos: Windows
 req.typenames: 
 req.redist: 

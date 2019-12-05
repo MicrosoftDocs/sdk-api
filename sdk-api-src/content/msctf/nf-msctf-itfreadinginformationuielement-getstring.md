@@ -1,19 +1,17 @@
 ---
 UID: NF:msctf.ITfReadingInformationUIElement.GetString
 title: ITfReadingInformationUIElement::GetString (msctf.h)
-
 description: This method returns the string on the reading information UI.
 old-location: tsf\itfreadinginformationuielement_getstring.htm
 tech.root: TSF
 ms.assetid: d8e7dae5-ea73-4fad-a731-3ca1eaa60b03
-
 ms.date: 12/05/2018
 ms.keywords: GetString, GetString method [Text Services Framework], GetString method [Text Services Framework],ITfReadingInformationUIElement interface, ITfReadingInformationUIElement interface [Text Services Framework],GetString method, ITfReadingInformationUIElement.GetString, ITfReadingInformationUIElement::GetString, msctf/ITfReadingInformationUIElement::GetString, tsf.iitfreadinginformationuielement_getstring, tsf.itfreadinginformationuielement_getstring
 ms.topic: method
-f1_keywords: 
- - "msctf/ITfReadingInformationUIElement.GetString"
+f1_keywords:
+- msctf/ITfReadingInformationUIElement.GetString
 dev_langs:
- - c++
+- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msctf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msctf.dll
+- Msctf.dll
 api_name:
- - ITfReadingInformationUIElement.GetString
+- ITfReadingInformationUIElement.GetString
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

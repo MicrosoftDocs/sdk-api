@@ -1,19 +1,17 @@
 ---
 UID: NS:resapi.MONITOR_STATE
 title: MONITOR_STATE (resapi.h)
-
 description: TBD.
 old-location: mscs\monitor_state.htm
 tech.root: MsCS
 ms.assetid: 2e5a1c19-4382-42de-8535-4bcf57a9b845
-
 ms.date: 12/05/2018
-ms.keywords: "*PMONITOR_STATE, MONITOR_STATE, MONITOR_STATE structure [Failover Cluster], PMONITOR_STATE, PMONITOR_STATE structure pointer [Failover Cluster], mscs.monitor_state, resapi/MONITOR_STATE, resapi/PMONITOR_STATE"
+ms.keywords: '*PMONITOR_STATE, MONITOR_STATE, MONITOR_STATE structure [Failover Cluster], PMONITOR_STATE, PMONITOR_STATE structure pointer [Failover Cluster], mscs.monitor_state, resapi/MONITOR_STATE, resapi/PMONITOR_STATE'
 ms.topic: struct
-f1_keywords: 
- - "resapi/MONITOR_STATE"
+f1_keywords:
+- resapi/MONITOR_STATE
 dev_langs:
- - c++
+- c++
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - ResApi.h
+- ResApi.h
 api_name:
- - MONITOR_STATE
+- MONITOR_STATE
 targetos: Windows
 req.typenames: MONITOR_STATE, *PMONITOR_STATE
 req.redist: 

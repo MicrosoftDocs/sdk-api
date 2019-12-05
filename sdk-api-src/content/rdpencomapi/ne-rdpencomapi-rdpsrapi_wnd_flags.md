@@ -1,19 +1,17 @@
 ---
 UID: NE:rdpencomapi.__MIDL___MIDL_itf_rdpencomapi_0000_0000_0007
 title: RDPSRAPI_WND_FLAGS (rdpencomapi.h)
-
 description: Defines values for the type of window.
 old-location: rdp\rdpsrapi_wnd_flags.htm
 tech.root: rdp
 ms.assetid: 0ba626e0-b6dc-4331-9541-0c27c73b3de4
-
 ms.date: 12/05/2018
 ms.keywords: RDPSRAPI_WND_FLAGS, RDPSRAPI_WND_FLAGS enumeration [RDP], WND_FLAG_PRIVILEGED, rdp.rdpsrapi_wnd_flags, rdpencomapi/RDPSRAPI_WND_FLAGS, rdpencomapi/WND_FLAG_PRIVILEGED
 ms.topic: enum
-f1_keywords: 
- - "rdpencomapi/RDPSRAPI_WND_FLAGS"
+f1_keywords:
+- rdpencomapi/RDPSRAPI_WND_FLAGS
 dev_langs:
- - c++
+- c++
 req.header: rdpencomapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Rdpencomapi.h
+- Rdpencomapi.h
 api_name:
- - RDPSRAPI_WND_FLAGS
+- RDPSRAPI_WND_FLAGS
 targetos: Windows
 req.typenames: RDPSRAPI_WND_FLAGS
 req.redist: 

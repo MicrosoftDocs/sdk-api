@@ -1,19 +1,17 @@
 ---
 UID: NF:commctrl.FORWARD_WM_NOTIFY
 title: FORWARD_WM_NOTIFY macro (commctrl.h)
-
 description: Sends or posts the WM_NOTIFY message.
 old-location: controls\FORWARD_WM_NOTIFY.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\common\macros\forward_wm_notify.htm
-
 ms.date: 12/05/2018
 ms.keywords: FORWARD_WM_NOTIFY, FORWARD_WM_NOTIFY macro [Windows Controls], _win32_FORWARD_WM_NOTIFY, _win32_FORWARD_WM_NOTIFY_cpp, commctrl/FORWARD_WM_NOTIFY, controls.FORWARD_WM_NOTIFY, controls._win32_FORWARD_WM_NOTIFY
 ms.topic: macro
 f1_keywords:
 - commctrl/FORWARD_WM_NOTIFY
 dev_langs:
- - c++
+- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

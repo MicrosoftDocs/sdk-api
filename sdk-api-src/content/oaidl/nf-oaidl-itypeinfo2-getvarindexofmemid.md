@@ -1,19 +1,17 @@
 ---
 UID: NF:oaidl.ITypeInfo2.GetVarIndexOfMemId
 title: ITypeInfo2::GetVarIndexOfMemId (oaidl.h)
-
 description: Binds to a specific member based on a known DISPID, where the member name is not known (for example, when binding to a default member).
 old-location: automat\itypeinfo2_getvarindexofmemid.htm
 tech.root: automat
 ms.assetid: 6b97ddbf-bcb3-4e39-a355-40c1fd4e8c6a
-
 ms.date: 12/05/2018
 ms.keywords: GetVarIndexOfMemId, GetVarIndexOfMemId method [Automation], GetVarIndexOfMemId method [Automation],ITypeInfo2 interface, ITypeInfo2 interface [Automation],GetVarIndexOfMemId method, ITypeInfo2.GetVarIndexOfMemId, ITypeInfo2::GetVarIndexOfMemId, _oa96_ITypeInfo2_GetVarIndexOfMemId, automat.itypeinfo2_getvarindexofmemid, oaidl/ITypeInfo2::GetVarIndexOfMemId
 ms.topic: method
-f1_keywords: 
- - "oaidl/ITypeInfo2.GetVarIndexOfMemId"
+f1_keywords:
+- oaidl/ITypeInfo2.GetVarIndexOfMemId
 dev_langs:
- - c++
+- c++
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - oaidl.h
+- oaidl.h
 api_name:
- - ITypeInfo2.GetVarIndexOfMemId
+- ITypeInfo2.GetVarIndexOfMemId
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:mfcaptureengine.IMFCaptureSource.GetCaptureDeviceActivate
 title: IMFCaptureSource::GetCaptureDeviceActivate (mfcaptureengine.h)
-
 description: Gets the current capture device's IMFActivate object pointer.
 old-location: mf\imfcapturesource_getcapturedeviceactivate.htm
 tech.root: medfound
 ms.assetid: 5f69321f-67df-4d6c-a98a-51a9859f8a22
-
 ms.date: 12/05/2018
 ms.keywords: GetCaptureDeviceActivate, GetCaptureDeviceActivate method [Media Foundation], GetCaptureDeviceActivate method [Media Foundation],IMFCaptureSource interface, IMFCaptureSource interface [Media Foundation],GetCaptureDeviceActivate method, IMFCaptureSource.GetCaptureDeviceActivate, IMFCaptureSource::GetCaptureDeviceActivate, mf.imfcapturesource_getcapturedeviceactivate, mfcaptureengine/IMFCaptureSource::GetCaptureDeviceActivate
 ms.topic: method
-f1_keywords: 
- - "mfcaptureengine/IMFCaptureSource.GetCaptureDeviceActivate"
+f1_keywords:
+- mfcaptureengine/IMFCaptureSource.GetCaptureDeviceActivate
 dev_langs:
- - c++
+- c++
 req.header: mfcaptureengine.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfcaptureengine.h
+- mfcaptureengine.h
 api_name:
- - IMFCaptureSource.GetCaptureDeviceActivate
+- IMFCaptureSource.GetCaptureDeviceActivate
 targetos: Windows
 req.typenames: 
 req.redist: 

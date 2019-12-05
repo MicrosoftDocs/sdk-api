@@ -1,19 +1,17 @@
 ---
 UID: NN:vdshwprv.IVdsHwProviderPrivateMpio
 title: IVdsHwProviderPrivateMpio (vdshwprv.h)
-
 description: Provides a method that sets the status of paths originating from a particular HBA port to the provider.
 old-location: base\ivdshwproviderprivatempio.htm
 tech.root: VDS
 ms.assetid: fa60e832-1148-4ffb-bf70-bd7b27180cdd
-
 ms.date: 12/05/2018
 ms.keywords: IVdsHwProviderPrivateMpio, IVdsHwProviderPrivateMpio interface [VDS], IVdsHwProviderPrivateMpio interface [VDS],described, base.ivdshwproviderprivatempio, vdshwprv/IVdsHwProviderPrivateMpio
 ms.topic: interface
-f1_keywords: 
- - "vdshwprv/IVdsHwProviderPrivateMpio"
+f1_keywords:
+- vdshwprv/IVdsHwProviderPrivateMpio
 dev_langs:
- - c++
+- c++
 req.header: vdshwprv.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Uuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Uuid.lib
- - Uuid.dll
+- Uuid.lib
+- Uuid.dll
 api_name:
- - IVdsHwProviderPrivateMpio
+- IVdsHwProviderPrivateMpio
 targetos: Windows
 req.typenames: 
 req.redist: 

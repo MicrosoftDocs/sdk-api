@@ -1,19 +1,17 @@
 ---
 UID: NF:mfobjects.IMFDXGIDeviceManager.CloseDeviceHandle
 title: IMFDXGIDeviceManager::CloseDeviceHandle (mfobjects.h)
-
 description: Closes a Microsoft Direct3D device handle.
 old-location: mf\imfdxgidevicemanager_closedevicehandle.htm
 tech.root: medfound
 ms.assetid: D5C74D6C-F066-4905-9D02-886FA503F58E
-
 ms.date: 12/05/2018
 ms.keywords: CloseDeviceHandle, CloseDeviceHandle method [Media Foundation], CloseDeviceHandle method [Media Foundation],IMFDXGIDeviceManager interface, IMFDXGIDeviceManager interface [Media Foundation],CloseDeviceHandle method, IMFDXGIDeviceManager.CloseDeviceHandle, IMFDXGIDeviceManager::CloseDeviceHandle, mf.imfdxgidevicemanager_closedevicehandle, mfobjects/IMFDXGIDeviceManager::CloseDeviceHandle
 ms.topic: method
-f1_keywords: 
- - "mfobjects/IMFDXGIDeviceManager.CloseDeviceHandle"
+f1_keywords:
+- mfobjects/IMFDXGIDeviceManager.CloseDeviceHandle
 dev_langs:
- - c++
+- c++
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfobjects.h
+- mfobjects.h
 api_name:
- - IMFDXGIDeviceManager.CloseDeviceHandle
+- IMFDXGIDeviceManager.CloseDeviceHandle
 targetos: Windows
 req.typenames: 
 req.redist: 

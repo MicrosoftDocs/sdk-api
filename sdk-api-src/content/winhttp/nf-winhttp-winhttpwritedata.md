@@ -1,19 +1,17 @@
 ---
 UID: NF:winhttp.WinHttpWriteData
 title: WinHttpWriteData function (winhttp.h)
-
 description: The WinHttpWriteData function writes request data to an HTTP server.
 old-location: http\winhttpwritedata.htm
 tech.root: WinHttp
 ms.assetid: c8b94285-1b01-451b-9803-cc1bacb015ff
-
 ms.date: 12/05/2018
 ms.keywords: WinHttpWriteData, WinHttpWriteData function [WinHTTP], http.winhttpwritedata, winhttp.winhttpwritedata_function, winhttp/WinHttpWriteData
 ms.topic: function
-f1_keywords: 
- - "winhttp/WinHttpWriteData"
+f1_keywords:
+- winhttp/WinHttpWriteData
 dev_langs:
- - c++
+- c++
 req.header: winhttp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Winhttp.lib
 req.dll: Winhttp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Winhttp.dll
+- Winhttp.dll
 api_name:
- - WinHttpWriteData
+- WinHttpWriteData
 targetos: Windows
 req.typenames: 
 req.redist: WinHTTP 5.0 and Internet Explorer 5.01 or later on Windows XP and Windows 2000.

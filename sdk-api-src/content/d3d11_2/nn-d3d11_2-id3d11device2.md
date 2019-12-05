@@ -1,19 +1,17 @@
 ---
 UID: NN:d3d11_2.ID3D11Device2
 title: ID3D11Device2 (d3d11_2.h)
-
 description: The device interface represents a virtual adapter; it is used to create resources. ID3D11Device2 adds new methods to those in ID3D11Device1.
 old-location: direct3d11\id3d11device2.htm
 tech.root: direct3d11
 ms.assetid: C476AA0E-4A49-4E1E-8308-FB72EAD3E30C
-
 ms.date: 12/05/2018
 ms.keywords: ID3D11Device2, ID3D11Device2 interface [Direct3D 11], ID3D11Device2 interface [Direct3D 11],described, d3d11_2/ID3D11Device2, direct3d11.id3d11device2
 ms.topic: interface
-f1_keywords: 
- - "d3d11_2/ID3D11Device2"
+f1_keywords:
+- d3d11_2/ID3D11Device2
 dev_langs:
- - c++
+- c++
 req.header: d3d11_2.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: D3D11.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D11.lib
- - D3D11.dll
+- D3D11.lib
+- D3D11.dll
 api_name:
- - ID3D11Device2
+- ID3D11Device2
 targetos: Windows
 req.typenames: 
 req.redist: 

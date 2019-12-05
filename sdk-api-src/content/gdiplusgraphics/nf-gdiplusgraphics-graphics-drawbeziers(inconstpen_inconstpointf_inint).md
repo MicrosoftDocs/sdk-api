@@ -3,14 +3,13 @@ UID: NF:gdiplusgraphics.Graphics.DrawBeziers(IN const Pen,IN const PointF,IN INT
 title: Graphics::DrawBeziers
 description: The Graphics::DrawBeziers method draws a sequence of connected Bezier splines.
 ms.assetid: 3a0f5b23-24bb-4255-a6fe-30cfb701350a
-
 ms.date: 05/13/2019
 ms.keywords: Graphics::DrawBeziers
 ms.topic: language-reference
-f1_keywords: 
- - "gdiplusgraphics/Graphics::DrawBeziers"
+f1_keywords:
+- gdiplusgraphics/Graphics::DrawBeziers
 dev_langs:
- - c++
+- c++
 targetos: Windows
 req.assembly: 
 req.construct-type: function
@@ -32,13 +31,13 @@ req.type-library:
 req.umdf-ver: 
 req.unicode-ansi: 
 topic_type:
- - apiref
+- apiref
 api_type:
- - COM
+- COM
 api_location:
- - gdiplusgraphics.h
+- gdiplusgraphics.h
 api_name:
- - Graphics::DrawBeziers
+- Graphics::DrawBeziers
 ---
 
 # DrawBeziers(Pen*,PointF*,INT)

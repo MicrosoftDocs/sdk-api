@@ -1,19 +1,17 @@
 ---
 UID: NL:textserv.ITextServices2
 title: ITextServices2 (textserv.h)
-
 description: The ITextServices2 interface extends the ITextServices interface.
 old-location: controls\itextservices2.htm
 tech.root: Controls
 ms.assetid: B5DC90BA-F9A5-45DC-8C8A-784380C38769
-
 ms.date: 12/05/2018
 ms.keywords: ITextServices2, ITextServices2 interface [Windows Controls], ITextServices2 interface [Windows Controls],described, controls.itextservices2, textserv/ITextServices2
 ms.topic: class
-f1_keywords: 
- - "textserv/ITextServices2"
+f1_keywords:
+- textserv/ITextServices2
 dev_langs:
- - c++
+- c++
 req.header: textserv.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msftedit.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msftedit.dll
+- Msftedit.dll
 api_name:
- - ITextServices2
+- ITextServices2
 targetos: Windows
 req.typenames: 
 req.redist: 

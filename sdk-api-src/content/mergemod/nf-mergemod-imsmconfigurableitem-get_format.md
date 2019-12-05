@@ -1,19 +1,17 @@
 ---
 UID: NF:mergemod.IMsmConfigurableItem.get_Format
 title: IMsmConfigurableItem::get_Format (mergemod.h)
-
 description: The get_Format method retrieves the Format property of the ConfigurableItem object.
 old-location: setup\imsmconfigurableitem_get_format.htm
 tech.root: Msi
 ms.assetid: 85db7d8b-e3f2-4a7a-840f-2d690aa82917
-
 ms.date: 12/05/2018
 ms.keywords: IMsmConfigurableItem interface,get_Format method, IMsmConfigurableItem.get_Format, IMsmConfigurableItem::get_Format, _msi_get_format_function, get_Format, get_Format method, get_Format method,IMsmConfigurableItem interface, mergemod/IMsmConfigurableItem::get_Format, setup.imsmconfigurableitem_get_format
 ms.topic: method
-f1_keywords: 
- - "mergemod/IMsmConfigurableItem.get_Format"
+f1_keywords:
+- mergemod/IMsmConfigurableItem.get_Format
 dev_langs:
- - c++
+- c++
 req.header: mergemod.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Mergemod.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mergemod.dll
+- Mergemod.dll
 api_name:
- - IMsmConfigurableItem.get_Format
+- IMsmConfigurableItem.get_Format
 targetos: Windows
 req.typenames: 
 req.redist: 

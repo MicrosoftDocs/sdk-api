@@ -1,19 +1,17 @@
 ---
 UID: NF:mpconfig.IMixerPinConfig.GetStreamTransparent
 title: IMixerPinConfig::GetStreamTransparent (mpconfig.h)
-
 description: The GetStreamTransparent method determines whether a stream is transparent.
 old-location: dshow\imixerpinconfig_getstreamtransparent.htm
 tech.root: DirectShow
 ms.assetid: adee4565-ccc3-4a72-a4ee-c27980868dfa
-
 ms.date: 12/05/2018
 ms.keywords: GetStreamTransparent, GetStreamTransparent method [DirectShow], GetStreamTransparent method [DirectShow],IMixerPinConfig interface, IMixerPinConfig interface [DirectShow],GetStreamTransparent method, IMixerPinConfig.GetStreamTransparent, IMixerPinConfig::GetStreamTransparent, IMixerPinConfigGetStreamTransparent, dshow.imixerpinconfig_getstreamtransparent, mpconfig/IMixerPinConfig::GetStreamTransparent
 ms.topic: method
-f1_keywords: 
- - "mpconfig/IMixerPinConfig.GetStreamTransparent"
+f1_keywords:
+- mpconfig/IMixerPinConfig.GetStreamTransparent
 dev_langs:
- - c++
+- c++
 req.header: mpconfig.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IMixerPinConfig.GetStreamTransparent
+- IMixerPinConfig.GetStreamTransparent
 targetos: Windows
 req.typenames: 
 req.redist: 

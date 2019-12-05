@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationcore.IStylesProvider.get_Shape
 title: IStylesProvider::get_Shape (uiautomationcore.h)
-
 description: Specifies the shape of an element in a document.
 old-location: winauto\uiauto_istylesprovider_shape.htm
 tech.root: WinAuto
 ms.assetid: 4FE34CD4-DF41-4B00-B9C9-A5909E116030
-
 ms.date: 12/05/2018
 ms.keywords: IStylesProvider interface [Windows Accessibility],Shape property, IStylesProvider.Shape, IStylesProvider.get_Shape, IStylesProvider::Shape, IStylesProvider::get_Shape, Shape property [Windows Accessibility], Shape property [Windows Accessibility],IStylesProvider interface, get_Shape, uiautomationcore/IStylesProvider::Shape, uiautomationcore/IStylesProvider::get_Shape, winauto.uiauto_istylesprovider_shape
 ms.topic: method
-f1_keywords: 
- - "uiautomationcore/IStylesProvider.Shape"
+f1_keywords:
+- uiautomationcore/IStylesProvider.Shape
 dev_langs:
- - c++
+- c++
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationCore.h
+- UIAutomationCore.h
 api_name:
- - IStylesProvider.Shape
- - IStylesProvider.get_Shape
+- IStylesProvider.Shape
+- IStylesProvider.get_Shape
 targetos: Windows
 req.typenames: 
 req.redist: 

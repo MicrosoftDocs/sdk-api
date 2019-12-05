@@ -1,19 +1,17 @@
 ---
 UID: NF:wmp.IWMPNetwork.get_framesSkipped
 title: IWMPNetwork::get_framesSkipped (wmp.h)
-
 description: The get_framesSkipped method retrieves the total number of frames skipped during playback.
 old-location: wmp\iwmpnetwork_get_framesskipped.htm
 tech.root: WMP
 ms.assetid: 2ca3e280-4f3e-4460-884d-186199e3edd6
-
 ms.date: 12/05/2018
 ms.keywords: IWMPNetwork interface [Windows Media Player],get_framesSkipped method, IWMPNetwork.get_framesSkipped, IWMPNetwork::get_framesSkipped, IWMPNetworkget_framesSkipped, get_framesSkipped, get_framesSkipped method [Windows Media Player], get_framesSkipped method [Windows Media Player],IWMPNetwork interface, wmp.iwmpnetwork_get_framesskipped, wmp/IWMPNetwork::get_framesSkipped
 ms.topic: method
-f1_keywords: 
- - "wmp/IWMPNetwork.get_framesSkipped"
+f1_keywords:
+- wmp/IWMPNetwork.get_framesSkipped
 dev_langs:
- - c++
+- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wmp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmp.dll
+- wmp.dll
 api_name:
- - IWMPNetwork.get_framesSkipped
+- IWMPNetwork.get_framesSkipped
 targetos: Windows
 req.typenames: 
 req.redist: 

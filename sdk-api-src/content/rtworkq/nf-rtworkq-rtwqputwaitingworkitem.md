@@ -1,19 +1,17 @@
 ---
 UID: NF:rtworkq.RtwqPutWaitingWorkItem
 title: RtwqPutWaitingWorkItem function (rtworkq.h)
-
 description: Queues a work item that waits for an event to be signaled.
 old-location: base\rtwqputwaitingworkitem.htm
 tech.root: ProcThread
 ms.assetid: 7cc7dd44-0949-49f7-8a8f-cc309650b763
-
 ms.date: 12/05/2018
 ms.keywords: RtwqPutWaitingWorkItem, RtwqPutWaitingWorkItem function, base.rtwqputwaitingworkitem, rtworkq/RtwqPutWaitingWorkItem
 ms.topic: function
-f1_keywords: 
- - "rtworkq/RtwqPutWaitingWorkItem"
+f1_keywords:
+- rtworkq/RtwqPutWaitingWorkItem
 dev_langs:
- - c++
+- c++
 req.header: rtworkq.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Rtworkq.lib
 req.dll: RTWorkQ.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - RTWorkQ.dll
+- RTWorkQ.dll
 api_name:
- - RtwqPutWaitingWorkItem
+- RtwqPutWaitingWorkItem
 targetos: Windows
 req.typenames: 
 req.redist: 

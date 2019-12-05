@@ -1,19 +1,17 @@
 ---
 UID: NF:certadm.IOCSPCAConfiguration.get_CSPName
 title: IOCSPCAConfiguration::get_CSPName (certadm.h)
-
 description: Gets a cryptographic service provider (CSP) or key storage provider (KSP) name.
 old-location: security\iocspcaconfiguration_cspname_method.htm
 tech.root: SecCrypto
 ms.assetid: a35400a9-7eb7-4298-b023-efe2a087ba7d
-
 ms.date: 12/05/2018
 ms.keywords: CSPName property [Security], CSPName property [Security],IOCSPCAConfiguration interface, IOCSPCAConfiguration interface [Security],CSPName property, IOCSPCAConfiguration.CSPName, IOCSPCAConfiguration.get_CSPName, IOCSPCAConfiguration::CSPName, IOCSPCAConfiguration::get_CSPName, certadm/IOCSPCAConfiguration::CSPName, certadm/IOCSPCAConfiguration::get_CSPName, get_CSPName, security.iocspcaconfiguration_cspname_method
 ms.topic: method
-f1_keywords: 
- - "certadm/IOCSPCAConfiguration.CSPName"
+f1_keywords:
+- certadm/IOCSPCAConfiguration.CSPName
 dev_langs:
- - c++
+- c++
 req.header: certadm.h
 req.include-header: Certserv.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Certadm.lib
 req.dll: Certadm.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Certadm.dll
+- Certadm.dll
 api_name:
- - IOCSPCAConfiguration.CSPName
- - IOCSPCAConfiguration.get_CSPName
+- IOCSPCAConfiguration.CSPName
+- IOCSPCAConfiguration.get_CSPName
 targetos: Windows
 req.typenames: 
 req.redist: 

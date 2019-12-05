@@ -1,19 +1,17 @@
 ---
 UID: NF:control.IMediaControl.RenderFile
 title: IMediaControl::RenderFile (control.h)
-
 description: The RenderFile method builds a filter graph that renders the specified file.
 old-location: dshow\imediacontrol_renderfile.htm
 tech.root: DirectShow
 ms.assetid: 5dfff776-da3f-40a3-86d4-76a5099d6e6f
-
 ms.date: 12/05/2018
 ms.keywords: IMediaControl interface [DirectShow],RenderFile method, IMediaControl.RenderFile, IMediaControl::RenderFile, IMediaControlRenderFile, RenderFile, RenderFile method [DirectShow], RenderFile method [DirectShow],IMediaControl interface, control/IMediaControl::RenderFile, dshow.imediacontrol_renderfile
 ms.topic: method
-f1_keywords: 
- - "control/IMediaControl.RenderFile"
+f1_keywords:
+- control/IMediaControl.RenderFile
 dev_langs:
- - c++
+- c++
 req.header: control.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IMediaControl.RenderFile
+- IMediaControl.RenderFile
 targetos: Windows
 req.typenames: 
 req.redist: 

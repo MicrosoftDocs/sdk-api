@@ -1,19 +1,17 @@
 ---
 UID: NF:structuredquery.IQueryParser.GetOption
 title: IQueryParser::GetOption (structuredquery.h)
-
 description: Retrieves a specified simple option value for this query parser.
 old-location: search\_search_IQueryParser_GetOption.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\iqueryparser\getoption.htm
-
 ms.date: 12/05/2018
 ms.keywords: GetOption, GetOption method [search], GetOption method [search],IQueryParser interface, IQueryParser interface [search],GetOption method, IQueryParser.GetOption, IQueryParser::GetOption, _search_IQueryParser_GetOption, search._search_IQueryParser_GetOption, structuredquery/IQueryParser::GetOption
 ms.topic: method
-f1_keywords: 
- - "structuredquery/IQueryParser.GetOption"
+f1_keywords:
+- structuredquery/IQueryParser.GetOption
 dev_langs:
- - c++
+- c++
 req.header: structuredquery.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Structuredquery.h
+- Structuredquery.h
 api_name:
- - IQueryParser.GetOption
+- IQueryParser.GetOption
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0

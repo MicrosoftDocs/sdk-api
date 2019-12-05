@@ -1,19 +1,17 @@
 ---
 UID: NF:commctrl.Button_GetSplitInfo
 title: Button_GetSplitInfo macro (commctrl.h)
-
 description: Gets information for a specified split button control. Use this macro or send the BCM_GETSPLITINFO message explicitly.
 old-location: controls\Button_GetSplitInfo.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\buttons\buttonreference\buttonmacros\button_getsplitinfo.htm
-
 ms.date: 12/05/2018
 ms.keywords: Button_GetSplitInfo, Button_GetSplitInfo macro [Windows Controls], _shell_Button_GetSplitInfo, _shell_Button_GetSplitInfo_cpp, commctrl/Button_GetSplitInfo, controls.Button_GetSplitInfo, controls._shell_Button_GetSplitInfo
 ms.topic: macro
-f1_keywords: 
- - "commctrl/Button_GetSplitInfo"
+f1_keywords:
+- commctrl/Button_GetSplitInfo
 dev_langs:
- - c++
+- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Commctrl.h
+- Commctrl.h
 api_name:
- - Button_GetSplitInfo
+- Button_GetSplitInfo
 targetos: Windows
 req.typenames: 
 req.redist: 

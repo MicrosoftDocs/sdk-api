@@ -1,19 +1,17 @@
 ---
 UID: NF:faxcom.IFaxPort.get_Rings
 title: IFaxPort::get_Rings (faxcom.h)
-
 description: The IFaxPort::get_Rings property represents the number of rings an incoming fax call should wait before the fax port answers the call.
 old-location: fax\_mfax_ifaxport_mfax_ifaxport_get_rings_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_3jjn.htm
-
 ms.date: 12/05/2018
 ms.keywords: IFaxPort interface [Fax Service],Rings property, IFaxPort.Rings, IFaxPort.get_Rings, IFaxPort::Rings, IFaxPort::get_Rings, IFaxPort::put_Rings, Rings property [Fax Service], Rings property [Fax Service],IFaxPort interface, _mfax_ifaxport_get_rings, fax._mfax_ifaxport_get_rings, fax._mfax_ifaxport_mfax_ifaxport_get_rings_cpp, faxcom/IFaxPort::Rings, faxcom/IFaxPort::get_Rings, faxcom/IFaxPort::put_Rings, get_Rings
 ms.topic: method
-f1_keywords: 
- - "faxcom/IFaxPort.Rings"
+f1_keywords:
+- faxcom/IFaxPort.Rings
 dev_langs:
- - c++
+- c++
 req.header: faxcom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: Faxcom.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Faxcom.dll
+- Faxcom.dll
 api_name:
- - IFaxPort.Rings
- - IFaxPort.get_Rings
- - IFaxPort.put_Rings
+- IFaxPort.Rings
+- IFaxPort.get_Rings
+- IFaxPort.put_Rings
 targetos: Windows
 req.typenames: 
 req.redist: 

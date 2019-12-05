@@ -1,19 +1,17 @@
 ---
 UID: NS:dbghelp.__unnamed_struct_0
 title: SYMSRV_INDEX_INFO (dbghelp.h)
-
 description: Contains symbol server index information.
 old-location: base\symsrv_index_info.htm
 tech.root: Debug
 ms.assetid: 110cf21c-7768-48fd-bfdc-1f7cd30ca291
-
 ms.date: 12/05/2018
-ms.keywords: "*PSYMSRV_INDEX_INFO, PSYMSRV_INDEX_INFO, PSYMSRV_INDEX_INFO structure pointer, SYMSRV_INDEX_INFO, SYMSRV_INDEX_INFO structure, SYMSRV_INDEX_INFOW, base.symsrv_index_info, dbghelp/PSYMSRV_INDEX_INFO, dbghelp/SYMSRV_INDEX_INFO, dbghelp/SYMSRV_INDEX_INFOW"
+ms.keywords: '*PSYMSRV_INDEX_INFO, PSYMSRV_INDEX_INFO, PSYMSRV_INDEX_INFO structure pointer, SYMSRV_INDEX_INFO, SYMSRV_INDEX_INFO structure, SYMSRV_INDEX_INFOW, base.symsrv_index_info, dbghelp/PSYMSRV_INDEX_INFO, dbghelp/SYMSRV_INDEX_INFO, dbghelp/SYMSRV_INDEX_INFOW'
 ms.topic: struct
-f1_keywords: 
- - "dbghelp/SYMSRV_INDEX_INFO"
+f1_keywords:
+- dbghelp/SYMSRV_INDEX_INFO
 dev_langs:
- - c++
+- c++
 req.header: dbghelp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Dbghelp.h
+- Dbghelp.h
 api_name:
- - SYMSRV_INDEX_INFO
- - SYMSRV_INDEX_INFO
- - SYMSRV_INDEX_INFOW
+- SYMSRV_INDEX_INFO
+- SYMSRV_INDEX_INFO
+- SYMSRV_INDEX_INFOW
 targetos: Windows
 req.typenames: SYMSRV_INDEX_INFO, *PSYMSRV_INDEX_INFO
 req.redist: DbgHelp.dll 6.6 or later

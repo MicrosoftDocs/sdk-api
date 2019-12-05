@@ -1,19 +1,17 @@
 ---
 UID: NF:winenclaveapi.EnclaveVerifyAttestationReport
 title: EnclaveVerifyAttestationReport function (winenclaveapi.h)
-
 description: Verifies an attestation report that was generated on the current system.
 old-location: base\enclaveverifyattestationreport.htm
 tech.root: Memory
 ms.assetid: D74F89FB-9F06-4AA1-9E2E-C9265B3C5B44
-
 ms.date: 12/05/2018
 ms.keywords: EnclaveVerifyAttestationReport, EnclaveVerifyAttestationReport function, base.enclaveverifyattestationreport, winenclaveapi/EnclaveVerifyAttestationReport
 ms.topic: function
-f1_keywords: 
- - "winenclaveapi/EnclaveVerifyAttestationReport"
+f1_keywords:
+- winenclaveapi/EnclaveVerifyAttestationReport
 dev_langs:
- - c++
+- c++
 req.header: winenclaveapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Vertdll.lib
 req.dll: Vertdll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - vertdll.dll
+- vertdll.dll
 api_name:
- - EnclaveVerifyAttestationReport
+- EnclaveVerifyAttestationReport
 targetos: Windows
 req.typenames: 
 req.redist: 

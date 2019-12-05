@@ -1,19 +1,17 @@
 ---
 UID: NF:winbase.GetComputerNameA
 title: GetComputerNameA function (winbase.h)
-
 description: Retrieves the NetBIOS name of the local computer. This name is established at system startup, when the system reads it from the registry.
 old-location: base\getcomputername.htm
 tech.root: SysInfo
 ms.assetid: 8ca3e611-e5fb-4909-adf6-98eb8552c9e1
-
 ms.date: 12/05/2018
 ms.keywords: GetComputerName, GetComputerName function, GetComputerNameA, GetComputerNameW, _win32_getcomputername, base.getcomputername, winbase/GetComputerName, winbase/GetComputerNameA, winbase/GetComputerNameW
 ms.topic: function
-f1_keywords: 
- - "winbase/GetComputerName"
+f1_keywords:
+- winbase/GetComputerName
 dev_langs:
- - c++
+- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,24 +30,24 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-Kernel32-Legacy-l1-1-0.dll
- - kernel32legacy.dll
- - API-MS-Win-Core-Kernel32-Legacy-l1-1-1.dll
- - API-MS-Win-Core-Kernel32-Legacy-l1-1-2.dll
- - API-MS-Win-DownLevel-Kernel32-l2-1-0.dll
- - API-MS-Win-Core-Kernel32-Legacy-L1-1-3.dll
- - API-MS-Win-Core-Kernel32-Legacy-L1-1-4.dll
- - API-MS-Win-Core-Kernel32-Legacy-L1-1-5.dll
+- Kernel32.dll
+- API-MS-Win-Core-Kernel32-Legacy-l1-1-0.dll
+- kernel32legacy.dll
+- API-MS-Win-Core-Kernel32-Legacy-l1-1-1.dll
+- API-MS-Win-Core-Kernel32-Legacy-l1-1-2.dll
+- API-MS-Win-DownLevel-Kernel32-l2-1-0.dll
+- API-MS-Win-Core-Kernel32-Legacy-L1-1-3.dll
+- API-MS-Win-Core-Kernel32-Legacy-L1-1-4.dll
+- API-MS-Win-Core-Kernel32-Legacy-L1-1-5.dll
 api_name:
- - GetComputerName
- - GetComputerNameA
- - GetComputerNameW
+- GetComputerName
+- GetComputerNameA
+- GetComputerNameW
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:propsys.ICreateObject.CreateObject
 title: ICreateObject::CreateObject (propsys.h)
-
 description: Creates a local object of a specified class and returns a pointer to a specified interface on the object.
 old-location: shell\ICreateObject_CreateObject.htm
 tech.root: shell
 ms.assetid: 72c56de7-4c04-4bcf-b6bb-6e41d12b68a3
-
 ms.date: 12/05/2018
 ms.keywords: CreateObject, CreateObject method [Windows Shell], CreateObject method [Windows Shell],ICreateObject interface, ICreateObject interface [Windows Shell],CreateObject method, ICreateObject.CreateObject, ICreateObject::CreateObject, _shell_ICreateObject_CreateObject, propsys/ICreateObject::CreateObject, shell.ICreateObject_CreateObject
 ms.topic: method
-f1_keywords: 
- - "propsys/ICreateObject.CreateObject"
+f1_keywords:
+- propsys/ICreateObject.CreateObject
 dev_langs:
- - c++
+- c++
 req.header: propsys.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Propsys.h
+- Propsys.h
 api_name:
- - ICreateObject.CreateObject
+- ICreateObject.CreateObject
 targetos: Windows
 req.typenames: 
 req.redist: 

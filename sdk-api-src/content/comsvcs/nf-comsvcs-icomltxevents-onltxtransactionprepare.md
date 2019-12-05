@@ -1,19 +1,17 @@
 ---
 UID: NF:comsvcs.IComLTxEvents.OnLtxTransactionPrepare
 title: IComLTxEvents::OnLtxTransactionPrepare (comsvcs.h)
-
 description: Generated when COM+ receives a prepare notification for a transaction.
 old-location: cos\icomltxevents_onltxtransactionprepare.htm
 tech.root: cossdk
 ms.assetid: 31915d4c-7ac0-406b-b2d2-ab96b317be3f
-
 ms.date: 12/05/2018
 ms.keywords: IComLTxEvents interface [COM+],OnLtxTransactionPrepare method, IComLTxEvents.OnLtxTransactionPrepare, IComLTxEvents::OnLtxTransactionPrepare, OnLtxTransactionPrepare, OnLtxTransactionPrepare method [COM+], OnLtxTransactionPrepare method [COM+],IComLTxEvents interface, comsvcs/IComLTxEvents::OnLtxTransactionPrepare, cos.icomltxevents_onltxtransactionprepare
 ms.topic: method
-f1_keywords: 
- - "comsvcs/IComLTxEvents.OnLtxTransactionPrepare"
+f1_keywords:
+- comsvcs/IComLTxEvents.OnLtxTransactionPrepare
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - IComLTxEvents.OnLtxTransactionPrepare
+- IComLTxEvents.OnLtxTransactionPrepare
 targetos: Windows
 req.typenames: 
 req.redist: 

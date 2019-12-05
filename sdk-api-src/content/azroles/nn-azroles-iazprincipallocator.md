@@ -1,19 +1,17 @@
 ---
 UID: NN:azroles.IAzPrincipalLocator
 title: IAzPrincipalLocator (azroles.h)
-
 description: Locates and chooses ADAM principals in Authorization Manager.
 old-location: security\iazprincipallocator.htm
 tech.root: SecAuthZ
 ms.assetid: 7ae3f0a3-9eeb-44d9-954a-a6526bb4eb3f
-
 ms.date: 12/05/2018
 ms.keywords: IAzPrincipalLocator, IAzPrincipalLocator interface [Security], IAzPrincipalLocator interface [Security],described, azroles/ IAzPrincipalLocator, security.iazprincipallocator
 ms.topic: interface
-f1_keywords: 
- - "azroles/IAzPrincipalLocator"
+f1_keywords:
+- azroles/IAzPrincipalLocator
 dev_langs:
- - c++
+- c++
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Azroles.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Azroles.dll
+- Azroles.dll
 api_name:
- - IAzPrincipalLocator
+- IAzPrincipalLocator
 targetos: Windows
 req.typenames: 
 req.redist: 

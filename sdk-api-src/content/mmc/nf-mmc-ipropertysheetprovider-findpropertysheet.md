@@ -1,19 +1,17 @@
 ---
 UID: NF:mmc.IPropertySheetProvider.FindPropertySheet
 title: IPropertySheetProvider::FindPropertySheet (mmc.h)
-
 description: Determines whether a specific property sheet exists.
 old-location: mmc\ipropertysheetprovider_findpropertysheet.htm
 tech.root: mmc
 ms.assetid: 14f3a2b7-9e14-4068-a85a-20c41d7e4a4d
-
 ms.date: 12/05/2018
 ms.keywords: FindPropertySheet, FindPropertySheet method [MMC], FindPropertySheet method [MMC],IPropertySheetProvider interface, IPropertySheetProvider interface [MMC],FindPropertySheet method, IPropertySheetProvider.FindPropertySheet, IPropertySheetProvider::FindPropertySheet, _slate_ipropertysheetprovider_findpropertysheet, mmc.ipropertysheetprovider_findpropertysheet, mmc/IPropertySheetProvider::FindPropertySheet
 ms.topic: method
-f1_keywords: 
- - "mmc/IPropertySheetProvider.FindPropertySheet"
+f1_keywords:
+- mmc/IPropertySheetProvider.FindPropertySheet
 dev_langs:
- - c++
+- c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Mmcndmgr.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mmcndmgr.dll
+- Mmcndmgr.dll
 api_name:
- - IPropertySheetProvider.FindPropertySheet
+- IPropertySheetProvider.FindPropertySheet
 targetos: Windows
 req.typenames: 
 req.redist: 

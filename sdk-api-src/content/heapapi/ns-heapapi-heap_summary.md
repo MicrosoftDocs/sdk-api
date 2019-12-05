@@ -5,9 +5,9 @@ ms.date: 4/26/2019
 ms.keywords: _HEAP_SUMMARY, HEAP_SUMMARY
 ms.topic: language-reference
 f1_keywords:
- - _HEAP_SUMMARY
+- _HEAP_SUMMARY
 dev_langs:
- - c++
+- c++
 targetos: Windows
 req.construct-type: structure
 req.ddi-compliance: 
@@ -25,14 +25,14 @@ req.typenames: HEAP_SUMMARY, *PHEAP_SUMMARY
 req.umdf-ver: 
 req.unicode-ansi: 
 topic_type:
- - apiref
+- apiref
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - heapapi.h
+- heapapi.h
 api_name:
- - _HEAP_SUMMARY
- - HEAP_SUMMARY
+- _HEAP_SUMMARY
+- HEAP_SUMMARY
 ---
 
 ## -description

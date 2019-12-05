@@ -1,19 +1,17 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMImageResource.SetContent
 title: IXpsOMImageResource::SetContent (xpsobjectmodel.h)
-
 description: Sets the read-only stream to be associated with this resource.
 old-location: xps\ixpsomimageresource_setcontent.htm
 tech.root: printdocs
 ms.assetid: 91dc565f-4ccb-497c-b5d2-f9b60884b094
-
 ms.date: 12/05/2018
 ms.keywords: IXpsOMImageResource interface [XPS Documents and Packaging],SetContent method, IXpsOMImageResource.SetContent, IXpsOMImageResource::SetContent, SetContent, SetContent method [XPS Documents and Packaging], SetContent method [XPS Documents and Packaging],IXpsOMImageResource interface, xps.ixpsomimageresource_setcontent, xpsobjectmodel/IXpsOMImageResource::SetContent
 ms.topic: method
-f1_keywords: 
- - "xpsobjectmodel/IXpsOMImageResource.SetContent"
+f1_keywords:
+- xpsobjectmodel/IXpsOMImageResource.SetContent
 dev_langs:
- - c++
+- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsobjectmodel.h
+- xpsobjectmodel.h
 api_name:
- - IXpsOMImageResource.SetContent
+- IXpsOMImageResource.SetContent
 targetos: Windows
 req.typenames: 
 req.redist: 

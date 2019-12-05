@@ -1,19 +1,17 @@
 ---
 UID: NF:p2p.PeerIdentityImport
 title: PeerIdentityImport function (p2p.h)
-
 description: The PeerIdentityImport function imports one peer identity. If the peer identity exists on a computer, PEER_E_ALREADY_EXISTS is returned.
 old-location: p2p\peeridentityimport.htm
 tech.root: P2PSdk
 ms.assetid: 273aa395-905a-41bd-a027-23f4b3f549b6
-
 ms.date: 12/05/2018
 ms.keywords: PeerIdentityImport, PeerIdentityImport function [Peer Networking], p2p.peeridentityimport, p2p/PeerIdentityImport
 ms.topic: function
-f1_keywords: 
- - "p2p/PeerIdentityImport"
+f1_keywords:
+- p2p/PeerIdentityImport
 dev_langs:
- - c++
+- c++
 req.header: p2p.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: P2P.lib
 req.dll: P2P.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - P2P.dll
+- P2P.dll
 api_name:
- - PeerIdentityImport
+- PeerIdentityImport
 targetos: Windows
 req.typenames: 
 req.redist: 

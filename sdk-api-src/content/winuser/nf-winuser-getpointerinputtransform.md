@@ -1,19 +1,17 @@
 ---
 UID: NF:winuser.GetPointerInputTransform
 title: GetPointerInputTransform function (winuser.h)
-
 description: Gets one or more transforms for the pointer information coordinates associated with the current message.
 old-location: inputmsg\getpointerinputtransform.htm
 tech.root: InputMsg
 ms.assetid: 9F10ED61-90E3-441B-8F4D-E33DA54D473C
-
 ms.date: 12/05/2018
 ms.keywords: GetPointerInputTransform, GetPointerInputTransform function [Input Messages and Notifications], inputmsg.getpointerinputtransform, winuser/GetPointerInputTransform
 ms.topic: function
-f1_keywords: 
- - "winuser/GetPointerInputTransform"
+f1_keywords:
+- winuser/GetPointerInputTransform
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,19 +30,19 @@ req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - User32.dll
- - API-MS-Win-RTCore-NTUser-WMPointer-l1-1-0.dll
- - MinUser.dll
- - API-MS-Win-RTCore-NTUser-WMPointer-l1-1-1.dll
- - API-Ms-Win-RTCore-NTUser-WMPointer-L1-1-2.dll
- - API-MS-Win-RTCore-NTUser-WMPointer-L1-1-3.dll
+- User32.dll
+- API-MS-Win-RTCore-NTUser-WMPointer-l1-1-0.dll
+- MinUser.dll
+- API-MS-Win-RTCore-NTUser-WMPointer-l1-1-1.dll
+- API-Ms-Win-RTCore-NTUser-WMPointer-L1-1-2.dll
+- API-MS-Win-RTCore-NTUser-WMPointer-L1-1-3.dll
 api_name:
- - GetPointerInputTransform
+- GetPointerInputTransform
 targetos: Windows
 req.typenames: 
 req.redist: 

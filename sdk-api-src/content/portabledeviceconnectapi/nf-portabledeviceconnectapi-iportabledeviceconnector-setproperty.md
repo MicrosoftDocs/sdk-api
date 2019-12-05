@@ -1,19 +1,17 @@
 ---
 UID: NF:portabledeviceconnectapi.IPortableDeviceConnector.SetProperty
 title: IPortableDeviceConnector::SetProperty (portabledeviceconnectapi.h)
-
 description: Sets the given property on the MTP/Bluetooth Bus Enumerator device.
 old-location: wpdsdk\iportabledeviceconnector_setproperty.htm
 tech.root: wpd_sdk
 ms.assetid: 045268e1-3e91-41a9-a14e-eb20b8a707e4
-
 ms.date: 12/05/2018
 ms.keywords: IPortableDeviceConnector interface [Windows Portable Devices SDK],SetProperty method, IPortableDeviceConnector.SetProperty, IPortableDeviceConnector::SetProperty, SetProperty, SetProperty method [Windows Portable Devices SDK], SetProperty method [Windows Portable Devices SDK],IPortableDeviceConnector interface, devpkey/IPortableDeviceConnector::SetProperty, portabledeviceconnectapi/IPortableDeviceConnector::SetProperty, wpdsdk.iportabledeviceconnector_setproperty
 ms.topic: method
-f1_keywords: 
- - "portabledeviceconnectapi/IPortableDeviceConnector.SetProperty"
+f1_keywords:
+- portabledeviceconnectapi/IPortableDeviceConnector.SetProperty
 dev_langs:
- - c++
+- c++
 req.header: portabledeviceconnectapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: PortableDeviceGuids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - PortableDeviceGuids.lib
- - PortableDeviceGuids.dll
+- PortableDeviceGuids.lib
+- PortableDeviceGuids.dll
 api_name:
- - IPortableDeviceConnector.SetProperty
+- IPortableDeviceConnector.SetProperty
 targetos: Windows
 req.typenames: 
 req.redist: 

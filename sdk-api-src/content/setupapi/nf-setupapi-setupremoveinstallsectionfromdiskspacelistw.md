@@ -1,19 +1,17 @@
 ---
 UID: NF:setupapi.SetupRemoveInstallSectionFromDiskSpaceListW
 title: SetupRemoveInstallSectionFromDiskSpaceListW function (setupapi.h)
-
 description: The SetupRemoveInstallSectionFromDiskSpaceList function searches an Install section of an INF file for CopyFiles and DelFiles lines, and removes the file operations specified in those sections from a disk-space list.
 old-location: setup\setupremoveinstallsectionfromdiskspacelist.htm
 tech.root: SetupApi
 ms.assetid: dd104c59-faee-4eb6-abbc-a4c13d766298
-
 ms.date: 12/05/2018
 ms.keywords: SetupRemoveInstallSectionFromDiskSpaceList, SetupRemoveInstallSectionFromDiskSpaceList function [Setup API], SetupRemoveInstallSectionFromDiskSpaceListA, SetupRemoveInstallSectionFromDiskSpaceListW, _setupapi_setupremoveinstallsectionfromdiskspacelist, setup.setupremoveinstallsectionfromdiskspacelist, setupapi/SetupRemoveInstallSectionFromDiskSpaceList, setupapi/SetupRemoveInstallSectionFromDiskSpaceListA, setupapi/SetupRemoveInstallSectionFromDiskSpaceListW
 ms.topic: function
-f1_keywords: 
- - "setupapi/SetupRemoveInstallSectionFromDiskSpaceList"
+f1_keywords:
+- setupapi/SetupRemoveInstallSectionFromDiskSpaceList
 dev_langs:
- - c++
+- c++
 req.header: setupapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Setupapi.lib
 req.dll: Setupapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Setupapi.dll
+- Setupapi.dll
 api_name:
- - SetupRemoveInstallSectionFromDiskSpaceList
- - SetupRemoveInstallSectionFromDiskSpaceListA
- - SetupRemoveInstallSectionFromDiskSpaceListW
+- SetupRemoveInstallSectionFromDiskSpaceList
+- SetupRemoveInstallSectionFromDiskSpaceListA
+- SetupRemoveInstallSectionFromDiskSpaceListW
 targetos: Windows
 req.typenames: 
 req.redist: 

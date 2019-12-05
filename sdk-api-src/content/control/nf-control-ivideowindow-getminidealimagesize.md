@@ -1,19 +1,17 @@
 ---
 UID: NF:control.IVideoWindow.GetMinIdealImageSize
 title: IVideoWindow::GetMinIdealImageSize (control.h)
-
 description: The GetMinIdealImageSize method retrieves the minimum ideal size for the video image.
 old-location: dshow\ivideowindow_getminidealimagesize.htm
 tech.root: DirectShow
 ms.assetid: b2d1d267-008d-402a-864a-e801e7581fbd
-
 ms.date: 12/05/2018
 ms.keywords: GetMinIdealImageSize, GetMinIdealImageSize method [DirectShow], GetMinIdealImageSize method [DirectShow],IVideoWindow interface, IVideoWindow interface [DirectShow],GetMinIdealImageSize method, IVideoWindow.GetMinIdealImageSize, IVideoWindow::GetMinIdealImageSize, IVideoWindowGetMinIdealImageSize, control/IVideoWindow::GetMinIdealImageSize, dshow.ivideowindow_getminidealimagesize
 ms.topic: method
-f1_keywords: 
- - "control/IVideoWindow.GetMinIdealImageSize"
+f1_keywords:
+- control/IVideoWindow.GetMinIdealImageSize
 dev_langs:
- - c++
+- c++
 req.header: control.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IVideoWindow.GetMinIdealImageSize
+- IVideoWindow.GetMinIdealImageSize
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:wingdi.ChoosePixelFormat
 title: ChoosePixelFormat function (wingdi.h)
-
 description: The ChoosePixelFormat function attempts to match an appropriate pixel format supported by a device context to a given pixel format specification.
 old-location: opengl\choosepixelformat.htm
 tech.root: OpenGL
 ms.assetid: 17bd0a2c-5257-4ae3-80f4-a5ad536169fb
-
 ms.date: 12/05/2018
 ms.keywords: ChoosePixelFormat, ChoosePixelFormat function [OpenGL], _ogl_ChoosePixelFormat, opengl.choosepixelformat, wingdi/ChoosePixelFormat
 ms.topic: function
-f1_keywords: 
- - "wingdi/ChoosePixelFormat"
+f1_keywords:
+- wingdi/ChoosePixelFormat
 dev_langs:
- - c++
+- c++
 req.header: wingdi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - gdi32.dll
- - Ext-MS-Win-GDI-Draw-L1-1-3.dll
- - Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
- - GDI32Full.dll
+- gdi32.dll
+- Ext-MS-Win-GDI-Draw-L1-1-3.dll
+- Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
+- GDI32Full.dll
 api_name:
- - ChoosePixelFormat
+- ChoosePixelFormat
 targetos: Windows
 req.typenames: 
 req.redist: 

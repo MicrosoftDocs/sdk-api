@@ -1,7 +1,6 @@
 ---
 UID: NA:infotech
 ms.assetid: 9708a16b-0bf1-3c57-a6b8-ec09e7b93605
-
 ms.date: 01/11/2019
 ms.keywords: 
 ms.topic: portal

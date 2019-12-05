@@ -1,19 +1,17 @@
 ---
 UID: NL:thrdbase.CThreadBase
 title: CThreadBase (thrdbase.h)
-
 description: The CThreadBase class is a base class that supplies the internal thread safety mechanisms for the WMI Provider Framework. This class is called internally.
 old-location: wmi\cthreadbase.htm
 tech.root: WmiSdk
 ms.assetid: 0511cd5b-f791-4821-8d75-23b0635e2266
-
 ms.date: 12/05/2018
-ms.keywords: "??1CThreadBase@@UAE@XZ, CThreadBase, CThreadBase class [Windows Management Instrumentation], CThreadBase class [Windows Management Instrumentation],described, thrdbase/CThreadBase, wmi.cthreadbase"
+ms.keywords: ??1CThreadBase@@UAE@XZ, CThreadBase, CThreadBase class [Windows Management Instrumentation], CThreadBase class [Windows Management Instrumentation],described, thrdbase/CThreadBase, wmi.cthreadbase
 ms.topic: class
-f1_keywords: 
- - "thrdbase/CThreadBase"
+f1_keywords:
+- thrdbase/CThreadBase
 dev_langs:
- - c++
+- c++
 req.header: thrdbase.h
 req.include-header: FwCommon.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: FrameDyn.lib
 req.dll: FrameDynOS.dll; FrameDyn.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - FrameDynOS.dll
- - FrameDyn.dll
+- FrameDynOS.dll
+- FrameDyn.dll
 api_name:
- - CThreadBase
- - ??1CThreadBase@@UAE@XZ
+- CThreadBase
+- ??1CThreadBase@@UAE@XZ
 targetos: Windows
 req.typenames: 
 req.redist: 

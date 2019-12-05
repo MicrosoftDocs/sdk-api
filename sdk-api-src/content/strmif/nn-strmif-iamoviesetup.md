@@ -1,19 +1,17 @@
 ---
 UID: NN:strmif.IAMovieSetup
 title: IAMovieSetup (strmif.h)
-
 description: Note  This interface has been deprecated.
 old-location: dshow\iamoviesetup.htm
 tech.root: DirectShow
 ms.assetid: b200dbee-bab7-43d7-a204-751592fa2405
-
 ms.date: 12/05/2018
 ms.keywords: IAMovieSetup, IAMovieSetup interface [DirectShow], IAMovieSetup interface [DirectShow],described, IAMovieSetupInterface, dshow.iamoviesetup, strmif/IAMovieSetup
 ms.topic: interface
-f1_keywords: 
- - "strmif/IAMovieSetup"
+f1_keywords:
+- strmif/IAMovieSetup
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - strmif.h
+- strmif.h
 api_name:
- - IAMovieSetup
+- IAMovieSetup
 targetos: Windows
 req.typenames: 
 req.redist: 

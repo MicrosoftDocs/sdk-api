@@ -1,19 +1,17 @@
 ---
 UID: NF:pla.ITraceDataProviderCollection.get__NewEnum
 title: ITraceDataProviderCollection::get__NewEnum (pla.h)
-
 description: Retrieves an interface to the enumeration.
 old-location: pla\itracedataprovidercollection__newenum.htm
 tech.root: PLA
 ms.assetid: cd80839a-0cf0-4553-819e-7a8be830b9fa
-
 ms.date: 12/05/2018
 ms.keywords: ITraceDataProviderCollection interface [PLA],_NewEnum property, ITraceDataProviderCollection._NewEnum, ITraceDataProviderCollection.get__NewEnum, ITraceDataProviderCollection::_NewEnum, ITraceDataProviderCollection::get__NewEnum, _NewEnum property [PLA], _NewEnum property [PLA],ITraceDataProviderCollection interface, get__NewEnum, pla.itracedataprovidercollection__newenum, pla/ITraceDataProviderCollection::_NewEnum, pla/ITraceDataProviderCollection::get__NewEnum
 ms.topic: method
-f1_keywords: 
- - "pla/ITraceDataProviderCollection._NewEnum"
+f1_keywords:
+- pla/ITraceDataProviderCollection._NewEnum
 dev_langs:
- - c++
+- c++
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: Pla.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Pla.dll
+- Pla.dll
 api_name:
- - ITraceDataProviderCollection._NewEnum
- - ITraceDataProviderCollection.get__NewEnum
+- ITraceDataProviderCollection._NewEnum
+- ITraceDataProviderCollection.get__NewEnum
 targetos: Windows
 req.typenames: 
 req.redist: 

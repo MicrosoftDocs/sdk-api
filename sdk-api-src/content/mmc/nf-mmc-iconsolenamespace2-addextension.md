@@ -1,19 +1,17 @@
 ---
 UID: NF:mmc.IConsoleNameSpace2.AddExtension
 title: IConsoleNameSpace2::AddExtension (mmc.h)
-
 description: The IConsoleNameSpace2::AddExtension method enables the snap-in to add an extension snap-in that dynamically extends the namespace of a selected item.
 old-location: mmc\iconsolenamespace2_addextension.htm
 tech.root: mmc
 ms.assetid: 6057b8dd-d794-43a3-998b-689aafa28b9d
-
 ms.date: 12/05/2018
 ms.keywords: AddExtension, AddExtension method [MMC], AddExtension method [MMC],IConsoleNameSpace2 interface, IConsoleNameSpace2 interface [MMC],AddExtension method, IConsoleNameSpace2.AddExtension, IConsoleNameSpace2::AddExtension, _slate_iconsolenamespace2_addextension, mmc.iconsolenamespace2_addextension, mmc/IConsoleNameSpace2::AddExtension
 ms.topic: method
 f1_keywords:
 - mmc/IConsoleNameSpace2.AddExtension
 dev_langs:
- - c++
+- c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows

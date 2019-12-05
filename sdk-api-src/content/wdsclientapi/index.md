@@ -1,7 +1,6 @@
 ---
 UID: NA:wdsclientapi
 ms.assetid: fd49be50-414b-3ea2-aae1-e7001cc6271b
-
 ms.date: 01/11/2019
 ms.keywords: 
 ms.topic: portal

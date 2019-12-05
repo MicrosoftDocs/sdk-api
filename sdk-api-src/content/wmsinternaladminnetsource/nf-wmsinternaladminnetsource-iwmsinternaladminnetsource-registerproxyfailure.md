@@ -1,19 +1,17 @@
 ---
 UID: NF:wmsinternaladminnetsource.IWMSInternalAdminNetSource.RegisterProxyFailure
 title: IWMSInternalAdminNetSource::RegisterProxyFailure (wmsinternaladminnetsource.h)
-
 description: Registers a proxy failure.
 old-location: wmformat\iwmsinternaladminnetsource_registerproxyfailure.htm
 tech.root: wmformat
 ms.assetid: 50a41a98-2827-425e-91fc-5196996abe98
-
 ms.date: 12/05/2018
 ms.keywords: IWMSInternalAdminNetSource interface [windows Media Format],RegisterProxyFailure method, IWMSInternalAdminNetSource.RegisterProxyFailure, IWMSInternalAdminNetSource::RegisterProxyFailure, RegisterProxyFailure, RegisterProxyFailure method [windows Media Format], RegisterProxyFailure method [windows Media Format],IWMSInternalAdminNetSource interface, wmformat.iwmsinternaladminnetsource_registerproxyfailure, wmsinternaladminnetsource/IWMSInternalAdminNetSource::RegisterProxyFailure
 ms.topic: method
-f1_keywords: 
- - "wmsinternaladminnetsource/IWMSInternalAdminNetSource.RegisterProxyFailure"
+f1_keywords:
+- wmsinternaladminnetsource/IWMSInternalAdminNetSource.RegisterProxyFailure
 dev_langs:
- - c++
+- c++
 req.header: wmsinternaladminnetsource.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wmvcore.lib
- - Wmvcore.dll
- - WMStubDRM.lib
- - WMStubDRM.dll
+- Wmvcore.lib
+- Wmvcore.dll
+- WMStubDRM.lib
+- WMStubDRM.dll
 api_name:
- - IWMSInternalAdminNetSource.RegisterProxyFailure
+- IWMSInternalAdminNetSource.RegisterProxyFailure
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:wrdsgraphicschannels.IWRdsGraphicsChannelEvents.OnMetricsUpdate
 title: IWRdsGraphicsChannelEvents::OnMetricsUpdate (wrdsgraphicschannels.h)
-
 description: Called to notify the RemoteFX graphics services that network conditions have changed.
 old-location: termserv\iwrdsgraphicschannelevents_onmetricsupdate.htm
 tech.root: TermServ
 ms.assetid: d955041a-6179-4bf2-9a1b-766f459f3776
-
 ms.date: 12/05/2018
 ms.keywords: IWRdsGraphicsChannelEvents interface [Remote Desktop Services],OnMetricsUpdate method, IWRdsGraphicsChannelEvents.OnMetricsUpdate, IWRdsGraphicsChannelEvents::OnMetricsUpdate, OnMetricsUpdate, OnMetricsUpdate method [Remote Desktop Services], OnMetricsUpdate method [Remote Desktop Services],IWRdsGraphicsChannelEvents interface, termserv.iwrdsgraphicschannelevents_onmetricsupdate, wrdsgraphicschannels/IWRdsGraphicsChannelEvents::OnMetricsUpdate
 ms.topic: method
-f1_keywords: 
- - "wrdsgraphicschannels/IWRdsGraphicsChannelEvents.OnMetricsUpdate"
+f1_keywords:
+- wrdsgraphicschannels/IWRdsGraphicsChannelEvents.OnMetricsUpdate
 dev_langs:
- - c++
+- c++
 req.header: wrdsgraphicschannels.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wrdsgraphicschannels.h
+- wrdsgraphicschannels.h
 api_name:
- - IWRdsGraphicsChannelEvents.OnMetricsUpdate
+- IWRdsGraphicsChannelEvents.OnMetricsUpdate
 targetos: Windows
 req.typenames: 
 req.redist: 

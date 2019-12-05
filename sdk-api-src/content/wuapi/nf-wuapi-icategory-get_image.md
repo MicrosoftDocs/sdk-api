@@ -1,19 +1,17 @@
 ---
 UID: NF:wuapi.ICategory.get_Image
 title: ICategory::get_Image (wuapi.h)
-
 description: Gets an interface that contains information about the image that is associated with the category.
 old-location: wua\icategory_image.htm
 tech.root: Wua_Sdk
 ms.assetid: 41f0dd44-c919-4264-8f35-ea4e48fd5503
-
 ms.date: 12/05/2018
 ms.keywords: ICategory interface [Windows Update Agent],Image property, ICategory.Image, ICategory.get_Image, ICategory::Image, ICategory::get_Image, Image property [Windows Update Agent], Image property [Windows Update Agent],ICategory interface, get_Image, wua.icategory_image, wuapi/ICategory::Image, wuapi/ICategory::get_Image
 ms.topic: method
-f1_keywords: 
- - "wuapi/ICategory.Image"
+f1_keywords:
+- wuapi/ICategory.Image
 dev_langs:
- - c++
+- c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Wuguid.lib
 req.dll: Wuapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wuapi.dll
+- Wuapi.dll
 api_name:
- - ICategory.Image
- - ICategory.get_Image
+- ICategory.Image
+- ICategory.get_Image
 targetos: Windows
 req.typenames: 
 req.redist: 

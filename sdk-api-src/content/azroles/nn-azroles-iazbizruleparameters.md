@@ -1,19 +1,17 @@
 ---
 UID: NN:azroles.IAzBizRuleParameters
 title: IAzBizRuleParameters (azroles.h)
-
 description: Provides methods and properties used to manage a list of parameters that can be passed to business rule (BizRule) scripts.
 old-location: security\iazbizruleparameters.htm
 tech.root: SecAuthZ
 ms.assetid: 07eb33be-71a3-42fc-b7f3-12be23746aa3
-
 ms.date: 12/05/2018
 ms.keywords: IAzBizRuleParameters, IAzBizRuleParameters interface [Security], IAzBizRuleParameters interface [Security],described, azroles/IAzBizRuleParameters, security.iazbizruleparameters
 ms.topic: interface
-f1_keywords: 
- - "azroles/IAzBizRuleParameters"
+f1_keywords:
+- azroles/IAzBizRuleParameters
 dev_langs:
- - c++
+- c++
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Azroles.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Azroles.dll
+- Azroles.dll
 api_name:
- - IAzBizRuleParameters
+- IAzBizRuleParameters
 targetos: Windows
 req.typenames: 
 req.redist: 

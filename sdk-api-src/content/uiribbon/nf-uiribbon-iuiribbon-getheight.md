@@ -1,19 +1,17 @@
 ---
 UID: NF:uiribbon.IUIRibbon.GetHeight
 title: IUIRibbon::GetHeight (uiribbon.h)
-
 description: Retrieves the height of the ribbon.
 old-location: windowsribbon\windowsribbon_iuiribbon_getheight.htm
 tech.root: windowsribbon
 ms.assetid: VS|scenicintent|~\scenicintent\reference\ifaces\iuiribbon\getheight.htm
-
 ms.date: 12/05/2018
 ms.keywords: GetHeight, GetHeight method [Windows Ribbon], GetHeight method [Windows Ribbon],IUIRibbon interface, IUIRibbon interface [Windows Ribbon],GetHeight method, IUIRibbon.GetHeight, IUIRibbon::GetHeight, scenicintent_IUIRibbon_GetHeight, uiribbon/IUIRibbon::GetHeight, windowsribbon.windowsribbon_iuiribbon_getheight
 ms.topic: method
-f1_keywords: 
- - "uiribbon/IUIRibbon.GetHeight"
+f1_keywords:
+- uiribbon/IUIRibbon.GetHeight
 dev_langs:
- - c++
+- c++
 req.header: uiribbon.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Mshtml.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mshtml.dll
+- Mshtml.dll
 api_name:
- - IUIRibbon.GetHeight
+- IUIRibbon.GetHeight
 targetos: Windows
 req.typenames: 
 req.redist: 

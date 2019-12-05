@@ -1,19 +1,17 @@
 ---
 UID: NF:gpedit.IGPEInformation.GetDisplayName
 title: IGPEInformation::GetDisplayName (gpedit.h)
-
 description: The GetDisplayName method retrieves the display name for the GPO.
 old-location: policy\igpeinformation_getdisplayname.htm
 tech.root: Policy
 ms.assetid: 3c1a43a5-5d16-4abc-85e0-1eeace2ee086
-
 ms.date: 12/05/2018
 ms.keywords: GetDisplayName, GetDisplayName method [Group Policy], GetDisplayName method [Group Policy],IGPEInformation interface, IGPEInformation interface [Group Policy],GetDisplayName method, IGPEInformation.GetDisplayName, IGPEInformation::GetDisplayName, _win32_igpeinformation_getdisplayname, gpedit/IGPEInformation::GetDisplayName, policy.igpeinformation_getdisplayname
 ms.topic: method
-f1_keywords: 
- - "gpedit/IGPEInformation.GetDisplayName"
+f1_keywords:
+- gpedit/IGPEInformation.GetDisplayName
 dev_langs:
- - c++
+- c++
 req.header: gpedit.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Gpedit.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gpedit.dll
+- Gpedit.dll
 api_name:
- - IGPEInformation.GetDisplayName
+- IGPEInformation.GetDisplayName
 targetos: Windows
 req.typenames: 
 req.redist: 

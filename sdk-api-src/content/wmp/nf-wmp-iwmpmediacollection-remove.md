@@ -1,19 +1,17 @@
 ---
 UID: NF:wmp.IWMPMediaCollection.remove
 title: IWMPMediaCollection::remove (wmp.h)
-
 description: The remove method removes a specified item from the media collection.
 old-location: wmp\iwmpmediacollection_remove.htm
 tech.root: WMP
 ms.assetid: 646d2e3c-623b-4040-af82-1cefac6fc1ae
-
 ms.date: 12/05/2018
 ms.keywords: IWMPMediaCollection interface [Windows Media Player],remove method, IWMPMediaCollection.remove, IWMPMediaCollection::remove, IWMPMediaCollectionremove, remove, remove method [Windows Media Player], remove method [Windows Media Player],IWMPMediaCollection interface, wmp.iwmpmediacollection_remove, wmp/IWMPMediaCollection::remove
 ms.topic: method
-f1_keywords: 
- - "wmp/IWMPMediaCollection.remove"
+f1_keywords:
+- wmp/IWMPMediaCollection.remove
 dev_langs:
- - c++
+- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wmp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmp.dll
+- wmp.dll
 api_name:
- - IWMPMediaCollection.remove
+- IWMPMediaCollection.remove
 targetos: Windows
 req.typenames: 
 req.redist: 

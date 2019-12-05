@@ -1,19 +1,17 @@
 ---
 UID: NN:d3d9helper.IDirect3DVolumeTexture9
 title: IDirect3DVolumeTexture9 (d3d9helper.h)
-
 description: Applications use the methods of the IDirect3DVolumeTexture9 interface to manipulate a volume texture resource.
 old-location: direct3d9\idirect3dvolumetexture9.htm
 tech.root: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3dvolumetexture9.htm
-
 ms.date: 12/05/2018
 ms.keywords: IDirect3DVolumeTexture9, IDirect3DVolumeTexture9 interface [Direct3D 9], IDirect3DVolumeTexture9 interface [Direct3D 9],described, ac7e332f-4255-e077-7804-d9a2e2476d37, d3d9helper/IDirect3DVolumeTexture9, direct3d9.idirect3dvolumetexture9
 ms.topic: interface
-f1_keywords: 
- - "d3d9helper/IDirect3DVolumeTexture9"
+f1_keywords:
+- d3d9helper/IDirect3DVolumeTexture9
 dev_langs:
- - c++
+- c++
 req.header: d3d9helper.h
 req.include-header: D3D9.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: D3d9.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - d3d9.lib
- - d3d9.dll
+- d3d9.lib
+- d3d9.dll
 api_name:
- - IDirect3DVolumeTexture9
+- IDirect3DVolumeTexture9
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NN:msxml6.IXMLHTTPRequest3
 title: IXMLHTTPRequest3 (msxml6.h)
-
 description: Provides the methods and properties needed to configure and send HTTP requests and use callbacks to receive notifications during HTTP response processing.
 old-location: ixhr2\ixmlhttprequest3.htm
 tech.root: ixhr2
 ms.assetid: 66af3f84-585c-441e-b9be-4ec188d72a19
-
 ms.date: 12/05/2018
 ms.keywords: IXMLHTTPRequest3, IXMLHTTPRequest3 interface [XMLHttpRequest2], IXMLHTTPRequest3 interface [XMLHttpRequest2],described, ixhr2.ixmlhttprequest3, msxml6/IXMLHTTPRequest3
 ms.topic: interface
-f1_keywords: 
- - "msxml6/IXMLHTTPRequest3"
+f1_keywords:
+- msxml6/IXMLHTTPRequest3
 dev_langs:
- - c++
+- c++
 req.header: msxml6.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msxml6.h
+- msxml6.h
 api_name:
- - IXMLHTTPRequest3
+- IXMLHTTPRequest3
 targetos: Windows
 req.typenames: 
 req.redist: 

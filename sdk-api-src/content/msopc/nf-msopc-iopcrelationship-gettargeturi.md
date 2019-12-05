@@ -1,19 +1,17 @@
 ---
 UID: NF:msopc.IOpcRelationship.GetTargetUri
 title: IOpcRelationship::GetTargetUri (msopc.h)
-
 description: Gets the URI of the relationship&#160;target.
 old-location: opc\iopcrelationship_gettargeturi.htm
 tech.root: OPC
 ms.assetid: 65b04931-dc4e-4eb5-b542-a7b46c3164de
-
 ms.date: 12/05/2018
 ms.keywords: GetTargetUri, GetTargetUri method [Open Packaging Conventions], GetTargetUri method [Open Packaging Conventions],IOpcRelationship interface, IOpcRelationship interface [Open Packaging Conventions],GetTargetUri method, IOpcRelationship.GetTargetUri, IOpcRelationship::GetTargetUri, msopc/IOpcRelationship::GetTargetUri, opc.iopcrelationship_gettargeturi
 ms.topic: method
-f1_keywords: 
- - "msopc/IOpcRelationship.GetTargetUri"
+f1_keywords:
+- msopc/IOpcRelationship.GetTargetUri
 dev_langs:
- - c++
+- c++
 req.header: msopc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msopc.h
+- msopc.h
 api_name:
- - IOpcRelationship.GetTargetUri
+- IOpcRelationship.GetTargetUri
 targetos: Windows
 req.typenames: 
 req.redist: 

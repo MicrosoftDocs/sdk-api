@@ -1,19 +1,17 @@
 ---
 UID: NF:netfw.INetFwService.get_Enabled
 title: INetFwService::get_Enabled (netfw.h)
-
 description: Indicates whether all the ports associated with the service are enabled.
 old-location: ics\inetfwservice_enabled.htm
 tech.root: ics
 ms.assetid: bf690427-ad2e-4a5b-9651-f6a9382ab341
-
 ms.date: 12/05/2018
 ms.keywords: Enabled property [ICS/ICF], Enabled property [ICS/ICF],INetFwService interface, INetFwService interface [ICS/ICF],Enabled property, INetFwService.Enabled, INetFwService.get_Enabled, INetFwService::Enabled, INetFwService::get_Enabled, INetFwService::put_Enabled, get_Enabled, ics.inetfwservice_enabled, netfw/INetFwService::Enabled, netfw/INetFwService::get_Enabled, netfw/INetFwService::put_Enabled
 ms.topic: method
-f1_keywords: 
- - "netfw/INetFwService.Enabled"
+f1_keywords:
+- netfw/INetFwService.Enabled
 dev_langs:
- - c++
+- c++
 req.header: netfw.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib:
 req.dll: FirewallAPI.dll; Hnetcfg.dll on Windows XP with SP2
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - FirewallAPI.dll
- - Hnetcfg.dll
+- FirewallAPI.dll
+- Hnetcfg.dll
 api_name:
- - INetFwService.Enabled
- - INetFwService.get_Enabled
- - INetFwService.put_Enabled
+- INetFwService.Enabled
+- INetFwService.get_Enabled
+- INetFwService.put_Enabled
 targetos: Windows
 req.typenames: 
 req.redist: 

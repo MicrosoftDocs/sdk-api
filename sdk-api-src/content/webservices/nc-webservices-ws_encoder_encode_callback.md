@@ -1,19 +1,17 @@
 ---
 UID: NC:webservices.WS_ENCODER_ENCODE_CALLBACK
 title: WS_ENCODER_ENCODE_CALLBACK (webservices.h)
-
 description: Encodes a message.
 old-location: wsw\ws_encoder_encode_callback.htm
 tech.root: wsw
 ms.assetid: f3b191b2-a92f-491d-bd77-500e2d3b37e8
-
 ms.date: 12/05/2018
 ms.keywords: WS_ENCODER_ENCODE_CALLBACK, WS_ENCODER_ENCODE_CALLBACK callback, WS_ENCODER_ENCODE_CALLBACK callback function [Web Services for Windows], webservices/WS_ENCODER_ENCODE_CALLBACK, wsw.ws_encoder_encode_callback
 ms.topic: callback
-f1_keywords: 
- - "webservices/WS_ENCODER_ENCODE_CALLBACK"
+f1_keywords:
+- webservices/WS_ENCODER_ENCODE_CALLBACK
 dev_langs:
- - c++
+- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - WebServices.h
+- WebServices.h
 api_name:
- - WS_ENCODER_ENCODE_CALLBACK
+- WS_ENCODER_ENCODE_CALLBACK
 targetos: Windows
 req.typenames: 
 req.redist: 

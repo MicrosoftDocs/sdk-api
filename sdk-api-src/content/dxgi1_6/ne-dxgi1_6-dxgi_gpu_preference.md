@@ -1,19 +1,17 @@
 ---
 UID: NE:dxgi1_6.DXGI_GPU_PREFERENCE
 title: DXGI_GPU_PREFERENCE (dxgi1_6.h)
-
 description: The preference of GPU for the app to run on.
 old-location: direct3ddxgi\dxgi_gpu_preference.htm
 tech.root: direct3ddxgi
 ms.assetid: 4228FF8B-968B-42B5-8355-226C7FE9F230
-
 ms.date: 12/05/2018
 ms.keywords: DXGI_GPU_PREFERENCE, DXGI_GPU_PREFERENCE enumeration [DXGI], DXGI_GPU_PREFERENCE_HIGH_PERFORMANCE, DXGI_GPU_PREFERENCE_MINIMUM_POWER, DXGI_GPU_PREFERENCE_UNSPECIFIED, direct3ddxgi.dxgi_gpu_preference, dxgi1_6/DXGI_GPU_PREFERENCE, dxgi1_6/DXGI_GPU_PREFERENCE_HIGH_PERFORMANCE, dxgi1_6/DXGI_GPU_PREFERENCE_MINIMUM_POWER, dxgi1_6/DXGI_GPU_PREFERENCE_UNSPECIFIED
 ms.topic: enum
-f1_keywords: 
- - "dxgi1_6/DXGI_GPU_PREFERENCE"
+f1_keywords:
+- dxgi1_6/DXGI_GPU_PREFERENCE
 dev_langs:
- - c++
+- c++
 req.header: dxgi1_6.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - dxgi1_6.h
+- dxgi1_6.h
 api_name:
- - DXGI_GPU_PREFERENCE
+- DXGI_GPU_PREFERENCE
 targetos: Windows
 req.typenames: DXGI_GPU_PREFERENCE
 req.redist: 

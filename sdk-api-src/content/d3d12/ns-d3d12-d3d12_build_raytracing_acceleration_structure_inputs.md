@@ -1,19 +1,17 @@
 ---
 UID: NS:d3d12.D3D12_BUILD_RAYTRACING_ACCELERATION_STRUCTURE_INPUTS
 title: D3D12_BUILD_RAYTRACING_ACCELERATION_STRUCTURE_INPUTS (d3d12.h)
-
 description: Defines the inputs for a raytracing acceleration structure build operation. This structure is used by ID3D12GraphicsCommandList4::BuildRaytracingAccelerationStructure and ID3D12Device5::GetRaytracingAccelerationStructurePrebuildInfo.
 old-location: direct3d12\d3d12_build_raytracing_acceleration_structure_inputs.htm
 tech.root: direct3d12
 ms.assetid: C6781F5B-A3B6-4630-A94F-C438AEA62EB7
-
 ms.date: 12/05/2018
 ms.keywords: D3D12_BUILD_RAYTRACING_ACCELERATION_STRUCTURE_INPUTS, D3D12_BUILD_RAYTRACING_ACCELERATION_STRUCTURE_INPUTS structure, PD3D12_BUILD_RAYTRACING_ACCELERATION_STRUCTURE_INPUTS, PD3D12_BUILD_RAYTRACING_ACCELERATION_STRUCTURE_INPUTS structure pointer, d3d12/D3D12_BUILD_RAYTRACING_ACCELERATION_STRUCTURE_INPUTS, d3d12/PD3D12_BUILD_RAYTRACING_ACCELERATION_STRUCTURE_INPUTS, direct3d12.d3d12_build_raytracing_acceleration_structure_inputs
 ms.topic: struct
-f1_keywords: 
- - "d3d12/D3D12_BUILD_RAYTRACING_ACCELERATION_STRUCTURE_INPUTS"
+f1_keywords:
+- d3d12/D3D12_BUILD_RAYTRACING_ACCELERATION_STRUCTURE_INPUTS
 dev_langs:
- - c++
+- c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - D3D12.h
+- D3D12.h
 api_name:
- - D3D12_BUILD_RAYTRACING_ACCELERATION_STRUCTURE_INPUTS
+- D3D12_BUILD_RAYTRACING_ACCELERATION_STRUCTURE_INPUTS
 targetos: Windows
 req.typenames: D3D12_BUILD_RAYTRACING_ACCELERATION_STRUCTURE_INPUTS
 req.redist: 

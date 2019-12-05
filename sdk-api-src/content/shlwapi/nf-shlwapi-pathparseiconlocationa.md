@@ -1,19 +1,17 @@
 ---
 UID: NF:shlwapi.PathParseIconLocationA
 title: PathParseIconLocationA function (shlwapi.h)
-
 description: Parses a file location string that contains a file location and icon index, and returns separate values.
 old-location: shell\PathParseIconLocation.htm
 tech.root: shell
 ms.assetid: 1ded2f0f-0e11-4730-ab7b-16536e7f4435
-
 ms.date: 12/05/2018
 ms.keywords: PathParseIconLocation, PathParseIconLocation function [Windows Shell], PathParseIconLocationA, PathParseIconLocationW, _win32_PathParseIconLocation, shell.PathParseIconLocation, shlwapi/PathParseIconLocation, shlwapi/PathParseIconLocationA, shlwapi/PathParseIconLocationW
 ms.topic: function
-f1_keywords: 
- - "shlwapi/PathParseIconLocation"
+f1_keywords:
+- shlwapi/PathParseIconLocation
 dev_langs:
- - c++
+- c++
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,20 +30,20 @@ req.lib: Shlwapi.lib
 req.dll: Shlwapi.dll (version 4.71 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Shlwapi.dll
- - API-MS-Win-Core-shlwapi-legacy-l1-1-0.dll
- - KernelBase.dll
- - API-MS-Win-DownLevel-shlwapi-l1-1-0.dll
- - API-MS-Win-DownLevel-shlwapi-l1-1-1.dll
+- Shlwapi.dll
+- API-MS-Win-Core-shlwapi-legacy-l1-1-0.dll
+- KernelBase.dll
+- API-MS-Win-DownLevel-shlwapi-l1-1-0.dll
+- API-MS-Win-DownLevel-shlwapi-l1-1-1.dll
 api_name:
- - PathParseIconLocation
- - PathParseIconLocationA
- - PathParseIconLocationW
+- PathParseIconLocation
+- PathParseIconLocationA
+- PathParseIconLocationW
 targetos: Windows
 req.typenames: 
 req.redist: 

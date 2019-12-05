@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d11_4.ID3D11Multithread.Leave
 title: ID3D11Multithread::Leave (d3d11_4.h)
-
 description: Leave a device's critical section.
 old-location: direct3d11\id3d11multithread_leave.htm
 tech.root: direct3d11
 ms.assetid: CECBE440-3F9E-4649-B257-BAD3E7F5CF2F
-
 ms.date: 12/05/2018
 ms.keywords: ID3D11Multithread interface [Direct3D 11],Leave method, ID3D11Multithread.Leave, ID3D11Multithread::Leave, Leave, Leave method [Direct3D 11], Leave method [Direct3D 11],ID3D11Multithread interface, d3d11_4/ID3D11Multithread::Leave, direct3d11.id3d11multithread_leave
 ms.topic: method
-f1_keywords: 
- - "d3d11_4/ID3D11Multithread.Leave"
+f1_keywords:
+- d3d11_4/ID3D11Multithread.Leave
 dev_langs:
- - c++
+- c++
 req.header: d3d11_4.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: D3d11_4.lib
 req.dll: D3d11_4.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - d3d11_4.dll
+- d3d11_4.dll
 api_name:
- - ID3D11Multithread.Leave
+- ID3D11Multithread.Leave
 targetos: Windows
 req.typenames: 
 req.redist: 

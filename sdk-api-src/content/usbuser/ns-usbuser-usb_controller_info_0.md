@@ -1,19 +1,17 @@
 ---
 UID: NS:usbuser._USB_CONTROLLER_INFO_0
 title: USB_CONTROLLER_INFO_0 (usbuser.h)
-
 description: The USB_CONTROLLER_INFO_0 structure is used with the IOCTL_USB_USER_REQUEST I/O control request to retrieve information about the USB host controller.
 old-location: buses\usb_controller_info_0.htm
 tech.root: usbref
 ms.assetid: fcd88eb4-4fba-445a-b266-d89db8db1a55
-
 ms.date: 12/05/2018
-ms.keywords: "*PUSB_CONTROLLER_INFO_0, PUSB_CONTROLLER_INFO_0, PUSB_CONTROLLER_INFO_0 structure pointer [Buses], USB_CONTROLLER_INFO_0, USB_CONTROLLER_INFO_0 structure [Buses], buses.usb_controller_info_0, usbstrct_2a3ac867-422b-46cf-b529-d1a9dde27970.xml, usbuser/PUSB_CONTROLLER_INFO_0, usbuser/USB_CONTROLLER_INFO_0"
+ms.keywords: '*PUSB_CONTROLLER_INFO_0, PUSB_CONTROLLER_INFO_0, PUSB_CONTROLLER_INFO_0 structure pointer [Buses], USB_CONTROLLER_INFO_0, USB_CONTROLLER_INFO_0 structure [Buses], buses.usb_controller_info_0, usbstrct_2a3ac867-422b-46cf-b529-d1a9dde27970.xml, usbuser/PUSB_CONTROLLER_INFO_0, usbuser/USB_CONTROLLER_INFO_0'
 ms.topic: struct
-f1_keywords: 
- - "usbuser/USB_CONTROLLER_INFO_0"
+f1_keywords:
+- usbuser/USB_CONTROLLER_INFO_0
 dev_langs:
- - c++
+- c++
 req.header: usbuser.h
 req.include-header: Usbuser.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - usbuser.h
+- usbuser.h
 api_name:
- - USB_CONTROLLER_INFO_0
+- USB_CONTROLLER_INFO_0
 targetos: Windows
 req.typenames: USB_CONTROLLER_INFO_0, *PUSB_CONTROLLER_INFO_0
 req.redist: 

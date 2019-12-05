@@ -1,19 +1,17 @@
 ---
 UID: NF:netfw.INetFwIcmpSettings.get_AllowOutboundSourceQuench
 title: INetFwIcmpSettings::get_AllowOutboundSourceQuench (netfw.h)
-
 description: Indicates whether outbound source quench is allowed.
 old-location: ics\inetfwicmpsettings_allowoutboundsourcequench.htm
 tech.root: ics
 ms.assetid: a70cdff7-5e93-4120-9000-424a91d522ea
-
 ms.date: 12/05/2018
 ms.keywords: AllowOutboundSourceQuench property [ICS/ICF], AllowOutboundSourceQuench property [ICS/ICF],INetFwIcmpSettings interface, INetFwIcmpSettings interface [ICS/ICF],AllowOutboundSourceQuench property, INetFwIcmpSettings.AllowOutboundSourceQuench, INetFwIcmpSettings.get_AllowOutboundSourceQuench, INetFwIcmpSettings::AllowOutboundSourceQuench, INetFwIcmpSettings::get_AllowOutboundSourceQuench, INetFwIcmpSettings::put_AllowOutboundSourceQuench, get_AllowOutboundSourceQuench, ics.inetfwicmpsettings_allowoutboundsourcequench, netfw/INetFwIcmpSettings::AllowOutboundSourceQuench, netfw/INetFwIcmpSettings::get_AllowOutboundSourceQuench, netfw/INetFwIcmpSettings::put_AllowOutboundSourceQuench
 ms.topic: method
-f1_keywords: 
- - "netfw/INetFwIcmpSettings.AllowOutboundSourceQuench"
+f1_keywords:
+- netfw/INetFwIcmpSettings.AllowOutboundSourceQuench
 dev_langs:
- - c++
+- c++
 req.header: netfw.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib:
 req.dll: FirewallAPI.dll; Hnetcfg.dll on Windows XP with SP2
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - FirewallAPI.dll
- - Hnetcfg.dll
+- FirewallAPI.dll
+- Hnetcfg.dll
 api_name:
- - INetFwIcmpSettings.AllowOutboundSourceQuench
- - INetFwIcmpSettings.get_AllowOutboundSourceQuench
- - INetFwIcmpSettings.put_AllowOutboundSourceQuench
+- INetFwIcmpSettings.AllowOutboundSourceQuench
+- INetFwIcmpSettings.get_AllowOutboundSourceQuench
+- INetFwIcmpSettings.put_AllowOutboundSourceQuench
 targetos: Windows
 req.typenames: 
 req.redist: 

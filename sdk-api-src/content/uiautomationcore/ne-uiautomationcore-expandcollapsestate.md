@@ -1,19 +1,17 @@
 ---
 UID: NE:uiautomationcore.ExpandCollapseState
 title: ExpandCollapseState (uiautomationcore.h)
-
 description: Contains values that specify the state of a UI element that can be expanded and collapsed.
 old-location: winauto\uiauto_ExpandCollapseStateEnum.htm
 tech.root: WinAuto
 ms.assetid: 9625a50d-b9fb-4f85-8245-c77cc53445c3
-
 ms.date: 12/05/2018
 ms.keywords: ExpandCollapseState, ExpandCollapseState enumeration [Windows Accessibility], ExpandCollapseState_Collapsed, ExpandCollapseState_Expanded, ExpandCollapseState_LeafNode, ExpandCollapseState_PartiallyExpanded, uiauto.uiauto_ExpandCollapseStateEnum, uiauto_ExpandCollapseStateEnum, uiautomationcore/ExpandCollapseState, uiautomationcore/ExpandCollapseState_Collapsed, uiautomationcore/ExpandCollapseState_Expanded, uiautomationcore/ExpandCollapseState_LeafNode, uiautomationcore/ExpandCollapseState_PartiallyExpanded, winauto.uiauto_ExpandCollapseStateEnum
 ms.topic: enum
-f1_keywords: 
- - "uiautomationcore/ExpandCollapseState"
+f1_keywords:
+- uiautomationcore/ExpandCollapseState
 dev_langs:
- - c++
+- c++
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - UIAutomationCore.h
+- UIAutomationCore.h
 api_name:
- - ExpandCollapseState
+- ExpandCollapseState
 targetos: Windows
 req.typenames: 
 req.redist: 

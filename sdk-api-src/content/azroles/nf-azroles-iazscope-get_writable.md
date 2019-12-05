@@ -1,19 +1,17 @@
 ---
 UID: NF:azroles.IAzScope.get_Writable
 title: IAzScope::get_Writable (azroles.h)
-
 description: Retrieves a value that indicates whether the scope can be modified by the user context that initialized it.
 old-location: security\iazscope_writable.htm
 tech.root: SecAuthZ
 ms.assetid: 8e382af1-192f-4530-82a0-434f66eac060
-
 ms.date: 12/05/2018
 ms.keywords: AzScope object [Security],Writable property, IAzScope interface [Security],Writable property, IAzScope.Writable, IAzScope.get_Writable, IAzScope::Writable, IAzScope::get_Writable, Writable property [Security], Writable property [Security],AzScope object, Writable property [Security],IAzScope interface, azroles/IAzScope::Writable, azroles/IAzScope::get_Writable, get_Writable, security.iazscope_writable
 ms.topic: method
-f1_keywords: 
- - "azroles/IAzScope.Writable"
+f1_keywords:
+- azroles/IAzScope.Writable
 dev_langs:
- - c++
+- c++
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Azroles.lib
 req.dll: Azroles.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Azroles.dll
+- Azroles.dll
 api_name:
- - IAzScope.Writable
- - IAzScope.get_Writable
- - AzScope.Writable
+- IAzScope.Writable
+- IAzScope.get_Writable
+- AzScope.Writable
 targetos: Windows
 req.typenames: 
 req.redist: Windows Server 2003 Administration Tools Pack on Windows XP

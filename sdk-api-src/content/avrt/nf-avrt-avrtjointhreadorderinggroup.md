@@ -1,19 +1,17 @@
 ---
 UID: NF:avrt.AvRtJoinThreadOrderingGroup
 title: AvRtJoinThreadOrderingGroup function (avrt.h)
-
 description: Joins client threads to a thread ordering group.
 old-location: base\avrtjointhreadorderinggroup.htm
 tech.root: ProcThread
 ms.assetid: 76e70f91-750e-49c8-8ddf-e8eddd150aa4
-
 ms.date: 12/05/2018
 ms.keywords: AvRtJoinThreadOrderingGroup, AvRtJoinThreadOrderingGroup function, avrt/AvRtJoinThreadOrderingGroup, base.avrtjointhreadorderinggroup
 ms.topic: function
-f1_keywords: 
- - "avrt/AvRtJoinThreadOrderingGroup"
+f1_keywords:
+- avrt/AvRtJoinThreadOrderingGroup
 dev_langs:
- - c++
+- c++
 req.header: avrt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Avrt.lib
 req.dll: Avrt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Avrt.dll
+- Avrt.dll
 api_name:
- - AvRtJoinThreadOrderingGroup
+- AvRtJoinThreadOrderingGroup
 targetos: Windows
 req.typenames: 
 req.redist: 

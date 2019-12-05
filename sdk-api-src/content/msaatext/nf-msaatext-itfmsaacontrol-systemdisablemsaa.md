@@ -1,19 +1,17 @@
 ---
 UID: NF:msaatext.ITfMSAAControl.SystemDisableMSAA
 title: ITfMSAAControl::SystemDisableMSAA (msaatext.h)
-
 description: ITfMSAAControl::SystemDisableMSAA method
 old-location: tsf\itfmsaacontrol_systemdisablemsaa.htm
 tech.root: TSF
 ms.assetid: 344cabbb-286e-415d-980f-349fb637a78d
-
 ms.date: 12/05/2018
 ms.keywords: ITfMSAAControl interface [Text Services Framework],SystemDisableMSAA method, ITfMSAAControl.SystemDisableMSAA, ITfMSAAControl::SystemDisableMSAA, SystemDisableMSAA, SystemDisableMSAA method [Text Services Framework], SystemDisableMSAA method [Text Services Framework],ITfMSAAControl interface, msaatext/ITfMSAAControl::SystemDisableMSAA, tsf.itfmsaacontrol_systemdisablemsaa
 ms.topic: method
-f1_keywords: 
- - "msaatext/ITfMSAAControl.SystemDisableMSAA"
+f1_keywords:
+- msaatext/ITfMSAAControl.SystemDisableMSAA
 dev_langs:
- - c++
+- c++
 req.header: msaatext.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msctf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msctf.dll
+- msctf.dll
 api_name:
- - ITfMSAAControl.SystemDisableMSAA
+- ITfMSAAControl.SystemDisableMSAA
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

@@ -1,19 +1,17 @@
 ---
 UID: NN:taskschd.IWeeklyTrigger
 title: IWeeklyTrigger (taskschd.h)
-
 description: Represents a trigger that starts a task based on a weekly schedule.
 old-location: taskschd\iweeklytrigger.htm
 tech.root: taskschd
 ms.assetid: c10b050a-8319-4e21-85aa-0bceb76abaaf
-
 ms.date: 12/05/2018
 ms.keywords: IWeeklyTrigger, IWeeklyTrigger interface [Task Scheduler], IWeeklyTrigger interface [Task Scheduler],described, taskschd.iweeklytrigger, taskschd/IWeeklyTrigger, weekly trigger [Task Scheduler],interface
 ms.topic: interface
-f1_keywords: 
- - "taskschd/IWeeklyTrigger"
+f1_keywords:
+- taskschd/IWeeklyTrigger
 dev_langs:
- - c++
+- c++
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Taskschd.lib
 req.dll: Taskschd.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - taskschd.dll
+- taskschd.dll
 api_name:
- - IWeeklyTrigger
+- IWeeklyTrigger
 targetos: Windows
 req.typenames: 
 req.redist: 

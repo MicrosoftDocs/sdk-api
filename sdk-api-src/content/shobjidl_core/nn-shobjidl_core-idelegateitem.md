@@ -1,19 +1,17 @@
 ---
 UID: NN:shobjidl_core.IDelegateItem
 title: IDelegateItem (shobjidl_core.h)
-
 description: Used to obtain the immediately underlying representation of an item's path.
 old-location: shell\IDelegateItem.htm
 tech.root: shell
 ms.assetid: aca76587-5f1d-4154-a68b-df162c38624e
-
 ms.date: 12/05/2018
 ms.keywords: IDelegateItem, IDelegateItem interface [Windows Shell], IDelegateItem interface [Windows Shell],described, _shell_IDelegateItem, shell.IDelegateItem, shobjidl_core/IDelegateItem
 ms.topic: interface
-f1_keywords: 
- - "shobjidl_core/IDelegateItem"
+f1_keywords:
+- shobjidl_core/IDelegateItem
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Shell32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - IDelegateItem
+- IDelegateItem
 targetos: Windows
 req.typenames: 
 req.redist: 

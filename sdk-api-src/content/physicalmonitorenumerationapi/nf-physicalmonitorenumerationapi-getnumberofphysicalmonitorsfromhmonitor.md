@@ -1,19 +1,17 @@
 ---
 UID: NF:physicalmonitorenumerationapi.GetNumberOfPhysicalMonitorsFromHMONITOR
 title: GetNumberOfPhysicalMonitorsFromHMONITOR function (physicalmonitorenumerationapi.h)
-
 description: Retrieves the number of physical monitors associated with an HMONITOR monitor handle.
 old-location: monitor\getnumberofphysicalmonitorsfromhmonitor.htm
 tech.root: Monitor
 ms.assetid: c4cc3012-10ae-4435-8d81-e0a9eb62b55c
-
 ms.date: 12/05/2018
 ms.keywords: GetNumberOfPhysicalMonitorsFromHMONITOR, GetNumberOfPhysicalMonitorsFromHMONITOR function [Monitor Configuration], monitor.getnumberofphysicalmonitorsfromhmonitor, physicalmonitorenumerationapi/GetNumberOfPhysicalMonitorsFromHMONITOR
 ms.topic: function
-f1_keywords: 
- - "physicalmonitorenumerationapi/GetNumberOfPhysicalMonitorsFromHMONITOR"
+f1_keywords:
+- physicalmonitorenumerationapi/GetNumberOfPhysicalMonitorsFromHMONITOR
 dev_langs:
- - c++
+- c++
 req.header: physicalmonitorenumerationapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dxva2.lib
 req.dll: Dxva2.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - dxva2.dll
+- dxva2.dll
 api_name:
- - GetNumberOfPhysicalMonitorsFromHMONITOR
+- GetNumberOfPhysicalMonitorsFromHMONITOR
 targetos: Windows
 req.typenames: 
 req.redist: 

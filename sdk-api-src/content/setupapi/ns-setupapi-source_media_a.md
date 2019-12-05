@@ -1,19 +1,17 @@
 ---
 UID: NS:setupapi._SOURCE_MEDIA_A
 title: SOURCE_MEDIA_A (setupapi.h)
-
 description: The SOURCE_MEDIA structure is used with the SPFILENOTIFY_NEEDMEDIA notification to pass source media information.
 old-location: setup\source_media_str.htm
 tech.root: SetupApi
 ms.assetid: 93a72ec8-b979-4e61-bb06-eed1a6432f16
-
 ms.date: 12/05/2018
-ms.keywords: "*PSOURCE_MEDIA_A, PSOURCE_MEDIA, PSOURCE_MEDIA structure pointer [Setup API], SOURCE_MEDIA, SOURCE_MEDIA structure [Setup API], SOURCE_MEDIA_A, _setupapi_source_media_str, setup.source_media_str, setupapi/PSOURCE_MEDIA, setupapi/SOURCE_MEDIA"
+ms.keywords: '*PSOURCE_MEDIA_A, PSOURCE_MEDIA, PSOURCE_MEDIA structure pointer [Setup API], SOURCE_MEDIA, SOURCE_MEDIA structure [Setup API], SOURCE_MEDIA_A, _setupapi_source_media_str, setup.source_media_str, setupapi/PSOURCE_MEDIA, setupapi/SOURCE_MEDIA'
 ms.topic: struct
-f1_keywords: 
- - "setupapi/SOURCE_MEDIA"
+f1_keywords:
+- setupapi/SOURCE_MEDIA
 dev_langs:
- - c++
+- c++
 req.header: setupapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Setupapi.h
+- Setupapi.h
 api_name:
- - SOURCE_MEDIA
- - source_media_a
+- SOURCE_MEDIA
+- source_media_a
 targetos: Windows
 req.typenames: SOURCE_MEDIA_A, *PSOURCE_MEDIA_A
 req.redist: 

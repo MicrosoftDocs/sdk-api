@@ -1,19 +1,17 @@
 ---
 UID: NF:spatialaudiometadata.ISpatialAudioObjectRenderStreamForMetadata.ActivateSpatialAudioObjectForMetadataItems
 title: ISpatialAudioObjectRenderStreamForMetadata::ActivateSpatialAudioObjectForMetadataItems (spatialaudiometadata.h)
-
 description: Activate an ISpatialAudioObjectForMetadataItems for rendering.
 old-location: coreaudio\ispatialaudioobjectrenderstreamformetadataitems_activatespatialaudioobjectformetadataitems.htm
 tech.root: CoreAudio
 ms.assetid: A9743D42-659A-404C-BB21-8A5086870F34
-
 ms.date: 12/05/2018
 ms.keywords: ActivateSpatialAudioObjectForMetadataItems, ActivateSpatialAudioObjectForMetadataItems method [Core Audio], ActivateSpatialAudioObjectForMetadataItems method [Core Audio],ISpatialAudioObjectRenderStreamForMetadata interface, ISpatialAudioObjectRenderStreamForMetadata interface [Core Audio],ActivateSpatialAudioObjectForMetadataItems method, ISpatialAudioObjectRenderStreamForMetadata.ActivateSpatialAudioObjectForMetadataItems, ISpatialAudioObjectRenderStreamForMetadata::ActivateSpatialAudioObjectForMetadataItems, coreaudio.ispatialaudioobjectformetadataitems_activatespatialaudioobjectformetadataitems, coreaudio.ispatialaudioobjectrenderstreamformetadataitems_activatespatialaudioobjectformetadataitems, spatialaudiometadata/ISpatialAudioObjectRenderStreamForMetadata::ActivateSpatialAudioObjectForMetadataItems
 ms.topic: method
-f1_keywords: 
- - "spatialaudiometadata/ISpatialAudioObjectRenderStreamForMetadata.ActivateSpatialAudioObjectForMetadataItems"
+f1_keywords:
+- spatialaudiometadata/ISpatialAudioObjectRenderStreamForMetadata.ActivateSpatialAudioObjectForMetadataItems
 dev_langs:
- - c++
+- c++
 req.header: spatialaudiometadata.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - spatialaudiometadata.h
+- spatialaudiometadata.h
 api_name:
- - ISpatialAudioObjectRenderStreamForMetadata.ActivateSpatialAudioObjectForMetadataItems
+- ISpatialAudioObjectRenderStreamForMetadata.ActivateSpatialAudioObjectForMetadataItems
 targetos: Windows
 req.typenames: 
 req.redist: 

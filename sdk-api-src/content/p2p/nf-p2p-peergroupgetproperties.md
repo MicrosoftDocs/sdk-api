@@ -1,19 +1,17 @@
 ---
 UID: NF:p2p.PeerGroupGetProperties
 title: PeerGroupGetProperties function (p2p.h)
-
 description: The PeerGroupGetProperties function retrieves information on the properties of a specified group.
 old-location: p2p\peergroupgetproperties.htm
 tech.root: P2PSdk
 ms.assetid: 6273817f-9698-4c0b-93a9-9bbee2e5dc78
-
 ms.date: 12/05/2018
 ms.keywords: PeerGroupGetProperties, PeerGroupGetProperties function [Peer Networking], p2p.peergroupgetproperties, p2p/PeerGroupGetProperties
 ms.topic: function
-f1_keywords: 
- - "p2p/PeerGroupGetProperties"
+f1_keywords:
+- p2p/PeerGroupGetProperties
 dev_langs:
- - c++
+- c++
 req.header: p2p.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: P2P.lib
 req.dll: P2P.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - P2P.dll
+- P2P.dll
 api_name:
- - PeerGroupGetProperties
+- PeerGroupGetProperties
 targetos: Windows
 req.typenames: 
 req.redist: 

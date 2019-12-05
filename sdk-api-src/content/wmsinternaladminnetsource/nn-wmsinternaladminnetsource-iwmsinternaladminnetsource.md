@@ -1,19 +1,17 @@
 ---
 UID: NN:wmsinternaladminnetsource.IWMSInternalAdminNetSource
 title: IWMSInternalAdminNetSource (wmsinternaladminnetsource.h)
-
 description: The IWMSInternalAdminNetSource interface manages cached passwords and finds proxy servers.To obtain a pointer to an instance of this interface, call the QueryInterface method of the IDispatch interface retrieved by INSNetSourceCreator::GetNetSourceAdminInterface.
 old-location: wmformat\iwmsinternaladminnetsource.htm
 tech.root: wmformat
 ms.assetid: 0fbdad85-d94a-4598-bb25-f733df33692a
-
 ms.date: 12/05/2018
 ms.keywords: IWMSInternalAdminNetSource, IWMSInternalAdminNetSource interface [windows Media Format], IWMSInternalAdminNetSource interface [windows Media Format],described, IWMSInternalAdminNetSourceInterface, wmformat.iwmsinternaladminnetsource, wmsinternaladminnetsource/IWMSInternalAdminNetSource
 ms.topic: interface
-f1_keywords: 
- - "wmsinternaladminnetsource/IWMSInternalAdminNetSource"
+f1_keywords:
+- wmsinternaladminnetsource/IWMSInternalAdminNetSource
 dev_langs:
- - c++
+- c++
 req.header: wmsinternaladminnetsource.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmsinternaladminnetsource.h
+- wmsinternaladminnetsource.h
 api_name:
- - IWMSInternalAdminNetSource
- - IWMSInternalAdminNetSource.GetNetSourceCreator
- - IWMSInternalAdminNetSource.Initialize
- - IWMSInternalAdminNetSource.IsUsingIE
+- IWMSInternalAdminNetSource
+- IWMSInternalAdminNetSource.GetNetSourceCreator
+- IWMSInternalAdminNetSource.Initialize
+- IWMSInternalAdminNetSource.IsUsingIE
 targetos: Windows
 req.typenames: 
 req.redist: 

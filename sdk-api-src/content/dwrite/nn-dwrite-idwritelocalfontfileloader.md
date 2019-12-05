@@ -1,19 +1,17 @@
 ---
 UID: NN:dwrite.IDWriteLocalFontFileLoader
 title: IDWriteLocalFontFileLoader (dwrite.h)
-
 description: A built-in implementation of the IDWriteFontFileLoader interface, that operates on local font files and exposes local font file information from the font file reference key.
 old-location: directwrite\idwritelocalfontfileloader.htm
 tech.root: DirectWrite
 ms.assetid: acb777c8-24c6-452e-8f58-8fb2ad8c0b6c
-
 ms.date: 12/05/2018
 ms.keywords: IDWriteLocalFontFileLoader, IDWriteLocalFontFileLoader interface [Direct Write], IDWriteLocalFontFileLoader interface [Direct Write],described, directwrite.idwritelocalfontfileloader, dwrite/IDWriteLocalFontFileLoader
 ms.topic: interface
-f1_keywords: 
- - "dwrite/IDWriteLocalFontFileLoader"
+f1_keywords:
+- dwrite/IDWriteLocalFontFileLoader
 dev_langs:
- - c++
+- c++
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dwrite.lib
 req.dll: Dwrite.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dwrite.dll
+- dwrite.dll
 api_name:
- - IDWriteLocalFontFileLoader
+- IDWriteLocalFontFileLoader
 targetos: Windows
 req.typenames: 
 req.redist: 

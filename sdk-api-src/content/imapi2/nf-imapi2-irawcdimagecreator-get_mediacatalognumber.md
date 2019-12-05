@@ -1,19 +1,17 @@
 ---
 UID: NF:imapi2.IRawCDImageCreator.get_MediaCatalogNumber
 title: IRawCDImageCreator::get_MediaCatalogNumber (imapi2.h)
-
 description: Sets the Media Catalog Number (MCN) for the entire audio disc.
 old-location: imapi\irawcdimagecreator_get_mediacatalognumber.htm
 tech.root: imapi
 ms.assetid: db6f46b7-9965-4b06-a437-bdfdac7d5efa
-
 ms.date: 12/05/2018
 ms.keywords: IRawCDImageCreator interface [IMAPI],get_MediaCatalogNumber method, IRawCDImageCreator.get_MediaCatalogNumber, IRawCDImageCreator::get_MediaCatalogNumber, get_MediaCatalogNumber, get_MediaCatalogNumber method [IMAPI], get_MediaCatalogNumber method [IMAPI],IRawCDImageCreator interface, imapi.irawcdimagecreator_get_mediacatalognumber, imapi2/IRawCDImageCreator::get_MediaCatalogNumber
 ms.topic: method
-f1_keywords: 
- - "imapi2/IRawCDImageCreator.get_MediaCatalogNumber"
+f1_keywords:
+- imapi2/IRawCDImageCreator.get_MediaCatalogNumber
 dev_langs:
- - c++
+- c++
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - imapi2.h
+- imapi2.h
 api_name:
- - IRawCDImageCreator.get_MediaCatalogNumber
+- IRawCDImageCreator.get_MediaCatalogNumber
 targetos: Windows
 req.typenames: 
 req.redist: 

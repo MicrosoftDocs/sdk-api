@@ -1,19 +1,17 @@
 ---
 UID: NN:certenroll.ICertProperties
 title: ICertProperties (certenroll.h)
-
 description: Contains methods and properties that enable you to manage a collection of certificate properties.
 old-location: security\icertproperties.htm
 tech.root: seccertenroll
 ms.assetid: b830c0af-0a38-419d-8a33-8e3626c4e8f1
-
 ms.date: 12/05/2018
 ms.keywords: ICertProperties, ICertProperties interface [Security], ICertProperties interface [Security],described, certenroll/ICertProperties, security.icertproperties
 ms.topic: interface
-f1_keywords: 
- - "certenroll/ICertProperties"
+f1_keywords:
+- certenroll/ICertProperties
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: CertEnroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CertEnroll.dll
+- CertEnroll.dll
 api_name:
- - ICertProperties
+- ICertProperties
 targetos: Windows
 req.typenames: 
 req.redist: 

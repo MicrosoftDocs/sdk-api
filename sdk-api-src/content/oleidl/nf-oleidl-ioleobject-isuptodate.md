@@ -1,19 +1,17 @@
 ---
 UID: NF:oleidl.IOleObject.IsUpToDate
 title: IOleObject::IsUpToDate (oleidl.h)
-
 description: Checks whether an object is up to date.
 old-location: com\ioleobject_isuptodate.htm
 tech.root: com
 ms.assetid: 74203a74-c5dd-4a98-9223-1dc54c9d4399
-
 ms.date: 12/05/2018
 ms.keywords: IOleObject interface [COM],IsUpToDate method, IOleObject.IsUpToDate, IOleObject::IsUpToDate, IsUpToDate, IsUpToDate method [COM], IsUpToDate method [COM],IOleObject interface, _ole_ioleobject_isuptodate, com.ioleobject_isuptodate, oleidl/IOleObject::IsUpToDate
 ms.topic: method
-f1_keywords: 
- - "oleidl/IOleObject.IsUpToDate"
+f1_keywords:
+- oleidl/IOleObject.IsUpToDate
 dev_langs:
- - c++
+- c++
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - OleIdl.h
+- OleIdl.h
 api_name:
- - IOleObject.IsUpToDate
+- IOleObject.IsUpToDate
 targetos: Windows
 req.typenames: 
 req.redist: 

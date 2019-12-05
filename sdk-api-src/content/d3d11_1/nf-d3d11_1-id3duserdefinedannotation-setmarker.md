@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d11_1.ID3DUserDefinedAnnotation.SetMarker
 title: ID3DUserDefinedAnnotation::SetMarker (d3d11_1.h)
-
 description: Marks a single point of execution in code.
 old-location: direct3d11\id3duserdefinedannotation_setmarker.htm
 tech.root: direct3d11
 ms.assetid: EACF3660-C6A7-4C46-816C-0D9D292903B5
-
 ms.date: 12/05/2018
 ms.keywords: ID3DUserDefinedAnnotation interface [Direct3D 11],SetMarker method, ID3DUserDefinedAnnotation.SetMarker, ID3DUserDefinedAnnotation::SetMarker, SetMarker, SetMarker method [Direct3D 11], SetMarker method [Direct3D 11],ID3DUserDefinedAnnotation interface, d3d11_1/ID3DUserDefinedAnnotation::SetMarker, direct3d11.id3duserdefinedannotation_setmarker
 ms.topic: method
-f1_keywords: 
- - "d3d11_1/ID3DUserDefinedAnnotation.SetMarker"
+f1_keywords:
+- d3d11_1/ID3DUserDefinedAnnotation.SetMarker
 dev_langs:
- - c++
+- c++
 req.header: d3d11_1.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: D3D11.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D11.lib
- - D3D11.dll
+- D3D11.lib
+- D3D11.dll
 api_name:
- - ID3DUserDefinedAnnotation.SetMarker
+- ID3DUserDefinedAnnotation.SetMarker
 targetos: Windows
 req.typenames: 
 req.redist: 

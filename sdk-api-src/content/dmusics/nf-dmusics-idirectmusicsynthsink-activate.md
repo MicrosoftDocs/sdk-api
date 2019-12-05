@@ -1,19 +1,17 @@
 ---
 UID: NF:dmusics.IDirectMusicSynthSink.Activate
 title: IDirectMusicSynthSink::Activate (dmusics.h)
-
 description: The Activate method activates or deactivates the synthesizer sink.
 old-location: audio\idirectmusicsynthsink_activate.htm
 tech.root: audio
 ms.assetid: 49b66410-23bd-4c4d-929c-b7e82fb45a9c
-
 ms.date: 12/05/2018
 ms.keywords: Activate, Activate method [Audio Devices], Activate method [Audio Devices],IDirectMusicSynthSink interface, IDirectMusicSynthSink interface [Audio Devices],Activate method, IDirectMusicSynthSink.Activate, IDirectMusicSynthSink::Activate, audio.idirectmusicsynthsink_activate, audmp-routines_8a2d5dd7-92f1-4341-a5f3-68fd1215fc06.xml, dmusics/IDirectMusicSynthSink::Activate
 ms.topic: method
-f1_keywords: 
- - "dmusics/IDirectMusicSynthSink.Activate"
+f1_keywords:
+- dmusics/IDirectMusicSynthSink.Activate
 dev_langs:
- - c++
+- c++
 req.header: dmusics.h
 req.include-header: Dmusics.h
 req.target-type: Desktop
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dmusics.h
+- dmusics.h
 api_name:
- - IDirectMusicSynthSink.Activate
+- IDirectMusicSynthSink.Activate
 targetos: Windows
 req.typenames: 
 req.redist: 

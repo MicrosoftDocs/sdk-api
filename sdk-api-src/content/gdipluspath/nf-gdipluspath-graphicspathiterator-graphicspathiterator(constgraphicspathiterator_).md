@@ -1,19 +1,17 @@
 ---
 UID: NF:gdipluspath.GraphicsPathIterator.GraphicsPathIterator(const GraphicsPathIterator &)
 title: GraphicsPathIterator::GraphicsPathIterator(const GraphicsPathIterator &) (gdipluspath.h)
-
 description: Creates a new GraphicsPathIterator::GraphicsPathIterator object and associates it with a GraphicsPath object.
 old-location: gdiplus\_gdiplus_CLASS_GraphicsPathIterator_GraphicsPathIterator_path_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicspathiteratorclass\graphicspathiterator_66path.htm
-
 ms.date: 12/05/2018
 ms.keywords: GraphicsPathIterator, GraphicsPathIterator class [GDI+],GraphicsPathIterator constructor, GraphicsPathIterator constructor [GDI+], GraphicsPathIterator constructor [GDI+],GraphicsPathIterator class, GraphicsPathIterator.GraphicsPathIterator, GraphicsPathIterator.GraphicsPathIterator(const GraphicsPathIterator &), GraphicsPathIterator::GraphicsPathIterator, GraphicsPathIterator::GraphicsPathIterator(const GraphicsPathIterator &), _gdiplus_CLASS_GraphicsPathIterator_GraphicsPathIterator_path_, gdiplus._gdiplus_CLASS_GraphicsPathIterator_GraphicsPathIterator_path_
 ms.topic: method
-f1_keywords: 
- - "gdipluspath/GraphicsPathIterator.GraphicsPathIterator"
+f1_keywords:
+- gdipluspath/GraphicsPathIterator.GraphicsPathIterator
 dev_langs:
- - c++
+- c++
 req.header: gdipluspath.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - GraphicsPathIterator.GraphicsPathIterator
+- GraphicsPathIterator.GraphicsPathIterator
 targetos: Windows
 req.typenames: 
 req.redist: 

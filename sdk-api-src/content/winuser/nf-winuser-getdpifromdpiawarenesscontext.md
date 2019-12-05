@@ -1,19 +1,17 @@
 ---
 UID: NF:winuser.GetDpiFromDpiAwarenessContext
 title: GetDpiFromDpiAwarenessContext function (winuser.h)
-
 description: Retrieves the DPI from a given DPI_AWARENESS_CONTEXT handle. This enables you to determine the DPI of a thread without needed to examine a window created within that thread.
 old-location: hidpi\getdpifromdpiawarenesscontext.htm
 tech.root: hidpi
 ms.assetid: E47A7A12-AE11-4E66-AE49-463C9F4A6330
-
 ms.date: 12/05/2018
 ms.keywords: GetDpiFromDpiAwarenessContext, GetDpiFromDpiAwarenessContext function [High DPI], hidpi.getdpifromdpiawarenesscontext, winuser/GetDpiFromDpiAwarenessContext
 ms.topic: function
-f1_keywords: 
- - "winuser/GetDpiFromDpiAwarenessContext"
+f1_keywords:
+- winuser/GetDpiFromDpiAwarenessContext
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - User32.dll
+- User32.dll
 api_name:
- - GetDpiFromDpiAwarenessContext
+- GetDpiFromDpiAwarenessContext
 targetos: Windows
 req.typenames: 
 req.redist: 

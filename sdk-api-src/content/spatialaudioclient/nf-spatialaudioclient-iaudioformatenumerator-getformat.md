@@ -1,19 +1,17 @@
 ---
 UID: NF:spatialaudioclient.IAudioFormatEnumerator.GetFormat
 title: IAudioFormatEnumerator::GetFormat (spatialaudioclient.h)
-
 description: Gets the format with the specified index in the list. The formats are listed in order of importance. The most preferable format is first in the list.
 old-location: coreaudio\iaudioformatenumerator_getformat.htm
 tech.root: CoreAudio
 ms.assetid: 9949F688-51D1-418B-947D-2607C90CA4E4
-
 ms.date: 12/05/2018
 ms.keywords: GetFormat, GetFormat method [Core Audio], GetFormat method [Core Audio],IAudioFormatEnumerator interface, IAudioFormatEnumerator interface [Core Audio],GetFormat method, IAudioFormatEnumerator.GetFormat, IAudioFormatEnumerator::GetFormat, coreaudio.iaudioformatenumerator_getformat, spatialaudioclient/IAudioFormatEnumerator::GetFormat
 ms.topic: method
-f1_keywords: 
- - "spatialaudioclient/IAudioFormatEnumerator.GetFormat"
+f1_keywords:
+- spatialaudioclient/IAudioFormatEnumerator.GetFormat
 dev_langs:
- - c++
+- c++
 req.header: spatialaudioclient.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - spatialaudioclient.h
+- spatialaudioclient.h
 api_name:
- - IAudioFormatEnumerator.GetFormat
+- IAudioFormatEnumerator.GetFormat
 targetos: Windows
 req.typenames: 
 req.redist: 

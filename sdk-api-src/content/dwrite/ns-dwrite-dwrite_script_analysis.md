@@ -1,19 +1,17 @@
 ---
 UID: NS:dwrite.DWRITE_SCRIPT_ANALYSIS
 title: DWRITE_SCRIPT_ANALYSIS (dwrite.h)
-
 description: Stores the association of text and its writing system script, as well as some display attributes.
 old-location: directwrite\dwrite_script_analysis.htm
 tech.root: DirectWrite
 ms.assetid: dafda5f6-39aa-4577-9213-898bdeddc7c2
-
 ms.date: 12/05/2018
 ms.keywords: DWRITE_SCRIPT_ANALYSIS, DWRITE_SCRIPT_ANALYSIS structure [Direct Write], directwrite.dwrite_script_analysis, dwrite/DWRITE_SCRIPT_ANALYSIS
 ms.topic: struct
-f1_keywords: 
- - "dwrite/DWRITE_SCRIPT_ANALYSIS"
+f1_keywords:
+- dwrite/DWRITE_SCRIPT_ANALYSIS
 dev_langs:
- - c++
+- c++
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - dwrite.h
+- dwrite.h
 api_name:
- - DWRITE_SCRIPT_ANALYSIS
+- DWRITE_SCRIPT_ANALYSIS
 targetos: Windows
 req.typenames: 
 req.redist: 

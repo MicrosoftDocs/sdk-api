@@ -1,19 +1,17 @@
 ---
 UID: NF:taskschd.ITaskSettings.put_ExecutionTimeLimit
 title: ITaskSettings::put_ExecutionTimeLimit (taskschd.h)
-
 description: Gets or sets the amount of time that is allowed to complete the task.
 old-location: taskschd\itasksettings_executiontimelimit.htm
 tech.root: taskschd
 ms.assetid: 33e70133-9dfe-402a-9a1a-87f3fcc3eb96
-
 ms.date: 12/05/2018
 ms.keywords: ExecutionTimeLimit property [Task Scheduler], ExecutionTimeLimit property [Task Scheduler],ITaskSettings interface, ITaskSettings interface [Task Scheduler],ExecutionTimeLimit property, ITaskSettings.ExecutionTimeLimit, ITaskSettings.put_ExecutionTimeLimit, ITaskSettings::ExecutionTimeLimit, ITaskSettings::get_ExecutionTimeLimit, ITaskSettings::put_ExecutionTimeLimit, put_ExecutionTimeLimit, taskschd.itasksettings_executiontimelimit, taskschd/ITaskSettings::ExecutionTimeLimit, taskschd/ITaskSettings::get_ExecutionTimeLimit, taskschd/ITaskSettings::put_ExecutionTimeLimit
 ms.topic: method
-f1_keywords: 
- - "taskschd/ITaskSettings.ExecutionTimeLimit"
+f1_keywords:
+- taskschd/ITaskSettings.ExecutionTimeLimit
 dev_langs:
- - c++
+- c++
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Taskschd.lib
 req.dll: Taskschd.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - taskschd.dll
+- taskschd.dll
 api_name:
- - ITaskSettings.ExecutionTimeLimit
- - ITaskSettings.get_ExecutionTimeLimit
- - ITaskSettings.put_ExecutionTimeLimit
+- ITaskSettings.ExecutionTimeLimit
+- ITaskSettings.get_ExecutionTimeLimit
+- ITaskSettings.put_ExecutionTimeLimit
 targetos: Windows
 req.typenames: 
 req.redist: 

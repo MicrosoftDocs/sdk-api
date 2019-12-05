@@ -1,19 +1,17 @@
 ---
 UID: NS:wdspxe.tagPXE_DHCPV6_OPTION
 title: PXE_DHCPV6_OPTION (wdspxe.h)
-
 description: The PXE_DHCPV6_OPTION structure can be used with the Windows Deployment Services PXE Server API.
 old-location: wds\pxe_dhcpv6_option.htm
 tech.root: wds
 ms.assetid: 9B0A1A5B-1CF7-46B4-9C94-42355555DD60
-
 ms.date: 12/05/2018
-ms.keywords: "*PPXE_DHCPV6_OPTION, PPXE_DHCPV6_OPTION, PPXE_DHCPV6_OPTION structure pointer [Windows Deployment Services], PXE_DHCPV6_OPTION, PXE_DHCPV6_OPTION structure [Windows Deployment Services], wds.pxe_dhcpv6_option, wdspxe/PPXE_DHCPV6_OPTION, wdspxe/PXE_DHCPV6_OPTION"
+ms.keywords: '*PPXE_DHCPV6_OPTION, PPXE_DHCPV6_OPTION, PPXE_DHCPV6_OPTION structure pointer [Windows Deployment Services], PXE_DHCPV6_OPTION, PXE_DHCPV6_OPTION structure [Windows Deployment Services], wds.pxe_dhcpv6_option, wdspxe/PPXE_DHCPV6_OPTION, wdspxe/PXE_DHCPV6_OPTION'
 ms.topic: struct
-f1_keywords: 
- - "wdspxe/PXE_DHCPV6_OPTION"
+f1_keywords:
+- wdspxe/PXE_DHCPV6_OPTION
 dev_langs:
- - c++
+- c++
 req.header: wdspxe.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WdsPxe.h
+- WdsPxe.h
 api_name:
- - PXE_DHCPV6_OPTION
+- PXE_DHCPV6_OPTION
 targetos: Windows
 req.typenames: PXE_DHCPV6_OPTION, *PPXE_DHCPV6_OPTION
 req.redist: 

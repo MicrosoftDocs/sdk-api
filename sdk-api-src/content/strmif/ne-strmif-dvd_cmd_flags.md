@@ -1,19 +1,17 @@
 ---
 UID: NE:strmif.__MIDL___MIDL_itf_strmif_0000_0132_0002
 title: DVD_CMD_FLAGS (strmif.h)
-
 description: Defines flags that control how the DVD Navigator Filter filter handles command synchronization.
 old-location: dshow\dvd_cmd_flags.htm
 tech.root: DirectShow
 ms.assetid: 05eb5ab8-a1b3-4876-bac3-29510af8cdbd
-
 ms.date: 12/05/2018
 ms.keywords: DVD_CMD_FLAGS, DVD_CMD_FLAGS , DVD_CMD_FLAGS enumeration [DirectShow], DVD_CMD_FLAGSEnumeration, DVD_CMD_FLAG_Block, DVD_CMD_FLAG_EndAfterRendered, DVD_CMD_FLAG_Flush, DVD_CMD_FLAG_None, DVD_CMD_FLAG_SendEvents, DVD_CMD_FLAG_StartWhenRendered, dshow.dvd_cmd_flags, strmif/DVD_CMD_FLAGS, strmif/DVD_CMD_FLAG_Block, strmif/DVD_CMD_FLAG_EndAfterRendered, strmif/DVD_CMD_FLAG_Flush, strmif/DVD_CMD_FLAG_None, strmif/DVD_CMD_FLAG_SendEvents, strmif/DVD_CMD_FLAG_StartWhenRendered
 ms.topic: enum
-f1_keywords: 
- - "strmif/DVD_CMD_FLAGS"
+f1_keywords:
+- strmif/DVD_CMD_FLAGS
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - strmif.h
+- strmif.h
 api_name:
- - DVD_CMD_FLAGS
+- DVD_CMD_FLAGS
 targetos: Windows
 req.typenames: DVD_CMD_FLAGS
 req.redist: 

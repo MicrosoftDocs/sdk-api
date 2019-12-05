@@ -1,19 +1,17 @@
 ---
 UID: NS:fwpmtypes.FWPM_PROVIDER_CONTEXT2_
 title: FWPM_PROVIDER_CONTEXT2 (fwpmtypes.h)
-
 description: Stores the state associated with a provider context.
 old-location: fwp\fwpm_provider_context2.htm
 tech.root: fwp
 ms.assetid: aa397a4e-07cc-4eee-8d0f-798901a5bb29
-
 ms.date: 12/05/2018
 ms.keywords: FWPM_PROVIDER_CONTEXT2, FWPM_PROVIDER_CONTEXT2 structure [Filtering], FWPM_PROVIDER_CONTEXT2_, FWPM_PROVIDER_CONTEXT_FLAG_DOWNLEVEL, FWPM_PROVIDER_CONTEXT_FLAG_PERSISTENT, fwp.fwpm_provider_context2, fwpmtypes/FWPM_PROVIDER_CONTEXT2
 ms.topic: struct
-f1_keywords: 
- - "fwpmtypes/FWPM_PROVIDER_CONTEXT2"
+f1_keywords:
+- fwpmtypes/FWPM_PROVIDER_CONTEXT2
 dev_langs:
- - c++
+- c++
 req.header: fwpmtypes.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - fwpmtypes.h
+- fwpmtypes.h
 api_name:
- - FWPM_PROVIDER_CONTEXT2
+- FWPM_PROVIDER_CONTEXT2
 targetos: Windows
 req.typenames: FWPM_PROVIDER_CONTEXT2
 req.redist: 

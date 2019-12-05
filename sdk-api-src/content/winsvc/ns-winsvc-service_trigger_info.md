@@ -1,19 +1,17 @@
 ---
 UID: NS:winsvc._SERVICE_TRIGGER_INFO
 title: SERVICE_TRIGGER_INFO (winsvc.h)
-
 description: Contains trigger event information for a service. This structure is used by the ChangeServiceConfig2 and QueryServiceConfig2 functions.
 old-location: base\service_trigger_info.htm
 tech.root: Services
 ms.assetid: 8de46056-1ea5-46f2-a260-ad140fd77bc1
-
 ms.date: 12/05/2018
 ms.keywords: '*PSERVICE_TRIGGER_INFO, PSERVICE_TRIGGER_INFO, PSERVICE_TRIGGER_INFO structure pointer, SERVICE_TRIGGER_INFO, SERVICE_TRIGGER_INFO structure, base.service_trigger_info, winsvc/PSERVICE_TRIGGER_INFO, winsvc/SERVICE_TRIGGER_INFO'
 ms.topic: struct
 f1_keywords:
 - winsvc/SERVICE_TRIGGER_INFO
 dev_langs:
- - c++
+- c++
 req.header: winsvc.h
 req.include-header: 
 req.target-type: Windows

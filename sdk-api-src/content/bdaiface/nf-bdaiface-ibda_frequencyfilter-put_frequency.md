@@ -1,19 +1,17 @@
 ---
 UID: NF:bdaiface.IBDA_FrequencyFilter.put_Frequency
 title: IBDA_FrequencyFilter::put_Frequency (bdaiface.h)
-
 description: The put_Frequency method specifies the frequency.
 old-location: mstv\ibda_frequencyfilter_put_frequency.htm
 tech.root: mstv
 ms.assetid: 70d50a4b-b0f8-42a1-9fa2-1d09376903fe
-
 ms.date: 12/05/2018
 ms.keywords: IBDA_FrequencyFilter interface [Microsoft TV Technologies],put_Frequency method, IBDA_FrequencyFilter.put_Frequency, IBDA_FrequencyFilter::put_Frequency, IBDA_FrequencyFilterput_Frequency, bdaiface/IBDA_FrequencyFilter::put_Frequency, mstv.ibda_frequencyfilter_put_frequency, put_Frequency, put_Frequency method [Microsoft TV Technologies], put_Frequency method [Microsoft TV Technologies],IBDA_FrequencyFilter interface
 ms.topic: method
-f1_keywords: 
- - "bdaiface/IBDA_FrequencyFilter.put_Frequency"
+f1_keywords:
+- bdaiface/IBDA_FrequencyFilter.put_Frequency
 dev_langs:
- - c++
+- c++
 req.header: bdaiface.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - bdaiface.h
+- bdaiface.h
 api_name:
- - IBDA_FrequencyFilter.put_Frequency
+- IBDA_FrequencyFilter.put_Frequency
 targetos: Windows
 req.typenames: 
 req.redist: 

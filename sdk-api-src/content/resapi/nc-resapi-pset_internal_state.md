@@ -1,19 +1,17 @@
 ---
 UID: NC:resapi.PSET_INTERNAL_STATE
 title: PSET_INTERNAL_STATE (resapi.h)
-
 description: Sets the internal state of a resource.
 old-location: mscs\setinternalstate.htm
 tech.root: MsCS
 ms.assetid: B9ECD98B-D867-44C0-846F-8FE96E44F387
-
 ms.date: 12/05/2018
 ms.keywords: PSET_INTERNAL_STATE, PSET_INTERNAL_STATE callback function [Failover Cluster], SetInternalState, SetInternalState callback, SetInternalState callback function [Failover Cluster], mscs.setinternalstate, resapi/PSET_INTERNAL_STATE, resapi/SetInternalState
 ms.topic: callback
-f1_keywords: 
- - "resapi/SetInternalState"
+f1_keywords:
+- resapi/SetInternalState
 dev_langs:
- - c++
+- c++
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - ResApi.h
+- ResApi.h
 api_name:
- - SetInternalState
+- SetInternalState
 targetos: Windows
 req.typenames: 
 req.redist: 

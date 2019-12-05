@@ -1,19 +1,17 @@
 ---
 UID: NF:oleacc.IAccessible.accNavigate
 title: IAccessible::accNavigate (oleacc.h)
-
 description: The IAccessible::accNavigate method traverses to another UI element within a container and retrieves the object. This method is optional.
 old-location: winauto\iaccessible_iaccessible__accnavigate.htm
 tech.root: WinAuto
 ms.assetid: 8825c951-a6c1-4690-b36a-6159f30a13d9
-
 ms.date: 12/05/2018
 ms.keywords: IAccessible interface [Windows Accessibility],accNavigate method, IAccessible.accNavigate, IAccessible::accNavigate, VT_DISPATCH, VT_EMPTY, VT_I4, _msaa_IAccessible_accNavigate, accNavigate, accNavigate method [Windows Accessibility], accNavigate method [Windows Accessibility],IAccessible interface, msaa.iaccessible_iaccessible__accnavigate, oleacc/IAccessible::accNavigate, winauto.iaccessible_iaccessible__accnavigate
 ms.topic: method
-f1_keywords: 
- - "oleacc/IAccessible.accNavigate"
+f1_keywords:
+- oleacc/IAccessible.accNavigate
 dev_langs:
- - c++
+- c++
 req.header: oleacc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Oleacc.lib
 req.dll: Oleacc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Oleacc.dll
+- Oleacc.dll
 api_name:
- - IAccessible.accNavigate
+- IAccessible.accNavigate
 targetos: Windows
 req.typenames: 
 req.redist: Active Accessibility 1.3 RDK on Windows NT 4.0 with SP6 and later and Windows 95

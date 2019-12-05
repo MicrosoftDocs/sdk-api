@@ -1,19 +1,17 @@
 ---
 UID: NF:activationregistration.IDllServerActivatableClassRegistration.get_ThreadingType
 title: IDllServerActivatableClassRegistration::get_ThreadingType (activationregistration.h)
-
 description: Gets the apartment threading model for activating the in-process server.
 old-location: winrt\idllserveractivatableclassregistration_threadingtype.htm
 tech.root: WinRT
 ms.assetid: 08F95AD6-B559-4652-A496-84777BF0189D
-
 ms.date: 12/05/2018
 ms.keywords: IDllServerActivatableClassRegistration interface [Windows Runtime],get_ThreadingType method, IDllServerActivatableClassRegistration.get_ThreadingType, IDllServerActivatableClassRegistration::get_ThreadingType, activationregistration/IDllServerActivatableClassRegistration::get_ThreadingType, get_ThreadingType, get_ThreadingType method [Windows Runtime], get_ThreadingType method [Windows Runtime],IDllServerActivatableClassRegistration interface, winrt.idllserveractivatableclassregistration_threadingtype
 ms.topic: method
-f1_keywords: 
- - "activationregistration/IDllServerActivatableClassRegistration.get_ThreadingType"
+f1_keywords:
+- activationregistration/IDllServerActivatableClassRegistration.get_ThreadingType
 dev_langs:
- - c++
+- c++
 req.header: activationregistration.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - activationregistration.h
+- activationregistration.h
 api_name:
- - IDllServerActivatableClassRegistration.get_ThreadingType
+- IDllServerActivatableClassRegistration.get_ThreadingType
 targetos: Windows
 req.typenames: 
 req.redist: 

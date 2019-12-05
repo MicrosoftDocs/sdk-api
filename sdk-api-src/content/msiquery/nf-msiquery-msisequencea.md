@@ -1,19 +1,17 @@
 ---
 UID: NF:msiquery.MsiSequenceA
 title: MsiSequenceA function (msiquery.h)
-
 description: The MsiSequence function executes another action sequence, as described in the specified table.
 old-location: setup\msisequence.htm
 tech.root: Msi
 ms.assetid: affb33ab-1b58-4d18-a908-8eaedb9ce1ca
-
 ms.date: 12/05/2018
 ms.keywords: MsiSequence, MsiSequence function, MsiSequenceA, MsiSequenceW, _msi_msisequence, msiquery/MsiSequence, msiquery/MsiSequenceA, msiquery/MsiSequenceW, setup.msisequence
 ms.topic: function
-f1_keywords: 
- - "msiquery/MsiSequence"
+f1_keywords:
+- msiquery/MsiSequence
 dev_langs:
- - c++
+- c++
 req.header: msiquery.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Msi.lib
 req.dll: Msi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Msi.dll
+- Msi.dll
 api_name:
- - MsiSequence
- - MsiSequenceA
- - MsiSequenceW
+- MsiSequence
+- MsiSequenceA
+- MsiSequenceW
 targetos: Windows
 req.typenames: 
 req.redist: 

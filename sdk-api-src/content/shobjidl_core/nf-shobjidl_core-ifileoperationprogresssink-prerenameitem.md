@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IFileOperationProgressSink.PreRenameItem
 title: IFileOperationProgressSink::PreRenameItem (shobjidl_core.h)
-
 description: Performs caller-implemented actions before the rename process for each item begins.
 old-location: shell\IFileOperationProgressSink_PreRenameItem.htm
 tech.root: shell
 ms.assetid: 444fe15b-cbed-46d8-ae25-ab6a569d18e0
-
 ms.date: 12/05/2018
 ms.keywords: IFileOperationProgressSink interface [Windows Shell],PreRenameItem method, IFileOperationProgressSink.PreRenameItem, IFileOperationProgressSink::PreRenameItem, PreRenameItem, PreRenameItem method [Windows Shell], PreRenameItem method [Windows Shell],IFileOperationProgressSink interface, _shell_IFileOperationProgressSink_PreRenameItem, shell.IFileOperationProgressSink_PreRenameItem, shobjidl_core/IFileOperationProgressSink::PreRenameItem
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IFileOperationProgressSink.PreRenameItem"
+f1_keywords:
+- shobjidl_core/IFileOperationProgressSink.PreRenameItem
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - IFileOperationProgressSink.PreRenameItem
+- IFileOperationProgressSink.PreRenameItem
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:sdoias.ISdoMachine.GetDomainType
 title: ISdoMachine::GetDomainType (sdoias.h)
-
 description: The GetDomainType retrieves the type of domain in which the SDO computer resides.
 old-location: nps\SDO_isdomachine_getdomaintype.htm
 tech.root: Nps
 ms.assetid: 9c22ec67-4a12-4487-bac5-8f0e666b8029
-
 ms.date: 12/05/2018
 ms.keywords: GetDomainType, GetDomainType method [Network Policy Server], GetDomainType method [Network Policy Server],ISdoMachine interface, GetDomainType method [Network Policy Server],SdoMachine object, ISdoMachine interface [Network Policy Server],GetDomainType method, ISdoMachine.GetDomainType, ISdoMachine::GetDomainType, SdoMachine object [Network Policy Server],GetDomainType method, _sdo_isdomachine_getdomaintype, nps.SDO_isdomachine_getdomaintype, sdo.isdomachine_getdomaintype, sdoias/ISdoMachine::GetDomainType
 ms.topic: method
-f1_keywords: 
- - "sdoias/ISdoMachine.GetDomainType"
+f1_keywords:
+- sdoias/ISdoMachine.GetDomainType
 dev_langs:
- - c++
+- c++
 req.header: sdoias.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: Iassdo.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Iassdo.dll
+- Iassdo.dll
 api_name:
- - ISdoMachine.GetDomainType
- - SdoMachine.GetDomainType
+- ISdoMachine.GetDomainType
+- SdoMachine.GetDomainType
 targetos: Windows
 req.typenames: 
 req.redist: 

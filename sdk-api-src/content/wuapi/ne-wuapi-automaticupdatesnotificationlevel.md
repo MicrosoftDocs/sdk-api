@@ -1,19 +1,17 @@
 ---
 UID: NE:wuapi.tagAutomaticUpdatesNotificationLevel
 title: AutomaticUpdatesNotificationLevel (wuapi.h)
-
 description: Defines the possible ways in which elevated users are notified about Automatic Updates events.
 old-location: wua\automaticupdatesnotificationlevel.htm
 tech.root: Wua_Sdk
 ms.assetid: a326400b-d6df-4947-8ab8-126d357834c3
-
 ms.date: 12/05/2018
 ms.keywords: AutomaticUpdatesNotificationLevel, AutomaticUpdatesNotificationLevel enumeration [Windows Update Agent], aunlDisabled, aunlNotConfigured, aunlNotifyBeforeDownload, aunlNotifyBeforeInstallation, aunlScheduledInstallation, wua.automaticupdatesnotificationlevel, wuapi/AutomaticUpdatesNotificationLevel, wuapi/aunlDisabled, wuapi/aunlNotConfigured, wuapi/aunlNotifyBeforeDownload, wuapi/aunlNotifyBeforeInstallation, wuapi/aunlScheduledInstallation
 ms.topic: enum
-f1_keywords: 
- - "wuapi/AutomaticUpdatesNotificationLevel"
+f1_keywords:
+- wuapi/AutomaticUpdatesNotificationLevel
 dev_langs:
- - c++
+- c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wuapi.h
+- Wuapi.h
 api_name:
- - AutomaticUpdatesNotificationLevel
+- AutomaticUpdatesNotificationLevel
 targetos: Windows
 req.typenames: AutomaticUpdatesNotificationLevel
 req.redist: 

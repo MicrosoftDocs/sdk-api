@@ -1,19 +1,17 @@
 ---
 UID: NF:usp10.ScriptTextOut
 title: ScriptTextOut function (usp10.h)
-
 description: Displays text for the specified script shape and place information.
 old-location: intl\scripttextout.htm
 tech.root: Intl
 ms.assetid: 8d69caeb-4c02-4a9f-9dd5-ac3c13561a57
-
 ms.date: 12/05/2018
 ms.keywords: ScriptTextOut, ScriptTextOut function [Internationalization for Windows Applications], _win32_ScriptTextOut, intl.scripttextout, usp10/ScriptTextOut
 ms.topic: function
-f1_keywords: 
- - "usp10/ScriptTextOut"
+f1_keywords:
+- usp10/ScriptTextOut
 dev_langs:
- - c++
+- c++
 req.header: usp10.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Usp10.lib
 req.dll: Usp10.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Usp10.dll
- - Ext-MS-Win-usp10-l1-1-0.dll
- - GDI32.dll
- - GDI32Full.dll
+- Usp10.dll
+- Ext-MS-Win-usp10-l1-1-0.dll
+- GDI32.dll
+- GDI32Full.dll
 api_name:
- - ScriptTextOut
+- ScriptTextOut
 targetos: Windows
 req.typenames: 
 req.redist: Internet Explorer 5 or later on Windows Me/98/95

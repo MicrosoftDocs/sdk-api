@@ -1,19 +1,17 @@
 ---
 UID: NF:xenroll.IEnroll2.GetSupportedKeySpec
 title: IEnroll2::GetSupportedKeySpec (xenroll.h)
-
 description: Retrieves information regarding the current cryptographic service provider (CSP) support for signature and/or exchange operations.
 old-location: security\ienroll4_getsupportedkeyspec.htm
 tech.root: SecCrypto
 ms.assetid: 8f7ace8e-0102-4c89-9d8a-e252ad60bb96
-
 ms.date: 12/05/2018
 ms.keywords: GetSupportedKeySpec, GetSupportedKeySpec method [Security], GetSupportedKeySpec method [Security],IEnroll2 interface, IEnroll2 interface [Security],GetSupportedKeySpec method, IEnroll2.GetSupportedKeySpec, IEnroll2::GetSupportedKeySpec, security.ienroll4_getsupportedkeyspec, xenroll/IEnroll2::GetSupportedKeySpec
 ms.topic: method
-f1_keywords: 
- - "xenroll/IEnroll2.GetSupportedKeySpec"
+f1_keywords:
+- xenroll/IEnroll2.GetSupportedKeySpec
 dev_langs:
- - c++
+- c++
 req.header: xenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Xenroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Xenroll.dll
+- Xenroll.dll
 api_name:
- - IEnroll2.GetSupportedKeySpec
+- IEnroll2.GetSupportedKeySpec
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NE:photoacquire.tagUSER_INPUT_STRING_TYPE
 title: USER_INPUT_STRING_TYPE (photoacquire.h)
-
 description: The USER_INPUT_STRING_TYPE enumeration type indicates the type of string to obtain from the user in IPhotoAcquireProgressCB::GetUserInput.
 old-location: picacq\user_input_string_type.htm
 tech.root: acquisition
 ms.assetid: ac05f51e-4762-4360-9c38-7baf84eeb1e9
-
 ms.date: 12/05/2018
 ms.keywords: USER_INPUT_DEFAULT, USER_INPUT_PATH_ELEMENT, USER_INPUT_STRING_TYPE, USER_INPUT_STRING_TYPE enumeration [Picture Acquisition], enumeration [Picture Acquisition], photoacquire/USER_INPUT_DEFAULT, photoacquire/USER_INPUT_PATH_ELEMENT, photoacquire/USER_INPUT_STRING_TYPE, picacq.user_input_string_type
 ms.topic: enum
-f1_keywords: 
- - "photoacquire/USER_INPUT_STRING_TYPE"
+f1_keywords:
+- photoacquire/USER_INPUT_STRING_TYPE
 dev_langs:
- - c++
+- c++
 req.header: photoacquire.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - PhotoAcquire.h
+- PhotoAcquire.h
 api_name:
- - USER_INPUT_STRING_TYPE
+- USER_INPUT_STRING_TYPE
 targetos: Windows
 req.typenames: USER_INPUT_STRING_TYPE
 req.redist: 

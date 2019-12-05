@@ -1,19 +1,17 @@
 ---
 UID: NS:mfobjects._MFVideoArea
 title: MFVideoArea (mfobjects.h)
-
 description: Specifies a rectangular area within a video frame.
 old-location: mf\mfvideoarea.htm
 tech.root: medfound
 ms.assetid: d22b8b9c-399b-4fce-a173-833005b5bf03
-
 ms.date: 12/05/2018
 ms.keywords: MFVideoArea, MFVideoArea structure [Media Foundation], d22b8b9c-399b-4fce-a173-833005b5bf03, mf.mfvideoarea, mfobjects/MFVideoArea
 ms.topic: struct
 f1_keywords:
 - mfobjects/MFVideoArea
 dev_langs:
- - c++
+- c++
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows

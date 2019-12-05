@@ -1,19 +1,17 @@
 ---
 UID: NF:objidl.IStorage.OpenStream
 title: IStorage::OpenStream (objidl.h)
-
 description: Opens an existing stream object within this storage object in the specified access mode.
 old-location: stg\istorage_openstream.htm
 tech.root: Stg
 ms.assetid: f7bd1f26-e9a3-415d-8cd3-dc34f7ad8feb
-
 ms.date: 12/05/2018
 ms.keywords: IStorage interface [Structured Storage],OpenStream method, IStorage.OpenStream, IStorage::OpenStream, OpenStream, OpenStream method [Structured Storage], OpenStream method [Structured Storage],IStorage interface, _stg_istorage_openstream, objidl/IStorage::OpenStream, stg.istorage_openstream
 ms.topic: method
-f1_keywords: 
- - "objidl/IStorage.OpenStream"
+f1_keywords:
+- objidl/IStorage.OpenStream
 dev_langs:
- - c++
+- c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Ole32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Ole32.dll
+- Ole32.dll
 api_name:
- - IStorage.OpenStream
+- IStorage.OpenStream
 targetos: Windows
 req.typenames: 
 req.redist: 

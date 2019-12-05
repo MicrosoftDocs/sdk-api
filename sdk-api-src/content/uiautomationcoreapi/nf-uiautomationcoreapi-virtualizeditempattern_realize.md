@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationcoreapi.VirtualizedItemPattern_Realize
 title: VirtualizedItemPattern_Realize function (uiautomationcoreapi.h)
-
 description: Makes the virtual item fully accessible as a UI Automation element.
 old-location: winauto\uiauto_VirtualizedItemPattern_Realize.htm
 tech.root: WinAuto
 ms.assetid: 2da859ce-68d2-41b5-8281-6b8346f992f9
-
 ms.date: 12/05/2018
 ms.keywords: VirtualizedItemPattern_Realize, VirtualizedItemPattern_Realize function [Windows Accessibility], uiauto.uiauto_VirtualizedItemPattern_Realize, uiauto_VirtualizedItemPattern_Realize, uiautomationcoreapi/VirtualizedItemPattern_Realize, winauto.uiauto_VirtualizedItemPattern_Realize
 ms.topic: function
-f1_keywords: 
- - "uiautomationcoreapi/VirtualizedItemPattern_Realize"
+f1_keywords:
+- uiautomationcoreapi/VirtualizedItemPattern_Realize
 dev_langs:
- - c++
+- c++
 req.header: uiautomationcoreapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uiautomationcore.lib
 req.dll: Uiautomationcore.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Uiautomationcore.dll
+- Uiautomationcore.dll
 api_name:
- - VirtualizedItemPattern_Realize
+- VirtualizedItemPattern_Realize
 targetos: Windows
 req.typenames: 
 req.redist: 

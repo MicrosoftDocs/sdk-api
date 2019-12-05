@@ -1,19 +1,17 @@
 ---
 UID: NF:winsxs.IAssemblyName.Finalize
 title: IAssemblyName::Finalize (winsxs.h)
-
 description: The Finalize method prevents a side-by-side assembly name from being changed. After Finalize is called, additional calls to the SetProperty returns E_UNEXPECTED.
 old-location: setup\iassemblyname_finalize.htm
 tech.root: SbsCs
 ms.assetid: 9930826e-3082-4ad3-991e-13cf426983a4
-
 ms.date: 12/05/2018
 ms.keywords: Finalize, Finalize method [Side-by-side Assemblies], Finalize method [Side-by-side Assemblies],IAssemblyName interface, IAssemblyName interface [Side-by-side Assemblies],Finalize method, IAssemblyName.Finalize, IAssemblyName::Finalize, setup.iassemblyname_finalize, winsxs/IAssemblyName::Finalize
 ms.topic: method
-f1_keywords: 
- - "winsxs/IAssemblyName.Finalize"
+f1_keywords:
+- winsxs/IAssemblyName.Finalize
 dev_langs:
- - c++
+- c++
 req.header: winsxs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Sxs.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - sxs.dll
+- sxs.dll
 api_name:
- - IAssemblyName.Finalize
+- IAssemblyName.Finalize
 targetos: Windows
 req.typenames: 
 req.redist: 

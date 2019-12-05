@@ -1,19 +1,17 @@
 ---
 UID: NE:d2d1.D2D1_WINDOW_STATE
 title: D2D1_WINDOW_STATE (d2d1.h)
-
 description: Describes whether a window is occluded.
 old-location: direct2d\D2D1_WINDOW_STATE.htm
 tech.root: Direct2D
 ms.assetid: 79d3a903-f29e-4d0d-9918-85fbfc846517
-
 ms.date: 12/05/2018
 ms.keywords: D2D1_WINDOW_STATE, D2D1_WINDOW_STATE enumeration [Direct2D], D2D1_WINDOW_STATE_NONE, D2D1_WINDOW_STATE_OCCLUDED, d2d1/D2D1_WINDOW_STATE, d2d1/D2D1_WINDOW_STATE_NONE, d2d1/D2D1_WINDOW_STATE_OCCLUDED, direct2d.D2D1_WINDOW_STATE
 ms.topic: enum
-f1_keywords: 
- - "d2d1/D2D1_WINDOW_STATE"
+f1_keywords:
+- d2d1/D2D1_WINDOW_STATE
 dev_langs:
- - c++
+- c++
 req.header: d2d1.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - d2d1.h
+- d2d1.h
 api_name:
- - D2D1_WINDOW_STATE
+- D2D1_WINDOW_STATE
 targetos: Windows
 req.typenames: D2D1_WINDOW_STATE
 req.redist: 

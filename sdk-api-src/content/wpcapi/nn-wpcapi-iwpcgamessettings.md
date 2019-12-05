@@ -1,19 +1,17 @@
 ---
 UID: NN:wpcapi.IWPCGamesSettings
 title: IWPCGamesSettings (wpcapi.h)
-
 description: Accesses games settings for the user.
 old-location: parcon\iwpcgamessettings.htm
 tech.root: parcon
 ms.assetid: 7509d9ef-d437-406a-8de6-39733499ca0a
-
 ms.date: 12/05/2018
 ms.keywords: IWPCGamesSettings, IWPCGamesSettings interface, IWPCGamesSettings interface,described, parcon.iwpcgamessettings, wpcapi/IWPCGamesSettings
 ms.topic: interface
-f1_keywords: 
- - "wpcapi/IWPCGamesSettings"
+f1_keywords:
+- wpcapi/IWPCGamesSettings
 dev_langs:
- - c++
+- c++
 req.header: wpcapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wpcapi.h
+- Wpcapi.h
 api_name:
- - IWPCGamesSettings
+- IWPCGamesSettings
 targetos: Windows
 req.typenames: 
 req.redist: 

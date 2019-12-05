@@ -1,19 +1,17 @@
 ---
 UID: NS:winioctl._STORAGE_OFFLOAD_WRITE_OUTPUT
 title: STORAGE_OFFLOAD_WRITE_OUTPUT
-
 description: Output structure for the DeviceDsmAction_OffloadWrite action of the IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES control code.
 old-location: base\storage_offload_write_output.htm
 tech.root: devio
 ms.assetid: 9da3ac28-93fd-45b7-9ebe-1436593bf591
-
 ms.date: 12/05/2018
-ms.keywords: "*PSTORAGE_OFFLOAD_WRITE_OUTPUT, PSTORAGE_OFFLOAD_WRITE_OUTPUT, PSTORAGE_OFFLOAD_WRITE_OUTPUT structure pointer, STORAGE_OFFLOAD_TOKEN_INVALID, STORAGE_OFFLOAD_WRITE_OUTPUT, STORAGE_OFFLOAD_WRITE_OUTPUT structure, STORAGE_OFFLOAD_WRITE_RANGE_TRUNCATED, base.storage_offload_write_output, winioctl/PSTORAGE_OFFLOAD_WRITE_OUTPUT, winioctl/STORAGE_OFFLOAD_WRITE_OUTPUT"
+ms.keywords: '*PSTORAGE_OFFLOAD_WRITE_OUTPUT, PSTORAGE_OFFLOAD_WRITE_OUTPUT, PSTORAGE_OFFLOAD_WRITE_OUTPUT structure pointer, STORAGE_OFFLOAD_TOKEN_INVALID, STORAGE_OFFLOAD_WRITE_OUTPUT, STORAGE_OFFLOAD_WRITE_OUTPUT structure, STORAGE_OFFLOAD_WRITE_RANGE_TRUNCATED, base.storage_offload_write_output, winioctl/PSTORAGE_OFFLOAD_WRITE_OUTPUT, winioctl/STORAGE_OFFLOAD_WRITE_OUTPUT'
 ms.topic: struct
-f1_keywords: 
- - "winioctl/STORAGE_OFFLOAD_WRITE_OUTPUT"
+f1_keywords:
+- winioctl/STORAGE_OFFLOAD_WRITE_OUTPUT
 dev_langs:
- - c++
+- c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WinIoCtl.h
+- WinIoCtl.h
 api_name:
- - STORAGE_OFFLOAD_WRITE_OUTPUT
+- STORAGE_OFFLOAD_WRITE_OUTPUT
 targetos: Windows
 req.typenames: STORAGE_OFFLOAD_WRITE_OUTPUT, *PSTORAGE_OFFLOAD_WRITE_OUTPUT
 req.redist: 

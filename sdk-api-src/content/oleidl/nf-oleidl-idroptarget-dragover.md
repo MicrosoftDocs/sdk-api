@@ -1,19 +1,17 @@
 ---
 UID: NF:oleidl.IDropTarget.DragOver
 title: IDropTarget::DragOver (oleidl.h)
-
 description: Provides target feedback to the user and communicates the drop's effect to the DoDragDrop function so it can communicate the effect of the drop back to the source.
 old-location: com\idroptarget_dragover.htm
 tech.root: com
 ms.assetid: 31bb71dd-eed7-48f9-9f6c-f5d7f9d4118e
-
 ms.date: 12/05/2018
 ms.keywords: DragOver, DragOver method [COM], DragOver method [COM],IDropTarget interface, IDropTarget interface [COM],DragOver method, IDropTarget.DragOver, IDropTarget::DragOver, _ole_idroptarget_dragover, com.idroptarget_dragover, oleidl/IDropTarget::DragOver
 ms.topic: method
-f1_keywords: 
- - "oleidl/IDropTarget.DragOver"
+f1_keywords:
+- oleidl/IDropTarget.DragOver
 dev_langs:
- - c++
+- c++
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - OleIdl.h
+- OleIdl.h
 api_name:
- - IDropTarget.DragOver
+- IDropTarget.DragOver
 targetos: Windows
 req.typenames: 
 req.redist: 

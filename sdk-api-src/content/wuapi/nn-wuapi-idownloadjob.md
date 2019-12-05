@@ -1,19 +1,17 @@
 ---
 UID: NN:wuapi.IDownloadJob
 title: IDownloadJob (wuapi.h)
-
 description: Contains properties and methods that are available to a download operation.
 old-location: wua\idownloadjob.htm
 tech.root: Wua_Sdk
 ms.assetid: 0157acab-53b6-43f9-a358-81cd5108c531
-
 ms.date: 12/05/2018
 ms.keywords: IDownloadJob, IDownloadJob interface [Windows Update Agent], IDownloadJob interface [Windows Update Agent],described, wua.idownloadjob, wuapi/IDownloadJob
 ms.topic: interface
-f1_keywords: 
- - "wuapi/IDownloadJob"
+f1_keywords:
+- wuapi/IDownloadJob
 dev_langs:
- - c++
+- c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Wuguid.lib
 req.dll: Wuapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wuapi.dll
+- Wuapi.dll
 api_name:
- - IDownloadJob
+- IDownloadJob
 targetos: Windows
 req.typenames: 
 req.redist: 

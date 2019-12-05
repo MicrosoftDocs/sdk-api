@@ -1,19 +1,17 @@
 ---
 UID: NF:mfidl.IMFContentDecryptorContext.InitializeHardwareKey
 title: IMFContentDecryptorContext::InitializeHardwareKey (mfidl.h)
-
 description: Allows the display driver to return IHV-specific information used when initializing a new hardware key.
 old-location: mf\imfcontentdecryptorcontext_initializehardwarekey.htm
 tech.root: medfound
 ms.assetid: E1F12329-9BA5-4765-8C4A-1678C5F9E5F8
-
 ms.date: 12/05/2018
 ms.keywords: IMFContentDecryptorContext interface [Media Foundation],InitializeHardwareKey method, IMFContentDecryptorContext.InitializeHardwareKey, IMFContentDecryptorContext::InitializeHardwareKey, InitializeHardwareKey, InitializeHardwareKey method [Media Foundation], InitializeHardwareKey method [Media Foundation],IMFContentDecryptorContext interface, mf.imfcontentdecryptorcontext_initializehardwarekey, mfidl/IMFContentDecryptorContext::InitializeHardwareKey
 ms.topic: method
-f1_keywords: 
- - "mfidl/IMFContentDecryptorContext.InitializeHardwareKey"
+f1_keywords:
+- mfidl/IMFContentDecryptorContext.InitializeHardwareKey
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Mfplat.lib
 req.dll: Mfplat.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfplat.dll
+- mfplat.dll
 api_name:
- - IMFContentDecryptorContext.InitializeHardwareKey
+- IMFContentDecryptorContext.InitializeHardwareKey
 targetos: Windows
 req.typenames: 
 req.redist: 

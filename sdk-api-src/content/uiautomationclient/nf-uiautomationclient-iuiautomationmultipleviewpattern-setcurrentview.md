@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationMultipleViewPattern.SetCurrentView
 title: IUIAutomationMultipleViewPattern::SetCurrentView (uiautomationclient.h)
-
 description: Sets the view of the control.
 old-location: winauto\uiauto_IUIAutomationMultipleViewPattern_SetCurrentView.htm
 tech.root: WinAuto
 ms.assetid: 43da5f4a-e6ce-4cc3-8981-85189d5e5158
-
 ms.date: 12/05/2018
 ms.keywords: IUIAutomationMultipleViewPattern interface [Windows Accessibility],SetCurrentView method, IUIAutomationMultipleViewPattern.SetCurrentView, IUIAutomationMultipleViewPattern::SetCurrentView, SetCurrentView, SetCurrentView method [Windows Accessibility], SetCurrentView method [Windows Accessibility],IUIAutomationMultipleViewPattern interface, uiauto.uiauto_IUIAutomationMultipleViewPattern_SetCurrentView, uiauto_IUIAutomationMultipleViewPattern_SetCurrentView, uiautomationclient/IUIAutomationMultipleViewPattern::SetCurrentView, winauto.uiauto_IUIAutomationMultipleViewPattern_SetCurrentView
 ms.topic: method
-f1_keywords: 
- - "uiautomationclient/IUIAutomationMultipleViewPattern.SetCurrentView"
+f1_keywords:
+- uiautomationclient/IUIAutomationMultipleViewPattern.SetCurrentView
 dev_langs:
- - c++
+- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationClient.h
+- UIAutomationClient.h
 api_name:
- - IUIAutomationMultipleViewPattern.SetCurrentView
+- IUIAutomationMultipleViewPattern.SetCurrentView
 targetos: Windows
 req.typenames: 
 req.redist: 

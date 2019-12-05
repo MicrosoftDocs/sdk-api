@@ -1,19 +1,17 @@
 ---
 UID: NE:combaseapi.AgileReferenceOptions
 title: AgileReferenceOptions (combaseapi.h)
-
 description: Specifies options for the RoGetAgileReference function.
 old-location: winrt\agilereferenceoptions.htm
 tech.root: WinRT
 ms.assetid: F46FD597-F278-4DA8-BC94-26836684AD7E
-
 ms.date: 12/05/2018
 ms.keywords: AGILEREFERENCE_DEFAULT, AGILEREFERENCE_DELAYEDMARSHAL, AgileReferenceOptions, AgileReferenceOptions enumeration [Windows Runtime], combaseapi/AGILEREFERENCE_DEFAULT, combaseapi/AGILEREFERENCE_DELAYEDMARSHAL, combaseapi/AgileReferenceOptions, winrt.agilereferenceoptions
 ms.topic: enum
-f1_keywords: 
- - "combaseapi/AgileReferenceOptions"
+f1_keywords:
+- combaseapi/AgileReferenceOptions
 dev_langs:
- - c++
+- c++
 req.header: combaseapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - combaseapi.h
+- combaseapi.h
 api_name:
- - AgileReferenceOptions
+- AgileReferenceOptions
 targetos: Windows
 req.typenames: 
 req.redist: 

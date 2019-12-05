@@ -1,19 +1,17 @@
 ---
 UID: NF:tuner.IESEvent.SetCompletionStatus
 title: IESEvent::SetCompletionStatus (tuner.h)
-
 description: Sets the completion status for an event that is derived from the IESEvent interface.
 old-location: mstv\iesevent_setcompletionstatus.htm
 tech.root: mstv
 ms.assetid: 2e8d5a94-6fa1-453b-bbd4-396d60bb2aa0
-
 ms.date: 12/05/2018
 ms.keywords: IESEvent interface [Microsoft TV Technologies],SetCompletionStatus method, IESEvent.SetCompletionStatus, IESEvent::SetCompletionStatus, SetCompletionStatus, SetCompletionStatus method [Microsoft TV Technologies], SetCompletionStatus method [Microsoft TV Technologies],IESEvent interface, mstv.iesevent_setcompletionstatus, tuner/IESEvent::SetCompletionStatus
 ms.topic: method
-f1_keywords: 
- - "tuner/IESEvent.SetCompletionStatus"
+f1_keywords:
+- tuner/IESEvent.SetCompletionStatus
 dev_langs:
- - c++
+- c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - tuner.h
+- tuner.h
 api_name:
- - IESEvent.SetCompletionStatus
+- IESEvent.SetCompletionStatus
 targetos: Windows
 req.typenames: 
 req.redist: 

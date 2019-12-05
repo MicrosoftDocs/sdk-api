@@ -1,19 +1,17 @@
 ---
 UID: NS:virtdisk._APPLY_SNAPSHOT_VHDSET_PARAMETERS
 title: APPLY_SNAPSHOT_VHDSET_PARAMETERS (virtdisk.h)
-
 description: Contains snapshot parameters, indicating information about the new snapshot to be applied.
 old-location: vhd\apply_snapshot_vhdset_parameters.htm
 tech.root: VStor
 ms.assetid: 0C3A8097-0630-412E-AF23-144E3D98D292
-
 ms.date: 12/05/2018
-ms.keywords: "*PAPPLY_SNAPSHOT_VHDSET_PARAMETERS, APPLY_SNAPSHOT_VHDSET_PARAMETERS, APPLY_SNAPSHOT_VHDSET_PARAMETERS structure [VHD], PAPPLY_SNAPSHOT_VHDSET_PARAMETERS, PAPPLY_SNAPSHOT_VHDSET_PARAMETERS structure pointer [VHD], _APPLY_SNAPSHOT_VHDSET_PARAMETERS, vdssys/APPLY_SNAPSHOT_VHDSET_PARAMETERS, vdssys/PAPPLY_SNAPSHOT_VHDSET_PARAMETERS, vhd.apply_snapshot_vhdset_parameters, virtdisk/APPLY_SNAPSHOT_VHDSET_PARAMETERS, virtdisk/PAPPLY_SNAPSHOT_VHDSET_PARAMETERS"
+ms.keywords: '*PAPPLY_SNAPSHOT_VHDSET_PARAMETERS, APPLY_SNAPSHOT_VHDSET_PARAMETERS, APPLY_SNAPSHOT_VHDSET_PARAMETERS structure [VHD], PAPPLY_SNAPSHOT_VHDSET_PARAMETERS, PAPPLY_SNAPSHOT_VHDSET_PARAMETERS structure pointer [VHD], _APPLY_SNAPSHOT_VHDSET_PARAMETERS, vdssys/APPLY_SNAPSHOT_VHDSET_PARAMETERS, vdssys/PAPPLY_SNAPSHOT_VHDSET_PARAMETERS, vhd.apply_snapshot_vhdset_parameters, virtdisk/APPLY_SNAPSHOT_VHDSET_PARAMETERS, virtdisk/PAPPLY_SNAPSHOT_VHDSET_PARAMETERS'
 ms.topic: struct
-f1_keywords: 
- - "virtdisk/APPLY_SNAPSHOT_VHDSET_PARAMETERS"
+f1_keywords:
+- virtdisk/APPLY_SNAPSHOT_VHDSET_PARAMETERS
 dev_langs:
- - c++
+- c++
 req.header: virtdisk.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - VirtDisk.h
- - vdssys.h
+- VirtDisk.h
+- vdssys.h
 api_name:
- - APPLY_SNAPSHOT_VHDSET_PARAMETERS
+- APPLY_SNAPSHOT_VHDSET_PARAMETERS
 targetos: Windows
 req.typenames: APPLY_SNAPSHOT_VHDSET_PARAMETERS, *PAPPLY_SNAPSHOT_VHDSET_PARAMETERS
 req.redist: 

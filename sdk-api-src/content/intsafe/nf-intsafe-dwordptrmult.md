@@ -1,19 +1,17 @@
 ---
 UID: NF:intsafe.DWordPtrMult
 title: DWordPtrMult function (intsafe.h)
-
 description: Multiplies one value of type DWORD_PTR by another.
 old-location: shell\DWordPtrMult.htm
 tech.root: shell
 ms.assetid: 9f5beb13-17cd-44ef-a352-843d51304ab6
-
 ms.date: 12/05/2018
 ms.keywords: DWordPtrMult, DWordPtrMult function [Windows Shell], _shell_DWordPtrMult, intsafe/DWordPtrMult, shell.DWordPtrMult
 ms.topic: function
-f1_keywords: 
- - "intsafe/DWordPtrMult"
+f1_keywords:
+- intsafe/DWordPtrMult
 dev_langs:
- - c++
+- c++
 req.header: intsafe.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: None
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - None
+- None
 api_name:
- - DWordPtrMult
+- DWordPtrMult
 targetos: Windows
 req.typenames: 
 req.redist: 

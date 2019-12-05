@@ -1,19 +1,17 @@
 ---
 UID: NF:wuapi.IUpdateInstaller.RunWizard
 title: IUpdateInstaller::RunWizard (wuapi.h)
-
 description: Starts a wizard that guides the local user through the steps to install the updates.
 old-location: wua\iupdateinstaller_runwizard.htm
 tech.root: Wua_Sdk
 ms.assetid: 006d95ab-45bc-4110-abd9-e39de58b8a4c
-
 ms.date: 12/05/2018
 ms.keywords: IUpdateInstaller interface [Windows Update Agent],RunWizard method, IUpdateInstaller.RunWizard, IUpdateInstaller::RunWizard, RunWizard, RunWizard method [Windows Update Agent], RunWizard method [Windows Update Agent],IUpdateInstaller interface, wua.iupdateinstaller_runwizard, wuapi/IUpdateInstaller::RunWizard
 ms.topic: method
-f1_keywords: 
- - "wuapi/IUpdateInstaller.RunWizard"
+f1_keywords:
+- wuapi/IUpdateInstaller.RunWizard
 dev_langs:
- - c++
+- c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Wuguid.lib
 req.dll: Wuapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wuapi.dll
+- Wuapi.dll
 api_name:
- - IUpdateInstaller.RunWizard
+- IUpdateInstaller.RunWizard
 targetos: Windows
 req.typenames: 
 req.redist: 

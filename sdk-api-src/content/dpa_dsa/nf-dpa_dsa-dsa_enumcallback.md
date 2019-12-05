@@ -1,19 +1,17 @@
 ---
 UID: NF:dpa_dsa.DSA_EnumCallback
 title: DSA_EnumCallback function (dpa_dsa.h)
-
 description: Iterates through the dynamic structure array (DSA) and calls pfnCB on each item.
 old-location: controls\DSA_EnumCallback.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\common\functions\dsa_enumcallback.htm
-
 ms.date: 12/05/2018
 ms.keywords: DSA_EnumCallback, DSA_EnumCallback function [Windows Controls], _shell_DSA_EnumCallback, _shell_DSA_EnumCallback_cpp, controls.DSA_EnumCallback, controls._shell_DSA_EnumCallback, dpa_dsa/DSA_EnumCallback
 ms.topic: function
-f1_keywords: 
- - "dpa_dsa/DSA_EnumCallback"
+f1_keywords:
+- dpa_dsa/DSA_EnumCallback
 dev_langs:
- - c++
+- c++
 req.header: dpa_dsa.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Comctl32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Comctl32.dll
+- Comctl32.dll
 api_name:
- - DSA_EnumCallback
+- DSA_EnumCallback
 targetos: Windows
 req.typenames: 
 req.redist: 

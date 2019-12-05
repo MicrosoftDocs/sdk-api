@@ -1,19 +1,17 @@
 ---
 UID: NF:winsync.ISyncSessionState.GetInfoForChangeApplication
 title: ISyncSessionState::GetInfoForChangeApplication (winsync.h)
-
 description: Retrieves stored data for a serialized change applier.
 old-location: winsync\isyncsessionstate_getinfoforchangeapplication.htm
 tech.root: winsync
 ms.assetid: 88f7f8f7-468f-4d9d-9593-0d3f92cb458f
-
 ms.date: 12/05/2018
 ms.keywords: GetInfoForChangeApplication, GetInfoForChangeApplication method [Windows Sync], GetInfoForChangeApplication method [Windows Sync],ISyncSessionState interface, ISyncSessionState interface [Windows Sync],GetInfoForChangeApplication method, ISyncSessionState.GetInfoForChangeApplication, ISyncSessionState::GetInfoForChangeApplication, winsync.isyncsessionstate_getinfoforchangeapplication, winsync/ISyncSessionState::GetInfoForChangeApplication
 ms.topic: method
-f1_keywords: 
- - "winsync/ISyncSessionState.GetInfoForChangeApplication"
+f1_keywords:
+- winsync/ISyncSessionState.GetInfoForChangeApplication
 dev_langs:
- - c++
+- c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - winsync.h
+- winsync.h
 api_name:
- - ISyncSessionState.GetInfoForChangeApplication
+- ISyncSessionState.GetInfoForChangeApplication
 targetos: Windows
 req.typenames: 
 req.redist: 

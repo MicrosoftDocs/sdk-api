@@ -1,19 +1,17 @@
 ---
 UID: NN:windowsstoragecom.IUnbufferedFileHandleOplockCallback
 title: IUnbufferedFileHandleOplockCallback (windowsstoragecom.h)
-
 description: Defines a callback method that you want to run when the opportunistic lock for a handle that you get by calling the IUnbufferedFileHandleProvider::OpenUnbufferedFileHandle method is broken.
 old-location: winrt\iunbufferedfilehandleoplockcallback.htm
 tech.root: WinRT
 ms.assetid: 7418EDE0-D9E1-4D8C-84B0-CAE9BDF053E3
-
 ms.date: 12/05/2018
 ms.keywords: IUnbufferedFileHandleOplockCallback, IUnbufferedFileHandleOplockCallback interface [Windows Runtime], IUnbufferedFileHandleOplockCallback interface [Windows Runtime],described, windowsstoragecom/IUnbufferedFileHandleOplockCallback, winrt.iunbufferedfilehandleoplockcallback
 ms.topic: interface
-f1_keywords: 
- - "windowsstoragecom/IUnbufferedFileHandleOplockCallback"
+f1_keywords:
+- windowsstoragecom/IUnbufferedFileHandleOplockCallback
 dev_langs:
- - c++
+- c++
 req.header: windowsstoragecom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Windows.storage.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - windows.storage.dll
+- windows.storage.dll
 api_name:
- - IUnbufferedFileHandleOplockCallback
+- IUnbufferedFileHandleOplockCallback
 targetos: Windows
 req.typenames: 
 req.redist: 

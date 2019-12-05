@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationGridItemPattern.get_CachedColumnSpan
 title: IUIAutomationGridItemPattern::get_CachedColumnSpan (uiautomationclient.h)
-
 description: Retrieves the cached number of columns spanned by the grid item.
 old-location: winauto\uiauto_IUIAutomationGridItemPattern_CachedColumnSpan.htm
 tech.root: WinAuto
 ms.assetid: 1a13798b-81de-43d1-87ee-b3d8406fcc80
-
 ms.date: 12/05/2018
 ms.keywords: CachedColumnSpan property [Windows Accessibility], CachedColumnSpan property [Windows Accessibility],IUIAutomationGridItemPattern interface, IUIAutomationGridItemPattern interface [Windows Accessibility],CachedColumnSpan property, IUIAutomationGridItemPattern.CachedColumnSpan, IUIAutomationGridItemPattern.get_CachedColumnSpan, IUIAutomationGridItemPattern::CachedColumnSpan, IUIAutomationGridItemPattern::get_CachedColumnSpan, get_CachedColumnSpan, uiauto.uiauto_IUIAutomationGridItemPattern_CachedColumnSpan, uiauto_IUIAutomationGridItemPattern_CachedColumnSpan, uiautomationclient/IUIAutomationGridItemPattern::CachedColumnSpan, uiautomationclient/IUIAutomationGridItemPattern::get_CachedColumnSpan, winauto.uiauto_IUIAutomationGridItemPattern_CachedColumnSpan
 ms.topic: method
-f1_keywords: 
- - "uiautomationclient/IUIAutomationGridItemPattern.CachedColumnSpan"
+f1_keywords:
+- uiautomationclient/IUIAutomationGridItemPattern.CachedColumnSpan
 dev_langs:
- - c++
+- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationClient.h
+- UIAutomationClient.h
 api_name:
- - IUIAutomationGridItemPattern.CachedColumnSpan
- - IUIAutomationGridItemPattern.get_CachedColumnSpan
+- IUIAutomationGridItemPattern.CachedColumnSpan
+- IUIAutomationGridItemPattern.get_CachedColumnSpan
 targetos: Windows
 req.typenames: 
 req.redist: 

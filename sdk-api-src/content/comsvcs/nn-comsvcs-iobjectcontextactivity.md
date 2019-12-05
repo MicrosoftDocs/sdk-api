@@ -1,19 +1,17 @@
 ---
 UID: NN:comsvcs.IObjectContextActivity
 title: IObjectContextActivity (comsvcs.h)
-
 description: Retrieves the activity identifier associated with the current object context.
 old-location: cos\iobjectcontextactivity.htm
 tech.root: cossdk
 ms.assetid: b3cdd835-60fd-414c-9b60-b15c07b11f34
-
 ms.date: 12/05/2018
 ms.keywords: IObjectContextActivity, IObjectContextActivity interface [COM+], IObjectContextActivity interface [COM+],described, _cos_IObjectContextActivity, comsvcs/IObjectContextActivity, cos.iobjectcontextactivity
 ms.topic: interface
-f1_keywords: 
- - "comsvcs/IObjectContextActivity"
+f1_keywords:
+- comsvcs/IObjectContextActivity
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - IObjectContextActivity
+- IObjectContextActivity
 targetos: Windows
 req.typenames: 
 req.redist: 

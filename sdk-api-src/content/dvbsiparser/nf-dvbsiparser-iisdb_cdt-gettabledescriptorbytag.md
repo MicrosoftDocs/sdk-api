@@ -1,19 +1,17 @@
 ---
 UID: NF:dvbsiparser.IISDB_CDT.GetTableDescriptorByTag
 title: IISDB_CDT::GetTableDescriptorByTag (dvbsiparser.h)
-
 description: Searches a subtable in an Integrated Services Digital Broadcasting (ISDB) common data table (CDT).
 old-location: mstv\iisdb_cdt_gettabledescriptorbytag.htm
 tech.root: mstv
 ms.assetid: c06f9d03-a46a-4c3f-bacc-a78f79c411c3
-
 ms.date: 12/05/2018
 ms.keywords: GetTableDescriptorByTag, GetTableDescriptorByTag method [Microsoft TV Technologies], GetTableDescriptorByTag method [Microsoft TV Technologies],IISDB_CDT interface, IISDB_CDT interface [Microsoft TV Technologies],GetTableDescriptorByTag method, IISDB_CDT.GetTableDescriptorByTag, IISDB_CDT::GetTableDescriptorByTag, dvbsiparser/IISDB_CDT::GetTableDescriptorByTag, mstv.iisdb_cdt_gettabledescriptorbytag
 ms.topic: method
-f1_keywords: 
- - "dvbsiparser/IISDB_CDT.GetTableDescriptorByTag"
+f1_keywords:
+- dvbsiparser/IISDB_CDT.GetTableDescriptorByTag
 dev_langs:
- - c++
+- c++
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dvbsiparser.h
+- dvbsiparser.h
 api_name:
- - IISDB_CDT.GetTableDescriptorByTag
+- IISDB_CDT.GetTableDescriptorByTag
 targetos: Windows
 req.typenames: 
 req.redist: 

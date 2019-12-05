@@ -1,19 +1,17 @@
 ---
 UID: NF:wuapi.IUpdateSearcher.EscapeString
 title: IUpdateSearcher::EscapeString (wuapi.h)
-
 description: Converts a string into a string that can be used as a literal value in a search criteria string.
 old-location: wua\iupdatesearcherescapestring.htm
 tech.root: Wua_Sdk
 ms.assetid: 27d510da-3d0c-4a8a-89c9-4abc009489b4
-
 ms.date: 12/05/2018
 ms.keywords: EscapeString, EscapeString method [Windows Update Agent], EscapeString method [Windows Update Agent],IUpdateSearcher interface, IUpdateSearcher interface [Windows Update Agent],EscapeString method, IUpdateSearcher.EscapeString, IUpdateSearcher::EscapeString, wua.iupdatesearcherescapestring, wuapi/IUpdateSearcher::EscapeString
 ms.topic: method
-f1_keywords: 
- - "wuapi/IUpdateSearcher.EscapeString"
+f1_keywords:
+- wuapi/IUpdateSearcher.EscapeString
 dev_langs:
- - c++
+- c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Wuguid.lib
 req.dll: Wuapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wuapi.dll
+- Wuapi.dll
 api_name:
- - IUpdateSearcher.EscapeString
+- IUpdateSearcher.EscapeString
 targetos: Windows
 req.typenames: 
 req.redist: 

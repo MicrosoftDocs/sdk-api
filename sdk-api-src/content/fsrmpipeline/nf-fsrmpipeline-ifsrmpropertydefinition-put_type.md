@@ -1,19 +1,17 @@
 ---
 UID: NF:fsrmpipeline.IFsrmPropertyDefinition.put_Type
 title: IFsrmPropertyDefinition::put_Type (fsrmpipeline.h)
-
 description: The type of data that the property contains.
 old-location: fsrm\ifsrmpropertydefinition_type.htm
 tech.root: fsrm
 ms.assetid: 3e770876-05a3-4b8c-901d-84ee40112c2f
-
 ms.date: 12/05/2018
 ms.keywords: IFsrmPropertyDefinition interface [File Server Resource Manager],Type property, IFsrmPropertyDefinition.Type, IFsrmPropertyDefinition.put_Type, IFsrmPropertyDefinition::Type, IFsrmPropertyDefinition::get_Type, IFsrmPropertyDefinition::put_Type, Type property [File Server Resource Manager], Type property [File Server Resource Manager],IFsrmPropertyDefinition interface, fs.ifsrmpropertydefinition_type, fsrm.ifsrmpropertydefinition_type, fsrmpipeline/IFsrmPropertyDefinition::Type, fsrmpipeline/IFsrmPropertyDefinition::get_Type, fsrmpipeline/IFsrmPropertyDefinition::put_Type, put_Type
 ms.topic: method
-f1_keywords: 
- - "fsrmpipeline/IFsrmPropertyDefinition.Type"
+f1_keywords:
+- fsrmpipeline/IFsrmPropertyDefinition.Type
 dev_langs:
- - c++
+- c++
 req.header: fsrmpipeline.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: SrmSvc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - SrmSvc.dll
+- SrmSvc.dll
 api_name:
- - IFsrmPropertyDefinition.Type
- - IFsrmPropertyDefinition.get_Type
- - IFsrmPropertyDefinition.put_Type
+- IFsrmPropertyDefinition.Type
+- IFsrmPropertyDefinition.get_Type
+- IFsrmPropertyDefinition.put_Type
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:objidl.IStorage.CreateStream
 title: IStorage::CreateStream (objidl.h)
-
 description: Creates and opens a stream object with the specified name contained in this storage object.
 old-location: stg\istorage_createstream.htm
 tech.root: Stg
 ms.assetid: 168f5ac9-8a72-4356-82a4-de3a7ec72c05
-
 ms.date: 12/05/2018
 ms.keywords: CreateStream, CreateStream method [Structured Storage], CreateStream method [Structured Storage],IStorage interface, IStorage interface [Structured Storage],CreateStream method, IStorage.CreateStream, IStorage::CreateStream, _stg_istorage_createstream, objidl/IStorage::CreateStream, stg.istorage_createstream
 ms.topic: method
-f1_keywords: 
- - "objidl/IStorage.CreateStream"
+f1_keywords:
+- objidl/IStorage.CreateStream
 dev_langs:
- - c++
+- c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Ole32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Ole32.dll
+- Ole32.dll
 api_name:
- - IStorage.CreateStream
+- IStorage.CreateStream
 targetos: Windows
 req.typenames: 
 req.redist: 

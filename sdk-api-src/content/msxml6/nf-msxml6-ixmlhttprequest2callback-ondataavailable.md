@@ -1,19 +1,17 @@
 ---
 UID: NF:msxml6.IXMLHTTPRequest2Callback.OnDataAvailable
 title: IXMLHTTPRequest2Callback::OnDataAvailable (msxml6.h)
-
 description: Occurs when a client receives part of the HTTP response data from the server.
 old-location: ixhr2\ixmlhttprequest2callback_ondataavailable.htm
 tech.root: ixhr2
 ms.assetid: 068C3288-A872-43FA-BF1F-D7A3CD2E2203
-
 ms.date: 12/05/2018
 ms.keywords: IXMLHTTPRequest2Callback interface [XMLHttpRequest2],OnDataAvailable method, IXMLHTTPRequest2Callback.OnDataAvailable, IXMLHTTPRequest2Callback::OnDataAvailable, OnDataAvailable, OnDataAvailable method [XMLHttpRequest2], OnDataAvailable method [XMLHttpRequest2],IXMLHTTPRequest2Callback interface, ixhr2.ixmlhttprequest2callback_ondataavailable, msxml6/IXMLHTTPRequest2Callback::OnDataAvailable
 ms.topic: method
-f1_keywords: 
- - "msxml6/IXMLHTTPRequest2Callback.OnDataAvailable"
+f1_keywords:
+- msxml6/IXMLHTTPRequest2Callback.OnDataAvailable
 dev_langs:
- - c++
+- c++
 req.header: msxml6.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msxml6.h
+- msxml6.h
 api_name:
- - IXMLHTTPRequest2Callback.OnDataAvailable
+- IXMLHTTPRequest2Callback.OnDataAvailable
 targetos: Windows
 req.typenames: 
 req.redist: 

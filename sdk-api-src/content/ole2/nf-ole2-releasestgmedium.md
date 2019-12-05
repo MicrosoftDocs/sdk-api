@@ -1,19 +1,17 @@
 ---
 UID: NF:ole2.ReleaseStgMedium
 title: ReleaseStgMedium function (ole2.h)
-
 description: Frees the specified storage medium.
 old-location: com\releasestgmedium.htm
 tech.root: com
 ms.assetid: da7d7bcb-0b5b-4053-8f0e-ff311c424375
-
 ms.date: 12/05/2018
 ms.keywords: ReleaseStgMedium, ReleaseStgMedium function [COM], _ole_ReleaseStgMedium, com.releasestgmedium, ole2/ReleaseStgMedium
 ms.topic: function
-f1_keywords: 
- - "ole2/ReleaseStgMedium"
+f1_keywords:
+- ole2/ReleaseStgMedium
 dev_langs:
- - c++
+- c++
 req.header: ole2.h
 req.include-header: 
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib: Ole32.lib
 req.dll: Ole32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ole32.dll
- - API-MS-Win-OLE32-IE-l1-1-0.dll
- - ole32_wp.dll
- - Ext-MS-Win-Com-Ole32-L1-1-3.dll
- - Ext-MS-Win-Com-Ole32-L1-1-4.dll
+- Ole32.dll
+- API-MS-Win-OLE32-IE-l1-1-0.dll
+- ole32_wp.dll
+- Ext-MS-Win-Com-Ole32-L1-1-3.dll
+- Ext-MS-Win-Com-Ole32-L1-1-4.dll
 api_name:
- - ReleaseStgMedium
+- ReleaseStgMedium
 targetos: Windows
 req.typenames: 
 req.redist: 

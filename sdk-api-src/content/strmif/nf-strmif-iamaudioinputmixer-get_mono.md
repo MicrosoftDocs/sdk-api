@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IAMAudioInputMixer.get_Mono
 title: IAMAudioInputMixer::get_Mono (strmif.h)
-
 description: The get_Mono method queries whether all channels are combined into a mono signal.
 old-location: dshow\iamaudioinputmixer_get_mono.htm
 tech.root: DirectShow
 ms.assetid: 0c0ce59d-6083-4af2-856b-41a1c9d83295
-
 ms.date: 12/05/2018
 ms.keywords: IAMAudioInputMixer interface [DirectShow],get_Mono method, IAMAudioInputMixer.get_Mono, IAMAudioInputMixer::get_Mono, IAMAudioInputMixerget_Mono, dshow.iamaudioinputmixer_get_mono, get_Mono, get_Mono method [DirectShow], get_Mono method [DirectShow],IAMAudioInputMixer interface, strmif/IAMAudioInputMixer::get_Mono
 ms.topic: method
-f1_keywords: 
- - "strmif/IAMAudioInputMixer.get_Mono"
+f1_keywords:
+- strmif/IAMAudioInputMixer.get_Mono
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IAMAudioInputMixer.get_Mono
+- IAMAudioInputMixer.get_Mono
 targetos: Windows
 req.typenames: 
 req.redist: 

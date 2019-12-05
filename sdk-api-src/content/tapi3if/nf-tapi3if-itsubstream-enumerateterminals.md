@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi3if.ITSubStream.EnumerateTerminals
 title: ITSubStream::EnumerateTerminals (tapi3if.h)
-
 description: The EnumerateTerminals method enumerates terminals selected on the substream. Provided for C and C++ applications. Automation client applications such as Visual Basic must use the get_Terminals method.
 old-location: tapi3\itsubstream_enumerateterminals.htm
 tech.root: Tapi
 ms.assetid: bf5e1f7f-3820-433e-b71f-53798c202593
-
 ms.date: 12/05/2018
 ms.keywords: EnumerateTerminals, EnumerateTerminals method [TAPI 2.2], EnumerateTerminals method [TAPI 2.2],ITSubStream interface, ITSubStream interface [TAPI 2.2],EnumerateTerminals method, ITSubStream.EnumerateTerminals, ITSubStream::EnumerateTerminals, _tapi3_itsubstream_enumerateterminals, tapi3.itsubstream_enumerateterminals, tapi3if/ITSubStream::EnumerateTerminals
 ms.topic: method
-f1_keywords: 
- - "tapi3if/ITSubStream.EnumerateTerminals"
+f1_keywords:
+- tapi3if/ITSubStream.EnumerateTerminals
 dev_langs:
- - c++
+- c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - tapi3if.h
+- tapi3if.h
 api_name:
- - ITSubStream.EnumerateTerminals
+- ITSubStream.EnumerateTerminals
 targetos: Windows
 req.typenames: 
 req.redist: 

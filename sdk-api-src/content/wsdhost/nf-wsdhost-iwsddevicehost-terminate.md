@@ -1,19 +1,17 @@
 ---
 UID: NF:wsdhost.IWSDDeviceHost.Terminate
 title: IWSDDeviceHost::Terminate (wsdhost.h)
-
 description: Terminates the host and releases any attached services.
 old-location: ncd\iwsddevicehost_terminate.htm
 tech.root: WsdApi
 ms.assetid: 2a8df6fb-2834-44f4-9f25-454dcc2ff660
-
 ms.date: 12/05/2018
 ms.keywords: IWSDDeviceHost interface,Terminate method, IWSDDeviceHost.Terminate, IWSDDeviceHost::Terminate, Terminate, Terminate method, Terminate method,IWSDDeviceHost interface, ncd.iwsddevicehost_terminate, wsdhost/IWSDDeviceHost::Terminate
 ms.topic: method
-f1_keywords: 
- - "wsdhost/IWSDDeviceHost.Terminate"
+f1_keywords:
+- wsdhost/IWSDDeviceHost.Terminate
 dev_langs:
- - c++
+- c++
 req.header: wsdhost.h
 req.include-header: Wsdapi.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wsdapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wsdapi.dll
+- Wsdapi.dll
 api_name:
- - IWSDDeviceHost.Terminate
+- IWSDDeviceHost.Terminate
 targetos: Windows
 req.typenames: 
 req.redist: 

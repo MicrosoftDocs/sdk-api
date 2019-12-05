@@ -1,19 +1,17 @@
 ---
 UID: NF:segment.IMSVidDevice.put_Power
 title: IMSVidDevice::put_Power (segment.h)
-
 description: The put_Power method turns the device on or off.
 old-location: mstv\imsviddevice_put_power.htm
 tech.root: mstv
 ms.assetid: 6a0122a8-6015-4255-a7d6-ab72b4025bd6
-
 ms.date: 12/05/2018
 ms.keywords: IMSVidDevice interface [Microsoft TV Technologies],put_Power method, IMSVidDevice.put_Power, IMSVidDevice::put_Power, IMSVidDeviceput_Power, mstv.imsviddevice_put_power, put_Power, put_Power method [Microsoft TV Technologies], put_Power method [Microsoft TV Technologies],IMSVidDevice interface, segment/IMSVidDevice::put_Power
 ms.topic: method
-f1_keywords: 
- - "segment/IMSVidDevice.put_Power"
+f1_keywords:
+- segment/IMSVidDevice.put_Power
 dev_langs:
- - c++
+- c++
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - segment.h
+- segment.h
 api_name:
- - IMSVidDevice.put_Power
+- IMSVidDevice.put_Power
 targetos: Windows
 req.typenames: 
 req.redist: 

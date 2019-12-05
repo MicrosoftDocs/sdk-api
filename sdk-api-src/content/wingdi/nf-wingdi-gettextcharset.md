@@ -1,19 +1,17 @@
 ---
 UID: NF:wingdi.GetTextCharset
 title: GetTextCharset function (wingdi.h)
-
 description: Retrieves a character set identifier for the font that is currently selected into a specified device context.
 old-location: intl\gettextcharset.htm
 tech.root: Intl
 ms.assetid: 11040353-a2ea-42fe-aa89-3438ffc1fea6
-
 ms.date: 12/05/2018
 ms.keywords: GetTextCharset, GetTextCharset function [Internationalization for Windows Applications], _win32_GetTextCharset, intl.gettextcharset, wingdi/GetTextCharset
 ms.topic: function
-f1_keywords: 
- - "wingdi/GetTextCharset"
+f1_keywords:
+- wingdi/GetTextCharset
 dev_langs:
- - c++
+- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Gdi32.dll
- - Ext-MS-Win-GDI-Font-l1-1-2.dll
- - Ext-MS-Win-GDI-Font-L1-1-3.dll
- - GDI32Full.dll
+- Gdi32.dll
+- Ext-MS-Win-GDI-Font-l1-1-2.dll
+- Ext-MS-Win-GDI-Font-L1-1-3.dll
+- GDI32Full.dll
 api_name:
- - GetTextCharset
+- GetTextCharset
 targetos: Windows
 req.typenames: 
 req.redist: 

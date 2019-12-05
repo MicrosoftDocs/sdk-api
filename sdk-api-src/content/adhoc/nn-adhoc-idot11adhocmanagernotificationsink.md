@@ -1,19 +1,17 @@
 ---
 UID: NN:adhoc.IDot11AdHocManagerNotificationSink
 title: IDot11AdHocManagerNotificationSink (adhoc.h)
-
 description: Defines the notifications supported by the IDot11AdHocManager interface.
 old-location: nwifi\idot11adhocmanagernotificationsink.htm
 tech.root: NativeWiFi
 ms.assetid: a79931ad-deeb-4e46-a051-80a57fe5935c
-
 ms.date: 12/05/2018
 ms.keywords: IDot11AdHocManagerNotificationSink, IDot11AdHocManagerNotificationSink interface [NativeWIFI], IDot11AdHocManagerNotificationSink interface [NativeWIFI],described, adhoc/IDot11AdHocManagerNotificationSink, nwifi.idot11adhocmanagernotificationsink
 ms.topic: interface
-f1_keywords: 
- - "adhoc/IDot11AdHocManagerNotificationSink"
+f1_keywords:
+- adhoc/IDot11AdHocManagerNotificationSink
 dev_langs:
- - c++
+- c++
 req.header: adhoc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - adhoc.h
+- adhoc.h
 api_name:
- - IDot11AdHocManagerNotificationSink
+- IDot11AdHocManagerNotificationSink
 targetos: Windows
 req.typenames: 
 req.redist: 

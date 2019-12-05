@@ -1,19 +1,17 @@
 ---
 UID: NF:rpcndr.Ndr64AsyncClientCall
 title: Ndr64AsyncClientCall function (rpcndr.h)
-
 description: Ndr64AsyncClientCall is not intended to be directly called by applications.
 old-location: rpc\ndr64asyncclientcall.htm
 tech.root: Rpc
 ms.assetid: 0C2188A9-CEAA-487F-9385-48E9BF7773B9
-
 ms.date: 12/05/2018
 ms.keywords: Ndr64AsyncClientCall, Ndr64AsyncClientCall function [RPC], rpc.ndr64asyncclientcall, rpcndr/Ndr64AsyncClientCall
 ms.topic: function
-f1_keywords: 
- - "rpcndr/Ndr64AsyncClientCall"
+f1_keywords:
+- rpcndr/Ndr64AsyncClientCall
 dev_langs:
- - c++
+- c++
 req.header: rpcndr.h
 req.include-header: Rpc.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: RpcRT4.lib
 req.dll: RpcRT4.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - RpcRT4.dll
+- RpcRT4.dll
 api_name:
- - Ndr64AsyncClientCall
+- Ndr64AsyncClientCall
 targetos: Windows
 req.typenames: 
 req.redist: 

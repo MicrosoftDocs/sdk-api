@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IGraphBuilder.Connect
 title: IGraphBuilder::Connect (strmif.h)
-
 description: The Connect method connects the two pins, using intermediates if necessary.
 old-location: dshow\igraphbuilder_connect.htm
 tech.root: DirectShow
 ms.assetid: 8ddcbb73-8220-4d70-9ab3-58d99fa8a958
-
 ms.date: 12/05/2018
 ms.keywords: Connect, Connect method [DirectShow], Connect method [DirectShow],IGraphBuilder interface, IGraphBuilder interface [DirectShow],Connect method, IGraphBuilder.Connect, IGraphBuilder::Connect, IGraphBuilderConnect, dshow.igraphbuilder_connect, strmif/IGraphBuilder::Connect
 ms.topic: method
-f1_keywords: 
- - "strmif/IGraphBuilder.Connect"
+f1_keywords:
+- strmif/IGraphBuilder.Connect
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IGraphBuilder.Connect
+- IGraphBuilder.Connect
 targetos: Windows
 req.typenames: 
 req.redist: 

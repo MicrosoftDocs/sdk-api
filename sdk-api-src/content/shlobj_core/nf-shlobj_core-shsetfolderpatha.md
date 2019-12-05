@@ -1,19 +1,17 @@
 ---
 UID: NF:shlobj_core.SHSetFolderPathA
 title: SHSetFolderPathA function (shlobj_core.h)
-
 description: Deprecated. Assigns a new path to a system folder identified by its CSIDL.
 old-location: shell\SHSetFolderPath.htm
 tech.root: shell
 ms.assetid: 9da142fa-4765-4889-bd4c-d8167a16f86b
-
 ms.date: 12/05/2018
 ms.keywords: SHSetFolderPath, SHSetFolderPath function [Windows Shell], SHSetFolderPathA, SHSetFolderPathW, _win32_SHSetFolderPath, shell.SHSetFolderPath, shlobj_core/SHSetFolderPath, shlobj_core/SHSetFolderPathA, shlobj_core/SHSetFolderPathW
 ms.topic: function
-f1_keywords: 
- - "shlobj_core/SHSetFolderPath"
+f1_keywords:
+- shlobj_core/SHSetFolderPath
 dev_langs:
- - c++
+- c++
 req.header: shlobj_core.h
 req.include-header: Shlobj.h, Shlobj_core.h
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib: Shell32.lib
 req.dll: Shell32.dll (version 5.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Shell32.dll
- - API-MS-Win-Storage-Exports-Internal-L1-1-0.dll
- - Windows.Storage.dll
+- Shell32.dll
+- API-MS-Win-Storage-Exports-Internal-L1-1-0.dll
+- Windows.Storage.dll
 api_name:
- - SHSetFolderPath
- - SHSetFolderPathA
- - SHSetFolderPathW
+- SHSetFolderPath
+- SHSetFolderPathA
+- SHSetFolderPathW
 targetos: Windows
 req.typenames: 
 req.redist: 

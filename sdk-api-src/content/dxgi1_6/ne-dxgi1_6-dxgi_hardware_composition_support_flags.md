@@ -1,19 +1,17 @@
 ---
 UID: NE:dxgi1_6.DXGI_HARDWARE_COMPOSITION_SUPPORT_FLAGS
 title: DXGI_HARDWARE_COMPOSITION_SUPPORT_FLAGS (dxgi1_6.h)
-
 description: Describes which levels of hardware composition are supported.
 old-location: direct3ddxgi\dxgi_hardware_composition_support_flags.htm
 tech.root: direct3ddxgi
 ms.assetid: FA8BCF74-58CB-4806-A0A5-1D8E6EC576DC
-
 ms.date: 12/05/2018
 ms.keywords: DXGI_HARDWARE_COMPOSITION_SUPPORT_FLAGS, DXGI_HARDWARE_COMPOSITION_SUPPORT_FLAGS enumeration [DXGI], DXGI_HARDWARE_COMPOSITION_SUPPORT_FLAG_CURSOR_STRETCHED, DXGI_HARDWARE_COMPOSITION_SUPPORT_FLAG_FULLSCREEN, DXGI_HARDWARE_COMPOSITION_SUPPORT_FLAG_WINDOWED, direct3ddxgi.dxgi_hardware_composition_support_flags, dxgi1_6/DXGI_HARDWARE_COMPOSITION_SUPPORT_FLAGS, dxgi1_6/DXGI_HARDWARE_COMPOSITION_SUPPORT_FLAG_CURSOR_STRETCHED, dxgi1_6/DXGI_HARDWARE_COMPOSITION_SUPPORT_FLAG_FULLSCREEN, dxgi1_6/DXGI_HARDWARE_COMPOSITION_SUPPORT_FLAG_WINDOWED
 ms.topic: enum
-f1_keywords: 
- - "dxgi1_6/DXGI_HARDWARE_COMPOSITION_SUPPORT_FLAGS"
+f1_keywords:
+- dxgi1_6/DXGI_HARDWARE_COMPOSITION_SUPPORT_FLAGS
 dev_langs:
- - c++
+- c++
 req.header: dxgi1_6.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - dxgi1_6.h
+- dxgi1_6.h
 api_name:
- - DXGI_HARDWARE_COMPOSITION_SUPPORT_FLAGS
+- DXGI_HARDWARE_COMPOSITION_SUPPORT_FLAGS
 targetos: Windows
 req.typenames: DXGI_HARDWARE_COMPOSITION_SUPPORT_FLAGS
 req.redist: 

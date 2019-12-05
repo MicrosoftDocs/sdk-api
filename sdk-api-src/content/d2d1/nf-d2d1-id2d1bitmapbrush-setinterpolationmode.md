@@ -1,19 +1,17 @@
 ---
 UID: NF:d2d1.ID2D1BitmapBrush.SetInterpolationMode
 title: ID2D1BitmapBrush::SetInterpolationMode (d2d1.h)
-
 description: Specifies the interpolation mode used when the brush bitmap is scaled or rotated.
 old-location: direct2d\ID2D1BitmapBrush_SetInterpolationMode.htm
 tech.root: Direct2D
 ms.assetid: ad2a4211-c8ae-4242-9d6a-6548375f52a7
-
 ms.date: 12/05/2018
 ms.keywords: ID2D1BitmapBrush interface [Direct2D],SetInterpolationMode method, ID2D1BitmapBrush.SetInterpolationMode, ID2D1BitmapBrush::SetInterpolationMode, SetInterpolationMode, SetInterpolationMode method [Direct2D], SetInterpolationMode method [Direct2D],ID2D1BitmapBrush interface, d2d1/ID2D1BitmapBrush::SetInterpolationMode, direct2d.ID2D1BitmapBrush_SetInterpolationMode
 ms.topic: method
-f1_keywords: 
- - "d2d1/ID2D1BitmapBrush.SetInterpolationMode"
+f1_keywords:
+- d2d1/ID2D1BitmapBrush.SetInterpolationMode
 dev_langs:
- - c++
+- c++
 req.header: d2d1.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: D2d1.lib
 req.dll: D2d1.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D2d1.dll
+- D2d1.dll
 api_name:
- - ID2D1BitmapBrush.SetInterpolationMode
+- ID2D1BitmapBrush.SetInterpolationMode
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:msctf.IEnumTfRanges.Clone
 title: IEnumTfRanges::Clone (msctf.h)
-
 description: IEnumTfRanges::Clone method
 old-location: tsf\ienumtfranges_clone.htm
 tech.root: TSF
 ms.assetid: 5e51a747-0b77-4ba3-b03c-217a3f81a0aa
-
 ms.date: 12/05/2018
 ms.keywords: Clone, Clone method [Text Services Framework], Clone method [Text Services Framework],IEnumTfRanges interface, IEnumTfRanges interface [Text Services Framework],Clone method, IEnumTfRanges.Clone, IEnumTfRanges::Clone, _tsf_ienumtfranges_clone_ref, msctf/IEnumTfRanges::Clone, tsf.ienumtfranges_clone
 ms.topic: method
-f1_keywords: 
- - "msctf/IEnumTfRanges.Clone"
+f1_keywords:
+- msctf/IEnumTfRanges.Clone
 dev_langs:
- - c++
+- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msctf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msctf.dll
+- msctf.dll
 api_name:
- - IEnumTfRanges.Clone
+- IEnumTfRanges.Clone
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

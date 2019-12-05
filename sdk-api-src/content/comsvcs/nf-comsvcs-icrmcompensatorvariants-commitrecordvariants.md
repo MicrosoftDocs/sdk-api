@@ -1,19 +1,17 @@
 ---
 UID: NF:comsvcs.ICrmCompensatorVariants.CommitRecordVariants
 title: ICrmCompensatorVariants::CommitRecordVariants (comsvcs.h)
-
 description: Delivers a log record to the CRM Compensator during the commit phase.
 old-location: cos\icrmcompensatorvariants_commitrecordvariants.htm
 tech.root: cossdk
 ms.assetid: 3d3ae282-d2cd-48cf-a093-c8f5ef9cc29a
-
 ms.date: 12/05/2018
 ms.keywords: CommitRecordVariants, CommitRecordVariants method [COM+], CommitRecordVariants method [COM+],ICrmCompensatorVariants interface, ICrmCompensatorVariants interface [COM+],CommitRecordVariants method, ICrmCompensatorVariants.CommitRecordVariants, ICrmCompensatorVariants::CommitRecordVariants, _dtc_ICrmCompensatorVariants_CommitRecordVariants, comsvcs/ICrmCompensatorVariants::CommitRecordVariants, cos.icrmcompensatorvariants_commitrecordvariants
 ms.topic: method
-f1_keywords: 
- - "comsvcs/ICrmCompensatorVariants.CommitRecordVariants"
+f1_keywords:
+- comsvcs/ICrmCompensatorVariants.CommitRecordVariants
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - ICrmCompensatorVariants.CommitRecordVariants
+- ICrmCompensatorVariants.CommitRecordVariants
 targetos: Windows
 req.typenames: 
 req.redist: 

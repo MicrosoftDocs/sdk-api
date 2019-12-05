@@ -1,19 +1,17 @@
 ---
 UID: NF:msiquery.MsiDatabaseGenerateTransformW
 title: MsiDatabaseGenerateTransformW function (msiquery.h)
-
 description: The MsiDatabaseGenerateTransform function generates a transform file of differences between two databases.
 old-location: setup\msidatabasegeneratetransform.htm
 tech.root: Msi
 ms.assetid: 9e8fc756-4195-4fb7-9adb-0bda20e4ae95
-
 ms.date: 12/05/2018
 ms.keywords: MsiDatabaseGenerateTransform, MsiDatabaseGenerateTransform function, MsiDatabaseGenerateTransformA, MsiDatabaseGenerateTransformW, _msi_msidatabasegeneratetransform, msiquery/MsiDatabaseGenerateTransform, msiquery/MsiDatabaseGenerateTransformA, msiquery/MsiDatabaseGenerateTransformW, setup.msidatabasegeneratetransform
 ms.topic: function
-f1_keywords: 
- - "msiquery/MsiDatabaseGenerateTransform"
+f1_keywords:
+- msiquery/MsiDatabaseGenerateTransform
 dev_langs:
- - c++
+- c++
 req.header: msiquery.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Msi.lib
 req.dll: Msi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Msi.dll
+- Msi.dll
 api_name:
- - MsiDatabaseGenerateTransform
- - MsiDatabaseGenerateTransformA
- - MsiDatabaseGenerateTransformW
+- MsiDatabaseGenerateTransform
+- MsiDatabaseGenerateTransformA
+- MsiDatabaseGenerateTransformW
 targetos: Windows
 req.typenames: 
 req.redist: 

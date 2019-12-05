@@ -1,19 +1,17 @@
 ---
 UID: NS:sspi._SecPkgContext_TargetInformation
 title: SecPkgContext_TargetInformation (sspi.h)
-
 description: Returns information about the credential used for the security context.
 old-location: security\secpkgcontext_targetinformation.htm
 tech.root: SecAuthN
 ms.assetid: 8a5a6bd6-8678-4544-a631-5ee4347bc685
-
 ms.date: 12/05/2018
-ms.keywords: "*PSecPkgContext_TargetInformation, PSecPkgContext_TargetInformation, PSecPkgContext_TargetInformation structure pointer [Security], SecPkgContext_TargetInformation, SecPkgContext_TargetInformation structure [Security], security.secpkgcontext_targetinformation, sspi/PSecPkgContext_TargetInformation, sspi/SecPkgContext_TargetInformation"
+ms.keywords: '*PSecPkgContext_TargetInformation, PSecPkgContext_TargetInformation, PSecPkgContext_TargetInformation structure pointer [Security], SecPkgContext_TargetInformation, SecPkgContext_TargetInformation structure [Security], security.secpkgcontext_targetinformation, sspi/PSecPkgContext_TargetInformation, sspi/SecPkgContext_TargetInformation'
 ms.topic: struct
-f1_keywords: 
- - "sspi/SecPkgContext_TargetInformation"
+f1_keywords:
+- sspi/SecPkgContext_TargetInformation
 dev_langs:
- - c++
+- c++
 req.header: sspi.h
 req.include-header: Security.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Sspi.h
+- Sspi.h
 api_name:
- - SecPkgContext_TargetInformation
+- SecPkgContext_TargetInformation
 targetos: Windows
 req.typenames: SecPkgContext_TargetInformation, *PSecPkgContext_TargetInformation
 req.redist: 

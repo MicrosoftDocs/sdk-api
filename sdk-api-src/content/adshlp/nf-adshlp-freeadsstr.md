@@ -1,19 +1,17 @@
 ---
 UID: NF:adshlp.FreeADsStr
 title: FreeADsStr function (adshlp.h)
-
 description: Frees the memory of a string allocated by AllocADsStr or ReallocADsStr.
 old-location: adsi\freeadsstr.htm
 tech.root: adsi
 ms.assetid: 9c8eaac2-1fb4-47f9-8f60-6896073012aa
-
 ms.date: 12/05/2018
 ms.keywords: FreeADsStr, FreeADsStr function [ADSI], _ds_freeadsstr, adshlp/FreeADsStr, adsi.freeadsstr
 ms.topic: function
-f1_keywords: 
- - "adshlp/FreeADsStr"
+f1_keywords:
+- adshlp/FreeADsStr
 dev_langs:
- - c++
+- c++
 req.header: adshlp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Activeds.lib
 req.dll: Activeds.dll; AdsLdpc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Activeds.dll
- - AdsLdpc.dll
+- Activeds.dll
+- AdsLdpc.dll
 api_name:
- - FreeADsStr
+- FreeADsStr
 targetos: Windows
 req.typenames: 
 req.redist: 

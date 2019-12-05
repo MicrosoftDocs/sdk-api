@@ -1,19 +1,17 @@
 ---
 UID: NE:strmif.DVD_TextCharSet
 title: DVD_TextCharSet (strmif.h)
-
 description: Defines which character set a specified string is encoded with.
 old-location: dshow\dvd_textcharset.htm
 tech.root: DirectShow
 ms.assetid: ee7d09e1-6274-4993-914e-d8f5efeb5f90
-
 ms.date: 12/05/2018
 ms.keywords: DVD_CharSet_ISO646, DVD_CharSet_ISO8859_1, DVD_CharSet_JIS_Roman_Kanji, DVD_CharSet_ShiftJIS_Kanji_Roman_Katakana, DVD_CharSet_Unicode, DVD_TextCharSet, DVD_TextCharSet , DVD_TextCharSet enumeration [DirectShow], DVD_TextCharSetEnumeration, dshow.dvd_textcharset, strmif/DVD_CharSet_ISO646, strmif/DVD_CharSet_ISO8859_1, strmif/DVD_CharSet_JIS_Roman_Kanji, strmif/DVD_CharSet_ShiftJIS_Kanji_Roman_Katakana, strmif/DVD_CharSet_Unicode, strmif/DVD_TextCharSet
 ms.topic: enum
-f1_keywords: 
- - "strmif/DVD_TextCharSet"
+f1_keywords:
+- strmif/DVD_TextCharSet
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - strmif.h
+- strmif.h
 api_name:
- - DVD_TextCharSet
+- DVD_TextCharSet
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IExplorerBrowser.GetCurrentView
 title: IExplorerBrowser::GetCurrentView (shobjidl_core.h)
-
 description: Gets an interface for the current view of the browser.
 old-location: shell\IExplorerBrowser_GetCurrentView.htm
 tech.root: shell
 ms.assetid: e7c05a67-f739-487d-872a-3598b790d5c9
-
 ms.date: 12/05/2018
 ms.keywords: GetCurrentView, GetCurrentView method [Windows Shell], GetCurrentView method [Windows Shell],IExplorerBrowser interface, IExplorerBrowser interface [Windows Shell],GetCurrentView method, IExplorerBrowser.GetCurrentView, IExplorerBrowser::GetCurrentView, _shell_IExplorerBrowser_GetCurrentView, shell.IExplorerBrowser_GetCurrentView, shobjidl_core/IExplorerBrowser::GetCurrentView
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IExplorerBrowser.GetCurrentView"
+f1_keywords:
+- shobjidl_core/IExplorerBrowser.GetCurrentView
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - IExplorerBrowser.GetCurrentView
+- IExplorerBrowser.GetCurrentView
 targetos: Windows
 req.typenames: 
 req.redist: 

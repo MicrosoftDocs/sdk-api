@@ -1,19 +1,17 @@
 ---
 UID: NS:cryptxml._CRYPT_XML_SIGNED_INFO
 title: CRYPT_XML_SIGNED_INFO (cryptxml.h)
-
 description: Describes an XML encoded SignedInfo element.
 old-location: security\crypt_xml_signed_info.htm
 tech.root: SecCrypto
 ms.assetid: 34f7f3be-8bf8-4863-9c94-79ee14a7ebea
-
 ms.date: 12/05/2018
 ms.keywords: '*PCRYPT_XML_SIGNED_INFO, CRYPT_XML_SIGNED_INFO, CRYPT_XML_SIGNED_INFO structure [Security], PCRYPT_XML_SIGNED_INFO, PCRYPT_XML_SIGNED_INFO structure pointer [Security], cryptxml/CRYPT_XML_SIGNED_INFO, cryptxml/PCRYPT_XML_SIGNED_INFO, security.crypt_xml_signed_info'
 ms.topic: struct
 f1_keywords:
 - cryptxml/CRYPT_XML_SIGNED_INFO
 dev_langs:
- - c++
+- c++
 req.header: cryptxml.h
 req.include-header: 
 req.target-type: Windows

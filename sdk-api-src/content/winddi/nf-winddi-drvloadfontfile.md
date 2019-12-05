@@ -1,19 +1,17 @@
 ---
 UID: NF:winddi.DrvLoadFontFile
 title: DrvLoadFontFile function (winddi.h)
-
 description: The DrvLoadFontFile function receives information from GDI relating to loading and mapping font files.
 old-location: display\drvloadfontfile.htm
 tech.root: display
 ms.assetid: d9bcf8f8-40bc-48dc-85b7-67773c8a4ded
-
 ms.date: 12/05/2018
 ms.keywords: DrvLoadFontFile, DrvLoadFontFile function [Display Devices], ddifncs_42238b28-ad71-4df8-b572-4ffd7ca2d3c1.xml, display.drvloadfontfile, winddi/DrvLoadFontFile
 ms.topic: function
-f1_keywords: 
- - "winddi/DrvLoadFontFile"
+f1_keywords:
+- winddi/DrvLoadFontFile
 dev_langs:
- - c++
+- c++
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Desktop
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - winddi.h
+- winddi.h
 api_name:
- - DrvLoadFontFile
+- DrvLoadFontFile
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:fsrmreports.IFsrmReportManager.GetReportJob
 title: IFsrmReportManager::GetReportJob (fsrmreports.h)
-
 description: Retrieves the specified report job.
 old-location: fsrm\ifsrmreportmanager_getreportjob.htm
 tech.root: fsrm
 ms.assetid: 60a1387f-a25f-4026-a582-71981c26dd1b
-
 ms.date: 12/05/2018
 ms.keywords: FsrmReportManager class [File Server Resource Manager],GetReportJob method, GetReportJob, GetReportJob method [File Server Resource Manager], GetReportJob method [File Server Resource Manager],FsrmReportManager class, GetReportJob method [File Server Resource Manager],IFsrmReportManager interface, IFsrmReportManager interface [File Server Resource Manager],GetReportJob method, IFsrmReportManager.GetReportJob, IFsrmReportManager::GetReportJob, fs.ifsrmreportmanager_getreportjob, fsrm.ifsrmreportmanager_getreportjob, fsrmreports/IFsrmReportManager::GetReportJob
 ms.topic: method
-f1_keywords: 
- - "fsrmreports/IFsrmReportManager.GetReportJob"
+f1_keywords:
+- fsrmreports/IFsrmReportManager.GetReportJob
 dev_langs:
- - c++
+- c++
 req.header: fsrmreports.h
 req.include-header: FsrmReports.h, FsrmTlb.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: SrmSvc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - SrmSvc.dll
+- SrmSvc.dll
 api_name:
- - IFsrmReportManager.GetReportJob
- - FsrmReportManager.GetReportJob
+- IFsrmReportManager.GetReportJob
+- FsrmReportManager.GetReportJob
 targetos: Windows
 req.typenames: 
 req.redist: 

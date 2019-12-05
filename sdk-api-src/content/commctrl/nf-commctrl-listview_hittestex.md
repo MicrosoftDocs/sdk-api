@@ -1,19 +1,17 @@
 ---
 UID: NF:commctrl.ListView_HitTestEx
 title: ListView_HitTestEx macro (commctrl.h)
-
 description: Determines which list-view item, if any, is at a specified position. You can use this macro or send the LVM_HITTEST message explicitly.
 old-location: controls\ListView_HitTestEx.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_hittestex.htm
-
 ms.date: 12/05/2018
 ms.keywords: ListView_HitTestEx, ListView_HitTestEx macro [Windows Controls], _shell_ListView_HitTestEx, _shell_ListView_HitTestEx_cpp, commctrl/ListView_HitTestEx, controls.ListView_HitTestEx, controls._shell_ListView_HitTestEx
 ms.topic: macro
-f1_keywords: 
- - "commctrl/ListView_HitTestEx"
+f1_keywords:
+- commctrl/ListView_HitTestEx
 dev_langs:
- - c++
+- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Commctrl.h
+- Commctrl.h
 api_name:
- - ListView_HitTestEx
+- ListView_HitTestEx
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:winbase.DecryptFileW
 title: DecryptFileW function (winbase.h)
-
 description: Decrypts an encrypted file or directory.
 old-location: fs\decryptfile.htm
 tech.root: FileIO
 ms.assetid: 6b8f0ed0-8825-4c84-bf58-3a89cda882b4
-
 ms.date: 12/05/2018
 ms.keywords: DecryptFile, DecryptFile function [Files], DecryptFileA, DecryptFileW, _win32_decryptfile, base.decryptfile, fs.decryptfile, winbase/DecryptFile, winbase/DecryptFileA, winbase/DecryptFileW
 ms.topic: function
-f1_keywords: 
- - "winbase/DecryptFile"
+f1_keywords:
+- winbase/DecryptFile
 dev_langs:
- - c++
+- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Advapi32.dll
- - Ext-MS-Win-AdvAPI32-EncryptedFile-L1-1-0.dll
- - Ext-MS-Win-AdvAPI32-EncryptedFile-L1-1-1.dll
+- Advapi32.dll
+- Ext-MS-Win-AdvAPI32-EncryptedFile-L1-1-0.dll
+- Ext-MS-Win-AdvAPI32-EncryptedFile-L1-1-1.dll
 api_name:
- - DecryptFile
- - DecryptFileA
- - DecryptFileW
+- DecryptFile
+- DecryptFileA
+- DecryptFileW
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:wbemtime.WBEMTimeSpan.operator-add
 title: WBEMTimeSpan::operator-add (wbemtime.h)
-
 description: The WBEMTimeSpan class add operator adds one time span to another, placing the sum in a new WBEMTimeSpan object returned by the method.
 old-location: wmi\wbemtimespan_operator_plus.htm
 tech.root: WmiSdk
 ms.assetid: 48e0fcbe-a8a0-4193-b55f-ed4bb7d98614
-
 ms.date: 12/05/2018
 ms.keywords: WBEMTimeSpan interface [Windows Management Instrumentation],operator+ method, WBEMTimeSpan.operator+, WBEMTimeSpan.operator-add, WBEMTimeSpan::operator+, WBEMTimeSpan::operator-add, _hmm_wbemtimespan_operator_plus, operator+, operator+ method [Windows Management Instrumentation], operator+ method [Windows Management Instrumentation],WBEMTimeSpan interface, wbemtime/WBEMTimeSpan::operator+, wmi.wbemtimespan_operator_plus
 ms.topic: method
-f1_keywords: 
- - "wbemtime/WBEMTimeSpan.operator+"
+f1_keywords:
+- wbemtime/WBEMTimeSpan.operator+
 dev_langs:
- - c++
+- c++
 req.header: wbemtime.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: FrameDynOS.dll; FrameDyn.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - FrameDynOS.dll
- - FrameDyn.dll
+- FrameDynOS.dll
+- FrameDyn.dll
 api_name:
- - WBEMTimeSpan.operator+
+- WBEMTimeSpan.operator+
 targetos: Windows
 req.typenames: 
 req.redist: 

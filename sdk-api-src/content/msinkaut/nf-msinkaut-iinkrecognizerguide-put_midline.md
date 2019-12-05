@@ -1,19 +1,17 @@
 ---
 UID: NF:msinkaut.IInkRecognizerGuide.put_Midline
 title: IInkRecognizerGuide::put_Midline (msinkaut.h)
-
 description: Gets or sets the midline height. The midline height is distance from the baseline to the midline, of the drawn box.
 old-location: tablet\inkrecognizerguide_midline.htm
 tech.root: tablet
 ms.assetid: 764dc583-62b4-41fc-98df-69a2f1a6fcf5
-
 ms.date: 12/05/2018
 ms.keywords: 764dc583-62b4-41fc-98df-69a2f1a6fcf5, IInkRecognizerGuide interface [Tablet PC],Midline property, IInkRecognizerGuide.Midline, IInkRecognizerGuide.put_Midline, IInkRecognizerGuide::Midline, IInkRecognizerGuide::get_Midline, IInkRecognizerGuide::put_Midline, InkRecognizerGuide.get_Midline, InkRecognizerGuide.put_Midline, Midline property [Tablet PC], Midline property [Tablet PC],IInkRecognizerGuide interface, get_Midline, msinkaut/IInkRecognizerGuide::Midline, msinkaut/IInkRecognizerGuide::get_Midline, msinkaut/IInkRecognizerGuide::put_Midline, put_Midline, tablet.inkrecognizerguide_midline
 ms.topic: method
-f1_keywords: 
- - "msinkaut/IInkRecognizerGuide.Midline"
+f1_keywords:
+- msinkaut/IInkRecognizerGuide.Midline
 dev_langs:
- - c++
+- c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows
@@ -32,19 +30,19 @@ req.lib: InkObj.dll
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - InkObj.dll
- - InkObj.dll.dll
+- InkObj.dll
+- InkObj.dll.dll
 api_name:
- - IInkRecognizerGuide.Midline
- - IInkRecognizerGuide.get_Midline
- - IInkRecognizerGuide.put_Midline
- - InkRecognizerGuide.get_Midline
- - InkRecognizerGuide.put_Midline
+- IInkRecognizerGuide.Midline
+- IInkRecognizerGuide.get_Midline
+- IInkRecognizerGuide.put_Midline
+- InkRecognizerGuide.get_Midline
+- InkRecognizerGuide.put_Midline
 targetos: Windows
 req.typenames: 
 req.redist: 

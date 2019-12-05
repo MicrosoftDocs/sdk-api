@@ -1,19 +1,17 @@
 ---
 UID: NF:dcomp.IDCompositionVisual3.SetOpacity(IDCompositionAnimation)
 title: IDCompositionVisual3::SetOpacity(IDCompositionAnimation) (dcomp.h)
-
 description: Animates the value of the visual's opacity property.
 old-location: directcomp\idcompositionvisual3_setopacity_2.htm
 tech.root: directcomp
 ms.assetid: 84A9E6FD-8C30-4BBE-BEDD-D4C24BC6752C
-
 ms.date: 12/05/2018
 ms.keywords: IDCompositionVisual3 interface [DirectComposition],SetOpacity method, IDCompositionVisual3.SetOpacity, IDCompositionVisual3.SetOpacity(IDCompositionAnimation), IDCompositionVisual3::SetOpacity, IDCompositionVisual3::SetOpacity(IDCompositionAnimation), IDCompositionVisual3::SetOpacity(IDCompositionAnimation*), SetOpacity, SetOpacity method [DirectComposition], SetOpacity method [DirectComposition],IDCompositionVisual3 interface, dcomp/IDCompositionVisual3::SetOpacity, directcomp.idcompositionvisual3_setopacity_2
 ms.topic: method
-f1_keywords: 
- - "dcomp/IDCompositionVisual3.SetOpacity"
+f1_keywords:
+- dcomp/IDCompositionVisual3.SetOpacity
 dev_langs:
- - c++
+- c++
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dcomp.lib
 req.dll: Dcomp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dcomp.dll
+- Dcomp.dll
 api_name:
- - IDCompositionVisual3.SetOpacity
+- IDCompositionVisual3.SetOpacity
 targetos: Windows
 req.typenames: 
 req.redist: 

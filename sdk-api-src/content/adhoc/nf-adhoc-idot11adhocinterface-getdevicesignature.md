@@ -1,19 +1,17 @@
 ---
 UID: NF:adhoc.IDot11AdHocInterface.GetDeviceSignature
 title: IDot11AdHocInterface::GetDeviceSignature (adhoc.h)
-
 description: Gets the signature of the NIC.
 old-location: nwifi\idot11adhocinterface_getdevicesignature.htm
 tech.root: NativeWiFi
 ms.assetid: d65fe0ae-ce7b-4d9e-af5b-d9aaeb909e21
-
 ms.date: 12/05/2018
 ms.keywords: GetDeviceSignature, GetDeviceSignature method [NativeWIFI], GetDeviceSignature method [NativeWIFI],IDot11AdHocInterface interface, IDot11AdHocInterface interface [NativeWIFI],GetDeviceSignature method, IDot11AdHocInterface.GetDeviceSignature, IDot11AdHocInterface::GetDeviceSignature, adhoc/IDot11AdHocInterface::GetDeviceSignature, nwifi.idot11adhocinterface_getdevicesignature
 ms.topic: method
-f1_keywords: 
- - "adhoc/IDot11AdHocInterface.GetDeviceSignature"
+f1_keywords:
+- adhoc/IDot11AdHocInterface.GetDeviceSignature
 dev_langs:
- - c++
+- c++
 req.header: adhoc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - adhoc.h
+- adhoc.h
 api_name:
- - IDot11AdHocInterface.GetDeviceSignature
+- IDot11AdHocInterface.GetDeviceSignature
 targetos: Windows
 req.typenames: 
 req.redist: 

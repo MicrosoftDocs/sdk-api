@@ -1,19 +1,17 @@
 ---
 UID: NF:uianimation.IUIAnimationStoryboard.SetTag
 title: IUIAnimationStoryboard::SetTag (uianimation.h)
-
 description: Sets the tag for the storyboard.
 old-location: uianimation\iuianimationstoryboard_settag.htm
 tech.root: UIAnimation
 ms.assetid: ade41b03-9194-4b1a-a672-32bb48a2f5ba
-
 ms.date: 12/05/2018
 ms.keywords: IUIAnimationStoryboard interface [Windows Animation],SetTag method, IUIAnimationStoryboard.SetTag, IUIAnimationStoryboard::SetTag, SetTag, SetTag method [Windows Animation], SetTag method [Windows Animation],IUIAnimationStoryboard interface, uianimation.iuianimationstoryboard_settag, uianimation/IUIAnimationStoryboard::SetTag
 ms.topic: method
-f1_keywords: 
- - "uianimation/IUIAnimationStoryboard.SetTag"
+f1_keywords:
+- uianimation/IUIAnimationStoryboard.SetTag
 dev_langs:
- - c++
+- c++
 req.header: uianimation.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: UIAnimation.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAnimation.dll
+- UIAnimation.dll
 api_name:
- - IUIAnimationStoryboard.SetTag
+- IUIAnimationStoryboard.SetTag
 targetos: Windows
 req.typenames: 
 req.redist: 

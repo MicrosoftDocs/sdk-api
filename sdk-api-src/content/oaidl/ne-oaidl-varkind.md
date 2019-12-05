@@ -1,19 +1,17 @@
 ---
 UID: NE:oaidl.tagVARKIND
 title: VARKIND (oaidl.h)
-
 description: Specifies the variable type.
 old-location: automat\varkind.htm
 tech.root: automat
 ms.assetid: 8b2df767-bba1-4e0a-be63-32d45fb2be07
-
 ms.date: 12/05/2018
 ms.keywords: VARKIND, VARKIND enumeration [Automation], VAR_CONST, VAR_DISPATCH, VAR_PERINSTANCE, VAR_STATIC, _oa96_VARKIND, automat.varkind, oaidl/VARKIND, oaidl/VAR_CONST, oaidl/VAR_DISPATCH, oaidl/VAR_PERINSTANCE, oaidl/VAR_STATIC
 ms.topic: enum
-f1_keywords: 
- - "oaidl/VARKIND"
+f1_keywords:
+- oaidl/VARKIND
 dev_langs:
- - c++
+- c++
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - OaIdl.h
+- OaIdl.h
 api_name:
- - VARKIND
+- VARKIND
 targetos: Windows
 req.typenames: VARKIND
 req.redist: 

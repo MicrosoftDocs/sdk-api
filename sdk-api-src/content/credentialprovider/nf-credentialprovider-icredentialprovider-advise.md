@@ -1,19 +1,17 @@
 ---
 UID: NF:credentialprovider.ICredentialProvider.Advise
 title: ICredentialProvider::Advise (credentialprovider.h)
-
 description: Allows a credential provider to initiate events in the Logon UI or Credential UI through a callback interface.
 old-location: shell\ICredentialProvider_Advise.htm
 tech.root: shell
 ms.assetid: 5ca35c90-24a3-4ffe-abf7-ba3ce0ec83b9
-
 ms.date: 12/05/2018
 ms.keywords: Advise, Advise method [Windows Shell], Advise method [Windows Shell],ICredentialProvider interface, ICredentialProvider interface [Windows Shell],Advise method, ICredentialProvider.Advise, ICredentialProvider::Advise, credentialprovider/ICredentialProvider::Advise, shell.ICredentialProvider_Advise, shell_ICredentialProvider_Advise
 ms.topic: method
-f1_keywords: 
- - "credentialprovider/ICredentialProvider.Advise"
+f1_keywords:
+- credentialprovider/ICredentialProvider.Advise
 dev_langs:
- - c++
+- c++
 req.header: credentialprovider.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Credentialprovider.h
+- Credentialprovider.h
 api_name:
- - ICredentialProvider.Advise
+- ICredentialProvider.Advise
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:msdrm.DRMAcquireLicense
 title: DRMAcquireLicense function (msdrm.h)
-
 description: Attempts to acquire an end-user license or client licensor certificate asynchronously.
 old-location: rm\drmacquirelicense.htm
 tech.root: AdRms_Sdk
 ms.assetid: 0d4ce794-8384-4f1c-bc8c-1e67fbb5f987
-
 ms.date: 12/05/2018
 ms.keywords: DRMAcquireLicense, DRMAcquireLicense function [Active Directory Rights Management Services SDK 1.0], DRM_AL_CANCEL, DRM_AL_FETCHNOADVISORY, DRM_AL_NONSILENT, DRM_AL_NOPERSIST, DRM_AL_NOUI, msdrm/DRMAcquireLicense, rm.drmacquirelicense
 ms.topic: function
 f1_keywords:
 - msdrm/DRMAcquireLicense
 dev_langs:
- - c++
+- c++
 req.header: msdrm.h
 req.include-header: 
 req.target-type: Windows

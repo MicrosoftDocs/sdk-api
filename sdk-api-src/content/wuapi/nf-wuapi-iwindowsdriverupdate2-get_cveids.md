@@ -1,19 +1,17 @@
 ---
 UID: NF:wuapi.IWindowsDriverUpdate2.get_CveIDs
 title: IWindowsDriverUpdate2::get_CveIDs (wuapi.h)
-
 description: Contains a collection of the Common Vulnerabilities and Exposures (CVE) identifiers that are associated with an update.
 old-location: wua\iwindowsdriverupdate2_cveids.htm
 tech.root: Wua_Sdk
 ms.assetid: 6399d545-b300-4f78-b6df-c9892bc62fbb
-
 ms.date: 12/05/2018
 ms.keywords: CveIDs property [Windows Update Agent], CveIDs property [Windows Update Agent],IWindowsDriverUpdate2 interface, IWindowsDriverUpdate2 interface [Windows Update Agent],CveIDs property, IWindowsDriverUpdate2.CveIDs, IWindowsDriverUpdate2.get_CveIDs, IWindowsDriverUpdate2::CveIDs, IWindowsDriverUpdate2::get_CveIDs, get_CveIDs, wua.iwindowsdriverupdate2_cveids, wuapi/IWindowsDriverUpdate2::CveIDs, wuapi/IWindowsDriverUpdate2::get_CveIDs
 ms.topic: method
-f1_keywords: 
- - "wuapi/IWindowsDriverUpdate2.CveIDs"
+f1_keywords:
+- wuapi/IWindowsDriverUpdate2.CveIDs
 dev_langs:
- - c++
+- c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Wuguid.lib
 req.dll: Wuapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wuapi.dll
+- Wuapi.dll
 api_name:
- - IWindowsDriverUpdate2.CveIDs
- - IWindowsDriverUpdate2.get_CveIDs
+- IWindowsDriverUpdate2.CveIDs
+- IWindowsDriverUpdate2.get_CveIDs
 targetos: Windows
 req.typenames: 
 req.redist: 

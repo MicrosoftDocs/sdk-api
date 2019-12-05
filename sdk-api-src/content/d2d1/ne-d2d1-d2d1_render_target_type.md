@@ -1,19 +1,17 @@
 ---
 UID: NE:d2d1.D2D1_RENDER_TARGET_TYPE
 title: D2D1_RENDER_TARGET_TYPE (d2d1.h)
-
 description: Describes whether a render target uses hardware or software rendering, or if Direct2D should select the rendering mode.
 old-location: direct2d\D2D1_RENDER_TARGET_TYPE.htm
 tech.root: Direct2D
 ms.assetid: 4ae6e4cf-e1c9-476e-a7b5-31cdad9cf321
-
 ms.date: 12/05/2018
 ms.keywords: D2D1_RENDER_TARGET_TYPE, D2D1_RENDER_TARGET_TYPE enumeration [Direct2D], D2D1_RENDER_TARGET_TYPE_DEFAULT, D2D1_RENDER_TARGET_TYPE_HARDWARE, D2D1_RENDER_TARGET_TYPE_SOFTWARE, d2d1/D2D1_RENDER_TARGET_TYPE, d2d1/D2D1_RENDER_TARGET_TYPE_DEFAULT, d2d1/D2D1_RENDER_TARGET_TYPE_HARDWARE, d2d1/D2D1_RENDER_TARGET_TYPE_SOFTWARE, direct2d.D2D1_RENDER_TARGET_TYPE
 ms.topic: enum
-f1_keywords: 
- - "d2d1/D2D1_RENDER_TARGET_TYPE"
+f1_keywords:
+- d2d1/D2D1_RENDER_TARGET_TYPE
 dev_langs:
- - c++
+- c++
 req.header: d2d1.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - d2d1.h
+- d2d1.h
 api_name:
- - D2D1_RENDER_TARGET_TYPE
+- D2D1_RENDER_TARGET_TYPE
 targetos: Windows
 req.typenames: D2D1_RENDER_TARGET_TYPE
 req.redist: 

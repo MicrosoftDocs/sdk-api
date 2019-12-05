@@ -1,19 +1,17 @@
 ---
 UID: NE:dwrite_3.DWRITE_RENDERING_MODE1
 title: DWRITE_RENDERING_MODE1 (dwrite_3.h)
-
 description: Specifies how glyphs are rendered.
 old-location: directwrite\dwrite_rendering_mode1.htm
 tech.root: DirectWrite
 ms.assetid: CAA88479-FE39-48D0-89D8-CEA0C922428A
-
 ms.date: 12/05/2018
 ms.keywords: DWRITE_RENDERING_MODE1, DWRITE_RENDERING_MODE1 enumeration [Direct Write], DWRITE_RENDERING_MODE1_ALIASED, DWRITE_RENDERING_MODE1_DEFAULT, DWRITE_RENDERING_MODE1_GDI_CLASSIC, DWRITE_RENDERING_MODE1_GDI_NATURAL, DWRITE_RENDERING_MODE1_NATURAL, DWRITE_RENDERING_MODE1_NATURAL_SYMMETRIC, DWRITE_RENDERING_MODE1_NATURAL_SYMMETRIC_DOWNSAMPLED, DWRITE_RENDERING_MODE1_OUTLINE, directwrite.dwrite_rendering_mode1, dwrite_3/DWRITE_RENDERING_MODE1, dwrite_3/DWRITE_RENDERING_MODE1_ALIASED, dwrite_3/DWRITE_RENDERING_MODE1_DEFAULT, dwrite_3/DWRITE_RENDERING_MODE1_GDI_CLASSIC, dwrite_3/DWRITE_RENDERING_MODE1_GDI_NATURAL, dwrite_3/DWRITE_RENDERING_MODE1_NATURAL, dwrite_3/DWRITE_RENDERING_MODE1_NATURAL_SYMMETRIC, dwrite_3/DWRITE_RENDERING_MODE1_NATURAL_SYMMETRIC_DOWNSAMPLED, dwrite_3/DWRITE_RENDERING_MODE1_OUTLINE
 ms.topic: enum
-f1_keywords: 
- - "dwrite_3/DWRITE_RENDERING_MODE1"
+f1_keywords:
+- dwrite_3/DWRITE_RENDERING_MODE1
 dev_langs:
- - c++
+- c++
 req.header: dwrite_3.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - dwrite_3.h
+- dwrite_3.h
 api_name:
- - DWRITE_RENDERING_MODE1
+- DWRITE_RENDERING_MODE1
 targetos: Windows
 req.typenames: 
 req.redist: 

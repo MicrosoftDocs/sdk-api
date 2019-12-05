@@ -1,19 +1,17 @@
 ---
 UID: NF:msctf.ITfInputProcessorProfiles.EnumLanguageProfiles
 title: ITfInputProcessorProfiles::EnumLanguageProfiles (msctf.h)
-
 description: ITfInputProcessorProfiles::EnumLanguageProfiles method
 old-location: tsf\itfinputprocessorprofiles_enumlanguageprofiles.htm
 tech.root: TSF
 ms.assetid: 9f7c970c-3f87-4f55-b13e-12fa8b89c362
-
 ms.date: 12/05/2018
 ms.keywords: EnumLanguageProfiles, EnumLanguageProfiles method [Text Services Framework], EnumLanguageProfiles method [Text Services Framework],ITfInputProcessorProfiles interface, ITfInputProcessorProfiles interface [Text Services Framework],EnumLanguageProfiles method, ITfInputProcessorProfiles.EnumLanguageProfiles, ITfInputProcessorProfiles::EnumLanguageProfiles, _tsf_itfinputprocessorprofiles_enumlanguageprofiles_ref, msctf/ITfInputProcessorProfiles::EnumLanguageProfiles, tsf.itfinputprocessorprofiles_enumlanguageprofiles
 ms.topic: method
-f1_keywords: 
- - "msctf/ITfInputProcessorProfiles.EnumLanguageProfiles"
+f1_keywords:
+- msctf/ITfInputProcessorProfiles.EnumLanguageProfiles
 dev_langs:
- - c++
+- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msctf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msctf.dll
+- Msctf.dll
 api_name:
- - ITfInputProcessorProfiles.EnumLanguageProfiles
+- ITfInputProcessorProfiles.EnumLanguageProfiles
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

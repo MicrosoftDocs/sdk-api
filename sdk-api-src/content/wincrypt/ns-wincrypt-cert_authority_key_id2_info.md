@@ -1,19 +1,17 @@
 ---
 UID: NS:wincrypt._CERT_AUTHORITY_KEY_ID2_INFO
 title: CERT_AUTHORITY_KEY_ID2_INFO (wincrypt.h)
-
 description: The CERT_AUTHORITY_KEY_ID2_INFO structure identifies the key used to sign a certificate or CRL.
 old-location: security\cert_authority_key_id2_info.htm
 tech.root: SecCrypto
 ms.assetid: 0a5005a5-71be-4f4d-8de8-c7452402b646
-
 ms.date: 12/05/2018
 ms.keywords: '*PCERT_AUTHORITY_KEY_ID2_INFO, CERT_AUTHORITY_KEY_ID2_INFO, CERT_AUTHORITY_KEY_ID2_INFO structure [Security], PCERT_AUTHORITY_KEY_ID2_INFO, PCERT_AUTHORITY_KEY_ID2_INFO structure pointer [Security], _crypto2_cert_authority_key_id2_info, security.cert_authority_key_id2_info, wincrypt/CERT_AUTHORITY_KEY_ID2_INFO, wincrypt/PCERT_AUTHORITY_KEY_ID2_INFO'
 ms.topic: struct
 f1_keywords:
 - wincrypt/CERT_AUTHORITY_KEY_ID2_INFO
 dev_langs:
- - c++
+- c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

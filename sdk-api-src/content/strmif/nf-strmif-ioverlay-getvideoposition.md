@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IOverlay.GetVideoPosition
 title: IOverlay::GetVideoPosition (strmif.h)
-
 description: The GetVideoPosition method retrieves the current video source and destination rectangles.
 old-location: dshow\ioverlay_getvideoposition.htm
 tech.root: DirectShow
 ms.assetid: a140cc63-29a1-4c81-8393-7f4342c7b7cc
-
 ms.date: 12/05/2018
 ms.keywords: GetVideoPosition, GetVideoPosition method [DirectShow], GetVideoPosition method [DirectShow],IOverlay interface, IOverlay interface [DirectShow],GetVideoPosition method, IOverlay.GetVideoPosition, IOverlay::GetVideoPosition, IOverlayGetVideoPosition, dshow.ioverlay_getvideoposition, strmif/IOverlay::GetVideoPosition
 ms.topic: method
-f1_keywords: 
- - "strmif/IOverlay.GetVideoPosition"
+f1_keywords:
+- strmif/IOverlay.GetVideoPosition
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IOverlay.GetVideoPosition
+- IOverlay.GetVideoPosition
 targetos: Windows
 req.typenames: 
 req.redist: 

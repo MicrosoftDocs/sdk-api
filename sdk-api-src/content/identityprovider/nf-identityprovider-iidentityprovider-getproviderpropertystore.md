@@ -1,19 +1,17 @@
 ---
 UID: NF:identityprovider.IIdentityProvider.GetProviderPropertyStore
 title: IIdentityProvider::GetProviderPropertyStore (identityprovider.h)
-
 description: Retrieves a pointer to the IPropertyStore interface associated with the identity provider.
 old-location: security\iidentityprovider_getproviderpropertystore.htm
 tech.root: SecAuthN
 ms.assetid: e0a8f732-5675-49f7-8c2f-6e5f8f1be957
-
 ms.date: 12/05/2018
 ms.keywords: GetProviderPropertyStore, GetProviderPropertyStore method [Security], GetProviderPropertyStore method [Security],IIdentityProvider interface, IIdentityProvider interface [Security],GetProviderPropertyStore method, IIdentityProvider.GetProviderPropertyStore, IIdentityProvider::GetProviderPropertyStore, identityprovider/IIdentityProvider::GetProviderPropertyStore, security.iidentityprovider_getproviderpropertystore
 ms.topic: method
-f1_keywords: 
- - "identityprovider/IIdentityProvider.GetProviderPropertyStore"
+f1_keywords:
+- identityprovider/IIdentityProvider.GetProviderPropertyStore
 dev_langs:
- - c++
+- c++
 req.header: identityprovider.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Identityprovider.h
+- Identityprovider.h
 api_name:
- - IIdentityProvider.GetProviderPropertyStore
+- IIdentityProvider.GetProviderPropertyStore
 targetos: Windows
 req.typenames: 
 req.redist: 

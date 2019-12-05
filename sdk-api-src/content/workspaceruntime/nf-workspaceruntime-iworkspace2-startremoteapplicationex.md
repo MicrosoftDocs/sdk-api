@@ -1,19 +1,17 @@
 ---
 UID: NF:workspaceruntime.IWorkspace2.StartRemoteApplicationEx
 title: IWorkspace2::StartRemoteApplicationEx (workspaceruntime.h)
-
 description: Not supported.
 old-location: termserv\iworkspace2_startremoteapplicationex.htm
 tech.root: TermServ
 ms.assetid: df901da6-6464-4ed3-abbb-16756f90ccf1
-
 ms.date: 12/05/2018
 ms.keywords: IWorkspace2 interface [Remote Desktop Services],StartRemoteApplicationEx method, IWorkspace2.StartRemoteApplicationEx, IWorkspace2::StartRemoteApplicationEx, IWorkspace3 interface [Remote Desktop Services],StartRemoteApplicationEx method, IWorkspace3::StartRemoteApplicationEx, StartRemoteApplicationEx, StartRemoteApplicationEx method [Remote Desktop Services], StartRemoteApplicationEx method [Remote Desktop Services],IWorkspace2 interface, StartRemoteApplicationEx method [Remote Desktop Services],IWorkspace3 interface, StartRemoteApplicationEx method [Remote Desktop Services],Workspace object, Workspace object [Remote Desktop Services],StartRemoteApplicationEx method, termserv.iworkspace2_startremoteapplicationex, workspaceruntime/IWorkspace2::StartRemoteApplicationEx, workspaceruntime/IWorkspace3::StartRemoteApplicationEx
 ms.topic: method
-f1_keywords: 
- - "workspaceruntime/IWorkspace2.StartRemoteApplicationEx"
+f1_keywords:
+- workspaceruntime/IWorkspace2.StartRemoteApplicationEx
 dev_langs:
- - c++
+- c++
 req.header: workspaceruntime.h
 req.include-header: Workspaceruntime.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - WkspRt.exe
+- WkspRt.exe
 api_name:
- - IWorkspace2.StartRemoteApplicationEx
- - IWorkspace3.StartRemoteApplicationEx
- - Workspace.StartRemoteApplicationEx
+- IWorkspace2.StartRemoteApplicationEx
+- IWorkspace3.StartRemoteApplicationEx
+- Workspace.StartRemoteApplicationEx
 targetos: Windows
 req.typenames: 
 req.redist: 

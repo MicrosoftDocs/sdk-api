@@ -1,19 +1,17 @@
 ---
 UID: NF:msopc.IOpcSignatureReference.GetDigestValue
 title: IOpcSignatureReference::GetDigestValue (msopc.h)
-
 description: Gets the digest value that is calculated for the referenced XML element when the element is signed.
 old-location: opc\iopcsignaturereference_getdigestvalue.htm
 tech.root: OPC
 ms.assetid: 0bb46de1-63af-4ac1-b37b-42a2b174b590
-
 ms.date: 12/05/2018
 ms.keywords: GetDigestValue, GetDigestValue method [Open Packaging Conventions], GetDigestValue method [Open Packaging Conventions],IOpcSignatureReference interface, IOpcSignatureReference interface [Open Packaging Conventions],GetDigestValue method, IOpcSignatureReference.GetDigestValue, IOpcSignatureReference::GetDigestValue, msopc/IOpcSignatureReference::GetDigestValue, opc.iopcsignaturereference_getdigestvalue
 ms.topic: method
-f1_keywords: 
- - "msopc/IOpcSignatureReference.GetDigestValue"
+f1_keywords:
+- msopc/IOpcSignatureReference.GetDigestValue
 dev_langs:
- - c++
+- c++
 req.header: msopc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msopc.h
+- msopc.h
 api_name:
- - IOpcSignatureReference.GetDigestValue
+- IOpcSignatureReference.GetDigestValue
 targetos: Windows
 req.typenames: 
 req.redist: 

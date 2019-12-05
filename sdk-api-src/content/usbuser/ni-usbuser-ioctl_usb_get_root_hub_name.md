@@ -1,19 +1,17 @@
 ---
 UID: NI:usbuser.IOCTL_USB_GET_ROOT_HUB_NAME
 title: IOCTL_USB_GET_ROOT_HUB_NAME (usbuser.h)
-
 description: The IOCTL_USB_GET_ROOT_HUB_NAME I/O control request is used with the USB_ROOT_HUB_NAME structure to retrieve the symbolic link name of the root hub.IOCTL_USB_GET_ROOT_HUB_NAME is a user-mode I/O control request.
 old-location: buses\ioctl_usb_get_root_hub_name.htm
 tech.root: usbref
 ms.assetid: f1d7ab17-516a-4f6e-b343-3f67a6e07ae4
-
 ms.date: 12/05/2018
 ms.keywords: IOCTL_USB_GET_ROOT_HUB_NAME, IOCTL_USB_GET_ROOT_HUB_NAME control, IOCTL_USB_GET_ROOT_HUB_NAME control code [Buses], buses.ioctl_usb_get_root_hub_name, usbirp_cf8d4d13-20cc-4134-8050-e3cd376a632e.xml, usbuser/IOCTL_USB_GET_ROOT_HUB_NAME
 ms.topic: ioctl
-f1_keywords: 
- - "usbuser/IOCTL_USB_GET_ROOT_HUB_NAME"
+f1_keywords:
+- usbuser/IOCTL_USB_GET_ROOT_HUB_NAME
 dev_langs:
- - c++
+- c++
 req.header: usbuser.h
 req.include-header: Usbioctl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - usbuser.h
+- usbuser.h
 api_name:
- - IOCTL_USB_GET_ROOT_HUB_NAME
+- IOCTL_USB_GET_ROOT_HUB_NAME
 targetos: Windows
 req.typenames: 
 req.redist: 

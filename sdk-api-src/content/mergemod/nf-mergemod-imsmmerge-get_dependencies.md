@@ -1,19 +1,17 @@
 ---
 UID: NF:mergemod.IMsmMerge.get_Dependencies
 title: IMsmMerge::get_Dependencies (mergemod.h)
-
 description: The get_Dependencies method retrieves the Dependencies property of the Merge object.
 old-location: setup\imsmmerge_get_dependencies.htm
 tech.root: Msi
 ms.assetid: 0e59ac31-647e-4dd2-8f56-993eb4c59ab2
-
 ms.date: 12/05/2018
 ms.keywords: IMsmMerge interface,get_Dependencies method, IMsmMerge.get_Dependencies, IMsmMerge::get_Dependencies, _msi_get_dependencies_function, get_Dependencies, get_Dependencies method, get_Dependencies method,IMsmMerge interface, mergemod/IMsmMerge::get_Dependencies, setup.imsmmerge_get_dependencies
 ms.topic: method
-f1_keywords: 
- - "mergemod/IMsmMerge.get_Dependencies"
+f1_keywords:
+- mergemod/IMsmMerge.get_Dependencies
 dev_langs:
- - c++
+- c++
 req.header: mergemod.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Mergemod.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mergemod.dll
+- Mergemod.dll
 api_name:
- - IMsmMerge.get_Dependencies
+- IMsmMerge.get_Dependencies
 targetos: Windows
 req.typenames: 
 req.redist: 

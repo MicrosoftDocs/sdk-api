@@ -1,19 +1,17 @@
 ---
 UID: NF:mswmdm.IWMDMRevoked.GetRevocationURL
 title: IWMDMRevoked::GetRevocationURL (mswmdm.h)
-
 description: The GetRevocationURL method retrieves the URL from which updated components can be downloaded.
 old-location: wmdm\iwmdmrevoked_getrevocationurl.htm
 tech.root: WMDM
 ms.assetid: 0158a664-8f0b-4481-8028-46b05776a482
-
 ms.date: 12/05/2018
 ms.keywords: GetRevocationURL, GetRevocationURL method [windows Media Device Manager], GetRevocationURL method [windows Media Device Manager],IWMDMRevoked interface, IWMDMRevoked interface [windows Media Device Manager],GetRevocationURL method, IWMDMRevoked.GetRevocationURL, IWMDMRevoked::GetRevocationURL, IWMDMRevokedGetRevocationURL, mswmdm/IWMDMRevoked::GetRevocationURL, wmdm.iwmdmrevoked_getrevocationurl
 ms.topic: method
-f1_keywords: 
- - "mswmdm/IWMDMRevoked.GetRevocationURL"
+f1_keywords:
+- mswmdm/IWMDMRevoked.GetRevocationURL
 dev_langs:
- - c++
+- c++
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mssachlp.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mssachlp.lib
- - mssachlp.dll
+- mssachlp.lib
+- mssachlp.dll
 api_name:
- - IWMDMRevoked.GetRevocationURL
+- IWMDMRevoked.GetRevocationURL
 targetos: Windows
 req.typenames: 
 req.redist: 

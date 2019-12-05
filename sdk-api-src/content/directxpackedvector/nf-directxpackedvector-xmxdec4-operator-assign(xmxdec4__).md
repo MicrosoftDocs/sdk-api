@@ -3,14 +3,13 @@ UID: NF:directxpackedvector.XMXDEC4.operator-assign(XMXDEC4 &&)
 title: XMXDEC4::operator=
 description: Assigns the vector component data from one instance of XMXDEC4 to the current instance of XMXDEC4.
 ms.assetid: c5472b9e-619f-4760-9db6-54cd191e5007
-
 ms.date: 05/20/2019
 ms.keywords: XMXDEC4::operator=
 ms.topic: language-reference
-f1_keywords: 
- - "directxpackedvector/XMXDEC4::operator="
+f1_keywords:
+- directxpackedvector/XMXDEC4::operator=
 dev_langs:
- - c++
+- c++
 targetos: Windows
 req.assembly: 
 req.construct-type: function
@@ -32,13 +31,13 @@ req.type-library:
 req.umdf-ver: 
 req.unicode-ansi: 
 topic_type:
- - apiref
+- apiref
 api_type:
- - 
+- 
 api_location:
- - directxpackedvector.h
+- directxpackedvector.h
 api_name:
- - XMXDEC4::operator=
+- XMXDEC4::operator=
 ---
 
 # XMXDEC4::operator =  (const XMXDEC4&)

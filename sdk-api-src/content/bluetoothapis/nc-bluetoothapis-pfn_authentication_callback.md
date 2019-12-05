@@ -1,19 +1,17 @@
 ---
 UID: NC:bluetoothapis.PFN_AUTHENTICATION_CALLBACK
 title: PFN_AUTHENTICATION_CALLBACK (bluetoothapis.h)
-
 description: Used in conjunction with the BluetoothRegisterForAuthentication function.
 old-location: bluetooth\pfn_authentication_callback.htm
 tech.root: bluetooth
 ms.assetid: 756bfea7-ad03-4fba-b591-42796e7d52ff
-
 ms.date: 12/05/2018
 ms.keywords: PFN_AUTHENTICATION_CALLBACK, PFN_AUTHENTICATION_CALLBACK callback, PFN_AUTHENTICATION_CALLBACK callback function [Bluetooth], bluetooth.pfn_authentication_callback, bluetoothapis/PFN_AUTHENTICATION_CALLBACK
 ms.topic: callback
-f1_keywords: 
- - "bluetoothapis/PFN_AUTHENTICATION_CALLBACK"
+f1_keywords:
+- bluetoothapis/PFN_AUTHENTICATION_CALLBACK
 dev_langs:
- - c++
+- c++
 req.header: bluetoothapis.h
 req.include-header: Bthsdpdef.h, BluetoothAPIs.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - BluetoothAPIs.h
+- BluetoothAPIs.h
 api_name:
- - PFN_AUTHENTICATION_CALLBACK
+- PFN_AUTHENTICATION_CALLBACK
 targetos: Windows
 req.typenames: 
 req.redist: 

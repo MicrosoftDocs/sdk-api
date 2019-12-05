@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IFileDialog.SetClientGuid
 title: IFileDialog::SetClientGuid (shobjidl_core.h)
-
 description: Enables a calling application to associate a GUID with a dialog's persisted state.
 old-location: shell\IFileDialog_SetClientGuid.htm
 tech.root: shell
 ms.assetid: 2ab7d8bb-068d-4c5b-b273-68c7fc4f9956
-
 ms.date: 12/05/2018
 ms.keywords: IFileDialog interface [Windows Shell],SetClientGuid method, IFileDialog.SetClientGuid, IFileDialog::SetClientGuid, SetClientGuid, SetClientGuid method [Windows Shell], SetClientGuid method [Windows Shell],IFileDialog interface, shell.IFileDialog_SetClientGuid, shell_IFileDialog_SetClientGuid, shobjidl_core/IFileDialog::SetClientGuid
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IFileDialog.SetClientGuid"
+f1_keywords:
+- shobjidl_core/IFileDialog.SetClientGuid
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - IFileDialog.SetClientGuid
+- IFileDialog.SetClientGuid
 targetos: Windows
 req.typenames: 
 req.redist: 

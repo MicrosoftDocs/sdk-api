@@ -1,19 +1,17 @@
 ---
 UID: NF:shlwapi.WhichPlatform
 title: WhichPlatform function (shlwapi.h)
-
 description: WhichPlatform may be altered or unavailable.
 old-location: shell\WhichPlatform.htm
 tech.root: shell
 ms.assetid: 14af733b-81b4-40a2-b93b-6f387b181f12
-
 ms.date: 12/05/2018
 ms.keywords: WhichPlatform, WhichPlatform function [Windows Shell], _win32_WhichPlatform, shell.WhichPlatform, shlwapi/WhichPlatform
 ms.topic: function
-f1_keywords: 
- - "shlwapi/WhichPlatform"
+f1_keywords:
+- shlwapi/WhichPlatform
 dev_langs:
- - c++
+- c++
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Shlwapi.dll (version 5.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Shlwapi.dll
+- Shlwapi.dll
 api_name:
- - WhichPlatform
+- WhichPlatform
 targetos: Windows
 req.typenames: 
 req.redist: 

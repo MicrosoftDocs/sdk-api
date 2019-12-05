@@ -1,19 +1,17 @@
 ---
 UID: NF:dcomp.IDCompositionArithmeticCompositeEffect.SetClampOutput
 title: IDCompositionArithmeticCompositeEffect::SetClampOutput (dcomp.h)
-
 description: Specifies whether to clamp color values before the effect passes the values to the next effect in the graph.
 old-location: directcomp\idcompositionarithmeticcompositeeffect_setclampoutput.htm
 tech.root: directcomp
 ms.assetid: 6558E6E7-FEF3-43F0-8508-197BA1DE3D10
-
 ms.date: 12/05/2018
 ms.keywords: IDCompositionArithmeticCompositeEffect interface [DirectComposition],SetClampOutput method, IDCompositionArithmeticCompositeEffect.SetClampOutput, IDCompositionArithmeticCompositeEffect::SetClampOutput, SetClampOutput, SetClampOutput method [DirectComposition], SetClampOutput method [DirectComposition],IDCompositionArithmeticCompositeEffect interface, dcomp/IDCompositionArithmeticCompositeEffect::SetClampOutput, directcomp.idcompositionarithmeticcompositeeffect_setclampoutput
 ms.topic: method
-f1_keywords: 
- - "dcomp/IDCompositionArithmeticCompositeEffect.SetClampOutput"
+f1_keywords:
+- dcomp/IDCompositionArithmeticCompositeEffect.SetClampOutput
 dev_langs:
- - c++
+- c++
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dcomp.lib
 req.dll: Dcomp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dcomp.dll
+- Dcomp.dll
 api_name:
- - IDCompositionArithmeticCompositeEffect.SetClampOutput
+- IDCompositionArithmeticCompositeEffect.SetClampOutput
 targetos: Windows
 req.typenames: 
 req.redist: 

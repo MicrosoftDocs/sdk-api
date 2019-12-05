@@ -1,19 +1,17 @@
 ---
 UID: NS:digitalv.__unnamed_struct_8
 title: MCI_DGV_INFO_PARMSW (digitalv.h)
-
 description: The MCI_DGV_INFO_PARMS structure contains parameters for the MCI_INFO command for digital-video devices.
 old-location: multimedia\mci_dgv_info_parms.htm
 tech.root: Multimedia
 ms.assetid: 812a2445-d7a0-4751-8af5-7c9d5e673e27
-
 ms.date: 12/05/2018
-ms.keywords: "*LPMCI_DGV_INFO_PARMSW, MCI_DGV_INFO_PARMS, MCI_DGV_INFO_PARMS structure [Windows Multimedia], MCI_DGV_INFO_PARMSW, _win32_MCI_DGV_INFO_PARMS_str, digitalv/MCI_DGV_INFO_PARMS, multimedia.mci_dgv_info_parms"
+ms.keywords: '*LPMCI_DGV_INFO_PARMSW, MCI_DGV_INFO_PARMS, MCI_DGV_INFO_PARMS structure [Windows Multimedia], MCI_DGV_INFO_PARMSW, _win32_MCI_DGV_INFO_PARMS_str, digitalv/MCI_DGV_INFO_PARMS, multimedia.mci_dgv_info_parms'
 ms.topic: struct
-f1_keywords: 
- - "digitalv/MCI_DGV_INFO_PARMS"
+f1_keywords:
+- digitalv/MCI_DGV_INFO_PARMS
 dev_langs:
- - c++
+- c++
 req.header: digitalv.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Digitalv.h
+- Digitalv.h
 api_name:
- - MCI_DGV_INFO_PARMS
- - MCI_DGV_INFO_PARMSW
+- MCI_DGV_INFO_PARMS
+- MCI_DGV_INFO_PARMSW
 targetos: Windows
 req.typenames: MCI_DGV_INFO_PARMSW
 req.redist: 

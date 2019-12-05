@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi.lineBlindTransfer
 title: lineBlindTransfer function (tapi.h)
-
 description: The lineBlindTransfer function performs a blind or single-step transfer of the specified call to the specified destination address.
 old-location: tapi2\lineblindtransfer.htm
 tech.root: Tapi
 ms.assetid: c1997933-475e-4bcd-be44-ad92a2a678eb
-
 ms.date: 12/05/2018
-ms.keywords: "_tapi2_lineblindtransfer, lineBlindTransfer, lineBlindTransfer function [TAPI 2.2], lineBlindTransferA, lineBlindTransferW, tapi/lineBlindTransfer, tapi/lineBlindTransferA, tapi/lineBlindTransferW, tapi2.lineblindtransfer"
+ms.keywords: _tapi2_lineblindtransfer, lineBlindTransfer, lineBlindTransfer function [TAPI 2.2], lineBlindTransferA, lineBlindTransferW, tapi/lineBlindTransfer, tapi/lineBlindTransferA, tapi/lineBlindTransferW, tapi2.lineblindtransfer
 ms.topic: function
-f1_keywords: 
- - "tapi/lineBlindTransfer"
+f1_keywords:
+- tapi/lineBlindTransfer
 dev_langs:
- - c++
+- c++
 req.header: tapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Tapi32.lib
 req.dll: Tapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Tapi32.dll
+- Tapi32.dll
 api_name:
- - lineBlindTransfer
- - lineBlindTransferA
- - lineBlindTransferW
+- lineBlindTransfer
+- lineBlindTransferA
+- lineBlindTransferW
 targetos: Windows
 req.typenames: 
 req.redist: 

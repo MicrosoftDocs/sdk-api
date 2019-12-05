@@ -1,19 +1,17 @@
 ---
 UID: NS:commctrl.__unnamed_struct_0
 title: TBINSERTMARK (commctrl.h)
-
 description: Contains information on the insertion mark in a toolbar control.
 old-location: controls\TBINSERTMARK.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\toolbar\structures\tbinsertmark.htm
-
 ms.date: 12/05/2018
-ms.keywords: "*LPTBINSERTMARK, 0, LPTBINSERTMARK, LPTBINSERTMARK structure pointer [Windows Controls], TBIMHT_AFTER, TBIMHT_BACKGROUND, TBINSERTMARK, TBINSERTMARK structure [Windows Controls], _win32_TBINSERTMARK, _win32_TBINSERTMARK_cpp, commctrl/LPTBINSERTMARK, commctrl/TBINSERTMARK, controls.TBINSERTMARK, controls._win32_TBINSERTMARK"
+ms.keywords: '*LPTBINSERTMARK, 0, LPTBINSERTMARK, LPTBINSERTMARK structure pointer [Windows Controls], TBIMHT_AFTER, TBIMHT_BACKGROUND, TBINSERTMARK, TBINSERTMARK structure [Windows Controls], _win32_TBINSERTMARK, _win32_TBINSERTMARK_cpp, commctrl/LPTBINSERTMARK, commctrl/TBINSERTMARK, controls.TBINSERTMARK, controls._win32_TBINSERTMARK'
 ms.topic: struct
-f1_keywords: 
- - "commctrl/TBINSERTMARK"
+f1_keywords:
+- commctrl/TBINSERTMARK
 dev_langs:
- - c++
+- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Commctrl.h
+- Commctrl.h
 api_name:
- - TBINSERTMARK
+- TBINSERTMARK
 targetos: Windows
 req.typenames: TBINSERTMARK, *LPTBINSERTMARK
 req.redist: 

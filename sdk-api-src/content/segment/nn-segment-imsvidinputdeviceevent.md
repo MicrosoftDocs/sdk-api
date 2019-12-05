@@ -1,19 +1,17 @@
 ---
 UID: NN:segment.IMSVidInputDeviceEvent
 title: IMSVidInputDeviceEvent (segment.h)
-
 description: This topic applies to Windows XP or later. The IMSVidInputDeviceEvent interface is the base interface for input device events. Do not implement this interface directly. Other event interfaces derive from this interface.
 old-location: mstv\imsvidinputdeviceevent.htm
 tech.root: mstv
 ms.assetid: 9f35953a-3fea-4187-ad14-28f2c8dc2716
-
 ms.date: 12/05/2018
 ms.keywords: IMSVidInputDeviceEvent, IMSVidInputDeviceEvent interface [Microsoft TV Technologies], IMSVidInputDeviceEvent interface [Microsoft TV Technologies],described, IMSVidInputDeviceEventInterface, mstv.imsvidinputdeviceevent, segment/IMSVidInputDeviceEvent
 ms.topic: interface
-f1_keywords: 
- - "segment/IMSVidInputDeviceEvent"
+f1_keywords:
+- segment/IMSVidInputDeviceEvent
 dev_langs:
- - c++
+- c++
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - segment.h
+- segment.h
 api_name:
- - IMSVidInputDeviceEvent
+- IMSVidInputDeviceEvent
 targetos: Windows
 req.typenames: 
 req.redist: 

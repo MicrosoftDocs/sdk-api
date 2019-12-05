@@ -1,19 +1,17 @@
 ---
 UID: NF:scesvc.ISceSvcAttachmentData.Initialize
 title: ISceSvcAttachmentData::Initialize (scesvc.h)
-
 description: The Initialize method informs the Security Configuration snap-in that the snap-in extension is loaded, and it establishes a context for communications.
 old-location: security\iscesvcattachmentdata_initialize.htm
 tech.root: SecMgmt
 ms.assetid: 2c5d087d-774b-4cfb-a458-9a5b1c6106c7
-
 ms.date: 12/05/2018
 ms.keywords: ISceSvcAttachmentData interface [Security],Initialize method, ISceSvcAttachmentData.Initialize, ISceSvcAttachmentData::Initialize, Initialize, Initialize method [Security], Initialize method [Security],ISceSvcAttachmentData interface, _config_iscesvcattachmentdata_initialize, scesvc/ISceSvcAttachmentData::Initialize, security.iscesvcattachmentdata_initialize
 ms.topic: method
-f1_keywords: 
- - "scesvc/ISceSvcAttachmentData.Initialize"
+f1_keywords:
+- scesvc/ISceSvcAttachmentData.Initialize
 dev_langs:
- - c++
+- c++
 req.header: scesvc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wsecedit.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wsecedit.dll
+- Wsecedit.dll
 api_name:
- - ISceSvcAttachmentData.Initialize
+- ISceSvcAttachmentData.Initialize
 targetos: Windows
 req.typenames: 
 req.redist: 

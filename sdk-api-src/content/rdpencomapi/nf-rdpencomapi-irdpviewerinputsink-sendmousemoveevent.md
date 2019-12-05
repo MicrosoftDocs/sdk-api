@@ -1,19 +1,17 @@
 ---
 UID: NF:rdpencomapi.IRDPViewerInputSink.SendMouseMoveEvent
 title: IRDPViewerInputSink::SendMouseMoveEvent (rdpencomapi.h)
-
 description: Sends a mouse move event message.
 old-location: rdp\irdpviewerinputsink_sendmousemoveevent.htm
 tech.root: rdp
 ms.assetid: 0888E762-A0B3-48EA-B928-42E3E801AF15
-
 ms.date: 12/05/2018
 ms.keywords: IRDPViewerInputSink interface [RDP],SendMouseMoveEvent method, IRDPViewerInputSink.SendMouseMoveEvent, IRDPViewerInputSink::SendMouseMoveEvent, SendMouseMoveEvent, SendMouseMoveEvent method [RDP], SendMouseMoveEvent method [RDP],IRDPViewerInputSink interface, rdp.irdpviewerinputsink_sendmousemoveevent, rdpencomapi/IRDPViewerInputSink::SendMouseMoveEvent
 ms.topic: method
-f1_keywords: 
- - "rdpencomapi/IRDPViewerInputSink.SendMouseMoveEvent"
+f1_keywords:
+- rdpencomapi/IRDPViewerInputSink.SendMouseMoveEvent
 dev_langs:
- - c++
+- c++
 req.header: rdpencomapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: RdpEncom.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - RdpEncom.dll
+- RdpEncom.dll
 api_name:
- - IRDPViewerInputSink.SendMouseMoveEvent
+- IRDPViewerInputSink.SendMouseMoveEvent
 targetos: Windows
 req.typenames: 
 req.redist: 

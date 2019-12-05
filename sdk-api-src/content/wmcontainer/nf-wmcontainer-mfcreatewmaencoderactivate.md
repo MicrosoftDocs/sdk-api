@@ -1,19 +1,17 @@
 ---
 UID: NF:wmcontainer.MFCreateWMAEncoderActivate
 title: MFCreateWMAEncoderActivate function (wmcontainer.h)
-
 description: Creates an activation object that can be used to create a Windows Media Audio (WMA) encoder.
 old-location: mf\mfcreatewmaencoderactivate.htm
 tech.root: medfound
 ms.assetid: b322a6a2-edf6-428e-8477-2fcd08e70aa2
-
 ms.date: 12/05/2018
 ms.keywords: MFCreateWMAEncoderActivate, MFCreateWMAEncoderActivate function [Media Foundation], b322a6a2-edf6-428e-8477-2fcd08e70aa2, mf.mfcreatewmaencoderactivate, wmcontainer/MFCreateWMAEncoderActivate
 ms.topic: function
-f1_keywords: 
- - "wmcontainer/MFCreateWMAEncoderActivate"
+f1_keywords:
+- wmcontainer/MFCreateWMAEncoderActivate
 dev_langs:
- - c++
+- c++
 req.header: wmcontainer.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Mf.lib
 req.dll: Mf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - mf.dll
+- mf.dll
 api_name:
- - MFCreateWMAEncoderActivate
+- MFCreateWMAEncoderActivate
 targetos: Windows
 req.typenames: 
 req.redist: 

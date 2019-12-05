@@ -1,19 +1,17 @@
 ---
 UID: NF:gdiplusgraphics.Graphics.Flush
 title: Graphics::Flush (gdiplusgraphics.h)
-
 description: The Graphics::Flush method flushes all pending graphics operations.
 old-location: gdiplus\_gdiplus_CLASS_Graphics_Flush_intention_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\flush.htm
-
 ms.date: 12/05/2018
 ms.keywords: Flush, Flush method [GDI+], Flush method [GDI+],Graphics class, Graphics class [GDI+],Flush method, Graphics.Flush, Graphics::Flush, _gdiplus_CLASS_Graphics_Flush_intention_, gdiplus._gdiplus_CLASS_Graphics_Flush_intention_
 ms.topic: method
-f1_keywords: 
- - "gdiplusgraphics/Graphics.Flush"
+f1_keywords:
+- gdiplusgraphics/Graphics.Flush
 dev_langs:
- - c++
+- c++
 req.header: gdiplusgraphics.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - Graphics.Flush
+- Graphics.Flush
 targetos: Windows
 req.typenames: 
 req.redist: 

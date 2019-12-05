@@ -1,19 +1,17 @@
 ---
 UID: NF:msctf.ITfDisplayAttributeInfo.GetGUID
 title: ITfDisplayAttributeInfo::GetGUID (msctf.h)
-
 description: ITfDisplayAttributeInfo::GetGUID method
 old-location: tsf\itfdisplayattributeinfo_getguid.htm
 tech.root: TSF
 ms.assetid: 5202bf19-ae24-44f4-98f0-1f9d64d383a6
-
 ms.date: 12/05/2018
 ms.keywords: GetGUID, GetGUID method [Text Services Framework], GetGUID method [Text Services Framework],ITfDisplayAttributeInfo interface, ITfDisplayAttributeInfo interface [Text Services Framework],GetGUID method, ITfDisplayAttributeInfo.GetGUID, ITfDisplayAttributeInfo::GetGUID, _tsf_itfdisplayattributeinfo_getguid_ref, msctf/ITfDisplayAttributeInfo::GetGUID, tsf.itfdisplayattributeinfo_getguid
 ms.topic: method
-f1_keywords: 
- - "msctf/ITfDisplayAttributeInfo.GetGUID"
+f1_keywords:
+- msctf/ITfDisplayAttributeInfo.GetGUID
 dev_langs:
- - c++
+- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msctf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msctf.dll
+- Msctf.dll
 api_name:
- - ITfDisplayAttributeInfo.GetGUID
+- ITfDisplayAttributeInfo.GetGUID
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

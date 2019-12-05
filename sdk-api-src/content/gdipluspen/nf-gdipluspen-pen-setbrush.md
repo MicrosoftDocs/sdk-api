@@ -1,19 +1,17 @@
 ---
 UID: NF:gdipluspen.Pen.SetBrush
 title: Pen::SetBrush (gdipluspen.h)
-
 description: The Pen::SetBrush method sets the Brush object that a pen uses to fill a line.
 old-location: gdiplus\_gdiplus_CLASS_Pen_SetBrush_brush_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\penclass\penmethods\setbrush.htm
-
 ms.date: 12/05/2018
 ms.keywords: Pen class [GDI+],SetBrush method, Pen.SetBrush, Pen::SetBrush, SetBrush, SetBrush method [GDI+], SetBrush method [GDI+],Pen class, _gdiplus_CLASS_Pen_SetBrush_brush_, gdiplus._gdiplus_CLASS_Pen_SetBrush_brush_
 ms.topic: method
-f1_keywords: 
- - "gdipluspen/Pen.SetBrush"
+f1_keywords:
+- gdipluspen/Pen.SetBrush
 dev_langs:
- - c++
+- c++
 req.header: gdipluspen.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - Pen.SetBrush
+- Pen.SetBrush
 targetos: Windows
 req.typenames: 
 req.redist: 

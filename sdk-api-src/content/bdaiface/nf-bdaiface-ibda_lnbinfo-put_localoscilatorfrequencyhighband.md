@@ -1,19 +1,17 @@
 ---
 UID: NF:bdaiface.IBDA_LNBInfo.put_LocalOscilatorFrequencyHighBand
 title: IBDA_LNBInfo::put_LocalOscilatorFrequencyHighBand (bdaiface.h)
-
 description: The put_LocalOscilatorFrequencyHighBand method specifies the frequency of the local oscillator's high band.
 old-location: mstv\ibda_lnbinfo_put_localoscilatorfrequencyhighband.htm
 tech.root: mstv
 ms.assetid: 2a1de764-aaab-4801-ba34-65c05d245ba0
-
 ms.date: 12/05/2018
 ms.keywords: IBDA_LNBInfo interface [Microsoft TV Technologies],put_LocalOscilatorFrequencyHighBand method, IBDA_LNBInfo.put_LocalOscilatorFrequencyHighBand, IBDA_LNBInfo::put_LocalOscilatorFrequencyHighBand, IBDA_LNBInfoput_LocalOscilatorFrequencyHighBand, bdaiface/IBDA_LNBInfo::put_LocalOscilatorFrequencyHighBand, mstv.ibda_lnbinfo_put_localoscilatorfrequencyhighband, put_LocalOscilatorFrequencyHighBand, put_LocalOscilatorFrequencyHighBand method [Microsoft TV Technologies], put_LocalOscilatorFrequencyHighBand method [Microsoft TV Technologies],IBDA_LNBInfo interface
 ms.topic: method
-f1_keywords: 
- - "bdaiface/IBDA_LNBInfo.put_LocalOscilatorFrequencyHighBand"
+f1_keywords:
+- bdaiface/IBDA_LNBInfo.put_LocalOscilatorFrequencyHighBand
 dev_langs:
- - c++
+- c++
 req.header: bdaiface.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - bdaiface.h
+- bdaiface.h
 api_name:
- - IBDA_LNBInfo.put_LocalOscilatorFrequencyHighBand
+- IBDA_LNBInfo.put_LocalOscilatorFrequencyHighBand
 targetos: Windows
 req.typenames: 
 req.redist: 

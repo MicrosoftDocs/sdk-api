@@ -1,19 +1,17 @@
 ---
 UID: NF:winuser.AdjustWindowRectEx
 title: AdjustWindowRectEx function (winuser.h)
-
 description: Calculates the required size of the window rectangle, based on the desired size of the client rectangle. The window rectangle can then be passed to the CreateWindowEx function to create a window whose client area is the desired size.
 old-location: winmsg\adjustwindowrectex.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowfunctions\adjustwindowrectex.htm
-
 ms.date: 12/05/2018
 ms.keywords: AdjustWindowRectEx, AdjustWindowRectEx function [Windows and Messages], _win32_AdjustWindowRectEx, _win32_adjustwindowrectex_cpp, winmsg.adjustwindowrectex, winui._win32_adjustwindowrectex, winuser/AdjustWindowRectEx
 ms.topic: function
-f1_keywords: 
- - "winuser/AdjustWindowRectEx"
+f1_keywords:
+- winuser/AdjustWindowRectEx
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,19 +30,19 @@ req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - User32.dll
- - Ext-MS-Win-NTUser-Window-l1-1-0.dll
- - Ext-MS-Win-NTUser-Window-l1-1-1.dll
- - Ext-MS-Win-NTUser-Window-l1-1-2.dll
- - ext-ms-win-ntuser-window-l1-1-3.dll
- - Ext-MS-Win-NTUser-Window-L1-1-4.dll
+- User32.dll
+- Ext-MS-Win-NTUser-Window-l1-1-0.dll
+- Ext-MS-Win-NTUser-Window-l1-1-1.dll
+- Ext-MS-Win-NTUser-Window-l1-1-2.dll
+- ext-ms-win-ntuser-window-l1-1-3.dll
+- Ext-MS-Win-NTUser-Window-L1-1-4.dll
 api_name:
- - AdjustWindowRectEx
+- AdjustWindowRectEx
 targetos: Windows
 req.typenames: 
 req.redist: 

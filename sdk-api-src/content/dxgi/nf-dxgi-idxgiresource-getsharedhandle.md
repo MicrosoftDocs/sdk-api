@@ -1,19 +1,17 @@
 ---
 UID: NF:dxgi.IDXGIResource.GetSharedHandle
 title: IDXGIResource::GetSharedHandle (dxgi.h)
-
 description: Gets the handle to a shared resource.
 old-location: direct3ddxgi\idxgiresource_getsharedhandle.htm
 tech.root: direct3ddxgi
 ms.assetid: VS|directx_sdk|~\idxgiresource_getsharedhandle.htm
-
 ms.date: 12/05/2018
 ms.keywords: GetSharedHandle, GetSharedHandle method [DXGI], GetSharedHandle method [DXGI],IDXGIResource interface, IDXGIResource interface [DXGI],GetSharedHandle method, IDXGIResource.GetSharedHandle, IDXGIResource::GetSharedHandle, direct3ddxgi.idxgiresource_getsharedhandle, dxgi/IDXGIResource::GetSharedHandle, fea59fdb-2526-c2b6-2bd7-58a9fe56c221
 ms.topic: method
-f1_keywords: 
- - "dxgi/IDXGIResource.GetSharedHandle"
+f1_keywords:
+- dxgi/IDXGIResource.GetSharedHandle
 dev_langs:
- - c++
+- c++
 req.header: dxgi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: DXGI.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - DXGI.lib
- - DXGI.dll
+- DXGI.lib
+- DXGI.dll
 api_name:
- - IDXGIResource.GetSharedHandle
+- IDXGIResource.GetSharedHandle
 targetos: Windows
 req.typenames: 
 req.redist: 

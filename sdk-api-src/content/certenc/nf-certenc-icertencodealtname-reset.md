@@ -1,19 +1,17 @@
 ---
 UID: NF:certenc.ICertEncodeAltName.Reset
 title: ICertEncodeAltName::Reset (certenc.h)
-
 description: Specifies the size of the alternate name array in this object. The value of all elements in the array are set to zero.
 old-location: security\icertencodealtname_reset.htm
 tech.root: SecCrypto
 ms.assetid: 99aa43fe-534b-4696-8bfc-7049b16be1cf
-
 ms.date: 12/05/2018
 ms.keywords: CCertEncodeAltName object [Security],Reset method, ICertEncodeAltName interface [Security],Reset method, ICertEncodeAltName.Reset, ICertEncodeAltName::Reset, Reset, Reset method [Security], Reset method [Security],CCertEncodeAltName object, Reset method [Security],ICertEncodeAltName interface, certenc/ICertEncodeAltName::Reset, security.icertencodealtname_reset
 ms.topic: method
-f1_keywords: 
- - "certenc/ICertEncodeAltName.Reset"
+f1_keywords:
+- certenc/ICertEncodeAltName.Reset
 dev_langs:
- - c++
+- c++
 req.header: certenc.h
 req.include-header: Certsrv.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Certidl.lib
 req.dll: Certenc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Certenc.dll
+- Certenc.dll
 api_name:
- - ICertEncodeAltName.Reset
- - CCertEncodeAltName.Reset
+- ICertEncodeAltName.Reset
+- CCertEncodeAltName.Reset
 targetos: Windows
 req.typenames: 
 req.redist: 

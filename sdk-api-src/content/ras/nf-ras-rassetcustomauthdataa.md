@@ -1,19 +1,17 @@
 ---
 UID: NF:ras.RasSetCustomAuthDataA
 title: RasSetCustomAuthDataA function (ras.h)
-
 description: Use the RasSetCustomAuthData function to set connection-specific authentication information. This information should not be specific to a particular user.
 old-location: rras\rassetcustomauthdata.htm
 tech.root: RRAS
 ms.assetid: a3369537-1b46-4d7b-8ee1-f6965a3f296d
-
 ms.date: 12/05/2018
 ms.keywords: RasSetCustomAuthData, RasSetCustomAuthData function [RAS], RasSetCustomAuthDataA, RasSetCustomAuthDataW, _ras_rassetcustomauthdata, ras/RasSetCustomAuthData, ras/RasSetCustomAuthDataA, ras/RasSetCustomAuthDataW, rras.rassetcustomauthdata
 ms.topic: function
-f1_keywords: 
- - "ras/RasSetCustomAuthData"
+f1_keywords:
+- ras/RasSetCustomAuthData
 dev_langs:
- - c++
+- c++
 req.header: ras.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Rasapi32.lib
 req.dll: Rasapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Rasapi32.dll
+- Rasapi32.dll
 api_name:
- - RasSetCustomAuthData
- - RasSetCustomAuthDataA
- - RasSetCustomAuthDataW
+- RasSetCustomAuthData
+- RasSetCustomAuthDataA
+- RasSetCustomAuthDataW
 targetos: Windows
 req.typenames: 
 req.redist: 

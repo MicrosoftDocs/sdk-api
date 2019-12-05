@@ -1,19 +1,17 @@
 ---
 UID: NC:ddraw.LPDDENUMCALLBACKA
 title: LPDDENUMCALLBACKA (ddraw.h)
-
 description: The DDEnumCallback function is an application-defined callback function for the DirectDrawEnumerate function.
 old-location: directdraw\ddenumcallback.htm
 tech.root: directdraw
 ms.assetid: 7F86FA67-C13B-49EE-8D17-9F54E5060A85
-
 ms.date: 12/05/2018
 ms.keywords: DDEnumCallback, DDEnumCallback callback function [DirectDraw], LPDDENUMCALLBACK, LPDDENUMCALLBACK callback, LPDDENUMCALLBACKA, LPDDENUMCALLBACKW, ddraw/DDEnumCallback, directdraw.ddenumcallback
 ms.topic: callback
-f1_keywords: 
- - "ddraw/DDEnumCallback"
+f1_keywords:
+- ddraw/DDEnumCallback
 dev_langs:
- - c++
+- c++
 req.header: ddraw.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Ddraw.h
+- Ddraw.h
 api_name:
- - DDEnumCallback
- - lpddenumcallbacka
+- DDEnumCallback
+- lpddenumcallbacka
 targetos: Windows
 req.typenames: 
 req.redist: 

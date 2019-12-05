@@ -1,19 +1,17 @@
 ---
 UID: NF:wincodec.IWICPixelFormatInfo.GetColorContext
 title: IWICPixelFormatInfo::GetColorContext (wincodec.h)
-
 description: Gets the pixel format's IWICColorContext.
 old-location: wic\_wic_codec_iwicpixelformatinfo_getcolorcontext.htm
 tech.root: wic
 ms.assetid: c35fc474-cbf5-4705-b0f1-a2e24a062a7a
-
 ms.date: 12/05/2018
 ms.keywords: GetColorContext, GetColorContext method [Windows Imaging Component], GetColorContext method [Windows Imaging Component],IWICPixelFormatInfo interface, IWICPixelFormatInfo interface [Windows Imaging Component],GetColorContext method, IWICPixelFormatInfo.GetColorContext, IWICPixelFormatInfo::GetColorContext, _wic_codec_iwicpixelformatinfo_getcolorcontext, wic._wic_codec_iwicpixelformatinfo_getcolorcontext, wincodec/IWICPixelFormatInfo::GetColorContext
 ms.topic: method
-f1_keywords: 
- - "wincodec/IWICPixelFormatInfo.GetColorContext"
+f1_keywords:
+- wincodec/IWICPixelFormatInfo.GetColorContext
 dev_langs:
- - c++
+- c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Windowscodecs.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Windowscodecs.lib
- - Windowscodecs.dll
+- Windowscodecs.lib
+- Windowscodecs.dll
 api_name:
- - IWICPixelFormatInfo.GetColorContext
+- IWICPixelFormatInfo.GetColorContext
 targetos: Windows
 req.typenames: 
 req.redist: 

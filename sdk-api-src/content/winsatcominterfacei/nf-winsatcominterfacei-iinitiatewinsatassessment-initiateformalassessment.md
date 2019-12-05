@@ -1,19 +1,17 @@
 ---
 UID: NF:winsatcominterfacei.IInitiateWinSATAssessment.InitiateFormalAssessment
 title: IInitiateWinSATAssessment::InitiateFormalAssessment (winsatcominterfacei.h)
-
 description: Initiates a formal assessment.
 old-location: winsat\iinitiatewinsatassessment_initiateformalassessment.htm
 tech.root: WinSAT
 ms.assetid: 9425e41c-fe03-4c94-a5eb-686775b5fce7
-
 ms.date: 12/05/2018
 ms.keywords: IInitiateWinSATAssessment interface [WinSAT],InitiateFormalAssessment method, IInitiateWinSATAssessment.InitiateFormalAssessment, IInitiateWinSATAssessment::InitiateFormalAssessment, InitiateFormalAssessment, InitiateFormalAssessment method [WinSAT], InitiateFormalAssessment method [WinSAT],IInitiateWinSATAssessment interface, winsat.iinitiatewinsatassessment_initiateformalassessment, winsatcominterfacei/IInitiateWinSATAssessment::InitiateFormalAssessment
 ms.topic: method
-f1_keywords: 
- - "winsatcominterfacei/IInitiateWinSATAssessment.InitiateFormalAssessment"
+f1_keywords:
+- winsatcominterfacei/IInitiateWinSATAssessment.InitiateFormalAssessment
 dev_langs:
- - c++
+- c++
 req.header: winsatcominterfacei.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Winsatapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Winsatapi.dll
+- Winsatapi.dll
 api_name:
- - IInitiateWinSATAssessment.InitiateFormalAssessment
+- IInitiateWinSATAssessment.InitiateFormalAssessment
 targetos: Windows
 req.typenames: 
 req.redist: 

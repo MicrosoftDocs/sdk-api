@@ -1,19 +1,17 @@
 ---
 UID: NF:dhcpsapi.DhcpSetSubnetInfoV6
 title: DhcpSetSubnetInfoV6 function (dhcpsapi.h)
-
 description: Sets or updates the information for an IPv6 subnet defined on the DHCPv6 server.
 old-location: dhcp\dhcpsetsubnetinfov6.htm
 tech.root: DHCP
 ms.assetid: 6913881d-a7d5-4465-aadc-5a4dab1a28da
-
 ms.date: 12/05/2018
 ms.keywords: DhcpSetSubnetInfoV6, DhcpSetSubnetInfoV6 function [DHCP], dhcp.dhcpsetsubnetinfov6, dhcpsapi/DhcpSetSubnetInfoV6
 ms.topic: function
 f1_keywords:
 - dhcpsapi/DhcpSetSubnetInfoV6
 dev_langs:
- - c++
+- c++
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows

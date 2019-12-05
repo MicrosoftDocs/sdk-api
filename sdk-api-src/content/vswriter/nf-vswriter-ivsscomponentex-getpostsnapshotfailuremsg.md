@@ -1,19 +1,17 @@
 ---
 UID: NF:vswriter.IVssComponentEx.GetPostSnapshotFailureMsg
 title: IVssComponentEx::GetPostSnapshotFailureMsg (vswriter.h)
-
 description: Returns the PostSnapshot failure message string that a writer has set for a given component.
 old-location: base\ivsscomponentex_getpostsnapshotfailuremsg.htm
 tech.root: VSS
 ms.assetid: 51f96d3e-c783-42f4-9e04-94bf3a6b7c09
-
 ms.date: 12/05/2018
 ms.keywords: GetPostSnapshotFailureMsg, GetPostSnapshotFailureMsg method, GetPostSnapshotFailureMsg method,IVssComponentEx interface, IVssComponentEx interface,GetPostSnapshotFailureMsg method, IVssComponentEx.GetPostSnapshotFailureMsg, IVssComponentEx::GetPostSnapshotFailureMsg, base.ivsscomponentex_getpostsnapshotfailuremsg, vswriter/IVssComponentEx::GetPostSnapshotFailureMsg
 ms.topic: method
-f1_keywords: 
- - "vswriter/IVssComponentEx.GetPostSnapshotFailureMsg"
+f1_keywords:
+- vswriter/IVssComponentEx.GetPostSnapshotFailureMsg
 dev_langs:
- - c++
+- c++
 req.header: vswriter.h
 req.include-header: Vss.h, VsWriter.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: VssApi.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - VssApi.lib
- - VssApi.dll
+- VssApi.lib
+- VssApi.dll
 api_name:
- - IVssComponentEx.GetPostSnapshotFailureMsg
+- IVssComponentEx.GetPostSnapshotFailureMsg
 targetos: Windows
 req.typenames: 
 req.redist: 

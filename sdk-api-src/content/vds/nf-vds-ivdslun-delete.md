@@ -1,19 +1,17 @@
 ---
 UID: NF:vds.IVdsLun.Delete
 title: IVdsLun::Delete (vds.h)
-
 description: Deletes the LUN and all of its plexes. Any data on the LUN is lost. VDS frees the extents allocated to the LUN.
 old-location: base\ivdslun_delete.htm
 tech.root: VDS
 ms.assetid: 21522c62-0b60-4c70-b2bd-7a33aa94d280
-
 ms.date: 12/05/2018
 ms.keywords: Delete, Delete method [VDS], Delete method [VDS],IVdsLun interface, IVdsLun interface [VDS],Delete method, IVdsLun.Delete, IVdsLun::Delete, base.ivdslun_delete, vds/IVdsLun::Delete, vdshwprv/IVdsLun::Delete
 ms.topic: method
-f1_keywords: 
- - "vds/IVdsLun.Delete"
+f1_keywords:
+- vds/IVdsLun.Delete
 dev_langs:
- - c++
+- c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Uuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Uuid.lib
- - Uuid.dll
+- Uuid.lib
+- Uuid.dll
 api_name:
- - IVdsLun.Delete
+- IVdsLun.Delete
 targetos: Windows
 req.typenames: 
 req.redist: 

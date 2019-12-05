@@ -1,19 +1,17 @@
 ---
 UID: NF:propvarutil.InitPropVariantFromGUIDAsBuffer
 title: InitPropVariantFromGUIDAsBuffer function (propvarutil.h)
-
 description: Initializes a PROPVARIANT structure based on a GUID. The structure is initialized as VT_VECTOR | VT_UI1.
 old-location: properties\InitPropVariantFromGUIDAsBuffer.htm
 tech.root: properties
 ms.assetid: 9ff3ec09-3314-4830-b970-b33f5a53d66c
-
 ms.date: 12/05/2018
 ms.keywords: InitPropVariantFromGUIDAsBuffer, InitPropVariantFromGUIDAsBuffer function [Windows Properties], properties.InitPropVariantFromGUIDAsBuffer, propvarutil/InitPropVariantFromGUIDAsBuffer, shell.InitPropVariantFromGUIDAsBuffer, shell_InitPropVariantFromGUIDAsBuffer
 ms.topic: function
-f1_keywords: 
- - "propvarutil/InitPropVariantFromGUIDAsBuffer"
+f1_keywords:
+- propvarutil/InitPropVariantFromGUIDAsBuffer
 dev_langs:
- - c++
+- c++
 req.header: propvarutil.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Propvarutil.h
+- Propvarutil.h
 api_name:
- - InitPropVariantFromGUIDAsBuffer
+- InitPropVariantFromGUIDAsBuffer
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0

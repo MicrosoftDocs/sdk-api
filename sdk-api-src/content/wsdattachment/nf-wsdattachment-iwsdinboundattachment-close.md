@@ -1,19 +1,17 @@
 ---
 UID: NF:wsdattachment.IWSDInboundAttachment.Close
 title: IWSDInboundAttachment::Close (wsdattachment.h)
-
 description: Closes the current attachment MIME data stream.
 old-location: ncd\iwsdinboundattachment_close.htm
 tech.root: WsdApi
 ms.assetid: 1bd0295c-4c37-42ec-b5a5-dc7f467def05
-
 ms.date: 12/05/2018
 ms.keywords: Close, Close method, Close method,IWSDInboundAttachment interface, IWSDInboundAttachment interface,Close method, IWSDInboundAttachment.Close, IWSDInboundAttachment::Close, ncd.iwsdinboundattachment_close, wsdattachment/IWSDInboundAttachment::Close
 ms.topic: method
-f1_keywords: 
- - "wsdattachment/IWSDInboundAttachment.Close"
+f1_keywords:
+- wsdattachment/IWSDInboundAttachment.Close
 dev_langs:
- - c++
+- c++
 req.header: wsdattachment.h
 req.include-header: Wsdapi.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wsdapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wsdapi.dll
+- Wsdapi.dll
 api_name:
- - IWSDInboundAttachment.Close
+- IWSDInboundAttachment.Close
 targetos: Windows
 req.typenames: 
 req.redist: 

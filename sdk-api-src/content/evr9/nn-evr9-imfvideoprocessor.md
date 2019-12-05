@@ -1,19 +1,17 @@
 ---
 UID: NN:evr9.IMFVideoProcessor
 title: IMFVideoProcessor (evr9.h)
-
 description: Controls video processing in the Enhanced Video Renderer (EVR).
 old-location: mf\imfvideoprocessor.htm
 tech.root: medfound
 ms.assetid: 0a63c4f8-eb32-4f0c-b69b-0c16243f2f21
-
 ms.date: 12/05/2018
 ms.keywords: 0a63c4f8-eb32-4f0c-b69b-0c16243f2f21, IMFVideoProcessor, IMFVideoProcessor interface [Media Foundation], IMFVideoProcessor interface [Media Foundation],described, evr9/IMFVideoProcessor, mf.imfvideoprocessor
 ms.topic: interface
-f1_keywords: 
- - "evr9/IMFVideoProcessor"
+f1_keywords:
+- evr9/IMFVideoProcessor
 dev_langs:
- - c++
+- c++
 req.header: evr9.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - strmiids.lib
- - strmiids.dll
+- strmiids.lib
+- strmiids.dll
 api_name:
- - IMFVideoProcessor
+- IMFVideoProcessor
 targetos: Windows
 req.typenames: 
 req.redist: 

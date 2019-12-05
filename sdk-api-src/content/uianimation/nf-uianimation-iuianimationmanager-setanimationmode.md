@@ -1,19 +1,17 @@
 ---
 UID: NF:uianimation.IUIAnimationManager.SetAnimationMode
 title: IUIAnimationManager::SetAnimationMode (uianimation.h)
-
 description: Sets the animation mode.
 old-location: uianimation\iuianimationmanager_setanimationmode.htm
 tech.root: UIAnimation
 ms.assetid: b5d6c5f1-1e1c-497f-a556-f419e2c68585
-
 ms.date: 12/05/2018
 ms.keywords: IUIAnimationManager interface [Windows Animation],SetAnimationMode method, IUIAnimationManager.SetAnimationMode, IUIAnimationManager::SetAnimationMode, SetAnimationMode, SetAnimationMode method [Windows Animation], SetAnimationMode method [Windows Animation],IUIAnimationManager interface, uianimation.iuianimationmanager_setanimationmode, uianimation/IUIAnimationManager::SetAnimationMode
 ms.topic: method
-f1_keywords: 
- - "uianimation/IUIAnimationManager.SetAnimationMode"
+f1_keywords:
+- uianimation/IUIAnimationManager.SetAnimationMode
 dev_langs:
- - c++
+- c++
 req.header: uianimation.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: UIAnimation.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAnimation.dll
+- UIAnimation.dll
 api_name:
- - IUIAnimationManager.SetAnimationMode
+- IUIAnimationManager.SetAnimationMode
 targetos: Windows
 req.typenames: 
 req.redist: 

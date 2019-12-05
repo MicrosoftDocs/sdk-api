@@ -1,19 +1,17 @@
 ---
 UID: NS:commctrl._HD_TEXTFILTERW
 title: HD_TEXTFILTERW (commctrl.h)
-
 description: Contains information about header control text filters.
 old-location: controls\HDTEXTFILTER.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\header\structures\hdtextfilter.htm
-
 ms.date: 12/05/2018
-ms.keywords: "*LPHD_TEXTFILTERW, HDTEXTFILTER, HDTEXTFILTER structure [Windows Controls], HD_TEXTFILTERA, HD_TEXTFILTERW, LPHD_TEXTFILTER, LPHD_TEXTFILTER structure pointer [Windows Controls], _HD_TEXTFILTERA, _HD_TEXTFILTERW, _win32_HDTEXTFILTER_Structure, _win32_HDTEXTFILTER_Structure_cpp, commctrl/HDTEXTFILTER, commctrl/LPHD_TEXTFILTER, controls.HDTEXTFILTER, controls._win32_HDTEXTFILTER_Structure"
+ms.keywords: '*LPHD_TEXTFILTERW, HDTEXTFILTER, HDTEXTFILTER structure [Windows Controls], HD_TEXTFILTERA, HD_TEXTFILTERW, LPHD_TEXTFILTER, LPHD_TEXTFILTER structure pointer [Windows Controls], _HD_TEXTFILTERA, _HD_TEXTFILTERW, _win32_HDTEXTFILTER_Structure, _win32_HDTEXTFILTER_Structure_cpp, commctrl/HDTEXTFILTER, commctrl/LPHD_TEXTFILTER, controls.HDTEXTFILTER, controls._win32_HDTEXTFILTER_Structure'
 ms.topic: struct
-f1_keywords: 
- - "commctrl/HDTEXTFILTER"
+f1_keywords:
+- commctrl/HDTEXTFILTER
 dev_langs:
- - c++
+- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Commctrl.h
+- Commctrl.h
 api_name:
- - HDTEXTFILTER
- - HD_TEXTFILTERA
- - HD_TEXTFILTERW
+- HDTEXTFILTER
+- HD_TEXTFILTERA
+- HD_TEXTFILTERW
 targetos: Windows
 req.typenames: HD_TEXTFILTERW, *LPHD_TEXTFILTERW
 req.redist: 

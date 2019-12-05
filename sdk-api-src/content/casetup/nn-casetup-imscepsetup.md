@@ -1,19 +1,17 @@
 ---
 UID: NN:casetup.IMSCEPSetup
 title: IMSCEPSetup (casetup.h)
-
 description: Defines functionality to install and uninstall a Network Device Enrollment Service (NDES) role on a Certificate Services computer.
 old-location: security\imscepsetup.htm
 tech.root: SecCrypto
 ms.assetid: 328c6c04-7ade-4b64-bd8a-4314b6e8dc78
-
 ms.date: 12/05/2018
 ms.keywords: IMSCEPSetup, IMSCEPSetup interface [Security], IMSCEPSetup interface [Security],described, casetup/IMSCEPSetup, security.imscepsetup
 ms.topic: interface
-f1_keywords: 
- - "casetup/IMSCEPSetup"
+f1_keywords:
+- casetup/IMSCEPSetup
 dev_langs:
- - c++
+- c++
 req.header: casetup.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Certocm.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Certocm.dll
+- Certocm.dll
 api_name:
- - IMSCEPSetup
+- IMSCEPSetup
 targetos: Windows
 req.typenames: 
 req.redist: 

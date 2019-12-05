@@ -1,19 +1,17 @@
 ---
 UID: NF:dwrite_3.IDWriteFontDownloadListener.DownloadCompleted
 title: IDWriteFontDownloadListener::DownloadCompleted (dwrite_3.h)
-
 description: The DownloadCompleted method is called back on an arbitrary thread when a download operation ends.
 old-location: directwrite\idwritefontdownloadlistener_downloadcompleted.htm
 tech.root: DirectWrite
 ms.assetid: d4da0189-efe4-4ee6-4cc9-179fbda54b98
-
 ms.date: 12/05/2018
 ms.keywords: DownloadCompleted, DownloadCompleted method [Direct Write], DownloadCompleted method [Direct Write],IDWriteFontDownloadListener interface, IDWriteFontDownloadListener interface [Direct Write],DownloadCompleted method, IDWriteFontDownloadListener.DownloadCompleted, IDWriteFontDownloadListener::DownloadCompleted, directwrite.idwritefontdownloadlistener_downloadcompleted, dwrite_3/IDWriteFontDownloadListener::DownloadCompleted
 ms.topic: method
-f1_keywords: 
- - "dwrite_3/IDWriteFontDownloadListener.DownloadCompleted"
+f1_keywords:
+- dwrite_3/IDWriteFontDownloadListener.DownloadCompleted
 dev_langs:
- - c++
+- c++
 req.header: dwrite_3.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dwrite.lib
 req.dll: Dwrite.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dwrite.dll
+- dwrite.dll
 api_name:
- - IDWriteFontDownloadListener.DownloadCompleted
+- IDWriteFontDownloadListener.DownloadCompleted
 targetos: Windows
 req.typenames: 
 req.redist: 

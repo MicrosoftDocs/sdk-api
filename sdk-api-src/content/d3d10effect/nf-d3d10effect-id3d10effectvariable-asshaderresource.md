@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d10effect.ID3D10EffectVariable.AsShaderResource
 title: ID3D10EffectVariable::AsShaderResource (d3d10effect.h)
-
 description: Get a shader-resource variable.
 old-location: direct3d10\id3d10effectvariable_asshaderresource.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10effectvariable_asshaderresource.htm
-
 ms.date: 12/05/2018
 ms.keywords: 9ecc402e-7c27-c872-6635-599b5c000326, AsShaderResource, AsShaderResource method [Direct3D 10], AsShaderResource method [Direct3D 10],ID3D10EffectVariable interface, ID3D10EffectVariable interface [Direct3D 10],AsShaderResource method, ID3D10EffectVariable.AsShaderResource, ID3D10EffectVariable::AsShaderResource, d3d10effect/ID3D10EffectVariable::AsShaderResource, direct3d10.id3d10effectvariable_asshaderresource
 ms.topic: method
-f1_keywords: 
- - "d3d10effect/ID3D10EffectVariable.AsShaderResource"
+f1_keywords:
+- d3d10effect/ID3D10EffectVariable.AsShaderResource
 dev_langs:
- - c++
+- c++
 req.header: d3d10effect.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D10Effect.h
+- D3D10Effect.h
 api_name:
- - ID3D10EffectVariable.AsShaderResource
+- ID3D10EffectVariable.AsShaderResource
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:rtscom.IRealTimeStylus.GetTabletContextIdFromTablet
 title: IRealTimeStylus::GetTabletContextIdFromTablet (rtscom.h)
-
 description: Retrieves the TabletContextId property that is associated with a given tablet digitizer object.
 old-location: tablet\irealtimestylus_gettabletcontextidfromtablet.htm
 tech.root: tablet
 ms.assetid: 9f4cc882-c25f-4862-8b78-4db108d0b5d4
-
 ms.date: 12/05/2018
 ms.keywords: 9f4cc882-c25f-4862-8b78-4db108d0b5d4, GetTabletContextIdFromTablet, GetTabletContextIdFromTablet method [Tablet PC], GetTabletContextIdFromTablet method [Tablet PC],IRealTimeStylus interface, IRealTimeStylus interface [Tablet PC],GetTabletContextIdFromTablet method, IRealTimeStylus.GetTabletContextIdFromTablet, IRealTimeStylus::GetTabletContextIdFromTablet, rtscom/IRealTimeStylus::GetTabletContextIdFromTablet, tablet.irealtimestylus_gettabletcontextidfromtablet
 ms.topic: method
-f1_keywords: 
- - "rtscom/IRealTimeStylus.GetTabletContextIdFromTablet"
+f1_keywords:
+- rtscom/IRealTimeStylus.GetTabletContextIdFromTablet
 dev_langs:
- - c++
+- c++
 req.header: rtscom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: RTSCom.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - RTSCom.dll
+- RTSCom.dll
 api_name:
- - IRealTimeStylus.GetTabletContextIdFromTablet
+- IRealTimeStylus.GetTabletContextIdFromTablet
 targetos: Windows
 req.typenames: 
 req.redist: 

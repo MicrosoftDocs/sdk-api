@@ -1,19 +1,17 @@
 ---
 UID: NN:indexsrv.ISimpleCommandCreator
 title: ISimpleCommandCreator (indexsrv.h)
-
 description: Contains methods for interacting with the file catalog.
 old-location: search\isimplecommandcreator.htm
 tech.root: search
 ms.assetid: CAC6BE83-863B-4DB0-B4FF-40029C242AE9
-
 ms.date: 12/05/2018
 ms.keywords: ISimpleCommandCreator, ISimpleCommandCreator interface [search], ISimpleCommandCreator interface [search],described, indexsrv/ISimpleCommandCreator, search.isimplecommandcreator
 ms.topic: interface
-f1_keywords: 
- - "indexsrv/ISimpleCommandCreator"
+f1_keywords:
+- indexsrv/ISimpleCommandCreator
 dev_langs:
- - c++
+- c++
 req.header: indexsrv.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - indexsrv.h
+- indexsrv.h
 api_name:
- - ISimpleCommandCreator
+- ISimpleCommandCreator
 targetos: Windows
 req.typenames: 
 req.redist: 

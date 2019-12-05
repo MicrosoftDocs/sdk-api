@@ -1,19 +1,17 @@
 ---
 UID: NF:winsock2.ioctlsocket
 title: ioctlsocket function (winsock2.h)
-
 description: The ioctlsocket function controls the I/O mode of a socket.
 old-location: winsock\ioctlsocket_2.htm
 tech.root: WinSock
 ms.assetid: 048fcb8d-acd3-4917-a997-dd133db399f8
-
 ms.date: 12/05/2018
-ms.keywords: "_win32_ioctlsocket_2, ioctlsocket, ioctlsocket function [Winsock], winsock.ioctlsocket_2, winsock/ioctlsocket"
+ms.keywords: _win32_ioctlsocket_2, ioctlsocket, ioctlsocket function [Winsock], winsock.ioctlsocket_2, winsock/ioctlsocket
 ms.topic: function
-f1_keywords: 
- - "winsock2/ioctlsocket"
+f1_keywords:
+- winsock2/ioctlsocket
 dev_langs:
- - c++
+- c++
 req.header: winsock2.h
 req.include-header: Winsock2.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Ws2_32.lib
 req.dll: Ws2_32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ws2_32.dll
+- Ws2_32.dll
 api_name:
- - ioctlsocket
+- ioctlsocket
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NS:webservices._WS_ATTRIBUTE_DESCRIPTION
 title: WS_ATTRIBUTE_DESCRIPTION (webservices.h)
-
 description: Represents a mapping between a C data type and an XML attribute.
 old-location: wsw\ws_attribute_description.htm
 tech.root: wsw
 ms.assetid: 23a97842-2d9f-438a-89a7-2dd0e381a019
-
 ms.date: 12/05/2018
 ms.keywords: WS_ATTRIBUTE_DESCRIPTION, WS_ATTRIBUTE_DESCRIPTION structure [Web Services for Windows], webservices/WS_ATTRIBUTE_DESCRIPTION, wsw.ws_attribute_description
 ms.topic: struct
-f1_keywords: 
- - "webservices/WS_ATTRIBUTE_DESCRIPTION"
+f1_keywords:
+- webservices/WS_ATTRIBUTE_DESCRIPTION
 dev_langs:
- - c++
+- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WebServices.h
+- WebServices.h
 api_name:
- - WS_ATTRIBUTE_DESCRIPTION
+- WS_ATTRIBUTE_DESCRIPTION
 targetos: Windows
 req.typenames: WS_ATTRIBUTE_DESCRIPTION
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMPath.GetStrokeBrush
 title: IXpsOMPath::GetStrokeBrush (xpsobjectmodel.h)
-
 description: Gets a pointer to the resolved IXpsOMBrush interface that contains the stroke brush that has been set for the path.
 old-location: xps\ixpsompath_getstrokebrush.htm
 tech.root: printdocs
 ms.assetid: dbf786b0-5603-4735-8770-4c5e17a67253
-
 ms.date: 12/05/2018
 ms.keywords: GetStrokeBrush, GetStrokeBrush method [XPS Documents and Packaging], GetStrokeBrush method [XPS Documents and Packaging],IXpsOMPath interface, IXpsOMPath interface [XPS Documents and Packaging],GetStrokeBrush method, IXpsOMPath.GetStrokeBrush, IXpsOMPath::GetStrokeBrush, xps.ixpsompath_getstrokebrush, xpsobjectmodel/IXpsOMPath::GetStrokeBrush
 ms.topic: method
-f1_keywords: 
- - "xpsobjectmodel/IXpsOMPath.GetStrokeBrush"
+f1_keywords:
+- xpsobjectmodel/IXpsOMPath.GetStrokeBrush
 dev_langs:
- - c++
+- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsobjectmodel.h
+- xpsobjectmodel.h
 api_name:
- - IXpsOMPath.GetStrokeBrush
+- IXpsOMPath.GetStrokeBrush
 targetos: Windows
 req.typenames: 
 req.redist: 

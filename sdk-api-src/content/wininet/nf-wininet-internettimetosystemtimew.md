@@ -1,19 +1,17 @@
 ---
 UID: NF:wininet.InternetTimeToSystemTimeW
 title: InternetTimeToSystemTimeW function (wininet.h)
-
 description: Converts an HTTP time/date string to a SYSTEMTIME structure.
 old-location: wininet\internettimetosystemtime.htm
 tech.root: wininet
 ms.assetid: fcfe99de-13b2-4e93-a978-f013ddae89f0
-
 ms.date: 12/05/2018
 ms.keywords: InternetTimeToSystemTime, InternetTimeToSystemTime function [WinINet], InternetTimeToSystemTimeA, InternetTimeToSystemTimeW, _inet_internettimetosystemtime_function, wininet.internettimetosystemtime, wininet/InternetTimeToSystemTime, wininet/InternetTimeToSystemTimeA, wininet/InternetTimeToSystemTimeW
 ms.topic: function
-f1_keywords: 
- - "wininet/InternetTimeToSystemTime"
+f1_keywords:
+- wininet/InternetTimeToSystemTime
 dev_langs:
- - c++
+- c++
 req.header: wininet.h
 req.include-header: 
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib: Wininet.lib
 req.dll: Wininet.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Wininet.dll
- - API-MS-Win-Http-Time-l1-1-0.dll
- - KernelBase.dll
+- Wininet.dll
+- API-MS-Win-Http-Time-l1-1-0.dll
+- KernelBase.dll
 api_name:
- - InternetTimeToSystemTime
- - InternetTimeToSystemTimeA
- - InternetTimeToSystemTimeW
+- InternetTimeToSystemTime
+- InternetTimeToSystemTimeA
+- InternetTimeToSystemTimeW
 targetos: Windows
 req.typenames: 
 req.redist: 

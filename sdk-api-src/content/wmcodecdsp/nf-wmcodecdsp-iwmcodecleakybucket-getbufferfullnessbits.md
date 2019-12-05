@@ -1,19 +1,17 @@
 ---
 UID: NF:wmcodecdsp.IWMCodecLeakyBucket.GetBufferFullnessBits
 title: IWMCodecLeakyBucket::GetBufferFullnessBits (wmcodecdsp.h)
-
 description: Not implemented in this release.
 old-location: mf\iwmcodecleakybucketgetbufferfullnessbits.htm
 tech.root: medfound
 ms.assetid: 46eee8c9-e10e-41e3-9400-051b4484eee0
-
 ms.date: 12/05/2018
 ms.keywords: GetBufferFullnessBits, GetBufferFullnessBits method [Media Foundation], GetBufferFullnessBits method [Media Foundation],IWMCodecLeakyBucket interface, IWMCodecLeakyBucket interface [Media Foundation],GetBufferFullnessBits method, IWMCodecLeakyBucket.GetBufferFullnessBits, IWMCodecLeakyBucket::GetBufferFullnessBits, codecapi.iwmcodecleakybucketgetbufferfullnessbits, codecapi.iwmcodecleakybuffergetbufferfullnessbits, mf.iwmcodecleakybucketgetbufferfullnessbits, wmcodecdsp/IWMCodecLeakyBucket::GetBufferFullnessBits
 ms.topic: method
-f1_keywords: 
- - "wmcodecdsp/IWMCodecLeakyBucket.GetBufferFullnessBits"
+f1_keywords:
+- wmcodecdsp/IWMCodecLeakyBucket.GetBufferFullnessBits
 dev_langs:
- - c++
+- c++
 req.header: wmcodecdsp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmcodecdsp.h
+- wmcodecdsp.h
 api_name:
- - IWMCodecLeakyBucket.GetBufferFullnessBits
+- IWMCodecLeakyBucket.GetBufferFullnessBits
 targetos: Windows
 req.typenames: 
 req.redist: 

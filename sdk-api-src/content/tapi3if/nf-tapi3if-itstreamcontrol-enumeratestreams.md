@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi3if.ITStreamControl.EnumerateStreams
 title: ITStreamControl::EnumerateStreams (tapi3if.h)
-
 description: The EnumerateStreams method enumerates currently available media streams. Provided for C and C++ applications. Automation client applications such as Visual Basic must use the get_Streams method.
 old-location: tapi3\itstreamcontrol_enumeratestreams.htm
 tech.root: Tapi
 ms.assetid: de018f3e-d3b9-4093-a2b5-4929ac4d1d2a
-
 ms.date: 12/05/2018
 ms.keywords: EnumerateStreams, EnumerateStreams method [TAPI 2.2], EnumerateStreams method [TAPI 2.2],ITStreamControl interface, ITStreamControl interface [TAPI 2.2],EnumerateStreams method, ITStreamControl.EnumerateStreams, ITStreamControl::EnumerateStreams, _tapi3_itstreamcontrol_enumeratestreams, tapi3.itstreamcontrol_enumeratestreams, tapi3if/ITStreamControl::EnumerateStreams
 ms.topic: method
-f1_keywords: 
- - "tapi3if/ITStreamControl.EnumerateStreams"
+f1_keywords:
+- tapi3if/ITStreamControl.EnumerateStreams
 dev_langs:
- - c++
+- c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - tapi3if.h
+- tapi3if.h
 api_name:
- - ITStreamControl.EnumerateStreams
+- ITStreamControl.EnumerateStreams
 targetos: Windows
 req.typenames: 
 req.redist: 

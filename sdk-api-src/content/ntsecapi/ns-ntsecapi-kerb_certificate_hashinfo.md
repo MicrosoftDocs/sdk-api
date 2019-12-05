@@ -1,19 +1,17 @@
 ---
 UID: NS:ntsecapi._KERB_CERTIFICATE_HASHINFO
 title: KERB_CERTIFICATE_HASHINFO (ntsecapi.h)
-
 description: Provides the payload information of the certificate hash.
 old-location: security\kerb_certificate_hashinfo.htm
 tech.root: SecAuthN
 ms.assetid: 09D78E91-5873-481D-A5FC-B7F39F8F9BB8
-
 ms.date: 12/05/2018
-ms.keywords: "*PKERB_CERTIFICATE_HASHINFO, KERB_CERTIFICATE_HASHINFO, KERB_CERTIFICATE_HASHINFO structure [Security], PKERB_CERTIFICATE_HASHINFO, PKERB_CERTIFICATE_HASHINFO structure pointer [Security], ntsecapi/KERB_CERTIFICATE_HASHINFO, ntsecapi/PKERB_CERTIFICATE_HASHINFO, security.kerb_certificate_hashinfo"
+ms.keywords: '*PKERB_CERTIFICATE_HASHINFO, KERB_CERTIFICATE_HASHINFO, KERB_CERTIFICATE_HASHINFO structure [Security], PKERB_CERTIFICATE_HASHINFO, PKERB_CERTIFICATE_HASHINFO structure pointer [Security], ntsecapi/KERB_CERTIFICATE_HASHINFO, ntsecapi/PKERB_CERTIFICATE_HASHINFO, security.kerb_certificate_hashinfo'
 ms.topic: struct
-f1_keywords: 
- - "ntsecapi/KERB_CERTIFICATE_HASHINFO"
+f1_keywords:
+- ntsecapi/KERB_CERTIFICATE_HASHINFO
 dev_langs:
- - c++
+- c++
 req.header: ntsecapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Ntsecapi.h
+- Ntsecapi.h
 api_name:
- - KERB_CERTIFICATE_HASHINFO
+- KERB_CERTIFICATE_HASHINFO
 targetos: Windows
 req.typenames: KERB_CERTIFICATE_HASHINFO, *PKERB_CERTIFICATE_HASHINFO
 req.redist: 

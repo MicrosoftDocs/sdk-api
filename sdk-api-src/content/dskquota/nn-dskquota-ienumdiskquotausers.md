@@ -1,19 +1,17 @@
 ---
 UID: NN:dskquota.IEnumDiskQuotaUsers
 title: IEnumDiskQuotaUsers (dskquota.h)
-
 description: Enumerates user quota entries on the volume.
 old-location: fs\ienumdiskquotausers.htm
 tech.root: FileIO
 ms.assetid: f5916b17-66ed-46d4-87f1-5ee2ef57c1a1
-
 ms.date: 12/05/2018
 ms.keywords: IEnumDiskQuotaUsers, IEnumDiskQuotaUsers interface [Files], IEnumDiskQuotaUsers interface [Files],described, _win32_ienumdiskquotausers, base.ienumdiskquotausers, dskquota/IEnumDiskQuotaUsers, fs.ienumdiskquotausers
 ms.topic: interface
-f1_keywords: 
- - "dskquota/IEnumDiskQuotaUsers"
+f1_keywords:
+- dskquota/IEnumDiskQuotaUsers
 dev_langs:
- - c++
+- c++
 req.header: dskquota.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Dskquota.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dskquota.dll
+- Dskquota.dll
 api_name:
- - IEnumDiskQuotaUsers
+- IEnumDiskQuotaUsers
 targetos: Windows
 req.typenames: 
 req.redist: 

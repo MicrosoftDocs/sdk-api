@@ -1,19 +1,17 @@
 ---
 UID: NS:d3d11.D3D11_AUTHENTICATED_QUERY_PROTECTION_OUTPUT
 title: D3D11_AUTHENTICATED_QUERY_PROTECTION_OUTPUT (d3d11.h)
-
 description: Contains the response to a D3D11_AUTHENTICATED_QUERY_PROTECTION query.
 old-location: mf\d3d11_authenticated_query_protection_output.htm
 tech.root: medfound
 ms.assetid: F70D5AFC-06A6-408D-A951-1280FBBF8E89
-
 ms.date: 12/05/2018
 ms.keywords: D3D11_AUTHENTICATED_QUERY_PROTECTION_OUTPUT, D3D11_AUTHENTICATED_QUERY_PROTECTION_OUTPUT structure [Media Foundation], d3d11/D3D11_AUTHENTICATED_QUERY_PROTECTION_OUTPUT, mf.d3d11_authenticated_query_protection_output
 ms.topic: struct
-f1_keywords: 
- - "d3d11/D3D11_AUTHENTICATED_QUERY_PROTECTION_OUTPUT"
+f1_keywords:
+- d3d11/D3D11_AUTHENTICATED_QUERY_PROTECTION_OUTPUT
 dev_langs:
- - c++
+- c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - d3d11.h
+- d3d11.h
 api_name:
- - D3D11_AUTHENTICATED_QUERY_PROTECTION_OUTPUT
+- D3D11_AUTHENTICATED_QUERY_PROTECTION_OUTPUT
 targetos: Windows
 req.typenames: D3D11_AUTHENTICATED_QUERY_PROTECTION_OUTPUT
 req.redist: 

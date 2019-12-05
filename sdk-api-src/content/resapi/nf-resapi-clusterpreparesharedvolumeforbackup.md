@@ -1,19 +1,17 @@
 ---
 UID: NF:resapi.ClusterPrepareSharedVolumeForBackup
 title: ClusterPrepareSharedVolumeForBackup function (resapi.h)
-
 description: ClusterPrepareSharedVolumeForBackup may be altered or unavailable.
 old-location: mscs\clusterpreparesharedvolumeforbackup.htm
 tech.root: MsCS
 ms.assetid: d30f1a5b-f231-4874-8e79-6d25cfd094a5
-
 ms.date: 12/05/2018
 ms.keywords: ClusterPrepareSharedVolumeForBackup, ClusterPrepareSharedVolumeForBackup function [Failover Cluster], PCLUSTER_PREPARE_SHARED_VOLUME_FOR_BACKUP, PCLUSTER_PREPARE_SHARED_VOLUME_FOR_BACKUP function [Failover Cluster], mscs.clusterpreparesharedvolumeforbackup, resapi/ClusterPrepareSharedVolumeForBackup, resapi/PCLUSTER_PREPARE_SHARED_VOLUME_FOR_BACKUP
 ms.topic: function
-f1_keywords: 
- - "resapi/ClusterPrepareSharedVolumeForBackup"
+f1_keywords:
+- resapi/ClusterPrepareSharedVolumeForBackup
 dev_langs:
- - c++
+- c++
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: ResUtils.Lib
 req.dll: ResUtils.Dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - ResUtils.Dll
+- ResUtils.Dll
 api_name:
- - ClusterPrepareSharedVolumeForBackup
+- ClusterPrepareSharedVolumeForBackup
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NS:callobj.__MIDL_ICallFrame_0002
 title: CALLFRAMEPARAMINFO (callobj.h)
-
 description: Provides information about the parameter on the stack.
 old-location: com\callframeparaminfo.htm
 tech.root: com
 ms.assetid: 0f3a1e81-c8b6-4141-8712-c600b30a2779
-
 ms.date: 12/05/2018
 ms.keywords: CALLFRAMEPARAMINFO, CALLFRAMEPARAMINFO structure [COM], callobj/CALLFRAMEPARAMINFO, com.callframeparaminfo
 ms.topic: struct
-f1_keywords: 
- - "callobj/CALLFRAMEPARAMINFO"
+f1_keywords:
+- callobj/CALLFRAMEPARAMINFO
 dev_langs:
- - c++
+- c++
 req.header: callobj.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - callobj.h
+- callobj.h
 api_name:
- - CALLFRAMEPARAMINFO
+- CALLFRAMEPARAMINFO
 targetos: Windows
 req.typenames: CALLFRAMEPARAMINFO
 req.redist: 

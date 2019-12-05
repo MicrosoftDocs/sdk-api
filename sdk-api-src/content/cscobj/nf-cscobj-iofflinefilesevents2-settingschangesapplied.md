@@ -1,19 +1,17 @@
 ---
 UID: NF:cscobj.IOfflineFilesEvents2.SettingsChangesApplied
 title: IOfflineFilesEvents2::SettingsChangesApplied (cscobj.h)
-
 description: Reports that the Offline Files service has applied the changes that were detected in Group Policy or preference values.
 old-location: of\iofflinefilesevents2_settingschangesapplied.htm
 tech.root: offlinefiles
 ms.assetid: af59c8ac-ecd4-48e7-9ebb-8802e7d6ffef
-
 ms.date: 12/05/2018
 ms.keywords: IOfflineFilesEvents2 interface [Offline Files],SettingsChangesApplied method, IOfflineFilesEvents2.SettingsChangesApplied, IOfflineFilesEvents2::SettingsChangesApplied, SettingsChangesApplied, SettingsChangesApplied method [Offline Files], SettingsChangesApplied method [Offline Files],IOfflineFilesEvents2 interface, cscobj/IOfflineFilesEvents2::SettingsChangesApplied, of.iofflinefilesevents2_settingschangesapplied
 ms.topic: method
-f1_keywords: 
- - "cscobj/IOfflineFilesEvents2.SettingsChangesApplied"
+f1_keywords:
+- cscobj/IOfflineFilesEvents2.SettingsChangesApplied
 dev_langs:
- - c++
+- c++
 req.header: cscobj.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: CscSvc.dll; CscObj.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CscSvc.dll
- - CscObj.dll
+- CscSvc.dll
+- CscObj.dll
 api_name:
- - IOfflineFilesEvents2.SettingsChangesApplied
+- IOfflineFilesEvents2.SettingsChangesApplied
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:winternl.RtlTimeToSecondsSince1970
 title: RtlTimeToSecondsSince1970 function (winternl.h)
-
 description: Converts the specified 64-bit system time to the number of seconds since the beginning of January 1, 1970.
 old-location: base\rtltimetosecondssince1970.htm
 tech.root: SysInfo
 ms.assetid: cb2e041a-cbbb-4572-85da-b282fa692261
-
 ms.date: 12/05/2018
 ms.keywords: RtlTimeToSecondsSince1970, RtlTimeToSecondsSince1970 function, base.rtltimetosecondssince1970, winternl/RtlTimeToSecondsSince1970
 ms.topic: function
-f1_keywords: 
- - "winternl/RtlTimeToSecondsSince1970"
+f1_keywords:
+- winternl/RtlTimeToSecondsSince1970
 dev_langs:
- - c++
+- c++
 req.header: winternl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Ntdll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ntdll.dll
+- Ntdll.dll
 api_name:
- - RtlTimeToSecondsSince1970
+- RtlTimeToSecondsSince1970
 targetos: Windows
 req.typenames: 
 req.redist: 

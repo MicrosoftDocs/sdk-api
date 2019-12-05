@@ -1,19 +1,17 @@
 ---
 UID: NF:vswriter.IVssExpressWriter.LoadMetadata
 title: IVssExpressWriter::LoadMetadata (vswriter.h)
-
 description: Causes VSS to load the writer's metadata from a string instead of the express writer metadata store.
 old-location: base\ivssexpresswriter_load.htm
 tech.root: VSS
 ms.assetid: 2b670278-4589-47b7-a9ad-a24187c39945
-
 ms.date: 12/05/2018
 ms.keywords: IVssExpressWriter interface,LoadMetadata method, IVssExpressWriter.LoadMetadata, IVssExpressWriter::LoadMetadata, LoadMetadata, LoadMetadata method, LoadMetadata method,IVssExpressWriter interface, base.ivssexpresswriter_load, vswriter/IVssExpressWriter::LoadMetadata
 ms.topic: method
-f1_keywords: 
- - "vswriter/IVssExpressWriter.LoadMetadata"
+f1_keywords:
+- vswriter/IVssExpressWriter.LoadMetadata
 dev_langs:
- - c++
+- c++
 req.header: vswriter.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - VsWriter.h
+- VsWriter.h
 api_name:
- - IVssExpressWriter.LoadMetadata
+- IVssExpressWriter.LoadMetadata
 targetos: Windows
 req.typenames: 
 req.redist: 

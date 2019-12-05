@@ -1,19 +1,17 @@
 ---
 UID: NF:rpcnsi.RpcNsBindingUnexportPnPW
 title: RpcNsBindingUnexportPnPW function (rpcnsi.h)
-
 description: The RpcNsBindingUnexportPnP function removes the binding handles for Plug and Play interfaces and objects from an entry in the name-service database.
 old-location: rpc\rpcnsbindingunexportpnp.htm
 tech.root: Rpc
 ms.assetid: b19d9c18-b2fa-45da-b55f-583483c4d540
-
 ms.date: 12/05/2018
 ms.keywords: RpcNsBindingUnexportPnP, RpcNsBindingUnexportPnP function [RPC], RpcNsBindingUnexportPnPA, RpcNsBindingUnexportPnPW, _rpc_rpcnsbindingunexportpnp, rpc.rpcnsbindingunexportpnp, rpcnsi/RpcNsBindingUnexportPnP, rpcnsi/RpcNsBindingUnexportPnPA, rpcnsi/RpcNsBindingUnexportPnPW
 ms.topic: function
-f1_keywords: 
- - "rpcnsi/RpcNsBindingUnexportPnP"
+f1_keywords:
+- rpcnsi/RpcNsBindingUnexportPnP
 dev_langs:
- - c++
+- c++
 req.header: rpcnsi.h
 req.include-header: Rpc.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Rpcns4.lib
 req.dll: Rpcns4.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Rpcns4.dll
+- Rpcns4.dll
 api_name:
- - RpcNsBindingUnexportPnP
- - RpcNsBindingUnexportPnPA
- - RpcNsBindingUnexportPnPW
+- RpcNsBindingUnexportPnP
+- RpcNsBindingUnexportPnPA
+- RpcNsBindingUnexportPnPW
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NN:strmif.IGraphConfig
 title: IGraphConfig (strmif.h)
-
 description: The Filter Graph Manager exposes IGraphConfig to support dynamic graph building.
 old-location: dshow\igraphconfig.htm
 tech.root: DirectShow
 ms.assetid: 7df22157-9dd1-410e-b037-a155f7b9a01b
-
 ms.date: 12/05/2018
 ms.keywords: IGraphConfig, IGraphConfig interface [DirectShow], IGraphConfig interface [DirectShow],described, IGraphConfigInterface, dshow.igraphconfig, strmif/IGraphConfig
 ms.topic: interface
-f1_keywords: 
- - "strmif/IGraphConfig"
+f1_keywords:
+- strmif/IGraphConfig
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IGraphConfig
+- IGraphConfig
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NS:fwpmtypes.FWPM_LAYER0_
 title: FWPM_LAYER0 (fwpmtypes.h)
-
 description: Schema information for a layer.
 old-location: fwp\fwpm_layer0_struct.htm
 tech.root: fwp
 ms.assetid: 77d567a7-9495-4f16-9b02-e44a1ef67022
-
 ms.date: 12/05/2018
 ms.keywords: FWPM_LAYER0, FWPM_LAYER0 structure [Filtering], FWPM_LAYER_FLAG_BUFFERED, FWPM_LAYER_FLAG_BUILTIN, FWPM_LAYER_FLAG_CLASSIFY_MOSTLY, FWPM_LAYER_FLAG_KERNEL, fwp.fwpm_layer0_struct, fwpmtypes/FWPM_LAYER0
 ms.topic: struct
-f1_keywords: 
- - "fwpmtypes/FWPM_LAYER0"
+f1_keywords:
+- fwpmtypes/FWPM_LAYER0
 dev_langs:
- - c++
+- c++
 req.header: fwpmtypes.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Fwpmtypes.h
+- Fwpmtypes.h
 api_name:
- - FWPM_LAYER0
+- FWPM_LAYER0
 targetos: Windows
 req.typenames: FWPM_LAYER0
 req.redist: 

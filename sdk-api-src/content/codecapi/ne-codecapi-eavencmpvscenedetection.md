@@ -1,19 +1,17 @@
 ---
 UID: NE:codecapi.eAVEncMPVSceneDetection
 title: eAVEncMPVSceneDetection (codecapi.h)
-
 description: Specifies how the encoder behaves when it detects a new scene. This enumeration is used with the AVEncMPVSceneDetection property.
 old-location: dshow\eavencmpvscenedetection.htm
 tech.root: DirectShow
 ms.assetid: 81d273bd-06bc-4418-98af-8e7756aac91c
-
 ms.date: 12/05/2018
 ms.keywords: codecapi/eAVEncMPVSceneDetection, codecapi/eAVEncMPVSceneDetection_InsertIPicture, codecapi/eAVEncMPVSceneDetection_None, codecapi/eAVEncMPVSceneDetection_StartNewGOP, codecapi/eAVEncMPVSceneDetection_StartNewLocatableGOP, dshow.eavencmpvscenedetection, eAVEncMPVSceneDetection, eAVEncMPVSceneDetection enumeration [DirectShow], eAVEncMPVSceneDetectionEnumeration, eAVEncMPVSceneDetection_InsertIPicture, eAVEncMPVSceneDetection_None, eAVEncMPVSceneDetection_StartNewGOP, eAVEncMPVSceneDetection_StartNewLocatableGOP
 ms.topic: enum
-f1_keywords: 
- - "codecapi/eAVEncMPVSceneDetection"
+f1_keywords:
+- codecapi/eAVEncMPVSceneDetection
 dev_langs:
- - c++
+- c++
 req.header: codecapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - codecapi.h
+- codecapi.h
 api_name:
- - eAVEncMPVSceneDetection
+- eAVEncMPVSceneDetection
 targetos: Windows
 req.typenames: 
 req.redist: 

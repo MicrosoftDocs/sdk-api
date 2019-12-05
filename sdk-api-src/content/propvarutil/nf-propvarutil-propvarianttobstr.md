@@ -1,19 +1,17 @@
 ---
 UID: NF:propvarutil.PropVariantToBSTR
 title: PropVariantToBSTR function (propvarutil.h)
-
 description: Extracts the BSTR property value of a PROPVARIANT structure.
 old-location: properties\PropVariantToBSTR.htm
 tech.root: properties
 ms.assetid: a3aec16e-4fe3-4da4-a06d-f58412ac84b9
-
 ms.date: 12/05/2018
 ms.keywords: PropVariantToBSTR, PropVariantToBSTR function [Windows Properties], _shell_PropVariantToBSTR, properties.PropVariantToBSTR, propvarutil/PropVariantToBSTR, shell.PropVariantToBSTR
 ms.topic: function
-f1_keywords: 
- - "propvarutil/PropVariantToBSTR"
+f1_keywords:
+- propvarutil/PropVariantToBSTR
 dev_langs:
- - c++
+- c++
 req.header: propvarutil.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Propsys.lib
 req.dll: Propsys.dll (version 6.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Propsys.dll
- - Ext-MS-Win-shell-propsys-l1-1-0.dll
+- Propsys.dll
+- Ext-MS-Win-shell-propsys-l1-1-0.dll
 api_name:
- - PropVariantToBSTR
+- PropVariantToBSTR
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0

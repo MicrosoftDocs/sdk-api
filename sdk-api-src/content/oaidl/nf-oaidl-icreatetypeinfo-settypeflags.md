@@ -1,19 +1,17 @@
 ---
 UID: NF:oaidl.ICreateTypeInfo.SetTypeFlags
 title: ICreateTypeInfo::SetTypeFlags (oaidl.h)
-
 description: Sets type flags of the type description being created.
 old-location: automat\icreatetypeinfo_settypeflags.htm
 tech.root: automat
 ms.assetid: 7dfc1673-6242-4beb-978f-85f2000fab8e
-
 ms.date: 12/05/2018
 ms.keywords: ICreateTypeInfo interface [Automation],SetTypeFlags method, ICreateTypeInfo.SetTypeFlags, ICreateTypeInfo::SetTypeFlags, SetTypeFlags, SetTypeFlags method [Automation], SetTypeFlags method [Automation],ICreateTypeInfo interface, _oa96_ICreateTypeInfo_SetTypeFlags, automat.icreatetypeinfo_settypeflags, oaidl/ICreateTypeInfo::SetTypeFlags
 ms.topic: method
-f1_keywords: 
- - "oaidl/ICreateTypeInfo.SetTypeFlags"
+f1_keywords:
+- oaidl/ICreateTypeInfo.SetTypeFlags
 dev_langs:
- - c++
+- c++
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - oaidl.h
+- oaidl.h
 api_name:
- - ICreateTypeInfo.SetTypeFlags
+- ICreateTypeInfo.SetTypeFlags
 targetos: Windows
 req.typenames: 
 req.redist: 

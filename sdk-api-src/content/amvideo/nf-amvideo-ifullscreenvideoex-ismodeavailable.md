@@ -1,19 +1,17 @@
 ---
 UID: NF:amvideo.IFullScreenVideoEx.IsModeAvailable
 title: IFullScreenVideoEx::IsModeAvailable (amvideo.h)
-
 description: The IsModeAvailable method queries whether a specified display mode is available.
 old-location: dshow\ifullscreenvideoex_ismodeavailable.htm
 tech.root: DirectShow
 ms.assetid: 9b05d6c6-522c-46b8-90b5-c4650cee5f6b
-
 ms.date: 12/05/2018
 ms.keywords: IFullScreenVideoEx interface [DirectShow],IsModeAvailable method, IFullScreenVideoEx.IsModeAvailable, IFullScreenVideoEx::IsModeAvailable, IFullScreenVideoIsModeAvailable, IsModeAvailable, IsModeAvailable method [DirectShow], IsModeAvailable method [DirectShow],IFullScreenVideoEx interface, amvideo/IFullScreenVideoEx::IsModeAvailable, dshow.ifullscreenvideoex_ismodeavailable
 ms.topic: method
-f1_keywords: 
- - "amvideo/IFullScreenVideoEx.IsModeAvailable"
+f1_keywords:
+- amvideo/IFullScreenVideoEx.IsModeAvailable
 dev_langs:
- - c++
+- c++
 req.header: amvideo.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IFullScreenVideoEx.IsModeAvailable
+- IFullScreenVideoEx.IsModeAvailable
 targetos: Windows
 req.typenames: 
 req.redist: 

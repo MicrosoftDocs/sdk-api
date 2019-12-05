@@ -1,19 +1,17 @@
 ---
 UID: NS:d3d11_1.D3D11_VIDEO_DECODER_BEGIN_FRAME_CRYPTO_SESSION
 title: D3D11_VIDEO_DECODER_BEGIN_FRAME_CRYPTO_SESSION (d3d11_1.h)
-
 description: Provides data to the ID3D11VideoContext::DecoderBeginFrame method.
 old-location: mf\d3d11_video_decoder_begin_frame_crypto_session.htm
 tech.root: medfound
 ms.assetid: 7A4E0B99-90EE-4669-813E-5A3CD58D24A7
-
 ms.date: 12/05/2018
 ms.keywords: D3D11_VIDEO_DECODER_BEGIN_FRAME_CRYPTO_SESSION, D3D11_VIDEO_DECODER_BEGIN_FRAME_CRYPTO_SESSION structure [Media Foundation], d3d11_1/D3D11_VIDEO_DECODER_BEGIN_FRAME_CRYPTO_SESSION, mf.d3d11_video_decoder_begin_frame_crypto_session
 ms.topic: struct
-f1_keywords: 
- - "d3d11_1/D3D11_VIDEO_DECODER_BEGIN_FRAME_CRYPTO_SESSION"
+f1_keywords:
+- d3d11_1/D3D11_VIDEO_DECODER_BEGIN_FRAME_CRYPTO_SESSION
 dev_langs:
- - c++
+- c++
 req.header: d3d11_1.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - d3d11_1.h
+- d3d11_1.h
 api_name:
- - D3D11_VIDEO_DECODER_BEGIN_FRAME_CRYPTO_SESSION
+- D3D11_VIDEO_DECODER_BEGIN_FRAME_CRYPTO_SESSION
 targetos: Windows
 req.typenames: D3D11_VIDEO_DECODER_BEGIN_FRAME_CRYPTO_SESSION
 req.redist: 

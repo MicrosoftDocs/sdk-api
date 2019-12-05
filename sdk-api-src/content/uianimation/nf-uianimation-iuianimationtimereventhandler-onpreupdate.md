@@ -1,19 +1,17 @@
 ---
 UID: NF:uianimation.IUIAnimationTimerEventHandler.OnPreUpdate
 title: IUIAnimationTimerEventHandler::OnPreUpdate (uianimation.h)
-
 description: Handles events that occur before an animation update begins.
 old-location: uianimation\iuianimationtimereventhandler_onpreupdate.htm
 tech.root: UIAnimation
 ms.assetid: 4f3dcac0-c800-48e5-82d6-b6bc3fb0409b
-
 ms.date: 12/05/2018
 ms.keywords: IUIAnimationTimerEventHandler interface [Windows Animation],OnPreUpdate method, IUIAnimationTimerEventHandler.OnPreUpdate, IUIAnimationTimerEventHandler::OnPreUpdate, OnPreUpdate, OnPreUpdate method [Windows Animation], OnPreUpdate method [Windows Animation],IUIAnimationTimerEventHandler interface, uianimation.iuianimationtimereventhandler_onpreupdate, uianimation/IUIAnimationTimerEventHandler::OnPreUpdate
 ms.topic: method
-f1_keywords: 
- - "uianimation/IUIAnimationTimerEventHandler.OnPreUpdate"
+f1_keywords:
+- uianimation/IUIAnimationTimerEventHandler.OnPreUpdate
 dev_langs:
- - c++
+- c++
 req.header: uianimation.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: UIAnimation.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAnimation.dll
+- UIAnimation.dll
 api_name:
- - IUIAnimationTimerEventHandler.OnPreUpdate
+- IUIAnimationTimerEventHandler.OnPreUpdate
 targetos: Windows
 req.typenames: 
 req.redist: 

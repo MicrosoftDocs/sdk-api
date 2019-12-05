@@ -1,19 +1,17 @@
 ---
 UID: NF:objidl.IProgressNotify.OnProgress
 title: IProgressNotify::OnProgress (objidl.h)
-
 description: Notifies registered objects and applications of the progress of a downloading operation.
 old-location: com\iprogressnotify_onprogress.htm
 tech.root: com
 ms.assetid: 07b3e629-a558-4a0e-8307-ca922f56e00c
-
 ms.date: 12/05/2018
 ms.keywords: IProgressNotify interface [COM],OnProgress method, IProgressNotify.OnProgress, IProgressNotify::OnProgress, OnProgress, OnProgress method [COM], OnProgress method [COM],IProgressNotify interface, _com_iprogressnotify_onprogress, com.iprogressnotify_onprogress, objidl/IProgressNotify::OnProgress
 ms.topic: method
-f1_keywords: 
- - "objidl/IProgressNotify.OnProgress"
+f1_keywords:
+- objidl/IProgressNotify.OnProgress
 dev_langs:
- - c++
+- c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ObjIdl.h
+- ObjIdl.h
 api_name:
- - IProgressNotify.OnProgress
+- IProgressNotify.OnProgress
 targetos: Windows
 req.typenames: 
 req.redist: 

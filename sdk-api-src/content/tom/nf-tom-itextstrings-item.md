@@ -1,19 +1,17 @@
 ---
 UID: NF:tom.ITextStrings.Item
 title: ITextStrings::Item (tom.h)
-
 description: Gets an ITextRange2 object for a selected index in a string collection.
 old-location: controls\itextstrings_item.htm
 tech.root: Controls
 ms.assetid: 8eed4bc6-75a8-440e-a334-543e7b996df0
-
 ms.date: 12/05/2018
 ms.keywords: ITextStrings interface [Windows Controls],Item method, ITextStrings.Item, ITextStrings::Item, Item, Item method [Windows Controls], Item method [Windows Controls],ITextStrings interface, controls.itextstrings_item, tom/ITextStrings::Item
 ms.topic: method
-f1_keywords: 
- - "tom/ITextStrings.Item"
+f1_keywords:
+- tom/ITextStrings.Item
 dev_langs:
- - c++
+- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msftedit.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msftedit.dll
+- Msftedit.dll
 api_name:
- - ITextStrings.Item
+- ITextStrings.Item
 targetos: Windows
 req.typenames: 
 req.redist: 

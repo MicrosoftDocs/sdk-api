@@ -1,19 +1,17 @@
 ---
 UID: NF:wuapi.IUpdateHistoryEntry.get_ServiceID
 title: IUpdateHistoryEntry::get_ServiceID (wuapi.h)
-
 description: Gets the service identifier of an update service that is not a Windows update.
 old-location: wua\iupdatehistoryentry_serviceid.htm
 tech.root: Wua_Sdk
 ms.assetid: 01e430fa-6ff6-47f9-bac7-7d611b0f934f
-
 ms.date: 12/05/2018
 ms.keywords: IUpdateHistoryEntry interface [Windows Update Agent],ServiceID property, IUpdateHistoryEntry.ServiceID, IUpdateHistoryEntry.get_ServiceID, IUpdateHistoryEntry::ServiceID, IUpdateHistoryEntry::get_ServiceID, ServiceID property [Windows Update Agent], ServiceID property [Windows Update Agent],IUpdateHistoryEntry interface, get_ServiceID, wua.iupdatehistoryentry_serviceid, wuapi/IUpdateHistoryEntry::ServiceID, wuapi/IUpdateHistoryEntry::get_ServiceID
 ms.topic: method
-f1_keywords: 
- - "wuapi/IUpdateHistoryEntry.ServiceID"
+f1_keywords:
+- wuapi/IUpdateHistoryEntry.ServiceID
 dev_langs:
- - c++
+- c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Wuguid.lib
 req.dll: Wuapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wuapi.dll
+- Wuapi.dll
 api_name:
- - IUpdateHistoryEntry.ServiceID
- - IUpdateHistoryEntry.get_ServiceID
+- IUpdateHistoryEntry.ServiceID
+- IUpdateHistoryEntry.get_ServiceID
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NN:taskschd.IRegisteredTask
 title: IRegisteredTask (taskschd.h)
-
 description: Provides the methods that are used to run the task immediately, get any running instances of the task, get or set the credentials that are used to register the task, and the properties that describe the task.
 old-location: taskschd\iregisteredtask.htm
 tech.root: taskschd
 ms.assetid: 3743d012-ad7c-402f-8859-939bb01ee447
-
 ms.date: 12/05/2018
 ms.keywords: IRegisteredTask, IRegisteredTask interface [Task Scheduler], IRegisteredTask interface [Task Scheduler],described, taskschd.iregisteredtask, taskschd/IRegisteredTask
 ms.topic: interface
-f1_keywords: 
- - "taskschd/IRegisteredTask"
+f1_keywords:
+- taskschd/IRegisteredTask
 dev_langs:
- - c++
+- c++
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Taskschd.lib
 req.dll: Taskschd.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - taskschd.dll
+- taskschd.dll
 api_name:
- - IRegisteredTask
+- IRegisteredTask
 targetos: Windows
 req.typenames: 
 req.redist: 

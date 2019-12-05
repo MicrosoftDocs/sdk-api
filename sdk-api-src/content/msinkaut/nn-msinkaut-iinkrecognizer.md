@@ -1,19 +1,17 @@
 ---
 UID: NN:msinkaut.IInkRecognizer
 title: IInkRecognizer (msinkaut.h)
-
 description: Represents the ability to process ink, or handwriting, and translate the stroke into text or gesture. The recognizer creates an InkRecognizerContext object, which is used to perform the actual handwriting recognition.
 old-location: tablet\iinkrecognizer.htm
 tech.root: tablet
 ms.assetid: 97f982b6-f330-4053-91a9-2a4edc13b4b0
-
 ms.date: 12/05/2018
 ms.keywords: 97f982b6-f330-4053-91a9-2a4edc13b4b0, IInkRecognizer, IInkRecognizer interface [Tablet PC], IInkRecognizer interface [Tablet PC],described, msinkaut/IInkRecognizer, tablet.iinkrecognizer
 ms.topic: interface
-f1_keywords: 
- - "msinkaut/IInkRecognizer"
+f1_keywords:
+- msinkaut/IInkRecognizer
 dev_langs:
- - c++
+- c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: InkObj.dll
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - InkObj.dll
- - InkObj.dll.dll
+- InkObj.dll
+- InkObj.dll.dll
 api_name:
- - IInkRecognizer
+- IInkRecognizer
 targetos: Windows
 req.typenames: 
 req.redist: 

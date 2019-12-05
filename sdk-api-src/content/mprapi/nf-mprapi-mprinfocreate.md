@@ -1,19 +1,17 @@
 ---
 UID: NF:mprapi.MprInfoCreate
 title: MprInfoCreate function (mprapi.h)
-
 description: The MprInfoCreate function creates a new information header.
 old-location: rras\mprinfocreate.htm
 tech.root: RRAS
 ms.assetid: c48fc24f-8cf6-45c0-8ce1-841896648ba7
-
 ms.date: 12/05/2018
 ms.keywords: MprInfoCreate, MprInfoCreate function [RAS], _mpr_mprinfocreate, mprapi/MprInfoCreate, rras.mprinfocreate
 ms.topic: function
-f1_keywords: 
- - "mprapi/MprInfoCreate"
+f1_keywords:
+- mprapi/MprInfoCreate
 dev_langs:
- - c++
+- c++
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Mprapi.lib
 req.dll: Mprapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Mprapi.dll
+- Mprapi.dll
 api_name:
- - MprInfoCreate
+- MprInfoCreate
 targetos: Windows
 req.typenames: 
 req.redist: 

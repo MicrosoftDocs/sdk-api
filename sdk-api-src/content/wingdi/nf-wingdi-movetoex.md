@@ -1,19 +1,17 @@
 ---
 UID: NF:wingdi.MoveToEx
 title: MoveToEx function (wingdi.h)
-
 description: The MoveToEx function updates the current position to the specified point and optionally returns the previous position.
 old-location: gdi\movetoex.htm
 tech.root: gdi
 ms.assetid: af11eeb7-4036-4a90-8685-9b5719f79e01
-
 ms.date: 12/05/2018
 ms.keywords: MoveToEx, MoveToEx function [Windows GDI], _win32_MoveToEx, gdi.movetoex, wingdi/MoveToEx
 ms.topic: function
-f1_keywords: 
- - "wingdi/MoveToEx"
+f1_keywords:
+- wingdi/MoveToEx
 dev_langs:
- - c++
+- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,19 +30,19 @@ req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - gdi32.dll
- - Ext-MS-Win-GDI-Draw-l1-1-0.dll
- - Ext-MS-Win-GDI-Draw-l1-1-1.dll
- - ext-ms-win-gdi-draw-l1-1-2.dll
- - Ext-MS-Win-GDI-Draw-L1-1-3.dll
- - GDI32Full.dll
+- gdi32.dll
+- Ext-MS-Win-GDI-Draw-l1-1-0.dll
+- Ext-MS-Win-GDI-Draw-l1-1-1.dll
+- ext-ms-win-gdi-draw-l1-1-2.dll
+- Ext-MS-Win-GDI-Draw-L1-1-3.dll
+- GDI32Full.dll
 api_name:
- - MoveToEx
+- MoveToEx
 targetos: Windows
 req.typenames: 
 req.redist: 

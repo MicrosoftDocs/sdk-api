@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IAMExtTransport.SetTransportBasicParameters
 title: IAMExtTransport::SetTransportBasicParameters (strmif.h)
-
 description: The SetTransportBasicParameters method sets general properties of the transport.
 old-location: dshow\iamexttransport_settransportbasicparameters.htm
 tech.root: DirectShow
 ms.assetid: 798fa8d0-3834-4168-86a6-069cae3c3e8e
-
 ms.date: 12/05/2018
 ms.keywords: IAMExtTransport interface [DirectShow],SetTransportBasicParameters method, IAMExtTransport.SetTransportBasicParameters, IAMExtTransport::SetTransportBasicParameters, IAMExtTransportSetTransportBasicParameters, SetTransportBasicParameters, SetTransportBasicParameters method [DirectShow], SetTransportBasicParameters method [DirectShow],IAMExtTransport interface, dshow.iamexttransport_settransportbasicparameters, strmif/IAMExtTransport::SetTransportBasicParameters
 ms.topic: method
-f1_keywords: 
- - "strmif/IAMExtTransport.SetTransportBasicParameters"
+f1_keywords:
+- strmif/IAMExtTransport.SetTransportBasicParameters
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IAMExtTransport.SetTransportBasicParameters
+- IAMExtTransport.SetTransportBasicParameters
 targetos: Windows
 req.typenames: 
 req.redist: 

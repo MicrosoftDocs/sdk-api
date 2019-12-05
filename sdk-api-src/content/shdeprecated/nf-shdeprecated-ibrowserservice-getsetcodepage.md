@@ -1,19 +1,17 @@
 ---
 UID: NF:shdeprecated.IBrowserService.GetSetCodePage
 title: IBrowserService::GetSetCodePage (shdeprecated.h)
-
 description: Deprecated. Sets a new character code page and retrieves a pointer to the previous code page.
 old-location: shell\IBrowserService_GetSetCodePage.htm
 tech.root: shell
 ms.assetid: 2d194f9a-cf82-47ed-8218-d0d5824be435
-
 ms.date: 12/05/2018
 ms.keywords: GetSetCodePage, GetSetCodePage method [Windows Shell], GetSetCodePage method [Windows Shell],IBrowserService interface, IBrowserService interface [Windows Shell],GetSetCodePage method, IBrowserService.GetSetCodePage, IBrowserService::GetSetCodePage, shdeprecated/IBrowserService::GetSetCodePage, shell.IBrowserService_GetSetCodePage, zone_IBrowserService_GetSetCodePage
 ms.topic: method
-f1_keywords: 
- - "shdeprecated/IBrowserService.GetSetCodePage"
+f1_keywords:
+- shdeprecated/IBrowserService.GetSetCodePage
 dev_langs:
- - c++
+- c++
 req.header: shdeprecated.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shdeprecated.h
+- Shdeprecated.h
 api_name:
- - IBrowserService.GetSetCodePage
+- IBrowserService.GetSetCodePage
 targetos: Windows
 req.typenames: 
 req.redist: 

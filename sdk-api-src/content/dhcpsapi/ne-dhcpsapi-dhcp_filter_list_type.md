@@ -1,19 +1,17 @@
 ---
 UID: NE:dhcpsapi._DHCP_FILTER_LIST_TYPE
 title: DHCP_FILTER_LIST_TYPE (dhcpsapi.h)
-
 description: Specifies the types of filter lists available on the DHCP server.
 old-location: dhcp\dhcp_filter_list_type.htm
 tech.root: DHCP
 ms.assetid: 369b705c-2322-4be7-8550-41a42318204b
-
 ms.date: 12/05/2018
-ms.keywords: "*LPDHCP_FILTER_LIST_TYPE, Allow, DHCP_FILTER_LIST_TYPE, DHCP_FILTER_LIST_TYPE enumeration [DHCP], Deny, dhcp.dhcp_filter_list_type, dhcpsapi/Allow, dhcpsapi/DHCP_FILTER_LIST_TYPE, dhcpsapi/Deny"
+ms.keywords: '*LPDHCP_FILTER_LIST_TYPE, Allow, DHCP_FILTER_LIST_TYPE, DHCP_FILTER_LIST_TYPE enumeration [DHCP], Deny, dhcp.dhcp_filter_list_type, dhcpsapi/Allow, dhcpsapi/DHCP_FILTER_LIST_TYPE, dhcpsapi/Deny'
 ms.topic: enum
-f1_keywords: 
- - "dhcpsapi/DHCP_FILTER_LIST_TYPE"
+f1_keywords:
+- dhcpsapi/DHCP_FILTER_LIST_TYPE
 dev_langs:
- - c++
+- c++
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Dhcpsapi.h
+- Dhcpsapi.h
 api_name:
- - DHCP_FILTER_LIST_TYPE
+- DHCP_FILTER_LIST_TYPE
 targetos: Windows
 req.typenames: DHCP_FILTER_LIST_TYPE, *LPDHCP_FILTER_LIST_TYPE
 req.redist: 

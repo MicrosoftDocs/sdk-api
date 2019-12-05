@@ -1,19 +1,17 @@
 ---
 UID: NF:devicetopology.IPart.GetControlInterfaceCount
 title: IPart::GetControlInterfaceCount (devicetopology.h)
-
 description: The GetControlInterfaceCount method gets the number of control interfaces that this part supports.
 old-location: coreaudio\ipart_getcontrolinterfacecount.htm
 tech.root: CoreAudio
 ms.assetid: 8b82f69a-9b15-4bdf-9676-f2015ed67cfc
-
 ms.date: 12/05/2018
 ms.keywords: GetControlInterfaceCount, GetControlInterfaceCount method [Core Audio], GetControlInterfaceCount method [Core Audio],IPart interface, IPart interface [Core Audio],GetControlInterfaceCount method, IPart.GetControlInterfaceCount, IPart::GetControlInterfaceCount, IPartGetControlInterfaceCount, coreaudio.ipart_getcontrolinterfacecount, devicetopology/IPart::GetControlInterfaceCount
 ms.topic: method
-f1_keywords: 
- - "devicetopology/IPart.GetControlInterfaceCount"
+f1_keywords:
+- devicetopology/IPart.GetControlInterfaceCount
 dev_langs:
- - c++
+- c++
 req.header: devicetopology.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Devicetopology.h
+- Devicetopology.h
 api_name:
- - IPart.GetControlInterfaceCount
+- IPart.GetControlInterfaceCount
 targetos: Windows
 req.typenames: 
 req.redist: 

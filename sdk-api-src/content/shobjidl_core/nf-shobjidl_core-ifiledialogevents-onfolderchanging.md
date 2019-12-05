@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IFileDialogEvents.OnFolderChanging
 title: IFileDialogEvents::OnFolderChanging (shobjidl_core.h)
-
 description: Called before IFileDialogEvents::OnFolderChange. This allows the implementer to stop navigation to a particular location.
 old-location: shell\IFileDialogEvents_OnFolderChanging.htm
 tech.root: shell
 ms.assetid: 4114ed48-8e1e-4ddf-9434-629b99fc40d9
-
 ms.date: 12/05/2018
 ms.keywords: IFileDialogEvents interface [Windows Shell],OnFolderChanging method, IFileDialogEvents.OnFolderChanging, IFileDialogEvents::OnFolderChanging, OnFolderChanging, OnFolderChanging method [Windows Shell], OnFolderChanging method [Windows Shell],IFileDialogEvents interface, shell.IFileDialogEvents_OnFolderChanging, shell_IFileDialogEvents_OnFolderChanging, shobjidl_core/IFileDialogEvents::OnFolderChanging
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IFileDialogEvents.OnFolderChanging"
+f1_keywords:
+- shobjidl_core/IFileDialogEvents.OnFolderChanging
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - IFileDialogEvents.OnFolderChanging
+- IFileDialogEvents.OnFolderChanging
 targetos: Windows
 req.typenames: 
 req.redist: 

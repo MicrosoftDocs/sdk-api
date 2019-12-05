@@ -1,19 +1,17 @@
 ---
 UID: NF:coml2api.ReadClassStg
 title: ReadClassStg function (coml2api.h)
-
 description: The ReadClassStg function reads the CLSID previously written to a storage object with the WriteClassStg function.
 old-location: stg\readclassstg.htm
 tech.root: Stg
 ms.assetid: 90256fcd-54ce-48e1-aa12-d8f91cd4dfb1
-
 ms.date: 12/05/2018
 ms.keywords: ReadClassStg, ReadClassStg function [Structured Storage], _stg_readclassstg, coml2api/ReadClassStg, stg.readclassstg
 ms.topic: function
-f1_keywords: 
- - "coml2api/ReadClassStg"
+f1_keywords:
+- coml2api/ReadClassStg
 dev_langs:
- - c++
+- c++
 req.header: coml2api.h
 req.include-header: Ole2.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Ole32.lib
 req.dll: Ole32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ole32.dll
- - API-MS-Win-Core-Com-l2-1-1.dll
- - coml2.dll
+- Ole32.dll
+- API-MS-Win-Core-Com-l2-1-1.dll
+- coml2.dll
 api_name:
- - ReadClassStg
+- ReadClassStg
 targetos: Windows
 req.typenames: 
 req.redist: 

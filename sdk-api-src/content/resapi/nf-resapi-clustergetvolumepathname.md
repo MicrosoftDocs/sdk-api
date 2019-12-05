@@ -1,19 +1,17 @@
 ---
 UID: NF:resapi.ClusterGetVolumePathName
 title: ClusterGetVolumePathName function (resapi.h)
-
 description: ClusterGetVolumePathName may be altered or unavailable. Instead, use GetVolumePathName.
 old-location: mscs\clustergetvolumepathname.htm
 tech.root: MsCS
 ms.assetid: eff2995a-d17c-4899-bff5-ead9526f859d
-
 ms.date: 12/05/2018
 ms.keywords: ClusterGetVolumePathName, ClusterGetVolumePathName function [Failover Cluster], PCLUSTER_GET_VOLUME_PATH_NAME, PCLUSTER_GET_VOLUME_PATH_NAME function [Failover Cluster], mscs.clustergetvolumepathname, resapi/ClusterGetVolumePathName, resapi/PCLUSTER_GET_VOLUME_PATH_NAME
 ms.topic: function
-f1_keywords: 
- - "resapi/ClusterGetVolumePathName"
+f1_keywords:
+- resapi/ClusterGetVolumePathName
 dev_langs:
- - c++
+- c++
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: ResUtils.Lib
 req.dll: ResUtils.Dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - ResUtils.Dll
- - Ext-MS-Win-Cluster-ResUtils-l1-1-0.dll
- - ext-ms-win-cluster-resutils-l1-1-1.dll
+- ResUtils.Dll
+- Ext-MS-Win-Cluster-ResUtils-l1-1-0.dll
+- ext-ms-win-cluster-resutils-l1-1-1.dll
 api_name:
- - ClusterGetVolumePathName
+- ClusterGetVolumePathName
 targetos: Windows
 req.typenames: 
 req.redist: 

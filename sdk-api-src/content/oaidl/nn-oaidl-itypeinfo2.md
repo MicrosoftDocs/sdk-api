@@ -1,19 +1,17 @@
 ---
 UID: NN:oaidl.ITypeInfo2
 title: ITypeInfo2 (oaidl.h)
-
 description: Used for reading information about objects.
 old-location: automat\itypeinfo2.htm
 tech.root: automat
 ms.assetid: d3a34a13-6114-4f15-9de5-60da43fde600
-
 ms.date: 12/05/2018
 ms.keywords: ITypeInfo2, ITypeInfo2 interface [Automation], ITypeInfo2 interface [Automation],described, _oa96_ITypeInfo2_Interface, automat.itypeinfo2, oaidl/ITypeInfo2
 ms.topic: interface
-f1_keywords: 
- - "oaidl/ITypeInfo2"
+f1_keywords:
+- oaidl/ITypeInfo2
 dev_langs:
- - c++
+- c++
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - oaidl.h
+- oaidl.h
 api_name:
- - ITypeInfo2
+- ITypeInfo2
 targetos: Windows
 req.typenames: 
 req.redist: 

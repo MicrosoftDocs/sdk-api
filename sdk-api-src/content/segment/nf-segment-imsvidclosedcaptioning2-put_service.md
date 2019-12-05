@@ -1,19 +1,17 @@
 ---
 UID: NF:segment.IMSVidClosedCaptioning2.put_Service
 title: IMSVidClosedCaptioning2::put_Service (segment.h)
-
 description: The get_Service method sets the closed captioning service.
 old-location: mstv\imsvidclosedcaptioning2_put_service.htm
 tech.root: mstv
 ms.assetid: f638a7c3-bd0a-465d-b104-ea0066aec6d6
-
 ms.date: 12/05/2018
 ms.keywords: IMSVidClosedCaptioning2 interface [Microsoft TV Technologies],put_Service method, IMSVidClosedCaptioning2.put_Service, IMSVidClosedCaptioning2::put_Service, IMSVidClosedCaptioning2put_Service, mstv.imsvidclosedcaptioning2_put_service, put_Service, put_Service method [Microsoft TV Technologies], put_Service method [Microsoft TV Technologies],IMSVidClosedCaptioning2 interface, segment/IMSVidClosedCaptioning2::put_Service
 ms.topic: method
-f1_keywords: 
- - "segment/IMSVidClosedCaptioning2.put_Service"
+f1_keywords:
+- segment/IMSVidClosedCaptioning2.put_Service
 dev_langs:
- - c++
+- c++
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - segment.h
+- segment.h
 api_name:
- - IMSVidClosedCaptioning2.put_Service
+- IMSVidClosedCaptioning2.put_Service
 targetos: Windows
 req.typenames: 
 req.redist: 

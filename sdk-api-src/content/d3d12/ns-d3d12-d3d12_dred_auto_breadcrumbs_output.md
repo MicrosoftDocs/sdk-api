@@ -1,17 +1,15 @@
 ---
 UID: NS:d3d12.D3D12_DRED_AUTO_BREADCRUMBS_OUTPUT
 title: D3D12_DRED_AUTO_BREADCRUMBS_OUTPUT
-
 description: Contains a pointer to the head of a linked list of D3D12_AUTO_BREADCRUMB_NODE objects.
 tech.root: direct3d12
-
 ms.date: 02/06/2019
 ms.keywords: D3D12_DRED_AUTO_BREADCRUMBS_OUTPUT, D3D12_DRED_AUTO_BREADCRUMBS_OUTPUT structure, d3d12/D3D12_DRED_AUTO_BREADCRUMBS_OUTPUT, direct3d12.d3d12_dred_auto_breadcrumbs_output
 ms.topic: struct
-f1_keywords: 
- - "d3d12/D3D12_DRED_AUTO_BREADCRUMBS_OUTPUT"
+f1_keywords:
+- d3d12/D3D12_DRED_AUTO_BREADCRUMBS_OUTPUT
 dev_langs:
- - c++
+- c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +28,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - d3d12.h
+- d3d12.h
 api_name:
- - D3D12_DRED_AUTO_BREADCRUMBS_OUTPUT
+- D3D12_DRED_AUTO_BREADCRUMBS_OUTPUT
 targetos: Windows
 req.typenames: D3D12_DRED_AUTO_BREADCRUMBS_OUTPUT
 req.redist: 

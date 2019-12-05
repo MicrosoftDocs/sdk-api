@@ -1,19 +1,17 @@
 ---
 UID: NS:winnt._FILE_NOTIFY_INFORMATION
 title: FILE_NOTIFY_INFORMATION (winnt.h)
-
 description: Describes the changes found by the ReadDirectoryChangesW function.
 old-location: fs\file_notify_information_str.htm
 tech.root: FileIO
 ms.assetid: cb95352f-8a15-48d8-9150-e4bc395e0122
-
 ms.date: 12/05/2018
-ms.keywords: "*PFILE_NOTIFY_INFORMATION, FILE_ACTION_ADDED, FILE_ACTION_MODIFIED, FILE_ACTION_REMOVED, FILE_ACTION_RENAMED_NEW_NAME, FILE_ACTION_RENAMED_OLD_NAME, FILE_NOTIFY_INFORMATION, FILE_NOTIFY_INFORMATION structure [Files], PFILE_NOTIFY_INFORMATION, PFILE_NOTIFY_INFORMATION structure pointer [Files], _FILE_NOTIFY_INFORMATION, _win32_file_notify_information_str, base.file_notify_information_str, fs.file_notify_information_str, winnt/FILE_NOTIFY_INFORMATION, winnt/PFILE_NOTIFY_INFORMATION"
+ms.keywords: '*PFILE_NOTIFY_INFORMATION, FILE_ACTION_ADDED, FILE_ACTION_MODIFIED, FILE_ACTION_REMOVED, FILE_ACTION_RENAMED_NEW_NAME, FILE_ACTION_RENAMED_OLD_NAME, FILE_NOTIFY_INFORMATION, FILE_NOTIFY_INFORMATION structure [Files], PFILE_NOTIFY_INFORMATION, PFILE_NOTIFY_INFORMATION structure pointer [Files], _FILE_NOTIFY_INFORMATION, _win32_file_notify_information_str, base.file_notify_information_str, fs.file_notify_information_str, winnt/FILE_NOTIFY_INFORMATION, winnt/PFILE_NOTIFY_INFORMATION'
 ms.topic: struct
-f1_keywords: 
- - "winnt/FILE_NOTIFY_INFORMATION"
+f1_keywords:
+- winnt/FILE_NOTIFY_INFORMATION
 dev_langs:
- - c++
+- c++
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Winnt.h
+- Winnt.h
 api_name:
- - FILE_NOTIFY_INFORMATION
+- FILE_NOTIFY_INFORMATION
 targetos: Windows
 req.typenames: FILE_NOTIFY_INFORMATION, *PFILE_NOTIFY_INFORMATION
 req.redist: 

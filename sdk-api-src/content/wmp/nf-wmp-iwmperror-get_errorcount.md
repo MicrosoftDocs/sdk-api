@@ -1,19 +1,17 @@
 ---
 UID: NF:wmp.IWMPError.get_errorCount
 title: IWMPError::get_errorCount (wmp.h)
-
 description: The get_errorCount method retrieves the number of errors in the error queue.
 old-location: wmp\iwmperror_get_errorcount.htm
 tech.root: WMP
 ms.assetid: 0ad21e08-4566-4f3a-8506-308432996481
-
 ms.date: 12/05/2018
 ms.keywords: IWMPError interface [Windows Media Player],get_errorCount method, IWMPError.get_errorCount, IWMPError::get_errorCount, IWMPErrorget_errorCount, get_errorCount, get_errorCount method [Windows Media Player], get_errorCount method [Windows Media Player],IWMPError interface, wmp.iwmperror_get_errorcount, wmp/IWMPError::get_errorCount
 ms.topic: method
-f1_keywords: 
- - "wmp/IWMPError.get_errorCount"
+f1_keywords:
+- wmp/IWMPError.get_errorCount
 dev_langs:
- - c++
+- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wmp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmp.dll
+- wmp.dll
 api_name:
- - IWMPError.get_errorCount
+- IWMPError.get_errorCount
 targetos: Windows
 req.typenames: 
 req.redist: 

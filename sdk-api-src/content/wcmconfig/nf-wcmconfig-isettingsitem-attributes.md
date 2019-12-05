@@ -1,19 +1,17 @@
 ---
 UID: NF:wcmconfig.ISettingsItem.Attributes
 title: ISettingsItem::Attributes (wcmconfig.h)
-
 description: Gets the dictionary of attributes.
 old-location: smi\isettingsitem_attributes.htm
 tech.root: SMI
 ms.assetid: 7a6751f2-0934-4329-9ab2-9ae9802bc33e
-
 ms.date: 12/05/2018
 ms.keywords: Attributes, Attributes method [SMI], Attributes method [SMI],ISettingsItem interface, ISettingsItem interface [SMI],Attributes method, ISettingsItem.Attributes, ISettingsItem::Attributes, smi.isettingsitem_attributes, wcmconfig/ISettingsItem::Attributes
 ms.topic: method
-f1_keywords: 
- - "wcmconfig/ISettingsItem.Attributes"
+f1_keywords:
+- wcmconfig/ISettingsItem.Attributes
 dev_langs:
- - c++
+- c++
 req.header: wcmconfig.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: SMIEngine.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - SMIEngine.dll
+- SMIEngine.dll
 api_name:
- - ISettingsItem.Attributes
+- ISettingsItem.Attributes
 targetos: Windows
 req.typenames: 
 req.redist: 

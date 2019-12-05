@@ -1,19 +1,17 @@
 ---
 UID: NF:sensorsapi.ISensor.SetProperties
 title: ISensor::SetProperties (sensorsapi.h)
-
 description: Specifies sensor properties.
 old-location: winsensors_com_ref\isensor_setproperties.htm
 tech.root: SensorsAPI
 ms.assetid: f2bed074-fcee-4dbb-a4c1-d5922d65d3b9
-
 ms.date: 12/05/2018
 ms.keywords: ISensor interface,SetProperties method, ISensor.SetProperties, ISensor::SetProperties, SetProperties, SetProperties method, SetProperties method,ISensor interface, sensorsapi/ISensor::SetProperties, winsensors_com_ref.isensor_setproperties
 ms.topic: method
-f1_keywords: 
- - "sensorsapi/ISensor.SetProperties"
+f1_keywords:
+- sensorsapi/ISensor.SetProperties
 dev_langs:
- - c++
+- c++
 req.header: sensorsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Sensorsapi.lib
 req.dll: Sensorsapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - sensorsapi.dll
+- sensorsapi.dll
 api_name:
- - ISensor.SetProperties
+- ISensor.SetProperties
 targetos: Windows
 req.typenames: 
 req.redist: 

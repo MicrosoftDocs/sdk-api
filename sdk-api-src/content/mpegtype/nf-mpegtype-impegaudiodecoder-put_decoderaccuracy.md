@@ -1,19 +1,17 @@
 ---
 UID: NF:mpegtype.IMpegAudioDecoder.put_DecoderAccuracy
 title: IMpegAudioDecoder::put_DecoderAccuracy (mpegtype.h)
-
 description: Specifies the decoder accuracy as a three-level quality setting.
 old-location: dshow\impegaudiodecoder_put_decoderaccuracy.htm
 tech.root: DirectShow
 ms.assetid: 1fcacbbc-a3e4-4c7b-a9d0-1ecf6a3dca07
-
 ms.date: 12/05/2018
 ms.keywords: IMpegAudioDecoder interface [DirectShow],put_DecoderAccuracy method, IMpegAudioDecoder.put_DecoderAccuracy, IMpegAudioDecoder::put_DecoderAccuracy, IMpegAudioDecoderputDecoderAccuracy, dshow.impegaudiodecoder_put_decoderaccuracy, mpegtype/IMpegAudioDecoder::put_DecoderAccuracy, put_DecoderAccuracy, put_DecoderAccuracy method [DirectShow], put_DecoderAccuracy method [DirectShow],IMpegAudioDecoder interface
 ms.topic: method
-f1_keywords: 
- - "mpegtype/IMpegAudioDecoder.put_DecoderAccuracy"
+f1_keywords:
+- mpegtype/IMpegAudioDecoder.put_DecoderAccuracy
 dev_langs:
- - c++
+- c++
 req.header: mpegtype.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IMpegAudioDecoder.put_DecoderAccuracy
+- IMpegAudioDecoder.put_DecoderAccuracy
 targetos: Windows
 req.typenames: 
 req.redist: 

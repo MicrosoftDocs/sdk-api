@@ -1,19 +1,17 @@
 ---
 UID: NF:gdipluspath.PathGradientBrush.PathGradientBrush(const PathGradientBrush &)
 title: PathGradientBrush::PathGradientBrush(const PathGradientBrush &) (gdipluspath.h)
-
 description: This topic lists the constructors of the PathGradientBrush class. For a complete class listing, see PathGradientBrushXX Class.
 old-location: gdiplus\_gdiplus_CLASS_PathGradientBrush_Constructors.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\pathgradientbrushclass\pathgradientbrushconstructors.htm
-
 ms.date: 12/05/2018
 ms.keywords: PathGradientBrush, PathGradientBrush constructors [GDI+], PathGradientBrush.PathGradientBrush, PathGradientBrush.PathGradientBrush(const PathGradientBrush &), PathGradientBrush::PathGradientBrush, PathGradientBrush::PathGradientBrush(const PathGradientBrush &), _gdiplus_CLASS_PathGradientBrush_Constructors, gdiplus._gdiplus_CLASS_PathGradientBrush_Constructors, gdipluspath/PathGradientBrush
 ms.topic: method
-f1_keywords: 
- - "gdipluspath/PathGradientBrush.PathGradientBrush"
+f1_keywords:
+- gdipluspath/PathGradientBrush.PathGradientBrush
 dev_langs:
- - c++
+- c++
 req.header: gdipluspath.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - gdipluspath.h
+- gdipluspath.h
 api_name:
- - PathGradientBrush.PathGradientBrush
+- PathGradientBrush.PathGradientBrush
 targetos: Windows
 req.typenames: 
 req.redist: 

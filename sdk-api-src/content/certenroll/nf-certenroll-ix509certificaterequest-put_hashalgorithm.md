@@ -1,19 +1,17 @@
 ---
 UID: NF:certenroll.IX509CertificateRequest.put_HashAlgorithm
 title: IX509CertificateRequest::put_HashAlgorithm (certenroll.h)
-
 description: Specifies and retrieves the object identifier (OID) of the hash algorithm used to sign the certificate request.
 old-location: security\ix509certificaterequest_hashalgorithm_property.htm
 tech.root: seccertenroll
 ms.assetid: 9f68ee54-5dea-47bb-8a90-0285d081c9b8
-
 ms.date: 12/05/2018
 ms.keywords: HashAlgorithm property [Security], HashAlgorithm property [Security],IX509CertificateRequest interface, IX509CertificateRequest interface [Security],HashAlgorithm property, IX509CertificateRequest.HashAlgorithm, IX509CertificateRequest.put_HashAlgorithm, IX509CertificateRequest::HashAlgorithm, IX509CertificateRequest::get_HashAlgorithm, IX509CertificateRequest::put_HashAlgorithm, certenroll/IX509CertificateRequest::HashAlgorithm, certenroll/IX509CertificateRequest::get_HashAlgorithm, certenroll/IX509CertificateRequest::put_HashAlgorithm, put_HashAlgorithm, security.ix509certificaterequest_hashalgorithm_property
 ms.topic: method
-f1_keywords: 
- - "certenroll/IX509CertificateRequest.HashAlgorithm"
+f1_keywords:
+- certenroll/IX509CertificateRequest.HashAlgorithm
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: CertEnroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CertEnroll.dll
+- CertEnroll.dll
 api_name:
- - IX509CertificateRequest.HashAlgorithm
- - IX509CertificateRequest.get_HashAlgorithm
- - IX509CertificateRequest.put_HashAlgorithm
+- IX509CertificateRequest.HashAlgorithm
+- IX509CertificateRequest.get_HashAlgorithm
+- IX509CertificateRequest.put_HashAlgorithm
 targetos: Windows
 req.typenames: 
 req.redist: 

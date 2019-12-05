@@ -1,19 +1,17 @@
 ---
 UID: NE:fsrmenums._FsrmStorageModuleType
 title: FsrmStorageModuleType (fsrmenums.h)
-
 description: Defines the possible storage module types.
 old-location: fsrm\fsrmstoragemoduletype.htm
 tech.root: fsrm
 ms.assetid: 7cd1d4eb-de69-44d2-89f9-41e1e9a371e0
-
 ms.date: 12/05/2018
 ms.keywords: FsrmStorageModuleType, FsrmStorageModuleType enumeration [File Server Resource Manager], FsrmStorageModuleType_Cache, FsrmStorageModuleType_Database, FsrmStorageModuleType_InFile, FsrmStorageModuleType_System, FsrmStorageModuleType_Unknown, fs.fsrmstoragemoduletype, fsrm.fsrmstoragemoduletype, fsrmenums/FsrmStorageModuleType, fsrmenums/FsrmStorageModuleType_Cache, fsrmenums/FsrmStorageModuleType_Database, fsrmenums/FsrmStorageModuleType_InFile, fsrmenums/FsrmStorageModuleType_System, fsrmenums/FsrmStorageModuleType_Unknown
 ms.topic: enum
-f1_keywords: 
- - "fsrmenums/FsrmStorageModuleType"
+f1_keywords:
+- fsrmenums/FsrmStorageModuleType
 dev_langs:
- - c++
+- c++
 req.header: fsrmenums.h
 req.include-header: FsrmPipeline.h, FsrmQuota.h, FsrmReports.h, FsrmScreen.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - FsrmEnums.h
+- FsrmEnums.h
 api_name:
- - FsrmStorageModuleType
+- FsrmStorageModuleType
 targetos: Windows
 req.typenames: FsrmStorageModuleType
 req.redist: 

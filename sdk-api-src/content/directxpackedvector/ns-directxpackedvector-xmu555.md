@@ -1,19 +1,17 @@
 ---
 UID: NS:directxpackedvector.XMU555
 title: XMU555 (directxpackedvector.h)
-
 description: A 4D vector with x-,y-, and z- components represented as 5 bit unsigned integer values, and the w-component as a 1 bit integer value.
 old-location: dxmath\xmu555.htm
 tech.root: dxmath
 ms.assetid: T:Microsoft.directx_sdk.reference.XMU555
-
 ms.date: 12/05/2018
 ms.keywords: XMU555, XMU555 structure [DirectX Math Support APIs], directxpackedvector/XMU555, dxmath.xmu555
 ms.topic: struct
-f1_keywords: 
- - "directxpackedvector/XMU555"
+f1_keywords:
+- directxpackedvector/XMU555
 dev_langs:
- - c++
+- c++
 req.header: directxpackedvector.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - DirectXPackedVector.h
+- DirectXPackedVector.h
 api_name:
- - XMU555
+- XMU555
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:certenc.ICertEncodeLongArray.Encode
 title: ICertEncodeLongArray::Encode (certenc.h)
-
 description: Returns an ASN.1-encoded string of the LONG array stored in this object.
 old-location: security\icertencodelongarray_encode.htm
 tech.root: SecCrypto
 ms.assetid: e2cf6e69-2431-4a97-86f1-9e1546aa6c08
-
 ms.date: 12/05/2018
 ms.keywords: CCertEncodeLongArray object [Security],Encode method, Encode, Encode method [Security], Encode method [Security],CCertEncodeLongArray object, Encode method [Security],ICertEncodeLongArray interface, ICertEncodeLongArray interface [Security],Encode method, ICertEncodeLongArray.Encode, ICertEncodeLongArray::Encode, _certsrv_icertencodelongarray_encode, certenc/ICertEncodeLongArray::Encode, security.icertencodelongarray_encode
 ms.topic: method
-f1_keywords: 
- - "certenc/ICertEncodeLongArray.Encode"
+f1_keywords:
+- certenc/ICertEncodeLongArray.Encode
 dev_langs:
- - c++
+- c++
 req.header: certenc.h
 req.include-header: Certsrv.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Certidl.lib
 req.dll: Certenc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Certenc.dll
+- Certenc.dll
 api_name:
- - ICertEncodeLongArray.Encode
- - CCertEncodeLongArray.Encode
+- ICertEncodeLongArray.Encode
+- CCertEncodeLongArray.Encode
 targetos: Windows
 req.typenames: 
 req.redist: 

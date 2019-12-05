@@ -1,19 +1,17 @@
 ---
 UID: NF:vfw.ICDrawStopPlay
 title: ICDrawStopPlay macro (vfw.h)
-
 description: The ICDrawStopPlay macro notifies a rendering driver when a play operation is complete. You can use this macro or explicitly call the ICM_DRAW_STOP_PLAY message.
 old-location: multimedia\icdrawstopplay.htm
 tech.root: Multimedia
 ms.assetid: 41faa7cd-13c9-47bc-a62e-c09c7d3264d7
-
 ms.date: 12/05/2018
 ms.keywords: ICDrawStopPlay, ICDrawStopPlay macro [Windows Multimedia], _win32_ICDrawStopPlay, multimedia.icdrawstopplay, vfw/ICDrawStopPlay
 ms.topic: macro
-f1_keywords: 
- - "vfw/ICDrawStopPlay"
+f1_keywords:
+- vfw/ICDrawStopPlay
 dev_langs:
- - c++
+- c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Vfw.h
+- Vfw.h
 api_name:
- - ICDrawStopPlay
+- ICDrawStopPlay
 targetos: Windows
 req.typenames: 
 req.redist: 

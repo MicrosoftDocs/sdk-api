@@ -1,19 +1,17 @@
 ---
 UID: NF:setupapi.SetupScanFileQueueW
 title: SetupScanFileQueueW function (setupapi.h)
-
 description: The SetupScanFileQueue function scans a setup file queue, performing an operation on each node in its copy list. The operation is specified by a set of flags. This function can be called either before or after the queue has been committed.
 old-location: setup\setupscanfilequeue.htm
 tech.root: SetupApi
 ms.assetid: 4d59bb19-bb4a-4a24-814b-322e46e40fab
-
 ms.date: 12/05/2018
 ms.keywords: SPQ_SCAN_FILE_PRESENCE, SPQ_SCAN_FILE_VALIDITY, SPQ_SCAN_INFORM_USER, SPQ_SCAN_PRUNE_COPY_QUEUE, SPQ_SCAN_PRUNE_DELREN, SPQ_SCAN_USE_CALLBACK, SPQ_SCAN_USE_CALLBACKEX, SPQ_SCAN_USE_CALLBACK_SIGNERINFO, SetupScanFileQueue, SetupScanFileQueue function [Setup API], SetupScanFileQueueA, SetupScanFileQueueW, _setupapi_setupscanfilequeue, setup.setupscanfilequeue, setupapi/SetupScanFileQueue, setupapi/SetupScanFileQueueA, setupapi/SetupScanFileQueueW
 ms.topic: function
 f1_keywords:
 - setupapi/SetupScanFileQueue
 dev_langs:
- - c++
+- c++
 req.header: setupapi.h
 req.include-header: 
 req.target-type: Windows

@@ -1,19 +1,17 @@
 ---
 UID: NF:raseapif.RasEapInvokeInteractiveUI
 title: RasEapInvokeInteractiveUI function (raseapif.h)
-
 description: The RAS connection manager calls the RasEapInvokeInteractiveUI function to display a dialog to obtain authentication data from the user.
 old-location: eap\raseapinvokeinteractiveui.htm
 tech.root: EAP
 ms.assetid: 71dd40c9-acbd-4fb6-800d-d3f83a61b7b8
-
 ms.date: 12/05/2018
 ms.keywords: RasEapInvokeInteractiveUI, RasEapInvokeInteractiveUI callback, RasEapInvokeInteractiveUI callback function [EAP], _eap_raseapinvokeinteractiveui, eap.raseapinvokeinteractiveui, raseapif/RasEapInvokeInteractiveUI
 ms.topic: function
 f1_keywords:
 - raseapif/RasEapInvokeInteractiveUI
 dev_langs:
- - c++
+- c++
 req.header: raseapif.h
 req.include-header: 
 req.target-type: Windows

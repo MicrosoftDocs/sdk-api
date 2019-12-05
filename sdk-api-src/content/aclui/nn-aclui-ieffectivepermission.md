@@ -1,19 +1,17 @@
 ---
 UID: NN:aclui.IEffectivePermission
 title: IEffectivePermission (aclui.h)
-
 description: Provides a means to determine effective permission for a security principal on an object.
 old-location: security\ieffectivepermission.htm
 tech.root: SecAuthZ
 ms.assetid: c2897dad-647c-4dc1-b962-bd7fbae2da3a
-
 ms.date: 12/05/2018
 ms.keywords: IEffectivePermission, IEffectivePermission interface [Security], IEffectivePermission interface [Security],described, aclui/IEffectivePermission, security.ieffectivepermission
 ms.topic: interface
-f1_keywords: 
- - "aclui/IEffectivePermission"
+f1_keywords:
+- aclui/IEffectivePermission
 dev_langs:
- - c++
+- c++
 req.header: aclui.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Aclui.h
+- Aclui.h
 api_name:
- - IEffectivePermission
+- IEffectivePermission
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:mmeapi.waveInMessage
 title: waveInMessage function (mmeapi.h)
-
 description: The waveInMessage function sends messages to the waveform-audio input device drivers.
 old-location: multimedia\waveinmessage.htm
 tech.root: Multimedia
 ms.assetid: fdf8cf10-807b-47a1-a31c-ca56d5ac9a42
-
 ms.date: 12/05/2018
-ms.keywords: "_win32_waveInMessage, mmeapi/waveInMessage, multimedia.waveinmessage, waveInMessage, waveInMessage function [Windows Multimedia]"
+ms.keywords: _win32_waveInMessage, mmeapi/waveInMessage, multimedia.waveinmessage, waveInMessage, waveInMessage function [Windows Multimedia]
 ms.topic: function
-f1_keywords: 
- - "mmeapi/waveInMessage"
+f1_keywords:
+- mmeapi/waveInMessage
 dev_langs:
- - c++
+- c++
 req.header: mmeapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Winmm.lib
 req.dll: Winmm.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Winmm.dll
- - API-MS-Win-mm-mme-l1-1-0.dll
- - winmmbase.dll
+- Winmm.dll
+- API-MS-Win-mm-mme-l1-1-0.dll
+- winmmbase.dll
 api_name:
- - waveInMessage
+- waveInMessage
 targetos: Windows
 req.typenames: 
 req.redist: 

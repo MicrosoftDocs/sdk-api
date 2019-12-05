@@ -1,19 +1,17 @@
 ---
 UID: NF:winstring.WindowsConcatString
 title: WindowsConcatString function (winstring.h)
-
 description: Concatenates two specified strings.
 old-location: winrt\windowsconcatstring.htm
 tech.root: WinRT
 ms.assetid: 916E1FC2-CCA1-4B4E-8710-99D5ECA31ABE
-
 ms.date: 12/05/2018
 ms.keywords: WindowsConcatString, WindowsConcatString function [Windows Runtime], winrt.windowsconcatstring, winstring/WindowsConcatString
 ms.topic: function
-f1_keywords: 
- - "winstring/WindowsConcatString"
+f1_keywords:
+- winstring/WindowsConcatString
 dev_langs:
- - c++
+- c++
 req.header: winstring.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - winstring.h
- - API-MS-Win-Core-WinRT-String-l1-1-0.dll
- - ComBase.dll
- - API-MS-Win-Core-WinRT-String-L1-1-1.dll
+- winstring.h
+- API-MS-Win-Core-WinRT-String-l1-1-0.dll
+- ComBase.dll
+- API-MS-Win-Core-WinRT-String-L1-1-1.dll
 api_name:
- - WindowsConcatString
+- WindowsConcatString
 targetos: Windows
 req.typenames: 
 req.redist: 

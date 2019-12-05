@@ -1,19 +1,17 @@
 ---
 UID: NF:fsrm.IFsrmActionCommand.put_MonitorCommand
 title: IFsrmActionCommand::put_MonitorCommand (fsrm.h)
-
 description: Retrieves or sets a value that determines whether FSRM will monitor the executable program specified in the ExecutablePath property.
 old-location: fsrm\ifsrmactioncommand_monitorcommand.htm
 tech.root: fsrm
 ms.assetid: 7aa420de-9be5-4333-a511-23e0443e633b
-
 ms.date: 12/05/2018
 ms.keywords: IFsrmActionCommand interface [File Server Resource Manager],MonitorCommand property, IFsrmActionCommand.MonitorCommand, IFsrmActionCommand.put_MonitorCommand, IFsrmActionCommand::MonitorCommand, IFsrmActionCommand::get_MonitorCommand, IFsrmActionCommand::put_MonitorCommand, MonitorCommand property [File Server Resource Manager], MonitorCommand property [File Server Resource Manager],IFsrmActionCommand interface, fs.ifsrmactioncommand_monitorcommand, fsrm.ifsrmactioncommand_monitorcommand, fsrm/IFsrmActionCommand::MonitorCommand, fsrm/IFsrmActionCommand::get_MonitorCommand, fsrm/IFsrmActionCommand::put_MonitorCommand, put_MonitorCommand
 ms.topic: method
-f1_keywords: 
- - "fsrm/IFsrmActionCommand.MonitorCommand"
+f1_keywords:
+- fsrm/IFsrmActionCommand.MonitorCommand
 dev_langs:
- - c++
+- c++
 req.header: fsrm.h
 req.include-header: FsrmQuota.h, FsrmScreen.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: SrmSvc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - SrmSvc.dll
+- SrmSvc.dll
 api_name:
- - IFsrmActionCommand.MonitorCommand
- - IFsrmActionCommand.get_MonitorCommand
- - IFsrmActionCommand.put_MonitorCommand
+- IFsrmActionCommand.MonitorCommand
+- IFsrmActionCommand.get_MonitorCommand
+- IFsrmActionCommand.put_MonitorCommand
 targetos: Windows
 req.typenames: 
 req.redist: 

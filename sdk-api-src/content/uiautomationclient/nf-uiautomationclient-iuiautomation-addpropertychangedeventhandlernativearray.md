@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationclient.IUIAutomation.AddPropertyChangedEventHandlerNativeArray
 title: IUIAutomation::AddPropertyChangedEventHandlerNativeArray (uiautomationclient.h)
-
 description: Registers a method that handles a native array of property-changed events.
 old-location: winauto\uiauto_IUIAutomation_AddPropertyChangedEventHandlerNativeArray.htm
 tech.root: WinAuto
 ms.assetid: 0d3cf5c3-5d0e-4214-a9fc-8b0132ad9b77
-
 ms.date: 12/05/2018
 ms.keywords: AddPropertyChangedEventHandlerNativeArray, AddPropertyChangedEventHandlerNativeArray method [Windows Accessibility], AddPropertyChangedEventHandlerNativeArray method [Windows Accessibility],IUIAutomation interface, IUIAutomation interface [Windows Accessibility],AddPropertyChangedEventHandlerNativeArray method, IUIAutomation.AddPropertyChangedEventHandlerNativeArray, IUIAutomation::AddPropertyChangedEventHandlerNativeArray, uiauto.uiauto_IUIAutomation_AddPropertyChangedEventHandlerNativeArray, uiauto_IUIAutomation_AddPropertyChangedEventHandlerNativeArray, uiautomationclient/IUIAutomation::AddPropertyChangedEventHandlerNativeArray, winauto.uiauto_IUIAutomation_AddPropertyChangedEventHandlerNativeArray
 ms.topic: method
-f1_keywords: 
- - "uiautomationclient/IUIAutomation.AddPropertyChangedEventHandlerNativeArray"
+f1_keywords:
+- uiautomationclient/IUIAutomation.AddPropertyChangedEventHandlerNativeArray
 dev_langs:
- - c++
+- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationClient.h
+- UIAutomationClient.h
 api_name:
- - IUIAutomation.AddPropertyChangedEventHandlerNativeArray
+- IUIAutomation.AddPropertyChangedEventHandlerNativeArray
 targetos: Windows
 req.typenames: 
 req.redist: 

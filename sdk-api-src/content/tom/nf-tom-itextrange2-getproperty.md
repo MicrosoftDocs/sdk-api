@@ -1,19 +1,17 @@
 ---
 UID: NF:tom.ITextRange2.GetProperty
 title: ITextRange2::GetProperty (tom.h)
-
 description: Gets the value of a property.
 old-location: controls\itextrange2_getproperty.htm
 tech.root: Controls
 ms.assetid: d5e636b9-d02e-46ac-b224-7d1019da44eb
-
 ms.date: 12/05/2018
 ms.keywords: GetProperty, GetProperty method [Windows Controls], GetProperty method [Windows Controls],ITextRange2 interface, ITextRange2 interface [Windows Controls],GetProperty method, ITextRange2.GetProperty, ITextRange2::GetProperty, controls.itextrange2_getproperty, tom/ITextRange2::GetProperty
 ms.topic: method
-f1_keywords: 
- - "tom/ITextRange2.GetProperty"
+f1_keywords:
+- tom/ITextRange2.GetProperty
 dev_langs:
- - c++
+- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msftedit.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msftedit.dll
+- Msftedit.dll
 api_name:
- - ITextRange2.GetProperty
+- ITextRange2.GetProperty
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NE:contentpartner.WMPCallbackNotification
 title: WMPCallbackNotification (contentpartner.h)
-
 description: Note  This section describes functionality designed for use by online stores.
 old-location: wmp\wmpcallbacknotification.htm
 tech.root: WMP
 ms.assetid: 6c0ba35f-a484-4d00-be42-af5114086250
-
 ms.date: 12/05/2018
 ms.keywords: WMPCallbackNotification, WMPCallbackNotification enumeration [Windows Media Player], contentpartner/WMPCallbackNotification, contentpartner/wmpcnAuthResult, contentpartner/wmpcnDisableRadioSkipping, contentpartner/wmpcnLicenseUpdated, contentpartner/wmpcnLoginStateChange, contentpartner/wmpcnNewCatalogAvailable, contentpartner/wmpcnNewPluginAvailable, enumeration [Windows Media Player], wmp.wmpcallbacknotification, wmpcnAuthResult, wmpcnDisableRadioSkipping, wmpcnLicenseUpdated, wmpcnLoginStateChange, wmpcnNewCatalogAvailable, wmpcnNewPluginAvailable
 ms.topic: enum
-f1_keywords: 
- - "contentpartner/WMPCallbackNotification"
+f1_keywords:
+- contentpartner/WMPCallbackNotification
 dev_langs:
- - c++
+- c++
 req.header: contentpartner.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - contentpartner.h
+- contentpartner.h
 api_name:
- - WMPCallbackNotification
+- WMPCallbackNotification
 targetos: Windows
 req.typenames: WMPCallbackNotification
 req.redist: 

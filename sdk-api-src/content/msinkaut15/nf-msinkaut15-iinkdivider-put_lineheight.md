@@ -1,19 +1,17 @@
 ---
 UID: NF:msinkaut15.IInkDivider.put_LineHeight
 title: IInkDivider::put_LineHeight (msinkaut15.h)
-
 description: Gets or sets the expected handwriting height, in HIMETRIC units.
 old-location: tablet\inkdivider_lineheight.htm
 tech.root: tablet
 ms.assetid: 69e65ad6-bcee-46a7-a139-80b4324b9c72
-
 ms.date: 12/05/2018
 ms.keywords: 69e65ad6-bcee-46a7-a139-80b4324b9c72, IInkDivider interface [Tablet PC],LineHeight property, IInkDivider.LineHeight, IInkDivider.put_LineHeight, IInkDivider::LineHeight, IInkDivider::get_LineHeight, IInkDivider::put_LineHeight, InkDivider.get_LineHeight, InkDivider.put_LineHeight, LineHeight property [Tablet PC], LineHeight property [Tablet PC],IInkDivider interface, get_LineHeight, msinkaut15/IInkDivider::LineHeight, msinkaut15/IInkDivider::get_LineHeight, msinkaut15/IInkDivider::put_LineHeight, put_LineHeight, tablet.inkdivider_lineheight
 ms.topic: method
-f1_keywords: 
- - "msinkaut15/IInkDivider.LineHeight"
+f1_keywords:
+- msinkaut15/IInkDivider.LineHeight
 dev_langs:
- - c++
+- c++
 req.header: msinkaut15.h
 req.include-header: 
 req.target-type: Windows
@@ -32,19 +30,19 @@ req.lib: Inkdiv.dll
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Inkdiv.dll
- - Inkdiv.dll.dll
+- Inkdiv.dll
+- Inkdiv.dll.dll
 api_name:
- - IInkDivider.LineHeight
- - IInkDivider.get_LineHeight
- - IInkDivider.put_LineHeight
- - InkDivider.get_LineHeight
- - InkDivider.put_LineHeight
+- IInkDivider.LineHeight
+- IInkDivider.get_LineHeight
+- IInkDivider.put_LineHeight
+- InkDivider.get_LineHeight
+- InkDivider.put_LineHeight
 targetos: Windows
 req.typenames: 
 req.redist: 

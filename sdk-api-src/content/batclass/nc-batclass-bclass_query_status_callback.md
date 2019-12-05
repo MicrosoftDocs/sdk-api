@@ -1,19 +1,17 @@
 ---
 UID: NC:batclass.BCLASS_QUERY_STATUS_CALLBACK
 title: BCLASS_QUERY_STATUS_CALLBACK (batclass.h)
-
 description: BatteryMiniQueryStatus returns status information about the given battery device.
 old-location: battery\batteryminiquerystatus.htm
 tech.root: battery
 ms.assetid: 04811f63-8a57-4b39-84c5-c9b7f803c057
-
 ms.date: 12/05/2018
 ms.keywords: BCLASS_QUERY_STATUS_CALLBACK, BCLASS_QUERY_STATUS_CALLBACK callback, BatteryMiniQueryStatus, BatteryMiniQueryStatus callback function [Battery Devices], bat-mini_49ffd352-4020-4dd0-92ab-7af4c0dd9074.xml, batclass/BatteryMiniQueryStatus, battery.batteryminiquerystatus
 ms.topic: callback
-f1_keywords: 
- - "batclass/BatteryMiniQueryStatus"
+f1_keywords:
+- batclass/BatteryMiniQueryStatus
 dev_langs:
- - c++
+- c++
 req.header: batclass.h
 req.include-header: Batclass.h
 req.target-type: Desktop
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Batclass.h
+- Batclass.h
 api_name:
- - BatteryMiniQueryStatus
+- BatteryMiniQueryStatus
 targetos: Windows
 req.typenames: 
 req.redist: 

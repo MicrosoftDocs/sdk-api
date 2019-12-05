@@ -1,19 +1,17 @@
 ---
 UID: NC:resapi.PLOG_EVENT_ROUTINE
 title: PLOG_EVENT_ROUTINE (resapi.h)
-
 description: Records an event in the cluster log.
 old-location: mscs\logevent.htm
 tech.root: MsCS
 ms.assetid: 91389083-e007-4d64-885f-e5188e74b9d8
-
 ms.date: 12/05/2018
 ms.keywords: LOG_ERROR, LOG_INFORMATION, LOG_SEVERE, LOG_WARNING, LogEvent, LogEvent callback, LogEvent callback function [Failover Cluster], PLOG_EVENT_ROUTINE, PLOG_EVENT_ROUTINE callback function [Failover Cluster], _wolf_logevent, mscs.logevent, resapi/LogEvent, resapi/PLOG_EVENT_ROUTINE
 ms.topic: callback
-f1_keywords: 
- - "resapi/LogEvent"
+f1_keywords:
+- resapi/LogEvent
 dev_langs:
- - c++
+- c++
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - ResApi.h
+- ResApi.h
 api_name:
- - LogEvent
+- LogEvent
 targetos: Windows
 req.typenames: 
 req.redist: 

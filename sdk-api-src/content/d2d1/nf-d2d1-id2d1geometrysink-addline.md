@@ -1,19 +1,17 @@
 ---
 UID: NF:d2d1.ID2D1GeometrySink.AddLine
 title: ID2D1GeometrySink::AddLine (d2d1.h)
-
 description: Creates a line segment between the current point and the specified end point and adds it to the geometry sink.
 old-location: direct2d\ID2D1GeometrySink_AddLine.htm
 tech.root: Direct2D
 ms.assetid: 9ab11c38-784b-4834-bced-cd560a5273f6
-
 ms.date: 12/05/2018
 ms.keywords: AddLine, AddLine method [Direct2D], AddLine method [Direct2D],ID2D1GeometrySink interface, ID2D1GeometrySink interface [Direct2D],AddLine method, ID2D1GeometrySink.AddLine, ID2D1GeometrySink::AddLine, d2d1/ID2D1GeometrySink::AddLine, direct2d.ID2D1GeometrySink_AddLine
 ms.topic: method
-f1_keywords: 
- - "d2d1/ID2D1GeometrySink.AddLine"
+f1_keywords:
+- d2d1/ID2D1GeometrySink.AddLine
 dev_langs:
- - c++
+- c++
 req.header: d2d1.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: D2d1.lib
 req.dll: D2d1.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D2d1.dll
+- D2d1.dll
 api_name:
- - ID2D1GeometrySink.AddLine
+- ID2D1GeometrySink.AddLine
 targetos: Windows
 req.typenames: 
 req.redist: 

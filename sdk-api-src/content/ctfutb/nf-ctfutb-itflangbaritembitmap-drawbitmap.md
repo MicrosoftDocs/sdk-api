@@ -1,19 +1,17 @@
 ---
 UID: NF:ctfutb.ITfLangBarItemBitmap.DrawBitmap
 title: ITfLangBarItemBitmap::DrawBitmap (ctfutb.h)
-
 description: ITfLangBarItemBitmap::DrawBitmap method
 old-location: tsf\itflangbaritembitmap_drawbitmap.htm
 tech.root: TSF
 ms.assetid: ac8c384e-1d92-4092-940d-17a88a316a4d
-
 ms.date: 12/05/2018
 ms.keywords: DrawBitmap, DrawBitmap method [Text Services Framework], DrawBitmap method [Text Services Framework],ITfLangBarItemBitmap interface, ITfLangBarItemBitmap interface [Text Services Framework],DrawBitmap method, ITfLangBarItemBitmap.DrawBitmap, ITfLangBarItemBitmap::DrawBitmap, _tsf_itflangbaritembitmap_drawbitmap_ref, ctfutb/ITfLangBarItemBitmap::DrawBitmap, tsf.itflangbaritembitmap_drawbitmap
 ms.topic: method
-f1_keywords: 
- - "ctfutb/ITfLangBarItemBitmap.DrawBitmap"
+f1_keywords:
+- ctfutb/ITfLangBarItemBitmap.DrawBitmap
 dev_langs:
- - c++
+- c++
 req.header: ctfutb.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msctf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msctf.dll
+- msctf.dll
 api_name:
- - ITfLangBarItemBitmap.DrawBitmap
+- ITfLangBarItemBitmap.DrawBitmap
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

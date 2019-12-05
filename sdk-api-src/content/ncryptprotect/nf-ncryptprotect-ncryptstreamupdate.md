@@ -1,19 +1,17 @@
 ---
 UID: NF:ncryptprotect.NCryptStreamUpdate
 title: NCryptStreamUpdate function (ncryptprotect.h)
-
 description: Encrypts and decrypts blocks of data.
 old-location: security\ncryptstreamupdate.htm
 tech.root: SecCNG
 ms.assetid: 417F9267-6055-489C-AF26-BEF5E17CB8B4
-
 ms.date: 12/05/2018
 ms.keywords: NCryptStreamUpdate, NCryptStreamUpdate function [Security], ncryptprotect/NCryptStreamUpdate, security.ncryptstreamupdate
 ms.topic: function
-f1_keywords: 
- - "ncryptprotect/NCryptStreamUpdate"
+f1_keywords:
+- ncryptprotect/NCryptStreamUpdate
 dev_langs:
- - c++
+- c++
 req.header: ncryptprotect.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: NCrypt.lib
 req.dll: NCrypt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - NCrypt.dll
+- NCrypt.dll
 api_name:
- - NCryptStreamUpdate
+- NCryptStreamUpdate
 targetos: Windows
 req.typenames: 
 req.redist: 

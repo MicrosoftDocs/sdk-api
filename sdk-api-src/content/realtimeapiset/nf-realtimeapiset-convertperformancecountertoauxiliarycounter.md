@@ -1,19 +1,17 @@
 ---
 UID: NF:realtimeapiset.ConvertPerformanceCounterToAuxiliaryCounter
 title: ConvertPerformanceCounterToAuxiliaryCounter function (realtimeapiset.h)
-
 description: Converts the specified performance counter value to the corresponding auxiliary counter value; optionally provides the estimated conversion error in nanoseconds due to latencies and maximum possible drift.
 old-location: base\convertperformancecountertoauxiliarycounter.htm
 tech.root: SysInfo
 ms.assetid: 2499981B-6C13-4A3D-836A-D4CCD11C8D50
-
 ms.date: 12/05/2018
 ms.keywords: ConvertPerformanceCounterToAuxiliaryCounter, ConvertPerformanceCounterToAuxiliaryCounter function, base.convertperformancecountertoauxiliarycounter, realtimeapiset/ConvertPerformanceCounterToAuxiliaryCounter
 ms.topic: function
-f1_keywords: 
- - "realtimeapiset/ConvertPerformanceCounterToAuxiliaryCounter"
+f1_keywords:
+- realtimeapiset/ConvertPerformanceCounterToAuxiliaryCounter
 dev_langs:
- - c++
+- c++
 req.header: realtimeapiset.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Mincore.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
+- Kernel32.dll
 api_name:
- - ConvertPerformanceCounterToAuxiliaryCounter
+- ConvertPerformanceCounterToAuxiliaryCounter
 targetos: Windows
 req.typenames: 
 req.redist: 

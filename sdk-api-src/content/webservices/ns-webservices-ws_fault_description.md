@@ -1,19 +1,17 @@
 ---
 UID: NS:webservices._WS_FAULT_DESCRIPTION
 title: WS_FAULT_DESCRIPTION (webservices.h)
-
 description: Information about a mapping between an WS_FAULT and an XML element.
 old-location: wsw\ws_fault_description.htm
 tech.root: wsw
 ms.assetid: 6634faec-5491-4332-b815-be2effa263f8
-
 ms.date: 12/05/2018
 ms.keywords: WS_FAULT_DESCRIPTION, WS_FAULT_DESCRIPTION structure [Web Services for Windows], webservices/WS_FAULT_DESCRIPTION, wsw.ws_fault_description
 ms.topic: struct
 f1_keywords:
 - webservices/WS_FAULT_DESCRIPTION
 dev_langs:
- - c++
+- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

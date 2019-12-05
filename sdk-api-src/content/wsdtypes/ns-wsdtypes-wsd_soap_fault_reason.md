@@ -1,19 +1,17 @@
 ---
 UID: NS:wsdtypes._WSD_SOAP_FAULT_REASON
 title: WSD_SOAP_FAULT_REASON (wsdtypes.h)
-
 description: A collection of reason codes associated with a WSD_SOAP_FAULT.
 old-location: ncd\wsd_soap_fault_reason_struct.htm
 tech.root: WsdApi
 ms.assetid: c1b2ac44-8a86-4aac-a0d3-3b8d80a6b1d9
-
 ms.date: 12/05/2018
 ms.keywords: WSD_SOAP_FAULT_REASON, WSD_SOAP_FAULT_REASON structure, ncd.wsd_soap_fault_reason_struct, wsdtypes/WSD_SOAP_FAULT_REASON
 ms.topic: struct
 f1_keywords:
 - wsdtypes/WSD_SOAP_FAULT_REASON
 dev_langs:
- - c++
+- c++
 req.header: wsdtypes.h
 req.include-header: Wsdapi.h
 req.target-type: Windows

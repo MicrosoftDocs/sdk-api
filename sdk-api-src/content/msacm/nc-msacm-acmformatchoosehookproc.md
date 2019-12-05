@@ -1,19 +1,17 @@
 ---
 UID: NC:msacm.ACMFORMATCHOOSEHOOKPROC
 title: ACMFORMATCHOOSEHOOKPROC (msacm.h)
-
 description: The acmFormatChooseHookProc function specifies a user-defined function that hooks the acmFormatChoose dialog box. The acmFormatChooseHookProc name is a placeholder for an application-defined name.
 old-location: multimedia\acmformatchoosehookproc.htm
 tech.root: Multimedia
 ms.assetid: 75b11c0f-ae85-424d-b936-492d67440659
-
 ms.date: 12/05/2018
-ms.keywords: "_win32_acmFormatChooseHookProc, acmFormatChooseHookProc, acmFormatChooseHookProc callback, acmFormatChooseHookProc callback function [Windows Multimedia], msacm/acmFormatChooseHookProc, multimedia.acmformatchoosehookproc"
+ms.keywords: _win32_acmFormatChooseHookProc, acmFormatChooseHookProc, acmFormatChooseHookProc callback, acmFormatChooseHookProc callback function [Windows Multimedia], msacm/acmFormatChooseHookProc, multimedia.acmformatchoosehookproc
 ms.topic: callback
-f1_keywords: 
- - "msacm/acmFormatChooseHookProc"
+f1_keywords:
+- msacm/acmFormatChooseHookProc
 dev_langs:
- - c++
+- c++
 req.header: msacm.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Msacm.h
+- Msacm.h
 api_name:
- - acmFormatChooseHookProc
+- acmFormatChooseHookProc
 targetos: Windows
 req.typenames: 
 req.redist: 

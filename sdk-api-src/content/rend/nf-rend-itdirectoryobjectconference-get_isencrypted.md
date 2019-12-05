@@ -1,19 +1,17 @@
 ---
 UID: NF:rend.ITDirectoryObjectConference.get_IsEncrypted
 title: ITDirectoryObjectConference::get_IsEncrypted (rend.h)
-
 description: The get_IsEncrypted method gets whether the conference is encrypted.
 old-location: tapi3\itdirectoryobjectconference_get_isencrypted.htm
 tech.root: Tapi
 ms.assetid: a3228efa-2501-44ec-ba85-0e3b7c00b483
-
 ms.date: 12/05/2018
 ms.keywords: ITDirectoryObjectConference interface [TAPI 2.2],get_IsEncrypted method, ITDirectoryObjectConference.get_IsEncrypted, ITDirectoryObjectConference::get_IsEncrypted, _tapi3_itdirectoryobjectconference_get_isencrypted, get_IsEncrypted, get_IsEncrypted method [TAPI 2.2], get_IsEncrypted method [TAPI 2.2],ITDirectoryObjectConference interface, rend/ITDirectoryObjectConference::get_IsEncrypted, tapi3.itdirectoryobjectconference_get_isencrypted
 ms.topic: method
-f1_keywords: 
- - "rend/ITDirectoryObjectConference.get_IsEncrypted"
+f1_keywords:
+- rend/ITDirectoryObjectConference.get_IsEncrypted
 dev_langs:
- - c++
+- c++
 req.header: rend.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Rend.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Rend.dll
+- Rend.dll
 api_name:
- - ITDirectoryObjectConference.get_IsEncrypted
+- ITDirectoryObjectConference.get_IsEncrypted
 targetos: Windows
 req.typenames: 
 req.redist: 

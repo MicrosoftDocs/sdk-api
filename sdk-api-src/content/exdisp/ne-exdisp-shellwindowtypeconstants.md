@@ -1,19 +1,17 @@
 ---
 UID: NE:exdisp.ShellWindowTypeConstants
 title: ShellWindowTypeConstants (exdisp.h)
-
 description: Specifies types of Shell windows.
 old-location: shell\ShellWindowTypeConstants.htm
 tech.root: shell
 ms.assetid: 79d4fcf3-5256-4e21-ab9a-94605e1d742f
-
 ms.date: 12/05/2018
 ms.keywords: SWC_3RDPARTY, SWC_BROWSER, SWC_CALLBACK, SWC_DESKTOP, SWC_EXPLORER, ShellWindowTypeConstants, ShellWindowTypeConstants enumeration [Windows Shell], _win32_ShellWindowTypeConstants, exdisp/SWC_3RDPARTY, exdisp/SWC_BROWSER, exdisp/SWC_CALLBACK, exdisp/SWC_DESKTOP, exdisp/SWC_EXPLORER, exdisp/ShellWindowTypeConstants, shell.ShellWindowTypeConstants
 ms.topic: enum
-f1_keywords: 
- - "exdisp/ShellWindowTypeConstants"
+f1_keywords:
+- exdisp/ShellWindowTypeConstants
 dev_langs:
- - c++
+- c++
 req.header: exdisp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Exdisp.h
+- Exdisp.h
 api_name:
- - ShellWindowTypeConstants
+- ShellWindowTypeConstants
 targetos: Windows
 req.typenames: ShellWindowTypeConstants
 req.redist: 

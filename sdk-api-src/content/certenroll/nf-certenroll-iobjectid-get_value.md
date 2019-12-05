@@ -1,19 +1,17 @@
 ---
 UID: NF:certenroll.IObjectId.get_Value
 title: IObjectId::get_Value (certenroll.h)
-
 description: Retrieves a string that contains the dotted decimal object identifier (OID).
 old-location: security\iobjectid_value_property.htm
 tech.root: seccertenroll
 ms.assetid: 9ccb681a-f31b-4d31-ae56-25efd2af2b2c
-
 ms.date: 12/05/2018
 ms.keywords: IObjectId interface [Security],Value property, IObjectId.Value, IObjectId.get_Value, IObjectId::Value, IObjectId::get_Value, Value property [Security], Value property [Security],IObjectId interface, certenroll/IObjectId::Value, certenroll/IObjectId::get_Value, get_Value, security.iobjectid_value_property
 ms.topic: method
-f1_keywords: 
- - "certenroll/IObjectId.Value"
+f1_keywords:
+- certenroll/IObjectId.Value
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: CertEnroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CertEnroll.dll
+- CertEnroll.dll
 api_name:
- - IObjectId.Value
- - IObjectId.get_Value
+- IObjectId.Value
+- IObjectId.get_Value
 targetos: Windows
 req.typenames: 
 req.redist: 

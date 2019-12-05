@@ -1,19 +1,17 @@
 ---
 UID: NE:shappmgr._tagAppActionFlags
 title: APPACTIONFLAGS (shappmgr.h)
-
 description: Specifies application management actions supported by an application publisher. These flags are bitmasks passed to IShellApp::GetPossibleActions.
 old-location: shell\APPACTIONFLAGS.htm
 tech.root: shell
 ms.assetid: edfd9b1e-7f4d-4350-9d2c-71f59ca4f7eb
-
 ms.date: 12/05/2018
 ms.keywords: APPACTIONFLAGS, APPACTIONFLAGS enumeration [Windows Shell], APPACTION_ADDLATER, APPACTION_CANGETSIZE, APPACTION_INSTALL, APPACTION_MODIFY, APPACTION_MODIFYREMOVE, APPACTION_REPAIR, APPACTION_UNINSTALL, APPACTION_UNSCHEDULE, APPACTION_UPGRADE, inet_APPACTIONFLAGS, shappmgr/APPACTIONFLAGS, shappmgr/APPACTION_ADDLATER, shappmgr/APPACTION_CANGETSIZE, shappmgr/APPACTION_INSTALL, shappmgr/APPACTION_MODIFY, shappmgr/APPACTION_MODIFYREMOVE, shappmgr/APPACTION_REPAIR, shappmgr/APPACTION_UNINSTALL, shappmgr/APPACTION_UNSCHEDULE, shappmgr/APPACTION_UPGRADE, shell.APPACTIONFLAGS
 ms.topic: enum
-f1_keywords: 
- - "shappmgr/APPACTIONFLAGS"
+f1_keywords:
+- shappmgr/APPACTIONFLAGS
 dev_langs:
- - c++
+- c++
 req.header: shappmgr.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Shappmgr.h
+- Shappmgr.h
 api_name:
- - APPACTIONFLAGS
+- APPACTIONFLAGS
 targetos: Windows
 req.typenames: APPACTIONFLAGS
 req.redist: 

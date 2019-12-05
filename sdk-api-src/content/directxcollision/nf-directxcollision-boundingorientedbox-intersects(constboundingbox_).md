@@ -1,19 +1,17 @@
 ---
 UID: NF:directxcollision.BoundingOrientedBox.Intersects(const BoundingBox &)
 title: BoundingOrientedBox::Intersects(const BoundingBox &)
-
 description: Tests the BoundingOrientedBox for intersection with a BoundingBox.
 old-location: dxmath\boundingorientedbox_intersects_4.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.directxmath.BoundingOrientedBox.Intersects(BoundingBox)
-
 ms.date: 12/05/2018
 ms.keywords: BoundingOrientedBox interface [DirectX Math Support APIs],Intersects method, BoundingOrientedBox.Intersects, BoundingOrientedBox.Intersects(const BoundingBox &), BoundingOrientedBox.Intersects(const BoundingBox&), BoundingOrientedBox::Intersects, BoundingOrientedBox::Intersects(const BoundingBox &), Intersects, Intersects method [DirectX Math Support APIs], Intersects method [DirectX Math Support APIs],BoundingOrientedBox interface, dxmath.boundingorientedbox_intersects_4
 ms.topic: method
-f1_keywords: 
- - "directxcollision/BoundingOrientedBox.Intersects"
+f1_keywords:
+- directxcollision/BoundingOrientedBox.Intersects
 dev_langs:
- - c++
+- c++
 req.header: directxcollision.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - DirectXCollision.h
+- DirectXCollision.h
 api_name:
- - BoundingOrientedBox.Intersects
+- BoundingOrientedBox.Intersects
 targetos: Windows
 req.typenames: 
 req.redist: 

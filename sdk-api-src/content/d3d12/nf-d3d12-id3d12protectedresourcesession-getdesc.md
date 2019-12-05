@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d12.ID3D12ProtectedResourceSession.GetDesc
 title: ID3D12ProtectedResourceSession::GetDesc (d3d12.h)
-
 description: Retrieves a description of the protected resource session.
 old-location: direct3d12\id3d12protectedresourcesession_getdesc.htm
 tech.root: direct3d12
 ms.assetid: 69C7B4D6-B87E-4282-98EA-EF77AB4131E4
-
 ms.date: 12/05/2018
 ms.keywords: GetDesc, GetDesc method, GetDesc method,ID3D12ProtectedResourceSession interface, ID3D12ProtectedResourceSession interface,GetDesc method, ID3D12ProtectedResourceSession.GetDesc, ID3D12ProtectedResourceSession::GetDesc, d3d12/ID3D12ProtectedResourceSession::GetDesc, direct3d12.id3d12protectedresourcesession_getdesc
 ms.topic: method
-f1_keywords: 
- - "d3d12/ID3D12ProtectedResourceSession.GetDesc"
+f1_keywords:
+- d3d12/ID3D12ProtectedResourceSession.GetDesc
 dev_langs:
- - c++
+- c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: D3D12.lib
 req.dll: D3D12.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D12.dll
+- D3D12.dll
 api_name:
- - ID3D12ProtectedResourceSession.GetDesc
+- ID3D12ProtectedResourceSession.GetDesc
 targetos: Windows
 req.typenames: 
 req.redist: 

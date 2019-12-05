@@ -1,19 +1,17 @@
 ---
 UID: NF:mfidl.IMFWorkQueueServicesEx.GetPlatformWorkQueueMMCSSPriority
 title: IMFWorkQueueServicesEx::GetPlatformWorkQueueMMCSSPriority (mfidl.h)
-
 description: Gets the priority of the Multimedia Class Scheduler Service (MMCSS) priority associated with the specified platform work queue.
 old-location: mf\imfworkqueueservicesex_getplatformworkqueuemmcsspriority.htm
 tech.root: medfound
 ms.assetid: e9271439-8785-4743-9e6f-81342af117f8
-
 ms.date: 12/05/2018
 ms.keywords: GetPlatformWorkQueueMMCSSPriority, GetPlatformWorkQueueMMCSSPriority method [Media Foundation], GetPlatformWorkQueueMMCSSPriority method [Media Foundation],IMFWorkQueueServicesEx interface, IMFWorkQueueServicesEx interface [Media Foundation],GetPlatformWorkQueueMMCSSPriority method, IMFWorkQueueServicesEx.GetPlatformWorkQueueMMCSSPriority, IMFWorkQueueServicesEx::GetPlatformWorkQueueMMCSSPriority, mf.imfworkqueueservicesex_getplatformworkqueuemmcsspriority, mfidl/IMFWorkQueueServicesEx::GetPlatformWorkQueueMMCSSPriority
 ms.topic: method
-f1_keywords: 
- - "mfidl/IMFWorkQueueServicesEx.GetPlatformWorkQueueMMCSSPriority"
+f1_keywords:
+- mfidl/IMFWorkQueueServicesEx.GetPlatformWorkQueueMMCSSPriority
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfidl.h
+- mfidl.h
 api_name:
- - IMFWorkQueueServicesEx.GetPlatformWorkQueueMMCSSPriority
+- IMFWorkQueueServicesEx.GetPlatformWorkQueueMMCSSPriority
 targetos: Windows
 req.typenames: 
 req.redist: 

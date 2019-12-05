@@ -1,19 +1,17 @@
 ---
 UID: NE:ctffunc.__MIDL___MIDL_itf_ctffunc_0000_0011_0001
 title: TfSapiObject (ctffunc.h)
-
 description: Elements of the TfSapiObject enumeration are used with the ITfFnGetSAPIObject::Get method to specify a specific type of Speech API (SAPI) object.
 old-location: tsf\tfsapiobject.htm
 tech.root: TSF
 ms.assetid: 82fb6417-efee-4f04-a9a9-4e52934e2e86
-
 ms.date: 12/05/2018
 ms.keywords: GETIF_DICTGRAM, GETIF_RECOCONTEXT, GETIF_RECOGNIZER, GETIF_RECOGNIZERNOINIT, GETIF_RESMGR, GETIF_VOICE, TfSapiObject, TfSapiObject enumeration [Text Services Framework], _tsf_tfsapiobject_ref, ctffunc/GETIF_DICTGRAM, ctffunc/GETIF_RECOCONTEXT, ctffunc/GETIF_RECOGNIZER, ctffunc/GETIF_RECOGNIZERNOINIT, ctffunc/GETIF_RESMGR, ctffunc/GETIF_VOICE, ctffunc/TfSapiObject, tsf.tfsapiobject
 ms.topic: enum
-f1_keywords: 
- - "ctffunc/TfSapiObject"
+f1_keywords:
+- ctffunc/TfSapiObject
 dev_langs:
- - c++
+- c++
 req.header: ctffunc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Ctffunc.h
+- Ctffunc.h
 api_name:
- - TfSapiObject
+- TfSapiObject
 targetos: Windows
 req.typenames: TfSapiObject
 req.redist: TSF 1.0 on Windows 2000 Professional

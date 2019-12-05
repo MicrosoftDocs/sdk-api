@@ -1,19 +1,17 @@
 ---
 UID: NF:webservices.WsCopyError
 title: WsCopyError function (webservices.h)
-
 description: Copies an error object from a specified source to a specifed destination.
 old-location: wsw\wscopyerror.htm
 tech.root: wsw
 ms.assetid: 02b44bd4-b7ce-4be5-bd59-340c006a1e43
-
 ms.date: 12/05/2018
 ms.keywords: WsCopyError, WsCopyError function [Web Services for Windows], webservices/WsCopyError, wsw.wscopyerror
 ms.topic: function
-f1_keywords: 
- - "webservices/WsCopyError"
+f1_keywords:
+- webservices/WsCopyError
 dev_langs:
- - c++
+- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: WebServices.lib
 req.dll: WebServices.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - WebServices.dll
+- WebServices.dll
 api_name:
- - WsCopyError
+- WsCopyError
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NN:dxgi1_4.IDXGISwapChain3
 title: IDXGISwapChain3 (dxgi1_4.h)
-
 description: Extends IDXGISwapChain2 with methods to support getting the index of the swap chain's current back buffer and support for color space.
 old-location: direct3ddxgi\idxgiswapchain3.htm
 tech.root: direct3ddxgi
 ms.assetid: 3B91A70D-C635-46DF-871D-F1796D4E50E7
-
 ms.date: 12/05/2018
 ms.keywords: IDXGISwapChain3, IDXGISwapChain3 interface [DXGI], IDXGISwapChain3 interface [DXGI],described, direct3ddxgi.idxgiswapchain3, dxgi1_4/IDXGISwapChain3
 ms.topic: interface
-f1_keywords: 
- - "dxgi1_4/IDXGISwapChain3"
+f1_keywords:
+- dxgi1_4/IDXGISwapChain3
 dev_langs:
- - c++
+- c++
 req.header: dxgi1_4.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Dxgi.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dxgi.lib
- - Dxgi.dll
+- Dxgi.lib
+- Dxgi.dll
 api_name:
- - IDXGISwapChain3
+- IDXGISwapChain3
 targetos: Windows
 req.typenames: 
 req.redist: 

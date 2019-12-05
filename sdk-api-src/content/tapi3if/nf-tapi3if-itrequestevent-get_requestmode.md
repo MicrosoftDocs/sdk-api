@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi3if.ITRequestEvent.get_RequestMode
 title: ITRequestEvent::get_RequestMode (tapi3if.h)
-
 description: The get_RequestMode method gets the mode of the request.
 old-location: tapi3\itrequestevent_get_requestmode.htm
 tech.root: Tapi
 ms.assetid: 4c53d0ad-cb20-42f0-bd43-9b6bf18debcc
-
 ms.date: 12/05/2018
 ms.keywords: ITRequestEvent interface [TAPI 2.2],get_RequestMode method, ITRequestEvent.get_RequestMode, ITRequestEvent::get_RequestMode, _tapi3_itrequestevent_get_requestmode, get_RequestMode, get_RequestMode method [TAPI 2.2], get_RequestMode method [TAPI 2.2],ITRequestEvent interface, tapi3.itrequestevent_get_requestmode, tapi3if/ITRequestEvent::get_RequestMode
 ms.topic: method
-f1_keywords: 
- - "tapi3if/ITRequestEvent.get_RequestMode"
+f1_keywords:
+- tapi3if/ITRequestEvent.get_RequestMode
 dev_langs:
- - c++
+- c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Tapi3.dll
+- Tapi3.dll
 api_name:
- - ITRequestEvent.get_RequestMode
+- ITRequestEvent.get_RequestMode
 targetos: Windows
 req.typenames: 
 req.redist: 

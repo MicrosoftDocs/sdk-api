@@ -1,19 +1,17 @@
 ---
 UID: NF:dcomp.IDCompositionDevice3.CreateArithmeticCompositeEffect
 title: IDCompositionDevice3::CreateArithmeticCompositeEffect (dcomp.h)
-
 description: Creates an instance of IDCompositionArithmeticCompositeEffect.
 old-location: directcomp\idcompositiondevice3_createarithmeticcompositeeffect.htm
 tech.root: directcomp
 ms.assetid: 0A06A546-7FD6-4B3C-86C8-0C5B9417D450
-
 ms.date: 12/05/2018
 ms.keywords: CreateArithmeticCompositeEffect, CreateArithmeticCompositeEffect method [DirectComposition], CreateArithmeticCompositeEffect method [DirectComposition],IDCompositionDevice3 interface, IDCompositionDevice3 interface [DirectComposition],CreateArithmeticCompositeEffect method, IDCompositionDevice3.CreateArithmeticCompositeEffect, IDCompositionDevice3::CreateArithmeticCompositeEffect, dcomp/IDCompositionDevice3::CreateArithmeticCompositeEffect, directcomp.idcompositiondevice3_createarithmeticcompositeeffect
 ms.topic: method
-f1_keywords: 
- - "dcomp/IDCompositionDevice3.CreateArithmeticCompositeEffect"
+f1_keywords:
+- dcomp/IDCompositionDevice3.CreateArithmeticCompositeEffect
 dev_langs:
- - c++
+- c++
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dcomp.lib
 req.dll: Dcomp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dcomp.dll
+- dcomp.dll
 api_name:
- - IDCompositionDevice3.CreateArithmeticCompositeEffect
+- IDCompositionDevice3.CreateArithmeticCompositeEffect
 targetos: Windows
 req.typenames: 
 req.redist: 

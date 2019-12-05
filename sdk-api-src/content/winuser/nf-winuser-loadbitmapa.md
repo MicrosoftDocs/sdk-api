@@ -1,19 +1,17 @@
 ---
 UID: NF:winuser.LoadBitmapA
 title: LoadBitmapA function (winuser.h)
-
 description: The LoadBitmap function loads the specified bitmap resource from a module's executable file.
 old-location: gdi\loadbitmap.htm
 tech.root: gdi
 ms.assetid: 5eed5f78-deaf-4b23-986e-4802dc05936c
-
 ms.date: 12/05/2018
 ms.keywords: LoadBitmap, LoadBitmap function [Windows GDI], LoadBitmapA, LoadBitmapW, _win32_LoadBitmap, gdi.loadbitmap, winuser/LoadBitmap, winuser/LoadBitmapA, winuser/LoadBitmapW
 ms.topic: function
-f1_keywords: 
- - "winuser/LoadBitmap"
+f1_keywords:
+- winuser/LoadBitmap
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - user32.dll
- - Ext-MS-Win-NTUser-Draw-l1-1-1.dll
- - ext-ms-win-ntuser-draw-l1-1-2.dll
+- user32.dll
+- Ext-MS-Win-NTUser-Draw-l1-1-1.dll
+- ext-ms-win-ntuser-draw-l1-1-2.dll
 api_name:
- - LoadBitmap
- - LoadBitmapA
- - LoadBitmapW
+- LoadBitmap
+- LoadBitmapA
+- LoadBitmapW
 targetos: Windows
 req.typenames: 
 req.redist: 

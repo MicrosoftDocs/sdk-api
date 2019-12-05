@@ -1,19 +1,17 @@
 ---
 UID: NF:ndhelper.INetDiagHelper.HighUtilization
 title: INetDiagHelper::HighUtilization (ndhelper.h)
-
 description: Check whether the corresponding component is highly utilized.
 old-location: ndf\inetdiaghelpe_highutilization.htm
 tech.root: NDF
 ms.assetid: 4a555683-f7fd-43a4-808a-60579723293c
-
 ms.date: 12/05/2018
 ms.keywords: HighUtilization, HighUtilization method [NDF], HighUtilization method [NDF],INetDiagHelper interface, INetDiagHelper interface [NDF],HighUtilization method, INetDiagHelper.HighUtilization, INetDiagHelper::HighUtilization, ndf.inetdiaghelpe_highutilization, ndhelper/INetDiagHelper::HighUtilization
 ms.topic: method
-f1_keywords: 
- - "ndhelper/INetDiagHelper.HighUtilization"
+f1_keywords:
+- ndhelper/INetDiagHelper.HighUtilization
 dev_langs:
- - c++
+- c++
 req.header: ndhelper.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ndhelper.h
+- ndhelper.h
 api_name:
- - INetDiagHelper.HighUtilization
+- INetDiagHelper.HighUtilization
 targetos: Windows
 req.typenames: 
 req.redist: 

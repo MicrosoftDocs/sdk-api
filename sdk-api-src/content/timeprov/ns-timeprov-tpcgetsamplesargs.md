@@ -1,19 +1,17 @@
 ---
 UID: NS:timeprov.TpcGetSamplesArgs
 title: TpcGetSamplesArgs (timeprov.h)
-
 description: A structure that is used by the TimeProvCommand function.
 old-location: base\tpcgetsamplesargs_str.htm
 tech.root: SysInfo
 ms.assetid: 7e92a7c1-6927-4d53-8252-6bdd424d6e0c
-
 ms.date: 12/05/2018
 ms.keywords: TpcGetSamplesArgs, TpcGetSamplesArgs structure, _win32_tpcgetsamplesargs_str, base.tpcgetsamplesargs_str, timeprov/TpcGetSamplesArgs
 ms.topic: struct
-f1_keywords: 
- - "timeprov/TpcGetSamplesArgs"
+f1_keywords:
+- timeprov/TpcGetSamplesArgs
 dev_langs:
- - c++
+- c++
 req.header: timeprov.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Timeprov.h
+- Timeprov.h
 api_name:
- - TpcGetSamplesArgs
+- TpcGetSamplesArgs
 targetos: Windows
 req.typenames: TpcGetSamplesArgs
 req.redist: 

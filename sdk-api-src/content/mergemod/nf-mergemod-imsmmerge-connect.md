@@ -1,19 +1,17 @@
 ---
 UID: NF:mergemod.IMsmMerge.Connect
 title: IMsmMerge::Connect (mergemod.h)
-
 description: The Connect method connects a module that has been, or will be, merged into the database to an additional feature. For more information, see the Connect method of the Merge object.
 old-location: setup\imsmmerge_connect.htm
 tech.root: Msi
 ms.assetid: f491beb8-90f7-4e41-891d-ef674306339d
-
 ms.date: 12/05/2018
 ms.keywords: Connect, Connect method, Connect method,IMsmMerge interface, IMsmMerge interface,Connect method, IMsmMerge.Connect, IMsmMerge::Connect, _msi_connect_function, mergemod/IMsmMerge::Connect, setup.imsmmerge_connect
 ms.topic: method
-f1_keywords: 
- - "mergemod/IMsmMerge.Connect"
+f1_keywords:
+- mergemod/IMsmMerge.Connect
 dev_langs:
- - c++
+- c++
 req.header: mergemod.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Mergemod.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mergemod.dll
+- Mergemod.dll
 api_name:
- - IMsmMerge.Connect
+- IMsmMerge.Connect
 targetos: Windows
 req.typenames: 
 req.redist: 

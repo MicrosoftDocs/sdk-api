@@ -1,19 +1,17 @@
 ---
 UID: NN:sbe.ISBE2SpanningEvent
 title: ISBE2SpanningEvent (sbe.h)
-
 description: Implements in-band spanning events for the Stream Buffer Engine, version 2 (SBE2). An in-band spanning event is an in-band event that can be recorded as part of the state information in a stream.
 old-location: mstv\isbe2spanningevent.htm
 tech.root: mstv
 ms.assetid: 155a2e61-3b53-4225-b298-ee51e2afca96
-
 ms.date: 12/05/2018
 ms.keywords: ISBE2SpanningEvent, ISBE2SpanningEvent interface [Microsoft TV Technologies], ISBE2SpanningEvent interface [Microsoft TV Technologies],described, mstv.isbe2spanningevent, sbe/ISBE2SpanningEvent
 ms.topic: interface
-f1_keywords: 
- - "sbe/ISBE2SpanningEvent"
+f1_keywords:
+- sbe/ISBE2SpanningEvent
 dev_langs:
- - c++
+- c++
 req.header: sbe.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - sbe.h
+- sbe.h
 api_name:
- - ISBE2SpanningEvent
+- ISBE2SpanningEvent
 targetos: Windows
 req.typenames: 
 req.redist: 

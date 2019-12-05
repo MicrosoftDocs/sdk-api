@@ -1,19 +1,17 @@
 ---
 UID: NF:certview.IEnumCERTVIEWCOLUMN.Next
 title: IEnumCERTVIEWCOLUMN::Next (certview.h)
-
 description: Moves to the next column in the column-enumeration sequence.
 old-location: security\ienumcertviewcolumn_next.htm
 tech.root: SecCrypto
 ms.assetid: 4c77d1c7-af3a-4a7d-bf42-69be887c881e
-
 ms.date: 12/05/2018
 ms.keywords: IEnumCERTVIEWCOLUMN interface [Security],Next method, IEnumCERTVIEWCOLUMN.Next, IEnumCERTVIEWCOLUMN::Next, Next, Next method [Security], Next method [Security],IEnumCERTVIEWCOLUMN interface, _certsrv_ienumcertviewcolumn_next, certview/IEnumCERTVIEWCOLUMN::Next, security.ienumcertviewcolumn_next
 ms.topic: method
-f1_keywords: 
- - "certview/IEnumCERTVIEWCOLUMN.Next"
+f1_keywords:
+- certview/IEnumCERTVIEWCOLUMN.Next
 dev_langs:
- - c++
+- c++
 req.header: certview.h
 req.include-header: Certsrv.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Certidl.lib
 req.dll: Certadm.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Certadm.dll
+- Certadm.dll
 api_name:
- - IEnumCERTVIEWCOLUMN.Next
- - IEnumCERTVIEWCOLUMN.Next
+- IEnumCERTVIEWCOLUMN.Next
+- IEnumCERTVIEWCOLUMN.Next
 targetos: Windows
 req.typenames: 
 req.redist: 

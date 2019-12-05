@@ -1,19 +1,17 @@
 ---
 UID: NN:sensorsapi.ISensorEvents
 title: ISensorEvents (sensorsapi.h)
-
 description: The callback interface you must implement if you want to receive sensor events.
 old-location: winsensors\isensorevents.htm
 tech.root: SensorsAPI
 ms.assetid: 41acbb4f-b4f8-4573-a993-ed93ec9494f0
-
 ms.date: 12/05/2018
 ms.keywords: ISensorEvents, ISensorEvents interface [WinSensors], ISensorEvents interface [WinSensors],described, sensorsapi/ISensorEvents, winsensors.isensorevents
 ms.topic: interface
-f1_keywords: 
- - "sensorsapi/ISensorEvents"
+f1_keywords:
+- sensorsapi/ISensorEvents
 dev_langs:
- - c++
+- c++
 req.header: sensorsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Sensorsapi.lib
 req.dll: Sensorsapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - sensorsapi.dll
+- sensorsapi.dll
 api_name:
- - ISensorEvents
+- ISensorEvents
 targetos: Windows
 req.typenames: 
 req.redist: 

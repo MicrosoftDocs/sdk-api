@@ -1,19 +1,17 @@
 ---
 UID: NF:wlanapi.WFDCloseHandle
 title: WFDCloseHandle function (wlanapi.h)
-
 description: Closes a handle to the Wi-Fi Direct service.
 old-location: nwifi\wfdclosehandle.htm
 tech.root: NativeWiFi
 ms.assetid: A27C0AE1-1C51-4CAC-8929-63870ADB15A7
-
 ms.date: 12/05/2018
 ms.keywords: WFDCloseHandle, WFDCloseHandle function [NativeWIFI], nwifi.wfdclosehandle, wlanapi/WFDCloseHandle
 ms.topic: function
-f1_keywords: 
- - "wlanapi/WFDCloseHandle"
+f1_keywords:
+- wlanapi/WFDCloseHandle
 dev_langs:
- - c++
+- c++
 req.header: wlanapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Wlanapi.lib
 req.dll: Wlanapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - wlanapi.dll
+- wlanapi.dll
 api_name:
- - WFDCloseHandle
+- WFDCloseHandle
 targetos: Windows
 req.typenames: 
 req.redist: 

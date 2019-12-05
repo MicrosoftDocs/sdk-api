@@ -1,19 +1,17 @@
 ---
 UID: NS:commdlg.tagDEVNAMES
 title: DEVNAMES (commdlg.h)
-
 description: Contains strings that identify the driver, device, and output port names for a printer.
 old-location: dlgbox\devnames_str.htm
 tech.root: dlgbox
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\commondialogboxlibrary\commondialogboxreference\commondialogboxstructures\devnames.htm
-
 ms.date: 12/05/2018
-ms.keywords: "*LPDEVNAMES, DEVNAMES, DEVNAMES structure [Dialog Boxes], LPDEVNAMES, LPDEVNAMES structure pointer [Dialog Boxes], _win32_DEVNAMES_str, _win32_devnames_str_cpp, commdlg/DEVNAMES, commdlg/LPDEVNAMES, dlgbox.devnames_str, winui._win32_devnames_str"
+ms.keywords: '*LPDEVNAMES, DEVNAMES, DEVNAMES structure [Dialog Boxes], LPDEVNAMES, LPDEVNAMES structure pointer [Dialog Boxes], _win32_DEVNAMES_str, _win32_devnames_str_cpp, commdlg/DEVNAMES, commdlg/LPDEVNAMES, dlgbox.devnames_str, winui._win32_devnames_str'
 ms.topic: struct
-f1_keywords: 
- - "commdlg/DEVNAMES"
+f1_keywords:
+- commdlg/DEVNAMES
 dev_langs:
- - c++
+- c++
 req.header: commdlg.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Commdlg.h
+- Commdlg.h
 api_name:
- - DEVNAMES
+- DEVNAMES
 targetos: Windows
 req.typenames: DEVNAMES
 req.redist: 

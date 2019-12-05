@@ -1,19 +1,17 @@
 ---
 UID: NF:d2d1_1.ID2D1Multithread.GetMultithreadProtected
 title: ID2D1Multithread::GetMultithreadProtected (d2d1_1.h)
-
 description: Returns whether the Direct2D factory was created with the D2D1_FACTORY_TYPE_MULTI_THREADED flag.
 old-location: direct2d\id2d1multithread_getmultithreadprotected.htm
 tech.root: Direct2D
 ms.assetid: C805B8C1-942B-4E56-97F2-756B0DD800A2
-
 ms.date: 12/05/2018
 ms.keywords: GetMultithreadProtected, GetMultithreadProtected method [Direct2D], GetMultithreadProtected method [Direct2D],ID2D1Multithread interface, ID2D1Multithread interface [Direct2D],GetMultithreadProtected method, ID2D1Multithread.GetMultithreadProtected, ID2D1Multithread::GetMultithreadProtected, d2d1_1/ID2D1Multithread::GetMultithreadProtected, direct2d.id2d1multithread_getmultithreadprotected
 ms.topic: method
-f1_keywords: 
- - "d2d1_1/ID2D1Multithread.GetMultithreadProtected"
+f1_keywords:
+- d2d1_1/ID2D1Multithread.GetMultithreadProtected
 dev_langs:
- - c++
+- c++
 req.header: d2d1_1.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: D2d1.lib
 req.dll: D2d1.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - d2d1.dll
+- d2d1.dll
 api_name:
- - ID2D1Multithread.GetMultithreadProtected
+- ID2D1Multithread.GetMultithreadProtected
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:rometadataapi.IMetaDataImport.EnumUnresolvedMethods
 title: IMetaDataImport::EnumUnresolvedMethods (rometadataapi.h)
-
 description: Enumerates MemberDef tokens representing the unresolved methods in the current metadata scope.
 old-location: winrt\imetadataimport_enumunresolvedmethods.htm
 tech.root: WinRT
 ms.assetid: 8c10a1af-93a5-44d0-818f-f307f5f81075
-
 ms.date: 12/05/2018
 ms.keywords: EnumUnresolvedMethods, EnumUnresolvedMethods method [Windows Runtime], EnumUnresolvedMethods method [Windows Runtime],IMetaDataImport interface, IMetaDataImport interface [Windows Runtime],EnumUnresolvedMethods method, IMetaDataImport.EnumUnresolvedMethods, IMetaDataImport::EnumUnresolvedMethods, rometadataapi/IMetaDataImport::EnumUnresolvedMethods, winrt.imetadataimport_enumunresolvedmethods
 ms.topic: method
-f1_keywords: 
- - "rometadataapi/IMetaDataImport.EnumUnresolvedMethods"
+f1_keywords:
+- rometadataapi/IMetaDataImport.EnumUnresolvedMethods
 dev_langs:
- - c++
+- c++
 req.header: rometadataapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - rometadataapi.h
+- rometadataapi.h
 api_name:
- - IMetaDataImport.EnumUnresolvedMethods
+- IMetaDataImport.EnumUnresolvedMethods
 targetos: Windows
 req.typenames: 
 req.redist: 

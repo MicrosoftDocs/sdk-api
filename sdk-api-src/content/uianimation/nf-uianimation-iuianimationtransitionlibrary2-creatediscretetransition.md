@@ -1,19 +1,17 @@
 ---
 UID: NF:uianimation.IUIAnimationTransitionLibrary2.CreateDiscreteTransition
 title: IUIAnimationTransitionLibrary2::CreateDiscreteTransition (uianimation.h)
-
 description: Creates a discrete scalar transition.
 old-location: uianimation\iuianimationtransitionlibrary2_creatediscretetransition.htm
 tech.root: UIAnimation
 ms.assetid: 1BDF8ED9-C39D-4FEF-A335-B3BE4EAAD297
-
 ms.date: 12/05/2018
 ms.keywords: CreateDiscreteTransition, CreateDiscreteTransition method [Windows Animation], CreateDiscreteTransition method [Windows Animation],IUIAnimationTransitionLibrary2 interface, IUIAnimationTransitionLibrary2 interface [Windows Animation],CreateDiscreteTransition method, IUIAnimationTransitionLibrary2.CreateDiscreteTransition, IUIAnimationTransitionLibrary2::CreateDiscreteTransition, uianimation.iuianimationtransitionlibrary2_creatediscretetransition, uianimation/IUIAnimationTransitionLibrary2::CreateDiscreteTransition
 ms.topic: method
-f1_keywords: 
- - "uianimation/IUIAnimationTransitionLibrary2.CreateDiscreteTransition"
+f1_keywords:
+- uianimation/IUIAnimationTransitionLibrary2.CreateDiscreteTransition
 dev_langs:
- - c++
+- c++
 req.header: uianimation.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: UIAnimation.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAnimation.dll
+- UIAnimation.dll
 api_name:
- - IUIAnimationTransitionLibrary2.CreateDiscreteTransition
+- IUIAnimationTransitionLibrary2.CreateDiscreteTransition
 targetos: Windows
 req.typenames: 
 req.redist: 

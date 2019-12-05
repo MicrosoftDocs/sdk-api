@@ -1,19 +1,17 @@
 ---
 UID: NF:msiquery.MsiSetFeatureStateA
 title: MsiSetFeatureStateA function (msiquery.h)
-
 description: The MsiSetFeatureState function sets a feature to a specified state.
 old-location: setup\msisetfeaturestate.htm
 tech.root: Msi
 ms.assetid: c7b22484-5a89-44f2-b0ff-6061a7fc5703
-
 ms.date: 12/05/2018
 ms.keywords: INSTALLSTATE_ABSENT, INSTALLSTATE_ADVERTISED, INSTALLSTATE_LOCAL, INSTALLSTATE_SOURCE, MsiSetFeatureState, MsiSetFeatureState function, MsiSetFeatureStateA, MsiSetFeatureStateW, _msi_msisetfeaturestate, msiquery/MsiSetFeatureState, msiquery/MsiSetFeatureStateA, msiquery/MsiSetFeatureStateW, setup.msisetfeaturestate
 ms.topic: function
-f1_keywords: 
- - "msiquery/MsiSetFeatureState"
+f1_keywords:
+- msiquery/MsiSetFeatureState
 dev_langs:
- - c++
+- c++
 req.header: msiquery.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Msi.lib
 req.dll: Msi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Msi.dll
+- Msi.dll
 api_name:
- - MsiSetFeatureState
- - MsiSetFeatureStateA
- - MsiSetFeatureStateW
+- MsiSetFeatureState
+- MsiSetFeatureStateA
+- MsiSetFeatureStateW
 targetos: Windows
 req.typenames: 
 req.redist: 

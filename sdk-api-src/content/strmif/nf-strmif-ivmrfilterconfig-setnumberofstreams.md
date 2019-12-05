@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IVMRFilterConfig.SetNumberOfStreams
 title: IVMRFilterConfig::SetNumberOfStreams (strmif.h)
-
 description: The SetNumberOfStreams method sets the number of streams to be mixed and instructs the VMR to go into mixer mode.
 old-location: dshow\ivmrfilterconfig_setnumberofstreams.htm
 tech.root: DirectShow
 ms.assetid: cd200b33-bb74-474a-9047-d81cb470af23
-
 ms.date: 12/05/2018
 ms.keywords: IVMRFilterConfig interface [DirectShow],SetNumberOfStreams method, IVMRFilterConfig.SetNumberOfStreams, IVMRFilterConfig::SetNumberOfStreams, IVMRFilterConfigSetNumberOfStreams, SetNumberOfStreams, SetNumberOfStreams method [DirectShow], SetNumberOfStreams method [DirectShow],IVMRFilterConfig interface, dshow.ivmrfilterconfig_setnumberofstreams, strmif/IVMRFilterConfig::SetNumberOfStreams
 ms.topic: method
-f1_keywords: 
- - "strmif/IVMRFilterConfig.SetNumberOfStreams"
+f1_keywords:
+- strmif/IVMRFilterConfig.SetNumberOfStreams
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IVMRFilterConfig.SetNumberOfStreams
+- IVMRFilterConfig.SetNumberOfStreams
 targetos: Windows
 req.typenames: 
 req.redist: 

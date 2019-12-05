@@ -1,19 +1,17 @@
 ---
 UID: NF:tspi.TSPI_lineAnswer
 title: TSPI_lineAnswer function (tspi.h)
-
 description: The TSPI_lineAnswer function answers the specified offering call.
 old-location: tspi\tspi_lineanswer.htm
 tech.root: Tapi
 ms.assetid: efd4d7f8-bf81-46c4-b51b-516036e9baef
-
 ms.date: 12/05/2018
 ms.keywords: TSPI_lineAnswer, TSPI_lineAnswer function [TAPI 2.2], _tspi_tspi_lineanswer, tspi.tspi_lineanswer, tspi/TSPI_lineAnswer
 ms.topic: function
-f1_keywords: 
- - "tspi/TSPI_lineAnswer"
+f1_keywords:
+- tspi/TSPI_lineAnswer
 dev_langs:
- - c++
+- c++
 req.header: tspi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Tspi.h
+- Tspi.h
 api_name:
- - TSPI_lineAnswer
+- TSPI_lineAnswer
 targetos: Windows
 req.typenames: 
 req.redist: 

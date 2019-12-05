@@ -1,19 +1,17 @@
 ---
 UID: NC:wdstci.PFN_WdsTransportClientSessionComplete
 title: PFN_WdsTransportClientSessionComplete (wdstci.h)
-
 description: The PFN_WdsTransportClientSessionCompete callback is used by the client to indicate that no more callbacks will be sent to the consumer and that the session either completed successfully or encountered a non-recoverable error.
 old-location: wds\pfn_wdstransportclientsessioncomplete.htm
 tech.root: wds
 ms.assetid: 1c7b8137-bf74-486c-a90e-6becfec5ddc8
-
 ms.date: 12/05/2018
 ms.keywords: PFN_WdsTransportClientSessionComplete, PFN_WdsTransportClientSessionComplete callback, PFN_WdsTransportClientSessionComplete callback function [Windows Deployment Services], wds.pfn_wdstransportclientsessioncomplete, wdstci/PFN_WdsTransportClientSessionComplete
 ms.topic: callback
-f1_keywords: 
- - "wdstci/PFN_WdsTransportClientSessionComplete"
+f1_keywords:
+- wdstci/PFN_WdsTransportClientSessionComplete
 dev_langs:
- - c++
+- c++
 req.header: wdstci.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Wdstci.h
+- Wdstci.h
 api_name:
- - PFN_WdsTransportClientSessionComplete
+- PFN_WdsTransportClientSessionComplete
 targetos: Windows
 req.typenames: 
 req.redist: 

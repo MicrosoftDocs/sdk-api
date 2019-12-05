@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi.lineGetQueueListA
 title: lineGetQueueListA function (tapi.h)
-
 description: The lineGetQueueList function returns a list of queues associated with a particular ACD Group.
 old-location: tapi2\linegetqueuelist.htm
 tech.root: Tapi
 ms.assetid: 3921ab24-c9c8-4068-a885-e55759f04076
-
 ms.date: 12/05/2018
-ms.keywords: "_tapi2_linegetqueuelist, lineGetQueueList, lineGetQueueList function [TAPI 2.2], lineGetQueueListA, lineGetQueueListW, tapi/lineGetQueueList, tapi/lineGetQueueListA, tapi/lineGetQueueListW, tapi2.linegetqueuelist"
+ms.keywords: _tapi2_linegetqueuelist, lineGetQueueList, lineGetQueueList function [TAPI 2.2], lineGetQueueListA, lineGetQueueListW, tapi/lineGetQueueList, tapi/lineGetQueueListA, tapi/lineGetQueueListW, tapi2.linegetqueuelist
 ms.topic: function
-f1_keywords: 
- - "tapi/lineGetQueueList"
+f1_keywords:
+- tapi/lineGetQueueList
 dev_langs:
- - c++
+- c++
 req.header: tapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Tapi32.lib
 req.dll: Tapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Tapi32.dll
+- Tapi32.dll
 api_name:
- - lineGetQueueList
- - lineGetQueueListA
- - lineGetQueueListW
+- lineGetQueueList
+- lineGetQueueListA
+- lineGetQueueListW
 targetos: Windows
 req.typenames: 
 req.redist: 

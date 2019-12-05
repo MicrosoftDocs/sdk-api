@@ -1,19 +1,17 @@
 ---
 UID: NN:d3d9.IDirect3DStateBlock9
 title: IDirect3DStateBlock9 (d3d9.h)
-
 description: Applications use the methods of the IDirect3DStateBlock9 interface to encapsulate render states.
 old-location: direct3d9\idirect3dstateblock9.htm
 tech.root: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3dstateblock9.htm
-
 ms.date: 12/05/2018
 ms.keywords: 4d36b0db-f60c-4be1-3a29-4484c05de1bb, IDirect3DStateBlock9, IDirect3DStateBlock9 interface [Direct3D 9], IDirect3DStateBlock9 interface [Direct3D 9],described, d3d9helper/IDirect3DStateBlock9, direct3d9.idirect3dstateblock9
 ms.topic: interface
-f1_keywords: 
- - "d3d9/IDirect3DStateBlock9"
+f1_keywords:
+- d3d9/IDirect3DStateBlock9
 dev_langs:
- - c++
+- c++
 req.header: d3d9.h
 req.include-header: D3D9.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: D3d9.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - d3d9.lib
- - d3d9.dll
+- d3d9.lib
+- d3d9.dll
 api_name:
- - IDirect3DStateBlock9
+- IDirect3DStateBlock9
 targetos: Windows
 req.typenames: 
 req.redist: 

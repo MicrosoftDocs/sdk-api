@@ -1,19 +1,17 @@
 ---
 UID: NF:gdiplusheaders.Region.Intersect(IN const Region)
 title: Region::Intersect(IN const Region) (gdiplusheaders.h)
-
 description: The Region::Intersect method updates this region to the portion of itself that intersects another region.
 old-location: gdiplus\_gdiplus_CLASS_Region_Intersect_region_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\regionclass\regionmethods\regionintersectmethods\intersect_48region.htm
-
 ms.date: 12/05/2018
 ms.keywords: Intersect, Intersect method [GDI+], Intersect method [GDI+],Region class, Region class [GDI+],Intersect method, Region.Intersect, Region.Intersect(IN const Region), Region.Intersect(const Region*), Region::Intersect, Region::Intersect(IN const Region), _gdiplus_CLASS_Region_Intersect_region_, gdiplus._gdiplus_CLASS_Region_Intersect_region_
 ms.topic: method
-f1_keywords: 
- - "gdiplusheaders/Region.Intersect"
+f1_keywords:
+- gdiplusheaders/Region.Intersect
 dev_langs:
- - c++
+- c++
 req.header: gdiplusheaders.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - Region.Intersect
+- Region.Intersect
 targetos: Windows
 req.typenames: 
 req.redist: 

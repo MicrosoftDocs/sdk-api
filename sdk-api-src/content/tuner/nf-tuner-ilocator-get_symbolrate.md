@@ -1,19 +1,17 @@
 ---
 UID: NF:tuner.ILocator.get_SymbolRate
 title: ILocator::get_SymbolRate (tuner.h)
-
 description: The get_SymbolRate method gets the QPSK symbol rate.
 old-location: mstv\ilocator_get_symbolrate.htm
 tech.root: mstv
 ms.assetid: 828967df-6ce1-4320-ae83-7bfaec79f8c7
-
 ms.date: 12/05/2018
 ms.keywords: IDigitalLocatorget_SymbolRate, ILocator interface [Microsoft TV Technologies],get_SymbolRate method, ILocator.get_SymbolRate, ILocator::get_SymbolRate, get_SymbolRate, get_SymbolRate method [Microsoft TV Technologies], get_SymbolRate method [Microsoft TV Technologies],ILocator interface, mstv.ilocator_get_symbolrate, tuner/ILocator::get_SymbolRate
 ms.topic: method
-f1_keywords: 
- - "tuner/ILocator.get_SymbolRate"
+f1_keywords:
+- tuner/ILocator.get_SymbolRate
 dev_langs:
- - c++
+- c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - tuner.h
+- tuner.h
 api_name:
- - ILocator.get_SymbolRate
+- ILocator.get_SymbolRate
 targetos: Windows
 req.typenames: 
 req.redist: 

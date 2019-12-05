@@ -1,19 +1,17 @@
 ---
 UID: NS:cryptuiapi._CRYPTUI_WIZ_DIGITAL_SIGN_CONTEXT
 title: CRYPTUI_WIZ_DIGITAL_SIGN_CONTEXT (cryptuiapi.h)
-
 description: Used with the CryptUIWizDigitalSign function to contain information about a BLOB.
 old-location: security\cryptui_wiz_digital_sign_context.htm
 tech.root: SecCrypto
 ms.assetid: 3e4eb745-0c28-4ce5-870b-d24565ef0cae
-
 ms.date: 12/05/2018
-ms.keywords: "*PCRYPTUI_WIZ_DIGITAL_SIGN_CONTEXT, CRYPTUI_WIZ_DIGITAL_SIGN_CONTEXT, CRYPTUI_WIZ_DIGITAL_SIGN_CONTEXT structure [Security], PCCRYPTUI_WIZ_DIGITAL_SIGN_CONTEXT, PCCRYPTUI_WIZ_DIGITAL_SIGN_CONTEXT structure pointer [Security], cryptuiapi/CRYPTUI_WIZ_DIGITAL_SIGN_CONTEXT, cryptuiapi/PCCRYPTUI_WIZ_DIGITAL_SIGN_CONTEXT, security.cryptui_wiz_digital_sign_context"
+ms.keywords: '*PCRYPTUI_WIZ_DIGITAL_SIGN_CONTEXT, CRYPTUI_WIZ_DIGITAL_SIGN_CONTEXT, CRYPTUI_WIZ_DIGITAL_SIGN_CONTEXT structure [Security], PCCRYPTUI_WIZ_DIGITAL_SIGN_CONTEXT, PCCRYPTUI_WIZ_DIGITAL_SIGN_CONTEXT structure pointer [Security], cryptuiapi/CRYPTUI_WIZ_DIGITAL_SIGN_CONTEXT, cryptuiapi/PCCRYPTUI_WIZ_DIGITAL_SIGN_CONTEXT, security.cryptui_wiz_digital_sign_context'
 ms.topic: struct
-f1_keywords: 
- - "cryptuiapi/CRYPTUI_WIZ_DIGITAL_SIGN_CONTEXT"
+f1_keywords:
+- cryptuiapi/CRYPTUI_WIZ_DIGITAL_SIGN_CONTEXT
 dev_langs:
- - c++
+- c++
 req.header: cryptuiapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Cryptuiapi.h
+- Cryptuiapi.h
 api_name:
- - CRYPTUI_WIZ_DIGITAL_SIGN_CONTEXT
+- CRYPTUI_WIZ_DIGITAL_SIGN_CONTEXT
 targetos: Windows
 req.typenames: CRYPTUI_WIZ_DIGITAL_SIGN_CONTEXT, *PCRYPTUI_WIZ_DIGITAL_SIGN_CONTEXT
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NN:fsrmreports.IFsrmFileConditionProperty
 title: IFsrmFileConditionProperty (fsrmreports.h)
-
 description: Defines a file condition property.
 old-location: fsrm\ifsrmfileconditionproperty.htm
 tech.root: fsrm
 ms.assetid: 460819db-0ac2-4008-8dfb-f0edc69bb478
-
 ms.date: 12/05/2018
 ms.keywords: IFsrmFileConditionProperty, IFsrmFileConditionProperty interface [File Server Resource Manager], IFsrmFileConditionProperty interface [File Server Resource Manager],described, fs.ifsrmfileconditionproperty, fsrm.ifsrmfileconditionproperty, fsrmreports/IFsrmFileConditionProperty
 ms.topic: interface
-f1_keywords: 
- - "fsrmreports/IFsrmFileConditionProperty"
+f1_keywords:
+- fsrmreports/IFsrmFileConditionProperty
 dev_langs:
- - c++
+- c++
 req.header: fsrmreports.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: SrmSvc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - SrmSvc.dll
+- SrmSvc.dll
 api_name:
- - IFsrmFileConditionProperty
+- IFsrmFileConditionProperty
 targetos: Windows
 req.typenames: 
 req.redist: 

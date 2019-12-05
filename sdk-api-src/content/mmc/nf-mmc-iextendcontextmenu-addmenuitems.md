@@ -1,19 +1,17 @@
 ---
 UID: NF:mmc.IExtendContextMenu.AddMenuItems
 title: IExtendContextMenu::AddMenuItems (mmc.h)
-
 description: The IExtendContextMenu::AddMenuItems method enables a snap-in to add items to a context menu.
 old-location: mmc\iextendcontextmenu_addmenuitems.htm
 tech.root: mmc
 ms.assetid: d4fc7bfd-b017-466e-81f2-74f13aec4b52
-
 ms.date: 12/05/2018
 ms.keywords: AddMenuItems, AddMenuItems method [MMC], AddMenuItems method [MMC],IExtendContextMenu interface, CCM_INSERTIONALLOWED_NEW, CCM_INSERTIONALLOWED_TASK, CCM_INSERTIONALLOWED_TOP, CCM_INSERTIONALLOWED_VIEW, IExtendContextMenu interface [MMC],AddMenuItems method, IExtendContextMenu.AddMenuItems, IExtendContextMenu::AddMenuItems, _slate_iextendcontextmenu_addmenuitems, mmc.iextendcontextmenu_addmenuitems, mmc/IExtendContextMenu::AddMenuItems
 ms.topic: method
 f1_keywords:
 - mmc/IExtendContextMenu.AddMenuItems
 dev_langs:
- - c++
+- c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows

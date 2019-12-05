@@ -1,19 +1,17 @@
 ---
 UID: NF:imapi2fs.IFsiDirectoryItem.AddTree
 title: IFsiDirectoryItem::AddTree (imapi2fs.h)
-
 description: Adds the contents of a directory tree to the file system image.
 old-location: imapi\ifsidirectoryitem_addtree.htm
 tech.root: imapi
 ms.assetid: 4f36538c-fba7-4a0c-a2e9-443b7dc2fdab
-
 ms.date: 12/05/2018
 ms.keywords: AddTree, AddTree method [IMAPI], AddTree method [IMAPI],IFsiDirectoryItem interface, IFsiDirectoryItem interface [IMAPI],AddTree method, IFsiDirectoryItem.AddTree, IFsiDirectoryItem::AddTree, imapi.ifsidirectoryitem_addtree, imapi2fs/IFsiDirectoryItem::AddTree
 ms.topic: method
-f1_keywords: 
- - "imapi2fs/IFsiDirectoryItem.AddTree"
+f1_keywords:
+- imapi2fs/IFsiDirectoryItem.AddTree
 dev_langs:
- - c++
+- c++
 req.header: imapi2fs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - imapi2fs.h
+- imapi2fs.h
 api_name:
- - IFsiDirectoryItem.AddTree
+- IFsiDirectoryItem.AddTree
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:winbio.WinBioOpenSession
 title: WinBioOpenSession function (winbio.h)
-
 description: Connects to a biometric service provider and one or more biometric units.
 old-location: secbiomet\winbioopensession.htm
 tech.root: SecBioMet
 ms.assetid: e9a0bb5f-4bbd-4dc4-9cd8-c26f5e4f74cf
-
 ms.date: 12/05/2018
 ms.keywords: WINBIO_DB_BOOTSTRAP, WINBIO_DB_DEFAULT, WINBIO_DB_ONCHIP, WINBIO_FLAG_ADVANCED, WINBIO_FLAG_BASIC, WINBIO_FLAG_DEFAULT, WINBIO_FLAG_MAINTENANCE, WINBIO_FLAG_RAW, WINBIO_POOL_PRIVATE, WINBIO_POOL_SYSTEM, WinBioOpenSession, WinBioOpenSession function [Windows Biometric Framework API], secbiomet.winbioopensession, winbio/WinBioOpenSession
 ms.topic: function
-f1_keywords: 
- - "winbio/WinBioOpenSession"
+f1_keywords:
+- winbio/WinBioOpenSession
 dev_langs:
- - c++
+- c++
 req.header: winbio.h
 req.include-header: Winbio.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Winbio.lib
 req.dll: Winbio.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Winbio.dll
- - Ext-MS-Win-BioMetrics-WinBio-l1-2-0.dll
- - winbioext.dll
- - Ext-MS-Win-BioMetrics-WinBio-L1-3-0.dll
+- Winbio.dll
+- Ext-MS-Win-BioMetrics-WinBio-l1-2-0.dll
+- winbioext.dll
+- Ext-MS-Win-BioMetrics-WinBio-L1-3-0.dll
 api_name:
- - WinBioOpenSession
+- WinBioOpenSession
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:syncmgr.IEnumSyncMgrEvents.Next
 title: IEnumSyncMgrEvents::Next (syncmgr.h)
-
 description: Gets the next batch of events from the event store.
 old-location: shell\IEnumSyncMgrEvents_Next.htm
 tech.root: shell
 ms.assetid: 22151b04-f4b8-46af-b55a-1ac2054900d3
-
 ms.date: 12/05/2018
 ms.keywords: IEnumSyncMgrEvents interface [Windows Shell],Next method, IEnumSyncMgrEvents.Next, IEnumSyncMgrEvents::Next, Next, Next method [Windows Shell], Next method [Windows Shell],IEnumSyncMgrEvents interface, _shell_IEnumSyncMgrEvents_Next, shell.IEnumSyncMgrEvents_Next, syncmgr/IEnumSyncMgrEvents::Next
 ms.topic: method
-f1_keywords: 
- - "syncmgr/IEnumSyncMgrEvents.Next"
+f1_keywords:
+- syncmgr/IEnumSyncMgrEvents.Next
 dev_langs:
- - c++
+- c++
 req.header: syncmgr.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Syncmgr.h
+- Syncmgr.h
 api_name:
- - IEnumSyncMgrEvents.Next
+- IEnumSyncMgrEvents.Next
 targetos: Windows
 req.typenames: 
 req.redist: 

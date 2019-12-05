@@ -1,19 +1,17 @@
 ---
 UID: NN:dvbsiparser.IIsdbEventGroupDescriptor
 title: IIsdbEventGroupDescriptor (dvbsiparser.h)
-
 description: Implements methods that get data from an Integrated Services Digital Broadcasting (ISDB) event group descriptor.
 old-location: mstv\iisdbeventgroupdescriptor.htm
 tech.root: mstv
 ms.assetid: 1e71f277-0296-4589-8099-dfae2a9dcfb0
-
 ms.date: 12/05/2018
 ms.keywords: IIsdbEventGroupDescriptor, IIsdbEventGroupDescriptor interface [Microsoft TV Technologies], IIsdbEventGroupDescriptor interface [Microsoft TV Technologies],described, dvbsiparser/IIsdbEventGroupDescriptor, mstv.iisdbeventgroupdescriptor
 ms.topic: interface
-f1_keywords: 
- - "dvbsiparser/IIsdbEventGroupDescriptor"
+f1_keywords:
+- dvbsiparser/IIsdbEventGroupDescriptor
 dev_langs:
- - c++
+- c++
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dvbsiparser.h
+- dvbsiparser.h
 api_name:
- - IIsdbEventGroupDescriptor
+- IIsdbEventGroupDescriptor
 targetos: Windows
 req.typenames: 
 req.redist: 

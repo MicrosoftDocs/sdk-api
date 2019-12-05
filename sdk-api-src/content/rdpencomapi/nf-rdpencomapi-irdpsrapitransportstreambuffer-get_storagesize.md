@@ -1,19 +1,17 @@
 ---
 UID: NF:rdpencomapi.IRDPSRAPITransportStreamBuffer.get_StorageSize
 title: IRDPSRAPITransportStreamBuffer::get_StorageSize (rdpencomapi.h)
-
 description: The size, in bytes, of the internal storage buffer for the stream.
 old-location: rdp\irdpsrapitransportstreambuffer_storagesize.htm
 tech.root: rdp
 ms.assetid: e422febe-6b7f-4ce5-af5c-214200b6723e
-
 ms.date: 12/05/2018
 ms.keywords: IRDPSRAPITransportStreamBuffer interface [RDP],StorageSize property, IRDPSRAPITransportStreamBuffer.StorageSize, IRDPSRAPITransportStreamBuffer.get_StorageSize, IRDPSRAPITransportStreamBuffer::StorageSize, IRDPSRAPITransportStreamBuffer::get_StorageSize, StorageSize property [RDP], StorageSize property [RDP],IRDPSRAPITransportStreamBuffer interface, get_StorageSize, rdp.irdpsrapitransportstreambuffer_storagesize, rdpencomapi/IRDPSRAPITransportStreamBuffer::StorageSize, rdpencomapi/IRDPSRAPITransportStreamBuffer::get_StorageSize
 ms.topic: method
-f1_keywords: 
- - "rdpencomapi/IRDPSRAPITransportStreamBuffer::StorageSize"
+f1_keywords:
+- rdpencomapi/IRDPSRAPITransportStreamBuffer::StorageSize
 dev_langs:
- - c++
+- c++
 req.header: rdpencomapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,13 +30,13 @@ req.lib:
 req.dll: RdpEncom.dll
 req.irql: 
 topic_type:
- - kbSyntax
+- kbSyntax
 api_type:
- - <TBD>
+- <TBD>
 api_location:
- -
+- 
 api_name:
- - IRDPSRAPITransportStreamBuffer::StorageSize
+- IRDPSRAPITransportStreamBuffer::StorageSize
 targetos: Windows
 req.typenames: 
 req.redist: 

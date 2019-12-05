@@ -1,19 +1,17 @@
 ---
 UID: NF:ddpbackup.IDedupReadFileCallback.ReadBackupFile
 title: IDedupReadFileCallback::ReadBackupFile (ddpbackup.h)
-
 description: Reads data from a Data Deduplication store metadata or container file located in the backup store.
 old-location: dedup\idedupreadfilecallback_readbackupfile.htm
 tech.root: dedup
 ms.assetid: 9A85B32B-7430-46AC-A9BF-2896651F40AF
-
 ms.date: 12/05/2018
 ms.keywords: IDedupReadFileCallback interface [Data Deduplication API],ReadBackupFile method, IDedupReadFileCallback.ReadBackupFile, IDedupReadFileCallback::ReadBackupFile, ReadBackupFile, ReadBackupFile method [Data Deduplication API], ReadBackupFile method [Data Deduplication API],IDedupReadFileCallback interface, ddpbackup/IDedupReadFileCallback::ReadBackupFile, dedup.idedupreadfilecallback_readbackupfile
 ms.topic: method
-f1_keywords: 
- - "ddpbackup/IDedupReadFileCallback.ReadBackupFile"
+f1_keywords:
+- ddpbackup/IDedupReadFileCallback.ReadBackupFile
 dev_langs:
- - c++
+- c++
 req.header: ddpbackup.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - DdpBackup.h
+- DdpBackup.h
 api_name:
- - IDedupReadFileCallback.ReadBackupFile
+- IDedupReadFileCallback.ReadBackupFile
 targetos: Windows
 req.typenames: 
 req.redist: 

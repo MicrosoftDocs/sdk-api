@@ -1,19 +1,17 @@
 ---
 UID: NF:tuner.IDVBTLocator.get_Guard
 title: IDVBTLocator::get_Guard (tuner.h)
-
 description: The get_Guard method retrieves the guard interval.
 old-location: mstv\idvbtlocator_get_guard.htm
 tech.root: mstv
 ms.assetid: 74b56292-eb9e-4c66-9345-f348b3d21c19
-
 ms.date: 12/05/2018
 ms.keywords: IDVBTLocator interface [Microsoft TV Technologies],get_Guard method, IDVBTLocator.get_Guard, IDVBTLocator::get_Guard, IDVBTLocatorget_Guard, get_Guard, get_Guard method [Microsoft TV Technologies], get_Guard method [Microsoft TV Technologies],IDVBTLocator interface, mstv.idvbtlocator_get_guard, tuner/IDVBTLocator::get_Guard
 ms.topic: method
-f1_keywords: 
- - "tuner/IDVBTLocator.get_Guard"
+f1_keywords:
+- tuner/IDVBTLocator.get_Guard
 dev_langs:
- - c++
+- c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - tuner.h
+- tuner.h
 api_name:
- - IDVBTLocator.get_Guard
+- IDVBTLocator.get_Guard
 targetos: Windows
 req.typenames: 
 req.redist: 

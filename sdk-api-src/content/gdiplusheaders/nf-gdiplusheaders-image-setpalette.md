@@ -1,19 +1,17 @@
 ---
 UID: NF:gdiplusheaders.Image.SetPalette
 title: Image::SetPalette (gdiplusheaders.h)
-
 description: The Image::SetPalette method sets the color palette of this Image object.
 old-location: gdiplus\_gdiplus_CLASS_Image_SetPalette_palette_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\imageclass\imagemethods\setpalette.htm
-
 ms.date: 12/05/2018
 ms.keywords: Image class [GDI+],SetPalette method, Image.SetPalette, Image::SetPalette, SetPalette, SetPalette method [GDI+], SetPalette method [GDI+],Image class, _gdiplus_CLASS_Image_SetPalette_palette_, gdiplus._gdiplus_CLASS_Image_SetPalette_palette_
 ms.topic: method
-f1_keywords: 
- - "gdiplusheaders/Image.SetPalette"
+f1_keywords:
+- gdiplusheaders/Image.SetPalette
 dev_langs:
- - c++
+- c++
 req.header: gdiplusheaders.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - Image.SetPalette
+- Image.SetPalette
 targetos: Windows
 req.typenames: 
 req.redist: 

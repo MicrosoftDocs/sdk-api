@@ -1,19 +1,17 @@
 ---
 UID: NF:ntquery.SetCatalogState
 title: SetCatalogState function (ntquery.h)
-
 description: Sets the catalog state for backup or other purposes.
 old-location: indexsrv\setcatalogstate.htm
 tech.root: IndexSrv
 ms.assetid: VS|indexsrv|~\html\ixrefint_809x.htm
-
 ms.date: 12/05/2018
 ms.keywords: SetCatalogState, SetCatalogState function [Indexing Service], _idxs_SetCatalogState, indexsrv.setcatalogstate, ntquery/SetCatalogState
 ms.topic: function
-f1_keywords: 
- - "ntquery/SetCatalogState"
+f1_keywords:
+- ntquery/SetCatalogState
 dev_langs:
- - c++
+- c++
 req.header: ntquery.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Ntquery.lib
 req.dll: Ntquery.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ntquery.dll
+- Ntquery.dll
 api_name:
- - SetCatalogState
+- SetCatalogState
 targetos: Windows
 req.typenames: 
 req.redist: 

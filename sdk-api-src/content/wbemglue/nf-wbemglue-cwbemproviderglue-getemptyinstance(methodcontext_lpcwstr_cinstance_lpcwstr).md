@@ -1,19 +1,17 @@
 ---
 UID: NF:wbemglue.CWbemProviderGlue.GetEmptyInstance(MethodContext,LPCWSTR,CInstance,LPCWSTR)
 title: CWbemProviderGlue::GetEmptyInstance(MethodContext,LPCWSTR,CInstance,LPCWSTR) (wbemglue.h)
-
 description: The GetEmptyInstance method retrieves a single unpopulated instance of the specified class.
 old-location: wmi\cwbemproviderglue_getemptyinstance_methodcontext_lpcwstr_cinstance__lpcwstr_.htm
 tech.root: WmiSdk
 ms.assetid: 001135bf-5ef5-41ca-9b14-257ea672a3b7
-
 ms.date: 12/05/2018
-ms.keywords: "?GetEmptyInstance@CWbemProviderGlue@@SGJPAVMethodContext@@PBGPAPAVCInstance@@1@Z, CWbemProviderGlue interface [Windows Management Instrumentation],GetEmptyInstance method, CWbemProviderGlue.GetEmptyInstance, CWbemProviderGlue.GetEmptyInstance(MethodContext,LPCWSTR,CInstance,LPCWSTR), CWbemProviderGlue::GetEmptyInstance, CWbemProviderGlue::GetEmptyInstance(MethodContext*,LPCWSTR,CInstance**,LPCWSTR), CWbemProviderGlue::GetEmptyInstance(MethodContext,LPCWSTR,CInstance,LPCWSTR), GetEmptyInstance, GetEmptyInstance method [Windows Management Instrumentation], GetEmptyInstance method [Windows Management Instrumentation],CWbemProviderGlue interface, wbemglue/CWbemProviderGlue::GetEmptyInstance, wmi.cwbemproviderglue_getemptyinstance_methodcontext_lpcwstr_cinstance__lpcwstr_"
+ms.keywords: ?GetEmptyInstance@CWbemProviderGlue@@SGJPAVMethodContext@@PBGPAPAVCInstance@@1@Z, CWbemProviderGlue interface [Windows Management Instrumentation],GetEmptyInstance method, CWbemProviderGlue.GetEmptyInstance, CWbemProviderGlue.GetEmptyInstance(MethodContext,LPCWSTR,CInstance,LPCWSTR), CWbemProviderGlue::GetEmptyInstance, CWbemProviderGlue::GetEmptyInstance(MethodContext*,LPCWSTR,CInstance**,LPCWSTR), CWbemProviderGlue::GetEmptyInstance(MethodContext,LPCWSTR,CInstance,LPCWSTR), GetEmptyInstance, GetEmptyInstance method [Windows Management Instrumentation], GetEmptyInstance method [Windows Management Instrumentation],CWbemProviderGlue interface, wbemglue/CWbemProviderGlue::GetEmptyInstance, wmi.cwbemproviderglue_getemptyinstance_methodcontext_lpcwstr_cinstance__lpcwstr_
 ms.topic: method
-f1_keywords: 
- - "wbemglue/CWbemProviderGlue.GetEmptyInstance"
+f1_keywords:
+- wbemglue/CWbemProviderGlue.GetEmptyInstance
 dev_langs:
- - c++
+- c++
 req.header: wbemglue.h
 req.include-header: FwCommon.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: FrameDyn.lib
 req.dll: FrameDynOS.dll; FrameDyn.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - FrameDynOS.dll
- - FrameDyn.dll
+- FrameDynOS.dll
+- FrameDyn.dll
 api_name:
- - CWbemProviderGlue.GetEmptyInstance
- - ?GetEmptyInstance@CWbemProviderGlue@@SGJPAVMethodContext@@PBGPAPAVCInstance@@1@Z
+- CWbemProviderGlue.GetEmptyInstance
+- ?GetEmptyInstance@CWbemProviderGlue@@SGJPAVMethodContext@@PBGPAPAVCInstance@@1@Z
 targetos: Windows
 req.typenames: 
 req.redist: 

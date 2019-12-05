@@ -1,19 +1,17 @@
 ---
 UID: NN:vds.IVdsLunIscsi
 title: IVdsLunIscsi (vds.h)
-
 description: Provides methods for performing query and configuration operations on an iSCSI LUN.
 old-location: base\ivdsluniscsi.htm
 tech.root: VDS
 ms.assetid: 5b1e6204-6cc0-4d94-8e54-fa963f83ae39
-
 ms.date: 12/05/2018
 ms.keywords: IVdsLunIscsi, IVdsLunIscsi interface [VDS], IVdsLunIscsi interface [VDS],described, base.ivdsluniscsi, vds/IVdsLunIscsi, vdshwprv/IVdsLunIscsi
 ms.topic: interface
-f1_keywords: 
- - "vds/IVdsLunIscsi"
+f1_keywords:
+- vds/IVdsLunIscsi
 dev_langs:
- - c++
+- c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Vds.h
- - VdsHwPrv.h
+- Vds.h
+- VdsHwPrv.h
 api_name:
- - IVdsLunIscsi
+- IVdsLunIscsi
 targetos: Windows
 req.typenames: 
 req.redist: VDS 1.1

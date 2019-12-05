@@ -1,19 +1,17 @@
 ---
 UID: NF:wmp.IWMPEvents.MouseUp
 title: IWMPEvents::MouseUp (wmp.h)
-
 description: The MouseUp event occurs when a mouse button is released.
 old-location: wmp\iwmpevents_iwmpevents__mouseup.htm
 tech.root: WMP
 ms.assetid: 314d633f-e2f4-43ff-951f-1403c1ccd571
-
 ms.date: 12/05/2018
 ms.keywords: IWMPEvents interface [Windows Media Player],MouseUp method, IWMPEvents.MouseUp, IWMPEvents::MouseUp, IWMPEventsMouseUp, MouseUp, MouseUp method [Windows Media Player], MouseUp method [Windows Media Player],IWMPEvents interface, wmp.iwmpevents_iwmpevents__mouseup, wmp/IWMPEvents::MouseUp
 ms.topic: method
-f1_keywords: 
- - "wmp/IWMPEvents.MouseUp"
+f1_keywords:
+- wmp/IWMPEvents.MouseUp
 dev_langs:
- - c++
+- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wmp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmp.dll
+- wmp.dll
 api_name:
- - IWMPEvents.MouseUp
+- IWMPEvents.MouseUp
 targetos: Windows
 req.typenames: 
 req.redist: 

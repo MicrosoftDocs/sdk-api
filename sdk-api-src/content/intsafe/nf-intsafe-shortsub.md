@@ -1,19 +1,17 @@
 ---
 UID: NF:intsafe.ShortSub
 title: ShortSub function (intsafe.h)
-
 description: Subtracts one value of type SHORT from another.
 old-location: shell\ShortSub.htm
 tech.root: shell
 ms.assetid: df438d87-5786-4c55-81f2-534fa9532f09
-
 ms.date: 12/05/2018
 ms.keywords: ShortSub, ShortSub function [Windows Shell], intsafe/ShortSub, shell.ShortSub
 ms.topic: function
-f1_keywords: 
- - "intsafe/ShortSub"
+f1_keywords:
+- intsafe/ShortSub
 dev_langs:
- - c++
+- c++
 req.header: intsafe.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - intsafe.h
+- intsafe.h
 api_name:
- - ShortSub
+- ShortSub
 targetos: Windows
 req.typenames: 
 req.redist: 

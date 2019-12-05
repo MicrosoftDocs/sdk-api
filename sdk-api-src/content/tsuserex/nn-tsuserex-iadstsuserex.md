@@ -1,19 +1,17 @@
 ---
 UID: NN:tsuserex.IADsTSUserEx
 title: IADsTSUserEx (tsuserex.h)
-
 description: Used to examine and configure Remote Desktop Services user properties.
 old-location: termserv\iadstsuserex.htm
 tech.root: TermServ
 ms.assetid: 7af8fe94-15db-49dc-ba4a-b79601205f59
-
 ms.date: 12/05/2018
 ms.keywords: IADsTSUserEx, IADsTSUserEx interface [Remote Desktop Services], IADsTSUserEx interface [Remote Desktop Services],described, termserv.iadstsuserex, tsuserex/IADsTSUserEx
 ms.topic: interface
-f1_keywords: 
- - "tsuserex/IADsTSUserEx"
+f1_keywords:
+- tsuserex/IADsTSUserEx
 dev_langs:
- - c++
+- c++
 req.header: tsuserex.h
 req.include-header: Tsuserex.h, Tsuserex_i.c
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Tsuserex.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Tsuserex.dll
+- Tsuserex.dll
 api_name:
- - IADsTSUserEx
+- IADsTSUserEx
 targetos: Windows
 req.typenames: 
 req.redist: 

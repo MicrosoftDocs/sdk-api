@@ -1,19 +1,17 @@
 ---
 UID: NN:thumbcache.IThumbnailSettings
 title: IThumbnailSettings (thumbcache.h)
-
 description: Provides a method that enables a thumbnail provider to determine the user context of a thumbnail request.
 old-location: shell\IThumbnailSettings.htm
 tech.root: shell
 ms.assetid: 502537E5-1D72-44f0-BC75-DBED61F174FC
-
 ms.date: 12/05/2018
 ms.keywords: IThumbnailSettings, IThumbnailSettings interface [Windows Shell], IThumbnailSettings interface [Windows Shell],described, shell.IThumbnailSettings, thumbcache/IThumbnailSettings
 ms.topic: interface
-f1_keywords: 
- - "thumbcache/IThumbnailSettings"
+f1_keywords:
+- thumbcache/IThumbnailSettings
 dev_langs:
- - c++
+- c++
 req.header: thumbcache.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Thumbcache.h
+- Thumbcache.h
 api_name:
- - IThumbnailSettings
+- IThumbnailSettings
 targetos: Windows
 req.typenames: 
 req.redist: 

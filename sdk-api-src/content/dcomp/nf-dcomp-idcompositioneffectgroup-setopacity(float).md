@@ -1,19 +1,17 @@
 ---
 UID: NF:dcomp.IDCompositionEffectGroup.SetOpacity(float)
 title: IDCompositionEffectGroup::SetOpacity(float) (dcomp.h)
-
 description: Changes the value of the Opacity property.
 old-location: directcomp\idcompositioneffectgroup_setopacity_double.htm
 tech.root: directcomp
 ms.assetid: B82E6BEB-CF92-4EA6-8157-5AA0A41282F1
-
 ms.date: 12/05/2018
 ms.keywords: IDCompositionEffectGroup interface [DirectComposition],SetOpacity method, IDCompositionEffectGroup.SetOpacity, IDCompositionEffectGroup.SetOpacity(float), IDCompositionEffectGroup::SetOpacity, IDCompositionEffectGroup::SetOpacity(float), SetOpacity, SetOpacity method [DirectComposition], SetOpacity method [DirectComposition],IDCompositionEffectGroup interface, dcomp/IDCompositionEffectGroup::SetOpacity, directcomp.idcompositioneffectgroup_setopacity_double
 ms.topic: method
-f1_keywords: 
- - "dcomp/IDCompositionEffectGroup.SetOpacity"
+f1_keywords:
+- dcomp/IDCompositionEffectGroup.SetOpacity
 dev_langs:
- - c++
+- c++
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dcomp.lib
 req.dll: Dcomp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dcomp.dll
+- Dcomp.dll
 api_name:
- - IDCompositionEffectGroup.SetOpacity
+- IDCompositionEffectGroup.SetOpacity
 targetos: Windows
 req.typenames: 
 req.redist: 

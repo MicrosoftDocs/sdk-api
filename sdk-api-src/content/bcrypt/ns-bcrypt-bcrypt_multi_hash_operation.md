@@ -1,19 +1,17 @@
 ---
 UID: NS:bcrypt._BCRYPT_MULTI_HASH_OPERATION
 title: BCRYPT_MULTI_HASH_OPERATION (bcrypt.h)
-
 description: A BCRYPT_MULTI_HASH_OPERATION structure defines a single operation in a multi-hash operation.
 old-location: security\bcrypt_multi_hash_operation.htm
 tech.root: SecCNG
 ms.assetid: B0418A07-D2EE-4346-9971-676C8FB08FAA
-
 ms.date: 12/05/2018
 ms.keywords: BCRYPT_MULTI_HASH_OPERATION, BCRYPT_MULTI_HASH_OPERATION structure [Security], bcrypt/BCRYPT_MULTI_HASH_OPERATION, security.bcrypt_multi_hash_operation
 ms.topic: struct
-f1_keywords: 
- - "bcrypt/BCRYPT_MULTI_HASH_OPERATION"
+f1_keywords:
+- bcrypt/BCRYPT_MULTI_HASH_OPERATION
 dev_langs:
- - c++
+- c++
 req.header: bcrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Bcrypt.h
+- Bcrypt.h
 api_name:
- - BCRYPT_MULTI_HASH_OPERATION
+- BCRYPT_MULTI_HASH_OPERATION
 targetos: Windows
 req.typenames: BCRYPT_MULTI_HASH_OPERATION
 req.redist: 

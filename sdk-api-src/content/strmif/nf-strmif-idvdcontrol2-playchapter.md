@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IDvdControl2.PlayChapter
 title: IDvdControl2::PlayChapter (strmif.h)
-
 description: The PlayChapter method starts playback from the specified chapter in the current title.
 old-location: dshow\idvdcontrol2_playchapter.htm
 tech.root: DirectShow
 ms.assetid: b624aa7e-ff88-417c-8536-4ac38e8ae1ca
-
 ms.date: 12/05/2018
 ms.keywords: IDvdControl2 interface [DirectShow],PlayChapter method, IDvdControl2.PlayChapter, IDvdControl2::PlayChapter, IDvdControl2PlayChapter, PlayChapter, PlayChapter method [DirectShow], PlayChapter method [DirectShow],IDvdControl2 interface, dshow.idvdcontrol2_playchapter, strmif/IDvdControl2::PlayChapter
 ms.topic: method
-f1_keywords: 
- - "strmif/IDvdControl2.PlayChapter"
+f1_keywords:
+- strmif/IDvdControl2.PlayChapter
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IDvdControl2.PlayChapter
+- IDvdControl2.PlayChapter
 targetos: Windows
 req.typenames: 
 req.redist: 

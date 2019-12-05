@@ -1,19 +1,17 @@
 ---
 UID: NF:wtsprotocol.IWTSProtocolLogonErrorRedirector.RedirectMessage
 title: IWTSProtocolLogonErrorRedirector::RedirectMessage (wtsprotocol.h)
-
 description: IWTSProtocolLogonErrorRedirector::RedirectMessage is no longer available. Instead, use IWRdsProtocolLogonErrorRedirector::RedirectMessage.
 old-location: termserv\iwtsprotocollogonerrorredirector_redirectmessage.htm
 tech.root: TermServ
 ms.assetid: 8db3657c-f64f-4e38-832e-5808557f479d
-
 ms.date: 12/05/2018
 ms.keywords: IWTSProtocolLogonErrorRedirector interface [Remote Desktop Services],RedirectMessage method, IWTSProtocolLogonErrorRedirector.RedirectMessage, IWTSProtocolLogonErrorRedirector::RedirectMessage, RedirectMessage, RedirectMessage method [Remote Desktop Services], RedirectMessage method [Remote Desktop Services],IWTSProtocolLogonErrorRedirector interface, termserv.iwtsprotocollogonerrorredirector_redirectmessage, wtsprotocol/IWTSProtocolLogonErrorRedirector::RedirectMessage
 ms.topic: method
-f1_keywords: 
- - "wtsprotocol/IWTSProtocolLogonErrorRedirector.RedirectMessage"
+f1_keywords:
+- wtsprotocol/IWTSProtocolLogonErrorRedirector.RedirectMessage
 dev_langs:
- - c++
+- c++
 req.header: wtsprotocol.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wtsprotocol.h
+- Wtsprotocol.h
 api_name:
- - IWTSProtocolLogonErrorRedirector.RedirectMessage
+- IWTSProtocolLogonErrorRedirector.RedirectMessage
 targetos: Windows
 req.typenames: 
 req.redist: 

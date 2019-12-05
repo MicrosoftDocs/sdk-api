@@ -1,19 +1,17 @@
 ---
 UID: NS:webservices._WS_CAPI_ASYMMETRIC_SECURITY_KEY_HANDLE
 title: WS_CAPI_ASYMMETRIC_SECURITY_KEY_HANDLE (webservices.h)
-
 description: The type for specifying asymmetric cryptographic keys as CAPI 1.0 key handles.
 old-location: wsw\ws_capi_asymmetric_security_key_handle.htm
 tech.root: wsw
 ms.assetid: 1f5d1905-98ef-4481-88c7-4683cbeba0ae
-
 ms.date: 12/05/2018
 ms.keywords: WS_CAPI_ASYMMETRIC_SECURITY_KEY_HANDLE, WS_CAPI_ASYMMETRIC_SECURITY_KEY_HANDLE structure [Web Services for Windows], webservices/WS_CAPI_ASYMMETRIC_SECURITY_KEY_HANDLE, wsw.ws_capi_asymmetric_security_key_handle
 ms.topic: struct
 f1_keywords:
 - webservices/WS_CAPI_ASYMMETRIC_SECURITY_KEY_HANDLE
 dev_langs:
- - c++
+- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

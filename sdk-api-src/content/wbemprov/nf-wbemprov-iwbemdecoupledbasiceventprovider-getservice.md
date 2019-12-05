@@ -1,19 +1,17 @@
 ---
 UID: NF:wbemprov.IWbemDecoupledBasicEventProvider.GetService
 title: IWbemDecoupledBasicEventProvider::GetService (wbemprov.h)
-
 description: The IWbemDecoupledBasicEventProvider::GetService method retrieves an IWbemService object to be used to call back into WMI. This method provides for fully concurrent access.
 old-location: wmi\iwbemdecoupledbasiceventprovider_getservice.htm
 tech.root: WmiSdk
 ms.assetid: d9ce6d1b-4e4a-4d36-8957-85471fff3c69
-
 ms.date: 12/05/2018
 ms.keywords: GetService, GetService method [Windows Management Instrumentation], GetService method [Windows Management Instrumentation],IWbemDecoupledBasicEventProvider interface, GetService method [Windows Management Instrumentation],WbemDecoupledBasicEventProvider object, IWbemDecoupledBasicEventProvider interface [Windows Management Instrumentation],GetService method, IWbemDecoupledBasicEventProvider.GetService, IWbemDecoupledBasicEventProvider::GetService, WbemDecoupledBasicEventProvider object [Windows Management Instrumentation],GetService method, _hmm_iwbemdecoupledbasiceventprovider_getservice, wbemprov/IWbemDecoupledBasicEventProvider::GetService, wmi.iwbemdecoupledbasiceventprovider_getservice
 ms.topic: method
-f1_keywords: 
- - "wbemprov/IWbemDecoupledBasicEventProvider.GetService"
+f1_keywords:
+- wbemprov/IWbemDecoupledBasicEventProvider.GetService
 dev_langs:
- - c++
+- c++
 req.header: wbemprov.h
 req.include-header: Wbemidl.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Wbemuuid.lib
 req.dll: Wmidcprv.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wmidcprv.dll
+- Wmidcprv.dll
 api_name:
- - IWbemDecoupledBasicEventProvider.GetService
- - WbemDecoupledBasicEventProvider.GetService
+- IWbemDecoupledBasicEventProvider.GetService
+- WbemDecoupledBasicEventProvider.GetService
 targetos: Windows
 req.typenames: 
 req.redist: 

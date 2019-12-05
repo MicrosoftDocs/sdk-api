@@ -1,19 +1,17 @@
 ---
 UID: NF:prntvpt.PTOpenProviderEx
 title: PTOpenProviderEx function (prntvpt.h)
-
 description: Opens an instance of a print ticket provider.
 old-location: gdi\ptopenproviderex.htm
 tech.root: printdocs
 ms.assetid: 0e65170b-66f6-4238-bdde-0a0b7108a686
-
 ms.date: 12/05/2018
 ms.keywords: PTOpenProviderEx, PTOpenProviderEx function [Windows GDI], _win32_PTOpenProviderEx, gdi.ptopenproviderex, prntvpt/PTOpenProviderEx
 ms.topic: function
-f1_keywords: 
- - "prntvpt/PTOpenProviderEx"
+f1_keywords:
+- prntvpt/PTOpenProviderEx
 dev_langs:
- - c++
+- c++
 req.header: prntvpt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Prntvpt.lib
 req.dll: Prntvpt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - prntvpt.dll
+- prntvpt.dll
 api_name:
- - PTOpenProviderEx
+- PTOpenProviderEx
 targetos: Windows
 req.typenames: 
 req.redist: 

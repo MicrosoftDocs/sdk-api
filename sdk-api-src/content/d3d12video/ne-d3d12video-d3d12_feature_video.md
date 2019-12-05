@@ -1,37 +1,35 @@
 ---
 UID: NE:d3d12video.D3D12_FEATURE_VIDEO
 title: D3D12_FEATURE_VIDEO
-
 description: Specifies a Direct3D 12 video feature or feature set to query about.
 tech.root: mf
 ms.assetid: 19381358-07c5-4244-a28b-52b568da3b7c
-
-ms.date: 05/28/2019 
+ms.date: 05/28/2019
 ms.topic: enum
 f1_keywords:
- - D3D12_FEATURE_VIDEO
+- D3D12_FEATURE_VIDEO
 dev_langs:
- - c++
-ms.keywords: D3D12_FEATURE_VIDEO, D3D12_FEATURE_VIDEO, 
+- c++
+ms.keywords: D3D12_FEATURE_VIDEO, D3D12_FEATURE_VIDEO,
 req.header: d3d12video.h
-req.include-header:
-req.redist:
-req.target-type:
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.ddi-compliance:
-req.max-support:
+req.include-header: 
+req.redist: 
+req.target-type: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.max-support: 
 req.typenames: D3D12_FEATURE_VIDEO
-topic_type: 
- - apiref
-api_type: 
- - HeaderDef
-api_location: 
- - d3d12video.h
-api_name: 
- - D3D12_FEATURE_VIDEO
+topic_type:
+- apiref
+api_type:
+- HeaderDef
+api_location:
+- d3d12video.h
+api_name:
+- D3D12_FEATURE_VIDEO
 targetos: Windows
 ---
 

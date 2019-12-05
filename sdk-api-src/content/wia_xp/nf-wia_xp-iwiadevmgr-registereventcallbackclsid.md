@@ -1,19 +1,17 @@
 ---
 UID: NF:wia_xp.IWiaDevMgr.RegisterEventCallbackCLSID
 title: IWiaDevMgr::RegisterEventCallbackCLSID (wia_xp.h)
-
 description: The IWiaDevMgr::RegisterEventCallbackCLSID method registers an application to receive events even if the application may not be running.
 old-location: wia\_wia_IWiaDevMgr_RegisterEventCallbackCLSID.htm
 tech.root: wia
 ms.assetid: VS|wia|~\wia\refwia\ifaces\iwiadevmgr\registereventcallbackclsid.htm
-
 ms.date: 12/05/2018
 ms.keywords: IWiaDevMgr interface [WIA],RegisterEventCallbackCLSID method, IWiaDevMgr.RegisterEventCallbackCLSID, IWiaDevMgr::RegisterEventCallbackCLSID, RegisterEventCallbackCLSID, RegisterEventCallbackCLSID method [WIA], RegisterEventCallbackCLSID method [WIA],IWiaDevMgr interface, _wia_IWiaDevMgr_RegisterEventCallbackCLSID, wia._wia_IWiaDevMgr_RegisterEventCallbackCLSID, wia_xp/IWiaDevMgr::RegisterEventCallbackCLSID
 ms.topic: method
 f1_keywords:
 - wia_xp/IWiaDevMgr.RegisterEventCallbackCLSID
 dev_langs:
- - c++
+- c++
 req.header: wia_xp.h
 req.include-header: Wia.h
 req.target-type: Windows

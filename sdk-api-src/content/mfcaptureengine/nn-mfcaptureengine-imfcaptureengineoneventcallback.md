@@ -1,19 +1,17 @@
 ---
 UID: NN:mfcaptureengine.IMFCaptureEngineOnEventCallback
 title: IMFCaptureEngineOnEventCallback (mfcaptureengine.h)
-
 description: Callback interface for receiving events from the capture engine.
 old-location: mf\imfcaptureengineoneventcallback.htm
 tech.root: medfound
 ms.assetid: 6F04F843-160C-4F49-9841-ECC1450F4A58
-
 ms.date: 12/05/2018
 ms.keywords: IMFCaptureEngineOnEventCallback, IMFCaptureEngineOnEventCallback interface [Media Foundation], IMFCaptureEngineOnEventCallback interface [Media Foundation],described, mf.imfcaptureengineoneventcallback, mfcaptureengine/IMFCaptureEngineOnEventCallback
 ms.topic: interface
-f1_keywords: 
- - "mfcaptureengine/IMFCaptureEngineOnEventCallback"
+f1_keywords:
+- mfcaptureengine/IMFCaptureEngineOnEventCallback
 dev_langs:
- - c++
+- c++
 req.header: mfcaptureengine.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfcaptureengine.h
+- mfcaptureengine.h
 api_name:
- - IMFCaptureEngineOnEventCallback
+- IMFCaptureEngineOnEventCallback
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:mfcaptureengine.IMFCaptureSource.GetCaptureDeviceSource
 title: IMFCaptureSource::GetCaptureDeviceSource (mfcaptureengine.h)
-
 description: Gets the current capture device's IMFMediaSource object pointer.
 old-location: mf\imfcapturesource_getcapturedevicesource.htm
 tech.root: medfound
 ms.assetid: 98bce6e3-02f2-449e-aba4-4bfc9de6d1db
-
 ms.date: 12/05/2018
 ms.keywords: GetCaptureDeviceSource, GetCaptureDeviceSource method [Media Foundation], GetCaptureDeviceSource method [Media Foundation],IMFCaptureSource interface, IMFCaptureSource interface [Media Foundation],GetCaptureDeviceSource method, IMFCaptureSource.GetCaptureDeviceSource, IMFCaptureSource::GetCaptureDeviceSource, mf.imfcapturesource_getcapturedevicesource, mfcaptureengine/IMFCaptureSource::GetCaptureDeviceSource
 ms.topic: method
-f1_keywords: 
- - "mfcaptureengine/IMFCaptureSource.GetCaptureDeviceSource"
+f1_keywords:
+- mfcaptureengine/IMFCaptureSource.GetCaptureDeviceSource
 dev_langs:
- - c++
+- c++
 req.header: mfcaptureengine.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfcaptureengine.h
+- mfcaptureengine.h
 api_name:
- - IMFCaptureSource.GetCaptureDeviceSource
+- IMFCaptureSource.GetCaptureDeviceSource
 targetos: Windows
 req.typenames: 
 req.redist: 

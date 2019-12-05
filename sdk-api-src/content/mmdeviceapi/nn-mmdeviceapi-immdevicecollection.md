@@ -1,19 +1,17 @@
 ---
 UID: NN:mmdeviceapi.IMMDeviceCollection
 title: IMMDeviceCollection (mmdeviceapi.h)
-
 description: The IMMDeviceCollection interface represents a collection of multimedia device resources.
 old-location: coreaudio\immdevicecollection.htm
 tech.root: CoreAudio
 ms.assetid: 4769b0a6-a319-4605-8742-5e7c285679cf
-
 ms.date: 12/05/2018
 ms.keywords: IMMDeviceCollection, IMMDeviceCollection interface [Core Audio], IMMDeviceCollection interface [Core Audio],described, coreaudio.immdevicecollection, mmdeviceapi/IMMDeviceCollection
 ms.topic: interface
-f1_keywords: 
- - "mmdeviceapi/IMMDeviceCollection"
+f1_keywords:
+- mmdeviceapi/IMMDeviceCollection
 dev_langs:
- - c++
+- c++
 req.header: mmdeviceapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mmdeviceapi.h
+- Mmdeviceapi.h
 api_name:
- - IMMDeviceCollection
+- IMMDeviceCollection
 targetos: Windows
 req.typenames: 
 req.redist: 

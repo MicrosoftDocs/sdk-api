@@ -1,19 +1,17 @@
 ---
 UID: NF:directmanipulation.IDirectManipulationViewport.SetChaining
 title: IDirectManipulationViewport::SetChaining (directmanipulation.h)
-
 description: Specifies the motion types supported in a viewport that can be chained to a parent viewport.
 old-location: directmanipulation\idirectmanipulationviewport_setchaining.htm
 tech.root: directmanipulation
 ms.assetid: c172e985-4dc4-4d2a-a9e1-d88bc86ff75b
-
 ms.date: 12/05/2018
 ms.keywords: IDirectManipulationViewport interface [Direct Manipulation],SetChaining method, IDirectManipulationViewport.SetChaining, IDirectManipulationViewport::SetChaining, SetChaining, SetChaining method [Direct Manipulation], SetChaining method [Direct Manipulation],IDirectManipulationViewport interface, directmanipulation.idirectmanipulationviewport_setchaining, directmanipulation/IDirectManipulationViewport::SetChaining
 ms.topic: method
-f1_keywords: 
- - "directmanipulation/IDirectManipulationViewport.SetChaining"
+f1_keywords:
+- directmanipulation/IDirectManipulationViewport.SetChaining
 dev_langs:
- - c++
+- c++
 req.header: directmanipulation.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - DirectManipulation.h
+- DirectManipulation.h
 api_name:
- - IDirectManipulationViewport.SetChaining
+- IDirectManipulationViewport.SetChaining
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:iscsidsc.SetupPersistentIScsiDevices
 title: SetupPersistentIScsiDevices function (iscsidsc.h)
-
 description: SetupPersistentIscsiDevices function builds the list of devices and volumes assigned to iSCSI targets that are connected to the computer, and saves this list in non-volatile cache of the iSCSI initiator service.
 old-location: iscsidisc\setuppersistentiscsidevices.htm
 tech.root: iSCSIDisc
 ms.assetid: b21e5872-24b2-4a4c-86a7-528789c1b9aa
-
 ms.date: 12/05/2018
 ms.keywords: SetupPersistentIScsiDevices, SetupPersistentIscsiDevices, SetupPersistentIscsiDevices function [iSCSI Discovery Library API], iscsidisc.setuppersistentiscsidevices, iscsidsc/SetupPersistentIscsiDevices
 ms.topic: function
-f1_keywords: 
- - "iscsidsc/SetupPersistentIscsiDevices"
+f1_keywords:
+- iscsidsc/SetupPersistentIscsiDevices
 dev_langs:
- - c++
+- c++
 req.header: iscsidsc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Iscsidsc.lib
 req.dll: Iscsidsc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Iscsidsc.dll
+- Iscsidsc.dll
 api_name:
- - SetupPersistentIscsiDevices
+- SetupPersistentIscsiDevices
 targetos: Windows
 req.typenames: 
 req.redist: 

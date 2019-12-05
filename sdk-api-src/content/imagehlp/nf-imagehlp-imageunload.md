@@ -1,19 +1,17 @@
 ---
 UID: NF:imagehlp.ImageUnload
 title: ImageUnload function (imagehlp.h)
-
 description: Deallocates resources from a previous call to the ImageLoad function.
 old-location: base\imageunload.htm
 tech.root: Debug
 ms.assetid: 9cebd32f-11fe-4dfe-9579-b219d62c3e74
-
 ms.date: 12/05/2018
 ms.keywords: ImageUnload, ImageUnload function, _win32_imageunload, base.imageunload, imagehlp/ImageUnload
 ms.topic: function
 f1_keywords:
 - imagehlp/ImageUnload
 dev_langs:
- - c++
+- c++
 req.header: imagehlp.h
 req.include-header: 
 req.target-type: Windows

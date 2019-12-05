@@ -1,19 +1,17 @@
 ---
 UID: NF:mfplay.IMFPMediaItem.GetStartStopPosition
 title: IMFPMediaItem::GetStartStopPosition (mfplay.h)
-
 description: Gets the start and stop times for the media item.
 old-location: mf\imfpmediaitem_getstartstopposition.htm
 tech.root: medfound
 ms.assetid: c992bbec-a5ca-4ece-a883-2a7d7b5d49b3
-
 ms.date: 12/05/2018
 ms.keywords: GetStartStopPosition, GetStartStopPosition method [Media Foundation], GetStartStopPosition method [Media Foundation],IMFPMediaItem interface, IMFPMediaItem interface [Media Foundation],GetStartStopPosition method, IMFPMediaItem.GetStartStopPosition, IMFPMediaItem::GetStartStopPosition, mf.imfpmediaitem_getstartstopposition, mfplay/IMFPMediaItem::GetStartStopPosition
 ms.topic: method
-f1_keywords: 
- - "mfplay/IMFPMediaItem.GetStartStopPosition"
+f1_keywords:
+- mfplay/IMFPMediaItem.GetStartStopPosition
 dev_langs:
- - c++
+- c++
 req.header: mfplay.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfplay.h
+- mfplay.h
 api_name:
- - IMFPMediaItem.GetStartStopPosition
+- IMFPMediaItem.GetStartStopPosition
 targetos: Windows
 req.typenames: 
 req.redist: 

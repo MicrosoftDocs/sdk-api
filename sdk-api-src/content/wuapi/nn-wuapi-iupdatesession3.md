@@ -1,19 +1,17 @@
 ---
 UID: NN:wuapi.IUpdateSession3
 title: IUpdateSession3 (wuapi.h)
-
 description: Represents a session in which the caller can perform operations that involve updates. For example, this interface represents sessions in which the caller performs a search, download, installation, or uninstallation operation.
 old-location: wua\iupdatesession3.htm
 tech.root: Wua_Sdk
 ms.assetid: 7caa07ee-ec78-45eb-99a2-0e6682790c88
-
 ms.date: 12/05/2018
 ms.keywords: IUpdateSession3, IUpdateSession3 interface [Windows Update Agent], IUpdateSession3 interface [Windows Update Agent],described, wua.iupdatesession3, wuapi/IUpdateSession3
 ms.topic: interface
-f1_keywords: 
- - "wuapi/IUpdateSession3"
+f1_keywords:
+- wuapi/IUpdateSession3
 dev_langs:
- - c++
+- c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Wuguid.lib
 req.dll: Wuapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wuapi.dll
+- Wuapi.dll
 api_name:
- - IUpdateSession3
+- IUpdateSession3
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:searchapi.ISearchQueryHelper.get_QueryMaxResults
 title: ISearchQueryHelper::get_QueryMaxResults (searchapi.h)
-
 description: Gets the maximum number of results to be returned by the query.
 old-location: search\_search_ISearchQueryHelper_get_QueryMaxResults.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\isearchqueryhelper\get_querymaxresults.htm
-
 ms.date: 12/05/2018
 ms.keywords: ISearchQueryHelper interface [search],get_QueryMaxResults method, ISearchQueryHelper.get_QueryMaxResults, ISearchQueryHelper::get_QueryMaxResults, _search_ISearchQueryHelper_get_QueryMaxResults, get_QueryMaxResults, get_QueryMaxResults method [search], get_QueryMaxResults method [search],ISearchQueryHelper interface, search._search_ISearchQueryHelper_get_QueryMaxResults, searchapi/ISearchQueryHelper::get_QueryMaxResults
 ms.topic: method
-f1_keywords: 
- - "searchapi/ISearchQueryHelper.get_QueryMaxResults"
+f1_keywords:
+- searchapi/ISearchQueryHelper.get_QueryMaxResults
 dev_langs:
- - c++
+- c++
 req.header: searchapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Searchapi.h
+- Searchapi.h
 api_name:
- - ISearchQueryHelper.get_QueryMaxResults
+- ISearchQueryHelper.get_QueryMaxResults
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0

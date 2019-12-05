@@ -1,19 +1,17 @@
 ---
 UID: NS:oleidl.tagOBJECTDESCRIPTOR
 title: OBJECTDESCRIPTOR (oleidl.h)
-
 description: Represents the data structure used for the CF_OBJECTDESRIPTOR and CF_LINKSRCDESCRIPTOR file formats.
 old-location: com\objectdescriptor.htm
 tech.root: com
 ms.assetid: 5865e16b-c1a5-4bfd-8d94-c2f8f73b1205
-
 ms.date: 12/05/2018
-ms.keywords: "*LPLINKSRCDESCRIPTOR, *LPOBJECTDESCRIPTOR, *PLINKSRCDESCRIPTOR, *POBJECTDESCRIPTOR, LINKSRCDESCRIPTOR, LPOBJECTDESCRIPTOR, LPOBJECTDESCRIPTOR structure pointer [COM], OBJECTDESCRIPTOR, OBJECTDESCRIPTOR structure [COM], POBJECTDESCRIPTOR, POBJECTDESCRIPTOR structure pointer [COM], _ole_OBJECTDESCRIPTOR, com.objectdescriptor, oleidl/LPOBJECTDESCRIPTOR, oleidl/OBJECTDESCRIPTOR, oleidl/POBJECTDESCRIPTOR"
+ms.keywords: '*LPLINKSRCDESCRIPTOR, *LPOBJECTDESCRIPTOR, *PLINKSRCDESCRIPTOR, *POBJECTDESCRIPTOR, LINKSRCDESCRIPTOR, LPOBJECTDESCRIPTOR, LPOBJECTDESCRIPTOR structure pointer [COM], OBJECTDESCRIPTOR, OBJECTDESCRIPTOR structure [COM], POBJECTDESCRIPTOR, POBJECTDESCRIPTOR structure pointer [COM], _ole_OBJECTDESCRIPTOR, com.objectdescriptor, oleidl/LPOBJECTDESCRIPTOR, oleidl/OBJECTDESCRIPTOR, oleidl/POBJECTDESCRIPTOR'
 ms.topic: struct
-f1_keywords: 
- - "oleidl/OBJECTDESCRIPTOR"
+f1_keywords:
+- oleidl/OBJECTDESCRIPTOR
 dev_langs:
- - c++
+- c++
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - OleIdl.h
+- OleIdl.h
 api_name:
- - OBJECTDESCRIPTOR
+- OBJECTDESCRIPTOR
 targetos: Windows
 req.typenames: OBJECTDESCRIPTOR, *POBJECTDESCRIPTOR, *LPOBJECTDESCRIPTOR, LINKSRCDESCRIPTOR, *PLINKSRCDESCRIPTOR, *LPLINKSRCDESCRIPTOR
 req.redist: 

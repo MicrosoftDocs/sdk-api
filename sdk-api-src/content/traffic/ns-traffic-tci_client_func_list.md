@@ -1,19 +1,17 @@
 ---
 UID: NS:traffic._TCI_CLIENT_FUNC_LIST
 title: TCI_CLIENT_FUNC_LIST (traffic.h)
-
 description: The TCI_CLIENT_FUNC_LIST structure is used by the traffic control interface to register and then access client-callback functions. Each member of TCI_CLIENT_FUNC_LIST is a pointer to the client provided&#8211;callback function.
 old-location: qos\tci_client_func_list.htm
 tech.root: QOS
 ms.assetid: 45eccc44-d170-49cc-b51d-bb502c2fc1c7
-
 ms.date: 12/05/2018
-ms.keywords: "*PTCI_CLIENT_FUNC_LIST, PTCI_CLIENT_FUNC_LIST, PTCI_CLIENT_FUNC_LIST structure pointer [QOS], TCI_CLIENT_FUNC_LIST, TCI_CLIENT_FUNC_LIST structure [QOS], _gqos_tci_client_func_list, qos.tci_client_func_list, traffic/PTCI_CLIENT_FUNC_LIST, traffic/TCI_CLIENT_FUNC_LIST"
+ms.keywords: '*PTCI_CLIENT_FUNC_LIST, PTCI_CLIENT_FUNC_LIST, PTCI_CLIENT_FUNC_LIST structure pointer [QOS], TCI_CLIENT_FUNC_LIST, TCI_CLIENT_FUNC_LIST structure [QOS], _gqos_tci_client_func_list, qos.tci_client_func_list, traffic/PTCI_CLIENT_FUNC_LIST, traffic/TCI_CLIENT_FUNC_LIST'
 ms.topic: struct
-f1_keywords: 
- - "traffic/TCI_CLIENT_FUNC_LIST"
+f1_keywords:
+- traffic/TCI_CLIENT_FUNC_LIST
 dev_langs:
- - c++
+- c++
 req.header: traffic.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Traffic.h
+- Traffic.h
 api_name:
- - TCI_CLIENT_FUNC_LIST
+- TCI_CLIENT_FUNC_LIST
 targetos: Windows
 req.typenames: TCI_CLIENT_FUNC_LIST, *PTCI_CLIENT_FUNC_LIST
 req.redist: 

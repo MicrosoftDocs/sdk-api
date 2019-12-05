@@ -1,19 +1,17 @@
 ---
 UID: NS:wingdi._ABC
 title: ABC (wingdi.h)
-
 description: The ABC structure contains the width of a character in a TrueType font.
 old-location: gdi\abc.htm
 tech.root: gdi
 ms.assetid: 00000000-0000-0000-0000-000000000001
-
 ms.date: 12/05/2018
-ms.keywords: "*LPABC, *NPABC, *PABC, ABC, ABC structure [Windows GDI], PABC, PABC structure pointer [Windows GDI], _win32_ABC_str, gdi.abc, wingdi/ABC, wingdi/PABC"
+ms.keywords: '*LPABC, *NPABC, *PABC, ABC, ABC structure [Windows GDI], PABC, PABC structure pointer [Windows GDI], _win32_ABC_str, gdi.abc, wingdi/ABC, wingdi/PABC'
 ms.topic: struct
-f1_keywords: 
- - "wingdi/ABC"
+f1_keywords:
+- wingdi/ABC
 dev_langs:
- - c++
+- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wingdi.h
+- Wingdi.h
 api_name:
- - ABC
+- ABC
 targetos: Windows
 req.typenames: ABC, *PABC, *NPABC, *LPABC
 req.redist: 

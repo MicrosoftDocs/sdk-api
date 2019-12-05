@@ -1,19 +1,17 @@
 ---
 UID: NF:gdiplusheaders.Bitmap.FromHICON
 title: Bitmap::FromHICON (gdiplusheaders.h)
-
 description: The Bitmap::FromHICON method creates a Bitmap object based on a handle to an icon.
 old-location: gdiplus\_gdiplus_CLASS_Bitmap_FromHICON_hicon_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\bitmapclass\bitmapmethods\fromhicon.htm
-
 ms.date: 12/05/2018
 ms.keywords: Bitmap class [GDI+],FromHICON method, Bitmap.FromHICON, Bitmap::FromHICON, FromHICON, FromHICON method [GDI+], FromHICON method [GDI+],Bitmap class, _gdiplus_CLASS_Bitmap_FromHICON_hicon_, gdiplus._gdiplus_CLASS_Bitmap_FromHICON_hicon_
 ms.topic: method
-f1_keywords: 
- - "gdiplusheaders/Bitmap.FromHICON"
+f1_keywords:
+- gdiplusheaders/Bitmap.FromHICON
 dev_langs:
- - c++
+- c++
 req.header: gdiplusheaders.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - Bitmap.FromHICON
+- Bitmap.FromHICON
 targetos: Windows
 req.typenames: 
 req.redist: 

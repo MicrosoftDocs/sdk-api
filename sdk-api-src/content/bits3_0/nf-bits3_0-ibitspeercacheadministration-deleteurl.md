@@ -1,19 +1,17 @@
 ---
 UID: NF:bits3_0.IBitsPeerCacheAdministration.DeleteUrl
 title: IBitsPeerCacheAdministration::DeleteUrl (bits3_0.h)
-
 description: Deletes all cache records and the file from the cache for the given URL.
 old-location: bits\ibitspeercacheadministration_deleteurl.htm
 tech.root: Bits
 ms.assetid: d4849830-62fa-4bf4-bfad-59bcdbf1a10e
-
 ms.date: 12/05/2018
 ms.keywords: DeleteUrl, DeleteUrl method [BITS], DeleteUrl method [BITS],IBitsPeerCacheAdministration interface, IBitsPeerCacheAdministration interface [BITS],DeleteUrl method, IBitsPeerCacheAdministration.DeleteUrl, IBitsPeerCacheAdministration::DeleteUrl, bits.ibitspeercacheadministration_deleteurl, bits3_0/IBitsPeerCacheAdministration::DeleteUrl
 ms.topic: method
-f1_keywords: 
- - "bits3_0/IBitsPeerCacheAdministration.DeleteUrl"
+f1_keywords:
+- bits3_0/IBitsPeerCacheAdministration.DeleteUrl
 dev_langs:
- - c++
+- c++
 req.header: bits3_0.h
 req.include-header: Bits.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Bits.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Bits.lib
- - Bits.dll
+- Bits.lib
+- Bits.dll
 api_name:
- - IBitsPeerCacheAdministration.DeleteUrl
+- IBitsPeerCacheAdministration.DeleteUrl
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:vfw.ICGetDefaultKeyFrameRate
 title: ICGetDefaultKeyFrameRate macro (vfw.h)
-
 description: The ICGetDefaultKeyFrameRate macro queries a video compression driver for its default (or preferred) key-frame spacing. You can use this macro or explicitly call the ICM_GETDEFAULTKEYFRAMERATE message.
 old-location: multimedia\icgetdefaultkeyframerate.htm
 tech.root: Multimedia
 ms.assetid: 81ae287a-13e3-4bf0-bdd8-915a81e78d32
-
 ms.date: 12/05/2018
 ms.keywords: ICGetDefaultKeyFrameRate, ICGetDefaultKeyFrameRate macro [Windows Multimedia], _win32_ICGetDefaultKeyFrameRate, multimedia.icgetdefaultkeyframerate, vfw/ICGetDefaultKeyFrameRate
 ms.topic: macro
-f1_keywords: 
- - "vfw/ICGetDefaultKeyFrameRate"
+f1_keywords:
+- vfw/ICGetDefaultKeyFrameRate
 dev_langs:
- - c++
+- c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Vfw.h
+- Vfw.h
 api_name:
- - ICGetDefaultKeyFrameRate
+- ICGetDefaultKeyFrameRate
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:ctfutb.ITfLangBarItemMgr.EnumItems
 title: ITfLangBarItemMgr::EnumItems (ctfutb.h)
-
 description: ITfLangBarItemMgr::EnumItems method
 old-location: tsf\itflangbaritemmgr_enumitems.htm
 tech.root: TSF
 ms.assetid: 90d61009-e0f7-4df6-a23b-1f9f489b15f9
-
 ms.date: 12/05/2018
 ms.keywords: EnumItems, EnumItems method [Text Services Framework], EnumItems method [Text Services Framework],ITfLangBarItemMgr interface, ITfLangBarItemMgr interface [Text Services Framework],EnumItems method, ITfLangBarItemMgr.EnumItems, ITfLangBarItemMgr::EnumItems, _tsf_itflangbaritemmgr_enumitems_ref, ctfutb/ITfLangBarItemMgr::EnumItems, tsf.itflangbaritemmgr_enumitems
 ms.topic: method
-f1_keywords: 
- - "ctfutb/ITfLangBarItemMgr.EnumItems"
+f1_keywords:
+- ctfutb/ITfLangBarItemMgr.EnumItems
 dev_langs:
- - c++
+- c++
 req.header: ctfutb.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msctf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msctf.dll
+- msctf.dll
 api_name:
- - ITfLangBarItemMgr.EnumItems
+- ITfLangBarItemMgr.EnumItems
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

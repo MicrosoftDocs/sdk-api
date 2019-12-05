@@ -1,19 +1,17 @@
 ---
 UID: NF:rpcnsi.RpcNsBindingSelect
 title: RpcNsBindingSelect function (rpcnsi.h)
-
 description: The RpcNsBindingSelect function returns a binding handle from a list of compatible binding handles.
 old-location: rpc\rpcnsbindingselect.htm
 tech.root: Rpc
 ms.assetid: 1acdd266-9ca2-43d4-b677-7c30b4dca4ee
-
 ms.date: 12/05/2018
 ms.keywords: RpcNsBindingSelect, RpcNsBindingSelect function [RPC], _rpc_rpcnsbindingselect, rpc.rpcnsbindingselect, rpcnsi/RpcNsBindingSelect
 ms.topic: function
-f1_keywords: 
- - "rpcnsi/RpcNsBindingSelect"
+f1_keywords:
+- rpcnsi/RpcNsBindingSelect
 dev_langs:
- - c++
+- c++
 req.header: rpcnsi.h
 req.include-header: Rpc.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Rpcns4.lib
 req.dll: Rpcns4.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Rpcns4.dll
+- Rpcns4.dll
 api_name:
- - RpcNsBindingSelect
+- RpcNsBindingSelect
 targetos: Windows
 req.typenames: 
 req.redist: 

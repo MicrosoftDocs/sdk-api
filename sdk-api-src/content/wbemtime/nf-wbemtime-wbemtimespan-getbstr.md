@@ -1,19 +1,17 @@
 ---
 UID: NF:wbemtime.WBEMTimeSpan.GetBSTR
 title: WBEMTimeSpan::GetBSTR (wbemtime.h)
-
 description: The GetBSTR method gets the time span as a BSTR in Date and Time format.
 old-location: wmi\wbemtimespan_getbstr.htm
 tech.root: WmiSdk
 ms.assetid: f5db5a7a-0590-4598-bde7-e90cfc7cd932
-
 ms.date: 12/05/2018
 ms.keywords: GetBSTR, GetBSTR method [Windows Management Instrumentation], GetBSTR method [Windows Management Instrumentation],WBEMTimeSpan interface, WBEMTimeSpan interface [Windows Management Instrumentation],GetBSTR method, WBEMTimeSpan.GetBSTR, WBEMTimeSpan::GetBSTR, _hmm_wbemtimespan_getbstr, wbemtime/WBEMTimeSpan::GetBSTR, wmi.wbemtimespan_getbstr
 ms.topic: method
-f1_keywords: 
- - "wbemtime/WBEMTimeSpan.GetBSTR"
+f1_keywords:
+- wbemtime/WBEMTimeSpan.GetBSTR
 dev_langs:
- - c++
+- c++
 req.header: wbemtime.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: FrameDynOS.dll; FrameDyn.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - FrameDynOS.dll
- - FrameDyn.dll
+- FrameDynOS.dll
+- FrameDyn.dll
 api_name:
- - WBEMTimeSpan.GetBSTR
+- WBEMTimeSpan.GetBSTR
 targetos: Windows
 req.typenames: 
 req.redist: 

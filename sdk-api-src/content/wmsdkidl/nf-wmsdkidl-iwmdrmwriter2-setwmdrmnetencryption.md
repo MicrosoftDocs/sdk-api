@@ -1,19 +1,17 @@
 ---
 UID: NF:wmsdkidl.IWMDRMWriter2.SetWMDRMNetEncryption
 title: IWMDRMWriter2::SetWMDRMNetEncryption (wmsdkidl.h)
-
 description: The SetWMDRMNetEncryption method configures the writer to receive input samples encoded with Windows Media DRM 10 for Network Devices.
 old-location: wmformat\iwmdrmwriter2_setwmdrmnetencryption.htm
 tech.root: wmformat
 ms.assetid: ecbc7dda-de24-40ce-9c42-44a14ab63881
-
 ms.date: 12/05/2018
 ms.keywords: IWMDRMWriter2 interface [windows Media Format],SetWMDRMNetEncryption method, IWMDRMWriter2.SetWMDRMNetEncryption, IWMDRMWriter2::SetWMDRMNetEncryption, IWMDRMWriter2SetWMDRMNetEncryption, SetWMDRMNetEncryption, SetWMDRMNetEncryption method [windows Media Format], SetWMDRMNetEncryption method [windows Media Format],IWMDRMWriter2 interface, wmformat.iwmdrmwriter2_setwmdrmnetencryption, wmsdkidl/IWMDRMWriter2::SetWMDRMNetEncryption
 ms.topic: method
-f1_keywords: 
- - "wmsdkidl/IWMDRMWriter2.SetWMDRMNetEncryption"
+f1_keywords:
+- wmsdkidl/IWMDRMWriter2.SetWMDRMNetEncryption
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wmvcore.lib
- - Wmvcore.dll
- - WMStubDRM.lib
- - WMStubDRM.dll
+- Wmvcore.lib
+- Wmvcore.dll
+- WMStubDRM.lib
+- WMStubDRM.dll
 api_name:
- - IWMDRMWriter2.SetWMDRMNetEncryption
+- IWMDRMWriter2.SetWMDRMNetEncryption
 targetos: Windows
 req.typenames: 
 req.redist: 

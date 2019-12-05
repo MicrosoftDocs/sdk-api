@@ -1,19 +1,17 @@
 ---
 UID: NE:oleidl.tagBINDSPEED
 title: BINDSPEED (oleidl.h)
-
 description: Indicates approximately how long the caller will wait to bind to an object.
 old-location: com\bindspeed.htm
 tech.root: com
 ms.assetid: d39f662b-60ef-4e84-ae62-14e360a57b4f
-
 ms.date: 12/05/2018
 ms.keywords: BINDSPEED, BINDSPEED enumeration [COM], BINDSPEED_IMMEDIATE, BINDSPEED_INDEFINITE, BINDSPEED_MODERATE, _com_BINDSPEED, com.bindspeed, oleidl/BINDSPEED, oleidl/BINDSPEED_IMMEDIATE, oleidl/BINDSPEED_INDEFINITE, oleidl/BINDSPEED_MODERATE
 ms.topic: enum
-f1_keywords: 
- - "oleidl/BINDSPEED"
+f1_keywords:
+- oleidl/BINDSPEED
 dev_langs:
- - c++
+- c++
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Oleidl.h
+- Oleidl.h
 api_name:
- - BINDSPEED
+- BINDSPEED
 targetos: Windows
 req.typenames: BINDSPEED
 req.redist: 

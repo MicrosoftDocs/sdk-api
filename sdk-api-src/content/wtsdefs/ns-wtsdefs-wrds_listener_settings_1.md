@@ -1,19 +1,17 @@
 ---
 UID: NS:wtsdefs._WRDS_LISTENER_SETTINGS_1
 title: WRDS_LISTENER_SETTINGS_1 (wtsdefs.h)
-
 description: Contains listener settings for a remote session.
 old-location: termserv\wrds_listener_settings_1.htm
 tech.root: TermServ
 ms.assetid: F8F35CED-16EC-4FBB-A3CA-2A5545A88B4A
-
 ms.date: 12/05/2018
-ms.keywords: "*PWRDS_LISTENER_SETTINGS_1, PWRDS_LISTENER_SETTINGS_1, PWRDS_LISTENER_SETTINGS_1 structure pointer [Remote Desktop Services], WRDS_LISTENER_SETTINGS_1, WRDS_LISTENER_SETTINGS_1 structure [Remote Desktop Services], termserv.wrds_listener_settings_1, wtsdefs/PWRDS_LISTENER_SETTINGS_1, wtsdefs/WRDS_LISTENER_SETTINGS_1"
+ms.keywords: '*PWRDS_LISTENER_SETTINGS_1, PWRDS_LISTENER_SETTINGS_1, PWRDS_LISTENER_SETTINGS_1 structure pointer [Remote Desktop Services], WRDS_LISTENER_SETTINGS_1, WRDS_LISTENER_SETTINGS_1 structure [Remote Desktop Services], termserv.wrds_listener_settings_1, wtsdefs/PWRDS_LISTENER_SETTINGS_1, wtsdefs/WRDS_LISTENER_SETTINGS_1'
 ms.topic: struct
-f1_keywords: 
- - "wtsdefs/WRDS_LISTENER_SETTINGS_1"
+f1_keywords:
+- wtsdefs/WRDS_LISTENER_SETTINGS_1
 dev_langs:
- - c++
+- c++
 req.header: wtsdefs.h
 req.include-header: Wtsprotocol.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wtsdefs.h
+- Wtsdefs.h
 api_name:
- - WRDS_LISTENER_SETTINGS_1
+- WRDS_LISTENER_SETTINGS_1
 targetos: Windows
 req.typenames: WRDS_LISTENER_SETTINGS_1, *PWRDS_LISTENER_SETTINGS_1
 req.redist: 

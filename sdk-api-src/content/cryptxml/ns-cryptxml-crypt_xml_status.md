@@ -1,19 +1,17 @@
 ---
 UID: NS:cryptxml._CRYPT_XML_STATUS
 title: CRYPT_XML_STATUS (cryptxml.h)
-
 description: Returns information about the signature validation status, summary status information about a SignedInfo element, or summary status information about an array of Reference elements.
 old-location: security\crypt_xml_status.htm
 tech.root: SecCrypto
 ms.assetid: 1d49429e-9c81-4bf0-92d8-4effe9795dc9
-
 ms.date: 12/05/2018
-ms.keywords: "*PCRYPT_XML_STATUS, CRYPT_XML_STATUS, CRYPT_XML_STATUS structure [Security], CRYPT_XML_STATUS_DIGESTING, CRYPT_XML_STATUS_DIGEST_VALID, CRYPT_XML_STATUS_ERROR_DIGEST_INVALID, CRYPT_XML_STATUS_ERROR_KEYINFO_NOT_PARSED, CRYPT_XML_STATUS_ERROR_NOT_RESOLVED, CRYPT_XML_STATUS_ERROR_NOT_SUPPORTED_ALGORITHM, CRYPT_XML_STATUS_ERROR_NOT_SUPPORTED_TRANSFORM, CRYPT_XML_STATUS_ERROR_SIGNATURE_INVALID, CRYPT_XML_STATUS_INTERNAL_REFERENCE, CRYPT_XML_STATUS_KEY_AVAILABLE, CRYPT_XML_STATUS_OPENED_TO_ENCODE, CRYPT_XML_STATUS_SIGNATURE_VALID, PCRYPT_XML_STATUS, PCRYPT_XML_STATUS structure pointer [Security], cryptxml/CRYPT_XML_STATUS, cryptxml/PCRYPT_XML_STATUS, security.crypt_xml_status"
+ms.keywords: '*PCRYPT_XML_STATUS, CRYPT_XML_STATUS, CRYPT_XML_STATUS structure [Security], CRYPT_XML_STATUS_DIGESTING, CRYPT_XML_STATUS_DIGEST_VALID, CRYPT_XML_STATUS_ERROR_DIGEST_INVALID, CRYPT_XML_STATUS_ERROR_KEYINFO_NOT_PARSED, CRYPT_XML_STATUS_ERROR_NOT_RESOLVED, CRYPT_XML_STATUS_ERROR_NOT_SUPPORTED_ALGORITHM, CRYPT_XML_STATUS_ERROR_NOT_SUPPORTED_TRANSFORM, CRYPT_XML_STATUS_ERROR_SIGNATURE_INVALID, CRYPT_XML_STATUS_INTERNAL_REFERENCE, CRYPT_XML_STATUS_KEY_AVAILABLE, CRYPT_XML_STATUS_OPENED_TO_ENCODE, CRYPT_XML_STATUS_SIGNATURE_VALID, PCRYPT_XML_STATUS, PCRYPT_XML_STATUS structure pointer [Security], cryptxml/CRYPT_XML_STATUS, cryptxml/PCRYPT_XML_STATUS, security.crypt_xml_status'
 ms.topic: struct
-f1_keywords: 
- - "cryptxml/CRYPT_XML_STATUS"
+f1_keywords:
+- cryptxml/CRYPT_XML_STATUS
 dev_langs:
- - c++
+- c++
 req.header: cryptxml.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Cryptxml.h
+- Cryptxml.h
 api_name:
- - CRYPT_XML_STATUS
+- CRYPT_XML_STATUS
 targetos: Windows
 req.typenames: CRYPT_XML_STATUS, *PCRYPT_XML_STATUS
 req.redist: 

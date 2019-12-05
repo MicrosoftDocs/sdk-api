@@ -1,19 +1,17 @@
 ---
 UID: NN:tom.ITextRow
 title: ITextRow (tom.h)
-
 description: The ITextRow interface provides methods to insert one or more identical table rows, and to retrieve and change table row properties. To insert nonidentical rows, call ITextRow::Insert for each different row configuration.
 old-location: controls\itextrow.htm
 tech.root: Controls
 ms.assetid: 49f5ffc1-d615-4d07-9f41-1c5f0dd9045b
-
 ms.date: 12/05/2018
 ms.keywords: ITextRow, ITextRow interface [Windows Controls], ITextRow interface [Windows Controls],described, controls.itextrow, tom/ITextRow
 ms.topic: interface
-f1_keywords: 
- - "tom/ITextRow"
+f1_keywords:
+- tom/ITextRow
 dev_langs:
- - c++
+- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msftedit.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msftedit.dll
+- Msftedit.dll
 api_name:
- - ITextRow
+- ITextRow
 targetos: Windows
 req.typenames: 
 req.redist: 

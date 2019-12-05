@@ -1,19 +1,17 @@
 ---
 UID: NE:d2d1.D2D1_DC_INITIALIZE_MODE
 title: D2D1_DC_INITIALIZE_MODE (d2d1.h)
-
 description: Specifies how a device context is initialized for GDI rendering when it is retrieved from the render target.
 old-location: direct2d\D2D1_DC_INITIALIZE_MODE.htm
 tech.root: Direct2D
 ms.assetid: a7837fe4-6e11-42a0-8a85-cba42e0f123a
-
 ms.date: 12/05/2018
 ms.keywords: D2D1_DC_INITIALIZE_MODE, D2D1_DC_INITIALIZE_MODE enumeration [Direct2D], D2D1_DC_INITIALIZE_MODE_CLEAR, D2D1_DC_INITIALIZE_MODE_COPY, d2d1/D2D1_DC_INITIALIZE_MODE, d2d1/D2D1_DC_INITIALIZE_MODE_CLEAR, d2d1/D2D1_DC_INITIALIZE_MODE_COPY, direct2d.D2D1_DC_INITIALIZE_MODE
 ms.topic: enum
-f1_keywords: 
- - "d2d1/D2D1_DC_INITIALIZE_MODE"
+f1_keywords:
+- d2d1/D2D1_DC_INITIALIZE_MODE
 dev_langs:
- - c++
+- c++
 req.header: d2d1.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - d2d1.h
+- d2d1.h
 api_name:
- - D2D1_DC_INITIALIZE_MODE
+- D2D1_DC_INITIALIZE_MODE
 targetos: Windows
 req.typenames: D2D1_DC_INITIALIZE_MODE
 req.redist: 

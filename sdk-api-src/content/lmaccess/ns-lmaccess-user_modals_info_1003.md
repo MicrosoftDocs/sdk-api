@@ -1,19 +1,17 @@
 ---
 UID: NS:lmaccess._USER_MODALS_INFO_1003
 title: USER_MODALS_INFO_1003 (lmaccess.h)
-
 description: The USER_MODALS_INFO_1003 structure contains the minimum duration for passwords in the security database, which is the security accounts manager (SAM) database or, in the case of domain controllers, the Active Directory.
 old-location: netmgmt\user_modals_info_1003_str.htm
 tech.root: NetMgmt
 ms.assetid: 5efbba0f-b871-4ffa-8e83-abeab6b70a52
-
 ms.date: 12/05/2018
-ms.keywords: "*LPUSER_MODALS_INFO_1003, *PUSER_MODALS_INFO_1003, LPUSER_MODALS_INFO_1003, LPUSER_MODALS_INFO_1003 structure pointer [Network Management], PUSER_MODALS_INFO_1003, PUSER_MODALS_INFO_1003 structure pointer [Network Management], USER_MODALS_INFO_1003, USER_MODALS_INFO_1003 structure [Network Management], _win32_user_modals_info_1003_str, lmaccess/LPUSER_MODALS_INFO_1003, lmaccess/PUSER_MODALS_INFO_1003, lmaccess/USER_MODALS_INFO_1003, netmgmt.user_modals_info_1003_str"
+ms.keywords: '*LPUSER_MODALS_INFO_1003, *PUSER_MODALS_INFO_1003, LPUSER_MODALS_INFO_1003, LPUSER_MODALS_INFO_1003 structure pointer [Network Management], PUSER_MODALS_INFO_1003, PUSER_MODALS_INFO_1003 structure pointer [Network Management], USER_MODALS_INFO_1003, USER_MODALS_INFO_1003 structure [Network Management], _win32_user_modals_info_1003_str, lmaccess/LPUSER_MODALS_INFO_1003, lmaccess/PUSER_MODALS_INFO_1003, lmaccess/USER_MODALS_INFO_1003, netmgmt.user_modals_info_1003_str'
 ms.topic: struct
-f1_keywords: 
- - "lmaccess/USER_MODALS_INFO_1003"
+f1_keywords:
+- lmaccess/USER_MODALS_INFO_1003
 dev_langs:
- - c++
+- c++
 req.header: lmaccess.h
 req.include-header: Lm.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Lmaccess.h
+- Lmaccess.h
 api_name:
- - USER_MODALS_INFO_1003
+- USER_MODALS_INFO_1003
 targetos: Windows
 req.typenames: USER_MODALS_INFO_1003, *PUSER_MODALS_INFO_1003, *LPUSER_MODALS_INFO_1003
 req.redist: 

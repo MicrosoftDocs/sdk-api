@@ -1,19 +1,17 @@
 ---
 UID: NF:tbs.Tbsip_Cancel_Commands
 title: Tbsip_Cancel_Commands function (tbs.h)
-
 description: Cancels all outstanding commands for the specified context.
 old-location: tbs\_tbsip_cancel_commands.htm
 tech.root: TBS
 ms.assetid: aaf209cb-2250-4c23-900f-9026d2f44e24
-
 ms.date: 12/05/2018
 ms.keywords: Tbsip_Cancel_Commands, Tbsip_Cancel_Commands function [TBS], tbs._tbsip_cancel_commands, tbs/Tbsip_Cancel_Commands
 ms.topic: function
-f1_keywords: 
- - "tbs/Tbsip_Cancel_Commands"
+f1_keywords:
+- tbs/Tbsip_Cancel_Commands
 dev_langs:
- - c++
+- c++
 req.header: tbs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Tbs.lib
 req.dll: Tbs.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Tbs.dll
+- Tbs.dll
 api_name:
- - Tbsip_Cancel_Commands
+- Tbsip_Cancel_Commands
 targetos: Windows
 req.typenames: 
 req.redist: 

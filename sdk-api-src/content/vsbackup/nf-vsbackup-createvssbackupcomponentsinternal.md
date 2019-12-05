@@ -1,19 +1,17 @@
 ---
 UID: NF:vsbackup.CreateVssBackupComponentsInternal
 title: CreateVssBackupComponentsInternal function (vsbackup.h)
-
 description: The CreateVssBackupComponents function creates an IVssBackupComponents interface object and returns a pointer to it.
 old-location: base\createvssbackupcomponents.htm
 tech.root: VSS
 ms.assetid: 5531e57a-49e0-42e9-abf0-e8a4849ccac6
-
 ms.date: 12/05/2018
 ms.keywords: CreateVssBackupComponents, CreateVssBackupComponents function [VSS], CreateVssBackupComponentsInternal, _win32_createvssbackupcomponents, base.createvssbackupcomponents, vsbackup/CreateVssBackupComponents, vsbackup/CreateVssBackupComponentsInternal
 ms.topic: function
-f1_keywords: 
- - "vsbackup/CreateVssBackupComponents"
+f1_keywords:
+- vsbackup/CreateVssBackupComponents
 dev_langs:
- - c++
+- c++
 req.header: vsbackup.h
 req.include-header: VsBackup.h, Vss.h, VsWriter.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: VssApi.lib
 req.dll: VssApi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - VssApi.dll
- - Ext-MS-Win-Fs-VssAPI-L1-1-0.dll
+- VssApi.dll
+- Ext-MS-Win-Fs-VssAPI-L1-1-0.dll
 api_name:
- - CreateVssBackupComponents
- - CreateVssBackupComponentsInternal
+- CreateVssBackupComponents
+- CreateVssBackupComponentsInternal
 targetos: Windows
 req.typenames: 
 req.redist: 

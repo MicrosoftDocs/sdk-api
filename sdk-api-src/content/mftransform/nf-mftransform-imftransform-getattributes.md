@@ -1,19 +1,17 @@
 ---
 UID: NF:mftransform.IMFTransform.GetAttributes
 title: IMFTransform::GetAttributes (mftransform.h)
-
 description: Gets the global attribute store for this Media Foundation transform (MFT).
 old-location: mf\imftransform_getattributes.htm
 tech.root: medfound
 ms.assetid: cb3ba2bc-550c-43b4-a69c-b546f2b92acc
-
 ms.date: 12/05/2018
 ms.keywords: GetAttributes, GetAttributes method [Media Foundation], GetAttributes method [Media Foundation],IMFTransform interface, IMFTransform interface [Media Foundation],GetAttributes method, IMFTransform.GetAttributes, IMFTransform::GetAttributes, cb3ba2bc-550c-43b4-a69c-b546f2b92acc, mf.imftransform_getattributes, mftransform/IMFTransform::GetAttributes
 ms.topic: method
-f1_keywords: 
- - "mftransform/IMFTransform.GetAttributes"
+f1_keywords:
+- mftransform/IMFTransform.GetAttributes
 dev_langs:
- - c++
+- c++
 req.header: mftransform.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFTransform.GetAttributes
+- IMFTransform.GetAttributes
 targetos: Windows
 req.typenames: 
 req.redist: 

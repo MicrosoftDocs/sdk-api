@@ -1,19 +1,17 @@
 ---
 UID: NF:msrdc.IRdcGeneratorFilterMaxParameters.SetHashWindowSize
 title: IRdcGeneratorFilterMaxParameters::SetHashWindowSize (msrdc.h)
-
 description: Sets the hash window size&#8212;the size of the sliding window used by the FilterMax generator for computing the hash used in the local maxima calculations.
 old-location: rdc\irdcgeneratorfiltermaxparameters_sethashwindowsize.htm
 tech.root: rdc
 ms.assetid: b18a5db1-f480-46c4-bac3-b0b2f0da6cfa
-
 ms.date: 12/05/2018
 ms.keywords: IRdcGeneratorFilterMaxParameters interface [Remote Differential Compression],SetHashWindowSize method, IRdcGeneratorFilterMaxParameters.SetHashWindowSize, IRdcGeneratorFilterMaxParameters::SetHashWindowSize, SetHashWindowSize, SetHashWindowSize method [Remote Differential Compression], SetHashWindowSize method [Remote Differential Compression],IRdcGeneratorFilterMaxParameters interface, fs.irdcgeneratorfiltermaxparameters_sethashwindowsize, msrdc/IRdcGeneratorFilterMaxParameters::SetHashWindowSize, rdc.irdcgeneratorfiltermaxparameters_sethashwindowsize
 ms.topic: method
-f1_keywords: 
- - "msrdc/IRdcGeneratorFilterMaxParameters.SetHashWindowSize"
+f1_keywords:
+- msrdc/IRdcGeneratorFilterMaxParameters.SetHashWindowSize
 dev_langs:
- - c++
+- c++
 req.header: msrdc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: MsRdc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - MsRdc.dll
+- MsRdc.dll
 api_name:
- - IRdcGeneratorFilterMaxParameters.SetHashWindowSize
+- IRdcGeneratorFilterMaxParameters.SetHashWindowSize
 targetos: Windows
 req.typenames: 
 req.redist: 
